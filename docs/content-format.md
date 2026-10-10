@@ -67,6 +67,17 @@ exercice est toujours possible : seul l'id reste figé.
 - Ponctuation arabe : `؟` `،` `؛` et le point `.`. Pas de `?` ni de `,` latins dans un texte arabe.
 - Pour montrer un signe seul (tanwin, shadda…), on le pose sur le cercle pointillé `◌` (U+25CC) :
   `{ar|◌ٌ}`. C'est le seul support admis pour un signe isolé.
+- Article : devant une lettre lunaire, le lām porte un sukūn (`الْكِتَابُ`) ; devant une lettre
+  solaire, le lām reste nu et la lettre solaire porte la shadda (`الشَّمْسُ`). L'alif de l'article
+  reste nu, sauf dans une astuce qui montre sa prononciation en début de phrase (`اَلْكِتَابُ`).
+
+**Masquer les harakat (réglage d'affichage)**
+- S'applique aux mots, aux phrases, aux exercices et aux dialogues.
+- Ne s'applique **jamais** aux astuces (`tip`), qui expliquent justement ces signes, ni à un
+  passage contenant `◌`.
+- Conséquence pour la rédaction : dans un même exercice, deux choix, deux options ou deux étiquettes
+  ne doivent jamais différer **seulement** par les harakat (`الْبَيْتُ` / `الْبَيْتٌ`) : une fois
+  les harakat masquées, ils seraient identiques.
 
 **Ce que les outils font automatiquement**
 - Normalisation Unicode (NFC) au chargement : l'ordre de saisie des signes (shadda puis tanwin, ou
@@ -392,10 +403,15 @@ Conséquences :
 - `mcq` : 2 ou 3 distracteurs ; en mode `icon-ar`, l'élément a une icône ; sans distracteurs
   explicites, au moins 2 candidats disponibles.
 - `match` : 3 à 5 éléments ; en mode `sing-plur`, tous ont un pluriel, sans doublon.
-- `fill_gap` : chaque `{n}` présent une fois et correspondant à `gaps` ; chaque réponse dans `options`.
-- `order` : toutes les `answers` utilisent exactement les mêmes étiquettes.
+- `fill_gap` : chaque `{n}` présent une fois et correspondant à `gaps` ; chaque réponse dans `options` ;
+  options différentes même sans harakat.
+- `order` : toutes les `answers` utilisent exactement les mêmes étiquettes ; étiquettes et
+  distracteurs différents même sans harakat (ou strictement identiques, donc interchangeables).
 - `typing` : `item` ou `answers` (pas les deux) ; `question` présent si et seulement si `ask` vaut `question`.
-- `question` : 2 à 4 choix différents, `answer` dans les bornes.
+- `question` : 2 à 4 choix différents même sans harakat, `answer` dans les bornes.
+- Article vocalisé selon la règle lunaire / solaire (§3).
+- Pas de démonstratif masculin (`هٰذَا`, `ذٰلِكَ`) directement suivi d'un nom marqué féminin
+  (`gender: "f"`) : les démonstratifs féminins seront enseignés plus tard.
 - `context.dialogue` désigne un écran `dialogue` déjà vu.
 - Règles du texte arabe (§3) et balises `{ar|…}` bien formées.
 - Chaque audio attendu existe dans `assets/audio/`.

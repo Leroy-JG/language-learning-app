@@ -1,0 +1,90 @@
+{
+  "id": "medine-t1.l03.grammar-3",
+  "type": "grammar",
+  "title": "« Le stylo est cassé »",
+  "screens": [
+    {
+      "id": "medine-t1.l03.grammar-3#1",
+      "type": "tip",
+      "title": "Une phrase sans verbe",
+      "blocks": [
+        { "type": "paragraph", "text": "Un nom **défini** suivi d'un mot **indéfini** forme une phrase complète, sans verbe « être » :" },
+        { "type": "example", "ar": "الْقَلَمُ مَكْسُورٌ.", "fr": "Le stylo est cassé." },
+        { "type": "example", "ar": "الْبَابُ مَفْتُوحٌ.", "fr": "La porte est ouverte." },
+        { "type": "example", "ar": "الْوَلَدُ جَالِسٌ، وَالْمُدَرِّسُ وَاقِفٌ.", "fr": "Le garçon est assis, et l'enseignant est debout." },
+        { "type": "note", "text": "Compare : {ar|هٰذَا كِتَابٌ جَدِيدٌ} (c'est un livre neuf) et {ar|الْكِتَابُ جَدِيدٌ} (le livre est neuf)." }
+      ]
+    },
+    {
+      "id": "medine-t1.l03.grammar-3#2",
+      "type": "order",
+      "fr": "Le stylo est cassé.",
+      "answers": [["الْقَلَمُ", "مَكْسُورٌ"]],
+      "punctuation": ".",
+      "distractors": ["قَلَمٌ"]
+    },
+    {
+      "id": "medine-t1.l03.grammar-3#3",
+      "type": "fill_gap",
+      "sentence": "الْبَابُ {0}.",
+      "fr": "La porte est ouverte.",
+      "gaps": [{ "answers": ["مَفْتُوحٌ"] }],
+      "options": ["مَفْتُوحٌ", "مَكْسُورٌ", "جَالِسٌ"]
+    },
+    {
+      "id": "medine-t1.l03.grammar-3#4",
+      "type": "fill_gap",
+      "sentence": "{0} جَالِسٌ، {1} وَاقِفٌ.",
+      "fr": "Le garçon est assis, et l'enseignant est debout.",
+      "gaps": [{ "answers": ["الْوَلَدُ"] }, { "answers": ["وَالْمُدَرِّسُ"] }],
+      "options": ["الْوَلَدُ", "وَالْمُدَرِّسُ", "وَلَدٌ", "مُدَرِّسٌ"]
+    },
+    {
+      "id": "medine-t1.l03.grammar-3#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le livre est neuf.",
+      "answers": ["الْكِتَابُ جَدِيدٌ."]
+    },
+    {
+      "id": "medine-t1.l03.grammar-3#6",
+      "type": "tip",
+      "title": "La hamza de liaison",
+      "blocks": [
+        { "type": "paragraph", "text": "L'article s'écrit avec deux lettres : un **alif**, appelé {ar|هَمْزَةُ الْوَصْلِ} (la hamza de liaison), et un **lām**." },
+        { "type": "paragraph", "text": "La hamza de liaison ne se prononce **qu'en début de phrase**. Au milieu d'une phrase, on passe directement au « l »." },
+        { "type": "example", "ar": "اَلْكِتَابُ جَدِيدٌ.", "fr": "Le livre est neuf. (« al-kitābu… »)" },
+        { "type": "example", "ar": "هٰذَا الْكِتَابُ جَدِيدٌ.", "fr": "Ce livre est neuf. (« hādhā l-kitābu… »)" },
+        { "type": "note", "text": "{ar|هٰذَا الْكِتَابُ} veut dire « ce livre » : le démonstratif suivi d'un nom défini montre la chose dont on parle." }
+      ]
+    },
+    {
+      "id": "medine-t1.l03.grammar-3#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|هٰذَا الْكِتَابُ}, prononce-t-on le « a » de l'article ?" },
+      "choices": [ { "fr": "Non : on dit « hādhā l-kitābu »" }, { "fr": "Oui : on dit « hādhā al-kitābu »" } ],
+      "answer": 0,
+      "explain": "Au milieu d'une phrase, la hamza de liaison ne se prononce pas."
+    },
+    {
+      "id": "medine-t1.l03.grammar-3#8",
+      "type": "true_false",
+      "statement": { "fr": "La hamza de liaison se prononce seulement en début de phrase." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l03.grammar-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le garçon est assis.",
+      "answers": ["الْوَلَدُ جَالِسٌ."]
+    },
+    {
+      "id": "medine-t1.l03.grammar-3#10",
+      "type": "order",
+      "fr": "Le garçon est assis, et l'enseignant est debout.",
+      "answers": [["الْوَلَدُ", "جَالِسٌ،", "وَالْمُدَرِّسُ", "وَاقِفٌ"]],
+      "punctuation": "."
+    }
+  ]
+}

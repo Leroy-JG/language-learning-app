@@ -8,7 +8,7 @@
       "type": "tip",
       "title": "Les mots en arabe",
       "blocks": [
-        { "type": "paragraph", "text": "En arabe, chaque mot ({ar|الكَلِمَةُ}) appartient à l'une de ces **trois catégories** :" },
+        { "type": "paragraph", "text": "En arabe, chaque mot ({ar|الْكَلِمَةُ}) appartient à l'une de ces **trois catégories** :" },
         {
           "type": "table",
           "header": ["Arabe", "Français"],
@@ -34,7 +34,7 @@
           "rows": [
             ["{ar|مُحَمَّدٌ}", "une personne (Muḥammad)"],
             ["{ar|مَسْجِدٌ}", "un lieu (une mosquée)"],
-            ["{ar|اليَوْمُ}", "un moment (aujourd'hui)"],
+            ["{ar|الْيَوْمُ}", "un moment (aujourd'hui)"],
             ["{ar|كِتَابَةٌ}", "une action (l'écriture)"]
           ]
         }
@@ -44,17 +44,17 @@
     {
       "id": "medine-t1.l01.intro#5",
       "type": "tip",
-      "title": "Le verbe : {ar|الفِعْلُ}",
+      "title": "Le verbe : {ar|الْفِعْلُ}",
       "blocks": [
         { "type": "example", "ar": "مَا يَدُلُّ عَلَى حَدَثٍ وَزَمَانٍ", "fr": "Ce qui indique une action et un temps." },
-        { "type": "paragraph", "text": "Le verbe a **trois temps** ({ar|أَزْمِنَةُ الفِعْلِ ثَلَاثَةٌ}) :" },
+        { "type": "paragraph", "text": "Le verbe a **trois temps** ({ar|أَزْمِنَةُ الْفِعْلِ ثَلَاثَةٌ}) :" },
         {
           "type": "table",
           "header": ["Arabe", "Français"],
           "rows": [
-            ["{ar|المَاضِي}", "le passé"],
-            ["{ar|المُضَارِعُ}", "le présent"],
-            ["{ar|الأَمْرُ}", "l'impératif (l'ordre)"]
+            ["{ar|الْمَاضِي}", "le passé"],
+            ["{ar|الْمُضَارِعُ}", "le présent"],
+            ["{ar|الْأَمْرُ}", "l'impératif (l'ordre)"]
           ]
         }
       ]
@@ -63,7 +63,7 @@
     {
       "id": "medine-t1.l01.intro#7",
       "type": "tip",
-      "title": "La particule : {ar|الحَرْفُ}",
+      "title": "La particule : {ar|الْحَرْفُ}",
       "blocks": [
         { "type": "example", "ar": "مَا يَدُلُّ عَلَى مَعْنًى فِي غَيْرِهِ", "fr": "Ce qui indique un sens seulement avec un autre mot." },
         { "type": "paragraph", "text": "Seule, la particule n'a pas d'utilité : elle prend son sens une fois associée à un nom ou à un verbe." },
@@ -100,7 +100,7 @@
     {
       "id": "medine-t1.l01.intro#12",
       "type": "question",
-      "prompt": { "fr": "Que signifie {ar|المَاضِي} ?" },
+      "prompt": { "fr": "Que signifie {ar|الْمَاضِي} ?" },
       "choices": [ { "fr": "le passé" }, { "fr": "le présent" }, { "fr": "l'impératif" } ],
       "answer": 0
     },

@@ -1,0 +1,104 @@
+{
+  "id": "medine-t1.l03.plurals-1",
+  "type": "vocabulary",
+  "title": "Les pluriels",
+  "screens": [
+    {
+      "id": "medine-t1.l03.plurals-1#1",
+      "type": "tip",
+      "title": "Les pluriels des noms",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|قَمَرٌ}", "{ar|أَقْمَارٌ}", "lune"],
+            ["{ar|شَمْسٌ}", "{ar|شُمُوسٌ}", "soleil"],
+            ["{ar|أَبٌ}", "{ar|آبَاءٌ}", "père"],
+            ["{ar|ضَيْفٌ}", "{ar|ضُيُوفٌ}", "invité"],
+            ["{ar|ثَوْبٌ}", "{ar|أَثْوَابٌ}", "vêtement"],
+            ["{ar|زَهْرَةٌ}", "{ar|زُهُورٌ}", "fleur"],
+            ["{ar|جَنَّةٌ}", "{ar|جَنَّاتٌ}", "jardin"],
+            ["{ar|سَمَكَةٌ}", "{ar|سَمَكٌ}", "poisson"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l03.plurals-1#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:qamar", "w:shams", "w:ab", "w:dayf", "w:thawb"]
+    },
+    {
+      "id": "medine-t1.l03.plurals-1#3",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|زَهْرَةٌ} ?" },
+      "choices": [ { "ar": "زُهُورٌ" }, { "ar": "جَنَّاتٌ" }, { "ar": "شُمُوسٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l03.plurals-1#4",
+      "type": "tip",
+      "title": "Les pluriels des matières",
+      "blocks": [
+        { "type": "paragraph", "text": "L'eau, le pain, la viande… ont aussi un pluriel. Il désigne plusieurs **sortes** ou plusieurs **quantités** : des eaux, des pains, des viandes." },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|مَاءٌ}", "{ar|مِيَاهٌ}", "eau"],
+            ["{ar|خُبْزٌ}", "{ar|أَخْبَازٌ}", "pain"],
+            ["{ar|لَحْمٌ}", "{ar|لُحُومٌ}", "viande"],
+            ["{ar|ذَهَبٌ}", "{ar|أَذْهَابٌ}", "or"],
+            ["{ar|هَوَاءٌ}", "{ar|أَهْوِيَةٌ}", "air"],
+            ["{ar|غَدَاءٌ}", "{ar|أَغْدِيَةٌ}", "déjeuner"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l03.plurals-1#5",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:maa", "w:khubz", "w:lahm", "w:hawaa"]
+    },
+    {
+      "id": "medine-t1.l03.plurals-1#6",
+      "type": "question",
+      "prompt": { "fr": "{ar|مِيَاهٌ} est le pluriel de…" },
+      "choices": [ { "ar": "مَاءٌ" }, { "ar": "هَوَاءٌ" }, { "ar": "غَدَاءٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l03.plurals-1#7",
+      "type": "tip",
+      "title": "Les pluriels des adjectifs",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|جَدِيدٌ}", "{ar|جُدُدٌ}", "nouveau, neuf"],
+            ["{ar|جَالِسٌ}", "{ar|جُلُوسٌ}", "assis"],
+            ["{ar|وَاقِفٌ}", "{ar|وَاقِفُونَ}", "debout"]
+          ]
+        },
+        { "type": "example", "ar": "الضُّيُوفُ جُلُوسٌ.", "fr": "Les invités sont assis." }
+      ]
+    },
+    {
+      "id": "medine-t1.l03.plurals-1#8",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:jadid", "w:jalis", "w:waqif", "w:samaka"]
+    },
+    {
+      "id": "medine-t1.l03.plurals-1#9",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|سَمَكَةٌ} ?" },
+      "choices": [ { "ar": "سَمَكٌ" }, { "ar": "زُهُورٌ" }, { "ar": "لُحُومٌ" } ],
+      "answer": 0
+    }
+  ]
+}

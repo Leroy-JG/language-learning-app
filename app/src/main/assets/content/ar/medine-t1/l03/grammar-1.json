@@ -1,0 +1,99 @@
+{
+  "id": "medine-t1.l03.grammar-1",
+  "type": "grammar",
+  "title": "L'indéfini et le défini",
+  "screens": [
+    {
+      "id": "medine-t1.l03.grammar-1#1",
+      "type": "tip",
+      "title": "Indéfini ou défini ?",
+      "blocks": [
+        { "type": "paragraph", "text": "Un nom peut être **indéfini** ({ar|نَكِرَةٌ}) ou **défini** ({ar|مَعْرِفَةٌ}), comme « un livre » et « le livre » en français." }
+      ]
+    },
+    { "id": "medine-t1.l03.grammar-1#2", "type": "present", "item": "w:nakira" },
+    {
+      "id": "medine-t1.l03.grammar-1#3",
+      "type": "tip",
+      "title": "L'indéfini : {ar|النَّكِرَةُ}",
+      "blocks": [
+        { "type": "paragraph", "text": "L'indéfini est la **forme de base** du nom. Il désigne une chose quelconque, **non précisée** parmi ses semblables." },
+        { "type": "paragraph", "text": "Il s'emploie au masculin comme au féminin, au singulier comme au pluriel." },
+        { "type": "example", "ar": "هٰذَا رَجُلٌ.", "fr": "C'est un homme." },
+        { "type": "example", "ar": "هٰذَا كِتَابٌ.", "fr": "C'est un livre." },
+        { "type": "note", "text": "Ton support donne aussi {ar|هٰذِهِ بِنْتٌ} (c'est une fille), {ar|هُمْ رِجَالٌ} (ce sont des hommes) et {ar|هٰذِهِ كُتُبٌ} (ce sont des livres). Tu apprendras {ar|هٰذِهِ} et {ar|هُمْ} dans les prochaines leçons." }
+      ]
+    },
+    {
+      "id": "medine-t1.l03.grammar-1#4",
+      "type": "tip",
+      "title": "Le signe de l'indéfini : le tanwin",
+      "blocks": [
+        { "type": "paragraph", "text": "Dans la plupart des cas, l'indéfini se reconnaît au **tanwin** ({ar|التَّنْوِينُ}) : la voyelle finale est doublée et se prononce avec un « n »." },
+        {
+          "type": "table",
+          "header": ["Tanwin", "Exemple", "Se prononce"],
+          "rows": [
+            ["{ar|◌ٌ}", "{ar|كِتَابٌ}", "kitāb**un**"],
+            ["{ar|◌ً}", "{ar|كِتَابًا}", "kitāb**an**"],
+            ["{ar|◌ٍ}", "{ar|كِتَابٍ}", "kitāb**in**"]
+          ]
+        },
+        { "type": "note", "text": "La terminaison change selon la place du mot dans la phrase : tu l'apprendras plus tard. Pour l'instant, tu rencontres surtout {ar|◌ٌ}." }
+      ]
+    },
+    { "id": "medine-t1.l03.grammar-1#5", "type": "present", "item": "w:marifa" },
+    {
+      "id": "medine-t1.l03.grammar-1#6",
+      "type": "tip",
+      "title": "Le défini : {ar|الْمَعْرِفَةُ}",
+      "blocks": [
+        { "type": "paragraph", "text": "Le défini désigne une chose **précise**, déterminée parmi ses semblables. Lui aussi s'emploie au masculin et au féminin, au singulier et au pluriel." },
+        { "type": "paragraph", "text": "Il en existe plusieurs sortes ({ar|الْمَعَارِفُ}). Tu en connais maintenant deux :" },
+        {
+          "type": "table",
+          "header": ["Sorte", "Exemples"],
+          "rows": [
+            ["les noms démonstratifs ({ar|أَسْمَاءُ الْإِشَارَةِ})", "{ar|هٰذَا}, {ar|ذٰلِكَ}"],
+            ["le nom défini par l'article ({ar|الْمُعَرَّفُ بِالْ})", "{ar|الْبَيْتُ}, {ar|الْكِتَابُ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l03.grammar-1#7",
+      "type": "question",
+      "prompt": { "fr": "Lequel de ces mots est **indéfini** ({ar|نَكِرَةٌ}) ?" },
+      "choices": [ { "ar": "كِتَابٌ" }, { "ar": "الْكِتَابُ" }, { "ar": "ذٰلِكَ" } ],
+      "answer": 0,
+      "explain": "{ar|كِتَابٌ} porte le tanwin : c'est « un livre »."
+    },
+    {
+      "id": "medine-t1.l03.grammar-1#8",
+      "type": "true_false",
+      "statement": { "fr": "Les noms démonstratifs ({ar|هٰذَا}, {ar|ذٰلِكَ}) sont des noms définis." },
+      "answer": true,
+      "explain": "Ils désignent une chose précise : ce sont des {ar|مَعَارِفُ}."
+    },
+    {
+      "id": "medine-t1.l03.grammar-1#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:nakira", "w:marifa", "w:ism", "w:harf"]
+    },
+    {
+      "id": "medine-t1.l03.grammar-1#10",
+      "type": "question",
+      "prompt": { "fr": "Dans la plupart des cas, quel est le signe de l'indéfini ?" },
+      "choices": [ { "fr": "le tanwin" }, { "fr": "l'article {ar|الْ}" }, { "fr": "la shadda" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l03.grammar-1#11",
+      "type": "true_false",
+      "statement": { "fr": "L'indéfini ne s'emploie qu'au masculin singulier." },
+      "answer": false,
+      "explain": "Il s'emploie au masculin et au féminin, au singulier et au pluriel."
+    }
+  ]
+}

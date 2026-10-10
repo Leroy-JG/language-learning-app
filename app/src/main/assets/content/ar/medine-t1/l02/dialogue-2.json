@@ -1,0 +1,64 @@
+{
+  "id": "medine-t1.l02.dialogue-2",
+  "type": "dialogue",
+  "title": "Chez Ḥāmid",
+  "screens": [
+    {
+      "id": "medine-t1.l02.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Chez Ḥāmid",
+      "intro": "Ḥāmid reçoit Yāsir chez lui et lui sert à boire.",
+      "speakers": {
+        "A": { "name": "Yāsir", "voice": "m2" },
+        "B": { "name": "Ḥāmid", "voice": "m1" }
+      },
+      "lines": [
+        { "speaker": "A", "ar": "مَا هٰذَا؟", "fr": "Qu'est-ce que c'est ?" },
+        { "speaker": "B", "ar": "هٰذَا لَبَنٌ.", "fr": "C'est du lait." },
+        { "speaker": "A", "ar": "أَهٰذَا سُكَّرٌ؟", "fr": "Est-ce du sucre ?" },
+        { "speaker": "B", "ar": "نَعَمْ، هٰذَا سُكَّرٌ.", "fr": "Oui, c'est du sucre." },
+        { "speaker": "A", "ar": "وَمَا ذٰلِكَ؟", "fr": "Et qu'est-ce que c'est, là-bas ?" },
+        { "speaker": "B", "ar": "ذٰلِكَ كِتَابٌ.", "fr": "Là-bas, c'est un livre." },
+        { "speaker": "A", "ar": "وَمَنْ ذٰلِكَ؟", "fr": "Et qui est-ce, là-bas ?" },
+        { "speaker": "B", "ar": "ذٰلِكَ طَالِبٌ.", "fr": "Là-bas, c'est un étudiant." }
+      ]
+    },
+    {
+      "id": "medine-t1.l02.dialogue-2#2",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l02.dialogue-2#1" },
+      "prompt": { "fr": "Que sert Ḥāmid à Yāsir ?" },
+      "choices": [ { "fr": "Du lait" }, { "fr": "Un livre" }, { "fr": "Une pierre" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l02.dialogue-2#3",
+      "type": "true_false",
+      "context": { "dialogue": "medine-t1.l02.dialogue-2#1" },
+      "statement": { "fr": "Il y a du sucre." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l02.dialogue-2#4",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l02.dialogue-2#1" },
+      "prompt": { "fr": "Qui Ḥāmid montre-t-il à la fin ?" },
+      "choices": [ { "ar": "طَالِبٌ" }, { "ar": "إِمَامٌ" }, { "ar": "مُدَرِّسٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l02.dialogue-2#5",
+      "type": "order",
+      "fr": "Oui, c'est du sucre.",
+      "answers": [["نَعَمْ،", "هٰذَا", "سُكَّرٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l02.dialogue-2#6",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Et qu'est-ce que c'est, là-bas ?",
+      "answers": ["وَمَا ذٰلِكَ؟"]
+    }
+  ]
+}

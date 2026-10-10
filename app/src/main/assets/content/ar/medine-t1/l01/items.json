@@ -57,7 +57,7 @@
     "plural": "أَبْوَابٌ",
     "icon": "door",
     "gender": "m",
-    "example": { "ar": "هٰذَا بَابُ المَسْجِدِ.", "fr": "Ceci est la porte de la mosquée." }
+    "example": { "ar": "هٰذَا بَابُ الْمَسْجِدِ.", "fr": "Ceci est la porte de la mosquée." }
   },
   {
     "id": "w:kitab",
@@ -91,7 +91,7 @@
     "plural": "مَفَاتِيحُ",
     "icon": "key",
     "gender": "m",
-    "example": { "ar": "هٰذَا مِفْتَاحُ البَيْتِ.", "fr": "Ceci est la clé de la maison." }
+    "example": { "ar": "هٰذَا مِفْتَاحُ الْبَيْتِ.", "fr": "Ceci est la clé de la maison." }
   },
   {
     "id": "w:maktab",
@@ -101,7 +101,7 @@
     "translit": "maktabun",
     "plural": "مَكَاتِبُ",
     "gender": "m",
-    "example": { "ar": "هٰذَا مَكْتَبُ المَسْجِدِ.", "fr": "Ceci est le bureau de la mosquée." }
+    "example": { "ar": "هٰذَا مَكْتَبُ الْمَسْجِدِ.", "fr": "Ceci est le bureau de la mosquée." }
   },
   {
     "id": "w:sarir",
@@ -123,7 +123,7 @@
     "plural": "كَرَاسِيُّ",
     "icon": "chair",
     "gender": "m",
-    "example": { "ar": "هٰذَا كُرْسِيُّ البَيْتِ.", "fr": "Ceci est la chaise de la maison." }
+    "example": { "ar": "هٰذَا كُرْسِيُّ الْبَيْتِ.", "fr": "Ceci est la chaise de la maison." }
   },
   {
     "id": "w:hadha",
@@ -234,7 +234,7 @@
     "icon": "boy",
     "gender": "m",
     "note": "Désigne aussi un enfant, ou le fils de quelqu'un.",
-    "example": { "ar": "هٰذَا وَلَدُ المُدَرِّسِ.", "fr": "C'est le fils de l'enseignant." }
+    "example": { "ar": "هٰذَا وَلَدُ الْمُدَرِّسِ.", "fr": "C'est le fils de l'enseignant." }
   },
   {
     "id": "w:rajul",
@@ -256,7 +256,7 @@
     "plural": "طُلَّابٌ",
     "icon": "student",
     "gender": "m",
-    "example": { "ar": "هٰذَا طَالِبُ المَسْجِدِ.", "fr": "C'est l'étudiant de la mosquée." }
+    "example": { "ar": "هٰذَا طَالِبُ الْمَسْجِدِ.", "fr": "C'est l'étudiant de la mosquée." }
   },
   {
     "id": "w:mudarris",
@@ -267,7 +267,7 @@
     "plural": "مُدَرِّسُونَ",
     "icon": "teacher",
     "gender": "m",
-    "example": { "ar": "مَنِ المُدَرِّسُ؟", "fr": "Qui est l'enseignant ?" }
+    "example": { "ar": "مَنِ الْمُدَرِّسُ؟", "fr": "Qui est l'enseignant ?" }
   },
   {
     "id": "w:tajir",

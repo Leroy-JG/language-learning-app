@@ -1,0 +1,150 @@
+{
+  "id": "medine-t1.l03.practice-1",
+  "type": "grammar",
+  "title": "Lune ou soleil ?",
+  "screens": [
+    {
+      "id": "medine-t1.l03.practice-1#1",
+      "type": "tip",
+      "title": "Lis et écoute",
+      "blocks": [
+        { "type": "paragraph", "text": "Voici des mots tirés de l'exercice du livre. Pour chacun, regarde la lettre qui suit l'article : si elle porte une **shadda**, elle est solaire et le lām ne se prononce pas." },
+        { "type": "note", "text": "Tu ne connais pas encore tous ces mots : leur sens est donné dans la correction." }
+      ]
+    },
+    {
+      "id": "medine-t1.l03.practice-1#2",
+      "type": "question",
+      "instruction": "Le lām de l'article se prononce-t-il ?",
+      "prompt": { "ar": "الدِّيكُ" },
+      "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|د} est solaire : « ad-dīku » (le coq)."
+    },
+    {
+      "id": "medine-t1.l03.practice-1#3",
+      "type": "question",
+      "instruction": "Le lām de l'article se prononce-t-il ?",
+      "prompt": { "ar": "الْمُدَرِّسُ" },
+      "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|م} est lunaire : « al-mudarrisu » (l'enseignant)."
+    },
+    {
+      "id": "medine-t1.l03.practice-1#4",
+      "type": "question",
+      "instruction": "Le lām de l'article se prononce-t-il ?",
+      "prompt": { "ar": "السُّكَّرُ" },
+      "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|س} est solaire : « as-sukkaru » (le sucre)."
+    },
+    {
+      "id": "medine-t1.l03.practice-1#5",
+      "type": "question",
+      "instruction": "Le lām de l'article se prononce-t-il ?",
+      "prompt": { "ar": "الْأَخُ" },
+      "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|أ} est lunaire : « al-akhu » (le frère)."
+    },
+    {
+      "id": "medine-t1.l03.practice-1#6",
+      "type": "question",
+      "instruction": "Le lām de l'article se prononce-t-il ?",
+      "prompt": { "ar": "الرَّسُولُ" },
+      "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|ر} est solaire : « ar-rasūlu » (le messager)."
+    },
+    {
+      "id": "medine-t1.l03.practice-1#7",
+      "type": "question",
+      "instruction": "Le lām de l'article se prononce-t-il ?",
+      "prompt": { "ar": "الْوَجْهُ" },
+      "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|و} est lunaire : « al-wajhu » (le visage)."
+    },
+    {
+      "id": "medine-t1.l03.practice-1#8",
+      "type": "question",
+      "instruction": "Le lām de l'article se prononce-t-il ?",
+      "prompt": { "ar": "الصَّدِيقُ" },
+      "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|ص} est solaire : « aṣ-ṣadīqu » (l'ami)."
+    },
+    {
+      "id": "medine-t1.l03.practice-1#9",
+      "type": "question",
+      "instruction": "Le lām de l'article se prononce-t-il ?",
+      "prompt": { "ar": "الْكَعْبَةُ" },
+      "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|ك} est lunaire : « al-kaʿbatu » (la Kaaba)."
+    },
+    {
+      "id": "medine-t1.l03.practice-1#10",
+      "type": "question",
+      "instruction": "Le lām de l'article se prononce-t-il ?",
+      "prompt": { "ar": "الصَّابُونُ" },
+      "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|ص} est solaire : « aṣ-ṣābūnu » (le savon)."
+    },
+    {
+      "id": "medine-t1.l03.practice-1#11",
+      "type": "question",
+      "instruction": "Le lām de l'article se prononce-t-il ?",
+      "prompt": { "ar": "الْفَجْرُ" },
+      "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|ف} est lunaire : « al-fajru » (l'aube)."
+    },
+    {
+      "id": "medine-t1.l03.practice-1#12",
+      "type": "question",
+      "instruction": "Le lām de l'article se prononce-t-il ?",
+      "prompt": { "ar": "الظُّهْرُ" },
+      "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|ظ} est solaire : « aẓ-ẓuhru » (midi, la prière de ẓuhr)."
+    },
+    {
+      "id": "medine-t1.l03.practice-1#13",
+      "type": "question",
+      "instruction": "Le lām de l'article se prononce-t-il ?",
+      "prompt": { "ar": "الْمَغْرِبُ" },
+      "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|م} est lunaire : « al-maghribu » (le coucher du soleil, la prière du maghrib)."
+    },
+    {
+      "id": "medine-t1.l03.practice-1#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "la prière",
+      "answers": ["الصَّلَاةُ"]
+    },
+    {
+      "id": "medine-t1.l03.practice-1#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "le Coran",
+      "answers": ["الْقُرْآنُ"]
+    }
+  ]
+}

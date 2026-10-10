@@ -1,0 +1,65 @@
+{
+  "id": "medine-t1.l02.recap",
+  "type": "review",
+  "title": "Rappel : ce que tu sais déjà",
+  "screens": [
+    {
+      "id": "medine-t1.l02.recap#1",
+      "type": "tip",
+      "title": "Les noms que tu connais",
+      "blocks": [
+        { "type": "paragraph", "text": "Dans la leçon 1, tu as vu deux sortes de noms ({ar|اِسْمٌ}) :" },
+        {
+          "type": "table",
+          "header": ["Sorte de nom", "Mots"],
+          "rows": [
+            ["nom démonstratif ({ar|اِسْمُ الْإِشَارَةِ})", "{ar|هٰذَا}"],
+            ["nom interrogatif ({ar|اِسْمُ الِاسْتِفْهَامِ})", "{ar|مَنْ}, {ar|مَا}"]
+          ]
+        },
+        { "type": "note", "text": "{ar|أَ} n'est pas un nom : c'est une particule ({ar|حَرْفٌ})." }
+      ]
+    },
+    {
+      "id": "medine-t1.l02.recap#2",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:hadha", "w:ma", "w:man", "w:a"]
+    },
+    {
+      "id": "medine-t1.l02.recap#3",
+      "type": "fill_gap",
+      "sentence": "{0} هٰذَا؟ هٰذَا مُدَرِّسٌ.",
+      "fr": "Qui est-ce ? C'est un enseignant.",
+      "gaps": [{ "answers": ["مَنْ"] }],
+      "options": ["مَنْ", "مَا", "لَا"]
+    },
+    {
+      "id": "medine-t1.l02.recap#4",
+      "type": "question",
+      "instruction": "Réponds à la question.",
+      "context": { "icon": "dog" },
+      "prompt": { "ar": "أَهٰذَا قِطٌّ؟" },
+      "choices": [ { "ar": "لَا، هٰذَا كَلْبٌ." }, { "ar": "نَعَمْ، هٰذَا قِطٌّ." }, { "ar": "لَا، هٰذَا قِطٌّ." } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l02.recap#5",
+      "type": "typing",
+      "instruction": "Réponds à la question en arabe.",
+      "ask": "question",
+      "question": "مَا هٰذَا؟",
+      "context": { "icon": "key" },
+      "answers": ["هٰذَا مِفْتَاحٌ."],
+      "fr": "C'est une clé."
+    },
+    {
+      "id": "medine-t1.l02.recap#6",
+      "type": "question",
+      "prompt": { "fr": "{ar|مَنْ} sert à demander…" },
+      "choices": [ { "fr": "qui ? (une personne)" }, { "fr": "qu'est-ce que ? (une chose)" }, { "fr": "est-ce que ? (oui / non)" } ],
+      "answer": 0
+    },
+    { "id": "medine-t1.l02.recap#7", "type": "mcq", "mode": "icon-ar", "item": "w:hisan" }
+  ]
+}

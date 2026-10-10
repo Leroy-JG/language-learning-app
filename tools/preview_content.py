@@ -14,7 +14,9 @@ ICONS = {
     "house": "🏠", "mosque": "🕌", "door": "🚪", "book": "📕", "pen": "🖊️", "key": "🔑",
     "bed": "🛏️", "chair": "🪑", "shirt": "👕", "star": "⭐", "doctor": "🧑‍⚕️", "boy": "👦",
     "man": "👨", "student": "🧑‍🎓", "teacher": "🧑‍🏫", "dog": "🐕", "cat": "🐈",
-    "rooster": "🐓", "donkey": "🫏", "horse": "🐎", "camel": "🐪",
+    "rooster": "🐓", "donkey": "🫏", "horse": "🐎", "camel": "🐪", "rock": "🪨", "milk": "🥛",
+    "moon": "🌙", "sun": "☀️", "water": "💧", "bread": "🍞", "meal": "🍽️", "meat": "🍖",
+    "fish": "🐟", "flower": "🌸", "eye": "👁️", "mouth": "👄", "hand": "✋",
 }
 MCQ_MODES = {"ar-fr": "arabe → français", "fr-ar": "français → arabe",
              "audio-ar": "audio → arabe", "icon-ar": "image → arabe"}

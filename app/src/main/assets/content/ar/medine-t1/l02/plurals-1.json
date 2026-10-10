@@ -1,0 +1,64 @@
+{
+  "id": "medine-t1.l02.plurals-1",
+  "type": "vocabulary",
+  "title": "Les pluriels",
+  "screens": [
+    {
+      "id": "medine-t1.l02.plurals-1#1",
+      "type": "tip",
+      "title": "Les pluriels de la leçon",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|إِمَامٌ}", "{ar|أَئِمَّةٌ}", "imam"],
+            ["{ar|حَجَرٌ}", "{ar|حِجَارَةٌ}", "pierre"],
+            ["{ar|لَبَنٌ}", "{ar|أَلْبَانٌ}", "lait"],
+            ["{ar|سُكَّرٌ}", "{ar|سُكَّرٌ}", "sucre"]
+          ]
+        },
+        { "type": "note", "text": "{ar|سُكَّرٌ} garde la même forme au pluriel." }
+      ]
+    },
+    {
+      "id": "medine-t1.l02.plurals-1#2",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|إِمَامٌ} ?" },
+      "choices": [ { "ar": "أَئِمَّةٌ" }, { "ar": "حِجَارَةٌ" }, { "ar": "أَلْبَانٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l02.plurals-1#3",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:imam", "w:hajar", "w:laban", "w:najm", "w:bayt"]
+    },
+    {
+      "id": "medine-t1.l02.plurals-1#4",
+      "type": "question",
+      "prompt": { "fr": "{ar|حِجَارَةٌ} est le pluriel de…" },
+      "choices": [ { "ar": "حَجَرٌ" }, { "ar": "لَبَنٌ" }, { "ar": "جَمَلٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l02.plurals-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Le pluriel de {ar|سُكَّرٌ} a la même forme que le singulier." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l02.plurals-1#6",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|لَبَنٌ} ?" },
+      "choices": [ { "ar": "أَلْبَانٌ" }, { "ar": "أَبْوَابٌ" }, { "ar": "أَقْلَامٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l02.plurals-1#7",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:kalb", "w:qitt", "w:hisan", "w:himar"]
+    }
+  ]
+}

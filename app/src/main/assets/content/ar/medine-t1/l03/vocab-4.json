@@ -1,0 +1,43 @@
+{
+  "id": "medine-t1.l03.vocab-4",
+  "type": "vocabulary",
+  "title": "Le corps",
+  "screens": [
+    { "id": "medine-t1.l03.vocab-4#1", "type": "present", "item": "w:ayn" },
+    { "id": "medine-t1.l03.vocab-4#2", "type": "present", "item": "w:fam" },
+    { "id": "medine-t1.l03.vocab-4#3", "type": "present", "item": "w:yad" },
+    { "id": "medine-t1.l03.vocab-4#4", "type": "mcq", "mode": "icon-ar", "item": "w:ayn" },
+    { "id": "medine-t1.l03.vocab-4#5", "type": "present", "item": "w:sadr" },
+    { "id": "medine-t1.l03.vocab-4#6", "type": "present", "item": "w:zahr" },
+    {
+      "id": "medine-t1.l03.vocab-4#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:ayn", "w:fam", "w:yad", "w:sadr", "w:zahr"]
+    },
+    { "id": "medine-t1.l03.vocab-4#8", "type": "mcq", "mode": "icon-ar", "item": "w:yad" },
+    {
+      "id": "medine-t1.l03.vocab-4#9",
+      "type": "question",
+      "prompt": { "fr": "{ar|الْعَيْنُ} commence par une lettre…" },
+      "choices": [ { "fr": "lunaire : on prononce le lām" }, { "fr": "solaire : le lām ne se prononce pas" } ],
+      "answer": 0,
+      "shuffle": false
+    },
+    {
+      "id": "medine-t1.l03.vocab-4#10",
+      "type": "question",
+      "prompt": { "fr": "{ar|الصَّدْرُ} commence par une lettre…" },
+      "choices": [ { "fr": "lunaire : on prononce le lām" }, { "fr": "solaire : le lām ne se prononce pas" } ],
+      "answer": 1,
+      "shuffle": false
+    },
+    { "id": "medine-t1.l03.vocab-4#11", "type": "typing", "ask": "fr", "item": "w:fam" },
+    {
+      "id": "medine-t1.l03.vocab-4#12",
+      "type": "match",
+      "mode": "audio-ar",
+      "items": ["w:ayn", "w:fam", "w:sadr", "w:zahr"]
+    }
+  ]
+}
