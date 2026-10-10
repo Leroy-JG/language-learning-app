@@ -1,0 +1,33 @@
+{
+  "id": "medine-t1.l01.vocab-4",
+  "type": "vocabulary",
+  "title": "Les personnes",
+  "screens": [
+    { "id": "medine-t1.l01.vocab-4#1", "type": "present", "item": "w:man" },
+    { "id": "medine-t1.l01.vocab-4#2", "type": "present", "item": "p:man-hadha" },
+    { "id": "medine-t1.l01.vocab-4#3", "type": "present", "item": "w:tabib" },
+    { "id": "medine-t1.l01.vocab-4#4", "type": "present", "item": "w:walad" },
+    { "id": "medine-t1.l01.vocab-4#5", "type": "mcq", "mode": "ar-fr", "item": "w:tabib" },
+    { "id": "medine-t1.l01.vocab-4#6", "type": "present", "item": "w:rajul" },
+    { "id": "medine-t1.l01.vocab-4#7", "type": "mcq", "mode": "icon-ar", "item": "w:walad" },
+    { "id": "medine-t1.l01.vocab-4#8", "type": "present", "item": "w:talib" },
+    { "id": "medine-t1.l01.vocab-4#9", "type": "present", "item": "w:mudarris" },
+    { "id": "medine-t1.l01.vocab-4#10", "type": "mcq", "mode": "audio-ar", "item": "w:rajul" },
+    { "id": "medine-t1.l01.vocab-4#11", "type": "present", "item": "w:tajir" },
+    { "id": "medine-t1.l01.vocab-4#12", "type": "mcq", "mode": "fr-ar", "item": "w:mudarris" },
+    {
+      "id": "medine-t1.l01.vocab-4#13",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:tabib", "w:walad", "w:rajul", "w:talib", "w:tajir"]
+    },
+    {
+      "id": "medine-t1.l01.vocab-4#14",
+      "type": "question",
+      "prompt": { "ar": "مَنْ هٰذَا؟" },
+      "choices": [ { "fr": "Qui est-ce ?" }, { "fr": "Qu'est-ce que c'est ?" }, { "fr": "Est-ce un homme ?" } ],
+      "answer": 0
+    },
+    { "id": "medine-t1.l01.vocab-4#15", "type": "typing", "ask": "fr", "item": "w:walad" }
+  ]
+}

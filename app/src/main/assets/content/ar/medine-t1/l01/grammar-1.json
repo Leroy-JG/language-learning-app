@@ -1,0 +1,122 @@
+{
+  "id": "medine-t1.l01.grammar-1",
+  "type": "grammar",
+  "title": "Le démonstratif {ar|هٰذَا}",
+  "screens": [
+    { "id": "medine-t1.l01.grammar-1#1", "type": "present", "item": "w:hadha" },
+    {
+      "id": "medine-t1.l01.grammar-1#2",
+      "type": "tip",
+      "title": "Montrer quelque chose de proche",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|هٰذَا} est un **nom démonstratif** ({ar|اِسْمُ إِشَارَةٍ}) : il sert à montrer quelque chose." },
+        { "type": "example", "ar": "هٰذَا كِتَابٌ.", "fr": "Ceci est un livre." },
+        { "type": "paragraph", "text": "Ce qu'il désigne **doit** être :" },
+        {
+          "type": "table",
+          "header": ["Arabe", "Français"],
+          "rows": [
+            ["{ar|مُفْرَدٌ}", "singulier"],
+            ["{ar|مُذَكَّرٌ}", "masculin"],
+            ["{ar|قَرِيبٌ}", "proche"]
+          ]
+        },
+        { "type": "note", "text": "Tous les noms de cette leçon sont masculins en arabe, même quand leur traduction française est féminine : {ar|بَيْتٌ} (une maison), {ar|مَسْجِدٌ} (une mosquée), {ar|كُرْسِيٌّ} (une chaise)…" }
+      ]
+    },
+    {
+      "id": "medine-t1.l01.grammar-1#3",
+      "type": "tip",
+      "title": "Pas de verbe « être »",
+      "blocks": [
+        { "type": "paragraph", "text": "Au présent, l'arabe n'utilise pas de verbe « être » : {ar|هٰذَا بَيْتٌ} se dit mot à mot « ceci maison », et signifie « Ceci est une maison »." },
+        { "type": "paragraph", "text": "La double damma finale ({ar|◌ٌ}, le **tanwin**) se prononce « -un » et correspond à « un / une »." },
+        { "type": "example", "ar": "هٰذَا بَيْتٌ.", "fr": "Ceci est une maison." },
+        { "type": "example", "ar": "هٰذَا قَلَمٌ.", "fr": "Ceci est un stylo." }
+      ]
+    },
+    {
+      "id": "medine-t1.l01.grammar-1#4",
+      "type": "tip",
+      "title": "Une lettre qu'on prononce sans l'écrire",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|هٰذَا} se prononce « **hā**dhā », avec un « ā » long au début." },
+        { "type": "paragraph", "text": "Ce « ā » ne s'écrit pas avec un alif normal. On trouve trois écritures, qui se lisent toutes de la même façon :" },
+        {
+          "type": "table",
+          "header": ["Écriture", "Explication"],
+          "rows": [
+            ["{ar|هٰذَا}", "avec un petit alif au-dessus de la première lettre"],
+            ["{ar|هَذَا}", "avec une fatha sur la première lettre, sans petit alif"],
+            ["{ar|هذا}", "sans aucune voyelle"]
+          ]
+        },
+        { "type": "note", "text": "Certaines lettres se prononcent mais ne s'écrivent pas. Quand tu écris au clavier, {ar|هذا} suffit." }
+      ]
+    },
+    {
+      "id": "medine-t1.l01.grammar-1#5",
+      "type": "order",
+      "fr": "Ceci est un livre.",
+      "answers": [["هٰذَا", "كِتَابٌ"]],
+      "punctuation": ".",
+      "distractors": ["بَيْتٌ"]
+    },
+    {
+      "id": "medine-t1.l01.grammar-1#6",
+      "type": "fill_gap",
+      "sentence": "هٰذَا {0}.",
+      "fr": "Ceci est une porte.",
+      "gaps": [{ "answers": ["بَابٌ"] }],
+      "options": ["بَابٌ", "بَيْتٌ", "كِتَابٌ"]
+    },
+    {
+      "id": "medine-t1.l01.grammar-1#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ceci est une maison.",
+      "answers": ["هٰذَا بَيْتٌ."]
+    },
+    {
+      "id": "medine-t1.l01.grammar-1#8",
+      "type": "true_false",
+      "context": { "icon": "key" },
+      "statement": { "ar": "هٰذَا مِفْتَاحٌ.", "fr": "Ceci est une clé." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l01.grammar-1#9",
+      "type": "true_false",
+      "context": { "icon": "bed" },
+      "statement": { "ar": "هٰذَا كُرْسِيٌّ.", "fr": "Ceci est une chaise." },
+      "answer": false,
+      "explain": "C'est un lit : {ar|هٰذَا سَرِيرٌ}."
+    },
+    {
+      "id": "medine-t1.l01.grammar-1#10",
+      "type": "question",
+      "prompt": { "fr": "{ar|هٰذَا} sert à montrer une chose…" },
+      "choices": [
+        { "fr": "singulière, masculine et proche" },
+        { "fr": "plurielle et lointaine" },
+        { "fr": "féminine et proche" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.grammar-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est un bureau.",
+      "answers": ["هٰذَا مَكْتَبٌ."]
+    },
+    {
+      "id": "medine-t1.l01.grammar-1#12",
+      "type": "order",
+      "fr": "Ceci est une chaise.",
+      "answers": [["هٰذَا", "كُرْسِيٌّ"]],
+      "punctuation": ".",
+      "distractors": ["سَرِيرٌ"]
+    }
+  ]
+}

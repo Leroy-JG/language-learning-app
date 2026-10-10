@@ -1,0 +1,121 @@
+{
+  "id": "medine-t1.l01.grammar-3",
+  "type": "grammar",
+  "title": "Demander « qui ? » avec {ar|مَنْ}",
+  "screens": [
+    {
+      "id": "medine-t1.l01.grammar-3#1",
+      "type": "tip",
+      "title": "« Qui est-ce ? » : {ar|مَنْ}",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|مَنْ} est un **nom** ({ar|اِسْمٌ}) qui sert à demander « qui… ? »." },
+        { "type": "paragraph", "text": "On l'utilise uniquement pour un être **doué de raison** ({ar|عَاقِلٌ}), c'est-à-dire une personne. Pour un objet ou un animal, on utilise {ar|مَا}." },
+        { "type": "example", "ar": "مَنْ هٰذَا؟", "fr": "Qui est-ce ?" },
+        { "type": "example", "ar": "هٰذَا طَبِيبٌ.", "fr": "C'est un médecin." },
+        { "type": "example", "ar": "مَا هٰذَا؟", "fr": "Qu'est-ce que c'est ?" },
+        { "type": "example", "ar": "هٰذَا جَمَلٌ.", "fr": "C'est un chameau." },
+        { "type": "note", "text": "Un animal n'est pas doué de raison : pour un chien ou un cheval, on demande {ar|مَا هٰذَا؟}." }
+      ]
+    },
+    {
+      "id": "medine-t1.l01.grammar-3#2",
+      "type": "tip",
+      "title": "Résumé : les trois mots pour interroger",
+      "blocks": [
+        { "type": "paragraph", "text": "L'interrogation se dit {ar|الِاسْتِفْهَامُ}. Tu connais maintenant ses trois outils :" },
+        {
+          "type": "table",
+          "header": ["Mot", "Nature", "Sens", "Pour…"],
+          "rows": [
+            ["{ar|أَ}", "particule ({ar|حَرْفٌ})", "est-ce que… ?", "une question oui / non"],
+            ["{ar|مَا}", "nom ({ar|اِسْمٌ})", "qu'est-ce que… ?", "une chose, un animal"],
+            ["{ar|مَنْ}", "nom ({ar|اِسْمٌ})", "qui… ?", "une personne"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l01.grammar-3#3",
+      "type": "fill_gap",
+      "sentence": "{0} هٰذَا؟ هٰذَا طَبِيبٌ.",
+      "fr": "Qui est-ce ? C'est un médecin.",
+      "gaps": [{ "answers": ["مَنْ"] }],
+      "options": ["مَنْ", "مَا", "نَعَمْ"]
+    },
+    {
+      "id": "medine-t1.l01.grammar-3#4",
+      "type": "fill_gap",
+      "sentence": "{0} هٰذَا؟ هٰذَا دِيكٌ.",
+      "fr": "Qu'est-ce que c'est ? C'est un coq.",
+      "gaps": [{ "answers": ["مَا"] }],
+      "options": ["مَنْ", "مَا", "لَا"],
+      "explain": "Un coq n'est pas doué de raison : on utilise {ar|مَا}."
+    },
+    {
+      "id": "medine-t1.l01.grammar-3#5",
+      "type": "question",
+      "context": { "icon": "camel" },
+      "prompt": { "fr": "Quelle question poser pour cette image ?" },
+      "choices": [ { "ar": "مَا هٰذَا؟" }, { "ar": "مَنْ هٰذَا؟" } ],
+      "answer": 0,
+      "explain": "Un chameau n'est pas doué de raison : on utilise {ar|مَا}."
+    },
+    {
+      "id": "medine-t1.l01.grammar-3#6",
+      "type": "question",
+      "context": { "icon": "teacher" },
+      "prompt": { "fr": "Quelle question poser pour cette image ?" },
+      "choices": [ { "ar": "مَنْ هٰذَا؟" }, { "ar": "مَا هٰذَا؟" } ],
+      "answer": 0,
+      "explain": "Un enseignant est une personne, donc doué de raison : on utilise {ar|مَنْ}."
+    },
+    {
+      "id": "medine-t1.l01.grammar-3#7",
+      "type": "typing",
+      "instruction": "Réponds à la question en arabe.",
+      "ask": "question",
+      "question": "مَنْ هٰذَا؟",
+      "context": { "icon": "doctor" },
+      "answers": ["هٰذَا طَبِيبٌ."],
+      "fr": "C'est un médecin."
+    },
+    {
+      "id": "medine-t1.l01.grammar-3#8",
+      "type": "order",
+      "fr": "Est-ce un chien ? Non, c'est un chat.",
+      "answers": [["أَهٰذَا", "كَلْبٌ؟", "لَا،", "هٰذَا", "قِطٌّ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l01.grammar-3#9",
+      "type": "true_false",
+      "context": { "icon": "horse" },
+      "statement": { "ar": "هٰذَا حِمَارٌ.", "fr": "Ceci est un âne." },
+      "answer": false,
+      "explain": "C'est un cheval : {ar|هٰذَا حِصَانٌ}."
+    },
+    {
+      "id": "medine-t1.l01.grammar-3#10",
+      "type": "question",
+      "instruction": "Réponds à la question.",
+      "context": { "icon": "man" },
+      "prompt": { "ar": "أَهٰذَا وَلَدٌ؟" },
+      "choices": [ { "ar": "لَا، هٰذَا رَجُلٌ." }, { "ar": "نَعَمْ، هٰذَا وَلَدٌ." }, { "ar": "لَا، هٰذَا قِطٌّ." } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.grammar-3#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Qui est-ce ? C'est un homme.",
+      "answers": ["مَنْ هٰذَا؟ هٰذَا رَجُلٌ."]
+    },
+    {
+      "id": "medine-t1.l01.grammar-3#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Est-ce un cheval ?",
+      "answers": ["أَهٰذَا حِصَانٌ؟"]
+    }
+  ]
+}

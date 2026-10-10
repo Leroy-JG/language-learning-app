@@ -1,0 +1,116 @@
+{
+  "id": "medine-t1.l01.intro",
+  "type": "grammar",
+  "title": "Les trois sortes de mots",
+  "screens": [
+    {
+      "id": "medine-t1.l01.intro#1",
+      "type": "tip",
+      "title": "Les mots en arabe",
+      "blocks": [
+        { "type": "paragraph", "text": "En arabe, chaque mot ({ar|الكَلِمَةُ}) appartient à l'une de ces **trois catégories** :" },
+        {
+          "type": "table",
+          "header": ["Arabe", "Français"],
+          "rows": [
+            ["{ar|اِسْمٌ}", "un nom"],
+            ["{ar|فِعْلٌ}", "un verbe"],
+            ["{ar|حَرْفٌ}", "une particule"]
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t1.l01.intro#2", "type": "present", "item": "w:ism" },
+    {
+      "id": "medine-t1.l01.intro#3",
+      "type": "tip",
+      "title": "Le nom : {ar|الِاسْمُ}",
+      "blocks": [
+        { "type": "example", "ar": "مَا يَدُلُّ عَلَى مَعْنًى بِنَفْسِهِ", "fr": "Ce qui indique un sens à lui seul." },
+        { "type": "paragraph", "text": "Un nom peut désigner une personne, un lieu, un moment, ou même une action :" },
+        {
+          "type": "table",
+          "header": ["Exemple", "Il désigne"],
+          "rows": [
+            ["{ar|مُحَمَّدٌ}", "une personne (Muḥammad)"],
+            ["{ar|مَسْجِدٌ}", "un lieu (une mosquée)"],
+            ["{ar|اليَوْمُ}", "un moment (aujourd'hui)"],
+            ["{ar|كِتَابَةٌ}", "une action (l'écriture)"]
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t1.l01.intro#4", "type": "present", "item": "w:fil" },
+    {
+      "id": "medine-t1.l01.intro#5",
+      "type": "tip",
+      "title": "Le verbe : {ar|الفِعْلُ}",
+      "blocks": [
+        { "type": "example", "ar": "مَا يَدُلُّ عَلَى حَدَثٍ وَزَمَانٍ", "fr": "Ce qui indique une action et un temps." },
+        { "type": "paragraph", "text": "Le verbe a **trois temps** ({ar|أَزْمِنَةُ الفِعْلِ ثَلَاثَةٌ}) :" },
+        {
+          "type": "table",
+          "header": ["Arabe", "Français"],
+          "rows": [
+            ["{ar|المَاضِي}", "le passé"],
+            ["{ar|المُضَارِعُ}", "le présent"],
+            ["{ar|الأَمْرُ}", "l'impératif (l'ordre)"]
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t1.l01.intro#6", "type": "present", "item": "w:harf" },
+    {
+      "id": "medine-t1.l01.intro#7",
+      "type": "tip",
+      "title": "La particule : {ar|الحَرْفُ}",
+      "blocks": [
+        { "type": "example", "ar": "مَا يَدُلُّ عَلَى مَعْنًى فِي غَيْرِهِ", "fr": "Ce qui indique un sens seulement avec un autre mot." },
+        { "type": "paragraph", "text": "Seule, la particule n'a pas d'utilité : elle prend son sens une fois associée à un nom ou à un verbe." },
+        { "type": "note", "text": "Il existe plusieurs sortes de particules : tu les découvriras au fil des tomes." }
+      ]
+    },
+    {
+      "id": "medine-t1.l01.intro#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:ism", "w:fil", "w:harf"]
+    },
+    {
+      "id": "medine-t1.l01.intro#9",
+      "type": "question",
+      "prompt": { "fr": "Le mot {ar|مَسْجِدٌ} (une mosquée) est…" },
+      "choices": [ { "ar": "اِسْمٌ" }, { "ar": "فِعْلٌ" }, { "ar": "حَرْفٌ" } ],
+      "answer": 0,
+      "explain": "Il désigne un lieu et a un sens à lui seul : c'est un nom ({ar|اِسْمٌ})."
+    },
+    {
+      "id": "medine-t1.l01.intro#10",
+      "type": "true_false",
+      "statement": { "fr": "Le verbe indique une action et un temps." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l01.intro#11",
+      "type": "true_false",
+      "statement": { "fr": "La particule a un sens à elle seule." },
+      "answer": false,
+      "explain": "C'est le nom qui a un sens à lui seul. La particule a besoin d'un autre mot."
+    },
+    {
+      "id": "medine-t1.l01.intro#12",
+      "type": "question",
+      "prompt": { "fr": "Que signifie {ar|المَاضِي} ?" },
+      "choices": [ { "fr": "le passé" }, { "fr": "le présent" }, { "fr": "l'impératif" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.intro#13",
+      "type": "question",
+      "prompt": { "fr": "Le mot {ar|كِتَابَةٌ} (l'écriture) désigne une action. C'est pourtant…" },
+      "choices": [ { "ar": "اِسْمٌ" }, { "ar": "فِعْلٌ" }, { "ar": "حَرْفٌ" } ],
+      "answer": 0,
+      "explain": "Un nom peut désigner une action : il n'indique pas de temps, contrairement au verbe."
+    }
+  ]
+}

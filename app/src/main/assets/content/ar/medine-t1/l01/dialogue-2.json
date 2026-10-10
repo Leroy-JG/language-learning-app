@@ -1,0 +1,72 @@
+{
+  "id": "medine-t1.l01.dialogue-2",
+  "type": "dialogue",
+  "title": "Au marché",
+  "screens": [
+    {
+      "id": "medine-t1.l01.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Au marché",
+      "intro": "Ḥāmid et Yāsir se promènent au marché.",
+      "speakers": {
+        "A": { "name": "Yāsir", "voice": "m2" },
+        "B": { "name": "Ḥāmid", "voice": "m1" }
+      },
+      "lines": [
+        { "speaker": "A", "ar": "مَنْ هٰذَا؟", "fr": "Qui est-ce ?" },
+        { "speaker": "B", "ar": "هٰذَا تَاجِرٌ.", "fr": "C'est un commerçant." },
+        { "speaker": "A", "ar": "أَهٰذَا طَبِيبٌ؟", "fr": "Est-ce un médecin ?" },
+        { "speaker": "B", "ar": "لَا، هٰذَا مُدَرِّسٌ.", "fr": "Non, c'est un enseignant." },
+        { "speaker": "A", "ar": "مَا هٰذَا؟", "fr": "Qu'est-ce que c'est ?" },
+        { "speaker": "B", "ar": "هٰذَا جَمَلٌ.", "fr": "C'est un chameau." },
+        { "speaker": "A", "ar": "أَهٰذَا حِمَارٌ؟", "fr": "Est-ce un âne ?" },
+        { "speaker": "B", "ar": "لَا، هٰذَا حِصَانٌ.", "fr": "Non, c'est un cheval." },
+        { "speaker": "A", "ar": "مَنْ هٰذَا؟", "fr": "Qui est-ce ?" },
+        { "speaker": "B", "ar": "هٰذَا وَلَدٌ.", "fr": "C'est un garçon." }
+      ]
+    },
+    {
+      "id": "medine-t1.l01.dialogue-2#2",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l01.dialogue-2#1" },
+      "prompt": { "fr": "Qui Ḥāmid montre-t-il en premier ?" },
+      "choices": [ { "fr": "Un commerçant" }, { "fr": "Un médecin" }, { "fr": "Un enseignant" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.dialogue-2#3",
+      "type": "true_false",
+      "context": { "dialogue": "medine-t1.l01.dialogue-2#1" },
+      "statement": { "fr": "Le deuxième homme est un médecin." },
+      "answer": false,
+      "explain": "Ḥāmid répond {ar|لَا، هٰذَا مُدَرِّسٌ.} : c'est un enseignant."
+    },
+    {
+      "id": "medine-t1.l01.dialogue-2#4",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l01.dialogue-2#1" },
+      "prompt": { "fr": "Yāsir pense voir un âne. Quel animal est-ce en réalité ?" },
+      "choices": [ { "ar": "حِصَانٌ" }, { "ar": "جَمَلٌ" }, { "ar": "دِيكٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.dialogue-2#5",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l01.dialogue-2#1" },
+      "prompt": { "fr": "Pourquoi Yāsir demande-t-il {ar|مَا هٰذَا؟} pour le chameau, et non {ar|مَنْ هٰذَا؟} ?" },
+      "choices": [
+        { "fr": "Parce qu'un animal n'est pas doué de raison" },
+        { "fr": "Parce que le chameau est loin" },
+        { "fr": "Parce que le chameau est féminin" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.dialogue-2#6",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Non, c'est un cheval.",
+      "answers": ["لَا، هٰذَا حِصَانٌ."]
+    }
+  ]
+}

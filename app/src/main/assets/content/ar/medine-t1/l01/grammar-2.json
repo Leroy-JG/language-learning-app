@@ -1,0 +1,126 @@
+{
+  "id": "medine-t1.l01.grammar-2",
+  "type": "grammar",
+  "title": "Les questions avec {ar|أَ} et {ar|مَا}",
+  "screens": [
+    {
+      "id": "medine-t1.l01.grammar-2#1",
+      "type": "tip",
+      "title": "« Qu'est-ce que c'est ? » : {ar|مَا}",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|مَا} est un **nom** ({ar|اِسْمٌ}) qui sert à demander « qu'est-ce que… ? »." },
+        { "type": "paragraph", "text": "On l'utilise pour ce qui n'est **pas doué de raison** ({ar|غَيْرُ عَاقِلٍ}) : un objet, un animal…" },
+        { "type": "example", "ar": "مَا هٰذَا؟", "fr": "Qu'est-ce que c'est ?" },
+        { "type": "example", "ar": "هٰذَا قَمِيصٌ.", "fr": "C'est une chemise." }
+      ]
+    },
+    {
+      "id": "medine-t1.l01.grammar-2#2",
+      "type": "tip",
+      "title": "« Est-ce que… ? » : {ar|أَ}",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|أَ} est une **particule** ({ar|حَرْفٌ}) appelée {ar|هَمْزَةُ الِاسْتِفْهَامِ}. Placée en tête de phrase, elle en fait une question à laquelle on répond par {ar|نَعَمْ} (oui) ou {ar|لَا} (non)." },
+        { "type": "paragraph", "text": "Elle se colle au mot qui la suit : {ar|أَ} + {ar|هٰذَا} → {ar|أَهٰذَا}." },
+        { "type": "example", "ar": "أَهٰذَا بَيْتٌ؟", "fr": "Est-ce une maison ?" },
+        { "type": "example", "ar": "نَعَمْ، هٰذَا بَيْتٌ.", "fr": "Oui, c'est une maison." },
+        { "type": "example", "ar": "أَهٰذَا سَرِيرٌ؟", "fr": "Est-ce un lit ?" },
+        { "type": "example", "ar": "لَا، هٰذَا كُرْسِيٌّ.", "fr": "Non, c'est une chaise." },
+        {
+          "type": "table",
+          "header": ["Mot", "Nature", "Sens"],
+          "rows": [
+            ["{ar|أَ}", "particule ({ar|حَرْفٌ})", "est-ce que… ?"],
+            ["{ar|مَا}", "nom ({ar|اِسْمٌ})", "qu'est-ce que… ?"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l01.grammar-2#3",
+      "type": "question",
+      "instruction": "Réponds à la question.",
+      "context": { "icon": "key" },
+      "prompt": { "ar": "مَا هٰذَا؟" },
+      "choices": [ { "ar": "هٰذَا مِفْتَاحٌ." }, { "ar": "هٰذَا قَلَمٌ." }, { "ar": "هٰذَا بَابٌ." } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.grammar-2#4",
+      "type": "typing",
+      "instruction": "Réponds à la question en arabe.",
+      "ask": "question",
+      "question": "مَا هٰذَا؟",
+      "context": { "icon": "house" },
+      "answers": ["هٰذَا بَيْتٌ."],
+      "fr": "C'est une maison."
+    },
+    {
+      "id": "medine-t1.l01.grammar-2#5",
+      "type": "question",
+      "instruction": "Réponds à la question.",
+      "context": { "icon": "mosque" },
+      "prompt": { "ar": "أَهٰذَا بَيْتٌ؟" },
+      "choices": [ { "ar": "لَا، هٰذَا مَسْجِدٌ." }, { "ar": "نَعَمْ، هٰذَا بَيْتٌ." }, { "ar": "لَا، هٰذَا بَابٌ." } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.grammar-2#6",
+      "type": "question",
+      "instruction": "Réponds à la question.",
+      "context": { "icon": "shirt" },
+      "prompt": { "ar": "أَهٰذَا قَمِيصٌ؟" },
+      "choices": [ { "ar": "نَعَمْ، هٰذَا قَمِيصٌ." }, { "ar": "لَا، هٰذَا قَمِيصٌ." }, { "ar": "لَا، هٰذَا نَجْمٌ." } ],
+      "answer": 0,
+      "explain": "On répond {ar|نَعَمْ} (oui), puis on peut répéter la phrase : {ar|نَعَمْ، هٰذَا قَمِيصٌ.}"
+    },
+    {
+      "id": "medine-t1.l01.grammar-2#7",
+      "type": "order",
+      "fr": "Est-ce une maison ?",
+      "answers": [["أَهٰذَا", "بَيْتٌ"]],
+      "punctuation": "؟",
+      "distractors": ["مَا"]
+    },
+    {
+      "id": "medine-t1.l01.grammar-2#8",
+      "type": "fill_gap",
+      "sentence": "{0} هٰذَا؟",
+      "fr": "Qu'est-ce que c'est ?",
+      "gaps": [{ "answers": ["مَا"] }],
+      "options": ["مَا", "نَعَمْ", "لَا"]
+    },
+    {
+      "id": "medine-t1.l01.grammar-2#9",
+      "type": "fill_gap",
+      "sentence": "أَهٰذَا مِفْتَاحٌ؟ {0}، هٰذَا قَلَمٌ.",
+      "fr": "Est-ce une clé ? Non, c'est un stylo.",
+      "gaps": [{ "answers": ["لَا"] }],
+      "options": ["لَا", "نَعَمْ", "مَا"]
+    },
+    {
+      "id": "medine-t1.l01.grammar-2#10",
+      "type": "typing",
+      "instruction": "Réponds à la question en arabe.",
+      "ask": "question",
+      "question": "أَهٰذَا نَجْمٌ؟",
+      "context": { "icon": "star" },
+      "answers": ["نَعَمْ، هٰذَا نَجْمٌ.", "نَعَمْ."],
+      "fr": "Oui, c'est une étoile."
+    },
+    {
+      "id": "medine-t1.l01.grammar-2#11",
+      "type": "true_false",
+      "context": { "icon": "chair" },
+      "statement": { "ar": "هٰذَا سَرِيرٌ.", "fr": "Ceci est un lit." },
+      "answer": false,
+      "explain": "C'est une chaise : {ar|هٰذَا كُرْسِيٌّ}."
+    },
+    {
+      "id": "medine-t1.l01.grammar-2#12",
+      "type": "order",
+      "fr": "Non, c'est une chaise.",
+      "answers": [["لَا،", "هٰذَا", "كُرْسِيٌّ"]],
+      "punctuation": "."
+    }
+  ]
+}

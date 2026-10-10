@@ -1,0 +1,92 @@
+{
+  "id": "medine-t1.l01.quiz",
+  "type": "quiz",
+  "title": "Quiz de la leçon 1",
+  "screens": [
+    { "id": "medine-t1.l01.quiz#1", "type": "mcq", "mode": "icon-ar", "item": "w:miftah" },
+    { "id": "medine-t1.l01.quiz#2", "type": "mcq", "mode": "ar-fr", "item": "w:tajir" },
+    { "id": "medine-t1.l01.quiz#3", "type": "mcq", "mode": "audio-ar", "item": "w:mindil" },
+    {
+      "id": "medine-t1.l01.quiz#4",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:hadha", "w:ma", "w:man", "w:a", "w:naam"]
+    },
+    {
+      "id": "medine-t1.l01.quiz#5",
+      "type": "question",
+      "prompt": { "fr": "Pour demander « Qui est-ce ? », on dit…" },
+      "choices": [ { "ar": "مَنْ هٰذَا؟" }, { "ar": "مَا هٰذَا؟" }, { "ar": "أَهٰذَا؟" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.quiz#6",
+      "type": "fill_gap",
+      "sentence": "أَهٰذَا بَيْتٌ؟ {0}، هٰذَا مَسْجِدٌ.",
+      "fr": "Est-ce une maison ? Non, c'est une mosquée.",
+      "gaps": [{ "answers": ["لَا"] }],
+      "options": ["لَا", "نَعَمْ", "مَا"]
+    },
+    {
+      "id": "medine-t1.l01.quiz#7",
+      "type": "fill_gap",
+      "sentence": "{0} هٰذَا؟ هٰذَا {1}.",
+      "fr": "Qui est-ce ? C'est un étudiant.",
+      "gaps": [{ "answers": ["مَنْ"] }, { "answers": ["طَالِبٌ"] }],
+      "options": ["مَنْ", "مَا", "طَالِبٌ", "طَبِيبٌ"]
+    },
+    {
+      "id": "medine-t1.l01.quiz#8",
+      "type": "order",
+      "fr": "Qu'est-ce que c'est ? C'est une étoile.",
+      "answers": [["مَا", "هٰذَا؟", "هٰذَا", "نَجْمٌ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.l01.quiz#9", "type": "typing", "ask": "fr", "item": "w:sarir" },
+    {
+      "id": "medine-t1.l01.quiz#10",
+      "type": "typing",
+      "instruction": "Réponds à la question en arabe.",
+      "ask": "question",
+      "question": "مَا هٰذَا؟",
+      "context": { "icon": "dog" },
+      "answers": ["هٰذَا كَلْبٌ."],
+      "fr": "C'est un chien."
+    },
+    {
+      "id": "medine-t1.l01.quiz#11",
+      "type": "true_false",
+      "statement": { "fr": "{ar|هٰذَا} s'utilise pour montrer une chose lointaine." },
+      "answer": false,
+      "explain": "{ar|هٰذَا} désigne une chose proche ({ar|قَرِيبٌ})."
+    },
+    {
+      "id": "medine-t1.l01.quiz#12",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|بَيْتٌ} ?" },
+      "choices": [ { "ar": "بُيُوتٌ" }, { "ar": "أَبْوَابٌ" }, { "ar": "كُتُبٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.quiz#13",
+      "type": "question",
+      "prompt": { "fr": "Le mot {ar|أَ} (est-ce que) est…" },
+      "choices": [ { "ar": "حَرْفٌ" }, { "ar": "اِسْمٌ" }, { "ar": "فِعْلٌ" } ],
+      "answer": 0,
+      "explain": "C'est une particule : on l'appelle {ar|هَمْزَةُ الِاسْتِفْهَامِ}."
+    },
+    {
+      "id": "medine-t1.l01.quiz#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Est-ce un coq ? Oui.",
+      "answers": ["أَهٰذَا دِيكٌ؟ نَعَمْ."]
+    },
+    {
+      "id": "medine-t1.l01.quiz#15",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:kitab", "w:qalam", "w:walad", "w:jamal"]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "medine-t1.l01.vocab-1",
+  "type": "vocabulary",
+  "title": "La maison et la mosquée",
+  "screens": [
+    { "id": "medine-t1.l01.vocab-1#1", "type": "present", "item": "w:bayt" },
+    { "id": "medine-t1.l01.vocab-1#2", "type": "present", "item": "w:masjid" },
+    { "id": "medine-t1.l01.vocab-1#3", "type": "present", "item": "w:bab" },
+    { "id": "medine-t1.l01.vocab-1#4", "type": "mcq", "mode": "ar-fr", "item": "w:bayt" },
+    { "id": "medine-t1.l01.vocab-1#5", "type": "mcq", "mode": "icon-ar", "item": "w:masjid" },
+    { "id": "medine-t1.l01.vocab-1#6", "type": "present", "item": "w:kitab" },
+    { "id": "medine-t1.l01.vocab-1#7", "type": "mcq", "mode": "audio-ar", "item": "w:bab" },
+    { "id": "medine-t1.l01.vocab-1#8", "type": "present", "item": "w:qalam" },
+    { "id": "medine-t1.l01.vocab-1#9", "type": "mcq", "mode": "fr-ar", "item": "w:kitab" },
+    { "id": "medine-t1.l01.vocab-1#10", "type": "mcq", "mode": "icon-ar", "item": "w:qalam" },
+    {
+      "id": "medine-t1.l01.vocab-1#11",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:bayt", "w:masjid", "w:bab", "w:kitab", "w:qalam"]
+    },
+    { "id": "medine-t1.l01.vocab-1#12", "type": "typing", "ask": "fr", "item": "w:bayt" },
+    {
+      "id": "medine-t1.l01.vocab-1#13",
+      "type": "match",
+      "mode": "audio-ar",
+      "items": ["w:bab", "w:kitab", "w:qalam", "w:masjid"]
+    }
+  ]
+}

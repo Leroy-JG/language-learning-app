@@ -1,0 +1,32 @@
+{
+  "id": "medine-t1.l01.vocab-5",
+  "type": "vocabulary",
+  "title": "Les animaux",
+  "screens": [
+    { "id": "medine-t1.l01.vocab-5#1", "type": "present", "item": "w:kalb" },
+    { "id": "medine-t1.l01.vocab-5#2", "type": "present", "item": "w:qitt" },
+    { "id": "medine-t1.l01.vocab-5#3", "type": "mcq", "mode": "icon-ar", "item": "w:kalb" },
+    { "id": "medine-t1.l01.vocab-5#4", "type": "present", "item": "w:dik" },
+    { "id": "medine-t1.l01.vocab-5#5", "type": "present", "item": "w:himar" },
+    { "id": "medine-t1.l01.vocab-5#6", "type": "mcq", "mode": "ar-fr", "item": "w:dik" },
+    { "id": "medine-t1.l01.vocab-5#7", "type": "present", "item": "w:hisan" },
+    { "id": "medine-t1.l01.vocab-5#8", "type": "mcq", "mode": "audio-ar", "item": "w:himar" },
+    { "id": "medine-t1.l01.vocab-5#9", "type": "present", "item": "w:jamal" },
+    { "id": "medine-t1.l01.vocab-5#10", "type": "mcq", "mode": "icon-ar", "item": "w:hisan", "distractors": ["w:himar", "w:jamal"] },
+    { "id": "medine-t1.l01.vocab-5#11", "type": "present", "item": "w:mindil" },
+    { "id": "medine-t1.l01.vocab-5#12", "type": "mcq", "mode": "fr-ar", "item": "w:mindil" },
+    {
+      "id": "medine-t1.l01.vocab-5#13",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:kalb", "w:qitt", "w:dik", "w:himar", "w:hisan"]
+    },
+    {
+      "id": "medine-t1.l01.vocab-5#14",
+      "type": "match",
+      "mode": "audio-ar",
+      "items": ["w:jamal", "w:mindil", "w:qitt", "w:kalb"]
+    },
+    { "id": "medine-t1.l01.vocab-5#15", "type": "typing", "ask": "audio", "item": "w:kalb" }
+  ]
+}
