@@ -26,7 +26,12 @@ import io.github.leroyjg.arabe.arabic.Markup
 import io.github.leroyjg.arabe.ui.theme.NotoNaskh
 
 /** Préférences de lecture de l'arabe (réglages de l'app). */
-data class ReadingPrefs(val hideHarakat: Boolean = false, val arabicScale: Float = 1f)
+data class ReadingPrefs(
+    val hideHarakat: Boolean = false,
+    val arabicScale: Float = 1f,
+    val showTranslit: Boolean = true,
+    val autoPlay: Boolean = true,
+)
 
 val LocalReadingPrefs = staticCompositionLocalOf { ReadingPrefs() }
 

@@ -16,5 +16,66 @@
     <string name="activity_type_quiz">Quiz</string>
     <string name="activity_screen_count">%1$d écrans</string>
     <string name="activity_not_found">Activité introuvable.</string>
-    <string name="coming_soon">Les exercices arrivent dans la prochaine version.</string>
+
+    <!-- Déroulé d'une activité -->
+    <string name="close">Fermer</string>
+    <string name="check">Vérifier</string>
+    <string name="continue_">Continuer</string>
+    <string name="listen">Écouter</string>
+    <string name="quit_title">Quitter l\'activité ?</string>
+    <string name="quit_message">Ce que tu as fait dans cette activité sera perdu.</string>
+    <string name="quit_confirm">Quitter</string>
+    <string name="quit_cancel">Rester</string>
+    <string name="retry_badge">Exercice repris</string>
+    <string name="plural_label">Pluriel</string>
+    <string name="example_label">Exemple</string>
+
+    <string name="instruction_mcq_ar_fr">Que veut dire ceci ?</string>
+    <string name="instruction_mcq_fr_ar">Comment le dit-on en arabe ?</string>
+    <string name="instruction_mcq_audio_ar">Qu\'entends-tu ?</string>
+    <string name="instruction_mcq_icon_ar">Qu\'est-ce que c\'est ?</string>
+    <string name="instruction_match">Associe les paires.</string>
+    <string name="instruction_fill_gap">Complète la phrase.</string>
+    <string name="instruction_order">Remets les mots dans l\'ordre.</string>
+    <string name="instruction_typing_fr">Écris en arabe.</string>
+    <string name="instruction_typing_audio">Écris ce que tu entends.</string>
+    <string name="instruction_typing_question">Réponds en arabe.</string>
+    <string name="instruction_true_false">Vrai ou faux ?</string>
+    <string name="instruction_question">Choisis la bonne réponse.</string>
+    <string name="typing_placeholder">Écris ici en arabe</string>
+    <string name="typing_keyboard_hint">Active un clavier arabe sur ton téléphone pour écrire.</string>
+    <string name="true_">Vrai</string>
+    <string name="false_">Faux</string>
+
+    <string name="dialogue_play_all">Écouter le dialogue</string>
+    <string name="dialogue_stop">Arrêter</string>
+    <string name="dialogue_translation">Traduction</string>
+    <string name="dialogue_replay">Réécouter « %1$s »</string>
+    <string name="dialogue_show_text">Voir le texte</string>
+    <string name="dialogue_hide_text">Masquer le texte</string>
+
+    <!-- Correction -->
+    <string name="feedback_correct">Bravo !</string>
+    <string name="feedback_remark">Correct, mais attention</string>
+    <string name="feedback_wrong">Ce n\'est pas ça</string>
+    <string name="feedback_match_mistakes">Terminé, avec %1$d erreur(s)</string>
+    <string name="feedback_answer">Bonne réponse :</string>
+    <string name="feedback_it_was_true">La phrase était vraie.</string>
+    <string name="feedback_it_was_false">La phrase était fausse.</string>
+    <string name="remark_hamza_alif">Vérifie la hamza et l\'alif (أ إ آ ا).</string>
+    <string name="remark_ta_marbuta">Vérifie la tā\' marbūṭa (ة) et le hā\' (ه).</string>
+    <string name="remark_alif_maqsura">Vérifie l\'alif maqṣūra (ى) et le yā\' (ي).</string>
+    <string name="remark_harakat">Vérifie les voyelles (harakat).</string>
+
+    <!-- Fin d'activité -->
+    <string name="end_title">Activité terminée !</string>
+    <string name="end_quiz_passed">Quiz réussi !</string>
+    <string name="end_quiz_failed">Quiz à refaire</string>
+    <string name="end_quiz_failed_hint">Il faut au moins 70 % de bonnes réponses du premier coup.</string>
+    <string name="end_score">Du premier coup : %1$d / %2$d</string>
+    <string name="end_xp">+%1$d XP</string>
+    <string name="end_words">Mots et phrases vus</string>
+    <string name="end_retry_quiz">Recommencer le quiz</string>
+
+    <string name="no_arabic_voice">Aucune voix arabe sur ce téléphone : installe-la dans les réglages Android (synthèse vocale) pour entendre l\'arabe.</string>
 </resources>
