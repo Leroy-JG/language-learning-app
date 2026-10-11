@@ -1,0 +1,71 @@
+name: Android
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Tests de la logique et validation du contenu
+        run: ./gradlew -p core test validateContent
+
+      - name: Clé de signature
+        env:
+          SIGNING_PASSPHRASE: ${{ secrets.SIGNING_PASSPHRASE }}
+        run: |
+          if [ -n "$SIGNING_PASSPHRASE" ]; then
+            openssl enc -d -aes-256-cbc -pbkdf2 -iter 600000 \
+              -in signing/release.keystore.enc -out "$RUNNER_TEMP/release.keystore" -pass env:SIGNING_PASSPHRASE
+            echo "SIGNING_KEYSTORE=$RUNNER_TEMP/release.keystore" >> "$GITHUB_ENV"
+            echo "KEY_KIND=définitive" >> "$GITHUB_ENV"
+          else
+            echo "::warning::Secret SIGNING_PASSPHRASE absent : APK signé avec une clé temporaire (à désinstaller avant la version signée)."
+            echo "KEY_KIND=temporaire" >> "$GITHUB_ENV"
+          fi
+
+      - name: Tests de l'app et APK
+        env:
+          SIGNING_PASSPHRASE: ${{ secrets.SIGNING_PASSPHRASE }}
+        run: ./gradlew :app:testReleaseUnitTest :app:assembleRelease -PversionCode=${{ github.run_number }}
+
+      - name: Préparer l'APK
+        run: cp app/build/outputs/apk/release/app-release.apk arabe.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arabe-0.1.${{ github.run_number }}
+          path: arabe.apk
+          retention-days: 30
+
+      - name: Publier la version
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: v0.1.${{ github.run_number }}
+        run: |
+          notes="Branche ${GITHUB_REF_NAME}, commit ${GITHUB_SHA::7}. Clé de signature : ${KEY_KIND}."
+          prerelease=""
+          if [ "$KEY_KIND" != "définitive" ]; then prerelease="--prerelease"; fi
+          gh release create "$TAG" arabe.apk --target "$GITHUB_SHA" --title "Version 0.1.${{ github.run_number }}" --notes "$notes" $prerelease \
+            || gh release upload "$TAG" arabe.apk --clobber
+          rm -f "$RUNNER_TEMP/release.keystore"

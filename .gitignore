@@ -1,0 +1,12 @@
+.gradle/
+.kotlin/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+
+# Clé de signature en clair : seule la version chiffrée (signing/release.keystore.enc) est versionnée.
+*.keystore
+*.jks

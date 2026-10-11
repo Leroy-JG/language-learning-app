@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Arabe</string>
+
+    <!-- Accueil et parcours -->
+    <string name="home_title">Arabe</string>
+    <string name="home_subtitle">Ton parcours, leçon après leçon</string>
+    <string name="chapter_label">Leçon %1$d</string>
+    <string name="back">Retour</string>
+    <string name="loading">Chargement…</string>
+    <string name="content_error_title">Le contenu des cours n\'a pas pu être chargé</string>
+    <string name="activity_type_vocabulary">Vocabulaire</string>
+    <string name="activity_type_grammar">Grammaire</string>
+    <string name="activity_type_dialogue">Dialogue</string>
+    <string name="activity_type_review">Révision</string>
+    <string name="activity_type_quiz">Quiz</string>
+    <string name="activity_screen_count">%1$d écrans</string>
+    <string name="activity_not_found">Activité introuvable.</string>
+    <string name="coming_soon">Les exercices arrivent dans la prochaine version.</string>
+</resources>
