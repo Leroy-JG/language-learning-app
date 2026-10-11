@@ -139,6 +139,31 @@ class EngineTest {
     }
 
     @Test
+    fun `tout le cours se joue - chaque bonne réponse est acceptée`() {
+        for (activity in course.activities) {
+            val session = ActivitySession(activity.screens)
+            var guard = 0
+            while (!session.finished) {
+                val s = session.current!!
+                val ok = when (s) {
+                    is McqScreen -> factory.mcq(s).let { it.check(it.correctIndex) }
+                    is MatchScreen -> factory.match(s).let { p -> p.left.all { l -> p.right.count { r -> p.isPair(l, r) } == 1 } }
+                    is FillGapScreen -> factory.fillGap(s).check(s.gaps.map { it.answers.first() })
+                    is OrderScreen -> factory.order(s).let { p -> p.tokens.sorted() == (s.answers.first() + s.distractors.orEmpty()).sorted() && p.check(s.answers.first()) }
+                    is TypingScreen -> factory.typing(s).let { p -> p.answers.all { p.check(it).verdict == Verdict.CORRECT } }
+                    is TrueFalseScreen -> factory.trueFalse(s).check(s.answer)
+                    is QuestionScreen -> factory.question(s).let { it.check(it.correctPosition) }
+                    else -> true
+                }
+                assertTrue(ok, "bonne réponse refusée : ${s.id}")
+                session.advance(if (s is Exercise) Outcome.CORRECT else Outcome.VIEWED)
+                assertTrue(++guard <= activity.screens.size, "boucle infinie dans ${activity.id}")
+            }
+            assertEquals(1.0, session.score, activity.id)
+        }
+    }
+
+    @Test
     fun `vrai ou faux et question`() {
         val tf = factory.trueFalse(screen<TrueFalseScreen>("medine-t1.l01.grammar-1#9"))
         assertTrue(tf.check(false))

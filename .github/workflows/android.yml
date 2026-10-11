@@ -25,6 +25,9 @@ jobs:
           java-version: 17
 
       - uses: gradle/actions/setup-gradle@v4
+        with:
+          # Garde aussi le cache des branches de travail : les builds suivants sont bien plus rapides.
+          cache-read-only: false
 
       - name: Tests de la logique et validation du contenu
         run: ./gradlew -p core test validateContent
