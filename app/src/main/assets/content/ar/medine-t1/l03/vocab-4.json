@@ -24,7 +24,7 @@
             ["{ar|رِجْلٌ}", "une jambe, un pied", "féminin"]
           ]
         },
-        { "type": "paragraph", "text": "En revanche, {ar|فَمٌ} (une bouche), {ar|صَدْرٌ} (une poitrine) et {ar|ظَهْرٌ} (un dos), qui sont uniques, sont masculins." },
+        { "type": "paragraph", "text": "En revanche, {ar|فَمٌ} (une bouche), {ar|صَدْرٌ} (une poitrine) et {ar|ظَهْرٌ} (un dos), qui ne vont pas par paire, sont masculins." },
         { "type": "note", "text": "Ce n'est pas une règle absolue : {ar|خَدٌّ} (une joue) va par paire et pourtant il est masculin. Le genre de chaque nom est indiqué sous sa traduction." }
       ]
     },
@@ -41,11 +41,11 @@
     {
       "id": "medine-t1.l03.vocab-4#8b",
       "type": "question",
-      "prompt": { "fr": "Pourquoi {ar|يَدٌ} est-il féminin, alors qu'il ne se termine pas par {ar|ة} ?" },
+      "prompt": { "fr": "{ar|يَدٌ} est féminin sans {ar|ة}. Quelle remarque aide à retenir son genre ?" },
       "choices": [
-        { "fr": "Comme la plupart des parties du corps qui vont par paire" },
-        { "fr": "Parce qu'il porte le tanwin" },
-        { "fr": "Parce qu'il commence par une lettre lunaire" }
+        { "fr": "La plupart des parties du corps qui vont par paire sont féminines" },
+        { "fr": "Les mots qui portent le tanwin sont féminins" },
+        { "fr": "Les mots qui commencent par une lettre lunaire sont féminins" }
       ],
       "answer": 0
     },

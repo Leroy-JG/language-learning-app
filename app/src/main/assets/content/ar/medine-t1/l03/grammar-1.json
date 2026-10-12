@@ -41,7 +41,7 @@
           ]
         },
         { "type": "note", "text": "La terminaison change selon la place du mot dans la phrase : tu l'apprendras plus tard. Pour l'instant, tu rencontres surtout {ar|◌ٌ}." },
-        { "type": "paragraph", "text": "Quand on s'arrête à la fin d'une phrase, on ne prononce pas le tanwin {ar|◌ٌ} ni {ar|◌ٍ} : {ar|هٰذَا بَيْتٌ.} se dit « hādhā bayt ». Le tanwin {ar|◌ً} devient alors « ā » : {ar|كِتَابًا} → « kitābā »." },
+        { "type": "paragraph", "text": "Quand on s'arrête à la fin d'une phrase, on ne prononce pas le tanwin {ar|◌ٌ} ni {ar|◌ٍ} : {ar|هٰذَا بَيْتٌ.} se dit « hādhā bayt ». Le tanwin {ar|◌ً} devient alors « ā » : {ar|كِتَابًا} → « kitābā » (sauf après {ar|ة}, qui se prononce alors « h »)." },
         { "type": "note", "text": "Attention : le tanwin n'est pas toujours le signe de l'indéfini. Un nom propre comme {ar|مُحَمَّدٌ} (vu au chapitre 1) porte le tanwin, et pourtant il est défini : il désigne une personne précise. Les noms propres sont une autre sorte de noms définis, que tu étudieras plus tard." }
       ]
     },

@@ -84,7 +84,7 @@
         { "type": "example", "ar": "الْوَلَدُ جَالِسٌ، وَالْمُدَرِّسُ وَاقِفٌ.", "fr": "Le garçon est assis, et l'enseignant est debout. (« … wa l-mudarrisu… »)" },
         { "type": "paragraph", "text": "Quand le mot précédent se termine par un sukūn, on lui donne une voyelle pour enchaîner, le plus souvent une kasra. Ainsi {ar|مَنْ} devient {ar|مَنِ} :" },
         { "type": "example", "ar": "مَنِ الْمُدَرِّسُ؟", "fr": "Qui est l'enseignant ? (« mani l-mudarrisu ? »)" },
-        { "type": "note", "text": "À ne pas confondre avec la hamza « coupante » ({ar|هَمْزَةُ الْقَطْعِ}), écrite avec le signe {ar|ء} ({ar|أ}, {ar|إ}) : elle se prononce toujours, même au milieu d'une phrase. Par exemple {ar|الْأَبُ} (« al-ʾabu »), {ar|هٰذَا إِمَامٌ} (« hādhā ʾimāmun ») et le {ar|أَ} des questions." }
+        { "type": "note", "text": "À ne pas confondre avec la hamza « coupante » ({ar|هَمْزَةُ الْقَطْعِ}), écrite avec le signe {ar|ء} ({ar|أ}, {ar|إ}) : elle se prononce toujours, même au milieu d'une phrase. Par exemple {ar|الْأَبُ} (le père : « al-ʾabu »), {ar|هٰذَا إِمَامٌ} (« hādhā ʾimāmun ») et le {ar|أَ} des questions." }
       ]
     },
     {

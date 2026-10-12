@@ -104,7 +104,7 @@
     "translit": "maktabun",
     "plural": "مَكَاتِبُ",
     "gender": "m",
-    "note": "Même famille que {ar|كِتَابٌ} (un livre) et {ar|كِتَابَةٌ} (l'écriture) : les lettres {ar|ك ت ب} portent l'idée d'« écrire ». Le {ar|مَكْتَبٌ} est le meuble ou l'endroit où l'on écrit.",
+    "note": "Même famille que {ar|كِتَابٌ} (un livre) et {ar|كِتَابَةٌ} (écriture, fait d'écrire) : les lettres {ar|ك ت ب} portent l'idée d'« écrire ». Le {ar|مَكْتَبٌ} est le meuble ou l'endroit où l'on écrit.",
     "example": { "ar": "هٰذَا مَكْتَبُ الْمَسْجِدِ.", "fr": "Ceci est le bureau de la mosquée." }
   },
   {
