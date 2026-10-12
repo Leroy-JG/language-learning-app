@@ -1,0 +1,61 @@
+{
+  "id": "medine-t1.l05.practice-2",
+  "type": "grammar",
+  "title": "À qui est… ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l05.practice-2#1",
+      "type": "tip",
+      "title": "Demander à qui est une chose",
+      "blocks": [
+        { "type": "paragraph", "text": "Pour demander « à qui est… ? », on met {ar|مَنْ} (qui) comme **second terme** de l'annexion, puis on ajoute {ar|هٰذَا}." },
+        { "type": "example", "ar": "كِتَابُ مَنْ هٰذَا؟", "fr": "À qui est ce livre ? (mot à mot : le livre de qui, ceci ?)" },
+        { "type": "example", "ar": "هٰذَا كِتَابُ مُحَمَّدٍ.", "fr": "C'est le livre de Muḥammad." },
+        { "type": "note", "text": "Le mot interrogatif ouvre la phrase : ici, c'est toute l'expression {ar|كِتَابُ مَنْ} qui vient en premier. Et {ar|مَنْ} ne change jamais de forme, même comme second terme : on n'y voit donc pas la kasra." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.practice-2#2",
+      "type": "order",
+      "context": { "icon": "pen" },
+      "fr": "À qui est ce stylo ?",
+      "answers": [["قَلَمُ", "مَنْ", "هٰذَا"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l05.practice-2#3",
+      "type": "question",
+      "context": { "icon": "house" },
+      "prompt": { "fr": "Quelle question pose-t-on pour savoir à qui est cette maison ?" },
+      "choices": [ { "ar": "بَيْتُ مَنْ هٰذَا؟" }, { "ar": "أَيْنَ الْبَيْتُ؟" }, { "ar": "مَنْ هٰذَا؟" } ],
+      "answer": 0,
+      "explain": "{ar|بَيْتُ مَنْ} : « la maison de qui ». {ar|مَنْ هٰذَا؟} demande seulement « qui est-ce ? »."
+    },
+    {
+      "id": "medine-t1.l05.practice-2#4",
+      "type": "typing",
+      "context": { "icon": "shirt" },
+      "ask": "fr",
+      "fr": "À qui est cette chemise ?",
+      "answers": ["قَمِيصُ مَنْ هٰذَا؟"]
+    },
+    {
+      "id": "medine-t1.l05.practice-2#5",
+      "type": "fill_gap",
+      "context": { "icon": "bed" },
+      "sentence": "{0} مَنْ هٰذَا؟",
+      "fr": "À qui est ce lit ?",
+      "gaps": [{ "answers": ["سَرِيرُ"] }],
+      "options": ["سَرِيرُ", "قَلَمُ", "مِفْتَاحُ"]
+    },
+    {
+      "id": "medine-t1.l05.practice-2#6",
+      "type": "typing",
+      "context": { "icon": "key" },
+      "ask": "fr",
+      "fr": "À qui est cette clé ?",
+      "answers": ["مِفْتَاحُ مَنْ هٰذَا؟"]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "medine-t1.l05.vocab-2",
+  "type": "vocabulary",
+  "title": "Docteur, cheikh, ministre…",
+  "icon": "elder",
+  "screens": [
+    { "id": "medine-t1.l05.vocab-2#1", "type": "present", "item": "w:duktur" },
+    { "id": "medine-t1.l05.vocab-2#2", "type": "present", "item": "w:shaykh" },
+    {
+      "id": "medine-t1.l05.vocab-2#3",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:shaykh",
+      "distractors": ["w:rajul", "w:tabib"]
+    },
+    { "id": "medine-t1.l05.vocab-2#4", "type": "present", "item": "w:muhandis" },
+    { "id": "medine-t1.l05.vocab-2#5", "type": "present", "item": "w:wazir" },
+    { "id": "medine-t1.l05.vocab-2#6", "type": "present", "item": "w:ustadh" },
+    {
+      "id": "medine-t1.l05.vocab-2#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:duktur", "w:shaykh", "w:muhandis", "w:wazir", "w:ustadh"]
+    },
+    {
+      "id": "medine-t1.l05.vocab-2#8",
+      "type": "fill_gap",
+      "sentence": "هٰذَا {0} فِي الْجَامِعَةِ.",
+      "fr": "C'est un docteur à l'université.",
+      "gaps": [{ "answers": ["دُكْتُورٌ"] }],
+      "options": ["دُكْتُورٌ", "وَزِيرٌ", "شَيْخٌ"]
+    },
+    {
+      "id": "medine-t1.l05.vocab-2#9",
+      "type": "mcq",
+      "mode": "audio-ar",
+      "item": "w:wazir",
+      "distractors": ["w:mudir", "w:imam"]
+    },
+    { "id": "medine-t1.l05.vocab-2#10", "type": "typing", "ask": "fr", "item": "w:ustadh" },
+    {
+      "id": "medine-t1.l05.vocab-2#11",
+      "type": "order",
+      "fr": "L'ingénieur est sorti de l'école.",
+      "answers": [["خَرَجَ", "الْمُهَنْدِسُ", "مِنَ", "الْمَدْرَسَةِ"]],
+      "punctuation": ".",
+      "distractors": ["إِلَى"]
+    },
+    {
+      "id": "medine-t1.l05.vocab-2#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "C'est le ministre de France.",
+      "answers": ["هٰذَا وَزِيرُ فَرَنْسَا."]
+    }
+  ]
+}

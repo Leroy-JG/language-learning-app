@@ -1,0 +1,125 @@
+{
+  "id": "medine-t1.l05.grammar-4",
+  "type": "grammar",
+  "title": "L'annexion dans la phrase",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l05.grammar-4#1",
+      "type": "tip",
+      "title": "Le second terme ne change pas, le premier si",
+      "blocks": [
+        { "type": "paragraph", "text": "Le **second** terme est toujours {ar|مَجْرُورٌ}, quelle que soit la place de l'annexion dans la phrase. Le **premier** terme, lui, varie comme n'importe quel nom : sa terminaison dépend du rôle qu'il joue." },
+        {
+          "type": "table",
+          "header": ["Place de l'annexion", "Exemple", "Le premier terme est…"],
+          "rows": [
+            ["dans une phrase sans verbe", "{ar|هٰذَا كِتَابُ مُحَمَّدٍ}", "{ar|كِتَابُ} : {ar|مَرْفُوعٌ} (damma)"],
+            ["après un verbe", "{ar|قَرَأْتُ كِتَابَ مُحَمَّدٍ}", "{ar|كِتَابَ} : {ar|مَنْصُوبٌ} (fatha)"],
+            ["après une préposition", "{ar|فِي كِتَابِ مُحَمَّدٍ}", "{ar|كِتَابِ} : {ar|مَجْرُورٌ} (kasra)"]
+          ]
+        },
+        { "type": "note", "text": "Dans les trois exemples, {ar|مُحَمَّدٍ} ne change pas : il reste à la kasra. ({ar|قَرَأْتُ كِتَابَ مُحَمَّدٍ} : j'ai lu le livre de Muḥammad.)" }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.grammar-4#2",
+      "type": "tip",
+      "title": "Le premier terme change, le second reste",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "هٰذَا كِتَابُ مُحَمَّدٍ", "fr": "C'est le livre de Muḥammad." }, "to": { "ar": "فِي كِتَابِ مُحَمَّدٍ", "fr": "dans le livre de Muḥammad" }, "label": "{ar|كِتَابُ} → {ar|كِتَابِ}, mais {ar|مُحَمَّدٍ} ne change pas" },
+            { "from": { "ar": "بَابُ الْمَدْرَسَةِ", "fr": "la porte de l'école" }, "to": { "ar": "عَلَى بَابِ الْمَدْرَسَةِ", "fr": "sur la porte de l'école" } },
+            { "from": { "ar": "غُرْفَةُ الْمُدِيرِ", "fr": "la chambre du directeur" }, "to": { "ar": "فِي غُرْفَةِ الْمُدِيرِ", "fr": "dans la chambre du directeur" } },
+            { "from": { "ar": "مَكْتَبُ الْمُدَرِّسِ", "fr": "le bureau de l'enseignant" }, "to": { "ar": "عَلَى مَكْتَبِ الْمُدَرِّسِ", "fr": "sur le bureau de l'enseignant" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.grammar-4#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|فِي بَيْتِ يَاسِرٍ}, pourquoi {ar|بَيْتِ} est-il à la kasra ?" },
+      "choices": [ { "fr": "À cause de la préposition {ar|فِي}" }, { "fr": "Parce qu'il est le second terme de l'annexion" }, { "fr": "Parce qu'il est indéfini" } ],
+      "answer": 0,
+      "explain": "{ar|بَيْتِ} est le premier terme : la préposition {ar|فِي} le met à la kasra. {ar|يَاسِرٍ}, le second terme, est à la kasra à cause de l'annexion."
+    },
+    {
+      "id": "medine-t1.l05.grammar-4#4",
+      "type": "spot",
+      "instruction": "Touche le premier terme de l'annexion.",
+      "words": ["الْكَلْبُ", "فِي", "غُرْفَةِ", "الْمُدِيرِ."],
+      "answers": [2],
+      "fr": "Le chien est dans la chambre du directeur.",
+      "explain": "{ar|غُرْفَةِ} est le premier terme (sans article, sans tanwin), à la kasra à cause de {ar|فِي}. {ar|الْمُدِيرِ} est le second terme."
+    },
+    {
+      "id": "medine-t1.l05.grammar-4#5",
+      "type": "tip",
+      "title": "Un nom au milieu de deux annexions",
+      "blocks": [
+        { "type": "paragraph", "text": "Un nom peut être **second terme** d'une annexion et **premier terme** d'une autre. Le professeur en donne un exemple dans son vocabulaire :" },
+        {
+          "type": "breakdown",
+          "ar": "اِبْنُ عَمِّ زَيْدٍ",
+          "fr": "le cousin paternel de Zayd",
+          "parts": [
+            { "ar": "اِبْنُ", "fr": "le fils" },
+            { "ar": "عَمِّ", "fr": "de l'oncle paternel" },
+            { "ar": "زَيْدٍ", "fr": "de Zayd" }
+          ]
+        },
+        { "type": "paragraph", "text": "Mot à mot : « le fils de l'oncle paternel de Zayd », c'est-à-dire le cousin paternel de Zayd. {ar|عَمِّ} est à la kasra, car il est le second terme de {ar|اِبْنُ} ; et il n'a pas de tanwin, car il est le premier terme de {ar|زَيْدٍ}." },
+        { "type": "example", "ar": "اِبْنُ عَمِّ زَيْدٍ غَنِيٌّ.", "fr": "Le cousin paternel de Zayd est riche." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.grammar-4#6",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|اِبْنُ عَمِّ زَيْدٍ}, pourquoi {ar|عَمِّ} n'a-t-il pas de tanwin ?" },
+      "choices": [ { "fr": "Parce qu'il est le premier terme d'une annexion avec {ar|زَيْدٍ}" }, { "fr": "Parce qu'il porte l'article" }, { "fr": "Parce que c'est un verbe" } ],
+      "answer": 0,
+      "explain": "Un premier terme n'a jamais de tanwin. {ar|عَمِّ} est le premier terme de l'annexion {ar|عَمِّ زَيْدٍ}."
+    },
+    {
+      "id": "medine-t1.l05.grammar-4#7",
+      "type": "tip",
+      "title": "Les noms sans tanwin dans l'annexion",
+      "blocks": [
+        { "type": "paragraph", "text": "Au chapitre 4, tu as vu que certains noms n'ont pas de tanwin ({ar|عُمَرُ}, {ar|مَكَّةُ}, {ar|مَسَاجِدُ}). Voici ce qu'ils deviennent dans une annexion :" },
+        {
+          "type": "table",
+          "header": ["Annexion", "Ce qui se passe"],
+          "rows": [
+            ["{ar|كِتَابُ عُمَرَ}", "{ar|عُمَرُ}, second terme sans tanwin, reçoit la **fatha** (le livre de ʿUmar)"],
+            ["{ar|فِي مَسَاجِدِ مَكَّةَ}", "{ar|مَسَاجِدِ}, premier terme, retrouve la **kasra** ; {ar|مَكَّةَ}, second terme sans tanwin, reçoit la **fatha** (dans les mosquées de La Mecque)"]
+          ]
+        },
+        { "type": "note", "text": "Dans les deux cas, ces noms sont bien {ar|مَجْرُورٌ} : seule la marque change (fatha à la place de la kasra)." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.grammar-4#8",
+      "type": "true_false",
+      "statement": { "fr": "Le premier terme d'une annexion est toujours à la damma." },
+      "answer": false,
+      "explain": "Il varie selon son rôle : damma, fatha ou kasra, comme {ar|كِتَابُ} et {ar|كِتَابِ} dans {ar|فِي كِتَابِ مُحَمَّدٍ}."
+    },
+    {
+      "id": "medine-t1.l05.grammar-4#9",
+      "type": "order",
+      "fr": "Zayd est dans la maison de Yāsir.",
+      "answers": [["زَيْدٌ", "فِي", "بَيْتِ", "يَاسِرٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l05.grammar-4#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "dans le livre de Muḥammad",
+      "answers": ["فِي كِتَابِ مُحَمَّدٍ"]
+    }
+  ]
+}

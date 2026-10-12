@@ -1,0 +1,153 @@
+{
+  "id": "medine-t1.l05.practice-4",
+  "type": "grammar",
+  "title": "Lire des phrases du livre",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l05.practice-4#1",
+      "type": "tip",
+      "title": "Exercice 4 : lis à haute voix (1)",
+      "blocks": [
+        { "type": "paragraph", "text": "Voici les premières phrases de l'exercice de lecture de ton livre. Lis chaque phrase, puis touche-la pour l'écouter. Regarde la fin de chaque mot : tu sais maintenant pourquoi elle est ainsi." },
+        { "type": "example", "ar": "أَيْنَ بَيْتُ الْمُدَرِّسِ؟ هُوَ بَعِيدٌ.", "fr": "Où est la maison de l'enseignant ? Elle est loin." },
+        { "type": "example", "ar": "الْقُرْآنُ كِتَابُ اللَّهِ.", "fr": "Le Coran est le livre d'Allah." },
+        { "type": "example", "ar": "الْكَعْبَةُ بَيْتُ اللَّهِ.", "fr": "La Kaaba est la maison d'Allah." },
+        { "type": "example", "ar": "مُحَمَّدٌ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ رَسُولُ اللَّهِ.", "fr": "Muḥammad (que la prière et la paix d'Allah soient sur lui) est le messager d'Allah." },
+        { "type": "example", "ar": "خَرَجَ الْمُدَرِّسُ مِنْ غُرْفَةِ الْمُدِيرِ.", "fr": "L'enseignant est sorti de la chambre du directeur." },
+        { "type": "example", "ar": "هٰذَا بَيْتُ حَامِدٍ وَذٰلِكَ بَيْتُ خَالِدٍ.", "fr": "Ceci est la maison de Ḥāmid et cela est la maison de Khālid." },
+        { "type": "example", "ar": "اِبْنُ عَمَّارٍ طَالِبٌ وَابْنُ يَاسِرٍ تَاجِرٌ.", "fr": "Le fils de ʿAmmār est étudiant et le fils de Yāsir est commerçant." },
+        { "type": "example", "ar": "بَيْتُ الْمُدَرِّسِ بَعِيدٌ وَبَيْتُ التَّاجِرِ قَرِيبٌ.", "fr": "La maison de l'enseignant est loin et la maison du commerçant est proche." },
+        { "type": "example", "ar": "هٰذَا مِفْتَاحُ السَّيَّارَةِ. أَيْنَ مِفْتَاحُ الْبَيْتِ؟", "fr": "Ceci est la clé de la voiture. Où est la clé de la maison ?" }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.practice-4#2",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|اِبْنُ عَمَّارٍ طَالِبٌ وَابْنُ يَاسِرٍ تَاجِرٌ}, qui est commerçant ?" },
+      "choices": [ { "fr": "Le fils de Yāsir" }, { "fr": "Le fils de ʿAmmār" }, { "fr": "Yāsir" } ],
+      "answer": 0,
+      "explain": "{ar|وَابْنُ يَاسِرٍ تَاجِرٌ} : « et le fils de Yāsir est commerçant »."
+    },
+    {
+      "id": "medine-t1.l05.practice-4#3",
+      "type": "true_false",
+      "statement": { "ar": "الْقُرْآنُ بَيْتُ اللَّهِ.", "fr": "Le Coran est la maison d'Allah." },
+      "answer": false,
+      "explain": "Le Coran est le livre d'Allah : {ar|الْقُرْآنُ كِتَابُ اللَّهِ}. La maison d'Allah est la Kaaba."
+    },
+    {
+      "id": "medine-t1.l05.practice-4#4",
+      "type": "order",
+      "fr": "La maison de l'enseignant est loin.",
+      "answers": [["بَيْتُ", "الْمُدَرِّسِ", "بَعِيدٌ"]],
+      "punctuation": ".",
+      "distractors": ["قَرِيبٌ"]
+    },
+    {
+      "id": "medine-t1.l05.practice-4#5",
+      "type": "fill_gap",
+      "sentence": "خَرَجَ الْمُدَرِّسُ {0} غُرْفَةِ الْمُدِيرِ.",
+      "fr": "L'enseignant est sorti de la chambre du directeur.",
+      "gaps": [{ "answers": ["مِنْ"] }],
+      "options": ["مِنْ", "فِي", "عَلَى"]
+    },
+    {
+      "id": "medine-t1.l05.practice-4#6",
+      "type": "tip",
+      "title": "Exercice 4 : lis à haute voix (2)",
+      "blocks": [
+        { "type": "example", "ar": "وَابْنُ مَنْ هُوَ؟ هُوَ اِبْنُ خَالِدٍ.", "fr": "Et de qui est-il le fils ? Il est le fils de Khālid." },
+        { "type": "example", "ar": "أَيْنَ مَسْجِدُ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ؟ هُوَ فِي الْمَدِينَةِ الْمُنَوَّرَةِ.", "fr": "Où est la mosquée du Messager d'Allah (que la prière et la paix d'Allah soient sur lui) ? Elle est à Médine." },
+        { "type": "example", "ar": "بِنْتُ حَامِدٍ فِي الْمَدْرَسَةِ وَبِنْتُ مُحَمَّدٍ فِي الْجَامِعَةِ.", "fr": "La fille de Ḥāmid est à l'école et la fille de Muḥammad est à l'université." },
+        { "type": "example", "ar": "اِسْمُ الْمُدَرِّسِ سَعِيدٌ وَاسْمُ الْمُهَنْدِسِ خَالِدٌ.", "fr": "Le nom de l'enseignant est Saʿīd et le nom de l'ingénieur est Khālid." },
+        { "type": "example", "ar": "عَمُّ الطَّالِبِ غَنِيٌّ.", "fr": "L'oncle paternel de l'étudiant est riche." },
+        { "type": "example", "ar": "بَابُ الْمَسْجِدِ مَفْتُوحٌ وَبَابُ الْمَدْرَسَةِ مُغْلَقٌ.", "fr": "La porte de la mosquée est ouverte et la porte de l'école est fermée." },
+        { "type": "example", "ar": "خَالُ حَامِدٍ فَقِيرٌ.", "fr": "L'oncle maternel de Ḥāmid est pauvre." },
+        { "type": "example", "ar": "سَيَّارَةُ عَبَّاسٍ فِي الشَّارِعِ.", "fr": "La voiture de ʿAbbās est dans la rue." },
+        { "type": "example", "ar": "اِبْنُ مَنْ أَنْتَ؟ أَنَا اِبْنُ الْمُدِيرِ.", "fr": "Fils de qui es-tu ? Je suis le fils du directeur." },
+        { "type": "example", "ar": "أَيْنَ الْكَلْبُ؟ هُوَ تَحْتَ السَّيَّارَةِ.", "fr": "Où est le chien ? Il est sous la voiture." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.practice-4#7",
+      "type": "spot",
+      "instruction": "Touche les deux seconds termes d'annexion.",
+      "words": ["بِنْتُ", "حَامِدٍ", "فِي", "الْمَدْرَسَةِ", "وَبِنْتُ", "مُحَمَّدٍ", "فِي", "الْجَامِعَةِ."],
+      "answers": [1, 5],
+      "fr": "La fille de Ḥāmid est à l'école et la fille de Muḥammad est à l'université.",
+      "explain": "{ar|حَامِدٍ} et {ar|مُحَمَّدٍ} sont les seconds termes. {ar|الْمَدْرَسَةِ} et {ar|الْجَامِعَةِ} sont à la kasra à cause de la préposition {ar|فِي}."
+    },
+    {
+      "id": "medine-t1.l05.practice-4#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|خَالُ حَامِدٍ فَقِيرٌ}, qui est pauvre ?" },
+      "choices": [ { "fr": "L'oncle maternel de Ḥāmid" }, { "fr": "Ḥāmid" }, { "fr": "L'oncle paternel de Ḥāmid" } ],
+      "answer": 0,
+      "explain": "{ar|خَالُ حَامِدٍ} est une annexion : « l'oncle maternel de Ḥāmid ». C'est lui, le premier terme, qui est pauvre."
+    },
+    {
+      "id": "medine-t1.l05.practice-4#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il est le fils de Khālid.",
+      "answers": ["هُوَ اِبْنُ خَالِدٍ."]
+    },
+    {
+      "id": "medine-t1.l05.practice-4#10",
+      "type": "tip",
+      "title": "Allah comme second terme",
+      "blocks": [
+        { "type": "paragraph", "text": "L'exercice 3 du livre contient aussi des annexions avec {ar|اللَّهِ}. Ici, {ar|اللَّهِ} est le second terme : il est à la kasra." },
+        {
+          "type": "table",
+          "header": ["Expression", "Traduction"],
+          "rows": [
+            ["{ar|بَيْتُ اللَّهِ}", "la maison d'Allah"],
+            ["{ar|كِتَابُ اللَّهِ}", "le livre d'Allah"],
+            ["{ar|فِي كِتَابِ اللَّهِ}", "dans le livre d'Allah"]
+          ]
+        },
+        { "type": "note", "text": "Dans {ar|فِي كِتَابِ اللَّهِ}, {ar|كِتَابِ} est le premier terme, à la kasra à cause de {ar|فِي}, et {ar|اللَّهِ} est le second terme, à la kasra à cause de l'annexion." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.practice-4#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "dans le livre d'Allah",
+      "answers": ["فِي كِتَابِ اللَّهِ"]
+    },
+    {
+      "id": "medine-t1.l05.practice-4#12",
+      "type": "question",
+      "prompt": { "fr": "Corrige {ar|الرَّسُولُ اللَّهِ} pour dire « le messager d'Allah »." },
+      "choices": [ { "ar": "رَسُولُ اللَّهِ" }, { "ar": "الرَّسُولُ اللَّهُ" }, { "ar": "رَسُولُ الْمُدِيرِ" } ],
+      "answer": 0,
+      "explain": "Le premier terme n'a pas d'article : {ar|رَسُولُ اللَّهِ}. Le second terme, {ar|اللَّهِ}, est à la kasra."
+    },
+    {
+      "id": "medine-t1.l05.practice-4#13",
+      "type": "fill_gap",
+      "sentence": "{0} الْبَيْتِ مُغْلَقٌ.",
+      "fr": "La porte de la maison est fermée.",
+      "gaps": [{ "answers": ["بَابُ"] }],
+      "options": ["بَابُ", "مِفْتَاحُ", "حَقِيبَةُ"]
+    },
+    {
+      "id": "medine-t1.l05.practice-4#14",
+      "type": "fill_gap",
+      "sentence": "خَدِيجَةُ {0} حَامِدٍ.",
+      "fr": "Khadīja est la fille de Ḥāmid.",
+      "gaps": [{ "answers": ["بِنْتُ"] }],
+      "options": ["بِنْتُ", "اِبْنُ", "خَالُ"]
+    },
+    {
+      "id": "medine-t1.l05.practice-4#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "la maison d'Allah",
+      "answers": ["بَيْتُ اللَّهِ"]
+    }
+  ]
+}

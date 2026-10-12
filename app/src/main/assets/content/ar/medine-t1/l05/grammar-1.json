@@ -1,0 +1,118 @@
+{
+  "id": "medine-t1.l05.grammar-1",
+  "type": "grammar",
+  "title": "Trois cas, trois voyelles",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l05.grammar-1#1",
+      "type": "tip",
+      "title": "Un nom, trois terminaisons",
+      "blocks": [
+        { "type": "paragraph", "text": "Tu sais déjà que la fin d'un mot change selon son rôle ({ar|الْإِعْرَابُ}, chapitre 4). Pour un nom, il y a **trois cas**, chacun avec sa voyelle finale. Voici le résumé, avec le mot {ar|كِتَابٌ} :" },
+        {
+          "type": "table",
+          "header": ["Cas", "Voyelle", "Exemple", "Le nom est…"],
+          "rows": [
+            ["{ar|الرَّفْعُ}", "{ar|◌ُ} (damma)", "{ar|كِتَابٌ}", "{ar|مَرْفُوعٌ}"],
+            ["{ar|النَّصْبُ}", "{ar|◌َ} (fatha)", "{ar|كِتَابًا}", "{ar|مَنْصُوبٌ}"],
+            ["{ar|الْجَرُّ}", "{ar|◌ِ} (kasra)", "{ar|كِتَابٍ}", "{ar|مَجْرُورٌ}"]
+          ]
+        },
+        { "type": "paragraph", "text": "Le mot reste le même : seule sa **terminaison** change. Ici le nom est indéfini, donc les voyelles sont doublées (c'est le tanwin)." }
+      ]
+    },
+    { "id": "medine-t1.l05.grammar-1#2", "type": "present", "item": "w:rafa" },
+    {
+      "id": "medine-t1.l05.grammar-1#3",
+      "type": "tip",
+      "title": "Le {ar|الرَّفْعُ} : le cas de base",
+      "blocks": [
+        { "type": "paragraph", "text": "Le {ar|الرَّفْعُ} est le cas de base : c'est la forme sous laquelle on cite un nom. Sa marque habituelle est la **damma**, et un nom à ce cas s'appelle {ar|مَرْفُوعٌ}." },
+        { "type": "example", "ar": "هٰذَا مُحَمَّدٌ.", "fr": "C'est Muḥammad." },
+        { "type": "example", "ar": "مُحَمَّدٌ اِسْمٌ مَرْفُوعٌ.", "fr": "Muḥammad est un nom au nominatif." },
+        { "type": "note", "text": "Dans les phrases sans verbe que tu connais, comme {ar|هٰذَا بَيْتٌ} ou {ar|الْبَابُ مَفْتُوحٌ}, les noms et les adjectifs sont au {ar|الرَّفْعُ}, sauf ceux qui suivent une préposition." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.grammar-1#4",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la marque habituelle du {ar|الرَّفْعُ} ?" },
+      "choices": [ { "fr": "la damma ({ar|◌ُ})" }, { "fr": "la fatha ({ar|◌َ})" }, { "fr": "la kasra ({ar|◌ِ})" } ],
+      "answer": 0,
+      "explain": "Le {ar|الرَّفْعُ} a pour marque la damma : {ar|مُحَمَّدٌ}, {ar|كِتَابٌ}."
+    },
+    { "id": "medine-t1.l05.grammar-1#5", "type": "present", "item": "w:nasb" },
+    {
+      "id": "medine-t1.l05.grammar-1#6",
+      "type": "tip",
+      "title": "Le {ar|النَّصْبُ} : la fatha",
+      "blocks": [
+        { "type": "paragraph", "text": "Le {ar|النَّصْبُ} a pour marque habituelle la **fatha**, et un nom à ce cas s'appelle {ar|مَنْصُوبٌ}. On l'a, par exemple, quand un verbe agit sur un nom :" },
+        { "type": "example", "ar": "قَرَأْتُ كِتَابًا.", "fr": "J'ai lu un livre." },
+        { "type": "note", "text": "{ar|قَرَأْتُ} (j'ai lu) est un verbe conjugué : tu l'étudieras plus tard. Ici, regarde seulement la fin de {ar|كِتَابًا}." },
+        { "type": "paragraph", "text": "Pour un nom indéfini, le tanwin de la fatha ({ar|◌ً}) s'écrit en général avec un **alif** ajouté à la fin du mot." },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "كِتَابٌ", "fr": "un livre" }, "to": { "ar": "كِتَابًا", "fr": "un livre" }, "label": "au {ar|النَّصْبُ} : un alif s'ajoute" },
+            { "from": { "ar": "بَيْتٌ", "fr": "une maison" }, "to": { "ar": "بَيْتًا", "fr": "une maison" }, "label": "au {ar|النَّصْبُ} : un alif s'ajoute" },
+            { "from": { "ar": "غُرْفَةٌ", "fr": "une chambre" }, "to": { "ar": "غُرْفَةً", "fr": "une chambre" }, "label": "pas d'alif après {ar|ة}" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.grammar-1#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|قَرَأْتُ كِتَابًا}, comment se termine {ar|كِتَابًا} ?" },
+      "choices": [ { "fr": "par le tanwin de la fatha, avec un alif" }, { "fr": "par le tanwin de la damma" }, { "fr": "par le tanwin de la kasra" } ],
+      "answer": 0,
+      "explain": "{ar|كِتَابًا} est au {ar|النَّصْبُ} : fatha doublée, écrite sur un alif."
+    },
+    { "id": "medine-t1.l05.grammar-1#8", "type": "present", "item": "w:jarr" },
+    {
+      "id": "medine-t1.l05.grammar-1#9",
+      "type": "tip",
+      "title": "Le {ar|الْجَرُّ} : la kasra, dans deux situations",
+      "blocks": [
+        { "type": "paragraph", "text": "Le {ar|الْجَرُّ} a pour marque habituelle la **kasra**, et un nom à ce cas s'appelle {ar|مَجْرُورٌ}. Tu connais déjà une situation : le nom qui suit une **préposition**." },
+        { "type": "example", "ar": "فِي الْبَيْتِ", "fr": "dans la maison" },
+        { "type": "paragraph", "text": "Il y en a une deuxième, que tu vas étudier dans ce chapitre : le **second terme d'une annexion**." },
+        { "type": "example", "ar": "كِتَابُ زَيْدٍ", "fr": "le livre de Zayd" }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.grammar-1#10",
+      "type": "spot",
+      "instruction": "Touche le nom qui est au {ar|الْجَرُّ}.",
+      "words": ["الْكِتَابُ", "عَلَى", "الْمَكْتَبِ."],
+      "answers": [2],
+      "fr": "Le livre est sur le bureau.",
+      "explain": "{ar|الْمَكْتَبِ} suit la préposition {ar|عَلَى} : il est à la kasra, donc {ar|مَجْرُورٌ}. {ar|الْكِتَابُ} est au {ar|الرَّفْعُ}."
+    },
+    {
+      "id": "medine-t1.l05.grammar-1#11",
+      "type": "sort",
+      "instruction": "Dans chaque expression, quel est le cas du dernier mot ?",
+      "categories": [ { "fr": "{ar|الرَّفْعُ} (damma)" }, { "fr": "{ar|النَّصْبُ} (fatha)" }, { "fr": "{ar|الْجَرُّ} (kasra)" } ],
+      "cards": [
+        { "ar": "هٰذَا بَيْتٌ", "category": 0 },
+        { "ar": "الْبَابُ مَفْتُوحٌ", "category": 0 },
+        { "ar": "قَرَأْتُ كِتَابًا", "category": 1 },
+        { "ar": "قَرَأْتُ الْكِتَابَ", "category": 1 },
+        { "ar": "فِي الْبَيْتِ", "category": 2 },
+        { "ar": "عَلَى الْمَكْتَبِ", "category": 2 },
+        { "ar": "إِلَى الْمَسْجِدِ", "category": 2 }
+      ],
+      "explain": "Dans une phrase sans verbe ({ar|هٰذَا بَيْتٌ}), le dernier mot est au {ar|الرَّفْعُ} (damma). Dans {ar|قَرَأْتُ كِتَابًا}, le nom que le verbe touche est au {ar|النَّصْبُ} (fatha). Après une préposition, il est au {ar|الْجَرُّ} (kasra)."
+    },
+    {
+      "id": "medine-t1.l05.grammar-1#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "dans la mosquée",
+      "answers": ["فِي الْمَسْجِدِ"]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "medine-t1.l05.vocab-1",
+  "type": "vocabulary",
+  "title": "La famille",
+  "icon": "boy",
+  "screens": [
+    { "id": "medine-t1.l05.vocab-1#1", "type": "present", "item": "w:amm" },
+    { "id": "medine-t1.l05.vocab-1#2", "type": "present", "item": "w:khal" },
+    {
+      "id": "medine-t1.l05.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:amm",
+      "distractors": ["w:khal", "w:ab"]
+    },
+    { "id": "medine-t1.l05.vocab-1#4", "type": "present", "item": "w:ibn" },
+    { "id": "medine-t1.l05.vocab-1#5", "type": "present", "item": "w:bint" },
+    {
+      "id": "medine-t1.l05.vocab-1#6",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:bint",
+      "distractors": ["w:walad", "w:rajul"]
+    },
+    { "id": "medine-t1.l05.vocab-1#7", "type": "present", "item": "w:ghani" },
+    { "id": "medine-t1.l05.vocab-1#8", "type": "present", "item": "w:faqir" },
+    {
+      "id": "medine-t1.l05.vocab-1#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:amm", "w:khal", "w:ibn", "w:bint", "w:ghani"]
+    },
+    {
+      "id": "medine-t1.l05.vocab-1#10",
+      "type": "fill_gap",
+      "sentence": "هٰذَا {0} زَيْدٍ.",
+      "fr": "C'est l'oncle maternel de Zayd.",
+      "gaps": [{ "answers": ["خَالُ"] }],
+      "options": ["خَالُ", "عَمُّ", "اِبْنُ"]
+    },
+    {
+      "id": "medine-t1.l05.vocab-1#11",
+      "type": "mcq",
+      "mode": "audio-ar",
+      "item": "w:faqir",
+      "distractors": ["w:ghani", "w:jadid"]
+    },
+    {
+      "id": "medine-t1.l05.vocab-1#12",
+      "type": "order",
+      "fr": "L'oncle paternel de Zayd est riche.",
+      "answers": [["عَمُّ", "زَيْدٍ", "غَنِيٌّ"]],
+      "punctuation": ".",
+      "distractors": ["فَقِيرٌ"]
+    },
+    { "id": "medine-t1.l05.vocab-1#13", "type": "typing", "ask": "fr", "item": "w:khal" }
+  ]
+}

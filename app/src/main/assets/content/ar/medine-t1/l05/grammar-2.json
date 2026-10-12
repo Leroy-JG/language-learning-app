@@ -1,0 +1,80 @@
+{
+  "id": "medine-t1.l05.grammar-2",
+  "type": "grammar",
+  "title": "L'annexion : dire « de »",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l05.grammar-2#1",
+      "type": "tip",
+      "title": "Deux noms l'un derrière l'autre",
+      "blocks": [
+        { "type": "paragraph", "text": "En français, on dit « le livre **de** Zayd ». En arabe, on met simplement **deux noms l'un derrière l'autre**, sans petit mot pour « de » : c'est l'**annexion** ({ar|الْإِضَافَةُ})." },
+        {
+          "type": "breakdown",
+          "ar": "كِتَابُ زَيْدٍ",
+          "fr": "le livre de Zayd",
+          "parts": [
+            { "ar": "كِتَابُ", "fr": "le livre" },
+            { "ar": "زَيْدٍ", "fr": "de Zayd" }
+          ]
+        },
+        { "type": "paragraph", "text": "Le premier nom appartient au second ou s'y rattache. L'annexion dit à qui est une chose, mais aussi de quoi elle fait partie :" },
+        { "type": "example", "ar": "بَابُ الْمَدْرَسَةِ", "fr": "la porte de l'école" },
+        { "type": "example", "ar": "قَلَمُ الْمُدَرِّسِ", "fr": "le stylo de l'enseignant" }
+      ]
+    },
+    { "id": "medine-t1.l05.grammar-2#2", "type": "present", "item": "w:idafa" },
+    {
+      "id": "medine-t1.l05.grammar-2#3",
+      "type": "tip",
+      "title": "Le premier terme et le second terme",
+      "blocks": [
+        { "type": "paragraph", "text": "Les deux noms de l'annexion ont chacun un nom :" },
+        {
+          "type": "table",
+          "header": ["Terme", "Nom arabe", "Dans {ar|كِتَابُ زَيْدٍ}"],
+          "rows": [
+            ["le premier (ce qui est « ajouté »)", "{ar|الْمُضَافُ}", "{ar|كِتَابُ}"],
+            ["le second (ce « à quoi » on l'ajoute)", "{ar|الْمُضَافُ إِلَيْهِ}", "{ar|زَيْدٍ}"]
+          ]
+        },
+        { "type": "paragraph", "text": "L'ordre est fixe : le premier terme vient toujours avant le second. On ne peut pas inverser les deux noms." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.grammar-2#4",
+      "type": "spot",
+      "instruction": "Touche le premier terme de l'annexion.",
+      "words": ["هٰذَا", "كِتَابُ", "زَيْدٍ."],
+      "answers": [1],
+      "fr": "C'est le livre de Zayd.",
+      "explain": "{ar|كِتَابُ} est le premier nom de l'annexion ; {ar|زَيْدٍ} est le second."
+    },
+    { "id": "medine-t1.l05.grammar-2#5", "type": "present", "item": "w:mudaf" },
+    { "id": "medine-t1.l05.grammar-2#6", "type": "present", "item": "w:mudaf-ilayhi" },
+    {
+      "id": "medine-t1.l05.grammar-2#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|بَابُ الْمَدْرَسَةِ}, quel est le second terme ?" },
+      "choices": [ { "ar": "الْمَدْرَسَةِ" }, { "ar": "بَابُ" } ],
+      "answer": 0,
+      "explain": "Le second terme est {ar|الْمُضَافُ إِلَيْهِ} : ici {ar|الْمَدْرَسَةِ} (de l'école). {ar|بَابُ} est le premier terme, {ar|الْمُضَافُ}."
+    },
+    {
+      "id": "medine-t1.l05.grammar-2#8",
+      "type": "order",
+      "fr": "Où est le livre de Zayd ?",
+      "answers": [["أَيْنَ", "كِتَابُ", "زَيْدٍ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l05.grammar-2#9",
+      "type": "order",
+      "fr": "Le stylo de l'enseignant est sur le bureau.",
+      "answers": [["قَلَمُ", "الْمُدَرِّسِ", "عَلَى", "الْمَكْتَبِ"]],
+      "punctuation": ".",
+      "distractors": ["فِي"]
+    }
+  ]
+}

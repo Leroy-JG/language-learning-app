@@ -1,0 +1,129 @@
+{
+  "id": "medine-t1.l05.dialogue-1",
+  "type": "dialogue",
+  "title": "Le livre de qui ?",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l05.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Sur le bureau, là-bas",
+      "intro": "Saʿīd cherche des affaires de classe. Yāsir lui répond.",
+      "speakers": {
+        "A": { "name": "Saʿīd", "voice": "m1" },
+        "B": { "name": "Yāsir", "voice": "m2" }
+      },
+      "lines": [
+        { "speaker": "A", "ar": "أَكِتَابُ مُحَمَّدٍ هٰذَا يَا يَاسِرُ؟", "fr": "Ceci est-il le livre de Muḥammad, Yāsir ?" },
+        { "speaker": "B", "ar": "لَا، هٰذَا كِتَابُ حَامِدٍ.", "fr": "Non, c'est le livre de Ḥāmid." },
+        { "speaker": "A", "ar": "أَيْنَ كِتَابُ مُحَمَّدٍ؟", "fr": "Où est le livre de Muḥammad ?" },
+        { "speaker": "B", "ar": "هُوَ عَلَى الْمَكْتَبِ هُنَاكَ.", "fr": "Il est sur le bureau, là-bas." },
+        { "speaker": "A", "ar": "أَيْنَ دَفْتَرُ عَمَّارٍ؟", "fr": "Où est le cahier de ʿAmmār ?" },
+        { "speaker": "B", "ar": "هُوَ عَلَى مَكْتَبِ الْمُدَرِّسِ.", "fr": "Il est sur le bureau de l'enseignant." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.dialogue-1#2",
+      "type": "dialogue",
+      "title": "Sous le bureau",
+      "intro": "Saʿīd interroge maintenant ʿAlī.",
+      "speakers": {
+        "A": { "name": "Saʿīd", "voice": "m1" },
+        "B": { "name": "ʿAlī", "voice": "m2" }
+      },
+      "lines": [
+        { "speaker": "A", "ar": "قَلَمُ مَنْ هٰذَا يَا عَلِيُّ؟", "fr": "À qui est ce stylo, ʿAlī ?" },
+        { "speaker": "B", "ar": "هٰذَا قَلَمُ الْمُدَرِّسِ.", "fr": "C'est le stylo de l'enseignant." },
+        { "speaker": "A", "ar": "أَيْنَ حَقِيبَةُ الْمُدَرِّسِ؟", "fr": "Où est le sac de l'enseignant ?" },
+        { "speaker": "B", "ar": "هِيَ تَحْتَ الْمَكْتَبِ.", "fr": "Il est sous le bureau." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.dialogue-1#3",
+      "type": "tip",
+      "title": "Une question avec {ar|أَ} et {ar|هٰذَا} à la fin",
+      "blocks": [
+        { "type": "paragraph", "text": "Dans la première phrase, la particule {ar|أَ} (« est-ce que… ? ») est collée au premier mot, et {ar|هٰذَا} passe à la fin :" },
+        { "type": "example", "ar": "أَكِتَابُ مُحَمَّدٍ هٰذَا؟", "fr": "Ceci est-il le livre de Muḥammad ? (mot à mot : le livre de Muḥammad, ceci ?)" },
+        { "type": "paragraph", "text": "La réponse reprend la construction habituelle :" },
+        { "type": "example", "ar": "لَا، هٰذَا كِتَابُ حَامِدٍ.", "fr": "Non, c'est le livre de Ḥāmid." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.dialogue-1#4",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l05.dialogue-1#1" },
+      "prompt": { "fr": "À qui est le livre dont parle Saʿīd au début ?" },
+      "choices": [ { "fr": "À Ḥāmid" }, { "fr": "À Muḥammad" }, { "fr": "À ʿAmmār" } ],
+      "answer": 0,
+      "explain": "Yāsir répond : {ar|هٰذَا كِتَابُ حَامِدٍ} (c'est le livre de Ḥāmid)."
+    },
+    {
+      "id": "medine-t1.l05.dialogue-1#5",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l05.dialogue-1#1" },
+      "prompt": { "fr": "Où est le livre de Muḥammad ?" },
+      "choices": [ { "fr": "Sur le bureau, là-bas" }, { "fr": "Sous le bureau" }, { "fr": "Dans la maison" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l05.dialogue-1#6",
+      "type": "true_false",
+      "context": { "dialogue": "medine-t1.l05.dialogue-1#1" },
+      "statement": { "fr": "Le cahier de ʿAmmār est sur le bureau de Muḥammad." },
+      "answer": false,
+      "explain": "Il est sur le bureau de l'enseignant : {ar|هُوَ عَلَى مَكْتَبِ الْمُدَرِّسِ}."
+    },
+    {
+      "id": "medine-t1.l05.dialogue-1#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ دَفْتَرُ عَمَّارٍ؟",
+      "context": { "dialogue": "medine-t1.l05.dialogue-1#1" },
+      "answers": ["هُوَ عَلَى مَكْتَبِ الْمُدَرِّسِ.", "عَلَى مَكْتَبِ الْمُدَرِّسِ."],
+      "fr": "Il est sur le bureau de l'enseignant."
+    },
+    {
+      "id": "medine-t1.l05.dialogue-1#8",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l05.dialogue-1#2" },
+      "prompt": { "fr": "À qui est le stylo ?" },
+      "choices": [ { "fr": "À l'enseignant" }, { "fr": "À ʿAlī" }, { "fr": "À Saʿīd" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l05.dialogue-1#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ حَقِيبَةُ الْمُدَرِّسِ؟",
+      "context": { "dialogue": "medine-t1.l05.dialogue-1#2" },
+      "answers": ["هِيَ تَحْتَ الْمَكْتَبِ.", "تَحْتَ الْمَكْتَبِ."],
+      "fr": "Il est sous le bureau."
+    },
+    {
+      "id": "medine-t1.l05.dialogue-1#10",
+      "type": "order",
+      "fr": "Il est sur le bureau, là-bas.",
+      "answers": [["هُوَ", "عَلَى", "الْمَكْتَبِ", "هُنَاكَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l05.dialogue-1#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "قَلَمُ مَنْ هٰذَا؟",
+      "context": { "dialogue": "medine-t1.l05.dialogue-1#2" },
+      "answers": ["هٰذَا قَلَمُ الْمُدَرِّسِ.", "قَلَمُ الْمُدَرِّسِ."],
+      "fr": "C'est le stylo de l'enseignant."
+    },
+    {
+      "id": "medine-t1.l05.dialogue-1#12",
+      "type": "fill_gap",
+      "context": { "dialogue": "medine-t1.l05.dialogue-1#2" },
+      "sentence": "هِيَ {0} الْمَكْتَبِ.",
+      "fr": "Il est sous le bureau.",
+      "gaps": [{ "answers": ["تَحْتَ"] }],
+      "options": ["تَحْتَ", "عَلَى", "فِي"]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "medine-t1.l05.plurals-1",
+  "type": "vocabulary",
+  "title": "Les pluriels",
+  "icon": "flower",
+  "screens": [
+    {
+      "id": "medine-t1.l05.plurals-1#1",
+      "type": "tip",
+      "title": "Des pluriels en {ar|أَفْعَالٌ}",
+      "blocks": [
+        { "type": "paragraph", "text": "Voici quatre noms du chapitre dont le pluriel a la forme {ar|أَفْعَالٌ} : un {ar|أَ} au début, un alif avant la dernière lettre, et le tanwin à la fin." },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|اِسْمٌ}", "{ar|أَسْمَاءٌ}", "nom"],
+            ["{ar|عَمٌّ}", "{ar|أَعْمَامٌ}", "oncle paternel"],
+            ["{ar|خَالٌ}", "{ar|أَخْوَالٌ}", "oncle maternel"],
+            ["{ar|اِبْنٌ}", "{ar|أَبْنَاءٌ}", "fils"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.plurals-1#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:ism", "w:amm", "w:khal", "w:ibn"]
+    },
+    {
+      "id": "medine-t1.l05.plurals-1#3",
+      "type": "tip",
+      "title": "Les pluriels des personnes",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|دُكْتُورٌ}", "{ar|دَكَاتِرَةٌ}", "docteur"],
+            ["{ar|أُسْتَاذٌ}", "{ar|أَسَاتِذَةٌ}", "professeur"],
+            ["{ar|مُهَنْدِسٌ}", "{ar|مُهَنْدِسُونَ}", "ingénieur"],
+            ["{ar|شَيْخٌ}", "{ar|شُيُوخٌ}", "cheikh"],
+            ["{ar|بِنْتٌ}", "{ar|بَنَاتٌ}", "fille"],
+            ["{ar|رَسُولٌ}", "{ar|رُسُلٌ}", "messager"]
+          ]
+        },
+        { "type": "paragraph", "text": "Le pluriel en « -ūna » ({ar|مُهَنْدِسُونَ}) est celui des personnes de sexe masculin, comme {ar|مُدَرِّسُونَ}. Beaucoup d'autres noms de personnes ont un pluriel « brisé », qu'il faut apprendre avec le mot : {ar|دَكَاتِرَةٌ}, {ar|أَسَاتِذَةٌ}, {ar|شُيُوخٌ}…" },
+        { "type": "paragraph", "text": "Tu connais aussi le pluriel en « -āt » (chapitre 4) : {ar|سَيَّارَةٌ} → {ar|سَيَّارَاتٌ} (voiture → voitures)." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.plurals-1#4",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:duktur", "w:ustadh", "w:muhandis", "w:shaykh", "w:bint"]
+    },
+    {
+      "id": "medine-t1.l05.plurals-1#5",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|بِنْتٌ} ?" },
+      "choices": [ { "ar": "بَنَاتٌ" }, { "ar": "أَبْنَاءٌ" }, { "ar": "أَخْوَالٌ" } ],
+      "answer": 0,
+      "explain": "{ar|بِنْتٌ} (fille) fait {ar|بَنَاتٌ}. {ar|أَبْنَاءٌ} est le pluriel de {ar|اِبْنٌ} (fils)."
+    },
+    {
+      "id": "medine-t1.l05.plurals-1#6",
+      "type": "tip",
+      "title": "Des pluriels sans tanwin",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|وَزِيرٌ}", "{ar|وُزَرَاءُ}", "ministre"],
+            ["{ar|غَنِيٌّ}", "{ar|أَغْنِيَاءُ}", "riche"],
+            ["{ar|فَقِيرٌ}", "{ar|فُقَرَاءُ}", "pauvre"],
+            ["{ar|حَقِيبَةٌ}", "{ar|حَقَائِبُ}", "sac"],
+            ["{ar|شَارِعٌ}", "{ar|شَوَارِعُ}", "rue"],
+            ["{ar|دَفْتَرٌ}", "{ar|دَفَاتِرُ}", "cahier"]
+          ]
+        },
+        { "type": "paragraph", "text": "Comme {ar|مَدَارِسُ} et {ar|مَسَاجِدُ} (chapitre 4), les pluriels de forme longue ({ar|حَقَائِبُ}, {ar|شَوَارِعُ}, {ar|دَفَاتِرُ}) n'ont pas de tanwin. C'est aussi le cas des pluriels de forme {ar|فُعَلَاءُ} et {ar|أَفْعِلَاءُ} ({ar|وُزَرَاءُ}, {ar|فُقَرَاءُ}, {ar|أَغْنِيَاءُ})." },
+        { "type": "note", "tone": "warning", "text": "Attention : {ar|أَسْمَاءٌ} et {ar|أَبْنَاءٌ} se terminent eux aussi par {ar|اءٌ}, mais ils ont le tanwin." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.plurals-1#7",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:wazir", "w:ghani", "w:haqiba", "w:shari", "w:daftar"]
+    },
+    {
+      "id": "medine-t1.l05.plurals-1#8",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|شَارِعٌ} ?" },
+      "choices": [ { "ar": "شَوَارِعُ" }, { "ar": "دَفَاتِرُ" }, { "ar": "حَقَائِبُ" } ],
+      "answer": 0,
+      "explain": "{ar|شَارِعٌ} (rue) fait {ar|شَوَارِعُ}."
+    },
+    {
+      "id": "medine-t1.l05.plurals-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des voitures",
+      "answers": ["سَيَّارَاتٌ"]
+    },
+    {
+      "id": "medine-t1.l05.plurals-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des cahiers",
+      "answers": ["دَفَاتِرُ"]
+    }
+  ]
+}
