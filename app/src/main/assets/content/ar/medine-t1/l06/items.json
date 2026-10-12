@@ -236,7 +236,6 @@
     "ar": "قَهْوَةٌ",
     "fr": "du café",
     "translit": "qahwatun",
-    "icon": "coffee",
     "gender": "f",
     "example": { "ar": "الْقَهْوَةُ فِي الْمَطْبَخِ.", "fr": "Le café est dans la cuisine." }
   },

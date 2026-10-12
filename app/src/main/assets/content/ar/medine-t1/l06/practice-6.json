@@ -102,10 +102,10 @@
     },
     {
       "id": "medine-t1.l06.practice-6#9",
-      "type": "typing",
-      "ask": "audio",
-      "fr": "Qui est-ce ? C'est la sœur de ʿAbbās.",
-      "answers": ["مَنْ هٰذِهِ؟ هٰذِهِ أُخْتُ عَبَّاسٍ."]
+      "type": "order",
+      "fr": "C'est la sœur de ʿAbbās.",
+      "answers": [["هٰذِهِ", "أُخْتُ", "عَبَّاسٍ"]],
+      "punctuation": "."
     },
     {
       "id": "medine-t1.l06.practice-6#10",

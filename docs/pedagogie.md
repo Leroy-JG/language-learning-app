@@ -129,7 +129,7 @@ Exemples tirés des leçons 1 à 5 :
 - `compare` du masculin au féminin (طَالِبٌ → طَالِبَةٌ) dans `l06/grammar-4`, et de la forme avec l'article après لِ (الْمُدِيرُ → لِلْمُدِيرِ) dans `l06/grammar-7` ;
 - `breakdown` de لِلْمُدِيرِ et de الْحَمْدُ لِلَّهِ (l'alif de l'article qui disparaît) dans `l06/grammar-7` et `l06/vocab-5` ;
 - `spot` du ة contre le ه (هٰذِهِ / سَيَّارَةُ) dans `l06/grammar-3` ;
-- `memory` d'images (cuillère, marmite, thé, café ; oreille, jambe, nez, œil, main) dans `l06/vocab-2` et `l06/vocab-4` ;
+- `memory` d'images (cuillère, marmite, thé ; oreille, jambe, nez, œil, main) dans `l06/vocab-2` et `l06/vocab-4` ;
 - `build` de نَافِذَةٌ (le ة, pas le ه) dans `l06/vocab-3`.
 
 ### Entraîner une voyelle finale (kasra, fatha…)

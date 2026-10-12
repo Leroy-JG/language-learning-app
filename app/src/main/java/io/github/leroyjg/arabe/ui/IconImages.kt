@@ -69,7 +69,6 @@ object IconImages {
         "bicycle" to R.drawable.icon_bicycle,
         "spoon" to R.drawable.icon_spoon,
         "window" to R.drawable.icon_window,
-        "coffee" to R.drawable.icon_coffee,
         "ear" to R.drawable.icon_ear,
         "nose" to R.drawable.icon_nose,
         "leg" to R.drawable.icon_leg,

@@ -17,7 +17,7 @@
           "type": "table",
           "header": ["Nom", "Genre", "Pourquoi ?"],
           "rows": [
-            ["{ar|دَرْسٌ}", "masculin", "aucun signe"],
+            ["{ar|بَيْتٌ}", "masculin", "aucun signe"],
             ["{ar|مَدْرَسَةٌ}", "féminin", "signe {ar|ة}"],
             ["{ar|زَيْنَبُ}", "féminin", "prénom de femme"],
             ["{ar|يَدٌ}", "féminin", "féminin sans règle"]

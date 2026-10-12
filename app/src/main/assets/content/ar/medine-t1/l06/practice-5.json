@@ -79,6 +79,7 @@
       "fr": "À qui est ceci ?",
       "gaps": [ { "answers": ["هٰذِهِ"] } ],
       "options": ["هٰذِهِ", "هٰذَا"],
+      "instruction": "Regarde l'image, puis choisis le bon démonstratif.",
       "context": { "icon": "car" },
       "explain": "L'image montre une voiture : {ar|سَيَّارَةٌ} est féminin, donc {ar|هٰذِهِ}."
     },

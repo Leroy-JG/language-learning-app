@@ -27,14 +27,14 @@
     },
     { "id": "medine-t1.l06.vocab-5#2", "type": "present", "item": "w:hamd" },
     { "id": "medine-t1.l06.vocab-5#3", "type": "present", "item": "p:alhamdu-lillah" },
-    { "id": "medine-t1.l06.vocab-5#4", "type": "present", "item": "w:mashriq" },
     {
-      "id": "medine-t1.l06.vocab-5#5",
+      "id": "medine-t1.l06.vocab-5#4",
       "type": "mcq",
       "mode": "ar-fr",
       "item": "w:hamd",
-      "distractors": ["w:mashriq", "w:ism"]
+      "distractors": ["w:nakira", "w:ism"]
     },
+    { "id": "medine-t1.l06.vocab-5#5", "type": "present", "item": "w:mashriq" },
     {
       "id": "medine-t1.l06.vocab-5#6",
       "type": "fill_gap",

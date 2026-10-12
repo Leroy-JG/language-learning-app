@@ -28,7 +28,7 @@
       "id": "medine-t1.l06.vocab-2#9",
       "type": "memory",
       "mode": "icon-ar",
-      "items": ["w:milaqa", "w:qidr", "w:shay", "w:qahwa"]
+      "items": ["w:milaqa", "w:qidr", "w:shay"]
     },
     {
       "id": "medine-t1.l06.vocab-2#10",
@@ -47,10 +47,10 @@
     {
       "id": "medine-t1.l06.vocab-2#12",
       "type": "true_false",
-      "statement": { "ar": "هٰذِهِ قَهْوَةٌ.", "fr": "Ceci est du café." },
+      "statement": { "ar": "هٰذِهِ ثَلَّاجَةٌ.", "fr": "Ceci est un réfrigérateur." },
       "answer": false,
-      "context": { "icon": "tea" },
-      "explain": "L'image montre du thé : {ar|هٰذَا شَايٌ}."
+      "context": { "icon": "spoon" },
+      "explain": "L'image montre une cuillère : {ar|هٰذِهِ مِلْعَقَةٌ}."
     },
     {
       "id": "medine-t1.l06.vocab-2#13",

@@ -252,7 +252,7 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - مَا هٰذِهِ ؟ = « Qu'est-ce que c'est ? (nom féminin) » et مَنْ هٰذِهِ ؟ = « Qui est-ce ? (une femme, une fille) » : la précision évite deux éléments de même traduction.
 - **Genre :** قِدْرٌ est féminin (le livre dit هِيَ فِي الثَّلَّاجَةِ à propos de قِدْرُ اللَّحْمِ) ; شَايٌ est masculin, قَهْوَةٌ féminin ; الْمُؤَنَّثُ et الْمُذَكَّرُ sont masculins comme mots ; مَكَاوٍ est donné comme pluriel de مِكْوَاةٌ (forme du PDF, avec une note sur le ي final).
 - **Voix :** une voix féminine (Maryam, `f1`) joue dans les deux dialogues.
-- **Nouvelles icônes** (OpenMoji) : bicycle, spoon, window, coffee, ear, nose, leg, cow, farmer, tea (théière), hen (tête de poule), pot (bol de plat chaud).
+- **Nouvelles icônes** (OpenMoji) : bicycle, spoon, window, ear, nose, leg, cow, farmer, tea (théière), hen (tête de poule), pot (bol de plat chaud).
 - **Validateur :** nouvelle règle (هٰذِهِ devant un nom masculin) ; une forme dont les éléments n'ont pas le même genre (رَجُلٌ / رِجْلٌ) n'est pas contrôlée ; deux QCM ne peuvent plus différer que par هٰذِهِ / هٰذَا.
 - **Explications ajoutées (données à l'oral, absentes des PDF) :**
   - تِلْكَ existe comme féminin de ذٰلِكَ (simple mention) ;

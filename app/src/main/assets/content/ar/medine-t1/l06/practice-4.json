@@ -25,7 +25,7 @@
     {
       "id": "medine-t1.l06.practice-4#2",
       "type": "question",
-      "prompt": { "fr": "Où est la cuillère ?" },
+      "prompt": { "fr": "D'après la phrase du livre, où est la cuillère ?" },
       "choices": [ { "fr": "Dans la marmite" }, { "fr": "Sur la table" }, { "fr": "Dans le réfrigérateur" } ],
       "answer": 0,
       "explain": "{ar|الْمِلْعَقَةُ فِي الْقِدْرِ} : la cuillère est dans la marmite."
@@ -80,9 +80,10 @@
     {
       "id": "medine-t1.l06.practice-4#9",
       "type": "true_false",
-      "statement": { "ar": "الشَّايُ فِي الْقِدْرِ.", "fr": "Le thé est dans le réfrigérateur." },
+      "statement": { "ar": "هٰذَا بَابٌ.", "fr": "Ceci est une porte." },
       "answer": false,
-      "explain": "{ar|الشَّايُ فِي الْقِدْرِ} : le thé est dans la marmite."
+      "context": { "icon": "window" },
+      "explain": "L'image montre une fenêtre : {ar|هٰذِهِ نَافِذَةٌ}."
     },
     {
       "id": "medine-t1.l06.practice-4#10",
