@@ -18,13 +18,11 @@ for racine in ("core/src/main", "app/src/main/java"):
         for i, l in enumerate(lignes, 1):
             if l.startswith(" ") or l.startswith("\t"):
                 continue
-            s = l.replace("@Composable ", "@Composable ").strip()
-            m = decl.match(s) or (re.match(r"^@Composable$", s) and None)
-            if s == "@Composable" and i < len(lignes):
-                m2 = decl.match(lignes[i].strip())
-                if m2: noms.append(f"{m2.group(1)}:{i+1}")
+            s = l.strip()
+            m = decl.match(s)
+            if s == "@Composable":
                 continue
             if m: noms.append(f"{m.group(1)}:{i}")
-        sortie.append(f"- `{f.relative_to(r)}` ({len(lignes)} l.) — " + (", ".join(noms[:40]) or "—"))
+        sortie.append(f"- `{f.relative_to(r)}` ({len(lignes)} l.) — " + (", ".join(dict.fromkeys(noms))[:1500] or "—"))
 (r / "docs/carte-du-code.md").write_text("\n".join(sortie) + "\n", encoding="utf-8")
 print("docs/carte-du-code.md écrit")
