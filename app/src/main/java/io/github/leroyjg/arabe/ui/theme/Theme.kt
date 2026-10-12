@@ -48,52 +48,58 @@ data class AppColors(
     }
 }
 
+// Palette : vert émeraude (couleur associée à l'arabe) et or, sur un fond ivoire.
+
 private val LightAppColors = AppColors(
-    correct = Color(0xFF15803D), correctContainer = Color(0xFFDCFCE7),
-    wrong = Color(0xFFC62828), wrongContainer = Color(0xFFFDE2E2),
-    remark = Color(0xFFB45309), remarkContainer = Color(0xFFFEF3C7),
-    vocabulary = Color(0xFF0E9F6E), grammar = Color(0xFF7C3AED), dialogue = Color(0xFFEA580C),
-    review = Color(0xFF2457D6), quiz = Color(0xFFDB2777),
+    correct = Color(0xFF12864E), correctContainer = Color(0xFFD6F2E2),
+    wrong = Color(0xFFC0392B), wrongContainer = Color(0xFFFBE3E0),
+    remark = Color(0xFFB26A00), remarkContainer = Color(0xFFFCEFD6),
+    vocabulary = Color(0xFF0E8C7A), grammar = Color(0xFF6A4C93), dialogue = Color(0xFFC25A2E),
+    review = Color(0xFF2F6E9E), quiz = Color(0xFFB07D16),
 )
 
 private val DarkAppColors = AppColors(
-    correct = Color(0xFF4ADE80), correctContainer = Color(0xFF14321F),
-    wrong = Color(0xFFF87171), wrongContainer = Color(0xFF3B1517),
-    remark = Color(0xFFFBBF24), remarkContainer = Color(0xFF3A2A0C),
-    vocabulary = Color(0xFF34D399), grammar = Color(0xFFA78BFA), dialogue = Color(0xFFFB923C),
-    review = Color(0xFF7AA2FF), quiz = Color(0xFFF472B6),
+    correct = Color(0xFF4FD08A), correctContainer = Color(0xFF173A27),
+    wrong = Color(0xFFF08A80), wrongContainer = Color(0xFF3E1A17),
+    remark = Color(0xFFF2B54A), remarkContainer = Color(0xFF3D2C0E),
+    vocabulary = Color(0xFF3FC7B2), grammar = Color(0xFFB49BDB), dialogue = Color(0xFFEE9466),
+    review = Color(0xFF7FB2DE), quiz = Color(0xFFE5BE5C),
 )
 
 private val LightScheme = lightColorScheme(
-    primary = Color(0xFF2457D6),
+    primary = Color(0xFF0B7A4B),
     onPrimary = Color.White,
-    primaryContainer = Color(0xFFDCE6FF),
-    onPrimaryContainer = Color(0xFF0B2A73),
-    secondary = Color(0xFFF2A516),
-    onSecondary = Color(0xFF231600),
-    background = Color(0xFFF6F7FB),
-    onBackground = Color(0xFF151821),
+    primaryContainer = Color(0xFFCDEBDB),
+    onPrimaryContainer = Color(0xFF00391F),
+    secondary = Color(0xFFB07D16),
+    onSecondary = Color.White,
+    secondaryContainer = Color(0xFFF6E7C1),
+    onSecondaryContainer = Color(0xFF3D2A00),
+    background = Color(0xFFF6F4EE),
+    onBackground = Color(0xFF1B1F1C),
     surface = Color.White,
-    onSurface = Color(0xFF151821),
-    surfaceVariant = Color(0xFFEDEFF5),
-    onSurfaceVariant = Color(0xFF545B6B),
-    outline = Color(0xFFC9CEDA),
+    onSurface = Color(0xFF1B1F1C),
+    surfaceVariant = Color(0xFFECE9E0),
+    onSurfaceVariant = Color(0xFF5A5E57),
+    outline = Color(0xFFCBC7BB),
 )
 
 private val DarkScheme = darkColorScheme(
-    primary = Color(0xFF7AA2FF),
-    onPrimary = Color(0xFF0B1C4A),
-    primaryContainer = Color(0xFF1C3678),
-    onPrimaryContainer = Color(0xFFDCE6FF),
-    secondary = Color(0xFFF7C35A),
-    onSecondary = Color(0xFF2A1C00),
-    background = Color(0xFF0F1218),
-    onBackground = Color(0xFFE6E8EF),
-    surface = Color(0xFF181C24),
-    onSurface = Color(0xFFE6E8EF),
-    surfaceVariant = Color(0xFF232836),
-    onSurfaceVariant = Color(0xFFAAB1C3),
-    outline = Color(0xFF3B4254),
+    primary = Color(0xFF5ED3A0),
+    onPrimary = Color(0xFF003822),
+    primaryContainer = Color(0xFF0F5236),
+    onPrimaryContainer = Color(0xFFC9F2DD),
+    secondary = Color(0xFFE5BE5C),
+    onSecondary = Color(0xFF3D2A00),
+    secondaryContainer = Color(0xFF5A4310),
+    onSecondaryContainer = Color(0xFFF8E6B8),
+    background = Color(0xFF0E1411),
+    onBackground = Color(0xFFE3E8E4),
+    surface = Color(0xFF161E1A),
+    onSurface = Color(0xFFE3E8E4),
+    surfaceVariant = Color(0xFF232D28),
+    onSurfaceVariant = Color(0xFFA9B5AE),
+    outline = Color(0xFF3A4640),
 )
 
 val LocalAppColors = staticCompositionLocalOf { LightAppColors }

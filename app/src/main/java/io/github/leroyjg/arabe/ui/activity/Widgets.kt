@@ -81,7 +81,7 @@ fun ChoiceCard(
     val scheme = MaterialTheme.colorScheme
     val (border, background) = when (state) {
         ChoiceState.IDLE, ChoiceState.DISABLED -> scheme.outline to scheme.surface
-        ChoiceState.SELECTED -> scheme.primary to scheme.primaryContainer
+        ChoiceState.SELECTED -> scheme.secondary to scheme.secondaryContainer
         ChoiceState.CORRECT -> colors.correct to colors.correctContainer
         ChoiceState.WRONG -> colors.wrong to colors.wrongContainer
     }
@@ -114,7 +114,7 @@ fun TokenChip(
     val (border, background) = when (state) {
         ChoiceState.CORRECT -> colors.correct to colors.correctContainer
         ChoiceState.WRONG -> colors.wrong to colors.wrongContainer
-        ChoiceState.SELECTED -> scheme.primary to scheme.primaryContainer
+        ChoiceState.SELECTED -> scheme.secondary to scheme.secondaryContainer
         else -> scheme.outline to scheme.surface
     }
     Box(

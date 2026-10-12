@@ -223,7 +223,7 @@ private fun BigButton(text: String, enabled: Boolean, onClick: () -> Unit, color
         enabled = enabled,
         modifier = Modifier.fillMaxWidth().height(54.dp),
         shape = RoundedCornerShape(16.dp),
-        colors = if (color != null) ButtonDefaults.buttonColors(containerColor = color, contentColor = Color.White) else ButtonDefaults.buttonColors(),
+        colors = if (color != null) ButtonDefaults.buttonColors(containerColor = color, contentColor = MaterialTheme.colorScheme.surface) else ButtonDefaults.buttonColors(),
     ) { Text(text, style = MaterialTheme.typography.labelLarge) }
 }
 

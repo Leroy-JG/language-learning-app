@@ -317,7 +317,7 @@ private fun DialogueLines(
     onPlaying: (Int?) -> Unit,
 ) {
     val speakerKeys = screen.speakers.keys.toList()
-    val palette = listOf(MaterialTheme.colorScheme.primary, AppTheme.colors.dialogue, AppTheme.colors.grammar, AppTheme.colors.vocabulary)
+    val palette = listOf(MaterialTheme.colorScheme.primary, AppTheme.colors.dialogue, AppTheme.colors.grammar, AppTheme.colors.review)
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
         screen.lines.forEachIndexed { i, line ->
             val color = palette[speakerKeys.indexOf(line.speaker).coerceAtLeast(0) % palette.size]
@@ -325,7 +325,7 @@ private fun DialogueLines(
             Column(
                 Modifier.fillMaxWidth()
                     .background(
-                        if (highlighted) MaterialTheme.colorScheme.primaryContainer else MaterialTheme.colorScheme.surface,
+                        if (highlighted) MaterialTheme.colorScheme.secondaryContainer else MaterialTheme.colorScheme.surface,
                         RoundedCornerShape(14.dp),
                     )
                     .clickable {
@@ -664,7 +664,7 @@ private fun MatchTile(state: ChoiceState, onClick: () -> Unit, content: @Composa
     val (border, background) = when (state) {
         ChoiceState.CORRECT -> colors.correct to colors.correctContainer
         ChoiceState.WRONG -> colors.wrong to colors.wrongContainer
-        ChoiceState.SELECTED -> scheme.primary to scheme.primaryContainer
+        ChoiceState.SELECTED -> scheme.secondary to scheme.secondaryContainer
         else -> scheme.outline to scheme.surface
     }
     Box(

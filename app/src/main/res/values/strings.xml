@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Arabe</string>
+    <string name="app_name">Lurata</string>
 
     <!-- Accueil et parcours -->
     <string name="chapter_label">Chapitre %1$d</string>

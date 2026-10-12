@@ -223,7 +223,7 @@ private fun LevelHeader(course: Course, level: Level, fraction: Float, onChoose:
 /** Barre de progression du tome, avec le pourcentage dans une pastille au bout du remplissage. */
 @Composable
 private fun ProgressWithBadge(fraction: Float) {
-    val green = AppTheme.colors.correct
+    val green = MaterialTheme.colorScheme.primary
     val percent = (fraction * 100).toInt()
     BoxWithConstraints(Modifier.fillMaxWidth().height(34.dp)) {
         val badgeWidth = 64.dp
@@ -241,7 +241,7 @@ private fun ProgressWithBadge(fraction: Float) {
                 .background(green, RoundedCornerShape(50)),
             contentAlignment = Alignment.Center,
         ) {
-            Text(stringResource(R.string.level_progress, percent), color = Color.White, fontWeight = FontWeight.Bold, fontSize = 15.sp)
+            Text(stringResource(R.string.level_progress, percent), color = MaterialTheme.colorScheme.onPrimary, fontWeight = FontWeight.Bold, fontSize = 15.sp)
         }
     }
 }
@@ -278,7 +278,7 @@ private val ImageSize = 68.dp
 
 @Composable
 private fun LessonRow(activity: Activity, state: LessonState, isNext: Boolean, connectorBelow: Boolean, onClick: () -> Unit) {
-    val green = AppTheme.colors.correct
+    val green = MaterialTheme.colorScheme.primary
     val locked = state == LessonState.LOCKED
     Column(Modifier.fillMaxWidth()) {
         Row(
@@ -309,8 +309,8 @@ private fun LessonNode(activity: Activity, state: LessonState, isNext: Boolean) 
     val colors = AppTheme.colors
     val typeColor = colors.forType(activity.file.type)
     val ring = when {
-        state == LessonState.COMPLETED -> colors.correct
-        isNext -> MaterialTheme.colorScheme.primary
+        state == LessonState.COMPLETED -> MaterialTheme.colorScheme.primary
+        isNext -> MaterialTheme.colorScheme.secondary
         else -> MaterialTheme.colorScheme.outline
     }
     Box(Modifier.size(NodeSize), contentAlignment = Alignment.Center) {
@@ -333,11 +333,11 @@ private fun LessonNode(activity: Activity, state: LessonState, isNext: Boolean) 
         if (state == LessonState.COMPLETED) {
             Box(
                 Modifier.align(Alignment.BottomCenter).offset(y = 4.dp).size(30.dp)
-                    .background(colors.correct, CircleShape)
+                    .background(MaterialTheme.colorScheme.primary, CircleShape)
                     .border(3.dp, MaterialTheme.colorScheme.background, CircleShape),
                 contentAlignment = Alignment.Center,
             ) {
-                Icon(Icons.Filled.Check, contentDescription = stringResource(R.string.lesson_done), tint = Color.White, modifier = Modifier.size(18.dp))
+                Icon(Icons.Filled.Check, contentDescription = stringResource(R.string.lesson_done), tint = MaterialTheme.colorScheme.onPrimary, modifier = Modifier.size(18.dp))
             }
         }
     }
