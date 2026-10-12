@@ -3,13 +3,12 @@
   "type": "quiz",
   "title": "Bilan du chapitre 4",
   "screens": [
-    { "id": "medine-t1.l04.quiz#1", "type": "mcq", "mode": "icon-ar", "item": "w:matbakh", "distractors": ["w:hammam", "w:mirhad"] },
-    { "id": "medine-t1.l04.quiz#2", "type": "mcq", "mode": "ar-fr", "item": "w:ala", "distractors": ["w:fi", "w:min"] },
+    { "id": "medine-t1.l04.quiz#1", "type": "mcq", "mode": "icon-ar", "item": "w:mirhad", "distractors": ["w:hammam", "w:saa"] },
     {
       "id": "medine-t1.l04.quiz#3",
       "type": "match",
       "mode": "ar-fr",
-      "items": ["w:fi", "w:ala", "w:min", "w:ila"]
+      "items": ["w:fi", "w:min", "w:ghurfa", "w:hammam", "w:saa"]
     },
     {
       "id": "medine-t1.l04.quiz#4",
@@ -32,7 +31,7 @@
       "prompt": { "fr": "Dans {ar|فِي الْبَيْتِ}, comment se termine le nom {ar|الْبَيْتِ} ?" },
       "choices": [ { "fr": "par une kasra ({ar|◌ِ})" }, { "fr": "par une damma ({ar|◌ُ})" }, { "fr": "par une fatha ({ar|◌َ})" } ],
       "answer": 0,
-      "explain": "Après une préposition, le nom prend la kasra."
+      "explain": "Après une préposition, le nom prend en général la kasra."
     },
     {
       "id": "medine-t1.l04.quiz#7",
@@ -51,13 +50,6 @@
       "gaps": [{ "answers": ["هِيَ"] }],
       "options": ["هُوَ", "هِيَ"],
       "explain": "{ar|السَّاعَةُ} est un nom féminin : on dit {ar|هِيَ}."
-    },
-    {
-      "id": "medine-t1.l04.quiz#9",
-      "type": "order",
-      "fr": "Où est le stylo ? Il est sur le bureau.",
-      "answers": [["أَيْنَ", "الْقَلَمُ؟", "هُوَ", "عَلَى", "الْمَكْتَبِ"]],
-      "punctuation": "."
     },
     {
       "id": "medine-t1.l04.quiz#10",
@@ -82,7 +74,7 @@
     {
       "id": "medine-t1.l04.quiz#12",
       "type": "true_false",
-      "statement": { "fr": "Le tanwin est une marque du nom : un verbe n'en porte jamais." },
+      "statement": { "fr": "Le tanwin est une marque du nom." },
       "answer": true
     },
     {
@@ -91,31 +83,18 @@
       "prompt": { "fr": "Après la préposition {ar|مِنْ}, le nom {ar|فَاطِمَةُ} (sans article) prend…" },
       "choices": [ { "fr": "une fatha ({ar|◌َ})" }, { "fr": "une kasra ({ar|◌ِ})" }, { "fr": "un tanwin ({ar|◌ٍ})" } ],
       "answer": 0,
-      "explain": "Les noms propres féminins sont privés de tanwin : après une préposition, ils prennent la fatha ({ar|مِنْ فَاطِمَةَ})."
+      "explain": "{ar|فَاطِمَةُ} est privé de tanwin, comme la plupart des noms propres féminins : après une préposition, il prend la fatha ({ar|مِنْ فَاطِمَةَ})."
     },
-    { "id": "medine-t1.l04.quiz#14", "type": "mcq", "mode": "icon-ar", "item": "w:faransa", "distractors": ["w:yaban", "w:sin"] },
-    {
-      "id": "medine-t1.l04.quiz#15",
-      "type": "match",
-      "mode": "ar-fr",
-      "items": ["w:yaban", "w:sin", "w:hind", "w:filibbin", "w:ifriqiya"]
-    },
+    { "id": "medine-t1.l04.quiz#14", "type": "mcq", "mode": "icon-ar", "item": "w:faransa", "distractors": ["w:hind", "w:ifriqiya"] },
     {
       "id": "medine-t1.l04.quiz#16",
       "type": "typing",
-      "instruction": "Réponds à la question en arabe.",
+      "instruction": "Tu viens du pays montré par l'image. Réponds à la question en arabe.",
       "ask": "question",
       "question": "مِنْ أَيْنَ أَنْتَ؟",
       "context": { "icon": "japan" },
       "answers": ["أَنَا مِنَ الْيَابَانِ.", "مِنَ الْيَابَانِ."],
       "fr": "Je viens du Japon."
-    },
-    {
-      "id": "medine-t1.l04.quiz#17",
-      "type": "question",
-      "prompt": { "fr": "Que veut dire {ar|خَرَجَ} ?" },
-      "choices": [ { "fr": "il est sorti" }, { "fr": "il est allé" }, { "fr": "il est entré" } ],
-      "answer": 0
     },
     {
       "id": "medine-t1.l04.quiz#18",
@@ -130,20 +109,12 @@
       "mode": "sing-plur",
       "items": ["w:madrasa", "w:mirhad", "w:matbakh", "w:hammam", "w:jamia"]
     },
-    { "id": "medine-t1.l04.quiz#20", "type": "mcq", "mode": "audio-ar", "item": "w:suq", "distractors": ["w:dukkan", "w:madrasa"] },
     {
       "id": "medine-t1.l04.quiz#21",
       "type": "typing",
       "ask": "fr",
-      "fr": "Il est dans la salle de bain.",
+      "fr": "Il est dans la salle de bains.",
       "answers": ["هُوَ فِي الْحَمَّامِ."]
-    },
-    {
-      "id": "medine-t1.l04.quiz#22",
-      "type": "typing",
-      "ask": "audio",
-      "fr": "Il vient de Chine.",
-      "answers": ["هُوَ مِنَ الصِّينِ."]
     }
   ]
 }

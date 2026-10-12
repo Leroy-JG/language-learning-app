@@ -19,7 +19,7 @@
       "type": "tip",
       "title": "{ar|مِنْ} ou {ar|مِنَ} ?",
       "blocks": [
-        { "type": "paragraph", "text": "Devant l'article {ar|الْ}, le sukūn de {ar|مِنْ} devient une **fatha** : on dit « mina l-bayti ». Sans article, {ar|مِنْ} garde son sukūn." },
+        { "type": "paragraph", "text": "Devant l'article {ar|الْ}, le sukūn de {ar|مِنْ} devient une **fatha** : on dit « mina l-bayti ». Devant un mot qui commence par une consonne ou par une hamza coupante (comme {ar|أَيْنَ}), {ar|مِنْ} garde son sukūn." },
         {
           "type": "compare",
           "rows": [
@@ -29,7 +29,8 @@
         },
         { "type": "paragraph", "text": "{ar|مِنْ} indique le lieu d'**où l'on vient**, ou la **matière** dont une chose est faite :" },
         { "type": "example", "ar": "مِنَ الْمَسْجِدِ", "fr": "de la mosquée" },
-        { "type": "example", "ar": "مِنْ ذَهَبٍ", "fr": "en or" }
+        { "type": "example", "ar": "مِنْ ذَهَبٍ", "fr": "en or" },
+        { "type": "note", "text": "Ne confonds pas {ar|مِنْ} (de) et {ar|مَنْ} (qui ?) : ce sont les mêmes lettres, avec une autre voyelle. Devant l'article, {ar|مَنْ} devient {ar|مَنِ} (chapitre 3), mais {ar|مِنْ} devient {ar|مِنَ}. Attention : {ar|مِنْ} ne sert pas à dire « le livre de Muḥammad » : ce « de » de possession est l'annexation, que tu étudieras plus tard." }
       ]
     },
     { "id": "medine-t1.l04.vocab-1#6", "type": "present", "item": "w:ila" },
@@ -47,7 +48,9 @@
         { "type": "paragraph", "text": "Le sens d'une préposition dépend de la phrase. Par exemple, {ar|فِي} s'emploie pour un **lieu** et pour un **moment** :" },
         { "type": "example", "ar": "فِي الْبَيْتِ", "fr": "dans la maison (le lieu)" },
         { "type": "example", "ar": "فِي يَوْمِ الْجُمُعَةِ", "fr": "le vendredi (le moment)" },
+        { "type": "note", "text": "En français, « à » peut traduire {ar|فِي} (on est quelque part : {ar|الْوَلَدُ فِي الْمَسْجِدِ}, le garçon est à la mosquée) ou {ar|إِلَى} (on va vers un lieu : {ar|إِلَى الْمَسْجِدِ}, vers la mosquée)." },
         { "type": "note", "text": "{ar|يَوْمُ الْجُمُعَةِ} veut dire « le jour du vendredi ». Cette façon de relier deux noms s'appelle l'annexation : tu l'étudieras plus tard." },
+        { "type": "note", "text": "À l'oral, devant l'article {ar|الْ}, la voyelle longue finale de {ar|فِي}, {ar|عَلَى} et {ar|إِلَى} devient brève : « fi l-bayti », « ʿala l-maktabi », « ʾila l-masjidi »." },
         { "type": "note", "tone": "culture", "text": "{ar|الْجُمُعَةُ} vient de {ar|جَمَعَ} (rassembler) : c'est le jour où les musulmans se rassemblent pour la prière." }
       ]
     },
@@ -57,7 +60,7 @@
       "sentence": "الْكِتَابُ {0} الْمَكْتَبِ.",
       "fr": "Le livre est sur le bureau.",
       "gaps": [{ "answers": ["عَلَى"] }],
-      "options": ["عَلَى", "فِي", "مِنْ"]
+      "options": ["عَلَى", "فِي", "مِنَ"]
     },
     {
       "id": "medine-t1.l04.vocab-1#10",

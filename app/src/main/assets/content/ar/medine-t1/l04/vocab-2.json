@@ -47,7 +47,7 @@
           ]
         },
         { "type": "paragraph", "text": "Tu en rencontreras d'autres, comme {ar|مَدْرَسَةٌ} (une école)." },
-        { "type": "note", "tone": "warning", "text": "Ce n'est pas une règle sans exception : {ar|بَيْتٌ} (une maison) et {ar|حَمَّامٌ} (une salle de bain) sont aussi des lieux, mais ils ne commencent pas par {ar|مَ}." }
+        { "type": "note", "tone": "warning", "text": "Tous les noms de lieux ne suivent pas ce modèle : {ar|بَيْتٌ} (une maison) et {ar|حَمَّامٌ} (une salle de bains) désignent des lieux, mais ne commencent pas par {ar|مَ}." }
       ]
     },
     {

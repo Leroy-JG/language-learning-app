@@ -17,7 +17,7 @@
         { "speaker": "A", "ar": "أَيْنَ مُحَمَّدٌ؟", "fr": "Où est Muḥammad ?" },
         { "speaker": "B", "ar": "هُوَ فِي الْغُرْفَةِ.", "fr": "Il est dans la chambre." },
         { "speaker": "A", "ar": "وَأَيْنَ يَاسِرٌ؟", "fr": "Et où est Yāsir ?" },
-        { "speaker": "B", "ar": "هُوَ فِي الْحَمَّامِ.", "fr": "Il est dans la salle de bain." },
+        { "speaker": "B", "ar": "هُوَ فِي الْحَمَّامِ.", "fr": "Il est dans la salle de bains." },
         { "speaker": "A", "ar": "وَأَيْنَ آمِنَةُ؟", "fr": "Et où est Āmina ?" },
         { "speaker": "B", "ar": "هِيَ فِي الْمَطْبَخِ.", "fr": "Elle est dans la cuisine." },
         { "speaker": "A", "ar": "أَيْنَ الْكِتَابُ؟", "fr": "Où est le livre ?" },
@@ -31,7 +31,7 @@
       "type": "question",
       "context": { "dialogue": "medine-t1.l04.dialogue-1#1" },
       "prompt": { "fr": "Où est Muḥammad ?" },
-      "choices": [ { "fr": "Dans la chambre" }, { "fr": "Dans la salle de bain" }, { "fr": "Dans la cuisine" } ],
+      "choices": [ { "fr": "Dans la chambre" }, { "fr": "Dans la salle de bains" }, { "fr": "Dans la cuisine" } ],
       "answer": 0
     },
     {
@@ -48,7 +48,7 @@
       "ask": "question",
       "question": "أَيْنَ مُحَمَّدٌ؟",
       "context": { "dialogue": "medine-t1.l04.dialogue-1#1" },
-      "answers": ["هُوَ فِي الْغُرْفَةِ.", "فِي الْغُرْفَةِ."],
+      "answers": ["هُوَ فِي الْغُرْفَةِ.", "فِي الْغُرْفَةِ.", "مُحَمَّدٌ فِي الْغُرْفَةِ."],
       "fr": "Il est dans la chambre."
     },
     {
@@ -66,13 +66,22 @@
       "question": "أَيَاسِرٌ فِي الْمَطْبَخِ؟",
       "context": { "dialogue": "medine-t1.l04.dialogue-1#1" },
       "answers": ["لَا، هُوَ فِي الْحَمَّامِ.", "لَا، فِي الْحَمَّامِ.", "لَا، يَاسِرٌ فِي الْحَمَّامِ."],
-      "fr": "Non, il est dans la salle de bain."
+      "fr": "Non, il est dans la salle de bains."
+    },
+    {
+      "id": "medine-t1.l04.dialogue-1#6b",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَآمِنَةُ فِي الْغُرْفَةِ؟",
+      "context": { "dialogue": "medine-t1.l04.dialogue-1#1" },
+      "answers": ["لَا، هِيَ فِي الْمَطْبَخِ.", "لَا، فِي الْمَطْبَخِ.", "لَا، آمِنَةُ فِي الْمَطْبَخِ."],
+      "fr": "Non, elle est dans la cuisine."
     },
     {
       "id": "medine-t1.l04.dialogue-1#7",
       "type": "question",
       "context": { "dialogue": "medine-t1.l04.dialogue-1#1" },
-      "prompt": { "fr": "Qui est dans la salle de bain ?" },
+      "prompt": { "fr": "Qui est dans la salle de bains ?" },
       "choices": [ { "fr": "Yāsir" }, { "fr": "Muḥammad" }, { "fr": "Āmina" } ],
       "answer": 0
     },

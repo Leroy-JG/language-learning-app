@@ -39,7 +39,7 @@
         { "type": "example", "ar": "فَاطِمَةُ فِي فَرَنْسَا.", "fr": "Fāṭima est en France." },
         { "type": "example", "ar": "نُوحٌ فِي الْمَسْجِدِ.", "fr": "Nūḥ est dans la mosquée." },
         { "type": "note", "text": "Un nom propre n'a pas besoin de l'article : il est défini par lui-même." },
-        { "type": "note", "tone": "warning", "text": "Après {ar|فِي}, {ar|مَكَّةُ} se termine par une fatha ({ar|مَكَّةَ}), et non par une kasra. Tu verras pourquoi dans l'activité sur les noms sans tanwin." }
+        { "type": "note", "tone": "warning", "text": "Après {ar|فِي}, {ar|مَكَّةُ} se termine par une fatha ({ar|مَكَّةَ}), et non par une kasra. Tu verras pourquoi dans la leçon « Les noms sans tanwin »." }
       ]
     },
     { "id": "medine-t1.l04.grammar-3#5", "type": "present", "item": "w:makka" },

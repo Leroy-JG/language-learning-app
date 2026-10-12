@@ -11,7 +11,7 @@
     },
     {
       "title": "Où est… ? {ar|أَيْنَ}",
-      "activities": ["vocab-2", "grammar-2", "dialogue-1"]
+      "activities": ["vocab-2", "grammar-2", "dialogue-1", "practice-3"]
     },
     {
       "title": "Les noms propres et le tanwin",
@@ -19,7 +19,11 @@
     },
     {
       "title": "D'où viens-tu ? {ar|مِنْ أَيْنَ}",
-      "activities": ["vocab-3", "grammar-6", "vocab-4", "vocab-5", "dialogue-2", "practice-2"]
+      "activities": ["vocab-3", "grammar-6"]
+    },
+    {
+      "title": "À l'école et en ville : sortir et aller",
+      "activities": ["vocab-4", "vocab-5", "dialogue-2", "practice-2"]
     },
     {
       "title": "Classer les mots et les pluriels",

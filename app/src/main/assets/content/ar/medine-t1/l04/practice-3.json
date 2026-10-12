@@ -1,0 +1,90 @@
+{
+  "id": "medine-t1.l04.practice-3",
+  "type": "grammar",
+  "title": "Les voyelles finales",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l04.practice-3#1",
+      "type": "tip",
+      "title": "Lis et écris la voyelle finale",
+      "blocks": [
+        { "type": "paragraph", "text": "L'exercice 2 de ton livre te demande de lire des expressions et de les écrire avec la bonne **voyelle finale** : la damma pour le nom cité seul, la kasra après une préposition." },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "الْغُرْفَةُ", "fr": "la chambre" }, "to": { "ar": "فِي الْغُرْفَةِ", "fr": "dans la chambre" } },
+            { "from": { "ar": "الْبَيْتُ", "fr": "la maison" }, "to": { "ar": "فِي الْبَيْتِ", "fr": "dans la maison" } },
+            { "from": { "ar": "الْمَطْبَخُ", "fr": "la cuisine" }, "to": { "ar": "فِي الْمَطْبَخِ", "fr": "dans la cuisine" } },
+            { "from": { "ar": "الْمَكْتَبُ", "fr": "le bureau" }, "to": { "ar": "عَلَى الْمَكْتَبِ", "fr": "sur le bureau" } },
+            { "from": { "ar": "الْكُرْسِيُّ", "fr": "la chaise" }, "to": { "ar": "عَلَى الْكُرْسِيِّ", "fr": "sur la chaise" } },
+            { "from": { "ar": "الْكِتَابُ", "fr": "le livre" }, "to": { "ar": "عَلَى الْكِتَابِ", "fr": "sur le livre" } }
+          ]
+        },
+        { "type": "note", "text": "Dans {ar|الْكُرْسِيُّ}, la voyelle finale se pose sur le {ar|ي} doublé (la shadda) : {ar|الْكُرْسِيُّ} → {ar|عَلَى الْكُرْسِيِّ}." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.practice-3#2",
+      "type": "sort",
+      "instruction": "Range chaque expression selon la voyelle finale du nom.",
+      "categories": [ { "fr": "damma ({ar|◌ُ}) : le nom tel qu'on le cite" }, { "fr": "kasra ({ar|◌ِ}) : après une préposition" } ],
+      "cards": [
+        { "ar": "الْغُرْفَةُ", "category": 0 },
+        { "ar": "عَلَى الْكُرْسِيِّ", "category": 1 },
+        { "ar": "الْحَمَّامُ", "category": 0 },
+        { "ar": "فِي الْمَسْجِدِ", "category": 1 },
+        { "ar": "السَّرِيرُ", "category": 0 },
+        { "ar": "فِي الْمَطْبَخِ", "category": 1 },
+        { "ar": "الْمَكْتَبُ", "category": 0 },
+        { "ar": "عَلَى الْكِتَابِ", "category": 1 }
+      ],
+      "explain": "Cité seul, le nom se termine par la damma ; après une préposition, il se termine par la kasra."
+    },
+    {
+      "id": "medine-t1.l04.practice-3#3",
+      "type": "spot",
+      "instruction": "Touche les deux noms qui se terminent par une kasra.",
+      "words": ["الْمَطْبَخُ", "فِي", "الْبَيْتِ،", "وَالْكِتَابُ", "عَلَى", "الْكُرْسِيِّ."],
+      "answers": [2, 5],
+      "fr": "La cuisine est dans la maison, et le livre est sur la chaise.",
+      "explain": "{ar|الْبَيْتِ} suit {ar|فِي} et {ar|الْكُرْسِيِّ} suit {ar|عَلَى} : les deux sont à la kasra."
+    },
+    {
+      "id": "medine-t1.l04.practice-3#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|عَلَى الْكُرْسِيِّ}, sur quelle lettre se pose la voyelle finale ?" },
+      "choices": [ { "fr": "sur le {ar|ي} doublé" }, { "fr": "sur le {ar|س}" }, { "fr": "sur le {ar|ك}" } ],
+      "answer": 0,
+      "explain": "La voyelle finale se pose sur la dernière lettre du mot : le {ar|ي}, qui porte une shadda et une kasra."
+    },
+    {
+      "id": "medine-t1.l04.practice-3#5",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "sur la chaise",
+      "answers": ["عَلَى الْكُرْسِيِّ"]
+    },
+    {
+      "id": "medine-t1.l04.practice-3#6",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|فِي الْغُرْفَةِ}, le nom {ar|الْغُرْفَةِ} se termine par une damma." },
+      "answer": false,
+      "explain": "Après {ar|فِي}, il se termine par la kasra : {ar|الْغُرْفَةُ} → {ar|فِي الْغُرْفَةِ}."
+    },
+    {
+      "id": "medine-t1.l04.practice-3#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "dans la mosquée",
+      "answers": ["فِي الْمَسْجِدِ"]
+    },
+    {
+      "id": "medine-t1.l04.practice-3#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "dans la cuisine",
+      "answers": ["فِي الْمَطْبَخِ"]
+    }
+  ]
+}

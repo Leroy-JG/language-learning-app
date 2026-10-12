@@ -6,7 +6,7 @@
     "fr": "la variation de la terminaison",
     "translit": "al-ʾiʿrābu",
     "gender": "m",
-    "note": "La terminaison d'un mot (le plus souvent sa dernière voyelle) change selon la place du mot dans la phrase : {ar|كِتَابٌ}, {ar|كِتَابًا}, {ar|الْكِتَابِ}."
+    "note": "La terminaison d'un mot (le plus souvent sa dernière voyelle) change selon le rôle du mot dans la phrase : {ar|كِتَابٌ}, {ar|كِتَابًا}, {ar|الْكِتَابِ}."
   },
   {
     "id": "w:harf-jarr",
@@ -16,16 +16,16 @@
     "translit": "ḥarfu jarrin",
     "plural": "حُرُوفُ جَرٍّ",
     "gender": "m",
-    "note": "C'est une particule ({ar|حَرْفٌ}) placée devant un nom. Elle précise son sens et met sa terminaison à la kasra : c'est ce qu'on appelle {ar|الْجَرُّ}.",
+    "note": "C'est une particule ({ar|حَرْفٌ}) placée devant un nom. Elle précise son sens et met en général la terminaison du nom à la kasra : c'est ce qu'on appelle {ar|الْجَرُّ}.",
     "example": { "ar": "فِي الْبَيْتِ", "fr": "dans la maison" }
   },
   {
     "id": "w:fi",
     "kind": "word",
     "ar": "فِي",
-    "fr": "dans, en (lieu ou temps)",
+    "fr": "dans, en, à (lieu ou temps)",
     "translit": "fī",
-    "note": "Préposition ({ar|حَرْفُ جَرٍّ}) de lieu ou de temps. Le nom qui la suit prend la kasra : {ar|الْبَيْتُ} → {ar|فِي الْبَيْتِ}.",
+    "note": "Préposition ({ar|حَرْفُ جَرٍّ}) de lieu ou de temps. Le nom qui la suit prend en général la kasra : {ar|الْبَيْتُ} → {ar|فِي الْبَيْتِ}.",
     "example": { "ar": "الْكِتَابُ فِي الْبَيْتِ.", "fr": "Le livre est dans la maison." }
   },
   {
@@ -82,13 +82,13 @@
     "id": "w:hammam",
     "kind": "word",
     "ar": "حَمَّامٌ",
-    "fr": "une salle de bain",
+    "fr": "une salle de bains",
     "translit": "ḥammāmun",
     "plural": "حَمَّامَاتٌ",
     "gender": "m",
     "icon": "bath",
     "note": "Ton support le traduit par « douche » : c'est le lieu où l'on se lave. Le mot désigne aussi un bain, un hammam.",
-    "example": { "ar": "الْمَاءُ فِي الْحَمَّامِ.", "fr": "L'eau est dans la salle de bain." }
+    "example": { "ar": "الْمَاءُ فِي الْحَمَّامِ.", "fr": "L'eau est dans la salle de bains." }
   },
   {
     "id": "w:mirhad",
@@ -214,7 +214,7 @@
     "fr": "la France",
     "translit": "faransā",
     "icon": "france",
-    "note": "Ce nom s'emploie sans article. Il se termine par un {ar|ا} : sa terminaison ne change jamais, et il ne prend pas de tanwin.",
+    "note": "Ce nom s'emploie sans article. Il se termine par un {ar|ا} long : sa terminaison ne change pas à l'écrit, et il ne prend pas de tanwin.",
     "example": { "ar": "فَاطِمَةُ مِنْ فَرَنْسَا.", "fr": "Fāṭima vient de France." }
   },
   {
@@ -251,7 +251,7 @@
     "ar": "أَنَا",
     "fr": "je, moi",
     "translit": "anā",
-    "note": "Pronom ({ar|ضَمِيرٌ}) : c'est la personne qui parle.",
+    "note": "Pronom ({ar|ضَمِيرٌ}) : c'est la personne qui parle. Il se dit pour un homme comme pour une femme.",
     "example": { "ar": "أَنَا فِي الْمَسْجِدِ.", "fr": "Je suis à la mosquée." }
   },
   {
@@ -260,7 +260,7 @@
     "ar": "مِنْ أَيْنَ أَنْتَ؟",
     "fr": "D'où viens-tu ?",
     "translit": "min ayna anta",
-    "note": "À une femme, on dit {ar|مِنْ أَيْنَ أَنْتِ؟}."
+    "note": "Mot à mot : « d'où es-tu ? ». À une femme, on dit {ar|مِنْ أَيْنَ أَنْتِ؟}."
   },
   {
     "id": "p:ana-min-faransa",
@@ -344,7 +344,7 @@
     "translit": "samāʾun",
     "plural": "سَمَاوَاتٌ",
     "gender": "f",
-    "note": "Mot féminin, bien qu'il ne se termine pas par {ar|ة}.",
+    "note": "Mot féminin, bien qu'il ne se termine pas par {ar|ة}. En arabe classique, on le trouve aussi au masculin.",
     "example": { "ar": "النُّجُومُ فِي السَّمَاءِ.", "fr": "Les étoiles sont dans le ciel." }
   },
   {
@@ -353,7 +353,7 @@
     "ar": "خَرَجَ",
     "fr": "il est sorti (sortir)",
     "translit": "kharaja",
-    "note": "On cite le verbe au passé, à la troisième personne du masculin singulier. Le « il » est déjà dans le verbe. Il s'emploie avec {ar|مِنْ} : {ar|خَرَجَ مِنَ الْبَيْتِ} (il est sorti de la maison).",
+    "note": "On cite le verbe au passé, à la troisième personne du masculin singulier. Le « il » est déjà dans le verbe. Il s'emploie le plus souvent avec {ar|مِنْ} : {ar|خَرَجَ مِنَ الْبَيْتِ} (il est sorti de la maison).",
     "example": { "ar": "خَرَجَ مُحَمَّدٌ مِنَ الْمَدْرَسَةِ.", "fr": "Muḥammad est sorti de l'école." }
   },
   {
@@ -362,7 +362,7 @@
     "ar": "ذَهَبَ",
     "fr": "il est allé (aller)",
     "translit": "dhahaba",
-    "note": "Il s'emploie avec {ar|إِلَى} : {ar|ذَهَبَ إِلَى الْمَسْجِدِ} (il est allé à la mosquée). Attention : {ar|ذَهَبٌ} (l'or, chapitre 3) s'écrit avec les mêmes lettres ; seules les voyelles changent.",
+    "note": "Il s'emploie le plus souvent avec {ar|إِلَى} : {ar|ذَهَبَ إِلَى الْمَسْجِدِ} (il est allé à la mosquée). Devant une personne, {ar|إِلَى} se traduit « chez » : {ar|ذَهَبَ إِلَى الْمُدِيرِ}. Attention : {ar|ذَهَبٌ} (l'or, chapitre 3) s'écrit avec les mêmes lettres ; seules les voyelles changent.",
     "example": { "ar": "ذَهَبَ إِلَى الْمُدِيرِ.", "fr": "Il est allé chez le directeur." }
   }
 ]

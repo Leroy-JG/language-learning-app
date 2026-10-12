@@ -19,7 +19,7 @@
             ["{ar|كِتَابٌ}", "{ar|كِتَابُنْ}", "kitābun"]
           ]
         },
-        { "type": "note", "text": "Quand on s'arrête à la fin d'une phrase, on ne prononce pas toujours le tanwin (voir le chapitre 3)." }
+        { "type": "note", "text": "Quand on s'arrête à la fin d'une phrase, le « n » du tanwin ne se prononce pas (voir le chapitre 3)." }
       ]
     },
     {
@@ -27,9 +27,9 @@
       "type": "tip",
       "title": "Le tanwin est la marque du nom",
       "blocks": [
-        { "type": "paragraph", "text": "Seul un **nom** peut porter le tanwin : un verbe ou une particule n'en a jamais. Le tanwin est donc une **marque du nom** ({ar|عَلَامَةُ الِاسْمِ}) :" },
+        { "type": "paragraph", "text": "Seul un **nom** porte le tanwin : un verbe ou une particule n'en porte pas (en dehors de rares licences poétiques). Le tanwin est donc une **marque du nom** ({ar|عَلَامَةُ الِاسْمِ}) :" },
         { "type": "paragraph", "text": "{ar|مُحَمَّدٌ}  ·  {ar|زَيْدٌ}  ·  {ar|بَيْتٌ}  ·  {ar|مَسْجِدٌ}" },
-        { "type": "paragraph", "text": "Mais ce n'est pas la seule marque. Il y en a **trois** :" },
+        { "type": "paragraph", "text": "Mais ce n'est pas la seule marque. En voici **trois** que tu connais déjà :" },
         {
           "type": "table",
           "header": ["Marque du nom", "Exemple"],
@@ -39,7 +39,7 @@
             ["le fait de pouvoir suivre une préposition", "{ar|فِي مَكَّةَ}"]
           ]
         },
-        { "type": "note", "text": "Un nom n'a pas toujours une marque visible : {ar|هٰذَا} et {ar|هُوَ} n'ont ni tanwin ni article, et ce sont pourtant des noms." }
+        { "type": "note", "text": "Un nom n'a pas toujours une marque visible : {ar|هُوَ}, {ar|هِيَ} et {ar|أَنَا} n'ont ni tanwin, ni article, et ne se placent pas derrière une préposition. Ce sont pourtant des noms : tu verras plus tard comment on les reconnaît." }
       ]
     },
     {
@@ -54,7 +54,7 @@
       "type": "true_false",
       "statement": { "fr": "Un verbe peut porter le tanwin." },
       "answer": false,
-      "explain": "Seuls les noms portent le tanwin. C'est ce qui permet de reconnaître un nom."
+      "explain": "Seuls les noms portent le tanwin (en dehors de rares licences poétiques). C'est ce qui permet de reconnaître un nom."
     },
     {
       "id": "medine-t1.l04.grammar-4#5",
@@ -85,7 +85,7 @@
       "id": "medine-t1.l04.grammar-4#8",
       "type": "sort",
       "instruction": "Ce mot porte-t-il une marque du nom ?",
-      "categories": [ { "fr": "oui : c'est un nom" }, { "fr": "non : c'est une particule" } ],
+      "categories": [ { "fr": "oui : c'est un nom" }, { "fr": "non : aucune de ces marques (ici, des particules)" } ],
       "cards": [
         { "ar": "كِتَابٌ", "category": 0 },
         { "ar": "فِي", "category": 1 },

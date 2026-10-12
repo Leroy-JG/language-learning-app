@@ -25,9 +25,9 @@
     {
       "id": "medine-t1.l04.vocab-5#5",
       "type": "tip",
-      "title": "Les formes de ces deux verbes",
+      "title": "Le verbe sortir : ses formes",
       "blocks": [
-        { "type": "paragraph", "text": "Le verbe {ar|خَرَجَ} (sortir) :" },
+        { "type": "paragraph", "text": "Voici les quatre formes de chaque verbe. Elles sont données pour que tu les reconnaisses : tu n'as pas à les apprendre maintenant." },
         {
           "type": "table",
           "header": ["Forme", "Arabe", "Sens"],
@@ -37,8 +37,14 @@
             ["{ar|الْأَمْرُ} (impératif)", "{ar|اُخْرُجْ}", "sors ! (à un homme)"],
             ["{ar|الْمَصْدَرُ} (nom d'action)", "{ar|خُرُوجٌ}", "le fait de sortir"]
           ]
-        },
-        { "type": "paragraph", "text": "Le verbe {ar|ذَهَبَ} (aller) :" },
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.vocab-5#5b",
+      "type": "tip",
+      "title": "Le verbe aller : ses formes",
+      "blocks": [
         {
           "type": "table",
           "header": ["Forme", "Arabe", "Sens"],
@@ -57,18 +63,22 @@
       "type": "tip",
       "title": "Le verbe peut ouvrir la phrase",
       "blocks": [
-        { "type": "paragraph", "text": "Une phrase peut commencer par le **verbe**. Celui qui fait l'action vient ensuite, avec la **damma** :" },
+        { "type": "paragraph", "text": "Une phrase peut commencer par le **verbe**. Celui qui fait l'action vient ensuite, à la **damma** (quand il est au singulier) :" },
         { "type": "example", "ar": "خَرَجَ مُحَمَّدٌ مِنَ الْمَدْرَسَةِ.", "fr": "Muḥammad est sorti de l'école." },
         { "type": "example", "ar": "ذَهَبَ الْمُدَرِّسُ إِلَى الْمَسْجِدِ.", "fr": "L'enseignant est allé à la mosquée." },
         { "type": "paragraph", "text": "Le verbe contient déjà le « il » : on peut donc dire simplement :" },
         { "type": "example", "ar": "ذَهَبَ إِلَى الْمُدِيرِ.", "fr": "Il est allé chez le directeur." },
-        { "type": "note", "text": "{ar|خَرَجَ} s'emploie avec {ar|مِنْ} (sortir **de**), et {ar|ذَهَبَ} avec {ar|إِلَى} (aller **à**)." }
+        { "type": "paragraph", "text": "On peut aussi poser une question sur le verbe :" },
+        { "type": "example", "ar": "أَيْنَ ذَهَبَ؟", "fr": "Où est-il allé ?" },
+        { "type": "example", "ar": "مَنْ خَرَجَ مِنَ الْفَصْلِ؟", "fr": "Qui est sorti de la salle de classe ?" },
+        { "type": "note", "text": "Le mot interrogatif ({ar|أَيْنَ}, {ar|مَنْ}) se place toujours au début de la phrase. Avec {ar|مَنْ}, c'est celui qui fait l'action." },
+        { "type": "note", "text": "{ar|خَرَجَ} s'emploie le plus souvent avec {ar|مِنْ} (sortir **de**), et {ar|ذَهَبَ} avec {ar|إِلَى} (aller **à**, ou « chez » devant une personne)." }
       ]
     },
     {
       "id": "medine-t1.l04.vocab-5#7",
       "type": "order",
-      "fr": "L'enseignant est sorti de la classe.",
+      "fr": "L'enseignant est sorti de la salle de classe.",
       "answers": [["خَرَجَ", "الْمُدَرِّسُ", "مِنَ", "الْفَصْلِ"], ["الْمُدَرِّسُ", "خَرَجَ", "مِنَ", "الْفَصْلِ"]],
       "punctuation": "."
     },
@@ -114,7 +124,7 @@
       "id": "medine-t1.l04.vocab-5#14",
       "type": "typing",
       "ask": "audio",
-      "fr": "L'enseignant est sorti de la classe.",
+      "fr": "L'enseignant est sorti de la salle de classe.",
       "answers": ["خَرَجَ الْمُدَرِّسُ مِنَ الْفَصْلِ."]
     }
   ]

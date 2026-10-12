@@ -48,7 +48,7 @@
       "id": "medine-t1.l04.dialogue-2#4",
       "type": "true_false",
       "context": { "dialogue": "medine-t1.l04.dialogue-2#1" },
-      "statement": { "fr": "ʿAbbās est sorti de la classe." },
+      "statement": { "fr": "ʿAbbās est sorti." },
       "answer": true
     },
     {
@@ -73,7 +73,7 @@
       "ask": "question",
       "question": "وَمِنْ أَيْنَ حَامِدٌ؟",
       "context": { "dialogue": "medine-t1.l04.dialogue-2#1" },
-      "answers": ["هُوَ مِنَ الْهِنْدِ.", "مِنَ الْهِنْدِ."],
+      "answers": ["هُوَ مِنَ الْهِنْدِ.", "مِنَ الْهِنْدِ.", "حَامِدٌ مِنَ الْهِنْدِ."],
       "fr": "Il vient d'Inde."
     },
     {

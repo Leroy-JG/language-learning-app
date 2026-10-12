@@ -34,7 +34,7 @@
       "type": "tip",
       "title": "Il ou elle ?",
       "blocks": [
-        { "type": "paragraph", "text": "Pour ne pas répéter le nom, on le remplace par un **pronom** ({ar|ضَمِيرٌ}) : {ar|هُوَ} pour un nom **masculin**, {ar|هِيَ} pour un nom **féminin**." },
+        { "type": "paragraph", "text": "Pour ne pas répéter le nom, on le remplace par un **pronom** ({ar|ضَمِيرٌ}) : {ar|هُوَ} pour un nom **masculin singulier**, {ar|هِيَ} pour un nom **féminin singulier**." },
         {
           "type": "table",
           "header": ["Le nom", "Genre", "Pronom"],
@@ -46,7 +46,7 @@
           ]
         },
         { "type": "example", "ar": "أَيْنَ السَّاعَةُ؟ هِيَ عَلَى السَّرِيرِ.", "fr": "Où est la montre ? Elle est sur le lit." },
-        { "type": "note", "tone": "warning", "text": "Le genre d'un mot arabe n'est pas toujours celui du mot français : {ar|شَمْسٌ} (le soleil) est féminin en arabe, donc on dit {ar|هِيَ}." },
+        { "type": "note", "tone": "warning", "text": "Le genre d'un mot arabe n'est pas toujours celui du mot français : {ar|الشَّمْسُ} (le soleil) est féminin en arabe, donc on dit {ar|هِيَ}." },
         { "type": "note", "text": "Les pronoms font partie des noms définis ({ar|مَعَارِفُ}). Tu en découvriras d'autres plus tard." }
       ]
     },
@@ -57,7 +57,7 @@
       "fr": "Où est la montre ? Elle est sur le lit.",
       "gaps": [{ "answers": ["هِيَ"] }],
       "options": ["هُوَ", "هِيَ"],
-      "explain": "{ar|السَّاعَةُ} se termine par {ar|ة} : c'est un nom féminin, donc on dit {ar|هِيَ}."
+      "explain": "{ar|السَّاعَةُ} est un nom féminin (la terminaison {ar|ة} en est la marque la plus fréquente), donc on dit {ar|هِيَ}."
     },
     {
       "id": "medine-t1.l04.grammar-2#9",

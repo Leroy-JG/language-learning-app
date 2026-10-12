@@ -9,7 +9,7 @@
       "type": "tip",
       "title": "Seize prénoms à lire",
       "blocks": [
-        { "type": "paragraph", "text": "Voici les prénoms de l'exercice de ton livre. Regarde la fin de chacun : les prénoms d'hommes ont le **tanwin**, ceux de femmes n'en ont pas." },
+        { "type": "paragraph", "text": "Voici les prénoms de l'exercice de ton livre. Regarde la fin de chacun : dans cette liste, les prénoms d'hommes ont le **tanwin** et ceux de femmes n'en ont pas." },
         {
           "type": "table",
           "header": ["Masculin", "Féminin"],

@@ -19,7 +19,7 @@
             { "ar": "أَيْنَ", "fr": "où ?" }
           ]
         },
-        { "type": "note", "tone": "warning", "text": "{ar|أَيْنَ} ne change jamais de terminaison : même après une préposition, il garde sa fatha. C'est aussi le cas de {ar|هٰذَا} et de {ar|ذٰلِكَ} : on dit {ar|مِنْ هٰذَا} et {ar|إِلَى ذٰلِكَ}." }
+        { "type": "note", "tone": "warning", "text": "{ar|أَيْنَ} ne change jamais de terminaison : même après une préposition, il garde sa fatha. Il en va de même pour {ar|هٰذَا} et {ar|ذٰلِكَ} : leur forme ne change jamais, on dit {ar|مِنْ هٰذَا} et {ar|إِلَى ذٰلِكَ}." }
       ]
     },
     { "id": "medine-t1.l04.grammar-6#2", "type": "present", "item": "w:anta" },
@@ -43,6 +43,8 @@
         { "type": "example", "ar": "مِنْ أَيْنَ مُحَمَّدٌ؟", "fr": "D'où vient Muḥammad ?" },
         { "type": "example", "ar": "هُوَ مِنَ الْهِنْدِ.", "fr": "Il vient d'Inde." },
         { "type": "example", "ar": "هِيَ مِنْ مَكَّةَ.", "fr": "Elle vient de La Mecque." },
+        { "type": "example", "ar": "مِنْ أَيْنَ الْقَلَمُ؟ هُوَ مِنَ الْيَابَانِ.", "fr": "D'où vient le stylo ? Il vient du Japon." },
+        { "type": "note", "text": "Comme pour « être », il n'y a pas de verbe « venir » : {ar|هُوَ مِنَ الْهِنْدِ} veut dire mot à mot « il (est) d'Inde »." },
         { "type": "note", "text": "Avec l'article, {ar|مِنْ} devient {ar|مِنَ} : {ar|مِنَ الْيَابَانِ}. Sans article, il reste {ar|مِنْ} : {ar|مِنْ فَرَنْسَا}." }
       ]
     },
@@ -58,7 +60,7 @@
       "id": "medine-t1.l04.grammar-6#9",
       "type": "fill_gap",
       "sentence": "أَنَا {0} الْهِنْدِ.",
-      "fr": "Je viens de l'Inde.",
+      "fr": "Je viens d'Inde.",
       "gaps": [{ "answers": ["مِنَ"] }],
       "options": ["مِنَ", "فِي", "إِلَى"]
     },
@@ -66,7 +68,7 @@
       "id": "medine-t1.l04.grammar-6#10",
       "type": "order",
       "fr": "D'où viens-tu ?",
-      "answers": [["مِنْ", "أَيْنَ", "أَنْتَ"], ["أَنْتَ", "مِنْ", "أَيْنَ"]],
+      "answers": [["مِنْ", "أَيْنَ", "أَنْتَ"]],
       "punctuation": "؟",
       "distractors": ["أَنَا"]
     },
@@ -74,7 +76,7 @@
       "id": "medine-t1.l04.grammar-6#11",
       "type": "order",
       "fr": "Je viens de France.",
-      "answers": [["أَنَا", "مِنْ", "فَرَنْسَا"], ["مِنْ", "فَرَنْسَا", "أَنَا"]],
+      "answers": [["أَنَا", "مِنْ", "فَرَنْسَا"]],
       "punctuation": ".",
       "distractors": ["أَنْتَ"]
     },
@@ -82,7 +84,7 @@
       "id": "medine-t1.l04.grammar-6#12",
       "type": "question",
       "context": { "icon": "japan" },
-      "prompt": { "fr": "Tu viens du Japon. Que réponds-tu à {ar|مِنْ أَيْنَ أَنْتَ؟} ?" },
+      "prompt": { "fr": "Tu viens du Japon. Que réponds-tu à la question {ar|مِنْ أَيْنَ أَنْتَ؟}" },
       "choices": [ { "ar": "أَنَا مِنَ الْيَابَانِ." }, { "ar": "أَنَا فِي الْيَابَانِ." }, { "ar": "أَنَا إِلَى الْيَابَانِ." } ],
       "answer": 0,
       "explain": "{ar|مِنْ} indique l'origine : {ar|أَنَا مِنَ الْيَابَانِ} (je viens du Japon). {ar|أَنَا فِي الْيَابَانِ} voudrait dire « je suis au Japon »."
@@ -90,7 +92,7 @@
     {
       "id": "medine-t1.l04.grammar-6#13",
       "type": "typing",
-      "instruction": "Réponds à la question en arabe.",
+      "instruction": "Tu viens du pays montré par l'image. Réponds à la question en arabe.",
       "ask": "question",
       "question": "مِنْ أَيْنَ أَنْتَ؟",
       "context": { "icon": "china" },

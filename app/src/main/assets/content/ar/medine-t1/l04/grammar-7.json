@@ -24,7 +24,7 @@
             ["particule ({ar|حَرْفٌ})", "article défini", "{ar|الْ}"]
           ]
         },
-        { "type": "note", "text": "Pour reconnaître un nom, cherche l'une de ses trois marques : le tanwin, l'article {ar|الْ}, ou une préposition devant lui." }
+        { "type": "note", "text": "Pour reconnaître un nom, cherche l'une de ses marques, par exemple le tanwin, l'article {ar|الْ} ou une préposition devant lui." }
       ]
     },
     {
@@ -35,14 +35,14 @@
       "cards": [
         { "item": "w:ayna", "category": 0 },
         { "item": "w:fi", "category": 1 },
-        { "item": "w:min", "category": 1 },
+        { "item": "w:la", "category": 1 },
         { "item": "w:hadha", "category": 0 },
         { "item": "w:ala", "category": 1 },
         { "item": "w:ma", "category": 0 },
         { "item": "w:ila", "category": 1 },
         { "item": "w:huwa", "category": 0 }
       ],
-      "explain": "{ar|أَيْنَ}, {ar|هٰذَا}, {ar|مَا} et {ar|هُوَ} sont des noms. {ar|فِي}, {ar|مِنْ}, {ar|عَلَى} et {ar|إِلَى} sont des prépositions, donc des particules."
+      "explain": "{ar|أَيْنَ}, {ar|هٰذَا}, {ar|مَا} et {ar|هُوَ} sont des noms. {ar|فِي}, {ar|عَلَى} et {ar|إِلَى} sont des prépositions, et {ar|لَا} est une particule de réponse : ce sont des particules."
     },
     {
       "id": "medine-t1.l04.grammar-7#3",
@@ -55,7 +55,7 @@
     {
       "id": "medine-t1.l04.grammar-7#4",
       "type": "question",
-      "prompt": { "fr": "{ar|مِنْ} est…" },
+      "prompt": { "fr": "{ar|مِنْ} (« de ») est…" },
       "choices": [ { "fr": "un nom" }, { "fr": "un verbe" }, { "fr": "une particule" } ],
       "answer": 2,
       "explain": "{ar|مِنْ} est une préposition ({ar|حَرْفُ جَرٍّ}) : c'est une particule."

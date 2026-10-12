@@ -9,7 +9,7 @@
       "type": "tip",
       "title": "La terminaison d'un mot peut changer",
       "blocks": [
-        { "type": "paragraph", "text": "En arabe, la **terminaison** d'un mot (le plus souvent sa dernière voyelle) peut **changer** selon la place du mot dans la phrase. Cette variation s'appelle {ar|الْإِعْرَابُ}." },
+        { "type": "paragraph", "text": "En arabe, la **terminaison** d'un mot (le plus souvent sa dernière voyelle) peut **changer** selon le **rôle** du mot dans la phrase. Cette variation s'appelle {ar|الْإِعْرَابُ}." },
         { "type": "paragraph", "text": "Observe la fin du mot {ar|كِتَاب} dans trois phrases :" },
         { "type": "example", "ar": "هٰذَا كِتَابٌ.", "fr": "C'est un livre." },
         { "type": "example", "ar": "قَرَأْتُ كِتَابًا.", "fr": "J'ai lu un livre." },
@@ -32,6 +32,7 @@
             ["{ar|◌ِ}", "{ar|◌ٍ}", "{ar|الْكَسْرَةُ} (kasra)"]
           ]
         },
+        { "type": "note", "text": "Pour un nom, ces trois états s'appellent {ar|الرَّفْعُ} (la damma), {ar|النَّصْبُ} (la fatha) et {ar|الْجَرُّ} (la kasra)." },
         { "type": "paragraph", "text": "Tu connais déjà la damma ({ar|هٰذَا كِتَابٌ}). Dans ce chapitre, tu découvres la **kasra**. La fatha viendra plus tard." }
       ]
     },
@@ -42,7 +43,7 @@
       "prompt": { "fr": "Comment s'appelle la variation de la terminaison des mots ?" },
       "choices": [ { "ar": "الْإِعْرَابُ" }, { "ar": "التَّنْوِينُ" }, { "ar": "الْحَرْفُ" } ],
       "answer": 0,
-      "explain": "{ar|الْإِعْرَابُ} : la terminaison d'un mot change selon sa place dans la phrase."
+      "explain": "{ar|الْإِعْرَابُ} : la terminaison d'un mot change selon son rôle dans la phrase."
     },
     {
       "id": "medine-t1.l04.grammar-1#5",
@@ -50,13 +51,13 @@
       "title": "La préposition change la fin du nom",
       "blocks": [
         { "type": "paragraph", "text": "Une **préposition** ({ar|حَرْفُ جَرٍّ}) se place **devant un nom**. Elle agit sur le **sens** du nom qui la suit : dans, sur, de, vers…" },
-        { "type": "paragraph", "text": "Elle agit aussi sur sa **voyelle finale**, qui devient une **kasra**." },
+        { "type": "paragraph", "text": "Elle agit aussi sur sa **voyelle finale**, qui devient en général une **kasra** (tu verras les cas particuliers plus loin dans ce chapitre)." },
         {
           "type": "compare",
           "title": "Le nom avant et après la préposition",
           "rows": [
             { "from": { "ar": "الْكِتَابُ", "fr": "le livre" }, "to": { "ar": "فِي الْكِتَابِ", "fr": "dans le livre" } },
-            { "from": { "ar": "الْبَيْتُ", "fr": "la maison" }, "to": { "ar": "مِنَ الْبَيْتِ", "fr": "de la maison" } },
+            { "from": { "ar": "الْبَيْتُ", "fr": "la maison" }, "to": { "ar": "مِنَ الْبَيْتِ", "fr": "de la maison" }, "label": "{ar|مِنْ} devient {ar|مِنَ} devant l'article (voir la leçon suivante)" },
             { "from": { "ar": "الْمَكْتَبُ", "fr": "le bureau" }, "to": { "ar": "عَلَى الْمَكْتَبِ", "fr": "sur le bureau" } },
             { "from": { "ar": "الْمَسْجِدُ", "fr": "la mosquée" }, "to": { "ar": "إِلَى الْمَسْجِدِ", "fr": "vers la mosquée" } }
           ]
@@ -102,7 +103,7 @@
       "id": "medine-t1.l04.grammar-1#10",
       "type": "sort",
       "instruction": "Range chaque expression selon la voyelle finale du nom.",
-      "categories": [ { "fr": "damma ({ar|◌ُ}) : pas de préposition" }, { "fr": "kasra ({ar|◌ِ}) : après une préposition" } ],
+      "categories": [ { "fr": "damma ({ar|◌ُ}) : le nom tel qu'on le cite" }, { "fr": "kasra ({ar|◌ِ}) : après une préposition" } ],
       "cards": [
         { "ar": "الْبَيْتُ", "category": 0 },
         { "ar": "فِي الْبَيْتِ", "category": 1 },
@@ -111,7 +112,7 @@
         { "ar": "الْكِتَابُ", "category": 0 },
         { "ar": "عَلَى الْمَكْتَبِ", "category": 1 }
       ],
-      "explain": "Un nom seul se termine par la damma ; après une préposition, il se termine par la kasra."
+      "explain": "Un nom cité seul se termine par la damma ; après une préposition, il se termine par la kasra. La fatha viendra plus tard."
     },
     {
       "id": "medine-t1.l04.grammar-1#11",

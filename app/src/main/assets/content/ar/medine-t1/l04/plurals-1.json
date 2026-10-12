@@ -9,7 +9,7 @@
       "type": "tip",
       "title": "Des pluriels sans tanwin",
       "blocks": [
-        { "type": "paragraph", "text": "Ces pluriels ont une forme « longue » : un alif suivi de **deux** lettres ({ar|مَدَارِسُ}) ou de **trois** lettres dont la deuxième est un {ar|ي} ({ar|مَرَاحِيضُ}). Ils ne prennent **jamais de tanwin** : comme les noms propres féminins, ils sont {ar|مَمْنُوعٌ مِنَ الصَّرْفِ}." },
+        { "type": "paragraph", "text": "Certains **pluriels brisés** ont une forme « longue » : un alif suivi de **deux** lettres ({ar|مَدَارِسُ}) ou de **trois** lettres dont la deuxième est un {ar|ي} ({ar|مَرَاحِيضُ}). Ils ne prennent **normalement pas de tanwin** : comme les noms propres féminins, ils sont {ar|مَمْنُوعٌ مِنَ الصَّرْفِ}." },
         {
           "type": "table",
           "header": ["Singulier", "Pluriel", "Français"],
@@ -20,11 +20,12 @@
             ["{ar|دُكَّانٌ}", "{ar|دَكَاكِينُ}", "boutique"]
           ]
         },
-        { "type": "paragraph", "text": "Après une préposition, ils prennent donc la **fatha**, comme {ar|مَكَّةُ} :" },
+        { "type": "paragraph", "text": "Après une préposition, sans article, ils prennent donc la **fatha**, comme {ar|مَكَّةُ} :" },
         {
           "type": "compare",
           "rows": [
-            { "from": { "ar": "مَدَارِسُ", "fr": "des écoles" }, "to": { "ar": "فِي مَدَارِسَ", "fr": "dans des écoles" } }
+            { "from": { "ar": "مَدَارِسُ", "fr": "des écoles" }, "to": { "ar": "فِي مَدَارِسَ", "fr": "dans des écoles" } },
+            { "from": { "ar": "الْمَدَارِسُ", "fr": "les écoles" }, "to": { "ar": "فِي الْمَدَارِسِ", "fr": "dans les écoles" }, "label": "avec l'article, la kasra revient" }
           ]
         },
         { "type": "note", "text": "Tu connais déjà {ar|مَسَاجِدُ} (mosquées) et {ar|مَفَاتِيحُ} (clés) : eux aussi n'ont pas de tanwin." }
@@ -76,13 +77,13 @@
           "type": "table",
           "header": ["Singulier", "Pluriel", "Français"],
           "rows": [
-            ["{ar|حَمَّامٌ}", "{ar|حَمَّامَاتٌ}", "salle de bain"],
+            ["{ar|حَمَّامٌ}", "{ar|حَمَّامَاتٌ}", "salle de bains"],
             ["{ar|جَامِعَةٌ}", "{ar|جَامِعَاتٌ}", "université"],
             ["{ar|مُدِيرٌ}", "{ar|مُدِيرُونَ}", "directeur"]
           ]
         },
         { "type": "paragraph", "text": "Le pluriel en « -āt » est surtout celui des noms féminins ({ar|جَامِعَةٌ} → {ar|جَامِعَاتٌ}), mais pas seulement : {ar|حَمَّامٌ}, qui est masculin, fait {ar|حَمَّامَاتٌ}." },
-        { "type": "paragraph", "text": "Le pluriel en « -ūna » est celui des personnes de sexe masculin : {ar|مُدِيرُونَ}, comme {ar|مُدَرِّسُونَ} (chapitre 1)." }
+        { "type": "paragraph", "text": "Le pluriel en « -ūna » ne s'emploie que pour des personnes de sexe masculin : {ar|مُدِيرُونَ}, comme {ar|مُدَرِّسُونَ} (chapitre 1). Beaucoup de noms de personnes ont un autre pluriel : {ar|رَجُلٌ} → {ar|رِجَالٌ}. Après une préposition, « -ūna » devient « -īna » : {ar|إِلَى الْمُدِيرِينَ} (chez les directeurs)." }
       ]
     },
     {

@@ -30,8 +30,9 @@
       "title": "Le monde en arabe",
       "blocks": [
         { "type": "paragraph", "text": "Touche un pays pour l'écouter." },
-        { "type": "gallery", "title": "Les pays du chapitre", "items": ["w:yaban", "w:sin", "w:hind", "w:faransa", "w:filibbin", "w:ifriqiya"] },
-        { "type": "note", "text": "Certains noms de pays prennent l'article ({ar|الْيَابَانُ}, {ar|الصِّينُ}, {ar|الْهِنْدُ}, {ar|الْفِلِبِّينُ}), d'autres non ({ar|فَرَنْسَا}, {ar|إِفْرِيقِيَا})." }
+        { "type": "gallery", "title": "Les pays et le continent", "items": ["w:yaban", "w:sin", "w:hind", "w:faransa", "w:filibbin", "w:ifriqiya"] },
+        { "type": "note", "text": "Certains noms de pays prennent l'article ({ar|الْيَابَانُ}, {ar|الصِّينُ}, {ar|الْهِنْدُ}, {ar|الْفِلِبِّينُ}), d'autres non ({ar|فَرَنْسَا}). {ar|إِفْرِيقِيَا} est un continent." },
+        { "type": "note", "text": "Comme en français (« le Japon », « la Chine »), l'article fait partie du nom du pays : ce sont bien des noms propres." }
       ]
     },
     {

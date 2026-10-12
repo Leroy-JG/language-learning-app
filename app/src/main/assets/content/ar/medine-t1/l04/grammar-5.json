@@ -29,17 +29,19 @@
       "type": "tip",
       "title": "Après une préposition : la fatha",
       "blocks": [
-        { "type": "paragraph", "text": "Un nom privé de tanwin ne prend **pas la kasra** après une préposition : il prend une **fatha**. Compare avec un prénom d'homme, qui a le tanwin :" },
+        { "type": "paragraph", "text": "Un nom privé de tanwin, quand il est **sans l'article** et sans annexion, ne prend **pas la kasra** après une préposition : il prend une **fatha**. Compare avec un prénom d'homme, qui a le tanwin :" },
         {
           "type": "compare",
           "rows": [
             { "from": { "ar": "مَكَّةُ", "fr": "La Mecque" }, "to": { "ar": "فِي مَكَّةَ", "fr": "à La Mecque" } },
-            { "from": { "ar": "فَاطِمَةُ", "fr": "Fāṭima" }, "to": { "ar": "مِنْ فَاطِمَةَ", "fr": "de Fāṭima" } },
+            { "from": { "ar": "فَاطِمَةُ", "fr": "Fāṭima" }, "to": { "ar": "مِنْ فَاطِمَةَ", "fr": "de la part de Fāṭima" } },
             { "from": { "ar": "عَائِشَةُ", "fr": "ʿĀʾisha" }, "to": { "ar": "إِلَى عَائِشَةَ", "fr": "vers ʿĀʾisha" } },
-            { "from": { "ar": "مُحَمَّدٌ", "fr": "Muḥammad" }, "to": { "ar": "مِنْ مُحَمَّدٍ", "fr": "de Muḥammad" } }
+            { "from": { "ar": "مُحَمَّدٌ", "fr": "Muḥammad" }, "to": { "ar": "مِنْ مُحَمَّدٍ", "fr": "de la part de Muḥammad" } }
           ]
         },
-        { "type": "note", "text": "Les noms qui se terminent par {ar|ا}, comme {ar|فَرَنْسَا}, ne changent pas du tout : {ar|مِنْ فَرَنْسَا}." }
+        { "type": "note", "text": "Même avec la fatha, {ar|مَكَّةَ} reste {ar|مَجْرُورٌ} : seule la marque change." },
+        { "type": "note", "text": "Avec l'article {ar|الْ}, ces noms retrouvent la kasra, comme les autres : {ar|فِي الْمَدَارِسِ} (dans les écoles). C'est aussi le cas dans l'annexion, que tu étudieras plus tard." },
+        { "type": "note", "text": "Les noms étrangers qui se terminent par un alif long, comme {ar|فَرَنْسَا}, ne changent pas à l'écrit : {ar|مِنْ فَرَنْسَا}." }
       ]
     },
     {
@@ -57,7 +59,7 @@
         { "ar": "عَلِيٌّ", "category": 0 },
         { "ar": "مَكَّةُ", "category": 1 }
       ],
-      "explain": "Ces prénoms d'hommes ont le tanwin. Les noms propres féminins, eux, n'en ont pas."
+      "explain": "Ces prénoms d'hommes ont le tanwin. La plupart des noms propres féminins n'en ont pas, comme ceux de cette liste."
     },
     {
       "id": "medine-t1.l04.grammar-5#4",
@@ -71,14 +73,14 @@
       "id": "medine-t1.l04.grammar-5#5",
       "type": "typing",
       "ask": "fr",
-      "fr": "à La Mecque",
-      "answers": ["فِي مَكَّةَ"]
+      "fr": "Fāṭima est à La Mecque.",
+      "answers": ["فَاطِمَةُ فِي مَكَّةَ."]
     },
     { "id": "medine-t1.l04.grammar-5#6", "type": "build", "item": "w:makka", "extra": ["ه"] },
     {
       "id": "medine-t1.l04.grammar-5#7",
       "type": "true_false",
-      "statement": { "fr": "Après une préposition, un nom privé de tanwin (sans article) prend une fatha." },
+      "statement": { "fr": "Après une préposition, un nom privé de tanwin (sans article ni annexion) prend une fatha." },
       "answer": true,
       "explain": "C'est le cas de {ar|مَكَّةُ} : {ar|فِي مَكَّةَ}. Les noms qui ont le tanwin prennent, eux, la kasra : {ar|مِنْ مُحَمَّدٍ}."
     },
@@ -86,8 +88,8 @@
       "id": "medine-t1.l04.grammar-5#8",
       "type": "typing",
       "ask": "audio",
-      "fr": "Fāṭima est en France.",
-      "answers": ["فَاطِمَةُ فِي فَرَنْسَا."]
+      "fr": "ʿĀʾisha est dans la chambre.",
+      "answers": ["عَائِشَةُ فِي الْغُرْفَةِ."]
     }
   ]
 }

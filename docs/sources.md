@@ -106,7 +106,7 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin.
 
 - **Exercices du livre repris :**
   - exercice 1 (questions 1 à 9) → `dialogue-1` ;
-  - exercice 2 (voyelles finales) → entraîné par `sort`, `spot`, `question` et dictée dans `grammar-1`, `grammar-5` et `vocab-1` ;
+  - exercice 2 (voyelles finales) → `practice-3` (le mot الْمَدْرَسَةُ y est remplacé par الْغُرْفَةُ, car l'école n'est présentée que plus loin) ;
   - exercice (أ) (16 prénoms) → `practice-1` ;
   - dialogues de la page (ب) → `dialogue-1` (cuisine) et `dialogue-2` (classe) ;
   - exercice 3 → `practice-2`.
@@ -116,30 +116,42 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin.
   - les verbes conjugués أَتَوَضَّأُ et قَرَأْتُ (قَرَأْتُ n'est montré que dans une astuce, avec une note).
 - **Exemples du tableau de vocabulaire :** remplacés par des phrases qui n'utilisent que des mots connus (le PDF emploie وَسِخٌ, قَرِيبَةٌ, الطَّعَامُ, أَتَوَضَّأُ…).
 - **Traductions :**
-  - حَمَّامٌ = « une salle de bain » (le PDF dit « douche »), avec une note ;
+  - حَمَّامٌ = « une salle de bains » (le PDF dit « douche »), avec une note ;
   - سَاعَةٌ = « une montre » (note : horloge, heure) ;
   - فَصْلٌ = « une salle de classe » (note : saison, chapitre) ;
   - مِرْحَاضٌ = « des toilettes » ;
   - ذَهَبَ إِلَى الْمُدِيرِ = « il est allé chez le directeur » ;
   - مِنْ أَيْنَ أَنْتَ = « d'où viens-tu ? » ;
-  - un verbe est cité avec sa traduction « il est sorti (sortir) ».
+  - un verbe est cité avec sa traduction « il est sorti (sortir) » ;
+  - « salle de bains » (graphie de référence) et « salle de classe » partout ;
+  - فِي = « dans, en, à (lieu ou temps) » et إِلَى = « vers, à (direction) » : le français « à » traduit les deux.
 - **Genre :**
   - سُوقٌ (m) et سَمَاءٌ (f) existent aux deux genres en arabe classique : l'usage courant est retenu, avec une note pour سُوقٌ ;
-  - pas de genre affiché pour les pays (l'usage varie) ;
+  - pas de genre affiché pour les pays : l'usage varie, c'est donc une exception à la règle « chaque nom porte son genre » (à trancher avec l'utilisateur) ;
   - les prénoms ne sont pas des éléments (pas de cartes de révision) : ils sont dans des tableaux et des exercices.
+- **Écarts volontaires avec les diapositives :**
+  - fautes de frappe corrigées (مُحَمَّدٌ, زَيْدٌ, مَكَّةَ sans shadda ni sukūn ; عَلَى, ذٰلِكَ ; أُخْرُجْ / إِذْهَبْ avec hamza de coupure au lieu de اُخْرُجْ / اِذْهَبْ) ;
+  - les noms d'action sont cités au nominatif (خُرُوجٌ, ذَهَابٌ), le PDF les donne à l'accusatif ;
+  - هُوَ مِنْ مَكَّةَ (à propos d'une chemise dans le PDF) devient هِيَ مِنْ مَكَّةَ (à propos d'une personne).
 - **Pronoms هُوَ هِيَ أَنَا أَنْتَ :** ils sont enseignés ici parce que tous les dialogues du livre les emploient. On ne montre ni le tableau complet, ni les suffixes.
 - **Entraîner une voyelle finale :** le validateur refuse deux choix qui ne diffèrent que par les harakat, et le réglage « masquer les harakat » les rendrait identiques. La kasra et la fatha s'entraînent donc par `question` aux choix français, `spot` (le nom qui suit la préposition), `sort` (tranché par la présence de la préposition) et dictée.
 - **Explications ajoutées (données à l'oral, absentes des PDF) :**
   - la kasra devient kasratan sur un nom indéfini après une préposition ;
   - مِنْ → مِنَ devant l'article, le ى de عَلَى et إِلَى, le nom مَجْرُورٌ ;
   - les lieux en مَ (اِسْمُ الْمَكَانِ), la famille مُدَرِّسٌ / مَدْرَسَةٌ ;
-  - les trois marques du nom, et le fait que les pronoms sont des noms définis ;
+  - les marques du nom (tanwin, article, préposition devant le mot : il en existe d'autres), et le fait que les pronoms sont des noms définis ;
+  - la fatha reste un cas de مَجْرُورٌ ; les noms privés de tanwin reprennent la kasra avec l'article ou en annexion ;
+  - مِنْ / مَنْ (mêmes lettres) et مِنَ الْ / مَنِ الْ ;
+  - la voyelle longue finale de فِي, عَلَى, إِلَى devient brève devant l'article ;
+  - le mot interrogatif ouvre la phrase (أَيْنَ ذَهَبَ ؟, مَنْ خَرَجَ ؟) ;
+  - « -ūna » devient « -īna » après une préposition ;
+  - سَمَاءٌ se trouve aussi au masculin en arabe classique ;
   - les conséquences de « privé de tanwin » (fatha après une préposition, noms en ا, pluriels de forme longue) ;
   - أَيْنَ, هٰذَا et ذٰلِكَ ne changent jamais de terminaison ;
   - عَلَمٌ veut aussi dire « drapeau », الْجُمُعَةُ vient de جَمَعَ, ذَهَبَ / ذَهَبٌ ont les mêmes lettres ;
   - عُمَرُ et أَحْمَدُ sont des prénoms d'hommes sans tanwin.
 
-  Elles sont à vérifier par la relecture indépendante (voir le message du commit de la leçon 4).
+  Elles ont été vérifiées par quatre relecteurs indépendants (arabe, exercices, français et pédagogie, fidélité aux PDF et vérité des règles) ; chaque remarque a été contrôlée avant correction.
 
 ## Audio
 
