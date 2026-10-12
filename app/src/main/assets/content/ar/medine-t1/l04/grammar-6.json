@@ -1,0 +1,108 @@
+{
+  "id": "medine-t1.l04.grammar-6",
+  "type": "grammar",
+  "title": "D'où viens-tu ?",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l04.grammar-6#1",
+      "type": "tip",
+      "title": "« D'où ? » : {ar|مِنْ أَيْنَ}",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|مِنْ} (de) + {ar|أَيْنَ} (où) = {ar|مِنْ أَيْنَ} : « d'où ? ». Cette question porte sur l'**origine** d'une personne ou d'une chose." },
+        {
+          "type": "breakdown",
+          "ar": "مِنْ أَيْنَ",
+          "fr": "d'où ?",
+          "parts": [
+            { "ar": "مِنْ", "fr": "de" },
+            { "ar": "أَيْنَ", "fr": "où ?" }
+          ]
+        },
+        { "type": "note", "tone": "warning", "text": "{ar|أَيْنَ} ne change jamais de terminaison : même après une préposition, il garde sa fatha. C'est aussi le cas de {ar|هٰذَا} et de {ar|ذٰلِكَ} : on dit {ar|مِنْ هٰذَا} et {ar|إِلَى ذٰلِكَ}." }
+      ]
+    },
+    { "id": "medine-t1.l04.grammar-6#2", "type": "present", "item": "w:anta" },
+    { "id": "medine-t1.l04.grammar-6#3", "type": "present", "item": "w:ana" },
+    {
+      "id": "medine-t1.l04.grammar-6#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:anta",
+      "distractors": ["w:ana", "w:huwa"]
+    },
+    { "id": "medine-t1.l04.grammar-6#5", "type": "present", "item": "p:min-ayna-anta" },
+    { "id": "medine-t1.l04.grammar-6#6", "type": "present", "item": "p:ana-min-faransa" },
+    {
+      "id": "medine-t1.l04.grammar-6#7",
+      "type": "tip",
+      "title": "Demander et dire d'où l'on vient",
+      "blocks": [
+        { "type": "example", "ar": "مِنْ أَيْنَ أَنْتَ؟", "fr": "D'où viens-tu ?" },
+        { "type": "example", "ar": "أَنَا مِنَ الْيَابَانِ.", "fr": "Je viens du Japon." },
+        { "type": "example", "ar": "مِنْ أَيْنَ مُحَمَّدٌ؟", "fr": "D'où vient Muḥammad ?" },
+        { "type": "example", "ar": "هُوَ مِنَ الْهِنْدِ.", "fr": "Il vient d'Inde." },
+        { "type": "example", "ar": "هِيَ مِنْ مَكَّةَ.", "fr": "Elle vient de La Mecque." },
+        { "type": "note", "text": "Avec l'article, {ar|مِنْ} devient {ar|مِنَ} : {ar|مِنَ الْيَابَانِ}. Sans article, il reste {ar|مِنْ} : {ar|مِنْ فَرَنْسَا}." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.grammar-6#8",
+      "type": "fill_gap",
+      "sentence": "مِنْ {0} أَنْتَ؟ أَنَا مِنْ فَرَنْسَا.",
+      "fr": "D'où viens-tu ? Je viens de France.",
+      "gaps": [{ "answers": ["أَيْنَ"] }],
+      "options": ["أَيْنَ", "مَنْ", "مَا"]
+    },
+    {
+      "id": "medine-t1.l04.grammar-6#9",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} الْهِنْدِ.",
+      "fr": "Je viens de l'Inde.",
+      "gaps": [{ "answers": ["مِنَ"] }],
+      "options": ["مِنَ", "فِي", "إِلَى"]
+    },
+    {
+      "id": "medine-t1.l04.grammar-6#10",
+      "type": "order",
+      "fr": "D'où viens-tu ?",
+      "answers": [["مِنْ", "أَيْنَ", "أَنْتَ"], ["أَنْتَ", "مِنْ", "أَيْنَ"]],
+      "punctuation": "؟",
+      "distractors": ["أَنَا"]
+    },
+    {
+      "id": "medine-t1.l04.grammar-6#11",
+      "type": "order",
+      "fr": "Je viens de France.",
+      "answers": [["أَنَا", "مِنْ", "فَرَنْسَا"], ["مِنْ", "فَرَنْسَا", "أَنَا"]],
+      "punctuation": ".",
+      "distractors": ["أَنْتَ"]
+    },
+    {
+      "id": "medine-t1.l04.grammar-6#12",
+      "type": "question",
+      "context": { "icon": "japan" },
+      "prompt": { "fr": "Tu viens du Japon. Que réponds-tu à {ar|مِنْ أَيْنَ أَنْتَ؟} ?" },
+      "choices": [ { "ar": "أَنَا مِنَ الْيَابَانِ." }, { "ar": "أَنَا فِي الْيَابَانِ." }, { "ar": "أَنَا إِلَى الْيَابَانِ." } ],
+      "answer": 0,
+      "explain": "{ar|مِنْ} indique l'origine : {ar|أَنَا مِنَ الْيَابَانِ} (je viens du Japon). {ar|أَنَا فِي الْيَابَانِ} voudrait dire « je suis au Japon »."
+    },
+    {
+      "id": "medine-t1.l04.grammar-6#13",
+      "type": "typing",
+      "instruction": "Réponds à la question en arabe.",
+      "ask": "question",
+      "question": "مِنْ أَيْنَ أَنْتَ؟",
+      "context": { "icon": "china" },
+      "answers": ["أَنَا مِنَ الصِّينِ.", "مِنَ الصِّينِ."],
+      "fr": "Je viens de Chine."
+    },
+    {
+      "id": "medine-t1.l04.grammar-6#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il vient d'Inde.",
+      "answers": ["هُوَ مِنَ الْهِنْدِ."]
+    }
+  ]
+}

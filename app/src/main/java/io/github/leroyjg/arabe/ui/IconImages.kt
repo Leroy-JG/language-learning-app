@@ -47,6 +47,19 @@ object IconImages {
         "shop" to R.drawable.icon_shop,
         "telescope" to R.drawable.icon_telescope,
         "puzzle" to R.drawable.icon_puzzle,
+        "school" to R.drawable.icon_school,
+        "bath" to R.drawable.icon_bath,
+        "toilet" to R.drawable.icon_toilet,
+        "kitchen" to R.drawable.icon_kitchen,
+        "university" to R.drawable.icon_university,
+        "watch" to R.drawable.icon_watch,
+        "kaaba" to R.drawable.icon_kaaba,
+        "japan" to R.drawable.icon_japan,
+        "france" to R.drawable.icon_france,
+        "china" to R.drawable.icon_china,
+        "india" to R.drawable.icon_india,
+        "philippines" to R.drawable.icon_philippines,
+        "africa" to R.drawable.icon_africa,
     )
 
     @DrawableRes

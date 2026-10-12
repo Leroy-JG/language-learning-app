@@ -1,0 +1,93 @@
+{
+  "id": "medine-t1.l04.grammar-5",
+  "type": "grammar",
+  "title": "Les noms sans tanwin",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l04.grammar-5#1",
+      "type": "tip",
+      "title": "Des noms privés de tanwin",
+      "blocks": [
+        { "type": "paragraph", "text": "Un nom indéfini porte normalement le tanwin ({ar|كِتَابٌ}), et un prénom d'homme aussi ({ar|مُحَمَّدٌ}). Mais **certains noms n'en prennent jamais**. On les appelle {ar|مَمْنُوعٌ مِنَ الصَّرْفِ} : « privés du tanwin »." },
+        { "type": "paragraph", "text": "**La plupart des noms propres féminins** en font partie :" },
+        {
+          "type": "table",
+          "header": ["Nom propre", "Se prononce"],
+          "rows": [
+            ["{ar|عَائِشَةُ}", "ʿāʾishatu"],
+            ["{ar|زَيْنَبُ}", "zaynabu"],
+            ["{ar|فَاطِمَةُ}", "fāṭimatu"],
+            ["{ar|مَكَّةُ}", "makkatu"]
+          ]
+        },
+        { "type": "note", "text": "Ils se terminent par une damma simple ({ar|◌ُ}), jamais par {ar|◌ٌ} : il n'y a pas de « n » à la fin. Il existe d'autres noms privés de tanwin : tu les verras plus tard." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.grammar-5#2",
+      "type": "tip",
+      "title": "Après une préposition : la fatha",
+      "blocks": [
+        { "type": "paragraph", "text": "Un nom privé de tanwin ne prend **pas la kasra** après une préposition : il prend une **fatha**. Compare avec un prénom d'homme, qui a le tanwin :" },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "مَكَّةُ", "fr": "La Mecque" }, "to": { "ar": "فِي مَكَّةَ", "fr": "à La Mecque" } },
+            { "from": { "ar": "فَاطِمَةُ", "fr": "Fāṭima" }, "to": { "ar": "مِنْ فَاطِمَةَ", "fr": "de Fāṭima" } },
+            { "from": { "ar": "عَائِشَةُ", "fr": "ʿĀʾisha" }, "to": { "ar": "إِلَى عَائِشَةَ", "fr": "vers ʿĀʾisha" } },
+            { "from": { "ar": "مُحَمَّدٌ", "fr": "Muḥammad" }, "to": { "ar": "مِنْ مُحَمَّدٍ", "fr": "de Muḥammad" } }
+          ]
+        },
+        { "type": "note", "text": "Les noms qui se terminent par {ar|ا}, comme {ar|فَرَنْسَا}, ne changent pas du tout : {ar|مِنْ فَرَنْسَا}." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.grammar-5#3",
+      "type": "sort",
+      "instruction": "Range chaque nom propre : porte-t-il le tanwin ?",
+      "categories": [ { "fr": "avec tanwin ({ar|◌ٌ})" }, { "fr": "sans tanwin ({ar|◌ُ})" } ],
+      "cards": [
+        { "ar": "مُحَمَّدٌ", "category": 0 },
+        { "ar": "فَاطِمَةُ", "category": 1 },
+        { "ar": "زَيْدٌ", "category": 0 },
+        { "ar": "عَائِشَةُ", "category": 1 },
+        { "ar": "نُوحٌ", "category": 0 },
+        { "ar": "زَيْنَبُ", "category": 1 },
+        { "ar": "عَلِيٌّ", "category": 0 },
+        { "ar": "مَكَّةُ", "category": 1 }
+      ],
+      "explain": "Ces prénoms d'hommes ont le tanwin. Les noms propres féminins, eux, n'en ont pas."
+    },
+    {
+      "id": "medine-t1.l04.grammar-5#4",
+      "type": "question",
+      "prompt": { "fr": "Après la préposition {ar|فِي}, le nom {ar|مَكَّةُ} (sans article) prend…" },
+      "choices": [ { "fr": "une fatha ({ar|◌َ})" }, { "fr": "une kasra ({ar|◌ِ})" }, { "fr": "un tanwin ({ar|◌ٍ})" } ],
+      "answer": 0,
+      "explain": "{ar|مَكَّةُ} est privé de tanwin : après une préposition, il prend la fatha ({ar|فِي مَكَّةَ})."
+    },
+    {
+      "id": "medine-t1.l04.grammar-5#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "à La Mecque",
+      "answers": ["فِي مَكَّةَ"]
+    },
+    { "id": "medine-t1.l04.grammar-5#6", "type": "build", "item": "w:makka", "extra": ["ه"] },
+    {
+      "id": "medine-t1.l04.grammar-5#7",
+      "type": "true_false",
+      "statement": { "fr": "Après une préposition, un nom privé de tanwin (sans article) prend une fatha." },
+      "answer": true,
+      "explain": "C'est le cas de {ar|مَكَّةُ} : {ar|فِي مَكَّةَ}. Les noms qui ont le tanwin prennent, eux, la kasra : {ar|مِنْ مُحَمَّدٍ}."
+    },
+    {
+      "id": "medine-t1.l04.grammar-5#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Fāṭima est en France.",
+      "answers": ["فَاطِمَةُ فِي فَرَنْسَا."]
+    }
+  ]
+}

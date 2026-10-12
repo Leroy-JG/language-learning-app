@@ -1,0 +1,87 @@
+{
+  "id": "medine-t1.l04.dialogue-2",
+  "type": "dialogue",
+  "title": "En classe",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t1.l04.dialogue-2#1",
+      "type": "dialogue",
+      "title": "D'où viens-tu ?",
+      "intro": "L'enseignant interroge Muḥammad sur ses camarades de classe.",
+      "speakers": {
+        "A": { "name": "L'enseignant", "voice": "m1" },
+        "B": { "name": "Muḥammad", "voice": "m2" }
+      },
+      "lines": [
+        { "speaker": "A", "ar": "مِنْ أَيْنَ أَنْتَ؟", "fr": "D'où viens-tu ?" },
+        { "speaker": "B", "ar": "أَنَا مِنَ الْيَابَانِ.", "fr": "Je viens du Japon." },
+        { "speaker": "A", "ar": "وَمِنْ أَيْنَ عَمَّارٌ؟", "fr": "Et d'où vient ʿAmmār ?" },
+        { "speaker": "B", "ar": "هُوَ مِنَ الصِّينِ.", "fr": "Il vient de Chine." },
+        { "speaker": "A", "ar": "وَمِنْ أَيْنَ حَامِدٌ؟", "fr": "Et d'où vient Ḥāmid ?" },
+        { "speaker": "B", "ar": "هُوَ مِنَ الْهِنْدِ.", "fr": "Il vient d'Inde." },
+        { "speaker": "A", "ar": "أَيْنَ عَبَّاسٌ؟", "fr": "Où est ʿAbbās ?" },
+        { "speaker": "B", "ar": "خَرَجَ.", "fr": "Il est sorti." },
+        { "speaker": "A", "ar": "أَيْنَ ذَهَبَ؟", "fr": "Où est-il allé ?" },
+        { "speaker": "B", "ar": "ذَهَبَ إِلَى الْمُدِيرِ.", "fr": "Il est allé chez le directeur." },
+        { "speaker": "A", "ar": "وَأَيْنَ ذَهَبَ عَلِيٌّ؟", "fr": "Et où est allé ʿAlī ?" },
+        { "speaker": "B", "ar": "ذَهَبَ إِلَى الْمِرْحَاضِ.", "fr": "Il est allé aux toilettes." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.dialogue-2#2",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l04.dialogue-2#1" },
+      "prompt": { "fr": "D'où vient Muḥammad ?" },
+      "choices": [ { "fr": "Du Japon" }, { "fr": "De Chine" }, { "fr": "D'Inde" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l04.dialogue-2#3",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l04.dialogue-2#1" },
+      "prompt": { "fr": "Qui vient de Chine ?" },
+      "choices": [ { "fr": "ʿAmmār" }, { "fr": "Ḥāmid" }, { "fr": "ʿAbbās" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l04.dialogue-2#4",
+      "type": "true_false",
+      "context": { "dialogue": "medine-t1.l04.dialogue-2#1" },
+      "statement": { "fr": "ʿAbbās est sorti de la classe." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l04.dialogue-2#5",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l04.dialogue-2#1" },
+      "prompt": { "fr": "Où est allé ʿAlī ?" },
+      "choices": [ { "fr": "Aux toilettes" }, { "fr": "Chez le directeur" }, { "fr": "À la mosquée" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l04.dialogue-2#6",
+      "type": "order",
+      "fr": "Il est allé chez le directeur.",
+      "answers": [["ذَهَبَ", "إِلَى", "الْمُدِيرِ"]],
+      "punctuation": ".",
+      "distractors": ["خَرَجَ"]
+    },
+    {
+      "id": "medine-t1.l04.dialogue-2#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "وَمِنْ أَيْنَ حَامِدٌ؟",
+      "context": { "dialogue": "medine-t1.l04.dialogue-2#1" },
+      "answers": ["هُوَ مِنَ الْهِنْدِ.", "مِنَ الْهِنْدِ."],
+      "fr": "Il vient d'Inde."
+    },
+    {
+      "id": "medine-t1.l04.dialogue-2#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il est allé aux toilettes.",
+      "answers": ["ذَهَبَ إِلَى الْمِرْحَاضِ."]
+    }
+  ]
+}

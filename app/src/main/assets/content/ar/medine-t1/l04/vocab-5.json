@@ -1,0 +1,121 @@
+{
+  "id": "medine-t1.l04.vocab-5",
+  "type": "vocabulary",
+  "title": "Sortir et aller",
+  "icon": "door",
+  "screens": [
+    {
+      "id": "medine-t1.l04.vocab-5#1",
+      "type": "tip",
+      "title": "Deux verbes au passé",
+      "blocks": [
+        { "type": "paragraph", "text": "Tu connais les trois formes du verbe : le passé ({ar|الْمَاضِي}), le présent ou futur ({ar|الْمُضَارِعُ}) et l'impératif ({ar|الْأَمْرُ}). Voici deux verbes très utiles." },
+        { "type": "paragraph", "text": "On cite un verbe **au passé, à la troisième personne du masculin singulier** : {ar|خَرَجَ} veut dire « il est sorti »." }
+      ]
+    },
+    { "id": "medine-t1.l04.vocab-5#2", "type": "present", "item": "w:kharaja" },
+    { "id": "medine-t1.l04.vocab-5#3", "type": "present", "item": "w:dhahaba" },
+    {
+      "id": "medine-t1.l04.vocab-5#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kharaja",
+      "distractors": ["w:dhahaba", "w:ila"]
+    },
+    {
+      "id": "medine-t1.l04.vocab-5#5",
+      "type": "tip",
+      "title": "Les formes de ces deux verbes",
+      "blocks": [
+        { "type": "paragraph", "text": "Le verbe {ar|خَرَجَ} (sortir) :" },
+        {
+          "type": "table",
+          "header": ["Forme", "Arabe", "Sens"],
+          "rows": [
+            ["{ar|الْمَاضِي} (passé)", "{ar|خَرَجَ}", "il est sorti"],
+            ["{ar|الْمُضَارِعُ} (présent, futur)", "{ar|يَخْرُجُ}", "il sort, il sortira"],
+            ["{ar|الْأَمْرُ} (impératif)", "{ar|اُخْرُجْ}", "sors ! (à un homme)"],
+            ["{ar|الْمَصْدَرُ} (nom d'action)", "{ar|خُرُوجٌ}", "le fait de sortir"]
+          ]
+        },
+        { "type": "paragraph", "text": "Le verbe {ar|ذَهَبَ} (aller) :" },
+        {
+          "type": "table",
+          "header": ["Forme", "Arabe", "Sens"],
+          "rows": [
+            ["{ar|الْمَاضِي} (passé)", "{ar|ذَهَبَ}", "il est allé"],
+            ["{ar|الْمُضَارِعُ} (présent, futur)", "{ar|يَذْهَبُ}", "il va, il ira"],
+            ["{ar|الْأَمْرُ} (impératif)", "{ar|اِذْهَبْ}", "va ! (à un homme)"],
+            ["{ar|الْمَصْدَرُ} (nom d'action)", "{ar|ذَهَابٌ}", "le fait d'aller"]
+          ]
+        },
+        { "type": "note", "text": "Le {ar|الْمَصْدَرُ} est un nom : il désigne l'action elle-même." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.vocab-5#6",
+      "type": "tip",
+      "title": "Le verbe peut ouvrir la phrase",
+      "blocks": [
+        { "type": "paragraph", "text": "Une phrase peut commencer par le **verbe**. Celui qui fait l'action vient ensuite, avec la **damma** :" },
+        { "type": "example", "ar": "خَرَجَ مُحَمَّدٌ مِنَ الْمَدْرَسَةِ.", "fr": "Muḥammad est sorti de l'école." },
+        { "type": "example", "ar": "ذَهَبَ الْمُدَرِّسُ إِلَى الْمَسْجِدِ.", "fr": "L'enseignant est allé à la mosquée." },
+        { "type": "paragraph", "text": "Le verbe contient déjà le « il » : on peut donc dire simplement :" },
+        { "type": "example", "ar": "ذَهَبَ إِلَى الْمُدِيرِ.", "fr": "Il est allé chez le directeur." },
+        { "type": "note", "text": "{ar|خَرَجَ} s'emploie avec {ar|مِنْ} (sortir **de**), et {ar|ذَهَبَ} avec {ar|إِلَى} (aller **à**)." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.vocab-5#7",
+      "type": "order",
+      "fr": "L'enseignant est sorti de la classe.",
+      "answers": [["خَرَجَ", "الْمُدَرِّسُ", "مِنَ", "الْفَصْلِ"], ["الْمُدَرِّسُ", "خَرَجَ", "مِنَ", "الْفَصْلِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l04.vocab-5#8",
+      "type": "fill_gap",
+      "sentence": "خَرَجَ مُحَمَّدٌ {0} الْمَدْرَسَةِ.",
+      "fr": "Muḥammad est sorti de l'école.",
+      "gaps": [{ "answers": ["مِنَ"] }],
+      "options": ["مِنَ", "فِي", "عَلَى"]
+    },
+    {
+      "id": "medine-t1.l04.vocab-5#9",
+      "type": "fill_gap",
+      "sentence": "ذَهَبَ الْوَلَدُ {0} الْمَسْجِدِ.",
+      "fr": "Le garçon est allé à la mosquée.",
+      "gaps": [{ "answers": ["إِلَى"] }],
+      "options": ["إِلَى", "مِنَ", "عَلَى"]
+    },
+    {
+      "id": "medine-t1.l04.vocab-5#10",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|ذَهَبَ} ?" },
+      "choices": [ { "fr": "il est allé" }, { "fr": "il est sorti" }, { "fr": "il a écrit" } ],
+      "answer": 0
+    },
+    { "id": "medine-t1.l04.vocab-5#11", "type": "build", "item": "w:dhahaba", "extra": ["د"] },
+    {
+      "id": "medine-t1.l04.vocab-5#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il est allé à la mosquée.",
+      "answers": ["ذَهَبَ إِلَى الْمَسْجِدِ."]
+    },
+    {
+      "id": "medine-t1.l04.vocab-5#13",
+      "type": "true_false",
+      "statement": { "fr": "{ar|ذَهَبَ} (il est allé) et {ar|ذَهَبٌ} (l'or) s'écrivent avec les mêmes lettres." },
+      "answer": true,
+      "explain": "Seules les voyelles les distinguent : {ar|ذَهَبَ} est un verbe, et {ar|ذَهَبٌ} est un nom (le tanwin le montre)."
+    },
+    {
+      "id": "medine-t1.l04.vocab-5#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'enseignant est sorti de la classe.",
+      "answers": ["خَرَجَ الْمُدَرِّسُ مِنَ الْفَصْلِ."]
+    }
+  ]
+}

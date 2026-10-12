@@ -1,0 +1,113 @@
+{
+  "id": "medine-t1.l04.grammar-3",
+  "type": "grammar",
+  "title": "Les noms propres",
+  "icon": "boy",
+  "screens": [
+    {
+      "id": "medine-t1.l04.grammar-3#1",
+      "type": "tip",
+      "title": "Les noms propres : {ar|الْعَلَمُ}",
+      "blocks": [
+        { "type": "paragraph", "text": "Un **nom propre** ({ar|الْعَلَمُ}) désigne **une personne en particulier** ou **un lieu précis**." },
+        {
+          "type": "table",
+          "header": ["Un nom propre est…", "Exemples"],
+          "rows": [
+            ["**défini** ({ar|مَعْرِفَةٌ}), même sans article", "{ar|مُحَمَّدٌ}, {ar|مَكَّةُ}"],
+            ["**masculin** ({ar|مُذَكَّرٌ}) ou **féminin** ({ar|مُؤَنَّثٌ})", "{ar|مُحَمَّدٌ} (masculin), {ar|فَاطِمَةُ} (féminin)"],
+            ["de **plusieurs sortes**", "des prénoms, des villes, des pays…"]
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t1.l04.grammar-3#2", "type": "present", "item": "w:alam" },
+    {
+      "id": "medine-t1.l04.grammar-3#3",
+      "type": "true_false",
+      "statement": { "fr": "Un nom propre est défini, même sans l'article." },
+      "answer": true,
+      "explain": "Il désigne une personne ou un lieu précis : c'est un nom défini ({ar|مَعْرِفَةٌ}), sans avoir besoin de l'article."
+    },
+    {
+      "id": "medine-t1.l04.grammar-3#4",
+      "type": "tip",
+      "title": "Des noms propres dans des phrases",
+      "blocks": [
+        { "type": "example", "ar": "هٰذَا مُحَمَّدٌ.", "fr": "C'est Muḥammad." },
+        { "type": "example", "ar": "زَيْدٌ فِي مَكَّةَ.", "fr": "Zayd est à La Mecque." },
+        { "type": "example", "ar": "فَاطِمَةُ فِي فَرَنْسَا.", "fr": "Fāṭima est en France." },
+        { "type": "example", "ar": "نُوحٌ فِي الْمَسْجِدِ.", "fr": "Nūḥ est dans la mosquée." },
+        { "type": "note", "text": "Un nom propre n'a pas besoin de l'article : il est défini par lui-même." },
+        { "type": "note", "tone": "warning", "text": "Après {ar|فِي}, {ar|مَكَّةُ} se termine par une fatha ({ar|مَكَّةَ}), et non par une kasra. Tu verras pourquoi dans l'activité sur les noms sans tanwin." }
+      ]
+    },
+    { "id": "medine-t1.l04.grammar-3#5", "type": "present", "item": "w:makka" },
+    {
+      "id": "medine-t1.l04.grammar-3#6",
+      "type": "spot",
+      "instruction": "Touche les noms propres.",
+      "words": ["نُوحٌ", "وَزَيْدٌ", "فِي", "الْمَسْجِدِ."],
+      "answers": [0, 1],
+      "fr": "Nūḥ et Zayd sont dans la mosquée.",
+      "explain": "{ar|نُوحٌ} et {ar|زَيْدٌ} sont des prénoms. {ar|الْمَسْجِدِ} est un nom commun défini par l'article, pas un nom propre, et {ar|فِي} est une préposition."
+    },
+    {
+      "id": "medine-t1.l04.grammar-3#7",
+      "type": "tip",
+      "title": "Les noms définis que tu connais",
+      "blocks": [
+        { "type": "paragraph", "text": "Un nom défini ({ar|مَعْرِفَةٌ}) peut être de plusieurs sortes. Voici celles que tu as rencontrées :" },
+        {
+          "type": "table",
+          "header": ["Sorte de nom défini", "Exemples"],
+          "rows": [
+            ["le nom propre ({ar|الْعَلَمُ})", "{ar|مُحَمَّدٌ}, {ar|مَكَّةُ}"],
+            ["le nom démonstratif ({ar|اِسْمُ الْإِشَارَةِ})", "{ar|هٰذَا}, {ar|ذٰلِكَ}"],
+            ["le nom avec l'article ({ar|الْمُعَرَّفُ بِأَلْ})", "{ar|الْكِتَابُ}, {ar|الْبَيْتُ}"],
+            ["le pronom ({ar|الضَّمِيرُ})", "{ar|هُوَ}, {ar|هِيَ}"]
+          ]
+        },
+        { "type": "note", "text": "Il existe d'autres sortes de noms définis : tu les verras plus tard." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.grammar-3#8",
+      "type": "sort",
+      "instruction": "Range chaque nom défini selon sa sorte.",
+      "categories": [ { "fr": "nom propre" }, { "fr": "nom démonstratif" }, { "fr": "nom avec l'article {ar|الْ}" } ],
+      "cards": [
+        { "ar": "مُحَمَّدٌ", "category": 0 },
+        { "item": "w:hadha", "category": 1 },
+        { "ar": "الْمَسْجِدُ", "category": 2 },
+        { "ar": "فَاطِمَةُ", "category": 0 },
+        { "item": "w:dhalika", "category": 1 },
+        { "ar": "الْكِتَابُ", "category": 2 },
+        { "item": "w:makka", "category": 0 },
+        { "ar": "الْقَلَمُ", "category": 2 }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.grammar-3#9",
+      "type": "question",
+      "prompt": { "fr": "Lequel de ces mots est un nom propre ?" },
+      "choices": [ { "ar": "زَيْدٌ" }, { "ar": "كِتَابٌ" }, { "ar": "الْبَيْتُ" } ],
+      "answer": 0,
+      "explain": "{ar|زَيْدٌ} (Zayd) est un prénom. {ar|كِتَابٌ} est indéfini, et {ar|الْبَيْتُ} est défini par l'article."
+    },
+    {
+      "id": "medine-t1.l04.grammar-3#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "C'est Muḥammad.",
+      "answers": ["هٰذَا مُحَمَّدٌ."]
+    },
+    {
+      "id": "medine-t1.l04.grammar-3#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd est à La Mecque.",
+      "answers": ["زَيْدٌ فِي مَكَّةَ."]
+    }
+  ]
+}

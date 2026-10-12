@@ -1,0 +1,58 @@
+{
+  "id": "medine-t1.l04.vocab-4",
+  "type": "vocabulary",
+  "title": "L'école, la ville et le ciel",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t1.l04.vocab-4#1", "type": "present", "item": "w:madrasa" },
+    { "id": "medine-t1.l04.vocab-4#2", "type": "present", "item": "w:fasl" },
+    { "id": "medine-t1.l04.vocab-4#3", "type": "present", "item": "w:jamia" },
+    {
+      "id": "medine-t1.l04.vocab-4#4",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:madrasa",
+      "distractors": ["w:jamia", "w:masjid"]
+    },
+    { "id": "medine-t1.l04.vocab-4#5", "type": "present", "item": "w:mudir" },
+    { "id": "medine-t1.l04.vocab-4#6", "type": "present", "item": "w:suq" },
+    { "id": "medine-t1.l04.vocab-4#7", "type": "present", "item": "w:dukkan" },
+    {
+      "id": "medine-t1.l04.vocab-4#8",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:dukkan",
+      "distractors": ["w:madrasa", "w:jamia"]
+    },
+    { "id": "medine-t1.l04.vocab-4#9", "type": "present", "item": "w:sama" },
+    {
+      "id": "medine-t1.l04.vocab-4#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:madrasa", "w:jamia", "w:mudir", "w:suq", "w:dukkan"]
+    },
+    {
+      "id": "medine-t1.l04.vocab-4#11",
+      "type": "fill_gap",
+      "sentence": "التَّاجِرُ فِي {0}.",
+      "fr": "Le commerçant est dans la boutique.",
+      "gaps": [{ "answers": ["الدُّكَّانِ"] }],
+      "options": ["الدُّكَّانِ", "الْفَصْلِ", "الْجَامِعَةِ"]
+    },
+    {
+      "id": "medine-t1.l04.vocab-4#12",
+      "type": "mcq",
+      "mode": "audio-ar",
+      "item": "w:sama",
+      "distractors": ["w:suq", "w:fasl"]
+    },
+    { "id": "medine-t1.l04.vocab-4#13", "type": "typing", "ask": "fr", "item": "w:jamia" },
+    {
+      "id": "medine-t1.l04.vocab-4#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les étoiles sont dans le ciel.",
+      "answers": ["النُّجُومُ فِي السَّمَاءِ."]
+    }
+  ]
+}

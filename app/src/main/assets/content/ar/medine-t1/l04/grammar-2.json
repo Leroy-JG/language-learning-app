@@ -1,0 +1,107 @@
+{
+  "id": "medine-t1.l04.grammar-2",
+  "type": "grammar",
+  "title": "Où est… ?",
+  "icon": "question",
+  "screens": [
+    { "id": "medine-t1.l04.grammar-2#1", "type": "present", "item": "w:ayna" },
+    { "id": "medine-t1.l04.grammar-2#2", "type": "present", "item": "p:ayna-al-kitab" },
+    {
+      "id": "medine-t1.l04.grammar-2#3",
+      "type": "tip",
+      "title": "Demander où est quelque chose",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|أَيْنَ} veut dire « où ? ». Pour demander où se trouve une chose ou une personne, on le place **devant le nom défini** :" },
+        { "type": "example", "ar": "أَيْنَ الْكِتَابُ؟", "fr": "Où est le livre ?" },
+        { "type": "example", "ar": "أَيْنَ مُحَمَّدٌ؟", "fr": "Où est Muḥammad ?" },
+        { "type": "paragraph", "text": "Comme dans {ar|الْقَلَمُ مَكْسُورٌ}, il n'y a **pas de verbe « être »**. Pour répondre, on dit où se trouve la chose avec une **préposition** :" },
+        { "type": "example", "ar": "الْكِتَابُ عَلَى الْمَكْتَبِ.", "fr": "Le livre est sur le bureau." },
+        { "type": "example", "ar": "مُحَمَّدٌ فِي الْغُرْفَةِ.", "fr": "Muḥammad est dans la chambre." },
+        { "type": "note", "text": "Un nom défini suivi de « préposition + nom » forme une phrase complète." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.grammar-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ayna",
+      "distractors": ["w:ma", "w:man"]
+    },
+    { "id": "medine-t1.l04.grammar-2#5", "type": "present", "item": "w:huwa" },
+    { "id": "medine-t1.l04.grammar-2#6", "type": "present", "item": "w:hiya" },
+    {
+      "id": "medine-t1.l04.grammar-2#7",
+      "type": "tip",
+      "title": "Il ou elle ?",
+      "blocks": [
+        { "type": "paragraph", "text": "Pour ne pas répéter le nom, on le remplace par un **pronom** ({ar|ضَمِيرٌ}) : {ar|هُوَ} pour un nom **masculin**, {ar|هِيَ} pour un nom **féminin**." },
+        {
+          "type": "table",
+          "header": ["Le nom", "Genre", "Pronom"],
+          "rows": [
+            ["{ar|الْكِتَابُ}", "masculin", "{ar|هُوَ}"],
+            ["{ar|مُحَمَّدٌ}", "masculin", "{ar|هُوَ}"],
+            ["{ar|السَّاعَةُ}", "féminin", "{ar|هِيَ}"],
+            ["{ar|الْغُرْفَةُ}", "féminin", "{ar|هِيَ}"]
+          ]
+        },
+        { "type": "example", "ar": "أَيْنَ السَّاعَةُ؟ هِيَ عَلَى السَّرِيرِ.", "fr": "Où est la montre ? Elle est sur le lit." },
+        { "type": "note", "tone": "warning", "text": "Le genre d'un mot arabe n'est pas toujours celui du mot français : {ar|شَمْسٌ} (le soleil) est féminin en arabe, donc on dit {ar|هِيَ}." },
+        { "type": "note", "text": "Les pronoms font partie des noms définis ({ar|مَعَارِفُ}). Tu en découvriras d'autres plus tard." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.grammar-2#8",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ السَّاعَةُ؟ {0} عَلَى السَّرِيرِ.",
+      "fr": "Où est la montre ? Elle est sur le lit.",
+      "gaps": [{ "answers": ["هِيَ"] }],
+      "options": ["هُوَ", "هِيَ"],
+      "explain": "{ar|السَّاعَةُ} se termine par {ar|ة} : c'est un nom féminin, donc on dit {ar|هِيَ}."
+    },
+    {
+      "id": "medine-t1.l04.grammar-2#9",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ الْقَلَمُ؟ {0} عَلَى الْمَكْتَبِ.",
+      "fr": "Où est le stylo ? Il est sur le bureau.",
+      "gaps": [{ "answers": ["هُوَ"] }],
+      "options": ["هُوَ", "هِيَ"]
+    },
+    {
+      "id": "medine-t1.l04.grammar-2#10",
+      "type": "order",
+      "fr": "Où est Muḥammad ? Il est dans la chambre.",
+      "answers": [["أَيْنَ", "مُحَمَّدٌ؟", "هُوَ", "فِي", "الْغُرْفَةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l04.grammar-2#11",
+      "type": "order",
+      "fr": "Elle est sur le lit.",
+      "answers": [["هِيَ", "عَلَى", "السَّرِيرِ"]],
+      "punctuation": ".",
+      "distractors": ["هُوَ"]
+    },
+    {
+      "id": "medine-t1.l04.grammar-2#12",
+      "type": "true_false",
+      "statement": { "fr": "{ar|أَيْنَ} sert à demander où se trouve une personne ou une chose." },
+      "answer": true,
+      "explain": "{ar|أَيْنَ} est le nom interrogatif des lieux. Pour demander « qui ? », on utilise {ar|مَنْ}."
+    },
+    {
+      "id": "medine-t1.l04.grammar-2#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Où est le livre ?",
+      "answers": ["أَيْنَ الْكِتَابُ؟"]
+    },
+    {
+      "id": "medine-t1.l04.grammar-2#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il est sur le bureau.",
+      "answers": ["هُوَ عَلَى الْمَكْتَبِ."]
+    }
+  ]
+}

@@ -108,14 +108,31 @@ la plus claire de la montrer, puis la plus efficace de l'entraîner ?**
 3. Varier d'une leçon à l'autre : un chapitre doit contenir au moins un jeu (`memory`, `sort`, `build` ou `spot`) en plus des exercices classiques.
 4. Écrire le plan du chapitre (parties, activités, outils choisis) avant le JSON.
 
-Exemples tirés des leçons 1 à 3 :
+Exemples tirés des leçons 1 à 4 :
 - `sort` مَا / مَنْ dans `l01/grammar-3` ;
 - `memory` des animaux dans `l01/vocab-5` ;
 - `build` de مِفْتَاحٌ dans `l01/vocab-2` ;
 - `gallery` dans `l02/recap` ;
 - `compare` et `breakdown` de l'article dans `l03/grammar-2` ;
 - `spot` de l'article dans `l03/grammar-3` ;
-- `sort` lunaire / solaire dans `l03/practice-1`.
+- `sort` lunaire / solaire dans `l03/practice-1` ;
+- `compare` de la kasra après une préposition dans `l04/grammar-1` ;
+- `sort` à trois catégories (nom propre / démonstratif / article) dans `l04/grammar-3` ;
+- `breakdown` de مِنْ أَيْنَ dans `l04/grammar-6` ;
+- `memory` des pays, avec les drapeaux, dans `l04/vocab-3` ;
+- `build` de إِلَى (le ى, pas le ي) dans `l04/vocab-1` et de مَكَّةُ (le ة, pas le ه) dans `l04/grammar-5`.
+
+### Entraîner une voyelle finale (kasra, fatha…)
+
+Le validateur refuse deux choix qui ne diffèrent que par les harakat (`الْبَيْتِ` / `الْبَيْتُ`), et le
+réglage « masquer les harakat » les rendrait identiques. Pour faire travailler une terminaison :
+- montrer la transformation avec `compare` (dans une astuce, où les harakat ne sont jamais masqués) ;
+- poser la question en français avec `question` (« une kasra / une damma / une fatha ») ;
+- faire repérer avec `spot` (« touche le nom qui suit la préposition ») ;
+- ranger avec `sort` en choisissant des cartes dont la catégorie se déduit du reste du texte (la
+  présence d'une préposition) : l'exercice reste juste même avec les harakat masquées ;
+- faire écrire en dictée avec `typing` (la correction tolère les harakat absentes, et signale celles
+  qui sont fausses).
 
 ---
 

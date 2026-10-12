@@ -1,0 +1,33 @@
+{
+  "id": "medine-t1.l04",
+  "number": 4,
+  "title": { "ar": "الدَّرْسُ الرَّابِعُ", "fr": "Où ? : les prépositions et les noms propres" },
+  "description": "Dire où se trouve une chose avec {ar|فِي} et {ar|عَلَى}, demander « où ? » et « d'où ? », découvrir les noms propres, le tanwin et la terminaison qui change après une préposition.",
+  "source": "Tome de Médine 1, leçon 4 (parties 1 à 3)",
+  "sections": [
+    {
+      "title": "Les prépositions {ar|حُرُوفُ الْجَرِّ}",
+      "activities": ["grammar-1", "vocab-1"]
+    },
+    {
+      "title": "Où est… ? {ar|أَيْنَ}",
+      "activities": ["vocab-2", "grammar-2", "dialogue-1"]
+    },
+    {
+      "title": "Les noms propres et le tanwin",
+      "activities": ["grammar-3", "grammar-4", "grammar-5", "practice-1"]
+    },
+    {
+      "title": "D'où viens-tu ? {ar|مِنْ أَيْنَ}",
+      "activities": ["vocab-3", "grammar-6", "vocab-4", "vocab-5", "dialogue-2", "practice-2"]
+    },
+    {
+      "title": "Classer les mots et les pluriels",
+      "activities": ["grammar-7", "plurals-1"]
+    },
+    {
+      "title": "Bilan du chapitre",
+      "activities": ["quiz"]
+    }
+  ]
+}

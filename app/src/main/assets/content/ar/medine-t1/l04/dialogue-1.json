@@ -1,0 +1,89 @@
+{
+  "id": "medine-t1.l04.dialogue-1",
+  "type": "dialogue",
+  "title": "À la maison",
+  "icon": "house",
+  "screens": [
+    {
+      "id": "medine-t1.l04.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Où sont-ils ?",
+      "intro": "Ḥāmid cherche les personnes et les objets de la maison. Maryam lui répond.",
+      "speakers": {
+        "A": { "name": "Ḥāmid", "voice": "m1" },
+        "B": { "name": "Maryam", "voice": "f1" }
+      },
+      "lines": [
+        { "speaker": "A", "ar": "أَيْنَ مُحَمَّدٌ؟", "fr": "Où est Muḥammad ?" },
+        { "speaker": "B", "ar": "هُوَ فِي الْغُرْفَةِ.", "fr": "Il est dans la chambre." },
+        { "speaker": "A", "ar": "وَأَيْنَ يَاسِرٌ؟", "fr": "Et où est Yāsir ?" },
+        { "speaker": "B", "ar": "هُوَ فِي الْحَمَّامِ.", "fr": "Il est dans la salle de bain." },
+        { "speaker": "A", "ar": "وَأَيْنَ آمِنَةُ؟", "fr": "Et où est Āmina ?" },
+        { "speaker": "B", "ar": "هِيَ فِي الْمَطْبَخِ.", "fr": "Elle est dans la cuisine." },
+        { "speaker": "A", "ar": "أَيْنَ الْكِتَابُ؟", "fr": "Où est le livre ?" },
+        { "speaker": "B", "ar": "هُوَ عَلَى الْمَكْتَبِ.", "fr": "Il est sur le bureau." },
+        { "speaker": "A", "ar": "وَأَيْنَ السَّاعَةُ؟", "fr": "Et où est la montre ?" },
+        { "speaker": "B", "ar": "هِيَ عَلَى السَّرِيرِ.", "fr": "Elle est sur le lit." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.dialogue-1#2",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l04.dialogue-1#1" },
+      "prompt": { "fr": "Où est Muḥammad ?" },
+      "choices": [ { "fr": "Dans la chambre" }, { "fr": "Dans la salle de bain" }, { "fr": "Dans la cuisine" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l04.dialogue-1#3",
+      "type": "true_false",
+      "context": { "dialogue": "medine-t1.l04.dialogue-1#1" },
+      "statement": { "fr": "La montre est sur le bureau." },
+      "answer": false,
+      "explain": "La montre est sur le lit : {ar|هِيَ عَلَى السَّرِيرِ}. C'est le livre qui est sur le bureau."
+    },
+    {
+      "id": "medine-t1.l04.dialogue-1#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ مُحَمَّدٌ؟",
+      "context": { "dialogue": "medine-t1.l04.dialogue-1#1" },
+      "answers": ["هُوَ فِي الْغُرْفَةِ.", "فِي الْغُرْفَةِ."],
+      "fr": "Il est dans la chambre."
+    },
+    {
+      "id": "medine-t1.l04.dialogue-1#5",
+      "type": "order",
+      "fr": "Elle est dans la cuisine.",
+      "answers": [["هِيَ", "فِي", "الْمَطْبَخِ"]],
+      "punctuation": ".",
+      "distractors": ["هُوَ"]
+    },
+    {
+      "id": "medine-t1.l04.dialogue-1#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيَاسِرٌ فِي الْمَطْبَخِ؟",
+      "context": { "dialogue": "medine-t1.l04.dialogue-1#1" },
+      "answers": ["لَا، هُوَ فِي الْحَمَّامِ.", "لَا، فِي الْحَمَّامِ.", "لَا، يَاسِرٌ فِي الْحَمَّامِ."],
+      "fr": "Non, il est dans la salle de bain."
+    },
+    {
+      "id": "medine-t1.l04.dialogue-1#7",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l04.dialogue-1#1" },
+      "prompt": { "fr": "Qui est dans la salle de bain ?" },
+      "choices": [ { "fr": "Yāsir" }, { "fr": "Muḥammad" }, { "fr": "Āmina" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l04.dialogue-1#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ فِي الْغُرْفَةِ؟",
+      "context": { "dialogue": "medine-t1.l04.dialogue-1#1" },
+      "answers": ["مُحَمَّدٌ.", "مُحَمَّدٌ فِي الْغُرْفَةِ.", "هُوَ مُحَمَّدٌ."],
+      "fr": "Muḥammad."
+    }
+  ]
+}
