@@ -32,7 +32,7 @@
             ["{ar|◌ِ}", "{ar|◌ٍ}", "{ar|الْكَسْرَةُ} (kasra)"]
           ]
         },
-        { "type": "note", "text": "Pour un nom, ces trois états s'appellent {ar|الرَّفْعُ} (la damma), {ar|النَّصْبُ} (la fatha) et {ar|الْجَرُّ} (la kasra)." },
+        { "type": "note", "text": "Pour un nom, ces trois cas s'appellent {ar|الرَّفْعُ}, {ar|النَّصْبُ} et {ar|الْجَرُّ} ; leurs marques habituelles sont la damma, la fatha et la kasra." },
         { "type": "paragraph", "text": "Tu connais déjà la damma ({ar|هٰذَا كِتَابٌ}). Dans ce chapitre, tu découvres la **kasra**. La fatha viendra plus tard." }
       ]
     },

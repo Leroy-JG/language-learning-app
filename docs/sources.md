@@ -57,21 +57,21 @@ Supports utilisés pour les leçons 1 à 4 :
   - les parties du corps qui vont par paire sont féminines pour la plupart.
 
 **Leçon 4** (`l04`) :
-- الْإِعْرَابُ : la terminaison change selon la place du mot (trois voyelles finales, avec ou sans tanwin) ;
+- الْإِعْرَابُ : la terminaison change selon le rôle du mot (trois voyelles finales, avec ou sans tanwin) ;
 - les prépositions (حُرُوفُ الْجَرِّ) :
   - فِي عَلَى مِنْ إِلَى avec leurs sens ;
-  - le nom qui suit prend la kasra (◌ُ → ◌ِ, ◌ٌ → ◌ٍ) ;
+  - le nom qui suit prend en général la kasra (◌ُ → ◌ِ, ◌ٌ → ◌ٍ) ;
   - مِنْ devient مِنَ devant l'article ;
   - le ى final de عَلَى et إِلَى ;
 - la phrase sans verbe « nom défini + préposition + nom » (الْكِتَابُ عَلَى الْمَكْتَبِ) ;
 - أَيْنَ (invariable) et مِنْ أَيْنَ ;
 - les pronoms هُوَ هِيَ أَنَا أَنْتَ (et أَنْتِ, signalé) : ce sont des noms définis, هُوَ / هِيَ suivent le genre du nom remplacé ;
 - les noms propres (الْعَلَمُ) et les quatre sortes de noms définis vues jusqu'ici (nom propre, démonstratif, avec الْ, pronom) ;
-- le tanwin (définition, marque du nom) et les trois marques du nom (tanwin, article, pouvoir suivre une préposition) ;
+- le tanwin (définition, marque du nom) et plusieurs marques du nom, dont trois sont citées (tanwin, article, pouvoir suivre une préposition) ;
 - les noms privés de tanwin (مَمْنُوعٌ مِنَ الصَّرْفِ) :
   - la plupart des noms propres féminins, et les pluriels de forme « longue » (مَدَارِسُ, مَرَاحِيضُ…) ;
   - ils prennent une fatha après une préposition (فِي مَكَّةَ) ;
-  - les noms en ا ne changent pas (فَرَنْسَا) ;
+  - les noms étrangers en alif long ne changent pas à l'écrit (فَرَنْسَا) ;
 - les noms de lieux en مَ (اِسْمُ الْمَكَانِ), repérés dans مَسْجِدٌ مَكْتَبٌ مَطْبَخٌ مَدْرَسَةٌ ;
 - le verbe خَرَجَ et le verbe ذَهَبَ (passé, présent, impératif, nom d'action) ;
 - la phrase verbale (le verbe d'abord, le sujet à la damma ; le « il » est dans le verbe) ;
@@ -106,7 +106,7 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin.
 
 - **Exercices du livre repris :**
   - exercice 1 (questions 1 à 9) → `dialogue-1` ;
-  - exercice 2 (voyelles finales) → `practice-3` (le mot الْمَدْرَسَةُ y est remplacé par الْغُرْفَةُ, car l'école n'est présentée que plus loin) ;
+  - exercice 2 (voyelles finales) → `practice-3` (la paire الْمَدْرَسَةُ / فِي الْمَدْرَسَةِ du livre est omise, car l'école n'est présentée que plus loin ; l'activité est placée après vocab-2, qui présente les mots utilisés) ;
   - exercice (أ) (16 prénoms) → `practice-1` ;
   - dialogues de la page (ب) → `dialogue-1` (cuisine) et `dialogue-2` (classe) ;
   - exercice 3 → `practice-2`.
@@ -126,7 +126,7 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin.
   - « salle de bains » (graphie de référence) et « salle de classe » partout ;
   - فِي = « dans, en, à (lieu ou temps) » et إِلَى = « vers, à (direction) » : le français « à » traduit les deux.
 - **Genre :**
-  - سُوقٌ (m) et سَمَاءٌ (f) existent aux deux genres en arabe classique : l'usage courant est retenu, avec une note pour سُوقٌ ;
+  - سُوقٌ (m) et سَمَاءٌ (f) existent aux deux genres en arabe classique : l'usage courant est retenu, avec une note pour chacun ;
   - pas de genre affiché pour les pays : l'usage varie, c'est donc une exception à la règle « chaque nom porte son genre » (à trancher avec l'utilisateur) ;
   - les prénoms ne sont pas des éléments (pas de cartes de révision) : ils sont dans des tableaux et des exercices.
 - **Écarts volontaires avec les diapositives :**

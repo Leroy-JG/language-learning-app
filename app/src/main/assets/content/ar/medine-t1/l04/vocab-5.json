@@ -63,7 +63,7 @@
       "type": "tip",
       "title": "Le verbe peut ouvrir la phrase",
       "blocks": [
-        { "type": "paragraph", "text": "Une phrase peut commencer par le **verbe**. Celui qui fait l'action vient ensuite, à la **damma** (quand il est au singulier) :" },
+        { "type": "paragraph", "text": "Une phrase peut commencer par le **verbe**. Celui qui fait l'action vient ensuite, en général à la **damma** :" },
         { "type": "example", "ar": "خَرَجَ مُحَمَّدٌ مِنَ الْمَدْرَسَةِ.", "fr": "Muḥammad est sorti de l'école." },
         { "type": "example", "ar": "ذَهَبَ الْمُدَرِّسُ إِلَى الْمَسْجِدِ.", "fr": "L'enseignant est allé à la mosquée." },
         { "type": "paragraph", "text": "Le verbe contient déjà le « il » : on peut donc dire simplement :" },
@@ -101,7 +101,7 @@
       "blocks": [
         { "type": "example", "ar": "أَيْنَ ذَهَبَ؟", "fr": "Où est-il allé ?" },
         { "type": "example", "ar": "مَنْ خَرَجَ مِنَ الْفَصْلِ؟", "fr": "Qui est sorti de la salle de classe ?" },
-        { "type": "note", "text": "Le mot interrogatif ouvre la phrase : il n'est précédé que d'une préposition ou de {ar|وَ} ({ar|مِنْ أَيْنَ}, {ar|وَأَيْنَ}). Avec {ar|مَنْ}, c'est celui qui fait l'action." }
+        { "type": "note", "text": "Le mot interrogatif ouvre la phrase : en général, seul {ar|وَ} ou une préposition peut le précéder ({ar|مِنْ أَيْنَ}, {ar|وَأَيْنَ}). Dans {ar|مَنْ خَرَجَ؟}, {ar|مَنْ} est celui qui fait l'action (le sujet)." }
       ]
     },
     {

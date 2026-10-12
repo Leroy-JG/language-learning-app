@@ -1,6 +1,6 @@
 # Feuille de route
 
-## Fait (versions jusqu'à 0.1.19)
+## Fait
 
 - **Moteur :** le contenu est en JSON, un validateur fait échouer le build si le contenu est incohérent, et 14 types d'écrans fonctionnent.
   - Parmi eux, 4 mini-jeux : ranger, repérer, écrire lettre par lettre, mémoire.
