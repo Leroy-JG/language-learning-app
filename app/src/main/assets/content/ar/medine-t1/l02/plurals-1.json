@@ -2,11 +2,12 @@
   "id": "medine-t1.l02.plurals-1",
   "type": "vocabulary",
   "title": "Les pluriels",
+  "icon": "rock",
   "screens": [
     {
       "id": "medine-t1.l02.plurals-1#1",
       "type": "tip",
-      "title": "Les pluriels de la leçon",
+      "title": "Les pluriels du chapitre",
       "blocks": [
         {
           "type": "table",

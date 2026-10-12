@@ -2,6 +2,7 @@
   "id": "medine-t1.l01.grammar-1",
   "type": "grammar",
   "title": "Le démonstratif {ar|هٰذَا}",
+  "icon": "pointing",
   "screens": [
     { "id": "medine-t1.l01.grammar-1#1", "type": "present", "item": "w:hadha" },
     {
@@ -21,7 +22,7 @@
             ["{ar|قَرِيبٌ}", "proche"]
           ]
         },
-        { "type": "note", "text": "Tous les noms de cette leçon sont masculins en arabe, même quand leur traduction française est féminine : {ar|بَيْتٌ} (une maison), {ar|مَسْجِدٌ} (une mosquée), {ar|كُرْسِيٌّ} (une chaise)…" }
+        { "type": "note", "text": "Tous les noms de ce chapitre sont masculins en arabe, même quand leur traduction française est féminine : {ar|بَيْتٌ} (une maison), {ar|مَسْجِدٌ} (une mosquée), {ar|كُرْسِيٌّ} (une chaise)…" }
       ]
     },
     {

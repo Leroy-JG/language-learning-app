@@ -2,6 +2,7 @@
   "id": "medine-t1.l02.grammar-2",
   "type": "grammar",
   "title": "Classer les mots",
+  "icon": "puzzle",
   "screens": [
     {
       "id": "medine-t1.l02.grammar-2#1",

@@ -90,6 +90,8 @@ data class ActivityFile(
     val id: String,
     val type: ActivityType,
     val title: String,
+    /** Image de la leçon dans le parcours (nom d'icône) ; sinon le symbole de son type. */
+    val icon: String? = null,
     val screens: List<Screen>,
 )
 

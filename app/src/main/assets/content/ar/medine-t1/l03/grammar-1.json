@@ -2,6 +2,7 @@
   "id": "medine-t1.l03.grammar-1",
   "type": "grammar",
   "title": "L'indéfini et le défini",
+  "icon": "puzzle",
   "screens": [
     {
       "id": "medine-t1.l03.grammar-1#1",
@@ -21,7 +22,7 @@
         { "type": "paragraph", "text": "Il s'emploie au masculin comme au féminin, au singulier comme au pluriel." },
         { "type": "example", "ar": "هٰذَا رَجُلٌ.", "fr": "C'est un homme." },
         { "type": "example", "ar": "هٰذَا كِتَابٌ.", "fr": "C'est un livre." },
-        { "type": "note", "text": "Ton support donne aussi {ar|هٰذِهِ بِنْتٌ} (c'est une fille), {ar|هُمْ رِجَالٌ} (ce sont des hommes) et {ar|هٰذِهِ كُتُبٌ} (ce sont des livres). Tu apprendras {ar|هٰذِهِ} et {ar|هُمْ} dans les prochaines leçons." }
+        { "type": "note", "text": "Ton support donne aussi {ar|هٰذِهِ بِنْتٌ} (c'est une fille), {ar|هُمْ رِجَالٌ} (ce sont des hommes) et {ar|هٰذِهِ كُتُبٌ} (ce sont des livres). Tu apprendras {ar|هٰذِهِ} et {ar|هُمْ} dans les prochains chapitres." }
       ]
     },
     {

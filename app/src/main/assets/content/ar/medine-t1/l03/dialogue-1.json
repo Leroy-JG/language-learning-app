@@ -2,6 +2,7 @@
   "id": "medine-t1.l03.dialogue-1",
   "type": "dialogue",
   "title": "Le déjeuner",
+  "icon": "meal",
   "screens": [
     {
       "id": "medine-t1.l03.dialogue-1#1",

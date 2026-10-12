@@ -1,7 +1,7 @@
 {
   "id": "medine-t1.l02.quiz",
   "type": "quiz",
-  "title": "Quiz de la leçon 2",
+  "title": "Bilan du chapitre 2",
   "screens": [
     { "id": "medine-t1.l02.quiz#1", "type": "mcq", "mode": "icon-ar", "item": "w:laban" },
     { "id": "medine-t1.l02.quiz#2", "type": "mcq", "mode": "ar-fr", "item": "w:hajar" },

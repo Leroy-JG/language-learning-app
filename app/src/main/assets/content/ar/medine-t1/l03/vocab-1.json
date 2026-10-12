@@ -2,6 +2,7 @@
   "id": "medine-t1.l03.vocab-1",
   "type": "vocabulary",
   "title": "Ouvert, cassé, assis, debout",
+  "icon": "door",
   "screens": [
     { "id": "medine-t1.l03.vocab-1#1", "type": "present", "item": "w:maftuh" },
     { "id": "medine-t1.l03.vocab-1#2", "type": "present", "item": "w:maksur" },

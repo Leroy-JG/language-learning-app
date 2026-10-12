@@ -2,6 +2,7 @@
   "id": "medine-t1.l02.dialogue-1",
   "type": "dialogue",
   "title": "Dans la cour de la mosquée",
+  "icon": "mosque",
   "screens": [
     {
       "id": "medine-t1.l02.dialogue-1#1",

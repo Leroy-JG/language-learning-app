@@ -6,7 +6,7 @@
   "source": "Tome de Médine 1, leçon 2",
   "sections": [
     {
-      "title": "Rappel de la leçon 1",
+      "title": "Rappel du chapitre 1",
       "activities": ["recap"]
     },
     {
@@ -18,7 +18,7 @@
       "activities": ["vocab-2", "plurals-1", "dialogue-1", "dialogue-2"]
     },
     {
-      "title": "Bilan de la leçon",
+      "title": "Bilan du chapitre",
       "activities": ["quiz"]
     }
   ]

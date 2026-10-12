@@ -2,6 +2,7 @@
   "id": "medine-t1.l02.dialogue-2",
   "type": "dialogue",
   "title": "Chez Ḥāmid",
+  "icon": "house",
   "screens": [
     {
       "id": "medine-t1.l02.dialogue-2#1",

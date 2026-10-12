@@ -2,6 +2,7 @@
   "id": "medine-t1.l03.grammar-4",
   "type": "grammar",
   "title": "Les lettres lunaires",
+  "icon": "moon",
   "screens": [
     { "id": "medine-t1.l03.grammar-4#1", "type": "present", "item": "w:qamar" },
     {

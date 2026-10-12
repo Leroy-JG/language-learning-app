@@ -2,6 +2,7 @@
   "id": "medine-t1.l03.practice-1",
   "type": "grammar",
   "title": "Lune ou soleil ?",
+  "icon": "question",
   "screens": [
     {
       "id": "medine-t1.l03.practice-1#1",

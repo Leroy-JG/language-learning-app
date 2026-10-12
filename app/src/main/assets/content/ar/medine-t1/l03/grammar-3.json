@@ -2,6 +2,7 @@
   "id": "medine-t1.l03.grammar-3",
   "type": "grammar",
   "title": "« Le stylo est cassé »",
+  "icon": "pen",
   "screens": [
     {
       "id": "medine-t1.l03.grammar-3#1",

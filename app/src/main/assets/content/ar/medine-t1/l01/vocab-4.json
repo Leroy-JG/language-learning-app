@@ -2,6 +2,7 @@
   "id": "medine-t1.l01.vocab-4",
   "type": "vocabulary",
   "title": "Les personnes",
+  "icon": "man",
   "screens": [
     { "id": "medine-t1.l01.vocab-4#1", "type": "present", "item": "w:man" },
     { "id": "medine-t1.l01.vocab-4#2", "type": "present", "item": "p:man-hadha" },

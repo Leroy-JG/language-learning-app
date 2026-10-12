@@ -2,6 +2,7 @@
   "id": "medine-t1.l02.vocab-1",
   "type": "vocabulary",
   "title": "Questions sur ce qui est loin",
+  "icon": "star",
   "screens": [
     { "id": "medine-t1.l02.vocab-1#1", "type": "present", "item": "p:ma-dhalika" },
     { "id": "medine-t1.l02.vocab-1#2", "type": "present", "item": "p:man-dhalika" },

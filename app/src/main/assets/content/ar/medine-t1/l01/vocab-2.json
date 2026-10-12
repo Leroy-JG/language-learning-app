@@ -2,6 +2,7 @@
   "id": "medine-t1.l01.vocab-2",
   "type": "vocabulary",
   "title": "Les objets de la maison",
+  "icon": "key",
   "screens": [
     { "id": "medine-t1.l01.vocab-2#1", "type": "present", "item": "w:miftah" },
     { "id": "medine-t1.l01.vocab-2#2", "type": "present", "item": "w:maktab" },

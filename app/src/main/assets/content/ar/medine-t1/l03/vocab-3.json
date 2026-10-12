@@ -2,6 +2,7 @@
   "id": "medine-t1.l03.vocab-3",
   "type": "vocabulary",
   "title": "Le vêtement, l'or, la viande…",
+  "icon": "meat",
   "screens": [
     { "id": "medine-t1.l03.vocab-3#1", "type": "present", "item": "w:thawb" },
     { "id": "medine-t1.l03.vocab-3#2", "type": "present", "item": "w:dhahab" },

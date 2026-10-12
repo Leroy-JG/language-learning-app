@@ -2,6 +2,7 @@
   "id": "medine-t1.l01.vocab-3",
   "type": "vocabulary",
   "title": "Poser des questions",
+  "icon": "question",
   "screens": [
     { "id": "medine-t1.l01.vocab-3#1", "type": "present", "item": "w:ma" },
     { "id": "medine-t1.l01.vocab-3#2", "type": "present", "item": "p:ma-hadha" },

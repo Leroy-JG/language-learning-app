@@ -73,6 +73,8 @@ class PlayerViewModel(
     private val course: Course,
     index: CourseIndex,
     val activity: Activity,
+    /** Appelé une fois à chaque fin d'activité (enregistrement de la progression). */
+    private val onFinished: (ActivityResult) -> Unit,
 ) : ViewModel() {
     private val factory = ExerciseFactory(course, index)
     private var session = ActivitySession(activity.screens)
@@ -257,7 +259,7 @@ class PlayerViewModel(
         val s = session
         val type = activity.file.type
         val xp = s.firstTryCorrect * 10 + (s.exerciseCount - s.firstTryCorrect) * 5
-        result = ActivityResult(
+        val r = ActivityResult(
             type = type,
             exerciseCount = s.exerciseCount,
             firstTryCorrect = s.firstTryCorrect,
@@ -266,5 +268,7 @@ class PlayerViewModel(
             xp = xp,
             items = activity.screens.filterIsInstance<PresentScreen>().mapNotNull { course.item(it.item) },
         )
+        result = r
+        onFinished(r)
     }
 }

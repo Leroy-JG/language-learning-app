@@ -2,6 +2,7 @@
   "id": "medine-t1.l03.vocab-4",
   "type": "vocabulary",
   "title": "Le corps",
+  "icon": "hand",
   "screens": [
     { "id": "medine-t1.l03.vocab-4#1", "type": "present", "item": "w:ayn" },
     { "id": "medine-t1.l03.vocab-4#2", "type": "present", "item": "w:fam" },

@@ -2,6 +2,7 @@
   "id": "medine-t1.l03.vocab-2",
   "type": "vocabulary",
   "title": "L'eau, le pain, le jardin…",
+  "icon": "water",
   "screens": [
     { "id": "medine-t1.l03.vocab-2#1", "type": "present", "item": "w:maa" },
     { "id": "medine-t1.l03.vocab-2#2", "type": "present", "item": "w:khubz" },

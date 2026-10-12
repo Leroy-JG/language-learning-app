@@ -203,12 +203,18 @@ Un élément entre dans **ta banque de mots** quand un écran `present` te l'a m
   "id": "medine-t1.l01.vocab-1",
   "type": "vocabulary",
   "title": "À la maison et à la mosquée",
+  "icon": "mosque",
   "screens": [ … ]
 }
 ```
 
-- `type` : `vocabulary`, `grammar`, `dialogue`, `review` ou `quiz`. Il détermine l'icône et la
-  couleur de l'activité ; le contenu est libre (une activité de vocabulaire peut contenir une astuce).
+- `type` : `vocabulary`, `grammar`, `dialogue`, `review` ou `quiz`. Il détermine la couleur de
+  l'activité ; le contenu est libre (une activité de vocabulaire peut contenir une astuce).
+- `icon` (facultatif) : image de l'activité dans le parcours de l'accueil ; sinon le symbole de
+  son type. Une activité `quiz` s'affiche toujours comme la carte « Bilan du chapitre ».
+- Dans l'app, un chapitre s'appelle « Chapitre N » et chacune de ses activités est une « leçon »
+  du parcours. Les leçons s'ouvrent dans l'ordre : chacune après la précédente, et le chapitre
+  suivant après le bilan réussi.
 - `screens` : la suite d'écrans. Chaque écran a un `id` (`<activité>#<code>`) et un `type`.
 
 **Déroulé** : un exercice raté revient en fin d'activité jusqu'à ce qu'il soit réussi. Le score

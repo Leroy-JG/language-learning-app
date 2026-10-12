@@ -2,6 +2,7 @@
   "id": "medine-t1.l01.grammar-3",
   "type": "grammar",
   "title": "Demander « qui ? » avec {ar|مَنْ}",
+  "icon": "teacher",
   "screens": [
     {
       "id": "medine-t1.l01.grammar-3#1",

@@ -40,6 +40,13 @@ object IconImages {
         "eye" to R.drawable.icon_eye,
         "mouth" to R.drawable.icon_mouth,
         "hand" to R.drawable.icon_hand,
+        "books" to R.drawable.icon_books,
+        "pointing" to R.drawable.icon_pointing,
+        "question" to R.drawable.icon_question,
+        "speech" to R.drawable.icon_speech,
+        "shop" to R.drawable.icon_shop,
+        "telescope" to R.drawable.icon_telescope,
+        "puzzle" to R.drawable.icon_puzzle,
     )
 
     @DrawableRes

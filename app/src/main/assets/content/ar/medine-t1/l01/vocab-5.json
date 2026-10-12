@@ -2,6 +2,7 @@
   "id": "medine-t1.l01.vocab-5",
   "type": "vocabulary",
   "title": "Les animaux",
+  "icon": "camel",
   "screens": [
     { "id": "medine-t1.l01.vocab-5#1", "type": "present", "item": "w:kalb" },
     { "id": "medine-t1.l01.vocab-5#2", "type": "present", "item": "w:qitt" },

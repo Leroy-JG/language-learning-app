@@ -2,6 +2,7 @@
   "id": "medine-t1.l01.vocab-1",
   "type": "vocabulary",
   "title": "La maison et la mosquée",
+  "icon": "mosque",
   "screens": [
     { "id": "medine-t1.l01.vocab-1#1", "type": "present", "item": "w:bayt" },
     { "id": "medine-t1.l01.vocab-1#2", "type": "present", "item": "w:masjid" },

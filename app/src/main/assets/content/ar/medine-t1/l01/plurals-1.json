@@ -2,6 +2,7 @@
   "id": "medine-t1.l01.plurals-1",
   "type": "vocabulary",
   "title": "Les pluriels des objets",
+  "icon": "book",
   "screens": [
     {
       "id": "medine-t1.l01.plurals-1#1",

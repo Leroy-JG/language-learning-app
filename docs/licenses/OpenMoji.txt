@@ -2,7 +2,7 @@ Icônes : OpenMoji 15.1 (https://openmoji.org/), licence CC BY-SA 4.0
 (https://creativecommons.org/licenses/by-sa/4.0/). Toutes les icônes sont conçues par OpenMoji,
 le projet libre d'emojis et d'icônes.
 
-Fichiers app/src/main/res/drawable-nodpi/icon_*.png : rendus en PNG 256 × 256 à partir des SVG
+Fichiers app/src/main/res/drawable-nodpi/icon_*.png et ui_*.png : rendus en PNG 256 × 256 à partir des SVG
 couleur d'OpenMoji, sans autre modification.
 
 Nom dans l'app → code OpenMoji
@@ -11,4 +11,7 @@ chair 1FA91 · shirt 1F455 · star 2B50 · doctor 1F468-200D-2695-FE0F · boy 1F
 man 1F9D4-200D-2642-FE0F · student 1F468-200D-1F393 · teacher 1F468-200D-1F3EB · dog 1F415
 cat 1F408 · rooster 1F413 · donkey 1FACF · horse 1F40E · camel 1F42A · rock 1FAA8 · milk 1F95B
 moon 1F319 · sun 2600 · water 1F4A7 · bread 1F35E · meal 1F37D · meat 1F356 · fish 1F41F
-flower 1F338 · eye 1F441 · mouth 1F444 · hand 270B
+flower 1F338 · eye 1F441 · mouth 1F444 · hand 270B · books 1F4DA · pointing 1F449
+question 2753 · speech 1F5E8 · shop 1F3EA · telescope 1F52D · puzzle 1F9E9
+
+Images de l'interface : ui_flag 1F3C1 · ui_trophy 1F3C6

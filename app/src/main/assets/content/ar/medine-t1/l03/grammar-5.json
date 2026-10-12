@@ -2,6 +2,7 @@
   "id": "medine-t1.l03.grammar-5",
   "type": "grammar",
   "title": "Les lettres solaires",
+  "icon": "sun",
   "screens": [
     { "id": "medine-t1.l03.grammar-5#1", "type": "present", "item": "w:shams" },
     {

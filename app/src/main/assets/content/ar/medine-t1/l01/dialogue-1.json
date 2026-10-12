@@ -2,6 +2,7 @@
   "id": "medine-t1.l01.dialogue-1",
   "type": "dialogue",
   "title": "Qu'est-ce que c'est ?",
+  "icon": "speech",
   "screens": [
     {
       "id": "medine-t1.l01.dialogue-1#1",

@@ -10,5 +10,6 @@ object Icons {
         "doctor", "boy", "man", "student", "teacher", "dog", "cat", "rooster", "donkey", "horse", "camel",
         "rock", "milk", "moon", "sun", "water", "bread", "meal", "meat", "fish", "flower",
         "eye", "mouth", "hand",
+        "books", "pointing", "question", "speech", "shop", "telescope", "puzzle",
     )
 }

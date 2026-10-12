@@ -2,6 +2,7 @@
   "id": "medine-t1.l03.grammar-2",
   "type": "grammar",
   "title": "L'article {ar|الْ}",
+  "icon": "book",
   "screens": [
     { "id": "medine-t1.l03.grammar-2#1", "type": "present", "item": "w:al" },
     {

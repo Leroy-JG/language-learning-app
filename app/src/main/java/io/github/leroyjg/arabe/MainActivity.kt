@@ -14,7 +14,6 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
 import io.github.leroyjg.arabe.ui.LocalAppContainer
 import io.github.leroyjg.arabe.ui.activity.ActivityScreen
-import io.github.leroyjg.arabe.ui.chapter.ChapterScreen
 import io.github.leroyjg.arabe.ui.home.HomeScreen
 import io.github.leroyjg.arabe.ui.theme.ArabeTheme
 import kotlinx.serialization.Serializable
@@ -42,9 +41,6 @@ class MainActivity : ComponentActivity() {
 private data object HomeRoute
 
 @Serializable
-private data class ChapterRoute(val chapterId: String)
-
-@Serializable
 private data class ActivityRoute(val activityId: String)
 
 @Composable
@@ -52,14 +48,7 @@ private fun AppNavHost() {
     val nav = rememberNavController()
     NavHost(navController = nav, startDestination = HomeRoute) {
         composable<HomeRoute> {
-            HomeScreen(onOpenChapter = { nav.navigate(ChapterRoute(it)) })
-        }
-        composable<ChapterRoute> { entry ->
-            ChapterScreen(
-                chapterId = entry.toRoute<ChapterRoute>().chapterId,
-                onBack = { nav.popBackStack() },
-                onOpenActivity = { nav.navigate(ActivityRoute(it)) },
-            )
+            HomeScreen(onOpenActivity = { nav.navigate(ActivityRoute(it)) { launchSingleTop = true } })
         }
         composable<ActivityRoute> { entry ->
             ActivityScreen(activityId = entry.toRoute<ActivityRoute>().activityId, onClose = { nav.popBackStack() })

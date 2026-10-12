@@ -91,8 +91,20 @@ fun ActivityScreen(activityId: String, onClose: () -> Unit) {
                 Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { Text(stringResource(R.string.activity_not_found)) }
                 return@WithContent
             }
-            val vm: PlayerViewModel = viewModel(key = activityId) { PlayerViewModel(ready.course, ready.index, activity) }
-            val audio = LocalAppContainer.current.audio
+            val container = LocalAppContainer.current
+            val vm: PlayerViewModel = viewModel(key = activityId) {
+                PlayerViewModel(ready.course, ready.index, activity) { r ->
+                    container.progress.record(
+                        activityId = activity.id,
+                        score = r.score,
+                        firstTryCorrect = r.firstTryCorrect,
+                        exerciseCount = r.exerciseCount,
+                        xp = r.xp,
+                        passed = r.passed,
+                    )
+                }
+            }
+            val audio = container.audio
             val playback = remember(ready.course) { Playback(ready.course, audio) }
             DisposableEffect(Unit) { onDispose { audio.stop() } }
 
@@ -295,6 +307,9 @@ private fun EndScreen(result: ActivityResult, onContinue: () -> Unit, onRetry: (
             Text(stringResource(R.string.end_score, result.firstTryCorrect, result.exerciseCount), style = MaterialTheme.typography.titleMedium)
         }
         if (failedQuiz) Text(stringResource(R.string.end_quiz_failed_hint), textAlign = TextAlign.Center)
+        if (result.type == ActivityType.QUIZ && result.passed) {
+            Text(stringResource(R.string.end_next_chapter), style = MaterialTheme.typography.titleMedium, textAlign = TextAlign.Center)
+        }
         Text(stringResource(R.string.end_xp, result.xp), style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.secondary)
         if (result.items.isNotEmpty()) {
             Text(stringResource(R.string.end_words), style = MaterialTheme.typography.titleMedium)

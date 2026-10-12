@@ -2,6 +2,7 @@
   "id": "medine-t1.l02.grammar-1",
   "type": "grammar",
   "title": "Le démonstratif {ar|ذٰلِكَ}",
+  "icon": "telescope",
   "screens": [
     { "id": "medine-t1.l02.grammar-1#1", "type": "present", "item": "w:dhalika" },
     {

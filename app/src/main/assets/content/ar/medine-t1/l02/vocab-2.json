@@ -2,6 +2,7 @@
   "id": "medine-t1.l02.vocab-2",
   "type": "vocabulary",
   "title": "À la mosquée et à table",
+  "icon": "milk",
   "screens": [
     { "id": "medine-t1.l02.vocab-2#1", "type": "present", "item": "w:imam" },
     { "id": "medine-t1.l02.vocab-2#2", "type": "present", "item": "w:hajar" },

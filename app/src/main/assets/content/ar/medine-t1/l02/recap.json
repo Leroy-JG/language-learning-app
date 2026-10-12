@@ -2,13 +2,14 @@
   "id": "medine-t1.l02.recap",
   "type": "review",
   "title": "Rappel : ce que tu sais déjà",
+  "icon": "books",
   "screens": [
     {
       "id": "medine-t1.l02.recap#1",
       "type": "tip",
       "title": "Les noms que tu connais",
       "blocks": [
-        { "type": "paragraph", "text": "Dans la leçon 1, tu as vu deux sortes de noms ({ar|اِسْمٌ}) :" },
+        { "type": "paragraph", "text": "Dans le chapitre 1, tu as vu deux sortes de noms ({ar|اِسْمٌ}) :" },
         {
           "type": "table",
           "header": ["Sorte de nom", "Mots"],

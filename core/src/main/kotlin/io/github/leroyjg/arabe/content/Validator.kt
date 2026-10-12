@@ -202,6 +202,7 @@ class Validator(
             if (f.id != "${activity.chapterId}.${activity.code}") err(w, "id différent du fichier ${activity.code}.json")
             id(w, f.id)
             fr("$w.title", f.title)
+            f.icon?.let { if (it !in Icons.NAMES) err(w, "icône inconnue : $it") }
             if (f.screens.isEmpty()) err(w, "aucun écran")
             if (f.screens.none { it is Exercise }) warn(w, "aucun exercice")
             for (screen in f.screens) checkScreen(activity, screen)
