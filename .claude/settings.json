@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew -p core:*)",
+      "Bash(python3 tools/preview_content.py:*)",
+      "Bash(python3 -I tools/preview_content.py:*)"
+    ]
+  }
+}

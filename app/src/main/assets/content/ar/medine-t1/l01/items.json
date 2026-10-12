@@ -1,0 +1,365 @@
+[
+  {
+    "id": "w:ism",
+    "kind": "word",
+    "ar": "اِسْمٌ",
+    "fr": "un nom (sorte de mot)",
+    "translit": "ismun",
+    "gender": "m",
+    "note": "Mot qui a un sens à lui seul, sans être lié à un temps comme le verbe : il désigne une personne, un lieu, un moment, une action…"
+  },
+  {
+    "id": "w:fil",
+    "kind": "word",
+    "ar": "فِعْلٌ",
+    "fr": "un verbe",
+    "translit": "fiʿlun",
+    "gender": "m",
+    "note": "Ce qui indique une action et un temps : passé, présent ou futur, impératif."
+  },
+  {
+    "id": "w:harf",
+    "kind": "word",
+    "ar": "حَرْفٌ",
+    "fr": "une particule",
+    "translit": "ḥarfun",
+    "gender": "m",
+    "note": "Ce qui ne prend son sens qu'avec un autre mot (un nom ou un verbe). Le même mot {ar|حَرْفٌ} veut aussi dire « lettre »."
+  },
+  {
+    "id": "w:bayt",
+    "kind": "word",
+    "ar": "بَيْتٌ",
+    "fr": "une maison",
+    "translit": "baytun",
+    "plural": "بُيُوتٌ",
+    "icon": "house",
+    "gender": "m",
+    "example": { "ar": "هٰذَا بَيْتٌ.", "fr": "Ceci est une maison." }
+  },
+  {
+    "id": "w:masjid",
+    "kind": "word",
+    "ar": "مَسْجِدٌ",
+    "fr": "une mosquée",
+    "translit": "masjidun",
+    "plural": "مَسَاجِدُ",
+    "icon": "mosque",
+    "gender": "m",
+    "note": "Mot à mot : « le lieu où l'on se prosterne ».",
+    "example": { "ar": "هٰذَا مَسْجِدٌ.", "fr": "Ceci est une mosquée." }
+  },
+  {
+    "id": "w:bab",
+    "kind": "word",
+    "ar": "بَابٌ",
+    "fr": "une porte",
+    "translit": "bābun",
+    "plural": "أَبْوَابٌ",
+    "icon": "door",
+    "gender": "m",
+    "note": "Dans {ar|بَابُ الْمَسْجِدِ} (la porte de la mosquée), le premier nom ne porte pas de tanwin : c'est la construction « le … de … », que tu étudieras plus tard.",
+    "example": { "ar": "هٰذَا بَابُ الْمَسْجِدِ.", "fr": "Ceci est la porte de la mosquée." }
+  },
+  {
+    "id": "w:kitab",
+    "kind": "word",
+    "ar": "كِتَابٌ",
+    "fr": "un livre",
+    "translit": "kitābun",
+    "plural": "كُتُبٌ",
+    "icon": "book",
+    "gender": "m",
+    "note": "La double damma finale ({ar|◌ٌ}, le tanwin) se prononce « -un » et correspond à « un / une » (au pluriel : « des »).",
+    "example": { "ar": "هٰذَا كِتَابٌ.", "fr": "Ceci est un livre." }
+  },
+  {
+    "id": "w:qalam",
+    "kind": "word",
+    "ar": "قَلَمٌ",
+    "fr": "un stylo",
+    "translit": "qalamun",
+    "plural": "أَقْلَامٌ",
+    "icon": "pen",
+    "gender": "m",
+    "example": { "ar": "هٰذَا قَلَمٌ.", "fr": "Ceci est un stylo." }
+  },
+  {
+    "id": "w:miftah",
+    "kind": "word",
+    "ar": "مِفْتَاحٌ",
+    "fr": "une clé",
+    "translit": "miftāḥun",
+    "plural": "مَفَاتِيحُ",
+    "icon": "key",
+    "gender": "m",
+    "note": "On trouve aussi le pluriel {ar|مَفَاتِحُ}.",
+    "example": { "ar": "هٰذَا مِفْتَاحُ الْبَيْتِ.", "fr": "Ceci est la clé de la maison." }
+  },
+  {
+    "id": "w:maktab",
+    "kind": "word",
+    "ar": "مَكْتَبٌ",
+    "fr": "un bureau",
+    "translit": "maktabun",
+    "plural": "مَكَاتِبُ",
+    "gender": "m",
+    "note": "Même famille que {ar|كِتَابٌ} (un livre) et {ar|كِتَابَةٌ} (écriture, fait d'écrire) : les lettres {ar|ك ت ب} portent l'idée d'« écrire ». Le {ar|مَكْتَبٌ} est le meuble ou l'endroit où l'on écrit.",
+    "example": { "ar": "هٰذَا مَكْتَبُ الْمَسْجِدِ.", "fr": "Ceci est le bureau de la mosquée." }
+  },
+  {
+    "id": "w:sarir",
+    "kind": "word",
+    "ar": "سَرِيرٌ",
+    "fr": "un lit",
+    "translit": "sarīrun",
+    "plural": "سُرُرٌ",
+    "icon": "bed",
+    "gender": "m",
+    "example": { "ar": "هٰذَا سَرِيرٌ.", "fr": "Ceci est un lit." }
+  },
+  {
+    "id": "w:kursi",
+    "kind": "word",
+    "ar": "كُرْسِيٌّ",
+    "fr": "une chaise",
+    "translit": "kursiyyun",
+    "plural": "كَرَاسِيُّ",
+    "icon": "chair",
+    "gender": "m",
+    "example": { "ar": "هٰذَا كُرْسِيُّ الْبَيْتِ.", "fr": "Ceci est la chaise de la maison." }
+  },
+  {
+    "id": "w:hadha",
+    "kind": "word",
+    "ar": "هٰذَا",
+    "fr": "ceci, celui-ci (proche)",
+    "translit": "hādhā",
+    "gender": "m",
+    "note": "Nom démonstratif ({ar|اِسْمُ إِشَارَةٍ}) pour ce qui est singulier, masculin et proche.",
+    "example": { "ar": "هٰذَا مَسْجِدٌ.", "fr": "Ceci est une mosquée." }
+  },
+  {
+    "id": "w:ma",
+    "kind": "word",
+    "ar": "مَا",
+    "fr": "qu'est-ce que… ? (chose, animal)",
+    "translit": "mā",
+    "note": "Nom interrogatif pour ce qui n'est pas doué de raison ({ar|غَيْرُ عَاقِلٍ}).",
+    "example": { "ar": "مَا هٰذَا؟ هٰذَا نَجْمٌ.", "fr": "Qu'est-ce que c'est ? C'est une étoile." }
+  },
+  {
+    "id": "p:ma-hadha",
+    "kind": "phrase",
+    "ar": "مَا هٰذَا؟",
+    "fr": "Qu'est-ce que c'est ?",
+    "translit": "mā hādhā"
+  },
+  {
+    "id": "w:qamis",
+    "kind": "word",
+    "ar": "قَمِيصٌ",
+    "fr": "une chemise",
+    "translit": "qamīṣun",
+    "plural": "قُمْصَانٌ",
+    "icon": "shirt",
+    "gender": "m",
+    "example": { "ar": "هٰذَا قَمِيصٌ.", "fr": "Ceci est une chemise." }
+  },
+  {
+    "id": "w:najm",
+    "kind": "word",
+    "ar": "نَجْمٌ",
+    "fr": "une étoile",
+    "translit": "najmun",
+    "plural": "نُجُومٌ",
+    "icon": "star",
+    "gender": "m",
+    "example": { "ar": "هٰذَا نَجْمٌ.", "fr": "Ceci est une étoile." }
+  },
+  {
+    "id": "w:a",
+    "kind": "word",
+    "ar": "أَ",
+    "fr": "est-ce que… ? (question oui / non)",
+    "translit": "a",
+    "note": "Particule ({ar|حَرْفٌ}) appelée {ar|هَمْزَةُ الِاسْتِفْهَامِ}. Elle se colle au mot suivant : {ar|أَهٰذَا}.",
+    "example": { "ar": "أَهٰذَا بَيْتٌ؟", "fr": "Est-ce une maison ?" }
+  },
+  {
+    "id": "w:naam",
+    "kind": "word",
+    "ar": "نَعَمْ",
+    "fr": "oui",
+    "translit": "naʿam",
+    "note": "Particule ({ar|حَرْفٌ}) de réponse.",
+    "example": { "ar": "أَهٰذَا بَيْتٌ؟ نَعَمْ، هٰذَا بَيْتٌ.", "fr": "Est-ce une maison ? Oui, c'est une maison." }
+  },
+  {
+    "id": "w:la",
+    "kind": "word",
+    "ar": "لَا",
+    "fr": "non",
+    "translit": "lā",
+    "note": "Particule ({ar|حَرْفٌ}) de réponse.",
+    "example": { "ar": "أَهٰذَا مِفْتَاحٌ؟ لَا، هٰذَا قَلَمٌ.", "fr": "Est-ce une clé ? Non, c'est un stylo." }
+  },
+  {
+    "id": "w:man",
+    "kind": "word",
+    "ar": "مَنْ",
+    "fr": "qui… ? (personne)",
+    "translit": "man",
+    "note": "Nom interrogatif pour un être doué de raison ({ar|عَاقِلٌ}).",
+    "example": { "ar": "مَنْ هٰذَا؟ هٰذَا طَبِيبٌ.", "fr": "Qui est-ce ? C'est un médecin." }
+  },
+  {
+    "id": "p:man-hadha",
+    "kind": "phrase",
+    "ar": "مَنْ هٰذَا؟",
+    "fr": "Qui est-ce ?",
+    "translit": "man hādhā"
+  },
+  {
+    "id": "w:tabib",
+    "kind": "word",
+    "ar": "طَبِيبٌ",
+    "fr": "un médecin",
+    "translit": "ṭabībun",
+    "plural": "أَطِبَّاءُ",
+    "icon": "doctor",
+    "gender": "m",
+    "example": { "ar": "أَطَبِيبٌ هٰذَا؟", "fr": "Est-ce un médecin ?" }
+  },
+  {
+    "id": "w:walad",
+    "kind": "word",
+    "ar": "وَلَدٌ",
+    "fr": "un garçon",
+    "translit": "waladun",
+    "plural": "أَوْلَادٌ",
+    "icon": "boy",
+    "gender": "m",
+    "note": "Désigne aussi un enfant, ou le fils de quelqu'un.",
+    "example": { "ar": "هٰذَا وَلَدُ الْمُدَرِّسِ.", "fr": "C'est le fils de l'enseignant." }
+  },
+  {
+    "id": "w:rajul",
+    "kind": "word",
+    "ar": "رَجُلٌ",
+    "fr": "un homme",
+    "translit": "rajulun",
+    "plural": "رِجَالٌ",
+    "icon": "man",
+    "gender": "m",
+    "example": { "ar": "مَنْ هٰذَا الرَّجُلُ؟", "fr": "Qui est cet homme ?" }
+  },
+  {
+    "id": "w:talib",
+    "kind": "word",
+    "ar": "طَالِبٌ",
+    "fr": "un étudiant",
+    "translit": "ṭālibun",
+    "plural": "طُلَّابٌ",
+    "icon": "student",
+    "gender": "m",
+    "example": { "ar": "هٰذَا طَالِبُ الْمَسْجِدِ.", "fr": "C'est l'étudiant de la mosquée." }
+  },
+  {
+    "id": "w:mudarris",
+    "kind": "word",
+    "ar": "مُدَرِّسٌ",
+    "fr": "un enseignant",
+    "translit": "mudarrisun",
+    "plural": "مُدَرِّسُونَ",
+    "icon": "teacher",
+    "gender": "m",
+    "example": { "ar": "مَنِ الْمُدَرِّسُ؟", "fr": "Qui est l'enseignant ?" }
+  },
+  {
+    "id": "w:tajir",
+    "kind": "word",
+    "ar": "تَاجِرٌ",
+    "fr": "un commerçant",
+    "translit": "tājirun",
+    "plural": "تُجَّارٌ",
+    "gender": "m",
+    "example": { "ar": "هٰذَا تَاجِرٌ.", "fr": "C'est un commerçant." }
+  },
+  {
+    "id": "w:kalb",
+    "kind": "word",
+    "ar": "كَلْبٌ",
+    "fr": "un chien",
+    "translit": "kalbun",
+    "plural": "كِلَابٌ",
+    "icon": "dog",
+    "gender": "m",
+    "example": { "ar": "هٰذَا كَلْبٌ.", "fr": "Ceci est un chien." }
+  },
+  {
+    "id": "w:qitt",
+    "kind": "word",
+    "ar": "قِطٌّ",
+    "fr": "un chat",
+    "translit": "qiṭṭun",
+    "plural": "قِطَطٌ",
+    "icon": "cat",
+    "gender": "m",
+    "example": { "ar": "أَهٰذَا كَلْبٌ؟ لَا، هٰذَا قِطٌّ.", "fr": "Est-ce un chien ? Non, c'est un chat." }
+  },
+  {
+    "id": "w:dik",
+    "kind": "word",
+    "ar": "دِيكٌ",
+    "fr": "un coq",
+    "translit": "dīkun",
+    "plural": "دُيُوكٌ",
+    "icon": "rooster",
+    "gender": "m",
+    "example": { "ar": "أَدِيكٌ هٰذَا؟", "fr": "Est-ce un coq ?" }
+  },
+  {
+    "id": "w:himar",
+    "kind": "word",
+    "ar": "حِمَارٌ",
+    "fr": "un âne",
+    "translit": "ḥimārun",
+    "plural": "حُمُرٌ",
+    "icon": "donkey",
+    "gender": "m",
+    "example": { "ar": "أَحِمَارٌ هٰذَا؟", "fr": "Est-ce un âne ?" }
+  },
+  {
+    "id": "w:hisan",
+    "kind": "word",
+    "ar": "حِصَانٌ",
+    "fr": "un cheval",
+    "translit": "ḥiṣānun",
+    "plural": "أَحْصِنَةٌ",
+    "icon": "horse",
+    "gender": "m",
+    "example": { "ar": "هٰذَا حِصَانٌ.", "fr": "Ceci est un cheval." }
+  },
+  {
+    "id": "w:jamal",
+    "kind": "word",
+    "ar": "جَمَلٌ",
+    "fr": "un chameau",
+    "translit": "jamalun",
+    "plural": "جِمَالٌ",
+    "icon": "camel",
+    "gender": "m",
+    "example": { "ar": "هٰذَا جَمَلٌ.", "fr": "Ceci est un chameau." }
+  },
+  {
+    "id": "w:mindil",
+    "kind": "word",
+    "ar": "مِنْدِيلٌ",
+    "fr": "un mouchoir",
+    "translit": "mindīlun",
+    "plural": "مَنَادِيلُ",
+    "gender": "m",
+    "example": { "ar": "أَهٰذَا قَمِيصٌ؟ لَا، هٰذَا مِنْدِيلٌ.", "fr": "Est-ce une chemise ? Non, c'est un mouchoir." }
+  }
+]

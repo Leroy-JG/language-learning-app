@@ -1,0 +1,73 @@
+{
+  "id": "medine-t1.l03.grammar-4",
+  "type": "grammar",
+  "title": "Les lettres lunaires",
+  "icon": "moon",
+  "screens": [
+    { "id": "medine-t1.l03.grammar-4#1", "type": "present", "item": "w:qamar" },
+    {
+      "id": "medine-t1.l03.grammar-4#2",
+      "type": "tip",
+      "title": "Les lettres lunaires : {ar|الْحُرُوفُ الْقَمَرِيَّةُ}",
+      "blocks": [
+        { "type": "paragraph", "text": "Quand l'article est suivi d'une **lettre lunaire**, on **prononce** le lām de l'article. Il porte alors un sukūn : {ar|لْ}." },
+        { "type": "example", "ar": "الْقَمَرُ", "fr": "la lune (« al-qamaru »)" },
+        { "type": "example", "ar": "الْكِتَابُ", "fr": "le livre (« al-kitābu »)" },
+        { "type": "example", "ar": "الْبَيْتُ", "fr": "la maison (« al-baytu »)" },
+        { "type": "paragraph", "text": "Il y a **14 lettres lunaires**. Le mot {ar|قَمَرٌ} (lune), qui leur donne leur nom, commence par l'une d'elles." },
+        {
+          "type": "table",
+          "header": ["Lettre", "Exemple", "Français"],
+          "rows": [
+            ["{ar|أ}", "{ar|الْأَبُ}", "le père"],
+            ["{ar|ب}", "{ar|الْبَابُ}", "la porte"],
+            ["{ar|ج}", "{ar|الْجَنَّةُ}", "le jardin"],
+            ["{ar|ح}", "{ar|الْحِمَارُ}", "l'âne"],
+            ["{ar|خ}", "{ar|الْخُبْزُ}", "le pain"],
+            ["{ar|ع}", "{ar|الْعَيْنُ}", "l'œil"],
+            ["{ar|غ}", "{ar|الْغَدَاءُ}", "le déjeuner"],
+            ["{ar|ف}", "{ar|الْفَمُ}", "la bouche"],
+            ["{ar|ق}", "{ar|الْقَمَرُ}", "la lune"],
+            ["{ar|ك}", "{ar|الْكَلْبُ}", "le chien"],
+            ["{ar|م}", "{ar|الْمَاءُ}", "l'eau"],
+            ["{ar|و}", "{ar|الْوَلَدُ}", "le garçon"],
+            ["{ar|ه}", "{ar|الْهَوَاءُ}", "l'air"],
+            ["{ar|ي}", "{ar|الْيَدُ}", "la main"]
+          ]
+        },
+        { "type": "note", "text": "Pour les retenir, les lettres lunaires sont toutes dans la phrase {ar|اِبْغِ حَجَّكَ وَخَفْ عَقِيمَهُ}." },
+        { "type": "note", "text": "Cas particulier : devant un nom qui commence lui-même par une hamza de liaison, le lām de l'article prend une kasra pour enchaîner : {ar|اِسْمٌ} → {ar|الِاسْمُ} (« al-ismu »)." }
+      ]
+    },
+    {
+      "id": "medine-t1.l03.grammar-4#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|الْكَلْبُ}, prononce-t-on le lām de l'article ?" },
+      "choices": [ { "fr": "Oui : « al-kalbu »" }, { "fr": "Non : « ak-kalbu »" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|ك} est une lettre lunaire : le lām se prononce."
+    },
+    {
+      "id": "medine-t1.l03.grammar-4#4",
+      "type": "question",
+      "prompt": { "fr": "Devant une lettre lunaire, le lām de l'article porte…" },
+      "choices": [ { "fr": "un sukūn ({ar|◌ْ})" }, { "fr": "une shadda ({ar|◌ّ})" }, { "fr": "un tanwin" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l03.grammar-4#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "la lune",
+      "answers": ["الْقَمَرُ"]
+    },
+    {
+      "id": "medine-t1.l03.grammar-4#6",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|الْبَابُ}, on prononce « al-bābu »." },
+      "answer": true,
+      "explain": "{ar|ب} est une lettre lunaire."
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+[
+  {
+    "id": "w:nakira",
+    "kind": "word",
+    "ar": "نَكِرَةٌ",
+    "fr": "un nom indéfini",
+    "translit": "nakiratun",
+    "gender": "f",
+    "note": "Nom qui ne désigne rien de précis (un livre parmi d'autres). Son signe est le plus souvent le tanwin : {ar|كِتَابٌ}."
+  },
+  {
+    "id": "w:marifa",
+    "kind": "word",
+    "ar": "مَعْرِفَةٌ",
+    "fr": "un nom défini",
+    "translit": "maʿrifatun",
+    "gender": "f",
+    "note": "Nom qui désigne une chose précise, par exemple un nom avec l'article ({ar|الْكِتَابُ}) ou un nom démonstratif ({ar|هٰذَا})."
+  },
+  {
+    "id": "w:al",
+    "kind": "word",
+    "ar": "الْ",
+    "fr": "le, la, les (article défini)",
+    "translit": "al",
+    "tts": "أَلْ",
+    "note": "Particule ({ar|حَرْفٌ}) appelée {ar|حَرْفُ التَّعْرِيفِ}. Elle se colle au nom, qui perd son tanwin : {ar|بَيْتٌ} → {ar|الْبَيْتُ}.",
+    "example": { "ar": "الْبَيْتُ", "fr": "la maison" }
+  },
+  {
+    "id": "w:maftuh",
+    "kind": "word",
+    "ar": "مَفْتُوحٌ",
+    "fr": "ouvert",
+    "translit": "maftūḥun",
+    "note": "Même famille que {ar|مِفْتَاحٌ} (une clé) : les lettres {ar|ف ت ح} portent l'idée d'« ouvrir ». En arabe, les mots d'une même famille partagent les mêmes lettres de base.",
+    "example": { "ar": "الْبَابُ مَفْتُوحٌ.", "fr": "La porte est ouverte." }
+  },
+  {
+    "id": "w:maksur",
+    "kind": "word",
+    "ar": "مَكْسُورٌ",
+    "fr": "cassé",
+    "translit": "maksūrun",
+    "example": { "ar": "الْقَلَمُ مَكْسُورٌ.", "fr": "Le stylo est cassé." }
+  },
+  {
+    "id": "w:jadid",
+    "kind": "word",
+    "ar": "جَدِيدٌ",
+    "fr": "nouveau, neuf",
+    "translit": "jadīdun",
+    "plural": "جُدُدٌ",
+    "example": { "ar": "هٰذَا كِتَابٌ جَدِيدٌ.", "fr": "C'est un livre neuf." }
+  },
+  {
+    "id": "w:jalis",
+    "kind": "word",
+    "ar": "جَالِسٌ",
+    "fr": "assis",
+    "translit": "jālisun",
+    "plural": "جُلُوسٌ",
+    "example": { "ar": "الْوَلَدُ جَالِسٌ.", "fr": "Le garçon est assis." }
+  },
+  {
+    "id": "w:waqif",
+    "kind": "word",
+    "ar": "وَاقِفٌ",
+    "fr": "debout",
+    "translit": "wāqifun",
+    "plural": "وَاقِفُونَ",
+    "example": { "ar": "الْمُدَرِّسُ وَاقِفٌ.", "fr": "L'enseignant est debout." }
+  },
+  {
+    "id": "w:qamar",
+    "kind": "word",
+    "ar": "قَمَرٌ",
+    "fr": "une lune",
+    "translit": "qamarun",
+    "plural": "أَقْمَارٌ",
+    "icon": "moon",
+    "gender": "m",
+    "note": "Avec l'article : {ar|الْقَمَرُ} (la lune). Il a donné son nom aux lettres lunaires.",
+    "example": { "ar": "الْقَمَرُ فِي السَّمَاءِ.", "fr": "La lune est dans le ciel." }
+  },
+  {
+    "id": "w:maa",
+    "kind": "word",
+    "ar": "مَاءٌ",
+    "fr": "de l'eau",
+    "translit": "māʾun",
+    "plural": "مِيَاهٌ",
+    "icon": "water",
+    "gender": "m",
+    "example": { "ar": "هٰذَا مَاءٌ عَذْبٌ.", "fr": "C'est de l'eau douce." }
+  },
+  {
+    "id": "w:khubz",
+    "kind": "word",
+    "ar": "خُبْزٌ",
+    "fr": "du pain",
+    "translit": "khubzun",
+    "plural": "أَخْبَازٌ",
+    "icon": "bread",
+    "gender": "m",
+    "example": { "ar": "هٰذَا خُبْزٌ.", "fr": "C'est du pain." }
+  },
+  {
+    "id": "w:ghadaa",
+    "kind": "word",
+    "ar": "غَدَاءٌ",
+    "fr": "un déjeuner (repas de midi)",
+    "translit": "ghadāʾun",
+    "plural": "أَغْدِيَةٌ",
+    "icon": "meal",
+    "gender": "m",
+    "example": { "ar": "الْغَدَاءُ قَبْلَ الظُّهْرِ.", "fr": "Le déjeuner est avant midi." }
+  },
+  {
+    "id": "w:hawaa",
+    "kind": "word",
+    "ar": "هَوَاءٌ",
+    "fr": "de l'air",
+    "translit": "hawāʾun",
+    "plural": "أَهْوِيَةٌ",
+    "gender": "m",
+    "example": { "ar": "الْهَوَاءُ فِي السَّمَاءِ.", "fr": "L'air est dans le ciel." }
+  },
+  {
+    "id": "w:janna",
+    "kind": "word",
+    "ar": "جَنَّةٌ",
+    "fr": "un jardin",
+    "translit": "jannatun",
+    "plural": "جَنَّاتٌ",
+    "gender": "f",
+    "note": "Mot féminin : la plupart des noms qui se terminent par {ar|ة} (tāʾ marbūṭa) sont féminins. Le {ar|ة} se prononce « t » quand on prononce la voyelle qui le suit (« jannatun »), et « h » quand on s'arrête sur le mot (« jannah »). Avec l'article, {ar|الْجَنَّةُ} désigne aussi le Paradis.",
+    "example": { "ar": "فِي الْجَنَّةِ زُهُورٌ.", "fr": "Dans le jardin, il y a des fleurs." }
+  },
+  {
+    "id": "w:ab",
+    "kind": "word",
+    "ar": "أَبٌ",
+    "fr": "un père",
+    "translit": "abun",
+    "plural": "آبَاءٌ",
+    "gender": "m",
+    "example": { "ar": "الْأَبُ جَالِسٌ.", "fr": "Le père est assis." }
+  },
+  {
+    "id": "w:shams",
+    "kind": "word",
+    "ar": "شَمْسٌ",
+    "fr": "un soleil",
+    "translit": "shamsun",
+    "plural": "شُمُوسٌ",
+    "icon": "sun",
+    "gender": "f",
+    "note": "Mot féminin, bien qu'il ne se termine pas par {ar|ة}. Avec l'article : {ar|الشَّمْسُ} (le soleil). Il a donné son nom aux lettres solaires.",
+    "example": { "ar": "الشَّمْسُ فِي السَّمَاءِ.", "fr": "Le soleil est dans le ciel." }
+  },
+  {
+    "id": "w:thawb",
+    "kind": "word",
+    "ar": "ثَوْبٌ",
+    "fr": "un vêtement",
+    "translit": "thawbun",
+    "plural": "أَثْوَابٌ",
+    "gender": "m",
+    "note": "Désigne aussi la longue tunique portée par les hommes.",
+    "example": { "ar": "هٰذَا ثَوْبٌ جَدِيدٌ.", "fr": "C'est un vêtement neuf." }
+  },
+  {
+    "id": "w:dhahab",
+    "kind": "word",
+    "ar": "ذَهَبٌ",
+    "fr": "de l'or",
+    "translit": "dhahabun",
+    "plural": "أَذْهَابٌ",
+    "gender": "m",
+    "example": { "ar": "هٰذَا ذَهَبٌ.", "fr": "C'est de l'or." }
+  },
+  {
+    "id": "w:lahm",
+    "kind": "word",
+    "ar": "لَحْمٌ",
+    "fr": "de la viande",
+    "translit": "laḥmun",
+    "plural": "لُحُومٌ",
+    "icon": "meat",
+    "gender": "m",
+    "example": { "ar": "هٰذَا لَحْمٌ.", "fr": "C'est de la viande." }
+  },
+  {
+    "id": "w:samaka",
+    "kind": "word",
+    "ar": "سَمَكَةٌ",
+    "fr": "un poisson",
+    "translit": "samakatun",
+    "plural": "سَمَكٌ",
+    "icon": "fish",
+    "gender": "f",
+    "note": "Mot féminin. {ar|سَمَكٌ} désigne des poissons, ou le poisson en général.",
+    "example": { "ar": "السَّمَكَةُ فِي الْمَاءِ.", "fr": "Le poisson est dans l'eau." }
+  },
+  {
+    "id": "w:zahra",
+    "kind": "word",
+    "ar": "زَهْرَةٌ",
+    "fr": "une fleur",
+    "translit": "zahratun",
+    "plural": "زُهُورٌ",
+    "icon": "flower",
+    "gender": "f",
+    "note": "Mot féminin.",
+    "example": { "ar": "الزَّهْرَةُ جَمِيلَةٌ.", "fr": "La fleur est belle." }
+  },
+  {
+    "id": "w:dayf",
+    "kind": "word",
+    "ar": "ضَيْفٌ",
+    "fr": "un invité",
+    "translit": "ḍayfun",
+    "plural": "ضُيُوفٌ",
+    "gender": "m",
+    "example": { "ar": "الضُّيُوفُ جُلُوسٌ.", "fr": "Les invités sont assis." }
+  },
+  {
+    "id": "w:ayn",
+    "kind": "word",
+    "ar": "عَيْنٌ",
+    "fr": "un œil",
+    "translit": "ʿaynun",
+    "icon": "eye",
+    "gender": "f",
+    "note": "Mot féminin sans {ar|ة}, comme la plupart des parties du corps qui vont par paire."
+  },
+  {
+    "id": "w:fam",
+    "kind": "word",
+    "ar": "فَمٌ",
+    "fr": "une bouche",
+    "translit": "famun",
+    "icon": "mouth",
+    "gender": "m"
+  },
+  {
+    "id": "w:yad",
+    "kind": "word",
+    "ar": "يَدٌ",
+    "fr": "une main",
+    "translit": "yadun",
+    "icon": "hand",
+    "gender": "f",
+    "note": "Mot féminin sans {ar|ة}, comme la plupart des parties du corps qui vont par paire."
+  },
+  {
+    "id": "w:sadr",
+    "kind": "word",
+    "ar": "صَدْرٌ",
+    "fr": "une poitrine, un torse",
+    "translit": "ṣadrun",
+    "gender": "m"
+  },
+  {
+    "id": "w:zahr",
+    "kind": "word",
+    "ar": "ظَهْرٌ",
+    "fr": "un dos",
+    "translit": "ẓahrun",
+    "gender": "m",
+    "note": "À ne pas confondre avec {ar|الظُّهْرُ} (midi, la prière de ẓuhr), qui s'écrit avec les mêmes lettres mais se prononce avec un « u »."
+  }
+]

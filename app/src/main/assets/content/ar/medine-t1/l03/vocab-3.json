@@ -1,0 +1,40 @@
+{
+  "id": "medine-t1.l03.vocab-3",
+  "type": "vocabulary",
+  "title": "Le vêtement, l'or, la viande…",
+  "icon": "meat",
+  "screens": [
+    { "id": "medine-t1.l03.vocab-3#1", "type": "present", "item": "w:thawb" },
+    { "id": "medine-t1.l03.vocab-3#2", "type": "present", "item": "w:dhahab" },
+    { "id": "medine-t1.l03.vocab-3#3", "type": "mcq", "mode": "ar-fr", "item": "w:thawb", "distractors": ["w:dhahab", "w:bab"] },
+    { "id": "medine-t1.l03.vocab-3#4", "type": "present", "item": "w:lahm" },
+    { "id": "medine-t1.l03.vocab-3#5", "type": "present", "item": "w:samaka" },
+    { "id": "medine-t1.l03.vocab-3#6", "type": "mcq", "mode": "icon-ar", "item": "w:lahm" },
+    { "id": "medine-t1.l03.vocab-3#7", "type": "present", "item": "w:zahra" },
+    { "id": "medine-t1.l03.vocab-3#8", "type": "present", "item": "w:dayf" },
+    { "id": "medine-t1.l03.vocab-3#9", "type": "mcq", "mode": "icon-ar", "item": "w:zahra" },
+    {
+      "id": "medine-t1.l03.vocab-3#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:thawb", "w:dhahab", "w:lahm", "w:samaka", "w:dayf"]
+    },
+    {
+      "id": "medine-t1.l03.vocab-3#11",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « la viande » ?" },
+      "choices": [ { "ar": "اللَّحْمُ" }, { "ar": "لَحْمٌ" }, { "ar": "الْخُبْزُ" } ],
+      "answer": 0,
+      "explain": "{ar|ل} est une lettre solaire : on écrit deux lām, et le second porte la shadda ({ar|◌ّ})."
+    },
+    {
+      "id": "medine-t1.l03.vocab-3#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "le poisson",
+      "answers": ["السَّمَكَةُ", "السَّمَكُ"]
+    },
+    { "id": "medine-t1.l03.vocab-3#13", "type": "mcq", "mode": "audio-ar", "item": "w:dayf" },
+    { "id": "medine-t1.l03.vocab-3#14", "type": "typing", "ask": "fr", "item": "w:dhahab" }
+  ]
+}

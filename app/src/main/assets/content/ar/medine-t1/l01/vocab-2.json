@@ -1,0 +1,30 @@
+{
+  "id": "medine-t1.l01.vocab-2",
+  "type": "vocabulary",
+  "title": "Les objets de la maison",
+  "icon": "key",
+  "screens": [
+    { "id": "medine-t1.l01.vocab-2#1", "type": "present", "item": "w:miftah" },
+    { "id": "medine-t1.l01.vocab-2#2", "type": "present", "item": "w:maktab" },
+    { "id": "medine-t1.l01.vocab-2#3", "type": "mcq", "mode": "ar-fr", "item": "w:miftah", "distractors": ["w:maktab", "w:bab"] },
+    { "id": "medine-t1.l01.vocab-2#4", "type": "present", "item": "w:sarir" },
+    { "id": "medine-t1.l01.vocab-2#5", "type": "mcq", "mode": "icon-ar", "item": "w:sarir" },
+    { "id": "medine-t1.l01.vocab-2#6", "type": "present", "item": "w:kursi" },
+    { "id": "medine-t1.l01.vocab-2#7", "type": "mcq", "mode": "audio-ar", "item": "w:maktab" },
+    { "id": "medine-t1.l01.vocab-2#8", "type": "mcq", "mode": "fr-ar", "item": "w:kursi" },
+    {
+      "id": "medine-t1.l01.vocab-2#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:miftah", "w:maktab", "w:sarir", "w:kursi", "w:bab"]
+    },
+    { "id": "medine-t1.l01.vocab-2#10", "type": "typing", "ask": "audio", "item": "w:qalam" },
+    {
+      "id": "medine-t1.l01.vocab-2#11",
+      "type": "match",
+      "mode": "audio-ar",
+      "items": ["w:kursi", "w:sarir", "w:kitab", "w:miftah"]
+    },
+    { "id": "medine-t1.l01.vocab-2#12", "type": "typing", "ask": "fr", "item": "w:kursi" }
+  ]
+}

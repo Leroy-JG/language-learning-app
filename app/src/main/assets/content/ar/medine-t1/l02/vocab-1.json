@@ -1,0 +1,96 @@
+{
+  "id": "medine-t1.l02.vocab-1",
+  "type": "vocabulary",
+  "title": "Questions sur ce qui est loin",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t1.l02.vocab-1#1", "type": "present", "item": "p:ma-dhalika" },
+    { "id": "medine-t1.l02.vocab-1#2", "type": "present", "item": "p:man-dhalika" },
+    {
+      "id": "medine-t1.l02.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "p:ma-dhalika",
+      "distractors": ["p:man-dhalika", "p:man-hadha"]
+    },
+    { "id": "medine-t1.l02.vocab-1#4", "type": "present", "item": "w:wa" },
+    {
+      "id": "medine-t1.l02.vocab-1#5",
+      "type": "tip",
+      "title": "Relier deux phrases avec {ar|وَ}",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|وَ} (et) est une particule ({ar|حَرْفٌ}). Elle s'écrit **collée** au mot qui la suit." },
+        { "type": "example", "ar": "هٰذَا مَسْجِدٌ وَذٰلِكَ بَيْتٌ.", "fr": "Ceci est une mosquée et cela est une maison." },
+        { "type": "example", "ar": "هٰذَا حِصَانٌ وَذٰلِكَ حِمَارٌ.", "fr": "Ceci est un cheval et cela est un âne." },
+        { "type": "example", "ar": "مَنْ هٰذَا وَمَنْ ذٰلِكَ؟", "fr": "Qui est celui-ci et qui est celui-là ?" }
+      ]
+    },
+    {
+      "id": "medine-t1.l02.vocab-1#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["p:ma-hadha", "p:ma-dhalika", "p:man-hadha", "p:man-dhalika"]
+    },
+    {
+      "id": "medine-t1.l02.vocab-1#7",
+      "type": "order",
+      "fr": "Ceci est une mosquée et cela est une maison.",
+      "answers": [["هٰذَا", "مَسْجِدٌ", "وَذٰلِكَ", "بَيْتٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l02.vocab-1#7b",
+      "type": "tip",
+      "title": "Questions sur ce qui est loin",
+      "blocks": [
+        { "type": "paragraph", "text": "Pour ce qui est loin, on pose les mêmes questions avec {ar|ذٰلِكَ}." },
+        { "type": "example", "ar": "مَا ذٰلِكَ؟", "fr": "Qu'est-ce que c'est, là-bas ?" },
+        { "type": "example", "ar": "مَنْ ذٰلِكَ؟", "fr": "Qui est-ce, là-bas ?" },
+        { "type": "paragraph", "text": "{ar|أَ} se colle aussi à {ar|ذٰلِكَ} : {ar|أَ} + {ar|ذٰلِكَ} → {ar|أَذٰلِكَ}." },
+        { "type": "example", "ar": "أَذٰلِكَ بَيْتٌ؟", "fr": "Est-ce une maison, là-bas ?" },
+        { "type": "example", "ar": "نَعَمْ، ذٰلِكَ بَيْتٌ.", "fr": "Oui, c'est une maison." }
+      ]
+    },
+    {
+      "id": "medine-t1.l02.vocab-1#8",
+      "type": "question",
+      "instruction": "Réponds à la question.",
+      "context": { "icon": "cat" },
+      "prompt": { "ar": "أَذٰلِكَ كَلْبٌ؟" },
+      "choices": [ { "ar": "لَا، ذٰلِكَ قِطٌّ." }, { "ar": "نَعَمْ، ذٰلِكَ كَلْبٌ." }, { "ar": "لَا، هٰذَا كَلْبٌ." } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l02.vocab-1#9",
+      "type": "typing",
+      "instruction": "Réponds à la question en arabe.",
+      "ask": "question",
+      "question": "مَا ذٰلِكَ؟",
+      "context": { "icon": "star" },
+      "answers": ["ذٰلِكَ نَجْمٌ.", "نَجْمٌ."],
+      "fr": "Cela est une étoile."
+    },
+    {
+      "id": "medine-t1.l02.vocab-1#10",
+      "type": "fill_gap",
+      "sentence": "هٰذَا حِصَانٌ {0} حِمَارٌ.",
+      "fr": "Ceci est un cheval et cela est un âne.",
+      "gaps": [{ "answers": ["وَذٰلِكَ"] }],
+      "options": ["وَذٰلِكَ", "وَهٰذَا", "وَمَا"]
+    },
+    {
+      "id": "medine-t1.l02.vocab-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Qui est-ce, là-bas ?",
+      "answers": ["مَنْ ذٰلِكَ؟"]
+    },
+    {
+      "id": "medine-t1.l02.vocab-1#12",
+      "type": "mcq",
+      "mode": "audio-ar",
+      "item": "p:man-dhalika",
+      "distractors": ["p:man-hadha", "p:ma-dhalika"]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "medine-t1.l02.vocab-2",
+  "type": "vocabulary",
+  "title": "À la mosquée et à table",
+  "icon": "milk",
+  "screens": [
+    { "id": "medine-t1.l02.vocab-2#1", "type": "present", "item": "w:imam" },
+    { "id": "medine-t1.l02.vocab-2#2", "type": "present", "item": "w:hajar" },
+    { "id": "medine-t1.l02.vocab-2#3", "type": "mcq", "mode": "ar-fr", "item": "w:imam", "distractors": ["w:hajar", "w:mudarris"] },
+    { "id": "medine-t1.l02.vocab-2#4", "type": "mcq", "mode": "icon-ar", "item": "w:hajar", "distractors": ["w:imam", "w:najm"] },
+    { "id": "medine-t1.l02.vocab-2#5", "type": "present", "item": "w:sukkar" },
+    { "id": "medine-t1.l02.vocab-2#6", "type": "present", "item": "w:laban" },
+    {
+      "id": "medine-t1.l02.vocab-2#6b",
+      "type": "tip",
+      "title": "« Du sucre », « du lait »",
+      "blocks": [
+        { "type": "paragraph", "text": "Pour une matière qu'on ne compte pas (le sucre, le lait…), le nom indéfini se traduit en français par « du », « de la » ou « de l' », et non par « un » ou « une »." },
+        { "type": "example", "ar": "هٰذَا سُكَّرٌ.", "fr": "C'est du sucre." },
+        { "type": "example", "ar": "ذٰلِكَ لَبَنٌ.", "fr": "Cela est du lait." }
+      ]
+    },
+    { "id": "medine-t1.l02.vocab-2#7", "type": "mcq", "mode": "icon-ar", "item": "w:laban" },
+    {
+      "id": "medine-t1.l02.vocab-2#8",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:sukkar",
+      "distractors": ["w:laban", "w:hajar"]
+    },
+    {
+      "id": "medine-t1.l02.vocab-2#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:imam", "w:hajar", "w:sukkar", "w:laban", "w:mudarris"]
+    },
+    {
+      "id": "medine-t1.l02.vocab-2#10",
+      "type": "question",
+      "instruction": "Réponds à la question.",
+      "context": { "icon": "rock" },
+      "prompt": { "ar": "مَا ذٰلِكَ؟" },
+      "choices": [ { "ar": "ذٰلِكَ حَجَرٌ." }, { "ar": "ذٰلِكَ لَبَنٌ." }, { "ar": "ذٰلِكَ إِمَامٌ." } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l02.vocab-2#11",
+      "type": "fill_gap",
+      "sentence": "هٰذَا سُكَّرٌ {0} لَبَنٌ.",
+      "fr": "Ceci est du sucre et cela est du lait.",
+      "gaps": [{ "answers": ["وَذٰلِكَ"] }],
+      "options": ["وَذٰلِكَ", "وَهٰذَا", "وَمَا"]
+    },
+    { "id": "medine-t1.l02.vocab-2#12", "type": "typing", "ask": "fr", "item": "w:hajar" },
+    {
+      "id": "medine-t1.l02.vocab-2#13",
+      "type": "match",
+      "mode": "audio-ar",
+      "items": ["w:imam", "w:sukkar", "w:laban", "w:hajar"]
+    },
+    {
+      "id": "medine-t1.l02.vocab-2#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Qui est-ce, là-bas ? Celui-là est un imam.",
+      "answers": ["مَنْ ذٰلِكَ؟ ذٰلِكَ إِمَامٌ."]
+    }
+  ]
+}

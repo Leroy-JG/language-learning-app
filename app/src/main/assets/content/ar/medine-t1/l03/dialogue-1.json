@@ -1,0 +1,66 @@
+{
+  "id": "medine-t1.l03.dialogue-1",
+  "type": "dialogue",
+  "title": "Le déjeuner",
+  "icon": "meal",
+  "screens": [
+    {
+      "id": "medine-t1.l03.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Le déjeuner",
+      "intro": "Yāsir est invité chez Ḥāmid pour le déjeuner.",
+      "speakers": {
+        "A": { "name": "Yāsir", "voice": "m2" },
+        "B": { "name": "Ḥāmid", "voice": "m1" }
+      },
+      "lines": [
+        { "speaker": "A", "ar": "مَا هٰذَا؟", "fr": "Qu'est-ce que c'est ?" },
+        { "speaker": "B", "ar": "هٰذَا لَحْمٌ، وَذٰلِكَ سَمَكٌ.", "fr": "C'est de la viande, et là-bas, c'est du poisson." },
+        { "speaker": "A", "ar": "أَهٰذَا مَاءٌ؟", "fr": "Est-ce de l'eau ?" },
+        { "speaker": "B", "ar": "لَا، هٰذَا لَبَنٌ.", "fr": "Non, c'est du lait." },
+        { "speaker": "A", "ar": "وَمَا ذٰلِكَ؟", "fr": "Et qu'est-ce que c'est, là-bas ?" },
+        { "speaker": "B", "ar": "ذٰلِكَ خُبْزٌ.", "fr": "Là-bas, c'est du pain." },
+        { "speaker": "A", "ar": "الْبَابُ مَفْتُوحٌ!", "fr": "La porte est ouverte !" },
+        { "speaker": "B", "ar": "نَعَمْ، ذٰلِكَ ضَيْفٌ.", "fr": "Oui, là-bas, c'est un invité." }
+      ]
+    },
+    {
+      "id": "medine-t1.l03.dialogue-1#2",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l03.dialogue-1#1" },
+      "prompt": { "fr": "Qu'y a-t-il à manger ?" },
+      "choices": [ { "fr": "De la viande, du poisson et du pain" }, { "fr": "Du poisson et du sucre" }, { "fr": "Des fleurs et de l'eau" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l03.dialogue-1#3",
+      "type": "true_false",
+      "context": { "dialogue": "medine-t1.l03.dialogue-1#1" },
+      "statement": { "fr": "Ce que Yāsir prend pour de l'eau est en fait du lait." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l03.dialogue-1#4",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l03.dialogue-1#1" },
+      "prompt": { "fr": "Yāsir remarque que la porte est ouverte. Que répond Ḥāmid ?" },
+      "choices": [ { "fr": "Là-bas, c'est un invité." }, { "fr": "La porte est cassée." }, { "fr": "Là-bas, c'est du pain." } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l03.dialogue-1#5",
+      "type": "order",
+      "fr": "La porte est ouverte.",
+      "answers": [["الْبَابُ", "مَفْتُوحٌ"]],
+      "punctuation": ".",
+      "distractors": ["مَكْسُورٌ"]
+    },
+    {
+      "id": "medine-t1.l03.dialogue-1#6",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Non, c'est du lait.",
+      "answers": ["لَا، هٰذَا لَبَنٌ."]
+    }
+  ]
+}

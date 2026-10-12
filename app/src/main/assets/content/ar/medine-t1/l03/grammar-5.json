@@ -1,0 +1,87 @@
+{
+  "id": "medine-t1.l03.grammar-5",
+  "type": "grammar",
+  "title": "Les lettres solaires",
+  "icon": "sun",
+  "screens": [
+    { "id": "medine-t1.l03.grammar-5#1", "type": "present", "item": "w:shams" },
+    {
+      "id": "medine-t1.l03.grammar-5#2",
+      "type": "tip",
+      "title": "Les lettres solaires : {ar|الْحُرُوفُ الشَّمْسِيَّةُ}",
+      "blocks": [
+        { "type": "paragraph", "text": "Quand l'article est suivi d'une **lettre solaire**, on **ne prononce pas** le lām : la lettre solaire est **doublée** et porte une shadda ({ar|◌ّ})." },
+        { "type": "example", "ar": "الشَّمْسُ", "fr": "le soleil (« ash-shamsu »)" },
+        { "type": "example", "ar": "النَّجْمُ", "fr": "l'étoile (« an-najmu »)" },
+        { "type": "example", "ar": "الرَّجُلُ", "fr": "l'homme (« ar-rajulu »)" },
+        { "type": "example", "ar": "الطَّالِبُ", "fr": "l'étudiant (« aṭ-ṭālibu »)" },
+        { "type": "paragraph", "text": "Le lām s'écrit toujours, mais il ne se prononce pas. Il y a **14 lettres solaires** :" },
+        {
+          "type": "table",
+          "header": ["Lettre", "Exemple", "Français"],
+          "rows": [
+            ["{ar|ت}", "{ar|التَّاجِرُ}", "le commerçant"],
+            ["{ar|ث}", "{ar|الثَّوْبُ}", "le vêtement"],
+            ["{ar|د}", "{ar|الدِّيكُ}", "le coq"],
+            ["{ar|ذ}", "{ar|الذَّهَبُ}", "l'or"],
+            ["{ar|ر}", "{ar|الرَّجُلُ}", "l'homme"],
+            ["{ar|ز}", "{ar|الزَّهْرَةُ}", "la fleur"],
+            ["{ar|س}", "{ar|السَّمَكُ}", "le poisson"],
+            ["{ar|ش}", "{ar|الشَّمْسُ}", "le soleil"],
+            ["{ar|ص}", "{ar|الصَّدْرُ}", "la poitrine"],
+            ["{ar|ض}", "{ar|الضَّيْفُ}", "l'invité"],
+            ["{ar|ط}", "{ar|الطَّالِبُ}", "l'étudiant"],
+            ["{ar|ظ}", "{ar|الظَّهْرُ}", "le dos"],
+            ["{ar|ل}", "{ar|اللَّحْمُ}", "la viande"],
+            ["{ar|ن}", "{ar|النَّجْمُ}", "l'étoile"]
+          ]
+        },
+        { "type": "note", "text": "Astuce : toute lettre qui n'est pas lunaire est solaire." }
+      ]
+    },
+    {
+      "id": "medine-t1.l03.grammar-5#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|الشَّمْسُ}, prononce-t-on le lām de l'article ?" },
+      "choices": [ { "fr": "Oui : « al-shamsu »" }, { "fr": "Non : « ash-shamsu »" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|ش} est une lettre solaire : elle est doublée, et le lām ne se prononce pas."
+    },
+    {
+      "id": "medine-t1.l03.grammar-5#4",
+      "type": "question",
+      "prompt": { "fr": "Après l'article, comment reconnaît-on une lettre solaire à l'écrit ?" },
+      "choices": [ { "fr": "Elle porte une shadda" }, { "fr": "Le lām porte un sukūn" }, { "fr": "Elle porte un tanwin" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l03.grammar-5#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "le soleil",
+      "answers": ["الشَّمْسُ"]
+    },
+    {
+      "id": "medine-t1.l03.grammar-5#6",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|النَّجْمُ}, on prononce « an-najmu »." },
+      "answer": true,
+      "explain": "{ar|ن} est une lettre solaire : « al » devient « an »."
+    },
+    {
+      "id": "medine-t1.l03.grammar-5#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "l'homme",
+      "answers": ["الرَّجُلُ"]
+    },
+    {
+      "id": "medine-t1.l03.grammar-5#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "l'étudiant",
+      "answers": ["الطَّالِبُ"]
+    }
+  ]
+}

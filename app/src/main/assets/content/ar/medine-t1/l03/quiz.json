@@ -1,0 +1,105 @@
+{
+  "id": "medine-t1.l03.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 3",
+  "screens": [
+    {
+      "id": "medine-t1.l03.quiz#1",
+      "type": "question",
+      "prompt": { "fr": "Lequel de ces mots est **défini** ?" },
+      "choices": [ { "ar": "الْقَلَمُ" }, { "ar": "قَلَمٌ" }, { "ar": "قَلَمًا" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l03.quiz#2",
+      "type": "question",
+      "prompt": { "fr": "{ar|كِتَابٌ} avec l'article devient…" },
+      "choices": [ { "ar": "الْكِتَابُ" }, { "ar": "كُتُبٌ" }, { "ar": "الْكَلْبُ" } ],
+      "answer": 0
+    },
+    { "id": "medine-t1.l03.quiz#3", "type": "mcq", "mode": "icon-ar", "item": "w:shams", "distractors": ["w:qamar", "w:najm"] },
+    { "id": "medine-t1.l03.quiz#4", "type": "mcq", "mode": "ar-fr", "item": "w:maksur", "distractors": ["w:maftuh", "w:jadid"] },
+    {
+      "id": "medine-t1.l03.quiz#5",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:maa", "w:khubz", "w:lahm", "w:samaka", "w:zahra"]
+    },
+    {
+      "id": "medine-t1.l03.quiz#6",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|الشَّمْسُ}, le lām de l'article se prononce-t-il ?" },
+      "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|ش} est une lettre solaire : on dit « ash-shamsu »."
+    },
+    {
+      "id": "medine-t1.l03.quiz#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|الْقَمَرُ}, le lām de l'article se prononce-t-il ?" },
+      "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|ق} est une lettre lunaire : on dit « al-qamaru »."
+    },
+    {
+      "id": "medine-t1.l03.quiz#8",
+      "type": "order",
+      "fr": "Le stylo est cassé.",
+      "answers": [["الْقَلَمُ", "مَكْسُورٌ"]],
+      "punctuation": ".",
+      "distractors": ["مَفْتُوحٌ"]
+    },
+    {
+      "id": "medine-t1.l03.quiz#9",
+      "type": "fill_gap",
+      "sentence": "{0} جَالِسٌ.",
+      "fr": "Le garçon est assis.",
+      "gaps": [{ "answers": ["الْوَلَدُ"] }],
+      "options": ["الْوَلَدُ", "وَلَدٌ", "مَفْتُوحٌ"]
+    },
+    {
+      "id": "medine-t1.l03.quiz#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "le soleil",
+      "answers": ["الشَّمْسُ"]
+    },
+    {
+      "id": "medine-t1.l03.quiz#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "la main",
+      "answers": ["الْيَدُ"]
+    },
+    {
+      "id": "medine-t1.l03.quiz#12",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|الرَّجُلُ}, on prononce le lām de l'article." },
+      "answer": false,
+      "explain": "{ar|ر} est une lettre solaire : on dit « ar-rajulu »."
+    },
+    {
+      "id": "medine-t1.l03.quiz#13",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:qamar", "w:dayf", "w:zahra", "w:thawb"]
+    },
+    {
+      "id": "medine-t1.l03.quiz#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La porte est ouverte.",
+      "answers": ["الْبَابُ مَفْتُوحٌ."]
+    },
+    {
+      "id": "medine-t1.l03.quiz#15",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|حَرْفُ التَّعْرِيفِ} ?" },
+      "choices": [ { "fr": "l'article défini" }, { "fr": "la particule interrogative" }, { "fr": "le nom démonstratif" } ],
+      "answer": 0
+    },
+    { "id": "medine-t1.l03.quiz#16", "type": "mcq", "mode": "audio-ar", "item": "w:yad", "distractors": ["w:ayn", "w:fam"] }
+  ]
+}

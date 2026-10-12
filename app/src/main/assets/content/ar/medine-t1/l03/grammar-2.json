@@ -1,0 +1,88 @@
+{
+  "id": "medine-t1.l03.grammar-2",
+  "type": "grammar",
+  "title": "L'article {ar|الْ}",
+  "icon": "book",
+  "screens": [
+    { "id": "medine-t1.l03.grammar-2#1", "type": "present", "item": "w:al" },
+    {
+      "id": "medine-t1.l03.grammar-2#2",
+      "type": "tip",
+      "title": "Rendre un nom défini",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|الْ} est l'**article défini** ({ar|حَرْفُ التَّعْرِيفِ}) : « le, la, les ». C'est une particule ({ar|حَرْفٌ}) qui rend défini un nom indéfini." },
+        { "type": "paragraph", "text": "Il se colle au début du nom, et le nom **perd son tanwin** :" },
+        {
+          "type": "table",
+          "header": ["Indéfini", "Défini"],
+          "rows": [
+            ["{ar|بَيْتٌ} (une maison)", "{ar|الْبَيْتُ} (la maison)"],
+            ["{ar|قَلَمٌ} (un stylo)", "{ar|الْقَلَمُ} (le stylo)"],
+            ["{ar|كِتَابٌ} (un livre)", "{ar|الْكِتَابُ} (le livre)"],
+            ["{ar|جَمَلٌ} (un chameau)", "{ar|الْجَمَلُ} (le chameau)"]
+          ]
+        },
+        { "type": "example", "ar": "الْبَيْتُ", "fr": "la maison" },
+        { "type": "example", "ar": "الْكِتَابُ", "fr": "le livre" },
+        { "type": "note", "text": "Un nom n'a jamais à la fois l'article et le tanwin : on écrit {ar|الْكِتَابُ}, jamais {ar|الْكِتَابٌ}." }
+      ]
+    },
+    {
+      "id": "medine-t1.l03.grammar-2#3",
+      "type": "question",
+      "prompt": { "fr": "{ar|بَيْتٌ} avec l'article devient…" },
+      "choices": [ { "ar": "الْبَيْتُ" }, { "ar": "الْبَابُ" }, { "ar": "بُيُوتٌ" } ],
+      "answer": 0,
+      "explain": "Avec l'article, le nom perd son tanwin : {ar|◌ٌ} devient {ar|◌ُ}."
+    },
+    {
+      "id": "medine-t1.l03.grammar-2#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "le livre",
+      "answers": ["الْكِتَابُ"]
+    },
+    {
+      "id": "medine-t1.l03.grammar-2#5",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|الْجَمَلُ} ?" },
+      "choices": [ { "fr": "le chameau" }, { "fr": "un chameau" }, { "fr": "ce chameau-là" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l03.grammar-2#6",
+      "type": "question",
+      "prompt": { "fr": "{ar|الْقَلَمُ} est…" },
+      "choices": [ { "fr": "défini ({ar|مَعْرِفَةٌ})" }, { "fr": "indéfini ({ar|نَكِرَةٌ})" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l03.grammar-2#7",
+      "type": "true_false",
+      "statement": { "fr": "Avec l'article, le nom garde son tanwin." },
+      "answer": false,
+      "explain": "Le nom perd son tanwin ({ar|◌ٌ} devient {ar|◌ُ}) : {ar|كِتَابٌ} → {ar|الْكِتَابُ}."
+    },
+    {
+      "id": "medine-t1.l03.grammar-2#8",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « la porte » ?" },
+      "choices": [ { "ar": "الْبَابُ" }, { "ar": "بَابٌ" }, { "ar": "الْبَيْتُ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l03.grammar-2#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "la maison",
+      "answers": ["الْبَيْتُ"]
+    },
+    {
+      "id": "medine-t1.l03.grammar-2#10",
+      "type": "question",
+      "prompt": { "fr": "Comment appelle-t-on l'article {ar|الْ} en arabe ?" },
+      "choices": [ { "ar": "حَرْفُ التَّعْرِيفِ" }, { "ar": "حَرْفُ الِاسْتِفْهَامِ" }, { "ar": "اِسْمُ الْإِشَارَةِ" } ],
+      "answer": 0
+    }
+  ]
+}

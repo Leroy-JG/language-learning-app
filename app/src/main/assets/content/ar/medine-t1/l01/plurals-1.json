@@ -1,0 +1,80 @@
+{
+  "id": "medine-t1.l01.plurals-1",
+  "type": "vocabulary",
+  "title": "Pluriels : lieux et objets",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t1.l01.plurals-1#1",
+      "type": "tip",
+      "title": "Singulier et pluriel",
+      "blocks": [
+        { "type": "paragraph", "text": "Un nom a un singulier ({ar|مُفْرَدٌ}) et un pluriel ({ar|جَمْعٌ}) ; l'arabe a aussi un duel, pour deux, que tu verras plus tard. Le pluriel change souvent la forme du mot : on l'apprend avec le mot." },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|كِتَابٌ}", "{ar|كُتُبٌ}", "livre"],
+            ["{ar|مَسْجِدٌ}", "{ar|مَسَاجِدُ}", "mosquée"],
+            ["{ar|بَيْتٌ}", "{ar|بُيُوتٌ}", "maison"],
+            ["{ar|بَابٌ}", "{ar|أَبْوَابٌ}", "porte"],
+            ["{ar|مِفْتَاحٌ}", "{ar|مَفَاتِيحُ}", "clé"],
+            ["{ar|مَكْتَبٌ}", "{ar|مَكَاتِبُ}", "bureau"],
+            ["{ar|سَرِيرٌ}", "{ar|سُرُرٌ}", "lit"],
+            ["{ar|كُرْسِيٌّ}", "{ar|كَرَاسِيُّ}", "chaise"],
+            ["{ar|قَلَمٌ}", "{ar|أَقْلَامٌ}", "stylo"]
+          ]
+        },
+        { "type": "note", "text": "Certains pluriels ne prennent jamais de tanwin, même quand ils sont indéfinis : {ar|مَسَاجِدُ} (des mosquées), {ar|مَفَاتِيحُ} (des clés), {ar|مَكَاتِبُ} (des bureaux), {ar|كَرَاسِيُّ} (des chaises). Tu étudieras ces noms plus tard." },
+        { "type": "note", "text": "{ar|هٰذَا} ne s'emploie qu'avec un singulier. Les pluriels sont ici pour enrichir ton vocabulaire : tu apprendras plus tard à les utiliser dans des phrases." }
+      ]
+    },
+    {
+      "id": "medine-t1.l01.plurals-1#2",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|كِتَابٌ} ?" },
+      "choices": [ { "ar": "كُتُبٌ" }, { "ar": "بُيُوتٌ" }, { "ar": "أَقْلَامٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.plurals-1#3",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|بَيْتٌ} ?" },
+      "choices": [ { "ar": "بُيُوتٌ" }, { "ar": "أَبْوَابٌ" }, { "ar": "كُتُبٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.plurals-1#4",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:kitab", "w:bayt", "w:bab", "w:qalam", "w:masjid"]
+    },
+    {
+      "id": "medine-t1.l01.plurals-1#5",
+      "type": "question",
+      "prompt": { "fr": "{ar|مَفَاتِيحُ} est le pluriel de…" },
+      "choices": [ { "ar": "مِفْتَاحٌ" }, { "ar": "مَكْتَبٌ" }, { "ar": "مَسْجِدٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.plurals-1#6",
+      "type": "question",
+      "prompt": { "fr": "{ar|كَرَاسِيُّ} est le pluriel de…" },
+      "choices": [ { "ar": "كُرْسِيٌّ" }, { "ar": "سَرِيرٌ" }, { "ar": "كِتَابٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.plurals-1#7",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:miftah", "w:maktab", "w:sarir", "w:kursi"]
+    },
+    {
+      "id": "medine-t1.l01.plurals-1#8",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|قَلَمٌ} ?" },
+      "choices": [ { "ar": "أَقْلَامٌ" }, { "ar": "أَبْوَابٌ" }, { "ar": "سُرُرٌ" } ],
+      "answer": 0
+    }
+  ]
+}

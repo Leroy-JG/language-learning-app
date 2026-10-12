@@ -1,0 +1,25 @@
+{
+  "id": "medine-t1.l02",
+  "number": 2,
+  "title": { "ar": "الدَّرْسُ الثَّانِي", "fr": "Cela est… : le démonstratif {ar|ذٰلِكَ}" },
+  "description": "Montrer ce qui est loin avec {ar|ذٰلِكَ}, relier deux phrases avec {ar|وَ} et classer les mots que tu connais.",
+  "source": "Tome de Médine 1, leçon 2",
+  "sections": [
+    {
+      "title": "Rappel du chapitre 1",
+      "activities": ["recap"]
+    },
+    {
+      "title": "Montrer ce qui est loin : {ar|ذٰلِكَ}",
+      "activities": ["grammar-1", "vocab-1", "grammar-2"]
+    },
+    {
+      "title": "Nouveaux mots",
+      "activities": ["vocab-2", "plurals-1", "dialogue-1", "dialogue-2"]
+    },
+    {
+      "title": "Bilan du chapitre",
+      "activities": ["quiz"]
+    }
+  ]
+}

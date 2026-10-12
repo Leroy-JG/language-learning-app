@@ -1,0 +1,79 @@
+[
+  {
+    "id": "w:dhalika",
+    "kind": "word",
+    "ar": "ذٰلِكَ",
+    "fr": "cela, celui-là (loin)",
+    "translit": "dhālika",
+    "gender": "m",
+    "note": "Nom démonstratif ({ar|اِسْمُ إِشَارَةٍ}) pour ce qui est singulier, masculin et éloigné.",
+    "example": { "ar": "ذٰلِكَ نَجْمٌ.", "fr": "Cela est une étoile." }
+  },
+  {
+    "id": "p:ma-dhalika",
+    "kind": "phrase",
+    "ar": "مَا ذٰلِكَ؟",
+    "fr": "Qu'est-ce que c'est, là-bas ?",
+    "translit": "mā dhālika"
+  },
+  {
+    "id": "p:man-dhalika",
+    "kind": "phrase",
+    "ar": "مَنْ ذٰلِكَ؟",
+    "fr": "Qui est-ce, là-bas ?",
+    "translit": "man dhālika"
+  },
+  {
+    "id": "w:wa",
+    "kind": "word",
+    "ar": "وَ",
+    "fr": "et",
+    "translit": "wa",
+    "note": "Particule ({ar|حَرْفٌ}) qui s'écrit collée au mot suivant : {ar|وَذٰلِكَ} (et cela).",
+    "example": { "ar": "هٰذَا مَسْجِدٌ وَذٰلِكَ بَيْتٌ.", "fr": "Ceci est une mosquée et cela est une maison." }
+  },
+  {
+    "id": "w:imam",
+    "kind": "word",
+    "ar": "إِمَامٌ",
+    "fr": "un imam",
+    "translit": "imāmun",
+    "plural": "أَئِمَّةٌ",
+    "gender": "m",
+    "note": "Celui qui dirige la prière.",
+    "example": { "ar": "هٰذَا إِمَامُ الْمَسْجِدِ.", "fr": "C'est l'imam de la mosquée." }
+  },
+  {
+    "id": "w:hajar",
+    "kind": "word",
+    "ar": "حَجَرٌ",
+    "fr": "une pierre",
+    "translit": "ḥajarun",
+    "plural": "حِجَارَةٌ",
+    "icon": "rock",
+    "gender": "m",
+    "example": { "ar": "ذٰلِكَ حَجَرٌ.", "fr": "Cela est une pierre." }
+  },
+  {
+    "id": "w:sukkar",
+    "kind": "word",
+    "ar": "سُكَّرٌ",
+    "fr": "du sucre",
+    "translit": "sukkarun",
+    "gender": "m",
+    "note": "Nom de matière (« du sucre ») : il garde la même forme au pluriel.",
+    "example": { "ar": "أَهٰذَا سُكَّرٌ؟", "fr": "Est-ce du sucre ?" }
+  },
+  {
+    "id": "w:laban",
+    "kind": "word",
+    "ar": "لَبَنٌ",
+    "fr": "du lait",
+    "translit": "labanun",
+    "plural": "أَلْبَانٌ",
+    "icon": "milk",
+    "gender": "m",
+    "note": "Son pluriel {ar|أَلْبَانٌ} désigne plusieurs sortes de lait.",
+    "example": { "ar": "ذٰلِكَ لَبَنٌ.", "fr": "Cela est du lait." }
+  }
+]

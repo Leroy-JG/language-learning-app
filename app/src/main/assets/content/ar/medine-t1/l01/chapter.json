@@ -1,0 +1,25 @@
+{
+  "id": "medine-t1.l01",
+  "number": 1,
+  "title": { "ar": "الدَّرْسُ الْأَوَّلُ", "fr": "Ceci est… : le démonstratif et les questions" },
+  "description": "Les trois sortes de mots, montrer ce qui est proche avec {ar|هٰذَا}, demander « qu'est-ce que c'est ? », « est-ce… ? » et « qui est-ce ? », répondre par oui ou non.",
+  "source": "Tome de Médine 1, leçon 1 (parties 1 à 3)",
+  "sections": [
+    {
+      "title": "Les mots et le démonstratif {ar|هٰذَا}",
+      "activities": ["intro", "vocab-1", "vocab-2", "grammar-1", "plurals-1"]
+    },
+    {
+      "title": "Poser une question avec {ar|أَ} et {ar|مَا}",
+      "activities": ["vocab-3", "grammar-2", "dialogue-1"]
+    },
+    {
+      "title": "Demander « qui ? » avec {ar|مَنْ}",
+      "activities": ["vocab-4", "vocab-5", "grammar-3", "plurals-2", "dialogue-2"]
+    },
+    {
+      "title": "Bilan du chapitre",
+      "activities": ["quiz"]
+    }
+  ]
+}

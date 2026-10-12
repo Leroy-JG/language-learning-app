@@ -1,0 +1,31 @@
+{
+  "id": "medine-t1.l01.vocab-3",
+  "type": "vocabulary",
+  "title": "Poser des questions",
+  "icon": "question",
+  "screens": [
+    { "id": "medine-t1.l01.vocab-3#1", "type": "present", "item": "w:ma" },
+    { "id": "medine-t1.l01.vocab-3#2", "type": "present", "item": "p:ma-hadha" },
+    { "id": "medine-t1.l01.vocab-3#3", "type": "present", "item": "w:qamis" },
+    { "id": "medine-t1.l01.vocab-3#4", "type": "present", "item": "w:najm" },
+    { "id": "medine-t1.l01.vocab-3#5", "type": "mcq", "mode": "icon-ar", "item": "w:najm", "distractors": ["w:qamis", "w:qalam"] },
+    { "id": "medine-t1.l01.vocab-3#6", "type": "mcq", "mode": "ar-fr", "item": "w:qamis", "distractors": ["w:najm", "w:kursi"] },
+    { "id": "medine-t1.l01.vocab-3#7", "type": "present", "item": "w:a" },
+    { "id": "medine-t1.l01.vocab-3#8", "type": "present", "item": "w:naam" },
+    { "id": "medine-t1.l01.vocab-3#9", "type": "present", "item": "w:la" },
+    {
+      "id": "medine-t1.l01.vocab-3#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:ma", "w:a", "w:naam", "w:la"]
+    },
+    { "id": "medine-t1.l01.vocab-3#11", "type": "mcq", "mode": "audio-ar", "item": "w:qamis", "distractors": ["w:najm", "w:kitab"] },
+    {
+      "id": "medine-t1.l01.vocab-3#12",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:qamis", "w:najm", "w:kursi", "w:sarir"]
+    },
+    { "id": "medine-t1.l01.vocab-3#13", "type": "typing", "ask": "fr", "item": "w:najm" }
+  ]
+}

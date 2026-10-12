@@ -1,0 +1,97 @@
+{
+  "id": "medine-t1.l02.grammar-2",
+  "type": "grammar",
+  "title": "Classer les mots",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l02.grammar-2#1",
+      "type": "tip",
+      "title": "Les mots que tu connais",
+      "blocks": [
+        { "type": "paragraph", "text": "Voici où se rangent, parmi les trois sortes de mots, ceux que tu as appris pour montrer, interroger, répondre et relier :" },
+        {
+          "type": "table",
+          "header": ["Catégorie", "Sorte", "Mots"],
+          "rows": [
+            ["nom ({ar|اِسْمٌ})", "noms interrogatifs ({ar|أَسْمَاءُ الِاسْتِفْهَامِ})", "{ar|مَنْ}, {ar|مَا}"],
+            ["nom ({ar|اِسْمٌ})", "noms démonstratifs ({ar|أَسْمَاءُ الْإِشَارَةِ})", "{ar|هٰذَا}, {ar|ذٰلِكَ}"],
+            ["particule ({ar|حَرْفٌ})", "particule interrogative ({ar|حَرْفُ الِاسْتِفْهَامِ})", "{ar|أَ}"],
+            ["particule ({ar|حَرْفٌ})", "particules de réponse ({ar|حُرُوفُ الْجَوَابِ})", "{ar|نَعَمْ}, {ar|لَا}"],
+            ["particule ({ar|حَرْفٌ})", "particule de coordination ({ar|حَرْفُ الْعَطْفِ})", "{ar|وَ}"],
+            ["verbe ({ar|فِعْلٌ})", "—", "tu les verras plus tard"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l02.grammar-2#2",
+      "type": "question",
+      "prompt": { "fr": "{ar|ذٰلِكَ} est…" },
+      "choices": [ { "fr": "un nom démonstratif" }, { "fr": "un nom interrogatif" }, { "fr": "une particule interrogative" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l02.grammar-2#3",
+      "type": "question",
+      "prompt": { "fr": "{ar|مَنْ} est…" },
+      "choices": [ { "fr": "un nom démonstratif" }, { "fr": "un nom interrogatif" }, { "fr": "une particule interrogative" } ],
+      "answer": 1
+    },
+    {
+      "id": "medine-t1.l02.grammar-2#4",
+      "type": "question",
+      "prompt": { "fr": "{ar|أَ} est…" },
+      "choices": [ { "fr": "un nom démonstratif" }, { "fr": "un nom interrogatif" }, { "fr": "une particule interrogative" } ],
+      "answer": 2
+    },
+    {
+      "id": "medine-t1.l02.grammar-2#5",
+      "type": "question",
+      "context": { "icon": "teacher" },
+      "prompt": { "fr": "Une personne est loin de toi. Tu veux savoir qui c'est : quelle question poses-tu ?" },
+      "choices": [ { "ar": "مَنْ ذٰلِكَ؟" }, { "ar": "مَا ذٰلِكَ؟" }, { "ar": "مَنْ هٰذَا؟" } ],
+      "answer": 0,
+      "explain": "C'est une personne ({ar|مَنْ}) et elle est loin ({ar|ذٰلِكَ})."
+    },
+    {
+      "id": "medine-t1.l02.grammar-2#6",
+      "type": "question",
+      "context": { "icon": "camel" },
+      "prompt": { "fr": "Un animal est loin de toi. Tu veux savoir ce que c'est : quelle question poses-tu ?" },
+      "choices": [ { "ar": "مَا ذٰلِكَ؟" }, { "ar": "مَنْ ذٰلِكَ؟" }, { "ar": "مَا هٰذَا؟" } ],
+      "answer": 0,
+      "explain": "Un animal n'est pas doué de raison ({ar|مَا}) et il est loin ({ar|ذٰلِكَ})."
+    },
+    {
+      "id": "medine-t1.l02.grammar-2#7",
+      "type": "fill_gap",
+      "sentence": "{0} هٰذَا {1} ذٰلِكَ؟",
+      "fr": "Qui est celui-ci et qui est celui-là ?",
+      "gaps": [{ "answers": ["مَنْ"] }, { "answers": ["وَمَنْ"] }],
+      "options": ["مَنْ", "وَمَنْ", "مَا", "وَمَا"]
+    },
+    {
+      "id": "medine-t1.l02.grammar-2#8",
+      "type": "order",
+      "fr": "Ceci est un livre et cela est un stylo.",
+      "answers": [["هٰذَا", "كِتَابٌ", "وَذٰلِكَ", "قَلَمٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l02.grammar-2#9",
+      "type": "true_false",
+      "context": { "icon": "horse" },
+      "statement": { "ar": "ذٰلِكَ حِمَارٌ.", "fr": "Cela est un âne." },
+      "answer": false,
+      "explain": "C'est un cheval : {ar|ذٰلِكَ حِصَانٌ}."
+    },
+    {
+      "id": "medine-t1.l02.grammar-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Est-ce un chien, là-bas ?",
+      "answers": ["أَذٰلِكَ كَلْبٌ؟", "أَكَلْبٌ ذٰلِكَ؟"]
+    }
+  ]
+}

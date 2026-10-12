@@ -1,0 +1,29 @@
+{
+  "id": "medine-t1.l03",
+  "number": 3,
+  "title": { "ar": "الدَّرْسُ الثَّالِثُ", "fr": "L'indéfini et le défini : l'article {ar|الْ}" },
+  "description": "Reconnaître un nom indéfini ou défini, employer l'article, décrire avec « ouvert », « cassé », « assis »…, et prononcer l'article devant les lettres lunaires et solaires.",
+  "source": "Tome de Médine 1, leçon 3 (parties 1 et 2)",
+  "sections": [
+    {
+      "title": "L'indéfini et le défini",
+      "activities": ["grammar-1", "grammar-2"]
+    },
+    {
+      "title": "Décrire : ouvert, cassé, assis…",
+      "activities": ["vocab-1", "grammar-3"]
+    },
+    {
+      "title": "Les lettres lunaires et solaires",
+      "activities": ["grammar-4", "vocab-2", "grammar-5", "vocab-3", "vocab-4", "practice-1"]
+    },
+    {
+      "title": "Pluriels et dialogue",
+      "activities": ["plurals-1", "dialogue-1"]
+    },
+    {
+      "title": "Bilan du chapitre",
+      "activities": ["quiz"]
+    }
+  ]
+}

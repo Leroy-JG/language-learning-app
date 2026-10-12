@@ -1,0 +1,127 @@
+{
+  "id": "medine-t1.l02.grammar-1",
+  "type": "grammar",
+  "title": "Le démonstratif {ar|ذٰلِكَ}",
+  "icon": "telescope",
+  "screens": [
+    { "id": "medine-t1.l02.grammar-1#1", "type": "present", "item": "w:dhalika" },
+    {
+      "id": "medine-t1.l02.grammar-1#2",
+      "type": "tip",
+      "title": "Montrer ce qui est loin",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|ذٰلِكَ} est, comme {ar|هٰذَا}, un **nom démonstratif** ({ar|اِسْمُ إِشَارَةٍ}). Il sert à montrer ce qui est **loin**." },
+        { "type": "example", "ar": "ذٰلِكَ كَلْبٌ.", "fr": "Cela est un chien." },
+        { "type": "paragraph", "text": "Ce qu'il désigne **doit** être :" },
+        {
+          "type": "table",
+          "header": ["Arabe", "Français"],
+          "rows": [
+            ["{ar|مُفْرَدٌ}", "singulier"],
+            ["{ar|مُذَكَّرٌ}", "masculin"],
+            ["{ar|بَعِيدٌ}", "éloigné"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l02.grammar-1#3",
+      "type": "tip",
+      "title": "{ar|هٰذَا} ou {ar|ذٰلِكَ} ?",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Démonstratif", "Sens", "Ce qu'il désigne"],
+          "rows": [
+            ["{ar|هٰذَا}", "ceci, celui-ci", "singulier, masculin, **proche** ({ar|قَرِيبٌ})"],
+            ["{ar|ذٰلِكَ}", "cela, celui-là", "singulier, masculin, **éloigné** ({ar|بَعِيدٌ})"]
+          ]
+        },
+        { "type": "example", "ar": "هٰذَا مَسْجِدٌ.", "fr": "Ceci est une mosquée." },
+        { "type": "example", "ar": "ذٰلِكَ بَيْتٌ.", "fr": "Cela est une maison." },
+        { "type": "note", "text": "En français, on traduit souvent les deux par « c'est ». Dans les exercices, « ceci » ou « celui-ci » correspond à {ar|هٰذَا} ; « cela », « celui-là » ou « là-bas » à {ar|ذٰلِكَ}." }
+      ]
+    },
+    {
+      "id": "medine-t1.l02.grammar-1#4",
+      "type": "tip",
+      "title": "Une lettre qu'on prononce sans l'écrire",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|ذٰلِكَ} se prononce « **dhā**lika », avec un « ā » long, comme dans {ar|هٰذَا}. Ce « ā » se prononce mais ne s'écrit pas avec un alif normal." },
+        {
+          "type": "table",
+          "header": ["Écriture", "Explication"],
+          "rows": [
+            ["{ar|ذٰلِكَ}", "avec un petit alif au-dessus de la première lettre"],
+            ["{ar|ذَلِكَ}", "avec une fatha, sans petit alif"],
+            ["{ar|ذَالِكَ}", "c'est seulement la prononciation ; on ne l'écrit **jamais** ainsi"]
+          ]
+        },
+        { "type": "note", "text": "Quand tu écris au clavier, {ar|ذلك} suffit." }
+      ]
+    },
+    {
+      "id": "medine-t1.l02.grammar-1#5",
+      "type": "order",
+      "fr": "Cela est un chien.",
+      "answers": [["ذٰلِكَ", "كَلْبٌ"]],
+      "punctuation": ".",
+      "distractors": ["هٰذَا"]
+    },
+    {
+      "id": "medine-t1.l02.grammar-1#6",
+      "type": "fill_gap",
+      "sentence": "{0} نَجْمٌ.",
+      "fr": "Cela est une étoile.",
+      "gaps": [{ "answers": ["ذٰلِكَ"] }],
+      "options": ["ذٰلِكَ", "هٰذَا", "مَا"]
+    },
+    {
+      "id": "medine-t1.l02.grammar-1#7",
+      "type": "question",
+      "prompt": { "fr": "Pour montrer un chameau **loin** de toi, tu dis…" },
+      "choices": [ { "ar": "ذٰلِكَ جَمَلٌ." }, { "ar": "هٰذَا جَمَلٌ." } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l02.grammar-1#8",
+      "type": "true_false",
+      "statement": { "fr": "{ar|ذٰلِكَ} s'emploie pour ce qui est proche." },
+      "answer": false,
+      "explain": "Pour ce qui est proche, on emploie {ar|هٰذَا}. {ar|ذٰلِكَ} désigne ce qui est éloigné ({ar|بَعِيدٌ})."
+    },
+    {
+      "id": "medine-t1.l02.grammar-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Cela est un lit.",
+      "answers": ["ذٰلِكَ سَرِيرٌ."]
+    },
+    {
+      "id": "medine-t1.l02.grammar-1#10",
+      "type": "order",
+      "fr": "Ceci est une mosquée.",
+      "answers": [["هٰذَا", "مَسْجِدٌ"]],
+      "punctuation": ".",
+      "distractors": ["ذٰلِكَ"]
+    },
+    {
+      "id": "medine-t1.l02.grammar-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Cela est un cheval.",
+      "answers": ["ذٰلِكَ حِصَانٌ."]
+    },
+    {
+      "id": "medine-t1.l02.grammar-1#12",
+      "type": "question",
+      "prompt": { "fr": "Que désigne {ar|ذٰلِكَ} ?" },
+      "choices": [
+        { "fr": "ce qui est singulier, masculin et éloigné" },
+        { "fr": "ce qui est singulier, masculin et proche" },
+        { "fr": "plusieurs choses ou personnes éloignées" }
+      ],
+      "answer": 0
+    }
+  ]
+}

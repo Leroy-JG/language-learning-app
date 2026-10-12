@@ -1,0 +1,65 @@
+{
+  "id": "medine-t1.l01.dialogue-1",
+  "type": "dialogue",
+  "title": "Qu'est-ce que c'est ?",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l01.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Dans le quartier",
+      "intro": "Yāsir découvre le quartier de Ḥāmid et lui pose des questions.",
+      "speakers": {
+        "A": { "name": "Yāsir", "voice": "m2" },
+        "B": { "name": "Ḥāmid", "voice": "m1" }
+      },
+      "lines": [
+        { "speaker": "A", "ar": "مَا هٰذَا؟", "fr": "Qu'est-ce que c'est ?" },
+        { "speaker": "B", "ar": "هٰذَا بَيْتٌ.", "fr": "C'est une maison." },
+        { "speaker": "A", "ar": "أَهٰذَا مَسْجِدٌ؟", "fr": "Est-ce une mosquée ?" },
+        { "speaker": "B", "ar": "نَعَمْ، هٰذَا مَسْجِدٌ.", "fr": "Oui, c'est une mosquée." },
+        { "speaker": "A", "ar": "أَهٰذَا قَلَمٌ؟", "fr": "Est-ce un stylo ?" },
+        { "speaker": "B", "ar": "لَا، هٰذَا مِفْتَاحٌ.", "fr": "Non, c'est une clé." },
+        { "speaker": "A", "ar": "مَا هٰذَا؟", "fr": "Qu'est-ce que c'est ?" },
+        { "speaker": "B", "ar": "هٰذَا قَمِيصٌ.", "fr": "C'est une chemise." }
+      ]
+    },
+    {
+      "id": "medine-t1.l01.dialogue-1#2",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l01.dialogue-1#1" },
+      "prompt": { "fr": "Quelle est la première chose sur laquelle Yāsir pose une question ?" },
+      "choices": [ { "fr": "Une maison" }, { "fr": "Une mosquée" }, { "fr": "Une porte" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.dialogue-1#3",
+      "type": "true_false",
+      "context": { "dialogue": "medine-t1.l01.dialogue-1#1" },
+      "statement": { "fr": "Ḥāmid répond « oui » quand Yāsir demande si c'est une mosquée." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l01.dialogue-1#4",
+      "type": "question",
+      "context": { "dialogue": "medine-t1.l01.dialogue-1#1" },
+      "prompt": { "fr": "Yāsir croit voir un stylo. Qu'est-ce que c'est en réalité ?" },
+      "choices": [ { "ar": "مِفْتَاحٌ" }, { "ar": "قَلَمٌ" }, { "ar": "كِتَابٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.dialogue-1#5",
+      "type": "order",
+      "fr": "Non, c'est une clé.",
+      "answers": [["لَا،", "هٰذَا", "مِفْتَاحٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l01.dialogue-1#6",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Est-ce un stylo ?",
+      "answers": ["أَهٰذَا قَلَمٌ؟"]
+    }
+  ]
+}

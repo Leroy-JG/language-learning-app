@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "id": "ar",
+  "title": "Arabe",
+  "voices": {
+    "m1": { "provider": "edge", "name": "ar-SA-HamedNeural", "rate": "-10%" },
+    "m2": { "provider": "edge", "name": "ar-AE-HamdanNeural", "rate": "-10%" },
+    "f1": { "provider": "edge", "name": "ar-SA-ZariyahNeural", "rate": "-10%" }
+  },
+  "defaultVoice": "m1",
+  "levels": ["medine-t1"]
+}

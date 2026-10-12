@@ -1,0 +1,77 @@
+{
+  "id": "medine-t1.l01.plurals-2",
+  "type": "vocabulary",
+  "title": "Pluriels : personnes, animaux et choses",
+  "icon": "horse",
+  "screens": [
+    {
+      "id": "medine-t1.l01.plurals-2#1",
+      "type": "tip",
+      "title": "Encore des pluriels",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|طَبِيبٌ}", "{ar|أَطِبَّاءُ}", "médecin"],
+            ["{ar|مُدَرِّسٌ}", "{ar|مُدَرِّسُونَ}", "enseignant"],
+            ["{ar|طَالِبٌ}", "{ar|طُلَّابٌ}", "étudiant"],
+            ["{ar|تَاجِرٌ}", "{ar|تُجَّارٌ}", "commerçant"],
+            ["{ar|رَجُلٌ}", "{ar|رِجَالٌ}", "homme"],
+            ["{ar|وَلَدٌ}", "{ar|أَوْلَادٌ}", "garçon"],
+            ["{ar|كَلْبٌ}", "{ar|كِلَابٌ}", "chien"],
+            ["{ar|قِطٌّ}", "{ar|قِطَطٌ}", "chat"],
+            ["{ar|دِيكٌ}", "{ar|دُيُوكٌ}", "coq"],
+            ["{ar|حِمَارٌ}", "{ar|حُمُرٌ}", "âne"],
+            ["{ar|حِصَانٌ}", "{ar|أَحْصِنَةٌ}", "cheval"],
+            ["{ar|جَمَلٌ}", "{ar|جِمَالٌ}", "chameau"],
+            ["{ar|نَجْمٌ}", "{ar|نُجُومٌ}", "étoile"],
+            ["{ar|قَمِيصٌ}", "{ar|قُمْصَانٌ}", "chemise"],
+            ["{ar|مِنْدِيلٌ}", "{ar|مَنَادِيلُ}", "mouchoir"]
+          ]
+        },
+        { "type": "note", "text": "{ar|مُدَرِّسُونَ} : certains pluriels se forment en ajoutant une terminaison au mot. D'autres, comme {ar|رِجَالٌ} ou {ar|كِلَابٌ}, changent la forme du mot : c'est le cas de presque tous les pluriels de ce chapitre." },
+        { "type": "note", "text": "Comme {ar|مَسَاجِدُ}, les pluriels {ar|أَطِبَّاءُ} (des médecins) et {ar|مَنَادِيلُ} (des mouchoirs) ne prennent jamais de tanwin." }
+      ]
+    },
+    {
+      "id": "medine-t1.l01.plurals-2#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:tabib", "w:walad", "w:kalb", "w:rajul", "w:talib"]
+    },
+    {
+      "id": "medine-t1.l01.plurals-2#3",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|مُدَرِّسٌ} ?" },
+      "choices": [ { "ar": "مُدَرِّسُونَ" }, { "ar": "تُجَّارٌ" }, { "ar": "طُلَّابٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.plurals-2#4",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|حِصَانٌ} ?" },
+      "choices": [ { "ar": "أَحْصِنَةٌ" }, { "ar": "حُمُرٌ" }, { "ar": "جِمَالٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.plurals-2#5",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:dik", "w:himar", "w:hisan", "w:jamal", "w:mindil"]
+    },
+    {
+      "id": "medine-t1.l01.plurals-2#6",
+      "type": "question",
+      "prompt": { "fr": "{ar|أَطِبَّاءُ} est le pluriel de…" },
+      "choices": [ { "ar": "طَبِيبٌ" }, { "ar": "طَالِبٌ" }, { "ar": "تَاجِرٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l01.plurals-2#7",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:tajir", "w:mudarris", "w:najm", "w:qitt", "w:qamis"]
+    }
+  ]
+}
