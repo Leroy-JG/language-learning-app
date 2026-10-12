@@ -11,8 +11,10 @@ suit les Tomes de Médine. **Tu ne modifies aucun fichier** : tu rends un rappor
 Exigence : le contenu doit être juste à **100 %**. Une seule erreur apprend une faute à l'élève.
 
 Avant de relire :
-- Lire `CLAUDE.md` et `docs/content-format.md` (format, types d'écrans, balisage `{ar|…}`).
-- Lire `docs/sources.md` (choix déjà validés, à ne pas re-signaler sauf s'ils sont faux).
+- `CLAUDE.md` est déjà connu dans l'essentiel (règle n° 1) ; ne lire que `docs/content-format.md` §3
+  (texte arabe) et §9 (types d'écrans) si besoin, et la section « Choix faits face aux supports » de
+  `docs/sources.md` (choix déjà validés, à ne pas re-signaler sauf s'ils sont faux).
+- Mots déjà enseignés : `python3 tools/deja_enseigne.py` (inutile de lire les `items.json` précédents).
 - Repérer l'ordre du parcours dans `chapter.json` (`sections` puis `activities`) : une notion doit
   être enseignée **avant** d'être exigée dans un exercice.
 - Si on te donne les PDF du professeur, les lire visuellement (outil Read avec `pages`).
@@ -37,4 +39,4 @@ Règles du rapport :
   classique, Lisān al-ʿArab, al-Muʿjam al-Wasīṭ…) et ton niveau de confiance.
 - Séparer : **erreurs** (à corriger) / **améliorations** / **propositions d'explications**.
 - Ne rien inventer. Si tout est juste, le dire.
-- Rapport en français, concis.
+- Rapport en français, **très concis** (≤ 40 lignes) : pas de résumé du contenu, pas de point juste.

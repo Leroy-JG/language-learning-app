@@ -110,6 +110,8 @@ Branches : chaque conversation travaille sur sa branche `claude/…`, puis la fu
   - `audio/` : lecture des MP3 (sinon synthèse vocale du téléphone), effets sonores et vibrations.
 - Icônes des mots : OpenMoji (CC BY-SA), PNG dans `res/drawable-nodpi/icon_<nom>.png`, liste dans
   `docs/licenses/OpenMoji.txt`. Ajouter une icône : voir `tools/render_icons.js`.
+- `tools/deja_enseigne.py` (mots déjà enseignés, 1 ligne chacun) et `tools/nouveau_chapitre.py`
+  (squelette de chapitre), `tools/controle_qualite.py` (typographie, structure) : économisent beaucoup de lecture pour une nouvelle leçon.
 - `tools/make_sounds.py` : génère les effets sonores `res/raw/sfx_*.wav`.
 
 ## Reste à faire (par ordre de priorité)
