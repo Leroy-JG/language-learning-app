@@ -5,6 +5,10 @@ Application Android personnelle d'apprentissage de l'arabe, inspirée du fonctio
 
 ## Organisation
 
+- `CLAUDE.md` : règles du projet et mémoire pour Claude (à lire en premier).
+- `docs/sources.md` : ce que chaque leçon enseigne et les choix de contenu ; `docs/roadmap.md` : la suite.
+- `.claude/skills/nouvelle-lecon/` : procédure pour ajouter une leçon ; `.claude/agents/relecteur-arabe.md` : relecteur.
+
 - `docs/content-format.md` : format des cours (l'app ne contient aucune leçon dans son code).
 - `app/src/main/assets/content/` : les cours eux-mêmes.
 - `core/` : logique de l'app en Kotlin pur (lecture et validation du contenu, arabe, moteur

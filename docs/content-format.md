@@ -140,7 +140,7 @@ exercice est toujours possible : seul l'id reste figé.
 {
   "id": "medine-t1.l01",
   "number": 1,
-  "title": { "ar": "الدَّرْسُ الأَوَّلُ", "fr": "Ceci est… : le démonstratif et les questions" },
+  "title": { "ar": "الدَّرْسُ الْأَوَّلُ", "fr": "Ceci est… : le démonstratif et les questions" },
   "description": "Montrer un objet proche, demander ce que c'est ou qui c'est, répondre par oui ou non.",
   "source": "Tome de Médine 1, leçon 1",
   "sections": [
