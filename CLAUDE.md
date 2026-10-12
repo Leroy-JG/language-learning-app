@@ -86,6 +86,10 @@ Branches : chaque conversation travaille sur sa branche `claude/…`, puis la fu
 
 ## Architecture (où est quoi)
 
+Carte détaillée fichier par fichier avec numéros de ligne : `docs/carte-du-code.md` (à lire avant de
+chercher du code ; la régénérer après un ajout de fichier/fonction : `python3 tools/carte_du_code.py`).
+Lire une plage (`Read` avec `offset`/`limit`) plutôt que des fichiers entiers.
+
 - `app/src/main/assets/content/ar/` : les cours en JSON (`course.json` → `medine-t1/level.json` →
   `lNN/chapter.json`, `items.json`, un fichier par activité). Aucune leçon dans le code.
 - `core/src/main/kotlin/io/github/leroyjg/arabe/` (Kotlin pur, testé) :
