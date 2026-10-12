@@ -22,6 +22,15 @@
       ]
     },
     {
+      "id": "medine-t1.l02.recap#1b",
+      "type": "tip",
+      "title": "Des mots du chapitre 1",
+      "blocks": [
+        { "type": "paragraph", "text": "Touche un mot pour l'écouter." },
+        { "type": "gallery", "items": ["w:bayt", "w:masjid", "w:kitab", "w:qalam", "w:tabib", "w:walad", "w:kalb", "w:jamal", "w:qitt"] }
+      ]
+    },
+    {
       "id": "medine-t1.l02.recap#2",
       "type": "match",
       "mode": "ar-fr",

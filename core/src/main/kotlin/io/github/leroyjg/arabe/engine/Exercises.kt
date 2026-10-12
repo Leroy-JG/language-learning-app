@@ -1,15 +1,22 @@
 package io.github.leroyjg.arabe.engine
 
 import io.github.leroyjg.arabe.arabic.AnswerMatcher
+import io.github.leroyjg.arabe.arabic.ArabicScript
 import io.github.leroyjg.arabe.content.Audio
+import io.github.leroyjg.arabe.content.BuildScreen
 import io.github.leroyjg.arabe.content.Course
 import io.github.leroyjg.arabe.content.CourseIndex
 import io.github.leroyjg.arabe.content.FillGapScreen
 import io.github.leroyjg.arabe.content.Item
 import io.github.leroyjg.arabe.content.MatchScreen
 import io.github.leroyjg.arabe.content.McqScreen
+import io.github.leroyjg.arabe.content.MemoryMode
+import io.github.leroyjg.arabe.content.MemoryScreen
 import io.github.leroyjg.arabe.content.OrderScreen
 import io.github.leroyjg.arabe.content.QuestionScreen
+import io.github.leroyjg.arabe.content.SortCard
+import io.github.leroyjg.arabe.content.SortScreen
+import io.github.leroyjg.arabe.content.SpotScreen
 import io.github.leroyjg.arabe.content.TrueFalseScreen
 import io.github.leroyjg.arabe.content.TypingScreen
 import kotlin.random.Random
@@ -57,6 +64,35 @@ class PreparedQuestion(val screen: QuestionScreen, val order: List<Int>) : Prepa
     /** Position affichée du bon choix. */
     val correctPosition: Int = order.indexOf(screen.answer)
     fun check(position: Int): Boolean = order.getOrNull(position) == screen.answer
+}
+
+/** Cartes à ranger, dans un ordre mélangé ; l'élément éventuel de chaque carte. */
+class PreparedSort(val screen: SortScreen, val cards: List<SortCard>, val items: List<Item?>) : PreparedExercise {
+    fun check(card: Int, category: Int): Boolean = cards[card].category == category
+}
+
+class PreparedSpot(val screen: SpotScreen) : PreparedExercise {
+    val sentence: String get() = Audio.spotSentence(screen)
+    fun check(selected: Collection<Int>): Boolean = selected.toSet() == screen.answers.toSet()
+}
+
+/** [tiles] : les lettres du mot et les lettres en plus, mélangées. */
+class PreparedBuild(val screen: BuildScreen, val target: Item, val tiles: List<String>) : PreparedExercise {
+    /** Lettres du mot, sans harakat, dans l'ordre. */
+    val letters: String = Audio.buildLetters(target.ar)
+
+    /** [picked] : indices des étiquettes touchées, dans l'ordre. */
+    fun check(picked: List<Int>): Boolean = picked.joinToString("") { tiles[it] } == letters
+}
+
+/** Une carte du jeu de mémoire : l'élément et la face montrée une fois retournée. */
+data class MemoryCard(val item: Item, val face: MemoryFace)
+
+enum class MemoryFace { ARABIC, FRENCH, ICON }
+
+class PreparedMemory(val screen: MemoryScreen, val cards: List<MemoryCard>) : PreparedExercise {
+    val pairCount: Int get() = cards.size / 2
+    fun isPair(a: Int, b: Int): Boolean = a != b && cards[a].item.id == cards[b].item.id
 }
 
 /** Prépare les exercices : distracteurs, mélange des choix, découpage des phrases à trous. */
@@ -117,6 +153,29 @@ class ExerciseFactory(
     }
 
     fun trueFalse(screen: TrueFalseScreen) = PreparedTrueFalse(screen)
+
+    fun sort(screen: SortScreen): PreparedSort {
+        val cards = screen.cards.shuffled(random)
+        return PreparedSort(screen, cards, cards.map { c -> c.item?.let { course.item(it) } })
+    }
+
+    fun spot(screen: SpotScreen) = PreparedSpot(screen)
+
+    fun build(screen: BuildScreen): PreparedBuild {
+        val target = course.item(screen.item) ?: error("élément inconnu ${screen.item}")
+        val tiles = Audio.buildLetters(target.ar).map { it.toString() } + screen.extra
+        var shuffled = tiles.shuffled(random)
+        // Évite de proposer les lettres déjà dans l'ordre.
+        repeat(5) { if (shuffled.joinToString("").startsWith(Audio.buildLetters(target.ar))) shuffled = tiles.shuffled(random) }
+        return PreparedBuild(screen, target, shuffled)
+    }
+
+    fun memory(screen: MemoryScreen): PreparedMemory {
+        val items = screen.items.mapNotNull { course.item(it) }
+        val other = if (screen.mode == MemoryMode.ICON_AR) MemoryFace.ICON else MemoryFace.FRENCH
+        val cards = items.flatMap { listOf(MemoryCard(it, MemoryFace.ARABIC), MemoryCard(it, other)) }
+        return PreparedMemory(screen, cards.shuffled(random))
+    }
 
     fun question(screen: QuestionScreen): PreparedQuestion {
         val indices = screen.choices.indices.toList()

@@ -71,6 +71,21 @@
       "explain": "Un enseignant est une personne, donc doué de raison : on utilise {ar|مَنْ}."
     },
     {
+      "id": "medine-t1.l01.grammar-3#6b",
+      "type": "sort",
+      "instruction": "Pour demander ce que c'est, utilise-t-on {ar|مَا} ou {ar|مَنْ} ? Range chaque mot.",
+      "categories": [ { "ar": "مَا" }, { "ar": "مَنْ" } ],
+      "cards": [
+        { "item": "w:kalb", "category": 0 },
+        { "item": "w:tabib", "category": 1 },
+        { "item": "w:kitab", "category": 0 },
+        { "item": "w:walad", "category": 1 },
+        { "item": "w:jamal", "category": 0 },
+        { "item": "w:mudarris", "category": 1 }
+      ],
+      "explain": "{ar|مَنْ} pour une personne (douée de raison), {ar|مَا} pour une chose ou un animal."
+    },
+    {
       "id": "medine-t1.l01.grammar-3#7",
       "type": "typing",
       "instruction": "Réponds à la question en arabe.",

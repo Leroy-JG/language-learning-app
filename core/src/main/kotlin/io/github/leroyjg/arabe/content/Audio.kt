@@ -31,6 +31,12 @@ object Audio {
     fun orderSentence(screen: OrderScreen): String =
         screen.answers.first().joinToString(" ") + (screen.punctuation ?: "")
 
+    /** Phrase d'un exercice « repérer ». */
+    fun spotSentence(screen: SpotScreen): String = screen.words.joinToString(" ")
+
+    /** Lettres d'un mot à écrire, sans harakat ni alif suscrit (هٰذَا → هذا). */
+    fun buildLetters(ar: String): String = ArabicScript.lettersOnly(ar)
+
     /** Tous les audios que le contenu attend (hors enregistrements manuels). */
     fun needs(course: Course): Set<AudioNeed> {
         val default = course.file.defaultVoice
@@ -44,7 +50,14 @@ object Audio {
             add(item.example?.ar, item.voice)
         }
         for (activity in course.activities) for (screen in activity.screens) when (screen) {
-            is TipScreen -> screen.blocks.filterIsInstance<ExampleBlock>().forEach { add(it.ar) }
+            is TipScreen -> screen.blocks.forEach { b ->
+                when (b) {
+                    is ExampleBlock -> add(b.ar)
+                    is CompareBlock -> b.rows.forEach { add(it.from.ar); add(it.to.ar) }
+                    is BreakdownBlock -> add(b.ar)
+                    is ParagraphBlock, is TableBlock, is NoteBlock, is GalleryBlock -> Unit
+                }
+            }
             is FillGapScreen -> add(fillGapSentence(screen))
             is OrderScreen -> add(orderSentence(screen))
             is TypingScreen -> {
@@ -57,7 +70,9 @@ object Audio {
                 screen.choices.forEach { add(it.ar) }
             }
             is DialogueScreen -> screen.lines.forEach { line -> add(line.ar, screen.speakers[line.speaker]?.voice) }
-            is PresentScreen, is McqScreen, is MatchScreen -> Unit
+            is SortScreen -> screen.cards.forEach { add(it.ar) }
+            is SpotScreen -> add(spotSentence(screen))
+            is PresentScreen, is McqScreen, is MatchScreen, is BuildScreen, is MemoryScreen -> Unit
         }
         return out
     }

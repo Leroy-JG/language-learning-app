@@ -242,6 +242,70 @@ data class QuestionScreen(
     override val explain: String? = null,
 ) : Exercise
 
+/** Carte à ranger : exactement un des trois champs, et l'indice de sa catégorie. */
+@Serializable
+data class SortCard(
+    val category: Int,
+    val item: String? = null,
+    val ar: String? = null,
+    val fr: String? = null,
+)
+
+/** Ranger des cartes dans 2 ou 3 catégories (lunaire / solaire, chose / personne…). */
+@Serializable
+@SerialName("sort")
+data class SortScreen(
+    override val id: String,
+    val categories: List<Txt>,
+    val cards: List<SortCard>,
+    override val instruction: String? = null,
+    override val context: ScreenContext? = null,
+    override val explain: String? = null,
+) : Exercise
+
+/** Toucher, dans une phrase arabe, le ou les mots qui répondent à la consigne. */
+@Serializable
+@SerialName("spot")
+data class SpotScreen(
+    override val id: String,
+    override val instruction: String,
+    val words: List<String>,
+    val answers: List<Int>,
+    val fr: String? = null,
+    override val context: ScreenContext? = null,
+    override val explain: String? = null,
+) : Exercise
+
+/** Écrire un mot en touchant ses lettres dans l'ordre (lettres sans harakat). */
+@Serializable
+@SerialName("build")
+data class BuildScreen(
+    override val id: String,
+    val item: String,
+    val extra: List<String> = emptyList(),
+    override val instruction: String? = null,
+    override val context: ScreenContext? = null,
+    override val explain: String? = null,
+) : Exercise
+
+@Serializable
+enum class MemoryMode {
+    @SerialName("ar-fr") AR_FR,
+    @SerialName("icon-ar") ICON_AR,
+}
+
+/** Jeu de mémoire : retourner les cartes deux par deux pour retrouver les paires. */
+@Serializable
+@SerialName("memory")
+data class MemoryScreen(
+    override val id: String,
+    val mode: MemoryMode,
+    val items: List<String>,
+    override val instruction: String? = null,
+    override val context: ScreenContext? = null,
+    override val explain: String? = null,
+) : Exercise
+
 @Serializable
 data class Speaker(val name: String, val voice: String)
 
@@ -274,5 +338,42 @@ data class ExampleBlock(val ar: String, val fr: String) : Block
 data class TableBlock(val header: List<String>, val rows: List<List<String>>) : Block
 
 @Serializable
+enum class NoteTone {
+    /** Encadré neutre (par défaut). */
+    @SerialName("info") INFO,
+
+    /** « Attention » : piège, exception, confusion fréquente. */
+    @SerialName("warning") WARNING,
+
+    /** « Pour retenir » : moyen mnémotechnique, résumé. */
+    @SerialName("memo") MEMO,
+
+    /** « Le savais-tu ? » : culture, sens d'un mot, curiosité (toujours vérifiée). */
+    @SerialName("culture") CULTURE,
+}
+
+@Serializable
 @SerialName("note")
-data class NoteBlock(val text: String) : Block
+data class NoteBlock(val text: String, val tone: NoteTone = NoteTone.INFO) : Block
+
+/** Une forme et sa transformation : `from` → `to` (ex. indéfini → défini, singulier → pluriel). */
+@Serializable
+data class CompareRow(val from: BiText, val to: BiText, val label: String? = null)
+
+@Serializable
+@SerialName("compare")
+data class CompareBlock(val rows: List<CompareRow>, val title: String? = null) : Block
+
+/** Un morceau d'un mot ou d'une phrase décomposé. */
+@Serializable
+data class Part(val ar: String, val fr: String)
+
+/** Décomposition d'un mot ou d'une phrase en morceaux (article + nom, particule + mot…). */
+@Serializable
+@SerialName("breakdown")
+data class BreakdownBlock(val ar: String, val fr: String, val parts: List<Part>) : Block
+
+/** Galerie d'éléments déjà présentés (icône, arabe, traduction), à écouter : rappel visuel. */
+@Serializable
+@SerialName("gallery")
+data class GalleryBlock(val items: List<String>, val title: String? = null) : Block

@@ -25,7 +25,7 @@
           ]
         },
         { "type": "paragraph", "text": "En revanche, {ar|فَمٌ} (une bouche), {ar|صَدْرٌ} (une poitrine) et {ar|ظَهْرٌ} (un dos), qui ne vont pas par paire, sont masculins." },
-        { "type": "note", "text": "Ce n'est pas une règle absolue : {ar|خَدٌّ} (une joue) va par paire et pourtant il est masculin. Le genre de chaque nom est indiqué sous sa traduction." }
+        { "type": "note", "tone": "warning", "text": "Ce n'est pas une règle absolue : {ar|خَدٌّ} (une joue) va par paire et pourtant il est masculin. Le genre de chaque nom est indiqué sous sa traduction." }
       ]
     },
     { "id": "medine-t1.l03.vocab-4#4", "type": "mcq", "mode": "icon-ar", "item": "w:ayn" },

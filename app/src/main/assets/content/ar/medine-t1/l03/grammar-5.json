@@ -36,7 +36,7 @@
             ["{ar|ن}", "{ar|النَّجْمُ}", "l'étoile"]
           ]
         },
-        { "type": "note", "text": "Astuce : toute lettre qui n'est pas lunaire est solaire." }
+        { "type": "note", "tone": "memo", "text": "Toute lettre qui n'est pas lunaire est solaire." }
       ]
     },
     {

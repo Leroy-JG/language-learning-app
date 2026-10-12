@@ -221,7 +221,7 @@ class Validator(
                     if (course.item(screen.item) == null) err(w, "élément inconnu : ${screen.item}")
                     else if (index.firstPresentation(screen.item) != pos) warn(w, "${screen.item} déjà présenté")
                 }
-                is TipScreen -> checkTip(w, screen)
+                is TipScreen -> checkTip(w, screen, pos)
                 is McqScreen -> checkMcq(w, screen, pos)
                 is MatchScreen -> checkMatch(w, screen, pos)
                 is FillGapScreen -> checkFillGap(w, screen)
@@ -233,6 +233,10 @@ class Validator(
                 }
                 is QuestionScreen -> checkQuestion(w, screen)
                 is DialogueScreen -> checkDialogue(w, screen)
+                is SortScreen -> checkSort(w, screen, pos)
+                is SpotScreen -> checkSpot(w, screen)
+                is BuildScreen -> checkBuild(w, screen, pos)
+                is MemoryScreen -> checkMemory(w, screen, pos)
             }
         }
 
@@ -262,7 +266,7 @@ class Validator(
             return item
         }
 
-        fun checkTip(w: String, screen: TipScreen) {
+        fun checkTip(w: String, screen: TipScreen, pos: Position) {
             fr("$w.title", screen.title, vocalized = false)
             if (screen.blocks.isEmpty()) err(w, "astuce sans contenu")
             screen.blocks.forEachIndexed { i, b ->
@@ -270,6 +274,36 @@ class Validator(
                 when (b) {
                     is ParagraphBlock -> fr(bw, b.text, vocalized = false)
                     is NoteBlock -> fr(bw, b.text, vocalized = false)
+                    is CompareBlock -> {
+                        b.title?.let { fr("$bw.title", it, vocalized = false) }
+                        if (b.rows.size !in 1..6) err(bw, "il faut 1 à 6 lignes")
+                        b.rows.forEachIndexed { r, row ->
+                            ar("$bw.rows[$r].from.ar", row.from.ar)
+                            fr("$bw.rows[$r].from.fr", row.from.fr, vocalized = false)
+                            ar("$bw.rows[$r].to.ar", row.to.ar)
+                            fr("$bw.rows[$r].to.fr", row.to.fr, vocalized = false)
+                            row.label?.let { fr("$bw.rows[$r].label", it, vocalized = false) }
+                        }
+                    }
+                    is BreakdownBlock -> {
+                        ar("$bw.ar", b.ar)
+                        fr("$bw.fr", b.fr, vocalized = false)
+                        if (b.parts.size !in 2..6) err(bw, "il faut 2 à 6 morceaux")
+                        b.parts.forEachIndexed { k, part ->
+                            ar("$bw.parts[$k].ar", part.ar, vocalized = false)
+                            fr("$bw.parts[$k].fr", part.fr, vocalized = false)
+                        }
+                        // Les morceaux, mis bout à bout, doivent redonner exactement le mot ou la phrase.
+                        if (b.parts.joinToString("") { letters(it.ar) } != letters(b.ar)) {
+                            err(bw, "les morceaux ne redonnent pas « ${b.ar} »")
+                        }
+                    }
+                    is GalleryBlock -> {
+                        b.title?.let { fr("$bw.title", it, vocalized = false) }
+                        if (b.items.size !in 2..9) err(bw, "il faut 2 à 9 éléments")
+                        duplicates(b.items).forEach { err(bw, "élément en double : $it") }
+                        b.items.forEach { presented(bw, it, pos) }
+                    }
                     is ExampleBlock -> {
                         ar("$bw.ar", b.ar)
                         fr("$bw.fr", b.fr, vocalized = false)
@@ -391,24 +425,82 @@ class Validator(
         }
 
         fun checkQuestion(w: String, screen: QuestionScreen) {
-            fun key(where: String, t: Txt): String? {
-                if (listOfNotNull(t.fr, t.ar).size != 1) {
-                    err(where, "il faut exactement un champ fr ou ar")
-                    return null
-                }
-                return t.ar?.let {
-                    ar(where, it)
-                    "ar:" + letters(it)
-                } ?: run {
-                    fr(where, t.fr!!)
-                    "fr:" + t.fr
-                }
-            }
-            key("$w.prompt", screen.prompt)
-            val keys = screen.choices.mapIndexed { i, c -> key("$w.choices[$i]", c) }
+            txt("$w.prompt", screen.prompt)
+            val keys = screen.choices.mapIndexed { i, c -> txt("$w.choices[$i]", c) }
             if (screen.choices.size !in 2..4) err(w, "il faut 2 à 4 choix")
             if (keys.filterNotNull().toSet().size != keys.size) err(w, "choix en double (au moins sans harakat)")
             if (screen.answer !in screen.choices.indices) err(w, "answer hors bornes")
+        }
+
+        /** Texte d'un choix (fr ou ar) ; renvoie une clé de comparaison. */
+        fun txt(where: String, t: Txt): String? {
+            if (listOfNotNull(t.fr, t.ar).size != 1) {
+                err(where, "il faut exactement un champ fr ou ar")
+                return null
+            }
+            return t.ar?.let {
+                ar(where, it)
+                "ar:" + letters(it)
+            } ?: run {
+                fr(where, t.fr!!)
+                "fr:" + t.fr
+            }
+        }
+
+        fun checkSort(w: String, screen: SortScreen, pos: Position) {
+            if (screen.categories.size !in 2..3) err(w, "il faut 2 ou 3 catégories")
+            val keys = screen.categories.mapIndexed { i, c -> txt("$w.categories[$i]", c) }
+            if (keys.filterNotNull().toSet().size != keys.size) err(w, "catégories en double")
+            if (screen.cards.size !in 3..8) err(w, "il faut 3 à 8 cartes")
+            val cardKeys = screen.cards.mapIndexed { i, c ->
+                val cw = "$w.cards[$i]"
+                if (c.category !in screen.categories.indices) err(cw, "catégorie hors bornes")
+                if (listOfNotNull(c.item, c.ar, c.fr).size != 1) {
+                    err(cw, "il faut exactement un champ item, ar ou fr")
+                    null
+                } else {
+                    c.item?.let { presented(cw, it, pos)?.let { item -> "ar:" + letters(item.ar) } }
+                        ?: txt(cw, Txt(fr = c.fr, ar = c.ar))
+                }
+            }
+            if (cardKeys.filterNotNull().toSet().size != cardKeys.size) err(w, "cartes en double")
+            screen.categories.indices.filter { k -> screen.cards.none { it.category == k } }
+                .forEach { err(w, "catégorie $it sans carte") }
+        }
+
+        fun checkSpot(w: String, screen: SpotScreen) {
+            fr("$w.instruction", screen.instruction)
+            screen.fr?.let { fr("$w.fr", it) }
+            if (screen.words.size !in 2..12) err(w, "il faut 2 à 12 mots")
+            screen.words.forEach { if (' ' in it || it.isBlank()) err(w, "mot vide ou avec espace : « $it »") }
+            ar("$w.words", Audio.spotSentence(screen))
+            if (screen.answers.isEmpty()) err(w, "answers vide")
+            duplicates(screen.answers.map { it.toString() }).forEach { err(w, "réponse en double : $it") }
+            screen.answers.filterNot { it in screen.words.indices }.forEach { err(w, "réponse hors bornes : $it") }
+            if (screen.answers.toSet().size >= screen.words.size) err(w, "tous les mots sont des réponses")
+        }
+
+        fun checkBuild(w: String, screen: BuildScreen, pos: Position) {
+            val item = presented(w, screen.item, pos) ?: return
+            if (' ' in item.ar.trim()) err(w, "un seul mot à écrire, sans espace")
+            val n = Audio.buildLetters(item.ar).length
+            if (n !in 2..9) err(w, "il faut un mot de 2 à 9 lettres")
+            if (screen.extra.size > 3) err(w, "3 lettres en plus au maximum")
+            screen.extra.forEach { x ->
+                if (x.length != 1 || !ArabicScript.isLetter(x[0])) err(w, "lettre en plus invalide : « $x »")
+            }
+        }
+
+        fun checkMemory(w: String, screen: MemoryScreen, pos: Position) {
+            if (screen.items.size !in 3..6) err(w, "il faut 3 à 6 éléments")
+            duplicates(screen.items).forEach { err(w, "élément en double : $it") }
+            val items = screen.items.mapNotNull { presented(w, it, pos) }
+            if (items.map { letters(it.ar) }.toSet().size != items.size) err(w, "deux textes arabes identiques")
+            if (items.map { it.fr }.toSet().size != items.size) err(w, "deux traductions identiques")
+            if (screen.mode == MemoryMode.ICON_AR) {
+                items.filter { it.icon == null }.forEach { err(w, "icon-ar avec un élément sans icône : ${it.id}") }
+                if (items.mapNotNull { it.icon }.toSet().size != items.size) err(w, "deux icônes identiques")
+            }
         }
 
         fun checkDialogue(w: String, screen: DialogueScreen) {
@@ -479,6 +571,10 @@ class Validator(
             is TrueFalseScreen -> "true_false"
             is QuestionScreen -> "question"
             is DialogueScreen -> "dialogue"
+            is SortScreen -> "sort"
+            is SpotScreen -> "spot"
+            is BuildScreen -> "build"
+            is MemoryScreen -> "memory"
         }
     }
 }

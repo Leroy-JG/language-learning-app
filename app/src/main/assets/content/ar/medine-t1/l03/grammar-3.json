@@ -88,6 +88,15 @@
       ]
     },
     {
+      "id": "medine-t1.l03.grammar-3#8c",
+      "type": "spot",
+      "instruction": "Touche les mots qui portent l'article {ar|الْ}.",
+      "words": ["الْبَابُ", "مَفْتُوحٌ،", "وَالْقَلَمُ", "مَكْسُورٌ."],
+      "answers": [0, 2],
+      "fr": "La porte est ouverte, et le stylo est cassé.",
+      "explain": "{ar|وَالْقَلَمُ} = {ar|وَ} (et) + {ar|الْقَلَمُ} (le stylo) : l'article est bien là, après {ar|وَ}."
+    },
+    {
       "id": "medine-t1.l03.grammar-3#9",
       "type": "typing",
       "ask": "audio",
