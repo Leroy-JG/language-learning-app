@@ -66,6 +66,36 @@ Activités : respecter exactement le §9 du format. Points d'attention :
   (Ibn ʿAqīl, Ibn Hishām…), dictionnaires (Lisān al-ʿArab, al-Muʿjam al-Wasīṭ).
 - Insérer un écran entre deux autres : id avec suffixe (`…#7b`), jamais renuméroter.
 
+## 2 bis. Pièges rencontrés au chapitre 4 (à relire avant de rédiger)
+
+Les relecteurs les ont tous trouvés ; autant les éviter dès l'écriture.
+- **Voyelles masquées** : l'option « masquer les harakat » rend ambigus مِنْ / مَنْ, فِي / فَيْ…
+  dans les cartes `sort` (arabe seul) et les consignes. Reformuler ou changer de mot.
+- **Ordre des notions** : ne citer aucun mot (même dans un exemple ou une dictée) avant sa
+  présentation dans l'ordre des sections. Un exercice du livre qui utilise des mots d'une partie
+  ultérieure se place après cette partie (documenter dans `docs/sources.md`).
+- **Règles sans condition** : toujours « en général », « la plupart », « sans article ni annexion »
+  quand il existe des exceptions (fatha des noms sans tanwin, kasra après préposition, tanwin,
+  noms propres féminins, pluriel en -ūna = personnes de sexe masculin).
+- **Défini / indéfini** : le français et l'arabe doivent concorder (شَمْسٌ ≠ « le soleil »).
+- **Traductions** : « salle de bains », « salle de classe », « d'Inde », « de la part de » ; une
+  phrase française ambiguë (« à La Mecque ») doit être reformulée ; les pays n'ont pas de `gender`
+  (point à trancher avec l'utilisateur, voir `docs/sources.md`).
+- **Réponses acceptées** : ajouter à `answers` toute autre réponse juste (dialogues) ; ne pas
+  accepter un ordre des mots non standard.
+- **Fautes du PDF** : les corriger dans l'app et le noter dans `docs/sources.md`.
+- **Longueur** : un bilan de 16 écrans suffit ; ne pas répéter les mêmes mots entre deux écrans du
+  bilan. Ids de bilan non contigus : normal, ne pas renuméroter.
+- **Nouvelle icône** : PNG OpenMoji (`tools/render_icons.js`) + `Icons.kt` + `IconImages.kt` +
+  `docs/licenses/OpenMoji.txt` ; la CI compile l'app, elle seule vérifie les imports Compose.
+- **Environnement** : Maven Central répond parfois 429 → relancer Gradle en boucle (`-q`). Une limite
+  d'usage peut interrompre les relecteurs : les reprendre avec SendMessage. Chaque push crée une
+  release : ne donner à l'utilisateur que le lien du **dernier** run réussi (les précédents sont
+  annulés ou non relus).
+- **Méthode qui a marché** : plan écrit d'abord → rédaction → validateur → 4 relecteurs (arabe,
+  exercices, français/pédagogie, fidélité au PDF) → vérification personnelle de chaque remarque →
+  corrections → 2e relecture ciblée sur le diff → docs → push → CI.
+
 ## 3. Vérifications automatiques
 
 ```
