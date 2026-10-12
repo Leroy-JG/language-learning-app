@@ -132,6 +132,7 @@
     "ar": "هٰذَا",
     "fr": "ceci, celui-ci (proche)",
     "translit": "hādhā",
+    "gender": "m",
     "note": "Nom démonstratif ({ar|اِسْمُ إِشَارَةٍ}) pour ce qui est singulier, masculin et proche.",
     "example": { "ar": "هٰذَا مَسْجِدٌ.", "fr": "Ceci est une mosquée." }
   },

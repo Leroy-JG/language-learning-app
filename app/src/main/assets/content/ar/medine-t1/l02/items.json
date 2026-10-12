@@ -5,6 +5,7 @@
     "ar": "ذٰلِكَ",
     "fr": "cela, celui-là (loin)",
     "translit": "dhālika",
+    "gender": "m",
     "note": "Nom démonstratif ({ar|اِسْمُ إِشَارَةٍ}) pour ce qui est singulier, masculin et éloigné.",
     "example": { "ar": "ذٰلِكَ نَجْمٌ.", "fr": "Cela est une étoile." }
   },

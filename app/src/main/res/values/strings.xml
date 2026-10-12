@@ -83,6 +83,8 @@
     <string name="retry_badge">Exercice repris</string>
     <string name="plural_label">Pluriel</string>
     <string name="example_label">Exemple</string>
+    <string name="gender_masculine">masculin</string>
+    <string name="gender_feminine">féminin</string>
 
     <string name="instruction_mcq_ar_fr">Que veut dire ceci\u00A0?</string>
     <string name="instruction_mcq_fr_ar">Comment le dit-on en arabe\u00A0?</string>

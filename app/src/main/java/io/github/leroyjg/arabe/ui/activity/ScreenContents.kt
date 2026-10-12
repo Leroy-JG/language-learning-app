@@ -80,6 +80,7 @@ import io.github.leroyjg.arabe.engine.PreparedOrder
 import io.github.leroyjg.arabe.engine.PreparedQuestion
 import io.github.leroyjg.arabe.engine.PreparedTrueFalse
 import io.github.leroyjg.arabe.engine.PreparedTyping
+import io.github.leroyjg.arabe.ui.GenderTag
 import io.github.leroyjg.arabe.ui.LocalAppContainer
 import io.github.leroyjg.arabe.ui.text.ArabicText
 import io.github.leroyjg.arabe.ui.text.LocalReadingPrefs
@@ -146,6 +147,7 @@ fun PresentContent(item: Item, playback: Playback, turn: Int, saved: Boolean, on
             Text(item.translit!!, fontStyle = FontStyle.Italic, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
         RichText(item.fr, style = MaterialTheme.typography.titleLarge, textAlign = TextAlign.Center)
+        item.gender?.let { GenderTag(it) }
         item.plural?.let { plural ->
             InfoCard {
                 Row(verticalAlignment = Alignment.CenterVertically) {

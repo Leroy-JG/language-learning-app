@@ -91,6 +91,7 @@ import io.github.leroyjg.arabe.review.Mastery
 import io.github.leroyjg.arabe.review.ReviewCard
 import io.github.leroyjg.arabe.review.ReviewPlanner
 import io.github.leroyjg.arabe.review.ReviewScheduler
+import io.github.leroyjg.arabe.ui.GenderTag
 import io.github.leroyjg.arabe.ui.IconImages
 import io.github.leroyjg.arabe.ui.LocalAppContainer
 import io.github.leroyjg.arabe.ui.MasteryBars
@@ -495,6 +496,7 @@ private fun WordRow(
                             )
                         }
                     }
+                    item.gender?.let { GenderTag(it) }
                     item.plural?.let { plural ->
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             Text(stringResource(R.string.plural_label), style = MaterialTheme.typography.labelLarge, modifier = Modifier.weight(1f))
