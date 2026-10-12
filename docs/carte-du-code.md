@@ -9,9 +9,9 @@ Les fichiers `app/` ne se compilent que sur GitHub Actions.
 - `core/src/main/kotlin/io/github/leroyjg/arabe/content/Audio.kt` (79 l.) — AudioNeed:7, Audio:9
 - `core/src/main/kotlin/io/github/leroyjg/arabe/content/ContentLoader.kt` (130 l.) — ContentSource:8, FileContentSource:16, ContentIssue:28, Course:32, Level:57, Chapter:61, Activity:72, LoadResult:82, ContentLoader:85
 - `core/src/main/kotlin/io/github/leroyjg/arabe/content/CourseIndex.kt` (89 l.) — Position:6, CourseIndex:16
-- `core/src/main/kotlin/io/github/leroyjg/arabe/content/Icons.kt` (18 l.) — Icons:7
+- `core/src/main/kotlin/io/github/leroyjg/arabe/content/Icons.kt` (19 l.) — Icons:7
 - `core/src/main/kotlin/io/github/leroyjg/arabe/content/Model.kt` (379 l.) — CourseFile:12, Voice:22, LevelFile:25, ChapterFile:34, BiText:44, Section:47, ItemKind:50, Gender:56, Item:62, ActivityType:80, ActivityFile:89, ScreenContext:100, Txt:108, Screen:111, Exercise:116, PresentScreen:124, TipScreen:128, McqMode:131, McqScreen:140, MatchMode:151, MatchScreen:159, Gap:169, FillGapScreen:173, OrderScreen:186, TypingAsk:198, TypingScreen:206, Statement:219, TrueFalseScreen:223, QuestionScreen:234, SortCard:247, SortScreen:257, SpotScreen:269, BuildScreen:282, MemoryMode:292, MemoryScreen:300, Speaker:310, DialogueLine:313, DialogueScreen:317, Block:326, ParagraphBlock:330, ExampleBlock:334, TableBlock:338, NoteTone:341, NoteBlock:357, CompareRow:361, CompareBlock:365, Part:369, BreakdownBlock:374, GalleryBlock:379
-- `core/src/main/kotlin/io/github/leroyjg/arabe/content/Validator.kt` (580 l.) — ValidationReport:7, Validator:22
+- `core/src/main/kotlin/io/github/leroyjg/arabe/content/Validator.kt` (591 l.) — ValidationReport:7, Validator:22
 - `core/src/main/kotlin/io/github/leroyjg/arabe/engine/ActivitySession.kt` (72 l.) — Outcome:10, ActivitySession:28
 - `core/src/main/kotlin/io/github/leroyjg/arabe/engine/CourseProgress.kt` (41 l.) — LessonState:9, CourseProgress:17
 - `core/src/main/kotlin/io/github/leroyjg/arabe/engine/Exercises.kt` (184 l.) — PreparedExercise:25, PreparedMcq:27, PreparedMatch:32, PreparedFillGap:36, PreparedOrder:50, PreparedTyping:55, PreparedTrueFalse:59, PreparedQuestion:63, PreparedSort:70, PreparedSpot:74, PreparedBuild:80, MemoryCard:89, MemoryFace:91, PreparedMemory:93, ExerciseFactory:99
@@ -31,7 +31,7 @@ Les fichiers `app/` ne se compilent que sur GitHub Actions.
 - `app/src/main/java/io/github/leroyjg/arabe/ui/Common.kt` (68 l.) — WithContent:37, ActivityType.label:54, ActivityType.icon:62
 - `app/src/main/java/io/github/leroyjg/arabe/ui/Decor.kt` (95 l.) — AppIcons:30, DrawScope.eightPointStar:57, MasteryBars:78
 - `app/src/main/java/io/github/leroyjg/arabe/ui/GenderTag.kt` (78 l.) — GenderIcons:31, GenderTag:56
-- `app/src/main/java/io/github/leroyjg/arabe/ui/IconImages.kt` (73 l.) — IconImages:7
+- `app/src/main/java/io/github/leroyjg/arabe/ui/IconImages.kt` (85 l.) — IconImages:7
 - `app/src/main/java/io/github/leroyjg/arabe/ui/activity/ActivityScreen.kt` (663 l.) — ReviewKind:126, ActivityScreen:133, ReviewSessionScreen:162, ReviewPlanHolder:215, planReview:217, NothingToReview:251, Player:265, PlayerTopBar:320, ComboSlot:339, ComboBadge:349, ScreenBody:368, BottomArea:402, BigButton:447, FeedbackPanel:458, EndScreen:528, StatTile:642, NoVoiceWarning:654
 - `app/src/main/java/io/github/leroyjg/arabe/ui/activity/Celebration.kt` (73 l.) — Piece:18, Confetti:32
 - `app/src/main/java/io/github/leroyjg/arabe/ui/activity/Games.kt` (411 l.) — SortContent:76, sortSound:166, SortCardText:173, CategoryLabel:182, GameInstruction:188, SpotContent:196, BuildContent:235, MemoryContent:305, MemoryTile:364

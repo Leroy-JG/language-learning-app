@@ -1,0 +1,21 @@
+{
+  "id": "medine-t1.l06",
+  "number": 6,
+  "title": { "ar": "الدَّرْسُ السَّادِسُ", "fr": "Le féminin et l'appartenance" },
+  "description": "Dire « ceci est… » au féminin avec {ar|هٰذِهِ}, reconnaître les noms féminins et leurs trois signes, former le féminin d'un nom ou d'un adjectif, et dire « à qui est… ? » avec la préposition {ar|لِ}.",
+  "source": "Tome de Médine 1, leçon 6 (parties 1 à 3)",
+  "sections": [
+    { "title": "Ceci est… au féminin : {ar|هٰذِهِ}", "activities": ["grammar-1", "practice-1"] },
+    { "title": "Masculin ou féminin ?", "activities": ["grammar-2", "grammar-3", "practice-2"] },
+    { "title": "Du masculin au féminin", "activities": ["grammar-4", "vocab-1", "practice-3"] },
+    { "title": "Dans la maison et à la ferme", "activities": ["vocab-2", "vocab-3", "practice-4"] },
+    {
+      "title": "Le corps, la famille et les pièges du genre",
+      "activities": ["vocab-4", "grammar-5", "grammar-6", "practice-6"]
+    },
+    { "title": "À qui est… ? : {ar|لِ}", "activities": ["grammar-7", "vocab-5", "practice-5"] },
+    { "title": "Qui est-ce ? À qui est-ce ?", "activities": ["dialogue-1", "dialogue-2"] },
+    { "title": "Les pluriels", "activities": ["plurals-1"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

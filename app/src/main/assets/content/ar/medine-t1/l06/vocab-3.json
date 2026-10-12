@@ -1,0 +1,64 @@
+{
+  "id": "medine-t1.l06.vocab-3",
+  "type": "vocabulary",
+  "title": "Ferme, vélo et fenêtre",
+  "icon": "cow",
+  "screens": [
+    { "id": "medine-t1.l06.vocab-3#1", "type": "present", "item": "w:fallah" },
+    { "id": "medine-t1.l06.vocab-3#2", "type": "present", "item": "w:baqara" },
+    {
+      "id": "medine-t1.l06.vocab-3#3",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:baqara",
+      "distractors": ["w:kalb", "w:jamal"]
+    },
+    { "id": "medine-t1.l06.vocab-3#4", "type": "present", "item": "w:dajaja" },
+    { "id": "medine-t1.l06.vocab-3#5", "type": "present", "item": "w:naqa" },
+    {
+      "id": "medine-t1.l06.vocab-3#6",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:dajaja",
+      "distractors": ["w:baqara", "w:qitt"]
+    },
+    { "id": "medine-t1.l06.vocab-3#7", "type": "present", "item": "w:darraja" },
+    { "id": "medine-t1.l06.vocab-3#8", "type": "present", "item": "w:nafidha" },
+    {
+      "id": "medine-t1.l06.vocab-3#9",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:darraja",
+      "distractors": ["w:nafidha", "w:sayyara"]
+    },
+    {
+      "id": "medine-t1.l06.vocab-3#10",
+      "type": "memory",
+      "mode": "icon-ar",
+      "items": ["w:fallah", "w:baqara", "w:dajaja", "w:darraja", "w:nafidha"]
+    },
+    {
+      "id": "medine-t1.l06.vocab-3#11",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:fallah", "w:baqara", "w:dajaja", "w:naqa", "w:darraja"]
+    },
+    {
+      "id": "medine-t1.l06.vocab-3#12",
+      "type": "fill_gap",
+      "sentence": "هٰذَا جَمَلٌ وَهٰذِهِ {0}.",
+      "fr": "Ceci est un chameau et ceci est une chamelle.",
+      "gaps": [ { "answers": ["نَاقَةٌ"] } ],
+      "options": ["نَاقَةٌ", "دَجَاجَةٌ", "بَقَرَةٌ"]
+    },
+    { "id": "medine-t1.l06.vocab-3#13", "type": "build", "item": "w:nafidha", "extra": ["ه"] },
+    { "id": "medine-t1.l06.vocab-3#14", "type": "typing", "ask": "fr", "item": "w:baqara" },
+    {
+      "id": "medine-t1.l06.vocab-3#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est la vache du paysan.",
+      "answers": ["هٰذِهِ بَقَرَةُ الْفَلَّاحِ."]
+    }
+  ]
+}

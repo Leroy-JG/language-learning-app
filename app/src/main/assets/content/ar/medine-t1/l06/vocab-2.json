@@ -1,0 +1,70 @@
+{
+  "id": "medine-t1.l06.vocab-2",
+  "type": "vocabulary",
+  "title": "Dans la maison",
+  "icon": "kitchen",
+  "screens": [
+    { "id": "medine-t1.l06.vocab-2#1", "type": "present", "item": "w:milaqa" },
+    { "id": "medine-t1.l06.vocab-2#2", "type": "present", "item": "w:qidr" },
+    {
+      "id": "medine-t1.l06.vocab-2#3",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:milaqa",
+      "distractors": ["w:qidr", "w:qalam"]
+    },
+    { "id": "medine-t1.l06.vocab-2#4", "type": "present", "item": "w:thallaja" },
+    { "id": "medine-t1.l06.vocab-2#5", "type": "present", "item": "w:shay" },
+    {
+      "id": "medine-t1.l06.vocab-2#6",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:shay",
+      "distractors": ["w:qidr", "w:milaqa"]
+    },
+    { "id": "medine-t1.l06.vocab-2#7", "type": "present", "item": "w:qahwa" },
+    { "id": "medine-t1.l06.vocab-2#8", "type": "present", "item": "w:mikwat" },
+    {
+      "id": "medine-t1.l06.vocab-2#9",
+      "type": "memory",
+      "mode": "icon-ar",
+      "items": ["w:milaqa", "w:qidr", "w:shay", "w:qahwa"]
+    },
+    {
+      "id": "medine-t1.l06.vocab-2#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:milaqa", "w:qidr", "w:thallaja", "w:qahwa", "w:mikwat"]
+    },
+    {
+      "id": "medine-t1.l06.vocab-2#11",
+      "type": "fill_gap",
+      "sentence": "الْمِلْعَقَةُ {0} الْقِدْرِ.",
+      "fr": "La cuillère est dans la marmite.",
+      "gaps": [ { "answers": ["فِي"] } ],
+      "options": ["فِي", "عَلَى", "مِنْ"]
+    },
+    {
+      "id": "medine-t1.l06.vocab-2#12",
+      "type": "true_false",
+      "statement": { "ar": "هٰذِهِ قَهْوَةٌ.", "fr": "Ceci est du café." },
+      "answer": false,
+      "context": { "icon": "tea" },
+      "explain": "L'image montre du thé : {ar|هٰذَا شَايٌ}."
+    },
+    {
+      "id": "medine-t1.l06.vocab-2#13",
+      "type": "order",
+      "fr": "La cuillère est sur la table.",
+      "answers": [["الْمِلْعَقَةُ", "عَلَى", "الطَّاوِلَةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l06.vocab-2#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La cuillère est dans la marmite.",
+      "answers": ["الْمِلْعَقَةُ فِي الْقِدْرِ."]
+    }
+  ]
+}

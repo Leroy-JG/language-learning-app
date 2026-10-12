@@ -1,0 +1,130 @@
+{
+  "id": "medine-t1.l06.grammar-1",
+  "type": "grammar",
+  "title": "Ceci est… au féminin",
+  "icon": "girl",
+  "screens": [
+    {
+      "id": "medine-t1.l06.grammar-1#1",
+      "type": "tip",
+      "title": "Ceci, au féminin : {ar|هٰذِهِ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|هٰذَا} (« ceci ») pour une chose ou une personne **masculine**. Pour une chose ou une personne **féminine**, on emploie un autre mot : {ar|هٰذِهِ}."
+        },
+        { "type": "example", "ar": "هٰذَا كِتَابٌ.", "fr": "Ceci est un livre." },
+        { "type": "example", "ar": "هٰذِهِ حَقِيبَةٌ.", "fr": "Ceci est un sac." },
+        {
+          "type": "paragraph",
+          "text": "{ar|هٰذَا} se termine par un alif ; {ar|هٰذِهِ} se termine par un {ar|ه}. En français, on dit « ceci est » dans les deux cas : c'est l'arabe qui montre le genre."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "En français, « sac » est masculin ; en arabe, {ar|حَقِيبَةٌ} est féminin : on dit donc {ar|هٰذِهِ}. C'est le genre du mot arabe qui compte."
+        }
+      ]
+    },
+    { "id": "medine-t1.l06.grammar-1#2", "type": "present", "item": "w:hadhihi" },
+    {
+      "id": "medine-t1.l06.grammar-1#3",
+      "type": "tip",
+      "title": "Quand l'employer ?",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|هٰذِهِ} désigne une chose ou une personne qui est à la fois :" },
+        {
+          "type": "table",
+          "header": ["Condition", "En arabe"],
+          "rows": [
+            ["au **singulier**", "{ar|مُفْرَدٌ}"],
+            ["au **féminin**", "{ar|مُؤَنَّثٌ}"],
+            ["**proche**", "{ar|قَرِيبٌ}"]
+          ]
+        },
+        { "type": "example", "ar": "هٰذِهِ بِنْتٌ.", "fr": "Ceci est une fille." },
+        {
+          "type": "paragraph",
+          "text": "{ar|بِنْتٌ} est singulier et féminin, et la fille est proche : on dit {ar|هٰذِهِ}. Elle s'emploie pour les personnes comme pour les choses : {ar|هٰذِهِ بِنْتٌ} (une fille), {ar|هٰذِهِ سَيَّارَةٌ} (une voiture)."
+        },
+        {
+          "type": "note",
+          "text": "Ce qui est loin se dit {ar|ذٰلِكَ} au masculin, et il existe aussi un féminin, {ar|تِلْكَ}. Tu le verras plus tard : pour l'instant, on s'en tient à {ar|هٰذَا} et {ar|هٰذِهِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.grammar-1#4",
+      "type": "question",
+      "prompt": { "fr": "Quel démonstratif utilise-t-on devant {ar|بِنْتٌ} (une fille) ?" },
+      "choices": [ { "ar": "هٰذِهِ" }, { "ar": "هٰذَا" }, { "ar": "ذٰلِكَ" } ],
+      "answer": 0,
+      "explain": "{ar|بِنْتٌ} est un nom féminin singulier, et la fille est proche : {ar|هٰذِهِ بِنْتٌ}."
+    },
+    { "id": "medine-t1.l06.grammar-1#5", "type": "present", "item": "p:ma-hadhihi" },
+    { "id": "medine-t1.l06.grammar-1#6", "type": "present", "item": "p:man-hadhihi" },
+    {
+      "id": "medine-t1.l06.grammar-1#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "p:man-hadhihi",
+      "distractors": ["p:ma-hadhihi", "p:ayna-al-kitab"]
+    },
+    {
+      "id": "medine-t1.l06.grammar-1#8",
+      "type": "sort",
+      "categories": [ { "ar": "هٰذَا" }, { "ar": "هٰذِهِ" } ],
+      "cards": [
+        { "item": "w:kitab", "category": 0 },
+        { "item": "w:sayyara", "category": 1 },
+        { "item": "w:bayt", "category": 0 },
+        { "item": "w:haqiba", "category": 1 },
+        { "item": "w:ghurfa", "category": 1 },
+        { "item": "w:qalam", "category": 0 },
+        { "item": "w:shams", "category": 1 }
+      ],
+      "instruction": "Range chaque nom selon le démonstratif qui convient.",
+      "explain": "Les noms qui se terminent par {ar|ة} sont le plus souvent féminins. {ar|الشَّمْسُ} est féminin lui aussi, sans {ar|ة} (chapitre 3)."
+    },
+    {
+      "id": "medine-t1.l06.grammar-1#9",
+      "type": "fill_gap",
+      "sentence": "{0} سَيَّارَةٌ.",
+      "fr": "Ceci est une voiture.",
+      "gaps": [ { "answers": ["هٰذِهِ"] } ],
+      "options": ["هٰذِهِ", "هٰذَا"],
+      "explain": "{ar|سَيَّارَةٌ} est féminin : {ar|هٰذِهِ سَيَّارَةٌ}."
+    },
+    {
+      "id": "medine-t1.l06.grammar-1#10",
+      "type": "order",
+      "fr": "Ceci est une fille.",
+      "answers": [["هٰذِهِ", "بِنْتٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l06.grammar-1#11",
+      "type": "true_false",
+      "statement": { "fr": "On dit {ar|هٰذَا} pour désigner une voiture ({ar|سَيَّارَةٌ})." },
+      "answer": false,
+      "explain": "{ar|سَيَّارَةٌ} est féminin : on dit {ar|هٰذِهِ سَيَّارَةٌ}."
+    },
+    {
+      "id": "medine-t1.l06.grammar-1#12",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا هٰذِهِ؟",
+      "answers": ["هٰذِهِ سَيَّارَةٌ.", "سَيَّارَةٌ."],
+      "fr": "C'est une voiture.",
+      "instruction": "Réponds à la question en arabe.",
+      "context": { "icon": "car" }
+    },
+    {
+      "id": "medine-t1.l06.grammar-1#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est une chambre.",
+      "answers": ["هٰذِهِ غُرْفَةٌ."]
+    }
+  ]
+}

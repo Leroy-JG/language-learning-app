@@ -1,0 +1,135 @@
+{
+  "id": "medine-t1.l06.grammar-3",
+  "type": "grammar",
+  "title": "Les trois signes du féminin",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t1.l06.grammar-3#1",
+      "type": "tip",
+      "title": "Trois signes à la fin du mot",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les grammairiens arabes comptent **trois signes** du féminin ({ar|عَلَامَةُ الْمُؤَنَّثِ}). Ils se placent tous à la **fin** du mot."
+        },
+        {
+          "type": "table",
+          "header": ["Signe", "Son nom"],
+          "rows": [
+            ["{ar|ة}", "{ar|تَاءُ التَّأْنِيثِ الْمُتَحَرِّكَةُ}"],
+            ["{ar|ى}", "{ar|أَلِفُ التَّأْنِيثِ الْمَقْصُورَةُ}"],
+            ["{ar|اءُ}", "{ar|أَلِفُ التَّأْنِيثِ الْمَمْدُودَةُ}"]
+          ]
+        },
+        { "type": "paragraph", "text": "On les voit un par un." }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.grammar-3#2",
+      "type": "tip",
+      "title": "1. Le {ar|ة}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "C'est le signe le plus courant : {ar|سَيَّارَةٌ}, {ar|غُرْفَةٌ}, {ar|مَدْرَسَةٌ}, {ar|عَائِشَةُ}. On l'appelle {ar|تَاءُ التَّأْنِيثِ الْمُتَحَرِّكَةُ} : un {ar|ت} (« tāʾ ») **qui porte une voyelle**."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il se prononce « t » quand on prononce la voyelle qui le suit ({ar|سَيَّارَةُ زَيْدٍ} : « sayyāratu zaydin »), et « h » quand on s'arrête sur le mot (« sayyārah »)."
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Ne le confonds pas avec le {ar|ه} : le {ar|ة} a **deux points**."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.grammar-3#3",
+      "type": "spot",
+      "instruction": "Touche le mot qui porte le signe {ar|ة}.",
+      "words": ["هٰذِهِ", "سَيَّارَةُ", "الْمُدِيرِ"],
+      "answers": [1],
+      "fr": "C'est la voiture du directeur.",
+      "explain": "{ar|سَيَّارَةُ} se termine par {ar|ة}. {ar|هٰذِهِ} se termine par un {ar|ه} (sans points) : c'est une autre lettre."
+    },
+    {
+      "id": "medine-t1.l06.grammar-3#4",
+      "type": "tip",
+      "title": "2. Le {ar|ى}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un alif écrit comme un {ar|ي} **sans points**, et prononcé « ā » : {ar|ذِكْرَى} (« dhikrā »), {ar|لَيْلَى} (« laylā »). C'est {ar|أَلِفُ التَّأْنِيثِ الْمَقْصُورَةُ} (l'alif « raccourci »)."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ne le confonds pas avec le {ar|ى} de {ar|عَلَى} et de {ar|إِلَى} (chapitre 4) : ce sont des particules, pas des noms féminins."
+        }
+      ]
+    },
+    { "id": "medine-t1.l06.grammar-3#5", "type": "present", "item": "w:dhikra" },
+    {
+      "id": "medine-t1.l06.grammar-3#6",
+      "type": "question",
+      "prompt": { "fr": "Dans lequel de ces mots le {ar|ى} final est-il un signe du féminin ?" },
+      "choices": [ { "ar": "ذِكْرَى" }, { "ar": "عَلَى" }, { "ar": "إِلَى" } ],
+      "answer": 0,
+      "explain": "{ar|ذِكْرَى} est un nom féminin. {ar|عَلَى} et {ar|إِلَى} sont des prépositions : leur {ar|ى} n'est pas un signe du féminin."
+    },
+    {
+      "id": "medine-t1.l06.grammar-3#7",
+      "type": "tip",
+      "title": "3. L'alif suivi de la hamza",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un alif **suivi d'une hamza**, ajoutés à la fin du mot : {ar|صَحْرَاءُ} (un désert), {ar|حَسْنَاءُ} (une belle femme). C'est {ar|أَلِفُ التَّأْنِيثِ الْمَمْدُودَةُ} (l'alif « allongé »)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les noms qui portent le deuxième ou le troisième signe n'ont **pas de tanwin** : ils sont {ar|مَمْنُوعٌ مِنَ الصَّرْفِ} (chapitre 4)."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Toute hamza finale n'est pas un signe du féminin. Dans {ar|مَاءٌ} (de l'eau), {ar|هَوَاءٌ} (de l'air) et {ar|غَدَاءٌ} (un déjeuner), la hamza fait partie du mot lui-même : ce sont des noms **masculins**, avec tanwin."
+        }
+      ]
+    },
+    { "id": "medine-t1.l06.grammar-3#8", "type": "present", "item": "w:sahra" },
+    {
+      "id": "medine-t1.l06.grammar-3#9",
+      "type": "sort",
+      "categories": [ { "fr": "{ar|ة}" }, { "fr": "{ar|ى}" }, { "fr": "{ar|اءُ}" } ],
+      "cards": [
+        { "ar": "غُرْفَةٌ", "category": 0 },
+        { "ar": "لَيْلَى", "category": 1 },
+        { "ar": "صَحْرَاءُ", "category": 2 },
+        { "ar": "مَدْرَسَةٌ", "category": 0 },
+        { "ar": "ذِكْرَى", "category": 1 },
+        { "ar": "حَسْنَاءُ", "category": 2 }
+      ],
+      "instruction": "Quel signe du féminin se trouve à la fin de chaque mot ?",
+      "explain": "{ar|غُرْفَةٌ} et {ar|مَدْرَسَةٌ} : {ar|ة}. {ar|لَيْلَى} et {ar|ذِكْرَى} : {ar|ى}. {ar|صَحْرَاءُ} et {ar|حَسْنَاءُ} : alif et hamza."
+    },
+    {
+      "id": "medine-t1.l06.grammar-3#10",
+      "type": "question",
+      "prompt": { "fr": "Dans quel mot la hamza finale est-elle un signe du féminin ?" },
+      "choices": [ { "ar": "صَحْرَاءُ" }, { "ar": "مَاءٌ" }, { "ar": "هَوَاءٌ" } ],
+      "answer": 0,
+      "explain": "{ar|صَحْرَاءُ} est féminin. {ar|مَاءٌ} et {ar|هَوَاءٌ} sont masculins : leur hamza fait partie du mot."
+    },
+    { "id": "medine-t1.l06.grammar-3#11", "type": "typing", "ask": "fr", "item": "w:dhikra" },
+    {
+      "id": "medine-t1.l06.grammar-3#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est un désert.",
+      "answers": ["هٰذِهِ صَحْرَاءُ."]
+    }
+  ]
+}

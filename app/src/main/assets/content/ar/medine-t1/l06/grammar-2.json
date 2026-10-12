@@ -1,0 +1,119 @@
+{
+  "id": "medine-t1.l06.grammar-2",
+  "type": "grammar",
+  "title": "Noms masculins, noms féminins",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l06.grammar-2#1",
+      "type": "tip",
+      "title": "Deux genres : {ar|الْمُذَكَّرُ} et {ar|الْمُؤَنَّثُ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "En arabe, **tout nom** est soit masculin ({ar|مُذَكَّرٌ}), soit féminin ({ar|مُؤَنَّثٌ}), même un nom de chose. Il n'y a pas de neutre."
+        },
+        {
+          "type": "table",
+          "header": ["Genre", "Exemples"],
+          "rows": [
+            ["masculin ({ar|مُذَكَّرٌ})", "{ar|عَلِيٌّ}, {ar|أَحْمَدُ}, {ar|قَلَمٌ}, {ar|كِتَابٌ}"],
+            ["féminin ({ar|مُؤَنَّثٌ})", "{ar|عَائِشَةُ}, {ar|زَيْنَبُ}, {ar|سَيَّارَةٌ}, {ar|لَيْلَى}"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le genre se voit dans le choix du démonstratif ({ar|هٰذَا} ou {ar|هٰذِهِ}), du pronom ({ar|هُوَ} ou {ar|هِيَ}) et, comme tu vas le voir, dans la fin des adjectifs."
+        }
+      ]
+    },
+    { "id": "medine-t1.l06.grammar-2#2", "type": "present", "item": "w:mudhakkar" },
+    { "id": "medine-t1.l06.grammar-2#3", "type": "present", "item": "w:muannath" },
+    {
+      "id": "medine-t1.l06.grammar-2#4",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:muannath",
+      "distractors": ["w:mudhakkar", "w:fil"]
+    },
+    {
+      "id": "medine-t1.l06.grammar-2#5",
+      "type": "tip",
+      "title": "Les noms féminins",
+      "blocks": [
+        { "type": "paragraph", "text": "Un nom est féminin dans l'un de ces trois cas :" },
+        {
+          "type": "table",
+          "header": ["Cas", "Exemples"],
+          "rows": [
+            ["1. Il désigne une **femme** (ou une femelle)", "{ar|عَائِشَةُ}, {ar|زَيْنَبُ}, {ar|بِنْتٌ}"],
+            [
+              "2. Il porte, en général, l'un des **trois signes du féminin**",
+              "{ar|سَيَّارَةٌ}, {ar|غُرْفَةٌ}, {ar|مَدْرَسَةٌ}"
+            ],
+            [
+              "3. Il est féminin **sans raison particulière** : on l'apprend avec le mot",
+              "{ar|شَمْسٌ}, {ar|يَدٌ}, {ar|عَيْنٌ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les trois signes du féminin font l'objet de la prochaine activité. Le troisième cas, tu l'as déjà rencontré : le genre de chaque nom est indiqué sous sa traduction."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.grammar-2#6",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|زَيْنَبُ} est-il féminin, alors qu'il ne se termine pas par {ar|ة} ?" },
+      "choices": [
+        { "fr": "Parce que c'est un prénom de femme" },
+        { "fr": "Parce qu'il se termine par une damma" },
+        { "fr": "Parce qu'il porte le tanwin" }
+      ],
+      "answer": 0,
+      "explain": "{ar|زَيْنَبُ} désigne une femme : il est féminin sans avoir besoin d'un signe. La damma finale n'a rien à voir avec le genre."
+    },
+    {
+      "id": "medine-t1.l06.grammar-2#7",
+      "type": "tip",
+      "title": "Les noms masculins",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sont masculins les noms qui désignent un **homme** (ou un mâle) et, en général, **tous les noms qui ne portent aucun signe du féminin** : {ar|كِتَابٌ}, {ar|قَلَمٌ}, {ar|بَيْتٌ}, {ar|مَكْتَبٌ}."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Font exception les noms de femmes sans signe (comme {ar|زَيْنَبُ}) et les féminins « sans règle » (comme {ar|شَمْسٌ} ou {ar|يَدٌ}). Une chose qui est féminine en français ne l'est pas forcément en arabe, et inversement."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.grammar-2#8",
+      "type": "true_false",
+      "statement": { "fr": "Un nom qui désigne une chose, comme {ar|شَمْسٌ}, ne peut pas être féminin." },
+      "answer": false,
+      "explain": "Les choses ont un genre elles aussi : {ar|شَمْسٌ} est féminin."
+    },
+    {
+      "id": "medine-t1.l06.grammar-2#9",
+      "type": "sort",
+      "categories": [ { "fr": "masculin" }, { "fr": "féminin" } ],
+      "cards": [
+        { "item": "w:kitab", "category": 0 },
+        { "item": "w:sayyara", "category": 1 },
+        { "item": "w:walad", "category": 0 },
+        { "item": "w:bint", "category": 1 },
+        { "item": "w:shams", "category": 1 },
+        { "item": "w:qalam", "category": 0 },
+        { "item": "w:ayn", "category": 1 },
+        { "item": "w:masjid", "category": 0 }
+      ],
+      "instruction": "Range chaque nom : masculin ou féminin ?",
+      "explain": "{ar|بِنْتٌ}, {ar|شَمْسٌ} et {ar|عَيْنٌ} sont féminins sans {ar|ة}. {ar|سَيَّارَةٌ} l'est grâce à son {ar|ة}."
+    }
+  ]
+}

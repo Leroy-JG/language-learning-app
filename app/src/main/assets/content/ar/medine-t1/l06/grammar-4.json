@@ -1,0 +1,130 @@
+{
+  "id": "medine-t1.l06.grammar-4",
+  "type": "grammar",
+  "title": "Du masculin au féminin",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t1.l06.grammar-4#1",
+      "type": "tip",
+      "title": "Former le féminin avec {ar|ة}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour beaucoup de noms de personnes, on forme le féminin en **ajoutant {ar|ة}** à la fin du nom masculin. Le tanwin est alors porté par le {ar|ة}."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "طَالِبٌ", "fr": "un étudiant" }, "to": { "ar": "طَالِبَةٌ", "fr": "une étudiante" } },
+            {
+              "from": { "ar": "طَبِيبٌ", "fr": "un médecin" },
+              "to": { "ar": "طَبِيبَةٌ", "fr": "une femme médecin" }
+            },
+            {
+              "from": { "ar": "مُدَرِّسٌ", "fr": "un enseignant" },
+              "to": { "ar": "مُدَرِّسَةٌ", "fr": "une enseignante" }
+            },
+            {
+              "from": { "ar": "مُهَنْدِسٌ", "fr": "un ingénieur" },
+              "to": { "ar": "مُهَنْدِسَةٌ", "fr": "une ingénieure" }
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La lettre qui précède le {ar|ة} porte une **fatha** (ou c'est un alif long)."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Cela ne marche pas pour tous les noms. Le féminin de {ar|اِبْنٌ} (un fils) est un autre mot, {ar|بِنْتٌ} (une fille) : on l'apprend avec le mot."
+        }
+      ]
+    },
+    { "id": "medine-t1.l06.grammar-4#2", "type": "present", "item": "w:talibat" },
+    { "id": "medine-t1.l06.grammar-4#3", "type": "present", "item": "w:tabiba" },
+    {
+      "id": "medine-t1.l06.grammar-4#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:talibat",
+      "distractors": ["w:talib", "w:tabiba"]
+    },
+    { "id": "medine-t1.l06.grammar-4#5", "type": "present", "item": "w:mudarrisa" },
+    { "id": "medine-t1.l06.grammar-4#6", "type": "present", "item": "w:muhandisa" },
+    {
+      "id": "medine-t1.l06.grammar-4#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:talibat", "w:tabiba", "w:mudarrisa", "w:muhandisa"]
+    },
+    {
+      "id": "medine-t1.l06.grammar-4#8",
+      "type": "tip",
+      "title": "L'adjectif s'accorde aussi",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand le nom est féminin, l'adjectif qui le décrit ({ar|مَفْتُوحٌ}, {ar|جَدِيدٌ}…) prend lui aussi le {ar|ة}. On dit qu'il **s'accorde** en genre avec le nom."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "مَفْتُوحٌ", "fr": "ouvert" }, "to": { "ar": "مَفْتُوحَةٌ", "fr": "ouverte" } },
+            { "from": { "ar": "جَدِيدٌ", "fr": "neuf" }, "to": { "ar": "جَدِيدَةٌ", "fr": "neuve" } },
+            { "from": { "ar": "مُغْلَقٌ", "fr": "fermé" }, "to": { "ar": "مُغْلَقَةٌ", "fr": "fermée" } },
+            { "from": { "ar": "جَالِسٌ", "fr": "assis" }, "to": { "ar": "جَالِسَةٌ", "fr": "assise" } },
+            { "from": { "ar": "وَاقِفٌ", "fr": "debout" }, "to": { "ar": "وَاقِفَةٌ", "fr": "debout" } }
+          ]
+        },
+        {
+          "type": "table",
+          "header": ["Nom masculin", "Nom féminin"],
+          "rows": [
+            ["{ar|الْبَابُ مَفْتُوحٌ.}", "{ar|الْغُرْفَةُ مَفْتُوحَةٌ.}"],
+            ["{ar|الْوَلَدُ وَاقِفٌ.}", "{ar|الْبِنْتُ وَاقِفَةٌ.}"],
+            ["{ar|هُوَ جَالِسٌ.}", "{ar|هِيَ جَالِسَةٌ.}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le pronom aussi s'accorde : {ar|هُوَ} (il) avec un masculin, {ar|هِيَ} (elle) avec un féminin."
+        }
+      ]
+    },
+    { "id": "medine-t1.l06.grammar-4#9", "type": "present", "item": "w:muslim" },
+    { "id": "medine-t1.l06.grammar-4#10", "type": "present", "item": "w:muslima" },
+    {
+      "id": "medine-t1.l06.grammar-4#11",
+      "type": "fill_gap",
+      "sentence": "الْحَقِيبَةُ {0}.",
+      "fr": "Le sac est neuf.",
+      "gaps": [ { "answers": ["جَدِيدَةٌ"] } ],
+      "options": ["جَدِيدَةٌ", "جَدِيدٌ"],
+      "explain": "{ar|الْحَقِيبَةُ} est féminin : l'adjectif prend {ar|ة}, {ar|جَدِيدَةٌ}."
+    },
+    {
+      "id": "medine-t1.l06.grammar-4#12",
+      "type": "fill_gap",
+      "sentence": "هُوَ مُسْلِمٌ وَهِيَ {0}.",
+      "fr": "Il est musulman et elle est musulmane.",
+      "gaps": [ { "answers": ["مُسْلِمَةٌ"] } ],
+      "options": ["مُسْلِمَةٌ", "مُسْلِمٌ"]
+    },
+    {
+      "id": "medine-t1.l06.grammar-4#13",
+      "type": "order",
+      "fr": "Āmina est étudiante.",
+      "answers": [["آمِنَةُ", "طَالِبَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l06.grammar-4#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elle est médecin.",
+      "answers": ["هِيَ طَبِيبَةٌ."]
+    }
+  ]
+}

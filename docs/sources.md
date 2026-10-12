@@ -11,7 +11,7 @@ Ils **ne sont pas dans le dépôt** : le dépôt est public, et l'auteur autoris
 interdit la modification et l'usage commercial de ses supports. Pour une nouvelle leçon, demander à
 l'utilisateur de joindre les PDF dans la conversation.
 
-Supports utilisés pour les leçons 1 à 5 :
+Supports utilisés pour les leçons 1 à 6 :
 - `TOME1-1-1.pdf` : introduction (nom, verbe, particule) et cours 1, partie 1 (هٰذَا).
 - `TOME1-1-2.pdf` : cours 1, partie 2 (interrogatifs أَ et مَا).
 - `TOME1-1-3.pdf` : cours 1, partie 3 (مَنْ).
@@ -21,6 +21,8 @@ Supports utilisés pour les leçons 1 à 5 :
 - `TOME1-4-2.pdf` : cours 4, parties 2 et 3 (noms propres, tanwin, noms privés de tanwin, مِنْ أَيْنَ, dialogues du livre, exercice 3, vocabulaire, verbes خَرَجَ / ذَهَبَ, pays).
 - `TOME1-5-1.pdf` : cours 5, partie 1 (rappel des trois cas, annexion, dialogue du livre, exercices 3, 4 et 5).
 - `TOME1-5-2.pdf` : cours 5, partie 2 (interpellation, exercices 1, 2, 6, 7 et 8, vocabulaire nouveau).
+- `TOME1-6-1.pdf` : cours 6, partie 3 (démonstratif féminin هٰذِهِ, masculin et féminin, les trois signes du féminin, former le féminin avec ة, noms féminins sans signe, noms propres masculins avec signe, page du livre, exercices 1 à 4).
+- `TOME1-6-2.pdf` : cours 6, partie 2 (appartenance avec لِ, page du livre « لِمَنْ هٰذِهِ ؟ », vocabulaire nouveau avec singulier, pluriel et exemple) ; reprend aussi le schéma du genre et les exercices 3 et 4 du premier fichier.
 
 ## Ce qui est déjà enseigné (cumulatif)
 
@@ -98,18 +100,32 @@ Supports utilisés pour les leçons 1 à 5 :
 - l'alif de liaison de اِبْنٌ (et de اِسْمٌ) après وَ ou un autre mot ;
 - les pluriels de forme أَفْعَالٌ, des pluriels de personnes, des pluriels sans tanwin de forme فُعَلَاءُ / أَفْعِلَاءُ (et أَسْمَاءٌ / أَبْنَاءٌ avec tanwin).
 
+**Leçon 6** (`l06`) :
+- هٰذِهِ (féminin, singulier, proche ; choses et personnes), مَا هٰذِهِ ؟ / مَنْ هٰذِهِ ؟ ; تِلْكَ est seulement citée (féminin de ذٰلِكَ), sans exercice ;
+- le genre : الْمُذَكَّرُ et الْمُؤَنَّثُ, les trois cas de noms féminins (une femme ou une femelle, un signe du féminin, féminin sans raison particulière) et les noms masculins (un homme, ou aucun signe) ;
+- les trois signes du féminin : تَاءُ التَّأْنِيثِ الْمُتَحَرِّكَةُ (ة), أَلِفُ التَّأْنِيثِ الْمَقْصُورَةُ (ى), أَلِفُ التَّأْنِيثِ الْمَمْدُودَةُ (اء) ; une hamza finale n'est pas toujours un signe du féminin (مَاءٌ هَوَاءٌ غَدَاءٌ sont masculins) ; les noms à alif du féminin sont مَمْنُوعٌ مِنَ الصَّرْفِ ;
+- former le féminin d'un nom de personne avec ة (طَالِبٌ → طَالِبَةٌ) ; l'accord de l'adjectif attribut et du pronom (هُوَ / هِيَ) avec le genre du sujet : الْغُرْفَةُ مَفْتُوحَةٌ ;
+- les féminins sans signe : parties du corps qui vont par paire (la plupart), noms de femmes (أُمٌّ أُخْتٌ بِنْتٌ) ;
+- les prénoms d'hommes en ة (حَمْزَةُ أُسَامَةُ طَلْحَةُ) : masculins, sans tanwin ;
+- l'accord du démonstratif avec le premier terme d'une annexion (هٰذَا مِفْتَاحُ السَّيَّارَةِ) ;
+- la préposition لِ (اللَّامُ الْمِلْكِيَّةُ) : le nom qui suit est مَجْرُورٌ ; لِ + الْ → لِلْ (لِلْمُدِيرِ, لِلَّهِ) ; لِمَنْ هٰذَا ؟ / لِمَنِ الْكِتَابُ ؟ ; différence entre كِتَابُ زَيْدٍ (annexion) et الْكِتَابُ لِزَيْدٍ ;
+- les trois sortes de noms (démonstratif, interrogatif, nom propre) et de particules (حُرُوفُ الْجَرِّ, حَرْفُ الِاسْتِفْهَامِ, حَرْفُ النِّدَاءِ) ;
+- le vocabulaire de la cuisine, de la ferme, du corps, de la famille et des adjectifs جَمِيلٌ سَرِيعٌ قَدِيمٌ مَرِيضٌ حَارٌّ, جِدًّا, أَيْضًا, الْحَمْدُ لِلَّهِ, الْمَشْرِقُ (voir `items.json`) ;
+- les pluriels : en -āt (دَرَّاجَاتٌ, أُمَّهَاتٌ, أَخَوَاتٌ), de forme longue (مَلَاعِقُ, نَوَافِذُ, مَشَارِقُ, مَكَاوٍ), autres pluriels brisés (قُدُورٌ, أَرْجُلٌ, آذَانٌ, أُنُوفٌ, سِرَاعٌ), en -ūna (فَلَّاحُونَ, مُسْلِمُونَ) et noms collectifs (بَقَرٌ, دَجَاجٌ).
+
 **Pas encore enseigné** (ne pas l'exiger dans un exercice) :
-- هٰذِهِ et les démonstratifs féminins ou pluriels ;
+- les démonstratifs pluriels, et تِلْكَ (seulement citée) ;
 - les autres pronoms (seuls هُوَ هِيَ أَنَا أَنْتَ sont vus) et les suffixes (صَدِيقِي, قَمِيصُكَ) ;
 - les cas du nom sont enseignés (damma, fatha, kasra), mais pas les fonctions (sujet, complément…) : le نَصْب n'est montré qu'après قَرَأْتُ ;
 - l'interpellation d'un nom annexé (يَا عَبْدَ اللَّهِ) ou avec أَيُّهَا ;
 - l'annexion « d'apparence » (الضَّارِبُ الرَّجُلِ) ;
-- l'accord de l'adjectif au féminin ;
+- l'adjectif épithète placé après le nom (هٰذِهِ ذِكْرَى جَمِيلَةٌ) : seul l'adjectif attribut est vu ;
+- le pluriel des adjectifs (seul سِرَاعٌ est cité) ;
 - les autres prépositions ;
 - les verbes conjugués (sauf خَرَجَ et ذَهَبَ à la 3ᵉ personne du masculin singulier, et leurs formes citées) ;
 - مَاذَا.
 
-Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin.
+Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, et هٰذِهِ devant un nom marqué masculin (sauf si deux éléments de genres différents s'écrivent pareil sans harakat, comme رَجُلٌ et رِجْلٌ).
 
 ## Choix faits face aux supports
 
@@ -211,6 +227,41 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin.
   - les pluriels sans tanwin (فُعَلَاءُ / أَفْعِلَاءُ) et les exceptions أَسْمَاءٌ / أَبْنَاءٌ.
 
   Elles ont été vérifiées par trois relecteurs indépendants (arabe et fidélité aux PDF, exercices et ordre du parcours, français et pédagogie), puis par une seconde relecture sur les corrections ; chaque remarque a été contrôlée avant correction.
+
+### Leçon 6
+
+- **Exercices du livre repris :**
+  - page de la leçon (هٰذِهِ) → `dialogue-1` (qui est-ce ?) ; page « لِمَنْ هٰذِهِ ؟ » → `dialogue-2` ;
+  - exercice 1 (lire et écrire sept phrases) → `practice-1` (phrases 1 et 4) et `practice-6` (les sept) ;
+  - exercice 2 (« مَا هٰذَا ؟ وَمَا هٰذِهِ ؟ » devant vingt images) → dictées `typing` avec image dans `practice-1`, `practice-4`, `quiz` (seules les images dont l'app a une icône : voiture, sac, fenêtre, nez…) ;
+  - exercice 3 (phrases sur le modèle, au féminin) → `grammar-4` et `practice-3` (sept phrases sur onze ; الطَّالِبُ مَرِيضٌ est reprise comme exemple de مَرِيضٌ, et الشَّايُ حَارٌّ est remplacée par الْمَاءُ حَارٌّ ; الْمِنْدِيلُ وَسِخٌ et الْأَبُ جَالِسٌ / الْأُمُّ sont omises, voir plus bas) ;
+  - exercice 4 (corriger cinq phrases) → `practice-3`. Le validateur refuse d'afficher une phrase fausse comme هٰذَا سَيَّارَةُ الطَّبِيبِ : chaque correction est donc posée en `fill_gap` ou en `question`, jamais en choix d'une phrase fausse ;
+  - les schémas du professeur (genre, féminin, masculin, noms, particules) → `grammar-2`, `grammar-3`, `practice-5`.
+- **Mots et phrases ajoutés** (absents du tableau de vocabulaire du professeur) : الْمُؤَنَّثُ et الْمُذَكَّرُ, les formes féminines طَالِبَةٌ طَبِيبَةٌ مُدَرِّسَةٌ مُهَنْدِسَةٌ مُسْلِمَةٌ (citées par le PDF), جَمِيلٌ قَدِيمٌ (page du livre), مَرِيضٌ حَارٌّ (exercice 3), نَاقَةٌ (exemple du PDF), ذِكْرَى et صَحْرَاءُ (signes du féminin), لِ, لِمَنْ هٰذَا ؟ / لِمَنْ هٰذِهِ ؟, الْحَمْدُ لِلَّهِ (le PDF ne donne que الْحَمْدُ).
+- **Écarts avec les supports :**
+  - le PDF donne سَمَاءٌ comme exemple d'alif du féminin « allongé » : non repris (la hamza y remplace un و de la racine, et le mot s'emploie aussi au masculin, voir leçon 4) ; à la place : صَحْرَاءُ et حَسْنَاءُ ;
+  - le PDF cite مُوسَى comme exemple de signe du féminin et de nom d'homme à signe : non repris (nom étranger, sa terminaison n'est pas le signe du féminin) ; حَمْزَةُ أُسَامَةُ طَلْحَةُ sont conservés ;
+  - le PDF écrit « tous les membres du corps qui vont par paire » : la leçon 3 dit « la plupart » (خَدٌّ, une joue, est masculin) et on garde « la plupart » ;
+  - سِكِّينٌ (un couteau), cité par le PDF parmi les féminins « sans règle », n'est pas repris : les dictionnaires le disent masculin ou féminin ;
+  - le PDF donne قَهْوَاتٌ pour pluriel de قَهْوَةٌ : omis, car la règle des noms de forme فَعْلَةٌ donne قَهَوَاتٌ (la forme du PDF n'est qu'une variante) ; à confirmer avec l'utilisateur ;
+  - le PDF écrit لِمَنْ الْكِتَابُ ؟ : corrigé en لِمَنِ الْكِتَابُ ؟ (alif de liaison de l'article) ; فِرنْسَا devient فَرَنْسَا ;
+  - exemples du tableau de vocabulaire remplacés quand ils emploient des mots non enseignés (الطَّعَامُ فِي الْقِدْرِ, فِي الْقِدْرِ دَجَاجَةٌ avec le prédicat avant le sujet) ; exercice 3 : la phrase sur الْمِنْدِيلُ وَسِخٌ est omise (وَسِخٌ non enseigné) et الْأُمُّ est remplacée par الطَّالِبَةُ (أُمٌّ n'est présentée que plus tard) ;
+  - exercice 4, phrase 4 : le piège est expliqué dans `practice-3` (هٰذَا مِفْتَاحُ السَّيَّارَةِ : le démonstratif s'accorde avec مِفْتَاحٌ, le premier terme).
+- **Traductions :**
+  - ثَلَّاجَةٌ = « un réfrigérateur » (le PDF dit « frigo ») ; رِجْلٌ = « une jambe, un pied » (comme en leçon 3, le PDF dit « jambe ») ; جِدًّا = « très, beaucoup » (le PDF dit « beaucoup ») ; الْمَشْرِقُ = « l'Orient, le Levant » ; قَهْوَةٌ = « du café » ; شَايٌ = « du thé » ; طَبِيبَةٌ = « une femme médecin » ;
+  - مَا هٰذِهِ ؟ = « Qu'est-ce que c'est ? (nom féminin) » et مَنْ هٰذِهِ ؟ = « Qui est-ce ? (une femme, une fille) » : la précision évite deux éléments de même traduction.
+- **Genre :** قِدْرٌ est féminin (le livre dit هِيَ فِي الثَّلَّاجَةِ à propos de قِدْرُ اللَّحْمِ) ; شَايٌ est masculin, قَهْوَةٌ féminin ; الْمُؤَنَّثُ et الْمُذَكَّرُ sont masculins comme mots ; مَكَاوٍ est donné comme pluriel de مِكْوَاةٌ (forme du PDF, avec une note sur le ي final).
+- **Voix :** une voix féminine (Maryam, `f1`) joue dans les deux dialogues.
+- **Nouvelles icônes** (OpenMoji) : bicycle, spoon, window, coffee, ear, nose, leg, cow, farmer, tea (théière), hen (tête de poule), pot (bol de plat chaud).
+- **Validateur :** nouvelle règle (هٰذِهِ devant un nom masculin) ; une forme dont les éléments n'ont pas le même genre (رَجُلٌ / رِجْلٌ) n'est pas contrôlée ; deux QCM ne peuvent plus différer que par هٰذِهِ / هٰذَا.
+- **Explications ajoutées (données à l'oral, absentes des PDF) :**
+  - تِلْكَ existe comme féminin de ذٰلِكَ (simple mention) ;
+  - la prononciation du ة (« t » / « h »), le ة à deux points et le ه ;
+  - le ى de عَلَى et إِلَى n'est pas un signe du féminin ; une hamza finale n'est pas toujours un signe du féminin (مَاءٌ هَوَاءٌ غَدَاءٌ) ; les noms à alif du féminin sont privés de tanwin ;
+  - les féminins par nature (أُمٌّ, أُخْتٌ, بِنْتٌ, نَاقَةٌ, دَجَاجَةٌ) sont des mots différents des masculins ;
+  - le démonstratif s'accorde avec le premier terme d'une annexion ;
+  - لِ + الْ → لِلْ (alif de l'article supprimé), كِتَابُ زَيْدٍ (groupe de mots) / الْكِتَابُ لِزَيْدٍ (phrase) ;
+  - les pluriels : آذَانٌ et la madda, les noms collectifs بَقَرٌ / دَجَاجٌ, مَكَاوٍ sans ي final.
 
 ## Audio
 

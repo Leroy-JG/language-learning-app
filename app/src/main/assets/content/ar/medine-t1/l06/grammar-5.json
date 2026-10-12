@@ -1,0 +1,132 @@
+{
+  "id": "medine-t1.l06.grammar-5",
+  "type": "grammar",
+  "title": "Féminins sans signe",
+  "icon": "hand",
+  "screens": [
+    {
+      "id": "medine-t1.l06.grammar-5#1",
+      "type": "tip",
+      "title": "Féminins sans signe : le corps",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les Arabes ont classé comme féminins beaucoup de noms qui n'ont **aucun signe du féminin**. C'est le cas de **la plupart des parties du corps qui vont par paire**."
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Français", "Genre"],
+          "rows": [
+            ["{ar|عَيْنٌ}", "un œil", "féminin"],
+            ["{ar|يَدٌ}", "une main", "féminin"],
+            ["{ar|أُذُنٌ}", "une oreille", "féminin"],
+            ["{ar|رِجْلٌ}", "une jambe, un pied", "féminin"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces noms s'accordent **comme tous les noms féminins** : on dit {ar|هٰذِهِ}, on les reprend par {ar|هِيَ}, et leurs adjectifs prennent le {ar|ة}."
+        },
+        {
+          "type": "example",
+          "ar": "هٰذِهِ أُذُنٌ وَهٰذِهِ عَيْنٌ.",
+          "fr": "Ceci est une oreille et ceci est un œil."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ce qui ne va pas par paire est masculin : {ar|أَنْفٌ}, {ar|فَمٌ}. La règle a aussi des exceptions : {ar|خَدٌّ} (une joue) est masculin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.grammar-5#2",
+      "type": "tip",
+      "title": "Féminins par nature",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les noms qui désignent une **femme** ou une **femelle** sont féminins, même sans signe. Souvent, c'est un mot différent du masculin :"
+        },
+        {
+          "type": "table",
+          "header": ["Masculin", "Féminin"],
+          "rows": [
+            ["{ar|أَبٌ} (un père)", "{ar|أُمٌّ} (une mère)"],
+            ["{ar|اِبْنٌ} (un fils)", "{ar|بِنْتٌ} (une fille)"],
+            ["{ar|جَمَلٌ} (un chameau)", "{ar|نَاقَةٌ} (une chamelle)"],
+            ["{ar|دِيكٌ} (un coq)", "{ar|دَجَاجَةٌ} (une poule)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.grammar-5#3",
+      "type": "sort",
+      "categories": [ { "fr": "féminin avec un signe" }, { "fr": "féminin sans signe" } ],
+      "cards": [
+        { "item": "w:sayyara", "category": 0 },
+        { "item": "w:yad", "category": 1 },
+        { "item": "w:ghurfa", "category": 0 },
+        { "item": "w:ayn", "category": 1 },
+        { "item": "w:shams", "category": 1 },
+        { "item": "w:bint", "category": 1 },
+        { "item": "w:udhun", "category": 1 },
+        { "item": "w:madrasa", "category": 0 }
+      ],
+      "instruction": "Ce nom est féminin : grâce à un signe, ou sans signe ?",
+      "explain": "{ar|سَيَّارَةٌ}, {ar|غُرْفَةٌ} et {ar|مَدْرَسَةٌ} ont le {ar|ة}. Les autres sont féminins sans signe."
+    },
+    {
+      "id": "medine-t1.l06.grammar-5#4",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi dit-on {ar|هٰذِهِ أُذُنٌ} (et non {ar|هٰذَا}) ?" },
+      "choices": [
+        { "fr": "Parce que {ar|أُذُنٌ} est un nom féminin, sans {ar|ة}" },
+        { "fr": "Parce que {ar|أُذُنٌ} se termine par {ar|ة}" },
+        { "fr": "Parce que l'oreille est loin" }
+      ],
+      "answer": 0,
+      "explain": "{ar|أُذُنٌ} fait partie des noms féminins sans signe : les parties du corps qui vont par paire."
+    },
+    {
+      "id": "medine-t1.l06.grammar-5#5",
+      "type": "true_false",
+      "statement": { "fr": "Tous les noms qui ne se terminent pas par {ar|ة} sont masculins." },
+      "answer": false,
+      "explain": "Il y a des féminins sans signe : {ar|يَدٌ}, {ar|عَيْنٌ}, {ar|أُمٌّ}, {ar|شَمْسٌ}…"
+    },
+    {
+      "id": "medine-t1.l06.grammar-5#6",
+      "type": "spot",
+      "instruction": "Touche la partie du corps qui est féminine.",
+      "words": ["هٰذَا", "أَنْفٌ", "وَهٰذِهِ", "أُذُنٌ."],
+      "answers": [3],
+      "fr": "Ceci est un nez et ceci est une oreille.",
+      "explain": "{ar|أُذُنٌ} (une oreille) va par paire : elle est féminine. {ar|أَنْفٌ} (un nez) est masculin."
+    },
+    {
+      "id": "medine-t1.l06.grammar-5#7",
+      "type": "fill_gap",
+      "sentence": "الْيَدُ {0}.",
+      "fr": "La main est belle.",
+      "gaps": [ { "answers": ["جَمِيلَةٌ"] } ],
+      "options": ["جَمِيلَةٌ", "جَمِيلٌ"],
+      "explain": "{ar|الْيَدُ} est féminin, même sans {ar|ة} : l'adjectif prend {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l06.grammar-5#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ceci est une oreille et ceci est un œil.",
+      "answers": ["هٰذِهِ أُذُنٌ وَهٰذِهِ عَيْنٌ."]
+    },
+    {
+      "id": "medine-t1.l06.grammar-5#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est une main et ceci est une jambe.",
+      "answers": ["هٰذِهِ يَدٌ وَهٰذِهِ رِجْلٌ."]
+    }
+  ]
+}

@@ -493,7 +493,10 @@ Conséquences :
   `gallery` 2 à 9 éléments déjà présentés.
 - Article vocalisé selon la règle lunaire / solaire (§3).
 - Pas de démonstratif masculin (`هٰذَا`, `ذٰلِكَ`) directement suivi d'un nom marqué féminin
-  (`gender: "f"`) : les démonstratifs féminins seront enseignés plus tard.
+  (`gender: "f"`), ni de `هٰذِهِ` directement suivi d'un nom marqué masculin (`gender: "m"`). Si deux
+  éléments de genres différents s'écrivent pareil sans harakat (`رَجُلٌ` « un homme », `رِجْلٌ` « une
+  jambe »), la forme n'est pas contrôlée. Le féminin de `ذٰلِكَ` (`تِلْكَ`) n'est pas encore enseigné.
+- Deux textes qui ne diffèrent que par `هٰذَا` / `ذٰلِكَ` / `هٰذِهِ` ne peuvent pas être deux choix d'un QCM.
 - `context.dialogue` désigne un écran `dialogue` déjà vu.
 - Règles du texte arabe (§3) et balises `{ar|…}` bien formées.
 - Chaque audio attendu existe dans `assets/audio/`.

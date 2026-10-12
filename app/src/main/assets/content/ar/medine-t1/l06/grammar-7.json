@@ -1,0 +1,205 @@
+{
+  "id": "medine-t1.l06.grammar-7",
+  "type": "grammar",
+  "title": "À qui est… ? Le lām de l'appartenance",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l06.grammar-7#1",
+      "type": "tip",
+      "title": "Dire l'appartenance de deux façons",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais l'annexion : {ar|كِتَابُ زَيْدٍ} (le livre de Zayd). Il existe une seconde façon d'exprimer l'appartenance : la préposition {ar|لِ}, appelée {ar|اللَّامُ الْمِلْكِيَّةُ} (« le lām de l'appartenance »)."
+        },
+        {
+          "type": "table",
+          "header": ["Avec l'annexion", "Avec {ar|لِ}"],
+          "rows": [
+            ["{ar|كِتَابُ زَيْدٍ}", "{ar|الْكِتَابُ لِزَيْدٍ}"],
+            ["le livre de Zayd (un groupe de mots)", "le livre est à Zayd (une phrase)"]
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "هٰذَا الْكِتَابُ لِزَيْدٍ",
+          "fr": "Ce livre est à Zayd",
+          "parts": [
+            { "ar": "هٰذَا", "fr": "ceci" },
+            { "ar": "الْكِتَابُ", "fr": "le livre" },
+            { "ar": "لِ", "fr": "à (appartenance)" },
+            { "ar": "زَيْدٍ", "fr": "Zayd" }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|لِ} est une préposition ({ar|حَرْفُ جَرٍّ}) d'**une seule lettre** : elle se colle au début du mot qui la suit."
+        }
+      ]
+    },
+    { "id": "medine-t1.l06.grammar-7#2", "type": "present", "item": "w:li" },
+    {
+      "id": "medine-t1.l06.grammar-7#3",
+      "type": "tip",
+      "title": "Le nom qui suit {ar|لِ} prend la kasra",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|لِ} est une préposition, comme {ar|فِي} ou {ar|عَلَى} (chapitre 4) : le nom qui la suit est au génitif ({ar|مَجْرُورٌ}), avec la kasra (ou le tanwin {ar|◌ٍ} s'il est indéfini)."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "زَيْدٌ", "fr": "Zayd" },
+              "to": { "ar": "لِزَيْدٍ", "fr": "à Zayd" },
+              "label": "le tanwin devient {ar|◌ٍ}"
+            },
+            { "from": { "ar": "مُحَمَّدٌ", "fr": "Muḥammad" }, "to": { "ar": "لِمُحَمَّدٍ", "fr": "à Muḥammad" } },
+            { "from": { "ar": "عَلِيٌّ", "fr": "ʿAlī" }, "to": { "ar": "لِعَلِيٍّ", "fr": "à ʿAlī" } },
+            {
+              "from": { "ar": "عُمَرُ", "fr": "ʿUmar" },
+              "to": { "ar": "لِعُمَرَ", "fr": "à ʿUmar" },
+              "label": "sans tanwin : la fatha"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.grammar-7#4",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle prend le nom {ar|زَيْدٌ} après {ar|لِ} ?" },
+      "choices": [ { "fr": "La kasra" }, { "fr": "La damma" }, { "fr": "La fatha" } ],
+      "answer": 0,
+      "explain": "{ar|لِ} est une préposition : le nom qui la suit est au génitif, avec la kasra. Indéfini, il prend le tanwin {ar|◌ٍ} : {ar|لِزَيْدٍ}."
+    },
+    {
+      "id": "medine-t1.l06.grammar-7#5",
+      "type": "tip",
+      "title": "À qui est… ? : {ar|لِمَنْ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "On place {ar|لِ} devant {ar|مَنْ} (qui ?) : {ar|لِمَنْ} veut dire « à qui ? »."
+        },
+        { "type": "example", "ar": "لِمَنْ هٰذَا؟ هٰذَا لِعَلِيٍّ.", "fr": "À qui est ceci ? C'est à ʿAlī." },
+        { "type": "example", "ar": "لِمَنْ هٰذِهِ؟ هٰذِهِ لِخَالِدٍ.", "fr": "À qui est ceci ? C'est à Khālid." },
+        { "type": "paragraph", "text": "Devant un nom avec l'article, {ar|مَنْ} devient {ar|مَنِ} (chapitre 3) :" },
+        { "type": "example", "ar": "لِمَنِ الْكِتَابُ؟", "fr": "À qui est le livre ?" },
+        {
+          "type": "note",
+          "text": "Tu connais déjà {ar|كِتَابُ مَنْ هٰذَا؟} (chapitre 5) : c'est la même question, avec l'annexion au lieu de {ar|لِ}."
+        }
+      ]
+    },
+    { "id": "medine-t1.l06.grammar-7#6", "type": "present", "item": "p:li-man-hadha" },
+    { "id": "medine-t1.l06.grammar-7#7", "type": "present", "item": "p:li-man-hadhihi" },
+    {
+      "id": "medine-t1.l06.grammar-7#8",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "p:li-man-hadhihi",
+      "distractors": ["p:ma-hadhihi", "p:ayna-al-kitab"]
+    },
+    {
+      "id": "medine-t1.l06.grammar-7#9",
+      "type": "tip",
+      "title": "{ar|لِ} devant l'article",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Devant un mot qui porte l'article {ar|الْ}, le {ar|ا} de l'article **disparaît** : il ne reste que le {ar|لْ}, qui se joint à celui de {ar|لِ}."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "الْمُدِيرُ", "fr": "le directeur" },
+              "to": { "ar": "لِلْمُدِيرِ", "fr": "au directeur" }
+            },
+            {
+              "from": { "ar": "الطَّبِيبُ", "fr": "le médecin" },
+              "to": { "ar": "لِلطَّبِيبِ", "fr": "au médecin" },
+              "label": "lettre solaire : la shadda reste"
+            }
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "لِلْمُدِيرِ",
+          "fr": "au directeur",
+          "parts": [
+            { "ar": "لِ", "fr": "à" },
+            { "ar": "لْ", "fr": "l'article, sans son alif" },
+            { "ar": "مُدِيرِ", "fr": "directeur" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.grammar-7#10",
+      "type": "question",
+      "prompt": { "fr": "Que devient l'alif de l'article {ar|الْ} après {ar|لِ} ?" },
+      "choices": [ { "fr": "Il disparaît" }, { "fr": "Il se prononce « a »" }, { "fr": "Il se transforme en {ar|و}" } ],
+      "answer": 0,
+      "explain": "{ar|لِ} + {ar|الْمُدِيرِ} donne {ar|لِلْمُدِيرِ} : on n'écrit plus l'alif."
+    },
+    {
+      "id": "medine-t1.l06.grammar-7#11",
+      "type": "fill_gap",
+      "sentence": "هٰذَا الْكِتَابُ {0}.",
+      "fr": "Ce livre est à Zayd.",
+      "gaps": [ { "answers": ["لِزَيْدٍ"] } ],
+      "options": ["لِزَيْدٍ", "فِي زَيْدٍ", "عَلَى زَيْدٍ"],
+      "explain": "{ar|لِ} exprime l'appartenance : {ar|لِزَيْدٍ} (à Zayd)."
+    },
+    {
+      "id": "medine-t1.l06.grammar-7#12",
+      "type": "order",
+      "fr": "À qui est ce stylo ?",
+      "answers": [["لِمَنْ", "هٰذَا", "الْقَلَمُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l06.grammar-7#13",
+      "type": "tip",
+      "title": "Les trois sortes de particules",
+      "blocks": [
+        { "type": "paragraph", "text": "Tu connais maintenant trois sortes de particules ({ar|حُرُوفٌ}) :" },
+        {
+          "type": "table",
+          "header": ["Sorte", "Particules"],
+          "rows": [
+            ["{ar|حُرُوفُ الْجَرِّ} (prépositions)", "{ar|فِي}, {ar|عَلَى}, {ar|مِنْ}, {ar|إِلَى}, {ar|لِ}"],
+            ["{ar|حَرْفُ الِاسْتِفْهَامِ} (question oui / non)", "{ar|أَ}"],
+            ["{ar|حَرْفُ النِّدَاءِ} (appel)", "{ar|يَا}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.grammar-7#14",
+      "type": "sort",
+      "categories": [ { "fr": "préposition" }, { "fr": "question oui / non" }, { "fr": "appel" } ],
+      "cards": [
+        { "item": "w:fi", "category": 0 },
+        { "item": "w:a", "category": 1 },
+        { "item": "w:ya", "category": 2 },
+        { "item": "w:li", "category": 0 },
+        { "item": "w:ala", "category": 0 },
+        { "item": "w:ila", "category": 0 }
+      ],
+      "instruction": "Range chaque particule.",
+      "explain": "{ar|فِي}, {ar|لِ}, {ar|عَلَى} et {ar|إِلَى} sont des prépositions. {ar|أَ} pose une question oui / non, {ar|يَا} appelle quelqu'un."
+    },
+    {
+      "id": "medine-t1.l06.grammar-7#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "À qui est ceci ? C'est à Khālid.",
+      "answers": ["لِمَنْ هٰذَا؟ هٰذَا لِخَالِدٍ."]
+    }
+  ]
+}

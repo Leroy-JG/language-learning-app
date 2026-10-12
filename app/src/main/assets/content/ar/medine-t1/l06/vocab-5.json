@@ -1,0 +1,75 @@
+{
+  "id": "medine-t1.l06.vocab-5",
+  "type": "vocabulary",
+  "title": "Louange et Orient",
+  "icon": "mosque",
+  "screens": [
+    {
+      "id": "medine-t1.l06.vocab-5#1",
+      "type": "tip",
+      "title": "Une formule à connaître",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|الْحَمْدُ لِلَّهِ} veut dire « louange à Allah ». C'est {ar|الْحَمْدُ} (la louange) + {ar|لِ} (à) + {ar|اللَّهِ} : l'alif de l'article a disparu après {ar|لِ}."
+        },
+        {
+          "type": "breakdown",
+          "ar": "الْحَمْدُ لِلَّهِ",
+          "fr": "Louange à Allah",
+          "parts": [
+            { "ar": "الْحَمْدُ", "fr": "la louange" },
+            { "ar": "لِ", "fr": "à" },
+            { "ar": "لَّهِ", "fr": "Allah, sans son alif" }
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t1.l06.vocab-5#2", "type": "present", "item": "w:hamd" },
+    { "id": "medine-t1.l06.vocab-5#3", "type": "present", "item": "p:alhamdu-lillah" },
+    { "id": "medine-t1.l06.vocab-5#4", "type": "present", "item": "w:mashriq" },
+    {
+      "id": "medine-t1.l06.vocab-5#5",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hamd",
+      "distractors": ["w:mashriq", "w:ism"]
+    },
+    {
+      "id": "medine-t1.l06.vocab-5#6",
+      "type": "fill_gap",
+      "sentence": "الْحَمْدُ {0}.",
+      "fr": "Louange à Allah.",
+      "gaps": [ { "answers": ["لِلَّهِ"] } ],
+      "options": ["لِلَّهِ", "فِي اللَّهِ", "عَلَى اللَّهِ"]
+    },
+    {
+      "id": "medine-t1.l06.vocab-5#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mashriq",
+      "distractors": ["w:masjid", "w:hamd"]
+    },
+    {
+      "id": "medine-t1.l06.vocab-5#8",
+      "type": "order",
+      "fr": "La Chine est en Orient.",
+      "answers": [["الصِّينُ", "فِي", "الْمَشْرِقِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l06.vocab-5#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Louange à Allah.",
+      "answers": ["الْحَمْدُ لِلَّهِ."]
+    },
+    {
+      "id": "medine-t1.l06.vocab-5#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La Chine est en Orient.",
+      "answers": ["الصِّينُ فِي الْمَشْرِقِ."]
+    }
+  ]
+}

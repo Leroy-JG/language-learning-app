@@ -1,0 +1,118 @@
+{
+  "id": "medine-t1.l06.practice-6",
+  "type": "grammar",
+  "title": "Exercice 1 du livre",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l06.practice-6#1",
+      "type": "tip",
+      "title": "Exercice 1 : lis et écris",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 1 de ton livre propose sept phrases à lire à voix haute, puis à écrire. Écoute-les une par une."
+        },
+        {
+          "type": "example",
+          "ar": "هٰذَا مَسْجِدٌ وَهٰذِهِ مَدْرَسَةٌ.",
+          "fr": "Ceci est une mosquée et ceci est une école."
+        },
+        {
+          "type": "example",
+          "ar": "مَنْ هٰذِهِ؟ هٰذِهِ أُخْتُ عَبَّاسٍ.",
+          "fr": "Qui est-ce ? C'est la sœur de ʿAbbās."
+        },
+        {
+          "type": "example",
+          "ar": "هٰذَا دِيكٌ وَهٰذِهِ دَجَاجَةٌ.",
+          "fr": "Ceci est un coq et ceci est une poule."
+        },
+        {
+          "type": "example",
+          "ar": "هٰذَا اِبْنُ الْمُدِيرِ وَهٰذِهِ بِنْتُ الْمُدَرِّسِ.",
+          "fr": "Ceci est le fils du directeur et ceci est la fille de l'enseignant."
+        },
+        { "type": "example", "ar": "هٰذِهِ أُمُّ يَاسِرٍ.", "fr": "C'est la mère de Yāsir." },
+        {
+          "type": "example",
+          "ar": "أَيْنَ قِدْرُ اللَّحْمِ؟ هِيَ فِي الثَّلَّاجَةِ.",
+          "fr": "Où est la marmite de viande ? Elle est dans le réfrigérateur."
+        },
+        {
+          "type": "example",
+          "ar": "هٰذَا بَابٌ وَهٰذِهِ نَافِذَةٌ.",
+          "fr": "Ceci est une porte et ceci est une fenêtre."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.practice-6#2",
+      "type": "question",
+      "prompt": { "fr": "Dans la deuxième phrase, qui est la femme dont on parle ?" },
+      "choices": [ { "fr": "La sœur de ʿAbbās" }, { "fr": "La mère de ʿAbbās" }, { "fr": "La fille de ʿAbbās" } ],
+      "answer": 0,
+      "explain": "{ar|هٰذِهِ أُخْتُ عَبَّاسٍ} : c'est la sœur de ʿAbbās."
+    },
+    {
+      "id": "medine-t1.l06.practice-6#3",
+      "type": "order",
+      "fr": "Ceci est une porte et ceci est une fenêtre.",
+      "answers": [["هٰذَا", "بَابٌ", "وَهٰذِهِ", "نَافِذَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l06.practice-6#4",
+      "type": "fill_gap",
+      "sentence": "هٰذَا دِيكٌ وَهٰذِهِ {0}.",
+      "fr": "Ceci est un coq et ceci est une poule.",
+      "gaps": [ { "answers": ["دَجَاجَةٌ"] } ],
+      "options": ["دَجَاجَةٌ", "نَاقَةٌ", "بَقَرَةٌ"]
+    },
+    {
+      "id": "medine-t1.l06.practice-6#5",
+      "type": "order",
+      "fr": "Où est la marmite de viande ?",
+      "answers": [["أَيْنَ", "قِدْرُ", "اللَّحْمِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l06.practice-6#6",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ قِدْرُ اللَّحْمِ؟ {0} فِي الثَّلَّاجَةِ.",
+      "fr": "Où est la marmite de viande ? Elle est dans le réfrigérateur.",
+      "gaps": [ { "answers": ["هِيَ"] } ],
+      "options": ["هِيَ", "هُوَ"],
+      "explain": "{ar|قِدْرٌ} est un nom féminin : on le reprend par {ar|هِيَ}."
+    },
+    {
+      "id": "medine-t1.l06.practice-6#7",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans {ar|أَيْنَ قِدْرُ اللَّحْمِ؟ هِيَ فِي الثَّلَّاجَةِ}, le pronom {ar|هِيَ} reprend {ar|قِدْرٌ}, un nom féminin."
+      },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l06.practice-6#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est la mère de Yāsir.",
+      "answers": ["هٰذِهِ أُمُّ يَاسِرٍ."]
+    },
+    {
+      "id": "medine-t1.l06.practice-6#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Qui est-ce ? C'est la sœur de ʿAbbās.",
+      "answers": ["مَنْ هٰذِهِ؟ هٰذِهِ أُخْتُ عَبَّاسٍ."]
+    },
+    {
+      "id": "medine-t1.l06.practice-6#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ceci est une porte et ceci est une fenêtre.",
+      "answers": ["هٰذَا بَابٌ وَهٰذِهِ نَافِذَةٌ."]
+    }
+  ]
+}

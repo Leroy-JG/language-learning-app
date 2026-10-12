@@ -1,0 +1,150 @@
+{
+  "id": "medine-t1.l06.practice-5",
+  "type": "grammar",
+  "title": "À qui est… ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l06.practice-5#1",
+      "type": "tip",
+      "title": "Annexion ou {ar|لِ} : le même sens",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "On peut dire la même chose avec l'annexion ou avec {ar|لِ}. Ici, avec {ar|لِ}, le nom prend l'article {ar|الْ} : on dit « le livre **est à** Zayd »."
+        },
+        {
+          "type": "compare",
+          "title": "annexion → avec {ar|لِ}",
+          "rows": [
+            {
+              "from": { "ar": "هٰذَا كِتَابُ زَيْدٍ.", "fr": "C'est le livre de Zayd." },
+              "to": { "ar": "هٰذَا الْكِتَابُ لِزَيْدٍ.", "fr": "Ce livre est à Zayd." }
+            },
+            {
+              "from": { "ar": "هٰذِهِ سَيَّارَةُ الْمُدِيرِ.", "fr": "C'est la voiture du directeur." },
+              "to": { "ar": "هٰذِهِ السَّيَّارَةُ لِلْمُدِيرِ.", "fr": "Cette voiture est au directeur." }
+            },
+            {
+              "from": { "ar": "هٰذِهِ دَرَّاجَةُ مُحَمَّدٍ.", "fr": "C'est le vélo de Muḥammad." },
+              "to": { "ar": "هٰذِهِ الدَّرَّاجَةُ لِمُحَمَّدٍ.", "fr": "Ce vélo est à Muḥammad." }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.practice-5#2",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ الْحَقِيبَةُ {0}.",
+      "fr": "Ce sac est au directeur.",
+      "gaps": [ { "answers": ["لِلْمُدِيرِ"] } ],
+      "options": ["لِلْمُدِيرِ", "فِي الْمُدِيرِ", "مِنَ الْمُدِيرِ"]
+    },
+    {
+      "id": "medine-t1.l06.practice-5#3",
+      "type": "spot",
+      "instruction": "Touche le mot qui exprime l'appartenance.",
+      "words": ["هٰذَا", "الْقَلَمُ", "لِزَيْدٍ."],
+      "answers": [2],
+      "fr": "Ce stylo est à Zayd.",
+      "explain": "{ar|لِزَيْدٍ} : la particule {ar|لِ}, collée à {ar|زَيْدٍ}, dit à qui appartient le stylo."
+    },
+    {
+      "id": "medine-t1.l06.practice-5#4",
+      "type": "sort",
+      "categories": [ { "fr": "annexion" }, { "fr": "avec {ar|لِ}" } ],
+      "cards": [
+        { "ar": "كِتَابُ زَيْدٍ", "category": 0 },
+        { "ar": "الْكِتَابُ لِزَيْدٍ", "category": 1 },
+        { "ar": "سَيَّارَةُ الْمُدِيرِ", "category": 0 },
+        { "ar": "السَّيَّارَةُ لِلْمُدِيرِ", "category": 1 },
+        { "ar": "دَرَّاجَةُ مُحَمَّدٍ", "category": 0 },
+        { "ar": "الدَّرَّاجَةُ لِمُحَمَّدٍ", "category": 1 }
+      ],
+      "instruction": "Quelle construction exprime l'appartenance ?",
+      "explain": "L'annexion juxtapose deux noms ({ar|كِتَابُ زَيْدٍ}). Avec {ar|لِ}, la préposition est collée au second nom."
+    },
+    {
+      "id": "medine-t1.l06.practice-5#5",
+      "type": "order",
+      "fr": "À qui est cette voiture ?",
+      "answers": [["لِمَنْ", "هٰذِهِ", "السَّيَّارَةُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l06.practice-5#6",
+      "type": "fill_gap",
+      "sentence": "لِمَنْ {0}؟",
+      "fr": "À qui est ceci ?",
+      "gaps": [ { "answers": ["هٰذِهِ"] } ],
+      "options": ["هٰذِهِ", "هٰذَا"],
+      "context": { "icon": "car" },
+      "explain": "L'image montre une voiture : {ar|سَيَّارَةٌ} est féminin, donc {ar|هٰذِهِ}."
+    },
+    {
+      "id": "medine-t1.l06.practice-5#7",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|لِمَنْ هٰذِهِ؟} ?" },
+      "choices": [ { "fr": "À qui est ceci ?" }, { "fr": "Qui est-ce ?" }, { "fr": "Où est ceci ?" } ],
+      "answer": 0,
+      "explain": "{ar|لِمَنْ} = « à qui ? »."
+    },
+    {
+      "id": "medine-t1.l06.practice-5#8",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|لِزَيْدٍ}, le {ar|لِ} est un mot séparé." },
+      "answer": false,
+      "explain": "{ar|لِ} est une préposition d'une seule lettre : elle se colle au mot qui suit."
+    },
+    {
+      "id": "medine-t1.l06.practice-5#9",
+      "type": "tip",
+      "title": "Rappel : trois sortes de noms",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les mots que tu connais comme {ar|هٰذِهِ}, {ar|مَنْ} ou {ar|زَيْدٌ} sont des **noms** ({ar|أَسْمَاءٌ}), mais de trois sortes :"
+        },
+        {
+          "type": "table",
+          "header": ["Sorte de nom", "Exemples"],
+          "rows": [
+            ["{ar|اِسْمُ الْإِشَارَةِ} (démonstratif)", "{ar|هٰذَا}, {ar|ذٰلِكَ}, {ar|هٰذِهِ}"],
+            ["{ar|اِسْمُ الِاسْتِفْهَامِ} (interrogatif)", "{ar|مَا}, {ar|مَنْ}, {ar|أَيْنَ}"],
+            ["{ar|الْعَلَمُ} (nom propre)", "{ar|زَيْدٌ}, {ar|عَائِشَةُ}, {ar|عُمَرُ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.practice-5#10",
+      "type": "sort",
+      "categories": [ { "fr": "démonstratif" }, { "fr": "interrogatif" }, { "fr": "nom propre" } ],
+      "cards": [
+        { "item": "w:hadhihi", "category": 0 },
+        { "item": "w:ma", "category": 1 },
+        { "ar": "زَيْدٌ", "category": 2 },
+        { "item": "w:dhalika", "category": 0 },
+        { "item": "w:ayna", "category": 1 },
+        { "ar": "عَائِشَةُ", "category": 2 }
+      ],
+      "instruction": "Range chaque nom.",
+      "explain": "{ar|هٰذِهِ} et {ar|ذٰلِكَ} montrent quelque chose ; {ar|مَا} et {ar|أَيْنَ} posent une question ; {ar|زَيْدٌ} et {ar|عَائِشَةُ} sont des prénoms."
+    },
+    {
+      "id": "medine-t1.l06.practice-5#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ceci est à Khālid.",
+      "answers": ["هٰذَا لِخَالِدٍ.", "هٰذِهِ لِخَالِدٍ."]
+    },
+    {
+      "id": "medine-t1.l06.practice-5#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "À qui est ce stylo ? Ce stylo est à ʿAlī.",
+      "answers": ["لِمَنْ هٰذَا الْقَلَمُ؟ هٰذَا الْقَلَمُ لِعَلِيٍّ.", "لِمَنْ هٰذَا الْقَلَمُ؟ هٰذَا لِعَلِيٍّ."]
+    }
+  ]
+}

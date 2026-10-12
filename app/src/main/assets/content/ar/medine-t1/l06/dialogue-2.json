@@ -1,0 +1,132 @@
+{
+  "id": "medine-t1.l06.dialogue-2",
+  "type": "dialogue",
+  "title": "À qui est-ce ?",
+  "icon": "bicycle",
+  "screens": [
+    {
+      "id": "medine-t1.l06.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Les vélos et la montre",
+      "intro": "Yāsir et ʿAlī parlent de vélos.",
+      "speakers": { "A": { "name": "Yāsir", "voice": "m1" }, "B": { "name": "ʿAlī", "voice": "m2" } },
+      "lines": [
+        { "speaker": "A", "ar": "أَدَرَّاجَةُ أَنَسٍ هٰذِهِ؟", "fr": "Est-ce le vélo d'Anas ?" },
+        {
+          "speaker": "B",
+          "ar": "لَا، هٰذِهِ دَرَّاجَةُ عَمَّارٍ. هٰذِهِ جَدِيدَةٌ، وَدَرَّاجَةُ أَنَسٍ قَدِيمَةٌ.",
+          "fr": "Non, c'est le vélo de ʿAmmār. Celui-ci est neuf, et le vélo d'Anas est ancien."
+        },
+        { "speaker": "A", "ar": "وَلِمَنْ هٰذِهِ السَّاعَةُ؟", "fr": "Et à qui est cette montre ?" },
+        {
+          "speaker": "B",
+          "ar": "هٰذِهِ سَاعَةُ عَلِيٍّ. هِيَ جَمِيلَةٌ جِدًّا.",
+          "fr": "C'est la montre de ʿAlī. Elle est très belle."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.dialogue-2#2",
+      "type": "dialogue",
+      "title": "Chez le paysan",
+      "intro": "Yāsir pose des questions à Maryam.",
+      "speakers": { "A": { "name": "Yāsir", "voice": "m1" }, "B": { "name": "Maryam", "voice": "f1" } },
+      "lines": [
+        { "speaker": "A", "ar": "لِمَنْ هٰذِهِ الْقِدْرُ؟", "fr": "À qui est cette marmite ?" },
+        { "speaker": "B", "ar": "هٰذِهِ لِخَالِدٍ.", "fr": "Elle est à Khālid." },
+        { "speaker": "A", "ar": "وَلِمَنْ هٰذِهِ الْبَقَرَةُ؟", "fr": "Et à qui est cette vache ?" },
+        { "speaker": "B", "ar": "هٰذِهِ بَقَرَةُ الْفَلَّاحِ.", "fr": "C'est la vache du paysan." },
+        { "speaker": "A", "ar": "وَهٰذِهِ الدَّجَاجَةُ؟", "fr": "Et cette poule ?" },
+        { "speaker": "B", "ar": "هِيَ لِلْفَلَّاحِ أَيْضًا.", "fr": "Elle est aussi au paysan." }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.dialogue-2#3",
+      "type": "tip",
+      "title": "Une question avec {ar|أَ} et {ar|هٰذِهِ} à la fin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans la première phrase, la particule {ar|أَ} est collée au premier mot, et {ar|هٰذِهِ} passe à la fin. C'est la même construction qu'avec {ar|هٰذَا} au chapitre 5 :"
+        },
+        { "type": "example", "ar": "أَدَرَّاجَةُ أَنَسٍ هٰذِهِ؟", "fr": "Est-ce le vélo d'Anas ?" },
+        {
+          "type": "note",
+          "text": "Dans la seconde scène, {ar|هِيَ لِلْفَلَّاحِ أَيْضًا} montre {ar|لِ} devant l'article : {ar|لِ} + {ar|الْفَلَّاحِ} donne {ar|لِلْفَلَّاحِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "À qui est le vélo montré dans la première scène ?" },
+      "choices": [ { "fr": "À ʿAmmār" }, { "fr": "À Anas" }, { "fr": "À Khālid" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l06.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l06.dialogue-2#5",
+      "type": "question",
+      "prompt": { "fr": "Quel vélo est neuf ?" },
+      "choices": [ { "fr": "Celui de ʿAmmār" }, { "fr": "Celui d'Anas" } ],
+      "answer": 0,
+      "shuffle": false,
+      "context": { "dialogue": "medine-t1.l06.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l06.dialogue-2#6",
+      "type": "true_false",
+      "statement": { "fr": "La montre est à ʿAlī." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l06.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l06.dialogue-2#7",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ دَرَّاجَةُ {0}.",
+      "fr": "C'est le vélo de ʿAmmār.",
+      "gaps": [ { "answers": ["عَمَّارٍ"] } ],
+      "options": ["عَمَّارٍ", "أَنَسٍ", "عَلِيٍّ"],
+      "context": { "dialogue": "medine-t1.l06.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l06.dialogue-2#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَنْ هٰذِهِ الْقِدْرُ؟",
+      "answers": ["هٰذِهِ لِخَالِدٍ.", "لِخَالِدٍ."],
+      "fr": "Elle est à Khālid.",
+      "context": { "dialogue": "medine-t1.l06.dialogue-2#2" }
+    },
+    {
+      "id": "medine-t1.l06.dialogue-2#9",
+      "type": "order",
+      "fr": "C'est la vache du paysan.",
+      "answers": [["هٰذِهِ", "بَقَرَةُ", "الْفَلَّاحِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l06.dialogue-2#10",
+      "type": "fill_gap",
+      "sentence": "هِيَ {0} أَيْضًا.",
+      "fr": "Elle est aussi au paysan.",
+      "gaps": [ { "answers": ["لِلْفَلَّاحِ"] } ],
+      "options": ["لِلْفَلَّاحِ", "فِي الْفَلَّاحِ", "عَلَى الْفَلَّاحِ"],
+      "context": { "dialogue": "medine-t1.l06.dialogue-2#2" }
+    },
+    {
+      "id": "medine-t1.l06.dialogue-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Cette montre est à ʿAlī.",
+      "answers": ["هٰذِهِ السَّاعَةُ لِعَلِيٍّ."]
+    },
+    {
+      "id": "medine-t1.l06.dialogue-2#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "À qui est cette vache ?",
+      "answers": ["لِمَنْ هٰذِهِ الْبَقَرَةُ؟"]
+    }
+  ]
+}
