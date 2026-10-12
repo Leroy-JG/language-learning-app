@@ -44,7 +44,7 @@
     {
       "id": "medine-t1.l04.practice-3#3",
       "type": "spot",
-      "instruction": "Touche les deux noms qui se terminent par une kasra.",
+      "instruction": "Touche les deux noms qui suivent une préposition.",
       "words": ["الْمَطْبَخُ", "فِي", "الْبَيْتِ،", "وَالْكِتَابُ", "عَلَى", "الْكُرْسِيِّ."],
       "answers": [2, 5],
       "fr": "La cuisine est dans la maison, et le livre est sur la chaise.",
