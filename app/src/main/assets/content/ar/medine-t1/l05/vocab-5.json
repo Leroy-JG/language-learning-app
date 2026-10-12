@@ -12,7 +12,7 @@
       "type": "mcq",
       "mode": "icon-ar",
       "item": "w:kaaba",
-      "distractors": ["w:masjid", "w:bayt"]
+      "distractors": ["w:quran", "w:allah"]
     },
     { "id": "medine-t1.l05.vocab-5#5", "type": "present", "item": "w:rasul" },
     { "id": "medine-t1.l05.vocab-5#6", "type": "present", "item": "p:salla" },
@@ -44,7 +44,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Muḥammad est le messager d'Allah.",
-      "answers": ["مُحَمَّدٌ رَسُولُ اللَّهِ.", "مُحَمَّدٌ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ رَسُولُ اللَّهِ."]
+      "answers": ["مُحَمَّدٌ رَسُولُ اللَّهِ.", "مُحَمَّدٌ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ رَسُولُ اللَّهِ.", "مُحَمَّدٌ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ."]
     },
     {
       "id": "medine-t1.l05.vocab-5#12",

@@ -118,7 +118,7 @@
     "translit": "ibnun",
     "plural": "أَبْنَاءٌ",
     "gender": "m",
-    "note": "Le {ar|ا} initial est un alif de liaison, sans hamza : au début d'une phrase, on prononce « i », mais derrière un autre mot il disparaît. {ar|هٰذَا اِبْنُ زَيْدٍ} se lit « hādha bnu zaydin ».",
+    "note": "Le {ar|ا} initial est un alif de liaison, sans hamza : il s'écrit toujours, mais on ne prononce « i » qu'au début d'une phrase. Derrière un autre mot ou après {ar|وَ}, il ne se prononce pas : {ar|هٰذَا اِبْنُ زَيْدٍ} se lit « hādha bnu zaydin », et {ar|وَابْنُ} se lit « wa-bnu ».",
     "example": { "ar": "هٰذَا اِبْنُ زَيْدٍ.", "fr": "C'est le fils de Zayd." }
   },
   {
@@ -201,7 +201,7 @@
     "id": "w:ustadh",
     "kind": "word",
     "ar": "أُسْتَاذٌ",
-    "fr": "un professeur",
+    "fr": "un professeur (titre de respect)",
     "translit": "ʾustādhun",
     "plural": "أَسَاتِذَةٌ",
     "gender": "m",
@@ -295,7 +295,7 @@
     "ar": "تَحْتَ",
     "fr": "sous",
     "translit": "taḥta",
-    "note": "Comme {ar|فِي} et {ar|عَلَى}, il indique un lieu, et le nom qui le suit est à la kasra. Ici, {ar|تَحْتَ} se termine par une fatha : c'est le premier terme d'une annexion, et le nom qui le suit en est le second terme.",
+    "note": "Comme {ar|فِي} et {ar|عَلَى}, il indique un lieu, mais ce n'est pas une préposition : c'est un nom de lieu, premier terme d'une annexion. Il se termine ici par une fatha, et le nom qui le suit (second terme) est à la kasra : {ar|تَحْتَ الْمَكْتَبِ}.",
     "example": { "ar": "الْقَلَمُ تَحْتَ الْكِتَابِ.", "fr": "Le stylo est sous le livre." }
   },
   {
@@ -304,7 +304,6 @@
     "ar": "اللَّهُ",
     "fr": "Allah",
     "translit": "Allāhu",
-    "gender": "m",
     "note": "Le nom d'Allah en arabe. Comme second terme d'une annexion, il est à la kasra : {ar|اللَّهِ}.",
     "example": { "ar": "كِتَابُ اللَّهِ", "fr": "le livre d'Allah" }
   },
@@ -316,7 +315,7 @@
     "translit": "rasūlun",
     "plural": "رُسُلٌ",
     "gender": "m",
-    "note": "Un envoyé. {ar|رَسُولُ اللَّهِ} (le messager d'Allah) est le titre du Prophète Muḥammad.",
+    "note": "Un envoyé. {ar|رَسُولُ اللَّهِ} (le messager d'Allah) désigne en particulier le Prophète Muḥammad ; tout envoyé d'Allah peut être appelé ainsi.",
     "example": { "ar": "مُحَمَّدٌ رَسُولُ اللَّهِ.", "fr": "Muḥammad est le messager d'Allah." }
   },
   {
@@ -326,7 +325,7 @@
     "fr": "le Coran",
     "translit": "al-qurʾānu",
     "gender": "m",
-    "note": "Le livre sacré des musulmans. Son nom vient de la racine {ar|ق ر أ} (lire, réciter), celle de {ar|قَرَأْتُ} (j'ai lu).",
+    "note": "Le livre sacré des musulmans. Son nom se rattache le plus souvent à la racine {ar|ق ر أ} (lire, réciter), celle de {ar|قَرَأْتُ} (j'ai lu).",
     "example": { "ar": "الْقُرْآنُ كِتَابُ اللَّهِ.", "fr": "Le Coran est le livre d'Allah." }
   },
   {

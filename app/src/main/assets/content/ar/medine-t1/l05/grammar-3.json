@@ -9,7 +9,7 @@
       "type": "tip",
       "title": "Le premier terme : ni tanwin ni article",
       "blocks": [
-        { "type": "paragraph", "text": "Le premier terme ({ar|الْمُضَافُ}) **perd son tanwin** et n'accepte **jamais l'article** {ar|الْ}." },
+        { "type": "paragraph", "text": "Le premier terme ({ar|الْمُضَافُ}) **perd son tanwin** et n'accepte **pas l'article** {ar|الْ}." },
         {
           "type": "compare",
           "rows": [
@@ -70,12 +70,12 @@
       "type": "true_false",
       "statement": { "fr": "Dans {ar|بَابُ الْمَدْرَسَةِ}, c'est le premier terme qui porte l'article {ar|الْ}." },
       "answer": false,
-      "explain": "C'est le second terme, {ar|الْمَدْرَسَةِ}, qui porte l'article. Le premier terme, {ar|بَابُ}, n'en a jamais."
+      "explain": "C'est le second terme, {ar|الْمَدْرَسَةِ}, qui porte l'article. Le premier terme, {ar|بَابُ}, n'en a pas."
     },
     {
       "id": "medine-t1.l05.grammar-3#6",
       "type": "spot",
-      "instruction": "Touche le mot qui n'a ni article ni tanwin parce qu'il est premier terme.",
+      "instruction": "Touche le premier terme de l'annexion.",
       "words": ["أَيْنَ", "مِفْتَاحُ", "الْبَيْتِ؟"],
       "answers": [1],
       "fr": "Où est la clé de la maison ?",

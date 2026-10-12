@@ -9,7 +9,7 @@
       "type": "tip",
       "title": "Des pluriels en {ar|أَفْعَالٌ}",
       "blocks": [
-        { "type": "paragraph", "text": "Voici quatre noms du chapitre dont le pluriel a la forme {ar|أَفْعَالٌ} : un {ar|أَ} au début, un alif avant la dernière lettre, et le tanwin à la fin." },
+        { "type": "paragraph", "text": "Voici quatre noms que tu connais dont le pluriel a la forme {ar|أَفْعَالٌ} : un {ar|أَ} au début, un alif avant la dernière lettre, et le tanwin à la fin." },
         {
           "type": "table",
           "header": ["Singulier", "Pluriel", "Français"],

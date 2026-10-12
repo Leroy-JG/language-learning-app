@@ -94,7 +94,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Ô professeur",
-      "answers": ["يَا أُسْتَاذُ"]
+      "answers": ["يَا أُسْتَاذُ", "يَا مُدَرِّسُ"]
     },
     {
       "id": "medine-t1.l05.practice-5#9",

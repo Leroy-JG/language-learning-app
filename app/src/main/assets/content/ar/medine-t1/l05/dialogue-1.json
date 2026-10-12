@@ -35,7 +35,7 @@
         { "speaker": "A", "ar": "قَلَمُ مَنْ هٰذَا يَا عَلِيُّ؟", "fr": "À qui est ce stylo, ʿAlī ?" },
         { "speaker": "B", "ar": "هٰذَا قَلَمُ الْمُدَرِّسِ.", "fr": "C'est le stylo de l'enseignant." },
         { "speaker": "A", "ar": "أَيْنَ حَقِيبَةُ الْمُدَرِّسِ؟", "fr": "Où est le sac de l'enseignant ?" },
-        { "speaker": "B", "ar": "هِيَ تَحْتَ الْمَكْتَبِ.", "fr": "Il est sous le bureau." }
+        { "speaker": "B", "ar": "هِيَ تَحْتَ الْمَكْتَبِ.", "fr": "Il (le sac) est sous le bureau." }
       ]
     },
     {
@@ -46,7 +46,8 @@
         { "type": "paragraph", "text": "Dans la première phrase, la particule {ar|أَ} (« est-ce que… ? ») est collée au premier mot, et {ar|هٰذَا} passe à la fin :" },
         { "type": "example", "ar": "أَكِتَابُ مُحَمَّدٍ هٰذَا؟", "fr": "Ceci est-il le livre de Muḥammad ? (mot à mot : le livre de Muḥammad, ceci ?)" },
         { "type": "paragraph", "text": "La réponse reprend la construction habituelle :" },
-        { "type": "example", "ar": "لَا، هٰذَا كِتَابُ حَامِدٍ.", "fr": "Non, c'est le livre de Ḥāmid." }
+        { "type": "example", "ar": "لَا، هٰذَا كِتَابُ حَامِدٍ.", "fr": "Non, c'est le livre de Ḥāmid." },
+        { "type": "note", "text": "Dans la seconde scène, ʿAlī répond {ar|هِيَ تَحْتَ الْمَكْتَبِ} à propos du sac : {ar|هِيَ} (elle), parce que {ar|حَقِيبَةٌ} est un nom féminin en arabe, alors que « sac » est masculin en français (« il »)." }
       ]
     },
     {

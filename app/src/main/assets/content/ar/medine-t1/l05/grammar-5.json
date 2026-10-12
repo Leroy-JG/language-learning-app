@@ -37,7 +37,7 @@
       "type": "tip",
       "title": "Le nom interpellé perd son tanwin",
       "blocks": [
-        { "type": "paragraph", "text": "Le nom appelé ({ar|الْمُنَادَى}) perd son **tanwin** : il ne garde que la **damma simple**." },
+        { "type": "paragraph", "text": "Le nom d'une personne précise qu'on appelle ({ar|الْمُنَادَى}) perd son **tanwin** : il ne garde que la **damma simple**." },
         {
           "type": "compare",
           "rows": [

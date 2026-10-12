@@ -11,7 +11,7 @@
       "type": "mcq",
       "mode": "icon-ar",
       "item": "w:shaykh",
-      "distractors": ["w:rajul", "w:tabib"]
+      "distractors": ["w:walad", "w:bint"]
     },
     { "id": "medine-t1.l05.vocab-2#4", "type": "present", "item": "w:muhandis" },
     { "id": "medine-t1.l05.vocab-2#5", "type": "present", "item": "w:wazir" },
@@ -37,12 +37,12 @@
       "item": "w:wazir",
       "distractors": ["w:mudir", "w:imam"]
     },
-    { "id": "medine-t1.l05.vocab-2#10", "type": "typing", "ask": "fr", "item": "w:ustadh" },
+    { "id": "medine-t1.l05.vocab-2#10", "type": "typing", "ask": "fr", "fr": "un professeur (titre de respect)", "answers": ["أُسْتَاذٌ"] },
     {
       "id": "medine-t1.l05.vocab-2#11",
       "type": "order",
       "fr": "L'ingénieur est sorti de l'école.",
-      "answers": [["خَرَجَ", "الْمُهَنْدِسُ", "مِنَ", "الْمَدْرَسَةِ"]],
+      "answers": [["خَرَجَ", "الْمُهَنْدِسُ", "مِنَ", "الْمَدْرَسَةِ"], ["الْمُهَنْدِسُ", "خَرَجَ", "مِنَ", "الْمَدْرَسَةِ"]],
       "punctuation": ".",
       "distractors": ["إِلَى"]
     },

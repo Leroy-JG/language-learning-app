@@ -24,7 +24,7 @@
             ["{ar|عَلَى مَكْتَبِ الْمُدِيرِ}", "sur le bureau du directeur"]
           ]
         },
-        { "type": "note", "text": "Le premier terme est à la damma, sauf quand une préposition le précède : il passe alors à la kasra ({ar|مِنْ بَيْتِ}, {ar|عَلَى مَكْتَبِ}). Le second terme est toujours à la kasra." }
+        { "type": "note", "text": "Dans ces expressions sans verbe, le premier terme est à la damma, sauf après une préposition : il passe alors à la kasra ({ar|مِنْ بَيْتِ}, {ar|عَلَى مَكْتَبِ}). Le second terme est toujours {ar|مَجْرُورٌ} (kasra, ou fatha pour un nom sans tanwin comme {ar|عُمَرُ})." }
       ]
     },
     {
@@ -40,7 +40,7 @@
         { "ar": "اِسْمُ الطَّالِبِ", "category": 0 },
         { "ar": "فِي غُرْفَةِ عَلِيٍّ", "category": 1 }
       ],
-      "explain": "Sans préposition, le premier terme garde la damma. Après une préposition, il est à la kasra."
+      "explain": "Dans ces expressions, sans préposition devant lui, le premier terme est à la damma. Après une préposition, il est à la kasra."
     },
     {
       "id": "medine-t1.l05.practice-3#3",

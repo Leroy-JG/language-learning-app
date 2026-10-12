@@ -31,7 +31,7 @@
         { "type": "paragraph", "text": "Le {ar|الرَّفْعُ} est le cas de base : c'est la forme sous laquelle on cite un nom. Sa marque habituelle est la **damma**, et un nom à ce cas s'appelle {ar|مَرْفُوعٌ}." },
         { "type": "example", "ar": "هٰذَا مُحَمَّدٌ.", "fr": "C'est Muḥammad." },
         { "type": "example", "ar": "مُحَمَّدٌ اِسْمٌ مَرْفُوعٌ.", "fr": "Muḥammad est un nom au nominatif." },
-        { "type": "note", "text": "Dans les phrases sans verbe que tu connais, comme {ar|هٰذَا بَيْتٌ} ou {ar|الْبَابُ مَفْتُوحٌ}, les noms et les adjectifs sont au {ar|الرَّفْعُ}, sauf ceux qui suivent une préposition." }
+        { "type": "note", "text": "Dans les phrases sans verbe que tu connais, comme {ar|هٰذَا بَيْتٌ} ou {ar|الْبَابُ مَفْتُوحٌ}, les noms et les adjectifs sont au {ar|الرَّفْعُ}, sauf ceux qui suivent une préposition (et le second terme d'une annexion, que tu verras plus loin)." }
       ]
     },
     {
@@ -105,7 +105,7 @@
         { "ar": "عَلَى الْمَكْتَبِ", "category": 2 },
         { "ar": "إِلَى الْمَسْجِدِ", "category": 2 }
       ],
-      "explain": "Dans une phrase sans verbe ({ar|هٰذَا بَيْتٌ}), le dernier mot est au {ar|الرَّفْعُ} (damma). Dans {ar|قَرَأْتُ كِتَابًا}, le nom que le verbe touche est au {ar|النَّصْبُ} (fatha). Après une préposition, il est au {ar|الْجَرُّ} (kasra)."
+      "explain": "Dans une phrase simple comme {ar|هٰذَا بَيْتٌ} ou {ar|الْبَابُ مَفْتُوحٌ}, le dernier mot est au {ar|الرَّفْعُ} (damma). Dans {ar|قَرَأْتُ كِتَابًا}, le nom que le verbe touche est au {ar|النَّصْبُ} (fatha). Après une préposition, il est au {ar|الْجَرُّ} (kasra)."
     },
     {
       "id": "medine-t1.l05.grammar-1#12",

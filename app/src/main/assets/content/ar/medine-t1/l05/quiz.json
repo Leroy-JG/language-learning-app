@@ -21,7 +21,7 @@
     {
       "id": "medine-t1.l05.quiz#5",
       "type": "question",
-      "prompt": { "fr": "Que n'a jamais le premier terme d'une annexion ?" },
+      "prompt": { "fr": "Que n'a pas le premier terme d'une annexion ?" },
       "choices": [ { "fr": "ni article, ni tanwin" }, { "fr": "de voyelle finale" }, { "fr": "de préposition devant lui" } ],
       "answer": 0,
       "explain": "Le premier terme perd son tanwin et n'accepte pas l'article : {ar|كِتَابُ الطَّالِبِ}."

@@ -51,10 +51,10 @@
       "id": "medine-t1.l05.vocab-4#9",
       "type": "spot",
       "instruction": "Touche le nom qui est à la kasra après {ar|تَحْتَ}.",
-      "words": ["الْكَلْبُ", "تَحْتَ", "السَّيَّارَةِ."],
+      "words": ["الْحَقِيبَةُ", "تَحْتَ", "الْمَكْتَبِ."],
       "answers": [2],
-      "fr": "Le chien est sous la voiture.",
-      "explain": "{ar|السَّيَّارَةِ} suit {ar|تَحْتَ} : il est à la kasra."
+      "fr": "Le sac est sous le bureau.",
+      "explain": "{ar|الْمَكْتَبِ} suit {ar|تَحْتَ} : il est à la kasra."
     },
     {
       "id": "medine-t1.l05.vocab-4#10",

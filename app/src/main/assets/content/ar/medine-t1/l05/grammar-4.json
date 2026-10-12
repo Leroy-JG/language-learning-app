@@ -14,7 +14,7 @@
           "type": "table",
           "header": ["Place de l'annexion", "Exemple", "Le premier terme est…"],
           "rows": [
-            ["dans une phrase sans verbe", "{ar|هٰذَا كِتَابُ مُحَمَّدٍ}", "{ar|كِتَابُ} : {ar|مَرْفُوعٌ} (damma)"],
+            ["dans une phrase simple (sans verbe ni préposition devant lui)", "{ar|هٰذَا كِتَابُ مُحَمَّدٍ}", "{ar|كِتَابُ} : {ar|مَرْفُوعٌ} (damma)"],
             ["après un verbe", "{ar|قَرَأْتُ كِتَابَ مُحَمَّدٍ}", "{ar|كِتَابَ} : {ar|مَنْصُوبٌ} (fatha)"],
             ["après une préposition", "{ar|فِي كِتَابِ مُحَمَّدٍ}", "{ar|كِتَابِ} : {ar|مَجْرُورٌ} (kasra)"]
           ]
@@ -97,7 +97,7 @@
             ["{ar|فِي مَسَاجِدِ مَكَّةَ}", "{ar|مَسَاجِدِ}, premier terme, retrouve la **kasra** ; {ar|مَكَّةَ}, second terme sans tanwin, reçoit la **fatha** (dans les mosquées de La Mecque)"]
           ]
         },
-        { "type": "note", "text": "Dans les deux cas, ces noms sont bien {ar|مَجْرُورٌ} : seule la marque change (fatha à la place de la kasra)." }
+        { "type": "note", "text": "{ar|عُمَرَ} et {ar|مَكَّةَ} sont bien {ar|مَجْرُورٌ} : seule la marque change (fatha à la place de la kasra)." }
       ]
     },
     {
