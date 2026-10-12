@@ -9,7 +9,7 @@
       "type": "tip",
       "title": "Les mots que tu connais",
       "blocks": [
-        { "type": "paragraph", "text": "Voici où se rangent, parmi les trois sortes de mots, ceux que tu as appris pour montrer et pour interroger :" },
+        { "type": "paragraph", "text": "Voici où se rangent, parmi les trois sortes de mots, ceux que tu as appris pour montrer, interroger, répondre et relier :" },
         {
           "type": "table",
           "header": ["Catégorie", "Sorte", "Mots"],
@@ -17,6 +17,8 @@
             ["nom ({ar|اِسْمٌ})", "noms interrogatifs ({ar|أَسْمَاءُ الِاسْتِفْهَامِ})", "{ar|مَنْ}, {ar|مَا}"],
             ["nom ({ar|اِسْمٌ})", "noms démonstratifs ({ar|أَسْمَاءُ الْإِشَارَةِ})", "{ar|هٰذَا}, {ar|ذٰلِكَ}"],
             ["particule ({ar|حَرْفٌ})", "particule interrogative ({ar|حَرْفُ الِاسْتِفْهَامِ})", "{ar|أَ}"],
+            ["particule ({ar|حَرْفٌ})", "particules de réponse ({ar|حُرُوفُ الْجَوَابِ})", "{ar|نَعَمْ}, {ar|لَا}"],
+            ["particule ({ar|حَرْفٌ})", "particule de coordination ({ar|حَرْفُ الْعَطْفِ})", "{ar|وَ}"],
             ["verbe ({ar|فِعْلٌ})", "—", "tu les verras plus tard"]
           ]
         }

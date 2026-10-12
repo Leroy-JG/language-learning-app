@@ -33,6 +33,7 @@
     "ar": "مَفْتُوحٌ",
     "fr": "ouvert",
     "translit": "maftūḥun",
+    "note": "Même famille que {ar|مِفْتَاحٌ} (une clé) : les lettres {ar|ف ت ح} portent l'idée d'« ouvrir ». En arabe, les mots d'une même famille partagent les mêmes lettres de base.",
     "example": { "ar": "الْبَابُ مَفْتُوحٌ.", "fr": "La porte est ouverte." }
   },
   {
@@ -133,7 +134,7 @@
     "translit": "jannatun",
     "plural": "جَنَّاتٌ",
     "gender": "f",
-    "note": "Mot féminin. Avec l'article, {ar|الْجَنَّةُ} désigne aussi le Paradis.",
+    "note": "Mot féminin : la plupart des noms qui se terminent par {ar|ة} (tāʾ marbūṭa) sont féminins. Le {ar|ة} se prononce « t » quand on prononce la voyelle qui le suit (« jannatun »), et « h » quand on s'arrête sur le mot (« jannah »). Avec l'article, {ar|الْجَنَّةُ} désigne aussi le Paradis.",
     "example": { "ar": "فِي الْجَنَّةِ زُهُورٌ.", "fr": "Dans le jardin, il y a des fleurs." }
   },
   {
@@ -232,7 +233,7 @@
     "translit": "ʿaynun",
     "icon": "eye",
     "gender": "f",
-    "note": "Mot féminin, bien qu'il ne se termine pas par {ar|ة}."
+    "note": "Mot féminin sans {ar|ة}, comme la plupart des parties du corps qui vont par paire."
   },
   {
     "id": "w:fam",
@@ -251,7 +252,7 @@
     "translit": "yadun",
     "icon": "hand",
     "gender": "f",
-    "note": "Mot féminin, bien qu'il ne se termine pas par {ar|ة}."
+    "note": "Mot féminin sans {ar|ة}, comme la plupart des parties du corps qui vont par paire."
   },
   {
     "id": "w:sadr",

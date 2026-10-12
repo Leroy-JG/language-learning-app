@@ -46,6 +46,7 @@
     "plural": "مَسَاجِدُ",
     "icon": "mosque",
     "gender": "m",
+    "note": "Mot à mot : « le lieu où l'on se prosterne ».",
     "example": { "ar": "هٰذَا مَسْجِدٌ.", "fr": "Ceci est une mosquée." }
   },
   {
@@ -57,6 +58,7 @@
     "plural": "أَبْوَابٌ",
     "icon": "door",
     "gender": "m",
+    "note": "Dans {ar|بَابُ الْمَسْجِدِ} (la porte de la mosquée), le premier nom ne porte pas de tanwin : c'est la construction « le … de … », que tu étudieras plus tard.",
     "example": { "ar": "هٰذَا بَابُ الْمَسْجِدِ.", "fr": "Ceci est la porte de la mosquée." }
   },
   {
@@ -102,6 +104,7 @@
     "translit": "maktabun",
     "plural": "مَكَاتِبُ",
     "gender": "m",
+    "note": "Même famille que {ar|كِتَابٌ} (un livre) et {ar|كِتَابَةٌ} (l'écriture) : les lettres {ar|ك ت ب} portent l'idée d'« écrire ». Le {ar|مَكْتَبٌ} est le meuble ou l'endroit où l'on écrit.",
     "example": { "ar": "هٰذَا مَكْتَبُ الْمَسْجِدِ.", "fr": "Ceci est le bureau de la mosquée." }
   },
   {
@@ -189,6 +192,7 @@
     "ar": "نَعَمْ",
     "fr": "oui",
     "translit": "naʿam",
+    "note": "Particule ({ar|حَرْفٌ}) de réponse.",
     "example": { "ar": "أَهٰذَا بَيْتٌ؟ نَعَمْ، هٰذَا بَيْتٌ.", "fr": "Est-ce une maison ? Oui, c'est une maison." }
   },
   {
@@ -197,6 +201,7 @@
     "ar": "لَا",
     "fr": "non",
     "translit": "lā",
+    "note": "Particule ({ar|حَرْفٌ}) de réponse.",
     "example": { "ar": "أَهٰذَا مِفْتَاحٌ؟ لَا، هٰذَا قَلَمٌ.", "fr": "Est-ce une clé ? Non, c'est un stylo." }
   },
   {

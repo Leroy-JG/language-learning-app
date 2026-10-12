@@ -15,6 +15,11 @@ Pour tout ajout ou modification de contenu (`app/src/main/assets/content/`) :
   harakat masquées), et rien n'exige une notion pas encore enseignée à ce point du parcours.
 - Rester fidèle aux supports du professeur (PDF des Tomes de Médine fournis par l'utilisateur).
 - En cas de doute sur un point de langue : ne pas l'écrire, ou le signaler à l'utilisateur.
+- Chaque nom présenté porte son genre (`"gender": "m"` ou `"f"`) : l'app l'affiche sous la traduction.
+- Compléter les supports du professeur par ce qu'un bon enseignant dirait à l'oral, **uniquement
+  quand c'est pertinent à ce point du cours et certain** (règle de grammaire établie, dictionnaire de
+  référence) : ex. « la plupart des parties du corps qui vont par paire sont féminines ». À chaque
+  nouvelle leçon, chercher activement ces explications manquantes ; ne jamais en inventer.
 - Faire relire le contenu par des relecteurs indépendants (sous-agents) et vérifier soi-même chaque
   remarque avant de corriger. `./gradlew -p core test validateContent` doit passer.
 

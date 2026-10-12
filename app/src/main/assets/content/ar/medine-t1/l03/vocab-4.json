@@ -7,6 +7,27 @@
     { "id": "medine-t1.l03.vocab-4#1", "type": "present", "item": "w:ayn" },
     { "id": "medine-t1.l03.vocab-4#2", "type": "present", "item": "w:fam" },
     { "id": "medine-t1.l03.vocab-4#3", "type": "present", "item": "w:yad" },
+    {
+      "id": "medine-t1.l03.vocab-4#3b",
+      "type": "tip",
+      "title": "Les parties du corps qui vont par paire",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|عَيْنٌ} (un œil) et {ar|يَدٌ} (une main) sont **féminins**, bien qu'ils ne se terminent pas par {ar|ة}." },
+        { "type": "paragraph", "text": "C'est le cas de **la plupart des parties du corps qui vont par paire** : les yeux, les mains, les oreilles, les jambes…" },
+        {
+          "type": "table",
+          "header": ["Arabe", "Français", "Genre"],
+          "rows": [
+            ["{ar|عَيْنٌ}", "un œil", "féminin"],
+            ["{ar|يَدٌ}", "une main", "féminin"],
+            ["{ar|أُذُنٌ}", "une oreille", "féminin"],
+            ["{ar|رِجْلٌ}", "une jambe, un pied", "féminin"]
+          ]
+        },
+        { "type": "paragraph", "text": "En revanche, {ar|فَمٌ} (une bouche), {ar|صَدْرٌ} (une poitrine) et {ar|ظَهْرٌ} (un dos), qui sont uniques, sont masculins." },
+        { "type": "note", "text": "Ce n'est pas une règle absolue : {ar|خَدٌّ} (une joue) va par paire et pourtant il est masculin. Le genre de chaque nom est indiqué sous sa traduction." }
+      ]
+    },
     { "id": "medine-t1.l03.vocab-4#4", "type": "mcq", "mode": "icon-ar", "item": "w:ayn" },
     { "id": "medine-t1.l03.vocab-4#5", "type": "present", "item": "w:sadr" },
     { "id": "medine-t1.l03.vocab-4#6", "type": "present", "item": "w:zahr" },
@@ -17,6 +38,17 @@
       "items": ["w:ayn", "w:fam", "w:yad", "w:sadr", "w:zahr"]
     },
     { "id": "medine-t1.l03.vocab-4#8", "type": "mcq", "mode": "icon-ar", "item": "w:yad" },
+    {
+      "id": "medine-t1.l03.vocab-4#8b",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|يَدٌ} est-il féminin, alors qu'il ne se termine pas par {ar|ة} ?" },
+      "choices": [
+        { "fr": "Comme la plupart des parties du corps qui vont par paire" },
+        { "fr": "Parce qu'il porte le tanwin" },
+        { "fr": "Parce qu'il commence par une lettre lunaire" }
+      ],
+      "answer": 0
+    },
     {
       "id": "medine-t1.l03.vocab-4#9",
       "type": "question",

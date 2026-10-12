@@ -55,7 +55,8 @@
         { "type": "paragraph", "text": "L'article s'écrit avec deux lettres : un **alif**, appelé {ar|هَمْزَةُ الْوَصْلِ} (la hamza de liaison), et un **lām**." },
         { "type": "paragraph", "text": "La hamza de liaison ne se prononce que **quand on commence à parler** par ce mot, en début de phrase. Au milieu d'une phrase, on ne la prononce pas : on enchaîne directement avec la suite du mot." },
         { "type": "example", "ar": "اَلْكِتَابُ جَدِيدٌ.", "fr": "Le livre est neuf. (« al-kitābu… »)" },
-        { "type": "example", "ar": "هٰذَا الْكِتَابُ جَدِيدٌ.", "fr": "Ce livre est neuf. (« hādhā l-kitābu… »)" },
+        { "type": "example", "ar": "هٰذَا الْكِتَابُ جَدِيدٌ.", "fr": "Ce livre est neuf. (« hādha l-kitābu… »)" },
+        { "type": "paragraph", "text": "À l'oral, le « ā » final de {ar|هٰذَا} devient bref devant l'article : on dit « hādha l-kitābu ». Il reste écrit." },
         { "type": "note", "text": "{ar|هٰذَا الْكِتَابُ} veut dire « ce livre » : le démonstratif suivi d'un nom défini montre la chose dont on parle." }
       ]
     },
@@ -63,7 +64,7 @@
       "id": "medine-t1.l03.grammar-3#7",
       "type": "question",
       "prompt": { "fr": "Dans {ar|هٰذَا الْكِتَابُ}, prononce-t-on le « a » de l'article ?" },
-      "choices": [ { "fr": "Oui : on dit « hādhā al-kitābu »" }, { "fr": "Non : on dit « hādhā l-kitābu »" } ],
+      "choices": [ { "fr": "Oui : on dit « hādhā al-kitābu »" }, { "fr": "Non : on dit « hādha l-kitābu »" } ],
       "answer": 1,
       "shuffle": false,
       "explain": "Au milieu d'une phrase, la hamza de liaison ne se prononce pas."
@@ -73,6 +74,18 @@
       "type": "true_false",
       "statement": { "fr": "La hamza de liaison se prononce seulement en début de phrase." },
       "answer": true
+    },
+    {
+      "id": "medine-t1.l03.grammar-3#8b",
+      "type": "tip",
+      "title": "La hamza de liaison dans la phrase",
+      "blocks": [
+        { "type": "paragraph", "text": "Après {ar|وَ} (et), la hamza de liaison ne se prononce pas non plus : on enchaîne." },
+        { "type": "example", "ar": "الْوَلَدُ جَالِسٌ، وَالْمُدَرِّسُ وَاقِفٌ.", "fr": "Le garçon est assis, et l'enseignant est debout. (« … wa l-mudarrisu… »)" },
+        { "type": "paragraph", "text": "Quand le mot précédent se termine par un sukūn, on lui donne une voyelle pour enchaîner, le plus souvent une kasra. Ainsi {ar|مَنْ} devient {ar|مَنِ} :" },
+        { "type": "example", "ar": "مَنِ الْمُدَرِّسُ؟", "fr": "Qui est l'enseignant ? (« mani l-mudarrisu ? »)" },
+        { "type": "note", "text": "À ne pas confondre avec la hamza « coupante » ({ar|هَمْزَةُ الْقَطْعِ}), écrite avec le signe {ar|ء} ({ar|أ}, {ar|إ}) : elle se prononce toujours, même au milieu d'une phrase. Par exemple {ar|الْأَبُ} (« al-ʾabu »), {ar|هٰذَا إِمَامٌ} (« hādhā ʾimāmun ») et le {ar|أَ} des questions." }
+      ]
     },
     {
       "id": "medine-t1.l03.grammar-3#9",

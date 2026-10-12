@@ -184,7 +184,7 @@ exercice est toujours possible : seul l'id reste figé.
 | `translit` | non | translittération écrite à la main (jamais générée) |
 | `plural` | non | pluriel (texte arabe vocalisé, avec son audio) |
 | `icon` | non | nom d'une icône de l'app (permet les exercices « image → mot ») |
-| `gender` | non | `m` ou `f` |
+| `gender` | non | `m` ou `f`, affiché sous la traduction (« masculin · مُذَكَّرٌ »). Obligatoire pour les noms ; absent pour les particules, adjectifs et phrases |
 | `note` | non | remarque en français affichée sous le mot |
 | `example` | non | phrase d'exemple `{ ar, fr }`, avec son audio |
 | `voice` | non | clé de voix, sinon `defaultVoice` |
