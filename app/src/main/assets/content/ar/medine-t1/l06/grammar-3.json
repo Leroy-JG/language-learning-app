@@ -36,7 +36,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Il se prononce « t » quand on prononce la voyelle qui le suit ({ar|سَيَّارَةُ زَيْدٍ} : « sayyāratu zaydin »), et « h » quand on s'arrête sur le mot (« sayyārah »)."
+          "text": "Il se prononce « t » quand on prononce sa voyelle finale ({ar|سَيَّارَةُ زَيْدٍ} : « sayyāratu zaydin »), et « h » quand on s'arrête sur le mot (« sayyārah »)."
         },
         {
           "type": "note",
@@ -61,12 +61,12 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Un alif écrit comme un {ar|ي} **sans points**, et prononcé « ā » : {ar|ذِكْرَى} (« dhikrā »), {ar|لَيْلَى} (« laylā »). C'est {ar|أَلِفُ التَّأْنِيثِ الْمَقْصُورَةُ} (l'alif « raccourci »)."
+          "text": "Un alif qui, le plus souvent, s'écrit comme un {ar|ي} **sans points**, et qui se prononce « ā » : {ar|ذِكْرَى} (« dhikrā »), {ar|لَيْلَى} (« laylā »). C'est {ar|أَلِفُ التَّأْنِيثِ الْمَقْصُورَةُ} (l'alif « raccourci »)."
         },
         {
           "type": "note",
           "tone": "warning",
-          "text": "Ne le confonds pas avec le {ar|ى} de {ar|عَلَى} et de {ar|إِلَى} (chapitre 4) : ce sont des particules, pas des noms féminins."
+          "text": "Ne le confonds pas avec le {ar|ى} de {ar|عَلَى} et de {ar|إِلَى} (chapitre 4) : ce sont des particules, pas des noms féminins. Un {ar|ى} final n'est d'ailleurs pas toujours le signe du féminin : {ar|فَتًى} (un jeune homme) et {ar|مَعْنًى} (un sens) sont masculins et gardent le tanwin."
         }
       ]
     },
@@ -95,7 +95,7 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "Toute hamza finale n'est pas un signe du féminin. Dans {ar|مَاءٌ} (de l'eau), {ar|هَوَاءٌ} (de l'air) et {ar|غَدَاءٌ} (un déjeuner), la hamza fait partie du mot lui-même : ce sont des noms **masculins**, avec tanwin."
+          "text": "Toute hamza finale n'est pas un signe du féminin. Dans {ar|مَاءٌ} (de l'eau), {ar|هَوَاءٌ} (de l'air) et {ar|غَدَاءٌ} (un déjeuner), la hamza fait partie du mot lui-même : ce sont des noms **masculins**, avec tanwin. {ar|سَمَاءٌ} (un ciel, chapitre 4) se termine aussi par une hamza, mais ce n'est pas non plus le signe du féminin : on apprend son genre avec le mot."
         }
       ]
     },

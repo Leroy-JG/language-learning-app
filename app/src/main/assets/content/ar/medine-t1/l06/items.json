@@ -247,7 +247,7 @@
     "translit": "mikwātun",
     "plural": "مَكَاوٍ",
     "gender": "f",
-    "note": "Le pluriel {ar|مَكَاوٍ} s'écrit sans {ar|ي} final quand il est indéfini.",
+    "note": "Le pluriel {ar|مَكَاوٍ} perd son {ar|ي} final : un tanwin {ar|◌ٍ} le remplace quand il est indéfini (au nominatif et au génitif).",
     "example": { "ar": "الْمِكْوَاةُ جَدِيدَةٌ.", "fr": "Le fer à repasser est neuf." }
   },
   {
@@ -282,7 +282,7 @@
     "plural": "دَجَاجٌ",
     "icon": "hen",
     "gender": "f",
-    "note": "Le coq se dit {ar|دِيكٌ} : c'est un autre mot. Le pluriel {ar|دَجَاجٌ} est un nom collectif : il désigne les poules, ou la volaille en général.",
+    "note": "Le coq se dit {ar|دِيكٌ} : c'est un autre mot. Le pluriel {ar|دَجَاجٌ} est un nom collectif : il désigne les poules et les poulets.",
     "example": { "ar": "هٰذَا دِيكٌ وَهٰذِهِ دَجَاجَةٌ.", "fr": "Ceci est un coq et ceci est une poule." }
   },
   {
@@ -406,7 +406,7 @@
     "translit": "al-mashriqu",
     "plural": "مَشَارِقُ",
     "gender": "m",
-    "note": "Le lieu où le soleil se lève. Il se rattache à la racine {ar|ش ر ق} (le lever du soleil).",
+    "note": "Le lieu où le soleil se lève. Il se rattache à la racine {ar|ش ر ق} (le lever du soleil) et suit le modèle des noms de lieux en {ar|مَ} (comme {ar|مَسْجِدٌ} et {ar|مَكْتَبٌ}, chapitre 4).",
     "example": { "ar": "الصِّينُ فِي الْمَشْرِقِ.", "fr": "La Chine est en Orient." }
   },
   {

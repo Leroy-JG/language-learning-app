@@ -79,7 +79,7 @@
     {
       "id": "medine-t1.l06.quiz#9",
       "type": "true_false",
-      "statement": { "fr": "Après {ar|لِ}, le nom prend la kasra : {ar|لِزَيْدٍ}." },
+      "statement": { "fr": "En général, après {ar|لِ}, le nom prend la kasra : {ar|لِزَيْدٍ}." },
       "answer": true
     },
     {

@@ -38,7 +38,7 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "Cela ne marche pas pour tous les noms. Le féminin de {ar|اِبْنٌ} (un fils) est un autre mot, {ar|بِنْتٌ} (une fille) : on l'apprend avec le mot."
+          "text": "Cela ne marche pas pour tous les noms. Le féminin usuel de {ar|اِبْنٌ} (un fils) est un autre mot, {ar|بِنْتٌ} (une fille) : on l'apprend avec le mot."
         }
       ]
     },
@@ -66,7 +66,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Quand le nom est féminin, l'adjectif qui le décrit ({ar|مَفْتُوحٌ}, {ar|جَدِيدٌ}…) prend lui aussi le {ar|ة}. On dit qu'il **s'accorde** en genre avec le nom."
+          "text": "Quand le nom est féminin, l'adjectif qui le décrit ({ar|مَفْتُوحٌ}, {ar|جَدِيدٌ}…) prend en général lui aussi le {ar|ة}. On dit qu'il **s'accorde** en genre avec le nom."
         },
         {
           "type": "compare",

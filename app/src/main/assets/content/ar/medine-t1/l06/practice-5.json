@@ -94,9 +94,9 @@
     {
       "id": "medine-t1.l06.practice-5#8",
       "type": "true_false",
-      "statement": { "fr": "Dans {ar|لِزَيْدٍ}, le {ar|لِ} est un mot séparé." },
+      "statement": { "fr": "Dans {ar|لِزَيْدٍ}, le {ar|لِ} s'écrit séparé du mot qui suit." },
       "answer": false,
-      "explain": "{ar|لِ} est une préposition d'une seule lettre : elle se colle au mot qui suit."
+      "explain": "{ar|لِ} est une préposition d'une seule lettre : elle s'écrit collée au mot qui suit."
     },
     {
       "id": "medine-t1.l06.practice-5#9",
@@ -105,7 +105,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Les mots que tu connais comme {ar|هٰذِهِ}, {ar|مَنْ} ou {ar|زَيْدٌ} sont des **noms** ({ar|أَسْمَاءٌ}), mais de trois sortes :"
+          "text": "Les mots comme {ar|هٰذِهِ}, {ar|مَنْ} ou {ar|زَيْدٌ} sont des **noms** ({ar|أَسْمَاءٌ}). Parmi les noms que tu connais, voici trois sortes :"
         },
         {
           "type": "table",

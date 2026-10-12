@@ -56,7 +56,7 @@
         },
         {
           "type": "note",
-          "text": "Le pluriel de {ar|مِكْوَاةٌ} est de la même famille, mais son {ar|ي} final est remplacé par le tanwin {ar|◌ٍ} quand il est indéfini : {ar|مَكَاوٍ}. C'est la seule exception de ce tableau : on l'apprend avec le mot."
+          "text": "Le pluriel de {ar|مِكْوَاةٌ} est de la même famille, mais son {ar|ي} final est remplacé par le tanwin {ar|◌ٍ} quand il est indéfini (au nominatif et au génitif) : {ar|مَكَاوٍ}. C'est la seule exception de ce tableau : on l'apprend avec le mot."
         }
       ]
     },
@@ -110,7 +110,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le pluriel en « -ūna » est celui des personnes de sexe masculin, comme {ar|مُدَرِّسُونَ} (chapitre 1)."
+          "text": "Le pluriel en « -ūna » est celui de certains noms de personnes, au masculin : un groupe d'hommes ou un groupe mixte, comme {ar|مُدَرِّسُونَ} (chapitre 1). Beaucoup de noms de personnes ont un autre pluriel (par exemple {ar|رِجَالٌ} pour {ar|رَجُلٌ})."
         },
         {
           "type": "table",
@@ -120,6 +120,10 @@
         {
           "type": "paragraph",
           "text": "Certains noms ont pour pluriel un **nom collectif** : le nom du groupe, sans {ar|ة}. C'est le cas de {ar|بَقَرَةٌ} → {ar|بَقَرٌ} et de {ar|دَجَاجَةٌ} → {ar|دَجَاجٌ}, comme {ar|سَمَكَةٌ} → {ar|سَمَكٌ} (chapitre 3)."
+        },
+        {
+          "type": "note",
+          "text": "Le pluriel d'un nom de **chose** s'accorde comme un féminin singulier : {ar|الْكُتُبُ جَدِيدَةٌ} (les livres sont neufs)."
         }
       ]
     },
@@ -132,10 +136,10 @@
     {
       "id": "medine-t1.l06.plurals-1#10",
       "type": "question",
-      "prompt": { "fr": "Lequel de ces pluriels désigne des personnes de sexe masculin ?" },
+      "prompt": { "fr": "Lequel de ces pluriels est un pluriel de personnes en « -ūna » ?" },
       "choices": [ { "ar": "فَلَّاحُونَ" }, { "ar": "قُدُورٌ" }, { "ar": "ثَلَّاجَاتٌ" } ],
       "answer": 0,
-      "explain": "Le pluriel en « -ūna » ({ar|فَلَّاحُونَ}) est celui des personnes de sexe masculin."
+      "explain": "{ar|فَلَّاحُونَ} est le pluriel de {ar|فَلَّاحٌ} (un paysan), un nom de personne. {ar|قُدُورٌ} (des marmites) et {ar|ثَلَّاجَاتٌ} (des réfrigérateurs) sont des pluriels de choses."
     },
     {
       "id": "medine-t1.l06.plurals-1#11",

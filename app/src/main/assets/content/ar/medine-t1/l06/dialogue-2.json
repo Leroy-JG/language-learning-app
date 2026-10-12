@@ -8,8 +8,8 @@
       "id": "medine-t1.l06.dialogue-2#1",
       "type": "dialogue",
       "title": "Les vélos et la montre",
-      "intro": "Yāsir et ʿAlī parlent de vélos.",
-      "speakers": { "A": { "name": "Yāsir", "voice": "m1" }, "B": { "name": "ʿAlī", "voice": "m2" } },
+      "intro": "Yāsir et Ḥāmid parlent de vélos et d'une montre.",
+      "speakers": { "A": { "name": "Yāsir", "voice": "m1" }, "B": { "name": "Ḥāmid", "voice": "m2" } },
       "lines": [
         { "speaker": "A", "ar": "أَدَرَّاجَةُ أَنَسٍ هٰذِهِ؟", "fr": "Est-ce le vélo d'Anas ?" },
         {
@@ -37,7 +37,7 @@
         { "speaker": "A", "ar": "وَلِمَنْ هٰذِهِ الْبَقَرَةُ؟", "fr": "Et à qui est cette vache ?" },
         { "speaker": "B", "ar": "هٰذِهِ بَقَرَةُ الْفَلَّاحِ.", "fr": "C'est la vache du paysan." },
         { "speaker": "A", "ar": "وَهٰذِهِ الدَّجَاجَةُ؟", "fr": "Et cette poule ?" },
-        { "speaker": "B", "ar": "هِيَ لِلْفَلَّاحِ أَيْضًا.", "fr": "Elle est aussi au paysan." }
+        { "speaker": "B", "ar": "هِيَ لِلْفَلَّاحِ أَيْضًا.", "fr": "Elle appartient aussi au paysan." }
       ]
     },
     {
@@ -109,7 +109,7 @@
       "id": "medine-t1.l06.dialogue-2#10",
       "type": "fill_gap",
       "sentence": "هِيَ {0} أَيْضًا.",
-      "fr": "Elle est aussi au paysan.",
+      "fr": "Elle appartient aussi au paysan.",
       "gaps": [ { "answers": ["لِلْفَلَّاحِ"] } ],
       "options": ["لِلْفَلَّاحِ", "فِي الْفَلَّاحِ", "عَلَى الْفَلَّاحِ"],
       "context": { "dialogue": "medine-t1.l06.dialogue-2#2" }

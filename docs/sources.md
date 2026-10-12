@@ -251,6 +251,7 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - ثَلَّاجَةٌ = « un réfrigérateur » (le PDF dit « frigo ») ; رِجْلٌ = « une jambe, un pied » (comme en leçon 3, le PDF dit « jambe ») ; جِدًّا = « très, beaucoup » (le PDF dit « beaucoup ») ; الْمَشْرِقُ = « l'Orient, le Levant » ; قَهْوَةٌ = « du café » ; شَايٌ = « du thé » ; طَبِيبَةٌ = « une femme médecin » ;
   - مَا هٰذِهِ ؟ = « Qu'est-ce que c'est ? (nom féminin) » et مَنْ هٰذِهِ ؟ = « Qui est-ce ? (une femme, une fille) » : la précision évite deux éléments de même traduction.
 - **Genre :** قِدْرٌ est féminin (le livre dit هِيَ فِي الثَّلَّاجَةِ à propos de قِدْرُ اللَّحْمِ) ; شَايٌ est masculin, قَهْوَةٌ féminin ; الْمُؤَنَّثُ et الْمُذَكَّرُ sont masculins comme mots ; مَكَاوٍ est donné comme pluriel de مِكْوَاةٌ (forme du PDF, avec une note sur le ي final).
+- **Relectures :** trois relecteurs indépendants (arabe et fidélité aux PDF, exercices, français et pédagogie), puis une seconde relecture sur les corrections ; chaque remarque a été contrôlée avant correction. Corrigés notamment : un vrai/faux dont l'arabe et le français ne se correspondaient pas, des règles trop absolues (« tout nom à signe est féminin », « tout ce qui ne va pas par paire est masculin », « trois sortes de particules »), le pluriel مَكَاوٍ, et un locuteur de dialogue qui parlait de lui à la 3ᵉ personne.
 - **Voix :** une voix féminine (Maryam, `f1`) joue dans les deux dialogues.
 - **Nouvelles icônes** (OpenMoji) : bicycle, spoon, window, ear, nose, leg, cow, farmer, tea (théière), hen (tête de poule), pot (bol de plat chaud).
 - **Validateur :** nouvelle règle (هٰذِهِ devant un nom masculin) ; une forme dont les éléments n'ont pas le même genre (رَجُلٌ / رِجْلٌ) n'est pas contrôlée ; deux QCM ne peuvent plus différer que par هٰذِهِ / هٰذَا.
@@ -261,7 +262,9 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - les féminins par nature (أُمٌّ, أُخْتٌ, بِنْتٌ, نَاقَةٌ, دَجَاجَةٌ) sont des mots différents des masculins ;
   - le démonstratif s'accorde avec le premier terme d'une annexion ;
   - لِ + الْ → لِلْ (alif de l'article supprimé), كِتَابُ زَيْدٍ (groupe de mots) / الْكِتَابُ لِزَيْدٍ (phrase) ;
-  - les pluriels : آذَانٌ et la madda, les noms collectifs بَقَرٌ / دَجَاجٌ, مَكَاوٍ sans ي final.
+  - les pluriels : آذَانٌ et la madda, les noms collectifs بَقَرٌ / دَجَاجٌ, مَكَاوٍ (son tanwin remplace le ي final), le pluriel en -ūna (« certains noms de personnes, au masculin », pas seulement des hommes), les pluriels de choses accordés comme un féminin singulier ;
+  - le ت de بِنْتٌ et أُخْتٌ n'est pas un ة (il reste « t » à la pause) ; le féminin usuel de اِبْنٌ est بِنْتٌ (اِبْنَةٌ existe aussi) ; سِنٌّ (une dent) est féminin alors qu'il ne va pas par paire ; فَتًى et مَعْنًى (en ى) sont masculins ; سَمَاءٌ n'a pas de hamza du féminin ;
+  - l'alif de l'article tombe après لِ parce que c'est un alif de liaison.
 
 ## Audio
 

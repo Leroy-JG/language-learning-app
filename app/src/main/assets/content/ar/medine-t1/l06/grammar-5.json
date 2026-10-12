@@ -35,7 +35,7 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "Ce qui ne va pas par paire est masculin : {ar|أَنْفٌ}, {ar|فَمٌ}. La règle a aussi des exceptions : {ar|خَدٌّ} (une joue) est masculin."
+          "text": "En général, ce qui ne va pas par paire est masculin : {ar|أَنْفٌ}, {ar|فَمٌ}. Mais la règle a des exceptions dans les deux sens : {ar|خَدٌّ} (une joue) va par paire et pourtant il est masculin, alors que {ar|سِنٌّ} (une dent) est féminin."
         }
       ]
     },
@@ -54,9 +54,12 @@
           "rows": [
             ["{ar|أَبٌ} (un père)", "{ar|أُمٌّ} (une mère)"],
             ["{ar|اِبْنٌ} (un fils)", "{ar|بِنْتٌ} (une fille)"],
-            ["{ar|جَمَلٌ} (un chameau)", "{ar|نَاقَةٌ} (une chamelle)"],
-            ["{ar|دِيكٌ} (un coq)", "{ar|دَجَاجَةٌ} (une poule)"]
+            ["{ar|جَمَلٌ} (un chameau)", "{ar|نَاقَةٌ} (une chamelle)"]
           ]
+        },
+        {
+          "type": "note",
+          "text": "Le {ar|ت} de {ar|بِنْتٌ} et de {ar|أُخْتٌ} est un {ar|ت} ordinaire, pas un {ar|ة} : il se prononce toujours « t » (« bint », « ukht »), alors que le {ar|ة} devient « h » quand on s'arrête sur le mot."
         }
       ]
     },
@@ -116,13 +119,22 @@
     },
     {
       "id": "medine-t1.l06.grammar-5#8",
+      "type": "fill_gap",
+      "sentence": "رِجْلُ زَيْدٍ {0}.",
+      "fr": "La jambe de Zayd est cassée.",
+      "gaps": [ { "answers": ["مَكْسُورَةٌ"] } ],
+      "options": ["مَكْسُورَةٌ", "مَكْسُورٌ"],
+      "explain": "{ar|رِجْلٌ} est féminin, sans {ar|ة} : dans l'annexion {ar|رِجْلُ زَيْدٍ}, c'est lui, le premier terme, qui commande l'accord."
+    },
+    {
+      "id": "medine-t1.l06.grammar-5#9",
       "type": "typing",
       "ask": "fr",
       "fr": "Ceci est une oreille et ceci est un œil.",
       "answers": ["هٰذِهِ أُذُنٌ وَهٰذِهِ عَيْنٌ."]
     },
     {
-      "id": "medine-t1.l06.grammar-5#9",
+      "id": "medine-t1.l06.grammar-5#10",
       "type": "typing",
       "ask": "audio",
       "fr": "Ceci est une main et ceci est une jambe.",

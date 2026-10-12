@@ -62,6 +62,11 @@
               "from": { "ar": "عُمَرُ", "fr": "ʿUmar" },
               "to": { "ar": "لِعُمَرَ", "fr": "à ʿUmar" },
               "label": "sans tanwin : la fatha"
+            },
+            {
+              "from": { "ar": "حَمْزَةُ", "fr": "Ḥamza" },
+              "to": { "ar": "لِحَمْزَةَ", "fr": "à Ḥamza" },
+              "label": "sans tanwin : la fatha"
             }
           ]
         }
@@ -110,7 +115,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Devant un mot qui porte l'article {ar|الْ}, le {ar|ا} de l'article **disparaît** : il ne reste que le {ar|لْ}, qui se joint à celui de {ar|لِ}."
+          "text": "Devant un mot qui porte l'article {ar|الْ}, le {ar|ا} de l'article **disparaît** : il ne reste que le {ar|لْ}, qui suit celui de {ar|لِ}. C'est un alif de liaison (chapitre 5) : on ne le prononce pas après une voyelle, ici le « i » de {ar|لِ}."
         },
         {
           "type": "compare",
@@ -167,7 +172,7 @@
       "type": "tip",
       "title": "Les trois sortes de particules",
       "blocks": [
-        { "type": "paragraph", "text": "Tu connais maintenant trois sortes de particules ({ar|حُرُوفٌ}) :" },
+        { "type": "paragraph", "text": "Parmi les particules ({ar|حُرُوفٌ}) que tu connais, voici trois sortes :" },
         {
           "type": "table",
           "header": ["Sorte", "Particules"],

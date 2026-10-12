@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Pour trouver le genre d'un nom, observe sa fin. Un nom qui porte un signe du féminin est féminin. Un nom sans signe est masculin, sauf les noms de femmes et les féminins « sans règle »."
+          "text": "Pour trouver le genre d'un nom, observe sa fin. En général, un nom qui porte un signe du féminin est féminin. Un nom sans signe est masculin, sauf les noms de femmes et les féminins « sans règle »."
         },
         {
           "type": "table",
@@ -39,7 +39,7 @@
         { "item": "w:yad", "category": 1 }
       ],
       "instruction": "Range chaque nom : masculin ou féminin ?",
-      "explain": "Les noms en {ar|ة} sont féminins ({ar|غُرْفَةٌ}, {ar|طَاوِلَةٌ}, {ar|جَامِعَةٌ}), et {ar|يَدٌ} aussi, sans {ar|ة}."
+      "explain": "Les noms en {ar|ة} sont le plus souvent féminins ({ar|غُرْفَةٌ}, {ar|طَاوِلَةٌ}, {ar|جَامِعَةٌ}), et {ar|يَدٌ} aussi, sans {ar|ة}."
     },
     {
       "id": "medine-t1.l06.practice-2#3",
