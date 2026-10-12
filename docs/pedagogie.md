@@ -108,7 +108,7 @@ la plus claire de la montrer, puis la plus efficace de l'entraîner ?**
 3. Varier d'une leçon à l'autre : un chapitre doit contenir au moins un jeu (`memory`, `sort`, `build` ou `spot`) en plus des exercices classiques.
 4. Écrire le plan du chapitre (parties, activités, outils choisis) avant le JSON.
 
-Exemples tirés des leçons 1 à 4 :
+Exemples tirés des leçons 1 à 5 :
 - `sort` مَا / مَنْ dans `l01/grammar-3` ;
 - `memory` des animaux dans `l01/vocab-5` ;
 - `build` de مِفْتَاحٌ dans `l01/vocab-2` ;
@@ -120,7 +120,11 @@ Exemples tirés des leçons 1 à 4 :
 - `sort` à trois catégories (nom propre / démonstratif / article) dans `l04/grammar-3` ;
 - `breakdown` de مِنْ أَيْنَ dans `l04/grammar-6` ;
 - `memory` des pays, avec les drapeaux, dans `l04/vocab-3` ;
-- `build` de إِلَى (le ى, pas le ي) dans `l04/vocab-1` et de مَكَّةُ (le ة, pas le ه) dans `l04/grammar-5`.
+- `build` de إِلَى (le ى, pas le ي) dans `l04/vocab-1` et de مَكَّةُ (le ة, pas le ه) dans `l04/grammar-5` ;
+- `breakdown` de كِتَابُ زَيْدٍ (annexion) dans `l05/grammar-2`, et d'une annexion à trois noms (اِبْنُ عَمِّ زَيْدٍ) dans `l05/grammar-4` ;
+- `sort` « annexion / préposition + nom » (deux raisons d'avoir la kasra) dans `l05/practice-1`, et « on appelle / on parle de quelqu'un » dans `l05/practice-5` ;
+- `memory` d'images (voiture, sac, cahier, rue, clé) dans `l05/vocab-3` ;
+- `compare` de l'interpellation (le tanwin disparaît) dans `l05/grammar-5`.
 
 ### Entraîner une voyelle finale (kasra, fatha…)
 
