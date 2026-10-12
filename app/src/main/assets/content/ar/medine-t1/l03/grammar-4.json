@@ -35,7 +35,7 @@
             ["{ar|ي}", "{ar|الْيَدُ}", "la main"]
           ]
         },
-        { "type": "note", "text": "Pour les retenir, les lettres lunaires sont toutes dans la phrase {ar|اِبْغِ حَجَّكَ وَخَفْ عَقِيمَهُ}." },
+        { "type": "note", "tone": "memo", "text": "Les lettres lunaires sont toutes dans la phrase {ar|اِبْغِ حَجَّكَ وَخَفْ عَقِيمَهُ}." },
         { "type": "note", "text": "Cas particulier : devant un nom qui commence lui-même par une hamza de liaison, le lām de l'article prend une kasra pour enchaîner : {ar|اِسْمٌ} → {ar|الِاسْمُ} (« al-ismu »)." }
       ]
     },

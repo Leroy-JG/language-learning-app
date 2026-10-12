@@ -10,8 +10,8 @@ Mieux vaut une leçon de moins qu'une seule erreur.
 
 ## 0. Avant de commencer
 
-1. Lire `CLAUDE.md`, `docs/content-format.md` (le format, en entier) et `docs/sources.md`
-   (choix déjà faits, notions déjà enseignées).
+1. Lire `CLAUDE.md`, `docs/pedagogie.md` (cadre fixe et palette d'outils), `docs/content-format.md`
+   (le format, en entier) et `docs/sources.md` (choix déjà faits, notions déjà enseignées).
 2. Il faut **les PDF du professeur** pour la leçon. Ils ne sont pas dans le dépôt (dépôt public) :
    si l'utilisateur ne les a pas joints à la conversation, les lui demander. Ne jamais rédiger une
    leçon de mémoire sans ses supports.
@@ -30,8 +30,13 @@ Copier la structure des leçons existantes (`l01` à `l03`), qui marche bien :
   notion de grammaire (`grammar-N`, astuces + exercices) → vocabulaire (`vocab-N`, 4 à 6 mots par
   activité) → pratique (`practice-N`) → pluriels (`plurals-N`) → dialogue (`dialogue-N`) →
   **Bilan du chapitre** (`quiz`, toujours en dernier).
-- Chaque activité : 8 à 16 écrans, en alternant présentation et exercices variés (les 10 types du
-  §9 du format). Présenter un mot (`present`) **avant** de l'utiliser dans un exercice.
+- Chaque activité : 8 à 16 écrans, selon le **cadre fixe** de `docs/pedagogie.md` (présenter avant
+  d'exercer, alterner, difficulté qui monte, finir sur une production ou un jeu).
+- **Choisir pour chaque notion l'outil le plus adapté** dans la palette de `docs/pedagogie.md` :
+  transformation → `compare`, mot composé → `breakdown`, classement → `sort`, repérage → `spot`,
+  orthographe → `build`, thème illustré → `memory`, rappel → `gallery`, piège → `note` `warning`…
+  Au moins un jeu par chapitre. Si rien ne convient, suivre la partie 4 du guide (nouveau type).
+- Écrire ce plan (parties, activités, outils choisis et pourquoi) avant le JSON.
 - Le titre d'activité est court et parlant (« Le corps », « À la mosquée et à table »).
 
 ## 2. Rédaction
@@ -71,8 +76,9 @@ Le validateur doit dire `OK`. Lire l'aperçu HTML en entier, écran par écran, 
 
 ## 4. Relecture indépendante (obligatoire)
 
-Lancer **en parallèle** au moins trois sous-agents `relecteur-arabe` (voir `.claude/agents/`), avec
-des angles différents :
+Lancer **en parallèle** au moins trois sous-agents `relecteur-arabe` (voir `.claude/agents/` ; si ce
+type d'agent n'est pas proposé, lancer un agent général en lui demandant de lire et d'appliquer
+`.claude/agents/relecteur-arabe.md`), avec des angles différents :
 1. **Arabe** : chaque mot lettre par lettre, cas, accords, pluriels, genres, fidélité aux PDF
    (donner le chemin des PDF).
 2. **Exercices** : chaque bonne réponse est juste, aucun distracteur n'est aussi juste, toutes les

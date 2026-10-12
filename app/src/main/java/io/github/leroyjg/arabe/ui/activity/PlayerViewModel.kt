@@ -11,6 +11,7 @@ import io.github.leroyjg.arabe.arabic.AnswerMatcher
 import io.github.leroyjg.arabe.audio.Sound
 import io.github.leroyjg.arabe.content.Activity
 import io.github.leroyjg.arabe.content.ActivityType
+import io.github.leroyjg.arabe.content.BuildScreen
 import io.github.leroyjg.arabe.content.Course
 import io.github.leroyjg.arabe.content.CourseIndex
 import io.github.leroyjg.arabe.content.DialogueScreen
@@ -18,22 +19,29 @@ import io.github.leroyjg.arabe.content.FillGapScreen
 import io.github.leroyjg.arabe.content.Item
 import io.github.leroyjg.arabe.content.MatchScreen
 import io.github.leroyjg.arabe.content.McqScreen
+import io.github.leroyjg.arabe.content.MemoryScreen
 import io.github.leroyjg.arabe.content.OrderScreen
 import io.github.leroyjg.arabe.content.PresentScreen
 import io.github.leroyjg.arabe.content.QuestionScreen
 import io.github.leroyjg.arabe.content.Screen
+import io.github.leroyjg.arabe.content.SortScreen
+import io.github.leroyjg.arabe.content.SpotScreen
 import io.github.leroyjg.arabe.content.TipScreen
 import io.github.leroyjg.arabe.content.TrueFalseScreen
 import io.github.leroyjg.arabe.content.TypingScreen
 import io.github.leroyjg.arabe.engine.ActivitySession
 import io.github.leroyjg.arabe.engine.ExerciseFactory
 import io.github.leroyjg.arabe.engine.Outcome
+import io.github.leroyjg.arabe.engine.PreparedBuild
 import io.github.leroyjg.arabe.engine.PreparedExercise
 import io.github.leroyjg.arabe.engine.PreparedFillGap
 import io.github.leroyjg.arabe.engine.PreparedMatch
 import io.github.leroyjg.arabe.engine.PreparedMcq
+import io.github.leroyjg.arabe.engine.PreparedMemory
 import io.github.leroyjg.arabe.engine.PreparedOrder
 import io.github.leroyjg.arabe.engine.PreparedQuestion
+import io.github.leroyjg.arabe.engine.PreparedSort
+import io.github.leroyjg.arabe.engine.PreparedSpot
 import io.github.leroyjg.arabe.engine.PreparedTrueFalse
 import io.github.leroyjg.arabe.engine.PreparedTyping
 import io.github.leroyjg.arabe.engine.QUIZ_PASS_SCORE
@@ -48,7 +56,7 @@ data class Feedback(
     val sound: Sound? = null,
     val remarks: Set<AnswerMatcher.Remark> = emptySet(),
     val explain: String? = null,
-    /** Association terminée avec des erreurs (nombre d'erreurs). */
+    /** Association ou rangement terminé avec des erreurs (nombre d'erreurs). */
     val matchMistakes: Int = 0,
     /** Vrai ou faux : la bonne réponse, à rappeler. */
     val trueFalseAnswer: Boolean? = null,
@@ -137,6 +145,24 @@ class PlayerViewModel(
         private set
     var matchWrong by mutableStateOf<Pair<Int, Int>?>(null)
 
+    /** Rangement : catégorie choisie pour chaque carte déjà rangée (dans l'ordre des cartes). */
+    val sortDone = mutableStateListOf<Int>()
+    var sortMistakes by mutableIntStateOf(0)
+        private set
+
+    /** Catégorie touchée à tort (secouée un instant). */
+    var sortWrong by mutableStateOf<Int?>(null)
+
+    /** Repérer : mots sélectionnés. */
+    val spotSelected = mutableStateListOf<Int>()
+
+    /** Écrire un mot : étiquettes touchées, dans l'ordre. */
+    val buildPicked = mutableStateListOf<Int>()
+
+    /** Mémoire : cartes retournées pas encore appariées (au plus deux) et éléments trouvés. */
+    val memoryOpen = mutableStateListOf<Int>()
+    val memoryFound = mutableStateListOf<String>()
+
     init {
         showCurrent()
     }
@@ -156,6 +182,13 @@ class PlayerViewModel(
         matchDone.clear()
         matchMistakes = 0
         matchWrong = null
+        sortDone.clear()
+        sortMistakes = 0
+        sortWrong = null
+        spotSelected.clear()
+        buildPicked.clear()
+        memoryOpen.clear()
+        memoryFound.clear()
         prepared = current?.let { prepare(it) }
         gapFill.clear()
         (prepared as? PreparedFillGap)?.let { p -> repeat(p.gapCount) { gapFill.add(null) } }
@@ -171,6 +204,10 @@ class PlayerViewModel(
         is TypingScreen -> factory.typing(screen)
         is TrueFalseScreen -> factory.trueFalse(screen)
         is QuestionScreen -> factory.question(screen)
+        is SortScreen -> factory.sort(screen)
+        is SpotScreen -> factory.spot(screen)
+        is BuildScreen -> factory.build(screen)
+        is MemoryScreen -> factory.memory(screen)
         is PresentScreen, is TipScreen, is DialogueScreen -> null
     }
 
@@ -182,7 +219,9 @@ class PlayerViewModel(
             is PreparedTrueFalse -> trueFalseChoice != null
             is PreparedFillGap -> gapFill.all { it != null }
             is PreparedOrder -> orderPicked.isNotEmpty()
-            is PreparedMatch, null -> false
+            is PreparedSpot -> spotSelected.isNotEmpty()
+            is PreparedBuild -> buildPicked.isNotEmpty()
+            is PreparedMatch, is PreparedSort, is PreparedMemory, null -> false
         }
 
     fun check() {
@@ -234,7 +273,17 @@ class PlayerViewModel(
                 answerAr = p.fullSentence, answerFr = p.screen.fr, sound = Sound.OfText(p.fullSentence),
                 explain = p.screen.explain,
             )
-            is PreparedMatch, null -> return
+            is PreparedSpot -> Feedback(
+                verdict = verdict(p.check(spotSelected.toList())),
+                answerAr = p.sentence, answerFr = p.screen.fr, sound = Sound.OfText(p.sentence),
+                explain = p.screen.explain,
+            )
+            is PreparedBuild -> Feedback(
+                verdict = verdict(p.check(buildPicked.toList())),
+                answerAr = p.target.ar, answerFr = p.target.fr, sound = Sound.OfItem(p.target),
+                explain = p.screen.explain,
+            ).also { recordItem(p.target.id, it.verdict != AnswerMatcher.Verdict.WRONG) }
+            is PreparedMatch, is PreparedSort, is PreparedMemory, null -> return
         }
         val wrong = fb.verdict == AnswerMatcher.Verdict.WRONG
         if (!isRetry && fb.verdict == AnswerMatcher.Verdict.CORRECT_WITH_REMARK) screen?.let { remarkScreens += it.id }
@@ -285,6 +334,68 @@ class PlayerViewModel(
                 combo = updateCombo(clean),
             )
         }
+    }
+
+    /** Rangement : range la carte du dessus dans la catégorie [category]. */
+    fun tapSort(category: Int) {
+        val p = prepared as? PreparedSort ?: return
+        if (feedback != null) return
+        val card = sortDone.size
+        if (card >= p.cards.size) return
+        val item = p.items[card]
+        if (p.check(card, category)) {
+            sortDone += category
+            sortWrong = null
+            item?.let { recordItem(it.id, true) }
+        } else {
+            sortMistakes++
+            sortWrong = category
+            item?.let { recordItem(it.id, false) }
+        }
+        if (sortDone.size == p.cards.size) {
+            val clean = sortMistakes == 0
+            pendingOutcome = if (clean) Outcome.CORRECT else Outcome.COMPLETED_WITH_MISTAKES
+            feedback = Feedback(
+                verdict = if (clean) AnswerMatcher.Verdict.CORRECT else AnswerMatcher.Verdict.CORRECT_WITH_REMARK,
+                matchMistakes = sortMistakes,
+                explain = p.screen.explain,
+                combo = updateCombo(clean),
+            )
+        }
+    }
+
+    /** Repérer : sélectionne ou désélectionne un mot. */
+    fun toggleSpot(word: Int) {
+        if (feedback != null) return
+        if (word in spotSelected) spotSelected.remove(word) else spotSelected.add(word)
+    }
+
+    /** Mémoire : retourne une carte. Renvoie vrai si elle complète une paire. */
+    fun tapMemory(card: Int): Boolean {
+        val p = prepared as? PreparedMemory ?: return false
+        if (feedback != null || card in memoryOpen || memoryOpen.size >= 2) return false
+        if (p.cards[card].item.id in memoryFound) return false
+        memoryOpen += card
+        if (memoryOpen.size < 2) return false
+        val (a, b) = memoryOpen[0] to memoryOpen[1]
+        if (!p.isPair(a, b)) return false
+        memoryFound += p.cards[a].item.id
+        memoryOpen.clear()
+        if (memoryFound.size == p.pairCount) {
+            // Un jeu de mémoire se finit toujours : retourner des cartes au hasard fait partie du jeu.
+            pendingOutcome = Outcome.CORRECT
+            feedback = Feedback(
+                verdict = AnswerMatcher.Verdict.CORRECT,
+                explain = p.screen.explain,
+                combo = updateCombo(true),
+            )
+        }
+        return true
+    }
+
+    /** Mémoire : referme les deux cartes qui ne vont pas ensemble. */
+    fun closeMemory() {
+        memoryOpen.clear()
     }
 
     /** Écran suivant (après la correction, ou pour un écran sans exercice). */

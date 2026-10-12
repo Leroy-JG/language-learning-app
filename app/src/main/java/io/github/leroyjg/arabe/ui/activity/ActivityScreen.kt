@@ -94,11 +94,15 @@ import io.github.leroyjg.arabe.content.TipScreen
 import io.github.leroyjg.arabe.data.ProgressRepository
 import io.github.leroyjg.arabe.data.ReviewRepository
 import io.github.leroyjg.arabe.data.Settings
+import io.github.leroyjg.arabe.engine.PreparedBuild
 import io.github.leroyjg.arabe.engine.PreparedFillGap
 import io.github.leroyjg.arabe.engine.PreparedMatch
 import io.github.leroyjg.arabe.engine.PreparedMcq
+import io.github.leroyjg.arabe.engine.PreparedMemory
 import io.github.leroyjg.arabe.engine.PreparedOrder
 import io.github.leroyjg.arabe.engine.PreparedQuestion
+import io.github.leroyjg.arabe.engine.PreparedSort
+import io.github.leroyjg.arabe.engine.PreparedSpot
 import io.github.leroyjg.arabe.engine.PreparedTrueFalse
 import io.github.leroyjg.arabe.engine.PreparedTyping
 import io.github.leroyjg.arabe.review.CardKind
@@ -371,6 +375,10 @@ private fun ScreenBody(vm: PlayerViewModel, playback: Playback) {
         is PreparedTyping -> TypingContent(p, vm, playback)
         is PreparedTrueFalse -> TrueFalseContent(p, vm, playback)
         is PreparedQuestion -> QuestionContent(p, vm, playback)
+        is PreparedSort -> SortContent(p, vm, playback)
+        is PreparedSpot -> SpotContent(p, vm, playback)
+        is PreparedBuild -> BuildContent(p, vm, playback)
+        is PreparedMemory -> MemoryContent(p, vm, playback)
         null -> when (screen) {
             is PresentScreen -> playback.course.item(screen.item)?.let { item ->
                 val container = LocalAppContainer.current
@@ -414,7 +422,9 @@ private fun BottomArea(vm: PlayerViewModel, playback: Playback) {
     Box(Modifier.fillMaxWidth().imePadding()) {
         if (feedback == null) {
             val exercise = vm.prepared != null
-            if (vm.prepared !is PreparedMatch) {
+            // Les jeux qui se corrigent au fil des gestes n'ont pas de bouton « Vérifier ».
+            val selfChecking = vm.prepared is PreparedMatch || vm.prepared is PreparedSort || vm.prepared is PreparedMemory
+            if (!selfChecking) {
                 Box(Modifier.fillMaxWidth().navigationBarsPadding().padding(16.dp)) {
                     BigButton(
                         text = stringResource(if (exercise) R.string.check else R.string.continue_),

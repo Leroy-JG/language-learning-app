@@ -28,6 +28,12 @@
       "mode": "audio-ar",
       "items": ["w:jamal", "w:mindil", "w:qitt", "w:kalb"]
     },
+    {
+      "id": "medine-t1.l01.vocab-5#14b",
+      "type": "memory",
+      "mode": "icon-ar",
+      "items": ["w:kalb", "w:qitt", "w:dik", "w:himar", "w:hisan", "w:jamal"]
+    },
     { "id": "medine-t1.l01.vocab-5#15", "type": "typing", "ask": "audio", "item": "w:kalb" }
   ]
 }

@@ -13,18 +13,24 @@
         { "type": "paragraph", "text": "{ar|الْ} est l'**article défini** ({ar|حَرْفُ التَّعْرِيفِ}) : « le, la, les ». C'est une particule ({ar|حَرْفٌ}) qui rend défini un nom indéfini." },
         { "type": "paragraph", "text": "Il se colle au début du nom, et le nom **perd son tanwin** :" },
         {
-          "type": "table",
-          "header": ["Indéfini", "Défini"],
+          "type": "compare",
           "rows": [
-            ["{ar|بَيْتٌ} (une maison)", "{ar|الْبَيْتُ} (la maison)"],
-            ["{ar|قَلَمٌ} (un stylo)", "{ar|الْقَلَمُ} (le stylo)"],
-            ["{ar|كِتَابٌ} (un livre)", "{ar|الْكِتَابُ} (le livre)"],
-            ["{ar|جَمَلٌ} (un chameau)", "{ar|الْجَمَلُ} (le chameau)"]
+            { "from": { "ar": "بَيْتٌ", "fr": "une maison" }, "to": { "ar": "الْبَيْتُ", "fr": "la maison" } },
+            { "from": { "ar": "قَلَمٌ", "fr": "un stylo" }, "to": { "ar": "الْقَلَمُ", "fr": "le stylo" } },
+            { "from": { "ar": "كِتَابٌ", "fr": "un livre" }, "to": { "ar": "الْكِتَابُ", "fr": "le livre" } },
+            { "from": { "ar": "جَمَلٌ", "fr": "un chameau" }, "to": { "ar": "الْجَمَلُ", "fr": "le chameau" } }
           ]
         },
-        { "type": "example", "ar": "الْبَيْتُ", "fr": "la maison" },
-        { "type": "example", "ar": "الْكِتَابُ", "fr": "le livre" },
-        { "type": "note", "text": "Un nom n'a jamais à la fois l'article et le tanwin : on écrit {ar|الْكِتَابُ}, jamais {ar|الْكِتَابٌ}." }
+        {
+          "type": "breakdown",
+          "ar": "الْكِتَابُ",
+          "fr": "le livre",
+          "parts": [
+            { "ar": "الْ", "fr": "l'article : « le »" },
+            { "ar": "كِتَابُ", "fr": "« livre », sans tanwin" }
+          ]
+        },
+        { "type": "note", "tone": "warning", "text": "Un nom n'a jamais à la fois l'article et le tanwin : on écrit {ar|الْكِتَابُ}, jamais {ar|الْكِتَابٌ}." }
       ]
     },
     {

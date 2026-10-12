@@ -6,6 +6,7 @@ Application Android personnelle d'apprentissage de l'arabe, inspirée du fonctio
 ## Organisation
 
 - `CLAUDE.md` : règles du projet et mémoire pour Claude (à lire en premier).
+- `docs/pedagogie.md` : guide de conception des leçons (cadre fixe, palette d'outils, nouveaux types).
 - `docs/sources.md` : ce que chaque leçon enseigne et les choix de contenu ; `docs/roadmap.md` : la suite.
 - `.claude/skills/nouvelle-lecon/` : procédure pour ajouter une leçon ; `.claude/agents/relecteur-arabe.md` : relecteur.
 

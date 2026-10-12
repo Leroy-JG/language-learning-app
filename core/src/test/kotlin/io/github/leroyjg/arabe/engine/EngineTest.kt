@@ -2,13 +2,17 @@ package io.github.leroyjg.arabe.engine
 
 import io.github.leroyjg.arabe.TestContent
 import io.github.leroyjg.arabe.arabic.AnswerMatcher.Verdict
+import io.github.leroyjg.arabe.content.BuildScreen
 import io.github.leroyjg.arabe.content.CourseIndex
 import io.github.leroyjg.arabe.content.Exercise
 import io.github.leroyjg.arabe.content.FillGapScreen
 import io.github.leroyjg.arabe.content.MatchScreen
 import io.github.leroyjg.arabe.content.McqScreen
+import io.github.leroyjg.arabe.content.MemoryScreen
 import io.github.leroyjg.arabe.content.OrderScreen
 import io.github.leroyjg.arabe.content.QuestionScreen
+import io.github.leroyjg.arabe.content.SortScreen
+import io.github.leroyjg.arabe.content.SpotScreen
 import io.github.leroyjg.arabe.content.TrueFalseScreen
 import io.github.leroyjg.arabe.content.TypingScreen
 import kotlin.random.Random
@@ -153,6 +157,10 @@ class EngineTest {
                     is TypingScreen -> factory.typing(s).let { p -> p.answers.all { p.check(it).verdict == Verdict.CORRECT } }
                     is TrueFalseScreen -> factory.trueFalse(s).check(s.answer)
                     is QuestionScreen -> factory.question(s).let { it.check(it.correctPosition) }
+                    is SortScreen -> factory.sort(s).let { p -> p.cards.indices.all { p.check(it, p.cards[it].category) } }
+                    is SpotScreen -> factory.spot(s).check(s.answers)
+                    is BuildScreen -> factory.build(s).let { p -> p.check(buildSolution(p)) }
+                    is MemoryScreen -> factory.memory(s).let { p -> p.cards.indices.all { a -> p.cards.indices.count { b -> p.isPair(a, b) } == 1 } }
                     else -> true
                 }
                 assertTrue(ok, "bonne réponse refusée : ${s.id}")
@@ -161,6 +169,57 @@ class EngineTest {
             }
             assertEquals(1.0, session.score, activity.id)
         }
+    }
+
+    /** Indices des étiquettes à toucher pour écrire le mot. */
+    private fun buildSolution(p: PreparedBuild): List<Int> {
+        val used = mutableSetOf<Int>()
+        return p.letters.map { c -> p.tiles.indices.first { it !in used && p.tiles[it] == c.toString() }.also { used += it } }
+    }
+
+    @Test
+    fun `ranger - chaque carte n'a qu'une bonne catégorie`() {
+        val p = factory.sort(screen<SortScreen>("medine-t1.l03.practice-1#18"))
+        assertEquals(8, p.cards.size)
+        p.cards.indices.forEach { i ->
+            assertTrue(p.check(i, p.cards[i].category))
+            assertFalse(p.check(i, 1 - p.cards[i].category))
+        }
+        val withItems = factory.sort(screen<SortScreen>("medine-t1.l01.grammar-3#6b"))
+        assertTrue(withItems.items.all { it != null }, "les cartes « item » trouvent leur élément")
+    }
+
+    @Test
+    fun `repérer - il faut tous les bons mots et seulement eux`() {
+        val p = factory.spot(screen<SpotScreen>("medine-t1.l03.grammar-3#8c"))
+        assertTrue(p.check(listOf(2, 0)))
+        assertFalse(p.check(listOf(0)))
+        assertFalse(p.check(listOf(0, 1, 2)))
+        assertEquals("الْبَابُ مَفْتُوحٌ، وَالْقَلَمُ مَكْسُورٌ.", p.sentence)
+    }
+
+    @Test
+    fun `écrire un mot - lettres sans harakat, lettre en plus ignorée`() {
+        val p = factory.build(screen<BuildScreen>("medine-t1.l01.vocab-2#13"))
+        assertEquals("مفتاح", p.letters)
+        assertEquals(6, p.tiles.size, "5 lettres + 1 en plus")
+        assertTrue(p.check(buildSolution(p)))
+        assertFalse(p.check(buildSolution(p).reversed()))
+        assertEquals("هذا", factory.build(BuildScreen("t", "w:hadha")).letters, "l'alif suscrit n'est pas une étiquette")
+    }
+
+    @Test
+    fun `mémoire - deux cartes par élément, une arabe et une image`() {
+        val p = factory.memory(screen<MemoryScreen>("medine-t1.l01.vocab-5#14b"))
+        assertEquals(12, p.cards.size)
+        assertEquals(6, p.pairCount)
+        p.cards.groupBy { it.item.id }.values.forEach { pair ->
+            assertEquals(setOf(MemoryFace.ARABIC, MemoryFace.ICON), pair.map { it.face }.toSet())
+        }
+        val a = p.cards.indexOfFirst { it.face == MemoryFace.ARABIC }
+        val b = p.cards.indexOfFirst { it.face == MemoryFace.ICON && it.item.id == p.cards[a].item.id }
+        assertTrue(p.isPair(a, b))
+        assertFalse(p.isPair(a, a))
     }
 
     @Test

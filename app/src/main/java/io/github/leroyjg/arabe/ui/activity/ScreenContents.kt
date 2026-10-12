@@ -19,6 +19,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
@@ -45,6 +46,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontStyle
@@ -60,14 +62,19 @@ import io.github.leroyjg.arabe.audio.AudioPlayer
 import io.github.leroyjg.arabe.audio.Sound
 import io.github.leroyjg.arabe.audio.SoundEffects
 import io.github.leroyjg.arabe.audio.rememberHaptics
+import io.github.leroyjg.arabe.content.BiText
+import io.github.leroyjg.arabe.content.BreakdownBlock
+import io.github.leroyjg.arabe.content.CompareBlock
 import io.github.leroyjg.arabe.content.Course
 import io.github.leroyjg.arabe.content.DialogueScreen
 import io.github.leroyjg.arabe.content.ExampleBlock
 import io.github.leroyjg.arabe.content.Exercise
+import io.github.leroyjg.arabe.content.GalleryBlock
 import io.github.leroyjg.arabe.content.Item
 import io.github.leroyjg.arabe.content.MatchMode
 import io.github.leroyjg.arabe.content.McqMode
 import io.github.leroyjg.arabe.content.NoteBlock
+import io.github.leroyjg.arabe.content.NoteTone
 import io.github.leroyjg.arabe.content.ParagraphBlock
 import io.github.leroyjg.arabe.content.TableBlock
 import io.github.leroyjg.arabe.content.TipScreen
@@ -194,11 +201,132 @@ fun TipContent(screen: TipScreen, playback: Playback) {
             is ParagraphBlock -> RichText(block.text, style = MaterialTheme.typography.bodyLarge, keepHarakat = true)
             is ExampleBlock -> ExampleCard(block, playback)
             is TableBlock -> TipTable(block)
-            is NoteBlock -> Box(
-                Modifier.fillMaxWidth()
-                    .background(AppTheme.colors.remarkContainer, RoundedCornerShape(14.dp))
-                    .padding(14.dp),
-            ) { RichText(block.text, style = MaterialTheme.typography.bodyMedium, keepHarakat = true) }
+            is NoteBlock -> NoteBox(block)
+            is CompareBlock -> CompareView(block, playback)
+            is BreakdownBlock -> BreakdownView(block, playback)
+            is GalleryBlock -> GalleryView(block, playback)
+        }
+    }
+}
+
+/** Encadré : neutre, « Attention », « Pour retenir » ou « Le savais-tu ? ». */
+@Composable
+private fun NoteBox(block: NoteBlock) {
+    val colors = AppTheme.colors
+    val scheme = MaterialTheme.colorScheme
+    val (label, accent, background) = when (block.tone) {
+        NoteTone.INFO -> Triple(null, colors.remark, colors.remarkContainer)
+        NoteTone.WARNING -> Triple(R.string.note_warning, colors.wrong, colors.wrongContainer)
+        NoteTone.MEMO -> Triple(R.string.note_memo, scheme.secondary, scheme.secondaryContainer)
+        NoteTone.CULTURE -> Triple(R.string.note_culture, scheme.tertiary, scheme.tertiaryContainer)
+    }
+    Row(
+        Modifier.fillMaxWidth()
+            .height(IntrinsicSize.Min)
+            .background(background, RoundedCornerShape(14.dp)),
+    ) {
+        if (label != null) {
+            Box(Modifier.width(5.dp).fillMaxHeight().background(accent, RoundedCornerShape(topStart = 14.dp, bottomStart = 14.dp)))
+        }
+        Column(Modifier.padding(14.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            label?.let { Text(stringResource(it), style = MaterialTheme.typography.labelLarge, color = accent) }
+            RichText(block.text, style = MaterialTheme.typography.bodyMedium, keepHarakat = true)
+        }
+    }
+}
+
+/** Formes côte à côte : avant → après, chacune écoutable. */
+@Composable
+private fun CompareView(block: CompareBlock, playback: Playback) {
+    val scheme = MaterialTheme.colorScheme
+    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        block.title?.let { RichText(it, style = MaterialTheme.typography.titleSmall, keepHarakat = true) }
+        block.rows.forEach { row ->
+            Column(Modifier.fillMaxWidth()) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    CompareSide(row.from, playback, scheme.surface, Modifier.weight(1f))
+                    Text("→", style = MaterialTheme.typography.titleLarge, color = scheme.primary, modifier = Modifier.padding(horizontal = 8.dp))
+                    CompareSide(row.to, playback, scheme.primaryContainer, Modifier.weight(1f))
+                }
+                row.label?.let {
+                    RichText(it, style = MaterialTheme.typography.bodySmall, color = scheme.onSurfaceVariant, keepHarakat = true, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth().padding(top = 2.dp))
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun CompareSide(text: BiText, playback: Playback, background: Color, modifier: Modifier) {
+    Column(
+        modifier
+            .background(background, RoundedCornerShape(14.dp))
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
+            .clickable { playback.play(Sound.OfText(text.ar)) }
+            .padding(horizontal = 8.dp, vertical = 6.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
+        ArabicText(text.ar, size = 26.sp, keepHarakat = true)
+        RichText(text.fr, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center)
+    }
+}
+
+/** Un mot ou une phrase et ses morceaux (de droite à gauche), chacun avec son sens. */
+@Composable
+private fun BreakdownView(block: BreakdownBlock, playback: Playback) {
+    val scheme = MaterialTheme.colorScheme
+    val tints = listOf(scheme.primaryContainer, scheme.secondaryContainer, scheme.tertiaryContainer)
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(16.dp),
+        colors = CardDefaults.cardColors(containerColor = scheme.surface),
+        border = CardDefaults.outlinedCardBorder(),
+    ) {
+        Column(Modifier.padding(14.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            SpokenArabic(block.ar, onPlay = { playback.play(Sound.OfText(block.ar)) }, size = 34)
+            RichText(block.fr, style = MaterialTheme.typography.bodyLarge, textAlign = TextAlign.Center)
+            RtlFlow {
+                block.parts.forEachIndexed { i, part ->
+                    if (i > 0) Text("+", style = MaterialTheme.typography.titleLarge, color = scheme.onSurfaceVariant, modifier = Modifier.padding(top = 18.dp))
+                    Column(
+                        Modifier.background(tints[i % tints.size], RoundedCornerShape(12.dp)).padding(horizontal = 10.dp, vertical = 6.dp),
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                    ) {
+                        ArabicText(part.ar, size = 28.sp, keepHarakat = true)
+                        CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Ltr) {
+                            RichText(part.fr, style = MaterialTheme.typography.labelMedium, textAlign = TextAlign.Center, modifier = Modifier.widthIn(max = 140.dp))
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/** Galerie de mots déjà vus : image, arabe et traduction ; toucher pour écouter. */
+@Composable
+private fun GalleryView(block: GalleryBlock, playback: Playback) {
+    val items = block.items.mapNotNull { playback.course.item(it) }
+    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        block.title?.let { RichText(it, style = MaterialTheme.typography.titleSmall) }
+        items.chunked(3).forEach { row ->
+            Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                row.forEach { item ->
+                    Column(
+                        Modifier.weight(1f)
+                            .background(MaterialTheme.colorScheme.surface, RoundedCornerShape(14.dp))
+                            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
+                            .clickable { playback.play(Sound.OfItem(item)) }
+                            .padding(8.dp),
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                    ) {
+                        ContentIcon(item.icon, size = 48.dp)
+                        ArabicText(item.ar, size = 22.sp)
+                        RichText(item.fr, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center, maxLines = 2)
+                    }
+                }
+                repeat(3 - row.size) { Spacer(Modifier.weight(1f)) }
+            }
         }
     }
 }

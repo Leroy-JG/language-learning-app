@@ -152,6 +152,23 @@
       "answer": 0,
       "shuffle": false,
       "explain": "{ar|ق} est lunaire : « al-qurʾānu » (le Coran)."
+    },
+    {
+      "id": "medine-t1.l03.practice-1#18",
+      "type": "sort",
+      "instruction": "Range chaque mot selon la lettre qui suit l'article.",
+      "categories": [ { "fr": "lettre lunaire : on prononce le lām" }, { "fr": "lettre solaire : le lām ne se prononce pas" } ],
+      "cards": [
+        { "ar": "الْقَمَرُ", "category": 0 },
+        { "ar": "الشَّمْسُ", "category": 1 },
+        { "ar": "الْخُبْزُ", "category": 0 },
+        { "ar": "الذَّهَبُ", "category": 1 },
+        { "ar": "الْيَدُ", "category": 0 },
+        { "ar": "اللَّحْمُ", "category": 1 },
+        { "ar": "الْعَيْنُ", "category": 0 },
+        { "ar": "الثَّوْبُ", "category": 1 }
+      ],
+      "explain": "Dans {ar|اللَّحْمُ}, le « l » qu'on entend est le {ar|ل} du mot, doublé par la shadda ; le lām de l'article, lui, ne se prononce pas."
     }
   ]
 }

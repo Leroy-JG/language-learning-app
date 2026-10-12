@@ -101,7 +101,21 @@ def render_screen(sc, screens_by_id):
             if b["type"] == "paragraph":
                 parts.append(f"<p>{fr(b['text'])}</p>")
             elif b["type"] == "note":
-                parts.append(f'<p class="note">{fr(b["text"])}</p>')
+                tone = {"warning": "⚠️ Attention — ", "memo": "📌 Pour retenir — ", "culture": "🌍 Le savais-tu ? — "}.get(b.get("tone", "info"), "")
+                parts.append(f'<p class="note">{tone}{fr(b["text"])}</p>')
+            elif b["type"] == "compare":
+                if "title" in b:
+                    parts.append(f"<p><strong>{fr(b['title'])}</strong></p>")
+                rows = "".join(
+                    f'<tr><td>{ar(r["from"]["ar"])} <span class="muted">{fr(r["from"]["fr"])}</span></td><td>→</td>'
+                    f'<td>{ar(r["to"]["ar"])} <span class="muted">{fr(r["to"]["fr"])}</span></td>'
+                    f'<td class="muted">{fr(r["label"]) if "label" in r else ""}</td></tr>' for r in b["rows"])
+                parts.append(f"<table>{rows}</table>")
+            elif b["type"] == "breakdown":
+                pieces = " + ".join(f'{ar(x["ar"])} <span class="muted">({fr(x["fr"])})</span>' for x in b["parts"])
+                parts.append(f'<p class="ex">🧩 {ar(b["ar"])} — {fr(b["fr"])}<br>= {pieces}</p>')
+            elif b["type"] == "gallery":
+                parts.append("<p>🖼️ " + " · ".join(item_line(i) for i in b["items"]) + "</p>")
             elif b["type"] == "example":
                 parts.append(f'<p class="ex">🔊 {ar(b["ar"])} — {fr(b["fr"])}</p>')
             elif b["type"] == "table":
@@ -150,6 +164,26 @@ def render_screen(sc, screens_by_id):
     elif t == "question":
         ch = "".join(f'<li>{"✅ " if i == sc["answer"] else ""}{text_obj(c)}</li>' for i, c in enumerate(sc["choices"]))
         body = f'<div>{text_obj(sc["prompt"])}</div><ul>{ch}</ul>'
+    elif t == "sort":
+        cats = [text_obj(c) for c in sc["categories"]]
+        def card(c):
+            if "item" in c:
+                return item_line(c["item"])
+            return text_obj(c)
+        rows = "".join(f'<li>{card(c)} → {cats[c["category"]]}</li>' for c in sc["cards"])
+        body = f'<div>Ranger dans : {" | ".join(cats)}</div><ul>{rows}</ul>'
+    elif t == "spot":
+        words = " ".join(f'<u>{html.escape(w)}</u>' if i in sc["answers"] else html.escape(w) for i, w in enumerate(sc["words"]))
+        body = (f'<div class="big"><bdi class="ar" dir="rtl" lang="ar">{words}</bdi></div>'
+                + (f'<div class="muted">{fr(sc["fr"])}</div>' if "fr" in sc else "")
+                + '<div class="muted">✅ = mots soulignés</div>')
+    elif t == "build":
+        extra = sc.get("extra", [])
+        body = (f'<div>Écrire lettre par lettre : {item_line(sc["item"])}</div>'
+                + (f'<div>Lettres en plus : {" · ".join(ar(x) for x in extra)}</div>' if extra else ""))
+    elif t == "memory":
+        mode = {"ar-fr": "arabe ↔ français", "icon-ar": "image ↔ arabe"}[sc["mode"]]
+        body = f'<div>Mémoire ({mode}) : {" · ".join(item_line(i) for i in sc["items"])}</div>'
     elif t == "dialogue":
         sp = sc["speakers"]
         lines = "".join(
