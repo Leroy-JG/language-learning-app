@@ -11,7 +11,7 @@ Ils **ne sont pas dans le dépôt** : le dépôt est public, et l'auteur autoris
 interdit la modification et l'usage commercial de ses supports. Pour une nouvelle leçon, demander à
 l'utilisateur de joindre les PDF dans la conversation.
 
-Supports utilisés pour les leçons 1 à 4 :
+Supports utilisés pour les leçons 1 à 5 :
 - `TOME1-1-1.pdf` : introduction (nom, verbe, particule) et cours 1, partie 1 (هٰذَا).
 - `TOME1-1-2.pdf` : cours 1, partie 2 (interrogatifs أَ et مَا).
 - `TOME1-1-3.pdf` : cours 1, partie 3 (مَنْ).
@@ -19,6 +19,8 @@ Supports utilisés pour les leçons 1 à 4 :
 - `TOME1-3.pdf` : cours 3, parties 1 et 2 (indéfini / défini, article, lettres lunaires et solaires).
 - `TOME1-4-1.pdf` : cours 4, partie 1 (terminaisons des mots, prépositions في عَلَى مِنْ إِلَى, أَيْنَ, page du livre « cuisine », exercices 1 et 2).
 - `TOME1-4-2.pdf` : cours 4, parties 2 et 3 (noms propres, tanwin, noms privés de tanwin, مِنْ أَيْنَ, dialogues du livre, exercice 3, vocabulaire, verbes خَرَجَ / ذَهَبَ, pays).
+- `TOME1-5-1.pdf` : cours 5, partie 1 (rappel des trois cas, annexion, dialogue du livre, exercices 3, 4 et 5).
+- `TOME1-5-2.pdf` : cours 5, partie 2 (interpellation, exercices 1, 2, 6, 7 et 8, vocabulaire nouveau).
 
 ## Ce qui est déjà enseigné (cumulatif)
 
@@ -77,11 +79,31 @@ Supports utilisés pour les leçons 1 à 4 :
 - la phrase verbale (le verbe d'abord, le sujet à la damma ; le « il » est dans le verbe) ;
 - le classement des mots connus en noms et en particules (أَيْنَ est un nom).
 
+**Leçon 5** (`l05`) :
+- les trois cas du nom : الرَّفْعُ (damma), النَّصْبُ (fatha, avec l'alif du tanwin : كِتَابًا, sans alif après ة), الْجَرُّ (kasra) ; les adjectifs مَرْفُوعٌ مَنْصُوبٌ مَجْرُورٌ ;
+- le رَفْع, cas de base (les noms des phrases sans verbe vues jusque-là) ; le نَصْب n'est montré qu'avec قَرَأْتُ كِتَابًا / قَرَأْتُ كِتَابَ مُحَمَّدٍ (verbe conjugué non enseigné) ;
+- الْإِضَافَةُ (annexion) :
+  - le premier terme (الْمُضَافُ) perd son tanwin, n'a pas d'article, et varie selon son rôle (damma, fatha, kasra) ;
+  - le second terme (الْمُضَافُ إِلَيْهِ) est toujours مَجْرُورٌ, avec ou sans article ;
+  - l'ensemble est défini quand le second terme l'est (كِتَابُ الطَّالِبِ ≠ كِتَابُ طَالِبٍ) ;
+  - le ة d'un premier terme se prononce « t » ;
+  - une annexion à trois noms (اِبْنُ عَمِّ زَيْدٍ) ;
+  - un nom sans tanwin en annexion : كِتَابُ عُمَرَ, فِي مَسَاجِدِ مَكَّةَ ;
+  - الْمُضَافُ et الْمُضَافُ إِلَيْهِ comme termes ;
+- كِتَابُ مَنْ هٰذَا؟ (« à qui est… ? », مَنْ invariable en second terme) ;
+- النِّدَاءُ : يَا + nom sans tanwin (damma simple), la même particule pour un homme ou une femme, avec الْمُنَادَى ;
+- تَحْتَ (nom de lieu, premier terme d'annexion) et هُنَاكَ ;
+- أَكِتَابُ مُحَمَّدٍ هٰذَا؟ (ordre des mots dans la question, montré dans le dialogue) ;
+- le vocabulaire de la famille et des titres, la voiture, le sac, la rue, Allah, le Coran, la Kaaba, le Messager, Médine (voir `items.json`) ;
+- l'alif de liaison de اِبْنٌ (et de اِسْمٌ) après وَ ou un autre mot ;
+- les pluriels de forme أَفْعَالٌ, des pluriels de personnes, des pluriels sans tanwin de forme فُعَلَاءُ / أَفْعِلَاءُ (et أَسْمَاءٌ / أَبْنَاءٌ avec tanwin).
+
 **Pas encore enseigné** (ne pas l'exiger dans un exercice) :
 - هٰذِهِ et les démonstratifs féminins ou pluriels ;
 - les autres pronoms (seuls هُوَ هِيَ أَنَا أَنْتَ sont vus) et les suffixes (صَدِيقِي, قَمِيصُكَ) ;
-- l'annexation (« le … de … », seulement signalée : يَوْمُ الْجُمُعَةِ) ;
-- les cas : seules la kasra après une préposition et la fatha des noms privés de tanwin sont enseignées ; la fatha de l'objet (قَرَأْتُ كِتَابًا) est seulement montrée, et la damma n'est pas expliquée ;
+- les cas du nom sont enseignés (damma, fatha, kasra), mais pas les fonctions (sujet, complément…) : le نَصْب n'est montré qu'après قَرَأْتُ ;
+- l'interpellation d'un nom annexé (يَا عَبْدَ اللَّهِ) ou avec أَيُّهَا ;
+- l'annexion « d'apparence » (الضَّارِبُ الرَّجُلِ) ;
 - l'accord de l'adjectif au féminin ;
 - les autres prépositions ;
 - les verbes conjugués (sauf خَرَجَ et ذَهَبَ à la 3ᵉ personne du masculin singulier, et leurs formes citées) ;
@@ -152,6 +174,43 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin.
   - عُمَرُ et أَحْمَدُ sont des prénoms d'hommes sans tanwin.
 
   Elles ont été vérifiées par quatre relecteurs indépendants (arabe, exercices, français et pédagogie, fidélité aux PDF et vérité des règles) ; chaque remarque a été contrôlée avant correction.
+
+### Leçon 5
+
+- **Exercices du livre repris :**
+  - exercice 1 (questions) → `dialogue-1` ; le livre dit « أَيْنَ كِتَابُ عَمَّارٍ ؟ » alors que le dialogue parle du cahier : on utilise دَفْتَرُ عَمَّارٍ ;
+  - exercice 2 (annexer deux mots) → `practice-1` (mots connus) et `practice-3` (دَفْتَرٌ, الْمُهَنْدِسُ, السَّيَّارَةُ) ; كِتَابٌ، اللَّهُ est repris dans `practice-4` ;
+  - exercice 3 (écrire les terminaisons) → `practice-3` et `practice-4` (expressions avec اللَّهِ) ;
+  - exercice 4 (lecture) → `practice-4` (19 phrases) et `practice-5` (la phrase avec يَا) ;
+  - exercice 5 (phrases à compléter) → quelques `fill_gap` de `practice-4` (aucune de ces phrases n'est reprise telle quelle : les trous du livre sont libres) ;
+  - exercice 6 (corriger les constructions) → `practice-1` et `practice-4` (`question`) ;
+  - exercice 7 (interpellation) → `practice-5` ;
+  - exercice 8 (« à qui est… ? » devant des images) → `practice-2`, avec les icônes stylo, maison, chemise, lit et clé ;
+  - le dialogue de la page du livre vient après l'interpellation (`dialogue-1`), car il contient يَا.
+- **Mots et phrases ajoutés pour les exercices du livre** (absents du vocabulaire du professeur) : دَفْتَرٌ, تَحْتَ, قَرِيبٌ, بَعِيدٌ, فَقِيرٌ (contraire de غَنِيٌّ), اللَّهُ, رَسُولٌ, الْقُرْآنُ, الْكَعْبَةُ, الْمَدِينَةُ الْمُنَوَّرَةُ, la formule صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ (présentée telle quelle, sans analyse) ; les termes de grammaire الرَّفْعُ, النَّصْبُ, الْجَرُّ, الْإِضَافَةُ, الْمُضَافُ, الْمُضَافُ إِلَيْهِ, النِّدَاءُ, الْمُنَادَى.
+- **Exemples du tableau de vocabulaire :** remplacés quand ils emploient des mots non enseignés (الْعَقِيدَةِ, « il y a des filles dans la classe », ذَهَبَ أُسْتَاذُ الْفَصْلِ, هٰذِهِ سَيَّارَةُ زَيْدٍ, اِسْمِي زَيْدٌ) ; اِبْنُ عَمِّ زَيْدٍ غَنِيٌّ est conservé et expliqué (annexion à trois noms).
+- **Corrections par rapport aux supports :**
+  - le PDF donne أَسْمَاءُ (sans tanwin) comme pluriel de اِسْمٌ ; on écrit أَسْمَاءٌ avec tanwin (la hamza fait partie du mot, comme dans أَبْنَاءٌ) : le pluriel a été ajouté à `w:ism` dans `l01/items.json` ;
+  - le PDF met مُغْلَقَةٌ dans la colonne « pluriel » de مُغْلَقٌ : c'est le féminin singulier. On n'indique donc pas de pluriel et on donne مُغْلَقَةٌ en note ;
+  - l'exemple de naṣb ضَرَبْتُ زَيْدًا est remplacé par قَرَأْتُ كِتَابًا (déjà vu au chapitre 4) ;
+  - les fautes de frappe du PDF (آبْنُ pour اِبْنُ, ابن المدر…) sont corrigées ;
+  - le PDF cite le signe ﷺ après le nom du Prophète : le validateur refuse les formes de présentation arabes, on écrit la formule en lettres.
+- **Traductions :** شَيْخٌ = « un cheikh (homme âgé, savant) » (le PDF dit « personne âgée ») ; أُسْتَاذٌ = « un professeur (titre de respect) », pour ne pas le confondre avec مُدَرِّسٌ (« un enseignant ») ; ابْنُ عَمِّ زَيْدٍ = « le cousin paternel de Zayd » ; هِيَ تَحْتَ الْمَكْتَبِ (le sac, féminin en arabe) = « Il (le sac) est sous le bureau ».
+- **Genre :** pas de genre affiché pour اللَّهُ (comme pour les pays : exception à la règle « chaque nom porte son genre », à confirmer avec l'utilisateur) ; بِنْتٌ (f) et شَارِعٌ (m) portent le genre.
+- **Nouvelles icônes** (OpenMoji) : car, bag, notebook, girl, elder, road.
+- **Entraîner une voyelle finale :** même méthode qu'au chapitre 4 (`question` en français, `spot`, `sort` tranché par la préposition ou par يَا / هٰذَا, dictée). Les erreurs de voyelle ne sont pas proposées en choix (identiques une fois les harakat masquées).
+- **Explications ajoutées (données à l'oral, absentes des PDF) :**
+  - le premier terme prend la fatha après un verbe et la kasra après une préposition ; l'annexion à trois noms ;
+  - les noms sans tanwin en annexion (كِتَابُ عُمَرَ, فِي مَسَاجِدِ مَكَّةَ) ;
+  - l'annexion est définie quand le second terme l'est ; le ة d'un premier terme se prononce « t » ;
+  - l'alif du tanwin de la fatha (كِتَابًا) ;
+  - مَنْ ne change pas en second terme (كِتَابُ مَنْ) ;
+  - تَحْتَ n'est pas une préposition mais un premier terme d'annexion ;
+  - l'interpellation ne s'emploie pas devant الْ ;
+  - اِبْنٌ et l'alif de liaison, الْقُرْآنُ et la racine ق ر أ, الْكَعْبَةُ, رَسُولُ اللَّهِ ;
+  - les pluriels sans tanwin (فُعَلَاءُ / أَفْعِلَاءُ) et les exceptions أَسْمَاءٌ / أَبْنَاءٌ.
+
+  Elles ont été vérifiées par trois relecteurs indépendants (arabe et fidélité aux PDF, exercices et ordre du parcours, français et pédagogie), puis par une seconde relecture sur les corrections ; chaque remarque a été contrôlée avant correction.
 
 ## Audio
 
