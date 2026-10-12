@@ -48,6 +48,9 @@ class ActivitySession(val screens: List<Screen>) {
 
     val firstTryCorrect: Int get() = exerciseCount - missed.size
 
+    /** Ids des exercices ratés au premier essai. */
+    val missedScreens: Set<String> get() = missed
+
     /** Part des exercices réussis du premier coup (1 s'il n'y a pas d'exercice). */
     val score: Double get() = if (exerciseCount == 0) 1.0 else firstTryCorrect.toDouble() / exerciseCount
 

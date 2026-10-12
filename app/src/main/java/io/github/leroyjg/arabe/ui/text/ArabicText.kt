@@ -15,6 +15,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.LineHeightStyle
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
@@ -75,6 +76,16 @@ fun arabicStyle(size: TextUnit): TextStyle = TextStyle(
 private const val FSI = '\u2068' // isole un passage arabe dans une phrase française
 private const val PDI = '\u2069'
 
+private const val NBSP = '\u00A0'
+
+/**
+ * Typographie française : l'espace avant « ? ! : ; » et à l'intérieur des guillemets devient
+ * insécable, pour qu'un retour à la ligne ne sépare jamais la ponctuation de son mot.
+ */
+fun frenchSpacing(text: String): String = text
+    .replace(Regex(" (?=[?!:;»])"), NBSP.toString())
+    .replace("« ", "«$NBSP")
+
 /** Construit le texte affiché d'un texte français balisé (`{ar|…}`, `**gras**`). */
 fun richText(text: String, hideHarakat: Boolean, arabicScale: Float = 1f): AnnotatedString {
     val parsed = Markup.parse(text)
@@ -88,9 +99,9 @@ fun richText(text: String, hideHarakat: Boolean, arabicScale: Float = 1f): Annot
                 }
                 append(PDI)
             } else if (weight != null) {
-                withStyle(SpanStyle(fontWeight = weight)) { append(segment.text) }
+                withStyle(SpanStyle(fontWeight = weight)) { append(frenchSpacing(segment.text)) }
             } else {
-                append(segment.text)
+                append(frenchSpacing(segment.text))
             }
         }
     }
@@ -105,6 +116,7 @@ fun RichText(
     color: Color = Color.Unspecified,
     textAlign: TextAlign = TextAlign.Start,
     keepHarakat: Boolean = false,
+    maxLines: Int = Int.MAX_VALUE,
 ) {
     val prefs = LocalReadingPrefs.current
     val hide = prefs.hideHarakat && !keepHarakat
@@ -114,6 +126,8 @@ fun RichText(
         text = annotated,
         modifier = modifier,
         color = if (color == Color.Unspecified) LocalContentColor.current else color,
+        maxLines = maxLines,
+        overflow = TextOverflow.Ellipsis,
         style = style.copy(
             textAlign = textAlign,
             textDirection = TextDirection.Ltr,

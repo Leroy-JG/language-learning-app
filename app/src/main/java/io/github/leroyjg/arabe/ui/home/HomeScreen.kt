@@ -1,5 +1,14 @@
 package io.github.leroyjg.arabe.ui.home
 
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.spring
+import androidx.compose.animation.expandVertically
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.shrinkVertically
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -14,7 +23,6 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -28,14 +36,13 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.KeyboardArrowDown
-import androidx.compose.material.icons.filled.Lock
+import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.SnackbarHost
-import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -43,14 +50,17 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.draw.drawBehind
+import androidx.compose.ui.draw.rotate
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -65,42 +75,25 @@ import io.github.leroyjg.arabe.content.Chapter
 import io.github.leroyjg.arabe.content.Course
 import io.github.leroyjg.arabe.content.Level
 import io.github.leroyjg.arabe.engine.CourseProgress
-import io.github.leroyjg.arabe.engine.LessonState
 import io.github.leroyjg.arabe.ui.IconImages
 import io.github.leroyjg.arabe.ui.LocalAppContainer
 import io.github.leroyjg.arabe.ui.WithContent
+import io.github.leroyjg.arabe.ui.eightPointStar
 import io.github.leroyjg.arabe.ui.icon
 import io.github.leroyjg.arabe.ui.label
 import io.github.leroyjg.arabe.ui.text.ArabicText
 import io.github.leroyjg.arabe.ui.text.RichText
 import io.github.leroyjg.arabe.ui.theme.AppTheme
-import kotlinx.coroutines.launch
-
-/** Une ligne du parcours affiché sur l'accueil. */
-private sealed interface PathEntry {
-    data class Header(val chapter: Chapter) : PathEntry
-    data class Lesson(val activity: Activity, val connectorBelow: Boolean) : PathEntry
-    data class Checkpoint(val activity: Activity) : PathEntry
-}
-
-private fun pathOf(level: Level): List<PathEntry> = buildList {
-    for (chapter in level.chapters) {
-        add(PathEntry.Header(chapter))
-        val lessons = chapter.activities.filter { it.file.type != ActivityType.QUIZ }
-        lessons.forEachIndexed { i, activity ->
-            val last = i == lessons.lastIndex
-            add(PathEntry.Lesson(activity, connectorBelow = !last || chapter.activities.any { it.file.type == ActivityType.QUIZ }))
-        }
-        chapter.activities.filter { it.file.type == ActivityType.QUIZ }.forEach { add(PathEntry.Checkpoint(it)) }
-    }
-}
 
 private fun levelOf(course: Course, activity: Activity?): Level? =
     activity?.let { a -> course.chapter(a.chapterId)?.let { course.levelOf(it) } }
 
-/** Accueil : le tome choisi, sa progression, et le fil des leçons de chaque chapitre. */
+/**
+ * Onglet « Apprendre » : le tome choisi, sa progression, et ses chapitres en accordéon.
+ * Rien n'est verrouillé : chaque leçon s'ouvre quand on veut.
+ */
 @Composable
-fun HomeScreen(onOpenActivity: (String) -> Unit) {
+fun LearnScreen(onOpenActivity: (String) -> Unit) {
     Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
         WithContent { ready ->
             val container = LocalAppContainer.current
@@ -116,68 +109,49 @@ fun HomeScreen(onOpenActivity: (String) -> Unit) {
             val level = course.levels.firstOrNull { it.id == chosenLevel }
                 ?: levelOf(course, progress.next)
                 ?: course.levels.first()
-            val entries = remember(level) { pathOf(level) }
-            val listState = rememberLazyListState()
-            val snackbar = remember { SnackbarHostState() }
-            val scope = rememberCoroutineScope()
-            val lockedMessage = stringResource(R.string.lesson_locked)
+            val next = progress.next?.takeIf { it.chapterId in level.chapters.map { c -> c.id } }
+            val nextChapter = next?.chapterId ?: level.chapters.firstOrNull()?.id
 
-            // À l'ouverture (et au changement de tome), on montre la prochaine leçon à faire.
+            // Chapitres ouverts (ids séparés par des virgules, pour survivre à la rotation) ;
+            // au départ, celui de la prochaine leçon.
+            var openIds by rememberSaveable(level.id) { mutableStateOf(nextChapter.orEmpty()) }
+            val open = openIds.split(',').filter { it.isNotEmpty() }.toSet()
+            val listState = rememberLazyListState()
+            var scrolledFor by rememberSaveable { mutableStateOf<String?>(null) }
             LaunchedEffect(level.id) {
-                val next = progress.next
-                val index = entries.indexOfFirst {
-                    (it is PathEntry.Lesson && it.activity == next) || (it is PathEntry.Checkpoint && it.activity == next)
+                if (scrolledFor != level.id) {
+                    scrolledFor = level.id
+                    val index = level.chapters.indexOfFirst { it.id == nextChapter }
+                    if (index > 0) listState.scrollToItem(index)
                 }
-                if (index > 0) listState.scrollToItem((index - 1).coerceAtLeast(0))
             }
 
-            Box(Modifier.fillMaxSize()) {
-                Column(Modifier.fillMaxSize()) {
-                    LevelHeader(
-                        course = course,
-                        level = level,
-                        fraction = progress.fraction(level),
-                        onChoose = { chosenLevel = it },
-                    )
-                    LazyColumn(
-                        state = listState,
-                        modifier = Modifier.fillMaxSize(),
-                        contentPadding = PaddingValues(start = 20.dp, end = 20.dp, bottom = 32.dp),
-                    ) {
-                        items(entries, key = {
-                            when (it) {
-                                is PathEntry.Header -> "h-" + it.chapter.id
-                                is PathEntry.Lesson -> it.activity.id
-                                is PathEntry.Checkpoint -> it.activity.id
-                            }
-                        }) { entry ->
-                            when (entry) {
-                                is PathEntry.Header -> ChapterHeader(entry.chapter, progress)
-                                is PathEntry.Lesson -> {
-                                    val state = progress.state(entry.activity)
-                                    LessonRow(
-                                        activity = entry.activity,
-                                        state = state,
-                                        isNext = progress.next == entry.activity,
-                                        connectorBelow = entry.connectorBelow,
-                                        onClick = {
-                                            if (state == LessonState.LOCKED) scope.launch { snackbar.showSnackbar(lockedMessage) }
-                                            else onOpenActivity(entry.activity.id)
-                                        },
-                                    )
-                                }
-                                is PathEntry.Checkpoint -> {
-                                    val state = progress.state(entry.activity)
-                                    CheckpointCard(state, onClick = {
-                                        if (state == LessonState.LOCKED) scope.launch { snackbar.showSnackbar(lockedMessage) }
-                                        else onOpenActivity(entry.activity.id)
-                                    })
-                                }
-                            }
-                        }
+            Column(Modifier.fillMaxSize()) {
+                LevelHeader(
+                    course = course,
+                    level = level,
+                    fraction = progress.fraction(level),
+                    onChoose = { chosenLevel = it },
+                )
+                LazyColumn(
+                    state = listState,
+                    modifier = Modifier.fillMaxSize(),
+                    contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 4.dp, bottom = 28.dp),
+                    verticalArrangement = Arrangement.spacedBy(14.dp),
+                ) {
+                    items(level.chapters, key = { it.id }) { chapter ->
+                        ChapterCard(
+                            chapter = chapter,
+                            progress = progress,
+                            next = next,
+                            expanded = chapter.id in open,
+                            onToggle = {
+                                openIds = (if (chapter.id in open) open - chapter.id else open + chapter.id).joinToString(",")
+                            },
+                            onOpenActivity = onOpenActivity,
+                        )
                     }
                 }
-                SnackbarHost(snackbar, Modifier.align(Alignment.BottomCenter).navigationBarsPadding())
             }
         }
     }
@@ -192,7 +166,7 @@ private fun LevelHeader(course: Course, level: Level, fraction: Float, onChoose:
         Modifier.fillMaxWidth()
             .background(MaterialTheme.colorScheme.background)
             .statusBarsPadding()
-            .padding(start = 20.dp, end = 20.dp, top = 12.dp, bottom = 12.dp),
+            .padding(start = 20.dp, end = 20.dp, top = 12.dp, bottom = 14.dp),
     ) {
         Box {
             Row(
@@ -224,6 +198,7 @@ private fun LevelHeader(course: Course, level: Level, fraction: Float, onChoose:
 @Composable
 private fun ProgressWithBadge(fraction: Float) {
     val green = MaterialTheme.colorScheme.primary
+    val animated by animateFloatAsState(fraction.coerceIn(0f, 1f), spring(stiffness = 120f), label = "tome")
     val percent = (fraction * 100).toInt()
     BoxWithConstraints(Modifier.fillMaxWidth().height(34.dp)) {
         val badgeWidth = 64.dp
@@ -232,10 +207,10 @@ private fun ProgressWithBadge(fraction: Float) {
                 .clip(RoundedCornerShape(50)).background(MaterialTheme.colorScheme.surfaceVariant),
         )
         Box(
-            Modifier.align(Alignment.CenterStart).fillMaxWidth(fraction.coerceIn(0f, 1f)).height(14.dp)
+            Modifier.align(Alignment.CenterStart).fillMaxWidth(animated).height(14.dp)
                 .clip(RoundedCornerShape(50)).background(green),
         )
-        val x = (maxWidth * fraction - badgeWidth / 2).coerceIn(0.dp, (maxWidth - badgeWidth).coerceAtLeast(0.dp))
+        val x = (maxWidth * animated - badgeWidth / 2).coerceIn(0.dp, (maxWidth - badgeWidth).coerceAtLeast(0.dp))
         Box(
             Modifier.align(Alignment.CenterStart).offset(x = x).width(badgeWidth).height(30.dp)
                 .background(green, RoundedCornerShape(50)),
@@ -246,98 +221,217 @@ private fun ProgressWithBadge(fraction: Float) {
     }
 }
 
-// ---------------------------------------------------------------- chapitres et leçons
+// ---------------------------------------------------------------- chapitres
 
+/** Carte d'un chapitre : son en-tête, et le fil de ses leçons quand elle est ouverte. */
 @Composable
-private fun ChapterHeader(chapter: Chapter, progress: CourseProgress) {
+private fun ChapterCard(
+    chapter: Chapter,
+    progress: CourseProgress,
+    next: Activity?,
+    expanded: Boolean,
+    onToggle: () -> Unit,
+    onOpenActivity: (String) -> Unit,
+) {
     val lessons = chapter.activities.filter { it.file.type != ActivityType.QUIZ }
-    val doneCount = lessons.count { progress.state(it) == LessonState.COMPLETED }
-    Column(Modifier.fillMaxWidth().padding(top = 28.dp, bottom = 16.dp)) {
-        Text(
-            stringResource(R.string.chapter_label, chapter.file.number),
-            style = MaterialTheme.typography.headlineLarge.copy(fontWeight = FontWeight.Bold),
-        )
-        Text(
-            stringResource(R.string.lessons_done, doneCount, lessons.size),
-            style = MaterialTheme.typography.titleMedium,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
-        Spacer(Modifier.height(6.dp))
-        RichText(chapter.file.title.fr, style = MaterialTheme.typography.bodyLarge)
-        ArabicText(
-            chapter.file.title.ar,
-            size = 20.sp,
-            textAlign = TextAlign.Start,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
+    val doneCount = lessons.count { progress.isCompleted(it) }
+    val chapterDone = chapter.activities.all { progress.isCompleted(it) }
+    val scheme = MaterialTheme.colorScheme
+    val star = scheme.primary.copy(alpha = 0.10f)
+    Surface(
+        shape = RoundedCornerShape(26.dp),
+        color = scheme.surface,
+        border = BorderStroke(1.dp, if (expanded) scheme.primary.copy(alpha = 0.35f) else scheme.outlineVariant),
+        shadowElevation = if (expanded) 3.dp else 1.dp,
+        modifier = Modifier.fillMaxWidth(),
+    ) {
+        Column {
+            Row(
+                Modifier.fillMaxWidth()
+                    .clickable(onClick = onToggle)
+                    .drawBehind {
+                        // Étoile à huit branches en filigrane, dans le coin.
+                        eightPointStar(Offset(size.width - 34.dp.toPx(), 30.dp.toPx()), 64.dp.toPx(), star, 2.dp.toPx())
+                    }
+                    .padding(start = 20.dp, end = 16.dp, top = 18.dp, bottom = 18.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Column(Modifier.weight(1f)) {
+                    Text(
+                        stringResource(R.string.chapter_label, chapter.file.number),
+                        style = MaterialTheme.typography.headlineMedium.copy(fontWeight = FontWeight.Bold),
+                    )
+                    Text(
+                        stringResource(R.string.lessons_done, doneCount, lessons.size),
+                        style = MaterialTheme.typography.titleMedium,
+                        color = if (chapterDone) AppTheme.colors.correct else scheme.onSurfaceVariant,
+                    )
+                    Spacer(Modifier.height(8.dp))
+                    RichText(chapter.file.title.fr, style = MaterialTheme.typography.bodyLarge)
+                    ArabicText(
+                        chapter.file.title.ar,
+                        size = 21.sp,
+                        textAlign = TextAlign.Start,
+                        color = scheme.onSurfaceVariant,
+                    )
+                }
+                Spacer(Modifier.width(12.dp))
+                ChapterRing(fraction = progress.fraction(chapter), done = chapterDone, expanded = expanded)
+            }
+            AnimatedVisibility(
+                visible = expanded,
+                enter = expandVertically(spring(stiffness = 380f)) + fadeIn(),
+                exit = shrinkVertically(spring(stiffness = 500f)) + fadeOut(),
+            ) {
+                Column(Modifier.fillMaxWidth().padding(start = 16.dp, end = 16.dp, bottom = 18.dp)) {
+                    HorizontalDivider(color = scheme.outlineVariant, modifier = Modifier.padding(bottom = 12.dp))
+                    ChapterPath(chapter, progress, next, onOpenActivity)
+                }
+            }
+        }
     }
 }
 
-private val NodeSize = 84.dp
-private val ImageSize = 68.dp
-
+/** Anneau d'avancement du chapitre, avec la flèche de l'accordéon au centre. */
 @Composable
-private fun LessonRow(activity: Activity, state: LessonState, isNext: Boolean, connectorBelow: Boolean, onClick: () -> Unit) {
-    val green = MaterialTheme.colorScheme.primary
-    val locked = state == LessonState.LOCKED
-    Column(Modifier.fillMaxWidth()) {
-        Row(
-            Modifier.fillMaxWidth().clip(RoundedCornerShape(20.dp)).clickable(onClick = onClick).padding(vertical = 4.dp),
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            LessonNode(activity, state, isNext)
-            Spacer(Modifier.width(18.dp))
-            Column(Modifier.weight(1f).alpha(if (locked) 0.45f else 1f)) {
-                TypePill(activity.file.type)
-                Spacer(Modifier.height(4.dp))
-                RichText(activity.file.title, style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.SemiBold, fontSize = 21.sp))
+private fun ChapterRing(fraction: Float, done: Boolean, expanded: Boolean) {
+    val scheme = MaterialTheme.colorScheme
+    val animated by animateFloatAsState(fraction, spring(stiffness = 120f), label = "chapitre")
+    val rotation by animateFloatAsState(if (expanded) 180f else 0f, spring(stiffness = 400f), label = "flèche")
+    val track = scheme.surfaceVariant
+    val fill = scheme.primary
+    Box(Modifier.size(58.dp), contentAlignment = Alignment.Center) {
+        Canvas(Modifier.size(58.dp)) {
+            val w = 6.dp.toPx()
+            val inset = Offset(w / 2, w / 2)
+            val arcSize = Size(size.width - w, size.height - w)
+            drawArc(track, 0f, 360f, useCenter = false, topLeft = inset, size = arcSize, style = Stroke(w))
+            if (animated > 0f) {
+                drawArc(fill, -90f, 360f * animated, useCenter = false, topLeft = inset, size = arcSize, style = Stroke(w, cap = StrokeCap.Round))
             }
         }
-        if (connectorBelow) {
-            Box(
-                Modifier.padding(start = NodeSize / 2 - 3.dp, top = 2.dp, bottom = 2.dp)
-                    .width(6.dp).height(30.dp)
-                    .background(if (state == LessonState.COMPLETED) green else MaterialTheme.colorScheme.outline, RoundedCornerShape(3.dp)),
+        if (done) {
+            Box(Modifier.size(38.dp).background(fill, CircleShape), contentAlignment = Alignment.Center) {
+                Icon(Icons.Filled.Check, contentDescription = stringResource(R.string.chapter_done), tint = scheme.onPrimary, modifier = Modifier.size(22.dp))
+            }
+        } else {
+            Icon(
+                Icons.Filled.KeyboardArrowDown,
+                contentDescription = stringResource(if (expanded) R.string.chapter_collapse else R.string.chapter_expand),
+                modifier = Modifier.size(30.dp).rotate(rotation),
+                tint = scheme.onSurface,
             )
         }
     }
 }
 
-/** Image ronde de la leçon : anneau vert si terminée, cadenas si verrouillée. */
+/** Fil des leçons d'un chapitre, partie par partie, puis le bilan. */
 @Composable
-private fun LessonNode(activity: Activity, state: LessonState, isNext: Boolean) {
+private fun ChapterPath(chapter: Chapter, progress: CourseProgress, next: Activity?, onOpenActivity: (String) -> Unit) {
+    val lessons = chapter.activities.filter { it.file.type != ActivityType.QUIZ }
+    val quizzes = chapter.activities.filter { it.file.type == ActivityType.QUIZ }
+    var previousSection = -1
+    lessons.forEachIndexed { i, activity ->
+        if (activity.sectionIndex != previousSection) {
+            previousSection = activity.sectionIndex
+            chapter.file.sections.getOrNull(activity.sectionIndex)?.let { section ->
+                RichText(
+                    section.title,
+                    style = MaterialTheme.typography.labelLarge,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.padding(top = if (i == 0) 0.dp else 6.dp, bottom = 8.dp),
+                )
+            }
+        }
+        val nextInSection = lessons.getOrNull(i + 1)?.sectionIndex == activity.sectionIndex
+        LessonRow(
+            activity = activity,
+            completed = progress.isCompleted(activity),
+            isNext = next == activity,
+            connectorBelow = nextInSection,
+            onClick = { onOpenActivity(activity.id) },
+        )
+    }
+    quizzes.forEach { quiz ->
+        Spacer(Modifier.height(10.dp))
+        CheckpointCard(done = progress.isCompleted(quiz), isNext = next == quiz, onClick = { onOpenActivity(quiz.id) })
+    }
+}
+
+private val NodeSize = 74.dp
+private val ImageSize = 60.dp
+
+@Composable
+private fun LessonRow(activity: Activity, completed: Boolean, isNext: Boolean, connectorBelow: Boolean, onClick: () -> Unit) {
+    val green = MaterialTheme.colorScheme.primary
+    Column(Modifier.fillMaxWidth()) {
+        Row(
+            Modifier.fillMaxWidth().clip(RoundedCornerShape(20.dp)).clickable(onClick = onClick).padding(vertical = 4.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            LessonNode(activity, completed, isNext)
+            Spacer(Modifier.width(16.dp))
+            Column(Modifier.weight(1f)) {
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    TypePill(activity.file.type)
+                    if (isNext) NextPill()
+                }
+                Spacer(Modifier.height(4.dp))
+                RichText(activity.file.title, style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.SemiBold, fontSize = 19.sp))
+            }
+        }
+        if (connectorBelow) {
+            Box(
+                Modifier.padding(start = NodeSize / 2 - 3.dp, top = 2.dp, bottom = 2.dp)
+                    .width(6.dp).height(22.dp)
+                    .background(if (completed) green else MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(3.dp)),
+            )
+        }
+    }
+}
+
+/** Image ronde de la leçon : anneau vert si terminée, doré si c'est la leçon proposée. */
+@Composable
+private fun LessonNode(activity: Activity, completed: Boolean, isNext: Boolean) {
     val colors = AppTheme.colors
+    val scheme = MaterialTheme.colorScheme
     val typeColor = colors.forType(activity.file.type)
     val ring = when {
-        state == LessonState.COMPLETED -> MaterialTheme.colorScheme.primary
-        isNext -> MaterialTheme.colorScheme.secondary
-        else -> MaterialTheme.colorScheme.outline
+        completed -> scheme.primary
+        isNext -> scheme.secondary
+        else -> scheme.outline
     }
     Box(Modifier.size(NodeSize), contentAlignment = Alignment.Center) {
-        Box(Modifier.size(NodeSize).border(6.dp, ring, CircleShape))
+        Box(Modifier.size(NodeSize).border(5.dp, ring, CircleShape))
         Box(
             Modifier.size(ImageSize).clip(CircleShape).background(typeColor.copy(alpha = 0.16f)),
             contentAlignment = Alignment.Center,
         ) {
             val image = IconImages.of(activity.file.icon)
             if (image != null) {
-                Image(painterResource(image), contentDescription = null, modifier = Modifier.size(46.dp))
+                Image(painterResource(image), contentDescription = null, modifier = Modifier.size(40.dp))
             } else {
-                Icon(activity.file.type.icon(), contentDescription = null, tint = typeColor, modifier = Modifier.size(34.dp))
-            }
-            if (state == LessonState.LOCKED) {
-                Box(Modifier.matchParentSize().background(MaterialTheme.colorScheme.background.copy(alpha = 0.6f)))
-                Icon(Icons.Filled.Lock, contentDescription = null, tint = MaterialTheme.colorScheme.onSurface, modifier = Modifier.size(30.dp))
+                Icon(activity.file.type.icon(), contentDescription = null, tint = typeColor, modifier = Modifier.size(30.dp))
             }
         }
-        if (state == LessonState.COMPLETED) {
+        val badge = when {
+            completed -> scheme.primary
+            isNext -> scheme.secondary
+            else -> null
+        }
+        if (badge != null) {
             Box(
-                Modifier.align(Alignment.BottomCenter).offset(y = 4.dp).size(30.dp)
-                    .background(MaterialTheme.colorScheme.primary, CircleShape)
-                    .border(3.dp, MaterialTheme.colorScheme.background, CircleShape),
+                Modifier.align(Alignment.BottomCenter).offset(y = 4.dp).size(28.dp)
+                    .background(badge, CircleShape)
+                    .border(3.dp, scheme.surface, CircleShape),
                 contentAlignment = Alignment.Center,
             ) {
-                Icon(Icons.Filled.Check, contentDescription = stringResource(R.string.lesson_done), tint = MaterialTheme.colorScheme.onPrimary, modifier = Modifier.size(18.dp))
+                Icon(
+                    if (completed) Icons.Filled.Check else Icons.Filled.PlayArrow,
+                    contentDescription = stringResource(if (completed) R.string.lesson_done else R.string.lesson_next),
+                    tint = if (completed) scheme.onPrimary else scheme.onSecondary,
+                    modifier = Modifier.size(17.dp),
+                )
             }
         }
     }
@@ -355,43 +449,51 @@ private fun TypePill(type: ActivityType) {
     }
 }
 
-/** Bilan du chapitre : le quiz final, qui débloque le chapitre suivant. */
 @Composable
-private fun CheckpointCard(state: LessonState, onClick: () -> Unit) {
+private fun NextPill() {
+    Box(Modifier.background(MaterialTheme.colorScheme.secondary, RoundedCornerShape(50)).padding(horizontal = 10.dp, vertical = 3.dp)) {
+        Text(
+            stringResource(R.string.lesson_next).uppercase(),
+            color = MaterialTheme.colorScheme.onSecondary,
+            style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold, letterSpacing = 0.6.sp),
+        )
+    }
+}
+
+/** Bilan du chapitre : le quiz final. */
+@Composable
+private fun CheckpointCard(done: Boolean, isNext: Boolean, onClick: () -> Unit) {
     val colors = AppTheme.colors
-    val done = state == LessonState.COMPLETED
-    val locked = state == LessonState.LOCKED
+    val scheme = MaterialTheme.colorScheme
     Row(
         Modifier.fillMaxWidth()
-            .padding(top = 4.dp)
-            .clip(RoundedCornerShape(24.dp))
+            .clip(RoundedCornerShape(22.dp))
             .background(if (done) colors.correctContainer else colors.remarkContainer)
+            .then(if (isNext) Modifier.border(2.dp, scheme.secondary, RoundedCornerShape(22.dp)) else Modifier)
             .clickable(onClick = onClick)
-            .padding(18.dp)
-            .alpha(if (locked) 0.55f else 1f),
+            .padding(16.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Box(
-            Modifier.size(76.dp)
-                .border(6.dp, if (done) colors.correct else MaterialTheme.colorScheme.secondary, CircleShape)
-                .padding(8.dp)
+            Modifier.size(70.dp)
+                .border(5.dp, if (done) colors.correct else scheme.secondary, CircleShape)
+                .padding(7.dp)
                 .clip(CircleShape)
-                .background(MaterialTheme.colorScheme.secondary.copy(alpha = 0.35f)),
+                .background(scheme.secondary.copy(alpha = 0.3f)),
             contentAlignment = Alignment.Center,
         ) {
             Image(
                 painterResource(if (done) R.drawable.ui_trophy else R.drawable.ui_flag),
                 contentDescription = null,
-                modifier = Modifier.size(42.dp),
+                modifier = Modifier.size(40.dp),
             )
-            if (locked) Icon(Icons.Filled.Lock, contentDescription = null, modifier = Modifier.size(26.dp))
         }
-        Spacer(Modifier.width(16.dp))
+        Spacer(Modifier.width(14.dp))
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
             Text(stringResource(R.string.checkpoint_title), style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold))
             Text(
                 stringResource(if (done) R.string.checkpoint_done else R.string.checkpoint_text),
-                style = MaterialTheme.typography.bodyLarge,
+                style = MaterialTheme.typography.bodyMedium,
             )
         }
     }

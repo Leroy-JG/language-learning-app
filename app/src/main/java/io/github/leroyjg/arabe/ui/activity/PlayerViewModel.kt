@@ -52,33 +52,57 @@ data class Feedback(
     val matchMistakes: Int = 0,
     /** Vrai ou faux : la bonne réponse, à rappeler. */
     val trueFalseAnswer: Boolean? = null,
+    /** Bonnes réponses d'affilée, celle-ci comprise (0 si la réponse est fausse). */
+    val combo: Int = 0,
 )
 
-/** Bilan affiché à la fin d'une activité. */
+/** Ce que joue le lecteur : une leçon du parcours, ou une séance de révision. */
+sealed interface SessionKind {
+    data class Lesson(val activity: Activity) : SessionKind
+    data object VocabularyReview : SessionKind
+    data class GrammarReview(val topic: Activity) : SessionKind
+}
+
+/** Bilan affiché à la fin d'une activité ou d'une révision. */
 data class ActivityResult(
-    val type: ActivityType,
+    val kind: SessionKind,
     val exerciseCount: Int,
     val firstTryCorrect: Int,
     val score: Double,
     val passed: Boolean,
     val xp: Int,
+    /** Mots vus (leçon) ou révisés (révision de vocabulaire). */
     val items: List<Item>,
-)
+    /** Exercices ratés au premier essai. */
+    val missedScreens: Set<String>,
+    /** Exercices justes au premier essai, mais avec une remarque. */
+    val remarkScreens: Set<String>,
+    /** Pour chaque mot interrogé : réussi du premier coup ou non. */
+    val itemResults: Map<String, Boolean>,
+    /** Meilleure série de bonnes réponses d'affilée. */
+    val bestCombo: Int,
+) {
+    val isQuiz: Boolean get() = (kind as? SessionKind.Lesson)?.activity?.file?.type == ActivityType.QUIZ
+}
 
 /**
- * État d'une activité en cours. Il survit à la rotation de l'écran ; si Android ferme l'app,
- * l'activité recommence proprement au début.
+ * État d'une séance en cours. Il survit à la rotation de l'écran ; si Android ferme l'app,
+ * la séance recommence proprement au début.
  */
 class PlayerViewModel(
     private val course: Course,
     index: CourseIndex,
-    val activity: Activity,
-    /** Appelé une fois à chaque fin d'activité (enregistrement de la progression). */
+    private val screens: List<Screen>,
+    val kind: SessionKind,
+    /** Appelé une fois à chaque fin de séance (enregistrement de la progression). */
     private val onFinished: (ActivityResult) -> Unit,
 ) : ViewModel() {
     private val factory = ExerciseFactory(course, index)
-    private var session = ActivitySession(activity.screens)
+    private var session = ActivitySession(screens)
     private var pendingOutcome: Outcome = Outcome.VIEWED
+    private val itemResults = mutableMapOf<String, Boolean>()
+    private val remarkScreens = mutableSetOf<String>()
+    private var bestCombo = 0
 
     /** Change à chaque nouvel écran : sert de clé pour réinitialiser l'affichage. */
     var turn by mutableIntStateOf(0)
@@ -94,6 +118,10 @@ class PlayerViewModel(
     var feedback by mutableStateOf<Feedback?>(null)
         private set
     var result by mutableStateOf<ActivityResult?>(null)
+        private set
+
+    /** Bonnes réponses d'affilée. */
+    var combo by mutableIntStateOf(0)
         private set
 
     // Saisies de l'écran courant.
@@ -164,7 +192,7 @@ class PlayerViewModel(
                 verdict = verdict(p.check(choice!!)),
                 answerAr = p.target.ar, answerFr = p.target.fr, sound = Sound.OfItem(p.target),
                 explain = p.screen.explain,
-            )
+            ).also { recordItem(p.target.id, it.verdict != AnswerMatcher.Verdict.WRONG) }
             is PreparedQuestion -> {
                 val right = p.screen.choices[p.screen.answer]
                 Feedback(
@@ -190,6 +218,7 @@ class PlayerViewModel(
                     r.expected == p.answers.first() -> Sound.OfText(r.expected)
                     else -> null
                 }
+                item?.let { recordItem(it.id, r.verdict != AnswerMatcher.Verdict.WRONG) }
                 Feedback(
                     verdict = r.verdict, answerAr = r.expected, answerFr = p.translation, sound = sound,
                     remarks = r.remarks, explain = p.screen.explain,
@@ -207,11 +236,25 @@ class PlayerViewModel(
             )
             is PreparedMatch, null -> return
         }
-        pendingOutcome = if (fb.verdict == AnswerMatcher.Verdict.WRONG) Outcome.WRONG else Outcome.CORRECT
-        feedback = fb
+        val wrong = fb.verdict == AnswerMatcher.Verdict.WRONG
+        if (!isRetry && fb.verdict == AnswerMatcher.Verdict.CORRECT_WITH_REMARK) screen?.let { remarkScreens += it.id }
+        pendingOutcome = if (wrong) Outcome.WRONG else Outcome.CORRECT
+        feedback = fb.copy(combo = updateCombo(!wrong))
     }
 
     private fun verdict(ok: Boolean) = if (ok) AnswerMatcher.Verdict.CORRECT else AnswerMatcher.Verdict.WRONG
+
+    /** Résultat du premier essai sur un mot (les reprises ne comptent pas). */
+    private fun recordItem(itemId: String, ok: Boolean) {
+        if (isRetry) return
+        itemResults[itemId] = (itemResults[itemId] ?: true) && ok
+    }
+
+    private fun updateCombo(ok: Boolean): Int {
+        combo = if (ok) combo + 1 else 0
+        bestCombo = maxOf(bestCombo, combo)
+        return combo
+    }
 
     /** Association : touche une case de gauche ou de droite. */
     fun tapMatch(left: Int?, right: Int?) {
@@ -227,16 +270,19 @@ class PlayerViewModel(
         } else {
             matchMistakes++
             matchWrong = l to r
+            recordItem(p.left[l].id, false)
         }
         matchLeft = null
         matchRight = null
         if (matchDone.size == p.left.size) {
+            p.left.forEach { recordItem(it.id, true) }
             val clean = matchMistakes == 0
             pendingOutcome = if (clean) Outcome.CORRECT else Outcome.COMPLETED_WITH_MISTAKES
             feedback = Feedback(
                 verdict = if (clean) AnswerMatcher.Verdict.CORRECT else AnswerMatcher.Verdict.CORRECT_WITH_REMARK,
                 matchMistakes = matchMistakes,
                 explain = p.screen.explain,
+                combo = updateCombo(clean),
             )
         }
     }
@@ -250,23 +296,42 @@ class PlayerViewModel(
     }
 
     fun restart() {
-        session = ActivitySession(activity.screens)
+        session = ActivitySession(screens)
+        itemResults.clear()
+        remarkScreens.clear()
+        combo = 0
+        bestCombo = 0
         result = null
         showCurrent()
     }
 
     private fun finish() {
         val s = session
-        val type = activity.file.type
         val xp = s.firstTryCorrect * 10 + (s.exerciseCount - s.firstTryCorrect) * 5
+        val isQuiz = (kind as? SessionKind.Lesson)?.activity?.file?.type == ActivityType.QUIZ
+        val items = when (kind) {
+            is SessionKind.Lesson -> screens.filterIsInstance<PresentScreen>().mapNotNull { course.item(it.item) }
+            SessionKind.VocabularyReview -> screens.mapNotNull { sc ->
+                when (sc) {
+                    is McqScreen -> course.item(sc.item)
+                    is TypingScreen -> sc.item?.let { course.item(it) }
+                    else -> null
+                }
+            }
+            is SessionKind.GrammarReview -> emptyList()
+        }
         val r = ActivityResult(
-            type = type,
+            kind = kind,
             exerciseCount = s.exerciseCount,
             firstTryCorrect = s.firstTryCorrect,
             score = s.score,
-            passed = type != ActivityType.QUIZ || s.score >= QUIZ_PASS_SCORE,
+            passed = !isQuiz || s.score >= QUIZ_PASS_SCORE,
             xp = xp,
-            items = activity.screens.filterIsInstance<PresentScreen>().mapNotNull { course.item(it.item) },
+            items = items,
+            missedScreens = s.missedScreens.toSet(),
+            remarkScreens = remarkScreens.toSet(),
+            itemResults = itemResults.toMap(),
+            bestCombo = bestCombo,
         )
         result = r
         onFinished(r)

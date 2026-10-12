@@ -151,8 +151,8 @@ exercice est toujours possible : seul l'id reste figé.
 ```
 
 - Un chapitre est découpé en **parties** (`sections`), chacune contenant des activités.
-- Les activités se débloquent dans l'ordre (parties puis activités). Le chapitre suivant se débloque
-  quand la **dernière activité** du chapitre (normalement un `quiz`) est réussie.
+- Rien n'est verrouillé : chaque activité s'ouvre quand on veut. L'ordre (parties puis activités)
+  est celui du parcours conseillé ; l'accueil propose la première activité non terminée.
 
 ---
 
@@ -192,7 +192,8 @@ exercice est toujours possible : seul l'id reste figé.
 | `audioFile` | non | enregistrement manuel (`audio/manual/<nom>.mp3`) qui remplace la synthèse de `ar` |
 | `review` | non | `false` pour exclure l'élément de la révision (défaut `true`) |
 
-Un élément entre dans **ta banque de mots** quand un écran `present` te l'a montré.
+Un élément entre dans **ta mémoire de révision** (onglet Réviser) quand tu termines une activité
+dont un écran `present` te l'a montré (voir §12).
 
 ---
 
@@ -213,8 +214,9 @@ Un élément entre dans **ta banque de mots** quand un écran `present` te l'a m
 - `icon` (facultatif) : image de l'activité dans le parcours de l'accueil ; sinon le symbole de
   son type. Une activité `quiz` s'affiche toujours comme la carte « Bilan du chapitre ».
 - Dans l'app, un chapitre s'appelle « Chapitre N » et chacune de ses activités est une « leçon »
-  du parcours. Les leçons s'ouvrent dans l'ordre : chacune après la précédente, et le chapitre
-  suivant après le bilan réussi.
+  du parcours. Toutes les leçons sont ouvertes ; la leçon proposée est la première non terminée.
+- Une activité `grammar` est un **point de grammaire** dans l'onglet Réviser : ses exercices
+  servent aux révisions de grammaire, et ses astuces (`tip`) de rappel de la règle.
 - `screens` : la suite d'écrans. Chaque écran a un `id` (`<activité>#<code>`) et un `type`.
 
 **Déroulé** : un exercice raté revient en fin d'activité jusqu'à ce qu'il soit réussi. Le score
@@ -421,3 +423,26 @@ Conséquences :
 - `context.dialogue` désigne un écran `dialogue` déjà vu.
 - Règles du texte arabe (§3) et balises `{ar|…}` bien formées.
 - Chaque audio attendu existe dans `assets/audio/`.
+
+---
+
+## 12. Révisions (onglet Réviser)
+
+Les révisions utilisent la répétition espacée **FSRS** (l'algorithme d'Anki) : chaque mot et chaque
+point de grammaire a une stabilité (en jours) et une difficulté ; la prochaine révision tombe quand
+la probabilité de s'en souvenir descend à 90 %.
+
+- **Entrée en mémoire** : à la fin d'une activité, chaque élément présenté (`present`, avec
+  `review` ≠ `false`) devient une carte ; une activité `grammar` devient un point de grammaire.
+- **Notes** (jamais demandées à l'utilisateur) : réponse fausse au premier essai → « oublié » ;
+  juste avec une remarque → « difficile » ; juste → « bien ». Un point de grammaire est noté selon la
+  part de réponses justes du premier coup (≥ 85 % bien, ≥ 60 % difficile, sinon oublié).
+- **Séance de vocabulaire** : les cartes dues d'abord (les plus effacées en premier), puis les plus
+  fragiles. Exercice selon la solidité du souvenir : reconnaître (arabe → français) quand il est
+  fragile, retrouver l'arabe (français → arabe, écoute, image) ensuite, l'écrire quand il est solide.
+  Les distracteurs viennent du même chapitre puis du même niveau, sans doublon de traduction ni de
+  texte arabe (même sans harakat).
+- **Séance de grammaire** : exercices de la leçon du point, mélangés, précédés du rappel de la règle
+  (ses astuces) quand le point est fragile ou jamais révisé.
+- **Maîtrise affichée** : à travailler (oubli récent, souvenir très fragile ou déjà effacé), à revoir,
+  acquis (souvenir solide au moins trois semaines et encore frais).

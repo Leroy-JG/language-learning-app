@@ -1,5 +1,10 @@
 package io.github.leroyjg.arabe.ui.activity
 
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.spring
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -19,11 +24,14 @@ import androidx.compose.material3.IconButtonDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.addPathNodes
 import androidx.compose.ui.res.painterResource
@@ -31,8 +39,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import io.github.leroyjg.arabe.R
+import io.github.leroyjg.arabe.audio.rememberHaptics
 import io.github.leroyjg.arabe.ui.IconImages
 import io.github.leroyjg.arabe.ui.theme.AppTheme
+import kotlin.math.PI
+import kotlin.math.sin
 
 /** Icône « haut-parleur » (tracé Material Icons, licence Apache 2.0). */
 val SpeakerIcon: ImageVector by lazy {
@@ -85,18 +96,50 @@ fun ChoiceCard(
         ChoiceState.CORRECT -> colors.correct to colors.correctContainer
         ChoiceState.WRONG -> colors.wrong to colors.wrongContainer
     }
+    val haptics = rememberHaptics()
     Surface(
         modifier = modifier
+            .answerAnimation(state)
             .fillMaxWidth()
             .defaultMinSize(minHeight = 56.dp)
             .alpha(if (state == ChoiceState.DISABLED) 0.45f else 1f),
         shape = RoundedCornerShape(16.dp),
         color = background,
         border = BorderStroke(if (state == ChoiceState.IDLE) 1.5.dp else 2.5.dp, border),
-        onClick = onClick,
+        onClick = {
+            haptics.tick()
+            onClick()
+        },
         enabled = state == ChoiceState.IDLE || state == ChoiceState.SELECTED,
     ) {
         Box(Modifier.padding(horizontal = 16.dp, vertical = 10.dp), contentAlignment = Alignment.Center) { content() }
+    }
+}
+
+/** Rebond quand la réponse est juste, tremblement quand elle est fausse. */
+@Composable
+fun Modifier.answerAnimation(state: ChoiceState): Modifier {
+    val scale = remember { Animatable(1f) }
+    val shake = remember { Animatable(0f) }
+    LaunchedEffect(state) {
+        when (state) {
+            ChoiceState.CORRECT -> {
+                scale.animateTo(1.05f, tween(110))
+                scale.animateTo(1f, spring(dampingRatio = 0.35f, stiffness = Spring.StiffnessMedium))
+            }
+            ChoiceState.WRONG -> {
+                shake.snapTo(0f)
+                shake.animateTo(1f, tween(450, easing = LinearEasing))
+            }
+            else -> Unit
+        }
+    }
+    return this.graphicsLayer {
+        scaleX = scale.value
+        scaleY = scale.value
+        // Oscillation amortie : trois allers-retours qui s'éteignent.
+        val t = shake.value
+        translationX = sin(t * 6 * PI.toFloat()) * 10f * (1f - t) * density
     }
 }
 

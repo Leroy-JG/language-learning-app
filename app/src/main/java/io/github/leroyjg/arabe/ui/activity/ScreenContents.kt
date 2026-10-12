@@ -22,9 +22,13 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
@@ -54,6 +58,8 @@ import io.github.leroyjg.arabe.R
 import io.github.leroyjg.arabe.arabic.AnswerMatcher
 import io.github.leroyjg.arabe.audio.AudioPlayer
 import io.github.leroyjg.arabe.audio.Sound
+import io.github.leroyjg.arabe.audio.SoundEffects
+import io.github.leroyjg.arabe.audio.rememberHaptics
 import io.github.leroyjg.arabe.content.Course
 import io.github.leroyjg.arabe.content.DialogueScreen
 import io.github.leroyjg.arabe.content.ExampleBlock
@@ -74,6 +80,7 @@ import io.github.leroyjg.arabe.engine.PreparedOrder
 import io.github.leroyjg.arabe.engine.PreparedQuestion
 import io.github.leroyjg.arabe.engine.PreparedTrueFalse
 import io.github.leroyjg.arabe.engine.PreparedTyping
+import io.github.leroyjg.arabe.ui.LocalAppContainer
 import io.github.leroyjg.arabe.ui.text.ArabicText
 import io.github.leroyjg.arabe.ui.text.LocalReadingPrefs
 import io.github.leroyjg.arabe.ui.text.RichText
@@ -116,7 +123,7 @@ private fun SpokenArabic(text: String, onPlay: () -> Unit, size: Int = 34) {
 // ---------------------------------------------------------------- présentation
 
 @Composable
-fun PresentContent(item: Item, playback: Playback, turn: Int) {
+fun PresentContent(item: Item, playback: Playback, turn: Int, saved: Boolean, onToggleSaved: () -> Unit) {
     val prefs = LocalReadingPrefs.current
     AutoPlay(turn, playback, Sound.OfItem(item))
     Column(
@@ -124,7 +131,16 @@ fun PresentContent(item: Item, playback: Playback, turn: Int) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
-        ContentIcon(item.icon, size = 132.dp)
+        Box(Modifier.fillMaxWidth()) {
+            ContentIcon(item.icon, size = 132.dp, modifier = Modifier.align(Alignment.Center))
+            IconButton(onClick = onToggleSaved, modifier = Modifier.align(Alignment.TopEnd)) {
+                Icon(
+                    if (saved) Icons.Filled.Favorite else Icons.Filled.FavoriteBorder,
+                    contentDescription = stringResource(if (saved) R.string.saved_remove else R.string.saved_add),
+                    tint = if (saved) AppTheme.colors.weak else MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+        }
         SpokenArabic(item.ar, onPlay = { playback.play(Sound.OfItem(item)) }, size = 42)
         if (prefs.showTranslit && item.translit != null) {
             Text(item.translit!!, fontStyle = FontStyle.Italic, color = MaterialTheme.colorScheme.onSurfaceVariant)
@@ -599,10 +615,20 @@ fun OrderContent(p: PreparedOrder, vm: PlayerViewModel, playback: Playback) {
 @Composable
 fun MatchContent(p: PreparedMatch, vm: PlayerViewModel, playback: Playback) {
     val mode = p.screen.mode
+    val sounds = LocalAppContainer.current.sounds
+    val haptics = rememberHaptics()
     LaunchedEffect(vm.matchWrong) {
         if (vm.matchWrong != null) {
+            haptics.error()
             delay(700)
             vm.matchWrong = null
+        }
+    }
+    // Petit son à chaque paire trouvée (la dernière est saluée par le panneau de correction).
+    LaunchedEffect(vm.matchDone.size) {
+        if (vm.matchDone.isNotEmpty() && vm.matchDone.size < p.left.size) {
+            sounds.play(SoundEffects.Effect.PAIR)
+            haptics.tick()
         }
     }
     Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
@@ -668,7 +694,8 @@ private fun MatchTile(state: ChoiceState, onClick: () -> Unit, content: @Composa
         else -> scheme.outline to scheme.surface
     }
     Box(
-        Modifier.fillMaxWidth()
+        Modifier.answerAnimation(state)
+            .fillMaxWidth()
             .defaultMinSize(minHeight = 64.dp)
             .background(background, RoundedCornerShape(14.dp))
             .border(if (state == ChoiceState.IDLE) 1.5.dp else 2.5.dp, border, RoundedCornerShape(14.dp))

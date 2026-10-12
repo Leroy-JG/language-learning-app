@@ -14,6 +14,7 @@ import io.github.leroyjg.arabe.content.Audio
 import io.github.leroyjg.arabe.content.AudioNeed
 import io.github.leroyjg.arabe.content.Course
 import io.github.leroyjg.arabe.content.Item
+import io.github.leroyjg.arabe.data.SettingsRepository
 import java.util.Locale
 import java.util.UUID
 
@@ -27,7 +28,7 @@ sealed interface Sound {
  * Joue les audios du cours : le MP3 généré s'il est dans l'APK (assets/audio), sinon la synthèse
  * vocale arabe du téléphone en dernier recours.
  */
-class AudioPlayer(context: Context) {
+class AudioPlayer(context: Context, private val settings: SettingsRepository) {
     private val app = context.applicationContext
     private val main = Handler(Looper.getMainLooper())
     private val bundled: Set<String> by lazy { app.assets.list(Audio.DIR)?.toSet().orEmpty() }
@@ -46,8 +47,9 @@ class AudioPlayer(context: Context) {
                 AudioNeed(ArabicScript.nfc(sound.text), sound.voiceKey ?: course.file.defaultVoice),
             ) to sound.text
         }
-        if (path.removePrefix("${Audio.DIR}/") in bundled && playAsset(path, onDone)) return
-        speech.speak(text, onDone)
+        val rate = settings.current.speechRate
+        if (path.removePrefix("${Audio.DIR}/") in bundled && playAsset(path, rate, onDone)) return
+        speech.speak(text, rate, onDone)
     }
 
     fun stop() {
@@ -60,7 +62,7 @@ class AudioPlayer(context: Context) {
         speech.stop()
     }
 
-    private fun playAsset(path: String, onDone: (() -> Unit)?): Boolean = try {
+    private fun playAsset(path: String, rate: Float, onDone: (() -> Unit)?): Boolean = try {
         app.assets.openFd(path).use { fd ->
             val player = MediaPlayer()
             player.setDataSource(fd.fileDescriptor, fd.startOffset, fd.length)
@@ -72,6 +74,8 @@ class AudioPlayer(context: Context) {
                 onDone?.let { done -> main.post { done() } }
             }
             player.prepare()
+            // Vitesse réglée sans changer la hauteur de la voix.
+            if (rate != 1f) runCatching { player.playbackParams = player.playbackParams.setSpeed(rate) }
             player.start()
             media = player
         }
@@ -90,7 +94,7 @@ class PhoneSpeech(context: Context) : TextToSpeech.OnInitListener {
 
     private val main = Handler(Looper.getMainLooper())
     private val callbacks = mutableMapOf<String, () -> Unit>()
-    private var pending: Pair<String, (() -> Unit)?>? = null
+    private var pending: Triple<String, Float, (() -> Unit)?>? = null
     private val tts = TextToSpeech(context, this)
 
     override fun onInit(result: Int) {
@@ -104,7 +108,6 @@ class PhoneSpeech(context: Context) : TextToSpeech.OnInitListener {
                 } else {
                     Status.READY
                 }
-                tts.setSpeechRate(0.85f)
                 tts.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
                     override fun onStart(utteranceId: String) = Unit
                     override fun onDone(utteranceId: String) = finish(utteranceId)
@@ -116,9 +119,9 @@ class PhoneSpeech(context: Context) : TextToSpeech.OnInitListener {
                     }
                 })
             }
-            pending?.let { (text, done) ->
+            pending?.let { (text, rate, done) ->
                 pending = null
-                speak(text, done)
+                speak(text, rate, done)
             }
         }
     }
@@ -127,10 +130,11 @@ class PhoneSpeech(context: Context) : TextToSpeech.OnInitListener {
         main.post { callbacks.remove(utteranceId)?.invoke() }
     }
 
-    fun speak(text: String, onDone: (() -> Unit)?) {
+    fun speak(text: String, rate: Float, onDone: (() -> Unit)?) {
         when (status) {
-            Status.STARTING -> pending = text to onDone
+            Status.STARTING -> pending = Triple(text, rate, onDone)
             Status.READY -> {
+                tts.setSpeechRate(BASE_RATE * rate)
                 val id = UUID.randomUUID().toString()
                 if (onDone != null) callbacks[id] = onDone
                 tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, id)
@@ -144,5 +148,10 @@ class PhoneSpeech(context: Context) : TextToSpeech.OnInitListener {
         pending = null
         callbacks.clear()
         if (status == Status.READY) tts.stop()
+    }
+
+    private companion object {
+        /** La voix du téléphone est un peu ralentie : elle parle vite pour un débutant. */
+        const val BASE_RATE = 0.85f
     }
 }

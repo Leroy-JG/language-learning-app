@@ -2,16 +2,24 @@
 <resources>
     <string name="app_name">Lurata</string>
 
-    <!-- Accueil et parcours -->
+    <!-- Onglets -->
+    <string name="tab_learn">Apprendre</string>
+    <string name="tab_review">Réviser</string>
+    <string name="tab_settings">Paramètres</string>
+
+    <!-- Apprendre : parcours -->
     <string name="chapter_label">Chapitre %1$d</string>
     <string name="lessons_done">%1$d/%2$d leçons terminées</string>
+    <string name="chapter_done">Chapitre terminé</string>
+    <string name="chapter_expand">Ouvrir le chapitre</string>
+    <string name="chapter_collapse">Fermer le chapitre</string>
     <string name="level_choose">Choisir le tome</string>
-    <string name="level_progress">%1$d %%</string>
+    <string name="level_progress">%1$d\u00A0%%</string>
     <string name="checkpoint_title">Bilan du chapitre</string>
-    <string name="checkpoint_text">Teste tes connaissances pour débloquer le chapitre suivant.</string>
-    <string name="checkpoint_done">Réussi ! Tu peux le refaire quand tu veux.</string>
-    <string name="lesson_locked">Termine d\'abord la leçon précédente.</string>
+    <string name="checkpoint_text">Teste tout ce que tu as appris dans ce chapitre.</string>
+    <string name="checkpoint_done">Réussi\u00A0! Tu peux le refaire quand tu veux.</string>
     <string name="lesson_done">Terminée</string>
+    <string name="lesson_next">Suivante</string>
     <string name="back">Retour</string>
     <string name="loading">Chargement…</string>
     <string name="content_error_title">Le contenu des cours n\'a pas pu être chargé</string>
@@ -22,30 +30,71 @@
     <string name="activity_type_quiz">Quiz</string>
     <string name="activity_not_found">Activité introuvable.</string>
 
+    <!-- Réviser -->
+    <string name="review_vocabulary">Vocabulaire</string>
+    <string name="review_grammar">Grammaire</string>
+    <string name="review_search">Rechercher un mot</string>
+    <string name="review_search_hint">Un mot en français ou en arabe</string>
+    <plurals name="review_due_words">
+        <item quantity="one">%1$d mot à réviser aujourd\'hui</item>
+        <item quantity="other">%1$d mots à réviser aujourd\'hui</item>
+    </plurals>
+    <string name="review_up_to_date">Tout est à jour\u00A0!</string>
+    <string name="review_banner_text">Revoir un mot juste avant de l\'oublier l\'ancre durablement dans ta mémoire.</string>
+    <string name="mastery_weak">À travailler</string>
+    <string name="mastery_medium">À revoir</string>
+    <string name="mastery_strong">Acquis</string>
+    <string name="mastery_grammar_weak">Non acquis</string>
+    <string name="mastery_grammar_medium">En progrès</string>
+    <string name="review_saved_words">Mes mots favoris</string>
+    <string name="saved_add">Ajouter aux favoris</string>
+    <string name="saved_remove">Retirer des favoris</string>
+    <plurals name="review_word_count">
+        <item quantity="one">%1$d mot</item>
+        <item quantity="other">%1$d mots</item>
+    </plurals>
+    <string name="review_not_studied">Pas encore étudié</string>
+    <string name="review_next_today">À réviser aujourd\'hui</string>
+    <string name="review_next_tomorrow">Prochaine révision demain</string>
+    <plurals name="review_next_in_days">
+        <item quantity="one">Prochaine révision dans %1$d jour</item>
+        <item quantity="other">Prochaine révision dans %1$d jours</item>
+    </plurals>
+    <string name="review_new">Nouveau</string>
+    <string name="review_start_vocabulary">Réviser maintenant</string>
+    <string name="review_start_filtered">Réviser ces mots</string>
+    <string name="review_start_grammar">Réviser la grammaire</string>
+    <string name="review_empty_vocabulary">Termine ta première leçon\u00A0: ses mots apparaîtront ici, et tu pourras les réviser au bon moment.</string>
+    <string name="review_go_learn">Aller aux leçons</string>
+    <string name="review_practice">S\'entraîner</string>
+    <string name="review_open_lesson">Revoir la leçon</string>
+    <string name="review_nothing">Rien à réviser pour l\'instant.</string>
+
     <!-- Déroulé d'une activité -->
     <string name="close">Fermer</string>
     <string name="check">Vérifier</string>
     <string name="continue_">Continuer</string>
     <string name="listen">Écouter</string>
-    <string name="quit_title">Quitter l\'activité ?</string>
-    <string name="quit_message">Ce que tu as fait dans cette activité sera perdu.</string>
+    <string name="quit_title">Quitter\u00A0?</string>
+    <string name="quit_message">Ce que tu as fait dans cette séance sera perdu.</string>
     <string name="quit_confirm">Quitter</string>
     <string name="quit_cancel">Rester</string>
+    <string name="quit_cancel_generic">Annuler</string>
     <string name="retry_badge">Exercice repris</string>
     <string name="plural_label">Pluriel</string>
     <string name="example_label">Exemple</string>
 
-    <string name="instruction_mcq_ar_fr">Que veut dire ceci ?</string>
-    <string name="instruction_mcq_fr_ar">Comment le dit-on en arabe ?</string>
-    <string name="instruction_mcq_audio_ar">Qu\'entends-tu ?</string>
-    <string name="instruction_mcq_icon_ar">Qu\'est-ce que c\'est ?</string>
+    <string name="instruction_mcq_ar_fr">Que veut dire ceci\u00A0?</string>
+    <string name="instruction_mcq_fr_ar">Comment le dit-on en arabe\u00A0?</string>
+    <string name="instruction_mcq_audio_ar">Qu\'entends-tu\u00A0?</string>
+    <string name="instruction_mcq_icon_ar">Qu\'est-ce que c\'est\u00A0?</string>
     <string name="instruction_match">Associe les paires.</string>
     <string name="instruction_fill_gap">Complète la phrase.</string>
     <string name="instruction_order">Remets les mots dans l\'ordre.</string>
     <string name="instruction_typing_fr">Écris en arabe.</string>
     <string name="instruction_typing_audio">Écris ce que tu entends.</string>
     <string name="instruction_typing_question">Réponds en arabe.</string>
-    <string name="instruction_true_false">Vrai ou faux ?</string>
+    <string name="instruction_true_false">Vrai ou faux\u00A0?</string>
     <string name="instruction_question">Choisis la bonne réponse.</string>
     <string name="typing_placeholder">Écris ici en arabe</string>
     <string name="typing_keyboard_hint">Active un clavier arabe sur ton téléphone pour écrire.</string>
@@ -55,16 +104,27 @@
     <string name="dialogue_play_all">Écouter le dialogue</string>
     <string name="dialogue_stop">Arrêter</string>
     <string name="dialogue_translation">Traduction</string>
-    <string name="dialogue_replay">Réécouter « %1$s »</string>
+    <string name="dialogue_replay">Réécouter «\u00A0%1$s\u00A0»</string>
     <string name="dialogue_show_text">Voir le texte</string>
     <string name="dialogue_hide_text">Masquer le texte</string>
 
     <!-- Correction -->
-    <string name="feedback_correct">Bravo !</string>
+    <string-array name="praise">
+        <item>Bravo\u00A0!</item>
+        <item>Excellent\u00A0!</item>
+        <item>Parfait\u00A0!</item>
+        <item>Bien joué\u00A0!</item>
+        <item>Super\u00A0!</item>
+        <item>Très bien\u00A0!</item>
+    </string-array>
     <string name="feedback_remark">Correct, mais attention</string>
     <string name="feedback_wrong">Ce n\'est pas ça</string>
-    <string name="feedback_match_mistakes">Terminé, avec %1$d erreur(s)</string>
-    <string name="feedback_answer">Bonne réponse :</string>
+    <plurals name="feedback_match_mistakes">
+        <item quantity="one">Terminé, avec %1$d erreur</item>
+        <item quantity="other">Terminé, avec %1$d erreurs</item>
+    </plurals>
+    <string name="feedback_combo">%1$d bonnes réponses d\'affilée\u00A0!</string>
+    <string name="feedback_answer">Bonne réponse\u00A0:</string>
     <string name="feedback_it_was_true">La phrase était vraie.</string>
     <string name="feedback_it_was_false">La phrase était fausse.</string>
     <string name="remark_hamza_alif">Vérifie la hamza et l\'alif (أ إ آ ا).</string>
@@ -72,16 +132,83 @@
     <string name="remark_alif_maqsura">Vérifie l\'alif maqṣūra (ى) et le yā\' (ي).</string>
     <string name="remark_harakat">Vérifie les voyelles (harakat).</string>
 
-    <!-- Fin d'activité -->
-    <string name="end_title">Activité terminée !</string>
-    <string name="end_quiz_passed">Bilan réussi !</string>
+    <!-- Fin de séance -->
+    <string name="end_title">Leçon terminée\u00A0!</string>
+    <string name="end_review_title">Révision terminée\u00A0!</string>
+    <string name="end_quiz_passed">Bilan réussi\u00A0!</string>
     <string name="end_quiz_failed">Bilan à refaire</string>
-    <string name="end_quiz_failed_hint">Il faut au moins 70 % de bonnes réponses du premier coup.</string>
-    <string name="end_score">Du premier coup : %1$d / %2$d</string>
-    <string name="end_xp">+%1$d XP</string>
+    <string name="end_quiz_failed_hint">Il faut au moins 70\u00A0% de bonnes réponses du premier coup. Tu y es presque\u00A0!</string>
+    <string name="end_great">Excellent travail\u00A0!</string>
+    <string name="end_good">Très bien, continue comme ça\u00A0!</string>
+    <string name="end_keep_going">Chaque erreur t\'aide à progresser. Continue\u00A0!</string>
+    <string name="end_stat_xp">XP</string>
+    <string name="end_stat_accuracy">Précision</string>
+    <string name="end_stat_streak">Série</string>
+    <string name="end_score">Du premier coup\u00A0: %1$d sur %2$d</string>
     <string name="end_words">Mots et phrases vus</string>
+    <string name="end_words_reviewed">Mots révisés</string>
     <string name="end_retry_quiz">Recommencer le bilan</string>
-    <string name="end_next_chapter">Le chapitre suivant est débloqué !</string>
+    <string name="end_chapter_done">Tu as terminé le bilan de ce chapitre.</string>
 
-    <string name="no_arabic_voice">Aucune voix arabe sur ce téléphone : installe-la dans les réglages Android (synthèse vocale) pour entendre l\'arabe.</string>
+    <!-- Paramètres -->
+    <string name="settings_section_arabic">Lecture de l\'arabe</string>
+    <string name="settings_preview_translation">Ceci est un livre.</string>
+    <string name="settings_harakat">Voyelles (harakat)</string>
+    <string name="settings_harakat_hint">Afficher les voyelles sur les mots et les exercices. Les explications de grammaire les gardent toujours.</string>
+    <string name="settings_translit">Translittération</string>
+    <string name="settings_translit_hint">Prononciation en lettres latines sous les nouveaux mots.</string>
+    <string name="settings_arabic_size">Taille de l\'arabe</string>
+    <string name="settings_size_small">Petite</string>
+    <string name="settings_size_normal">Normale</string>
+    <string name="settings_size_large">Grande</string>
+    <string name="settings_size_xlarge">Géante</string>
+    <string name="settings_section_audio">Son</string>
+    <string name="settings_autoplay">Lecture automatique</string>
+    <string name="settings_autoplay_hint">Entendre l\'arabe dès qu\'il s\'affiche et après chaque réponse.</string>
+    <string name="settings_speech_rate">Vitesse de la voix</string>
+    <string name="settings_rate_slow">Lente</string>
+    <string name="settings_rate_normal">Normale</string>
+    <string name="settings_rate_fast">Rapide</string>
+    <string name="settings_sounds">Effets sonores</string>
+    <string name="settings_sounds_hint">Petits sons pour les bonnes et mauvaises réponses.</string>
+    <string name="settings_haptics">Vibrations</string>
+    <string name="settings_haptics_hint">Légère vibration à chaque réponse.</string>
+    <string name="settings_section_review">Révisions</string>
+    <string name="settings_typing">Écrire en arabe</string>
+    <string name="settings_typing_hint">Exercices d\'écriture pour les mots bien connus (clavier arabe nécessaire).</string>
+    <string name="settings_review_size">Mots par séance de vocabulaire</string>
+    <string name="settings_review_size_value">%1$d</string>
+    <string name="settings_section_appearance">Apparence</string>
+    <string name="settings_theme">Thème</string>
+    <string name="settings_theme_system">Système</string>
+    <string name="settings_theme_light">Clair</string>
+    <string name="settings_theme_dark">Sombre</string>
+    <string name="settings_section_data">Mes données</string>
+    <string name="settings_export">Exporter ma progression</string>
+    <string name="settings_export_hint">Enregistre un fichier de sauvegarde (par exemple dans ton Drive).</string>
+    <string name="settings_import">Importer une progression</string>
+    <string name="settings_import_hint">Remplace ta progression par celle d\'un fichier de sauvegarde.</string>
+    <string name="settings_reset">Réinitialiser la progression</string>
+    <string name="settings_reset_hint">Efface les leçons terminées, les révisions et les favoris.</string>
+    <string name="settings_exported">Progression exportée.</string>
+    <string name="settings_export_failed">L\'export a échoué.</string>
+    <string name="settings_imported">Progression importée.</string>
+    <string name="settings_import_invalid">Ce fichier n\'est pas une sauvegarde de Lurata.</string>
+    <string name="settings_import_confirm_title">Importer cette sauvegarde\u00A0?</string>
+    <string name="settings_import_confirm_text">Sauvegarde du %1$s (%2$d séances, %3$d éléments en mémoire). Ta progression actuelle sera remplacée.</string>
+    <string name="settings_import_confirm">Importer</string>
+    <string name="settings_reset_confirm_title">Tout effacer\u00A0?</string>
+    <string name="settings_reset_confirm_text">Ta progression sera définitivement effacée. Pense à l\'exporter avant si tu veux la garder.</string>
+    <string name="settings_reset_confirm">Effacer</string>
+    <string name="settings_reset_done">Progression réinitialisée.</string>
+    <string name="settings_section_about">À propos</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_about_content">Contenu</string>
+    <string name="settings_about_content_text">Cours fondés sur les Tomes de Médine (Durūs al-lugha al-ʿarabiyya).</string>
+    <string name="settings_about_offline">100\u00A0% hors ligne</string>
+    <string name="settings_about_offline_text">Aucune connexion, aucun compte\u00A0: tout reste sur ton téléphone.</string>
+    <string name="settings_about_credits">Crédits</string>
+    <string name="settings_about_credits_text">Police Noto Naskh Arabic (SIL Open Font License 1.1). Icônes OpenMoji (CC BY-SA 4.0).</string>
+
+    <string name="no_arabic_voice">Aucune voix arabe sur ce téléphone\u00A0: installe-la dans les réglages Android (synthèse vocale) pour entendre l\'arabe.</string>
 </resources>

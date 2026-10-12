@@ -11,6 +11,7 @@ import androidx.room.PrimaryKey
 import androidx.room.Query
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import androidx.room.Transaction
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -22,6 +23,7 @@ import java.time.LocalDate
 /**
  * Une activité terminée (une ligne par fin d'activité, jamais modifiée ni effacée).
  * La date locale sert à la série de jours ; l'heure exacte à l'historique.
+ * Les séances de révision sont enregistrées aussi, avec un id qui commence par « revision: ».
  */
 @Entity(tableName = "activity_result", indices = [Index("activity_id")])
 data class ActivityResultEntity(
@@ -36,13 +38,42 @@ data class ActivityResultEntity(
     val passed: Boolean,
 )
 
+/** Première réussite et meilleur score d'une activité. */
+data class CompletionRow(
+    @ColumnInfo(name = "activity_id") val activityId: String,
+    @ColumnInfo(name = "first_date") val firstDate: String,
+    @ColumnInfo(name = "best_score") val bestScore: Double,
+)
+
 @Dao
-interface ProgressDao {
+abstract class ProgressDao {
     @Insert
-    suspend fun insert(result: ActivityResultEntity)
+    abstract suspend fun insert(result: ActivityResultEntity)
 
     @Query("SELECT DISTINCT activity_id FROM activity_result WHERE passed = 1")
-    fun completedActivityIds(): Flow<List<String>>
+    abstract fun completedActivityIds(): Flow<List<String>>
+
+    @Query(
+        "SELECT activity_id, MIN(local_date) AS first_date, MAX(score) AS best_score " +
+            "FROM activity_result WHERE passed = 1 GROUP BY activity_id",
+    )
+    abstract suspend fun completions(): List<CompletionRow>
+
+    @Query("SELECT * FROM activity_result ORDER BY id")
+    abstract suspend fun all(): List<ActivityResultEntity>
+
+    @Query("DELETE FROM activity_result")
+    abstract suspend fun deleteAll()
+
+    @Insert
+    abstract suspend fun insertAll(results: List<ActivityResultEntity>)
+
+    /** Remplace tout l'historique (import d'une sauvegarde, réinitialisation). */
+    @Transaction
+    open suspend fun replaceAll(results: List<ActivityResultEntity>) {
+        deleteAll()
+        insertAll(results)
+    }
 }
 
 /**
@@ -62,7 +93,7 @@ abstract class ProgressDatabase : RoomDatabase() {
 }
 
 /** Accès à la progression ; les écritures continuent même si l'écran qui les demande se ferme. */
-class ProgressRepository(private val dao: ProgressDao) {
+class ProgressRepository(val dao: ProgressDao) {
     private val writes = CoroutineScope(SupervisorJob() + Dispatchers.IO)
 
     /** Ids des activités terminées (réussies au moins une fois). */
@@ -87,5 +118,10 @@ class ProgressRepository(private val dao: ProgressDao) {
             passed = passed,
         )
         writes.launch { dao.insert(entity) }
+    }
+
+    companion object {
+        /** Préfixe des séances de révision dans l'historique. */
+        const val REVIEW_PREFIX = "revision:"
     }
 }

@@ -5,35 +5,26 @@ import io.github.leroyjg.arabe.content.Chapter
 import io.github.leroyjg.arabe.content.Course
 import io.github.leroyjg.arabe.content.Level
 
-/** État d'une leçon (activité) dans le parcours. */
-enum class LessonState { LOCKED, AVAILABLE, COMPLETED }
+/** État d'une leçon (activité) dans le parcours. Rien n'est jamais verrouillé. */
+enum class LessonState { AVAILABLE, COMPLETED }
 
 /**
  * Progression dans un cours, à partir des activités terminées (réussies).
- * Le parcours est linéaire : une activité s'ouvre quand la précédente est terminée ; le chapitre
- * suivant s'ouvre donc quand le bilan (dernière activité du chapitre) est réussi.
+ * Toutes les leçons sont ouvertes : on fait ce qu'on veut, dans l'ordre qu'on veut. Le parcours
+ * propose seulement la suivante : la première leçon non terminée, dans l'ordre du cours.
  * Un id d'activité terminée qui n'existe plus dans le contenu est simplement ignoré.
  */
-class CourseProgress(
-    private val course: Course,
-    completed: Set<String>,
-    private val unlockAll: Boolean = false,
-) {
+class CourseProgress(private val course: Course, completed: Set<String>) {
     private val order: List<Activity> = course.activities
     private val completed: Set<String> = completed.filterTo(mutableSetOf()) { id -> order.any { it.id == id } }
-    private val indexOf: Map<String, Int> = order.withIndex().associate { (i, a) -> a.id to i }
 
-    fun state(activity: Activity): LessonState = when {
-        activity.id in completed -> LessonState.COMPLETED
-        unlockAll -> LessonState.AVAILABLE
-        else -> {
-            val i = indexOf[activity.id] ?: return LessonState.LOCKED
-            if (i == 0 || order[i - 1].id in completed) LessonState.AVAILABLE else LessonState.LOCKED
-        }
-    }
+    fun state(activity: Activity): LessonState =
+        if (activity.id in completed) LessonState.COMPLETED else LessonState.AVAILABLE
 
-    /** Prochaine activité à faire : la première non terminée et ouverte (null si tout est fini). */
-    val next: Activity? get() = order.firstOrNull { state(it) == LessonState.AVAILABLE }
+    fun isCompleted(activity: Activity): Boolean = activity.id in completed
+
+    /** Prochaine leçon proposée : la première non terminée (null si tout est fini). */
+    val next: Activity? = order.firstOrNull { it.id !in completed }
 
     fun completedIn(chapter: Chapter): Int = chapter.activities.count { it.id in completed }
 
@@ -43,4 +34,8 @@ class CourseProgress(
 
     /** Avancement du niveau, de 0 à 1. */
     fun fraction(level: Level): Float = totalIn(level).let { if (it == 0) 0f else completedIn(level).toFloat() / it }
+
+    /** Avancement du chapitre, de 0 à 1. */
+    fun fraction(chapter: Chapter): Float =
+        chapter.activities.size.let { if (it == 0) 0f else completedIn(chapter).toFloat() / it }
 }
