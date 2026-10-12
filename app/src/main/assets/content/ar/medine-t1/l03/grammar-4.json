@@ -14,7 +14,7 @@
         { "type": "example", "ar": "الْقَمَرُ", "fr": "la lune (« al-qamaru »)" },
         { "type": "example", "ar": "الْكِتَابُ", "fr": "le livre (« al-kitābu »)" },
         { "type": "example", "ar": "الْبَيْتُ", "fr": "la maison (« al-baytu »)" },
-        { "type": "paragraph", "text": "Il y a **14 lettres lunaires**. Le mot {ar|الْقَمَرُ} (la lune), qui leur donne leur nom, commence par l'une d'elles." },
+        { "type": "paragraph", "text": "Il y a **14 lettres lunaires**. Le mot {ar|قَمَرٌ} (lune), qui leur donne leur nom, commence par l'une d'elles." },
         {
           "type": "table",
           "header": ["Lettre", "Exemple", "Français"],
@@ -51,7 +51,7 @@
       "id": "medine-t1.l03.grammar-4#4",
       "type": "question",
       "prompt": { "fr": "Devant une lettre lunaire, le lām de l'article porte…" },
-      "choices": [ { "fr": "un sukūn ({ar|لْ})" }, { "fr": "une shadda ({ar|لّ})" }, { "fr": "un tanwin" } ],
+      "choices": [ { "fr": "un sukūn ({ar|◌ْ})" }, { "fr": "une shadda ({ar|◌ّ})" }, { "fr": "un tanwin" } ],
       "answer": 0
     },
     {

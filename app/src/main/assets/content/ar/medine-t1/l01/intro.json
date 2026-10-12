@@ -38,7 +38,8 @@
             ["{ar|الْيَوْمُ}", "un moment (aujourd'hui)"],
             ["{ar|كِتَابَةٌ}", "une action (l'écriture)"]
           ]
-        }
+        },
+        { "type": "paragraph", "text": "Contrairement au verbe, le nom n'est pas lié à un temps : {ar|كِتَابَةٌ} (l'écriture) désigne une action, mais ne dit pas quand elle a lieu." }
       ]
     },
     { "id": "medine-t1.l01.intro#4", "type": "present", "item": "w:fil" },
@@ -48,13 +49,13 @@
       "title": "Le verbe : {ar|الْفِعْلُ}",
       "blocks": [
         { "type": "example", "ar": "مَا يَدُلُّ عَلَى حَدَثٍ وَزَمَانٍ", "fr": "Ce qui indique une action et un temps." },
-        { "type": "paragraph", "text": "Le verbe a **trois temps** ({ar|أَزْمِنَةُ الْفِعْلِ ثَلَاثَةٌ}) :" },
+        { "type": "paragraph", "text": "Il y a **trois sortes de verbes** ({ar|أَقْسَامُ الْفِعْلِ ثَلَاثَةٌ}), selon le temps :" },
         {
           "type": "table",
           "header": ["Arabe", "Français"],
           "rows": [
             ["{ar|الْمَاضِي}", "le passé"],
-            ["{ar|الْمُضَارِعُ}", "le présent"],
+            ["{ar|الْمُضَارِعُ}", "le présent ou le futur"],
             ["{ar|الْأَمْرُ}", "l'impératif (l'ordre)"]
           ]
         }
@@ -96,22 +97,22 @@
       "type": "true_false",
       "statement": { "fr": "La particule a un sens à elle seule." },
       "answer": false,
-      "explain": "C'est le nom qui a un sens à lui seul. La particule a besoin d'un autre mot."
+      "explain": "La particule n'a de sens qu'avec un autre mot (un nom ou un verbe). Le nom, lui, a un sens à lui seul."
     },
     {
       "id": "medine-t1.l01.intro#12",
       "type": "question",
       "prompt": { "fr": "Que signifie {ar|الْمَاضِي} ?" },
-      "choices": [ { "fr": "le passé" }, { "fr": "le présent" }, { "fr": "l'impératif" } ],
+      "choices": [ { "fr": "le passé" }, { "fr": "le présent ou le futur" }, { "fr": "l'impératif" } ],
       "answer": 0
     },
     {
       "id": "medine-t1.l01.intro#13",
       "type": "question",
-      "prompt": { "fr": "Le mot {ar|كِتَابَةٌ} (l'écriture) désigne une action. C'est pourtant…" },
+      "prompt": { "fr": "Le mot {ar|كِتَابَةٌ} (l'écriture) désigne une action. Quelle sorte de mot est-ce ?" },
       "choices": [ { "ar": "اِسْمٌ" }, { "ar": "فِعْلٌ" }, { "ar": "حَرْفٌ" } ],
       "answer": 0,
-      "explain": "Un nom peut désigner une action : il n'indique pas de temps, contrairement au verbe."
+      "explain": "C'est un nom ({ar|اِسْمٌ}) : il désigne une action sans dire quand elle a lieu, contrairement au verbe."
     }
   ]
 }

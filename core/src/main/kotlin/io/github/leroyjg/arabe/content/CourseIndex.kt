@@ -39,7 +39,8 @@ class CourseIndex(val course: Course) {
 
     /**
      * Candidats aux distracteurs automatiques d'un QCM, par ordre de priorité : déjà présentés,
-     * même sorte (mot / phrase), sans doublon de traduction ni de texte arabe, d'abord dans la même
+     * même sorte (mot / phrase), sans doublon de traduction ni de texte arabe (ni de texte qui ne
+     * diffère que par le démonstratif, voir [ArabicScript.distractorKey]), d'abord dans la même
      * activité, puis le même chapitre, puis le même niveau. Chaque palier est une liste distincte,
      * que l'app mélange.
      */
@@ -70,11 +71,11 @@ class CourseIndex(val course: Course) {
         // Sans doublon de traduction ni de texte arabe, ni entre eux ni avec la bonne réponse ;
         // en cas de doublon, l'élément du palier le plus prioritaire est gardé.
         val seenFr = mutableSetOf(target.fr)
-        val seenAr = mutableSetOf(ArabicScript.lettersOnly(target.ar))
+        val seenAr = mutableSetOf(ArabicScript.distractorKey(target.ar))
         return listOf(activityTier, chapterTier, levelTier)
             .map { tier ->
                 tier.filter { item ->
-                    val letters = ArabicScript.lettersOnly(item.ar)
+                    val letters = ArabicScript.distractorKey(item.ar)
                     (item.fr !in seenFr && letters !in seenAr).also {
                         if (it) {
                             seenFr += item.fr

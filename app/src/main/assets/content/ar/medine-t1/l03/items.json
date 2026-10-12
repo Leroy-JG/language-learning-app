@@ -6,7 +6,7 @@
     "fr": "un nom indéfini",
     "translit": "nakiratun",
     "gender": "f",
-    "note": "Nom qui désigne une chose quelconque, non précisée. Son signe est le plus souvent le tanwin : {ar|كِتَابٌ}."
+    "note": "Nom qui ne désigne rien de précis (un livre parmi d'autres). Son signe est le plus souvent le tanwin : {ar|كِتَابٌ}."
   },
   {
     "id": "w:marifa",
@@ -15,7 +15,7 @@
     "fr": "un nom défini",
     "translit": "maʿrifatun",
     "gender": "f",
-    "note": "Nom qui désigne une chose précise : un nom avec l'article ({ar|الْكِتَابُ}) ou un nom démonstratif ({ar|هٰذَا})."
+    "note": "Nom qui désigne une chose précise, par exemple un nom avec l'article ({ar|الْكِتَابُ}) ou un nom démonstratif ({ar|هٰذَا})."
   },
   {
     "id": "w:al",

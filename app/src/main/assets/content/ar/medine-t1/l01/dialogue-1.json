@@ -28,7 +28,7 @@
       "id": "medine-t1.l01.dialogue-1#2",
       "type": "question",
       "context": { "dialogue": "medine-t1.l01.dialogue-1#1" },
-      "prompt": { "fr": "Qu'est-ce que Ḥāmid montre en premier ?" },
+      "prompt": { "fr": "Quelle est la première chose sur laquelle Yāsir pose une question ?" },
       "choices": [ { "fr": "Une maison" }, { "fr": "Une mosquée" }, { "fr": "Une porte" } ],
       "answer": 0
     },

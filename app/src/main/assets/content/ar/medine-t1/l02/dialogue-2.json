@@ -43,7 +43,7 @@
       "id": "medine-t1.l02.dialogue-2#4",
       "type": "question",
       "context": { "dialogue": "medine-t1.l02.dialogue-2#1" },
-      "prompt": { "fr": "Qui Ḥāmid montre-t-il à la fin ?" },
+      "prompt": { "fr": "Qui est la personne là-bas, à la fin du dialogue ?" },
       "choices": [ { "ar": "طَالِبٌ" }, { "ar": "إِمَامٌ" }, { "ar": "مُدَرِّسٌ" } ],
       "answer": 0
     },

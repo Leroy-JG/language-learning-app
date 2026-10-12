@@ -6,7 +6,7 @@
   "screens": [
     { "id": "medine-t1.l03.vocab-2#1", "type": "present", "item": "w:maa" },
     { "id": "medine-t1.l03.vocab-2#2", "type": "present", "item": "w:khubz" },
-    { "id": "medine-t1.l03.vocab-2#3", "type": "mcq", "mode": "icon-ar", "item": "w:khubz" },
+    { "id": "medine-t1.l03.vocab-2#3", "type": "mcq", "mode": "icon-ar", "item": "w:khubz", "distractors": ["w:maa", "w:laban"] },
     { "id": "medine-t1.l03.vocab-2#4", "type": "present", "item": "w:ghadaa" },
     { "id": "medine-t1.l03.vocab-2#5", "type": "present", "item": "w:hawaa" },
     { "id": "medine-t1.l03.vocab-2#6", "type": "mcq", "mode": "ar-fr", "item": "w:maa" },

@@ -21,9 +21,9 @@
     {
       "id": "medine-t1.l01.grammar-3#2",
       "type": "tip",
-      "title": "Résumé : les trois mots pour interroger",
+      "title": "Résumé : trois mots pour interroger",
       "blocks": [
-        { "type": "paragraph", "text": "L'interrogation se dit {ar|الِاسْتِفْهَامُ}. Tu connais maintenant ses trois outils :" },
+        { "type": "paragraph", "text": "L'interrogation se dit {ar|الِاسْتِفْهَامُ}. Tu connais maintenant trois de ses outils (tu en découvriras d'autres) :" },
         {
           "type": "table",
           "header": ["Mot", "Nature", "Sens", "Pour…"],
@@ -77,7 +77,7 @@
       "ask": "question",
       "question": "مَنْ هٰذَا؟",
       "context": { "icon": "doctor" },
-      "answers": ["هٰذَا طَبِيبٌ."],
+      "answers": ["هٰذَا طَبِيبٌ.", "طَبِيبٌ."],
       "fr": "C'est un médecin."
     },
     {
@@ -116,7 +116,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Est-ce un cheval ?",
-      "answers": ["أَهٰذَا حِصَانٌ؟"]
+      "answers": ["أَهٰذَا حِصَانٌ؟", "أَحِصَانٌ هٰذَا؟"]
     }
   ]
 }

@@ -20,7 +20,7 @@
     {
       "id": "medine-t1.l03.vocab-4#9",
       "type": "question",
-      "prompt": { "fr": "{ar|الْعَيْنُ} commence par une lettre…" },
+      "prompt": { "fr": "Dans {ar|الْعَيْنُ}, l'article est suivi d'une lettre…" },
       "choices": [ { "fr": "lunaire : on prononce le lām" }, { "fr": "solaire : le lām ne se prononce pas" } ],
       "answer": 0,
       "shuffle": false
@@ -28,7 +28,7 @@
     {
       "id": "medine-t1.l03.vocab-4#10",
       "type": "question",
-      "prompt": { "fr": "{ar|الصَّدْرُ} commence par une lettre…" },
+      "prompt": { "fr": "Dans {ar|الصَّدْرُ}, l'article est suivi d'une lettre…" },
       "choices": [ { "fr": "lunaire : on prononce le lām" }, { "fr": "solaire : le lām ne se prononce pas" } ],
       "answer": 1,
       "shuffle": false

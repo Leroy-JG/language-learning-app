@@ -7,9 +7,9 @@
     {
       "id": "medine-t1.l02.recap#1",
       "type": "tip",
-      "title": "Les noms que tu connais",
+      "title": "Les noms « outils » que tu connais",
       "blocks": [
-        { "type": "paragraph", "text": "Dans le chapitre 1, tu as vu deux sortes de noms ({ar|اِسْمٌ}) :" },
+        { "type": "paragraph", "text": "En plus des noms de choses et de personnes ({ar|بَيْتٌ}, {ar|طَبِيبٌ}…), tu as vu dans le chapitre 1 deux sortes de noms particuliers ({ar|اِسْمٌ}) :" },
         {
           "type": "table",
           "header": ["Sorte de nom", "Mots"],
@@ -51,7 +51,7 @@
       "ask": "question",
       "question": "مَا هٰذَا؟",
       "context": { "icon": "key" },
-      "answers": ["هٰذَا مِفْتَاحٌ."],
+      "answers": ["هٰذَا مِفْتَاحٌ.", "مِفْتَاحٌ."],
       "fr": "C'est une clé."
     },
     {
@@ -61,6 +61,6 @@
       "choices": [ { "fr": "qui ? (une personne)" }, { "fr": "qu'est-ce que ? (une chose)" }, { "fr": "est-ce que ? (oui / non)" } ],
       "answer": 0
     },
-    { "id": "medine-t1.l02.recap#7", "type": "mcq", "mode": "icon-ar", "item": "w:hisan" }
+    { "id": "medine-t1.l02.recap#7", "type": "mcq", "mode": "icon-ar", "item": "w:hisan", "distractors": ["w:himar", "w:jamal"] }
   ]
 }

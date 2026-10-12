@@ -29,7 +29,7 @@
       "type": "question",
       "context": { "dialogue": "medine-t1.l03.dialogue-1#1" },
       "prompt": { "fr": "Qu'y a-t-il à manger ?" },
-      "choices": [ { "fr": "De la viande et du poisson" }, { "fr": "Du poisson et du sucre" }, { "fr": "Des fleurs et de l'eau" } ],
+      "choices": [ { "fr": "De la viande, du poisson et du pain" }, { "fr": "Du poisson et du sucre" }, { "fr": "Des fleurs et de l'eau" } ],
       "answer": 0
     },
     {
@@ -43,8 +43,8 @@
       "id": "medine-t1.l03.dialogue-1#4",
       "type": "question",
       "context": { "dialogue": "medine-t1.l03.dialogue-1#1" },
-      "prompt": { "fr": "Pourquoi la porte est-elle ouverte ?" },
-      "choices": [ { "fr": "Un invité arrive" }, { "fr": "La porte est cassée" }, { "fr": "Le père sort" } ],
+      "prompt": { "fr": "Yāsir remarque que la porte est ouverte. Que répond Ḥāmid ?" },
+      "choices": [ { "fr": "Là-bas, c'est un invité." }, { "fr": "La porte est cassée." }, { "fr": "Là-bas, c'est du pain." } ],
       "answer": 0
     },
     {

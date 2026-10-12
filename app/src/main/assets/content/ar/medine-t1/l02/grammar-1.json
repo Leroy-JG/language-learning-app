@@ -8,9 +8,9 @@
     {
       "id": "medine-t1.l02.grammar-1#2",
       "type": "tip",
-      "title": "Montrer quelque chose de loin",
+      "title": "Montrer ce qui est loin",
       "blocks": [
-        { "type": "paragraph", "text": "{ar|ذٰلِكَ} est, comme {ar|هٰذَا}, un **nom démonstratif** ({ar|اِسْمُ إِشَارَةٍ}). Il sert à montrer quelque chose de **loin**." },
+        { "type": "paragraph", "text": "{ar|ذٰلِكَ} est, comme {ar|هٰذَا}, un **nom démonstratif** ({ar|اِسْمُ إِشَارَةٍ}). Il sert à montrer ce qui est **loin**." },
         { "type": "example", "ar": "ذٰلِكَ كَلْبٌ.", "fr": "Cela est un chien." },
         { "type": "paragraph", "text": "Ce qu'il désigne **doit** être :" },
         {
@@ -31,15 +31,15 @@
       "blocks": [
         {
           "type": "table",
-          "header": ["Démonstratif", "Sens", "Pour une chose…"],
+          "header": ["Démonstratif", "Sens", "Ce qu'il désigne"],
           "rows": [
-            ["{ar|هٰذَا}", "ceci, celui-ci", "singulière, masculine, **proche** ({ar|قَرِيبٌ})"],
-            ["{ar|ذٰلِكَ}", "cela, celui-là", "singulière, masculine, **éloignée** ({ar|بَعِيدٌ})"]
+            ["{ar|هٰذَا}", "ceci, celui-ci", "singulier, masculin, **proche** ({ar|قَرِيبٌ})"],
+            ["{ar|ذٰلِكَ}", "cela, celui-là", "singulier, masculin, **éloigné** ({ar|بَعِيدٌ})"]
           ]
         },
         { "type": "example", "ar": "هٰذَا مَسْجِدٌ.", "fr": "Ceci est une mosquée." },
         { "type": "example", "ar": "ذٰلِكَ بَيْتٌ.", "fr": "Cela est une maison." },
-        { "type": "note", "text": "En français, on traduit souvent les deux par « c'est ». Dans les exercices, « ceci » correspond à {ar|هٰذَا} et « cela » à {ar|ذٰلِكَ}." }
+        { "type": "note", "text": "En français, on traduit souvent les deux par « c'est ». Dans les exercices, « ceci » ou « celui-ci » correspond à {ar|هٰذَا} ; « cela », « celui-là » ou « là-bas » à {ar|ذٰلِكَ}." }
       ]
     },
     {
@@ -54,7 +54,7 @@
           "rows": [
             ["{ar|ذٰلِكَ}", "avec un petit alif au-dessus de la première lettre"],
             ["{ar|ذَلِكَ}", "avec une fatha, sans petit alif"],
-            ["{ar|ذَالِكَ}", "c'est seulement la prononciation : on ne l'écrit **jamais** ainsi"]
+            ["{ar|ذَالِكَ}", "c'est seulement la prononciation ; on ne l'écrit **jamais** ainsi"]
           ]
         },
         { "type": "note", "text": "Quand tu écris au clavier, {ar|ذلك} suffit." }
@@ -86,9 +86,9 @@
     {
       "id": "medine-t1.l02.grammar-1#8",
       "type": "true_false",
-      "statement": { "fr": "{ar|ذٰلِكَ} s'emploie pour une chose proche." },
+      "statement": { "fr": "{ar|ذٰلِكَ} s'emploie pour ce qui est proche." },
       "answer": false,
-      "explain": "Pour une chose proche, on emploie {ar|هٰذَا}. {ar|ذٰلِكَ} désigne une chose éloignée ({ar|بَعِيدٌ})."
+      "explain": "Pour ce qui est proche, on emploie {ar|هٰذَا}. {ar|ذٰلِكَ} désigne ce qui est éloigné ({ar|بَعِيدٌ})."
     },
     {
       "id": "medine-t1.l02.grammar-1#9",
@@ -117,9 +117,9 @@
       "type": "question",
       "prompt": { "fr": "Que désigne {ar|ذٰلِكَ} ?" },
       "choices": [
-        { "fr": "une chose singulière, masculine et éloignée" },
-        { "fr": "une chose singulière, masculine et proche" },
-        { "fr": "plusieurs choses éloignées" }
+        { "fr": "ce qui est singulier, masculin et éloigné" },
+        { "fr": "ce qui est singulier, masculin et proche" },
+        { "fr": "plusieurs choses ou personnes éloignées" }
       ],
       "answer": 0
     }

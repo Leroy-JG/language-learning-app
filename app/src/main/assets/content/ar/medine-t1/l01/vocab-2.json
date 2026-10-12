@@ -6,7 +6,7 @@
   "screens": [
     { "id": "medine-t1.l01.vocab-2#1", "type": "present", "item": "w:miftah" },
     { "id": "medine-t1.l01.vocab-2#2", "type": "present", "item": "w:maktab" },
-    { "id": "medine-t1.l01.vocab-2#3", "type": "mcq", "mode": "ar-fr", "item": "w:miftah" },
+    { "id": "medine-t1.l01.vocab-2#3", "type": "mcq", "mode": "ar-fr", "item": "w:miftah", "distractors": ["w:maktab", "w:bab"] },
     { "id": "medine-t1.l01.vocab-2#4", "type": "present", "item": "w:sarir" },
     { "id": "medine-t1.l01.vocab-2#5", "type": "mcq", "mode": "icon-ar", "item": "w:sarir" },
     { "id": "medine-t1.l01.vocab-2#6", "type": "present", "item": "w:kursi" },

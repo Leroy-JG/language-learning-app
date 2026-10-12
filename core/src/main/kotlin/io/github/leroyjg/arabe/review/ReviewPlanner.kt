@@ -168,23 +168,29 @@ class ReviewPlanner(
     }
 
     /**
-     * Distracteurs d'un QCM de révision : même sorte (mot / phrase), d'abord du même chapitre, puis
-     * du même niveau, sans doublon de traduction ni de texte arabe (même sans harakat).
+     * Distracteurs d'un QCM de révision : même sorte (mot / phrase) si possible, d'abord du même chapitre, puis
+     * du même niveau, sans doublon de traduction ni de texte arabe (même sans harakat), ni de texte qui ne
+     * diffère que par le démonstratif.
      */
     internal fun distractors(target: Item, count: Int): List<Item> {
         val chapter = course.chapterOfItem(target.id)
-        val sameKind = course.chapters.flatMap { it.items }.filter { it.kind == target.kind && it.id != target.id }
-        val sameChapter = sameKind.filter { course.chapterOfItem(it.id) == chapter }.shuffled(random)
-        val sameLevel = sameKind.filter {
-            val c = course.chapterOfItem(it.id)
-            c != chapter && c?.levelId == chapter?.levelId
-        }.shuffled(random)
+        val all = course.chapters.flatMap { it.items }.filter { it.id != target.id }
+        fun tiers(items: List<Item>): List<Item> {
+            val sameChapter = items.filter { course.chapterOfItem(it.id) == chapter }.shuffled(random)
+            val sameLevel = items.filter {
+                val c = course.chapterOfItem(it.id)
+                c != chapter && c?.levelId == chapter?.levelId
+            }.shuffled(random)
+            return sameChapter + sameLevel
+        }
+        // Même sorte d'abord ; s'il n'y en a pas assez (peu de phrases), l'autre sorte complète.
+        val candidates = tiers(all.filter { it.kind == target.kind }) + tiers(all.filter { it.kind != target.kind })
         val seenFr = mutableSetOf(target.fr)
-        val seenAr = mutableSetOf(ArabicScript.lettersOnly(target.ar))
+        val seenAr = mutableSetOf(ArabicScript.distractorKey(target.ar))
         val picked = mutableListOf<Item>()
-        for (candidate in sameChapter + sameLevel) {
+        for (candidate in candidates) {
             if (picked.size >= count) break
-            val letters = ArabicScript.lettersOnly(candidate.ar)
+            val letters = ArabicScript.distractorKey(candidate.ar)
             if (candidate.fr in seenFr || letters in seenAr) continue
             seenFr += candidate.fr
             seenAr += letters

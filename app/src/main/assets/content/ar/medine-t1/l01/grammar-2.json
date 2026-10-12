@@ -26,6 +26,8 @@
         { "type": "example", "ar": "نَعَمْ، هٰذَا بَيْتٌ.", "fr": "Oui, c'est une maison." },
         { "type": "example", "ar": "أَهٰذَا سَرِيرٌ؟", "fr": "Est-ce un lit ?" },
         { "type": "example", "ar": "لَا، هٰذَا كُرْسِيٌّ.", "fr": "Non, c'est une chaise." },
+        { "type": "paragraph", "text": "On peut aussi placer le nom en premier : {ar|أَ} se colle alors au nom." },
+        { "type": "example", "ar": "أَبَيْتٌ هٰذَا؟", "fr": "Est-ce une maison ?" },
         {
           "type": "table",
           "header": ["Mot", "Nature", "Sens"],
@@ -52,7 +54,7 @@
       "ask": "question",
       "question": "مَا هٰذَا؟",
       "context": { "icon": "house" },
-      "answers": ["هٰذَا بَيْتٌ."],
+      "answers": ["هٰذَا بَيْتٌ.", "بَيْتٌ."],
       "fr": "C'est une maison."
     },
     {

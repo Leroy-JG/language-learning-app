@@ -11,7 +11,7 @@
       "type": "mcq",
       "mode": "ar-fr",
       "item": "p:ma-dhalika",
-      "distractors": ["p:man-dhalika", "p:ma-hadha"]
+      "distractors": ["p:man-dhalika", "p:man-hadha"]
     },
     { "id": "medine-t1.l02.vocab-1#4", "type": "present", "item": "w:wa" },
     {
@@ -39,6 +39,19 @@
       "punctuation": "."
     },
     {
+      "id": "medine-t1.l02.vocab-1#7b",
+      "type": "tip",
+      "title": "Questions sur ce qui est loin",
+      "blocks": [
+        { "type": "paragraph", "text": "Pour ce qui est loin, on pose les mêmes questions avec {ar|ذٰلِكَ}." },
+        { "type": "example", "ar": "مَا ذٰلِكَ؟", "fr": "Qu'est-ce que c'est, là-bas ?" },
+        { "type": "example", "ar": "مَنْ ذٰلِكَ؟", "fr": "Qui est-ce, là-bas ?" },
+        { "type": "paragraph", "text": "{ar|أَ} se colle aussi à {ar|ذٰلِكَ} : {ar|أَ} + {ar|ذٰلِكَ} → {ar|أَذٰلِكَ}." },
+        { "type": "example", "ar": "أَذٰلِكَ بَيْتٌ؟", "fr": "Est-ce une maison, là-bas ?" },
+        { "type": "example", "ar": "نَعَمْ، ذٰلِكَ بَيْتٌ.", "fr": "Oui, c'est une maison." }
+      ]
+    },
+    {
       "id": "medine-t1.l02.vocab-1#8",
       "type": "question",
       "instruction": "Réponds à la question.",
@@ -54,7 +67,7 @@
       "ask": "question",
       "question": "مَا ذٰلِكَ؟",
       "context": { "icon": "star" },
-      "answers": ["ذٰلِكَ نَجْمٌ."],
+      "answers": ["ذٰلِكَ نَجْمٌ.", "نَجْمٌ."],
       "fr": "Cela est une étoile."
     },
     {

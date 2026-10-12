@@ -42,4 +42,11 @@ class ArabicScriptTest {
         assertEquals("هذا بيت.", ArabicScript.withoutHarakat("هٰذَا بَيْتٌ."))
         assertEquals("هذابيت", ArabicScript.lettersOnly("هٰذَا بَيْتٌ."))
     }
+
+    @Test
+    fun `deux textes qui ne diffèrent que par le démonstratif ont la même clé de distracteur`() {
+        assertEquals(ArabicScript.distractorKey("مَا هٰذَا؟"), ArabicScript.distractorKey("مَا ذٰلِكَ؟"))
+        assertEquals(ArabicScript.distractorKey("هٰذَا"), ArabicScript.distractorKey("ذٰلِكَ"))
+        assertTrue(ArabicScript.distractorKey("مَنْ ذٰلِكَ؟") != ArabicScript.distractorKey("مَا ذٰلِكَ؟"))
+    }
 }

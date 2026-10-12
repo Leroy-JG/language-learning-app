@@ -30,7 +30,7 @@
       "type": "tip",
       "title": "Le signe de l'indéfini : le tanwin",
       "blocks": [
-        { "type": "paragraph", "text": "Dans la plupart des cas, l'indéfini se reconnaît au **tanwin** ({ar|التَّنْوِينُ}) : la voyelle finale est doublée et se prononce avec un « n »." },
+        { "type": "paragraph", "text": "Dans la plupart des cas, l'indéfini se reconnaît au **tanwin** ({ar|التَّنْوِينُ}) : le signe de la voyelle finale est écrit deux fois, et la voyelle se prononce suivie d'un « n »." },
         {
           "type": "table",
           "header": ["Tanwin", "Exemple", "Se prononce"],
@@ -50,7 +50,7 @@
       "title": "Le défini : {ar|الْمَعْرِفَةُ}",
       "blocks": [
         { "type": "paragraph", "text": "Le défini désigne une chose **précise**, déterminée parmi ses semblables. Lui aussi s'emploie au masculin et au féminin, au singulier et au pluriel." },
-        { "type": "paragraph", "text": "Il en existe plusieurs sortes ({ar|الْمَعَارِفُ}). Tu en connais maintenant deux :" },
+        { "type": "paragraph", "text": "Les noms définis ({ar|الْمَعَارِفُ}) sont de plusieurs sortes. Dans ce chapitre, tu en vois deux :" },
         {
           "type": "table",
           "header": ["Sorte", "Exemples"],
@@ -67,7 +67,7 @@
       "prompt": { "fr": "Lequel de ces mots est **indéfini** ({ar|نَكِرَةٌ}) ?" },
       "choices": [ { "ar": "كِتَابٌ" }, { "ar": "الْكِتَابُ" }, { "ar": "ذٰلِكَ" } ],
       "answer": 0,
-      "explain": "{ar|كِتَابٌ} porte le tanwin : c'est « un livre »."
+      "explain": "{ar|كِتَابٌ} porte le tanwin ({ar|◌ٌ}) : c'est « un livre »."
     },
     {
       "id": "medine-t1.l03.grammar-1#8",

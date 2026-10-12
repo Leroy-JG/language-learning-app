@@ -6,8 +6,8 @@
   "screens": [
     { "id": "medine-t1.l02.vocab-2#1", "type": "present", "item": "w:imam" },
     { "id": "medine-t1.l02.vocab-2#2", "type": "present", "item": "w:hajar" },
-    { "id": "medine-t1.l02.vocab-2#3", "type": "mcq", "mode": "ar-fr", "item": "w:imam" },
-    { "id": "medine-t1.l02.vocab-2#4", "type": "mcq", "mode": "icon-ar", "item": "w:hajar" },
+    { "id": "medine-t1.l02.vocab-2#3", "type": "mcq", "mode": "ar-fr", "item": "w:imam", "distractors": ["w:hajar", "w:mudarris"] },
+    { "id": "medine-t1.l02.vocab-2#4", "type": "mcq", "mode": "icon-ar", "item": "w:hajar", "distractors": ["w:imam", "w:najm"] },
     { "id": "medine-t1.l02.vocab-2#5", "type": "present", "item": "w:sukkar" },
     { "id": "medine-t1.l02.vocab-2#6", "type": "present", "item": "w:laban" },
     { "id": "medine-t1.l02.vocab-2#7", "type": "mcq", "mode": "icon-ar", "item": "w:laban" },

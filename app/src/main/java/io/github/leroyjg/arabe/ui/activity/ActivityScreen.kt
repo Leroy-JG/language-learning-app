@@ -326,10 +326,16 @@ private fun PlayerTopBar(progress: Float, combo: Int, onClose: () -> Unit) {
             gapSize = 0.dp,
             drawStopIndicator = {},
         )
-        Box(Modifier.width(64.dp), contentAlignment = Alignment.Center) {
-            AnimatedVisibility(visible = combo >= 2, enter = scaleIn(spring(dampingRatio = 0.4f)) + fadeIn(), exit = scaleOut() + fadeOut()) {
-                ComboBadge(combo)
-            }
+        ComboSlot(combo)
+    }
+}
+
+/** Place de la série à droite de la barre (fonction à part : hors de la portée de la ligne). */
+@Composable
+private fun ComboSlot(combo: Int) {
+    Box(Modifier.width(64.dp), contentAlignment = Alignment.Center) {
+        AnimatedVisibility(visible = combo >= 2, enter = scaleIn(spring(dampingRatio = 0.4f)) + fadeIn(), exit = scaleOut() + fadeOut()) {
+            ComboBadge(combo)
         }
     }
 }

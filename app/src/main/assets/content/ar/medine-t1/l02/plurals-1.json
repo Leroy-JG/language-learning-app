@@ -19,7 +19,7 @@
             ["{ar|سُكَّرٌ}", "{ar|سُكَّرٌ}", "sucre"]
           ]
         },
-        { "type": "note", "text": "{ar|سُكَّرٌ} garde la même forme au pluriel." }
+        { "type": "note", "text": "{ar|سُكَّرٌ} est un nom de matière (« du sucre ») : il garde la même forme au pluriel. Le pluriel {ar|أَلْبَانٌ} désigne plusieurs sortes de lait." }
       ]
     },
     {
@@ -46,7 +46,8 @@
       "id": "medine-t1.l02.plurals-1#5",
       "type": "true_false",
       "statement": { "fr": "Le pluriel de {ar|سُكَّرٌ} a la même forme que le singulier." },
-      "answer": true
+      "answer": true,
+      "explain": "C'est un nom de matière : on dit {ar|سُكَّرٌ} pour un peu comme pour beaucoup de sucre."
     },
     {
       "id": "medine-t1.l02.plurals-1#6",

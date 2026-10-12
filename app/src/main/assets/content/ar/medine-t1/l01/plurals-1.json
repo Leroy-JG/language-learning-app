@@ -1,7 +1,7 @@
 {
   "id": "medine-t1.l01.plurals-1",
   "type": "vocabulary",
-  "title": "Les pluriels des objets",
+  "title": "Pluriels : lieux et objets",
   "icon": "book",
   "screens": [
     {
@@ -9,7 +9,7 @@
       "type": "tip",
       "title": "Singulier et pluriel",
       "blocks": [
-        { "type": "paragraph", "text": "Chaque nom a un singulier ({ar|مُفْرَدٌ}) et un pluriel ({ar|جَمْعٌ}). En arabe, le pluriel change souvent la forme du mot : on l'apprend avec le mot." },
+        { "type": "paragraph", "text": "Un nom a un singulier ({ar|مُفْرَدٌ}) et un pluriel ({ar|جَمْعٌ}) ; l'arabe a aussi un duel, pour deux, que tu verras plus tard. Le pluriel change souvent la forme du mot : on l'apprend avec le mot." },
         {
           "type": "table",
           "header": ["Singulier", "Pluriel", "Français"],
@@ -25,6 +25,7 @@
             ["{ar|قَلَمٌ}", "{ar|أَقْلَامٌ}", "stylo"]
           ]
         },
+        { "type": "note", "text": "Certains pluriels ne prennent jamais de tanwin, même quand ils sont indéfinis : {ar|مَسَاجِدُ} (des mosquées), {ar|مَفَاتِيحُ} (des clés), {ar|مَكَاتِبُ} (des bureaux), {ar|كَرَاسِيُّ} (des chaises). Tu étudieras ces noms plus tard." },
         { "type": "note", "text": "{ar|هٰذَا} ne s'emploie qu'avec un singulier. Les pluriels sont ici pour enrichir ton vocabulaire : tu apprendras plus tard à les utiliser dans des phrases." }
       ]
     },

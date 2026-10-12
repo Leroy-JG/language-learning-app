@@ -298,6 +298,12 @@ class Validator(
                     if (shown.any { it.id == item.id || it.fr == item.fr || letters(it.ar) == letters(item.ar) }) {
                         err(w, "distracteur en double ou équivalent à la réponse : $d")
                     }
+                    // En traduction, هٰذَا et ذٰلِكَ se rendent souvent tous deux par « c'est » : un choix qui ne
+                    // diffère de la réponse que par le démonstratif pourrait aussi être juste.
+                    val translating = screen.mode == McqMode.AR_FR || screen.mode == McqMode.FR_AR
+                    if (translating && ArabicScript.distractorKey(target.ar) == ArabicScript.distractorKey(item.ar)) {
+                        err(w, "distracteur qui ne diffère de la réponse que par le démonstratif : $d")
+                    }
                     shown += item
                 }
             } else if (index.distractorTiers(target, screen.id).sumOf { it.size } < 2) {

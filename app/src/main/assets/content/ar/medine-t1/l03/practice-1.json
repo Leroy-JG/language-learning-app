@@ -9,7 +9,7 @@
       "type": "tip",
       "title": "Lis et écoute",
       "blocks": [
-        { "type": "paragraph", "text": "Voici des mots tirés de l'exercice du livre. Pour chacun, regarde la lettre qui suit l'article : si elle porte une **shadda**, elle est solaire et le lām ne se prononce pas." },
+        { "type": "paragraph", "text": "Voici des mots tirés de l'exercice du livre. Lis chaque mot et écoute-le : la lettre qui suit l'article est-elle lunaire ou solaire ? Dans un texte vocalisé, une **shadda** sur cette lettre confirme qu'elle est solaire : le lām ne se prononce pas." },
         { "type": "note", "text": "Tu ne connais pas encore tous ces mots : leur sens est donné dans la correction." }
       ]
     },
@@ -134,18 +134,24 @@
       "explain": "{ar|م} est lunaire : « al-maghribu » (le coucher du soleil, la prière du maghrib)."
     },
     {
-      "id": "medine-t1.l03.practice-1#14",
-      "type": "typing",
-      "ask": "audio",
-      "fr": "la prière",
-      "answers": ["الصَّلَاةُ"]
+      "id": "medine-t1.l03.practice-1#16",
+      "type": "question",
+      "instruction": "Le lām de l'article se prononce-t-il ?",
+      "prompt": { "ar": "الصَّلَاةُ" },
+      "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|ص} est solaire : « aṣ-ṣalātu » (la prière)."
     },
     {
-      "id": "medine-t1.l03.practice-1#15",
-      "type": "typing",
-      "ask": "audio",
-      "fr": "le Coran",
-      "answers": ["الْقُرْآنُ"]
+      "id": "medine-t1.l03.practice-1#17",
+      "type": "question",
+      "instruction": "Le lām de l'article se prononce-t-il ?",
+      "prompt": { "ar": "الْقُرْآنُ" },
+      "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|ق} est lunaire : « al-qurʾānu » (le Coran)."
     }
   ]
 }

@@ -30,7 +30,7 @@
       "id": "medine-t1.l01.dialogue-2#2",
       "type": "question",
       "context": { "dialogue": "medine-t1.l01.dialogue-2#1" },
-      "prompt": { "fr": "Qui Ḥāmid montre-t-il en premier ?" },
+      "prompt": { "fr": "Selon Ḥāmid, qui est la première personne ?" },
       "choices": [ { "fr": "Un commerçant" }, { "fr": "Un médecin" }, { "fr": "Un enseignant" } ],
       "answer": 0
     },

@@ -9,7 +9,7 @@
       "type": "tip",
       "title": "Les mots que tu connais",
       "blocks": [
-        { "type": "paragraph", "text": "Voici comment se classent les mots outils que tu as appris :" },
+        { "type": "paragraph", "text": "Voici où se rangent, parmi les trois sortes de mots, ceux que tu as appris pour montrer et pour interroger :" },
         {
           "type": "table",
           "header": ["Catégorie", "Sorte", "Mots"],
@@ -47,7 +47,7 @@
       "id": "medine-t1.l02.grammar-2#5",
       "type": "question",
       "context": { "icon": "teacher" },
-      "prompt": { "fr": "Cet enseignant est loin de toi. Quelle question poses-tu ?" },
+      "prompt": { "fr": "Une personne est loin de toi. Tu veux savoir qui c'est : quelle question poses-tu ?" },
       "choices": [ { "ar": "مَنْ ذٰلِكَ؟" }, { "ar": "مَا ذٰلِكَ؟" }, { "ar": "مَنْ هٰذَا؟" } ],
       "answer": 0,
       "explain": "C'est une personne ({ar|مَنْ}) et elle est loin ({ar|ذٰلِكَ})."
@@ -56,10 +56,10 @@
       "id": "medine-t1.l02.grammar-2#6",
       "type": "question",
       "context": { "icon": "camel" },
-      "prompt": { "fr": "Ce chameau est loin de toi. Quelle question poses-tu ?" },
+      "prompt": { "fr": "Un animal est loin de toi. Tu veux savoir ce que c'est : quelle question poses-tu ?" },
       "choices": [ { "ar": "مَا ذٰلِكَ؟" }, { "ar": "مَنْ ذٰلِكَ؟" }, { "ar": "مَا هٰذَا؟" } ],
       "answer": 0,
-      "explain": "Le chameau n'est pas doué de raison ({ar|مَا}) et il est loin ({ar|ذٰلِكَ})."
+      "explain": "Un animal n'est pas doué de raison ({ar|مَا}) et il est loin ({ar|ذٰلِكَ})."
     },
     {
       "id": "medine-t1.l02.grammar-2#7",
@@ -89,7 +89,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Est-ce un chien, là-bas ?",
-      "answers": ["أَذٰلِكَ كَلْبٌ؟"]
+      "answers": ["أَذٰلِكَ كَلْبٌ؟", "أَكَلْبٌ ذٰلِكَ؟"]
     }
   ]
 }

@@ -3,9 +3,9 @@
   "type": "quiz",
   "title": "Bilan du chapitre 1",
   "screens": [
-    { "id": "medine-t1.l01.quiz#1", "type": "mcq", "mode": "icon-ar", "item": "w:miftah" },
-    { "id": "medine-t1.l01.quiz#2", "type": "mcq", "mode": "ar-fr", "item": "w:tajir" },
-    { "id": "medine-t1.l01.quiz#3", "type": "mcq", "mode": "audio-ar", "item": "w:mindil" },
+    { "id": "medine-t1.l01.quiz#1", "type": "mcq", "mode": "icon-ar", "item": "w:miftah", "distractors": ["w:qalam", "w:sarir"] },
+    { "id": "medine-t1.l01.quiz#2", "type": "mcq", "mode": "ar-fr", "item": "w:tajir", "distractors": ["w:talib", "w:mudarris"] },
+    { "id": "medine-t1.l01.quiz#3", "type": "mcq", "mode": "audio-ar", "item": "w:mindil", "distractors": ["w:miftah", "w:masjid"] },
     {
       "id": "medine-t1.l01.quiz#4",
       "type": "match",
@@ -50,15 +50,15 @@
       "ask": "question",
       "question": "مَا هٰذَا؟",
       "context": { "icon": "dog" },
-      "answers": ["هٰذَا كَلْبٌ."],
+      "answers": ["هٰذَا كَلْبٌ.", "كَلْبٌ."],
       "fr": "C'est un chien."
     },
     {
       "id": "medine-t1.l01.quiz#11",
       "type": "true_false",
-      "statement": { "fr": "{ar|هٰذَا} s'utilise pour montrer une chose lointaine." },
+      "statement": { "fr": "{ar|هٰذَا} s'utilise pour montrer ce qui est loin." },
       "answer": false,
-      "explain": "{ar|هٰذَا} désigne une chose proche ({ar|قَرِيبٌ})."
+      "explain": "{ar|هٰذَا} désigne ce qui est proche ({ar|قَرِيبٌ})."
     },
     {
       "id": "medine-t1.l01.quiz#12",

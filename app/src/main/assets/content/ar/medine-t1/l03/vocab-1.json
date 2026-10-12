@@ -1,7 +1,7 @@
 {
   "id": "medine-t1.l03.vocab-1",
   "type": "vocabulary",
-  "title": "Ouvert, cassé, assis, debout",
+  "title": "Ouvert, cassé, neuf, assis, debout",
   "icon": "door",
   "screens": [
     { "id": "medine-t1.l03.vocab-1#1", "type": "present", "item": "w:maftuh" },
@@ -32,7 +32,6 @@
     {
       "id": "medine-t1.l03.vocab-1#9",
       "type": "question",
-      "context": { "icon": "door" },
       "prompt": { "fr": "Comment dit-on « La porte est ouverte » ?" },
       "choices": [ { "ar": "الْبَابُ مَفْتُوحٌ." }, { "ar": "الْبَابُ مَكْسُورٌ." }, { "ar": "الْبَابُ جَدِيدٌ." } ],
       "answer": 0

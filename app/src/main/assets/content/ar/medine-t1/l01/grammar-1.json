@@ -22,7 +22,7 @@
             ["{ar|قَرِيبٌ}", "proche"]
           ]
         },
-        { "type": "note", "text": "Tous les noms de ce chapitre sont masculins en arabe, même quand leur traduction française est féminine : {ar|بَيْتٌ} (une maison), {ar|مَسْجِدٌ} (une mosquée), {ar|كُرْسِيٌّ} (une chaise)…" }
+        { "type": "note", "text": "Les noms de choses, de lieux, de personnes et d'animaux de ce chapitre sont tous masculins en arabe, même quand leur traduction française est féminine : {ar|بَيْتٌ} (une maison), {ar|مَسْجِدٌ} (une mosquée), {ar|كُرْسِيٌّ} (une chaise)…" }
       ]
     },
     {
@@ -30,8 +30,8 @@
       "type": "tip",
       "title": "Pas de verbe « être »",
       "blocks": [
-        { "type": "paragraph", "text": "Au présent, l'arabe n'utilise pas de verbe « être » : {ar|هٰذَا بَيْتٌ} se dit mot à mot « ceci maison », et signifie « Ceci est une maison »." },
-        { "type": "paragraph", "text": "La double damma finale ({ar|◌ٌ}, le **tanwin**) se prononce « -un » et correspond à « un / une »." },
+        { "type": "paragraph", "text": "Au présent, l'arabe n'utilise pas de verbe « être » : {ar|هٰذَا بَيْتٌ} se dit mot à mot « ceci (une) maison », et signifie « Ceci est une maison »." },
+        { "type": "paragraph", "text": "La double damma finale ({ar|◌ٌ}, le **tanwin**) se prononce « -un » et correspond à « un / une » (au pluriel : « des »)." },
         { "type": "example", "ar": "هٰذَا بَيْتٌ.", "fr": "Ceci est une maison." },
         { "type": "example", "ar": "هٰذَا قَلَمٌ.", "fr": "Ceci est un stylo." }
       ]
@@ -96,11 +96,11 @@
     {
       "id": "medine-t1.l01.grammar-1#10",
       "type": "question",
-      "prompt": { "fr": "{ar|هٰذَا} sert à montrer une chose…" },
+      "prompt": { "fr": "{ar|هٰذَا} sert à désigner ce qui est…" },
       "choices": [
-        { "fr": "singulière, masculine et proche" },
-        { "fr": "plurielle et lointaine" },
-        { "fr": "féminine et proche" }
+        { "fr": "singulier, masculin et proche" },
+        { "fr": "pluriel et lointain" },
+        { "fr": "féminin et proche" }
       ],
       "answer": 0
     },

@@ -61,7 +61,7 @@
       "type": "true_false",
       "statement": { "fr": "Avec l'article, le nom garde son tanwin." },
       "answer": false,
-      "explain": "Le nom perd son tanwin : {ar|كِتَابٌ} → {ar|الْكِتَابُ}."
+      "explain": "Le nom perd son tanwin ({ar|◌ٌ} devient {ar|◌ُ}) : {ar|كِتَابٌ} → {ar|الْكِتَابُ}."
     },
     {
       "id": "medine-t1.l03.grammar-2#8",

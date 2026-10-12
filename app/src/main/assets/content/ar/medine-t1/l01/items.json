@@ -6,7 +6,7 @@
     "fr": "un nom (sorte de mot)",
     "translit": "ismun",
     "gender": "m",
-    "note": "Ce qui indique un sens à lui seul : une personne, un lieu, un moment, une action…"
+    "note": "Mot qui a un sens à lui seul, sans être lié à un temps comme le verbe : il désigne une personne, un lieu, un moment, une action…"
   },
   {
     "id": "w:fil",
@@ -15,7 +15,7 @@
     "fr": "un verbe",
     "translit": "fiʿlun",
     "gender": "m",
-    "note": "Ce qui indique une action et un temps (passé, présent ou impératif)."
+    "note": "Ce qui indique une action et un temps : passé, présent ou futur, impératif."
   },
   {
     "id": "w:harf",
@@ -24,7 +24,7 @@
     "fr": "une particule",
     "translit": "ḥarfun",
     "gender": "m",
-    "note": "Ce qui ne prend son sens qu'avec un autre mot (un nom ou un verbe)."
+    "note": "Ce qui ne prend son sens qu'avec un autre mot (un nom ou un verbe). Le même mot {ar|حَرْفٌ} veut aussi dire « lettre »."
   },
   {
     "id": "w:bayt",
@@ -68,7 +68,7 @@
     "plural": "كُتُبٌ",
     "icon": "book",
     "gender": "m",
-    "note": "La double damma finale ({ar|◌ٌ}, le tanwin) se prononce « -un » et correspond à « un / une ».",
+    "note": "La double damma finale ({ar|◌ٌ}, le tanwin) se prononce « -un » et correspond à « un / une » (au pluriel : « des »).",
     "example": { "ar": "هٰذَا كِتَابٌ.", "fr": "Ceci est un livre." }
   },
   {
@@ -91,6 +91,7 @@
     "plural": "مَفَاتِيحُ",
     "icon": "key",
     "gender": "m",
+    "note": "On trouve aussi le pluriel {ar|مَفَاتِحُ}.",
     "example": { "ar": "هٰذَا مِفْتَاحُ الْبَيْتِ.", "fr": "Ceci est la clé de la maison." }
   },
   {
@@ -131,7 +132,7 @@
     "ar": "هٰذَا",
     "fr": "ceci, celui-ci (proche)",
     "translit": "hādhā",
-    "note": "Nom démonstratif ({ar|اِسْمُ إِشَارَةٍ}) pour une seule chose, masculine et proche.",
+    "note": "Nom démonstratif ({ar|اِسْمُ إِشَارَةٍ}) pour ce qui est singulier, masculin et proche.",
     "example": { "ar": "هٰذَا مَسْجِدٌ.", "fr": "Ceci est une mosquée." }
   },
   {

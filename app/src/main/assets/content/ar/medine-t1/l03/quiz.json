@@ -17,8 +17,8 @@
       "choices": [ { "ar": "الْكِتَابُ" }, { "ar": "كُتُبٌ" }, { "ar": "الْكَلْبُ" } ],
       "answer": 0
     },
-    { "id": "medine-t1.l03.quiz#3", "type": "mcq", "mode": "icon-ar", "item": "w:shams" },
-    { "id": "medine-t1.l03.quiz#4", "type": "mcq", "mode": "ar-fr", "item": "w:maksur" },
+    { "id": "medine-t1.l03.quiz#3", "type": "mcq", "mode": "icon-ar", "item": "w:shams", "distractors": ["w:qamar", "w:najm"] },
+    { "id": "medine-t1.l03.quiz#4", "type": "mcq", "mode": "ar-fr", "item": "w:maksur", "distractors": ["w:maftuh", "w:jadid"] },
     {
       "id": "medine-t1.l03.quiz#5",
       "type": "match",
@@ -28,20 +28,20 @@
     {
       "id": "medine-t1.l03.quiz#6",
       "type": "question",
-      "instruction": "Le lām de l'article se prononce-t-il ?",
-      "prompt": { "ar": "الشَّمْسُ" },
+      "prompt": { "fr": "Dans {ar|الشَّمْسُ}, le lām de l'article se prononce-t-il ?" },
       "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
       "answer": 1,
-      "shuffle": false
+      "shuffle": false,
+      "explain": "{ar|ش} est une lettre solaire : on dit « ash-shamsu »."
     },
     {
       "id": "medine-t1.l03.quiz#7",
       "type": "question",
-      "instruction": "Le lām de l'article se prononce-t-il ?",
-      "prompt": { "ar": "الْقَمَرُ" },
+      "prompt": { "fr": "Dans {ar|الْقَمَرُ}, le lām de l'article se prononce-t-il ?" },
       "choices": [ { "fr": "Oui (lettre lunaire)" }, { "fr": "Non (lettre solaire)" } ],
       "answer": 0,
-      "shuffle": false
+      "shuffle": false,
+      "explain": "{ar|ق} est une lettre lunaire : on dit « al-qamaru »."
     },
     {
       "id": "medine-t1.l03.quiz#8",
@@ -100,6 +100,6 @@
       "choices": [ { "fr": "l'article défini" }, { "fr": "la particule interrogative" }, { "fr": "le nom démonstratif" } ],
       "answer": 0
     },
-    { "id": "medine-t1.l03.quiz#16", "type": "mcq", "mode": "audio-ar", "item": "w:yad" }
+    { "id": "medine-t1.l03.quiz#16", "type": "mcq", "mode": "audio-ar", "item": "w:yad", "distractors": ["w:ayn", "w:fam"] }
   ]
 }

@@ -3,8 +3,8 @@
   "type": "quiz",
   "title": "Bilan du chapitre 2",
   "screens": [
-    { "id": "medine-t1.l02.quiz#1", "type": "mcq", "mode": "icon-ar", "item": "w:laban" },
-    { "id": "medine-t1.l02.quiz#2", "type": "mcq", "mode": "ar-fr", "item": "w:hajar" },
+    { "id": "medine-t1.l02.quiz#1", "type": "mcq", "mode": "icon-ar", "item": "w:laban", "distractors": ["w:sukkar", "w:hajar"] },
+    { "id": "medine-t1.l02.quiz#2", "type": "mcq", "mode": "ar-fr", "item": "w:hajar", "distractors": ["w:imam", "w:laban"] },
     {
       "id": "medine-t1.l02.quiz#3",
       "type": "match",
@@ -47,7 +47,7 @@
       "ask": "question",
       "question": "مَنْ ذٰلِكَ؟",
       "context": { "icon": "doctor" },
-      "answers": ["ذٰلِكَ طَبِيبٌ."],
+      "answers": ["ذٰلِكَ طَبِيبٌ.", "طَبِيبٌ."],
       "fr": "Celui-là est un médecin."
     },
     {
@@ -88,6 +88,6 @@
       "choices": [ { "ar": "لَا، ذٰلِكَ قِطٌّ." }, { "ar": "نَعَمْ، ذٰلِكَ كَلْبٌ." } ],
       "answer": 0
     },
-    { "id": "medine-t1.l02.quiz#14", "type": "mcq", "mode": "audio-ar", "item": "w:imam" }
+    { "id": "medine-t1.l02.quiz#14", "type": "mcq", "mode": "audio-ar", "item": "w:imam", "distractors": ["w:laban", "w:hajar"] }
   ]
 }

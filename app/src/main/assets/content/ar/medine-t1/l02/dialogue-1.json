@@ -36,7 +36,7 @@
       "id": "medine-t1.l02.dialogue-1#3",
       "type": "true_false",
       "context": { "dialogue": "medine-t1.l02.dialogue-1#1" },
-      "statement": { "fr": "Ḥāmid montre une pierre à Yāsir." },
+      "statement": { "fr": "Quand Yāsir demande {ar|مَا ذٰلِكَ؟}, Ḥāmid répond que c'est une pierre." },
       "answer": true
     },
     {
@@ -51,7 +51,7 @@
       "id": "medine-t1.l02.dialogue-1#5",
       "type": "question",
       "context": { "dialogue": "medine-t1.l02.dialogue-1#1" },
-      "prompt": { "fr": "Pourquoi Yāsir dit-il {ar|ذٰلِكَ} et non {ar|هٰذَا} ?" },
+      "prompt": { "fr": "Dans ses questions suivantes, pourquoi Yāsir dit-il {ar|ذٰلِكَ} et non {ar|هٰذَا} ?" },
       "choices": [
         { "fr": "Parce que ce qu'il montre est loin" },
         { "fr": "Parce que c'est une personne" },

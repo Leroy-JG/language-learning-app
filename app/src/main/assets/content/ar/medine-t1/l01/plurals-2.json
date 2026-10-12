@@ -1,7 +1,7 @@
 {
   "id": "medine-t1.l01.plurals-2",
   "type": "vocabulary",
-  "title": "Les pluriels des personnes et des animaux",
+  "title": "Pluriels : personnes, animaux et choses",
   "icon": "horse",
   "screens": [
     {
@@ -30,7 +30,8 @@
             ["{ar|مِنْدِيلٌ}", "{ar|مَنَادِيلُ}", "mouchoir"]
           ]
         },
-        { "type": "note", "text": "{ar|مُدَرِّسُونَ} : certains pluriels se forment en ajoutant une terminaison au mot. La plupart, comme {ar|رِجَالٌ} ou {ar|كِلَابٌ}, changent sa forme." }
+        { "type": "note", "text": "{ar|مُدَرِّسُونَ} : certains pluriels se forment en ajoutant une terminaison au mot. D'autres, comme {ar|رِجَالٌ} ou {ar|كِلَابٌ}, changent la forme du mot : c'est le cas de presque tous les pluriels de ce chapitre." },
+        { "type": "note", "text": "Comme {ar|مَسَاجِدُ}, les pluriels {ar|أَطِبَّاءُ} (des médecins) et {ar|مَنَادِيلُ} (des mouchoirs) ne prennent jamais de tanwin." }
       ]
     },
     {

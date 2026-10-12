@@ -1,12 +1,12 @@
 {
   "id": "medine-t1.l01.vocab-5",
   "type": "vocabulary",
-  "title": "Les animaux",
+  "title": "Des animaux et un mouchoir",
   "icon": "camel",
   "screens": [
     { "id": "medine-t1.l01.vocab-5#1", "type": "present", "item": "w:kalb" },
     { "id": "medine-t1.l01.vocab-5#2", "type": "present", "item": "w:qitt" },
-    { "id": "medine-t1.l01.vocab-5#3", "type": "mcq", "mode": "icon-ar", "item": "w:kalb" },
+    { "id": "medine-t1.l01.vocab-5#3", "type": "mcq", "mode": "icon-ar", "item": "w:kalb", "distractors": ["w:qitt", "w:walad"] },
     { "id": "medine-t1.l01.vocab-5#4", "type": "present", "item": "w:dik" },
     { "id": "medine-t1.l01.vocab-5#5", "type": "present", "item": "w:himar" },
     { "id": "medine-t1.l01.vocab-5#6", "type": "mcq", "mode": "ar-fr", "item": "w:dik" },

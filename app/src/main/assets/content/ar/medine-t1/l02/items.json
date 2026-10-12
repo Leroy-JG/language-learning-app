@@ -5,7 +5,7 @@
     "ar": "ذٰلِكَ",
     "fr": "cela, celui-là (loin)",
     "translit": "dhālika",
-    "note": "Nom démonstratif ({ar|اِسْمُ إِشَارَةٍ}) pour une seule chose, masculine et éloignée.",
+    "note": "Nom démonstratif ({ar|اِسْمُ إِشَارَةٍ}) pour ce qui est singulier, masculin et éloigné.",
     "example": { "ar": "ذٰلِكَ نَجْمٌ.", "fr": "Cela est une étoile." }
   },
   {
@@ -60,7 +60,7 @@
     "fr": "du sucre",
     "translit": "sukkarun",
     "gender": "m",
-    "note": "Son pluriel a la même forme : {ar|سُكَّرٌ}.",
+    "note": "Nom de matière (« du sucre ») : il garde la même forme au pluriel.",
     "example": { "ar": "أَهٰذَا سُكَّرٌ؟", "fr": "Est-ce du sucre ?" }
   },
   {
@@ -72,6 +72,7 @@
     "plural": "أَلْبَانٌ",
     "icon": "milk",
     "gender": "m",
+    "note": "Son pluriel {ar|أَلْبَانٌ} désigne plusieurs sortes de lait.",
     "example": { "ar": "ذٰلِكَ لَبَنٌ.", "fr": "Cela est du lait." }
   }
 ]

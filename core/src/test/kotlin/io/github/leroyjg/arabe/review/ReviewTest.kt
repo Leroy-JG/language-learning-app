@@ -4,6 +4,7 @@ import io.github.leroyjg.arabe.TestContent
 import io.github.leroyjg.arabe.arabic.ArabicScript
 import io.github.leroyjg.arabe.content.ActivityType
 import io.github.leroyjg.arabe.content.CourseIndex
+import io.github.leroyjg.arabe.content.ItemKind
 import io.github.leroyjg.arabe.content.McqMode
 import io.github.leroyjg.arabe.content.McqScreen
 import io.github.leroyjg.arabe.content.PresentScreen
@@ -162,7 +163,8 @@ class ReviewPlannerTest {
                             assertTrue(prepared.choices.size in 3..4)
                             assertEquals(prepared.choices.size, prepared.choices.map { it.fr }.toSet().size)
                             assertEquals(prepared.choices.size, prepared.choices.map { ArabicScript.lettersOnly(it.ar) }.toSet().size)
-                            assertTrue(prepared.choices.all { it.kind == item.kind })
+                            if (item.kind == ItemKind.WORD) assertTrue(prepared.choices.all { it.kind == item.kind })
+                            assertTrue(prepared.choices.none { it.id != item.id && ArabicScript.distractorKey(it.ar) == ArabicScript.distractorKey(item.ar) })
                         }
                         is TypingScreen -> {
                             assertTrue(allowTyping)

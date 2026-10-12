@@ -53,7 +53,7 @@
       "title": "La hamza de liaison",
       "blocks": [
         { "type": "paragraph", "text": "L'article s'écrit avec deux lettres : un **alif**, appelé {ar|هَمْزَةُ الْوَصْلِ} (la hamza de liaison), et un **lām**." },
-        { "type": "paragraph", "text": "La hamza de liaison ne se prononce **qu'en début de phrase**. Au milieu d'une phrase, on passe directement au « l »." },
+        { "type": "paragraph", "text": "La hamza de liaison ne se prononce que **quand on commence à parler** par ce mot, en début de phrase. Au milieu d'une phrase, on ne la prononce pas : on enchaîne directement avec la suite du mot." },
         { "type": "example", "ar": "اَلْكِتَابُ جَدِيدٌ.", "fr": "Le livre est neuf. (« al-kitābu… »)" },
         { "type": "example", "ar": "هٰذَا الْكِتَابُ جَدِيدٌ.", "fr": "Ce livre est neuf. (« hādhā l-kitābu… »)" },
         { "type": "note", "text": "{ar|هٰذَا الْكِتَابُ} veut dire « ce livre » : le démonstratif suivi d'un nom défini montre la chose dont on parle." }
@@ -63,8 +63,9 @@
       "id": "medine-t1.l03.grammar-3#7",
       "type": "question",
       "prompt": { "fr": "Dans {ar|هٰذَا الْكِتَابُ}, prononce-t-on le « a » de l'article ?" },
-      "choices": [ { "fr": "Non : on dit « hādhā l-kitābu »" }, { "fr": "Oui : on dit « hādhā al-kitābu »" } ],
-      "answer": 0,
+      "choices": [ { "fr": "Oui : on dit « hādhā al-kitābu »" }, { "fr": "Non : on dit « hādhā l-kitābu »" } ],
+      "answer": 1,
+      "shuffle": false,
       "explain": "Au milieu d'une phrase, la hamza de liaison ne se prononce pas."
     },
     {
