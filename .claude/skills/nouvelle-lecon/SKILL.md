@@ -10,16 +10,21 @@ Mieux vaut une leçon de moins qu'une seule erreur.
 
 ## 0. Avant de commencer
 
-1. Lire `CLAUDE.md`, `docs/pedagogie.md` (cadre fixe et palette d'outils), `docs/content-format.md`
-   (le format, en entier) et `docs/sources.md` (choix déjà faits, notions déjà enseignées).
+0. **Économie de ressources** (limite d'usage de l'utilisateur) : ne pas tout relire. Lire
+   `CLAUDE.md` (déjà chargé), `docs/pedagogie.md`, et dans `docs/content-format.md` seulement §2, §3,
+   §7, §8 et les types d'écrans (§9) réellement utilisés. De `docs/sources.md`, lire seulement
+   « Choix faits face aux supports » (dernière leçon). Le reste (mots déjà enseignés) :
+   `python3 tools/deja_enseigne.py` (1 ligne par mot, remplace tous les `items.json`).
+   Copier comme modèle **un** fichier d'activité du chapitre précédent plutôt que relire le format.
+   Squelette du chapitre : `python3 tools/nouveau_chapitre.py <n> "<titre fr>" "<titre ar>"`.
 2. Il faut **les PDF du professeur** pour la leçon. Ils ne sont pas dans le dépôt (dépôt public) :
    si l'utilisateur ne les a pas joints à la conversation, les lui demander. Ne jamais rédiger une
    leçon de mémoire sans ses supports.
 3. Lire chaque page des PDF **visuellement** (outil Read avec `pages`), pas avec `pdftotext`, qui
    mélange les harakat. Noter : le vocabulaire (avec harakat exactes), les règles, les exemples, les
    exercices, les pluriels donnés.
-4. Faire l'inventaire de ce qui est **déjà enseigné** : tous les `items.json` et les astuces des
-   leçons précédentes (`app/src/main/assets/content/ar/medine-t1/lNN/`). Une nouvelle leçon ne peut
+4. Inventaire de ce qui est **déjà enseigné** : `python3 tools/deja_enseigne.py` (+ astuces des
+   leçons précédentes seulement si nécessaire). Une nouvelle leçon ne peut
    s'appuyer que là-dessus et sur ce qu'elle enseigne elle-même, **avant** l'exercice concerné.
 
 ## 1. Plan du chapitre
@@ -106,7 +111,7 @@ Le validateur doit dire `OK`. Lire l'aperçu HTML en entier, écran par écran, 
 
 ## 4. Relecture indépendante (obligatoire)
 
-Lancer **en parallèle** au moins trois sous-agents `relecteur-arabe` (voir `.claude/agents/` ; si ce
+Lancer **en parallèle** trois sous-agents (pas plus : chacun coûte cher ; les 4 du chapitre 4 n'ont pas apporté plus que 3) `relecteur-arabe` (voir `.claude/agents/` ; si ce
 type d'agent n'est pas proposé, lancer un agent général en lui demandant de lire et d'appliquer
 `.claude/agents/relecteur-arabe.md`), avec des angles différents :
 1. **Arabe** : chaque mot lettre par lettre, cas, accords, pluriels, genres, fidélité aux PDF
@@ -115,6 +120,8 @@ type d'agent n'est pas proposé, lancer un agent général en lui demandant de l
    réponses justes sont acceptées, rien n'exige une notion pas encore vue (ordre des sections).
 3. **Français et pédagogie** : traductions exactes, explications vraies, explications d'oral
    manquantes et certaines.
+
+Leur demander un rapport **court** (erreurs certaines seulement, pas de recopie du contenu). La 2e relecture se limite au `git diff` des corrections (un seul agent).
 
 Puis **vérifier soi-même chaque remarque** (les relecteurs se trompent aussi) et ne corriger que
 ce qui est confirmé. Relancer une relecture sur le diff des corrections.
