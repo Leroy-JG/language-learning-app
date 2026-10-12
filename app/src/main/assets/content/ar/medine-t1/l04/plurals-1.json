@@ -1,0 +1,110 @@
+{
+  "id": "medine-t1.l04.plurals-1",
+  "type": "vocabulary",
+  "title": "Les pluriels",
+  "icon": "flower",
+  "screens": [
+    {
+      "id": "medine-t1.l04.plurals-1#1",
+      "type": "tip",
+      "title": "Des pluriels sans tanwin",
+      "blocks": [
+        { "type": "paragraph", "text": "Certains **pluriels brisés** (ceux qui changent la forme du mot, comme {ar|كِتَابٌ} → {ar|كُتُبٌ}) ont une forme « longue » : un alif suivi de **deux** lettres ({ar|مَدَارِسُ}) ou de **trois** lettres dont la deuxième est un {ar|ي} ({ar|مَرَاحِيضُ}). Ils ne prennent **normalement pas de tanwin** : comme les noms propres féminins, ils sont {ar|مَمْنُوعٌ مِنَ الصَّرْفِ}." },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|مَدْرَسَةٌ}", "{ar|مَدَارِسُ}", "école"],
+            ["{ar|مِرْحَاضٌ}", "{ar|مَرَاحِيضُ}", "toilettes"],
+            ["{ar|مَطْبَخٌ}", "{ar|مَطَابِخُ}", "cuisine"],
+            ["{ar|دُكَّانٌ}", "{ar|دَكَاكِينُ}", "boutique"]
+          ]
+        },
+        { "type": "paragraph", "text": "Après une préposition, sans article, ils prennent donc la **fatha**, comme {ar|مَكَّةُ} :" },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "مَدَارِسُ", "fr": "des écoles" }, "to": { "ar": "فِي مَدَارِسَ", "fr": "dans des écoles" } },
+            { "from": { "ar": "الْمَدَارِسُ", "fr": "les écoles" }, "to": { "ar": "فِي الْمَدَارِسِ", "fr": "dans les écoles" }, "label": "avec l'article, la kasra revient" }
+          ]
+        },
+        { "type": "note", "text": "Tu connais déjà {ar|مَسَاجِدُ} (mosquées) et {ar|مَفَاتِيحُ} (clés) : eux aussi n'ont pas de tanwin." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.plurals-1#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:madrasa", "w:mirhad", "w:matbakh", "w:dukkan"]
+    },
+    {
+      "id": "medine-t1.l04.plurals-1#3",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|مَدْرَسَةٌ} ?" },
+      "choices": [ { "ar": "مَدَارِسُ" }, { "ar": "مَطَابِخُ" }, { "ar": "حَمَّامَاتٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l04.plurals-1#4",
+      "type": "tip",
+      "title": "Des pluriels avec tanwin",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|غُرْفَةٌ}", "{ar|غُرَفٌ}", "chambre"],
+            ["{ar|فَصْلٌ}", "{ar|فُصُولٌ}", "salle de classe"],
+            ["{ar|سُوقٌ}", "{ar|أَسْوَاقٌ}", "marché"],
+            ["{ar|سَمَاءٌ}", "{ar|سَمَاوَاتٌ}", "ciel"],
+            ["{ar|سَاعَةٌ}", "{ar|سَاعَاتٌ}", "montre"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.plurals-1#5",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:ghurfa", "w:fasl", "w:suq", "w:sama", "w:saa"]
+    },
+    {
+      "id": "medine-t1.l04.plurals-1#6",
+      "type": "tip",
+      "title": "Les pluriels en « -āt » et en « -ūna »",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|حَمَّامٌ}", "{ar|حَمَّامَاتٌ}", "salle de bains"],
+            ["{ar|جَامِعَةٌ}", "{ar|جَامِعَاتٌ}", "université"],
+            ["{ar|مُدِيرٌ}", "{ar|مُدِيرُونَ}", "directeur"]
+          ]
+        },
+        { "type": "paragraph", "text": "Le pluriel en « -āt » est surtout celui des noms féminins ({ar|جَامِعَةٌ} → {ar|جَامِعَاتٌ}), mais pas seulement : {ar|حَمَّامٌ}, qui est masculin, fait {ar|حَمَّامَاتٌ}." },
+        { "type": "paragraph", "text": "Le pluriel en « -ūna » est le pluriel régulier des personnes de sexe masculin (ou d'un groupe mixte) : {ar|مُدِيرُونَ}, comme {ar|مُدَرِّسُونَ} (chapitre 1). Beaucoup de noms de personnes ont un autre pluriel : {ar|رَجُلٌ} → {ar|رِجَالٌ}. Après une préposition, « -ūna » devient « -īna » : {ar|إِلَى الْمُدِيرِينَ} (chez les directeurs)." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.plurals-1#7",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:hammam", "w:jamia", "w:mudir"]
+    },
+    {
+      "id": "medine-t1.l04.plurals-1#8",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|مُدِيرٌ} ?" },
+      "choices": [ { "ar": "مُدِيرُونَ" }, { "ar": "مَدَارِسُ" }, { "ar": "جَامِعَاتٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l04.plurals-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des écoles",
+      "answers": ["مَدَارِسُ"]
+    }
+  ]
+}

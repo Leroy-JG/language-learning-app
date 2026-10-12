@@ -1,0 +1,77 @@
+{
+  "id": "medine-t1.l04.practice-2",
+  "type": "grammar",
+  "title": "Lis et écris",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l04.practice-2#1",
+      "type": "tip",
+      "title": "Sept phrases de ton livre",
+      "blocks": [
+        { "type": "paragraph", "text": "Voici les phrases de l'exercice 3 de ton livre. Lis chacune, écoute-la, puis tu vas les recomposer." },
+        { "type": "example", "ar": "مِنْ أَيْنَ فَاطِمَةُ؟ هِيَ مِنَ الْهِنْدِ.", "fr": "D'où vient Fāṭima ? Elle vient d'Inde." },
+        { "type": "example", "ar": "خَرَجَ الْمُدَرِّسُ مِنَ الْفَصْلِ وَذَهَبَ إِلَى الْمُدِيرِ.", "fr": "L'enseignant est sorti de la salle de classe et est allé chez le directeur." },
+        { "type": "example", "ar": "ذَهَبَ التَّاجِرُ إِلَى الدُّكَّانِ.", "fr": "Le commerçant est allé à la boutique." },
+        { "type": "example", "ar": "خَرَجَ حَامِدٌ مِنَ الْغُرْفَةِ وَذَهَبَ إِلَى الْحَمَّامِ.", "fr": "Ḥāmid est sorti de la chambre et est allé à la salle de bains." },
+        { "type": "example", "ar": "مَنْ خَرَجَ مِنَ الْفَصْلِ؟", "fr": "Qui est sorti de la salle de classe ?" },
+        { "type": "example", "ar": "خَرَجَ الطَّالِبُ مِنَ الْمَدْرَسَةِ وَذَهَبَ إِلَى السُّوقِ.", "fr": "L'étudiant est sorti de l'école et est allé au marché." },
+        { "type": "example", "ar": "خَدِيجَةُ مِنَ الصِّينِ وَخَالِدٌ مِنَ الْيَابَانِ.", "fr": "Khadīja vient de Chine et Khālid du Japon." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.practice-2#2",
+      "type": "order",
+      "fr": "Le commerçant est allé à la boutique.",
+      "answers": [["ذَهَبَ", "التَّاجِرُ", "إِلَى", "الدُّكَّانِ"], ["التَّاجِرُ", "ذَهَبَ", "إِلَى", "الدُّكَّانِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l04.practice-2#3",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'enseignant est sorti de la salle de classe et est allé chez le directeur.",
+      "answers": ["خَرَجَ الْمُدَرِّسُ مِنَ الْفَصْلِ وَذَهَبَ إِلَى الْمُدِيرِ."]
+    },
+    {
+      "id": "medine-t1.l04.practice-2#4",
+      "type": "fill_gap",
+      "sentence": "خَرَجَ حَامِدٌ {0} الْغُرْفَةِ وَذَهَبَ {1} الْحَمَّامِ.",
+      "fr": "Ḥāmid est sorti de la chambre et est allé à la salle de bains.",
+      "gaps": [{ "answers": ["مِنَ"] }, { "answers": ["إِلَى"] }],
+      "options": ["مِنَ", "إِلَى", "فِي"]
+    },
+    {
+      "id": "medine-t1.l04.practice-2#5",
+      "type": "order",
+      "fr": "L'étudiant est sorti de l'école et est allé au marché.",
+      "answers": [
+        ["خَرَجَ", "الطَّالِبُ", "مِنَ", "الْمَدْرَسَةِ", "وَذَهَبَ", "إِلَى", "السُّوقِ"],
+        ["الطَّالِبُ", "خَرَجَ", "مِنَ", "الْمَدْرَسَةِ", "وَذَهَبَ", "إِلَى", "السُّوقِ"]
+      ],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l04.practice-2#6",
+      "type": "question",
+      "prompt": { "fr": "Quelle phrase veut dire « Qui est sorti de la salle de classe ? »" },
+      "choices": [ { "ar": "مَنْ خَرَجَ مِنَ الْفَصْلِ؟" }, { "ar": "أَيْنَ خَرَجَ الْمُدَرِّسُ؟" }, { "ar": "مِنْ أَيْنَ الْمُدَرِّسُ؟" } ],
+      "answer": 0,
+      "explain": "{ar|مَنْ} (qui ?) + {ar|خَرَجَ} (il est sorti) + {ar|مِنَ الْفَصْلِ} (de la salle de classe)."
+    },
+    {
+      "id": "medine-t1.l04.practice-2#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Khadīja vient de Chine et Khālid du Japon.",
+      "answers": ["خَدِيجَةُ مِنَ الصِّينِ وَخَالِدٌ مِنَ الْيَابَانِ."]
+    },
+    {
+      "id": "medine-t1.l04.practice-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "D'où vient Fāṭima ? Elle vient d'Inde.",
+      "answers": ["مِنْ أَيْنَ فَاطِمَةُ؟ هِيَ مِنَ الْهِنْدِ."]
+    }
+  ]
+}

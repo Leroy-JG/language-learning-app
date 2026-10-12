@@ -1,0 +1,93 @@
+{
+  "id": "medine-t1.l04.grammar-7",
+  "type": "grammar",
+  "title": "Nom ou particule ?",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l04.grammar-7#1",
+      "type": "tip",
+      "title": "Où se rangent les mots que tu connais",
+      "blocks": [
+        { "type": "paragraph", "text": "Tu connais maintenant beaucoup de mots « outils ». Voici où ils se rangent, parmi les trois sortes de mots :" },
+        {
+          "type": "table",
+          "header": ["Catégorie", "Sorte", "Mots"],
+          "rows": [
+            ["nom ({ar|اِسْمٌ})", "noms interrogatifs", "{ar|مَا}, {ar|مَنْ}, {ar|أَيْنَ}"],
+            ["nom ({ar|اِسْمٌ})", "noms démonstratifs", "{ar|هٰذَا}, {ar|ذٰلِكَ}"],
+            ["nom ({ar|اِسْمٌ})", "pronoms", "{ar|هُوَ}, {ar|هِيَ}, {ar|أَنَا}, {ar|أَنْتَ}"],
+            ["particule ({ar|حَرْفٌ})", "prépositions ({ar|حُرُوفُ الْجَرِّ})", "{ar|فِي}, {ar|مِنْ}, {ar|عَلَى}, {ar|إِلَى}"],
+            ["particule ({ar|حَرْفٌ})", "particule interrogative", "{ar|أَ}"],
+            ["particule ({ar|حَرْفٌ})", "particules de réponse", "{ar|نَعَمْ}, {ar|لَا}"],
+            ["particule ({ar|حَرْفٌ})", "particule de coordination", "{ar|وَ}"],
+            ["particule ({ar|حَرْفٌ})", "article défini", "{ar|الْ}"]
+          ]
+        },
+        { "type": "note", "text": "Pour reconnaître un nom, cherche l'une de ses marques, par exemple le tanwin, l'article {ar|الْ} ou une préposition devant lui." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.grammar-7#2",
+      "type": "sort",
+      "instruction": "Range chaque mot : nom ou particule ?",
+      "categories": [ { "fr": "nom ({ar|اِسْمٌ})" }, { "fr": "particule ({ar|حَرْفٌ})" } ],
+      "cards": [
+        { "item": "w:ayna", "category": 0 },
+        { "item": "w:fi", "category": 1 },
+        { "item": "w:la", "category": 1 },
+        { "item": "w:hadha", "category": 0 },
+        { "item": "w:ala", "category": 1 },
+        { "item": "w:ma", "category": 0 },
+        { "item": "w:ila", "category": 1 },
+        { "item": "w:huwa", "category": 0 }
+      ],
+      "explain": "{ar|أَيْنَ}, {ar|هٰذَا}, {ar|مَا} et {ar|هُوَ} sont des noms. {ar|فِي}, {ar|عَلَى} et {ar|إِلَى} sont des prépositions, et {ar|لَا} est une particule de réponse : ce sont des particules."
+    },
+    {
+      "id": "medine-t1.l04.grammar-7#3",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|أَيْنَ} est-il un nom ?" },
+      "choices": [ { "fr": "Il peut suivre une préposition : {ar|مِنْ أَيْنَ}" }, { "fr": "Il porte le tanwin" }, { "fr": "Il porte l'article {ar|الْ}" } ],
+      "answer": 0,
+      "explain": "Pouvoir suivre une préposition est une marque du nom. {ar|أَيْنَ} n'a ni tanwin ni article."
+    },
+    {
+      "id": "medine-t1.l04.grammar-7#4",
+      "type": "question",
+      "prompt": { "fr": "{ar|مِنْ} (« de ») est…" },
+      "choices": [ { "fr": "un nom" }, { "fr": "un verbe" }, { "fr": "une particule" } ],
+      "answer": 2,
+      "explain": "{ar|مِنْ} est une préposition ({ar|حَرْفُ جَرٍّ}) : c'est une particule."
+    },
+    {
+      "id": "medine-t1.l04.grammar-7#5",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:ism", "w:harf", "w:alam", "w:harf-jarr"]
+    },
+    {
+      "id": "medine-t1.l04.grammar-7#6",
+      "type": "spot",
+      "instruction": "Touche la préposition de la phrase.",
+      "words": ["أَيْنَ", "الْقَلَمُ؟", "هُوَ", "عَلَى", "الْمَكْتَبِ."],
+      "answers": [3],
+      "fr": "Où est le stylo ? Il est sur le bureau.",
+      "explain": "{ar|عَلَى} (sur) est la préposition : le nom qui la suit, {ar|الْمَكْتَبِ}, est à la kasra."
+    },
+    {
+      "id": "medine-t1.l04.grammar-7#7",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|مِنْ أَيْنَ}, le mot {ar|أَيْنَ} prend une kasra parce qu'il suit une préposition." },
+      "answer": false,
+      "explain": "{ar|أَيْنَ} ne change jamais de terminaison : il garde sa fatha, même après une préposition."
+    },
+    {
+      "id": "medine-t1.l04.grammar-7#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elle est dans la cuisine.",
+      "answers": ["هِيَ فِي الْمَطْبَخِ."]
+    }
+  ]
+}

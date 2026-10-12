@@ -11,12 +11,14 @@ Ils **ne sont pas dans le dépôt** : le dépôt est public, et l'auteur autoris
 interdit la modification et l'usage commercial de ses supports. Pour une nouvelle leçon, demander à
 l'utilisateur de joindre les PDF dans la conversation.
 
-Supports utilisés pour les leçons 1 à 3 :
+Supports utilisés pour les leçons 1 à 4 :
 - `TOME1-1-1.pdf` : introduction (nom, verbe, particule) et cours 1, partie 1 (هٰذَا).
 - `TOME1-1-2.pdf` : cours 1, partie 2 (interrogatifs أَ et مَا).
 - `TOME1-1-3.pdf` : cours 1, partie 3 (مَنْ).
 - `TOME1-2.pdf` : cours 2 (ذٰلِكَ, vocabulaire nouveau).
 - `TOME1-3.pdf` : cours 3, parties 1 et 2 (indéfini / défini, article, lettres lunaires et solaires).
+- `TOME1-4-1.pdf` : cours 4, partie 1 (terminaisons des mots, prépositions في عَلَى مِنْ إِلَى, أَيْنَ, page du livre « cuisine », exercices 1 et 2).
+- `TOME1-4-2.pdf` : cours 4, parties 2 et 3 (noms propres, tanwin, noms privés de tanwin, مِنْ أَيْنَ, dialogues du livre, exercice 3, vocabulaire, verbes خَرَجَ / ذَهَبَ, pays).
 
 ## Ce qui est déjà enseigné (cumulatif)
 
@@ -54,14 +56,36 @@ Supports utilisés pour les leçons 1 à 3 :
   - ة marque le plus souvent le féminin, et sa prononciation (t / h) ;
   - les parties du corps qui vont par paire sont féminines pour la plupart.
 
+**Leçon 4** (`l04`) :
+- الْإِعْرَابُ : la terminaison change selon le rôle du mot (trois voyelles finales, avec ou sans tanwin) ;
+- les prépositions (حُرُوفُ الْجَرِّ) :
+  - فِي عَلَى مِنْ إِلَى avec leurs sens ;
+  - le nom qui suit prend en général la kasra (◌ُ → ◌ِ, ◌ٌ → ◌ٍ) ;
+  - مِنْ devient مِنَ devant l'article ;
+  - le ى final de عَلَى et إِلَى ;
+- la phrase sans verbe « nom défini + préposition + nom » (الْكِتَابُ عَلَى الْمَكْتَبِ) ;
+- أَيْنَ (invariable) et مِنْ أَيْنَ ;
+- les pronoms هُوَ هِيَ أَنَا أَنْتَ (et أَنْتِ, signalé) : ce sont des noms définis, هُوَ / هِيَ suivent le genre du nom remplacé ;
+- les noms propres (الْعَلَمُ) et les quatre sortes de noms définis vues jusqu'ici (nom propre, démonstratif, avec الْ, pronom) ;
+- le tanwin (définition, marque du nom) et plusieurs marques du nom, dont trois sont citées (tanwin, article, pouvoir suivre une préposition) ;
+- les noms privés de tanwin (مَمْنُوعٌ مِنَ الصَّرْفِ) :
+  - la plupart des noms propres féminins, et les pluriels de forme « longue » (مَدَارِسُ, مَرَاحِيضُ…) ;
+  - ils prennent une fatha après une préposition (فِي مَكَّةَ) ;
+  - les noms étrangers en alif long ne changent pas à l'écrit (فَرَنْسَا) ;
+- les noms de lieux en مَ (اِسْمُ الْمَكَانِ), repérés dans مَسْجِدٌ مَكْتَبٌ مَطْبَخٌ مَدْرَسَةٌ ;
+- le verbe خَرَجَ et le verbe ذَهَبَ (passé, présent, impératif, nom d'action) ;
+- la phrase verbale (le verbe d'abord, le sujet à la damma ; le « il » est dans le verbe) ;
+- le classement des mots connus en noms et en particules (أَيْنَ est un nom).
+
 **Pas encore enseigné** (ne pas l'exiger dans un exercice) :
 - هٰذِهِ et les démonstratifs féminins ou pluriels ;
-- les pronoms ;
-- l'annexion (« le … de … », seulement signalée) ;
-- les cas (les terminaisons ◌ُ ◌َ ◌ِ seulement signalées) ;
+- les autres pronoms (seuls هُوَ هِيَ أَنَا أَنْتَ sont vus) et les suffixes (صَدِيقِي, قَمِيصُكَ) ;
+- l'annexation (« le … de … », seulement signalée : يَوْمُ الْجُمُعَةِ) ;
+- les cas : seules la kasra après une préposition et la fatha des noms privés de tanwin sont enseignées ; la fatha de l'objet (قَرَأْتُ كِتَابًا) est seulement montrée, et la damma n'est pas expliquée ;
 - l'accord de l'adjectif au féminin ;
-- les prépositions ;
-- les verbes conjugués.
+- les autres prépositions ;
+- les verbes conjugués (sauf خَرَجَ et ذَهَبَ à la 3ᵉ personne du masculin singulier, et leurs formes citées) ;
+- مَاذَا.
 
 Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin.
 
@@ -77,6 +101,57 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin.
 - **Transcription de هٰذَا الْكِتَابُ :** on prononce « hādha l-kitābu », car le ā devient bref devant l'article.
 - **الْمُعَرَّفُ بِأَلْ :** cette forme est retenue. Le PDF l'écrit sans voyelles.
 - **Explications ajoutées (données à l'oral, absentes des PDF) :** chacune a été vérifiée par deux relecteurs indépendants. La liste figure dans le message du commit « Ajoute les explications qu'un enseignant donnerait à l'oral ».
+
+### Leçon 4
+
+- **Exercices du livre repris :**
+  - exercice 1 (questions 1 à 9) → `dialogue-1` ;
+  - exercice 2 (voyelles finales) → `practice-3` (la paire الْمَدْرَسَةُ / فِي الْمَدْرَسَةِ du livre est omise, car l'école n'est présentée que plus loin ; l'activité est placée après vocab-2, qui présente les mots utilisés) ;
+  - exercice (أ) (16 prénoms) → `practice-1` ;
+  - dialogues de la page (ب) → `dialogue-1` (cuisine) et `dialogue-2` (classe) ;
+  - exercice 3 → `practice-2`.
+- **Reporté (pas dans les diapositives du professeur) :**
+  - مَاذَا (questions 10 et 11 de l'exercice 1) ;
+  - les suffixes ـِي et ـكَ (صَدِيقِي, قَمِيصُكَ) ;
+  - les verbes conjugués أَتَوَضَّأُ et قَرَأْتُ (قَرَأْتُ n'est montré que dans une astuce, avec une note).
+- **Exemples du tableau de vocabulaire :** remplacés par des phrases qui n'utilisent que des mots connus (le PDF emploie وَسِخٌ, قَرِيبَةٌ, الطَّعَامُ, أَتَوَضَّأُ…).
+- **Traductions :**
+  - حَمَّامٌ = « une salle de bains » (le PDF dit « douche »), avec une note ;
+  - سَاعَةٌ = « une montre » (note : horloge, heure) ;
+  - فَصْلٌ = « une salle de classe » (note : saison, chapitre) ;
+  - مِرْحَاضٌ = « des toilettes » ;
+  - ذَهَبَ إِلَى الْمُدِيرِ = « il est allé chez le directeur » ;
+  - مِنْ أَيْنَ أَنْتَ = « d'où viens-tu ? » ;
+  - un verbe est cité avec sa traduction « il est sorti (sortir) » ;
+  - « salle de bains » (graphie de référence) et « salle de classe » partout ;
+  - فِي = « dans, en, à (lieu ou temps) » et إِلَى = « vers, à (direction) » : le français « à » traduit les deux.
+- **Genre :**
+  - سُوقٌ (m) et سَمَاءٌ (f) existent aux deux genres en arabe classique : l'usage courant est retenu, avec une note pour chacun ;
+  - pas de genre affiché pour les pays : l'usage varie, c'est donc une exception à la règle « chaque nom porte son genre » (à trancher avec l'utilisateur) ;
+  - les prénoms ne sont pas des éléments (pas de cartes de révision) : ils sont dans des tableaux et des exercices.
+- **Écarts volontaires avec les diapositives :**
+  - fautes de frappe corrigées (مُحَمَّدٌ, زَيْدٌ, مَكَّةَ sans shadda ni sukūn ; عَلَى, ذٰلِكَ ; أُخْرُجْ / إِذْهَبْ avec hamza de coupure au lieu de اُخْرُجْ / اِذْهَبْ) ;
+  - les noms d'action sont cités au nominatif (خُرُوجٌ, ذَهَابٌ), le PDF les donne à l'accusatif ;
+  - هُوَ مِنْ مَكَّةَ (à propos d'une chemise dans le PDF) devient هِيَ مِنْ مَكَّةَ (à propos d'une personne).
+- **Pronoms هُوَ هِيَ أَنَا أَنْتَ :** ils sont enseignés ici parce que tous les dialogues du livre les emploient. On ne montre ni le tableau complet, ni les suffixes.
+- **Entraîner une voyelle finale :** le validateur refuse deux choix qui ne diffèrent que par les harakat, et le réglage « masquer les harakat » les rendrait identiques. La kasra et la fatha s'entraînent donc par `question` aux choix français, `spot` (le nom qui suit la préposition), `sort` (tranché par la présence de la préposition) et dictée.
+- **Explications ajoutées (données à l'oral, absentes des PDF) :**
+  - la kasra devient kasratan sur un nom indéfini après une préposition ;
+  - مِنْ → مِنَ devant l'article, le ى de عَلَى et إِلَى, le nom مَجْرُورٌ ;
+  - les lieux en مَ (اِسْمُ الْمَكَانِ), la famille مُدَرِّسٌ / مَدْرَسَةٌ ;
+  - les marques du nom (tanwin, article, préposition devant le mot : il en existe d'autres), et le fait que les pronoms sont des noms définis ;
+  - la fatha reste un cas de مَجْرُورٌ ; les noms privés de tanwin reprennent la kasra avec l'article ou en annexion ;
+  - مِنْ / مَنْ (mêmes lettres) et مِنَ الْ / مَنِ الْ ;
+  - la voyelle longue finale de فِي, عَلَى, إِلَى devient brève devant l'article ;
+  - le mot interrogatif ouvre la phrase (أَيْنَ ذَهَبَ ؟, مَنْ خَرَجَ ؟) ;
+  - « -ūna » devient « -īna » après une préposition ;
+  - سَمَاءٌ se trouve aussi au masculin en arabe classique ;
+  - les conséquences de « privé de tanwin » (fatha après une préposition, noms en ا, pluriels de forme longue) ;
+  - أَيْنَ, هٰذَا et ذٰلِكَ ne changent jamais de terminaison ;
+  - عَلَمٌ veut aussi dire « drapeau », الْجُمُعَةُ vient de جَمَعَ, ذَهَبَ / ذَهَبٌ ont les mêmes lettres ;
+  - عُمَرُ et أَحْمَدُ sont des prénoms d'hommes sans tanwin.
+
+  Elles ont été vérifiées par quatre relecteurs indépendants (arabe, exercices, français et pédagogie, fidélité aux PDF et vérité des règles) ; chaque remarque a été contrôlée avant correction.
 
 ## Audio
 

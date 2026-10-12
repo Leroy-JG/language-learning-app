@@ -1,0 +1,60 @@
+{
+  "id": "medine-t1.l04.vocab-3",
+  "type": "vocabulary",
+  "title": "Les pays",
+  "icon": "africa",
+  "screens": [
+    { "id": "medine-t1.l04.vocab-3#1", "type": "present", "item": "w:yaban" },
+    { "id": "medine-t1.l04.vocab-3#2", "type": "present", "item": "w:sin" },
+    { "id": "medine-t1.l04.vocab-3#3", "type": "present", "item": "w:hind" },
+    {
+      "id": "medine-t1.l04.vocab-3#4",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:yaban",
+      "distractors": ["w:sin", "w:hind"]
+    },
+    { "id": "medine-t1.l04.vocab-3#5", "type": "present", "item": "w:faransa" },
+    { "id": "medine-t1.l04.vocab-3#6", "type": "present", "item": "w:filibbin" },
+    { "id": "medine-t1.l04.vocab-3#7", "type": "present", "item": "w:ifriqiya" },
+    {
+      "id": "medine-t1.l04.vocab-3#8",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:faransa",
+      "distractors": ["w:filibbin", "w:ifriqiya"]
+    },
+    {
+      "id": "medine-t1.l04.vocab-3#9",
+      "type": "tip",
+      "title": "Le monde en arabe",
+      "blocks": [
+        { "type": "paragraph", "text": "Touche un pays pour l'écouter." },
+        { "type": "gallery", "title": "Les pays et le continent", "items": ["w:yaban", "w:sin", "w:hind", "w:faransa", "w:filibbin", "w:ifriqiya"] },
+        { "type": "note", "text": "Certains noms de pays prennent l'article ({ar|الْيَابَانُ}, {ar|الصِّينُ}, {ar|الْهِنْدُ}, {ar|الْفِلِبِّينُ}), d'autres non ({ar|فَرَنْسَا}). {ar|إِفْرِيقِيَا} est un continent." },
+        { "type": "note", "text": "En arabe, l'article fait partie du nom de ces pays : ce sont bien des noms propres." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.vocab-3#10",
+      "type": "memory",
+      "mode": "icon-ar",
+      "items": ["w:yaban", "w:sin", "w:hind", "w:faransa", "w:filibbin", "w:ifriqiya"]
+    },
+    {
+      "id": "medine-t1.l04.vocab-3#11",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:yaban", "w:sin", "w:hind", "w:faransa", "w:filibbin"]
+    },
+    {
+      "id": "medine-t1.l04.vocab-3#12",
+      "type": "mcq",
+      "mode": "audio-ar",
+      "item": "w:ifriqiya",
+      "distractors": ["w:faransa", "w:hind"]
+    },
+    { "id": "medine-t1.l04.vocab-3#13", "type": "build", "item": "w:sin", "extra": ["س"] },
+    { "id": "medine-t1.l04.vocab-3#14", "type": "typing", "ask": "fr", "item": "w:faransa" }
+  ]
+}

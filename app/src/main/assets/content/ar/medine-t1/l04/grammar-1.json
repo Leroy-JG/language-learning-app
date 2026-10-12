@@ -1,0 +1,125 @@
+{
+  "id": "medine-t1.l04.grammar-1",
+  "type": "grammar",
+  "title": "La fin des mots change",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l04.grammar-1#1",
+      "type": "tip",
+      "title": "La terminaison d'un mot peut changer",
+      "blocks": [
+        { "type": "paragraph", "text": "En arabe, la **terminaison** d'un mot (le plus souvent sa dernière voyelle) peut **changer** selon le **rôle** du mot dans la phrase. Cette variation s'appelle {ar|الْإِعْرَابُ}." },
+        { "type": "paragraph", "text": "Observe la fin du mot {ar|كِتَاب} dans trois phrases :" },
+        { "type": "example", "ar": "هٰذَا كِتَابٌ.", "fr": "C'est un livre." },
+        { "type": "example", "ar": "قَرَأْتُ كِتَابًا.", "fr": "J'ai lu un livre." },
+        { "type": "example", "ar": "هٰذَا فِي الْكِتَابِ.", "fr": "Ceci est dans le livre." },
+        { "type": "note", "text": "{ar|قَرَأْتُ} (j'ai lu) est un verbe conjugué : tu le verras plus tard. Ici, regarde seulement la fin de {ar|كِتَاب}." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.grammar-1#2",
+      "type": "tip",
+      "title": "Les trois voyelles finales",
+      "blocks": [
+        { "type": "paragraph", "text": "Trois voyelles peuvent terminer un nom. Chacune a un signe simple et un signe double (le tanwin) :" },
+        {
+          "type": "table",
+          "header": ["Voyelle", "Avec tanwin", "Nom du signe"],
+          "rows": [
+            ["{ar|◌ُ}", "{ar|◌ٌ}", "{ar|الضَّمَّةُ} (damma)"],
+            ["{ar|◌َ}", "{ar|◌ً}", "{ar|الْفَتْحَةُ} (fatha)"],
+            ["{ar|◌ِ}", "{ar|◌ٍ}", "{ar|الْكَسْرَةُ} (kasra)"]
+          ]
+        },
+        { "type": "note", "text": "Pour un nom, ces trois cas s'appellent {ar|الرَّفْعُ}, {ar|النَّصْبُ} et {ar|الْجَرُّ} ; leurs marques habituelles sont la damma, la fatha et la kasra." },
+        { "type": "paragraph", "text": "Tu connais déjà la damma ({ar|هٰذَا كِتَابٌ}). Dans ce chapitre, tu découvres la **kasra**. La fatha viendra plus tard." }
+      ]
+    },
+    { "id": "medine-t1.l04.grammar-1#3", "type": "present", "item": "w:irab" },
+    {
+      "id": "medine-t1.l04.grammar-1#4",
+      "type": "question",
+      "prompt": { "fr": "Comment s'appelle la variation de la terminaison des mots ?" },
+      "choices": [ { "ar": "الْإِعْرَابُ" }, { "ar": "التَّنْوِينُ" }, { "ar": "الْحَرْفُ" } ],
+      "answer": 0,
+      "explain": "{ar|الْإِعْرَابُ} : la terminaison d'un mot change selon son rôle dans la phrase."
+    },
+    {
+      "id": "medine-t1.l04.grammar-1#5",
+      "type": "tip",
+      "title": "La préposition change la fin du nom",
+      "blocks": [
+        { "type": "paragraph", "text": "Une **préposition** ({ar|حَرْفُ جَرٍّ}) se place **devant un nom**. Elle agit sur le **sens** du nom qui la suit : dans, sur, de, vers…" },
+        { "type": "paragraph", "text": "Elle agit aussi sur sa **voyelle finale**, qui devient en général une **kasra** (tu verras les cas particuliers plus loin dans ce chapitre)." },
+        {
+          "type": "compare",
+          "title": "Le nom avant et après la préposition",
+          "rows": [
+            { "from": { "ar": "الْكِتَابُ", "fr": "le livre" }, "to": { "ar": "فِي الْكِتَابِ", "fr": "dans le livre" } },
+            { "from": { "ar": "الْبَيْتُ", "fr": "la maison" }, "to": { "ar": "مِنَ الْبَيْتِ", "fr": "de la maison" }, "label": "{ar|مِنْ} devient {ar|مِنَ} devant l'article (voir la leçon suivante)" },
+            { "from": { "ar": "الْمَكْتَبُ", "fr": "le bureau" }, "to": { "ar": "عَلَى الْمَكْتَبِ", "fr": "sur le bureau" } },
+            { "from": { "ar": "الْمَسْجِدُ", "fr": "la mosquée" }, "to": { "ar": "إِلَى الْمَسْجِدِ", "fr": "vers la mosquée" } }
+          ]
+        },
+        { "type": "note", "text": "On dit que le nom qui suit une préposition est {ar|مَجْرُورٌ}." }
+      ]
+    },
+    { "id": "medine-t1.l04.grammar-1#6", "type": "present", "item": "w:harf-jarr" },
+    {
+      "id": "medine-t1.l04.grammar-1#7",
+      "type": "tip",
+      "title": "Avec un nom indéfini",
+      "blocks": [
+        { "type": "paragraph", "text": "Un nom **indéfini** suit la même règle : le tanwin {ar|◌ٌ} devient {ar|◌ٍ}." },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "كِتَابٌ", "fr": "un livre" }, "to": { "ar": "فِي كِتَابٍ", "fr": "dans un livre" } },
+            { "from": { "ar": "بَيْتٌ", "fr": "une maison" }, "to": { "ar": "مِنْ بَيْتٍ", "fr": "d'une maison" } },
+            { "from": { "ar": "مَسْجِدٌ", "fr": "une mosquée" }, "to": { "ar": "إِلَى مَسْجِدٍ", "fr": "vers une mosquée" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.grammar-1#8",
+      "type": "question",
+      "prompt": { "fr": "Après une préposition, la voyelle finale du nom devient…" },
+      "choices": [ { "fr": "une kasra ({ar|◌ِ})" }, { "fr": "une damma ({ar|◌ُ})" }, { "fr": "une fatha ({ar|◌َ})" } ],
+      "answer": 0,
+      "explain": "La préposition met le nom qui la suit à la kasra : {ar|الْبَيْتُ} → {ar|فِي الْبَيْتِ}."
+    },
+    {
+      "id": "medine-t1.l04.grammar-1#9",
+      "type": "spot",
+      "instruction": "Touche les deux noms qui prennent la kasra à cause d'une préposition.",
+      "words": ["الْكِتَابُ", "فِي", "الْبَيْتِ،", "وَالْقَلَمُ", "عَلَى", "الْمَكْتَبِ."],
+      "answers": [2, 5],
+      "fr": "Le livre est dans la maison, et le stylo est sur le bureau.",
+      "explain": "{ar|الْبَيْتِ} suit {ar|فِي} et {ar|الْمَكْتَبِ} suit {ar|عَلَى} : les deux sont à la kasra. {ar|الْكِتَابُ} et {ar|وَالْقَلَمُ} ne suivent aucune préposition."
+    },
+    {
+      "id": "medine-t1.l04.grammar-1#10",
+      "type": "sort",
+      "instruction": "Range chaque expression selon la voyelle finale du nom.",
+      "categories": [ { "fr": "damma ({ar|◌ُ}) : le nom tel qu'on le cite" }, { "fr": "kasra ({ar|◌ِ}) : après une préposition" } ],
+      "cards": [
+        { "ar": "الْبَيْتُ", "category": 0 },
+        { "ar": "فِي الْبَيْتِ", "category": 1 },
+        { "ar": "الْمَسْجِدُ", "category": 0 },
+        { "ar": "إِلَى الْمَسْجِدِ", "category": 1 },
+        { "ar": "الْكِتَابُ", "category": 0 },
+        { "ar": "عَلَى الْمَكْتَبِ", "category": 1 }
+      ],
+      "explain": "Un nom cité seul se termine par la damma ; après une préposition, il se termine par la kasra. La fatha viendra plus tard."
+    },
+    {
+      "id": "medine-t1.l04.grammar-1#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "dans le livre",
+      "answers": ["فِي الْكِتَابِ"]
+    }
+  ]
+}

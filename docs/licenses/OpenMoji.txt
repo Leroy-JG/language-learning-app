@@ -13,5 +13,8 @@ cat 1F408 · rooster 1F413 · donkey 1FACF · horse 1F40E · camel 1F42A · rock
 moon 1F319 · sun 2600 · water 1F4A7 · bread 1F35E · meal 1F37D · meat 1F356 · fish 1F41F
 flower 1F338 · eye 1F441 · mouth 1F444 · hand 270B · books 1F4DA · pointing 1F449
 question 2753 · speech 1F5E8 · shop 1F3EA · telescope 1F52D · puzzle 1F9E9
+school 1F3EB · bath 1F6C1 · toilet 1F6BD · kitchen 1F373 · university 1F393 · watch 231A
+kaaba 1F54B · japan 1F1EF-1F1F5 · france 1F1EB-1F1F7 · china 1F1E8-1F1F3 · india 1F1EE-1F1F3
+philippines 1F1F5-1F1ED · africa 1F30D
 
 Images de l'interface : ui_flag 1F3C1 · ui_trophy 1F3C6

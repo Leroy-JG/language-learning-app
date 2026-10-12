@@ -1,0 +1,368 @@
+[
+  {
+    "id": "w:irab",
+    "kind": "word",
+    "ar": "الْإِعْرَابُ",
+    "fr": "la variation de la terminaison",
+    "translit": "al-ʾiʿrābu",
+    "gender": "m",
+    "note": "La terminaison d'un mot (le plus souvent sa dernière voyelle) change selon le rôle du mot dans la phrase : {ar|كِتَابٌ}, {ar|كِتَابًا}, {ar|الْكِتَابِ}."
+  },
+  {
+    "id": "w:harf-jarr",
+    "kind": "word",
+    "ar": "حَرْفُ جَرٍّ",
+    "fr": "une préposition",
+    "translit": "ḥarfu jarrin",
+    "plural": "حُرُوفُ جَرٍّ",
+    "gender": "m",
+    "note": "C'est une particule ({ar|حَرْفٌ}) placée devant un nom. Elle précise son sens et met en général la terminaison du nom à la kasra : c'est ce qu'on appelle {ar|الْجَرُّ}.",
+    "example": { "ar": "فِي الْبَيْتِ", "fr": "dans la maison" }
+  },
+  {
+    "id": "w:fi",
+    "kind": "word",
+    "ar": "فِي",
+    "fr": "dans, en, à (lieu ou temps)",
+    "translit": "fī",
+    "note": "Préposition ({ar|حَرْفُ جَرٍّ}) de lieu ou de temps. Le nom qui la suit prend en général la kasra : {ar|الْبَيْتُ} → {ar|فِي الْبَيْتِ}.",
+    "example": { "ar": "الْكِتَابُ فِي الْبَيْتِ.", "fr": "Le livre est dans la maison." }
+  },
+  {
+    "id": "w:ala",
+    "kind": "word",
+    "ar": "عَلَى",
+    "fr": "sur",
+    "translit": "ʿalā",
+    "note": "Le {ar|ى} final s'écrit comme un yā' sans points, mais il se prononce « ā » : c'est l'alif maqṣūra.",
+    "example": { "ar": "الْقَلَمُ عَلَى الْمَكْتَبِ.", "fr": "Le stylo est sur le bureau." }
+  },
+  {
+    "id": "w:min",
+    "kind": "word",
+    "ar": "مِنْ",
+    "fr": "de (origine, matière)",
+    "translit": "min",
+    "note": "Elle indique d'où l'on vient, ou la matière dont une chose est faite. Devant l'article {ar|الْ}, le sukūn devient une fatha : {ar|مِنَ الْبَيْتِ} (« mina l-bayti »).",
+    "example": { "ar": "هٰذَا قَلَمٌ مِنْ ذَهَبٍ.", "fr": "C'est un stylo en or." }
+  },
+  {
+    "id": "w:ila",
+    "kind": "word",
+    "ar": "إِلَى",
+    "fr": "vers, à (direction)",
+    "translit": "ʾilā",
+    "note": "Elle s'écrit, comme {ar|عَلَى}, avec un {ar|ى} final qui se prononce « ā ».",
+    "example": { "ar": "هٰذَا بَابٌ إِلَى الْمَسْجِدِ.", "fr": "C'est une porte vers la mosquée." }
+  },
+  {
+    "id": "w:ghurfa",
+    "kind": "word",
+    "ar": "غُرْفَةٌ",
+    "fr": "une chambre, une pièce",
+    "translit": "ghurfatun",
+    "plural": "غُرَفٌ",
+    "gender": "f",
+    "note": "Désigne une chambre, ou une pièce de la maison.",
+    "example": { "ar": "الْكُتُبُ فِي الْغُرْفَةِ.", "fr": "Les livres sont dans la chambre." }
+  },
+  {
+    "id": "w:matbakh",
+    "kind": "word",
+    "ar": "مَطْبَخٌ",
+    "fr": "une cuisine",
+    "translit": "maṭbakhun",
+    "plural": "مَطَابِخُ",
+    "gender": "m",
+    "icon": "kitchen",
+    "note": "Mot à mot : « le lieu où l'on cuisine ».",
+    "example": { "ar": "الْخُبْزُ فِي الْمَطْبَخِ.", "fr": "Le pain est dans la cuisine." }
+  },
+  {
+    "id": "w:hammam",
+    "kind": "word",
+    "ar": "حَمَّامٌ",
+    "fr": "une salle de bains",
+    "translit": "ḥammāmun",
+    "plural": "حَمَّامَاتٌ",
+    "gender": "m",
+    "icon": "bath",
+    "note": "Ton support le traduit par « douche » : c'est le lieu où l'on se lave. Le mot désigne aussi un bain, un hammam.",
+    "example": { "ar": "الْمَاءُ فِي الْحَمَّامِ.", "fr": "L'eau est dans la salle de bains." }
+  },
+  {
+    "id": "w:mirhad",
+    "kind": "word",
+    "ar": "مِرْحَاضٌ",
+    "fr": "des toilettes",
+    "translit": "mirḥāḍun",
+    "plural": "مَرَاحِيضُ",
+    "gender": "m",
+    "icon": "toilet",
+    "note": "En arabe, le mot est au singulier : {ar|مِرْحَاضٌ} désigne un W.-C., ou le lieu des toilettes.",
+    "example": { "ar": "الْمِرْحَاضُ مَفْتُوحٌ.", "fr": "Les toilettes sont ouvertes." }
+  },
+  {
+    "id": "w:tawila",
+    "kind": "word",
+    "ar": "طَاوِلَةٌ",
+    "fr": "une table",
+    "translit": "ṭāwilatun",
+    "gender": "f",
+    "example": { "ar": "الْكِتَابُ عَلَى الطَّاوِلَةِ.", "fr": "Le livre est sur la table." }
+  },
+  {
+    "id": "w:saa",
+    "kind": "word",
+    "ar": "سَاعَةٌ",
+    "fr": "une montre",
+    "translit": "sāʿatun",
+    "plural": "سَاعَاتٌ",
+    "gender": "f",
+    "icon": "watch",
+    "note": "Le mot veut aussi dire « une horloge » et « une heure ».",
+    "example": { "ar": "السَّاعَةُ عَلَى السَّرِيرِ.", "fr": "La montre est sur le lit." }
+  },
+  {
+    "id": "w:ayna",
+    "kind": "word",
+    "ar": "أَيْنَ",
+    "fr": "où… ?",
+    "translit": "ayna",
+    "note": "Nom interrogatif ({ar|اِسْمُ اسْتِفْهَامٍ لِلْمَكَانِ}), réservé aux lieux. Sa terminaison ne change jamais : c'est toujours une fatha.",
+    "example": { "ar": "أَيْنَ الْمِفْتَاحُ؟", "fr": "Où est la clé ?" }
+  },
+  {
+    "id": "p:ayna-al-kitab",
+    "kind": "phrase",
+    "ar": "أَيْنَ الْكِتَابُ؟",
+    "fr": "Où est le livre ?",
+    "translit": "ayna l-kitābu"
+  },
+  {
+    "id": "w:huwa",
+    "kind": "word",
+    "ar": "هُوَ",
+    "fr": "il, lui",
+    "translit": "huwa",
+    "note": "Pronom ({ar|ضَمِيرٌ}) pour un homme ou pour une chose masculine : {ar|الْكِتَابُ} → {ar|هُوَ}.",
+    "example": { "ar": "أَيْنَ الْكِتَابُ؟ هُوَ عَلَى الْمَكْتَبِ.", "fr": "Où est le livre ? Il est sur le bureau." }
+  },
+  {
+    "id": "w:hiya",
+    "kind": "word",
+    "ar": "هِيَ",
+    "fr": "elle",
+    "translit": "hiya",
+    "note": "Pronom ({ar|ضَمِيرٌ}) pour une femme ou pour une chose féminine : {ar|السَّاعَةُ} → {ar|هِيَ}.",
+    "example": { "ar": "أَيْنَ السَّاعَةُ؟ هِيَ عَلَى السَّرِيرِ.", "fr": "Où est la montre ? Elle est sur le lit." }
+  },
+  {
+    "id": "w:alam",
+    "kind": "word",
+    "ar": "عَلَمٌ",
+    "fr": "un nom propre",
+    "translit": "ʿalamun",
+    "plural": "أَعْلَامٌ",
+    "gender": "m",
+    "note": "Nom qui désigne une personne en particulier ou un lieu précis. C'est un nom défini ({ar|مَعْرِفَةٌ}), même sans article. Le mot veut aussi dire « drapeau »."
+  },
+  {
+    "id": "w:makka",
+    "kind": "word",
+    "ar": "مَكَّةُ",
+    "fr": "La Mecque",
+    "translit": "makkatu",
+    "gender": "f",
+    "icon": "kaaba",
+    "note": "Nom propre ({ar|عَلَمٌ}) féminin : la ville où se trouve la Kaaba. Tu verras plus loin pourquoi il n'a pas de tanwin.",
+    "example": { "ar": "زَيْدٌ فِي مَكَّةَ.", "fr": "Zayd est à La Mecque." }
+  },
+  {
+    "id": "w:yaban",
+    "kind": "word",
+    "ar": "الْيَابَانُ",
+    "fr": "le Japon",
+    "translit": "al-yābānu",
+    "icon": "japan",
+    "note": "Nom propre ({ar|عَلَمٌ}) de pays, qui s'emploie avec l'article.",
+    "example": { "ar": "مُحَمَّدٌ مِنَ الْيَابَانِ.", "fr": "Muḥammad vient du Japon." }
+  },
+  {
+    "id": "w:sin",
+    "kind": "word",
+    "ar": "الصِّينُ",
+    "fr": "la Chine",
+    "translit": "aṣ-ṣīnu",
+    "icon": "china",
+    "note": "L'article se prononce « aṣ- » : {ar|ص} est une lettre solaire.",
+    "example": { "ar": "خَدِيجَةُ مِنَ الصِّينِ.", "fr": "Khadīja vient de Chine." }
+  },
+  {
+    "id": "w:hind",
+    "kind": "word",
+    "ar": "الْهِنْدُ",
+    "fr": "l'Inde",
+    "translit": "al-hindu",
+    "icon": "india",
+    "example": { "ar": "حَامِدٌ مِنَ الْهِنْدِ.", "fr": "Ḥāmid vient d'Inde." }
+  },
+  {
+    "id": "w:faransa",
+    "kind": "word",
+    "ar": "فَرَنْسَا",
+    "fr": "la France",
+    "translit": "faransā",
+    "icon": "france",
+    "note": "Ce nom s'emploie sans article. Il se termine par un {ar|ا} long : sa terminaison ne change pas à l'écrit, et il ne prend pas de tanwin.",
+    "example": { "ar": "فَاطِمَةُ مِنْ فَرَنْسَا.", "fr": "Fāṭima vient de France." }
+  },
+  {
+    "id": "w:filibbin",
+    "kind": "word",
+    "ar": "الْفِلِبِّينُ",
+    "fr": "les Philippines",
+    "translit": "al-filibbīnu",
+    "icon": "philippines",
+    "example": { "ar": "عَلِيٌّ مِنَ الْفِلِبِّينِ.", "fr": "ʿAlī vient des Philippines." }
+  },
+  {
+    "id": "w:ifriqiya",
+    "kind": "word",
+    "ar": "إِفْرِيقِيَا",
+    "fr": "l'Afrique",
+    "translit": "ʾifrīqiyā",
+    "icon": "africa",
+    "note": "C'est un continent. On l'écrit aussi {ar|أَفْرِيقِيَا}. Comme {ar|فَرَنْسَا}, il se termine par un {ar|ا} et ne prend pas de tanwin.",
+    "example": { "ar": "خَالِدٌ مِنْ إِفْرِيقِيَا.", "fr": "Khālid vient d'Afrique." }
+  },
+  {
+    "id": "w:anta",
+    "kind": "word",
+    "ar": "أَنْتَ",
+    "fr": "tu, toi (à un homme)",
+    "translit": "anta",
+    "note": "Pronom ({ar|ضَمِيرٌ}). À une femme, on dit {ar|أَنْتِ} (« anti »).",
+    "example": { "ar": "أَنْتَ فِي الْبَيْتِ.", "fr": "Tu es dans la maison." }
+  },
+  {
+    "id": "w:ana",
+    "kind": "word",
+    "ar": "أَنَا",
+    "fr": "je, moi",
+    "translit": "anā",
+    "note": "Pronom ({ar|ضَمِيرٌ}) : c'est la personne qui parle. Il se dit pour un homme comme pour une femme.",
+    "example": { "ar": "أَنَا فِي الْمَسْجِدِ.", "fr": "Je suis à la mosquée." }
+  },
+  {
+    "id": "p:min-ayna-anta",
+    "kind": "phrase",
+    "ar": "مِنْ أَيْنَ أَنْتَ؟",
+    "fr": "D'où viens-tu ?",
+    "translit": "min ayna anta",
+    "note": "Mot à mot : « d'où es-tu ? ». À une femme, on dit {ar|مِنْ أَيْنَ أَنْتِ؟}."
+  },
+  {
+    "id": "p:ana-min-faransa",
+    "kind": "phrase",
+    "ar": "أَنَا مِنْ فَرَنْسَا.",
+    "fr": "Je viens de France.",
+    "translit": "anā min faransā"
+  },
+  {
+    "id": "w:madrasa",
+    "kind": "word",
+    "ar": "مَدْرَسَةٌ",
+    "fr": "une école",
+    "translit": "madrasatun",
+    "plural": "مَدَارِسُ",
+    "gender": "f",
+    "icon": "school",
+    "note": "Même famille que {ar|مُدَرِّسٌ} (un enseignant) : les lettres {ar|د ر س} portent l'idée d'étudier. Mot à mot : « le lieu où l'on étudie ».",
+    "example": { "ar": "الْمُدَرِّسُ فِي الْمَدْرَسَةِ.", "fr": "L'enseignant est à l'école." }
+  },
+  {
+    "id": "w:fasl",
+    "kind": "word",
+    "ar": "فَصْلٌ",
+    "fr": "une salle de classe",
+    "translit": "faṣlun",
+    "plural": "فُصُولٌ",
+    "gender": "m",
+    "note": "Le mot désigne aussi une saison, ou un chapitre.",
+    "example": { "ar": "الطُّلَّابُ فِي الْفَصْلِ.", "fr": "Les étudiants sont dans la salle de classe." }
+  },
+  {
+    "id": "w:jamia",
+    "kind": "word",
+    "ar": "جَامِعَةٌ",
+    "fr": "une université",
+    "translit": "jāmiʿatun",
+    "plural": "جَامِعَاتٌ",
+    "gender": "f",
+    "icon": "university",
+    "example": { "ar": "الطَّالِبُ فِي الْجَامِعَةِ.", "fr": "L'étudiant est à l'université." }
+  },
+  {
+    "id": "w:mudir",
+    "kind": "word",
+    "ar": "مُدِيرٌ",
+    "fr": "un directeur",
+    "translit": "mudīrun",
+    "plural": "مُدِيرُونَ",
+    "gender": "m",
+    "note": "Celui qui dirige une école, une université…",
+    "example": { "ar": "مَنْ ذٰلِكَ؟ ذٰلِكَ مُدِيرٌ.", "fr": "Qui est-ce, là-bas ? C'est un directeur." }
+  },
+  {
+    "id": "w:suq",
+    "kind": "word",
+    "ar": "سُوقٌ",
+    "fr": "un marché",
+    "translit": "sūqun",
+    "plural": "أَسْوَاقٌ",
+    "gender": "m",
+    "note": "Aujourd'hui, ce mot s'emploie surtout au masculin. En arabe classique, on le trouve aussi au féminin.",
+    "example": { "ar": "الْخُبْزُ مِنَ السُّوقِ.", "fr": "Le pain vient du marché." }
+  },
+  {
+    "id": "w:dukkan",
+    "kind": "word",
+    "ar": "دُكَّانٌ",
+    "fr": "une boutique",
+    "translit": "dukkānun",
+    "plural": "دَكَاكِينُ",
+    "gender": "m",
+    "icon": "shop",
+    "example": { "ar": "التَّاجِرُ فِي الدُّكَّانِ.", "fr": "Le commerçant est dans la boutique." }
+  },
+  {
+    "id": "w:sama",
+    "kind": "word",
+    "ar": "سَمَاءٌ",
+    "fr": "un ciel",
+    "translit": "samāʾun",
+    "plural": "سَمَاوَاتٌ",
+    "gender": "f",
+    "note": "Mot féminin, bien qu'il ne se termine pas par {ar|ة}. En arabe classique, on le trouve aussi au masculin.",
+    "example": { "ar": "النُّجُومُ فِي السَّمَاءِ.", "fr": "Les étoiles sont dans le ciel." }
+  },
+  {
+    "id": "w:kharaja",
+    "kind": "word",
+    "ar": "خَرَجَ",
+    "fr": "il est sorti (sortir)",
+    "translit": "kharaja",
+    "note": "On cite le verbe au passé, à la troisième personne du masculin singulier. Le « il » est déjà dans le verbe. Il s'emploie le plus souvent avec {ar|مِنْ} : {ar|خَرَجَ مِنَ الْبَيْتِ} (il est sorti de la maison).",
+    "example": { "ar": "خَرَجَ مُحَمَّدٌ مِنَ الْمَدْرَسَةِ.", "fr": "Muḥammad est sorti de l'école." }
+  },
+  {
+    "id": "w:dhahaba",
+    "kind": "word",
+    "ar": "ذَهَبَ",
+    "fr": "il est allé (aller)",
+    "translit": "dhahaba",
+    "note": "Il s'emploie le plus souvent avec {ar|إِلَى} : {ar|ذَهَبَ إِلَى الْمَسْجِدِ} (il est allé à la mosquée). Devant une personne, {ar|إِلَى} se traduit souvent « chez » : {ar|ذَهَبَ إِلَى الْمُدِيرِ}. Attention : {ar|ذَهَبٌ} (l'or, chapitre 3) s'écrit avec les mêmes lettres ; seules les voyelles changent.",
+    "example": { "ar": "ذَهَبَ إِلَى الْمُدِيرِ.", "fr": "Il est allé chez le directeur." }
+  }
+]

@@ -11,5 +11,7 @@ object Icons {
         "rock", "milk", "moon", "sun", "water", "bread", "meal", "meat", "fish", "flower",
         "eye", "mouth", "hand",
         "books", "pointing", "question", "speech", "shop", "telescope", "puzzle",
+        "school", "bath", "toilet", "kitchen", "university", "watch", "kaaba",
+        "japan", "france", "china", "india", "philippines", "africa",
     )
 }

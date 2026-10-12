@@ -1,0 +1,68 @@
+{
+  "id": "medine-t1.l04.vocab-2",
+  "type": "vocabulary",
+  "title": "À la maison",
+  "icon": "house",
+  "screens": [
+    { "id": "medine-t1.l04.vocab-2#1", "type": "present", "item": "w:matbakh" },
+    { "id": "medine-t1.l04.vocab-2#2", "type": "present", "item": "w:hammam" },
+    { "id": "medine-t1.l04.vocab-2#3", "type": "present", "item": "w:mirhad" },
+    {
+      "id": "medine-t1.l04.vocab-2#4",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:matbakh",
+      "distractors": ["w:hammam", "w:mirhad"]
+    },
+    { "id": "medine-t1.l04.vocab-2#5", "type": "present", "item": "w:ghurfa" },
+    { "id": "medine-t1.l04.vocab-2#6", "type": "present", "item": "w:tawila" },
+    {
+      "id": "medine-t1.l04.vocab-2#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:tawila",
+      "distractors": ["w:ghurfa", "w:maktab"]
+    },
+    { "id": "medine-t1.l04.vocab-2#8", "type": "present", "item": "w:saa" },
+    {
+      "id": "medine-t1.l04.vocab-2#9",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:saa",
+      "distractors": ["w:hammam", "w:matbakh"]
+    },
+    {
+      "id": "medine-t1.l04.vocab-2#10",
+      "type": "tip",
+      "title": "Beaucoup de lieux commencent par {ar|مَ}",
+      "blocks": [
+        { "type": "paragraph", "text": "Plusieurs noms de lieux ont une forme en commun : ils commencent par {ar|مَ} et viennent d'un verbe. Ils désignent **l'endroit où l'on fait l'action** : c'est {ar|اِسْمُ الْمَكَانِ}." },
+        {
+          "type": "table",
+          "header": ["Lieu", "Verbe de la même famille", "L'endroit où l'on…"],
+          "rows": [
+            ["{ar|مَسْجِدٌ}", "{ar|سَجَدَ} (se prosterner)", "se prosterne"],
+            ["{ar|مَكْتَبٌ}", "{ar|كَتَبَ} (écrire)", "écrit"],
+            ["{ar|مَطْبَخٌ}", "{ar|طَبَخَ} (cuisiner)", "cuisine"]
+          ]
+        },
+        { "type": "paragraph", "text": "Tu en rencontreras d'autres, comme {ar|مَدْرَسَةٌ} (une école)." },
+        { "type": "note", "tone": "warning", "text": "Tous les noms de lieux ne suivent pas ce modèle : {ar|بَيْتٌ} (une maison) et {ar|حَمَّامٌ} (une salle de bains) désignent des lieux, mais ne commencent pas par {ar|مَ}." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.vocab-2#11",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:matbakh", "w:hammam", "w:mirhad", "w:ghurfa", "w:saa"]
+    },
+    {
+      "id": "medine-t1.l04.vocab-2#12",
+      "type": "memory",
+      "mode": "icon-ar",
+      "items": ["w:matbakh", "w:hammam", "w:mirhad", "w:saa", "w:sarir", "w:kursi"]
+    },
+    { "id": "medine-t1.l04.vocab-2#13", "type": "build", "item": "w:ghurfa", "extra": ["ه"] },
+    { "id": "medine-t1.l04.vocab-2#14", "type": "typing", "ask": "fr", "item": "w:matbakh" }
+  ]
+}

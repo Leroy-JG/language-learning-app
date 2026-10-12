@@ -1,0 +1,100 @@
+{
+  "id": "medine-t1.l04.grammar-4",
+  "type": "grammar",
+  "title": "Le tanwin, signe du nom",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l04.grammar-4#1",
+      "type": "tip",
+      "title": "Le tanwin : {ar|التَّنْوِينُ}",
+      "blocks": [
+        { "type": "paragraph", "text": "Le **tanwin** ({ar|التَّنْوِينُ}) est un **« n » prononcé** à la fin d'un nom, mais **jamais écrit** comme une lettre : on le note avec le signe doublé." },
+        {
+          "type": "table",
+          "header": ["On écrit", "On prononce", "Lecture"],
+          "rows": [
+            ["{ar|مُحَمَّدٌ}", "{ar|مُحَمَّدُنْ}", "muḥammadun"],
+            ["{ar|زَيْدٌ}", "{ar|زَيْدُنْ}", "zaydun"],
+            ["{ar|كِتَابٌ}", "{ar|كِتَابُنْ}", "kitābun"]
+          ]
+        },
+        { "type": "note", "text": "Quand on s'arrête à la fin d'une phrase, le « n » du tanwin ne se prononce pas (voir le chapitre 3)." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.grammar-4#2",
+      "type": "tip",
+      "title": "Le tanwin est la marque du nom",
+      "blocks": [
+        { "type": "paragraph", "text": "Seul un **nom** porte le tanwin : un verbe ou une particule n'en porte pas (en dehors de rares licences poétiques). Le tanwin est donc une **marque du nom** ({ar|عَلَامَةُ الِاسْمِ}) :" },
+        { "type": "paragraph", "text": "{ar|مُحَمَّدٌ}  ·  {ar|زَيْدٌ}  ·  {ar|بَيْتٌ}  ·  {ar|مَسْجِدٌ}" },
+        { "type": "paragraph", "text": "Mais ce n'est pas la seule marque. En voici **trois** que tu connais déjà :" },
+        {
+          "type": "table",
+          "header": ["Marque du nom", "Exemple"],
+          "rows": [
+            ["le tanwin", "{ar|كِتَابٌ}"],
+            ["l'article {ar|الْ}", "{ar|الْكِتَابُ}"],
+            ["le fait de pouvoir suivre une préposition", "{ar|فِي مَكَّةَ}"]
+          ]
+        },
+        { "type": "note", "text": "Un nom n'a pas toujours une marque visible : {ar|هُوَ} et {ar|هِيَ} n'ont ni tanwin, ni article, et ne se placent pas derrière une préposition. Ce sont pourtant des noms : tu verras plus tard comment on les reconnaît." }
+      ]
+    },
+    {
+      "id": "medine-t1.l04.grammar-4#3",
+      "type": "question",
+      "prompt": { "fr": "Que montre le tanwin ?" },
+      "choices": [ { "fr": "Que le mot est un nom" }, { "fr": "Que le mot est un verbe" }, { "fr": "Que le mot est une particule" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l04.grammar-4#4",
+      "type": "true_false",
+      "statement": { "fr": "Un verbe peut porter le tanwin." },
+      "answer": false,
+      "explain": "Seuls les noms portent le tanwin (en dehors de rares licences poétiques). C'est ce qui permet de reconnaître un nom."
+    },
+    {
+      "id": "medine-t1.l04.grammar-4#5",
+      "type": "spot",
+      "instruction": "Touche les noms.",
+      "words": ["الْكِتَابُ", "فِي", "بَيْتٍ."],
+      "answers": [0, 2],
+      "fr": "Le livre est dans une maison.",
+      "explain": "{ar|الْكِتَابُ} porte l'article, {ar|بَيْتٍ} porte le tanwin. {ar|فِي} est une particule."
+    },
+    {
+      "id": "medine-t1.l04.grammar-4#6",
+      "type": "spot",
+      "instruction": "Touche tous les noms de la phrase. Les particules n'en sont pas.",
+      "words": ["هٰذَا", "قَلَمٌ", "مِنْ", "ذَهَبٍ."],
+      "answers": [0, 1, 3],
+      "fr": "C'est un stylo en or.",
+      "explain": "{ar|هٰذَا} est un nom démonstratif, {ar|قَلَمٌ} et {ar|ذَهَبٍ} portent le tanwin. {ar|مِنْ} est une préposition, donc une particule."
+    },
+    {
+      "id": "medine-t1.l04.grammar-4#7",
+      "type": "question",
+      "prompt": { "fr": "Quelle marque du nom voit-on sur {ar|الْبَيْتُ} ?" },
+      "choices": [ { "fr": "l'article {ar|الْ}" }, { "fr": "le tanwin" }, { "fr": "une préposition devant le mot" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l04.grammar-4#8",
+      "type": "sort",
+      "instruction": "Ce mot porte-t-il une marque du nom ?",
+      "categories": [ { "fr": "oui : c'est un nom" }, { "fr": "non : aucune de ces marques (ici, des particules)" } ],
+      "cards": [
+        { "ar": "كِتَابٌ", "category": 0 },
+        { "ar": "فِي", "category": 1 },
+        { "ar": "الْبَيْتُ", "category": 0 },
+        { "ar": "وَ", "category": 1 },
+        { "ar": "مُحَمَّدٌ", "category": 0 },
+        { "ar": "نَعَمْ", "category": 1 }
+      ],
+      "explain": "{ar|كِتَابٌ} et {ar|مُحَمَّدٌ} portent le tanwin, {ar|الْبَيْتُ} porte l'article. {ar|فِي}, {ar|وَ} et {ar|نَعَمْ} sont des particules : elles n'ont aucune de ces marques."
+    }
+  ]
+}
