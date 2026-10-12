@@ -109,6 +109,18 @@ python3 tools/preview_content.py app/src/main/assets/content/ar <scratchpad>/ape
 ```
 Le validateur doit dire `OK`. Lire l'aperçu HTML en entier, écran par écran, comme un élève.
 
+Ajouter : `python3 tools/controle_qualite.py` (typographie française, nombre d'écrans, bilan en
+dernier, voyelles, translit) : doit afficher « Aucun avertissement ».
+
+## Socle de qualité (non négociable, même si l'usage est limité)
+
+Économiser sur la lecture, **jamais** sur ceci : (1) lire les PDF visuellement, page par page ;
+(2) validateur + `controle_qualite.py` verts ; (3) relecture indépendante par 3 relecteurs
+(arabe / exercices / français-pédagogie) avant tout push ; (4) vérifier soi-même chaque remarque ;
+(5) relire l'aperçu HTML ; (6) chercher les explications d'oral ; (7) mettre à jour `docs/sources.md`.
+Si la limite d'usage menace : s'arrêter proprement (leçon partielle non publiée) plutôt que de
+sauter une de ces étapes, et prévenir l'utilisateur.
+
 ## 4. Relecture indépendante (obligatoire)
 
 Lancer **en parallèle** trois sous-agents (pas plus : chacun coûte cher ; les 4 du chapitre 4 n'ont pas apporté plus que 3) `relecteur-arabe` (voir `.claude/agents/` ; si ce
