@@ -44,7 +44,7 @@
         { "type": "example", "ar": "هُوَ مِنَ الْهِنْدِ.", "fr": "Il vient d'Inde." },
         { "type": "example", "ar": "هِيَ مِنْ مَكَّةَ.", "fr": "Elle vient de La Mecque." },
         { "type": "example", "ar": "مِنْ أَيْنَ الْقَلَمُ؟ هُوَ مِنَ الْيَابَانِ.", "fr": "D'où vient le stylo ? Il vient du Japon." },
-        { "type": "note", "text": "Comme pour « être », il n'y a pas de verbe « venir » : {ar|هُوَ مِنَ الْهِنْدِ} veut dire mot à mot « il (est) d'Inde »." },
+        { "type": "note", "text": "Ici, on n'emploie pas de verbe pour dire « venir » : {ar|هُوَ مِنَ الْهِنْدِ} veut dire mot à mot « il (est) d'Inde »." },
         { "type": "note", "text": "Avec l'article, {ar|مِنْ} devient {ar|مِنَ} : {ar|مِنَ الْيَابَانِ}. Sans article, il reste {ar|مِنْ} : {ar|مِنْ فَرَنْسَا}." }
       ]
     },
@@ -84,7 +84,7 @@
       "id": "medine-t1.l04.grammar-6#12",
       "type": "question",
       "context": { "icon": "japan" },
-      "prompt": { "fr": "Tu viens du Japon. Que réponds-tu à la question {ar|مِنْ أَيْنَ أَنْتَ؟}" },
+      "prompt": { "fr": "Tu viens du Japon. Voici la question : {ar|مِنْ أَيْنَ أَنْتَ؟} Choisis ta réponse." },
       "choices": [ { "ar": "أَنَا مِنَ الْيَابَانِ." }, { "ar": "أَنَا فِي الْيَابَانِ." }, { "ar": "أَنَا إِلَى الْيَابَانِ." } ],
       "answer": 0,
       "explain": "{ar|مِنْ} indique l'origine : {ar|أَنَا مِنَ الْيَابَانِ} (je viens du Japon). {ar|أَنَا فِي الْيَابَانِ} voudrait dire « je suis au Japon »."

@@ -71,7 +71,7 @@
         { "type": "paragraph", "text": "On peut aussi poser une question sur le verbe :" },
         { "type": "example", "ar": "أَيْنَ ذَهَبَ؟", "fr": "Où est-il allé ?" },
         { "type": "example", "ar": "مَنْ خَرَجَ مِنَ الْفَصْلِ؟", "fr": "Qui est sorti de la salle de classe ?" },
-        { "type": "note", "text": "Le mot interrogatif ({ar|أَيْنَ}, {ar|مَنْ}) se place toujours au début de la phrase. Avec {ar|مَنْ}, c'est celui qui fait l'action." },
+        { "type": "note", "text": "Le mot interrogatif ouvre la phrase : il n'est précédé que d'une préposition ou de {ar|وَ} ({ar|مِنْ أَيْنَ}, {ar|وَأَيْنَ}). Avec {ar|مَنْ}, c'est celui qui fait l'action." },
         { "type": "note", "text": "{ar|خَرَجَ} s'emploie le plus souvent avec {ar|مِنْ} (sortir **de**), et {ar|ذَهَبَ} avec {ar|إِلَى} (aller **à**, ou « chez » devant une personne)." }
       ]
     },
