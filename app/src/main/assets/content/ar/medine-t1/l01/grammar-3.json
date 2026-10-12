@@ -73,7 +73,7 @@
     {
       "id": "medine-t1.l01.grammar-3#6b",
       "type": "sort",
-      "instruction": "Pour demander ce que c'est, utilise-t-on {ar|مَا} ou {ar|مَنْ} ? Range chaque mot.",
+      "instruction": "Pour poser la question, utilise-t-on {ar|مَا} ou {ar|مَنْ} ? Range chaque mot.",
       "categories": [ { "ar": "مَا" }, { "ar": "مَنْ" } ],
       "cards": [
         { "item": "w:kalb", "category": 0 },

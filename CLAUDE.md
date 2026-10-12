@@ -38,7 +38,9 @@ Pour tout ajout ou modification de contenu (`app/src/main/assets/content/`) :
   trompent aussi). `./gradlew -p core test validateContent` doit passer.
 
 **Ajouter une leçon : suivre la procédure `.claude/skills/nouvelle-lecon/SKILL.md`** (étape par
-étape, avec la liste de contrôle). Historique des choix de contenu : `docs/sources.md`.
+étape, avec la liste de contrôle). **Concevoir une leçon : `docs/pedagogie.md`** (cadre fixe pour la
+cohérence de l'app, palette d'outils à choisir librement pour chaque notion, et méthode pour créer
+un nouveau type d'écran si aucun ne convient). Historique des choix de contenu : `docs/sources.md`.
 
 ## Autres règles
 
@@ -100,8 +102,8 @@ Branches : chaque conversation travaille sur sa branche `claude/…`, puis la fu
   - `ui/home/HomeScreen.kt` : parcours (chapitres en accordéon).
   - `ui/review/ReviewScreen.kt` : onglet Réviser.
   - `ui/settings/SettingsScreen.kt`, `data/Settings.kt` (SharedPreferences « reglages »).
-  - `ui/activity/` : lecteur d'exercices (`ActivityScreen`, `PlayerViewModel`, `ScreenContents`,
-    animations, confettis).
+  - `ui/activity/` : lecteur d'exercices (`ActivityScreen`, `PlayerViewModel`, `ScreenContents`
+    pour les écrans classiques et les blocs d'astuce, `Games.kt` pour les mini-jeux, animations, confettis).
   - `ui/GenderTag.kt` (étiquette masculin/féminin), `ui/Decor.kt`, `ui/theme/Theme.kt`, `ui/text/ArabicText.kt`.
   - `data/ProgressDatabase.kt` (Room, version 1) et `data/ReviewDatabase.kt` (base séparée
     `revision.db`, version 1) ; `data/Backup.kt` (export/import JSON).

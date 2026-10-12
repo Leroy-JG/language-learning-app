@@ -254,8 +254,23 @@ translittération (selon le réglage), le pluriel, la note et l'exemple. Ajoute 
   ]
 }
 ```
-Blocs : `paragraph`, `example` (écoutable), `table` (cellules au format « texte français »),
-`note` (encadré). Toutes les lignes d'un tableau ont autant de cellules que l'en-tête.
+Blocs (à combiner librement, dans l'ordre voulu ; voir `docs/pedagogie.md` pour choisir) :
+
+| Bloc | Rôle | Champs |
+|---|---|---|
+| `paragraph` | texte explicatif | `text` |
+| `example` | phrase arabe écoutable et sa traduction | `ar`, `fr` |
+| `table` | tableau ; cellules au format « texte français » ; chaque ligne a autant de cellules que l'en-tête | `header`, `rows` |
+| `note` | encadré ; `tone` (facultatif) : `info` (par défaut), `warning` (« Attention » : piège, exception), `memo` (« Pour retenir » : moyen mnémotechnique), `culture` (« Le savais-tu ? ») | `text`, `tone` |
+| `compare` | 1 à 6 lignes « avant → après », chaque forme écoutable (indéfini → défini, singulier → pluriel…) ; `label` facultatif sous la ligne | `rows: [{ from: {ar, fr}, to: {ar, fr}, label? }]`, `title?` |
+| `breakdown` | un mot ou une phrase décomposé en 2 à 6 morceaux, chacun avec son sens ; les morceaux mis bout à bout doivent redonner exactement les lettres du tout | `ar`, `fr`, `parts: [{ ar, fr }]` |
+| `gallery` | 2 à 9 éléments **déjà présentés** (image, arabe, traduction), à toucher pour les écouter | `items`, `title?` |
+
+```json
+{ "type": "compare", "rows": [ { "from": { "ar": "كِتَابٌ", "fr": "un livre" }, "to": { "ar": "الْكِتَابُ", "fr": "le livre" } } ] }
+{ "type": "breakdown", "ar": "الْكِتَابُ", "fr": "le livre", "parts": [ { "ar": "الْ", "fr": "l'article" }, { "ar": "كِتَابُ", "fr": "livre" } ] }
+{ "type": "note", "tone": "warning", "text": "Jamais l'article et le tanwin ensemble." }
+```
 
 ### 9.3 `mcq` : QCM sur un élément
 ```json
@@ -375,12 +390,64 @@ mélangés à chaque fois.
 Une ligne = un audio. Pendant la lecture, la ligne en cours est surlignée ; on peut rejouer une
 ligne en la touchant et afficher ou masquer les traductions.
 
+### 9.11 `sort` : ranger des cartes
+```json
+{
+  "id": "…#11", "type": "sort",
+  "instruction": "Range chaque mot selon la lettre qui suit l'article.",
+  "categories": [ { "fr": "lettre lunaire" }, { "fr": "lettre solaire" } ],
+  "cards": [ { "ar": "الْقَمَرُ", "category": 0 }, { "item": "w:shams", "category": 1 }, { "fr": "un chien", "category": 0 } ]
+}
+```
+- 2 ou 3 catégories (`{fr}` ou `{ar}`), 3 à 8 cartes ; chaque carte a **exactement un** champ
+  `item` (élément déjà présenté), `ar` ou `fr`, et l'indice de sa catégorie. Chaque catégorie reçoit
+  au moins une carte. Une carte ne doit pouvoir aller que dans **une** catégorie.
+- Les cartes arrivent une par une (mélangées) ; on touche la catégorie. Une erreur secoue la
+  catégorie et la carte reste ; l'exercice se termine quand tout est rangé (comme `match` :
+  avec des erreurs, il compte comme raté sans revenir).
+
+### 9.12 `spot` : repérer des mots dans une phrase
+```json
+{
+  "id": "…#12", "type": "spot",
+  "instruction": "Touche les mots qui portent l'article {ar|الْ}.",
+  "words": ["الْبَابُ", "مَفْتُوحٌ،", "وَالْقَلَمُ", "مَكْسُورٌ."],
+  "answers": [0, 2],
+  "fr": "La porte est ouverte, et le stylo est cassé."
+}
+```
+- `instruction` **obligatoire** : c'est la question. `words` : 2 à 12 mots découpés à la main (la
+  ponctuation reste sur son mot) ; `answers` : indices (à partir de 0) de **tous** les bons mots,
+  pas tous les mots. `fr` (facultatif) : traduction affichée sous la phrase.
+- On sélectionne un ou plusieurs mots puis « Vérifier » : juste seulement si la sélection est
+  exactement `answers`.
+
+### 9.13 `build` : écrire un mot lettre par lettre
+```json
+{ "id": "…#13", "type": "build", "item": "w:miftah", "extra": ["ب"] }
+```
+- `item` : un **mot** déjà présenté (pas d'espace), de 2 à 9 lettres. Les étiquettes sont ses
+  lettres sans harakat (l'alif suscrit n'en est pas une : `هٰذَا` → ه ذ ا), plus 0 à 3 lettres
+  `extra` (une lettre chacune), mélangées. Le mot s'écrit (lettres liées) au fil des touches ;
+  « Vérifier » compare les lettres. La correction montre le mot vocalisé et le lit.
+
+### 9.14 `memory` : jeu de mémoire
+```json
+{ "id": "…#14", "type": "memory", "mode": "icon-ar", "items": ["w:kalb", "w:qitt", "w:dik"] }
+```
+- 3 à 6 éléments déjà présentés, soit 6 à 12 cartes retournées. `mode` : `ar-fr` (arabe ↔
+  français) ou `icon-ar` (image ↔ arabe ; chaque élément a une icône différente).
+- On retourne deux cartes ; une paire reste visible, sinon elles se referment. Une carte arabe se
+  fait entendre. Le jeu compte toujours comme réussi (chercher fait partie du jeu) : c'est un
+  moment ludique de consolidation, pas une évaluation.
+
 ---
 
 ## 10. Audio
 
 Aucun nom de fichier audio n'est écrit dans le contenu. Chaque texte arabe qui se lit a un audio :
-élément (`ar`), pluriel, exemple, bloc `example`, phrase complète d'un `fill_gap` ou d'un `order`,
+élément (`ar`), pluriel, exemple, bloc `example`, formes d'un bloc `compare`, tout d'un bloc
+`breakdown`, phrase complète d'un `fill_gap`, d'un `order` ou d'un `spot`, carte `ar` d'un `sort`,
 réponse dictée et question d'un `typing`, énoncé arabe d'un `true_false`, question et choix arabes
 d'un `question`, ligne de dialogue. Pour chacun, l'app et le script calculent :
 
@@ -417,6 +484,13 @@ Conséquences :
   distracteurs différents même sans harakat (ou strictement identiques, donc interchangeables).
 - `typing` : `item` ou `answers` (pas les deux) ; `question` présent si et seulement si `ask` vaut `question`.
 - `question` : 2 à 4 choix différents même sans harakat, `answer` dans les bornes.
+- `sort` : 2 ou 3 catégories et 3 à 8 cartes, toutes différentes ; chaque carte a un seul champ et
+  une catégorie existante ; chaque catégorie a au moins une carte.
+- `spot` : 2 à 12 mots sans espace ; `answers` non vide, sans doublon, dans les bornes, et pas tous les mots.
+- `build` : un seul mot de 2 à 9 lettres ; au plus 3 `extra`, chacune une seule lettre.
+- `memory` : 3 à 6 éléments, textes et traductions différents ; en `icon-ar`, icônes présentes et différentes.
+- Blocs : `compare` 1 à 6 lignes ; `breakdown` 2 à 6 morceaux qui redonnent exactement le tout ;
+  `gallery` 2 à 9 éléments déjà présentés.
 - Article vocalisé selon la règle lunaire / solaire (§3).
 - Pas de démonstratif masculin (`هٰذَا`, `ذٰلِكَ`) directement suivi d'un nom marqué féminin
   (`gender: "f"`) : les démonstratifs féminins seront enseignés plus tard.

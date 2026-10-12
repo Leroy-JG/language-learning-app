@@ -167,7 +167,8 @@
         { "ar": "اللَّحْمُ", "category": 1 },
         { "ar": "الْعَيْنُ", "category": 0 },
         { "ar": "الثَّوْبُ", "category": 1 }
-      ]
+      ],
+      "explain": "Dans {ar|اللَّحْمُ}, le « l » qu'on entend est le {ar|ل} du mot, doublé par la shadda ; le lām de l'article, lui, ne se prononce pas."
     }
   ]
 }

@@ -2,7 +2,10 @@
 
 ## Fait (versions jusqu'à 0.1.19)
 
-- **Moteur :** le contenu est en JSON, un validateur fait échouer le build si le contenu est incohérent, et les 10 types d'écrans fonctionnent.
+- **Moteur :** le contenu est en JSON, un validateur fait échouer le build si le contenu est incohérent, et 14 types d'écrans fonctionnent.
+  - Parmi eux, 4 mini-jeux : ranger, repérer, écrire lettre par lettre, mémoire.
+  - Les astuces ont 7 sortes de blocs, dont comparer, décomposer, galerie et encadrés à ton.
+  - Le guide de conception est `docs/pedagogie.md`.
 - **Parcours :** chapitres 1 à 3 du Tome de Médine 1. Les chapitres s'affichent en accordéon et rien n'est verrouillé.
 - **Réviser :** répétition espacée FSRS-5, deux onglets (Vocabulaire / Grammaire), niveaux de maîtrise, favoris, recherche.
 - **Paramètres :**
