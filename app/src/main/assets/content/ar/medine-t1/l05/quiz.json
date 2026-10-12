@@ -1,0 +1,125 @@
+{
+  "id": "medine-t1.l05.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 5",
+  "screens": [
+    { "id": "medine-t1.l05.quiz#1", "type": "mcq", "mode": "icon-ar", "item": "w:sayyara", "distractors": ["w:haqiba", "w:shari"] },
+    {
+      "id": "medine-t1.l05.quiz#3",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:amm", "w:khal", "w:ibn", "w:ghani", "w:faqir"]
+    },
+    {
+      "id": "medine-t1.l05.quiz#4",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|الْإِضَافَةُ} ?" },
+      "choices": [ { "fr": "l'annexion : deux noms l'un derrière l'autre" }, { "fr": "l'interpellation" }, { "fr": "la variation de la terminaison" } ],
+      "answer": 0,
+      "explain": "{ar|الْإِضَافَةُ} associe deux noms : {ar|كِتَابُ زَيْدٍ}. L'interpellation se dit {ar|النِّدَاءُ}, et la variation de la terminaison {ar|الْإِعْرَابُ}."
+    },
+    {
+      "id": "medine-t1.l05.quiz#5",
+      "type": "question",
+      "prompt": { "fr": "Que n'a pas le premier terme d'une annexion ?" },
+      "choices": [ { "fr": "ni article, ni tanwin" }, { "fr": "de voyelle finale" }, { "fr": "de préposition devant lui" } ],
+      "answer": 0,
+      "explain": "Le premier terme perd son tanwin et n'accepte pas l'article : {ar|كِتَابُ الطَّالِبِ}."
+    },
+    {
+      "id": "medine-t1.l05.quiz#6",
+      "type": "fill_gap",
+      "sentence": "{0} الْمُدَرِّسِ عَلَى الْمَكْتَبِ.",
+      "fr": "Le stylo de l'enseignant est sur le bureau.",
+      "gaps": [{ "answers": ["قَلَمُ"] }],
+      "options": ["قَلَمُ", "الْقَلَمُ"],
+      "explain": "Le premier terme de l'annexion n'a pas d'article."
+    },
+    {
+      "id": "medine-t1.l05.quiz#7",
+      "type": "spot",
+      "instruction": "Touche le second terme de l'annexion.",
+      "words": ["هٰذَا", "وَزِيرُ", "فَرَنْسَا."],
+      "answers": [2],
+      "fr": "C'est le ministre de France.",
+      "explain": "{ar|فَرَنْسَا} est le second terme ; {ar|وَزِيرُ} est le premier."
+    },
+    {
+      "id": "medine-t1.l05.quiz#8",
+      "type": "sort",
+      "instruction": "Range chaque nom.",
+      "categories": [ { "fr": "masculin" }, { "fr": "féminin" } ],
+      "cards": [
+        { "item": "w:daftar", "category": 0 },
+        { "item": "w:sayyara", "category": 1 },
+        { "item": "w:shari", "category": 0 },
+        { "item": "w:haqiba", "category": 1 },
+        { "item": "w:bint", "category": 1 },
+        { "item": "w:amm", "category": 0 }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.quiz#9",
+      "type": "question",
+      "prompt": { "fr": "Comment appelle-t-on un professeur ?" },
+      "choices": [ { "ar": "يَا أُسْتَاذُ" }, { "ar": "يَا الْأُسْتَاذُ" }, { "ar": "أَيْنَ أُسْتَاذٌ" } ],
+      "answer": 0,
+      "explain": "On place {ar|يَا} devant le nom, qui perd son tanwin et n'a pas d'article : {ar|يَا أُسْتَاذُ}."
+    },
+    {
+      "id": "medine-t1.l05.quiz#10",
+      "type": "true_false",
+      "statement": { "fr": "Le nom interpellé garde son tanwin." },
+      "answer": false,
+      "explain": "Il le perd : {ar|زَيْدٌ} → {ar|يَا زَيْدُ}."
+    },
+    {
+      "id": "medine-t1.l05.quiz#11",
+      "type": "order",
+      "fr": "Ô Khālid, où est la voiture de Zayd ?",
+      "answers": [["يَا", "خَالِدُ،", "أَيْنَ", "سَيَّارَةُ", "زَيْدٍ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l05.quiz#12",
+      "type": "mcq",
+      "mode": "audio-ar",
+      "item": "w:wazir",
+      "distractors": ["w:mudir", "w:duktur"]
+    },
+    {
+      "id": "medine-t1.l05.quiz#13",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:sayyara", "w:daftar", "w:shari", "w:bint"]
+    },
+    {
+      "id": "medine-t1.l05.quiz#14",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « sous le bureau » ?" },
+      "choices": [ { "ar": "تَحْتَ الْمَكْتَبِ" }, { "ar": "عَلَى الْمَكْتَبِ" }, { "ar": "فِي الْمَكْتَبِ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l05.quiz#16",
+      "type": "true_false",
+      "statement": { "ar": "الْكَعْبَةُ بَيْتُ اللَّهِ.", "fr": "La Kaaba est la maison d'Allah." },
+      "answer": true,
+      "explain": "{ar|بَيْتُ اللَّهِ} est une annexion : le premier terme {ar|بَيْتُ} n'a ni article ni tanwin, et {ar|اللَّهِ}, le second terme, est à la kasra."
+    },
+    {
+      "id": "medine-t1.l05.quiz#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "la clé de la voiture",
+      "answers": ["مِفْتَاحُ السَّيَّارَةِ"]
+    },
+    {
+      "id": "medine-t1.l05.quiz#17",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "À qui est ce livre ?",
+      "answers": ["كِتَابُ مَنْ هٰذَا؟"]
+    }
+  ]
+}

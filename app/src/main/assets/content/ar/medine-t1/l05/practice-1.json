@@ -1,0 +1,102 @@
+{
+  "id": "medine-t1.l05.practice-1",
+  "type": "grammar",
+  "title": "S'entraîner à l'annexion",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l05.practice-1#1",
+      "type": "tip",
+      "title": "Exercice 2 : unis les deux mots",
+      "blocks": [
+        { "type": "paragraph", "text": "L'exercice 2 de ton livre donne deux noms : le premier devient le premier terme d'une annexion, le second devient le second terme. Observe ce qui change." },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "كِتَابٌ، مُحَمَّدٌ", "fr": "un livre, Muḥammad" }, "to": { "ar": "كِتَابُ مُحَمَّدٍ", "fr": "le livre de Muḥammad" } },
+            { "from": { "ar": "مَكْتَبٌ، الْمُدَرِّسُ", "fr": "un bureau, l'enseignant" }, "to": { "ar": "مَكْتَبُ الْمُدَرِّسِ", "fr": "le bureau de l'enseignant" } },
+            { "from": { "ar": "قَلَمٌ، حَامِدٌ", "fr": "un stylo, Ḥāmid" }, "to": { "ar": "قَلَمُ حَامِدٍ", "fr": "le stylo de Ḥāmid" } },
+            { "from": { "ar": "مِفْتَاحٌ، الْبَيْتُ", "fr": "une clé, la maison" }, "to": { "ar": "مِفْتَاحُ الْبَيْتِ", "fr": "la clé de la maison" } },
+            { "from": { "ar": "بَيْتٌ، عَبَّاسٌ", "fr": "une maison, ʿAbbās" }, "to": { "ar": "بَيْتُ عَبَّاسٍ", "fr": "la maison de ʿAbbās" } },
+            { "from": { "ar": "دُكَّانٌ، التَّاجِرُ", "fr": "une boutique, le commerçant" }, "to": { "ar": "دُكَّانُ التَّاجِرِ", "fr": "la boutique du commerçant" } }
+          ]
+        },
+        { "type": "note", "text": "Le premier mot perd son tanwin et prend la damma. Le second prend la kasra : le tanwin à la kasra s'il est indéfini ou si c'est un prénom avec tanwin, la kasra simple s'il porte l'article." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.practice-1#2",
+      "type": "sort",
+      "instruction": "Pourquoi le dernier mot est-il à la kasra ? Range chaque expression.",
+      "categories": [ { "fr": "annexion : deux noms l'un derrière l'autre" }, { "fr": "préposition + nom" } ],
+      "cards": [
+        { "ar": "بَابُ الْمَدْرَسَةِ", "category": 0 },
+        { "ar": "فِي الْمَطْبَخِ", "category": 1 },
+        { "ar": "قَلَمُ الْمُدَرِّسِ", "category": 0 },
+        { "ar": "عَلَى الْمَكْتَبِ", "category": 1 },
+        { "ar": "غُرْفَةُ عَلِيٍّ", "category": 0 },
+        { "ar": "إِلَى الْمَسْجِدِ", "category": 1 }
+      ],
+      "explain": "Le nom est à la kasra dans les deux cas, mais pour deux raisons : une préposition devant lui, ou un premier terme d'annexion devant lui."
+    },
+    {
+      "id": "medine-t1.l05.practice-1#3",
+      "type": "spot",
+      "instruction": "Touche les deux noms qui sont à la kasra.",
+      "words": ["قَلَمُ", "الطَّالِبِ", "عَلَى", "الْمَكْتَبِ."],
+      "answers": [1, 3],
+      "fr": "Le stylo de l'étudiant est sur le bureau.",
+      "explain": "{ar|الطَّالِبِ} est le second terme de l'annexion ; {ar|الْمَكْتَبِ} suit la préposition {ar|عَلَى}. {ar|قَلَمُ} est le premier terme : il reste à la damma."
+    },
+    {
+      "id": "medine-t1.l05.practice-1#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|قَلَمُ الطَّالِبِ عَلَى الْمَكْتَبِ}, pourquoi {ar|الطَّالِبِ} est-il à la kasra ?" },
+      "choices": [ { "fr": "Parce que c'est le second terme d'une annexion" }, { "fr": "Parce qu'il suit une préposition" }, { "fr": "Parce que c'est le premier terme" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l05.practice-1#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "le stylo de Ḥāmid",
+      "answers": ["قَلَمُ حَامِدٍ"]
+    },
+    {
+      "id": "medine-t1.l05.practice-1#6",
+      "type": "question",
+      "prompt": { "fr": "Corrige {ar|الْقَلَمُ الطَّالِبِ} pour dire « le stylo de l'étudiant »." },
+      "choices": [ { "ar": "قَلَمُ الطَّالِبِ" }, { "ar": "الْقَلَمُ الطَّالِبُ" }, { "ar": "قَلَمُ طَالِبٍ" } ],
+      "answer": 0,
+      "explain": "Le premier terme n'a pas d'article, et le second prend la kasra. {ar|قَلَمُ طَالِبٍ} veut dire « un stylo d'étudiant »."
+    },
+    {
+      "id": "medine-t1.l05.practice-1#7",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|بِنْتُ الطَّبِيبِ} (la fille du médecin), le mot {ar|بِنْتُ} garde son tanwin." },
+      "answer": false,
+      "explain": "{ar|بِنْتُ} est le premier terme de l'annexion : il perd son tanwin et prend la damma."
+    },
+    {
+      "id": "medine-t1.l05.practice-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "le bureau de l'enseignant",
+      "answers": ["مَكْتَبُ الْمُدَرِّسِ"]
+    },
+    {
+      "id": "medine-t1.l05.practice-1#9",
+      "type": "order",
+      "fr": "Où est la chambre de ʿAlī ?",
+      "answers": [["أَيْنَ", "غُرْفَةُ", "عَلِيٍّ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l05.practice-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "la boutique du commerçant",
+      "answers": ["دُكَّانُ التَّاجِرِ"]
+    }
+  ]
+}

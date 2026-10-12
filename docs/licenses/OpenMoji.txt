@@ -16,5 +16,6 @@ question 2753 · speech 1F5E8 · shop 1F3EA · telescope 1F52D · puzzle 1F9E9
 school 1F3EB · bath 1F6C1 · toilet 1F6BD · kitchen 1F373 · university 1F393 · watch 231A
 kaaba 1F54B · japan 1F1EF-1F1F5 · france 1F1EB-1F1F7 · china 1F1E8-1F1F3 · india 1F1EE-1F1F3
 philippines 1F1F5-1F1ED · africa 1F30D
+car 1F697 · bag 1F4BC · notebook 1F4D3 · girl 1F467 · elder 1F474 · road 1F6E3
 
 Images de l'interface : ui_flag 1F3C1 · ui_trophy 1F3C6

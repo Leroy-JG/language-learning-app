@@ -1,0 +1,359 @@
+[
+  {
+    "id": "w:rafa",
+    "kind": "word",
+    "ar": "الرَّفْعُ",
+    "fr": "le nominatif (cas de la damma)",
+    "translit": "ar-rafʿu",
+    "gender": "m",
+    "note": "Le cas « de base » : c'est la forme sous laquelle on cite un nom. Sa marque habituelle est la damma ({ar|◌ُ}), ou le tanwin {ar|◌ٌ} pour un nom indéfini. Un nom à ce cas est {ar|مَرْفُوعٌ}.",
+    "example": { "ar": "هٰذَا كِتَابٌ.", "fr": "C'est un livre." }
+  },
+  {
+    "id": "w:nasb",
+    "kind": "word",
+    "ar": "النَّصْبُ",
+    "fr": "l'accusatif (cas de la fatha)",
+    "translit": "an-naṣbu",
+    "gender": "m",
+    "note": "Sa marque habituelle est la fatha ({ar|◌َ}), ou le tanwin {ar|◌ً} pour un nom indéfini. Un nom à ce cas est {ar|مَنْصُوبٌ}. On l'a, par exemple, pour ce que le verbe touche : {ar|قَرَأْتُ كِتَابًا} (j'ai lu un livre).",
+    "example": { "ar": "قَرَأْتُ كِتَابًا.", "fr": "J'ai lu un livre." }
+  },
+  {
+    "id": "w:jarr",
+    "kind": "word",
+    "ar": "الْجَرُّ",
+    "fr": "le génitif (cas de la kasra)",
+    "translit": "al-jarru",
+    "gender": "m",
+    "note": "Sa marque habituelle est la kasra ({ar|◌ِ}), ou le tanwin {ar|◌ٍ} pour un nom indéfini. Un nom à ce cas est {ar|مَجْرُورٌ}. On l'a après une préposition et, comme tu vas le voir, comme second terme d'une annexion.",
+    "example": { "ar": "فِي الْبَيْتِ", "fr": "dans la maison" }
+  },
+  {
+    "id": "w:idafa",
+    "kind": "word",
+    "ar": "الْإِضَافَةُ",
+    "fr": "l'annexion",
+    "translit": "al-ʾiḍāfatu",
+    "gender": "f",
+    "note": "Elle associe deux noms : le premier appartient au second ou s'y rattache. En français, elle se traduit le plus souvent par « de ».",
+    "example": { "ar": "كِتَابُ زَيْدٍ", "fr": "le livre de Zayd" }
+  },
+  {
+    "id": "w:mudaf",
+    "kind": "word",
+    "ar": "الْمُضَافُ",
+    "fr": "le premier terme de l'annexion",
+    "translit": "al-muḍāfu",
+    "gender": "m",
+    "note": "Le premier nom de l'annexion : il n'a ni article ni tanwin, et sa terminaison change selon sa place dans la phrase.",
+    "example": { "ar": "كِتَابُ زَيْدٍ", "fr": "le livre de Zayd" }
+  },
+  {
+    "id": "w:mudaf-ilayhi",
+    "kind": "word",
+    "ar": "الْمُضَافُ إِلَيْهِ",
+    "fr": "le second terme de l'annexion",
+    "translit": "al-muḍāfu ʾilayhi",
+    "gender": "m",
+    "note": "Le second nom de l'annexion : il est toujours {ar|مَجْرُورٌ} (en général avec la kasra, ou le tanwin {ar|◌ٍ} s'il est indéfini). Le mot {ar|إِلَيْهِ} veut dire « à lui » : c'est le nom auquel le premier est ajouté.",
+    "example": { "ar": "كِتَابُ زَيْدٍ", "fr": "le livre de Zayd" }
+  },
+  {
+    "id": "w:nida",
+    "kind": "word",
+    "ar": "النِّدَاءُ",
+    "fr": "l'interpellation",
+    "translit": "an-nidāʾu",
+    "gender": "m",
+    "note": "Appeler quelqu'un avec une particule, pour attirer son attention ou exprimer une affinité. Cette particule s'appelle {ar|حَرْفُ النِّدَاءِ}.",
+    "example": { "ar": "يَا مُحَمَّدُ", "fr": "Ô Muḥammad" }
+  },
+  {
+    "id": "w:munada",
+    "kind": "word",
+    "ar": "الْمُنَادَى",
+    "fr": "le nom interpellé",
+    "translit": "al-munādā",
+    "gender": "m",
+    "note": "Le nom de la personne qu'on appelle. Il perd son tanwin : {ar|زَيْدٌ} → {ar|يَا زَيْدُ}.",
+    "example": { "ar": "يَا زَيْدُ", "fr": "Ô Zayd" }
+  },
+  {
+    "id": "w:ya",
+    "kind": "word",
+    "ar": "يَا",
+    "fr": "ô ! (pour appeler quelqu'un)",
+    "translit": "yā",
+    "note": "La particule d'interpellation la plus courante. Elle est la même pour un homme et pour une femme, et se place devant le nom de la personne appelée.",
+    "example": { "ar": "يَا عَلِيُّ", "fr": "Ô ʿAlī" }
+  },
+  {
+    "id": "w:amm",
+    "kind": "word",
+    "ar": "عَمٌّ",
+    "fr": "un oncle paternel",
+    "translit": "ʿammun",
+    "plural": "أَعْمَامٌ",
+    "gender": "m",
+    "note": "Le frère du père. Le {ar|م} est doublé (shadda) et la voyelle finale se pose sur lui : {ar|عَمٌّ}, {ar|عَمُّ زَيْدٍ}.",
+    "example": { "ar": "هٰذَا عَمُّ زَيْدٍ.", "fr": "C'est l'oncle paternel de Zayd." }
+  },
+  {
+    "id": "w:khal",
+    "kind": "word",
+    "ar": "خَالٌ",
+    "fr": "un oncle maternel",
+    "translit": "khālun",
+    "plural": "أَخْوَالٌ",
+    "gender": "m",
+    "note": "Le frère de la mère.",
+    "example": { "ar": "هٰذَا خَالُ زَيْدٍ.", "fr": "C'est l'oncle maternel de Zayd." }
+  },
+  {
+    "id": "w:ibn",
+    "kind": "word",
+    "ar": "اِبْنٌ",
+    "fr": "un fils",
+    "translit": "ibnun",
+    "plural": "أَبْنَاءٌ",
+    "gender": "m",
+    "note": "Le {ar|ا} initial est un alif de liaison, sans hamza : il s'écrit toujours, mais on ne prononce « i » qu'au début d'une phrase. Derrière un autre mot ou après {ar|وَ}, il ne se prononce pas : {ar|هٰذَا اِبْنُ زَيْدٍ} se lit « hādha bnu zaydin », et {ar|وَابْنُ} se lit « wa-bnu ».",
+    "example": { "ar": "هٰذَا اِبْنُ زَيْدٍ.", "fr": "C'est le fils de Zayd." }
+  },
+  {
+    "id": "w:bint",
+    "kind": "word",
+    "ar": "بِنْتٌ",
+    "fr": "une fille",
+    "translit": "bintun",
+    "plural": "بَنَاتٌ",
+    "icon": "girl",
+    "gender": "f",
+    "note": "Mot féminin, bien qu'il ne se termine pas par {ar|ة}. Il veut dire « une fille » et aussi « la fille de quelqu'un ».",
+    "example": { "ar": "بِنْتُ حَامِدٍ فِي الْمَدْرَسَةِ.", "fr": "La fille de Ḥāmid est à l'école." }
+  },
+  {
+    "id": "w:ghani",
+    "kind": "word",
+    "ar": "غَنِيٌّ",
+    "fr": "riche",
+    "translit": "ghaniyyun",
+    "plural": "أَغْنِيَاءُ",
+    "note": "Adjectif : il décrit une personne. Le {ar|ي} final est doublé (shadda) et porte la voyelle finale.",
+    "example": { "ar": "عَمُّ زَيْدٍ غَنِيٌّ.", "fr": "L'oncle paternel de Zayd est riche." }
+  },
+  {
+    "id": "w:faqir",
+    "kind": "word",
+    "ar": "فَقِيرٌ",
+    "fr": "pauvre",
+    "translit": "faqīrun",
+    "plural": "فُقَرَاءُ",
+    "note": "Le contraire de {ar|غَنِيٌّ}.",
+    "example": { "ar": "خَالُ حَامِدٍ فَقِيرٌ.", "fr": "L'oncle maternel de Ḥāmid est pauvre." }
+  },
+  {
+    "id": "w:duktur",
+    "kind": "word",
+    "ar": "دُكْتُورٌ",
+    "fr": "un docteur",
+    "translit": "duktūrun",
+    "plural": "دَكَاتِرَةٌ",
+    "gender": "m",
+    "note": "Le titre d'une personne qui a un doctorat.",
+    "example": { "ar": "هٰذَا دُكْتُورٌ فِي الْجَامِعَةِ.", "fr": "C'est un docteur à l'université." }
+  },
+  {
+    "id": "w:shaykh",
+    "kind": "word",
+    "ar": "شَيْخٌ",
+    "fr": "un cheikh (homme âgé, savant)",
+    "translit": "shaykhun",
+    "plural": "شُيُوخٌ",
+    "icon": "elder",
+    "gender": "m",
+    "note": "Un homme âgé, ou un savant qu'on respecte (pour la religion, par exemple).",
+    "example": { "ar": "هٰذَا شَيْخُ الْمَسْجِدِ.", "fr": "C'est le cheikh de la mosquée." }
+  },
+  {
+    "id": "w:muhandis",
+    "kind": "word",
+    "ar": "مُهَنْدِسٌ",
+    "fr": "un ingénieur",
+    "translit": "muhandisun",
+    "plural": "مُهَنْدِسُونَ",
+    "gender": "m",
+    "note": "Son pluriel est en « -ūna », comme celui de {ar|مُدَرِّسٌ} : {ar|مُدَرِّسُونَ}.",
+    "example": { "ar": "خَرَجَ الْمُهَنْدِسُ.", "fr": "L'ingénieur est sorti." }
+  },
+  {
+    "id": "w:wazir",
+    "kind": "word",
+    "ar": "وَزِيرٌ",
+    "fr": "un ministre",
+    "translit": "wazīrun",
+    "plural": "وُزَرَاءُ",
+    "gender": "m",
+    "example": { "ar": "هٰذَا وَزِيرُ فَرَنْسَا.", "fr": "C'est le ministre de France." }
+  },
+  {
+    "id": "w:ustadh",
+    "kind": "word",
+    "ar": "أُسْتَاذٌ",
+    "fr": "un professeur (titre de respect)",
+    "translit": "ʾustādhun",
+    "plural": "أَسَاتِذَةٌ",
+    "gender": "m",
+    "note": "À l'école et à l'université, c'est le mot qu'on emploie pour un professeur.",
+    "example": { "ar": "هٰذَا أُسْتَاذُ الْفَصْلِ.", "fr": "C'est le professeur de la classe." }
+  },
+  {
+    "id": "w:sayyara",
+    "kind": "word",
+    "ar": "سَيَّارَةٌ",
+    "fr": "une voiture",
+    "translit": "sayyāratun",
+    "plural": "سَيَّارَاتٌ",
+    "icon": "car",
+    "gender": "f",
+    "example": { "ar": "أَيْنَ سَيَّارَةُ زَيْدٍ؟", "fr": "Où est la voiture de Zayd ?" }
+  },
+  {
+    "id": "w:haqiba",
+    "kind": "word",
+    "ar": "حَقِيبَةٌ",
+    "fr": "un sac",
+    "translit": "ḥaqībatun",
+    "plural": "حَقَائِبُ",
+    "icon": "bag",
+    "gender": "f",
+    "note": "Le mot général pour un sac qu'on porte : cartable, mallette, valise…",
+    "example": { "ar": "حَقِيبَةُ زَيْدٍ عَلَى الْمَكْتَبِ.", "fr": "Le sac de Zayd est sur le bureau." }
+  },
+  {
+    "id": "w:daftar",
+    "kind": "word",
+    "ar": "دَفْتَرٌ",
+    "fr": "un cahier",
+    "translit": "daftarun",
+    "plural": "دَفَاتِرُ",
+    "icon": "notebook",
+    "gender": "m",
+    "example": { "ar": "الدَّفْتَرُ عَلَى الْمَكْتَبِ.", "fr": "Le cahier est sur le bureau." }
+  },
+  {
+    "id": "w:shari",
+    "kind": "word",
+    "ar": "شَارِعٌ",
+    "fr": "une rue",
+    "translit": "shāriʿun",
+    "plural": "شَوَارِعُ",
+    "icon": "road",
+    "gender": "m",
+    "example": { "ar": "بَيْتُ زَيْدٍ فِي الشَّارِعِ.", "fr": "La maison de Zayd est dans la rue." }
+  },
+  {
+    "id": "w:mughlaq",
+    "kind": "word",
+    "ar": "مُغْلَقٌ",
+    "fr": "fermé",
+    "translit": "mughlaqun",
+    "note": "Le contraire de {ar|مَفْتُوحٌ}. Pour un nom féminin, on dit {ar|مُغْلَقَةٌ} (tu verras cet accord plus tard).",
+    "example": { "ar": "الْبَابُ مُغْلَقٌ.", "fr": "La porte est fermée." }
+  },
+  {
+    "id": "w:qarib",
+    "kind": "word",
+    "ar": "قَرِيبٌ",
+    "fr": "proche",
+    "translit": "qarībun",
+    "note": "Tu l'as déjà rencontré dans le tableau de {ar|هٰذَا} (chapitre 1).",
+    "example": { "ar": "بَيْتُ التَّاجِرِ قَرِيبٌ.", "fr": "La maison du commerçant est proche." }
+  },
+  {
+    "id": "w:bayid",
+    "kind": "word",
+    "ar": "بَعِيدٌ",
+    "fr": "éloigné, loin",
+    "translit": "baʿīdun",
+    "note": "Le contraire de {ar|قَرِيبٌ}. Tu l'as déjà rencontré dans le tableau de {ar|ذٰلِكَ} (chapitre 2).",
+    "example": { "ar": "بَيْتُ الْمُدَرِّسِ بَعِيدٌ.", "fr": "La maison de l'enseignant est loin." }
+  },
+  {
+    "id": "w:hunak",
+    "kind": "word",
+    "ar": "هُنَاكَ",
+    "fr": "là-bas",
+    "translit": "hunāka",
+    "note": "Il désigne un endroit éloigné, comme {ar|ذٰلِكَ} désigne une chose éloignée. Sa terminaison ne change jamais.",
+    "example": { "ar": "الْمَسْجِدُ هُنَاكَ.", "fr": "La mosquée est là-bas." }
+  },
+  {
+    "id": "w:taht",
+    "kind": "word",
+    "ar": "تَحْتَ",
+    "fr": "sous",
+    "translit": "taḥta",
+    "note": "Comme {ar|فِي} et {ar|عَلَى}, il indique un lieu, mais ce n'est pas une préposition : c'est un nom de lieu, premier terme d'une annexion. Il se termine ici par une fatha, et le nom qui le suit (second terme) est à la kasra : {ar|تَحْتَ الْمَكْتَبِ}.",
+    "example": { "ar": "الْقَلَمُ تَحْتَ الْكِتَابِ.", "fr": "Le stylo est sous le livre." }
+  },
+  {
+    "id": "w:allah",
+    "kind": "word",
+    "ar": "اللَّهُ",
+    "fr": "Allah",
+    "translit": "Allāhu",
+    "note": "Le nom d'Allah en arabe. Comme second terme d'une annexion, il est à la kasra : {ar|اللَّهِ}.",
+    "example": { "ar": "كِتَابُ اللَّهِ", "fr": "le livre d'Allah" }
+  },
+  {
+    "id": "w:rasul",
+    "kind": "word",
+    "ar": "رَسُولٌ",
+    "fr": "un messager",
+    "translit": "rasūlun",
+    "plural": "رُسُلٌ",
+    "gender": "m",
+    "note": "Un envoyé. {ar|رَسُولُ اللَّهِ} (le messager d'Allah) désigne en particulier le Prophète Muḥammad ; tout envoyé d'Allah peut être appelé ainsi.",
+    "example": { "ar": "مُحَمَّدٌ رَسُولُ اللَّهِ.", "fr": "Muḥammad est le messager d'Allah." }
+  },
+  {
+    "id": "w:quran",
+    "kind": "word",
+    "ar": "الْقُرْآنُ",
+    "fr": "le Coran",
+    "translit": "al-qurʾānu",
+    "gender": "m",
+    "note": "Le livre sacré des musulmans. Son nom se rattache le plus souvent à la racine {ar|ق ر أ} (lire, réciter), celle de {ar|قَرَأْتُ} (j'ai lu).",
+    "example": { "ar": "الْقُرْآنُ كِتَابُ اللَّهِ.", "fr": "Le Coran est le livre d'Allah." }
+  },
+  {
+    "id": "w:kaaba",
+    "kind": "word",
+    "ar": "الْكَعْبَةُ",
+    "fr": "la Kaaba",
+    "translit": "al-kaʿbatu",
+    "icon": "kaaba",
+    "gender": "f",
+    "note": "La maison sacrée de La Mecque, vers laquelle les musulmans se tournent pour prier.",
+    "example": { "ar": "الْكَعْبَةُ بَيْتُ اللَّهِ.", "fr": "La Kaaba est la maison d'Allah." }
+  },
+  {
+    "id": "p:salla",
+    "kind": "phrase",
+    "ar": "صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+    "fr": "que la prière et la paix d'Allah soient sur lui",
+    "translit": "ṣallā llāhu ʿalayhi wa sallama",
+    "note": "La formule qu'on dit après le nom du Prophète Muḥammad. Dans les livres arabes, on l'abrège souvent par un petit signe écrit après son nom. Elle contient des verbes et un pronom que tu étudieras plus tard : retiens-la telle quelle."
+  },
+  {
+    "id": "p:madina",
+    "kind": "phrase",
+    "ar": "الْمَدِينَةُ الْمُنَوَّرَةُ",
+    "fr": "Médine (la ville illuminée)",
+    "translit": "al-madīnatu l-munawwaratu",
+    "note": "{ar|الْمَدِينَةُ} veut dire « la ville ». {ar|الْمُنَوَّرَةُ} (« illuminée ») est un adjectif qui décrit la ville : il la suit et prend la même terminaison que lui, comme dans {ar|فِي الْمَدِينَةِ الْمُنَوَّرَةِ} (tu étudieras cet accord plus tard).",
+    "example": { "ar": "هُوَ فِي الْمَدِينَةِ الْمُنَوَّرَةِ.", "fr": "Il est à Médine." }
+  }
+]

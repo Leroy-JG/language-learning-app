@@ -1,0 +1,57 @@
+{
+  "id": "medine-t1.l05.vocab-5",
+  "type": "vocabulary",
+  "title": "Allah, le Coran, la Kaaba et le Messager",
+  "icon": "kaaba",
+  "screens": [
+    { "id": "medine-t1.l05.vocab-5#1", "type": "present", "item": "w:allah" },
+    { "id": "medine-t1.l05.vocab-5#2", "type": "present", "item": "w:quran" },
+    { "id": "medine-t1.l05.vocab-5#3", "type": "present", "item": "w:kaaba" },
+    {
+      "id": "medine-t1.l05.vocab-5#4",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:kaaba",
+      "distractors": ["w:quran", "w:allah"]
+    },
+    { "id": "medine-t1.l05.vocab-5#5", "type": "present", "item": "w:rasul" },
+    { "id": "medine-t1.l05.vocab-5#6", "type": "present", "item": "p:salla" },
+    { "id": "medine-t1.l05.vocab-5#7", "type": "present", "item": "p:madina" },
+    {
+      "id": "medine-t1.l05.vocab-5#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:allah", "w:quran", "w:kaaba", "w:rasul", "p:madina"]
+    },
+    {
+      "id": "medine-t1.l05.vocab-5#9",
+      "type": "fill_gap",
+      "sentence": "الْقُرْآنُ {0} اللَّهِ.",
+      "fr": "Le Coran est le livre d'Allah.",
+      "gaps": [{ "answers": ["كِتَابُ"] }],
+      "options": ["كِتَابُ", "رَسُولُ", "بَيْتُ"]
+    },
+    {
+      "id": "medine-t1.l05.vocab-5#10",
+      "type": "order",
+      "fr": "La Kaaba est la maison d'Allah.",
+      "answers": [["الْكَعْبَةُ", "بَيْتُ", "اللَّهِ"]],
+      "punctuation": ".",
+      "distractors": ["كِتَابُ"]
+    },
+    {
+      "id": "medine-t1.l05.vocab-5#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Muḥammad est le messager d'Allah.",
+      "answers": ["مُحَمَّدٌ رَسُولُ اللَّهِ.", "مُحَمَّدٌ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ رَسُولُ اللَّهِ.", "مُحَمَّدٌ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ."]
+    },
+    {
+      "id": "medine-t1.l05.vocab-5#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il est à Médine.",
+      "answers": ["هُوَ فِي الْمَدِينَةِ الْمُنَوَّرَةِ."]
+    }
+  ]
+}

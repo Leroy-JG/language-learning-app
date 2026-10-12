@@ -1,0 +1,37 @@
+{
+  "id": "medine-t1.l05",
+  "number": 5,
+  "title": { "ar": "الدَّرْسُ الْخَامِسُ", "fr": "À qui est… ? : l'annexion et l'interpellation" },
+  "description": "Dire « le livre de Muḥammad » avec l'annexion {ar|الْإِضَافَةُ}, demander « à qui est… ? », appeler quelqu'un avec {ar|يَا}, et découvrir les trois cas du nom : la damma, la fatha et la kasra.",
+  "source": "Tome de Médine 1, leçon 5 (parties 1 et 2)",
+  "sections": [
+    {
+      "title": "Les trois cas du nom",
+      "activities": ["grammar-1"]
+    },
+    {
+      "title": "L'annexion {ar|الْإِضَافَةُ}",
+      "activities": ["grammar-2", "grammar-3", "vocab-1", "practice-1", "grammar-4", "practice-2"]
+    },
+    {
+      "title": "Docteur, voiture, rue : les mots du chapitre",
+      "activities": ["vocab-2", "vocab-3", "vocab-4", "practice-3"]
+    },
+    {
+      "title": "Allah, le Coran, la Kaaba",
+      "activities": ["vocab-5", "practice-4"]
+    },
+    {
+      "title": "Appeler quelqu'un : {ar|يَا}",
+      "activities": ["grammar-5", "practice-5", "dialogue-1"]
+    },
+    {
+      "title": "Les pluriels",
+      "activities": ["plurals-1"]
+    },
+    {
+      "title": "Bilan du chapitre",
+      "activities": ["quiz"]
+    }
+  ]
+}

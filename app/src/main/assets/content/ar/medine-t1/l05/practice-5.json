@@ -1,0 +1,107 @@
+{
+  "id": "medine-t1.l05.practice-5",
+  "type": "grammar",
+  "title": "Appelle-les !",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l05.practice-5#1",
+      "type": "tip",
+      "title": "Exercice 7 : appelle chaque personne",
+      "blocks": [
+        { "type": "paragraph", "text": "L'exercice 7 de ton livre donne un nom et demande de l'appeler avec {ar|يَا}. Retire le tanwin et garde la damma simple." },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "مُحَمَّدٌ", "fr": "Muḥammad" }, "to": { "ar": "يَا مُحَمَّدُ", "fr": "Ô Muḥammad" } },
+            { "from": { "ar": "خَالِدٌ", "fr": "Khālid" }, "to": { "ar": "يَا خَالِدُ", "fr": "Ô Khālid" } },
+            { "from": { "ar": "أُسْتَاذٌ", "fr": "un professeur" }, "to": { "ar": "يَا أُسْتَاذُ", "fr": "Ô professeur" } },
+            { "from": { "ar": "وَلَدٌ", "fr": "un garçon" }, "to": { "ar": "يَا وَلَدُ", "fr": "Ô garçon" } },
+            { "from": { "ar": "شَيْخٌ", "fr": "un cheikh" }, "to": { "ar": "يَا شَيْخُ", "fr": "Ô cheikh" } },
+            { "from": { "ar": "دُكْتُورٌ", "fr": "un docteur" }, "to": { "ar": "يَا دُكْتُورُ", "fr": "Ô docteur" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.practice-5#2",
+      "type": "tip",
+      "title": "Lis à haute voix",
+      "blocks": [
+        { "type": "paragraph", "text": "Voici une phrase de l'exercice de lecture, puis les noms appelés que le livre te demande de lire en ajoutant les voyelles finales." },
+        { "type": "example", "ar": "مَنْ أَنْتَ يَا وَلَدُ؟ أَنَا اِبْنُ عَبَّاسٍ.", "fr": "Qui es-tu, ô garçon ? Je suis le fils de ʿAbbās." },
+        {
+          "type": "table",
+          "header": ["Nom", "Appelé"],
+          "rows": [
+            ["{ar|عَلِيٌّ}", "{ar|يَا عَلِيُّ}"],
+            ["{ar|عَبَّاسٌ}", "{ar|يَا عَبَّاسُ}"],
+            ["{ar|رَجُلٌ}", "{ar|يَا رَجُلُ}"],
+            ["{ar|يَاسِرٌ}", "{ar|يَا يَاسِرُ}"],
+            ["{ar|عَمَّارٌ}", "{ar|يَا عَمَّارُ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.practice-5#3",
+      "type": "spot",
+      "instruction": "Touche le nom interpellé.",
+      "words": ["يَا", "يَاسِرُ،", "أَيْنَ", "عَمَّارٌ؟"],
+      "answers": [1],
+      "fr": "Yāsir, où est ʿAmmār ?",
+      "explain": "{ar|يَاسِرُ} est appelé par {ar|يَا}. {ar|عَمَّارٌ} n'est pas appelé : c'est de lui qu'on parle, il garde son tanwin."
+    },
+    {
+      "id": "medine-t1.l05.practice-5#4",
+      "type": "sort",
+      "instruction": "Range chaque expression.",
+      "categories": [ { "fr": "on appelle quelqu'un" }, { "fr": "on parle de quelqu'un" } ],
+      "cards": [
+        { "ar": "يَا شَيْخُ", "category": 0 },
+        { "ar": "هٰذَا شَيْخٌ", "category": 1 },
+        { "ar": "يَا وَلَدُ", "category": 0 },
+        { "ar": "هٰذَا وَلَدٌ", "category": 1 },
+        { "ar": "يَا دُكْتُورُ", "category": 0 },
+        { "ar": "هٰذَا دُكْتُورٌ", "category": 1 }
+      ],
+      "explain": "Avec {ar|يَا}, on appelle la personne : le nom perd son tanwin. Avec {ar|هٰذَا}, on parle d'elle : le nom garde son tanwin."
+    },
+    {
+      "id": "medine-t1.l05.practice-5#5",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|مَنْ أَنْتَ يَا وَلَدُ؟}, quel mot est interpellé ?" },
+      "choices": [ { "ar": "وَلَدُ" }, { "ar": "أَنْتَ" }, { "ar": "مَنْ" } ],
+      "answer": 0,
+      "explain": "{ar|يَا وَلَدُ} : « ô garçon ». C'est le garçon qu'on appelle."
+    },
+    {
+      "id": "medine-t1.l05.practice-5#6",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|يَا أُسْتَاذُ}, le mot {ar|أُسْتَاذُ} garde son tanwin." },
+      "answer": false,
+      "explain": "Le nom interpellé perd son tanwin : {ar|أُسْتَاذٌ} → {ar|يَا أُسْتَاذُ}."
+    },
+    {
+      "id": "medine-t1.l05.practice-5#7",
+      "type": "order",
+      "fr": "Ô docteur, où est le sac ?",
+      "answers": [["يَا", "دُكْتُورُ،", "أَيْنَ", "الْحَقِيبَةُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l05.practice-5#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ô professeur",
+      "answers": ["يَا أُسْتَاذُ", "يَا مُدَرِّسُ"]
+    },
+    {
+      "id": "medine-t1.l05.practice-5#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ô ʿAbbās",
+      "answers": ["يَا عَبَّاسُ"]
+    }
+  ]
+}

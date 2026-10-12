@@ -1,0 +1,89 @@
+{
+  "id": "medine-t1.l05.vocab-4",
+  "type": "vocabulary",
+  "title": "Près, loin, sous, là-bas",
+  "icon": "pointing",
+  "screens": [
+    { "id": "medine-t1.l05.vocab-4#1", "type": "present", "item": "w:qarib" },
+    { "id": "medine-t1.l05.vocab-4#2", "type": "present", "item": "w:bayid" },
+    {
+      "id": "medine-t1.l05.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:qarib",
+      "distractors": ["w:bayid", "w:jadid"]
+    },
+    { "id": "medine-t1.l05.vocab-4#4", "type": "present", "item": "w:hunak" },
+    { "id": "medine-t1.l05.vocab-4#5", "type": "present", "item": "w:taht" },
+    {
+      "id": "medine-t1.l05.vocab-4#6",
+      "type": "tip",
+      "title": "Dire où se trouve une chose",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Mot", "Sens", "Exemple"],
+          "rows": [
+            ["{ar|فِي}", "dans", "{ar|فِي الْبَيْتِ}"],
+            ["{ar|عَلَى}", "sur", "{ar|عَلَى الْمَكْتَبِ}"],
+            ["{ar|تَحْتَ}", "sous", "{ar|تَحْتَ الْمَكْتَبِ}"],
+            ["{ar|هُنَاكَ}", "là-bas", "{ar|الْمَسْجِدُ هُنَاكَ}"]
+          ]
+        },
+        { "type": "note", "text": "Après {ar|فِي}, {ar|عَلَى} et {ar|تَحْتَ}, le nom est à la kasra. Mais {ar|تَحْتَ} n'est pas une préposition ({ar|حَرْفُ جَرٍّ}) : c'est un nom de lieu qui se comporte comme le premier terme d'une annexion. Quant à {ar|هُنَاكَ}, il ne change jamais." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.vocab-4#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:fi", "w:ala", "w:taht", "w:hunak", "w:min"]
+    },
+    {
+      "id": "medine-t1.l05.vocab-4#8",
+      "type": "fill_gap",
+      "sentence": "الْقَلَمُ {0} الْكِتَابِ.",
+      "fr": "Le stylo est sous le livre.",
+      "gaps": [{ "answers": ["تَحْتَ"] }],
+      "options": ["تَحْتَ", "فِي", "مِنْ"]
+    },
+    {
+      "id": "medine-t1.l05.vocab-4#9",
+      "type": "spot",
+      "instruction": "Touche le nom qui est à la kasra après {ar|تَحْتَ}.",
+      "words": ["الْحَقِيبَةُ", "تَحْتَ", "الْمَكْتَبِ."],
+      "answers": [2],
+      "fr": "Le sac est sous le bureau.",
+      "explain": "{ar|الْمَكْتَبِ} suit {ar|تَحْتَ} : il est à la kasra."
+    },
+    {
+      "id": "medine-t1.l05.vocab-4#10",
+      "type": "order",
+      "fr": "Le chien est sous la voiture.",
+      "answers": [["الْكَلْبُ", "تَحْتَ", "السَّيَّارَةِ"]],
+      "punctuation": ".",
+      "distractors": ["عَلَى"]
+    },
+    {
+      "id": "medine-t1.l05.vocab-4#11",
+      "type": "true_false",
+      "statement": { "fr": "Le nom qui suit {ar|تَحْتَ} est à la kasra." },
+      "answer": true,
+      "explain": "{ar|تَحْتَ} se comporte comme le premier terme d'une annexion : le nom qui le suit est à la kasra, comme dans {ar|تَحْتَ الْمَكْتَبِ}."
+    },
+    {
+      "id": "medine-t1.l05.vocab-4#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La mosquée est là-bas.",
+      "answers": ["الْمَسْجِدُ هُنَاكَ.", "هُنَاكَ الْمَسْجِدُ."]
+    },
+    {
+      "id": "medine-t1.l05.vocab-4#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "sous le bureau",
+      "answers": ["تَحْتَ الْمَكْتَبِ"]
+    }
+  ]
+}

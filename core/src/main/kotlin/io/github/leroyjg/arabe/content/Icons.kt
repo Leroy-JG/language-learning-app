@@ -13,5 +13,6 @@ object Icons {
         "books", "pointing", "question", "speech", "shop", "telescope", "puzzle",
         "school", "bath", "toilet", "kitchen", "university", "watch", "kaaba",
         "japan", "france", "china", "india", "philippines", "africa",
+        "car", "bag", "notebook", "girl", "elder", "road",
     )
 }

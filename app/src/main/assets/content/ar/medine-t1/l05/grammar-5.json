@@ -1,0 +1,110 @@
+{
+  "id": "medine-t1.l05.grammar-5",
+  "type": "grammar",
+  "title": "Appeler quelqu'un",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l05.grammar-5#1",
+      "type": "tip",
+      "title": "L'interpellation : {ar|النِّدَاءُ}",
+      "blocks": [
+        { "type": "paragraph", "text": "Pour **appeler** quelqu'un, on place la particule {ar|يَا} devant son nom. C'est l'interpellation ({ar|النِّدَاءُ}) : elle sert à attirer l'attention de la personne ou à exprimer une affinité." },
+        {
+          "type": "breakdown",
+          "ar": "يَا زَيْدُ",
+          "fr": "Ô Zayd",
+          "parts": [
+            { "ar": "يَا", "fr": "la particule d'appel" },
+            { "ar": "زَيْدُ", "fr": "le nom interpellé" }
+          ]
+        },
+        { "type": "paragraph", "text": "Le nom de la personne appelée s'appelle {ar|الْمُنَادَى} (« celui qu'on appelle »)." }
+      ]
+    },
+    { "id": "medine-t1.l05.grammar-5#2", "type": "present", "item": "w:ya" },
+    { "id": "medine-t1.l05.grammar-5#3", "type": "present", "item": "w:nida" },
+    {
+      "id": "medine-t1.l05.grammar-5#4",
+      "type": "question",
+      "prompt": { "fr": "Quelle particule sert à appeler quelqu'un ?" },
+      "choices": [ { "ar": "يَا" }, { "ar": "أَيْنَ" }, { "ar": "مَنْ" } ],
+      "answer": 0
+    },
+    { "id": "medine-t1.l05.grammar-5#5", "type": "present", "item": "w:munada" },
+    {
+      "id": "medine-t1.l05.grammar-5#6",
+      "type": "tip",
+      "title": "Le nom interpellé perd son tanwin",
+      "blocks": [
+        { "type": "paragraph", "text": "Le nom d'une personne précise qu'on appelle ({ar|الْمُنَادَى}) perd son **tanwin** : il ne garde que la **damma simple**." },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "زَيْدٌ", "fr": "Zayd" }, "to": { "ar": "يَا زَيْدُ", "fr": "Ô Zayd" }, "label": "le tanwin disparaît" },
+            { "from": { "ar": "مُحَمَّدٌ", "fr": "Muḥammad" }, "to": { "ar": "يَا مُحَمَّدُ", "fr": "Ô Muḥammad" } },
+            { "from": { "ar": "وَلَدٌ", "fr": "un garçon" }, "to": { "ar": "يَا وَلَدُ", "fr": "Ô garçon" } },
+            { "from": { "ar": "رَجُلٌ", "fr": "un homme" }, "to": { "ar": "يَا رَجُلُ", "fr": "Ô homme" } }
+          ]
+        },
+        { "type": "note", "tone": "warning", "text": "Cette règle vaut pour un nom seul. On ne place pas {ar|يَا} directement devant un nom qui porte l'article {ar|الْ}, et un nom suivi d'un second terme d'annexion suit une autre règle, que tu verras plus tard." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.grammar-5#7",
+      "type": "question",
+      "prompt": { "fr": "Que devient {ar|مُحَمَّدٌ} quand on l'appelle avec {ar|يَا} ?" },
+      "choices": [ { "fr": "Il perd son tanwin : {ar|يَا مُحَمَّدُ}" }, { "fr": "Il garde son tanwin" }, { "fr": "Il prend l'article {ar|الْ}" } ],
+      "answer": 0,
+      "explain": "Le nom interpellé perd son tanwin et se termine par la damma simple : {ar|يَا مُحَمَّدُ}."
+    },
+    {
+      "id": "medine-t1.l05.grammar-5#8",
+      "type": "tip",
+      "title": "Homme ou femme : {ar|يَا} ne change pas",
+      "blocks": [
+        { "type": "paragraph", "text": "Que la personne appelée soit un homme ou une femme, la particule {ar|يَا} **ne change pas**." },
+        {
+          "type": "table",
+          "header": ["Particule + nom", "Traduction"],
+          "rows": [
+            ["{ar|يَا أَحْمَدُ}", "Ô Aḥmad"],
+            ["{ar|يَا عَائِشَةُ}", "Ô ʿĀʾisha"],
+            ["{ar|يَا زَيْنَبُ}", "Ô Zaynab"]
+          ]
+        },
+        { "type": "note", "text": "Ces trois noms n'avaient déjà pas de tanwin (chapitre 4) : ils gardent leur forme habituelle." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.grammar-5#9",
+      "type": "spot",
+      "instruction": "Touche le nom interpellé.",
+      "words": ["يَا", "خَالِدُ،", "أَيْنَ", "الْكِتَابُ؟"],
+      "answers": [1],
+      "fr": "Ô Khālid, où est le livre ?",
+      "explain": "{ar|خَالِدُ} est appelé par {ar|يَا} : il perd son tanwin ({ar|خَالِدٌ} → {ar|يَا خَالِدُ})."
+    },
+    {
+      "id": "medine-t1.l05.grammar-5#10",
+      "type": "order",
+      "fr": "Ô Yāsir, où est la clé ?",
+      "answers": [["يَا", "يَاسِرُ،", "أَيْنَ", "الْمِفْتَاحُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l05.grammar-5#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ô Muḥammad",
+      "answers": ["يَا مُحَمَّدُ"]
+    },
+    {
+      "id": "medine-t1.l05.grammar-5#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ô ʿĀʾisha",
+      "answers": ["يَا عَائِشَةُ"]
+    }
+  ]
+}

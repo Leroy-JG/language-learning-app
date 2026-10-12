@@ -1,0 +1,98 @@
+{
+  "id": "medine-t1.l05.practice-3",
+  "type": "grammar",
+  "title": "Annexions : les voyelles finales",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l05.practice-3#1",
+      "type": "tip",
+      "title": "Exercice 3 : lis et écris les terminaisons",
+      "blocks": [
+        { "type": "paragraph", "text": "L'exercice 3 de ton livre te donne des expressions sans voyelles finales. Voici huit d'entre elles, vocalisées. Lis-les à haute voix et regarde la fin de chaque mot." },
+        {
+          "type": "table",
+          "header": ["Expression", "Traduction"],
+          "rows": [
+            ["{ar|بَابُ الْمَدْرَسَةِ}", "la porte de l'école"],
+            ["{ar|حِمَارُ الرَّجُلِ}", "l'âne de l'homme"],
+            ["{ar|سَيَّارَةُ الْمُدِيرِ}", "la voiture du directeur"],
+            ["{ar|مِنْدِيلُ عَمَّارٍ}", "le mouchoir de ʿAmmār"],
+            ["{ar|اِسْمُ الطَّالِبِ}", "le nom de l'étudiant"],
+            ["{ar|بَيْتُ حَامِدٍ}", "la maison de Ḥāmid"],
+            ["{ar|مِنْ بَيْتِ الْمُدَرِّسِ}", "de la maison de l'enseignant"],
+            ["{ar|عَلَى مَكْتَبِ الْمُدِيرِ}", "sur le bureau du directeur"]
+          ]
+        },
+        { "type": "note", "text": "Dans ces expressions sans verbe, le premier terme est à la damma, sauf après une préposition : il passe alors à la kasra ({ar|مِنْ بَيْتِ}, {ar|عَلَى مَكْتَبِ}). Le second terme est toujours {ar|مَجْرُورٌ} (kasra, ou fatha pour un nom privé de tanwin comme {ar|عُمَرُ})." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.practice-3#2",
+      "type": "sort",
+      "instruction": "Le premier terme de l'annexion est-il à la damma ou à la kasra ?",
+      "categories": [ { "fr": "damma : pas de préposition devant" }, { "fr": "kasra : après une préposition" } ],
+      "cards": [
+        { "ar": "بَابُ الْمَدْرَسَةِ", "category": 0 },
+        { "ar": "عَلَى مَكْتَبِ الْمُدِيرِ", "category": 1 },
+        { "ar": "سَيَّارَةُ الْمُدِيرِ", "category": 0 },
+        { "ar": "مِنْ بَيْتِ الْمُدَرِّسِ", "category": 1 },
+        { "ar": "اِسْمُ الطَّالِبِ", "category": 0 },
+        { "ar": "فِي غُرْفَةِ عَلِيٍّ", "category": 1 }
+      ],
+      "explain": "Dans ces expressions, sans préposition devant lui, le premier terme est à la damma. Après une préposition, il est à la kasra."
+    },
+    {
+      "id": "medine-t1.l05.practice-3#3",
+      "type": "spot",
+      "instruction": "Touche les deux premiers termes d'annexion.",
+      "words": ["مِفْتَاحُ", "السَّيَّارَةِ", "عَلَى", "مَكْتَبِ", "الْمُدِيرِ."],
+      "answers": [0, 3],
+      "fr": "La clé de la voiture est sur le bureau du directeur.",
+      "explain": "Il y a deux annexions : {ar|مِفْتَاحُ السَّيَّارَةِ} et {ar|مَكْتَبِ الْمُدِيرِ}. Leurs premiers termes sont {ar|مِفْتَاحُ} (damma) et {ar|مَكْتَبِ} (kasra, à cause de {ar|عَلَى})."
+    },
+    {
+      "id": "medine-t1.l05.practice-3#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|مِنْ بَيْتِ الْمُدَرِّسِ}, comment est {ar|بَيْتِ} ?" },
+      "choices": [ { "fr": "à la kasra, car il suit {ar|مِنْ}" }, { "fr": "à la damma, car c'est un premier terme" }, { "fr": "à la fatha" } ],
+      "answer": 0,
+      "explain": "Un premier terme prend la voyelle que son rôle lui impose : ici, la préposition {ar|مِنْ} le met à la kasra."
+    },
+    {
+      "id": "medine-t1.l05.practice-3#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "le mouchoir de ʿAmmār",
+      "answers": ["مِنْدِيلُ عَمَّارٍ"]
+    },
+    {
+      "id": "medine-t1.l05.practice-3#6",
+      "type": "order",
+      "fr": "Où est la clé de la voiture ?",
+      "answers": [["أَيْنَ", "مِفْتَاحُ", "السَّيَّارَةِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l05.practice-3#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "la maison de l'ingénieur",
+      "answers": ["بَيْتُ الْمُهَنْدِسِ"]
+    },
+    {
+      "id": "medine-t1.l05.practice-3#8",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|عَلَى مَكْتَبِ الْمُدِيرِ}, le mot {ar|مَكْتَبِ} est à la kasra à cause de {ar|عَلَى}." },
+      "answer": true,
+      "explain": "{ar|مَكْتَبِ} est le premier terme de l'annexion, mais la préposition {ar|عَلَى} le met à la kasra. {ar|الْمُدِيرِ} est le second terme."
+    },
+    {
+      "id": "medine-t1.l05.practice-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "le cahier de Saʿīd",
+      "answers": ["دَفْتَرُ سَعِيدٍ"]
+    }
+  ]
+}

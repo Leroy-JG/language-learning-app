@@ -1,0 +1,71 @@
+{
+  "id": "medine-t1.l05.vocab-3",
+  "type": "vocabulary",
+  "title": "La voiture, le sac et la rue",
+  "icon": "car",
+  "screens": [
+    { "id": "medine-t1.l05.vocab-3#1", "type": "present", "item": "w:sayyara" },
+    { "id": "medine-t1.l05.vocab-3#2", "type": "present", "item": "w:haqiba" },
+    {
+      "id": "medine-t1.l05.vocab-3#3",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:sayyara",
+      "distractors": ["w:haqiba", "w:bayt"]
+    },
+    { "id": "medine-t1.l05.vocab-3#4", "type": "present", "item": "w:daftar" },
+    { "id": "medine-t1.l05.vocab-3#5", "type": "present", "item": "w:shari" },
+    {
+      "id": "medine-t1.l05.vocab-3#6",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:shari",
+      "distractors": ["w:sayyara", "w:daftar"]
+    },
+    { "id": "medine-t1.l05.vocab-3#7", "type": "present", "item": "w:mughlaq" },
+    {
+      "id": "medine-t1.l05.vocab-3#8",
+      "type": "memory",
+      "mode": "icon-ar",
+      "items": ["w:sayyara", "w:haqiba", "w:daftar", "w:shari", "w:miftah"]
+    },
+    {
+      "id": "medine-t1.l05.vocab-3#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:sayyara", "w:haqiba", "w:daftar", "w:shari", "w:mughlaq"]
+    },
+    {
+      "id": "medine-t1.l05.vocab-3#10",
+      "type": "fill_gap",
+      "sentence": "الْبَابُ {0}.",
+      "fr": "La porte est fermée.",
+      "gaps": [{ "answers": ["مُغْلَقٌ"] }],
+      "options": ["مُغْلَقٌ", "مَفْتُوحٌ", "جَدِيدٌ"]
+    },
+    {
+      "id": "medine-t1.l05.vocab-3#11",
+      "type": "true_false",
+      "context": { "icon": "car" },
+      "statement": { "ar": "هٰذَا شَارِعٌ.", "fr": "C'est une rue." },
+      "answer": false,
+      "explain": "L'image montre une voiture : {ar|سَيَّارَةٌ}. Une rue se dit {ar|شَارِعٌ}."
+    },
+    { "id": "medine-t1.l05.vocab-3#12", "type": "typing", "ask": "fr", "item": "w:haqiba" },
+    {
+      "id": "medine-t1.l05.vocab-3#13",
+      "type": "order",
+      "fr": "Le cahier est sur le bureau.",
+      "answers": [["الدَّفْتَرُ", "عَلَى", "الْمَكْتَبِ"]],
+      "punctuation": ".",
+      "distractors": ["فِي"]
+    },
+    {
+      "id": "medine-t1.l05.vocab-3#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La maison de Zayd est dans la rue.",
+      "answers": ["بَيْتُ زَيْدٍ فِي الشَّارِعِ."]
+    }
+  ]
+}

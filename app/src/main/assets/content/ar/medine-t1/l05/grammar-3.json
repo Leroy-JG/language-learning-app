@@ -1,0 +1,108 @@
+{
+  "id": "medine-t1.l05.grammar-3",
+  "type": "grammar",
+  "title": "Les règles de l'annexion",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l05.grammar-3#1",
+      "type": "tip",
+      "title": "Le premier terme : ni tanwin ni article",
+      "blocks": [
+        { "type": "paragraph", "text": "Le premier terme ({ar|الْمُضَافُ}) **perd son tanwin** et n'accepte **pas l'article** {ar|الْ}." },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "كِتَابٌ", "fr": "un livre" }, "to": { "ar": "كِتَابُ زَيْدٍ", "fr": "le livre de Zayd" }, "label": "le tanwin disparaît" },
+            { "from": { "ar": "بَابٌ", "fr": "une porte" }, "to": { "ar": "بَابُ الْمَدْرَسَةِ", "fr": "la porte de l'école" } },
+            { "from": { "ar": "قَلَمٌ", "fr": "un stylo" }, "to": { "ar": "قَلَمُ الْمُدَرِّسِ", "fr": "le stylo de l'enseignant" } },
+            { "from": { "ar": "غُرْفَةٌ", "fr": "une chambre" }, "to": { "ar": "غُرْفَةُ الْمُدِيرِ", "fr": "la chambre du directeur" }, "label": "le {ar|ة} reste et se prononce « t » : « ghurfatu l-mudīri »" }
+          ]
+        },
+        { "type": "note", "tone": "warning", "text": "On ne dit jamais {ar|الْكِتَابُ زَيْدٍ}. Pour « le livre de Zayd », le premier terme n'a pas d'article : {ar|كِتَابُ زَيْدٍ}." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.grammar-3#2",
+      "type": "tip",
+      "title": "Le second terme : toujours au {ar|الْجَرُّ}",
+      "blocks": [
+        { "type": "paragraph", "text": "Le second terme ({ar|الْمُضَافُ إِلَيْهِ}) est toujours {ar|مَجْرُورٌ} : il prend la **kasra**, ou le tanwin à la kasra ({ar|◌ٍ}) s'il est indéfini. Il peut aussi porter l'article." },
+        {
+          "type": "table",
+          "header": ["Annexion", "Le second terme est…", "Traduction"],
+          "rows": [
+            ["{ar|كِتَابُ زَيْدٍ}", "un prénom avec tanwin : tanwin à la kasra", "le livre de Zayd"],
+            ["{ar|كِتَابُ طَالِبٍ}", "un nom indéfini : tanwin à la kasra", "un livre d'étudiant"],
+            ["{ar|كِتَابُ الطَّالِبِ}", "un nom défini : kasra", "le livre de l'étudiant"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.grammar-3#3",
+      "type": "tip",
+      "title": "Défini ou indéfini ?",
+      "blocks": [
+        { "type": "paragraph", "text": "Le premier terme n'a pas d'article, mais l'annexion tout entière est **définie** quand le second terme l'est : c'est lui qui donne sa valeur à l'ensemble." },
+        {
+          "type": "table",
+          "header": ["Annexion", "Traduction"],
+          "rows": [
+            ["{ar|كِتَابُ الطَّالِبِ}", "**le** livre de l'étudiant"],
+            ["{ar|كِتَابُ زَيْدٍ}", "**le** livre de Zayd"],
+            ["{ar|كِتَابُ طَالِبٍ}", "**un** livre d'étudiant"]
+          ]
+        },
+        { "type": "note", "text": "Un prénom est un nom défini ({ar|مَعْرِفَةٌ}), même sans article : c'est pourquoi {ar|كِتَابُ زَيْدٍ} se traduit « le livre de Zayd »." }
+      ]
+    },
+    {
+      "id": "medine-t1.l05.grammar-3#4",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « le livre de l'étudiant » ?" },
+      "choices": [ { "ar": "كِتَابُ الطَّالِبِ" }, { "ar": "الْكِتَابُ الطَّالِبِ" }, { "ar": "كِتَابُ طَالِبٍ" } ],
+      "answer": 0,
+      "explain": "Le premier terme n'a pas d'article ; l'ensemble est défini parce que {ar|الطَّالِبِ} l'est. {ar|كِتَابُ طَالِبٍ} veut dire « un livre d'étudiant »."
+    },
+    {
+      "id": "medine-t1.l05.grammar-3#5",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|بَابُ الْمَدْرَسَةِ}, c'est le premier terme qui porte l'article {ar|الْ}." },
+      "answer": false,
+      "explain": "C'est le second terme, {ar|الْمَدْرَسَةِ}, qui porte l'article. Le premier terme, {ar|بَابُ}, n'en a pas."
+    },
+    {
+      "id": "medine-t1.l05.grammar-3#6",
+      "type": "spot",
+      "instruction": "Touche le premier terme de l'annexion.",
+      "words": ["أَيْنَ", "مِفْتَاحُ", "الْبَيْتِ؟"],
+      "answers": [1],
+      "fr": "Où est la clé de la maison ?",
+      "explain": "{ar|مِفْتَاحُ} est le premier terme : sans article, sans tanwin. {ar|الْبَيْتِ} est le second terme."
+    },
+    {
+      "id": "medine-t1.l05.grammar-3#7",
+      "type": "fill_gap",
+      "sentence": "هٰذَا {0} الْمُدَرِّسِ.",
+      "fr": "C'est le stylo de l'enseignant.",
+      "gaps": [{ "answers": ["قَلَمُ"] }],
+      "options": ["قَلَمُ", "الْقَلَمُ"],
+      "explain": "Le premier terme n'a pas d'article : {ar|قَلَمُ الْمُدَرِّسِ}."
+    },
+    {
+      "id": "medine-t1.l05.grammar-3#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "la porte de l'école",
+      "answers": ["بَابُ الْمَدْرَسَةِ"]
+    },
+    {
+      "id": "medine-t1.l05.grammar-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "la chambre du directeur",
+      "answers": ["غُرْفَةُ الْمُدِيرِ"]
+    }
+  ]
+}

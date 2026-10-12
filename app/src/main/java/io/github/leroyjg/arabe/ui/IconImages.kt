@@ -60,6 +60,12 @@ object IconImages {
         "india" to R.drawable.icon_india,
         "philippines" to R.drawable.icon_philippines,
         "africa" to R.drawable.icon_africa,
+        "car" to R.drawable.icon_car,
+        "bag" to R.drawable.icon_bag,
+        "notebook" to R.drawable.icon_notebook,
+        "girl" to R.drawable.icon_girl,
+        "elder" to R.drawable.icon_elder,
+        "road" to R.drawable.icon_road,
     )
 
     @DrawableRes
