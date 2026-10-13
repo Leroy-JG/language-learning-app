@@ -1,0 +1,150 @@
+{
+  "id": "medine-t1.r01.dialogue-3",
+  "type": "dialogue",
+  "title": "Zayd et la prière de l'aube",
+  "icon": "mosque",
+  "screens": [
+    {
+      "id": "medine-t1.r01.dialogue-3#1",
+      "type": "dialogue",
+      "title": "Avant la prière de l'aube",
+      "intro": "Zayd se réveille avant le lever du jour et rencontre son ami Muḥammad sur le chemin de la mosquée.",
+      "speakers": {
+        "N": { "name": "Récit", "voice": "f1" },
+        "Z": { "name": "Zayd", "voice": "m1" },
+        "M": { "name": "Muḥammad", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "N",
+          "ar": "اِسْتَيْقَظَ زَيْدٌ قَبْلَ صَلَاةِ الْفَجْرِ. قَامَ مِنْ سَرِيرِهِ وَذَهَبَ إِلَى الْحَمَّامِ.",
+          "fr": "Zayd s'est réveillé avant la prière de l'aube. Il s'est levé de son lit et est allé à la salle de bains."
+        },
+        {
+          "speaker": "N",
+          "ar": "تَوَضَّأَ مِنْ مَاءِ الصُّنْبُورِ، ثُمَّ لَبِسَ قَمِيصَهُ الْأَبْيَضَ وَخَرَجَ مِنَ الْبَيْتِ سَرِيعًا.",
+          "fr": "Il a fait ses ablutions avec l'eau du robinet, puis il a mis sa chemise blanche et il est sorti de la maison en vitesse."
+        },
+        {
+          "speaker": "N",
+          "ar": "لَقِيَ فِي طَرِيقِ الْمَسْجِدِ صَدِيقَهُ مُحَمَّدًا.",
+          "fr": "Sur la route de la mosquée, il a rencontré son ami Muḥammad."
+        },
+        { "speaker": "M", "ar": "السَّلَامُ عَلَيْكَ يَا صَدِيقِي.", "fr": "Que la paix soit sur toi, mon ami." },
+        { "speaker": "Z", "ar": "عَلَيْكَ السَّلَامُ يَا مُحَمَّدُ.", "fr": "Sur toi la paix, Muḥammad." },
+        { "speaker": "M", "ar": "كَيْفَ حَالُكَ؟", "fr": "Comment vas-tu ?" },
+        {
+          "speaker": "Z",
+          "ar": "بِخَيْرٍ، الْحَمْدُ لِلَّهِ. وَكَيْفَ أَنْتَ يَا أَخِي؟",
+          "fr": "Bien, louange à Allah. Et toi, comment vas-tu, mon frère ?"
+        },
+        { "speaker": "M", "ar": "بِخَيْرٍ، الْحَمْدُ لِلَّهِ.", "fr": "Bien, louange à Allah." },
+        {
+          "speaker": "N",
+          "ar": "سَمِعَ زَيْدٌ وَمُحَمَّدٌ الْأَذَانَ.",
+          "fr": "Zayd et Muḥammad ont entendu l'appel à la prière."
+        },
+        {
+          "speaker": "Z",
+          "ar": "هَيَّا نُسْرِعُ يَا مُحَمَّدُ، لَا نَتَأَخَّرُ عَنِ الصَّلَاةِ.",
+          "fr": "Allons, dépêchons-nous, Muḥammad : nous ne serons pas en retard à la prière."
+        },
+        { "speaker": "M", "ar": "حَسَنًا.", "fr": "D'accord." }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.dialogue-3#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ce texte contient des formes que tu étudieras plus tard. Tu peux déjà les repérer :"
+        },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens"],
+          "rows": [
+            [
+              "{ar|سَرِيرِهِ}",
+              "son lit : le {ar|هِ} final veut dire « son » (il s'écrit {ar|هِ} après une kasra ou un {ar|ي}, et {ar|هُ} partout ailleurs : {ar|قَمِيصَهُ}, {ar|صَدِيقَهُ})"
+            ],
+            ["{ar|صَدِيقِي}", "mon ami : le {ar|ي} final veut dire « mon »"],
+            ["{ar|حَالُكَ}", "ton état : le {ar|كَ} final veut dire « ton » (à un homme)"],
+            ["{ar|أَخِي}", "mon frère : le {ar|ي} final veut dire « mon »"],
+            [
+              "{ar|نُسْرِعُ}, {ar|نَتَأَخَّرُ}",
+              "nous nous dépêchons, nous sommes en retard : le {ar|نُ} ou {ar|نَ} au début veut dire « nous » ; {ar|لَا} exprime la négation"
+            ],
+            [
+              "{ar|عَنِ الصَّلَاةِ}",
+              "de la prière : {ar|عَنْ} veut dire « de, loin de » ; {ar|تَأَخَّرَ عَنِ الصَّلَاةِ} = être en retard à la prière"
+            ],
+            [
+              "{ar|سَرِيعًا}",
+              "en vitesse : comme {ar|جَيِّدًا}, un adjectif avec le tanwin à la fatha employé comme adverbe"
+            ],
+            [
+              "{ar|قَبْلَ}",
+              "avant : un adverbe, comme {ar|فَوْقَ} et {ar|خَلْفَ} ; le nom qui le suit est au génitif"
+            ],
+            ["{ar|سَمِعَ}", "il a entendu"],
+            ["{ar|الْأَذَانُ}", "l'appel à la prière"]
+          ]
+        },
+        { "type": "note", "text": "Tu n'as pas à les apprendre maintenant : tu les étudieras plus tard." }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.dialogue-3#3",
+      "type": "question",
+      "prompt": { "fr": "Que fait Zayd juste après ses ablutions ?" },
+      "choices": [ { "fr": "Il met sa chemise blanche" }, { "fr": "Il va à la mosquée" }, { "fr": "Il rencontre Muḥammad" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r01.dialogue-3#1" }
+    },
+    {
+      "id": "medine-t1.r01.dialogue-3#4",
+      "type": "question",
+      "prompt": { "fr": "Qui Zayd rencontre-t-il sur la route de la mosquée ?" },
+      "choices": [ { "fr": "Son ami Muḥammad" }, { "fr": "Le muezzin" }, { "fr": "Le directeur" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r01.dialogue-3#1" }
+    },
+    {
+      "id": "medine-t1.r01.dialogue-3#5",
+      "type": "true_false",
+      "statement": { "fr": "Zayd s'est réveillé après la prière de l'aube." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.r01.dialogue-3#1" },
+      "explain": "Il s'est réveillé avant : {ar|قَبْلَ صَلَاةِ الْفَجْرِ}."
+    },
+    {
+      "id": "medine-t1.r01.dialogue-3#6",
+      "type": "order",
+      "fr": "Zayd a fait ses ablutions, puis il est sorti de la maison.",
+      "answers": [
+        ["تَوَضَّأَ", "زَيْدٌ", "ثُمَّ", "خَرَجَ", "مِنَ", "الْبَيْتِ"],
+        ["زَيْدٌ", "تَوَضَّأَ", "ثُمَّ", "خَرَجَ", "مِنَ", "الْبَيْتِ"]
+      ],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.r01.dialogue-3#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَيْفَ حَالُكَ يَا مُحَمَّدُ؟",
+      "answers": ["بِخَيْرٍ الْحَمْدُ لِلَّهِ.", "أَنَا بِخَيْرٍ الْحَمْدُ لِلَّهِ.", "بِخَيْرٍ.", "أَنَا بِخَيْرٍ."],
+      "fr": "Bien, louange à Allah.",
+      "instruction": "Réponds : bien, louange à Allah.",
+      "context": { "dialogue": "medine-t1.r01.dialogue-3#1" }
+    },
+    {
+      "id": "medine-t1.r01.dialogue-3#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Que la paix soit sur toi, Muḥammad.",
+      "answers": ["السَّلَامُ عَلَيْكَ يَا مُحَمَّدُ."]
+    }
+  ]
+}

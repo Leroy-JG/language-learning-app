@@ -25,6 +25,7 @@
     "ar": "كَبِيرٌ",
     "fr": "grand, gros",
     "translit": "kabīrun",
+    "plural": "كِبَارٌ",
     "note": "Au féminin : {ar|كَبِيرَةٌ}. Contraire : {ar|صَغِيرٌ}.",
     "example": { "ar": "هٰذَا بَيْتٌ كَبِيرٌ.", "fr": "C'est une grande maison." }
   },
@@ -34,6 +35,7 @@
     "ar": "صَغِيرٌ",
     "fr": "petit",
     "translit": "ṣaghīrun",
+    "plural": "صِغَارٌ",
     "note": "Au féminin : {ar|صَغِيرَةٌ}. Contraire : {ar|كَبِيرٌ}.",
     "example": { "ar": "هٰذَا كِتَابٌ صَغِيرٌ.", "fr": "C'est un petit livre." }
   },

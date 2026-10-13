@@ -258,7 +258,7 @@ private fun ChapterCard(
             ) {
                 Column(Modifier.weight(1f)) {
                     Text(
-                        stringResource(R.string.chapter_label, chapter.file.number),
+                        (chapter.file.label ?: stringResource(R.string.chapter_label, chapter.file.number)),
                         style = MaterialTheme.typography.headlineMedium.copy(fontWeight = FontWeight.Bold),
                     )
                     Text(

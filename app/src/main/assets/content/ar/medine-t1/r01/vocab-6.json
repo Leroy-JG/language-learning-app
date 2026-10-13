@@ -1,0 +1,115 @@
+{
+  "id": "medine-t1.r01.vocab-6",
+  "type": "vocabulary",
+  "title": "À l'école : réussir, réviser, habiter",
+  "icon": "teacher",
+  "screens": [
+    { "id": "medine-t1.r01.vocab-6#1", "type": "present", "item": "w:najaha" },
+    { "id": "medine-t1.r01.vocab-6#2", "type": "present", "item": "w:fashila" },
+    {
+      "id": "medine-t1.r01.vocab-6#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:najaha",
+      "distractors": ["w:fashila", "w:jalasa"]
+    },
+    { "id": "medine-t1.r01.vocab-6#4", "type": "present", "item": "w:rajaa-2" },
+    { "id": "medine-t1.r01.vocab-6#5", "type": "present", "item": "w:hafidha" },
+    {
+      "id": "medine-t1.r01.vocab-6#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:rajaa-2",
+      "distractors": ["w:rajaa", "w:kataba"]
+    },
+    { "id": "medine-t1.r01.vocab-6#7", "type": "present", "item": "w:rafaa" },
+    { "id": "medine-t1.r01.vocab-6#8", "type": "present", "item": "w:sakana" },
+    {
+      "id": "medine-t1.r01.vocab-6#9",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:sakana",
+      "distractors": ["w:rafaa", "w:hafidha"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-6#10",
+      "type": "tip",
+      "title": "Leurs formes (1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme au chapitre 8, chaque verbe est cité **au passé, à la troisième personne du masculin singulier**. Voici ses quatre formes, données pour que tu les reconnaisses : tu n'as pas à les apprendre maintenant."
+        },
+        {
+          "type": "table",
+          "header": ["Forme", "réussir", "échouer", "réviser"],
+          "rows": [
+            ["{ar|الْمَاضِي} (passé)", "{ar|نَجَحَ}", "{ar|فَشِلَ}", "{ar|رَاجَعَ}"],
+            ["{ar|الْمُضَارِعُ} (présent, futur)", "{ar|يَنْجَحُ}", "{ar|يَفْشَلُ}", "{ar|يُرَاجِعُ}"],
+            ["{ar|الْأَمْرُ} (impératif)", "{ar|اِنْجَحْ}", "{ar|اِفْشَلْ}", "{ar|رَاجِعْ}"],
+            ["{ar|الْمَصْدَرُ} (nom d'action)", "{ar|نَجَاحٌ}", "{ar|فَشَلٌ}", "{ar|مُرَاجَعَةٌ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.vocab-6#11",
+      "type": "tip",
+      "title": "Leurs formes (2)",
+      "blocks": [
+        { "type": "paragraph", "text": "Les formes des trois autres verbes :" },
+        {
+          "type": "table",
+          "header": ["Forme", "mémoriser", "lever", "habiter"],
+          "rows": [
+            ["{ar|الْمَاضِي} (passé)", "{ar|حَفِظَ}", "{ar|رَفَعَ}", "{ar|سَكَنَ}"],
+            ["{ar|الْمُضَارِعُ} (présent, futur)", "{ar|يَحْفَظُ}", "{ar|يَرْفَعُ}", "{ar|يَسْكُنُ}"],
+            ["{ar|الْأَمْرُ} (impératif)", "{ar|اِحْفَظْ}", "{ar|اِرْفَعْ}", "{ar|اُسْكُنْ}"],
+            ["{ar|الْمَصْدَرُ} (nom d'action)", "{ar|حِفْظٌ}", "{ar|رَفْعٌ}", "{ar|سُكْنَى}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Comme au chapitre 8, l'alif de l'impératif prend une damma quand l'avant-dernière lettre du présent porte une damma ({ar|يَسْكُنُ} → {ar|اُسْكُنْ}), et une kasra sinon ({ar|يَحْفَظُ} → {ar|اِحْفَظْ}). Pour {ar|رَاجَعَ}, il n'y a pas d'alif de liaison. Le tableau du professeur donne {ar|سُكُونٌ} pour « habiter » ; ce mot veut plutôt dire « calme, immobilité », et le nom d'action de « habiter » est {ar|سُكْنَى}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.vocab-6#12",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ فِي الِاخْتِبَارِ.",
+      "fr": "Zayd a réussi à l'examen.",
+      "gaps": [ { "answers": ["نَجَحَ"] } ],
+      "options": ["نَجَحَ", "فَشِلَ", "سَكَنَ"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-6#13",
+      "type": "true_false",
+      "statement": { "fr": "{ar|رَاجَعَ} et {ar|رَجَعَ} ont le même sens." },
+      "answer": false,
+      "explain": "{ar|رَاجَعَ} (avec un alif long) veut dire « il a révisé » ; {ar|رَجَعَ} veut dire « il est revenu »."
+    },
+    {
+      "id": "medine-t1.r01.vocab-6#14",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ خَلْفَ الْمَسْجِدِ.",
+      "fr": "Zayd a habité derrière la mosquée.",
+      "gaps": [ { "answers": ["سَكَنَ"] } ],
+      "options": ["سَكَنَ", "نَجَحَ", "فَشِلَ"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-6#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Yāsir a échoué.",
+      "answers": ["فَشِلَ يَاسِرٌ.", "يَاسِرٌ فَشِلَ."]
+    },
+    {
+      "id": "medine-t1.r01.vocab-6#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'étudiant a réussi à l'examen.",
+      "answers": ["نَجَحَ الطَّالِبُ فِي الِاخْتِبَارِ."]
+    }
+  ]
+}

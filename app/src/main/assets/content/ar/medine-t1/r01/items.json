@@ -1,0 +1,376 @@
+[
+  {
+    "id": "w:makan",
+    "kind": "word",
+    "ar": "مَكَانٌ",
+    "fr": "un lieu, un endroit",
+    "translit": "makānun",
+    "plural": "أَمَاكِنُ",
+    "gender": "m",
+    "note": "{ar|هُنَا} et {ar|هُنَاكَ} désignent un {ar|مَكَانٌ} (un lieu).",
+    "example": { "ar": "أَيْنَ هٰذَا الْمَكَانُ؟", "fr": "Où est cet endroit ?" }
+  },
+  {
+    "id": "w:madha",
+    "kind": "word",
+    "ar": "مَاذَا",
+    "fr": "qu'y a-t-il… ? (qu'est-ce que… ?)",
+    "translit": "mādhā",
+    "note": "Formé de {ar|مَا} et de {ar|ذَا} (forme courte de {ar|هٰذَا}). Comme {ar|مَا}, il demande en principe une chose, pas une personne. Sa terminaison ne change jamais.",
+    "example": { "ar": "مَاذَا عَلَى الْمَكْتَبِ؟", "fr": "Qu'y a-t-il sur le bureau ?" }
+  },
+  {
+    "id": "w:limadha",
+    "kind": "word",
+    "ar": "لِمَاذَا",
+    "fr": "pourquoi ?",
+    "translit": "limādhā",
+    "note": "Formé de {ar|لِ} (« pour »), de {ar|مَا} (« quoi ») et de {ar|ذَا} : « pour quoi ? ». Sa terminaison ne change jamais.",
+    "example": { "ar": "لِمَاذَا خَرَجَ زَيْدٌ؟", "fr": "Pourquoi Zayd est-il sorti ?" }
+  },
+  {
+    "id": "w:li-annahu",
+    "kind": "word",
+    "ar": "لِأَنَّهُ",
+    "fr": "parce que",
+    "translit": "li-annahu",
+    "note": "Il répond à {ar|لِمَاذَا؟}. Il est formé de {ar|لِ} (« pour »), de {ar|أَنَّ} (« que ») et de {ar|هُ} (« il ») : mot à mot « parce que lui… ». Pour une femme : {ar|لِأَنَّهَا} (« parce qu'elle »).",
+    "example": { "ar": "لِأَنَّهُ مَرِيضٌ.", "fr": "Parce qu'il est malade." }
+  },
+  {
+    "id": "w:usbu",
+    "kind": "word",
+    "ar": "أُسْبُوعٌ",
+    "fr": "une semaine",
+    "translit": "usbūʿun",
+    "plural": "أَسَابِيعُ",
+    "gender": "m"
+  },
+  {
+    "id": "w:ahad",
+    "kind": "word",
+    "ar": "يَوْمُ الْأَحَدِ",
+    "fr": "dimanche",
+    "translit": "yawmu l-aḥadi",
+    "gender": "m"
+  },
+  {
+    "id": "w:ithnayn",
+    "kind": "word",
+    "ar": "يَوْمُ الِاثْنَيْنِ",
+    "fr": "lundi",
+    "translit": "yawmu l-ithnayni",
+    "gender": "m"
+  },
+  {
+    "id": "w:thulatha",
+    "kind": "word",
+    "ar": "يَوْمُ الثُّلَاثَاءِ",
+    "fr": "mardi",
+    "translit": "yawmu th-thulāthāʾi",
+    "gender": "m"
+  },
+  {
+    "id": "w:arbia",
+    "kind": "word",
+    "ar": "يَوْمُ الْأَرْبِعَاءِ",
+    "fr": "mercredi",
+    "translit": "yawmu l-arbiʿāʾi",
+    "gender": "m"
+  },
+  {
+    "id": "w:khamis",
+    "kind": "word",
+    "ar": "يَوْمُ الْخَمِيسِ",
+    "fr": "jeudi",
+    "translit": "yawmu l-khamīsi",
+    "gender": "m"
+  },
+  {
+    "id": "w:jumua",
+    "kind": "word",
+    "ar": "يَوْمُ الْجُمُعَةِ",
+    "fr": "vendredi",
+    "translit": "yawmu l-jumuʿati",
+    "gender": "m"
+  },
+  {
+    "id": "w:sabt",
+    "kind": "word",
+    "ar": "يَوْمُ السَّبْتِ",
+    "fr": "samedi",
+    "translit": "yawmu s-sabti",
+    "gender": "m"
+  },
+  {
+    "id": "w:dars",
+    "kind": "word",
+    "ar": "دَرْسٌ",
+    "fr": "une leçon, un cours",
+    "translit": "darsun",
+    "plural": "دُرُوسٌ",
+    "gender": "m",
+    "example": { "ar": "الدَّرْسُ فِي الْفَصْلِ.", "fr": "Le cours est dans la salle de classe." }
+  },
+  {
+    "id": "w:ikhtibar",
+    "kind": "word",
+    "ar": "اِخْتِبَارٌ",
+    "fr": "un examen",
+    "translit": "ikhtibārun",
+    "plural": "اِخْتِبَارَاتٌ",
+    "gender": "m",
+    "example": { "ar": "الِاخْتِبَارُ سَهْلٌ.", "fr": "L'examen est facile." }
+  },
+  {
+    "id": "w:unwan",
+    "kind": "word",
+    "ar": "عُنْوَانٌ",
+    "fr": "un titre, une adresse",
+    "translit": "ʿunwānun",
+    "plural": "عَنَاوِينُ",
+    "gender": "m",
+    "example": { "ar": "عُنْوَانُ الْكِتَابِ.", "fr": "Le titre du livre." }
+  },
+  {
+    "id": "w:waraq",
+    "kind": "word",
+    "ar": "وَرَقٌ",
+    "fr": "du papier",
+    "translit": "waraqun",
+    "gender": "m",
+    "note": "Nom de matière, comme {ar|سُكَّرٌ} (chapitre 2). Pour une feuille : {ar|وَرَقَةٌ}.",
+    "example": { "ar": "الْوَرَقُ عَلَى الْمَكْتَبِ.", "fr": "Le papier est sur le bureau." }
+  },
+  {
+    "id": "w:farih",
+    "kind": "word",
+    "ar": "فَرِحٌ",
+    "fr": "content",
+    "translit": "fariḥun",
+    "plural": "فَرْحَى",
+    "note": "Au féminin : {ar|فَرِحَةٌ}. Son pluriel {ar|فَرْحَى} n'a pas de tanwin (comme {ar|مَرْضَى}) ; on dit aussi {ar|فَرِحُونَ}.",
+    "example": { "ar": "زَيْدٌ فَرِحٌ.", "fr": "Zayd est content." }
+  },
+  {
+    "id": "w:hazin",
+    "kind": "word",
+    "ar": "حَزِينٌ",
+    "fr": "triste",
+    "translit": "ḥazīnun",
+    "plural": "حِزَانٌ",
+    "note": "Au féminin : {ar|حَزِينَةٌ}.",
+    "example": { "ar": "فَاطِمَةُ حَزِينَةٌ.", "fr": "Fāṭima est triste." }
+  },
+  {
+    "id": "w:jayyid",
+    "kind": "word",
+    "ar": "جَيِّدٌ",
+    "fr": "bon, excellent",
+    "translit": "jayyidun",
+    "note": "Au féminin : {ar|جَيِّدَةٌ}.",
+    "example": { "ar": "الدَّرْسُ جَيِّدٌ.", "fr": "Le cours est excellent." }
+  },
+  {
+    "id": "p:salam",
+    "kind": "phrase",
+    "ar": "السَّلَامُ عَلَيْكَ",
+    "fr": "que la paix soit sur toi (salutation à un homme)",
+    "translit": "as-salāmu ʿalayka",
+    "note": "Le {ar|كَ} final veut dire « toi » (à un homme). À une femme : {ar|السَّلَامُ عَلَيْكِ}."
+  },
+  {
+    "id": "p:alayk-salam",
+    "kind": "phrase",
+    "ar": "عَلَيْكَ السَّلَامُ",
+    "fr": "sur toi la paix (réponse à la salutation)",
+    "translit": "ʿalayka s-salāmu",
+    "note": "On dit aussi {ar|وَعَلَيْكَ السَّلَامُ}, et on peut ajouter {ar|وَرَحْمَةُ اللَّهِ} : « et la miséricorde d'Allah »."
+  },
+  {
+    "id": "w:kayfa",
+    "kind": "word",
+    "ar": "كَيْفَ",
+    "fr": "comment… ?",
+    "translit": "kayfa",
+    "note": "Nom interrogatif ({ar|اِسْمُ اسْتِفْهَامٍ}) : comme {ar|أَيْنَ}, sa terminaison ne change jamais (fatha).",
+    "example": { "ar": "كَيْفَ أَنْتَ؟", "fr": "Comment vas-tu ? (à un homme)" }
+  },
+  {
+    "id": "p:kayfa-haluka",
+    "kind": "phrase",
+    "ar": "كَيْفَ حَالُكَ؟",
+    "fr": "Comment vas-tu ? (à un homme)",
+    "translit": "kayfa ḥāluka?",
+    "note": "Mot à mot : « comment est ton état ? ». {ar|حَالٌ} veut dire « état » ; le {ar|كَ} final veut dire « ton » (à un homme). À une femme : {ar|كَيْفَ حَالُكِ؟}"
+  },
+  {
+    "id": "w:khayr",
+    "kind": "word",
+    "ar": "خَيْرٌ",
+    "fr": "du bien",
+    "translit": "khayrun",
+    "gender": "m",
+    "note": "Il veut aussi dire « meilleur ». {ar|بِخَيْرٍ} veut dire « bien » (en bonne santé) : le {ar|بِ} (« avec ») sera vu plus tard.",
+    "example": { "ar": "أَنَا بِخَيْرٍ.", "fr": "Je vais bien." }
+  },
+  {
+    "id": "w:alyawm",
+    "kind": "word",
+    "ar": "الْيَوْمَ",
+    "fr": "aujourd'hui",
+    "translit": "al-yawma",
+    "note": "Adverbe de temps : comme {ar|الْآنَ} (chapitre 8), il porte la fatha.",
+    "example": { "ar": "كَيْفَ أَنْتَ الْيَوْمَ؟", "fr": "Comment vas-tu aujourd'hui ?" }
+  },
+  {
+    "id": "w:hasanan",
+    "kind": "word",
+    "ar": "حَسَنًا",
+    "fr": "d'accord !",
+    "translit": "ḥasanan",
+    "note": "À l'origine « bien » ; on le dit pour accepter ce qu'on te demande.",
+    "example": { "ar": "حَسَنًا يَا أُسْتَاذُ.", "fr": "D'accord, professeur !" }
+  },
+  {
+    "id": "w:thumma",
+    "kind": "word",
+    "ar": "ثُمَّ",
+    "fr": "ensuite, puis",
+    "translit": "thumma",
+    "note": "Comme {ar|وَ}, cette particule relie deux éléments ; elle ajoute l'idée d'ordre : d'abord l'un, ensuite l'autre.",
+    "example": { "ar": "خَرَجَ الْمُدَرِّسُ ثُمَّ الطُّلَّابُ.", "fr": "L'enseignant est sorti, puis les étudiants." }
+  },
+  {
+    "id": "w:hayya",
+    "kind": "word",
+    "ar": "هَيَّا",
+    "fr": "allons ! (en avant !)",
+    "translit": "hayyā",
+    "note": "Invariable ; on l'emploie pour encourager.",
+    "example": { "ar": "هَيَّا إِلَى الْمَدْرَسَةِ.", "fr": "Allons à l'école !" }
+  },
+  {
+    "id": "p:marhaban",
+    "kind": "phrase",
+    "ar": "مَرْحَبًا بِكَ",
+    "fr": "bienvenue à toi (à un homme)",
+    "translit": "marḥaban bika",
+    "note": "À une femme : {ar|مَرْحَبًا بِكِ}. Le {ar|بِ} (« à, avec ») sera vu plus tard."
+  },
+  { "id": "w:najaha", "kind": "word", "ar": "نَجَحَ", "fr": "il a réussi (réussir)", "translit": "najaḥa" },
+  { "id": "w:fashila", "kind": "word", "ar": "فَشِلَ", "fr": "il a échoué (échouer)", "translit": "fashila" },
+  {
+    "id": "w:rajaa-2",
+    "kind": "word",
+    "ar": "رَاجَعَ",
+    "fr": "il a révisé (réviser)",
+    "translit": "rājaʿa",
+    "note": "Ne le confonds pas avec {ar|رَجَعَ} « il est revenu » (chapitre 8) : {ar|رَاجَعَ} a un alif long après le {ar|ر}."
+  },
+  { "id": "w:hafidha", "kind": "word", "ar": "حَفِظَ", "fr": "il a mémorisé (mémoriser)", "translit": "ḥafiẓa" },
+  {
+    "id": "w:rafaa",
+    "kind": "word",
+    "ar": "رَفَعَ",
+    "fr": "il a levé (lever, élever)",
+    "translit": "rafaʿa",
+    "note": "Même racine que {ar|الرَّفْعُ} (le nominatif, chapitre 5) : « le fait de lever »."
+  },
+  { "id": "w:sakana", "kind": "word", "ar": "سَكَنَ", "fr": "il a habité (habiter)", "translit": "sakana" },
+  {
+    "id": "w:salat",
+    "kind": "word",
+    "ar": "صَلَاةٌ",
+    "fr": "une prière (la prière rituelle)",
+    "translit": "ṣalātun",
+    "plural": "صَلَوَاتٌ",
+    "gender": "f",
+    "example": { "ar": "الصَّلَاةُ فِي الْمَسْجِدِ.", "fr": "La prière est dans la mosquée." }
+  },
+  {
+    "id": "w:fajr",
+    "kind": "word",
+    "ar": "فَجْرٌ",
+    "fr": "une aube",
+    "translit": "fajrun",
+    "gender": "m",
+    "note": "{ar|صَلَاةُ الْفَجْرِ} est la prière de l'aube, la première prière de la journée.",
+    "example": { "ar": "الْفَجْرُ قَرِيبٌ.", "fr": "L'aube est proche." }
+  },
+  {
+    "id": "w:sunbur",
+    "kind": "word",
+    "ar": "صُنْبُورٌ",
+    "fr": "un robinet",
+    "translit": "ṣunbūrun",
+    "plural": "صَنَابِيرُ",
+    "gender": "m",
+    "example": { "ar": "الصُّنْبُورُ فِي الْحَمَّامِ.", "fr": "Le robinet est dans la salle de bains." }
+  },
+  {
+    "id": "w:abyad",
+    "kind": "word",
+    "ar": "أَبْيَضُ",
+    "fr": "blanc",
+    "translit": "abyaḍu",
+    "plural": "بِيضٌ",
+    "note": "Pas de tanwin (forme {ar|أَفْعَلُ}, les noms privés de tanwin : chapitre 4). Au féminin : {ar|بَيْضَاءُ}. Son pluriel {ar|بِيضٌ} (avec une kasra) s'écrit comme {ar|بَيْضٌ} « des œufs » (chapitre 7), mais ce sont deux mots différents.",
+    "example": { "ar": "الْمَسْجِدُ أَبْيَضُ.", "fr": "La mosquée est blanche." }
+  },
+  {
+    "id": "w:tariq",
+    "kind": "word",
+    "ar": "طَرِيقٌ",
+    "fr": "une route, un chemin",
+    "translit": "ṭarīqun",
+    "plural": "طُرُقٌ",
+    "icon": "road",
+    "gender": "m",
+    "note": "Ce nom s'emploie aussi au féminin.",
+    "example": { "ar": "هٰذَا الطَّرِيقُ إِلَى الْمَسْجِدِ.", "fr": "Voici la route qui mène à la mosquée." }
+  },
+  {
+    "id": "w:sadiq",
+    "kind": "word",
+    "ar": "صَدِيقٌ",
+    "fr": "un ami",
+    "translit": "ṣadīqun",
+    "plural": "أَصْدِقَاءُ",
+    "gender": "m",
+    "note": "Au féminin : {ar|صَدِيقَةٌ} (une amie).",
+    "example": { "ar": "زَيْدٌ صَدِيقُ مُحَمَّدٍ.", "fr": "Zayd est l'ami de Muḥammad." }
+  },
+  {
+    "id": "w:istayqaza",
+    "kind": "word",
+    "ar": "اِسْتَيْقَظَ",
+    "fr": "il s'est réveillé (se réveiller)",
+    "translit": "istayqaẓa"
+  },
+  { "id": "w:qama", "kind": "word", "ar": "قَامَ", "fr": "il s'est levé (se lever)", "translit": "qāma" },
+  {
+    "id": "w:tawadda",
+    "kind": "word",
+    "ar": "تَوَضَّأَ",
+    "fr": "il a fait ses ablutions (faire les ablutions)",
+    "translit": "tawaḍḍaʾa",
+    "note": "Les ablutions ({ar|الْوُضُوءُ}) se font avant la prière."
+  },
+  { "id": "w:labisa", "kind": "word", "ar": "لَبِسَ", "fr": "il a mis (mettre un vêtement)", "translit": "labisa" },
+  { "id": "w:laqiya", "kind": "word", "ar": "لَقِيَ", "fr": "il a rencontré (rencontrer)", "translit": "laqiya" },
+  {
+    "id": "w:asraa",
+    "kind": "word",
+    "ar": "أَسْرَعَ",
+    "fr": "il s'est dépêché (se dépêcher)",
+    "translit": "asraʿa"
+  },
+  {
+    "id": "w:takhkhara",
+    "kind": "word",
+    "ar": "تَأَخَّرَ",
+    "fr": "il a été en retard (être en retard, tarder)",
+    "translit": "taʾakhkhara"
+  }
+]

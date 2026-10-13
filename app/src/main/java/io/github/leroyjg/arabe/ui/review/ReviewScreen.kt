@@ -623,7 +623,7 @@ private fun GrammarTab(
                         Image(painterResource(R.drawable.icon_puzzle), contentDescription = null, modifier = Modifier.size(36.dp))
                         Spacer(Modifier.width(12.dp))
                         Column {
-                            Text(stringResource(R.string.chapter_label, chapter.file.number), style = MaterialTheme.typography.titleLarge)
+                            Text((chapter.file.label ?: stringResource(R.string.chapter_label, chapter.file.number)), style = MaterialTheme.typography.titleLarge)
                             RichText(chapter.file.title.fr, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         }
                     }

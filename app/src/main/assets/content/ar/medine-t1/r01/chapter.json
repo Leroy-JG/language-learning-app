@@ -1,0 +1,21 @@
+{
+  "id": "medine-t1.r01",
+  "number": 9,
+  "title": { "ar": "مُرَاجَعَةٌ", "fr": "Tout revoir, et quelques nouveautés" },
+  "label": "Révision 1",
+  "description": "Revoir les démonstratifs, les questions, les noms définis et indéfinis, le genre, les prépositions, les trois cas et la phrase, puis découvrir {ar|هُنَا}, {ar|مَاذَا}, {ar|لِمَاذَا}, les jours de la semaine et du vocabulaire nouveau.",
+  "source": "Tome de Médine 1, semaine de révision 1",
+  "sections": [
+    { "title": "Rappel : montrer et demander", "activities": ["revue-1", "revue-2"] },
+    { "title": "Rappel : les noms", "activities": ["revue-3", "revue-4"] },
+    { "title": "Rappel : prépositions et cas", "activities": ["revue-5", "revue-6"] },
+    { "title": "Rappel : la phrase et le verbe", "activities": ["revue-7"] },
+    { "title": "Nouveau : ici, là-bas, qu'y a-t-il ?", "activities": ["grammar-1", "grammar-2"] },
+    { "title": "Les jours de la semaine", "activities": ["vocab-1", "vocab-2"] },
+    { "title": "À l'école", "activities": ["vocab-3", "vocab-4", "vocab-6", "grammar-3"] },
+    { "title": "Saluer, se parler", "activities": ["vocab-5", "vocab-9", "dialogue-1", "dialogue-2"] },
+    { "title": "La prière de l'aube", "activities": ["vocab-7", "vocab-8", "dialogue-3"] },
+    { "title": "Les pluriels", "activities": ["plurals-1"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

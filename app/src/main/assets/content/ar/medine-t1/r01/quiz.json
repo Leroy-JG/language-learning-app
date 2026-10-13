@@ -1,0 +1,135 @@
+{
+  "id": "medine-t1.r01.quiz",
+  "type": "quiz",
+  "title": "Bilan de la révision 1",
+  "screens": [
+    {
+      "id": "medine-t1.r01.quiz#1",
+      "type": "sort",
+      "categories": [ { "fr": "une personne" }, { "fr": "une chose" }, { "fr": "un lieu" } ],
+      "cards": [
+        { "item": "w:man", "category": 0 },
+        { "item": "w:ma", "category": 1 },
+        { "item": "w:madha", "category": 1 },
+        { "item": "w:ayna", "category": 2 }
+      ],
+      "instruction": "Que demande chaque mot ?"
+    },
+    {
+      "id": "medine-t1.r01.quiz#2",
+      "type": "fill_gap",
+      "sentence": "{0} كُرْسِيٌّ.",
+      "fr": "Ceci est une chaise.",
+      "gaps": [ { "answers": ["هٰذَا"] } ],
+      "options": ["هٰذَا", "هٰذِهِ", "ذٰلِكَ"]
+    },
+    {
+      "id": "medine-t1.r01.quiz#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:limadha",
+      "distractors": ["w:madha", "w:ayna"]
+    },
+    {
+      "id": "medine-t1.r01.quiz#4",
+      "type": "fill_gap",
+      "sentence": "فَشِلَ زَيْدٌ. لِمَاذَا؟ {0} كَسْلَانُ.",
+      "fr": "Zayd a échoué. Pourquoi ? Parce qu'il est paresseux.",
+      "gaps": [ { "answers": ["لِأَنَّهُ"] } ],
+      "options": ["لِأَنَّهُ", "لِمَاذَا", "مَاذَا"]
+    },
+    {
+      "id": "medine-t1.r01.quiz#5",
+      "type": "sort",
+      "categories": [ { "fr": "nominale" }, { "fr": "verbale" } ],
+      "cards": [
+        { "ar": "فَاطِمَةُ حَزِينَةٌ", "category": 0 },
+        { "ar": "نَجَحَ زَيْدٌ", "category": 1 },
+        { "ar": "الْمُدَرِّسُ فِي الْفَصْلِ", "category": 0 },
+        { "ar": "قَامَ الْوَلَدُ", "category": 1 },
+        { "ar": "عُبَيْدٌ فَرِحٌ", "category": 0 },
+        { "ar": "رَجَعَ الْمُدِيرُ", "category": 1 }
+      ],
+      "instruction": "Cette phrase est-elle nominale ou verbale ?"
+    },
+    {
+      "id": "medine-t1.r01.quiz#6",
+      "type": "spot",
+      "instruction": "Touche le sujet du verbe.",
+      "words": ["نَجَحَ", "زَيْدٌ", "فِي", "الِاخْتِبَارِ."],
+      "answers": [1],
+      "fr": "Zayd a réussi à l'examen."
+    },
+    {
+      "id": "medine-t1.r01.quiz#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:jumua",
+      "distractors": ["w:sabt", "w:khamis"]
+    },
+    {
+      "id": "medine-t1.r01.quiz#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:najaha", "w:fashila", "w:qama", "w:labisa", "w:asraa"]
+    },
+    {
+      "id": "medine-t1.r01.quiz#9",
+      "type": "fill_gap",
+      "sentence": "الْمِلْعَقَةُ {0}.",
+      "fr": "La cuillère est petite.",
+      "gaps": [ { "answers": ["صَغِيرَةٌ"] } ],
+      "options": ["صَغِيرَةٌ", "صَغِيرٌ", "كَبِيرَةٌ"]
+    },
+    {
+      "id": "medine-t1.r01.quiz#10",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle porte le nom qui suit {ar|فِي} ?" },
+      "choices": [ { "fr": "La kasra" }, { "fr": "La damma" }, { "fr": "La fatha" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.r01.quiz#11",
+      "type": "sort",
+      "categories": [ { "fr": "masculin" }, { "fr": "féminin" } ],
+      "cards": [
+        { "item": "w:kitab", "category": 0 },
+        { "item": "w:yad", "category": 1 },
+        { "item": "w:sayyara", "category": 1 },
+        { "item": "w:bayt", "category": 0 },
+        { "item": "w:shams", "category": 1 },
+        { "item": "w:masjid", "category": 0 }
+      ],
+      "instruction": "Ce nom est-il masculin ou féminin ?"
+    },
+    {
+      "id": "medine-t1.r01.quiz#12",
+      "type": "true_false",
+      "statement": { "fr": "{ar|هُنَاكَ} désigne un endroit proche." },
+      "answer": false,
+      "explain": "{ar|هُنَاكَ} veut dire « là-bas » ; « ici » se dit {ar|هُنَا}."
+    },
+    {
+      "id": "medine-t1.r01.quiz#13",
+      "type": "order",
+      "fr": "Qu'y a-t-il sur le bureau ?",
+      "answers": [["مَاذَا", "عَلَى", "الْمَكْتَبِ"]],
+      "punctuation": "؟"
+    },
+    { "id": "medine-t1.r01.quiz#14", "type": "build", "item": "w:huna", "extra": ["ك"] },
+    {
+      "id": "medine-t1.r01.quiz#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La mosquée est là-bas et la maison est ici.",
+      "answers": ["الْمَسْجِدُ هُنَاكَ وَالْبَيْتُ هُنَا."]
+    },
+    {
+      "id": "medine-t1.r01.quiz#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Pourquoi Zayd est-il sorti ?",
+      "answers": ["لِمَاذَا خَرَجَ زَيْدٌ؟"]
+    }
+  ]
+}

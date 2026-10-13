@@ -1,0 +1,64 @@
+{
+  "id": "medine-t1.r01.vocab-5",
+  "type": "vocabulary",
+  "title": "Saluer et répondre",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t1.r01.vocab-5#1", "type": "present", "item": "p:salam" },
+    { "id": "medine-t1.r01.vocab-5#2", "type": "present", "item": "p:alayk-salam" },
+    {
+      "id": "medine-t1.r01.vocab-5#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "p:salam",
+      "distractors": ["p:ma-hadha", "p:man-hadha"]
+    },
+    { "id": "medine-t1.r01.vocab-5#4", "type": "present", "item": "w:kayfa" },
+    { "id": "medine-t1.r01.vocab-5#5", "type": "present", "item": "p:kayfa-haluka" },
+    {
+      "id": "medine-t1.r01.vocab-5#6",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:kayfa",
+      "distractors": ["w:ma", "w:man"]
+    },
+    { "id": "medine-t1.r01.vocab-5#7", "type": "present", "item": "w:khayr" },
+    { "id": "medine-t1.r01.vocab-5#8", "type": "present", "item": "w:alyawm" },
+    {
+      "id": "medine-t1.r01.vocab-5#9",
+      "type": "order",
+      "fr": "Comment vas-tu aujourd'hui ?",
+      "answers": [["كَيْفَ", "أَنْتَ", "الْيَوْمَ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.r01.vocab-5#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["p:salam", "w:kayfa", "w:khayr", "w:alyawm"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-5#11",
+      "type": "question",
+      "prompt": { "fr": "Que répond-on à {ar|السَّلَامُ عَلَيْكَ} ?" },
+      "choices": [ { "ar": "عَلَيْكَ السَّلَامُ" }, { "ar": "أَيْنَ الْكِتَابُ؟" }, { "ar": "نَعَمْ، هٰذَا كِتَابٌ." } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.r01.vocab-5#12",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَيْفَ حَالُكَ؟",
+      "answers": ["أَنَا بِخَيْرٍ الْحَمْدُ لِلَّهِ.", "بِخَيْرٍ الْحَمْدُ لِلَّهِ.", "أَنَا بِخَيْرٍ.", "بِخَيْرٍ."],
+      "fr": "Je vais bien, louange à Allah.",
+      "instruction": "Réponds : je vais bien, louange à Allah."
+    },
+    {
+      "id": "medine-t1.r01.vocab-5#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Comment vas-tu ?",
+      "answers": ["كَيْفَ حَالُكَ؟"]
+    }
+  ]
+}

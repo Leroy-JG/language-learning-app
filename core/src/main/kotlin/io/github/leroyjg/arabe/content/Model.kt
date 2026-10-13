@@ -35,6 +35,8 @@ data class ChapterFile(
     val id: String,
     val number: Int,
     val title: BiText,
+    /** Libellé affiché à la place de « Chapitre N » (ex. « Révision 1 ») ; le numéro n'est alors pas contrôlé. */
+    val label: String? = null,
     val description: String? = null,
     val source: String? = null,
     val sections: List<Section>,

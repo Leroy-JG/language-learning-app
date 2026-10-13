@@ -1,0 +1,80 @@
+{
+  "id": "medine-t1.r01.vocab-2",
+  "type": "vocabulary",
+  "title": "Du jeudi au samedi",
+  "icon": "moon",
+  "screens": [
+    { "id": "medine-t1.r01.vocab-2#1", "type": "present", "item": "w:khamis" },
+    { "id": "medine-t1.r01.vocab-2#2", "type": "present", "item": "w:jumua" },
+    {
+      "id": "medine-t1.r01.vocab-2#3",
+      "type": "tip",
+      "title": "Le vendredi",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|الْجُمُعَةُ} vient du verbe « réunir » : ce jour-là, les musulmans se réunissent à la mosquée pour la prière collective."
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "Tu connais déjà {ar|فِي يَوْمِ الْجُمُعَةِ} (« le vendredi », chapitre 4)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.vocab-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:jumua",
+      "distractors": ["w:khamis", "w:ahad"]
+    },
+    { "id": "medine-t1.r01.vocab-2#5", "type": "present", "item": "w:sabt" },
+    {
+      "id": "medine-t1.r01.vocab-2#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:khamis", "w:jumua", "w:sabt", "w:ahad", "w:arbia"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-2#7",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:ahad", "w:ithnayn", "w:thulatha", "w:khamis", "w:jumua", "w:sabt"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-2#8",
+      "type": "question",
+      "prompt": { "fr": "Quel jour les musulmans se réunissent-ils à la mosquée pour la prière collective ?" },
+      "choices": [ { "fr": "Le vendredi" }, { "fr": "Le samedi" }, { "fr": "Le dimanche" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.r01.vocab-2#9",
+      "type": "order",
+      "fr": "Le vendredi (mot à mot : dans le jour du vendredi)",
+      "answers": [["فِي", "يَوْمِ", "الْجُمُعَةِ"]]
+    },
+    {
+      "id": "medine-t1.r01.vocab-2#10",
+      "type": "mcq",
+      "mode": "audio-ar",
+      "item": "w:khamis",
+      "distractors": ["w:sabt", "w:jumua"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-2#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "samedi",
+      "answers": ["يَوْمُ السَّبْتِ", "السَّبْتُ"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-2#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "vendredi",
+      "answers": ["يَوْمُ الْجُمُعَةِ", "الْجُمُعَةُ"]
+    }
+  ]
+}

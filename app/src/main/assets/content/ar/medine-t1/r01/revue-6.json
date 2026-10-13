@@ -1,0 +1,125 @@
+{
+  "id": "medine-t1.r01.revue-6",
+  "type": "review",
+  "title": "Les trois cas",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.r01.revue-6#1",
+      "type": "tip",
+      "title": "Trois cas, trois voyelles",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un même nom change de terminaison selon son rôle dans la phrase : c'est {ar|الْإِعْرَابُ}. Il existe trois cas :"
+        },
+        {
+          "type": "table",
+          "header": ["Cas", "Voyelle", "Exemple"],
+          "rows": [
+            ["{ar|الرَّفْعُ} (nominatif)", "damma", "{ar|كِتَابٌ}"],
+            ["{ar|النَّصْبُ} (accusatif)", "fatha", "{ar|كِتَابًا}"],
+            ["{ar|الْجَرُّ} (génitif)", "kasra", "{ar|كِتَابٍ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.revue-6#2",
+      "type": "tip",
+      "title": "Où trouve-t-on chaque cas ?",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Cas", "On le trouve…", "Exemple"],
+          "rows": [
+            ["nominatif", "sujet du verbe", "{ar|كَتَبَ زَيْدٌ}"],
+            ["nominatif", "sujet et prédicat d'une phrase nominale", "{ar|زَيْدٌ جَالِسٌ}"],
+            ["accusatif", "adverbe de lieu (en général)", "{ar|فَوْقَ}, {ar|تَحْتَ}, {ar|أَمَامَ}, {ar|خَلْفَ}"],
+            ["génitif", "nom après une préposition", "{ar|فِي الْبَيْتِ}"],
+            ["génitif", "second terme d'une annexion", "{ar|كِتَابُ زَيْدٍ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "L'adverbe de lieu garde sa fatha, mais le nom qui le suit est au génitif : {ar|فَوْقَ الْمَكْتَبِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.revue-6#3",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif (damma)" }, { "fr": "accusatif (fatha)" }, { "fr": "génitif (kasra)" } ],
+      "cards": [
+        { "fr": "le sujet du verbe", "category": 0 },
+        { "fr": "le sujet d'une phrase nominale", "category": 0 },
+        { "fr": "un adverbe de lieu seul (« devant », « derrière »…)", "category": 1 },
+        { "fr": "le nom qui suit une préposition", "category": 2 },
+        { "fr": "le second terme d'une annexion", "category": 2 },
+        { "fr": "le nom qui suit un adverbe de lieu", "category": 2 }
+      ],
+      "instruction": "Quel cas ?"
+    },
+    {
+      "id": "medine-t1.r01.revue-6#4",
+      "type": "spot",
+      "instruction": "Touche le nom au génitif (kasra).",
+      "words": ["الْكِتَابُ", "فِي", "الْغُرْفَةِ."],
+      "answers": [2],
+      "fr": "Le livre est dans la chambre."
+    },
+    {
+      "id": "medine-t1.r01.revue-6#5",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle porte le second terme d'une annexion, comme {ar|زَيْدٍ} dans {ar|كِتَابُ زَيْدٍ} ?" },
+      "choices": [ { "fr": "La kasra (ou le tanwin à la kasra)" }, { "fr": "La damma" }, { "fr": "La fatha" } ],
+      "answer": 0,
+      "explain": "Le second terme d'une annexion ({ar|الْمُضَافُ إِلَيْهِ}) est toujours au génitif."
+    },
+    {
+      "id": "medine-t1.r01.revue-6#6",
+      "type": "true_false",
+      "statement": { "fr": "En principe, le sujet du verbe est au nominatif." },
+      "answer": true,
+      "explain": "Dans {ar|كَتَبَ زَيْدٌ}, {ar|زَيْدٌ} porte la damma."
+    },
+    {
+      "id": "medine-t1.r01.revue-6#7",
+      "type": "spot",
+      "instruction": "Touche l'adverbe de lieu.",
+      "words": ["الْكُرَةُ", "أَمَامَ", "الْبَابِ."],
+      "answers": [1],
+      "fr": "Le ballon est devant la porte."
+    },
+    {
+      "id": "medine-t1.r01.revue-6#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|خَرَجَ زَيْدٌ}, quel est le cas de {ar|زَيْدٌ} ?" },
+      "choices": [ { "fr": "Le nominatif" }, { "fr": "L'accusatif" }, { "fr": "Le génitif" } ],
+      "answer": 0,
+      "explain": "C'est le sujet du verbe : il est au nominatif (damma)."
+    },
+    {
+      "id": "medine-t1.r01.revue-6#9",
+      "type": "order",
+      "fr": "Le chien est derrière la maison.",
+      "answers": [["الْكَلْبُ", "خَلْفَ", "الْبَيْتِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.r01.revue-6#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le livre du directeur est sur le bureau.",
+      "answers": ["كِتَابُ الْمُدِيرِ عَلَى الْمَكْتَبِ.", "كِتَابُ الْمُدِيرِ فَوْقَ الْمَكْتَبِ."]
+    },
+    {
+      "id": "medine-t1.r01.revue-6#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le garçon s'est assis devant la mosquée.",
+      "answers": ["جَلَسَ الْوَلَدُ أَمَامَ الْمَسْجِدِ."]
+    }
+  ]
+}

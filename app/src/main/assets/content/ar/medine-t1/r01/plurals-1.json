@@ -1,0 +1,124 @@
+{
+  "id": "medine-t1.r01.plurals-1",
+  "type": "vocabulary",
+  "title": "Les pluriels",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.r01.plurals-1#1",
+      "type": "tip",
+      "title": "Des pluriels de forme « longue »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ces pluriels ont une forme « longue » (un alif suivi de plusieurs lettres) et n'ont en général pas de tanwin (chapitre 4). {ar|أَصْدِقَاءُ} se termine aussi par alif et hamza : pas de tanwin non plus."
+        },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|أُسْبُوعٌ}", "{ar|أَسَابِيعُ}", "semaine"],
+            ["{ar|مَكَانٌ}", "{ar|أَمَاكِنُ}", "lieu"],
+            ["{ar|عُنْوَانٌ}", "{ar|عَنَاوِينُ}", "titre"],
+            ["{ar|صُنْبُورٌ}", "{ar|صَنَابِيرُ}", "robinet"],
+            ["{ar|صَدِيقٌ}", "{ar|أَصْدِقَاءُ}", "ami"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.plurals-1#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:usbu", "w:makan", "w:unwan", "w:sunbur"]
+    },
+    {
+      "id": "medine-t1.r01.plurals-1#3",
+      "type": "tip",
+      "title": "Des pluriels avec tanwin",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|يَوْمٌ}", "{ar|أَيَّامٌ}", "jour"],
+            ["{ar|دَرْسٌ}", "{ar|دُرُوسٌ}", "leçon"],
+            ["{ar|كُوبٌ}", "{ar|أَكْوَابٌ}", "verre"],
+            ["{ar|طَرِيقٌ}", "{ar|طُرُقٌ}", "route"],
+            ["{ar|اِخْتِبَارٌ}", "{ar|اِخْتِبَارَاتٌ}", "examen"],
+            ["{ar|صَلَاةٌ}", "{ar|صَلَوَاتٌ}", "prière"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le pluriel de {ar|صَلَاةٌ} change son alif en {ar|و} : on l'apprend avec le mot."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.plurals-1#4",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:yawm", "w:dars", "w:kub", "w:tariq", "w:ikhtibar"]
+    },
+    {
+      "id": "medine-t1.r01.plurals-1#5",
+      "type": "tip",
+      "title": "Les pluriels des adjectifs",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|كَبِيرٌ}", "{ar|كِبَارٌ}", "grand"],
+            ["{ar|صَغِيرٌ}", "{ar|صِغَارٌ}", "petit"],
+            ["{ar|حَزِينٌ}", "{ar|حِزَانٌ}", "triste"],
+            ["{ar|فَرِحٌ}", "{ar|فَرْحَى}", "content"],
+            ["{ar|أَبْيَضُ}", "{ar|بِيضٌ}", "blanc"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "{ar|فَرْحَى} se termine par un alif maqṣūra : pas de tanwin. Et {ar|بِيضٌ} (« blancs », avec une kasra) s'écrit comme {ar|بَيْضٌ} (« des œufs », avec une fatha) : ce sont deux mots différents."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.plurals-1#6",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:kabir", "w:saghir", "w:hazin", "w:farih"]
+    },
+    {
+      "id": "medine-t1.r01.plurals-1#7",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|صَدِيقٌ} ?" },
+      "choices": [ { "ar": "أَصْدِقَاءُ" }, { "ar": "أَيَّامٌ" }, { "ar": "دُرُوسٌ" } ],
+      "answer": 0
+    },
+    { "id": "medine-t1.r01.plurals-1#8", "type": "typing", "ask": "fr", "fr": "des jours", "answers": ["أَيَّامٌ"] },
+    {
+      "id": "medine-t1.r01.plurals-1#9",
+      "type": "question",
+      "prompt": { "fr": "Lequel de ces pluriels n'a pas de tanwin ?" },
+      "choices": [ { "ar": "أَسَابِيعُ" }, { "ar": "أَيَّامٌ" }, { "ar": "دُرُوسٌ" } ],
+      "answer": 0,
+      "explain": "{ar|أَسَابِيعُ} a une forme longue : il est privé de tanwin. {ar|أَيَّامٌ} et {ar|دُرُوسٌ} ont le tanwin."
+    },
+    {
+      "id": "medine-t1.r01.plurals-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des amis",
+      "answers": ["أَصْدِقَاءُ"]
+    },
+    {
+      "id": "medine-t1.r01.plurals-1#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des prières",
+      "answers": ["صَلَوَاتٌ"]
+    }
+  ]
+}

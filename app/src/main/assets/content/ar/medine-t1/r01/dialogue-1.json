@@ -1,0 +1,127 @@
+{
+  "id": "medine-t1.r01.dialogue-1",
+  "type": "dialogue",
+  "title": "Le résultat de l'examen",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t1.r01.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Le résultat de l'examen",
+      "intro": "Le professeur parle avec Zayd, un de ses étudiants.",
+      "speakers": { "A": { "name": "Le professeur", "voice": "m1" }, "B": { "name": "Zayd", "voice": "m2" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "السَّلَامُ عَلَيْكَ يَا زَيْدُ. كَيْفَ أَنْتَ الْيَوْمَ؟",
+          "fr": "Que la paix soit sur toi, Zayd. Comment vas-tu aujourd'hui ?"
+        },
+        {
+          "speaker": "B",
+          "ar": "عَلَيْكَ السَّلَامُ وَرَحْمَةُ اللَّهِ يَا أُسْتَاذُ. أَنَا بِخَيْرٍ، الْحَمْدُ لِلَّهِ.",
+          "fr": "Sur toi la paix et la miséricorde d'Allah, professeur. Je vais bien, louange à Allah."
+        },
+        { "speaker": "A", "ar": "نَجَحْتَ فِي الِاخْتِبَارِ يَا زَيْدُ.", "fr": "Tu as réussi à l'examen, Zayd." },
+        {
+          "speaker": "B",
+          "ar": "الْحَمْدُ لِلَّهِ، أَنَا فَرِحٌ. أَنَجَحَ يَاسِرٌ؟",
+          "fr": "Louange à Allah, je suis content. Yāsir a-t-il réussi ?"
+        },
+        { "speaker": "A", "ar": "لَا، فَشِلَ يَاسِرٌ.", "fr": "Non, Yāsir a échoué." },
+        { "speaker": "B", "ar": "لِمَاذَا فَشِلَ يَا أُسْتَاذُ؟", "fr": "Pourquoi a-t-il échoué, professeur ?" },
+        {
+          "speaker": "A",
+          "ar": "لِأَنَّهُ مَا رَاجَعَ الدُّرُوسَ جَيِّدًا.",
+          "fr": "Parce qu'il n'a pas bien révisé les leçons."
+        },
+        { "speaker": "B", "ar": "أَلِهٰذَا هُوَ حَزِينٌ؟", "fr": "C'est pour cela qu'il est triste ?" },
+        {
+          "speaker": "A",
+          "ar": "نَعَمْ. اِجْلِسْ مَعَ الطُّلَّابِ يَا زَيْدُ.",
+          "fr": "Oui. Assieds-toi avec les étudiants, Zayd."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans ce dialogue, quelques formes n'ont pas encore été étudiées. Tu peux déjà les comprendre :"
+        },
+        {
+          "type": "table",
+          "header": ["Dans le dialogue", "Sens"],
+          "rows": [
+            ["{ar|نَجَحْتَ}", "tu as réussi : le {ar|تَ} final veut dire « tu » (à un homme)"],
+            [
+              "{ar|مَا رَاجَعَ}",
+              "il n'a pas révisé : dans une phrase qui n'est pas une question, {ar|مَا} devant un verbe au passé exprime la négation"
+            ],
+            [
+              "{ar|جَيِّدًا}",
+              "bien : l'adjectif avec le tanwin à la fatha s'emploie ici comme adverbe (comme {ar|حَسَنًا})"
+            ],
+            ["{ar|مَعَ الطُّلَّابِ}", "avec les étudiants : le nom qui suit {ar|مَعَ} est au génitif"],
+            ["{ar|لِهٰذَا}", "pour cela : {ar|لِ} + {ar|هٰذَا}"]
+          ]
+        },
+        { "type": "note", "text": "Tu n'as pas à les apprendre maintenant : tu les étudieras plus tard." }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi Yāsir a-t-il échoué ?" },
+      "choices": [
+        { "fr": "Il n'a pas bien révisé les leçons" },
+        { "fr": "Il est tombé malade" },
+        { "fr": "Il est arrivé en retard" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r01.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.r01.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Qu'est-ce que Zayd a fait à l'examen ?" },
+      "choices": [ { "fr": "Il a réussi" }, { "fr": "Il a échoué" }, { "fr": "Il n'est pas venu" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r01.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.r01.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Selon le professeur, Yāsir a échoué parce qu'il est paresseux." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.r01.dialogue-1#1" },
+      "explain": "Le professeur dit seulement qu'il n'a pas bien révisé les leçons."
+    },
+    {
+      "id": "medine-t1.r01.dialogue-1#6",
+      "type": "order",
+      "fr": "Pourquoi a-t-il échoué, professeur ?",
+      "answers": [["لِمَاذَا", "فَشِلَ", "يَا", "أُسْتَاذُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.r01.dialogue-1#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَنَجَحَ يَاسِرٌ؟",
+      "answers": ["لَا، فَشِلَ يَاسِرٌ.", "لَا، يَاسِرٌ فَشِلَ.", "لَا، هُوَ فَشِلَ.", "لَا، فَشِلَ."],
+      "fr": "Non, Yāsir a échoué.",
+      "instruction": "Réponds : non, il a échoué.",
+      "context": { "dialogue": "medine-t1.r01.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.r01.dialogue-1#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Comment vas-tu aujourd'hui ?",
+      "answers": ["كَيْفَ أَنْتَ الْيَوْمَ؟"]
+    }
+  ]
+}

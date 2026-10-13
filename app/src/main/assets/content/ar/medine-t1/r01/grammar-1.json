@@ -1,0 +1,111 @@
+{
+  "id": "medine-t1.r01.grammar-1",
+  "type": "grammar",
+  "title": "Ici et là-bas",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.r01.grammar-1#1",
+      "type": "tip",
+      "title": "Montrer un endroit",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu sais montrer une chose avec {ar|هٰذَا}, {ar|ذٰلِكَ}, {ar|هٰذِهِ} et {ar|تِلْكَ}. Pour montrer un **endroit**, il y a deux autres noms démonstratifs : {ar|هُنَا} (proche) et {ar|هُنَاكَ} (loin)."
+        },
+        {
+          "type": "breakdown",
+          "ar": "هُنَاكَ",
+          "fr": "là-bas",
+          "parts": [
+            { "ar": "هُنَا", "fr": "ici" },
+            { "ar": "كَ", "fr": "le {ar|كَ} de l'éloignement, comme dans {ar|ذٰلِكَ}" }
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t1.r01.grammar-1#2", "type": "present", "item": "w:makan" },
+    {
+      "id": "medine-t1.r01.grammar-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:huna",
+      "distractors": ["w:hunak", "w:ayna"]
+    },
+    {
+      "id": "medine-t1.r01.grammar-1#4",
+      "type": "tip",
+      "title": "Le tableau complet des démonstratifs",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Distance", "Masculin", "Féminin", "Lieu"],
+          "rows": [
+            ["proche", "{ar|هٰذَا}", "{ar|هٰذِهِ}", "{ar|هُنَا}"],
+            ["loin", "{ar|ذٰلِكَ}", "{ar|تِلْكَ}", "{ar|هُنَاكَ}"]
+          ]
+        },
+        { "type": "example", "ar": "الْبَيْتُ هُنَا.", "fr": "La maison est ici." },
+        { "type": "example", "ar": "الْمَسْجِدُ هُنَاكَ.", "fr": "La mosquée est là-bas." },
+        {
+          "type": "note",
+          "text": "{ar|هُنَا} et {ar|هُنَاكَ} ne changent jamais de terminaison. Dans ces exemples, ils viennent après le nom : {ar|الْبَيْتُ هُنَا}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.grammar-1#5",
+      "type": "sort",
+      "categories": [ { "fr": "proche" }, { "fr": "loin" } ],
+      "cards": [
+        { "ar": "الْمَسْجِدُ هُنَاكَ", "category": 1 },
+        { "ar": "الْبَيْتُ هُنَا", "category": 0 },
+        { "ar": "الْمَدْرَسَةُ هُنَاكَ", "category": 1 },
+        { "ar": "الْمَكْتَبُ هُنَا", "category": 0 }
+      ],
+      "instruction": "L'endroit est-il proche ou loin ?"
+    },
+    {
+      "id": "medine-t1.r01.grammar-1#6",
+      "type": "fill_gap",
+      "sentence": "الْمَسْجِدُ {0}.",
+      "fr": "La mosquée est ici.",
+      "gaps": [ { "answers": ["هُنَا"] } ],
+      "options": ["هُنَا", "هُنَاكَ", "ذٰلِكَ"],
+      "explain": "« Ici » : {ar|هُنَا}. {ar|هُنَاكَ} veut dire « là-bas »."
+    },
+    {
+      "id": "medine-t1.r01.grammar-1#7",
+      "type": "order",
+      "fr": "La maison est ici.",
+      "answers": [["الْبَيْتُ", "هُنَا"]],
+      "punctuation": ".",
+      "distractors": ["هُنَاكَ"]
+    },
+    {
+      "id": "medine-t1.r01.grammar-1#8",
+      "type": "fill_gap",
+      "sentence": "الْبَابُ {0}.",
+      "fr": "La porte est là-bas.",
+      "gaps": [ { "answers": ["هُنَاكَ"] } ],
+      "options": ["هُنَاكَ", "هُنَا", "هٰذَا"]
+    },
+    { "id": "medine-t1.r01.grammar-1#9", "type": "build", "item": "w:huna", "extra": ["ك"] },
+    {
+      "id": "medine-t1.r01.grammar-1#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ الْمَسْجِدُ؟",
+      "answers": ["الْمَسْجِدُ هُنَاكَ.", "هُوَ هُنَاكَ.", "هُنَاكَ."],
+      "fr": "La mosquée est là-bas.",
+      "instruction": "Réponds : la mosquée est là-bas."
+    },
+    {
+      "id": "medine-t1.r01.grammar-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La maison est ici.",
+      "answers": ["الْبَيْتُ هُنَا."]
+    }
+  ]
+}

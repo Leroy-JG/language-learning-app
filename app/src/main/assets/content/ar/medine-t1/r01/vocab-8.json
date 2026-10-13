@@ -1,0 +1,97 @@
+{
+  "id": "medine-t1.r01.vocab-8",
+  "type": "vocabulary",
+  "title": "Le matin : se lever, s'habiller, se dépêcher",
+  "icon": "bed",
+  "screens": [
+    { "id": "medine-t1.r01.vocab-8#1", "type": "present", "item": "w:istayqaza" },
+    { "id": "medine-t1.r01.vocab-8#2", "type": "present", "item": "w:qama" },
+    { "id": "medine-t1.r01.vocab-8#3", "type": "present", "item": "w:tawadda" },
+    {
+      "id": "medine-t1.r01.vocab-8#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:tawadda",
+      "distractors": ["w:qama", "w:istayqaza"]
+    },
+    { "id": "medine-t1.r01.vocab-8#5", "type": "present", "item": "w:labisa" },
+    {
+      "id": "medine-t1.r01.vocab-8#6",
+      "type": "tip",
+      "title": "Leurs formes (1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les quatre formes de ces verbes (à reconnaître, pas à apprendre maintenant) :"
+        },
+        {
+          "type": "table",
+          "header": ["Forme", "se réveiller", "se lever", "faire les ablutions", "mettre"],
+          "rows": [
+            ["{ar|الْمَاضِي}", "{ar|اِسْتَيْقَظَ}", "{ar|قَامَ}", "{ar|تَوَضَّأَ}", "{ar|لَبِسَ}"],
+            ["{ar|الْمُضَارِعُ}", "{ar|يَسْتَيْقِظُ}", "{ar|يَقُومُ}", "{ar|يَتَوَضَّأُ}", "{ar|يَلْبَسُ}"],
+            ["{ar|الْأَمْرُ}", "{ar|اِسْتَيْقِظْ}", "{ar|قُمْ}", "{ar|تَوَضَّأْ}", "{ar|اِلْبَسْ}"],
+            ["{ar|الْمَصْدَرُ}", "{ar|اِسْتِيقَاظٌ}", "{ar|قِيَامٌ}", "{ar|تَوَضُّؤٌ}", "{ar|لُبْسٌ}"]
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t1.r01.vocab-8#7", "type": "present", "item": "w:laqiya" },
+    {
+      "id": "medine-t1.r01.vocab-8#8",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:laqiya",
+      "distractors": ["w:qama", "w:labisa"]
+    },
+    { "id": "medine-t1.r01.vocab-8#9", "type": "present", "item": "w:asraa" },
+    { "id": "medine-t1.r01.vocab-8#10", "type": "present", "item": "w:takhkhara" },
+    {
+      "id": "medine-t1.r01.vocab-8#11",
+      "type": "tip",
+      "title": "Leurs formes (2)",
+      "blocks": [
+        { "type": "paragraph", "text": "Les formes des trois derniers verbes :" },
+        {
+          "type": "table",
+          "header": ["Forme", "rencontrer", "se dépêcher", "être en retard"],
+          "rows": [
+            ["{ar|الْمَاضِي}", "{ar|لَقِيَ}", "{ar|أَسْرَعَ}", "{ar|تَأَخَّرَ}"],
+            ["{ar|الْمُضَارِعُ}", "{ar|يَلْقَى}", "{ar|يُسْرِعُ}", "{ar|يَتَأَخَّرُ}"],
+            ["{ar|الْأَمْرُ}", "{ar|اِلْقَ}", "{ar|أَسْرِعْ}", "{ar|تَأَخَّرْ}"],
+            ["{ar|الْمَصْدَرُ}", "{ar|لِقَاءٌ}", "{ar|إِسْرَاعٌ}", "{ar|تَأَخُّرٌ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.vocab-8#12",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:istayqaza", "w:qama", "w:labisa", "w:asraa", "w:takhkhara"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-8#13",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ مِنَ السَّرِيرِ.",
+      "fr": "Zayd s'est levé du lit.",
+      "gaps": [ { "answers": ["قَامَ"] } ],
+      "options": ["قَامَ", "لَبِسَ", "تَأَخَّرَ"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-8#14",
+      "type": "true_false",
+      "statement": { "fr": "{ar|تَأَخَّرَ} veut dire « il s'est dépêché »." },
+      "answer": false,
+      "explain": "{ar|تَأَخَّرَ} veut dire « il a été en retard » ; « il s'est dépêché » se dit {ar|أَسْرَعَ}."
+    },
+    { "id": "medine-t1.r01.vocab-8#15", "type": "typing", "ask": "fr", "item": "w:istayqaza" },
+    {
+      "id": "medine-t1.r01.vocab-8#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd a fait ses ablutions, puis il est allé à la mosquée.",
+      "answers": ["تَوَضَّأَ زَيْدٌ ثُمَّ ذَهَبَ إِلَى الْمَسْجِدِ."]
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 """Affiche lisiblement les activités d'un chapitre (pour la relecture) :
-python3 tools/lire_chapitre.py 06 grammar-1.json practice-2.json   (depuis la racine du dépôt)."""
+python3 tools/lire_chapitre.py 06 grammar-1.json practice-2.json   (depuis la racine du dépôt ; `r01` pour un chapitre de révision)."""
 import json,sys,pathlib,re
-root=pathlib.Path(__file__).resolve().parent.parent/('app/src/main/assets/content/ar/medine-t1/l'+sys.argv.pop(1))
+_d=sys.argv.pop(1)
+root=pathlib.Path(__file__).resolve().parent.parent/('app/src/main/assets/content/ar/medine-t1/'+(_d if _d[0].isalpha() else 'l'+_d))
 items={e['id']:e for e in json.load(open(root/'items.json',encoding='utf-8'))}
 def t(x): return re.sub(r'\{ar\|([^}]*)\}',r'«\1»',x) if isinstance(x,str) else x
 def blk(b):

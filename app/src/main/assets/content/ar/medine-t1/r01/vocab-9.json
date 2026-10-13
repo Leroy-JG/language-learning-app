@@ -1,0 +1,47 @@
+{
+  "id": "medine-t1.r01.vocab-9",
+  "type": "vocabulary",
+  "title": "Petits mots utiles",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t1.r01.vocab-9#1", "type": "present", "item": "w:hasanan" },
+    { "id": "medine-t1.r01.vocab-9#2", "type": "present", "item": "w:thumma" },
+    {
+      "id": "medine-t1.r01.vocab-9#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:thumma",
+      "distractors": ["w:wa", "w:hasanan"]
+    },
+    { "id": "medine-t1.r01.vocab-9#4", "type": "present", "item": "w:hayya" },
+    { "id": "medine-t1.r01.vocab-9#5", "type": "present", "item": "p:marhaban" },
+    {
+      "id": "medine-t1.r01.vocab-9#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:hasanan", "w:thumma", "w:hayya", "p:marhaban"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-9#7",
+      "type": "fill_gap",
+      "sentence": "خَرَجَ الْمُدَرِّسُ {0} الطُّلَّابُ.",
+      "fr": "L'enseignant est sorti, puis les étudiants.",
+      "gaps": [ { "answers": ["ثُمَّ"] } ],
+      "options": ["ثُمَّ", "أَيْنَ", "نَعَمْ"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-9#8",
+      "type": "order",
+      "fr": "Allons à l'école !",
+      "answers": [["هَيَّا", "إِلَى", "الْمَدْرَسَةِ"]]
+    },
+    { "id": "medine-t1.r01.vocab-9#9", "type": "typing", "ask": "fr", "item": "w:hasanan" },
+    {
+      "id": "medine-t1.r01.vocab-9#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Sois le bienvenu, Yāsir !",
+      "answers": ["مَرْحَبًا بِكَ يَا يَاسِرُ."]
+    }
+  ]
+}

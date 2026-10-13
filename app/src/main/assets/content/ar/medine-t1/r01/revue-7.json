@@ -1,0 +1,140 @@
+{
+  "id": "medine-t1.r01.revue-7",
+  "type": "review",
+  "title": "La phrase et le verbe",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.r01.revue-7#1",
+      "type": "tip",
+      "title": "Deux sortes de phrases",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Une phrase complète ({ar|الْجُمْلَةُ الْمُفِيدَةُ}) est de deux sortes. C'est son **premier mot** qui décide."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Composée de", "Exemple"],
+          "rows": [
+            [
+              "nominale ({ar|الْجُمْلَةُ الِاسْمِيَّةُ})",
+              "un sujet ({ar|الْمُبْتَدَأُ}) et un prédicat ({ar|الْخَبَرُ})",
+              "{ar|زَيْدٌ جَالِسٌ}"
+            ],
+            [
+              "verbale ({ar|الْجُمْلَةُ الْفِعْلِيَّةُ})",
+              "un verbe ({ar|الْفِعْلُ}) et son sujet ({ar|الْفَاعِلُ})",
+              "{ar|خَرَجَ زَيْدٌ}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.revue-7#2",
+      "type": "tip",
+      "title": "Le prédicat, le verbe",
+      "blocks": [
+        { "type": "paragraph", "text": "Le prédicat d'une phrase nominale peut avoir trois formes :" },
+        {
+          "type": "table",
+          "header": ["Le prédicat est…", "Exemple"],
+          "rows": [
+            ["un nom ou un adjectif", "{ar|عَائِشَةُ طَالِبَةٌ}"],
+            ["« préposition + nom »", "{ar|فَاطِمَةُ فِي الْفَصْلِ}"],
+            ["un verbe", "{ar|الطُّلَّابُ يَكْتُبُونَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|يَكْتُبُونَ} veut dire « ils écrivent » : le verbe s'accorde avec son sujet. Tu étudieras plus tard comment le verbe change selon la personne."
+        },
+        { "type": "paragraph", "text": "Le verbe a trois formes que tu connais :" },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "كَتَبَ", "fr": "il a écrit (passé)" },
+              "to": { "ar": "يَكْتُبُ", "fr": "il écrit (présent)" }
+            },
+            {
+              "from": { "ar": "يَكْتُبُ", "fr": "il écrit (présent)" },
+              "to": { "ar": "اُكْتُبْ", "fr": "écris ! (impératif)" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.revue-7#3",
+      "type": "sort",
+      "categories": [ { "fr": "nominale" }, { "fr": "verbale" } ],
+      "cards": [
+        { "ar": "زَيْدٌ جَالِسٌ", "category": 0 },
+        { "ar": "خَرَجَ زَيْدٌ", "category": 1 },
+        { "ar": "فَاطِمَةُ فِي الْفَصْلِ", "category": 0 },
+        { "ar": "يَذْهَبُ يَاسِرٌ", "category": 1 },
+        { "ar": "عَائِشَةُ طَالِبَةٌ", "category": 0 },
+        { "ar": "رَجَعَ الْوَلَدُ", "category": 1 }
+      ],
+      "instruction": "Cette phrase est-elle nominale ou verbale ?"
+    },
+    {
+      "id": "medine-t1.r01.revue-7#4",
+      "type": "sort",
+      "categories": [ { "fr": "passé" }, { "fr": "présent" }, { "fr": "impératif" } ],
+      "cards": [
+        { "ar": "كَتَبَ", "category": 0 },
+        { "ar": "يَكْتُبُ", "category": 1 },
+        { "ar": "اُكْتُبْ", "category": 2 },
+        { "ar": "خَرَجَ", "category": 0 },
+        { "ar": "يَذْهَبُ", "category": 1 },
+        { "ar": "اِذْهَبْ", "category": 2 }
+      ],
+      "instruction": "Quelle forme du verbe ?"
+    },
+    {
+      "id": "medine-t1.r01.revue-7#5",
+      "type": "spot",
+      "instruction": "Touche le sujet du verbe.",
+      "words": ["يَذْهَبُ", "يَاسِرٌ", "إِلَى", "الْمَسْجِدِ."],
+      "answers": [1],
+      "fr": "Yāsir va à la mosquée."
+    },
+    {
+      "id": "medine-t1.r01.revue-7#6",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ مِنَ الْفَصْلِ.",
+      "fr": "Zayd est sorti de la classe.",
+      "gaps": [ { "answers": ["خَرَجَ"] } ],
+      "options": ["خَرَجَ", "جَلَسَ", "رَجَعَ"]
+    },
+    {
+      "id": "medine-t1.r01.revue-7#7",
+      "type": "order",
+      "fr": "L'enseignant est revenu de la mosquée.",
+      "answers": [["رَجَعَ", "الْمُدَرِّسُ", "مِنَ", "الْمَسْجِدِ"], ["الْمُدَرِّسُ", "رَجَعَ", "مِنَ", "الْمَسْجِدِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.r01.revue-7#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|اُكْتُبْ يَا زَيْدُ}, qui est le sujet du verbe ?" },
+      "choices": [
+        { "fr": "« Toi », caché dans le verbe" },
+        { "fr": "Zayd, car il vient après le verbe" },
+        { "fr": "Il n'y a pas de sujet" }
+      ],
+      "answer": 0,
+      "explain": "À l'impératif, le sujet est caché dans le verbe (« toi »). {ar|زَيْدُ} est la personne qu'on appelle."
+    },
+    {
+      "id": "medine-t1.r01.revue-7#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Yāsir va à l'école.",
+      "answers": ["يَذْهَبُ يَاسِرٌ إِلَى الْمَدْرَسَةِ.", "يَاسِرٌ يَذْهَبُ إِلَى الْمَدْرَسَةِ."]
+    }
+  ]
+}

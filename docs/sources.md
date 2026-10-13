@@ -27,6 +27,11 @@ Supports utilisés pour les leçons 1 à 7 :
 - `TOME1-8-1.pdf` : introduction (la phrase complète : nominale et verbale, sujet et prédicat, verbe et sujet du verbe, formes du verbe), cours 8 partie 1 (substitutif, « quel est son nom ? », `مِنْ أَيْنَ`, texte du livre, exercices 1 et 2, adverbes de lieu, schéma des trois cas) et partie 2 (nom maqṣūr, exercices 5 et 6, tableau de vocabulaire, verbes, pays).
 - `TOME1-8-2.pdf` : le même cours 8 (seconde version de la partie 2, avec en plus le verbe `رَجَعَ`).
 
+Supports utilisés pour le chapitre de révision 1 (`r01`) : trois PDF « Semaine de révision 1 » (parties 1, 2 et 3) :
+- partie 1 : démonstratifs (avec `هُنَا` / `هُنَاكَ`), exercice 1 du livre, texte de la leçon 9 (« À qui est… ? »), interrogatifs, `مَاذَا`, jours de la semaine ;
+- partie 2 : noms définis (`الْمَعَارِفُ`), indéfini / défini et exercice du livre, prépositions et leurs types, `لِمَاذَا` / `لِأَنَّهُ`, deux dialogues de classe, vocabulaire et tableau des verbes ;
+- partie 3 : `الْإِعْرَابُ` (trois cas et où on les trouve), masculin et féminin, phrase nominale et verbale, verbe (trois formes), texte « la prière de l'aube », vocabulaire et tableau des verbes.
+
 ## Ce qui est déjà enseigné (cumulatif)
 
 **Leçon 1** (`l01`) :
@@ -141,17 +146,28 @@ Supports utilisés pour les leçons 1 à 7 :
 - pluriels : en -āt (`سَبُّورَاتٌ مُسْتَشْفَيَاتٌ`), de forme longue (`سَكَاكِينُ مَحَارِيبُ حَوَاسِيبُ`),
   `عِبَادٌ` ; `مَرْضَى` est cité dans une astuce (pas d'élément).
 
+**Leçon 9** (`l09`) : l'adjectif (`النَّعْتُ`, `الْمَنْعُوتُ`) qui s'accorde avec le nom en genre, défini ou indéfini et cas ; « le livre neuf » et « le livre est neuf » ; les adjectifs d'état sans tanwin (`كَسْلَانُ`, `جَوْعَانُ`…) ; les langues, les fruits, `هُنَا`, `عِنْدَ`, `يَوْمٌ`, `كَبِيرٌ`, `صَغِيرٌ`, `سَهْلٌ`, `كُوبٌ` et le texte du livre « لِمَنْ تِلْكَ السَّيَّارَةُ الْجَمِيلَةُ ؟ » (voir `l09/items.json` et `l09/chapter.json` ; les notes détaillées de cette leçon ne sont pas dans ce fichier).
+
+**Révision 1** (`r01`, chapitre de révision placé après la leçon 9 ; pas de numéro, libellé « Révision 1 ») :
+- sept rappels sans nouvelle carte (`revue-1` à `revue-7`, type `review`) : démonstratifs, interrogatifs (`أَ مَنْ مَا أَيْنَ`, avec `لِلْعَاقِلِ` / `لِغَيْرِ الْعَاقِلِ`), noms définis / indéfinis et prénoms, genre, prépositions, trois cas, phrase nominale / verbale et trois formes du verbe ;
+- `هُنَا` (ici, mot déjà présenté au chapitre 9) et `هُنَاكَ` (chapitre 5) comme démonstratifs de lieu ; `مَكَانٌ` ;
+- `مَاذَا` (« qu'y a-t-il… ? ») : `مَا` + `ذَا` ; réponse par le nom seul, ou `عَلَى الْمَكْتَبِ كِتَابٌ` (sujet indéfini après « préposition + nom ») ;
+- `لِمَاذَا` (« pourquoi ? ») et `لِأَنَّهُ` (« parce que ») ;
+- les jours de la semaine (`يَوْمُ الْأَحَدِ`… `يَوْمُ السَّبْتِ`) et `أُسْبُوعٌ` (`يَوْمٌ` est présenté au chapitre 9) ;
+- vocabulaire : `دَرْسٌ اِخْتِبَارٌ عُنْوَانٌ وَرَقٌ`, `فَرِحٌ حَزِينٌ جَيِّدٌ` (`سَهْلٌ كُوبٌ كَبِيرٌ صَغِيرٌ كَسْلَانُ` sont ceux du chapitre 9), `صَلَاةٌ فَجْرٌ صُنْبُورٌ أَبْيَضُ طَرِيقٌ صَدِيقٌ`, `خَيْرٌ حَسَنًا ثُمَّ هَيَّا كَيْفَ الْيَوْمَ`, `السَّلَامُ عَلَيْكَ` / `عَلَيْكَ السَّلَامُ`, `كَيْفَ حَالُكَ؟`, `مَرْحَبًا بِكَ` ;
+- 13 verbes (passé à la 3ᵉ personne du masculin singulier, avec leurs quatre formes dans une astuce) : `نَجَحَ فَشِلَ رَاجَعَ حَفِظَ رَفَعَ سَكَنَ` et `اِسْتَيْقَظَ قَامَ تَوَضَّأَ لَبِسَ لَقِيَ أَسْرَعَ تَأَخَّرَ` ;
+- seulement **aperçus** dans les dialogues, avec une astuce « Des petites formes à repérer » (rien n'est exigé en exercice ; l'adjectif épithète, lui, est enseigné au chapitre 9) : les suffixes `ـهُ ـهِ ـكَ ـي`, les formes `نَجَحْتَ`, `أَسْكُنُ`, `تَسْكُنُ`, `يَرْفَعُ`, `مَعَ`, `قَبْلَ`, `مَا` + passé (négation), le complément d'objet à la fatha (`عُنْوَانَ الدَّرْسِ`) ;
+- les pluriels : `أَسَابِيعُ أَمَاكِنُ عَنَاوِينُ صَنَابِيرُ أَصْدِقَاءُ`, `أَيَّامٌ دُرُوسٌ أَكْوَابٌ طُرُقٌ اِخْتِبَارَاتٌ صَلَوَاتٌ`, et ceux des adjectifs `كِبَارٌ صِغَارٌ حِزَانٌ فَرْحَى بِيضٌ`.
+
 **Pas encore enseigné** (ne pas l'exiger dans un exercice) :
 - les démonstratifs pluriels ;
 - les autres pronoms (seuls هُوَ هِيَ أَنَا أَنْتَ sont vus) et les suffixes (صَدِيقِي, قَمِيصُكَ) ;
-- les cas du nom et leurs fonctions : le sujet, le prédicat, le sujet du verbe, l'adverbe, le second terme d'annexion et le nom après une préposition sont vus (leçon 8) ; pas le complément d'objet : le نَصْب n'est montré qu'avec les adverbes et après قَرَأْتُ ;
+- les cas du nom et leurs fonctions : le sujet, le prédicat, le sujet du verbe, l'adverbe, le second terme d'annexion et le nom après une préposition sont vus (leçon 8) ; pas le complément d'objet : le نَصْب n'est montré qu'avec les adverbes et après قَرَأْتُ (et, sans exercice, dans les dialogues de la révision 1) ;
 - l'interpellation d'un nom annexé (يَا عَبْدَ اللَّهِ) ou avec أَيُّهَا ;
 - l'annexion « d'apparence » (الضَّارِبُ الرَّجُلِ) ;
-- l'adjectif épithète placé après le nom (هٰذِهِ ذِكْرَى جَمِيلَةٌ) : seul l'adjectif attribut est vu ;
-- le pluriel des adjectifs (seul سِرَاعٌ est cité) ;
-- les autres prépositions ;
-- les verbes conjugués (sauf خَرَجَ, ذَهَبَ, جَلَسَ, كَتَبَ et رَجَعَ à la 3ᵉ personne du masculin singulier, et leurs formes citées) ;
-- مَاذَا.
+- le pluriel des adjectifs : seuls quelques-uns sont vus (سِرَاعٌ, ceux des chapitres 9 et de la révision 1) ;
+- les autres prépositions (`بِ`, `مَعَ`, `عَنْ` ne sont qu'aperçues) ;
+- les verbes conjugués (sauf les verbes cités au passé à la 3ᵉ personne du masculin singulier — chapitres 4 et 8, révision 1 — et leurs formes citées) ;
 
 Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, et هٰذِهِ ou تِلْكَ devant un nom marqué masculin (sauf si deux éléments de genres différents s'écrivent pareil sans harakat, comme رَجُلٌ et رِجْلٌ).
 
@@ -371,6 +387,46 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - `عَبْدُ اللَّهِ`, le mihrab.
 - **Pas de nouvelle icône** : le chapitre n'ajoute aucune image.
 - **Lien avec le chapitre 7 :** le nom qui suit un démonstratif s'appelle `الْمُشَارُ إِلَيْهِ` au chapitre 7 (d'après ce qu'il désigne) et `بَدَل` au chapitre 8 (d'après son rôle) : une note de `l08/grammar-4` fait le lien.
+
+### Révision 1 (`r01`)
+
+- **Nature du chapitre :** les trois PDF « Semaine de révision 1 » mêlent des rappels (chapitres 1 à 8) et des éléments nouveaux. Le chapitre est placé après la leçon 9 (il en reprend le texte du livre et les mots déjà présentés), avec le libellé « Révision 1 » (champ `label` de `chapter.json`, sans numéro : la leçon 10 gardera le numéro 10).
+- **Fusion avec le chapitre 9 :** `main` contenait déjà `l09`, qui définit `w:huna`, `w:yawm`, `w:kub`, `w:kabir`, `w:saghir`, `w:sahl` et `w:kaslan` (`كَسْلَانُ`) : la révision ne les redéfinit pas (ils étaient en doublon) et les réutilise ; les pluriels `كِبَارٌ` et `صِغَارٌ` ont été ajoutés aux éléments de `l09`.
+- **Pas de doublon de cartes :** les rappels (`revue-1` à `revue-7`) sont de type `review` et ne contiennent aucun écran `present` : ils n'ajoutent ni carte de vocabulaire ni point de grammaire, et n'utilisent que des mots déjà enseignés. Seuls les éléments nouveaux sont présentés (`present`) et leurs activités de grammaire (`grammar-1` à `grammar-3`) créent trois nouveaux points de grammaire : `هُنَا` / `هُنَاكَ`, `مَاذَا`, `لِمَاذَا` / `لِأَنَّهُ`. Les mots du PDF déjà enseignés (`قَمِيصٌ`, `أُسْتَاذٌ`, `هُنَاكَ`, `مَكْتَبٌ`…) ne sont pas redéfinis.
+- **Exercices du livre repris :**
+  - exercice 1 (démonstratifs) → `revue-1` (dictées et ordre des mots) ;
+  - exercice (réponds aux questions) → `revue-2` (réponses guidées par une consigne « Réponds : … ») ;
+  - exercice (lire et écrire) avec le défini → `revue-3` (dictées) ; les prénoms de l'exercice des terminaisons → `revue-3` et `revue-4` (tri masculin / féminin) ;
+  - exercice 2 (terminaisons après une préposition) → `revue-5` ;
+  - page de la leçon 9 (« لِمَنْ تِلْكَ السَّيَّارَةُ الْجَمِيلَةُ؟ ») : déjà dans `l09/dialogue-2`, donc non reprise ;
+  - deux dialogues de classe → `dialogue-1` et `dialogue-2` ; texte « la prière de l'aube » → `dialogue-3`.
+- **Reporté ou non repris :**
+  - `قَمِيصٌ` : le pluriel `أَقْمِصَةٌ` du tableau du PDF n'est pas ajouté (le chapitre 1 donne `قُمْصَانٌ`, lui aussi attesté) ;
+  - pluriels du PDF non repris faute de certitude : `خِيَارٌ` (de `خَيْرٌ`) et `جِيَادٌ` (de `جَيِّدٌ`, qui est aussi le pluriel de `جَوَادٌ`, un cheval) ; `حِزَانٌ` (Lisān al-ʿArab) et `فَرْحَى` (Qāmūs) sont repris ;
+  - `مُوسَى` : cité dans les schémas du genre du PDF (« masculin » et « signe ى »), non repris (nom étranger, voir chapitre 6) ; `سَمَاءٌ` comme exemple d'alif long du féminin et `سِكِّينٌ` parmi les féminins sans signe : non repris (voir chapitres 6 et 8) ;
+  - `ضَرَبْتُ زَيْدًا` (exemple du نَصْب dans le PDF) : non repris, le chapitre 5 donne déjà un exemple du `نَصْب` avec `قَرَأْتُ` ; le complément d'objet n'est pas encore enseigné ;
+  - exemples du tableau de vocabulaire : repris, sauf `صَلَاةُ الْجَمَاعَةِ فِي الْمَسْجِدِ` (le mot `جَمَاعَةٌ` n'est pas enseigné) remplacé par `الصَّلَاةُ فِي الْمَسْجِدِ` ;
+  - le sujet de la phrase `الطُّلَّابُ يَكْتُبُونَ` (verbe au pluriel) n'est montré que dans une astuce de `revue-7`.
+- **Écarts avec les diapositives :**
+  - `أُكْتُبْ` → `اُكْتُبْ` et `أُسْكُنْ` → `اُسْكُنْ` (alif de liaison, comme au chapitre 8) ; les noms d'action sont cités au nominatif (le PDF les donne à l'accusatif) ;
+  - `حَزِنٌّ` / `حَزِنٌ` (diapositives) : on emploie `حَزِينٌ` / `حَزِينَةٌ`, plus courant, dont le pluriel `حِزَانٌ` est régulier (`فَعِيلٌ` → `فِعَالٌ`) ; le PDF donne `سُكُونٌ` comme nom d'action de `سَكَنَ` (« habiter »), mais ce mot veut plutôt dire « calme, immobilité » ; le tableau utilise `سُكْنَى` (nom d'action usuel de « habiter », Miṣbāḥ al-munīr) et une note signale la forme du PDF ;
+  - `وَكَيْفَ أَنْتَ أَخِي؟` : `يَا أَخِي` (interpellation, chapitre 5) ;
+  - `هٰذَا` écrit avec l'alif suscrit, comme dans tout le cours ;
+  - `لَا نَتَأَخَّرُ` et `هَيَّا نُسْرِعُ` gardent la damma du PDF ; la traduction (« nous ne devons pas être en retard ») rend le sens ;
+  - les répliques des dialogues sont attribuées par la logique (le PDF ne les distingue que par la couleur) : dans `dialogue-3`, `السَّلَامُ عَلَيْكَ يَا صَدِيقِي` est dit par Muḥammad (la réponse appelle « Muḥammad ») ;
+  - `الْمَسْجِدُ الْجَامِعُ` est traduit « la grande mosquée » ;
+  - `طَرِيقٌ` est présenté au masculin (comme dans le PDF) avec une note : le mot s'emploie aussi au féminin (Lisān al-ʿArab).
+- **Traductions :** `خَيْرٌ` = « du bien » (note : « meilleur », `بِخَيْرٍ` « bien ») ; `حَسَنًا` = « d'accord ! » ; `هَيَّا` = « allons ! » ; `لِأَنَّهُ` = « parce que » (mot à mot « parce que lui »).
+- **Explications ajoutées (données à l'oral, absentes des PDF) :**
+  - `مَاذَا` = `مَا` + `ذَا` (forme courte de `هٰذَا`) ; `لِمَاذَا` = `لِ` + `مَا` + `ذَا` ; `هُنَاكَ` = `هُنَا` + `كَ` ;
+  - sujet indéfini après « préposition + nom » (`عَلَى الْمَكْتَبِ كِتَابٌ`) ;
+  - les noms des jours de dimanche à jeudi viennent des nombres ; `الْجُمُعَةُ` vient de « réunir » ;
+  - `كَسْلَانُ` et `أَبْيَضُ` sont privés de tanwin (formes `فَعْلَانُ` et `أَفْعَلُ`, en général) ; `بِيضٌ` / `بَيْضٌ` ;
+  - `مَا` devant un verbe au passé = négation ; `مَعَ` et `قَبْلَ` suivis d'un nom au génitif ; suffixes `ـهُ / ـهِ`, `ـكَ`, `ـي` (aperçu) ; les préfixes `أَ` (« je ») et `تَ` (« tu ») dans `أَسْكُنُ` / `تَسْكُنُ` (aperçu) ;
+  - formes féminines (`فَرِحَةٌ`, `حَزِينَةٌ`, `جَيِّدَةٌ`, `صَدِيقَةٌ`) et réponses (`وَعَلَيْكَ السَّلَامُ`, `وَرَحْمَةُ اللَّهِ`) ;
+  - le sujet d'une phrase nominale « en principe défini » (rappel du chapitre 8) et la hamza finale de `مَاءٌ` (rappel du chapitre 6).
+- **Nouvelle icône :** aucune (`طَرِيقٌ` utilise l'icône `road` du chapitre 5).
+- **Fonctionnalité ajoutée :** champ optionnel `label` dans `chapter.json` (affiché à la place de « Chapitre N » ; le numéro n'est alors pas contrôlé par le validateur) — voir `docs/content-format.md` §6.
 
 ## Audio
 
