@@ -74,8 +74,9 @@ chapitres 1 à 6. Conséquences :
   كَبِيرٌ, صَغِيرٌ, لُغَةٌ, الْعَرَبِيَّةُ, الْفَرَنْسِيَّةُ, مَدِينَةٌ, لَذِيذٌ, تُفَّاحٌ, مَلْآنُ,
   النَّعْتُ, الْمَنْعُوتُ.
 - **Traductions** :
-  - كَبِيرٌ = « grand, gros » et طَوِيلٌ = « long » (une personne طَوِيلٌ est « de grande taille ») : deux
-    traductions distinctes, sinon un choix serait ambigu ;
+  - كَبِيرٌ = « grand, gros » ; طَوِيلٌ = « grand (de taille), long » (traduction du chapitre 7) : comme les
+    deux traductions se recouvrent, aucun exercice du chapitre 9 ne les propose ensemble (association,
+    choix) ;
   - غَضْبَانُ = « en colère, fâché » (le PDF dit « énervé »), جَوْعَانُ = « qui a faim, affamé », عَطْشَانُ =
     « qui a soif, assoiffé » ; عُصْفُورٌ = « un petit oiseau, un moineau » (le PDF dit « oiseau » pour
     طَائِرٌ comme pour عُصْفُورٌ) ; لُعْبَةٌ = « un jeu, un jouet » ; كُوبٌ = « un verre, un gobelet ».
