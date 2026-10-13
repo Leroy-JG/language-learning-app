@@ -291,6 +291,7 @@
     "ar": "نَاقَةٌ",
     "fr": "une chamelle",
     "translit": "nāqatun",
+    "plural": "نُوقٌ",
     "gender": "f",
     "note": "La femelle du chameau ({ar|جَمَلٌ}). Ce n'est pas {ar|جَمَلٌ} avec {ar|ة} ajouté : c'est un autre mot.",
     "example": { "ar": "هٰذَا جَمَلٌ وَهٰذِهِ نَاقَةٌ.", "fr": "Ceci est un chameau et ceci est une chamelle." }

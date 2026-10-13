@@ -26,6 +26,10 @@
             { "ar": "الرَّجُلُ", "fr": "l'homme ({ar|الْبَدَلُ})" }
           ]
         },
+        {
+          "type": "note",
+          "text": "Au chapitre 7, ce même nom s'appelait {ar|الْمُشَارُ إِلَيْهِ} (« le nom désigné ») : c'est son nom d'après ce qu'il désigne. D'après son rôle dans la phrase, le Tome de Médine l'appelle {ar|بَدَلٌ}."
+        },
         { "type": "example", "ar": "هٰذَا الرَّجُلُ جَالِسٌ.", "fr": "Cet homme est assis." }
       ]
     },

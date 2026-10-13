@@ -523,7 +523,7 @@ class Validator(
 
         /**
          * Pas de هٰذَا / ذٰلِكَ directement devant un nom marqué féminin, ni de هٰذِهِ directement devant
-         * un nom marqué masculin (ذٰلِكَ n'a pas encore son féminin dans le cours).
+         * un nom marqué masculin ; de même تِلْكَ (féminin de ذٰلِكَ) devant un masculin et ذٰلِكَ devant un féminin.
          */
         fun checkDemonstratives() {
             fun bare(s: String) = ArabicScript.lettersOnly(s)
@@ -533,7 +533,7 @@ class Validator(
             val feminine = gendersByForm.filterValues { g -> g.all { it == Gender.FEMININE } }.keys
             val masculine = gendersByForm.filterValues { g -> g.all { it == Gender.MASCULINE } }.keys
             val masculineDemonstratives = setOf("هذا", "ذلك", "اهذا", "اذلك", "أهذا", "أذلك", "وهذا", "وذلك")
-            val feminineDemonstratives = setOf("هذه", "اهذه", "أهذه", "وهذه")
+            val feminineDemonstratives = setOf("هذه", "اهذه", "أهذه", "وهذه", "تلك", "اتلك", "أتلك", "وتلك")
             for ((where, text) in arabicTexts) {
                 val words = ArabicScript.nfc(text).split(' ').map { bare(it) }
                 for ((a, b) in words.zipWithNext()) {

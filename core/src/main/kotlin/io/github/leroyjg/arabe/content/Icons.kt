@@ -15,5 +15,6 @@ object Icons {
         "japan", "france", "china", "india", "philippines", "africa",
         "car", "bag", "notebook", "girl", "elder", "road",
         "bicycle", "spoon", "window", "ear", "nose", "leg", "cow", "farmer", "tea", "hen", "pot",
+        "duck", "egg",
     )
 }

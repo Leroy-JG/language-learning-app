@@ -1,0 +1,129 @@
+{
+  "id": "medine-t1.l07.grammar-1",
+  "type": "grammar",
+  "title": "Cela, au féminin",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l07.grammar-1#1",
+      "type": "tip",
+      "title": "Cela, au féminin : {ar|تِلْكَ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|ذٰلِكَ} (« cela ») pour une chose ou une personne **masculine** qui est **loin** (chapitre 2). Pour une chose ou une personne **féminine** qui est loin, on emploie un autre mot : {ar|تِلْكَ}."
+        },
+        { "type": "example", "ar": "ذٰلِكَ دِيكٌ.", "fr": "Cela est un coq." },
+        { "type": "example", "ar": "تِلْكَ دَجَاجَةٌ.", "fr": "Cela est une poule." },
+        {
+          "type": "paragraph",
+          "text": "En français, on dit « cela est » dans les deux cas : c'est l'arabe qui montre le genre."
+        },
+        {
+          "type": "note",
+          "text": "Prononce « tilka » : le {ar|تِ} est bref (une kasra) et il n'y a pas d'alif. {ar|ذٰلِكَ}, lui, se dit « dhālika » avec un ā long (le petit alif au-dessus du {ar|ذ})."
+        }
+      ]
+    },
+    { "id": "medine-t1.l07.grammar-1#2", "type": "present", "item": "w:tilka" },
+    {
+      "id": "medine-t1.l07.grammar-1#3",
+      "type": "tip",
+      "title": "Quand l'employer ?",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|تِلْكَ} désigne une chose ou une personne qui est à la fois :" },
+        {
+          "type": "table",
+          "header": ["Condition", "En arabe"],
+          "rows": [
+            ["au **singulier**", "{ar|مُفْرَدٌ}"],
+            ["au **féminin**", "{ar|مُؤَنَّثٌ}"],
+            ["**éloigné**", "{ar|بَعِيدٌ}"]
+          ]
+        },
+        { "type": "example", "ar": "تِلْكَ بِنْتٌ.", "fr": "Cela est une fille." },
+        {
+          "type": "paragraph",
+          "text": "{ar|بِنْتٌ} est singulier et féminin, et la fille est loin : on dit {ar|تِلْكَ}. Comme {ar|هٰذِهِ}, elle s'emploie pour les personnes comme pour les choses : {ar|تِلْكَ فَاطِمَةُ} (Fāṭima), {ar|تِلْكَ سَيَّارَةٌ} (une voiture)."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "C'est le **genre** du nom qui décide entre {ar|ذٰلِكَ} et {ar|تِلْكَ}, et la **distance** qui décide entre {ar|هٰذِهِ} et {ar|تِلْكَ}. Pour une poule ({ar|دَجَاجَةٌ}), qui est féminin, on dit donc toujours {ar|هٰذِهِ} ou {ar|تِلْكَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l07.grammar-1#4",
+      "type": "question",
+      "prompt": { "fr": "Quel démonstratif utilise-t-on devant {ar|نَاقَةٌ} (une chamelle) qui est loin ?" },
+      "choices": [ { "ar": "تِلْكَ" }, { "ar": "ذٰلِكَ" }, { "ar": "هٰذِهِ" } ],
+      "answer": 0,
+      "explain": "{ar|نَاقَةٌ} est un nom féminin singulier, et la chamelle est loin : {ar|تِلْكَ نَاقَةٌ}. {ar|هٰذِهِ} désigne ce qui est proche, et {ar|ذٰلِكَ} s'emploie devant un nom masculin."
+    },
+    { "id": "medine-t1.l07.grammar-1#5", "type": "present", "item": "p:ma-tilka" },
+    { "id": "medine-t1.l07.grammar-1#6", "type": "present", "item": "p:man-tilka" },
+    {
+      "id": "medine-t1.l07.grammar-1#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "p:man-tilka",
+      "distractors": ["p:ma-tilka", "p:ayna-al-kitab"]
+    },
+    {
+      "id": "medine-t1.l07.grammar-1#8",
+      "type": "sort",
+      "categories": [ { "ar": "هٰذِهِ" }, { "ar": "تِلْكَ" } ],
+      "cards": [
+        { "fr": "La voiture, garée juste devant moi", "category": 0 },
+        { "fr": "La vache, au fond du champ", "category": 1 },
+        { "fr": "L'école, de l'autre côté de la rue", "category": 1 },
+        { "fr": "La poule que je tiens dans mes bras", "category": 0 },
+        { "fr": "La chamelle, tout là-bas dans le désert", "category": 1 },
+        { "fr": "Le sac posé sur ma table", "category": 0 }
+      ],
+      "instruction": "Pour chaque chose féminine, choisis le bon démonstratif : proche ou loin ?",
+      "explain": "Pour ce qui est proche, on dit {ar|هٰذِهِ} ; pour ce qui est loin, {ar|تِلْكَ}."
+    },
+    {
+      "id": "medine-t1.l07.grammar-1#9",
+      "type": "fill_gap",
+      "sentence": "{0} دَجَاجَةٌ.",
+      "fr": "Cela est une poule.",
+      "gaps": [ { "answers": ["تِلْكَ"] } ],
+      "options": ["تِلْكَ", "ذٰلِكَ", "هٰذِهِ"],
+      "explain": "{ar|دَجَاجَةٌ} est féminin et la poule est loin : {ar|تِلْكَ دَجَاجَةٌ}. {ar|ذٰلِكَ} ne s'emploie que devant un nom masculin."
+    },
+    {
+      "id": "medine-t1.l07.grammar-1#10",
+      "type": "order",
+      "fr": "Cela est une fille.",
+      "answers": [["تِلْكَ", "بِنْتٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l07.grammar-1#11",
+      "type": "true_false",
+      "statement": { "fr": "On dit {ar|ذٰلِكَ} pour désigner une poule ({ar|دَجَاجَةٌ}) qui est loin." },
+      "answer": false,
+      "explain": "{ar|دَجَاجَةٌ} est féminin : on dit {ar|تِلْكَ دَجَاجَةٌ}."
+    },
+    {
+      "id": "medine-t1.l07.grammar-1#12",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا تِلْكَ؟",
+      "answers": ["تِلْكَ سَيَّارَةٌ.", "سَيَّارَةٌ."],
+      "fr": "Cela est une voiture.",
+      "instruction": "Réponds à la question en arabe.",
+      "context": { "icon": "car" }
+    },
+    {
+      "id": "medine-t1.l07.grammar-1#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Cela est une chamelle.",
+      "answers": ["تِلْكَ نَاقَةٌ."]
+    }
+  ]
+}
