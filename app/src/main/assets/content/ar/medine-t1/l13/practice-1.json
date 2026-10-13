@@ -111,10 +111,10 @@
       "id": "medine-t1.l13.practice-1#9",
       "type": "true_false",
       "statement": {
-        "fr": "Pour montrer plusieurs livres proches, on emploie en général {ar|هٰذِهِ} : {ar|هٰذِهِ الْكُتُبُ جَدِيدَةٌ}."
+        "fr": "Pour montrer plusieurs livres proches, on emploie en général {ar|هٰذِهِ} : {ar|هٰذِهِ كُتُبٌ} (ce sont des livres)."
       },
       "answer": true,
-      "explain": "{ar|هَؤُلَاءِ} sert pour des personnes. Pour des choses au pluriel, on emploie en général {ar|هٰذِهِ} (proche) ou {ar|تِلْكَ} (loin), et l'adjectif est au féminin singulier."
+      "explain": "{ar|هَؤُلَاءِ} sert pour des personnes. Pour des choses au pluriel, on emploie en général {ar|هٰذِهِ} (proche) ou {ar|تِلْكَ} (loin)."
     },
     { "id": "medine-t1.l13.practice-1#10", "type": "typing", "ask": "fr", "item": "w:haulaa" },
     {
