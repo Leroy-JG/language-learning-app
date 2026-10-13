@@ -6,7 +6,7 @@
     {
       "id": "medine-t1.l14.quiz#1",
       "type": "mcq",
-      "mode": "ar-fr",
+      "mode": "fr-ar",
       "item": "w:ayy",
       "distractors": ["w:man", "w:ayna"]
     },
@@ -38,7 +38,7 @@
     {
       "id": "medine-t1.l14.quiz#5",
       "type": "true_false",
-      "statement": { "fr": "Un nom propre non arabe de trois lettres, comme {ar|لُوطٌ}, garde son tanwin." },
+      "statement": { "fr": "Un nom propre non arabe de trois lettres, comme {ar|لُوطٌ}, garde en général son tanwin." },
       "answer": true,
       "explain": "C'est à partir de quatre lettres que ces noms perdent leur tanwin."
     },

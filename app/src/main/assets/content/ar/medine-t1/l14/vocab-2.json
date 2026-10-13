@@ -17,12 +17,19 @@
     { "id": "medine-t1.l14.vocab-2#5", "type": "present", "item": "w:shahr" },
     {
       "id": "medine-t1.l14.vocab-2#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:shahr",
+      "distractors": ["w:yawm", "w:usbu"]
+    },
+    {
+      "id": "medine-t1.l14.vocab-2#7",
       "type": "tip",
       "title": "Les mois : {ar|شَهْرُ} + un nom propre",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Pour nommer un mois, on met {ar|شَهْرُ} devant son nom propre : c'est une annexion."
+          "text": "Pour nommer un mois, on met souvent {ar|شَهْرُ} devant son nom propre : c'est une annexion."
         },
         {
           "type": "table",
@@ -38,15 +45,15 @@
         }
       ]
     },
-    { "id": "medine-t1.l14.vocab-2#7", "type": "present", "item": "w:ziyara" },
+    { "id": "medine-t1.l14.vocab-2#8", "type": "present", "item": "w:ziyara" },
     {
-      "id": "medine-t1.l14.vocab-2#8",
+      "id": "medine-t1.l14.vocab-2#9",
       "type": "match",
       "mode": "ar-fr",
       "items": ["w:balad", "w:matar", "w:mahkama", "w:shahr", "w:ziyara"]
     },
     {
-      "id": "medine-t1.l14.vocab-2#9",
+      "id": "medine-t1.l14.vocab-2#10",
       "type": "fill_gap",
       "sentence": "{0} خَلْفَ الْمَسْجِدِ.",
       "fr": "Le tribunal est derrière la mosquée.",
@@ -54,15 +61,15 @@
       "options": ["الْمَحْكَمَةُ", "الْمَطَارُ", "الْبَلَدُ"]
     },
     {
-      "id": "medine-t1.l14.vocab-2#10",
+      "id": "medine-t1.l14.vocab-2#11",
       "type": "order",
       "fr": "Le tribunal est derrière la mosquée.",
       "answers": [["الْمَحْكَمَةُ", "خَلْفَ", "الْمَسْجِدِ"]],
       "punctuation": "."
     },
-    { "id": "medine-t1.l14.vocab-2#11", "type": "typing", "ask": "fr", "item": "w:shahr" },
+    { "id": "medine-t1.l14.vocab-2#12", "type": "typing", "ask": "fr", "item": "w:shahr" },
     {
-      "id": "medine-t1.l14.vocab-2#12",
+      "id": "medine-t1.l14.vocab-2#13",
       "type": "typing",
       "ask": "audio",
       "fr": "C'est un grand pays.",

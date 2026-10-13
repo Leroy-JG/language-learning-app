@@ -27,7 +27,7 @@
         },
         {
           "type": "note",
-          "text": "Comme au chapitre 8, l'alif de l'impératif prend une kasra quand l'avant-dernière lettre du présent porte une kasra ({ar|يَشْفِي} → {ar|اِشْفِ}, {ar|يَهْدِي} → {ar|اِهْدِ})."
+          "text": "Comme au chapitre 8, l'alif de l'impératif prend une damma quand l'avant-dernière lettre du présent porte une damma, et une kasra sinon ({ar|يَشْفِي} → {ar|اِشْفِ}, {ar|يَهْدِي} → {ar|اِهْدِ})."
         }
       ]
     },
@@ -60,7 +60,7 @@
         {
           "type": "note",
           "tone": "culture",
-          "text": "Pour souhaiter une guérison, on dit {ar|شَفَاهُ اللَّهُ} (« qu'Allah le guérisse ») ou {ar|شِفَاءُ اللَّهِ}. Pour demander la guidance, {ar|يَهْدِيهِ اللَّهُ} (« qu'Allah le guide »). Tu les retrouveras dans le texte du livre."
+          "text": "Pour souhaiter une guérison, on dit {ar|شَفَاهُ اللَّهُ} (« qu'Allah le guérisse ») : un souhait exprimé au passé, avec {ar|هُ} (« le »). Pour demander la guidance, {ar|يَهْدِيهِ اللَّهُ} (« qu'Allah le guide »). Tu retrouveras ces souhaits dans le texte du livre, avec {ar|يَهْدِيهِمَا اللَّهُ} (« qu'Allah les guide tous les deux »)."
         }
       ]
     },

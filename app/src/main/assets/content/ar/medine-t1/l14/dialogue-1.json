@@ -40,7 +40,7 @@
         },
         {
           "speaker": "A",
-          "ar": "شِفَاءُ اللَّهِ. مَنْ هٰذِهِ الطِّفْلَةُ الَّتِي مَعَكُمْ؟",
+          "ar": "شَفَاهُ اللَّهُ. مَنْ هٰذِهِ الطِّفْلَةُ الَّتِي مَعَكُمْ؟",
           "fr": "Qu'Allah le guérisse… Qui est cette petite fille qui est avec vous ?"
         },
         { "speaker": "B", "ar": "هِيَ أُخْتُنَا.", "fr": "C'est notre sœur." },
@@ -75,8 +75,8 @@
           "rows": [
             ["{ar|يَا عَمِّي}", "« mon oncle » : une façon polie de s'adresser à un homme plus âgé"],
             [
-              "{ar|شِفَاءُ اللَّهِ}",
-              "un souhait : « qu'Allah le guérisse » (la guérison, {ar|شِفَاءٌ}, vient du verbe {ar|شَفَى})"
+              "{ar|شَفَاهُ اللَّهُ}",
+              "un souhait, dit au passé : « qu'Allah le guérisse » ({ar|شَفَى} + le pronom {ar|هُ}, « le », collé au verbe)"
             ],
             [
               "{ar|الطِّفْلَةُ الَّتِي مَعَكُمْ}",

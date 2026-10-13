@@ -5,7 +5,7 @@
     "ar": "أَيُّ",
     "fr": "quel… ? (quelle… ?)",
     "translit": "ayyu",
-    "note": "Nom interrogatif de sens très général : il ne dit pas lui-même s'il interroge sur un lieu, un moment, une personne ou une chose ; c'est le nom qui le suit qui le dit. Il s'emploie toujours devant un nom.",
+    "note": "Nom interrogatif de sens très général : il ne dit pas lui-même s'il interroge sur un lieu, un moment, une personne ou une chose ; c'est le nom qui le suit qui le dit. Il se place presque toujours devant un nom.",
     "example": { "ar": "أَيُّ يَوْمٍ هٰذَا؟", "fr": "Quel jour est-ce ?" }
   },
   {
@@ -117,7 +117,7 @@
     "fr": "l'islam",
     "translit": "al-ʾislāmu",
     "gender": "m",
-    "note": "Le mot vient de la même racine que {ar|مُسْلِمٌ} et {ar|سَلَامٌ} : il veut dire « se soumettre (à Allah) ».",
+    "note": "Le mot vient de la même racine que {ar|مُسْلِمٌ} et {ar|سَلَامٌ} : il veut dire « la soumission (à Allah) ».",
     "example": { "ar": "نَحْنُ مُسْلِمُونَ.", "fr": "Nous sommes musulmans." }
   },
   {
@@ -181,7 +181,7 @@
     "translit": "ṭiflatun",
     "gender": "f",
     "note": "Féminin de {ar|طِفْلٌ} (un enfant, un bébé, chapitre 10).",
-    "example": { "ar": "هٰذِهِ طِفْلَةٌ صَغِيرَةٌ.", "fr": "C'est une petite fille." }
+    "example": { "ar": "هٰذِهِ طِفْلَةٌ جَمِيلَةٌ.", "fr": "C'est une jolie petite fille." }
   },
   {
     "id": "w:karim",
@@ -259,7 +259,15 @@
     "note": "Un prénom non arabe de plus de trois lettres : damma simple, sans tanwin."
   },
   { "id": "w:yusuf", "kind": "word", "ar": "يُوسُفُ", "fr": "Yūsuf (Joseph)", "translit": "yūsufu", "gender": "m" },
-  { "id": "w:dawud", "kind": "word", "ar": "دَاوُدُ", "fr": "Dāwūd (David)", "translit": "dāwudu", "gender": "m" },
+  {
+    "id": "w:dawud",
+    "kind": "word",
+    "ar": "دَاوُدُ",
+    "fr": "Dāwūd (David)",
+    "translit": "dāwūdu",
+    "gender": "m",
+    "note": "Le {ar|و} s'écrit une seule fois, avec une damma, mais se prononce long : « dāwūd »."
+  },
   {
     "id": "w:nuh",
     "kind": "word",

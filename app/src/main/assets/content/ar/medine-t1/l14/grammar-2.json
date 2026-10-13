@@ -70,6 +70,21 @@
     },
     {
       "id": "medine-t1.l14.grammar-2#3",
+      "type": "sort",
+      "categories": [ { "fr": "notre ({ar|نَا})" }, { "fr": "votre ({ar|كُمْ})" } ],
+      "cards": [
+        { "ar": "بَيْتُنَا", "category": 0 },
+        { "ar": "مَدْرَسَتُكُمْ", "category": 1 },
+        { "ar": "لُغَتُنَا", "category": 0 },
+        { "ar": "أُخْتُكُمْ", "category": 1 },
+        { "ar": "دِينُنَا", "category": 0 },
+        { "ar": "أَبُوكُمْ", "category": 1 }
+      ],
+      "instruction": "Notre ou votre ? Range chaque mot selon son pronom affixe.",
+      "explain": "{ar|نَا} : « notre » ; {ar|كُمْ} : « votre » (à plusieurs)."
+    },
+    {
+      "id": "medine-t1.l14.grammar-2#4",
       "type": "tip",
       "title": "Après une préposition",
       "blocks": [
@@ -97,13 +112,13 @@
       ]
     },
     {
-      "id": "medine-t1.l14.grammar-2#4",
+      "id": "medine-t1.l14.grammar-2#5",
       "type": "tip",
       "title": "{ar|كُمْ} devant l'article",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Quand le mot suivant commence par l'article {ar|الْ}, la mim de {ar|كُمْ} prend une **damma** : on évite ainsi deux sukūn de suite. Sans article, la mim garde son sukūn."
+          "text": "Quand le mot suivant commence par l'article {ar|الْ}, la mim de {ar|كُمْ} prend une **damma** : on évite ainsi deux sukūn de suite. La même chose vaut devant un autre mot qui commence par un alif de liaison. Devant les autres mots, la mim garde son sukūn."
         },
         {
           "type": "compare",
@@ -126,7 +141,7 @@
       ]
     },
     {
-      "id": "medine-t1.l14.grammar-2#5",
+      "id": "medine-t1.l14.grammar-2#6",
       "type": "question",
       "prompt": { "fr": "Dans {ar|بَيْتُكُمُ الْجَدِيدُ}, pourquoi la mim de {ar|كُمْ} a-t-elle une damma ?" },
       "choices": [
@@ -136,21 +151,6 @@
       ],
       "answer": 0,
       "explain": "Devant l'article, on ne prononce pas deux sukūn de suite : la mim prend une damma."
-    },
-    {
-      "id": "medine-t1.l14.grammar-2#6",
-      "type": "sort",
-      "categories": [ { "fr": "notre ({ar|نَا})" }, { "fr": "votre ({ar|كُمْ})" } ],
-      "cards": [
-        { "ar": "بَيْتُنَا", "category": 0 },
-        { "ar": "مَدْرَسَتُكُمْ", "category": 1 },
-        { "ar": "لُغَتُنَا", "category": 0 },
-        { "ar": "أُخْتُكُمْ", "category": 1 },
-        { "ar": "دِينُنَا", "category": 0 },
-        { "ar": "أَبُوكُمْ", "category": 1 }
-      ],
-      "instruction": "Notre ou votre ? Range chaque mot selon son pronom affixe.",
-      "explain": "{ar|نَا} : « notre » ; {ar|كُمْ} : « votre » (à plusieurs)."
     },
     {
       "id": "medine-t1.l14.grammar-2#7",

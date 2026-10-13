@@ -207,7 +207,7 @@ Support utilisé pour la leçon 13 (`l13`) : `TOME1-13.pdf` (19 pages) : `أَس
 - `نَا` / `كُمْ` collés aux noms (rappel du chapitre 10, `أَبُونَا` / `أَخُوكُمْ`) ; la mim de `كُمْ` prend une damma devant l'article (`بَيْتُكُمُ الْجَدِيدُ`, `وَعَلَيْكُمُ السَّلَامُ`) ;
 - vocabulaire : `كُلِّيَّةٌ` `هَنْدَسَةٌ` `تِجَارَةٌ` `طِبٌّ` `بَلَدٌ` `مَطَارٌ` `مَحْكَمَةٌ` `شَهْرٌ` `زِيَارَةٌ` `الْإِسْلَامُ` `دِينٌ` `رَبٌّ` `قِبْلَةٌ` `نَصْرَانِيٌّ` `حَفِيدٌ` `طِفْلَةٌ` `كَرِيمٌ` `أَهْلًا وَسَهْلًا` `مَرْحَبًا` `شَفَى` `هَدَى` (avec leurs quatre formes dans une astuce) ; villes et pays `لَنْدَنُ` `بَارِيسُ` `بَاكِسْتَانُ` `إِسْطَنْبُولُ` `تُرْكِيَا` `الْيُونَانُ` `الْمَمْلَكَةُ الْعَرَبِيَّةُ السُّعُودِيَّةُ` ; noms de personnes `وِلْيَمُ` `إِدْوَرْدُ` `إِبْرَاهِيمُ` `يُوسُفُ` `دَاوُدُ` `نُوحٌ` `لُوطٌ` `إِسْمَاعِيلُ` `إِسْحَاقُ` `يَعْقُوبُ` `سُلَيْمَانُ` `أَيُّوبُ` `يُونُسُ` `إِدْرِيسُ` `جِبْرَئِيلُ` `مِيكَائِيلُ` `فِرْعَوْنُ` ; pluriels `كُلِّيَّاتٌ` `تِجَارَاتٌ` `بِلَادٌ` `مَطَارَاتٌ` `مَحَاكِمُ` `أَشْهُرٌ` `زِيَارَاتٌ` `أَدْيَانٌ` `أَرْبَابٌ` `نَصَارَى` `حَفَدَةٌ` `كُرَمَاءُ` ;
 - les deux dialogues du livre, les exercices 1 à 5 ;
-- seulement **aperçus** (astuce « Des petites formes à repérer », rien n'est exigé en exercice) : `ذَهَبْتُمْ` / `ذَهَبْنَا`, `يَهْدِيهِمَا`, `الَّذِي` / `الَّتِي`, `شِفَاءُ اللَّهِ`, `بِالْجَامِعَةِ`, `إِخْوَانٌ` (autre pluriel de `أَخٌ`) ; l'accusatif de l'objet dans `شَفَى اللَّهُ الْمَرِيضَ` (comme au chapitre 11).
+- seulement **aperçus** (astuce « Des petites formes à repérer », rien n'est exigé en exercice) : `ذَهَبْتُمْ` / `ذَهَبْنَا`, `يَهْدِيهِمَا`, `شَفَاهُ اللَّهُ` (souhait au passé avec le pronom `هُ`), `الَّذِي` / `الَّتِي`, `بِالْجَامِعَةِ`, `إِخْوَانٌ` (autre pluriel de `أَخٌ`) ; l'accusatif de l'objet dans `شَفَى اللَّهُ الْمَرِيضَ` (comme au chapitre 11).
 
 **Pas encore enseigné** (ne pas l'exiger dans un exercice) :
 - les pronoms affixes du nominatif et de l'accusatif (ils s'attachent aux verbes) et les pronoms isolés de l'accusatif (`إِيَّاكَ`) ;
@@ -643,7 +643,7 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - pluriels : `مَحْكَمَةٌ` → `مَحَاكِمُ` (dictionnaires) avec note sur `مَحْكَمَاتٌ` du professeur ; `قِبْلَاتٌ`, `هَنْدَسَاتٌ` du PDF non repris (douteux, pas de pluriel donné) ; `حَفَدَةٌ`, `بِلَادٌ`, `أَشْهُرٌ`, `كُرَمَاءُ`, `نَصَارَى` gardés, avec en note `أَحْفَادٌ`, `بُلْدَانٌ`, `شُهُورٌ`, `كِرَامٌ` ;
   - exercice 1 : les questions 2, 5 et 9 (`أَيْنَ بَيْتُكُمْ ؟`…) ont des réponses personnelles : l'app impose une réponse tirée des textes du chapitre ; la question 7 (`أَفِي بَيْتِكُمْ حَدِيقَةٌ؟`) est reprise telle quelle ; `ﷺ` (refusé par le validateur) → `صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ` ;
   - exercice 2, phrase 12 (`ذَهَبْتُمْ` / `ذَهَبْنَا`) : lue seulement ; la phrase 2 est un dialogue lu, sans exercice sur les verbes ;
-  - `شِفَاءُ اللَّهِ…` : les points de suspension sont remplacés par un point dans l'arabe (le validateur refuse `…`) ;
+  - `شَفَاهُ اللَّهُ…` (le PDF vocalise bien `شَفَاهُ`, un souhait) : les points de suspension sont remplacés par un point dans l'arabe (le validateur refuse `…`) ;
   - le professeur dit que `أَيّ` « a un sens général » et « est toujours annexé » : repris tel quel ; `هٰذَا` écrit avec l'alif suscrit.
 - **Mots ajoutés (absents de la liste du PDF, mais employés par ses textes) :** `الْإِسْلَامُ`, `طِفْلَةٌ` (dialogue 1), `وِلْيَمُ` et `إِدْوَرْدُ` (dialogue 2), les noms propres de l'exercice 5, `الْمَمْلَكَةُ الْعَرَبِيَّةُ السُّعُودِيَّةُ` (carte). `شَرِيعَةٌ` n'est pas un item : expliqué dans l'astuce du dialogue 1.
 - **Choix de contenu :**
@@ -660,7 +660,15 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - `رَبٌّ` en annexion (`رَبُّ الْبَيْتِ`), `الْإِسْلَامُ` de la racine de `مُسْلِمٌ` et `سَلَامٌ`, `هَنْدَسَةٌ` / `مُهَنْدِسٌ`, `تِجَارَةٌ` / `تَاجِرٌ`, `طِبٌّ` / `طَبِيبٌ` ;
   - `أَهْلًا وَسَهْلًا` (explication usuelle), `مَرْحَبًا` aussi « bonjour » ;
   - `عَلَيْهِ السَّلَامُ` après un prophète ou un ange ; `فِرْعَوْنُ` n'est pas un prophète ;
-  - `شَفَاهُ اللَّهُ` / `يَهْدِيهِ اللَّهُ` : souhaits ; `يَا عَمِّي` : manière polie de s'adresser à un homme plus âgé.
+  - `شَفَاهُ اللَّهُ` / `يَهْدِيهِ اللَّهُ` : souhaits (verbe + pronom collé) ; `يَا عَمِّي` : manière polie de s'adresser à un homme plus âgé.
+- **Corrections après relecture :**
+  - le PDF écrit `شَفَاهُ اللَّهُ` (et non `شِفَاءُ اللَّهِ`) : texte, astuces et note de `vocab-5` corrigés ;
+  - `أَيُّ` : « presque toujours » suivi d'un nom (on dit aussi `أَيُّكُمْ`) ; la mim de `كُمْ` prend aussi la damma devant tout mot à alif de liaison ;
+  - la règle des trois lettres est dite « le plus souvent » / « en général » (pour `نُوحٌ`, `لُوطٌ` le tanwin est la forme préférée) ;
+  - un nom sans tanwin prend la fatha « sans article et sans être premier terme d'annexion » ;
+  - `لَنْدَنُ` n'est plus une carte du tri « Pourquoi pas de tanwin ? » (un nom de ville est traité comme féminin) ; `مِنْ أَيَّةِ مَدِينَةٍ أَنْتَ؟` accepté (féminin) ;
+  - `مُدَرِّسٌ` : « enseignant » (« professeur » reste pour `أُسْتَاذٌ`) ; `دَاوُدُ` : translittération `dāwūdu` ;
+  - rythme : au plus trois présentations ou trois exercices du même type d'affilée.
 - **Pas de nouvelle icône.**
 
 ## Audio

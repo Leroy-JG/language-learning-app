@@ -16,10 +16,17 @@
     },
     { "id": "medine-t1.l14.vocab-6#5", "type": "present", "item": "w:istanbul" },
     { "id": "medine-t1.l14.vocab-6#6", "type": "present", "item": "w:turkiya" },
-    { "id": "medine-t1.l14.vocab-6#7", "type": "present", "item": "w:yunan" },
-    { "id": "medine-t1.l14.vocab-6#8", "type": "present", "item": "p:saudiyya" },
     {
-      "id": "medine-t1.l14.vocab-6#9",
+      "id": "medine-t1.l14.vocab-6#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:turkiya",
+      "distractors": ["w:istanbul", "w:landan"]
+    },
+    { "id": "medine-t1.l14.vocab-6#8", "type": "present", "item": "w:yunan" },
+    { "id": "medine-t1.l14.vocab-6#9", "type": "present", "item": "p:saudiyya" },
+    {
+      "id": "medine-t1.l14.vocab-6#10",
       "type": "tip",
       "title": "Le royaume d'Arabie saoudite",
       "blocks": [
@@ -40,39 +47,39 @@
       ]
     },
     {
-      "id": "medine-t1.l14.vocab-6#10",
+      "id": "medine-t1.l14.vocab-6#11",
       "type": "memory",
       "mode": "ar-fr",
       "items": ["w:landan", "w:baris", "w:bakistan", "w:istanbul", "w:turkiya", "w:yunan"]
     },
     {
-      "id": "medine-t1.l14.vocab-6#11",
+      "id": "medine-t1.l14.vocab-6#12",
       "type": "mcq",
       "mode": "fr-ar",
       "item": "w:yunan",
       "distractors": ["w:turkiya", "w:bakistan"]
     },
-    { "id": "medine-t1.l14.vocab-6#12", "type": "build", "item": "w:baris", "extra": ["ز"] },
+    { "id": "medine-t1.l14.vocab-6#13", "type": "build", "item": "w:baris", "extra": ["ز"] },
     {
-      "id": "medine-t1.l14.vocab-6#13",
+      "id": "medine-t1.l14.vocab-6#14",
       "type": "mcq",
       "mode": "audio-ar",
       "item": "w:istanbul",
       "distractors": ["w:landan", "w:baris"]
     },
     {
-      "id": "medine-t1.l14.vocab-6#14",
+      "id": "medine-t1.l14.vocab-6#15",
       "type": "typing",
       "ask": "audio",
       "fr": "Paris est une grande ville.",
       "answers": ["بَارِيسُ مَدِينَةٌ كَبِيرَةٌ."]
     },
     {
-      "id": "medine-t1.l14.vocab-6#15",
+      "id": "medine-t1.l14.vocab-6#16",
       "type": "typing",
       "ask": "fr",
       "fr": "Je viens de Turquie.",
-      "answers": ["أَنَا مِنْ تُرْكِيَا."]
+      "answers": ["أَنَا مِنْ تُرْكِيَا.", "مِنْ تُرْكِيَا."]
     }
   ]
 }

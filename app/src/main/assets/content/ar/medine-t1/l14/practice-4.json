@@ -94,7 +94,7 @@
     {
       "id": "medine-t1.l14.practice-4#10",
       "type": "question",
-      "prompt": { "fr": "Que répond-on à {ar|أَيْنَ مُدَرِّسُكُمْ؟} si le professeur est dans la salle de classe ?" },
+      "prompt": { "fr": "Que répond-on à {ar|أَيْنَ مُدَرِّسُكُمْ؟} si l'enseignant est dans la salle de classe ?" },
       "choices": [ { "ar": "هُوَ فِي الْفَصْلِ." }, { "ar": "هُوَ فِي السُّوقِ." }, { "ar": "هُوَ فِي الْمَطْبَخِ." } ],
       "answer": 0,
       "explain": "{ar|فَصْلٌ} veut dire « une salle de classe »."

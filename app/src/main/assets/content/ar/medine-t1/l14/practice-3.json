@@ -97,8 +97,9 @@
       "gaps": [ { "answers": ["بَارِيسَ"] } ],
       "options": ["بَارِيسَ", "بَاكِسْتَانَ", "إِسْطَنْبُولَ"]
     },
+    { "id": "medine-t1.l14.practice-3#9", "type": "build", "item": "w:sulayman", "extra": ["ع"] },
     {
-      "id": "medine-t1.l14.practice-3#9",
+      "id": "medine-t1.l14.practice-3#10",
       "type": "fill_gap",
       "sentence": "أَنَا مِنْ {0}.",
       "fr": "Je viens de Paris.",
@@ -107,20 +108,19 @@
       "explain": "Après {ar|مِنْ}, un nom sans tanwin et sans article prend la fatha : {ar|بَارِيسَ}."
     },
     {
-      "id": "medine-t1.l14.practice-3#10",
+      "id": "medine-t1.l14.practice-3#11",
+      "type": "true_false",
+      "statement": { "fr": "{ar|يُونُسُ} est privé de tanwin parce que c'est un nom propre non arabe de plus de trois lettres." },
+      "answer": true,
+      "explain": "{ar|يُونُسُ} s'écrit {ar|ي} + {ar|و} + {ar|ن} + {ar|س} : quatre lettres, donc pas de tanwin."
+    },
+    {
+      "id": "medine-t1.l14.practice-3#12",
       "type": "fill_gap",
       "sentence": "هُوَ مِنْ {0}.",
       "fr": "Il vient de Turquie.",
       "gaps": [ { "answers": ["تُرْكِيَا"] } ],
       "options": ["تُرْكِيَا", "بَاكِسْتَانَ", "لَنْدَنَ"]
-    },
-    { "id": "medine-t1.l14.practice-3#11", "type": "build", "item": "w:sulayman", "extra": ["ع"] },
-    {
-      "id": "medine-t1.l14.practice-3#12",
-      "type": "true_false",
-      "statement": { "fr": "{ar|يُونُسُ} est privé de tanwin parce que c'est un nom propre non arabe de plus de trois lettres." },
-      "answer": true,
-      "explain": "{ar|يُونُسُ} s'écrit {ar|ي} + {ar|و} + {ar|ن} + {ar|س} : quatre lettres, donc pas de tanwin."
     },
     {
       "id": "medine-t1.l14.practice-3#13",

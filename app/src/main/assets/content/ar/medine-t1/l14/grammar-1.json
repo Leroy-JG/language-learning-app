@@ -37,6 +37,13 @@
     { "id": "medine-t1.l14.grammar-1#2", "type": "present", "item": "w:ayy" },
     {
       "id": "medine-t1.l14.grammar-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ayy",
+      "distractors": ["w:man", "w:ayna"]
+    },
+    {
+      "id": "medine-t1.l14.grammar-1#4",
       "type": "tip",
       "title": "Un nom interrogatif de sens général",
       "blocks": [
@@ -62,13 +69,13 @@
       ]
     },
     {
-      "id": "medine-t1.l14.grammar-1#4",
+      "id": "medine-t1.l14.grammar-1#5",
       "type": "tip",
       "title": "Toujours devant un nom : une annexion",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "{ar|أَيُّ} ne s'emploie jamais seul : il est suivi d'un nom, avec lequel il forme une **annexion** ({ar|الْإِضَافَةُ}, chapitre 5). C'est le premier terme ({ar|الْمُضَافُ}) : il n'a ni article ni tanwin. Le second terme ({ar|الْمُضَافُ إِلَيْهِ}) est le plus souvent un nom indéfini au singulier, à la kasra avec son tanwin."
+          "text": "{ar|أَيُّ} est presque toujours suivi d'un nom, avec lequel il forme une **annexion** ({ar|الْإِضَافَةُ}, chapitre 5). C'est le premier terme ({ar|الْمُضَافُ}) : il n'a ni article ni tanwin. Le second terme ({ar|الْمُضَافُ إِلَيْهِ}) est le plus souvent un nom indéfini au singulier, à la kasra avec son tanwin."
         },
         {
           "type": "breakdown",
@@ -85,7 +92,7 @@
       ]
     },
     {
-      "id": "medine-t1.l14.grammar-1#5",
+      "id": "medine-t1.l14.grammar-1#6",
       "type": "fill_gap",
       "sentence": "{0} يَوْمٍ هٰذَا؟",
       "fr": "Quel jour est-ce ?",
@@ -94,7 +101,7 @@
       "explain": "Pour dire « quel jour ? », on met {ar|أَيُّ} devant le nom {ar|يَوْمٍ}."
     },
     {
-      "id": "medine-t1.l14.grammar-1#6",
+      "id": "medine-t1.l14.grammar-1#7",
       "type": "tip",
       "title": "Le seul nom interrogatif qui change",
       "blocks": [
@@ -129,7 +136,7 @@
       ]
     },
     {
-      "id": "medine-t1.l14.grammar-1#7",
+      "id": "medine-t1.l14.grammar-1#8",
       "type": "question",
       "prompt": { "fr": "Après la préposition {ar|فِي}, le nom interrogatif {ar|أَيُّ} prend…" },
       "choices": [
@@ -141,7 +148,7 @@
       "explain": "{ar|أَيُّ} est variable : après une préposition, il prend la kasra ({ar|أَيِّ}). Il n'a jamais de tanwin ici, car c'est le premier terme d'une annexion."
     },
     {
-      "id": "medine-t1.l14.grammar-1#8",
+      "id": "medine-t1.l14.grammar-1#9",
       "type": "spot",
       "instruction": "Touche le nom interrogatif.",
       "words": ["فِي", "أَيِّ", "مَدْرَسَةٍ", "أَنْتَ؟"],
@@ -149,14 +156,14 @@
       "fr": "Dans quelle école es-tu ?"
     },
     {
-      "id": "medine-t1.l14.grammar-1#9",
+      "id": "medine-t1.l14.grammar-1#10",
       "type": "true_false",
       "statement": { "fr": "Comme {ar|مَنْ} et {ar|كَيْفَ}, le nom interrogatif {ar|أَيُّ} est invariable." },
       "answer": false,
       "explain": "{ar|أَيُّ} est le seul nom interrogatif variable : {ar|أَيُّ مَدْرَسَةٍ} mais {ar|فِي أَيِّ مَدْرَسَةٍ}."
     },
     {
-      "id": "medine-t1.l14.grammar-1#10",
+      "id": "medine-t1.l14.grammar-1#11",
       "type": "order",
       "fr": "Quelle ville est-ce ?",
       "answers": [["أَيُّ", "مَدِينَةٍ", "هٰذِهِ"]],
@@ -165,7 +172,7 @@
       "explain": "{ar|أَيُّ} se place en tête de la question, devant son nom."
     },
     {
-      "id": "medine-t1.l14.grammar-1#11",
+      "id": "medine-t1.l14.grammar-1#12",
       "type": "typing",
       "ask": "audio",
       "fr": "Quel jour est-ce ?",

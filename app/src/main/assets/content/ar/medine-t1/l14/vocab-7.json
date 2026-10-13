@@ -7,57 +7,64 @@
     { "id": "medine-t1.l14.vocab-7#1", "type": "present", "item": "w:wilyam" },
     { "id": "medine-t1.l14.vocab-7#2", "type": "present", "item": "w:idward" },
     { "id": "medine-t1.l14.vocab-7#3", "type": "present", "item": "w:ibrahim" },
-    { "id": "medine-t1.l14.vocab-7#4", "type": "present", "item": "w:yusuf" },
     {
-      "id": "medine-t1.l14.vocab-7#5",
+      "id": "medine-t1.l14.vocab-7#4",
       "type": "mcq",
       "mode": "ar-fr",
       "item": "w:ibrahim",
       "distractors": ["w:wilyam", "w:idward"]
     },
+    { "id": "medine-t1.l14.vocab-7#5", "type": "present", "item": "w:yusuf" },
     { "id": "medine-t1.l14.vocab-7#6", "type": "present", "item": "w:dawud" },
-    { "id": "medine-t1.l14.vocab-7#7", "type": "present", "item": "w:nuh" },
-    { "id": "medine-t1.l14.vocab-7#8", "type": "present", "item": "w:lut" },
     {
-      "id": "medine-t1.l14.vocab-7#9",
+      "id": "medine-t1.l14.vocab-7#7",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:dawud",
+      "distractors": ["w:yusuf", "w:ibrahim"]
+    },
+    { "id": "medine-t1.l14.vocab-7#8", "type": "present", "item": "w:nuh" },
+    { "id": "medine-t1.l14.vocab-7#9", "type": "present", "item": "w:lut" },
+    {
+      "id": "medine-t1.l14.vocab-7#10",
       "type": "tip",
       "title": "Regarde la fin de ces noms",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Presque tous ces noms se terminent par une damma simple, sans tanwin. Seuls {ar|نُوحٌ} et {ar|لُوطٌ} ont un tanwin. Tu sauras pourquoi dans l'astuce qui suit les listes de noms."
+          "text": "Presque tous ces noms se terminent par une damma simple, sans tanwin. Seuls {ar|نُوحٌ} et {ar|لُوطٌ} ont un tanwin. Dans certaines phrases, tu verras aussi leur fin changer ({ar|وِلْيَمَ}) : tu sauras pourquoi dans l'astuce qui suit les listes de noms."
         }
       ]
     },
     {
-      "id": "medine-t1.l14.vocab-7#10",
+      "id": "medine-t1.l14.vocab-7#11",
       "type": "match",
       "mode": "ar-fr",
       "items": ["w:wilyam", "w:idward", "w:ibrahim", "w:yusuf", "w:dawud"]
     },
     {
-      "id": "medine-t1.l14.vocab-7#11",
+      "id": "medine-t1.l14.vocab-7#12",
       "type": "memory",
       "mode": "ar-fr",
       "items": ["w:wilyam", "w:idward", "w:ibrahim", "w:yusuf", "w:dawud", "w:nuh"]
     },
     {
-      "id": "medine-t1.l14.vocab-7#12",
+      "id": "medine-t1.l14.vocab-7#13",
       "type": "order",
       "fr": "Edward est le père de William.",
       "answers": [["إِدْوَرْدُ", "أَبُو", "وِلْيَمَ"]],
       "punctuation": "."
     },
-    { "id": "medine-t1.l14.vocab-7#13", "type": "build", "item": "w:ibrahim", "extra": ["ن"] },
+    { "id": "medine-t1.l14.vocab-7#14", "type": "build", "item": "w:ibrahim", "extra": ["ن"] },
     {
-      "id": "medine-t1.l14.vocab-7#14",
+      "id": "medine-t1.l14.vocab-7#15",
       "type": "typing",
       "ask": "audio",
       "fr": "Dāwūd est étudiant.",
       "answers": ["دَاوُدُ طَالِبٌ."]
     },
     {
-      "id": "medine-t1.l14.vocab-7#15",
+      "id": "medine-t1.l14.vocab-7#16",
       "type": "typing",
       "ask": "fr",
       "fr": "Nūḥ est à la mosquée.",

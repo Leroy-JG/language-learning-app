@@ -25,7 +25,7 @@
         },
         {
           "type": "note",
-          "text": "Pour {ar|مَدْرَسَةٌ}, {ar|أُخْتٌ}, {ar|لُغَةٌ} (le {ar|ة} devient {ar|ت}) et pour {ar|أَبٌ}, {ar|أَخٌ} (le {ar|و}), rappelle-toi les astuces précédentes."
+          "text": "Pour {ar|مَدْرَسَةٌ} et {ar|لُغَةٌ} (le {ar|ة} devient {ar|ت}), pour {ar|أُخْتٌ} (seul le tanwin disparaît) et pour {ar|أَبٌ}, {ar|أَخٌ} (le {ar|و}), rappelle-toi les astuces précédentes."
         }
       ]
     },
@@ -52,48 +52,64 @@
     },
     {
       "id": "medine-t1.l14.practice-2#5",
+      "type": "fill_gap",
+      "sentence": "{0} الْعَرَبِيَّةُ.",
+      "fr": "Notre langue est l'arabe.",
+      "gaps": [ { "answers": ["لُغَتُنَا"] } ],
+      "options": ["لُغَتُنَا", "لُغَتُكُمْ", "لُغَتِي"]
+    },
+    {
+      "id": "medine-t1.l14.practice-2#6",
       "type": "typing",
       "ask": "fr",
       "fr": "votre école (à plusieurs hommes)",
       "answers": ["مَدْرَسَتُكُمْ"]
     },
     {
-      "id": "medine-t1.l14.practice-2#6",
+      "id": "medine-t1.l14.practice-2#7",
       "type": "typing",
       "ask": "fr",
       "fr": "notre sœur",
       "answers": ["أُخْتُنَا"]
     },
     {
-      "id": "medine-t1.l14.practice-2#7",
+      "id": "medine-t1.l14.practice-2#8",
       "type": "typing",
       "ask": "fr",
       "fr": "notre langue",
       "answers": ["لُغَتُنَا"]
     },
     {
-      "id": "medine-t1.l14.practice-2#8",
+      "id": "medine-t1.l14.practice-2#9",
+      "type": "fill_gap",
+      "sentence": "{0} طَبِيبٌ.",
+      "fr": "Notre frère est médecin.",
+      "gaps": [ { "answers": ["أَخُونَا"] } ],
+      "options": ["أَخُونَا", "أَخُوكُمْ", "أَخِي"]
+    },
+    {
+      "id": "medine-t1.l14.practice-2#10",
       "type": "typing",
       "ask": "fr",
       "fr": "votre religion (à plusieurs hommes)",
       "answers": ["دِينُكُمْ"]
     },
     {
-      "id": "medine-t1.l14.practice-2#9",
+      "id": "medine-t1.l14.practice-2#11",
       "type": "typing",
       "ask": "fr",
       "fr": "notre père",
       "answers": ["أَبُونَا"]
     },
     {
-      "id": "medine-t1.l14.practice-2#10",
+      "id": "medine-t1.l14.practice-2#12",
       "type": "typing",
       "ask": "fr",
       "fr": "votre frère (à plusieurs hommes)",
       "answers": ["أَخُوكُمْ"]
     },
     {
-      "id": "medine-t1.l14.practice-2#11",
+      "id": "medine-t1.l14.practice-2#13",
       "type": "fill_gap",
       "sentence": "{0} كَبِيرَةٌ وَمَدْرَسَتُكُمْ صَغِيرَةٌ.",
       "fr": "Notre école est grande et votre école est petite.",
@@ -101,14 +117,14 @@
       "options": ["مَدْرَسَتُنَا", "مَدْرَسَتُهُمْ", "مَدْرَسَتِي"]
     },
     {
-      "id": "medine-t1.l14.practice-2#12",
+      "id": "medine-t1.l14.practice-2#14",
       "type": "order",
       "fr": "Notre père est l'ami de votre oncle paternel.",
       "answers": [["أَبُونَا", "صَدِيقُ", "عَمِّكُمْ"]],
       "punctuation": "."
     },
     {
-      "id": "medine-t1.l14.practice-2#13",
+      "id": "medine-t1.l14.practice-2#15",
       "type": "typing",
       "ask": "audio",
       "fr": "Notre école est grande et votre école est petite.",

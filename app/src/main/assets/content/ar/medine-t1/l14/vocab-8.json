@@ -4,10 +4,41 @@
   "title": "Des prophètes, des anges et un pharaon",
   "icon": "star",
   "screens": [
+    { "id": "medine-t1.l14.vocab-8#1", "type": "present", "item": "w:ismail" },
+    { "id": "medine-t1.l14.vocab-8#2", "type": "present", "item": "w:ishaq" },
+    { "id": "medine-t1.l14.vocab-8#3", "type": "present", "item": "w:yaqub" },
     {
-      "id": "medine-t1.l14.vocab-8#1",
+      "id": "medine-t1.l14.vocab-8#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:yaqub",
+      "distractors": ["w:ismail", "w:ishaq"]
+    },
+    { "id": "medine-t1.l14.vocab-8#5", "type": "present", "item": "w:sulayman" },
+    { "id": "medine-t1.l14.vocab-8#6", "type": "present", "item": "w:ayyub" },
+    { "id": "medine-t1.l14.vocab-8#7", "type": "present", "item": "w:yunus" },
+    {
+      "id": "medine-t1.l14.vocab-8#8",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ayyub",
+      "distractors": ["w:yunus", "w:sulayman"]
+    },
+    { "id": "medine-t1.l14.vocab-8#9", "type": "present", "item": "w:idris" },
+    { "id": "medine-t1.l14.vocab-8#10", "type": "present", "item": "w:jibril" },
+    { "id": "medine-t1.l14.vocab-8#11", "type": "present", "item": "w:mikail" },
+    {
+      "id": "medine-t1.l14.vocab-8#12",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:mikail",
+      "distractors": ["w:jibril", "w:idris"]
+    },
+    { "id": "medine-t1.l14.vocab-8#13", "type": "present", "item": "w:firawn" },
+    {
+      "id": "medine-t1.l14.vocab-8#14",
       "type": "tip",
-      "title": "Après le nom d'un prophète",
+      "title": "Prophètes, anges et pharaon",
       "blocks": [
         {
           "type": "paragraph",
@@ -18,31 +49,7 @@
           "ar": "عَلَيْهِ السَّلَامُ",
           "fr": "la paix soit sur lui",
           "parts": [ { "ar": "عَلَيْهِ", "fr": "sur lui" }, { "ar": "السَّلَامُ", "fr": "la paix" } ]
-        }
-      ]
-    },
-    { "id": "medine-t1.l14.vocab-8#2", "type": "present", "item": "w:ismail" },
-    { "id": "medine-t1.l14.vocab-8#3", "type": "present", "item": "w:ishaq" },
-    { "id": "medine-t1.l14.vocab-8#4", "type": "present", "item": "w:yaqub" },
-    { "id": "medine-t1.l14.vocab-8#5", "type": "present", "item": "w:sulayman" },
-    { "id": "medine-t1.l14.vocab-8#6", "type": "present", "item": "w:ayyub" },
-    {
-      "id": "medine-t1.l14.vocab-8#7",
-      "type": "mcq",
-      "mode": "ar-fr",
-      "item": "w:yaqub",
-      "distractors": ["w:ismail", "w:ishaq"]
-    },
-    { "id": "medine-t1.l14.vocab-8#8", "type": "present", "item": "w:yunus" },
-    { "id": "medine-t1.l14.vocab-8#9", "type": "present", "item": "w:idris" },
-    { "id": "medine-t1.l14.vocab-8#10", "type": "present", "item": "w:jibril" },
-    { "id": "medine-t1.l14.vocab-8#11", "type": "present", "item": "w:mikail" },
-    { "id": "medine-t1.l14.vocab-8#12", "type": "present", "item": "w:firawn" },
-    {
-      "id": "medine-t1.l14.vocab-8#13",
-      "type": "tip",
-      "title": "Des anges et un pharaon",
-      "blocks": [
+        },
         {
           "type": "paragraph",
           "text": "{ar|جِبْرَئِيلُ} et {ar|مِيكَائِيلُ} sont des anges. {ar|فِرْعَوْنُ} (Pharaon) n'est pas un prophète : c'est le roi d'Égypte au temps de Mūsā."
@@ -54,12 +61,10 @@
       ]
     },
     {
-      "id": "medine-t1.l14.vocab-8#14",
+      "id": "medine-t1.l14.vocab-8#15",
       "type": "match",
       "mode": "ar-fr",
       "items": ["w:ismail", "w:ishaq", "w:yaqub", "w:sulayman", "w:ayyub"]
-    },
-    { "id": "medine-t1.l14.vocab-8#15", "type": "typing", "ask": "fr", "item": "w:ismail" },
-    { "id": "medine-t1.l14.vocab-8#16", "type": "typing", "ask": "fr", "item": "w:firawn" }
+    }
   ]
 }

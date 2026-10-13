@@ -25,7 +25,7 @@
         },
         {
           "type": "note",
-          "text": "Tu connais aussi {ar|مَاذَا} (« qu'y a-t-il ? ») et {ar|لِمَاذَا} (« pourquoi ? »). Dans ce chapitre, tu vas découvrir un cinquième nom interrogatif, qui, lui, change de forme."
+          "text": "Tu connais aussi {ar|مَاذَا} (« qu'y a-t-il ? ») et {ar|لِمَاذَا} (« pourquoi ? »). Dans ce chapitre, tu vas découvrir un nom interrogatif de plus, qui, lui, change de forme."
         }
       ]
     },
@@ -48,8 +48,8 @@
       "cards": [
         { "ar": "هُوَ زَيْدٌ.", "category": 0 },
         { "ar": "هِيَ زَيْنَبُ.", "category": 0 },
-        { "ar": "الْكِتَابُ عَلَى الْمَكْتَبِ.", "category": 1 },
-        { "ar": "أَبِي فِي الْمَسْجِدِ.", "category": 1 },
+        { "ar": "هِيَ فِي الْمَطْبَخِ.", "category": 1 },
+        { "ar": "هُوَ فِي الْمَسْجِدِ.", "category": 1 },
         { "ar": "هٰذَا قَلَمٌ.", "category": 2 },
         { "ar": "هٰذَا مِفْتَاحٌ.", "category": 2 }
       ],
@@ -85,7 +85,7 @@
       "type": "typing",
       "ask": "question",
       "question": "مَنْ هٰذَا؟",
-      "answers": ["هٰذَا رَجُلٌ.", "رَجُلٌ."],
+      "answers": ["هٰذَا رَجُلٌ.", "هُوَ رَجُلٌ.", "رَجُلٌ."],
       "fr": "C'est un homme.",
       "instruction": "Réponds : c'est un homme.",
       "context": { "icon": "man" }

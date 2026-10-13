@@ -26,7 +26,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "En général, un nom propre non arabe de **plus de trois lettres** n'a pas de tanwin : il se termine par une damma simple, jamais par {ar|◌ٌ}. S'il n'a que **trois** lettres, il garde son tanwin."
+          "text": "En général, un nom propre non arabe de **plus de trois lettres** n'a pas de tanwin : il se termine par une damma simple, jamais par {ar|◌ٌ}. S'il n'a que **trois** lettres, il garde le plus souvent son tanwin."
         },
         {
           "type": "table",
@@ -71,7 +71,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Comme {ar|مَكَّةُ} (chapitre 4), un nom sans tanwin, sans article, prend la **fatha** au lieu de la kasra après une préposition ou comme second terme d'une annexion. Un nom qui a le tanwin prend la kasra."
+          "text": "Comme {ar|مَكَّةُ} (chapitre 4), un nom sans tanwin, sans article et qui n'est pas premier terme d'une annexion, prend la **fatha** au lieu de la kasra après une préposition ou comme second terme d'une annexion. Un nom qui a le tanwin prend la kasra."
         },
         {
           "type": "compare",
@@ -84,7 +84,7 @@
             },
             {
               "from": { "ar": "نُوحٌ", "fr": "Nūḥ" },
-              "to": { "ar": "مِنْ نُوحٍ", "fr": "de la part de Nūḥ" },
+              "to": { "ar": "مِنْ نُوحٍ", "fr": "de Nūḥ" },
               "label": "trois lettres : tanwin, donc kasra"
             },
             {
@@ -114,7 +114,7 @@
       "type": "true_false",
       "statement": { "fr": "{ar|نُوحٌ} garde son tanwin parce qu'il n'a que trois lettres." },
       "answer": true,
-      "explain": "Un nom propre non arabe de trois lettres garde son tanwin ; à partir de quatre lettres, il n'en a plus."
+      "explain": "Un nom propre non arabe de trois lettres garde en général son tanwin ; à partir de quatre lettres, il n'en a en général plus."
     },
     {
       "id": "medine-t1.l14.grammar-3#7",
@@ -170,10 +170,10 @@
         { "ar": "مَسَاجِدُ", "category": 1 },
         { "ar": "مَدَارِسُ", "category": 1 },
         { "ar": "إِبْرَاهِيمُ", "category": 2 },
-        { "ar": "لَنْدَنُ", "category": 2 }
+        { "ar": "يُوسُفُ", "category": 2 }
       ],
       "instruction": "Pourquoi ce nom n'a-t-il pas de tanwin ? Range chaque nom selon sa sorte.",
-      "explain": "{ar|فَاطِمَةُ}, {ar|عَائِشَةُ} : des prénoms féminins ; {ar|مَسَاجِدُ}, {ar|مَدَارِسُ} : des pluriels de forme longue ; {ar|إِبْرَاهِيمُ}, {ar|لَنْدَنُ} : des noms propres non arabes."
+      "explain": "{ar|فَاطِمَةُ}, {ar|عَائِشَةُ} : des prénoms féminins ; {ar|مَسَاجِدُ}, {ar|مَدَارِسُ} : des pluriels de forme longue ; {ar|إِبْرَاهِيمُ}, {ar|يُوسُفُ} : des prénoms non arabes de plus de trois lettres."
     },
     {
       "id": "medine-t1.l14.grammar-3#11",

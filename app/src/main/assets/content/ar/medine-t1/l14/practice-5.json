@@ -61,6 +61,10 @@
           "type": "example",
           "ar": "اللَّهُ رَبُّنَا وَرَبُّكُمْ.",
           "fr": "Allah est notre Seigneur et votre Seigneur."
+        },
+        {
+          "type": "note",
+          "text": "{ar|لَنَا} est {ar|لِ} + {ar|نَا} (« à nous ») : c'est ainsi qu'on dit « nous avons » (chapitre 10)."
         }
       ]
     },
@@ -72,7 +76,7 @@
         {
           "type": "example",
           "ar": "أَيْنَ مُدَرِّسُكُمْ يَا إِخْوَانُ؟ خَرَجَ الْآنَ مِنَ الْفَصْلِ وَذَهَبَ إِلَى الْمُدِيرِ.",
-          "fr": "Où est votre professeur, mes frères ? Il vient de sortir de la salle de classe et il est allé voir le directeur."
+          "fr": "Où est votre enseignant, mes frères ? Il vient de sortir de la salle de classe et il est allé chez le directeur."
         },
         {
           "type": "example",
@@ -134,17 +138,17 @@
     },
     {
       "id": "medine-t1.l14.practice-5#9",
-      "type": "order",
-      "fr": "Certains d'entre nous sont médecins et d'autres sont ingénieurs.",
-      "answers": [["بَعْضُنَا", "أَطِبَّاءُ", "وَبَعْضُنَا", "مُهَنْدِسُونَ"]],
-      "punctuation": "."
-    },
-    {
-      "id": "medine-t1.l14.practice-5#10",
       "type": "typing",
       "ask": "audio",
       "fr": "Allah est notre Seigneur et votre Seigneur.",
       "answers": ["اللَّهُ رَبُّنَا وَرَبُّكُمْ."]
+    },
+    {
+      "id": "medine-t1.l14.practice-5#10",
+      "type": "order",
+      "fr": "Certains d'entre nous sont médecins et d'autres sont ingénieurs.",
+      "answers": [["بَعْضُنَا", "أَطِبَّاءُ", "وَبَعْضُنَا", "مُهَنْدِسُونَ"]],
+      "punctuation": "."
     },
     {
       "id": "medine-t1.l14.practice-5#11",

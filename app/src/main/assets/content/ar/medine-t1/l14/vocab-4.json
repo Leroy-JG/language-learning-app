@@ -30,10 +30,17 @@
         }
       ]
     },
-    { "id": "medine-t1.l14.vocab-4#6", "type": "present", "item": "p:ahlan-wa-sahlan" },
-    { "id": "medine-t1.l14.vocab-4#7", "type": "present", "item": "w:marhaban" },
     {
-      "id": "medine-t1.l14.vocab-4#8",
+      "id": "medine-t1.l14.vocab-4#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:karim",
+      "distractors": ["w:sahl", "w:jamil"]
+    },
+    { "id": "medine-t1.l14.vocab-4#7", "type": "present", "item": "p:ahlan-wa-sahlan" },
+    { "id": "medine-t1.l14.vocab-4#8", "type": "present", "item": "w:marhaban" },
+    {
+      "id": "medine-t1.l14.vocab-4#9",
       "type": "tip",
       "title": "Bienvenue !",
       "blocks": [
@@ -49,29 +56,36 @@
       ]
     },
     {
-      "id": "medine-t1.l14.vocab-4#9",
+      "id": "medine-t1.l14.vocab-4#10",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:marhaban",
+      "distractors": ["w:alyawm", "w:hasanan"]
+    },
+    {
+      "id": "medine-t1.l14.vocab-4#11",
       "type": "match",
       "mode": "ar-fr",
       "items": ["w:hafid", "w:tifla", "w:karim", "p:ahlan-wa-sahlan"]
     },
     {
-      "id": "medine-t1.l14.vocab-4#10",
+      "id": "medine-t1.l14.vocab-4#12",
       "type": "fill_gap",
-      "sentence": "هٰذِهِ {0} صَغِيرَةٌ.",
-      "fr": "C'est une petite fille.",
+      "sentence": "هٰذِهِ {0} جَمِيلَةٌ.",
+      "fr": "C'est une jolie petite fille.",
       "gaps": [ { "answers": ["طِفْلَةٌ"] } ],
       "options": ["طِفْلَةٌ", "حَفِيدٌ", "كَرِيمٌ"]
     },
     {
-      "id": "medine-t1.l14.vocab-4#11",
+      "id": "medine-t1.l14.vocab-4#13",
       "type": "order",
       "fr": "Le noble Coran est notre livre.",
       "answers": [["الْقُرْآنُ", "الْكَرِيمُ", "كِتَابُنَا"]],
       "punctuation": "."
     },
-    { "id": "medine-t1.l14.vocab-4#12", "type": "typing", "ask": "fr", "item": "w:hafid" },
+    { "id": "medine-t1.l14.vocab-4#14", "type": "typing", "ask": "fr", "item": "w:hafid" },
     {
-      "id": "medine-t1.l14.vocab-4#13",
+      "id": "medine-t1.l14.vocab-4#15",
       "type": "typing",
       "ask": "audio",
       "fr": "Bienvenue à toi, Zayd.",

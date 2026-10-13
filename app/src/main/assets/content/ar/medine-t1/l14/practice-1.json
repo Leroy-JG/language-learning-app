@@ -118,17 +118,25 @@
     },
     {
       "id": "medine-t1.l14.practice-1#9",
+      "type": "spot",
+      "instruction": "Touche le nom qui suit {ar|أَيُّ} (le second terme de l'annexion).",
+      "words": ["أَيُّ", "شَهْرٍ", "هٰذَا؟"],
+      "answers": [1],
+      "fr": "Quel mois est-ce ?"
+    },
+    {
+      "id": "medine-t1.l14.practice-1#10",
       "type": "typing",
       "ask": "audio",
       "fr": "Quel mois est-ce ?",
       "answers": ["أَيُّ شَهْرٍ هٰذَا؟"]
     },
     {
-      "id": "medine-t1.l14.practice-1#10",
+      "id": "medine-t1.l14.practice-1#11",
       "type": "typing",
       "ask": "fr",
       "fr": "De quelle ville es-tu ? (à un homme)",
-      "answers": ["مِنْ أَيِّ مَدِينَةٍ أَنْتَ؟"]
+      "answers": ["مِنْ أَيِّ مَدِينَةٍ أَنْتَ؟", "مِنْ أَيَّةِ مَدِينَةٍ أَنْتَ؟"]
     }
   ]
 }

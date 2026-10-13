@@ -101,18 +101,18 @@
     },
     {
       "id": "medine-t1.l14.plurals-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des religions",
+      "answers": ["أَدْيَانٌ"]
+    },
+    {
+      "id": "medine-t1.l14.plurals-1#9",
       "type": "question",
       "prompt": { "fr": "Quel est le pluriel de {ar|كُلِّيَّةٌ} (une faculté) ?" },
       "choices": [ { "ar": "كُلِّيَّاتٌ" }, { "ar": "بِلَادٌ" }, { "ar": "أَشْهُرٌ" } ],
       "answer": 0,
       "explain": "{ar|كُلِّيَّاتٌ} est le pluriel de {ar|كُلِّيَّةٌ}. {ar|بِلَادٌ} est celui de {ar|بَلَدٌ} (un pays) et {ar|أَشْهُرٌ} celui de {ar|شَهْرٌ} (un mois)."
-    },
-    {
-      "id": "medine-t1.l14.plurals-1#9",
-      "type": "typing",
-      "ask": "fr",
-      "fr": "des religions",
-      "answers": ["أَدْيَانٌ"]
     },
     {
       "id": "medine-t1.l14.plurals-1#10",
