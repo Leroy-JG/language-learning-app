@@ -1,0 +1,140 @@
+{
+  "id": "medine-t1.l08.grammar-5",
+  "type": "grammar",
+  "title": "Quel est son nom ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l08.grammar-5#1",
+      "type": "tip",
+      "title": "Demander le nom de quelqu'un",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour demander le nom d'une personne (ou d'une chose), on dit {ar|مَا}, puis {ar|اسْمُ} (« le nom de »), puis le mot qui désigne la personne ou la chose."
+        },
+        {
+          "type": "breakdown",
+          "ar": "مَا اسْمُ الرَّجُلِ",
+          "fr": "Quel est le nom de l'homme ?",
+          "parts": [
+            { "ar": "مَا", "fr": "quoi ? (nom interrogatif)" },
+            { "ar": "اسْمُ", "fr": "le nom de (premier terme de l'annexion)" },
+            { "ar": "الرَّجُلِ", "fr": "l'homme (second terme, à la kasra)" }
+          ]
+        },
+        { "type": "example", "ar": "مَا اسْمُ الرَّجُلِ؟", "fr": "Quel est le nom de l'homme ?" },
+        {
+          "type": "note",
+          "text": "Littéralement : « Qu'est-ce que le nom de l'homme ? ». C'est donc {ar|مَا} (et non {ar|مَنْ}) qu'on emploie : la question porte sur un nom."
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Après {ar|مَا}, l'alif de {ar|اسْمُ} est un alif de liaison (chapitre 3) : on ne le prononce pas. On dit « mā smu r-rajuli »."
+        }
+      ]
+    },
+    { "id": "medine-t1.l08.grammar-5#2", "type": "present", "item": "p:ma-ism-al-rajul" },
+    {
+      "id": "medine-t1.l08.grammar-5#3",
+      "type": "tip",
+      "title": "Répondre : le nom de… est…",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La réponse est une phrase nominale (chapitre 8) : le sujet est une annexion de deux mots, et le prédicat est le nom."
+        },
+        { "type": "example", "ar": "اِسْمُ الطَّبِيبِ سَعِيدٌ.", "fr": "Le nom du médecin est Saʿīd." },
+        {
+          "type": "table",
+          "header": ["Le sujet", "Le prédicat"],
+          "rows": [["{ar|اِسْمُ الطَّبِيبِ} (le nom du médecin)", "{ar|سَعِيدٌ} (Saʿīd)"]]
+        },
+        {
+          "type": "note",
+          "text": "Le mot {ar|اِسْمٌ} veut donc dire à la fois « nom » comme sorte de mot (chapitre 1) et « nom » d'une personne ou d'une chose."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.grammar-5#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "p:ma-ism-al-rajul",
+      "distractors": ["p:ma-hadha", "p:man-hadha"]
+    },
+    {
+      "id": "medine-t1.l08.grammar-5#5",
+      "type": "order",
+      "fr": "Le nom du médecin est Saʿīd.",
+      "answers": [["اِسْمُ", "الطَّبِيبِ", "سَعِيدٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l08.grammar-5#6",
+      "type": "spot",
+      "instruction": "Touche les deux mots du sujet.",
+      "words": ["اِسْمُ", "الطَّبِيبِ", "سَعِيدٌ."],
+      "answers": [0, 1],
+      "fr": "Le nom du médecin est Saʿīd.",
+      "explain": "Le sujet est le groupe {ar|اِسْمُ الطَّبِيبِ} (une annexion). Le prédicat est {ar|سَعِيدٌ}."
+    },
+    {
+      "id": "medine-t1.l08.grammar-5#7",
+      "type": "fill_gap",
+      "sentence": "{0} اسْمُ الطَّبِيبِ؟",
+      "fr": "Quel est le nom du médecin ?",
+      "gaps": [ { "answers": ["مَا"] } ],
+      "options": ["مَا", "مَنْ", "أَيْنَ"]
+    },
+    {
+      "id": "medine-t1.l08.grammar-5#8",
+      "type": "tip",
+      "title": "Et d'où vient-il ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour demander d'où vient quelqu'un, tu connais {ar|مِنْ أَيْنَ} (chapitre 4) : la préposition {ar|مِنْ} et le nom interrogatif {ar|أَيْنَ}."
+        },
+        { "type": "example", "ar": "مِنْ أَيْنَ الرَّجُلُ؟", "fr": "D'où vient l'homme ?" },
+        { "type": "example", "ar": "هُوَ مِنَ الْيَابَانِ.", "fr": "Il vient du Japon." }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.grammar-5#9",
+      "type": "question",
+      "prompt": { "fr": "Comment demande-t-on le nom du commerçant ?" },
+      "choices": [
+        { "ar": "مَا اسْمُ التَّاجِرِ؟" },
+        { "ar": "مَنِ اسْمُ التَّاجِرِ؟" },
+        { "ar": "أَيْنَ اسْمُ التَّاجِرِ؟" }
+      ],
+      "answer": 0,
+      "explain": "On demande un nom avec {ar|مَا} : {ar|مَا اسْمُ التَّاجِرِ؟}."
+    },
+    {
+      "id": "medine-t1.l08.grammar-5#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا اسْمُ التَّاجِرِ؟",
+      "answers": ["اِسْمُ التَّاجِرِ مَحْمُودٌ.", "مَحْمُودٌ."],
+      "fr": "Le nom du commerçant est Maḥmūd.",
+      "instruction": "Réponds : Maḥmūd."
+    },
+    {
+      "id": "medine-t1.l08.grammar-5#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Quel est le nom de l'étudiant ?",
+      "answers": ["مَا اسْمُ الطَّالِبِ؟"]
+    },
+    {
+      "id": "medine-t1.l08.grammar-5#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le nom du commerçant est Maḥmūd et le nom du médecin est Saʿīd.",
+      "answers": ["اِسْمُ التَّاجِرِ مَحْمُودٌ وَاسْمُ الطَّبِيبِ سَعِيدٌ."]
+    }
+  ]
+}

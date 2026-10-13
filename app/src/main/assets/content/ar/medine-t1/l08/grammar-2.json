@@ -1,0 +1,168 @@
+{
+  "id": "medine-t1.l08.grammar-2",
+  "type": "grammar",
+  "title": "Sujet et prédicat",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l08.grammar-2#1",
+      "type": "tip",
+      "title": "Les deux éléments de la phrase nominale",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La phrase nominale commence par un nom. Elle se compose **obligatoirement** de deux éléments :"
+        },
+        {
+          "type": "table",
+          "header": ["Élément", "Rôle", "Dans {ar|مُحَمَّدٌ غَنِيٌّ}"],
+          "rows": [
+            ["{ar|الْمُبْتَدَأُ}", "le nom par lequel la phrase commence (le sujet)", "{ar|مُحَمَّدٌ}"],
+            ["{ar|الْخَبَرُ}", "l'information apportée au sujet (le prédicat)", "{ar|غَنِيٌّ}"]
+          ]
+        },
+        { "type": "example", "ar": "مُحَمَّدٌ غَنِيٌّ.", "fr": "Muḥammad est riche." },
+        {
+          "type": "note",
+          "text": "Si l'un des deux éléments manque, la phrase est incomplète : elle n'apporte pas d'information."
+        }
+      ]
+    },
+    { "id": "medine-t1.l08.grammar-2#2", "type": "present", "item": "w:mubtada" },
+    { "id": "medine-t1.l08.grammar-2#3", "type": "present", "item": "w:khabar" },
+    {
+      "id": "medine-t1.l08.grammar-2#4",
+      "type": "tip",
+      "title": "Les deux sont au nominatif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le sujet ({ar|الْمُبْتَدَأُ}) et le prédicat ({ar|الْخَبَرُ}) sont toujours au nominatif, {ar|مَرْفُوعٌ} : ils portent la damma (ou le tanwin {ar|◌ٌ})."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Le sujet", "Le prédicat"],
+          "rows": [
+            ["{ar|مُحَمَّدٌ غَنِيٌّ}", "{ar|مُحَمَّدٌ} : nominatif", "{ar|غَنِيٌّ} : nominatif"],
+            ["{ar|عَائِشَةُ طَالِبَةٌ}", "{ar|عَائِشَةُ} : nominatif (sans tanwin)", "{ar|طَالِبَةٌ} : nominatif"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Tu connais déjà ce cas (chapitre 5) : c'est celui de toutes les phrases sans verbe vues jusqu'ici."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.grammar-2#5",
+      "type": "spot",
+      "instruction": "Touche le prédicat (l'information).",
+      "words": ["مُحَمَّدٌ", "غَنِيٌّ."],
+      "answers": [1],
+      "fr": "Muḥammad est riche.",
+      "explain": "{ar|غَنِيٌّ} dit quelque chose de Muḥammad : c'est le prédicat."
+    },
+    {
+      "id": "medine-t1.l08.grammar-2#6",
+      "type": "spot",
+      "instruction": "Touche le sujet (le mot par lequel la phrase commence).",
+      "words": ["الطَّالِبَةُ", "فِي", "الْفَصْلِ."],
+      "answers": [0],
+      "fr": "L'étudiante est dans la salle de classe."
+    },
+    {
+      "id": "medine-t1.l08.grammar-2#7",
+      "type": "tip",
+      "title": "Le sujet est défini",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le sujet est un nom, et en principe il est **défini** : nom propre, nom avec {ar|الْ}, pronom, démonstratif, ou nom annexé à un nom défini. Sans cela, on ne saurait pas de qui on parle."
+        },
+        {
+          "type": "table",
+          "header": ["Sujet défini", "Phrase"],
+          "rows": [
+            ["nom propre", "{ar|زَيْدٌ طَالِبٌ} (Zayd est étudiant)"],
+            ["nom avec {ar|الْ}", "{ar|الطَّالِبُ غَنِيٌّ} (l'étudiant est riche)"],
+            ["pronom", "{ar|هُوَ فِي الْبَيْتِ} (il est dans la maison)"],
+            ["nom avec {ar|الْ} au pluriel", "{ar|الطُّلَّابُ وَاقِفُونَ} (les étudiants sont debout)"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "{ar|طَالِبٌ غَنِيٌّ}, avec deux noms indéfinis, n'est pas une phrase correcte du cours : on ne sait pas de quel étudiant on parle. Il existe de rares exceptions, qu'on laisse de côté."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.grammar-2#8",
+      "type": "true_false",
+      "statement": { "fr": "En principe, le sujet d'une phrase nominale est défini." },
+      "answer": true,
+      "explain": "Nom propre, nom avec {ar|الْ}, pronom, démonstratif ou annexion à un nom défini : on sait de qui on parle."
+    },
+    {
+      "id": "medine-t1.l08.grammar-2#9",
+      "type": "tip",
+      "title": "Trois formes de prédicat",
+      "blocks": [
+        { "type": "paragraph", "text": "Le prédicat n'est pas toujours un seul mot. Il peut être :" },
+        {
+          "type": "table",
+          "header": ["Le prédicat est…", "Exemple"],
+          "rows": [
+            ["un nom ou un adjectif", "{ar|مُحَمَّدٌ غَنِيٌّ} (Muḥammad est riche)"],
+            [
+              "un nom précédé d'une préposition",
+              "{ar|فَاطِمَةُ فِي الْفَصْلِ} (Fāṭima est dans la salle de classe)"
+            ],
+            [
+              "un verbe (avec celui qui fait l'action)",
+              "{ar|زَيْدٌ خَرَجَ مِنَ الْمَدْرَسَةِ} (Zayd est sorti de l'école)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Dans le dernier cas, la phrase contient un verbe mais commence par un nom : elle est donc **nominale**. Tout dépend du premier mot : {ar|خَرَجَ زَيْدٌ} est verbale, {ar|زَيْدٌ خَرَجَ} est nominale."
+        },
+        {
+          "type": "note",
+          "text": "Quand le prédicat est un adjectif ou un nom de personne, il s'accorde avec le sujet en genre et en nombre : {ar|زَيْدٌ طَالِبٌ}, {ar|عَائِشَةُ طَالِبَةٌ} (chapitre 6)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.grammar-2#10",
+      "type": "sort",
+      "categories": [ { "fr": "un nom ou un adjectif" }, { "fr": "une préposition et un nom" }, { "fr": "un verbe" } ],
+      "cards": [
+        { "ar": "الْبَابُ مَفْتُوحٌ", "category": 0 },
+        { "ar": "الْمُدَرِّسَةُ فِي الْجَامِعَةِ", "category": 1 },
+        { "ar": "مُحَمَّدٌ خَرَجَ مِنَ الْفَصْلِ", "category": 2 },
+        { "ar": "الْغُرْفَةُ جَمِيلَةٌ", "category": 0 },
+        { "ar": "الْكِتَابُ عَلَى الْمَكْتَبِ", "category": 1 },
+        { "ar": "الْوَلَدُ ذَهَبَ إِلَى السُّوقِ", "category": 2 }
+      ],
+      "instruction": "Que contient le prédicat ?",
+      "explain": "Le prédicat est un adjectif, un groupe « préposition + nom », ou un verbe."
+    },
+    {
+      "id": "medine-t1.l08.grammar-2#11",
+      "type": "order",
+      "fr": "Fāṭima est dans la salle de classe.",
+      "answers": [["فَاطِمَةُ", "فِي", "الْفَصْلِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l08.grammar-2#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Aïcha est étudiante.",
+      "answers": ["عَائِشَةُ طَالِبَةٌ."]
+    }
+  ]
+}

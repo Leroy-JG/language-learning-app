@@ -1,0 +1,104 @@
+{
+  "id": "medine-t1.l08.plurals-1",
+  "type": "vocabulary",
+  "title": "Les pluriels",
+  "icon": "flower",
+  "screens": [
+    {
+      "id": "medine-t1.l08.plurals-1#1",
+      "type": "tip",
+      "title": "Le pluriel en « -āt »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais le pluriel en « -āt » (chapitres 4 à 6) : on retire le {ar|ة} et on ajoute {ar|◌َاتٌ}."
+        },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|سَبُّورَةٌ}", "{ar|سَبُّورَاتٌ}", "tableau"],
+            ["{ar|مُسْتَشْفًى}", "{ar|مُسْتَشْفَيَاتٌ}", "hôpital"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pour {ar|مُسْتَشْفًى}, le {ar|ى} final devient {ar|يَ} devant la terminaison « -āt » : on apprend ce pluriel avec le mot."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.plurals-1#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:sabbura", "w:mustashfa", "w:hasub"]
+    },
+    {
+      "id": "medine-t1.l08.plurals-1#3",
+      "type": "tip",
+      "title": "Des pluriels de forme longue",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici trois pluriels de forme « longue » : un alif suivi de deux ou trois lettres. Ils n'ont en général pas de tanwin (chapitre 4)."
+        },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|سِكِّينٌ}", "{ar|سَكَاكِينُ}", "couteau"],
+            ["{ar|مِحْرَابٌ}", "{ar|مَحَارِيبُ}", "mihrab"],
+            ["{ar|حَاسُوبٌ}", "{ar|حَوَاسِيبُ}", "ordinateur"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.plurals-1#4",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:sikkin", "w:mihrab", "w:hasub", "w:abd"]
+    },
+    {
+      "id": "medine-t1.l08.plurals-1#5",
+      "type": "tip",
+      "title": "Un autre pluriel brisé",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le pluriel de {ar|عَبْدٌ} est {ar|عِبَادٌ} : le mot change de forme. Il garde le tanwin."
+        },
+        { "type": "example", "ar": "عِبَادُ اللَّهِ", "fr": "les serviteurs d'Allah" }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.plurals-1#6",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|سَبُّورَةٌ} ?" },
+      "choices": [ { "ar": "سَبُّورَاتٌ" }, { "ar": "سَكَاكِينُ" }, { "ar": "عِبَادٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l08.plurals-1#7",
+      "type": "question",
+      "prompt": { "fr": "Lequel de ces pluriels n'a pas de tanwin ?" },
+      "choices": [ { "ar": "مَحَارِيبُ" }, { "ar": "عِبَادٌ" }, { "ar": "مُسْتَشْفَيَاتٌ" } ],
+      "answer": 0,
+      "explain": "{ar|مَحَارِيبُ} a une forme longue : il est privé de tanwin. {ar|عِبَادٌ} et {ar|مُسْتَشْفَيَاتٌ} ont le tanwin."
+    },
+    {
+      "id": "medine-t1.l08.plurals-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des couteaux",
+      "answers": ["سَكَاكِينُ"]
+    },
+    {
+      "id": "medine-t1.l08.plurals-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des ordinateurs",
+      "answers": ["حَوَاسِيبُ"]
+    }
+  ]
+}

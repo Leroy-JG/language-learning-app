@@ -1,0 +1,112 @@
+{
+  "id": "medine-t1.l08.grammar-1",
+  "type": "grammar",
+  "title": "La phrase complète",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l08.grammar-1#1",
+      "type": "tip",
+      "title": "Quand une phrase se suffit-elle ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour parler, il ne suffit pas d'aligner des mots : il faut une **phrase complète**, appelée {ar|الْجُمْلَةُ الْمُفِيدَةُ} (littéralement « la phrase qui apporte une information »)."
+        },
+        { "type": "paragraph", "text": "Une phrase complète répond à trois conditions :" },
+        {
+          "type": "table",
+          "header": ["Condition", "Exemple"],
+          "rows": [
+            [
+              "Elle compte deux éléments : deux noms, ou un verbe et celui qui fait l'action",
+              "{ar|زَيْدٌ جَالِسٌ} (Zayd est assis)"
+            ],
+            ["Le second élément apporte une information sur le premier", "{ar|جَالِسٌ} dit ce que fait Zayd"],
+            ["Elle se suffit à elle-même : on n'attend pas la suite", "{ar|خَرَجَ زَيْدٌ} (Zayd est sorti)"]
+          ]
+        },
+        { "type": "example", "ar": "زَيْدٌ جَالِسٌ.", "fr": "Zayd est assis." },
+        { "type": "example", "ar": "خَرَجَ زَيْدٌ.", "fr": "Zayd est sorti." },
+        {
+          "type": "note",
+          "text": "Celui qui fait l'action peut être caché dans le verbe : {ar|خَرَجَ} (« il est sorti ») est déjà une phrase complète, car le « il » est contenu dans le verbe (chapitre 4)."
+        }
+      ]
+    },
+    { "id": "medine-t1.l08.grammar-1#2", "type": "present", "item": "w:jumla-mufida" },
+    {
+      "id": "medine-t1.l08.grammar-1#3",
+      "type": "question",
+      "prompt": { "fr": "Laquelle de ces suites de mots est une phrase complète ?" },
+      "choices": [ { "ar": "زَيْدٌ جَالِسٌ" }, { "ar": "كِتَابُ زَيْدٍ" }, { "ar": "زَيْدٌ فِي" } ],
+      "answer": 0,
+      "explain": "{ar|كِتَابُ زَيْدٍ} (« le livre de Zayd ») est une annexion : deux noms qui forment un seul groupe et n'apportent aucune information. {ar|زَيْدٌ فِي} est inachevée : la préposition attend un nom."
+    },
+    {
+      "id": "medine-t1.l08.grammar-1#4",
+      "type": "tip",
+      "title": "Deux sortes de phrases complètes",
+      "blocks": [
+        { "type": "paragraph", "text": "Selon son **tout premier mot**, une phrase complète est de deux sortes :" },
+        {
+          "type": "table",
+          "header": ["Sorte", "Elle commence par…", "Exemple"],
+          "rows": [
+            ["{ar|الْجُمْلَةُ الِاسْمِيَّةُ} (phrase nominale)", "un nom", "{ar|زَيْدٌ جَالِسٌ}"],
+            ["{ar|الْجُمْلَةُ الْفِعْلِيَّةُ} (phrase verbale)", "un verbe", "{ar|خَرَجَ زَيْدٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "{ar|اِسْمِيَّةٌ} vient de {ar|اِسْمٌ} (le nom) et {ar|فِعْلِيَّةٌ} de {ar|فِعْلٌ} (le verbe) : la phrase « du nom » et la phrase « du verbe »."
+        }
+      ]
+    },
+    { "id": "medine-t1.l08.grammar-1#5", "type": "present", "item": "w:jumla-ismiyya" },
+    { "id": "medine-t1.l08.grammar-1#6", "type": "present", "item": "w:jumla-filiyya" },
+    {
+      "id": "medine-t1.l08.grammar-1#7",
+      "type": "sort",
+      "categories": [
+        { "fr": "phrase nominale (elle commence par un nom)" },
+        { "fr": "phrase verbale (elle commence par un verbe)" }
+      ],
+      "cards": [
+        { "ar": "الْبَابُ مَفْتُوحٌ", "category": 0 },
+        { "ar": "خَرَجَ الطَّبِيبُ مِنَ الْمَسْجِدِ", "category": 1 },
+        { "ar": "هُوَ فِي الْغُرْفَةِ", "category": 0 },
+        { "ar": "ذَهَبَ الْمُدَرِّسُ إِلَى الْمَسْجِدِ", "category": 1 },
+        { "ar": "هٰذَا كِتَابٌ", "category": 0 },
+        { "ar": "خَرَجَ الْمُدِيرُ", "category": 1 }
+      ],
+      "instruction": "Range chaque phrase selon son premier mot.",
+      "explain": "Ce qui décide, c'est le premier mot : {ar|هُوَ} et {ar|هٰذَا} sont des noms (chapitre 4), donc ces phrases sont nominales."
+    },
+    {
+      "id": "medine-t1.l08.grammar-1#8",
+      "type": "spot",
+      "instruction": "Touche le verbe.",
+      "words": ["ذَهَبَ", "الْمُدِيرُ", "إِلَى", "الْمَسْجِدِ."],
+      "answers": [0],
+      "fr": "Le directeur est allé à la mosquée.",
+      "explain": "{ar|ذَهَبَ} (« il est allé ») est le verbe : la phrase est verbale."
+    },
+    {
+      "id": "medine-t1.l08.grammar-1#9",
+      "type": "order",
+      "fr": "Zayd est sorti de l'école.",
+      "answers": [["خَرَجَ", "زَيْدٌ", "مِنَ", "الْمَدْرَسَةِ"], ["زَيْدٌ", "خَرَجَ", "مِنَ", "الْمَدْرَسَةِ"]],
+      "punctuation": ".",
+      "explain": "Verbe d'abord : phrase verbale. Nom d'abord : phrase nominale. Les deux sont possibles et disent la même chose."
+    },
+    {
+      "id": "medine-t1.l08.grammar-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd est assis.",
+      "answers": ["زَيْدٌ جَالِسٌ."]
+    }
+  ]
+}

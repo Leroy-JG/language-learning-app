@@ -1,0 +1,164 @@
+{
+  "id": "medine-t1.l08.grammar-6",
+  "type": "grammar",
+  "title": "Les adverbes de lieu",
+  "icon": "telescope",
+  "screens": [
+    {
+      "id": "medine-t1.l08.grammar-6#1",
+      "type": "tip",
+      "title": "Des noms qui disent où ou quand",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|فَوْقَ}, {ar|تَحْتَ}, {ar|أَمَامَ} et {ar|خَلْفَ} sont des **noms**, pas des particules. Ils appartiennent à une catégorie de noms appelés {ar|الظُّرُوفُ} (singulier {ar|الظَّرْفُ}, « l'adverbe de lieu ou de temps »)."
+        },
+        { "type": "paragraph", "text": "Un {ar|ظَرْفٌ} indique toujours **un lieu ou un temps**." },
+        { "type": "example", "ar": "الْقِطُّ فَوْقَ السَّيَّارَةِ.", "fr": "Le chat est sur la voiture." }
+      ]
+    },
+    { "id": "medine-t1.l08.grammar-6#2", "type": "present", "item": "w:zarf" },
+    {
+      "id": "medine-t1.l08.grammar-6#3",
+      "type": "tip",
+      "title": "Ils sont suivis d'un nom à la kasra",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un adverbe de lieu est en général suivi d'un nom : c'est une **annexion** (chapitre 5). L'adverbe est le premier terme ({ar|الْمُضَافُ}), le nom qui suit est le second terme ({ar|الْمُضَافُ إِلَيْهِ}), toujours à la kasra."
+        },
+        {
+          "type": "breakdown",
+          "ar": "فَوْقَ الْمَكْتَبِ",
+          "fr": "au-dessus du bureau",
+          "parts": [
+            { "ar": "فَوْقَ", "fr": "au-dessus de ({ar|الْمُضَافُ})" },
+            { "ar": "الْمَكْتَبِ", "fr": "le bureau ({ar|الْمُضَافُ إِلَيْهِ}, kasra)" }
+          ]
+        },
+        { "type": "example", "ar": "السَّيَّارَةُ أَمَامَ الْبَيْتِ.", "fr": "La voiture est devant la maison." }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.grammar-6#4",
+      "type": "tip",
+      "title": "Leur terminaison : la fatha",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un adverbe de lieu est en général au cas {ar|مَنْصُوبٌ} (l'accusatif, {ar|النَّصْبُ}) : il porte une **fatha** à la fin. Tu l'as vue dans {ar|فَوْقَ}, {ar|تَحْتَ}, {ar|أَمَامَ} et {ar|خَلْفَ}."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase : {ar|الْقَلَمُ فَوْقَ الْمَكْتَبِ}", "Cas", "Voyelle finale"],
+          "rows": [
+            ["{ar|الْقَلَمُ} : le sujet", "nominatif", "damma"],
+            ["{ar|فَوْقَ} : l'adverbe", "accusatif", "fatha"],
+            ["{ar|الْمَكْتَبِ} : le second terme", "génitif", "kasra"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Quand une préposition précède l'adverbe, il prend lui aussi la kasra : {ar|مِنْ فَوْقِ الْمَكْتَبِ} (« d'au-dessus du bureau »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.grammar-6#5",
+      "type": "tip",
+      "title": "Les trois cas : où en est-on ?",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Cas", "Voyelle", "Quelques emplois vus jusqu'ici", "Exemple"],
+          "rows": [
+            [
+              "{ar|الرَّفْعُ} (nominatif)",
+              "damma",
+              "le sujet et le prédicat de la phrase nominale ; le sujet du verbe",
+              "{ar|زَيْدٌ جَالِسٌ}"
+            ],
+            [
+              "{ar|النَّصْبُ} (accusatif)",
+              "fatha",
+              "les adverbes de lieu ou de temps",
+              "{ar|فَوْقَ}, {ar|تَحْتَ}, {ar|أَمَامَ}, {ar|خَلْفَ}"
+            ],
+            [
+              "{ar|الْجَرُّ} (génitif)",
+              "kasra",
+              "le nom après une préposition ; le second terme d'une annexion",
+              "{ar|فِي الْبَيْتِ}, {ar|كِتَابُ زَيْدٍ}"
+            ]
+          ]
+        },
+        { "type": "note", "text": "Chaque cas a d'autres emplois, que tu verras plus tard." }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.grammar-6#6",
+      "type": "tip",
+      "title": "Un adverbe de temps",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un {ar|ظَرْفٌ} peut aussi indiquer un **temps**. Voici {ar|الْآنَ} (« maintenant »), dont la fatha ne change jamais."
+        },
+        { "type": "example", "ar": "يَكْتُبُ زَيْدٌ الْآنَ.", "fr": "Zayd écrit maintenant." }
+      ]
+    },
+    { "id": "medine-t1.l08.grammar-6#7", "type": "present", "item": "w:alan" },
+    {
+      "id": "medine-t1.l08.grammar-6#8",
+      "type": "sort",
+      "categories": [ { "fr": "un lieu" }, { "fr": "un temps" } ],
+      "cards": [
+        { "item": "w:fawqa", "category": 0 },
+        { "item": "w:alan", "category": 1 },
+        { "item": "w:amama", "category": 0 },
+        { "item": "w:khalfa", "category": 0 },
+        { "item": "w:taht", "category": 0 }
+      ],
+      "instruction": "Cet adverbe indique-t-il un lieu ou un temps ?"
+    },
+    {
+      "id": "medine-t1.l08.grammar-6#9",
+      "type": "spot",
+      "instruction": "Touche l'adverbe de lieu.",
+      "words": ["الْكُرَةُ", "تَحْتَ", "الْمَكْتَبِ."],
+      "answers": [1],
+      "fr": "Le ballon est sous le bureau."
+    },
+    {
+      "id": "medine-t1.l08.grammar-6#10",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle finale porte le nom qui suit {ar|فَوْقَ} ?" },
+      "choices": [ { "fr": "La kasra" }, { "fr": "La damma" }, { "fr": "La fatha" } ],
+      "answer": 0,
+      "explain": "Ce nom est le second terme de l'annexion : il est au génitif, avec la kasra (ou le tanwin {ar|◌ٍ})."
+    },
+    {
+      "id": "medine-t1.l08.grammar-6#11",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle finale porte l'adverbe {ar|أَمَامَ} ?" },
+      "choices": [ { "fr": "La fatha" }, { "fr": "La damma" }, { "fr": "La kasra" } ],
+      "answer": 0,
+      "explain": "Un adverbe de lieu est en général à l'accusatif : il porte la fatha."
+    },
+    {
+      "id": "medine-t1.l08.grammar-6#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le livre est au-dessus du bureau.",
+      "answers": ["الْكِتَابُ فَوْقَ الْمَكْتَبِ."]
+    },
+    {
+      "id": "medine-t1.l08.grammar-6#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "La voiture est devant la maison.",
+      "answers": ["السَّيَّارَةُ أَمَامَ الْبَيْتِ."]
+    }
+  ]
+}

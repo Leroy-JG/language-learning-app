@@ -1,0 +1,83 @@
+{
+  "id": "medine-t1.l08.vocab-2",
+  "type": "vocabulary",
+  "title": "Au-dessus, devant, derrière",
+  "icon": "road",
+  "screens": [
+    {
+      "id": "medine-t1.l08.vocab-2#1",
+      "type": "tip",
+      "title": "Où se trouve… ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour dire où se trouve quelque chose, on utilise des mots de lieu. Tu connais déjà {ar|تَحْتَ} (sous). Voici trois autres mots, et deux objets."
+        }
+      ]
+    },
+    { "id": "medine-t1.l08.vocab-2#2", "type": "present", "item": "w:fawqa" },
+    { "id": "medine-t1.l08.vocab-2#3", "type": "present", "item": "w:amama" },
+    {
+      "id": "medine-t1.l08.vocab-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:fawqa",
+      "distractors": ["w:taht", "w:amama"]
+    },
+    { "id": "medine-t1.l08.vocab-2#5", "type": "present", "item": "w:khalfa" },
+    { "id": "medine-t1.l08.vocab-2#6", "type": "present", "item": "w:hasub" },
+    {
+      "id": "medine-t1.l08.vocab-2#7",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:khalfa",
+      "distractors": ["w:amama", "w:fawqa"]
+    },
+    { "id": "medine-t1.l08.vocab-2#8", "type": "present", "item": "w:kura" },
+    {
+      "id": "medine-t1.l08.vocab-2#9",
+      "type": "tip",
+      "title": "En un coup d'œil",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Mot", "Sens", "Exemple"],
+          "rows": [
+            ["{ar|فَوْقَ}", "au-dessus de", "{ar|الْكِتَابُ فَوْقَ الْمَكْتَبِ} (le livre est au-dessus du bureau)"],
+            ["{ar|تَحْتَ}", "sous", "{ar|الْكُرَةُ تَحْتَ الْمَكْتَبِ} (le ballon est sous le bureau)"],
+            ["{ar|أَمَامَ}", "devant", "{ar|السَّيَّارَةُ أَمَامَ الْبَيْتِ} (la voiture est devant la maison)"],
+            ["{ar|خَلْفَ}", "derrière", "{ar|الْكَلْبُ خَلْفَ الْبَيْتِ} (le chien est derrière la maison)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.vocab-2#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:fawqa", "w:taht", "w:amama", "w:khalfa"]
+    },
+    {
+      "id": "medine-t1.l08.vocab-2#11",
+      "type": "order",
+      "fr": "Le ballon est sous le bureau.",
+      "answers": [["الْكُرَةُ", "تَحْتَ", "الْمَكْتَبِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l08.vocab-2#12",
+      "type": "fill_gap",
+      "sentence": "الْقَلَمُ {0} الْمَكْتَبِ.",
+      "fr": "Le stylo est au-dessus du bureau.",
+      "gaps": [ { "answers": ["فَوْقَ"] } ],
+      "options": ["فَوْقَ", "تَحْتَ", "خَلْفَ"]
+    },
+    {
+      "id": "medine-t1.l08.vocab-2#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le chien est derrière la maison.",
+      "answers": ["الْكَلْبُ خَلْفَ الْبَيْتِ."]
+    }
+  ]
+}

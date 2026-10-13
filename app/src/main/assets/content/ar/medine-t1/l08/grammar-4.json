@@ -1,0 +1,152 @@
+{
+  "id": "medine-t1.l08.grammar-4",
+  "type": "grammar",
+  "title": "Le substitutif",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l08.grammar-4#1",
+      "type": "tip",
+      "title": "Un nom qui en remplace un autre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Regarde cette phrase : {ar|هٰذَا الرَّجُلُ جَالِسٌ} (« cet homme est assis »). Deux noms se suivent : {ar|هٰذَا} et {ar|الرَّجُلُ}."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le second, {ar|الرَّجُلُ}, est appelé {ar|الْبَدَلُ} (le **substitutif**). Il peut prendre la place du premier, qu'on appelle {ar|الْمُبْدَلُ مِنْهُ} (« celui dont il prend la place »). C'est ainsi que le Tome de Médine analyse le nom qui suit un démonstratif."
+        },
+        {
+          "type": "breakdown",
+          "ar": "هٰذَا الرَّجُلُ",
+          "fr": "cet homme",
+          "parts": [
+            { "ar": "هٰذَا", "fr": "ceci ({ar|الْمُبْدَلُ مِنْهُ})" },
+            { "ar": "الرَّجُلُ", "fr": "l'homme ({ar|الْبَدَلُ})" }
+          ]
+        },
+        { "type": "example", "ar": "هٰذَا الرَّجُلُ جَالِسٌ.", "fr": "Cet homme est assis." }
+      ]
+    },
+    { "id": "medine-t1.l08.grammar-4#2", "type": "present", "item": "w:badal" },
+    { "id": "medine-t1.l08.grammar-4#3", "type": "present", "item": "w:mubdal-minhu" },
+    {
+      "id": "medine-t1.l08.grammar-4#4",
+      "type": "tip",
+      "title": "Le test de la suppression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour reconnaître un substitutif, **supprime l'un des deux noms**. Si la phrase garde tout son sens, le second nom est un substitutif."
+        },
+        { "type": "example", "ar": "هٰذَا الرَّجُلُ جَالِسٌ.", "fr": "Cet homme est assis. (la phrase de départ)" },
+        {
+          "type": "example",
+          "ar": "الرَّجُلُ جَالِسٌ.",
+          "fr": "L'homme est assis. (on supprime {ar|هٰذَا} : la phrase est complète)"
+        },
+        {
+          "type": "example",
+          "ar": "هٰذَا جَالِسٌ.",
+          "fr": "Celui-ci est assis. (on supprime {ar|الرَّجُلُ} : la phrase est complète aussi)"
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ce n'est pas le cas de {ar|زَيْدٌ طَالِبٌ} : si l'on supprime {ar|زَيْدٌ} ou {ar|طَالِبٌ}, la phrase n'est plus complète. {ar|طَالِبٌ} n'est pas un substitutif : c'est le prédicat. Le test est une astuce pratique pour ce chapitre."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Après un démonstratif, le nom qui suit porte l'article {ar|الْ} : {ar|هٰذَا الْكِتَابُ} (« ce livre ») n'est pas une phrase complète, alors que {ar|هٰذَا كِتَابٌ} (« ceci est un livre ») en est une. Il faut encore un prédicat : {ar|هٰذَا الْكِتَابُ جَدِيدٌ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.grammar-4#5",
+      "type": "tip",
+      "title": "Il s'accorde avec le premier nom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le substitutif a le **même genre**, le **même nombre** et le **même cas** que le nom qu'il remplace. Comme {ar|هٰذَا} ne change jamais de terminaison (chapitre 4), c'est le substitutif qui montre le cas :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "هٰذَا الْبَيْتُ", "fr": "cette maison" },
+              "to": { "ar": "فِي هٰذَا الْبَيْتِ", "fr": "dans cette maison" },
+              "label": "après {ar|فِي}, le substitutif prend la kasra"
+            },
+            {
+              "from": { "ar": "هٰذَا الْمَسْجِدُ", "fr": "cette mosquée" },
+              "to": { "ar": "إِلَى هٰذَا الْمَسْجِدِ", "fr": "vers cette mosquée" }
+            },
+            {
+              "from": { "ar": "هٰذَا الْكِتَابُ", "fr": "ce livre" },
+              "to": { "ar": "مِنْ هٰذَا الْكِتَابِ", "fr": "de ce livre" }
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "header": ["Genre", "Exemple"],
+          "rows": [["masculin", "{ar|هٰذَا الْوَلَدُ}"], ["féminin", "{ar|هٰذِهِ الْبِنْتُ}"]]
+        },
+        {
+          "type": "note",
+          "text": "Le substitutif fait partie d'une catégorie de noms appelés {ar|التَّوَابِعُ} (« les suiveurs ») : ils suivent le nom qui les précède et prennent son cas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.grammar-4#6",
+      "type": "spot",
+      "instruction": "Touche le substitutif.",
+      "words": ["هٰذَا", "الْوَلَدُ", "خَالِدٌ."],
+      "answers": [1],
+      "fr": "Ce garçon est Khālid.",
+      "explain": "{ar|الْوَلَدُ} prend la place de {ar|هٰذَا} : c'est le substitutif. {ar|خَالِدٌ} est le prédicat."
+    },
+    {
+      "id": "medine-t1.l08.grammar-4#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|هٰذَا الْكِتَابُ جَدِيدٌ}, quel mot est le substitutif ?" },
+      "choices": [ { "ar": "الْكِتَابُ" }, { "ar": "جَدِيدٌ" }, { "ar": "هٰذَا" } ],
+      "answer": 0,
+      "explain": "{ar|هٰذَا} est le premier nom, {ar|الْكِتَابُ} le substitutif, et {ar|جَدِيدٌ} le prédicat. On peut supprimer {ar|هٰذَا} ou {ar|الْكِتَابُ} sans perdre le sens."
+    },
+    {
+      "id": "medine-t1.l08.grammar-4#8",
+      "type": "true_false",
+      "statement": { "fr": "{ar|هٰذَا الْكِتَابُ} (« ce livre ») est une phrase complète." },
+      "answer": false,
+      "explain": "{ar|هٰذَا الْكِتَابُ} est un groupe de deux noms, mais il n'apporte pas d'information. Il faut un prédicat : {ar|هٰذَا الْكِتَابُ جَدِيدٌ}."
+    },
+    {
+      "id": "medine-t1.l08.grammar-4#9",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ {0} جَدِيدَةٌ.",
+      "fr": "Cette voiture est neuve.",
+      "gaps": [ { "answers": ["السَّيَّارَةُ"] } ],
+      "options": ["السَّيَّارَةُ", "الْكِتَابُ", "الْقَلَمُ"],
+      "explain": "{ar|هٰذِهِ} est féminin : le substitutif et le prédicat sont féminins aussi."
+    },
+    {
+      "id": "medine-t1.l08.grammar-4#10",
+      "type": "order",
+      "fr": "Cet homme est médecin.",
+      "answers": [["هٰذَا", "الرَّجُلُ", "طَبِيبٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l08.grammar-4#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ce livre est ouvert.",
+      "answers": ["هٰذَا الْكِتَابُ مَفْتُوحٌ."]
+    }
+  ]
+}

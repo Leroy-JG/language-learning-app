@@ -1,0 +1,81 @@
+{
+  "id": "medine-t1.l08.practice-3",
+  "type": "grammar",
+  "title": "Où sont-ils ?",
+  "icon": "road",
+  "screens": [
+    {
+      "id": "medine-t1.l08.practice-3#1",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|بَيْتُ التَّاجِرِ أَمَامَ الْمَسْجِدِ وَبَيْتُ الطَّبِيبِ خَلْفَ الْمَدْرَسَةِ}, où est la maison du médecin ?"
+      },
+      "choices": [ { "fr": "Derrière l'école" }, { "fr": "Devant la mosquée" }, { "fr": "Devant l'école" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l08.practice-3#2",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ بَيْتُ الْإِمَامِ؟ بَيْتُ الْإِمَامِ {0} الْمَسْجِدِ.",
+      "fr": "Où est la maison de l'imam ? Elle est derrière la mosquée.",
+      "gaps": [ { "answers": ["خَلْفَ"] } ],
+      "options": ["خَلْفَ", "أَمَامَ", "فَوْقَ"]
+    },
+    {
+      "id": "medine-t1.l08.practice-3#3",
+      "type": "order",
+      "fr": "Ḥāmid s'est assis derrière Maḥmūd.",
+      "answers": [["جَلَسَ", "حَامِدٌ", "خَلْفَ", "مَحْمُودٍ"], ["حَامِدٌ", "جَلَسَ", "خَلْفَ", "مَحْمُودٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l08.practice-3#4",
+      "type": "spot",
+      "instruction": "Touche l'adverbe de lieu.",
+      "words": ["جَلَسَ", "حَامِدٌ", "خَلْفَ", "مَحْمُودٍ."],
+      "answers": [2],
+      "fr": "Ḥāmid s'est assis derrière Maḥmūd."
+    },
+    {
+      "id": "medine-t1.l08.practice-3#5",
+      "type": "spot",
+      "instruction": "Touche le nom qui suit l'adverbe (il porte la kasra).",
+      "words": ["جَلَسَ", "حَامِدٌ", "خَلْفَ", "مَحْمُودٍ."],
+      "answers": [3],
+      "fr": "Ḥāmid s'est assis derrière Maḥmūd.",
+      "explain": "{ar|مَحْمُودٍ} est le second terme de l'annexion : il est au génitif. Son tanwin se change en {ar|◌ٍ}."
+    },
+    {
+      "id": "medine-t1.l08.practice-3#6",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|أَيْنَ سَيَّارَةُ الْمُدَرِّسِ؟ هِيَ أَمَامَ الْمَدْرَسَةِ.}, où est la voiture de l'enseignant ?"
+      },
+      "choices": [ { "fr": "Devant l'école" }, { "fr": "Derrière l'école" }, { "fr": "Dans l'école" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l08.practice-3#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ بَيْتُ الْإِمَامِ؟",
+      "answers": ["بَيْتُ الْإِمَامِ خَلْفَ الْمَسْجِدِ.", "هُوَ خَلْفَ الْمَسْجِدِ.", "خَلْفَ الْمَسْجِدِ."],
+      "fr": "La maison de l'imam est derrière la mosquée.",
+      "instruction": "Réponds : derrière la mosquée."
+    },
+    {
+      "id": "medine-t1.l08.practice-3#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Où Ḥāmid s'est-il assis ? Il s'est assis derrière Maḥmūd.",
+      "answers": ["أَيْنَ جَلَسَ حَامِدٌ؟ جَلَسَ خَلْفَ مَحْمُودٍ."]
+    },
+    {
+      "id": "medine-t1.l08.practice-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "La voiture est devant la mosquée.",
+      "answers": ["السَّيَّارَةُ أَمَامَ الْمَسْجِدِ."]
+    }
+  ]
+}

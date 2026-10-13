@@ -1,0 +1,112 @@
+{
+  "id": "medine-t1.l08.dialogue-1",
+  "type": "dialogue",
+  "title": "Le commerçant et le médecin",
+  "icon": "man",
+  "screens": [
+    {
+      "id": "medine-t1.l08.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Deux voisins",
+      "intro": "Yāsir interroge Ḥāmid sur deux hommes du quartier.",
+      "speakers": { "A": { "name": "Yāsir", "voice": "m1" }, "B": { "name": "Ḥāmid", "voice": "m2" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "مَنْ هٰذَا الرَّجُلُ؟ وَمَنْ ذٰلِكَ الرَّجُلُ؟",
+          "fr": "Qui est cet homme ? Et qui est cet homme-là ?"
+        },
+        {
+          "speaker": "B",
+          "ar": "هٰذَا الرَّجُلُ تَاجِرٌ، وَذٰلِكَ الرَّجُلُ طَبِيبٌ.",
+          "fr": "Cet homme est commerçant, et cet homme-là est médecin."
+        },
+        {
+          "speaker": "A",
+          "ar": "مَا اسْمُ التَّاجِرِ؟ وَمَا اسْمُ الطَّبِيبِ؟",
+          "fr": "Quel est le nom du commerçant ? Et quel est le nom du médecin ?"
+        },
+        {
+          "speaker": "B",
+          "ar": "اِسْمُ التَّاجِرِ مَحْمُودٌ، وَاسْمُ الطَّبِيبِ سَعِيدٌ.",
+          "fr": "Le nom du commerçant est Maḥmūd, et le nom du médecin est Saʿīd."
+        },
+        { "speaker": "A", "ar": "أَيْنَ بَيْتُ التَّاجِرِ؟", "fr": "Où est la maison du commerçant ?" },
+        {
+          "speaker": "B",
+          "ar": "بَيْتُ التَّاجِرِ أَمَامَ الْمَسْجِدِ، وَبَيْتُ الطَّبِيبِ خَلْفَ الْمَدْرَسَةِ.",
+          "fr": "La maison du commerçant est devant la mosquée, et la maison du médecin est derrière l'école."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.dialogue-1#2",
+      "type": "question",
+      "prompt": { "fr": "Quel est le nom du médecin ?" },
+      "choices": [ { "fr": "Saʿīd" }, { "fr": "Maḥmūd" }, { "fr": "Khālid" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l08.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l08.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Où est la maison du commerçant ?" },
+      "choices": [ { "fr": "Devant la mosquée" }, { "fr": "Derrière l'école" }, { "fr": "Devant l'école" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l08.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l08.dialogue-1#4",
+      "type": "true_false",
+      "statement": { "fr": "La maison du médecin est devant la mosquée." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l08.dialogue-1#1" },
+      "explain": "La maison du commerçant est devant la mosquée ; celle du médecin est derrière l'école."
+    },
+    {
+      "id": "medine-t1.l08.dialogue-1#5",
+      "type": "fill_gap",
+      "sentence": "بَيْتُ الطَّبِيبِ {0} الْمَدْرَسَةِ.",
+      "fr": "La maison du médecin est derrière l'école.",
+      "gaps": [ { "answers": ["خَلْفَ"] } ],
+      "options": ["خَلْفَ", "أَمَامَ", "فَوْقَ"],
+      "context": { "dialogue": "medine-t1.l08.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l08.dialogue-1#6",
+      "type": "tip",
+      "title": "Le substitutif dans le dialogue",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans la première phrase, {ar|هٰذَا الرَّجُلُ} et {ar|ذٰلِكَ الرَّجُلُ} contiennent chacun un substitutif : {ar|الرَّجُلُ} prend la place du démonstratif."
+        },
+        { "type": "example", "ar": "مَنْ هٰذَا الرَّجُلُ؟", "fr": "Qui est cet homme ?" }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.dialogue-1#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا اسْمُ الطَّبِيبِ؟",
+      "answers": ["اِسْمُ الطَّبِيبِ سَعِيدٌ.", "سَعِيدٌ."],
+      "fr": "Le nom du médecin est Saʿīd.",
+      "instruction": "Réponds : Saʿīd.",
+      "context": { "dialogue": "medine-t1.l08.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l08.dialogue-1#8",
+      "type": "order",
+      "fr": "La maison du commerçant est devant la mosquée.",
+      "answers": [["بَيْتُ", "التَّاجِرِ", "أَمَامَ", "الْمَسْجِدِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l08.dialogue-1#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Cet homme est commerçant, et cet homme-là est médecin.",
+      "answers": ["هٰذَا الرَّجُلُ تَاجِرٌ وَذٰلِكَ الرَّجُلُ طَبِيبٌ."]
+    }
+  ]
+}

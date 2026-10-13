@@ -1,0 +1,77 @@
+{
+  "id": "medine-t1.l08.practice-4",
+  "type": "grammar",
+  "title": "Au pays et à l'hôpital",
+  "icon": "mosque",
+  "screens": [
+    {
+      "id": "medine-t1.l08.practice-4#1",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ḥāmid est allé en France.",
+      "answers": ["ذَهَبَ حَامِدٌ إِلَى فَرَنْسَا.", "حَامِدٌ ذَهَبَ إِلَى فَرَنْسَا."]
+    },
+    {
+      "id": "medine-t1.l08.practice-4#2",
+      "type": "fill_gap",
+      "sentence": "هٰذَا الْكِتَابُ {0} وَذٰلِكَ الْكِتَابُ لِمُوسَى.",
+      "fr": "Ce livre est à ʿĪsā et ce livre-là est à Mūsā.",
+      "gaps": [ { "answers": ["لِعِيسَى"] } ],
+      "options": ["لِعِيسَى", "لِعَلِيٍّ", "لِخَالِدٍ"]
+    },
+    {
+      "id": "medine-t1.l08.practice-4#3",
+      "type": "spot",
+      "instruction": "Touche les mots qui contiennent un nom en {ar|ى}.",
+      "words": ["هٰذَا", "الْكِتَابُ", "لِعِيسَى", "وَذٰلِكَ", "الْكِتَابُ", "لِمُوسَى."],
+      "answers": [2, 5],
+      "fr": "Ce livre est à ʿĪsā et ce livre-là est à Mūsā."
+    },
+    {
+      "id": "medine-t1.l08.practice-4#4",
+      "type": "order",
+      "fr": "Il est maintenant à l'hôpital.",
+      "answers": [["هُوَ", "الْآنَ", "فِي", "الْمُسْتَشْفَى"], ["هُوَ", "فِي", "الْمُسْتَشْفَى", "الْآنَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l08.practice-4#5",
+      "type": "fill_gap",
+      "sentence": "ذَهَبَ عَبْدُ اللَّهِ مِنْ أَلْمَانِيَا {0} فَرَنْسَا.",
+      "fr": "ʿAbd Allāh est allé d'Allemagne en France.",
+      "gaps": [ { "answers": ["إِلَى"] } ],
+      "options": ["إِلَى", "مِنْ", "عَلَى"]
+    },
+    {
+      "id": "medine-t1.l08.practice-4#6",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|مَحْمُودٌ مَرِيضٌ. هُوَ الْآنَ فِي الْمُسْتَشْفَى.}, où est Maḥmūd maintenant ?" },
+      "choices": [ { "fr": "À l'hôpital" }, { "fr": "À la mosquée" }, { "fr": "À l'école" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l08.practice-4#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ce médecin est d'Amérique.",
+      "answers": ["هٰذَا الطَّبِيبُ مِنْ أَمْرِيكَا."]
+    },
+    {
+      "id": "medine-t1.l08.practice-4#8",
+      "type": "order",
+      "fr": "ʿAmmār est allé à la mosquée et s'est assis devant le mihrab.",
+      "answers": [
+        ["ذَهَبَ", "عَمَّارٌ", "إِلَى", "الْمَسْجِدِ", "وَجَلَسَ", "أَمَامَ", "الْمِحْرَابِ"],
+        ["عَمَّارٌ", "ذَهَبَ", "إِلَى", "الْمَسْجِدِ", "وَجَلَسَ", "أَمَامَ", "الْمِحْرَابِ"]
+      ],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l08.practice-4#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "ʿAmmār est allé à la mosquée et s'est assis devant le mihrab.",
+      "answers": ["ذَهَبَ عَمَّارٌ إِلَى الْمَسْجِدِ وَجَلَسَ أَمَامَ الْمِحْرَابِ."]
+    }
+  ]
+}
