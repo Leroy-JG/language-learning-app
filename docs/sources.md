@@ -215,7 +215,7 @@ Support utilisé pour la leçon 13 (`l13`) : `TOME1-13.pdf` (19 pages) : `أَس
 - `أَنْتُنَّ` et `كُنَّ` (plusieurs femmes) en face de `أَنْتُمْ` / `كُمْ` ; `يَا أَخَوَاتُ` / `يَا إِخْوَةُ` ; le pronom isolé qui convient devant un mot (`أَ` + pronom), et `أَنَا` / `نَحْنُ` ;
 - vocabulaire : `مَتَى` `قَبْلَ` `بَعْدَ` `الْقَاهِرَةُ` ;
 - le dialogue du livre (deux parties), les exercices 1 à 7 ;
-- seulement **aperçus** (astuces, rien n'est exigé en exercice) : `ذَهَبْنَا` / `رَجَعْنَا` / `أَذَهَبْتُنَّ` (verbe + `نَا` / `تُنَّ`), `خَرَجْتَ` / `خَرَجْتُ` / `ذَهَبْتَ` / `ذَهَبْتُ` (terminaisons `تَ` / `تُ`), `الْأَذَانِ` (dans le texte du livre, sans exercice), `يَرْجِعُ` (présent) et `بِلَادِهِمْ` ;
+- seulement **aperçus** (astuces, rien n'est exigé en exercice) : `ذَهَبْنَا` / `رَجَعْنَا` / `أَذَهَبْتُنَّ` (verbe + `نَا` / `تُنَّ`), `خَرَجْتَ` / `خَرَجْتُ` / `ذَهَبْتَ` / `ذَهَبْتُ` (terminaisons `تَ` / `تُ`), `يَرْجِعُ` (présent) et `بِلَادِهِمْ` ;
 
 **Pas encore enseigné** (ne pas l'exiger dans un exercice) :
 - les pronoms affixes du nominatif et de l'accusatif (ils s'attachent aux verbes) et les pronoms isolés de l'accusatif (`إِيَّاكَ`) ;
@@ -689,7 +689,7 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - exercice 7 (lire et écrire) → `practice-3` ;
   - diapo `مَتَى` et schéma des noms interrogatifs → `recap` et `grammar-1` ; diapo `قَبْلَ وَبَعْدَ` → `vocab-1` et `grammar-2` ; tableau de vocabulaire → `vocab-1` (`قَبْلَ`, `بَعْدَ`), `grammar-1` (`مَتَى`).
 - **Écarts avec le PDF :**
-  - exercice 7 : les phrases 2, 3 et 5 contiennent des verbes à la 2ᵉ ou à la 1ʳᵉ personne (`خَرَجْتَ`, `ذَهَبْتُ`…), non enseignés : elles sont citées dans une astuce, puis travaillées à la 3ᵉ personne (`خَرَجَ مُحَمَّدٌ`, `ذَهَبَ زَيْدٌ`) ; `الْأَذَانِ` (non enseigné) est remplacé par `الصَّلَاةِ` dans les exercices ;
+  - exercice 7 : les phrases 2, 3 et 5 contiennent des verbes à la 2ᵉ ou à la 1ʳᵉ personne (`خَرَجْتَ`, `ذَهَبْتُ`…), non enseignés : elles sont citées dans une astuce, puis travaillées à la 3ᵉ personne (`خَرَجَ مُحَمَّدٌ`, `ذَهَبَ زَيْدٌ`) ; la phrase 3 (`ذَهَبْتُ إِلَى الْمَسْجِدِ قَبْلَ الْأَذَانِ`) n'est pas reprise : `الْأَذَانُ` n'est pas enseigné, et l'exercice « à la 3ᵉ personne » utilise `الصَّلَاةِ` ;
   - `الْقَاهِرَةُ` (phrase 1) est ajouté comme mot (ville, féminin comme `مَكَّةُ`) ;
   - exemples du PDF non repris tels quels : `مَتَى صَلَاةُ الْعِشَاءِ؟` → `مَتَى صَلَاةُ الْفَجْرِ؟` (`الْعِشَاءُ` n'est pas enseigné ; genre incertain) ; `الرَّاحَةُ بَعْدَ الْعِشَاءِ` → `الِاخْتِبَارُ بَعْدَ أُسْبُوعٍ` ; `مَتَى يَرْجِعُ الْحُجَّاجُ إِلَى بِلَادِهِمْ؟` (présent, non enseigné) : cité dans une note, sans exercice ; `زَيْدٌ تَاجِرٌ كَبِيرٌ`, `زَيْنَبُ عَمَّةُ زَيْدٍ`, `فَاطِمَةُ خَالَةُ مُحَمَّدٍ`, `خَرَجَ زَيْدٌ مَعَ يَاسِرٍ` : mots déjà enseignés (`تَاجِرٌ`, `عَمَّةٌ`, `خَالَةٌ`, `مَعَ`), donc aucune carte nouvelle ;
   - exercices 3 et 5 : `يَا إِخْوَانُ` du livre → `يَا إِخْوَةُ` (pluriel enseigné au chapitre 10), avec une note sur `إِخْوَانٌ` ; `طَبِيبَاتٌ` (exercice 4) est le pluriel sain régulier de `طَبِيبَةٌ` ;
@@ -709,6 +709,13 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - sens de `قَبْلَ` / `بَعْدَ` suivis d'une durée (« il y a », « dans ») ; après `مِنْ` la kasra, second terme omis la damma (Coran 30:4) ;
   - `كُنَّ` seulement si toutes les personnes sont des femmes : avec un seul homme, `كُمْ` ;
   - `السَّلَامُ عَلَيْكُنَّ` pour un groupe de femmes (`عَلَيْكُنَّ` est au chapitre 10).
+- **Corrections après relecture :**
+  - le rappel ne dit plus « tu connais cinq noms interrogatifs » comme s'il n'y en avait pas d'autres : `مَاذَا` et `لِمَاذَا` (révision 1) sont cités ; `مَتَى` est « le sixième du schéma » ;
+  - `أُسْتَاذَتِي` : « ma professeure » (`أُسْتَاذَةٌ`, chapitre 13), pas « mon enseignante » (`مُدَرِّسَةٌ`) ;
+  - `الْقَاهِرَةُ` : plus de généralisation sur « les autres villes » (certaines gardent le tanwin, `مِصْرٌ`) ; genre `f` ;
+  - exemple de `بَعْدَ` : `الصَّلَاةُ بَعْدَ الدَّرْسِ` (l'exemple « dans une semaine » est expliqué plus loin, à `grammar-2`) ;
+  - explication du tri : « pour des personnes », un pluriel en `◌َاتٌ` désigne des femmes (`حَمَّامَاتٌ` est masculin) ; note sur `مِنْ` : kasra si un nom suit, damma s'il n'est pas dit ;
+  - rythme : jamais trois écrans du même type d'affilée ; réponses ajoutées : vocatif en tête de phrase (`يَا أَخَوَاتُ أَيْنَ بَيْتُكُنَّ؟`), `ذَهَبَ إِلَى الرِّيَاضِ قَبْلَ شَهْرٍ.`
 - **Pas de nouvelle icône.**
 
 ## Audio

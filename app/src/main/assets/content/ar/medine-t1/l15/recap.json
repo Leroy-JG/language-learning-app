@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Pour poser une question, tu connais déjà cinq noms interrogatifs. Chacun interroge sur une chose précise."
+          "text": "Voici les cinq noms interrogatifs que tu connais déjà du schéma du professeur. Chacun interroge sur une chose précise."
         },
         {
           "type": "table",
@@ -30,7 +30,7 @@
         },
         {
           "type": "note",
-          "text": "Il en manque un : celui qui demande **le moment**, « quand ? ». C'est le sujet de ce chapitre."
+          "text": "Tu connais aussi {ar|مَاذَا} (« qu'y a-t-il ? ») et {ar|لِمَاذَا} (« pourquoi ? »), formés sur {ar|مَا}. Il manque encore à ce schéma celui qui demande **le moment**, « quand ? ». C'est le sujet de ce chapitre."
         }
       ]
     },

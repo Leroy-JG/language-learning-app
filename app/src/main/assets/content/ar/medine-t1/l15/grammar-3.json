@@ -26,6 +26,11 @@
         {
           "type": "note",
           "tone": "info",
+          "text": "La terminaison avec {ar|نَّ} (un nūn avec shadda) marque le féminin pluriel : {ar|أَنْتُنَّ}, {ar|كُنَّ}, et {ar|هُنَّ} (chapitre 10)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
           "text": "On emploie {ar|كُنَّ} seulement si toutes les personnes sont des femmes. Avec un seul homme dans le groupe, on revient à {ar|كُمْ}."
         }
       ]
