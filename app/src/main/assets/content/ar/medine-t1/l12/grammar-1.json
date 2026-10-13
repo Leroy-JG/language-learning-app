@@ -1,0 +1,152 @@
+{
+  "id": "medine-t1.l12.grammar-1",
+  "type": "grammar",
+  "title": "Les noms interrogatifs",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l12.grammar-1#1",
+      "type": "tip",
+      "title": "Quatre noms pour interroger",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais déjà quatre mots pour poser une question. Ce sont des **noms** : on les appelle {ar|أَسْمَاءُ الِاسْتِفْهَامِ} (« les noms de l'interrogation »)."
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Il demande…", "Les grammairiens disent"],
+          "rows": [
+            ["{ar|مَا}", "une chose, un animal", "{ar|لِغَيْرِ الْعَاقِلِ}"],
+            ["{ar|مَنْ}", "une personne", "{ar|لِلْعَاقِلِ}"],
+            ["{ar|أَيْنَ}", "un lieu", "{ar|لِلْمَكَانِ}"],
+            ["{ar|كَيْفَ}", "l'état, la manière", "{ar|لِلْحَالِ وَالْكَيْفِيَّةِ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Chaque expression de la dernière colonne commence par {ar|لِ} (« pour ») : « pour l'être doué de raison » (les personnes), « pour ce qui n'en est pas doué » (choses et animaux), « pour le lieu », « pour l'état et la manière »."
+        }
+      ]
+    },
+    { "id": "medine-t1.l12.grammar-1#2", "type": "present", "item": "w:ism-istifham" },
+    {
+      "id": "medine-t1.l12.grammar-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ism-istifham",
+      "distractors": ["w:ism-ishara", "w:damir"]
+    },
+    {
+      "id": "medine-t1.l12.grammar-1#4",
+      "type": "tip",
+      "title": "Deux règles à retenir",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**1. Ils sont invariables.** Comme {ar|أَنَا} ou {ar|هٰذَا} (chapitre 11), leur terminaison ne change pas, quel que soit leur rôle dans la phrase."
+        },
+        { "type": "paragraph", "text": "**2. Ils se placent en tête de la question.** On commence par eux :" },
+        { "type": "example", "ar": "كَيْفَ الِاخْتِبَارُ؟", "fr": "Comment est l'examen ?" },
+        {
+          "type": "note",
+          "text": "Une particule peut passer devant eux : une préposition ({ar|مِنْ أَيْنَ أَنْتَ؟}, {ar|لِمَنْ هٰذَا؟}) ou {ar|وَ} (« et » : {ar|وَأَيْنَ أُمُّكِ؟}). Il y a d'autres cas particuliers, que tu verras plus tard."
+        },
+        {
+          "type": "note",
+          "text": "Cela vaut pour les quatre noms que tu connais. Il existe d'autres mots d'interrogation, que tu verras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l12.grammar-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Un nom interrogatif comme {ar|كَيْفَ} change de terminaison selon son rôle dans la phrase." },
+      "answer": false,
+      "explain": "Les noms interrogatifs que tu connais sont invariables : {ar|كَيْفَ} reste toujours {ar|كَيْفَ}."
+    },
+    { "id": "medine-t1.l12.grammar-1#6", "type": "present", "item": "w:hal" },
+    {
+      "id": "medine-t1.l12.grammar-1#7",
+      "type": "tip",
+      "title": "{ar|كَيْفَ} : l'état, la manière",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|كَيْفَ} (« comment ? ») sert à interroger sur **l'état** d'une personne ou d'une chose, ou sur la façon dont elle est."
+        },
+        { "type": "example", "ar": "كَيْفَ حَالُكَ؟ أَنَا بِخَيْرٍ.", "fr": "Comment vas-tu ? Je vais bien." },
+        { "type": "example", "ar": "كَيْفَ أَنْتَ؟ أَنَا بِخَيْرٍ.", "fr": "Comment vas-tu ? Je vais bien." },
+        {
+          "type": "example",
+          "ar": "كَيْفَ الِاخْتِبَارُ؟ الِاخْتِبَارُ صَعْبٌ.",
+          "fr": "Comment est l'examen ? L'examen est difficile."
+        },
+        {
+          "type": "example",
+          "ar": "كَيْفَ دَرْسُ الْيَوْمِ؟ دَرْسُ الْيَوْمِ سَهْلٌ جِدًّا.",
+          "fr": "Comment est la leçon d'aujourd'hui ? La leçon d'aujourd'hui est très facile."
+        },
+        {
+          "type": "note",
+          "text": "La réponse à {ar|كَيْفَ} dit comment est la personne ou la chose : {ar|بِخَيْرٍ} (bien), {ar|صَعْبٌ} (difficile), {ar|سَهْلٌ} (facile)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l12.grammar-1#8",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hal",
+      "distractors": ["w:makan", "w:dars"]
+    },
+    {
+      "id": "medine-t1.l12.grammar-1#9",
+      "type": "fill_gap",
+      "sentence": "{0} حَالُكَ؟",
+      "fr": "Comment vas-tu ?",
+      "gaps": [ { "answers": ["كَيْفَ"] } ],
+      "options": ["كَيْفَ", "مَنْ", "أَيْنَ"]
+    },
+    {
+      "id": "medine-t1.l12.grammar-1#10",
+      "type": "fill_gap",
+      "sentence": "{0} الِاخْتِبَارُ؟ الِاخْتِبَارُ صَعْبٌ.",
+      "fr": "Comment est l'examen ? L'examen est difficile.",
+      "gaps": [ { "answers": ["كَيْفَ"] } ],
+      "options": ["كَيْفَ", "أَيْنَ", "مَا"],
+      "explain": "La réponse dit comment est l'examen : {ar|صَعْبٌ}. On demande l'état avec {ar|كَيْفَ}."
+    },
+    {
+      "id": "medine-t1.l12.grammar-1#11",
+      "type": "sort",
+      "categories": [ { "ar": "مَنْ" }, { "ar": "أَيْنَ" }, { "ar": "كَيْفَ" } ],
+      "cards": [
+        { "ar": "هُوَ زَيْدٌ.", "category": 0 },
+        { "ar": "هِيَ فَاطِمَةُ.", "category": 0 },
+        { "ar": "هِيَ فِي الْمَطْبَخِ.", "category": 1 },
+        { "ar": "الْكِتَابُ عَلَى الْمَكْتَبِ.", "category": 1 },
+        { "ar": "أَنَا بِخَيْرٍ.", "category": 2 },
+        { "ar": "الدَّرْسُ سَهْلٌ.", "category": 2 }
+      ],
+      "instruction": "Quelle question a cette réponse ? Range chaque réponse sous le bon nom interrogatif.",
+      "explain": "{ar|مَنْ} : une personne ; {ar|أَيْنَ} : un lieu ; {ar|كَيْفَ} : l'état."
+    },
+    {
+      "id": "medine-t1.l12.grammar-1#12",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَيْفَ دَرْسُ الْيَوْمِ؟",
+      "answers": ["دَرْسُ الْيَوْمِ سَهْلٌ جِدًّا.", "الدَّرْسُ سَهْلٌ جِدًّا.", "هُوَ سَهْلٌ جِدًّا.", "سَهْلٌ جِدًّا."],
+      "fr": "La leçon d'aujourd'hui est très facile.",
+      "instruction": "Réponds : la leçon d'aujourd'hui est très facile."
+    },
+    {
+      "id": "medine-t1.l12.grammar-1#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Comment est l'examen ?",
+      "answers": ["كَيْفَ الِاخْتِبَارُ؟"]
+    }
+  ]
+}

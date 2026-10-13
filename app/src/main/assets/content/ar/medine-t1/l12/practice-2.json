@@ -1,0 +1,112 @@
+{
+  "id": "medine-t1.l12.practice-2",
+  "type": "vocabulary",
+  "title": "Il part, elle part",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l12.practice-2#1",
+      "type": "tip",
+      "title": "Mets le sujet au féminin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans le livre, on demande de mettre le sujet au féminin. Le verbe change aussi. Voici l'exemple :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "خَرَجَ مُحَمَّدٌ مِنَ الْبَيْتِ", "fr": "Muḥammad est sorti de la maison" },
+              "to": { "ar": "خَرَجَتْ آمِنَةُ مِنَ الْبَيْتِ", "fr": "Āmina est sortie de la maison" }
+            }
+          ]
+        },
+        { "type": "note", "text": "Pense à la kasra devant l'article : {ar|جَلَسَتِ الطَّالِبَةُ}." }
+      ]
+    },
+    {
+      "id": "medine-t1.l12.practice-2#2",
+      "type": "order",
+      "fr": "L'enseignante est allée à la salle de classe.",
+      "answers": [["ذَهَبَتِ", "الْمُدَرِّسَةُ", "إِلَى", "الْفَصْلِ"]],
+      "punctuation": ".",
+      "distractors": ["ذَهَبَ", "الْمُدَرِّسُ"]
+    },
+    {
+      "id": "medine-t1.l12.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "{0} {1} إِلَى الْمُسْتَشْفَى.",
+      "fr": "Ma mère est allée à l'hôpital.",
+      "gaps": [ { "answers": ["ذَهَبَتْ"] }, { "answers": ["أُمِّي"] } ],
+      "options": ["ذَهَبَتْ", "ذَهَبَ", "أُمِّي", "أَبِي"]
+    },
+    {
+      "id": "medine-t1.l12.practice-2#4",
+      "type": "order",
+      "fr": "L'étudiante s'est assise dans la salle de classe.",
+      "answers": [["جَلَسَتِ", "الطَّالِبَةُ", "فِي", "الْفَصْلِ"]],
+      "punctuation": ".",
+      "distractors": ["جَلَسَ", "الطَّالِبُ"]
+    },
+    {
+      "id": "medine-t1.l12.practice-2#5",
+      "type": "fill_gap",
+      "sentence": "{0} {1} مِنَ الْبَيْتِ.",
+      "fr": "Ma sœur est sortie de la maison.",
+      "gaps": [ { "answers": ["خَرَجَتْ"] }, { "answers": ["أُخْتِي"] } ],
+      "options": ["خَرَجَتْ", "خَرَجَ", "أُخْتِي", "أَخِي"]
+    },
+    {
+      "id": "medine-t1.l12.practice-2#6",
+      "type": "true_false",
+      "statement": { "fr": "On dit {ar|ذَهَبَتْ أَبِي إِلَى الْمُسْتَشْفَى} pour « mon père est allé à l'hôpital »." },
+      "answer": false,
+      "explain": "Le sujet {ar|أَبِي} est masculin : {ar|ذَهَبَ أَبِي إِلَى الْمُسْتَشْفَى}."
+    },
+    {
+      "id": "medine-t1.l12.practice-2#7",
+      "type": "question",
+      "prompt": {
+        "fr": "Pour passer de {ar|جَلَسَ الطَّالِبُ فِي الْفَصْلِ} à « l'étudiante s'est assise dans la salle de classe », que faut-il changer ?"
+      },
+      "choices": [
+        { "fr": "Le verbe et le sujet : {ar|جَلَسَتِ الطَّالِبَةُ فِي الْفَصْلِ}" },
+        { "fr": "Seulement le sujet : {ar|جَلَسَ الطَّالِبَةُ فِي الْفَصْلِ}" },
+        { "fr": "Rien : le verbe ne change jamais" }
+      ],
+      "answer": 0,
+      "explain": "Un sujet féminin demande un verbe avec le {ar|تْ} du féminin."
+    },
+    {
+      "id": "medine-t1.l12.practice-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "L'enseignante est allée à la salle de classe.",
+      "answers": ["ذَهَبَتِ الْمُدَرِّسَةُ إِلَى الْفَصْلِ.", "الْمُدَرِّسَةُ ذَهَبَتْ إِلَى الْفَصْلِ."]
+    },
+    {
+      "id": "medine-t1.l12.practice-2#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ma mère est allée à l'hôpital.",
+      "answers": ["ذَهَبَتْ أُمِّي إِلَى الْمُسْتَشْفَى.", "أُمِّي ذَهَبَتْ إِلَى الْمُسْتَشْفَى."]
+    },
+    {
+      "id": "medine-t1.l12.practice-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ma sœur est sortie de la maison.",
+      "answers": ["خَرَجَتْ أُخْتِي مِنَ الْبَيْتِ.", "أُخْتِي خَرَجَتْ مِنَ الْبَيْتِ."]
+    },
+    {
+      "id": "medine-t1.l12.practice-2#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ ذَهَبَتْ أُمُّكَ؟",
+      "answers": ["ذَهَبَتْ إِلَى الْمُسْتَشْفَى.", "ذَهَبَتْ أُمِّي إِلَى الْمُسْتَشْفَى."],
+      "fr": "Elle est allée à l'hôpital.",
+      "instruction": "Réponds : elle est allée à l'hôpital."
+    }
+  ]
+}

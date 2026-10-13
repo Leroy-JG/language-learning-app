@@ -1,0 +1,16 @@
+{
+  "id": "medine-t1.l12",
+  "number": 12,
+  "title": { "ar": "الدَّرْسُ الثَّانِي عَشَرَ", "fr": "Les noms interrogatifs" },
+  "description": "Retrouver les quatre noms interrogatifs ({ar|مَا}, {ar|مَنْ}, {ar|أَيْنَ}, {ar|كَيْفَ}), mettre le verbe au féminin avec le {ar|تْ}, parler à une femme avec {ar|ـكِ} et dire la salutation complète.",
+  "source": "Tome de Médine 1, leçon 12",
+  "sections": [
+    { "title": "Les noms interrogatifs", "activities": ["grammar-1", "practice-1"] },
+    { "title": "Le verbe au féminin", "activities": ["grammar-2", "grammar-3", "practice-2"] },
+    { "title": "Parler à une femme", "activities": ["grammar-4", "practice-3"] },
+    { "title": "La salutation complète", "activities": ["vocab-1"] },
+    { "title": "À l'école, en ville", "activities": ["vocab-2", "vocab-3", "plurals-1"] },
+    { "title": "Āmina et Suʿād", "activities": ["dialogue-1", "dialogue-2", "practice-4"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

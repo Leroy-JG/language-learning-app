@@ -1,0 +1,197 @@
+[
+  {
+    "id": "w:ism-istifham",
+    "kind": "word",
+    "ar": "اِسْمُ الِاسْتِفْهَامِ",
+    "fr": "le nom interrogatif",
+    "translit": "ismu l-istifhāmi",
+    "plural": "أَسْمَاءُ الِاسْتِفْهَامِ",
+    "gender": "m",
+    "note": "Les quatre noms interrogatifs que tu connais : {ar|مَا}, {ar|مَنْ}, {ar|أَيْنَ} et {ar|كَيْفَ}. Le mot {ar|الِاسْتِفْهَامُ} veut dire « l'interrogation ».",
+    "example": { "ar": "كَيْفَ اسْمُ اسْتِفْهَامٍ.", "fr": "« Comment ? » est un nom interrogatif." }
+  },
+  {
+    "id": "w:hal",
+    "kind": "word",
+    "ar": "حَالٌ",
+    "fr": "un état, une situation",
+    "translit": "ḥālun",
+    "plural": "أَحْوَالٌ",
+    "gender": "m",
+    "note": "Dans {ar|كَيْفَ حَالُكَ؟}, c'est mot à mot « comment est ton état ? ». Les dictionnaires admettent {ar|حَالٌ} au masculin comme au féminin ; ici, on l'emploie au masculin.",
+    "example": { "ar": "كَيْفَ حَالُ زَيْدٍ؟", "fr": "Comment va Zayd ?" }
+  },
+  {
+    "id": "w:dhahabat",
+    "kind": "word",
+    "ar": "ذَهَبَتْ",
+    "fr": "elle est allée (aller)",
+    "translit": "dhahabat",
+    "note": "C'est {ar|ذَهَبَ} avec un {ar|تْ} à la fin : le sujet est féminin.",
+    "example": { "ar": "ذَهَبَتْ زَيْنَبُ إِلَى الْمَدْرَسَةِ.", "fr": "Zaynab est allée à l'école." }
+  },
+  {
+    "id": "w:kharajat",
+    "kind": "word",
+    "ar": "خَرَجَتْ",
+    "fr": "elle est sortie (sortir)",
+    "translit": "kharajat",
+    "note": "C'est {ar|خَرَجَ} avec un {ar|تْ} à la fin : le sujet est féminin.",
+    "example": { "ar": "خَرَجَتْ فَاطِمَةُ مِنَ الْبَيْتِ.", "fr": "Fāṭima est sortie de la maison." }
+  },
+  {
+    "id": "w:jalasat",
+    "kind": "word",
+    "ar": "جَلَسَتْ",
+    "fr": "elle s'est assise (s'asseoir)",
+    "translit": "jalasat",
+    "note": "C'est {ar|جَلَسَ} avec un {ar|تْ} à la fin : le sujet est féminin.",
+    "example": { "ar": "جَلَسَتْ زَيْنَبُ فِي الْفَصْلِ.", "fr": "Zaynab s'est assise dans la salle de classe." }
+  },
+  {
+    "id": "w:salam",
+    "kind": "word",
+    "ar": "سَلَامٌ",
+    "fr": "de la paix",
+    "translit": "salāmun",
+    "gender": "m",
+    "note": "Avec l'article, {ar|السَّلَامُ} est le mot de la salutation que tu connais. Le mot est de la même famille que {ar|مُسْلِمٌ} (chapitre 6).",
+    "example": { "ar": "سَلَامٌ عَلَيْكُمْ.", "fr": "Paix sur vous." }
+  },
+  {
+    "id": "w:rahma",
+    "kind": "word",
+    "ar": "رَحْمَةٌ",
+    "fr": "une miséricorde",
+    "translit": "raḥmatun",
+    "plural": "رَحَمَاتٌ",
+    "gender": "f",
+    "note": "C'est le mot de {ar|وَرَحْمَةُ اللَّهِ} (« et la miséricorde d'Allah »), dans la salutation complète.",
+    "example": { "ar": "رَحْمَةُ اللَّهِ عَلَيْكَ.", "fr": "Que la miséricorde d'Allah soit sur toi." }
+  },
+  {
+    "id": "w:baraka",
+    "kind": "word",
+    "ar": "بَرَكَةٌ",
+    "fr": "une bénédiction",
+    "translit": "barakatun",
+    "plural": "بَرَكَاتٌ",
+    "gender": "f",
+    "note": "Au pluriel, c'est le mot de {ar|وَبَرَكَاتُهُ} (« et ses bénédictions »), à la fin de la salutation complète.",
+    "example": { "ar": "الْبَرَكَةُ مَعَ الْكِبَارِ.", "fr": "La bénédiction est avec les aînés." }
+  },
+  {
+    "id": "p:salam-kamil-f",
+    "kind": "phrase",
+    "ar": "السَّلَامُ عَلَيْكِ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ",
+    "fr": "que la paix soit sur toi, ainsi que la miséricorde d'Allah et ses bénédictions (à une femme)",
+    "translit": "as-salāmu ʿalayki wa raḥmatu llāhi wa barakātuhu",
+    "note": "C'est la salutation complète. À un homme, on dit {ar|عَلَيْكَ} ; à plusieurs personnes, {ar|عَلَيْكُمْ}. On peut aussi saluer plus court : {ar|السَّلَامُ عَلَيْكِ}."
+  },
+  {
+    "id": "p:radd-kamil-f",
+    "kind": "phrase",
+    "ar": "وَعَلَيْكِ السَّلَامُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ",
+    "fr": "et sur toi la paix, ainsi que la miséricorde d'Allah et ses bénédictions (réponse, à une femme)",
+    "translit": "wa ʿalayki s-salāmu wa raḥmatu llāhi wa barakātuhu",
+    "note": "C'est la réponse complète à la salutation. Le {ar|وَ} du début veut dire « et » : on répond « et sur toi… »."
+  },
+  {
+    "id": "p:kayfa-haluki",
+    "kind": "phrase",
+    "ar": "كَيْفَ حَالُكِ؟",
+    "fr": "Comment vas-tu ? (à une femme)",
+    "translit": "kayfa ḥāluki?",
+    "note": "À un homme : {ar|كَيْفَ حَالُكَ؟} Seule la dernière voyelle change : {ar|كِ} au lieu de {ar|كَ}."
+  },
+  {
+    "id": "p:ma-ismuki",
+    "kind": "phrase",
+    "ar": "مَا اسْمُكِ؟",
+    "fr": "Quel est ton nom ? (à une femme)",
+    "translit": "mā ismuki",
+    "note": "À un homme : {ar|مَا اسْمُكَ؟}"
+  },
+  {
+    "id": "p:min-ayna-anti",
+    "kind": "phrase",
+    "ar": "مِنْ أَيْنَ أَنْتِ؟",
+    "fr": "D'où viens-tu ? (à une femme)",
+    "translit": "min ayna anti",
+    "note": "À un homme : {ar|مِنْ أَيْنَ أَنْتَ؟}"
+  },
+  {
+    "id": "w:fatat",
+    "kind": "word",
+    "ar": "فَتَاةٌ",
+    "fr": "une jeune fille",
+    "translit": "fatātun",
+    "plural": "فَتَيَاتٌ",
+    "gender": "f",
+    "note": "Le masculin est {ar|فَتًى} (chapitre 10) : la fin {ar|ى} devient {ar|اة}.",
+    "example": { "ar": "الْفَتَاةُ بِنْتُ زَيْدٍ.", "fr": "La jeune fille est la fille de Zayd." }
+  },
+  {
+    "id": "w:zamila",
+    "kind": "word",
+    "ar": "زَمِيلَةٌ",
+    "fr": "une camarade",
+    "translit": "zamīlatun",
+    "gender": "f",
+    "note": "Le féminin de {ar|زَمِيلٌ} (chapitre 10) : une camarade de classe ou de travail.",
+    "example": { "ar": "زَمِيلَتِي فِي الْمَدْرَسَةِ.", "fr": "Ma camarade est à l'école." }
+  },
+  {
+    "id": "w:muwajjih",
+    "kind": "word",
+    "ar": "مُوَجِّهٌ",
+    "fr": "un conseiller",
+    "translit": "muwajjihun",
+    "plural": "مُوَجِّهُونَ",
+    "gender": "m",
+    "note": "Dans le monde de l'école, c'est celui qui guide et oriente. Le mot vient du verbe {ar|وَجَّهَ} (« diriger, orienter »). Le féminin est {ar|مُوَجِّهَةٌ}.",
+    "example": { "ar": "أَخِي مُوَجِّهٌ فِي الْمَدْرَسَةِ.", "fr": "Mon frère est conseiller à l'école." }
+  },
+  {
+    "id": "w:mutawassita",
+    "kind": "word",
+    "ar": "الْمُتَوَسِّطَةُ",
+    "fr": "le collège",
+    "translit": "al-mutawassiṭatu",
+    "gender": "f",
+    "note": "Mot à mot « l'école intermédiaire » ({ar|الْمَدْرَسَةُ الْمُتَوَسِّطَةُ}) : dans le système scolaire saoudien, c'est le cycle entre l'école primaire et le lycée ({ar|الثَّانَوِيَّةُ}, chapitre 9).",
+    "example": { "ar": "زَيْنَبُ فِي الْمُتَوَسِّطَةِ.", "fr": "Zaynab est au collège." }
+  },
+  {
+    "id": "w:wilada",
+    "kind": "word",
+    "ar": "وِلَادَةٌ",
+    "fr": "une naissance, un accouchement",
+    "translit": "wilādatun",
+    "plural": "وِلَادَاتٌ",
+    "gender": "f",
+    "note": "{ar|مُسْتَشْفَى الْوِلَادَةِ} veut dire mot à mot « l'hôpital de la naissance » : c'est la maternité.",
+    "example": { "ar": "هٰذَا مُسْتَشْفَى الْوِلَادَةِ.", "fr": "Ceci est la maternité." }
+  },
+  {
+    "id": "w:shajara",
+    "kind": "word",
+    "ar": "شَجَرَةٌ",
+    "fr": "un arbre",
+    "translit": "shajaratun",
+    "plural": "شَجَرٌ",
+    "icon": "tree",
+    "gender": "f",
+    "note": "Le pluriel du livre, {ar|شَجَرٌ}, est un nom collectif (« les arbres » en général) ; on entend aussi {ar|أَشْجَارٌ}.",
+    "example": { "ar": "هٰذِهِ شَجَرَةٌ كَبِيرَةٌ.", "fr": "Ceci est un grand arbre." }
+  },
+  {
+    "id": "w:riyad",
+    "kind": "word",
+    "ar": "الرِّيَاضُ",
+    "fr": "Riyad",
+    "translit": "ar-riyāḍu",
+    "note": "La capitale de l'Arabie saoudite. Le nom s'emploie avec l'article ; c'est le pluriel de {ar|رَوْضَةٌ} (« jardin »).",
+    "example": { "ar": "أَنَا مِنَ الرِّيَاضِ.", "fr": "Je viens de Riyad." }
+  }
+]

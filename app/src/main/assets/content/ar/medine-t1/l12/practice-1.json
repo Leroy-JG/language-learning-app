@@ -1,0 +1,98 @@
+{
+  "id": "medine-t1.l12.practice-1",
+  "type": "vocabulary",
+  "title": "Qui ? Quoi ? Où ? Comment ?",
+  "icon": "telescope",
+  "screens": [
+    {
+      "id": "medine-t1.l12.practice-1#1",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:ma", "w:man", "w:ayna", "w:kayfa"]
+    },
+    {
+      "id": "medine-t1.l12.practice-1#2",
+      "type": "fill_gap",
+      "sentence": "{0} هٰذَا؟ هٰذَا مِفْتَاحٌ.",
+      "fr": "Qu'est-ce que c'est ? C'est une clé.",
+      "gaps": [ { "answers": ["مَا"] } ],
+      "options": ["مَا", "مَنْ", "كَيْفَ"]
+    },
+    {
+      "id": "medine-t1.l12.practice-1#3",
+      "type": "fill_gap",
+      "sentence": "{0} هٰذَا؟ هٰذَا زَيْدٌ.",
+      "fr": "Qui est-ce ? C'est Zayd.",
+      "gaps": [ { "answers": ["مَنْ"] } ],
+      "options": ["مَنْ", "مَا", "أَيْنَ"]
+    },
+    {
+      "id": "medine-t1.l12.practice-1#4",
+      "type": "fill_gap",
+      "sentence": "{0} الْمَسْجِدُ؟ الْمَسْجِدُ فِي الْمَدِينَةِ.",
+      "fr": "Où est la mosquée ? La mosquée est dans la ville.",
+      "gaps": [ { "answers": ["أَيْنَ"] } ],
+      "options": ["أَيْنَ", "كَيْفَ", "مَنْ"]
+    },
+    {
+      "id": "medine-t1.l12.practice-1#5",
+      "type": "fill_gap",
+      "sentence": "{0} أَنْتَ يَا زَيْدُ؟ أَنَا بِخَيْرٍ.",
+      "fr": "Comment vas-tu, Zayd ? Je vais bien.",
+      "gaps": [ { "answers": ["كَيْفَ"] } ],
+      "options": ["كَيْفَ", "مَنْ", "أَيْنَ"],
+      "explain": "La réponse {ar|أَنَا بِخَيْرٍ} dit comment va Zayd : on a demandé {ar|كَيْفَ}."
+    },
+    {
+      "id": "medine-t1.l12.practice-1#6",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|لِغَيْرِ الْعَاقِلِ} à propos de {ar|مَا} ?" },
+      "choices": [
+        { "fr": "Pour ce qui n'est pas doué de raison : les choses et les animaux" },
+        { "fr": "Pour les personnes" },
+        { "fr": "Pour le lieu" }
+      ],
+      "answer": 0,
+      "explain": "{ar|مَا} interroge sur une chose ou un animal ; {ar|مَنْ} sur une personne ({ar|لِلْعَاقِلِ}) ; {ar|أَيْنَ} sur un lieu ({ar|لِلْمَكَانِ})."
+    },
+    {
+      "id": "medine-t1.l12.practice-1#7",
+      "type": "order",
+      "fr": "Où est le directeur ?",
+      "answers": [["أَيْنَ", "الْمُدِيرُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l12.practice-1#8",
+      "type": "order",
+      "fr": "Comment va ton frère ?",
+      "answers": [["كَيْفَ", "حَالُ", "أَخِيكَ"]],
+      "punctuation": "؟",
+      "explain": "{ar|حَالُ أَخِيكَ} : « l'état de ton frère ». {ar|أَخِيكَ} est le second terme d'une annexion : kasra."
+    },
+    {
+      "id": "medine-t1.l12.practice-1#9",
+      "type": "true_false",
+      "statement": { "fr": "On peut dire {ar|حَالُكَ كَيْفَ؟} pour demander « comment vas-tu ? »." },
+      "answer": false,
+      "explain": "En arabe, on commence la question par le nom interrogatif : {ar|كَيْفَ حَالُكَ؟}"
+    },
+    {
+      "id": "medine-t1.l12.practice-1#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ هٰذَا؟",
+      "answers": ["هٰذَا مُدَرِّسٌ.", "هُوَ مُدَرِّسٌ.", "مُدَرِّسٌ."],
+      "fr": "C'est un enseignant.",
+      "instruction": "Réponds : c'est un enseignant.",
+      "context": { "icon": "teacher" }
+    },
+    {
+      "id": "medine-t1.l12.practice-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "D'où viens-tu, Zayd ?",
+      "answers": ["مِنْ أَيْنَ أَنْتَ يَا زَيْدُ؟"]
+    }
+  ]
+}
