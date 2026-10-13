@@ -1,0 +1,62 @@
+{
+  "id": "medine-t1.l08.vocab-3",
+  "type": "vocabulary",
+  "title": "Hôpital, mihrab, couteau et pays",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t1.l08.vocab-3#1", "type": "present", "item": "w:mustashfa" },
+    { "id": "medine-t1.l08.vocab-3#2", "type": "present", "item": "w:sabbura" },
+    {
+      "id": "medine-t1.l08.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mustashfa",
+      "distractors": ["w:masjid", "w:madrasa"]
+    },
+    { "id": "medine-t1.l08.vocab-3#4", "type": "present", "item": "w:sikkin" },
+    { "id": "medine-t1.l08.vocab-3#5", "type": "present", "item": "w:mihrab" },
+    {
+      "id": "medine-t1.l08.vocab-3#6",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:mihrab",
+      "distractors": ["w:masjid", "w:sikkin"]
+    },
+    { "id": "medine-t1.l08.vocab-3#7", "type": "present", "item": "w:abd" },
+    {
+      "id": "medine-t1.l08.vocab-3#8",
+      "type": "tip",
+      "title": "Deux pays",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme {ar|فَرَنْسَا} (chapitre 4), ces deux noms de pays se terminent par un alif : leur fin ne change pas à l'écrit, quelle que soit leur place dans la phrase."
+        }
+      ]
+    },
+    { "id": "medine-t1.l08.vocab-3#9", "type": "present", "item": "w:amrika" },
+    { "id": "medine-t1.l08.vocab-3#10", "type": "present", "item": "w:almaniya" },
+    {
+      "id": "medine-t1.l08.vocab-3#11",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:mustashfa", "w:sabbura", "w:sikkin", "w:mihrab", "w:abd"]
+    },
+    {
+      "id": "medine-t1.l08.vocab-3#12",
+      "type": "mcq",
+      "mode": "audio-ar",
+      "item": "w:sikkin",
+      "distractors": ["w:mihrab", "w:sabbura"]
+    },
+    { "id": "medine-t1.l08.vocab-3#13", "type": "build", "item": "w:sabbura", "extra": ["ه"] },
+    { "id": "medine-t1.l08.vocab-3#14", "type": "typing", "ask": "fr", "item": "w:mustashfa" },
+    {
+      "id": "medine-t1.l08.vocab-3#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "C'est ʿAbd Allāh.",
+      "answers": ["هٰذَا عَبْدُ اللَّهِ."]
+    }
+  ]
+}

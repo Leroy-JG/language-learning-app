@@ -89,7 +89,8 @@
     "ar": "حَادٌّ",
     "fr": "tranchant, aigu",
     "translit": "ḥāddun",
-    "note": "Il se dit par exemple d'une lame (tranchante) ou d'un son (aigu). Le {ar|د} est doublé (shadda). Au féminin : {ar|حَادَّةٌ}."
+    "note": "Il se dit par exemple d'une lame (tranchante) ou d'un son (aigu). Le {ar|د} est doublé (shadda). Au féminin : {ar|حَادَّةٌ}.",
+    "example": { "ar": "السِّكِّينُ حَادٌّ.", "fr": "Le couteau est tranchant." }
   },
   {
     "id": "w:jawan",

@@ -117,6 +117,13 @@
       "ask": "fr",
       "fr": "À qui est cette belle voiture ?",
       "answers": ["لِمَنْ هٰذِهِ السَّيَّارَةُ الْجَمِيلَةُ؟"]
+    },
+    {
+      "id": "medine-t1.l09.practice-6#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le nouvel étudiant s'est assis derrière Ḥāmid.",
+      "answers": ["جَلَسَ الطَّالِبُ الْجَدِيدُ خَلْفَ حَامِدٍ.", "الطَّالِبُ الْجَدِيدُ جَلَسَ خَلْفَ حَامِدٍ."]
     }
   ]
 }

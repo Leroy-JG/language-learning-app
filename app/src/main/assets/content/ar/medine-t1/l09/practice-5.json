@@ -101,6 +101,20 @@
       "ask": "audio",
       "fr": "Ḥāmid est-il un étudiant paresseux ? Non. C'est un étudiant studieux.",
       "answers": ["أَحَامِدٌ طَالِبٌ كَسْلَانُ؟ لَا. هُوَ طَالِبٌ مُجْتَهِدٌ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-5#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le nouveau médecin est à l'hôpital et l'ancien médecin est au dispensaire.",
+      "answers": ["الطَّبِيبُ الْجَدِيدُ فِي الْمُسْتَشْفَى وَالطَّبِيبُ الْقَدِيمُ فِي الْمُسْتَوْصَفِ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-5#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le grand couteau est très tranchant.",
+      "answers": ["السِّكِّينُ الْكَبِيرُ حَادٌّ جِدًّا."]
     }
   ]
 }

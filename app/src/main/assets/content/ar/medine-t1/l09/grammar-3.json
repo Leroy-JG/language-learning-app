@@ -33,7 +33,7 @@
         },
         {
           "type": "note",
-          "text": "Dans {ar|الْكِتَابُ جَدِيدٌ}, le mot {ar|جَدِيدٌ} n'est plus un {ar|نَعْتٌ} : c'est l'attribut ({ar|الْخَبَرُ}) du sujet {ar|الْكِتَابُ}, ce qu'on dit de lui. Un {ar|نَعْتٌ} décrit un nom au sein d'un groupe de mots."
+          "text": "Dans {ar|الْكِتَابُ جَدِيدٌ}, le mot {ar|جَدِيدٌ} n'est plus un {ar|نَعْتٌ} : c'est le prédicat ({ar|الْخَبَرُ}) du sujet {ar|الْكِتَابُ} : ce qu'on dit de lui. Un {ar|نَعْتٌ} décrit un nom au sein d'un groupe de mots."
         }
       ]
     },

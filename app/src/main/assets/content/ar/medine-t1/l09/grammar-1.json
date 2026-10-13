@@ -50,7 +50,7 @@
         { "type": "example", "ar": "زَيْدٌ رَجُلٌ غَنِيٌّ.", "fr": "Zayd est un homme riche." },
         {
           "type": "paragraph",
-          "text": "Dans {ar|زَيْدٌ رَجُلٌ}, la phrase est déjà complète : {ar|زَيْدٌ} est le sujet ({ar|الْمُبْتَدَأُ}) et {ar|رَجُلٌ} est ce qu'on dit de lui, l'attribut ({ar|الْخَبَرُ}). L'adjectif {ar|غَنِيٌّ} s'ajoute après : on peut l'enlever sans casser la phrase."
+          "text": "Dans {ar|زَيْدٌ رَجُلٌ}, la phrase est déjà complète : {ar|زَيْدٌ} est le sujet ({ar|الْمُبْتَدَأُ}) et {ar|رَجُلٌ} est ce qu'on dit de lui, le prédicat ({ar|الْخَبَرُ}) : tu les as vus au chapitre 8. L'adjectif {ar|غَنِيٌّ} s'ajoute après : on peut l'enlever sans casser la phrase."
         }
       ]
     },

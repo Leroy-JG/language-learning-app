@@ -38,7 +38,12 @@ chapitres 1 à 6. Conséquences :
   ont été ajoutés (#3b : كَبِيرٌ ou طَوِيلٌ ? ; #6b : association sans طَوِيلٌ ni قَصِيرٌ, car « grand, gros »
   et « grand (de taille), long » seraient ambigus dans un même exercice). La phrase du livre
   لِمَنْ تِلْكَ السَّيَّارَةُ الْجَمِيلَةُ ؟ est rétablie dans `dialogue-2`, تِلْكَ étant enseigné au chapitre 7.
-- **Si la leçon 8 présente le même mot, il y aura un doublon d'id** (`w:…` est unique dans tout le
+- **Fusion avec la leçon 8 (faite)** : aucun doublon d'id. Le chapitre 8 enseigne الْمُبْتَدَأُ et الْخَبَرُ
+  (le chapitre 9 renvoie à ces termes), جَلَسَ, خَلْفَ, سِكِّينٌ et مُسْتَشْفًى : trois phrases du livre
+  écartées au départ sont rétablies (`practice-5` #13 et #14 : الطَّبِيبُ الْجَدِيدُ فِي الْمُسْتَشْفَى…,
+  السِّكِّينُ الْكَبِيرُ حَادٌّ جِدًّا ; `practice-6` #15 : جَلَسَ الطَّالِبُ الْجَدِيدُ خَلْفَ حَامِدٍ), et حَادٌّ
+  reprend son exemple du PDF (السِّكِّينُ حَادٌّ).
+- **(Avant la fusion avec la leçon 8)** Si la leçon 8 présentait le même mot, il y aura un doublon d'id** (`w:…` est unique dans tout le
   cours) : à la fusion, garder la définition du chapitre le plus ancien, supprimer l'autre dans
   `items.json` du chapitre 9, et vérifier que la présentation (`present`) du mot reste avant son
   premier emploi (`./gradlew -p core validateContent`).
@@ -61,8 +66,8 @@ chapitres 1 à 6. Conséquences :
     adaptées (جَلَسَ, خَلْفَ, الْمُسْتَشْفَى, الْمُسْتَوْصَفِ, السِّكِّينُ, الْغُرْفَةِ… non enseignés ou douteux) ;
   - exercice 3 : la consigne « mets un nom qui convient » devient un `fill_gap` à choix, une seule option
     étant accordée en genre avec l'adjectif ; exercice 4 repris tel quel (sauf لِمَاذَا) ;
-  - السِّكِّينُ حَادٌّ (exemple de حَادٌّ dans le PDF) : non repris, سِكِّينٌ pouvant être masculin ou féminin
-    (voir la leçon 6) ; حَادٌّ est donné sans exemple.
+  - السِّكِّينُ حَادٌّ (exemple de حَادٌّ dans le PDF) : d'abord non repris (سِكِّينٌ pouvant être masculin ou
+    féminin), puis rétabli après la fusion avec la leçon 8, qui présente سِكِّينٌ au masculin.
 - **Fautes ou formes douteuses du PDF** :
   - pluriel de حَادٌّ donné comme حَادَّةٌ : c'est le féminin singulier, pas un pluriel → omis ;
   - pluriel de طَائِرٌ donné comme طَائِرَةٌ (« avion » / féminin singulier) → omis (طَائِرٌ n'a pas de pluriel

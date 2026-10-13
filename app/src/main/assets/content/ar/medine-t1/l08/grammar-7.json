@@ -1,0 +1,137 @@
+{
+  "id": "medine-t1.l08.grammar-7",
+  "type": "grammar",
+  "title": "Les noms en {ar|ى}",
+  "icon": "eye",
+  "screens": [
+    {
+      "id": "medine-t1.l08.grammar-7#1",
+      "type": "tip",
+      "title": "Un nom terminé par {ar|ى}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu viens de voir {ar|مُسْتَشْفًى} (un hôpital). Sa dernière lettre est un {ar|ى} : l'alif maqṣūra (chapitre 6), qui se prononce « ā ». Un nom qui se termine ainsi est appelé {ar|الِاسْمُ الْمَقْصُورُ}."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut être masculin ({ar|مُسْتَشْفًى}) ou féminin ({ar|ذِكْرَى}, chapitre 6)."
+        },
+        { "type": "example", "ar": "زَيْدٌ فِي الْمُسْتَشْفَى.", "fr": "Zayd est à l'hôpital." }
+      ]
+    },
+    { "id": "medine-t1.l08.grammar-7#2", "type": "present", "item": "w:maqsur" },
+    {
+      "id": "medine-t1.l08.grammar-7#3",
+      "type": "tip",
+      "title": "On ne voit pas sa terminaison",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Après un alif long, on ne peut prononcer ni damma, ni fatha, ni kasra. La fin d'un nom maqṣūr **ne change donc pas à l'écrit**, quel que soit son rôle dans la phrase :"
+        },
+        {
+          "type": "table",
+          "header": ["Rôle", "Avec {ar|الْبَيْتُ}", "Avec {ar|الْمُسْتَشْفَى}"],
+          "rows": [
+            ["sujet (nominatif)", "{ar|الْبَيْتُ}", "{ar|الْمُسْتَشْفَى}"],
+            ["après {ar|فِي}", "{ar|فِي الْبَيْتِ}", "{ar|فِي الْمُسْتَشْفَى}"],
+            ["après {ar|مِنْ}", "{ar|مِنَ الْبَيْتِ}", "{ar|مِنَ الْمُسْتَشْفَى}"],
+            ["après {ar|إِلَى}", "{ar|إِلَى الْبَيْتِ}", "{ar|إِلَى الْمُسْتَشْفَى}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le nom est pourtant bien au nominatif, à l'accusatif ou au génitif : le changement est « sous-entendu ». On ne le voit pas et on ne l'entend pas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.grammar-7#4",
+      "type": "tip",
+      "title": "Une fatha avant le {ar|ى}, et le tanwin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La lettre qui précède le {ar|ى} porte **toujours une fatha** : {ar|مُسْتَشْفَى}, {ar|مُوسَى}, {ar|عِيسَى}, {ar|ذِكْرَى}."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour le tanwin, il y a deux cas. Un nom comme {ar|مُسْتَشْفًى} garde le tanwin quand il est indéfini : on l'écrit sur la lettre avant le {ar|ى} et on dit « -an » dans les trois cas. Mais un nom comme {ar|ذِكْرَى} (alif du féminin, chapitre 6) ou le pluriel {ar|مَرْضَى} (« des malades ») n'en a jamais. C'est la nuance : le tanwin existe, mais seulement pour certains noms. Les prénoms {ar|مُوسَى} et {ar|عِيسَى} n'en ont pas non plus (ce sont des noms propres étrangers, privés de tanwin comme au chapitre 4)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.grammar-7#5",
+      "type": "tip",
+      "title": "L'analyse : un cas sous-entendu",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "On analyse un nom maqṣūr comme les autres noms. Seul le signe du cas n'est pas visible."
+        },
+        { "type": "example", "ar": "مُوسَى فِي الْمُسْتَشْفَى.", "fr": "Mūsā est à l'hôpital." },
+        {
+          "type": "table",
+          "header": ["Mot", "Rôle", "Signe du cas"],
+          "rows": [
+            ["{ar|مُوسَى}", "le sujet de la phrase nominale, au nominatif", "la damma est sous-entendue"],
+            ["{ar|فِي}", "une préposition", "(elle ne change pas)"],
+            ["{ar|الْمُسْتَشْفَى}", "le nom qui suit la préposition, au génitif", "la kasra est sous-entendue"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.grammar-7#6",
+      "type": "sort",
+      "categories": [ { "fr": "oui, on voit la damma" }, { "fr": "non, on ne voit aucune voyelle finale" } ],
+      "cards": [
+        { "ar": "الْبَيْتُ", "category": 0 },
+        { "ar": "الْمُسْتَشْفَى", "category": 1 },
+        { "ar": "الْمَدْرَسَةُ", "category": 0 },
+        { "ar": "عِيسَى", "category": 1 },
+        { "ar": "الْقَلَمُ", "category": 0 }
+      ],
+      "instruction": "Voit-on la voyelle finale du nominatif ?",
+      "explain": "Un nom terminé par {ar|ى} n'a pas de voyelle finale visible."
+    },
+    {
+      "id": "medine-t1.l08.grammar-7#7",
+      "type": "spot",
+      "instruction": "Touche le nom maqṣūr.",
+      "words": ["زَيْدٌ", "فِي", "الْمُسْتَشْفَى."],
+      "answers": [2],
+      "fr": "Zayd est à l'hôpital."
+    },
+    {
+      "id": "medine-t1.l08.grammar-7#8",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle précède toujours le {ar|ى} d'un nom maqṣūr ?" },
+      "choices": [ { "fr": "La fatha" }, { "fr": "La damma" }, { "fr": "La kasra" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l08.grammar-7#9",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|فِي}, le nom {ar|الْمُسْتَشْفَى} prend une kasra visible." },
+      "answer": false,
+      "explain": "On ne peut pas prononcer une kasra après un alif long : elle est sous-entendue. {ar|الْمُسْتَشْفَى} s'écrit pareil après {ar|فِي}, {ar|مِنْ} et {ar|إِلَى}."
+    },
+    {
+      "id": "medine-t1.l08.grammar-7#10",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ فِي {0}.",
+      "fr": "Zayd est à l'hôpital.",
+      "gaps": [ { "answers": ["الْمُسْتَشْفَى"] } ],
+      "options": ["الْمُسْتَشْفَى", "الْمَسْجِدِ", "الْمَدْرَسَةِ"]
+    },
+    {
+      "id": "medine-t1.l08.grammar-7#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il est maintenant à l'hôpital.",
+      "answers": ["هُوَ الْآنَ فِي الْمُسْتَشْفَى.", "هُوَ فِي الْمُسْتَشْفَى الْآنَ.", "الْآنَ هُوَ فِي الْمُسْتَشْفَى."]
+    }
+  ]
+}

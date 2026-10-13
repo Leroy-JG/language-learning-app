@@ -1,0 +1,19 @@
+{
+  "id": "medine-t1.l08",
+  "number": 8,
+  "title": { "ar": "الدَّرْسُ الثَّامِنُ", "fr": "La phrase, le substitutif et les lieux" },
+  "description": "Reconnaître la phrase nominale (sujet et prédicat) et la phrase verbale, comprendre le substitutif {ar|الْبَدَلُ}, demander un nom avec {ar|مَا اسْمُ}, dire où l'on est avec {ar|فَوْقَ} {ar|تَحْتَ} {ar|أَمَامَ} {ar|خَلْفَ}, et lire les noms en {ar|ى}.",
+  "source": "Tome de Médine 1, leçon 8 (parties 1 et 2)",
+  "sections": [
+    { "title": "La phrase complète", "activities": ["grammar-1"] },
+    { "title": "La phrase nominale : sujet et prédicat", "activities": ["grammar-2"] },
+    { "title": "La phrase verbale", "activities": ["grammar-3", "vocab-1", "practice-1"] },
+    { "title": "Le substitutif : {ar|الْبَدَلُ}", "activities": ["grammar-4", "practice-2"] },
+    { "title": "Quel est son nom ?", "activities": ["grammar-5"] },
+    { "title": "Où est… ? Devant, derrière, au-dessus", "activities": ["vocab-2", "grammar-6", "practice-3"] },
+    { "title": "Les noms en {ar|ى}", "activities": ["vocab-3", "grammar-7", "practice-4"] },
+    { "title": "Où sont-ils ?", "activities": ["dialogue-1", "dialogue-2"] },
+    { "title": "Les pluriels", "activities": ["plurals-1"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "medine-t1.l08.practice-1",
+  "type": "grammar",
+  "title": "Nominale ou verbale ?",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l08.practice-1#1",
+      "type": "sort",
+      "categories": [ { "fr": "phrase nominale" }, { "fr": "phrase verbale" } ],
+      "cards": [
+        { "ar": "رَجَعَ الْمُدَرِّسُ", "category": 1 },
+        { "ar": "الطَّالِبُ جَالِسٌ", "category": 0 },
+        { "ar": "جَلَسَ الطَّالِبُ", "category": 1 },
+        { "ar": "الْمُدَرِّسُ فِي الْفَصْلِ", "category": 0 },
+        { "ar": "زَيْدٌ خَرَجَ", "category": 0 },
+        { "ar": "خَرَجَ زَيْدٌ", "category": 1 }
+      ],
+      "instruction": "Range chaque phrase.",
+      "explain": "Seul le premier mot compte : un verbe pour la phrase verbale, un nom pour la phrase nominale. {ar|زَيْدٌ خَرَجَ} commence par un nom : elle est nominale."
+    },
+    {
+      "id": "medine-t1.l08.practice-1#2",
+      "type": "spot",
+      "instruction": "Touche le sujet du verbe.",
+      "words": ["جَلَسَ", "مُحَمَّدٌ", "عَلَى", "الْكُرْسِيِّ."],
+      "answers": [1],
+      "fr": "Muḥammad s'est assis sur la chaise."
+    },
+    {
+      "id": "medine-t1.l08.practice-1#3",
+      "type": "spot",
+      "instruction": "Touche le sujet de la phrase (le {ar|مُبْتَدَأٌ}).",
+      "words": ["مُحَمَّدٌ", "جَلَسَ", "عَلَى", "الْكُرْسِيِّ."],
+      "answers": [0],
+      "fr": "Muḥammad s'est assis sur la chaise.",
+      "explain": "La phrase commence par un nom : elle est nominale. {ar|مُحَمَّدٌ} est le sujet, et {ar|جَلَسَ عَلَى الْكُرْسِيِّ} le prédicat."
+    },
+    {
+      "id": "medine-t1.l08.practice-1#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|الْمُدَرِّسُ ذَهَبَ إِلَى الْمَسْجِدِ}, que dit-on de {ar|الْمُدَرِّسُ} ?" },
+      "choices": [
+        { "fr": "C'est le sujet de la phrase nominale ({ar|مُبْتَدَأٌ})" },
+        { "fr": "C'est le sujet du verbe ({ar|فَاعِلٌ})" },
+        { "fr": "C'est le prédicat ({ar|خَبَرٌ})" }
+      ],
+      "answer": 0,
+      "explain": "La phrase commence par un nom : elle est nominale. {ar|الْمُدَرِّسُ} est le sujet, et {ar|ذَهَبَ إِلَى الْمَسْجِدِ} est le prédicat. Le sujet du verbe {ar|ذَهَبَ} est le « il » caché dans le verbe."
+    },
+    {
+      "id": "medine-t1.l08.practice-1#5",
+      "type": "fill_gap",
+      "sentence": "الْغُرْفَةُ {0}.",
+      "fr": "La chambre est ouverte.",
+      "gaps": [ { "answers": ["مَفْتُوحَةٌ"] } ],
+      "options": ["مَفْتُوحَةٌ", "مَفْتُوحٌ", "مُغْلَقٌ"],
+      "explain": "Le prédicat s'accorde avec le sujet : {ar|غُرْفَةٌ} est féminin, donc {ar|مَفْتُوحَةٌ}."
+    },
+    {
+      "id": "medine-t1.l08.practice-1#6",
+      "type": "true_false",
+      "statement": { "fr": "{ar|زَيْدٌ جَلَسَ} (« Zayd s'est assis ») est une phrase verbale." },
+      "answer": false,
+      "explain": "Cette phrase commence par un nom : elle est nominale, pas verbale. La phrase verbale serait {ar|جَلَسَ زَيْدٌ}."
+    },
+    {
+      "id": "medine-t1.l08.practice-1#7",
+      "type": "order",
+      "fr": "Le garçon est revenu de la mosquée.",
+      "answers": [["رَجَعَ", "الْوَلَدُ", "مِنَ", "الْمَسْجِدِ"], ["الْوَلَدُ", "رَجَعَ", "مِنَ", "الْمَسْجِدِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l08.practice-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd est sorti de l'école.",
+      "answers": ["خَرَجَ زَيْدٌ مِنَ الْمَدْرَسَةِ.", "زَيْدٌ خَرَجَ مِنَ الْمَدْرَسَةِ."]
+    }
+  ]
+}

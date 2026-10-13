@@ -1,0 +1,140 @@
+{
+  "id": "medine-t1.l08.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 8",
+  "screens": [
+    {
+      "id": "medine-t1.l08.quiz#1",
+      "type": "sort",
+      "categories": [ { "fr": "phrase nominale" }, { "fr": "phrase verbale" } ],
+      "cards": [
+        { "ar": "الْغُرْفَةُ جَمِيلَةٌ", "category": 0 },
+        { "ar": "جَلَسَ الْمُدِيرُ", "category": 1 },
+        { "ar": "هِيَ فِي الْمَدْرَسَةِ", "category": 0 },
+        { "ar": "رَجَعَ الْوَلَدُ", "category": 1 },
+        { "ar": "هٰذَا بَابٌ", "category": 0 },
+        { "ar": "ذَهَبَ الطَّالِبُ إِلَى السُّوقِ", "category": 1 }
+      ],
+      "instruction": "Range chaque phrase."
+    },
+    {
+      "id": "medine-t1.l08.quiz#2",
+      "type": "spot",
+      "instruction": "Touche le sujet du verbe.",
+      "words": ["رَجَعَ", "الْمُهَنْدِسُ", "مِنَ", "الْجَامِعَةِ."],
+      "answers": [1],
+      "fr": "L'ingénieur est revenu de l'université."
+    },
+    {
+      "id": "medine-t1.l08.quiz#3",
+      "type": "question",
+      "prompt": { "fr": "Quelle sorte de phrase est {ar|الْوَلَدُ ذَهَبَ إِلَى السُّوقِ} ?" },
+      "choices": [ { "fr": "Une phrase nominale" }, { "fr": "Une phrase verbale" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "Elle commence par un nom : elle est nominale. {ar|الْوَلَدُ} est le sujet ; {ar|ذَهَبَ إِلَى السُّوقِ} est le prédicat."
+    },
+    {
+      "id": "medine-t1.l08.quiz#4",
+      "type": "true_false",
+      "statement": { "fr": "En principe, le sujet d'une phrase nominale est un nom défini." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l08.quiz#5",
+      "type": "spot",
+      "instruction": "Touche le substitutif.",
+      "words": ["ذٰلِكَ", "الْمُدَرِّسُ", "مَرِيضٌ."],
+      "answers": [1],
+      "fr": "Cet enseignant-là est malade."
+    },
+    {
+      "id": "medine-t1.l08.quiz#6",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ {0} قَدِيمَةٌ.",
+      "fr": "Cette montre est ancienne.",
+      "gaps": [ { "answers": ["السَّاعَةُ"] } ],
+      "options": ["السَّاعَةُ", "الْبَابُ", "الْمِفْتَاحُ"]
+    },
+    {
+      "id": "medine-t1.l08.quiz#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|الْكَلْبُ خَلْفَ الْبَيْتِ}, quelle voyelle finale porte l'adverbe de lieu {ar|خَلْفَ} ?" },
+      "choices": [ { "fr": "La fatha" }, { "fr": "La damma" }, { "fr": "La kasra" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l08.quiz#8",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:khalfa",
+      "distractors": ["w:amama", "w:fawqa"]
+    },
+    {
+      "id": "medine-t1.l08.quiz#9",
+      "type": "order",
+      "fr": "Le ballon est devant la porte.",
+      "answers": [["الْكُرَةُ", "أَمَامَ", "الْبَابِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l08.quiz#10",
+      "type": "fill_gap",
+      "sentence": "الْحَاسُوبُ {0} الْمَكْتَبِ.",
+      "fr": "L'ordinateur est au-dessus du bureau.",
+      "gaps": [ { "answers": ["فَوْقَ"] } ],
+      "options": ["فَوْقَ", "تَحْتَ", "خَلْفَ"]
+    },
+    {
+      "id": "medine-t1.l08.quiz#11",
+      "type": "question",
+      "prompt": { "fr": "Comment demande-t-on le nom du médecin ?" },
+      "choices": [
+        { "ar": "مَا اسْمُ الطَّبِيبِ؟" },
+        { "ar": "مَنِ اسْمُ الطَّبِيبِ؟" },
+        { "ar": "أَيْنَ اسْمُ الطَّبِيبِ؟" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l08.quiz#12",
+      "type": "sort",
+      "categories": [ { "fr": "oui, on voit la damma" }, { "fr": "non, on ne voit aucune voyelle finale" } ],
+      "cards": [
+        { "ar": "الْكِتَابُ", "category": 0 },
+        { "ar": "الْمُسْتَشْفَى", "category": 1 },
+        { "ar": "الْغُرْفَةُ", "category": 0 },
+        { "ar": "مُوسَى", "category": 1 }
+      ],
+      "instruction": "Voit-on la voyelle finale du nominatif ?"
+    },
+    {
+      "id": "medine-t1.l08.quiz#13",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|إِلَى}, le nom {ar|الْمُسْتَشْفَى} prend une kasra visible." },
+      "answer": false,
+      "explain": "Après un alif long, la kasra ne peut pas se prononcer : elle est sous-entendue."
+    },
+    {
+      "id": "medine-t1.l08.quiz#14",
+      "type": "mcq",
+      "mode": "audio-ar",
+      "item": "w:sikkin",
+      "distractors": ["w:mihrab", "w:sabbura"]
+    },
+    {
+      "id": "medine-t1.l08.quiz#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd s'est assis derrière la porte.",
+      "answers": ["جَلَسَ زَيْدٌ خَلْفَ الْبَابِ.", "زَيْدٌ جَلَسَ خَلْفَ الْبَابِ."]
+    },
+    {
+      "id": "medine-t1.l08.quiz#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ce médecin est d'Allemagne.",
+      "answers": ["هٰذَا الطَّبِيبُ مِنْ أَلْمَانِيَا."]
+    }
+  ]
+}
