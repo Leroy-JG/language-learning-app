@@ -23,7 +23,7 @@
         { "type": "example", "ar": "مَاذَا هُنَاكَ؟", "fr": "Qu'y a-t-il là-bas ?" },
         {
           "type": "note",
-          "text": "Comme {ar|مَا}, {ar|مَاذَا} demande une chose, jamais une personne : pour une personne, on garde {ar|مَنْ} ({ar|مَنْ فِي الْغُرْفَةِ؟})."
+          "text": "Comme {ar|مَا}, {ar|مَاذَا} demande en principe une chose, pas une personne : pour une personne, on garde {ar|مَنْ} ({ar|مَنْ فِي الْغُرْفَةِ؟})."
         }
       ]
     },
@@ -41,7 +41,7 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "Ici le nom {ar|كِتَابٌ} est indéfini, et pourtant c'est le sujet : quand la phrase commence par l'endroit (« préposition + nom ») pour dire « il y a… », le sujet peut être indéfini. C'est une exception à la règle « le sujet est en principe défini »."
+          "text": "Ici le nom {ar|كِتَابٌ} est indéfini, et pourtant c'est le sujet : quand la phrase commence par l'endroit (« préposition + nom », ou {ar|هُنَا} / {ar|هُنَاكَ}) pour dire « il y a… », le sujet peut être indéfini. C'est une exception à la règle « le sujet est en principe défini »."
         }
       ]
     },

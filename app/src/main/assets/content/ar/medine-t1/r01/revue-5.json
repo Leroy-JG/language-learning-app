@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Une préposition ({ar|حَرْفُ جَرٍّ}) agit sur le sens du nom qui la suit, et sur sa voyelle finale : en général, il prend la **kasra**."
+          "text": "Une préposition ({ar|حَرْفُ جَرٍّ}) relie le nom qui la suit au reste de la phrase et change sa voyelle finale : en général, il prend la **kasra**."
         },
         {
           "type": "compare",
@@ -105,7 +105,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Le livre est sur la chaise.",
-      "answers": ["الْكِتَابُ عَلَى الْكُرْسِيِّ."]
+      "answers": ["الْكِتَابُ عَلَى الْكُرْسِيِّ.", "الْكِتَابُ فَوْقَ الْكُرْسِيِّ."]
     },
     {
       "id": "medine-t1.r01.revue-5#10",

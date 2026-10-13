@@ -25,7 +25,7 @@
     "ar": "مَاذَا",
     "fr": "qu'y a-t-il… ? (qu'est-ce que… ?)",
     "translit": "mādhā",
-    "note": "Formé de {ar|مَا} et de {ar|ذَا} (forme courte de {ar|هٰذَا}). Comme {ar|مَا}, il demande une chose, jamais une personne. Sa terminaison ne change jamais.",
+    "note": "Formé de {ar|مَا} et de {ar|ذَا} (forme courte de {ar|هٰذَا}). Comme {ar|مَا}, il demande en principe une chose, pas une personne. Sa terminaison ne change jamais.",
     "example": { "ar": "مَاذَا عَلَى الْمَكْتَبِ؟", "fr": "Qu'y a-t-il sur le bureau ?" }
   },
   {
@@ -43,7 +43,7 @@
     "ar": "لِأَنَّهُ",
     "fr": "parce que",
     "translit": "li-annahu",
-    "note": "Il répond à {ar|لِمَاذَا؟}. Il est formé de {ar|لِ} (« pour »), de {ar|أَنَّ} (« que ») et de {ar|هُ} (« il ») : mot à mot « parce que lui… ».",
+    "note": "Il répond à {ar|لِمَاذَا؟}. Il est formé de {ar|لِ} (« pour »), de {ar|أَنَّ} (« que ») et de {ar|هُ} (« il ») : mot à mot « parce que lui… ». Pour une femme : {ar|لِأَنَّهَا} (« parce qu'elle »).",
     "example": { "ar": "لِأَنَّهُ مَرِيضٌ.", "fr": "Parce qu'il est malade." }
   },
   {
@@ -52,7 +52,7 @@
     "ar": "كَسْلَانُ",
     "fr": "paresseux",
     "translit": "kaslānu",
-    "note": "Pas de tanwin : les adjectifs de forme {ar|فَعْلَانُ} en sont en général privés (chapitre 4).",
+    "note": "Pas de tanwin : les adjectifs de forme {ar|فَعْلَانُ} en sont en général privés (notion vue au chapitre 4). Au féminin : {ar|كَسْلَى}.",
     "example": { "ar": "زَيْدٌ كَسْلَانُ.", "fr": "Zayd est paresseux." }
   },
   {
@@ -303,7 +303,7 @@
     "ar": "ثُمَّ",
     "fr": "ensuite, puis",
     "translit": "thumma",
-    "note": "Comme {ar|وَ}, elle relie deux éléments ; elle ajoute l'idée d'ordre : d'abord l'un, ensuite l'autre.",
+    "note": "Comme {ar|وَ}, cette particule relie deux éléments ; elle ajoute l'idée d'ordre : d'abord l'un, ensuite l'autre.",
     "example": { "ar": "خَرَجَ الْمُدَرِّسُ ثُمَّ الطُّلَّابُ.", "fr": "L'enseignant est sorti, puis les étudiants." }
   },
   {
@@ -380,7 +380,7 @@
     "fr": "blanc",
     "translit": "abyaḍu",
     "plural": "بِيضٌ",
-    "note": "Pas de tanwin (forme {ar|أَفْعَلُ}). Son pluriel {ar|بِيضٌ} (avec une kasra) s'écrit comme {ar|بَيْضٌ} « des œufs » (chapitre 7), mais ce sont deux mots différents.",
+    "note": "Pas de tanwin (forme {ar|أَفْعَلُ}, notion vue au chapitre 4). Au féminin : {ar|بَيْضَاءُ}. Son pluriel {ar|بِيضٌ} (avec une kasra) s'écrit comme {ar|بَيْضٌ} « des œufs » (chapitre 7), mais ce sont deux mots différents.",
     "example": { "ar": "الْمَسْجِدُ أَبْيَضُ.", "fr": "La mosquée est blanche." }
   },
   {
@@ -393,7 +393,7 @@
     "icon": "road",
     "gender": "m",
     "note": "Ce nom s'emploie aussi au féminin.",
-    "example": { "ar": "هٰذَا الطَّرِيقُ إِلَى الْمَسْجِدِ.", "fr": "Voici la route de la mosquée." }
+    "example": { "ar": "هٰذَا الطَّرِيقُ إِلَى الْمَسْجِدِ.", "fr": "Voici la route qui mène à la mosquée." }
   },
   {
     "id": "w:sadiq",

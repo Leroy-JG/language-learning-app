@@ -38,9 +38,16 @@
     },
     { "id": "medine-t1.r01.vocab-8#7", "type": "present", "item": "w:laqiya" },
     { "id": "medine-t1.r01.vocab-8#8", "type": "present", "item": "w:asraa" },
-    { "id": "medine-t1.r01.vocab-8#9", "type": "present", "item": "w:takhkhara" },
     {
-      "id": "medine-t1.r01.vocab-8#10",
+      "id": "medine-t1.r01.vocab-8#9",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:laqiya",
+      "distractors": ["w:asraa", "w:qama"]
+    },
+    { "id": "medine-t1.r01.vocab-8#10", "type": "present", "item": "w:takhkhara" },
+    {
+      "id": "medine-t1.r01.vocab-8#11",
       "type": "tip",
       "title": "Leurs formes (2)",
       "blocks": [
@@ -58,26 +65,18 @@
       ]
     },
     {
-      "id": "medine-t1.r01.vocab-8#11",
+      "id": "medine-t1.r01.vocab-8#12",
       "type": "match",
       "mode": "ar-fr",
       "items": ["w:istayqaza", "w:qama", "w:labisa", "w:asraa", "w:takhkhara"]
     },
     {
-      "id": "medine-t1.r01.vocab-8#12",
+      "id": "medine-t1.r01.vocab-8#13",
       "type": "fill_gap",
       "sentence": "{0} زَيْدٌ مِنَ السَّرِيرِ.",
       "fr": "Zayd s'est levé du lit.",
       "gaps": [ { "answers": ["قَامَ"] } ],
       "options": ["قَامَ", "لَبِسَ", "تَأَخَّرَ"]
-    },
-    {
-      "id": "medine-t1.r01.vocab-8#13",
-      "type": "fill_gap",
-      "sentence": "{0} زَيْدٌ إِلَى الْمَسْجِدِ.",
-      "fr": "Zayd s'est dépêché vers la mosquée.",
-      "gaps": [ { "answers": ["أَسْرَعَ"] } ],
-      "options": ["أَسْرَعَ", "تَوَضَّأَ", "لَبِسَ"]
     },
     {
       "id": "medine-t1.r01.vocab-8#14",

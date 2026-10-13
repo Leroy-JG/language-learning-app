@@ -66,13 +66,19 @@
       "item": "w:arbia",
       "distractors": ["w:thulatha", "w:ithnayn"]
     },
-    { "id": "medine-t1.r01.vocab-1#13", "type": "typing", "ask": "fr", "item": "w:ithnayn" },
+    {
+      "id": "medine-t1.r01.vocab-1#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "lundi",
+      "answers": ["يَوْمُ الِاثْنَيْنِ", "الِاثْنَيْنِ"]
+    },
     {
       "id": "medine-t1.r01.vocab-1#14",
       "type": "typing",
       "ask": "audio",
       "fr": "dimanche",
-      "answers": ["يَوْمُ الْأَحَدِ"]
+      "answers": ["يَوْمُ الْأَحَدِ", "الْأَحَدُ"]
     }
   ]
 }

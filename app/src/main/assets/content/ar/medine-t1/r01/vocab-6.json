@@ -26,6 +26,13 @@
     { "id": "medine-t1.r01.vocab-6#8", "type": "present", "item": "w:sakana" },
     {
       "id": "medine-t1.r01.vocab-6#9",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:sakana",
+      "distractors": ["w:rafaa", "w:hafidha"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-6#10",
       "type": "tip",
       "title": "Leurs formes (1)",
       "blocks": [
@@ -46,7 +53,7 @@
       ]
     },
     {
-      "id": "medine-t1.r01.vocab-6#10",
+      "id": "medine-t1.r01.vocab-6#11",
       "type": "tip",
       "title": "Leurs formes (2)",
       "blocks": [
@@ -63,12 +70,12 @@
         },
         {
           "type": "note",
-          "text": "Comme au chapitre 8, l'alif de l'impératif prend une damma quand l'avant-dernière lettre du présent porte une damma ({ar|يَسْكُنُ} → {ar|اُسْكُنْ}), et une kasra sinon ({ar|يَحْفَظُ} → {ar|اِحْفَظْ}). Pour {ar|رَاجَعَ}, il n'y a pas d'alif de liaison."
+          "text": "Comme au chapitre 8, l'alif de l'impératif prend une damma quand l'avant-dernière lettre du présent porte une damma ({ar|يَسْكُنُ} → {ar|اُسْكُنْ}), et une kasra sinon ({ar|يَحْفَظُ} → {ar|اِحْفَظْ}). Pour {ar|رَاجَعَ}, il n'y a pas d'alif de liaison. Pour « habiter », on emploie aussi le nom d'action {ar|سُكْنَى} ; {ar|سُكُونٌ} veut dire aussi « calme, immobilité »."
         }
       ]
     },
     {
-      "id": "medine-t1.r01.vocab-6#11",
+      "id": "medine-t1.r01.vocab-6#12",
       "type": "fill_gap",
       "sentence": "{0} زَيْدٌ فِي الِاخْتِبَارِ.",
       "fr": "Zayd a réussi à l'examen.",
@@ -76,21 +83,20 @@
       "options": ["نَجَحَ", "فَشِلَ", "سَكَنَ"]
     },
     {
-      "id": "medine-t1.r01.vocab-6#12",
+      "id": "medine-t1.r01.vocab-6#13",
       "type": "true_false",
       "statement": { "fr": "{ar|رَاجَعَ} et {ar|رَجَعَ} ont le même sens." },
       "answer": false,
       "explain": "{ar|رَاجَعَ} (avec un alif long) veut dire « il a révisé » ; {ar|رَجَعَ} veut dire « il est revenu »."
     },
     {
-      "id": "medine-t1.r01.vocab-6#13",
+      "id": "medine-t1.r01.vocab-6#14",
       "type": "fill_gap",
       "sentence": "{0} زَيْدٌ خَلْفَ الْمَسْجِدِ.",
       "fr": "Zayd a habité derrière la mosquée.",
       "gaps": [ { "answers": ["سَكَنَ"] } ],
       "options": ["سَكَنَ", "نَجَحَ", "فَشِلَ"]
     },
-    { "id": "medine-t1.r01.vocab-6#14", "type": "build", "item": "w:fashila", "extra": ["ص"] },
     {
       "id": "medine-t1.r01.vocab-6#15",
       "type": "typing",

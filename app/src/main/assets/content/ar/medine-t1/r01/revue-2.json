@@ -59,7 +59,7 @@
       "type": "true_false",
       "statement": { "fr": "{ar|مَا} sert à demander ce qu'est un animal." },
       "answer": true,
-      "explain": "En arabe, {ar|مَنْ} est réservé aux personnes ; {ar|مَا} sert pour les choses et pour les animaux."
+      "explain": "En principe, {ar|مَنْ} est réservé aux personnes ; {ar|مَا} sert pour les choses et pour les animaux."
     },
     {
       "id": "medine-t1.r01.revue-2#6",
@@ -75,7 +75,14 @@
       "type": "typing",
       "ask": "question",
       "question": "أَيْنَ الْكِتَابُ؟",
-      "answers": ["الْكِتَابُ عَلَى الْمَكْتَبِ.", "هُوَ عَلَى الْمَكْتَبِ.", "عَلَى الْمَكْتَبِ."],
+      "answers": [
+        "الْكِتَابُ عَلَى الْمَكْتَبِ.",
+        "هُوَ عَلَى الْمَكْتَبِ.",
+        "عَلَى الْمَكْتَبِ.",
+        "الْكِتَابُ فَوْقَ الْمَكْتَبِ.",
+        "هُوَ فَوْقَ الْمَكْتَبِ.",
+        "فَوْقَ الْمَكْتَبِ."
+      ],
       "fr": "Le livre est sur le bureau.",
       "instruction": "Réponds : le livre est sur le bureau."
     },
@@ -91,7 +98,7 @@
       "type": "typing",
       "ask": "question",
       "question": "أَآمِنَةُ فِي الْغُرْفَةِ؟",
-      "answers": ["نَعَمْ، هِيَ فِي الْغُرْفَةِ.", "نَعَمْ، آمِنَةُ فِي الْغُرْفَةِ.", "نَعَمْ."],
+      "answers": ["نَعَمْ، هِيَ فِي الْغُرْفَةِ.", "نَعَمْ، آمِنَةُ فِي الْغُرْفَةِ.", "نَعَمْ، فِي الْغُرْفَةِ.", "نَعَمْ."],
       "fr": "Oui, elle est dans la chambre.",
       "instruction": "Réponds : oui."
     },

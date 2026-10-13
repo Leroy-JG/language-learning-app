@@ -39,11 +39,11 @@
     },
     {
       "id": "medine-t1.r01.dialogue-4#3",
-      "type": "question",
-      "prompt": { "fr": "À qui est le grand livre ?" },
-      "choices": [ { "fr": "Au nouvel étudiant" }, { "fr": "À l'enseignant" }, { "fr": "Au directeur" } ],
-      "answer": 0,
-      "context": { "dialogue": "medine-t1.r01.dialogue-4#1" }
+      "type": "true_false",
+      "statement": { "fr": "Le grand livre est à l'enseignant." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.r01.dialogue-4#1" },
+      "explain": "Le grand livre est au nouvel étudiant : {ar|لِلطَّالِبِ الْجَدِيدِ}."
     },
     {
       "id": "medine-t1.r01.dialogue-4#4",
@@ -60,7 +60,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Dans ce dialogue, l'adjectif se place **après** le nom, avec l'article, comme lui. Il s'accorde avec lui : féminin avec {ar|ة} pour un nom féminin, et même voyelle finale."
+          "text": "Dans ce dialogue, l'adjectif se place **après** le nom, avec l'article, comme lui. Il s'accorde avec lui : en général, féminin avec {ar|ة} pour un nom féminin (sauf quelques adjectifs comme {ar|كَسْلَانُ} → {ar|كَسْلَى} ou {ar|أَبْيَضُ} → {ar|بَيْضَاءُ}), et même voyelle finale."
         },
         {
           "type": "table",

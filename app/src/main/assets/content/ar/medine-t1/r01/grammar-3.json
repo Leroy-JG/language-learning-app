@@ -92,8 +92,11 @@
     {
       "id": "medine-t1.r01.grammar-3#10",
       "type": "true_false",
-      "statement": { "fr": "On répond à {ar|لِمَاذَا} avec {ar|لِأَنَّهُ}." },
-      "answer": true
+      "statement": {
+        "fr": "On répond à {ar|لِمَاذَا؟} avec {ar|لِأَنَّ} et une raison : ici, {ar|لِأَنَّهُ} (« parce qu'il »)."
+      },
+      "answer": true,
+      "explain": "{ar|لِأَنَّهُ} sert quand la raison parle de « il » ; d'autres formes existent pour d'autres personnes (tu les verras plus tard)."
     },
     {
       "id": "medine-t1.r01.grammar-3#11",

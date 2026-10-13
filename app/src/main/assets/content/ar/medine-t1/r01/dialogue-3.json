@@ -47,37 +47,13 @@
         {
           "speaker": "Z",
           "ar": "هَيَّا نُسْرِعُ يَا مُحَمَّدُ، لَا نَتَأَخَّرُ عَنِ الصَّلَاةِ.",
-          "fr": "Allons, dépêchons-nous, Muḥammad : nous ne devons pas être en retard à la prière."
+          "fr": "Allons, dépêchons-nous, Muḥammad : nous ne serons pas en retard à la prière."
         },
         { "speaker": "M", "ar": "حَسَنًا.", "fr": "D'accord." }
       ]
     },
     {
       "id": "medine-t1.r01.dialogue-3#2",
-      "type": "question",
-      "prompt": { "fr": "Que fait Zayd juste après ses ablutions ?" },
-      "choices": [ { "fr": "Il met sa chemise blanche" }, { "fr": "Il va à la mosquée" }, { "fr": "Il rencontre Muḥammad" } ],
-      "answer": 0,
-      "context": { "dialogue": "medine-t1.r01.dialogue-3#1" }
-    },
-    {
-      "id": "medine-t1.r01.dialogue-3#3",
-      "type": "question",
-      "prompt": { "fr": "Qui Zayd rencontre-t-il sur la route de la mosquée ?" },
-      "choices": [ { "fr": "Son ami Muḥammad" }, { "fr": "Le muezzin" }, { "fr": "Le directeur" } ],
-      "answer": 0,
-      "context": { "dialogue": "medine-t1.r01.dialogue-3#1" }
-    },
-    {
-      "id": "medine-t1.r01.dialogue-3#4",
-      "type": "true_false",
-      "statement": { "fr": "Zayd s'est réveillé après la prière de l'aube." },
-      "answer": false,
-      "context": { "dialogue": "medine-t1.r01.dialogue-3#1" },
-      "explain": "Il s'est réveillé avant : {ar|قَبْلَ صَلَاةِ الْفَجْرِ}."
-    },
-    {
-      "id": "medine-t1.r01.dialogue-3#5",
       "type": "tip",
       "title": "Des petites formes à repérer",
       "blocks": [
@@ -91,10 +67,23 @@
           "rows": [
             [
               "{ar|سَرِيرِهِ}",
-              "son lit : le {ar|هِ} final veut dire « son » (il devient {ar|هُ} après une damma ou une fatha : {ar|قَمِيصَهُ}, {ar|صَدِيقَهُ})"
+              "son lit : le {ar|هِ} final veut dire « son » (il s'écrit {ar|هِ} après une kasra ou un {ar|ي}, et {ar|هُ} partout ailleurs : {ar|قَمِيصَهُ}, {ar|صَدِيقَهُ})"
             ],
             ["{ar|صَدِيقِي}", "mon ami : le {ar|ي} final veut dire « mon »"],
             ["{ar|حَالُكَ}", "ton état : le {ar|كَ} final veut dire « ton » (à un homme)"],
+            ["{ar|أَخِي}", "mon frère : le {ar|ي} final veut dire « mon »"],
+            [
+              "{ar|نُسْرِعُ}, {ar|نَتَأَخَّرُ}",
+              "nous nous dépêchons, nous sommes en retard : le {ar|نُ} ou {ar|نَ} au début veut dire « nous » ; {ar|لَا} exprime la négation"
+            ],
+            [
+              "{ar|عَنِ الصَّلَاةِ}",
+              "de la prière : {ar|عَنْ} veut dire « de, loin de » ; {ar|تَأَخَّرَ عَنِ الصَّلَاةِ} = être en retard à la prière"
+            ],
+            [
+              "{ar|سَرِيعًا}",
+              "en vitesse : comme {ar|جَيِّدًا}, un adjectif avec le tanwin à la fatha employé comme adverbe"
+            ],
             [
               "{ar|قَبْلَ}",
               "avant : un adverbe, comme {ar|فَوْقَ} et {ar|خَلْفَ} ; le nom qui le suit est au génitif"
@@ -107,10 +96,37 @@
       ]
     },
     {
+      "id": "medine-t1.r01.dialogue-3#3",
+      "type": "question",
+      "prompt": { "fr": "Que fait Zayd juste après ses ablutions ?" },
+      "choices": [ { "fr": "Il met sa chemise blanche" }, { "fr": "Il va à la mosquée" }, { "fr": "Il rencontre Muḥammad" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r01.dialogue-3#1" }
+    },
+    {
+      "id": "medine-t1.r01.dialogue-3#4",
+      "type": "question",
+      "prompt": { "fr": "Qui Zayd rencontre-t-il sur la route de la mosquée ?" },
+      "choices": [ { "fr": "Son ami Muḥammad" }, { "fr": "Le muezzin" }, { "fr": "Le directeur" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r01.dialogue-3#1" }
+    },
+    {
+      "id": "medine-t1.r01.dialogue-3#5",
+      "type": "true_false",
+      "statement": { "fr": "Zayd s'est réveillé après la prière de l'aube." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.r01.dialogue-3#1" },
+      "explain": "Il s'est réveillé avant : {ar|قَبْلَ صَلَاةِ الْفَجْرِ}."
+    },
+    {
       "id": "medine-t1.r01.dialogue-3#6",
       "type": "order",
       "fr": "Zayd a fait ses ablutions, puis il est sorti de la maison.",
-      "answers": [["تَوَضَّأَ", "زَيْدٌ", "ثُمَّ", "خَرَجَ", "مِنَ", "الْبَيْتِ"]],
+      "answers": [
+        ["تَوَضَّأَ", "زَيْدٌ", "ثُمَّ", "خَرَجَ", "مِنَ", "الْبَيْتِ"],
+        ["زَيْدٌ", "تَوَضَّأَ", "ثُمَّ", "خَرَجَ", "مِنَ", "الْبَيْتِ"]
+      ],
       "punctuation": "."
     },
     {

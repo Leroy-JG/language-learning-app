@@ -55,30 +55,6 @@
     },
     {
       "id": "medine-t1.r01.dialogue-2#2",
-      "type": "question",
-      "prompt": { "fr": "Que doit écrire Muḥammad au tableau ?" },
-      "choices": [ { "fr": "Le titre de la leçon" }, { "fr": "Son nom" }, { "fr": "La date" } ],
-      "answer": 0,
-      "context": { "dialogue": "medine-t1.r01.dialogue-2#1" }
-    },
-    {
-      "id": "medine-t1.r01.dialogue-2#3",
-      "type": "question",
-      "prompt": { "fr": "Où est le stylo du tableau ?" },
-      "choices": [ { "fr": "Sur le bureau" }, { "fr": "Derrière la mosquée" }, { "fr": "Derrière la porte" } ],
-      "answer": 0,
-      "context": { "dialogue": "medine-t1.r01.dialogue-2#1" }
-    },
-    {
-      "id": "medine-t1.r01.dialogue-2#4",
-      "type": "true_false",
-      "statement": { "fr": "ʿUbayd habite devant la mosquée." },
-      "answer": false,
-      "context": { "dialogue": "medine-t1.r01.dialogue-2#1" },
-      "explain": "Il habite derrière la grande mosquée : {ar|خَلْفَ الْمَسْجِدِ الْجَامِعِ}."
-    },
-    {
-      "id": "medine-t1.r01.dialogue-2#5",
       "type": "tip",
       "title": "Des petites formes à repérer",
       "blocks": [
@@ -90,6 +66,15 @@
           "type": "table",
           "header": ["Dans le dialogue", "Sens"],
           "rows": [
+            [
+              "{ar|قُمْ}",
+              "lève-toi : l'impératif de {ar|قَامَ}, que tu verras dans la section « La prière de l'aube »"
+            ],
+            [
+              "{ar|مَنْ حَفِظَ}",
+              "celui qui a mémorisé : ici {ar|مَنْ} ne veut pas dire « qui ? » mais « celui qui »"
+            ],
+            ["{ar|الْمَسْجِدِ الْجَامِعِ}", "la grande mosquée (celle où l'on fait la prière du vendredi)"],
             ["{ar|أَسْكُنُ}", "j'habite : le {ar|أَ} au début veut dire « je »"],
             ["{ar|تَسْكُنُ}", "tu habites : ici, le {ar|تَ} au début veut dire « tu » (à un homme)"],
             ["{ar|يَرْفَعُ يَدَهُ}", "il lève sa main : le {ar|هُ} final veut dire « sa »"],
@@ -105,6 +90,30 @@
       ]
     },
     {
+      "id": "medine-t1.r01.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Que doit écrire Muḥammad au tableau ?" },
+      "choices": [ { "fr": "Le titre de la leçon" }, { "fr": "Son nom" }, { "fr": "La date" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r01.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.r01.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Où est le stylo du tableau ?" },
+      "choices": [ { "fr": "Sur le bureau" }, { "fr": "Derrière la mosquée" }, { "fr": "Derrière la porte" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r01.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.r01.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "ʿUbayd habite devant la mosquée." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.r01.dialogue-2#1" },
+      "explain": "Il habite derrière la grande mosquée : {ar|خَلْفَ الْمَسْجِدِ الْجَامِعِ}."
+    },
+    {
       "id": "medine-t1.r01.dialogue-2#6",
       "type": "order",
       "fr": "Où est le stylo du tableau ?",
@@ -116,7 +125,7 @@
       "type": "typing",
       "ask": "question",
       "question": "أَيْنَ قَلَمُ السَّبُّورَةِ؟",
-      "answers": ["هُوَ فَوْقَ الْمَكْتَبِ.", "فَوْقَ الْمَكْتَبِ."],
+      "answers": ["هُوَ فَوْقَ الْمَكْتَبِ.", "فَوْقَ الْمَكْتَبِ.", "هُوَ عَلَى الْمَكْتَبِ.", "عَلَى الْمَكْتَبِ."],
       "fr": "Il est sur le bureau.",
       "instruction": "Réponds : il est sur le bureau.",
       "context": { "dialogue": "medine-t1.r01.dialogue-2#1" }

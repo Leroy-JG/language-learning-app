@@ -65,7 +65,7 @@
       "id": "medine-t1.r01.revue-1#6",
       "type": "fill_gap",
       "sentence": "{0} مَسْجِدٌ.",
-      "fr": "Cela est une mosquée.",
+      "fr": "Cela (là-bas) est une mosquée.",
       "gaps": [ { "answers": ["ذٰلِكَ"] } ],
       "options": ["ذٰلِكَ", "تِلْكَ", "هٰذَا"],
       "explain": "{ar|مَسْجِدٌ} est masculin et « cela » désigne ce qui est loin : {ar|ذٰلِكَ}."

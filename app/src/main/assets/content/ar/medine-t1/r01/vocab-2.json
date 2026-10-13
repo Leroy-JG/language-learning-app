@@ -62,13 +62,19 @@
       "item": "w:khamis",
       "distractors": ["w:sabt", "w:jumua"]
     },
-    { "id": "medine-t1.r01.vocab-2#11", "type": "typing", "ask": "fr", "item": "w:sabt" },
+    {
+      "id": "medine-t1.r01.vocab-2#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "samedi",
+      "answers": ["يَوْمُ السَّبْتِ", "السَّبْتُ"]
+    },
     {
       "id": "medine-t1.r01.vocab-2#12",
       "type": "typing",
       "ask": "audio",
       "fr": "vendredi",
-      "answers": ["يَوْمُ الْجُمُعَةِ"]
+      "answers": ["يَوْمُ الْجُمُعَةِ", "الْجُمُعَةُ"]
     }
   ]
 }

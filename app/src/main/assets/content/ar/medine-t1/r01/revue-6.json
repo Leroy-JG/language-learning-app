@@ -80,7 +80,7 @@
     {
       "id": "medine-t1.r01.revue-6#6",
       "type": "true_false",
-      "statement": { "fr": "Le sujet du verbe est toujours au nominatif." },
+      "statement": { "fr": "En principe, le sujet du verbe est au nominatif." },
       "answer": true,
       "explain": "Dans {ar|كَتَبَ زَيْدٌ}, {ar|زَيْدٌ} porte la damma."
     },
@@ -112,7 +112,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Le livre du directeur est sur le bureau.",
-      "answers": ["كِتَابُ الْمُدِيرِ عَلَى الْمَكْتَبِ."]
+      "answers": ["كِتَابُ الْمُدِيرِ عَلَى الْمَكْتَبِ.", "كِتَابُ الْمُدِيرِ فَوْقَ الْمَكْتَبِ."]
     },
     {
       "id": "medine-t1.r01.revue-6#11",

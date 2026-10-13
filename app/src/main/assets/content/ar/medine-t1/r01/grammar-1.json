@@ -25,9 +25,16 @@
       ]
     },
     { "id": "medine-t1.r01.grammar-1#2", "type": "present", "item": "w:huna" },
-    { "id": "medine-t1.r01.grammar-1#3", "type": "present", "item": "w:makan" },
     {
-      "id": "medine-t1.r01.grammar-1#4",
+      "id": "medine-t1.r01.grammar-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:huna",
+      "distractors": ["w:hunak", "w:ayna"]
+    },
+    { "id": "medine-t1.r01.grammar-1#4", "type": "present", "item": "w:makan" },
+    {
+      "id": "medine-t1.r01.grammar-1#5",
       "type": "tip",
       "title": "Le tableau complet des démonstratifs",
       "blocks": [
@@ -43,16 +50,9 @@
         { "type": "example", "ar": "الْمَسْجِدُ هُنَاكَ.", "fr": "La mosquée est là-bas." },
         {
           "type": "note",
-          "text": "{ar|هُنَا} et {ar|هُنَاكَ} ne changent jamais de terminaison. Tu les trouves après le nom : {ar|الْبَيْتُ هُنَا}."
+          "text": "{ar|هُنَا} et {ar|هُنَاكَ} ne changent jamais de terminaison. Dans ces exemples, ils viennent après le nom : {ar|الْبَيْتُ هُنَا}."
         }
       ]
-    },
-    {
-      "id": "medine-t1.r01.grammar-1#5",
-      "type": "mcq",
-      "mode": "ar-fr",
-      "item": "w:huna",
-      "distractors": ["w:hunak", "w:ayna"]
     },
     {
       "id": "medine-t1.r01.grammar-1#6",
