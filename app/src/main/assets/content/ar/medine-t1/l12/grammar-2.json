@@ -15,7 +15,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Quand le sujet est un homme, le verbe ne change pas. Quand le sujet est **féminin**, on ajoute à la fin du verbe un {ar|ت} avec un sukūn : {ar|تْ}."
+          "text": "Quand le sujet est **masculin**, le verbe ne change pas. Quand le sujet est **féminin**, on ajoute en général à la fin du verbe un {ar|ت} avec un sukūn : {ar|تْ}."
         },
         {
           "type": "compare",
@@ -66,6 +66,10 @@
         {
           "type": "note",
           "text": "Sans sujet écrit, le verbe seul se traduit par « il » ou « elle » : {ar|ذَهَبَ} (« il est allé »), {ar|ذَهَبَتْ} (« elle est allée »)."
+        },
+        {
+          "type": "note",
+          "text": "Avec une femme ou une fille, le {ar|تْ} est obligatoire. Avec un nom féminin de chose ({ar|سَيَّارَةٌ}, par exemple), l'arabe admet parfois un verbe sans {ar|تْ} ; dans ce cours, on met toujours le {ar|تْ} quand le sujet est féminin."
         },
         {
           "type": "note",

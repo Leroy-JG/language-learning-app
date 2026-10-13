@@ -36,10 +36,11 @@
     {
       "id": "medine-t1.l12.practice-2#3",
       "type": "fill_gap",
-      "sentence": "{0} {1} إِلَى الْمُسْتَشْفَى.",
+      "sentence": "{0} أُمِّي إِلَى الْمُسْتَشْفَى.",
       "fr": "Ma mère est allée à l'hôpital.",
-      "gaps": [ { "answers": ["ذَهَبَتْ"] }, { "answers": ["أُمِّي"] } ],
-      "options": ["ذَهَبَتْ", "ذَهَبَ", "أُمِّي", "أَبِي"]
+      "gaps": [ { "answers": ["ذَهَبَتْ"] } ],
+      "options": ["ذَهَبَتْ", "ذَهَبَ"],
+      "explain": "Le sujet {ar|أُمِّي} est féminin : le verbe prend le {ar|تْ}."
     },
     {
       "id": "medine-t1.l12.practice-2#4",
@@ -52,10 +53,11 @@
     {
       "id": "medine-t1.l12.practice-2#5",
       "type": "fill_gap",
-      "sentence": "{0} {1} مِنَ الْبَيْتِ.",
+      "sentence": "{0} أُخْتِي مِنَ الْبَيْتِ.",
       "fr": "Ma sœur est sortie de la maison.",
-      "gaps": [ { "answers": ["خَرَجَتْ"] }, { "answers": ["أُخْتِي"] } ],
-      "options": ["خَرَجَتْ", "خَرَجَ", "أُخْتِي", "أَخِي"]
+      "gaps": [ { "answers": ["خَرَجَتْ"] } ],
+      "options": ["خَرَجَتْ", "خَرَجَ"],
+      "explain": "Le sujet {ar|أُخْتِي} est féminin : le verbe prend le {ar|تْ}."
     },
     {
       "id": "medine-t1.l12.practice-2#6",
@@ -104,7 +106,11 @@
       "type": "typing",
       "ask": "question",
       "question": "أَيْنَ ذَهَبَتْ أُمُّكَ؟",
-      "answers": ["ذَهَبَتْ إِلَى الْمُسْتَشْفَى.", "ذَهَبَتْ أُمِّي إِلَى الْمُسْتَشْفَى."],
+      "answers": [
+        "ذَهَبَتْ إِلَى الْمُسْتَشْفَى.",
+        "ذَهَبَتْ أُمِّي إِلَى الْمُسْتَشْفَى.",
+        "أُمِّي ذَهَبَتْ إِلَى الْمُسْتَشْفَى."
+      ],
       "fr": "Elle est allée à l'hôpital.",
       "instruction": "Réponds : elle est allée à l'hôpital."
     }

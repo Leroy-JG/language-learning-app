@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Tu connais déjà quatre mots pour poser une question. Ce sont des **noms** : on les appelle {ar|أَسْمَاءُ الِاسْتِفْهَامِ} (« les noms de l'interrogation »)."
+          "text": "Tu connais déjà quatre noms de base pour poser une question. Ce sont des **noms** : on les appelle {ar|أَسْمَاءُ الِاسْتِفْهَامِ} (« les noms de l'interrogation »)."
         },
         {
           "type": "table",
@@ -44,7 +44,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "**1. Ils sont invariables.** Comme {ar|أَنَا} ou {ar|هٰذَا} (chapitre 11), leur terminaison ne change pas, quel que soit leur rôle dans la phrase."
+          "text": "**1. Ils sont invariables.** Comme {ar|أَنَا} ou {ar|هٰذَا} (chapitre 11), leur terminaison ne change pas, quel que soit leur rôle dans la phrase. La kasra de {ar|مَنِ الْمُدَرِّسُ؟} (chapitre 3) n'est qu'un enchaînement de prononciation devant l'article, pas un changement de cas."
         },
         { "type": "paragraph", "text": "**2. Ils se placent en tête de la question.** On commence par eux :" },
         { "type": "example", "ar": "كَيْفَ الِاخْتِبَارُ؟", "fr": "Comment est l'examen ?" },
@@ -54,7 +54,7 @@
         },
         {
           "type": "note",
-          "text": "Cela vaut pour les quatre noms que tu connais. Il existe d'autres mots d'interrogation, que tu verras plus tard."
+          "text": "Cela vaut pour ces quatre noms, et aussi pour {ar|مَاذَا} et {ar|لِمَاذَا} (révision 1). D'autres mots d'interrogation viendront plus tard."
         }
       ]
     },

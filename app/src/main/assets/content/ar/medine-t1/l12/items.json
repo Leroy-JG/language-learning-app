@@ -182,7 +182,7 @@
     "plural": "شَجَرٌ",
     "icon": "tree",
     "gender": "f",
-    "note": "Le pluriel du livre, {ar|شَجَرٌ}, est un nom collectif (« les arbres » en général) ; on entend aussi {ar|أَشْجَارٌ}.",
+    "note": "Le pluriel du livre, {ar|شَجَرٌ}, est un nom collectif (« les arbres » en général) : {ar|شَجَرَةٌ} en est le nom d'unité (« un arbre »), formé avec le {ar|ة}. On entend aussi {ar|أَشْجَارٌ}.",
     "example": { "ar": "هٰذِهِ شَجَرَةٌ كَبِيرَةٌ.", "fr": "Ceci est un grand arbre." }
   },
   {

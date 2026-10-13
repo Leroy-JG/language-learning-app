@@ -35,7 +35,7 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "Seulement devant l'article. Devant un autre mot, le {ar|ت} garde son sukūn : {ar|خَرَجَتْ فَاطِمَةُ}, {ar|ذَهَبَتْ إِلَى الْمُسْتَشْفَى} (la hamza de {ar|إِلَى} est une hamza qui se prononce toujours, chapitre 3)."
+          "text": "Cette kasra apparaît devant l'article {ar|الْ} et, plus généralement, devant un mot qui commence par une hamza de liaison. Devant un autre mot, le {ar|ت} garde son sukūn : {ar|خَرَجَتْ فَاطِمَةُ}, {ar|ذَهَبَتْ إِلَى الْمُسْتَشْفَى} (la hamza de {ar|إِلَى} est une hamza qui se prononce toujours, chapitre 3)."
         }
       ]
     },
@@ -64,7 +64,7 @@
         { "ar": "الْمُدَرِّسَةُ", "category": 0 }
       ],
       "instruction": "Le verbe est au féminin ({ar|ذَهَبَتْ}…). Selon le mot qui le suit, que devient son {ar|ت} ?",
-      "explain": "Kasra devant l'article {ar|الْ} ; sukūn devant un autre mot (même devant {ar|إِلَى}, dont la hamza est une hamza qui se prononce toujours)."
+      "explain": "Kasra devant l'article {ar|الْ} ; sukūn devant les autres mots de cette liste (même devant {ar|إِلَى}, dont la hamza est une hamza qui se prononce toujours)."
     },
     {
       "id": "medine-t1.l12.grammar-3#4",
@@ -96,8 +96,8 @@
     {
       "id": "medine-t1.l12.grammar-3#7",
       "type": "order",
-      "fr": "La voiture est sortie de l'école.",
-      "answers": [["خَرَجَتِ", "السَّيَّارَةُ", "مِنَ", "الْمَدْرَسَةِ"]],
+      "fr": "L'enseignante est sortie de la salle de classe.",
+      "answers": [["خَرَجَتِ", "الْمُدَرِّسَةُ", "مِنَ", "الْفَصْلِ"]],
       "punctuation": ".",
       "distractors": ["خَرَجَ"]
     },

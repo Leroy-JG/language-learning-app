@@ -32,7 +32,7 @@
         },
         {
           "type": "note",
-          "text": "{ar|مَنْ} et {ar|لِمَنْ} prennent une kasra devant l'article : {ar|مَنِ الْفَتَى}, {ar|لِمَنِ الْمِفْتَاحُ} (chapitre 3). Et dans {ar|خَرَجَتْ مِنْ بَيْتِكَ}, le {ar|ت} du féminin garde son sukūn : le mot suivant, {ar|مِنْ}, ne commence pas par l'article."
+          "text": "{ar|مَنْ} et {ar|لِمَنْ} prennent une kasra devant l'article : {ar|مَنِ الْفَتَى}, {ar|لِمَنِ الْمِفْتَاحُ} (chapitre 3) : c'est un simple enchaînement, pas un changement de cas ; {ar|مَنْ} reste invariable. Et dans {ar|خَرَجَتْ مِنْ بَيْتِكَ}, le {ar|ت} du féminin garde son sukūn : le mot suivant, {ar|مِنْ}, ne commence pas par l'article."
         },
         {
           "type": "note",
@@ -84,7 +84,7 @@
       "type": "typing",
       "ask": "question",
       "question": "لِمَنِ الْمِفْتَاحُ الَّذِي عَلَى الْمَكْتَبِ؟",
-      "answers": ["هُوَ لِلْمُدَرِّسِ.", "لِلْمُدَرِّسِ."],
+      "answers": ["هُوَ لِلْمُدَرِّسِ.", "هٰذَا لِلْمُدَرِّسِ.", "لِلْمُدَرِّسِ."],
       "fr": "C'est à l'enseignant.",
       "instruction": "Réponds : c'est à l'enseignant."
     },
@@ -93,7 +93,7 @@
       "type": "typing",
       "ask": "question",
       "question": "لِمَنِ السَّاعَةُ الَّتِي عَلَى السَّرِيرِ؟",
-      "answers": ["هِيَ لِزَوْجِ أُخْتِي.", "لِزَوْجِ أُخْتِي."],
+      "answers": ["هِيَ لِزَوْجِ أُخْتِي.", "هٰذِهِ لِزَوْجِ أُخْتِي.", "لِزَوْجِ أُخْتِي."],
       "fr": "C'est à l'époux de ma sœur.",
       "instruction": "Réponds : c'est à l'époux de ma sœur."
     },

@@ -8,6 +8,13 @@
     { "id": "medine-t1.l12.vocab-2#2", "type": "present", "item": "w:zamila" },
     {
       "id": "medine-t1.l12.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:zamila",
+      "distractors": ["w:zamil", "w:tabiba"]
+    },
+    {
+      "id": "medine-t1.l12.vocab-2#4",
       "type": "tip",
       "title": "Du masculin au féminin",
       "blocks": [
@@ -33,30 +40,30 @@
         }
       ]
     },
-    { "id": "medine-t1.l12.vocab-2#4", "type": "present", "item": "w:muwajjih" },
-    { "id": "medine-t1.l12.vocab-2#5", "type": "present", "item": "w:mutawassita" },
-    {
-      "id": "medine-t1.l12.vocab-2#6",
-      "type": "mcq",
-      "mode": "ar-fr",
-      "item": "w:fatat",
-      "distractors": ["w:fata", "w:bint"]
-    },
+    { "id": "medine-t1.l12.vocab-2#5", "type": "present", "item": "w:muwajjih" },
+    { "id": "medine-t1.l12.vocab-2#6", "type": "present", "item": "w:mutawassita" },
     {
       "id": "medine-t1.l12.vocab-2#7",
       "type": "mcq",
-      "mode": "fr-ar",
-      "item": "w:zamila",
-      "distractors": ["w:zamil", "w:tabiba"]
+      "mode": "ar-fr",
+      "item": "w:fatat",
+      "distractors": ["w:fata", "w:talibat"]
     },
     {
       "id": "medine-t1.l12.vocab-2#8",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:mutawassita",
+      "distractors": ["w:thanawiyya", "w:madrasa"]
+    },
+    {
+      "id": "medine-t1.l12.vocab-2#9",
       "type": "match",
       "mode": "ar-fr",
       "items": ["w:fatat", "w:zamila", "w:muwajjih", "w:mutawassita"]
     },
     {
-      "id": "medine-t1.l12.vocab-2#9",
+      "id": "medine-t1.l12.vocab-2#10",
       "type": "fill_gap",
       "sentence": "أَخِي {0} فِي الْمَدْرَسَةِ.",
       "fr": "Mon frère est conseiller à l'école.",
@@ -65,14 +72,14 @@
       "explain": "« Mon frère » est un homme : le nom est masculin."
     },
     {
-      "id": "medine-t1.l12.vocab-2#10",
+      "id": "medine-t1.l12.vocab-2#11",
       "type": "order",
       "fr": "Ma camarade est au collège.",
       "answers": [["زَمِيلَتِي", "فِي", "الْمُتَوَسِّطَةِ"]],
       "punctuation": "."
     },
     {
-      "id": "medine-t1.l12.vocab-2#11",
+      "id": "medine-t1.l12.vocab-2#12",
       "type": "typing",
       "ask": "question",
       "question": "مَنْ هٰذِهِ؟",
@@ -81,9 +88,9 @@
       "instruction": "Réponds : c'est une jeune fille.",
       "context": { "icon": "girl" }
     },
-    { "id": "medine-t1.l12.vocab-2#12", "type": "typing", "ask": "fr", "item": "w:muwajjih" },
+    { "id": "medine-t1.l12.vocab-2#13", "type": "typing", "ask": "fr", "item": "w:muwajjih" },
     {
-      "id": "medine-t1.l12.vocab-2#13",
+      "id": "medine-t1.l12.vocab-2#14",
       "type": "typing",
       "ask": "audio",
       "fr": "Mon frère est conseiller à l'école.",

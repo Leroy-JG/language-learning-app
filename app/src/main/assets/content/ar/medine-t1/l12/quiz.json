@@ -36,18 +36,18 @@
     {
       "id": "medine-t1.l12.quiz#5",
       "type": "fill_gap",
-      "sentence": "{0} السَّيَّارَةُ مِنَ الْمَدْرَسَةِ.",
-      "fr": "La voiture est sortie de l'école.",
+      "sentence": "{0} الطَّبِيبَةُ مِنَ الْمُسْتَشْفَى.",
+      "fr": "La femme médecin est sortie de l'hôpital.",
       "gaps": [ { "answers": ["خَرَجَتِ"] } ],
       "options": ["خَرَجَتِ", "خَرَجَ"]
     },
     {
       "id": "medine-t1.l12.quiz#6",
       "type": "question",
-      "prompt": { "fr": "Pourquoi le {ar|ت} de {ar|خَرَجَتِ السَّيَّارَةُ} a-t-il une kasra ?" },
+      "prompt": { "fr": "Pourquoi le {ar|ت} de {ar|خَرَجَتِ الطَّبِيبَةُ} a-t-il une kasra ?" },
       "choices": [
         { "fr": "Parce qu'il est suivi de l'article {ar|الْ}" },
-        { "fr": "Parce que la voiture est masculine" },
+        { "fr": "Parce que le sujet est masculin" },
         { "fr": "Parce que le verbe est au présent" }
       ],
       "answer": 0
@@ -84,10 +84,10 @@
     },
     {
       "id": "medine-t1.l12.quiz#10",
-      "type": "mcq",
-      "mode": "fr-ar",
-      "item": "w:baraka",
-      "distractors": ["w:rahma", "w:salam"]
+      "type": "order",
+      "fr": "Et sur toi la paix, ainsi que la miséricorde d'Allah et ses bénédictions.",
+      "answers": [["وَعَلَيْكِ", "السَّلَامُ", "وَرَحْمَةُ", "اللَّهِ", "وَبَرَكَاتُهُ"]],
+      "punctuation": "."
     },
     {
       "id": "medine-t1.l12.quiz#11",
