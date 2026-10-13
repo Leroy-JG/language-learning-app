@@ -19,7 +19,7 @@
           "fr": "paresseux",
           "parts": [
             { "ar": "كَسْلَ", "fr": "la base du mot" },
-            { "ar": "انُ", "fr": "la fin {ar|انُ} : un alif et un nūn ajoutés" }
+            { "ar": "انُ", "fr": "la fin : un alif et un nūn ajoutés" }
           ]
         },
         {
@@ -52,7 +52,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Les prénoms d'homme qui finissent par « -ān », comme {ar|عُثْمَانُ}, n'ont pas de tanwin non plus. Au chapitre 4, les prénoms d'homme comme {ar|مُحَمَّدٌ} en avaient un : c'est la fin en « -ān » qui change tout."
+          "text": "La plupart des prénoms d'homme qui finissent par « -ān », comme {ar|عُثْمَانُ}, n'ont pas de tanwin non plus. Au chapitre 4, les prénoms d'homme comme {ar|مُحَمَّدٌ} en avaient un : c'est la fin en « -ān » qui change tout."
         }
       ]
     },
@@ -135,8 +135,13 @@
             { "from": { "ar": "عَطْشَانُ", "fr": "assoiffé" }, "to": { "ar": "عَطْشَى", "fr": "assoiffée" } },
             { "from": { "ar": "غَضْبَانُ", "fr": "en colère" }, "to": { "ar": "غَضْبَى", "fr": "en colère" } },
             { "from": { "ar": "جَوْعَانُ", "fr": "affamé" }, "to": { "ar": "جَوْعَى", "fr": "affamée" } },
-            { "from": { "ar": "كَسْلَانُ", "fr": "paresseux" }, "to": { "ar": "كَسْلَى", "fr": "paresseuse" } }
+            { "from": { "ar": "كَسْلَانُ", "fr": "paresseux" }, "to": { "ar": "كَسْلَى", "fr": "paresseuse" } },
+            { "from": { "ar": "مَلْآنُ", "fr": "plein" }, "to": { "ar": "مَلْأَى", "fr": "pleine" } }
           ]
+        },
+        {
+          "type": "note",
+          "text": "Une femme qui dit « j'ai soif » ou « j'ai faim » emploie donc le féminin : {ar|أَنَا عَطْشَى}, {ar|أَنَا جَوْعَى}."
         }
       ]
     },

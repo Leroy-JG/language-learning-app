@@ -33,7 +33,7 @@
     {
       "id": "medine-t1.l09.practice-4#3",
       "type": "order",
-      "fr": "Es-tu affamé ?",
+      "fr": "As-tu faim ?",
       "answers": [["أَأَنْتَ", "جَوْعَانُ"]],
       "punctuation": "؟"
     },

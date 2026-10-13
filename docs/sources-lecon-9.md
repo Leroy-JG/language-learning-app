@@ -50,9 +50,9 @@ chapitres 1 à 6. Conséquences :
   - لِمَاذَا الْمُدَرِّسُ غَضْبَانُ الْيَوْمَ ؟ → الْمُدَرِّسُ غَضْبَانُ. (لِمَاذَا et الْيَوْمَ, accusatif, non
     enseignés) ;
   - الْقَاهِرَةُ مَدِينَةٌ كَبِيرَةٌ → مَكَّةُ مَدِينَةٌ كَبِيرَةٌ (pas de nouveau nom propre) ;
-  - exercice 1, phrase 3 (هٰذَا دَرْسٌ سَهْلٌ) : omise (دَرْسٌ non enseigné) ; exercice 2, phrases 4 et 5, et
-    exercice 2 bis (جَلَسَ, خَلْفَ, الْمُسْتَشْفَى, الْغُرْفَةِ… non enseignés) : reprises avec des mots connus
-    (ذَهَبَ…، مَنِ الْوَلَدُ الطَّوِيلُ ؟) ;
+  - exercice 1, phrase 3 (هٰذَا دَرْسٌ سَهْلٌ) : omise (دَرْسٌ non enseigné) ; exercice 2 (les deux pages de
+    phrases à compléter) : seules les phrases à mots connus sont reprises, les autres sont omises ou
+    adaptées (جَلَسَ, خَلْفَ, الْمُسْتَشْفَى, الْمُسْتَوْصَفِ, السِّكِّينُ, الْغُرْفَةِ… non enseignés ou douteux) ;
   - exercice 3 : la consigne « mets un nom qui convient » devient un `fill_gap` à choix, une seule option
     étant accordée en genre avec l'adjectif ; exercice 4 repris tel quel (sauf لِمَاذَا) ;
   - السِّكِّينُ حَادٌّ (exemple de حَادٌّ dans le PDF) : non repris, سِكِّينٌ pouvant être masculin ou féminin
@@ -92,4 +92,17 @@ chapitres 1 à 6. Conséquences :
     كُسَالَى se termine par un ى du féminin, donc sans tanwin.
 - **Validateur** : aucune règle ajoutée.
 - **Icônes** : aucune nouvelle icône (الثَّانَوِيَّةُ réutilise `school`).
-- **Relectures** : voir la section ci-dessous (à compléter après les relectures indépendantes).
+- **Relectures** : trois relecteurs indépendants (arabe et fidélité au PDF, exercices, français et
+  pédagogie), puis une seconde relecture sur les corrections ; chaque remarque a été contrôlée avant
+  correction. Corrigés notamment :
+  - la règle « groupe de mots ou phrase » (trop simple : elle ne tient pas pour un nom propre ou une
+    annexion définie) : réécrite en « nom défini + adjectif indéfini = phrase ; deux définis ou deux
+    indéfinis = groupe de mots », avec la précision que l'adjectif de الْكِتَابُ جَدِيدٌ est un خَبَر ;
+  - « l'adjectif prend le ة » nuancé (« en général ») à cause des adjectifs d'état en ـَى ;
+  - une question de `practice-3` dont un distracteur était aussi juste (عَبَّاسٌ غَنِيٌّ est une phrase
+    correcte) ; un distracteur trop proche (طَائِرٌ pour عُصْفُورٌ) ; une seconde réponse acceptée
+    (ذَهَبَ placé après le sujet) ;
+  - l'accusatif ajouté à l'accord en cas (قَرَأْتُ كِتَابًا جَدِيدًا) ; le féminin مَلْأَى de مَلْآنُ ;
+  - `practice-3` déplacé avec les premières activités (il travaille « l'adjectif est supprimable »).
+  - Non repris (optionnel) : les pluriels طُيُورٌ (de طَائِرٌ) et حِدَادٌ (de حَادٌّ), attestés mais non
+    donnés par le PDF.

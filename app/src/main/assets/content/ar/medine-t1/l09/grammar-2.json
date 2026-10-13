@@ -36,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Avec un nom féminin, l'adjectif prend le {ar|ة}, comme tu l'as vu au chapitre 6. Cela vaut aussi pour les choses."
+          "text": "Avec un nom féminin, l'adjectif prend en général le {ar|ة}, comme tu l'as vu au chapitre 6. Cela vaut aussi pour les choses. (Les adjectifs d'état comme {ar|عَطْشَانُ}, que tu verras plus loin, ont un féminin différent.)"
         },
         {
           "type": "compare",
@@ -72,7 +72,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Si le nom a l'article {ar|الْ}, l'adjectif le prend aussi. Si le nom est indéfini (avec tanwin), l'adjectif l'est aussi."
+          "text": "Si le nom a l'article {ar|الْ}, l'adjectif le prend aussi. Si le nom est indéfini (avec tanwin), l'adjectif l'est aussi. Un nom défini par une annexion (le premier terme d'une annexion dont le second terme est défini) est défini lui aussi : son adjectif prend l'article, {ar|كِتَابُ الطَّالِبِ الْجَدِيدُ} (le nouveau livre de l'étudiant)."
         },
         {
           "type": "compare",
@@ -123,7 +123,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "L'adjectif prend **le même cas** que son nom : la même voyelle finale. Après une préposition, le nom est à la kasra (génitif) : l'adjectif aussi."
+          "text": "L'adjectif prend **le même cas** que son nom : la même voyelle finale. Après une préposition, le nom est à la kasra (génitif) : l'adjectif aussi. Après un verbe comme {ar|قَرَأْتُ} (chapitre 5), le nom est à la fatha (accusatif) : l'adjectif aussi."
         },
         {
           "type": "compare",
@@ -138,7 +138,15 @@
             },
             {
               "from": { "ar": "الطَّالِبُ الْجَدِيدُ", "fr": "le nouvel étudiant" },
-              "to": { "ar": "مِنَ الطَّالِبِ الْجَدِيدِ", "fr": "de la part du nouvel étudiant" }
+              "to": { "ar": "مِنَ الطَّالِبِ الْجَدِيدِ", "fr": "du nouvel étudiant" }
+            },
+            {
+              "from": { "ar": "الْكِتَابُ الْجَدِيدُ", "fr": "le livre neuf" },
+              "to": { "ar": "قَرَأْتُ الْكِتَابَ الْجَدِيدَ", "fr": "j'ai lu le livre neuf" }
+            },
+            {
+              "from": { "ar": "كِتَابٌ جَدِيدٌ", "fr": "un livre neuf" },
+              "to": { "ar": "قَرَأْتُ كِتَابًا جَدِيدًا", "fr": "j'ai lu un livre neuf" }
             }
           ]
         },
@@ -170,7 +178,7 @@
         { "ar": "نَافِذَةٌ مَفْتُوحَةٌ", "category": 1 }
       ],
       "instruction": "Range chaque groupe : le nom qualifié est-il masculin ou féminin ?",
-      "explain": "Le {ar|ة} de l'adjectif montre que le nom qualifié est féminin."
+      "explain": "Ici, le {ar|ة} de l'adjectif montre que le nom qualifié est féminin."
     },
     {
       "id": "medine-t1.l09.grammar-2#10",

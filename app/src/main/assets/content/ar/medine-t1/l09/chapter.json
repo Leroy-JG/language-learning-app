@@ -5,9 +5,9 @@
   "description": "Décrire un nom avec un adjectif ({ar|النَّعْتُ}) qui s'accorde en genre, en défini ou indéfini et en cas, distinguer « le livre neuf » et « le livre est neuf », et découvrir les adjectifs d'état sans tanwin comme {ar|كَسْلَانُ}.",
   "source": "Tome de Médine 1, leçon 9",
   "sections": [
-    { "title": "Le nom et son adjectif", "activities": ["grammar-1", "vocab-1", "practice-1"] },
+    { "title": "Le nom et son adjectif", "activities": ["grammar-1", "vocab-1", "practice-1", "practice-3"] },
     { "title": "L'adjectif s'accorde", "activities": ["grammar-2", "practice-2"] },
-    { "title": "Groupe de mots ou phrase ?", "activities": ["grammar-3", "practice-3"] },
+    { "title": "Groupe de mots ou phrase ?", "activities": ["grammar-3"] },
     { "title": "Les langues", "activities": ["vocab-2"] },
     { "title": "Fruits, oiseaux et jours", "activities": ["vocab-3"] },
     { "title": "En ville et à l'école", "activities": ["vocab-4", "vocab-5"] },

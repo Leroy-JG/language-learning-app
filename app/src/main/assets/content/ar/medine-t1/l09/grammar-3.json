@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Un nom suivi de son adjectif ne forme pas toujours la même chose. Tout dépend de l'article."
+          "text": "Un nom suivi de son adjectif ne forme pas toujours la même chose. Tout dépend de ce que le nom et l'adjectif ont en commun."
         },
         {
           "type": "table",
@@ -24,9 +24,17 @@
         },
         {
           "type": "paragraph",
-          "text": "Quand le nom a l'article et que l'adjectif ne l'a **pas**, c'est une **phrase** : l'adjectif dit ce qu'est le nom (« le livre **est** neuf »). Quand le nom et l'adjectif ont **tous deux** l'article, l'adjectif décrit le nom : c'est un simple groupe de mots."
+          "text": "Quand le nom est **défini** (avec l'article, ou un nom propre) et que l'adjectif ne l'est **pas**, c'est une **phrase** : l'adjectif dit ce qu'est le nom (« le livre **est** neuf »). Quand le nom et l'adjectif sont **tous deux définis** ou **tous deux indéfinis**, l'adjectif décrit le nom : c'est un simple groupe de mots."
         },
-        { "type": "note", "tone": "memo", "text": "Deux articles : on décrit. Un seul article : on affirme." }
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Dans le cas le plus courant : deux articles, on décrit ; un seul article, on affirme."
+        },
+        {
+          "type": "note",
+          "text": "Dans {ar|الْكِتَابُ جَدِيدٌ}, le mot {ar|جَدِيدٌ} n'est plus un {ar|نَعْتٌ} : c'est l'attribut ({ar|الْخَبَرُ}) du sujet {ar|الْكِتَابُ}, ce qu'on dit de lui. Un {ar|نَعْتٌ} décrit un nom au sein d'un groupe de mots."
+        }
       ]
     },
     {
@@ -64,7 +72,7 @@
           "rows": [
             ["{ar|هٰذَا بَيْتٌ كَبِيرٌ.}", "C'est une grande maison."],
             ["{ar|هٰذَا الْبَيْتُ كَبِيرٌ.}", "Cette maison est grande."],
-            ["{ar|هٰذَا الْبَيْتُ الْكَبِيرُ}", "cette grande maison (un groupe de mots, pas encore une phrase)"]
+            ["{ar|هٰذَا الْبَيْتُ الْكَبِيرُ}", "cette grande maison (un groupe de mots)"]
           ]
         },
         { "type": "example", "ar": "مَنْ هٰذَا الرَّجُلُ الطَّوِيلُ؟", "fr": "Qui est ce grand homme ?" }

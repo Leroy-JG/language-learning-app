@@ -7,7 +7,7 @@
     {
       "id": "medine-t1.l09.practice-3#1",
       "type": "tip",
-      "title": "Le livre, page « {ar|أ} »",
+      "title": "Le livre, page {ar|أ}",
       "blocks": [
         {
           "type": "paragraph",
@@ -24,10 +24,10 @@
     {
       "id": "medine-t1.l09.practice-3#2",
       "type": "question",
-      "prompt": { "fr": "Dans {ar|عَبَّاسٌ تَاجِرٌ غَنِيٌّ}, quel mot peut-on supprimer sans casser la phrase ?" },
+      "prompt": { "fr": "Dans {ar|عَبَّاسٌ تَاجِرٌ غَنِيٌّ}, quel mot est l'adjectif ?" },
       "choices": [ { "ar": "غَنِيٌّ" }, { "ar": "تَاجِرٌ" }, { "ar": "عَبَّاسٌ" } ],
       "answer": 0,
-      "explain": "{ar|عَبَّاسٌ تَاجِرٌ} est déjà une phrase complète : l'adjectif {ar|غَنِيٌّ} s'y ajoute."
+      "explain": "{ar|غَنِيٌّ} décrit {ar|تَاجِرٌ}. On peut l'enlever : {ar|عَبَّاسٌ تَاجِرٌ} reste une phrase complète."
     },
     {
       "id": "medine-t1.l09.practice-3#3",

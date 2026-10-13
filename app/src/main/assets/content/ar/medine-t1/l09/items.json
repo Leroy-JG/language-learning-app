@@ -173,7 +173,7 @@
     "fr": "l'arabe (la langue arabe)",
     "translit": "al-ʿarabiyyatu",
     "gender": "f",
-    "note": "C'est le féminin de {ar|عَرَبِيٌّ} (« arabe »), car {ar|اللُّغَةُ} (la langue) est féminin : {ar|اللُّغَةُ الْعَرَبِيَّةُ}. Les noms de langues sont féminins.",
+    "note": "C'est le féminin de {ar|عَرَبِيٌّ} (« arabe »), car {ar|اللُّغَةُ} (la langue) est féminin : {ar|اللُّغَةُ الْعَرَبِيَّةُ}. Ces noms de langues (en « -iyya ») sont féminins : ils sous-entendent {ar|لُغَةٌ}.",
     "example": { "ar": "الْعَرَبِيَّةُ لُغَةٌ جَمِيلَةٌ.", "fr": "L'arabe est une belle langue." }
   },
   {
@@ -212,7 +212,7 @@
     "fr": "des pommes",
     "translit": "tuffāḥun",
     "gender": "m",
-    "note": "Nom collectif : il désigne les pommes en général. Une seule pomme se dit {ar|تُفَّاحَةٌ}.",
+    "note": "Nom collectif : il désigne la pomme ou les pommes en général (« la pomme, les pommes »). Une seule pomme se dit {ar|تُفَّاحَةٌ}.",
     "example": { "ar": "التُّفَّاحُ فَاكِهَةٌ.", "fr": "La pomme est un fruit." }
   },
   {

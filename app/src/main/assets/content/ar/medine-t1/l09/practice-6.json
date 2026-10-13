@@ -78,17 +78,17 @@
     },
     {
       "id": "medine-t1.l09.practice-6#9",
-      "type": "typing",
-      "ask": "fr",
+      "type": "order",
       "fr": "Je suis un ancien étudiant.",
-      "answers": ["أَنَا طَالِبٌ قَدِيمٌ."]
+      "answers": [["أَنَا", "طَالِبٌ", "قَدِيمٌ"]],
+      "punctuation": "."
     },
     {
       "id": "medine-t1.l09.practice-6#10",
       "type": "typing",
       "ask": "fr",
       "fr": "Le nouvel étudiant est allé chez le directeur.",
-      "answers": ["ذَهَبَ الطَّالِبُ الْجَدِيدُ إِلَى الْمُدِيرِ."]
+      "answers": ["ذَهَبَ الطَّالِبُ الْجَدِيدُ إِلَى الْمُدِيرِ.", "الطَّالِبُ الْجَدِيدُ ذَهَبَ إِلَى الْمُدِيرِ."]
     },
     {
       "id": "medine-t1.l09.practice-6#11",
@@ -106,10 +106,10 @@
     },
     {
       "id": "medine-t1.l09.practice-6#13",
-      "type": "typing",
-      "ask": "fr",
+      "type": "order",
       "fr": "À qui est ce lit cassé ?",
-      "answers": ["لِمَنْ هٰذَا السَّرِيرُ الْمَكْسُورُ؟"]
+      "answers": [["لِمَنْ", "هٰذَا", "السَّرِيرُ", "الْمَكْسُورُ"]],
+      "punctuation": "؟"
     },
     {
       "id": "medine-t1.l09.practice-6#14",

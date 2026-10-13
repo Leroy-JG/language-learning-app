@@ -30,7 +30,7 @@
       "type": "mcq",
       "mode": "ar-fr",
       "item": "w:usfur",
-      "distractors": ["w:tair", "w:kalb"]
+      "distractors": ["w:kalb", "w:qitt"]
     },
     { "id": "medine-t1.l09.vocab-3#9", "type": "present", "item": "w:yawm" },
     {
