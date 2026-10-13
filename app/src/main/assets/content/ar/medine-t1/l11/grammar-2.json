@@ -1,0 +1,173 @@
+{
+  "id": "medine-t1.l11.grammar-2",
+  "type": "grammar",
+  "title": "Le nom invariable",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l11.grammar-2#1",
+      "type": "tip",
+      "title": "Certains noms ne changent jamais",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quelques noms font exception : leur terminaison **ne change jamais**, quel que soit leur rôle dans la phrase. Regarde ces mots dans trois rôles différents :"
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Le mot qui ne change pas", "Son rôle"],
+          "rows": [
+            ["{ar|أَنَا فِي الْفَصْلِ}", "{ar|أَنَا}", "le sujet"],
+            ["{ar|هٰذَا زَيْدٌ}", "{ar|هٰذَا}", "le sujet"],
+            ["{ar|فِي هٰذَا الْبَيْتِ}", "{ar|هٰذَا}", "après une préposition (génitif)"],
+            ["{ar|صَدِيقُكُمْ فِي الْمَدْرَسَةِ}", "{ar|كُمْ}", "le second terme de l'annexion"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le mot {ar|هٰذَا} s'écrit pareil comme sujet et après une préposition : sa terminaison ne montre ni le nominatif, ni l'accusatif, ni le génitif."
+        }
+      ]
+    },
+    { "id": "medine-t1.l11.grammar-2#2", "type": "present", "item": "w:mabni" },
+    {
+      "id": "medine-t1.l11.grammar-2#3",
+      "type": "tip",
+      "title": "Invariable : {ar|مَبْنِيٌّ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un nom dont la terminaison ne change jamais est **invariable** : on dit qu'il est {ar|مَبْنِيٌّ}. Il a pourtant un rôle dans la phrase (sujet, second terme d'une annexion…) : seule sa terminaison ne le montre pas."
+        },
+        { "type": "example", "ar": "أَنَا اسْمٌ مَبْنِيٌّ.", "fr": "« Je » est un nom invariable." },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "{ar|مَبْنِيٌّ} vient du verbe {ar|بَنَى} (« bâtir »). Comme un mur bâti, ce nom ne bouge pas. À l'inverse, un nom {ar|مُعْرَبٌ} se « rend clair » : sa terminaison montre son rôle."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.grammar-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mabni",
+      "distractors": ["w:muarab", "w:irab"]
+    },
+    {
+      "id": "medine-t1.l11.grammar-2#5",
+      "type": "tip",
+      "title": "Quels noms sont invariables ?",
+      "blocks": [
+        { "type": "paragraph", "text": "Voici trois sortes de noms invariables que tu connais déjà :" },
+        {
+          "type": "table",
+          "header": ["Sorte de nom", "Exemples"],
+          "rows": [
+            [
+              "les pronoms ({ar|الضَّمَائِرُ})",
+              "{ar|أَنَا}, {ar|نَحْنُ}, {ar|هُوَ}, {ar|هِيَ}, {ar|هُمْ}, et les pronoms affixes ({ar|◌ِي}, {ar|كَ}, {ar|هُ}…)"
+            ],
+            ["les démonstratifs ({ar|أَسْمَاءُ الْإِشَارَةِ})", "{ar|هٰذَا}, {ar|هٰذِهِ}, {ar|ذٰلِكَ}, {ar|تِلْكَ}"],
+            [
+              "les interrogatifs ({ar|أَسْمَاءُ الِاسْتِفْهَامِ})",
+              "{ar|مَنْ}, {ar|مَا}, {ar|أَيْنَ}, {ar|كَيْفَ}, {ar|مَاذَا}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les grammairiens expliquent que ces noms **ressemblent aux particules** ({ar|فِي}, {ar|مِنْ}…), qui ne changent jamais. Il y a des exceptions que tu verras plus tard (le duel des démonstratifs, par exemple, est variable) et d'autres noms invariables (par exemple {ar|الَّذِي}, « qui »)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "La plupart des autres noms que tu connais ({ar|كِتَابٌ}, {ar|بَيْتٌ}, {ar|زَيْدٌ}, {ar|مُسْلِمَةٌ}…) sont variables."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.grammar-2#6",
+      "type": "spot",
+      "instruction": "Touche le nom invariable.",
+      "words": ["هٰذَا", "كِتَابٌ."],
+      "answers": [0],
+      "fr": "Ceci est un livre.",
+      "explain": "{ar|هٰذَا} est un démonstratif : il est invariable. {ar|كِتَابٌ} est un nom variable."
+    },
+    {
+      "id": "medine-t1.l11.grammar-2#7",
+      "type": "sort",
+      "categories": [ { "fr": "nom variable ({ar|مُعْرَبٌ})" }, { "fr": "nom invariable ({ar|مَبْنِيٌّ})" } ],
+      "cards": [
+        { "ar": "كِتَابٌ", "category": 0 },
+        { "ar": "أَنَا", "category": 1 },
+        { "ar": "طَالِبٌ", "category": 0 },
+        { "ar": "أَيْنَ", "category": 1 },
+        { "ar": "هُمْ", "category": 1 },
+        { "ar": "بَيْتٌ", "category": 0 },
+        { "ar": "ذٰلِكَ", "category": 1 },
+        { "ar": "الْمَكْتَبُ", "category": 0 }
+      ],
+      "instruction": "Variable ou invariable ?",
+      "explain": "Les pronoms, et les démonstratifs et interrogatifs que tu connais, sont invariables. {ar|كِتَابٌ}, {ar|طَالِبٌ}, {ar|بَيْتٌ} et {ar|الْمَكْتَبُ} sont des noms variables."
+    },
+    {
+      "id": "medine-t1.l11.grammar-2#8",
+      "type": "tip",
+      "title": "Et les verbes, et les particules ?",
+      "blocks": [
+        { "type": "paragraph", "text": "Les noms ne sont pas les seuls mots à pouvoir être invariables :" },
+        {
+          "type": "table",
+          "header": ["Sorte de mot", "Variable ou invariable ?"],
+          "rows": [
+            [
+              "le nom",
+              "en général variable ; invariable pour les pronoms, la plupart des démonstratifs et des interrogatifs…"
+            ],
+            [
+              "la particule ({ar|الْحَرْفُ})",
+              "toujours invariable : {ar|فِي}, {ar|مِنْ}, {ar|عَلَى}, {ar|وَ}, {ar|أَ}…"
+            ],
+            [
+              "le verbe ({ar|الْفِعْلُ})",
+              "le passé ({ar|كَتَبَ}) et l'impératif sont invariables ; le présent est en général variable (tu le verras plus tard)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "On dit aussi {ar|مَبْنِيٌّ} d'une particule ({ar|فِي} est {ar|مَبْنِيٌّ}) et d'un verbe au passé ou à l'impératif. Le génitif ({ar|الْجَرُّ}) est réservé aux noms ; le présent varie en général lui aussi, mais autrement : tu le verras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.grammar-2#9",
+      "type": "true_false",
+      "statement": { "fr": "La particule {ar|فِي} change de terminaison selon son rôle dans la phrase." },
+      "answer": false,
+      "explain": "Une particule est toujours invariable : {ar|فِي} reste {ar|فِي}."
+    },
+    {
+      "id": "medine-t1.l11.grammar-2#10",
+      "type": "question",
+      "prompt": { "fr": "Lequel de ces mots est un nom invariable ?" },
+      "choices": [ { "ar": "غُرْفَةٌ" }, { "ar": "هُوَ" }, { "ar": "شَارِعٌ" } ],
+      "answer": 1,
+      "explain": "{ar|هُوَ} est un pronom : il est invariable. {ar|غُرْفَةٌ} et {ar|شَارِعٌ} sont des noms variables."
+    },
+    {
+      "id": "medine-t1.l11.grammar-2#11",
+      "type": "fill_gap",
+      "sentence": "أَنَا اسْمٌ {0}.",
+      "fr": "« Je » est un nom invariable.",
+      "gaps": [ { "answers": ["مَبْنِيٌّ"] } ],
+      "options": ["مَبْنِيٌّ", "مُعْرَبٌ"],
+      "explain": "{ar|أَنَا} est un pronom, donc invariable : {ar|مَبْنِيٌّ}. Un nom variable est {ar|مُعْرَبٌ}."
+    },
+    { "id": "medine-t1.l11.grammar-2#12", "type": "typing", "ask": "fr", "item": "w:mabni" }
+  ]
+}

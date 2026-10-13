@@ -1,0 +1,105 @@
+{
+  "id": "medine-t1.l11.practice-1",
+  "type": "vocabulary",
+  "title": "Invariable, mais avec un rôle",
+  "icon": "telescope",
+  "screens": [
+    {
+      "id": "medine-t1.l11.practice-1#1",
+      "type": "tip",
+      "title": "Un nom invariable a un rôle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un nom invariable joue son rôle dans la phrase comme un autre nom. Regarde les exemples du professeur :"
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Le mot invariable", "Son rôle"],
+          "rows": [
+            ["{ar|هٰذَا زَيْدٌ}", "{ar|هٰذَا}", "le sujet ({ar|الْمُبْتَدَأُ})"],
+            ["{ar|نَحْنُ طُلَّابٌ}", "{ar|نَحْنُ}", "le sujet ({ar|الْمُبْتَدَأُ})"],
+            ["{ar|هُمْ مُسْلِمُونَ}", "{ar|هُمْ}", "le sujet ({ar|الْمُبْتَدَأُ})"],
+            ["{ar|بَيْتُكَ جَمِيلٌ}", "{ar|كَ}", "le second terme de l'annexion ({ar|الْمُضَافُ إِلَيْهِ})"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans {ar|بَيْتُكَ جَمِيلٌ}, le nom {ar|بَيْتُ} est variable (sujet, damma, premier terme de l'annexion) ; le pronom {ar|كَ} est invariable."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.practice-1#2",
+      "type": "spot",
+      "instruction": "Touche le nom invariable.",
+      "words": ["نَحْنُ", "طُلَّابٌ."],
+      "answers": [0],
+      "fr": "Nous sommes étudiants.",
+      "explain": "{ar|نَحْنُ} est un pronom : il est invariable. {ar|طُلَّابٌ} est un nom variable."
+    },
+    {
+      "id": "medine-t1.l11.practice-1#3",
+      "type": "spot",
+      "instruction": "Touche le nom variable.",
+      "words": ["هُمْ", "فِي", "الْفَصْلِ."],
+      "answers": [2],
+      "fr": "Ils sont dans la salle de classe.",
+      "explain": "{ar|هُمْ} est invariable (pronom), {ar|فِي} est une particule. Le nom variable est {ar|الْفَصْلِ} : il est à la kasra après la préposition."
+    },
+    {
+      "id": "medine-t1.l11.practice-1#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|بَيْتُكَ جَمِيلٌ}, quel mot est invariable ?" },
+      "choices": [ { "ar": "بَيْتُ" }, { "ar": "كَ" }, { "ar": "جَمِيلٌ" } ],
+      "answer": 1,
+      "explain": "{ar|كَ} est un pronom affixe : il est invariable. {ar|بَيْتُ} et {ar|جَمِيلٌ} changent selon leur rôle."
+    },
+    {
+      "id": "medine-t1.l11.practice-1#5",
+      "type": "sort",
+      "categories": [ { "fr": "un pronom" }, { "fr": "un démonstratif" }, { "fr": "un interrogatif" } ],
+      "cards": [
+        { "ar": "أَنَا", "category": 0 },
+        { "ar": "هٰذِهِ", "category": 1 },
+        { "ar": "أَيْنَ", "category": 2 },
+        { "ar": "كَيْفَ", "category": 2 },
+        { "ar": "نَحْنُ", "category": 0 },
+        { "ar": "ذٰلِكَ", "category": 1 },
+        { "ar": "هُمْ", "category": 0 },
+        { "ar": "مَاذَا", "category": 2 }
+      ],
+      "instruction": "Quelle sorte de nom invariable est-ce ?",
+      "explain": "Les pronoms parlent de quelqu'un ({ar|أَنَا}, {ar|نَحْنُ}, {ar|هُمْ}), les démonstratifs montrent ({ar|هٰذِهِ}, {ar|ذٰلِكَ}), les interrogatifs posent une question ({ar|أَيْنَ}, {ar|كَيْفَ}, {ar|مَاذَا})."
+    },
+    {
+      "id": "medine-t1.l11.practice-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Un nom invariable n'a pas de rôle dans la phrase." },
+      "answer": false,
+      "explain": "Il a un rôle (sujet, second terme d'une annexion…), mais sa terminaison ne le montre pas."
+    },
+    {
+      "id": "medine-t1.l11.practice-1#7",
+      "type": "order",
+      "fr": "Ta maison est belle (à un homme).",
+      "answers": [["بَيْتُكَ", "جَمِيلٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l11.practice-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ils sont musulmans.",
+      "answers": ["هُمْ مُسْلِمُونَ."]
+    },
+    {
+      "id": "medine-t1.l11.practice-1#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Votre ami est à l'école (à plusieurs).",
+      "answers": ["صَدِيقُكُمْ فِي الْمَدْرَسَةِ."]
+    }
+  ]
+}

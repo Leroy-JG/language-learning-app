@@ -1,0 +1,16 @@
+{
+  "id": "medine-t1.l11",
+  "number": 11,
+  "title": { "ar": "الدَّرْسُ الْحَادِيَ عَشَرَ", "fr": "Invariable et variable" },
+  "description": "Distinguer les noms variables des noms invariables, comprendre le nom suivi de {ar|◌ِي} (« mon »), savoir quand le {ar|هُ} devient {ar|هِ}, et dire « j'aime » avec {ar|أُحِبُّ}.",
+  "source": "Tome de Médine 1, leçon 11",
+  "sections": [
+    { "title": "Invariable ou variable ?", "activities": ["grammar-1", "grammar-2", "practice-1"] },
+    { "title": "Mon, ma, mes : le nom suivi de {ar|◌ِي}", "activities": ["grammar-3", "practice-2"] },
+    { "title": "Le {ar|هُ} qui devient {ar|هِ}", "activities": ["grammar-4"] },
+    { "title": "Aimer", "activities": ["vocab-1", "practice-3"] },
+    { "title": "Ma maison, ma famille", "activities": ["dialogue-1", "dialogue-2"] },
+    { "title": "La maison au pluriel", "activities": ["revue-1"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "medine-t1.l11.dialogue-2",
+  "type": "dialogue",
+  "title": "Ma famille",
+  "icon": "elder",
+  "screens": [
+    {
+      "id": "medine-t1.l11.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Ma famille",
+      "intro": "Le narrateur parle de la chambre de son frère et de sa sœur, puis de ses parents (texte du livre).",
+      "speakers": { "N": { "name": "Récit", "voice": "f1" } },
+      "lines": [
+        {
+          "speaker": "N",
+          "ar": "هٰذِهِ غُرْفَةُ أَخِي. وَتِلْكَ غُرْفَةُ أُخْتِي.",
+          "fr": "Voici la chambre de mon frère. Et celle-là est la chambre de ma sœur."
+        },
+        {
+          "speaker": "N",
+          "ar": "غُرْفَةُ أَخِي كَبِيرَةٌ وَغُرْفَةُ أُخْتِي صَغِيرَةٌ.",
+          "fr": "La chambre de mon frère est grande, et la chambre de ma sœur est petite."
+        },
+        {
+          "speaker": "N",
+          "ar": "غُرْفَةُ أَخِي أَمَامَ غُرْفَتِي وَغُرْفَةُ أُخْتِي أَمَامَ الْمَطْبَخِ.",
+          "fr": "La chambre de mon frère est devant ma chambre, et la chambre de ma sœur est devant la cuisine."
+        },
+        {
+          "speaker": "N",
+          "ar": "لِي أَخٌ وَاحِدٌ اسْمُهُ أُسَامَةُ، وَلِي أُخْتٌ وَاحِدَةٌ اسْمُهَا سُعَادُ.",
+          "fr": "J'ai un seul frère : son nom est Usāma. Et j'ai une seule sœur : son nom est Suʿād."
+        },
+        {
+          "speaker": "N",
+          "ar": "أَبِي وَأُمِّي فِي تِلْكَ الْغُرْفَةِ الْكَبِيرَةِ.",
+          "fr": "Mon père et ma mère sont dans cette grande chambre-là."
+        },
+        {
+          "speaker": "N",
+          "ar": "أَنَا أُحِبُّ أَبِي وَأُمِّي. وَأُحِبُّ أَخِي وَأُخْتِي.",
+          "fr": "J'aime mon père et ma mère. Et j'aime mon frère et ma sœur."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.dialogue-2#2",
+      "type": "tip",
+      "title": "Des prénoms et une petite phrase",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens"],
+          "rows": [
+            [
+              "{ar|أَخٌ وَاحِدٌ اسْمُهُ أُسَامَةُ}",
+              "un seul frère, son nom est Usāma : la phrase {ar|اسْمُهُ أُسَامَةُ} dit comment s'appelle ce frère"
+            ],
+            [
+              "{ar|أُسَامَةُ}, {ar|سُعَادُ}",
+              "des prénoms sans tanwin (comme {ar|حَمْزَةُ} ou {ar|فَاطِمَةُ}, mais pas {ar|زَيْدٌ}, qui en prend un). {ar|أُسَامَةُ} est un prénom d'homme, même s'il se termine par {ar|ة}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Combien de frères le narrateur a-t-il ?" },
+      "choices": [ { "fr": "Un seul" }, { "fr": "Deux" }, { "fr": "Aucun" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l11.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l11.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Comment s'appelle sa sœur ?" },
+      "choices": [ { "fr": "Suʿād" }, { "fr": "Usāma" }, { "fr": "Fāṭima" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l11.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l11.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "La chambre de son frère est devant la cuisine." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l11.dialogue-2#1" },
+      "explain": "Elle est devant la chambre du narrateur. C'est la chambre de sa sœur qui est devant la cuisine."
+    },
+    {
+      "id": "medine-t1.l11.dialogue-2#6",
+      "type": "question",
+      "prompt": { "fr": "Où sont son père et sa mère ?" },
+      "choices": [ { "fr": "Dans la grande chambre" }, { "fr": "Dans la cuisine" }, { "fr": "Devant la mosquée" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l11.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l11.dialogue-2#7",
+      "type": "fill_gap",
+      "sentence": "لِي {0} وَاحِدٌ.",
+      "fr": "J'ai un seul frère.",
+      "gaps": [ { "answers": ["أَخٌ"] } ],
+      "options": ["أَخٌ", "أُخْتٌ", "أُمٌّ"],
+      "explain": "{ar|وَاحِدٌ} est masculin : il s'accorde avec {ar|أَخٌ}. Pour une sœur, on dit {ar|وَاحِدَةٌ}."
+    },
+    {
+      "id": "medine-t1.l11.dialogue-2#8",
+      "type": "order",
+      "fr": "La chambre de ma sœur est petite.",
+      "answers": [["غُرْفَةُ", "أُخْتِي", "صَغِيرَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l11.dialogue-2#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai un seul frère.",
+      "answers": ["لِي أَخٌ وَاحِدٌ."]
+    },
+    {
+      "id": "medine-t1.l11.dialogue-2#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا اسْمُ أُخْتِكَ؟",
+      "answers": ["اسْمُهَا سُعَادُ."],
+      "fr": "Son nom est Suʿād.",
+      "instruction": "Réponds : son nom est Suʿād.",
+      "context": { "dialogue": "medine-t1.l11.dialogue-2#1" }
+    }
+  ]
+}

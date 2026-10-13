@@ -1,0 +1,159 @@
+{
+  "id": "medine-t1.l11.grammar-4",
+  "type": "grammar",
+  "title": "Le {ar|هُ} qui devient {ar|هِ}",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l11.grammar-4#1",
+      "type": "tip",
+      "title": "Le pronom de la 3ᵉ personne change de voyelle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu as vu que {ar|فِي} + {ar|هُ} donne {ar|فِيهِ}. Voici la règle complète : quand le pronom affixe de la 3ᵉ personne ({ar|هُ}, {ar|هُمَا}, {ar|هُمْ}, {ar|هُنَّ}) suit une **kasra** ou un **{ar|ي}** sans voyelle, il perd sa damma et prend une **kasra** (c'est plus facile à prononcer)."
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Après une damma, une fatha ou un sukun", "Après une kasra ou un {ar|ي}"],
+          "rows": [
+            ["{ar|هُ}", "{ar|كِتَابُهُ}, {ar|لَهُ}, {ar|مِنْهُ}", "{ar|فِيهِ}, {ar|عَلَيْهِ}"],
+            ["{ar|هُمَا}", "{ar|لَهُمَا}", "{ar|فِيهِمَا}, {ar|عَلَيْهِمَا}"],
+            ["{ar|هُمْ}", "{ar|لَهُمْ}", "{ar|فِيهِمْ}, {ar|عَلَيْهِمْ}"],
+            ["{ar|هُنَّ}", "{ar|لَهُنَّ}", "{ar|فِيهِنَّ}, {ar|إِلَيْهِنَّ}"],
+            ["{ar|هَا}", "{ar|لَهَا}", "{ar|فِيهَا}, {ar|عَلَيْهَا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Une seule exception : {ar|هَا} (elle). Il garde toujours sa fatha : {ar|فِيهَا}, {ar|عَلَيْهَا}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Il faut que la kasra ou le {ar|ي} soit **juste avant** le pronom. Si un sukun s'intercale ({ar|مِنْهُ}, {ar|مِنْهُمْ}), le pronom garde sa damma."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.grammar-4#2",
+      "type": "tip",
+      "title": "Décomposer",
+      "blocks": [
+        {
+          "type": "breakdown",
+          "ar": "فِيهِ",
+          "fr": "dedans, en lui",
+          "parts": [ { "ar": "فِي", "fr": "dans" }, { "ar": "هِ", "fr": "lui" } ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "عَلَيْهِمَا",
+          "fr": "sur eux deux",
+          "parts": [ { "ar": "عَلَيْ", "fr": "sur" }, { "ar": "هِمَا", "fr": "eux deux" } ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "فِيهَا",
+          "fr": "dedans, en elle",
+          "parts": [ { "ar": "فِي", "fr": "dans" }, { "ar": "هَا", "fr": "elle" } ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.grammar-4#3",
+      "type": "tip",
+      "title": "Aussi après un nom à la kasra",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La règle vaut aussi quand la kasra est celle du nom (après une préposition, ou comme second terme d'une annexion) :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "بَيْتُهُ", "fr": "sa maison (sujet)" },
+              "to": { "ar": "فِي بَيْتِهِ", "fr": "dans sa maison" },
+              "label": "la kasra du nom change {ar|هُ} en {ar|هِ}"
+            },
+            {
+              "from": { "ar": "كِتَابُهُمْ", "fr": "leur livre (sujet)" },
+              "to": { "ar": "فِي كِتَابِهِمْ", "fr": "dans leur livre" },
+              "label": "{ar|هُمْ} → {ar|هِمْ}"
+            },
+            {
+              "from": { "ar": "بَيْتُهَا", "fr": "sa maison à elle (sujet)" },
+              "to": { "ar": "فِي بَيْتِهَا", "fr": "dans sa maison à elle" },
+              "label": "{ar|هَا} ne change pas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.grammar-4#4",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle porte le {ar|ه} de {ar|فِيهِ} ?" },
+      "choices": [ { "fr": "une kasra" }, { "fr": "une damma" }, { "fr": "une fatha" } ],
+      "answer": 0,
+      "explain": "Le {ar|هُ} suit la kasra et le {ar|ي} de {ar|فِي} : il devient {ar|هِ}."
+    },
+    {
+      "id": "medine-t1.l11.grammar-4#5",
+      "type": "spot",
+      "instruction": "Touche le mot où le pronom a pris une kasra.",
+      "words": ["كِتَابُهُ", "فِي", "بَيْتِهِ."],
+      "answers": [2],
+      "fr": "Son livre est dans sa maison.",
+      "explain": "{ar|بَيْتِهِ} est après une préposition : sa kasra change {ar|هُ} en {ar|هِ}. {ar|كِتَابُهُ} est le sujet : damma, le pronom ne change pas."
+    },
+    {
+      "id": "medine-t1.l11.grammar-4#6",
+      "type": "true_false",
+      "statement": { "fr": "Après une kasra, le pronom {ar|هَا} devient {ar|هِ}, comme {ar|هُ}." },
+      "answer": false,
+      "explain": "Le pronom {ar|هَا} garde toujours sa fatha : {ar|فِيهَا}, {ar|عَلَيْهَا}."
+    },
+    {
+      "id": "medine-t1.l11.grammar-4#7",
+      "type": "fill_gap",
+      "sentence": "الْمَدْرَسَةُ كَبِيرَةٌ. {0} طُلَّابٌ.",
+      "fr": "L'école est grande. Il y a dedans des étudiants.",
+      "gaps": [ { "answers": ["فِيهَا"] } ],
+      "options": ["فِيهَا", "فِيهِ", "فِيهِمْ"],
+      "explain": "{ar|الْمَدْرَسَةُ} est féminin : {ar|فِيهَا}."
+    },
+    {
+      "id": "medine-t1.l11.grammar-4#8",
+      "type": "fill_gap",
+      "sentence": "هٰذَا بَيْتُ زَيْدٍ. فِي {0} حَدِيقَةٌ.",
+      "fr": "Voici la maison de Zayd. Dans sa maison, il y a un jardin.",
+      "gaps": [ { "answers": ["بَيْتِهِ"] } ],
+      "options": ["بَيْتِهِ", "بَيْتِهَا", "بَيْتِي"],
+      "explain": "Zayd est un homme : {ar|هِ}. Après {ar|فِي}, le nom prend la kasra et le {ar|هُ} devient {ar|هِ}."
+    },
+    {
+      "id": "medine-t1.l11.grammar-4#9",
+      "type": "order",
+      "fr": "Dans sa chambre, il y a une grande fenêtre.",
+      "answers": [["فِي", "غُرْفَتِهِ", "نَافِذَةٌ", "كَبِيرَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l11.grammar-4#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il y a dedans un petit jardin.",
+      "answers": ["فِيهِ حَدِيقَةٌ صَغِيرَةٌ."]
+    },
+    {
+      "id": "medine-t1.l11.grammar-4#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le livre est sur elle (la table).",
+      "answers": ["الْكِتَابُ عَلَيْهَا."]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "medine-t1.l11.revue-1",
+  "type": "review",
+  "title": "La maison au pluriel",
+  "icon": "house",
+  "screens": [
+    {
+      "id": "medine-t1.l11.revue-1#1",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:ghurfa", "w:nafidha", "w:haqiba", "w:mirwaha"]
+    },
+    {
+      "id": "medine-t1.l11.revue-1#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:sarir", "w:kursi", "w:maktab", "w:hadiqa"]
+    },
+    {
+      "id": "medine-t1.l11.revue-1#3",
+      "type": "sort",
+      "categories": [ { "fr": "un seul (singulier)" }, { "fr": "plusieurs (pluriel)" } ],
+      "cards": [
+        { "ar": "غُرْفَةٌ", "category": 0 },
+        { "ar": "نَوَافِذُ", "category": 1 },
+        { "ar": "حَقِيبَةٌ", "category": 0 },
+        { "ar": "مَرَاوِحُ", "category": 1 },
+        { "ar": "مَكْتَبٌ", "category": 0 },
+        { "ar": "مَكَاتِبُ", "category": 1 },
+        { "ar": "كُرْسِيٌّ", "category": 0 }
+      ],
+      "instruction": "Un seul ou plusieurs ?",
+      "explain": "{ar|نَوَافِذُ}, {ar|مَرَاوِحُ} et {ar|مَكَاتِبُ} sont des pluriels."
+    },
+    {
+      "id": "medine-t1.l11.revue-1#4",
+      "type": "true_false",
+      "statement": { "fr": "Le pluriel de {ar|حَقِيبَةٌ} est {ar|حَقَائِبُ}." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l11.revue-1#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Des chambres.",
+      "answers": ["غُرَفٌ", "غُرُفَاتٌ"]
+    },
+    {
+      "id": "medine-t1.l11.revue-1#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Des fenêtres.",
+      "answers": ["نَوَافِذُ"]
+    },
+    {
+      "id": "medine-t1.l11.revue-1#7",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:sayyara", "w:madrasa", "w:saa"]
+    }
+  ]
+}

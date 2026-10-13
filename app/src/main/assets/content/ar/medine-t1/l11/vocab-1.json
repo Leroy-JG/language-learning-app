@@ -1,0 +1,147 @@
+{
+  "id": "medine-t1.l11.vocab-1",
+  "type": "vocabulary",
+  "title": "Aimer",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t1.l11.vocab-1#1", "type": "present", "item": "w:ahabba" },
+    {
+      "id": "medine-t1.l11.vocab-1#2",
+      "type": "tip",
+      "title": "Les quatre formes du verbe « aimer »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme au chapitre 8 et à la révision 1, le verbe est cité **au passé, à la 3ᵉ personne du masculin singulier**. Voici ses quatre formes, données pour que tu les reconnaisses :"
+        },
+        {
+          "type": "table",
+          "header": ["Forme", "Arabe", "Sens"],
+          "rows": [
+            ["{ar|الْمَاضِي} (passé)", "{ar|أَحَبَّ}", "il a aimé"],
+            ["{ar|الْمُضَارِعُ} (présent, futur)", "{ar|يُحِبُّ}", "il aime"],
+            ["{ar|الْأَمْرُ} (impératif)", "{ar|أَحِبَّ}", "aime !"],
+            ["{ar|الْمَصْدَرُ} (nom d'action)", "{ar|إِحْبَابٌ}", "le fait d'aimer"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le professeur cite le nom d'action {ar|إِحْبَابٌ} ; on emploie surtout le nom {ar|حُبٌّ} (« l'amour »)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Tu n'as pas à apprendre toutes ces formes maintenant : retiens surtout {ar|أَحَبَّ}, {ar|يُحِبُّ} et {ar|أُحِبُّ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ahabba",
+      "distractors": ["w:kharaja", "w:dhahaba"]
+    },
+    { "id": "medine-t1.l11.vocab-1#4", "type": "present", "item": "w:yuhibbu" },
+    { "id": "medine-t1.l11.vocab-1#5", "type": "present", "item": "w:uhibbu" },
+    {
+      "id": "medine-t1.l11.vocab-1#6",
+      "type": "tip",
+      "title": "Il aime, j'aime",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La première lettre du présent dit **qui** fait l'action : un {ar|ي} pour « il » ({ar|يُحِبُّ}), un {ar|أ} pour « je » ({ar|أُحِبُّ}). Entre « je » et « il », le reste du mot ne change pas."
+        },
+        {
+          "type": "table",
+          "header": ["Qui aime ?", "Le verbe", "Exemple"],
+          "rows": [
+            ["il", "{ar|يُحِبُّ}", "{ar|زَيْدٌ يُحِبُّ أَخِي} (Zayd aime mon frère)"],
+            ["je", "{ar|أُحِبُّ}", "{ar|أُحِبُّ أَبِي وَأُمِّي} (j'aime mon père et ma mère)"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Ce qu'on aime est à l'accusatif ({ar|النَّصْبُ}, chapitre 5) : il prend la fatha. Avec {ar|◌ِي}, cette fatha est sous-entendue ({ar|أُحِبُّ أَبِي}). Sans {ar|◌ِي}, elle se voit : {ar|أُحِبُّ اللُّغَةَ الْعَرَبِيَّةَ}."
+        },
+        { "type": "note", "tone": "info", "text": "Tu étudieras la conjugaison complète plus tard." }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.vocab-1#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:uhibbu",
+      "distractors": ["w:yuhibbu", "w:kataba"]
+    },
+    {
+      "id": "medine-t1.l11.vocab-1#8",
+      "type": "fill_gap",
+      "sentence": "{0} أَخِي وَأُخْتِي.",
+      "fr": "J'aime mon frère et ma sœur.",
+      "gaps": [ { "answers": ["أُحِبُّ"] } ],
+      "options": ["أُحِبُّ", "يُحِبُّ"],
+      "explain": "« J'aime » : {ar|أُحِبُّ}. {ar|يُحِبُّ} veut dire « il aime »."
+    },
+    { "id": "medine-t1.l11.vocab-1#9", "type": "present", "item": "w:ahad-2" },
+    {
+      "id": "medine-t1.l11.vocab-1#10",
+      "type": "tip",
+      "title": "Quelqu'un, personne",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|أَحَدٌ} s'emploie surtout dans une question (« quelqu'un ? ») ou après une négation. Après la négation {ar|مَا}, il veut dire « personne »."
+        },
+        {
+          "type": "table",
+          "header": ["Question", "Réponse « non »"],
+          "rows": [
+            [
+              "{ar|أَفِي الْغُرْفَةِ أَحَدٌ؟} (Y a-t-il quelqu'un dans la chambre ?)",
+              "{ar|لَا، مَا فِي الْغُرْفَةِ أَحَدٌ.} (Non, il n'y a personne dans la chambre.)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Tu connais déjà {ar|مَا} devant une phrase : c'est la négation (chapitre 10)."
+        }
+      ]
+    },
+    { "id": "medine-t1.l11.vocab-1#11", "type": "present", "item": "w:nabi" },
+    {
+      "id": "medine-t1.l11.vocab-1#12",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:yuhibbu", "w:uhibbu", "w:ahad-2", "w:nabi"]
+    },
+    {
+      "id": "medine-t1.l11.vocab-1#13",
+      "type": "order",
+      "fr": "J'aime mon père et ma mère.",
+      "answers": [["أَنَا", "أُحِبُّ", "أَبِي", "وَأُمِّي"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l11.vocab-1#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'aime ma mère.",
+      "answers": ["أُحِبُّ أُمِّي.", "أَنَا أُحِبُّ أُمِّي."]
+    },
+    {
+      "id": "medine-t1.l11.vocab-1#15",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَفِي الْغُرْفَةِ أَحَدٌ؟",
+      "answers": ["لَا، مَا فِي الْغُرْفَةِ أَحَدٌ.", "مَا فِي الْغُرْفَةِ أَحَدٌ."],
+      "fr": "Non, il n'y a personne dans la chambre.",
+      "instruction": "Réponds : non, il n'y a personne dans la chambre."
+    }
+  ]
+}

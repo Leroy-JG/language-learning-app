@@ -1,0 +1,115 @@
+{
+  "id": "medine-t1.l11.grammar-1",
+  "type": "grammar",
+  "title": "Le nom variable",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l11.grammar-1#1",
+      "type": "tip",
+      "title": "La fin du nom change",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Depuis les chapitres 4 et 5, tu sais que la terminaison d'un nom change selon son rôle dans la phrase : c'est {ar|الْإِعْرَابُ}. Voici les trois cas :"
+        },
+        {
+          "type": "table",
+          "header": ["Cas", "Dans la phrase…", "Terminaison du nom"],
+          "rows": [
+            ["{ar|الرَّفْعُ} (nominatif)", "{ar|زَيْدٌ فِي الْفَصْلِ}", "{ar|زَيْدٌ} : damma"],
+            ["{ar|النَّصْبُ} (accusatif)", "{ar|قَرَأْتُ كِتَابًا}", "{ar|كِتَابًا} : fatha"],
+            ["{ar|الْجَرُّ} (génitif)", "{ar|السَّلَامُ عَلَى زَيْدٍ}", "{ar|زَيْدٍ} : kasra"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans {ar|زَيْدٌ} et {ar|زَيْدٍ}, c'est le même nom : seule sa terminaison a changé, parce que son rôle n'est pas le même."
+        }
+      ]
+    },
+    { "id": "medine-t1.l11.grammar-1#2", "type": "present", "item": "w:muarab" },
+    {
+      "id": "medine-t1.l11.grammar-1#3",
+      "type": "tip",
+      "title": "Un nom est en général variable",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour un nom, **la base est d'être variable** : sa terminaison change selon son rôle. On dit alors qu'il est {ar|مُعْرَبٌ}."
+        },
+        { "type": "example", "ar": "كِتَابٌ اسْمٌ مُعْرَبٌ.", "fr": "« Livre » est un nom variable." },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "« Variable » ne veut pas dire que le mot change de sens : seule sa **terminaison** change."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Un nom reste variable même quand on ne voit pas le changement : le nom maqṣūr ({ar|مُسْتَشْفًى}, chapitre 8) a un cas « sous-entendu ». Tu vas en voir un autre exemple dans ce chapitre."
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "{ar|مُعْرَبٌ} vient de {ar|الْإِعْرَابُ}, qui veut dire « rendre clair » : la terminaison d'un nom variable **montre** son rôle."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.grammar-1#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:muarab",
+      "distractors": ["w:irab", "w:nasb"]
+    },
+    {
+      "id": "medine-t1.l11.grammar-1#5",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|زَيْدٌ فِي الْفَصْلِ} puis dans {ar|السَّلَامُ عَلَى زَيْدٍ}, que se passe-t-il pour {ar|زَيْدٌ} ?"
+      },
+      "choices": [
+        { "fr": "C'est le même nom : sa terminaison change selon son rôle" },
+        { "fr": "Ce sont deux noms différents" },
+        { "fr": "Sa terminaison ne change jamais" }
+      ],
+      "answer": 0,
+      "explain": "{ar|زَيْدٌ} est le sujet dans la première phrase (damma) ; dans la seconde, il suit la préposition {ar|عَلَى} (kasra). C'est un nom variable."
+    },
+    {
+      "id": "medine-t1.l11.grammar-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Un nom variable ({ar|مُعْرَبٌ}) garde toujours la même terminaison." },
+      "answer": false,
+      "explain": "Au contraire : sa terminaison change selon son rôle dans la phrase."
+    },
+    {
+      "id": "medine-t1.l11.grammar-1#7",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle finale prend {ar|زَيْدٌ} après la préposition {ar|عَلَى} ?" },
+      "choices": [
+        { "fr": "la kasra : {ar|زَيْدٍ}" },
+        { "fr": "la damma : {ar|زَيْدٌ}" },
+        { "fr": "la fatha : {ar|زَيْدًا}" }
+      ],
+      "answer": 0,
+      "explain": "Après une préposition, le nom est au génitif ({ar|الْجَرُّ}) : il prend la kasra."
+    },
+    {
+      "id": "medine-t1.l11.grammar-1#8",
+      "type": "order",
+      "fr": "Que la paix soit sur Zayd.",
+      "answers": [["السَّلَامُ", "عَلَى", "زَيْدٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l11.grammar-1#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd est dans la salle de classe.",
+      "answers": ["زَيْدٌ فِي الْفَصْلِ."]
+    },
+    { "id": "medine-t1.l11.grammar-1#10", "type": "typing", "ask": "fr", "item": "w:muarab" }
+  ]
+}
