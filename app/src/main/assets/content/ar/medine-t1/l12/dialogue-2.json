@@ -1,0 +1,172 @@
+{
+  "id": "medine-t1.l12.dialogue-2",
+  "type": "dialogue",
+  "title": "La cousine et l'enfant",
+  "icon": "elder",
+  "screens": [
+    {
+      "id": "medine-t1.l12.dialogue-2#1",
+      "type": "dialogue",
+      "title": "La cousine et le petit garçon",
+      "intro": "Suʿād remarque une jeune fille et un enfant qui sont avec Āmina.",
+      "speakers": { "A": { "name": "Suʿād", "voice": "f1" }, "B": { "name": "Āmina", "voice": "f1" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "وَمَنْ هٰذِهِ الْفَتَاةُ الَّتِي مَعَكِ؟",
+          "fr": "Et qui est cette jeune fille qui est avec toi ?"
+        },
+        { "speaker": "A", "ar": "أَهِيَ أُخْتُكِ؟", "fr": "Est-ce ta sœur ?" },
+        { "speaker": "B", "ar": "لَا. هِيَ بِنْتُ عَمِّي.", "fr": "Non. C'est la fille de mon oncle paternel." },
+        { "speaker": "A", "ar": "مَا اسْمُهَا؟", "fr": "Quel est son nom ?" },
+        { "speaker": "B", "ar": "اِسْمُهَا فَاطِمَةُ.", "fr": "Son nom est Fāṭima." },
+        { "speaker": "A", "ar": "أَهِيَ زَمِيلَتُكِ؟", "fr": "Est-elle ta camarade ?" },
+        {
+          "speaker": "B",
+          "ar": "لَا. أَنَا فِي الْمَدْرَسَةِ الْمُتَوَسِّطَةِ وَهِيَ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ.",
+          "fr": "Non. Je suis au collège et elle est au lycée."
+        },
+        { "speaker": "A", "ar": "أَلَكِ أُخْتٌ؟", "fr": "As-tu une sœur ?" },
+        { "speaker": "B", "ar": "لَا. مَا لِي أُخْتٌ.", "fr": "Non. Je n'ai pas de sœur." },
+        { "speaker": "A", "ar": "أَلَكِ أَخٌ؟", "fr": "As-tu un frère ?" },
+        {
+          "speaker": "B",
+          "ar": "نَعَمْ. لِي أَخٌ كَبِيرٌ وَهُوَ طَالِبٌ بِالْجَامِعَةِ.",
+          "fr": "Oui. J'ai un grand frère et il est étudiant à l'université."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَمَنْ هٰذَا الطِّفْلُ الَّذِي مَعَكِ؟",
+          "fr": "Et qui est cet enfant qui est avec toi ?"
+        },
+        { "speaker": "B", "ar": "هُوَ ابْنُ أَخِي.", "fr": "C'est le fils de mon frère." },
+        { "speaker": "A", "ar": "مَا اسْمُهُ؟", "fr": "Quel est son nom ?" },
+        { "speaker": "B", "ar": "اِسْمُهُ سَعْدٌ.", "fr": "Son nom est Saʿd." },
+        {
+          "speaker": "A",
+          "ar": "أَأُمُّكِ فِي الْبَيْتِ الْآنَ؟",
+          "fr": "Ta mère est-elle à la maison maintenant ?"
+        },
+        { "speaker": "B", "ar": "لَا. ذَهَبَتْ إِلَى الْمُسْتَشْفَى.", "fr": "Non. Elle est allée à l'hôpital." }
+      ]
+    },
+    {
+      "id": "medine-t1.l12.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans ce dialogue, trois formes n'ont pas encore été étudiées. Tu peux déjà les comprendre :"
+        },
+        {
+          "type": "table",
+          "header": ["Dans le dialogue", "Sens"],
+          "rows": [
+            [
+              "{ar|الَّتِي}",
+              "qui, que : ce mot relie « cette jeune fille » à « qui est avec toi ». On l'emploie ici après un nom féminin singulier défini."
+            ],
+            [
+              "{ar|الَّذِي}",
+              "qui, que : la forme du masculin (« cet enfant qui est avec toi »). Tu l'as déjà aperçu au chapitre 10."
+            ],
+            ["{ar|بِالْجَامِعَةِ}", "à l'université : la particule {ar|بِ} se colle au mot qui suit (chapitre 10)."]
+          ]
+        },
+        { "type": "note", "text": "Tu n'as pas à les apprendre maintenant : tu les étudieras plus tard." }
+      ]
+    },
+    {
+      "id": "medine-t1.l12.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Qui est la jeune fille qui est avec Āmina ?" },
+      "choices": [
+        { "fr": "Sa cousine, la fille de son oncle paternel" },
+        { "fr": "Sa sœur" },
+        { "fr": "Sa camarade de classe" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l12.dialogue-2#1" },
+      "explain": "{ar|هِيَ بِنْتُ عَمِّي} : « c'est la fille de mon oncle paternel »."
+    },
+    {
+      "id": "medine-t1.l12.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Qui est le petit garçon ?" },
+      "choices": [ { "fr": "Le fils de son frère" }, { "fr": "Son frère" }, { "fr": "Le fils de son oncle paternel" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l12.dialogue-2#1" },
+      "explain": "{ar|هُوَ ابْنُ أَخِي} : « c'est le fils de mon frère »."
+    },
+    {
+      "id": "medine-t1.l12.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Āmina a une sœur." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l12.dialogue-2#1" },
+      "explain": "{ar|مَا لِي أُخْتٌ} : « je n'ai pas de sœur »."
+    },
+    {
+      "id": "medine-t1.l12.dialogue-2#6",
+      "type": "true_false",
+      "statement": { "fr": "Āmina est au collège et Fāṭima est au lycée." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l12.dialogue-2#1" },
+      "explain": "{ar|أَنَا فِي الْمَدْرَسَةِ الْمُتَوَسِّطَةِ وَهِيَ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ}."
+    },
+    {
+      "id": "medine-t1.l12.dialogue-2#7",
+      "type": "fill_gap",
+      "sentence": "لَا. {0} إِلَى الْمُسْتَشْفَى.",
+      "fr": "Non. Elle est allée à l'hôpital.",
+      "gaps": [ { "answers": ["ذَهَبَتْ"] } ],
+      "options": ["ذَهَبَتْ", "ذَهَبَ"],
+      "context": { "dialogue": "medine-t1.l12.dialogue-2#1" },
+      "explain": "Le sujet sous-entendu est la mère d'Āmina : le verbe est au féminin."
+    },
+    {
+      "id": "medine-t1.l12.dialogue-2#8",
+      "type": "fill_gap",
+      "sentence": "{0} فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ.",
+      "fr": "Elle est au lycée.",
+      "gaps": [ { "answers": ["هِيَ"] } ],
+      "options": ["هِيَ", "هُوَ"],
+      "context": { "dialogue": "medine-t1.l12.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l12.dialogue-2#9",
+      "type": "order",
+      "fr": "Est-ce ta camarade ?",
+      "answers": [["أَهِيَ", "زَمِيلَتُكِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l12.dialogue-2#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَلَكِ أُخْتٌ؟",
+      "answers": ["لَا. مَا لِي أُخْتٌ.", "مَا لِي أُخْتٌ."],
+      "fr": "Non. Je n'ai pas de sœur.",
+      "instruction": "Réponds : non, je n'ai pas de sœur.",
+      "context": { "dialogue": "medine-t1.l12.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l12.dialogue-2#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَأُمُّكِ فِي الْبَيْتِ الْآنَ؟",
+      "answers": ["لَا. ذَهَبَتْ إِلَى الْمُسْتَشْفَى.", "ذَهَبَتْ إِلَى الْمُسْتَشْفَى."],
+      "fr": "Non. Elle est allée à l'hôpital.",
+      "instruction": "Réponds : non, elle est allée à l'hôpital.",
+      "context": { "dialogue": "medine-t1.l12.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l12.dialogue-2#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "C'est le fils de mon frère.",
+      "answers": ["هُوَ ابْنُ أَخِي."]
+    }
+  ]
+}

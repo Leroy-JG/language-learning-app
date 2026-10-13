@@ -1,0 +1,130 @@
+{
+  "id": "medine-t1.l12.grammar-4",
+  "type": "grammar",
+  "title": "À un homme, à une femme",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l12.grammar-4#1",
+      "type": "tip",
+      "title": "À un homme, à une femme",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu parles à une **femme** ? Le suffixe {ar|كَ} (« ton, ta, toi », chapitre 10) et le pronom {ar|أَنْتَ} changent de voyelle : la fatha devient une kasra."
+        },
+        {
+          "type": "table",
+          "header": ["À un homme", "À une femme", "Sens"],
+          "rows": [
+            ["{ar|أَنْتَ}", "{ar|أَنْتِ}", "tu"],
+            ["{ar|حَالُكَ}", "{ar|حَالُكِ}", "ton état"],
+            ["{ar|لَكَ}", "{ar|لَكِ}", "à toi"],
+            ["{ar|عَلَيْكَ}", "{ar|عَلَيْكِ}", "sur toi"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Sans les voyelles, les deux formes s'écrivent pareil. C'est le mot qui interpelle ({ar|يَا أَبِي}, {ar|يَا أُمِّي}) qui dit à qui l'on parle."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l12.grammar-4#2",
+      "type": "tip",
+      "title": "Le livre : on change d'interlocuteur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur fait lire chaque phrase, puis la refaire en changeant la personne à qui l'on parle :"
+        },
+        {
+          "type": "compare",
+          "title": "À un homme → à une femme",
+          "rows": [
+            {
+              "from": { "ar": "أَيْنَ قَلَمُكَ يَا أَبِي؟", "fr": "Où est ton stylo, mon père ?" },
+              "to": { "ar": "أَيْنَ قَلَمُكِ يَا أُمِّي؟", "fr": "Où est ton stylo, ma mère ?" }
+            },
+            {
+              "from": { "ar": "أَعِنْدَكَ قَلَمٌ يَا مُحَمَّدُ؟", "fr": "As-tu un stylo, Muḥammad ?" },
+              "to": { "ar": "أَعِنْدَكِ قَلَمٌ يَا آمِنَةُ؟", "fr": "As-tu un stylo, Āmina ?" }
+            },
+            {
+              "from": { "ar": "مِنْ أَيْنَ أَنْتَ يَا أَخِي؟", "fr": "D'où viens-tu, mon frère ?" },
+              "to": { "ar": "مِنْ أَيْنَ أَنْتِ يَا أُخْتِي؟", "fr": "D'où viens-tu, ma sœur ?" }
+            },
+            {
+              "from": { "ar": "السَّلَامُ عَلَيْكَ يَا أَبِي", "fr": "Que la paix soit sur toi, mon père" },
+              "to": { "ar": "السَّلَامُ عَلَيْكِ يَا أُمِّي", "fr": "Que la paix soit sur toi, ma mère" }
+            }
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t1.l12.grammar-4#3", "type": "present", "item": "p:kayfa-haluki" },
+    { "id": "medine-t1.l12.grammar-4#4", "type": "present", "item": "p:ma-ismuki" },
+    { "id": "medine-t1.l12.grammar-4#5", "type": "present", "item": "p:min-ayna-anti" },
+    {
+      "id": "medine-t1.l12.grammar-4#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "p:kayfa-haluki",
+      "distractors": ["p:ma-ismuki", "p:min-ayna-anti"]
+    },
+    {
+      "id": "medine-t1.l12.grammar-4#7",
+      "type": "sort",
+      "categories": [ { "fr": "à un homme" }, { "fr": "à une femme" } ],
+      "cards": [
+        { "ar": "كَيْفَ حَالُكَ يَا أَبِي؟", "category": 0 },
+        { "ar": "أَيْنَ أَبُوكِ يَا خَدِيجَةُ؟", "category": 1 },
+        { "ar": "مِنْ أَيْنَ أَنْتَ يَا أَخِي؟", "category": 0 },
+        { "ar": "مَا اسْمُكِ يَا بِنْتُ؟", "category": 1 },
+        { "ar": "السَّلَامُ عَلَيْكَ يَا مُحَمَّدُ.", "category": 0 },
+        { "ar": "أَلَكِ أَخٌ يَا سُعَادُ؟", "category": 1 }
+      ],
+      "instruction": "À qui parle-t-on ? Regarde le mot qui interpelle.",
+      "explain": "{ar|أَبِي}, {ar|أَخِي} et {ar|مُحَمَّدُ} désignent des hommes ; {ar|خَدِيجَةُ}, {ar|بِنْتُ} et {ar|سُعَادُ}, des femmes."
+    },
+    {
+      "id": "medine-t1.l12.grammar-4#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أَيْنَ قَلَمُكِ يَا آمِنَةُ؟}, quelle voyelle porte le {ar|ك} final ?" },
+      "choices": [
+        { "fr": "Une kasra : on parle à une femme" },
+        { "fr": "Une fatha : on parle à une femme" },
+        { "fr": "Une damma : on parle à une femme" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l12.grammar-4#9",
+      "type": "order",
+      "fr": "Comment vas-tu, maman ?",
+      "answers": [["كَيْفَ", "حَالُكِ", "يَا", "أُمِّي"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l12.grammar-4#10",
+      "type": "order",
+      "fr": "D'où viens-tu, ma sœur ?",
+      "answers": [["مِنْ", "أَيْنَ", "أَنْتِ", "يَا", "أُخْتِي"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l12.grammar-4#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Où est ton père, Khadīja ?",
+      "answers": ["أَيْنَ أَبُوكِ يَا خَدِيجَةُ؟"]
+    },
+    {
+      "id": "medine-t1.l12.grammar-4#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Où est ton fils, Zaynab ?",
+      "answers": ["أَيْنَ ابْنُكِ يَا زَيْنَبُ؟"]
+    }
+  ]
+}

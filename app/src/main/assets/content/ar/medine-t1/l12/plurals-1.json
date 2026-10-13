@@ -1,0 +1,96 @@
+{
+  "id": "medine-t1.l12.plurals-1",
+  "type": "vocabulary",
+  "title": "Les pluriels",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l12.plurals-1#1",
+      "type": "tip",
+      "title": "Les pluriels de la leçon",
+      "blocks": [
+        { "type": "paragraph", "text": "Voici les pluriels que donne le livre :" },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Remarque"],
+          "rows": [
+            ["{ar|رَحْمَةٌ}", "{ar|رَحَمَاتٌ}", "féminin en -āt ; le sukūn devient une fatha"],
+            ["{ar|بَرَكَةٌ}", "{ar|بَرَكَاتٌ}", "féminin en -āt"],
+            ["{ar|فَتَاةٌ}", "{ar|فَتَيَاتٌ}", "féminin en -āt"],
+            ["{ar|وِلَادَةٌ}", "{ar|وِلَادَاتٌ}", "féminin en -āt"],
+            ["{ar|مُوَجِّهٌ}", "{ar|مُوَجِّهُونَ}", "hommes, en -ūna"],
+            ["{ar|حَالٌ}", "{ar|أَحْوَالٌ}", "pluriel brisé : à apprendre"],
+            ["{ar|شَجَرَةٌ}", "{ar|شَجَرٌ}", "nom collectif (« les arbres »)"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les noms féminins en {ar|ة} prennent souvent le pluriel en « -āt » : le {ar|ة} disparaît et la terminaison « -āt » s'ajoute. Ce n'est pas une règle sans exception : certains forment un pluriel brisé."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l12.plurals-1#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:rahma", "w:baraka", "w:fatat", "w:wilada"]
+    },
+    {
+      "id": "medine-t1.l12.plurals-1#3",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:hal", "w:muwajjih", "w:shajara"]
+    },
+    {
+      "id": "medine-t1.l12.plurals-1#4",
+      "type": "sort",
+      "categories": [ { "fr": "pluriel en -āt (féminin)" }, { "fr": "pluriel en -ūna (hommes)" }, { "fr": "autre forme" } ],
+      "cards": [
+        { "ar": "رَحَمَاتٌ", "category": 0 },
+        { "ar": "بَرَكَاتٌ", "category": 0 },
+        { "ar": "فَتَيَاتٌ", "category": 0 },
+        { "ar": "مُوَجِّهُونَ", "category": 1 },
+        { "ar": "أَحْوَالٌ", "category": 2 },
+        { "ar": "شَجَرٌ", "category": 2 }
+      ],
+      "instruction": "Range chaque pluriel selon sa forme."
+    },
+    {
+      "id": "medine-t1.l12.plurals-1#5",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|فَتَاةٌ} ?" },
+      "choices": [ { "ar": "فَتَيَاتٌ" }, { "ar": "فِتْيَةٌ" } ],
+      "answer": 0,
+      "explain": "{ar|فِتْيَةٌ} est le pluriel du masculin {ar|فَتًى} (chapitre 10)."
+    },
+    {
+      "id": "medine-t1.l12.plurals-1#6",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|مُوَجِّهٌ} (un conseiller) ?" },
+      "choices": [ { "ar": "مُوَجِّهُونَ" }, { "ar": "مُوَجِّهَاتٌ" } ],
+      "answer": 0,
+      "explain": "{ar|مُوَجِّهٌ} désigne un homme : pluriel en -ūna. {ar|مُوَجِّهَاتٌ} serait le pluriel de {ar|مُوَجِّهَةٌ} (des conseillères)."
+    },
+    {
+      "id": "medine-t1.l12.plurals-1#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des bénédictions",
+      "answers": ["بَرَكَاتٌ"]
+    },
+    {
+      "id": "medine-t1.l12.plurals-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des jeunes filles",
+      "answers": ["فَتَيَاتٌ"]
+    },
+    {
+      "id": "medine-t1.l12.plurals-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des états",
+      "answers": ["أَحْوَالٌ"]
+    }
+  ]
+}

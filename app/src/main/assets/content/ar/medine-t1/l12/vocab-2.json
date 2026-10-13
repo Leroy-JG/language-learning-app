@@ -1,0 +1,100 @@
+{
+  "id": "medine-t1.l12.vocab-2",
+  "type": "vocabulary",
+  "title": "À l'école",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t1.l12.vocab-2#1", "type": "present", "item": "w:fatat" },
+    { "id": "medine-t1.l12.vocab-2#2", "type": "present", "item": "w:zamila" },
+    {
+      "id": "medine-t1.l12.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:zamila",
+      "distractors": ["w:zamil", "w:tabiba"]
+    },
+    {
+      "id": "medine-t1.l12.vocab-2#4",
+      "type": "tip",
+      "title": "Du masculin au féminin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais déjà les masculins de ces mots. Le féminin des personnes se forme en général avec le {ar|ة} (chapitre 6) :"
+        },
+        {
+          "type": "compare",
+          "title": "Masculin → féminin",
+          "rows": [
+            {
+              "from": { "ar": "طَبِيبٌ", "fr": "un médecin" },
+              "to": { "ar": "طَبِيبَةٌ", "fr": "une femme médecin" }
+            },
+            { "from": { "ar": "زَمِيلٌ", "fr": "un camarade" }, "to": { "ar": "زَمِيلَةٌ", "fr": "une camarade" } },
+            {
+              "from": { "ar": "فَتًى", "fr": "un jeune homme" },
+              "to": { "ar": "فَتَاةٌ", "fr": "une jeune fille" },
+              "label": "la terminaison change"
+            }
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t1.l12.vocab-2#5", "type": "present", "item": "w:muwajjih" },
+    { "id": "medine-t1.l12.vocab-2#6", "type": "present", "item": "w:mutawassita" },
+    {
+      "id": "medine-t1.l12.vocab-2#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:fatat",
+      "distractors": ["w:fata", "w:talibat"]
+    },
+    {
+      "id": "medine-t1.l12.vocab-2#8",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:mutawassita",
+      "distractors": ["w:thanawiyya", "w:madrasa"]
+    },
+    {
+      "id": "medine-t1.l12.vocab-2#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:fatat", "w:zamila", "w:muwajjih", "w:mutawassita"]
+    },
+    {
+      "id": "medine-t1.l12.vocab-2#10",
+      "type": "fill_gap",
+      "sentence": "أَخِي {0} فِي الْمَدْرَسَةِ.",
+      "fr": "Mon frère est conseiller à l'école.",
+      "gaps": [ { "answers": ["مُوَجِّهٌ"] } ],
+      "options": ["مُوَجِّهٌ", "فَتَاةٌ", "زَمِيلَةٌ"],
+      "explain": "« Mon frère » est un homme : le nom est masculin."
+    },
+    {
+      "id": "medine-t1.l12.vocab-2#11",
+      "type": "order",
+      "fr": "Ma camarade est au collège.",
+      "answers": [["زَمِيلَتِي", "فِي", "الْمُتَوَسِّطَةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l12.vocab-2#12",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ هٰذِهِ؟",
+      "answers": ["هٰذِهِ فَتَاةٌ.", "هٰذِهِ بِنْتٌ.", "هِيَ فَتَاةٌ.", "هِيَ بِنْتٌ.", "فَتَاةٌ."],
+      "fr": "C'est une jeune fille.",
+      "instruction": "Réponds : c'est une jeune fille.",
+      "context": { "icon": "girl" }
+    },
+    { "id": "medine-t1.l12.vocab-2#13", "type": "typing", "ask": "fr", "item": "w:muwajjih" },
+    {
+      "id": "medine-t1.l12.vocab-2#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Mon frère est conseiller à l'école.",
+      "answers": ["أَخِي مُوَجِّهٌ فِي الْمَدْرَسَةِ."]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "medine-t1.l12.practice-4",
+  "type": "vocabulary",
+  "title": "Qui est-ce ? À qui est-ce ?",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l12.practice-4#1",
+      "type": "tip",
+      "title": "Qui ? À qui ?",
+      "blocks": [
+        { "type": "paragraph", "text": "Voici quatre questions du livre. Lis-les en écoutant :" },
+        {
+          "type": "example",
+          "ar": "مَنِ الْفَتَى الَّذِي خَرَجَ مِنْ بَيْتِكَ الْآنَ؟ هُوَ ابْنُ عَمِّي.",
+          "fr": "Qui est le jeune homme qui est sorti de ta maison maintenant ? C'est le fils de mon oncle paternel."
+        },
+        {
+          "type": "example",
+          "ar": "مَنِ الْفَتَاةُ الَّتِي خَرَجَتْ مِنْ بَيْتِكَ الْآنَ يَا مُحَمَّدُ؟ هِيَ بِنْتُ خَالِي.",
+          "fr": "Qui est la jeune fille qui est sortie de ta maison maintenant, Muḥammad ? C'est la fille de mon oncle maternel."
+        },
+        {
+          "type": "example",
+          "ar": "لِمَنِ الْمِفْتَاحُ الَّذِي عَلَى الْمَكْتَبِ؟ هُوَ لِلْمُدَرِّسِ.",
+          "fr": "À qui est la clé qui est sur le bureau ? C'est à l'enseignant."
+        },
+        {
+          "type": "example",
+          "ar": "لِمَنِ السَّاعَةُ الَّتِي عَلَى السَّرِيرِ؟ هِيَ لِزَوْجِ أُخْتِي.",
+          "fr": "À qui est la montre qui est sur le lit ? C'est à l'époux de ma sœur."
+        },
+        {
+          "type": "note",
+          "text": "{ar|مَنْ} et {ar|لِمَنْ} prennent une kasra devant l'article : {ar|مَنِ الْفَتَى}, {ar|لِمَنِ الْمِفْتَاحُ} (chapitre 3) : c'est un simple enchaînement, pas un changement de cas ; {ar|مَنْ} reste invariable. Et dans {ar|خَرَجَتْ مِنْ بَيْتِكَ}, le {ar|ت} du féminin garde son sukūn : le mot suivant, {ar|مِنْ}, ne commence pas par l'article."
+        },
+        {
+          "type": "note",
+          "text": "{ar|الَّذِي} (pour un nom masculin) et {ar|الَّتِي} (pour un nom féminin) veulent dire « qui, que ». Tu les étudieras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l12.practice-4#2",
+      "type": "fill_gap",
+      "sentence": "{0} الْفَتَاةُ الَّتِي خَرَجَتْ مِنْ بَيْتِكَ؟ هِيَ بِنْتُ خَالِي.",
+      "fr": "Qui est la jeune fille qui est sortie de ta maison ? C'est la fille de mon oncle maternel.",
+      "gaps": [ { "answers": ["مَنِ"] } ],
+      "options": ["مَنِ", "لِمَنِ"]
+    },
+    {
+      "id": "medine-t1.l12.practice-4#3",
+      "type": "fill_gap",
+      "sentence": "{0} الْمِفْتَاحُ الَّذِي عَلَى الْمَكْتَبِ؟ هُوَ لِلْمُدَرِّسِ.",
+      "fr": "À qui est la clé qui est sur le bureau ? C'est à l'enseignant.",
+      "gaps": [ { "answers": ["لِمَنِ"] } ],
+      "options": ["لِمَنِ", "مَنِ"]
+    },
+    {
+      "id": "medine-t1.l12.practice-4#4",
+      "type": "order",
+      "fr": "À qui est la montre ?",
+      "answers": [["لِمَنِ", "السَّاعَةُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l12.practice-4#5",
+      "type": "order",
+      "fr": "Qui est le jeune homme ?",
+      "answers": [["مَنِ", "الْفَتَى"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l12.practice-4#6",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans {ar|مَنِ الْفَتَاةُ الَّتِي خَرَجَتْ مِنْ بَيْتِكَ الْآنَ يَا مُحَمَّدُ؟ هِيَ بِنْتُ خَالِي}, la jeune fille est la fille de l'oncle paternel de Muḥammad."
+      },
+      "answer": false,
+      "explain": "{ar|خَالٌ} est l'oncle maternel : {ar|بِنْتُ خَالِي} est la fille de mon oncle maternel."
+    },
+    {
+      "id": "medine-t1.l12.practice-4#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَنِ الْمِفْتَاحُ الَّذِي عَلَى الْمَكْتَبِ؟",
+      "answers": ["هُوَ لِلْمُدَرِّسِ.", "هٰذَا لِلْمُدَرِّسِ.", "لِلْمُدَرِّسِ."],
+      "fr": "C'est à l'enseignant.",
+      "instruction": "Réponds : c'est à l'enseignant."
+    },
+    {
+      "id": "medine-t1.l12.practice-4#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَنِ السَّاعَةُ الَّتِي عَلَى السَّرِيرِ؟",
+      "answers": ["هِيَ لِزَوْجِ أُخْتِي.", "هٰذِهِ لِزَوْجِ أُخْتِي.", "لِزَوْجِ أُخْتِي."],
+      "fr": "C'est à l'époux de ma sœur.",
+      "instruction": "Réponds : c'est à l'époux de ma sœur."
+    },
+    {
+      "id": "medine-t1.l12.practice-4#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "C'est la fille de mon oncle maternel.",
+      "answers": ["هِيَ بِنْتُ خَالِي."]
+    },
+    {
+      "id": "medine-t1.l12.practice-4#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Qui est le jeune homme ?",
+      "answers": ["مَنِ الْفَتَى؟"]
+    }
+  ]
+}

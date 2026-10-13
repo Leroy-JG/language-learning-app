@@ -1,0 +1,137 @@
+{
+  "id": "medine-t1.l12.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 12",
+  "screens": [
+    {
+      "id": "medine-t1.l12.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ism-istifham",
+      "distractors": ["w:ism-ishara", "w:damir"]
+    },
+    {
+      "id": "medine-t1.l12.quiz#2",
+      "type": "fill_gap",
+      "sentence": "{0} حَالُ أَخِيكَ؟ هُوَ بِخَيْرٍ.",
+      "fr": "Comment va ton frère ? Il va bien.",
+      "gaps": [ { "answers": ["كَيْفَ"] } ],
+      "options": ["كَيْفَ", "أَيْنَ", "مَنْ"]
+    },
+    {
+      "id": "medine-t1.l12.quiz#3",
+      "type": "true_false",
+      "statement": { "fr": "Une préposition peut se placer devant un nom interrogatif : {ar|مِنْ أَيْنَ أَنْتَ؟}" },
+      "answer": true,
+      "explain": "Le nom interrogatif se place en tête de la question, mais une préposition ou {ar|وَ} peut passer devant lui."
+    },
+    {
+      "id": "medine-t1.l12.quiz#4",
+      "type": "spot",
+      "instruction": "Touche le verbe dont le sujet est féminin.",
+      "words": ["خَرَجَ", "زَيْدٌ", "وَجَلَسَتْ", "آمِنَةُ."],
+      "answers": [2],
+      "fr": "Zayd est sorti et Āmina s'est assise."
+    },
+    {
+      "id": "medine-t1.l12.quiz#5",
+      "type": "fill_gap",
+      "sentence": "{0} الطَّبِيبَةُ مِنَ الْمُسْتَشْفَى.",
+      "fr": "La femme médecin est sortie de l'hôpital.",
+      "gaps": [ { "answers": ["خَرَجَتِ"] } ],
+      "options": ["خَرَجَتِ", "خَرَجَ"]
+    },
+    {
+      "id": "medine-t1.l12.quiz#6",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi le {ar|ت} de {ar|خَرَجَتِ الطَّبِيبَةُ} a-t-il une kasra ?" },
+      "choices": [
+        { "fr": "Parce qu'il est suivi de l'article {ar|الْ}" },
+        { "fr": "Parce que le sujet est masculin" },
+        { "fr": "Parce que le verbe est au présent" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l12.quiz#7",
+      "type": "order",
+      "fr": "L'étudiante est sortie de la salle de classe.",
+      "answers": [["خَرَجَتِ", "الطَّالِبَةُ", "مِنَ", "الْفَصْلِ"]],
+      "punctuation": ".",
+      "distractors": ["خَرَجَ"]
+    },
+    {
+      "id": "medine-t1.l12.quiz#8",
+      "type": "sort",
+      "categories": [ { "fr": "à un homme" }, { "fr": "à une femme" } ],
+      "cards": [
+        { "ar": "أَيْنَ بَيْتُكَ يَا زَيْدُ؟", "category": 0 },
+        { "ar": "كَيْفَ حَالُكِ يَا أُخْتِي؟", "category": 1 },
+        { "ar": "أَأَنْتَ طَبِيبٌ يَا خَالِدُ؟", "category": 0 },
+        { "ar": "أَلَكِ أُخْتٌ يَا زَيْنَبُ؟", "category": 1 },
+        { "ar": "مِنْ أَيْنَ أَنْتِ يَا فَاطِمَةُ؟", "category": 1 },
+        { "ar": "أَيْنَ أَخُوكَ يَا حَامِدُ؟", "category": 0 }
+      ],
+      "instruction": "À qui parle-t-on ?"
+    },
+    {
+      "id": "medine-t1.l12.quiz#9",
+      "type": "fill_gap",
+      "sentence": "أَأَنْتَ {0} يَا مُحَمَّدُ؟",
+      "fr": "Es-tu malade, Muḥammad ?",
+      "gaps": [ { "answers": ["مَرِيضٌ"] } ],
+      "options": ["مَرِيضٌ", "مَرِيضَةٌ"]
+    },
+    {
+      "id": "medine-t1.l12.quiz#10",
+      "type": "order",
+      "fr": "Et sur toi la paix, ainsi que la miséricorde d'Allah et ses bénédictions.",
+      "answers": [["وَعَلَيْكِ", "السَّلَامُ", "وَرَحْمَةُ", "اللَّهِ", "وَبَرَكَاتُهُ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l12.quiz#11",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:fatat", "w:zamila", "w:wilada", "w:shajara"]
+    },
+    {
+      "id": "medine-t1.l12.quiz#12",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:shajara",
+      "distractors": ["w:zahra", "w:hajar"]
+    },
+    {
+      "id": "medine-t1.l12.quiz#13",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|مُسْتَشْفَى الْوِلَادَةِ} ?" },
+      "choices": [ { "fr": "La maternité" }, { "fr": "La pharmacie" }, { "fr": "L'école de médecine" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l12.quiz#14",
+      "type": "true_false",
+      "statement": { "fr": "Āmina est au collège et Fāṭima est au lycée." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l12.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l12.quiz#15",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا اسْمُهَا؟",
+      "answers": ["اِسْمُهَا فَاطِمَةُ.", "فَاطِمَةُ."],
+      "fr": "Son nom est Fāṭima.",
+      "instruction": "Réponds : son nom est Fāṭima.",
+      "context": { "dialogue": "medine-t1.l12.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l12.quiz#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Comment vas-tu, maman ?",
+      "answers": ["كَيْفَ حَالُكِ يَا أُمِّي؟"]
+    }
+  ]
+}

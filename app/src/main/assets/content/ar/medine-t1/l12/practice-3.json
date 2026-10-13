@@ -1,0 +1,126 @@
+{
+  "id": "medine-t1.l12.practice-3",
+  "type": "vocabulary",
+  "title": "Frère ou sœur ?",
+  "icon": "elder",
+  "screens": [
+    {
+      "id": "medine-t1.l12.practice-3#1",
+      "type": "tip",
+      "title": "Encore des phrases du livre",
+      "blocks": [
+        { "type": "paragraph", "text": "Lis chaque phrase, puis imagine-la adressée à une femme :" },
+        {
+          "type": "compare",
+          "title": "À un homme → à une femme",
+          "rows": [
+            {
+              "from": { "ar": "أَهٰذَا الدَّفْتَرُ لَكَ يَا عَلِيُّ؟", "fr": "Ce cahier est-il à toi, ʿAlī ?" },
+              "to": { "ar": "أَهٰذَا الدَّفْتَرُ لَكِ يَا فَاطِمَةُ؟", "fr": "Ce cahier est-il à toi, Fāṭima ?" }
+            },
+            {
+              "from": { "ar": "أَيْنَ أَبُوكَ يَا خَالِدُ؟", "fr": "Où est ton père, Khālid ?" },
+              "to": { "ar": "أَيْنَ أَبُوكِ يَا خَدِيجَةُ؟", "fr": "Où est ton père, Khadīja ?" }
+            },
+            {
+              "from": { "ar": "أَلَكَ أَخٌ يَا حَامِدُ؟", "fr": "As-tu un frère, Ḥāmid ?" },
+              "to": { "ar": "أَلَكِ أَخٌ يَا سُعَادُ؟", "fr": "As-tu un frère, Suʿād ?" }
+            },
+            {
+              "from": { "ar": "مَاذَا عِنْدَكَ يَا أَخِي؟", "fr": "Qu'as-tu, mon frère ?" },
+              "to": { "ar": "مَاذَا عِنْدَكِ يَا أُخْتِي؟", "fr": "Qu'as-tu, ma sœur ?" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l12.practice-3#2",
+      "type": "fill_gap",
+      "sentence": "أَأَنْتَ {0} يَا أَخِي؟ لَا. أَنَا طَبِيبٌ.",
+      "fr": "Es-tu ingénieur, mon frère ? Non. Je suis médecin.",
+      "gaps": [ { "answers": ["مُهَنْدِسٌ"] } ],
+      "options": ["مُهَنْدِسٌ", "مُهَنْدِسَةٌ"],
+      "explain": "On parle à un frère : le nom est masculin."
+    },
+    {
+      "id": "medine-t1.l12.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "أَأَنْتِ {0} يَا أُخْتِي؟ لَا. أَنَا مُدَرِّسَةٌ.",
+      "fr": "Es-tu médecin, ma sœur ? Non. Je suis enseignante.",
+      "gaps": [ { "answers": ["طَبِيبَةٌ"] } ],
+      "options": ["طَبِيبَةٌ", "طَبِيبٌ"],
+      "explain": "On parle à une sœur : le nom prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l12.practice-3#4",
+      "type": "fill_gap",
+      "sentence": "أَأَنْتِ {0} يَا فَاطِمَةُ؟",
+      "fr": "Es-tu malade, Fāṭima ?",
+      "gaps": [ { "answers": ["مَرِيضَةٌ"] } ],
+      "options": ["مَرِيضَةٌ", "مَرِيضٌ"]
+    },
+    {
+      "id": "medine-t1.l12.practice-3#5",
+      "type": "question",
+      "prompt": {
+        "fr": "On demande à Zaynab : {ar|أَيْنَ ابْنُكِ يَا زَيْنَبُ؟} Elle répond : {ar|ذَهَبَ إِلَى الْمَسْجِدِ.} Qui est allé à la mosquée ?"
+      },
+      "choices": [ { "fr": "Son fils : le verbe est au masculin" }, { "fr": "Sa fille : le verbe est au féminin" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l12.practice-3#6",
+      "type": "question",
+      "prompt": {
+        "fr": "On demande à Āmina : {ar|أَيْنَ بِنْتُكِ يَا آمِنَةُ؟} Elle répond : {ar|ذَهَبَتْ إِلَى الْمَدْرَسَةِ.} Qui est allée à l'école ?"
+      },
+      "choices": [ { "fr": "Sa fille : le verbe est au féminin" }, { "fr": "Son fils : le verbe est au masculin" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l12.practice-3#7",
+      "type": "order",
+      "fr": "Est-ce à toi, Fāṭima ?",
+      "answers": [["أَهِيَ", "لَكِ", "يَا", "فَاطِمَةُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l12.practice-3#8",
+      "type": "order",
+      "fr": "Est-ce ton stylo, Muḥammad ?",
+      "answers": [["أَهٰذَا", "قَلَمُكَ", "يَا", "مُحَمَّدُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l12.practice-3#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَنْ هٰذِهِ السَّاعَةُ الْجَمِيلَةُ؟",
+      "answers": ["هِيَ لِي.", "هٰذِهِ لِي.", "السَّاعَةُ لِي."],
+      "fr": "Elle est à moi.",
+      "instruction": "Réponds : elle est à moi."
+    },
+    {
+      "id": "medine-t1.l12.practice-3#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Es-tu médecin, ma sœur ?",
+      "answers": ["أَأَنْتِ طَبِيبَةٌ يَا أُخْتِي؟"]
+    },
+    {
+      "id": "medine-t1.l12.practice-3#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Es-tu ingénieur, mon frère ?",
+      "answers": ["أَأَنْتَ مُهَنْدِسٌ يَا أَخِي؟"]
+    },
+    {
+      "id": "medine-t1.l12.practice-3#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Es-tu enseignante, ma sœur ?",
+      "answers": ["أَأَنْتِ مُدَرِّسَةٌ يَا أُخْتِي؟"]
+    }
+  ]
+}

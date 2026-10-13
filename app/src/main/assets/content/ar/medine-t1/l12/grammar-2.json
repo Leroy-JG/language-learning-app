@@ -1,0 +1,130 @@
+{
+  "id": "medine-t1.l12.grammar-2",
+  "type": "grammar",
+  "title": "Le verbe au féminin",
+  "icon": "girl",
+  "screens": [
+    {
+      "id": "medine-t1.l12.grammar-2#1",
+      "type": "tip",
+      "title": "Quand le sujet est féminin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au chapitre 8, tu as vu la phrase verbale : le verbe passé ({ar|ذَهَبَ}, {ar|خَرَجَ}, {ar|جَلَسَ}) vient en premier, puis son sujet."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand le sujet est **masculin**, le verbe ne change pas. Quand le sujet est **féminin**, on ajoute en général à la fin du verbe un {ar|ت} avec un sukūn : {ar|تْ}."
+        },
+        {
+          "type": "compare",
+          "title": "Verbe au masculin → verbe au féminin",
+          "rows": [
+            {
+              "from": { "ar": "ذَهَبَ زَيْدٌ", "fr": "Zayd est allé" },
+              "to": { "ar": "ذَهَبَتْ زَيْنَبُ", "fr": "Zaynab est allée" },
+              "label": "le {ar|تْ} montre que le sujet est féminin"
+            },
+            {
+              "from": { "ar": "خَرَجَ زَيْدٌ", "fr": "Zayd est sorti" },
+              "to": { "ar": "خَرَجَتْ فَاطِمَةُ", "fr": "Fāṭima est sortie" }
+            },
+            {
+              "from": { "ar": "جَلَسَ زَيْدٌ", "fr": "Zayd s'est assis" },
+              "to": { "ar": "جَلَسَتْ آمِنَةُ", "fr": "Āmina s'est assise" }
+            }
+          ]
+        },
+        { "type": "note", "text": "Le verbe est cité au masculin (« il ») ; au féminin, il se traduit « elle »." }
+      ]
+    },
+    { "id": "medine-t1.l12.grammar-2#2", "type": "present", "item": "w:dhahabat" },
+    { "id": "medine-t1.l12.grammar-2#3", "type": "present", "item": "w:kharajat" },
+    { "id": "medine-t1.l12.grammar-2#4", "type": "present", "item": "w:jalasat" },
+    {
+      "id": "medine-t1.l12.grammar-2#5",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:dhahabat",
+      "distractors": ["w:dhahaba", "w:kharajat"],
+      "explain": "{ar|ذَهَبَتْ} : « elle est allée ». Sans le {ar|تْ}, {ar|ذَهَبَ} veut dire « il est allé »."
+    },
+    {
+      "id": "medine-t1.l12.grammar-2#6",
+      "type": "tip",
+      "title": "Ce petit {ar|ت}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ce {ar|ت} s'appelle {ar|تَاءُ التَّأْنِيثِ السَّاكِنَةُ} : « le {ar|ت} du féminin, avec un sukūn »."
+        },
+        {
+          "type": "paragraph",
+          "text": "C'est une **particule** ({ar|حَرْفٌ}), pas un pronom : elle indique seulement que le sujet est féminin. Le sujet reste un mot à part : {ar|ذَهَبَتْ زَيْنَبُ}."
+        },
+        {
+          "type": "note",
+          "text": "Sans sujet écrit, le verbe seul se traduit par « il » ou « elle » : {ar|ذَهَبَ} (« il est allé »), {ar|ذَهَبَتْ} (« elle est allée »)."
+        },
+        {
+          "type": "note",
+          "text": "Avec une femme ou une fille, le {ar|تْ} est en principe obligatoire (le verbe étant juste avant son sujet). Avec un nom féminin de chose ({ar|سَيَّارَةٌ}, par exemple), l'arabe admet parfois un verbe sans {ar|تْ} ; dans ce cours, on met toujours le {ar|تْ} quand le sujet est féminin."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ne le confonds pas avec le {ar|ت} de {ar|ذَهَبْتُ} (« je suis allé », chapitre 10) : là, c'est un pronom, il porte une voyelle ({ar|تُ}), et c'est le {ar|ب} qui a le sukūn. Dans {ar|ذَهَبَتْ}, c'est le {ar|ت} qui a le sukūn, et le {ar|ب} a une fatha."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l12.grammar-2#7",
+      "type": "true_false",
+      "statement": { "fr": "Le {ar|ت} de {ar|ذَهَبَتْ} est un pronom qui veut dire « elle »." },
+      "answer": false,
+      "explain": "C'est une particule : elle indique seulement que le sujet est féminin."
+    },
+    {
+      "id": "medine-t1.l12.grammar-2#8",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْنَبُ إِلَى الْمَدْرَسَةِ.",
+      "fr": "Zaynab est allée à l'école.",
+      "gaps": [ { "answers": ["ذَهَبَتْ"] } ],
+      "options": ["ذَهَبَتْ", "ذَهَبَ"],
+      "explain": "Le sujet {ar|زَيْنَبُ} est féminin : le verbe prend le {ar|تْ}."
+    },
+    {
+      "id": "medine-t1.l12.grammar-2#9",
+      "type": "fill_gap",
+      "sentence": "{0} الطَّالِبُ فِي الْفَصْلِ.",
+      "fr": "L'étudiant s'est assis dans la salle de classe.",
+      "gaps": [ { "answers": ["جَلَسَ"] } ],
+      "options": ["جَلَسَ", "جَلَسَتْ"],
+      "explain": "Le sujet {ar|الطَّالِبُ} est masculin : le verbe ne prend pas de {ar|تْ}."
+    },
+    {
+      "id": "medine-t1.l12.grammar-2#10",
+      "type": "spot",
+      "instruction": "Touche le verbe dont le sujet est féminin.",
+      "words": ["ذَهَبَ", "زَيْدٌ", "إِلَى", "الْمَسْجِدِ", "وَذَهَبَتْ", "أُمُّهُ", "إِلَى", "الْمُسْتَشْفَى."],
+      "answers": [4],
+      "fr": "Zayd est allé à la mosquée, et sa mère est allée à l'hôpital.",
+      "explain": "{ar|وَذَهَبَتْ} se termine par le {ar|تْ} du féminin : son sujet est {ar|أُمُّهُ} (« sa mère »)."
+    },
+    {
+      "id": "medine-t1.l12.grammar-2#11",
+      "type": "order",
+      "fr": "Zaynab est sortie de la maison.",
+      "answers": [["خَرَجَتْ", "زَيْنَبُ", "مِنَ", "الْبَيْتِ"], ["زَيْنَبُ", "خَرَجَتْ", "مِنَ", "الْبَيْتِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l12.grammar-2#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Fāṭima est sortie de la maison.",
+      "answers": ["خَرَجَتْ فَاطِمَةُ مِنَ الْبَيْتِ.", "فَاطِمَةُ خَرَجَتْ مِنَ الْبَيْتِ."]
+    }
+  ]
+}

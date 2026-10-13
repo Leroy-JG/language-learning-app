@@ -1,0 +1,97 @@
+{
+  "id": "medine-t1.l12.vocab-3",
+  "type": "vocabulary",
+  "title": "Maternité, arbre et ville",
+  "icon": "tree",
+  "screens": [
+    { "id": "medine-t1.l12.vocab-3#1", "type": "present", "item": "w:wilada" },
+    {
+      "id": "medine-t1.l12.vocab-3#2",
+      "type": "tip",
+      "title": "{ar|مُسْتَشْفَى الْوِلَادَةِ} : une annexion",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais l'annexion (chapitre 5) : le second terme est au génitif, avec la kasra."
+        },
+        {
+          "type": "breakdown",
+          "ar": "مُسْتَشْفَى الْوِلَادَةِ",
+          "fr": "la maternité",
+          "parts": [ { "ar": "مُسْتَشْفَى", "fr": "l'hôpital" }, { "ar": "الْوِلَادَةِ", "fr": "de la naissance" } ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l12.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:wilada",
+      "distractors": ["w:mustashfa", "w:madrasa"]
+    },
+    { "id": "medine-t1.l12.vocab-3#4", "type": "present", "item": "w:shajara" },
+    { "id": "medine-t1.l12.vocab-3#5", "type": "present", "item": "w:riyad" },
+    {
+      "id": "medine-t1.l12.vocab-3#6",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:shajara",
+      "distractors": ["w:zahra", "w:hajar"]
+    },
+    {
+      "id": "medine-t1.l12.vocab-3#7",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:riyad",
+      "distractors": ["w:makka", "w:sin"]
+    },
+    {
+      "id": "medine-t1.l12.vocab-3#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:wilada", "w:shajara", "w:riyad", "w:madina"]
+    },
+    {
+      "id": "medine-t1.l12.vocab-3#9",
+      "type": "fill_gap",
+      "sentence": "أَنَا مِنَ {0}.",
+      "fr": "Je viens de Riyad.",
+      "gaps": [ { "answers": ["الرِّيَاضِ"] } ],
+      "options": ["الرِّيَاضِ", "الْيَابَانِ", "الْهِنْدِ"],
+      "explain": "Après {ar|مِنَ}, le nom est au génitif : {ar|الرِّيَاضِ}."
+    },
+    {
+      "id": "medine-t1.l12.vocab-3#10",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ {0} كَبِيرَةٌ.",
+      "fr": "Ceci est un grand arbre.",
+      "gaps": [ { "answers": ["شَجَرَةٌ"] } ],
+      "options": ["شَجَرَةٌ", "سَيَّارَةٌ", "حَقِيبَةٌ"],
+      "context": { "icon": "tree" }
+    },
+    {
+      "id": "medine-t1.l12.vocab-3#11",
+      "type": "order",
+      "fr": "Ceci est la maternité.",
+      "answers": [["هٰذَا", "مُسْتَشْفَى", "الْوِلَادَةِ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.l12.vocab-3#12", "type": "build", "item": "w:shajara", "extra": ["ه"] },
+    {
+      "id": "medine-t1.l12.vocab-3#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est un grand arbre.",
+      "answers": ["هٰذِهِ شَجَرَةٌ كَبِيرَةٌ."]
+    },
+    {
+      "id": "medine-t1.l12.vocab-3#14",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِنْ أَيْنَ أَنْتَ؟",
+      "answers": ["أَنَا مِنَ الرِّيَاضِ.", "مِنَ الرِّيَاضِ."],
+      "fr": "Je viens de Riyad.",
+      "instruction": "Réponds : je viens de Riyad."
+    }
+  ]
+}

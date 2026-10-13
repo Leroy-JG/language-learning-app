@@ -1,0 +1,126 @@
+{
+  "id": "medine-t1.l12.grammar-3",
+  "type": "grammar",
+  "title": "{ar|جَلَسَتِ الطَّالِبَةُ}",
+  "icon": "school",
+  "screens": [
+    {
+      "id": "medine-t1.l12.grammar-3#1",
+      "type": "tip",
+      "title": "Devant l'article : une kasra",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Que se passe-t-il quand le sujet féminin porte l'article ? Le {ar|تْ} est suivi de {ar|الْ}, dont la hamza de liaison ne se prononce pas (chapitre 3). Pour enchaîner, on donne au {ar|ت} une **kasra**, comme {ar|مَنْ} devient {ar|مَنِ} :"
+        },
+        {
+          "type": "compare",
+          "title": "Le {ar|ت} devant l'article",
+          "rows": [
+            {
+              "from": { "ar": "جَلَسَتْ", "fr": "elle s'est assise" },
+              "to": { "ar": "جَلَسَتِ الطَّالِبَةُ", "fr": "l'étudiante s'est assise" },
+              "label": "la kasra sous le {ar|ت}"
+            },
+            {
+              "from": { "ar": "خَرَجَتْ", "fr": "elle est sortie" },
+              "to": { "ar": "خَرَجَتِ السَّيَّارَةُ", "fr": "la voiture est sortie" }
+            },
+            {
+              "from": { "ar": "ذَهَبَتْ", "fr": "elle est allée" },
+              "to": { "ar": "ذَهَبَتِ الْمُدَرِّسَةُ", "fr": "l'enseignante est allée" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Cette kasra apparaît devant l'article {ar|الْ} et, plus généralement, devant un mot qui commence par une hamza de liaison. Devant un autre mot, le {ar|ت} garde son sukūn : {ar|خَرَجَتْ فَاطِمَةُ}, {ar|ذَهَبَتْ إِلَى الْمُسْتَشْفَى} (la hamza de {ar|إِلَى} est une hamza qui se prononce toujours, chapitre 3)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l12.grammar-3#2",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|جَلَسَتِ الطَّالِبَةُ}, quelle voyelle porte le {ar|ت} ?" },
+      "choices": [
+        { "fr": "Une kasra, parce que le mot suivant commence par l'article {ar|الْ}" },
+        { "fr": "Une fatha, parce que le sujet est féminin" },
+        { "fr": "Un sukūn, comme toujours" }
+      ],
+      "answer": 0,
+      "explain": "Devant l'article, le sukūn du {ar|ت} cède la place à une kasra."
+    },
+    {
+      "id": "medine-t1.l12.grammar-3#3",
+      "type": "sort",
+      "categories": [ { "fr": "une kasra" }, { "fr": "un sukūn" } ],
+      "cards": [
+        { "ar": "الطَّالِبَةُ", "category": 0 },
+        { "ar": "زَيْنَبُ", "category": 1 },
+        { "ar": "السَّيَّارَةُ", "category": 0 },
+        { "ar": "فَاطِمَةُ", "category": 1 },
+        { "ar": "إِلَى", "category": 1 },
+        { "ar": "الْمُدَرِّسَةُ", "category": 0 }
+      ],
+      "instruction": "Le verbe est au féminin ({ar|ذَهَبَتْ}…). Selon le mot qui le suit, que devient son {ar|ت} ?",
+      "explain": "Kasra devant l'article {ar|الْ} ; sukūn devant les autres mots de cette liste (même devant {ar|إِلَى}, dont la hamza est une hamza qui se prononce toujours)."
+    },
+    {
+      "id": "medine-t1.l12.grammar-3#4",
+      "type": "fill_gap",
+      "sentence": "{0} الْمُدَرِّسَةُ إِلَى الْفَصْلِ.",
+      "fr": "L'enseignante est allée à la salle de classe.",
+      "gaps": [ { "answers": ["ذَهَبَتِ"] } ],
+      "options": ["ذَهَبَتِ", "ذَهَبَ"]
+    },
+    {
+      "id": "medine-t1.l12.grammar-3#5",
+      "type": "fill_gap",
+      "sentence": "{0} الطَّالِبَةُ فِي الْفَصْلِ.",
+      "fr": "L'étudiante s'est assise dans la salle de classe.",
+      "gaps": [ { "answers": ["جَلَسَتِ"] } ],
+      "options": ["جَلَسَتِ", "جَلَسَ"]
+    },
+    {
+      "id": "medine-t1.l12.grammar-3#6",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi n'y a-t-il pas de kasra sous le {ar|ت} dans {ar|ذَهَبَتْ إِلَى الْمُسْتَشْفَى} ?" },
+      "choices": [
+        { "fr": "Parce que {ar|إِلَى} commence par une hamza qui se prononce toujours, pas par l'article {ar|الْ}" },
+        { "fr": "Parce que l'hôpital est masculin" },
+        { "fr": "Parce que le verbe est au masculin" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l12.grammar-3#7",
+      "type": "order",
+      "fr": "L'enseignante est sortie de la salle de classe.",
+      "answers": [["خَرَجَتِ", "الْمُدَرِّسَةُ", "مِنَ", "الْفَصْلِ"]],
+      "punctuation": ".",
+      "distractors": ["خَرَجَ"]
+    },
+    {
+      "id": "medine-t1.l12.grammar-3#8",
+      "type": "true_false",
+      "statement": { "fr": "Le {ar|ت} du verbe au féminin garde toujours son sukūn." },
+      "answer": false,
+      "explain": "Devant l'article {ar|الْ}, il prend une kasra : {ar|جَلَسَتِ الطَّالِبَةُ}."
+    },
+    {
+      "id": "medine-t1.l12.grammar-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'étudiante s'est assise dans la salle de classe.",
+      "answers": ["جَلَسَتِ الطَّالِبَةُ فِي الْفَصْلِ."]
+    },
+    {
+      "id": "medine-t1.l12.grammar-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Fāṭima s'est assise dans la salle de classe.",
+      "answers": ["جَلَسَتْ فَاطِمَةُ فِي الْفَصْلِ.", "فَاطِمَةُ جَلَسَتْ فِي الْفَصْلِ."]
+    }
+  ]
+}
