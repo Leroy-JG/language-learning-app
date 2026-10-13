@@ -1,0 +1,97 @@
+{
+  "id": "medine-t1.l13.recap",
+  "type": "review",
+  "title": "Rappel : les démonstratifs",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l13.recap#1",
+      "type": "tip",
+      "title": "Les démonstratifs que tu connais",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu sais déjà montrer **un seul** être ou **une seule** chose, de près ou de loin : {ar|هٰذَا} (chapitre 1), {ar|ذٰلِكَ} (chapitre 2), {ar|هٰذِهِ} (chapitre 6) et {ar|تِلْكَ} (chapitre 7). Tu connais aussi deux mots pour montrer un **lieu** : {ar|هُنَاكَ} (chapitre 5) et {ar|هُنَا} (chapitre 9)."
+        },
+        {
+          "type": "table",
+          "header": ["Distance", "Masculin", "Féminin", "Lieu"],
+          "rows": [
+            ["**proche**", "{ar|هٰذَا}", "{ar|هٰذِهِ}", "{ar|هُنَا}"],
+            ["**loin**", "{ar|ذٰلِكَ}", "{ar|تِلْكَ}", "{ar|هُنَاكَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les quatre premiers désignent **un seul** être ou **une seule** chose. Pour en montrer plusieurs, il faut d'autres mots : c'est le sujet de ce chapitre."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.recap#2",
+      "type": "tip",
+      "title": "Touche un mot pour l'écouter",
+      "blocks": [
+        {
+          "type": "gallery",
+          "title": "Les démonstratifs",
+          "items": ["w:hadha", "w:hadhihi", "w:dhalika", "w:tilka", "w:huna", "w:hunak"]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.recap#3",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:hadhihi", "w:dhalika", "w:tilka", "w:huna", "w:hunak"]
+    },
+    {
+      "id": "medine-t1.l13.recap#4",
+      "type": "sort",
+      "categories": [ { "fr": "proche" }, { "fr": "loin" } ],
+      "cards": [
+        { "ar": "هٰذَا", "category": 0 },
+        { "ar": "تِلْكَ", "category": 1 },
+        { "ar": "هُنَا", "category": 0 },
+        { "ar": "ذٰلِكَ", "category": 1 },
+        { "ar": "هُنَاكَ", "category": 1 },
+        { "ar": "هٰذِهِ", "category": 0 }
+      ],
+      "instruction": "Range chaque mot : montre-t-il ce qui est proche ou ce qui est loin ?",
+      "explain": "Proche : {ar|هٰذَا}, {ar|هٰذِهِ}, {ar|هُنَا}. Loin : {ar|ذٰلِكَ}, {ar|تِلْكَ}, {ar|هُنَاكَ}."
+    },
+    {
+      "id": "medine-t1.l13.recap#5",
+      "type": "fill_gap",
+      "sentence": "{0} الْكِتَابُ جَدِيدٌ.",
+      "fr": "Ce livre-ci est neuf.",
+      "gaps": [ { "answers": ["هٰذَا"] } ],
+      "options": ["هٰذَا", "هٰذِهِ", "ذٰلِكَ"],
+      "explain": "{ar|كِتَابٌ} est masculin et le livre est proche : {ar|هٰذَا}."
+    },
+    {
+      "id": "medine-t1.l13.recap#6",
+      "type": "fill_gap",
+      "sentence": "{0} الْمَدْرَسَةُ بَعِيدَةٌ.",
+      "fr": "Cette école-là est loin.",
+      "gaps": [ { "answers": ["تِلْكَ"] } ],
+      "options": ["تِلْكَ", "ذٰلِكَ", "هٰذِهِ"],
+      "explain": "{ar|مَدْرَسَةٌ} est féminin et l'école est loin : {ar|تِلْكَ}."
+    },
+    {
+      "id": "medine-t1.l13.recap#7",
+      "type": "question",
+      "prompt": { "fr": "Lequel de ces mots veut dire « là-bas » ?" },
+      "choices": [ { "ar": "هُنَاكَ" }, { "ar": "هُنَا" }, { "ar": "تِلْكَ" } ],
+      "answer": 0,
+      "explain": "{ar|هُنَاكَ} veut dire « là-bas » ; {ar|هُنَا} veut dire « ici »."
+    },
+    {
+      "id": "medine-t1.l13.recap#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est une voiture et cela est une maison.",
+      "answers": ["هٰذِهِ سَيَّارَةٌ وَذٰلِكَ بَيْتٌ."]
+    }
+  ]
+}

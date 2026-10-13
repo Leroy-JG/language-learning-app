@@ -1,0 +1,148 @@
+{
+  "id": "medine-t1.l13.dialogue-1",
+  "type": "dialogue",
+  "title": "Les nouveaux étudiants",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t1.l13.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Les nouveaux étudiants",
+      "intro": "Ḥāmid et ʿAlī regardent un groupe de jeunes gens, puis un groupe d'hommes plus petits.",
+      "speakers": { "A": { "name": "Ḥāmid", "voice": "m1" }, "B": { "name": "ʿAlī", "voice": "m2" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "مَنْ هَؤُلَاءِ الْفِتْيَةُ الطِّوَالُ يَا عَلِيُّ؟",
+          "fr": "Qui sont ces grands jeunes gens, ʿAlī ?"
+        },
+        { "speaker": "B", "ar": "هُمْ طُلَّابٌ جُدُدٌ.", "fr": "Ce sont de nouveaux étudiants." },
+        { "speaker": "A", "ar": "مِنْ أَيْنَ هُمْ؟", "fr": "D'où viennent-ils ?" },
+        { "speaker": "B", "ar": "هُمْ مِنْ أَمْرِيكَا.", "fr": "Ils viennent d'Amérique." },
+        { "speaker": "A", "ar": "أَهُمْ زُمَلَاؤُكَ؟", "fr": "Sont-ils tes camarades ?" },
+        {
+          "speaker": "B",
+          "ar": "نَعَمْ. هُمْ زُمَلَائِي. هُمْ فِي فَصْلِي.",
+          "fr": "Oui. Ce sont mes camarades. Ils sont dans ma classe."
+        },
+        { "speaker": "A", "ar": "أَهُمْ مُجْتَهِدُونَ؟", "fr": "Sont-ils studieux ?" },
+        { "speaker": "B", "ar": "نَعَمْ. هُمْ مُجْتَهِدُونَ.", "fr": "Oui. Ils sont studieux." },
+        { "speaker": "A", "ar": "مَا أَسْمَاؤُهُمْ؟", "fr": "Quels sont leurs noms ?" },
+        {
+          "speaker": "B",
+          "ar": "أَسْمَاؤُهُمْ: يَاسِرٌ وَزَكَرِيَّا وَمُوسَى وَعَبْدُ اللَّهِ.",
+          "fr": "Leurs noms : Yāsir, Zakariyyā, Mūsā et ʿAbd Allāh."
+        },
+        { "speaker": "A", "ar": "وَمَنْ هَؤُلَاءِ الرِّجَالُ الْقِصَارُ؟", "fr": "Et qui sont ces hommes petits ?" },
+        { "speaker": "B", "ar": "هُمْ حُجَّاجٌ.", "fr": "Ce sont des pèlerins." },
+        { "speaker": "A", "ar": "مِنْ أَيْنَ هُمْ؟", "fr": "D'où viennent-ils ?" },
+        {
+          "speaker": "B",
+          "ar": "بَعْضُهُمْ مِنَ الصِّينِ وَبَعْضُهُمْ مِنَ الْيَابَانِ.",
+          "fr": "Certains viennent de Chine et d'autres du Japon."
+        },
+        { "speaker": "A", "ar": "أَيْنَ مُوسَى وَأَصْدِقَاؤُهُ؟", "fr": "Où sont Mūsā et ses amis ?" },
+        { "speaker": "B", "ar": "ذَهَبُوا إِلَى الْمَطْعَمِ.", "fr": "Ils sont allés au restaurant." }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.dialogue-1#2",
+      "type": "tip",
+      "title": "Une petite forme à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans la dernière réplique, tu trouves un verbe que tu n'as pas encore appris à former : {ar|ذَهَبُوا} (« ils sont allés »). C'est {ar|ذَهَبَ} (« il est allé ») avec {ar|◌ُوا} à la fin : le sujet est « ils » (plusieurs hommes)."
+        },
+        {
+          "type": "note",
+          "text": "Retiens seulement le sens : tu verras cette forme plus tard. Le alif écrit après le {ar|و} ne se prononce pas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Qui sont les grands jeunes gens ?" },
+      "choices": [ { "fr": "De nouveaux étudiants" }, { "fr": "Des pèlerins" }, { "fr": "Des médecins" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l13.dialogue-1#1" },
+      "explain": "{ar|هُمْ طُلَّابٌ جُدُدٌ} : « ce sont de nouveaux étudiants »."
+    },
+    {
+      "id": "medine-t1.l13.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "D'où viennent les nouveaux étudiants ?" },
+      "choices": [ { "fr": "D'Amérique" }, { "fr": "De Chine" }, { "fr": "Du Japon" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l13.dialogue-1#1" },
+      "explain": "{ar|هُمْ مِنْ أَمْرِيكَا} : « ils viennent d'Amérique »."
+    },
+    {
+      "id": "medine-t1.l13.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Les nouveaux étudiants sont dans la classe de ʿAlī." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l13.dialogue-1#1" },
+      "explain": "{ar|هُمْ فِي فَصْلِي} : « ils sont dans ma classe »."
+    },
+    {
+      "id": "medine-t1.l13.dialogue-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Tous les pèlerins viennent de Chine." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l13.dialogue-1#1" },
+      "explain": "{ar|بَعْضُهُمْ مِنَ الصِّينِ وَبَعْضُهُمْ مِنَ الْيَابَانِ} : certains viennent de Chine et d'autres du Japon."
+    },
+    {
+      "id": "medine-t1.l13.dialogue-1#7",
+      "type": "question",
+      "prompt": { "fr": "Où sont allés Mūsā et ses amis ?" },
+      "choices": [ { "fr": "Au restaurant" }, { "fr": "À la mosquée" }, { "fr": "Au marché" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l13.dialogue-1#1" },
+      "explain": "{ar|ذَهَبُوا إِلَى الْمَطْعَمِ} : « ils sont allés au restaurant »."
+    },
+    {
+      "id": "medine-t1.l13.dialogue-1#8",
+      "type": "fill_gap",
+      "sentence": "أَهُمْ {0}؟",
+      "fr": "Sont-ils tes camarades ?",
+      "gaps": [ { "answers": ["زُمَلَاؤُكَ"] } ],
+      "options": ["زُمَلَاؤُكَ", "زُمَلَائِي", "زُمَلَاؤُنَا"],
+      "context": { "dialogue": "medine-t1.l13.dialogue-1#1" },
+      "explain": "{ar|زُمَلَاءُ} + {ar|كَ} (« ton », à un homme) donne {ar|زُمَلَاؤُكَ}."
+    },
+    {
+      "id": "medine-t1.l13.dialogue-1#9",
+      "type": "order",
+      "fr": "Qui sont ces grands jeunes gens, ʿAlī ?",
+      "answers": [["مَنْ", "هَؤُلَاءِ", "الْفِتْيَةُ", "الطِّوَالُ", "يَا", "عَلِيُّ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l13.dialogue-1#10",
+      "type": "order",
+      "fr": "Où sont Mūsā et ses amis ?",
+      "answers": [["أَيْنَ", "مُوسَى", "وَأَصْدِقَاؤُهُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l13.dialogue-1#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِنْ أَيْنَ هُمْ؟",
+      "answers": ["هُمْ مِنْ أَمْرِيكَا.", "مِنْ أَمْرِيكَا."],
+      "fr": "Ils viennent d'Amérique.",
+      "instruction": "Réponds : ils viennent d'Amérique.",
+      "context": { "dialogue": "medine-t1.l13.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l13.dialogue-1#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ce sont de nouveaux étudiants.",
+      "answers": ["هُمْ طُلَّابٌ جُدُدٌ."]
+    }
+  ]
+}

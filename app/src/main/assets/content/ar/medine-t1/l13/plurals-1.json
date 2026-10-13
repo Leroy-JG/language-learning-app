@@ -1,0 +1,103 @@
+{
+  "id": "medine-t1.l13.plurals-1",
+  "type": "vocabulary",
+  "title": "Les pluriels",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l13.plurals-1#1",
+      "type": "tip",
+      "title": "Les pluriels des personnes",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Remarque"],
+          "rows": [
+            ["{ar|اِمْرَأَةٌ}", "{ar|نِسَاءٌ}", "un autre mot : à apprendre tel quel"],
+            ["{ar|عَالِمٌ}", "{ar|عُلَمَاءُ}", "forme {ar|فُعَلَاءُ} : sans tanwin (comme {ar|وُزَرَاءُ})"],
+            ["{ar|قَوِيٌّ}", "{ar|أَقْوِيَاءُ}", "forme {ar|أَفْعِلَاءُ} : sans tanwin (comme {ar|أَغْنِيَاءُ})"],
+            ["{ar|ضَعِيفٌ}", "{ar|ضِعَافٌ، ضُعَفَاءُ}", "deux pluriels brisés"],
+            ["{ar|حَاجٌّ}", "{ar|حُجَّاجٌ}", "pluriel brisé (comme {ar|تُجَّارٌ})"],
+            ["{ar|خَالَةٌ}", "{ar|خَالَاتٌ}", "féminin en -āt"],
+            ["{ar|عَمَّةٌ}", "{ar|عَمَّاتٌ}", "féminin en -āt"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.plurals-1#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:alim", "w:hajj", "w:imraa", "w:qawi"]
+    },
+    {
+      "id": "medine-t1.l13.plurals-1#3",
+      "type": "tip",
+      "title": "Les pluriels des lieux",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Remarque"],
+          "rows": [
+            ["{ar|حَقْلٌ}", "{ar|حُقُولٌ}", "pluriel brisé (comme {ar|بُيُوتٌ})"],
+            ["{ar|مَطْعَمٌ}", "{ar|مَطَاعِمُ}", "forme longue : sans tanwin (comme {ar|مَسَاجِدُ})"],
+            ["{ar|مَلْعَبٌ}", "{ar|مَلَاعِبُ}", "forme longue : sans tanwin"],
+            ["{ar|قَرْيَةٌ}", "{ar|قُرًى}", "pluriel brisé qui se termine par {ar|ى}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.plurals-1#4",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:haql", "w:qarya", "w:matam", "w:malab", "w:khala"]
+    },
+    {
+      "id": "medine-t1.l13.plurals-1#5",
+      "type": "sort",
+      "categories": [ { "fr": "des personnes" }, { "fr": "des lieux" } ],
+      "cards": [
+        { "ar": "عُلَمَاءُ", "category": 0 },
+        { "ar": "حُقُولٌ", "category": 1 },
+        { "ar": "نِسَاءٌ", "category": 0 },
+        { "ar": "مَلَاعِبُ", "category": 1 },
+        { "ar": "حُجَّاجٌ", "category": 0 },
+        { "ar": "قُرًى", "category": 1 }
+      ],
+      "instruction": "Range chaque pluriel : désigne-t-il des personnes ou des lieux ?",
+      "explain": "Des personnes : {ar|عُلَمَاءُ} (des savants), {ar|نِسَاءٌ} (des femmes), {ar|حُجَّاجٌ} (des pèlerins). Des lieux : {ar|حُقُولٌ} (des champs), {ar|مَلَاعِبُ} (des terrains de jeu), {ar|قُرًى} (des villages)."
+    },
+    {
+      "id": "medine-t1.l13.plurals-1#6",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|اِمْرَأَةٌ} (une femme) ?" },
+      "choices": [ { "ar": "نِسَاءٌ" }, { "ar": "بَنَاتٌ" }, { "ar": "رِجَالٌ" } ],
+      "answer": 0,
+      "explain": "{ar|نِسَاءٌ} est le pluriel de {ar|اِمْرَأَةٌ}. {ar|بَنَاتٌ} est le pluriel de {ar|بِنْتٌ} (une fille) et {ar|رِجَالٌ} celui de {ar|رَجُلٌ} (un homme)."
+    },
+    { "id": "medine-t1.l13.plurals-1#7", "type": "typing", "ask": "fr", "fr": "des champs", "answers": ["حُقُولٌ"] },
+    {
+      "id": "medine-t1.l13.plurals-1#8",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|قَرْيَةٌ} (un village) ?" },
+      "choices": [ { "ar": "قُرًى" }, { "ar": "حُقُولٌ" }, { "ar": "مَطَاعِمُ" } ],
+      "answer": 0,
+      "explain": "{ar|قُرًى} est le pluriel de {ar|قَرْيَةٌ}. {ar|حُقُولٌ} est celui de {ar|حَقْلٌ} (un champ) et {ar|مَطَاعِمُ} celui de {ar|مَطْعَمٌ} (un restaurant)."
+    },
+    {
+      "id": "medine-t1.l13.plurals-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des pèlerins",
+      "answers": ["حُجَّاجٌ"]
+    },
+    {
+      "id": "medine-t1.l13.plurals-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des restaurants",
+      "answers": ["مَطَاعِمُ"]
+    }
+  ]
+}

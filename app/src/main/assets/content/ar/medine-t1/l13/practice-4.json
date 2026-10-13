@@ -1,0 +1,151 @@
+{
+  "id": "medine-t1.l13.practice-4",
+  "type": "grammar",
+  "title": "Lis et écris : les phrases du livre",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l13.practice-4#1",
+      "type": "tip",
+      "title": "Lis les phrases (1)",
+      "blocks": [
+        { "type": "example", "ar": "الطُّلَّابُ فِي الْفَصْلِ.", "fr": "Les étudiants sont en classe." },
+        {
+          "type": "example",
+          "ar": "مَنْ هَؤُلَاءِ الْأَوْلَادُ؟ أَهُمْ أَبْنَاؤُكَ؟ لَا. هُمْ أَبْنَاءُ أَخِي.",
+          "fr": "Qui sont ces garçons ? Sont-ils tes fils ? Non. Ce sont les fils de mon frère."
+        },
+        {
+          "type": "example",
+          "ar": "مَنْ هَؤُلَاءِ النَّاسُ؟ هُمْ حُجَّاجٌ مِنَ الصِّينِ.",
+          "fr": "Qui sont ces gens ? Ce sont des pèlerins de Chine."
+        },
+        {
+          "type": "example",
+          "ar": "أَيْنَ التُّجَّارُ؟ ذَهَبُوا إِلَى السُّوقِ.",
+          "fr": "Où sont les commerçants ? Ils sont allés au marché."
+        },
+        {
+          "type": "example",
+          "ar": "مَنْ هَؤُلَاءِ الرِّجَالُ؟ هُمْ ضُيُوفٌ.",
+          "fr": "Qui sont ces hommes ? Ce sont des invités."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.practice-4#2",
+      "type": "fill_gap",
+      "sentence": "مَنْ هَؤُلَاءِ الْأَوْلَادُ؟ أَهُمْ {0}؟",
+      "fr": "Qui sont ces garçons ? Sont-ils tes fils ?",
+      "gaps": [ { "answers": ["أَبْنَاؤُكَ"] } ],
+      "options": ["أَبْنَاؤُكَ", "أَبْنَائِي", "أَبْنَاؤُنَا"],
+      "explain": "{ar|أَبْنَاءٌ} + {ar|كَ} (« ton », à un homme) donne {ar|أَبْنَاؤُكَ}."
+    },
+    {
+      "id": "medine-t1.l13.practice-4#3",
+      "type": "spot",
+      "instruction": "Touche le mot qui porte le pronom {ar|هُمْ} (« leur »).",
+      "words": ["الْفَلَّاحُونَ", "فِي", "الْحُقُولِ", "وَأَبْنَاؤُهُمْ", "فِي", "الْمَدْرَسَةِ."],
+      "answers": [3],
+      "fr": "Les paysans sont dans les champs et leurs fils sont à l'école.",
+      "explain": "{ar|وَأَبْنَاؤُهُمْ} : {ar|أَبْنَاءُ} + {ar|هُمْ} (« leurs fils »), avec le {ar|وَ} (« et ») collé au début."
+    },
+    {
+      "id": "medine-t1.l13.practice-4#4",
+      "type": "fill_gap",
+      "sentence": "الْفَلَّاحُونَ فِي {0} وَأَبْنَاؤُهُمْ فِي الْمَدْرَسَةِ.",
+      "fr": "Les paysans sont dans les champs et leurs fils sont à l'école.",
+      "gaps": [ { "answers": ["الْحُقُولِ"] } ],
+      "options": ["الْحُقُولِ", "الْمَلْعَبِ", "الْمَطْعَمِ"],
+      "explain": "{ar|حُقُولٌ} est le pluriel de {ar|حَقْلٌ} (un champ) ; après {ar|فِي}, il est à la kasra."
+    },
+    {
+      "id": "medine-t1.l13.practice-4#5",
+      "type": "tip",
+      "title": "Lis les phrases (2)",
+      "blocks": [
+        {
+          "type": "example",
+          "ar": "أَيْنَ الطُّلَّابُ الْجُدُدُ؟ بَعْضُهُمْ فِي الْفَصْلِ وَبَعْضُهُمْ عِنْدَ الْمُدِيرِ.",
+          "fr": "Où sont les nouveaux étudiants ? Certains sont en classe et d'autres chez le directeur."
+        },
+        { "type": "example", "ar": "أَعْمَامِي تُجَّارٌ كِبَارٌ.", "fr": "Mes oncles sont de grands commerçants." },
+        {
+          "type": "example",
+          "ar": "أَيْنَ أَبْنَاؤُكَ يَا عَلِيُّ؟ هُمْ فِي الدُّكَّانِ.",
+          "fr": "Où sont tes fils, ʿAlī ? Ils sont dans la boutique."
+        },
+        {
+          "type": "example",
+          "ar": "الطُّلَّابُ الْكِبَارُ فِي الْمَلْعَبِ وَالطُّلَّابُ الصِّغَارُ فِي الْفَصْلِ.",
+          "fr": "Les grands étudiants sont sur le terrain de jeu et les petits sont en classe."
+        },
+        {
+          "type": "example",
+          "ar": "هَؤُلَاءِ الْفِتْيَةُ إِخْوَةٌ. أَبُوهُمْ إِمَامُ هٰذَا الْمَسْجِدِ.",
+          "fr": "Ces jeunes gens sont frères. Leur père est l'imam de cette mosquée."
+        },
+        {
+          "type": "example",
+          "ar": "هَؤُلَاءِ الرِّجَالُ فَلَّاحُونَ مِنْ قَرْيَتِي.",
+          "fr": "Ces hommes sont des paysans de mon village."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.practice-4#6",
+      "type": "order",
+      "fr": "Les grands étudiants sont sur le terrain de jeu et les petits sont en classe.",
+      "answers": [["الطُّلَّابُ", "الْكِبَارُ", "فِي", "الْمَلْعَبِ", "وَالطُّلَّابُ", "الصِّغَارُ", "فِي", "الْفَصْلِ"]],
+      "punctuation": ".",
+      "explain": "Les deux adjectifs sont au pluriel : {ar|الْكِبَارُ} et {ar|الصِّغَارُ}."
+    },
+    {
+      "id": "medine-t1.l13.practice-4#7",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|الْفَلَّاحُونَ فِي الْحُقُولِ وَأَبْنَاؤُهُمْ فِي الْمَدْرَسَةِ}, où sont les fils des paysans ?"
+      },
+      "choices": [ { "fr": "À l'école" }, { "fr": "Dans les champs" }, { "fr": "Au marché" } ],
+      "answer": 0,
+      "explain": "{ar|أَبْنَاؤُهُمْ فِي الْمَدْرَسَةِ} : « leurs fils sont à l'école »."
+    },
+    {
+      "id": "medine-t1.l13.practice-4#8",
+      "type": "order",
+      "fr": "Certains sont en classe et d'autres chez le directeur.",
+      "answers": [["بَعْضُهُمْ", "فِي", "الْفَصْلِ", "وَبَعْضُهُمْ", "عِنْدَ", "الْمُدِيرِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l13.practice-4#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ هَؤُلَاءِ الْأَوْلَادُ؟",
+      "answers": ["هُمْ أَبْنَاءُ أَخِي.", "أَبْنَاءُ أَخِي."],
+      "fr": "Ce sont les fils de mon frère.",
+      "instruction": "Réponds : ce sont les fils de mon frère."
+    },
+    {
+      "id": "medine-t1.l13.practice-4#10",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|أَبُوهُمْ إِمَامُ هٰذَا الْمَسْجِدِ}, le pronom {ar|هُمْ} veut dire « leur » (à eux)." },
+      "answer": true,
+      "explain": "Le pronom affixe {ar|هُمْ} collé à {ar|أَبُو} : « leur père »."
+    },
+    {
+      "id": "medine-t1.l13.practice-4#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mes oncles sont de grands commerçants.",
+      "answers": ["أَعْمَامِي تُجَّارٌ كِبَارٌ."]
+    },
+    {
+      "id": "medine-t1.l13.practice-4#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ces jeunes gens sont frères. Leur père est l'imam de cette mosquée.",
+      "answers": ["هَؤُلَاءِ الْفِتْيَةُ إِخْوَةٌ. أَبُوهُمْ إِمَامُ هٰذَا الْمَسْجِدِ."]
+    }
+  ]
+}

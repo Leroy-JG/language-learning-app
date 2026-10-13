@@ -1,0 +1,115 @@
+{
+  "id": "medine-t1.l13.dialogue-2",
+  "type": "dialogue",
+  "title": "Les jeunes filles",
+  "icon": "girl",
+  "screens": [
+    {
+      "id": "medine-t1.l13.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Les jeunes filles",
+      "intro": "Ḥāmid voit un groupe de jeunes filles avec Maryam et lui demande qui elles sont.",
+      "speakers": { "A": { "name": "Ḥāmid", "voice": "m1" }, "B": { "name": "Maryam", "voice": "f1" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "مَنْ هَؤُلَاءِ الْفَتَيَاتُ يَا مَرْيَمُ؟",
+          "fr": "Qui sont ces jeunes filles, Maryam ?"
+        },
+        { "speaker": "B", "ar": "هُنَّ زَمِيلَاتِي.", "fr": "Ce sont mes camarades." },
+        { "speaker": "A", "ar": "أَأَخَوَاتٌ هُنَّ؟", "fr": "Sont-elles sœurs ?" },
+        { "speaker": "B", "ar": "نَعَمْ. هُنَّ أَخَوَاتٌ.", "fr": "Oui. Elles sont sœurs." },
+        { "speaker": "A", "ar": "مَنْ أَبُوهُنَّ؟", "fr": "Qui est leur père ?" },
+        {
+          "speaker": "B",
+          "ar": "أَبُوهُنَّ الشَّيْخُ بِلَالٌ. أُمُّهُنَّ أُسْتَاذَتِي.",
+          "fr": "Leur père est le cheikh Bilāl. Leur mère est ma professeure."
+        },
+        { "speaker": "A", "ar": "أَيْنَ بَيْتُهُنَّ؟", "fr": "Où est leur maison ?" },
+        {
+          "speaker": "B",
+          "ar": "بَيْتُهُنَّ قَرِيبٌ مِنَ الْمَدْرَسَةِ.",
+          "fr": "Leur maison est près de l'école."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.dialogue-2#2",
+      "type": "question",
+      "prompt": { "fr": "Qui sont les jeunes filles pour Maryam ?" },
+      "choices": [ { "fr": "Ses camarades" }, { "fr": "Ses sœurs" }, { "fr": "Ses tantes" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l13.dialogue-2#1" },
+      "explain": "{ar|هُنَّ زَمِيلَاتِي} : « ce sont mes camarades »."
+    },
+    {
+      "id": "medine-t1.l13.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Qui est le père des jeunes filles ?" },
+      "choices": [ { "fr": "Le cheikh Bilāl" }, { "fr": "Le directeur de l'école" }, { "fr": "Un médecin" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l13.dialogue-2#1" },
+      "explain": "{ar|أَبُوهُنَّ الشَّيْخُ بِلَالٌ} : « leur père est le cheikh Bilāl »."
+    },
+    {
+      "id": "medine-t1.l13.dialogue-2#4",
+      "type": "true_false",
+      "statement": { "fr": "La mère des jeunes filles est la professeure de Maryam." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l13.dialogue-2#1" },
+      "explain": "{ar|أُمُّهُنَّ أُسْتَاذَتِي} : « leur mère est ma professeure »."
+    },
+    {
+      "id": "medine-t1.l13.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Les jeunes filles sont les sœurs de Maryam." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l13.dialogue-2#1" },
+      "explain": "Ce sont ses camarades ({ar|زَمِيلَاتِي}) ; elles sont sœurs entre elles."
+    },
+    {
+      "id": "medine-t1.l13.dialogue-2#6",
+      "type": "fill_gap",
+      "sentence": "مَنْ {0}؟",
+      "fr": "Qui est leur père (à elles) ?",
+      "gaps": [ { "answers": ["أَبُوهُنَّ"] } ],
+      "options": ["أَبُوهُنَّ", "أَبُوهُمْ", "أَبِي"],
+      "context": { "dialogue": "medine-t1.l13.dialogue-2#1" },
+      "explain": "Il s'agit de jeunes filles : {ar|هُنَّ}. {ar|أَبُوهُمْ} serait « leur père (à eux) »."
+    },
+    {
+      "id": "medine-t1.l13.dialogue-2#7",
+      "type": "order",
+      "fr": "Leur mère (à elles) est ma professeure.",
+      "answers": [["أُمُّهُنَّ", "أُسْتَاذَتِي"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l13.dialogue-2#8",
+      "type": "fill_gap",
+      "sentence": "{0} بَيْتُهُنَّ؟",
+      "fr": "Où est leur maison (à elles) ?",
+      "gaps": [ { "answers": ["أَيْنَ"] } ],
+      "options": ["أَيْنَ", "كَيْفَ", "مَنْ"],
+      "context": { "dialogue": "medine-t1.l13.dialogue-2#1" },
+      "explain": "{ar|أَيْنَ} sert à demander le lieu."
+    },
+    {
+      "id": "medine-t1.l13.dialogue-2#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ بَيْتُهُنَّ؟",
+      "answers": ["بَيْتُهُنَّ قَرِيبٌ مِنَ الْمَدْرَسَةِ.", "قَرِيبٌ مِنَ الْمَدْرَسَةِ."],
+      "fr": "Leur maison est près de l'école.",
+      "instruction": "Réponds : leur maison est près de l'école.",
+      "context": { "dialogue": "medine-t1.l13.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l13.dialogue-2#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ce sont mes camarades (des filles).",
+      "answers": ["هُنَّ زَمِيلَاتِي."]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "medine-t1.l13",
+  "number": 13,
+  "title": { "ar": "الدَّرْسُ الثَّالِثَ عَشَرَ", "fr": "Les démonstratifs du pluriel" },
+  "description": "Montrer plusieurs personnes avec {ar|هَؤُلَاءِ} et {ar|أُولَئِكَ}, demander qui elles sont, les reprendre par {ar|هُمْ} et {ar|هُنَّ}, accorder l'adjectif au pluriel, et apprendre le vocabulaire des gens, du village et de la famille.",
+  "source": "Tome de Médine 1, leçon 13",
+  "sections": [
+    { "title": "Rappel : les démonstratifs", "activities": ["recap"] },
+    { "title": "Ceux-ci, ceux-là", "activities": ["grammar-1", "practice-1"] },
+    { "title": "Les gens, le village, la famille", "activities": ["vocab-1", "vocab-2", "vocab-3", "plurals-1"] },
+    { "title": "Qui sont-ils ? Qui sont-elles ?", "activities": ["grammar-2", "practice-2"] },
+    { "title": "Jeunes gens et jeunes filles", "activities": ["dialogue-1", "dialogue-2"] },
+    { "title": "Lis et écris", "activities": ["practice-3", "practice-4"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "medine-t1.l13.vocab-2",
+  "type": "vocabulary",
+  "title": "Au village et à l'école",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t1.l13.vocab-2#1", "type": "present", "item": "w:qarya" },
+    { "id": "medine-t1.l13.vocab-2#2", "type": "present", "item": "w:haql" },
+    {
+      "id": "medine-t1.l13.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:haql",
+      "distractors": ["w:qarya", "w:suq"]
+    },
+    { "id": "medine-t1.l13.vocab-2#4", "type": "present", "item": "w:matam" },
+    { "id": "medine-t1.l13.vocab-2#5", "type": "present", "item": "w:malab" },
+    { "id": "medine-t1.l13.vocab-2#6", "type": "present", "item": "w:ibtidaiyya" },
+    {
+      "id": "medine-t1.l13.vocab-2#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:qarya", "w:haql", "w:matam", "w:malab", "w:ibtidaiyya"]
+    },
+    {
+      "id": "medine-t1.l13.vocab-2#8",
+      "type": "fill_gap",
+      "sentence": "ذَهَبَ زَيْدٌ إِلَى {0}.",
+      "fr": "Zayd est allé au restaurant.",
+      "gaps": [ { "answers": ["الْمَطْعَمِ"] } ],
+      "options": ["الْمَطْعَمِ", "الْحَقْلِ", "الْمَلْعَبِ"],
+      "explain": "{ar|مَطْعَمٌ} veut dire « un restaurant » ; après {ar|إِلَى}, le nom est à la kasra."
+    },
+    {
+      "id": "medine-t1.l13.vocab-2#9",
+      "type": "fill_gap",
+      "sentence": "أَخِي فِي {0}.",
+      "fr": "Mon frère est à l'école primaire.",
+      "gaps": [ { "answers": ["الِابْتِدَائِيَّةِ"] } ],
+      "options": ["الِابْتِدَائِيَّةِ", "الْمَطْعَمِ", "الْقَرْيَةِ"],
+      "explain": "{ar|الِابْتِدَائِيَّةُ} est l'école primaire ; après {ar|فِي}, elle est à la kasra."
+    },
+    {
+      "id": "medine-t1.l13.vocab-2#10",
+      "type": "order",
+      "fr": "Zayd a habité dans ce village.",
+      "answers": [["سَكَنَ", "زَيْدٌ", "فِي", "هٰذِهِ", "الْقَرْيَةِ"], ["زَيْدٌ", "سَكَنَ", "فِي", "هٰذِهِ", "الْقَرْيَةِ"]],
+      "punctuation": ".",
+      "explain": "{ar|قَرْيَةٌ} est féminin : on dit {ar|هٰذِهِ الْقَرْيَةِ}. On accepte le verbe en premier ou le sujet en premier."
+    },
+    {
+      "id": "medine-t1.l13.vocab-2#11",
+      "type": "tip",
+      "title": "De l'école primaire à l'université",
+      "blocks": [
+        {
+          "type": "gallery",
+          "title": "Les étapes des études",
+          "items": ["w:ibtidaiyya", "w:mutawassita", "w:thanawiyya", "w:jamia"]
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "Dans le système scolaire saoudien, on passe de {ar|الِابْتِدَائِيَّةُ} à {ar|الْمُتَوَسِّطَةُ}, puis à {ar|الثَّانَوِيَّةُ}, et enfin à {ar|الْجَامِعَةُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.vocab-2#12",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:qarya", "w:haql", "w:matam", "w:malab", "w:ibtidaiyya"]
+    },
+    { "id": "medine-t1.l13.vocab-2#13", "type": "typing", "ask": "fr", "item": "w:qarya" },
+    {
+      "id": "medine-t1.l13.vocab-2#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd est allé au restaurant.",
+      "answers": ["ذَهَبَ زَيْدٌ إِلَى الْمَطْعَمِ."]
+    }
+  ]
+}

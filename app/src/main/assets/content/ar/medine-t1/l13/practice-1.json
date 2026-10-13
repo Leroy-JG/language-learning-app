@@ -1,0 +1,119 @@
+{
+  "id": "medine-t1.l13.practice-1",
+  "type": "grammar",
+  "title": "Du singulier au pluriel",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l13.practice-1#1",
+      "type": "tip",
+      "title": "Un seul → plusieurs",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand on passe au pluriel, le démonstratif change **et** le mot qui dit ce qu'on est change aussi : {ar|هٰذَا طَالِبٌ} devient {ar|هَؤُلَاءِ طُلَّابٌ}. La distance, elle, ne change pas : ce qui est loin reste loin."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "هٰذَا طَالِبٌ", "fr": "Celui-ci est un étudiant." },
+              "to": { "ar": "هَؤُلَاءِ طُلَّابٌ", "fr": "Ceux-ci sont des étudiants." }
+            },
+            {
+              "from": { "ar": "هٰذِهِ طَالِبَةٌ", "fr": "Celle-ci est une étudiante." },
+              "to": { "ar": "هَؤُلَاءِ طَالِبَاتٌ", "fr": "Celles-ci sont des étudiantes." }
+            },
+            {
+              "from": { "ar": "ذٰلِكَ تَاجِرٌ", "fr": "Celui-là est un commerçant." },
+              "to": { "ar": "أُولَئِكَ تُجَّارٌ", "fr": "Ceux-là sont des commerçants." }
+            },
+            {
+              "from": { "ar": "تِلْكَ مُدَرِّسَةٌ", "fr": "Celle-là est une enseignante." },
+              "to": { "ar": "أُولَئِكَ مُدَرِّسَاتٌ", "fr": "Celles-là sont des enseignantes." }
+            },
+            {
+              "from": { "ar": "ذٰلِكَ الرَّجُلُ مُدَرِّسٌ", "fr": "Cet homme-là est enseignant." },
+              "to": { "ar": "أُولَئِكَ الرِّجَالُ مُدَرِّسُونَ", "fr": "Ces hommes-là sont enseignants." }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le féminin des personnes prend en général le pluriel en {ar|◌َاتٌ} ({ar|طَالِبَةٌ} → {ar|طَالِبَاتٌ}), comme tu l'as vu au chapitre 12."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.practice-1#2",
+      "type": "fill_gap",
+      "sentence": "هَؤُلَاءِ {0}.",
+      "fr": "Ceux-ci sont des médecins.",
+      "gaps": [ { "answers": ["أَطِبَّاءُ"] } ],
+      "options": ["أَطِبَّاءُ", "طَبِيبٌ", "طَبِيبَةٌ"],
+      "explain": "Le démonstratif est au pluriel : le nom aussi, {ar|أَطِبَّاءُ}."
+    },
+    {
+      "id": "medine-t1.l13.practice-1#3",
+      "type": "fill_gap",
+      "sentence": "أُولَئِكَ {0}.",
+      "fr": "Celles-là sont des enseignantes.",
+      "gaps": [ { "answers": ["مُدَرِّسَاتٌ"] } ],
+      "options": ["مُدَرِّسَاتٌ", "مُدَرِّسُونَ", "مُدَرِّسَةٌ"],
+      "explain": "Des femmes, au pluriel : {ar|مُدَرِّسَاتٌ}. {ar|مُدَرِّسُونَ} désigne des hommes."
+    },
+    {
+      "id": "medine-t1.l13.practice-1#4",
+      "type": "order",
+      "fr": "Ceux-là sont des commerçants.",
+      "answers": [["أُولَئِكَ", "تُجَّارٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l13.practice-1#5",
+      "type": "spot",
+      "instruction": "Touche les mots qui sont au pluriel.",
+      "words": ["هٰذَا", "الرَّجُلُ", "طَالِبٌ", "وَأُولَئِكَ", "الرِّجَالُ", "أَطِبَّاءُ."],
+      "answers": [3, 4, 5],
+      "fr": "Cet homme est étudiant et ces hommes-là sont des médecins.",
+      "explain": "{ar|وَأُولَئِكَ} (ceux-là), {ar|الرِّجَالُ} (les hommes) et {ar|أَطِبَّاءُ} (des médecins) sont au pluriel."
+    },
+    {
+      "id": "medine-t1.l13.practice-1#6",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « Cet homme-là est enseignant » au pluriel ?" },
+      "choices": [
+        { "ar": "أُولَئِكَ الرِّجَالُ مُدَرِّسُونَ." },
+        { "ar": "ذٰلِكَ الرِّجَالُ مُدَرِّسُونَ." },
+        { "ar": "أُولَئِكَ الرَّجُلُ مُدَرِّسٌ." }
+      ],
+      "answer": 0,
+      "explain": "Tout passe au pluriel : le démonstratif ({ar|أُولَئِكَ}), le nom ({ar|الرِّجَالُ}) et le mot qui dit ce qu'ils sont ({ar|مُدَرِّسُونَ}). {ar|ذٰلِكَ} ne s'emploie qu'avec un singulier."
+    },
+    {
+      "id": "medine-t1.l13.practice-1#7",
+      "type": "fill_gap",
+      "sentence": "{0} طَالِبَاتٌ وَ{1} مُدَرِّسَاتٌ.",
+      "fr": "Celles-ci sont des étudiantes et celles-là sont des enseignantes.",
+      "gaps": [ { "answers": ["هَؤُلَاءِ"] }, { "answers": ["أُولَئِكَ"] } ],
+      "options": ["هَؤُلَاءِ", "أُولَئِكَ", "هٰذِهِ"],
+      "explain": "Proche : {ar|هَؤُلَاءِ}. Loin : {ar|أُولَئِكَ}."
+    },
+    {
+      "id": "medine-t1.l13.practice-1#8",
+      "type": "order",
+      "fr": "Ces étudiants-ci sont nouveaux.",
+      "answers": [["هَؤُلَاءِ", "الطُّلَّابُ", "جُدُدٌ"]],
+      "punctuation": ".",
+      "explain": "Après {ar|هَؤُلَاءِ}, le nom qu'on désigne prend l'article ({ar|الطُّلَّابُ}) ; {ar|جُدُدٌ} est le pluriel de {ar|جَدِيدٌ}."
+    },
+    { "id": "medine-t1.l13.practice-1#9", "type": "typing", "ask": "fr", "item": "w:haulaa" },
+    {
+      "id": "medine-t1.l13.practice-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceux-là sont des enseignants.",
+      "answers": ["أُولَئِكَ مُدَرِّسُونَ."]
+    }
+  ]
+}
