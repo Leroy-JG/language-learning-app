@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Tu sais depuis le chapitre 10 que le pronom {ar|◌ِي} (mon, ma, mes) se colle à la fin d'un nom, et que la dernière lettre du nom prend alors en général une kasra :"
+          "text": "Tu sais depuis le chapitre 10 que le pronom {ar|◌ِي} (mon, ma, mes) se colle à la fin d'un nom, et que la dernière lettre du nom prend alors en général une kasra (quelques noms, que tu verras plus tard, font exception) :"
         },
         {
           "type": "compare",
@@ -81,6 +81,11 @@
               "{ar|صَدِيقِي} dans {ar|خَرَجَ صَدِيقِي}",
               "le sujet du verbe ({ar|فَاعِلٌ}) et le premier terme de l'annexion",
               "nominatif ({ar|مَرْفُوعٌ}) : la damma est sous-entendue"
+            ],
+            [
+              "{ar|كِتَابِي} dans {ar|فِي كِتَابِي}",
+              "le nom après une préposition",
+              "génitif ({ar|مَجْرُورٌ}) : la kasra du génitif est sous-entendue ; celle qu'on voit est celle du {ar|ي}"
             ]
           ]
         },

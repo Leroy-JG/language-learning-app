@@ -60,7 +60,7 @@
       "prompt": { "fr": "Dans {ar|كِتَابِي}, quel est le rôle du pronom {ar|◌ِي} ?" },
       "choices": [ { "fr": "le second terme de l'annexion" }, { "fr": "le sujet" }, { "fr": "une préposition" } ],
       "answer": 0,
-      "explain": "Un pronom affixe est le second terme d'une annexion : {ar|كِتَابِي} se construit comme {ar|كِتَابُ زَيْدٍ}."
+      "explain": "Collé à un nom, un pronom affixe est le second terme d'une annexion : {ar|كِتَابِي} se construit comme {ar|كِتَابُ زَيْدٍ}."
     },
     {
       "id": "medine-t1.l11.practice-2#5",

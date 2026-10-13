@@ -8,7 +8,7 @@
       "id": "medine-t1.l11.dialogue-2#1",
       "type": "dialogue",
       "title": "Ma famille",
-      "intro": "Le même étudiant parle de la chambre de son frère et de sa sœur, puis de ses parents (texte du livre).",
+      "intro": "Le narrateur parle de la chambre de son frère et de sa sœur, puis de ses parents (texte du livre).",
       "speakers": { "N": { "name": "Récit", "voice": "f1" } },
       "lines": [
         {
@@ -58,7 +58,7 @@
             ],
             [
               "{ar|أُسَامَةُ}, {ar|سُعَادُ}",
-              "des prénoms : ils n'ont pas de tanwin. {ar|أُسَامَةُ} est un prénom d'homme, même s'il se termine par {ar|ة}"
+              "des prénoms sans tanwin (comme {ar|حَمْزَةُ} ou {ar|فَاطِمَةُ}, mais pas {ar|زَيْدٌ}, qui en prend un). {ar|أُسَامَةُ} est un prénom d'homme, même s'il se termine par {ar|ة}"
             ]
           ]
         }

@@ -58,8 +58,8 @@
           "type": "table",
           "header": ["Qui aime ?", "Le verbe", "Exemple"],
           "rows": [
-            ["il", "{ar|يُحِبُّ}", "{ar|زَيْدٌ يُحِبُّ أَخِي}"],
-            ["je", "{ar|أُحِبُّ}", "{ar|أُحِبُّ أَبِي وَأُمِّي}"]
+            ["il", "{ar|يُحِبُّ}", "{ar|زَيْدٌ يُحِبُّ أَخِي} (Zayd aime mon frère)"],
+            ["je", "{ar|أُحِبُّ}", "{ar|أُحِبُّ أَبِي وَأُمِّي} (j'aime mon père et ma mère)"]
           ]
         },
         {
@@ -94,7 +94,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "{ar|أَحَدٌ} veut dire « quelqu'un ». Après une négation ({ar|مَا}), il veut dire « personne »."
+          "text": "{ar|أَحَدٌ} s'emploie surtout dans une question (« quelqu'un ? ») ou après une négation ({ar|مَا}) : il veut alors dire « personne »."
         },
         {
           "type": "table",

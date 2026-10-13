@@ -8,7 +8,7 @@
       "id": "medine-t1.l11.dialogue-1#1",
       "type": "dialogue",
       "title": "Ma maison",
-      "intro": "Un étudiant présente sa maison et sa chambre (texte du livre).",
+      "intro": "Le narrateur présente sa maison et sa chambre (texte du livre).",
       "speakers": { "N": { "name": "Récit", "voice": "f1" } },
       "lines": [
         {

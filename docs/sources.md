@@ -171,10 +171,18 @@ Support utilisé pour la leçon 11 (`l11`) : `TOME1-11.pdf` (17 pages) : `الْ
 - pluriels : `زُمَلَاءُ أَزْوَاجٌ أَطْفَالٌ فِتْيَةٌ إِخْوَةٌ` et ceux des termes de grammaire (`الْمُتَكَلِّمُونَ`, `الضَّمَائِرُ`…) ;
 - seulement **aperçus** (astuce « Des petites formes à repérer », rien n'est exigé en exercice) : la particule `بِ` (`بِالْجَامِعَةِ`), `الَّذِي`, les formes `ذَهَبْتُ` / `أَذَهَبْتَ`.
 
+**Leçon 11** (`l11`) : variable et invariable, le nom suivi de `◌ِي`, `ـهُ` → `ـهِ`, « aimer » :
+- le nom variable (`الْمُعْرَبُ`) : la base du nom ; le nom invariable (`الْمَبْنِيُّ`) : pronoms, démonstratifs et interrogatifs **que l'on connaît** (le duel des démonstratifs et `أَيٌّ` sont variables : seulement annoncés) ; les particules sont toutes invariables, le verbe au passé et l'impératif aussi, le présent est « en général » variable ; un nom invariable a pourtant un rôle (sujet, second terme d'annexion) ;
+- le nom suivi de `◌ِي` : la kasra qui précède le `ي` n'est pas un signe du cas (on ne dit pas `مَجْرُورٌ` à cause d'elle) ; le cas est « sous-entendu », comme pour le nom maqṣūr, et se déduit du rôle (sujet de phrase nominale, sujet du verbe, après une préposition ou `مَعَ`) ; `كُرْسِيِّي` ;
+- la règle complète de `هَاءُ الْغَائِبِ` : `ـهُ ـهُمَا ـهُمْ ـهُنَّ` deviennent `ـهِ ـهِمَا ـهِمْ ـهِنَّ` juste après une kasra ou un `ي` sans voyelle (pas après un sukun : `مِنْهُ`) ; `ـهَا` ne change jamais ;
+- vocabulaire : `أَحَبَّ` (avec ses quatre formes dans une astuce), `يُحِبُّ`, `أُحِبُّ`, `أَحَدٌ` (dans une question ou après une négation : `مَا فِيهِ أَحَدٌ`), `النَّبِيُّ` ;
+- le texte du livre « بَيْتِي » (deux dialogues) et les exercices 1 (`فِيهِ` / `فِيهَا`) et 2 (`أُحِبُّ …`) ;
+- seulement **aperçu** (aucun exercice) : l'accusatif de ce qu'on aime (`أُحِبُّ اللَّهَ`, `أُحِبُّ اللُّغَةَ الْعَرَبِيَّةَ`) ; un exercice peut en revanche demander le sens de la phrase.
+
 **Pas encore enseigné** (ne pas l'exiger dans un exercice) :
 - les démonstratifs pluriels ;
 - les pronoms affixes du nominatif et de l'accusatif (ils s'attachent aux verbes) et les pronoms isolés de l'accusatif (`إِيَّاكَ`) ;
-- les cas du nom et leurs fonctions : le sujet, le prédicat, le sujet du verbe, l'adverbe, le second terme d'annexion et le nom après une préposition sont vus (leçon 8) ; pas le complément d'objet : le نَصْب n'est montré qu'avec les adverbes et après قَرَأْتُ (et, sans exercice, dans les dialogues de la révision 1) ;
+- les cas du nom et leurs fonctions : le sujet, le prédicat, le sujet du verbe, l'adverbe, le second terme d'annexion et le nom après une préposition sont vus (leçon 8) ; pas le complément d'objet : le نَصْب n'est montré qu'avec les adverbes et après قَرَأْتُ (et, sans exercice, dans les dialogues de la révision 1 et dans les phrases `أُحِبُّ …` de la leçon 11) ;
 - l'interpellation d'un nom annexé (يَا عَبْدَ اللَّهِ) ou avec أَيُّهَا ;
 - l'annexion « d'apparence » (الضَّارِبُ الرَّجُلِ) ;
 - le pluriel des adjectifs : seuls quelques-uns sont vus (سِرَاعٌ, ceux des chapitres 9 et de la révision 1) ;
@@ -474,6 +482,40 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - `أَبٌ` et `أَخٌ` : `ـُو` au nominatif, `ـِي` au génitif, `أَبِي` / `أَخِي` toujours ; l'accusatif (`أَبَاهُ`) n'est que mentionné ; `أُمٌّ`, `أُخْتٌ`, `عَمٌّ`, `اِبْنٌ` ne changent pas ;
   - `مَا` devant la phrase : négation de « avoir » (`مَا عِنْدِي سَيَّارَةٌ`), à ne pas confondre avec `مَا` « qu'est-ce que ? » ;
   - `زُمَلَاءُ` est de la forme `فُعَلَاءُ` (comme `وُزَرَاءُ`) : pas de tanwin ; pluriels des termes de grammaire en `ـُونَ`.
+- **Pas de nouvelle icône.**
+
+### Leçon 11 (`l11`)
+
+- **Support :** un seul PDF de 17 pages (cours 11 : `الْمَبْنِيُّ وَالْمُعْرَبُ`, `الْمُضَافُ إِلَى يَاءِ الْمُتَكَلِّمِ`, `هَاءُ الْغَائِبِ`, texte du livre, exercices 1 et 2, vocabulaire `أَحَبَّ`).
+- **Beaucoup de rappels :** le suffixe `◌ِي` et le `ـهِ` après une kasra avaient déjà été enseignés au chapitre 10 ; le chapitre 11 en donne les explications du professeur (la kasra n'est pas un cas, la règle complète du `هُ` → `هِ`) sans refaire les tableaux. Tous les mots du texte « بَيْتِي » étaient déjà enseignés : seuls 7 éléments nouveaux (`الْمُعْرَبُ`, `الْمَبْنِيُّ`, `أَحَبَّ`, `يُحِبُّ`, `أُحِبُّ`, `أَحَدٌ`, `النَّبِيُّ`).
+- **Exercices du livre repris :**
+  - texte « بَيْتِي » → `dialogue-1` et `dialogue-2` (un seul locuteur, « Récit », comme `r01/dialogue-3`) ; vocalisation reconstituée (le PDF est peu vocalisé), relue par un relecteur : `كُرْسِيِّي`, `اسْمُهُ أُسَامَةُ`, `اسْمُهَا سُعَادُ` ;
+  - exercice 1 (`فِيهِ` / `فِيهَا`) → `practice-3` (réponses guidées, car les réponses du livre sont à recopier) ;
+  - exercice 2 (`أُحِبُّ …`) → `practice-3`, en lecture (astuce) puis exercices sur les phrases sans accusatif visible ;
+  - exemples des diapositives (`هٰذَا زَيْدٌ`, `نَحْنُ طُلَّابٌ`, `هُمْ مُسْلِمُونَ`, `بَيْتُكَ جَمِيلٌ`, `صَدِيقُكُمْ فِي الْمَدْرَسَةِ`) → `grammar-2` et `practice-1` ; analyses `كِتَابِي فِي الْفَصْلِ` et `خَرَجَ صَدِيقِي` → `grammar-3` et `practice-2`.
+- **Écarts avec les diapositives :**
+  - `ضَرَبْتُ زَيْدًا` et `ضَرَبْتُ هٰذَا` : non repris (le verbe n'est pas enseigné ; `قَرَأْتُ كِتَابًا` du chapitre 5 sert d'exemple de l'accusatif) ;
+  - `جَاءَ صَدِيقِي` → `خَرَجَ صَدِيقِي` (`جَاءَ` n'est pas enseigné) ;
+  - `إِحْبَابًا` (accusatif dans le tableau) est cité au nominatif, `إِحْبَابٌ`, avec la note que le nom courant est `حُبٌّ` ;
+  - `أُحِبُّ النَّبِيَّ ﷺ` : le signe ﷺ n'est pas repris ; l'astuce renvoie à `صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ` (chapitre 5) ;
+  - `الدَّرْسُ الْحَادِيَ عَشَرَ` : écrit comme dans le PDF (`الْحَادِيَ`, avec fatha) ;
+  - le schéma du PDF range le verbe et la particule sous `الْمَبْنِيُّ` ; l'item `الْمَبْنِيُّ` dit « le nom invariable » (comme le PDF) et une astuce précise qu'on le dit aussi d'une particule et d'un verbe au passé ;
+  - `هٰذَا` écrit avec l'alif suscrit, comme dans tout le cours.
+- **Corrections après relecture :**
+  - le PDF dit que le nom, quand il est annexé à `ي`, prend « constamment » une kasra : l'app écrit « en général » (le maqṣūr, le pluriel masculin sain et le duel font exception) ;
+  - les démonstratifs et les interrogatifs ne sont pas tous invariables (duel, `أَيٌّ`) : on écrit « que tu connais » ;
+  - `مَعَ` est un adverbe dans ce cours (chapitres 8 et 10) : aucune carte ne le range avec les prépositions ;
+  - `أَحَبَّ` et `أُحِبُّ` s'écrivent pareil sans harakat : ils ne figurent jamais dans le même exercice (QCM, options, association).
+- **Réponses acceptées en plus :** `غُرُفَاتٌ` en plus de `غُرَفٌ` (Coran 34:37, Lisān al-ʿArab) ; l'ordre sujet d'abord pour « mon père, ma mère, mon frère et ma sœur sont dedans ». **Refusé :** le prédicat avant un sujet défini (`تَحْتَ الْمَكْتَبِ حَقِيبَتِي`), ordre non standard.
+- **Explications ajoutées (données à l'oral, absentes des PDF) :**
+  - `مُعْرَبٌ` vient de `الْإِعْرَابُ` (« rendre clair »), `مَبْنِيٌّ` de `بَنَى` (« bâtir ») ; les noms invariables ressemblent aux particules (Ibn Mālik) ;
+  - passé et impératif invariables, présent « en général » variable (jamais exigé en exercice) ;
+  - le `ي` long s'accorde avec la kasra, comme le `و` long avec la damma ;
+  - le cas d'un nom en `◌ِي` ne se lit pas, même au génitif : on le déduit du rôle ;
+  - le `هُ` ne devient `هِ` que si la kasra ou le `ي` est juste avant (pas après un sukun) ;
+  - `أَحَدٌ` (dans une question ou après une négation) est le mot « un » (`يَوْمُ الْأَحَدِ`) ;
+  - le pronom de `فِيهِ` / `فِيهَا` reprend le premier terme de l'annexion (`مَسْجِدُ الْجَامِعَةِ` → `فِيهِ`) ;
+  - ce qu'on aime est à l'accusatif ; avec `◌ِي`, sa fatha est sous-entendue.
 - **Pas de nouvelle icône.**
 
 ## Audio

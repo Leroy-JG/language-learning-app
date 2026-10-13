@@ -28,6 +28,11 @@
           "type": "note",
           "tone": "warning",
           "text": "Une seule exception : {ar|هَا} (elle). Il garde toujours sa fatha : {ar|فِيهَا}, {ar|عَلَيْهَا}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Il faut que la kasra ou le {ar|ي} soit **juste avant** le pronom. Si un sukun s'intercale ({ar|مِنْهُ}, {ar|مِنْهُمْ}), le pronom garde sa damma."
         }
       ]
     },
@@ -107,7 +112,7 @@
     {
       "id": "medine-t1.l11.grammar-4#6",
       "type": "true_false",
-      "statement": { "fr": "Après une kasra, le pronom {ar|هَا} devient {ar|هِا}." },
+      "statement": { "fr": "Après une kasra, le pronom {ar|هَا} devient {ar|هِ}, comme {ar|هُ}." },
       "answer": false,
       "explain": "Le pronom {ar|هَا} garde toujours sa fatha : {ar|فِيهَا}, {ar|عَلَيْهَا}."
     },
