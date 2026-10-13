@@ -17,7 +17,7 @@
       "id": "medine-t1.l08.practice-3#2",
       "type": "fill_gap",
       "sentence": "أَيْنَ بَيْتُ الْإِمَامِ؟ بَيْتُ الْإِمَامِ {0} الْمَسْجِدِ.",
-      "fr": "Où est la maison de l'imam ? Elle est derrière la mosquée.",
+      "fr": "Où est la maison de l'imam ? La maison de l'imam est derrière la mosquée.",
       "gaps": [ { "answers": ["خَلْفَ"] } ],
       "options": ["خَلْفَ", "أَمَامَ", "فَوْقَ"]
     },

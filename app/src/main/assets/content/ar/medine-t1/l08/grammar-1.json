@@ -22,7 +22,7 @@
               "Elle compte deux éléments : deux noms, ou un verbe et celui qui fait l'action",
               "{ar|زَيْدٌ جَالِسٌ} (Zayd est assis)"
             ],
-            ["Le second élément apporte une information sur le premier", "{ar|جَالِسٌ} dit ce que fait Zayd"],
+            ["Le second élément apporte une information sur le premier", "{ar|جَالِسٌ} dit comment est Zayd"],
             ["Elle se suffit à elle-même : on n'attend pas la suite", "{ar|خَرَجَ زَيْدٌ} (Zayd est sorti)"]
           ]
         },
@@ -99,7 +99,7 @@
       "fr": "Zayd est sorti de l'école.",
       "answers": [["خَرَجَ", "زَيْدٌ", "مِنَ", "الْمَدْرَسَةِ"], ["زَيْدٌ", "خَرَجَ", "مِنَ", "الْمَدْرَسَةِ"]],
       "punctuation": ".",
-      "explain": "Verbe d'abord : phrase verbale. Nom d'abord : phrase nominale. Les deux sont possibles et disent la même chose."
+      "explain": "Verbe d'abord : phrase verbale. Nom d'abord : phrase nominale. Les deux sont possibles et ont le même sens de base."
     },
     {
       "id": "medine-t1.l08.grammar-1#10",

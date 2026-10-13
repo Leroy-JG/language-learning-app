@@ -37,7 +37,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le sujet ({ar|الْمُبْتَدَأُ}) est toujours au nominatif, {ar|مَرْفُوعٌ} : il porte la damma (ou le tanwin {ar|◌ٌ}). Le prédicat ({ar|الْخَبَرُ}) l'est aussi quand c'est un nom ou un adjectif. Quand c'est un groupe « préposition + nom », le groupe garde sa propre terminaison (la kasra après la préposition) : on le verra plus bas."
+          "text": "Le sujet ({ar|الْمُبْتَدَأُ}) est toujours au nominatif, {ar|مَرْفُوعٌ} : il porte la damma (ou le tanwin {ar|◌ٌ}). Le prédicat ({ar|الْخَبَرُ}) l'est aussi quand c'est un nom ou un adjectif (damma, tanwin, ou « -ūna » pour un pluriel comme {ar|وَاقِفُونَ}). Quand c'est un groupe « préposition + nom », le groupe garde sa propre terminaison (la kasra après la préposition) : on le verra plus bas."
         },
         {
           "type": "table",
@@ -94,7 +94,7 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "{ar|طَالِبٌ غَنِيٌّ}, avec deux noms indéfinis, n'est pas une phrase correcte du cours : on ne sait pas de quel étudiant on parle. Il existe de rares exceptions, qu'on laisse de côté."
+          "text": "{ar|طَالِبٌ غَنِيٌّ}, avec deux noms indéfinis, n'est pas une phrase correcte du cours : on ne sait pas de quel étudiant on parle. Il existe des exceptions, qu'on laisse de côté."
         }
       ]
     },
@@ -125,6 +125,10 @@
               "{ar|زَيْدٌ خَرَجَ مِنَ الْمَدْرَسَةِ} (Zayd est sorti de l'école)"
             ]
           ]
+        },
+        {
+          "type": "note",
+          "text": "Dans les deux derniers cas, c'est tout le groupe qui est le prédicat : il garde sa propre terminaison (le nom après la préposition est au génitif)."
         },
         {
           "type": "note",

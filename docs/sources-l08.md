@@ -66,6 +66,9 @@
 - **Explications ajoutées (données à l'oral, absentes des PDF) :**
   - `زَيْدٌ خَرَجَ` est nominale, `خَرَجَ زَيْدٌ` verbale (le premier mot décide) ;
   - le sujet de la phrase nominale est « en principe » défini ; le prédicat s'accorde quand c'est un adjectif ou un nom de personne ;
+  - le PDF dit que le sujet et le prédicat sont « toujours marfūʿ » : on précise que le prédicat est au nominatif quand c'est un nom ou un adjectif, alors qu'un groupe « préposition + nom » ou « adverbe + nom » garde sa terminaison propre (`فِي الْفَصْلِ`, `فَوْقَ الْمَكْتَبِ`) ;
+  - le second terme d'une annexion après un adverbe est au génitif : kasra ou tanwin, fatha pour un nom privé de tanwin (`عُمَرَ`) ; `مُوسَى` et `عِيسَى` n'ont pas de tanwin (noms propres étrangers) ;
+  - `عِبَادٌ` (serviteurs d'Allah) et `عَبِيدٌ` (esclaves) ;
   - dans `اِذْهَبْ يَا زَيْدُ`, `زَيْدُ` est la personne appelée, pas le sujet ;
   - `مَا اسْمُ… ؟` : littéralement « qu'est-ce que le nom de… ? », l'alif de liaison de `اسْمُ` ;
   - la voyelle de l'alif de l'impératif suit la dernière lettre du présent (damma → damma, sinon kasra) ;

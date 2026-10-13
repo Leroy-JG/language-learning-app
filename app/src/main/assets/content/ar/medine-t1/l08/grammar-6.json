@@ -46,7 +46,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Un adverbe de lieu est en général au cas {ar|مَنْصُوبٌ} (l'accusatif, {ar|النَّصْبُ}) : il porte une **fatha** à la fin. Tu l'as vue dans {ar|فَوْقَ}, {ar|تَحْتَ}, {ar|أَمَامَ} et {ar|خَلْفَ}."
+          "text": "Un adverbe de lieu est en général au cas {ar|مَنْصُوبٌ} (l'accusatif, {ar|النَّصْبُ}) : il porte une **fatha** à la fin. Tu l'as vue dans {ar|فَوْقَ}, {ar|تَحْتَ}, {ar|أَمَامَ} et {ar|خَلْفَ}. Dans la phrase ci-dessous, le prédicat est le groupe {ar|فَوْقَ الْمَكْتَبِ} (adverbe + nom)."
         },
         {
           "type": "table",
@@ -76,7 +76,7 @@
             [
               "{ar|الرَّفْعُ} (nominatif)",
               "damma",
-              "le sujet et le prédicat de la phrase nominale ; le sujet du verbe",
+              "le sujet de la phrase nominale, son prédicat quand c'est un nom ou un adjectif ; le sujet du verbe",
               "{ar|زَيْدٌ جَالِسٌ}"
             ],
             [

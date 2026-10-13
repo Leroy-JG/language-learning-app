@@ -1,7 +1,7 @@
 {
   "id": "medine-t1.l08.vocab-3",
   "type": "vocabulary",
-  "title": "Hôpital, mosquée et classe",
+  "title": "Hôpital, mihrab, couteau et pays",
   "icon": "school",
   "screens": [
     { "id": "medine-t1.l08.vocab-3#1", "type": "present", "item": "w:mustashfa" },
