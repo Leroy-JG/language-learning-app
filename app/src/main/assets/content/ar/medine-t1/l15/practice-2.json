@@ -1,0 +1,156 @@
+{
+  "id": "medine-t1.l15.practice-2",
+  "type": "grammar",
+  "title": "Le bon pronom",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l15.practice-2#1",
+      "type": "tip",
+      "title": "L'exercice du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre demande de mettre devant chaque mot le bon pronom, après {ar|أَ} (« est-ce que… ? »). Le pronom dépend de la personne à qui l'on parle : sa forme suit le genre et le nombre du mot qui vient après."
+        },
+        {
+          "type": "table",
+          "header": ["Le mot qui suit", "Le pronom"],
+          "rows": [
+            ["{ar|مُسْلِمٌ} (un musulman)", "{ar|أَنْتَ}"],
+            ["{ar|مُسْلِمَةٌ} (une musulmane)", "{ar|أَنْتِ}"],
+            ["{ar|مُسْلِمُونَ} (des musulmans)", "{ar|أَنْتُمْ}"],
+            ["{ar|مُسْلِمَاتٌ} (des musulmanes)", "{ar|أَنْتُنَّ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.practice-2#2",
+      "type": "fill_gap",
+      "sentence": "أَ {0} مُسْلِمٌ؟",
+      "fr": "Es-tu musulman ? (à un homme)",
+      "gaps": [ { "answers": ["أَنْتَ"] } ],
+      "options": ["أَنْتَ", "أَنْتُمْ", "أَنْتُنَّ"]
+    },
+    {
+      "id": "medine-t1.l15.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "أَ {0} مَرِيضَةٌ؟",
+      "fr": "Es-tu malade ? (à une femme)",
+      "gaps": [ { "answers": ["أَنْتِ"] } ],
+      "options": ["أَنْتِ", "أَنْتُمْ", "أَنْتُنَّ"]
+    },
+    {
+      "id": "medine-t1.l15.practice-2#4",
+      "type": "question",
+      "prompt": { "fr": "Quel pronom met-on devant {ar|مُمَرِّضَاتٌ} (des infirmières), pour leur parler ?" },
+      "choices": [ { "ar": "أَنْتُنَّ" }, { "ar": "أَنْتُمْ" }, { "ar": "أَنَا" } ],
+      "answer": 0,
+      "explain": "{ar|مُمَرِّضَاتٌ} est un pluriel féminin de personnes : on parle à plusieurs femmes, donc {ar|أَنْتُنَّ}."
+    },
+    {
+      "id": "medine-t1.l15.practice-2#5",
+      "type": "fill_gap",
+      "sentence": "أَ {0} طَبِيبَاتٌ؟",
+      "fr": "Êtes-vous médecins ? (à plusieurs femmes)",
+      "gaps": [ { "answers": ["أَنْتُنَّ"] } ],
+      "options": ["أَنْتُنَّ", "أَنْتُمْ", "أَنْتَ"]
+    },
+    {
+      "id": "medine-t1.l15.practice-2#6",
+      "type": "sort",
+      "categories": [ { "ar": "أَنْتُمْ" }, { "ar": "أَنْتُنَّ" } ],
+      "cards": [
+        { "ar": "مُدَرِّسُونَ", "category": 0 },
+        { "ar": "مُسْلِمُونَ", "category": 0 },
+        { "ar": "مُهَنْدِسُونَ", "category": 0 },
+        { "ar": "طَالِبَاتٌ", "category": 1 },
+        { "ar": "مُمَرِّضَاتٌ", "category": 1 },
+        { "ar": "مُسْلِمَاتٌ", "category": 1 }
+      ],
+      "instruction": "Quel pronom va devant ce mot ?",
+      "explain": "Pour des personnes, un pluriel en {ar|◌ُونَ} désigne des hommes (ou un groupe mixte) : {ar|أَنْتُمْ} ; un pluriel en {ar|◌َاتٌ} désigne des femmes : {ar|أَنْتُنَّ}."
+    },
+    {
+      "id": "medine-t1.l15.practice-2#7",
+      "type": "fill_gap",
+      "sentence": "أَ {0} تُجَّارٌ؟",
+      "fr": "Êtes-vous commerçants ? (à plusieurs hommes)",
+      "gaps": [ { "answers": ["أَنْتُمْ"] } ],
+      "options": ["أَنْتُمْ", "أَنْتِ", "أَنْتُنَّ"]
+    },
+    {
+      "id": "medine-t1.l15.practice-2#8",
+      "type": "fill_gap",
+      "sentence": "أَ {0} بِنْتُ الْمُدَرِّسِ؟",
+      "fr": "Es-tu la fille de l'enseignant ? (à une fille)",
+      "gaps": [ { "answers": ["أَنْتِ"] } ],
+      "options": ["أَنْتِ", "أَنْتُمْ", "أَنْتُنَّ"]
+    },
+    {
+      "id": "medine-t1.l15.practice-2#9",
+      "type": "order",
+      "fr": "Êtes-vous les sœurs d'ʿAbbās ? (à plusieurs femmes)",
+      "answers": [["أَأَنْتُنَّ", "أَخَوَاتُ", "عَبَّاسٍ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l15.practice-2#10",
+      "type": "tip",
+      "title": "Parler de soi : {ar|أَنَا} et {ar|نَحْنُ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre demande aussi le pronom de celui qui parle : {ar|أَنَا} (« je ») pour une personne, {ar|نَحْنُ} (« nous ») pour plusieurs."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.practice-2#11",
+      "type": "fill_gap",
+      "sentence": "{0} مُسْلِمٌ.",
+      "fr": "Je suis musulman.",
+      "gaps": [ { "answers": ["أَنَا"] } ],
+      "options": ["أَنَا", "نَحْنُ", "أَنْتِ"]
+    },
+    {
+      "id": "medine-t1.l15.practice-2#12",
+      "type": "fill_gap",
+      "sentence": "{0} بَنَاتُ الْمُدِيرِ.",
+      "fr": "Nous sommes les filles du directeur.",
+      "gaps": [ { "answers": ["نَحْنُ"] } ],
+      "options": ["نَحْنُ", "أَنَا", "أَنْتِ"]
+    },
+    {
+      "id": "medine-t1.l15.practice-2#13",
+      "type": "true_false",
+      "statement": {
+        "fr": "{ar|أَنَا} s'emploie pour une seule personne ; pour plusieurs personnes qui parlent d'elles-mêmes, on dit {ar|نَحْنُ}."
+      },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l15.practice-2#14",
+      "type": "fill_gap",
+      "sentence": "{0} ابْنُ الْمُدَرِّسِ.",
+      "fr": "Je suis le fils de l'enseignant.",
+      "gaps": [ { "answers": ["أَنَا"] } ],
+      "options": ["أَنَا", "نَحْنُ", "أَنْتُمْ"]
+    },
+    {
+      "id": "medine-t1.l15.practice-2#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Es-tu malade ? (à une femme)",
+      "answers": ["أَأَنْتِ مَرِيضَةٌ؟", "أَنْتِ مَرِيضَةٌ؟"]
+    },
+    {
+      "id": "medine-t1.l15.practice-2#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Êtes-vous commerçants ? (à plusieurs hommes)",
+      "answers": ["أَأَنْتُمْ تُجَّارٌ؟"]
+    }
+  ]
+}

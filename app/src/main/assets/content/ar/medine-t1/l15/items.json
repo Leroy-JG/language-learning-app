@@ -1,0 +1,39 @@
+[
+  {
+    "id": "w:mata",
+    "kind": "word",
+    "ar": "مَتَى",
+    "fr": "quand… ?",
+    "translit": "matā",
+    "note": "Nom interrogatif du moment ({ar|لِلزَّمَانِ}). Il est invariable et se place en tête de la question. Il s'écrit avec un {ar|ى}, comme {ar|إِلَى}, et se prononce « matā », avec un ā long.",
+    "example": { "ar": "مَتَى الدَّرْسُ؟", "fr": "Quand est la leçon ?" }
+  },
+  {
+    "id": "w:qabla",
+    "kind": "word",
+    "ar": "قَبْلَ",
+    "fr": "avant",
+    "translit": "qabla",
+    "note": "Adverbe ({ar|ظَرْفٌ}, chapitre 8) qui situe quelque chose dans le temps. Le plus souvent, il est suivi d'un nom au génitif (annexion).",
+    "example": { "ar": "الدَّرْسُ قَبْلَ الصَّلَاةِ.", "fr": "La leçon est avant la prière." }
+  },
+  {
+    "id": "w:bada",
+    "kind": "word",
+    "ar": "بَعْدَ",
+    "fr": "après",
+    "translit": "baʿda",
+    "note": "Adverbe ({ar|ظَرْفٌ}), contraire de {ar|قَبْلَ}. Le plus souvent, il est suivi d'un nom au génitif (annexion).",
+    "example": { "ar": "الِاخْتِبَارُ بَعْدَ أُسْبُوعٍ.", "fr": "L'examen est dans une semaine." }
+  },
+  {
+    "id": "w:qahira",
+    "kind": "word",
+    "ar": "الْقَاهِرَةُ",
+    "fr": "Le Caire",
+    "translit": "al-qāhiratu",
+    "gender": "f",
+    "note": "La capitale de l'Égypte. Nom propre féminin (il se termine par {ar|ة}) ; en arabe, on le dit presque toujours avec l'article.",
+    "example": { "ar": "ذَهَبَ أَبِي إِلَى الْقَاهِرَةِ.", "fr": "Mon père est allé au Caire." }
+  }
+]

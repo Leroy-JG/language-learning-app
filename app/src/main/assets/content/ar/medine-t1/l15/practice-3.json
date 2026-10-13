@@ -1,0 +1,106 @@
+{
+  "id": "medine-t1.l15.practice-3",
+  "type": "grammar",
+  "title": "Lis et écris",
+  "icon": "notebook",
+  "screens": [
+    { "id": "medine-t1.l15.practice-3#1", "type": "present", "item": "w:qahira" },
+    {
+      "id": "medine-t1.l15.practice-3#2",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:qahira",
+      "distractors": ["w:makka", "w:riyad"]
+    },
+    {
+      "id": "medine-t1.l15.practice-3#3",
+      "type": "tip",
+      "title": "Les phrases du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre te fait lire cinq phrases avec {ar|قَبْلَ} et {ar|بَعْدَ}. Trois d'entre elles contiennent des verbes avec des terminaisons que tu n'as pas encore vues : retiens leur sens, puis exerce-toi avec les mêmes phrases mises à la 3ᵉ personne (« il », « elle »)."
+        },
+        {
+          "type": "table",
+          "header": ["Dans le livre", "Sens"],
+          "rows": [
+            [
+              "{ar|مَتَى خَرَجْتَ مِنَ الْفَصْلِ يَا مُحَمَّدُ؟}",
+              "Quand es-tu sorti de la salle de classe, Muḥammad ?"
+            ],
+            ["{ar|خَرَجْتُ بَعْدَ الدَّرْسِ.}", "Je suis sorti après la leçon."],
+            [
+              "{ar|أَقَبْلَ الصَّلَاةِ ذَهَبْتَ إِلَى الْمَطْعَمِ؟ لَا. ذَهَبْتُ بَعْدَ الصَّلَاةِ.}",
+              "Es-tu allé au restaurant avant la prière ? Non. J'y suis allé après la prière."
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans ces verbes, la terminaison {ar|تَ} veut dire « tu » (à un homme) et {ar|تُ} veut dire « je ». Tu les étudieras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.practice-3#4",
+      "type": "order",
+      "fr": "Mon père est allé au Caire il y a une semaine.",
+      "answers": [
+        ["ذَهَبَ", "أَبِي", "إِلَى", "الْقَاهِرَةِ", "قَبْلَ", "أُسْبُوعٍ"],
+        ["أَبِي", "ذَهَبَ", "إِلَى", "الْقَاهِرَةِ", "قَبْلَ", "أُسْبُوعٍ"]
+      ],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l15.practice-3#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَتَى ذَهَبَ عَمُّكِ إِلَى الرِّيَاضِ يَا آمِنَةُ؟",
+      "answers": ["ذَهَبَ قَبْلَ شَهْرٍ.", "ذَهَبَ إِلَى الرِّيَاضِ قَبْلَ شَهْرٍ.", "قَبْلَ شَهْرٍ."],
+      "fr": "Il y est allé il y a un mois.",
+      "instruction": "Réponds : il y est allé il y a un mois."
+    },
+    {
+      "id": "medine-t1.l15.practice-3#6",
+      "type": "fill_gap",
+      "sentence": "أَقَبْلَ الصَّلَاةِ ذَهَبَ زَيْدٌ إِلَى الْمَطْعَمِ؟ لَا. ذَهَبَ {0} الصَّلَاةِ.",
+      "fr": "Zayd est-il allé au restaurant avant la prière ? Non. Il y est allé après la prière.",
+      "gaps": [ { "answers": ["بَعْدَ"] } ],
+      "options": ["قَبْلَ", "بَعْدَ", "مَعَ"]
+    },
+    {
+      "id": "medine-t1.l15.practice-3#7",
+      "type": "spot",
+      "instruction": "Touche les deux adverbes.",
+      "words": ["ذَهَبَ", "زَيْدٌ", "قَبْلَ", "الصَّلَاةِ", "وَرَجَعَ", "بَعْدَ", "الدَّرْسِ."],
+      "answers": [2, 5],
+      "fr": "Zayd est parti avant la prière et est revenu après la leçon."
+    },
+    {
+      "id": "medine-t1.l15.practice-3#8",
+      "type": "order",
+      "fr": "Quand ton oncle paternel est-il allé à Riyad, Āmina ? (à une fille)",
+      "answers": [
+        ["مَتَى", "ذَهَبَ", "عَمُّكِ", "إِلَى", "الرِّيَاضِ", "يَا", "آمِنَةُ"],
+        ["يَا", "آمِنَةُ", "مَتَى", "ذَهَبَ", "عَمُّكِ", "إِلَى", "الرِّيَاضِ"]
+      ],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l15.practice-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Muḥammad est sorti de la salle de classe après la leçon.",
+      "answers": ["خَرَجَ مُحَمَّدٌ مِنَ الْفَصْلِ بَعْدَ الدَّرْسِ."]
+    },
+    {
+      "id": "medine-t1.l15.practice-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mon père est allé au Caire il y a une semaine.",
+      "answers": ["ذَهَبَ أَبِي إِلَى الْقَاهِرَةِ قَبْلَ أُسْبُوعٍ.", "أَبِي ذَهَبَ إِلَى الْقَاهِرَةِ قَبْلَ أُسْبُوعٍ."]
+    }
+  ]
+}

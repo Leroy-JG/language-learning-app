@@ -1,0 +1,102 @@
+{
+  "id": "medine-t1.l15.recap",
+  "type": "review",
+  "title": "Rappel : les noms interrogatifs",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l15.recap#1",
+      "type": "tip",
+      "title": "Les noms interrogatifs que tu connais",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour poser une question, tu connais déjà cinq noms interrogatifs. Chacun interroge sur une chose précise."
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Il demande…", "Exemple"],
+          "rows": [
+            ["{ar|مَا}", "une chose, un animal", "{ar|مَا هٰذَا؟}"],
+            ["{ar|مَنْ}", "une personne", "{ar|مَنْ هٰذَا؟}"],
+            ["{ar|أَيْنَ}", "un lieu", "{ar|أَيْنَ الْكِتَابُ؟}"],
+            ["{ar|كَيْفَ}", "l'état, la manière", "{ar|كَيْفَ حَالُكَ؟}"],
+            [
+              "{ar|أَيُّ}",
+              "un lieu, un moment, une personne ou une chose, selon le nom qui le suit",
+              "{ar|أَيُّ يَوْمٍ هٰذَا؟}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Il en manque un : celui qui demande **le moment**, « quand ? ». C'est le sujet de ce chapitre."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.recap#2",
+      "type": "tip",
+      "title": "Touche un mot pour l'écouter",
+      "blocks": [
+        {
+          "type": "gallery",
+          "title": "Les noms interrogatifs",
+          "items": ["w:ma", "w:man", "w:ayna", "w:kayfa", "w:ayy"]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.recap#3",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:ma", "w:man", "w:ayna", "w:kayfa", "w:ayy"]
+    },
+    {
+      "id": "medine-t1.l15.recap#4",
+      "type": "sort",
+      "categories": [ { "ar": "مَنْ" }, { "ar": "أَيْنَ" }, { "ar": "كَيْفَ" } ],
+      "cards": [
+        { "ar": "هُوَ مُحَمَّدٌ.", "category": 0 },
+        { "ar": "هِيَ أُخْتِي.", "category": 0 },
+        { "ar": "هُوَ فِي الْمَسْجِدِ.", "category": 1 },
+        { "ar": "هِيَ فِي الْمَطْبَخِ.", "category": 1 },
+        { "ar": "أَنَا بِخَيْرٍ.", "category": 2 },
+        { "ar": "نَحْنُ بِخَيْرٍ.", "category": 2 }
+      ],
+      "instruction": "Quelle question a cette réponse ? Range chaque réponse sous le bon nom interrogatif.",
+      "explain": "{ar|مَنْ} : une personne ; {ar|أَيْنَ} : un lieu ; {ar|كَيْفَ} : l'état, la manière."
+    },
+    {
+      "id": "medine-t1.l15.recap#5",
+      "type": "fill_gap",
+      "sentence": "مِنْ {0} أَنْتَ؟",
+      "fr": "D'où viens-tu ? (à un homme)",
+      "gaps": [ { "answers": ["أَيْنَ"] } ],
+      "options": ["أَيْنَ", "كَيْفَ", "لِمَاذَا"],
+      "explain": "{ar|مِنْ أَيْنَ} : « d'où ? »."
+    },
+    {
+      "id": "medine-t1.l15.recap#6",
+      "type": "question",
+      "prompt": { "fr": "Lequel de ces noms interrogatifs est **variable** (il change de voyelle selon son rôle) ?" },
+      "choices": [ { "ar": "أَيُّ" }, { "ar": "مَنْ" }, { "ar": "أَيْنَ" }, { "ar": "كَيْفَ" } ],
+      "answer": 0,
+      "explain": "{ar|أَيُّ} est le seul : {ar|أَيُّ مَدْرَسَةٍ} mais {ar|فِي أَيِّ مَدْرَسَةٍ}."
+    },
+    {
+      "id": "medine-t1.l15.recap#7",
+      "type": "order",
+      "fr": "D'où viens-tu ? (à un homme)",
+      "answers": [["مِنْ", "أَيْنَ", "أَنْتَ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l15.recap#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Comment vas-tu ? (à un homme)",
+      "answers": ["كَيْفَ حَالُكَ؟"]
+    }
+  ]
+}

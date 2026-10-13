@@ -209,6 +209,14 @@ Support utilisé pour la leçon 13 (`l13`) : `TOME1-13.pdf` (19 pages) : `أَس
 - les deux dialogues du livre, les exercices 1 à 5 ;
 - seulement **aperçus** (astuce « Des petites formes à repérer », rien n'est exigé en exercice) : `ذَهَبْتُمْ` / `ذَهَبْنَا`, `يَهْدِيهِمَا`, `شَفَاهُ اللَّهُ` (souhait au passé avec le pronom `هُ`), `الَّذِي` / `الَّتِي`, `بِالْجَامِعَةِ`, `إِخْوَانٌ` (autre pluriel de `أَخٌ`) ; l'accusatif de l'objet dans `شَفَى اللَّهُ الْمَرِيضَ` (comme au chapitre 11).
 
+**Leçon 15** (`l15`) : « quand ? », « avant » et « après », parler à plusieurs femmes :
+- le nom interrogatif `مَتَى` (« quand ? », `لِلزَّمَانِ`) : invariable, en tête de la question (avec une préposition ou `وَ` devant lui : `إِلَى مَتَى`, `وَمَتَى`) ; le schéma complet des six noms interrogatifs (`مَا` `مَنْ` `أَيْنَ` `كَيْفَ` `مَتَى` `أَيُّ`) ;
+- `قَبْلَ` et `بَعْدَ` : adverbes (`ظُرُوفٌ`), « le plus souvent » à l'accusatif (fatha), premiers termes d'une annexion (second terme au génitif) ; avec une durée, « il y a » / « dans » selon le contexte (`ذَهَبَتْ قَبْلَ أُسْبُوعٍ`, `الِاخْتِبَارُ بَعْدَ شَهْرٍ`) ; après `مِنْ` : kasra, et second terme omis : damma (`مِنْ قَبْلُ وَمِنْ بَعْدُ`, Coran 30:4), sans exercice ;
+- `أَنْتُنَّ` et `كُنَّ` (plusieurs femmes) en face de `أَنْتُمْ` / `كُمْ` ; `يَا أَخَوَاتُ` / `يَا إِخْوَةُ` ; le pronom isolé qui convient devant un mot (`أَ` + pronom), et `أَنَا` / `نَحْنُ` ;
+- vocabulaire : `مَتَى` `قَبْلَ` `بَعْدَ` `الْقَاهِرَةُ` ;
+- le dialogue du livre (deux parties), les exercices 1 à 7 ;
+- seulement **aperçus** (astuces, rien n'est exigé en exercice) : `ذَهَبْنَا` / `رَجَعْنَا` / `أَذَهَبْتُنَّ` (verbe + `نَا` / `تُنَّ`), `خَرَجْتَ` / `خَرَجْتُ` / `ذَهَبْتَ` / `ذَهَبْتُ` (terminaisons `تَ` / `تُ`), `الْأَذَانِ` (dans le texte du livre, sans exercice), `يَرْجِعُ` (présent) et `بِلَادِهِمْ` ;
+
 **Pas encore enseigné** (ne pas l'exiger dans un exercice) :
 - les pronoms affixes du nominatif et de l'accusatif (ils s'attachent aux verbes) et les pronoms isolés de l'accusatif (`إِيَّاكَ`) ;
 - les cas du nom et leurs fonctions : le sujet, le prédicat, le sujet du verbe, l'adverbe, le second terme d'annexion et le nom après une préposition sont vus (leçon 8) ; pas le complément d'objet : le نَصْب n'est montré qu'avec les adverbes et après قَرَأْتُ (et, sans exercice, dans les dialogues de la révision 1 et dans les phrases `أُحِبُّ …` de la leçon 11) ;
@@ -669,6 +677,38 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - `لَنْدَنُ` n'est plus une carte du tri « Pourquoi pas de tanwin ? » (un nom de ville est traité comme féminin) ; `مِنْ أَيَّةِ مَدِينَةٍ أَنْتَ؟` accepté (féminin) ;
   - `مُدَرِّسٌ` : « enseignant » (« professeur » reste pour `أُسْتَاذٌ`) ; `دَاوُدُ` : translittération `dāwūdu` ;
   - rythme : au plus trois présentations ou trois exercices du même type d'affilée.
+- **Pas de nouvelle icône.**
+
+### Leçon 15 (`l15`)
+
+- **Support :** un seul PDF de 12 pages (cours 15 : dialogue du livre, diapo `مَتَى`, schéma des noms interrogatifs, exercices 1 à 7, diapo `قَبْلَ وَبَعْدَ`, vocabulaire nouveau).
+- **Exercices et textes du livre repris :**
+  - dialogue (page 3) → `dialogue-1` (lignes 1 à 9) et `dialogue-2` (lignes 10 à 21), avec une astuce « Une salutation au pluriel » et une astuce « Des petites formes à repérer » ; une seule voix féminine existe (`f1`) pour les deux locutrices ;
+  - exercice 1 (répondre aux questions) → `practice-4` (réponses guidées par la consigne : les questions sont personnelles) ; la question 6 (`أَذَهَبْتُنَّ إِلَى الْمَدْرَسَةِ الْيَوْمَ؟`) n'est que dans le dialogue 2 (verbe non enseigné) ;
+  - exercices 2, 4 et 6 (le pronom qui convient) → `practice-2` ; exercices 3 et 5 (`كُمْ` → `كُنَّ`) → `grammar-3` ;
+  - exercice 7 (lire et écrire) → `practice-3` ;
+  - diapo `مَتَى` et schéma des noms interrogatifs → `recap` et `grammar-1` ; diapo `قَبْلَ وَبَعْدَ` → `vocab-1` et `grammar-2` ; tableau de vocabulaire → `vocab-1` (`قَبْلَ`, `بَعْدَ`), `grammar-1` (`مَتَى`).
+- **Écarts avec le PDF :**
+  - exercice 7 : les phrases 2, 3 et 5 contiennent des verbes à la 2ᵉ ou à la 1ʳᵉ personne (`خَرَجْتَ`, `ذَهَبْتُ`…), non enseignés : elles sont citées dans une astuce, puis travaillées à la 3ᵉ personne (`خَرَجَ مُحَمَّدٌ`, `ذَهَبَ زَيْدٌ`) ; `الْأَذَانِ` (non enseigné) est remplacé par `الصَّلَاةِ` dans les exercices ;
+  - `الْقَاهِرَةُ` (phrase 1) est ajouté comme mot (ville, féminin comme `مَكَّةُ`) ;
+  - exemples du PDF non repris tels quels : `مَتَى صَلَاةُ الْعِشَاءِ؟` → `مَتَى صَلَاةُ الْفَجْرِ؟` (`الْعِشَاءُ` n'est pas enseigné ; genre incertain) ; `الرَّاحَةُ بَعْدَ الْعِشَاءِ` → `الِاخْتِبَارُ بَعْدَ أُسْبُوعٍ` ; `مَتَى يَرْجِعُ الْحُجَّاجُ إِلَى بِلَادِهِمْ؟` (présent, non enseigné) : cité dans une note, sans exercice ; `زَيْدٌ تَاجِرٌ كَبِيرٌ`, `زَيْنَبُ عَمَّةُ زَيْدٍ`, `فَاطِمَةُ خَالَةُ مُحَمَّدٍ`, `خَرَجَ زَيْدٌ مَعَ يَاسِرٍ` : mots déjà enseignés (`تَاجِرٌ`, `عَمَّةٌ`, `خَالَةٌ`, `مَعَ`), donc aucune carte nouvelle ;
+  - exercices 3 et 5 : `يَا إِخْوَانُ` du livre → `يَا إِخْوَةُ` (pluriel enseigné au chapitre 10), avec une note sur `إِخْوَانٌ` ; `طَبِيبَاتٌ` (exercice 4) est le pluriel sain régulier de `طَبِيبَةٌ` ;
+  - le PDF écrit `اخْتِبَارُكُنَّ` avec un `آ` (accident de composition) : l'app met `اخْتِبَارُكُنَّ` ; dans le dialogue, `عَلَيْكُمْ` est conservé (formule habituelle au pluriel), avec la remarque que `عَلَيْكُنَّ` convient à un groupe de femmes ;
+  - le professeur dit que `قَبْلَ` et `بَعْدَ` sont « dans la plupart des cas » à l'accusatif et annexés : repris tel quel (« le plus souvent ») et expliqué par les deux cas particuliers (après `مِنْ`, second terme omis) ;
+  - le professeur dit que le nom interrogatif « débute toujours la phrase » : l'app écrit « en tête de la question » et cite `إِلَى مَتَى` et `وَمَتَى` ;
+  - `هٰذَا` écrit avec l'alif suscrit, comme dans tout le cours.
+- **Choix de contenu :**
+  - `مَتَى` : pas de `gender` (nom interrogatif) ; `قَبْلَ` / `بَعْدَ` : adverbes, comme `فَوْقَ`, `أَمَامَ`, `خَلْفَ` (chapitre 8) ;
+  - `الْقَاهِرَةُ` : « Le Caire », `gender` féminin (nom en `ة`, comme `مَكَّةُ`) ;
+  - « il y a » / « dans » : dit comme usage selon le contexte (« souvent »), jamais comme règle ; aucun exercice ne l'impose sans verbe ni contexte clair ;
+  - aucun exercice sur la forme `مِنْ بَعْدِ` ou `مِنْ قَبْلُ` (cas particuliers cités en note) ;
+  - tri « À qui parle-t-on ? » : seulement `كُمْ` / `كُنَّ` / (`كَ` ou `كِ`, regroupés) ; jamais `كَ` et `كِ` opposés (identiques sans harakat) ; pluriels en `◌ُونَ` / `◌َاتٌ` seulement pour les pronoms (les pluriels brisés comme `تُجَّارٌ` ne sont donnés que pour `أَنْتُمْ`).
+- **Explications ajoutées (données à l'oral, absentes du PDF) :**
+  - `الزَّمَانُ` (« le temps ») : `مَتَى` est `لِلزَّمَانِ` comme `أَيْنَ` est `لِلْمَكَانِ` ; `مَتَى` s'écrit avec `ى` et se prononce « matā » ;
+  - `إِلَى مَتَى` (« jusqu'à quand ? ») et `وَمَتَى` ;
+  - sens de `قَبْلَ` / `بَعْدَ` suivis d'une durée (« il y a », « dans ») ; après `مِنْ` la kasra, second terme omis la damma (Coran 30:4) ;
+  - `كُنَّ` seulement si toutes les personnes sont des femmes : avec un seul homme, `كُمْ` ;
+  - `السَّلَامُ عَلَيْكُنَّ` pour un groupe de femmes (`عَلَيْكُنَّ` est au chapitre 10).
 - **Pas de nouvelle icône.**
 
 ## Audio
