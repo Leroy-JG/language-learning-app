@@ -1,0 +1,170 @@
+{
+  "id": "medine-t1.l09.grammar-4",
+  "type": "grammar",
+  "title": "Des adjectifs sans tanwin",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l09.grammar-4#1",
+      "type": "tip",
+      "title": "Pas de tanwin ici",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Regarde la fin de {ar|كَسْلَانُ}, {ar|جَوْعَانُ}, {ar|عَطْشَانُ} et {ar|غَضْبَانُ} : une **damma simple**, jamais un tanwin ({ar|◌ٌ}). Comme {ar|مَكَّةُ} et {ar|فَاطِمَةُ} au chapitre 4, ces mots sont privés de tanwin : {ar|مَمْنُوعٌ مِنَ الصَّرْفِ}."
+        },
+        {
+          "type": "breakdown",
+          "ar": "كَسْلَانُ",
+          "fr": "paresseux",
+          "parts": [
+            { "ar": "كَسْلَ", "fr": "la base du mot" },
+            { "ar": "انُ", "fr": "la fin : un alif et un nūn ajoutés" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce sont des adjectifs qui disent un **état** (la faim, la soif, la colère, la paresse…), construits sur la forme {ar|فَعْلَانُ} (« faʿlān »). En général, les adjectifs de cette forme n'ont pas de tanwin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.grammar-4#2",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|كَسْلَانُ} n'a-t-il pas de tanwin ?" },
+      "choices": [
+        { "fr": "C'est un adjectif de la forme {ar|فَعْلَانُ} : en général, il n'en prend pas" },
+        { "fr": "Parce qu'il est défini" },
+        { "fr": "Parce qu'il est féminin" }
+      ],
+      "answer": 0,
+      "explain": "C'est la forme du mot, {ar|فَعْلَانُ}, qui le prive de tanwin : pas son genre, ni l'article."
+    },
+    {
+      "id": "medine-t1.l09.grammar-4#3",
+      "type": "tip",
+      "title": "Tous les mots en « -ān » ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Non. La règle concerne surtout les adjectifs d'état. D'autres mots finissent par « -ān » et gardent leur tanwin : {ar|إِنْسَانٌ} (un être humain), {ar|بُسْتَانٌ} (un jardin, un verger)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "La plupart des prénoms d'homme qui finissent par « -ān », comme {ar|عُثْمَانُ}, n'ont pas de tanwin non plus. Au chapitre 4, les prénoms d'homme comme {ar|مُحَمَّدٌ} en avaient un : c'est la fin en « -ān » qui change tout."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.grammar-4#4",
+      "type": "sort",
+      "categories": [ { "fr": "avec tanwin ({ar|◌ٌ})" }, { "fr": "sans tanwin ({ar|◌ُ})" } ],
+      "cards": [
+        { "ar": "كَسْلَانُ", "category": 1 },
+        { "ar": "جَدِيدٌ", "category": 0 },
+        { "ar": "عَطْشَانُ", "category": 1 },
+        { "ar": "كَبِيرٌ", "category": 0 },
+        { "ar": "غَضْبَانُ", "category": 1 },
+        { "ar": "قَصِيرٌ", "category": 0 }
+      ],
+      "instruction": "Range chaque adjectif : porte-t-il le tanwin ?",
+      "explain": "Les adjectifs d'état en « -ān » n'ont pas de tanwin ; les autres, oui."
+    },
+    {
+      "id": "medine-t1.l09.grammar-4#5",
+      "type": "tip",
+      "title": "À la kasra ou à la fatha ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme {ar|مَكَّةُ} (chapitre 4), ces adjectifs prennent la **fatha** au lieu de la kasra quand ils n'ont ni article ni annexion. Avec l'article {ar|الْ}, ils reprennent la kasra."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "طَالِبٌ كَسْلَانُ", "fr": "un étudiant paresseux" },
+              "to": { "ar": "لِطَالِبٍ كَسْلَانَ", "fr": "à un étudiant paresseux" }
+            },
+            {
+              "from": { "ar": "الطَّالِبُ الْكَسْلَانُ", "fr": "l'étudiant paresseux" },
+              "to": { "ar": "لِلطَّالِبِ الْكَسْلَانِ", "fr": "à l'étudiant paresseux" }
+            },
+            {
+              "from": { "ar": "رَجُلٌ عَطْشَانُ", "fr": "un homme assoiffé" },
+              "to": { "ar": "مِنْ رَجُلٍ عَطْشَانَ", "fr": "d'un homme assoiffé" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Même avec la fatha, l'adjectif {ar|كَسْلَانَ} reste au génitif, comme le nom {ar|طَالِبٍ} : seule la marque change."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.grammar-4#6",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|لِطَالِبٍ كَسْلَانَ}, le mot {ar|كَسْلَانَ} se termine par…" },
+      "choices": [ { "fr": "une fatha" }, { "fr": "une kasra" }, { "fr": "un tanwin" } ],
+      "answer": 0,
+      "explain": "{ar|كَسْلَانُ} est privé de tanwin et n'a pas l'article : après {ar|لِ}, il prend la fatha."
+    },
+    {
+      "id": "medine-t1.l09.grammar-4#7",
+      "type": "spot",
+      "instruction": "Touche l'adjectif qui n'a pas de tanwin.",
+      "words": ["الطَّالِبُ", "كَسْلَانُ", "وَالْمُدَرِّسُ", "مُجْتَهِدٌ."],
+      "answers": [1],
+      "fr": "L'étudiant est paresseux et l'enseignant est studieux."
+    },
+    {
+      "id": "medine-t1.l09.grammar-4#8",
+      "type": "tip",
+      "title": "Au féminin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les adjectifs d'état changent de forme au féminin. Ils finissent alors par le {ar|ى} du féminin (chapitre 6), qui n'a pas de tanwin non plus."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "عَطْشَانُ", "fr": "assoiffé" }, "to": { "ar": "عَطْشَى", "fr": "assoiffée" } },
+            { "from": { "ar": "غَضْبَانُ", "fr": "en colère" }, "to": { "ar": "غَضْبَى", "fr": "en colère" } },
+            { "from": { "ar": "جَوْعَانُ", "fr": "affamé" }, "to": { "ar": "جَوْعَى", "fr": "affamée" } },
+            { "from": { "ar": "كَسْلَانُ", "fr": "paresseux" }, "to": { "ar": "كَسْلَى", "fr": "paresseuse" } },
+            { "from": { "ar": "مَلْآنُ", "fr": "plein" }, "to": { "ar": "مَلْأَى", "fr": "pleine" } }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Une femme qui dit « j'ai soif » ou « j'ai faim » emploie donc le féminin : {ar|أَنَا عَطْشَى}, {ar|أَنَا جَوْعَى}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.grammar-4#9",
+      "type": "true_false",
+      "statement": { "fr": "Le mot {ar|عَطْشَانُ} prend un tanwin ({ar|◌ٌ}) quand il est indéfini." },
+      "answer": false,
+      "explain": "Faux : {ar|عَطْشَانُ} n'a jamais de tanwin. Il se termine par une damma simple."
+    },
+    {
+      "id": "medine-t1.l09.grammar-4#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "L'étudiant paresseux est dans la salle de classe.",
+      "answers": ["الطَّالِبُ الْكَسْلَانُ فِي الْفَصْلِ."]
+    },
+    {
+      "id": "medine-t1.l09.grammar-4#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il est chez l'étudiant paresseux.",
+      "answers": ["هُوَ عِنْدَ الطَّالِبِ الْكَسْلَانِ."]
+    }
+  ]
+}

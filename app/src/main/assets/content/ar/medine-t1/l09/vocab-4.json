@@ -1,0 +1,72 @@
+{
+  "id": "medine-t1.l09.vocab-4",
+  "type": "vocabulary",
+  "title": "En ville et à l'école",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t1.l09.vocab-4#1", "type": "present", "item": "w:huna" },
+    { "id": "medine-t1.l09.vocab-4#2", "type": "present", "item": "w:inda" },
+    {
+      "id": "medine-t1.l09.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:inda",
+      "distractors": ["w:huna", "w:fi"]
+    },
+    { "id": "medine-t1.l09.vocab-4#4", "type": "present", "item": "w:thanawiyya" },
+    { "id": "medine-t1.l09.vocab-4#5", "type": "present", "item": "w:madina" },
+    { "id": "medine-t1.l09.vocab-4#6", "type": "present", "item": "w:mustawsaf" },
+    {
+      "id": "medine-t1.l09.vocab-4#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:thanawiyya", "w:madina", "w:mustawsaf", "w:huna", "w:inda"]
+    },
+    {
+      "id": "medine-t1.l09.vocab-4#8",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ {0} مُحَمَّدٍ.",
+      "fr": "Zayd est chez Muḥammad.",
+      "gaps": [ { "answers": ["عِنْدَ"] } ],
+      "options": ["عِنْدَ", "مِنْ", "عَلَى"]
+    },
+    {
+      "id": "medine-t1.l09.vocab-4#9",
+      "type": "fill_gap",
+      "sentence": "الْمُسْتَوْصَفُ {0}.",
+      "fr": "Le dispensaire est ici.",
+      "gaps": [ { "answers": ["هُنَا"] } ],
+      "options": ["هُنَا", "هُنَاكَ"]
+    },
+    {
+      "id": "medine-t1.l09.vocab-4#10",
+      "type": "order",
+      "fr": "Zayd est au lycée.",
+      "answers": [["زَيْدٌ", "فِي", "الثَّانَوِيَّةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l09.vocab-4#11",
+      "type": "question",
+      "prompt": { "fr": "Après {ar|عِنْدَ}, le nom prend…" },
+      "choices": [ { "fr": "une kasra" }, { "fr": "une damma" }, { "fr": "une fatha" } ],
+      "answer": 0,
+      "explain": "{ar|عِنْدَ} est un premier terme d'annexion, comme {ar|تَحْتَ} : le nom qui le suit est à la kasra, {ar|عِنْدَ الْمُدِيرِ}."
+    },
+    { "id": "medine-t1.l09.vocab-4#12", "type": "build", "item": "w:mustawsaf", "extra": ["ط"] },
+    {
+      "id": "medine-t1.l09.vocab-4#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "La mosquée est ici.",
+      "answers": ["الْمَسْجِدُ هُنَا."]
+    },
+    {
+      "id": "medine-t1.l09.vocab-4#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il est chez le directeur.",
+      "answers": ["هُوَ عِنْدَ الْمُدِيرِ."]
+    }
+  ]
+}

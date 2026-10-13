@@ -1,0 +1,107 @@
+{
+  "id": "medine-t1.l09.dialogue-1",
+  "type": "dialogue",
+  "title": "Chez le directeur",
+  "icon": "school",
+  "screens": [
+    {
+      "id": "medine-t1.l09.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Où est l'enseignant ?",
+      "intro": "Yāsir cherche les enseignants et un nouvel étudiant.",
+      "speakers": { "A": { "name": "Yāsir", "voice": "m2" }, "B": { "name": "Ḥāmid", "voice": "m1" } },
+      "lines": [
+        { "speaker": "A", "ar": "أَيْنَ الْمُدَرِّسُ؟", "fr": "Où est l'enseignant ?" },
+        { "speaker": "B", "ar": "هُوَ فِي الْفَصْلِ.", "fr": "Il est dans la salle de classe." },
+        { "speaker": "A", "ar": "وَأَيْنَ الْمُدَرِّسُ الْجَدِيدُ؟", "fr": "Et où est le nouvel enseignant ?" },
+        { "speaker": "B", "ar": "هُوَ عِنْدَ الْمُدِيرِ.", "fr": "Il est chez le directeur." },
+        { "speaker": "A", "ar": "وَأَيْنَ الطَّالِبُ الْجَدِيدُ؟", "fr": "Et où est le nouvel étudiant ?" },
+        { "speaker": "B", "ar": "ذَهَبَ إِلَى الْبَيْتِ.", "fr": "Il est allé à la maison." }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.dialogue-1#2",
+      "type": "dialogue",
+      "title": "Le grand homme",
+      "intro": "Saʿīd et ʿAlī regardent des gens passer.",
+      "speakers": { "A": { "name": "Saʿīd", "voice": "m1" }, "B": { "name": "ʿAlī", "voice": "m2" } },
+      "lines": [
+        { "speaker": "A", "ar": "مَنْ ذٰلِكَ الرَّجُلُ الطَّوِيلُ؟", "fr": "Qui est ce grand homme, là-bas ?" },
+        { "speaker": "B", "ar": "هُوَ الْمُدِيرُ الْجَدِيدُ.", "fr": "C'est le nouveau directeur." },
+        { "speaker": "A", "ar": "وَمَنِ الْوَلَدُ الصَّغِيرُ؟", "fr": "Et qui est le petit garçon ?" },
+        { "speaker": "B", "ar": "هُوَ اِبْنُ الْمُدِيرِ الْجَدِيدِ.", "fr": "C'est le fils du nouveau directeur." }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.dialogue-1#3",
+      "type": "tip",
+      "title": "L'adjectif suit son nom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans {ar|مَنْ ذٰلِكَ الرَّجُلُ الطَّوِيلُ؟}, le nom {ar|الرَّجُلُ} et l'adjectif {ar|الطَّوِيلُ} ont tous deux l'article : c'est le groupe « ce grand homme »."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans {ar|اِبْنُ الْمُدِيرِ الْجَدِيدِ}, l'adjectif {ar|الْجَدِيدِ} est à la kasra : il décrit {ar|الْمُدِيرِ}, le nouveau directeur, et non le fils."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Où est le nouvel enseignant ?" },
+      "choices": [ { "fr": "Chez le directeur" }, { "fr": "Dans la salle de classe" }, { "fr": "À la maison" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l09.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l09.dialogue-1#5",
+      "type": "question",
+      "prompt": { "fr": "Qui est le grand homme ?" },
+      "choices": [ { "fr": "Le nouveau directeur" }, { "fr": "Le nouvel enseignant" }, { "fr": "Le nouvel étudiant" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l09.dialogue-1#2" }
+    },
+    {
+      "id": "medine-t1.l09.dialogue-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Le petit garçon est le fils du nouveau directeur." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l09.dialogue-1#2" },
+      "explain": "ʿAlī répond {ar|هُوَ اِبْنُ الْمُدِيرِ الْجَدِيدِ}."
+    },
+    {
+      "id": "medine-t1.l09.dialogue-1#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "وَأَيْنَ الْمُدَرِّسُ الْجَدِيدُ؟",
+      "answers": ["هُوَ عِنْدَ الْمُدِيرِ.", "عِنْدَ الْمُدِيرِ."],
+      "fr": "Il est chez le directeur.",
+      "context": { "dialogue": "medine-t1.l09.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l09.dialogue-1#8",
+      "type": "order",
+      "fr": "C'est le nouveau directeur.",
+      "answers": [["هُوَ", "الْمُدِيرُ", "الْجَدِيدُ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l09.dialogue-1#9",
+      "type": "fill_gap",
+      "sentence": "هُوَ اِبْنُ الْمُدِيرِ {0}.",
+      "fr": "C'est le fils du nouveau directeur.",
+      "gaps": [ { "answers": ["الْجَدِيدِ"] } ],
+      "options": ["الْجَدِيدِ", "جَدِيدٍ"],
+      "explain": "{ar|الْمُدِيرِ} est défini et à la kasra : son adjectif aussi, {ar|الْجَدِيدِ}."
+    },
+    {
+      "id": "medine-t1.l09.dialogue-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Qui est le petit garçon ?",
+      "answers": ["مَنِ الْوَلَدُ الصَّغِيرُ؟"]
+    }
+  ]
+}

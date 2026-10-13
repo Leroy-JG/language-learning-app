@@ -1,0 +1,92 @@
+{
+  "id": "medine-t1.l09.vocab-1",
+  "type": "vocabulary",
+  "title": "Grand, petit, long, court",
+  "icon": "telescope",
+  "screens": [
+    { "id": "medine-t1.l09.vocab-1#1", "type": "present", "item": "w:kabir" },
+    { "id": "medine-t1.l09.vocab-1#2", "type": "present", "item": "w:saghir" },
+    {
+      "id": "medine-t1.l09.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kabir",
+      "distractors": ["w:saghir", "w:jadid"]
+    },
+    {
+      "id": "medine-t1.l09.vocab-1#3b",
+      "type": "tip",
+      "title": "Grand, long, de grande taille",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|كَبِيرٌ} veut dire « grand, gros » : une grande maison, un gros livre. Tu as vu {ar|طَوِيلٌ} et {ar|قَصِيرٌ} au chapitre 7 : ils disent la longueur d'une chose, ou la taille d'une personne."
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Il dit…", "Exemple"],
+          "rows": [
+            ["{ar|كَبِيرٌ}", "la taille ou le volume d'une chose", "{ar|بَيْتٌ كَبِيرٌ} (une grande maison)"],
+            [
+              "{ar|طَوِيلٌ}",
+              "la longueur d'une chose, la taille d'une personne",
+              "{ar|رَجُلٌ طَوِيلٌ} (un homme de grande taille)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.vocab-1#6b",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:kabir", "w:saghir", "w:jamil", "w:jadid"]
+    },
+    {
+      "id": "medine-t1.l09.vocab-1#7",
+      "type": "fill_gap",
+      "sentence": "الْمَسْجِدُ كَبِيرٌ وَالْبَيْتُ {0}.",
+      "fr": "La mosquée est grande et la maison est petite.",
+      "gaps": [ { "answers": ["صَغِيرٌ"] } ],
+      "options": ["صَغِيرٌ", "كَبِيرٌ"]
+    },
+    {
+      "id": "medine-t1.l09.vocab-1#8",
+      "type": "fill_gap",
+      "sentence": "الرَّجُلُ طَوِيلٌ وَالْوَلَدُ {0}.",
+      "fr": "L'homme est de grande taille et le garçon est de petite taille.",
+      "gaps": [ { "answers": ["قَصِيرٌ"] } ],
+      "options": ["قَصِيرٌ", "طَوِيلٌ"],
+      "explain": "Pour une personne, {ar|طَوِيلٌ} veut dire « grand de taille » et {ar|قَصِيرٌ} « petit de taille »."
+    },
+    {
+      "id": "medine-t1.l09.vocab-1#9",
+      "type": "order",
+      "fr": "Le livre est petit.",
+      "answers": [["الْكِتَابُ", "صَغِيرٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l09.vocab-1#10",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:tawil",
+      "distractors": ["w:saghir", "w:jadid"]
+    },
+    { "id": "medine-t1.l09.vocab-1#11", "type": "build", "item": "w:qasir", "extra": ["ك"] },
+    {
+      "id": "medine-t1.l09.vocab-1#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "La maison est grande.",
+      "answers": ["الْبَيْتُ كَبِيرٌ."]
+    },
+    {
+      "id": "medine-t1.l09.vocab-1#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "C'est un petit livre.",
+      "answers": ["هٰذَا كِتَابٌ صَغِيرٌ."]
+    }
+  ]
+}

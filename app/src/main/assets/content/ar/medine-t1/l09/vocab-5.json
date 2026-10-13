@@ -1,0 +1,71 @@
+{
+  "id": "medine-t1.l09.vocab-5",
+  "type": "vocabulary",
+  "title": "Choses et qualités",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t1.l09.vocab-5#1", "type": "present", "item": "w:mirwaha" },
+    { "id": "medine-t1.l09.vocab-5#2", "type": "present", "item": "w:kub" },
+    { "id": "medine-t1.l09.vocab-5#3", "type": "present", "item": "w:luba" },
+    {
+      "id": "medine-t1.l09.vocab-5#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mirwaha",
+      "distractors": ["w:kub", "w:luba"]
+    },
+    { "id": "medine-t1.l09.vocab-5#5", "type": "present", "item": "w:shahir" },
+    { "id": "medine-t1.l09.vocab-5#6", "type": "present", "item": "w:mujtahid" },
+    { "id": "medine-t1.l09.vocab-5#7", "type": "present", "item": "w:hadd" },
+    {
+      "id": "medine-t1.l09.vocab-5#8",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hadd",
+      "distractors": ["w:qasir", "w:tawil"]
+    },
+    {
+      "id": "medine-t1.l09.vocab-5#9",
+      "type": "fill_gap",
+      "sentence": "الْمَاءُ فِي {0}.",
+      "fr": "L'eau est dans le verre.",
+      "gaps": [ { "answers": ["الْكُوبِ"] } ],
+      "options": ["الْكُوبِ", "الْمِرْوَحَةِ", "اللُّعْبَةِ"]
+    },
+    {
+      "id": "medine-t1.l09.vocab-5#10",
+      "type": "fill_gap",
+      "sentence": "عَبَّاسٌ تَاجِرٌ {0}.",
+      "fr": "ʿAbbās est un commerçant célèbre.",
+      "gaps": [ { "answers": ["شَهِيرٌ"] } ],
+      "options": ["شَهِيرٌ", "مُجْتَهِدٌ"]
+    },
+    {
+      "id": "medine-t1.l09.vocab-5#11",
+      "type": "order",
+      "fr": "L'étudiant est studieux.",
+      "answers": [["الطَّالِبُ", "مُجْتَهِدٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l09.vocab-5#12",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:mirwaha", "w:kub", "w:luba", "w:shahir", "w:mujtahid"]
+    },
+    {
+      "id": "medine-t1.l09.vocab-5#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le jouet est dans la pièce.",
+      "answers": ["اللُّعْبَةُ فِي الْغُرْفَةِ."]
+    },
+    {
+      "id": "medine-t1.l09.vocab-5#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le ventilateur est dans la maison.",
+      "answers": ["الْمِرْوَحَةُ فِي الْبَيْتِ."]
+    }
+  ]
+}

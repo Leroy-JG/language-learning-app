@@ -1,0 +1,71 @@
+{
+  "id": "medine-t1.l09.vocab-6",
+  "type": "vocabulary",
+  "title": "Faim, soif, colère…",
+  "icon": "meal",
+  "screens": [
+    { "id": "medine-t1.l09.vocab-6#1", "type": "present", "item": "w:jawan" },
+    { "id": "medine-t1.l09.vocab-6#2", "type": "present", "item": "w:ataan" },
+    {
+      "id": "medine-t1.l09.vocab-6#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:jawan",
+      "distractors": ["w:ataan", "w:marid"]
+    },
+    { "id": "medine-t1.l09.vocab-6#4", "type": "present", "item": "w:ghadban" },
+    { "id": "medine-t1.l09.vocab-6#5", "type": "present", "item": "w:kaslan" },
+    {
+      "id": "medine-t1.l09.vocab-6#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:jawan", "w:ataan", "w:ghadban", "w:kaslan"]
+    },
+    { "id": "medine-t1.l09.vocab-6#7", "type": "present", "item": "w:malan" },
+    {
+      "id": "medine-t1.l09.vocab-6#8",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0}.",
+      "fr": "J'ai soif.",
+      "gaps": [ { "answers": ["عَطْشَانُ"] } ],
+      "options": ["عَطْشَانُ", "جَوْعَانُ"]
+    },
+    {
+      "id": "medine-t1.l09.vocab-6#9",
+      "type": "fill_gap",
+      "sentence": "الْكُوبُ {0}.",
+      "fr": "Le verre est plein.",
+      "gaps": [ { "answers": ["مَلْآنُ"] } ],
+      "options": ["مَلْآنُ", "كَسْلَانُ"]
+    },
+    {
+      "id": "medine-t1.l09.vocab-6#10",
+      "type": "order",
+      "fr": "L'étudiant est paresseux.",
+      "answers": [["الطَّالِبُ", "كَسْلَانُ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l09.vocab-6#11",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:jawan",
+      "distractors": ["w:ataan", "w:ghadban"]
+    },
+    { "id": "medine-t1.l09.vocab-6#12", "type": "build", "item": "w:ghadban", "extra": ["ص"] },
+    {
+      "id": "medine-t1.l09.vocab-6#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai faim.",
+      "answers": ["أَنَا جَوْعَانُ."]
+    },
+    {
+      "id": "medine-t1.l09.vocab-6#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le verre est plein.",
+      "answers": ["الْكُوبُ مَلْآنُ."]
+    }
+  ]
+}
