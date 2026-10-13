@@ -31,7 +31,7 @@ Les fichiers `app/` ne se compilent que sur GitHub Actions.
 - `app/src/main/java/io/github/leroyjg/arabe/ui/Common.kt` (68 l.) — WithContent:37, ActivityType.label:54, ActivityType.icon:62
 - `app/src/main/java/io/github/leroyjg/arabe/ui/Decor.kt` (95 l.) — AppIcons:30, DrawScope.eightPointStar:57, MasteryBars:78
 - `app/src/main/java/io/github/leroyjg/arabe/ui/GenderTag.kt` (78 l.) — GenderIcons:31, GenderTag:56
-- `app/src/main/java/io/github/leroyjg/arabe/ui/IconImages.kt` (85 l.) — IconImages:7
+- `app/src/main/java/io/github/leroyjg/arabe/ui/IconImages.kt` (84 l.) — IconImages:7
 - `app/src/main/java/io/github/leroyjg/arabe/ui/activity/ActivityScreen.kt` (663 l.) — ReviewKind:126, ActivityScreen:133, ReviewSessionScreen:162, ReviewPlanHolder:215, planReview:217, NothingToReview:251, Player:265, PlayerTopBar:320, ComboSlot:339, ComboBadge:349, ScreenBody:368, BottomArea:402, BigButton:447, FeedbackPanel:458, EndScreen:528, StatTile:642, NoVoiceWarning:654
 - `app/src/main/java/io/github/leroyjg/arabe/ui/activity/Celebration.kt` (73 l.) — Piece:18, Confetti:32
 - `app/src/main/java/io/github/leroyjg/arabe/ui/activity/Games.kt` (411 l.) — SortContent:76, sortSound:166, SortCardText:173, CategoryLabel:182, GameInstruction:188, SpotContent:196, BuildContent:235, MemoryContent:305, MemoryTile:364
