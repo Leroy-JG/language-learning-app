@@ -6,7 +6,7 @@
   - Parmi eux, 4 mini-jeux : ranger, repérer, écrire lettre par lettre, mémoire.
   - Les astuces ont 7 sortes de blocs, dont comparer, décomposer, galerie et encadrés à ton.
   - Le guide de conception est `docs/pedagogie.md`.
-- **Parcours :** chapitres 1 à 6 du Tome de Médine 1. Les chapitres s'affichent en accordéon et rien n'est verrouillé.
+- **Parcours :** chapitres 1 à 7 du Tome de Médine 1. Les chapitres s'affichent en accordéon et rien n'est verrouillé.
 - **Réviser :** répétition espacée FSRS-5, deux onglets (Vocabulaire / Grammaire), niveaux de maîtrise, favoris, recherche.
 - **Paramètres :**
   - harakat, translittération, taille de l'arabe ;
@@ -22,9 +22,8 @@
 ## À faire, par ordre de priorité
 
 1. **Leçons suivantes du Tome de Médine 1**, avec la procédure `.claude/skills/nouvelle-lecon/SKILL.md`. Il faut que l'utilisateur joigne les PDF.
-   - Prochaine : la leçon 7 (les chapitres 1 à 6 sont publiés).
+   - Prochaine : la leçon 8 (les chapitres 1 à 7 sont publiés).
    - À confirmer avec le professeur (voir `docs/sources.md`, leçon 6) : le pluriel de قَهْوَةٌ (قَهَوَاتٌ ou قَهْوَاتٌ), le genre de قِدْرٌ (féminin ici, comme dans le livre), et les exemples du PDF non repris (سَمَاءٌ, مُوسَى, سِكِّينٌ).
-   - Quand le féminin de ذٰلِكَ (تِلْكَ) sera enseigné, retirer la mention « tu le verras plus tard » de `l06/grammar-1` et étendre la règle du validateur.
 2. **Audio de qualité** avec `tools/generate_audio.py`, à écrire :
    - Lire le manifeste produit par `./gradlew -p core audioManifest` (`core/build/audio-manifest.json` : texte, voix, nom de fichier = empreinte).
    - Générer les MP3 avec edge-tts (voix de `course.json`) dans `app/src/main/assets/audio/ar/`.

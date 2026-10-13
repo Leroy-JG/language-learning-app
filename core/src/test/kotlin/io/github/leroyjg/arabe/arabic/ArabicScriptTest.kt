@@ -48,6 +48,7 @@ class ArabicScriptTest {
         assertEquals(ArabicScript.distractorKey("مَا هٰذَا؟"), ArabicScript.distractorKey("مَا ذٰلِكَ؟"))
         assertEquals(ArabicScript.distractorKey("هٰذَا"), ArabicScript.distractorKey("ذٰلِكَ"))
         assertEquals(ArabicScript.distractorKey("مَنْ هٰذَا؟"), ArabicScript.distractorKey("مَنْ هٰذِهِ؟"))
+        assertEquals(ArabicScript.distractorKey("مَنْ هٰذِهِ؟"), ArabicScript.distractorKey("مَنْ تِلْكَ؟"))
         assertTrue(ArabicScript.distractorKey("مَنْ ذٰلِكَ؟") != ArabicScript.distractorKey("مَا ذٰلِكَ؟"))
     }
 }

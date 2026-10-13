@@ -53,6 +53,8 @@ class ValidatorTest {
             "\"answers\": [\"السَّمَكَةُ\", \"السَّمَكُ\"]", "\"answers\": [\"هٰذَا سَمَكَةٌ.\"]", "devant un nom féminin"),
         Mutation("démonstratif féminin devant un nom masculin", "medine-t1/l06/practice-1.json",
             "\"answers\": [\"هٰذِهِ بِنْتٌ.\", \"بِنْتٌ.\"]", "\"answers\": [\"هٰذِهِ وَلَدٌ.\"]", "devant un nom masculin"),
+        Mutation("démonstratif féminin lointain devant un nom masculin", "medine-t1/l07/grammar-1.json",
+            "\"answers\": [\"تِلْكَ سَيَّارَةٌ.\", \"سَيَّارَةٌ.\"]", "\"answers\": [\"تِلْكَ كِتَابٌ.\"]", "devant un nom masculin"),
         Mutation("distracteur qui ne diffère que par le démonstratif", "medine-t1/l02/vocab-1.json",
             "\"distractors\": [\"p:man-dhalika\", \"p:man-hadha\"]", "\"distractors\": [\"p:man-dhalika\", \"p:ma-hadha\"]", "démonstratif"),
         Mutation("étiquettes qui ne diffèrent que par les harakat", "medine-t1/l03/grammar-3.json",

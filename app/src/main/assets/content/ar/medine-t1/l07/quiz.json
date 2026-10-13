@@ -1,0 +1,128 @@
+{
+  "id": "medine-t1.l07.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 7",
+  "screens": [
+    {
+      "id": "medine-t1.l07.quiz#1",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:batta",
+      "distractors": ["w:dajaja", "w:dik"]
+    },
+    {
+      "id": "medine-t1.l07.quiz#2",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:hadha", "w:hadhihi", "w:dhalika", "w:tilka"]
+    },
+    {
+      "id": "medine-t1.l07.quiz#3",
+      "type": "sort",
+      "categories": [ { "ar": "ذٰلِكَ" }, { "ar": "تِلْكَ" } ],
+      "cards": [
+        { "item": "w:jamal", "category": 0 },
+        { "item": "w:naqa", "category": 1 },
+        { "item": "w:bayda", "category": 1 },
+        { "item": "w:muadhdhin", "category": 0 },
+        { "item": "w:mumarrida", "category": 1 },
+        { "item": "w:dik", "category": 0 },
+        { "item": "w:hadiqa", "category": 1 }
+      ],
+      "instruction": "Quel démonstratif lointain convient à chaque nom ?"
+    },
+    {
+      "id": "medine-t1.l07.quiz#4",
+      "type": "question",
+      "prompt": { "fr": "Quel démonstratif désigne une chose féminine, au singulier, qui est loin ?" },
+      "choices": [ { "ar": "تِلْكَ" }, { "ar": "هٰذِهِ" }, { "ar": "ذٰلِكَ" } ],
+      "answer": 0,
+      "explain": "{ar|تِلْكَ} : féminin et éloigné. {ar|هٰذِهِ} est féminin mais proche ; {ar|ذٰلِكَ} est éloigné mais masculin."
+    },
+    {
+      "id": "medine-t1.l07.quiz#5",
+      "type": "fill_gap",
+      "sentence": "{0} مَسْجِدٌ وَ{1} مَدْرَسَةٌ.",
+      "fr": "Ceci est une mosquée et cela est une école.",
+      "gaps": [ { "answers": ["هٰذَا"] }, { "answers": ["تِلْكَ"] } ],
+      "options": ["هٰذَا", "هٰذِهِ", "ذٰلِكَ", "تِلْكَ"],
+      "explain": "{ar|مَسْجِدٌ} est masculin et proche : {ar|هٰذَا}. {ar|مَدْرَسَةٌ} est féminin et loin : {ar|تِلْكَ}."
+    },
+    {
+      "id": "medine-t1.l07.quiz#6",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|هٰذَا حَامِدٌ}, quel est le nom démonstratif ?" },
+      "choices": [ { "ar": "هٰذَا" }, { "ar": "حَامِدٌ" } ],
+      "answer": 0,
+      "explain": "{ar|هٰذَا} est le nom démonstratif ({ar|اِسْمُ إِشَارَةٍ}) ; {ar|حَامِدٌ} est le nom désigné ({ar|الْمُشَارُ إِلَيْهِ})."
+    },
+    {
+      "id": "medine-t1.l07.quiz#7",
+      "type": "true_false",
+      "statement": { "fr": "{ar|تِلْكَ} s'écrit avec un alif suscrit, comme {ar|ذٰلِكَ}." },
+      "answer": false,
+      "explain": "{ar|تِلْكَ} n'a pas d'alif : le {ar|تِ} est bref (une kasra), et on dit « tilka »."
+    },
+    {
+      "id": "medine-t1.l07.quiz#8",
+      "type": "fill_gap",
+      "sentence": "الْمَدْرَسَةُ {0} مِنَ الْبَيْتِ.",
+      "fr": "L'école est loin de la maison.",
+      "gaps": [ { "answers": ["بَعِيدَةٌ"] } ],
+      "options": ["بَعِيدَةٌ", "بَعِيدٌ", "قَرِيبَةٌ"],
+      "explain": "{ar|الْمَدْرَسَةُ} est féminin : l'adjectif prend le {ar|ة}. « Loin » se dit {ar|بَعِيدٌ}."
+    },
+    {
+      "id": "medine-t1.l07.quiz#9",
+      "type": "order",
+      "fr": "Est-ce que cela est un canard ?",
+      "answers": [["أَتِلْكَ", "بَطَّةٌ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l07.quiz#10",
+      "type": "mcq",
+      "mode": "audio-ar",
+      "item": "p:ma-tilka",
+      "distractors": ["p:ma-hadhihi", "p:man-tilka"]
+    },
+    {
+      "id": "medine-t1.l07.quiz#11",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:mumarrida", "w:muadhdhin", "w:batta", "w:hadiqa", "w:tawil"]
+    },
+    {
+      "id": "medine-t1.l07.quiz#12",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|طَوِيلٌ} quand on parle d'une personne ?" },
+      "choices": [ { "fr": "Grand" }, { "fr": "Petit" }, { "fr": "Rapide" } ],
+      "answer": 0,
+      "explain": "{ar|طَوِيلٌ} : grand (de taille). Le contraire est {ar|قَصِيرٌ}."
+    },
+    {
+      "id": "medine-t1.l07.quiz#13",
+      "type": "fill_gap",
+      "sentence": "عُمَرُ {0}.",
+      "fr": "ʿUmar est grand.",
+      "gaps": [ { "answers": ["طَوِيلٌ"] } ],
+      "options": ["طَوِيلٌ", "طَوِيلَةٌ", "قَصِيرٌ"],
+      "explain": "{ar|عُمَرُ} est un homme : l'adjectif n'a pas de {ar|ة}."
+    },
+    { "id": "medine-t1.l07.quiz#14", "type": "build", "item": "w:hadiqa", "extra": ["ه"] },
+    {
+      "id": "medine-t1.l07.quiz#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Cela est une infirmière.",
+      "answers": ["تِلْكَ مُمَرِّضَةٌ."]
+    },
+    {
+      "id": "medine-t1.l07.quiz#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Cela est un œuf et ceci est une poule.",
+      "answers": ["تِلْكَ بَيْضَةٌ وَهٰذِهِ دَجَاجَةٌ."]
+    }
+  ]
+}

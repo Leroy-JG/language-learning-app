@@ -1,0 +1,84 @@
+{
+  "id": "medine-t1.l07.practice-1",
+  "type": "grammar",
+  "title": "Ceci ou cela ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l07.practice-1#1",
+      "type": "sort",
+      "categories": [ { "ar": "هٰذِهِ" }, { "ar": "ذٰلِكَ" }, { "ar": "تِلْكَ" } ],
+      "cards": [
+        { "fr": "La fenêtre, à côté de moi", "category": 0 },
+        { "fr": "Le cheval, au fond du pré", "category": 1 },
+        { "fr": "La poule, au fond de la cour", "category": 2 },
+        { "fr": "La table, juste devant moi", "category": 0 },
+        { "fr": "La mosquée, au bout de la rue", "category": 1 },
+        { "fr": "La chamelle, sur la colline", "category": 2 }
+      ],
+      "instruction": "Quel démonstratif choisir pour chaque chose ?",
+      "explain": "On regarde le genre du nom et la distance : féminin proche {ar|هٰذِهِ}, masculin loin {ar|ذٰلِكَ}, féminin loin {ar|تِلْكَ}."
+    },
+    {
+      "id": "medine-t1.l07.practice-1#2",
+      "type": "fill_gap",
+      "sentence": "{0} كِتَابٌ وَ{1} حَقِيبَةٌ.",
+      "fr": "Ceci est un livre et cela est un sac.",
+      "gaps": [ { "answers": ["هٰذَا"] }, { "answers": ["تِلْكَ"] } ],
+      "options": ["هٰذَا", "هٰذِهِ", "ذٰلِكَ", "تِلْكَ"],
+      "explain": "{ar|كِتَابٌ} est masculin et proche : {ar|هٰذَا}. {ar|حَقِيبَةٌ} est féminin et loin : {ar|تِلْكَ}."
+    },
+    {
+      "id": "medine-t1.l07.practice-1#3",
+      "type": "spot",
+      "instruction": "Touche le démonstratif qui désigne une chose féminine.",
+      "words": ["ذٰلِكَ", "بَيْتٌ", "وَتِلْكَ", "مَدْرَسَةٌ."],
+      "answers": [2],
+      "fr": "Cela est une maison et cela est une école.",
+      "explain": "{ar|مَدْرَسَةٌ} est féminin : {ar|وَتِلْكَ}. {ar|بَيْتٌ} est masculin : {ar|ذٰلِكَ}."
+    },
+    {
+      "id": "medine-t1.l07.practice-1#4",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:hadha", "w:hadhihi", "w:dhalika", "w:tilka"]
+    },
+    {
+      "id": "medine-t1.l07.practice-1#5",
+      "type": "mcq",
+      "mode": "audio-ar",
+      "item": "p:man-tilka",
+      "distractors": ["p:man-hadhihi", "p:ma-tilka"]
+    },
+    {
+      "id": "medine-t1.l07.practice-1#6",
+      "type": "order",
+      "fr": "Est-ce que cela est une poule ?",
+      "answers": [["أَتِلْكَ", "دَجَاجَةٌ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l07.practice-1#7",
+      "type": "true_false",
+      "statement": { "fr": "Devant {ar|مَسْجِدٌ} (masculin), qui est loin, on dit {ar|ذٰلِكَ}." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l07.practice-1#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ تِلْكَ؟",
+      "answers": ["تِلْكَ بِنْتٌ.", "بِنْتٌ."],
+      "fr": "Cela est une fille.",
+      "instruction": "Réponds à la question en arabe.",
+      "context": { "icon": "girl" }
+    },
+    {
+      "id": "medine-t1.l07.practice-1#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Qui est-ce, là-bas ? C'est une étudiante.",
+      "answers": ["مَنْ تِلْكَ؟ تِلْكَ طَالِبَةٌ."]
+    }
+  ]
+}

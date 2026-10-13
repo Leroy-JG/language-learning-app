@@ -1,0 +1,139 @@
+{
+  "id": "medine-t1.l07.dialogue-2",
+  "type": "dialogue",
+  "title": "Dans la cour, les montres et les voitures",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l07.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Dans la cour",
+      "intro": "Saʿīd et ʿAlī regardent la cour d'une ferme.",
+      "speakers": { "A": { "name": "Saʿīd", "voice": "m1" }, "B": { "name": "ʿAlī", "voice": "m2" } },
+      "lines": [
+        { "speaker": "A", "ar": "مَا تِلْكَ؟", "fr": "Qu'est-ce que c'est, là-bas ?" },
+        { "speaker": "B", "ar": "تِلْكَ بَيْضَةٌ.", "fr": "C'est un œuf, là-bas." },
+        { "speaker": "A", "ar": "أَذٰلِكَ دِيكٌ؟", "fr": "Est-ce un coq, là-bas ?" },
+        {
+          "speaker": "B",
+          "ar": "نَعَمْ، ذٰلِكَ دِيكٌ وَتِلْكَ دَجَاجَةٌ.",
+          "fr": "Oui, celui-là est un coq et celle-là est une poule."
+        },
+        { "speaker": "A", "ar": "أَتِلْكَ دَجَاجَةٌ أَيْضًا؟", "fr": "Et celle-là, est-ce aussi une poule ?" },
+        { "speaker": "B", "ar": "لَا، تِلْكَ بَطَّةٌ.", "fr": "Non, celle-là est un canard." }
+      ]
+    },
+    {
+      "id": "medine-t1.l07.dialogue-2#2",
+      "type": "dialogue",
+      "title": "Les montres et les voitures",
+      "intro": "Saʿīd interroge ʿAlī sur des montres et des voitures.",
+      "speakers": { "A": { "name": "Saʿīd", "voice": "m1" }, "B": { "name": "ʿAlī", "voice": "m2" } },
+      "lines": [
+        { "speaker": "A", "ar": "أَسَاعَةُ عَبَّاسٍ هٰذِهِ؟", "fr": "Est-ce la montre d'ʿAbbās, celle-ci ?" },
+        {
+          "speaker": "B",
+          "ar": "لَا. هٰذِهِ سَاعَةُ حَامِدٍ، تِلْكَ سَاعَةُ عَبَّاسٍ.",
+          "fr": "Non. Celle-ci est la montre de Ḥāmid, celle-là est la montre d'ʿAbbās."
+        },
+        { "speaker": "A", "ar": "لِمَنْ هٰذِهِ السَّيَّارَةُ؟", "fr": "À qui est cette voiture ?" },
+        {
+          "speaker": "B",
+          "ar": "هٰذِهِ سَيَّارَةُ الْمُدَرِّسِ وَتِلْكَ سَيَّارَةُ الْمُدِيرِ.",
+          "fr": "Celle-ci est la voiture de l'enseignant et celle-là est la voiture du directeur."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l07.dialogue-2#3",
+      "type": "tip",
+      "title": "Le démonstratif à la fin de la question",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme au chapitre 5 ({ar|أَكِتَابُ مُحَمَّدٍ هٰذَا؟}), la première question de la seconde scène met le démonstratif à la fin : la particule {ar|أَ} est collée au premier mot, et {ar|هٰذِهِ} passe en dernier."
+        },
+        {
+          "type": "example",
+          "ar": "أَسَاعَةُ عَبَّاسٍ هٰذِهِ؟",
+          "fr": "Est-ce la montre d'ʿAbbās, celle-ci ? (mot à mot : la montre d'ʿAbbās, ceci ?)"
+        },
+        { "type": "paragraph", "text": "La réponse reprend la construction habituelle :" },
+        { "type": "example", "ar": "هٰذِهِ سَاعَةُ حَامِدٍ.", "fr": "Ceci est la montre de Ḥāmid." },
+        { "type": "note", "text": "On dit {ar|هٰذِهِ} parce que {ar|سَاعَةٌ} est un nom féminin." },
+        {
+          "type": "paragraph",
+          "text": "Dans la question suivante, {ar|هٰذِهِ السَّيَّارَةُ} veut dire « cette voiture » : devant un nom avec l'article, le démonstratif forme un groupe, comme {ar|هٰذَا الْكِتَابُ} (chapitre 3). Sans l'article, {ar|هٰذِهِ سَيَّارَةٌ} est une phrase : « ceci est une voiture »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l07.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Sur quoi Saʿīd interroge-t-il ʿAlī en premier ?" },
+      "choices": [ { "fr": "Un œuf" }, { "fr": "Un coq" }, { "fr": "Un canard" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l07.dialogue-2#1" },
+      "explain": "Il demande {ar|مَا تِلْكَ؟} et ʿAlī répond {ar|تِلْكَ بَيْضَةٌ}."
+    },
+    {
+      "id": "medine-t1.l07.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "La dernière bête dont ils parlent est une poule." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l07.dialogue-2#1" },
+      "explain": "ʿAlī répond {ar|لَا، تِلْكَ بَطَّةٌ} : c'est un canard."
+    },
+    {
+      "id": "medine-t1.l07.dialogue-2#6",
+      "type": "question",
+      "prompt": { "fr": "À qui est la montre qui est proche ?" },
+      "choices": [ { "fr": "À Ḥāmid" }, { "fr": "À ʿAbbās" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l07.dialogue-2#2" },
+      "explain": "{ar|هٰذِهِ سَاعَةُ حَامِدٍ} : la montre proche est celle de Ḥāmid. La lointaine est celle d'ʿAbbās."
+    },
+    {
+      "id": "medine-t1.l07.dialogue-2#7",
+      "type": "question",
+      "prompt": { "fr": "À qui est la voiture qui est loin ?" },
+      "choices": [ { "fr": "Au directeur" }, { "fr": "À l'enseignant" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l07.dialogue-2#2" },
+      "explain": "{ar|تِلْكَ سَيَّارَةُ الْمُدِيرِ} : la voiture lointaine est celle du directeur."
+    },
+    {
+      "id": "medine-t1.l07.dialogue-2#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَتِلْكَ دَجَاجَةٌ أَيْضًا؟",
+      "answers": ["لَا، تِلْكَ بَطَّةٌ.", "تِلْكَ بَطَّةٌ."],
+      "fr": "Non, celle-là est un canard.",
+      "instruction": "Réponds à la question en arabe.",
+      "context": { "dialogue": "medine-t1.l07.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l07.dialogue-2#9",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ سَاعَةُ حَامِدٍ، {0} سَاعَةُ عَبَّاسٍ.",
+      "fr": "Celle-ci est la montre de Ḥāmid, celle-là est la montre d'ʿAbbās.",
+      "gaps": [ { "answers": ["تِلْكَ"] } ],
+      "options": ["تِلْكَ", "ذٰلِكَ", "هٰذِهِ"],
+      "context": { "dialogue": "medine-t1.l07.dialogue-2#2" }
+    },
+    {
+      "id": "medine-t1.l07.dialogue-2#10",
+      "type": "order",
+      "fr": "À qui est cette voiture ?",
+      "answers": [["لِمَنْ", "هٰذِهِ", "السَّيَّارَةُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l07.dialogue-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Non. Celle-ci est la montre de Ḥāmid, celle-là est la montre d'ʿAbbās.",
+      "answers": ["لَا. هٰذِهِ سَاعَةُ حَامِدٍ، تِلْكَ سَاعَةُ عَبَّاسٍ."]
+    }
+  ]
+}
