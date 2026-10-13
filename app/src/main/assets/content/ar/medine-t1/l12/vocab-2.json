@@ -27,7 +27,7 @@
             {
               "from": { "ar": "فَتًى", "fr": "un jeune homme" },
               "to": { "ar": "فَتَاةٌ", "fr": "une jeune fille" },
-              "label": "la fin {ar|ى} devient {ar|اة}"
+              "label": "la terminaison change"
             }
           ]
         }

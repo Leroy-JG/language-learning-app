@@ -14,18 +14,18 @@
           "type": "table",
           "header": ["Singulier", "Pluriel", "Remarque"],
           "rows": [
-            ["{ar|رَحْمَةٌ}", "{ar|رَحَمَاتٌ}", "féminin en {ar|ـَاتٌ} ; le sukūn devient une fatha"],
-            ["{ar|بَرَكَةٌ}", "{ar|بَرَكَاتٌ}", "féminin en {ar|ـَاتٌ}"],
-            ["{ar|فَتَاةٌ}", "{ar|فَتَيَاتٌ}", "féminin en {ar|ـَاتٌ}"],
-            ["{ar|وِلَادَةٌ}", "{ar|وِلَادَاتٌ}", "féminin en {ar|ـَاتٌ}"],
-            ["{ar|مُوَجِّهٌ}", "{ar|مُوَجِّهُونَ}", "hommes, en {ar|ـُونَ}"],
+            ["{ar|رَحْمَةٌ}", "{ar|رَحَمَاتٌ}", "féminin en -āt ; le sukūn devient une fatha"],
+            ["{ar|بَرَكَةٌ}", "{ar|بَرَكَاتٌ}", "féminin en -āt"],
+            ["{ar|فَتَاةٌ}", "{ar|فَتَيَاتٌ}", "féminin en -āt"],
+            ["{ar|وِلَادَةٌ}", "{ar|وِلَادَاتٌ}", "féminin en -āt"],
+            ["{ar|مُوَجِّهٌ}", "{ar|مُوَجِّهُونَ}", "hommes, en -ūna"],
             ["{ar|حَالٌ}", "{ar|أَحْوَالٌ}", "pluriel brisé : à apprendre"],
             ["{ar|شَجَرَةٌ}", "{ar|شَجَرٌ}", "nom collectif (« les arbres »)"]
           ]
         },
         {
           "type": "note",
-          "text": "Les noms féminins en {ar|ة} prennent souvent le pluriel en {ar|ـَاتٌ} : le {ar|ة} disparaît et {ar|ـَاتٌ} s'ajoute. Ce n'est pas une règle sans exception : certains forment un pluriel brisé."
+          "text": "Les noms féminins en {ar|ة} prennent souvent le pluriel en « -āt » : le {ar|ة} disparaît et la terminaison « -āt » s'ajoute. Ce n'est pas une règle sans exception : certains forment un pluriel brisé."
         }
       ]
     },
@@ -44,7 +44,7 @@
     {
       "id": "medine-t1.l12.plurals-1#4",
       "type": "sort",
-      "categories": [ { "fr": "pluriel en {ar|ـَاتٌ}" }, { "fr": "pluriel en {ar|ـُونَ}" }, { "fr": "autre forme" } ],
+      "categories": [ { "fr": "pluriel en -āt (féminin)" }, { "fr": "pluriel en -ūna (hommes)" }, { "fr": "autre forme" } ],
       "cards": [
         { "ar": "رَحَمَاتٌ", "category": 0 },
         { "ar": "بَرَكَاتٌ", "category": 0 },
@@ -69,7 +69,7 @@
       "prompt": { "fr": "Quel est le pluriel de {ar|مُوَجِّهٌ} (un conseiller) ?" },
       "choices": [ { "ar": "مُوَجِّهُونَ" }, { "ar": "مُوَجِّهَاتٌ" } ],
       "answer": 0,
-      "explain": "{ar|مُوَجِّهٌ} désigne un homme : pluriel en {ar|ـُونَ}. {ar|مُوَجِّهَاتٌ} serait le pluriel de {ar|مُوَجِّهَةٌ} (des conseillères)."
+      "explain": "{ar|مُوَجِّهٌ} désigne un homme : pluriel en -ūna. {ar|مُوَجِّهَاتٌ} serait le pluriel de {ar|مُوَجِّهَةٌ} (des conseillères)."
     },
     {
       "id": "medine-t1.l12.plurals-1#7",

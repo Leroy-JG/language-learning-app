@@ -2,7 +2,7 @@
   "id": "medine-t1.l12",
   "number": 12,
   "title": { "ar": "الدَّرْسُ الثَّانِي عَشَرَ", "fr": "Les noms interrogatifs" },
-  "description": "Retrouver les quatre noms interrogatifs ({ar|مَا}, {ar|مَنْ}, {ar|أَيْنَ}, {ar|كَيْفَ}), mettre le verbe au féminin avec le {ar|تْ}, parler à une femme avec {ar|ـكِ} et dire la salutation complète.",
+  "description": "Retrouver les quatre noms interrogatifs ({ar|مَا}, {ar|مَنْ}, {ar|أَيْنَ}, {ar|كَيْفَ}), mettre le verbe au féminin avec le {ar|تْ}, parler à une femme (le suffixe {ar|كِ}) et dire la salutation complète.",
   "source": "Tome de Médine 1, leçon 12",
   "sections": [
     { "title": "Les noms interrogatifs", "activities": ["grammar-1", "practice-1"] },
