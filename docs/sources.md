@@ -34,6 +34,8 @@ Supports utilisés pour le chapitre de révision 1 (`r01`) : trois PDF « Semain
 
 Support utilisé pour la leçon 11 (`l11`) : `TOME1-11.pdf` (17 pages) : `الْمَبْنِيُّ وَالْمُعْرَبُ` (nom variable / invariable, schémas du `الْإِعْرَابُ` et du `الْمَبْنِيُّ`, exemples `هٰذَا زَيْدٌ`, `نَحْنُ طُلَّابٌ`, `هُمْ مُسْلِمُونَ`, `بَيْتُكَ جَمِيلٌ`), `الْمُضَافُ إِلَى يَاءِ الْمُتَكَلِّمِ` (le nom suivi de `◌ِي`), `هَاءُ الْغَائِبِ` (`ـهُ` → `ـهِ`), page du livre « بَيْتِي », exercices 1 et 2, vocabulaire nouveau (`أَحَبَّ`).
 
+Support utilisé pour la leçon 12 (`l12`) : `TOME1-12.pdf` (13 pages) : `أَسْمَاءُ الِاسْتِفْهَامِ` (schéma des quatre noms interrogatifs, `كَيْفَ`), `عَلَامَةُ التَّأْنِيثِ فِي الْفِعْلِ الْمَاضِي` (le `تْ` du féminin), page du livre (dialogue de Suʿād et d'une jeune fille, deux pages), exercices 1 à 5, vocabulaire nouveau.
+
 ## Ce qui est déjà enseigné (cumulatif)
 
 **Leçon 1** (`l01`) :
@@ -178,6 +180,15 @@ Support utilisé pour la leçon 11 (`l11`) : `TOME1-11.pdf` (17 pages) : `الْ
 - vocabulaire : `أَحَبَّ` (avec ses quatre formes dans une astuce), `يُحِبُّ`, `أُحِبُّ`, `أَحَدٌ` (dans une question ou après une négation : `مَا فِيهِ أَحَدٌ`), `النَّبِيُّ` ;
 - le texte du livre « بَيْتِي » (deux dialogues) et les exercices 1 (`فِيهِ` / `فِيهَا`) et 2 (`أُحِبُّ …`) ;
 - seulement **aperçu** (aucun exercice) : l'accusatif de ce qu'on aime (`أُحِبُّ اللَّهَ`, `أُحِبُّ اللُّغَةَ الْعَرَبِيَّةَ`) ; un exercice peut en revanche demander le sens de la phrase.
+
+**Leçon 12** (`l12`) : les noms interrogatifs, le verbe au féminin, parler à une femme, la salutation complète :
+- les quatre noms interrogatifs `مَا` `مَنْ` `أَيْنَ` `كَيْفَ` (`أَسْمَاءُ الِاسْتِفْهَامِ`) : invariables, en tête de la question (une préposition ou `وَ` peut les précéder) ; `كَيْفَ` : l'état, la manière ; `مَاذَا` et `لِمَاذَا` rappelés ;
+- le verbe au passé avec un sujet féminin : le `تْ` du féminin (`تَاءُ التَّأْنِيثِ السَّاكِنَةُ`, une particule, pas un pronom) ; sa kasra devant l'article ou un mot à hamza de liaison (`جَلَسَتِ الطَّالِبَةُ`) ; `ذَهَبَتْ` `خَرَجَتْ` `جَلَسَتْ` ;
+- parler à une femme : `كَ` → `كِ`, `أَنْتَ` → `أَنْتِ`, accord du nom attribut (`أَأَنْتِ طَبِيبَةٌ يَا أُخْتِي؟`) ; `كَيْفَ حَالُكِ؟` `مَا اسْمُكِ؟` `مِنْ أَيْنَ أَنْتِ؟` ;
+- la salutation complète (`السَّلَامُ عَلَيْكِ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ`) et sa réponse ;
+- vocabulaire : `سَلَامٌ` `رَحْمَةٌ` `بَرَكَةٌ` `حَالٌ` `فَتَاةٌ` `زَمِيلَةٌ` `مُوَجِّهٌ` `الْمُتَوَسِّطَةُ` `وِلَادَةٌ` `شَجَرَةٌ` `الرِّيَاضُ` ; pluriels `رَحَمَاتٌ` `بَرَكَاتٌ` `أَحْوَالٌ` `فَتَيَاتٌ` `وِلَادَاتٌ` `شَجَرٌ` `مُوَجِّهُونَ` ;
+- le dialogue du livre (deux activités) et les exercices 1 à 5 ;
+- seulement **aperçus** (astuce « Des petites formes à repérer », rien n'est exigé en exercice) : `الَّتِي` et `الَّذِي` (« qui, que »), `بِالْجَامِعَةِ`.
 
 **Pas encore enseigné** (ne pas l'exiger dans un exercice) :
 - les démonstratifs pluriels ;
@@ -517,6 +528,47 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - le pronom de `فِيهِ` / `فِيهَا` reprend le premier terme de l'annexion (`مَسْجِدُ الْجَامِعَةِ` → `فِيهِ`) ;
   - ce qu'on aime est à l'accusatif ; avec `◌ِي`, sa fatha est sous-entendue.
 - **Pas de nouvelle icône.**
+### Leçon 12 (`l12`)
+
+- **Support :** un seul PDF de 13 pages (cours 12 : `أَسْمَاءُ الِاسْتِفْهَامِ`, `كَيْفَ`, `عَلَامَةُ التَّأْنِيثِ فِي الْفِعْلِ الْمَاضِي`, texte du livre, exercices 1 à 5, vocabulaire nouveau).
+- **Exercices du livre repris :**
+  - texte du livre (dialogue de Suʿād et d'une jeune fille) → `dialogue-1` (lignes 1 à 12) et `dialogue-2` (lignes 13 à 28), avec une astuce « Des petites formes à repérer » (`الَّتِي`, `الَّذِي`, `بِالْجَامِعَةِ`) ; la vocalisation du PDF est incomplète, elle a été reconstituée ; deux locutrices, donc la même voix `f1` (une seule voix féminine existe) ;
+  - exercice 1 (lecture) → `practice-3` (phrases 3 et 4 en questions de compréhension, après l'enseignement du `تْ` ; phrases 5 et 8 à 9 en exercices ; phrase 6 adaptée) et `grammar-4` (phrases 1 à 5) ;
+  - exercice 2 (changer le mot qui interpelle) → `grammar-4` et `practice-3` (astuces `compare`), en plus d'exercices sur les phrases (jamais deux formes `كَ` / `كِ` dans un même choix : identiques sans harakat) ;
+  - exercice 3 (mettre le sujet au féminin) → `practice-2` ; exercice 4 (`جَلَسَتِ الطَّالِبَةُ`) → `grammar-3` ;
+  - exercice 5 (`الَّذِي` / `الَّتِي`) → `practice-4`, en lecture et en exercices sur `مَنِ` / `لِمَنِ` seulement (aucun exercice sur `الَّذِي` / `الَّتِي`).
+- **Écarts avec le PDF :**
+  - exercice 1, phrase 6 (`أَهٰذَا قَلَمُكَ يَا مُحَمَّدُ؟ لَا. هٰذَا قَلَمُكَ أَنْتَ.`) : la réponse se contredit ; l'app emploie `لَا. هٰذَا قَلَمِي` ; la phrase 7 (`تِلْكَ السَّيَّارَةُ …`) n'est pas reprise (`الَّتِي` n'est qu'aperçu) ;
+  - exercice 1, phrase 2 : le PDF écrit `كيف حالك يا أمي` sans voyelles ; l'app met `حَالُكِ` (à une femme) ;
+  - exercice 2, phrases 2, 6 et 7 : non reprises (`أُسْتَاذَتِي`, `خَالَتِي`, `عَمَّتِي` ne sont pas enseignés) ;
+  - `هٰذِهِ شَجَرَةٌ طَيِّبَةٌ` (exemple du vocabulaire) → `هٰذِهِ شَجَرَةٌ كَبِيرَةٌ` (`طَيِّبٌ` n'est pas enseigné) ;
+  - `الْمُتَوَسِّطَةُ` (sans traduction dans le PDF) : « le collège » ;
+  - le professeur dit que le nom interrogatif « débute toujours la phrase » : l'app écrit « se place en tête de la question » et cite la préposition et `وَ` devant lui (`مِنْ أَيْنَ`, `لِمَنْ`, `وَأَيْنَ`) ; il est dit invariable pour « les quatre que l'on connaît » (comme au chapitre 11) ;
+  - `هٰذَا` écrit avec l'alif suscrit, comme dans tout le cours ; `اِسْمِي` avec la kasra en début de phrase, `مَا اسْمُكِ` sans.
+- **Corrections après relecture :**
+  - un féminin de chose (`سَيَّارَةٌ`) admet un verbe sans `تْ` (facultatif, Ibn ʿAqīl) : aucun distracteur n'oppose `خَرَجَ` à `السَّيَّارَةُ` ; les exercices n'emploient que des féminins réels (`الْمُدَرِّسَةُ`, `الطَّالِبَةُ`, `الطَّبِيبَةُ`, noms de femmes) et l'astuce le dit ;
+  - la kasra du `ت` apparaît aussi devant un mot à hamza de liaison, pas seulement devant l'article ;
+  - `مَاذَا` et `لِمَاذَا` sont déjà enseignés (révision 1) : l'astuce ne dit plus qu'il n'y a pas d'autres mots d'interrogation connus ;
+  - la kasra de `مَنِ` n'est pas un changement de cas (enchaînement, chapitre 3) ;
+  - `الْمُدَرِّسَةُ` et `الْمَدْرَسَةِ` s'écrivent pareil sans harakat : jamais dans le même exercice d'étiquettes ;
+  - `فَتَاةٌ` : jamais en face de `بِنْتٌ` (« une fille ») dans un QCM ; la réponse « C'est une fille » est acceptée pour une image de fille.
+- **Réponses acceptées en plus :** l'ordre sujet d'abord pour les phrases verbales (`أُمِّي ذَهَبَتْ إِلَى الْمُسْتَشْفَى`) ; `هٰذَا لِلْمُدَرِّسِ` / `هٰذِهِ لِزَوْجِ أُخْتِي`.
+- **Choix de contenu :**
+  - `حَالٌ` : genre `m`, avec la précision que les dictionnaires (Lisān al-ʿArab, al-Muʿjam al-Wasīṭ) l'admettent aussi au féminin ;
+  - `الرِّيَاضُ` (une ville) : pas de `gender`, comme les pays ;
+  - `شَجَرٌ` : nom collectif ; `شَجَرَةٌ` en est le nom d'unité ;
+  - `رَحْمَةٌ` : pluriel `رَحَمَاتٌ` (forme du PDF) ;
+  - `زَمِيلَةٌ` : pas de pluriel donné (le PDF n'en donne pas) ;
+  - le `تْ` du féminin n'est pas un item (le genre du mot `تَاءٌ` n'est pas certain) : il n'est nommé que dans une astuce ;
+  - `ذَهَبَتْ` et `ذَهَبْتُ` s'écrivent pareil sans harakat : `ذَهَبْتُ` n'est pas un item (seulement aperçu au chapitre 10), donc aucun QCM ne les oppose.
+- **Explications ajoutées (données à l'oral, absentes du PDF) :**
+  - le `تْ` est obligatoire avec une femme, facultatif avec un féminin de chose ; différence avec le `تُ` de `ذَهَبْتُ` (pronom, voyelle sur le `ت`) ; sans sujet écrit, le verbe se traduit « il » / « elle » ;
+  - même règle que `مَنْ` → `مَنِ` pour la kasra du `ت` : on ne prononce pas deux sukūn de suite ;
+  - `كَ` / `كِ` s'écrivent pareil sans voyelles : le mot qui interpelle dit à qui l'on parle ;
+  - `مَا` : `لِغَيْرِ الْعَاقِلِ` / `مَنْ` : `لِلْعَاقِلِ` / `أَيْنَ` : `لِلْمَكَانِ` / `كَيْفَ` : `لِلْحَالِ وَالْكَيْفِيَّةِ` ;
+  - salutation complète et réponse « par la même formule ou une meilleure » (sourate 4, verset 86) ;
+  - `الرِّيَاضُ` est le pluriel de `رَوْضَةٌ` (« jardin ») ; `الْمُتَوَسِّطَةُ` : cycle entre l'école primaire et le lycée dans le système saoudien ; `مُوَجِّهٌ` vient de `وَجَّهَ` ; `سَلَامٌ` et `مُسْلِمٌ` de la même famille.
+- **Nouvelle icône :** `tree` (OpenMoji 1F333).
 
 ## Audio
 
