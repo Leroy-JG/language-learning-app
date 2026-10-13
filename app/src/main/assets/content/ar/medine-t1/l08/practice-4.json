@@ -31,7 +31,11 @@
       "id": "medine-t1.l08.practice-4#4",
       "type": "order",
       "fr": "Il est maintenant à l'hôpital.",
-      "answers": [["هُوَ", "الْآنَ", "فِي", "الْمُسْتَشْفَى"], ["هُوَ", "فِي", "الْمُسْتَشْفَى", "الْآنَ"]],
+      "answers": [
+        ["هُوَ", "الْآنَ", "فِي", "الْمُسْتَشْفَى"],
+        ["هُوَ", "فِي", "الْمُسْتَشْفَى", "الْآنَ"],
+        ["الْآنَ", "هُوَ", "فِي", "الْمُسْتَشْفَى"]
+      ],
       "punctuation": "."
     },
     {
@@ -58,6 +62,22 @@
     },
     {
       "id": "medine-t1.l08.practice-4#8",
+      "type": "tip",
+      "title": "Deux verbes avec {ar|وَ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "On peut enchaîner deux verbes avec {ar|وَ} (« et »). Le second verbe n'a pas de sujet écrit : le sujet est caché dans le verbe (« il ») et renvoie au même nom que le premier."
+        },
+        {
+          "type": "example",
+          "ar": "ذَهَبَ عَمَّارٌ إِلَى الْمَسْجِدِ وَجَلَسَ أَمَامَ الْمِحْرَابِ.",
+          "fr": "ʿAmmār est allé à la mosquée et s'est assis devant le mihrab."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.practice-4#9",
       "type": "order",
       "fr": "ʿAmmār est allé à la mosquée et s'est assis devant le mihrab.",
       "answers": [
@@ -67,7 +87,7 @@
       "punctuation": "."
     },
     {
-      "id": "medine-t1.l08.practice-4#9",
+      "id": "medine-t1.l08.practice-4#10",
       "type": "typing",
       "ask": "audio",
       "fr": "ʿAmmār est allé à la mosquée et s'est assis devant le mihrab.",

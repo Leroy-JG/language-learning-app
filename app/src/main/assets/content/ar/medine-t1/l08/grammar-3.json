@@ -104,12 +104,12 @@
       "categories": [ { "fr": "sujet de la phrase nominale" }, { "fr": "sujet du verbe" } ],
       "cards": [
         { "ar": "الطَّالِبُ جَالِسٌ", "category": 0 },
-        { "ar": "جَلَسَ الطَّالِبُ", "category": 1 },
+        { "ar": "ذَهَبَ الطَّالِبُ", "category": 1 },
         { "ar": "الْمُدَرِّسُ فِي الْفَصْلِ", "category": 0 },
         { "ar": "خَرَجَ الْمُدَرِّسُ", "category": 1 },
         { "ar": "الْبَابُ مَفْتُوحٌ", "category": 0 }
       ],
-      "instruction": "Range chaque mot : sujet de la phrase nominale ou sujet du verbe ?",
+      "instruction": "Range chaque phrase : son nom est-il le sujet de la phrase nominale ou le sujet du verbe ?",
       "explain": "Dans les phrases verbales, le nom vient après le verbe : c'est le sujet du verbe."
     },
     {

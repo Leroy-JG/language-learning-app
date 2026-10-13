@@ -118,7 +118,7 @@
       "type": "typing",
       "ask": "question",
       "question": "مَا اسْمُ التَّاجِرِ؟",
-      "answers": ["اِسْمُ التَّاجِرِ مَحْمُودٌ.", "مَحْمُودٌ."],
+      "answers": ["اِسْمُ التَّاجِرِ مَحْمُودٌ.", "هُوَ مَحْمُودٌ.", "مَحْمُودٌ."],
       "fr": "Le nom du commerçant est Maḥmūd.",
       "instruction": "Réponds : Maḥmūd."
     },

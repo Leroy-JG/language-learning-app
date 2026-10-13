@@ -23,8 +23,8 @@
           "ar": "ذَهَبَ عَمَّارٌ إِلَى الْمَسْجِدِ وَجَلَسَ أَمَامَ الْمِحْرَابِ.",
           "fr": "ʿAmmār est allé à la mosquée et s'est assis devant le mihrab."
         },
-        { "speaker": "A", "ar": "وَأَيْنَ جَلَسَ حَامِدٌ؟", "fr": "Et où Ḥāmid s'est-il assis ?" },
-        { "speaker": "B", "ar": "جَلَسَ حَامِدٌ خَلْفَ عَمَّارٍ.", "fr": "Ḥāmid s'est assis derrière ʿAmmār." }
+        { "speaker": "A", "ar": "وَأَيْنَ جَلَسَ خَالِدٌ؟", "fr": "Et où Khālid s'est-il assis ?" },
+        { "speaker": "B", "ar": "جَلَسَ خَالِدٌ خَلْفَ عَمَّارٍ.", "fr": "Khālid s'est assis derrière ʿAmmār." }
       ]
     },
     {
@@ -39,17 +39,17 @@
       "id": "medine-t1.l08.dialogue-2#3",
       "type": "question",
       "prompt": { "fr": "Où ʿAmmār s'est-il assis ?" },
-      "choices": [ { "fr": "Devant le mihrab" }, { "fr": "Derrière Ḥāmid" }, { "fr": "Dans l'hôpital" } ],
+      "choices": [ { "fr": "Devant le mihrab" }, { "fr": "Derrière Khālid" }, { "fr": "Dans l'hôpital" } ],
       "answer": 0,
       "context": { "dialogue": "medine-t1.l08.dialogue-2#1" }
     },
     {
       "id": "medine-t1.l08.dialogue-2#4",
       "type": "true_false",
-      "statement": { "fr": "Ḥāmid s'est assis devant ʿAmmār." },
+      "statement": { "fr": "Khālid s'est assis devant ʿAmmār." },
       "answer": false,
       "context": { "dialogue": "medine-t1.l08.dialogue-2#1" },
-      "explain": "Ḥāmid s'est assis derrière ʿAmmār : {ar|خَلْفَ عَمَّارٍ}."
+      "explain": "Khālid s'est assis derrière ʿAmmār : {ar|خَلْفَ عَمَّارٍ}."
     },
     {
       "id": "medine-t1.l08.dialogue-2#5",
@@ -70,8 +70,8 @@
     {
       "id": "medine-t1.l08.dialogue-2#6",
       "type": "fill_gap",
-      "sentence": "جَلَسَ حَامِدٌ {0} عَمَّارٍ.",
-      "fr": "Ḥāmid s'est assis derrière ʿAmmār.",
+      "sentence": "جَلَسَ خَالِدٌ {0} عَمَّارٍ.",
+      "fr": "Khālid s'est assis derrière ʿAmmār.",
       "gaps": [ { "answers": ["خَلْفَ"] } ],
       "options": ["خَلْفَ", "أَمَامَ", "فَوْقَ"],
       "context": { "dialogue": "medine-t1.l08.dialogue-2#1" }
@@ -81,7 +81,15 @@
       "type": "typing",
       "ask": "question",
       "question": "أَيْنَ مَحْمُودٌ الْآنَ؟",
-      "answers": ["مَحْمُودٌ الْآنَ فِي الْمُسْتَشْفَى.", "هُوَ فِي الْمُسْتَشْفَى.", "فِي الْمُسْتَشْفَى."],
+      "answers": [
+        "هُوَ الْآنَ فِي الْمُسْتَشْفَى.",
+        "مَحْمُودٌ فِي الْمُسْتَشْفَى.",
+        "مَحْمُودٌ الْآنَ فِي الْمُسْتَشْفَى.",
+        "هُوَ فِي الْمُسْتَشْفَى الْآنَ.",
+        "هُوَ فِي الْمُسْتَشْفَى.",
+        "فِي الْمُسْتَشْفَى الْآنَ.",
+        "فِي الْمُسْتَشْفَى."
+      ],
       "fr": "Il est à l'hôpital.",
       "instruction": "Réponds : à l'hôpital.",
       "context": { "dialogue": "medine-t1.l08.dialogue-2#1" }
@@ -89,16 +97,16 @@
     {
       "id": "medine-t1.l08.dialogue-2#8",
       "type": "order",
-      "fr": "Ḥāmid s'est assis derrière ʿAmmār.",
-      "answers": [["جَلَسَ", "حَامِدٌ", "خَلْفَ", "عَمَّارٍ"], ["حَامِدٌ", "جَلَسَ", "خَلْفَ", "عَمَّارٍ"]],
+      "fr": "Khālid s'est assis derrière ʿAmmār.",
+      "answers": [["جَلَسَ", "خَالِدٌ", "خَلْفَ", "عَمَّارٍ"], ["خَالِدٌ", "جَلَسَ", "خَلْفَ", "عَمَّارٍ"]],
       "punctuation": "."
     },
     {
       "id": "medine-t1.l08.dialogue-2#9",
       "type": "typing",
       "ask": "audio",
-      "fr": "Où Ḥāmid s'est-il assis ?",
-      "answers": ["أَيْنَ جَلَسَ حَامِدٌ؟"]
+      "fr": "Où Khālid s'est-il assis ?",
+      "answers": ["أَيْنَ جَلَسَ خَالِدٌ؟"]
     }
   ]
 }

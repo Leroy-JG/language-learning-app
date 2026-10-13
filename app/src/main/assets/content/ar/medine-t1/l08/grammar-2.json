@@ -37,7 +37,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le sujet ({ar|الْمُبْتَدَأُ}) et le prédicat ({ar|الْخَبَرُ}) sont toujours au nominatif, {ar|مَرْفُوعٌ} : ils portent la damma (ou le tanwin {ar|◌ٌ})."
+          "text": "Le sujet ({ar|الْمُبْتَدَأُ}) est toujours au nominatif, {ar|مَرْفُوعٌ} : il porte la damma (ou le tanwin {ar|◌ٌ}). Le prédicat ({ar|الْخَبَرُ}) l'est aussi quand c'est un nom ou un adjectif. Quand c'est un groupe « préposition + nom », le groupe garde sa propre terminaison (la kasra après la préposition) : on le verra plus bas."
         },
         {
           "type": "table",
@@ -86,7 +86,9 @@
             ["nom propre", "{ar|زَيْدٌ طَالِبٌ} (Zayd est étudiant)"],
             ["nom avec {ar|الْ}", "{ar|الطَّالِبُ غَنِيٌّ} (l'étudiant est riche)"],
             ["pronom", "{ar|هُوَ فِي الْبَيْتِ} (il est dans la maison)"],
-            ["nom avec {ar|الْ} au pluriel", "{ar|الطُّلَّابُ وَاقِفُونَ} (les étudiants sont debout)"]
+            ["nom avec {ar|الْ} au pluriel", "{ar|الطُّلَّابُ وَاقِفُونَ} (les étudiants sont debout)"],
+            ["démonstratif", "{ar|هٰذَا بَيْتٌ} (ceci est une maison)"],
+            ["nom annexé à un nom défini", "{ar|كِتَابُ الطَّالِبِ جَدِيدٌ} (le livre de l'étudiant est neuf)"]
           ]
         },
         {

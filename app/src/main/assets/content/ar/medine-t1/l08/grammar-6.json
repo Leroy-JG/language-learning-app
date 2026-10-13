@@ -25,7 +25,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Un adverbe de lieu est en général suivi d'un nom : c'est une **annexion** (chapitre 5). L'adverbe est le premier terme ({ar|الْمُضَافُ}), le nom qui suit est le second terme ({ar|الْمُضَافُ إِلَيْهِ}), toujours à la kasra."
+          "text": "Un adverbe de lieu est en général suivi d'un nom : c'est une **annexion** (chapitre 5). L'adverbe est le premier terme ({ar|الْمُضَافُ}), le nom qui suit est le second terme ({ar|الْمُضَافُ إِلَيْهِ}), toujours au génitif : la kasra (ou le tanwin {ar|◌ٍ}), et la fatha seulement pour un nom privé de tanwin comme {ar|عُمَرَ} (chapitre 5)."
         },
         {
           "type": "breakdown",
@@ -133,7 +133,7 @@
     {
       "id": "medine-t1.l08.grammar-6#10",
       "type": "question",
-      "prompt": { "fr": "Quelle voyelle finale porte le nom qui suit {ar|فَوْقَ} ?" },
+      "prompt": { "fr": "Quelle voyelle finale porte un nom avec {ar|الْ}, comme « le bureau », après {ar|فَوْقَ} ?" },
       "choices": [ { "fr": "La kasra" }, { "fr": "La damma" }, { "fr": "La fatha" } ],
       "answer": 0,
       "explain": "Ce nom est le second terme de l'annexion : il est au génitif, avec la kasra (ou le tanwin {ar|◌ٍ})."
@@ -141,7 +141,7 @@
     {
       "id": "medine-t1.l08.grammar-6#11",
       "type": "question",
-      "prompt": { "fr": "Quelle voyelle finale porte l'adverbe {ar|أَمَامَ} ?" },
+      "prompt": { "fr": "Dans {ar|السَّيَّارَةُ أَمَامَ الْبَيْتِ}, quelle voyelle finale porte l'adverbe {ar|أَمَامَ} ?" },
       "choices": [ { "fr": "La fatha" }, { "fr": "La damma" }, { "fr": "La kasra" } ],
       "answer": 0,
       "explain": "Un adverbe de lieu est en général à l'accusatif : il porte la fatha."

@@ -59,7 +59,7 @@
     {
       "id": "medine-t1.l08.quiz#7",
       "type": "question",
-      "prompt": { "fr": "Quelle voyelle finale porte l'adverbe de lieu {ar|خَلْفَ} ?" },
+      "prompt": { "fr": "Dans {ar|الْكَلْبُ خَلْفَ الْبَيْتِ}, quelle voyelle finale porte l'adverbe de lieu {ar|خَلْفَ} ?" },
       "choices": [ { "fr": "La fatha" }, { "fr": "La damma" }, { "fr": "La kasra" } ],
       "answer": 0
     },

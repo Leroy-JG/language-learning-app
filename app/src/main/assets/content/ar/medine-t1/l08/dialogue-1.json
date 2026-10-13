@@ -89,7 +89,7 @@
       "type": "typing",
       "ask": "question",
       "question": "مَا اسْمُ الطَّبِيبِ؟",
-      "answers": ["اِسْمُ الطَّبِيبِ سَعِيدٌ.", "سَعِيدٌ."],
+      "answers": ["اِسْمُ الطَّبِيبِ سَعِيدٌ.", "هُوَ سَعِيدٌ.", "سَعِيدٌ."],
       "fr": "Le nom du médecin est Saʿīd.",
       "instruction": "Réponds : Saʿīd.",
       "context": { "dialogue": "medine-t1.l08.dialogue-1#1" }
