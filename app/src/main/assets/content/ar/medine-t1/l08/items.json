@@ -1,0 +1,254 @@
+[
+  {
+    "id": "w:jumla-mufida",
+    "kind": "word",
+    "ar": "الْجُمْلَةُ الْمُفِيدَةُ",
+    "fr": "la phrase complète",
+    "translit": "al-jumlatu l-mufīdatu",
+    "gender": "f",
+    "note": "Littéralement : « la phrase qui apporte une information utile »."
+  },
+  {
+    "id": "w:jumla-ismiyya",
+    "kind": "word",
+    "ar": "الْجُمْلَةُ الِاسْمِيَّةُ",
+    "fr": "la phrase nominale",
+    "translit": "al-jumlatu l-ismiyyatu",
+    "gender": "f",
+    "note": "Elle commence par un nom ({ar|اِسْمٌ}).",
+    "example": { "ar": "زَيْدٌ جَالِسٌ.", "fr": "Zayd est assis." }
+  },
+  {
+    "id": "w:jumla-filiyya",
+    "kind": "word",
+    "ar": "الْجُمْلَةُ الْفِعْلِيَّةُ",
+    "fr": "la phrase verbale",
+    "translit": "al-jumlatu l-fiʿliyyatu",
+    "gender": "f",
+    "note": "Elle commence par un verbe ({ar|فِعْلٌ}).",
+    "example": { "ar": "خَرَجَ زَيْدٌ.", "fr": "Zayd est sorti." }
+  },
+  {
+    "id": "w:mubtada",
+    "kind": "word",
+    "ar": "الْمُبْتَدَأُ",
+    "fr": "le sujet de la phrase nominale",
+    "translit": "al-mubtadaʾu",
+    "gender": "m",
+    "note": "C'est le nom par lequel la phrase commence.",
+    "example": { "ar": "مُحَمَّدٌ غَنِيٌّ.", "fr": "Muḥammad est riche." }
+  },
+  {
+    "id": "w:khabar",
+    "kind": "word",
+    "ar": "الْخَبَرُ",
+    "fr": "le prédicat de la phrase nominale",
+    "translit": "al-khabaru",
+    "gender": "m",
+    "note": "C'est l'information apportée au sujet. Le mot veut dire « la nouvelle ».",
+    "example": { "ar": "الْبَابُ مَفْتُوحٌ.", "fr": "La porte est ouverte." }
+  },
+  {
+    "id": "w:fail",
+    "kind": "word",
+    "ar": "الْفَاعِلُ",
+    "fr": "le sujet du verbe",
+    "translit": "al-fāʿilu",
+    "gender": "m",
+    "note": "C'est celui qui fait l'action. Il vient après le verbe.",
+    "example": { "ar": "جَلَسَ زَيْدٌ.", "fr": "Zayd s'est assis." }
+  },
+  {
+    "id": "w:badal",
+    "kind": "word",
+    "ar": "الْبَدَلُ",
+    "fr": "le substitutif",
+    "translit": "al-badalu",
+    "gender": "m",
+    "note": "Un nom qui prend la place d'un autre nom, juste après lui.",
+    "example": { "ar": "هٰذَا الرَّجُلُ جَالِسٌ.", "fr": "Cet homme est assis." }
+  },
+  {
+    "id": "w:mubdal-minhu",
+    "kind": "word",
+    "ar": "الْمُبْدَلُ مِنْهُ",
+    "fr": "le nom que le substitutif remplace",
+    "translit": "al-mubdalu minhu",
+    "gender": "m",
+    "note": "C'est le nom qui précède le substitutif."
+  },
+  {
+    "id": "w:zarf",
+    "kind": "word",
+    "ar": "الظَّرْفُ",
+    "fr": "l'adverbe de lieu ou de temps",
+    "translit": "aẓ-ẓarfu",
+    "plural": "الظُّرُوفُ",
+    "gender": "m",
+    "note": "Un nom qui indique un lieu ou un temps.",
+    "example": { "ar": "الْكَلْبُ خَلْفَ الْبَيْتِ.", "fr": "Le chien est derrière la maison." }
+  },
+  {
+    "id": "w:maqsur",
+    "kind": "word",
+    "ar": "الِاسْمُ الْمَقْصُورُ",
+    "fr": "le nom maqṣūr (terminé par {ar|ى})",
+    "translit": "al-ismu l-maqṣūru",
+    "gender": "m",
+    "note": "Un nom dont la dernière lettre est l'alif maqṣūra ({ar|ى}).",
+    "example": { "ar": "زَيْدٌ فِي الْمُسْتَشْفَى.", "fr": "Zayd est à l'hôpital." }
+  },
+  {
+    "id": "w:jalasa",
+    "kind": "word",
+    "ar": "جَلَسَ",
+    "fr": "il s'est assis (s'asseoir)",
+    "translit": "jalasa",
+    "example": { "ar": "جَلَسَ زَيْدٌ.", "fr": "Zayd s'est assis." }
+  },
+  {
+    "id": "w:kataba",
+    "kind": "word",
+    "ar": "كَتَبَ",
+    "fr": "il a écrit (écrire)",
+    "translit": "kataba",
+    "example": { "ar": "كَتَبَ زَيْدٌ.", "fr": "Zayd a écrit." }
+  },
+  {
+    "id": "w:rajaa",
+    "kind": "word",
+    "ar": "رَجَعَ",
+    "fr": "il est revenu (revenir)",
+    "translit": "rajaʿa",
+    "example": { "ar": "رَجَعَ سَالِمٌ مِنَ الْمَدْرَسَةِ.", "fr": "Sālim est revenu de l'école." }
+  },
+  {
+    "id": "w:fawqa",
+    "kind": "word",
+    "ar": "فَوْقَ",
+    "fr": "au-dessus de",
+    "translit": "fawqa",
+    "example": { "ar": "الْقِطُّ فَوْقَ السَّيَّارَةِ.", "fr": "Le chat est sur la voiture." }
+  },
+  {
+    "id": "w:amama",
+    "kind": "word",
+    "ar": "أَمَامَ",
+    "fr": "devant",
+    "translit": "amāma",
+    "example": { "ar": "زَيْدٌ أَمَامَ الْمَسْجِدِ.", "fr": "Zayd est devant la mosquée." }
+  },
+  {
+    "id": "w:khalfa",
+    "kind": "word",
+    "ar": "خَلْفَ",
+    "fr": "derrière",
+    "translit": "khalfa",
+    "example": { "ar": "مُحَمَّدٌ خَلْفَ الْبَيْتِ.", "fr": "Muḥammad est derrière la maison." }
+  },
+  {
+    "id": "w:alan",
+    "kind": "word",
+    "ar": "الْآنَ",
+    "fr": "maintenant",
+    "translit": "al-āna",
+    "example": { "ar": "يَكْتُبُ زَيْدٌ الْآنَ.", "fr": "Zayd écrit maintenant." }
+  },
+  {
+    "id": "w:hasub",
+    "kind": "word",
+    "ar": "حَاسُوبٌ",
+    "fr": "un ordinateur",
+    "translit": "ḥāsūbun",
+    "plural": "حَوَاسِيبُ",
+    "gender": "m",
+    "example": { "ar": "الْحَاسُوبُ تَحْتَ الْمَكْتَبِ.", "fr": "L'ordinateur est sous le bureau." }
+  },
+  {
+    "id": "w:kura",
+    "kind": "word",
+    "ar": "كُرَةٌ",
+    "fr": "un ballon, une balle",
+    "translit": "kuratun",
+    "gender": "f",
+    "example": { "ar": "الْكُرَةُ تَحْتَ الْمَكْتَبِ.", "fr": "Le ballon est sous le bureau." }
+  },
+  {
+    "id": "w:mustashfa",
+    "kind": "word",
+    "ar": "مُسْتَشْفًى",
+    "fr": "un hôpital",
+    "translit": "mustashfan",
+    "plural": "مُسْتَشْفَيَاتٌ",
+    "gender": "m",
+    "note": "Avec l'article, le mot s'écrit {ar|الْمُسْتَشْفَى}.",
+    "example": { "ar": "زَيْدٌ فِي الْمُسْتَشْفَى.", "fr": "Zayd est à l'hôpital." }
+  },
+  {
+    "id": "w:abd",
+    "kind": "word",
+    "ar": "عَبْدٌ",
+    "fr": "un serviteur, un esclave",
+    "translit": "ʿabdun",
+    "plural": "عِبَادٌ",
+    "gender": "m",
+    "note": "Il entre dans beaucoup de prénoms : {ar|عَبْدُ اللَّهِ} (« le serviteur d'Allah »). Le pluriel {ar|عِبَادٌ} s'emploie surtout pour « les serviteurs d'Allah » ; pour des esclaves, on dit aussi {ar|عَبِيدٌ}.",
+    "example": { "ar": "هٰذَا عَبْدُ اللَّهِ.", "fr": "C'est ʿAbd Allāh." }
+  },
+  {
+    "id": "w:sabbura",
+    "kind": "word",
+    "ar": "سَبُّورَةٌ",
+    "fr": "un tableau (de classe)",
+    "translit": "sabbūratun",
+    "plural": "سَبُّورَاتٌ",
+    "gender": "f",
+    "example": { "ar": "هٰذِهِ سَبُّورَةٌ.", "fr": "Ceci est un tableau." }
+  },
+  {
+    "id": "w:sikkin",
+    "kind": "word",
+    "ar": "سِكِّينٌ",
+    "fr": "un couteau",
+    "translit": "sikkīnun",
+    "plural": "سَكَاكِينُ",
+    "gender": "m",
+    "note": "Ce nom peut être masculin ou féminin (les dictionnaires l'admettent). Ici, on l'emploie au masculin.",
+    "example": { "ar": "هٰذَا سِكِّينُ زَيْدٍ.", "fr": "Ceci est le couteau de Zayd." }
+  },
+  {
+    "id": "w:mihrab",
+    "kind": "word",
+    "ar": "مِحْرَابٌ",
+    "fr": "un mihrab (niche de la mosquée)",
+    "translit": "miḥrābun",
+    "plural": "مَحَارِيبُ",
+    "gender": "m",
+    "note": "La niche d'une mosquée qui indique la direction de la prière.",
+    "example": { "ar": "الْمِحْرَابُ فِي الْمَسْجِدِ.", "fr": "Le mihrab est dans la mosquée." }
+  },
+  {
+    "id": "w:amrika",
+    "kind": "word",
+    "ar": "أَمْرِيكَا",
+    "fr": "l'Amérique",
+    "translit": "amrīkā",
+    "note": "Comme {ar|فَرَنْسَا}, ce nom se termine par un alif.",
+    "example": { "ar": "هٰذَا الطَّبِيبُ مِنْ أَمْرِيكَا.", "fr": "Ce médecin est d'Amérique." }
+  },
+  {
+    "id": "w:almaniya",
+    "kind": "word",
+    "ar": "أَلْمَانِيَا",
+    "fr": "l'Allemagne",
+    "translit": "almāniyā",
+    "example": { "ar": "هٰذِهِ السَّيَّارَةُ مِنْ أَلْمَانِيَا.", "fr": "Cette voiture vient d'Allemagne." }
+  },
+  {
+    "id": "p:ma-ism-al-rajul",
+    "kind": "phrase",
+    "ar": "مَا اسْمُ الرَّجُلِ؟",
+    "fr": "Quel est le nom de l'homme ?",
+    "translit": "mā smu r-rajuli ?"
+  }
+]

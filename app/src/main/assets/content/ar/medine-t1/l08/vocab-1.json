@@ -1,0 +1,84 @@
+{
+  "id": "medine-t1.l08.vocab-1",
+  "type": "vocabulary",
+  "title": "S'asseoir, écrire, revenir",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l08.vocab-1#1",
+      "type": "tip",
+      "title": "Trois nouveaux verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme au chapitre 4, on cite un verbe **au passé, à la troisième personne du masculin singulier** : {ar|جَلَسَ} veut dire « il s'est assis »."
+        },
+        { "type": "paragraph", "text": "Voici trois verbes qui serviront dans les phrases verbales." }
+      ]
+    },
+    { "id": "medine-t1.l08.vocab-1#2", "type": "present", "item": "w:jalasa" },
+    { "id": "medine-t1.l08.vocab-1#3", "type": "present", "item": "w:kataba" },
+    {
+      "id": "medine-t1.l08.vocab-1#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:jalasa",
+      "distractors": ["w:kharaja", "w:dhahaba"]
+    },
+    { "id": "medine-t1.l08.vocab-1#5", "type": "present", "item": "w:rajaa" },
+    {
+      "id": "medine-t1.l08.vocab-1#6",
+      "type": "tip",
+      "title": "Leurs formes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici les quatre formes de ces verbes. Elles sont données pour que tu les reconnaisses : tu n'as pas à les apprendre maintenant."
+        },
+        {
+          "type": "table",
+          "header": ["Forme", "s'asseoir", "écrire", "revenir"],
+          "rows": [
+            ["{ar|الْمَاضِي} (passé)", "{ar|جَلَسَ}", "{ar|كَتَبَ}", "{ar|رَجَعَ}"],
+            ["{ar|الْمُضَارِعُ} (présent, futur)", "{ar|يَجْلِسُ}", "{ar|يَكْتُبُ}", "{ar|يَرْجِعُ}"],
+            ["{ar|الْأَمْرُ} (impératif)", "{ar|اِجْلِسْ}", "{ar|اُكْتُبْ}", "{ar|اِرْجِعْ}"],
+            ["{ar|الْمَصْدَرُ} (nom d'action)", "{ar|جُلُوسٌ}", "{ar|كِتَابَةٌ}", "{ar|رُجُوعٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "À l'impératif, le premier alif est un alif de liaison. Pour ces verbes (et pour {ar|اُخْرُجْ} et {ar|اِذْهَبْ}), il prend une damma quand l'avant-dernière lettre du présent porte une damma ({ar|يَكْتُبُ} → {ar|اُكْتُبْ}, {ar|يَخْرُجُ} → {ar|اُخْرُجْ}), et une kasra sinon ({ar|يَجْلِسُ} → {ar|اِجْلِسْ}, {ar|يَذْهَبُ} → {ar|اِذْهَبْ}, {ar|يَرْجِعُ} → {ar|اِرْجِعْ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.vocab-1#7",
+      "type": "fill_gap",
+      "sentence": "{0} الطَّالِبُ عَلَى الْكُرْسِيِّ.",
+      "fr": "L'étudiant s'est assis sur la chaise.",
+      "gaps": [ { "answers": ["جَلَسَ"] } ],
+      "options": ["جَلَسَ", "رَجَعَ", "خَرَجَ"]
+    },
+    {
+      "id": "medine-t1.l08.vocab-1#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:jalasa", "w:kataba", "w:rajaa", "w:kharaja", "w:dhahaba"]
+    },
+    { "id": "medine-t1.l08.vocab-1#9", "type": "build", "item": "w:rajaa", "extra": ["ح"] },
+    {
+      "id": "medine-t1.l08.vocab-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il est revenu de l'école.",
+      "answers": ["رَجَعَ مِنَ الْمَدْرَسَةِ.", "هُوَ رَجَعَ مِنَ الْمَدْرَسَةِ."]
+    },
+    {
+      "id": "medine-t1.l08.vocab-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le garçon s'est assis dans la chambre.",
+      "answers": ["جَلَسَ الْوَلَدُ فِي الْغُرْفَةِ.", "الْوَلَدُ جَلَسَ فِي الْغُرْفَةِ."]
+    }
+  ]
+}

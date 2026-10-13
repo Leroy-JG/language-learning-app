@@ -1,0 +1,83 @@
+{
+  "id": "medine-t1.l08.practice-2",
+  "type": "grammar",
+  "title": "Cet homme, ce garçon…",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l08.practice-2#1",
+      "type": "spot",
+      "instruction": "Touche les deux substitutifs.",
+      "words": ["هٰذَا", "الرَّجُلُ", "مُدَرِّسٌ", "وَذٰلِكَ", "الرَّجُلُ", "مُهَنْدِسٌ."],
+      "answers": [1, 4],
+      "fr": "Cet homme est enseignant et cet homme-là est ingénieur."
+    },
+    {
+      "id": "medine-t1.l08.practice-2#2",
+      "type": "fill_gap",
+      "sentence": "هٰذَا الْكِتَابُ جَدِيدٌ وَذٰلِكَ {0} قَدِيمٌ.",
+      "fr": "Ce livre est neuf et ce livre-là est ancien.",
+      "gaps": [ { "answers": ["الْكِتَابُ"] } ],
+      "options": ["الْكِتَابُ", "السَّيَّارَةُ", "السَّاعَةُ"]
+    },
+    {
+      "id": "medine-t1.l08.practice-2#3",
+      "type": "order",
+      "fr": "Ce garçon est Khālid et ce garçon-là est Muḥammad.",
+      "answers": [["هٰذَا", "الْوَلَدُ", "خَالِدٌ", "وَذٰلِكَ", "الْوَلَدُ", "مُحَمَّدٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l08.practice-2#4",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Cette porte est ouverte et cette porte-là est fermée.",
+      "answers": ["هٰذَا الْبَابُ مَفْتُوحٌ وَذٰلِكَ الْبَابُ مُغْلَقٌ."]
+    },
+    {
+      "id": "medine-t1.l08.practice-2#5",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أَهٰذَا الْبَيْتُ لِلطَّبِيبِ؟ لَا، هُوَ لِلْمُدَرِّسِ.}, à qui est la maison ?" },
+      "choices": [ { "fr": "À l'enseignant" }, { "fr": "Au médecin" }, { "fr": "À l'imam" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l08.practice-2#6",
+      "type": "fill_gap",
+      "sentence": "مَنْ هٰذَا الْوَلَدُ؟ هُوَ طَالِبٌ {0} الصِّينِ.",
+      "fr": "Qui est ce garçon ? C'est un étudiant de Chine.",
+      "gaps": [ { "answers": ["مِنَ"] } ],
+      "options": ["مِنَ", "إِلَى", "عَلَى"]
+    },
+    {
+      "id": "medine-t1.l08.practice-2#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَهٰذَا الْبَيْتُ لِلطَّبِيبِ؟",
+      "answers": ["لَا، هُوَ لِلْمُدَرِّسِ.", "لَا، لِلْمُدَرِّسِ."],
+      "fr": "Non, il est à l'enseignant.",
+      "instruction": "Réponds : non, il est à l'enseignant."
+    },
+    {
+      "id": "medine-t1.l08.practice-2#8",
+      "type": "order",
+      "fr": "Cette montre est à ʿAbbās.",
+      "answers": [["هٰذِهِ", "السَّاعَةُ", "لِعَبَّاسٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l08.practice-2#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ce vélo est-il au fils de l'imam ? Oui.",
+      "answers": ["أَهٰذِهِ الدَّرَّاجَةُ لِابْنِ الْإِمَامِ؟ نَعَمْ."]
+    },
+    {
+      "id": "medine-t1.l08.practice-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Cette voiture vient du Japon.",
+      "answers": ["هٰذِهِ السَّيَّارَةُ مِنَ الْيَابَانِ."]
+    }
+  ]
+}

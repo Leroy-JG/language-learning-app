@@ -1,0 +1,123 @@
+{
+  "id": "medine-t1.l08.grammar-3",
+  "type": "grammar",
+  "title": "La phrase verbale",
+  "icon": "man",
+  "screens": [
+    {
+      "id": "medine-t1.l08.grammar-3#1",
+      "type": "tip",
+      "title": "Le verbe et son sujet",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La phrase verbale commence par un **verbe**. Il n'y a plus de sujet ({ar|مُبْتَدَأٌ}) ni de prédicat ({ar|خَبَرٌ}) : elle se compose de deux éléments."
+        },
+        {
+          "type": "table",
+          "header": ["Élément", "Rôle", "Dans {ar|خَرَجَ زَيْدٌ}"],
+          "rows": [
+            ["{ar|الْفِعْلُ}", "le verbe", "{ar|خَرَجَ} (il est sorti)"],
+            ["{ar|الْفَاعِلُ}", "celui qui fait l'action (le sujet du verbe)", "{ar|زَيْدٌ}"]
+          ]
+        },
+        { "type": "example", "ar": "خَرَجَ زَيْدٌ.", "fr": "Zayd est sorti." }
+      ]
+    },
+    { "id": "medine-t1.l08.grammar-3#2", "type": "present", "item": "w:fail" },
+    {
+      "id": "medine-t1.l08.grammar-3#3",
+      "type": "tip",
+      "title": "Trois règles du sujet du verbe",
+      "blocks": [
+        { "type": "paragraph", "text": "1. Il vient **toujours après** le verbe." },
+        { "type": "paragraph", "text": "2. Il est **toujours au nominatif** ({ar|مَرْفُوعٌ}) : il porte la damma." },
+        {
+          "type": "paragraph",
+          "text": "3. Le verbe peut être au passé, au présent ou à l'impératif (chapitre 1) :"
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Le verbe", "Le sujet du verbe"],
+          "rows": [
+            ["{ar|خَرَجَ زَيْدٌ}", "{ar|خَرَجَ} : passé", "{ar|زَيْدٌ}"],
+            ["{ar|يَذْهَبُ يَاسِرٌ}", "{ar|يَذْهَبُ} : présent", "{ar|يَاسِرٌ}"]
+          ]
+        },
+        { "type": "example", "ar": "يَذْهَبُ يَاسِرٌ.", "fr": "Yāsir va (ou : Yāsir ira)." },
+        {
+          "type": "note",
+          "text": "À l'impératif, celui à qui l'on parle est caché dans le verbe (« toi »). Dans {ar|اِذْهَبْ يَا زَيْدُ}, le nom {ar|زَيْدُ} n'est pas le sujet : c'est la personne qu'on appelle, comme avec {ar|يَا} au chapitre 5."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.grammar-3#4",
+      "type": "spot",
+      "instruction": "Touche le sujet du verbe.",
+      "words": ["خَرَجَ", "زَيْدٌ", "مِنَ", "الْمَدْرَسَةِ."],
+      "answers": [1],
+      "fr": "Zayd est sorti de l'école.",
+      "explain": "{ar|زَيْدٌ} est celui qui sort : c'est le sujet du verbe. Il vient après le verbe et porte la damma."
+    },
+    {
+      "id": "medine-t1.l08.grammar-3#5",
+      "type": "question",
+      "prompt": { "fr": "Où se place le sujet du verbe ?" },
+      "choices": [ { "fr": "Après le verbe" }, { "fr": "Avant le verbe" }, { "fr": "Peu importe" } ],
+      "answer": 0,
+      "explain": "Dans une phrase verbale, le sujet vient toujours après le verbe. Si le nom passe avant, la phrase devient nominale et ce nom est un sujet de phrase nominale ({ar|مُبْتَدَأٌ})."
+    },
+    {
+      "id": "medine-t1.l08.grammar-3#6",
+      "type": "tip",
+      "title": "Le premier mot décide",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ces deux phrases ont le même sens de base, mais leur analyse n'est pas la même :"
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sorte", "Analyse"],
+          "rows": [
+            ["{ar|خَرَجَ زَيْدٌ}", "verbale", "{ar|خَرَجَ} est le verbe, {ar|زَيْدٌ} le sujet du verbe"],
+            [
+              "{ar|زَيْدٌ خَرَجَ}",
+              "nominale",
+              "{ar|زَيْدٌ} est le sujet, {ar|خَرَجَ} (avec son « il ») est le prédicat"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l08.grammar-3#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:jumla-filiyya",
+      "distractors": ["w:jumla-ismiyya", "w:jumla-mufida"]
+    },
+    {
+      "id": "medine-t1.l08.grammar-3#8",
+      "type": "sort",
+      "categories": [ { "fr": "sujet de la phrase nominale" }, { "fr": "sujet du verbe" } ],
+      "cards": [
+        { "ar": "الطَّالِبُ جَالِسٌ", "category": 0 },
+        { "ar": "ذَهَبَ الطَّالِبُ", "category": 1 },
+        { "ar": "الْمُدَرِّسُ فِي الْفَصْلِ", "category": 0 },
+        { "ar": "خَرَجَ الْمُدَرِّسُ", "category": 1 },
+        { "ar": "الْبَابُ مَفْتُوحٌ", "category": 0 }
+      ],
+      "instruction": "Range chaque phrase : son nom est-il le sujet de la phrase nominale ou le sujet du verbe ?",
+      "explain": "Dans les phrases verbales, le nom vient après le verbe : c'est le sujet du verbe."
+    },
+    {
+      "id": "medine-t1.l08.grammar-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Yāsir est sorti.",
+      "answers": ["خَرَجَ يَاسِرٌ.", "يَاسِرٌ خَرَجَ."]
+    }
+  ]
+}
