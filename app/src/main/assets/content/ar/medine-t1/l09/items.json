@@ -38,24 +38,6 @@
     "example": { "ar": "هٰذَا كِتَابٌ صَغِيرٌ.", "fr": "C'est un petit livre." }
   },
   {
-    "id": "w:tawil",
-    "kind": "word",
-    "ar": "طَوِيلٌ",
-    "fr": "long",
-    "translit": "ṭawīlun",
-    "note": "Au féminin : {ar|طَوِيلَةٌ}. Pour une personne, il veut dire « grand de taille ». Contraire : {ar|قَصِيرٌ}.",
-    "example": { "ar": "هٰذَا رَجُلٌ طَوِيلٌ.", "fr": "C'est un homme de grande taille." }
-  },
-  {
-    "id": "w:qasir",
-    "kind": "word",
-    "ar": "قَصِيرٌ",
-    "fr": "court",
-    "translit": "qaṣīrun",
-    "note": "Au féminin : {ar|قَصِيرَةٌ}. Pour une personne, il veut dire « petit de taille ». Contraire : {ar|طَوِيلٌ}.",
-    "example": { "ar": "هٰذَا قَلَمٌ قَصِيرٌ.", "fr": "C'est un stylo court." }
-  },
-  {
     "id": "w:shahir",
     "kind": "word",
     "ar": "شَهِيرٌ",

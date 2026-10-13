@@ -1,0 +1,103 @@
+{
+  "id": "medine-t1.l07.practice-2",
+  "type": "grammar",
+  "title": "Lis et écris : l'exercice du livre",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l07.practice-2#1",
+      "type": "tip",
+      "title": "Exercice du livre : lis et écris",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ton livre propose sept phrases à lire puis à écrire. Voici ces phrases, une par une. Devant chaque nom, choisis le bon démonstratif : masculin ou féminin ? proche ou loin ?"
+        },
+        {
+          "type": "example",
+          "ar": "هٰذِهِ مَدْرَسَةٌ وَتِلْكَ جَامِعَةٌ.",
+          "fr": "Ceci est une école et cela est une université."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l07.practice-2#2",
+      "type": "fill_gap",
+      "sentence": "{0} مَدْرَسَةٌ وَ{1} جَامِعَةٌ.",
+      "fr": "Ceci est une école et cela est une université.",
+      "gaps": [ { "answers": ["هٰذِهِ"] }, { "answers": ["تِلْكَ"] } ],
+      "options": ["هٰذِهِ", "تِلْكَ", "هٰذَا", "ذٰلِكَ"],
+      "explain": "{ar|مَدْرَسَةٌ} et {ar|جَامِعَةٌ} sont féminins : {ar|هٰذِهِ} pour la proche, {ar|تِلْكَ} pour la lointaine."
+    },
+    {
+      "id": "medine-t1.l07.practice-2#3",
+      "type": "order",
+      "fr": "Ceci est un chameau et cela est une chamelle.",
+      "answers": [["هٰذَا", "جَمَلٌ", "وَتِلْكَ", "نَاقَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l07.practice-2#4",
+      "type": "fill_gap",
+      "sentence": "{0} حِمَارٌ وَ{1} بَقَرَةٌ.",
+      "fr": "Cela est un âne et cela est une vache.",
+      "gaps": [ { "answers": ["ذٰلِكَ"] }, { "answers": ["تِلْكَ"] } ],
+      "options": ["ذٰلِكَ", "تِلْكَ", "هٰذَا", "هٰذِهِ"],
+      "explain": "Les deux sont loin : {ar|حِمَارٌ} est masculin ({ar|ذٰلِكَ}), {ar|بَقَرَةٌ} est féminin ({ar|تِلْكَ})."
+    },
+    {
+      "id": "medine-t1.l07.practice-2#5",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans {ar|ذٰلِكَ حِمَارٌ وَتِلْكَ بَقَرَةٌ}, on emploie {ar|تِلْكَ} parce que {ar|بَقَرَةٌ} est féminin."
+      },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l07.practice-2#6",
+      "type": "fill_gap",
+      "sentence": "هٰذَا {0} وَذٰلِكَ {1}.",
+      "fr": "Ceci est un chien et cela est un chat.",
+      "gaps": [ { "answers": ["كَلْبٌ"] }, { "answers": ["قِطٌّ"] } ],
+      "options": ["كَلْبٌ", "قِطٌّ", "حِمَارٌ"],
+      "explain": "« Un chien » se dit {ar|كَلْبٌ} et « un chat » {ar|قِطٌّ} (chapitre 1)."
+    },
+    {
+      "id": "medine-t1.l07.practice-2#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est une enseignante et cela est une étudiante.",
+      "answers": ["هٰذِهِ مُدَرِّسَةٌ وَتِلْكَ طَالِبَةٌ."]
+    },
+    {
+      "id": "medine-t1.l07.practice-2#8",
+      "type": "fill_gap",
+      "sentence": "{0} بَيْتُ الْمُؤَذِّنِ وَ{1} حَدِيقَةُ التَّاجِرِ.",
+      "fr": "Ceci est la maison du muezzin et cela est le jardin du commerçant.",
+      "gaps": [ { "answers": ["هٰذَا"] }, { "answers": ["تِلْكَ"] } ],
+      "options": ["هٰذَا", "تِلْكَ", "هٰذِهِ", "ذٰلِكَ"],
+      "explain": "Le démonstratif s'accorde avec le premier terme de l'annexion : {ar|بَيْتٌ} est masculin ({ar|هٰذَا}), {ar|حَدِيقَةٌ} est féminin ({ar|تِلْكَ})."
+    },
+    {
+      "id": "medine-t1.l07.practice-2#9",
+      "type": "order",
+      "fr": "Est-ce que cela est une mosquée ?",
+      "answers": [["أَذٰلِكَ", "مَسْجِدٌ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l07.practice-2#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Est-ce que cela est une mosquée ? Non. Cela est une école.",
+      "answers": ["أَذٰلِكَ مَسْجِدٌ؟ لَا. تِلْكَ مَدْرَسَةٌ."]
+    },
+    {
+      "id": "medine-t1.l07.practice-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est la maison du muezzin et cela est le jardin du commerçant.",
+      "answers": ["هٰذَا بَيْتُ الْمُؤَذِّنِ وَتِلْكَ حَدِيقَةُ التَّاجِرِ."]
+    }
+  ]
+}

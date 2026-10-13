@@ -1,0 +1,111 @@
+{
+  "id": "medine-t1.l07.vocab-1",
+  "type": "vocabulary",
+  "title": "À la ferme et au jardin",
+  "icon": "duck",
+  "screens": [
+    {
+      "id": "medine-t1.l07.vocab-1#1",
+      "type": "tip",
+      "title": "Les animaux de la ferme",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais déjà ces animaux. Voici trois mots de plus pour la ferme et le jardin."
+        },
+        { "type": "gallery", "items": ["w:dik", "w:dajaja", "w:baqara", "w:jamal"] }
+      ]
+    },
+    { "id": "medine-t1.l07.vocab-1#2", "type": "present", "item": "w:batta" },
+    { "id": "medine-t1.l07.vocab-1#3", "type": "present", "item": "w:bayda" },
+    {
+      "id": "medine-t1.l07.vocab-1#4",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:batta",
+      "distractors": ["w:dajaja", "w:dik"]
+    },
+    {
+      "id": "medine-t1.l07.vocab-1#5",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:bayda",
+      "distractors": ["w:batta", "w:baqara"]
+    },
+    { "id": "medine-t1.l07.vocab-1#6", "type": "present", "item": "w:hadiqa" },
+    {
+      "id": "medine-t1.l07.vocab-1#7",
+      "type": "tip",
+      "title": "Proche de, loin de",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Avec {ar|قَرِيبٌ} (proche) et {ar|بَعِيدٌ} (loin), on ajoute {ar|مِنْ} pour dire « de » : proche **de** la mosquée, loin **de** la maison."
+        },
+        {
+          "type": "example",
+          "ar": "الْحَدِيقَةُ قَرِيبَةٌ مِنَ الْمَسْجِدِ.",
+          "fr": "Le jardin est proche de la mosquée."
+        },
+        {
+          "type": "example",
+          "ar": "الْمَدْرَسَةُ بَعِيدَةٌ مِنَ الْبَيْتِ.",
+          "fr": "L'école est loin de la maison."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'adjectif s'accorde avec le nom : {ar|قَرِيبَةٌ} et {ar|بَعِيدَةٌ} prennent le {ar|ة}, car {ar|الْحَدِيقَةُ} et {ar|الْمَدْرَسَةُ} sont féminins. Avec l'article, {ar|مِنْ} devient {ar|مِنَ} (chapitre 4)."
+        },
+        {
+          "type": "note",
+          "text": "Avec {ar|بَعِيدٌ}, on trouve aussi la préposition {ar|عَنْ} (« loin de »), que tu verras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l07.vocab-1#8",
+      "type": "fill_gap",
+      "sentence": "الْحَدِيقَةُ {0} مِنَ الْمَسْجِدِ.",
+      "fr": "Le jardin est proche de la mosquée.",
+      "gaps": [ { "answers": ["قَرِيبَةٌ"] } ],
+      "options": ["قَرِيبَةٌ", "قَرِيبٌ", "بَعِيدَةٌ"],
+      "explain": "{ar|الْحَدِيقَةُ} est féminin : l'adjectif prend le {ar|ة}. « Proche » se dit {ar|قَرِيبٌ}."
+    },
+    {
+      "id": "medine-t1.l07.vocab-1#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:batta", "w:bayda", "w:hadiqa", "w:dajaja"]
+    },
+    { "id": "medine-t1.l07.vocab-1#10", "type": "build", "item": "w:bayda", "extra": ["ه"] },
+    {
+      "id": "medine-t1.l07.vocab-1#11",
+      "type": "memory",
+      "mode": "icon-ar",
+      "items": ["w:batta", "w:bayda", "w:dajaja", "w:dik", "w:baqara"]
+    },
+    {
+      "id": "medine-t1.l07.vocab-1#12",
+      "type": "fill_gap",
+      "sentence": "{0} بَيْضَةٌ.",
+      "fr": "Cela est un œuf.",
+      "gaps": [ { "answers": ["تِلْكَ"] } ],
+      "options": ["تِلْكَ", "ذٰلِكَ", "هٰذِهِ"],
+      "explain": "{ar|بَيْضَةٌ} est féminin et l'œuf est loin : {ar|تِلْكَ بَيْضَةٌ}."
+    },
+    {
+      "id": "medine-t1.l07.vocab-1#13",
+      "type": "order",
+      "fr": "Ceci est le canard de Zayd.",
+      "answers": [["هٰذِهِ", "بَطَّةُ", "زَيْدٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l07.vocab-1#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Est-ce que cela est une poule ? Non. Cela est un canard.",
+      "answers": ["أَتِلْكَ دَجَاجَةٌ؟ لَا. تِلْكَ بَطَّةٌ."]
+    }
+  ]
+}

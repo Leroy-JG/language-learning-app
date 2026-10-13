@@ -13,13 +13,34 @@
       "item": "w:kabir",
       "distractors": ["w:saghir", "w:jadid"]
     },
-    { "id": "medine-t1.l09.vocab-1#4", "type": "present", "item": "w:tawil" },
-    { "id": "medine-t1.l09.vocab-1#5", "type": "present", "item": "w:qasir" },
     {
-      "id": "medine-t1.l09.vocab-1#6",
+      "id": "medine-t1.l09.vocab-1#3b",
+      "type": "tip",
+      "title": "Grand, long, de grande taille",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|كَبِيرٌ} veut dire « grand, gros » : une grande maison, un gros livre. Tu as vu {ar|طَوِيلٌ} et {ar|قَصِيرٌ} au chapitre 7 : ils disent la longueur d'une chose, ou la taille d'une personne."
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Il dit…", "Exemple"],
+          "rows": [
+            ["{ar|كَبِيرٌ}", "la taille ou le volume d'une chose", "{ar|بَيْتٌ كَبِيرٌ} (une grande maison)"],
+            [
+              "{ar|طَوِيلٌ}",
+              "la longueur d'une chose, la taille d'une personne",
+              "{ar|رَجُلٌ طَوِيلٌ} (un homme de grande taille)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.vocab-1#6b",
       "type": "match",
       "mode": "ar-fr",
-      "items": ["w:kabir", "w:saghir", "w:tawil", "w:qasir"]
+      "items": ["w:kabir", "w:saghir", "w:jamil", "w:jadid"]
     },
     {
       "id": "medine-t1.l09.vocab-1#7",
@@ -50,7 +71,7 @@
       "type": "mcq",
       "mode": "fr-ar",
       "item": "w:tawil",
-      "distractors": ["w:qasir", "w:kabir"]
+      "distractors": ["w:saghir", "w:jadid"]
     },
     { "id": "medine-t1.l09.vocab-1#11", "type": "build", "item": "w:qasir", "extra": ["ك"] },
     {

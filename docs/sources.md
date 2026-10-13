@@ -11,7 +11,7 @@ Ils **ne sont pas dans le dépôt** : le dépôt est public, et l'auteur autoris
 interdit la modification et l'usage commercial de ses supports. Pour une nouvelle leçon, demander à
 l'utilisateur de joindre les PDF dans la conversation.
 
-Supports utilisés pour les leçons 1 à 6 :
+Supports utilisés pour les leçons 1 à 7 :
 - `TOME1-1-1.pdf` : introduction (nom, verbe, particule) et cours 1, partie 1 (هٰذَا).
 - `TOME1-1-2.pdf` : cours 1, partie 2 (interrogatifs أَ et مَا).
 - `TOME1-1-3.pdf` : cours 1, partie 3 (مَنْ).
@@ -23,6 +23,7 @@ Supports utilisés pour les leçons 1 à 6 :
 - `TOME1-5-2.pdf` : cours 5, partie 2 (interpellation, exercices 1, 2, 6, 7 et 8, vocabulaire nouveau).
 - `TOME1-6-1.pdf` : cours 6, partie 3 (démonstratif féminin هٰذِهِ, masculin et féminin, les trois signes du féminin, former le féminin avec ة, noms féminins sans signe, noms propres masculins avec signe, page du livre, exercices 1 à 4).
 - `TOME1-6-2.pdf` : cours 6, partie 2 (appartenance avec لِ, page du livre « لِمَنْ هٰذِهِ ؟ », vocabulaire nouveau avec singulier, pluriel et exemple) ; reprend aussi le schéma du genre et les exercices 3 et 4 du premier fichier.
+- `TOME1-7.pdf` : cours 7, partie 4 (« le féminin 2 ») : تِلْكَ, les noms démonstratifs (أَسْمَاءُ الْإِشَارَةِ) et الْمُشَارُ إِلَيْهِ, deux pages du livre (dialogues), exercice 1, vocabulaire nouveau.
 
 ## Ce qui est déjà enseigné (cumulatif)
 
@@ -113,8 +114,16 @@ Supports utilisés pour les leçons 1 à 6 :
 - le vocabulaire de la cuisine, de la ferme, du corps, de la famille et des adjectifs جَمِيلٌ سَرِيعٌ قَدِيمٌ مَرِيضٌ حَارٌّ, جِدًّا, أَيْضًا, الْحَمْدُ لِلَّهِ, الْمَشْرِقُ (voir `items.json`) ;
 - les pluriels : en -āt (دَرَّاجَاتٌ, أُمَّهَاتٌ, أَخَوَاتٌ), de forme longue (مَلَاعِقُ, نَوَافِذُ, مَشَارِقُ, مَكَاوٍ), autres pluriels brisés (قُدُورٌ, أَرْجُلٌ, آذَانٌ, أُنُوفٌ, سِرَاعٌ), en -ūna (فَلَّاحُونَ, مُسْلِمُونَ) et noms collectifs (بَقَرٌ, دَجَاجٌ).
 
+**Leçon 7** (`l07`) :
+- تِلْكَ (féminin, singulier, éloigné ; choses et personnes), مَا تِلْكَ ؟ / مَنْ تِلْكَ ؟ ; les quatre démonstratifs du singulier (proche / loin × masculin / féminin), leur invariabilité, le moyen de les retenir (هٰ au début = proche, كَ à la fin = loin) et le « lām de l'éloignement » / « kāf d'adresse » ;
+- اِسْمُ الْإِشَارَةِ (nom démonstratif) et الْمُشَارُ إِلَيْهِ (nom désigné), à ne pas confondre avec الْمُضَافُ إِلَيْهِ ;
+- la phrase « démonstratif + premier terme d'une annexion » (ذٰلِكَ مِفْتَاحُ السَّيَّارَةِ) et le démonstratif en fin de question (أَسَاعَةُ عَبَّاسٍ هٰذِهِ؟, rappel du chapitre 5) ; groupe (هٰذِهِ السَّيَّارَةُ) ou phrase (هٰذِهِ سَيَّارَةٌ) ;
+- قَرِيبٌ مِنْ / بَعِيدٌ مِنْ (avec مِنَ devant l'article), عَنْ seulement citée ; طَوِيلٌ / قَصِيرٌ et leur accord ; la forme مُفَعِّلٌ (مُدَرِّسٌ, مُمَرِّضٌ, مُؤَذِّنٌ : celui qui fait l'action) ;
+- le vocabulaire : بَطَّةٌ, بَيْضَةٌ, حَدِيقَةٌ, مُمَرِّضَةٌ, مُؤَذِّنٌ, طَوِيلٌ, قَصِيرٌ (voir `items.json`) ;
+- les pluriels : بَطٌّ et بَيْضٌ (noms collectifs), حَدَائِقُ, نُوقٌ, طِوَالٌ, قِصَارٌ, أَقْرِبَاءُ, بِعَادٌ (les trois derniers ajoutés aux mots قَرِيبٌ et بَعِيدٌ du chapitre 5 et à نَاقَةٌ du chapitre 6), مُمَرِّضَاتٌ, مُؤَذِّنُونَ.
+
 **Pas encore enseigné** (ne pas l'exiger dans un exercice) :
-- les démonstratifs pluriels, et تِلْكَ (seulement citée) ;
+- les démonstratifs pluriels ;
 - les autres pronoms (seuls هُوَ هِيَ أَنَا أَنْتَ sont vus) et les suffixes (صَدِيقِي, قَمِيصُكَ) ;
 - les cas du nom sont enseignés (damma, fatha, kasra), mais pas les fonctions (sujet, complément…) : le نَصْب n'est montré qu'après قَرَأْتُ ;
 - l'interpellation d'un nom annexé (يَا عَبْدَ اللَّهِ) ou avec أَيُّهَا ;
@@ -125,7 +134,7 @@ Supports utilisés pour les leçons 1 à 6 :
 - les verbes conjugués (sauf خَرَجَ et ذَهَبَ à la 3ᵉ personne du masculin singulier, et leurs formes citées) ;
 - مَاذَا.
 
-Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, et هٰذِهِ devant un nom marqué masculin (sauf si deux éléments de genres différents s'écrivent pareil sans harakat, comme رَجُلٌ et رِجْلٌ).
+Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, et هٰذِهِ ou تِلْكَ devant un nom marqué masculin (sauf si deux éléments de genres différents s'écrivent pareil sans harakat, comme رَجُلٌ et رِجْلٌ).
 
 ## Choix faits face aux supports
 
@@ -265,6 +274,35 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - les pluriels : آذَانٌ et la madda, les noms collectifs بَقَرٌ / دَجَاجٌ, مَكَاوٍ (son tanwin remplace le ي final), le pluriel en -ūna (« certains noms de personnes, au masculin », pas seulement des hommes), les pluriels de choses accordés comme un féminin singulier ;
   - le ت de بِنْتٌ et أُخْتٌ n'est pas un ة (il reste « t » à la pause) ; le féminin usuel de اِبْنٌ est بِنْتٌ (اِبْنَةٌ existe aussi) ; سِنٌّ (une dent) est féminin alors qu'il ne va pas par paire ; فَتًى et مَعْنًى (en ى) sont masculins ; سَمَاءٌ n'a pas de hamza du féminin ;
   - l'alif de l'article tombe après لِ parce que c'est un alif de liaison.
+
+### Leçon 7
+
+- **Pages du PDF reprises :**
+  - page du livre « مَنْ هٰذِهِ ؟ » (page 3) → `dialogue-1` et le début de `dialogue-2` (أَتِلْكَ دَجَاجَةٌ ؟ لَا. تِلْكَ بَطَّةٌ) ;
+  - page du livre « مَا تِلْكَ ؟ » (page 6) → `dialogue-2` (œuf, montres, voitures, coq et poule) et `practice-3` ;
+  - exercice 1 (sept phrases à lire et écrire) → `practice-2`, phrase par phrase (écran de lecture, texte à trous, remise en ordre, dictées) ;
+  - schémas du professeur (تِلْكَ : singulier, féminin, éloigné ; le tableau à quatre cases ; اِسْمُ الْإِشَارَةِ / الْمُشَارُ إِلَيْهِ) → `grammar-1`, `grammar-2`, `grammar-3` ;
+  - tableau de vocabulaire → `vocab-1`, `vocab-2`, `plurals-1`.
+- **Écarts avec les supports :**
+  - **بَطَّةٌ = « un canard »** : le PDF traduit « Oie ». En arabe, بَطٌّ (unité بَطَّةٌ) est le canard ; l'oie se dit إِوَزٌّ (unité إِوَزَّةٌ). L'image de la page du livre est celle d'un oiseau à bec plat. Écart signalé à l'utilisateur, à confirmer avec le professeur ; l'icône de l'app est un canard.
+  - **Phrase 5 de l'exercice 1** : le PDF écrit « هذه مدرسة وتلك طالبة » sans voyelles (alors que la phrase 1 est vocalisée). Elle est lue هٰذِهِ مُدَرِّسَةٌ وَتِلْكَ طَالِبَةٌ (une enseignante et une étudiante) ; هٰذِهِ مَدْرَسَةٌ est aussi possible. La dictée de `practice-2` ignore les harakat : les deux lectures y seraient acceptées.
+  - **Pluriels ajoutés à des mots d'un chapitre précédent** : أَقْرِبَاءُ (قَرِيبٌ) et بِعَادٌ (بَعِيدٌ) dans `l05/items.json`, نُوقٌ (نَاقَةٌ) dans `l06/items.json`, tous donnés par le tableau du PDF. أَقْرِبَاءُ s'emploie surtout pour des personnes (les proches).
+  - **جَنَّةٌ et حَدِيقَةٌ** : les deux sont traduits « un jardin ». La note de حَدِيقَةٌ le dit, et la dictée « des jardins » accepte حَدَائِقُ et جَنَّاتٌ.
+  - exemples du tableau remplacés quand ils emploient des mots ou des formes non enseignés : الدَّجَاجَةُ تَبِيضُ بَيْضَةً (verbe), الْمَدِينَةُ (non enseigné) ; on garde الْحَدِيقَةُ قَرِيبَةٌ مِنَ الْمَسْجِدِ, الْمَدْرَسَةُ بَعِيدَةٌ مِنَ الْبَيْتِ, هٰذِهِ بَطَّةُ زَيْدٍ, الْمُؤَذِّنُ فِي الْمَسْجِدِ, عُمَرُ طَوِيلٌ, فَاطِمَةُ قَصِيرَةٌ.
+  - **الْمُشَارُ إِلَيْهِ** : défini comme « le nom qui accompagne le démonstratif » (هٰذَا زَيْدٌ), comme dans le PDF ; la grammaire détaillée (خَبَر, بَدَل…) n'est pas enseignée.
+- **Traductions :** طَوِيلٌ = « grand (de taille), long » et قَصِيرٌ = « petit (de taille), court » (le PDF dit « grand » et « petit » ; une note prévient que « gros, important » se dit autrement) ; تِلْكَ = « cela, celle-là (féminin, loin) » ; « Ceci est » / « Cela est » distinguent le proche et le loin dans les exercices.
+- **Dialogues :** une voix féminine (Maryam) dans `dialogue-1`. Dans la scène « Qui est qui ? », on suppose que les phrases du PDF « هٰذِهِ طَبِيبَةٌ وَتِلْكَ مُمَرِّضَةٌ… » portent sur Āmina (proche) et Fāṭima (loin) ; l'introduction de la scène le dit.
+- **Validateur :** تِلْكَ ne peut plus précéder un nom marqué masculin ; la clé de comparaison des distracteurs (`distractorKey`) ramène aussi تلك à هذا (un QCM de traduction ne peut pas opposer deux phrases qui ne diffèrent que par le démonstratif).
+- **Nouvelles icônes** (OpenMoji) : duck (canard) et egg (œuf).
+- **`l06/grammar-1`** : la note « Tu le verras plus tard » devient « Tu le verras au chapitre 7 ».
+- **Relectures :** trois relecteurs indépendants (arabe et fidélité aux PDF, exercices, français et pédagogie), puis une relecture ciblée sur les corrections ; chaque remarque a été contrôlée avant correction. Corrigés notamment : « tous les adjectifs » → « la plupart », la dictée « des jardins » (جَنَّاتٌ), des questions de dialogue qui ne s'appuyaient pas sur la scène affichée, des traductions ambiguës (« cela » deux fois), des titres de parties.
+- **Explications ajoutées (données à l'oral, absentes des PDF) :**
+  - prononciation de تِلْكَ (« tilka », sans alif) et de ذٰلِكَ (ā long) ;
+  - les démonstratifs sont invariables ; هٰ au début = proche, كَ à la fin = loin ; le lām de l'éloignement et le kāf d'adresse ;
+  - le genre du nom décide entre ذٰلِكَ et تِلْكَ, la distance entre هٰذِهِ et تِلْكَ ;
+  - un nom de métier de forme مُ + shadda = « celui qui fait l'action » ; le muezzin lance l'appel à la prière (الْأَذَانُ) ;
+  - « grand » (gros, important) et « petit » se disent avec d'autres mots ; بَعِيدٌ عَنْ existe aussi ;
+  - groupe (هٰذِهِ السَّيَّارَةُ) ou phrase (هٰذِهِ سَيَّارَةٌ) ; حَدَائِقُ est de forme longue, أَقْرِبَاءُ de forme أَفْعِلَاءُ : sans tanwin.
 
 ## Audio
 

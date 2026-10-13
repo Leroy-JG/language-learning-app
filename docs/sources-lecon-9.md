@@ -31,12 +31,18 @@ La leçon 9 a été écrite sans connaître le contenu des leçons 7 et 8 : elle
 chapitres 1 à 6. Conséquences :
 - **Mots que le PDF suppose connus et qui ne sont pas dans son vocabulaire** : كَبِيرٌ, صَغِيرٌ, طَوِيلٌ,
   قَصِيرٌ, لُغَةٌ, الْعَرَبِيَّةُ, الْفَرَنْسِيَّةُ, مَدِينَةٌ, لَذِيذٌ (les pages du livre et les exercices les
-  emploient). Le chapitre 9 les présente lui-même.
-- **Si une leçon 7 ou 8 présente le même mot, il y aura un doublon d'id** (`w:…` est unique dans tout le
+  emploient). Le chapitre 9 présente lui-même ceux que les chapitres 1 à 7 n'ont pas déjà présentés.
+- **Fusion avec la leçon 7 (faite)** : طَوِيلٌ et قَصِيرٌ étaient aussi présentés au chapitre 7 (avec leurs
+  pluriels طِوَالٌ et قِصَارٌ) : le chapitre 9 ne les redéfinit plus. Dans `vocab-1`, leurs écrans de
+  présentation (#4 et #5) et le jeu d'association #6 ont été retirés (ids jamais réutilisés), et deux écrans
+  ont été ajoutés (#3b : كَبِيرٌ ou طَوِيلٌ ? ; #6b : association sans طَوِيلٌ ni قَصِيرٌ, car « grand, gros »
+  et « grand (de taille), long » seraient ambigus dans un même exercice). La phrase du livre
+  لِمَنْ تِلْكَ السَّيَّارَةُ الْجَمِيلَةُ ؟ est rétablie dans `dialogue-2`, تِلْكَ étant enseigné au chapitre 7.
+- **Si la leçon 8 présente le même mot, il y aura un doublon d'id** (`w:…` est unique dans tout le
   cours) : à la fusion, garder la définition du chapitre le plus ancien, supprimer l'autre dans
   `items.json` du chapitre 9, et vérifier que la présentation (`present`) du mot reste avant son
   premier emploi (`./gradlew -p core validateContent`).
-- `level.json` : `l09` est ajouté après `l06` ; à la fusion, l'ordre doit être `l07`, `l08`, `l09`.
+- `level.json` : `l09` est ajouté à la fin ; quand la leçon 8 arrivera, l'ordre doit être `l07`, `l08`, `l09`.
 
 ## Choix faits face au PDF
 
@@ -44,7 +50,7 @@ chapitres 1 à 6. Conséquences :
   (العربية لغة جميلة…) → `dialogue-3` ; page de la leçon (لِمَنْ … الْجَمِيلَةُ) → `dialogue-2` ;
   exercice 1 → `practice-5` ; exercices 2 et 3 → `practice-6` ; exercice 4 → `practice-4`.
 - **Phrases adaptées** (mot non enseigné remplacé) :
-  - تِلْكَ السَّيَّارَةُ → هٰذِهِ السَّيَّارَةُ (تِلْكَ n'est pas enseigné) ;
+  - لِمَنْ تِلْكَ السَّيَّارَةُ… : conservé dans `dialogue-2` (تِلْكَ est enseigné au chapitre 7) ; l'exercice `order` de la même activité emploie هٰذِهِ ;
   - مَنْ ذٰلِكَ الرَّجُلُ الطَّوِيلُ الَّذِي خَرَجَ… : la proposition relative (الَّذِي) est supprimée ;
   - ذَهَبَ إِلَى الْمَكْتَبَةِ → ذَهَبَ إِلَى الْبَيْتِ (مَكْتَبَةٌ non enseigné) ;
   - لِمَاذَا الْمُدَرِّسُ غَضْبَانُ الْيَوْمَ ؟ → الْمُدَرِّسُ غَضْبَانُ. (لِمَاذَا et الْيَوْمَ, accusatif, non
@@ -65,7 +71,7 @@ chapitres 1 à 6. Conséquences :
   - كُسَالَى, جِيَاعٌ, غِضَابٌ, عِطَاشٌ, مُجْتَهِدُونَ, فَوَاكِهُ, عَصَافِيرُ, مَرَاوِحُ, مُسْتَوْصَفَاتٌ, لُعَبٌ,
     أَيَّامٌ, أَكْوَابٌ : conservés tels que le PDF les donne (formes courantes).
 - **Mots ajoutés** (absents du tableau de vocabulaire, nécessaires aux phrases du livre) :
-  كَبِيرٌ, صَغِيرٌ, طَوِيلٌ, قَصِيرٌ, لُغَةٌ, الْعَرَبِيَّةُ, الْفَرَنْسِيَّةُ, مَدِينَةٌ, لَذِيذٌ, تُفَّاحٌ, مَلْآنُ,
+  كَبِيرٌ, صَغِيرٌ, لُغَةٌ, الْعَرَبِيَّةُ, الْفَرَنْسِيَّةُ, مَدِينَةٌ, لَذِيذٌ, تُفَّاحٌ, مَلْآنُ,
   النَّعْتُ, الْمَنْعُوتُ.
 - **Traductions** :
   - كَبِيرٌ = « grand, gros » et طَوِيلٌ = « long » (une personne طَوِيلٌ est « de grande taille ») : deux

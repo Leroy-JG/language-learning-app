@@ -41,10 +41,10 @@ object ArabicScript {
     fun lettersOnly(s: String): String = nfc(s).filter { isLetter(it) }
 
     /**
-     * Clé de comparaison des distracteurs d'un QCM : les lettres, avec ذلك et هذه ramenés à هذا. Deux textes
+     * Clé de comparaison des distracteurs d'un QCM : les lettres, avec ذلك, هذه et تلك ramenés à هذا. Deux textes
      * qui ne diffèrent que par le démonstratif (« c'est » dans les deux cas en français) ont la même clé.
      */
-    fun distractorKey(s: String): String = lettersOnly(s).replace("ذلك", "هذا").replace("هذه", "هذا")
+    fun distractorKey(s: String): String = lettersOnly(s).replace("ذلك", "هذا").replace("هذه", "هذا").replace("تلك", "هذا")
 
     /**
      * Problèmes d'un texte arabe du contenu (vide si le texte est correct) :

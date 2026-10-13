@@ -3,13 +3,5 @@
   "title": "Tome de Médine 1",
   "description": "Les bases de la langue : démonstratifs, questions, article, prépositions, annexion…",
   "source": "Durūs al-lugha al-ʿarabiyya li-ghayr al-nāṭiqīna bihā, tome 1",
-  "chapters": [
-    "l01",
-    "l02",
-    "l03",
-    "l04",
-    "l05",
-    "l06",
-    "l09"
-  ]
+  "chapters": ["l01", "l02", "l03", "l04", "l05", "l06", "l07", "l09"]
 }
