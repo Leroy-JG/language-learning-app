@@ -1,0 +1,88 @@
+{
+  "id": "medine-t1.l13.vocab-3",
+  "type": "vocabulary",
+  "title": "Tantes et professeure",
+  "icon": "girl",
+  "screens": [
+    { "id": "medine-t1.l13.vocab-3#1", "type": "present", "item": "w:khala" },
+    { "id": "medine-t1.l13.vocab-3#2", "type": "present", "item": "w:amma" },
+    {
+      "id": "medine-t1.l13.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:khala",
+      "distractors": ["w:khal", "w:amma"]
+    },
+    { "id": "medine-t1.l13.vocab-3#4", "type": "present", "item": "w:ustadha" },
+    {
+      "id": "medine-t1.l13.vocab-3#5",
+      "type": "tip",
+      "title": "Du masculin au féminin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais déjà les masculins de ces mots. Le féminin se forme avec le {ar|ة}, comme au chapitre 6."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "خَالٌ", "fr": "un oncle maternel" },
+              "to": { "ar": "خَالَةٌ", "fr": "une tante maternelle" }
+            },
+            {
+              "from": { "ar": "عَمٌّ", "fr": "un oncle paternel" },
+              "to": { "ar": "عَمَّةٌ", "fr": "une tante paternelle" }
+            },
+            {
+              "from": { "ar": "أُسْتَاذٌ", "fr": "un professeur" },
+              "to": { "ar": "أُسْتَاذَةٌ", "fr": "une professeure" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Avec le suffixe {ar|◌ِي} (« mon », « ma »), le {ar|ة} devient un {ar|ت} : {ar|خَالَتِي}, {ar|عَمَّتِي}, {ar|أُسْتَاذَتِي}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.vocab-3#6",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:amma",
+      "distractors": ["w:amm", "w:khala"]
+    },
+    {
+      "id": "medine-t1.l13.vocab-3#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:khal", "w:khala", "w:amm", "w:amma", "w:ustadha"]
+    },
+    {
+      "id": "medine-t1.l13.vocab-3#8",
+      "type": "fill_gap",
+      "sentence": "{0} فِي الْمَدِينَةِ.",
+      "fr": "Ma tante maternelle est en ville.",
+      "gaps": [ { "answers": ["خَالَتِي"] } ],
+      "options": ["خَالَتِي", "عَمَّتِي", "أُسْتَاذَتِي"],
+      "explain": "{ar|خَالَةٌ} + {ar|◌ِي} donne {ar|خَالَتِي}. {ar|عَمَّتِي} serait « ma tante paternelle »."
+    },
+    {
+      "id": "medine-t1.l13.vocab-3#9",
+      "type": "order",
+      "fr": "Ma professeure est à l'université.",
+      "answers": [["أُسْتَاذَتِي", "فِي", "الْجَامِعَةِ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.l13.vocab-3#10", "type": "typing", "ask": "fr", "item": "w:khala" },
+    {
+      "id": "medine-t1.l13.vocab-3#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ma tante paternelle est à la maison.",
+      "answers": ["عَمَّتِي فِي الْبَيْتِ."]
+    }
+  ]
+}

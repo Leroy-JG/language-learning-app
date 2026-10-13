@@ -1,0 +1,69 @@
+{
+  "id": "medine-t1.l13.vocab-1",
+  "type": "vocabulary",
+  "title": "Les gens",
+  "icon": "man",
+  "screens": [
+    { "id": "medine-t1.l13.vocab-1#1", "type": "present", "item": "w:nas" },
+    { "id": "medine-t1.l13.vocab-1#2", "type": "present", "item": "w:imraa" },
+    {
+      "id": "medine-t1.l13.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:imraa",
+      "distractors": ["w:nas", "w:fatat", "w:umm"]
+    },
+    { "id": "medine-t1.l13.vocab-1#4", "type": "present", "item": "w:hajj" },
+    { "id": "medine-t1.l13.vocab-1#5", "type": "present", "item": "w:alim" },
+    {
+      "id": "medine-t1.l13.vocab-1#6",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:hajj",
+      "distractors": ["w:muslim", "w:tajir"]
+    },
+    { "id": "medine-t1.l13.vocab-1#7", "type": "present", "item": "w:qawi" },
+    { "id": "medine-t1.l13.vocab-1#8", "type": "present", "item": "w:daif" },
+    {
+      "id": "medine-t1.l13.vocab-1#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:nas", "w:hajj", "w:alim", "w:qawi", "w:daif"]
+    },
+    {
+      "id": "medine-t1.l13.vocab-1#10",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ رَجُلٌ {0}.",
+      "fr": "Zayd est un homme fort.",
+      "gaps": [ { "answers": ["قَوِيٌّ"] } ],
+      "options": ["قَوِيٌّ", "ضَعِيفٌ", "جَدِيدٌ"],
+      "explain": "{ar|قَوِيٌّ} veut dire « fort » ; {ar|ضَعِيفٌ} veut dire « faible »."
+    },
+    {
+      "id": "medine-t1.l13.vocab-1#11",
+      "type": "order",
+      "fr": "La femme de Zayd est enseignante.",
+      "answers": [["اِمْرَأَةُ", "زَيْدٍ", "مُدَرِّسَةٌ"]],
+      "punctuation": ".",
+      "explain": "{ar|اِمْرَأَةُ زَيْدٍ} est une annexion : {ar|زَيْدٍ} est à la kasra, et {ar|اِمْرَأَةُ} n'a pas de tanwin."
+    },
+    { "id": "medine-t1.l13.vocab-1#12", "type": "build", "item": "w:imraa", "extra": ["ه"] },
+    {
+      "id": "medine-t1.l13.vocab-1#13",
+      "type": "fill_gap",
+      "sentence": "{0} فِي السُّوقِ.",
+      "fr": "Les gens sont au marché.",
+      "gaps": [ { "answers": ["النَّاسُ"] } ],
+      "options": ["النَّاسُ", "الْحَاجُّ", "الْمَرْأَةُ"],
+      "explain": "{ar|النَّاسُ} veut dire « les gens » : un pluriel, sans singulier."
+    },
+    { "id": "medine-t1.l13.vocab-1#14", "type": "typing", "ask": "fr", "item": "w:hajj" },
+    {
+      "id": "medine-t1.l13.vocab-1#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Cet homme-là est un grand savant.",
+      "answers": ["ذٰلِكَ الرَّجُلُ عَالِمٌ كَبِيرٌ."]
+    }
+  ]
+}

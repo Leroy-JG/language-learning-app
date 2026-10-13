@@ -1,0 +1,194 @@
+{
+  "id": "medine-t1.l13.grammar-2",
+  "type": "grammar",
+  "title": "Qui sont-ils ? Qui sont-elles ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l13.grammar-2#1",
+      "type": "tip",
+      "title": "Qui sont ceux-ci ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour demander qui sont **plusieurs personnes**, on garde {ar|مَنْ} (chapitre 1) et on ajoute le démonstratif du pluriel."
+        },
+        { "type": "example", "ar": "مَنْ هَؤُلَاءِ؟", "fr": "Qui sont ceux-ci ?" },
+        { "type": "example", "ar": "مَنْ أُولَئِكَ؟", "fr": "Qui sont ceux-là ?" }
+      ]
+    },
+    { "id": "medine-t1.l13.grammar-2#2", "type": "present", "item": "p:man-haulaa" },
+    { "id": "medine-t1.l13.grammar-2#3", "type": "present", "item": "p:man-ulaika" },
+    {
+      "id": "medine-t1.l13.grammar-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "p:man-haulaa",
+      "distractors": ["p:man-ulaika", "p:man-hadha"],
+      "explain": "{ar|مَنْ هَؤُلَاءِ؟} : « qui sont ceux-ci ? ». {ar|مَنْ أُولَئِكَ؟} serait « qui sont ceux-là ? », et {ar|مَنْ هٰذَا؟} « qui est-ce ? » (une seule personne)."
+    },
+    {
+      "id": "medine-t1.l13.grammar-2#5",
+      "type": "tip",
+      "title": "Répondre : {ar|هُمْ} ou {ar|هُنَّ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour répondre, on reprend les personnes avec un pronom isolé (chapitre 10) : {ar|هُمْ} pour des hommes (ou un groupe mixte), {ar|هُنَّ} pour des femmes. {ar|هَؤُلَاءِ} sert pour les deux, mais le pronom, lui, doit choisir."
+        },
+        {
+          "type": "example",
+          "ar": "مَنْ هَؤُلَاءِ الرِّجَالُ؟ هُمْ وُزَرَاءُ.",
+          "fr": "Qui sont ces hommes ? Ce sont des ministres."
+        },
+        {
+          "type": "example",
+          "ar": "مَنْ أُولَئِكَ النِّسَاءُ؟ هُنَّ أُمَّهَاتُ الطَّالِبَاتِ.",
+          "fr": "Qui sont ces femmes-là ? Ce sont les mères des étudiantes."
+        },
+        {
+          "type": "note",
+          "text": "Comme après {ar|هٰذَا}, le nom que l'on désigne prend l'article : {ar|هَؤُلَاءِ الرِّجَالُ} (ces hommes-ci), {ar|أُولَئِكَ النِّسَاءُ} (ces femmes-là). Sans article, c'est une phrase : {ar|هَؤُلَاءِ رِجَالٌ} (ceux-ci sont des hommes)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.grammar-2#6",
+      "type": "sort",
+      "categories": [ { "ar": "هُمْ" }, { "ar": "هُنَّ" } ],
+      "cards": [
+        { "ar": "أَطِبَّاءُ", "category": 0 },
+        { "ar": "مُدَرِّسَاتٌ", "category": 1 },
+        { "ar": "تُجَّارٌ", "category": 0 },
+        { "ar": "طَالِبَاتٌ", "category": 1 },
+        { "ar": "وُزَرَاءُ", "category": 0 },
+        { "ar": "أُمَّهَاتٌ", "category": 1 }
+      ],
+      "instruction": "Pour répondre à {ar|مَنْ هَؤُلَاءِ؟}, quel pronom reprend chacun de ces groupes ?",
+      "explain": "{ar|هُمْ} reprend des hommes ({ar|أَطِبَّاءُ}, {ar|تُجَّارٌ}, {ar|وُزَرَاءُ}). {ar|هُنَّ} reprend des femmes ({ar|مُدَرِّسَاتٌ}, {ar|طَالِبَاتٌ}, {ar|أُمَّهَاتٌ})."
+    },
+    {
+      "id": "medine-t1.l13.grammar-2#7",
+      "type": "tip",
+      "title": "L'adjectif se met aussi au pluriel",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand le nom désigne **plusieurs personnes**, l'adjectif se met au **pluriel** lui aussi. Tu connais déjà plusieurs de ces pluriels : {ar|جُدُدٌ}, {ar|طِوَالٌ}, {ar|قِصَارٌ}, {ar|كِبَارٌ}, {ar|صِغَارٌ}."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "طَالِبٌ جَدِيدٌ", "fr": "un nouvel étudiant" },
+              "to": { "ar": "طُلَّابٌ جُدُدٌ", "fr": "de nouveaux étudiants" }
+            },
+            {
+              "from": { "ar": "رَجُلٌ طَوِيلٌ", "fr": "un homme de grande taille" },
+              "to": { "ar": "رِجَالٌ طِوَالٌ", "fr": "des hommes de grande taille" }
+            },
+            {
+              "from": { "ar": "وَلَدٌ صَغِيرٌ", "fr": "un petit garçon" },
+              "to": { "ar": "أَوْلَادٌ صِغَارٌ", "fr": "de petits garçons" }
+            },
+            {
+              "from": { "ar": "فَتًى قَصِيرٌ", "fr": "un jeune homme de petite taille" },
+              "to": { "ar": "فِتْيَةٌ قِصَارٌ", "fr": "des jeunes gens de petite taille" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le pluriel brisé d'un adjectif sert en général pour les hommes comme pour les femmes : {ar|طَالِبَةٌ جَدِيدَةٌ} → {ar|طَالِبَاتٌ جُدُدٌ}. On peut aussi mettre l'adjectif au féminin pluriel : {ar|طَالِبَاتٌ جَدِيدَاتٌ}."
+        },
+        {
+          "type": "note",
+          "text": "L'adjectif a les mêmes sortes de pluriel que le nom : le pluriel brisé ({ar|جُدُدٌ}) ou, pour les adjectifs qui en ont un, le pluriel en {ar|◌ُونَ} pour les hommes ou un groupe mixte ({ar|مُجْتَهِدُونَ}) et en {ar|◌َاتٌ} pour les femmes ({ar|جَدِيدَاتٌ})."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Pour plusieurs **choses**, l'adjectif se met en général au féminin singulier : {ar|كُتُبٌ جَدِيدَةٌ} (de nouveaux livres)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.grammar-2#8",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « de nouveaux étudiants » ?" },
+      "choices": [ { "ar": "طُلَّابٌ جُدُدٌ" }, { "ar": "طُلَّابٌ جَدِيدٌ" }, { "ar": "طَالِبٌ جُدُدٌ" } ],
+      "answer": 0,
+      "explain": "Le nom est au pluriel ({ar|طُلَّابٌ}) : l'adjectif aussi, {ar|جُدُدٌ}."
+    },
+    {
+      "id": "medine-t1.l13.grammar-2#9",
+      "type": "fill_gap",
+      "sentence": "هَؤُلَاءِ الرِّجَالُ {0}.",
+      "fr": "Ces hommes-ci sont grands.",
+      "gaps": [ { "answers": ["طِوَالٌ"] } ],
+      "options": ["طِوَالٌ", "طَوِيلٌ", "طَوِيلَةٌ"],
+      "explain": "{ar|الرِّجَالُ} est un pluriel : l'adjectif est au pluriel, {ar|طِوَالٌ}."
+    },
+    {
+      "id": "medine-t1.l13.grammar-2#10",
+      "type": "tip",
+      "title": "Leurs noms, leur maison",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais les pronoms affixes (chapitre 10). Au pluriel, {ar|هُمْ} veut dire « leur » (à eux) et {ar|هُنَّ} « leur » (à elles). Ils se collent au nom, qui perd son tanwin."
+        },
+        {
+          "type": "breakdown",
+          "ar": "أَسْمَاؤُهُمْ",
+          "fr": "leurs noms (à eux)",
+          "parts": [ { "ar": "أَسْمَاؤُ", "fr": "noms" }, { "ar": "هُمْ", "fr": "leur (à eux)" } ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "بَيْتُهُنَّ",
+          "fr": "leur maison (à elles)",
+          "parts": [ { "ar": "بَيْتُ", "fr": "maison" }, { "ar": "هُنَّ", "fr": "leur (à elles)" } ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Après une kasra ou un {ar|ي}, le {ar|هُ} devient {ar|هِ} : {ar|فِي بَيْتِهِمْ}, {ar|عَلَيْهِنَّ}."
+        }
+      ]
+    },
+    { "id": "medine-t1.l13.grammar-2#11", "type": "present", "item": "w:bad" },
+    {
+      "id": "medine-t1.l13.grammar-2#12",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ الطُّلَّابُ الْجُدُدُ؟ {0} فِي الْفَصْلِ وَبَعْضُهُمْ عِنْدَ الْمُدِيرِ.",
+      "fr": "Où sont les nouveaux étudiants ? Certains sont en classe et d'autres chez le directeur.",
+      "gaps": [ { "answers": ["بَعْضُهُمْ"] } ],
+      "options": ["بَعْضُهُمْ", "بَعْضُهُنَّ", "بَعْضُهُ"],
+      "explain": "{ar|الطُّلَّابُ} est un pluriel masculin : {ar|هُمْ}. {ar|بَعْضُهُنَّ} serait « certaines d'entre elles »."
+    },
+    {
+      "id": "medine-t1.l13.grammar-2#13",
+      "type": "order",
+      "fr": "Leur maison (à elles) est près de l'école.",
+      "answers": [["بَيْتُهُنَّ", "قَرِيبٌ", "مِنَ", "الْمَدْرَسَةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l13.grammar-2#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ce sont des étudiants studieux.",
+      "answers": ["هُمْ طُلَّابٌ مُجْتَهِدُونَ.", "هَؤُلَاءِ طُلَّابٌ مُجْتَهِدُونَ."]
+    },
+    {
+      "id": "medine-t1.l13.grammar-2#15",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ هَؤُلَاءِ الرِّجَالُ؟",
+      "answers": ["هُمْ وُزَرَاءُ.", "هَؤُلَاءِ وُزَرَاءُ.", "وُزَرَاءُ."],
+      "fr": "Ce sont des ministres.",
+      "instruction": "Réponds : ce sont des ministres."
+    }
+  ]
+}

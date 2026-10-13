@@ -36,6 +36,8 @@ Support utilisé pour la leçon 11 (`l11`) : `TOME1-11.pdf` (17 pages) : `الْ
 
 Support utilisé pour la leçon 12 (`l12`) : `TOME1-12.pdf` (13 pages) : `أَسْمَاءُ الِاسْتِفْهَامِ` (schéma des quatre noms interrogatifs, `كَيْفَ`), `عَلَامَةُ التَّأْنِيثِ فِي الْفِعْلِ الْمَاضِي` (le `تْ` du féminin), page du livre (dialogue de Suʿād et d'une jeune fille, deux pages), exercices 1 à 5, vocabulaire nouveau.
 
+Support utilisé pour la leçon 13 (`l13`) : `TOME1-13.pdf` (19 pages) : `أَسْمَاءُ الْإِشَارَةِ` (schéma des démonstratifs du singulier et du lieu), `هَؤُلَاءِ` et `أُولَئِكَ` (pluriel, proche et loin), leur prononciation, deux pages du livre (dialogues « الْفِتْيَةُ الطِّوَالُ » et « الْفَتَيَاتُ »), page « ج », exercices 1 à 5, vocabulaire nouveau.
+
 ## Ce qui est déjà enseigné (cumulatif)
 
 **Leçon 1** (`l01`) :
@@ -190,13 +192,21 @@ Support utilisé pour la leçon 12 (`l12`) : `TOME1-12.pdf` (13 pages) : `أَس
 - le dialogue du livre (deux activités) et les exercices 1 à 5 ;
 - seulement **aperçus** (astuce « Des petites formes à repérer », rien n'est exigé en exercice) : `الَّتِي` et `الَّذِي` (« qui, que »), `بِالْجَامِعَةِ`.
 
+**Leçon 13** (`l13`) : les démonstratifs du pluriel :
+- `الْمُفْرَدُ` (le singulier) et `الْجَمْعُ` (le pluriel) ; `هَؤُلَاءِ` (proche) et `أُولَئِكَ` (loin) : un seul mot pour le masculin et le féminin, pour des **personnes** (pour des choses, `هٰذِهِ` / `تِلْكَ` en général) ; invariables ; prononciation `hāʾulāʾi` (ā long non noté) et `ulāʾika` (le `و` muet) ; le tableau complet des démonstratifs ; groupe (`هَؤُلَاءِ الطُّلَّابُ`) ou phrase (`هَؤُلَاءِ طُلَّابٌ`) ;
+- `مَنْ هَؤُلَاءِ؟` / `مَنْ أُولَئِكَ؟`, la réponse avec `هُمْ` (hommes, groupe mixte) ou `هُنَّ` (femmes) ;
+- l'adjectif d'un pluriel de personnes se met au pluriel (`طُلَّابٌ جُدُدٌ`, `الْفِتْيَةُ الطِّوَالُ`), le même pluriel brisé pour les deux genres ; pour des choses, en général le féminin singulier (`كُتُبٌ جَدِيدَةٌ`) ;
+- `ـهُمْ` / `ـهُنَّ` collés au nom (`أَسْمَاؤُهُمْ`, `بَيْتُهُنَّ`), `بَعْضُهُمْ` ;
+- vocabulaire : `نَاسٌ` `اِمْرَأَةٌ` `عَالِمٌ` `حَاجٌّ` `قَوِيٌّ` `ضَعِيفٌ` `قَرْيَةٌ` `حَقْلٌ` `مَطْعَمٌ` `مَلْعَبٌ` `الِابْتِدَائِيَّةُ` `خَالَةٌ` `عَمَّةٌ` `أُسْتَاذَةٌ` `بَعْضٌ` ; pluriels `نِسَاءٌ` `عُلَمَاءُ` `حُجَّاجٌ` `أَقْوِيَاءُ` `ضِعَافٌ` `قُرًى` `حُقُولٌ` `مَطَاعِمُ` `مَلَاعِبُ` `خَالَاتٌ` `عَمَّاتٌ` (et `زَمِيلَاتٌ` ajouté à `زَمِيلَةٌ`, chapitre 12) ;
+- les deux dialogues du livre, la page « ج », les exercices 1 à 5 ;
+- seulement **aperçu** (astuce du dialogue 1, rien n'est exigé en exercice) : `ذَهَبُوا` (« ils sont allés »).
+
 **Pas encore enseigné** (ne pas l'exiger dans un exercice) :
-- les démonstratifs pluriels ;
 - les pronoms affixes du nominatif et de l'accusatif (ils s'attachent aux verbes) et les pronoms isolés de l'accusatif (`إِيَّاكَ`) ;
 - les cas du nom et leurs fonctions : le sujet, le prédicat, le sujet du verbe, l'adverbe, le second terme d'annexion et le nom après une préposition sont vus (leçon 8) ; pas le complément d'objet : le نَصْب n'est montré qu'avec les adverbes et après قَرَأْتُ (et, sans exercice, dans les dialogues de la révision 1 et dans les phrases `أُحِبُّ …` de la leçon 11) ;
 - l'interpellation d'un nom annexé (يَا عَبْدَ اللَّهِ) ou avec أَيُّهَا ;
 - l'annexion « d'apparence » (الضَّارِبُ الرَّجُلِ) ;
-- le pluriel des adjectifs : seuls quelques-uns sont vus (سِرَاعٌ, ceux des chapitres 9 et de la révision 1) ;
+- le pluriel des adjectifs : l'accord avec un pluriel de personnes est vu au chapitre 13 ; le duel et les pluriels sains des adjectifs ne sont pas enseignés ;
 - les autres prépositions (`بِ` et `عَنْ` ne sont qu'aperçues ; `مَعَ` est enseigné au chapitre 10) ;
 - les verbes conjugués (sauf les verbes cités au passé à la 3ᵉ personne du masculin singulier — chapitres 4 et 8, révision 1 — et leurs formes citées) ;
 
@@ -569,6 +579,41 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - salutation complète et réponse « par la même formule ou une meilleure » (sourate 4, verset 86) ;
   - `الرِّيَاضُ` est le pluriel de `رَوْضَةٌ` (« jardin ») ; `الْمُتَوَسِّطَةُ` : cycle entre l'école primaire et le lycée dans le système saoudien ; `مُوَجِّهٌ` vient de `وَجَّهَ` ; `سَلَامٌ` et `مُسْلِمٌ` de la même famille.
 - **Nouvelle icône :** `tree` (OpenMoji 1F333).
+
+### Leçon 13 (`l13`)
+
+- **Support :** un seul PDF de 19 pages (cours 13 : schéma des démonstratifs, `هَؤُلَاءِ`, `أُولَئِكَ`, prononciation, deux pages du livre, page « ج », exercices 1 à 5, vocabulaire nouveau).
+- **Exercices du livre repris :**
+  - page (أ) (« الْفِتْيَةُ الطِّوَالُ ») → `dialogue-1` ; page (ب) (« الْفَتَيَاتُ ») → `dialogue-2` ;
+  - page « ج » → `practice-3` (lecture, puis exercices) ;
+  - exercice 1 (mettre le sujet au pluriel, première série) → `practice-1` et `practice-2` ; pluriels du vocabulaire et des listes du livre → `practice-2` (association singulier / pluriel, tri en -ūna / brisé) et `plurals-1` ;
+  - exercice 5 (lire et écrire) → `practice-4`, phrase par phrase.
+  - schéma du professeur (singulier proche / loin, masculin, féminin, lieu ; pluriel proche / loin) → `recap` et `grammar-1` ; tableau de vocabulaire → `vocab-1` à `vocab-3`, `plurals-1`.
+- **Écarts avec le PDF :**
+  - `تُرْكِيَا` (exercice 5, phrase 3) → `الصِّينِ` ; la fin de la phrase 10 (`مِنَ الْمَمْلَكَةِ الْعَرَبِيَّةِ السُّعُودِيَّةِ`) est omise : ces mots ne sont pas enseignés ;
+  - exemples du vocabulaire remplacés : `خَيْرُ النَّاسِ الْمُسْلِمُونَ` → `النَّاسُ فِي السُّوقِ` (exemple neutre) ; `الْعُلَمَاءُ فِي السُّعُودِيَّةِ` → `ذٰلِكَ الرَّجُلُ عَالِمٌ كَبِيرٌ` ; `يَسْكُنُ` (présent, non enseigné) → `سَكَنَ` ; `يُحِبُّ زَيْدٌ طَعَامَ الْمَطْعَمِ` → `ذَهَبَ زَيْدٌ إِلَى الْمَطْعَمِ` ; `رَجَعَ الْحُجَّاجُ إِلَى بَلَدِهِمْ` → `الْحُجَّاجُ فِي مَكَّةَ` ; `فِي الْمَدْرَسَةِ مَلْعَبُ الْكُرَةِ` → `الْكُرَةُ فِي الْمَلْعَبِ` ;
+  - exercice 1 : seules les phrases 2, 3, 5, 6, 7 et 10 sont reprises (`practice-2`) ; la phrase 4 (`إِنْكِلْتِرَا`) n'est pas reprise non plus, et les phrases 1, 8 et 9 sont laissées de côté (même structure ; la phrase 9, `الطَّالِبَةِ`, a un pluriel ambigu) ; les listes de noms des pages suivantes ne sont pas reprises phrase par phrase (la liste des pluriels est travaillée par association et par tri) ;
+  - `ذَهَبُوا` (dialogue 1 et exercice 5, phrase 4) : verbe non enseigné, cité seulement ;
+  - `هَؤُلَاءِ` : écrit comme dans le PDF (fatha sur le `هـ`) ; la variante `هٰؤُلَاءِ` (avec petit alif) est mentionnée ;
+  - `بِلَالٌ` : avec tanwin (nom variable), comme les autres prénoms du cours ; `أَسْمَاؤُهُمْ: يَاسِرٌ …` : prénoms avec tanwin.
+- **Mots ajoutés (absents de la liste du PDF, mais employés par ses textes) :** `أُسْتَاذَةٌ` (dialogue B), `خَالَةٌ` et `عَمَّةٌ` (page « ج »), `بَعْضٌ` (dialogue A et exercice 5) ; `الْمُفْرَدُ` et `الْجَمْعُ` (termes des schémas du professeur) ; `زَمِيلَاتٌ` ajouté comme pluriel de `زَمِيلَةٌ` (`l12/items.json`).
+- **Choix de contenu :**
+  - `نَاسٌ` : pas de `gender` (pluriel sans singulier de même forme) ; `قَوِيٌّ` et `ضَعِيفٌ` : adjectifs, pas de genre ;
+  - `ضَعِيفٌ` : pluriel principal `ضِعَافٌ`, avec `ضُعَفَاءُ` en note (les deux sont dans le PDF) ;
+  - `اِمْرَأَةٌ` : pluriel `نِسَاءٌ` (autre racine), alif de liaison, `الْمَرْأَةُ` avec l'article ;
+  - `الِابْتِدَائِيَّةُ` : adjectif employé comme nom (on sous-entend `الْمَدْرَسَةُ`) ;
+  - `مَلْعَبٌ` : « un terrain de jeu » (le PDF : « terrain de jeu »)  ;
+  - les démonstratifs du pluriel ne sont donnés que pour des personnes ; la règle « pour des choses : `هٰذِهِ` / `تِلْكَ` » est dite « en général » et aucun exercice ne l'exige de façon exclusive ;
+  - le `fr` des exercices précise toujours « -ci » / « -là » (`هَؤُلَاءِ` / `أُولَئِكَ` se traduisent tous deux « ces ») ; « mes oncles paternels » (`أَعْمَامِي`, car `خَالٌ` est aussi « oncle »).
+- **Explications ajoutées (données à l'oral, absentes du PDF) :**
+  - prononciation de `هَؤُلَاءِ` (ā long non noté, variante `هٰؤُلَاءِ`) et de `أُولَئِكَ` (`و` muet) ;
+  - les deux démonstratifs du pluriel sont invariables : après une préposition, c'est le nom qui prend la kasra ;
+  - groupe ou phrase (`هَؤُلَاءِ الرِّجَالُ` / `هَؤُلَاءِ رِجَالٌ`) ;
+  - pour des choses, en général `هٰذِهِ` / `تِلْكَ` (le PDF de la leçon 3 cite `هٰذِهِ كُتُبٌ`) ;
+  - l'adjectif d'un pluriel de personnes au pluriel, pluriel brisé commun aux deux genres (aussi le féminin pluriel sain) ; pour des choses, féminin singulier (en général) ;
+  - `بَعْضٌ` toujours suivi d'un second terme ; `عَالِمٌ` / `عَالَمٌ` ; `حَاجٌّ` vient de `الْحَجُّ` ; `مَطْعَمٌ` / `طَعَامٌ`, `مَلْعَبٌ` / `لُعْبَةٌ` ; `نِسَاءٌ` d'une autre racine ; formes longues sans tanwin (`عُلَمَاءُ`, `أَقْوِيَاءُ`, `مَطَاعِمُ`, `مَلَاعِبُ`).
+- **Notes mises à jour dans les chapitres précédents :** `l07/grammar-2` (« tu les verras au chapitre 13 ») et `l09/grammar-2` (l'accord avec un pluriel de personnes viendra au chapitre 13).
+- **Pas de nouvelle icône.**
 
 ## Audio
 

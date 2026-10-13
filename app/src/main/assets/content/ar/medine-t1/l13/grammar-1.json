@@ -1,0 +1,167 @@
+{
+  "id": "medine-t1.l13.grammar-1",
+  "type": "grammar",
+  "title": "Ceux-ci, ceux-là",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l13.grammar-1#1",
+      "type": "tip",
+      "title": "Un seul ou plusieurs ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Jusqu'ici, tu as montré **un seul** être ou **une seule** chose : c'est le **singulier**, {ar|الْمُفْرَدُ}. Pour en montrer **plusieurs**, on parle du **pluriel**, {ar|الْجَمْعُ}."
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "En arabe", "Exemple"],
+          "rows": [
+            ["singulier", "{ar|الْمُفْرَدُ}", "{ar|طَالِبٌ} (un étudiant)"],
+            ["pluriel", "{ar|الْجَمْعُ}", "{ar|طُلَّابٌ} (des étudiants)"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|الْجَمْعُ} désigne trois êtres ou plus. Pour deux, l'arabe a une forme à part, le duel ({ar|الْمُثَنَّى}), avec ses propres démonstratifs : tu les verras plus tard."
+        }
+      ]
+    },
+    { "id": "medine-t1.l13.grammar-1#2", "type": "present", "item": "w:mufrad" },
+    { "id": "medine-t1.l13.grammar-1#3", "type": "present", "item": "w:jam" },
+    {
+      "id": "medine-t1.l13.grammar-1#4",
+      "type": "tip",
+      "title": "Montrer plusieurs personnes : {ar|هَؤُلَاءِ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour montrer **plusieurs personnes proches**, l'arabe a un seul mot : {ar|هَؤُلَاءِ} (« ceux-ci, celles-ci »). Il sert pour des hommes comme pour des femmes."
+        },
+        { "type": "example", "ar": "هَؤُلَاءِ طُلَّابٌ.", "fr": "Ceux-ci sont des étudiants." },
+        { "type": "example", "ar": "هَؤُلَاءِ طَالِبَاتٌ.", "fr": "Celles-ci sont des étudiantes." },
+        {
+          "type": "note",
+          "text": "On l'écrit {ar|هَؤُلَاءِ}, mais on dit « hāʾulāʾi » : il y a un ā long après le {ar|هَ}, qui n'est pas noté. (Dans {ar|هٰذَا}, ce ā long est noté par le petit alif.) Dans certains livres, tu le verras noté aussi : {ar|هٰؤُلَاءِ}. C'est le même mot."
+        }
+      ]
+    },
+    { "id": "medine-t1.l13.grammar-1#5", "type": "present", "item": "w:haulaa" },
+    {
+      "id": "medine-t1.l13.grammar-1#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:haulaa",
+      "distractors": ["w:hadhihi", "w:hum"],
+      "explain": "{ar|هَؤُلَاءِ} montre plusieurs personnes proches. {ar|هٰذِهِ} en montre une seule, et {ar|هُمْ} est un pronom (« ils »)."
+    },
+    {
+      "id": "medine-t1.l13.grammar-1#7",
+      "type": "tip",
+      "title": "Plus loin : {ar|أُولَئِكَ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour montrer **plusieurs personnes éloignées**, on dit {ar|أُولَئِكَ} (« ceux-là, celles-là »). Là encore, un seul mot sert pour les hommes et pour les femmes."
+        },
+        { "type": "example", "ar": "أُولَئِكَ طُلَّابٌ.", "fr": "Ceux-là sont des étudiants." },
+        { "type": "example", "ar": "أُولَئِكَ طَالِبَاتٌ.", "fr": "Celles-là sont des étudiantes." },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "On l'écrit {ar|أُولَئِكَ}, mais on dit « ulāʾika » : le {ar|و} est écrit et ne se prononce pas. Il reste muet."
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Comme au singulier : ce qui est proche commence par le {ar|ه} ({ar|هَؤُلَاءِ}), ce qui est loin finit par le {ar|ك} ({ar|أُولَئِكَ})."
+        }
+      ]
+    },
+    { "id": "medine-t1.l13.grammar-1#8", "type": "present", "item": "w:ulaika" },
+    { "id": "medine-t1.l13.grammar-1#9", "type": "build", "item": "w:ulaika", "extra": ["ي", "إ"] },
+    {
+      "id": "medine-t1.l13.grammar-1#10",
+      "type": "tip",
+      "title": "Le tableau des démonstratifs",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Distance", "Singulier masculin", "Singulier féminin", "Pluriel"],
+          "rows": [
+            ["**proche**", "{ar|هٰذَا}", "{ar|هٰذِهِ}", "{ar|هَؤُلَاءِ}"],
+            ["**loin**", "{ar|ذٰلِكَ}", "{ar|تِلْكَ}", "{ar|أُولَئِكَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Au pluriel, il n'y a qu'**un seul** mot pour le masculin et le féminin : seule la distance compte."
+        },
+        {
+          "type": "note",
+          "text": "Comme {ar|هٰذَا} et {ar|ذٰلِكَ}, ces deux démonstratifs ne changent jamais de forme, quel que soit leur rôle dans la phrase. Après une préposition, c'est le nom qui prend la kasra : {ar|مِنْ هَؤُلَاءِ الرِّجَالِ} (de ces hommes-ci)."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "{ar|هَؤُلَاءِ} et {ar|أُولَئِكَ} servent pour des **personnes**. Pour plusieurs choses ou plusieurs animaux, on emploie en général {ar|هٰذِهِ} (proche) ou {ar|تِلْكَ} (loin), comme dans {ar|هٰذِهِ كُتُبٌ} (ce sont des livres)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.grammar-1#11",
+      "type": "sort",
+      "categories": [ { "fr": "un seul (singulier)" }, { "fr": "plusieurs (pluriel)" } ],
+      "cards": [
+        { "ar": "هٰذَا", "category": 0 },
+        { "ar": "هَؤُلَاءِ", "category": 1 },
+        { "ar": "تِلْكَ", "category": 0 },
+        { "ar": "أُولَئِكَ", "category": 1 },
+        { "ar": "هٰذِهِ", "category": 0 },
+        { "ar": "ذٰلِكَ", "category": 0 }
+      ],
+      "instruction": "Range chaque démonstratif : montre-t-il un seul être ou plusieurs ?",
+      "explain": "Au pluriel : {ar|هَؤُلَاءِ} (proche) et {ar|أُولَئِكَ} (loin). Les quatre autres montrent un seul être."
+    },
+    {
+      "id": "medine-t1.l13.grammar-1#12",
+      "type": "fill_gap",
+      "sentence": "{0} طُلَّابٌ جُدُدٌ.",
+      "fr": "Ceux-ci sont de nouveaux étudiants.",
+      "gaps": [ { "answers": ["هَؤُلَاءِ"] } ],
+      "options": ["هَؤُلَاءِ", "أُولَئِكَ", "هٰذَا"],
+      "explain": "Plusieurs personnes proches : {ar|هَؤُلَاءِ}. {ar|أُولَئِكَ} serait « ceux-là », et {ar|هٰذَا} ne montre qu'un seul être."
+    },
+    {
+      "id": "medine-t1.l13.grammar-1#13",
+      "type": "fill_gap",
+      "sentence": "{0} طَالِبَاتٌ مِنَ الْهِنْدِ.",
+      "fr": "Celles-là sont des étudiantes d'Inde.",
+      "gaps": [ { "answers": ["أُولَئِكَ"] } ],
+      "options": ["أُولَئِكَ", "هَؤُلَاءِ", "تِلْكَ"],
+      "explain": "Plusieurs personnes éloignées, des femmes : {ar|أُولَئِكَ} (le même mot que pour des hommes)."
+    },
+    {
+      "id": "medine-t1.l13.grammar-1#14",
+      "type": "order",
+      "fr": "Ceux-ci sont des médecins.",
+      "answers": [["هَؤُلَاءِ", "أَطِبَّاءُ"]],
+      "punctuation": ".",
+      "explain": "{ar|هَؤُلَاءِ} (ceux-ci) puis {ar|أَطِبَّاءُ} (des médecins) : il n'y a pas de verbe « être »."
+    },
+    {
+      "id": "medine-t1.l13.grammar-1#15",
+      "type": "true_false",
+      "statement": { "fr": "On emploie {ar|هَؤُلَاءِ} pour montrer plusieurs personnes, hommes ou femmes." },
+      "answer": true,
+      "explain": "Un seul mot pour les deux genres : {ar|هَؤُلَاءِ طُلَّابٌ} (des étudiants) et {ar|هَؤُلَاءِ طَالِبَاتٌ} (des étudiantes)."
+    },
+    {
+      "id": "medine-t1.l13.grammar-1#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Celles-là sont des étudiantes.",
+      "answers": ["أُولَئِكَ طَالِبَاتٌ."]
+    }
+  ]
+}

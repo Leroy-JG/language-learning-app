@@ -1,0 +1,148 @@
+{
+  "id": "medine-t1.l13.practice-3",
+  "type": "grammar",
+  "title": "Ceux-ci, ceux-là : lis",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l13.practice-3#1",
+      "type": "tip",
+      "title": "Lis les phrases (1)",
+      "blocks": [
+        {
+          "type": "example",
+          "ar": "هَؤُلَاءِ إِخْوَتِي وَأُولَئِكَ أَصْدِقَائِي.",
+          "fr": "Ceux-ci sont mes frères et ceux-là sont mes amis."
+        },
+        {
+          "type": "example",
+          "ar": "مَنْ أُولَئِكَ الرِّجَالُ الطِّوَالُ؟ هُمْ أَطِبَّاءُ مِنْ أَمْرِيكَا.",
+          "fr": "Qui sont ces hommes de grande taille ? Ce sont des médecins d'Amérique."
+        },
+        {
+          "type": "example",
+          "ar": "آبَاءُ الطُّلَّابِ عِنْدَ الْمُدِيرِ.",
+          "fr": "Les pères des étudiants sont chez le directeur."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.practice-3#2",
+      "type": "fill_gap",
+      "sentence": "هَؤُلَاءِ إِخْوَتِي وَ{0} أَصْدِقَائِي.",
+      "fr": "Ceux-ci sont mes frères et ceux-là sont mes amis.",
+      "gaps": [ { "answers": ["أُولَئِكَ"] } ],
+      "options": ["أُولَئِكَ", "هَؤُلَاءِ", "ذٰلِكَ"],
+      "explain": "« Ceux-là » : {ar|أُولَئِكَ}."
+    },
+    {
+      "id": "medine-t1.l13.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "مَنْ أُولَئِكَ {0}؟",
+      "fr": "Qui sont ces femmes-là ?",
+      "gaps": [ { "answers": ["النِّسَاءُ"] } ],
+      "options": ["النِّسَاءُ", "الرِّجَالُ", "الْأَوْلَادُ"],
+      "explain": "{ar|النِّسَاءُ} veut dire « les femmes » ; {ar|الرِّجَالُ}, « les hommes »."
+    },
+    {
+      "id": "medine-t1.l13.practice-3#4",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la bonne réponse à {ar|مَنْ أُولَئِكَ النِّسَاءُ؟} ?" },
+      "choices": [
+        { "ar": "هُنَّ أُمَّهَاتُ الطَّالِبَاتِ." },
+        { "ar": "هُمْ أَطِبَّاءُ مِنْ أَمْرِيكَا." },
+        { "ar": "هُوَ طَبِيبٌ." }
+      ],
+      "answer": 0,
+      "explain": "On parle de femmes : le pronom est {ar|هُنَّ}, et {ar|أُمَّهَاتُ الطَّالِبَاتِ} veut dire « les mères des étudiantes »."
+    },
+    {
+      "id": "medine-t1.l13.practice-3#5",
+      "type": "tip",
+      "title": "Lis les phrases (2)",
+      "blocks": [
+        {
+          "type": "example",
+          "ar": "أَأُولَئِكَ النِّسَاءُ خَالَاتُكِ يَا مَرْيَمُ؟ لَا. هُنَّ عَمَّاتِي.",
+          "fr": "Ces femmes-là sont-elles tes tantes maternelles, Maryam ? Non. Ce sont mes tantes paternelles."
+        },
+        {
+          "type": "example",
+          "ar": "هَؤُلَاءِ أَطِبَّاءُ وَأُولَئِكَ مُهَنْدِسُونَ.",
+          "fr": "Ceux-ci sont des médecins et ceux-là sont des ingénieurs."
+        },
+        {
+          "type": "example",
+          "ar": "هَؤُلَاءِ الرِّجَالُ فُقَرَاءُ وَأُولَئِكَ أَغْنِيَاءُ.",
+          "fr": "Ces hommes-ci sont pauvres et ceux-là sont riches."
+        },
+        { "type": "example", "ar": "أُولَئِكَ الطُّلَّابُ ضِعَافٌ.", "fr": "Ces étudiants-là sont faibles." },
+        {
+          "type": "note",
+          "text": "Le {ar|أَ} de la question se colle à {ar|أُولَئِكَ} : {ar|أَأُولَئِكَ} (deux hamzas de suite)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.practice-3#6",
+      "type": "sort",
+      "categories": [ { "fr": "des hommes (ou un groupe mixte)" }, { "fr": "des femmes" } ],
+      "cards": [
+        { "ar": "مَنْ أُولَئِكَ النِّسَاءُ؟", "category": 1 },
+        { "ar": "هَؤُلَاءِ الرِّجَالُ فُقَرَاءُ.", "category": 0 },
+        { "ar": "هَؤُلَاءِ الْفَتَيَاتُ طَالِبَاتٌ.", "category": 1 },
+        { "ar": "أُولَئِكَ الْفِتْيَةُ مُجْتَهِدُونَ.", "category": 0 },
+        { "ar": "هُنَّ أُمَّهَاتُ الطَّالِبَاتِ.", "category": 1 },
+        { "ar": "هُمْ وُزَرَاءُ.", "category": 0 }
+      ],
+      "instruction": "Parle-t-on d'hommes ou de femmes ?",
+      "explain": "Les mots {ar|النِّسَاءُ}, {ar|الْفَتَيَاتُ}, {ar|طَالِبَاتٌ}, {ar|أُمَّهَاتُ} et le pronom {ar|هُنَّ} montrent qu'il s'agit de femmes."
+    },
+    {
+      "id": "medine-t1.l13.practice-3#7",
+      "type": "order",
+      "fr": "Ceux-ci sont des médecins et ceux-là sont des ingénieurs.",
+      "answers": [["هَؤُلَاءِ", "أَطِبَّاءُ", "وَأُولَئِكَ", "مُهَنْدِسُونَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l13.practice-3#8",
+      "type": "order",
+      "fr": "Ces hommes-ci sont pauvres et ceux-là sont riches.",
+      "answers": [["هَؤُلَاءِ", "الرِّجَالُ", "فُقَرَاءُ", "وَأُولَئِكَ", "أَغْنِيَاءُ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l13.practice-3#9",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans {ar|أُولَئِكَ الطُّلَّابُ ضِعَافٌ}, l'adjectif est au pluriel parce que les étudiants sont plusieurs."
+      },
+      "answer": true,
+      "explain": "{ar|الطُّلَّابُ} est un pluriel : l'adjectif {ar|ضِعَافٌ} (pluriel de {ar|ضَعِيفٌ}) l'est aussi."
+    },
+    {
+      "id": "medine-t1.l13.practice-3#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَأُولَئِكَ النِّسَاءُ خَالَاتُكِ يَا مَرْيَمُ؟",
+      "answers": ["لَا. هُنَّ عَمَّاتِي.", "هُنَّ عَمَّاتِي."],
+      "fr": "Non. Ce sont mes tantes paternelles.",
+      "instruction": "Réponds : non, ce sont mes tantes paternelles."
+    },
+    {
+      "id": "medine-t1.l13.practice-3#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ces étudiants-là sont faibles.",
+      "answers": ["أُولَئِكَ الطُّلَّابُ ضِعَافٌ."]
+    },
+    {
+      "id": "medine-t1.l13.practice-3#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceux-ci sont mes frères et ceux-là sont mes amis.",
+      "answers": ["هَؤُلَاءِ إِخْوَتِي وَأُولَئِكَ أَصْدِقَائِي."]
+    }
+  ]
+}

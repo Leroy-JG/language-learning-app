@@ -1,0 +1,209 @@
+[
+  {
+    "id": "w:mufrad",
+    "kind": "word",
+    "ar": "الْمُفْرَدُ",
+    "fr": "le singulier",
+    "translit": "al-mufradu",
+    "gender": "m",
+    "note": "Le mot veut dire « le seul, l'unique » : un seul être, une seule chose. Son contraire est {ar|الْجَمْعُ} (le pluriel)."
+  },
+  {
+    "id": "w:jam",
+    "kind": "word",
+    "ar": "الْجَمْعُ",
+    "fr": "le pluriel",
+    "translit": "al-jamʿu",
+    "gender": "m",
+    "note": "Le mot vient de {ar|جَمَعَ} (« réunir ») : le pluriel réunit plusieurs êtres ou plusieurs choses."
+  },
+  {
+    "id": "w:haulaa",
+    "kind": "word",
+    "ar": "هَؤُلَاءِ",
+    "fr": "ceux-ci, celles-ci (pluriel, proche)",
+    "translit": "hāʾulāʾi",
+    "note": "Nom démonstratif ({ar|اِسْمُ إِشَارَةٍ}) pour plusieurs personnes proches, hommes ou femmes. Il ne change jamais de forme.",
+    "example": { "ar": "هَؤُلَاءِ طُلَّابٌ.", "fr": "Ceux-ci sont des étudiants." }
+  },
+  {
+    "id": "w:ulaika",
+    "kind": "word",
+    "ar": "أُولَئِكَ",
+    "fr": "ceux-là, celles-là (pluriel, loin)",
+    "translit": "ulāʾika",
+    "note": "Nom démonstratif ({ar|اِسْمُ إِشَارَةٍ}) pour plusieurs personnes éloignées, hommes ou femmes. Le {ar|و} est écrit mais ne se prononce pas.",
+    "example": { "ar": "أُولَئِكَ طَالِبَاتٌ.", "fr": "Celles-là sont des étudiantes." }
+  },
+  {
+    "id": "p:man-haulaa",
+    "kind": "phrase",
+    "ar": "مَنْ هَؤُلَاءِ؟",
+    "fr": "Qui sont ceux-ci ?",
+    "translit": "man hāʾulāʾi"
+  },
+  {
+    "id": "p:man-ulaika",
+    "kind": "phrase",
+    "ar": "مَنْ أُولَئِكَ؟",
+    "fr": "Qui sont ceux-là ?",
+    "translit": "man ulāʾika"
+  },
+  {
+    "id": "w:nas",
+    "kind": "word",
+    "ar": "نَاسٌ",
+    "fr": "des gens",
+    "translit": "nāsun",
+    "note": "Ce mot est déjà un pluriel : il n'a pas de singulier. Pour une seule personne, on dit {ar|رَجُلٌ} (un homme) ou {ar|اِمْرَأَةٌ} (une femme), ou encore {ar|إِنْسَانٌ} (un être humain), qui n'est pas de la même forme. Avec l'article : {ar|النَّاسُ} (les gens).",
+    "example": { "ar": "النَّاسُ فِي السُّوقِ.", "fr": "Les gens sont au marché." }
+  },
+  {
+    "id": "w:imraa",
+    "kind": "word",
+    "ar": "اِمْرَأَةٌ",
+    "fr": "une femme",
+    "translit": "imraʾatun",
+    "plural": "نِسَاءٌ",
+    "gender": "f",
+    "note": "On l'écrit avec un alif de liaison au début (comme {ar|اِبْنٌ} et {ar|اِسْمٌ}) ; avec l'article, cet alif disparaît : {ar|الْمَرْأَةُ}. Le pluriel {ar|نِسَاءٌ} n'est pas formé à partir de {ar|اِمْرَأَةٌ} : il faut l'apprendre tel quel. Suivi d'un nom, {ar|اِمْرَأَةُ زَيْدٍ} veut dire « la femme (l'épouse) de Zayd ».",
+    "example": { "ar": "اِمْرَأَةُ زَيْدٍ مُدَرِّسَةٌ.", "fr": "La femme de Zayd est enseignante." }
+  },
+  {
+    "id": "w:alim",
+    "kind": "word",
+    "ar": "عَالِمٌ",
+    "fr": "un savant",
+    "translit": "ʿālimun",
+    "plural": "عُلَمَاءُ",
+    "gender": "m",
+    "note": "Un {ar|عَالِمٌ} est « celui qui sait » : un homme de science ou de religion ; le mot est de la même famille que {ar|عِلْمٌ} (la science). Ne le confonds pas avec {ar|عَالَمٌ} (« le monde »), qui s'écrit pareil sans voyelles.",
+    "example": { "ar": "ذٰلِكَ الرَّجُلُ عَالِمٌ كَبِيرٌ.", "fr": "Cet homme-là est un grand savant." }
+  },
+  {
+    "id": "w:hajj",
+    "kind": "word",
+    "ar": "حَاجٌّ",
+    "fr": "un pèlerin",
+    "translit": "ḥājjun",
+    "plural": "حُجَّاجٌ",
+    "gender": "m",
+    "note": "C'est la personne qui fait le pèlerinage à La Mecque ({ar|الْحَجُّ}).",
+    "example": { "ar": "الْحُجَّاجُ فِي مَكَّةَ.", "fr": "Les pèlerins sont à La Mecque." }
+  },
+  {
+    "id": "w:qawi",
+    "kind": "word",
+    "ar": "قَوِيٌّ",
+    "fr": "fort",
+    "translit": "qawiyyun",
+    "plural": "أَقْوِيَاءُ",
+    "note": "Au féminin : {ar|قَوِيَّةٌ}.",
+    "example": { "ar": "زَيْدٌ رَجُلٌ قَوِيٌّ.", "fr": "Zayd est un homme fort." }
+  },
+  {
+    "id": "w:daif",
+    "kind": "word",
+    "ar": "ضَعِيفٌ",
+    "fr": "faible",
+    "translit": "ḍaʿīfun",
+    "plural": "ضِعَافٌ",
+    "note": "On trouve aussi le pluriel {ar|ضُعَفَاءُ} (sans tanwin). Au féminin : {ar|ضَعِيفَةٌ}.",
+    "example": { "ar": "لِزَيْدٍ أَبْنَاءٌ ضِعَافٌ.", "fr": "Zayd a des fils faibles." }
+  },
+  {
+    "id": "w:qarya",
+    "kind": "word",
+    "ar": "قَرْيَةٌ",
+    "fr": "un village",
+    "translit": "qaryatun",
+    "plural": "قُرًى",
+    "gender": "f",
+    "note": "Le pluriel {ar|قُرًى} se termine par un {ar|ى} : c'est un nom maqṣūr, comme {ar|مُسْتَشْفًى} (chapitre 8).",
+    "example": { "ar": "سَكَنَ زَيْدٌ فِي هٰذِهِ الْقَرْيَةِ.", "fr": "Zayd a habité dans ce village." }
+  },
+  {
+    "id": "w:haql",
+    "kind": "word",
+    "ar": "حَقْلٌ",
+    "fr": "un champ",
+    "translit": "ḥaqlun",
+    "plural": "حُقُولٌ",
+    "gender": "m",
+    "example": { "ar": "خَلْفَ بَيْتِي حَقْلٌ كَبِيرٌ.", "fr": "Derrière ma maison, il y a un grand champ." }
+  },
+  {
+    "id": "w:matam",
+    "kind": "word",
+    "ar": "مَطْعَمٌ",
+    "fr": "un restaurant",
+    "translit": "maṭʿamun",
+    "plural": "مَطَاعِمُ",
+    "gender": "m",
+    "note": "Le mot est de la même famille que {ar|طَعَامٌ} (la nourriture) : c'est le lieu où l'on mange.",
+    "example": { "ar": "ذَهَبَ زَيْدٌ إِلَى الْمَطْعَمِ.", "fr": "Zayd est allé au restaurant." }
+  },
+  {
+    "id": "w:malab",
+    "kind": "word",
+    "ar": "مَلْعَبٌ",
+    "fr": "un terrain de jeu",
+    "translit": "malʿabun",
+    "plural": "مَلَاعِبُ",
+    "gender": "m",
+    "note": "Le mot est de la même famille que {ar|لُعْبَةٌ} (un jeu) : c'est le lieu où l'on joue (un terrain de sport, un stade).",
+    "example": { "ar": "الْكُرَةُ فِي الْمَلْعَبِ.", "fr": "Le ballon est sur le terrain de jeu." }
+  },
+  {
+    "id": "w:ibtidaiyya",
+    "kind": "word",
+    "ar": "الِابْتِدَائِيَّةُ",
+    "fr": "l'école primaire",
+    "translit": "al-ibtidāʾiyyatu",
+    "gender": "f",
+    "note": "C'est en fait un adjectif : {ar|الْمَدْرَسَةُ الِابْتِدَائِيَّةُ}. On sous-entend {ar|الْمَدْرَسَةُ}, comme pour {ar|الثَّانَوِيَّةُ} (le lycée) et {ar|الْمُتَوَسِّطَةُ} (le collège).",
+    "example": { "ar": "أَخِي فِي الِابْتِدَائِيَّةِ.", "fr": "Mon frère est à l'école primaire." }
+  },
+  {
+    "id": "w:khala",
+    "kind": "word",
+    "ar": "خَالَةٌ",
+    "fr": "une tante maternelle",
+    "translit": "khālatun",
+    "plural": "خَالَاتٌ",
+    "gender": "f",
+    "note": "Le féminin de {ar|خَالٌ} (un oncle maternel).",
+    "example": { "ar": "خَالَتِي فِي الْمَدِينَةِ.", "fr": "Ma tante maternelle est en ville." }
+  },
+  {
+    "id": "w:amma",
+    "kind": "word",
+    "ar": "عَمَّةٌ",
+    "fr": "une tante paternelle",
+    "translit": "ʿammatun",
+    "plural": "عَمَّاتٌ",
+    "gender": "f",
+    "note": "Le féminin de {ar|عَمٌّ} (un oncle paternel).",
+    "example": { "ar": "عَمَّتِي فِي الْبَيْتِ.", "fr": "Ma tante paternelle est à la maison." }
+  },
+  {
+    "id": "w:ustadha",
+    "kind": "word",
+    "ar": "أُسْتَاذَةٌ",
+    "fr": "une professeure",
+    "translit": "ustādhatun",
+    "gender": "f",
+    "note": "Le féminin de {ar|أُسْتَاذٌ} (titre de respect). Avec le suffixe {ar|◌ِي} : {ar|أُسْتَاذَتِي} (ma professeure).",
+    "example": { "ar": "أُسْتَاذَتِي فِي الْجَامِعَةِ.", "fr": "Ma professeure est à l'université." }
+  },
+  {
+    "id": "w:bad",
+    "kind": "word",
+    "ar": "بَعْضٌ",
+    "fr": "une partie, certains",
+    "translit": "baʿḍun",
+    "gender": "m",
+    "note": "Ce mot est presque toujours suivi d'un second terme : {ar|بَعْضُهُمْ} (certains d'entre eux), {ar|بَعْضُ الطُّلَّابِ} (certains des étudiants). Répété, il se traduit « certains… d'autres… » : {ar|بَعْضُهُمْ فِي الْفَصْلِ وَبَعْضُهُمْ فِي الْمَسْجِدِ}.",
+    "example": { "ar": "بَعْضُ الطُّلَّابِ فِي الْفَصْلِ.", "fr": "Certains étudiants sont en classe." }
+  }
+]

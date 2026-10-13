@@ -1,0 +1,133 @@
+{
+  "id": "medine-t1.l13.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 13",
+  "screens": [
+    {
+      "id": "medine-t1.l13.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:haulaa",
+      "distractors": ["w:tilka", "w:hum"]
+    },
+    {
+      "id": "medine-t1.l13.quiz#2",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:ulaika",
+      "distractors": ["w:haulaa", "w:dhalika"]
+    },
+    {
+      "id": "medine-t1.l13.quiz#3",
+      "type": "fill_gap",
+      "sentence": "{0} النِّسَاءُ مُدَرِّسَاتٌ.",
+      "fr": "Ces femmes-ci sont enseignantes.",
+      "gaps": [ { "answers": ["هَؤُلَاءِ"] } ],
+      "options": ["هَؤُلَاءِ", "أُولَئِكَ", "هٰذِهِ"]
+    },
+    {
+      "id": "medine-t1.l13.quiz#4",
+      "type": "question",
+      "prompt": { "fr": "Pour montrer plusieurs jeunes filles qui sont loin, quel démonstratif emploie-t-on ?" },
+      "choices": [ { "ar": "أُولَئِكَ" }, { "ar": "هَؤُلَاءِ" }, { "ar": "ذٰلِكَ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l13.quiz#5",
+      "type": "spot",
+      "instruction": "Touche les démonstratifs du pluriel.",
+      "words": ["هَؤُلَاءِ", "طُلَّابٌ", "وَأُولَئِكَ", "مُدَرِّسُونَ."],
+      "answers": [0, 2],
+      "fr": "Ceux-ci sont des étudiants et ceux-là sont des enseignants."
+    },
+    {
+      "id": "medine-t1.l13.quiz#6",
+      "type": "sort",
+      "categories": [ { "fr": "un seul" }, { "fr": "plusieurs" } ],
+      "cards": [
+        { "ar": "هٰذِهِ طَالِبَةٌ", "category": 0 },
+        { "ar": "هَؤُلَاءِ طَالِبَاتٌ", "category": 1 },
+        { "ar": "ذٰلِكَ تَاجِرٌ", "category": 0 },
+        { "ar": "أُولَئِكَ تُجَّارٌ", "category": 1 },
+        { "ar": "تِلْكَ مُدَرِّسَةٌ", "category": 0 },
+        { "ar": "أُولَئِكَ مُدَرِّسَاتٌ", "category": 1 }
+      ],
+      "instruction": "Range chaque phrase : montre-t-elle un seul être ou plusieurs ?"
+    },
+    {
+      "id": "medine-t1.l13.quiz#7",
+      "type": "order",
+      "fr": "Ces jeunes gens-ci sont frères.",
+      "answers": [["هَؤُلَاءِ", "الْفِتْيَةُ", "إِخْوَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l13.quiz#8",
+      "type": "fill_gap",
+      "sentence": "مَنْ أُولَئِكَ الرِّجَالُ؟ {0} وُزَرَاءُ.",
+      "fr": "Qui sont ces hommes-là ? Ce sont des ministres.",
+      "gaps": [ { "answers": ["هُمْ"] } ],
+      "options": ["هُمْ", "هُنَّ", "هُوَ"]
+    },
+    {
+      "id": "medine-t1.l13.quiz#9",
+      "type": "fill_gap",
+      "sentence": "أُولَئِكَ الْفِتْيَةُ {0}.",
+      "fr": "Ces jeunes gens-là sont studieux.",
+      "gaps": [ { "answers": ["مُجْتَهِدُونَ"] } ],
+      "options": ["مُجْتَهِدُونَ", "مُجْتَهِدٌ", "مُجْتَهِدَةٌ"]
+    },
+    {
+      "id": "medine-t1.l13.quiz#10",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|بَعْضُهُمْ} ?" },
+      "choices": [ { "fr": "certains d'entre eux" }, { "fr": "leur maison" }, { "fr": "leurs noms" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l13.quiz#11",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:alim", "w:hajj", "w:haql", "w:matam", "w:qarya"]
+    },
+    {
+      "id": "medine-t1.l13.quiz#12",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:imraa", "w:daif", "w:qawi", "w:malab"]
+    },
+    {
+      "id": "medine-t1.l13.quiz#13",
+      "type": "true_false",
+      "statement": {
+        "fr": "On dit {ar|هُنَّ} pour reprendre un groupe de femmes, et {ar|هُمْ} pour un groupe d'hommes ou un groupe mixte."
+      },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l13.quiz#14",
+      "type": "question",
+      "prompt": { "fr": "Où est la maison des jeunes filles ?" },
+      "choices": [ { "fr": "Près de l'école" }, { "fr": "Près de la mosquée" }, { "fr": "Près du marché" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l13.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l13.quiz#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ces femmes-là sont les mères des étudiantes.",
+      "answers": ["أُولَئِكَ النِّسَاءُ أُمَّهَاتُ الطَّالِبَاتِ."]
+    },
+    {
+      "id": "medine-t1.l13.quiz#16",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ هَؤُلَاءِ الْفَتَيَاتُ؟",
+      "answers": ["هُنَّ زَمِيلَاتِي.", "زَمِيلَاتِي.", "هَؤُلَاءِ زَمِيلَاتِي."],
+      "fr": "Ce sont mes camarades (des filles).",
+      "instruction": "Réponds : ce sont mes camarades (des filles).",
+      "context": { "dialogue": "medine-t1.l13.dialogue-2#1" }
+    }
+  ]
+}

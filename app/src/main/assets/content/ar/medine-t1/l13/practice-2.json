@@ -1,0 +1,149 @@
+{
+  "id": "medine-t1.l13.practice-2",
+  "type": "grammar",
+  "title": "Mets le sujet au pluriel",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l13.practice-2#1",
+      "type": "tip",
+      "title": "Les phrases du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre te demande de mettre le sujet au pluriel et de changer ce qu'il faut : le démonstratif, le nom, l'adjectif et le mot qui dit ce qu'ils sont. Regarde :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "مِنْ أَيْنَ ذٰلِكَ الْمُدَرِّسُ؟", "fr": "D'où vient cet enseignant-là ?" },
+              "to": { "ar": "مِنْ أَيْنَ أُولَئِكَ الْمُدَرِّسُونَ؟", "fr": "D'où viennent ces enseignants-là ?" }
+            },
+            {
+              "from": { "ar": "مَنْ هٰذَا الْوَلَدُ الطَّوِيلُ؟", "fr": "Qui est ce grand garçon-ci ?" },
+              "to": { "ar": "مَنْ هَؤُلَاءِ الْأَوْلَادُ الطِّوَالُ؟", "fr": "Qui sont ces grands garçons-ci ?" }
+            },
+            {
+              "from": { "ar": "هٰذِهِ الْمَرْأَةُ مُمَرِّضَةٌ", "fr": "Cette femme-ci est infirmière." },
+              "to": { "ar": "هَؤُلَاءِ النِّسَاءُ مُمَرِّضَاتٌ", "fr": "Ces femmes-ci sont infirmières." }
+            },
+            {
+              "from": { "ar": "تِلْكَ الْفَتَاةُ بِنْتُ الطَّبِيبِ", "fr": "Cette jeune fille-là est la fille du médecin." },
+              "to": {
+                "ar": "أُولَئِكَ الْفَتَيَاتُ بَنَاتُ الطَّبِيبِ",
+                "fr": "Ces jeunes filles-là sont les filles du médecin."
+              }
+            },
+            {
+              "from": { "ar": "ذٰلِكَ الرَّجُلُ عَالِمٌ كَبِيرٌ", "fr": "Cet homme-là est un grand savant." },
+              "to": { "ar": "أُولَئِكَ الرِّجَالُ عُلَمَاءُ كِبَارٌ", "fr": "Ces hommes-là sont de grands savants." }
+            },
+            {
+              "from": { "ar": "أَذٰلِكَ الْمُهَنْدِسُ مُسْلِمٌ؟", "fr": "Cet ingénieur-là est-il musulman ?" },
+              "to": { "ar": "أَأُولَئِكَ الْمُهَنْدِسُونَ مُسْلِمُونَ؟", "fr": "Ces ingénieurs-là sont-ils musulmans ?" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l13.practice-2#2",
+      "type": "fill_gap",
+      "sentence": "مَنْ {0} الْأَوْلَادُ الطِّوَالُ؟",
+      "fr": "Qui sont ces grands garçons-ci ?",
+      "gaps": [ { "answers": ["هَؤُلَاءِ"] } ],
+      "options": ["هَؤُلَاءِ", "أُولَئِكَ", "هٰذَا"],
+      "explain": "Des personnes proches (« -ci ») : {ar|هَؤُلَاءِ}."
+    },
+    {
+      "id": "medine-t1.l13.practice-2#3",
+      "type": "order",
+      "fr": "Ces hommes-là sont de grands savants.",
+      "answers": [["أُولَئِكَ", "الرِّجَالُ", "عُلَمَاءُ", "كِبَارٌ"]],
+      "punctuation": ".",
+      "explain": "Tout est au pluriel : {ar|أُولَئِكَ}, {ar|الرِّجَالُ}, {ar|عُلَمَاءُ} et {ar|كِبَارٌ}."
+    },
+    {
+      "id": "medine-t1.l13.practice-2#4",
+      "type": "fill_gap",
+      "sentence": "أُولَئِكَ الْفَتَيَاتُ {0} الطَّبِيبِ.",
+      "fr": "Ces jeunes filles-là sont les filles du médecin.",
+      "gaps": [ { "answers": ["بَنَاتُ"] } ],
+      "options": ["بَنَاتُ", "بِنْتُ", "أَوْلَادُ"],
+      "explain": "{ar|بَنَاتٌ} est le pluriel de {ar|بِنْتٌ}. Il est le premier terme d'une annexion : pas de tanwin, {ar|بَنَاتُ الطَّبِيبِ}."
+    },
+    {
+      "id": "medine-t1.l13.practice-2#5",
+      "type": "sort",
+      "categories": [ { "fr": "en -ūna (hommes)" }, { "fr": "pluriel brisé" } ],
+      "cards": [
+        { "ar": "مُهَنْدِسُونَ", "category": 0 },
+        { "ar": "تُجَّارٌ", "category": 1 },
+        { "ar": "فَلَّاحُونَ", "category": 0 },
+        { "ar": "أَصْدِقَاءُ", "category": 1 },
+        { "ar": "مُجْتَهِدُونَ", "category": 0 },
+        { "ar": "إِخْوَةٌ", "category": 1 }
+      ],
+      "instruction": "Range chaque pluriel selon sa forme.",
+      "explain": "Le pluriel en {ar|◌ُونَ} désigne des hommes ou un groupe mixte ({ar|مُهَنْدِسُونَ}, {ar|فَلَّاحُونَ}, {ar|مُجْتَهِدُونَ}). Les autres changent la forme du mot : ce sont des pluriels brisés."
+    },
+    {
+      "id": "medine-t1.l13.practice-2#6",
+      "type": "fill_gap",
+      "sentence": "هَؤُلَاءِ النِّسَاءُ {0}.",
+      "fr": "Ces femmes-ci sont infirmières.",
+      "gaps": [ { "answers": ["مُمَرِّضَاتٌ"] } ],
+      "options": ["مُمَرِّضَاتٌ", "مُمَرِّضَةٌ", "مُمَرِّضُونَ"],
+      "explain": "Des femmes, au pluriel : {ar|مُمَرِّضَاتٌ}. {ar|مُمَرِّضُونَ} désignerait des hommes (ou un groupe mixte)."
+    },
+    {
+      "id": "medine-t1.l13.practice-2#7",
+      "type": "order",
+      "fr": "Ces ingénieurs-là sont-ils musulmans ?",
+      "answers": [["أَأُولَئِكَ", "الْمُهَنْدِسُونَ", "مُسْلِمُونَ"]],
+      "punctuation": "؟",
+      "explain": "Le {ar|أَ} de la question se colle à {ar|أُولَئِكَ} : {ar|أَأُولَئِكَ}."
+    },
+    {
+      "id": "medine-t1.l13.practice-2#8",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:tajir", "w:rajul", "w:ibn", "w:amm", "w:shaykh"]
+    },
+    {
+      "id": "medine-t1.l13.practice-2#9",
+      "type": "true_false",
+      "statement": { "fr": "Pour mettre {ar|ذٰلِكَ الْمُدَرِّسُ} au pluriel, on dit {ar|هَؤُلَاءِ الْمُدَرِّسُونَ}." },
+      "answer": false,
+      "explain": "Ce qui est loin reste loin : {ar|ذٰلِكَ} devient {ar|أُولَئِكَ}, et {ar|هَؤُلَاءِ} est le pluriel de {ar|هٰذَا}."
+    },
+    {
+      "id": "medine-t1.l13.practice-2#10",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:dayf", "w:zamil", "w:faqir", "w:ghani", "w:sadiq"]
+    },
+    {
+      "id": "medine-t1.l13.practice-2#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des amis",
+      "answers": ["أَصْدِقَاءُ"]
+    },
+    {
+      "id": "medine-t1.l13.practice-2#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "D'où viennent ces enseignants-là ?",
+      "answers": ["مِنْ أَيْنَ أُولَئِكَ الْمُدَرِّسُونَ؟"]
+    },
+    {
+      "id": "medine-t1.l13.practice-2#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Qui sont ces grands garçons-ci ?",
+      "answers": ["مَنْ هَؤُلَاءِ الْأَوْلَادُ الطِّوَالُ؟"]
+    }
+  ]
+}

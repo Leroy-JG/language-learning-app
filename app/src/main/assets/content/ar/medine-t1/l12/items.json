@@ -137,6 +137,7 @@
     "ar": "زَمِيلَةٌ",
     "fr": "une camarade",
     "translit": "zamīlatun",
+    "plural": "زَمِيلَاتٌ",
     "gender": "f",
     "note": "Le féminin de {ar|زَمِيلٌ} (chapitre 10) : une camarade de classe ou de travail.",
     "example": { "ar": "زَمِيلَتِي فِي الْمَدْرَسَةِ.", "fr": "Ma camarade est à l'école." }
