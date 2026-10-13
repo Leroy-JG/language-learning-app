@@ -77,6 +77,8 @@ object IconImages {
         "tea" to R.drawable.icon_tea,
         "hen" to R.drawable.icon_hen,
         "pot" to R.drawable.icon_pot,
+        "duck" to R.drawable.icon_duck,
+        "egg" to R.drawable.icon_egg,
     )
 
     @DrawableRes

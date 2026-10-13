@@ -1,0 +1,89 @@
+{
+  "id": "medine-t1.l07.practice-3",
+  "type": "grammar",
+  "title": "Le premier terme décide",
+  "icon": "car",
+  "screens": [
+    {
+      "id": "medine-t1.l07.practice-3#1",
+      "type": "tip",
+      "title": "Le démonstratif et l'annexion",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand ce qu'on désigne est le premier terme d'une annexion ({ar|كِتَابُ زَيْدٍ}), c'est **lui** qui décide du démonstratif (chapitre 6)."
+        },
+        { "type": "example", "ar": "ذٰلِكَ مِفْتَاحُ السَّيَّارَةِ.", "fr": "Cela est la clé de la voiture." },
+        { "type": "example", "ar": "تِلْكَ سَيَّارَةُ الْمُدِيرِ.", "fr": "Cela est la voiture du directeur." },
+        {
+          "type": "paragraph",
+          "text": "Dans le premier exemple, le premier terme est {ar|مِفْتَاحٌ} (masculin) : on dit {ar|ذٰلِكَ}, même si {ar|السَّيَّارَةِ} est féminin. Dans le second, c'est {ar|سَيَّارَةٌ} (féminin) : on dit {ar|تِلْكَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l07.practice-3#2",
+      "type": "fill_gap",
+      "sentence": "{0} مِفْتَاحُ السَّيَّارَةِ.",
+      "fr": "Cela est la clé de la voiture.",
+      "gaps": [ { "answers": ["ذٰلِكَ"] } ],
+      "options": ["ذٰلِكَ", "تِلْكَ", "هٰذِهِ"],
+      "explain": "Le premier terme est {ar|مِفْتَاحٌ}, masculin : {ar|ذٰلِكَ}."
+    },
+    {
+      "id": "medine-t1.l07.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "{0} سَيَّارَةُ الْمُدِيرِ.",
+      "fr": "Cela est la voiture du directeur.",
+      "gaps": [ { "answers": ["تِلْكَ"] } ],
+      "options": ["تِلْكَ", "ذٰلِكَ", "هٰذَا"],
+      "explain": "Le premier terme est {ar|سَيَّارَةٌ}, féminin : {ar|تِلْكَ}."
+    },
+    {
+      "id": "medine-t1.l07.practice-3#4",
+      "type": "spot",
+      "instruction": "Touche le mot qui décide du démonstratif.",
+      "words": ["ذٰلِكَ", "مِفْتَاحُ", "السَّيَّارَةِ."],
+      "answers": [1],
+      "fr": "Cela est la clé de la voiture.",
+      "explain": "C'est le premier terme, {ar|مِفْتَاحُ}, qui décide : il est masculin."
+    },
+    {
+      "id": "medine-t1.l07.practice-3#5",
+      "type": "true_false",
+      "statement": { "fr": "Devant {ar|مِفْتَاحُ السَّيَّارَةِ}, on dit {ar|تِلْكَ} parce que {ar|السَّيَّارَةُ} est féminin." },
+      "answer": false,
+      "explain": "On regarde le premier terme, {ar|مِفْتَاحٌ}, qui est masculin : {ar|ذٰلِكَ مِفْتَاحُ السَّيَّارَةِ}."
+    },
+    {
+      "id": "medine-t1.l07.practice-3#6",
+      "type": "fill_gap",
+      "sentence": "{0} سَاعَةُ حَامِدٍ وَ{1} سَاعَةُ عَبَّاسٍ.",
+      "fr": "Ceci est la montre de Ḥāmid et cela est la montre d'ʿAbbās.",
+      "gaps": [ { "answers": ["هٰذِهِ"] }, { "answers": ["تِلْكَ"] } ],
+      "options": ["هٰذِهِ", "تِلْكَ", "هٰذَا", "ذٰلِكَ"],
+      "explain": "{ar|سَاعَةٌ} est féminin : {ar|هٰذِهِ} pour la montre proche, {ar|تِلْكَ} pour la montre lointaine."
+    },
+    {
+      "id": "medine-t1.l07.practice-3#7",
+      "type": "order",
+      "fr": "Cela est la voiture du directeur.",
+      "answers": [["تِلْكَ", "سَيَّارَةُ", "الْمُدِيرِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l07.practice-3#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Cela est la clé de la voiture.",
+      "answers": ["ذٰلِكَ مِفْتَاحُ السَّيَّارَةِ."]
+    },
+    {
+      "id": "medine-t1.l07.practice-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est la montre de Ḥāmid et cela est la montre d'ʿAbbās.",
+      "answers": ["هٰذِهِ سَاعَةُ حَامِدٍ وَتِلْكَ سَاعَةُ عَبَّاسٍ."]
+    }
+  ]
+}

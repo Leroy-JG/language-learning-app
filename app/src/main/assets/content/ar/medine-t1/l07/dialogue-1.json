@@ -1,0 +1,121 @@
+{
+  "id": "medine-t1.l07.dialogue-1",
+  "type": "dialogue",
+  "title": "Qui est-ce, là-bas ?",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l07.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Sur la photo",
+      "intro": "Saʿīd regarde une photo avec Maryam.",
+      "speakers": { "A": { "name": "Saʿīd", "voice": "m1" }, "B": { "name": "Maryam", "voice": "f1" } },
+      "lines": [
+        { "speaker": "A", "ar": "مَنْ هٰذَا؟", "fr": "Qui est-ce ?" },
+        { "speaker": "B", "ar": "هٰذَا حَامِدٌ.", "fr": "C'est Ḥāmid." },
+        { "speaker": "A", "ar": "وَمَنْ ذٰلِكَ؟", "fr": "Et qui est-ce, là-bas ?" },
+        { "speaker": "B", "ar": "ذٰلِكَ عَلِيٌّ.", "fr": "C'est ʿAlī, là-bas." },
+        { "speaker": "A", "ar": "وَمَنْ هٰذِهِ؟", "fr": "Et qui est-ce ?" },
+        { "speaker": "B", "ar": "هٰذِهِ آمِنَةُ.", "fr": "C'est Āmina." },
+        { "speaker": "A", "ar": "وَمَنْ تِلْكَ؟", "fr": "Et qui est-ce, là-bas ?" },
+        { "speaker": "B", "ar": "تِلْكَ فَاطِمَةُ.", "fr": "C'est Fāṭima, là-bas." }
+      ]
+    },
+    {
+      "id": "medine-t1.l07.dialogue-1#2",
+      "type": "dialogue",
+      "title": "Qui est qui ?",
+      "intro": "Saʿīd veut en savoir plus sur Āmina et Fāṭima.",
+      "speakers": { "A": { "name": "Saʿīd", "voice": "m1" }, "B": { "name": "Maryam", "voice": "f1" } },
+      "lines": [
+        { "speaker": "A", "ar": "أَهٰذِهِ طَبِيبَةٌ؟", "fr": "Est-ce une femme médecin ?" },
+        {
+          "speaker": "B",
+          "ar": "نَعَمْ، هٰذِهِ طَبِيبَةٌ وَتِلْكَ مُمَرِّضَةٌ.",
+          "fr": "Oui, celle-ci est médecin et celle-là est infirmière."
+        },
+        { "speaker": "A", "ar": "أَهِيَ مِنَ الْهِنْدِ؟", "fr": "Est-elle d'Inde ?" },
+        {
+          "speaker": "B",
+          "ar": "نَعَمْ، هٰذِهِ مِنَ الْهِنْدِ وَتِلْكَ مِنَ الْيَابَانِ.",
+          "fr": "Oui, celle-ci est d'Inde et celle-là est du Japon."
+        },
+        { "speaker": "A", "ar": "أَهِيَ طَوِيلَةٌ؟", "fr": "Est-elle grande ?" },
+        {
+          "speaker": "B",
+          "ar": "نَعَمْ، هٰذِهِ طَوِيلَةٌ وَتِلْكَ قَصِيرَةٌ.",
+          "fr": "Oui, celle-ci est grande et celle-là est petite."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l07.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Quel démonstratif Maryam emploie-t-elle pour Fāṭima ?" },
+      "choices": [ { "ar": "تِلْكَ" }, { "ar": "هٰذِهِ" }, { "ar": "ذٰلِكَ" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l07.dialogue-1#1" },
+      "explain": "Fāṭima est loin, et c'est une femme : {ar|تِلْكَ فَاطِمَةُ}."
+    },
+    {
+      "id": "medine-t1.l07.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Qui est l'infirmière ?" },
+      "choices": [ { "fr": "Fāṭima" }, { "fr": "Āmina" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l07.dialogue-1#2" },
+      "explain": "Dans la première scène, {ar|هٰذِهِ} est Āmina et {ar|تِلْكَ} est Fāṭima. Dans la seconde : {ar|هٰذِهِ طَبِيبَةٌ وَتِلْكَ مُمَرِّضَةٌ}, donc Fāṭima est l'infirmière."
+    },
+    {
+      "id": "medine-t1.l07.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Fāṭima est grande." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l07.dialogue-1#2" },
+      "explain": "Maryam dit {ar|هٰذِهِ طَوِيلَةٌ وَتِلْكَ قَصِيرَةٌ} : Āmina est grande et Fāṭima est petite."
+    },
+    {
+      "id": "medine-t1.l07.dialogue-1#6",
+      "type": "question",
+      "prompt": { "fr": "D'où vient Āmina ?" },
+      "choices": [ { "fr": "D'Inde" }, { "fr": "Du Japon" }, { "fr": "De Chine" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l07.dialogue-1#2" },
+      "explain": "{ar|هٰذِهِ مِنَ الْهِنْدِ} : Āmina vient d'Inde. Fāṭima vient du Japon."
+    },
+    {
+      "id": "medine-t1.l07.dialogue-1#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "وَمَنْ تِلْكَ؟",
+      "answers": ["تِلْكَ فَاطِمَةُ.", "فَاطِمَةُ."],
+      "fr": "C'est Fāṭima.",
+      "instruction": "Réponds à la question en arabe.",
+      "context": { "dialogue": "medine-t1.l07.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l07.dialogue-1#8",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ طَبِيبَةٌ وَ{0} مُمَرِّضَةٌ.",
+      "fr": "Celle-ci est médecin et celle-là est infirmière.",
+      "gaps": [ { "answers": ["تِلْكَ"] } ],
+      "options": ["تِلْكَ", "ذٰلِكَ", "هٰذِهِ"],
+      "context": { "dialogue": "medine-t1.l07.dialogue-1#2" },
+      "explain": "{ar|مُمَرِّضَةٌ} est féminin et loin : {ar|تِلْكَ}."
+    },
+    {
+      "id": "medine-t1.l07.dialogue-1#9",
+      "type": "order",
+      "fr": "Celle-ci est grande et celle-là est petite.",
+      "answers": [["هٰذِهِ", "طَوِيلَةٌ", "وَتِلْكَ", "قَصِيرَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l07.dialogue-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Qui est-ce ? C'est Āmina.",
+      "answers": ["مَنْ هٰذِهِ؟ هٰذِهِ آمِنَةُ."]
+    }
+  ]
+}

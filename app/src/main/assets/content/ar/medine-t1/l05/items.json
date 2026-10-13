@@ -268,6 +268,7 @@
     "ar": "قَرِيبٌ",
     "fr": "proche",
     "translit": "qarībun",
+    "plural": "أَقْرِبَاءُ",
     "note": "Tu l'as déjà rencontré dans le tableau de {ar|هٰذَا} (chapitre 1).",
     "example": { "ar": "بَيْتُ التَّاجِرِ قَرِيبٌ.", "fr": "La maison du commerçant est proche." }
   },
@@ -277,6 +278,7 @@
     "ar": "بَعِيدٌ",
     "fr": "éloigné, loin",
     "translit": "baʿīdun",
+    "plural": "بِعَادٌ",
     "note": "Le contraire de {ar|قَرِيبٌ}. Tu l'as déjà rencontré dans le tableau de {ar|ذٰلِكَ} (chapitre 2).",
     "example": { "ar": "بَيْتُ الْمُدَرِّسِ بَعِيدٌ.", "fr": "La maison de l'enseignant est loin." }
   },

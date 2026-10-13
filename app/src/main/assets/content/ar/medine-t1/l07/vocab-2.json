@@ -1,0 +1,114 @@
+{
+  "id": "medine-t1.l07.vocab-2",
+  "type": "vocabulary",
+  "title": "Les gens, grands et petits",
+  "icon": "doctor",
+  "screens": [
+    { "id": "medine-t1.l07.vocab-2#1", "type": "present", "item": "w:mumarrida" },
+    { "id": "medine-t1.l07.vocab-2#2", "type": "present", "item": "w:muadhdhin" },
+    {
+      "id": "medine-t1.l07.vocab-2#3",
+      "type": "tip",
+      "title": "Une même forme pour des métiers",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|مُدَرِّسٌ} (enseignant), {ar|مُمَرِّضٌ} (infirmier) et {ar|مُؤَذِّنٌ} (muezzin) ont la même forme : un {ar|مُ} au début et une shadda sur la lettre du milieu. Cette forme désigne souvent **celui qui fait** l'action : enseigner, soigner, lancer l'appel à la prière."
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Quand tu rencontres un nom de métier commençant par {ar|مُ} avec une shadda au milieu, pense à « celui qui fait »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l07.vocab-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mumarrida",
+      "distractors": ["w:tabiba", "w:mudarrisa"]
+    },
+    { "id": "medine-t1.l07.vocab-2#5", "type": "present", "item": "w:tawil" },
+    { "id": "medine-t1.l07.vocab-2#6", "type": "present", "item": "w:qasir" },
+    {
+      "id": "medine-t1.l07.vocab-2#7",
+      "type": "tip",
+      "title": "Grand ou petit ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|طَوِيلٌ} et {ar|قَصِيرٌ} disent la taille d'une personne (grand, petit) ou la longueur d'une chose (long, court). Comme tous les adjectifs, ils prennent le {ar|ة} avec un nom féminin."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "طَوِيلٌ", "fr": "grand" },
+              "to": { "ar": "طَوِيلَةٌ", "fr": "grande" },
+              "label": "masculin → féminin"
+            },
+            {
+              "from": { "ar": "قَصِيرٌ", "fr": "petit" },
+              "to": { "ar": "قَصِيرَةٌ", "fr": "petite" },
+              "label": "masculin → féminin"
+            }
+          ]
+        },
+        { "type": "example", "ar": "عُمَرُ طَوِيلٌ.", "fr": "ʿUmar est grand." },
+        { "type": "example", "ar": "فَاطِمَةُ قَصِيرَةٌ.", "fr": "Fāṭima est petite." },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "« Grand » au sens de « gros, important » et « petit » au sens de « peu important » ne se disent pas avec ces deux mots : tu verras les autres plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l07.vocab-2#8",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:tawil",
+      "distractors": ["w:qasir", "w:jadid"]
+    },
+    {
+      "id": "medine-t1.l07.vocab-2#9",
+      "type": "fill_gap",
+      "sentence": "فَاطِمَةُ {0}.",
+      "fr": "Fāṭima est petite.",
+      "gaps": [ { "answers": ["قَصِيرَةٌ"] } ],
+      "options": ["قَصِيرَةٌ", "قَصِيرٌ", "طَوِيلَةٌ"],
+      "explain": "{ar|فَاطِمَةُ} est une femme : l'adjectif prend le {ar|ة}. « Petite » se dit {ar|قَصِيرَةٌ}."
+    },
+    {
+      "id": "medine-t1.l07.vocab-2#10",
+      "type": "spot",
+      "instruction": "Touche les deux adjectifs.",
+      "words": ["الْمُؤَذِّنُ", "طَوِيلٌ", "وَالْمُمَرِّضَةُ", "قَصِيرَةٌ."],
+      "answers": [1, 3],
+      "fr": "Le muezzin est grand et l'infirmière est petite.",
+      "explain": "{ar|طَوِيلٌ} et {ar|قَصِيرَةٌ} décrivent la taille. {ar|الْمُؤَذِّنُ} et {ar|الْمُمَرِّضَةُ} sont des noms."
+    },
+    {
+      "id": "medine-t1.l07.vocab-2#11",
+      "type": "order",
+      "fr": "ʿUmar est grand.",
+      "answers": [["عُمَرُ", "طَوِيلٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l07.vocab-2#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est une femme médecin et cela est une infirmière.",
+      "answers": ["هٰذِهِ طَبِيبَةٌ وَتِلْكَ مُمَرِّضَةٌ."]
+    },
+    {
+      "id": "medine-t1.l07.vocab-2#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le muezzin est dans la mosquée.",
+      "answers": ["الْمُؤَذِّنُ فِي الْمَسْجِدِ."]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "medine-t1.l07.grammar-3",
+  "type": "grammar",
+  "title": "Le nom désigné",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l07.grammar-3#1",
+      "type": "tip",
+      "title": "Le démonstratif et le nom désigné",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les quatre mots que tu viens de voir sont des **noms démonstratifs** : en arabe, {ar|اِسْمُ الْإِشَارَةِ} (au pluriel, {ar|أَسْمَاءُ الْإِشَارَةِ}). Le nom qui les accompagne, celui qu'on désigne, s'appelle {ar|الْمُشَارُ إِلَيْهِ}."
+        },
+        { "type": "example", "ar": "هٰذَا زَيْدٌ.", "fr": "Ceci est Zayd." },
+        {
+          "type": "table",
+          "header": ["Mot", "Rôle", "En arabe"],
+          "rows": [
+            ["{ar|هٰذَا}", "le démonstratif", "{ar|اِسْمُ إِشَارَةٍ}"],
+            ["{ar|زَيْدٌ}", "le nom désigné", "{ar|مُشَارٌ إِلَيْهِ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ne confonds pas {ar|الْمُشَارُ إِلَيْهِ} (le nom désigné) avec {ar|الْمُضَافُ إِلَيْهِ} (le second terme de l'annexion, chapitre 5). Les deux finissent par {ar|إِلَيْهِ}, mais ils n'ont pas le même rôle."
+        }
+      ]
+    },
+    { "id": "medine-t1.l07.grammar-3#2", "type": "present", "item": "w:ism-ishara" },
+    { "id": "medine-t1.l07.grammar-3#3", "type": "present", "item": "w:mushar-ilayhi" },
+    {
+      "id": "medine-t1.l07.grammar-3#4",
+      "type": "spot",
+      "instruction": "Touche les noms démonstratifs.",
+      "words": ["هٰذَا", "زَيْدٌ", "وَتِلْكَ", "فَاطِمَةُ."],
+      "answers": [0, 2],
+      "fr": "Ceci est Zayd et cela est Fāṭima.",
+      "explain": "{ar|هٰذَا} et {ar|تِلْكَ} sont les noms démonstratifs ; {ar|زَيْدٌ} et {ar|فَاطِمَةُ} sont les noms désignés."
+    },
+    {
+      "id": "medine-t1.l07.grammar-3#5",
+      "type": "spot",
+      "instruction": "Touche les noms désignés.",
+      "words": ["ذٰلِكَ", "عَلِيٌّ", "وَهٰذِهِ", "آمِنَةُ."],
+      "answers": [1, 3],
+      "fr": "Cela est ʿAlī et ceci est Āmina."
+    },
+    {
+      "id": "medine-t1.l07.grammar-3#6",
+      "type": "sort",
+      "categories": [ { "ar": "اِسْمُ إِشَارَةٍ" }, { "ar": "مُشَارٌ إِلَيْهِ" } ],
+      "cards": [
+        { "ar": "هٰذَا", "category": 0 },
+        { "ar": "حَامِدٌ", "category": 1 },
+        { "ar": "تِلْكَ", "category": 0 },
+        { "ar": "آمِنَةُ", "category": 1 },
+        { "ar": "ذٰلِكَ", "category": 0 },
+        { "ar": "عَلِيٌّ", "category": 1 }
+      ],
+      "instruction": "Dans des phrases comme {ar|هٰذَا حَامِدٌ}, range chaque mot.",
+      "explain": "Les démonstratifs sont des {ar|أَسْمَاءُ الْإِشَارَةِ} ; le nom qui les accompagne est le {ar|الْمُشَارُ إِلَيْهِ}."
+    },
+    {
+      "id": "medine-t1.l07.grammar-3#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|تِلْكَ فَاطِمَةُ}, quel est le nom désigné ?" },
+      "choices": [ { "ar": "فَاطِمَةُ" }, { "ar": "تِلْكَ" } ],
+      "answer": 0,
+      "explain": "{ar|تِلْكَ} est le nom démonstratif ; {ar|فَاطِمَةُ}, qui l'accompagne, est le nom désigné."
+    },
+    {
+      "id": "medine-t1.l07.grammar-3#8",
+      "type": "true_false",
+      "statement": { "fr": "{ar|الْمُشَارُ إِلَيْهِ} et {ar|الْمُضَافُ إِلَيْهِ} désignent la même chose." },
+      "answer": false,
+      "explain": "{ar|الْمُشَارُ إِلَيْهِ} est le nom désigné par le démonstratif ; {ar|الْمُضَافُ إِلَيْهِ} est le second terme d'une annexion ({ar|كِتَابُ زَيْدٍ})."
+    },
+    {
+      "id": "medine-t1.l07.grammar-3#9",
+      "type": "order",
+      "fr": "Cela est Fāṭima.",
+      "answers": [["تِلْكَ", "فَاطِمَةُ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l07.grammar-3#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est Zayd et cela est Fāṭima.",
+      "answers": ["هٰذَا زَيْدٌ وَتِلْكَ فَاطِمَةُ."]
+    }
+  ]
+}

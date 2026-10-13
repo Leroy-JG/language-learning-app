@@ -1,0 +1,123 @@
+[
+  {
+    "id": "w:tilka",
+    "kind": "word",
+    "ar": "تِلْكَ",
+    "fr": "cela, celle-là (féminin, loin)",
+    "translit": "tilka",
+    "gender": "f",
+    "note": "Le féminin de {ar|ذٰلِكَ}. Elle désigne une chose ou une personne **féminine**, au **singulier** et **éloignée**. Elle s'écrit sans alif et se prononce « tilka » : un « i » bref.",
+    "example": { "ar": "تِلْكَ بِنْتٌ.", "fr": "Cela est une fille." }
+  },
+  {
+    "id": "p:ma-tilka",
+    "kind": "phrase",
+    "ar": "مَا تِلْكَ؟",
+    "fr": "Qu'est-ce que c'est, là-bas ? (nom féminin)",
+    "translit": "mā tilka"
+  },
+  {
+    "id": "p:man-tilka",
+    "kind": "phrase",
+    "ar": "مَنْ تِلْكَ؟",
+    "fr": "Qui est-ce, là-bas ? (une femme, une fille)",
+    "translit": "man tilka"
+  },
+  {
+    "id": "w:ism-ishara",
+    "kind": "word",
+    "ar": "اِسْمُ الْإِشَارَةِ",
+    "fr": "le nom démonstratif",
+    "translit": "ismu l-ʾishārati",
+    "plural": "أَسْمَاءُ الْإِشَارَةِ",
+    "gender": "m",
+    "note": "Les quatre mots {ar|هٰذَا}, {ar|هٰذِهِ}, {ar|ذٰلِكَ} et {ar|تِلْكَ} sont des noms démonstratifs. Mot à mot : « le nom de l'indication »."
+  },
+  {
+    "id": "w:mushar-ilayhi",
+    "kind": "word",
+    "ar": "الْمُشَارُ إِلَيْهِ",
+    "fr": "le nom désigné",
+    "translit": "al-mushāru ʾilayhi",
+    "gender": "m",
+    "note": "Le nom qui accompagne le démonstratif : dans {ar|هٰذَا زَيْدٌ}, c'est {ar|زَيْدٌ}. Ne le confonds pas avec {ar|الْمُضَافُ إِلَيْهِ} (le second terme de l'annexion).",
+    "example": { "ar": "هٰذَا زَيْدٌ.", "fr": "Ceci est Zayd." }
+  },
+  {
+    "id": "w:mumarrida",
+    "kind": "word",
+    "ar": "مُمَرِّضَةٌ",
+    "fr": "une infirmière",
+    "translit": "mumarridatun",
+    "plural": "مُمَرِّضَاتٌ",
+    "gender": "f",
+    "note": "Le féminin de {ar|مُمَرِّضٌ} (un infirmier) : on ajoute {ar|ة}.",
+    "example": { "ar": "تِلْكَ مُمَرِّضَةٌ.", "fr": "Cela est une infirmière." }
+  },
+  {
+    "id": "w:muadhdhin",
+    "kind": "word",
+    "ar": "مُؤَذِّنٌ",
+    "fr": "un muezzin",
+    "translit": "muʾadhdhinun",
+    "plural": "مُؤَذِّنُونَ",
+    "gender": "m",
+    "note": "Le muezzin est celui qui lance l'appel à la prière ({ar|الْأَذَانُ}) depuis la mosquée.",
+    "example": { "ar": "الْمُؤَذِّنُ فِي الْمَسْجِدِ.", "fr": "Le muezzin est dans la mosquée." }
+  },
+  {
+    "id": "w:tawil",
+    "kind": "word",
+    "ar": "طَوِيلٌ",
+    "fr": "grand (de taille), long",
+    "translit": "ṭawīlun",
+    "plural": "طِوَالٌ",
+    "note": "Au féminin : {ar|طَوِيلَةٌ}. Il dit la taille d'une personne ou la longueur d'une chose.",
+    "example": { "ar": "عُمَرُ طَوِيلٌ.", "fr": "ʿUmar est grand." }
+  },
+  {
+    "id": "w:qasir",
+    "kind": "word",
+    "ar": "قَصِيرٌ",
+    "fr": "petit (de taille), court",
+    "translit": "qaṣīrun",
+    "plural": "قِصَارٌ",
+    "note": "Le contraire de {ar|طَوِيلٌ}. Au féminin : {ar|قَصِيرَةٌ}.",
+    "example": { "ar": "فَاطِمَةُ قَصِيرَةٌ.", "fr": "Fāṭima est petite." }
+  },
+  {
+    "id": "w:batta",
+    "kind": "word",
+    "ar": "بَطَّةٌ",
+    "fr": "un canard",
+    "translit": "baṭṭatun",
+    "plural": "بَطٌّ",
+    "icon": "duck",
+    "gender": "f",
+    "note": "Le pluriel {ar|بَطٌّ} est un nom collectif, comme {ar|بَقَرٌ} et {ar|دَجَاجٌ}.",
+    "example": { "ar": "هٰذِهِ بَطَّةُ زَيْدٍ.", "fr": "Ceci est le canard de Zayd." }
+  },
+  {
+    "id": "w:bayda",
+    "kind": "word",
+    "ar": "بَيْضَةٌ",
+    "fr": "un œuf",
+    "translit": "bayḍatun",
+    "plural": "بَيْضٌ",
+    "icon": "egg",
+    "gender": "f",
+    "note": "Le pluriel {ar|بَيْضٌ} est un nom collectif : il désigne les œufs en général.",
+    "example": { "ar": "تِلْكَ بَيْضَةٌ.", "fr": "Cela est un œuf." }
+  },
+  {
+    "id": "w:hadiqa",
+    "kind": "word",
+    "ar": "حَدِيقَةٌ",
+    "fr": "un jardin",
+    "translit": "ḥadīqatun",
+    "plural": "حَدَائِقُ",
+    "gender": "f",
+    "note": "Un jardin ou un parc. Tu connais aussi {ar|جَنَّةٌ} (chapitre 3) ; {ar|حَدِيقَةٌ} est le mot le plus courant pour un jardin ou un parc.",
+    "example": { "ar": "الْحَدِيقَةُ قَرِيبَةٌ مِنَ الْمَسْجِدِ.", "fr": "Le jardin est proche de la mosquée." }
+  }
+]
