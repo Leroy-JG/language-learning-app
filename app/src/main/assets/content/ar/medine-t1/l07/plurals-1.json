@@ -99,7 +99,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "des jardins",
-      "answers": ["حَدَائِقُ"]
+      "answers": ["حَدَائِقُ", "جَنَّاتٌ"]
     },
     {
       "id": "medine-t1.l07.plurals-1#9",
@@ -118,8 +118,8 @@
       "id": "medine-t1.l07.plurals-1#11",
       "type": "typing",
       "ask": "fr",
-      "fr": "des chamelles",
-      "answers": ["نُوقٌ", "نِيَاقٌ"]
+      "fr": "des muezzins",
+      "answers": ["مُؤَذِّنُونَ"]
     }
   ]
 }

@@ -25,7 +25,7 @@
       "id": "medine-t1.l07.dialogue-1#2",
       "type": "dialogue",
       "title": "Qui est qui ?",
-      "intro": "Saʿīd veut en savoir plus sur Āmina et Fāṭima.",
+      "intro": "Saʿīd veut en savoir plus sur Āmina (celle qui est proche) et Fāṭima (celle qui est loin).",
       "speakers": { "A": { "name": "Saʿīd", "voice": "m1" }, "B": { "name": "Maryam", "voice": "f1" } },
       "lines": [
         { "speaker": "A", "ar": "أَهٰذِهِ طَبِيبَةٌ؟", "fr": "Est-ce une femme médecin ?" },

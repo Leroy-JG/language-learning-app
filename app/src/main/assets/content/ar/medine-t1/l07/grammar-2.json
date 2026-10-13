@@ -21,6 +21,10 @@
         {
           "type": "note",
           "text": "Ce sont les démonstratifs du **singulier** ({ar|مُفْرَدٌ}). Pour désigner plusieurs choses ou personnes, il en existe d'autres : tu les verras plus tard."
+        },
+        {
+          "type": "note",
+          "text": "Comme {ar|هٰذَا} (chapitre 4), {ar|هٰذِهِ}, {ar|ذٰلِكَ} et {ar|تِلْكَ} gardent toujours la même terminaison, quel que soit leur rôle dans la phrase."
         }
       ]
     },
@@ -31,7 +35,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Regarde comment ils sont faits : les démonstratifs de ce qui est **proche** commencent par {ar|هٰ} ; ceux de ce qui est **loin** se terminent par {ar|كَ}."
+          "text": "Regarde comment ces quatre démonstratifs sont faits : ceux de ce qui est **proche** commencent par {ar|هٰ} ; ceux de ce qui est **loin** se terminent par {ar|كَ}."
         },
         {
           "type": "note",
@@ -41,7 +45,7 @@
         {
           "type": "note",
           "tone": "culture",
-          "text": "Dans {ar|ذٰلِكَ} et {ar|تِلْكَ}, c'est la fin en {ar|ل} suivi de {ar|ك} qui marque l'éloignement : les grammairiens arabes la décrivent ainsi. {ar|هٰذَا} et {ar|هٰذِهِ} n'ont pas cette fin."
+          "text": "Dans {ar|ذٰلِكَ} et {ar|تِلْكَ}, c'est la fin en {ar|ل} suivi de {ar|ك} qui marque l'éloignement : les grammairiens arabes appellent ce {ar|ل} « le lām de l'éloignement » ({ar|لَامُ الْبُعْدِ}) et ce {ar|ك} « le kāf d'adresse » ({ar|كَافُ الْخِطَابِ}). {ar|هٰذَا} et {ar|هٰذِهِ} n'ont pas cette fin."
         }
       ]
     },

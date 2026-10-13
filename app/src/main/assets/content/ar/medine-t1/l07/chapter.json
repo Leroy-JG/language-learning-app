@@ -8,8 +8,8 @@
     { "title": "Cela, au féminin : {ar|تِلْكَ}", "activities": ["grammar-1"] },
     { "title": "Les quatre démonstratifs", "activities": ["grammar-2", "practice-1"] },
     { "title": "Le démonstratif et le nom désigné", "activities": ["grammar-3"] },
-    { "title": "À la ferme, au jardin et à la mosquée", "activities": ["vocab-1", "vocab-2"] },
-    { "title": "Lire, écrire, regarder", "activities": ["practice-2", "practice-3"] },
+    { "title": "La ferme, le jardin et les gens", "activities": ["vocab-1", "vocab-2"] },
+    { "title": "Lire, écrire et accorder selon le premier terme", "activities": ["practice-2", "practice-3"] },
     { "title": "Qui est-ce ? Qu'est-ce que c'est, là-bas ?", "activities": ["dialogue-1", "dialogue-2"] },
     { "title": "Les pluriels", "activities": ["plurals-1"] },
     { "title": "Bilan du chapitre", "activities": ["quiz"] }

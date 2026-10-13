@@ -12,12 +12,12 @@
       "speakers": { "A": { "name": "Saʿīd", "voice": "m1" }, "B": { "name": "ʿAlī", "voice": "m2" } },
       "lines": [
         { "speaker": "A", "ar": "مَا تِلْكَ؟", "fr": "Qu'est-ce que c'est, là-bas ?" },
-        { "speaker": "B", "ar": "تِلْكَ بَيْضَةٌ.", "fr": "C'est un œuf." },
+        { "speaker": "B", "ar": "تِلْكَ بَيْضَةٌ.", "fr": "C'est un œuf, là-bas." },
         { "speaker": "A", "ar": "أَذٰلِكَ دِيكٌ؟", "fr": "Est-ce un coq, là-bas ?" },
         {
           "speaker": "B",
           "ar": "نَعَمْ، ذٰلِكَ دِيكٌ وَتِلْكَ دَجَاجَةٌ.",
-          "fr": "Oui, cela est un coq et cela est une poule."
+          "fr": "Oui, celui-là est un coq et celle-là est une poule."
         },
         { "speaker": "A", "ar": "أَتِلْكَ دَجَاجَةٌ أَيْضًا؟", "fr": "Et celle-là, est-ce aussi une poule ?" },
         { "speaker": "B", "ar": "لَا، تِلْكَ بَطَّةٌ.", "fr": "Non, celle-là est un canard." }
@@ -30,7 +30,7 @@
       "intro": "Saʿīd interroge ʿAlī sur des montres et des voitures.",
       "speakers": { "A": { "name": "Saʿīd", "voice": "m1" }, "B": { "name": "ʿAlī", "voice": "m2" } },
       "lines": [
-        { "speaker": "A", "ar": "أَسَاعَةُ عَبَّاسٍ هٰذِهِ؟", "fr": "Est-ce la montre d'ʿAbbās ?" },
+        { "speaker": "A", "ar": "أَسَاعَةُ عَبَّاسٍ هٰذِهِ؟", "fr": "Est-ce la montre d'ʿAbbās, celle-ci ?" },
         {
           "speaker": "B",
           "ar": "لَا. هٰذِهِ سَاعَةُ حَامِدٍ، تِلْكَ سَاعَةُ عَبَّاسٍ.",
@@ -56,17 +56,21 @@
         {
           "type": "example",
           "ar": "أَسَاعَةُ عَبَّاسٍ هٰذِهِ؟",
-          "fr": "Est-ce la montre d'ʿAbbās ? (mot à mot : la montre d'ʿAbbās, ceci ?)"
+          "fr": "Est-ce la montre d'ʿAbbās, celle-ci ? (mot à mot : la montre d'ʿAbbās, ceci ?)"
         },
         { "type": "paragraph", "text": "La réponse reprend la construction habituelle :" },
         { "type": "example", "ar": "هٰذِهِ سَاعَةُ حَامِدٍ.", "fr": "Ceci est la montre de Ḥāmid." },
-        { "type": "note", "text": "On dit {ar|هٰذِهِ} parce que {ar|سَاعَةٌ} est un nom féminin." }
+        { "type": "note", "text": "On dit {ar|هٰذِهِ} parce que {ar|سَاعَةٌ} est un nom féminin." },
+        {
+          "type": "paragraph",
+          "text": "Dans la question suivante, {ar|هٰذِهِ السَّيَّارَةُ} veut dire « cette voiture » : devant un nom avec l'article, le démonstratif forme un groupe, comme {ar|هٰذَا الْكِتَابُ} (chapitre 3). Sans l'article, {ar|هٰذِهِ سَيَّارَةٌ} est une phrase : « ceci est une voiture »."
+        }
       ]
     },
     {
       "id": "medine-t1.l07.dialogue-2#4",
       "type": "question",
-      "prompt": { "fr": "Qu'est-ce que Saʿīd montre en premier, là-bas ?" },
+      "prompt": { "fr": "Sur quoi Saʿīd interroge-t-il ʿAlī en premier ?" },
       "choices": [ { "fr": "Un œuf" }, { "fr": "Un coq" }, { "fr": "Un canard" } ],
       "answer": 0,
       "context": { "dialogue": "medine-t1.l07.dialogue-2#1" },
