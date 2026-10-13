@@ -1,0 +1,172 @@
+{
+  "id": "medine-t1.l06.plurals-1",
+  "type": "vocabulary",
+  "title": "Les pluriels",
+  "icon": "flower",
+  "screens": [
+    {
+      "id": "medine-t1.l06.plurals-1#1",
+      "type": "tip",
+      "title": "Le pluriel en « -āt »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais déjà le pluriel en « -āt » (chapitres 4 et 5) : on retire le {ar|ة} et on ajoute {ar|◌َاتٌ}. Il est surtout celui des noms féminins."
+        },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|دَرَّاجَةٌ}", "{ar|دَرَّاجَاتٌ}", "vélo"],
+            ["{ar|ثَلَّاجَةٌ}", "{ar|ثَلَّاجَاتٌ}", "réfrigérateur"],
+            ["{ar|أُمٌّ}", "{ar|أُمَّهَاتٌ}", "mère"],
+            ["{ar|أُخْتٌ}", "{ar|أَخَوَاتٌ}", "sœur"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour {ar|أُمٌّ} et {ar|أُخْتٌ}, qui n'ont pas de {ar|ة}, le mot change un peu : on apprend ces pluriels avec le mot."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.plurals-1#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:darraja", "w:thallaja", "w:umm", "w:ukht"]
+    },
+    {
+      "id": "medine-t1.l06.plurals-1#3",
+      "type": "tip",
+      "title": "Des pluriels de forme longue, sans tanwin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme {ar|مَدَارِسُ} et {ar|حَقَائِبُ} (chapitres 4 et 5), ces pluriels ont une forme « longue » : un alif suivi de deux ou trois lettres. Ils n'ont en général pas de tanwin (voir la note sur {ar|مَكَاوٍ})."
+        },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|مِلْعَقَةٌ}", "{ar|مَلَاعِقُ}", "cuillère"],
+            ["{ar|نَافِذَةٌ}", "{ar|نَوَافِذُ}", "fenêtre"],
+            ["{ar|الْمَشْرِقُ}", "{ar|مَشَارِقُ}", "Orient"],
+            ["{ar|مِكْوَاةٌ}", "{ar|مَكَاوٍ}", "fer à repasser"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le pluriel de {ar|مِكْوَاةٌ} est de la même famille, mais son {ar|ي} final est remplacé par le tanwin {ar|◌ٍ} quand il est indéfini (au nominatif et au génitif) : {ar|مَكَاوٍ}. C'est la seule exception de ce tableau : on l'apprend avec le mot."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.plurals-1#4",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:milaqa", "w:nafidha", "w:mashriq", "w:mikwat"]
+    },
+    {
+      "id": "medine-t1.l06.plurals-1#5",
+      "type": "question",
+      "prompt": { "fr": "Lequel de ces pluriels n'a pas de tanwin ?" },
+      "choices": [ { "ar": "مَلَاعِقُ" }, { "ar": "دَرَّاجَاتٌ" }, { "ar": "قُدُورٌ" } ],
+      "answer": 0,
+      "explain": "{ar|مَلَاعِقُ} a une forme longue : il est privé de tanwin. {ar|دَرَّاجَاتٌ} et {ar|قُدُورٌ} ont le tanwin."
+    },
+    {
+      "id": "medine-t1.l06.plurals-1#6",
+      "type": "tip",
+      "title": "D'autres pluriels brisés",
+      "blocks": [
+        { "type": "paragraph", "text": "Voici cinq pluriels qui changent la forme du mot. Ils portent le tanwin." },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [
+            ["{ar|قِدْرٌ}", "{ar|قُدُورٌ}", "marmite"],
+            ["{ar|رِجْلٌ}", "{ar|أَرْجُلٌ}", "jambe"],
+            ["{ar|أُذُنٌ}", "{ar|آذَانٌ}", "oreille"],
+            ["{ar|أَنْفٌ}", "{ar|أُنُوفٌ}", "nez"],
+            ["{ar|سَرِيعٌ}", "{ar|سِرَاعٌ}", "rapide"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|آذَانٌ} commence par une madda ({ar|آ}), un alif et une hamza collés, comme {ar|آبَاءٌ} (chapitre 3)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.plurals-1#7",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:qidr", "w:rijl", "w:udhun", "w:anf", "w:sari"]
+    },
+    {
+      "id": "medine-t1.l06.plurals-1#8",
+      "type": "tip",
+      "title": "Les personnes et les noms collectifs",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le pluriel en « -ūna » est celui de certains noms de personnes, au masculin : un groupe d'hommes ou un groupe mixte, comme {ar|مُدَرِّسُونَ} (chapitre 1). Beaucoup de noms de personnes ont un autre pluriel (par exemple {ar|رِجَالٌ} pour {ar|رَجُلٌ})."
+        },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Français"],
+          "rows": [["{ar|فَلَّاحٌ}", "{ar|فَلَّاحُونَ}", "paysan"], ["{ar|مُسْلِمٌ}", "{ar|مُسْلِمُونَ}", "musulman"]]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains noms ont pour pluriel un **nom collectif** : le nom du groupe, sans {ar|ة}. C'est le cas de {ar|بَقَرَةٌ} → {ar|بَقَرٌ} et de {ar|دَجَاجَةٌ} → {ar|دَجَاجٌ}, comme {ar|سَمَكَةٌ} → {ar|سَمَكٌ} (chapitre 3)."
+        },
+        {
+          "type": "note",
+          "text": "Le pluriel d'un nom de **chose** s'accorde en général comme un féminin singulier : {ar|الْكُتُبُ جَدِيدَةٌ} (les livres sont neufs)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.plurals-1#9",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:fallah", "w:muslim", "w:baqara", "w:dajaja"]
+    },
+    {
+      "id": "medine-t1.l06.plurals-1#10",
+      "type": "question",
+      "prompt": { "fr": "Lequel de ces pluriels est un pluriel de personnes en « -ūna » ?" },
+      "choices": [ { "ar": "فَلَّاحُونَ" }, { "ar": "قُدُورٌ" }, { "ar": "ثَلَّاجَاتٌ" } ],
+      "answer": 0,
+      "explain": "{ar|فَلَّاحُونَ} est le pluriel de {ar|فَلَّاحٌ} (un paysan), un nom de personne. {ar|قُدُورٌ} (des marmites) et {ar|ثَلَّاجَاتٌ} (des réfrigérateurs) sont des pluriels de choses."
+    },
+    {
+      "id": "medine-t1.l06.plurals-1#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des vélos",
+      "answers": ["دَرَّاجَاتٌ"]
+    },
+    {
+      "id": "medine-t1.l06.plurals-1#12",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:milaqa", "w:qidr", "w:anf", "w:fallah", "w:umm"]
+    },
+    {
+      "id": "medine-t1.l06.plurals-1#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des fenêtres",
+      "answers": ["نَوَافِذُ"]
+    },
+    {
+      "id": "medine-t1.l06.plurals-1#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des musulmans",
+      "answers": ["مُسْلِمُونَ"]
+    }
+  ]
+}

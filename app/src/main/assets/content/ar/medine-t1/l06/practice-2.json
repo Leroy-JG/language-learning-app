@@ -1,0 +1,102 @@
+{
+  "id": "medine-t1.l06.practice-2",
+  "type": "grammar",
+  "title": "Repère le féminin",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l06.practice-2#1",
+      "type": "tip",
+      "title": "Exercice : le genre des noms",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour trouver le genre d'un nom, observe sa fin. En général, un nom qui porte un signe du féminin est féminin. Un nom sans signe est masculin, sauf les noms de femmes et les féminins « sans règle »."
+        },
+        {
+          "type": "table",
+          "header": ["Nom", "Genre", "Pourquoi ?"],
+          "rows": [
+            ["{ar|بَيْتٌ}", "masculin", "aucun signe"],
+            ["{ar|مَدْرَسَةٌ}", "féminin", "signe {ar|ة}"],
+            ["{ar|زَيْنَبُ}", "féminin", "prénom de femme"],
+            ["{ar|يَدٌ}", "féminin", "féminin sans règle"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.practice-2#2",
+      "type": "sort",
+      "categories": [ { "fr": "masculin" }, { "fr": "féminin" } ],
+      "cards": [
+        { "item": "w:bab", "category": 0 },
+        { "item": "w:ghurfa", "category": 1 },
+        { "item": "w:miftah", "category": 0 },
+        { "item": "w:tawila", "category": 1 },
+        { "item": "w:jamia", "category": 1 },
+        { "item": "w:maktab", "category": 0 },
+        { "item": "w:yad", "category": 1 }
+      ],
+      "instruction": "Range chaque nom : masculin ou féminin ?",
+      "explain": "Les noms en {ar|ة} sont le plus souvent féminins ({ar|غُرْفَةٌ}, {ar|طَاوِلَةٌ}, {ar|جَامِعَةٌ}), et {ar|يَدٌ} aussi, sans {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l06.practice-2#3",
+      "type": "spot",
+      "instruction": "Touche le nom féminin.",
+      "words": ["مَكْتَبٌ", "وَطَاوِلَةٌ", "وَقَلَمٌ"],
+      "answers": [1],
+      "fr": "Un bureau, une table et un stylo.",
+      "explain": "{ar|طَاوِلَةٌ} porte le signe {ar|ة} : elle est féminine. {ar|مَكْتَبٌ} et {ar|قَلَمٌ} sont masculins."
+    },
+    {
+      "id": "medine-t1.l06.practice-2#4",
+      "type": "question",
+      "prompt": { "fr": "Quel démonstratif utilise-t-on devant {ar|يَدٌ} (une main) ?" },
+      "choices": [ { "ar": "هٰذِهِ" }, { "ar": "هٰذَا" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|يَدٌ} est féminin, bien qu'il ne se termine pas par {ar|ة} : {ar|هٰذِهِ يَدٌ}."
+    },
+    {
+      "id": "medine-t1.l06.practice-2#5",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ الْغُرْفَةُ؟ {0} هُنَاكَ.",
+      "fr": "Où est la chambre ? Elle est là-bas.",
+      "gaps": [ { "answers": ["هِيَ"] } ],
+      "options": ["هِيَ", "هُوَ"],
+      "explain": "{ar|الْغُرْفَةُ} est féminin : on la reprend par {ar|هِيَ}."
+    },
+    {
+      "id": "medine-t1.l06.practice-2#6",
+      "type": "true_false",
+      "statement": { "fr": "{ar|يَدٌ} est masculin parce qu'il ne se termine pas par {ar|ة}." },
+      "answer": false,
+      "explain": "{ar|يَدٌ} fait partie des noms féminins « sans règle » : {ar|هٰذِهِ يَدٌ}."
+    },
+    {
+      "id": "medine-t1.l06.practice-2#7",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ الْمِفْتَاحُ؟ {0} عَلَى الْمَكْتَبِ.",
+      "fr": "Où est la clé ? Elle est sur le bureau.",
+      "gaps": [ { "answers": ["هُوَ"] } ],
+      "options": ["هُوَ", "هِيَ"],
+      "explain": "{ar|الْمِفْتَاحُ} est masculin : on le reprend par {ar|هُوَ} (en français, « clé » est féminin)."
+    },
+    {
+      "id": "medine-t1.l06.practice-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ceci est une main.",
+      "answers": ["هٰذِهِ يَدٌ."]
+    },
+    {
+      "id": "medine-t1.l06.practice-2#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Où est la table ? Elle est dans la cuisine.",
+      "answers": ["أَيْنَ الطَّاوِلَةُ؟ هِيَ فِي الْمَطْبَخِ."]
+    }
+  ]
+}

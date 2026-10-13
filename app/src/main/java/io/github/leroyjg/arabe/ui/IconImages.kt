@@ -66,6 +66,17 @@ object IconImages {
         "girl" to R.drawable.icon_girl,
         "elder" to R.drawable.icon_elder,
         "road" to R.drawable.icon_road,
+        "bicycle" to R.drawable.icon_bicycle,
+        "spoon" to R.drawable.icon_spoon,
+        "window" to R.drawable.icon_window,
+        "ear" to R.drawable.icon_ear,
+        "nose" to R.drawable.icon_nose,
+        "leg" to R.drawable.icon_leg,
+        "cow" to R.drawable.icon_cow,
+        "farmer" to R.drawable.icon_farmer,
+        "tea" to R.drawable.icon_tea,
+        "hen" to R.drawable.icon_hen,
+        "pot" to R.drawable.icon_pot,
     )
 
     @DrawableRes

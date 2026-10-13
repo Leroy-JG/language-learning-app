@@ -1,7 +1,7 @@
 # Lurata — règles du projet
 
 App Android personnelle pour apprendre l'arabe (interface en français), inspirée de Busuu et de
-Duolingo, **100 % hors ligne**. Cursus : Tomes de Médine (tome 1, leçons 1 à 5 publiées pour
+Duolingo, **100 % hors ligne**. Cursus : Tomes de Médine (tome 1, leçons 1 à 6 publiées pour
 l'instant), à partir des supports PDF du professeur de l'utilisateur. Le but est aussi de **donner
 envie** d'apprendre l'arabe : la qualité du design, de l'UX et des animations compte.
 
@@ -116,6 +116,7 @@ Lire une plage (`Read` avec `offset`/`limit`) plutôt que des fichiers entiers.
   `docs/licenses/OpenMoji.txt`. Ajouter une icône : voir `tools/render_icons.js`.
 - `tools/deja_enseigne.py` (mots déjà enseignés, 1 ligne chacun) et `tools/nouveau_chapitre.py`
   (squelette de chapitre), `tools/controle_qualite.py` (typographie, structure) : économisent beaucoup de lecture pour une nouvelle leçon.
+- `tools/generateur_contenu.py` (écrire un chapitre en Python plutôt qu'en JSON à la main) et `tools/lire_chapitre.py` (affichage lisible d'un chapitre pour la relecture) : voir la procédure `nouvelle-lecon`.
 - `tools/make_sounds.py` : génère les effets sonores `res/raw/sfx_*.wav`.
 
 ## Reste à faire (par ordre de priorité)

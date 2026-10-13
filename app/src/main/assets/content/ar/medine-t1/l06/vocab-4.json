@@ -1,0 +1,71 @@
+{
+  "id": "medine-t1.l06.vocab-4",
+  "type": "vocabulary",
+  "title": "Le corps et la famille",
+  "icon": "ear",
+  "screens": [
+    { "id": "medine-t1.l06.vocab-4#1", "type": "present", "item": "w:udhun" },
+    { "id": "medine-t1.l06.vocab-4#2", "type": "present", "item": "w:rijl" },
+    {
+      "id": "medine-t1.l06.vocab-4#3",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:udhun",
+      "distractors": ["w:ayn", "w:yad"]
+    },
+    { "id": "medine-t1.l06.vocab-4#4", "type": "present", "item": "w:anf" },
+    {
+      "id": "medine-t1.l06.vocab-4#5",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:anf",
+      "distractors": ["w:fam", "w:ayn"]
+    },
+    { "id": "medine-t1.l06.vocab-4#6", "type": "present", "item": "w:umm" },
+    { "id": "medine-t1.l06.vocab-4#7", "type": "present", "item": "w:ukht" },
+    {
+      "id": "medine-t1.l06.vocab-4#8",
+      "type": "memory",
+      "mode": "icon-ar",
+      "items": ["w:udhun", "w:rijl", "w:anf", "w:ayn", "w:yad"]
+    },
+    {
+      "id": "medine-t1.l06.vocab-4#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:udhun", "w:rijl", "w:anf", "w:umm", "w:ukht"]
+    },
+    {
+      "id": "medine-t1.l06.vocab-4#10",
+      "type": "true_false",
+      "statement": { "ar": "هٰذِهِ رِجْلٌ.", "fr": "Ceci est une jambe." },
+      "answer": false,
+      "context": { "icon": "nose" },
+      "explain": "L'image montre un nez : {ar|هٰذَا أَنْفٌ}."
+    },
+    {
+      "id": "medine-t1.l06.vocab-4#11",
+      "type": "fill_gap",
+      "sentence": "{0} أَنْفٌ وَهٰذِهِ أُذُنٌ.",
+      "fr": "Ceci est un nez et ceci est une oreille.",
+      "gaps": [ { "answers": ["هٰذَا"] } ],
+      "options": ["هٰذَا", "هٰذِهِ"],
+      "explain": "{ar|أَنْفٌ} est masculin, {ar|أُذُنٌ} est féminin."
+    },
+    {
+      "id": "medine-t1.l06.vocab-4#12",
+      "type": "order",
+      "fr": "Ceci est une main et ceci est une jambe.",
+      "answers": [["هٰذِهِ", "يَدٌ", "وَهٰذِهِ", "رِجْلٌ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.l06.vocab-4#13", "type": "typing", "ask": "fr", "item": "w:umm" },
+    {
+      "id": "medine-t1.l06.vocab-4#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est la sœur de Zayd.",
+      "answers": ["هٰذِهِ أُخْتُ زَيْدٍ."]
+    }
+  ]
+}

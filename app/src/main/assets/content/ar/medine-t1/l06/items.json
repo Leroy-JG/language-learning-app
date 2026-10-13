@@ -1,0 +1,429 @@
+[
+  {
+    "id": "w:hadhihi",
+    "kind": "word",
+    "ar": "هٰذِهِ",
+    "fr": "ceci, celle-ci (féminin, proche)",
+    "translit": "hādhihi",
+    "note": "Le féminin de {ar|هٰذَا}. Elle désigne une chose ou une personne **féminine**, au **singulier** et **proche**.",
+    "example": { "ar": "هٰذِهِ بِنْتٌ.", "fr": "C'est une fille." }
+  },
+  {
+    "id": "p:ma-hadhihi",
+    "kind": "phrase",
+    "ar": "مَا هٰذِهِ؟",
+    "fr": "Qu'est-ce que c'est ? (nom féminin)",
+    "translit": "mā hādhihi"
+  },
+  {
+    "id": "p:man-hadhihi",
+    "kind": "phrase",
+    "ar": "مَنْ هٰذِهِ؟",
+    "fr": "Qui est-ce ? (une femme, une fille)",
+    "translit": "man hādhihi"
+  },
+  {
+    "id": "w:muannath",
+    "kind": "word",
+    "ar": "الْمُؤَنَّثُ",
+    "fr": "le féminin (genre)",
+    "translit": "al-muʾannathu",
+    "gender": "m",
+    "note": "Un nom féminin se dit {ar|اِسْمٌ مُؤَنَّثٌ}.",
+    "example": { "ar": "فَاطِمَةُ اِسْمٌ مُؤَنَّثٌ.", "fr": "Fāṭima est un nom féminin." }
+  },
+  {
+    "id": "w:mudhakkar",
+    "kind": "word",
+    "ar": "الْمُذَكَّرُ",
+    "fr": "le masculin (genre)",
+    "translit": "al-mudhakkaru",
+    "gender": "m",
+    "note": "Un nom masculin se dit {ar|اِسْمٌ مُذَكَّرٌ}.",
+    "example": { "ar": "مُحَمَّدٌ اِسْمٌ مُذَكَّرٌ.", "fr": "Muḥammad est un nom masculin." }
+  },
+  {
+    "id": "w:muslim",
+    "kind": "word",
+    "ar": "مُسْلِمٌ",
+    "fr": "un musulman",
+    "translit": "muslimun",
+    "plural": "مُسْلِمُونَ",
+    "gender": "m",
+    "example": { "ar": "هُوَ مُسْلِمٌ.", "fr": "Il est musulman." }
+  },
+  {
+    "id": "w:muslima",
+    "kind": "word",
+    "ar": "مُسْلِمَةٌ",
+    "fr": "une musulmane",
+    "translit": "muslimatun",
+    "gender": "f",
+    "note": "Le féminin de {ar|مُسْلِمٌ} : on ajoute {ar|ة}.",
+    "example": { "ar": "هِيَ مُسْلِمَةٌ.", "fr": "Elle est musulmane." }
+  },
+  {
+    "id": "w:talibat",
+    "kind": "word",
+    "ar": "طَالِبَةٌ",
+    "fr": "une étudiante",
+    "translit": "ṭālibatun",
+    "gender": "f",
+    "note": "Le féminin de {ar|طَالِبٌ} : on ajoute {ar|ة}.",
+    "example": { "ar": "آمِنَةُ طَالِبَةٌ.", "fr": "Āmina est étudiante." }
+  },
+  {
+    "id": "w:tabiba",
+    "kind": "word",
+    "ar": "طَبِيبَةٌ",
+    "fr": "une femme médecin",
+    "translit": "ṭabībatun",
+    "gender": "f",
+    "note": "Le féminin de {ar|طَبِيبٌ} : on ajoute {ar|ة}.",
+    "example": { "ar": "فَاطِمَةُ طَبِيبَةٌ.", "fr": "Fāṭima est médecin." }
+  },
+  {
+    "id": "w:mudarrisa",
+    "kind": "word",
+    "ar": "مُدَرِّسَةٌ",
+    "fr": "une enseignante",
+    "translit": "mudarrisatun",
+    "gender": "f",
+    "note": "Le féminin de {ar|مُدَرِّسٌ} : on ajoute {ar|ة}.",
+    "example": { "ar": "فَاطِمَةُ مُدَرِّسَةٌ.", "fr": "Fāṭima est enseignante." }
+  },
+  {
+    "id": "w:muhandisa",
+    "kind": "word",
+    "ar": "مُهَنْدِسَةٌ",
+    "fr": "une ingénieure",
+    "translit": "muhandisatun",
+    "gender": "f",
+    "note": "Le féminin de {ar|مُهَنْدِسٌ} : on ajoute {ar|ة}.",
+    "example": { "ar": "هِيَ مُهَنْدِسَةٌ.", "fr": "Elle est ingénieure." }
+  },
+  {
+    "id": "w:dhikra",
+    "kind": "word",
+    "ar": "ذِكْرَى",
+    "fr": "un souvenir",
+    "translit": "dhikrā",
+    "gender": "f",
+    "note": "Mot féminin : il se termine par un {ar|ى} (alif maqṣūra), l'un des trois signes du féminin.",
+    "example": { "ar": "هٰذِهِ ذِكْرَى.", "fr": "C'est un souvenir." }
+  },
+  {
+    "id": "w:sahra",
+    "kind": "word",
+    "ar": "صَحْرَاءُ",
+    "fr": "un désert",
+    "translit": "ṣaḥrāʾu",
+    "gender": "f",
+    "note": "Mot féminin : il se termine par un alif suivi d'une hamza ({ar|اءُ}), l'un des trois signes du féminin. Il n'a pas de tanwin.",
+    "example": { "ar": "هٰذِهِ صَحْرَاءُ.", "fr": "C'est un désert." }
+  },
+  {
+    "id": "w:jamil",
+    "kind": "word",
+    "ar": "جَمِيلٌ",
+    "fr": "beau, joli",
+    "translit": "jamīlun",
+    "note": "Au féminin : {ar|جَمِيلَةٌ}.",
+    "example": { "ar": "الْقَمَرُ جَمِيلٌ.", "fr": "La lune est belle." }
+  },
+  {
+    "id": "w:sari",
+    "kind": "word",
+    "ar": "سَرِيعٌ",
+    "fr": "rapide",
+    "translit": "sarīʿun",
+    "plural": "سِرَاعٌ",
+    "note": "Au féminin : {ar|سَرِيعَةٌ}.",
+    "example": { "ar": "الْحِصَانُ سَرِيعٌ.", "fr": "Le cheval est rapide." }
+  },
+  {
+    "id": "w:qadim",
+    "kind": "word",
+    "ar": "قَدِيمٌ",
+    "fr": "ancien, vieux",
+    "translit": "qadīmun",
+    "note": "Le contraire de {ar|جَدِيدٌ}. Au féminin : {ar|قَدِيمَةٌ}.",
+    "example": { "ar": "الْبَيْتُ قَدِيمٌ.", "fr": "La maison est ancienne." }
+  },
+  {
+    "id": "w:marid",
+    "kind": "word",
+    "ar": "مَرِيضٌ",
+    "fr": "malade",
+    "translit": "marīḍun",
+    "note": "Au féminin : {ar|مَرِيضَةٌ}.",
+    "example": { "ar": "الطَّالِبُ مَرِيضٌ.", "fr": "L'étudiant est malade." }
+  },
+  {
+    "id": "w:harr",
+    "kind": "word",
+    "ar": "حَارٌّ",
+    "fr": "chaud",
+    "translit": "ḥārrun",
+    "note": "Le {ar|ر} est doublé (shadda). Au féminin : {ar|حَارَّةٌ}.",
+    "example": { "ar": "الْمَاءُ حَارٌّ.", "fr": "L'eau est chaude." }
+  },
+  {
+    "id": "w:jiddan",
+    "kind": "word",
+    "ar": "جِدًّا",
+    "fr": "très, beaucoup",
+    "translit": "jiddan",
+    "note": "Il se place après l'adjectif qu'il renforce, et ne change jamais de forme.",
+    "example": { "ar": "الْحِصَانُ سَرِيعٌ جِدًّا.", "fr": "Le cheval est très rapide." }
+  },
+  {
+    "id": "w:aydan",
+    "kind": "word",
+    "ar": "أَيْضًا",
+    "fr": "aussi, également",
+    "translit": "ayḍan",
+    "note": "Il ne change jamais de forme.",
+    "example": { "ar": "زَيْدٌ أَيْضًا مِنْ فَرَنْسَا.", "fr": "Zayd aussi vient de France." }
+  },
+  {
+    "id": "w:milaqa",
+    "kind": "word",
+    "ar": "مِلْعَقَةٌ",
+    "fr": "une cuillère",
+    "translit": "milʿaqatun",
+    "plural": "مَلَاعِقُ",
+    "icon": "spoon",
+    "gender": "f",
+    "example": { "ar": "الْمِلْعَقَةُ عَلَى الطَّاوِلَةِ.", "fr": "La cuillère est sur la table." }
+  },
+  {
+    "id": "w:qidr",
+    "kind": "word",
+    "ar": "قِدْرٌ",
+    "fr": "une marmite",
+    "translit": "qidrun",
+    "plural": "قُدُورٌ",
+    "icon": "pot",
+    "gender": "f",
+    "note": "Mot féminin, bien qu'il ne se termine pas par {ar|ة}.",
+    "example": { "ar": "الْمِلْعَقَةُ فِي الْقِدْرِ.", "fr": "La cuillère est dans la marmite." }
+  },
+  {
+    "id": "w:thallaja",
+    "kind": "word",
+    "ar": "ثَلَّاجَةٌ",
+    "fr": "un réfrigérateur",
+    "translit": "thallājatun",
+    "plural": "ثَلَّاجَاتٌ",
+    "gender": "f",
+    "example": { "ar": "الثَّلَّاجَةُ فِي الْمَطْبَخِ.", "fr": "Le réfrigérateur est dans la cuisine." }
+  },
+  {
+    "id": "w:shay",
+    "kind": "word",
+    "ar": "شَايٌ",
+    "fr": "du thé",
+    "translit": "shāyun",
+    "icon": "tea",
+    "gender": "m",
+    "note": "Nom de matière : on dit « du thé ».",
+    "example": { "ar": "الشَّايُ فِي الْبَيْتِ.", "fr": "Le thé est dans la maison." }
+  },
+  {
+    "id": "w:qahwa",
+    "kind": "word",
+    "ar": "قَهْوَةٌ",
+    "fr": "du café",
+    "translit": "qahwatun",
+    "gender": "f",
+    "example": { "ar": "الْقَهْوَةُ فِي الْمَطْبَخِ.", "fr": "Le café est dans la cuisine." }
+  },
+  {
+    "id": "w:mikwat",
+    "kind": "word",
+    "ar": "مِكْوَاةٌ",
+    "fr": "un fer à repasser",
+    "translit": "mikwātun",
+    "plural": "مَكَاوٍ",
+    "gender": "f",
+    "note": "Le pluriel {ar|مَكَاوٍ} perd son {ar|ي} final : un tanwin {ar|◌ٍ} le remplace quand il est indéfini (au nominatif et au génitif).",
+    "example": { "ar": "الْمِكْوَاةُ جَدِيدَةٌ.", "fr": "Le fer à repasser est neuf." }
+  },
+  {
+    "id": "w:fallah",
+    "kind": "word",
+    "ar": "فَلَّاحٌ",
+    "fr": "un paysan",
+    "translit": "fallāḥun",
+    "plural": "فَلَّاحُونَ",
+    "icon": "farmer",
+    "gender": "m",
+    "example": { "ar": "الْفَلَّاحُ فِي السُّوقِ.", "fr": "Le paysan est au marché." }
+  },
+  {
+    "id": "w:baqara",
+    "kind": "word",
+    "ar": "بَقَرَةٌ",
+    "fr": "une vache",
+    "translit": "baqaratun",
+    "plural": "بَقَرٌ",
+    "icon": "cow",
+    "gender": "f",
+    "note": "Le pluriel {ar|بَقَرٌ} est un nom collectif : il désigne les vaches, ou les bovins en général.",
+    "example": { "ar": "هٰذِهِ بَقَرَةُ الْفَلَّاحِ.", "fr": "C'est la vache du paysan." }
+  },
+  {
+    "id": "w:dajaja",
+    "kind": "word",
+    "ar": "دَجَاجَةٌ",
+    "fr": "une poule",
+    "translit": "dajājatun",
+    "plural": "دَجَاجٌ",
+    "icon": "hen",
+    "gender": "f",
+    "note": "Le coq se dit {ar|دِيكٌ} : c'est un autre mot. Le pluriel {ar|دَجَاجٌ} est un nom collectif : il désigne les poules et les poulets.",
+    "example": { "ar": "هٰذَا دِيكٌ وَهٰذِهِ دَجَاجَةٌ.", "fr": "Ceci est un coq et ceci est une poule." }
+  },
+  {
+    "id": "w:naqa",
+    "kind": "word",
+    "ar": "نَاقَةٌ",
+    "fr": "une chamelle",
+    "translit": "nāqatun",
+    "gender": "f",
+    "note": "La femelle du chameau ({ar|جَمَلٌ}). Ce n'est pas {ar|جَمَلٌ} avec {ar|ة} ajouté : c'est un autre mot.",
+    "example": { "ar": "هٰذَا جَمَلٌ وَهٰذِهِ نَاقَةٌ.", "fr": "Ceci est un chameau et ceci est une chamelle." }
+  },
+  {
+    "id": "w:darraja",
+    "kind": "word",
+    "ar": "دَرَّاجَةٌ",
+    "fr": "un vélo",
+    "translit": "darrājatun",
+    "plural": "دَرَّاجَاتٌ",
+    "icon": "bicycle",
+    "gender": "f",
+    "example": { "ar": "الدَّرَّاجَةُ جَدِيدَةٌ.", "fr": "Le vélo est neuf." }
+  },
+  {
+    "id": "w:nafidha",
+    "kind": "word",
+    "ar": "نَافِذَةٌ",
+    "fr": "une fenêtre",
+    "translit": "nāfidhatun",
+    "plural": "نَوَافِذُ",
+    "icon": "window",
+    "gender": "f",
+    "example": { "ar": "النَّافِذَةُ مَفْتُوحَةٌ.", "fr": "La fenêtre est ouverte." }
+  },
+  {
+    "id": "w:udhun",
+    "kind": "word",
+    "ar": "أُذُنٌ",
+    "fr": "une oreille",
+    "translit": "udhunun",
+    "plural": "آذَانٌ",
+    "icon": "ear",
+    "gender": "f",
+    "note": "Mot féminin sans {ar|ة}, comme la plupart des parties du corps qui vont par paire. Au pluriel, {ar|آذَانٌ} commence par une madda ({ar|آ}), comme {ar|آبَاءٌ}.",
+    "example": { "ar": "هٰذِهِ أُذُنٌ وَهٰذِهِ عَيْنٌ.", "fr": "Ceci est une oreille et ceci est un œil." }
+  },
+  {
+    "id": "w:rijl",
+    "kind": "word",
+    "ar": "رِجْلٌ",
+    "fr": "une jambe, un pied",
+    "translit": "rijlun",
+    "plural": "أَرْجُلٌ",
+    "icon": "leg",
+    "gender": "f",
+    "note": "Mot féminin sans {ar|ة}, comme la plupart des parties du corps qui vont par paire.",
+    "example": { "ar": "هٰذِهِ يَدٌ وَهٰذِهِ رِجْلٌ.", "fr": "Ceci est une main et ceci est une jambe." }
+  },
+  {
+    "id": "w:anf",
+    "kind": "word",
+    "ar": "أَنْفٌ",
+    "fr": "un nez",
+    "translit": "anfun",
+    "plural": "أُنُوفٌ",
+    "icon": "nose",
+    "gender": "m",
+    "note": "Mot masculin : le nez ne va pas par paire, contrairement aux yeux ou aux oreilles.",
+    "example": { "ar": "هٰذَا أَنْفٌ وَهٰذَا فَمٌ.", "fr": "Ceci est un nez et ceci est une bouche." }
+  },
+  {
+    "id": "w:umm",
+    "kind": "word",
+    "ar": "أُمٌّ",
+    "fr": "une mère",
+    "translit": "ummun",
+    "plural": "أُمَّهَاتٌ",
+    "gender": "f",
+    "note": "Mot féminin, bien qu'il ne se termine pas par {ar|ة} : il désigne une femme.",
+    "example": { "ar": "هٰذِهِ أُمُّ يَاسِرٍ.", "fr": "C'est la mère de Yāsir." }
+  },
+  {
+    "id": "w:ukht",
+    "kind": "word",
+    "ar": "أُخْتٌ",
+    "fr": "une sœur",
+    "translit": "ukhtun",
+    "plural": "أَخَوَاتٌ",
+    "gender": "f",
+    "note": "Mot féminin, bien qu'il ne se termine pas par {ar|ة} : il désigne une femme.",
+    "example": { "ar": "هٰذِهِ أُخْتُ زَيْدٍ.", "fr": "C'est la sœur de Zayd." }
+  },
+  {
+    "id": "w:li",
+    "kind": "word",
+    "ar": "لِ",
+    "fr": "à, pour (appartenance)",
+    "translit": "li-",
+    "note": "Une préposition ({ar|حَرْفُ جَرٍّ}) d'une seule lettre : elle se colle au début du mot qui suit. On l'appelle {ar|اللَّامُ الْمِلْكِيَّةُ} (« le lām de l'appartenance »).",
+    "example": { "ar": "هٰذَا الْكِتَابُ لِزَيْدٍ.", "fr": "Ce livre est à Zayd." }
+  },
+  {
+    "id": "p:li-man-hadha",
+    "kind": "phrase",
+    "ar": "لِمَنْ هٰذَا؟",
+    "fr": "À qui est-ce ?",
+    "translit": "li-man hādhā"
+  },
+  {
+    "id": "p:li-man-hadhihi",
+    "kind": "phrase",
+    "ar": "لِمَنْ هٰذِهِ؟",
+    "fr": "À qui est-ce ? (nom féminin)",
+    "translit": "li-man hādhihi"
+  },
+  {
+    "id": "w:mashriq",
+    "kind": "word",
+    "ar": "الْمَشْرِقُ",
+    "fr": "l'Orient, le Levant",
+    "translit": "al-mashriqu",
+    "plural": "مَشَارِقُ",
+    "gender": "m",
+    "note": "Le lieu où le soleil se lève. Il se rattache à la racine {ar|ش ر ق} (le lever du soleil) et suit le modèle des noms de lieux en {ar|مَ} (comme {ar|مَسْجِدٌ} et {ar|مَكْتَبٌ}, chapitre 4).",
+    "example": { "ar": "الصِّينُ فِي الْمَشْرِقِ.", "fr": "La Chine est en Orient." }
+  },
+  {
+    "id": "w:hamd",
+    "kind": "word",
+    "ar": "الْحَمْدُ",
+    "fr": "la louange",
+    "translit": "al-ḥamdu",
+    "gender": "m",
+    "example": { "ar": "الْحَمْدُ لِلَّهِ.", "fr": "Louange à Allah." }
+  },
+  {
+    "id": "p:alhamdu-lillah",
+    "kind": "phrase",
+    "ar": "الْحَمْدُ لِلَّهِ",
+    "fr": "Louange à Allah",
+    "translit": "al-ḥamdu li-llāhi",
+    "note": "Formule pour remercier Allah : on la dit dans toutes sortes de situations, par exemple après un repas."
+  }
+]

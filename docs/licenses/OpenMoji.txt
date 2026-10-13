@@ -17,5 +17,7 @@ school 1F3EB · bath 1F6C1 · toilet 1F6BD · kitchen 1F373 · university 1F393 
 kaaba 1F54B · japan 1F1EF-1F1F5 · france 1F1EB-1F1F7 · china 1F1E8-1F1F3 · india 1F1EE-1F1F3
 philippines 1F1F5-1F1ED · africa 1F30D
 car 1F697 · bag 1F4BC · notebook 1F4D3 · girl 1F467 · elder 1F474 · road 1F6E3
+bicycle 1F6B2 · spoon 1F944 · window 1FA9F · ear 1F442 · nose 1F443 · leg 1F9B5
+cow 1F404 · farmer 1F9D1-200D-1F33E · tea 1FAD6 · hen 1F414 · pot 1F372
 
 Images de l'interface : ui_flag 1F3C1 · ui_trophy 1F3C6

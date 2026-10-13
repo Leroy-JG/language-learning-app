@@ -1,0 +1,114 @@
+{
+  "id": "medine-t1.l06.dialogue-1",
+  "type": "dialogue",
+  "title": "Qui est-ce ? Qu'est-ce que c'est ?",
+  "icon": "girl",
+  "screens": [
+    {
+      "id": "medine-t1.l06.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Sur la photo",
+      "intro": "Saʿīd regarde une photo avec Maryam.",
+      "speakers": { "A": { "name": "Saʿīd", "voice": "m1" }, "B": { "name": "Maryam", "voice": "f1" } },
+      "lines": [
+        { "speaker": "A", "ar": "مَنْ هٰذَا؟", "fr": "Qui est-ce ?" },
+        { "speaker": "B", "ar": "هٰذَا اِبْنُ حَامِدٍ.", "fr": "C'est le fils de Ḥāmid." },
+        { "speaker": "A", "ar": "وَمَنْ هٰذِهِ؟", "fr": "Et qui est-ce ?" },
+        { "speaker": "B", "ar": "هٰذِهِ بِنْتُ يَاسِرٍ.", "fr": "C'est la fille de Yāsir." },
+        { "speaker": "A", "ar": "أَهِيَ جَالِسَةٌ؟", "fr": "Est-elle assise ?" },
+        {
+          "speaker": "B",
+          "ar": "لَا، هِيَ وَاقِفَةٌ. وَابْنُ حَامِدٍ جَالِسٌ.",
+          "fr": "Non, elle est debout. Et le fils de Ḥāmid est assis."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.dialogue-1#2",
+      "type": "dialogue",
+      "title": "La sœur de l'ingénieur",
+      "intro": "Saʿīd interroge ʿAlī sur d'autres personnes et d'autres objets.",
+      "speakers": { "A": { "name": "Saʿīd", "voice": "m1" }, "B": { "name": "ʿAlī", "voice": "m2" } },
+      "lines": [
+        { "speaker": "A", "ar": "مَنْ هٰذِهِ؟", "fr": "Qui est-ce ?" },
+        { "speaker": "B", "ar": "هٰذِهِ أُخْتُ الْمُهَنْدِسِ.", "fr": "C'est la sœur de l'ingénieur." },
+        { "speaker": "A", "ar": "أَهِيَ أَيْضًا مُهَنْدِسَةٌ؟", "fr": "Est-elle aussi ingénieure ?" },
+        { "speaker": "B", "ar": "لَا، هِيَ طَبِيبَةٌ.", "fr": "Non, elle est médecin." },
+        { "speaker": "A", "ar": "وَمَا هٰذِهِ؟", "fr": "Et qu'est-ce que c'est ?" },
+        { "speaker": "B", "ar": "هٰذِهِ مِكْوَاةٌ.", "fr": "C'est un fer à repasser." }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.dialogue-1#3",
+      "type": "tip",
+      "title": "Une question avec {ar|أَ} et {ar|هِيَ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans la seconde scène, Saʿīd demande {ar|أَهِيَ أَيْضًا مُهَنْدِسَةٌ؟}. La particule {ar|أَ} (« est-ce que… ? ») est collée au pronom {ar|هِيَ} (« elle »), et {ar|أَيْضًا} (« aussi ») se place juste après."
+        },
+        { "type": "example", "ar": "أَهِيَ أَيْضًا مُهَنْدِسَةٌ؟", "fr": "Est-elle aussi ingénieure ?" },
+        {
+          "type": "note",
+          "text": "Dans la première scène, {ar|وَاقِفَةٌ} et {ar|جَالِسَةٌ} ont le {ar|ة} parce qu'ils décrivent une fille ({ar|بِنْتُ يَاسِرٍ}), alors que {ar|جَالِسٌ} décrit le fils."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Qui est debout, d'après la première scène ?" },
+      "choices": [ { "fr": "La fille de Yāsir" }, { "fr": "Le fils de Ḥāmid" }, { "fr": "La sœur de l'ingénieur" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l06.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l06.dialogue-1#5",
+      "type": "question",
+      "prompt": { "fr": "Quel est le métier de la sœur de l'ingénieur ?" },
+      "choices": [ { "fr": "Elle est médecin" }, { "fr": "Elle est ingénieure" }, { "fr": "Elle est enseignante" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l06.dialogue-1#2" }
+    },
+    {
+      "id": "medine-t1.l06.dialogue-1#6",
+      "type": "true_false",
+      "statement": { "fr": "La sœur de l'ingénieur est ingénieure." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l06.dialogue-1#2" },
+      "explain": "ʿAlī répond {ar|لَا، هِيَ طَبِيبَةٌ} : elle est médecin."
+    },
+    {
+      "id": "medine-t1.l06.dialogue-1#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "وَمَنْ هٰذِهِ؟",
+      "answers": ["هٰذِهِ بِنْتُ يَاسِرٍ.", "بِنْتُ يَاسِرٍ."],
+      "fr": "C'est la fille de Yāsir.",
+      "context": { "dialogue": "medine-t1.l06.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l06.dialogue-1#8",
+      "type": "order",
+      "fr": "Non, elle est debout.",
+      "answers": [["لَا،", "هِيَ", "وَاقِفَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l06.dialogue-1#9",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ {0}.",
+      "fr": "C'est un fer à repasser.",
+      "gaps": [ { "answers": ["مِكْوَاةٌ"] } ],
+      "options": ["مِكْوَاةٌ", "مِلْعَقَةٌ", "ثَلَّاجَةٌ"],
+      "context": { "dialogue": "medine-t1.l06.dialogue-1#2" }
+    },
+    {
+      "id": "medine-t1.l06.dialogue-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Est-elle aussi ingénieure ? Non, elle est médecin.",
+      "answers": ["أَهِيَ أَيْضًا مُهَنْدِسَةٌ؟ لَا، هِيَ طَبِيبَةٌ."]
+    }
+  ]
+}

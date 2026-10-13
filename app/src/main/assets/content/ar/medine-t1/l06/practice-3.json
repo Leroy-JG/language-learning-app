@@ -1,0 +1,148 @@
+{
+  "id": "medine-t1.l06.practice-3",
+  "type": "grammar",
+  "title": "Accorde-les !",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l06.practice-3#1",
+      "type": "tip",
+      "title": "Exercice 3 : fais des phrases sur le modèle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 3 du livre donne un modèle au masculin et demande une phrase pareille au féminin. L'adjectif ou le nom prend le {ar|ة}."
+        },
+        { "type": "example", "ar": "مُحَمَّدٌ طَالِبٌ.", "fr": "Muḥammad est étudiant." },
+        { "type": "example", "ar": "آمِنَةُ طَالِبَةٌ.", "fr": "Āmina est étudiante." }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.practice-3#2",
+      "type": "fill_gap",
+      "sentence": "حَامِدٌ طَبِيبٌ وَفَاطِمَةُ {0}.",
+      "fr": "Ḥāmid est médecin et Fāṭima est médecin.",
+      "gaps": [ { "answers": ["طَبِيبَةٌ"] } ],
+      "options": ["طَبِيبَةٌ", "طَبِيبٌ"]
+    },
+    {
+      "id": "medine-t1.l06.practice-3#3",
+      "type": "order",
+      "fr": "La mosquée est loin et l'école est loin.",
+      "answers": [["الْمَسْجِدُ", "بَعِيدٌ", "وَالْمَدْرَسَةُ", "بَعِيدَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l06.practice-3#4",
+      "type": "fill_gap",
+      "sentence": "الْبَابُ مُغْلَقٌ وَالْغُرْفَةُ {0}.",
+      "fr": "La porte est fermée et la chambre est fermée.",
+      "gaps": [ { "answers": ["مُغْلَقَةٌ"] } ],
+      "options": ["مُغْلَقَةٌ", "مُغْلَقٌ"]
+    },
+    {
+      "id": "medine-t1.l06.practice-3#5",
+      "type": "spot",
+      "instruction": "Touche l'adjectif au féminin.",
+      "words": ["الْحِصَانُ", "سَرِيعٌ", "وَالسَّيَّارَةُ", "سَرِيعَةٌ."],
+      "answers": [3],
+      "fr": "Le cheval est rapide et la voiture est rapide.",
+      "explain": "{ar|سَرِيعَةٌ} a le {ar|ة} : il s'accorde avec {ar|السَّيَّارَةُ}, féminin."
+    },
+    {
+      "id": "medine-t1.l06.practice-3#6",
+      "type": "fill_gap",
+      "sentence": "الْقَمَرُ جَمِيلٌ وَالشَّمْسُ {0}.",
+      "fr": "La lune est belle et le soleil est beau.",
+      "gaps": [ { "answers": ["جَمِيلَةٌ"] } ],
+      "options": ["جَمِيلَةٌ", "جَمِيلٌ"]
+    },
+    {
+      "id": "medine-t1.l06.practice-3#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Āmina est étudiante.",
+      "answers": ["آمِنَةُ طَالِبَةٌ."]
+    },
+    {
+      "id": "medine-t1.l06.practice-3#8",
+      "type": "tip",
+      "title": "Exercice 4 : corrige les phrases",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 4 présente des phrases fausses à corriger. Le plus souvent, un mot ne s'accorde pas avec le genre du nom : on le remplace par la bonne forme."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Quand le nom est le **premier terme d'une annexion**, c'est lui qui commande l'accord : {ar|هٰذَا مِفْتَاحُ السَّيَّارَةِ} (la clé de la voiture) prend {ar|هٰذَا}, car {ar|مِفْتَاحٌ} est masculin, même si {ar|سَيَّارَةٌ} est féminin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.practice-3#9",
+      "type": "fill_gap",
+      "sentence": "الْغُرْفَةُ {0}.",
+      "fr": "La chambre est ouverte.",
+      "gaps": [ { "answers": ["مَفْتُوحَةٌ"] } ],
+      "options": ["مَفْتُوحَةٌ", "مَفْتُوحٌ"]
+    },
+    {
+      "id": "medine-t1.l06.practice-3#10",
+      "type": "fill_gap",
+      "sentence": "{0} سَيَّارَةُ الطَّبِيبِ.",
+      "fr": "Ceci est la voiture du médecin.",
+      "gaps": [ { "answers": ["هٰذِهِ"] } ],
+      "options": ["هٰذِهِ", "هٰذَا"],
+      "explain": "{ar|سَيَّارَةٌ} est le premier terme de l'annexion, et il est féminin : {ar|هٰذِهِ}."
+    },
+    {
+      "id": "medine-t1.l06.practice-3#11",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi dit-on {ar|هٰذَا مِفْتَاحُ السَّيَّارَةِ} (la clé de la voiture) avec {ar|هٰذَا} ?" },
+      "choices": [
+        { "fr": "Parce que {ar|مِفْتَاحٌ}, le mot désigné, est masculin" },
+        { "fr": "Parce que {ar|سَيَّارَةٌ} est féminin" },
+        { "fr": "Parce que la clé est loin" }
+      ],
+      "answer": 0,
+      "explain": "On désigne la clé : le démonstratif s'accorde avec {ar|مِفْتَاحٌ}, masculin, et non avec {ar|السَّيَّارَةِ}."
+    },
+    {
+      "id": "medine-t1.l06.practice-3#12",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ السَّيَّارَةُ؟ {0} فِي الشَّارِعِ.",
+      "fr": "Où est la voiture ? Elle est dans la rue.",
+      "gaps": [ { "answers": ["هِيَ"] } ],
+      "options": ["هِيَ", "هُوَ"]
+    },
+    {
+      "id": "medine-t1.l06.practice-3#13",
+      "type": "order",
+      "fr": "À qui est ce sac ?",
+      "answers": [["حَقِيبَةُ", "مَنْ", "هٰذِهِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l06.practice-3#14",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|حَقِيبَةُ مَنْ هٰذِهِ؟}, on dit {ar|هٰذِهِ} parce que {ar|حَقِيبَةٌ} est féminin." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l06.practice-3#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Où est la voiture ? Elle est dans la rue.",
+      "answers": ["أَيْنَ السَّيَّارَةُ؟ هِيَ فِي الشَّارِعِ."]
+    },
+    {
+      "id": "medine-t1.l06.practice-3#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est la voiture du médecin.",
+      "answers": ["هٰذِهِ سَيَّارَةُ الطَّبِيبِ."]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "medine-t1.l06.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 6",
+  "screens": [
+    {
+      "id": "medine-t1.l06.quiz#1",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:baqara",
+      "distractors": ["w:kalb", "w:jamal"]
+    },
+    {
+      "id": "medine-t1.l06.quiz#2",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:udhun", "w:rijl", "w:fallah", "w:thallaja", "w:nafidha"]
+    },
+    {
+      "id": "medine-t1.l06.quiz#3",
+      "type": "question",
+      "prompt": { "fr": "Combien de signes du féminin les grammairiens arabes comptent-ils ?" },
+      "choices": [ { "fr": "Trois" }, { "fr": "Deux" }, { "fr": "Quatre" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "Trois : {ar|ة}, {ar|ى} et l'alif suivi de la hamza."
+    },
+    {
+      "id": "medine-t1.l06.quiz#4",
+      "type": "question",
+      "prompt": { "fr": "Lequel de ces noms est masculin ?" },
+      "choices": [ { "ar": "أَنْفٌ" }, { "ar": "أُذُنٌ" }, { "ar": "رِجْلٌ" } ],
+      "answer": 0,
+      "explain": "{ar|أُذُنٌ} et {ar|رِجْلٌ} vont par paire : ils sont féminins. {ar|أَنْفٌ} (un nez) est masculin."
+    },
+    {
+      "id": "medine-t1.l06.quiz#5",
+      "type": "fill_gap",
+      "sentence": "الْمِلْعَقَةُ {0}.",
+      "fr": "La cuillère est neuve.",
+      "gaps": [ { "answers": ["جَدِيدَةٌ"] } ],
+      "options": ["جَدِيدَةٌ", "جَدِيدٌ"]
+    },
+    {
+      "id": "medine-t1.l06.quiz#6",
+      "type": "spot",
+      "instruction": "Touche le démonstratif féminin.",
+      "words": ["هٰذَا", "قَلَمٌ", "وَهٰذِهِ", "مِلْعَقَةٌ."],
+      "answers": [2],
+      "fr": "Ceci est un stylo et ceci est une cuillère."
+    },
+    {
+      "id": "medine-t1.l06.quiz#7",
+      "type": "sort",
+      "categories": [ { "fr": "masculin" }, { "fr": "féminin" } ],
+      "cards": [
+        { "item": "w:anf", "category": 0 },
+        { "item": "w:umm", "category": 1 },
+        { "item": "w:fallah", "category": 0 },
+        { "item": "w:baqara", "category": 1 },
+        { "item": "w:rijl", "category": 1 },
+        { "item": "w:shay", "category": 0 },
+        { "item": "w:qahwa", "category": 1 },
+        { "item": "w:ukht", "category": 1 }
+      ],
+      "instruction": "Ce nom est-il masculin ou féminin ?"
+    },
+    {
+      "id": "medine-t1.l06.quiz#8",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi dit-on {ar|هٰذَا حَمْزَةُ} (et non {ar|هٰذِهِ}) ?" },
+      "choices": [
+        { "fr": "Parce que c'est un prénom d'homme, donc masculin" },
+        { "fr": "Parce qu'il n'a pas de tanwin" },
+        { "fr": "Parce que le prénom est loin" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l06.quiz#9",
+      "type": "true_false",
+      "statement": { "fr": "En général, après {ar|لِ}, le nom prend la kasra : {ar|لِزَيْدٍ}." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l06.quiz#10",
+      "type": "order",
+      "fr": "À qui est cette montre ?",
+      "answers": [["لِمَنْ", "هٰذِهِ", "السَّاعَةُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l06.quiz#11",
+      "type": "mcq",
+      "mode": "audio-ar",
+      "item": "w:mikwat",
+      "distractors": ["w:milaqa", "w:qidr"]
+    },
+    {
+      "id": "medine-t1.l06.quiz#12",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:darraja", "w:nafidha", "w:udhun", "w:umm", "w:fallah"]
+    },
+    {
+      "id": "medine-t1.l06.quiz#13",
+      "type": "question",
+      "prompt": { "fr": "Quel est le féminin de {ar|جَمَلٌ} (un chameau) ?" },
+      "choices": [ { "ar": "نَاقَةٌ" }, { "ar": "دَجَاجَةٌ" }, { "ar": "بَقَرَةٌ" } ],
+      "answer": 0,
+      "explain": "{ar|نَاقَةٌ} est la femelle du chameau. {ar|دَجَاجَةٌ} est la poule, {ar|بَقَرَةٌ} la vache."
+    },
+    {
+      "id": "medine-t1.l06.quiz#14",
+      "type": "true_false",
+      "statement": { "fr": "{ar|مَاءٌ} se termine par une hamza : c'est donc un nom féminin." },
+      "answer": false,
+      "explain": "Dans {ar|مَاءٌ}, la hamza fait partie du mot : ce n'est pas un signe du féminin. {ar|مَاءٌ} est masculin."
+    },
+    {
+      "id": "medine-t1.l06.quiz#15",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا هٰذَا؟",
+      "answers": ["هٰذَا أَنْفٌ.", "أَنْفٌ."],
+      "fr": "C'est un nez.",
+      "instruction": "Réponds à la question en arabe.",
+      "context": { "icon": "nose" }
+    },
+    {
+      "id": "medine-t1.l06.quiz#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Cette vache est au paysan.",
+      "answers": ["هٰذِهِ الْبَقَرَةُ لِلْفَلَّاحِ."]
+    }
+  ]
+}

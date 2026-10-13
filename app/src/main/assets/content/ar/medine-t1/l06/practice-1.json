@@ -1,0 +1,97 @@
+{
+  "id": "medine-t1.l06.practice-1",
+  "type": "grammar",
+  "title": "Quel « ceci » choisir ?",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l06.practice-1#1",
+      "type": "tip",
+      "title": "Exercice du livre : lis et écris",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ton livre propose des phrases à lire puis à écrire. Voici la première phrase de la page de la leçon. Devant chaque nom, on choisit {ar|هٰذَا} ou {ar|هٰذِهِ} selon son genre."
+        },
+        {
+          "type": "example",
+          "ar": "هٰذَا اِبْنُ حَامِدٍ وَهٰذِهِ بِنْتُ يَاسِرٍ.",
+          "fr": "Ceci est le fils de Ḥāmid et ceci est la fille de Yāsir."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.practice-1#2",
+      "type": "fill_gap",
+      "sentence": "{0} مَسْجِدٌ وَهٰذِهِ مَدْرَسَةٌ.",
+      "fr": "Ceci est une mosquée et ceci est une école.",
+      "gaps": [ { "answers": ["هٰذَا"] } ],
+      "options": ["هٰذِهِ", "هٰذَا"],
+      "explain": "{ar|مَسْجِدٌ} est masculin, {ar|مَدْرَسَةٌ} est féminin."
+    },
+    {
+      "id": "medine-t1.l06.practice-1#3",
+      "type": "spot",
+      "instruction": "Touche le démonstratif féminin.",
+      "words": ["هٰذَا", "اِبْنُ", "الْمُدِيرِ", "وَهٰذِهِ", "بِنْتُ", "الْمُدَرِّسِ."],
+      "answers": [3],
+      "fr": "Ceci est le fils du directeur et ceci est la fille de l'enseignant.",
+      "explain": "{ar|وَهٰذِهِ} : le {ar|وَ} (et) est collé à {ar|هٰذِهِ}, qui désigne ici la fille ({ar|بِنْتُ})."
+    },
+    {
+      "id": "medine-t1.l06.practice-1#4",
+      "type": "order",
+      "fr": "Ceci est une fille et ceci est un garçon.",
+      "answers": [["هٰذِهِ", "بِنْتٌ", "وَهٰذَا", "وَلَدٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l06.practice-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Pour une personne de sexe féminin, on dit {ar|هٰذِهِ} : {ar|هٰذِهِ بِنْتٌ}." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l06.practice-1#6",
+      "type": "fill_gap",
+      "sentence": "{0} طَاوِلَةٌ وَهٰذَا مَكْتَبٌ.",
+      "fr": "Ceci est une table et ceci est un bureau.",
+      "gaps": [ { "answers": ["هٰذِهِ"] } ],
+      "options": ["هٰذِهِ", "هٰذَا"]
+    },
+    {
+      "id": "medine-t1.l06.practice-1#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ هٰذِهِ؟",
+      "answers": ["هٰذِهِ بِنْتٌ.", "بِنْتٌ."],
+      "fr": "C'est une fille.",
+      "instruction": "Réponds à la question en arabe.",
+      "context": { "icon": "girl" }
+    },
+    {
+      "id": "medine-t1.l06.practice-1#8",
+      "type": "order",
+      "fr": "Ceci est un livre et ceci est une chambre.",
+      "answers": [["هٰذَا", "كِتَابٌ", "وَهٰذِهِ", "غُرْفَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l06.practice-1#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا هٰذِهِ؟",
+      "answers": ["هٰذِهِ حَقِيبَةٌ.", "حَقِيبَةٌ."],
+      "fr": "C'est un sac.",
+      "instruction": "Réponds à la question en arabe.",
+      "context": { "icon": "bag" }
+    },
+    {
+      "id": "medine-t1.l06.practice-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est une voiture et ceci est une clé.",
+      "answers": ["هٰذِهِ سَيَّارَةٌ وَهٰذَا مِفْتَاحٌ."]
+    }
+  ]
+}

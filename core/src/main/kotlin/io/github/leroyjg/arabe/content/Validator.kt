@@ -521,16 +521,27 @@ class Validator(
 
         // ---------- contrôles globaux ----------
 
-        /** Pas de هٰذَا / ذٰلِكَ directement devant un nom marqué féminin (le féminin vient plus tard). */
+        /**
+         * Pas de هٰذَا / ذٰلِكَ directement devant un nom marqué féminin, ni de هٰذِهِ directement devant
+         * un nom marqué masculin (ذٰلِكَ n'a pas encore son féminin dans le cours).
+         */
         fun checkDemonstratives() {
             fun bare(s: String) = ArabicScript.lettersOnly(s)
-            val feminine = course.itemsById.values.filter { it.gender == Gender.FEMININE }.map { bare(it.ar) }.toSet()
-            val demonstratives = setOf("هذا", "ذلك", "اهذا", "اذلك", "أهذا", "أذلك", "وهذا", "وذلك")
+            // Deux mots de genres différents peuvent s'écrire pareil sans harakat (رَجُلٌ « un homme », رِجْلٌ « une jambe ») :
+            // on ne contrôle que les formes dont tous les éléments ont le même genre.
+            val gendersByForm = course.itemsById.values.filter { it.gender != null }.groupBy({ bare(it.ar) }, { it.gender })
+            val feminine = gendersByForm.filterValues { g -> g.all { it == Gender.FEMININE } }.keys
+            val masculine = gendersByForm.filterValues { g -> g.all { it == Gender.MASCULINE } }.keys
+            val masculineDemonstratives = setOf("هذا", "ذلك", "اهذا", "اذلك", "أهذا", "أذلك", "وهذا", "وذلك")
+            val feminineDemonstratives = setOf("هذه", "اهذه", "أهذه", "وهذه")
             for ((where, text) in arabicTexts) {
                 val words = ArabicScript.nfc(text).split(' ').map { bare(it) }
                 for ((a, b) in words.zipWithNext()) {
-                    if (a in demonstratives && (b in feminine || (b.startsWith("ال") && b.drop(2) in feminine))) {
+                    if (a in masculineDemonstratives && (b in feminine || (b.startsWith("ال") && b.drop(2) in feminine))) {
                         err(where, "démonstratif masculin devant un nom féminin : « $text »")
+                    }
+                    if (a in feminineDemonstratives && (b in masculine || (b.startsWith("ال") && b.drop(2) in masculine))) {
+                        err(where, "démonstratif féminin devant un nom masculin : « $text »")
                     }
                 }
             }

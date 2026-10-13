@@ -101,6 +101,19 @@ Les relecteurs les ont tous trouvés ; autant les éviter dès l'écriture.
   exercices, français/pédagogie, fidélité au PDF) → vérification personnelle de chaque remarque →
   corrections → 2e relecture ciblée sur le diff → docs → push → CI.
 
+## 2 ter. Pièges rencontrés au chapitre 6 (genre et appartenance)
+
+- **Générer le JSON par script** : `tools/generateur_contenu.py` (builders `tip`, `fill`, `sort`, `activity`, `item`… ; ids d'écran numérotés automatiquement ; mise en forme compacte comme les fichiers existants ; espaces insécables avant ? ! : ; ») évite les fautes d'id et de syntaxe. Écrire son script de chapitre hors du dépôt (dossier temporaire), avec `LURATA_CHAPITRE=07` ; l'en-tête du fichier explique l'usage. Pour relire sans ouvrir les JSON : `python3 tools/lire_chapitre.py 07 grammar-1.json …` (à donner aussi aux relecteurs).
+- **Vrai/faux** : l'arabe affiché et sa traduction `fr` doivent dire la même chose ; la valeur de vérité doit venir d'une image (`context.icon`) ou d'une règle enseignée, jamais du « bon sens ».
+- **Phrase fausse à corriger** : le validateur refuse un démonstratif de mauvais genre devant un nom (هٰذَا سَيَّارَةٌ). Poser la correction en `fill_gap` (le trou est le démonstratif) ou en `question` en français, jamais en choix d'une phrase fausse.
+- **Règles absolues** : « tout nom en ة est féminin », « ce qui ne va pas par paire est masculin », « le pluriel en -ūna = hommes », « l'adjectif prend ة » ont toutes des exceptions (حَمْزَةُ, سِنٌّ, groupes mixtes, أَحْمَرُ). Écrire « en général » et nommer l'exception quand elle est enseignée.
+- **Compter ce qu'on a vu** : « trois sortes de particules » est faux si le cours en a déjà montré d'autres (وَ, نَعَمْ, لَا) : écrire « parmi… ».
+- **Mots écrits pareil sans harakat** (رَجُلٌ / رِجْلٌ) : le contrôle هٰذِهِ / هٰذَا ignore les formes dont les genres diffèrent.
+- **Icônes** : éviter deux icônes qu'on peut prendre l'une pour l'autre (tasse de café et théière) ; vérifier chaque image rendue avant de l'ajouter.
+- **Locuteurs de dialogue** : un personnage ne parle pas de lui à la 3ᵉ personne (« la montre de ʿAlī » dite par ʿAlī) ; une voix féminine (`f1`) existe.
+- **Contenu du PDF douteux** : سَمَاءٌ (hamza issue d'un wāw) n'est pas un exemple d'alif du féminin ; مُوسَى est un nom étranger ; قَهْوَةٌ → قَهَوَاتٌ (la forme du PDF قَهْوَاتٌ n'est qu'une variante) ; سِكِّينٌ est masculin ou féminin. Ne pas les reprendre sans certitude.
+- **Environnement** : `./gradlew -p core …` renvoie souvent 429 (Maven Central) : le relancer en boucle ; une fois les dépendances en cache, il est très rapide.
+
 ## 3. Vérifications automatiques
 
 ```

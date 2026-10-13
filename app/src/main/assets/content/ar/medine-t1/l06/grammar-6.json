@@ -1,0 +1,108 @@
+{
+  "id": "medine-t1.l06.grammar-6",
+  "type": "grammar",
+  "title": "Un homme nommé Ḥamza",
+  "icon": "man",
+  "screens": [
+    {
+      "id": "medine-t1.l06.grammar-6#1",
+      "type": "tip",
+      "title": "Des prénoms d'hommes en {ar|ة}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Beaucoup de prénoms d'**hommes** portent un signe du féminin : {ar|حَمْزَةُ} (Ḥamza), {ar|أُسَامَةُ} (Usāma), {ar|طَلْحَةُ} (Ṭalḥa). Ils désignent des hommes : ils sont **masculins**."
+        },
+        {
+          "type": "table",
+          "header": ["Deux conséquences", "Exemple"],
+          "rows": [
+            [
+              "Ils n'ont **pas de tanwin** (ce sont des noms propres qui portent un signe du féminin)",
+              "{ar|حَمْزَةُ}, pas {ar|حَمْزَةٌ}"
+            ],
+            ["Ils s'accordent **comme un masculin**", "{ar|هٰذَا حَمْزَةُ.}"]
+          ]
+        },
+        { "type": "example", "ar": "حَمْزَةُ جَالِسٌ.", "fr": "Ḥamza est assis." },
+        { "type": "example", "ar": "هٰذَا كِتَابُ حَمْزَةَ.", "fr": "C'est le livre de Ḥamza." },
+        {
+          "type": "note",
+          "text": "Comme les autres noms sans tanwin, ils prennent la fatha, et non la kasra, quand le cas est le génitif : {ar|كِتَابُ حَمْزَةَ} (chapitre 5)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.grammar-6#2",
+      "type": "question",
+      "prompt": { "fr": "Ḥamza ({ar|حَمْزَةُ}) se termine par {ar|ة}. Pourquoi est-il pourtant masculin ?" },
+      "choices": [
+        { "fr": "Parce que c'est un prénom d'homme" },
+        { "fr": "Parce qu'il n'a pas de tanwin" },
+        { "fr": "Parce qu'il commence par une lettre lunaire" }
+      ],
+      "answer": 0,
+      "explain": "Le genre d'un prénom suit celui de la personne : {ar|حَمْزَةُ} est un homme, donc masculin, même avec un {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l06.grammar-6#3",
+      "type": "fill_gap",
+      "sentence": "{0} حَمْزَةُ.",
+      "fr": "Ceci est Ḥamza.",
+      "gaps": [ { "answers": ["هٰذَا"] } ],
+      "options": ["هٰذَا", "هٰذِهِ"]
+    },
+    {
+      "id": "medine-t1.l06.grammar-6#4",
+      "type": "fill_gap",
+      "sentence": "حَمْزَةُ {0}.",
+      "fr": "Ḥamza est assis.",
+      "gaps": [ { "answers": ["جَالِسٌ"] } ],
+      "options": ["جَالِسٌ", "جَالِسَةٌ"],
+      "explain": "{ar|حَمْزَةُ} est un homme : l'adjectif reste au masculin."
+    },
+    {
+      "id": "medine-t1.l06.grammar-6#5",
+      "type": "sort",
+      "categories": [ { "fr": "masculin" }, { "fr": "féminin" } ],
+      "cards": [
+        { "ar": "حَمْزَةُ", "category": 0 },
+        { "ar": "عَائِشَةُ", "category": 1 },
+        { "ar": "أُسَامَةُ", "category": 0 },
+        { "ar": "فَاطِمَةُ", "category": 1 },
+        { "ar": "طَلْحَةُ", "category": 0 },
+        { "ar": "زَيْنَبُ", "category": 1 }
+      ],
+      "instruction": "Ce prénom est-il masculin ou féminin ?",
+      "explain": "{ar|حَمْزَةُ}, {ar|أُسَامَةُ} et {ar|طَلْحَةُ} sont des prénoms d'hommes. {ar|عَائِشَةُ}, {ar|فَاطِمَةُ} et {ar|زَيْنَبُ} sont des prénoms de femmes."
+    },
+    {
+      "id": "medine-t1.l06.grammar-6#6",
+      "type": "true_false",
+      "statement": { "fr": "On dit {ar|هٰذِهِ حَمْزَةُ}, car le prénom se termine par {ar|ة}." },
+      "answer": false,
+      "explain": "Ḥamza est un homme : on dit {ar|هٰذَا حَمْزَةُ}."
+    },
+    {
+      "id": "medine-t1.l06.grammar-6#7",
+      "type": "order",
+      "fr": "Ḥamza est assis et ʿĀʾisha est assise.",
+      "answers": [["حَمْزَةُ", "جَالِسٌ", "وَعَائِشَةُ", "جَالِسَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l06.grammar-6#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ceci est Ḥamza et ceci est Āmina.",
+      "answers": ["هٰذَا حَمْزَةُ وَهٰذِهِ آمِنَةُ."]
+    },
+    {
+      "id": "medine-t1.l06.grammar-6#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Usāma est debout.",
+      "answers": ["أُسَامَةُ وَاقِفٌ."]
+    }
+  ]
+}

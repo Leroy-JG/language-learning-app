@@ -1,0 +1,113 @@
+{
+  "id": "medine-t1.l06.practice-4",
+  "type": "grammar",
+  "title": "Lis et comprends",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l06.practice-4#1",
+      "type": "tip",
+      "title": "Des phrases du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lis ces phrases à voix haute, puis écoute-les. Elles reprennent les mots que tu viens d'apprendre."
+        },
+        {
+          "type": "example",
+          "ar": "هٰذِهِ مِلْعَقَةٌ وَهٰذِهِ قِدْرٌ. الْمِلْعَقَةُ فِي الْقِدْرِ.",
+          "fr": "Ceci est une cuillère et ceci est une marmite. La cuillère est dans la marmite."
+        },
+        { "type": "example", "ar": "زَيْدٌ أَيْضًا مِنْ فَرَنْسَا.", "fr": "Zayd aussi vient de France." },
+        { "type": "example", "ar": "الْمَسْجِدُ جَمِيلٌ جِدًّا.", "fr": "La mosquée est très belle." }
+      ]
+    },
+    {
+      "id": "medine-t1.l06.practice-4#2",
+      "type": "question",
+      "prompt": { "fr": "D'après la phrase du livre, où est la cuillère ?" },
+      "choices": [ { "fr": "Dans la marmite" }, { "fr": "Sur la table" }, { "fr": "Dans le réfrigérateur" } ],
+      "answer": 0,
+      "explain": "{ar|الْمِلْعَقَةُ فِي الْقِدْرِ} : la cuillère est dans la marmite."
+    },
+    {
+      "id": "medine-t1.l06.practice-4#3",
+      "type": "true_false",
+      "statement": { "ar": "الثَّلَّاجَةُ فِي الْمَطْبَخِ.", "fr": "Le réfrigérateur est dans la cuisine." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l06.practice-4#4",
+      "type": "order",
+      "fr": "Le paysan est au marché.",
+      "answers": [["الْفَلَّاحُ", "فِي", "السُّوقِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l06.practice-4#5",
+      "type": "fill_gap",
+      "sentence": "الدَّرَّاجَةُ {0}.",
+      "fr": "Le vélo est neuf.",
+      "gaps": [ { "answers": ["جَدِيدَةٌ"] } ],
+      "options": ["جَدِيدَةٌ", "جَدِيدٌ"],
+      "explain": "{ar|دَرَّاجَةٌ} est féminin : l'adjectif prend {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l06.practice-4#6",
+      "type": "spot",
+      "instruction": "Touche l'adjectif.",
+      "words": ["السَّيَّارَةُ", "سَرِيعَةٌ", "جِدًّا."],
+      "answers": [1],
+      "fr": "La voiture est très rapide.",
+      "explain": "{ar|سَرِيعَةٌ} décrit la voiture. {ar|جِدًّا} (« très ») renforce l'adjectif, mais ce n'est pas un adjectif."
+    },
+    {
+      "id": "medine-t1.l06.practice-4#7",
+      "type": "question",
+      "prompt": { "fr": "De quel pays vient Zayd ? {ar|زَيْدٌ أَيْضًا مِنْ فَرَنْسَا.}" },
+      "choices": [ { "fr": "De France" }, { "fr": "De Chine" }, { "fr": "D'Inde" } ],
+      "answer": 0,
+      "explain": "{ar|فَرَنْسَا} : la France."
+    },
+    {
+      "id": "medine-t1.l06.practice-4#8",
+      "type": "fill_gap",
+      "sentence": "النَّافِذَةُ {0}.",
+      "fr": "La fenêtre est ouverte.",
+      "gaps": [ { "answers": ["مَفْتُوحَةٌ"] } ],
+      "options": ["مَفْتُوحَةٌ", "مَفْتُوحٌ"]
+    },
+    {
+      "id": "medine-t1.l06.practice-4#9",
+      "type": "true_false",
+      "statement": { "ar": "هٰذَا بَابٌ.", "fr": "Ceci est une porte." },
+      "answer": false,
+      "context": { "icon": "window" },
+      "explain": "L'image montre une fenêtre : {ar|هٰذِهِ نَافِذَةٌ}."
+    },
+    {
+      "id": "medine-t1.l06.practice-4#10",
+      "type": "order",
+      "fr": "Le café est dans la cuisine.",
+      "answers": [["الْقَهْوَةُ", "فِي", "الْمَطْبَخِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l06.practice-4#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا هٰذِهِ؟",
+      "answers": ["هٰذِهِ نَافِذَةٌ.", "نَافِذَةٌ."],
+      "fr": "C'est une fenêtre.",
+      "instruction": "Réponds à la question en arabe.",
+      "context": { "icon": "window" }
+    },
+    {
+      "id": "medine-t1.l06.practice-4#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le vélo est neuf et la fenêtre est ouverte.",
+      "answers": ["الدَّرَّاجَةُ جَدِيدَةٌ وَالنَّافِذَةُ مَفْتُوحَةٌ."]
+    }
+  ]
+}

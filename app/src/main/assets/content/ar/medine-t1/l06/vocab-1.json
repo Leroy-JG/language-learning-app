@@ -1,0 +1,75 @@
+{
+  "id": "medine-t1.l06.vocab-1",
+  "type": "vocabulary",
+  "title": "Beau, rapide, très…",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t1.l06.vocab-1#1", "type": "present", "item": "w:jamil" },
+    { "id": "medine-t1.l06.vocab-1#2", "type": "present", "item": "w:sari" },
+    {
+      "id": "medine-t1.l06.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:jamil",
+      "distractors": ["w:sari", "w:jadid"]
+    },
+    { "id": "medine-t1.l06.vocab-1#4", "type": "present", "item": "w:jiddan" },
+    { "id": "medine-t1.l06.vocab-1#5", "type": "present", "item": "w:qadim" },
+    {
+      "id": "medine-t1.l06.vocab-1#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:qadim",
+      "distractors": ["w:jadid", "w:jamil"]
+    },
+    { "id": "medine-t1.l06.vocab-1#7", "type": "present", "item": "w:marid" },
+    { "id": "medine-t1.l06.vocab-1#8", "type": "present", "item": "w:harr" },
+    {
+      "id": "medine-t1.l06.vocab-1#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:jamil", "w:sari", "w:qadim", "w:marid", "w:harr"]
+    },
+    { "id": "medine-t1.l06.vocab-1#10", "type": "present", "item": "w:aydan" },
+    {
+      "id": "medine-t1.l06.vocab-1#11",
+      "type": "fill_gap",
+      "sentence": "الْقَمَرُ {0}.",
+      "fr": "La lune est belle.",
+      "gaps": [ { "answers": ["جَمِيلٌ"] } ],
+      "options": ["جَمِيلٌ", "جَمِيلَةٌ"],
+      "explain": "{ar|الْقَمَرُ} est masculin : l'adjectif reste au masculin."
+    },
+    {
+      "id": "medine-t1.l06.vocab-1#12",
+      "type": "fill_gap",
+      "sentence": "الشَّمْسُ {0}.",
+      "fr": "Le soleil est beau.",
+      "gaps": [ { "answers": ["جَمِيلَةٌ"] } ],
+      "options": ["جَمِيلَةٌ", "جَمِيلٌ"],
+      "explain": "{ar|الشَّمْسُ} est féminin en arabe : l'adjectif prend {ar|ة}. (En français, « soleil » est masculin.)"
+    },
+    {
+      "id": "medine-t1.l06.vocab-1#13",
+      "type": "order",
+      "fr": "La lune est très belle.",
+      "answers": [["الْقَمَرُ", "جَمِيلٌ", "جِدًّا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l06.vocab-1#14",
+      "type": "fill_gap",
+      "sentence": "أَنَا مِنْ فَرَنْسَا وَزَيْدٌ {0} مِنْ فَرَنْسَا.",
+      "fr": "Je viens de France et Zayd aussi vient de France.",
+      "gaps": [ { "answers": ["أَيْضًا"] } ],
+      "options": ["أَيْضًا", "جِدًّا"]
+    },
+    {
+      "id": "medine-t1.l06.vocab-1#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le cheval est très rapide.",
+      "answers": ["الْحِصَانُ سَرِيعٌ جِدًّا."]
+    }
+  ]
+}
