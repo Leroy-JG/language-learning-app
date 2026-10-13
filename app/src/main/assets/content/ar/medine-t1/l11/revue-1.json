@@ -38,7 +38,13 @@
       "statement": { "fr": "Le pluriel de {ar|حَقِيبَةٌ} est {ar|حَقَائِبُ}." },
       "answer": true
     },
-    { "id": "medine-t1.l11.revue-1#5", "type": "typing", "ask": "fr", "fr": "Des chambres.", "answers": ["غُرَفٌ"] },
+    {
+      "id": "medine-t1.l11.revue-1#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Des chambres.",
+      "answers": ["غُرَفٌ", "غُرُفَاتٌ"]
+    },
     {
       "id": "medine-t1.l11.revue-1#6",
       "type": "typing",

@@ -27,7 +27,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Le professeur cite le nom d'action {ar|إِحْبَابٌ} ; on emploie aussi le nom {ar|حُبٌّ} (« l'amour »)."
+          "text": "Le professeur cite le nom d'action {ar|إِحْبَابٌ} ; on emploie surtout le nom {ar|حُبٌّ} (« l'amour »)."
         },
         {
           "type": "note",
@@ -52,7 +52,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "La première lettre du présent dit **qui** fait l'action : un {ar|ي} pour « il » ({ar|يُحِبُّ}), un {ar|أ} pour « je » ({ar|أُحِبُّ}). Pour ce verbe, le reste du mot ne change pas."
+          "text": "La première lettre du présent dit **qui** fait l'action : un {ar|ي} pour « il » ({ar|يُحِبُّ}), un {ar|أ} pour « je » ({ar|أُحِبُّ}). Entre « je » et « il », le reste du mot ne change pas."
         },
         {
           "type": "table",

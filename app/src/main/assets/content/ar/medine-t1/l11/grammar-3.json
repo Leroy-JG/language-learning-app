@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Tu sais depuis le chapitre 10 que le pronom {ar|◌ِي} (mon, ma, mes) se colle à la fin d'un nom, et que la dernière lettre du nom prend alors une kasra :"
+          "text": "Tu sais depuis le chapitre 10 que le pronom {ar|◌ِي} (mon, ma, mes) se colle à la fin d'un nom, et que la dernière lettre du nom prend alors en général une kasra :"
         },
         {
           "type": "compare",
@@ -132,7 +132,7 @@
         { "ar": "إِلَى مَدْرَسَتِي", "category": 1 }
       ],
       "instruction": "Le nom qui porte {ar|◌ِي} est…",
-      "explain": "Sujet (de la phrase nominale ou du verbe) : nominatif. Après une préposition : génitif. Dans les deux cas, la terminaison s'écrit pareil."
+      "explain": "Sujet (de la phrase nominale ou du verbe) : nominatif. Après une préposition ou après {ar|مَعَ} : génitif. Dans les deux cas, la terminaison s'écrit pareil."
     },
     {
       "id": "medine-t1.l11.grammar-3#8",

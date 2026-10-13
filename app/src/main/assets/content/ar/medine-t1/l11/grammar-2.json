@@ -78,7 +78,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Les grammairiens expliquent que ces noms **ressemblent aux particules** ({ar|فِي}, {ar|مِنْ}…), qui ne changent jamais. Il existe d'autres noms invariables (par exemple {ar|الَّذِي}, « qui ») : tu les verras plus tard."
+          "text": "Les grammairiens expliquent que ces noms **ressemblent aux particules** ({ar|فِي}, {ar|مِنْ}…), qui ne changent jamais. Il y a des exceptions que tu verras plus tard (le duel des démonstratifs, par exemple, est variable) et d'autres noms invariables (par exemple {ar|الَّذِي}, « qui »)."
         },
         {
           "type": "note",
@@ -111,7 +111,7 @@
         { "ar": "الْمَكْتَبُ", "category": 0 }
       ],
       "instruction": "Variable ou invariable ?",
-      "explain": "Pronoms, démonstratifs et interrogatifs sont invariables. Les autres noms ({ar|كِتَابٌ}, {ar|طَالِبٌ}, {ar|بَيْتٌ}, {ar|الْمَكْتَبُ}) sont variables."
+      "explain": "Les pronoms, et les démonstratifs et interrogatifs que tu connais, sont invariables. {ar|كِتَابٌ}, {ar|طَالِبٌ}, {ar|بَيْتٌ} et {ar|الْمَكْتَبُ} sont des noms variables."
     },
     {
       "id": "medine-t1.l11.grammar-2#8",
@@ -123,7 +123,10 @@
           "type": "table",
           "header": ["Sorte de mot", "Variable ou invariable ?"],
           "rows": [
-            ["le nom", "en général variable ; invariable pour les pronoms, les démonstratifs, les interrogatifs…"],
+            [
+              "le nom",
+              "en général variable ; invariable pour les pronoms, la plupart des démonstratifs et des interrogatifs…"
+            ],
             [
               "la particule ({ar|الْحَرْفُ})",
               "toujours invariable : {ar|فِي}, {ar|مِنْ}, {ar|عَلَى}, {ar|وَ}, {ar|أَ}…"

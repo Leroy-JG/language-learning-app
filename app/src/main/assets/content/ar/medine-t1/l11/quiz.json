@@ -23,12 +23,12 @@
         { "ar": "طَاوِلَةٌ", "category": 0 }
       ],
       "instruction": "Variable ou invariable ?",
-      "explain": "Les pronoms ({ar|هِيَ}), les démonstratifs ({ar|تِلْكَ}) et les interrogatifs ({ar|كَيْفَ}) sont invariables. {ar|مُدَرِّسٌ}, {ar|غُرْفَةٌ} et {ar|طَاوِلَةٌ} sont des noms variables."
+      "explain": "Les pronoms ({ar|هِيَ}), les démonstratifs que tu connais ({ar|تِلْكَ}) et les interrogatifs ({ar|كَيْفَ}) sont invariables. {ar|مُدَرِّسٌ}, {ar|غُرْفَةٌ} et {ar|طَاوِلَةٌ} sont des noms variables."
     },
     {
       "id": "medine-t1.l11.quiz#3",
       "type": "question",
-      "prompt": { "fr": "Quel est le point commun des pronoms, des démonstratifs et des interrogatifs ?" },
+      "prompt": { "fr": "Quel est le point commun des pronoms, et des démonstratifs et interrogatifs que tu connais ?" },
       "choices": [
         { "fr": "Ce sont des noms invariables" },
         { "fr": "Ce sont des noms variables" },

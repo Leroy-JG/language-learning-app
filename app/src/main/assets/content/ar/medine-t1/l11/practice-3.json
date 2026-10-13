@@ -31,7 +31,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "On reprend le nom avec un pronom qui s'accorde avec lui : {ar|فِيهِ} pour un nom masculin ({ar|بَيْتٌ}, {ar|مَسْجِدٌ}), {ar|فِيهَا} pour un nom féminin ({ar|حَقِيبَةٌ}, {ar|سَيَّارَةٌ}, {ar|غُرْفَةٌ})."
+          "text": "On reprend le nom avec un pronom qui s'accorde avec lui : {ar|فِيهِ} pour un nom masculin ({ar|بَيْتٌ}, {ar|مَسْجِدٌ}), {ar|فِيهَا} pour un nom féminin ({ar|حَقِيبَةٌ}, {ar|سَيَّارَةٌ}, {ar|غُرْفَةٌ}). Dans {ar|مَسْجِدِ الْجَامِعَةِ}, c'est la mosquée (masculin) dont on parle, pas l'université : {ar|فِيهِ}."
         }
       ]
     },
@@ -70,7 +70,7 @@
       "type": "typing",
       "ask": "question",
       "question": "مَنْ فِي السَّيَّارَةِ؟",
-      "answers": ["فِيهَا أَبِي وَأُمِّي وَأَخِي وَأُخْتِي."],
+      "answers": ["فِيهَا أَبِي وَأُمِّي وَأَخِي وَأُخْتِي.", "أَبِي وَأُمِّي وَأَخِي وَأُخْتِي فِيهَا."],
       "fr": "Mon père, ma mère, mon frère et ma sœur sont dedans.",
       "instruction": "Réponds : mon père, ma mère, mon frère et ma sœur sont dedans."
     },
@@ -123,12 +123,11 @@
     },
     {
       "id": "medine-t1.l11.practice-3#10",
-      "type": "true_false",
-      "statement": {
-        "fr": "Dans {ar|أُحِبُّ أَبِي}, ce qu'on aime ({ar|أَبِي}) est à l'accusatif, mais sa fatha est cachée par le {ar|◌ِي}."
-      },
-      "answer": true,
-      "explain": "Ce que le verbe touche est à l'accusatif. Avec {ar|◌ِي}, le cas ne se voit pas."
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|أُحِبُّ اللَّهَ} ?" },
+      "choices": [ { "fr": "J'aime Allah" }, { "fr": "Il aime Allah" }, { "fr": "Il a aimé Allah" } ],
+      "answer": 0,
+      "explain": "{ar|أُحِبُّ} veut dire « j'aime » : {ar|أُحِبُّ اللَّهَ}, « j'aime Allah »."
     },
     {
       "id": "medine-t1.l11.practice-3#11",
