@@ -1,0 +1,87 @@
+{
+  "id": "medine-t1.l09.practice-2",
+  "type": "vocabulary",
+  "title": "Accorde l'adjectif",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l09.practice-2#1",
+      "type": "fill_gap",
+      "sentence": "الْوَلَدُ فِي الْغُرْفَةِ {0}.",
+      "fr": "Le garçon est dans la grande pièce.",
+      "gaps": [ { "answers": ["الْكَبِيرَةِ"] } ],
+      "options": ["الْكَبِيرَةِ", "الْكَبِيرِ"],
+      "explain": "{ar|غُرْفَةٌ} est féminin : l'adjectif prend le {ar|ة}, et la kasra après {ar|فِي}."
+    },
+    {
+      "id": "medine-t1.l09.practice-2#2",
+      "type": "fill_gap",
+      "sentence": "أَنَا فِي بَيْتٍ {0}.",
+      "fr": "Je suis dans une grande maison.",
+      "gaps": [ { "answers": ["كَبِيرٍ"] } ],
+      "options": ["كَبِيرٍ", "كَبِيرَةٍ"],
+      "explain": "{ar|بَيْتٌ} est masculin : pas de {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l09.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "الطَّالِبُ مِنَ الْمَدْرَسَةِ {0}.",
+      "fr": "L'étudiant vient de la grande école.",
+      "gaps": [ { "answers": ["الْكَبِيرَةِ"] } ],
+      "options": ["الْكَبِيرَةِ", "كَبِيرَةٍ"],
+      "explain": "{ar|الْمَدْرَسَةِ} est défini : l'adjectif prend l'article."
+    },
+    {
+      "id": "medine-t1.l09.practice-2#4",
+      "type": "order",
+      "fr": "Le garçon est dans la nouvelle école.",
+      "answers": [["الْوَلَدُ", "فِي", "الْمَدْرَسَةِ", "الْجَدِيدَةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l09.practice-2#5",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:jamil", "w:jadid", "w:qadim", "w:kabir", "w:saghir"]
+    },
+    {
+      "id": "medine-t1.l09.practice-2#6",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « dans une grande chambre » ?" },
+      "choices": [
+        { "ar": "فِي غُرْفَةٍ كَبِيرَةٍ" },
+        { "ar": "فِي غُرْفَةٍ كَبِيرٍ" },
+        { "ar": "فِي الْغُرْفَةِ كَبِيرَةٍ" }
+      ],
+      "answer": 0,
+      "explain": "Nom et adjectif sont féminins, indéfinis et à la kasra : {ar|فِي غُرْفَةٍ كَبِيرَةٍ}."
+    },
+    {
+      "id": "medine-t1.l09.practice-2#7",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|طَالِبَةٌ جَدِيدَةٌ}, l'adjectif prend le {ar|ة} parce que le nom qualifié est féminin." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l09.practice-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le garçon est dans la petite pièce.",
+      "answers": ["الْوَلَدُ فِي الْغُرْفَةِ الصَّغِيرَةِ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-2#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La nouvelle étudiante est dans la grande salle de classe.",
+      "answers": ["الطَّالِبَةُ الْجَدِيدَةُ فِي الْفَصْلِ الْكَبِيرِ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis dans une petite maison.",
+      "answers": ["أَنَا فِي بَيْتٍ صَغِيرٍ."]
+    }
+  ]
+}

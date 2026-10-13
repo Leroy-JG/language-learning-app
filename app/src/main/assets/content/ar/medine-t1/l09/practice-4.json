@@ -1,0 +1,92 @@
+{
+  "id": "medine-t1.l09.practice-4",
+  "type": "vocabulary",
+  "title": "Exercice 4 : lis et réponds",
+  "icon": "meal",
+  "screens": [
+    {
+      "id": "medine-t1.l09.practice-4#1",
+      "type": "tip",
+      "title": "Exercice 4 : lis",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 4 du livre fait lire cinq adjectifs d'état puis quatre phrases. Lis-les à voix haute en finissant chaque adjectif par une damma, sans le « n » du tanwin."
+        },
+        { "type": "example", "ar": "أَنَا جَوْعَانُ.", "fr": "J'ai faim." },
+        {
+          "type": "example",
+          "ar": "أَأَنْتَ جَوْعَانُ؟ لَا، أَنَا عَطْشَانُ.",
+          "fr": "As-tu faim ? Non, j'ai soif."
+        },
+        { "type": "example", "ar": "الْمُدَرِّسُ غَضْبَانُ.", "fr": "L'enseignant est en colère." },
+        { "type": "example", "ar": "الْكُوبُ مَلْآنُ.", "fr": "Le verre est plein." }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.practice-4#2",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai faim.",
+      "answers": ["أَنَا جَوْعَانُ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-4#3",
+      "type": "order",
+      "fr": "As-tu faim ?",
+      "answers": [["أَأَنْتَ", "جَوْعَانُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l09.practice-4#4",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Non, j'ai soif.",
+      "answers": ["لَا، أَنَا عَطْشَانُ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-4#5",
+      "type": "spot",
+      "instruction": "Touche les deux adjectifs d'état.",
+      "words": ["أَنَا", "جَوْعَانُ", "وَالطَّالِبُ", "غَضْبَانُ."],
+      "answers": [1, 3],
+      "fr": "J'ai faim et l'étudiant est en colère."
+    },
+    {
+      "id": "medine-t1.l09.practice-4#6",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:kaslan", "w:jawan", "w:ataan", "w:ghadban", "w:malan"]
+    },
+    {
+      "id": "medine-t1.l09.practice-4#7",
+      "type": "order",
+      "fr": "Muḥammad a soif.",
+      "answers": [["مُحَمَّدٌ", "عَطْشَانُ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l09.practice-4#8",
+      "type": "fill_gap",
+      "sentence": "فَيْصَلٌ {0} كَسْلَانُ.",
+      "fr": "Fayṣal est un étudiant paresseux.",
+      "gaps": [ { "answers": ["طَالِبٌ"] } ],
+      "options": ["طَالِبٌ", "طَالِبَةٌ"],
+      "explain": "{ar|فَيْصَلٌ} est un homme : le nom qualifié est masculin, comme l'adjectif."
+    },
+    {
+      "id": "medine-t1.l09.practice-4#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ḥāmid est-il en colère ? Non, il a faim.",
+      "answers": ["أَحَامِدٌ غَضْبَانُ؟ لَا، هُوَ جَوْعَانُ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-4#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "ʿAmmār est un étudiant studieux et Maḥmūd est un étudiant paresseux.",
+      "answers": ["عَمَّارٌ طَالِبٌ مُجْتَهِدٌ، وَمَحْمُودٌ طَالِبٌ كَسْلَانُ."]
+    }
+  ]
+}

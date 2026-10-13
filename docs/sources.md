@@ -146,15 +146,17 @@ Supports utilisés pour le chapitre de révision 1 (`r01`) : trois PDF « Semain
 - pluriels : en -āt (`سَبُّورَاتٌ مُسْتَشْفَيَاتٌ`), de forme longue (`سَكَاكِينُ مَحَارِيبُ حَوَاسِيبُ`),
   `عِبَادٌ` ; `مَرْضَى` est cité dans une astuce (pas d'élément).
 
-**Révision 1** (`r01`, chapitre de révision placé après la leçon 8 ; pas de numéro, libellé « Révision 1 ») :
+**Leçon 9** (`l09`) : l'adjectif (`النَّعْتُ`, `الْمَنْعُوتُ`) qui s'accorde avec le nom en genre, défini ou indéfini et cas ; « le livre neuf » et « le livre est neuf » ; les adjectifs d'état sans tanwin (`كَسْلَانُ`, `جَوْعَانُ`…) ; les langues, les fruits, `هُنَا`, `عِنْدَ`, `يَوْمٌ`, `كَبِيرٌ`, `صَغِيرٌ`, `سَهْلٌ`, `كُوبٌ` et le texte du livre « لِمَنْ تِلْكَ السَّيَّارَةُ الْجَمِيلَةُ ؟ » (voir `l09/items.json` et `l09/chapter.json` ; les notes détaillées de cette leçon ne sont pas dans ce fichier).
+
+**Révision 1** (`r01`, chapitre de révision placé après la leçon 9 ; pas de numéro, libellé « Révision 1 ») :
 - sept rappels sans nouvelle carte (`revue-1` à `revue-7`, type `review`) : démonstratifs, interrogatifs (`أَ مَنْ مَا أَيْنَ`, avec `لِلْعَاقِلِ` / `لِغَيْرِ الْعَاقِلِ`), noms définis / indéfinis et prénoms, genre, prépositions, trois cas, phrase nominale / verbale et trois formes du verbe ;
-- `هُنَا` (ici) : le démonstratif de lieu proche, comme `هُنَاكَ` (déjà vu au chapitre 5) ; `مَكَانٌ` ;
+- `هُنَا` (ici, mot déjà présenté au chapitre 9) et `هُنَاكَ` (chapitre 5) comme démonstratifs de lieu ; `مَكَانٌ` ;
 - `مَاذَا` (« qu'y a-t-il… ? ») : `مَا` + `ذَا` ; réponse par le nom seul, ou `عَلَى الْمَكْتَبِ كِتَابٌ` (sujet indéfini après « préposition + nom ») ;
 - `لِمَاذَا` (« pourquoi ? ») et `لِأَنَّهُ` (« parce que ») ;
-- les jours de la semaine (`يَوْمُ الْأَحَدِ`… `يَوْمُ السَّبْتِ`), `يَوْمٌ`, `أُسْبُوعٌ` ;
-- vocabulaire : `دَرْسٌ سَهْلٌ اِخْتِبَارٌ عُنْوَانٌ وَرَقٌ كُوبٌ`, `فَرِحٌ حَزِينٌ كَسْلَانُ جَيِّدٌ كَبِيرٌ صَغِيرٌ`, `صَلَاةٌ فَجْرٌ صُنْبُورٌ أَبْيَضُ طَرِيقٌ صَدِيقٌ`, `خَيْرٌ حَسَنًا ثُمَّ هَيَّا كَيْفَ الْيَوْمَ`, `السَّلَامُ عَلَيْكَ` / `عَلَيْكَ السَّلَامُ`, `كَيْفَ حَالُكَ؟`, `مَرْحَبًا بِكَ` ;
+- les jours de la semaine (`يَوْمُ الْأَحَدِ`… `يَوْمُ السَّبْتِ`) et `أُسْبُوعٌ` (`يَوْمٌ` est présenté au chapitre 9) ;
+- vocabulaire : `دَرْسٌ اِخْتِبَارٌ عُنْوَانٌ وَرَقٌ`, `فَرِحٌ حَزِينٌ جَيِّدٌ` (`سَهْلٌ كُوبٌ كَبِيرٌ صَغِيرٌ كَسْلَانُ` sont ceux du chapitre 9), `صَلَاةٌ فَجْرٌ صُنْبُورٌ أَبْيَضُ طَرِيقٌ صَدِيقٌ`, `خَيْرٌ حَسَنًا ثُمَّ هَيَّا كَيْفَ الْيَوْمَ`, `السَّلَامُ عَلَيْكَ` / `عَلَيْكَ السَّلَامُ`, `كَيْفَ حَالُكَ؟`, `مَرْحَبًا بِكَ` ;
 - 13 verbes (passé à la 3ᵉ personne du masculin singulier, avec leurs quatre formes dans une astuce) : `نَجَحَ فَشِلَ رَاجَعَ حَفِظَ رَفَعَ سَكَنَ` et `اِسْتَيْقَظَ قَامَ تَوَضَّأَ لَبِسَ لَقِيَ أَسْرَعَ تَأَخَّرَ` ;
-- seulement **aperçus** dans les dialogues, avec une astuce « Des petites formes à repérer » (rien n'est exigé en exercice) : les suffixes `ـهُ ـهِ ـكَ ـي`, les formes `نَجَحْتَ`, `أَسْكُنُ`, `تَسْكُنُ`, `يَرْفَعُ`, `مَعَ`, `قَبْلَ`, `مَا` + passé (négation), le complément d'objet à la fatha (`عُنْوَانَ الدَّرْسِ`) et l'adjectif épithète après le nom (`السَّيَّارَةُ الْجَمِيلَةُ`, astuce de `dialogue-4`) ;
+- seulement **aperçus** dans les dialogues, avec une astuce « Des petites formes à repérer » (rien n'est exigé en exercice ; l'adjectif épithète, lui, est enseigné au chapitre 9) : les suffixes `ـهُ ـهِ ـكَ ـي`, les formes `نَجَحْتَ`, `أَسْكُنُ`, `تَسْكُنُ`, `يَرْفَعُ`, `مَعَ`, `قَبْلَ`, `مَا` + passé (négation), le complément d'objet à la fatha (`عُنْوَانَ الدَّرْسِ`) ;
 - les pluriels : `أَسَابِيعُ أَمَاكِنُ عَنَاوِينُ صَنَابِيرُ أَصْدِقَاءُ`, `أَيَّامٌ دُرُوسٌ أَكْوَابٌ طُرُقٌ اِخْتِبَارَاتٌ صَلَوَاتٌ`, et ceux des adjectifs `كِبَارٌ صِغَارٌ حِزَانٌ فَرْحَى بِيضٌ`.
 
 **Pas encore enseigné** (ne pas l'exiger dans un exercice) :
@@ -163,8 +165,7 @@ Supports utilisés pour le chapitre de révision 1 (`r01`) : trois PDF « Semain
 - les cas du nom et leurs fonctions : le sujet, le prédicat, le sujet du verbe, l'adverbe, le second terme d'annexion et le nom après une préposition sont vus (leçon 8) ; pas le complément d'objet : le نَصْب n'est montré qu'avec les adverbes et après قَرَأْتُ (et, sans exercice, dans les dialogues de la révision 1) ;
 - l'interpellation d'un nom annexé (يَا عَبْدَ اللَّهِ) ou avec أَيُّهَا ;
 - l'annexion « d'apparence » (الضَّارِبُ الرَّجُلِ) ;
-- l'adjectif épithète placé après le nom (هٰذِهِ ذِكْرَى جَمِيلَةٌ) : seul l'adjectif attribut est vu (la révision 1 n'en donne qu'un aperçu, dans l'astuce de `dialogue-4`, sans exercice) ;
-- le pluriel des adjectifs : seuls quelques-uns sont vus (سِرَاعٌ, et ceux de la révision 1) ;
+- le pluriel des adjectifs : seuls quelques-uns sont vus (سِرَاعٌ, ceux des chapitres 9 et de la révision 1) ;
 - les autres prépositions (`بِ`, `مَعَ`, `عَنْ` ne sont qu'aperçues) ;
 - les verbes conjugués (sauf les verbes cités au passé à la 3ᵉ personne du masculin singulier — chapitres 4 et 8, révision 1 — et leurs formes citées) ;
 
@@ -389,14 +390,15 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
 
 ### Révision 1 (`r01`)
 
-- **Nature du chapitre :** les trois PDF « Semaine de révision 1 » mêlent des rappels (chapitres 1 à 8) et des éléments nouveaux. Le chapitre est placé après la leçon 8, avec le libellé « Révision 1 » (champ `label` de `chapter.json`, sans numéro : la leçon 9 gardera le numéro 9).
+- **Nature du chapitre :** les trois PDF « Semaine de révision 1 » mêlent des rappels (chapitres 1 à 8) et des éléments nouveaux. Le chapitre est placé après la leçon 9 (il en reprend le texte du livre et les mots déjà présentés), avec le libellé « Révision 1 » (champ `label` de `chapter.json`, sans numéro : la leçon 10 gardera le numéro 10).
+- **Fusion avec le chapitre 9 :** `main` contenait déjà `l09`, qui définit `w:huna`, `w:yawm`, `w:kub`, `w:kabir`, `w:saghir`, `w:sahl` et `w:kaslan` (`كَسْلَانُ`) : la révision ne les redéfinit pas (ils étaient en doublon) et les réutilise ; les pluriels `كِبَارٌ` et `صِغَارٌ` ont été ajoutés aux éléments de `l09`.
 - **Pas de doublon de cartes :** les rappels (`revue-1` à `revue-7`) sont de type `review` et ne contiennent aucun écran `present` : ils n'ajoutent ni carte de vocabulaire ni point de grammaire, et n'utilisent que des mots déjà enseignés. Seuls les éléments nouveaux sont présentés (`present`) et leurs activités de grammaire (`grammar-1` à `grammar-3`) créent trois nouveaux points de grammaire : `هُنَا` / `هُنَاكَ`, `مَاذَا`, `لِمَاذَا` / `لِأَنَّهُ`. Les mots du PDF déjà enseignés (`قَمِيصٌ`, `أُسْتَاذٌ`, `هُنَاكَ`, `مَكْتَبٌ`…) ne sont pas redéfinis.
 - **Exercices du livre repris :**
   - exercice 1 (démonstratifs) → `revue-1` (dictées et ordre des mots) ;
   - exercice (réponds aux questions) → `revue-2` (réponses guidées par une consigne « Réponds : … ») ;
   - exercice (lire et écrire) avec le défini → `revue-3` (dictées) ; les prénoms de l'exercice des terminaisons → `revue-3` et `revue-4` (tri masculin / féminin) ;
   - exercice 2 (terminaisons après une préposition) → `revue-5` ;
-  - page de la leçon 9 (« لِمَنْ تِلْكَ السَّيَّارَةُ الْجَمِيلَةُ؟ ») → `dialogue-4` ;
+  - page de la leçon 9 (« لِمَنْ تِلْكَ السَّيَّارَةُ الْجَمِيلَةُ؟ ») : déjà dans `l09/dialogue-2`, donc non reprise ;
   - deux dialogues de classe → `dialogue-1` et `dialogue-2` ; texte « la prière de l'aube » → `dialogue-3`.
 - **Reporté ou non repris :**
   - `قَمِيصٌ` : le pluriel `أَقْمِصَةٌ` du tableau du PDF n'est pas ajouté (le chapitre 1 donne `قُمْصَانٌ`, lui aussi attesté) ;

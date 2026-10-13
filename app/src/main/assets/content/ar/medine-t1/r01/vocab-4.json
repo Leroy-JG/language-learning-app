@@ -1,30 +1,27 @@
 {
   "id": "medine-t1.r01.vocab-4",
   "type": "vocabulary",
-  "title": "Content, triste, grand, petit",
+  "title": "Content, triste, excellent",
   "icon": "student",
   "screens": [
     { "id": "medine-t1.r01.vocab-4#1", "type": "present", "item": "w:farih" },
     { "id": "medine-t1.r01.vocab-4#2", "type": "present", "item": "w:hazin" },
-    { "id": "medine-t1.r01.vocab-4#3", "type": "present", "item": "w:kasalan" },
     {
-      "id": "medine-t1.r01.vocab-4#4",
+      "id": "medine-t1.r01.vocab-4#3",
       "type": "mcq",
       "mode": "ar-fr",
       "item": "w:hazin",
-      "distractors": ["w:farih", "w:kasalan"]
+      "distractors": ["w:farih", "w:kaslan"]
     },
-    { "id": "medine-t1.r01.vocab-4#5", "type": "present", "item": "w:jayyid" },
-    { "id": "medine-t1.r01.vocab-4#6", "type": "present", "item": "w:kabir" },
-    { "id": "medine-t1.r01.vocab-4#7", "type": "present", "item": "w:saghir" },
+    { "id": "medine-t1.r01.vocab-4#4", "type": "present", "item": "w:jayyid" },
     {
-      "id": "medine-t1.r01.vocab-4#8",
+      "id": "medine-t1.r01.vocab-4#5",
       "type": "match",
       "mode": "ar-fr",
       "items": ["w:kabir", "w:saghir", "w:farih", "w:hazin"]
     },
     {
-      "id": "medine-t1.r01.vocab-4#9",
+      "id": "medine-t1.r01.vocab-4#6",
       "type": "fill_gap",
       "sentence": "زَيْدٌ {0}.",
       "fr": "Zayd est content.",
@@ -32,7 +29,7 @@
       "options": ["فَرِحٌ", "حَزِينٌ", "كَسْلَانُ"]
     },
     {
-      "id": "medine-t1.r01.vocab-4#10",
+      "id": "medine-t1.r01.vocab-4#7",
       "type": "fill_gap",
       "sentence": "فَاطِمَةُ {0}.",
       "fr": "Fāṭima est triste.",
@@ -41,14 +38,14 @@
       "explain": "{ar|فَاطِمَةُ} est un nom féminin : l'adjectif prend un {ar|ة} (chapitre 6)."
     },
     {
-      "id": "medine-t1.r01.vocab-4#11",
+      "id": "medine-t1.r01.vocab-4#8",
       "type": "question",
       "prompt": { "fr": "Quel est le contraire de {ar|كَبِيرٌ} ?" },
       "choices": [ { "ar": "صَغِيرٌ" }, { "ar": "جَدِيدٌ" }, { "ar": "سَرِيعٌ" } ],
       "answer": 0
     },
     {
-      "id": "medine-t1.r01.vocab-4#12",
+      "id": "medine-t1.r01.vocab-4#9",
       "type": "fill_gap",
       "sentence": "الْمِلْعَقَةُ {0}.",
       "fr": "La cuillère est petite.",
@@ -56,16 +53,16 @@
       "options": ["صَغِيرَةٌ", "صَغِيرٌ", "كَبِيرَةٌ"],
       "explain": "{ar|الْمِلْعَقَةُ} est féminin : l'adjectif prend un {ar|ة}."
     },
-    { "id": "medine-t1.r01.vocab-4#13", "type": "build", "item": "w:kasalan", "extra": ["ف"] },
+    { "id": "medine-t1.r01.vocab-4#10", "type": "build", "item": "w:kaslan", "extra": ["ف"] },
     {
-      "id": "medine-t1.r01.vocab-4#14",
+      "id": "medine-t1.r01.vocab-4#11",
       "type": "typing",
       "ask": "fr",
       "fr": "Zayd est paresseux.",
       "answers": ["زَيْدٌ كَسْلَانُ."]
     },
     {
-      "id": "medine-t1.r01.vocab-4#15",
+      "id": "medine-t1.r01.vocab-4#12",
       "type": "typing",
       "ask": "audio",
       "fr": "Fāṭima est triste.",

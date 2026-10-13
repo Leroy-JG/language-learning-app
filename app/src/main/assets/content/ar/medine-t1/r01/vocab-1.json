@@ -4,10 +4,9 @@
   "title": "Du dimanche au mercredi",
   "icon": "moon",
   "screens": [
-    { "id": "medine-t1.r01.vocab-1#1", "type": "present", "item": "w:yawm" },
-    { "id": "medine-t1.r01.vocab-1#2", "type": "present", "item": "w:usbu" },
+    { "id": "medine-t1.r01.vocab-1#1", "type": "present", "item": "w:usbu" },
     {
-      "id": "medine-t1.r01.vocab-1#3",
+      "id": "medine-t1.r01.vocab-1#2",
       "type": "tip",
       "title": "Les jours de la semaine",
       "blocks": [
@@ -29,52 +28,52 @@
       ]
     },
     {
-      "id": "medine-t1.r01.vocab-1#4",
+      "id": "medine-t1.r01.vocab-1#3",
       "type": "mcq",
       "mode": "ar-fr",
       "item": "w:usbu",
       "distractors": ["w:yawm", "w:alan"]
     },
-    { "id": "medine-t1.r01.vocab-1#5", "type": "present", "item": "w:ahad" },
-    { "id": "medine-t1.r01.vocab-1#6", "type": "present", "item": "w:ithnayn" },
+    { "id": "medine-t1.r01.vocab-1#4", "type": "present", "item": "w:ahad" },
+    { "id": "medine-t1.r01.vocab-1#5", "type": "present", "item": "w:ithnayn" },
     {
-      "id": "medine-t1.r01.vocab-1#7",
+      "id": "medine-t1.r01.vocab-1#6",
       "type": "mcq",
       "mode": "ar-fr",
       "item": "w:ahad",
       "distractors": ["w:ithnayn", "w:yawm"]
     },
-    { "id": "medine-t1.r01.vocab-1#8", "type": "present", "item": "w:thulatha" },
-    { "id": "medine-t1.r01.vocab-1#9", "type": "present", "item": "w:arbia" },
+    { "id": "medine-t1.r01.vocab-1#7", "type": "present", "item": "w:thulatha" },
+    { "id": "medine-t1.r01.vocab-1#8", "type": "present", "item": "w:arbia" },
     {
-      "id": "medine-t1.r01.vocab-1#10",
+      "id": "medine-t1.r01.vocab-1#9",
       "type": "match",
       "mode": "ar-fr",
       "items": ["w:ahad", "w:ithnayn", "w:thulatha", "w:arbia"]
     },
     {
-      "id": "medine-t1.r01.vocab-1#11",
+      "id": "medine-t1.r01.vocab-1#10",
       "type": "question",
       "prompt": { "fr": "Quel jour vient juste après le dimanche ?" },
       "choices": [ { "ar": "يَوْمُ الِاثْنَيْنِ" }, { "ar": "يَوْمُ الثُّلَاثَاءِ" }, { "ar": "يَوْمُ الْأَرْبِعَاءِ" } ],
       "answer": 0
     },
     {
-      "id": "medine-t1.r01.vocab-1#12",
+      "id": "medine-t1.r01.vocab-1#11",
       "type": "mcq",
       "mode": "fr-ar",
       "item": "w:arbia",
       "distractors": ["w:thulatha", "w:ithnayn"]
     },
     {
-      "id": "medine-t1.r01.vocab-1#13",
+      "id": "medine-t1.r01.vocab-1#12",
       "type": "typing",
       "ask": "fr",
       "fr": "lundi",
       "answers": ["يَوْمُ الِاثْنَيْنِ", "الِاثْنَيْنِ"]
     },
     {
-      "id": "medine-t1.r01.vocab-1#14",
+      "id": "medine-t1.r01.vocab-1#13",
       "type": "typing",
       "ask": "audio",
       "fr": "dimanche",

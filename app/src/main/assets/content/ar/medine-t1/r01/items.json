@@ -1,14 +1,5 @@
 [
   {
-    "id": "w:huna",
-    "kind": "word",
-    "ar": "هُنَا",
-    "fr": "ici",
-    "translit": "hunā",
-    "note": "Il désigne un endroit proche, comme {ar|هٰذَا} désigne une chose proche. Sa terminaison ne change jamais.",
-    "example": { "ar": "الْبَيْتُ هُنَا.", "fr": "La maison est ici." }
-  },
-  {
     "id": "w:makan",
     "kind": "word",
     "ar": "مَكَانٌ",
@@ -45,24 +36,6 @@
     "translit": "li-annahu",
     "note": "Il répond à {ar|لِمَاذَا؟}. Il est formé de {ar|لِ} (« pour »), de {ar|أَنَّ} (« que ») et de {ar|هُ} (« il ») : mot à mot « parce que lui… ». Pour une femme : {ar|لِأَنَّهَا} (« parce qu'elle »).",
     "example": { "ar": "لِأَنَّهُ مَرِيضٌ.", "fr": "Parce qu'il est malade." }
-  },
-  {
-    "id": "w:kasalan",
-    "kind": "word",
-    "ar": "كَسْلَانُ",
-    "fr": "paresseux",
-    "translit": "kaslānu",
-    "note": "Pas de tanwin : les adjectifs de forme {ar|فَعْلَانُ} en sont en général privés (les noms privés de tanwin : chapitre 4). Au féminin : {ar|كَسْلَى}.",
-    "example": { "ar": "زَيْدٌ كَسْلَانُ.", "fr": "Zayd est paresseux." }
-  },
-  {
-    "id": "w:yawm",
-    "kind": "word",
-    "ar": "يَوْمٌ",
-    "fr": "un jour",
-    "translit": "yawmun",
-    "plural": "أَيَّامٌ",
-    "gender": "m"
   },
   {
     "id": "w:usbu",
@@ -140,14 +113,6 @@
     "example": { "ar": "الدَّرْسُ فِي الْفَصْلِ.", "fr": "Le cours est dans la salle de classe." }
   },
   {
-    "id": "w:sahl",
-    "kind": "word",
-    "ar": "سَهْلٌ",
-    "fr": "facile",
-    "translit": "sahlun",
-    "example": { "ar": "الْكِتَابُ سَهْلٌ.", "fr": "Le livre est facile." }
-  },
-  {
     "id": "w:ikhtibar",
     "kind": "word",
     "ar": "اِخْتِبَارٌ",
@@ -178,16 +143,6 @@
     "example": { "ar": "الْوَرَقُ عَلَى الْمَكْتَبِ.", "fr": "Le papier est sur le bureau." }
   },
   {
-    "id": "w:kub",
-    "kind": "word",
-    "ar": "كُوبٌ",
-    "fr": "un verre, une tasse",
-    "translit": "kūbun",
-    "plural": "أَكْوَابٌ",
-    "gender": "m",
-    "example": { "ar": "الْمِلْعَقَةُ فِي الْكُوبِ.", "fr": "La cuillère est dans le verre." }
-  },
-  {
     "id": "w:farih",
     "kind": "word",
     "ar": "فَرِحٌ",
@@ -215,26 +170,6 @@
     "translit": "jayyidun",
     "note": "Au féminin : {ar|جَيِّدَةٌ}.",
     "example": { "ar": "الدَّرْسُ جَيِّدٌ.", "fr": "Le cours est excellent." }
-  },
-  {
-    "id": "w:kabir",
-    "kind": "word",
-    "ar": "كَبِيرٌ",
-    "fr": "grand, gros",
-    "translit": "kabīrun",
-    "plural": "كِبَارٌ",
-    "note": "Il s'emploie aussi pour l'âge (« âgé »). Contraire : {ar|صَغِيرٌ}. Pour la taille d'une personne, on dit plutôt {ar|طَوِيلٌ}.",
-    "example": { "ar": "الْكِتَابُ كَبِيرٌ.", "fr": "Le livre est grand." }
-  },
-  {
-    "id": "w:saghir",
-    "kind": "word",
-    "ar": "صَغِيرٌ",
-    "fr": "petit",
-    "translit": "ṣaghīrun",
-    "plural": "صِغَارٌ",
-    "note": "Il s'emploie aussi pour l'âge (« jeune »). Pour la taille d'une personne, on dit plutôt {ar|قَصِيرٌ}.",
-    "example": { "ar": "الْمِلْعَقَةُ صَغِيرَةٌ.", "fr": "La cuillère est petite." }
   },
   {
     "id": "p:salam",

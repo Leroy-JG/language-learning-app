@@ -24,7 +24,7 @@
         }
       ]
     },
-    { "id": "medine-t1.r01.grammar-1#2", "type": "present", "item": "w:huna" },
+    { "id": "medine-t1.r01.grammar-1#2", "type": "present", "item": "w:makan" },
     {
       "id": "medine-t1.r01.grammar-1#3",
       "type": "mcq",
@@ -32,9 +32,8 @@
       "item": "w:huna",
       "distractors": ["w:hunak", "w:ayna"]
     },
-    { "id": "medine-t1.r01.grammar-1#4", "type": "present", "item": "w:makan" },
     {
-      "id": "medine-t1.r01.grammar-1#5",
+      "id": "medine-t1.r01.grammar-1#4",
       "type": "tip",
       "title": "Le tableau complet des démonstratifs",
       "blocks": [
@@ -55,7 +54,7 @@
       ]
     },
     {
-      "id": "medine-t1.r01.grammar-1#6",
+      "id": "medine-t1.r01.grammar-1#5",
       "type": "sort",
       "categories": [ { "fr": "proche" }, { "fr": "loin" } ],
       "cards": [
@@ -67,7 +66,7 @@
       "instruction": "L'endroit est-il proche ou loin ?"
     },
     {
-      "id": "medine-t1.r01.grammar-1#7",
+      "id": "medine-t1.r01.grammar-1#6",
       "type": "fill_gap",
       "sentence": "الْمَسْجِدُ {0}.",
       "fr": "La mosquée est ici.",
@@ -76,7 +75,7 @@
       "explain": "« Ici » : {ar|هُنَا}. {ar|هُنَاكَ} veut dire « là-bas »."
     },
     {
-      "id": "medine-t1.r01.grammar-1#8",
+      "id": "medine-t1.r01.grammar-1#7",
       "type": "order",
       "fr": "La maison est ici.",
       "answers": [["الْبَيْتُ", "هُنَا"]],
@@ -84,16 +83,16 @@
       "distractors": ["هُنَاكَ"]
     },
     {
-      "id": "medine-t1.r01.grammar-1#9",
+      "id": "medine-t1.r01.grammar-1#8",
       "type": "fill_gap",
       "sentence": "الْبَابُ {0}.",
       "fr": "La porte est là-bas.",
       "gaps": [ { "answers": ["هُنَاكَ"] } ],
       "options": ["هُنَاكَ", "هُنَا", "هٰذَا"]
     },
-    { "id": "medine-t1.r01.grammar-1#10", "type": "build", "item": "w:huna", "extra": ["ك"] },
+    { "id": "medine-t1.r01.grammar-1#9", "type": "build", "item": "w:huna", "extra": ["ك"] },
     {
-      "id": "medine-t1.r01.grammar-1#11",
+      "id": "medine-t1.r01.grammar-1#10",
       "type": "typing",
       "ask": "question",
       "question": "أَيْنَ الْمَسْجِدُ؟",
@@ -102,7 +101,7 @@
       "instruction": "Réponds : la mosquée est là-bas."
     },
     {
-      "id": "medine-t1.r01.grammar-1#12",
+      "id": "medine-t1.r01.grammar-1#11",
       "type": "typing",
       "ask": "audio",
       "fr": "La maison est ici.",

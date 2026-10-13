@@ -1,0 +1,105 @@
+{
+  "id": "medine-t1.l09.dialogue-3",
+  "type": "dialogue",
+  "title": "Deux étudiants",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t1.l09.dialogue-3#1",
+      "type": "dialogue",
+      "title": "Une belle langue",
+      "intro": "Yāsir et Ḥāmid parlent de leurs camarades.",
+      "speakers": { "A": { "name": "Yāsir", "voice": "m2" }, "B": { "name": "Ḥāmid", "voice": "m1" } },
+      "lines": [
+        { "speaker": "A", "ar": "الْعَرَبِيَّةُ لُغَةٌ جَمِيلَةٌ.", "fr": "L'arabe est une belle langue." },
+        { "speaker": "B", "ar": "نَعَمْ، وَهِيَ سَهْلَةٌ.", "fr": "Oui, et elle est facile." },
+        {
+          "speaker": "A",
+          "ar": "عَمَّارٌ طَالِبٌ مُجْتَهِدٌ، وَمَحْمُودٌ طَالِبٌ كَسْلَانُ.",
+          "fr": "ʿAmmār est un étudiant studieux, et Maḥmūd est un étudiant paresseux."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.dialogue-3#2",
+      "type": "dialogue",
+      "title": "Le nouvel étudiant",
+      "intro": "ʿAlī accueille un nouvel étudiant.",
+      "speakers": { "A": { "name": "ʿAlī", "voice": "m2" }, "B": { "name": "Zayd", "voice": "m1" } },
+      "lines": [
+        { "speaker": "A", "ar": "مَنْ أَنْتَ؟", "fr": "Qui es-tu ?" },
+        { "speaker": "B", "ar": "أَنَا طَالِبٌ.", "fr": "Je suis étudiant." },
+        { "speaker": "A", "ar": "أَأَنْتَ طَالِبٌ جَدِيدٌ؟", "fr": "Es-tu un nouvel étudiant ?" },
+        { "speaker": "B", "ar": "نَعَمْ، أَنَا طَالِبٌ جَدِيدٌ.", "fr": "Oui, je suis un nouvel étudiant." },
+        { "speaker": "A", "ar": "أَأَنْتَ جَوْعَانُ؟", "fr": "As-tu faim ?" },
+        { "speaker": "B", "ar": "لَا، أَنَا عَطْشَانُ.", "fr": "Non, j'ai soif." },
+        {
+          "speaker": "A",
+          "ar": "الْمَاءُ فِي الْكُوبِ، وَالْكُوبُ مَلْآنُ.",
+          "fr": "L'eau est dans le verre, et le verre est plein."
+        },
+        { "speaker": "B", "ar": "الْحَمْدُ لِلَّهِ.", "fr": "Louange à Allah." }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.dialogue-3#3",
+      "type": "question",
+      "prompt": { "fr": "Comment est l'arabe, d'après la première scène ?" },
+      "choices": [
+        { "fr": "Une belle langue facile" },
+        { "fr": "Une belle langue difficile" },
+        { "fr": "Une langue difficile" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l09.dialogue-3#1" }
+    },
+    {
+      "id": "medine-t1.l09.dialogue-3#4",
+      "type": "question",
+      "prompt": { "fr": "Qui est paresseux ?" },
+      "choices": [ { "fr": "Maḥmūd" }, { "fr": "ʿAmmār" }, { "fr": "Yāsir" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l09.dialogue-3#1" }
+    },
+    {
+      "id": "medine-t1.l09.dialogue-3#5",
+      "type": "true_false",
+      "statement": { "fr": "Le nouvel étudiant a faim." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l09.dialogue-3#2" },
+      "explain": "Il répond {ar|لَا، أَنَا عَطْشَانُ} : il a soif."
+    },
+    {
+      "id": "medine-t1.l09.dialogue-3#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَأَنْتَ جَوْعَانُ؟",
+      "answers": ["لَا، أَنَا عَطْشَانُ."],
+      "fr": "Non, j'ai soif.",
+      "context": { "dialogue": "medine-t1.l09.dialogue-3#2" }
+    },
+    {
+      "id": "medine-t1.l09.dialogue-3#7",
+      "type": "order",
+      "fr": "Je suis un nouvel étudiant.",
+      "answers": [["أَنَا", "طَالِبٌ", "جَدِيدٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l09.dialogue-3#8",
+      "type": "fill_gap",
+      "sentence": "الْكُوبُ {0}.",
+      "fr": "Le verre est plein.",
+      "gaps": [ { "answers": ["مَلْآنُ"] } ],
+      "options": ["مَلْآنُ", "غَضْبَانُ"],
+      "context": { "dialogue": "medine-t1.l09.dialogue-3#2" }
+    },
+    {
+      "id": "medine-t1.l09.dialogue-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "ʿAmmār est un étudiant studieux, et Maḥmūd est un étudiant paresseux.",
+      "answers": ["عَمَّارٌ طَالِبٌ مُجْتَهِدٌ، وَمَحْمُودٌ طَالِبٌ كَسْلَانُ."]
+    }
+  ]
+}

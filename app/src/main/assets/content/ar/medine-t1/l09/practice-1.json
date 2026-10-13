@@ -1,0 +1,87 @@
+{
+  "id": "medine-t1.l09.practice-1",
+  "type": "vocabulary",
+  "title": "Nom ou adjectif ?",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l09.practice-1#1",
+      "type": "sort",
+      "categories": [ { "fr": "un nom" }, { "fr": "un adjectif" } ],
+      "cards": [
+        { "ar": "كِتَابٌ", "category": 0 },
+        { "ar": "جَدِيدٌ", "category": 1 },
+        { "ar": "قَلَمٌ", "category": 0 },
+        { "ar": "طَوِيلٌ", "category": 1 },
+        { "ar": "سَيَّارَةٌ", "category": 0 },
+        { "ar": "صَغِيرَةٌ", "category": 1 },
+        { "ar": "بَابٌ", "category": 0 },
+        { "ar": "مَكْسُورٌ", "category": 1 }
+      ],
+      "instruction": "Range chaque mot : est-ce un nom ou un adjectif ?",
+      "explain": "Un nom désigne une chose ou une personne ; un adjectif la décrit."
+    },
+    {
+      "id": "medine-t1.l09.practice-1#2",
+      "type": "spot",
+      "instruction": "Touche les deux adjectifs.",
+      "words": ["هٰذَا", "بَيْتٌ", "كَبِيرٌ", "وَهٰذَا", "كِتَابٌ", "صَغِيرٌ."],
+      "answers": [2, 5],
+      "fr": "C'est une grande maison et c'est un petit livre."
+    },
+    {
+      "id": "medine-t1.l09.practice-1#3",
+      "type": "question",
+      "prompt": { "fr": "Quel mot est l'adjectif dans {ar|هٰذَا رَجُلٌ طَوِيلٌ} ?" },
+      "choices": [ { "ar": "طَوِيلٌ" }, { "ar": "رَجُلٌ" }, { "ar": "هٰذَا" } ],
+      "answer": 0,
+      "explain": "{ar|طَوِيلٌ} décrit {ar|رَجُلٌ} : c'est l'adjectif."
+    },
+    {
+      "id": "medine-t1.l09.practice-1#4",
+      "type": "fill_gap",
+      "sentence": "هٰذَا قَلَمٌ {0}.",
+      "fr": "C'est un stylo neuf.",
+      "gaps": [ { "answers": ["جَدِيدٌ"] } ],
+      "options": ["جَدِيدٌ", "جَدِيدَةٌ"],
+      "explain": "{ar|قَلَمٌ} est masculin : l'adjectif reste au masculin."
+    },
+    {
+      "id": "medine-t1.l09.practice-1#5",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ حَقِيبَةٌ {0}.",
+      "fr": "C'est un sac neuf.",
+      "gaps": [ { "answers": ["جَدِيدَةٌ"] } ],
+      "options": ["جَدِيدَةٌ", "جَدِيدٌ"],
+      "explain": "{ar|حَقِيبَةٌ} est féminin : l'adjectif prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l09.practice-1#6",
+      "type": "order",
+      "fr": "Voici une voiture rapide.",
+      "answers": [["هٰذِهِ", "سَيَّارَةٌ", "سَرِيعَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l09.practice-1#7",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|بِنْتٌ جَمِيلَةٌ}, le nom qualifié est {ar|جَمِيلَةٌ}." },
+      "answer": false,
+      "explain": "Faux : le nom qualifié est {ar|بِنْتٌ}. {ar|جَمِيلَةٌ} est l'adjectif."
+    },
+    {
+      "id": "medine-t1.l09.practice-1#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est un grand livre.",
+      "answers": ["هٰذَا كِتَابٌ كَبِيرٌ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd est un homme pauvre.",
+      "answers": ["زَيْدٌ رَجُلٌ فَقِيرٌ."]
+    }
+  ]
+}

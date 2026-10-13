@@ -1,0 +1,214 @@
+{
+  "id": "medine-t1.l09.grammar-2",
+  "type": "grammar",
+  "title": "L'adjectif s'accorde",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l09.grammar-2#1",
+      "type": "tip",
+      "title": "L'adjectif ressemble à son nom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le nom qualifié commande : l'adjectif s'**accorde** avec lui sur quatre points."
+        },
+        {
+          "type": "table",
+          "header": ["Ce qui s'accorde", "Exemple"],
+          "rows": [
+            ["le **genre** (masculin / féminin)", "{ar|طَالِبٌ جَدِيدٌ} / {ar|طَالِبَةٌ جَدِيدَةٌ}"],
+            ["le **nombre** (singulier / pluriel)", "un nom singulier a un adjectif singulier"],
+            ["le **défini** ou l'**indéfini**", "{ar|كِتَابٌ جَدِيدٌ} / {ar|الْكِتَابُ الْجَدِيدُ}"],
+            ["le **cas** ({ar|الْإِعْرَابُ})", "{ar|الْبَيْتُ الْكَبِيرُ} / {ar|فِي الْبَيْتِ الْكَبِيرِ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans ce chapitre, on travaille avec des noms au singulier. Le pluriel des adjectifs viendra plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.grammar-2#2",
+      "type": "tip",
+      "title": "1. Le genre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Avec un nom féminin, l'adjectif prend en général le {ar|ة}, comme tu l'as vu au chapitre 6. Cela vaut aussi pour les choses. (Les adjectifs d'état comme {ar|عَطْشَانُ}, que tu verras plus loin, ont un féminin différent.)"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "طَالِبٌ جَدِيدٌ", "fr": "un nouvel étudiant" },
+              "to": { "ar": "طَالِبَةٌ جَدِيدَةٌ", "fr": "une nouvelle étudiante" }
+            },
+            {
+              "from": { "ar": "طَبِيبٌ مُسْلِمٌ", "fr": "un médecin musulman" },
+              "to": { "ar": "طَبِيبَةٌ مُسْلِمَةٌ", "fr": "une femme médecin musulmane" }
+            },
+            {
+              "from": { "ar": "وَلَدٌ صَغِيرٌ", "fr": "un petit garçon" },
+              "to": { "ar": "بِنْتٌ صَغِيرَةٌ", "fr": "une petite fille" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.grammar-2#3",
+      "type": "question",
+      "prompt": { "fr": "Laquelle de ces deux expressions est correcte ?" },
+      "choices": [ { "ar": "طَالِبَةٌ جَدِيدَةٌ" }, { "ar": "طَالِبَةٌ جَدِيدٌ" } ],
+      "answer": 0,
+      "explain": "{ar|طَالِبَةٌ} est féminin : l'adjectif prend le {ar|ة}, {ar|جَدِيدَةٌ}."
+    },
+    {
+      "id": "medine-t1.l09.grammar-2#4",
+      "type": "tip",
+      "title": "2. Le défini et l'indéfini",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Si le nom a l'article {ar|الْ}, l'adjectif le prend aussi. Si le nom est indéfini (avec tanwin), l'adjectif l'est aussi. Un nom défini par une annexion (le premier terme d'une annexion dont le second terme est défini) est défini lui aussi : son adjectif prend l'article, {ar|كِتَابُ الطَّالِبِ الْجَدِيدُ} (le nouveau livre de l'étudiant)."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "كِتَابٌ جَدِيدٌ", "fr": "un livre neuf" },
+              "to": { "ar": "الْكِتَابُ الْجَدِيدُ", "fr": "le livre neuf" }
+            },
+            {
+              "from": { "ar": "سَيَّارَةٌ جَمِيلَةٌ", "fr": "une belle voiture" },
+              "to": { "ar": "السَّيَّارَةُ الْجَمِيلَةُ", "fr": "la belle voiture" }
+            },
+            {
+              "from": { "ar": "مَدْرَسَةٌ كَبِيرَةٌ", "fr": "une grande école" },
+              "to": { "ar": "الْمَدْرَسَةُ الْكَبِيرَةُ", "fr": "la grande école" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Un nom propre est défini : son adjectif prend l'article. {ar|زَيْدٌ الطَّوِيلُ} veut dire « Zayd, le grand ». Tu as déjà vu cet accord au chapitre 5 : {ar|الْمَدِينَةُ الْمُنَوَّرَةُ} (Médine, la ville illuminée) est un nom et un adjectif féminins, tous deux avec l'article."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.grammar-2#5",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ فِي الْمَسْجِدِ {0}.",
+      "fr": "Zayd est dans la grande mosquée.",
+      "gaps": [ { "answers": ["الْكَبِيرِ"] } ],
+      "options": ["الْكَبِيرِ", "كَبِيرٍ"],
+      "explain": "{ar|الْمَسْجِدِ} est défini : l'adjectif prend l'article, {ar|الْكَبِيرِ}."
+    },
+    {
+      "id": "medine-t1.l09.grammar-2#6",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ فِي مَسْجِدٍ {0}.",
+      "fr": "Zayd est dans une grande mosquée.",
+      "gaps": [ { "answers": ["كَبِيرٍ"] } ],
+      "options": ["كَبِيرٍ", "الْكَبِيرِ"],
+      "explain": "{ar|مَسْجِدٍ} est indéfini (tanwin) : l'adjectif l'est aussi, {ar|كَبِيرٍ}."
+    },
+    {
+      "id": "medine-t1.l09.grammar-2#7",
+      "type": "tip",
+      "title": "3. Le cas",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'adjectif prend **le même cas** que son nom : la même voyelle finale. Après une préposition, le nom est à la kasra (génitif) : l'adjectif aussi. Après un verbe comme {ar|قَرَأْتُ} (chapitre 5), le nom est à la fatha (accusatif) : l'adjectif aussi."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "الْبَيْتُ الْكَبِيرُ", "fr": "la grande maison" },
+              "to": { "ar": "فِي الْبَيْتِ الْكَبِيرِ", "fr": "dans la grande maison" }
+            },
+            {
+              "from": { "ar": "كِتَابٌ جَدِيدٌ", "fr": "un livre neuf" },
+              "to": { "ar": "فِي كِتَابٍ جَدِيدٍ", "fr": "dans un livre neuf" }
+            },
+            {
+              "from": { "ar": "الطَّالِبُ الْجَدِيدُ", "fr": "le nouvel étudiant" },
+              "to": { "ar": "مِنَ الطَّالِبِ الْجَدِيدِ", "fr": "du nouvel étudiant" }
+            },
+            {
+              "from": { "ar": "الْكِتَابُ الْجَدِيدُ", "fr": "le livre neuf" },
+              "to": { "ar": "قَرَأْتُ الْكِتَابَ الْجَدِيدَ", "fr": "j'ai lu le livre neuf" }
+            },
+            {
+              "from": { "ar": "كِتَابٌ جَدِيدٌ", "fr": "un livre neuf" },
+              "to": { "ar": "قَرَأْتُ كِتَابًا جَدِيدًا", "fr": "j'ai lu un livre neuf" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "L'adjectif s'accorde avec le mot qu'il décrit, pas avec le mot le plus proche. Dans une annexion, la voyelle de l'adjectif montre qui il décrit : {ar|اِبْنُ الْمُدِيرِ الْجَدِيدِ} (le fils du nouveau directeur : l'adjectif décrit le directeur, à la kasra) et {ar|اِبْنُ الْمُدِيرِ الْجَدِيدُ} (le nouveau fils du directeur : l'adjectif décrit le fils, à la damma)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.grammar-2#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|فِي الْبَيْتِ الْكَبِيرِ}, l'adjectif {ar|الْكَبِيرِ} se termine par…" },
+      "choices": [ { "fr": "une kasra, comme le nom {ar|الْبَيْتِ}" }, { "fr": "une damma" }, { "fr": "une fatha" } ],
+      "answer": 0,
+      "explain": "L'adjectif prend le même cas que le nom qu'il décrit : ici la kasra, après {ar|فِي}."
+    },
+    {
+      "id": "medine-t1.l09.grammar-2#9",
+      "type": "sort",
+      "categories": [ { "fr": "masculin" }, { "fr": "féminin" } ],
+      "cards": [
+        { "ar": "طَالِبٌ جَدِيدٌ", "category": 0 },
+        { "ar": "سَيَّارَةٌ جَدِيدَةٌ", "category": 1 },
+        { "ar": "بَيْتٌ كَبِيرٌ", "category": 0 },
+        { "ar": "غُرْفَةٌ كَبِيرَةٌ", "category": 1 },
+        { "ar": "قَلَمٌ مَكْسُورٌ", "category": 0 },
+        { "ar": "نَافِذَةٌ مَفْتُوحَةٌ", "category": 1 }
+      ],
+      "instruction": "Range chaque groupe : le nom qualifié est-il masculin ou féminin ?",
+      "explain": "Ici, le {ar|ة} de l'adjectif montre que le nom qualifié est féminin."
+    },
+    {
+      "id": "medine-t1.l09.grammar-2#10",
+      "type": "order",
+      "fr": "Zayd est dans la grande maison.",
+      "answers": [["زَيْدٌ", "فِي", "الْبَيْتِ", "الْكَبِيرِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l09.grammar-2#11",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans {ar|مِنَ الطَّالِبِ الْجَدِيدِ}, l'adjectif prend la kasra parce qu'il s'accorde en cas avec le nom."
+      },
+      "answer": true,
+      "explain": "Le nom {ar|الطَّالِبِ} est après {ar|مِنْ} : il est à la kasra, et son adjectif aussi."
+    },
+    {
+      "id": "medine-t1.l09.grammar-2#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le nouvel étudiant est dans la salle de classe.",
+      "answers": ["الطَّالِبُ الْجَدِيدُ فِي الْفَصْلِ."]
+    },
+    {
+      "id": "medine-t1.l09.grammar-2#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le médecin est dans la petite maison.",
+      "answers": ["الطَّبِيبُ فِي الْبَيْتِ الصَّغِيرِ."]
+    }
+  ]
+}

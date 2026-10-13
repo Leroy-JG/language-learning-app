@@ -1,0 +1,121 @@
+{
+  "id": "medine-t1.l09.dialogue-2",
+  "type": "dialogue",
+  "title": "À qui est… ? Où est… ?",
+  "icon": "car",
+  "screens": [
+    {
+      "id": "medine-t1.l09.dialogue-2#1",
+      "type": "dialogue",
+      "title": "La belle voiture",
+      "intro": "Saʿīd et Maryam parlent d'une voiture et d'un livre.",
+      "speakers": { "A": { "name": "Saʿīd", "voice": "m1" }, "B": { "name": "Maryam", "voice": "f1" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "لِمَنْ تِلْكَ السَّيَّارَةُ الْجَمِيلَةُ؟",
+          "fr": "À qui est cette belle voiture, là-bas ?"
+        },
+        { "speaker": "B", "ar": "هِيَ لِلْمُدِيرِ الْجَدِيدِ.", "fr": "Elle est au nouveau directeur." },
+        {
+          "speaker": "A",
+          "ar": "وَلِمَنْ هٰذَا الْكِتَابُ الْكَبِيرُ؟ أَهُوَ لِلْمُدَرِّسِ؟",
+          "fr": "Et à qui est ce grand livre ? Est-il à l'enseignant ?"
+        },
+        { "speaker": "B", "ar": "لَا، هُوَ لِلطَّالِبِ الْجَدِيدِ.", "fr": "Non, il est au nouvel étudiant." }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.dialogue-2#2",
+      "type": "dialogue",
+      "title": "Dans la cuisine",
+      "intro": "Maryam cherche une cuillère et une chaise.",
+      "speakers": { "A": { "name": "Maryam", "voice": "f1" }, "B": { "name": "Saʿīd", "voice": "m1" } },
+      "lines": [
+        { "speaker": "A", "ar": "أَيْنَ الْمِلْعَقَةُ الصَّغِيرَةُ؟", "fr": "Où est la petite cuillère ?" },
+        { "speaker": "B", "ar": "هِيَ فِي الْكُوبِ.", "fr": "Elle est dans le verre." },
+        { "speaker": "A", "ar": "وَأَيْنَ الْكُرْسِيُّ الْمَكْسُورُ؟", "fr": "Et où est la chaise cassée ?" },
+        { "speaker": "B", "ar": "هُوَ هُنَاكَ.", "fr": "Elle est là-bas." }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.dialogue-2#3",
+      "type": "tip",
+      "title": "Le pronom et l'adjectif suivent le genre arabe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|الْمِلْعَقَةُ} est féminin : on dit {ar|هِيَ} et l'adjectif prend le {ar|ة}, {ar|الصَّغِيرَةُ}. {ar|الْكُرْسِيُّ} est masculin en arabe : on dit {ar|هُوَ} et {ar|الْمَكْسُورُ}, même si « chaise » est féminin en français."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans {ar|لِلْمُدِيرِ الْجَدِيدِ}, le {ar|لِ} se colle à l'article : {ar|لِ} + {ar|الْمُدِيرِ} donne {ar|لِلْمُدِيرِ}, et l'adjectif {ar|الْجَدِيدِ} est à la kasra comme le nom."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "À qui est la belle voiture ?" },
+      "choices": [ { "fr": "Au nouveau directeur" }, { "fr": "À l'enseignant" }, { "fr": "Au nouvel étudiant" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l09.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l09.dialogue-2#5",
+      "type": "question",
+      "prompt": { "fr": "À qui est le grand livre ?" },
+      "choices": [ { "fr": "Au nouvel étudiant" }, { "fr": "À l'enseignant" }, { "fr": "Au directeur" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l09.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l09.dialogue-2#6",
+      "type": "question",
+      "prompt": { "fr": "Où est la petite cuillère ?" },
+      "choices": [ { "fr": "Dans le verre" }, { "fr": "Sur la table" }, { "fr": "Là-bas" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l09.dialogue-2#2" }
+    },
+    {
+      "id": "medine-t1.l09.dialogue-2#7",
+      "type": "true_false",
+      "statement": { "fr": "La chaise cassée est dans le verre." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l09.dialogue-2#2" },
+      "explain": "Elle est {ar|هُنَاكَ} (là-bas) ; c'est la petite cuillère qui est dans le verre."
+    },
+    {
+      "id": "medine-t1.l09.dialogue-2#8",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ الْمِلْعَقَةُ {0}؟",
+      "fr": "Où est la petite cuillère ?",
+      "gaps": [ { "answers": ["الصَّغِيرَةُ"] } ],
+      "options": ["الصَّغِيرَةُ", "الصَّغِيرُ"],
+      "explain": "{ar|مِلْعَقَةٌ} est féminin : l'adjectif prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l09.dialogue-2#9",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ الْكُرْسِيُّ {0}؟",
+      "fr": "Où est la chaise cassée ?",
+      "gaps": [ { "answers": ["الْمَكْسُورُ"] } ],
+      "options": ["الْمَكْسُورُ", "الْمَكْسُورَةُ"],
+      "explain": "{ar|كُرْسِيٌّ} est masculin en arabe : l'adjectif reste au masculin."
+    },
+    {
+      "id": "medine-t1.l09.dialogue-2#10",
+      "type": "order",
+      "fr": "À qui est cette belle voiture ?",
+      "answers": [["لِمَنْ", "هٰذِهِ", "السَّيَّارَةُ", "الْجَمِيلَةُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l09.dialogue-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Elle est au nouveau directeur.",
+      "answers": ["هِيَ لِلْمُدِيرِ الْجَدِيدِ."]
+    }
+  ]
+}

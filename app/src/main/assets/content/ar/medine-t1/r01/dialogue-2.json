@@ -83,7 +83,7 @@
               "{ar|عُنْوَانَ الدَّرْسِ}",
               "le titre de la leçon : {ar|عُنْوَانَ} est à la fatha, car c'est ce que Muḥammad écrit"
             ],
-            ["{ar|طَالِبٌ جَدِيدٌ}", "un nouvel étudiant : en arabe, l'adjectif se place après le nom"]
+            ["{ar|طَالِبٌ جَدِيدٌ}", "un nouvel étudiant : l'adjectif se place après le nom (chapitre 9)"]
           ]
         },
         { "type": "note", "text": "Tu n'as pas à les apprendre maintenant : tu les étudieras plus tard." }
