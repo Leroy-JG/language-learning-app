@@ -61,7 +61,7 @@
       "answers": ["هٰذَا الطَّبِيبُ مِنْ أَمْرِيكَا."]
     },
     {
-      "id": "medine-t1.l08.practice-4#8",
+      "id": "medine-t1.l08.practice-4#7b",
       "type": "tip",
       "title": "Deux verbes avec {ar|وَ}",
       "blocks": [
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": "medine-t1.l08.practice-4#9",
+      "id": "medine-t1.l08.practice-4#8",
       "type": "order",
       "fr": "ʿAmmār est allé à la mosquée et s'est assis devant le mihrab.",
       "answers": [
@@ -87,7 +87,7 @@
       "punctuation": "."
     },
     {
-      "id": "medine-t1.l08.practice-4#10",
+      "id": "medine-t1.l08.practice-4#9",
       "type": "typing",
       "ask": "audio",
       "fr": "ʿAmmār est allé à la mosquée et s'est assis devant le mihrab.",
