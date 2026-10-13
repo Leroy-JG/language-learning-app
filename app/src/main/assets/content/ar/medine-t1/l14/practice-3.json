@@ -1,0 +1,140 @@
+{
+  "id": "medine-t1.l14.practice-3",
+  "type": "grammar",
+  "title": "Lis et écris les noms",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l14.practice-3#1",
+      "type": "tip",
+      "title": "Lis les noms (1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lis chaque nom à voix haute, puis touche-le pour t'écouter. Regarde bien la fin : une damma simple, jamais un tanwin."
+        },
+        {
+          "type": "gallery",
+          "title": "Des noms de personnes",
+          "items": [
+            "w:wilyam",
+            "w:idward",
+            "w:ibrahim",
+            "w:ismail",
+            "w:ishaq",
+            "w:yaqub",
+            "w:yusuf",
+            "w:dawud",
+            "w:sulayman"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.practice-3#2",
+      "type": "tip",
+      "title": "Lis les noms (2)",
+      "blocks": [
+        {
+          "type": "gallery",
+          "title": "D'autres noms",
+          "items": ["w:ayyub", "w:yunus", "w:idris", "w:jibril", "w:mikail", "w:firawn", "w:nuh", "w:lut"]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.practice-3#3",
+      "type": "tip",
+      "title": "Lis les noms (3)",
+      "blocks": [
+        {
+          "type": "gallery",
+          "title": "Des noms de pays et de villes",
+          "items": ["w:landan", "w:baris", "w:bakistan", "w:istanbul", "w:turkiya", "w:yunan"]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.practice-3#4",
+      "type": "match",
+      "mode": "audio-ar",
+      "items": ["w:ibrahim", "w:ismail", "w:ishaq", "w:yaqub", "w:yusuf"]
+    },
+    {
+      "id": "medine-t1.l14.practice-3#5",
+      "type": "match",
+      "mode": "audio-ar",
+      "items": ["w:landan", "w:baris", "w:bakistan", "w:istanbul", "w:yunan"]
+    },
+    {
+      "id": "medine-t1.l14.practice-3#6",
+      "type": "sort",
+      "categories": [ { "fr": "une ville ou un pays" }, { "fr": "une personne" } ],
+      "cards": [
+        { "item": "w:landan", "category": 0 },
+        { "item": "w:baris", "category": 0 },
+        { "item": "w:istanbul", "category": 0 },
+        { "item": "w:ibrahim", "category": 1 },
+        { "item": "w:yusuf", "category": 1 },
+        { "item": "w:firawn", "category": 1 }
+      ],
+      "instruction": "Range chaque nom : est-ce une ville ou une personne ?"
+    },
+    {
+      "id": "medine-t1.l14.practice-3#7",
+      "type": "spot",
+      "instruction": "Touche les noms propres non arabes.",
+      "words": ["ذَهَبَ", "زَيْدٌ", "مِنْ", "بَارِيسَ", "إِلَى", "إِسْطَنْبُولَ."],
+      "answers": [3, 5],
+      "fr": "Zayd est allé de Paris à Istanbul.",
+      "explain": "{ar|بَارِيسَ} et {ar|إِسْطَنْبُولَ} sont des noms de villes non arabes. {ar|زَيْدٌ} est un prénom arabe : il a le tanwin."
+    },
+    {
+      "id": "medine-t1.l14.practice-3#8",
+      "type": "fill_gap",
+      "sentence": "ذَهَبَ زَيْدٌ مِنْ {0} إِلَى لَنْدَنَ.",
+      "fr": "Zayd est allé de Paris à Londres.",
+      "gaps": [ { "answers": ["بَارِيسَ"] } ],
+      "options": ["بَارِيسَ", "بَاكِسْتَانَ", "إِسْطَنْبُولَ"]
+    },
+    { "id": "medine-t1.l14.practice-3#9", "type": "build", "item": "w:sulayman", "extra": ["ع"] },
+    {
+      "id": "medine-t1.l14.practice-3#10",
+      "type": "fill_gap",
+      "sentence": "أَنَا مِنْ {0}.",
+      "fr": "Je viens de Paris.",
+      "gaps": [ { "answers": ["بَارِيسَ"] } ],
+      "options": ["بَارِيسَ", "لَنْدَنَ", "إِسْطَنْبُولَ"],
+      "explain": "Après {ar|مِنْ}, un nom sans tanwin et sans article prend la fatha : {ar|بَارِيسَ}."
+    },
+    {
+      "id": "medine-t1.l14.practice-3#11",
+      "type": "true_false",
+      "statement": { "fr": "{ar|يُونُسُ} est privé de tanwin parce que c'est un nom propre non arabe de plus de trois lettres." },
+      "answer": true,
+      "explain": "{ar|يُونُسُ} s'écrit {ar|ي} + {ar|و} + {ar|ن} + {ar|س} : quatre lettres, donc pas de tanwin."
+    },
+    {
+      "id": "medine-t1.l14.practice-3#12",
+      "type": "fill_gap",
+      "sentence": "هُوَ مِنْ {0}.",
+      "fr": "Il vient de Turquie.",
+      "gaps": [ { "answers": ["تُرْكِيَا"] } ],
+      "options": ["تُرْكِيَا", "بَاكِسْتَانَ", "لَنْدَنَ"]
+    },
+    {
+      "id": "medine-t1.l14.practice-3#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Isḥāq est à Istanbul.",
+      "answers": ["إِسْحَاقُ فِي إِسْطَنْبُولَ."]
+    },
+    {
+      "id": "medine-t1.l14.practice-3#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Yaʿqūb est allé de Londres à Paris.",
+      "answers": ["ذَهَبَ يَعْقُوبُ مِنْ لَنْدَنَ إِلَى بَارِيسَ.", "يَعْقُوبُ ذَهَبَ مِنْ لَنْدَنَ إِلَى بَارِيسَ."]
+    }
+  ]
+}

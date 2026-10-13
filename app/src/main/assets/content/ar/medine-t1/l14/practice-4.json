@@ -1,0 +1,119 @@
+{
+  "id": "medine-t1.l14.practice-4",
+  "type": "grammar",
+  "title": "Réponds aux questions",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l14.practice-4#1",
+      "type": "tip",
+      "title": "Les questions du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre pose des questions à plusieurs personnes ({ar|أَنْتُمْ}, « vous », et {ar|كُمْ}, « votre »). Tu réponds au nom du groupe : {ar|نَحْنُ} (« nous ») et {ar|نَا} (« notre »)."
+        },
+        {
+          "type": "note",
+          "text": "Comme au chapitre 12, la consigne te dit quoi répondre : c'est la forme arabe qu'on attend de toi."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.practice-4#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ أَنْتُمْ؟",
+      "answers": ["نَحْنُ مُسْلِمُونَ.", "مُسْلِمُونَ."],
+      "fr": "Nous sommes musulmans.",
+      "instruction": "Réponds : nous sommes musulmans."
+    },
+    {
+      "id": "medine-t1.l14.practice-4#3",
+      "type": "fill_gap",
+      "sentence": "مَنْ رَبُّكُمْ؟ {0} رَبُّنَا.",
+      "fr": "Qui est votre Seigneur ? Allah est notre Seigneur.",
+      "gaps": [ { "answers": ["اللَّهُ"] } ],
+      "options": ["اللَّهُ", "الْقُرْآنُ", "الْكَعْبَةُ"]
+    },
+    {
+      "id": "medine-t1.l14.practice-4#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا لُغَتُكُمْ؟",
+      "answers": ["لُغَتُنَا الْعَرَبِيَّةُ.", "الْعَرَبِيَّةُ."],
+      "fr": "Notre langue est l'arabe.",
+      "instruction": "Réponds : notre langue est l'arabe."
+    },
+    {
+      "id": "medine-t1.l14.practice-4#5",
+      "type": "question",
+      "prompt": { "fr": "Réponds « oui » à {ar|أَأَنْتُمْ مُسْلِمُونَ؟} au nom du groupe." },
+      "choices": [
+        { "ar": "نَعَمْ، نَحْنُ مُسْلِمُونَ." },
+        { "ar": "نَعَمْ، أَنْتُمْ مُسْلِمُونَ." },
+        { "ar": "نَعَمْ، هُمْ مُسْلِمُونَ." }
+      ],
+      "answer": 0,
+      "explain": "On répond au nom du groupe : {ar|نَحْنُ} (« nous »)."
+    },
+    {
+      "id": "medine-t1.l14.practice-4#6",
+      "type": "order",
+      "fr": "Oui, il y a un jardin dans notre maison.",
+      "answers": [["نَعَمْ،", "فِي", "بَيْتِنَا", "حَدِيقَةٌ"]],
+      "punctuation": ".",
+      "explain": "La question était {ar|أَفِي بَيْتِكُمْ حَدِيقَةٌ؟} : {ar|بَيْتِكُمْ} devient {ar|بَيْتِنَا}."
+    },
+    {
+      "id": "medine-t1.l14.practice-4#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَعِنْدَكُمْ سَيَّارَةٌ؟",
+      "answers": ["نَعَمْ، عِنْدَنَا سَيَّارَةٌ.", "عِنْدَنَا سَيَّارَةٌ."],
+      "fr": "Oui, nous avons une voiture.",
+      "instruction": "Réponds : oui, nous avons une voiture."
+    },
+    {
+      "id": "medine-t1.l14.practice-4#8",
+      "type": "fill_gap",
+      "sentence": "أَأَنْتُمْ مُدَرِّسُونَ؟ لَا. نَحْنُ {0}.",
+      "fr": "Êtes-vous enseignants ? Non. Nous sommes médecins.",
+      "gaps": [ { "answers": ["أَطِبَّاءُ"] } ],
+      "options": ["أَطِبَّاءُ", "مُدَرِّسُونَ", "مُهَنْدِسُونَ"]
+    },
+    {
+      "id": "medine-t1.l14.practice-4#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ بَيْتُكُمْ؟",
+      "answers": ["بَيْتُنَا قَرِيبٌ مِنَ الْمَطَارِ.", "قَرِيبٌ مِنَ الْمَطَارِ."],
+      "fr": "Notre maison est près de l'aéroport.",
+      "instruction": "Réponds : notre maison est près de l'aéroport."
+    },
+    {
+      "id": "medine-t1.l14.practice-4#10",
+      "type": "question",
+      "prompt": { "fr": "Que répond-on à {ar|أَيْنَ مُدَرِّسُكُمْ؟} si l'enseignant est dans la salle de classe ?" },
+      "choices": [ { "ar": "هُوَ فِي الْفَصْلِ." }, { "ar": "هُوَ فِي السُّوقِ." }, { "ar": "هُوَ فِي الْمَطْبَخِ." } ],
+      "answer": 0,
+      "explain": "{ar|فَصْلٌ} veut dire « une salle de classe »."
+    },
+    {
+      "id": "medine-t1.l14.practice-4#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ مَدْرَسَتُكُمْ؟",
+      "answers": ["مَدْرَسَتُنَا قَرِيبَةٌ مِنَ الْبَيْتِ.", "قَرِيبَةٌ مِنَ الْبَيْتِ."],
+      "fr": "Notre école est près de la maison.",
+      "instruction": "Réponds : notre école est près de la maison."
+    },
+    {
+      "id": "medine-t1.l14.practice-4#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Non, nous sommes médecins.",
+      "answers": ["لَا. نَحْنُ أَطِبَّاءُ."]
+    }
+  ]
+}

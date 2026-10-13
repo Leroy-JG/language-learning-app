@@ -1,0 +1,193 @@
+{
+  "id": "medine-t1.l14.grammar-3",
+  "type": "grammar",
+  "title": "Les noms propres non arabes",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l14.grammar-3#1",
+      "type": "tip",
+      "title": "Des noms venus d'ailleurs",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu viens de rencontrer beaucoup de prénoms et de noms de villes qui ne sont pas arabes à l'origine : {ar|إِبْرَاهِيمُ}, {ar|إِسْحَاقُ}, {ar|لَنْدَنُ}, {ar|بَارِيسُ}… On les appelle {ar|الْعَلَمُ الْأَعْجَمِيُّ} : « le nom propre non arabe » ({ar|عَلَمٌ} veut dire « nom propre », chapitre 4). Regarde leur fin : presque tous se terminent par une damma simple, sans tanwin."
+        },
+        {
+          "type": "note",
+          "text": "Tu connais déjà plusieurs sortes de noms privés de tanwin ({ar|مَمْنُوعٌ مِنَ الصَّرْفِ}) : les noms propres féminins comme {ar|فَاطِمَةُ} (chapitre 4). Voici une nouvelle sorte."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.grammar-3#2",
+      "type": "tip",
+      "title": "La règle : plus de trois lettres",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "En général, un nom propre non arabe de **plus de trois lettres** n'a pas de tanwin : il se termine par une damma simple, jamais par {ar|◌ٌ}. S'il n'a que **trois** lettres, il garde le plus souvent son tanwin."
+        },
+        {
+          "type": "table",
+          "header": ["Nom", "Lettres", "Tanwin ?"],
+          "rows": [
+            ["{ar|إِبْرَاهِيمُ}", "7", "non"],
+            ["{ar|إِسْحَاقُ}", "5", "non"],
+            ["{ar|يُوسُفُ}", "4", "non"],
+            ["{ar|دَاوُدُ}", "4", "non"],
+            ["{ar|نُوحٌ}", "3", "oui"],
+            ["{ar|لُوطٌ}", "3", "oui"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "On compte les lettres écrites, pas les voyelles : un alif, un {ar|و} ou un {ar|ي} long compte comme une lettre. Ainsi {ar|نُوحٌ} s'écrit {ar|ن} + {ar|و} + {ar|ح} : trois lettres."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.grammar-3#3",
+      "type": "sort",
+      "categories": [
+        { "fr": "trois lettres : avec tanwin ({ar|◌ٌ})" },
+        { "fr": "plus de trois lettres : sans tanwin ({ar|◌ُ})" }
+      ],
+      "cards": [
+        { "ar": "إِبْرَاهِيمُ", "category": 1 },
+        { "ar": "نُوحٌ", "category": 0 },
+        { "ar": "دَاوُدُ", "category": 1 },
+        { "ar": "لُوطٌ", "category": 0 },
+        { "ar": "إِسْحَاقُ", "category": 1 },
+        { "ar": "يُوسُفُ", "category": 1 }
+      ],
+      "instruction": "Range chaque nom propre non arabe : porte-t-il le tanwin ?",
+      "explain": "Comptée lettre par lettre, la longueur du nom décide : trois lettres, tanwin ; plus, pas de tanwin."
+    },
+    {
+      "id": "medine-t1.l14.grammar-3#4",
+      "type": "tip",
+      "title": "Après une préposition : la fatha",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme {ar|مَكَّةُ} (chapitre 4), un nom sans tanwin, sans article et qui n'est pas premier terme d'une annexion, prend la **fatha** au lieu de la kasra après une préposition ou comme second terme d'une annexion. Un nom qui a le tanwin prend la kasra."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "لَنْدَنُ", "fr": "Londres" }, "to": { "ar": "مِنْ لَنْدَنَ", "fr": "de Londres" } },
+            { "from": { "ar": "بَارِيسُ", "fr": "Paris" }, "to": { "ar": "فِي بَارِيسَ", "fr": "à Paris" } },
+            {
+              "from": { "ar": "إِبْرَاهِيمُ", "fr": "Ibrāhīm" },
+              "to": { "ar": "إِلَى إِبْرَاهِيمَ", "fr": "vers Ibrāhīm" }
+            },
+            {
+              "from": { "ar": "نُوحٌ", "fr": "Nūḥ" },
+              "to": { "ar": "مِنْ نُوحٍ", "fr": "de Nūḥ" },
+              "label": "trois lettres : tanwin, donc kasra"
+            },
+            {
+              "from": { "ar": "الْيُونَانُ", "fr": "la Grèce" },
+              "to": { "ar": "مِنَ الْيُونَانِ", "fr": "de Grèce" },
+              "label": "avec l'article : kasra"
+            }
+          ]
+        },
+        { "type": "example", "ar": "هٰذَا كِتَابُ إِبْرَاهِيمَ.", "fr": "C'est le livre d'Ibrāhīm." },
+        {
+          "type": "note",
+          "text": "Même avec la fatha, le nom reste au génitif : seule la marque change. Les noms qui se terminent par un alif long, comme {ar|تُرْكِيَا}, ne changent pas à l'écrit : {ar|مِنْ تُرْكِيَا}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.grammar-3#5",
+      "type": "question",
+      "prompt": { "fr": "Après la préposition {ar|مِنْ}, le nom {ar|لَنْدَنُ} (sans article) prend…" },
+      "choices": [ { "fr": "une fatha ({ar|◌َ})" }, { "fr": "une kasra ({ar|◌ِ})" }, { "fr": "un tanwin ({ar|◌ٍ})" } ],
+      "answer": 0,
+      "explain": "{ar|لَنْدَنُ} est privé de tanwin : après une préposition, il prend la fatha ({ar|مِنْ لَنْدَنَ})."
+    },
+    {
+      "id": "medine-t1.l14.grammar-3#6",
+      "type": "true_false",
+      "statement": { "fr": "{ar|نُوحٌ} garde son tanwin parce qu'il n'a que trois lettres." },
+      "answer": true,
+      "explain": "Un nom propre non arabe de trois lettres garde en général son tanwin ; à partir de quatre lettres, il n'en a en général plus."
+    },
+    {
+      "id": "medine-t1.l14.grammar-3#7",
+      "type": "fill_gap",
+      "sentence": "هٰذَا كِتَابُ {0}.",
+      "fr": "C'est le livre de Yūsuf.",
+      "gaps": [ { "answers": ["يُوسُفَ"] } ],
+      "options": ["يُوسُفَ", "نُوحٍ", "إِبْرَاهِيمَ"],
+      "explain": "{ar|يُوسُفُ} a plus de trois lettres : second terme d'une annexion, il prend la fatha ({ar|يُوسُفَ})."
+    },
+    {
+      "id": "medine-t1.l14.grammar-3#8",
+      "type": "fill_gap",
+      "sentence": "هٰذَا كِتَابُ {0}.",
+      "fr": "C'est le livre de Nūḥ.",
+      "gaps": [ { "answers": ["نُوحٍ"] } ],
+      "options": ["نُوحٍ", "يُوسُفَ", "دَاوُدَ"],
+      "explain": "{ar|نُوحٌ} n'a que trois lettres : il garde son tanwin, donc la kasra ({ar|نُوحٍ})."
+    },
+    {
+      "id": "medine-t1.l14.grammar-3#9",
+      "type": "tip",
+      "title": "Les noms sans tanwin que tu connais",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici les sortes de noms privés de tanwin que tu as rencontrées jusqu'ici."
+        },
+        {
+          "type": "table",
+          "header": ["Sorte de nom", "Exemples", "Chapitre"],
+          "rows": [
+            ["la plupart des noms propres féminins", "{ar|فَاطِمَةُ}, {ar|مَكَّةُ}", "4"],
+            ["les pluriels de forme longue", "{ar|مَسَاجِدُ}, {ar|مَدَارِسُ}", "4"],
+            ["les adjectifs d'état et la plupart des prénoms en « -ān »", "{ar|كَسْلَانُ}, {ar|عُثْمَانُ}", "9"],
+            ["les noms propres non arabes de plus de trois lettres", "{ar|إِبْرَاهِيمُ}, {ar|لَنْدَنُ}", "14"]
+          ]
+        },
+        { "type": "note", "text": "Il existe d'autres noms privés de tanwin : tu les verras plus tard." }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.grammar-3#10",
+      "type": "sort",
+      "categories": [
+        { "fr": "un nom propre féminin" },
+        { "fr": "un pluriel de forme longue" },
+        { "fr": "un nom propre non arabe" }
+      ],
+      "cards": [
+        { "ar": "فَاطِمَةُ", "category": 0 },
+        { "ar": "عَائِشَةُ", "category": 0 },
+        { "ar": "مَسَاجِدُ", "category": 1 },
+        { "ar": "مَدَارِسُ", "category": 1 },
+        { "ar": "إِبْرَاهِيمُ", "category": 2 },
+        { "ar": "يُوسُفُ", "category": 2 }
+      ],
+      "instruction": "Pourquoi ce nom n'a-t-il pas de tanwin ? Range chaque nom selon sa sorte.",
+      "explain": "{ar|فَاطِمَةُ}, {ar|عَائِشَةُ} : des prénoms féminins ; {ar|مَسَاجِدُ}, {ar|مَدَارِسُ} : des pluriels de forme longue ; {ar|إِبْرَاهِيمُ}, {ar|يُوسُفُ} : des prénoms non arabes de plus de trois lettres."
+    },
+    {
+      "id": "medine-t1.l14.grammar-3#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ibrāhīm est à Londres.",
+      "answers": ["إِبْرَاهِيمُ فِي لَنْدَنَ."]
+    },
+    {
+      "id": "medine-t1.l14.grammar-3#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ibrāhīm est dans la mosquée.",
+      "answers": ["إِبْرَاهِيمُ فِي الْمَسْجِدِ."]
+    }
+  ]
+}

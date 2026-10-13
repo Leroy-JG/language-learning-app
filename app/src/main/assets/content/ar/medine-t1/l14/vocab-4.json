@@ -1,0 +1,95 @@
+{
+  "id": "medine-t1.l14.vocab-4",
+  "type": "vocabulary",
+  "title": "Petit-fils, petite fille et bienvenue",
+  "icon": "girl",
+  "screens": [
+    { "id": "medine-t1.l14.vocab-4#1", "type": "present", "item": "w:hafid" },
+    { "id": "medine-t1.l14.vocab-4#2", "type": "present", "item": "w:tifla" },
+    {
+      "id": "medine-t1.l14.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:tifla",
+      "distractors": ["w:zamila", "w:hafid"]
+    },
+    { "id": "medine-t1.l14.vocab-4#4", "type": "present", "item": "w:karim" },
+    {
+      "id": "medine-t1.l14.vocab-4#5",
+      "type": "tip",
+      "title": "Le noble Coran",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|كَرِيمٌ} est un adjectif : il suit son nom et s'accorde avec lui (chapitre 9). Avec un nom défini, il porte l'article."
+        },
+        { "type": "example", "ar": "الْقُرْآنُ الْكَرِيمُ كِتَابُنَا.", "fr": "Le noble Coran est notre livre." },
+        {
+          "type": "note",
+          "text": "{ar|الْقُرْآنُ الْكَرِيمُ} est le nom que l'on donne couramment au Coran. {ar|كَرِيمٌ} se dit aussi d'une personne généreuse : {ar|رَجُلٌ كَرِيمٌ} (un homme généreux)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.vocab-4#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:karim",
+      "distractors": ["w:sahl", "w:jamil"]
+    },
+    { "id": "medine-t1.l14.vocab-4#7", "type": "present", "item": "p:ahlan-wa-sahlan" },
+    { "id": "medine-t1.l14.vocab-4#8", "type": "present", "item": "w:marhaban" },
+    {
+      "id": "medine-t1.l14.vocab-4#9",
+      "type": "tip",
+      "title": "Bienvenue !",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|أَهْلًا وَسَهْلًا} et {ar|مَرْحَبًا} servent à accueillir quelqu'un. On ajoute souvent {ar|بِكَ} (« à toi ») après {ar|مَرْحَبًا}, et on nomme la personne avec {ar|يَا}."
+        },
+        { "type": "example", "ar": "مَرْحَبًا بِكَ يَا زَيْدُ.", "fr": "Bienvenue à toi, Zayd." },
+        {
+          "type": "note",
+          "text": "Ces deux mots se terminent par un tanwin à la fatha ({ar|◌ً}) suivi d'un alif : c'est une marque de l'accusatif ({ar|النَّصْبُ}, chapitre 5). Tu en verras la raison plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.vocab-4#10",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:marhaban",
+      "distractors": ["w:alyawm", "w:hasanan"]
+    },
+    {
+      "id": "medine-t1.l14.vocab-4#11",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:hafid", "w:tifla", "w:karim", "p:ahlan-wa-sahlan"]
+    },
+    {
+      "id": "medine-t1.l14.vocab-4#12",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ {0} جَمِيلَةٌ.",
+      "fr": "C'est une jolie petite fille.",
+      "gaps": [ { "answers": ["طِفْلَةٌ"] } ],
+      "options": ["طِفْلَةٌ", "حَفِيدٌ", "كَرِيمٌ"]
+    },
+    {
+      "id": "medine-t1.l14.vocab-4#13",
+      "type": "order",
+      "fr": "Le noble Coran est notre livre.",
+      "answers": [["الْقُرْآنُ", "الْكَرِيمُ", "كِتَابُنَا"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.l14.vocab-4#14", "type": "typing", "ask": "fr", "item": "w:hafid" },
+    {
+      "id": "medine-t1.l14.vocab-4#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Bienvenue à toi, Zayd.",
+      "answers": ["مَرْحَبًا بِكَ يَا زَيْدُ."]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": "medine-t1.l14.grammar-2",
+  "type": "grammar",
+  "title": "Notre et votre",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l14.grammar-2#1",
+      "type": "tip",
+      "title": "Deux pronoms pour plusieurs personnes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au chapitre 10, tu as vu les pronoms affixes. Deux d'entre eux parlent de **plusieurs** personnes : {ar|نَا} (« notre », « nos ») et {ar|كُمْ} (« votre », « vos », à plusieurs hommes ou à un groupe mixte)."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "بَيْتٌ", "fr": "une maison" }, "to": { "ar": "بَيْتُنَا", "fr": "notre maison" } },
+            { "from": { "ar": "بَيْتٌ", "fr": "une maison" }, "to": { "ar": "بَيْتُكُمْ", "fr": "votre maison" } },
+            {
+              "from": { "ar": "مَدْرَسَةٌ", "fr": "une école" },
+              "to": { "ar": "مَدْرَسَتُنَا", "fr": "notre école" },
+              "label": "{ar|ة} → {ar|ت}"
+            },
+            {
+              "from": { "ar": "مَدْرَسَةٌ", "fr": "une école" },
+              "to": { "ar": "مَدْرَسَتُكُمْ", "fr": "votre école" },
+              "label": "{ar|ة} → {ar|ت}"
+            },
+            { "from": { "ar": "أُخْتٌ", "fr": "une sœur" }, "to": { "ar": "أُخْتُنَا", "fr": "notre sœur" } },
+            { "from": { "ar": "أُخْتٌ", "fr": "une sœur" }, "to": { "ar": "أُخْتُكُمْ", "fr": "votre sœur" } }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Comme avec les autres pronoms affixes : plus de tanwin, pas d'article, et le {ar|ة} devient un {ar|ت}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.grammar-2#2",
+      "type": "tip",
+      "title": "Père et frère",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|أَبٌ} et {ar|أَخٌ} se comportent à part (chapitre 10) : un {ar|و} apparaît au nominatif, et il devient {ar|ي} quand le nom est le second terme d'une annexion ou suit une préposition."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "أَبٌ", "fr": "un père" }, "to": { "ar": "أَبُونَا", "fr": "notre père" } },
+            { "from": { "ar": "أَبٌ", "fr": "un père" }, "to": { "ar": "أَبُوكُمْ", "fr": "votre père" } },
+            { "from": { "ar": "أَخٌ", "fr": "un frère" }, "to": { "ar": "أَخُونَا", "fr": "notre frère" } },
+            { "from": { "ar": "أَخٌ", "fr": "un frère" }, "to": { "ar": "أَخُوكُمْ", "fr": "votre frère" } },
+            {
+              "from": { "ar": "أَبُونَا", "fr": "notre père" },
+              "to": { "ar": "بَيْتُ أَبِينَا", "fr": "la maison de notre père" },
+              "label": "{ar|و} → {ar|ي} (annexion)"
+            },
+            {
+              "from": { "ar": "أَخُوكُمْ", "fr": "votre frère" },
+              "to": { "ar": "بَيْتُ أَخِيكُمْ", "fr": "la maison de votre frère" },
+              "label": "{ar|و} → {ar|ي} (annexion)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.grammar-2#3",
+      "type": "sort",
+      "categories": [ { "fr": "notre ({ar|نَا})" }, { "fr": "votre ({ar|كُمْ})" } ],
+      "cards": [
+        { "ar": "بَيْتُنَا", "category": 0 },
+        { "ar": "مَدْرَسَتُكُمْ", "category": 1 },
+        { "ar": "لُغَتُنَا", "category": 0 },
+        { "ar": "أُخْتُكُمْ", "category": 1 },
+        { "ar": "دِينُنَا", "category": 0 },
+        { "ar": "أَبُوكُمْ", "category": 1 }
+      ],
+      "instruction": "Notre ou votre ? Range chaque mot selon son pronom affixe.",
+      "explain": "{ar|نَا} : « notre » ; {ar|كُمْ} : « votre » (à plusieurs)."
+    },
+    {
+      "id": "medine-t1.l14.grammar-2#4",
+      "type": "tip",
+      "title": "Après une préposition",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le nom suit sa règle habituelle : après une préposition, il prend la kasra. Le pronom, lui, ne change pas."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "بَيْتُنَا", "fr": "notre maison" },
+              "to": { "ar": "فِي بَيْتِنَا", "fr": "dans notre maison" }
+            },
+            {
+              "from": { "ar": "مَدْرَسَتُكُمْ", "fr": "votre école" },
+              "to": { "ar": "فِي مَدْرَسَتِكُمْ", "fr": "dans votre école" }
+            },
+            {
+              "from": { "ar": "صَدِيقُنَا", "fr": "notre ami" },
+              "to": { "ar": "مَعَ صَدِيقِنَا", "fr": "avec notre ami" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.grammar-2#5",
+      "type": "tip",
+      "title": "{ar|كُمْ} devant l'article",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand le mot suivant commence par l'article {ar|الْ}, la mim de {ar|كُمْ} prend une **damma** : on évite ainsi deux sukūn de suite. La même chose vaut devant un autre mot qui commence par un alif de liaison. Devant les autres mots, la mim garde son sukūn."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "بَيْتُكُمْ جَدِيدٌ", "fr": "votre maison est neuve" },
+              "to": { "ar": "بَيْتُكُمُ الْجَدِيدُ", "fr": "votre nouvelle maison" }
+            },
+            {
+              "from": { "ar": "عَمُّكُمْ شَيْخٌ", "fr": "votre oncle est un cheikh" },
+              "to": { "ar": "عَمُّكُمُ الشَّيْخُ", "fr": "votre oncle, le cheikh" }
+            }
+          ]
+        },
+        { "type": "example", "ar": "وَعَلَيْكُمُ السَّلَامُ.", "fr": "Et sur vous la paix." },
+        {
+          "type": "note",
+          "text": "Cette damma ne change rien au sens ni au cas du nom. Avec {ar|نَا}, il n'y a rien de tel : {ar|بَيْتُنَا الْجَدِيدُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.grammar-2#6",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|بَيْتُكُمُ الْجَدِيدُ}, pourquoi la mim de {ar|كُمْ} a-t-elle une damma ?" },
+      "choices": [
+        { "fr": "Parce que le mot suivant commence par l'article {ar|الْ}" },
+        { "fr": "Parce que {ar|بَيْتٌ} est féminin" },
+        { "fr": "Parce que {ar|كُمْ} veut dire « notre »" }
+      ],
+      "answer": 0,
+      "explain": "Devant l'article, on ne prononce pas deux sukūn de suite : la mim prend une damma."
+    },
+    {
+      "id": "medine-t1.l14.grammar-2#7",
+      "type": "fill_gap",
+      "sentence": "{0} الْجَدِيدُ قَرِيبٌ مِنَ الْمَطَارِ.",
+      "fr": "Votre nouvelle maison est près de l'aéroport.",
+      "gaps": [ { "answers": ["بَيْتُكُمُ"] } ],
+      "options": ["بَيْتُكُمُ", "بَيْتُنَا", "بَيْتِي"],
+      "explain": "« Votre » (à plusieurs) : {ar|كُمْ}. Devant l'article {ar|الْجَدِيدُ}, la mim prend une damma."
+    },
+    {
+      "id": "medine-t1.l14.grammar-2#8",
+      "type": "fill_gap",
+      "sentence": "أَبُونَا صَدِيقُ {0}.",
+      "fr": "Notre père est l'ami de votre oncle paternel.",
+      "gaps": [ { "answers": ["عَمِّكُمْ"] } ],
+      "options": ["عَمِّكُمْ", "عَمِّي", "عَمِّنَا"],
+      "explain": "Second terme d'une annexion : {ar|عَمِّ} est à la kasra, suivi de {ar|كُمْ}."
+    },
+    {
+      "id": "medine-t1.l14.grammar-2#9",
+      "type": "spot",
+      "instruction": "Touche le mot qui porte le pronom {ar|كُمْ} (« votre »).",
+      "words": ["أَبُونَا", "صَدِيقُ", "عَمِّكُمْ"],
+      "answers": [2],
+      "fr": "Notre père est l'ami de votre oncle paternel."
+    },
+    {
+      "id": "medine-t1.l14.grammar-2#10",
+      "type": "order",
+      "fr": "Notre école est grande.",
+      "answers": [["مَدْرَسَتُنَا", "كَبِيرَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l14.grammar-2#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "votre école (à plusieurs hommes)",
+      "answers": ["مَدْرَسَتُكُمْ"]
+    },
+    {
+      "id": "medine-t1.l14.grammar-2#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Notre langue est l'arabe.",
+      "answers": ["لُغَتُنَا الْعَرَبِيَّةُ."]
+    }
+  ]
+}

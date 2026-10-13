@@ -1,0 +1,182 @@
+{
+  "id": "medine-t1.l14.grammar-1",
+  "type": "grammar",
+  "title": "Quel… ? : le nom interrogatif {ar|أَيُّ}",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l14.grammar-1#1",
+      "type": "tip",
+      "title": "Un cinquième nom interrogatif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais quatre noms interrogatifs. Voici le cinquième : {ar|أَيُّ}, qui veut dire « quel… ? » ou « quelle… ? »."
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Il demande…", "Les grammairiens disent"],
+          "rows": [
+            ["{ar|مَا}", "une chose, un animal", "{ar|لِغَيْرِ الْعَاقِلِ}"],
+            ["{ar|مَنْ}", "une personne", "{ar|لِلْعَاقِلِ}"],
+            ["{ar|أَيْنَ}", "un lieu", "{ar|لِلْمَكَانِ}"],
+            ["{ar|كَيْفَ}", "l'état, la manière", "{ar|لِلْحَالِ وَالْكَيْفِيَّةِ}"],
+            [
+              "{ar|أَيُّ}",
+              "un lieu, un moment, une personne ou une chose, selon le nom qui le suit",
+              "{ar|لِلْمَكَانِ وَالزَّمَانِ وَالْعَاقِلِ وَغَيْرِ الْعَاقِلِ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|الزَّمَانُ} veut dire « le temps » : {ar|أَيُّ} peut donc interroger sur un moment (quel jour, quel mois…)."
+        }
+      ]
+    },
+    { "id": "medine-t1.l14.grammar-1#2", "type": "present", "item": "w:ayy" },
+    {
+      "id": "medine-t1.l14.grammar-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ayy",
+      "distractors": ["w:man", "w:ayna"]
+    },
+    {
+      "id": "medine-t1.l14.grammar-1#4",
+      "type": "tip",
+      "title": "Un nom interrogatif de sens général",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les autres noms interrogatifs disent eux-mêmes ce qu'ils demandent : {ar|مَنْ} (une personne), {ar|أَيْنَ} (un lieu). {ar|أَيُّ} a un sens **général** : c'est le nom qui le suit qui précise la question."
+        },
+        { "type": "example", "ar": "أَيُّ يَوْمٍ هٰذَا؟", "fr": "Quel jour est-ce ? (on interroge sur un moment)" },
+        {
+          "type": "example",
+          "ar": "أَيُّ مَدِينَةٍ هٰذِهِ؟",
+          "fr": "Quelle ville est-ce ? (on interroge sur un lieu)"
+        },
+        {
+          "type": "example",
+          "ar": "أَيُّ رَجُلٍ خَرَجَ؟",
+          "fr": "Quel homme est sorti ? (on interroge sur une personne)"
+        },
+        {
+          "type": "note",
+          "text": "Il garde la même forme pour le masculin et le féminin : {ar|أَيُّ رَجُلٍ}, {ar|أَيُّ مَدِينَةٍ}. L'arabe connaît aussi un féminin, {ar|أَيَّةُ} ; ce cours emploie {ar|أَيُّ} pour les deux genres, comme le professeur."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.grammar-1#5",
+      "type": "tip",
+      "title": "Toujours devant un nom : une annexion",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|أَيُّ} est presque toujours suivi d'un nom, avec lequel il forme une **annexion** ({ar|الْإِضَافَةُ}, chapitre 5). C'est le premier terme ({ar|الْمُضَافُ}) : il n'a ni article ni tanwin. Le second terme ({ar|الْمُضَافُ إِلَيْهِ}) est le plus souvent un nom indéfini au singulier, à la kasra avec son tanwin."
+        },
+        {
+          "type": "breakdown",
+          "ar": "أَيُّ يَوْمٍ",
+          "fr": "quel jour",
+          "parts": [ { "ar": "أَيُّ", "fr": "quel" }, { "ar": "يَوْمٍ", "fr": "jour" } ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "أَيُّ مَدِينَةٍ",
+          "fr": "quelle ville",
+          "parts": [ { "ar": "أَيُّ", "fr": "quelle" }, { "ar": "مَدِينَةٍ", "fr": "ville" } ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.grammar-1#6",
+      "type": "fill_gap",
+      "sentence": "{0} يَوْمٍ هٰذَا؟",
+      "fr": "Quel jour est-ce ?",
+      "gaps": [ { "answers": ["أَيُّ"] } ],
+      "options": ["أَيُّ", "مَنْ", "أَيْنَ"],
+      "explain": "Pour dire « quel jour ? », on met {ar|أَيُّ} devant le nom {ar|يَوْمٍ}."
+    },
+    {
+      "id": "medine-t1.l14.grammar-1#7",
+      "type": "tip",
+      "title": "Le seul nom interrogatif qui change",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|مَا}, {ar|مَنْ}, {ar|أَيْنَ} et {ar|كَيْفَ} sont **invariables** ({ar|مَبْنِيٌّ}, chapitre 11). {ar|أَيُّ} est le seul nom interrogatif **variable** ({ar|مُعْرَبٌ}) : il prend la voyelle que demande son rôle dans la phrase. Comme premier terme d'une annexion, il n'a pas de tanwin."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَيُّ مَدْرَسَةٍ", "fr": "quelle école" },
+              "to": { "ar": "فِي أَيِّ مَدْرَسَةٍ", "fr": "dans quelle école" },
+              "label": "damma → kasra après {ar|فِي}"
+            },
+            {
+              "from": { "ar": "أَيُّ مَدِينَةٍ", "fr": "quelle ville" },
+              "to": { "ar": "مِنْ أَيِّ مَدِينَةٍ", "fr": "de quelle ville" },
+              "label": "damma → kasra après {ar|مِنْ}"
+            },
+            {
+              "from": { "ar": "أَيُّ شَارِعٍ", "fr": "quelle rue" },
+              "to": { "ar": "فِي أَيِّ شَارِعٍ", "fr": "dans quelle rue" },
+              "label": "damma → kasra après {ar|فِي}"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Il prend aussi la fatha dans d'autres rôles, que tu verras plus tard. Le second terme, lui, reste à la kasra."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.grammar-1#8",
+      "type": "question",
+      "prompt": { "fr": "Après la préposition {ar|فِي}, le nom interrogatif {ar|أَيُّ} prend…" },
+      "choices": [
+        { "fr": "une kasra : {ar|فِي أَيِّ مَدْرَسَةٍ}" },
+        { "fr": "une damma : {ar|فِي أَيُّ مَدْرَسَةٍ}" },
+        { "fr": "un tanwin : {ar|فِي أَيٍّ مَدْرَسَةٍ}" }
+      ],
+      "answer": 0,
+      "explain": "{ar|أَيُّ} est variable : après une préposition, il prend la kasra ({ar|أَيِّ}). Il n'a jamais de tanwin ici, car c'est le premier terme d'une annexion."
+    },
+    {
+      "id": "medine-t1.l14.grammar-1#9",
+      "type": "spot",
+      "instruction": "Touche le nom interrogatif.",
+      "words": ["فِي", "أَيِّ", "مَدْرَسَةٍ", "أَنْتَ؟"],
+      "answers": [1],
+      "fr": "Dans quelle école es-tu ?"
+    },
+    {
+      "id": "medine-t1.l14.grammar-1#10",
+      "type": "true_false",
+      "statement": { "fr": "Comme {ar|مَنْ} et {ar|كَيْفَ}, le nom interrogatif {ar|أَيُّ} est invariable." },
+      "answer": false,
+      "explain": "{ar|أَيُّ} est le seul nom interrogatif variable : {ar|أَيُّ مَدْرَسَةٍ} mais {ar|فِي أَيِّ مَدْرَسَةٍ}."
+    },
+    {
+      "id": "medine-t1.l14.grammar-1#11",
+      "type": "order",
+      "fr": "Quelle ville est-ce ?",
+      "answers": [["أَيُّ", "مَدِينَةٍ", "هٰذِهِ"]],
+      "punctuation": "؟",
+      "distractors": ["مَنْ"],
+      "explain": "{ar|أَيُّ} se place en tête de la question, devant son nom."
+    },
+    {
+      "id": "medine-t1.l14.grammar-1#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Quel jour est-ce ?",
+      "answers": ["أَيُّ يَوْمٍ هٰذَا؟"]
+    }
+  ]
+}

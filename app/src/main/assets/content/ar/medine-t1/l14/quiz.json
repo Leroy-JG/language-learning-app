@@ -1,0 +1,131 @@
+{
+  "id": "medine-t1.l14.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 14",
+  "screens": [
+    {
+      "id": "medine-t1.l14.quiz#1",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:ayy",
+      "distractors": ["w:man", "w:ayna"]
+    },
+    {
+      "id": "medine-t1.l14.quiz#2",
+      "type": "order",
+      "fr": "Quelle faculté est-ce ?",
+      "answers": [["أَيُّ", "كُلِّيَّةٍ", "هٰذِهِ"]],
+      "punctuation": "؟",
+      "distractors": ["مَنْ"]
+    },
+    {
+      "id": "medine-t1.l14.quiz#3",
+      "type": "question",
+      "prompt": { "fr": "Lequel de ces noms interrogatifs est variable (il change de voyelle selon son rôle) ?" },
+      "choices": [ { "ar": "أَيُّ" }, { "ar": "مَنْ" }, { "ar": "أَيْنَ" }, { "ar": "كَيْفَ" } ],
+      "answer": 0,
+      "explain": "{ar|أَيُّ} est le seul nom interrogatif variable : {ar|أَيُّ بَلَدٍ} mais {ar|مِنْ أَيِّ بَلَدٍ}."
+    },
+    {
+      "id": "medine-t1.l14.quiz#4",
+      "type": "fill_gap",
+      "sentence": "مِنْ {0} مَدِينَةٍ أَنْتَ؟",
+      "fr": "De quelle ville es-tu ?",
+      "gaps": [ { "answers": ["أَيِّ"] } ],
+      "options": ["أَيِّ", "مَنْ", "أَيْنَ"],
+      "explain": "Après {ar|مِنْ}, {ar|أَيُّ} devient {ar|أَيِّ}."
+    },
+    {
+      "id": "medine-t1.l14.quiz#5",
+      "type": "true_false",
+      "statement": { "fr": "Un nom propre non arabe de trois lettres, comme {ar|لُوطٌ}, garde en général son tanwin." },
+      "answer": true,
+      "explain": "C'est à partir de quatre lettres que ces noms perdent leur tanwin."
+    },
+    {
+      "id": "medine-t1.l14.quiz#6",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|إِبْرَاهِيمُ} n'a-t-il pas de tanwin ?" },
+      "choices": [
+        { "fr": "C'est un nom propre non arabe de plus de trois lettres" },
+        { "fr": "Parce qu'il est féminin" },
+        { "fr": "Parce qu'il est défini" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l14.quiz#7",
+      "type": "spot",
+      "instruction": "Touche les noms propres non arabes.",
+      "words": ["ذَهَبَ", "إِبْرَاهِيمُ", "إِلَى", "بَارِيسَ."],
+      "answers": [1, 3],
+      "fr": "Ibrāhīm est allé à Paris."
+    },
+    {
+      "id": "medine-t1.l14.quiz#8",
+      "type": "fill_gap",
+      "sentence": "هُوَ مِنْ {0}.",
+      "fr": "Il vient de Londres.",
+      "gaps": [ { "answers": ["لَنْدَنَ"] } ],
+      "options": ["لَنْدَنَ", "بَاكِسْتَانَ", "إِسْطَنْبُولَ"],
+      "explain": "Après {ar|مِنْ}, un nom sans tanwin et sans article prend la fatha : {ar|لَنْدَنَ}."
+    },
+    {
+      "id": "medine-t1.l14.quiz#9",
+      "type": "fill_gap",
+      "sentence": "الْإِسْلَامُ {0}.",
+      "fr": "L'islam est notre religion.",
+      "gaps": [ { "answers": ["دِينُنَا"] } ],
+      "options": ["دِينُنَا", "رَبُّنَا", "قِبْلَتُنَا"]
+    },
+    {
+      "id": "medine-t1.l14.quiz#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:kulliyya", "w:tijara", "w:tibb", "w:mahkama", "w:matar"]
+    },
+    {
+      "id": "medine-t1.l14.quiz#11",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:balad", "w:din", "w:shahr", "w:kulliyya"]
+    },
+    {
+      "id": "medine-t1.l14.quiz#12",
+      "type": "question",
+      "prompt": { "fr": "Où est le cheikh ʿĪsā ?" },
+      "choices": [ { "fr": "À l'hôpital" }, { "fr": "À la maison" }, { "fr": "À l'aéroport" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l14.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l14.quiz#13",
+      "type": "true_false",
+      "statement": { "fr": "Le camarade de Maḥmūd s'appelle William." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l14.dialogue-2#1" },
+      "explain": "{ar|اِسْمُهُ وِلْيَمُ} : « son nom est William »."
+    },
+    {
+      "id": "medine-t1.l14.quiz#14",
+      "type": "order",
+      "fr": "Votre nouvelle maison est près de l'aéroport.",
+      "answers": [["بَيْتُكُمُ", "الْجَدِيدُ", "قَرِيبٌ", "مِنَ", "الْمَطَارِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l14.quiz#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "De quel pays es-tu ? (à un homme)",
+      "answers": ["مِنْ أَيِّ بَلَدٍ أَنْتَ؟"]
+    },
+    {
+      "id": "medine-t1.l14.quiz#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Edward est le père de William.",
+      "answers": ["إِدْوَرْدُ أَبُو وِلْيَمَ."]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "medine-t1.l14.practice-1",
+  "type": "grammar",
+  "title": "Quel jour ? Quel mois ? Quelle faculté ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l14.practice-1#1",
+      "type": "tip",
+      "title": "Lis les questions du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici des questions avec {ar|أَيُّ} et leurs réponses. Écoute-les, puis lis-les à voix haute."
+        },
+        {
+          "type": "example",
+          "ar": "أَيُّ يَوْمٍ هٰذَا؟ هٰذَا يَوْمُ السَّبْتِ.",
+          "fr": "Quel jour est-ce ? C'est samedi."
+        },
+        {
+          "type": "example",
+          "ar": "أَيُّ شَهْرٍ هٰذَا؟ هٰذَا شَهْرُ رَجَبٍ.",
+          "fr": "Quel mois est-ce ? C'est le mois de Rajab."
+        },
+        {
+          "type": "example",
+          "ar": "أَيُّ كُلِّيَّةٍ هٰذِهِ؟ هٰذِهِ كُلِّيَّةُ التِّجَارَةِ.",
+          "fr": "Quelle faculté est-ce ? C'est la faculté de commerce."
+        },
+        {
+          "type": "example",
+          "ar": "فِي أَيِّ مَدْرَسَةٍ أَنْتَ؟ أَنَا فِي الْمَدْرَسَةِ الْمُتَوَسِّطَةِ.",
+          "fr": "Dans quelle école es-tu ? Je suis à l'école intermédiaire (le collège)."
+        },
+        {
+          "type": "example",
+          "ar": "مِنْ أَيِّ بَلَدٍ أَنْتِ يَا أُخْتُ؟ أَنَا مِنَ الْيَابَانِ.",
+          "fr": "De quel pays es-tu, ma sœur ? Je viens du Japon."
+        },
+        {
+          "type": "note",
+          "text": "Après une préposition ({ar|فِي}, {ar|مِنْ}), {ar|أَيُّ} devient {ar|أَيِّ}. Une réponse reprend le nom en annexion : {ar|يَوْمُ السَّبْتِ}, {ar|كُلِّيَّةُ التِّجَارَةِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.practice-1#2",
+      "type": "fill_gap",
+      "sentence": "{0} شَهْرٍ هٰذَا؟",
+      "fr": "Quel mois est-ce ?",
+      "gaps": [ { "answers": ["أَيُّ"] } ],
+      "options": ["أَيُّ", "مَنْ", "أَيْنَ"]
+    },
+    {
+      "id": "medine-t1.l14.practice-1#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|مِنْ أَيِّ بَلَدٍ أَنْتَ؟}, pourquoi {ar|أَيِّ} est-il à la kasra ?" },
+      "choices": [
+        { "fr": "À cause de la préposition {ar|مِنْ}" },
+        { "fr": "Parce que {ar|بَلَدٍ} est féminin" },
+        { "fr": "Parce qu'il est défini" }
+      ],
+      "answer": 0,
+      "explain": "{ar|أَيُّ} est variable : après la préposition {ar|مِنْ}, il prend la kasra."
+    },
+    {
+      "id": "medine-t1.l14.practice-1#4",
+      "type": "sort",
+      "categories": [ { "ar": "أَيُّ يَوْمٍ هٰذَا؟" }, { "ar": "أَيُّ شَهْرٍ هٰذَا؟" }, { "ar": "أَيُّ كُلِّيَّةٍ هٰذِهِ؟" } ],
+      "cards": [
+        { "ar": "هٰذَا يَوْمُ السَّبْتِ.", "category": 0 },
+        { "ar": "هٰذَا يَوْمُ الْجُمُعَةِ.", "category": 0 },
+        { "ar": "هٰذَا شَهْرُ رَجَبٍ.", "category": 1 },
+        { "ar": "هٰذَا شَهْرُ رَمَضَانَ.", "category": 1 },
+        { "ar": "هٰذِهِ كُلِّيَّةُ التِّجَارَةِ.", "category": 2 },
+        { "ar": "هٰذِهِ كُلِّيَّةُ الطِّبِّ.", "category": 2 }
+      ],
+      "instruction": "Quelle question a cette réponse ? Range chaque réponse sous la bonne question.",
+      "explain": "La réponse reprend le nom de la question : un jour, un mois ou une faculté."
+    },
+    {
+      "id": "medine-t1.l14.practice-1#5",
+      "type": "order",
+      "fr": "Quel pays est-ce ?",
+      "answers": [["أَيُّ", "بَلَدٍ", "هٰذَا"]],
+      "punctuation": "؟",
+      "distractors": ["مَنْ"]
+    },
+    {
+      "id": "medine-t1.l14.practice-1#6",
+      "type": "order",
+      "fr": "Dans quelle faculté es-tu ? (à un homme)",
+      "answers": [["فِي", "أَيِّ", "كُلِّيَّةٍ", "أَنْتَ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l14.practice-1#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيُّ كُلِّيَّةٍ هٰذِهِ؟",
+      "answers": ["هٰذِهِ كُلِّيَّةُ التِّجَارَةِ.", "كُلِّيَّةُ التِّجَارَةِ."],
+      "fr": "C'est la faculté de commerce.",
+      "instruction": "Réponds : c'est la faculté de commerce."
+    },
+    {
+      "id": "medine-t1.l14.practice-1#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "فِي أَيِّ مَدْرَسَةٍ أَنْتَ؟",
+      "answers": [
+        "أَنَا فِي الْمَدْرَسَةِ الْمُتَوَسِّطَةِ.",
+        "فِي الْمَدْرَسَةِ الْمُتَوَسِّطَةِ.",
+        "أَنَا فِي الْمُتَوَسِّطَةِ."
+      ],
+      "fr": "Je suis à l'école intermédiaire (le collège).",
+      "instruction": "Réponds : je suis à l'école intermédiaire (le collège)."
+    },
+    {
+      "id": "medine-t1.l14.practice-1#9",
+      "type": "spot",
+      "instruction": "Touche le nom qui suit {ar|أَيُّ} (le second terme de l'annexion).",
+      "words": ["أَيُّ", "شَهْرٍ", "هٰذَا؟"],
+      "answers": [1],
+      "fr": "Quel mois est-ce ?"
+    },
+    {
+      "id": "medine-t1.l14.practice-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Quel mois est-ce ?",
+      "answers": ["أَيُّ شَهْرٍ هٰذَا؟"]
+    },
+    {
+      "id": "medine-t1.l14.practice-1#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "De quelle ville es-tu ? (à un homme)",
+      "answers": ["مِنْ أَيِّ مَدِينَةٍ أَنْتَ؟", "مِنْ أَيَّةِ مَدِينَةٍ أَنْتَ؟"]
+    }
+  ]
+}

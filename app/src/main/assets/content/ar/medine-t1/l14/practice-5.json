@@ -1,0 +1,168 @@
+{
+  "id": "medine-t1.l14.practice-5",
+  "type": "grammar",
+  "title": "Lis et écris",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l14.practice-5#1",
+      "type": "tip",
+      "title": "Lis le texte",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici le premier texte du livre : une famille de musulmans se présente. Écoute chaque phrase, puis lis-la à voix haute."
+        },
+        { "type": "example", "ar": "نَحْنُ مُسْلِمُونَ.", "fr": "Nous sommes musulmans." },
+        {
+          "type": "example",
+          "ar": "اللَّهُ رَبُّنَا وَالْإِسْلَامُ دِينُنَا.",
+          "fr": "Allah est notre Seigneur et l'islam est notre religion."
+        },
+        {
+          "type": "example",
+          "ar": "وَالنَّبِيُّ مُحَمَّدٌ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ رَسُولُنَا.",
+          "fr": "Et le Prophète Muḥammad, que la prière et la paix d'Allah soient sur lui, est notre messager."
+        },
+        {
+          "type": "example",
+          "ar": "وَالْقُرْآنُ الْكَرِيمُ كِتَابُنَا وَالْكَعْبَةُ قِبْلَتُنَا وَالْعَرَبِيَّةُ لُغَتُنَا.",
+          "fr": "Le noble Coran est notre livre, la Kaaba est notre qibla et l'arabe est notre langue."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.practice-5#2",
+      "type": "tip",
+      "title": "Lis les phrases",
+      "blocks": [
+        { "type": "paragraph", "text": "Voici d'autres phrases du livre." },
+        {
+          "type": "example",
+          "ar": "أَبُونَا صَدِيقُ عَمِّكُمْ.",
+          "fr": "Notre père est l'ami de votre oncle paternel."
+        },
+        {
+          "type": "example",
+          "ar": "أَأَنْتُمْ أَبْنَاءُ الْمُدِيرِ؟ لَا. نَحْنُ حَفَدَتُهُ.",
+          "fr": "Êtes-vous les fils du directeur ? Non. Nous sommes ses petits-fils."
+        },
+        {
+          "type": "example",
+          "ar": "لَنَا حَدِيقَةٌ جَمِيلَةٌ فِي تِلْكَ الْقَرْيَةِ.",
+          "fr": "Nous avons un beau jardin dans ce village-là."
+        },
+        {
+          "type": "example",
+          "ar": "أَأَنْتُمْ أَطِبَّاءُ؟ بَعْضُنَا أَطِبَّاءُ وَبَعْضُنَا مُهَنْدِسُونَ.",
+          "fr": "Êtes-vous médecins ? Certains d'entre nous sont médecins et d'autres sont ingénieurs."
+        },
+        {
+          "type": "example",
+          "ar": "اللَّهُ رَبُّنَا وَرَبُّكُمْ.",
+          "fr": "Allah est notre Seigneur et votre Seigneur."
+        },
+        {
+          "type": "note",
+          "text": "{ar|لَنَا} est {ar|لِ} + {ar|نَا} (« à nous ») : c'est ainsi qu'on dit « nous avons » (chapitre 10)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.practice-5#3",
+      "type": "tip",
+      "title": "Une petite conversation",
+      "blocks": [
+        {
+          "type": "example",
+          "ar": "أَيْنَ مُدَرِّسُكُمْ يَا إِخْوَانُ؟ خَرَجَ الْآنَ مِنَ الْفَصْلِ وَذَهَبَ إِلَى الْمُدِيرِ.",
+          "fr": "Où est votre enseignant, mes frères ? Il vient de sortir de la salle de classe et il est allé chez le directeur."
+        },
+        {
+          "type": "example",
+          "ar": "فِي أَيِّ شَارِعٍ بَيْتُكُمْ؟ بَيْتُنَا فِي الشَّارِعِ الَّذِي أَمَامَ الْمَحْكَمَةِ.",
+          "fr": "Dans quelle rue est votre maison ? Notre maison est dans la rue qui est devant le tribunal."
+        },
+        {
+          "type": "note",
+          "text": "{ar|إِخْوَانٌ} est un autre pluriel de {ar|أَخٌ} (chapitre 10). Avec {ar|يَا}, il perd son tanwin : {ar|يَا إِخْوَانُ} (chapitre 5). {ar|الَّذِي} veut dire « qui » (chapitre 12) : retiens seulement son sens."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.practice-5#4",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|بَعْضُنَا أَطِبَّاءُ} ?" },
+      "choices": [
+        { "fr": "Certains d'entre nous sont médecins" },
+        { "fr": "Notre père est médecin" },
+        { "fr": "Nous sommes tous médecins" }
+      ],
+      "answer": 0,
+      "explain": "{ar|بَعْضٌ} veut dire « une partie, certains » ; avec {ar|نَا} : « certains d'entre nous »."
+    },
+    {
+      "id": "medine-t1.l14.practice-5#5",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|نَحْنُ حَفَدَتُهُ}, les jeunes gens disent qu'ils sont les fils du directeur." },
+      "answer": false,
+      "explain": "{ar|حَفَدَةٌ} est le pluriel de {ar|حَفِيدٌ} (« un petit-fils ») : ils sont ses petits-fils."
+    },
+    {
+      "id": "medine-t1.l14.practice-5#6",
+      "type": "question",
+      "prompt": { "fr": "Où est la maison de ces frères ?" },
+      "choices": [
+        { "fr": "Dans la rue devant le tribunal" },
+        { "fr": "Dans la rue derrière la mosquée" },
+        { "fr": "Près du marché" }
+      ],
+      "answer": 0,
+      "explain": "{ar|الشَّارِعِ الَّذِي أَمَامَ الْمَحْكَمَةِ} : « la rue qui est devant le tribunal »."
+    },
+    {
+      "id": "medine-t1.l14.practice-5#7",
+      "type": "fill_gap",
+      "sentence": "لَنَا {0} جَمِيلَةٌ فِي تِلْكَ الْقَرْيَةِ.",
+      "fr": "Nous avons un beau jardin dans ce village-là.",
+      "gaps": [ { "answers": ["حَدِيقَةٌ"] } ],
+      "options": ["حَدِيقَةٌ", "سَيَّارَةٌ", "مَدْرَسَةٌ"]
+    },
+    {
+      "id": "medine-t1.l14.practice-5#8",
+      "type": "spot",
+      "instruction": "Touche les mots qui portent le pronom {ar|نَا} (« notre »).",
+      "words": ["بَعْضُنَا", "أَطِبَّاءُ", "وَبَعْضُنَا", "مُهَنْدِسُونَ."],
+      "answers": [0, 2],
+      "fr": "Certains d'entre nous sont médecins et d'autres sont ingénieurs."
+    },
+    {
+      "id": "medine-t1.l14.practice-5#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Allah est notre Seigneur et votre Seigneur.",
+      "answers": ["اللَّهُ رَبُّنَا وَرَبُّكُمْ."]
+    },
+    {
+      "id": "medine-t1.l14.practice-5#10",
+      "type": "order",
+      "fr": "Certains d'entre nous sont médecins et d'autres sont ingénieurs.",
+      "answers": [["بَعْضُنَا", "أَطِبَّاءُ", "وَبَعْضُنَا", "مُهَنْدِسُونَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l14.practice-5#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le noble Coran est notre livre.",
+      "answers": ["الْقُرْآنُ الْكَرِيمُ كِتَابُنَا."]
+    },
+    {
+      "id": "medine-t1.l14.practice-5#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Notre frère est étudiant à la faculté de médecine.",
+      "answers": ["أَخُونَا طَالِبٌ فِي كُلِّيَّةِ الطِّبِّ."]
+    }
+  ]
+}

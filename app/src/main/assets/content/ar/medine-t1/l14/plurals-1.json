@@ -1,0 +1,132 @@
+{
+  "id": "medine-t1.l14.plurals-1",
+  "type": "vocabulary",
+  "title": "Les pluriels",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l14.plurals-1#1",
+      "type": "tip",
+      "title": "Des pluriels en « -āt »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Beaucoup de noms féminins forment leur pluriel en remplaçant le {ar|ة} par {ar|ات}. Quelques noms masculins de choses le font aussi (comme {ar|حَمَّامٌ} → {ar|حَمَّامَاتٌ}, chapitre 4)."
+        },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Remarque"],
+          "rows": [
+            ["{ar|كُلِّيَّةٌ}", "{ar|كُلِّيَّاتٌ}", "féminin en {ar|ة} → {ar|ات}"],
+            ["{ar|تِجَارَةٌ}", "{ar|تِجَارَاتٌ}", "féminin en {ar|ة} → {ar|ات}"],
+            ["{ar|زِيَارَةٌ}", "{ar|زِيَارَاتٌ}", "féminin en {ar|ة} → {ar|ات}"],
+            ["{ar|مَطَارٌ}", "{ar|مَطَارَاتٌ}", "masculin, mais pluriel en {ar|ات}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.plurals-1#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:kulliyya", "w:tijara", "w:ziyara", "w:matar"]
+    },
+    {
+      "id": "medine-t1.l14.plurals-1#3",
+      "type": "tip",
+      "title": "Des pluriels brisés",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les autres pluriels changent la forme du mot : on les apprend avec le mot."
+        },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Remarque"],
+          "rows": [
+            ["{ar|بَلَدٌ}", "{ar|بِلَادٌ}", "avec tanwin"],
+            ["{ar|رَبٌّ}", "{ar|أَرْبَابٌ}", "avec tanwin"],
+            ["{ar|دِينٌ}", "{ar|أَدْيَانٌ}", "avec tanwin"],
+            ["{ar|شَهْرٌ}", "{ar|أَشْهُرٌ}", "avec tanwin (on dit aussi {ar|شُهُورٌ})"],
+            ["{ar|حَفِيدٌ}", "{ar|حَفَدَةٌ}", "avec tanwin"],
+            ["{ar|نَصْرَانِيٌّ}", "{ar|نَصَارَى}", "se termine par {ar|ى} : pas de tanwin"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.plurals-1#4",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:balad", "w:rabb", "w:din", "w:shahr", "w:hafid"]
+    },
+    {
+      "id": "medine-t1.l14.plurals-1#5",
+      "type": "tip",
+      "title": "Deux pluriels de forme longue",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Deux pluriels ont une forme longue : ils n'ont pas de tanwin, comme {ar|مَسَاجِدُ} et {ar|عُلَمَاءُ}."
+        },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Remarque"],
+          "rows": [
+            ["{ar|مَحْكَمَةٌ}", "{ar|مَحَاكِمُ}", "forme longue : sans tanwin (comme {ar|مَسَاجِدُ})"],
+            ["{ar|كَرِيمٌ}", "{ar|كُرَمَاءُ}", "forme {ar|فُعَلَاءُ} : sans tanwin (comme {ar|عُلَمَاءُ})"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.plurals-1#6",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:mahkama", "w:karim", "w:nasrani", "w:matar"]
+    },
+    {
+      "id": "medine-t1.l14.plurals-1#7",
+      "type": "sort",
+      "categories": [ { "fr": "avec tanwin ({ar|◌ٌ})" }, { "fr": "sans tanwin ({ar|◌ُ})" } ],
+      "cards": [
+        { "ar": "أَرْبَابٌ", "category": 0 },
+        { "ar": "مَحَاكِمُ", "category": 1 },
+        { "ar": "أَدْيَانٌ", "category": 0 },
+        { "ar": "كُرَمَاءُ", "category": 1 },
+        { "ar": "بِلَادٌ", "category": 0 }
+      ],
+      "instruction": "Range chaque pluriel : porte-t-il le tanwin ?",
+      "explain": "Les pluriels de forme longue ({ar|مَحَاكِمُ}, {ar|كُرَمَاءُ}) n'ont pas de tanwin ; les autres, oui."
+    },
+    {
+      "id": "medine-t1.l14.plurals-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des religions",
+      "answers": ["أَدْيَانٌ"]
+    },
+    {
+      "id": "medine-t1.l14.plurals-1#9",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|كُلِّيَّةٌ} (une faculté) ?" },
+      "choices": [ { "ar": "كُلِّيَّاتٌ" }, { "ar": "بِلَادٌ" }, { "ar": "أَشْهُرٌ" } ],
+      "answer": 0,
+      "explain": "{ar|كُلِّيَّاتٌ} est le pluriel de {ar|كُلِّيَّةٌ}. {ar|بِلَادٌ} est celui de {ar|بَلَدٌ} (un pays) et {ar|أَشْهُرٌ} celui de {ar|شَهْرٌ} (un mois)."
+    },
+    {
+      "id": "medine-t1.l14.plurals-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des tribunaux",
+      "answers": ["مَحَاكِمُ"]
+    },
+    {
+      "id": "medine-t1.l14.plurals-1#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des aéroports",
+      "answers": ["مَطَارَاتٌ"]
+    }
+  ]
+}

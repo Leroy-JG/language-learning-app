@@ -201,6 +201,14 @@ Support utilisé pour la leçon 13 (`l13`) : `TOME1-13.pdf` (19 pages) : `أَس
 - les deux dialogues du livre, la page « ج », les exercices 1 à 5 ;
 - seulement **aperçu** (astuce du dialogue 1, rien n'est exigé en exercice) : `ذَهَبُوا` (« ils sont allés »).
 
+**Leçon 14** (`l14`) : « quel… ? », les noms propres non arabes, « notre » et « votre » :
+- le nom interrogatif `أَيُّ` (« quel… ? ») : sens général (lieu, moment, personne ou chose selon le nom qui le suit), toujours premier terme d'une annexion (ni article ni tanwin ; second terme indéfini au singulier, à la kasra), le seul nom interrogatif **variable** (`فِي أَيِّ مَدْرَسَةٍ`, `مِنْ أَيِّ بَلَدٍ`) ; le schéma des cinq noms interrogatifs ; le féminin `أَيَّةُ` seulement mentionné ;
+- les noms propres non arabes (`الْعَلَمُ الْأَعْجَمِيُّ`) de plus de trois lettres, sans tanwin « en général » (`إِبْرَاهِيمُ`, `لَنْدَنُ`), fatha après une préposition ou comme second terme d'annexion ; trois lettres : tanwin (`نُوحٌ`, `لُوطٌ`) ; avec l'article, la kasra revient (`مِنَ الْيُونَانِ`) ; récapitulatif des quatre sortes de noms sans tanwin vues jusqu'ici ;
+- `نَا` / `كُمْ` collés aux noms (rappel du chapitre 10, `أَبُونَا` / `أَخُوكُمْ`) ; la mim de `كُمْ` prend une damma devant l'article (`بَيْتُكُمُ الْجَدِيدُ`, `وَعَلَيْكُمُ السَّلَامُ`) ;
+- vocabulaire : `كُلِّيَّةٌ` `هَنْدَسَةٌ` `تِجَارَةٌ` `طِبٌّ` `بَلَدٌ` `مَطَارٌ` `مَحْكَمَةٌ` `شَهْرٌ` `زِيَارَةٌ` `الْإِسْلَامُ` `دِينٌ` `رَبٌّ` `قِبْلَةٌ` `نَصْرَانِيٌّ` `حَفِيدٌ` `طِفْلَةٌ` `كَرِيمٌ` `أَهْلًا وَسَهْلًا` `مَرْحَبًا` `شَفَى` `هَدَى` (avec leurs quatre formes dans une astuce) ; villes et pays `لَنْدَنُ` `بَارِيسُ` `بَاكِسْتَانُ` `إِسْطَنْبُولُ` `تُرْكِيَا` `الْيُونَانُ` `الْمَمْلَكَةُ الْعَرَبِيَّةُ السُّعُودِيَّةُ` ; noms de personnes `وِلْيَمُ` `إِدْوَرْدُ` `إِبْرَاهِيمُ` `يُوسُفُ` `دَاوُدُ` `نُوحٌ` `لُوطٌ` `إِسْمَاعِيلُ` `إِسْحَاقُ` `يَعْقُوبُ` `سُلَيْمَانُ` `أَيُّوبُ` `يُونُسُ` `إِدْرِيسُ` `جِبْرَئِيلُ` `مِيكَائِيلُ` `فِرْعَوْنُ` ; pluriels `كُلِّيَّاتٌ` `تِجَارَاتٌ` `بِلَادٌ` `مَطَارَاتٌ` `مَحَاكِمُ` `أَشْهُرٌ` `زِيَارَاتٌ` `أَدْيَانٌ` `أَرْبَابٌ` `نَصَارَى` `حَفَدَةٌ` `كُرَمَاءُ` ;
+- les deux dialogues du livre, les exercices 1 à 5 ;
+- seulement **aperçus** (astuce « Des petites formes à repérer », rien n'est exigé en exercice) : `ذَهَبْتُمْ` / `ذَهَبْنَا`, `يَهْدِيهِمَا`, `شَفَاهُ اللَّهُ` (souhait au passé avec le pronom `هُ`), `الَّذِي` / `الَّتِي`, `بِالْجَامِعَةِ`, `إِخْوَانٌ` (autre pluriel de `أَخٌ`) ; l'accusatif de l'objet dans `شَفَى اللَّهُ الْمَرِيضَ` (comme au chapitre 11).
+
 **Pas encore enseigné** (ne pas l'exiger dans un exercice) :
 - les pronoms affixes du nominatif et de l'accusatif (ils s'attachent aux verbes) et les pronoms isolés de l'accusatif (`إِيَّاكَ`) ;
 - les cas du nom et leurs fonctions : le sujet, le prédicat, le sujet du verbe, l'adverbe, le second terme d'annexion et le nom après une préposition sont vus (leçon 8) ; pas le complément d'objet : le نَصْب n'est montré qu'avec les adverbes et après قَرَأْتُ (et, sans exercice, dans les dialogues de la révision 1 et dans les phrases `أُحِبُّ …` de la leçon 11) ;
@@ -613,6 +621,54 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - l'adjectif d'un pluriel de personnes au pluriel, pluriel brisé commun aux deux genres (aussi le féminin pluriel sain) ; pour des choses, féminin singulier (en général) ;
   - `بَعْضٌ` toujours suivi d'un second terme ; `عَالِمٌ` / `عَالَمٌ` ; `حَاجٌّ` vient de `الْحَجُّ` ; `مَطْعَمٌ` / `طَعَامٌ`, `مَلْعَبٌ` / `لُعْبَةٌ` ; `نِسَاءٌ` d'une autre racine ; formes longues sans tanwin (`عُلَمَاءُ`, `أَقْوِيَاءُ`, `مَطَاعِمُ`, `مَلَاعِبُ`).
 - **Notes mises à jour dans les chapitres précédents :** `l07/grammar-2` (« tu les verras au chapitre 13 ») et `l09/grammar-2` (l'accord avec un pluriel de personnes viendra au chapitre 13).
+- **Pas de nouvelle icône.**
+
+### Leçon 14 (`l14`)
+
+- **Support :** un seul PDF de 17 pages (cours 14 : dialogue du livre sur deux pages, exercices 1 et 2, diapo `أَيّ`, exercices 3 et 4, schéma des noms interrogatifs, diapo `الْعَلَمُ الْأَعْجَمِيُّ`, exercice 5, vocabulaire nouveau, carte).
+- **Exercices et textes du livre repris :**
+  - dialogue (page 1) → `dialogue-1` ; dialogue (page 2) → `dialogue-2`, chacun avec une astuce « Des petites formes à repérer » ;
+  - exercice 1 (répondre à dix questions) → `practice-4` (réponses données par la consigne : les questions sont personnelles) ;
+  - exercice 2 (lire et écrire) → `practice-5` ;
+  - exercice 3 (ajouter `نَا` / `كُمْ` aux noms) → `grammar-2` et `practice-2` ;
+  - exercice 4 (questions avec `أَيُّ`) → `practice-1` ;
+  - exercice 5 (noms propres) → `vocab-6` à `vocab-8` et `practice-3` ;
+  - schéma des noms interrogatifs → `recap` et `grammar-1` ; diapo `أَيّ` → `grammar-1` ; diapo `الْعَلَمُ الْأَعْجَمِيُّ` → `grammar-3` ; tableau de vocabulaire → `vocab-1` à `vocab-5`, `plurals-1`.
+- **Ordre des activités :** les noms propres (`vocab-6` à `vocab-8`) précèdent la règle (`grammar-3`) : l'élève voit les noms, remarque leur terminaison, puis apprend pourquoi.
+- **Écarts avec le PDF :**
+  - exercice 4 : le PDF écrit `مِنْ أَيِّ بَلَدٍ أَنْتَ يَا أُخْتُ` (`أَنْتَ` avec une sœur) : faute, l'app met `أَنْتِ` ; la réponse `مِنَ الْيُونَانِ` devient `مِنَ الْيَابَانِ` dans `practice-1`, car la Grèce n'est présentée qu'au `vocab-6` ;
+  - `إِصْطَنْبُولُ` (PDF) → `إِسْطَنْبُولُ` (graphie courante) ;
+  - `مَرْحَبًا بِكَ زَيْدُ` (exemple du vocabulaire, sans `يَا`) → `مَرْحَبًا بِكَ يَا زَيْدُ` ;
+  - exemples du vocabulaire remplacés par des phrases sans notion non enseignée : `الْمُسْلِمُ كَرِيمٌ` → `الْقُرْآنُ الْكَرِيمُ كِتَابُنَا` ; `أَدْرُسُ فِي كُلِّيَّةِ التِّجَارَةِ` (présent) → `أَخُوكَ طَالِبٌ فِي كُلِّيَّةِ التِّجَارَةِ` ; `الطِّبُّ النَّبَوِيُّ عِلْمٌ نَافِعٌ`, `الْعُمْرَةُ زِيَارَةُ الْبَيْتِ الْحَرَامِ`, `رَجَعَ زَيْدٌ إِلَى بَلَدِهِ` → phrases simples ; `أَحْمَدُ حَفِيدُ زَيْدٍ` → `مُحَمَّدٌ حَفِيدُ زَيْدٍ` (`أَحْمَدُ` est sans tanwin pour une autre raison, pas encore vue) ;
+  - pluriels : `مَحْكَمَةٌ` → `مَحَاكِمُ` (dictionnaires) avec note sur `مَحْكَمَاتٌ` du professeur ; `قِبْلَاتٌ`, `هَنْدَسَاتٌ` du PDF non repris (douteux, pas de pluriel donné) ; `حَفَدَةٌ`, `بِلَادٌ`, `أَشْهُرٌ`, `كُرَمَاءُ`, `نَصَارَى` gardés, avec en note `أَحْفَادٌ`, `بُلْدَانٌ`, `شُهُورٌ`, `كِرَامٌ` ;
+  - exercice 1 : les questions 2, 5 et 9 (`أَيْنَ بَيْتُكُمْ ؟`…) ont des réponses personnelles : l'app impose une réponse tirée des textes du chapitre ; la question 7 (`أَفِي بَيْتِكُمْ حَدِيقَةٌ؟`) est reprise telle quelle ; `ﷺ` (refusé par le validateur) → `صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ` ;
+  - exercice 2, phrase 12 (`ذَهَبْتُمْ` / `ذَهَبْنَا`) : lue seulement ; la phrase 2 est un dialogue lu, sans exercice sur les verbes ;
+  - `شَفَاهُ اللَّهُ…` (le PDF vocalise bien `شَفَاهُ`, un souhait) : les points de suspension sont remplacés par un point dans l'arabe (le validateur refuse `…`) ;
+  - le professeur dit que `أَيّ` « a un sens général » et « est toujours annexé » : repris tel quel ; `هٰذَا` écrit avec l'alif suscrit.
+- **Mots ajoutés (absents de la liste du PDF, mais employés par ses textes) :** `الْإِسْلَامُ`, `طِفْلَةٌ` (dialogue 1), `وِلْيَمُ` et `إِدْوَرْدُ` (dialogue 2), les noms propres de l'exercice 5, `الْمَمْلَكَةُ الْعَرَبِيَّةُ السُّعُودِيَّةُ` (carte). `شَرِيعَةٌ` n'est pas un item : expliqué dans l'astuce du dialogue 1.
+- **Choix de contenu :**
+  - `هَنْدَسَةٌ` : « de l'ingénierie » (de la même famille que `مُهَنْدِسٌ`) ; `تِجَارَةٌ` : « du commerce » ; `طِبٌّ` : « de la médecine » ; noms abstraits sans icône ;
+  - `بَلَدٌ` : masculin (Coran : `هٰذَا الْبَلَدِ`) ;
+  - `قِبْلَةٌ` : pas de pluriel ; `رَبٌّ` : `الرَّبُّ` seulement pour Allah (Lisān al-ʿArab) ;
+  - `نَصْرَانِيٌّ` : masculin, avec `مَسِيحِيٌّ` en note ;
+  - villes et pays : pas de `gender` (comme `الرِّيَاضُ`) ; personnes : `m` ;
+  - `شَهْرُ رَجَبٍ` (avec tanwin) et `شَهْرُ رَمَضَانَ` (sans, fin en « -ān », chapitre 9) ;
+  - règle des noms propres non arabes énoncée comme le professeur (« plus de trois lettres ») avec « en général » ; aucun exercice ne l'exige pour un nom de trois lettres autre que `نُوحٌ` et `لُوطٌ`.
+- **Explications ajoutées (données à l'oral, absentes du PDF) :**
+  - la mim de `كُمْ` prend une damma devant l'article (deux sukūn de suite à éviter) ;
+  - `أَيَّةُ` existe comme féminin de `أَيُّ` (ce cours emploie `أَيُّ` pour les deux genres, comme le livre) ;
+  - `رَبٌّ` en annexion (`رَبُّ الْبَيْتِ`), `الْإِسْلَامُ` de la racine de `مُسْلِمٌ` et `سَلَامٌ`, `هَنْدَسَةٌ` / `مُهَنْدِسٌ`, `تِجَارَةٌ` / `تَاجِرٌ`, `طِبٌّ` / `طَبِيبٌ` ;
+  - `أَهْلًا وَسَهْلًا` (explication usuelle), `مَرْحَبًا` aussi « bonjour » ;
+  - `عَلَيْهِ السَّلَامُ` après un prophète ou un ange ; `فِرْعَوْنُ` n'est pas un prophète ;
+  - `شَفَاهُ اللَّهُ` / `يَهْدِيهِ اللَّهُ` : souhaits (verbe + pronom collé) ; `يَا عَمِّي` : manière polie de s'adresser à un homme plus âgé.
+- **Corrections après relecture :**
+  - le PDF écrit `شَفَاهُ اللَّهُ` (et non `شِفَاءُ اللَّهِ`) : texte, astuces et note de `vocab-5` corrigés ;
+  - `أَيُّ` : « presque toujours » suivi d'un nom (on dit aussi `أَيُّكُمْ`) ; la mim de `كُمْ` prend aussi la damma devant tout mot à alif de liaison ;
+  - la règle des trois lettres est dite « le plus souvent » / « en général » (pour `نُوحٌ`, `لُوطٌ` le tanwin est la forme préférée) ;
+  - un nom sans tanwin prend la fatha « sans article et sans être premier terme d'annexion » ;
+  - `لَنْدَنُ` n'est plus une carte du tri « Pourquoi pas de tanwin ? » (un nom de ville est traité comme féminin) ; `مِنْ أَيَّةِ مَدِينَةٍ أَنْتَ؟` accepté (féminin) ;
+  - `مُدَرِّسٌ` : « enseignant » (« professeur » reste pour `أُسْتَاذٌ`) ; `دَاوُدُ` : translittération `dāwūdu` ;
+  - rythme : au plus trois présentations ou trois exercices du même type d'affilée.
 - **Pas de nouvelle icône.**
 
 ## Audio

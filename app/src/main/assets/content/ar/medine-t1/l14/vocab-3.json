@@ -1,0 +1,103 @@
+{
+  "id": "medine-t1.l14.vocab-3",
+  "type": "vocabulary",
+  "title": "L'islam, notre religion",
+  "icon": "mosque",
+  "screens": [
+    { "id": "medine-t1.l14.vocab-3#1", "type": "present", "item": "w:islam" },
+    { "id": "medine-t1.l14.vocab-3#2", "type": "present", "item": "w:din" },
+    { "id": "medine-t1.l14.vocab-3#3", "type": "present", "item": "w:rabb" },
+    {
+      "id": "medine-t1.l14.vocab-3#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:din",
+      "distractors": ["w:islam", "w:salat"]
+    },
+    { "id": "medine-t1.l14.vocab-3#5", "type": "present", "item": "w:qibla" },
+    { "id": "medine-t1.l14.vocab-3#6", "type": "present", "item": "w:nasrani" },
+    {
+      "id": "medine-t1.l14.vocab-3#7",
+      "type": "tip",
+      "title": "Notre Seigneur, notre religion, notre qibla",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le pronom affixe {ar|نَا} (« notre », chapitre 10) se colle à ces noms : il n'y a alors ni article ni tanwin."
+        },
+        {
+          "type": "table",
+          "header": ["Arabe", "Sens"],
+          "rows": [
+            ["{ar|اللَّهُ رَبُّنَا}", "Allah est notre Seigneur"],
+            ["{ar|الْإِسْلَامُ دِينُنَا}", "L'islam est notre religion"],
+            ["{ar|الْكَعْبَةُ قِبْلَتُنَا}", "La Kaaba est notre qibla"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Avec l'article, {ar|الرَّبُّ} ne se dit que d'Allah. Pour quelqu'un d'autre, {ar|رَبٌّ} est en annexion : {ar|رَبُّ الْبَيْتِ} (le maître de la maison)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.vocab-3#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:islam", "w:din", "w:rabb", "w:qibla", "w:nasrani"]
+    },
+    {
+      "id": "medine-t1.l14.vocab-3#9",
+      "type": "fill_gap",
+      "sentence": "الْكَعْبَةُ {0}.",
+      "fr": "La Kaaba est notre qibla.",
+      "gaps": [ { "answers": ["قِبْلَتُنَا"] } ],
+      "options": ["قِبْلَتُنَا", "دِينُنَا", "رَبُّنَا"]
+    },
+    {
+      "id": "medine-t1.l14.vocab-3#10",
+      "type": "fill_gap",
+      "sentence": "اللَّهُ {0}.",
+      "fr": "Allah est notre Seigneur.",
+      "gaps": [ { "answers": ["رَبُّنَا"] } ],
+      "options": ["رَبُّنَا", "دِينُنَا", "قِبْلَتُنَا"]
+    },
+    {
+      "id": "medine-t1.l14.vocab-3#11",
+      "type": "true_false",
+      "statement": { "fr": "On peut employer {ar|الرَّبُّ} (avec l'article) pour parler d'un homme." },
+      "answer": false,
+      "explain": "Avec l'article, {ar|الرَّبُّ} ne se dit que d'Allah. Pour un homme, on dit par exemple {ar|رَبُّ الْبَيْتِ}."
+    },
+    {
+      "id": "medine-t1.l14.vocab-3#12",
+      "type": "question",
+      "prompt": { "fr": "Quel mot veut dire « un chrétien » ?" },
+      "choices": [ { "ar": "نَصْرَانِيٌّ" }, { "ar": "مُسْلِمٌ" }, { "ar": "طَبِيبٌ" } ],
+      "answer": 0,
+      "explain": "{ar|نَصْرَانِيٌّ} veut dire « un chrétien » ; {ar|مُسْلِمٌ} veut dire « un musulman »."
+    },
+    {
+      "id": "medine-t1.l14.vocab-3#13",
+      "type": "order",
+      "fr": "L'islam est notre religion.",
+      "answers": [["الْإِسْلَامُ", "دِينُنَا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l14.vocab-3#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'islam est notre religion.",
+      "answers": ["الْإِسْلَامُ دِينُنَا."]
+    },
+    {
+      "id": "medine-t1.l14.vocab-3#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Nous sommes musulmans.",
+      "answers": ["نَحْنُ مُسْلِمُونَ."]
+    }
+  ]
+}

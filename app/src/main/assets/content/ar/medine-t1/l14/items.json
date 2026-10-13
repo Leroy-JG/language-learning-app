@@ -1,0 +1,342 @@
+[
+  {
+    "id": "w:ayy",
+    "kind": "word",
+    "ar": "أَيُّ",
+    "fr": "quel… ? (quelle… ?)",
+    "translit": "ayyu",
+    "note": "Nom interrogatif de sens très général : il ne dit pas lui-même s'il interroge sur un lieu, un moment, une personne ou une chose ; c'est le nom qui le suit qui le dit. Il se place presque toujours devant un nom.",
+    "example": { "ar": "أَيُّ يَوْمٍ هٰذَا؟", "fr": "Quel jour est-ce ?" }
+  },
+  {
+    "id": "w:kulliyya",
+    "kind": "word",
+    "ar": "كُلِّيَّةٌ",
+    "fr": "une faculté",
+    "translit": "kulliyyatun",
+    "plural": "كُلِّيَّاتٌ",
+    "gender": "f",
+    "note": "C'est une partie d'une université ({ar|جَامِعَةٌ}, chapitre 4).",
+    "example": { "ar": "هٰذِهِ كُلِّيَّةٌ كَبِيرَةٌ.", "fr": "Ceci est une grande faculté." }
+  },
+  {
+    "id": "w:handasa",
+    "kind": "word",
+    "ar": "هَنْدَسَةٌ",
+    "fr": "de l'ingénierie",
+    "translit": "handasatun",
+    "gender": "f",
+    "note": "De la même famille que {ar|مُهَنْدِسٌ} (un ingénieur, chapitre 5). Le mot veut aussi dire « géométrie ».",
+    "example": {
+      "ar": "أَخِي طَالِبٌ فِي كُلِّيَّةِ الْهَنْدَسَةِ.",
+      "fr": "Mon frère est étudiant à la faculté d'ingénierie."
+    }
+  },
+  {
+    "id": "w:tijara",
+    "kind": "word",
+    "ar": "تِجَارَةٌ",
+    "fr": "du commerce",
+    "translit": "tijāratun",
+    "plural": "تِجَارَاتٌ",
+    "gender": "f",
+    "note": "De la même famille que {ar|تَاجِرٌ} (un commerçant, chapitre 1).",
+    "example": {
+      "ar": "أَخُوكَ طَالِبٌ فِي كُلِّيَّةِ التِّجَارَةِ.",
+      "fr": "Ton frère est étudiant à la faculté de commerce."
+    }
+  },
+  {
+    "id": "w:tibb",
+    "kind": "word",
+    "ar": "طِبٌّ",
+    "fr": "de la médecine",
+    "translit": "ṭibbun",
+    "gender": "m",
+    "note": "De la même famille que {ar|طَبِيبٌ} (un médecin, chapitre 1).",
+    "example": { "ar": "أُخْتِي طَالِبَةٌ فِي كُلِّيَّةِ الطِّبِّ.", "fr": "Ma sœur est étudiante à la faculté de médecine." }
+  },
+  {
+    "id": "w:balad",
+    "kind": "word",
+    "ar": "بَلَدٌ",
+    "fr": "un pays",
+    "translit": "baladun",
+    "plural": "بِلَادٌ",
+    "gender": "m",
+    "note": "On trouve aussi le pluriel {ar|بُلْدَانٌ}.",
+    "example": { "ar": "هٰذَا بَلَدٌ كَبِيرٌ.", "fr": "C'est un grand pays." }
+  },
+  {
+    "id": "w:matar",
+    "kind": "word",
+    "ar": "مَطَارٌ",
+    "fr": "un aéroport",
+    "translit": "maṭārun",
+    "plural": "مَطَارَاتٌ",
+    "gender": "m",
+    "example": { "ar": "أَيْنَ الْمَطَارُ؟", "fr": "Où est l'aéroport ?" }
+  },
+  {
+    "id": "w:mahkama",
+    "kind": "word",
+    "ar": "مَحْكَمَةٌ",
+    "fr": "un tribunal",
+    "translit": "maḥkamatun",
+    "plural": "مَحَاكِمُ",
+    "gender": "f",
+    "note": "Le pluriel {ar|مَحَاكِمُ} est de forme longue : sans tanwin (comme {ar|مَسَاجِدُ}). Le professeur donne {ar|مَحْكَمَاتٌ} ; les dictionnaires donnent {ar|مَحَاكِمُ}.",
+    "example": { "ar": "الْمَحْكَمَةُ خَلْفَ الْمَسْجِدِ.", "fr": "Le tribunal est derrière la mosquée." }
+  },
+  {
+    "id": "w:shahr",
+    "kind": "word",
+    "ar": "شَهْرٌ",
+    "fr": "un mois",
+    "translit": "shahrun",
+    "plural": "أَشْهُرٌ",
+    "gender": "m",
+    "note": "On dit aussi {ar|شُهُورٌ} au pluriel. Avec un nom de mois, on fait une annexion : {ar|شَهْرُ رَجَبٍ} (le mois de Rajab, avec le tanwin) et {ar|شَهْرُ رَمَضَانَ} (le mois de Ramadan, sans tanwin : {ar|رَمَضَانُ} se termine par « -ān », comme {ar|عُثْمَانُ}, chapitre 9).",
+    "example": { "ar": "شَهْرُ رَمَضَانَ قَرِيبٌ.", "fr": "Le mois de Ramadan est proche." }
+  },
+  {
+    "id": "w:ziyara",
+    "kind": "word",
+    "ar": "زِيَارَةٌ",
+    "fr": "une visite",
+    "translit": "ziyāratun",
+    "plural": "زِيَارَاتٌ",
+    "gender": "f",
+    "note": "Avec une annexion : {ar|زِيَارَةُ عَمِّكَ} (la visite à ton oncle).",
+    "example": { "ar": "هٰذِهِ زِيَارَةٌ جَمِيلَةٌ.", "fr": "C'est une belle visite." }
+  },
+  {
+    "id": "w:islam",
+    "kind": "word",
+    "ar": "الْإِسْلَامُ",
+    "fr": "l'islam",
+    "translit": "al-ʾislāmu",
+    "gender": "m",
+    "note": "Le mot vient de la même racine que {ar|مُسْلِمٌ} et {ar|سَلَامٌ} : il veut dire « la soumission (à Allah) ».",
+    "example": { "ar": "نَحْنُ مُسْلِمُونَ.", "fr": "Nous sommes musulmans." }
+  },
+  {
+    "id": "w:din",
+    "kind": "word",
+    "ar": "دِينٌ",
+    "fr": "une religion",
+    "translit": "dīnun",
+    "plural": "أَدْيَانٌ",
+    "gender": "m",
+    "example": { "ar": "الْإِسْلَامُ دِينُنَا.", "fr": "L'islam est notre religion." }
+  },
+  {
+    "id": "w:rabb",
+    "kind": "word",
+    "ar": "رَبٌّ",
+    "fr": "un seigneur",
+    "translit": "rabbun",
+    "plural": "أَرْبَابٌ",
+    "gender": "m",
+    "note": "Avec l'article, {ar|الرَّبُّ} ne se dit que d'Allah. Pour un homme, on met {ar|رَبٌّ} en annexion : {ar|رَبُّ الْبَيْتِ} (le maître de la maison).",
+    "example": { "ar": "اللَّهُ رَبُّنَا.", "fr": "Allah est notre Seigneur." }
+  },
+  {
+    "id": "w:qibla",
+    "kind": "word",
+    "ar": "قِبْلَةٌ",
+    "fr": "une qibla (direction de la prière)",
+    "translit": "qiblatun",
+    "gender": "f",
+    "note": "C'est la direction de la Kaaba ({ar|الْكَعْبَةُ}, chapitre 5), vers laquelle les musulmans se tournent pour prier.",
+    "example": { "ar": "الْكَعْبَةُ قِبْلَتُنَا.", "fr": "La Kaaba est notre qibla." }
+  },
+  {
+    "id": "w:nasrani",
+    "kind": "word",
+    "ar": "نَصْرَانِيٌّ",
+    "fr": "un chrétien",
+    "translit": "naṣrāniyyun",
+    "plural": "نَصَارَى",
+    "gender": "m",
+    "note": "On dit aussi {ar|مَسِيحِيٌّ}. Au féminin : {ar|نَصْرَانِيَّةٌ}. Le pluriel {ar|نَصَارَى} se termine par {ar|ى}, comme {ar|كُسَالَى} (chapitre 9).",
+    "example": { "ar": "هُوَ نَصْرَانِيٌّ.", "fr": "Il est chrétien." }
+  },
+  {
+    "id": "w:hafid",
+    "kind": "word",
+    "ar": "حَفِيدٌ",
+    "fr": "un petit-fils",
+    "translit": "ḥafīdun",
+    "plural": "حَفَدَةٌ",
+    "gender": "m",
+    "note": "Au féminin : {ar|حَفِيدَةٌ} (une petite-fille). On dit aussi {ar|أَحْفَادٌ} au pluriel.",
+    "example": { "ar": "مُحَمَّدٌ حَفِيدُ زَيْدٍ.", "fr": "Muḥammad est le petit-fils de Zayd." }
+  },
+  {
+    "id": "w:tifla",
+    "kind": "word",
+    "ar": "طِفْلَةٌ",
+    "fr": "une petite fille",
+    "translit": "ṭiflatun",
+    "gender": "f",
+    "note": "Féminin de {ar|طِفْلٌ} (un enfant, un bébé, chapitre 10).",
+    "example": { "ar": "هٰذِهِ طِفْلَةٌ جَمِيلَةٌ.", "fr": "C'est une jolie petite fille." }
+  },
+  {
+    "id": "w:karim",
+    "kind": "word",
+    "ar": "كَرِيمٌ",
+    "fr": "généreux, noble",
+    "translit": "karīmun",
+    "plural": "كُرَمَاءُ",
+    "note": "Le pluriel {ar|كُرَمَاءُ} est de la forme {ar|فُعَلَاءُ} : sans tanwin (comme {ar|عُلَمَاءُ}, chapitre 13). On dit aussi {ar|كِرَامٌ}.",
+    "example": { "ar": "الْقُرْآنُ الْكَرِيمُ كِتَابُنَا.", "fr": "Le noble Coran est notre livre." }
+  },
+  {
+    "id": "p:ahlan-wa-sahlan",
+    "kind": "phrase",
+    "ar": "أَهْلًا وَسَهْلًا",
+    "fr": "bienvenue !",
+    "translit": "ahlan wa sahlan",
+    "note": "On l'explique ainsi : « tu es venu parmi les tiens ({ar|أَهْلٌ}) et tu es arrivé en un lieu facile ({ar|سَهْلٌ}) »."
+  },
+  {
+    "id": "w:marhaban",
+    "kind": "word",
+    "ar": "مَرْحَبًا",
+    "fr": "bienvenue ! (autre formule d'accueil)",
+    "translit": "marḥaban",
+    "note": "Aujourd'hui, on l'emploie aussi pour dire « bonjour », « salut ». Tu as déjà vu {ar|مَرْحَبًا بِكَ} dans la Révision 1.",
+    "example": { "ar": "مَرْحَبًا بِكَ يَا زَيْدُ.", "fr": "Bienvenue à toi, Zayd." }
+  },
+  { "id": "w:shafa", "kind": "word", "ar": "شَفَى", "fr": "il a guéri (guérir)", "translit": "shafā" },
+  { "id": "w:hada", "kind": "word", "ar": "هَدَى", "fr": "il a guidé (guider)", "translit": "hadā" },
+  {
+    "id": "w:landan",
+    "kind": "word",
+    "ar": "لَنْدَنُ",
+    "fr": "Londres",
+    "translit": "landanu",
+    "note": "Un nom de lieu non arabe de plus de trois lettres : il se termine par une damma simple, sans tanwin."
+  },
+  { "id": "w:baris", "kind": "word", "ar": "بَارِيسُ", "fr": "Paris", "translit": "bārīsu" },
+  { "id": "w:bakistan", "kind": "word", "ar": "بَاكِسْتَانُ", "fr": "le Pakistan", "translit": "bākistānu" },
+  { "id": "w:istanbul", "kind": "word", "ar": "إِسْطَنْبُولُ", "fr": "Istanbul", "translit": "ʾisṭanbūlu" },
+  {
+    "id": "w:turkiya",
+    "kind": "word",
+    "ar": "تُرْكِيَا",
+    "fr": "la Turquie",
+    "translit": "turkiyā",
+    "note": "Le nom se termine par un alif long : on ne voit pas de changement de voyelle à l'écrit ({ar|مِنْ تُرْكِيَا})."
+  },
+  {
+    "id": "w:yunan",
+    "kind": "word",
+    "ar": "الْيُونَانُ",
+    "fr": "la Grèce",
+    "translit": "al-yūnānu",
+    "note": "Avec l'article, le nom retrouve la kasra après une préposition : {ar|مِنَ الْيُونَانِ} (de Grèce)."
+  },
+  {
+    "id": "p:saudiyya",
+    "kind": "phrase",
+    "ar": "الْمَمْلَكَةُ الْعَرَبِيَّةُ السُّعُودِيَّةُ",
+    "fr": "l'Arabie saoudite",
+    "translit": "al-mamlakatu l-ʿarabiyyatu s-suʿūdiyyatu",
+    "note": "Mot à mot : « le royaume arabe saoudien ». {ar|الْمَمْلَكَةُ} veut dire « le royaume »."
+  },
+  { "id": "w:wilyam", "kind": "word", "ar": "وِلْيَمُ", "fr": "William", "translit": "wilyamu", "gender": "m" },
+  { "id": "w:idward", "kind": "word", "ar": "إِدْوَرْدُ", "fr": "Edward", "translit": "ʾidwardu", "gender": "m" },
+  {
+    "id": "w:ibrahim",
+    "kind": "word",
+    "ar": "إِبْرَاهِيمُ",
+    "fr": "Ibrāhīm (Abraham)",
+    "translit": "ʾibrāhīmu",
+    "gender": "m",
+    "note": "Un prénom non arabe de plus de trois lettres : damma simple, sans tanwin."
+  },
+  { "id": "w:yusuf", "kind": "word", "ar": "يُوسُفُ", "fr": "Yūsuf (Joseph)", "translit": "yūsufu", "gender": "m" },
+  {
+    "id": "w:dawud",
+    "kind": "word",
+    "ar": "دَاوُدُ",
+    "fr": "Dāwūd (David)",
+    "translit": "dāwūdu",
+    "gender": "m",
+    "note": "Le {ar|و} s'écrit une seule fois, avec une damma, mais se prononce long : « dāwūd »."
+  },
+  {
+    "id": "w:nuh",
+    "kind": "word",
+    "ar": "نُوحٌ",
+    "fr": "Nūḥ (Noé)",
+    "translit": "nūḥun",
+    "gender": "m",
+    "note": "Un prénom non arabe, mais de trois lettres seulement : il garde le tanwin."
+  },
+  {
+    "id": "w:lut",
+    "kind": "word",
+    "ar": "لُوطٌ",
+    "fr": "Lūṭ (Loth)",
+    "translit": "lūṭun",
+    "gender": "m",
+    "note": "Comme {ar|نُوحٌ}, un prénom non arabe de trois lettres : il garde le tanwin."
+  },
+  {
+    "id": "w:ismail",
+    "kind": "word",
+    "ar": "إِسْمَاعِيلُ",
+    "fr": "Ismāʿīl (Ismaël)",
+    "translit": "ʾismāʿīlu",
+    "gender": "m"
+  },
+  {
+    "id": "w:ishaq",
+    "kind": "word",
+    "ar": "إِسْحَاقُ",
+    "fr": "Isḥāq (Isaac)",
+    "translit": "ʾisḥāqu",
+    "gender": "m"
+  },
+  {
+    "id": "w:yaqub",
+    "kind": "word",
+    "ar": "يَعْقُوبُ",
+    "fr": "Yaʿqūb (Jacob)",
+    "translit": "yaʿqūbu",
+    "gender": "m"
+  },
+  {
+    "id": "w:sulayman",
+    "kind": "word",
+    "ar": "سُلَيْمَانُ",
+    "fr": "Sulaymān (Salomon)",
+    "translit": "sulaymānu",
+    "gender": "m"
+  },
+  { "id": "w:ayyub", "kind": "word", "ar": "أَيُّوبُ", "fr": "Ayyūb (Job)", "translit": "ayyūbu", "gender": "m" },
+  { "id": "w:yunus", "kind": "word", "ar": "يُونُسُ", "fr": "Yūnus (Jonas)", "translit": "yūnusu", "gender": "m" },
+  { "id": "w:idris", "kind": "word", "ar": "إِدْرِيسُ", "fr": "Idrīs", "translit": "ʾidrīsu", "gender": "m" },
+  {
+    "id": "w:jibril",
+    "kind": "word",
+    "ar": "جِبْرَئِيلُ",
+    "fr": "Jibrīl (Gabriel)",
+    "translit": "jibraʾīlu",
+    "gender": "m",
+    "note": "On écrit aussi {ar|جِبْرِيلُ}."
+  },
+  {
+    "id": "w:mikail",
+    "kind": "word",
+    "ar": "مِيكَائِيلُ",
+    "fr": "Mīkāʾīl (Michel)",
+    "translit": "mīkāʾīlu",
+    "gender": "m"
+  },
+  { "id": "w:firawn", "kind": "word", "ar": "فِرْعَوْنُ", "fr": "Pharaon", "translit": "firʿawnu", "gender": "m" }
+]
