@@ -1,0 +1,66 @@
+{
+  "id": "medine-t1.r01.vocab-3",
+  "type": "vocabulary",
+  "title": "En classe",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t1.r01.vocab-3#1", "type": "present", "item": "w:dars" },
+    { "id": "medine-t1.r01.vocab-3#2", "type": "present", "item": "w:sahl" },
+    { "id": "medine-t1.r01.vocab-3#3", "type": "present", "item": "w:ikhtibar" },
+    {
+      "id": "medine-t1.r01.vocab-3#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:dars",
+      "distractors": ["w:kitab", "w:madrasa"]
+    },
+    { "id": "medine-t1.r01.vocab-3#5", "type": "present", "item": "w:unwan" },
+    { "id": "medine-t1.r01.vocab-3#6", "type": "present", "item": "w:waraq" },
+    { "id": "medine-t1.r01.vocab-3#7", "type": "present", "item": "w:kub" },
+    {
+      "id": "medine-t1.r01.vocab-3#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:dars", "w:ikhtibar", "w:unwan", "w:waraq", "w:kub"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-3#9",
+      "type": "fill_gap",
+      "sentence": "{0} عَلَى الْمَكْتَبِ.",
+      "fr": "Le papier est sur le bureau.",
+      "gaps": [ { "answers": ["الْوَرَقُ"] } ],
+      "options": ["الْوَرَقُ", "الْكُوبُ", "الدَّرْسُ"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-3#10",
+      "type": "fill_gap",
+      "sentence": "الْمِلْعَقَةُ فِي {0}.",
+      "fr": "La cuillère est dans le verre.",
+      "gaps": [ { "answers": ["الْكُوبِ"] } ],
+      "options": ["الْكُوبِ", "الْوَرَقِ", "الدَّرْسِ"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-3#11",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|عُنْوَانُ الْكِتَابِ} ?" },
+      "choices": [ { "fr": "Le titre du livre" }, { "fr": "Le papier du livre" }, { "fr": "Le livre du directeur" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.r01.vocab-3#12",
+      "type": "order",
+      "fr": "L'examen est facile.",
+      "answers": [["الِاخْتِبَارُ", "سَهْلٌ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.r01.vocab-3#13", "type": "build", "item": "w:unwan", "extra": ["غ"] },
+    { "id": "medine-t1.r01.vocab-3#14", "type": "typing", "ask": "fr", "item": "w:dars" },
+    {
+      "id": "medine-t1.r01.vocab-3#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le papier est sur le bureau.",
+      "answers": ["الْوَرَقُ عَلَى الْمَكْتَبِ."]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "medine-t1.r01.revue-2",
+  "type": "review",
+  "title": "Qui ? Quoi ? Où ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.r01.revue-2#1",
+      "type": "tip",
+      "title": "Poser une question",
+      "blocks": [
+        { "type": "paragraph", "text": "Pour poser une question, on dispose de quatre mots :" },
+        {
+          "type": "table",
+          "header": ["Mot", "Sorte", "Il demande…"],
+          "rows": [
+            ["{ar|أَ}", "particule ({ar|حَرْفٌ})", "oui ou non"],
+            ["{ar|مَنْ}", "nom ({ar|اِسْمٌ})", "une personne"],
+            ["{ar|مَا}", "nom", "une chose, un animal"],
+            ["{ar|أَيْنَ}", "nom", "un lieu"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les grammairiens disent {ar|لِلْعَاقِلِ} (« pour l'être doué de raison » : les personnes) pour {ar|مَنْ}, {ar|لِغَيْرِ الْعَاقِلِ} (« pour ce qui n'en est pas doué » : choses et animaux) pour {ar|مَا}, et {ar|لِلْمَكَانِ} (« pour le lieu ») pour {ar|أَيْنَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.revue-2#2",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:a", "w:man", "w:ma", "w:ayna"]
+    },
+    {
+      "id": "medine-t1.r01.revue-2#3",
+      "type": "sort",
+      "categories": [ { "fr": "une personne" }, { "fr": "une chose" }, { "fr": "un lieu" } ],
+      "cards": [
+        { "ar": "مَنْ هٰذَا؟", "category": 0 },
+        { "ar": "مَا هٰذَا؟", "category": 1 },
+        { "ar": "أَيْنَ الْمَسْجِدُ؟", "category": 2 },
+        { "ar": "مَنْ هٰذِهِ؟", "category": 0 },
+        { "ar": "مَا تِلْكَ؟", "category": 1 },
+        { "ar": "أَيْنَ الْكِتَابُ؟", "category": 2 }
+      ],
+      "instruction": "Que demande chaque question ?"
+    },
+    {
+      "id": "medine-t1.r01.revue-2#4",
+      "type": "fill_gap",
+      "sentence": "{0} الْمَكْتَبُ؟",
+      "fr": "Où est le bureau ?",
+      "gaps": [ { "answers": ["أَيْنَ"] } ],
+      "options": ["أَيْنَ", "مَنْ", "مَا"]
+    },
+    {
+      "id": "medine-t1.r01.revue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "{ar|مَا} sert à demander ce qu'est un animal." },
+      "answer": true,
+      "explain": "En arabe, {ar|مَنْ} est réservé aux personnes ; {ar|مَا} sert pour les choses et pour les animaux."
+    },
+    {
+      "id": "medine-t1.r01.revue-2#6",
+      "type": "fill_gap",
+      "sentence": "{0} فِي الْغُرْفَةِ؟ هِيَ زَيْنَبُ.",
+      "fr": "Qui est dans la chambre ? C'est Zaynab.",
+      "gaps": [ { "answers": ["مَنْ"] } ],
+      "options": ["مَنْ", "مَا", "أَيْنَ"],
+      "explain": "On demande une personne : {ar|مَنْ}."
+    },
+    {
+      "id": "medine-t1.r01.revue-2#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ الْكِتَابُ؟",
+      "answers": ["الْكِتَابُ عَلَى الْمَكْتَبِ.", "هُوَ عَلَى الْمَكْتَبِ.", "عَلَى الْمَكْتَبِ."],
+      "fr": "Le livre est sur le bureau.",
+      "instruction": "Réponds : le livre est sur le bureau."
+    },
+    {
+      "id": "medine-t1.r01.revue-2#8",
+      "type": "order",
+      "fr": "Qui est dans la salle de bains ?",
+      "answers": [["مَنْ", "فِي", "الْحَمَّامِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.r01.revue-2#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَآمِنَةُ فِي الْغُرْفَةِ؟",
+      "answers": ["نَعَمْ، هِيَ فِي الْغُرْفَةِ.", "نَعَمْ، آمِنَةُ فِي الْغُرْفَةِ.", "نَعَمْ."],
+      "fr": "Oui, elle est dans la chambre.",
+      "instruction": "Réponds : oui."
+    },
+    {
+      "id": "medine-t1.r01.revue-2#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Yāsir est-il dans la cuisine ?",
+      "answers": ["أَيَاسِرٌ فِي الْمَطْبَخِ؟"]
+    }
+  ]
+}

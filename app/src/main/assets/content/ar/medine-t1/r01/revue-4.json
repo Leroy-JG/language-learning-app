@@ -1,0 +1,117 @@
+{
+  "id": "medine-t1.r01.revue-4",
+  "type": "review",
+  "title": "Masculin ou féminin ?",
+  "icon": "girl",
+  "screens": [
+    {
+      "id": "medine-t1.r01.revue-4#1",
+      "type": "tip",
+      "title": "Masculin ou féminin ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tout nom arabe est masculin ({ar|مُذَكَّرٌ}) ou féminin ({ar|مُؤَنَّثٌ}). Un nom est féminin dans l'un de ces trois cas :"
+        },
+        {
+          "type": "table",
+          "header": ["Cas", "Exemples"],
+          "rows": [
+            [
+              "un signe du féminin à la fin : {ar|ة}, {ar|ى} ou {ar|اءُ}",
+              "{ar|سَيَّارَةٌ}, {ar|ذِكْرَى}, {ar|صَحْرَاءُ}"
+            ],
+            ["une femme ou une femelle", "{ar|فَاطِمَةُ}, {ar|زَيْنَبُ}, {ar|بَقَرَةٌ}, {ar|نَاقَةٌ}"],
+            ["sans raison particulière (à apprendre avec le mot)", "{ar|يَدٌ}, {ar|شَمْسٌ}, {ar|رِجْلٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Un nom sans signe du féminin est en général masculin : {ar|كِتَابٌ}, {ar|بَيْتٌ}, {ar|مَكْتَبٌ}, et les prénoms d'hommes comme {ar|عُمَرُ} et {ar|زَيْدٌ}. Quelques prénoms d'hommes portent même un {ar|ة} : {ar|حَمْزَةُ} est masculin."
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "{ar|يَدٌ} et {ar|رِجْلٌ} font partie des parties du corps qui vont par paire : la plupart sont féminines."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.revue-4#2",
+      "type": "sort",
+      "categories": [ { "fr": "{ar|ة}" }, { "fr": "{ar|ى}" }, { "fr": "{ar|اءُ}" } ],
+      "cards": [
+        { "item": "w:sayyara", "category": 0 },
+        { "item": "w:dhikra", "category": 1 },
+        { "item": "w:sahra", "category": 2 },
+        { "item": "w:mikwat", "category": 0 },
+        { "ar": "لَيْلَى", "category": 1 },
+        { "item": "w:darraja", "category": 0 }
+      ],
+      "instruction": "Quel signe du féminin se trouve à la fin de chaque mot ?"
+    },
+    {
+      "id": "medine-t1.r01.revue-4#3",
+      "type": "sort",
+      "categories": [ { "fr": "masculin" }, { "fr": "féminin" } ],
+      "cards": [
+        { "ar": "حَامِدٌ", "category": 0 },
+        { "ar": "زَيْنَبُ", "category": 1 },
+        { "ar": "حَمْزَةُ", "category": 0 },
+        { "ar": "عَائِشَةُ", "category": 1 },
+        { "ar": "خَالِدٌ", "category": 0 },
+        { "ar": "خَدِيجَةُ", "category": 1 },
+        { "ar": "عَمَّارٌ", "category": 0 },
+        { "ar": "آمِنَةُ", "category": 1 }
+      ],
+      "instruction": "Ce prénom est-il masculin ou féminin ?",
+      "explain": "{ar|حَمْزَةُ} est un prénom d'homme malgré son {ar|ة} (chapitre 6)."
+    },
+    {
+      "id": "medine-t1.r01.revue-4#4",
+      "type": "true_false",
+      "statement": { "fr": "Tout nom terminé par {ar|ة} est féminin." },
+      "answer": false,
+      "explain": "La plupart le sont, mais pas {ar|حَمْزَةُ}, un prénom d'homme."
+    },
+    {
+      "id": "medine-t1.r01.revue-4#5",
+      "type": "true_false",
+      "statement": { "fr": "{ar|يَدٌ} n'a aucun signe du féminin, pourtant c'est un nom féminin." },
+      "answer": true,
+      "explain": "C'est une partie du corps qui va par paire."
+    },
+    {
+      "id": "medine-t1.r01.revue-4#6",
+      "type": "fill_gap",
+      "sentence": "{0} طَاوِلَةٌ.",
+      "fr": "Ceci est une table.",
+      "gaps": [ { "answers": ["هٰذِهِ"] } ],
+      "options": ["هٰذِهِ", "هٰذَا", "ذٰلِكَ"],
+      "explain": "{ar|طَاوِلَةٌ} est féminin et « ceci » désigne ce qui est proche : {ar|هٰذِهِ}."
+    },
+    {
+      "id": "medine-t1.r01.revue-4#7",
+      "type": "spot",
+      "instruction": "Touche les noms féminins.",
+      "words": ["الْبَقَرَةُ", "وَالْحِمَارُ", "وَالنَّاقَةُ", "وَالْجَمَلُ"],
+      "answers": [0, 2],
+      "fr": "La vache, l'âne, la chamelle et le chameau."
+    },
+    {
+      "id": "medine-t1.r01.revue-4#8",
+      "type": "question",
+      "prompt": { "fr": "Lequel de ces noms est masculin ?" },
+      "choices": [ { "ar": "مَاءٌ" }, { "ar": "صَحْرَاءُ" }, { "ar": "سَيَّارَةٌ" } ],
+      "answer": 0,
+      "explain": "La hamza de {ar|مَاءٌ} fait partie du mot (chapitre 6) : ce n'est pas un signe du féminin. {ar|صَحْرَاءُ} et {ar|سَيَّارَةٌ} sont féminins."
+    },
+    {
+      "id": "medine-t1.r01.revue-4#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ceci est une voiture.",
+      "answers": ["هٰذِهِ سَيَّارَةٌ."]
+    }
+  ]
+}

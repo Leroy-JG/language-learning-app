@@ -1,0 +1,78 @@
+{
+  "id": "medine-t1.r01.vocab-1",
+  "type": "vocabulary",
+  "title": "Du dimanche au mercredi",
+  "icon": "moon",
+  "screens": [
+    { "id": "medine-t1.r01.vocab-1#1", "type": "present", "item": "w:yawm" },
+    { "id": "medine-t1.r01.vocab-1#2", "type": "present", "item": "w:usbu" },
+    {
+      "id": "medine-t1.r01.vocab-1#3",
+      "type": "tip",
+      "title": "Les jours de la semaine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La semaine ({ar|أُسْبُوعٌ}) a sept jours. Le nom d'un jour se dit {ar|يَوْمُ} (« le jour de ») suivi de son nom : c'est une annexion (chapitre 5), donc le second nom est au génitif."
+        },
+        {
+          "type": "breakdown",
+          "ar": "يَوْمُ الْأَحَدِ",
+          "fr": "dimanche",
+          "parts": [ { "ar": "يَوْمُ", "fr": "le jour de" }, { "ar": "الْأَحَدِ", "fr": "le dimanche" } ]
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "Dans la tradition arabe, la semaine commence le dimanche. Les noms de dimanche à jeudi viennent des nombres un, deux, trois, quatre et cinq."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.vocab-1#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:usbu",
+      "distractors": ["w:yawm", "w:alan"]
+    },
+    { "id": "medine-t1.r01.vocab-1#5", "type": "present", "item": "w:ahad" },
+    { "id": "medine-t1.r01.vocab-1#6", "type": "present", "item": "w:ithnayn" },
+    {
+      "id": "medine-t1.r01.vocab-1#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ahad",
+      "distractors": ["w:ithnayn", "w:yawm"]
+    },
+    { "id": "medine-t1.r01.vocab-1#8", "type": "present", "item": "w:thulatha" },
+    { "id": "medine-t1.r01.vocab-1#9", "type": "present", "item": "w:arbia" },
+    {
+      "id": "medine-t1.r01.vocab-1#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:ahad", "w:ithnayn", "w:thulatha", "w:arbia"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-1#11",
+      "type": "question",
+      "prompt": { "fr": "Quel jour vient juste après le dimanche ?" },
+      "choices": [ { "ar": "يَوْمُ الِاثْنَيْنِ" }, { "ar": "يَوْمُ الثُّلَاثَاءِ" }, { "ar": "يَوْمُ الْأَرْبِعَاءِ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.r01.vocab-1#12",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:arbia",
+      "distractors": ["w:thulatha", "w:ithnayn"]
+    },
+    { "id": "medine-t1.r01.vocab-1#13", "type": "typing", "ask": "fr", "item": "w:ithnayn" },
+    {
+      "id": "medine-t1.r01.vocab-1#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "dimanche",
+      "answers": ["يَوْمُ الْأَحَدِ"]
+    }
+  ]
+}

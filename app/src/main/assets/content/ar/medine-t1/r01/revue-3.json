@@ -1,0 +1,116 @@
+{
+  "id": "medine-t1.r01.revue-3",
+  "type": "review",
+  "title": "Défini ou indéfini ?",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.r01.revue-3#1",
+      "type": "tip",
+      "title": "Indéfini ou défini ?",
+      "blocks": [
+        { "type": "paragraph", "text": "Un nom est **indéfini** ({ar|نَكِرَةٌ}) ou **défini** ({ar|مَعْرِفَةٌ})." },
+        {
+          "type": "table",
+          "header": ["Nom", "Signe", "Exemple"],
+          "rows": [["indéfini", "le tanwin", "{ar|كِتَابٌ}"], ["défini", "l'article {ar|الْ}", "{ar|الْكِتَابُ}"]]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "L'article fait perdre le tanwin : on n'écrit jamais les deux ensemble."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.revue-3#2",
+      "type": "tip",
+      "title": "Les noms définis",
+      "blocks": [
+        { "type": "paragraph", "text": "Parmi les noms définis ({ar|الْمَعَارِفُ}) :" },
+        {
+          "type": "table",
+          "header": ["Sorte", "Exemples"],
+          "rows": [
+            ["un nom propre ({ar|الْعَلَمُ})", "{ar|زَيْنَبُ}, {ar|مُحَمَّدٌ}, {ar|مَكَّةُ}"],
+            ["un nom démonstratif", "{ar|هٰذَا}, {ar|هٰذِهِ}"],
+            ["un nom avec l'article", "{ar|الْبَيْتُ}"],
+            ["un pronom", "{ar|هُوَ}, {ar|هِيَ}, {ar|أَنَا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Un nom propre est défini, mais il peut garder son tanwin ({ar|مُحَمَّدٌ}) : le tanwin n'est donc pas toujours le signe d'un nom indéfini."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.revue-3#3",
+      "type": "sort",
+      "categories": [ { "fr": "indéfini" }, { "fr": "défini" } ],
+      "cards": [
+        { "ar": "كِتَابٌ", "category": 0 },
+        { "ar": "الْبَابُ", "category": 1 },
+        { "ar": "زَيْنَبُ", "category": 1 },
+        { "ar": "مَدْرَسَةٌ", "category": 0 },
+        { "ar": "هُوَ", "category": 1 },
+        { "ar": "قَلَمٌ", "category": 0 }
+      ],
+      "instruction": "Ce nom est-il indéfini ou défini ?"
+    },
+    {
+      "id": "medine-t1.r01.revue-3#4",
+      "type": "spot",
+      "instruction": "Touche les mots qui portent l'article {ar|الْ}.",
+      "words": ["الْقَلَمُ", "عَلَى", "الْمَكْتَبِ."],
+      "answers": [0, 2],
+      "fr": "Le stylo est sur le bureau."
+    },
+    {
+      "id": "medine-t1.r01.revue-3#5",
+      "type": "fill_gap",
+      "sentence": "{0} فِي الْجَامِعَةِ.",
+      "fr": "L'étudiant est à l'université.",
+      "gaps": [ { "answers": ["الطَّالِبُ"] } ],
+      "options": ["الطَّالِبُ", "طَالِبٌ", "الطَّالِبَةُ"],
+      "explain": "Le sujet d'une phrase nominale est en principe défini : {ar|الطَّالِبُ فِي الْجَامِعَةِ}."
+    },
+    {
+      "id": "medine-t1.r01.revue-3#6",
+      "type": "true_false",
+      "statement": { "fr": "Un nom propre est défini, même quand il porte un tanwin." },
+      "answer": true,
+      "explain": "{ar|مُحَمَّدٌ} et {ar|زَيْدٌ} sont des noms propres : ils sont définis, et pourtant ils ont un tanwin."
+    },
+    {
+      "id": "medine-t1.r01.revue-3#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le soleil et la lune sont dans le ciel.",
+      "answers": ["الشَّمْسُ وَالْقَمَرُ فِي السَّمَاءِ."]
+    },
+    {
+      "id": "medine-t1.r01.revue-3#8",
+      "type": "question",
+      "prompt": { "fr": "Quel prénom est écrit sans tanwin ?" },
+      "choices": [ { "ar": "فَاطِمَةُ" }, { "ar": "مُحَمَّدٌ" }, { "ar": "خَالِدٌ" } ],
+      "answer": 0,
+      "explain": "La plupart des prénoms féminins sont privés de tanwin (chapitre 4) : {ar|فَاطِمَةُ}. {ar|مُحَمَّدٌ} et {ar|خَالِدٌ} sont des prénoms d'hommes avec tanwin."
+    },
+    {
+      "id": "medine-t1.r01.revue-3#9",
+      "type": "order",
+      "fr": "L'homme est dans la mosquée.",
+      "answers": [["الرَّجُلُ", "فِي", "الْمَسْجِدِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.r01.revue-3#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Où est le commerçant ? Il est dans la boutique.",
+      "answers": ["أَيْنَ التَّاجِرُ؟ هُوَ فِي الدُّكَّانِ."]
+    }
+  ]
+}

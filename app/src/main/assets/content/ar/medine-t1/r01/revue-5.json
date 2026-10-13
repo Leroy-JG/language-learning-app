@@ -1,0 +1,118 @@
+{
+  "id": "medine-t1.r01.revue-5",
+  "type": "review",
+  "title": "Les prépositions",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.r01.revue-5#1",
+      "type": "tip",
+      "title": "Préposition + nom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Une préposition ({ar|حَرْفُ جَرٍّ}) agit sur le sens du nom qui la suit, et sur sa voyelle finale : en général, il prend la **kasra**."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "الْبَيْتُ", "fr": "la maison" },
+              "to": { "ar": "فِي الْبَيْتِ", "fr": "dans la maison" }
+            },
+            {
+              "from": { "ar": "الْكِتَابُ", "fr": "le livre" },
+              "to": { "ar": "عَلَى الْكِتَابِ", "fr": "sur le livre" }
+            },
+            {
+              "from": { "ar": "الْبَيْتُ", "fr": "la maison" },
+              "to": { "ar": "مِنَ الْبَيْتِ", "fr": "de la maison" }
+            },
+            {
+              "from": { "ar": "الْمَسْجِدُ", "fr": "la mosquée" },
+              "to": { "ar": "إِلَى الْمَسْجِدِ", "fr": "vers la mosquée" }
+            },
+            { "from": { "ar": "زَيْدٌ", "fr": "Zayd" }, "to": { "ar": "لِزَيْدٍ", "fr": "à Zayd" } }
+          ]
+        },
+        {
+          "type": "table",
+          "header": ["Préposition", "Sens"],
+          "rows": [
+            ["{ar|فِي}", "dans (un lieu ou un moment : {ar|فِي يَوْمِ الْجُمُعَةِ})"],
+            ["{ar|عَلَى}", "sur"],
+            ["{ar|مِنْ}", "de (le lieu d'origine, la matière : {ar|مِنْ ذَهَبٍ} « en or »)"],
+            ["{ar|إِلَى}", "vers"],
+            ["{ar|لِ}", "à, pour (appartenance)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.revue-5#2",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:fi", "w:ala", "w:min", "w:ila", "w:li"]
+    },
+    {
+      "id": "medine-t1.r01.revue-5#3",
+      "type": "spot",
+      "instruction": "Touche la préposition.",
+      "words": ["الْكِتَابُ", "عَلَى", "الْمَكْتَبِ."],
+      "answers": [1],
+      "fr": "Le livre est sur le bureau."
+    },
+    {
+      "id": "medine-t1.r01.revue-5#4",
+      "type": "spot",
+      "instruction": "Touche le nom qui prend la kasra à cause de la préposition.",
+      "words": ["ذَهَبَ", "زَيْدٌ", "إِلَى", "الْمَسْجِدِ."],
+      "answers": [3],
+      "fr": "Zayd est allé à la mosquée."
+    },
+    {
+      "id": "medine-t1.r01.revue-5#5",
+      "type": "fill_gap",
+      "sentence": "الْكِتَابُ {0} الْمَكْتَبِ.",
+      "fr": "Le livre est sur le bureau.",
+      "gaps": [ { "answers": ["عَلَى"] } ],
+      "options": ["عَلَى", "فِي", "مِنْ"]
+    },
+    {
+      "id": "medine-t1.r01.revue-5#6",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « au directeur » ({ar|لِ} + {ar|الْمُدِيرُ}) ?" },
+      "choices": [ { "ar": "لِلْمُدِيرِ" }, { "ar": "لِالْمُدِيرِ" } ],
+      "answer": 0,
+      "explain": "Après {ar|لِ}, l'alif de l'article disparaît (chapitre 6), et le nom prend la kasra."
+    },
+    {
+      "id": "medine-t1.r01.revue-5#7",
+      "type": "fill_gap",
+      "sentence": "ذَهَبَ زَيْدٌ {0} الْمَسْجِدِ.",
+      "fr": "Zayd est allé à la mosquée.",
+      "gaps": [ { "answers": ["إِلَى"] } ],
+      "options": ["إِلَى", "مِنْ", "عَلَى"]
+    },
+    {
+      "id": "medine-t1.r01.revue-5#8",
+      "type": "true_false",
+      "statement": { "fr": "Le nom qui suit une préposition prend en général la kasra." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.r01.revue-5#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le livre est sur la chaise.",
+      "answers": ["الْكِتَابُ عَلَى الْكُرْسِيِّ."]
+    },
+    {
+      "id": "medine-t1.r01.revue-5#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'enseignant est allé de la classe chez le directeur.",
+      "answers": ["ذَهَبَ الْمُدَرِّسُ مِنَ الْفَصْلِ إِلَى الْمُدِيرِ."]
+    }
+  ]
+}

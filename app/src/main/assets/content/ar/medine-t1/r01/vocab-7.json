@@ -1,0 +1,90 @@
+{
+  "id": "medine-t1.r01.vocab-7",
+  "type": "vocabulary",
+  "title": "La prière de l'aube",
+  "icon": "mosque",
+  "screens": [
+    { "id": "medine-t1.r01.vocab-7#1", "type": "present", "item": "w:salat" },
+    { "id": "medine-t1.r01.vocab-7#2", "type": "present", "item": "w:fajr" },
+    {
+      "id": "medine-t1.r01.vocab-7#3",
+      "type": "tip",
+      "title": "La prière de l'aube",
+      "blocks": [
+        {
+          "type": "breakdown",
+          "ar": "صَلَاةُ الْفَجْرِ",
+          "fr": "la prière de l'aube",
+          "parts": [ { "ar": "صَلَاةُ", "fr": "la prière de" }, { "ar": "الْفَجْرِ", "fr": "l'aube" } ]
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "C'est une annexion (chapitre 5) : le premier nom perd son tanwin, et le {ar|ة} de {ar|صَلَاةُ} se prononce « t ». La prière de l'aube est la première des cinq prières de la journée."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.vocab-7#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:salat",
+      "distractors": ["w:fajr", "w:masjid"]
+    },
+    { "id": "medine-t1.r01.vocab-7#5", "type": "present", "item": "w:sunbur" },
+    { "id": "medine-t1.r01.vocab-7#6", "type": "present", "item": "w:abyad" },
+    {
+      "id": "medine-t1.r01.vocab-7#7",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:abyad",
+      "distractors": ["w:jadid", "w:qadim"]
+    },
+    { "id": "medine-t1.r01.vocab-7#8", "type": "present", "item": "w:tariq" },
+    { "id": "medine-t1.r01.vocab-7#9", "type": "present", "item": "w:sadiq" },
+    {
+      "id": "medine-t1.r01.vocab-7#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:salat", "w:sunbur", "w:tariq", "w:sadiq", "w:fajr"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-7#11",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:tariq",
+      "distractors": ["w:sayyara", "w:haqiba"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-7#12",
+      "type": "fill_gap",
+      "sentence": "الصُّنْبُورُ فِي {0}.",
+      "fr": "Le robinet est dans la salle de bains.",
+      "gaps": [ { "answers": ["الْحَمَّامِ"] } ],
+      "options": ["الْحَمَّامِ", "الْمَدْرَسَةِ", "الْغُرْفَةِ"]
+    },
+    {
+      "id": "medine-t1.r01.vocab-7#13",
+      "type": "order",
+      "fr": "Zayd est l'ami de Muḥammad.",
+      "answers": [["زَيْدٌ", "صَدِيقُ", "مُحَمَّدٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.r01.vocab-7#14",
+      "type": "fill_gap",
+      "sentence": "الْمَسْجِدُ {0}.",
+      "fr": "La mosquée est blanche.",
+      "gaps": [ { "answers": ["أَبْيَضُ"] } ],
+      "options": ["أَبْيَضُ", "جَدِيدٌ", "مَفْتُوحٌ"]
+    },
+    { "id": "medine-t1.r01.vocab-7#15", "type": "typing", "ask": "fr", "item": "w:tariq" },
+    {
+      "id": "medine-t1.r01.vocab-7#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'aube est proche.",
+      "answers": ["الْفَجْرُ قَرِيبٌ."]
+    }
+  ]
+}

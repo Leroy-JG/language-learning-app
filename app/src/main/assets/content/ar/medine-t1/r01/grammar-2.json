@@ -1,0 +1,117 @@
+{
+  "id": "medine-t1.r01.grammar-2",
+  "type": "grammar",
+  "title": "Qu'y a-t-il ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.r01.grammar-2#1",
+      "type": "tip",
+      "title": "Une nouvelle question : {ar|مَاذَا}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|مَا هٰذَا؟} (« qu'est-ce que c'est ? »). Pour demander **ce qu'il y a** quelque part, on emploie {ar|مَاذَا}."
+        },
+        {
+          "type": "breakdown",
+          "ar": "مَاذَا",
+          "fr": "qu'y a-t-il… ?",
+          "parts": [ { "ar": "مَا", "fr": "quoi" }, { "ar": "ذَا", "fr": "ceci (forme courte de {ar|هٰذَا})" } ]
+        },
+        { "type": "example", "ar": "مَاذَا عَلَى الْمَكْتَبِ؟", "fr": "Qu'y a-t-il sur le bureau ?" },
+        { "type": "example", "ar": "مَاذَا هُنَاكَ؟", "fr": "Qu'y a-t-il là-bas ?" },
+        {
+          "type": "note",
+          "text": "Comme {ar|مَا}, {ar|مَاذَا} demande une chose, jamais une personne : pour une personne, on garde {ar|مَنْ} ({ar|مَنْ فِي الْغُرْفَةِ؟})."
+        }
+      ]
+    },
+    { "id": "medine-t1.r01.grammar-2#2", "type": "present", "item": "w:madha" },
+    {
+      "id": "medine-t1.r01.grammar-2#3",
+      "type": "tip",
+      "title": "Répondre à {ar|مَاذَا}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "On peut répondre par le seul nom, ou par une phrase complète en mettant d'abord l'endroit :"
+        },
+        { "type": "example", "ar": "عَلَى الْمَكْتَبِ كِتَابٌ.", "fr": "Sur le bureau, il y a un livre." },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ici le nom {ar|كِتَابٌ} est indéfini, et pourtant c'est le sujet : quand la phrase commence par l'endroit (« préposition + nom ») pour dire « il y a… », le sujet peut être indéfini. C'est une exception à la règle « le sujet est en principe défini »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.grammar-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:madha",
+      "distractors": ["w:ma", "w:man"]
+    },
+    {
+      "id": "medine-t1.r01.grammar-2#5",
+      "type": "fill_gap",
+      "sentence": "{0} عَلَى الْمَكْتَبِ؟",
+      "fr": "Qu'y a-t-il sur le bureau ?",
+      "gaps": [ { "answers": ["مَاذَا"] } ],
+      "options": ["مَاذَا", "مَنْ", "أَيْنَ"],
+      "explain": "On demande ce qu'il y a (une chose) : {ar|مَاذَا}."
+    },
+    {
+      "id": "medine-t1.r01.grammar-2#6",
+      "type": "sort",
+      "categories": [ { "fr": "une personne" }, { "fr": "une chose" }, { "fr": "un lieu" } ],
+      "cards": [
+        { "item": "w:man", "category": 0 },
+        { "item": "w:ma", "category": 1 },
+        { "item": "w:madha", "category": 1 },
+        { "item": "w:ayna", "category": 2 }
+      ],
+      "instruction": "Que demande chaque mot ?"
+    },
+    {
+      "id": "medine-t1.r01.grammar-2#7",
+      "type": "question",
+      "prompt": { "fr": "Comment demande-t-on ce qu'il y a sur le lit ?" },
+      "choices": [ { "ar": "مَاذَا عَلَى السَّرِيرِ؟" }, { "ar": "مَنْ عَلَى السَّرِيرِ؟" }, { "ar": "أَيْنَ السَّرِيرُ؟" } ],
+      "answer": 0,
+      "explain": "{ar|مَنْ} demande une personne et {ar|أَيْنَ} un lieu : pour une chose qu'on cherche, {ar|مَاذَا}."
+    },
+    {
+      "id": "medine-t1.r01.grammar-2#8",
+      "type": "true_false",
+      "statement": { "fr": "{ar|مَاذَا هُنَاكَ؟} veut dire « Qui est là-bas ? »" },
+      "answer": false,
+      "explain": "Ça veut dire « Qu'y a-t-il là-bas ? ». Pour « Qui ? », on dit {ar|مَنْ}."
+    },
+    {
+      "id": "medine-t1.r01.grammar-2#9",
+      "type": "order",
+      "fr": "Qu'y a-t-il sur le lit ?",
+      "answers": [["مَاذَا", "عَلَى", "السَّرِيرِ"]],
+      "punctuation": "؟",
+      "distractors": ["مَنْ"]
+    },
+    {
+      "id": "medine-t1.r01.grammar-2#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Qu'y a-t-il sur le bureau ?",
+      "answers": ["مَاذَا عَلَى الْمَكْتَبِ؟"]
+    },
+    {
+      "id": "medine-t1.r01.grammar-2#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَاذَا هُنَاكَ؟",
+      "answers": ["سَيَّارَةٌ.", "هُنَاكَ سَيَّارَةٌ."],
+      "fr": "Il y a une voiture.",
+      "instruction": "Réponds : une voiture.",
+      "context": { "icon": "car" }
+    }
+  ]
+}

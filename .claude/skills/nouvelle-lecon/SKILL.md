@@ -114,6 +114,15 @@ Les relecteurs les ont tous trouvés ; autant les éviter dès l'écriture.
 - **Contenu du PDF douteux** : سَمَاءٌ (hamza issue d'un wāw) n'est pas un exemple d'alif du féminin ; مُوسَى est un nom étranger ; قَهْوَةٌ → قَهَوَاتٌ (la forme du PDF قَهْوَاتٌ n'est qu'une variante) ; سِكِّينٌ est masculin ou féminin. Ne pas les reprendre sans certitude.
 - **Environnement** : `./gradlew -p core …` renvoie souvent 429 (Maven Central) : le relancer en boucle ; une fois les dépendances en cache, il est très rapide.
 
+## 2 quater. Chapitre de révision (modèle : `r01`, « Révision 1 »)
+
+Quand les PDF sont surtout des **rappels** avec quelques éléments nouveaux :
+- dossier `rNN`, `chapter.json` avec `"label": "Révision N"` (le numéro n'est pas contrôlé ; `number` = celui de la dernière leçon) ; l'ajouter à `level.json` à la place voulue ;
+- **aucun doublon de cartes** : les rappels sont des activités de type `review`, **sans écran `present`** (donc aucune carte de vocabulaire, aucun point de grammaire) et n'emploient que des éléments déjà enseignés ; ne jamais redéfinir un mot déjà présent (`python3 tools/deja_enseigne.py`) — un mot du PDF déjà enseigné est simplement réutilisé ;
+- seuls les éléments **nouveaux** passent par `present` (un nouvel id, jamais un id existant : `w:rajaa-2` pour `رَاجَعَ` car `w:rajaa` est `رَجَعَ`) ; une notion de grammaire nouvelle = une activité `grammar` ;
+- script du chapitre : définir `g.CH = "medine-t1.rNN"` et `g.OUT` après `import generateur_contenu as g` (le générateur suppose `lNN` par défaut) ; lire avec `python3 tools/lire_chapitre.py r01 …` ;
+- les textes du professeur qui contiennent des formes pas encore enseignées (suffixes, conjugaisons, complément d'objet, adjectif épithète) se reprennent en **dialogue** avec une astuce « Des petites formes à repérer » (aperçu, rien n'est exigé en exercice) ; ne créer ni `grammar` ni exercice sur ces formes avant la leçon qui les enseigne.
+
 ## 3. Vérifications automatiques
 
 ```

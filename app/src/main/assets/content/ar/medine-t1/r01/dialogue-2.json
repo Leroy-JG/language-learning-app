@@ -1,0 +1,132 @@
+{
+  "id": "medine-t1.r01.dialogue-2",
+  "type": "dialogue",
+  "title": "Un nouvel étudiant",
+  "icon": "school",
+  "screens": [
+    {
+      "id": "medine-t1.r01.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Au tableau",
+      "intro": "Le professeur interroge Muḥammad, puis un nouvel étudiant, ʿUbayd.",
+      "speakers": {
+        "A": { "name": "Le professeur", "voice": "m1" },
+        "B": { "name": "Muḥammad", "voice": "m2" },
+        "N": { "name": "Récit", "voice": "f1" },
+        "C": { "name": "ʿUbayd", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "قُمْ يَا مُحَمَّدُ إِلَى السَّبُّورَةِ وَاكْتُبْ عُنْوَانَ الدَّرْسِ.",
+          "fr": "Lève-toi, Muḥammad, va au tableau et écris le titre de la leçon."
+        },
+        {
+          "speaker": "B",
+          "ar": "حَسَنًا يَا أُسْتَاذُ. أَيْنَ قَلَمُ السَّبُّورَةِ؟",
+          "fr": "D'accord, professeur. Où est le stylo du tableau ?"
+        },
+        { "speaker": "A", "ar": "هُوَ فَوْقَ الْمَكْتَبِ.", "fr": "Il est sur le bureau." },
+        {
+          "speaker": "N",
+          "ar": "كَتَبَ مُحَمَّدٌ عَلَى السَّبُّورَةِ عُنْوَانَ الدَّرْسِ.",
+          "fr": "Muḥammad a écrit le titre de la leçon sur le tableau."
+        },
+        {
+          "speaker": "A",
+          "ar": "مَنْ حَفِظَ الدَّرْسَ يَرْفَعُ يَدَهُ.",
+          "fr": "Celui qui a mémorisé la leçon lève la main."
+        },
+        { "speaker": "N", "ar": "رَفَعَ طَالِبٌ جَدِيدٌ يَدَهُ.", "fr": "Un nouvel étudiant a levé la main." },
+        { "speaker": "A", "ar": "مَا اسْمُكَ؟ أَأَنْتَ جَدِيدٌ؟", "fr": "Quel est ton nom ? Es-tu nouveau ?" },
+        {
+          "speaker": "C",
+          "ar": "أَنَا عُبَيْدٌ. نَعَمْ، أَنَا طَالِبٌ جَدِيدٌ.",
+          "fr": "Je suis ʿUbayd. Oui, je suis un nouvel étudiant."
+        },
+        { "speaker": "A", "ar": "أَيْنَ تَسْكُنُ يَا عُبَيْدُ؟", "fr": "Où habites-tu, ʿUbayd ?" },
+        {
+          "speaker": "C",
+          "ar": "أَسْكُنُ خَلْفَ الْمَسْجِدِ الْجَامِعِ.",
+          "fr": "J'habite derrière la grande mosquée."
+        },
+        { "speaker": "A", "ar": "مَرْحَبًا بِكَ يَا عُبَيْدُ.", "fr": "Sois le bienvenu, ʿUbayd." }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.dialogue-2#2",
+      "type": "question",
+      "prompt": { "fr": "Que doit écrire Muḥammad au tableau ?" },
+      "choices": [ { "fr": "Le titre de la leçon" }, { "fr": "Son nom" }, { "fr": "La date" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r01.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.r01.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Où est le stylo du tableau ?" },
+      "choices": [ { "fr": "Sur le bureau" }, { "fr": "Derrière la mosquée" }, { "fr": "Derrière la porte" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r01.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.r01.dialogue-2#4",
+      "type": "true_false",
+      "statement": { "fr": "ʿUbayd habite devant la mosquée." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.r01.dialogue-2#1" },
+      "explain": "Il habite derrière la grande mosquée : {ar|خَلْفَ الْمَسْجِدِ الْجَامِعِ}."
+    },
+    {
+      "id": "medine-t1.r01.dialogue-2#5",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quelques formes de ce dialogue n'ont pas encore été étudiées. Tu peux déjà les comprendre :"
+        },
+        {
+          "type": "table",
+          "header": ["Dans le dialogue", "Sens"],
+          "rows": [
+            ["{ar|أَسْكُنُ}", "j'habite : le {ar|أَ} au début veut dire « je »"],
+            ["{ar|تَسْكُنُ}", "tu habites : ici, le {ar|تَ} au début veut dire « tu » (à un homme)"],
+            ["{ar|يَرْفَعُ يَدَهُ}", "il lève sa main : le {ar|هُ} final veut dire « sa »"],
+            ["{ar|مَا اسْمُكَ؟}", "quel est ton nom ? : le {ar|كَ} final veut dire « ton » (à un homme)"],
+            [
+              "{ar|عُنْوَانَ الدَّرْسِ}",
+              "le titre de la leçon : {ar|عُنْوَانَ} est à la fatha, car c'est ce que Muḥammad écrit"
+            ],
+            ["{ar|طَالِبٌ جَدِيدٌ}", "un nouvel étudiant : en arabe, l'adjectif se place après le nom"]
+          ]
+        },
+        { "type": "note", "text": "Tu n'as pas à les apprendre maintenant : tu les étudieras plus tard." }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.dialogue-2#6",
+      "type": "order",
+      "fr": "Où est le stylo du tableau ?",
+      "answers": [["أَيْنَ", "قَلَمُ", "السَّبُّورَةِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.r01.dialogue-2#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ قَلَمُ السَّبُّورَةِ؟",
+      "answers": ["هُوَ فَوْقَ الْمَكْتَبِ.", "فَوْقَ الْمَكْتَبِ."],
+      "fr": "Il est sur le bureau.",
+      "instruction": "Réponds : il est sur le bureau.",
+      "context": { "dialogue": "medine-t1.r01.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.r01.dialogue-2#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Où habites-tu, ʿUbayd ?",
+      "answers": ["أَيْنَ تَسْكُنُ يَا عُبَيْدُ؟"]
+    }
+  ]
+}

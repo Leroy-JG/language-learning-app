@@ -1,0 +1,115 @@
+{
+  "id": "medine-t1.r01.grammar-3",
+  "type": "grammar",
+  "title": "Pourquoi ? Parce que…",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.r01.grammar-3#1",
+      "type": "tip",
+      "title": "Demander la raison",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour demander « pourquoi ? », on emploie {ar|لِمَاذَا}. C'est la préposition {ar|لِ} (« pour », chapitre 6) devant {ar|مَاذَا}."
+        },
+        {
+          "type": "breakdown",
+          "ar": "لِمَاذَا",
+          "fr": "pourquoi ?",
+          "parts": [ { "ar": "لِ", "fr": "pour" }, { "ar": "مَا", "fr": "quoi" }, { "ar": "ذَا", "fr": "ceci" } ]
+        },
+        { "type": "paragraph", "text": "On répond avec {ar|لِأَنَّهُ} (« parce que »)." },
+        {
+          "type": "example",
+          "ar": "خَرَجَ زَيْدٌ مِنَ الْفَصْلِ. لِمَاذَا؟",
+          "fr": "Zayd est sorti de la classe. Pourquoi ?"
+        },
+        {
+          "type": "example",
+          "ar": "لِأَنَّهُ ذَهَبَ إِلَى الْمُدِيرِ.",
+          "fr": "Parce qu'il est allé chez le directeur."
+        }
+      ]
+    },
+    { "id": "medine-t1.r01.grammar-3#2", "type": "present", "item": "w:limadha" },
+    { "id": "medine-t1.r01.grammar-3#3", "type": "present", "item": "w:li-annahu" },
+    {
+      "id": "medine-t1.r01.grammar-3#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:limadha",
+      "distractors": ["w:madha", "w:ayna"]
+    },
+    {
+      "id": "medine-t1.r01.grammar-3#5",
+      "type": "tip",
+      "title": "Une autre question et sa réponse",
+      "blocks": [
+        {
+          "type": "example",
+          "ar": "فَشِلَ زَيْدٌ فِي الِاخْتِبَارِ. لِمَاذَا؟",
+          "fr": "Zayd a échoué à l'examen. Pourquoi ?"
+        },
+        { "type": "example", "ar": "لِأَنَّهُ كَسْلَانُ.", "fr": "Parce qu'il est paresseux." },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "{ar|لِمَاذَا} demande une raison ; {ar|أَيْنَ} un lieu ; {ar|مَاذَا} ce qu'il y a. Ne les confonds pas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r01.grammar-3#6",
+      "type": "fill_gap",
+      "sentence": "خَرَجَ زَيْدٌ مِنَ الْفَصْلِ. {0}؟ لِأَنَّهُ ذَهَبَ إِلَى الْمُدِيرِ.",
+      "fr": "Zayd est sorti de la classe. Pourquoi ? Parce qu'il est allé chez le directeur.",
+      "gaps": [ { "answers": ["لِمَاذَا"] } ],
+      "options": ["لِمَاذَا", "مَاذَا", "أَيْنَ"]
+    },
+    {
+      "id": "medine-t1.r01.grammar-3#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:li-annahu",
+      "distractors": ["w:wa", "w:naam"]
+    },
+    {
+      "id": "medine-t1.r01.grammar-3#8",
+      "type": "order",
+      "fr": "Pourquoi Zayd a-t-il échoué ?",
+      "answers": [["لِمَاذَا", "فَشِلَ", "زَيْدٌ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.r01.grammar-3#9",
+      "type": "question",
+      "prompt": { "fr": "Comment répond-on à la question « Pourquoi Zayd a-t-il échoué ? »" },
+      "choices": [ { "ar": "لِأَنَّهُ كَسْلَانُ." }, { "ar": "نَعَمْ، هُوَ كَسْلَانُ." }, { "ar": "هُنَاكَ." } ],
+      "answer": 0,
+      "explain": "On répond à {ar|لِمَاذَا} par une raison, avec {ar|لِأَنَّهُ}."
+    },
+    {
+      "id": "medine-t1.r01.grammar-3#10",
+      "type": "true_false",
+      "statement": { "fr": "On répond à {ar|لِمَاذَا} avec {ar|لِأَنَّهُ}." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.r01.grammar-3#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَاذَا فَشِلَ زَيْدٌ؟",
+      "answers": ["لِأَنَّهُ كَسْلَانُ."],
+      "fr": "Parce qu'il est paresseux.",
+      "instruction": "Réponds : parce qu'il est paresseux."
+    },
+    {
+      "id": "medine-t1.r01.grammar-3#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd a échoué à l'examen.",
+      "answers": ["فَشِلَ زَيْدٌ فِي الِاخْتِبَارِ."]
+    }
+  ]
+}

@@ -150,6 +150,11 @@ exercice est toujours possible : seul l'id reste figé.
 }
 ```
 
+- `label` (facultatif) : libellé affiché à la place de « Chapitre N » dans le parcours et dans Réviser
+  (ex. `"label": "Révision 1"` pour un chapitre de révision, dossier `r01`). Un chapitre avec `label` n'entre
+  pas dans le contrôle des numéros (`number` strictement croissant) : les leçons gardent ainsi leur numéro du livre.
+- Un chapitre de révision utilise des activités de type `review` pour revoir sans créer de cartes (aucun
+  `present`) et ne présente que ses éléments nouveaux.
 - Un chapitre est découpé en **parties** (`sections`), chacune contenant des activités.
 - Rien n'est verrouillé : chaque activité s'ouvre quand on veut. L'ordre (parties puis activités)
   est celui du parcours conseillé ; l'accueil propose la première activité non terminée.

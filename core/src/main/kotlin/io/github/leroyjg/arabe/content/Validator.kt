@@ -123,8 +123,10 @@ class Validator(
             duplicates(f.chapters).forEach { err(w, "chapitre listé deux fois : $it") }
             var lastNumber = 0
             for (chapter in level.chapters) {
-                if (chapter.file.number <= lastNumber) err(chapter.id, "numéro ${chapter.file.number} non croissant")
-                lastNumber = chapter.file.number
+                if (chapter.file.label == null) {
+                    if (chapter.file.number <= lastNumber) err(chapter.id, "numéro ${chapter.file.number} non croissant")
+                    lastNumber = chapter.file.number
+                }
                 checkChapter(level, chapter)
             }
         }
@@ -137,6 +139,7 @@ class Validator(
             id(w, f.id)
             ar("$w.title.ar", f.title.ar)
             fr("$w.title.fr", f.title.fr)
+            f.label?.let { fr("$w.label", it) }
             f.description?.let { fr("$w.description", it) }
             f.source?.let { fr("$w.source", it) }
             if (f.sections.isEmpty()) err(w, "aucune partie")
