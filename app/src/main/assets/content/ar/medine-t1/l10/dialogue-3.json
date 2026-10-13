@@ -1,0 +1,165 @@
+{
+  "id": "medine-t1.l10.dialogue-3",
+  "type": "dialogue",
+  "title": "La famille de Muḥammad",
+  "icon": "house",
+  "screens": [
+    {
+      "id": "medine-t1.l10.dialogue-3#1",
+      "type": "dialogue",
+      "title": "Au Koweït et au Japon",
+      "intro": "Ḥāmid demande à Muḥammad s'il est allé au Koweït.",
+      "speakers": { "A": { "name": "Ḥāmid", "voice": "m1" }, "B": { "name": "Muḥammad", "voice": "m2" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "أَذَهَبْتَ إِلَى الْكُوَيْتِ يَا مُحَمَّدُ؟",
+          "fr": "Es-tu allé au Koweït, Muḥammad ?"
+        },
+        { "speaker": "B", "ar": "نَعَمْ. ذَهَبْتُ.", "fr": "Oui. J'y suis allé." },
+        { "speaker": "A", "ar": "وَزَمِيلُكَ، أَيْنَ أَبُوهُ؟", "fr": "Et ton camarade, où est son père ?" },
+        {
+          "speaker": "B",
+          "ar": "أَبُوهُ فِي الْيَابَانِ. هُوَ تَاجِرٌ كَبِيرٌ.",
+          "fr": "Son père est au Japon. C'est un grand commerçant."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.dialogue-3#2",
+      "type": "dialogue",
+      "title": "Frère, sœur et voiture",
+      "intro": "Muḥammad parle de sa famille.",
+      "speakers": { "A": { "name": "Ḥāmid", "voice": "m1" }, "B": { "name": "Muḥammad", "voice": "m2" } },
+      "lines": [
+        { "speaker": "A", "ar": "أَلَكَ أَخٌ يَا مُحَمَّدُ؟", "fr": "As-tu un frère, Muḥammad ?" },
+        {
+          "speaker": "B",
+          "ar": "نَعَمْ. لِي أَخٌ وَاحِدٌ، اسْمُهُ أُسَامَةُ، وَهُوَ مَعِي هُنَا فِي الْمَدِينَةِ الْمُنَوَّرَةِ.",
+          "fr": "Oui. J'ai un seul frère, son nom est Usāma, et il est avec moi ici, à Médine."
+        },
+        {
+          "speaker": "B",
+          "ar": "وَلِي أُخْتٌ وَاحِدَةٌ، اسْمُهَا زَيْنَبُ، وَهِيَ فِي الْعِرَاقِ مَعَ زَوْجِهَا. زَوْجُهَا مُهَنْدِسٌ.",
+          "fr": "Et j'ai une seule sœur, son nom est Zaynab, et elle est en Irak avec son mari. Son mari est ingénieur."
+        },
+        { "speaker": "A", "ar": "أَعِنْدَكَ سَيَّارَةٌ يَا أَخِي؟", "fr": "As-tu une voiture, mon frère ?" },
+        {
+          "speaker": "B",
+          "ar": "لَا. مَا عِنْدِي سَيَّارَةٌ. عِنْدِي دَرَّاجَةٌ.",
+          "fr": "Non. Je n'ai pas de voiture. J'ai un vélo."
+        },
+        { "speaker": "B", "ar": "حَمْزَةُ، عِنْدَهُ سَيَّارَةٌ.", "fr": "Ḥamza, lui, a une voiture." }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.dialogue-3#3",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans ces dialogues, quelques formes n'ont pas encore été étudiées. Tu peux déjà les comprendre :"
+        },
+        {
+          "type": "table",
+          "header": ["Dans le dialogue", "Sens"],
+          "rows": [
+            [
+              "{ar|ذَهَبْتُ}",
+              "je suis allé : le verbe {ar|ذَهَبَ} (chapitre 4) avec {ar|تُ} à la fin, qui veut dire « je »"
+            ],
+            [
+              "{ar|أَذَهَبْتَ}",
+              "est-ce que tu es allé ? : la particule {ar|أَ} (chapitre 1), le verbe {ar|ذَهَبَ} et {ar|تَ} à la fin, qui veut dire « tu » (à un homme)"
+            ]
+          ]
+        },
+        { "type": "note", "text": "Tu n'as pas à les apprendre maintenant : tu les étudieras plus tard." }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.dialogue-3#4",
+      "type": "question",
+      "prompt": { "fr": "Où est le père de Ḥamza ?" },
+      "choices": [ { "fr": "Au Japon" }, { "fr": "Au Koweït" }, { "fr": "En Irak" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l10.dialogue-3#1" }
+    },
+    {
+      "id": "medine-t1.l10.dialogue-3#5",
+      "type": "question",
+      "prompt": { "fr": "Quel est le métier du père de Ḥamza ?" },
+      "choices": [ { "fr": "Commerçant" }, { "fr": "Médecin" }, { "fr": "Ingénieur" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l10.dialogue-3#1" }
+    },
+    {
+      "id": "medine-t1.l10.dialogue-3#6",
+      "type": "question",
+      "prompt": { "fr": "Combien de frères et de sœurs Muḥammad a-t-il ?" },
+      "choices": [ { "fr": "Un frère et une sœur" }, { "fr": "Deux frères" }, { "fr": "Une sœur seulement" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l10.dialogue-3#2" }
+    },
+    {
+      "id": "medine-t1.l10.dialogue-3#7",
+      "type": "true_false",
+      "statement": { "fr": "La sœur de Muḥammad est avec lui à Médine." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l10.dialogue-3#2" },
+      "explain": "C'est son frère Usāma qui est avec lui. Sa sœur Zaynab est en Irak, avec son mari."
+    },
+    {
+      "id": "medine-t1.l10.dialogue-3#8",
+      "type": "question",
+      "prompt": { "fr": "Que fait le mari de Zaynab ?" },
+      "choices": [ { "fr": "Il est ingénieur" }, { "fr": "Il est commerçant" }, { "fr": "Il est médecin" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l10.dialogue-3#2" }
+    },
+    {
+      "id": "medine-t1.l10.dialogue-3#9",
+      "type": "question",
+      "prompt": { "fr": "Qui a une voiture ?" },
+      "choices": [ { "fr": "Ḥamza" }, { "fr": "Muḥammad" }, { "fr": "Ḥāmid" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l10.dialogue-3#2" },
+      "explain": "Muḥammad dit : {ar|عِنْدِي دَرَّاجَةٌ} (j'ai un vélo) et {ar|حَمْزَةُ، عِنْدَهُ سَيَّارَةٌ} (Ḥamza a une voiture)."
+    },
+    {
+      "id": "medine-t1.l10.dialogue-3#10",
+      "type": "fill_gap",
+      "sentence": "وَلِي أُخْتٌ وَاحِدَةٌ، {0} زَيْنَبُ.",
+      "fr": "Et j'ai une seule sœur, son nom est Zaynab.",
+      "gaps": [ { "answers": ["اسْمُهَا"] } ],
+      "options": ["اسْمُهَا", "اسْمُهُ"],
+      "context": { "dialogue": "medine-t1.l10.dialogue-3#2" },
+      "explain": "On parle d'une sœur, une femme : {ar|هَا}."
+    },
+    {
+      "id": "medine-t1.l10.dialogue-3#11",
+      "type": "order",
+      "fr": "Et ton camarade, où est son père ?",
+      "answers": [["وَزَمِيلُكَ،", "أَيْنَ", "أَبُوهُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l10.dialogue-3#12",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَعِنْدَكَ سَيَّارَةٌ؟",
+      "answers": ["لَا. مَا عِنْدِي سَيَّارَةٌ.", "لَا. مَا لِي سَيَّارَةٌ."],
+      "fr": "Non, je n'ai pas de voiture.",
+      "instruction": "Réponds : non, je n'ai pas de voiture.",
+      "context": { "dialogue": "medine-t1.l10.dialogue-3#2" }
+    },
+    {
+      "id": "medine-t1.l10.dialogue-3#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ḥamza, lui, a une voiture.",
+      "answers": ["حَمْزَةُ، عِنْدَهُ سَيَّارَةٌ."]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "medine-t1.l10.practice-2",
+  "type": "vocabulary",
+  "title": "Mon, ton, son : les huit noms du livre",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l10.practice-2#1",
+      "type": "tip",
+      "title": "Le modèle du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre te demande d'ajouter à chaque nom le pronom de « moi », « toi », « lui » et « elle », sur le modèle de {ar|قَلَمٌ}."
+        },
+        {
+          "type": "table",
+          "header": ["Pour dire…", "En arabe"],
+          "rows": [
+            ["C'est mon stylo.", "{ar|هٰذَا قَلَمِي.}"],
+            ["C'est ton stylo (à un homme).", "{ar|هٰذَا قَلَمُكَ.}"],
+            ["C'est son stylo (à lui).", "{ar|هٰذَا قَلَمُهُ.}"],
+            ["C'est son stylo (à elle).", "{ar|هٰذَا قَلَمُهَا.}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.practice-2#2",
+      "type": "tip",
+      "title": "Les huit noms",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Nom", "mon", "ton", "son (lui)", "son (elle)"],
+          "rows": [
+            ["{ar|كِتَابٌ}", "{ar|كِتَابِي}", "{ar|كِتَابُكَ}", "{ar|كِتَابُهُ}", "{ar|كِتَابُهَا}"],
+            ["{ar|سَرِيرٌ}", "{ar|سَرِيرِي}", "{ar|سَرِيرُكَ}", "{ar|سَرِيرُهُ}", "{ar|سَرِيرُهَا}"],
+            ["{ar|اِسْمٌ}", "{ar|اِسْمِي}", "{ar|اِسْمُكَ}", "{ar|اِسْمُهُ}", "{ar|اِسْمُهَا}"],
+            ["{ar|مِنْدِيلٌ}", "{ar|مِنْدِيلِي}", "{ar|مِنْدِيلُكَ}", "{ar|مِنْدِيلُهُ}", "{ar|مِنْدِيلُهَا}"],
+            ["{ar|اِبْنٌ}", "{ar|اِبْنِي}", "{ar|اِبْنُكَ}", "{ar|اِبْنُهُ}", "{ar|اِبْنُهَا}"],
+            ["{ar|سَيَّارَةٌ}", "{ar|سَيَّارَتِي}", "{ar|سَيَّارَتُكَ}", "{ar|سَيَّارَتُهُ}", "{ar|سَيَّارَتُهَا}"],
+            ["{ar|مِفْتَاحٌ}", "{ar|مِفْتَاحِي}", "{ar|مِفْتَاحُكَ}", "{ar|مِفْتَاحُهُ}", "{ar|مِفْتَاحُهَا}"],
+            ["{ar|يَدٌ}", "{ar|يَدِي}", "{ar|يَدُكَ}", "{ar|يَدُهُ}", "{ar|يَدُهَا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|سَيَّارَةٌ} et {ar|يَدٌ} sont féminins : on dit {ar|هٰذِهِ سَيَّارَتِي} et {ar|هٰذِهِ يَدِي}. Les autres noms sont masculins : {ar|هٰذَا كِتَابِي}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.practice-2#3",
+      "type": "sort",
+      "categories": [ { "fr": "à moi" }, { "fr": "à toi" }, { "fr": "à lui ou à elle" } ],
+      "cards": [
+        { "ar": "كِتَابِي", "category": 0 },
+        { "ar": "سَيَّارَتِي", "category": 0 },
+        { "ar": "يَدُكَ", "category": 1 },
+        { "ar": "مِفْتَاحُكَ", "category": 1 },
+        { "ar": "مِنْدِيلُهُ", "category": 2 },
+        { "ar": "اِبْنُهَا", "category": 2 }
+      ],
+      "instruction": "À qui est-ce ?",
+      "explain": "{ar|◌ِي} = moi, {ar|كَ} = toi, {ar|هُ} et {ar|هَا} = lui ou elle."
+    },
+    {
+      "id": "medine-t1.l10.practice-2#4",
+      "type": "fill_gap",
+      "sentence": "هٰذَا {0}.",
+      "fr": "C'est mon lit.",
+      "gaps": [ { "answers": ["سَرِيرِي"] } ],
+      "options": ["سَرِيرِي", "سَرِيرُكَ", "سَرِيرُهُ"],
+      "explain": "« Mon » : {ar|◌ِي}, avec la kasra sur la dernière lettre du nom."
+    },
+    {
+      "id": "medine-t1.l10.practice-2#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "C'est ma clé.",
+      "answers": ["هٰذَا مِفْتَاحِي."]
+    },
+    {
+      "id": "medine-t1.l10.practice-2#6",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ {0}.",
+      "fr": "C'est sa main (à elle).",
+      "gaps": [ { "answers": ["يَدُهَا"] } ],
+      "options": ["يَدُهَا", "يَدُهُ", "يَدِي"],
+      "explain": "« Sa main, à elle » : {ar|هَا}. {ar|يَدٌ} est féminin : {ar|هٰذِهِ}."
+    },
+    {
+      "id": "medine-t1.l10.practice-2#7",
+      "type": "order",
+      "fr": "C'est son mouchoir (à lui).",
+      "answers": [["هٰذَا", "مِنْدِيلُهُ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l10.practice-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "C'est ta voiture (à un homme).",
+      "answers": ["هٰذِهِ سَيَّارَتُكَ."]
+    },
+    {
+      "id": "medine-t1.l10.practice-2#9",
+      "type": "fill_gap",
+      "sentence": "هٰذَا {0}.",
+      "fr": "C'est son fils (à lui).",
+      "gaps": [ { "answers": ["اِبْنُهُ"] } ],
+      "options": ["اِبْنُهُ", "اِبْنُهَا", "اِبْنُكَ"],
+      "explain": "« Son fils, à lui » : {ar|هُ}."
+    },
+    {
+      "id": "medine-t1.l10.practice-2#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "C'est son nom (à elle).",
+      "answers": ["هٰذَا اسْمُهَا."]
+    }
+  ]
+}

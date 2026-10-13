@@ -1,0 +1,63 @@
+{
+  "id": "medine-t1.l10.vocab-5",
+  "type": "vocabulary",
+  "title": "Pays et langues",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t1.l10.vocab-5#1", "type": "present", "item": "w:kuwayt" },
+    { "id": "medine-t1.l10.vocab-5#2", "type": "present", "item": "w:iraq" },
+    {
+      "id": "medine-t1.l10.vocab-5#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:iraq",
+      "distractors": ["w:hind", "w:yaban"]
+    },
+    { "id": "medine-t1.l10.vocab-5#4", "type": "present", "item": "w:urdiyya" },
+    { "id": "medine-t1.l10.vocab-5#5", "type": "present", "item": "w:yabaniyya" },
+    {
+      "id": "medine-t1.l10.vocab-5#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:kuwayt", "w:iraq", "w:urdiyya", "w:yabaniyya"]
+    },
+    {
+      "id": "medine-t1.l10.vocab-5#7",
+      "type": "fill_gap",
+      "sentence": "الْيَابَانِيَّةُ لُغَةٌ {0}.",
+      "fr": "Le japonais est une langue difficile.",
+      "gaps": [ { "answers": ["صَعْبَةٌ"] } ],
+      "options": ["صَعْبَةٌ", "صَعْبٌ"],
+      "explain": "{ar|لُغَةٌ} est féminin : l'adjectif prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l10.vocab-5#8",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:kuwayt", "w:iraq", "w:urdiyya", "w:yabaniyya", "w:faransiyya"]
+    },
+    {
+      "id": "medine-t1.l10.vocab-5#9",
+      "type": "fill_gap",
+      "sentence": "أَنَا مِنَ {0}.",
+      "fr": "Je viens d'Irak.",
+      "gaps": [ { "answers": ["الْعِرَاقِ"] } ],
+      "options": ["الْعِرَاقِ", "الْكُوَيْتِ", "الْهِنْدِ"],
+      "explain": "« D'Irak » : {ar|الْعِرَاقِ}, à la kasra après {ar|مِنْ}."
+    },
+    {
+      "id": "medine-t1.l10.vocab-5#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mon père est au Koweït.",
+      "answers": ["أَبِي فِي الْكُوَيْتِ."]
+    },
+    {
+      "id": "medine-t1.l10.vocab-5#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ma langue est le japonais.",
+      "answers": ["لُغَتِي الْيَابَانِيَّةُ."]
+    }
+  ]
+}

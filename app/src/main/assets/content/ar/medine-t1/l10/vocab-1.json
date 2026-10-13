@@ -1,0 +1,119 @@
+{
+  "id": "medine-t1.l10.vocab-1",
+  "type": "vocabulary",
+  "title": "Moi, toi, nous",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t1.l10.vocab-1#1", "type": "present", "item": "w:nahnu" },
+    { "id": "medine-t1.l10.vocab-1#2", "type": "present", "item": "w:anti" },
+    {
+      "id": "medine-t1.l10.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:nahnu",
+      "distractors": ["w:ana", "w:hiya"]
+    },
+    {
+      "id": "medine-t1.l10.vocab-1#4",
+      "type": "tip",
+      "title": "Tu, toi : un homme ou une femme ?",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَنْتَ", "fr": "tu (à un homme)" },
+              "to": { "ar": "أَنْتِ", "fr": "tu (à une femme)" },
+              "label": "la fatha devient une kasra"
+            },
+            {
+              "from": { "ar": "أَنْتَ طَالِبٌ", "fr": "Tu es étudiant." },
+              "to": { "ar": "أَنْتِ طَالِبَةٌ", "fr": "Tu es étudiante." },
+              "label": "le prédicat s'accorde aussi"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Sans voyelles, on ne peut pas distinguer ces deux pronoms à l'écrit : c'est la fatha ou la kasra, ou le contexte, qui dit à qui l'on parle."
+        }
+      ]
+    },
+    { "id": "medine-t1.l10.vocab-1#5", "type": "present", "item": "w:antuma" },
+    { "id": "medine-t1.l10.vocab-1#6", "type": "present", "item": "w:antum" },
+    { "id": "medine-t1.l10.vocab-1#7", "type": "present", "item": "w:antunna" },
+    {
+      "id": "medine-t1.l10.vocab-1#8",
+      "type": "tip",
+      "title": "Un, deux, plusieurs",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "À la 2e personne, l'arabe distingue le nombre : une personne, deux personnes (le **duel**), plusieurs personnes (le **pluriel**, à partir de trois)."
+        },
+        {
+          "type": "table",
+          "header": ["Tu parles à…", "Pronom"],
+          "rows": [
+            ["un homme", "{ar|أَنْتَ}"],
+            ["une femme", "{ar|أَنْتِ}"],
+            ["deux personnes", "{ar|أَنْتُمَا}"],
+            ["plusieurs hommes (ou un groupe mixte)", "{ar|أَنْتُمْ}"],
+            ["plusieurs femmes", "{ar|أَنْتُنَّ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Les trois terminaisons : {ar|مَا} = deux, {ar|مْ} = plusieurs hommes, {ar|نَّ} = plusieurs femmes. Tu les retrouveras à la 3e personne et dans les pronoms affixes."
+        },
+        {
+          "type": "note",
+          "text": "À la 1re personne, il n'y a que deux pronoms : {ar|أَنَا} (je) et {ar|نَحْنُ} (nous). {ar|نَحْنُ} sert aussi pour deux personnes."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.vocab-1#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:nahnu", "w:anti", "w:antuma", "w:antum", "w:antunna"]
+    },
+    {
+      "id": "medine-t1.l10.vocab-1#10",
+      "type": "sort",
+      "categories": [ { "fr": "une personne" }, { "fr": "deux personnes" }, { "fr": "plusieurs personnes" } ],
+      "cards": [
+        { "item": "w:anta", "category": 0 },
+        { "item": "w:antuma", "category": 1 },
+        { "item": "w:antum", "category": 2 },
+        { "item": "w:antunna", "category": 2 }
+      ],
+      "instruction": "À combien de personnes parle-t-on ?",
+      "explain": "{ar|مَا} marque le duel ; {ar|مْ} et {ar|نَّ} marquent le pluriel ; un pronom sans ces terminaisons s'adresse à une seule personne."
+    },
+    {
+      "id": "medine-t1.l10.vocab-1#11",
+      "type": "fill_gap",
+      "sentence": "{0} فِي الْفَصْلِ.",
+      "fr": "Vous deux, vous êtes en classe.",
+      "gaps": [ { "answers": ["أَنْتُمَا"] } ],
+      "options": ["أَنْتُمَا", "أَنْتُمْ", "أَنْتُنَّ"],
+      "explain": "« Vous deux » : le duel, {ar|أَنْتُمَا}."
+    },
+    {
+      "id": "medine-t1.l10.vocab-1#12",
+      "type": "order",
+      "fr": "Vous (plusieurs hommes) venez de France.",
+      "answers": [["أَنْتُمْ", "مِنْ", "فَرَنْسَا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l10.vocab-1#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous sommes étudiants.",
+      "answers": ["نَحْنُ طُلَّابٌ."]
+    }
+  ]
+}

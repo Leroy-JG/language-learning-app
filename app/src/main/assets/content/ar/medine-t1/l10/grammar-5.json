@@ -1,0 +1,166 @@
+{
+  "id": "medine-t1.l10.grammar-5",
+  "type": "grammar",
+  "title": "Avoir : {ar|لِي} ou {ar|عِنْدِي}",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l10.grammar-5#1",
+      "type": "tip",
+      "title": "Pas de verbe « avoir »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'arabe n'a pas de verbe « avoir » au présent : il emploie une préposition suivie d'un pronom affixe. Mot à mot : « à moi un frère » veut dire « j'ai un frère »."
+        },
+        {
+          "type": "table",
+          "header": ["Pour dire…", "En arabe", "Mot à mot"],
+          "rows": [
+            ["J'ai un frère.", "{ar|لِي أَخٌ.}", "à moi, un frère"],
+            ["Tu as un frère (à un homme).", "{ar|لَكَ أَخٌ.}", "à toi, un frère"],
+            ["Il a un frère.", "{ar|لَهُ أَخٌ.}", "à lui, un frère"],
+            ["Elle a un frère.", "{ar|لَهَا أَخٌ.}", "à elle, un frère"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Ce qu'on possède ({ar|أَخٌ}) vient après la préposition, et il est indéfini : tu connais déjà cette construction ({ar|عَلَى الْمَكْتَبِ كِتَابٌ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.grammar-5#2",
+      "type": "tip",
+      "title": "Deux prépositions : {ar|عِنْدَ} et {ar|لِ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "On peut aussi dire « j'ai » avec {ar|عِنْدَ} (chez) : {ar|عِنْدِي كِتَابٌ} (« chez moi, un livre »)."
+        },
+        {
+          "type": "note",
+          "text": "Le livre de Médine donne ces deux modèles : on dit {ar|عِنْدِي كِتَابٌ} (un objet) et {ar|لِي أَخٌ} (un proche), mais on ne dit pas {ar|عِنْدِي أَخٌ}."
+        },
+        { "type": "example", "ar": "عِنْدِي كِتَابٌ.", "fr": "J'ai un livre." },
+        { "type": "example", "ar": "لِي أَخٌ.", "fr": "J'ai un frère." }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.grammar-5#3",
+      "type": "tip",
+      "title": "Tous les pronoms avec {ar|لِ} et {ar|عِنْدَ}",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pronom", "{ar|لِ}", "{ar|عِنْدَ}"],
+          "rows": [
+            ["{ar|◌ِي}", "{ar|لِي}", "{ar|عِنْدِي}"],
+            ["{ar|نَا}", "{ar|لَنَا}", "{ar|عِنْدَنَا}"],
+            ["{ar|كَ}", "{ar|لَكَ}", "{ar|عِنْدَكَ}"],
+            ["{ar|كِ}", "{ar|لَكِ}", "{ar|عِنْدَكِ}"],
+            ["{ar|كُمَا}", "{ar|لَكُمَا}", "{ar|عِنْدَكُمَا}"],
+            ["{ar|كُمْ}", "{ar|لَكُمْ}", "{ar|عِنْدَكُمْ}"],
+            ["{ar|كُنَّ}", "{ar|لَكُنَّ}", "{ar|عِنْدَكُنَّ}"],
+            ["{ar|هُ}", "{ar|لَهُ}", "{ar|عِنْدَهُ}"],
+            ["{ar|هَا}", "{ar|لَهَا}", "{ar|عِنْدَهَا}"],
+            ["{ar|هُمَا}", "{ar|لَهُمَا}", "{ar|عِنْدَهُمَا}"],
+            ["{ar|هُمْ}", "{ar|لَهُمْ}", "{ar|عِنْدَهُمْ}"],
+            ["{ar|هُنَّ}", "{ar|لَهُنَّ}", "{ar|عِنْدَهُنَّ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|عِنْدَ} + {ar|◌ِي} donne {ar|عِنْدِي} : devant {ar|◌ِي}, la lettre qui précède prend toujours la kasra."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.grammar-5#4",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « J'ai un livre » ?" },
+      "choices": [ { "ar": "عِنْدِي كِتَابٌ" }, { "ar": "عِنْدَهُ كِتَابٌ" }, { "ar": "عِنْدَكَ كِتَابٌ" } ],
+      "answer": 0,
+      "explain": "« J'ai » : {ar|عِنْدِي}. {ar|عِنْدَهُ} veut dire « il a » et {ar|عِنْدَكَ} « tu as »."
+    },
+    {
+      "id": "medine-t1.l10.grammar-5#5",
+      "type": "fill_gap",
+      "sentence": "{0} سَيَّارَةٌ.",
+      "fr": "Il a une voiture.",
+      "gaps": [ { "answers": ["عِنْدَهُ"] } ],
+      "options": ["عِنْدَهُ", "عِنْدَهَا", "عِنْدِي"],
+      "explain": "« Il a » : {ar|عِنْدَ} + {ar|هُ}."
+    },
+    {
+      "id": "medine-t1.l10.grammar-5#6",
+      "type": "fill_gap",
+      "sentence": "{0} أَخٌ وَاحِدٌ.",
+      "fr": "J'ai un seul frère.",
+      "gaps": [ { "answers": ["لِي"] } ],
+      "options": ["لِي", "لَكَ", "لَهُ"],
+      "explain": "Pour un proche, on emploie {ar|لِ} : {ar|لِي أَخٌ وَاحِدٌ}."
+    },
+    {
+      "id": "medine-t1.l10.grammar-5#7",
+      "type": "tip",
+      "title": "Poser la question, répondre non",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Question", "Réponse « oui »", "Réponse « non »"],
+          "rows": [
+            ["{ar|أَعِنْدَكَ قَلَمٌ؟}", "{ar|نَعَمْ. عِنْدِي قَلَمٌ.}", "{ar|لَا. مَا عِنْدِي قَلَمٌ.}"],
+            ["{ar|أَلَكَ أَخٌ؟}", "{ar|نَعَمْ. لِي أَخٌ.}", "{ar|لَا. مَا لِي أَخٌ.}"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "On pose la question avec {ar|أَ} (chapitre 1) devant {ar|عِنْدَكَ} ou {ar|لَكَ}."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Pour nier, on place {ar|مَا} devant la phrase. Ce {ar|مَا} est une négation (« ne… pas ») : ce n'est pas le {ar|مَا} de « qu'est-ce que ? »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.grammar-5#8",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|مَا عِنْدِي سَيَّارَةٌ}, le mot {ar|مَا} veut dire « qu'est-ce que ? »." },
+      "answer": false,
+      "explain": "Ici, {ar|مَا} est une négation : « je n'ai pas de voiture »."
+    },
+    {
+      "id": "medine-t1.l10.grammar-5#9",
+      "type": "order",
+      "fr": "Est-ce que tu as une voiture ? (à un homme)",
+      "answers": [["أَعِنْدَكَ", "سَيَّارَةٌ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l10.grammar-5#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَلَكَ أَخٌ؟",
+      "answers": ["نَعَمْ. لِي أَخٌ وَاحِدٌ.", "لِي أَخٌ وَاحِدٌ.", "نَعَمْ. لِي أَخٌ."],
+      "fr": "Oui, j'ai un seul frère.",
+      "instruction": "Réponds : oui, j'ai un seul frère."
+    },
+    {
+      "id": "medine-t1.l10.grammar-5#11",
+      "type": "order",
+      "fr": "Je n'ai pas de voiture.",
+      "answers": [["مَا", "عِنْدِي", "سَيَّارَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l10.grammar-5#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je n'ai pas de stylo.",
+      "answers": ["مَا عِنْدِي قَلَمٌ.", "مَا لِي قَلَمٌ."]
+    }
+  ]
+}

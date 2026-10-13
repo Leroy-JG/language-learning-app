@@ -159,9 +159,19 @@ Supports utilisés pour le chapitre de révision 1 (`r01`) : trois PDF « Semain
 - seulement **aperçus** dans les dialogues, avec une astuce « Des petites formes à repérer » (rien n'est exigé en exercice ; l'adjectif épithète, lui, est enseigné au chapitre 9) : les suffixes `ـهُ ـهِ ـكَ ـي`, les formes `نَجَحْتَ`, `أَسْكُنُ`, `تَسْكُنُ`, `يَرْفَعُ`, `مَعَ`, `قَبْلَ`, `مَا` + passé (négation), le complément d'objet à la fatha (`عُنْوَانَ الدَّرْسِ`) ;
 - les pluriels : `أَسَابِيعُ أَمَاكِنُ عَنَاوِينُ صَنَابِيرُ أَصْدِقَاءُ`, `أَيَّامٌ دُرُوسٌ أَكْوَابٌ طُرُقٌ اِخْتِبَارَاتٌ صَلَوَاتٌ`, et ceux des adjectifs `كِبَارٌ صِغَارٌ حِزَانٌ فَرْحَى بِيضٌ`.
 
+**Leçon 10** (`l10`) : les pronoms (`الضَّمَائِرُ`) :
+- le pronom (`الضَّمِيرُ`) : un nom, toujours défini, à terminaison invariable ; pronoms isolés (`الْمُنْفَصِلُ`) et affixes (`الْمُتَّصِلُ`) ; les trois personnes (`الْمُتَكَلِّمُ`, `الْمُخَاطَبُ`, `الْغَائِبُ`) ;
+- les 12 pronoms isolés du nominatif (`أَنَا نَحْنُ أَنْتَ أَنْتِ أَنْتُمَا أَنْتُمْ أَنْتُنَّ هُوَ هِيَ هُمَا هُمْ هُنَّ`), le duel et les terminaisons `ـمَا` / `ـمْ` / `ـنَّ`, le pronom comme sujet de la phrase nominale ; les pronoms isolés de l'accusatif (`إِيَّاكَ`, `إِيَّاهُ`) seulement cités ;
+- les 12 pronoms affixes du génitif (`ـِي ـنَا ـكَ ـكِ ـكُمَا ـكُمْ ـكُنَّ ـهُ ـهَا ـهُمَا ـهُمْ ـهُنَّ`) : collés à un nom (plus de tanwin ni d'article, `ة` → `ت`, le pronom suit le possesseur) ou à une préposition (`مِنْ فِي لِ عَلَى إِلَى مَعَ عِنْدَ` : `لِ` → `لَ`, `يَّ`, `مِنِّي`, `ى` → `ي`, `ـهِ` après une kasra ou un `ي`) ;
+- `أَبٌ` et `أَخٌ` devant un pronom affixe (`أَبُوكَ` / `أَبِي` / `كِتَابُ أَبِيهِ`) ;
+- « avoir » : `لِي أَخٌ`, `عِنْدِي كِتَابٌ`, la question avec `أَ`, la négation `مَا عِنْدِي…` ;
+- vocabulaire : `أَخٌ زَوْجٌ طِفْلٌ زَمِيلٌ فَتًى وَاحِدٌ مَعَ` ; `الْكُوَيْتُ الْعِرَاقُ الْأُرْدِيَّةُ الْيَابَانِيَّةُ` ; les phrases `مَا اسْمُكَ؟ اِسْمِي مُحَمَّدٌ. مَا لُغَتُكَ؟` ;
+- pluriels : `زُمَلَاءُ أَزْوَاجٌ أَطْفَالٌ فِتْيَةٌ إِخْوَةٌ` et ceux des termes de grammaire (`الْمُتَكَلِّمُونَ`, `الضَّمَائِرُ`…) ;
+- seulement **aperçus** (astuce « Des petites formes à repérer », rien n'est exigé en exercice) : la particule `بِ` (`بِالْجَامِعَةِ`), `الَّذِي`, les formes `ذَهَبْتُ` / `أَذَهَبْتَ`.
+
 **Pas encore enseigné** (ne pas l'exiger dans un exercice) :
 - les démonstratifs pluriels ;
-- les autres pronoms (seuls هُوَ هِيَ أَنَا أَنْتَ sont vus) et les suffixes (صَدِيقِي, قَمِيصُكَ) ;
+- les pronoms affixes du nominatif et de l'accusatif (ils s'attachent aux verbes) et les pronoms isolés de l'accusatif (`إِيَّاكَ`) ;
 - les cas du nom et leurs fonctions : le sujet, le prédicat, le sujet du verbe, l'adverbe, le second terme d'annexion et le nom après une préposition sont vus (leçon 8) ; pas le complément d'objet : le نَصْب n'est montré qu'avec les adverbes et après قَرَأْتُ (et, sans exercice, dans les dialogues de la révision 1) ;
 - l'interpellation d'un nom annexé (يَا عَبْدَ اللَّهِ) ou avec أَيُّهَا ;
 - l'annexion « d'apparence » (الضَّارِبُ الرَّجُلِ) ;

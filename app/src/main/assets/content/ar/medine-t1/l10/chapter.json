@@ -1,0 +1,20 @@
+{
+  "id": "medine-t1.l10",
+  "number": 10,
+  "title": { "ar": "الدَّرْسُ الْعَاشِرُ", "fr": "Les pronoms" },
+  "description": "Découvrir les pronoms isolés ({ar|أَنَا}, {ar|هُوَ}…) et les pronoms affixes (mon livre, son livre), les employer après une préposition ({ar|لَهُ}, {ar|مَعِي}), et dire « j'ai » en arabe avec {ar|لِي} et {ar|عِنْدِي}.",
+  "source": "Tome de Médine 1, leçon 10",
+  "sections": [
+    { "title": "Les pronoms isolés", "activities": ["grammar-1", "vocab-1", "vocab-2", "practice-1"] },
+    {
+      "title": "Mon, ton, son : les pronoms affixes",
+      "activities": ["grammar-2", "vocab-3", "grammar-3", "practice-2", "practice-3"]
+    },
+    { "title": "Avec une préposition", "activities": ["grammar-4", "vocab-4"] },
+    { "title": "Pays et langues", "activities": ["vocab-5"] },
+    { "title": "Avoir en arabe", "activities": ["grammar-5", "practice-5"] },
+    { "title": "Dialogues", "activities": ["dialogue-1", "dialogue-2", "dialogue-3"] },
+    { "title": "Les pluriels", "activities": ["plurals-1"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

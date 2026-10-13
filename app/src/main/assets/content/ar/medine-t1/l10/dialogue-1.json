@@ -1,0 +1,133 @@
+{
+  "id": "medine-t1.l10.dialogue-1",
+  "type": "dialogue",
+  "title": "Qui es-tu ? Qui est-ce ?",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l10.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Qui es-tu ?",
+      "intro": "Ḥāmid rencontre Muḥammad, un nouvel étudiant.",
+      "speakers": { "A": { "name": "Ḥāmid", "voice": "m1" }, "B": { "name": "Muḥammad", "voice": "m2" } },
+      "lines": [
+        { "speaker": "A", "ar": "مَنْ أَنْتَ؟", "fr": "Qui es-tu ?" },
+        { "speaker": "B", "ar": "أَنَا طَالِبٌ بِالْجَامِعَةِ.", "fr": "Je suis étudiant à l'université." },
+        { "speaker": "A", "ar": "أَأَنْتَ طَالِبٌ جَدِيدٌ؟", "fr": "Es-tu un nouvel étudiant ?" },
+        { "speaker": "B", "ar": "نَعَمْ. أَنَا طَالِبٌ جَدِيدٌ.", "fr": "Oui. Je suis un nouvel étudiant." },
+        { "speaker": "A", "ar": "مِنْ أَيْنَ أَنْتَ؟", "fr": "D'où viens-tu ?" },
+        { "speaker": "B", "ar": "أَنَا مِنَ الْهِنْدِ.", "fr": "Je viens d'Inde." },
+        { "speaker": "A", "ar": "مَا اسْمُكَ؟", "fr": "Quel est ton nom ?" },
+        { "speaker": "B", "ar": "اِسْمِي مُحَمَّدٌ.", "fr": "Mon nom est Muḥammad." }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.dialogue-1#2",
+      "type": "dialogue",
+      "title": "Ton camarade",
+      "intro": "Ḥāmid remarque le jeune homme qui est avec Muḥammad.",
+      "speakers": { "A": { "name": "Ḥāmid", "voice": "m1" }, "B": { "name": "Muḥammad", "voice": "m2" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "وَمَنْ هٰذَا الْفَتَى الَّذِي مَعَكَ؟",
+          "fr": "Et qui est ce jeune homme qui est avec toi ?"
+        },
+        { "speaker": "B", "ar": "هُوَ زَمِيلِي.", "fr": "C'est mon camarade." },
+        { "speaker": "A", "ar": "أَهُوَ أَيْضًا مِنَ الْهِنْدِ؟", "fr": "Est-il aussi d'Inde ?" },
+        { "speaker": "B", "ar": "لَا. هُوَ مِنَ الْيَابَانِ.", "fr": "Non. Il est du Japon." },
+        { "speaker": "A", "ar": "مَا اسْمُهُ؟", "fr": "Quel est son nom ?" },
+        { "speaker": "B", "ar": "اِسْمُهُ حَمْزَةُ.", "fr": "Son nom est Ḥamza." }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.dialogue-1#3",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans ces dialogues, quelques formes n'ont pas encore été étudiées. Tu peux déjà les comprendre :"
+        },
+        {
+          "type": "table",
+          "header": ["Dans le dialogue", "Sens"],
+          "rows": [
+            [
+              "{ar|بِالْجَامِعَةِ}",
+              "à l'université : la particule {ar|بِ} (ici « à, dans ») se colle au mot qui suit"
+            ],
+            ["{ar|الَّذِي}", "qui, que : ce mot relie « ce jeune homme » à « qui est avec toi »"]
+          ]
+        },
+        { "type": "note", "text": "Tu n'as pas à les apprendre maintenant : tu les étudieras plus tard." }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Qui est Muḥammad ?" },
+      "choices": [ { "fr": "Un nouvel étudiant" }, { "fr": "Un enseignant" }, { "fr": "Un directeur" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l10.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l10.dialogue-1#5",
+      "type": "question",
+      "prompt": { "fr": "D'où vient Muḥammad ?" },
+      "choices": [ { "fr": "D'Inde" }, { "fr": "Du Japon" }, { "fr": "De France" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l10.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l10.dialogue-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Ḥamza vient aussi d'Inde." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l10.dialogue-1#2" },
+      "explain": "Ḥamza vient du Japon : {ar|هُوَ مِنَ الْيَابَانِ}."
+    },
+    {
+      "id": "medine-t1.l10.dialogue-1#7",
+      "type": "question",
+      "prompt": { "fr": "Qui est Ḥamza ?" },
+      "choices": [ { "fr": "Le camarade de Muḥammad" }, { "fr": "Le frère de Muḥammad" }, { "fr": "Le père de Muḥammad" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l10.dialogue-1#2" }
+    },
+    {
+      "id": "medine-t1.l10.dialogue-1#8",
+      "type": "fill_gap",
+      "sentence": "هُوَ {0}.",
+      "fr": "C'est mon camarade.",
+      "gaps": [ { "answers": ["زَمِيلِي"] } ],
+      "options": ["زَمِيلِي", "زَمِيلُكَ", "زَمِيلُهُ"],
+      "context": { "dialogue": "medine-t1.l10.dialogue-1#2" },
+      "explain": "C'est Muḥammad qui parle : « mon camarade » se dit {ar|زَمِيلِي}."
+    },
+    {
+      "id": "medine-t1.l10.dialogue-1#9",
+      "type": "order",
+      "fr": "Quel est son nom ?",
+      "answers": [["مَا", "اسْمُهُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l10.dialogue-1#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا اسْمُهُ؟",
+      "answers": ["اِسْمُهُ حَمْزَةُ."],
+      "fr": "Son nom est Ḥamza.",
+      "instruction": "Réponds : son nom est Ḥamza.",
+      "context": { "dialogue": "medine-t1.l10.dialogue-1#2" }
+    },
+    {
+      "id": "medine-t1.l10.dialogue-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je viens d'Inde.",
+      "answers": ["أَنَا مِنَ الْهِنْدِ."]
+    }
+  ]
+}

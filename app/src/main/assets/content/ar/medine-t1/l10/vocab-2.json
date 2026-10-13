@@ -1,0 +1,124 @@
+{
+  "id": "medine-t1.l10.vocab-2",
+  "type": "vocabulary",
+  "title": "Lui, elle, eux",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t1.l10.vocab-2#1", "type": "present", "item": "w:huma" },
+    { "id": "medine-t1.l10.vocab-2#2", "type": "present", "item": "w:hum" },
+    { "id": "medine-t1.l10.vocab-2#3", "type": "present", "item": "w:hunna" },
+    {
+      "id": "medine-t1.l10.vocab-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hunna",
+      "distractors": ["w:hum", "w:huma"]
+    },
+    {
+      "id": "medine-t1.l10.vocab-2#5",
+      "type": "tip",
+      "title": "Lui, elle, eux, elles",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Tu parles de…", "Pronom"],
+          "rows": [
+            ["un homme (ou une chose masculine)", "{ar|هُوَ}"],
+            ["une femme (ou une chose féminine)", "{ar|هِيَ}"],
+            ["deux personnes", "{ar|هُمَا}"],
+            ["plusieurs hommes (ou un groupe mixte)", "{ar|هُمْ}"],
+            ["plusieurs femmes", "{ar|هُنَّ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "{ar|هُمْ} sert pour un groupe d'hommes, et aussi pour un groupe mixte : dès qu'il y a au moins un homme, on emploie le masculin (comme pour {ar|أَنْتُمْ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.vocab-2#6",
+      "type": "tip",
+      "title": "Tous les pronoms isolés",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Personne", "Pronom", "Sens"],
+          "rows": [
+            ["1re", "{ar|أَنَا}", "je"],
+            ["1re", "{ar|نَحْنُ}", "nous"],
+            ["2e", "{ar|أَنْتَ}", "tu (à un homme)"],
+            ["2e", "{ar|أَنْتِ}", "tu (à une femme)"],
+            ["2e", "{ar|أَنْتُمَا}", "vous deux"],
+            ["2e", "{ar|أَنْتُمْ}", "vous (hommes, ou groupe mixte)"],
+            ["2e", "{ar|أَنْتُنَّ}", "vous (femmes)"],
+            ["3e", "{ar|هُوَ}", "il"],
+            ["3e", "{ar|هِيَ}", "elle"],
+            ["3e", "{ar|هُمَا}", "eux deux, elles deux"],
+            ["3e", "{ar|هُمْ}", "ils"],
+            ["3e", "{ar|هُنَّ}", "elles"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Ce sont les pronoms isolés du nominatif ({ar|الرَّفْعُ}) : ils servent de sujet. Il existe aussi des pronoms isolés qui servent de complément d'objet, comme {ar|إِيَّاكَ} et {ar|إِيَّاهُ} : tu les verras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.vocab-2#7",
+      "type": "sort",
+      "categories": [ { "fr": "1re personne" }, { "fr": "2e personne" }, { "fr": "3e personne" } ],
+      "cards": [
+        { "item": "w:nahnu", "category": 0 },
+        { "item": "w:ana", "category": 0 },
+        { "item": "w:antunna", "category": 1 },
+        { "item": "w:antuma", "category": 1 },
+        { "item": "w:hum", "category": 2 },
+        { "item": "w:hunna", "category": 2 },
+        { "item": "w:huma", "category": 2 }
+      ],
+      "instruction": "À quelle personne appartient chaque pronom ?",
+      "explain": "Les pronoms de la famille de {ar|أَنْتَ} (tu) s'adressent à quelqu'un : 2e personne. Ceux de la famille de {ar|هُوَ} (il) parlent de quelqu'un : 3e personne."
+    },
+    {
+      "id": "medine-t1.l10.vocab-2#8",
+      "type": "spot",
+      "instruction": "Touche le pronom.",
+      "words": ["هُمْ", "فِي", "الْفَصْلِ."],
+      "answers": [0],
+      "fr": "Ils sont en classe."
+    },
+    {
+      "id": "medine-t1.l10.vocab-2#9",
+      "type": "fill_gap",
+      "sentence": "{0} فِي الْمَطْبَخِ.",
+      "fr": "Elles (plusieurs femmes) sont dans la cuisine.",
+      "gaps": [ { "answers": ["هُنَّ"] } ],
+      "options": ["هُنَّ", "هُمْ", "هُمَا"],
+      "explain": "« Elles », plusieurs femmes : {ar|هُنَّ}."
+    },
+    {
+      "id": "medine-t1.l10.vocab-2#10",
+      "type": "true_false",
+      "statement": { "fr": "{ar|هُمَا} s'emploie pour trois personnes." },
+      "answer": false,
+      "explain": "{ar|هُمَا} est le duel : il s'emploie pour deux personnes. À partir de trois, on dit {ar|هُمْ} (hommes) ou {ar|هُنَّ} (femmes)."
+    },
+    {
+      "id": "medine-t1.l10.vocab-2#11",
+      "type": "order",
+      "fr": "Elles (plusieurs femmes) sont à l'école.",
+      "answers": [["هُنَّ", "فِي", "الْمَدْرَسَةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l10.vocab-2#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ils sont en classe.",
+      "answers": ["هُمْ فِي الْفَصْلِ."]
+    }
+  ]
+}

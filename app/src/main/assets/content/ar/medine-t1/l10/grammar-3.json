@@ -1,0 +1,109 @@
+{
+  "id": "medine-t1.l10.grammar-3",
+  "type": "grammar",
+  "title": "Père et frère : deux noms à part",
+  "icon": "boy",
+  "screens": [
+    {
+      "id": "medine-t1.l10.grammar-3#1",
+      "type": "tip",
+      "title": "Père et frère changent devant un pronom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Deux noms de la famille changent un peu quand un pronom se colle à eux : {ar|أَبٌ} (père) et {ar|أَخٌ} (frère). Quand le nom est le sujet, un {ar|و} apparaît."
+        },
+        {
+          "type": "table",
+          "header": ["Pronom affixe", "Père", "Frère"],
+          "rows": [
+            ["{ar|◌ِي} (mon)", "{ar|أَبِي}", "{ar|أَخِي}"],
+            ["{ar|كَ} (ton, à un homme)", "{ar|أَبُوكَ}", "{ar|أَخُوكَ}"],
+            ["{ar|كِ} (ton, à une femme)", "{ar|أَبُوكِ}", "{ar|أَخُوكِ}"],
+            ["{ar|هُ} (son, à lui)", "{ar|أَبُوهُ}", "{ar|أَخُوهُ}"],
+            ["{ar|هَا} (son, à elle)", "{ar|أَبُوهَا}", "{ar|أَخُوهَا}"],
+            ["{ar|نَا} (notre)", "{ar|أَبُونَا}", "{ar|أَخُونَا}"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand le nom est le second terme d'une annexion ou qu'il suit une préposition (génitif), le {ar|و} devient un {ar|ي} :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَبُوهُ", "fr": "son père (sujet)" },
+              "to": { "ar": "كِتَابُ أَبِيهِ", "fr": "le livre de son père" }
+            },
+            {
+              "from": { "ar": "أَخُوكَ", "fr": "ton frère (sujet)" },
+              "to": { "ar": "كِتَابُ أَخِيكَ", "fr": "le livre de ton frère" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Tous les noms de la famille ne font pas ainsi : {ar|أُمُّهُ}, {ar|أُخْتُهُ}, {ar|عَمُّهُ} et {ar|اِبْنُهُ} se forment comme {ar|كِتَابُهُ}. Quelques autres noms se comportent comme {ar|أَبٌ} et {ar|أَخٌ} : tu les verras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.grammar-3#2",
+      "type": "fill_gap",
+      "sentence": "مُحَمَّدٌ طَالِبٌ. {0} طَبِيبٌ.",
+      "fr": "Muḥammad est étudiant. Son père est médecin.",
+      "gaps": [ { "answers": ["أَبُوهُ"] } ],
+      "options": ["أَبُوهُ", "أَبِيهِ", "أَبُوهَا"],
+      "explain": "Muḥammad est un homme : {ar|هُ}. Le nom est le sujet : il prend le {ar|و}, {ar|أَبُوهُ}."
+    },
+    {
+      "id": "medine-t1.l10.grammar-3#3",
+      "type": "order",
+      "fr": "Où est ton père, Muḥammad ?",
+      "answers": [["أَيْنَ", "أَبُوكَ", "يَا", "مُحَمَّدُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l10.grammar-3#4",
+      "type": "true_false",
+      "statement": {
+        "fr": "Pour dire « ta mère » (à un homme), on dit {ar|أُمُّكَ} : le nom {ar|أُمٌّ} ne prend pas de {ar|و}."
+      },
+      "answer": true,
+      "explain": "Seuls {ar|أَبٌ} et {ar|أَخٌ} (et quelques autres noms) s'allongent ainsi."
+    },
+    {
+      "id": "medine-t1.l10.grammar-3#5",
+      "type": "fill_gap",
+      "sentence": "هٰذَا كِتَابُ {0}.",
+      "fr": "C'est le livre de son frère (à lui).",
+      "gaps": [ { "answers": ["أَخِيهِ"] } ],
+      "options": ["أَخِيهِ", "أَخُوهُ", "أَخِيهَا"],
+      "explain": "Après {ar|كِتَابُ}, le nom est le second terme d'une annexion (génitif) : le {ar|و} devient {ar|ي}, {ar|أَخِيهِ}. Le frère d'un homme : {ar|هِ}."
+    },
+    {
+      "id": "medine-t1.l10.grammar-3#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mon père est médecin.",
+      "answers": ["أَبِي طَبِيبٌ."]
+    },
+    {
+      "id": "medine-t1.l10.grammar-3#7",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « ton frère » (à un homme) dans « Ton frère est étudiant » ?" },
+      "choices": [ { "ar": "أَخُوكَ" }, { "ar": "أَخِيكَ" }, { "ar": "أَخِي" } ],
+      "answer": 0,
+      "explain": "{ar|أَخُوكَ} est le sujet de la phrase : il prend le {ar|و}. {ar|أَخِيكَ} se dit après une préposition ou dans une annexion, et {ar|أَخِي} veut dire « mon frère »."
+    },
+    {
+      "id": "medine-t1.l10.grammar-3#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Son frère (à elle) est ingénieur.",
+      "answers": ["أَخُوهَا مُهَنْدِسٌ."]
+    }
+  ]
+}
