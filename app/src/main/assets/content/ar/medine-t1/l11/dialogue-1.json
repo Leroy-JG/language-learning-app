@@ -1,0 +1,142 @@
+{
+  "id": "medine-t1.l11.dialogue-1",
+  "type": "dialogue",
+  "title": "Ma maison et ma chambre",
+  "icon": "house",
+  "screens": [
+    {
+      "id": "medine-t1.l11.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Ma maison",
+      "intro": "Un étudiant présente sa maison et sa chambre (texte du livre).",
+      "speakers": { "N": { "name": "Récit", "voice": "f1" } },
+      "lines": [
+        {
+          "speaker": "N",
+          "ar": "هٰذَا بَيْتِي. بَيْتِي أَمَامَ الْمَسْجِدِ. بَيْتِي جَمِيلٌ. فِيهِ حَدِيقَةٌ صَغِيرَةٌ.",
+          "fr": "Voici ma maison. Ma maison est devant la mosquée. Ma maison est belle. Il y a dedans un petit jardin."
+        },
+        {
+          "speaker": "N",
+          "ar": "هٰذِهِ غُرْفَتِي. فِيهَا نَافِذَةٌ كَبِيرَةٌ وَمِرْوَحَةٌ جَمِيلَةٌ.",
+          "fr": "Voici ma chambre. Il y a dedans une grande fenêtre et un joli ventilateur."
+        },
+        {
+          "speaker": "N",
+          "ar": "هٰذَا سَرِيرِي وَهٰذَا كُرْسِيِّي وَهٰذَا مَكْتَبِي.",
+          "fr": "Voici mon lit, voici ma chaise et voici mon bureau."
+        },
+        {
+          "speaker": "N",
+          "ar": "سَاعَتِي وَقَلَمِي وَكِتَابِي عَلَى الْمَكْتَبِ. وَحَقِيبَتِي تَحْتَ الْمَكْتَبِ.",
+          "fr": "Ma montre, mon stylo et mon livre sont sur le bureau. Et mon sac est sous le bureau."
+        },
+        { "speaker": "N", "ar": "نَافِذَةُ غُرْفَتِي مَفْتُوحَةٌ.", "fr": "La fenêtre de ma chambre est ouverte." }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.dialogue-1#2",
+      "type": "tip",
+      "title": "Un nom en {ar|يّ} suivi de {ar|◌ِي}",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens"],
+          "rows": [
+            [
+              "{ar|كُرْسِيِّي}",
+              "ma chaise : {ar|كُرْسِيٌّ} se termine par un {ar|ي} à shadda ; on ajoute le {ar|ي} de « mon », et le {ar|ي} à shadda prend la kasra"
+            ],
+            [
+              "{ar|سَاعَتِي وَقَلَمِي وَكِتَابِي}",
+              "ma montre, mon stylo et mon livre : trois sujets réunis par {ar|وَ}"
+            ],
+            ["{ar|حَقِيبَتِي}", "mon sac : le {ar|ة} de {ar|حَقِيبَةٌ} devient {ar|ت}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans tout ce texte, la kasra devant {ar|◌ِي} ne dit rien du cas : {ar|بَيْتِي} est sujet (nominatif) dans {ar|بَيْتِي جَمِيلٌ}, et {ar|حَقِيبَتِي} aussi dans {ar|حَقِيبَتِي تَحْتَ الْمَكْتَبِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Où est la maison ?" },
+      "choices": [ { "fr": "Devant la mosquée" }, { "fr": "Derrière la mosquée" }, { "fr": "Dans la mosquée" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l11.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l11.dialogue-1#4",
+      "type": "true_false",
+      "statement": { "fr": "Il y a un grand jardin dans la maison." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l11.dialogue-1#1" },
+      "explain": "Le jardin est petit : {ar|فِيهِ حَدِيقَةٌ صَغِيرَةٌ}."
+    },
+    {
+      "id": "medine-t1.l11.dialogue-1#5",
+      "type": "question",
+      "prompt": { "fr": "Qu'y a-t-il dans la chambre ?" },
+      "choices": [
+        { "fr": "Une grande fenêtre et un joli ventilateur" },
+        { "fr": "Un petit jardin" },
+        { "fr": "Une cuisine" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l11.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l11.dialogue-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Le sac est sur le bureau." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l11.dialogue-1#1" },
+      "explain": "Le sac est sous le bureau : {ar|وَحَقِيبَتِي تَحْتَ الْمَكْتَبِ}."
+    },
+    {
+      "id": "medine-t1.l11.dialogue-1#7",
+      "type": "spot",
+      "instruction": "Touche les mots qui portent {ar|◌ِي} (mon, ma).",
+      "words": ["سَاعَتِي", "وَقَلَمِي", "وَكِتَابِي", "عَلَى", "الْمَكْتَبِ."],
+      "answers": [0, 1, 2],
+      "fr": "Ma montre, mon stylo et mon livre sont sur le bureau."
+    },
+    {
+      "id": "medine-t1.l11.dialogue-1#8",
+      "type": "fill_gap",
+      "sentence": "نَافِذَةُ غُرْفَتِي {0}.",
+      "fr": "La fenêtre de ma chambre est ouverte.",
+      "gaps": [ { "answers": ["مَفْتُوحَةٌ"] } ],
+      "options": ["مَفْتُوحَةٌ", "مَفْتُوحٌ"],
+      "explain": "{ar|نَافِذَةٌ} est féminin : l'adjectif prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l11.dialogue-1#9",
+      "type": "order",
+      "fr": "Mon sac est sous le bureau.",
+      "answers": [["حَقِيبَتِي", "تَحْتَ", "الْمَكْتَبِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l11.dialogue-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ma maison est belle.",
+      "answers": ["بَيْتِي جَمِيلٌ."]
+    },
+    {
+      "id": "medine-t1.l11.dialogue-1#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ بَيْتُكَ؟",
+      "answers": ["بَيْتِي أَمَامَ الْمَسْجِدِ."],
+      "fr": "Ma maison est devant la mosquée.",
+      "instruction": "Réponds : ma maison est devant la mosquée.",
+      "context": { "dialogue": "medine-t1.l11.dialogue-1#1" }
+    }
+  ]
+}

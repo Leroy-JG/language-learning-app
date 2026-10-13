@@ -1,0 +1,143 @@
+{
+  "id": "medine-t1.l11.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 11",
+  "screens": [
+    {
+      "id": "medine-t1.l11.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mabni",
+      "distractors": ["w:muarab", "w:irab"]
+    },
+    {
+      "id": "medine-t1.l11.quiz#2",
+      "type": "sort",
+      "categories": [ { "fr": "nom variable ({ar|مُعْرَبٌ})" }, { "fr": "nom invariable ({ar|مَبْنِيٌّ})" } ],
+      "cards": [
+        { "ar": "مُدَرِّسٌ", "category": 0 },
+        { "ar": "هِيَ", "category": 1 },
+        { "ar": "غُرْفَةٌ", "category": 0 },
+        { "ar": "كَيْفَ", "category": 1 },
+        { "ar": "تِلْكَ", "category": 1 },
+        { "ar": "طَاوِلَةٌ", "category": 0 }
+      ],
+      "instruction": "Variable ou invariable ?",
+      "explain": "Les pronoms ({ar|هِيَ}), les démonstratifs ({ar|تِلْكَ}) et les interrogatifs ({ar|كَيْفَ}) sont invariables. {ar|مُدَرِّسٌ}, {ar|غُرْفَةٌ} et {ar|طَاوِلَةٌ} sont des noms variables."
+    },
+    {
+      "id": "medine-t1.l11.quiz#3",
+      "type": "question",
+      "prompt": { "fr": "Quel est le point commun des pronoms, des démonstratifs et des interrogatifs ?" },
+      "choices": [
+        { "fr": "Ce sont des noms invariables" },
+        { "fr": "Ce sont des noms variables" },
+        { "fr": "Ce sont des verbes" }
+      ],
+      "answer": 0,
+      "explain": "Leur terminaison ne change jamais : ce sont des noms invariables ({ar|مَبْنِيٌّ})."
+    },
+    {
+      "id": "medine-t1.l11.quiz#4",
+      "type": "true_false",
+      "statement": { "fr": "La particule {ar|مِنْ} est variable." },
+      "answer": false,
+      "explain": "Toutes les particules sont invariables."
+    },
+    {
+      "id": "medine-t1.l11.quiz#5",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|مَعَ أَخِي}, quel est le cas de {ar|أَخِي} ?" },
+      "choices": [ { "fr": "le génitif, sous-entendu" }, { "fr": "le nominatif" }, { "fr": "l'accusatif" } ],
+      "answer": 0,
+      "explain": "{ar|أَخِي} suit {ar|مَعَ} : il est au génitif. La kasra qu'on voit est celle du {ar|ي}, pas un signe du cas."
+    },
+    {
+      "id": "medine-t1.l11.quiz#6",
+      "type": "spot",
+      "instruction": "Touche le sujet du verbe.",
+      "words": ["خَرَجَ", "أَخِي", "مِنَ", "الْمَدْرَسَةِ."],
+      "answers": [1],
+      "fr": "Mon frère est sorti de l'école.",
+      "explain": "{ar|أَخِي} est celui qui sort : le sujet du verbe, au nominatif (sous-entendu)."
+    },
+    {
+      "id": "medine-t1.l11.quiz#7",
+      "type": "fill_gap",
+      "sentence": "{0} فِي الْمَسْجِدِ.",
+      "fr": "Mon père est à la mosquée.",
+      "gaps": [ { "answers": ["أَبِي"] } ],
+      "options": ["أَبِي", "أَبُوكَ", "أَبُوهُ"],
+      "explain": "« Mon père » : {ar|أَبِي}."
+    },
+    {
+      "id": "medine-t1.l11.quiz#8",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ غُرْفَةُ زَيْدٍ. فِي {0} نَافِذَةٌ كَبِيرَةٌ.",
+      "fr": "Voici la chambre de Zayd. Dans sa chambre, il y a une grande fenêtre.",
+      "gaps": [ { "answers": ["غُرْفَتِهِ"] } ],
+      "options": ["غُرْفَتِهِ", "غُرْفَتِهَا", "غُرْفَتِي"],
+      "explain": "Zayd est un homme : {ar|هِ}. Après {ar|فِي}, le {ar|هُ} devient {ar|هِ}."
+    },
+    {
+      "id": "medine-t1.l11.quiz#9",
+      "type": "question",
+      "prompt": { "fr": "Quel pronom ne change pas de voyelle après une kasra ?" },
+      "choices": [ { "ar": "هُ" }, { "ar": "هَا" }, { "ar": "هُمْ" } ],
+      "answer": 1,
+      "explain": "{ar|هَا} ne change jamais : {ar|فِيهَا}. {ar|هُ} et {ar|هُمْ} deviennent {ar|هِ} et {ar|هِمْ} après une kasra."
+    },
+    {
+      "id": "medine-t1.l11.quiz#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:yuhibbu", "w:uhibbu", "w:ahad-2", "w:nabi"]
+    },
+    {
+      "id": "medine-t1.l11.quiz#11",
+      "type": "order",
+      "fr": "J'aime mon frère et ma sœur.",
+      "answers": [["أُحِبُّ", "أَخِي", "وَأُخْتِي"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l11.quiz#12",
+      "type": "true_false",
+      "statement": { "fr": "{ar|أُحِبُّ} veut dire « il aime »." },
+      "answer": false,
+      "explain": "{ar|أُحِبُّ} veut dire « j'aime ». « Il aime » se dit {ar|يُحِبُّ}."
+    },
+    {
+      "id": "medine-t1.l11.quiz#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ma sœur est dans ma chambre.",
+      "answers": ["أُخْتِي فِي غُرْفَتِي."]
+    },
+    {
+      "id": "medine-t1.l11.quiz#14",
+      "type": "fill_gap",
+      "sentence": "مَا فِي الْغُرْفَةِ {0}.",
+      "fr": "Il n'y a personne dans la chambre.",
+      "gaps": [ { "answers": ["أَحَدٌ"] } ],
+      "options": ["أَحَدٌ", "كِتَابٌ", "قَلَمٌ"],
+      "explain": "Après la négation {ar|مَا}, {ar|أَحَدٌ} veut dire « personne »."
+    },
+    {
+      "id": "medine-t1.l11.quiz#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ma chambre est devant la cuisine.",
+      "answers": ["غُرْفَتِي أَمَامَ الْمَطْبَخِ."]
+    },
+    {
+      "id": "medine-t1.l11.quiz#16",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ فِي هٰذِهِ الْغُرْفَةِ؟",
+      "answers": ["فِيهَا أَبِي وَأُمِّي.", "أَبِي وَأُمِّي فِيهَا."],
+      "fr": "Mon père et ma mère sont dedans.",
+      "instruction": "Réponds : mon père et ma mère sont dedans."
+    }
+  ]
+}

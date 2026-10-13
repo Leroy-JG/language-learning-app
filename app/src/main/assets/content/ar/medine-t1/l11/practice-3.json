@@ -1,0 +1,157 @@
+{
+  "id": "medine-t1.l11.practice-3",
+  "type": "vocabulary",
+  "title": "Exercices du livre : dedans et j'aime",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t1.l11.practice-3#1",
+      "type": "tip",
+      "title": "Qui est dedans ? (exercice du livre)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre pose des questions sur une maison, un sac, une voiture… et on répond avec {ar|فِيهِ} ou {ar|فِيهَا}."
+        },
+        {
+          "type": "example",
+          "ar": "مَنْ فِي هٰذَا الْبَيْتِ؟ فِيهِ حَامِدٌ.",
+          "fr": "Qui est dans cette maison ? Ḥāmid est dedans."
+        },
+        {
+          "type": "example",
+          "ar": "مَاذَا فِي الْحَقِيبَةِ؟ فِيهَا كِتَابِي وَقَلَمِي وَدَفْتَرِي.",
+          "fr": "Qu'y a-t-il dans le sac ? Il y a dedans mon livre, mon stylo et mon cahier."
+        },
+        {
+          "type": "example",
+          "ar": "مَنْ فِي مَسْجِدِ الْجَامِعَةِ الْآنَ؟ مَا فِيهِ أَحَدٌ.",
+          "fr": "Qui est dans la mosquée de l'université maintenant ? Il n'y a personne dedans."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "On reprend le nom avec un pronom qui s'accorde avec lui : {ar|فِيهِ} pour un nom masculin ({ar|بَيْتٌ}, {ar|مَسْجِدٌ}), {ar|فِيهَا} pour un nom féminin ({ar|حَقِيبَةٌ}, {ar|سَيَّارَةٌ}, {ar|غُرْفَةٌ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.practice-3#2",
+      "type": "fill_gap",
+      "sentence": "مَنْ فِي هٰذَا الْبَيْتِ؟ {0} حَامِدٌ.",
+      "fr": "Qui est dans cette maison ? Ḥāmid est dedans.",
+      "gaps": [ { "answers": ["فِيهِ"] } ],
+      "options": ["فِيهِ", "فِيهَا", "فِيهِمْ"],
+      "explain": "{ar|بَيْتٌ} est masculin : {ar|فِيهِ}."
+    },
+    {
+      "id": "medine-t1.l11.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "مَاذَا فِي الْحَقِيبَةِ؟ {0} كِتَابِي وَقَلَمِي وَدَفْتَرِي.",
+      "fr": "Qu'y a-t-il dans le sac ? Il y a dedans mon livre, mon stylo et mon cahier.",
+      "gaps": [ { "answers": ["فِيهَا"] } ],
+      "options": ["فِيهَا", "فِيهِ", "فِيهِمْ"],
+      "explain": "{ar|حَقِيبَةٌ} est féminin : {ar|فِيهَا}."
+    },
+    {
+      "id": "medine-t1.l11.practice-3#4",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi dit-on {ar|فِيهَا} pour la voiture ?" },
+      "choices": [
+        { "fr": "Parce que {ar|سَيَّارَةٌ} est un nom féminin" },
+        { "fr": "Parce qu'il y a plusieurs personnes dedans" },
+        { "fr": "Parce que la voiture est grande" }
+      ],
+      "answer": 0,
+      "explain": "Le pronom s'accorde avec le nom qu'il remplace : {ar|سَيَّارَةٌ} est féminin, donc {ar|هَا}."
+    },
+    {
+      "id": "medine-t1.l11.practice-3#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ فِي السَّيَّارَةِ؟",
+      "answers": ["فِيهَا أَبِي وَأُمِّي وَأَخِي وَأُخْتِي."],
+      "fr": "Mon père, ma mère, mon frère et ma sœur sont dedans.",
+      "instruction": "Réponds : mon père, ma mère, mon frère et ma sœur sont dedans."
+    },
+    {
+      "id": "medine-t1.l11.practice-3#6",
+      "type": "spot",
+      "instruction": "Touche les mots qui portent {ar|◌ِي} (mon, ma).",
+      "words": ["فِيهَا", "كِتَابِي", "وَقَلَمِي", "وَدَفْتَرِي."],
+      "answers": [1, 2, 3],
+      "fr": "Il y a dedans mon livre, mon stylo et mon cahier.",
+      "explain": "{ar|كِتَابِي}, {ar|وَقَلَمِي} et {ar|وَدَفْتَرِي} portent {ar|◌ِي}. {ar|فِيهَا} porte {ar|هَا} (elle)."
+    },
+    {
+      "id": "medine-t1.l11.practice-3#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ فِي مَسْجِدِ الْجَامِعَةِ الْآنَ؟",
+      "answers": ["مَا فِيهِ أَحَدٌ."],
+      "fr": "Il n'y a personne dedans.",
+      "instruction": "Réponds : il n'y a personne dedans."
+    },
+    {
+      "id": "medine-t1.l11.practice-3#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ فِي هٰذِهِ الْغُرْفَةِ؟",
+      "answers": ["فِيهَا الْمُدِيرُ.", "الْمُدِيرُ فِيهَا."],
+      "fr": "Le directeur est dedans.",
+      "instruction": "Réponds : le directeur est dedans."
+    },
+    {
+      "id": "medine-t1.l11.practice-3#9",
+      "type": "tip",
+      "title": "J'aime… (exercice du livre)",
+      "blocks": [
+        { "type": "paragraph", "text": "Le livre te fait lire sept phrases avec {ar|أُحِبُّ} :" },
+        { "type": "example", "ar": "أُحِبُّ أَبِي وَأُمِّي.", "fr": "J'aime mon père et ma mère." },
+        { "type": "example", "ar": "أُحِبُّ أَخِي وَأُخْتِي.", "fr": "J'aime mon frère et ma sœur." },
+        { "type": "example", "ar": "أُحِبُّ زَمِيلِي.", "fr": "J'aime mon camarade." },
+        { "type": "example", "ar": "أُحِبُّ أُسْتَاذِي.", "fr": "J'aime mon professeur." },
+        { "type": "example", "ar": "أُحِبُّ اللَّهَ.", "fr": "J'aime Allah." },
+        { "type": "example", "ar": "أُحِبُّ النَّبِيَّ.", "fr": "J'aime le Prophète." },
+        { "type": "example", "ar": "أُحِبُّ اللُّغَةَ الْعَرَبِيَّةَ.", "fr": "J'aime la langue arabe." },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans les trois dernières phrases, ce qu'on aime porte la fatha ({ar|اللَّهَ}, {ar|النَّبِيَّ}, {ar|اللُّغَةَ الْعَرَبِيَّةَ}) : c'est l'accusatif. Dans les autres, le {ar|◌ِي} cache cette fatha. Tu étudieras l'accusatif plus tard : pour l'instant, lis seulement."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.practice-3#10",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans {ar|أُحِبُّ أَبِي}, ce qu'on aime ({ar|أَبِي}) est à l'accusatif, mais sa fatha est cachée par le {ar|◌ِي}."
+      },
+      "answer": true,
+      "explain": "Ce que le verbe touche est à l'accusatif. Avec {ar|◌ِي}, le cas ne se voit pas."
+    },
+    {
+      "id": "medine-t1.l11.practice-3#11",
+      "type": "order",
+      "fr": "J'aime mon professeur.",
+      "answers": [["أُحِبُّ", "أُسْتَاذِي"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l11.practice-3#12",
+      "type": "fill_gap",
+      "sentence": "{0} زَمِيلِي.",
+      "fr": "J'aime mon camarade.",
+      "gaps": [ { "answers": ["أُحِبُّ"] } ],
+      "options": ["أُحِبُّ", "يُحِبُّ"],
+      "explain": "« J'aime » : {ar|أُحِبُّ}. {ar|يُحِبُّ} veut dire « il aime »."
+    },
+    {
+      "id": "medine-t1.l11.practice-3#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'aime mon frère et ma sœur.",
+      "answers": ["أُحِبُّ أَخِي وَأُخْتِي.", "أَنَا أُحِبُّ أَخِي وَأُخْتِي."]
+    }
+  ]
+}

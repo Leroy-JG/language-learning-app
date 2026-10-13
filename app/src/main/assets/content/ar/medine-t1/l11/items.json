@@ -1,0 +1,67 @@
+[
+  {
+    "id": "w:muarab",
+    "kind": "word",
+    "ar": "الْمُعْرَبُ",
+    "fr": "le nom variable",
+    "translit": "al-muʿrabu",
+    "gender": "m",
+    "note": "Un nom dont la terminaison change selon son rôle dans la phrase : {ar|كِتَابٌ}, {ar|كِتَابًا}, {ar|كِتَابٍ}. C'est le cas de la plupart des noms. Le mot vient de {ar|الْإِعْرَابُ} (chapitre 4), qui veut dire « rendre clair » : la terminaison montre le rôle du nom.",
+    "example": { "ar": "كِتَابٌ اسْمٌ مُعْرَبٌ.", "fr": "« Livre » est un nom variable." }
+  },
+  {
+    "id": "w:mabni",
+    "kind": "word",
+    "ar": "الْمَبْنِيُّ",
+    "fr": "le nom invariable",
+    "translit": "al-mabniyyu",
+    "gender": "m",
+    "note": "Un nom dont la terminaison ne change jamais, quel que soit son rôle dans la phrase : {ar|أَنَا}, {ar|هٰذَا}, {ar|أَيْنَ}… Le mot vient du verbe {ar|بَنَى} (« bâtir ») : comme un mur bâti, il ne bouge pas.",
+    "example": { "ar": "أَنَا اسْمٌ مَبْنِيٌّ.", "fr": "« Je » est un nom invariable." }
+  },
+  {
+    "id": "w:ahabba",
+    "kind": "word",
+    "ar": "أَحَبَّ",
+    "fr": "il a aimé (aimer)",
+    "translit": "aḥabba",
+    "note": "Les deux dernières lettres sont identiques ({ar|ب} et {ar|ب}) : elles se réunissent en une seule, avec une shadda."
+  },
+  {
+    "id": "w:yuhibbu",
+    "kind": "word",
+    "ar": "يُحِبُّ",
+    "fr": "il aime",
+    "translit": "yuḥibbu",
+    "example": { "ar": "زَيْدٌ يُحِبُّ أَخِي.", "fr": "Zayd aime mon frère." }
+  },
+  {
+    "id": "w:uhibbu",
+    "kind": "word",
+    "ar": "أُحِبُّ",
+    "fr": "j'aime",
+    "translit": "uḥibbu",
+    "example": { "ar": "أُحِبُّ أَبِي وَأُمِّي.", "fr": "J'aime mon père et ma mère." }
+  },
+  {
+    "id": "w:ahad-2",
+    "kind": "word",
+    "ar": "أَحَدٌ",
+    "fr": "quelqu'un, personne (après une négation)",
+    "translit": "aḥadun",
+    "gender": "m",
+    "note": "Dans une phrase négative, {ar|مَا فِي الْمَسْجِدِ أَحَدٌ} veut dire « il n'y a personne dans la mosquée ». {ar|أَحَدٌ} est aussi le mot « un » : {ar|يَوْمُ الْأَحَدِ} (dimanche) est « le premier jour ».",
+    "example": { "ar": "مَا فِي الْمَسْجِدِ أَحَدٌ.", "fr": "Il n'y a personne dans la mosquée." }
+  },
+  {
+    "id": "w:nabi",
+    "kind": "word",
+    "ar": "النَّبِيُّ",
+    "fr": "le Prophète",
+    "translit": "an-nabiyyu",
+    "plural": "أَنْبِيَاءُ",
+    "gender": "m",
+    "note": "Sans l'article, {ar|نَبِيٌّ} veut dire « un prophète ». Pour le Prophète Muḥammad, on dit après son nom : {ar|صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ} (chapitre 5).",
+    "example": { "ar": "النَّبِيُّ رَسُولُ اللَّهِ.", "fr": "Le Prophète est le messager d'Allah." }
+  }
+]

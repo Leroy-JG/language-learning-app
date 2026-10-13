@@ -1,0 +1,109 @@
+{
+  "id": "medine-t1.l11.practice-2",
+  "type": "vocabulary",
+  "title": "Analyser la phrase",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l11.practice-2#1",
+      "type": "tip",
+      "title": "Analyser une phrase avec {ar|◌ِي}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici l'analyse de deux phrases du professeur. Le cas des noms en {ar|◌ِي} se déduit du rôle."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Mot", "Analyse"],
+          "rows": [
+            [
+              "{ar|كِتَابِي فِي الْفَصْلِ}",
+              "{ar|كِتَابِي}",
+              "sujet ({ar|مُبْتَدَأٌ}) au nominatif ({ar|مَرْفُوعٌ}), et premier terme de l'annexion ({ar|مُضَافٌ})"
+            ],
+            ["(même phrase)", "{ar|◌ِي}", "second terme de l'annexion ({ar|مُضَافٌ إِلَيْهِ})"],
+            [
+              "{ar|خَرَجَ صَدِيقِي}",
+              "{ar|صَدِيقِي}",
+              "sujet du verbe ({ar|فَاعِلٌ}) au nominatif ({ar|مَرْفُوعٌ}), et premier terme de l'annexion ({ar|مُضَافٌ})"
+            ],
+            ["(même phrase)", "{ar|◌ِي}", "second terme de l'annexion ({ar|مُضَافٌ إِلَيْهِ})"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.practice-2#2",
+      "type": "spot",
+      "instruction": "Touche le nom qui est le premier terme d'une annexion ({ar|مُضَافٌ}).",
+      "words": ["كِتَابِي", "فِي", "الْفَصْلِ."],
+      "answers": [0],
+      "fr": "Mon livre est dans la salle de classe.",
+      "explain": "{ar|كِتَابِي} = {ar|كِتَابُ} + {ar|◌ِي} : une annexion. {ar|الْفَصْلِ} suit une préposition, ce n'est pas un second terme d'annexion."
+    },
+    {
+      "id": "medine-t1.l11.practice-2#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|خَرَجَ صَدِيقِي}, quel est le rôle de {ar|صَدِيقِي} ?" },
+      "choices": [
+        { "fr": "le sujet du verbe" },
+        { "fr": "le sujet de la phrase nominale" },
+        { "fr": "le second terme d'une annexion" }
+      ],
+      "answer": 0,
+      "explain": "La phrase commence par un verbe : {ar|صَدِيقِي} est le sujet du verbe ({ar|الْفَاعِلُ}). Il est aussi le premier terme d'une annexion avec {ar|◌ِي}."
+    },
+    {
+      "id": "medine-t1.l11.practice-2#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|كِتَابِي}, quel est le rôle du pronom {ar|◌ِي} ?" },
+      "choices": [ { "fr": "le second terme de l'annexion" }, { "fr": "le sujet" }, { "fr": "une préposition" } ],
+      "answer": 0,
+      "explain": "Un pronom affixe est le second terme d'une annexion : {ar|كِتَابِي} se construit comme {ar|كِتَابُ زَيْدٍ}."
+    },
+    {
+      "id": "medine-t1.l11.practice-2#5",
+      "type": "sort",
+      "categories": [ { "fr": "sujet de la phrase nominale" }, { "fr": "sujet du verbe" }, { "fr": "après une préposition" } ],
+      "cards": [
+        { "ar": "أَخِي فِي الْفَصْلِ", "category": 0 },
+        { "ar": "ذَهَبَ زَمِيلِي", "category": 1 },
+        { "ar": "مَعَ صَدِيقِي", "category": 2 },
+        { "ar": "سَاعَتِي جَدِيدَةٌ", "category": 0 },
+        { "ar": "خَرَجَ أَبِي", "category": 1 },
+        { "ar": "فِي حَقِيبَتِي", "category": 2 }
+      ],
+      "instruction": "Quel est le rôle du nom qui porte {ar|◌ِي} ?",
+      "explain": "Un nom en {ar|◌ِي} s'analyse selon sa place : si la phrase commence par lui, c'est le sujet de la phrase nominale ; si un verbe vient avant lui, c'est le sujet du verbe ; après une préposition, il est au génitif."
+    },
+    {
+      "id": "medine-t1.l11.practice-2#6",
+      "type": "true_false",
+      "statement": { "fr": "On peut lire le cas d'un nom en {ar|◌ِي} sur sa terminaison." },
+      "answer": false,
+      "explain": "La terminaison est la même dans tous les cas : on déduit le cas du rôle du nom dans la phrase."
+    },
+    {
+      "id": "medine-t1.l11.practice-2#7",
+      "type": "order",
+      "fr": "Mon ami est sorti de l'école.",
+      "answers": [["خَرَجَ", "صَدِيقِي", "مِنَ", "الْمَدْرَسَةِ"], ["صَدِيقِي", "خَرَجَ", "مِنَ", "الْمَدْرَسَةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l11.practice-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mon père est sorti.",
+      "answers": ["خَرَجَ أَبِي.", "أَبِي خَرَجَ."]
+    },
+    {
+      "id": "medine-t1.l11.practice-2#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ma mère est dans la cuisine.",
+      "answers": ["أُمِّي فِي الْمَطْبَخِ."]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "medine-t1.l11.grammar-3",
+  "type": "grammar",
+  "title": "Mon : une kasra qui n'est pas un cas",
+  "icon": "boy",
+  "screens": [
+    {
+      "id": "medine-t1.l11.grammar-3#1",
+      "type": "tip",
+      "title": "Un nom suivi de {ar|◌ِي}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu sais depuis le chapitre 10 que le pronom {ar|◌ِي} (mon, ma, mes) se colle à la fin d'un nom, et que la dernière lettre du nom prend alors une kasra :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "كِتَابٌ", "fr": "un livre" }, "to": { "ar": "كِتَابِي", "fr": "mon livre" } },
+            { "from": { "ar": "صَدِيقٌ", "fr": "un ami" }, "to": { "ar": "صَدِيقِي", "fr": "mon ami" } },
+            { "from": { "ar": "أَخٌ", "fr": "un frère" }, "to": { "ar": "أَخِي", "fr": "mon frère" } },
+            {
+              "from": { "ar": "غُرْفَةٌ", "fr": "une chambre" },
+              "to": { "ar": "غُرْفَتِي", "fr": "ma chambre" },
+              "label": "{ar|ة} → {ar|ت}"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "La kasra est là pour faciliter la prononciation : le {ar|ي} long (« ī ») s'accorde avec la kasra, comme le {ar|و} long (« ū ») s'accorde avec la damma."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.grammar-3#2",
+      "type": "tip",
+      "title": "Cette kasra n'est pas un signe du cas",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Regarde ce même nom dans quatre phrases. La terminaison est toujours la même : une kasra devant le {ar|ي}."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Rôle du nom", "Cas du nom"],
+          "rows": [
+            ["{ar|كِتَابِي فِي الْفَصْلِ}", "le sujet de la phrase nominale", "nominatif"],
+            ["{ar|خَرَجَ صَدِيقِي}", "le sujet du verbe", "nominatif"],
+            ["{ar|هٰذَا كِتَابِي}", "le prédicat", "nominatif"],
+            ["{ar|فِي كِتَابِي}", "le nom après une préposition", "génitif"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La kasra ne change pas : elle ne dit donc **rien** du cas. On ne dit pas qu'un nom est {ar|مَجْرُورٌ} à cause de cette kasra. Son vrai cas se déduit de son **rôle** dans la phrase."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.grammar-3#3",
+      "type": "tip",
+      "title": "Le cas est « sous-entendu »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le cas est bien là, mais on ne le voit pas, comme pour le nom maqṣūr ({ar|مُسْتَشْفًى}, chapitre 8) : il est **sous-entendu**. On analyse donc le nom comme n'importe quel autre nom."
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Rôle", "Cas"],
+          "rows": [
+            [
+              "{ar|كِتَابِي} dans {ar|كِتَابِي فِي الْفَصْلِ}",
+              "le sujet ({ar|مُبْتَدَأٌ}) et le premier terme de l'annexion ({ar|مُضَافٌ})",
+              "nominatif ({ar|مَرْفُوعٌ}) : la damma est sous-entendue"
+            ],
+            ["{ar|◌ِي}", "le second terme de l'annexion ({ar|مُضَافٌ إِلَيْهِ})", "(le pronom ne change pas)"],
+            [
+              "{ar|صَدِيقِي} dans {ar|خَرَجَ صَدِيقِي}",
+              "le sujet du verbe ({ar|فَاعِلٌ}) et le premier terme de l'annexion",
+              "nominatif ({ar|مَرْفُوعٌ}) : la damma est sous-entendue"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Avec les autres pronoms affixes, la voyelle du cas se voit : {ar|كِتَابُهُ جَدِيدٌ} (sujet : damma) et {ar|فِي كِتَابِهِ} (après une préposition : kasra). C'est seulement avec {ar|◌ِي} que le cas disparaît."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l11.grammar-3#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|خَرَجَ صَدِيقِي}, quel est le cas de {ar|صَدِيقِي} ?" },
+      "choices": [
+        { "fr": "le nominatif, sous-entendu" },
+        { "fr": "le génitif, à cause de la kasra" },
+        { "fr": "l'accusatif" }
+      ],
+      "answer": 0,
+      "explain": "{ar|صَدِيقِي} est le sujet du verbe : il est au nominatif. La kasra est celle du {ar|ي}, pas celle du génitif."
+    },
+    {
+      "id": "medine-t1.l11.grammar-3#5",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|أَبِي فِي الْمَسْجِدِ}, le nom {ar|أَبِي} est au génitif à cause de sa kasra." },
+      "answer": false,
+      "explain": "{ar|أَبِي} est le sujet de la phrase nominale : il est au nominatif. Sa kasra est celle qui précède le {ar|ي}."
+    },
+    {
+      "id": "medine-t1.l11.grammar-3#6",
+      "type": "spot",
+      "instruction": "Touche le nom qui est au nominatif.",
+      "words": ["كِتَابِي", "فِي", "الْفَصْلِ."],
+      "answers": [0],
+      "fr": "Mon livre est dans la salle de classe.",
+      "explain": "{ar|كِتَابِي} est le sujet : nominatif (sous-entendu). {ar|الْفَصْلِ} suit la préposition : génitif."
+    },
+    {
+      "id": "medine-t1.l11.grammar-3#7",
+      "type": "sort",
+      "categories": [ { "fr": "au nominatif" }, { "fr": "au génitif" } ],
+      "cards": [
+        { "ar": "كِتَابِي جَدِيدٌ", "category": 0 },
+        { "ar": "فِي كِتَابِي", "category": 1 },
+        { "ar": "خَرَجَ أَخِي", "category": 0 },
+        { "ar": "مَعَ أَخِي", "category": 1 },
+        { "ar": "أُمِّي فِي الْبَيْتِ", "category": 0 },
+        { "ar": "إِلَى مَدْرَسَتِي", "category": 1 }
+      ],
+      "instruction": "Le nom qui porte {ar|◌ِي} est…",
+      "explain": "Sujet (de la phrase nominale ou du verbe) : nominatif. Après une préposition : génitif. Dans les deux cas, la terminaison s'écrit pareil."
+    },
+    {
+      "id": "medine-t1.l11.grammar-3#8",
+      "type": "fill_gap",
+      "sentence": "{0} فِي الْفَصْلِ.",
+      "fr": "Mon livre est dans la salle de classe.",
+      "gaps": [ { "answers": ["كِتَابِي"] } ],
+      "options": ["كِتَابِي", "كِتَابُكَ", "كِتَابُهُ"],
+      "explain": "« Mon livre » : {ar|كِتَابِي}."
+    },
+    {
+      "id": "medine-t1.l11.grammar-3#9",
+      "type": "order",
+      "fr": "Mon père et ma mère sont dans cette chambre-là.",
+      "answers": [["أَبِي", "وَأُمِّي", "فِي", "تِلْكَ", "الْغُرْفَةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l11.grammar-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mon ami est sorti.",
+      "answers": ["خَرَجَ صَدِيقِي.", "صَدِيقِي خَرَجَ."]
+    },
+    {
+      "id": "medine-t1.l11.grammar-3#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Mon livre est dans la salle de classe.",
+      "answers": ["كِتَابِي فِي الْفَصْلِ."]
+    }
+  ]
+}

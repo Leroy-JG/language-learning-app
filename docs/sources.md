@@ -32,6 +32,8 @@ Supports utilisés pour le chapitre de révision 1 (`r01`) : trois PDF « Semain
 - partie 2 : noms définis (`الْمَعَارِفُ`), indéfini / défini et exercice du livre, prépositions et leurs types, `لِمَاذَا` / `لِأَنَّهُ`, deux dialogues de classe, vocabulaire et tableau des verbes ;
 - partie 3 : `الْإِعْرَابُ` (trois cas et où on les trouve), masculin et féminin, phrase nominale et verbale, verbe (trois formes), texte « la prière de l'aube », vocabulaire et tableau des verbes.
 
+Support utilisé pour la leçon 11 (`l11`) : `TOME1-11.pdf` (17 pages) : `الْمَبْنِيُّ وَالْمُعْرَبُ` (nom variable / invariable, schémas du `الْإِعْرَابُ` et du `الْمَبْنِيُّ`, exemples `هٰذَا زَيْدٌ`, `نَحْنُ طُلَّابٌ`, `هُمْ مُسْلِمُونَ`, `بَيْتُكَ جَمِيلٌ`), `الْمُضَافُ إِلَى يَاءِ الْمُتَكَلِّمِ` (le nom suivi de `◌ِي`), `هَاءُ الْغَائِبِ` (`ـهُ` → `ـهِ`), page du livre « بَيْتِي », exercices 1 et 2, vocabulaire nouveau (`أَحَبَّ`).
+
 ## Ce qui est déjà enseigné (cumulatif)
 
 **Leçon 1** (`l01`) :
