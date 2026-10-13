@@ -1,0 +1,139 @@
+{
+  "id": "medine-t1.l15.grammar-3",
+  "type": "grammar",
+  "title": "Parler à plusieurs filles",
+  "icon": "girl",
+  "screens": [
+    {
+      "id": "medine-t1.l15.grammar-3#1",
+      "type": "tip",
+      "title": "Quatre façons de dire « tu » et « vous »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu sais déjà parler à un homme, à une femme et à plusieurs hommes. Pour s'adresser à **plusieurs femmes**, on dit {ar|أَنْتُنَّ}, et on ajoute {ar|كُنَّ} au nom."
+        },
+        {
+          "type": "table",
+          "header": ["Tu parles à…", "Pronom isolé", "Pronom collé", "« Votre livre »"],
+          "rows": [
+            ["un homme", "{ar|أَنْتَ}", "{ar|كَ}", "{ar|كِتَابُكَ}"],
+            ["une femme", "{ar|أَنْتِ}", "{ar|كِ}", "{ar|كِتَابُكِ}"],
+            ["plusieurs hommes (ou un groupe mixte)", "{ar|أَنْتُمْ}", "{ar|كُمْ}", "{ar|كِتَابُكُمْ}"],
+            ["plusieurs femmes", "{ar|أَنْتُنَّ}", "{ar|كُنَّ}", "{ar|كِتَابُكُنَّ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "La terminaison avec {ar|نَّ} (un nūn avec shadda) marque le féminin pluriel : {ar|أَنْتُنَّ}, {ar|كُنَّ}, et {ar|هُنَّ} (chapitre 10)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "On emploie {ar|كُنَّ} seulement si toutes les personnes sont des femmes. Avec un seul homme dans le groupe, on revient à {ar|كُمْ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.grammar-3#2",
+      "type": "tip",
+      "title": "Du masculin pluriel au féminin pluriel",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "C'est l'exercice du livre : on remplace {ar|كُمْ} par {ar|كُنَّ}, et {ar|يَا إِخْوَةُ} par {ar|يَا أَخَوَاتُ}."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَنْتُمْ", "fr": "vous (à plusieurs hommes)" },
+              "to": { "ar": "أَنْتُنَّ", "fr": "vous (à plusieurs femmes)" }
+            },
+            {
+              "from": { "ar": "بَيْتُكُمْ", "fr": "votre maison (à plusieurs hommes)" },
+              "to": { "ar": "بَيْتُكُنَّ", "fr": "votre maison (à plusieurs femmes)" }
+            },
+            {
+              "from": { "ar": "مَدْرَسَتُكُمْ", "fr": "votre école (à plusieurs hommes)" },
+              "to": { "ar": "مَدْرَسَتُكُنَّ", "fr": "votre école (à plusieurs femmes)" }
+            },
+            {
+              "from": { "ar": "أَخُوكُمْ", "fr": "votre frère (à plusieurs hommes)" },
+              "to": { "ar": "أَخُوكُنَّ", "fr": "votre frère (à plusieurs femmes)" }
+            },
+            { "from": { "ar": "يَا إِخْوَةُ", "fr": "ô frères" }, "to": { "ar": "يَا أَخَوَاتُ", "fr": "ô sœurs" } }
+          ]
+        },
+        { "type": "example", "ar": "أَيْنَ بَيْتُكُنَّ يَا أَخَوَاتُ؟", "fr": "Où est votre maison, ô sœurs ?" },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le livre écrit aussi {ar|يَا إِخْوَانُ} : {ar|إِخْوَانٌ} est un autre pluriel de {ar|أَخٌ}. Dans les deux cas, le nom interpellé garde la damma, sans tanwin (chapitre 5)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.grammar-3#3",
+      "type": "question",
+      "prompt": { "fr": "À qui parle-t-on dans {ar|أَيْنَ بَيْتُكُنَّ؟}" },
+      "choices": [ { "fr": "À plusieurs filles" }, { "fr": "À plusieurs garçons" }, { "fr": "À une seule fille" } ],
+      "answer": 0,
+      "explain": "{ar|كُنَّ} s'adresse à plusieurs femmes."
+    },
+    {
+      "id": "medine-t1.l15.grammar-3#4",
+      "type": "sort",
+      "categories": [ { "fr": "À une seule personne" }, { "fr": "À plusieurs hommes" }, { "fr": "À plusieurs femmes" } ],
+      "cards": [
+        { "ar": "كِتَابُكُمْ جَدِيدٌ.", "category": 1 },
+        { "ar": "أَيْنَ مَدْرَسَتُكُمْ؟", "category": 1 },
+        { "ar": "أَيْنَ مَدْرَسَتُكُنَّ؟", "category": 2 },
+        { "ar": "أَأَنْتُنَّ طَالِبَاتٌ؟", "category": 2 },
+        { "ar": "بَيْتُكَ جَمِيلٌ.", "category": 0 },
+        { "ar": "كِتَابُكِ جَدِيدٌ.", "category": 0 }
+      ],
+      "instruction": "À qui parle-t-on ? Range chaque phrase.",
+      "explain": "{ar|كُمْ} : plusieurs hommes ; {ar|كُنَّ} : plusieurs femmes ; {ar|كَ} et {ar|كِ} : une seule personne."
+    },
+    {
+      "id": "medine-t1.l15.grammar-3#5",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ {0} يَا أَخَوَاتُ؟",
+      "fr": "Où est votre maison, ô sœurs ?",
+      "gaps": [ { "answers": ["بَيْتُكُنَّ"] } ],
+      "options": ["بَيْتُكُنَّ", "بَيْتُهُنَّ", "بَيْتُنَا"],
+      "explain": "On parle à plusieurs femmes : {ar|كُنَّ}. {ar|بَيْتُهُنَّ} voudrait dire « leur maison »."
+    },
+    {
+      "id": "medine-t1.l15.grammar-3#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "votre école (à plusieurs femmes)",
+      "answers": ["مَدْرَسَتُكُنَّ"]
+    },
+    {
+      "id": "medine-t1.l15.grammar-3#7",
+      "type": "order",
+      "fr": "Où est votre frère, ô sœurs ?",
+      "answers": [["أَيْنَ", "أَخُوكُنَّ", "يَا", "أَخَوَاتُ"], ["يَا", "أَخَوَاتُ", "أَيْنَ", "أَخُوكُنَّ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l15.grammar-3#8",
+      "type": "question",
+      "prompt": { "fr": "Quel mot signifie « votre mère » (à plusieurs femmes) ?" },
+      "choices": [ { "ar": "أُمُّكُنَّ" }, { "ar": "أُمُّكُمْ" }, { "ar": "أُمُّنَا" } ],
+      "answer": 0,
+      "explain": "{ar|أُمُّكُنَّ} : {ar|أُمٌّ} + {ar|كُنَّ}. {ar|أُمُّكُمْ} s'adresse à plusieurs hommes, {ar|أُمُّنَا} veut dire « notre mère »."
+    },
+    {
+      "id": "medine-t1.l15.grammar-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Où est votre maison, ô sœurs ?",
+      "answers": ["أَيْنَ بَيْتُكُنَّ يَا أَخَوَاتُ؟"]
+    }
+  ]
+}

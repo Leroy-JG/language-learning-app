@@ -1,0 +1,141 @@
+{
+  "id": "medine-t1.l15.dialogue-2",
+  "type": "dialogue",
+  "title": "Quand ? Dans quelle école ?",
+  "icon": "girl",
+  "screens": [
+    {
+      "id": "medine-t1.l15.dialogue-2#1",
+      "type": "dialogue",
+      "title": "La suite de la conversation",
+      "intro": "Zaynab veut savoir quand la mère des jeunes filles est partie, et comment elles vont.",
+      "speakers": { "A": { "name": "Zaynab", "voice": "f1" }, "B": { "name": "Les jeunes filles", "voice": "f1" } },
+      "lines": [
+        { "speaker": "A", "ar": "مَتَى ذَهَبَتْ؟", "fr": "Quand est-elle partie ?" },
+        { "speaker": "B", "ar": "ذَهَبَتْ قَبْلَ أُسْبُوعٍ.", "fr": "Elle est partie il y a une semaine." },
+        { "speaker": "A", "ar": "مَنْ ذَهَبَ مَعَهَا؟", "fr": "Qui est parti avec elle ?" },
+        {
+          "speaker": "B",
+          "ar": "ذَهَبَ مَعَهَا أَخُونَا إِبْرَاهِيمُ.",
+          "fr": "Notre frère Ibrāhīm est parti avec elle."
+        },
+        { "speaker": "A", "ar": "كَيْفَ حَالُكُنَّ؟", "fr": "Comment allez-vous ?" },
+        { "speaker": "B", "ar": "نَحْنُ بِخَيْرٍ وَالْحَمْدُ لِلَّهِ.", "fr": "Nous allons bien, louange à Allah." },
+        { "speaker": "A", "ar": "فِي أَيِّ مَدْرَسَةٍ أَنْتُنَّ؟", "fr": "Dans quelle école êtes-vous ?" },
+        { "speaker": "B", "ar": "نَحْنُ فِي الْمَدْرَسَةِ الْمُتَوَسِّطَةِ.", "fr": "Nous sommes au collège." },
+        { "speaker": "A", "ar": "مَتَى اخْتِبَارُكُنَّ؟", "fr": "Quand est votre examen ?" },
+        { "speaker": "B", "ar": "اِخْتِبَارُنَا بَعْدَ شَهْرٍ.", "fr": "Notre examen est dans un mois." },
+        {
+          "speaker": "A",
+          "ar": "أَذَهَبْتُنَّ إِلَى الْمَدْرَسَةِ الْيَوْمَ؟",
+          "fr": "Êtes-vous allées à l'école aujourd'hui ?"
+        },
+        {
+          "speaker": "B",
+          "ar": "نَعَمْ. ذَهَبْنَا وَرَجَعْنَا.",
+          "fr": "Oui. Nous y sommes allées et nous sommes revenues."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Deux formes de ce texte ne sont pas encore au programme. Retiens seulement leur sens : ce sont des verbes au passé, avec une terminaison qui dit **qui** a fait l'action."
+        },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens"],
+          "rows": [
+            [
+              "{ar|ذَهَبْنَا} et {ar|رَجَعْنَا}",
+              "« nous sommes allées », « nous sommes revenues » : le verbe, plus {ar|نَا} (« nous »)"
+            ],
+            [
+              "{ar|أَذَهَبْتُنَّ}",
+              "« êtes-vous allées ? » : {ar|أَ} (« est-ce que… ? »), le verbe {ar|ذَهَبَ}, plus {ar|تُنَّ} (« vous », à plusieurs femmes)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "{ar|ذَهَبَتْ} (« elle est partie »), que tu connais depuis le chapitre 12, s'écrit avec {ar|تْ} : le {ar|ت} porte un sukun. Ici, {ar|ذَهَبْتُنَّ} a un {ar|ت} avec une damma : ce n'est pas la même forme."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Quand la mère des jeunes filles est-elle partie ?" },
+      "choices": [ { "fr": "Il y a une semaine" }, { "fr": "Il y a un mois" }, { "fr": "Aujourd'hui" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l15.dialogue-2#1" },
+      "explain": "{ar|ذَهَبَتْ قَبْلَ أُسْبُوعٍ} : « elle est partie il y a une semaine »."
+    },
+    {
+      "id": "medine-t1.l15.dialogue-2#4",
+      "type": "fill_gap",
+      "sentence": "فِي {0} مَدْرَسَةٍ أَنْتُنَّ؟",
+      "fr": "Dans quelle école êtes-vous ?",
+      "gaps": [ { "answers": ["أَيِّ"] } ],
+      "options": ["أَيِّ", "مَنْ", "أَيْنَ"],
+      "context": { "dialogue": "medine-t1.l15.dialogue-2#1" },
+      "explain": "Après {ar|فِي}, {ar|أَيُّ} devient {ar|أَيِّ}."
+    },
+    {
+      "id": "medine-t1.l15.dialogue-2#5",
+      "type": "question",
+      "prompt": { "fr": "Qui est parti avec elle ?" },
+      "choices": [ { "fr": "Leur frère Ibrāhīm" }, { "fr": "Leur père" }, { "fr": "Leur oncle" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l15.dialogue-2#1" },
+      "explain": "{ar|ذَهَبَ مَعَهَا أَخُونَا إِبْرَاهِيمُ}."
+    },
+    {
+      "id": "medine-t1.l15.dialogue-2#6",
+      "type": "question",
+      "prompt": { "fr": "Dans quelle école sont les jeunes filles ?" },
+      "choices": [ { "fr": "Au collège" }, { "fr": "Au lycée" }, { "fr": "À l'école primaire" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l15.dialogue-2#1" },
+      "explain": "{ar|نَحْنُ فِي الْمَدْرَسَةِ الْمُتَوَسِّطَةِ} : « nous sommes au collège »."
+    },
+    {
+      "id": "medine-t1.l15.dialogue-2#7",
+      "type": "true_false",
+      "statement": { "fr": "Les jeunes filles sont allées à l'école aujourd'hui." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l15.dialogue-2#1" },
+      "explain": "{ar|نَعَمْ. ذَهَبْنَا وَرَجَعْنَا} : « oui, nous y sommes allées et nous sommes revenues »."
+    },
+    {
+      "id": "medine-t1.l15.dialogue-2#8",
+      "type": "order",
+      "fr": "Quand est votre examen ? (à plusieurs femmes)",
+      "answers": [["مَتَى", "اخْتِبَارُكُنَّ"]],
+      "punctuation": "؟",
+      "distractors": ["أَيْنَ"]
+    },
+    {
+      "id": "medine-t1.l15.dialogue-2#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَتَى اخْتِبَارُكُنَّ؟",
+      "answers": ["اِخْتِبَارُنَا بَعْدَ شَهْرٍ.", "بَعْدَ شَهْرٍ."],
+      "fr": "Notre examen est dans un mois.",
+      "instruction": "Réponds : notre examen est dans un mois.",
+      "context": { "dialogue": "medine-t1.l15.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l15.dialogue-2#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Nous sommes au collège.",
+      "answers": ["نَحْنُ فِي الْمَدْرَسَةِ الْمُتَوَسِّطَةِ."]
+    }
+  ]
+}

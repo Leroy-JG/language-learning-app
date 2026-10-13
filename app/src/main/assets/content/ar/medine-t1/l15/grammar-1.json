@@ -1,0 +1,130 @@
+{
+  "id": "medine-t1.l15.grammar-1",
+  "type": "grammar",
+  "title": "Quand ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l15.grammar-1#1",
+      "type": "tip",
+      "title": "Le sixième nom du schéma",
+      "blocks": [
+        { "type": "paragraph", "text": "Pour demander **quand** quelque chose a lieu, on emploie « {ar|مَتَى} »." },
+        {
+          "type": "table",
+          "header": ["Mot", "Il demande…", "Les grammairiens disent"],
+          "rows": [
+            ["{ar|مَا}", "une chose, un animal", "{ar|لِغَيْرِ الْعَاقِلِ}"],
+            ["{ar|مَنْ}", "une personne", "{ar|لِلْعَاقِلِ}"],
+            ["{ar|أَيْنَ}", "un lieu", "{ar|لِلْمَكَانِ}"],
+            ["{ar|كَيْفَ}", "l'état, la manière", "{ar|لِلْحَالِ وَالْكَيْفِيَّةِ}"],
+            ["{ar|مَتَى}", "le moment", "{ar|لِلزَّمَانِ}"],
+            [
+              "{ar|أَيُّ}",
+              "un lieu, un moment, une personne ou une chose, selon le nom qui le suit",
+              "{ar|لِلْمَكَانِ وَالزَّمَانِ وَالْعَاقِلِ وَغَيْرِ الْعَاقِلِ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|الزَّمَانُ} veut dire « le temps » : {ar|مَتَى} est donc le nom interrogatif {ar|لِلزَّمَانِ}, comme {ar|أَيْنَ} l'est {ar|لِلْمَكَانِ}."
+        }
+      ]
+    },
+    { "id": "medine-t1.l15.grammar-1#2", "type": "present", "item": "w:mata" },
+    {
+      "id": "medine-t1.l15.grammar-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mata",
+      "distractors": ["w:ayna", "w:kayfa"]
+    },
+    {
+      "id": "medine-t1.l15.grammar-1#4",
+      "type": "tip",
+      "title": "Invariable, et en tête de la question",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme {ar|مَا}, {ar|مَنْ}, {ar|أَيْنَ} et {ar|كَيْفَ}, {ar|مَتَى} est **invariable** : il ne change jamais de forme. Il se place en tête de la question."
+        },
+        { "type": "example", "ar": "مَتَى الدَّرْسُ؟", "fr": "Quand est la leçon ?" },
+        { "type": "example", "ar": "مَتَى اخْتِبَارُكَ؟", "fr": "Quand est ton examen ? (à un homme)" },
+        { "type": "example", "ar": "مَتَى صَلَاةُ الْفَجْرِ؟", "fr": "Quand est la prière de l'aube ?" },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Une préposition ou {ar|وَ} peut passer devant lui : {ar|إِلَى مَتَى؟} (« jusqu'à quand ? »), {ar|وَمَتَى؟} (« et quand ? »)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le livre donne aussi {ar|مَتَى يَرْجِعُ الْحُجَّاجُ إِلَى بِلَادِهِمْ؟} (« Quand les pèlerins reviennent-ils dans leurs pays ? »). {ar|يَرْجِعُ} (« il revient ») est le verbe {ar|رَجَعَ} au présent, que tu verras plus tard : retiens seulement que {ar|مَتَى} reste en tête, même devant un verbe. {ar|بِلَادِهِمْ} = {ar|بِلَادٌ} (« pays », chapitre 14) + {ar|هِمْ} (« leur »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.grammar-1#5",
+      "type": "sort",
+      "categories": [ { "ar": "مَتَى" }, { "ar": "أَيْنَ" }, { "ar": "كَيْفَ" } ],
+      "cards": [
+        { "ar": "الِاخْتِبَارُ يَوْمُ الْخَمِيسِ.", "category": 0 },
+        { "ar": "الدَّرْسُ الْيَوْمَ.", "category": 0 },
+        { "ar": "الْمُدِيرُ فِي الْمَكْتَبِ.", "category": 1 },
+        { "ar": "الْقَلَمُ عَلَى الْمَكْتَبِ.", "category": 1 },
+        { "ar": "هُوَ بِخَيْرٍ.", "category": 2 },
+        { "ar": "أَنَا بِخَيْرٍ.", "category": 2 }
+      ],
+      "instruction": "À quelle question répond cette phrase ? Range chaque phrase sous le bon nom interrogatif.",
+      "explain": "{ar|مَتَى} : un moment (le jeudi, aujourd'hui) ; {ar|أَيْنَ} : un lieu ; {ar|كَيْفَ} : l'état."
+    },
+    {
+      "id": "medine-t1.l15.grammar-1#6",
+      "type": "fill_gap",
+      "sentence": "{0} الِاخْتِبَارُ؟ الِاخْتِبَارُ الْيَوْمَ.",
+      "fr": "Quand est l'examen ? L'examen est aujourd'hui.",
+      "gaps": [ { "answers": ["مَتَى"] } ],
+      "options": ["مَتَى", "أَيْنَ", "مَنْ"],
+      "explain": "La réponse donne un moment ({ar|الْيَوْمَ}) : la question commence par {ar|مَتَى}."
+    },
+    { "id": "medine-t1.l15.grammar-1#7", "type": "build", "item": "w:mata", "extra": ["ا"] },
+    {
+      "id": "medine-t1.l15.grammar-1#8",
+      "type": "question",
+      "prompt": { "fr": "Comment demande-t-on « Quand est la leçon ? »" },
+      "choices": [ { "ar": "مَتَى الدَّرْسُ؟" }, { "ar": "أَيْنَ الدَّرْسُ؟" }, { "ar": "كَيْفَ الدَّرْسُ؟" } ],
+      "answer": 0,
+      "explain": "{ar|أَيْنَ الدَّرْسُ؟} veut dire « où est la leçon ? » et {ar|كَيْفَ الدَّرْسُ؟} « comment est la leçon ? »."
+    },
+    {
+      "id": "medine-t1.l15.grammar-1#9",
+      "type": "order",
+      "fr": "Quand est ton examen ? (à un homme)",
+      "answers": [["مَتَى", "اخْتِبَارُكَ"]],
+      "punctuation": "؟",
+      "distractors": ["أَيْنَ"]
+    },
+    {
+      "id": "medine-t1.l15.grammar-1#10",
+      "type": "true_false",
+      "statement": { "fr": "{ar|مَتَى} change de forme selon son rôle dans la phrase, comme {ar|أَيُّ}." },
+      "answer": false,
+      "explain": "{ar|مَتَى} est invariable. Le seul nom interrogatif variable que tu connais est {ar|أَيُّ}."
+    },
+    {
+      "id": "medine-t1.l15.grammar-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Quand est la leçon ?",
+      "answers": ["مَتَى الدَّرْسُ؟"]
+    },
+    {
+      "id": "medine-t1.l15.grammar-1#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Quand est la prière de l'aube ?",
+      "answers": ["مَتَى صَلَاةُ الْفَجْرِ؟"]
+    }
+  ]
+}

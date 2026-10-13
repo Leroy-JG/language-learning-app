@@ -1,0 +1,118 @@
+{
+  "id": "medine-t1.l15.dialogue-1",
+  "type": "dialogue",
+  "title": "Les filles du cheikh ʿAbbās",
+  "icon": "girl",
+  "screens": [
+    {
+      "id": "medine-t1.l15.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Zaynab et les filles du cheikh ʿAbbās",
+      "intro": "Zaynab rencontre des jeunes filles et leur pose des questions.",
+      "speakers": { "A": { "name": "Zaynab", "voice": "f1" }, "B": { "name": "Les jeunes filles", "voice": "f1" } },
+      "lines": [
+        {
+          "speaker": "B",
+          "ar": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.",
+          "fr": "Que la paix soit sur vous, ainsi que la miséricorde d'Allah et ses bénédictions."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.",
+          "fr": "Et sur vous la paix, ainsi que la miséricorde d'Allah et ses bénédictions."
+        },
+        { "speaker": "A", "ar": "مَنْ أَنْتُنَّ يَا أَخَوَاتُ؟", "fr": "Qui êtes-vous, ô sœurs ?" },
+        {
+          "speaker": "B",
+          "ar": "نَحْنُ بَنَاتُ الشَّيْخِ عَبَّاسٍ.",
+          "fr": "Nous sommes les filles du cheikh ʿAbbās."
+        },
+        {
+          "speaker": "A",
+          "ar": "أَهْلًا وَسَهْلًا وَمَرْحَبًا. أُمُّكُنَّ أُسْتَاذَتِي.",
+          "fr": "Bienvenue ! Votre mère est ma professeure."
+        },
+        { "speaker": "A", "ar": "كَيْفَ حَالُهَا؟", "fr": "Comment va-t-elle ?" },
+        { "speaker": "B", "ar": "هِيَ بِخَيْرٍ وَالْحَمْدُ لِلَّهِ.", "fr": "Elle va bien, louange à Allah." },
+        { "speaker": "A", "ar": "أَيْنَ هِيَ الْآنَ؟", "fr": "Où est-elle maintenant ?" },
+        { "speaker": "B", "ar": "هِيَ الْآنَ فِي الرِّيَاضِ.", "fr": "Elle est à Riyad en ce moment." }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.dialogue-1#2",
+      "type": "tip",
+      "title": "Une salutation au pluriel",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les jeunes filles disent {ar|السَّلَامُ عَلَيْكُمْ} : c'est la formule habituelle quand on salue plusieurs personnes. À un groupe composé seulement de femmes, on pourrait aussi dire {ar|السَّلَامُ عَلَيْكُنَّ} (tu connais {ar|عَلَيْكُنَّ} depuis le chapitre 10)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|أُمُّكُنَّ أُسْتَاذَتِي} : « votre mère est ma professeure ». Tu reconnais {ar|أُمُّ} + {ar|كُنَّ} (« votre », à plusieurs femmes) et {ar|أُسْتَاذَةٌ} → {ar|أُسْتَاذَتِي} (« ma professeure » : {ar|ة} devient {ar|ت}, plus le pronom {ar|ي}, « mon »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Qui sont les jeunes filles ?" },
+      "choices": [
+        { "fr": "Les filles du cheikh ʿAbbās" },
+        { "fr": "Les filles de Zaynab" },
+        { "fr": "Des camarades de Zaynab" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l15.dialogue-1#1" },
+      "explain": "{ar|نَحْنُ بَنَاتُ الشَّيْخِ عَبَّاسٍ} : « nous sommes les filles du cheikh ʿAbbās »."
+    },
+    {
+      "id": "medine-t1.l15.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Qui est la mère des jeunes filles pour Zaynab ?" },
+      "choices": [ { "fr": "Sa professeure" }, { "fr": "Sa sœur" }, { "fr": "Sa tante" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l15.dialogue-1#1" },
+      "explain": "{ar|أُمُّكُنَّ أُسْتَاذَتِي} : « votre mère est ma professeure »."
+    },
+    {
+      "id": "medine-t1.l15.dialogue-1#5",
+      "type": "fill_gap",
+      "sentence": "{0} حَالُهَا؟",
+      "fr": "Comment va-t-elle ?",
+      "gaps": [ { "answers": ["كَيْفَ"] } ],
+      "options": ["كَيْفَ", "أَيْنَ", "مَنْ"],
+      "context": { "dialogue": "medine-t1.l15.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l15.dialogue-1#6",
+      "type": "true_false",
+      "statement": { "fr": "La mère des jeunes filles est à Riyad en ce moment." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l15.dialogue-1#1" },
+      "explain": "{ar|هِيَ الْآنَ فِي الرِّيَاضِ}."
+    },
+    {
+      "id": "medine-t1.l15.dialogue-1#7",
+      "type": "order",
+      "fr": "Où est-elle maintenant ?",
+      "answers": [["أَيْنَ", "هِيَ", "الْآنَ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l15.dialogue-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous sommes les filles du cheikh ʿAbbās.",
+      "answers": ["نَحْنُ بَنَاتُ الشَّيْخِ عَبَّاسٍ."]
+    },
+    {
+      "id": "medine-t1.l15.dialogue-1#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Elle va bien, louange à Allah.",
+      "answers": ["هِيَ بِخَيْرٍ وَالْحَمْدُ لِلَّهِ."]
+    }
+  ]
+}

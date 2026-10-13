@@ -1,0 +1,86 @@
+{
+  "id": "medine-t1.l15.vocab-1",
+  "type": "vocabulary",
+  "title": "Avant et après",
+  "icon": "watch",
+  "screens": [
+    { "id": "medine-t1.l15.vocab-1#1", "type": "present", "item": "w:qabla" },
+    {
+      "id": "medine-t1.l15.vocab-1#2",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:qabla",
+      "distractors": ["w:fawqa", "w:taht"]
+    },
+    { "id": "medine-t1.l15.vocab-1#3", "type": "present", "item": "w:bada" },
+    {
+      "id": "medine-t1.l15.vocab-1#4",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:bada",
+      "distractors": ["w:qabla", "w:fawqa"]
+    },
+    {
+      "id": "medine-t1.l15.vocab-1#5",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:qabla", "w:bada", "w:fawqa", "w:taht"]
+    },
+    {
+      "id": "medine-t1.l15.vocab-1#6",
+      "type": "tip",
+      "title": "Avant ou après ?",
+      "blocks": [
+        { "type": "paragraph", "text": "Deux phrases presque identiques, mais le sens est inverse :" },
+        {
+          "type": "example",
+          "ar": "الدَّرْسُ قَبْلَ الصَّلَاةِ.",
+          "fr": "La leçon est avant la prière. On fait d'abord la leçon."
+        },
+        {
+          "type": "example",
+          "ar": "الدَّرْسُ بَعْدَ الصَّلَاةِ.",
+          "fr": "La leçon est après la prière. On fait d'abord la prière."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.vocab-1#7",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|الصَّلَاةُ بَعْدَ الدَّرْسِ}, on fait d'abord la prière." },
+      "answer": false,
+      "explain": "{ar|بَعْدَ الدَّرْسِ} : « après la leçon ». On fait donc d'abord la leçon."
+    },
+    {
+      "id": "medine-t1.l15.vocab-1#8",
+      "type": "fill_gap",
+      "sentence": "الدَّرْسُ {0} الصَّلَاةِ.",
+      "fr": "La leçon est avant la prière.",
+      "gaps": [ { "answers": ["قَبْلَ"] } ],
+      "options": ["قَبْلَ", "بَعْدَ", "فَوْقَ"]
+    },
+    {
+      "id": "medine-t1.l15.vocab-1#9",
+      "type": "fill_gap",
+      "sentence": "الصَّلَاةُ {0} الدَّرْسِ.",
+      "fr": "La prière est après la leçon.",
+      "gaps": [ { "answers": ["بَعْدَ"] } ],
+      "options": ["قَبْلَ", "بَعْدَ", "فَوْقَ"]
+    },
+    {
+      "id": "medine-t1.l15.vocab-1#10",
+      "type": "order",
+      "fr": "Le déjeuner est avant la leçon.",
+      "answers": [["الْغَدَاءُ", "قَبْلَ", "الدَّرْسِ"]],
+      "punctuation": ".",
+      "distractors": ["بَعْدَ"]
+    },
+    {
+      "id": "medine-t1.l15.vocab-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'examen est après la leçon.",
+      "answers": ["الِاخْتِبَارُ بَعْدَ الدَّرْسِ."]
+    }
+  ]
+}

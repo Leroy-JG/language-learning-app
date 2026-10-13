@@ -1,0 +1,59 @@
+{
+  "id": "medine-t1.l15",
+  "number": 15,
+  "title": {
+    "ar": "الدَّرْسُ الْخَامِسَ عَشَرَ",
+    "fr": "Quand ? Avant et après"
+  },
+  "description": "Demander « quand ? » avec {ar|مَتَى}, dire « avant » et « après » avec {ar|قَبْلَ} et {ar|بَعْدَ}, parler à plusieurs filles avec {ar|أَنْتُنَّ} et {ar|كُنَّ}, et lire le texte du livre.",
+  "source": "Tome de Médine 1, leçon 15",
+  "sections": [
+    {
+      "title": "Rappel : les noms interrogatifs",
+      "activities": [
+        "recap"
+      ]
+    },
+    {
+      "title": "Quand ?",
+      "activities": [
+        "grammar-1"
+      ]
+    },
+    {
+      "title": "Avant et après",
+      "activities": [
+        "vocab-1",
+        "grammar-2",
+        "practice-1"
+      ]
+    },
+    {
+      "title": "Parler à plusieurs filles",
+      "activities": [
+        "grammar-3",
+        "practice-2"
+      ]
+    },
+    {
+      "title": "Le texte du livre",
+      "activities": [
+        "dialogue-1",
+        "dialogue-2"
+      ]
+    },
+    {
+      "title": "Lis et écris",
+      "activities": [
+        "practice-3",
+        "practice-4"
+      ]
+    },
+    {
+      "title": "Bilan du chapitre",
+      "activities": [
+        "quiz"
+      ]
+    }
+  ]
+}

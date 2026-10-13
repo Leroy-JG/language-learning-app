@@ -1,0 +1,87 @@
+{
+  "id": "medine-t1.l15.practice-4",
+  "type": "grammar",
+  "title": "Réponds aux questions",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l15.practice-4#1",
+      "type": "tip",
+      "title": "Les questions du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre pose des questions à plusieurs filles ({ar|أَنْتُنَّ}, {ar|كُنَّ}). Tu réponds au nom du groupe : {ar|نَحْنُ} (« nous ») et {ar|نَا} (« notre »)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Comme aux chapitres précédents, la consigne te dit quoi répondre : c'est la forme arabe qu'on attend de toi."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.practice-4#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ أَنْتُنَّ؟",
+      "answers": ["نَحْنُ طَالِبَاتٌ.", "طَالِبَاتٌ."],
+      "fr": "Nous sommes étudiantes.",
+      "instruction": "Réponds : nous sommes étudiantes."
+    },
+    {
+      "id": "medine-t1.l15.practice-4#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ أُمُّكُنَّ؟",
+      "answers": ["أُمُّنَا فِي الْبَيْتِ.", "فِي الْبَيْتِ."],
+      "fr": "Notre mère est à la maison.",
+      "instruction": "Réponds : notre mère est à la maison."
+    },
+    {
+      "id": "medine-t1.l15.practice-4#4",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ بَيْتُكُنَّ؟ {0} قَرِيبٌ مِنَ الْمَسْجِدِ.",
+      "fr": "Où est votre maison ? Notre maison est près de la mosquée.",
+      "gaps": [ { "answers": ["بَيْتُنَا"] } ],
+      "options": ["بَيْتُنَا", "بَيْتُكُنَّ", "بَيْتُهُنَّ"]
+    },
+    {
+      "id": "medine-t1.l15.practice-4#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ أَخُوكُنَّ؟",
+      "answers": ["أَخُونَا فِي الْمَدْرَسَةِ.", "فِي الْمَدْرَسَةِ."],
+      "fr": "Notre frère est à l'école.",
+      "instruction": "Réponds : notre frère est à l'école."
+    },
+    {
+      "id": "medine-t1.l15.practice-4#6",
+      "type": "question",
+      "prompt": { "fr": "Réponds « non » à {ar|أَأَنْتُنَّ مُدَرِّسَاتٌ؟} au nom du groupe." },
+      "choices": [
+        { "ar": "لَا، نَحْنُ طَالِبَاتٌ." },
+        { "ar": "لَا، أَنْتُنَّ طَالِبَاتٌ." },
+        { "ar": "لَا، هُنَّ طَالِبَاتٌ." }
+      ],
+      "answer": 0,
+      "explain": "Le groupe parle de lui-même : {ar|نَحْنُ}. {ar|أَنْتُنَّ} et {ar|هُنَّ} parleraient d'autres personnes."
+    },
+    {
+      "id": "medine-t1.l15.practice-4#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ مَدْرَسَتُكُنَّ؟",
+      "answers": ["مَدْرَسَتُنَا فِي الْمَدِينَةِ.", "فِي الْمَدِينَةِ."],
+      "fr": "Notre école est dans la ville.",
+      "instruction": "Réponds : notre école est dans la ville."
+    },
+    {
+      "id": "medine-t1.l15.practice-4#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Quand est votre examen ? (à plusieurs femmes)",
+      "answers": ["مَتَى اخْتِبَارُكُنَّ؟"]
+    }
+  ]
+}

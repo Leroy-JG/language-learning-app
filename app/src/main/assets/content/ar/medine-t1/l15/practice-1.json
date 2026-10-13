@@ -1,0 +1,73 @@
+{
+  "id": "medine-t1.l15.practice-1",
+  "type": "grammar",
+  "title": "Quand ? Avant ? Après ?",
+  "icon": "watch",
+  "screens": [
+    {
+      "id": "medine-t1.l15.practice-1#1",
+      "type": "question",
+      "prompt": { "fr": "Que répond-on à {ar|مَتَى الِاخْتِبَارُ؟}" },
+      "choices": [
+        { "ar": "الِاخْتِبَارُ بَعْدَ أُسْبُوعٍ." },
+        { "ar": "الِاخْتِبَارُ فِي الْفَصْلِ." },
+        { "ar": "الِاخْتِبَارُ سَهْلٌ." }
+      ],
+      "answer": 0,
+      "explain": "{ar|مَتَى} demande un moment. {ar|فِي الْفَصْلِ} répond à {ar|أَيْنَ} et {ar|سَهْلٌ} à {ar|كَيْفَ}."
+    },
+    {
+      "id": "medine-t1.l15.practice-1#2",
+      "type": "fill_gap",
+      "sentence": "مَتَى ذَهَبَ زَيْدٌ إِلَى الرِّيَاضِ؟ ذَهَبَ {0} شَهْرٍ.",
+      "fr": "Quand Zayd est-il allé à Riyad ? Il y est allé il y a un mois.",
+      "gaps": [ { "answers": ["قَبْلَ"] } ],
+      "options": ["قَبْلَ", "بَعْدَ", "مَعَ"]
+    },
+    {
+      "id": "medine-t1.l15.practice-1#3",
+      "type": "fill_gap",
+      "sentence": "مَتَى الِاخْتِبَارُ؟ الِاخْتِبَارُ {0} أُسْبُوعٍ.",
+      "fr": "Quand est l'examen ? L'examen est dans une semaine.",
+      "gaps": [ { "answers": ["بَعْدَ"] } ],
+      "options": ["قَبْلَ", "بَعْدَ", "مَعَ"]
+    },
+    {
+      "id": "medine-t1.l15.practice-1#4",
+      "type": "spot",
+      "instruction": "Touche le nom interrogatif.",
+      "words": ["مَتَى", "ذَهَبَتِ", "الْمُمَرِّضَةُ؟"],
+      "answers": [0],
+      "fr": "Quand l'infirmière est-elle partie ?"
+    },
+    {
+      "id": "medine-t1.l15.practice-1#5",
+      "type": "order",
+      "fr": "Quand ton frère est-il sorti de la salle de classe ? (à un homme)",
+      "answers": [["مَتَى", "خَرَجَ", "أَخُوكَ", "مِنَ", "الْفَصْلِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l15.practice-1#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:mata", "w:qabla", "w:bada", "w:ayna", "w:kayfa"]
+    },
+    {
+      "id": "medine-t1.l15.practice-1#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَتَى اخْتِبَارُكَ؟",
+      "answers": ["اِخْتِبَارِي بَعْدَ شَهْرٍ.", "بَعْدَ شَهْرٍ."],
+      "fr": "Mon examen est dans un mois.",
+      "instruction": "Réponds : mon examen est dans un mois."
+    },
+    {
+      "id": "medine-t1.l15.practice-1#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd est allé à la mosquée avant la prière.",
+      "answers": ["ذَهَبَ زَيْدٌ إِلَى الْمَسْجِدِ قَبْلَ الصَّلَاةِ."]
+    }
+  ]
+}

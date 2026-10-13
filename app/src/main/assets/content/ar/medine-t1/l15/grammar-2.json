@@ -1,0 +1,160 @@
+{
+  "id": "medine-t1.l15.grammar-2",
+  "type": "grammar",
+  "title": "{ar|قَبْلَ} et {ar|بَعْدَ} : des adverbes annexés",
+  "icon": "watch",
+  "screens": [
+    {
+      "id": "medine-t1.l15.grammar-2#1",
+      "type": "tip",
+      "title": "Deux adverbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|قَبْلَ} et {ar|بَعْدَ} sont des **adverbes** ({ar|الظُّرُوفُ}, chapitre 8) : ils situent quelque chose dans le temps. Comme {ar|فَوْقَ}, {ar|أَمَامَ} et {ar|خَلْفَ}, ils se terminent le plus souvent par une **fatha** : on dit qu'ils sont à l'accusatif ({ar|مَنْصُوبٌ})."
+        },
+        { "type": "example", "ar": "الدَّرْسُ قَبْلَ الصَّلَاةِ.", "fr": "La leçon est avant la prière." },
+        { "type": "example", "ar": "الصَّلَاةُ بَعْدَ الدَّرْسِ.", "fr": "La prière est après la leçon." }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.grammar-2#2",
+      "type": "tip",
+      "title": "Annexés à un nom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le plus souvent, ils sont suivis d'un nom et forment avec lui une **annexion** (chapitre 5). {ar|قَبْلَ} et {ar|بَعْدَ} sont le premier terme ({ar|الْمُضَافُ}) : ni article, ni tanwin. Le nom qui suit est le second terme ({ar|الْمُضَافُ إِلَيْهِ}) : il est **au génitif**, à la kasra."
+        },
+        {
+          "type": "breakdown",
+          "ar": "قَبْلَ الصَّلَاةِ",
+          "fr": "avant la prière",
+          "parts": [ { "ar": "قَبْلَ", "fr": "avant" }, { "ar": "الصَّلَاةِ", "fr": "la prière" } ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "بَعْدَ الدَّرْسِ",
+          "fr": "après la leçon",
+          "parts": [ { "ar": "بَعْدَ", "fr": "après" }, { "ar": "الدَّرْسِ", "fr": "la leçon" } ]
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "الصَّلَاةُ", "fr": "la prière" },
+              "to": { "ar": "قَبْلَ الصَّلَاةِ", "fr": "avant la prière" },
+              "label": "damma → kasra après {ar|قَبْلَ}"
+            },
+            {
+              "from": { "ar": "الدَّرْسُ", "fr": "la leçon" },
+              "to": { "ar": "بَعْدَ الدَّرْسِ", "fr": "après la leçon" },
+              "label": "damma → kasra après {ar|بَعْدَ}"
+            },
+            {
+              "from": { "ar": "الِاخْتِبَارُ", "fr": "l'examen" },
+              "to": { "ar": "قَبْلَ الِاخْتِبَارِ", "fr": "avant l'examen" },
+              "label": "damma → kasra après {ar|قَبْلَ}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.grammar-2#3",
+      "type": "spot",
+      "instruction": "Touche l'adverbe.",
+      "words": ["الدَّرْسُ", "قَبْلَ", "الصَّلَاةِ."],
+      "answers": [1],
+      "fr": "La leçon est avant la prière."
+    },
+    {
+      "id": "medine-t1.l15.grammar-2#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|بَعْدَ الدَّرْسِ}, le nom {ar|الدَّرْسِ} est…" },
+      "choices": [
+        { "fr": "au génitif : c'est le second terme de l'annexion" },
+        { "fr": "au nominatif, avec une damma" },
+        { "fr": "à l'accusatif, avec une fatha" }
+      ],
+      "answer": 0,
+      "explain": "Le nom qui suit {ar|قَبْلَ} ou {ar|بَعْدَ} est le second terme d'une annexion : il est au génitif, à la kasra."
+    },
+    {
+      "id": "medine-t1.l15.grammar-2#5",
+      "type": "tip",
+      "title": "Avec une durée",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand {ar|قَبْلَ} et {ar|بَعْدَ} sont suivis d'une durée (une semaine, un mois…), le français dit souvent « il y a » et « dans »."
+        },
+        {
+          "type": "table",
+          "header": ["Arabe", "Mot à mot", "En français"],
+          "rows": [
+            [
+              "{ar|ذَهَبَتْ قَبْلَ أُسْبُوعٍ.}",
+              "elle est partie avant une semaine",
+              "Elle est partie il y a une semaine."
+            ],
+            ["{ar|الِاخْتِبَارُ بَعْدَ شَهْرٍ.}", "l'examen est après un mois", "L'examen est dans un mois."]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le sens exact dépend de la phrase : l'arabe dit simplement « avant une semaine » et « après un mois », et c'est le contexte qui fait choisir « il y a », « dans » ou « plus tard »."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Deux cas à connaître, sans les employer pour l'instant. Après {ar|مِنْ}, quand un nom les suit, ils prennent la kasra ({ar|مِنْ بَعْدِ الدَّرْسِ}, « après la leçon »). Quand ce nom n'est pas dit, ils prennent la damma ({ar|مِنْ قَبْلُ وَمِنْ بَعْدُ}, « avant comme après », Coran 30:4). C'est pour cela qu'on dit qu'ils sont « le plus souvent » à l'accusatif."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l15.grammar-2#6",
+      "type": "question",
+      "prompt": { "fr": "{ar|ذَهَبَتْ قَبْلَ أُسْبُوعٍ.} veut dire…" },
+      "choices": [
+        { "fr": "Elle est partie il y a une semaine." },
+        { "fr": "Elle partira dans une semaine." },
+        { "fr": "Elle est partie pour une semaine." }
+      ],
+      "answer": 0,
+      "explain": "{ar|قَبْلَ أُسْبُوعٍ} : « avant une semaine », c'est-à-dire « il y a une semaine »."
+    },
+    {
+      "id": "medine-t1.l15.grammar-2#7",
+      "type": "question",
+      "prompt": { "fr": "{ar|اخْتِبَارُنَا بَعْدَ شَهْرٍ.} Quand est l'examen ?" },
+      "choices": [ { "fr": "Dans un mois" }, { "fr": "Il y a un mois" }, { "fr": "Dans une semaine" } ],
+      "answer": 0,
+      "explain": "{ar|بَعْدَ شَهْرٍ} : « après un mois », donc dans un mois."
+    },
+    {
+      "id": "medine-t1.l15.grammar-2#8",
+      "type": "order",
+      "fr": "Le déjeuner est après la prière.",
+      "answers": [["الْغَدَاءُ", "بَعْدَ", "الصَّلَاةِ"]],
+      "punctuation": ".",
+      "distractors": ["قَبْلَ"]
+    },
+    {
+      "id": "medine-t1.l15.grammar-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "après la leçon",
+      "answers": ["بَعْدَ الدَّرْسِ"],
+      "explain": "Le nom qui suit {ar|بَعْدَ} est au génitif : {ar|الدَّرْسِ}, avec une kasra."
+    },
+    {
+      "id": "medine-t1.l15.grammar-2#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La leçon est après la prière.",
+      "answers": ["الدَّرْسُ بَعْدَ الصَّلَاةِ."]
+    }
+  ]
+}
