@@ -1,0 +1,88 @@
+[
+  {
+    "id": "w:aqil",
+    "kind": "word",
+    "ar": "الْعَاقِلُ",
+    "fr": "l'être doué de raison (une personne)",
+    "translit": "al-ʿāqilu",
+    "gender": "m",
+    "note": "Terme de grammaire pour les **personnes**. Son contraire est {ar|غَيْرُ الْعَاقِلِ} (les animaux et les choses)."
+  },
+  {
+    "id": "w:ghayr-aqil",
+    "kind": "word",
+    "ar": "غَيْرُ الْعَاقِلِ",
+    "fr": "ce qui n'est pas doué de raison (un animal, une chose)",
+    "translit": "ghayru l-ʿāqili",
+    "gender": "m",
+    "note": "Terme de grammaire pour les **animaux** et les **choses**. C'est une annexion : {ar|غَيْرُ} (« autre que ») est le premier terme, et {ar|الْعَاقِلِ} le second, au génitif."
+  },
+  {
+    "id": "w:taira",
+    "kind": "word",
+    "ar": "طَائِرَةٌ",
+    "fr": "un avion",
+    "translit": "ṭāʾiratun",
+    "plural": "طَائِرَاتٌ",
+    "icon": "airplane",
+    "gender": "f",
+    "note": "Le féminin de {ar|طَائِرٌ} (« qui vole », d'où « oiseau ») : l'avion est « celle qui vole ». Son pluriel se fait en « -āt ».",
+    "example": { "ar": "الطَّائِرَاتُ فِي الْمَطَارِ.", "fr": "Les avions sont à l'aéroport." }
+  },
+  {
+    "id": "w:funduq",
+    "kind": "word",
+    "ar": "فُنْدُقٌ",
+    "fr": "un hôtel",
+    "translit": "funduqun",
+    "plural": "فَنَادِقُ",
+    "icon": "hotel",
+    "gender": "m",
+    "note": "Pluriel brisé de forme longue : {ar|فَنَادِقُ} n'a pas de tanwin (comme {ar|مَسَاجِدُ}).",
+    "example": { "ar": "فِي الْمَدِينَةِ فَنَادِقُ كَبِيرَةٌ.", "fr": "Dans la ville, il y a de grands hôtels." }
+  },
+  {
+    "id": "w:jabal",
+    "kind": "word",
+    "ar": "جَبَلٌ",
+    "fr": "une montagne",
+    "translit": "jabalun",
+    "plural": "جِبَالٌ",
+    "icon": "mountain",
+    "gender": "m",
+    "note": "Le mot est masculin en arabe, même si « montagne » est féminin en français.",
+    "example": { "ar": "تِلْكَ جِبَالٌ كَبِيرَةٌ.", "fr": "Celles-là sont de grandes montagnes." }
+  },
+  {
+    "id": "w:bahr",
+    "kind": "word",
+    "ar": "بَحْرٌ",
+    "fr": "une mer",
+    "translit": "baḥrun",
+    "plural": "بِحَارٌ",
+    "icon": "sea",
+    "gender": "m",
+    "note": "Le mot est masculin en arabe, même si « mer » est féminin en français.",
+    "example": { "ar": "الْبِحَارُ كَبِيرَةٌ.", "fr": "Les mers sont grandes." }
+  },
+  {
+    "id": "w:nahr",
+    "kind": "word",
+    "ar": "نَهْرٌ",
+    "fr": "un fleuve, une rivière",
+    "translit": "nahrun",
+    "plural": "أَنْهَارٌ",
+    "gender": "m",
+    "note": "Le mot est masculin en arabe. {ar|النِّيلُ} est « le Nil ».",
+    "example": { "ar": "النِّيلُ نَهْرٌ كَبِيرٌ.", "fr": "Le Nil est un grand fleuve." }
+  },
+  {
+    "id": "w:belgika",
+    "kind": "word",
+    "ar": "بَلْجِيكَا",
+    "fr": "la Belgique",
+    "translit": "baljīkā",
+    "note": "Comme {ar|فَرَنْسَا}, c'est un nom de pays étranger qui se termine par {ar|ا} : il n'a pas de tanwin.",
+    "example": { "ar": "أَنَا مِنْ بَلْجِيكَا.", "fr": "Je viens de Belgique." }
+  }
+]

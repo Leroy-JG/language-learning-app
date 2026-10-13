@@ -1,0 +1,141 @@
+{
+  "id": "medine-t1.l16.grammar-2",
+  "type": "grammar",
+  "title": "Du singulier au pluriel",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l16.grammar-2#1",
+      "type": "tip",
+      "title": "Le démonstratif suit le pluriel",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand tu mets une phrase au pluriel, tu changes **le nom** et, souvent, **le démonstratif**. Regarde ces exemples du livre."
+        },
+        {
+          "type": "compare",
+          "title": "Du singulier au pluriel",
+          "rows": [
+            {
+              "from": { "ar": "هٰذَا بَيْتٌ.", "fr": "Ceci est une maison." },
+              "to": { "ar": "هٰذِهِ بُيُوتٌ.", "fr": "Ce sont des maisons." },
+              "label": "une chose masculine : le démonstratif devient celui du féminin"
+            },
+            {
+              "from": { "ar": "هٰذِهِ سَاعَةٌ.", "fr": "Ceci est une montre." },
+              "to": { "ar": "هٰذِهِ سَاعَاتٌ.", "fr": "Ce sont des montres." },
+              "label": "une chose féminine : le démonstratif ne change pas"
+            },
+            {
+              "from": { "ar": "ذٰلِكَ نَجْمٌ.", "fr": "Cela est une étoile." },
+              "to": { "ar": "تِلْكَ نُجُومٌ.", "fr": "Ce sont des étoiles, là-bas." },
+              "label": "au loin : le démonstratif devient celui du féminin"
+            },
+            {
+              "from": { "ar": "هٰذَا طَالِبٌ.", "fr": "Ceci est un étudiant." },
+              "to": { "ar": "هَؤُلَاءِ طُلَّابٌ.", "fr": "Ceux-ci sont des étudiants." },
+              "label": "des personnes : le démonstratif des personnes"
+            },
+            {
+              "from": { "ar": "ذٰلِكَ رَجُلٌ.", "fr": "Cela est un homme." },
+              "to": { "ar": "أُولَئِكَ رِجَالٌ.", "fr": "Ceux-là sont des hommes." },
+              "label": "des personnes, au loin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.grammar-2#2",
+      "type": "tip",
+      "title": "Ce que tu montres",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Tu montres…", "Au singulier", "Au pluriel"],
+          "rows": [
+            ["une chose ou un animal masculin", "{ar|هٰذَا} / {ar|ذٰلِكَ}", "{ar|هٰذِهِ} / {ar|تِلْكَ}"],
+            ["une chose ou un animal féminin", "{ar|هٰذِهِ} / {ar|تِلْكَ}", "{ar|هٰذِهِ} / {ar|تِلْكَ}"],
+            [
+              "des personnes",
+              "{ar|هٰذَا}, {ar|هٰذِهِ} / {ar|ذٰلِكَ}, {ar|تِلْكَ}",
+              "{ar|هَؤُلَاءِ} / {ar|أُولَئِكَ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans chaque case, le premier mot sert pour ce qui est **proche**, le second pour ce qui est **loin**."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.grammar-2#3",
+      "type": "question",
+      "prompt": { "fr": "Mets au pluriel : {ar|هٰذَا كَلْبٌ}." },
+      "choices": [ { "ar": "هٰذِهِ كِلَابٌ" }, { "ar": "هَؤُلَاءِ كِلَابٌ" }, { "ar": "هٰذَا كِلَابٌ" } ],
+      "answer": 0,
+      "explain": "Un chien est un animal : plusieurs chiens se montrent avec {ar|هٰذِهِ}."
+    },
+    {
+      "id": "medine-t1.l16.grammar-2#4",
+      "type": "question",
+      "prompt": { "fr": "Mets au pluriel : {ar|تِلْكَ سَيَّارَةٌ}." },
+      "choices": [ { "ar": "تِلْكَ سَيَّارَاتٌ" }, { "ar": "أُولَئِكَ سَيَّارَاتٌ" }, { "ar": "ذٰلِكَ سَيَّارَاتٌ" } ],
+      "answer": 0,
+      "explain": "Une voiture est une chose, et elle est loin : {ar|تِلْكَ} pour une seule voiture comme pour plusieurs."
+    },
+    {
+      "id": "medine-t1.l16.grammar-2#5",
+      "type": "order",
+      "fr": "Ceux-ci sont des étudiants.",
+      "answers": [["هَؤُلَاءِ", "طُلَّابٌ"]],
+      "punctuation": ".",
+      "distractors": ["هٰذِهِ"],
+      "instruction": "Mets au pluriel : {ar|هٰذَا طَالِبٌ}."
+    },
+    {
+      "id": "medine-t1.l16.grammar-2#6",
+      "type": "fill_gap",
+      "sentence": "{0} نُجُومٌ.",
+      "fr": "Ce sont des étoiles.",
+      "gaps": [ { "answers": ["هٰذِهِ"] } ],
+      "options": ["هٰذِهِ", "هَؤُلَاءِ", "هٰذَا"],
+      "explain": "Des étoiles sont des choses."
+    },
+    {
+      "id": "medine-t1.l16.grammar-2#7",
+      "type": "true_false",
+      "statement": { "fr": "Pour mettre {ar|هٰذِهِ سَاعَةٌ} au pluriel, on garde {ar|هٰذِهِ} : {ar|هٰذِهِ سَاعَاتٌ}." },
+      "answer": true,
+      "explain": "{ar|سَاعَةٌ} est déjà féminin : le démonstratif ne change pas."
+    },
+    {
+      "id": "medine-t1.l16.grammar-2#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "هٰذَا بَيْتٌ.",
+      "answers": ["هٰذِهِ بُيُوتٌ."],
+      "fr": "Ce sont des maisons.",
+      "instruction": "Mets la phrase au pluriel, avec les pluriels de la leçon."
+    },
+    {
+      "id": "medine-t1.l16.grammar-2#9",
+      "type": "fill_gap",
+      "sentence": "{0} كِلَابٌ.",
+      "fr": "Ce sont des chiens, là-bas.",
+      "gaps": [ { "answers": ["تِلْكَ"] } ],
+      "options": ["تِلْكَ", "أُولَئِكَ", "ذٰلِكَ"],
+      "explain": "Des chiens sont des animaux, et ils sont loin."
+    },
+    {
+      "id": "medine-t1.l16.grammar-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ceux-là sont des hommes.",
+      "answers": ["أُولَئِكَ رِجَالٌ."]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "medine-t1.l16.grammar-3",
+  "type": "grammar",
+  "title": "Ils sont de Belgique",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t1.l16.grammar-3#1", "type": "present", "item": "w:belgika" },
+    {
+      "id": "medine-t1.l16.grammar-3#2",
+      "type": "tip",
+      "title": "Reprendre par un pronom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Après un démonstratif, on reprend souvent le nom par un pronom. Le livre te donne deux phrases à mettre au pluriel : regarde ce qui change."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": {
+                "ar": "هٰذَا طَالِبٌ جَدِيدٌ. هُوَ مِنْ بَلْجِيكَا.",
+                "fr": "Ceci est un nouvel étudiant. Il est de Belgique."
+              },
+              "to": {
+                "ar": "هَؤُلَاءِ طُلَّابٌ جُدُدٌ. هُمْ مِنْ بَلْجِيكَا.",
+                "fr": "Ceux-ci sont de nouveaux étudiants. Ils sont de Belgique."
+              },
+              "label": "des personnes : le pronom devient « ils »"
+            },
+            {
+              "from": {
+                "ar": "هٰذَا كِتَابٌ جَدِيدٌ. هُوَ مِنْ بَلْجِيكَا.",
+                "fr": "Ceci est un nouveau livre. Il est de Belgique."
+              },
+              "to": {
+                "ar": "هٰذِهِ كُتُبٌ جَدِيدَةٌ. هِيَ مِنْ بَلْجِيكَا.",
+                "fr": "Ce sont de nouveaux livres. Ils sont de Belgique."
+              },
+              "label": "des choses : le pronom devient celui du féminin singulier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.grammar-3#3",
+      "type": "tip",
+      "title": "Un pluriel de choses : un féminin singulier",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour plusieurs **choses** ou plusieurs **animaux**, trois mots se mettent au féminin singulier : le démonstratif, le pronom et, le plus souvent, l'adjectif."
+        },
+        {
+          "type": "table",
+          "header": ["Ce qui s'accorde", "Plusieurs personnes", "Plusieurs choses ou animaux"],
+          "rows": [
+            ["le démonstratif", "{ar|هَؤُلَاءِ}", "{ar|هٰذِهِ}"],
+            ["le pronom", "{ar|هُمْ} (hommes ou groupe mixte), {ar|هُنَّ} (femmes)", "{ar|هِيَ}"],
+            ["l'adjectif", "au pluriel : {ar|جُدُدٌ}", "au féminin singulier : {ar|جَدِيدَةٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "En résumé : un pluriel de choses se comporte comme **un féminin singulier**. C'est la règle de base, celle du livre et de ce cours."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.grammar-3#4",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ كُتُبٌ جَدِيدَةٌ. {0} مِنْ بَلْجِيكَا.",
+      "fr": "Ce sont de nouveaux livres. Ils sont de Belgique.",
+      "gaps": [ { "answers": ["هِيَ"] } ],
+      "options": ["هِيَ", "هُمْ", "هُوَ"],
+      "explain": "Plusieurs livres (des choses) : {ar|هِيَ}."
+    },
+    {
+      "id": "medine-t1.l16.grammar-3#5",
+      "type": "fill_gap",
+      "sentence": "هَؤُلَاءِ طُلَّابٌ جُدُدٌ. {0} مِنْ بَلْجِيكَا.",
+      "fr": "Ceux-ci sont de nouveaux étudiants. Ils sont de Belgique.",
+      "gaps": [ { "answers": ["هُمْ"] } ],
+      "options": ["هُمْ", "هِيَ", "هُوَ"],
+      "explain": "Plusieurs hommes : {ar|هُمْ}."
+    },
+    {
+      "id": "medine-t1.l16.grammar-3#6",
+      "type": "sort",
+      "categories": [ { "ar": "هُمْ" }, { "ar": "هُنَّ" }, { "ar": "هِيَ" } ],
+      "cards": [
+        { "ar": "رِجَالٌ", "category": 0 },
+        { "ar": "كِلَابٌ", "category": 2 },
+        { "ar": "طَبِيبَاتٌ", "category": 1 },
+        { "ar": "سَيَّارَاتٌ", "category": 2 },
+        { "ar": "مُدَرِّسُونَ", "category": 0 },
+        { "ar": "أُمَّهَاتٌ", "category": 1 }
+      ],
+      "instruction": "Quel pronom reprend chaque pluriel ?",
+      "explain": "Plusieurs hommes : {ar|هُمْ}. Plusieurs femmes : {ar|هُنَّ}. Plusieurs animaux ou choses : {ar|هِيَ}."
+    },
+    {
+      "id": "medine-t1.l16.grammar-3#7",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ كُتُبٌ {0}.",
+      "fr": "Ce sont de nouveaux livres.",
+      "gaps": [ { "answers": ["جَدِيدَةٌ"] } ],
+      "options": ["جَدِيدَةٌ", "جَدِيدٌ", "جَمِيلٌ"],
+      "explain": "L'adjectif d'un pluriel de choses est au féminin singulier : {ar|جَدِيدَةٌ}."
+    },
+    {
+      "id": "medine-t1.l16.grammar-3#8",
+      "type": "order",
+      "fr": "Ce sont de nouveaux livres. Ils sont de Belgique.",
+      "answers": [["هٰذِهِ", "كُتُبٌ", "جَدِيدَةٌ.", "هِيَ", "مِنْ", "بَلْجِيكَا"]],
+      "punctuation": ".",
+      "distractors": ["هُمْ"]
+    },
+    {
+      "id": "medine-t1.l16.grammar-3#9",
+      "type": "true_false",
+      "statement": { "fr": "Pour reprendre plusieurs livres, on emploie {ar|هُمْ}." },
+      "answer": false,
+      "explain": "Des livres sont des choses : {ar|هِيَ}. {ar|هُمْ} reprend plusieurs hommes."
+    },
+    {
+      "id": "medine-t1.l16.grammar-3#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ils sont de Belgique. (des livres)",
+      "answers": ["هِيَ مِنْ بَلْجِيكَا."]
+    },
+    {
+      "id": "medine-t1.l16.grammar-3#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ceux-ci sont de nouveaux étudiants. Ils sont de Belgique.",
+      "answers": ["هَؤُلَاءِ طُلَّابٌ جُدُدٌ. هُمْ مِنْ بَلْجِيكَا."]
+    }
+  ]
+}

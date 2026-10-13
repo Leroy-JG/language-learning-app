@@ -1,0 +1,121 @@
+{
+  "id": "medine-t1.l16.practice-2",
+  "type": "grammar",
+  "title": "Montre ce qui est loin",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l16.practice-2#1",
+      "type": "tip",
+      "title": "Pour montrer ce qui est loin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre te demande maintenant de montrer ce qui est **loin**. Le principe est le même que pour ce qui est proche."
+        },
+        {
+          "type": "table",
+          "header": ["Tu montres…", "Tu dis"],
+          "rows": [
+            ["un seul être ou une seule chose, masculin", "{ar|ذٰلِكَ}"],
+            ["un seul être ou une seule chose, féminin", "{ar|تِلْكَ}"],
+            ["plusieurs choses ou animaux", "{ar|تِلْكَ}"],
+            ["plusieurs personnes", "{ar|أُولَئِكَ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.practice-2#2",
+      "type": "sort",
+      "categories": [ { "ar": "ذٰلِكَ" }, { "ar": "تِلْكَ" }, { "ar": "أُولَئِكَ" } ],
+      "cards": [
+        { "ar": "مَسْجِدٌ", "category": 0 },
+        { "ar": "دَجَاجَةٌ", "category": 1 },
+        { "ar": "حُجَّاجٌ", "category": 2 },
+        { "ar": "سُرُرٌ", "category": 1 },
+        { "ar": "بَنَاتٌ", "category": 2 },
+        { "ar": "سَرِيرٌ", "category": 0 },
+        { "ar": "دَرَّاجَاتٌ", "category": 1 },
+        { "ar": "بِنْتٌ", "category": 1 }
+      ],
+      "instruction": "Quel démonstratif (loin) va avec chaque mot ?",
+      "explain": "Un seul être masculin ou une chose masculine : {ar|ذٰلِكَ}. Une seule fille, une poule, ou plusieurs choses : {ar|تِلْكَ}. Plusieurs personnes : {ar|أُولَئِكَ}."
+    },
+    {
+      "id": "medine-t1.l16.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "{0} مَسْجِدٌ كَبِيرٌ.",
+      "fr": "Cela est une grande mosquée.",
+      "gaps": [ { "answers": ["ذٰلِكَ"] } ],
+      "options": ["ذٰلِكَ", "تِلْكَ", "أُولَئِكَ"],
+      "explain": "{ar|مَسْجِدٌ} est masculin et singulier : {ar|ذٰلِكَ}."
+    },
+    {
+      "id": "medine-t1.l16.practice-2#4",
+      "type": "fill_gap",
+      "sentence": "{0} بَنَاتٌ.",
+      "fr": "Celles-là sont des filles.",
+      "gaps": [ { "answers": ["أُولَئِكَ"] } ],
+      "options": ["أُولَئِكَ", "تِلْكَ", "ذٰلِكَ"],
+      "explain": "Des filles sont des personnes : {ar|أُولَئِكَ}."
+    },
+    {
+      "id": "medine-t1.l16.practice-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Le même mot {ar|تِلْكَ} montre une seule fille ou plusieurs vélos." },
+      "answer": true,
+      "explain": "Une fille est un féminin singulier ; plusieurs vélos se comportent comme un féminin singulier."
+    },
+    {
+      "id": "medine-t1.l16.practice-2#6",
+      "type": "fill_gap",
+      "sentence": "{0} دَرَّاجَاتٌ جَدِيدَةٌ.",
+      "fr": "Ce sont de nouveaux vélos, là-bas.",
+      "gaps": [ { "answers": ["تِلْكَ"] } ],
+      "options": ["تِلْكَ", "أُولَئِكَ", "ذٰلِكَ"],
+      "explain": "Des vélos sont des choses."
+    },
+    {
+      "id": "medine-t1.l16.practice-2#7",
+      "type": "order",
+      "fr": "Celles-là sont des enseignantes.",
+      "answers": [["أُولَئِكَ", "مُدَرِّسَاتٌ"]],
+      "punctuation": ".",
+      "distractors": ["تِلْكَ"],
+      "explain": "Des enseignantes sont des personnes."
+    },
+    {
+      "id": "medine-t1.l16.practice-2#8",
+      "type": "spot",
+      "instruction": "Touche le démonstratif.",
+      "words": ["تِلْكَ", "سُرُرٌ", "كَبِيرَةٌ."],
+      "answers": [0],
+      "fr": "Ce sont de grands lits, là-bas.",
+      "explain": "{ar|تِلْكَ} montre les lits (des choses) ; {ar|كَبِيرَةٌ} est au féminin singulier."
+    },
+    {
+      "id": "medine-t1.l16.practice-2#9",
+      "type": "fill_gap",
+      "sentence": "{0} سُرُرٌ.",
+      "fr": "Ce sont des lits, là-bas.",
+      "gaps": [ { "answers": ["تِلْكَ"] } ],
+      "options": ["تِلْكَ", "أُولَئِكَ", "ذٰلِكَ"],
+      "explain": "Des lits sont des choses."
+    },
+    {
+      "id": "medine-t1.l16.practice-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Cela est une mosquée.",
+      "answers": ["ذٰلِكَ مَسْجِدٌ."]
+    },
+    {
+      "id": "medine-t1.l16.practice-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceux-là sont des pèlerins.",
+      "answers": ["أُولَئِكَ حُجَّاجٌ."]
+    }
+  ]
+}

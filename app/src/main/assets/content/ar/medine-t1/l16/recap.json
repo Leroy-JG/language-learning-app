@@ -1,0 +1,90 @@
+{
+  "id": "medine-t1.l16.recap",
+  "type": "review",
+  "title": "Rappel : les démonstratifs",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l16.recap#1",
+      "type": "tip",
+      "title": "Les démonstratifs que tu connais",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu sais montrer **un seul** être ou **une seule** chose, et aussi **plusieurs personnes**. Voici tous les démonstratifs que tu connais."
+        },
+        {
+          "type": "table",
+          "header": ["Distance", "Un seul (masculin)", "Un seul (féminin)", "Plusieurs personnes"],
+          "rows": [
+            ["**proche**", "{ar|هٰذَا}", "{ar|هٰذِهِ}", "{ar|هَؤُلَاءِ}"],
+            ["**loin**", "{ar|ذٰلِكَ}", "{ar|تِلْكَ}", "{ar|أُولَئِكَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Mais que dit-on pour plusieurs **choses** ou plusieurs **animaux** ? C'est la question de ce chapitre."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.recap#2",
+      "type": "tip",
+      "title": "Touche un mot pour l'écouter",
+      "blocks": [
+        {
+          "type": "gallery",
+          "title": "Les démonstratifs",
+          "items": ["w:hadha", "w:hadhihi", "w:dhalika", "w:tilka", "w:haulaa", "w:ulaika"]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.recap#3",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:hadhihi", "w:tilka", "w:dhalika", "w:haulaa", "w:ulaika"]
+    },
+    {
+      "id": "medine-t1.l16.recap#4",
+      "type": "sort",
+      "categories": [ { "fr": "proche" }, { "fr": "loin" } ],
+      "cards": [
+        { "ar": "هٰذَا", "category": 0 },
+        { "ar": "تِلْكَ", "category": 1 },
+        { "ar": "هَؤُلَاءِ", "category": 0 },
+        { "ar": "ذٰلِكَ", "category": 1 },
+        { "ar": "أُولَئِكَ", "category": 1 },
+        { "ar": "هٰذِهِ", "category": 0 }
+      ],
+      "instruction": "Range chaque démonstratif : montre-t-il ce qui est proche ou ce qui est loin ?",
+      "explain": "Proche : {ar|هٰذَا}, {ar|هٰذِهِ}, {ar|هَؤُلَاءِ}. Loin : {ar|ذٰلِكَ}, {ar|تِلْكَ}, {ar|أُولَئِكَ}."
+    },
+    {
+      "id": "medine-t1.l16.recap#5",
+      "type": "fill_gap",
+      "sentence": "{0} الطَّالِبَةُ جَدِيدَةٌ.",
+      "fr": "Cette étudiante-ci est nouvelle.",
+      "gaps": [ { "answers": ["هٰذِهِ"] } ],
+      "options": ["هٰذِهِ", "هٰذَا", "ذٰلِكَ"],
+      "explain": "{ar|طَالِبَةٌ} est féminin et l'étudiante est proche : {ar|هٰذِهِ}."
+    },
+    {
+      "id": "medine-t1.l16.recap#6",
+      "type": "fill_gap",
+      "sentence": "{0} الطُّلَّابُ جُدُدٌ.",
+      "fr": "Ces étudiants-là sont nouveaux.",
+      "gaps": [ { "answers": ["أُولَئِكَ"] } ],
+      "options": ["أُولَئِكَ", "هَؤُلَاءِ", "تِلْكَ"],
+      "explain": "Plusieurs personnes éloignées : {ar|أُولَئِكَ}. {ar|هَؤُلَاءِ} serait « ces étudiants-ci »."
+    },
+    {
+      "id": "medine-t1.l16.recap#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceux-ci sont des médecins.",
+      "answers": ["هَؤُلَاءِ أَطِبَّاءُ."]
+    }
+  ]
+}
