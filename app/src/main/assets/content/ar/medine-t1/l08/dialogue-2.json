@@ -58,7 +58,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Dans la réponse de Ḥāmid, deux verbes se suivent, avec un seul sujet : {ar|ذَهَبَ عَمَّارٌ} puis {ar|وَجَلَسَ}. Le sujet {ar|عَمَّارٌ} est le sujet des deux verbes."
+          "text": "Dans la réponse de Ḥāmid, deux verbes se suivent : {ar|ذَهَبَ عَمَّارٌ} puis {ar|وَجَلَسَ}. Le sujet du premier verbe est {ar|عَمَّارٌ} ; celui du second est caché dans le verbe (« il »), et il renvoie à {ar|عَمَّارٌ}."
         },
         {
           "type": "example",

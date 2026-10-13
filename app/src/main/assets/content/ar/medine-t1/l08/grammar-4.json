@@ -59,7 +59,7 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "Après un démonstratif, le nom qui suit porte l'article {ar|الْ} : {ar|هٰذَا الْكِتَابُ} (« ce livre ») n'est pas une phrase complète, alors que {ar|هٰذَا كِتَابٌ} (« ceci est un livre ») en est une. Il faut encore un prédicat : {ar|هٰذَا الْكِتَابُ جَدِيدٌ}."
+          "text": "Quand le nom qui suit un démonstratif est un substitutif, il porte l'article {ar|الْ} : {ar|هٰذَا الْكِتَابُ} (« ce livre ») n'est pas une phrase complète, il faut encore un prédicat : {ar|هٰذَا الْكِتَابُ جَدِيدٌ}. Sans l'article, ce nom est le prédicat : {ar|هٰذَا كِتَابٌ} (« ceci est un livre ») est une phrase complète."
         }
       ]
     },

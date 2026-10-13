@@ -47,7 +47,7 @@
         },
         {
           "type": "note",
-          "text": "À l'impératif, le premier alif est un alif de liaison. Pour ces verbes (et pour {ar|اُخْرُجْ} et {ar|اِذْهَبْ}), il prend une damma quand la dernière lettre du présent porte une damma ({ar|يَكْتُبُ} → {ar|اُكْتُبْ}, {ar|يَخْرُجُ} → {ar|اُخْرُجْ}), et une kasra sinon ({ar|يَجْلِسُ} → {ar|اِجْلِسْ}, {ar|يَذْهَبُ} → {ar|اِذْهَبْ})."
+          "text": "À l'impératif, le premier alif est un alif de liaison. Pour ces verbes (et pour {ar|اُخْرُجْ} et {ar|اِذْهَبْ}), il prend une damma quand l'avant-dernière lettre du présent porte une damma ({ar|يَكْتُبُ} → {ar|اُكْتُبْ}, {ar|يَخْرُجُ} → {ar|اُخْرُجْ}), et une kasra sinon ({ar|يَجْلِسُ} → {ar|اِجْلِسْ}, {ar|يَذْهَبُ} → {ar|اِذْهَبْ}, {ar|يَرْجِعُ} → {ar|اِرْجِعْ})."
         }
       ]
     },
