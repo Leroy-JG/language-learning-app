@@ -65,12 +65,12 @@
             ["{ar|الْمَاضِي} (passé)", "{ar|حَفِظَ}", "{ar|رَفَعَ}", "{ar|سَكَنَ}"],
             ["{ar|الْمُضَارِعُ} (présent, futur)", "{ar|يَحْفَظُ}", "{ar|يَرْفَعُ}", "{ar|يَسْكُنُ}"],
             ["{ar|الْأَمْرُ} (impératif)", "{ar|اِحْفَظْ}", "{ar|اِرْفَعْ}", "{ar|اُسْكُنْ}"],
-            ["{ar|الْمَصْدَرُ} (nom d'action)", "{ar|حِفْظٌ}", "{ar|رَفْعٌ}", "{ar|سُكُونٌ}"]
+            ["{ar|الْمَصْدَرُ} (nom d'action)", "{ar|حِفْظٌ}", "{ar|رَفْعٌ}", "{ar|سُكْنَى}"]
           ]
         },
         {
           "type": "note",
-          "text": "Comme au chapitre 8, l'alif de l'impératif prend une damma quand l'avant-dernière lettre du présent porte une damma ({ar|يَسْكُنُ} → {ar|اُسْكُنْ}), et une kasra sinon ({ar|يَحْفَظُ} → {ar|اِحْفَظْ}). Pour {ar|رَاجَعَ}, il n'y a pas d'alif de liaison. Pour « habiter », on emploie aussi le nom d'action {ar|سُكْنَى} ; {ar|سُكُونٌ} veut dire aussi « calme, immobilité »."
+          "text": "Comme au chapitre 8, l'alif de l'impératif prend une damma quand l'avant-dernière lettre du présent porte une damma ({ar|يَسْكُنُ} → {ar|اُسْكُنْ}), et une kasra sinon ({ar|يَحْفَظُ} → {ar|اِحْفَظْ}). Pour {ar|رَاجَعَ}, il n'y a pas d'alif de liaison. Le tableau du professeur donne {ar|سُكُونٌ} pour « habiter » ; ce mot veut plutôt dire « calme, immobilité », et le nom d'action de « habiter » est {ar|سُكْنَى}."
         }
       ]
     },

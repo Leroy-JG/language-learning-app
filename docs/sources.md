@@ -407,7 +407,7 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - le sujet de la phrase `الطُّلَّابُ يَكْتُبُونَ` (verbe au pluriel) n'est montré que dans une astuce de `revue-7`.
 - **Écarts avec les diapositives :**
   - `أُكْتُبْ` → `اُكْتُبْ` et `أُسْكُنْ` → `اُسْكُنْ` (alif de liaison, comme au chapitre 8) ; les noms d'action sont cités au nominatif (le PDF les donne à l'accusatif) ;
-  - `حَزِنٌّ` / `حَزِنٌ` (diapositives) : on emploie `حَزِينٌ` / `حَزِينَةٌ`, plus courant, dont le pluriel `حِزَانٌ` est régulier (`فَعِيلٌ` → `فِعَالٌ`) ; `سُكُونٌ` (nom d'action de `سَكَنَ`, comme dans le PDF) est complété par `سُكْنَى` dans une note ;
+  - `حَزِنٌّ` / `حَزِنٌ` (diapositives) : on emploie `حَزِينٌ` / `حَزِينَةٌ`, plus courant, dont le pluriel `حِزَانٌ` est régulier (`فَعِيلٌ` → `فِعَالٌ`) ; le PDF donne `سُكُونٌ` comme nom d'action de `سَكَنَ` (« habiter »), mais ce mot veut plutôt dire « calme, immobilité » ; le tableau utilise `سُكْنَى` (nom d'action usuel de « habiter », Miṣbāḥ al-munīr) et une note signale la forme du PDF ;
   - `وَكَيْفَ أَنْتَ أَخِي؟` : `يَا أَخِي` (interpellation, chapitre 5) ;
   - `هٰذَا` écrit avec l'alif suscrit, comme dans tout le cours ;
   - `لَا نَتَأَخَّرُ` et `هَيَّا نُسْرِعُ` gardent la damma du PDF ; la traduction (« nous ne devons pas être en retard ») rend le sens ;

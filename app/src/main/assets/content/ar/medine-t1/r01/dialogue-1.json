@@ -58,7 +58,7 @@
             ["{ar|نَجَحْتَ}", "tu as réussi : le {ar|تَ} final veut dire « tu » (à un homme)"],
             [
               "{ar|مَا رَاجَعَ}",
-              "il n'a pas révisé : dans une phrase affirmative (pas une question), {ar|مَا} devant un verbe au passé exprime la négation"
+              "il n'a pas révisé : dans une phrase qui n'est pas une question, {ar|مَا} devant un verbe au passé exprime la négation"
             ],
             [
               "{ar|جَيِّدًا}",
@@ -111,7 +111,7 @@
       "type": "typing",
       "ask": "question",
       "question": "أَنَجَحَ يَاسِرٌ؟",
-      "answers": ["لَا، فَشِلَ يَاسِرٌ.", "لَا، يَاسِرٌ فَشِلَ.", "لَا، فَشِلَ."],
+      "answers": ["لَا، فَشِلَ يَاسِرٌ.", "لَا، يَاسِرٌ فَشِلَ.", "لَا، هُوَ فَشِلَ.", "لَا، فَشِلَ."],
       "fr": "Non, Yāsir a échoué.",
       "instruction": "Réponds : non, il a échoué.",
       "context": { "dialogue": "medine-t1.r01.dialogue-1#1" }

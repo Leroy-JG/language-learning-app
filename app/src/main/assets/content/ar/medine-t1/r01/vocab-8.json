@@ -37,14 +37,14 @@
       ]
     },
     { "id": "medine-t1.r01.vocab-8#7", "type": "present", "item": "w:laqiya" },
-    { "id": "medine-t1.r01.vocab-8#8", "type": "present", "item": "w:asraa" },
     {
-      "id": "medine-t1.r01.vocab-8#9",
+      "id": "medine-t1.r01.vocab-8#8",
       "type": "mcq",
       "mode": "ar-fr",
       "item": "w:laqiya",
-      "distractors": ["w:asraa", "w:qama"]
+      "distractors": ["w:qama", "w:labisa"]
     },
+    { "id": "medine-t1.r01.vocab-8#9", "type": "present", "item": "w:asraa" },
     { "id": "medine-t1.r01.vocab-8#10", "type": "present", "item": "w:takhkhara" },
     {
       "id": "medine-t1.r01.vocab-8#11",
