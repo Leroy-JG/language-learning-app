@@ -562,7 +562,7 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - le `تْ` du féminin n'est pas un item (le genre du mot `تَاءٌ` n'est pas certain) : il n'est nommé que dans une astuce ;
   - `ذَهَبَتْ` et `ذَهَبْتُ` s'écrivent pareil sans harakat : `ذَهَبْتُ` n'est pas un item (seulement aperçu au chapitre 10), donc aucun QCM ne les oppose.
 - **Explications ajoutées (données à l'oral, absentes du PDF) :**
-  - le `تْ` est obligatoire avec une femme, facultatif avec un féminin de chose ; différence avec le `تُ` de `ذَهَبْتُ` (pronom, voyelle sur le `ت`) ; sans sujet écrit, le verbe se traduit « il » / « elle » ;
+  - le `تْ` est en principe obligatoire avec une femme (verbe juste avant son sujet), facultatif avec un féminin de chose ; différence avec le `تُ` de `ذَهَبْتُ` (pronom, voyelle sur le `ت`) ; sans sujet écrit, le verbe se traduit « il » / « elle » ;
   - même règle que `مَنْ` → `مَنِ` pour la kasra du `ت` : on ne prononce pas deux sukūn de suite ;
   - `كَ` / `كِ` s'écrivent pareil sans voyelles : le mot qui interpelle dit à qui l'on parle ;
   - `مَا` : `لِغَيْرِ الْعَاقِلِ` / `مَنْ` : `لِلْعَاقِلِ` / `أَيْنَ` : `لِلْمَكَانِ` / `كَيْفَ` : `لِلْحَالِ وَالْكَيْفِيَّةِ` ;
