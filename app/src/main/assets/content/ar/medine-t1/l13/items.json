@@ -55,7 +55,7 @@
     "ar": "نَاسٌ",
     "fr": "des gens",
     "translit": "nāsun",
-    "note": "Ce mot est déjà un pluriel : il n'a pas de singulier. Pour une seule personne, on dit {ar|رَجُلٌ} (un homme) ou {ar|اِمْرَأَةٌ} (une femme). Avec l'article : {ar|النَّاسُ} (les gens).",
+    "note": "Ce mot est déjà un pluriel : il n'a pas de singulier. Pour une seule personne, on dit {ar|رَجُلٌ} (un homme) ou {ar|اِمْرَأَةٌ} (une femme), ou encore {ar|إِنْسَانٌ} (un être humain), qui n'est pas de la même forme. Avec l'article : {ar|النَّاسُ} (les gens).",
     "example": { "ar": "النَّاسُ فِي السُّوقِ.", "fr": "Les gens sont au marché." }
   },
   {
@@ -203,7 +203,7 @@
     "fr": "une partie, certains",
     "translit": "baʿḍun",
     "gender": "m",
-    "note": "Ce mot est presque toujours suivi d'un second terme : {ar|بَعْضُهُمْ} (certains d'entre eux), {ar|بَعْضُ الطُّلَّابِ} (certains des étudiants).",
+    "note": "Ce mot est presque toujours suivi d'un second terme : {ar|بَعْضُهُمْ} (certains d'entre eux), {ar|بَعْضُ الطُّلَّابِ} (certains des étudiants). Répété, il se traduit « certains… d'autres… » : {ar|بَعْضُهُمْ فِي الْفَصْلِ وَبَعْضُهُمْ فِي الْمَسْجِدِ}.",
     "example": { "ar": "بَعْضُ الطُّلَّابِ فِي الْفَصْلِ.", "fr": "Certains étudiants sont en classe." }
   }
 ]

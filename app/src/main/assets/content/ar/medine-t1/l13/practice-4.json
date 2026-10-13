@@ -69,7 +69,11 @@
           "ar": "أَيْنَ الطُّلَّابُ الْجُدُدُ؟ بَعْضُهُمْ فِي الْفَصْلِ وَبَعْضُهُمْ عِنْدَ الْمُدِيرِ.",
           "fr": "Où sont les nouveaux étudiants ? Certains sont en classe et d'autres chez le directeur."
         },
-        { "type": "example", "ar": "أَعْمَامِي تُجَّارٌ كِبَارٌ.", "fr": "Mes oncles sont de grands commerçants." },
+        {
+          "type": "example",
+          "ar": "أَعْمَامِي تُجَّارٌ كِبَارٌ.",
+          "fr": "Mes oncles paternels sont de grands commerçants."
+        },
         {
           "type": "example",
           "ar": "أَيْنَ أَبْنَاؤُكَ يَا عَلِيُّ؟ هُمْ فِي الدُّكَّانِ.",
@@ -122,7 +126,7 @@
       "type": "typing",
       "ask": "question",
       "question": "مَنْ هَؤُلَاءِ الْأَوْلَادُ؟",
-      "answers": ["هُمْ أَبْنَاءُ أَخِي.", "أَبْنَاءُ أَخِي."],
+      "answers": ["هُمْ أَبْنَاءُ أَخِي.", "هَؤُلَاءِ أَبْنَاءُ أَخِي.", "أَبْنَاءُ أَخِي."],
       "fr": "Ce sont les fils de mon frère.",
       "instruction": "Réponds : ce sont les fils de mon frère."
     },
@@ -137,7 +141,7 @@
       "id": "medine-t1.l13.practice-4#11",
       "type": "typing",
       "ask": "fr",
-      "fr": "Mes oncles sont de grands commerçants.",
+      "fr": "Mes oncles paternels sont de grands commerçants.",
       "answers": ["أَعْمَامِي تُجَّارٌ كِبَارٌ."]
     },
     {

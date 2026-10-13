@@ -86,7 +86,7 @@
         { "ar": "إِخْوَةٌ", "category": 1 }
       ],
       "instruction": "Range chaque pluriel selon sa forme.",
-      "explain": "Le pluriel en {ar|◌ُونَ} désigne des hommes ({ar|مُهَنْدِسُونَ}, {ar|فَلَّاحُونَ}, {ar|مُجْتَهِدُونَ}). Les autres changent la forme du mot : ce sont des pluriels brisés."
+      "explain": "Le pluriel en {ar|◌ُونَ} désigne des hommes ou un groupe mixte ({ar|مُهَنْدِسُونَ}, {ar|فَلَّاحُونَ}, {ar|مُجْتَهِدُونَ}). Les autres changent la forme du mot : ce sont des pluriels brisés."
     },
     {
       "id": "medine-t1.l13.practice-2#6",
@@ -95,7 +95,7 @@
       "fr": "Ces femmes-ci sont infirmières.",
       "gaps": [ { "answers": ["مُمَرِّضَاتٌ"] } ],
       "options": ["مُمَرِّضَاتٌ", "مُمَرِّضَةٌ", "مُمَرِّضُونَ"],
-      "explain": "Des femmes, au pluriel : {ar|مُمَرِّضَاتٌ}. {ar|مُمَرِّضُونَ} désignerait des hommes."
+      "explain": "Des femmes, au pluriel : {ar|مُمَرِّضَاتٌ}. {ar|مُمَرِّضُونَ} désignerait des hommes (ou un groupe mixte)."
     },
     {
       "id": "medine-t1.l13.practice-2#7",

@@ -84,22 +84,26 @@
               "to": { "ar": "طُلَّابٌ جُدُدٌ", "fr": "de nouveaux étudiants" }
             },
             {
-              "from": { "ar": "رَجُلٌ طَوِيلٌ", "fr": "un grand homme" },
-              "to": { "ar": "رِجَالٌ طِوَالٌ", "fr": "de grands hommes" }
+              "from": { "ar": "رَجُلٌ طَوِيلٌ", "fr": "un homme de grande taille" },
+              "to": { "ar": "رِجَالٌ طِوَالٌ", "fr": "des hommes de grande taille" }
             },
             {
               "from": { "ar": "وَلَدٌ صَغِيرٌ", "fr": "un petit garçon" },
               "to": { "ar": "أَوْلَادٌ صِغَارٌ", "fr": "de petits garçons" }
             },
             {
-              "from": { "ar": "فَتًى قَصِيرٌ", "fr": "un petit jeune homme" },
-              "to": { "ar": "فِتْيَةٌ قِصَارٌ", "fr": "de petits jeunes hommes" }
+              "from": { "ar": "فَتًى قَصِيرٌ", "fr": "un jeune homme de petite taille" },
+              "to": { "ar": "فِتْيَةٌ قِصَارٌ", "fr": "des jeunes gens de petite taille" }
             }
           ]
         },
         {
           "type": "note",
           "text": "Le pluriel brisé d'un adjectif sert en général pour les hommes comme pour les femmes : {ar|طَالِبَةٌ جَدِيدَةٌ} → {ar|طَالِبَاتٌ جُدُدٌ}. On peut aussi mettre l'adjectif au féminin pluriel : {ar|طَالِبَاتٌ جَدِيدَاتٌ}."
+        },
+        {
+          "type": "note",
+          "text": "L'adjectif a les mêmes sortes de pluriel que le nom : le pluriel brisé ({ar|جُدُدٌ}) ou, pour les adjectifs qui en ont un, le pluriel en {ar|◌ُونَ} pour les hommes ({ar|مُجْتَهِدُونَ}) et en {ar|◌َاتٌ} pour les femmes ({ar|جَدِيدَاتٌ})."
         },
         {
           "type": "note",
@@ -175,7 +179,7 @@
       "type": "typing",
       "ask": "audio",
       "fr": "Ce sont des étudiants studieux.",
-      "answers": ["هُمْ طُلَّابٌ مُجْتَهِدُونَ."]
+      "answers": ["هُمْ طُلَّابٌ مُجْتَهِدُونَ.", "هَؤُلَاءِ طُلَّابٌ مُجْتَهِدُونَ."]
     },
     {
       "id": "medine-t1.l13.grammar-2#15",

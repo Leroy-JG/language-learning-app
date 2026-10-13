@@ -20,6 +20,10 @@
             ["singulier", "{ar|الْمُفْرَدُ}", "{ar|طَالِبٌ} (un étudiant)"],
             ["pluriel", "{ar|الْجَمْعُ}", "{ar|طُلَّابٌ} (des étudiants)"]
           ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|الْجَمْعُ} désigne trois êtres ou plus. Pour deux, l'arabe a une forme à part, le duel ({ar|الْمُثَنَّى}), avec ses propres démonstratifs : tu les verras plus tard."
         }
       ]
     },

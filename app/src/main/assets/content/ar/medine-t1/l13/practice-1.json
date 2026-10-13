@@ -60,7 +60,7 @@
       "fr": "Celles-là sont des enseignantes.",
       "gaps": [ { "answers": ["مُدَرِّسَاتٌ"] } ],
       "options": ["مُدَرِّسَاتٌ", "مُدَرِّسُونَ", "مُدَرِّسَةٌ"],
-      "explain": "Des femmes, au pluriel : {ar|مُدَرِّسَاتٌ}. {ar|مُدَرِّسُونَ} désigne des hommes."
+      "explain": "Des femmes, au pluriel : {ar|مُدَرِّسَاتٌ}. {ar|مُدَرِّسُونَ} désigne des hommes (ou un groupe mixte)."
     },
     {
       "id": "medine-t1.l13.practice-1#4",
@@ -107,9 +107,18 @@
       "punctuation": ".",
       "explain": "Après {ar|هَؤُلَاءِ}, le nom qu'on désigne prend l'article ({ar|الطُّلَّابُ}) ; {ar|جُدُدٌ} est le pluriel de {ar|جَدِيدٌ}."
     },
-    { "id": "medine-t1.l13.practice-1#9", "type": "typing", "ask": "fr", "item": "w:haulaa" },
     {
-      "id": "medine-t1.l13.practice-1#10",
+      "id": "medine-t1.l13.practice-1#9",
+      "type": "true_false",
+      "statement": {
+        "fr": "Pour montrer plusieurs livres proches, on emploie en général {ar|هٰذِهِ} : {ar|هٰذِهِ الْكُتُبُ جَدِيدَةٌ}."
+      },
+      "answer": true,
+      "explain": "{ar|هَؤُلَاءِ} sert pour des personnes. Pour des choses au pluriel, on emploie en général {ar|هٰذِهِ} (proche) ou {ar|تِلْكَ} (loin), et l'adjectif est au féminin singulier."
+    },
+    { "id": "medine-t1.l13.practice-1#10", "type": "typing", "ask": "fr", "item": "w:haulaa" },
+    {
+      "id": "medine-t1.l13.practice-1#11",
       "type": "typing",
       "ask": "audio",
       "fr": "Ceux-là sont des enseignants.",
