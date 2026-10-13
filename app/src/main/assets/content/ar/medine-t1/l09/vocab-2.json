@@ -1,0 +1,65 @@
+{
+  "id": "medine-t1.l09.vocab-2",
+  "type": "vocabulary",
+  "title": "Les langues",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t1.l09.vocab-2#1", "type": "present", "item": "w:lugha" },
+    { "id": "medine-t1.l09.vocab-2#2", "type": "present", "item": "w:arabiyya" },
+    { "id": "medine-t1.l09.vocab-2#3", "type": "present", "item": "w:inkiliziyya" },
+    {
+      "id": "medine-t1.l09.vocab-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:inkiliziyya",
+      "distractors": ["w:arabiyya", "w:lugha"]
+    },
+    { "id": "medine-t1.l09.vocab-2#5", "type": "present", "item": "w:faransiyya" },
+    {
+      "id": "medine-t1.l09.vocab-2#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:lugha", "w:arabiyya", "w:inkiliziyya", "w:faransiyya"]
+    },
+    { "id": "medine-t1.l09.vocab-2#7", "type": "present", "item": "w:sahl" },
+    { "id": "medine-t1.l09.vocab-2#8", "type": "present", "item": "w:sab" },
+    {
+      "id": "medine-t1.l09.vocab-2#9",
+      "type": "fill_gap",
+      "sentence": "الْعَرَبِيَّةُ لُغَةٌ {0}.",
+      "fr": "L'arabe est une langue facile.",
+      "gaps": [ { "answers": ["سَهْلَةٌ"] } ],
+      "options": ["سَهْلَةٌ", "صَعْبَةٌ"],
+      "explain": "{ar|لُغَةٌ} est féminin : l'adjectif prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l09.vocab-2#10",
+      "type": "order",
+      "fr": "L'anglais est une langue difficile.",
+      "answers": [["الْإِنْكِلِيزِيَّةُ", "لُغَةٌ", "صَعْبَةٌ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.l09.vocab-2#11", "type": "build", "item": "w:lugha", "extra": ["ه"] },
+    {
+      "id": "medine-t1.l09.vocab-2#12",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:sab",
+      "distractors": ["w:sahl", "w:kabir"]
+    },
+    {
+      "id": "medine-t1.l09.vocab-2#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le français est une langue difficile.",
+      "answers": ["الْفَرَنْسِيَّةُ لُغَةٌ صَعْبَةٌ."]
+    },
+    {
+      "id": "medine-t1.l09.vocab-2#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'arabe est une langue facile.",
+      "answers": ["الْعَرَبِيَّةُ لُغَةٌ سَهْلَةٌ."]
+    }
+  ]
+}

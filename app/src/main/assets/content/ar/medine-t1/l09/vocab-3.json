@@ -1,0 +1,73 @@
+{
+  "id": "medine-t1.l09.vocab-3",
+  "type": "vocabulary",
+  "title": "Fruits, oiseaux et jours",
+  "icon": "flower",
+  "screens": [
+    { "id": "medine-t1.l09.vocab-3#1", "type": "present", "item": "w:fakiha" },
+    { "id": "medine-t1.l09.vocab-3#2", "type": "present", "item": "w:tuffah" },
+    {
+      "id": "medine-t1.l09.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:tuffah",
+      "distractors": ["w:fakiha", "w:khubz"]
+    },
+    { "id": "medine-t1.l09.vocab-3#4", "type": "present", "item": "w:ladhidh" },
+    {
+      "id": "medine-t1.l09.vocab-3#5",
+      "type": "fill_gap",
+      "sentence": "التُّفَّاحُ فَاكِهَةٌ {0}.",
+      "fr": "La pomme est un fruit délicieux.",
+      "gaps": [ { "answers": ["لَذِيذَةٌ"] } ],
+      "options": ["لَذِيذَةٌ", "لَذِيذٌ"],
+      "explain": "{ar|فَاكِهَةٌ} est féminin : l'adjectif prend le {ar|ة}."
+    },
+    { "id": "medine-t1.l09.vocab-3#6", "type": "present", "item": "w:tair" },
+    { "id": "medine-t1.l09.vocab-3#7", "type": "present", "item": "w:usfur" },
+    {
+      "id": "medine-t1.l09.vocab-3#8",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:usfur",
+      "distractors": ["w:tair", "w:kalb"]
+    },
+    { "id": "medine-t1.l09.vocab-3#9", "type": "present", "item": "w:yawm" },
+    {
+      "id": "medine-t1.l09.vocab-3#10",
+      "type": "order",
+      "fr": "Le moineau est un petit oiseau.",
+      "answers": [["الْعُصْفُورُ", "طَائِرٌ", "صَغِيرٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l09.vocab-3#11",
+      "type": "fill_gap",
+      "sentence": "هٰذَا يَوْمٌ {0}.",
+      "fr": "C'est une belle journée.",
+      "gaps": [ { "answers": ["جَمِيلٌ"] } ],
+      "options": ["جَمِيلٌ", "جَمِيلَةٌ"],
+      "explain": "{ar|يَوْمٌ} est masculin : pas de {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l09.vocab-3#12",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:fakiha", "w:tuffah", "w:tair", "w:usfur", "w:yawm"]
+    },
+    {
+      "id": "medine-t1.l09.vocab-3#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le moineau est un petit oiseau.",
+      "answers": ["الْعُصْفُورُ طَائِرٌ صَغِيرٌ."]
+    },
+    {
+      "id": "medine-t1.l09.vocab-3#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La pomme est un fruit délicieux.",
+      "answers": ["التُّفَّاحُ فَاكِهَةٌ لَذِيذَةٌ."]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "medine-t1.l09.grammar-3",
+  "type": "grammar",
+  "title": "Groupe de mots ou phrase ?",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l09.grammar-3#1",
+      "type": "tip",
+      "title": "Le livre neuf, ou « le livre est neuf » ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un nom suivi de son adjectif ne forme pas toujours la même chose. Tout dépend de l'article."
+        },
+        {
+          "type": "table",
+          "header": ["Arabe", "Français", "Ce que c'est"],
+          "rows": [
+            ["{ar|الْكِتَابُ الْجَدِيدُ}", "le livre neuf", "un groupe de mots"],
+            ["{ar|الْكِتَابُ جَدِيدٌ.}", "le livre est neuf", "une phrase"],
+            ["{ar|كِتَابٌ جَدِيدٌ}", "un livre neuf", "un groupe de mots"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand le nom a l'article et que l'adjectif ne l'a **pas**, c'est une **phrase** : l'adjectif dit ce qu'est le nom (« le livre **est** neuf »). Quand le nom et l'adjectif ont **tous deux** l'article, l'adjectif décrit le nom : c'est un simple groupe de mots."
+        },
+        { "type": "note", "tone": "memo", "text": "Deux articles : on décrit. Un seul article : on affirme." }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.grammar-3#2",
+      "type": "sort",
+      "categories": [ { "fr": "une phrase" }, { "fr": "un groupe de mots" } ],
+      "cards": [
+        { "ar": "الْبَيْتُ كَبِيرٌ", "category": 0 },
+        { "ar": "الْبَيْتُ الْكَبِيرُ", "category": 1 },
+        { "ar": "الْكِتَابُ جَدِيدٌ", "category": 0 },
+        { "ar": "الْكِتَابُ الْجَدِيدُ", "category": 1 },
+        { "ar": "السَّيَّارَةُ سَرِيعَةٌ", "category": 0 },
+        { "ar": "السَّيَّارَةُ السَّرِيعَةُ", "category": 1 }
+      ],
+      "instruction": "Range chaque expression : est-ce une phrase ou un groupe de mots ?",
+      "explain": "Avec un seul article, l'adjectif est ce qu'on dit du nom : c'est une phrase. Avec deux articles, l'adjectif décrit le nom : c'est un groupe de mots."
+    },
+    {
+      "id": "medine-t1.l09.grammar-3#3",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « le livre est neuf » ?" },
+      "choices": [ { "ar": "الْكِتَابُ جَدِيدٌ." }, { "ar": "الْكِتَابُ الْجَدِيدُ." }, { "ar": "كِتَابٌ جَدِيدٌ." } ],
+      "answer": 0,
+      "explain": "Le nom a l'article et l'adjectif ne l'a pas : c'est une phrase, « le livre est neuf »."
+    },
+    {
+      "id": "medine-t1.l09.grammar-3#4",
+      "type": "tip",
+      "title": "Avec {ar|هٰذَا}",
+      "blocks": [
+        { "type": "paragraph", "text": "Le démonstratif suit la même règle." },
+        {
+          "type": "table",
+          "header": ["Arabe", "Français"],
+          "rows": [
+            ["{ar|هٰذَا بَيْتٌ كَبِيرٌ.}", "C'est une grande maison."],
+            ["{ar|هٰذَا الْبَيْتُ كَبِيرٌ.}", "Cette maison est grande."],
+            ["{ar|هٰذَا الْبَيْتُ الْكَبِيرُ}", "cette grande maison (un groupe de mots, pas encore une phrase)"]
+          ]
+        },
+        { "type": "example", "ar": "مَنْ هٰذَا الرَّجُلُ الطَّوِيلُ؟", "fr": "Qui est ce grand homme ?" }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.grammar-3#5",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « Cette maison est grande. » ?" },
+      "choices": [
+        { "ar": "هٰذَا الْبَيْتُ كَبِيرٌ." },
+        { "ar": "هٰذَا الْبَيْتُ الْكَبِيرُ." },
+        { "ar": "هٰذَا بَيْتٌ كَبِيرٌ." }
+      ],
+      "answer": 0,
+      "explain": "{ar|هٰذَا الْبَيْتُ كَبِيرٌ} : « cette maison » (nom défini) puis l'adjectif sans article. {ar|هٰذَا بَيْتٌ كَبِيرٌ} veut dire « c'est une grande maison »."
+    },
+    {
+      "id": "medine-t1.l09.grammar-3#6",
+      "type": "fill_gap",
+      "sentence": "الْبَيْتُ {0}.",
+      "fr": "La maison est grande.",
+      "gaps": [ { "answers": ["كَبِيرٌ"] } ],
+      "options": ["كَبِيرٌ", "الْكَبِيرُ"],
+      "explain": "Pour dire « la maison est grande », l'adjectif n'a pas l'article."
+    },
+    {
+      "id": "medine-t1.l09.grammar-3#7",
+      "type": "fill_gap",
+      "sentence": "هٰذَا الْوَلَدُ {0}.",
+      "fr": "Ce garçon est petit.",
+      "gaps": [ { "answers": ["صَغِيرٌ"] } ],
+      "options": ["صَغِيرٌ", "الصَّغِيرُ"]
+    },
+    {
+      "id": "medine-t1.l09.grammar-3#8",
+      "type": "fill_gap",
+      "sentence": "مَنْ هٰذَا الْوَلَدُ {0}؟",
+      "fr": "Qui est ce petit garçon ?",
+      "gaps": [ { "answers": ["الصَّغِيرُ"] } ],
+      "options": ["الصَّغِيرُ", "صَغِيرٌ"],
+      "explain": "On désigne le garçon en le décrivant : nom et adjectif ont tous deux l'article."
+    },
+    {
+      "id": "medine-t1.l09.grammar-3#9",
+      "type": "order",
+      "fr": "Qui est ce grand homme ?",
+      "answers": [["مَنْ", "هٰذَا", "الرَّجُلُ", "الطَّوِيلُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l09.grammar-3#10",
+      "type": "true_false",
+      "statement": { "fr": "{ar|الْبَيْتُ الْكَبِيرُ} est une phrase complète qui veut dire « la maison est grande »." },
+      "answer": false,
+      "explain": "Faux : avec deux articles, c'est un groupe de mots, « la grande maison ». Pour la phrase, on dit {ar|الْبَيْتُ كَبِيرٌ}."
+    },
+    {
+      "id": "medine-t1.l09.grammar-3#11",
+      "type": "spot",
+      "instruction": "Touche l'adjectif.",
+      "words": ["هٰذَا", "الْوَلَدُ", "الصَّغِيرُ", "فِي", "الْفَصْلِ."],
+      "answers": [2],
+      "fr": "Ce petit garçon est dans la salle de classe."
+    },
+    {
+      "id": "medine-t1.l09.grammar-3#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ce livre est grand.",
+      "answers": ["هٰذَا الْكِتَابُ كَبِيرٌ."]
+    },
+    {
+      "id": "medine-t1.l09.grammar-3#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "C'est une grande maison.",
+      "answers": ["هٰذَا بَيْتٌ كَبِيرٌ."]
+    }
+  ]
+}

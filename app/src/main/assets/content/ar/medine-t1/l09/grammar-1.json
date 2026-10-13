@@ -1,0 +1,104 @@
+{
+  "id": "medine-t1.l09.grammar-1",
+  "type": "grammar",
+  "title": "Le nom et son adjectif",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l09.grammar-1#1",
+      "type": "tip",
+      "title": "Décrire un nom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour décrire un nom (« une maison **neuve** », « un homme **riche** »), on place un **adjectif** juste après lui. En arabe, l'adjectif s'appelle {ar|النَّعْتُ} et le nom qu'il décrit {ar|الْمَنْعُوتُ}."
+        },
+        {
+          "type": "table",
+          "header": ["Le nom qualifié", "L'adjectif", "En français"],
+          "rows": [
+            ["{ar|بَيْتٌ}", "{ar|جَدِيدٌ}", "une maison neuve"],
+            ["{ar|رَجُلٌ}", "{ar|غَنِيٌّ}", "un homme riche"],
+            ["{ar|سَيَّارَةٌ}", "{ar|جَمِيلَةٌ}", "une belle voiture"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "L'adjectif se place **toujours après** le nom : en arabe, on dit « une voiture belle », « un homme riche ». Il ne se met jamais avant."
+        }
+      ]
+    },
+    { "id": "medine-t1.l09.grammar-1#2", "type": "present", "item": "w:naat" },
+    { "id": "medine-t1.l09.grammar-1#3", "type": "present", "item": "w:manut" },
+    {
+      "id": "medine-t1.l09.grammar-1#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:naat",
+      "distractors": ["w:manut", "w:ism"]
+    },
+    {
+      "id": "medine-t1.l09.grammar-1#5",
+      "type": "tip",
+      "title": "L'adjectif n'est pas indispensable",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Une phrase reste correcte quand on enlève l'adjectif : elle dit seulement moins de choses."
+        },
+        { "type": "example", "ar": "زَيْدٌ رَجُلٌ.", "fr": "Zayd est un homme." },
+        { "type": "example", "ar": "زَيْدٌ رَجُلٌ غَنِيٌّ.", "fr": "Zayd est un homme riche." },
+        {
+          "type": "paragraph",
+          "text": "Dans {ar|زَيْدٌ رَجُلٌ}, la phrase est déjà complète : {ar|زَيْدٌ} est le sujet ({ar|الْمُبْتَدَأُ}) et {ar|رَجُلٌ} est ce qu'on dit de lui, l'attribut ({ar|الْخَبَرُ}). L'adjectif {ar|غَنِيٌّ} s'ajoute après : on peut l'enlever sans casser la phrase."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.grammar-1#6",
+      "type": "spot",
+      "instruction": "Touche l'adjectif ({ar|النَّعْتُ}).",
+      "words": ["زَيْدٌ", "رَجُلٌ", "غَنِيٌّ."],
+      "answers": [2],
+      "fr": "Zayd est un homme riche.",
+      "explain": "{ar|غَنِيٌّ} décrit {ar|رَجُلٌ} : c'est l'adjectif. {ar|رَجُلٌ} est le nom qualifié."
+    },
+    {
+      "id": "medine-t1.l09.grammar-1#7",
+      "type": "spot",
+      "instruction": "Touche le nom qualifié ({ar|الْمَنْعُوتُ}).",
+      "words": ["هٰذَا", "كِتَابٌ", "جَدِيدٌ."],
+      "answers": [1],
+      "fr": "C'est un livre neuf.",
+      "explain": "{ar|جَدِيدٌ} décrit {ar|كِتَابٌ} : le livre est le nom qualifié."
+    },
+    {
+      "id": "medine-t1.l09.grammar-1#8",
+      "type": "true_false",
+      "statement": { "fr": "En arabe, l'adjectif se place avant le nom, comme dans « une belle voiture »." },
+      "answer": false,
+      "explain": "Faux : en arabe, il se place après le nom, {ar|سَيَّارَةٌ جَمِيلَةٌ} (mot à mot : « une voiture belle »)."
+    },
+    {
+      "id": "medine-t1.l09.grammar-1#9",
+      "type": "order",
+      "fr": "Zayd est un homme riche.",
+      "answers": [["زَيْدٌ", "رَجُلٌ", "غَنِيٌّ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l09.grammar-1#10",
+      "type": "order",
+      "fr": "C'est un livre neuf.",
+      "answers": [["هٰذَا", "كِتَابٌ", "جَدِيدٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l09.grammar-1#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ceci est une voiture neuve.",
+      "answers": ["هٰذِهِ سَيَّارَةٌ جَدِيدَةٌ."]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "medine-t1.l09.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 9",
+  "screens": [
+    {
+      "id": "medine-t1.l09.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mustawsaf",
+      "distractors": ["w:mirwaha", "w:kub"]
+    },
+    {
+      "id": "medine-t1.l09.quiz#2",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:kabir", "w:saghir", "w:tawil", "w:qasir", "w:hadd"]
+    },
+    {
+      "id": "medine-t1.l09.quiz#3",
+      "type": "question",
+      "prompt": { "fr": "Où place-t-on l'adjectif en arabe ?" },
+      "choices": [ { "fr": "Juste après le nom" }, { "fr": "Juste avant le nom" }, { "fr": "Au début de la phrase" } ],
+      "answer": 0,
+      "explain": "L'adjectif suit toujours son nom : {ar|سَيَّارَةٌ جَمِيلَةٌ}."
+    },
+    {
+      "id": "medine-t1.l09.quiz#4",
+      "type": "question",
+      "prompt": { "fr": "Sur quels points l'adjectif s'accorde-t-il avec son nom ?" },
+      "choices": [
+        { "fr": "Le genre, le nombre, le défini ou l'indéfini et le cas" },
+        { "fr": "Le genre seulement" },
+        { "fr": "Il ne s'accorde avec rien" }
+      ],
+      "answer": 0,
+      "shuffle": false
+    },
+    {
+      "id": "medine-t1.l09.quiz#5",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ سَيَّارَةٌ {0}.",
+      "fr": "C'est une grande voiture.",
+      "gaps": [ { "answers": ["كَبِيرَةٌ"] } ],
+      "options": ["كَبِيرَةٌ", "كَبِيرٌ"]
+    },
+    {
+      "id": "medine-t1.l09.quiz#6",
+      "type": "sort",
+      "categories": [ { "fr": "une phrase" }, { "fr": "un groupe de mots" } ],
+      "cards": [
+        { "ar": "الْكُوبُ مَلْآنُ", "category": 0 },
+        { "ar": "الْكُوبُ الْمَلْآنُ", "category": 1 },
+        { "ar": "الْيَوْمُ جَمِيلٌ", "category": 0 },
+        { "ar": "الْيَوْمُ الْجَمِيلُ", "category": 1 },
+        { "ar": "الْمُدِيرُ شَهِيرٌ", "category": 0 },
+        { "ar": "الْمُدِيرُ الشَّهِيرُ", "category": 1 }
+      ],
+      "instruction": "Range chaque expression : est-ce une phrase ou un groupe de mots ?"
+    },
+    {
+      "id": "medine-t1.l09.quiz#7",
+      "type": "spot",
+      "instruction": "Touche l'adjectif qui n'a pas de tanwin.",
+      "words": ["الْمُدَرِّسُ", "غَضْبَانُ", "وَالطَّالِبُ", "مُجْتَهِدٌ."],
+      "answers": [1],
+      "fr": "L'enseignant est en colère et l'étudiant est studieux."
+    },
+    {
+      "id": "medine-t1.l09.quiz#8",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|عِنْدَ}, le nom prend la kasra : {ar|عِنْدَ الْمُدِيرِ}." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l09.quiz#9",
+      "type": "order",
+      "fr": "Où est le nouvel enseignant ?",
+      "answers": [["أَيْنَ", "الْمُدَرِّسُ", "الْجَدِيدُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l09.quiz#10",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|فِي الْمَسْجِدِ الْكَبِيرِ}, pourquoi l'adjectif a-t-il une kasra ?" },
+      "choices": [
+        { "fr": "Parce qu'il prend le même cas que le nom qu'il décrit" },
+        { "fr": "Parce qu'il est féminin" },
+        { "fr": "Parce qu'il est indéfini" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l09.quiz#11",
+      "type": "mcq",
+      "mode": "audio-ar",
+      "item": "w:jawan",
+      "distractors": ["w:ataan", "w:ghadban"]
+    },
+    {
+      "id": "medine-t1.l09.quiz#12",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:yawm", "w:kub", "w:luba", "w:usfur", "w:jawan"]
+    },
+    {
+      "id": "medine-t1.l09.quiz#13",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « Ceci est un grand livre » ?" },
+      "choices": [
+        { "ar": "هٰذَا كِتَابٌ كَبِيرٌ." },
+        { "ar": "هٰذَا الْكِتَابُ كَبِيرٌ." },
+        { "ar": "هٰذَا الْكِتَابُ الْكَبِيرُ." }
+      ],
+      "answer": 0,
+      "explain": "{ar|هٰذَا كِتَابٌ كَبِيرٌ} : « c'est un grand livre ». Avec l'article, on dirait « ce livre est grand » ou « ce grand livre »."
+    },
+    {
+      "id": "medine-t1.l09.quiz#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le nouveau directeur est chez l'enseignant.",
+      "answers": ["الْمُدِيرُ الْجَدِيدُ عِنْدَ الْمُدَرِّسِ."]
+    },
+    {
+      "id": "medine-t1.l09.quiz#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le moineau est un petit oiseau.",
+      "answers": ["الْعُصْفُورُ طَائِرٌ صَغِيرٌ."]
+    },
+    {
+      "id": "medine-t1.l09.quiz#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai soif, et le verre est plein.",
+      "answers": ["أَنَا عَطْشَانُ وَالْكُوبُ مَلْآنُ."]
+    }
+  ]
+}

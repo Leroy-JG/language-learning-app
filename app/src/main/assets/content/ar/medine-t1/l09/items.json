@@ -1,0 +1,327 @@
+[
+  {
+    "id": "w:naat",
+    "kind": "word",
+    "ar": "النَّعْتُ",
+    "fr": "l'adjectif (épithète)",
+    "translit": "an-naʿtu",
+    "gender": "m",
+    "note": "Le mot qui décrit un nom et se place juste après lui. On dit aussi {ar|صِفَةٌ}. Dans {ar|رَجُلٌ غَنِيٌّ}, le mot {ar|غَنِيٌّ} est le {ar|نَعْتٌ}.",
+    "example": { "ar": "رَجُلٌ غَنِيٌّ", "fr": "un homme riche" }
+  },
+  {
+    "id": "w:manut",
+    "kind": "word",
+    "ar": "الْمَنْعُوتُ",
+    "fr": "le nom qualifié",
+    "translit": "al-manʿūtu",
+    "gender": "m",
+    "note": "Le nom que l'adjectif décrit. Dans {ar|رَجُلٌ غَنِيٌّ}, c'est {ar|رَجُلٌ}.",
+    "example": { "ar": "رَجُلٌ غَنِيٌّ", "fr": "un homme riche" }
+  },
+  {
+    "id": "w:kabir",
+    "kind": "word",
+    "ar": "كَبِيرٌ",
+    "fr": "grand, gros",
+    "translit": "kabīrun",
+    "note": "Au féminin : {ar|كَبِيرَةٌ}. Contraire : {ar|صَغِيرٌ}.",
+    "example": { "ar": "هٰذَا بَيْتٌ كَبِيرٌ.", "fr": "C'est une grande maison." }
+  },
+  {
+    "id": "w:saghir",
+    "kind": "word",
+    "ar": "صَغِيرٌ",
+    "fr": "petit",
+    "translit": "ṣaghīrun",
+    "note": "Au féminin : {ar|صَغِيرَةٌ}. Contraire : {ar|كَبِيرٌ}.",
+    "example": { "ar": "هٰذَا كِتَابٌ صَغِيرٌ.", "fr": "C'est un petit livre." }
+  },
+  {
+    "id": "w:tawil",
+    "kind": "word",
+    "ar": "طَوِيلٌ",
+    "fr": "long",
+    "translit": "ṭawīlun",
+    "note": "Au féminin : {ar|طَوِيلَةٌ}. Pour une personne, il veut dire « grand de taille ». Contraire : {ar|قَصِيرٌ}.",
+    "example": { "ar": "هٰذَا رَجُلٌ طَوِيلٌ.", "fr": "C'est un homme de grande taille." }
+  },
+  {
+    "id": "w:qasir",
+    "kind": "word",
+    "ar": "قَصِيرٌ",
+    "fr": "court",
+    "translit": "qaṣīrun",
+    "note": "Au féminin : {ar|قَصِيرَةٌ}. Pour une personne, il veut dire « petit de taille ». Contraire : {ar|طَوِيلٌ}.",
+    "example": { "ar": "هٰذَا قَلَمٌ قَصِيرٌ.", "fr": "C'est un stylo court." }
+  },
+  {
+    "id": "w:shahir",
+    "kind": "word",
+    "ar": "شَهِيرٌ",
+    "fr": "célèbre, réputé",
+    "translit": "shahīrun",
+    "note": "Au féminin : {ar|شَهِيرَةٌ}.",
+    "example": { "ar": "عَبَّاسٌ تَاجِرٌ شَهِيرٌ.", "fr": "ʿAbbās est un commerçant célèbre." }
+  },
+  {
+    "id": "w:ladhidh",
+    "kind": "word",
+    "ar": "لَذِيذٌ",
+    "fr": "délicieux",
+    "translit": "ladhīdhun",
+    "note": "Au féminin : {ar|لَذِيذَةٌ}.",
+    "example": { "ar": "هٰذِهِ فَاكِهَةٌ لَذِيذَةٌ.", "fr": "C'est un fruit délicieux." }
+  },
+  {
+    "id": "w:sahl",
+    "kind": "word",
+    "ar": "سَهْلٌ",
+    "fr": "facile",
+    "translit": "sahlun",
+    "note": "Au féminin : {ar|سَهْلَةٌ}.",
+    "example": { "ar": "الْعَرَبِيَّةُ لُغَةٌ سَهْلَةٌ.", "fr": "L'arabe est une langue facile." }
+  },
+  {
+    "id": "w:sab",
+    "kind": "word",
+    "ar": "صَعْبٌ",
+    "fr": "difficile",
+    "translit": "ṣaʿbun",
+    "note": "Au féminin : {ar|صَعْبَةٌ}. Contraire : {ar|سَهْلٌ}.",
+    "example": { "ar": "الْفَرَنْسِيَّةُ لُغَةٌ صَعْبَةٌ.", "fr": "Le français est une langue difficile." }
+  },
+  {
+    "id": "w:mujtahid",
+    "kind": "word",
+    "ar": "مُجْتَهِدٌ",
+    "fr": "studieux, appliqué",
+    "translit": "mujtahidun",
+    "plural": "مُجْتَهِدُونَ",
+    "note": "Il décrit quelqu'un qui fournit beaucoup d'efforts dans son travail. Au féminin : {ar|مُجْتَهِدَةٌ}.",
+    "example": { "ar": "عَمَّارٌ طَالِبٌ مُجْتَهِدٌ.", "fr": "ʿAmmār est un étudiant studieux." }
+  },
+  {
+    "id": "w:hadd",
+    "kind": "word",
+    "ar": "حَادٌّ",
+    "fr": "tranchant, aigu",
+    "translit": "ḥāddun",
+    "note": "Il se dit par exemple d'une lame (tranchante) ou d'un son (aigu). Le {ar|د} est doublé (shadda). Au féminin : {ar|حَادَّةٌ}."
+  },
+  {
+    "id": "w:jawan",
+    "kind": "word",
+    "ar": "جَوْعَانُ",
+    "fr": "qui a faim, affamé",
+    "translit": "jawʿānu",
+    "plural": "جِيَاعٌ",
+    "note": "Remarque la fin du mot : une damma simple, sans tanwin. Tu sauras pourquoi dans l'explication qui suit.",
+    "example": { "ar": "أَنَا جَوْعَانُ.", "fr": "J'ai faim." }
+  },
+  {
+    "id": "w:ataan",
+    "kind": "word",
+    "ar": "عَطْشَانُ",
+    "fr": "qui a soif, assoiffé",
+    "translit": "ʿaṭshānu",
+    "plural": "عِطَاشٌ",
+    "example": { "ar": "أَنَا عَطْشَانُ.", "fr": "J'ai soif." }
+  },
+  {
+    "id": "w:ghadban",
+    "kind": "word",
+    "ar": "غَضْبَانُ",
+    "fr": "en colère, fâché",
+    "translit": "ghaḍbānu",
+    "plural": "غِضَابٌ",
+    "example": { "ar": "الْمُدَرِّسُ غَضْبَانُ.", "fr": "L'enseignant est en colère." }
+  },
+  {
+    "id": "w:kaslan",
+    "kind": "word",
+    "ar": "كَسْلَانُ",
+    "fr": "paresseux",
+    "translit": "kaslānu",
+    "plural": "كُسَالَى",
+    "example": { "ar": "الطَّالِبُ كَسْلَانُ.", "fr": "L'étudiant est paresseux." }
+  },
+  {
+    "id": "w:malan",
+    "kind": "word",
+    "ar": "مَلْآنُ",
+    "fr": "plein, rempli",
+    "translit": "malʾānu",
+    "note": "Le {ar|آ} (alif madda) est une hamza suivie d'un alif long : on lit « malʾānu ».",
+    "example": { "ar": "الْكُوبُ مَلْآنُ.", "fr": "Le verre est plein." }
+  },
+  {
+    "id": "w:lugha",
+    "kind": "word",
+    "ar": "لُغَةٌ",
+    "fr": "une langue",
+    "translit": "lughatun",
+    "plural": "لُغَاتٌ",
+    "gender": "f",
+    "note": "Il désigne la langue qu'on parle (l'arabe, le français…), pas la langue de la bouche.",
+    "example": { "ar": "هٰذِهِ لُغَةٌ جَمِيلَةٌ.", "fr": "C'est une belle langue." }
+  },
+  {
+    "id": "w:arabiyya",
+    "kind": "word",
+    "ar": "الْعَرَبِيَّةُ",
+    "fr": "l'arabe (la langue arabe)",
+    "translit": "al-ʿarabiyyatu",
+    "gender": "f",
+    "note": "C'est le féminin de {ar|عَرَبِيٌّ} (« arabe »), car {ar|اللُّغَةُ} (la langue) est féminin : {ar|اللُّغَةُ الْعَرَبِيَّةُ}. Les noms de langues sont féminins.",
+    "example": { "ar": "الْعَرَبِيَّةُ لُغَةٌ جَمِيلَةٌ.", "fr": "L'arabe est une belle langue." }
+  },
+  {
+    "id": "w:inkiliziyya",
+    "kind": "word",
+    "ar": "الْإِنْكِلِيزِيَّةُ",
+    "fr": "l'anglais",
+    "translit": "al-inkilīziyyatu",
+    "gender": "f",
+    "note": "On trouve aussi l'orthographe {ar|الْإِنْجِلِيزِيَّةُ}.",
+    "example": { "ar": "الْإِنْكِلِيزِيَّةُ لُغَةٌ جَمِيلَةٌ.", "fr": "L'anglais est une belle langue." }
+  },
+  {
+    "id": "w:faransiyya",
+    "kind": "word",
+    "ar": "الْفَرَنْسِيَّةُ",
+    "fr": "le français",
+    "translit": "al-faransiyyatu",
+    "gender": "f",
+    "example": { "ar": "الْفَرَنْسِيَّةُ لُغَةٌ جَمِيلَةٌ جِدًّا.", "fr": "Le français est une très belle langue." }
+  },
+  {
+    "id": "w:fakiha",
+    "kind": "word",
+    "ar": "فَاكِهَةٌ",
+    "fr": "un fruit",
+    "translit": "fākihatun",
+    "plural": "فَوَاكِهُ",
+    "gender": "f",
+    "example": { "ar": "هٰذِهِ فَاكِهَةٌ.", "fr": "C'est un fruit." }
+  },
+  {
+    "id": "w:tuffah",
+    "kind": "word",
+    "ar": "تُفَّاحٌ",
+    "fr": "des pommes",
+    "translit": "tuffāḥun",
+    "gender": "m",
+    "note": "Nom collectif : il désigne les pommes en général. Une seule pomme se dit {ar|تُفَّاحَةٌ}.",
+    "example": { "ar": "التُّفَّاحُ فَاكِهَةٌ.", "fr": "La pomme est un fruit." }
+  },
+  {
+    "id": "w:tair",
+    "kind": "word",
+    "ar": "طَائِرٌ",
+    "fr": "un oiseau",
+    "translit": "ṭāʾirun",
+    "gender": "m",
+    "example": { "ar": "الطَّائِرُ صَغِيرٌ.", "fr": "L'oiseau est petit." }
+  },
+  {
+    "id": "w:usfur",
+    "kind": "word",
+    "ar": "عُصْفُورٌ",
+    "fr": "un petit oiseau, un moineau",
+    "translit": "ʿuṣfūrun",
+    "plural": "عَصَافِيرُ",
+    "gender": "m",
+    "example": { "ar": "الْعُصْفُورُ طَائِرٌ صَغِيرٌ.", "fr": "Le moineau est un petit oiseau." }
+  },
+  {
+    "id": "w:yawm",
+    "kind": "word",
+    "ar": "يَوْمٌ",
+    "fr": "un jour, une journée",
+    "translit": "yawmun",
+    "plural": "أَيَّامٌ",
+    "gender": "m",
+    "example": { "ar": "هٰذَا يَوْمٌ جَمِيلٌ.", "fr": "C'est une belle journée." }
+  },
+  {
+    "id": "w:huna",
+    "kind": "word",
+    "ar": "هُنَا",
+    "fr": "ici",
+    "translit": "hunā",
+    "note": "Contraire de {ar|هُنَاكَ} (là-bas).",
+    "example": { "ar": "الْمَسْجِدُ هُنَا.", "fr": "La mosquée est ici." }
+  },
+  {
+    "id": "w:inda",
+    "kind": "word",
+    "ar": "عِنْدَ",
+    "fr": "chez, auprès de",
+    "translit": "ʿinda",
+    "note": "Il indique la personne chez qui l'on est. Comme {ar|تَحْتَ}, il se termine par une fatha, et le nom qui le suit est à la kasra : {ar|عِنْدَ الْمُدِيرِ}.",
+    "example": { "ar": "زَيْدٌ عِنْدَ مُحَمَّدٍ.", "fr": "Zayd est chez Muḥammad." }
+  },
+  {
+    "id": "w:thanawiyya",
+    "kind": "word",
+    "ar": "الثَّانَوِيَّةُ",
+    "fr": "le lycée",
+    "translit": "ath-thānawiyyatu",
+    "icon": "school",
+    "gender": "f",
+    "note": "Mot à mot : « l'école secondaire », {ar|الْمَدْرَسَةُ الثَّانَوِيَّةُ}.",
+    "example": { "ar": "زَيْدٌ فِي الثَّانَوِيَّةِ.", "fr": "Zayd est au lycée." }
+  },
+  {
+    "id": "w:madina",
+    "kind": "word",
+    "ar": "مَدِينَةٌ",
+    "fr": "une ville",
+    "translit": "madīnatun",
+    "plural": "مُدُنٌ",
+    "gender": "f",
+    "example": { "ar": "مَكَّةُ مَدِينَةٌ كَبِيرَةٌ.", "fr": "La Mecque est une grande ville." }
+  },
+  {
+    "id": "w:mustawsaf",
+    "kind": "word",
+    "ar": "مُسْتَوْصَفٌ",
+    "fr": "un dispensaire",
+    "translit": "mustawṣafun",
+    "plural": "مُسْتَوْصَفَاتٌ",
+    "gender": "m",
+    "example": { "ar": "الْمُسْتَوْصَفُ هُنَا.", "fr": "Le dispensaire est ici." }
+  },
+  {
+    "id": "w:mirwaha",
+    "kind": "word",
+    "ar": "مِرْوَحَةٌ",
+    "fr": "un ventilateur",
+    "translit": "mirwaḥatun",
+    "plural": "مَرَاوِحُ",
+    "gender": "f",
+    "example": { "ar": "الْمِرْوَحَةُ فِي الْبَيْتِ.", "fr": "Le ventilateur est dans la maison." }
+  },
+  {
+    "id": "w:kub",
+    "kind": "word",
+    "ar": "كُوبٌ",
+    "fr": "un verre, un gobelet",
+    "translit": "kūbun",
+    "plural": "أَكْوَابٌ",
+    "gender": "m",
+    "note": "Le récipient dans lequel on boit.",
+    "example": { "ar": "الْمَاءُ فِي الْكُوبِ.", "fr": "L'eau est dans le verre." }
+  },
+  {
+    "id": "w:luba",
+    "kind": "word",
+    "ar": "لُعْبَةٌ",
+    "fr": "un jeu, un jouet",
+    "translit": "luʿbatun",
+    "plural": "لُعَبٌ",
+    "gender": "f",
+    "example": { "ar": "اللُّعْبَةُ فِي الْغُرْفَةِ.", "fr": "Le jouet est dans la pièce." }
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "id": "medine-t1.l09.practice-6",
+  "type": "vocabulary",
+  "title": "Exercices 2 et 3 : complète",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l09.practice-6#1",
+      "type": "tip",
+      "title": "Exercice 3 : trouve le nom qualifié",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 3 donne une phrase à trous : il faut choisir un nom qui convient à l'adjectif, en genre et en sens."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.practice-6#2",
+      "type": "fill_gap",
+      "sentence": "الْعَرَبِيَّةُ {0} سَهْلَةٌ.",
+      "fr": "L'arabe est une langue facile.",
+      "gaps": [ { "answers": ["لُغَةٌ"] } ],
+      "options": ["لُغَةٌ", "مَدِينَةٌ", "مِرْوَحَةٌ"],
+      "explain": "Un nom de langue qui puisse être « facile » : {ar|لُغَةٌ}."
+    },
+    {
+      "id": "medine-t1.l09.practice-6#3",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} قَدِيمٌ.",
+      "fr": "Je suis un ancien enseignant.",
+      "gaps": [ { "answers": ["مُدَرِّسٌ"] } ],
+      "options": ["مُدَرِّسٌ", "مُدَرِّسَةٌ"],
+      "explain": "L'adjectif {ar|قَدِيمٌ} est masculin : le nom qualifié l'est aussi."
+    },
+    {
+      "id": "medine-t1.l09.practice-6#4",
+      "type": "fill_gap",
+      "sentence": "عَمَّارٌ {0} غَنِيٌّ.",
+      "fr": "ʿAmmār est un commerçant riche.",
+      "gaps": [ { "answers": ["تَاجِرٌ"] } ],
+      "options": ["تَاجِرٌ", "مُدَرِّسَةٌ"],
+      "explain": "{ar|عَمَّارٌ} est un homme : le nom qualifié est masculin, comme l'adjectif {ar|غَنِيٌّ}."
+    },
+    {
+      "id": "medine-t1.l09.practice-6#5",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ {0} مَكْسُورَةٌ.",
+      "fr": "Ceci est une fenêtre cassée.",
+      "gaps": [ { "answers": ["نَافِذَةٌ"] } ],
+      "options": ["نَافِذَةٌ", "قَلَمٌ"],
+      "explain": "Avec {ar|هٰذِهِ} et {ar|مَكْسُورَةٌ}, il faut un nom féminin : {ar|نَافِذَةٌ}."
+    },
+    {
+      "id": "medine-t1.l09.practice-6#6",
+      "type": "tip",
+      "title": "Exercice 2 : ajoute l'adjectif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 2 donne une phrase et un adjectif à ajouter. Il faut le mettre à la bonne forme : l'article {ar|الْ} si le nom est défini, et le même cas que le nom."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.practice-6#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Où est le nouvel enseignant ?",
+      "answers": ["أَيْنَ الْمُدَرِّسُ الْجَدِيدُ؟"]
+    },
+    {
+      "id": "medine-t1.l09.practice-6#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le commerçant est dans le grand marché.",
+      "answers": ["التَّاجِرُ فِي السُّوقِ الْكَبِيرِ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-6#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis un ancien étudiant.",
+      "answers": ["أَنَا طَالِبٌ قَدِيمٌ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-6#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le nouvel étudiant est allé chez le directeur.",
+      "answers": ["ذَهَبَ الطَّالِبُ الْجَدِيدُ إِلَى الْمُدِيرِ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-6#11",
+      "type": "order",
+      "fr": "Qui est le grand garçon ?",
+      "answers": [["مَنِ", "الْوَلَدُ", "الطَّوِيلُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l09.practice-6#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Fayṣal est un médecin célèbre.",
+      "answers": ["فَيْصَلٌ طَبِيبٌ شَهِيرٌ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-6#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "À qui est ce lit cassé ?",
+      "answers": ["لِمَنْ هٰذَا السَّرِيرُ الْمَكْسُورُ؟"]
+    },
+    {
+      "id": "medine-t1.l09.practice-6#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "À qui est cette belle voiture ?",
+      "answers": ["لِمَنْ هٰذِهِ السَّيَّارَةُ الْجَمِيلَةُ؟"]
+    }
+  ]
+}

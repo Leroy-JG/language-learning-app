@@ -1,0 +1,92 @@
+{
+  "id": "medine-t1.l09.practice-3",
+  "type": "vocabulary",
+  "title": "La page du livre : avec ou sans adjectif",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l09.practice-3#1",
+      "type": "tip",
+      "title": "Le livre, page « {ar|أ} »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La première page de la leçon alterne une phrase sans adjectif et la même phrase avec un adjectif."
+        },
+        { "type": "example", "ar": "مَنْ هٰذَا الرَّجُلُ؟", "fr": "Qui est cet homme ?" },
+        { "type": "example", "ar": "هُوَ عَبَّاسٌ.", "fr": "C'est ʿAbbās." },
+        { "type": "example", "ar": "عَبَّاسٌ تَاجِرٌ.", "fr": "ʿAbbās est un commerçant." },
+        { "type": "example", "ar": "عَبَّاسٌ تَاجِرٌ غَنِيٌّ.", "fr": "ʿAbbās est un commerçant riche." },
+        { "type": "example", "ar": "حَامِدٌ مُدَرِّسٌ.", "fr": "Ḥāmid est un enseignant." },
+        { "type": "example", "ar": "حَامِدٌ مُدَرِّسٌ جَدِيدٌ.", "fr": "Ḥāmid est un nouvel enseignant." }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.practice-3#2",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|عَبَّاسٌ تَاجِرٌ غَنِيٌّ}, quel mot peut-on supprimer sans casser la phrase ?" },
+      "choices": [ { "ar": "غَنِيٌّ" }, { "ar": "تَاجِرٌ" }, { "ar": "عَبَّاسٌ" } ],
+      "answer": 0,
+      "explain": "{ar|عَبَّاسٌ تَاجِرٌ} est déjà une phrase complète : l'adjectif {ar|غَنِيٌّ} s'y ajoute."
+    },
+    {
+      "id": "medine-t1.l09.practice-3#3",
+      "type": "order",
+      "fr": "Ḥāmid est un nouvel enseignant.",
+      "answers": [["حَامِدٌ", "مُدَرِّسٌ", "جَدِيدٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l09.practice-3#4",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "ʿAbbās est un commerçant riche.",
+      "answers": ["عَبَّاسٌ تَاجِرٌ غَنِيٌّ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-3#5",
+      "type": "fill_gap",
+      "sentence": "عَبَّاسٌ تَاجِرٌ {0}.",
+      "fr": "ʿAbbās est un commerçant riche.",
+      "gaps": [ { "answers": ["غَنِيٌّ"] } ],
+      "options": ["غَنِيٌّ", "غَنِيَّةٌ"],
+      "explain": "{ar|تَاجِرٌ} est masculin : l'adjectif aussi."
+    },
+    {
+      "id": "medine-t1.l09.practice-3#6",
+      "type": "true_false",
+      "statement": { "fr": "L'adjectif n'est pas indispensable à la phrase." },
+      "answer": true,
+      "explain": "On peut l'enlever : {ar|حَامِدٌ مُدَرِّسٌ} reste une phrase correcte."
+    },
+    {
+      "id": "medine-t1.l09.practice-3#7",
+      "type": "spot",
+      "instruction": "Touche l'adjectif.",
+      "words": ["حَامِدٌ", "مُدَرِّسٌ", "جَدِيدٌ."],
+      "answers": [2],
+      "fr": "Ḥāmid est un nouvel enseignant."
+    },
+    {
+      "id": "medine-t1.l09.practice-3#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ḥāmid est un enseignant.",
+      "answers": ["حَامِدٌ مُدَرِّسٌ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-3#9",
+      "type": "order",
+      "fr": "Qui est cet homme ?",
+      "answers": [["مَنْ", "هٰذَا", "الرَّجُلُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l09.practice-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ḥāmid est un nouvel enseignant.",
+      "answers": ["حَامِدٌ مُدَرِّسٌ جَدِيدٌ."]
+    }
+  ]
+}

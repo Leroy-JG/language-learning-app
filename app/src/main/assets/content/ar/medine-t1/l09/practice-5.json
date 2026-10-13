@@ -1,0 +1,98 @@
+{
+  "id": "medine-t1.l09.practice-5",
+  "type": "vocabulary",
+  "title": "Exercice 1 : lis et écris",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t1.l09.practice-5#1",
+      "type": "tip",
+      "title": "Exercice 1 : lis et écris",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 1 du livre fait lire et écrire des phrases avec un adjectif. Dans cette activité, tu entends chaque phrase et tu l'écris."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l09.practice-5#2",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Muḥammad est un ancien étudiant.",
+      "answers": ["مُحَمَّدٌ طَالِبٌ قَدِيمٌ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-5#3",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Cet homme-là est-il un nouvel enseignant ? Non. C'est un nouveau médecin.",
+      "answers": ["أَذٰلِكَ الرَّجُلُ مُدَرِّسٌ جَدِيدٌ؟ لَا. هُوَ طَبِيبٌ جَدِيدٌ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-5#4",
+      "type": "spot",
+      "instruction": "Touche l'adjectif.",
+      "words": ["أَذٰلِكَ", "الرَّجُلُ", "مُدَرِّسٌ", "جَدِيدٌ؟"],
+      "answers": [3],
+      "fr": "Cet homme-là est-il un nouvel enseignant ?"
+    },
+    {
+      "id": "medine-t1.l09.practice-5#5",
+      "type": "order",
+      "fr": "ʿAbbās est un commerçant célèbre.",
+      "answers": [["عَبَّاسٌ", "تَاجِرٌ", "شَهِيرٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l09.practice-5#6",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Bilāl est un grand ingénieur.",
+      "answers": ["بِلَالٌ مُهَنْدِسٌ كَبِيرٌ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-5#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'anglais est une langue difficile.",
+      "answers": ["الْإِنْكِلِيزِيَّةُ لُغَةٌ صَعْبَةٌ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-5#8",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans {ar|الْإِنْكِلِيزِيَّةُ لُغَةٌ صَعْبَةٌ}, l'adjectif {ar|صَعْبَةٌ} a le {ar|ة} parce que {ar|لُغَةٌ} est féminin."
+      },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l09.practice-5#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Es-tu un homme riche ? Non. Je suis un homme pauvre.",
+      "answers": ["أَأَنْتَ رَجُلٌ غَنِيٌّ؟ لَا. أَنَا رَجُلٌ فَقِيرٌ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-5#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La Mecque est une grande ville.",
+      "answers": ["مَكَّةُ مَدِينَةٌ كَبِيرَةٌ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-5#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Es-tu un ancien enseignant ? Non. Je suis un nouvel enseignant.",
+      "answers": ["أَأَنْتَ مُدَرِّسٌ قَدِيمٌ؟ لَا. أَنَا مُدَرِّسٌ جَدِيدٌ."]
+    },
+    {
+      "id": "medine-t1.l09.practice-5#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ḥāmid est-il un étudiant paresseux ? Non. C'est un étudiant studieux.",
+      "answers": ["أَحَامِدٌ طَالِبٌ كَسْلَانُ؟ لَا. هُوَ طَالِبٌ مُجْتَهِدٌ."]
+    }
+  ]
+}
