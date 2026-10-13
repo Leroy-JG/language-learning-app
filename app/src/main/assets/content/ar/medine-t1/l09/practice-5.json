@@ -81,7 +81,7 @@
       "punctuation": "."
     },
     {
-      "id": "medine-t1.l09.practice-5#11",
+      "id": "medine-t1.l09.practice-5#10b",
       "type": "spot",
       "instruction": "Touche l'adjectif.",
       "words": ["أَأَنْتَ", "مُدَرِّسٌ", "قَدِيمٌ؟"],
@@ -89,14 +89,14 @@
       "fr": "Es-tu un ancien enseignant ?"
     },
     {
-      "id": "medine-t1.l09.practice-5#12",
+      "id": "medine-t1.l09.practice-5#11",
       "type": "typing",
       "ask": "audio",
       "fr": "Es-tu un ancien enseignant ? Non. Je suis un nouvel enseignant.",
       "answers": ["أَأَنْتَ مُدَرِّسٌ قَدِيمٌ؟ لَا. أَنَا مُدَرِّسٌ جَدِيدٌ."]
     },
     {
-      "id": "medine-t1.l09.practice-5#13",
+      "id": "medine-t1.l09.practice-5#12",
       "type": "typing",
       "ask": "audio",
       "fr": "Ḥāmid est-il un étudiant paresseux ? Non. C'est un étudiant studieux.",
