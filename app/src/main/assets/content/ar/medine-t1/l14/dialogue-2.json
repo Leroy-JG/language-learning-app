@@ -1,0 +1,176 @@
+{
+  "id": "medine-t1.l14.dialogue-2",
+  "type": "dialogue",
+  "title": "Le camarade venu d'Angleterre",
+  "icon": "man",
+  "screens": [
+    {
+      "id": "medine-t1.l14.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Le camarade venu d'Angleterre",
+      "intro": "Ḥāmid remarque un jeune homme dans la voiture des frères et interroge Maḥmūd.",
+      "speakers": {
+        "A": { "name": "Ḥāmid", "voice": "m1" },
+        "B": { "name": "Maḥmūd", "voice": "m2" },
+        "C": { "name": "Yūsuf", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "مَنْ ذٰلِكَ الْفَتَى الَّذِي فِي سَيَّارَتِكُمْ؟",
+          "fr": "Qui est ce jeune homme qui est dans votre voiture ?"
+        },
+        { "speaker": "B", "ar": "هُوَ زَمِيلِي.", "fr": "C'est mon camarade." },
+        { "speaker": "A", "ar": "مِنْ أَيْنَ هُوَ؟", "fr": "D'où vient-il ?" },
+        { "speaker": "B", "ar": "هُوَ مِنْ إِنْكِلْتِرَا.", "fr": "Il vient d'Angleterre." },
+        { "speaker": "A", "ar": "مَا اسْمُهُ؟", "fr": "Quel est son nom ?" },
+        { "speaker": "B", "ar": "اِسْمُهُ وِلْيَمُ.", "fr": "Son nom est William." },
+        { "speaker": "A", "ar": "أَمُسْلِمٌ هُوَ؟", "fr": "Est-il musulman ?" },
+        {
+          "speaker": "B",
+          "ar": "لَا. هُوَ نَصْرَانِيٌّ. أَبُوهُ أُسْتَاذِي. اِسْمُهُ الدُّكْتُورُ إِدْوَرْدُ.",
+          "fr": "Non. Il est chrétien. Son père est mon professeur. Son nom est le docteur Edward."
+        },
+        {
+          "speaker": "B",
+          "ar": "يَهْدِيهِمَا اللَّهُ إِلَى الْإِسْلَامِ.",
+          "fr": "Qu'Allah les guide tous les deux vers l'islam."
+        },
+        {
+          "speaker": "A",
+          "ar": "أَذَهَبْتُمْ إِلَى الْمُسْتَشْفَى لِزِيَارَةِ عَمِّكُمُ الْيَوْمَ؟",
+          "fr": "Êtes-vous allés à l'hôpital rendre visite à votre oncle aujourd'hui ?"
+        },
+        { "speaker": "C", "ar": "نَعَمْ. ذَهَبْنَا.", "fr": "Oui. Nous y sommes allés." }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Retiens seulement le sens de ces formes : tu verras plus tard comment elles se construisent."
+        },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens"],
+          "rows": [
+            [
+              "{ar|الْفَتَى الَّذِي فِي سَيَّارَتِكُمْ}",
+              "« le jeune homme qui est dans votre voiture » : {ar|الَّذِي} veut dire « qui » (chapitre 12)"
+            ],
+            [
+              "{ar|أَذَهَبْتُمْ}",
+              "« êtes-vous allés ? » : {ar|أَ} (« est-ce que ? ») + {ar|ذَهَبْتُمْ} (« vous êtes allés »)"
+            ],
+            ["{ar|ذَهَبْنَا}", "« nous sommes allés » : {ar|ذَهَبَ} + {ar|نَا}"],
+            [
+              "{ar|يَهْدِيهِمَا اللَّهُ}",
+              "« qu'Allah les guide tous les deux » : présent du verbe {ar|هَدَى} (vu dans ce chapitre), avec {ar|هِمَا} (« eux deux »)"
+            ],
+            [
+              "{ar|لِزِيَارَةِ عَمِّكُمُ}",
+              "« pour rendre visite à votre oncle » : {ar|لِ} (« pour ») + {ar|زِيَارَةِ} (annexion)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans {ar|اِسْمُهُ الدُّكْتُورُ إِدْوَرْدُ}, la phrase dit littéralement « son nom est le docteur Edward ». Remarque {ar|إِدْوَرْدُ} : un nom propre non arabe de plus de trois lettres, donc sans tanwin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "D'où vient le camarade de Maḥmūd ?" },
+      "choices": [ { "fr": "D'Angleterre" }, { "fr": "D'Amérique" }, { "fr": "De France" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l14.dialogue-2#1" },
+      "explain": "{ar|هُوَ مِنْ إِنْكِلْتِرَا} : « il vient d'Angleterre »."
+    },
+    {
+      "id": "medine-t1.l14.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Comment s'appelle-t-il ?" },
+      "choices": [ { "fr": "William" }, { "fr": "Edward" }, { "fr": "Yūsuf" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l14.dialogue-2#1" },
+      "explain": "{ar|اِسْمُهُ وِلْيَمُ} : « son nom est William »."
+    },
+    {
+      "id": "medine-t1.l14.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Le camarade de Maḥmūd est musulman." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l14.dialogue-2#1" },
+      "explain": "{ar|لَا. هُوَ نَصْرَانِيٌّ} : « non, il est chrétien »."
+    },
+    {
+      "id": "medine-t1.l14.dialogue-2#6",
+      "type": "question",
+      "prompt": { "fr": "Qui est le docteur Edward ?" },
+      "choices": [
+        { "fr": "Le père de William et le professeur de Maḥmūd" },
+        { "fr": "Le frère de William" },
+        { "fr": "Le cheikh ʿĪsā" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l14.dialogue-2#1" },
+      "explain": "{ar|أَبُوهُ أُسْتَاذِي} : « son père est mon professeur »."
+    },
+    {
+      "id": "medine-t1.l14.dialogue-2#7",
+      "type": "question",
+      "prompt": { "fr": "Où sont allés les frères aujourd'hui ?" },
+      "choices": [ { "fr": "À l'hôpital, voir leur oncle" }, { "fr": "À l'aéroport" }, { "fr": "Au marché" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l14.dialogue-2#1" },
+      "explain": "{ar|أَذَهَبْتُمْ إِلَى الْمُسْتَشْفَى لِزِيَارَةِ عَمِّكُمُ الْيَوْمَ؟ نَعَمْ. ذَهَبْنَا.}"
+    },
+    {
+      "id": "medine-t1.l14.dialogue-2#8",
+      "type": "fill_gap",
+      "sentence": "مِنْ {0} هُوَ؟",
+      "fr": "D'où vient-il ?",
+      "gaps": [ { "answers": ["أَيْنَ"] } ],
+      "options": ["أَيْنَ", "مَنْ", "كَيْفَ"],
+      "context": { "dialogue": "medine-t1.l14.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l14.dialogue-2#9",
+      "type": "fill_gap",
+      "sentence": "هُوَ مِنْ {0}.",
+      "fr": "Il vient d'Angleterre.",
+      "gaps": [ { "answers": ["إِنْكِلْتِرَا"] } ],
+      "options": ["إِنْكِلْتِرَا", "فَرَنْسَا", "أَمْرِيكَا"],
+      "context": { "dialogue": "medine-t1.l14.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l14.dialogue-2#10",
+      "type": "order",
+      "fr": "Quel est son nom ?",
+      "answers": [["مَا", "اسْمُهُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l14.dialogue-2#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِنْ أَيْنَ هُوَ؟",
+      "answers": ["هُوَ مِنْ إِنْكِلْتِرَا.", "مِنْ إِنْكِلْتِرَا."],
+      "fr": "Il vient d'Angleterre.",
+      "instruction": "Réponds : il vient d'Angleterre.",
+      "context": { "dialogue": "medine-t1.l14.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l14.dialogue-2#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Son nom est William.",
+      "answers": ["اِسْمُهُ وِلْيَمُ."]
+    }
+  ]
+}

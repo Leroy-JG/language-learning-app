@@ -1,0 +1,94 @@
+{
+  "id": "medine-t1.l14.recap",
+  "type": "review",
+  "title": "Rappel : les noms interrogatifs",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l14.recap#1",
+      "type": "tip",
+      "title": "Les noms interrogatifs que tu connais",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour poser une question, tu connais déjà quatre noms de base. Chacun interroge sur une chose précise, et aucun ne change de forme."
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Il demande…", "Exemple"],
+          "rows": [
+            ["{ar|مَا}", "une chose, un animal", "{ar|مَا هٰذَا؟}"],
+            ["{ar|مَنْ}", "une personne", "{ar|مَنْ هٰذَا؟}"],
+            ["{ar|أَيْنَ}", "un lieu", "{ar|أَيْنَ الْكِتَابُ؟}"],
+            ["{ar|كَيْفَ}", "l'état, la manière", "{ar|كَيْفَ حَالُكَ؟}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Tu connais aussi {ar|مَاذَا} (« qu'y a-t-il ? ») et {ar|لِمَاذَا} (« pourquoi ? »). Dans ce chapitre, tu vas découvrir un cinquième nom interrogatif, qui, lui, change de forme."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.recap#2",
+      "type": "tip",
+      "title": "Touche un mot pour l'écouter",
+      "blocks": [ { "type": "gallery", "title": "Les noms interrogatifs", "items": ["w:ma", "w:man", "w:ayna", "w:kayfa"] } ]
+    },
+    {
+      "id": "medine-t1.l14.recap#3",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:ma", "w:man", "w:ayna", "w:kayfa"]
+    },
+    {
+      "id": "medine-t1.l14.recap#4",
+      "type": "sort",
+      "categories": [ { "ar": "مَنْ" }, { "ar": "أَيْنَ" }, { "ar": "مَا" } ],
+      "cards": [
+        { "ar": "هُوَ زَيْدٌ.", "category": 0 },
+        { "ar": "هِيَ زَيْنَبُ.", "category": 0 },
+        { "ar": "الْكِتَابُ عَلَى الْمَكْتَبِ.", "category": 1 },
+        { "ar": "أَبِي فِي الْمَسْجِدِ.", "category": 1 },
+        { "ar": "هٰذَا قَلَمٌ.", "category": 2 },
+        { "ar": "هٰذَا مِفْتَاحٌ.", "category": 2 }
+      ],
+      "instruction": "Quelle question a cette réponse ? Range chaque réponse sous le bon nom interrogatif.",
+      "explain": "{ar|مَنْ} : une personne ; {ar|أَيْنَ} : un lieu ; {ar|مَا} : une chose."
+    },
+    {
+      "id": "medine-t1.l14.recap#5",
+      "type": "fill_gap",
+      "sentence": "{0} حَالُكُمْ؟",
+      "fr": "Comment allez-vous ?",
+      "gaps": [ { "answers": ["كَيْفَ"] } ],
+      "options": ["كَيْفَ", "مَنْ", "أَيْنَ"],
+      "explain": "On demande l'état de quelqu'un avec {ar|كَيْفَ}."
+    },
+    {
+      "id": "medine-t1.l14.recap#6",
+      "type": "question",
+      "prompt": { "fr": "Quel nom interrogatif demande un lieu ?" },
+      "choices": [ { "ar": "أَيْنَ" }, { "ar": "مَنْ" }, { "ar": "كَيْفَ" } ],
+      "answer": 0,
+      "explain": "{ar|أَيْنَ} veut dire « où ? »."
+    },
+    {
+      "id": "medine-t1.l14.recap#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Où est ta maison ?",
+      "answers": ["أَيْنَ بَيْتُكَ؟"]
+    },
+    {
+      "id": "medine-t1.l14.recap#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ هٰذَا؟",
+      "answers": ["هٰذَا رَجُلٌ.", "رَجُلٌ."],
+      "fr": "C'est un homme.",
+      "instruction": "Réponds : c'est un homme.",
+      "context": { "icon": "man" }
+    }
+  ]
+}

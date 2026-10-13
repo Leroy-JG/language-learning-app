@@ -1,0 +1,118 @@
+{
+  "id": "medine-t1.l14.practice-2",
+  "type": "grammar",
+  "title": "Notre mère, votre oncle",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l14.practice-2#1",
+      "type": "tip",
+      "title": "L'exercice du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne un modèle : {ar|بَيْتٌ} devient {ar|بَيْتُنَا} (notre maison) et {ar|بَيْتُكُمْ} (votre maison). À toi de faire la même chose avec d'autres noms."
+        },
+        {
+          "type": "table",
+          "header": ["Nom", "Notre…", "Votre… (à plusieurs hommes)"],
+          "rows": [
+            ["{ar|أُمٌّ} (une mère)", "{ar|أُمُّنَا}", "{ar|أُمُّكُمْ}"],
+            ["{ar|عَمٌّ} (un oncle paternel)", "{ar|عَمُّنَا}", "{ar|عَمُّكُمْ}"],
+            ["{ar|صَدِيقٌ} (un ami)", "{ar|صَدِيقُنَا}", "{ar|صَدِيقُكُمْ}"],
+            ["{ar|دِينٌ} (une religion)", "{ar|دِينُنَا}", "{ar|دِينُكُمْ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pour {ar|مَدْرَسَةٌ}, {ar|أُخْتٌ}, {ar|لُغَةٌ} (le {ar|ة} devient {ar|ت}) et pour {ar|أَبٌ}, {ar|أَخٌ} (le {ar|و}), rappelle-toi les astuces précédentes."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.practice-2#2",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "notre mère",
+      "answers": ["أُمُّنَا"]
+    },
+    {
+      "id": "medine-t1.l14.practice-2#3",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "votre oncle paternel (à plusieurs hommes)",
+      "answers": ["عَمُّكُمْ"]
+    },
+    {
+      "id": "medine-t1.l14.practice-2#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "notre ami",
+      "answers": ["صَدِيقُنَا"]
+    },
+    {
+      "id": "medine-t1.l14.practice-2#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "votre école (à plusieurs hommes)",
+      "answers": ["مَدْرَسَتُكُمْ"]
+    },
+    {
+      "id": "medine-t1.l14.practice-2#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "notre sœur",
+      "answers": ["أُخْتُنَا"]
+    },
+    {
+      "id": "medine-t1.l14.practice-2#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "notre langue",
+      "answers": ["لُغَتُنَا"]
+    },
+    {
+      "id": "medine-t1.l14.practice-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "votre religion (à plusieurs hommes)",
+      "answers": ["دِينُكُمْ"]
+    },
+    {
+      "id": "medine-t1.l14.practice-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "notre père",
+      "answers": ["أَبُونَا"]
+    },
+    {
+      "id": "medine-t1.l14.practice-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "votre frère (à plusieurs hommes)",
+      "answers": ["أَخُوكُمْ"]
+    },
+    {
+      "id": "medine-t1.l14.practice-2#11",
+      "type": "fill_gap",
+      "sentence": "{0} كَبِيرَةٌ وَمَدْرَسَتُكُمْ صَغِيرَةٌ.",
+      "fr": "Notre école est grande et votre école est petite.",
+      "gaps": [ { "answers": ["مَدْرَسَتُنَا"] } ],
+      "options": ["مَدْرَسَتُنَا", "مَدْرَسَتُهُمْ", "مَدْرَسَتِي"]
+    },
+    {
+      "id": "medine-t1.l14.practice-2#12",
+      "type": "order",
+      "fr": "Notre père est l'ami de votre oncle paternel.",
+      "answers": [["أَبُونَا", "صَدِيقُ", "عَمِّكُمْ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l14.practice-2#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Notre école est grande et votre école est petite.",
+      "answers": ["مَدْرَسَتُنَا كَبِيرَةٌ وَمَدْرَسَتُكُمْ صَغِيرَةٌ."]
+    }
+  ]
+}

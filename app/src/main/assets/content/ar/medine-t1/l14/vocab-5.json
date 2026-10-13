@@ -1,0 +1,93 @@
+{
+  "id": "medine-t1.l14.vocab-5",
+  "type": "vocabulary",
+  "title": "Guérir et guider",
+  "icon": "doctor",
+  "screens": [
+    { "id": "medine-t1.l14.vocab-5#1", "type": "present", "item": "w:shafa" },
+    { "id": "medine-t1.l14.vocab-5#2", "type": "present", "item": "w:hada" },
+    {
+      "id": "medine-t1.l14.vocab-5#3",
+      "type": "tip",
+      "title": "Leurs formes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme aux chapitres précédents, chaque verbe est cité **au passé, à la troisième personne du masculin singulier**. Voici ses quatre formes, données pour que tu les reconnaisses : tu n'as pas à les apprendre maintenant."
+        },
+        {
+          "type": "table",
+          "header": ["Forme", "guérir", "guider"],
+          "rows": [
+            ["{ar|الْمَاضِي} (passé)", "{ar|شَفَى}", "{ar|هَدَى}"],
+            ["{ar|الْمُضَارِعُ} (présent, futur)", "{ar|يَشْفِي}", "{ar|يَهْدِي}"],
+            ["{ar|الْأَمْرُ} (impératif)", "{ar|اِشْفِ}", "{ar|اِهْدِ}"],
+            ["{ar|الْمَصْدَرُ} (nom d'action)", "{ar|شِفَاءٌ}", "{ar|هِدَايَةٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Comme au chapitre 8, l'alif de l'impératif prend une kasra quand l'avant-dernière lettre du présent porte une kasra ({ar|يَشْفِي} → {ar|اِشْفِ}, {ar|يَهْدِي} → {ar|اِهْدِ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.vocab-5#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:shafa",
+      "distractors": ["w:hada", "w:dhahaba"]
+    },
+    {
+      "id": "medine-t1.l14.vocab-5#5",
+      "type": "tip",
+      "title": "Des vœux pour les autres",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "On emploie souvent ces verbes pour souhaiter quelque chose à quelqu'un. Voici deux phrases simples au passé :"
+        },
+        { "type": "example", "ar": "شَفَى اللَّهُ الْمَرِيضَ.", "fr": "Allah a guéri le malade." },
+        {
+          "type": "example",
+          "ar": "هَدَى اللَّهُ الرَّجُلَ إِلَى الْإِسْلَامِ.",
+          "fr": "Allah a guidé l'homme vers l'islam."
+        },
+        {
+          "type": "note",
+          "text": "Ce qui est guéri ou guidé est à l'accusatif : il prend la fatha ({ar|الْمَرِيضَ}, {ar|الرَّجُلَ}), comme au chapitre 11."
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "Pour souhaiter une guérison, on dit {ar|شَفَاهُ اللَّهُ} (« qu'Allah le guérisse ») ou {ar|شِفَاءُ اللَّهِ}. Pour demander la guidance, {ar|يَهْدِيهِ اللَّهُ} (« qu'Allah le guide »). Tu les retrouveras dans le texte du livre."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.vocab-5#6",
+      "type": "fill_gap",
+      "sentence": "{0} اللَّهُ الْمَرِيضَ.",
+      "fr": "Allah a guéri le malade.",
+      "gaps": [ { "answers": ["شَفَى"] } ],
+      "options": ["شَفَى", "هَدَى"]
+    },
+    {
+      "id": "medine-t1.l14.vocab-5#7",
+      "type": "fill_gap",
+      "sentence": "{0} اللَّهُ الرَّجُلَ إِلَى الْإِسْلَامِ.",
+      "fr": "Allah a guidé l'homme vers l'islam.",
+      "gaps": [ { "answers": ["هَدَى"] } ],
+      "options": ["هَدَى", "شَفَى"]
+    },
+    {
+      "id": "medine-t1.l14.vocab-5#8",
+      "type": "true_false",
+      "statement": { "fr": "{ar|شِفَاءٌ} est le nom d'action ({ar|الْمَصْدَرُ}) du verbe {ar|شَفَى}." },
+      "answer": true,
+      "explain": "{ar|شَفَى} (« il a guéri ») donne le nom d'action {ar|شِفَاءٌ} (« la guérison »)."
+    },
+    { "id": "medine-t1.l14.vocab-5#9", "type": "typing", "ask": "fr", "item": "w:shafa" },
+    { "id": "medine-t1.l14.vocab-5#10", "type": "typing", "ask": "fr", "item": "w:hada" }
+  ]
+}

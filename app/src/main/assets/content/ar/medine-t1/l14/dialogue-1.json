@@ -1,0 +1,185 @@
+{
+  "id": "medine-t1.l14.dialogue-1",
+  "type": "dialogue",
+  "title": "Les fils du docteur Mūsā",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t1.l14.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Les fils du docteur Mūsā",
+      "intro": "Ḥāmid rencontre des jeunes gens, les fils d'un ami. Il leur pose des questions.",
+      "speakers": { "A": { "name": "Ḥāmid", "voice": "m1" }, "B": { "name": "Un des jeunes gens", "voice": "m2" } },
+      "lines": [
+        { "speaker": "B", "ar": "السَّلَامُ عَلَيْكُمْ.", "fr": "Que la paix soit sur vous." },
+        {
+          "speaker": "A",
+          "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.",
+          "fr": "Et sur vous la paix, ainsi que la miséricorde d'Allah et ses bénédictions."
+        },
+        { "speaker": "B", "ar": "كَيْفَ حَالُكَ يَا عَمِّي؟", "fr": "Comment vas-tu, mon oncle ?" },
+        {
+          "speaker": "A",
+          "ar": "أَنَا بِخَيْرٍ وَالْحَمْدُ لِلَّهِ. كَيْفَ حَالُكُمْ؟ مَنْ أَنْتُمْ؟",
+          "fr": "Je vais bien, louange à Allah. Comment allez-vous ? Qui êtes-vous ?"
+        },
+        {
+          "speaker": "B",
+          "ar": "نَحْنُ أَبْنَاءُ الدُّكْتُورِ مُوسَى.",
+          "fr": "Nous sommes les fils du docteur Mūsā."
+        },
+        {
+          "speaker": "A",
+          "ar": "أَهْلًا وَسَهْلًا وَمَرْحَبًا. أَبُوكُمْ صَدِيقِي. أَيْنَ عَمُّكُمُ الشَّيْخُ عِيسَى؟",
+          "fr": "Bienvenue ! Votre père est mon ami. Où est votre oncle paternel, le cheikh ʿĪsā ?"
+        },
+        {
+          "speaker": "B",
+          "ar": "هُوَ مَرِيضٌ. هُوَ الْآنَ فِي الْمُسْتَشْفَى.",
+          "fr": "Il est malade. Il est à l'hôpital en ce moment."
+        },
+        {
+          "speaker": "A",
+          "ar": "شِفَاءُ اللَّهِ. مَنْ هٰذِهِ الطِّفْلَةُ الَّتِي مَعَكُمْ؟",
+          "fr": "Qu'Allah le guérisse… Qui est cette petite fille qui est avec vous ?"
+        },
+        { "speaker": "B", "ar": "هِيَ أُخْتُنَا.", "fr": "C'est notre sœur." },
+        { "speaker": "A", "ar": "مَا اسْمُهَا؟", "fr": "Quel est son nom ?" },
+        { "speaker": "B", "ar": "اِسْمُهَا لَيْلَى.", "fr": "Son nom est Laylā." },
+        { "speaker": "A", "ar": "أَيْنَ بَيْتُكُمُ الْجَدِيدُ؟", "fr": "Où est votre nouvelle maison ?" },
+        {
+          "speaker": "B",
+          "ar": "بَيْتُنَا الْجَدِيدُ قَرِيبٌ مِنَ الْمَطَارِ.",
+          "fr": "Notre nouvelle maison est près de l'aéroport."
+        },
+        { "speaker": "A", "ar": "أَأَنْتُمْ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ؟", "fr": "Êtes-vous au lycée ?" },
+        {
+          "speaker": "B",
+          "ar": "لَا. نَحْنُ بِالْجَامِعَةِ. أَنَا فِي كُلِّيَّةِ الْهَنْدَسَةِ، وَمَحْمُودٌ فِي كُلِّيَّةِ الطِّبِّ، وَإِبْرَاهِيمُ فِي كُلِّيَّةِ الشَّرِيعَةِ، وَيُوسُفُ فِي كُلِّيَّةِ التِّجَارَةِ.",
+          "fr": "Non. Nous sommes à l'université. Moi, je suis à la faculté d'ingénierie, Maḥmūd à la faculté de médecine, Ibrāhīm à la faculté de la charia et Yūsuf à la faculté de commerce."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quelques formes de ce texte ne sont pas encore au programme. Retiens seulement leur sens."
+        },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens"],
+          "rows": [
+            ["{ar|يَا عَمِّي}", "« mon oncle » : une façon polie de s'adresser à un homme plus âgé"],
+            [
+              "{ar|شِفَاءُ اللَّهِ}",
+              "un souhait : « qu'Allah le guérisse » (la guérison, {ar|شِفَاءٌ}, vient du verbe {ar|شَفَى})"
+            ],
+            [
+              "{ar|الطِّفْلَةُ الَّتِي مَعَكُمْ}",
+              "« la petite fille qui est avec vous » : {ar|الَّتِي} veut dire « qui » (chapitre 12)"
+            ],
+            ["{ar|بِالْجَامِعَةِ}", "« à l'université » : {ar|بِ} + {ar|الْجَامِعَةِ} (chapitre 12)"],
+            ["{ar|كُلِّيَّةُ الشَّرِيعَةِ}", "la faculté de la charia, c'est-à-dire de la loi islamique"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|عَمُّكُمُ الشَّيْخُ عِيسَى} : « votre oncle, le cheikh ʿĪsā ». Le second nom précise le premier. Tu retrouves la damma de la mim de {ar|كُمْ} devant l'article."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Qui sont les jeunes gens ?" },
+      "choices": [
+        { "fr": "Les fils du docteur Mūsā" },
+        { "fr": "Les fils du cheikh ʿĪsā" },
+        { "fr": "Des camarades de Ḥāmid" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l14.dialogue-1#1" },
+      "explain": "{ar|نَحْنُ أَبْنَاءُ الدُّكْتُورِ مُوسَى} : « nous sommes les fils du docteur Mūsā »."
+    },
+    {
+      "id": "medine-t1.l14.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Où est le cheikh ʿĪsā ?" },
+      "choices": [ { "fr": "À l'hôpital" }, { "fr": "À la maison" }, { "fr": "À l'aéroport" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l14.dialogue-1#1" },
+      "explain": "{ar|هُوَ الْآنَ فِي الْمُسْتَشْفَى} : « il est à l'hôpital en ce moment »."
+    },
+    {
+      "id": "medine-t1.l14.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Le cheikh ʿĪsā est le père des jeunes gens." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l14.dialogue-1#1" },
+      "explain": "{ar|عَمُّكُمُ الشَّيْخُ عِيسَى} : c'est leur oncle paternel. Leur père est le docteur Mūsā."
+    },
+    {
+      "id": "medine-t1.l14.dialogue-1#6",
+      "type": "question",
+      "prompt": { "fr": "Comment s'appelle la petite fille ?" },
+      "choices": [ { "fr": "Laylā" }, { "fr": "Āmina" }, { "fr": "Fāṭima" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l14.dialogue-1#1" },
+      "explain": "{ar|اِسْمُهَا لَيْلَى} : « son nom est Laylā »."
+    },
+    {
+      "id": "medine-t1.l14.dialogue-1#7",
+      "type": "question",
+      "prompt": { "fr": "Où est la nouvelle maison des jeunes gens ?" },
+      "choices": [ { "fr": "Près de l'aéroport" }, { "fr": "Près de l'école" }, { "fr": "Près de la mosquée" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l14.dialogue-1#1" },
+      "explain": "{ar|بَيْتُنَا الْجَدِيدُ قَرِيبٌ مِنَ الْمَطَارِ}."
+    },
+    {
+      "id": "medine-t1.l14.dialogue-1#8",
+      "type": "true_false",
+      "statement": { "fr": "Les jeunes gens sont au lycée." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l14.dialogue-1#1" },
+      "explain": "{ar|نَحْنُ بِالْجَامِعَةِ} : « nous sommes à l'université »."
+    },
+    {
+      "id": "medine-t1.l14.dialogue-1#9",
+      "type": "fill_gap",
+      "sentence": "أَنَا فِي كُلِّيَّةِ {0}.",
+      "fr": "Je suis à la faculté d'ingénierie.",
+      "gaps": [ { "answers": ["الْهَنْدَسَةِ"] } ],
+      "options": ["الْهَنْدَسَةِ", "الطِّبِّ", "التِّجَارَةِ"],
+      "context": { "dialogue": "medine-t1.l14.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l14.dialogue-1#10",
+      "type": "order",
+      "fr": "Où est votre nouvelle maison ?",
+      "answers": [["أَيْنَ", "بَيْتُكُمُ", "الْجَدِيدُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l14.dialogue-1#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ بَيْتُكُمُ الْجَدِيدُ؟",
+      "answers": ["بَيْتُنَا الْجَدِيدُ قَرِيبٌ مِنَ الْمَطَارِ.", "قَرِيبٌ مِنَ الْمَطَارِ."],
+      "fr": "Notre nouvelle maison est près de l'aéroport.",
+      "instruction": "Réponds : notre nouvelle maison est près de l'aéroport.",
+      "context": { "dialogue": "medine-t1.l14.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l14.dialogue-1#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Votre père est mon ami.",
+      "answers": ["أَبُوكُمْ صَدِيقِي."]
+    }
+  ]
+}

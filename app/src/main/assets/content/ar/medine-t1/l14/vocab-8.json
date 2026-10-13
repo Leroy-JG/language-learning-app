@@ -1,0 +1,65 @@
+{
+  "id": "medine-t1.l14.vocab-8",
+  "type": "vocabulary",
+  "title": "Des prophètes, des anges et un pharaon",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t1.l14.vocab-8#1",
+      "type": "tip",
+      "title": "Après le nom d'un prophète",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand on nomme un prophète, on ajoute en général {ar|عَلَيْهِ السَّلَامُ} (« la paix soit sur lui »), et aussi pour un ange. Après le nom de Muḥammad, on dit {ar|صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ} (chapitre 5)."
+        },
+        {
+          "type": "breakdown",
+          "ar": "عَلَيْهِ السَّلَامُ",
+          "fr": "la paix soit sur lui",
+          "parts": [ { "ar": "عَلَيْهِ", "fr": "sur lui" }, { "ar": "السَّلَامُ", "fr": "la paix" } ]
+        }
+      ]
+    },
+    { "id": "medine-t1.l14.vocab-8#2", "type": "present", "item": "w:ismail" },
+    { "id": "medine-t1.l14.vocab-8#3", "type": "present", "item": "w:ishaq" },
+    { "id": "medine-t1.l14.vocab-8#4", "type": "present", "item": "w:yaqub" },
+    { "id": "medine-t1.l14.vocab-8#5", "type": "present", "item": "w:sulayman" },
+    { "id": "medine-t1.l14.vocab-8#6", "type": "present", "item": "w:ayyub" },
+    {
+      "id": "medine-t1.l14.vocab-8#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:yaqub",
+      "distractors": ["w:ismail", "w:ishaq"]
+    },
+    { "id": "medine-t1.l14.vocab-8#8", "type": "present", "item": "w:yunus" },
+    { "id": "medine-t1.l14.vocab-8#9", "type": "present", "item": "w:idris" },
+    { "id": "medine-t1.l14.vocab-8#10", "type": "present", "item": "w:jibril" },
+    { "id": "medine-t1.l14.vocab-8#11", "type": "present", "item": "w:mikail" },
+    { "id": "medine-t1.l14.vocab-8#12", "type": "present", "item": "w:firawn" },
+    {
+      "id": "medine-t1.l14.vocab-8#13",
+      "type": "tip",
+      "title": "Des anges et un pharaon",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|جِبْرَئِيلُ} et {ar|مِيكَائِيلُ} sont des anges. {ar|فِرْعَوْنُ} (Pharaon) n'est pas un prophète : c'est le roi d'Égypte au temps de Mūsā."
+        },
+        {
+          "type": "note",
+          "text": "Tous ces noms ont au moins quatre lettres : aucun n'a de tanwin. La règle est expliquée dans l'astuce qui suit."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l14.vocab-8#14",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:ismail", "w:ishaq", "w:yaqub", "w:sulayman", "w:ayyub"]
+    },
+    { "id": "medine-t1.l14.vocab-8#15", "type": "typing", "ask": "fr", "item": "w:ismail" },
+    { "id": "medine-t1.l14.vocab-8#16", "type": "typing", "ask": "fr", "item": "w:firawn" }
+  ]
+}
