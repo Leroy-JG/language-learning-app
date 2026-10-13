@@ -1,0 +1,269 @@
+[
+  {
+    "id": "w:damir",
+    "kind": "word",
+    "ar": "الضَّمِيرُ",
+    "fr": "le pronom",
+    "translit": "aḍ-ḍamīru",
+    "plural": "الضَّمَائِرُ",
+    "gender": "m",
+    "note": "Un pronom remplace un nom. C'est lui-même un nom ({ar|اسْمٌ}), et il est toujours défini.",
+    "example": { "ar": "هُوَ طَالِبٌ.", "fr": "Il est étudiant." }
+  },
+  {
+    "id": "w:damir-munfasil",
+    "kind": "word",
+    "ar": "الضَّمِيرُ الْمُنْفَصِلُ",
+    "fr": "le pronom isolé",
+    "translit": "aḍ-ḍamīru l-munfaṣilu",
+    "plural": "الضَّمَائِرُ الْمُنْفَصِلَةُ",
+    "gender": "m",
+    "note": "{ar|مُنْفَصِلٌ} veut dire « séparé » : le pronom s'écrit comme un mot à part.",
+    "example": { "ar": "أَنَا طَالِبٌ.", "fr": "Je suis étudiant." }
+  },
+  {
+    "id": "w:damir-muttasil",
+    "kind": "word",
+    "ar": "الضَّمِيرُ الْمُتَّصِلُ",
+    "fr": "le pronom affixe",
+    "translit": "aḍ-ḍamīru l-muttaṣilu",
+    "plural": "الضَّمَائِرُ الْمُتَّصِلَةُ",
+    "gender": "m",
+    "note": "{ar|مُتَّصِلٌ} veut dire « relié » : le pronom se colle à la fin d'un autre mot.",
+    "example": { "ar": "كِتَابُهُ جَدِيدٌ.", "fr": "Son livre est neuf." }
+  },
+  {
+    "id": "w:mutakallim",
+    "kind": "word",
+    "ar": "الْمُتَكَلِّمُ",
+    "fr": "celui qui parle (la 1re personne)",
+    "translit": "al-mutakallimu",
+    "plural": "الْمُتَكَلِّمُونَ",
+    "gender": "m",
+    "note": "Mot à mot « le locuteur » : la personne qui parle, comme {ar|أَنَا} (je)."
+  },
+  {
+    "id": "w:mukhatab",
+    "kind": "word",
+    "ar": "الْمُخَاطَبُ",
+    "fr": "celui à qui l'on parle (la 2e personne)",
+    "translit": "al-mukhāṭabu",
+    "plural": "الْمُخَاطَبُونَ",
+    "gender": "m",
+    "note": "Mot à mot « l'interlocuteur » : la personne à qui l'on s'adresse, comme {ar|أَنْتَ} (tu)."
+  },
+  {
+    "id": "w:ghaib",
+    "kind": "word",
+    "ar": "الْغَائِبُ",
+    "fr": "l'absent (la 3e personne)",
+    "translit": "al-ghāʾibu",
+    "plural": "الْغَائِبُونَ",
+    "gender": "m",
+    "note": "La personne ou la chose dont on parle, qui ne parle pas et qui n'écoute pas : {ar|هُوَ}, {ar|هِيَ}."
+  },
+  {
+    "id": "w:nahnu",
+    "kind": "word",
+    "ar": "نَحْنُ",
+    "fr": "nous",
+    "translit": "naḥnu",
+    "note": "Il sert pour des hommes, pour des femmes ou pour un groupe mixte. L'arabe n'a pas de pronom « nous deux » : {ar|نَحْنُ} s'emploie aussi pour deux personnes.",
+    "example": { "ar": "نَحْنُ طُلَّابٌ.", "fr": "Nous sommes étudiants." }
+  },
+  {
+    "id": "w:anti",
+    "kind": "word",
+    "ar": "أَنْتِ",
+    "fr": "tu, toi (à une femme)",
+    "translit": "anti",
+    "note": "C'est le même mot que {ar|أَنْتَ}, avec une kasra à la fin : la fatha s'adresse à un homme, la kasra à une femme.",
+    "example": { "ar": "أَنْتِ طَالِبَةٌ.", "fr": "Tu es étudiante." }
+  },
+  {
+    "id": "w:antuma",
+    "kind": "word",
+    "ar": "أَنْتُمَا",
+    "fr": "vous deux (à deux personnes)",
+    "translit": "antumā",
+    "note": "C'est un pronom **duel** : l'arabe a, en plus du singulier et du pluriel, une forme pour exactement deux personnes (deux hommes, deux femmes, ou un homme et une femme).",
+    "example": { "ar": "أَنْتُمَا فِي الْفَصْلِ.", "fr": "Vous deux, vous êtes en classe." }
+  },
+  {
+    "id": "w:antum",
+    "kind": "word",
+    "ar": "أَنْتُمْ",
+    "fr": "vous (à plusieurs hommes, ou à un groupe mixte)",
+    "translit": "antum",
+    "note": "Pluriel : à partir de trois personnes. Dès que le groupe comprend au moins un homme, on emploie le masculin.",
+    "example": { "ar": "أَنْتُمْ مِنْ فَرَنْسَا.", "fr": "Vous êtes de France." }
+  },
+  {
+    "id": "w:antunna",
+    "kind": "word",
+    "ar": "أَنْتُنَّ",
+    "fr": "vous (à plusieurs femmes)",
+    "translit": "antunna",
+    "note": "Pluriel féminin : à partir de trois femmes. Le {ar|نَّ} final est la marque du féminin pluriel.",
+    "example": { "ar": "أَنْتُنَّ طَالِبَاتٌ.", "fr": "Vous êtes étudiantes." }
+  },
+  {
+    "id": "w:huma",
+    "kind": "word",
+    "ar": "هُمَا",
+    "fr": "eux deux, elles deux (duel)",
+    "translit": "humā",
+    "note": "Duel : pour exactement deux personnes, deux hommes, deux femmes ou un homme et une femme.",
+    "example": { "ar": "هُمَا فِي الْمَسْجِدِ.", "fr": "Eux deux, ils sont à la mosquée." }
+  },
+  {
+    "id": "w:hum",
+    "kind": "word",
+    "ar": "هُمْ",
+    "fr": "ils, eux (plusieurs hommes, ou un groupe mixte)",
+    "translit": "hum",
+    "note": "Pluriel : à partir de trois personnes. Dès que le groupe comprend au moins un homme, on emploie le masculin.",
+    "example": { "ar": "هُمْ فِي الْفَصْلِ.", "fr": "Ils sont en classe." }
+  },
+  {
+    "id": "w:hunna",
+    "kind": "word",
+    "ar": "هُنَّ",
+    "fr": "elles (plusieurs femmes)",
+    "translit": "hunna",
+    "note": "Pluriel féminin : à partir de trois femmes. Le {ar|نَّ} final est la marque du féminin pluriel.",
+    "example": { "ar": "هُنَّ فِي الْمَطْبَخِ.", "fr": "Elles sont dans la cuisine." }
+  },
+  {
+    "id": "w:akh",
+    "kind": "word",
+    "ar": "أَخٌ",
+    "fr": "un frère",
+    "translit": "akhun",
+    "plural": "إِخْوَةٌ",
+    "gender": "m",
+    "note": "Devant un pronom affixe, ce nom s'allonge un peu : {ar|أَخُوهُ} (son frère). Tu le verras dans ce chapitre.",
+    "example": { "ar": "هٰذَا أَخٌ مُجْتَهِدٌ.", "fr": "C'est un frère studieux." }
+  },
+  {
+    "id": "w:zawj",
+    "kind": "word",
+    "ar": "زَوْجٌ",
+    "fr": "un époux, une épouse",
+    "translit": "zawjun",
+    "plural": "أَزْوَاجٌ",
+    "gender": "m",
+    "note": "Ce mot s'emploie pour le mari comme pour l'épouse (on dit aussi {ar|زَوْجَةٌ} pour une épouse).",
+    "example": { "ar": "زَيْنَبُ زَوْجُ زَيْدٍ.", "fr": "Zaynab est l'épouse de Zayd." }
+  },
+  {
+    "id": "w:tifl",
+    "kind": "word",
+    "ar": "طِفْلٌ",
+    "fr": "un enfant, un bébé",
+    "translit": "ṭiflun",
+    "plural": "أَطْفَالٌ",
+    "gender": "m",
+    "note": "Il désigne un enfant en bas âge. Le féminin est {ar|طِفْلَةٌ}.",
+    "example": { "ar": "الْأَطْفَالُ فِي الْحَدِيقَةِ.", "fr": "Les enfants sont dans le jardin." }
+  },
+  {
+    "id": "w:zamil",
+    "kind": "word",
+    "ar": "زَمِيلٌ",
+    "fr": "un camarade",
+    "translit": "zamīlun",
+    "plural": "زُمَلَاءُ",
+    "gender": "m",
+    "note": "Un camarade de classe ou de travail. Le féminin est {ar|زَمِيلَةٌ}.",
+    "example": { "ar": "زَيْدٌ زَمِيلُ مُحَمَّدٍ.", "fr": "Zayd est le camarade de Muḥammad." }
+  },
+  {
+    "id": "w:fata",
+    "kind": "word",
+    "ar": "فَتًى",
+    "fr": "un jeune homme, un adolescent",
+    "translit": "fatan",
+    "plural": "فِتْيَةٌ",
+    "gender": "m",
+    "note": "C'est un nom maqṣūr (chapitre 8) : le tanwin se pose sur la lettre qui précède le {ar|ى}, d'où {ar|فَتًى}. Avec l'article : {ar|الْفَتَى}.",
+    "example": { "ar": "زَيْدٌ فَتًى جَمِيلٌ.", "fr": "Zayd est un beau jeune homme." }
+  },
+  {
+    "id": "w:wahid",
+    "kind": "word",
+    "ar": "وَاحِدٌ",
+    "fr": "un, un seul",
+    "translit": "wāḥidun",
+    "note": "Il suit le nom et s'accorde avec lui. Au féminin : {ar|وَاحِدَةٌ}.",
+    "example": { "ar": "لِزَيْدٍ أُخْتٌ وَاحِدَةٌ.", "fr": "Zayd a une seule sœur." }
+  },
+  {
+    "id": "w:maa-2",
+    "kind": "word",
+    "ar": "مَعَ",
+    "fr": "avec",
+    "translit": "maʿa",
+    "note": "Le nom qui suit est à la kasra (génitif) : {ar|مَعَ مُحَمَّدٍ}. Avec un pronom affixe : {ar|مَعَهُ} (avec lui), {ar|مَعِي} (avec moi).",
+    "example": { "ar": "ذَهَبَ زَيْدٌ مَعَ مُحَمَّدٍ.", "fr": "Zayd est allé avec Muḥammad." }
+  },
+  {
+    "id": "w:kuwayt",
+    "kind": "word",
+    "ar": "الْكُوَيْتُ",
+    "fr": "le Koweït",
+    "translit": "al-kuwaytu",
+    "note": "Nom de pays, qui s'emploie avec l'article.",
+    "example": { "ar": "الْمُدِيرُ فِي الْكُوَيْتِ.", "fr": "Le directeur est au Koweït." }
+  },
+  {
+    "id": "w:iraq",
+    "kind": "word",
+    "ar": "الْعِرَاقُ",
+    "fr": "l'Irak",
+    "translit": "al-ʿirāqu",
+    "note": "Nom de pays, qui s'emploie avec l'article.",
+    "example": { "ar": "الطَّالِبُ مِنَ الْعِرَاقِ.", "fr": "L'étudiant vient d'Irak." }
+  },
+  {
+    "id": "w:urdiyya",
+    "kind": "word",
+    "ar": "الْأُرْدِيَّةُ",
+    "fr": "l'ourdou",
+    "translit": "al-urdiyyatu",
+    "gender": "f",
+    "note": "Langue parlée surtout au Pakistan et en Inde. Comme {ar|الْعَرَبِيَّةُ}, ce nom de langue est féminin : il sous-entend {ar|لُغَةٌ}.",
+    "example": { "ar": "الْأُرْدِيَّةُ لُغَةٌ جَمِيلَةٌ.", "fr": "L'ourdou est une belle langue." }
+  },
+  {
+    "id": "w:yabaniyya",
+    "kind": "word",
+    "ar": "الْيَابَانِيَّةُ",
+    "fr": "le japonais",
+    "translit": "al-yābāniyyatu",
+    "gender": "f",
+    "note": "Dérivé de {ar|الْيَابَانُ} (le Japon). Comme {ar|الْعَرَبِيَّةُ}, ce nom de langue est féminin : il sous-entend {ar|لُغَةٌ}.",
+    "example": { "ar": "الْيَابَانِيَّةُ لُغَةٌ صَعْبَةٌ.", "fr": "Le japonais est une langue difficile." }
+  },
+  {
+    "id": "p:ma-ismuka",
+    "kind": "phrase",
+    "ar": "مَا اسْمُكَ؟",
+    "fr": "Quel est ton nom ? (à un homme)",
+    "translit": "mā ismuka"
+  },
+  {
+    "id": "p:ismi",
+    "kind": "phrase",
+    "ar": "اِسْمِي مُحَمَّدٌ.",
+    "fr": "Mon nom est Muḥammad.",
+    "translit": "ismī muḥammadun"
+  },
+  {
+    "id": "p:ma-lughatuka",
+    "kind": "phrase",
+    "ar": "مَا لُغَتُكَ؟",
+    "fr": "Quelle est ta langue ? (à un homme)",
+    "translit": "mā lughatuka"
+  }
+]

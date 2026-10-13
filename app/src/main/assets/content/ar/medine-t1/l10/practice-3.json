@@ -1,0 +1,93 @@
+{
+  "id": "medine-t1.l10.practice-3",
+  "type": "vocabulary",
+  "title": "Lui ou elle ? (exercice 2 du livre)",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l10.practice-3#1",
+      "type": "tip",
+      "title": "Lui ou elle ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour chaque phrase, regarde **de qui** on parle : un homme → {ar|هُ}, une femme → {ar|هَا}. Le genre de la chose possédée ne compte pas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.practice-3#2",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ الْبِنْتُ طَالِبَةٌ. {0} زَيْنَبُ.",
+      "fr": "Cette fille est étudiante. Son nom est Zaynab.",
+      "gaps": [ { "answers": ["اِسْمُهَا"] } ],
+      "options": ["اِسْمُهَا", "اِسْمُهُ"],
+      "explain": "On parle d'une fille : {ar|هَا}."
+    },
+    {
+      "id": "medine-t1.l10.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "مُحَمَّدٌ طَبِيبٌ. {0} مُهَنْدِسٌ.",
+      "fr": "Muḥammad est médecin, et son fils est ingénieur.",
+      "gaps": [ { "answers": ["وَابْنُهُ"] } ],
+      "options": ["وَابْنُهُ", "وَابْنُهَا"],
+      "explain": "On parle de Muḥammad, un homme : {ar|هُ}."
+    },
+    {
+      "id": "medine-t1.l10.practice-3#4",
+      "type": "sort",
+      "categories": [ { "fr": "à lui" }, { "fr": "à elle" } ],
+      "cards": [
+        { "ar": "كِتَابُهُ", "category": 0 },
+        { "ar": "أُمُّهَا", "category": 1 },
+        { "ar": "بَيْتُهُ", "category": 0 },
+        { "ar": "يَدُهَا", "category": 1 },
+        { "ar": "اِسْمُهُ", "category": 0 },
+        { "ar": "سَيَّارَتُهَا", "category": 1 }
+      ],
+      "instruction": "Lui ou elle ? Range chaque forme.",
+      "explain": "{ar|هُ} : le possesseur est un homme ; {ar|هَا} : le possesseur est une femme."
+    },
+    {
+      "id": "medine-t1.l10.practice-3#5",
+      "type": "fill_gap",
+      "sentence": "هٰذَا الرَّجُلُ تَاجِرٌ كَبِيرٌ. {0} عَبْدُ اللَّهِ.",
+      "fr": "Cet homme est un grand commerçant. Son nom est ʿAbd Allāh.",
+      "gaps": [ { "answers": ["اِسْمُهُ"] } ],
+      "options": ["اِسْمُهُ", "اِسْمُهَا"],
+      "explain": "On parle d'un homme : {ar|هُ}."
+    },
+    {
+      "id": "medine-t1.l10.practice-3#6",
+      "type": "fill_gap",
+      "sentence": "آمِنَةُ فِي الْغُرْفَةِ {0} فِي الْمَطْبَخِ.",
+      "fr": "Āmina est dans la chambre, et sa mère est dans la cuisine.",
+      "gaps": [ { "answers": ["وَأُمُّهَا"] } ],
+      "options": ["وَأُمُّهَا", "وَأُمُّهُ"],
+      "explain": "On parle d'Āmina, une femme : {ar|هَا}."
+    },
+    {
+      "id": "medine-t1.l10.practice-3#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Son nom (à lui) est Ḥamza.",
+      "answers": ["اِسْمُهُ حَمْزَةُ."]
+    },
+    {
+      "id": "medine-t1.l10.practice-3#8",
+      "type": "fill_gap",
+      "sentence": "عَائِشَةُ طَبِيبَةٌ {0} مُمَرِّضَةٌ.",
+      "fr": "ʿĀʾisha est médecin, et sa sœur est infirmière.",
+      "gaps": [ { "answers": ["وَأُخْتُهَا"] } ],
+      "options": ["وَأُخْتُهَا", "وَأُخْتُهُ"],
+      "explain": "On parle de ʿĀʾisha, une femme : {ar|هَا}."
+    },
+    {
+      "id": "medine-t1.l10.practice-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Sa mère (à elle) est dans la cuisine.",
+      "answers": ["أُمُّهَا فِي الْمَطْبَخِ."]
+    }
+  ]
+}

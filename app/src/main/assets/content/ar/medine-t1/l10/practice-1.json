@@ -1,0 +1,122 @@
+{
+  "id": "medine-t1.l10.practice-1",
+  "type": "vocabulary",
+  "title": "Le pronom, sujet de la phrase",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l10.practice-1#1",
+      "type": "tip",
+      "title": "Le pronom et son prédicat",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un pronom isolé peut être le sujet ({ar|الْمُبْتَدَأُ}) d'une phrase nominale. Le reste de la phrase est le prédicat ({ar|الْخَبَرُ})."
+        },
+        { "type": "example", "ar": "هُمْ فِي الْفَصْلِ.", "fr": "Ils sont en classe." },
+        { "type": "example", "ar": "أَنْتُمْ مِنْ فَرَنْسَا.", "fr": "Vous êtes de France." },
+        { "type": "example", "ar": "هُنَّ مُسْلِمَاتٌ.", "fr": "Elles sont musulmanes." },
+        { "type": "example", "ar": "نَحْنُ طُلَّابٌ.", "fr": "Nous sommes étudiants." },
+        {
+          "type": "paragraph",
+          "text": "Le prédicat s'accorde avec le pronom en genre et en nombre : {ar|مُسْلِمَاتٌ} est le pluriel en « -āt » de {ar|مُسْلِمَةٌ} (on retire le {ar|ة} et on ajoute {ar|◌َاتٌ}), et {ar|طُلَّابٌ} est le pluriel de {ar|طَالِبٌ}."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَنَا طَالِبٌ", "fr": "Je suis étudiant. (un homme parle)" },
+              "to": { "ar": "أَنَا طَالِبَةٌ", "fr": "Je suis étudiante. (une femme parle)" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le pronom {ar|أَنَا} sert pour un homme comme pour une femme : c'est le prédicat qui montre si la personne qui parle est un homme ou une femme."
+        },
+        {
+          "type": "note",
+          "text": "Le cours précise que ces pronoms au nominatif s'emploient comme sujet ({ar|الْمُبْتَدَأُ}), comme prédicat ({ar|الْخَبَرُ}) ou comme sujet d'un verbe ({ar|الْفَاعِلُ}). Ici, tu les vois comme sujets : les autres emplois viendront plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.practice-1#2",
+      "type": "spot",
+      "instruction": "Touche le sujet de la phrase (le pronom).",
+      "words": ["أَنْتُمْ", "مِنْ", "فَرَنْسَا."],
+      "answers": [0],
+      "fr": "Vous êtes de France."
+    },
+    {
+      "id": "medine-t1.l10.practice-1#3",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0}.",
+      "fr": "Nous sommes étudiants.",
+      "gaps": [ { "answers": ["طُلَّابٌ"] } ],
+      "options": ["طُلَّابٌ", "طَالِبٌ", "طَالِبَةٌ"],
+      "explain": "{ar|نَحْنُ} désigne ici plusieurs personnes : le prédicat est au pluriel, {ar|طُلَّابٌ}."
+    },
+    {
+      "id": "medine-t1.l10.practice-1#4",
+      "type": "fill_gap",
+      "sentence": "هُنَّ {0}.",
+      "fr": "Elles sont musulmanes.",
+      "gaps": [ { "answers": ["مُسْلِمَاتٌ"] } ],
+      "options": ["مُسْلِمَاتٌ", "مُسْلِمُونَ", "مُسْلِمَةٌ"],
+      "explain": "{ar|هُنَّ} désigne plusieurs femmes : le prédicat est féminin pluriel, {ar|مُسْلِمَاتٌ}."
+    },
+    {
+      "id": "medine-t1.l10.practice-1#5",
+      "type": "spot",
+      "instruction": "Touche le mot qui montre que la personne qui parle est une femme.",
+      "words": ["أَنَا", "طَالِبَةٌ", "فِي", "الْجَامِعَةِ."],
+      "answers": [1],
+      "fr": "Je suis étudiante à l'université.",
+      "explain": "Le {ar|ة} de {ar|طَالِبَةٌ} montre que la personne qui parle est une femme : {ar|أَنَا} ne dit rien du genre."
+    },
+    {
+      "id": "medine-t1.l10.practice-1#6",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans {ar|أَنَا طَالِبَةٌ}, c'est le mot {ar|أَنَا} qui montre que la personne qui parle est une femme."
+      },
+      "answer": false,
+      "explain": "C'est le prédicat {ar|طَالِبَةٌ} (avec le {ar|ة}) qui le montre : {ar|أَنَا} sert aux deux genres."
+    },
+    {
+      "id": "medine-t1.l10.practice-1#7",
+      "type": "sort",
+      "categories": [ { "fr": "un homme" }, { "fr": "une femme" } ],
+      "cards": [
+        { "ar": "أَنَا طَالِبٌ.", "category": 0 },
+        { "ar": "أَنَا طَالِبَةٌ.", "category": 1 },
+        { "ar": "أَنَا مُدَرِّسَةٌ.", "category": 1 },
+        { "ar": "أَنَا مُسْلِمٌ.", "category": 0 }
+      ],
+      "instruction": "Qui peut dire cette phrase ?",
+      "explain": "Le prédicat se met au féminin (avec le {ar|ة}) quand la personne qui parle est une femme."
+    },
+    {
+      "id": "medine-t1.l10.practice-1#8",
+      "type": "order",
+      "fr": "Ils sont enseignants à l'école.",
+      "answers": [["هُمْ", "مُدَرِّسُونَ", "فِي", "الْمَدْرَسَةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l10.practice-1#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Vous êtes de France.",
+      "answers": ["أَنْتُمْ مِنْ فَرَنْسَا."]
+    },
+    {
+      "id": "medine-t1.l10.practice-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles (plusieurs femmes) sont musulmanes.",
+      "answers": ["هُنَّ مُسْلِمَاتٌ."]
+    }
+  ]
+}

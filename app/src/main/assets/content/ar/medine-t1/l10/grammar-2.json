@@ -1,0 +1,234 @@
+{
+  "id": "medine-t1.l10.grammar-2",
+  "type": "grammar",
+  "title": "Un pronom collé au nom",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l10.grammar-2#1",
+      "type": "tip",
+      "title": "Mon livre, ton livre, son livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le pronom affixe ({ar|الضَّمِيرُ الْمُتَّصِلُ}) se colle à la fin d'un nom et dit **à qui** il appartient."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "بَيْتٌ", "fr": "une maison" }, "to": { "ar": "بَيْتِي", "fr": "ma maison" } },
+            {
+              "from": { "ar": "بَيْتٌ", "fr": "une maison" },
+              "to": { "ar": "بَيْتُكَ", "fr": "ta maison (à un homme)" }
+            },
+            {
+              "from": { "ar": "بَيْتٌ", "fr": "une maison" },
+              "to": { "ar": "بَيْتُهُ", "fr": "sa maison (à lui)" }
+            },
+            {
+              "from": { "ar": "بَيْتٌ", "fr": "une maison" },
+              "to": { "ar": "بَيْتُهَا", "fr": "sa maison (à elle)" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Il existe trois sortes de pronoms affixes : au nominatif, à l'accusatif et au génitif ({ar|الْجَرُّ}). Dans ce chapitre, tu vois le génitif : le pronom collé à un nom ou à une préposition. Les deux autres sortes s'attachent surtout aux verbes : elles viendront plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.grammar-2#2",
+      "type": "tip",
+      "title": "Le nom et son pronom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le pronom affixe joue le rôle du second terme d'une annexion : {ar|كِتَابُهُ} se construit comme {ar|كِتَابُ زَيْدٍ} (le livre de Zayd)."
+        },
+        {
+          "type": "breakdown",
+          "ar": "كِتَابُهُ",
+          "fr": "son livre (à lui)",
+          "parts": [ { "ar": "كِتَابُ", "fr": "livre" }, { "ar": "هُ", "fr": "son (à lui)" } ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "سَيَّارَتُهَا",
+          "fr": "sa voiture (à elle)",
+          "parts": [ { "ar": "سَيَّارَتُ", "fr": "voiture" }, { "ar": "هَا", "fr": "son (à elle)" } ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.grammar-2#3",
+      "type": "tip",
+      "title": "Tous les pronoms affixes",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pronom affixe", "Sens", "Avec {ar|كِتَابٌ}"],
+          "rows": [
+            ["{ar|◌ِي}", "mon, ma, mes", "{ar|كِتَابِي}"],
+            ["{ar|نَا}", "notre, nos", "{ar|كِتَابُنَا}"],
+            ["{ar|كَ}", "ton, ta, tes (à un homme)", "{ar|كِتَابُكَ}"],
+            ["{ar|كِ}", "ton, ta, tes (à une femme)", "{ar|كِتَابُكِ}"],
+            ["{ar|كُمَا}", "votre, vos (à deux)", "{ar|كِتَابُكُمَا}"],
+            ["{ar|كُمْ}", "votre, vos (à plusieurs hommes, ou groupe mixte)", "{ar|كِتَابُكُمْ}"],
+            ["{ar|كُنَّ}", "votre, vos (à plusieurs femmes)", "{ar|كِتَابُكُنَّ}"],
+            ["{ar|هُ}", "son, sa, ses (à lui)", "{ar|كِتَابُهُ}"],
+            ["{ar|هَا}", "son, sa, ses (à elle)", "{ar|كِتَابُهَا}"],
+            ["{ar|هُمَا}", "leur, leurs (à eux deux)", "{ar|كِتَابُهُمَا}"],
+            ["{ar|هُمْ}", "leur, leurs (à eux, ou groupe mixte)", "{ar|كِتَابُهُمْ}"],
+            ["{ar|هُنَّ}", "leur, leurs (à elles)", "{ar|كِتَابُهُنَّ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Tu retrouves les terminaisons du duel et du pluriel : {ar|مَا}, {ar|مْ}, {ar|نَّ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.grammar-2#4",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « ton livre » (à un homme) ?" },
+      "choices": [ { "ar": "كِتَابُكَ" }, { "ar": "كِتَابِي" }, { "ar": "كِتَابُهُ" } ],
+      "answer": 0,
+      "explain": "{ar|كَ} veut dire « ton » (à un homme) : {ar|كِتَابُكَ}. {ar|كِتَابِي} est « mon livre » et {ar|كِتَابُهُ} « son livre »."
+    },
+    {
+      "id": "medine-t1.l10.grammar-2#5",
+      "type": "tip",
+      "title": "Ce qui change dans le nom",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Règle", "Exemple"],
+          "rows": [
+            ["Plus de tanwin : le nom n'est plus indéfini", "{ar|كِتَابٌ} → {ar|كِتَابُهُ}"],
+            [
+              "Pas d'article : on n'ajoute jamais {ar|الْ} à un nom qui porte un pronom affixe",
+              "{ar|الْكِتَابُ} → {ar|كِتَابُهُ}"
+            ],
+            [
+              "Avec {ar|◌ِي}, la dernière lettre du nom prend en général la kasra, quel que soit son rôle",
+              "{ar|كِتَابِي جَدِيدٌ} (sujet), {ar|فِي كِتَابِي} (après une préposition)"
+            ],
+            ["Le {ar|ة} devient un {ar|ت}", "{ar|سَيَّارَةٌ} → {ar|سَيَّارَتُهُ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pour les autres pronoms, le nom garde la voyelle que demande son rôle : {ar|كِتَابُهُ جَدِيدٌ} (sujet, damma), {ar|فِي كِتَابِهِ} (après une préposition : kasra, et le {ar|هُ} devient {ar|هِ} : tu le verras plus loin)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.grammar-2#6",
+      "type": "true_false",
+      "statement": { "fr": "Un nom qui porte un pronom affixe peut aussi prendre l'article {ar|الْ}." },
+      "answer": false,
+      "explain": "Le pronom affixe rend déjà le nom défini, comme dans une annexion : on dit {ar|كِتَابُهُ}, jamais avec l'article."
+    },
+    {
+      "id": "medine-t1.l10.grammar-2#7",
+      "type": "tip",
+      "title": "Lui ou elle ? Le possesseur décide",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "En français, « sa voiture » s'écrit pareil pour un homme et pour une femme : « sa » s'accorde avec la voiture. En arabe, c'est le contraire : le pronom s'accorde avec **celui qui possède**."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "سَيَّارَةٌ", "fr": "une voiture" },
+              "to": { "ar": "سَيَّارَتُهُ", "fr": "sa voiture (à lui)" },
+              "label": "le possesseur est un homme"
+            },
+            {
+              "from": { "ar": "سَيَّارَةٌ", "fr": "une voiture" },
+              "to": { "ar": "سَيَّارَتُهَا", "fr": "sa voiture (à elle)" },
+              "label": "le possesseur est une femme"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Et le {ar|ة} devient un {ar|ت}, parce que le mot ne se termine plus là : il se prononce {ar|سَيَّارَتُ}…"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "سَيَّارَةٌ", "fr": "une voiture" },
+              "to": { "ar": "سَيَّارَتِي", "fr": "ma voiture" },
+              "label": "{ar|ة} → {ar|ت}"
+            },
+            {
+              "from": { "ar": "مَدْرَسَةٌ", "fr": "une école" },
+              "to": { "ar": "مَدْرَسَتُهُ", "fr": "son école (à lui)" },
+              "label": "{ar|ة} → {ar|ت}"
+            },
+            {
+              "from": { "ar": "غُرْفَةٌ", "fr": "une chambre" },
+              "to": { "ar": "غُرْفَتُهَا", "fr": "sa chambre (à elle)" },
+              "label": "{ar|ة} → {ar|ت}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.grammar-2#8",
+      "type": "spot",
+      "instruction": "Touche les mots qui portent un pronom affixe.",
+      "words": ["كِتَابُكَ", "عَلَى", "الْمَكْتَبِ", "وَقَلَمُهُ", "عَلَى", "السَّرِيرِ."],
+      "answers": [0, 3],
+      "fr": "Ton livre est sur le bureau et son stylo est sur le lit.",
+      "explain": "{ar|كِتَابُكَ} porte {ar|كَ} (ton) et {ar|وَقَلَمُهُ} porte {ar|هُ} (son)."
+    },
+    {
+      "id": "medine-t1.l10.grammar-2#9",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ طَالِبٌ. {0} جَدِيدٌ.",
+      "fr": "Zayd est étudiant. Son livre est neuf.",
+      "gaps": [ { "answers": ["كِتَابُهُ"] } ],
+      "options": ["كِتَابُهُ", "كِتَابُهَا", "كِتَابِي"],
+      "explain": "Zayd est un homme : {ar|هُ}. Le pronom suit celui qui possède."
+    },
+    {
+      "id": "medine-t1.l10.grammar-2#10",
+      "type": "order",
+      "fr": "Mon livre est sur le bureau.",
+      "answers": [["كِتَابِي", "عَلَى", "الْمَكْتَبِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l10.grammar-2#11",
+      "type": "fill_gap",
+      "sentence": "فَاطِمَةُ طَالِبَةٌ. {0} جَدِيدَةٌ.",
+      "fr": "Fāṭima est étudiante. Sa voiture est neuve.",
+      "gaps": [ { "answers": ["سَيَّارَتُهَا"] } ],
+      "options": ["سَيَّارَتُهَا", "سَيَّارَتُهُ", "سَيَّارَتِي"],
+      "explain": "Fāṭima est une femme : {ar|هَا}. Le {ar|ة} de {ar|سَيَّارَةٌ} devient {ar|ت}."
+    },
+    {
+      "id": "medine-t1.l10.grammar-2#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ton livre est neuf (à un homme).",
+      "answers": ["كِتَابُكَ جَدِيدٌ."]
+    },
+    {
+      "id": "medine-t1.l10.grammar-2#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Son livre (à elle) est neuf.",
+      "answers": ["كِتَابُهَا جَدِيدٌ."]
+    }
+  ]
+}

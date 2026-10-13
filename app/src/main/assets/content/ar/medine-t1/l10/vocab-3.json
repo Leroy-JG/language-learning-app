@@ -1,0 +1,67 @@
+{
+  "id": "medine-t1.l10.vocab-3",
+  "type": "vocabulary",
+  "title": "La famille et les proches",
+  "icon": "boy",
+  "screens": [
+    { "id": "medine-t1.l10.vocab-3#1", "type": "present", "item": "w:akh" },
+    { "id": "medine-t1.l10.vocab-3#2", "type": "present", "item": "w:zawj" },
+    { "id": "medine-t1.l10.vocab-3#3", "type": "present", "item": "w:tifl" },
+    {
+      "id": "medine-t1.l10.vocab-3#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:akh",
+      "distractors": ["w:ukht", "w:ibn"]
+    },
+    { "id": "medine-t1.l10.vocab-3#5", "type": "present", "item": "w:zamil" },
+    { "id": "medine-t1.l10.vocab-3#6", "type": "present", "item": "w:fata" },
+    {
+      "id": "medine-t1.l10.vocab-3#7",
+      "type": "tip",
+      "title": "Toute la famille",
+      "blocks": [
+        {
+          "type": "gallery",
+          "title": "La famille",
+          "items": ["w:ab", "w:umm", "w:akh", "w:ukht", "w:ibn", "w:bint", "w:amm", "w:khal"]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.vocab-3#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:akh", "w:zawj", "w:tifl", "w:zamil", "w:fata"]
+    },
+    {
+      "id": "medine-t1.l10.vocab-3#9",
+      "type": "fill_gap",
+      "sentence": "زَيْنَبُ {0} زَيْدٍ.",
+      "fr": "Zaynab est l'épouse de Zayd.",
+      "gaps": [ { "answers": ["زَوْجُ"] } ],
+      "options": ["زَوْجُ", "زَمِيلُ", "طِفْلُ"],
+      "explain": "« L'épouse (ou l'époux) de… » : {ar|زَوْجُ زَيْدٍ}. {ar|زَمِيلُ} veut dire « le camarade », {ar|طِفْلُ} « l'enfant »."
+    },
+    {
+      "id": "medine-t1.l10.vocab-3#10",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:akh", "w:zawj", "w:tifl", "w:zamil", "w:fata"]
+    },
+    {
+      "id": "medine-t1.l10.vocab-3#11",
+      "type": "order",
+      "fr": "Les enfants sont dans le jardin.",
+      "answers": [["الْأَطْفَالُ", "فِي", "الْحَدِيقَةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l10.vocab-3#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd est le camarade de Muḥammad.",
+      "answers": ["زَيْدٌ زَمِيلُ مُحَمَّدٍ."]
+    }
+  ]
+}

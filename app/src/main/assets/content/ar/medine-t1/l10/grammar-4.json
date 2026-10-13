@@ -1,0 +1,177 @@
+{
+  "id": "medine-t1.l10.grammar-4",
+  "type": "grammar",
+  "title": "Préposition + pronom",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l10.grammar-4#1",
+      "type": "tip",
+      "title": "Un pronom collé à une préposition",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le pronom affixe se colle aussi à une préposition ({ar|حَرْفُ جَرٍّ}) : {ar|فِي} + {ar|هُ} donne {ar|فِيهِ} (en lui, dedans). Comme le nom qui suit une préposition, le pronom est alors au génitif ({ar|الْجَرُّ})."
+        },
+        {
+          "type": "breakdown",
+          "ar": "لَهُ",
+          "fr": "à lui",
+          "parts": [ { "ar": "لَ", "fr": "à" }, { "ar": "هُ", "fr": "lui" } ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "عَلَيْهَا",
+          "fr": "sur elle",
+          "parts": [ { "ar": "عَلَيْ", "fr": "sur" }, { "ar": "هَا", "fr": "elle" } ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "مِنْهُمْ",
+          "fr": "d'eux",
+          "parts": [ { "ar": "مِنْ", "fr": "de" }, { "ar": "هُمْ", "fr": "eux" } ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.grammar-4#2",
+      "type": "tip",
+      "title": "Avec {ar|مِنْ}, {ar|فِي} et {ar|لِ}",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pronom", "{ar|مِنْ} (de)", "{ar|فِي} (dans)", "{ar|لِ} (à, pour)"],
+          "rows": [
+            ["{ar|◌ِي}", "{ar|مِنِّي}", "{ar|فِيَّ}", "{ar|لِي}"],
+            ["{ar|نَا}", "{ar|مِنَّا}", "{ar|فِينَا}", "{ar|لَنَا}"],
+            ["{ar|كَ}", "{ar|مِنْكَ}", "{ar|فِيكَ}", "{ar|لَكَ}"],
+            ["{ar|كِ}", "{ar|مِنْكِ}", "{ar|فِيكِ}", "{ar|لَكِ}"],
+            ["{ar|كُمَا}", "{ar|مِنْكُمَا}", "{ar|فِيكُمَا}", "{ar|لَكُمَا}"],
+            ["{ar|كُمْ}", "{ar|مِنْكُمْ}", "{ar|فِيكُمْ}", "{ar|لَكُمْ}"],
+            ["{ar|كُنَّ}", "{ar|مِنْكُنَّ}", "{ar|فِيكُنَّ}", "{ar|لَكُنَّ}"],
+            ["{ar|هُ}", "{ar|مِنْهُ}", "{ar|فِيهِ}", "{ar|لَهُ}"],
+            ["{ar|هَا}", "{ar|مِنْهَا}", "{ar|فِيهَا}", "{ar|لَهَا}"],
+            ["{ar|هُمَا}", "{ar|مِنْهُمَا}", "{ar|فِيهِمَا}", "{ar|لَهُمَا}"],
+            ["{ar|هُمْ}", "{ar|مِنْهُمْ}", "{ar|فِيهِمْ}", "{ar|لَهُمْ}"],
+            ["{ar|هُنَّ}", "{ar|مِنْهُنَّ}", "{ar|فِيهِنَّ}", "{ar|لَهُنَّ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Le {ar|لِ} devient {ar|لَ} devant un pronom : {ar|لَكَ}, {ar|لَنَا}, {ar|لَهُ}. La seule exception est {ar|لِي}."
+        },
+        {
+          "type": "note",
+          "text": "{ar|مِنْ} + {ar|◌ِي} donne {ar|مِنِّي}, et {ar|مِنْ} + {ar|نَا} donne {ar|مِنَّا} : le {ar|ن} est doublé."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.grammar-4#3",
+      "type": "fill_gap",
+      "sentence": "هٰذَا الْقَلَمُ {0}.",
+      "fr": "Ce stylo est à moi.",
+      "gaps": [ { "answers": ["لِي"] } ],
+      "options": ["لِي", "لَكَ", "لَهُ"],
+      "explain": "« À moi » : {ar|لِ} + {ar|◌ِي} donne {ar|لِي} (la seule forme qui garde la kasra)."
+    },
+    {
+      "id": "medine-t1.l10.grammar-4#4",
+      "type": "tip",
+      "title": "Avec {ar|عَلَى} et {ar|إِلَى}",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pronom", "{ar|عَلَى} (sur)", "{ar|إِلَى} (vers, à)"],
+          "rows": [
+            ["{ar|◌ِي}", "{ar|عَلَيَّ}", "{ar|إِلَيَّ}"],
+            ["{ar|نَا}", "{ar|عَلَيْنَا}", "{ar|إِلَيْنَا}"],
+            ["{ar|كَ}", "{ar|عَلَيْكَ}", "{ar|إِلَيْكَ}"],
+            ["{ar|كِ}", "{ar|عَلَيْكِ}", "{ar|إِلَيْكِ}"],
+            ["{ar|كُمَا}", "{ar|عَلَيْكُمَا}", "{ar|إِلَيْكُمَا}"],
+            ["{ar|كُمْ}", "{ar|عَلَيْكُمْ}", "{ar|إِلَيْكُمْ}"],
+            ["{ar|كُنَّ}", "{ar|عَلَيْكُنَّ}", "{ar|إِلَيْكُنَّ}"],
+            ["{ar|هُ}", "{ar|عَلَيْهِ}", "{ar|إِلَيْهِ}"],
+            ["{ar|هَا}", "{ar|عَلَيْهَا}", "{ar|إِلَيْهَا}"],
+            ["{ar|هُمَا}", "{ar|عَلَيْهِمَا}", "{ar|إِلَيْهِمَا}"],
+            ["{ar|هُمْ}", "{ar|عَلَيْهِمْ}", "{ar|إِلَيْهِمْ}"],
+            ["{ar|هُنَّ}", "{ar|عَلَيْهِنَّ}", "{ar|إِلَيْهِنَّ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Devant un pronom, le {ar|ى} de {ar|عَلَى} et de {ar|إِلَى} devient un {ar|ي} : {ar|عَلَيْكَ}, {ar|إِلَيْكَ}. Avec {ar|◌ِي}, ce {ar|ي} prend la shadda : {ar|عَلَيَّ}, {ar|إِلَيَّ}, {ar|فِيَّ}."
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Après {ar|فِي}, {ar|عَلَيْ} et {ar|إِلَيْ} (une kasra ou un {ar|ي}), le {ar|ه} du pronom prend la kasra : {ar|فِيهِ}, {ar|عَلَيْهِمْ}, {ar|إِلَيْهِنَّ}. Le {ar|هَا} ne change pas : {ar|فِيهَا}. Après {ar|مِنْ} et {ar|لَ}, il garde sa damma : {ar|مِنْهُ}, {ar|لَهُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.grammar-4#5",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « sur toi » (à un homme) ?" },
+      "choices": [ { "ar": "عَلَيْكَ" }, { "ar": "إِلَيْكَ" }, { "ar": "مِنْكَ" } ],
+      "answer": 0,
+      "explain": "{ar|عَلَى} (sur) + {ar|كَ} donne {ar|عَلَيْكَ}. {ar|إِلَيْكَ} veut dire « vers toi » et {ar|مِنْكَ} « de toi »."
+    },
+    {
+      "id": "medine-t1.l10.grammar-4#6",
+      "type": "sort",
+      "categories": [ { "fr": "sur" }, { "fr": "dans" }, { "fr": "de" } ],
+      "cards": [
+        { "ar": "عَلَيْكَ", "category": 0 },
+        { "ar": "فِيهَا", "category": 1 },
+        { "ar": "مِنْهُ", "category": 2 },
+        { "ar": "عَلَيْهِمْ", "category": 0 },
+        { "ar": "فِينَا", "category": 1 },
+        { "ar": "مِنْكُمْ", "category": 2 }
+      ],
+      "instruction": "Quelle préposition se cache dans chaque forme ?",
+      "explain": "Les formes qui commencent par {ar|عَلَيْ} viennent de {ar|عَلَى} (sur), celles qui commencent par {ar|فِي} de {ar|فِي} (dans), celles qui commencent par {ar|مِنْ} de {ar|مِنْ} (de)."
+    },
+    {
+      "id": "medine-t1.l10.grammar-4#7",
+      "type": "fill_gap",
+      "sentence": "الْمَكْتَبُ هُنَا. الْكِتَابُ {0}.",
+      "fr": "Le bureau est ici. Le livre est dessus.",
+      "gaps": [ { "answers": ["عَلَيْهِ"] } ],
+      "options": ["عَلَيْهِ", "إِلَيْهِ", "مِنْهُ"],
+      "explain": "« Dessus » : {ar|عَلَى} + {ar|هُ} donne {ar|عَلَيْهِ} (le {ar|ه} prend la kasra après le {ar|ي})."
+    },
+    {
+      "id": "medine-t1.l10.grammar-4#8",
+      "type": "order",
+      "fr": "Ce livre-ci est à toi (à un homme).",
+      "answers": [["هٰذَا", "الْكِتَابُ", "لَكَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l10.grammar-4#9",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ سَيَّارَةُ زَيْدٍ. هِيَ {0}.",
+      "fr": "C'est la voiture de Zayd. Elle est à lui.",
+      "gaps": [ { "answers": ["لَهُ"] } ],
+      "options": ["لَهُ", "لَهَا", "لِي"],
+      "explain": "Zayd est un homme : {ar|لَهُ}. La voiture est féminine ({ar|هِيَ}), mais le pronom suit le possesseur."
+    },
+    {
+      "id": "medine-t1.l10.grammar-4#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ce livre est à moi.",
+      "answers": ["هٰذَا الْكِتَابُ لِي.", "الْكِتَابُ لِي.", "ذٰلِكَ الْكِتَابُ لِي."]
+    },
+    {
+      "id": "medine-t1.l10.grammar-4#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le stylo est dessus.",
+      "answers": ["الْقَلَمُ عَلَيْهِ."]
+    }
+  ]
+}

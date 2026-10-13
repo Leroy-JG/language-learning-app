@@ -1,0 +1,142 @@
+{
+  "id": "medine-t1.l10.practice-5",
+  "type": "vocabulary",
+  "title": "Questions et réponses (exercices du livre)",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l10.practice-5#1",
+      "type": "tip",
+      "title": "On te pose la question, tu réponds",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["On te demande…", "Tu réponds…"],
+          "rows": [
+            ["{ar|مَا اسْمُكَ؟}", "{ar|اِسْمِي مُحَمَّدٌ.}"],
+            ["{ar|أَيْنَ أَبُوكَ؟}", "{ar|أَبِي فِي الْكُوَيْتِ.}"],
+            ["{ar|أَلَكَ أَخٌ؟}", "{ar|لِي أَخٌ.} ou {ar|مَا لِي أَخٌ.}"],
+            ["{ar|أَعِنْدَكَ سَيَّارَةٌ؟}", "{ar|عِنْدِي سَيَّارَةٌ.} ou {ar|مَا عِنْدِي سَيَّارَةٌ.}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "La question s'adresse à « toi » ({ar|كَ}) : la réponse parle de « moi » ({ar|◌ِي})."
+        }
+      ]
+    },
+    { "id": "medine-t1.l10.practice-5#2", "type": "present", "item": "p:ma-ismuka" },
+    { "id": "medine-t1.l10.practice-5#3", "type": "present", "item": "p:ismi" },
+    {
+      "id": "medine-t1.l10.practice-5#4",
+      "type": "fill_gap",
+      "sentence": "{0} مُحَمَّدٌ.",
+      "fr": "Mon nom est Muḥammad.",
+      "gaps": [ { "answers": ["اِسْمِي"] } ],
+      "options": ["اِسْمِي", "اِسْمُكَ", "اِسْمُهُ"],
+      "instruction": "Réponds à la question {ar|مَا اسْمُكَ؟}",
+      "explain": "« Mon nom » : {ar|اِسْمِي}."
+    },
+    { "id": "medine-t1.l10.practice-5#5", "type": "present", "item": "p:ma-lughatuka" },
+    {
+      "id": "medine-t1.l10.practice-5#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِنْ أَيْنَ أَنْتَ؟",
+      "answers": ["أَنَا مِنَ الْيَابَانِ.", "مِنَ الْيَابَانِ."],
+      "fr": "Je viens du Japon.",
+      "instruction": "Réponds : je viens du Japon."
+    },
+    {
+      "id": "medine-t1.l10.practice-5#7",
+      "type": "sort",
+      "categories": [ { "fr": "la question (on te parle)" }, { "fr": "la réponse (tu parles de toi)" } ],
+      "cards": [
+        { "ar": "مَا اسْمُكَ", "category": 0 },
+        { "ar": "اِسْمِي مُحَمَّدٌ", "category": 1 },
+        { "ar": "أَيْنَ أَبُوكَ", "category": 0 },
+        { "ar": "أَبِي فِي الْكُوَيْتِ", "category": 1 },
+        { "ar": "أَلَكَ أَخٌ", "category": 0 },
+        { "ar": "لِي أَخٌ وَاحِدٌ", "category": 1 }
+      ],
+      "instruction": "Question ou réponse ?",
+      "explain": "Dans la question, le pronom est {ar|كَ} (toi) ; dans la réponse, il est {ar|◌ِي} (moi)."
+    },
+    {
+      "id": "medine-t1.l10.practice-5#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ أَبُوكَ؟",
+      "answers": ["أَبِي فِي الْمَسْجِدِ."],
+      "fr": "Mon père est à la mosquée.",
+      "instruction": "Réponds : mon père est à la mosquée."
+    },
+    {
+      "id": "medine-t1.l10.practice-5#9",
+      "type": "order",
+      "fr": "Quelle est ta langue ? (à un homme)",
+      "answers": [["مَا", "لُغَتُكَ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l10.practice-5#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا لُغَتُكَ؟",
+      "answers": ["لُغَتِي الْعَرَبِيَّةُ."],
+      "fr": "Ma langue est l'arabe.",
+      "instruction": "Réponds : ma langue est l'arabe."
+    },
+    {
+      "id": "medine-t1.l10.practice-5#11",
+      "type": "true_false",
+      "statement": {
+        "fr": "On répond à {ar|أَلَكَ أَخٌ؟} par {ar|لِي أَخٌ} : le {ar|كَ} (toi) de la question devient {ar|◌ِي} (moi) dans la réponse."
+      },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l10.practice-5#12",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَلَكَ أَخٌ؟",
+      "answers": ["لَا، مَا لِي أَخٌ.", "مَا لِي أَخٌ."],
+      "fr": "Non, je n'ai pas de frère.",
+      "instruction": "Réponds : non, je n'ai pas de frère."
+    },
+    {
+      "id": "medine-t1.l10.practice-5#13",
+      "type": "spot",
+      "instruction": "Touche le mot qui veut dire « à elle ».",
+      "words": ["أُخْتِي", "لَهَا", "طِفْلٌ", "صَغِيرٌ."],
+      "answers": [1],
+      "fr": "Ma sœur a un petit enfant.",
+      "explain": "{ar|لَهَا} : {ar|لِ} + {ar|هَا}. « Ma sœur, à elle, un petit enfant » : ma sœur a un petit enfant."
+    },
+    {
+      "id": "medine-t1.l10.practice-5#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ma sœur a un petit enfant.",
+      "answers": ["أُخْتِي لَهَا طِفْلٌ صَغِيرٌ."]
+    },
+    {
+      "id": "medine-t1.l10.practice-5#15",
+      "type": "fill_gap",
+      "sentence": "زَمِيلِي {0} أَخٌ وَأُخْتٌ.",
+      "fr": "Mon camarade a un frère et une sœur.",
+      "gaps": [ { "answers": ["لَهُ"] } ],
+      "options": ["لَهُ", "لَهَا", "لِي"],
+      "explain": "Mon camarade est un homme : {ar|لَهُ}."
+    },
+    {
+      "id": "medine-t1.l10.practice-5#16",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَعِنْدَكَ دَرَّاجَةٌ؟",
+      "answers": ["لَا، مَا عِنْدِي دَرَّاجَةٌ.", "لَا، مَا لِي دَرَّاجَةٌ."],
+      "fr": "Non, je n'ai pas de vélo.",
+      "instruction": "Réponds : non, je n'ai pas de vélo."
+    }
+  ]
+}

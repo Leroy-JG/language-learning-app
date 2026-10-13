@@ -1,0 +1,133 @@
+{
+  "id": "medine-t1.l10.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 10",
+  "screens": [
+    {
+      "id": "medine-t1.l10.quiz#1",
+      "type": "mcq",
+      "mode": "audio-ar",
+      "item": "w:antum",
+      "distractors": ["w:antuma", "w:antunna"]
+    },
+    {
+      "id": "medine-t1.l10.quiz#2",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:nahnu", "w:anti", "w:huma", "w:hum", "w:hunna"]
+    },
+    {
+      "id": "medine-t1.l10.quiz#3",
+      "type": "question",
+      "prompt": { "fr": "Quel pronom emploie-t-on pour « elles » (plusieurs femmes) ?" },
+      "choices": [ { "ar": "هُنَّ" }, { "ar": "هُمْ" }, { "ar": "هُمَا" } ],
+      "answer": 0,
+      "explain": "{ar|هُنَّ} : plusieurs femmes. {ar|هُمْ} : plusieurs hommes ou un groupe mixte. {ar|هُمَا} : deux personnes."
+    },
+    {
+      "id": "medine-t1.l10.quiz#4",
+      "type": "fill_gap",
+      "sentence": "هُمْ {0} فِي الْمَدْرَسَةِ.",
+      "fr": "Ils sont enseignants à l'école.",
+      "gaps": [ { "answers": ["مُدَرِّسُونَ"] } ],
+      "options": ["مُدَرِّسُونَ", "مُدَرِّسٌ", "مُدَرِّسَةٌ"],
+      "explain": "{ar|هُمْ} est pluriel masculin : le prédicat aussi."
+    },
+    {
+      "id": "medine-t1.l10.quiz#5",
+      "type": "sort",
+      "categories": [ { "fr": "pronom isolé" }, { "fr": "pronom affixe" } ],
+      "cards": [
+        { "ar": "هُنَّ", "category": 0 },
+        { "ar": "أَنْتُمَا", "category": 0 },
+        { "ar": "بَيْتُكُمْ", "category": 1 },
+        { "ar": "اِبْنُهُمَا", "category": 1 }
+      ],
+      "instruction": "Pronom isolé ou pronom affixe ?",
+      "explain": "Un pronom affixe est collé à la fin d'un nom : {ar|بَيْتُكُمْ} (votre maison), {ar|اِبْنُهُمَا} (leur fils, à eux deux)."
+    },
+    {
+      "id": "medine-t1.l10.quiz#6",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « ma voiture » ?" },
+      "choices": [ { "ar": "سَيَّارَتِي" }, { "ar": "سَيَّارَتُكَ" }, { "ar": "سَيَّارَتُهَا" } ],
+      "answer": 0,
+      "explain": "{ar|◌ِي} veut dire « mon, ma ». Le {ar|ة} devient {ar|ت}."
+    },
+    {
+      "id": "medine-t1.l10.quiz#7",
+      "type": "fill_gap",
+      "sentence": "مُحَمَّدٌ فِي الْمَسْجِدِ {0} فِي الْبَيْتِ.",
+      "fr": "Muḥammad est à la mosquée, et son père est à la maison.",
+      "gaps": [ { "answers": ["وَأَبُوهُ"] } ],
+      "options": ["وَأَبُوهُ", "وَأَبُوهَا", "وَأَبِيهِ"],
+      "explain": "Muḥammad est un homme : {ar|هُ}. {ar|أَبٌ} est ici le sujet : il prend le {ar|و}."
+    },
+    {
+      "id": "medine-t1.l10.quiz#8",
+      "type": "spot",
+      "instruction": "Touche les mots qui portent un pronom affixe.",
+      "words": ["أَخُوهَا", "طَالِبٌ", "وَأُخْتُهَا", "طَبِيبَةٌ."],
+      "answers": [0, 2],
+      "fr": "Son frère (à elle) est étudiant et sa sœur (à elle) est médecin."
+    },
+    {
+      "id": "medine-t1.l10.quiz#9",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « à eux » (plusieurs hommes) ?" },
+      "choices": [ { "ar": "لَهُمْ" }, { "ar": "لَهُنَّ" }, { "ar": "لَهُمَا" } ],
+      "answer": 0,
+      "explain": "{ar|لِ} + {ar|هُمْ} donne {ar|لَهُمْ} (le {ar|لِ} devient {ar|لَ})."
+    },
+    {
+      "id": "medine-t1.l10.quiz#10",
+      "type": "fill_gap",
+      "sentence": "ذَهَبَ زَيْدٌ {0}.",
+      "fr": "Zayd est allé avec elle.",
+      "gaps": [ { "answers": ["مَعَهَا"] } ],
+      "options": ["مَعَهَا", "مَعَهُ", "مَعِي"],
+      "explain": "« Avec elle » : {ar|مَعَ} + {ar|هَا}."
+    },
+    {
+      "id": "medine-t1.l10.quiz#11",
+      "type": "order",
+      "fr": "J'ai un livre.",
+      "answers": [["عِنْدِي", "كِتَابٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l10.quiz#12",
+      "type": "true_false",
+      "statement": { "fr": "Pour dire « j'ai un frère », l'arabe emploie le verbe « avoir »." },
+      "answer": false,
+      "explain": "L'arabe n'a pas de verbe courant « avoir » : il emploie une préposition (ou un adverbe) et un pronom, {ar|لِي أَخٌ}."
+    },
+    {
+      "id": "medine-t1.l10.quiz#13",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:akh",
+      "distractors": ["w:zawj", "w:tifl"]
+    },
+    {
+      "id": "medine-t1.l10.quiz#14",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:zamil", "w:fata", "w:wahid", "w:maa-2", "w:kuwayt"]
+    },
+    {
+      "id": "medine-t1.l10.quiz#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mon frère est avec moi.",
+      "answers": ["أَخِي مَعِي."]
+    },
+    {
+      "id": "medine-t1.l10.quiz#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elle a une voiture.",
+      "answers": ["عِنْدَهَا سَيَّارَةٌ.", "لَهَا سَيَّارَةٌ."]
+    }
+  ]
+}

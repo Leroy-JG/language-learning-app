@@ -1,0 +1,125 @@
+{
+  "id": "medine-t1.l10.vocab-4",
+  "type": "vocabulary",
+  "title": "Avec, un seul",
+  "icon": "pointing",
+  "screens": [
+    { "id": "medine-t1.l10.vocab-4#1", "type": "present", "item": "w:maa-2" },
+    {
+      "id": "medine-t1.l10.vocab-4#2",
+      "type": "tip",
+      "title": "Avec quelqu'un",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Après {ar|مَعَ}, le nom est à la kasra (génitif). Un pronom affixe se colle aussi à {ar|مَعَ} : la fatha reste, sauf avec {ar|◌ِي}."
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "avec…"],
+          "rows": [
+            ["{ar|◌ِي}", "{ar|مَعِي}"],
+            ["{ar|نَا}", "{ar|مَعَنَا}"],
+            ["{ar|كَ}", "{ar|مَعَكَ}"],
+            ["{ar|كِ}", "{ar|مَعَكِ}"],
+            ["{ar|كُمَا}", "{ar|مَعَكُمَا}"],
+            ["{ar|كُمْ}", "{ar|مَعَكُمْ}"],
+            ["{ar|كُنَّ}", "{ar|مَعَكُنَّ}"],
+            ["{ar|هُ}", "{ar|مَعَهُ}"],
+            ["{ar|هَا}", "{ar|مَعَهَا}"],
+            ["{ar|هُمَا}", "{ar|مَعَهُمَا}"],
+            ["{ar|هُمْ}", "{ar|مَعَهُمْ}"],
+            ["{ar|هُنَّ}", "{ar|مَعَهُنَّ}"]
+          ]
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "مَعَ مُحَمَّدٍ", "fr": "avec Muḥammad" },
+              "to": { "ar": "مَعَهُ", "fr": "avec lui" }
+            },
+            {
+              "from": { "ar": "مَعَ الطُّلَّابِ", "fr": "avec les étudiants" },
+              "to": { "ar": "مَعَهُمْ", "fr": "avec eux" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:maa-2",
+      "distractors": ["w:inda", "w:taht"]
+    },
+    { "id": "medine-t1.l10.vocab-4#4", "type": "present", "item": "w:wahid" },
+    {
+      "id": "medine-t1.l10.vocab-4#5",
+      "type": "tip",
+      "title": "Un seul, une seule",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|وَاحِدٌ} suit le nom et s'accorde avec lui." },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَخٌ وَاحِدٌ", "fr": "un seul frère" },
+              "to": { "ar": "أُخْتٌ وَاحِدَةٌ", "fr": "une seule sœur" },
+              "label": "le féminin prend le {ar|ة}"
+            }
+          ]
+        },
+        { "type": "example", "ar": "لِزَيْدٍ أُخْتٌ وَاحِدَةٌ.", "fr": "Zayd a une seule sœur." }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.vocab-4#6",
+      "type": "fill_gap",
+      "sentence": "لِزَيْدٍ أُخْتٌ {0}.",
+      "fr": "Zayd a une seule sœur.",
+      "gaps": [ { "answers": ["وَاحِدَةٌ"] } ],
+      "options": ["وَاحِدَةٌ", "وَاحِدٌ"],
+      "explain": "{ar|أُخْتٌ} est féminin : {ar|وَاحِدَةٌ}."
+    },
+    {
+      "id": "medine-t1.l10.vocab-4#7",
+      "type": "order",
+      "fr": "Zayd est allé avec Muḥammad.",
+      "answers": [["ذَهَبَ", "زَيْدٌ", "مَعَ", "مُحَمَّدٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l10.vocab-4#8",
+      "type": "fill_gap",
+      "sentence": "خَرَجَ مُحَمَّدٌ مِنَ الْفَصْلِ وَخَرَجَ {0} زَمِيلُهُ.",
+      "fr": "Muḥammad est sorti de la classe, et son camarade est sorti avec lui.",
+      "gaps": [ { "answers": ["مَعَهُ"] } ],
+      "options": ["مَعَهُ", "مَعَهَا", "مَعِي"],
+      "explain": "On parle de Muḥammad, un homme : « avec lui » se dit {ar|مَعَهُ}. {ar|زَمِيلُهُ} (son camarade) est le sujet de {ar|خَرَجَ}."
+    },
+    {
+      "id": "medine-t1.l10.vocab-4#9",
+      "type": "question",
+      "prompt": { "fr": "Après {ar|مَعَ}, le nom est…" },
+      "choices": [ { "fr": "à la kasra (génitif)" }, { "fr": "à la damma (nominatif)" }, { "fr": "à la fatha (accusatif)" } ],
+      "answer": 0,
+      "explain": "Comme après une préposition, le nom qui suit {ar|مَعَ} est au génitif : {ar|مَعَ مُحَمَّدٍ}."
+    },
+    {
+      "id": "medine-t1.l10.vocab-4#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mon père est avec ma mère.",
+      "answers": ["أَبِي مَعَ أُمِّي."]
+    },
+    {
+      "id": "medine-t1.l10.vocab-4#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il est avec nous.",
+      "answers": ["هُوَ مَعَنَا."]
+    }
+  ]
+}

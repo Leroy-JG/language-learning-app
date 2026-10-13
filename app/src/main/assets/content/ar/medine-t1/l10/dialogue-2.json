@@ -1,0 +1,122 @@
+{
+  "id": "medine-t1.l10.dialogue-2",
+  "type": "dialogue",
+  "title": "Les langues et les parents",
+  "icon": "school",
+  "screens": [
+    {
+      "id": "medine-t1.l10.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Quelle est ta langue ?",
+      "intro": "Ḥāmid demande à Muḥammad quelle langue il parle.",
+      "speakers": { "A": { "name": "Ḥāmid", "voice": "m1" }, "B": { "name": "Muḥammad", "voice": "m2" } },
+      "lines": [
+        { "speaker": "A", "ar": "مَا لُغَتُكَ يَا مُحَمَّدُ؟", "fr": "Quelle est ta langue, Muḥammad ?" },
+        { "speaker": "B", "ar": "لُغَتِي الْأُرْدِيَّةُ.", "fr": "Ma langue est l'ourdou." },
+        { "speaker": "A", "ar": "أَهِيَ لُغَةٌ سَهْلَةٌ؟", "fr": "Est-ce une langue facile ?" },
+        { "speaker": "B", "ar": "نَعَمْ. هِيَ لُغَةٌ سَهْلَةٌ.", "fr": "Oui. C'est une langue facile." },
+        { "speaker": "A", "ar": "وَحَمْزَةُ، مَا لُغَتُهُ؟", "fr": "Et Ḥamza, quelle est sa langue ?" },
+        {
+          "speaker": "B",
+          "ar": "لُغَتُهُ الْيَابَانِيَّةُ، وَهِيَ لُغَةٌ صَعْبَةٌ.",
+          "fr": "Sa langue est le japonais, et c'est une langue difficile."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.dialogue-2#2",
+      "type": "dialogue",
+      "title": "Le père et la mère",
+      "intro": "Ḥāmid pose des questions sur les parents de Muḥammad.",
+      "speakers": { "A": { "name": "Ḥāmid", "voice": "m1" }, "B": { "name": "Muḥammad", "voice": "m2" } },
+      "lines": [
+        { "speaker": "A", "ar": "أَيْنَ أَبُوكَ يَا مُحَمَّدُ؟", "fr": "Où est ton père, Muḥammad ?" },
+        {
+          "speaker": "B",
+          "ar": "أَبِي فِي الْكُوَيْتِ. هُوَ طَبِيبٌ شَهِيرٌ.",
+          "fr": "Mon père est au Koweït. C'est un médecin célèbre."
+        },
+        { "speaker": "A", "ar": "وَأَيْنَ أُمُّكَ؟", "fr": "Et où est ta mère ?" },
+        {
+          "speaker": "B",
+          "ar": "هِيَ أَيْضًا فِي الْكُوَيْتِ مَعَ أَبِي. هِيَ مُدَرِّسَةٌ هُنَاكَ.",
+          "fr": "Elle est aussi au Koweït, avec mon père. Elle est enseignante là-bas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l10.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la langue de Muḥammad ?" },
+      "choices": [ { "fr": "L'ourdou" }, { "fr": "Le japonais" }, { "fr": "L'arabe" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l10.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l10.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la langue de Ḥamza ?" },
+      "choices": [ { "fr": "Le japonais" }, { "fr": "L'ourdou" }, { "fr": "Le français" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l10.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l10.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Muḥammad dit que le japonais est une langue facile." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l10.dialogue-2#1" },
+      "explain": "Il dit que le japonais est une langue difficile ({ar|صَعْبَةٌ}) ; c'est l'ourdou qui est facile ({ar|سَهْلَةٌ})."
+    },
+    {
+      "id": "medine-t1.l10.dialogue-2#6",
+      "type": "question",
+      "prompt": { "fr": "Où est le père de Muḥammad ?" },
+      "choices": [ { "fr": "Au Koweït" }, { "fr": "Au Japon" }, { "fr": "À Médine" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l10.dialogue-2#2" }
+    },
+    {
+      "id": "medine-t1.l10.dialogue-2#7",
+      "type": "question",
+      "prompt": { "fr": "Quel est le métier de la mère de Muḥammad ?" },
+      "choices": [ { "fr": "Enseignante" }, { "fr": "Médecin" }, { "fr": "Infirmière" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l10.dialogue-2#2" }
+    },
+    {
+      "id": "medine-t1.l10.dialogue-2#8",
+      "type": "fill_gap",
+      "sentence": "أَبِي طَبِيبٌ {0}.",
+      "fr": "Mon père est un médecin célèbre.",
+      "gaps": [ { "answers": ["شَهِيرٌ"] } ],
+      "options": ["شَهِيرٌ", "شَهِيرَةٌ"],
+      "context": { "dialogue": "medine-t1.l10.dialogue-2#2" },
+      "explain": "{ar|طَبِيبٌ} est masculin et indéfini : l'adjectif aussi, {ar|شَهِيرٌ}."
+    },
+    {
+      "id": "medine-t1.l10.dialogue-2#9",
+      "type": "order",
+      "fr": "Et où est ta mère ?",
+      "answers": [["وَأَيْنَ", "أُمُّكَ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l10.dialogue-2#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ أَبُوكَ يَا مُحَمَّدُ؟",
+      "answers": ["أَبِي فِي الْكُوَيْتِ."],
+      "fr": "Mon père est au Koweït.",
+      "instruction": "Réponds : mon père est au Koweït.",
+      "context": { "dialogue": "medine-t1.l10.dialogue-2#2" }
+    },
+    {
+      "id": "medine-t1.l10.dialogue-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ma langue est l'ourdou.",
+      "answers": ["لُغَتِي الْأُرْدِيَّةُ."]
+    }
+  ]
+}
