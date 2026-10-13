@@ -55,7 +55,7 @@
       "fr": "Nous sommes étudiants.",
       "gaps": [ { "answers": ["طُلَّابٌ"] } ],
       "options": ["طُلَّابٌ", "طَالِبٌ", "طَالِبَةٌ"],
-      "explain": "{ar|نَحْنُ} est pluriel : le prédicat est au pluriel, {ar|طُلَّابٌ}."
+      "explain": "{ar|نَحْنُ} désigne ici plusieurs personnes : le prédicat est au pluriel, {ar|طُلَّابٌ}."
     },
     {
       "id": "medine-t1.l10.practice-1#4",
@@ -92,7 +92,7 @@
         { "ar": "أَنَا طَالِبٌ.", "category": 0 },
         { "ar": "أَنَا طَالِبَةٌ.", "category": 1 },
         { "ar": "أَنَا مُدَرِّسَةٌ.", "category": 1 },
-        { "ar": "أَنَا طَبِيبٌ.", "category": 0 }
+        { "ar": "أَنَا مُسْلِمٌ.", "category": 0 }
       ],
       "instruction": "Qui peut dire cette phrase ?",
       "explain": "Le prédicat se met au féminin (avec le {ar|ة}) quand la personne qui parle est une femme."

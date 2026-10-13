@@ -74,12 +74,12 @@
             ["{ar|كَ}", "ton, ta, tes (à un homme)", "{ar|كِتَابُكَ}"],
             ["{ar|كِ}", "ton, ta, tes (à une femme)", "{ar|كِتَابُكِ}"],
             ["{ar|كُمَا}", "votre, vos (à deux)", "{ar|كِتَابُكُمَا}"],
-            ["{ar|كُمْ}", "votre, vos (à plusieurs hommes)", "{ar|كِتَابُكُمْ}"],
+            ["{ar|كُمْ}", "votre, vos (à plusieurs hommes, ou groupe mixte)", "{ar|كِتَابُكُمْ}"],
             ["{ar|كُنَّ}", "votre, vos (à plusieurs femmes)", "{ar|كِتَابُكُنَّ}"],
             ["{ar|هُ}", "son, sa, ses (à lui)", "{ar|كِتَابُهُ}"],
             ["{ar|هَا}", "son, sa, ses (à elle)", "{ar|كِتَابُهَا}"],
             ["{ar|هُمَا}", "leur, leurs (à eux deux)", "{ar|كِتَابُهُمَا}"],
-            ["{ar|هُمْ}", "leur, leurs (à eux)", "{ar|كِتَابُهُمْ}"],
+            ["{ar|هُمْ}", "leur, leurs (à eux, ou groupe mixte)", "{ar|كِتَابُهُمْ}"],
             ["{ar|هُنَّ}", "leur, leurs (à elles)", "{ar|كِتَابُهُنَّ}"]
           ]
         },

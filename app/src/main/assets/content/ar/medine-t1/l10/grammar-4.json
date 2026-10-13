@@ -146,7 +146,7 @@
     {
       "id": "medine-t1.l10.grammar-4#8",
       "type": "order",
-      "fr": "Ce livre est à toi (à un homme).",
+      "fr": "Ceci est ton livre : il est à toi (à un homme).",
       "answers": [["هٰذَا", "الْكِتَابُ", "لَكَ"]],
       "punctuation": "."
     },
@@ -164,7 +164,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Ce livre est à moi.",
-      "answers": ["هٰذَا الْكِتَابُ لِي.", "الْكِتَابُ لِي."]
+      "answers": ["هٰذَا الْكِتَابُ لِي.", "الْكِتَابُ لِي.", "ذٰلِكَ الْكِتَابُ لِي."]
     },
     {
       "id": "medine-t1.l10.grammar-4#11",

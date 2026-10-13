@@ -176,7 +176,7 @@ Supports utilisés pour le chapitre de révision 1 (`r01`) : trois PDF « Semain
 - l'interpellation d'un nom annexé (يَا عَبْدَ اللَّهِ) ou avec أَيُّهَا ;
 - l'annexion « d'apparence » (الضَّارِبُ الرَّجُلِ) ;
 - le pluriel des adjectifs : seuls quelques-uns sont vus (سِرَاعٌ, ceux des chapitres 9 et de la révision 1) ;
-- les autres prépositions (`بِ`, `مَعَ`, `عَنْ` ne sont qu'aperçues) ;
+- les autres prépositions (`بِ` et `عَنْ` ne sont qu'aperçues ; `مَعَ` est enseigné au chapitre 10) ;
 - les verbes conjugués (sauf les verbes cités au passé à la 3ᵉ personne du masculin singulier — chapitres 4 et 8, révision 1 — et leurs formes citées) ;
 
 Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, et هٰذِهِ ou تِلْكَ devant un nom marqué masculin (sauf si deux éléments de genres différents s'écrivent pareil sans harakat, comme رَجُلٌ et رِجْلٌ).
@@ -437,6 +437,42 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - le sujet d'une phrase nominale « en principe défini » (rappel du chapitre 8) et la hamza finale de `مَاءٌ` (rappel du chapitre 6).
 - **Nouvelle icône :** aucune (`طَرِيقٌ` utilise l'icône `road` du chapitre 5).
 - **Fonctionnalité ajoutée :** champ optionnel `label` dans `chapter.json` (affiché à la place de « Chapitre N » ; le numéro n'est alors pas contrôlé par le validateur) — voir `docs/content-format.md` §6.
+
+### Leçon 10 (`l10`)
+
+- **Supports :** deux PDF (« Les pronoms, première partie » : pronoms isolés, deux pages de dialogues du livre ; « deuxième partie » : pronoms affixes, tableau préposition + pronom, exercices 1 à 6, vocabulaire nouveau).
+- **Exercices du livre repris :**
+  - exercice 5 (huit noms × moi / toi / lui / elle) → `practice-2` ;
+  - exercice 2 (`ـهُ` ou `ـهَا`) → `practice-3` (phrases 1 à 5) et `vocab-4` (phrase 6, qui contient `مَعَهُ`, présenté dans cette activité) ;
+  - exercice 1 (questions personnelles) et exercices 3 et 4 (oui / non avec `عِنْدِي`) → `practice-5`, en réponses guidées (« Réponds : … »), puisque les réponses du livre sont personnelles ;
+  - exercice 6 (lecture) → `practice-5` (`لِي أُخْتٌ وَاحِدَةٌ` est dans `vocab-4`) ;
+  - exemples du schéma des pronoms isolés (`هُمْ فِي الْفَصْلِ`, `أَنْتُمْ مِنْ فَرَنْسَا`, `هُنَّ مُسْلِمَاتٌ`, `نَحْنُ طُلَّابٌ`) → `practice-1` ;
+  - dialogues des deux pages → `dialogue-1` à `dialogue-3` (les répliques longues de Muḥammad sont coupées en deux lignes audio) ;
+  - « تَأَمَّلْ » (`بَيْتِي بَيْتُكَ بَيْتُهُ بَيْتُهَا`) → `grammar-2` ;
+  - tableau préposition + pronom → `grammar-4` ; `مَعَ` et `عِنْدَ` ont le même tableau (`vocab-4`, `grammar-5`).
+- **Écarts avec les diapositives :**
+  - le tableau du PDF réunit `كِ` et `كَ` : le chapitre les sépare (masculin / féminin) ;
+  - `الْجَرُّ` : les cases `الرَّفْعُ` et `النَّصْبُ` des pronoms affixes sont vides dans le PDF ; le chapitre dit seulement qu'elles viendront plus tard ;
+  - les pronoms isolés du `نَصْب` (`إِيَّاكَ`, `إِيَّاهُ`) ne sont que cités ;
+  - `هٰذَا` écrit avec l'alif suscrit, comme dans tout le cours ;
+  - `اسْمُ` / `اِسْمُ` : sans kasra sur l'alif au milieu d'une phrase, avec kasra en début de phrase.
+- **Formes aperçues seulement** (astuce « Des petites formes à repérer », rien n'est exigé) : `بِالْجَامِعَةِ`, `الَّذِي`, `ذَهَبْتُ` / `أَذَهَبْتَ`.
+- **Remarque du livre sur « avoir » :** « on dit `عِنْدِي كِتَابٌ` et `لِي أَخٌ`, on ne dit pas `عِنْدِي أَخٌ` ». Le chapitre la cite comme usage du livre, avec la précision que `عِنْدِي أَخٌ` s'entend pourtant dans la pratique ; aucun exercice ne met `لِي` et `عِنْدِي` en concurrence pour un proche, et les dictées sur un objet acceptent aussi `لِ` (`مَا لِي قَلَمٌ`).
+- **Choix de contenu :**
+  - `زَوْجٌ` : « un époux, une épouse » (le PDF donne « Époux / Épouse »), genre `m` ; la note dit qu'on dit aussi `زَوْجَةٌ` ;
+  - `طِفْلٌ` : « un enfant, un bébé » (le PDF : « bébé »), pluriel `أَطْفَالٌ` ; `أَخٌ` : pluriel `إِخْوَةٌ` (le PDF ne le donne pas) ;
+  - `مَعَ` et `عِنْدَ` sont présentés comme des adverbes (`ظَرْفٌ`), pas comme des prépositions, comme au chapitre 8 ;
+  - le nom d'un pays n'a pas de `gender` (voir plus haut) ; `الْأُرْدِيَّةُ` et `الْيَابَانِيَّةُ` sont féminins comme `الْعَرَبِيَّةُ` ;
+  - les exercices de transformation `أَنْتَ` / `أَنْتِ` n'opposent jamais ces deux formes dans un même choix (identiques sans harakat).
+- **Explications ajoutées (données à l'oral, absentes des PDF) :**
+  - le pronom est un nom toujours défini (d'où son rôle de sujet) ; il n'y a pas de pronom « nous deux » ; `ـمَا` / `ـمْ` / `ـنَّ` = deux / plusieurs hommes / plusieurs femmes ; un groupe mixte prend le masculin ;
+  - le pronom affixe est le second terme d'une annexion : plus de tanwin ni d'article ; `ة` → `ت` ; avec `ـِي`, la lettre qui précède prend en général la kasra ;
+  - **le pronom suit le possesseur, pas la chose possédée** (`سَيَّارَتُهُ` / `سَيَّارَتُهَا`), contrairement au français ;
+  - la kasra du `هُ` après une kasra ou un `ي` (`فِيهِ`, `عَلَيْهِ`, `كِتَابُ أَبِيهِ`), le `ى` de `عَلَى` / `إِلَى` qui devient `ي`, `مِنِّي`, `لِ` → `لَ` sauf `لِي` ;
+  - `أَبٌ` et `أَخٌ` : `ـُو` au nominatif, `ـِي` au génitif, `أَبِي` / `أَخِي` toujours ; l'accusatif (`أَبَاهُ`) n'est que mentionné ; `أُمٌّ`, `أُخْتٌ`, `عَمٌّ`, `اِبْنٌ` ne changent pas ;
+  - `مَا` devant la phrase : négation de « avoir » (`مَا عِنْدِي سَيَّارَةٌ`), à ne pas confondre avec `مَا` « qu'est-ce que ? » ;
+  - `زُمَلَاءُ` est de la forme `فُعَلَاءُ` (comme `وُزَرَاءُ`) : pas de tanwin ; pluriels des termes de grammaire en `ـُونَ`.
+- **Pas de nouvelle icône.**
 
 ## Audio
 

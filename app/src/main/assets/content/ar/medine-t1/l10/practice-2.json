@@ -79,7 +79,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "C'est ma clé.",
-      "answers": ["هٰذَا مِفْتَاحِي."]
+      "answers": ["هٰذَا مِفْتَاحِي.", "ذٰلِكَ مِفْتَاحِي."]
     },
     {
       "id": "medine-t1.l10.practice-2#6",
@@ -93,7 +93,7 @@
     {
       "id": "medine-t1.l10.practice-2#7",
       "type": "order",
-      "fr": "C'est son mouchoir (à lui).",
+      "fr": "Ceci est son mouchoir (à lui).",
       "answers": [["هٰذَا", "مِنْدِيلُهُ"]],
       "punctuation": "."
     },
@@ -102,7 +102,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "C'est ta voiture (à un homme).",
-      "answers": ["هٰذِهِ سَيَّارَتُكَ."]
+      "answers": ["هٰذِهِ سَيَّارَتُكَ.", "تِلْكَ سَيَّارَتُكَ."]
     },
     {
       "id": "medine-t1.l10.practice-2#9",

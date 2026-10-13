@@ -81,7 +81,7 @@
     {
       "id": "medine-t1.l10.dialogue-3#4",
       "type": "question",
-      "prompt": { "fr": "Où est le père de Ḥamza ?" },
+      "prompt": { "fr": "Où est le père du camarade de Muḥammad ?" },
       "choices": [ { "fr": "Au Japon" }, { "fr": "Au Koweït" }, { "fr": "En Irak" } ],
       "answer": 0,
       "context": { "dialogue": "medine-t1.l10.dialogue-3#1" }
@@ -89,21 +89,13 @@
     {
       "id": "medine-t1.l10.dialogue-3#5",
       "type": "question",
-      "prompt": { "fr": "Quel est le métier du père de Ḥamza ?" },
+      "prompt": { "fr": "Quel est le métier du père du camarade de Muḥammad ?" },
       "choices": [ { "fr": "Commerçant" }, { "fr": "Médecin" }, { "fr": "Ingénieur" } ],
       "answer": 0,
       "context": { "dialogue": "medine-t1.l10.dialogue-3#1" }
     },
     {
       "id": "medine-t1.l10.dialogue-3#6",
-      "type": "question",
-      "prompt": { "fr": "Combien de frères et de sœurs Muḥammad a-t-il ?" },
-      "choices": [ { "fr": "Un frère et une sœur" }, { "fr": "Deux frères" }, { "fr": "Une sœur seulement" } ],
-      "answer": 0,
-      "context": { "dialogue": "medine-t1.l10.dialogue-3#2" }
-    },
-    {
-      "id": "medine-t1.l10.dialogue-3#7",
       "type": "true_false",
       "statement": { "fr": "La sœur de Muḥammad est avec lui à Médine." },
       "answer": false,
@@ -111,24 +103,15 @@
       "explain": "C'est son frère Usāma qui est avec lui. Sa sœur Zaynab est en Irak, avec son mari."
     },
     {
-      "id": "medine-t1.l10.dialogue-3#8",
+      "id": "medine-t1.l10.dialogue-3#7",
       "type": "question",
-      "prompt": { "fr": "Que fait le mari de Zaynab ?" },
-      "choices": [ { "fr": "Il est ingénieur" }, { "fr": "Il est commerçant" }, { "fr": "Il est médecin" } ],
+      "prompt": { "fr": "Combien de frères et de sœurs Muḥammad a-t-il ?" },
+      "choices": [ { "fr": "Un frère et une sœur" }, { "fr": "Deux frères" }, { "fr": "Une sœur seulement" } ],
       "answer": 0,
       "context": { "dialogue": "medine-t1.l10.dialogue-3#2" }
     },
     {
-      "id": "medine-t1.l10.dialogue-3#9",
-      "type": "question",
-      "prompt": { "fr": "Qui a une voiture ?" },
-      "choices": [ { "fr": "Ḥamza" }, { "fr": "Muḥammad" }, { "fr": "Ḥāmid" } ],
-      "answer": 0,
-      "context": { "dialogue": "medine-t1.l10.dialogue-3#2" },
-      "explain": "Muḥammad dit : {ar|عِنْدِي دَرَّاجَةٌ} (j'ai un vélo) et {ar|حَمْزَةُ، عِنْدَهُ سَيَّارَةٌ} (Ḥamza a une voiture)."
-    },
-    {
-      "id": "medine-t1.l10.dialogue-3#10",
+      "id": "medine-t1.l10.dialogue-3#8",
       "type": "fill_gap",
       "sentence": "وَلِي أُخْتٌ وَاحِدَةٌ، {0} زَيْنَبُ.",
       "fr": "Et j'ai une seule sœur, son nom est Zaynab.",
@@ -136,6 +119,23 @@
       "options": ["اسْمُهَا", "اسْمُهُ"],
       "context": { "dialogue": "medine-t1.l10.dialogue-3#2" },
       "explain": "On parle d'une sœur, une femme : {ar|هَا}."
+    },
+    {
+      "id": "medine-t1.l10.dialogue-3#9",
+      "type": "question",
+      "prompt": { "fr": "Que fait le mari de Zaynab ?" },
+      "choices": [ { "fr": "Il est ingénieur" }, { "fr": "Il est commerçant" }, { "fr": "Il est médecin" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l10.dialogue-3#2" }
+    },
+    {
+      "id": "medine-t1.l10.dialogue-3#10",
+      "type": "question",
+      "prompt": { "fr": "Qui a une voiture ?" },
+      "choices": [ { "fr": "Ḥamza" }, { "fr": "Muḥammad" }, { "fr": "Ḥāmid" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l10.dialogue-3#2" },
+      "explain": "Muḥammad dit : {ar|عِنْدِي دَرَّاجَةٌ} (j'ai un vélo) et {ar|حَمْزَةُ، عِنْدَهُ سَيَّارَةٌ} (Ḥamza a une voiture)."
     },
     {
       "id": "medine-t1.l10.dialogue-3#11",

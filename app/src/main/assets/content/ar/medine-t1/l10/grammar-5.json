@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "L'arabe n'a pas de verbe « avoir » au présent : il emploie une préposition suivie d'un pronom affixe. Mot à mot : « à moi un frère » veut dire « j'ai un frère »."
+          "text": "L'arabe n'a pas de verbe courant « avoir » : il emploie une préposition (ou un adverbe) suivie d'un pronom affixe. Mot à mot : « à moi un frère » veut dire « j'ai un frère »."
         },
         {
           "type": "table",
@@ -32,15 +32,15 @@
     {
       "id": "medine-t1.l10.grammar-5#2",
       "type": "tip",
-      "title": "Deux prépositions : {ar|عِنْدَ} et {ar|لِ}",
+      "title": "Deux façons de dire « j'ai » : {ar|عِنْدَ} et {ar|لِ}",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "On peut aussi dire « j'ai » avec {ar|عِنْدَ} (chez) : {ar|عِنْدِي كِتَابٌ} (« chez moi, un livre »)."
+          "text": "On peut aussi dire « j'ai » avec {ar|عِنْدَ} (chez), un adverbe ({ar|ظَرْفٌ}) comme {ar|تَحْتَ} : {ar|عِنْدِي كِتَابٌ} (« chez moi, un livre »)."
         },
         {
           "type": "note",
-          "text": "Le livre de Médine donne ces deux modèles : on dit {ar|عِنْدِي كِتَابٌ} (un objet) et {ar|لِي أَخٌ} (un proche), mais on ne dit pas {ar|عِنْدِي أَخٌ}."
+          "text": "Le livre de Médine retient cet usage : {ar|عِنْدِي} pour un objet ({ar|عِنْدِي كِتَابٌ}) et {ar|لِي} pour un proche ({ar|لِي أَخٌ}). Il précise qu'on ne dit pas {ar|عِنْدِي أَخٌ} ; dans la pratique, on l'entend pourtant."
         },
         { "type": "example", "ar": "عِنْدِي كِتَابٌ.", "fr": "J'ai un livre." },
         { "type": "example", "ar": "لِي أَخٌ.", "fr": "J'ai un frère." }
@@ -121,7 +121,7 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "Pour nier, on place {ar|مَا} devant la phrase. Ce {ar|مَا} est une négation (« ne… pas ») : ce n'est pas le {ar|مَا} de « qu'est-ce que ? »."
+          "text": "Pour nier « avoir », on place {ar|مَا} devant la phrase. Ce {ar|مَا} est une négation (« ne… pas ») : ce n'est pas le {ar|مَا} de « qu'est-ce que ? »."
         }
       ]
     },

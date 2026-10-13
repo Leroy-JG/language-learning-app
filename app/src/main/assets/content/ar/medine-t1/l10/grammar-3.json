@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Deux noms de la famille changent un peu quand un pronom se colle à eux : {ar|أَبٌ} (père) et {ar|أَخٌ} (frère). Quand le nom est le sujet, un {ar|و} apparaît."
+          "text": "Deux noms de la famille changent un peu quand un pronom se colle à eux : {ar|أَبٌ} (père) et {ar|أَخٌ} (frère). Au nominatif (par exemple quand le nom est le sujet), un {ar|و} apparaît, sauf avec {ar|◌ِي} : {ar|أَبِي} et {ar|أَخِي} ne changent jamais."
         },
         {
           "type": "table",
@@ -43,9 +43,13 @@
           ]
         },
         {
+          "type": "paragraph",
+          "text": "Le {ar|هُ} devient {ar|هِ} après une kasra ou un {ar|ي} : {ar|أَبِيهِ}. La règle complète vient dans la partie suivante."
+        },
+        {
           "type": "note",
           "tone": "warning",
-          "text": "Tous les noms de la famille ne font pas ainsi : {ar|أُمُّهُ}, {ar|أُخْتُهُ}, {ar|عَمُّهُ} et {ar|اِبْنُهُ} se forment comme {ar|كِتَابُهُ}. Quelques autres noms se comportent comme {ar|أَبٌ} et {ar|أَخٌ} : tu les verras plus tard."
+          "text": "Tous les noms de la famille ne font pas ainsi : {ar|أُمُّهُ}, {ar|أُخْتُهُ}, {ar|عَمُّهُ} et {ar|اِبْنُهُ} se forment comme {ar|كِتَابُهُ}. Quelques autres noms se comportent comme {ar|أَبٌ} et {ar|أَخٌ} : tu les verras plus tard. À l'accusatif, ces deux noms prennent un {ar|ا} ({ar|أَبَاهُ}) : l'accusatif viendra plus tard."
         }
       ]
     },

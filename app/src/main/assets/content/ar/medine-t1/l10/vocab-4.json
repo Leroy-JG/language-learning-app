@@ -93,11 +93,11 @@
     {
       "id": "medine-t1.l10.vocab-4#8",
       "type": "fill_gap",
-      "sentence": "خَرَجَ مُحَمَّدٌ مِنَ الْفَصْلِ وَخَرَجَ {0} {1}.",
+      "sentence": "خَرَجَ مُحَمَّدٌ مِنَ الْفَصْلِ وَخَرَجَ {0} زَمِيلُهُ.",
       "fr": "Muḥammad est sorti de la classe, et son camarade est sorti avec lui.",
-      "gaps": [ { "answers": ["مَعَهُ"] }, { "answers": ["زَمِيلُهُ"] } ],
-      "options": ["مَعَهُ", "مَعَهَا", "زَمِيلُهُ", "زَمِيلُهَا"],
-      "explain": "On parle de Muḥammad, un homme : {ar|مَعَهُ} (avec lui) et {ar|زَمِيلُهُ} (son camarade). {ar|زَمِيلُهُ} est le sujet de {ar|خَرَجَ} : damma."
+      "gaps": [ { "answers": ["مَعَهُ"] } ],
+      "options": ["مَعَهُ", "مَعَهَا", "مَعِي"],
+      "explain": "On parle de Muḥammad, un homme : « avec lui » se dit {ar|مَعَهُ}. {ar|زَمِيلُهُ} (son camarade) est le sujet de {ar|خَرَجَ}."
     },
     {
       "id": "medine-t1.l10.vocab-4#9",
@@ -105,7 +105,7 @@
       "prompt": { "fr": "Après {ar|مَعَ}, le nom est…" },
       "choices": [ { "fr": "à la kasra (génitif)" }, { "fr": "à la damma (nominatif)" }, { "fr": "à la fatha (accusatif)" } ],
       "answer": 0,
-      "explain": "{ar|مَعَ} est une préposition : le nom qui suit est au génitif, comme {ar|مَعَ مُحَمَّدٍ}."
+      "explain": "Comme après une préposition, le nom qui suit {ar|مَعَ} est au génitif : {ar|مَعَ مُحَمَّدٍ}."
     },
     {
       "id": "medine-t1.l10.vocab-4#10",

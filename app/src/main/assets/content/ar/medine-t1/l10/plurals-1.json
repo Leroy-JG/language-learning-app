@@ -22,7 +22,7 @@
         },
         {
           "type": "note",
-          "text": "{ar|زُمَلَاءُ} a une forme longue (un alif suivi de plusieurs lettres) : il n'a pas de tanwin. Les autres pluriels gardent le tanwin."
+          "text": "{ar|زُمَلَاءُ} est de la forme {ar|فُعَلَاءُ}, comme {ar|وُزَرَاءُ} et {ar|فُقَرَاءُ} (chapitre 5) : il n'a pas de tanwin. Les autres pluriels gardent le tanwin."
         }
       ]
     },
@@ -49,7 +49,7 @@
         },
         {
           "type": "note",
-          "text": "Les trois personnes désignent des personnes : leur pluriel est en « -ūna », comme {ar|مُدَرِّسُونَ} et {ar|مُسْلِمُونَ}. {ar|الضَّمَائِرُ} est un pluriel brisé à forme longue : pas de tanwin."
+          "text": "Les trois personnes désignent des personnes : leur pluriel est en « -ūna », comme {ar|مُدَرِّسُونَ} et {ar|مُسْلِمُونَ}. {ar|الضَّمَائِرُ} est un pluriel brisé : sans l'article, il s'écrit {ar|ضَمَائِرُ}, sans tanwin (forme longue)."
         }
       ]
     },
@@ -65,7 +65,7 @@
       "prompt": { "fr": "Lequel de ces pluriels n'a pas de tanwin ?" },
       "choices": [ { "ar": "زُمَلَاءُ" }, { "ar": "أَطْفَالٌ" }, { "ar": "أَزْوَاجٌ" } ],
       "answer": 0,
-      "explain": "{ar|زُمَلَاءُ} a une forme longue : il est privé de tanwin."
+      "explain": "{ar|زُمَلَاءُ} est de la forme {ar|فُعَلَاءُ} : il est privé de tanwin, comme {ar|وُزَرَاءُ}."
     },
     {
       "id": "medine-t1.l10.plurals-1#6",

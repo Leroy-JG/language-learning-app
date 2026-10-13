@@ -93,6 +93,13 @@
     { "id": "medine-t1.l10.grammar-1#10", "type": "present", "item": "w:ghaib" },
     {
       "id": "medine-t1.l10.grammar-1#11",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ghaib",
+      "distractors": ["w:mutakallim", "w:mukhatab"]
+    },
+    {
+      "id": "medine-t1.l10.grammar-1#12",
       "type": "tip",
       "title": "Les trois personnes",
       "blocks": [
@@ -113,7 +120,7 @@
       ]
     },
     {
-      "id": "medine-t1.l10.grammar-1#12",
+      "id": "medine-t1.l10.grammar-1#13",
       "type": "sort",
       "categories": [
         { "fr": "celui qui parle (je)" },
@@ -129,6 +136,6 @@
       "instruction": "À quelle personne appartient chaque pronom ?",
       "explain": "{ar|أَنَا} parle de soi (1re personne), {ar|أَنْتَ} s'adresse à quelqu'un (2e), {ar|هُوَ} et {ar|هِيَ} désignent quelqu'un dont on parle (3e)."
     },
-    { "id": "medine-t1.l10.grammar-1#13", "type": "typing", "ask": "fr", "item": "w:hiya" }
+    { "id": "medine-t1.l10.grammar-1#14", "type": "typing", "ask": "fr", "item": "w:hiya" }
   ]
 }

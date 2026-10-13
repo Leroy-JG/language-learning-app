@@ -44,6 +44,13 @@
     { "id": "medine-t1.l10.vocab-1#7", "type": "present", "item": "w:antunna" },
     {
       "id": "medine-t1.l10.vocab-1#8",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:antum",
+      "distractors": ["w:antuma", "w:antunna"]
+    },
+    {
+      "id": "medine-t1.l10.vocab-1#9",
       "type": "tip",
       "title": "Un, deux, plusieurs",
       "blocks": [
@@ -74,13 +81,13 @@
       ]
     },
     {
-      "id": "medine-t1.l10.vocab-1#9",
+      "id": "medine-t1.l10.vocab-1#10",
       "type": "match",
       "mode": "ar-fr",
       "items": ["w:nahnu", "w:anti", "w:antuma", "w:antum", "w:antunna"]
     },
     {
-      "id": "medine-t1.l10.vocab-1#10",
+      "id": "medine-t1.l10.vocab-1#11",
       "type": "sort",
       "categories": [ { "fr": "une personne" }, { "fr": "deux personnes" }, { "fr": "plusieurs personnes" } ],
       "cards": [
@@ -93,7 +100,7 @@
       "explain": "{ar|مَا} marque le duel ; {ar|مْ} et {ar|نَّ} marquent le pluriel ; un pronom sans ces terminaisons s'adresse à une seule personne."
     },
     {
-      "id": "medine-t1.l10.vocab-1#11",
+      "id": "medine-t1.l10.vocab-1#12",
       "type": "fill_gap",
       "sentence": "{0} فِي الْفَصْلِ.",
       "fr": "Vous deux, vous êtes en classe.",
@@ -102,14 +109,14 @@
       "explain": "« Vous deux » : le duel, {ar|أَنْتُمَا}."
     },
     {
-      "id": "medine-t1.l10.vocab-1#12",
+      "id": "medine-t1.l10.vocab-1#13",
       "type": "order",
       "fr": "Vous (plusieurs hommes) venez de France.",
       "answers": [["أَنْتُمْ", "مِنْ", "فَرَنْسَا"]],
       "punctuation": "."
     },
     {
-      "id": "medine-t1.l10.vocab-1#13",
+      "id": "medine-t1.l10.vocab-1#14",
       "type": "typing",
       "ask": "fr",
       "fr": "Nous sommes étudiants.",

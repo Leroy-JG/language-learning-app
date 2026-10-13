@@ -69,7 +69,7 @@
       "instruction": "Touche les mots qui portent un pronom affixe.",
       "words": ["أَخُوهَا", "طَالِبٌ", "وَأُخْتُهَا", "طَبِيبَةٌ."],
       "answers": [0, 2],
-      "fr": "Son frère est étudiant et sa sœur est médecin."
+      "fr": "Son frère (à elle) est étudiant et sa sœur (à elle) est médecin."
     },
     {
       "id": "medine-t1.l10.quiz#9",
@@ -100,7 +100,7 @@
       "type": "true_false",
       "statement": { "fr": "Pour dire « j'ai un frère », l'arabe emploie le verbe « avoir »." },
       "answer": false,
-      "explain": "L'arabe n'a pas de verbe « avoir » au présent : il emploie une préposition et un pronom, {ar|لِي أَخٌ}."
+      "explain": "L'arabe n'a pas de verbe courant « avoir » : il emploie une préposition (ou un adverbe) et un pronom, {ar|لِي أَخٌ}."
     },
     {
       "id": "medine-t1.l10.quiz#13",

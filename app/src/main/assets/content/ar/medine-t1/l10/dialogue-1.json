@@ -108,7 +108,7 @@
     {
       "id": "medine-t1.l10.dialogue-1#9",
       "type": "order",
-      "fr": "Quel est son nom ?",
+      "fr": "Quel est son nom (à lui) ?",
       "answers": [["مَا", "اسْمُهُ"]],
       "punctuation": "؟"
     },
