@@ -1,0 +1,90 @@
+{
+  "id": "medine-t1.l20.practice-4",
+  "type": "grammar",
+  "title": "Des chiffres aux lettres",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l20.practice-4#1",
+      "type": "tip",
+      "title": "L'exercice du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans le livre, des phrases contiennent des chiffres : il faut les réécrire avec les nombres en lettres. Pour chaque chiffre, pose-toi deux questions : qu'est-ce qu'on compte, et de quel genre est-ce ?"
+        },
+        { "type": "example", "ar": "لِي ٤ إِخْوَةٍ وَ٣ أَخَوَاتٍ.", "fr": "J'ai 4 frères et 3 sœurs." },
+        {
+          "type": "example",
+          "ar": "لِي أَرْبَعَةُ إِخْوَةٍ وَثَلَاثُ أَخَوَاتٍ.",
+          "fr": "J'ai quatre frères et trois sœurs."
+        },
+        {
+          "type": "note",
+          "text": "{ar|مَدْرَسَتِنَا} (notre école) : {ar|مَدْرَسَةٌ} + {ar|نَا}. Devant le suffixe, le {ar|ة} devient {ar|ت}, comme dans {ar|زَمِيلَتِي}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l20.practice-4#2",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai 10 livres et 7 revues.",
+      "answers": ["عِنْدِي عَشَرَةُ كُتُبٍ وَسَبْعُ مَجَلَّاتٍ.", "لِي عَشَرَةُ كُتُبٍ وَسَبْعُ مَجَلَّاتٍ."],
+      "explain": "{ar|كِتَابٌ} est masculin : {ar|عَشَرَةُ كُتُبٍ}. {ar|مَجَلَّةٌ} est féminin : {ar|سَبْعُ مَجَلَّاتٍ}."
+    },
+    {
+      "id": "medine-t1.l20.practice-4#3",
+      "type": "fill_gap",
+      "sentence": "عِنْدِي {0} قُمْصَانٍ.",
+      "fr": "J'ai 4 chemises.",
+      "gaps": [ { "answers": ["أَرْبَعَةُ"] } ],
+      "options": ["أَرْبَعَةُ", "أَرْبَعُ", "خَمْسَةُ"],
+      "explain": "{ar|قَمِيصٌ} est masculin (son pluriel est {ar|قُمْصَانٌ}) : le nombre prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l20.practice-4#4",
+      "type": "fill_gap",
+      "sentence": "فِي هٰذِهِ الْكَلِمَةِ {0} حُرُوفٍ.",
+      "fr": "Dans ce mot, il y a 5 lettres.",
+      "gaps": [ { "answers": ["خَمْسَةُ"] } ],
+      "options": ["خَمْسَةُ", "خَمْسُ", "سِتَّةُ"],
+      "explain": "{ar|حَرْفٌ} (une lettre) est masculin : le nombre prend le {ar|ة}. Son pluriel est {ar|حُرُوفٌ}."
+    },
+    {
+      "id": "medine-t1.l20.practice-4#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "À l'hôpital, il y a 9 femmes médecins et 6 infirmières.",
+      "answers": ["فِي الْمُسْتَشْفَى تِسْعُ طَبِيبَاتٍ وَسِتُّ مُمَرِّضَاتٍ."]
+    },
+    {
+      "id": "medine-t1.l20.practice-4#6",
+      "type": "order",
+      "fr": "Muḥammad a 5 fils et 8 filles.",
+      "answers": [["مُحَمَّدٌ", "لَهُ", "خَمْسَةُ", "أَبْنَاءٍ", "وَثَمَانِي", "بَنَاتٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l20.practice-4#7",
+      "type": "true_false",
+      "statement": { "fr": "Pour « 10 hommes et 10 femmes », on dit {ar|عَشَرَةُ رِجَالٍ وَعَشَرَةُ نِسَاءٍ}." },
+      "answer": false,
+      "explain": "Les deux nombres sont de genre contraire : {ar|رَجُلٌ} est masculin ({ar|عَشَرَةُ رِجَالٍ}), {ar|اِمْرَأَةٌ} est féminin ({ar|عَشْرُ نِسَاءٍ})."
+    },
+    {
+      "id": "medine-t1.l20.practice-4#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Dans notre maison, il y a 10 hommes et 10 femmes.",
+      "answers": ["فِي بَيْتِنَا عَشَرَةُ رِجَالٍ وَعَشْرُ نِسَاءٍ."]
+    },
+    {
+      "id": "medine-t1.l20.practice-4#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Dans notre école, il y a huit enseignantes.",
+      "answers": ["فِي مَدْرَسَتِنَا ثَمَانِي مُدَرِّسَاتٍ."]
+    }
+  ]
+}

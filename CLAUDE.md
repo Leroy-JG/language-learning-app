@@ -1,7 +1,7 @@
 # Lurata — règles du projet
 
 App Android personnelle pour apprendre l'arabe (interface en français), inspirée de Busuu et de
-Duolingo, **100 % hors ligne**. Cursus : Tomes de Médine (tome 1, leçons 1 à 19 et « Révision 1 » publiées pour
+Duolingo, **100 % hors ligne**. Cursus : Tomes de Médine (tome 1, leçons 1 à 20 et « Révision 1 » publiées pour
 l'instant), à partir des supports PDF du professeur de l'utilisateur. Le but est aussi de **donner
 envie** d'apprendre l'arabe : la qualité du design, de l'UX et des animations compte.
 

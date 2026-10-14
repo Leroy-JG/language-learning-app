@@ -1,0 +1,74 @@
+{
+  "id": "medine-t1.l20.vocab-1",
+  "type": "vocabulary",
+  "title": "Une revue, un mot",
+  "icon": "books",
+  "screens": [
+    { "id": "medine-t1.l20.vocab-1#1", "type": "present", "item": "w:majalla" },
+    { "id": "medine-t1.l20.vocab-1#2", "type": "present", "item": "w:kalima" },
+    {
+      "id": "medine-t1.l20.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:majalla",
+      "distractors": ["w:kitab", "w:kalima"]
+    },
+    {
+      "id": "medine-t1.l20.vocab-1#4",
+      "type": "tip",
+      "title": "Un pluriel régulier en {ar|◌َاتٌ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ces deux mots se terminent par {ar|ة} : ce sont ici deux noms féminins, comme la plupart des noms en {ar|ة}. Leur pluriel est un **pluriel féminin régulier** (chapitre 17) : on enlève le {ar|ة} et on ajoute {ar|◌َاتٌ}."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "مَجَلَّةٌ", "fr": "une revue" },
+              "to": { "ar": "مَجَلَّاتٌ", "fr": "des revues" },
+              "label": "le {ar|ة} disparaît, {ar|◌َاتٌ} arrive"
+            },
+            { "from": { "ar": "كَلِمَةٌ", "fr": "un mot" }, "to": { "ar": "كَلِمَاتٌ", "fr": "des mots" } }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Avec un nombre, tu diras donc {ar|ثَلَاثُ مَجَلَّاتٍ} (trois revues) : le dénombré est féminin, donc le nombre n'a pas de {ar|ة}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l20.vocab-1#5",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:majalla", "w:kalima", "w:kitab", "w:ghurfa"]
+    },
+    {
+      "id": "medine-t1.l20.vocab-1#6",
+      "type": "true_false",
+      "statement": { "fr": "{ar|كَلِمَةٌ} et {ar|اِسْمٌ} veulent dire la même chose." },
+      "answer": false,
+      "explain": "Non. {ar|كَلِمَةٌ} est un mot, quel qu'il soit. {ar|اِسْمٌ} est une sorte de mot : un nom."
+    },
+    { "id": "medine-t1.l20.vocab-1#7", "type": "build", "item": "w:kalima", "extra": ["ه"] },
+    {
+      "id": "medine-t1.l20.vocab-1#8",
+      "type": "fill_gap",
+      "sentence": "لِي ثَلَاثُ {0}.",
+      "fr": "J'ai trois revues.",
+      "gaps": [ { "answers": ["مَجَلَّاتٍ"] } ],
+      "options": ["مَجَلَّاتٍ", "مَجَلَّةٍ", "كُتُبٍ"],
+      "explain": "{ar|مَجَلَّةٌ} est féminin : le nombre est sans {ar|ة}, et le dénombré est au pluriel et au génitif : {ar|مَجَلَّاتٍ}. {ar|مَجَلَّةٍ} est au singulier et {ar|كُتُبٍ} veut dire « des livres »."
+    },
+    { "id": "medine-t1.l20.vocab-1#9", "type": "typing", "ask": "fr", "item": "w:kalima" },
+    {
+      "id": "medine-t1.l20.vocab-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "trois revues",
+      "answers": ["ثَلَاثُ مَجَلَّاتٍ"]
+    }
+  ]
+}

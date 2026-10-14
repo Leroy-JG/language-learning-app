@@ -1,0 +1,33 @@
+[
+  {
+    "id": "w:majalla",
+    "kind": "word",
+    "ar": "مَجَلَّةٌ",
+    "fr": "une revue",
+    "translit": "majallatun",
+    "plural": "مَجَلَّاتٌ",
+    "gender": "f",
+    "note": "Attention à la shadda sur le {ar|ل} : {ar|مَجَلَّةٌ}. C'est aussi le mot pour « un magazine ». Son pluriel est un pluriel régulier en {ar|◌َاتٌ}.",
+    "example": { "ar": "عِنْدِي ثَلَاثُ مَجَلَّاتٍ.", "fr": "J'ai trois revues." }
+  },
+  {
+    "id": "w:kalima",
+    "kind": "word",
+    "ar": "كَلِمَةٌ",
+    "fr": "un mot",
+    "translit": "kalimatun",
+    "plural": "كَلِمَاتٌ",
+    "gender": "f",
+    "note": "Une {ar|كَلِمَةٌ} est un mot, quel qu'il soit : un nom, un verbe ou une particule (chapitre 1). Ne la confonds pas avec {ar|اِسْمٌ} : un nom est une sorte de mot.",
+    "example": { "ar": "فِي الدَّرْسِ ثَلَاثُ كَلِمَاتٍ جَدِيدَاتٍ.", "fr": "Dans la leçon, il y a trois mots nouveaux." }
+  },
+  {
+    "id": "w:indunisiya",
+    "kind": "word",
+    "ar": "إِنْدُونِيسِيَا",
+    "fr": "l'Indonésie",
+    "translit": "ʾindūnīsiyā",
+    "note": "Un nom de pays étranger qui se termine par un alif long : il ne change pas à l'écrit, comme {ar|مَالِيزِيَا} (chapitre 19) : {ar|مِنْ إِنْدُونِيسِيَا}.",
+    "example": { "ar": "ثَمَانِي طَالِبَاتٍ مِنْ إِنْدُونِيسِيَا.", "fr": "Huit étudiantes d'Indonésie." }
+  }
+]

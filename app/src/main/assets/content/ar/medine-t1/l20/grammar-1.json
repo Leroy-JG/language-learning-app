@@ -1,0 +1,176 @@
+{
+  "id": "medine-t1.l20.grammar-1",
+  "type": "grammar",
+  "title": "Les trois règles, comme le professeur",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l20.grammar-1#1",
+      "type": "tip",
+      "title": "Rappel : les trois règles",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De 3 à 10, quand on compte des choses, le professeur donne **trois règles** (chapitre 19) :"
+        },
+        {
+          "type": "table",
+          "header": ["Règle", "Exemple"],
+          "rows": [
+            ["1. Le dénombré ({ar|الْمَعْدُودُ}) est annexé au nombre ({ar|الْعَدَدُ}).", "{ar|ثَلَاثَةُ كُتُبٍ}"],
+            ["2. Le dénombré est au pluriel.", "{ar|كُتُبٍ} (et non {ar|كِتَابٍ})"],
+            [
+              "3. Le nombre est de genre contraire à celui du dénombré.",
+              "{ar|ثَلَاثَةُ} (avec {ar|ة}) devant un nom masculin, {ar|ثَلَاثُ} devant un nom féminin"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pour connaître le genre du dénombré, on regarde son **singulier** : {ar|كِتَابٌ} est masculin, {ar|طَالِبَةٌ} est féminin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l20.grammar-1#2",
+      "type": "tip",
+      "title": "Analyser une phrase",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur décrit chaque phrase avec les mots de la grammaire. Voici ses deux exemples."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Le nombre ({ar|الْعَدَدُ})", "Le dénombré ({ar|الْمَعْدُودُ})"],
+          "rows": [
+            [
+              "{ar|لِي ثَلَاثَةُ كُتُبٍ.}",
+              "{ar|ثَلَاثَةُ} : {ar|مُؤَنَّثٌ مُضَافٌ}",
+              "{ar|كُتُبٍ} (singulier : {ar|كِتَابٌ}) : {ar|مُذَكَّرٌ جَمْعٌ مُضَافٌ إِلَيْهِ}"
+            ],
+            [
+              "{ar|فِي الْفَصْلِ ثَلَاثُ طَالِبَاتٍ.}",
+              "{ar|ثَلَاثُ} : {ar|مُذَكَّرٌ مُضَافٌ}",
+              "{ar|طَالِبَاتٍ} (singulier : {ar|طَالِبَةٌ}) : {ar|مُؤَنَّثٌ جَمْعٌ مُضَافٌ إِلَيْهِ}"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "{ar|مُضَافٌ} (premier terme) et {ar|مُضَافٌ إِلَيْهِ} (second terme) sont les mots de l'annexion (chapitre 5), {ar|مُذَكَّرٌ} et {ar|مُؤَنَّثٌ} ceux du genre (chapitre 6), {ar|جَمْعٌ} celui du pluriel."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Quand le professeur dit {ar|الْعَدَدُ مُؤَنَّثٌ}, il parle de la **forme du nombre** (celle qui a un {ar|ة}). Le dénombré, lui, est masculin : c'est le contraire."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l20.grammar-1#3",
+      "type": "spot",
+      "instruction": "Touche {ar|الْمَعْدُودُ} (ce qu'on compte).",
+      "words": ["فِي", "الْفَصْلِ", "ثَلَاثُ", "طَالِبَاتٍ."],
+      "answers": [3],
+      "fr": "Il y a trois étudiantes dans la classe.",
+      "explain": "{ar|طَالِبَاتٍ} est ce qu'on compte ; {ar|ثَلَاثُ} est le nombre."
+    },
+    {
+      "id": "medine-t1.l20.grammar-1#4",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|فِي الْفَصْلِ ثَلَاثُ طَالِبَاتٍ}, le professeur dit {ar|الْعَدَدُ مُذَكَّرٌ مُضَافٌ} pour {ar|ثَلَاثُ}. Pourquoi « {ar|مُذَكَّرٌ} » ?"
+      },
+      "choices": [
+        { "fr": "Parce que le dénombré {ar|طَالِبَةٌ} est féminin, et que le nombre est de genre contraire" },
+        { "fr": "Parce que {ar|ثَلَاثُ} désigne des garçons" },
+        { "fr": "Parce que {ar|طَالِبَاتٌ} est un pluriel masculin" }
+      ],
+      "answer": 0,
+      "explain": "{ar|ثَلَاثُ} n'a pas de {ar|ة} : sa forme est « masculine », ce qui est le contraire du dénombré, {ar|طَالِبَةٌ}, féminin."
+    },
+    {
+      "id": "medine-t1.l20.grammar-1#5",
+      "type": "sort",
+      "categories": [ { "ar": "ثَلَاثَةُ" }, { "ar": "ثَلَاثُ" } ],
+      "cards": [
+        { "ar": "مَجَلَّاتٌ", "category": 1 },
+        { "ar": "قُمْصَانٌ", "category": 0 },
+        { "ar": "كَلِمَاتٌ", "category": 1 },
+        { "ar": "أَعْمَامٌ", "category": 0 },
+        { "ar": "عَمَّاتٌ", "category": 1 },
+        { "ar": "حُرُوفٌ", "category": 0 },
+        { "ar": "نِسَاءٌ", "category": 1 },
+        { "ar": "رِجَالٌ", "category": 0 }
+      ],
+      "instruction": "Avec quel nombre va chaque dénombré ?",
+      "explain": "Regarde le singulier : {ar|قَمِيصٌ}, {ar|عَمٌّ}, {ar|حَرْفٌ} et {ar|رَجُلٌ} sont masculins ; {ar|مَجَلَّةٌ}, {ar|كَلِمَةٌ}, {ar|عَمَّةٌ} et {ar|اِمْرَأَةٌ} sont féminins ({ar|نِسَاءٌ} est le pluriel de {ar|اِمْرَأَةٌ})."
+    },
+    {
+      "id": "medine-t1.l20.grammar-1#6",
+      "type": "tip",
+      "title": "Chaque nombre a son dénombré",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand une phrase compte deux sortes d'êtres, **chaque nombre se règle sur son propre dénombré** (en genre contraire)."
+        },
+        {
+          "type": "breakdown",
+          "ar": "ثَلَاثُ أَخَوَاتٍ وَخَمْسَةُ إِخْوَةٍ",
+          "fr": "trois sœurs et cinq frères",
+          "parts": [
+            { "ar": "ثَلَاثُ", "fr": "trois (sans {ar|ة})" },
+            { "ar": "أَخَوَاتٍ", "fr": "sœurs" },
+            { "ar": "وَ", "fr": "et" },
+            { "ar": "خَمْسَةُ", "fr": "cinq (avec {ar|ة})" },
+            { "ar": "إِخْوَةٍ", "fr": "frères" }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|أُخْتٌ} est féminin : {ar|ثَلَاثُ} n'a pas de {ar|ة}. {ar|أَخٌ} est masculin : {ar|خَمْسَةُ} a un {ar|ة}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l20.grammar-1#7",
+      "type": "fill_gap",
+      "sentence": "لِي {0} أَخَوَاتٍ وَ{1} إِخْوَةٍ.",
+      "fr": "J'ai cinq sœurs et six frères.",
+      "gaps": [ { "answers": ["خَمْسُ"] }, { "answers": ["سِتَّةُ"] } ],
+      "options": ["خَمْسُ", "سِتَّةُ", "خَمْسَةُ", "سِتُّ"],
+      "explain": "{ar|أُخْتٌ} est féminin : {ar|خَمْسُ أَخَوَاتٍ}. {ar|أَخٌ} est masculin : {ar|سِتَّةُ إِخْوَةٍ}."
+    },
+    {
+      "id": "medine-t1.l20.grammar-1#8",
+      "type": "order",
+      "fr": "J'ai sept filles et trois fils.",
+      "answers": [["لِي", "سَبْعُ", "بَنَاتٍ", "وَثَلَاثَةُ", "أَبْنَاءٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l20.grammar-1#9",
+      "type": "true_false",
+      "statement": { "fr": "On dit {ar|ثَلَاثُ قُمْصَانٍ} pour « trois chemises »." },
+      "answer": false,
+      "explain": "{ar|قَمِيصٌ} est masculin, même si on ne le voit pas dans {ar|قُمْصَانٌ} : on dit {ar|ثَلَاثَةُ قُمْصَانٍ}."
+    },
+    {
+      "id": "medine-t1.l20.grammar-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "cinq revues",
+      "answers": ["خَمْسُ مَجَلَّاتٍ"],
+      "explain": "{ar|مَجَلَّةٌ} est féminin : le nombre est sans {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l20.grammar-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai trois sœurs et cinq frères.",
+      "answers": ["لِي ثَلَاثُ أَخَوَاتٍ وَخَمْسَةُ إِخْوَةٍ.", "عِنْدِي ثَلَاثُ أَخَوَاتٍ وَخَمْسَةُ إِخْوَةٍ."]
+    }
+  ]
+}

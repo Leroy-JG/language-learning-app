@@ -1,0 +1,162 @@
+{
+  "id": "medine-t1.l20.practice-3",
+  "type": "grammar",
+  "title": "Réponds avec le nombre",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l20.practice-3#1",
+      "type": "tip",
+      "title": "L'exercice du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans le livre, on te pose des questions avec {ar|كَمْ} et tu réponds avec le nombre donné entre parenthèses."
+        },
+        { "type": "example", "ar": "كَمْ أَخًا لَكِ؟", "fr": "Combien de frères as-tu ? ({ar|٤})" },
+        { "type": "example", "ar": "لِي أَرْبَعَةُ إِخْوَةٍ.", "fr": "J'ai quatre frères." },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Après {ar|كَمْ}, le nom est au singulier ({ar|أَخًا}) ; dans la réponse, il est au pluriel et annexé au nombre ({ar|إِخْوَةٍ}). N'oublie pas le genre contraire."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l20.practice-3#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ أَخًا لَكِ؟",
+      "answers": [
+        "لِي سِتَّةُ إِخْوَةٍ.",
+        "عِنْدِي سِتَّةُ إِخْوَةٍ.",
+        "سِتَّةُ إِخْوَةٍ.",
+        "لِي سِتَّةُ إِخْوَانٍ.",
+        "عِنْدِي سِتَّةُ إِخْوَانٍ.",
+        "سِتَّةُ إِخْوَانٍ."
+      ],
+      "fr": "J'ai six frères.",
+      "instruction": "Réponds avec le nombre {ar|٦}.",
+      "explain": "{ar|أَخٌ} est masculin : le nombre prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l20.practice-3#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ أُخْتًا لَكِ؟",
+      "answers": ["لِي خَمْسُ أَخَوَاتٍ.", "عِنْدِي خَمْسُ أَخَوَاتٍ.", "خَمْسُ أَخَوَاتٍ."],
+      "fr": "J'ai cinq sœurs.",
+      "instruction": "Réponds avec le nombre {ar|٥}.",
+      "explain": "{ar|أُخْتٌ} est féminin : le nombre est sans {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l20.practice-3#4",
+      "type": "fill_gap",
+      "sentence": "كَمْ حَافِلَةً فِي الْجَامِعَةِ؟ فِي الْجَامِعَةِ {0} حَافِلَاتٍ.",
+      "fr": "Combien de bus y a-t-il dans l'université ? Il y a six bus.",
+      "gaps": [ { "answers": ["سِتُّ"] } ],
+      "options": ["سِتُّ", "سِتَّةُ", "سَبْعُ"],
+      "explain": "{ar|حَافِلَةٌ} est féminin : le nombre est sans {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l20.practice-3#5",
+      "type": "tip",
+      "title": "Un nom collectif ne se compte pas directement",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|بَقَرٌ} (les vaches) : c'est un nom collectif, comme {ar|دَجَاجٌ} (les poules), qui désigne le groupe en général. Pour compter, on emploie le pluriel régulier de {ar|بَقَرَةٌ}."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "بَقَرٌ", "fr": "les vaches (en général)" },
+              "to": { "ar": "بَقَرَاتٌ", "fr": "des vaches (qu'on compte)" }
+            }
+          ]
+        },
+        { "type": "example", "ar": "فِي الْحَقْلِ ثَلَاثُ بَقَرَاتٍ.", "fr": "Dans le champ, il y a trois vaches." }
+      ]
+    },
+    {
+      "id": "medine-t1.l20.practice-3#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ بَقَرَةً فِي الْحَقْلِ؟",
+      "answers": [
+        "فِي الْحَقْلِ عَشْرُ بَقَرَاتٍ.",
+        "عَشْرُ بَقَرَاتٍ.",
+        "فِيهِ عَشْرُ بَقَرَاتٍ.",
+        "عَشْرُ بَقَرَاتٍ فِي الْحَقْلِ."
+      ],
+      "fr": "Il y a dix vaches dans le champ.",
+      "instruction": "Réponds avec le nombre {ar|١٠}.",
+      "explain": "{ar|بَقَرَةٌ} est féminin : {ar|عَشْرُ بَقَرَاتٍ}."
+    },
+    {
+      "id": "medine-t1.l20.practice-3#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ طَالِبَةً جَدِيدَةً فِي الْفَصْلِ؟",
+      "answers": [
+        "فِي الْفَصْلِ تِسْعُ طَالِبَاتٍ جَدِيدَاتٍ.",
+        "تِسْعُ طَالِبَاتٍ جَدِيدَاتٍ.",
+        "فِي الْفَصْلِ تِسْعُ طَالِبَاتٍ.",
+        "تِسْعُ طَالِبَاتٍ.",
+        "فِيهِ تِسْعُ طَالِبَاتٍ جَدِيدَاتٍ.",
+        "فِيهِ تِسْعُ طَالِبَاتٍ."
+      ],
+      "fr": "Il y a neuf nouvelles étudiantes dans la classe.",
+      "instruction": "Réponds avec le nombre {ar|٩}.",
+      "explain": "{ar|طَالِبَةٌ} est féminin : le nombre est sans {ar|ة}. L'adjectif décrit des femmes : il est au féminin pluriel, {ar|جَدِيدَاتٍ}."
+    },
+    {
+      "id": "medine-t1.l20.practice-3#8",
+      "type": "fill_gap",
+      "sentence": "كَمْ طَبِيبَةً فِي مُسْتَشْفَى الْوِلَادَةِ؟ فِي مُسْتَشْفَى الْوِلَادَةِ {0} طَبِيبَاتٍ.",
+      "fr": "Combien de femmes médecins y a-t-il à la maternité ? Il y a huit femmes médecins.",
+      "gaps": [ { "answers": ["ثَمَانِي"] } ],
+      "options": ["ثَمَانِي", "ثَمَانِيَةُ", "ثَمَانٍ"],
+      "explain": "{ar|طَبِيبَةٌ} est féminin : le nombre est sans {ar|ة}, et devant le dénombré la forme est {ar|ثَمَانِي}."
+    },
+    {
+      "id": "medine-t1.l20.practice-3#9",
+      "type": "tip",
+      "title": "Une petite kasra : {ar|كَمِ اِبْنًا}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le {ar|اِ} de {ar|اِبْنٌ} est un alif de liaison : il ne se prononce pas après un autre mot. Pour que les deux mots se lient, le {ar|م} de {ar|كَمْ} prend alors une kasra : {ar|كَمِ اِبْنًا لَكِ؟} Le livre écrit simplement {ar|كم ابناً} : la kasra n'est pas notée à l'écrit, mais on la dit à l'oral."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l20.practice-3#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمِ اِبْنًا لَكِ؟",
+      "answers": ["لِي أَرْبَعَةُ أَبْنَاءٍ.", "عِنْدِي أَرْبَعَةُ أَبْنَاءٍ.", "أَرْبَعَةُ أَبْنَاءٍ."],
+      "fr": "J'ai quatre fils.",
+      "instruction": "Réponds avec le nombre {ar|٤}.",
+      "explain": "{ar|اِبْنٌ} est masculin : le nombre prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l20.practice-3#11",
+      "type": "order",
+      "fr": "Combien de filles as-tu ? (à une femme)",
+      "answers": [["كَمْ", "بِنْتًا", "لَكِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l20.practice-3#12",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ جَامِعَةً فِي بَلَدِكِ؟",
+      "answers": ["فِي بَلَدِي ثَلَاثُ جَامِعَاتٍ.", "ثَلَاثُ جَامِعَاتٍ.", "فِيهِ ثَلَاثُ جَامِعَاتٍ."],
+      "fr": "Il y a trois universités dans mon pays.",
+      "instruction": "Réponds avec le nombre {ar|٣}.",
+      "explain": "{ar|جَامِعَةٌ} est féminin : le nombre est sans {ar|ة}."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "medine-t1.l20",
+  "number": 20,
+  "title": { "ar": "الدَّرْسُ الْعِشْرُونَ", "fr": "Les nombres de 3 à 10 : la suite" },
+  "description": "Compter des êtres et des choses de trois à dix (le nombre est de genre contraire au dénombré), le piège du huit ({ar|ثَمَانِي}), compter avec des noms féminins, et lire le texte du livre sur les étudiantes, les frères et les sœurs.",
+  "source": "Tome de Médine 1, leçon 20",
+  "sections": [
+    { "title": "Les mots nouveaux", "activities": ["vocab-1", "vocab-2"] },
+    { "title": "Les trois règles, comme le professeur", "activities": ["grammar-1", "grammar-2", "practice-1"] },
+    { "title": "Le texte du livre", "activities": ["dialogue-1", "dialogue-2"] },
+    { "title": "Lis et écris", "activities": ["practice-2", "practice-3", "practice-4"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

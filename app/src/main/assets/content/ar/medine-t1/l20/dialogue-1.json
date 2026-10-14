@@ -1,0 +1,128 @@
+{
+  "id": "medine-t1.l20.dialogue-1",
+  "type": "dialogue",
+  "title": "Les étudiantes de la classe",
+  "icon": "girl",
+  "screens": [
+    {
+      "id": "medine-t1.l20.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Laylā et Salmā parlent de leurs classes",
+      "intro": "Laylā demande à Salmā s'il y a dans sa classe des étudiantes de Chine et du Japon. Puis elles comptent les étudiantes de chaque pays.",
+      "speakers": { "A": { "name": "Laylā", "voice": "f1" }, "B": { "name": "Salmā", "voice": "f1" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "يَا سَلْمَى، أَفِي فَصْلِكِ طَالِبَاتٌ مِنَ الصِّينِ وَالْيَابَانِ؟",
+          "fr": "Salmā, y a-t-il dans ta classe des étudiantes de Chine et du Japon ?"
+        },
+        {
+          "speaker": "B",
+          "ar": "نَعَمْ. فِي فَصْلِنَا خَمْسُ طَالِبَاتٍ مِنَ الصِّينِ وَأَرْبَعُ طَالِبَاتٍ مِنَ الْيَابَانِ، وَثَمَانِي طَالِبَاتٍ مِنْ إِنْدُونِيسِيَا.",
+          "fr": "Oui. Dans notre classe, il y a cinq étudiantes de Chine, quatre du Japon et huit d'Indonésie."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَفِي فَصْلِنَا ثَلَاثُ طَالِبَاتٍ مِنَ الْهِنْدِ، وَسِتُّ طَالِبَاتٍ مِنَ الْفِلِبِّينِ، وَسَبْعُ طَالِبَاتٍ مِنْ تُرْكِيَا.",
+          "fr": "Et dans notre classe, il y a trois étudiantes d'Inde, six des Philippines et sept de Turquie."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l20.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ce texte contient de petites formes que tu reconnais en partie. Retiens leur sens : tu les retrouveras dans les exercices qui suivent."
+        },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Mot à mot"],
+          "rows": [
+            ["{ar|أَفِي}", "est-ce que… dans… ?", "{ar|أَ} (qui pose une question) + {ar|فِي}"],
+            ["{ar|فَصْلِكِ}", "ta classe (à une femme)", "{ar|فَصْلٌ} + {ar|كِ}"],
+            ["{ar|فَصْلِنَا}", "notre classe", "{ar|فَصْلٌ} + {ar|نَا}"],
+            ["{ar|وَأَرْبَعُ}", "et quatre", "{ar|وَ} + {ar|أَرْبَعُ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|يَا سَلْمَى} : {ar|سَلْمَى} est un prénom de femme qui finit par un alif maqṣūra {ar|ى} (comme {ar|لَيْلَى}, chapitre 6). Cette fin ne change jamais, et le mot n'a pas de tanwin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l20.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Combien d'étudiantes viennent du Japon dans la classe de Salmā ?" },
+      "choices": [ { "fr": "Quatre" }, { "fr": "Cinq" }, { "fr": "Huit" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l20.dialogue-1#1" },
+      "explain": "{ar|أَرْبَعُ طَالِبَاتٍ مِنَ الْيَابَانِ} : quatre étudiantes."
+    },
+    {
+      "id": "medine-t1.l20.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Combien d'étudiantes viennent d'Indonésie dans la classe de Salmā ?" },
+      "choices": [ { "fr": "Huit" }, { "fr": "Sept" }, { "fr": "Six" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l20.dialogue-1#1" },
+      "explain": "{ar|ثَمَانِي طَالِبَاتٍ مِنْ إِنْدُونِيسِيَا}."
+    },
+    {
+      "id": "medine-t1.l20.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Dans la classe de Laylā, il y a plus d'étudiantes de Turquie que d'étudiantes d'Inde." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l20.dialogue-1#1" },
+      "explain": "Sept étudiantes de Turquie ({ar|سَبْعُ}), trois d'Inde ({ar|ثَلَاثُ})."
+    },
+    {
+      "id": "medine-t1.l20.dialogue-1#6",
+      "type": "fill_gap",
+      "sentence": "فِي فَصْلِنَا {0} طَالِبَاتٍ مِنَ الصِّينِ.",
+      "fr": "Dans notre classe, il y a cinq étudiantes de Chine.",
+      "gaps": [ { "answers": ["خَمْسُ"] } ],
+      "options": ["خَمْسُ", "خَمْسَةُ", "أَرْبَعُ"],
+      "context": { "dialogue": "medine-t1.l20.dialogue-1#1" },
+      "explain": "{ar|طَالِبَةٌ} est féminin : le nombre est sans {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l20.dialogue-1#7",
+      "type": "sort",
+      "categories": [ { "fr": "Salmā dit" }, { "fr": "Laylā dit" } ],
+      "cards": [
+        { "fr": "huit étudiantes d'Indonésie", "category": 0 },
+        { "fr": "trois étudiantes d'Inde", "category": 1 },
+        { "fr": "quatre étudiantes du Japon", "category": 0 },
+        { "fr": "six étudiantes des Philippines", "category": 1 },
+        { "fr": "sept étudiantes de Turquie", "category": 1 },
+        { "fr": "cinq étudiantes de Chine", "category": 0 }
+      ],
+      "instruction": "Qui le dit ?"
+    },
+    {
+      "id": "medine-t1.l20.dialogue-1#8",
+      "type": "order",
+      "fr": "Dans notre classe, il y a trois étudiantes d'Inde.",
+      "answers": [["فِي", "فَصْلِنَا", "ثَلَاثُ", "طَالِبَاتٍ", "مِنَ", "الْهِنْدِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l20.dialogue-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "sept étudiantes de Turquie",
+      "answers": ["سَبْعُ طَالِبَاتٍ مِنْ تُرْكِيَا"]
+    },
+    {
+      "id": "medine-t1.l20.dialogue-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Dans notre classe, il y a six étudiantes des Philippines.",
+      "answers": ["فِي فَصْلِنَا سِتُّ طَالِبَاتٍ مِنَ الْفِلِبِّينِ."]
+    }
+  ]
+}

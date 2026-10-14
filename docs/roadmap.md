@@ -6,7 +6,7 @@
   - Parmi eux, 4 mini-jeux : ranger, repérer, écrire lettre par lettre, mémoire.
   - Les astuces ont 7 sortes de blocs, dont comparer, décomposer, galerie et encadrés à ton.
   - Le guide de conception est `docs/pedagogie.md`.
-- **Parcours :** chapitres 1 à 19 du Tome de Médine 1 et le chapitre de révision 1 (`r01`, libellé « Révision 1 », placé après le chapitre 9 ; les chapitres 10 et 11 viennent ensuite). Les chapitres s'affichent en accordéon et rien n'est verrouillé.
+- **Parcours :** chapitres 1 à 20 du Tome de Médine 1 et le chapitre de révision 1 (`r01`, libellé « Révision 1 », placé après le chapitre 9 ; les chapitres 10 et 11 viennent ensuite). Les chapitres s'affichent en accordéon et rien n'est verrouillé.
 - **Réviser :** répétition espacée FSRS-5, deux onglets (Vocabulaire / Grammaire), niveaux de maîtrise, favoris, recherche.
 - **Paramètres :**
   - harakat, translittération, taille de l'arabe ;
@@ -22,7 +22,8 @@
 ## À faire, par ordre de priorité
 
 1. **Leçons suivantes du Tome de Médine 1**, avec la procédure `.claude/skills/nouvelle-lecon/SKILL.md`. Il faut que l'utilisateur joigne les PDF.
-   - Prochaine : la leçon 20 (les chapitres 1 à 19 et la révision 1 sont publiés ; la leçon 18 est décrite dans `docs/sources-lecon-18.md`, la leçon 19 dans `docs/sources.md`).
+   - Prochaine : la leçon 21 (les chapitres 1 à 20 et la révision 1 sont publiés ; la leçon 18 est décrite dans `docs/sources-lecon-18.md`, les leçons 19 et 20 dans `docs/sources.md`).
+   - À confirmer avec le professeur (leçon 20) : la forme `أُرُوبَّا` (lettres dans cet ordre) sur la carte du PDF, face à `أُورُبَّا` / `أُورُوبَّا` dans l'app.
    - À confirmer avec le professeur (leçon 19) : `قُدَامَى` comme pluriel de `قَدِيمٌ` (attesté dans les dictionnaires modernes, non retrouvé dans Lisān al-ʿArab / al-Wasīṭ).
    - À confirmer avec le professeur (leçon 17, voir `docs/sources-lecon-17.md`) : le pluriel de مَوْعِدٌ (le PDF donne مَوَاعِدُ, l'app met مَوَاعِيدُ), et la voyelle du milieu de الْحَمْزَاتُ / الطَّلْحَاتُ (non repris).
    - À confirmer avec le professeur (voir `docs/sources.md`, leçon 6) : le pluriel de قَهْوَةٌ (قَهَوَاتٌ ou قَهْوَاتٌ), le genre de قِدْرٌ (féminin ici, comme dans le livre), et les exemples du PDF non repris (سَمَاءٌ, مُوسَى ; سِكِّينٌ est présenté au masculin avec une note, leçon 8).

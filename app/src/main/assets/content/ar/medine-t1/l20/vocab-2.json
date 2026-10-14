@@ -1,0 +1,65 @@
+{
+  "id": "medine-t1.l20.vocab-2",
+  "type": "vocabulary",
+  "title": "Les pays de la classe",
+  "icon": "china",
+  "screens": [
+    {
+      "id": "medine-t1.l20.vocab-2#1",
+      "type": "tip",
+      "title": "Les pays du texte",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans le texte de cette leçon, des étudiantes viennent de plusieurs pays. Tu en connais déjà presque tous : il n'y en a qu'un de nouveau."
+        },
+        {
+          "type": "gallery",
+          "title": "Les pays que tu connais déjà",
+          "items": ["w:sin", "w:yaban", "w:hind", "w:filibbin", "w:turkiya", "w:malizya"]
+        }
+      ]
+    },
+    { "id": "medine-t1.l20.vocab-2#2", "type": "present", "item": "w:indunisiya" },
+    {
+      "id": "medine-t1.l20.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:indunisiya",
+      "distractors": ["w:malizya", "w:turkiya"]
+    },
+    {
+      "id": "medine-t1.l20.vocab-2#4",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:sin", "w:yaban", "w:hind", "w:filibbin", "w:indunisiya"]
+    },
+    {
+      "id": "medine-t1.l20.vocab-2#5",
+      "type": "fill_gap",
+      "sentence": "ثَمَانِي طَالِبَاتٍ مِنْ {0}.",
+      "fr": "Huit étudiantes d'Indonésie.",
+      "gaps": [ { "answers": ["إِنْدُونِيسِيَا"] } ],
+      "options": ["إِنْدُونِيسِيَا", "مَالِيزِيَا", "تُرْكِيَا"],
+      "explain": "{ar|إِنْدُونِيسِيَا} : l'Indonésie. {ar|مَالِيزِيَا} est la Malaisie et {ar|تُرْكِيَا} la Turquie."
+    },
+    { "id": "medine-t1.l20.vocab-2#6", "type": "build", "item": "w:indunisiya", "extra": ["ر"] },
+    {
+      "id": "medine-t1.l20.vocab-2#7",
+      "type": "sort",
+      "categories": [ { "fr": "en Asie" }, { "fr": "en Europe" } ],
+      "cards": [
+        { "item": "w:sin", "category": 0 },
+        { "item": "w:faransa", "category": 1 },
+        { "item": "w:indunisiya", "category": 0 },
+        { "item": "w:almaniya", "category": 1 },
+        { "item": "w:hind", "category": 0 },
+        { "item": "w:yunan", "category": 1 },
+        { "item": "w:yaban", "category": 0 },
+        { "item": "w:inkiltira", "category": 1 }
+      ],
+      "instruction": "Ce pays est-il en Asie ou en Europe ?"
+    },
+    { "id": "medine-t1.l20.vocab-2#8", "type": "typing", "ask": "fr", "item": "w:indunisiya" }
+  ]
+}
