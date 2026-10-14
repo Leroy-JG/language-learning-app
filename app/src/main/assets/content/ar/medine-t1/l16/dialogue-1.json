@@ -62,6 +62,11 @@
         {
           "type": "note",
           "tone": "info",
+          "text": "{ar|هٰذِهِ الْأَقْلَامُ} : un démonstratif suivi d'un nom **défini** veut dire « ces stylos ». Avec un nom indéfini, c'est une phrase : {ar|هٰذِهِ أَقْلَامٌ} (« ce sont des stylos »)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
           "text": "{ar|يَا إِخْوَانُ} : « ô frères ». {ar|إِخْوَانٌ} est un autre pluriel de {ar|أَخٌ} (voir le chapitre 15) ; le professeur s'adresse ainsi à un groupe d'élèves."
         }
       ]
@@ -115,7 +120,7 @@
     {
       "id": "medine-t1.l16.dialogue-1#8",
       "type": "order",
-      "fr": "Ils sont à moi, professeur.",
+      "fr": "Ils sont à moi, professeur. (des stylos)",
       "answers": [["هِيَ", "لِي", "يَا", "أُسْتَاذُ"]],
       "punctuation": "."
     },
@@ -123,14 +128,14 @@
       "id": "medine-t1.l16.dialogue-1#9",
       "type": "typing",
       "ask": "audio",
-      "fr": "Non, ils sont à Ḥāmid.",
+      "fr": "Non, ils sont à Ḥāmid. (des livres)",
       "answers": ["لَا، هِيَ لِحَامِدٍ."]
     },
     {
       "id": "medine-t1.l16.dialogue-1#10",
       "type": "typing",
       "ask": "fr",
-      "fr": "Ils sont ici, sur ce bureau.",
+      "fr": "Ils sont ici, sur ce bureau. (des cahiers)",
       "answers": ["هِيَ هُنَا عَلَى هٰذَا الْمَكْتَبِ."]
     }
   ]

@@ -50,7 +50,7 @@
           "header": ["Modèle du pluriel", "Exemples"],
           "rows": [
             [
-              "{ar|فِعَالٌ} : une kasra, puis un alif long avant la dernière lettre",
+              "{ar|فِعَالٌ} : une kasra sur la première lettre, puis un alif long avant la dernière lettre",
               "{ar|بَحْرٌ} → {ar|بِحَارٌ} ; {ar|جَبَلٌ} → {ar|جِبَالٌ} ; {ar|كَلْبٌ} → {ar|كِلَابٌ} ; {ar|جَمَلٌ} → {ar|جِمَالٌ} ; {ar|رَجُلٌ} → {ar|رِجَالٌ}"
             ],
             [

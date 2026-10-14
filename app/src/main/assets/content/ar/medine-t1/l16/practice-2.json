@@ -97,11 +97,11 @@
     {
       "id": "medine-t1.l16.practice-2#9",
       "type": "fill_gap",
-      "sentence": "{0} سُرُرٌ.",
-      "fr": "Ce sont des lits, là-bas.",
+      "sentence": "{0} كُتُبٌ.",
+      "fr": "Ce sont des livres, là-bas.",
       "gaps": [ { "answers": ["تِلْكَ"] } ],
       "options": ["تِلْكَ", "أُولَئِكَ", "ذٰلِكَ"],
-      "explain": "Des lits sont des choses."
+      "explain": "Des livres sont des choses."
     },
     {
       "id": "medine-t1.l16.practice-2#10",

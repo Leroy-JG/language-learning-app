@@ -53,7 +53,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Pour montrer **plusieurs choses** ou **plusieurs animaux**, l'arabe ne dit pas {ar|هَؤُلَاءِ}. Il les traite comme **un seul féminin** et emploie les démonstratifs du féminin singulier que tu connais : {ar|هٰذِهِ} (proche) et {ar|تِلْكَ} (loin)."
+          "text": "Pour montrer **plusieurs choses** ou **plusieurs animaux**, l'arabe ne dit pas, en général, {ar|هَؤُلَاءِ}. Il les traite comme **un seul féminin** et emploie les démonstratifs du féminin singulier que tu connais : {ar|هٰذِهِ} (proche) et {ar|تِلْكَ} (loin)."
         },
         { "type": "example", "ar": "هٰذِهِ بُيُوتٌ.", "fr": "Ce sont des maisons." },
         { "type": "example", "ar": "تِلْكَ بُيُوتٌ.", "fr": "Ce sont des maisons, là-bas." },

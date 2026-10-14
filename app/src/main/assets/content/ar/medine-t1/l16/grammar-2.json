@@ -67,7 +67,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Dans chaque case, le premier mot sert pour ce qui est **proche**, le second pour ce qui est **loin**."
+          "text": "Dans chaque case, ce qui est avant la barre « / » sert pour ce qui est **proche**, ce qui est après pour ce qui est **loin**."
         }
       ]
     },

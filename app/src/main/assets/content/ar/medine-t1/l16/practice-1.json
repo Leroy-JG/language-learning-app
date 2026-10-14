@@ -47,7 +47,7 @@
       "fr": "Ce sont de grands chiens.",
       "gaps": [ { "answers": ["هٰذِهِ"] } ],
       "options": ["هٰذِهِ", "هَؤُلَاءِ", "هٰذَا"],
-      "explain": "Des chiens sont des animaux : un pluriel d'animaux se comporte comme un féminin singulier."
+      "explain": "Des chiens sont des animaux : un pluriel d'animaux se comporte, en général, comme un féminin singulier."
     },
     {
       "id": "medine-t1.l16.practice-1#4",
@@ -60,20 +60,20 @@
     },
     {
       "id": "medine-t1.l16.practice-1#5",
+      "type": "question",
+      "prompt": { "fr": "On montre plusieurs voitures. Quel mot choisis-tu ?" },
+      "choices": [ { "ar": "هٰذِهِ" }, { "ar": "هَؤُلَاءِ" }, { "ar": "هٰذَا" } ],
+      "answer": 0,
+      "explain": "Des voitures sont des choses : {ar|هٰذِهِ}."
+    },
+    {
+      "id": "medine-t1.l16.practice-1#6",
       "type": "fill_gap",
       "sentence": "{0} حِمَارٌ كَبِيرٌ.",
       "fr": "Ceci est un grand âne.",
       "gaps": [ { "answers": ["هٰذَا"] } ],
       "options": ["هٰذَا", "هٰذِهِ", "هَؤُلَاءِ"],
       "explain": "Un seul âne, et {ar|حِمَارٌ} est masculin : {ar|هٰذَا}."
-    },
-    {
-      "id": "medine-t1.l16.practice-1#6",
-      "type": "question",
-      "prompt": { "fr": "On montre plusieurs voitures. Quel mot choisis-tu ?" },
-      "choices": [ { "ar": "هٰذِهِ" }, { "ar": "هَؤُلَاءِ" }, { "ar": "هٰذَا" } ],
-      "answer": 0,
-      "explain": "Des voitures sont des choses : {ar|هٰذِهِ}."
     },
     {
       "id": "medine-t1.l16.practice-1#7",

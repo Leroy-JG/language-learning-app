@@ -50,7 +50,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Pour plusieurs **choses** ou plusieurs **animaux**, trois mots se mettent au féminin singulier : le démonstratif, le pronom et, le plus souvent, l'adjectif."
+          "text": "Pour plusieurs **choses** ou plusieurs **animaux**, trois mots se mettent, en général, au féminin singulier : le démonstratif, le pronom et l'adjectif."
         },
         {
           "type": "table",
@@ -64,7 +64,12 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "En résumé : un pluriel de choses se comporte comme **un féminin singulier**. C'est la règle de base, celle du livre et de ce cours."
+          "text": "En résumé : un pluriel de choses se comporte, en général, comme **un féminin singulier**. C'est la règle de base, celle du livre et de ce cours."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "En français, on dit « ils » pour des livres ou des stylos ; en arabe, on dit {ar|هِيَ} (« elle »)."
         }
       ]
     },
