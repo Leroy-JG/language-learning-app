@@ -28,9 +28,9 @@
       "id": "medine-t1.q06.test#3",
       "type": "question",
       "prompt": { "ar": "هٰذَا طَالِبٌ." },
-      "choices": [ { "ar": "هَؤُلَاءِ طُلَّابٌ" }, { "ar": "ذٰلِكَ طُلَّابٌ" }, { "ar": "هُنَاكَ طُلَّابٌ" } ],
+      "choices": [ { "ar": "هَؤُلَاءِ طُلَّابٌ" }, { "ar": "ذٰلِكَ طُلَّابٌ" }, { "ar": "هٰذَا طُلَّابٌ" } ],
       "answer": 0,
-      "instruction": "Choisis la phrase accordée au pluriel.",
+      "instruction": "Mets cette phrase au pluriel (sans changer de personne ni de sens) : choisis la bonne version.",
       "points": 5
     },
     {
@@ -39,7 +39,7 @@
       "prompt": { "ar": "أَنْتَ مُسْلِمٌ." },
       "choices": [ { "ar": "أَنْتُمَا مُسْلِمُونَ" }, { "ar": "أَنْتُمْ مُسْلِمُونَ" }, { "ar": "هُمْ مُسْلِمُونَ" } ],
       "answer": 1,
-      "instruction": "Choisis la phrase accordée au pluriel.",
+      "instruction": "Mets cette phrase au pluriel (sans changer de personne ni de sens) : choisis la bonne version.",
       "points": 5
     },
     {
@@ -52,7 +52,7 @@
         { "ar": "هُمْ عُلَمَاءُ كَبِيرٌ" }
       ],
       "answer": 1,
-      "instruction": "Choisis la phrase accordée au pluriel.",
+      "instruction": "Mets cette phrase au pluriel (sans changer de personne ni de sens) : choisis la bonne version.",
       "explain": "Le pluriel de {ar|ذٰلِكَ} (pour des personnes) est {ar|أُولَئِكَ}, et l'adjectif se met aussi au pluriel : {ar|كِبَارٌ}.",
       "points": 5
     },
@@ -66,7 +66,7 @@
         { "ar": "هَؤُلَاءِ الرِّجَالُ الطِّوَالُ مِنْ فَرَنْسَا" }
       ],
       "answer": 2,
-      "instruction": "Choisis la phrase accordée au pluriel.",
+      "instruction": "Mets cette phrase au pluriel (sans changer de personne ni de sens) : choisis la bonne version.",
       "explain": "Le démonstratif, le nom et l'adjectif passent tous les trois au pluriel.",
       "points": 5
     },
@@ -76,7 +76,7 @@
       "prompt": { "ar": "تِلْكَ بِنْتٌ." },
       "choices": [ { "ar": "هٰذِهِ بَنَاتٌ" }, { "ar": "أُولَئِكَ بَنَاتٌ" }, { "ar": "هٰذِهِ بِنْتٌ" } ],
       "answer": 1,
-      "instruction": "Choisis la phrase accordée au pluriel.",
+      "instruction": "Mets cette phrase au pluriel (sans changer de personne ni de sens) : choisis la bonne version.",
       "explain": "Pour plusieurs personnes éloignées, on emploie {ar|أُولَئِكَ}.",
       "points": 5
     },
@@ -86,8 +86,8 @@
       "prompt": { "ar": "هٰذِهِ امْرَأَةٌ." },
       "choices": [ { "ar": "هَؤُلَاءِ رِجَالٌ" }, { "ar": "هَؤُلَاءِ بَنَاتٌ" }, { "ar": "هَؤُلَاءِ نِسَاءٌ" } ],
       "answer": 2,
-      "instruction": "Choisis la phrase accordée au pluriel.",
-      "explain": "{ar|نِسَاءٌ} est le pluriel de {ar|اِمْرَأَةٌ}. {ar|بَنَاتٌ} est le pluriel de {ar|بِنْتٌ} (une fille).",
+      "instruction": "Mets cette phrase au pluriel (sans changer de personne ni de sens) : choisis la bonne version.",
+      "explain": "{ar|نِسَاءٌ} est le pluriel du même mot, {ar|اِمْرَأَةٌ}. {ar|بَنَاتٌ} est le pluriel de {ar|بِنْتٌ} (une fille).",
       "points": 5
     },
     {
@@ -108,7 +108,7 @@
       "answers": [0, 1, 2, 3, 7, 8],
       "shuffle": false,
       "points": 5,
-      "explain": "{ar|كَ}, {ar|كُمَا} et {ar|نَا} se collent à un nom. {ar|هُمْ}, écrit seul, est le pronom isolé « ils »."
+      "explain": "{ar|كَ}, {ar|كُمَا} et {ar|نَا} se collent à un nom. {ar|هُمْ}, écrit seul, est le pronom isolé « ils » (il est aussi pronom affixe, « leur », dans la question suivante)."
     },
     {
       "id": "medine-t1.q06.test#10",

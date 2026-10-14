@@ -27,7 +27,7 @@
     {
       "id": "medine-t1.q03.test#3",
       "type": "multi",
-      "prompt": { "fr": "Parmi ces lettres, lesquelles sont des signes du féminin ?" },
+      "prompt": { "fr": "Parmi ces terminaisons, lesquelles sont des signes du féminin ?" },
       "choices": [ { "ar": "ي" }, { "ar": "ى" }, { "ar": "ن" }, { "ar": "ة" }, { "ar": "ث" }, { "ar": "اءُ" } ],
       "answers": [1, 3, 5],
       "shuffle": false,
@@ -96,7 +96,7 @@
       "choices": [ { "ar": "يَدُ يَاسِرٍ مَكْسُورَةٌ" }, { "ar": "يَدُ يَاسِرٍ مَكْسُورٌ" } ],
       "answer": 0,
       "shuffle": false,
-      "explain": "{ar|يَدٌ} est féminin : l'adjectif prend {ar|ة}, {ar|مَكْسُورَةٌ}.",
+      "explain": "{ar|يَدٌ} est féminin : le prédicat s'accorde avec lui et prend {ar|ة}, {ar|مَكْسُورَةٌ}.",
       "points": 5
     },
     {
@@ -147,7 +147,7 @@
       "shuffle": false,
       "points": 5,
       "instruction": "Les noms sont donnés sans leur voyelle finale.",
-      "explain": "Privés de tanwin : {ar|فَاطِمَةُ}, {ar|لَيْلَى}, {ar|حَمْزَةُ} et {ar|مُوسَى} (nom propre étranger). {ar|جَعْفَرٌ}, {ar|زَيْدٌ}, {ar|سَمَاءٌ} et {ar|يَدٌ} prennent le tanwin."
+      "explain": "Privés de tanwin : {ar|فَاطِمَةُ}, {ar|لَيْلَى}, {ar|حَمْزَةُ} et {ar|مُوسَى} (nom propre étranger, chapitre 8). {ar|جَعْفَرٌ}, {ar|زَيْدٌ}, {ar|سَمَاءٌ} et {ar|يَدٌ} prennent le tanwin : la hamza de {ar|سَمَاءٌ} fait partie du mot, ce n'est pas le signe {ar|اءُ} de {ar|صَحْرَاءُ}."
     },
     {
       "id": "medine-t1.q03.test#14",

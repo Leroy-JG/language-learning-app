@@ -31,7 +31,7 @@
       "choices": [ { "ar": "مَرْفُوعٌ" }, { "ar": "مَنْصُوبٌ" }, { "ar": "مَجْرُورٌ" } ],
       "answer": 0,
       "shuffle": false,
-      "explain": "Il se termine par la damma (le tanwin {ar|◌ٌ}) : il est au nominatif.",
+      "explain": "Il se termine par la damma, avec son tanwin ({ar|◌ٌ}) : il est au nominatif.",
       "points": 5
     },
     {
@@ -59,11 +59,11 @@
     {
       "id": "medine-t1.q02.test#6",
       "type": "question",
-      "prompt": { "fr": "Une seule de ces phrases est correcte. Laquelle ?" },
-      "choices": [ { "ar": "هٰذِهِ مُحَمَّدٌ" }, { "ar": "هٰذَا مُحَمَّدٌ" } ],
+      "prompt": { "fr": "Une seule de ces phrases est correcte. Laquelle ? (« C'est Muḥammad. »)" },
+      "choices": [ { "ar": "هٰذَا مُحَمَّدٍ" }, { "ar": "هٰذَا مُحَمَّدٌ" } ],
       "answer": 1,
       "shuffle": false,
-      "explain": "Muḥammad est un homme : on emploie le démonstratif masculin {ar|هٰذَا}. {ar|هٰذِهِ} est son féminin (chapitre 6).",
+      "explain": "{ar|مُحَمَّدٌ} n'est ni après une préposition ni second terme d'une annexion : il est au nominatif (damma, tanwin {ar|◌ٌ}), pas au génitif.",
       "points": 5
     },
     {
@@ -79,11 +79,11 @@
     {
       "id": "medine-t1.q02.test#8",
       "type": "question",
-      "prompt": { "fr": "Une seule de ces phrases est correcte. Laquelle ?" },
-      "choices": [ { "ar": "هٰذِهِ السَّيَّارَةُ مُحَمَّدٍ" }, { "ar": "هٰذِهِ سَيَّارَةُ مُحَمَّدٍ" } ],
+      "prompt": { "fr": "Une seule de ces phrases est correcte. Laquelle ? (« C'est le livre de Muḥammad. »)" },
+      "choices": [ { "ar": "هٰذَا الْكِتَابُ مُحَمَّدٍ" }, { "ar": "هٰذَا كِتَابُ مُحَمَّدٍ" } ],
       "answer": 1,
       "shuffle": false,
-      "explain": "{ar|سَيَّارَةُ مُحَمَّدٍ} est une annexion (« la voiture de Muḥammad ») : le premier terme n'a ni article ni tanwin.",
+      "explain": "{ar|كِتَابُ مُحَمَّدٍ} est une annexion (« le livre de Muḥammad ») : le premier terme n'a ni article ni tanwin.",
       "points": 5
     },
     {

@@ -11,7 +11,7 @@
       "choices": [ { "fr": "1" }, { "fr": "2" }, { "fr": "3" }, { "fr": "4" } ],
       "answer": 2,
       "shuffle": false,
-      "explain": "Trois : le dénombré est annexé au nombre, il est au pluriel, et le nombre est de genre contraire au sien.",
+      "explain": "Trois : le nombre et le dénombré forment une annexion (le nombre en est le premier terme), le dénombré est au pluriel, et le nombre est de genre contraire au sien.",
       "points": 5
     },
     {
@@ -157,7 +157,7 @@
     {
       "id": "medine-t1.q09.test#14",
       "type": "question",
-      "prompt": { "fr": "Complète avec le duel de {ar|تِلْكَ} : … {ar|بِنْتَانِ} (« celles-là sont deux filles »)." },
+      "prompt": { "fr": "Complète avec le duel de {ar|تِلْكَ} : … {ar|بِنْتَانِ} (« ces deux-là sont deux filles »)." },
       "choices": [ { "ar": "ذٰلِكَ" }, { "ar": "تَانِكَ" }, { "ar": "تَيْنِكَ" } ],
       "answer": 1,
       "explain": "Ici, le démonstratif est le sujet : le nominatif {ar|تَانِكَ} (alif).",

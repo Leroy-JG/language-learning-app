@@ -154,7 +154,7 @@
       "choices": [ { "fr": "oui" }, { "fr": "non" } ],
       "answer": 1,
       "shuffle": false,
-      "instruction": "Une question, puis sa réponse. Cette phrase est-elle juste ?",
+      "instruction": "Une question, puis sa réponse. Ce petit dialogue est-il correct ?",
       "explain": "Zayd est une personne : il faut {ar|مَنْ فِي الْبَيْتِ؟}. {ar|مَا} s'emploie pour les choses et les animaux.",
       "points": 1
     },
@@ -165,7 +165,7 @@
       "choices": [ { "fr": "oui" }, { "fr": "non" } ],
       "answer": 1,
       "shuffle": false,
-      "instruction": "Une question, puis sa réponse. Cette phrase est-elle juste ?",
+      "instruction": "Une question, puis sa réponse. Ce petit dialogue est-il correct ?",
       "explain": "{ar|مَنْ} interroge sur une personne. Pour un chien, on demande {ar|مَا هٰذَا؟}.",
       "points": 1
     },
@@ -184,16 +184,6 @@
     },
     {
       "id": "medine-t1.q01.test#17",
-      "type": "question",
-      "prompt": { "fr": "Un nom interrogatif ({ar|اِسْمُ الِاسْتِفْهَامِ}) est…" },
-      "choices": [ { "ar": "مَعْرِفَةٌ" }, { "ar": "نَكِرَةٌ" } ],
-      "answer": 1,
-      "shuffle": false,
-      "explain": "Un nom interrogatif ne désigne rien de précis, puisqu'il pose justement la question : il est indéfini ({ar|نَكِرَةٌ}).",
-      "points": 1
-    },
-    {
-      "id": "medine-t1.q01.test#18",
       "type": "question",
       "prompt": { "fr": "Quand l'article {ar|الْ} s'ajoute à un nom, celui-ci perd son…" },
       "choices": [ { "ar": "التَّنْوِينُ" }, { "ar": "الضَّمَّةُ" }, { "ar": "الْكَسْرَةُ" } ],

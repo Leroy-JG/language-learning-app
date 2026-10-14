@@ -43,7 +43,7 @@
       "answers": [0, 1, 2, 5, 7],
       "shuffle": false,
       "points": 5,
-      "explain": "{ar|أَنَا}, {ar|أَنْتَ}, {ar|أَنْتُنَّ}, {ar|أَنْتُمْ} et {ar|هُمْ} sont des pronoms isolés. {ar|كُمْ} et {ar|هَا} se collent à un autre mot, et {ar|إِنَّ} n'est pas un pronom."
+      "explain": "{ar|أَنَا}, {ar|أَنْتَ}, {ar|أَنْتُنَّ}, {ar|أَنْتُمْ} et {ar|هُمْ} sont des pronoms isolés (« ils »). {ar|كُمْ} et {ar|هَا} se collent à un autre mot, et {ar|إِنَّ} n'est pas un pronom. {ar|هُمْ} est aussi un pronom affixe (« leur », {ar|كِتَابُهُمْ}) : voir la question suivante."
     },
     {
       "id": "medine-t1.q05.test#4",
@@ -64,7 +64,7 @@
       "answers": [1, 2, 3, 4, 5, 6, 7],
       "shuffle": false,
       "points": 5,
-      "explain": "{ar|نَحْنُ} est le seul pronom isolé de la liste ; tous les autres se collent à un nom."
+      "explain": "{ar|نَحْنُ} est le seul pronom isolé de la liste ; tous les autres se collent à un nom, y compris {ar|هُمْ} (« leur », {ar|كِتَابُهُمْ})."
     },
     {
       "id": "medine-t1.q05.test#5",
@@ -110,7 +110,9 @@
     {
       "id": "medine-t1.q05.test#10",
       "type": "question",
-      "prompt": { "fr": "Parmi tous ces pronoms isolés, un seul n'est pas à sa place. Lequel ?" },
+      "prompt": {
+        "fr": "Cette liste devrait ne contenir que des pronoms isolés du nominatif : un seul n'y a pas sa place. Lequel ?"
+      },
       "choices": [
         { "ar": "أَنَا" },
         { "ar": "نَحْنُ" },

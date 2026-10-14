@@ -24,7 +24,7 @@
       "answers": [0, 1, 4, 5, 7, 9, 10],
       "shuffle": false,
       "points": 5,
-      "explain": "Sont invariables les démonstratifs ({ar|هٰذَا}, {ar|أُولَئِكَ}), les interrogatifs ({ar|مَنْ}, {ar|أَيْنَ}) et les pronoms ({ar|هُمْ}, {ar|أَنَا}, {ar|أَنْتُمْ}). Les noms propres et les noms communs sont variables."
+      "explain": "Sont invariables la plupart des démonstratifs ({ar|هٰذَا}, {ar|أُولَئِكَ}), la plupart des interrogatifs ({ar|مَنْ}, {ar|أَيْنَ}) et les pronoms ({ar|هُمْ}, {ar|أَنَا}, {ar|أَنْتُمْ}). Font exception les démonstratifs du duel et {ar|أَيُّ}. Les noms propres et les noms communs sont variables."
     },
     {
       "id": "medine-t1.exam.exam#2",
@@ -46,7 +46,7 @@
       "answers": [0, 1, 3, 5, 6, 10],
       "shuffle": false,
       "points": 5,
-      "explain": "{ar|مَنْ}, {ar|أَيُّ} et {ar|أَيْنَ} sont des noms interrogatifs, {ar|زَيْدٌ} un nom propre, {ar|فِي} une préposition."
+      "explain": "{ar|هُنَاكَ} (là-bas) est un démonstratif de lieu, comme {ar|هُنَا}. {ar|مَنْ}, {ar|أَيُّ} et {ar|أَيْنَ} sont des noms interrogatifs, {ar|زَيْدٌ} un nom propre, {ar|فِي} une préposition."
     },
     {
       "id": "medine-t1.exam.exam#3",
@@ -82,7 +82,7 @@
       "answers": [0, 2, 3],
       "shuffle": false,
       "points": 5,
-      "explain": "Sont définis : les pronoms, les démonstratifs, les noms propres (et les noms avec l'article). Un nom interrogatif ne désigne rien de précis : il est indéfini."
+      "explain": "Sont définis : les pronoms, les démonstratifs, les noms propres (et les noms avec l'article). Les noms interrogatifs ne font pas partie des sortes de noms définis du cours."
     },
     {
       "id": "medine-t1.exam.exam#5",
@@ -91,7 +91,7 @@
       "choices": [ { "fr": "un nom" }, { "fr": "un verbe" } ],
       "answer": 0,
       "shuffle": false,
-      "explain": "Tout dépend du premier mot : une phrase qui commence par un nom est nominale.",
+      "explain": "Tout dépend du premier mot : une phrase qui commence par un nom est nominale (on ne compte pas une particule, comme {ar|أَ}, qui peut la précéder).",
       "points": 3
     },
     {
@@ -101,7 +101,7 @@
       "choices": [ { "fr": "un nom" }, { "fr": "un verbe" } ],
       "answer": 1,
       "shuffle": false,
-      "explain": "Une phrase qui commence par un verbe est verbale.",
+      "explain": "Une phrase qui commence par un verbe est verbale (on ne compte pas une particule qui peut la précéder).",
       "points": 3
     },
     {
@@ -133,7 +133,7 @@
       "answers": [1, 2, 3],
       "shuffle": false,
       "points": 5,
-      "explain": "{ar|مُسْلِمُونَ} (pluriel masculin) et {ar|طَالِبَتَانِ} (duel) ont une lettre pour signe du cas. {ar|فَاطِمَةُ} est privé de tanwin : au génitif, il prend la fatha au lieu de la kasra."
+      "explain": "{ar|مُسْلِمُونَ} (pluriel masculin) et {ar|طَالِبَتَانِ} (duel) ont une lettre pour signe du cas. {ar|فَاطِمَةُ} est privé de tanwin : au génitif, sans article ni annexion, il prend la fatha au lieu de la kasra."
     },
     {
       "id": "medine-t1.exam.exam#9",
@@ -166,7 +166,7 @@
     {
       "id": "medine-t1.exam.exam#11",
       "type": "question",
-      "prompt": { "fr": "Comment s'écrit « 3 + étudiant » ?" },
+      "prompt": { "fr": "Comment s'écrit « trois étudiants » (3 + {ar|طَالِبٌ}) ?" },
       "choices": [
         { "ar": "ثَلَاثُ طُلَّابٍ" },
         { "ar": "ثَلَاثَةٌ طُلَّابٌ" },
@@ -180,7 +180,7 @@
     {
       "id": "medine-t1.exam.exam#12",
       "type": "question",
-      "prompt": { "fr": "Comment s'écrit « 7 + étudiante » ?" },
+      "prompt": { "fr": "Comment s'écrit « sept étudiantes » (7 + {ar|طَالِبَةٌ}) ?" },
       "choices": [ { "ar": "سَبْعَةُ طَالِبَاتٍ" }, { "ar": "سَبْعُ طَالِبَاتٍ" }, { "ar": "سِتُّ طَالِبَاتٍ" } ],
       "answer": 1,
       "explain": "{ar|طَالِبَةٌ} est féminin : {ar|سَبْعُ} (sans {ar|ة}), puis {ar|طَالِبَاتٍ}. {ar|سِتُّ} veut dire « six ».",
@@ -202,7 +202,7 @@
       "shuffle": false,
       "points": 5,
       "instruction": "Les noms sont donnés sans leur voyelle finale.",
-      "explain": "Privés de tanwin : {ar|فَاطِمَةُ} (nom propre féminin), {ar|عُثْمَانُ} (nom propre terminé par {ar|◌َان}) et {ar|فَرَنْسَا} (nom propre étranger). {ar|زَيْدٌ}, {ar|يَاسِرٌ} et {ar|بَيْتٌ} prennent le tanwin."
+      "explain": "Privés de tanwin : {ar|فَاطِمَةُ} (nom propre féminin), {ar|عُثْمَانُ} (nom propre terminé par {ar|◌َان}) et {ar|فَرَنْسَا} (nom propre non arabe de plus de trois lettres). {ar|زَيْدٌ}, {ar|يَاسِرٌ} et {ar|بَيْتٌ} prennent le tanwin."
     },
     {
       "id": "medine-t1.exam.exam#14",

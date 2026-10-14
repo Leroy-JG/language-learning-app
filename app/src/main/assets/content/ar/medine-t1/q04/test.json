@@ -140,13 +140,13 @@
       "answer": 0,
       "shuffle": false,
       "instruction": "Ce nom est-il masculin ou féminin ?",
-      "explain": "Un nom sans signe du féminin qui ne désigne pas une femme : masculin.",
+      "explain": "{ar|كِتَابٌ} n'a aucun signe du féminin, ne désigne pas une femme et n'est pas l'un des féminins « sans règle » vus ({ar|شَمْسٌ}, {ar|يَدٌ}, {ar|عَيْنٌ}…) : il est masculin.",
       "points": 5
     },
     {
       "id": "medine-t1.q04.test#14",
       "type": "multi",
-      "prompt": { "fr": "Coche les noms privés de tanwin ({ar|مَمْنُوعٌ مِنَ الصَّرْفِ})." },
+      "prompt": { "fr": "Coche les mots privés de tanwin ({ar|مَمْنُوعٌ مِنَ الصَّرْفِ})." },
       "choices": [
         { "ar": "زَيْد" },
         { "ar": "فَاطِمَة" },
@@ -168,7 +168,7 @@
       "id": "medine-t1.q04.test#15",
       "type": "question",
       "prompt": { "ar": "عُصْفُورٌ" },
-      "choices": [ { "fr": "un oiseau" }, { "fr": "un chien" }, { "fr": "un chat" }, { "fr": "un chameau" } ],
+      "choices": [ { "fr": "un petit oiseau" }, { "fr": "un chien" }, { "fr": "un chat" }, { "fr": "un chameau" } ],
       "answer": 0,
       "instruction": "Choisis le sens du mot.",
       "points": 3

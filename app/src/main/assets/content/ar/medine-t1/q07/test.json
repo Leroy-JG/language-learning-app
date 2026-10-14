@@ -84,7 +84,7 @@
       "answers": [1, 3],
       "shuffle": false,
       "points": 5,
-      "explain": "Ce pluriel est réservé aux personnes de genre masculin : prénoms, noms et adjectifs. Pour des choses, l'adjectif se met au féminin."
+      "explain": "En règle générale, ce pluriel concerne des personnes de genre masculin : prénoms, noms et adjectifs. Pour des choses, l'adjectif se met au féminin."
     },
     {
       "id": "medine-t1.q07.test#8",
@@ -94,7 +94,7 @@
         { "fr": "Le pluriel des prénoms féminins" },
         { "fr": "Le pluriel de beaucoup de noms terminés par {ar|ة}" },
         { "fr": "Le pluriel de l'adjectif d'un pluriel de choses, comme {ar|أَيَّامٌ مَعْدُودَاتٌ}" },
-        { "fr": "Le pluriel des noms ou adjectifs de personnes de genre masculin" }
+        { "fr": "Le pluriel des adjectifs de personnes de genre masculin, comme {ar|مُسْلِمٌ}" }
       ],
       "answers": [0, 1, 2],
       "shuffle": false,
