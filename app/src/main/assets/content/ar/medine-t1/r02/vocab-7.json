@@ -1,0 +1,98 @@
+{
+  "id": "medine-t1.r02.vocab-7",
+  "type": "vocabulary",
+  "title": "Demain, un exercice, un sujet",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t1.r02.vocab-7#1", "type": "present", "item": "w:ghadan" },
+    { "id": "medine-t1.r02.vocab-7#2", "type": "present", "item": "p:insha-allah" },
+    {
+      "id": "medine-t1.r02.vocab-7#3",
+      "type": "tip",
+      "title": "Parler de demain",
+      "blocks": [
+        {
+          "type": "breakdown",
+          "ar": "إِنْ شَاءَ اللَّهُ",
+          "fr": "si Allah le veut",
+          "parts": [
+            { "ar": "إِنْ", "fr": "si" },
+            { "ar": "شَاءَ", "fr": "il a voulu" },
+            { "ar": "اللَّهُ", "fr": "Allah" }
+          ]
+        },
+        { "type": "example", "ar": "غَدًا إِنْ شَاءَ اللَّهُ.", "fr": "Demain, si Allah le veut." },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "Le Coran invite à dire {ar|إِنْ شَاءَ اللَّهُ} quand on parle de ce qu'on fera plus tard (sourate 18, versets 23 et 24)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.vocab-7#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ghadan",
+      "distractors": ["w:alyawm", "w:alan"]
+    },
+    { "id": "medine-t1.r02.vocab-7#5", "type": "present", "item": "w:tamrin" },
+    { "id": "medine-t1.r02.vocab-7#6", "type": "present", "item": "w:mawdu" },
+    { "id": "medine-t1.r02.vocab-7#7", "type": "present", "item": "w:suaal" },
+    {
+      "id": "medine-t1.r02.vocab-7#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:tamrin", "w:mawdu", "w:suaal", "w:dars", "w:ikhtibar"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-7#9",
+      "type": "fill_gap",
+      "sentence": "الِاخْتِبَارُ {0}.",
+      "fr": "L'examen est demain.",
+      "gaps": [ { "answers": ["غَدًا"] } ],
+      "options": ["غَدًا", "الْيَوْمَ", "الْآنَ"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-7#10",
+      "type": "fill_gap",
+      "sentence": "كَمْ {0} فِي الِاخْتِبَارِ؟",
+      "fr": "Combien de questions y a-t-il dans l'examen ?",
+      "gaps": [ { "answers": ["سُؤَالًا"] } ],
+      "options": ["سُؤَالًا", "دَرْسًا", "يَوْمًا"],
+      "explain": "Après {ar|كَمْ}, le nom est en général au singulier et à l'accusatif : {ar|سُؤَالًا}."
+    },
+    {
+      "id": "medine-t1.r02.vocab-7#11",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|مَوْضُوعُ الدَّرْسِ} ?" },
+      "choices": [ { "fr": "Le sujet de la leçon" }, { "fr": "Le titre de la leçon" }, { "fr": "La fin de la leçon" } ],
+      "answer": 0,
+      "explain": "{ar|عُنْوَانٌ} est le titre ; {ar|مَوْضُوعٌ}, le sujet dont on parle."
+    },
+    {
+      "id": "medine-t1.r02.vocab-7#12",
+      "type": "true_false",
+      "statement": { "fr": "On dit {ar|إِنْ شَاءَ اللَّهُ} en parlant de l'avenir." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.r02.vocab-7#13",
+      "type": "order",
+      "fr": "L'examen est demain, si Allah le veut.",
+      "answers": [
+        ["الِاخْتِبَارُ", "غَدًا", "إِنْ", "شَاءَ", "اللَّهُ"],
+        ["غَدًا", "الِاخْتِبَارُ", "إِنْ", "شَاءَ", "اللَّهُ"]
+      ],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.r02.vocab-7#14", "type": "typing", "ask": "fr", "fr": "demain", "answers": ["غَدًا"] },
+    {
+      "id": "medine-t1.r02.vocab-7#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'exercice est facile.",
+      "answers": ["التَّمْرِينُ سَهْلٌ."]
+    }
+  ]
+}

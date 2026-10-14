@@ -1,0 +1,185 @@
+{
+  "id": "medine-t1.r02.dialogue-2",
+  "type": "dialogue",
+  "title": "Le vendredi à la mosquée (2)",
+  "icon": "mosque",
+  "screens": [
+    {
+      "id": "medine-t1.r02.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Le vendredi à la mosquée",
+      "intro": "Suite du texte : l'imam arrive, le prédicateur prononce le sermon, puis on prie.",
+      "speakers": { "A": { "name": "Le narrateur", "voice": "m1" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "حَضَرَ الْإِمَامُ فَصَعِدَ الْمِنْبَرَ وَقَعَدَ عَلَيْهِ وَسَلَّمَ عَلَى الْحَاضِرِينَ.",
+          "fr": "L'imam est venu ; il est monté sur le minbar, s'est assis dessus et a salué les personnes présentes."
+        },
+        {
+          "speaker": "A",
+          "ar": "فَأَذَّنَ الْمُؤَذِّنُ وَسَكَتَ الْحَاضِرُونَ.",
+          "fr": "Alors le muezzin a lancé l'appel à la prière et les personnes présentes se sont tues."
+        },
+        {
+          "speaker": "A",
+          "ar": "قَامَ الْخَطِيبُ لِخُطْبَتِهِ فَحَمِدَ اللَّهَ وَصَلَّى عَلَى النَّبِيِّ وَخَطَبَ خُطْبَتَيْنِ خَفِيفَتَيْنِ.",
+          "fr": "Le prédicateur s'est levé pour son sermon ; il a loué Allah, a invoqué la bénédiction d'Allah sur le Prophète et a prononcé deux sermons légers."
+        },
+        {
+          "speaker": "A",
+          "ar": "ثُمَّ أَمَرَ بِتَقْوَى اللَّهِ وَدَعَا لِلْمُسْلِمِينَ.",
+          "fr": "Puis il a recommandé la crainte d'Allah et a fait une invocation pour les musulmans."
+        },
+        {
+          "speaker": "A",
+          "ar": "ثُمَّ نَزَلَ مِنَ الْمِنْبَرِ وَأُقِيمَتِ الصَّلَاةُ.",
+          "fr": "Puis il est descendu du minbar et l'on a annoncé le début de la prière."
+        },
+        {
+          "speaker": "A",
+          "ar": "صَلَّى الْإِمَامُ بِالنَّاسِ رَكْعَتَيْنِ ثُمَّ اِنْتَشَرَ الْحَاضِرُونَ.",
+          "fr": "L'imam a dirigé les gens dans la prière, deux rakʿas ; puis les personnes présentes se sont dispersées."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Explication"],
+          "rows": [
+            [
+              "{ar|فَأَذَّنَ}",
+              "alors il a lancé l'appel",
+              "le verbe de {ar|أَذَانٌ} et de {ar|مُؤَذِّنٌ} (même racine)"
+            ],
+            ["{ar|لِخُطْبَتِهِ}", "pour son sermon", "{ar|لِ} + {ar|خُطْبَةٌ} + {ar|هُ} : le {ar|ة} devient {ar|ت}"],
+            [
+              "{ar|خُطْبَتَيْنِ خَفِيفَتَيْنِ}",
+              "deux sermons légers",
+              "un duel à l'accusatif, et l'adjectif au duel lui aussi (chapitre 18)"
+            ],
+            [
+              "{ar|أَمَرَ بِتَقْوَى اللَّهِ}",
+              "il a recommandé la crainte d'Allah",
+              "{ar|أَمَرَ} : il a ordonné, recommandé ; {ar|بِ} est une préposition que tu étudieras plus tard"
+            ],
+            [
+              "{ar|لِلْمُسْلِمِينَ}",
+              "pour les musulmans",
+              "{ar|لِ} + {ar|الْمُسْلِمِينَ} : l'alif de l'article disparaît (chapitre 6)"
+            ],
+            [
+              "{ar|أُقِيمَتِ الصَّلَاةُ}",
+              "on a annoncé le début de la prière",
+              "un verbe au passif (« a été… ») ; le {ar|تْ} du féminin prend la kasra devant l'article"
+            ],
+            ["{ar|صَلَّى بِالنَّاسِ}", "il a dirigé les gens dans la prière", "{ar|بِ} : préposition vue plus tard"],
+            ["{ar|رَكْعَتَيْنِ}", "deux rakʿas", "le duel à l'accusatif : {ar|◌َيْنِ}"],
+            [
+              "{ar|الْحَاضِرُونَ}",
+              "les personnes présentes",
+              "l'adjectif {ar|حَاضِرٌ} employé comme un nom : « l'assistance »"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les deux sermons sont dits « légers » : on comprend qu'ils sont brefs. Les formes nouvelles de ce tableau ne sont exigées dans aucun exercice : tu les étudieras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Que fait le muezzin quand l'imam a salué les personnes présentes ?" },
+      "choices": [
+        { "fr": "Il lance l'appel à la prière" },
+        { "fr": "Il monte sur le minbar" },
+        { "fr": "Il récite le Coran" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r02.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Comment sont les deux sermons ?" },
+      "choices": [ { "fr": "Légers (brefs)" }, { "fr": "Très longs" }, { "fr": "Difficiles" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r02.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Les personnes présentes se sont tues quand le muezzin a lancé l'appel." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.r02.dialogue-2#1" },
+      "explain": "{ar|فَأَذَّنَ الْمُؤَذِّنُ وَسَكَتَ الْحَاضِرُونَ}."
+    },
+    {
+      "id": "medine-t1.r02.dialogue-2#6",
+      "type": "question",
+      "prompt": { "fr": "Que fait le prédicateur, en plus de recommander la crainte d'Allah ?" },
+      "choices": [
+        { "fr": "Il fait une invocation pour les musulmans" },
+        { "fr": "Il lance l'appel à la prière" },
+        { "fr": "Il s'assoit au premier rang" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r02.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-2#7",
+      "type": "true_false",
+      "statement": { "fr": "L'imam a prié trois rakʿas avec les gens." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.r02.dialogue-2#1" },
+      "explain": "Il a prié deux rakʿas : {ar|رَكْعَتَيْنِ} est un duel."
+    },
+    {
+      "id": "medine-t1.r02.dialogue-2#8",
+      "type": "fill_gap",
+      "sentence": "نَزَلَ الْخَطِيبُ مِنَ {0}.",
+      "fr": "Le prédicateur est descendu du minbar.",
+      "gaps": [ { "answers": ["الْمِنْبَرِ"] } ],
+      "options": ["الْمِنْبَرِ", "الْمَسْجِدِ", "الصَّفِّ"],
+      "context": { "dialogue": "medine-t1.r02.dialogue-2#1" },
+      "explain": "Après {ar|مِنَ}, le nom est au génitif : {ar|الْمِنْبَرِ}."
+    },
+    {
+      "id": "medine-t1.r02.dialogue-2#9",
+      "type": "order",
+      "fr": "Le prédicateur a loué Allah.",
+      "answers": [["حَمِدَ", "الْخَطِيبُ", "اللَّهَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.r02.dialogue-2#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ رَكْعَةً صَلَّى الْإِمَامُ بِالنَّاسِ؟",
+      "answers": [
+        "صَلَّى رَكْعَتَيْنِ.",
+        "رَكْعَتَيْنِ.",
+        "رَكْعَتَانِ.",
+        "صَلَّى الْإِمَامُ رَكْعَتَيْنِ.",
+        "صَلَّى الْإِمَامُ بِالنَّاسِ رَكْعَتَيْنِ."
+      ],
+      "fr": "Il a prié deux rakʿas.",
+      "instruction": "Réponds : deux rakʿas.",
+      "context": { "dialogue": "medine-t1.r02.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Puis il est descendu du minbar.",
+      "answers": ["ثُمَّ نَزَلَ مِنَ الْمِنْبَرِ."]
+    }
+  ]
+}

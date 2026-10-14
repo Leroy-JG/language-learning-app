@@ -1,0 +1,90 @@
+{
+  "id": "medine-t1.r02.vocab-11",
+  "type": "vocabulary",
+  "title": "Prendre, nettoyer, se préparer",
+  "icon": "house",
+  "screens": [
+    { "id": "medine-t1.r02.vocab-11#1", "type": "present", "item": "w:tanawala" },
+    { "id": "medine-t1.r02.vocab-11#2", "type": "present", "item": "w:nazzafa" },
+    {
+      "id": "medine-t1.r02.vocab-11#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:nazzafa",
+      "distractors": ["w:akala", "w:talaba"]
+    },
+    { "id": "medine-t1.r02.vocab-11#4", "type": "present", "item": "w:istadda" },
+    {
+      "id": "medine-t1.r02.vocab-11#5",
+      "type": "tip",
+      "title": "Les quatre formes d'un verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne chaque verbe sous **quatre formes** : le passé (« il a… »), le présent, l'impératif et le nom d'action. Tu connais déjà le passé : les trois autres sont un simple aperçu, rien n'est exigé."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["prendre", "{ar|تَنَاوَلَ}", "{ar|يَتَنَاوَلُ}", "{ar|تَنَاوَلْ}", "{ar|تَنَاوُلٌ}"],
+            ["nettoyer", "{ar|نَظَّفَ}", "{ar|يُنَظِّفُ}", "{ar|نَظِّفْ}", "{ar|تَنْظِيفٌ}"],
+            ["se préparer", "{ar|اِسْتَعَدَّ}", "{ar|يَسْتَعِدُّ}", "{ar|اِسْتَعِدَّ}", "{ar|اِسْتِعْدَادٌ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.vocab-11#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:tanawala", "w:nazzafa", "w:istadda", "w:akala", "w:qaddama"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-11#7",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ الْغُرْفَةَ.",
+      "fr": "Zayd a nettoyé la chambre.",
+      "gaps": [ { "answers": ["نَظَّفَ"] } ],
+      "options": ["نَظَّفَ", "تَنَاوَلَ", "اِسْتَعَدَّ"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-11#8",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ لِلِاخْتِبَارِ.",
+      "fr": "Zayd s'est préparé à l'examen.",
+      "gaps": [ { "answers": ["اِسْتَعَدَّ"] } ],
+      "options": ["اِسْتَعَدَّ", "نَظَّفَ", "تَنَاوَلَ"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-11#9",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|تَنَاوَلَ زَيْدٌ الْغَدَاءَ} ?" },
+      "choices": [ { "fr": "Zayd a pris le repas" }, { "fr": "Zayd a cuisiné le repas" }, { "fr": "Zayd a servi le repas" } ],
+      "answer": 0,
+      "explain": "{ar|تَنَاوَلَ} veut dire « prendre », et, avec un repas, « manger »."
+    },
+    {
+      "id": "medine-t1.r02.vocab-11#10",
+      "type": "true_false",
+      "statement": { "fr": "{ar|نَظِيفٌ} veut dire « propre »." },
+      "answer": true,
+      "explain": "{ar|نَظَّفَ} est « rendre propre » : nettoyer."
+    },
+    {
+      "id": "medine-t1.r02.vocab-11#11",
+      "type": "order",
+      "fr": "Zayd a nettoyé la chambre.",
+      "answers": [["نَظَّفَ", "زَيْدٌ", "الْغُرْفَةَ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.r02.vocab-11#12", "type": "typing", "ask": "fr", "item": "w:istadda" },
+    {
+      "id": "medine-t1.r02.vocab-11#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd s'est préparé à l'examen.",
+      "answers": ["اِسْتَعَدَّ زَيْدٌ لِلِاخْتِبَارِ."]
+    }
+  ]
+}

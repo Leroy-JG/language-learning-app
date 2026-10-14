@@ -1,0 +1,144 @@
+{
+  "id": "medine-t1.r02.revue-5",
+  "type": "review",
+  "title": "Compter de un à dix",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.r02.revue-5#1",
+      "type": "tip",
+      "title": "De un à dix",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Nombre", "Avec un nom masculin", "Avec un nom féminin"],
+          "rows": [
+            ["1", "{ar|وَاحِدٌ}", "{ar|وَاحِدَةٌ}"],
+            ["2", "{ar|اِثْنَانِ}", "{ar|اِثْنَتَانِ}"],
+            ["3", "{ar|ثَلَاثَةٌ}", "{ar|ثَلَاثٌ}"],
+            ["4", "{ar|أَرْبَعَةٌ}", "{ar|أَرْبَعٌ}"],
+            ["5", "{ar|خَمْسَةٌ}", "{ar|خَمْسٌ}"],
+            ["6", "{ar|سِتَّةٌ}", "{ar|سِتٌّ}"],
+            ["7", "{ar|سَبْعَةٌ}", "{ar|سَبْعٌ}"],
+            ["8", "{ar|ثَمَانِيَةٌ}", "{ar|ثَمَانٍ}"],
+            ["9", "{ar|تِسْعَةٌ}", "{ar|تِسْعٌ}"],
+            ["10", "{ar|عَشَرَةٌ}", "{ar|عَشْرٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "De 3 à 10, le nombre est de **genre contraire** au nom compté. Pour 1 et 2, on met le nom au singulier avec {ar|وَاحِدٌ} après lui, ou au duel."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.revue-5#2",
+      "type": "tip",
+      "title": "Les trois règles de 3 à 10",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand on compte de 3 à 10 : le nombre est le premier terme d'une annexion ; le nom compté ({ar|الْمَعْدُودُ}) est un **pluriel** au **génitif** ; le nombre est de **genre contraire** au singulier du nom compté."
+        },
+        {
+          "type": "breakdown",
+          "ar": "ثَلَاثَةُ كُتُبٍ",
+          "fr": "trois livres",
+          "parts": [
+            { "ar": "ثَلَاثَةُ", "fr": "le nombre, avec {ar|ة} : {ar|كِتَابٌ} est masculin" },
+            { "ar": "كُتُبٍ", "fr": "le nom compté : pluriel, génitif" }
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "ثَلَاثُ طَالِبَاتٍ",
+          "fr": "trois étudiantes",
+          "parts": [
+            { "ar": "ثَلَاثُ", "fr": "le nombre, sans {ar|ة} : {ar|طَالِبَةٌ} est féminin" },
+            { "ar": "طَالِبَاتٍ", "fr": "le nom compté : pluriel, génitif" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.revue-5#3",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:n-3", "w:n-5", "w:n-7", "w:n-8", "w:n-10"]
+    },
+    {
+      "id": "medine-t1.r02.revue-5#4",
+      "type": "sort",
+      "categories": [ { "fr": "masculin" }, { "fr": "féminin" } ],
+      "cards": [
+        { "ar": "خَمْسَةُ طُلَّابٍ", "category": 0 },
+        { "ar": "خَمْسُ طَالِبَاتٍ", "category": 1 },
+        { "ar": "سَبْعَةُ أَقْلَامٍ", "category": 0 },
+        { "ar": "سَبْعُ سَيَّارَاتٍ", "category": 1 },
+        { "ar": "عَشَرَةُ رِجَالٍ", "category": 0 },
+        { "ar": "عَشْرُ نِسَاءٍ", "category": 1 }
+      ],
+      "instruction": "Le nom compté est-il masculin ou féminin ? (le nombre est de genre contraire)",
+      "explain": "Le nombre avec {ar|ة} va avec un nom masculin ; sans {ar|ة}, avec un nom féminin."
+    },
+    {
+      "id": "medine-t1.r02.revue-5#5",
+      "type": "fill_gap",
+      "sentence": "فِي الْفَصْلِ {0} طُلَّابٍ.",
+      "fr": "Dans la classe, il y a trois étudiants.",
+      "gaps": [ { "answers": ["ثَلَاثَةُ"] } ],
+      "options": ["ثَلَاثَةُ", "ثَلَاثُ", "اِثْنَانِ"],
+      "explain": "{ar|طَالِبٌ} est masculin : le nombre prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.r02.revue-5#6",
+      "type": "fill_gap",
+      "sentence": "لِي {0} أَخَوَاتٍ.",
+      "fr": "J'ai trois sœurs.",
+      "gaps": [ { "answers": ["ثَلَاثُ"] } ],
+      "options": ["ثَلَاثُ", "ثَلَاثَةُ", "خَمْسُ"],
+      "explain": "{ar|أُخْتٌ} est féminin : le nombre perd le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.r02.revue-5#7",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi dit-on {ar|ثَلَاثَةُ حَمَّامَاتٍ} et non {ar|ثَلَاثُ حَمَّامَاتٍ} ?" },
+      "choices": [
+        { "fr": "Parce que le singulier {ar|حَمَّامٌ} est masculin" },
+        { "fr": "Parce qu'un pluriel en {ar|◌َاتٌ} est toujours féminin" },
+        { "fr": "Parce que le nombre est du même genre que le nom" }
+      ],
+      "answer": 0,
+      "explain": "On regarde le singulier : {ar|حَمَّامٌ} est masculin, donc le nombre prend le {ar|ة}. Un pluriel en {ar|◌َاتٌ} n'est pas toujours féminin."
+    },
+    {
+      "id": "medine-t1.r02.revue-5#8",
+      "type": "true_false",
+      "statement": { "fr": "Après un nombre de 3 à 10, le nom compté est au singulier." },
+      "answer": false,
+      "explain": "Il est au **pluriel**, et au génitif : {ar|ثَلَاثَةُ كُتُبٍ}."
+    },
+    {
+      "id": "medine-t1.r02.revue-5#9",
+      "type": "order",
+      "fr": "J'ai trois livres.",
+      "answers": [["لِي", "ثَلَاثَةُ", "كُتُبٍ"], ["ثَلَاثَةُ", "كُتُبٍ", "لِي"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.r02.revue-5#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "trois étudiantes",
+      "answers": ["ثَلَاثُ طَالِبَاتٍ"]
+    },
+    {
+      "id": "medine-t1.r02.revue-5#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Combien de livres as-tu ?",
+      "answers": ["كَمْ كِتَابًا عِنْدَكَ؟"]
+    }
+  ]
+}

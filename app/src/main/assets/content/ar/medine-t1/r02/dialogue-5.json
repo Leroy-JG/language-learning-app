@@ -1,0 +1,195 @@
+{
+  "id": "medine-t1.r02.dialogue-5",
+  "type": "dialogue",
+  "title": "Une journée dans la vie de Zayd",
+  "icon": "sun",
+  "screens": [
+    {
+      "id": "medine-t1.r02.dialogue-5#1",
+      "type": "dialogue",
+      "title": "Une journée dans la vie de Zayd",
+      "intro": "Un texte qui décrit ce que Zayd fait chaque jour, de la nuit jusqu'à l'école.",
+      "speakers": { "A": { "name": "Le narrateur", "voice": "m1" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "زَيْدٌ يَنَامُ كُلَّ لَيْلَةٍ مُبَكِّرًا.",
+          "fr": "Zayd se couche tôt chaque nuit."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَيَسْتَيْقِظُ قَبْلَ أَذَانِ صَلَاةِ الْفَجْرِ فَيَتَوَضَّأُ.",
+          "fr": "Il se réveille avant l'appel à la prière de l'aube, puis il fait ses ablutions."
+        },
+        {
+          "speaker": "A",
+          "ar": "ثُمَّ يَذْهَبُ إِلَى الْمَسْجِدِ فَيُصَلِّي مَعَ الْجَمَاعَةِ.",
+          "fr": "Puis il va à la mosquée et prie en groupe."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَبَعْدَ الصَّلَاةِ يَجْلِسُ يَذْكُرُ اللَّهَ وَيَتْلُو الْقُرْآنَ حَتَّى تَطْلُعَ الشَّمْسُ فَيُصَلِّي صَلَاةَ الضُّحَى.",
+          "fr": "Après la prière, il s'assoit, mentionne Allah (fait le dhikr) et récite le Coran jusqu'à ce que le soleil se lève, puis il fait la prière de la matinée."
+        },
+        {
+          "speaker": "A",
+          "ar": "ثُمَّ يَرْجِعُ إِلَى بَيْتِهِ لِيَتَنَاوَلَ الْغَدَاءَ.",
+          "fr": "Puis il rentre chez lui pour prendre son repas."
+        },
+        {
+          "speaker": "A",
+          "ar": "ثُمَّ يُنَظِّفُ غُرْفَتَهُ وَيَسْتَعِدُّ لِلذَّهَابِ إِلَى الْمَدْرَسَةِ.",
+          "fr": "Puis il nettoie sa chambre et se prépare pour aller à l'école."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.dialogue-5#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le texte décrit ce que Zayd fait **chaque jour** : les verbes sont au présent. Le {ar|ي} au début veut dire « il »."
+        },
+        {
+          "type": "table",
+          "header": ["Passé", "Présent dans le texte"],
+          "rows": [
+            ["{ar|نَامَ} (il a dormi)", "{ar|يَنَامُ}"],
+            ["{ar|اِسْتَيْقَظَ} (il s'est réveillé)", "{ar|يَسْتَيْقِظُ}"],
+            ["{ar|تَوَضَّأَ} (il a fait ses ablutions)", "{ar|يَتَوَضَّأُ}"],
+            ["{ar|ذَهَبَ} (il est allé)", "{ar|يَذْهَبُ}"],
+            ["{ar|صَلَّى} (il a prié)", "{ar|يُصَلِّي}"],
+            ["{ar|جَلَسَ} (il s'est assis)", "{ar|يَجْلِسُ}"],
+            ["{ar|ذَكَرَ} (il a mentionné)", "{ar|يَذْكُرُ}"],
+            ["{ar|تَلَا} (il a récité)", "{ar|يَتْلُو}"],
+            ["{ar|رَجَعَ} (il est revenu)", "{ar|يَرْجِعُ}"],
+            ["{ar|نَظَّفَ} (il a nettoyé)", "{ar|يُنَظِّفُ}"],
+            ["{ar|اِسْتَعَدَّ} (il s'est préparé)", "{ar|يَسْتَعِدُّ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|تَطْلُعُ} est le présent de {ar|طَلَعَ} : il commence par {ar|تَ} (« elle ») parce que {ar|الشَّمْسُ} est un nom féminin. Avec {ar|حَتَّى}, la fin change ({ar|تَطْلُعَ}) : tu l'étudieras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.dialogue-5#3",
+      "type": "tip",
+      "title": "D'autres petites formes",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Explication"],
+          "rows": [
+            [
+              "{ar|كُلَّ لَيْلَةٍ}",
+              "chaque nuit",
+              "{ar|كُلُّ} + nom indéfini singulier (chapitre 19) ; la fatha dit « quand »"
+            ],
+            ["{ar|حَتَّى}", "jusqu'à ce que", "un mot-outil, à étudier plus tard"],
+            ["{ar|لِيَتَنَاوَلَ}", "pour prendre", "{ar|لِ} devant un verbe : « pour… »"],
+            [
+              "{ar|لِلذَّهَابِ}",
+              "pour aller",
+              "{ar|لِ} + {ar|الذَّهَابُ}, le nom d'action de {ar|ذَهَبَ} (chapitre 4)"
+            ],
+            ["{ar|الْغَدَاءَ}", "le repas", "{ar|غَدَاءٌ} : le repas du matin ou de midi, selon les pays"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les formes nouvelles de ce tableau ne sont exigées dans aucun exercice : tu les étudieras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.dialogue-5#4",
+      "type": "question",
+      "prompt": { "fr": "Quand Zayd se couche-t-il ?" },
+      "choices": [ { "fr": "Tôt, chaque nuit" }, { "fr": "Tard, chaque nuit" }, { "fr": "Après la prière de l'aube" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r02.dialogue-5#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-5#5",
+      "type": "question",
+      "prompt": { "fr": "Que fait Zayd avant d'aller à la mosquée ?" },
+      "choices": [ { "fr": "Il fait ses ablutions" }, { "fr": "Il prend son repas" }, { "fr": "Il nettoie sa chambre" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r02.dialogue-5#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-5#6",
+      "type": "true_false",
+      "statement": { "fr": "Zayd prie la prière de l'aube seul, à la maison." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.r02.dialogue-5#1" },
+      "explain": "Il va à la mosquée et prie {ar|مَعَ الْجَمَاعَةِ}, en groupe."
+    },
+    {
+      "id": "medine-t1.r02.dialogue-5#7",
+      "type": "question",
+      "prompt": { "fr": "Que fait Zayd entre la prière de l'aube et la prière de la matinée ?" },
+      "choices": [ { "fr": "Il mentionne Allah et récite le Coran" }, { "fr": "Il dort" }, { "fr": "Il va à l'école" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r02.dialogue-5#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-5#8",
+      "type": "sort",
+      "categories": [ { "fr": "avant" }, { "fr": "après" } ],
+      "cards": [
+        { "fr": "il fait ses ablutions", "category": 0 },
+        { "fr": "il prie en groupe", "category": 0 },
+        { "fr": "il récite le Coran", "category": 0 },
+        { "fr": "il prie la prière de la matinée", "category": 1 },
+        { "fr": "il prend son repas", "category": 1 },
+        { "fr": "il nettoie sa chambre", "category": 1 }
+      ],
+      "instruction": "D'après le texte, est-ce avant ou après le lever du soleil ?"
+    },
+    {
+      "id": "medine-t1.r02.dialogue-5#9",
+      "type": "true_false",
+      "statement": { "fr": "Zayd nettoie sa chambre avant de prendre son repas." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.r02.dialogue-5#1" },
+      "explain": "Il rentre d'abord prendre son repas ; ensuite seulement il nettoie sa chambre."
+    },
+    {
+      "id": "medine-t1.r02.dialogue-5#10",
+      "type": "fill_gap",
+      "sentence": "يَنَامُ زَيْدٌ كُلَّ {0} مُبَكِّرًا.",
+      "fr": "Zayd se couche tôt chaque nuit.",
+      "gaps": [ { "answers": ["لَيْلَةٍ"] } ],
+      "options": ["لَيْلَةٍ", "حَيَاةٍ", "صَلَاةٍ"],
+      "context": { "dialogue": "medine-t1.r02.dialogue-5#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-5#11",
+      "type": "fill_gap",
+      "sentence": "{0} أَذَانِ صَلَاةِ الْفَجْرِ.",
+      "fr": "Avant l'appel à la prière de l'aube.",
+      "gaps": [ { "answers": ["قَبْلَ"] } ],
+      "options": ["قَبْلَ", "بَعْدَ", "أَمَامَ"],
+      "context": { "dialogue": "medine-t1.r02.dialogue-5#1" },
+      "explain": "Zayd se réveille avant l'appel : {ar|قَبْلَ}, premier terme d'une annexion."
+    },
+    {
+      "id": "medine-t1.r02.dialogue-5#12",
+      "type": "order",
+      "fr": "Avant l'appel à la prière de l'aube.",
+      "answers": [["قَبْلَ", "أَذَانِ", "صَلَاةِ", "الْفَجْرِ"]]
+    },
+    {
+      "id": "medine-t1.r02.dialogue-5#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Avant l'appel à la prière de l'aube.",
+      "answers": ["قَبْلَ أَذَانِ صَلَاةِ الْفَجْرِ."]
+    }
+  ]
+}

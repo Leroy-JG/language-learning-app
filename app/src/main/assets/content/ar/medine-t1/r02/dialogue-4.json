@@ -1,0 +1,198 @@
+{
+  "id": "medine-t1.r02.dialogue-4",
+  "type": "dialogue",
+  "title": "Zayd à l'école (2)",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t1.r02.dialogue-4#1",
+      "type": "dialogue",
+      "title": "En classe avec le professeur",
+      "intro": "Le professeur parle avec Zayd et Muḥammad, puis ils parlent de l'examen de demain.",
+      "speakers": {
+        "T": { "name": "Le professeur", "voice": "m1" },
+        "Z": { "name": "Zayd", "voice": "m2" },
+        "M": { "name": "Muḥammad", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "T",
+          "ar": "كَيْفَ أَنْتَ يَا زَيْدُ؟ اِجْلِسْ مَعَ الطُّلَّابِ.",
+          "fr": "Comment vas-tu, Zayd ? Assieds-toi avec les étudiants."
+        },
+        { "speaker": "Z", "ar": "أَيْنَ يَاسِرٌ يَا أُسْتَاذُ؟", "fr": "Où est Yāsir, professeur ?" },
+        {
+          "speaker": "T",
+          "ar": "هُوَ مَرِيضٌ الْيَوْمَ. مَنْ كَتَبَ تَمَارِينَهُ؟",
+          "fr": "Il est malade aujourd'hui. Qui a écrit ses exercices ?"
+        },
+        { "speaker": "M", "ar": "أَنَا يَا أُسْتَاذُ.", "fr": "Moi, professeur." },
+        { "speaker": "T", "ar": "وَمَا كَتَبْتَ مِنْهَا؟", "fr": "Et qu'en as-tu écrit ?" },
+        { "speaker": "M", "ar": "كَتَبْتُ كُلَّهَا.", "fr": "Je les ai tous écrits." },
+        { "speaker": "T", "ar": "حَسَنًا، هَاتِ دَفْتَرَكَ.", "fr": "D'accord, donne ton cahier." },
+        { "speaker": "Z", "ar": "مَتَى الِاخْتِبَارُ يَا أُسْتَاذُ؟", "fr": "Quand est l'examen, professeur ?" },
+        { "speaker": "T", "ar": "غَدًا إِنْ شَاءَ اللَّهُ.", "fr": "Demain, si Allah le veut." },
+        {
+          "speaker": "Z",
+          "ar": "أَيُّ دَرْسٍ مَوْضُوعُ الِاخْتِبَارِ؟ وَكَمْ سُؤَالًا فِيهِ؟",
+          "fr": "Quelle leçon est le sujet de l'examen ? Et combien de questions y a-t-il dedans ?"
+        },
+        {
+          "speaker": "T",
+          "ar": "فِيهِ عَشَرَةُ أَسْئِلَةٍ وَمَوْضُوعُهُ النَّحْوُ.",
+          "fr": "Il y a dix questions et son sujet est la grammaire."
+        },
+        {
+          "speaker": "Z",
+          "ar": "مَا رَأْيُكُمْ فِي مُرَاجَعَةٍ الْيَوْمَ يَا أُسْتَاذُ؟",
+          "fr": "Que pensez-vous d'une révision aujourd'hui, professeur ?"
+        },
+        { "speaker": "T", "ar": "حَسَنًا، اِفْتَحُوا دَفَاتِرَكُمْ.", "fr": "D'accord, ouvrez vos cahiers." }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.dialogue-4#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Dans le dialogue", "Sens", "Explication"],
+          "rows": [
+            ["{ar|اِجْلِسْ}", "assieds-toi", "l'impératif de {ar|جَلَسَ} (chapitre 8)"],
+            [
+              "{ar|كَتَبَ تَمَارِينَهُ}",
+              "il a écrit ses exercices",
+              "{ar|تَمَارِينُ} est à l'accusatif : c'est ce qu'on écrit ; {ar|هُ} veut dire « ses »"
+            ],
+            [
+              "{ar|كَتَبْتَ}, {ar|كَتَبْتُ}",
+              "tu as écrit, j'ai écrit",
+              "le {ar|تَ} final veut dire « tu » ; le {ar|تُ} final veut dire « je »"
+            ],
+            [
+              "{ar|كُلَّهَا}, {ar|مِنْهَا}",
+              "tous, d'entre eux",
+              "{ar|هَا} reprend {ar|تَمَارِينُ} : plusieurs choses sont reprises par {ar|هَا}"
+            ],
+            ["{ar|هَاتِ}", "donne !", "chapitre 23"],
+            [
+              "{ar|رَأْيُكُمْ}",
+              "votre avis",
+              "{ar|رَأْيٌ} : une opinion ; le {ar|كُمْ} (« vous ») est ici un « vous » de politesse, adressé à un seul professeur"
+            ],
+            [
+              "{ar|عَشَرَةُ أَسْئِلَةٍ}",
+              "dix questions",
+              "{ar|سُؤَالٌ} est masculin : le nombre garde le {ar|ة} (chapitre 19)"
+            ],
+            ["{ar|اِفْتَحُوا}", "ouvrez", "l'impératif pluriel du verbe {ar|فَتَحَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les formes nouvelles de ce tableau ne sont exigées dans aucun exercice : tu les étudieras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.dialogue-4#3",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi Yāsir n'est-il pas là ?" },
+      "choices": [ { "fr": "Il est malade" }, { "fr": "Il est en retard" }, { "fr": "Il est parti en Égypte" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r02.dialogue-4#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-4#4",
+      "type": "question",
+      "prompt": { "fr": "Qui a écrit les exercices de Yāsir ?" },
+      "choices": [ { "fr": "Muḥammad" }, { "fr": "Zayd" }, { "fr": "Le professeur" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r02.dialogue-4#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-4#5",
+      "type": "true_false",
+      "statement": { "fr": "Muḥammad a écrit tous les exercices de Yāsir." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.r02.dialogue-4#1" },
+      "explain": "{ar|كَتَبْتُ كُلَّهَا} : « je les ai tous écrits »."
+    },
+    {
+      "id": "medine-t1.r02.dialogue-4#6",
+      "type": "true_false",
+      "statement": { "fr": "Le sujet de l'examen est la grammaire." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.r02.dialogue-4#1" },
+      "explain": "{ar|مَوْضُوعُهُ النَّحْوُ} : « son sujet est la grammaire »."
+    },
+    {
+      "id": "medine-t1.r02.dialogue-4#7",
+      "type": "question",
+      "prompt": { "fr": "Quand est l'examen ?" },
+      "choices": [ { "fr": "Demain" }, { "fr": "Aujourd'hui" }, { "fr": "Dans une semaine" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r02.dialogue-4#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-4#8",
+      "type": "question",
+      "prompt": { "fr": "Combien de questions y a-t-il dans l'examen ?" },
+      "choices": [ { "fr": "Dix" }, { "fr": "Trois" }, { "fr": "Sept" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r02.dialogue-4#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-4#9",
+      "type": "true_false",
+      "statement": { "fr": "Le professeur refuse de faire une révision aujourd'hui." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.r02.dialogue-4#1" },
+      "explain": "Il répond {ar|حَسَنًا} (« d'accord ») et demande d'ouvrir les cahiers."
+    },
+    {
+      "id": "medine-t1.r02.dialogue-4#10",
+      "type": "fill_gap",
+      "sentence": "{0} الِاخْتِبَارُ؟ غَدًا إِنْ شَاءَ اللَّهُ.",
+      "fr": "Quand est l'examen ? Demain, si Allah le veut.",
+      "gaps": [ { "answers": ["مَتَى"] } ],
+      "options": ["مَتَى", "أَيْنَ", "كَمْ"],
+      "context": { "dialogue": "medine-t1.r02.dialogue-4#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-4#11",
+      "type": "fill_gap",
+      "sentence": "فِيهِ {0} أَسْئِلَةٍ.",
+      "fr": "Il y a dix questions dedans.",
+      "gaps": [ { "answers": ["عَشَرَةُ"] } ],
+      "options": ["عَشَرَةُ", "عَشْرُ", "ثَلَاثُ"],
+      "context": { "dialogue": "medine-t1.r02.dialogue-4#1" },
+      "explain": "{ar|سُؤَالٌ} est masculin : le nombre garde le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.r02.dialogue-4#12",
+      "type": "order",
+      "fr": "Où est Yāsir, professeur ?",
+      "answers": [["أَيْنَ", "يَاسِرٌ", "يَا", "أُسْتَاذُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.r02.dialogue-4#13",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَتَى الِاخْتِبَارُ؟",
+      "answers": ["غَدًا إِنْ شَاءَ اللَّهُ.", "غَدًا.", "الِاخْتِبَارُ غَدًا."],
+      "fr": "Demain, si Allah le veut.",
+      "instruction": "Réponds : demain.",
+      "context": { "dialogue": "medine-t1.r02.dialogue-4#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-4#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Son sujet est la grammaire.",
+      "answers": ["مَوْضُوعُهُ النَّحْوُ."]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "medine-t1.r02.vocab-6",
+  "type": "vocabulary",
+  "title": "Louer, prêcher, invoquer, se disperser",
+  "icon": "mosque",
+  "screens": [
+    { "id": "medine-t1.r02.vocab-6#1", "type": "present", "item": "w:hamida" },
+    { "id": "medine-t1.r02.vocab-6#2", "type": "present", "item": "w:khataba" },
+    {
+      "id": "medine-t1.r02.vocab-6#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:khataba",
+      "distractors": ["w:kataba", "w:qala"]
+    },
+    { "id": "medine-t1.r02.vocab-6#4", "type": "present", "item": "w:daa" },
+    { "id": "medine-t1.r02.vocab-6#5", "type": "present", "item": "w:intashara" },
+    {
+      "id": "medine-t1.r02.vocab-6#6",
+      "type": "tip",
+      "title": "Les quatre formes d'un verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne chaque verbe sous **quatre formes** : le passé (« il a… »), le présent, l'impératif et le nom d'action. Tu connais déjà le passé : les trois autres sont un simple aperçu, rien n'est exigé."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["louer", "{ar|حَمِدَ}", "{ar|يَحْمَدُ}", "{ar|اِحْمَدْ}", "{ar|حَمْدٌ}"],
+            ["prêcher", "{ar|خَطَبَ}", "{ar|يَخْطُبُ}", "{ar|اُخْطُبْ}", "{ar|خُطْبَةٌ}"],
+            ["invoquer", "{ar|دَعَا}", "{ar|يَدْعُو}", "{ar|اُدْعُ}", "{ar|دُعَاءٌ}"],
+            ["se disperser", "{ar|اِنْتَشَرَ}", "{ar|يَنْتَشِرُ}", "{ar|اِنْتَشِرْ}", "{ar|اِنْتِشَارٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "À l'impératif, le premier alif est un alif de liaison : il prend une damma quand l'avant-dernière lettre du présent porte une damma ({ar|يَخْطُبُ} → {ar|اُخْطُبْ}), et une kasra sinon ({ar|يَحْمَدُ} → {ar|اِحْمَدْ}). Pour {ar|خَطَبَ}, le professeur donne {ar|خُطْبَةٌ} (le discours prononcé) comme nom d'action ; on dit aussi {ar|خَطَابَةٌ} (l'art de prêcher)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.vocab-6#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:hamida", "w:khataba", "w:daa", "w:intashara", "w:radda"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-6#8",
+      "type": "fill_gap",
+      "sentence": "{0} الْخَطِيبُ خُطْبَةً.",
+      "fr": "Le prédicateur a prononcé un sermon.",
+      "gaps": [ { "answers": ["خَطَبَ"] } ],
+      "options": ["خَطَبَ", "حَمِدَ", "دَعَا"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-6#9",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ اللَّهَ.",
+      "fr": "Zayd a loué Allah.",
+      "gaps": [ { "answers": ["حَمِدَ"] } ],
+      "options": ["حَمِدَ", "خَطَبَ", "اِنْتَشَرَ"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-6#10",
+      "type": "question",
+      "prompt": { "fr": "Quel mot a la même racine que {ar|حَمِدَ} ?" },
+      "choices": [ { "ar": "الْحَمْدُ" }, { "ar": "الْمَسْجِدُ" }, { "ar": "الْقِبْلَةُ" } ],
+      "answer": 0,
+      "explain": "{ar|الْحَمْدُ} (« la louange ») : {ar|الْحَمْدُ لِلَّهِ}. On retrouve aussi cette racine dans {ar|مُحَمَّدٌ} et {ar|أَحْمَدُ}."
+    },
+    {
+      "id": "medine-t1.r02.vocab-6#11",
+      "type": "true_false",
+      "statement": { "fr": "{ar|دُعَاءٌ} est le nom d'action de {ar|دَعَا} : c'est une invocation." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.r02.vocab-6#12",
+      "type": "order",
+      "fr": "Les personnes présentes se sont dispersées.",
+      "answers": [["اِنْتَشَرَ", "الْحَاضِرُونَ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.r02.vocab-6#13", "type": "build", "item": "w:intashara", "extra": ["س"] },
+    { "id": "medine-t1.r02.vocab-6#14", "type": "typing", "ask": "fr", "item": "w:hamida" },
+    {
+      "id": "medine-t1.r02.vocab-6#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd a fait une invocation pour les musulmans.",
+      "answers": ["دَعَا زَيْدٌ لِلْمُسْلِمِينَ."]
+    }
+  ]
+}

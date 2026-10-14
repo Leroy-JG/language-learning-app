@@ -1,0 +1,92 @@
+{
+  "id": "medine-t1.r02.vocab-9",
+  "type": "vocabulary",
+  "title": "Tôt, la matinée, la vie, la nuit",
+  "icon": "moon",
+  "screens": [
+    { "id": "medine-t1.r02.vocab-9#1", "type": "present", "item": "w:mubakkiran" },
+    { "id": "medine-t1.r02.vocab-9#2", "type": "present", "item": "w:duha" },
+    {
+      "id": "medine-t1.r02.vocab-9#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mubakkiran",
+      "distractors": ["w:jiddan", "w:aydan"]
+    },
+    { "id": "medine-t1.r02.vocab-9#4", "type": "present", "item": "w:hayat" },
+    { "id": "medine-t1.r02.vocab-9#5", "type": "present", "item": "w:layla" },
+    { "id": "medine-t1.r02.vocab-9#6", "type": "present", "item": "w:adhan" },
+    {
+      "id": "medine-t1.r02.vocab-9#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:mubakkiran", "w:duha", "w:hayat", "w:layla", "w:adhan"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-9#8",
+      "type": "tip",
+      "title": "Chaque nuit",
+      "blocks": [
+        { "type": "example", "ar": "كُلَّ لَيْلَةٍ", "fr": "chaque nuit" },
+        {
+          "type": "paragraph",
+          "text": "{ar|كُلُّ} suivi d'un nom indéfini au singulier veut dire « chaque » (chapitre 19). Ici {ar|كُلَّ} prend la fatha : l'expression dit **quand**, comme {ar|الْيَوْمَ}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Comme {ar|كُلَّ لَيْلَةٍ}, tu pourras dire {ar|كُلَّ يَوْمٍ} (« chaque jour »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.vocab-9#9",
+      "type": "fill_gap",
+      "sentence": "رَجَعَ زَيْدٌ مِنَ الْمَدْرَسَةِ {0}.",
+      "fr": "Zayd est revenu de l'école tôt.",
+      "gaps": [ { "answers": ["مُبَكِّرًا"] } ],
+      "options": ["مُبَكِّرًا", "جِدًّا", "أَيْضًا"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-9#10",
+      "type": "fill_gap",
+      "sentence": "{0} الْفَجْرِ قَبْلَ الصَّلَاةِ.",
+      "fr": "L'appel à la prière de l'aube est avant la prière.",
+      "gaps": [ { "answers": ["أَذَانُ"] } ],
+      "options": ["أَذَانُ", "حَيَاةُ", "لَيْلَةُ"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-9#11",
+      "type": "question",
+      "prompt": { "fr": "Quand prie-t-on {ar|صَلَاةُ الضُّحَى} ?" },
+      "choices": [
+        { "fr": "Dans la matinée, après le lever du soleil" },
+        { "fr": "À l'aube, avant le lever du soleil" },
+        { "fr": "Le soir, après le coucher du soleil" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.r02.vocab-9#12",
+      "type": "true_false",
+      "statement": { "fr": "{ar|كُلَّ لَيْلَةٍ} veut dire « chaque nuit »." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.r02.vocab-9#13",
+      "type": "order",
+      "fr": "La vie est belle.",
+      "answers": [["الْحَيَاةُ", "جَمِيلَةٌ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.r02.vocab-9#14", "type": "build", "item": "w:layla", "extra": ["ن"] },
+    { "id": "medine-t1.r02.vocab-9#15", "type": "typing", "ask": "fr", "fr": "tôt", "answers": ["مُبَكِّرًا"] },
+    {
+      "id": "medine-t1.r02.vocab-9#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd est revenu de l'école tôt.",
+      "answers": ["رَجَعَ زَيْدٌ مِنَ الْمَدْرَسَةِ مُبَكِّرًا."]
+    }
+  ]
+}

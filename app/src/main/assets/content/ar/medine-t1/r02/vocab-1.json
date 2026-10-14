@@ -1,0 +1,111 @@
+{
+  "id": "medine-t1.r02.vocab-1",
+  "type": "vocabulary",
+  "title": "À la mosquée : le rang et le sermon",
+  "icon": "mosque",
+  "screens": [
+    { "id": "medine-t1.r02.vocab-1#1", "type": "present", "item": "w:jamaa" },
+    { "id": "medine-t1.r02.vocab-1#2", "type": "present", "item": "w:saff" },
+    {
+      "id": "medine-t1.r02.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:jamaa",
+      "distractors": ["w:masjid", "w:fasl"]
+    },
+    { "id": "medine-t1.r02.vocab-1#4", "type": "present", "item": "w:awwal" },
+    {
+      "id": "medine-t1.r02.vocab-1#5",
+      "type": "tip",
+      "title": "Le premier rang",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|أَوَّلُ} (« premier ») suit le nom comme un adjectif et s'accorde avec lui. Il n'a pas de tanwin : c'est la forme {ar|أَفْعَلُ} que tu connais depuis le chapitre 22."
+        },
+        {
+          "type": "breakdown",
+          "ar": "الصَّفُّ الْأَوَّلُ",
+          "fr": "le premier rang",
+          "parts": [ { "ar": "الصَّفُّ", "fr": "le rang" }, { "ar": "الْأَوَّلُ", "fr": "le premier" } ]
+        },
+        { "type": "note", "tone": "info", "text": "Au féminin, on dit {ar|أُولَى} : {ar|الْمَرْأَةُ الْأُولَى}." }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.vocab-1#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:awwal",
+      "distractors": ["w:wahid", "w:jadid"]
+    },
+    { "id": "medine-t1.r02.vocab-1#7", "type": "present", "item": "w:tahiyya" },
+    { "id": "medine-t1.r02.vocab-1#8", "type": "present", "item": "w:khutba" },
+    {
+      "id": "medine-t1.r02.vocab-1#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:jamaa", "w:saff", "w:awwal", "w:tahiyya", "w:khutba"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-1#10",
+      "type": "tip",
+      "title": "Quatre groupes de mots de la mosquée",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["En arabe", "Sens"],
+          "rows": [
+            ["{ar|صَلَاةُ الْجَمَاعَةِ}", "la prière en groupe"],
+            ["{ar|الصَّفُّ الْأَوَّلُ}", "le premier rang (nom + adjectif)"],
+            ["{ar|تَحِيَّةُ الْمَسْجِدِ}", "les deux rakʿas que l'on prie en entrant dans la mosquée"],
+            ["{ar|خُطْبَةُ الْجُمُعَةِ}", "le sermon du vendredi"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Trois de ces groupes sont des annexions : le premier terme n'a ni article ni tanwin, le second est au génitif (chapitre 5). {ar|الصَّفُّ الْأَوَّلُ} est un nom suivi de son adjectif : les deux mots ont l'article."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.vocab-1#11",
+      "type": "fill_gap",
+      "sentence": "{0} الْأَوَّلُ طَوِيلٌ.",
+      "fr": "Le premier rang est long.",
+      "gaps": [ { "answers": ["الصَّفُّ"] } ],
+      "options": ["الصَّفُّ", "الْجَمَاعَةُ", "الْخُطْبَةُ"],
+      "explain": "{ar|الصَّفُّ الْأَوَّلُ} : le premier rang. {ar|أَوَّلُ} est masculin et s'accorde avec {ar|الصَّفُّ} ; les autres choix sont des noms féminins."
+    },
+    {
+      "id": "medine-t1.r02.vocab-1#12",
+      "type": "question",
+      "prompt": { "fr": "Quel jour le prédicateur prononce-t-il deux sermons avant la prière collective ?" },
+      "choices": [ { "fr": "Le vendredi" }, { "fr": "Le lundi" }, { "fr": "Le samedi" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.r02.vocab-1#13",
+      "type": "true_false",
+      "statement": { "fr": "{ar|تَحِيَّةُ الْمَسْجِدِ} est une prière que l'on fait en entrant dans la mosquée." },
+      "answer": true,
+      "explain": "Ce sont deux rakʿas, que l'on prie en entrant dans la mosquée, avant de s'asseoir."
+    },
+    {
+      "id": "medine-t1.r02.vocab-1#14",
+      "type": "order",
+      "fr": "Le sermon a lieu le vendredi.",
+      "answers": [["الْخُطْبَةُ", "فِي", "يَوْمِ", "الْجُمُعَةِ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.r02.vocab-1#15", "type": "build", "item": "w:jamaa", "extra": ["غ"] },
+    {
+      "id": "medine-t1.r02.vocab-1#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le premier rang est long.",
+      "answers": ["الصَّفُّ الْأَوَّلُ طَوِيلٌ."]
+    }
+  ]
+}

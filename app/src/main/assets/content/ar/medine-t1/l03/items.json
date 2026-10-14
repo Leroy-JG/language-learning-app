@@ -114,6 +114,7 @@
     "plural": "أَغْدِيَةٌ",
     "icon": "meal",
     "gender": "m",
+    "note": "Selon les pays et les époques, {ar|غَدَاءٌ} désigne le repas du matin (le petit déjeuner) ou celui de midi.",
     "example": { "ar": "الْغَدَاءُ قَبْلَ الظُّهْرِ.", "fr": "Le déjeuner est avant midi." }
   },
   {

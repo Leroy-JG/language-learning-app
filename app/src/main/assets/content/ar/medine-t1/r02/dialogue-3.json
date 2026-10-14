@@ -1,0 +1,151 @@
+{
+  "id": "medine-t1.r02.dialogue-3",
+  "type": "dialogue",
+  "title": "Zayd à l'école (1)",
+  "icon": "school",
+  "screens": [
+    {
+      "id": "medine-t1.r02.dialogue-3#1",
+      "type": "dialogue",
+      "title": "Zayd dans l'école",
+      "intro": "Un jour, Zayd traverse l'école et montre d'où viennent les étudiants qu'il croise.",
+      "speakers": { "A": { "name": "Le narrateur", "voice": "m1" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "دَخَلَ زَيْدٌ الْمَدْرَسَةَ ذَاتَ يَوْمٍ فَمَشَى فِيهَا إِلَى فَصْلِهِ.",
+          "fr": "Un jour, Zayd est entré dans l'école et y a marché jusqu'à sa classe."
+        },
+        {
+          "speaker": "A",
+          "ar": "لَقِيَ فِي طَرِيقِهِ طَالِبَاتٍ فَقَالَ هَؤُلَاءِ مِنَ الْهِنْدِ.",
+          "fr": "Sur son chemin, il a rencontré des étudiantes et il a dit : celles-ci sont de l'Inde."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَطُلَّابًا فَقَالَ أُولَئِكَ مِنْ فَرَنْسَا.",
+          "fr": "Il a aussi rencontré des étudiants et il a dit : ceux-là sont de France."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَهُنَاكَ طَالِبَانِ فَقَالَ ذَانِكَ مِنْ مِصْرَ.",
+          "fr": "Là-bas, il y avait deux étudiants et il a dit : ces deux-là sont d'Égypte."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَهُنَا طَالِبَتَانِ فَقَالَ هَاتَانِ مِنَ الْيَمَنِ.",
+          "fr": "Ici, il y avait deux étudiantes et il a dit : ces deux-ci sont du Yémen."
+        },
+        {
+          "speaker": "A",
+          "ar": "ثُمَّ وَصَلَ فَصْلَهُ فَقَالَ هٰذَا فَصْلِي وَهٰذِهِ حَقِيبَتِي.",
+          "fr": "Puis il est arrivé à sa classe et il a dit : voici ma classe et voici mon sac."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.dialogue-3#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Explication"],
+          "rows": [
+            ["{ar|ذَاتَ يَوْمٍ}", "un jour", "une expression toute faite"],
+            ["{ar|فَمَشَى}", "puis il a marché", "{ar|فَ} : « alors, puis »"],
+            ["{ar|فِيهَا}", "dedans (dans l'école)", "{ar|فِي} + {ar|هَا}"],
+            [
+              "{ar|فَصْلِهِ}, {ar|طَرِيقِهِ}",
+              "sa classe, son chemin",
+              "un nom + {ar|هِ} : après {ar|إِلَى} et {ar|فِي}, le nom prend la kasra et le {ar|هُ} devient {ar|هِ}. Dans {ar|وَصَلَ فَصْلَهُ}, le nom a la fatha : le {ar|هُ} garde sa damma"
+            ],
+            [
+              "{ar|لَقِيَ طَالِبَاتٍ}, {ar|طُلَّابًا}",
+              "il a rencontré des étudiantes, des étudiants",
+              "ce qu'il rencontre est l'objet du verbe : à l'accusatif ({ar|طَالِبَاتٍ} : la kasra et le tanwin du pluriel féminin, voir le début du chapitre)"
+            ],
+            ["{ar|فَقَالَ}", "alors il a dit", "le verbe {ar|قَالَ} du chapitre 22"],
+            ["{ar|وَصَلَ فَصْلَهُ}", "il est arrivé à sa classe", "{ar|وَصَلَ} se construit ici sans préposition"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les formes nouvelles de ce tableau ne sont exigées dans aucun exercice : tu les étudieras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.dialogue-3#3",
+      "type": "question",
+      "prompt": { "fr": "D'où viennent les étudiantes que Zayd a rencontrées en chemin ?" },
+      "choices": [ { "fr": "De l'Inde" }, { "fr": "De la France" }, { "fr": "De l'Égypte" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r02.dialogue-3#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-3#4",
+      "type": "question",
+      "prompt": { "fr": "D'où viennent les deux étudiants qui sont là-bas ?" },
+      "choices": [ { "fr": "De l'Égypte" }, { "fr": "Du Yémen" }, { "fr": "De l'Inde" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.r02.dialogue-3#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-3#5",
+      "type": "sort",
+      "categories": [ { "fr": "l'Inde" }, { "fr": "la France" }, { "fr": "l'Égypte" } ],
+      "cards": [
+        { "ar": "هَؤُلَاءِ", "category": 0 },
+        { "ar": "أُولَئِكَ", "category": 1 },
+        { "ar": "ذَانِكَ", "category": 2 },
+        { "fr": "les étudiantes", "category": 0 },
+        { "fr": "les étudiants", "category": 1 },
+        { "fr": "les deux étudiants là-bas", "category": 2 }
+      ],
+      "instruction": "Associe chaque groupe à son pays, d'après le texte."
+    },
+    {
+      "id": "medine-t1.r02.dialogue-3#6",
+      "type": "true_false",
+      "statement": { "fr": "Les deux étudiantes du Yémen sont ici, et les deux étudiants d'Égypte sont là-bas." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.r02.dialogue-3#1" },
+      "explain": "{ar|هُنَا} (ici) : les deux étudiantes ; {ar|هُنَاكَ} (là-bas) : les deux étudiants."
+    },
+    {
+      "id": "medine-t1.r02.dialogue-3#7",
+      "type": "fill_gap",
+      "sentence": "{0} طَالِبَتَانِ مِنَ الْيَمَنِ.",
+      "fr": "Ces deux-ci (féminin) sont deux étudiantes du Yémen.",
+      "gaps": [ { "answers": ["هَاتَانِ"] } ],
+      "options": ["هَاتَانِ", "هَؤُلَاءِ", "ذَانِكَ"],
+      "context": { "dialogue": "medine-t1.r02.dialogue-3#1" },
+      "explain": "Un duel féminin proche : {ar|هَاتَانِ} (chapitre 18)."
+    },
+    {
+      "id": "medine-t1.r02.dialogue-3#8",
+      "type": "order",
+      "fr": "Voici ma classe et voici mon sac.",
+      "answers": [["هٰذَا", "فَصْلِي", "وَهٰذِهِ", "حَقِيبَتِي"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.r02.dialogue-3#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِنْ أَيْنَ هَاتَانِ الطَّالِبَتَانِ؟",
+      "answers": ["هُمَا مِنَ الْيَمَنِ.", "هَاتَانِ مِنَ الْيَمَنِ.", "مِنَ الْيَمَنِ."],
+      "fr": "Elles sont du Yémen.",
+      "instruction": "Réponds : elles sont du Yémen.",
+      "context": { "dialogue": "medine-t1.r02.dialogue-3#1" }
+    },
+    {
+      "id": "medine-t1.r02.dialogue-3#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Voici ma classe et voici mon sac.",
+      "answers": ["هٰذَا فَصْلِي وَهٰذِهِ حَقِيبَتِي."]
+    }
+  ]
+}

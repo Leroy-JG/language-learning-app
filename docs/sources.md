@@ -32,6 +32,11 @@ Supports utilisés pour le chapitre de révision 1 (`r01`) : trois PDF « Semain
 - partie 2 : noms définis (`الْمَعَارِفُ`), indéfini / défini et exercice du livre, prépositions et leurs types, `لِمَاذَا` / `لِأَنَّهُ`, deux dialogues de classe, vocabulaire et tableau des verbes ;
 - partie 3 : `الْإِعْرَابُ` (trois cas et où on les trouve), masculin et féminin, phrase nominale et verbale, verbe (trois formes), texte « la prière de l'aube », vocabulaire et tableau des verbes.
 
+Supports utilisés pour le chapitre de révision 2 (`r02`) : trois PDF « Semaine de révision 2 » (parties 1, 2 et 3) :
+- partie 1 : `الْإِعْرَابُ` (trois cas, marques de base et secondaires, schéma des noms), texte du livre « Zayd à la mosquée », tableaux de vocabulaire (mosquée) et de verbes (dix verbes à quatre formes) ;
+- partie 2 : `النَّكِرَةُ وَالْمَعْرِفَةُ` et les quatre sortes de noms définis, tableau des démonstratifs, texte « Zayd à l'école », schéma des noms interrogatifs, dialogue de classe, pronoms isolés et affixes (tableau avec `مِنْ فِي لِ عَلَى إِلَى`), vocabulaire nouveau ;
+- partie 3 : les nombres de 1 à 10 et les trois règles de 3 à 10, le pluriel (sain, brisé), le duel, texte « une journée dans la vie de Zayd », vocabulaire et tableau de sept verbes.
+
 Support utilisé pour la leçon 11 (`l11`) : `TOME1-11.pdf` (17 pages) : `الْمَبْنِيُّ وَالْمُعْرَبُ` (nom variable / invariable, schémas du `الْإِعْرَابُ` et du `الْمَبْنِيُّ`, exemples `هٰذَا زَيْدٌ`, `نَحْنُ طُلَّابٌ`, `هُمْ مُسْلِمُونَ`, `بَيْتُكَ جَمِيلٌ`), `الْمُضَافُ إِلَى يَاءِ الْمُتَكَلِّمِ` (le nom suivi de `◌ِي`), `هَاءُ الْغَائِبِ` (`ـهُ` → `ـهِ`), page du livre « بَيْتِي », exercices 1 et 2, vocabulaire nouveau (`أَحَبَّ`).
 
 Support utilisé pour la leçon 12 (`l12`) : `TOME1-12.pdf` (13 pages) : `أَسْمَاءُ الِاسْتِفْهَامِ` (schéma des quatre noms interrogatifs, `كَيْفَ`), `عَلَامَةُ التَّأْنِيثِ فِي الْفِعْلِ الْمَاضِي` (le `تْ` du féminin), page du livre (dialogue de Suʿād et d'une jeune fille, deux pages), exercices 1 à 5, vocabulaire nouveau.
@@ -164,6 +169,13 @@ Support utilisé pour la leçon 13 (`l13`) : `TOME1-13.pdf` (19 pages) : `أَس
 - 13 verbes (passé à la 3ᵉ personne du masculin singulier, avec leurs quatre formes dans une astuce) : `نَجَحَ فَشِلَ رَاجَعَ حَفِظَ رَفَعَ سَكَنَ` et `اِسْتَيْقَظَ قَامَ تَوَضَّأَ لَبِسَ لَقِيَ أَسْرَعَ تَأَخَّرَ` ;
 - seulement **aperçus** dans les dialogues, avec une astuce « Des petites formes à repérer » (rien n'est exigé en exercice ; l'adjectif épithète, lui, est enseigné au chapitre 9) : les suffixes `ـهُ ـهِ ـكَ ـي`, les formes `نَجَحْتَ`, `أَسْكُنُ`, `تَسْكُنُ`, `يَرْفَعُ`, `مَعَ`, `قَبْلَ`, `مَا` + passé (négation), le complément d'objet à la fatha (`عُنْوَانَ الدَّرْسِ`) ;
 - les pluriels : `أَسَابِيعُ أَمَاكِنُ عَنَاوِينُ صَنَابِيرُ أَصْدِقَاءُ`, `أَيَّامٌ دُرُوسٌ أَكْوَابٌ طُرُقٌ اِخْتِبَارَاتٌ صَلَوَاتٌ`, et ceux des adjectifs `كِبَارٌ صِغَارٌ حِزَانٌ فَرْحَى بِيضٌ`.
+
+**Révision 2** (`r02`, chapitre de révision placé après la leçon 23 ; libellé « Révision 2 », numéro 23 non contrôlé) :
+- un point de grammaire nouveau (`grammar-1`) : la marque de base du cas (`الْإِعْرَابُ الْأَصْلِيُّ` : damma, fatha, kasra) et les marques secondaires (`الْإِعْرَابُ الْفَرْعِيُّ` : `و`, `ا`, `ي`, la kasra du pluriel féminin, la fatha du génitif d'un nom sans tanwin) ;
+- six rappels sans nouvelle carte (`revue-1` à `revue-6`, type `review`) : défini / indéfini et quatre sortes de noms définis, démonstratifs (duel, pluriel, lieu), noms interrogatifs (`مَنْ مَا أَيْنَ كَيْفَ مَتَى كَمْ أَيُّ`), pronoms isolés et affixes avec les prépositions, nombres de 1 à 10 et règles de 3 à 10, singulier / duel / pluriel ;
+- éléments nouveaux (48, dont deux termes de grammaire) : mosquée (`جَمَاعَةٌ صَفٌّ أَوَّلُ تَحِيَّةٌ خُطْبَةٌ مِنْبَرٌ خَطِيبٌ مُصَلٍّ قَارِئٌ حَاضِرٌ خَفِيفٌ تَقْوَى`), verbes (`دَخَلَ صَلَّى سَلَّمَ وَجَدَ اِسْتَقْبَلَ حَضَرَ صَعِدَ قَعَدَ سَكَتَ حَمِدَ خَطَبَ دَعَا اِنْتَشَرَ`), école (`غَدًا إِنْ شَاءَ اللَّهُ تَمْرِينٌ مَوْضُوعٌ سُؤَالٌ نَحْوٌ مُرَاجَعَةٌ مِصْرُ الْيَمَنُ`), journée (`مُبَكِّرًا ضُحًى حَيَاةٌ لَيْلَةٌ أَذَانٌ`, verbes `نَامَ ذَكَرَ تَلَا طَلَعَ تَنَاوَلَ نَظَّفَ اِسْتَعَدَّ`) ; `إِمَامٌ` et `جَالِسٌ` (chapitres 2 et 3) sont réutilisés ;
+- les quatre formes (passé, présent, impératif, nom d'action) des verbes ne sont qu'un **aperçu** (tableaux), rien n'est exigé ; les présents de la « journée de Zayd », `حَتَّى`, `بِ`, le passif `أُقِيمَتْ`, `كَتَبْتُ` / `كَتَبْتَ`, `اِفْتَحُوا` ne sont qu'aperçus dans des astuces « Des petites formes à repérer » ;
+- cinq textes (`dialogue-1` à `dialogue-5`) : la mosquée (deux parties), l'école (récit et dialogue de classe), la journée de Zayd.
 
 **Leçon 10** (`l10`) : les pronoms (`الضَّمَائِرُ`) :
 - le pronom (`الضَّمِيرُ`) : un nom, toujours défini, à terminaison invariable ; pronoms isolés (`الْمُنْفَصِلُ`) et affixes (`الْمُتَّصِلُ`) ; les trois personnes (`الْمُتَكَلِّمُ`, `الْمُخَاطَبُ`, `الْغَائِبُ`) ;
@@ -962,6 +974,33 @@ Notes de choix dans un fichier à part : `docs/sources-lecon-17.md` (les chapitr
   - **corrections après relecture :** « avec l'article, ces noms prennent la kasra » (et non « tout nom » : duel, pluriel masculin sain, noms en `ى` / `ِي`) ; `أَخْضَرُ` décrit `لَوْنٌ` ; `مِنْ أَيْنَ أَنْتَ؟` : « D'où viens-tu ? » comme au chapitre 4 ; consignes des `spot` précisées (« villes », « prénom »).
 - **Pas encore enseigné (donc sans exercice) :** le verbe `كَانَ`, l'impératif négatif (`لَا تَكُنْ`), le complément d'objet, `أَنْ` + subjonctif, `الْخَمْرُ`, `حَلَالٌ` (cité dans la note de `حَرَامٌ`).
 - **À confirmer avec le professeur :** rien de nouveau.
+
+### Révision 2 (`r02`)
+
+- **Nature du chapitre :** les trois PDF « Semaine de révision 2 » rappellent presque tout le tome 1 et ajoutent du vocabulaire et trois textes. Le chapitre est placé après la leçon 23 (`level.json`), libellé « Révision 2 » (champ `label`, `number` 23 non contrôlé), et conclut le tome 1.
+- **Pas de doublon de cartes :** les six rappels sont de type `review`, sans écran `present`. Seuls les éléments nouveaux sont présentés. Contrôle fait par les lettres, pas seulement par l'id : `w:imam` (`إِمَامٌ`) existait déjà au chapitre 2 et n'est pas redéfini ; `جَالِسٌ` (chapitre 3) est réutilisé ; le PDF donne `غَدَاءٌ` « petit déjeuner / déjeuner » : la carte du chapitre 3 reçoit seulement une note (« le repas du matin ou celui de midi, selon les pays »).
+- **Une seule vraie notion nouvelle :** la marque de base et les marques secondaires du cas (`grammar-1`, deux nouveaux termes). Le reste des diapositives (cas, défini, démonstratifs, interrogatifs, pronoms, nombres, pluriel, duel) est déjà enseigné aux chapitres 4 à 23 et repris en rappels. L'objet du verbe à l'accusatif (déjà vu au chapitre 17) est rappelé en une phrase dans `grammar-1`.
+- **Textes repris :** mosquée → `dialogue-1` et `dialogue-2` ; école → `dialogue-3` (récit) et `dialogue-4` (dialogue de classe) ; journée → `dialogue-5`. Le PDF n'a presque pas de voyelles dans les textes : la vocalisation est celle de l'app (relue par trois relecteurs, comparée aux recadrages du PDF).
+- **Écarts avec le PDF :**
+  - `اُطْلُعْ` et `يَطْلُعُ` (le PDF écrit `اِطْلَعْ` et `يَطْلَعُ`) : le Lisān al-ʿArab donne `طَلَعَ يَطْلُعُ` ;
+  - `وُجُودٌ` dans le tableau de `وَجَدَ` (le PDF donne `وَجْدًا`, qui veut surtout dire « passion, chagrin ») : la note signale la forme du professeur et `وِجْدَانٌ` ;
+  - `خُطْبَةٌ` comme nom d'action de `خَطَبَ` (forme du PDF, gardée) avec `خَطَابَةٌ` en note ;
+  - `مَوْضُوعَاتٌ` (pluriel régulier) en pluriel de `مَوْضُوعٌ` ; le PDF donne `مَوَاضِيعُ`, très courant, cité en note ;
+  - `فَيُصَلِّي` (le PDF écrit `فَيُصَلِّى` avec ى) ; `أُحْضُرْ` / `أُسْكُتْ` / `أُذْكُرْ`… du PDF sont écrits `اُحْضُرْ`, `اُسْكُتْ`, `اُذْكُرْ`… (alif de liaison, comme au chapitre 17) ; les noms d'action sont cités au nominatif (le PDF les donne à l'accusatif) ;
+  - `نَظَّفَ` : le PDF dit « ranger » ; l'app dit « nettoyer » (sens propre : « rendre propre »), avec « ranger » en note ;
+  - `مَا رَأْيُكُمْ` dit à un seul professeur : « vous » de politesse, expliqué dans une astuce ;
+  - exemples du tableau de vocabulaire remplacés quand ils emploient des mots non enseignés : `صَلَاةُ الْجَمَاعَةِ وَاجِبَةٌ`, `مَا أَنَا بِقَارِئٍ`, `صَلَّى زَيْدٌ وَهُوَ جَالِسٌ`, `الصَّفُّ الْأَوَّلُ خَيْرٌ لِلرِّجَالِ`, `التَّقْوَى فِي الْقَلْبِ`, `صَلَاةُ الضُّحَى سُنَّةٌ`, `الْحَيَاةُ الدُّنْيَا قَصِيرَةٌ` ; l'exemple `ضَرَبَ زَيْدٌ يَاسِرًا` (verbe non enseigné) devient `لَقِيَ زَيْدٌ يَاسِرًا`, `جَاءَ الْمُسْلِمُونَ` devient `ذَهَبَ الْمُسْلِمُونَ`, `أَكْرِمِ الطَّالِبَاتِ` devient `أُحِبُّ الطَّالِبَاتِ` ;
+  - `جَالِسُونَ` (PDF) : le chapitre 3 donne `جُلُوسٌ` comme pluriel de `جَالِسٌ` ; le texte emploie `جَالِسُونَ` (régulier).
+- **Choix de contenu :**
+  - `إِمَامٌ`, `مِنْبَرٌ`, `صَلَّى`, `سَلَّمَ`, `دَخَلَ`, `سُؤَالٌ`, `نَحْوٌ`, `مُرَاجَعَةٌ`, `لَيْلَةٌ`, `أَذَانٌ`, `إِنْ شَاءَ اللَّهُ`, `مِصْرُ`, `الْيَمَنُ` ne sont pas dans les tableaux du PDF mais les textes ou les exemples les emploient : ils sont présentés comme mots nouveaux (sauf `إِمَامٌ`, déjà enseigné) ; `أَقَامَ` (passif `أُقِيمَتِ`), `أَذَّنَ`, `أَمَرَ`, `فَتَحَ` ne sont qu'expliqués dans les astuces des textes ;
+  - `تَقْوَى` et `ضُحًى` sont présentés sans `gender` : `ضُحًى` s'emploie aux deux genres (Lisān), pour `تَقْوَى` aucune source n'a été confirmée ; les pays n'ont pas de `gender` (comme aux chapitres précédents) ;
+  - `مِصْرُ` : « d'ordinaire sans tanwin » (le Coran dit `اُدْخُلُوا مِصْرَ`, 12:99), alors qu'un nom féminin de trois lettres à milieu sukūn peut aussi garder son tanwin ;
+  - aucun exercice sur le présent des verbes, les formes `كَتَبْتُ` / `كَتَبْتَ`, `حَتَّى` ni `بِ` ;
+  - dans le texte de la journée, `الْغَدَاءَ` est traduit « le repas » (le PDF dit « petit déjeuner / déjeuner » ; le sens dépend des pays).
+- **Explications ajoutées (données à l'oral, absentes du PDF) :** racines (`جَمَاعَةٌ` / `الْجُمُعَةُ` / `الْجَمْعُ`, `قَارِئٌ` / `الْقُرْآنُ`, `حَمِدَ` / `الْحَمْدُ` / `مُحَمَّدٌ`, `أَذَانٌ` / `مُؤَذِّنٌ`, `تَقْوَى` « se protéger ») ; `مُصَلٍّ` décliné comme `غَالٍ` ; `حَاضِرٌ` / `غَائِبٌ` ; `كُلَّ لَيْلَةٍ` (la fatha dit « quand ») ; sourate 18, versets 23-24 pour `إِنْ شَاءَ اللَّهُ` ; `تَحِيَّةُ الْمَسْجِدِ` ; le pluriel masculin régulier désigne des hommes et son `ن` tombe en annexion ; `الْحَاضِرُونَ` = « l'assistance » ; `تَطْلُعُ` commence par `تَ` car `الشَّمْسُ` est féminin.
+- **Relecture (3 relecteurs indépendants + relecture du diff) :** corrigés : « ce sont des annexions » (faux pour `الصَّفُّ الْأَوَّلُ`), « un nom indéfini a le tanwin » (faux pour `مَسَاجِدُ`), `مُصَلٍّ` rangé « de base » (cas sous-entendu), « le nūn ne change jamais » (il tombe en annexion), « les autres pluriels ont un tanwin », « la paix sur le Prophète » (`صَلَّى عَلَى` : la bénédiction), explication de `فِي {0} الْأَوَّلِ` (tous les choix sont masculins : le sens tranche), `كَمْ` « en général », `الْمُعَرَّفُ بِأَلْ` et `اِسْمُ` comme aux chapitres précédents, distracteur `مَا` de « Comment vas-tu ? » (`مَا حَالُكَ؟` est correct), `ذَكَرَ` harmonisé en « mentionner », ordres alternatifs acceptés (`هُنَا سَيَّارَةُ زَيْنَبَ`, `غَدًا الِاخْتِبَارُ…`).
+- **Aucune nouvelle icône ni modification de `core`.**
+- **À confirmer avec le professeur :** `اِطْلَعْ` / `يَطْلَعُ` (forme du PDF pour `طَلَعَ`), `وَجْدًا` comme nom d'action de `وَجَدَ`, `مَوَاضِيعُ` ; le genre de `تَقْوَى`.
 
 ## Audio
 
