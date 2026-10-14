@@ -1,0 +1,132 @@
+{
+  "id": "medine-t1.l16.practice-3",
+  "type": "grammar",
+  "title": "Mets au pluriel",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l16.practice-3#1",
+      "type": "tip",
+      "title": "L'exercice du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre te demande de mettre le **sujet** de chaque phrase au pluriel. Son exemple :"
+        },
+        { "type": "example", "ar": "هٰذَا بَيْتٌ.", "fr": "Ceci est une maison." },
+        { "type": "example", "ar": "هٰذِهِ بُيُوتٌ.", "fr": "Ce sont des maisons." },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Si tu hésites sur un pluriel, retourne voir la liste des pluriels de la leçon."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.practice-3#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:najm", "w:dars", "w:qalam", "w:bab", "w:nahr"]
+    },
+    {
+      "id": "medine-t1.l16.practice-3#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "هٰذَا نَجْمٌ.",
+      "answers": ["هٰذِهِ نُجُومٌ."],
+      "fr": "Ce sont des étoiles.",
+      "instruction": "Mets la phrase au pluriel, avec les pluriels de la leçon."
+    },
+    {
+      "id": "medine-t1.l16.practice-3#4",
+      "type": "question",
+      "prompt": { "fr": "Mets au pluriel : {ar|هٰذَا جَبَلٌ}." },
+      "choices": [ { "ar": "هٰذِهِ جِبَالٌ" }, { "ar": "هَؤُلَاءِ جِبَالٌ" }, { "ar": "هٰذَا جِبَالٌ" } ],
+      "answer": 0,
+      "explain": "Une montagne est une chose : {ar|هٰذِهِ جِبَالٌ}."
+    },
+    {
+      "id": "medine-t1.l16.practice-3#5",
+      "type": "order",
+      "fr": "Ce sont des mers.",
+      "answers": [["هٰذِهِ", "بِحَارٌ"]],
+      "punctuation": ".",
+      "distractors": ["هَؤُلَاءِ"],
+      "instruction": "Mets au pluriel : {ar|هٰذَا بَحْرٌ}."
+    },
+    {
+      "id": "medine-t1.l16.practice-3#6",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:kalb", "w:bahr", "w:kitab", "w:daftar", "w:maktab"]
+    },
+    {
+      "id": "medine-t1.l16.practice-3#7",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ {0}.",
+      "fr": "Ce sont des ânes.",
+      "gaps": [ { "answers": ["حُمُرٌ"] } ],
+      "options": ["حُمُرٌ", "حِمَارٌ", "كُتُبٌ"],
+      "explain": "Le pluriel de {ar|حِمَارٌ} est {ar|حُمُرٌ}."
+    },
+    {
+      "id": "medine-t1.l16.practice-3#8",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ {0}.",
+      "fr": "Ce sont des lits.",
+      "gaps": [ { "answers": ["سُرُرٌ"] } ],
+      "options": ["سُرُرٌ", "سَرِيرٌ", "أَبْوَابٌ"],
+      "explain": "Le pluriel de {ar|سَرِيرٌ} est {ar|سُرُرٌ}."
+    },
+    {
+      "id": "medine-t1.l16.practice-3#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "هٰذَا فُنْدُقٌ.",
+      "answers": ["هٰذِهِ فَنَادِقُ."],
+      "fr": "Ce sont des hôtels.",
+      "instruction": "Mets la phrase au pluriel, avec les pluriels de la leçon."
+    },
+    {
+      "id": "medine-t1.l16.practice-3#10",
+      "type": "question",
+      "prompt": { "fr": "Mets au pluriel : {ar|هٰذِهِ طَائِرَةٌ}." },
+      "choices": [ { "ar": "هٰذِهِ طَائِرَاتٌ" }, { "ar": "هَؤُلَاءِ طَائِرَاتٌ" }, { "ar": "هٰذَا طَائِرَاتٌ" } ],
+      "answer": 0,
+      "explain": "Une chose féminine : le démonstratif ne change pas, et le {ar|ة} devient « -āt »."
+    },
+    {
+      "id": "medine-t1.l16.practice-3#11",
+      "type": "order",
+      "fr": "Ce sont des étoiles, là-bas.",
+      "answers": [["تِلْكَ", "نُجُومٌ"]],
+      "punctuation": ".",
+      "distractors": ["أُولَئِكَ"],
+      "instruction": "Mets au pluriel : {ar|ذٰلِكَ نَجْمٌ}."
+    },
+    {
+      "id": "medine-t1.l16.practice-3#12",
+      "type": "typing",
+      "ask": "question",
+      "question": "تِلْكَ سَيَّارَةٌ.",
+      "answers": ["تِلْكَ سَيَّارَاتٌ."],
+      "fr": "Ce sont des voitures, là-bas.",
+      "instruction": "Mets la phrase au pluriel, avec les pluriels de la leçon."
+    },
+    {
+      "id": "medine-t1.l16.practice-3#13",
+      "type": "true_false",
+      "statement": { "fr": "Le pluriel de {ar|سَاعَةٌ} est {ar|سَاعَاتٌ} : le {ar|ة} est remplacé par « -āt »." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l16.practice-3#14",
+      "type": "typing",
+      "ask": "question",
+      "question": "هٰذِهِ طَائِرَةٌ.",
+      "answers": ["هٰذِهِ طَائِرَاتٌ."],
+      "fr": "Ce sont des avions.",
+      "instruction": "Mets la phrase au pluriel, avec les pluriels de la leçon."
+    }
+  ]
+}
