@@ -1,0 +1,16 @@
+{
+  "id": "medine-t1.l16",
+  "number": 16,
+  "title": { "ar": "الدَّرْسُ السَّادِسَ عَشَرَ", "fr": "Les choses au pluriel" },
+  "description": "Montrer plusieurs choses ou animaux avec {ar|هٰذِهِ} et {ar|تِلْكَ}, réserver {ar|هَؤُلَاءِ} et {ar|أُولَئِكَ} aux personnes, les reprendre par {ar|هِيَ}, apprendre l'avion, l'hôtel, la montagne, la mer et le fleuve, et lire le texte du livre.",
+  "source": "Tome de Médine 1, leçon 16",
+  "sections": [
+    { "title": "Rappel : les démonstratifs", "activities": ["recap"] },
+    { "title": "Personnes, animaux, choses", "activities": ["grammar-1", "practice-1", "practice-2"] },
+    { "title": "Voyage et paysages", "activities": ["vocab-1", "plurals-1"] },
+    { "title": "Du singulier au pluriel", "activities": ["grammar-2", "practice-3"] },
+    { "title": "Ils sont de Belgique", "activities": ["grammar-3", "practice-4"] },
+    { "title": "Le texte du livre", "activities": ["dialogue-1"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

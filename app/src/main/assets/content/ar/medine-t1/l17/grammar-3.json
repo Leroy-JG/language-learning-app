@@ -1,0 +1,141 @@
+{
+  "id": "medine-t1.l17.grammar-3",
+  "type": "grammar",
+  "title": "Le pluriel masculin : -ūna ou -īna ?",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l17.grammar-3#1",
+      "type": "tip",
+      "title": "Deux terminaisons selon le rôle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais les trois cas : le nominatif ({ar|الرَّفْعُ}), l'accusatif ({ar|النَّصْبُ}) et le génitif ({ar|الْجَرُّ}). Le pluriel masculin régulier n'a que **deux** terminaisons."
+        },
+        {
+          "type": "table",
+          "header": ["Cas", "Terminaison", "Exemple"],
+          "rows": [
+            ["nominatif ({ar|الرَّفْعُ})", "{ar|◌ُونَ}", "{ar|الْمُسْلِمُونَ فِي الْمَسْجِدِ}"],
+            ["accusatif ({ar|النَّصْبُ})", "{ar|◌ِينَ}", "{ar|أُحِبُّ الْمُسْلِمِينَ}"],
+            ["génitif ({ar|الْجَرُّ})", "{ar|◌ِينَ}", "{ar|السَّلَامُ عَلَى الْمُسْلِمِينَ}"]
+          ]
+        },
+        {
+          "type": "example",
+          "ar": "الْمُسْلِمُونَ فِي الْمَسْجِدِ.",
+          "fr": "Les musulmans sont dans la mosquée. (sujet de la phrase : nominatif)"
+        },
+        {
+          "type": "example",
+          "ar": "أُحِبُّ الْمُسْلِمِينَ.",
+          "fr": "J'aime les musulmans. (objet du verbe : accusatif)"
+        },
+        {
+          "type": "example",
+          "ar": "السَّلَامُ عَلَى الْمُسْلِمِينَ.",
+          "fr": "Que la paix soit sur les musulmans. (après une préposition : génitif)"
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.grammar-3#2",
+      "type": "tip",
+      "title": "Ici, le signe du cas est une lettre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour presque tous les noms, le cas se lit sur une **voyelle courte** à la fin du mot (damma, fatha, kasra). Ici, c'est une **lettre** qui le marque : le {ar|و} au nominatif, le {ar|ي} à l'accusatif et au génitif."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "الْمُسْلِمُونَ", "fr": "nominatif" },
+              "to": { "ar": "الْمُسْلِمِينَ", "fr": "accusatif ou génitif" },
+              "label": "le {ar|و} devient {ar|ي}"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Le {ar|نَ} final porte **toujours** une fatha, quel que soit le cas. Cette fatha ne marque donc pas le cas : le cas se lit sur la lettre qui précède, {ar|و} ou {ar|ي}."
+        },
+        {
+          "type": "note",
+          "text": "Le {ar|نَ} remplace le tanwin. Comme le tanwin, il disparaît quand le mot est premier terme d'une annexion : {ar|مُدَرِّسُو الْمَدْرَسَةِ} (les enseignants de l'école). Tu le reverras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.grammar-3#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أُحِبُّ الْمُسْلِمِينَ}, pourquoi le mot se termine-t-il par {ar|◌ِينَ} ?" },
+      "choices": [
+        { "fr": "C'est l'objet du verbe : il est à l'accusatif" },
+        { "fr": "C'est le sujet de la phrase : il est au nominatif" },
+        { "fr": "Parce que c'est un nom féminin" }
+      ],
+      "answer": 0,
+      "explain": "{ar|الْمُسْلِمِينَ} est l'objet de {ar|أُحِبُّ} : accusatif, donc {ar|◌ِينَ}."
+    },
+    {
+      "id": "medine-t1.l17.grammar-3#4",
+      "type": "fill_gap",
+      "sentence": "السَّلَامُ عَلَى {0}.",
+      "fr": "Que la paix soit sur les musulmans.",
+      "gaps": [ { "answers": ["الْمُسْلِمِينَ"] } ],
+      "options": ["الْمُسْلِمِينَ", "الْمُسْلِمُونَ", "الْمُسْلِمَاتُ"],
+      "explain": "Après la préposition {ar|عَلَى}, le nom est au génitif : {ar|◌ِينَ}."
+    },
+    {
+      "id": "medine-t1.l17.grammar-3#5",
+      "type": "fill_gap",
+      "sentence": "{0} فِي الْمَسْجِدِ.",
+      "fr": "Les musulmans sont dans la mosquée.",
+      "gaps": [ { "answers": ["الْمُسْلِمُونَ"] } ],
+      "options": ["الْمُسْلِمُونَ", "الْمُسْلِمِينَ", "الْمُسْلِمُ"],
+      "explain": "Le sujet de la phrase est au nominatif : {ar|◌ُونَ}."
+    },
+    {
+      "id": "medine-t1.l17.grammar-3#6",
+      "type": "spot",
+      "instruction": "Touche le pluriel masculin régulier.",
+      "words": ["ذَهَبَ", "الْمُدَرِّسُونَ", "إِلَى", "الْمَدْرَسَةِ."],
+      "answers": [1],
+      "fr": "Les enseignants sont allés à l'école.",
+      "explain": "{ar|الْمُدَرِّسُونَ} est le sujet de {ar|ذَهَبَ} : nominatif, {ar|◌ُونَ}. Le verbe reste au singulier quand il est avant son sujet."
+    },
+    {
+      "id": "medine-t1.l17.grammar-3#7",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif" }, { "fr": "accusatif" }, { "fr": "génitif" } ],
+      "cards": [
+        { "ar": "الْمُدَرِّسُونَ فِي الْفَصْلِ.", "category": 0 },
+        { "ar": "أُحِبُّ الْمُدَرِّسِينَ.", "category": 1 },
+        { "ar": "هٰذَا كِتَابُ الْمُدَرِّسِينَ.", "category": 2 },
+        { "ar": "لَقِيَ زَيْدٌ الْمُهَنْدِسِينَ.", "category": 1 },
+        { "ar": "ذَهَبَ الْمُدَرِّسُونَ إِلَى الْمَدْرَسَةِ.", "category": 0 },
+        { "ar": "السَّلَامُ عَلَى الْمُسْلِمِينَ.", "category": 2 }
+      ],
+      "instruction": "Ce pluriel est-il au nominatif, à l'accusatif ou au génitif ?",
+      "explain": "Nominatif : le sujet ({ar|الْمُدَرِّسُونَ}). Accusatif : l'objet du verbe ({ar|أُحِبُّ}, {ar|لَقِيَ}). Génitif : après une préposition ({ar|عَلَى}) ou second terme d'une annexion ({ar|كِتَابُ الْمُدَرِّسِينَ})."
+    },
+    {
+      "id": "medine-t1.l17.grammar-3#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'aime les enseignants.",
+      "answers": ["أُحِبُّ الْمُدَرِّسِينَ."]
+    },
+    {
+      "id": "medine-t1.l17.grammar-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Que la paix soit sur les musulmans.",
+      "answers": ["السَّلَامُ عَلَى الْمُسْلِمِينَ."]
+    }
+  ]
+}

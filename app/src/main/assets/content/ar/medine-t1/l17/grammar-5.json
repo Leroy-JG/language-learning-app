@@ -1,0 +1,113 @@
+{
+  "id": "medine-t1.l17.grammar-5",
+  "type": "grammar",
+  "title": "Le pluriel féminin : sa dernière voyelle",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l17.grammar-5#1",
+      "type": "tip",
+      "title": "Une seule terminaison, deux voyelles",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour le pluriel féminin régulier, le cas se lit sur une **voyelle** à la fin du mot, comme pour presque tous les noms. Il n'y a que deux voyelles possibles : la damma au nominatif, la kasra à l'accusatif et au génitif."
+        },
+        {
+          "type": "table",
+          "header": ["Cas", "Indéfini", "Avec l'article", "Exemple"],
+          "rows": [
+            ["nominatif ({ar|الرَّفْعُ})", "{ar|◌َاتٌ}", "{ar|◌َاتُ}", "{ar|الْمُسْلِمَاتُ فِي الْمَسْجِدِ}"],
+            ["accusatif ({ar|النَّصْبُ})", "{ar|◌َاتٍ}", "{ar|◌َاتِ}", "{ar|أُحِبُّ الْمُسْلِمَاتِ}"],
+            ["génitif ({ar|الْجَرُّ})", "{ar|◌َاتٍ}", "{ar|◌َاتِ}", "{ar|السَّلَامُ عَلَى الْمُسْلِمَاتِ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Attention : à l'accusatif, ce pluriel prend la **kasra**, pas la fatha. Il a la même terminaison qu'au génitif."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "مُسْلِمَاتٌ", "fr": "nominatif" },
+              "to": { "ar": "مُسْلِمَاتٍ", "fr": "accusatif ou génitif" },
+              "label": "la damma devient une kasra"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans {ar|ذَهَبَتِ الطَّالِبَاتُ}, le {ar|ت} du verbe prend une kasra devant l'article : on évite ainsi deux sukūn de suite. Retiens seulement le sens : « les étudiantes sont allées »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.grammar-5#2",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أُحِبُّ الْمُسْلِمَاتِ}, pourquoi le {ar|ت} final porte-t-il une kasra ?" },
+      "choices": [
+        { "fr": "Le pluriel féminin régulier prend la kasra à l'accusatif" },
+        { "fr": "Parce qu'il y a une préposition devant le mot" },
+        { "fr": "Parce que c'est le second terme d'une annexion" }
+      ],
+      "answer": 0,
+      "explain": "{ar|الْمُسْلِمَاتِ} est l'objet de {ar|أُحِبُّ} : accusatif. Ce pluriel y prend la kasra, comme au génitif."
+    },
+    {
+      "id": "medine-t1.l17.grammar-5#3",
+      "type": "true_false",
+      "statement": { "fr": "À l'accusatif, le pluriel féminin régulier prend la fatha." },
+      "answer": false,
+      "explain": "Faux : il prend la kasra, comme au génitif. La dernière lettre de ce pluriel ne porte jamais de fatha."
+    },
+    {
+      "id": "medine-t1.l17.grammar-5#4",
+      "type": "fill_gap",
+      "sentence": "{0} فِي الْمَسْجِدِ.",
+      "fr": "Les musulmanes sont dans la mosquée.",
+      "gaps": [ { "answers": ["الْمُسْلِمَاتُ"] } ],
+      "options": ["الْمُسْلِمَاتُ", "الْمُسْلِمُونَ", "الْمُسْلِمَةُ"],
+      "explain": "Le sujet est au nominatif : {ar|الْمُسْلِمَاتُ}, avec la damma. {ar|الْمُسْلِمُونَ} serait des hommes."
+    },
+    {
+      "id": "medine-t1.l17.grammar-5#5",
+      "type": "spot",
+      "instruction": "Touche les deux objets du verbe.",
+      "words": ["أُحِبُّ", "الْمُدَرِّسَاتِ", "وَالْمُدَرِّسِينَ."],
+      "answers": [1, 2],
+      "fr": "J'aime les enseignantes et les enseignants.",
+      "explain": "Les deux mots sont à l'accusatif : {ar|الْمُدَرِّسَاتِ} (kasra) et {ar|الْمُدَرِّسِينَ} ({ar|◌ِينَ})."
+    },
+    {
+      "id": "medine-t1.l17.grammar-5#6",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif" }, { "fr": "accusatif" }, { "fr": "génitif" } ],
+      "cards": [
+        { "ar": "الْمُدَرِّسَاتُ فِي الْفَصْلِ.", "category": 0 },
+        { "ar": "أُحِبُّ الْمُدَرِّسَاتِ.", "category": 1 },
+        { "ar": "السَّلَامُ عَلَى الْمُسْلِمَاتِ.", "category": 2 },
+        { "ar": "ذَهَبَتِ الطَّالِبَاتُ إِلَى الْمَدْرَسَةِ.", "category": 0 },
+        { "ar": "لَقِيَ زَيْدٌ الطَّبِيبَاتِ.", "category": 1 },
+        { "ar": "هٰذَا كِتَابُ الطَّالِبَاتِ.", "category": 2 }
+      ],
+      "instruction": "Ce pluriel est-il au nominatif, à l'accusatif ou au génitif ?",
+      "explain": "Nominatif : le sujet. Accusatif : l'objet du verbe ({ar|أُحِبُّ}, {ar|لَقِيَ}). Génitif : après {ar|عَلَى} ou second terme de l'annexion {ar|كِتَابُ الطَّالِبَاتِ}."
+    },
+    {
+      "id": "medine-t1.l17.grammar-5#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'aime les musulmanes.",
+      "answers": ["أُحِبُّ الْمُسْلِمَاتِ."]
+    },
+    {
+      "id": "medine-t1.l17.grammar-5#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Que la paix soit sur les musulmanes.",
+      "answers": ["السَّلَامُ عَلَى الْمُسْلِمَاتِ."]
+    }
+  ]
+}

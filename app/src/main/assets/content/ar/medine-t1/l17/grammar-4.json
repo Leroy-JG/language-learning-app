@@ -1,0 +1,155 @@
+{
+  "id": "medine-t1.l17.grammar-4",
+  "type": "grammar",
+  "title": "Le pluriel féminin régulier",
+  "icon": "girl",
+  "screens": [
+    {
+      "id": "medine-t1.l17.grammar-4#1",
+      "type": "tip",
+      "title": "Former le pluriel féminin régulier",
+      "blocks": [
+        { "type": "paragraph", "text": "On garde le singulier, on retire le {ar|ة} final et on ajoute {ar|◌َاتٌ}." },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "مُسْلِمَةٌ", "fr": "une musulmane" },
+              "to": { "ar": "مُسْلِمَاتٌ", "fr": "des musulmanes" }
+            },
+            {
+              "from": { "ar": "طَالِبَةٌ", "fr": "une étudiante" },
+              "to": { "ar": "طَالِبَاتٌ", "fr": "des étudiantes" }
+            },
+            {
+              "from": { "ar": "طَبِيبَةٌ", "fr": "une femme médecin" },
+              "to": { "ar": "طَبِيبَاتٌ", "fr": "des femmes médecins" }
+            },
+            {
+              "from": { "ar": "سَيَّارَةٌ", "fr": "une voiture" },
+              "to": { "ar": "سَيَّارَاتٌ", "fr": "des voitures" }
+            }
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "مُسْلِمَاتٌ",
+          "fr": "des musulmanes",
+          "parts": [
+            { "ar": "مُسْلِمَ", "fr": "le singulier, sans le tā' marbūṭa" },
+            { "ar": "اتٌ", "fr": "la terminaison du pluriel" }
+          ]
+        },
+        { "type": "note", "text": "Le {ar|ة} du singulier disparaît : on ne dit pas « {ar|مُسْلِمَةَاتٌ} »." }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.grammar-4#2",
+      "type": "tip",
+      "title": "Qui prend ce pluriel ?",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pour…", "Exemples"],
+          "rows": [
+            ["des prénoms féminins", "{ar|الزَّيْنَبَاتُ} (les Zaynab), {ar|الْفَاطِمَاتُ} (les Fāṭima)"],
+            [
+              "des noms ou des adjectifs de femmes",
+              "{ar|الطَّالِبَاتُ مُجْتَهِدَاتٌ} (les étudiantes sont studieuses), {ar|الْمُسْلِمَاتُ عَفِيفَاتٌ} (les musulmanes sont vertueuses)"
+            ],
+            [
+              "beaucoup de noms en {ar|ة}, y compris de choses",
+              "{ar|سَيَّارَاتٌ} (voitures), {ar|جَامِعَاتٌ} (universités), {ar|ثَلَّاجَاتٌ} (réfrigérateurs)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ce pluriel n'est pas réservé aux femmes : des noms masculins de choses l'ont aussi, comme {ar|حَمَّامٌ} → {ar|حَمَّامَاتٌ} (salles de bains) ou {ar|اِخْتِبَارٌ} → {ar|اِخْتِبَارَاتٌ} (examens). Pour des **personnes**, en revanche, un pluriel en {ar|◌َاتٌ} désigne en général des femmes."
+        },
+        {
+          "type": "note",
+          "text": "Tous les noms en {ar|ة} ne le prennent pas : {ar|حَدِيقَةٌ} fait {ar|حَدَائِقُ}, {ar|مَدِينَةٌ} fait {ar|مُدُنٌ}. Quelques mots changent un peu avant {ar|◌َاتٌ} : {ar|أُخْتٌ} → {ar|أَخَوَاتٌ}, {ar|أُمٌّ} → {ar|أُمَّهَاتٌ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.grammar-4#3",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel régulier de {ar|طَبِيبَةٌ} (une femme médecin) ?" },
+      "choices": [ { "ar": "طَبِيبَاتٌ" }, { "ar": "أَطِبَّاءُ" }, { "ar": "طَبِيبُونَ" } ],
+      "answer": 0,
+      "explain": "{ar|طَبِيبَاتٌ} : on retire le {ar|ة} et on ajoute {ar|◌َاتٌ}. {ar|أَطِبَّاءُ} est un pluriel irrégulier et {ar|طَبِيبُونَ} un pluriel masculin."
+    },
+    {
+      "id": "medine-t1.l17.grammar-4#4",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans un pluriel féminin régulier, on garde le {ar|ة} du singulier et on ajoute {ar|◌َاتٌ} à la suite."
+      },
+      "answer": false,
+      "explain": "Faux : le {ar|ة} disparaît. {ar|مُسْلِمَةٌ} → {ar|مُسْلِمَاتٌ}."
+    },
+    {
+      "id": "medine-t1.l17.grammar-4#5",
+      "type": "fill_gap",
+      "sentence": "هَؤُلَاءِ {0}.",
+      "fr": "Celles-ci sont des étudiantes.",
+      "gaps": [ { "answers": ["طَالِبَاتٌ"] } ],
+      "options": ["طَالِبَاتٌ", "طَالِبَةٌ", "طَالِبُونَ"],
+      "explain": "Plusieurs femmes : {ar|طَالِبَاتٌ}. {ar|طَالِبَةٌ} est au singulier, {ar|طَالِبُونَ} serait des hommes."
+    },
+    {
+      "id": "medine-t1.l17.grammar-4#6",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:sayyara", "w:jamia", "w:thallaja", "w:mumarrida", "w:khala"]
+    },
+    {
+      "id": "medine-t1.l17.grammar-4#7",
+      "type": "spot",
+      "instruction": "Touche le pluriel régulier féminin.",
+      "words": ["الطَّالِبَاتُ", "وَالطُّلَّابُ", "فِي", "الْفَصْلِ."],
+      "answers": [0],
+      "fr": "Les étudiantes et les étudiants sont en classe.",
+      "explain": "{ar|الطَّالِبَاتُ} est un pluriel régulier féminin. {ar|الطُّلَّابُ} est un pluriel irrégulier."
+    },
+    {
+      "id": "medine-t1.l17.grammar-4#8",
+      "type": "sort",
+      "categories": [ { "fr": "masculin régulier" }, { "fr": "féminin régulier" }, { "fr": "irrégulier" } ],
+      "cards": [
+        { "ar": "مُسْلِمُونَ", "category": 0 },
+        { "ar": "طَبِيبَاتٌ", "category": 1 },
+        { "ar": "كُتُبٌ", "category": 2 },
+        { "ar": "فَلَّاحُونَ", "category": 0 },
+        { "ar": "جَامِعَاتٌ", "category": 1 },
+        { "ar": "أَبْوَابٌ", "category": 2 }
+      ],
+      "instruction": "Quel type de pluriel est-ce ?",
+      "explain": "{ar|◌ُونَ} : masculin régulier. {ar|◌َاتٌ} : féminin régulier. Quand le mot lui-même change ({ar|كُتُبٌ}, {ar|أَبْوَابٌ}) : irrégulier."
+    },
+    {
+      "id": "medine-t1.l17.grammar-4#9",
+      "type": "order",
+      "fr": "Celles-ci sont des musulmanes.",
+      "answers": [["هَؤُلَاءِ", "مُسْلِمَاتٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l17.grammar-4#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des étudiantes",
+      "answers": ["طَالِبَاتٌ"]
+    },
+    {
+      "id": "medine-t1.l17.grammar-4#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Celles-ci sont des femmes médecins.",
+      "answers": ["هَؤُلَاءِ طَبِيبَاتٌ."]
+    }
+  ]
+}

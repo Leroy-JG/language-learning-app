@@ -1,0 +1,51 @@
+{
+  "id": "medine-t1.l17.vocab-3",
+  "type": "vocabulary",
+  "title": "Des qualités, au pluriel",
+  "icon": "student",
+  "screens": [
+    { "id": "medine-t1.l17.vocab-3#1", "type": "present", "item": "w:muamin" },
+    { "id": "medine-t1.l17.vocab-3#2", "type": "present", "item": "w:kafir" },
+    {
+      "id": "medine-t1.l17.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:muamin",
+      "distractors": ["w:kafir", "w:muslim"]
+    },
+    { "id": "medine-t1.l17.vocab-3#4", "type": "present", "item": "w:sadiq-2" },
+    { "id": "medine-t1.l17.vocab-3#5", "type": "present", "item": "w:khaif" },
+    {
+      "id": "medine-t1.l17.vocab-3#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:khaif",
+      "distractors": ["w:sadiq-2", "w:muamin"]
+    },
+    { "id": "medine-t1.l17.vocab-3#7", "type": "present", "item": "w:mukhlis" },
+    { "id": "medine-t1.l17.vocab-3#8", "type": "present", "item": "w:hafiz" },
+    {
+      "id": "medine-t1.l17.vocab-3#9",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:muamin", "w:kafir", "w:sadiq-2", "w:khaif", "w:mukhlis"]
+    },
+    { "id": "medine-t1.l17.vocab-3#10", "type": "build", "item": "w:sadiq-2", "extra": ["ط"] },
+    {
+      "id": "medine-t1.l17.vocab-3#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des croyants",
+      "answers": ["مُؤْمِنُونَ"]
+    },
+    {
+      "id": "medine-t1.l17.vocab-3#12",
+      "type": "fill_gap",
+      "sentence": "{0} فِي الْمَسْجِدِ.",
+      "fr": "Les croyants sont dans la mosquée.",
+      "gaps": [ { "answers": ["الْمُؤْمِنُونَ"] } ],
+      "options": ["الْمُؤْمِنُونَ", "الْمُؤْمِنُ", "الْمُؤْمِنَةُ"],
+      "explain": "« Les croyants » : le pluriel {ar|الْمُؤْمِنُونَ}."
+    }
+  ]
+}

@@ -80,6 +80,10 @@ object IconImages {
         "duck" to R.drawable.icon_duck,
         "egg" to R.drawable.icon_egg,
         "tree" to R.drawable.icon_tree,
+        "airplane" to R.drawable.icon_airplane,
+        "hotel" to R.drawable.icon_hotel,
+        "mountain" to R.drawable.icon_mountain,
+        "sea" to R.drawable.icon_sea,
     )
 
     @DrawableRes

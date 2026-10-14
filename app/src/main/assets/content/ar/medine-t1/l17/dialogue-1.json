@@ -1,0 +1,136 @@
+{
+  "id": "medine-t1.l17.dialogue-1",
+  "type": "dialogue",
+  "title": "Zayd attend son ami",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t1.l17.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Zayd attend son ami",
+      "intro": "Zayd et Muḥammad vont à l'école en bus (texte du livre, première partie).",
+      "speakers": { "A": { "name": "Le narrateur", "voice": "m1" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "اِنْتَظَرَ زَيْدٌ مُحَمَّدًا عِنْدَ مَحَطَّةِ الْحَافِلَاتِ.",
+          "fr": "Zayd a attendu Muḥammad à la gare routière."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَصَلَ مُحَمَّدٌ فِي الْمَوْعِدِ الْمُحَدَّدِ.",
+          "fr": "Muḥammad est arrivé au rendez-vous fixé."
+        },
+        {
+          "speaker": "A",
+          "ar": "سَلَّمَ زَيْدٌ عَلَى صَدِيقِهِ وَرَدَّ مُحَمَّدٌ عَلَيْهِ السَّلَامَ.",
+          "fr": "Zayd a salué son ami et Muḥammad lui a rendu le salut."
+        },
+        {
+          "speaker": "A",
+          "ar": "ثُمَّ أَقْبَلَتِ الْحَافِلَةُ فِي الْوَقْتِ الْمُحَدَّدِ فَرَكِبَ الصَّدِيقَانِ الْحَافِلَةَ.",
+          "fr": "Puis le bus s'est approché à l'heure fixée, et les deux amis sont montés dans le bus."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Retiens seulement le sens de ces formes : tu verras plus tard comment elles se construisent."
+        },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens"],
+          "rows": [
+            [
+              "{ar|سَلَّمَ زَيْدٌ عَلَى صَدِيقِهِ}",
+              "« Zayd a salué son ami » : {ar|سَلَّمَ عَلَى} veut dire « saluer » ; {ar|صَدِيقِهِ} est {ar|صَدِيقٌ} + {ar|هِ} (« son »)"
+            ],
+            [
+              "{ar|رَدَّ مُحَمَّدٌ عَلَيْهِ السَّلَامَ}",
+              "« Muḥammad lui a rendu le salut » : {ar|عَلَيْهِ} est {ar|عَلَى} + {ar|هِ} (« sur lui »)"
+            ],
+            ["{ar|الْوَقْتِ}", "« le temps, l'heure »"],
+            [
+              "{ar|أَقْبَلَتِ الْحَافِلَةُ}",
+              "« le bus s'est approché » : le {ar|ت} final du verbe marque le féminin ; il prend une kasra devant l'article"
+            ],
+            ["{ar|فَرَكِبَ}", "{ar|فَ} veut dire « alors, aussitôt » ; il est collé au verbe"],
+            ["{ar|الصَّدِيقَانِ}", "« les deux amis » : c'est le duel de {ar|صَدِيقٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans {ar|رَكِبَ الصَّدِيقَانِ}, le verbe reste au singulier devant son sujet, même quand ce sujet désigne deux ou plusieurs personnes. Tu l'as déjà vu avec {ar|ذَهَبَ الْمُدَرِّسُونَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Où Zayd attend-il Muḥammad ?" },
+      "choices": [ { "fr": "À la gare routière" }, { "fr": "À l'école" }, { "fr": "À la mosquée" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l17.dialogue-1#1" },
+      "explain": "{ar|عِنْدَ مَحَطَّةِ الْحَافِلَاتِ} : « près de la gare des bus »."
+    },
+    {
+      "id": "medine-t1.l17.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Quand Muḥammad arrive-t-il ?" },
+      "choices": [ { "fr": "Au rendez-vous fixé" }, { "fr": "Très en retard" }, { "fr": "Avant Zayd" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l17.dialogue-1#1" },
+      "explain": "{ar|فِي الْمَوْعِدِ الْمُحَدَّدِ} : « au rendez-vous fixé »."
+    },
+    {
+      "id": "medine-t1.l17.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Muḥammad ne répond pas au salut de Zayd." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l17.dialogue-1#1" },
+      "explain": "{ar|رَدَّ مُحَمَّدٌ عَلَيْهِ السَّلَامَ} : Muḥammad lui rend le salut."
+    },
+    {
+      "id": "medine-t1.l17.dialogue-1#6",
+      "type": "spot",
+      "instruction": "Touche le pluriel régulier féminin.",
+      "words": ["اِنْتَظَرَ", "زَيْدٌ", "مُحَمَّدًا", "عِنْدَ", "مَحَطَّةِ", "الْحَافِلَاتِ."],
+      "answers": [5],
+      "fr": "Zayd a attendu Muḥammad à la gare routière.",
+      "explain": "{ar|الْحَافِلَاتِ} est le pluriel régulier féminin de {ar|حَافِلَةٌ} ; il est au génitif (second terme de l'annexion), donc à la kasra."
+    },
+    {
+      "id": "medine-t1.l17.dialogue-1#7",
+      "type": "fill_gap",
+      "sentence": "اِنْتَظَرَ زَيْدٌ مُحَمَّدًا عِنْدَ مَحَطَّةِ {0}.",
+      "fr": "Zayd a attendu Muḥammad à la gare routière.",
+      "gaps": [ { "answers": ["الْحَافِلَاتِ"] } ],
+      "options": ["الْحَافِلَاتِ", "الْمَدْرَسَةِ", "الْفَنَادِقِ"],
+      "context": { "dialogue": "medine-t1.l17.dialogue-1#1" },
+      "explain": "{ar|مَحَطَّةُ الْحَافِلَاتِ} : « la gare des bus »."
+    },
+    {
+      "id": "medine-t1.l17.dialogue-1#8",
+      "type": "order",
+      "fr": "Muḥammad est arrivé au rendez-vous fixé.",
+      "answers": [
+        ["وَصَلَ", "مُحَمَّدٌ", "فِي", "الْمَوْعِدِ", "الْمُحَدَّدِ"],
+        ["مُحَمَّدٌ", "وَصَلَ", "فِي", "الْمَوْعِدِ", "الْمُحَدَّدِ"]
+      ],
+      "punctuation": ".",
+      "explain": "Le verbe peut être avant son sujet (le plus courant) ou après."
+    },
+    {
+      "id": "medine-t1.l17.dialogue-1#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd a salué son ami.",
+      "answers": ["سَلَّمَ زَيْدٌ عَلَى صَدِيقِهِ."]
+    }
+  ]
+}

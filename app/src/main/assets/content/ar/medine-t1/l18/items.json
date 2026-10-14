@@ -1,14 +1,5 @@
 [
   {
-    "id": "w:muthanna",
-    "kind": "word",
-    "ar": "الْمُثَنَّى",
-    "fr": "le duel",
-    "translit": "al-muthannā",
-    "gender": "m",
-    "note": "Le mot vient de la même racine que {ar|اِثْنَانِ} (« deux ») : c'est la forme qui désigne exactement **deux** êtres ou deux choses. Sans article, on l'écrit {ar|مُثَنًّى}."
-  },
-  {
     "id": "w:kam",
     "kind": "word",
     "ar": "كَمْ",

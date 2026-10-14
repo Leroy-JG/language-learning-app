@@ -1,0 +1,65 @@
+{
+  "id": "medine-t1.l17.vocab-4",
+  "type": "vocabulary",
+  "title": "Une épouse, des hôtels et des avions",
+  "icon": "bed",
+  "screens": [
+    {
+      "id": "medine-t1.l17.vocab-4#1",
+      "type": "tip",
+      "title": "Des mots que tu connais déjà",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les exercices du livre reviennent sur des mots du chapitre 16 : {ar|فُنْدُقٌ} (un hôtel), {ar|جَبَلٌ} (une montagne), {ar|نَهْرٌ} (un fleuve) et {ar|طَائِرَةٌ} (un avion). Il y a aussi un seul mot nouveau : {ar|زَوْجَةٌ}."
+        }
+      ]
+    },
+    { "id": "medine-t1.l17.vocab-4#2", "type": "present", "item": "w:zawja" },
+    {
+      "id": "medine-t1.l17.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:zawja",
+      "distractors": ["w:ukht", "w:umm"]
+    },
+    {
+      "id": "medine-t1.l17.vocab-4#4",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:funduq", "w:jabal", "w:nahr", "w:taira", "w:zawja"]
+    },
+    {
+      "id": "medine-t1.l17.vocab-4#5",
+      "type": "sort",
+      "categories": [ { "fr": "masculin" }, { "fr": "féminin" } ],
+      "cards": [
+        { "item": "w:funduq", "category": 0 },
+        { "item": "w:jabal", "category": 0 },
+        { "item": "w:taira", "category": 1 },
+        { "item": "w:zawja", "category": 1 },
+        { "item": "w:nahr", "category": 0 }
+      ],
+      "instruction": "Masculin ou féminin ?",
+      "explain": "{ar|فُنْدُقٌ}, {ar|جَبَلٌ} et {ar|نَهْرٌ} sont masculins ; {ar|طَائِرَةٌ} et {ar|زَوْجَةٌ} sont féminins (ces mots se terminent par {ar|ة})."
+    },
+    { "id": "medine-t1.l17.vocab-4#6", "type": "build", "item": "w:funduq", "extra": ["ك"] },
+    {
+      "id": "medine-t1.l17.vocab-4#7",
+      "type": "fill_gap",
+      "sentence": "فِي هٰذَا الشَّارِعِ {0} كَبِيرٌ.",
+      "fr": "Dans cette rue, il y a un grand hôtel.",
+      "gaps": [ { "answers": ["فُنْدُقٌ"] } ],
+      "options": ["فُنْدُقٌ", "طَائِرَةٌ", "زَوْجَةٌ"],
+      "explain": "{ar|كَبِيرٌ} est masculin : le nom qui convient est {ar|فُنْدُقٌ}."
+    },
+    { "id": "medine-t1.l17.vocab-4#8", "type": "typing", "ask": "fr", "item": "w:nahr" },
+    {
+      "id": "medine-t1.l17.vocab-4#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Cette montagne-là est loin.",
+      "answers": ["ذٰلِكَ الْجَبَلُ بَعِيدٌ."]
+    }
+  ]
+}

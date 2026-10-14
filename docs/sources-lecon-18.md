@@ -26,7 +26,7 @@
   chapitres 11 et 13) ; le tableau complet des démonstratifs.
 - `كَمْ` (combien ?) : âge, nombre, durée ; le nom qui suit (`التَّمْيِيزُ`) est en général indéfini, au singulier, à
   l'accusatif (`كَمْ كِتَابًا`) ; réponse au duel (`لِي أُخْتَانِ`).
-- Vocabulaire (ids dans `l18/items.json`) : `الْمُثَنَّى`, `كَمْ`, `هٰذَانِ`, `هَاتَانِ`, `ذَانِكَ`, `تَانِكَ`, `شَبْعَانُ`,
+- Vocabulaire (ids dans `l18/items.json` ; `الْمُثَنَّى` est défini au chapitre 17) : `كَمْ`, `هٰذَانِ`, `هَاتَانِ`, `ذَانِكَ`, `تَانِكَ`, `شَبْعَانُ`,
   `طَعَامٌ`, `عَدَسٌ`, `مُوَظَّفٌ`, `اِسْتِقْبَالٌ`, `غَسْلٌ`, `طَلَبَ`, `أَرَادَ`, `أَكَلَ`, `قَدَّمَ` (avec leurs quatre
   formes dans une astuce), `رَأْيٌ`, `فِكْرَةٌ`, `خِدْمَةٌ`, `مَا رَأْيُكَ فِي هٰذَا؟`, `هَيَّا بِنَا.`, `تُرِيدُ أَنْ`,
   `عِيدٌ`, `فِطْرٌ`, `سَنَةٌ`, `رَكْعَةٌ`, `حَيٌّ`, `مَتْجَرٌ`, `عَجَلَةٌ`, `مِسْطَرَةٌ` ; `طَاوِلَاتٌ` ajouté comme pluriel de
@@ -93,13 +93,14 @@ d'arabe n'a été trouvée ; les corrections portent sur des réponses justes à
   « deux grandes maisons » (pas « grandes écoles ») ; `l'employé, à la réception` ;
 - `أَبٌ` → `أَبَوَانِ` et le `ن` du duel tombant en annexion ne sont pas exigés en exercice.
 
-## À faire à la fusion dans `main` (chapitres 16, 17, 18, 19 écrits en parallèle)
+## Fusion avec les chapitres 16 et 17
 
-- `level.json` : ordre `l15, l16, l17, l18, l19`.
-- `w:muthanna` : défini aussi par `l17/items.json` (le chapitre 17 précède) ; supprimer la définition de `l18/items.json` et
-  l'écran `present` de `l18/grammar-1` qui la présente (le mot est alors présenté au chapitre 17).
-- `w:kam` : défini ici ; le chapitre 19 retire sa définition provisoire de `l19/items.json`.
-- Mettre à jour `CLAUDE.md`, `docs/roadmap.md` (« chapitres 1 à 19 ») et ajouter ces choix à `docs/sources.md`.
+`main` (avec les leçons 16 et 17) a été fusionné dans la branche de la leçon 18 :
+- `level.json` : ordre `l15, l16, l17, l18` ;
+- `w:muthanna` est défini par `l17/items.json` : la définition de `l18/items.json` et l'écran `present` de `l18/grammar-1`
+  (code `#2`) ont été retirés, **sans renuméroter** les autres écrans (les codes de `grammar-1` vont de `#1` à `#12` sans `#2`) ;
+- reste à faire quand la leçon 19 sera fusionnée : elle réutilise `w:kam` et `w:hayy`, définis ici ; mettre à jour
+  `CLAUDE.md` et `docs/roadmap.md` (« leçons 1 à 19 »).
 
 ## Écriture en parallèle des leçons 16 à 19
 

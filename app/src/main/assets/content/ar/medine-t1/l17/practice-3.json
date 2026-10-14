@@ -1,0 +1,94 @@
+{
+  "id": "medine-t1.l17.practice-3",
+  "type": "grammar",
+  "title": "Quel prédicat ?",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l17.practice-3#1",
+      "type": "tip",
+      "title": "L'exercice 3 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne des sujets et demande de choisir un prédicat qui convient : {ar|الْبُيُوتُ}, {ar|الْفَنَادِقُ}, {ar|الطُّلَّابُ}. Le prédicat doit s'accorder avec le sujet : un pluriel de choses prend le féminin, un pluriel d'hommes prend un mot au pluriel (en {ar|◌ُونَ}, ou un pluriel irrégulier comme {ar|كِبَارٌ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.practice-3#2",
+      "type": "fill_gap",
+      "sentence": "الْبُيُوتُ {0}.",
+      "fr": "Les maisons sont belles.",
+      "gaps": [ { "answers": ["جَمِيلَةٌ"] } ],
+      "options": ["جَمِيلَةٌ", "جَمِيلٌ", "جَمِيلُونَ"],
+      "explain": "{ar|بُيُوتٌ} désigne des choses : l'adjectif est au féminin, {ar|جَمِيلَةٌ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "الطُّلَّابُ {0}.",
+      "fr": "Les étudiants sont studieux.",
+      "gaps": [ { "answers": ["مُجْتَهِدُونَ"] } ],
+      "options": ["مُجْتَهِدُونَ", "مُجْتَهِدٌ", "مُجْتَهِدَاتٌ"],
+      "explain": "{ar|طُلَّابٌ} désigne des hommes : le pluriel masculin {ar|مُجْتَهِدُونَ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-3#4",
+      "type": "fill_gap",
+      "sentence": "الْفَنَادِقُ {0}.",
+      "fr": "Les hôtels sont grands.",
+      "gaps": [ { "answers": ["كَبِيرَةٌ"] } ],
+      "options": ["كَبِيرَةٌ", "كَبِيرٌ", "كَبِيرُونَ"],
+      "explain": "{ar|فَنَادِقُ} désigne des choses : {ar|كَبِيرَةٌ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-3#6",
+      "type": "sort",
+      "categories": [ { "fr": "des choses (prédicat au féminin)" }, { "fr": "des hommes (prédicat au pluriel masculin)" } ],
+      "cards": [
+        { "ar": "الْأَبْوَابُ مَفْتُوحَةٌ.", "category": 0 },
+        { "ar": "الْمُدَرِّسُونَ مُخْلِصُونَ.", "category": 1 },
+        { "ar": "النُّجُومُ جَمِيلَةٌ.", "category": 0 },
+        { "ar": "الطُّلَّابُ مُجْتَهِدُونَ.", "category": 1 },
+        { "ar": "الْقُمْصَانُ رَخِيصَةٌ.", "category": 0 },
+        { "ar": "الرِّجَالُ خَائِفُونَ.", "category": 1 }
+      ],
+      "instruction": "Le sujet désigne-t-il des choses ou des hommes ?",
+      "explain": "Pour des choses ({ar|أَبْوَابٌ}, {ar|نُجُومٌ}, {ar|قُمْصَانٌ}), le prédicat est au féminin. Pour des hommes, au pluriel masculin."
+    },
+    {
+      "id": "medine-t1.l17.practice-3#5",
+      "type": "fill_gap",
+      "sentence": "السَّيَّارَاتُ {0}.",
+      "fr": "Les voitures sont chères.",
+      "gaps": [ { "answers": ["غَالِيَةٌ"] } ],
+      "options": ["غَالِيَةٌ", "غَالٍ", "خَائِفُونَ"],
+      "explain": "Des voitures : l'adjectif est au féminin, {ar|غَالِيَةٌ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-3#7",
+      "type": "order",
+      "fr": "Les portes de la mosquée sont ouvertes.",
+      "answers": [["أَبْوَابُ", "الْمَسْجِدِ", "مَفْتُوحَةٌ"]],
+      "punctuation": ".",
+      "explain": "Les portes sont des choses : {ar|مَفْتُوحَةٌ} est au féminin singulier."
+    },
+    {
+      "id": "medine-t1.l17.practice-3#8",
+      "type": "fill_gap",
+      "sentence": "الْقُمْصَانُ {0}.",
+      "fr": "Les chemises sont bon marché.",
+      "gaps": [ { "answers": ["رَخِيصَةٌ"] } ],
+      "options": ["رَخِيصَةٌ", "رَخِيصٌ", "رَخِيصُونَ"],
+      "explain": "{ar|قُمْصَانٌ} désigne des choses : {ar|رَخِيصَةٌ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les étoiles sont belles.",
+      "answers": ["النُّجُومُ جَمِيلَةٌ."]
+    }
+  ]
+}
