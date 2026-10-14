@@ -20,7 +20,7 @@
             [
               "{ar|كَمْ بَابًا لَهَا؟}",
               "combien de portes a-t-elle ?",
-              "{ar|كَمْ} + nom singulier à l'accusatif ; {ar|لَهَا} = « à elle »"
+              "{ar|كَمْ} + nom singulier à l'accusatif (en général) ; {ar|لَهَا} = « à elle »"
             ],
             [
               "{ar|أَمُغْلَقَةٌ أَبْوَابُهَا الْآنَ أَمْ مَفْتُوحَةٌ؟}",
@@ -36,7 +36,7 @@
         },
         {
           "type": "note",
-          "text": "Dans {ar|أَمُغْلَقَةٌ أَبْوَابُهَا الْآنَ أَمْ مَفْتُوحَةٌ؟}, le mot sur lequel porte le choix ({ar|مُغْلَقَةٌ}) est placé en premier, avant {ar|أَبْوَابُهَا}."
+          "text": "Dans {ar|أَمُغْلَقَةٌ أَبْوَابُهَا الْآنَ أَمْ مَفْتُوحَةٌ؟}, c'est l'ordre du livre : on place tout de suite après {ar|أَ} le mot dont on compare les deux possibilités ({ar|مُغْلَقَةٌ} / {ar|مَفْتُوحَةٌ}), avant {ar|أَبْوَابُهَا}."
         }
       ]
     },
@@ -59,7 +59,7 @@
       "type": "typing",
       "ask": "question",
       "question": "كَمْ بَابًا لَهَا؟",
-      "answers": ["لَهَا ثَلَاثَةُ أَبْوَابٍ.", "ثَلَاثَةُ أَبْوَابٍ.", "ثَلَاثَةٌ."],
+      "answers": ["لَهَا ثَلَاثَةُ أَبْوَابٍ.", "عِنْدَهَا ثَلَاثَةُ أَبْوَابٍ.", "ثَلَاثَةُ أَبْوَابٍ.", "ثَلَاثَةٌ."],
       "fr": "Elle a trois portes.",
       "instruction": "Réponds à la question : « Combien de portes a-t-elle ? »",
       "context": { "dialogue": "medine-t1.l21.dialogue-1#1" },
@@ -80,7 +80,15 @@
       "type": "typing",
       "ask": "question",
       "question": "كَمْ نَافِذَةً فِي هٰذَا الْفَصْلِ؟",
-      "answers": ["فِيهِ نَافِذَتَانِ.", "نَافِذَتَانِ.", "فِيهِ نَافِذَتَانِ كَبِيرَتَانِ.", "نَافِذَتَانِ كَبِيرَتَانِ."],
+      "answers": [
+        "فِيهِ نَافِذَتَانِ.",
+        "فِي الْفَصْلِ نَافِذَتَانِ.",
+        "فِي فَصْلِنَا نَافِذَتَانِ.",
+        "فِي هٰذَا الْفَصْلِ نَافِذَتَانِ.",
+        "نَافِذَتَانِ.",
+        "فِيهِ نَافِذَتَانِ كَبِيرَتَانِ.",
+        "نَافِذَتَانِ كَبِيرَتَانِ."
+      ],
       "fr": "Il y a deux fenêtres.",
       "instruction": "Réponds à la question : « Combien de fenêtres y a-t-il dans cette classe ? »",
       "context": { "dialogue": "medine-t1.l21.dialogue-1#1" },
@@ -94,6 +102,7 @@
       "answers": [
         "فِيهِ عَشَرَةُ طُلَّابٍ.",
         "فِي الْفَصْلِ عَشَرَةُ طُلَّابٍ.",
+        "فِي هٰذَا الْفَصْلِ عَشَرَةُ طُلَّابٍ.",
         "فِي فَصْلِنَا عَشَرَةُ طُلَّابٍ.",
         "عَشَرَةُ طُلَّابٍ."
       ],

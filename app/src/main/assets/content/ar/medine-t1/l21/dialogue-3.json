@@ -14,7 +14,7 @@
         {
           "speaker": "A",
           "ar": "هُمْ مِنْ بِلَادٍ مُخْتَلِفَةٍ، وَلُغَاتُهُمْ مُخْتَلِفَةٌ وَأَلْوَانُهُمْ مُخْتَلِفَةٌ.",
-          "fr": "Ils viennent de pays différents ; leurs langues sont différentes et leurs couleurs aussi."
+          "fr": "Ils viennent de pays différents ; leurs langues sont différentes et leurs couleurs (de peau) aussi."
         },
         {
           "speaker": "A",
@@ -69,16 +69,32 @@
         },
         {
           "type": "note",
-          "text": "{ar|مِنَ الْمَدِينَةِ} : avec l'article, {ar|الْمَدِينَةُ} désigne ici Médine, la ville du Prophète (chapitre 5 : {ar|الْمَدِينَةُ الْمُنَوَّرَةُ})."
+          "text": "{ar|مِنَ الْمَدِينَةِ} : {ar|الْمَدِينَةُ} veut dire littéralement « la ville » ({ar|مَدِينَةٌ}, chapitre 9). Comme {ar|النَّبِيُّ} pour « le Prophète », le mot avec l'article désigne ici Médine, la ville du Prophète (chapitre 5 : {ar|الْمَدِينَةُ الْمُنَوَّرَةُ})."
         },
         {
           "type": "note",
-          "text": "{ar|نُحِبُّهُ كَثِيرًا} : « nous l'aimons beaucoup ». Tu connais {ar|أُحِبُّ} (« j'aime », chapitre 11) ; avec {ar|نُ}, c'est « nous aimons », comme {ar|نَحْنُ}. Le {ar|هُ} est ici le « le » de « nous l'aimons », et {ar|كَثِيرًا} veut dire « beaucoup ». Retiens seulement le sens : rien n'est demandé dans les exercices."
+          "text": "{ar|اِسْمُهُ الشَّيْخُ بِلَالٌ} : {ar|الشَّيْخُ} (chapitre 5) est ici un titre de respect placé devant le prénom, d'où « le cheikh Bilāl »."
         }
       ]
     },
     {
       "id": "medine-t1.l21.dialogue-3#3",
+      "type": "tip",
+      "title": "Une phrase en avant-première",
+      "blocks": [
+        { "type": "example", "ar": "نَحْنُ نُحِبُّهُ كَثِيرًا.", "fr": "Nous l'aimons beaucoup." },
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|أُحِبُّ} (« j'aime », chapitre 11) ; avec {ar|نُ}, c'est « nous aimons », comme {ar|نَحْنُ}. Le {ar|هُ} est ici le « le » de « nous l'aimons », et {ar|كَثِيرًا} veut dire « beaucoup »."
+        },
+        {
+          "type": "note",
+          "text": "Retiens seulement le sens : rien n'est demandé sur cette phrase dans les exercices."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l21.dialogue-3#4",
       "type": "question",
       "prompt": { "fr": "Qu'est-ce qui est pareil pour tous les étudiants ?" },
       "choices": [ { "fr": "Leur religion" }, { "fr": "Leur langue" }, { "fr": "Leur pays" } ],
@@ -87,7 +103,7 @@
       "explain": "{ar|دِينُهُمْ وَاحِدٌ} : « leur religion est unique »."
     },
     {
-      "id": "medine-t1.l21.dialogue-3#4",
+      "id": "medine-t1.l21.dialogue-3#5",
       "type": "true_false",
       "statement": { "fr": "Les étudiants parlent tous la même langue." },
       "answer": false,
@@ -95,7 +111,7 @@
       "explain": "{ar|لُغَاتُهُمْ مُخْتَلِفَةٌ} : « leurs langues sont différentes »."
     },
     {
-      "id": "medine-t1.l21.dialogue-3#5",
+      "id": "medine-t1.l21.dialogue-3#6",
       "type": "fill_gap",
       "sentence": "هُمْ مِنْ بِلَادٍ مُخْتَلِفَةٍ، وَ{0} دِينُهُمْ وَاحِدٌ.",
       "fr": "Ils viennent de pays différents, mais leur religion est unique.",
@@ -105,13 +121,13 @@
       "explain": "{ar|لٰكِنْ} veut dire « mais » : elle oppose « pays différents » et « une seule religion »."
     },
     {
-      "id": "medine-t1.l21.dialogue-3#6",
+      "id": "medine-t1.l21.dialogue-3#7",
       "type": "sort",
       "categories": [ { "fr": "différent" }, { "fr": "la même pour tous" } ],
       "cards": [
         { "fr": "leurs pays", "category": 0 },
         { "fr": "leurs langues", "category": 0 },
-        { "fr": "leurs couleurs", "category": 0 },
+        { "fr": "leurs couleurs de peau", "category": 0 },
         { "fr": "leur religion", "category": 1 },
         { "fr": "leur Seigneur", "category": 1 },
         { "fr": "leur prophète", "category": 1 },
@@ -120,7 +136,7 @@
       "instruction": "Est-ce différent, ou la même chose pour tous ?"
     },
     {
-      "id": "medine-t1.l21.dialogue-3#7",
+      "id": "medine-t1.l21.dialogue-3#8",
       "type": "fill_gap",
       "sentence": "وَرَبُّهُمْ وَاحِدٌ وَقِبْلَتُهُمْ {0}.",
       "fr": "Leur Seigneur est unique et leur qibla est unique.",
@@ -130,7 +146,7 @@
       "explain": "{ar|قِبْلَةٌ} est féminin : {ar|وَاحِدَةٌ}. {ar|مُخْتَلِفَةٌ} voudrait dire « différente »."
     },
     {
-      "id": "medine-t1.l21.dialogue-3#8",
+      "id": "medine-t1.l21.dialogue-3#9",
       "type": "question",
       "prompt": { "fr": "Qui est le cheikh Bilāl ?" },
       "choices": [
@@ -143,25 +159,26 @@
       "explain": "{ar|هٰذَا مُدَرِّسُنَا. اِسْمُهُ الشَّيْخُ بِلَالٌ} : « voici notre enseignant ; il s'appelle le cheikh Bilāl »."
     },
     {
-      "id": "medine-t1.l21.dialogue-3#9",
+      "id": "medine-t1.l21.dialogue-3#10",
       "type": "order",
       "fr": "Mais leur religion est unique.",
       "answers": [["وَلٰكِنْ", "دِينُهُمْ", "وَاحِدٌ"]],
       "punctuation": "."
     },
     {
-      "id": "medine-t1.l21.dialogue-3#10",
+      "id": "medine-t1.l21.dialogue-3#11",
       "type": "typing",
       "ask": "audio",
       "fr": "Et les musulmans sont des frères.",
       "answers": ["وَالْمُسْلِمُونَ إِخْوَةٌ."]
     },
     {
-      "id": "medine-t1.l21.dialogue-3#11",
+      "id": "medine-t1.l21.dialogue-3#12",
       "type": "typing",
       "ask": "fr",
       "fr": "C'est un homme pieux.",
-      "answers": ["هُوَ رَجُلٌ صَالِحٌ."]
+      "answers": ["هُوَ رَجُلٌ صَالِحٌ.", "هٰذَا رَجُلٌ صَالِحٌ.", "وَهُوَ رَجُلٌ صَالِحٌ."],
+      "explain": "« C'est » peut se dire {ar|هُوَ} ou {ar|هٰذَا}."
     }
   ]
 }

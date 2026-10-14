@@ -850,6 +850,42 @@ Notes de choix dans un fichier à part : `docs/sources-lecon-17.md` (les chapitr
 - **Relecture (3 relecteurs indépendants + relecture du diff) :** aucune erreur d'arabe ; corrigés : « chaque nombre s'accorde » → « se règle sur » (genre contraire), note sur `سَلْمَى`, « nom en ة = féminin » nuancé, `إِخْوَانٍ` accepté dans `dialogue-2` (typing), phrases 6 et 9 de l'exercice 2 reprises telles quelles, tri « Qui le dit ? » (le PDF ne précise pas que ce sont deux classes), redite du nom collectif réduite à `بَقَرٌ` dans `practice-3`. Non retenu : ordre alternatif `كَمْ لَكِ بِنْتًا` (correct mais non enseigné), `خَمْسُ` à la place de `ثَمَانِي` dans `vocab-2` (`ثَمَانِي` est enseigné au chapitre 19, `grammar-2`).
 - **Choix de contenu :** `w:majalla` : « une revue » (aussi « magazine », en note) ; pas de nouvelle icône (le drapeau d'Indonésie n'existe pas dans les icônes de l'app) ; les deux locutrices du dialogue ont la même voix (`f1`, seule voix féminine du cours), comme au chapitre 12.
 
+### Leçon 21 (`l21`)
+
+- **Support :** un seul PDF de 12 pages (cours 21, « Mon école » : texte du livre `مَدْرَسَتِي` sur deux pages, fiche `ذَاكَ`, exercices 1 à 3, vocabulaire nouveau avec la carte du monde).
+- **Une leçon de lecture** : la seule vraie notion nouvelle est `ذَاكَ`, variante de `ذٰلِكَ` (même sens, même emploi). Le reste est du vocabulaire et le texte, dont presque tous les mots sont déjà enseignés (suffixes `ـهَا ـهُمْ ـنَا ـهُ`, nombres, duel, pluriel des choses). Éléments **nouveaux** (9) : `لَوْنٌ`, `صَالِحٌ`, `وَاسِعٌ`, `لٰكِنْ`, `أَمْ`, `ذَاكَ`, `آسِيَا`, `غَانَا`, `نَيْجِيرِيَا`. Aucun doublon de carte : `نَبِيٌّ` (tableau du PDF) est déjà `w:nabi` (`النَّبِيُّ`, chapitre 11) et passe par une astuce, `إِفْرِيقِيَا`, `أُورُبَّا` et `إِنْكِلْتِرَا` sont déjà enseignés.
+- **Exercices et textes du livre repris :**
+  - texte `مَدْرَسَتِي` → `dialogue-1` (école, classe, mobilier), `dialogue-2` (les dix étudiants et leurs pays), `dialogue-3` (religion, enseignant) ;
+  - fiche `ذَاكَ` → `grammar-1` ;
+  - exercice 1 (dix questions) → `practice-1` (les numéros 1 à 9 et « ١٥ », qui est le numéro 10 mal rendu) ;
+  - exercice 2 (vrai / faux, dix phrases) → `practice-2` ;
+  - exercice 3 (pays d'Asie, d'Afrique, d'Europe) → `practice-3` ;
+  - vocabulaire nouveau et carte → `vocab-1` et `vocab-2` ;
+  - `practice-4` (suffixes du texte) n'est pas dans le livre : révision des formes `فَصْلُنَا`, `أَبْوَابُهَا`, `كُرْسِيُّهُ`, `لُغَاتُهُمْ`, `قِبْلَتُهُمْ`.
+- **Écarts avec le PDF :**
+  - le texte du livre est presque sans voyelles : la vocalisation est la nôtre (vérifiée par un relecteur face aux harakat que le PDF porte) ; `مِنْ بِلَادٍ مُخْتَلِفَةٍ` (le PDF ne montre qu'une partie des signes), `إِنْكِلْتِرَا` (graphie du chapitre 19), `نُحِبُّهُ كَثِيرًا` ;
+  - `لٰكِنْ` : le PDF écrit `لَكِنْ` (simple fatha) ; l'app écrit `لٰكِنْ` avec l'alif suscrit, comme `هٰذَا`, et le dit dans la note ;
+  - exemples du tableau remplacés quand ils emploient des mots non enseignés : `لَوْنُ الشَّمْسِ أَصْفَرُ` (les couleurs ne sont pas enseignées) → `مَا لَوْنُ الْقَمِيصِ؟` ; `نُؤْمِنُ بِالْأَنْبِيَاءِ` → `إِبْرَاهِيمُ وَيُوسُفُ وَإِسْمَاعِيلُ أَنْبِيَاءُ.` ; `لٰكِنْ` n'a pas d'exemple dans le PDF (exemple ajouté) ;
+  - exercice 1, question 3 : `أَمْ` n'est pas dans le tableau du PDF mais l'exercice l'emploie : il est présenté comme mot nouveau dans `vocab-1` ;
+  - exercice 3 : « les pays du texte qui sont en Asie, en Afrique, en Europe » → tri de huit pays (sans `تُرْكِيَا`, à cheval sur l'Asie et l'Europe, ni `أَمْرِيكَا`) ; la formule du livre `الْبِلَادُ الَّتِي فِي…` (pronom relatif non enseigné) n'est pas reprise ;
+  - le livre met `الْمَدِينَةُ` sans autre précision : traduit « Médine » (note : littéralement « la ville »).
+- **Choix de contenu :**
+  - `ذَاكَ` a un `gender` `m` comme `ذٰلِكَ` et la traduction « cela, celui-là (loin, forme courte) » ; le validateur (`ArabicScript.distractorKey`, contrôle des démonstratifs devant un nom) traite désormais `ذَاكَ` comme `ذٰلِكَ` (test ajouté) ; les exercices acceptent les deux ;
+  - `ذَاكَ` n'est pas présenté comme une distance « moyenne » (point discuté chez les grammairiens ; le professeur dit « même emploi ») ;
+  - les phrases `نَحْنُ نُحِبُّهُ كَثِيرًا` (verbe + complément d'objet) sont seulement **aperçues** dans une astuce à part (rien n'est exigé en exercice) ;
+  - les exercices de compréhension du texte (`practice-1`, `practice-2`) sont de type `dialogue` : leurs écrans renvoient au texte (`context.dialogue`) et ne peuvent donc pas servir aux séances de grammaire de l'onglet Réviser ; `practice-3` est de type `review` (continents) ; seuls `grammar-1` et `practice-4` sont des points de grammaire ;
+  - un seul narrateur (`m1`) pour les trois lectures, comme au chapitre 17 ; pas de nouvelle icône ;
+  - les noms propres du texte ne sont pas des éléments (pas de cartes) ; `بَيْرَمُ` (prénom turc) est cité sans tanwin.
+- **Explications ajoutées (données à l'oral, absentes du PDF) :**
+  - `ذَاكَ` = `ذَا` + `كَ` (kāf de l'interlocuteur) et `ذٰلِكَ` = `ذَا` + `لِ` + `كَ` ; les deux ne s'écrivent pas pareil (alif plein / alif suscrit) ; devant un féminin, `تِلْكَ` ;
+  - le contraire de `وَاسِعٌ` est `ضَيِّقٌ` ; `صَالِحٌ` est aussi le prénom d'un prophète cité dans le Coran, pluriel régulier pour des personnes (« en général ») ; le pluriel `أَلْوَانٌ` est de la forme de `أَقْلَامٌ` ;
+  - `أَمْ` suit une question en `أَ` à deux choix ; ailleurs « ou » se dit en général `أَوْ` ; dans la question du livre le mot comparé est placé juste après `أَ` ;
+  - `نَبِيٌّ` / `النَّبِيُّ` / `أَنْبِيَاءُ` (sans tanwin, comme `أَغْنِيَاءُ`) ;
+  - prénoms : arabes en général avec tanwin sauf certaines formes (`أَحْمَدُ`) ; non arabes de plus de trois lettres en général sans tanwin (rappel du chapitre 14) ; `أَبُو` est la forme de `أَبٌ` devant un nom ; `أَبُو بَكْرٍ` est aussi le nom du premier calife ;
+  - `دِينُهُمْ وَاحِدٌ` mais `قِبْلَتُهُمْ وَاحِدَةٌ` (accord du prédicat) ; `إِخْوَةٌ` n'est pas un féminin ; `الشَّيْخُ` est un titre de respect.
+- **Relecture (3 relecteurs indépendants) :** une généralisation fausse corrigée (prénoms non arabes « de plus de trois lettres »), réponses ajoutées (`هٰذَا رَجُلٌ صَالِحٌ`, variantes de `practice-1`, ordres de `أَبْوَابُنَا مَفْتُوحَةٌ الْآنَ`, inversion des deux choix de `أَمْ`), « (de peau) » précisé, note sur l'ordre des mots de la question en `أَمْ` reformulée (ordre du livre, non obligatoire), « en général » après `كَمْ`, aperçu de `نُحِبُّهُ` séparé en son propre écran. Aucune erreur d'arabe ni de vocalisation.
+- **Retiré du programme :** rien. Aucun exercice sur `نُحِبُّهُ`, `كَثِيرًا` (adverbe à l'accusatif) ni `الَّتِي`.
+
 ## Audio
 
 Aucun MP3 n'est encore généré : l'app utilise la synthèse vocale arabe du téléphone en attendant

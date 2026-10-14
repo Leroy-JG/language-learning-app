@@ -91,7 +91,12 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Zayd est-il étudiant ou enseignant ?",
-      "answers": ["أَزَيْدٌ طَالِبٌ أَمْ مُدَرِّسٌ؟", "أَطَالِبٌ زَيْدٌ أَمْ مُدَرِّسٌ؟"],
+      "answers": [
+        "أَزَيْدٌ طَالِبٌ أَمْ مُدَرِّسٌ؟",
+        "أَطَالِبٌ زَيْدٌ أَمْ مُدَرِّسٌ؟",
+        "أَزَيْدٌ مُدَرِّسٌ أَمْ طَالِبٌ؟",
+        "أَمُدَرِّسٌ زَيْدٌ أَمْ طَالِبٌ؟"
+      ],
       "explain": "On commence la question par {ar|أَ}, puis on relie les deux choix par {ar|أَمْ}."
     }
   ]
