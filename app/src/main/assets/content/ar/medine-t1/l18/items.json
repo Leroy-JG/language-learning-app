@@ -1,0 +1,307 @@
+[
+  {
+    "id": "w:muthanna",
+    "kind": "word",
+    "ar": "الْمُثَنَّى",
+    "fr": "le duel",
+    "translit": "al-muthannā",
+    "gender": "m",
+    "note": "Le mot vient de la même racine que {ar|اِثْنَانِ} (« deux ») : c'est la forme qui désigne exactement **deux** êtres ou deux choses. Sans article, on l'écrit {ar|مُثَنًّى}."
+  },
+  {
+    "id": "w:kam",
+    "kind": "word",
+    "ar": "كَمْ",
+    "fr": "combien… ?",
+    "translit": "kam",
+    "note": "Nom interrogatif de la quantité, de l'âge et de la durée. Il est invariable et se place en tête de la question, comme les autres noms interrogatifs.",
+    "example": { "ar": "كَمْ طَالِبًا فِي الْفَصْلِ؟", "fr": "Combien d'étudiants y a-t-il dans la classe ?" }
+  },
+  {
+    "id": "w:hadhani",
+    "kind": "word",
+    "ar": "هٰذَانِ",
+    "fr": "ces deux-ci (masculin, proches)",
+    "translit": "hādhāni",
+    "gender": "m",
+    "note": "Nom démonstratif du duel : le duel de {ar|هٰذَا}. Il sert pour deux personnes ou deux choses masculines et proches. À l'accusatif et au génitif, il devient {ar|هٰذَيْنِ}.",
+    "example": { "ar": "هٰذَانِ طَالِبَانِ.", "fr": "Ceux-ci sont deux étudiants." }
+  },
+  {
+    "id": "w:hatani",
+    "kind": "word",
+    "ar": "هَاتَانِ",
+    "fr": "ces deux-ci (féminin, proches)",
+    "translit": "hātāni",
+    "gender": "f",
+    "note": "Nom démonstratif du duel féminin proche. Ce n'est pas {ar|هٰذِهِ} avec {ar|انِ} ajouté : c'est une forme à part, qu'on apprend telle quelle. À l'accusatif et au génitif, il devient {ar|هَاتَيْنِ}.",
+    "example": { "ar": "هَاتَانِ طَالِبَتَانِ.", "fr": "Celles-ci sont deux étudiantes." }
+  },
+  {
+    "id": "w:dhanika",
+    "kind": "word",
+    "ar": "ذَانِكَ",
+    "fr": "ces deux-là (masculin, loin)",
+    "translit": "dhānika",
+    "gender": "m",
+    "note": "Le duel de {ar|ذٰلِكَ} : deux personnes ou deux choses masculines et éloignées. Contrairement à {ar|ذٰلِكَ}, il n'a pas de {ar|ل}. À l'accusatif et au génitif, il devient {ar|ذَيْنِكَ}.",
+    "example": { "ar": "ذَانِكَ رَجُلَانِ.", "fr": "Ceux-là sont deux hommes." }
+  },
+  {
+    "id": "w:tanika",
+    "kind": "word",
+    "ar": "تَانِكَ",
+    "fr": "ces deux-là (féminin, loin)",
+    "translit": "tānika",
+    "gender": "f",
+    "note": "Le duel de {ar|تِلْكَ} : deux personnes ou deux choses féminines et éloignées. À l'accusatif et au génitif, il devient {ar|تَيْنِكَ}.",
+    "example": { "ar": "تَانِكَ اِمْرَأَتَانِ.", "fr": "Celles-là sont deux femmes." }
+  },
+  {
+    "id": "w:shabaan",
+    "kind": "word",
+    "ar": "شَبْعَانُ",
+    "fr": "rassasié, qui n'a plus faim",
+    "translit": "shabʿānu",
+    "plural": "شِبَاعٌ",
+    "note": "Comme {ar|جَوْعَانُ} et {ar|عَطْشَانُ} (chapitre 9), c'est un adjectif d'état de forme {ar|فَعْلَانُ}, sans tanwin. Son contraire est {ar|جَوْعَانُ}.",
+    "example": { "ar": "زَيْدٌ شَبْعَانُ.", "fr": "Zayd est rassasié." }
+  },
+  {
+    "id": "w:taam",
+    "kind": "word",
+    "ar": "طَعَامٌ",
+    "fr": "de la nourriture",
+    "translit": "ṭaʿāmun",
+    "plural": "أَطْعِمَةٌ",
+    "gender": "m",
+    "note": "Il désigne ce qu'on mange : la nourriture, un repas. Même famille que {ar|مَطْعَمٌ}, l'endroit où l'on mange.",
+    "example": { "ar": "هٰذَا طَعَامٌ جَيِّدٌ.", "fr": "C'est de la bonne nourriture." }
+  },
+  {
+    "id": "w:adas",
+    "kind": "word",
+    "ar": "عَدَسٌ",
+    "fr": "des lentilles",
+    "translit": "ʿadasun",
+    "gender": "m",
+    "note": "Un nom collectif, comme {ar|بَقَرٌ} (chapitre 6) : un seul mot pour toutes les lentilles. Une seule lentille se dit {ar|عَدَسَةٌ}.",
+    "example": { "ar": "عَلَى الطَّاوِلَةِ خُبْزٌ وَعَدَسٌ.", "fr": "Sur la table, il y a du pain et des lentilles." }
+  },
+  {
+    "id": "w:muwazzaf",
+    "kind": "word",
+    "ar": "مُوَظَّفٌ",
+    "fr": "un employé",
+    "translit": "muwaẓẓafun",
+    "plural": "مُوَظَّفُونَ",
+    "gender": "m",
+    "note": "Même modèle que {ar|مُدَرِّسٌ} (chapitre 7), mais la lettre doublée porte une fatha : {ar|مُدَرِّسٌ} est « celui qui enseigne », {ar|مُوَظَّفٌ} est « celui à qui l'on a donné un emploi ».",
+    "example": { "ar": "الْمُوَظَّفُ فِي الْمَطْعَمِ.", "fr": "L'employé est au restaurant." }
+  },
+  {
+    "id": "w:istiqbal",
+    "kind": "word",
+    "ar": "اِسْتِقْبَالٌ",
+    "fr": "un accueil, la réception",
+    "translit": "istiqbālun",
+    "plural": "اِسْتِقْبَالَاتٌ",
+    "gender": "m",
+    "note": "C'est le fait d'accueillir, et l'endroit où l'on accueille (dans un restaurant, un hôtel). L'alif du début est un alif de liaison, comme dans {ar|اِبْنٌ} et {ar|اِسْمٌ}.",
+    "example": { "ar": "الْمُوَظَّفُ عِنْدَ الِاسْتِقْبَالِ.", "fr": "L'employé est à la réception." }
+  },
+  {
+    "id": "w:ghasl",
+    "kind": "word",
+    "ar": "غَسْلٌ",
+    "fr": "un lavage, le fait de laver",
+    "translit": "ghaslun",
+    "gender": "m",
+    "note": "C'est le nom d'action ({ar|الْمَصْدَرُ}) du verbe {ar|غَسَلَ} (« laver »), que tu n'as pas à apprendre pour l'instant. Tu le retrouveras dans le texte du livre : {ar|لِغَسْلِ يَدَيْهِ}, « pour laver ses mains ».",
+    "example": {
+      "ar": "غَسْلُ الْيَدَيْنِ قَبْلَ الطَّعَامِ جَيِّدٌ.",
+      "fr": "Se laver les mains avant le repas est une bonne chose."
+    }
+  },
+  {
+    "id": "w:talaba",
+    "kind": "word",
+    "ar": "طَلَبَ",
+    "fr": "il a demandé (demander, commander)",
+    "translit": "ṭalaba",
+    "note": "Demander quelque chose, le réclamer, le commander (un plat). Pour « poser une question », l'arabe emploie un autre verbe : {ar|سَأَلَ}.",
+    "example": { "ar": "طَلَبَ الطَّالِبُ كِتَابًا.", "fr": "L'étudiant a demandé un livre." }
+  },
+  {
+    "id": "w:arada",
+    "kind": "word",
+    "ar": "أَرَادَ",
+    "fr": "il a voulu (vouloir)",
+    "translit": "arāda",
+    "note": "Le verbe « vouloir ». Au présent, il devient {ar|يُرِيدُ} : tu le retrouveras dans {ar|تُرِيدُ أَنْ} (« tu veux… »).",
+    "example": { "ar": "أَرَادَ زَيْدٌ كِتَابًا.", "fr": "Zayd a voulu un livre." }
+  },
+  {
+    "id": "w:akala",
+    "kind": "word",
+    "ar": "أَكَلَ",
+    "fr": "il a mangé (manger)",
+    "translit": "akala",
+    "note": "Le verbe « manger ». Son impératif est irrégulier : {ar|كُلْ} (la hamza disparaît).",
+    "example": { "ar": "أَكَلَ الْوَلَدُ خُبْزًا.", "fr": "Le garçon a mangé du pain." }
+  },
+  {
+    "id": "w:qaddama",
+    "kind": "word",
+    "ar": "قَدَّمَ",
+    "fr": "il a présenté, il a servi (présenter, servir)",
+    "translit": "qaddama",
+    "note": "Avec une shadda sur le {ar|د}. On peut présenter un plat, une idée ou un service : ce qu'on présente est à l'accusatif (fatha), comme au chapitre 14.",
+    "example": { "ar": "قَدَّمَ الْمُوَظَّفُ طَعَامًا.", "fr": "L'employé a servi un repas." }
+  },
+  {
+    "id": "w:ray",
+    "kind": "word",
+    "ar": "رَأْيٌ",
+    "fr": "un avis, une opinion",
+    "translit": "raʾyun",
+    "plural": "آرَاءٌ",
+    "gender": "m",
+    "note": "La hamza porte un sukūn : on dit « raʾyun ». Avec un pronom collé : {ar|رَأْيُكَ} (« ton avis »), {ar|رَأْيِي} (« mon avis »).",
+    "example": { "ar": "مَا رَأْيُكَ؟", "fr": "Quel est ton avis ?" }
+  },
+  {
+    "id": "w:fikra",
+    "kind": "word",
+    "ar": "فِكْرَةٌ",
+    "fr": "une idée",
+    "translit": "fikratun",
+    "plural": "فِكْرَاتٌ",
+    "gender": "f",
+    "note": "On entend aussi très souvent {ar|أَفْكَارٌ} pour dire « des idées ».",
+    "example": { "ar": "عِنْدِي فِكْرَةٌ.", "fr": "J'ai une idée." }
+  },
+  {
+    "id": "w:khidma",
+    "kind": "word",
+    "ar": "خِدْمَةٌ",
+    "fr": "un service",
+    "translit": "khidmatun",
+    "plural": "خِدْمَاتٌ",
+    "gender": "f",
+    "example": { "ar": "هٰذِهِ خِدْمَةٌ جَيِّدَةٌ.", "fr": "C'est un bon service." }
+  },
+  {
+    "id": "p:ma-raik",
+    "kind": "phrase",
+    "ar": "مَا رَأْيُكَ فِي هٰذَا؟",
+    "fr": "Que penses-tu de ceci ?",
+    "translit": "mā raʾyuka fī hādhā",
+    "note": "Pour demander l'avis de quelqu'un : {ar|مَا رَأْيُكَ فِي} + un nom, « quel est ton avis sur… ? ». À une femme : {ar|مَا رَأْيُكِ فِي}."
+  },
+  {
+    "id": "p:hayya-bina",
+    "kind": "phrase",
+    "ar": "هَيَّا بِنَا.",
+    "fr": "Allons-y !",
+    "translit": "hayyā bi-nā",
+    "note": "Pour inviter quelqu'un à partir ou à commencer ensemble. Mot à mot : « allez, avec nous » ({ar|بِ} est une préposition, « avec », suivie de {ar|نَا}, « nous »).",
+    "example": { "ar": "هَيَّا بِنَا إِلَى الْمَطْعَمِ.", "fr": "Allons au restaurant !" }
+  },
+  {
+    "id": "p:turid-an",
+    "kind": "phrase",
+    "ar": "تُرِيدُ أَنْ",
+    "fr": "Tu veux… (à un homme)",
+    "translit": "turīdu an",
+    "note": "On la complète par un verbe : {ar|تُرِيدُ أَنْ تَأْكُلَ؟}. Après {ar|أَنْ}, le verbe au présent change de terminaison ({ar|تَأْكُلُ} devient {ar|تَأْكُلَ}) : tu verras cette règle plus tard.",
+    "example": { "ar": "تُرِيدُ أَنْ تَأْكُلَ؟", "fr": "Veux-tu manger ?" }
+  },
+  {
+    "id": "w:eid",
+    "kind": "word",
+    "ar": "عِيدٌ",
+    "fr": "une fête",
+    "translit": "ʿīdun",
+    "plural": "أَعْيَادٌ",
+    "gender": "m",
+    "note": "Les musulmans ont deux grandes fêtes dans l'année : {ar|عِيدُ الْفِطْرِ} et {ar|عِيدُ الْأَضْحَى} (la fête du sacrifice). On dit que le mot vient de {ar|عَادَ} (« revenir ») : la fête revient chaque année.",
+    "example": { "ar": "يَوْمُ الْعِيدِ قَرِيبٌ.", "fr": "Le jour de la fête est proche." }
+  },
+  {
+    "id": "w:fitr",
+    "kind": "word",
+    "ar": "فِطْرٌ",
+    "fr": "la rupture du jeûne",
+    "translit": "fiṭrun",
+    "gender": "m",
+    "note": "On l'emploie surtout dans {ar|عِيدُ الْفِطْرِ}, la fête qui célèbre la fin du jeûne de Ramadan.",
+    "example": { "ar": "هٰذَا عِيدُ الْفِطْرِ.", "fr": "C'est la fête de la rupture du jeûne." }
+  },
+  {
+    "id": "w:sana",
+    "kind": "word",
+    "ar": "سَنَةٌ",
+    "fr": "une année",
+    "translit": "sanatun",
+    "plural": "سَنَوَاتٌ",
+    "gender": "f",
+    "note": "Au pluriel, le {ar|ة} disparaît et un {ar|و} apparaît : {ar|سَنَوَاتٌ}.",
+    "example": { "ar": "هٰذِهِ سَنَةٌ جَدِيدَةٌ.", "fr": "C'est une nouvelle année." }
+  },
+  {
+    "id": "w:rakaa",
+    "kind": "word",
+    "ar": "رَكْعَةٌ",
+    "fr": "une rakʿa (unité de la prière)",
+    "translit": "rakʿatun",
+    "plural": "رَكَعَاتٌ",
+    "gender": "f",
+    "note": "Le mot vient de {ar|رَكَعَ} (« s'incliner »). Chaque prière rituelle est faite d'un certain nombre de rakʿas : deux pour la prière de l'aube.",
+    "example": { "ar": "فِي الصَّلَاةِ رَكَعَاتٌ.", "fr": "Dans la prière, il y a des rakʿas." }
+  },
+  {
+    "id": "w:hayy",
+    "kind": "word",
+    "ar": "حَيٌّ",
+    "fr": "un quartier",
+    "translit": "ḥayyun",
+    "plural": "أَحْيَاءٌ",
+    "gender": "m",
+    "note": "Le même mot, {ar|حَيٌّ}, veut aussi dire « vivant » : c'est le contexte qui décide. Le {ar|ي} porte une shadda : on prononce « ḥayy ».",
+    "example": { "ar": "الْمَسْجِدُ فِي هٰذَا الْحَيِّ.", "fr": "La mosquée est dans ce quartier." }
+  },
+  {
+    "id": "w:matjar",
+    "kind": "word",
+    "ar": "مَتْجَرٌ",
+    "fr": "un magasin, un commerce",
+    "translit": "matjarun",
+    "plural": "مَتَاجِرُ",
+    "gender": "m",
+    "note": "Un nom de lieu en {ar|مَ} (chapitre 4), de la même famille que {ar|تَاجِرٌ} (un commerçant) et {ar|تِجَارَةٌ} (le commerce) : « l'endroit où l'on fait du commerce ». Son pluriel est de forme longue, sans tanwin.",
+    "example": { "ar": "عِنْدَ التَّاجِرِ مَتْجَرٌ كَبِيرٌ.", "fr": "Le commerçant a un grand magasin." }
+  },
+  {
+    "id": "w:ajala",
+    "kind": "word",
+    "ar": "عَجَلَةٌ",
+    "fr": "une roue",
+    "translit": "ʿajalatun",
+    "plural": "عَجَلَاتٌ",
+    "gender": "f",
+    "note": "La roue d'un vélo, d'une voiture. Le même mot veut aussi dire « hâte, précipitation ».",
+    "example": { "ar": "عَجَلَةُ السَّيَّارَةِ كَبِيرَةٌ.", "fr": "La roue de la voiture est grande." }
+  },
+  {
+    "id": "w:mistara",
+    "kind": "word",
+    "ar": "مِسْطَرَةٌ",
+    "fr": "une règle (pour tracer des lignes)",
+    "translit": "misṭaratun",
+    "plural": "مِسْطَرَاتٌ",
+    "gender": "f",
+    "note": "Un nom d'outil en {ar|مِ}, comme {ar|مِفْتَاحٌ} (« ce qui ouvre ») : {ar|مِسْطَرَةٌ} est « ce qui sert à tracer des lignes » (de {ar|سَطْرٌ}, « une ligne »).",
+    "example": { "ar": "فِي حَقِيبَتِي مِسْطَرَةٌ.", "fr": "Dans mon sac, il y a une règle." }
+  }
+]

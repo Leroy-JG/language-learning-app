@@ -1,0 +1,127 @@
+{
+  "id": "medine-t1.l18.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre",
+  "screens": [
+    {
+      "id": "medine-t1.l18.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hayy",
+      "distractors": ["w:matjar", "w:qarya"]
+    },
+    { "id": "medine-t1.l18.quiz#2", "type": "typing", "ask": "fr", "fr": "deux clés", "answers": ["مِفْتَاحَانِ"] },
+    {
+      "id": "medine-t1.l18.quiz#3",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif ({ar|◌َانِ})" }, { "fr": "accusatif ou génitif ({ar|◌َيْنِ})" } ],
+      "cards": [
+        { "ar": "مُدَرِّسَانِ", "category": 0 },
+        { "ar": "طَبِيبَيْنِ", "category": 1 },
+        { "ar": "الْبَيْتَانِ", "category": 0 },
+        { "ar": "الْكِتَابَيْنِ", "category": 1 },
+        { "ar": "طَالِبَتَيْنِ", "category": 1 }
+      ],
+      "instruction": "Nominatif ou autre cas ? Range chaque duel.",
+      "explain": "L'alif : nominatif. Le yā : accusatif ou génitif."
+    },
+    {
+      "id": "medine-t1.l18.quiz#4",
+      "type": "fill_gap",
+      "sentence": "{0} الْمُدَرِّسَتَانِ مِنْ فَرَنْسَا.",
+      "fr": "Ces deux enseignantes viennent de France.",
+      "gaps": [ { "answers": ["هَاتَانِ"] } ],
+      "options": ["هَاتَانِ", "هٰذَانِ", "هَاتَيْنِ"],
+      "explain": "Deux femmes, sujet de la phrase : {ar|هَاتَانِ}."
+    },
+    {
+      "id": "medine-t1.l18.quiz#5",
+      "type": "fill_gap",
+      "sentence": "كَمْ {0} فِي الْمَطْعَمِ؟",
+      "fr": "Combien d'employés y a-t-il au restaurant ?",
+      "gaps": [ { "answers": ["مُوَظَّفًا"] } ],
+      "options": ["مُوَظَّفًا", "مُوَظَّفُونَ", "مُوَظَّفَانِ"],
+      "explain": "Après {ar|كَمْ} : le singulier, avec le tanwin à la fatha."
+    },
+    {
+      "id": "medine-t1.l18.quiz#6",
+      "type": "true_false",
+      "statement": { "fr": "Le nūn à la fin de {ar|الْكِتَابَانِ} est le signe du nominatif." },
+      "answer": false,
+      "explain": "Le signe du nominatif est l'alif. Le nūn n'est jamais un signe du cas."
+    },
+    {
+      "id": "medine-t1.l18.quiz#7",
+      "type": "question",
+      "prompt": { "fr": "Combien de fenêtres y a-t-il dans la chambre d'Ismāʿīl ?" },
+      "choices": [ { "fr": "Deux" }, { "fr": "Une" }, { "fr": "Quatre" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l18.dialogue-1#1" },
+      "explain": "{ar|فِيهَا نَافِذَتَانِ} : deux fenêtres."
+    },
+    {
+      "id": "medine-t1.l18.quiz#8",
+      "type": "order",
+      "fr": "Le directeur a deux voitures.",
+      "answers": [["لِلْمُدِيرِ", "سَيَّارَتَانِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l18.quiz#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:talaba", "w:arada", "w:akala", "w:qaddama"]
+    },
+    {
+      "id": "medine-t1.l18.quiz#10",
+      "type": "spot",
+      "instruction": "Touche les deux mots au duel.",
+      "words": ["فِي", "الْمَطْعَمِ", "مُوَظَّفَانِ", "جَدِيدَانِ."],
+      "answers": [2, 3],
+      "fr": "Dans le restaurant, il y a deux nouveaux employés."
+    },
+    {
+      "id": "medine-t1.l18.quiz#11",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:tanika",
+      "distractors": ["w:dhanika", "w:hatani"]
+    },
+    {
+      "id": "medine-t1.l18.quiz#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Combien de fenêtres y a-t-il dans ta chambre ?",
+      "answers": ["كَمْ نَافِذَةً فِي غُرْفَتِكَ؟"]
+    },
+    {
+      "id": "medine-t1.l18.quiz#13",
+      "type": "question",
+      "prompt": { "fr": "Quelle phrase répond à {ar|كَمْ أُخْتًا لَكَ؟} ?" },
+      "choices": [ { "ar": "لِي أُخْتَانِ." }, { "ar": "هِيَ أُخْتِي." }, { "ar": "مِنْ فَرَنْسَا." } ],
+      "answer": 0,
+      "explain": "La question demande « combien de sœurs » : {ar|لِي أُخْتَانِ} (« j'ai deux sœurs »)."
+    },
+    {
+      "id": "medine-t1.l18.quiz#14",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:eid", "w:sana", "w:rakaa", "w:fitr"]
+    },
+    {
+      "id": "medine-t1.l18.quiz#15",
+      "type": "true_false",
+      "statement": { "fr": "À la fin du récit, Zayd demande à Muḥammad s'il est rassasié." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l18.dialogue-2#1" },
+      "explain": "{ar|أَأَنْتَ شَبْعَانُ الْآنَ يَا مُحَمَّدُ؟}"
+    },
+    {
+      "id": "medine-t1.l18.quiz#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "deux grandes écoles",
+      "answers": ["مَدْرَسَتَانِ كَبِيرَتَانِ"]
+    }
+  ]
+}

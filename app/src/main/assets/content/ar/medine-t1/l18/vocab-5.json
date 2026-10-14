@@ -1,0 +1,71 @@
+{
+  "id": "medine-t1.l18.vocab-5",
+  "type": "vocabulary",
+  "title": "Le quartier, le magasin, la classe",
+  "icon": "shop",
+  "screens": [
+    { "id": "medine-t1.l18.vocab-5#1", "type": "present", "item": "w:hayy" },
+    { "id": "medine-t1.l18.vocab-5#2", "type": "present", "item": "w:matjar" },
+    {
+      "id": "medine-t1.l18.vocab-5#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hayy",
+      "distractors": ["w:qarya", "w:shari"]
+    },
+    { "id": "medine-t1.l18.vocab-5#4", "type": "present", "item": "w:ajala" },
+    { "id": "medine-t1.l18.vocab-5#5", "type": "present", "item": "w:mistara" },
+    {
+      "id": "medine-t1.l18.vocab-5#6",
+      "type": "tip",
+      "title": "Des mots de la même famille",
+      "blocks": [
+        {
+          "type": "note",
+          "text": "{ar|مَتْجَرٌ} est de la même famille que {ar|تَاجِرٌ} (un commerçant) et {ar|تِجَارَةٌ} (le commerce) : les trois partagent les lettres {ar|ت ج ر}. Tu reconnais le nom de lieu en {ar|مَ} (chapitre 4)."
+        },
+        {
+          "type": "note",
+          "text": "{ar|مِسْطَرَةٌ} commence par {ar|مِ} comme {ar|مِفْتَاحٌ} : ce sont deux noms d'outils (« ce qui ouvre », « ce qui trace les lignes »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.vocab-5#7",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:hayy", "w:matjar", "w:ajala", "w:mistara"]
+    },
+    {
+      "id": "medine-t1.l18.vocab-5#8",
+      "type": "fill_gap",
+      "sentence": "فِي هٰذَا {0} مَسْجِدٌ.",
+      "fr": "Dans ce quartier, il y a une mosquée.",
+      "gaps": [ { "answers": ["الْحَيِّ"] } ],
+      "options": ["الْحَيِّ", "الْمَتْجَرِ", "الْمِسْطَرَةِ"],
+      "explain": "{ar|الْحَيُّ} : le quartier."
+    },
+    {
+      "id": "medine-t1.l18.vocab-5#9",
+      "type": "order",
+      "fr": "La règle est dans mon sac.",
+      "answers": [["الْمِسْطَرَةُ", "فِي", "حَقِيبَتِي"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l18.vocab-5#10",
+      "type": "true_false",
+      "statement": { "fr": "{ar|حَيٌّ} peut aussi vouloir dire « vivant »." },
+      "answer": true,
+      "explain": "C'est le même mot : {ar|حَيٌّ} est « un quartier » ou « vivant », selon la phrase."
+    },
+    {
+      "id": "medine-t1.l18.vocab-5#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le commerçant a un grand magasin.",
+      "answers": ["عِنْدَ التَّاجِرِ مَتْجَرٌ كَبِيرٌ."]
+    },
+    { "id": "medine-t1.l18.vocab-5#12", "type": "typing", "ask": "fr", "item": "w:ajala" }
+  ]
+}

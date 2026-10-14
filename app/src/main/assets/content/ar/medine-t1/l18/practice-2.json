@@ -1,0 +1,120 @@
+{
+  "id": "medine-t1.l18.practice-2",
+  "type": "grammar",
+  "title": "Combien de… ? Complète",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l18.practice-2#1",
+      "type": "tip",
+      "title": "L'exercice du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans le livre, on complète des questions avec le nom qui suit {ar|كَمْ} (le tamyīz), et on écrit sa fin."
+        },
+        { "type": "example", "ar": "كَمْ أُخْتًا لَكَ؟", "fr": "Combien de sœurs as-tu ?" },
+        {
+          "type": "example",
+          "ar": "كَمْ سَيَّارَةً فِي الْجَامِعَةِ؟",
+          "fr": "Combien de voitures y a-t-il à l'université ?"
+        },
+        {
+          "type": "note",
+          "text": "Rappel : le nom est indéfini, au singulier, avec le tanwin à la fatha (avec un alif, sauf après {ar|ة})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.practice-2#2",
+      "type": "fill_gap",
+      "sentence": "كَمْ {0} لَكَ؟",
+      "fr": "Combien de sœurs as-tu ?",
+      "gaps": [ { "answers": ["أُخْتًا"] } ],
+      "options": ["أُخْتًا", "أُخْتَانِ", "أَخَوَاتٌ"],
+      "explain": "Après {ar|كَمْ} : le singulier, avec la fatha."
+    },
+    {
+      "id": "medine-t1.l18.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "كَمْ {0} فِي هٰذَا الشَّارِعِ؟",
+      "fr": "Combien de mosquées y a-t-il dans cette rue ?",
+      "gaps": [ { "answers": ["مَسْجِدًا"] } ],
+      "options": ["مَسْجِدًا", "مَسَاجِدُ", "مَسْجِدٌ"],
+      "explain": "Après {ar|كَمْ} : {ar|مَسْجِدًا}."
+    },
+    {
+      "id": "medine-t1.l18.practice-2#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Combien d'étudiants y a-t-il dans votre classe ?",
+      "answers": ["كَمْ طَالِبًا فِي فَصْلِكُمْ؟"]
+    },
+    {
+      "id": "medine-t1.l18.practice-2#5",
+      "type": "fill_gap",
+      "sentence": "كَمْ {0} فِي قَرْيَتِكَ؟",
+      "fr": "Combien d'écoles y a-t-il dans ton village ?",
+      "gaps": [ { "answers": ["مَدْرَسَةً"] } ],
+      "options": ["مَدْرَسَةً", "مَدَارِسُ", "مَدْرَسَتَانِ"],
+      "explain": "Après {ar|كَمْ} : {ar|مَدْرَسَةً} (fatha sans alif après le {ar|ة})."
+    },
+    {
+      "id": "medine-t1.l18.practice-2#6",
+      "type": "fill_gap",
+      "sentence": "كَمْ {0} فِي السَّنَةِ؟",
+      "fr": "Combien de fêtes y a-t-il dans l'année ?",
+      "gaps": [ { "answers": ["عِيدًا"] } ],
+      "options": ["عِيدًا", "أَعْيَادٌ", "عِيدَانِ"],
+      "explain": "Après {ar|كَمْ} : {ar|عِيدًا}."
+    },
+    {
+      "id": "medine-t1.l18.practice-2#7",
+      "type": "order",
+      "fr": "Combien de roues a le vélo ?",
+      "answers": [["كَمْ", "عَجَلَةً", "لِلدَّرَّاجَةِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l18.practice-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Combien de clés as-tu ?",
+      "answers": ["كَمْ مِفْتَاحًا عِنْدَكَ؟"]
+    },
+    {
+      "id": "medine-t1.l18.practice-2#9",
+      "type": "spot",
+      "instruction": "Touche le nom qui précise {ar|كَمْ}.",
+      "words": ["كَمْ", "سَبُّورَةً", "فِي", "فَصْلِكُمْ؟"],
+      "answers": [1],
+      "fr": "Combien de tableaux y a-t-il dans votre classe ?"
+    },
+    {
+      "id": "medine-t1.l18.practice-2#10",
+      "type": "question",
+      "prompt": { "fr": "Quelle phrase veut dire « Combien de cahiers as-tu ? » ?" },
+      "choices": [
+        { "ar": "كَمْ دَفْتَرًا عِنْدَكَ؟" },
+        { "ar": "كَمْ دَفَاتِرُ عِنْدَكَ؟" },
+        { "ar": "كَمْ دَفْتَرَانِ عِنْدَكَ؟" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|كَمْ} : le singulier à l'accusatif, {ar|دَفْتَرًا}."
+    },
+    {
+      "id": "medine-t1.l18.practice-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Combien de roues a le vélo ?",
+      "answers": ["كَمْ عَجَلَةً لِلدَّرَّاجَةِ؟"]
+    },
+    {
+      "id": "medine-t1.l18.practice-2#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Combien d'écoles y a-t-il dans ce quartier ?",
+      "answers": ["كَمْ مَدْرَسَةً فِي هٰذَا الْحَيِّ؟"]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "medine-t1.l18.grammar-2",
+  "type": "grammar",
+  "title": "Les trois cas du duel",
+  "icon": "hand",
+  "screens": [
+    {
+      "id": "medine-t1.l18.grammar-2#1",
+      "type": "tip",
+      "title": "Un duel qui change de fin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme tous les noms variables, le duel change de fin selon son rôle dans la phrase. Mais ici, ce n'est pas la voyelle qui change : c'est **une lettre**."
+        },
+        {
+          "type": "table",
+          "header": ["Cas", "Signe distinctif", "Fin du duel", "Exemple"],
+          "rows": [
+            ["nominatif ({ar|الرَّفْعُ})", "l'alif ({ar|ا})", "{ar|◌َانِ}", "{ar|الْكِتَابَانِ}"],
+            ["accusatif ({ar|النَّصْبُ})", "le yā ({ar|ي})", "{ar|◌َيْنِ}", "{ar|الْكِتَابَيْنِ}"],
+            ["génitif ({ar|الْجَرُّ})", "le yā ({ar|ي})", "{ar|◌َيْنِ}", "{ar|الْكِتَابَيْنِ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pour retenir : **l'alif** pour le nominatif, **le yā** pour l'accusatif et le génitif."
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "C'est le même principe que pour le pluriel en {ar|◌ُونَ} (chapitre 6) : une lettre porte le cas, au nominatif le {ar|و}, sinon le {ar|ي} ({ar|مُسْلِمُونَ} / {ar|مُسْلِمِينَ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.grammar-2#2",
+      "type": "tip",
+      "title": "Trois exemples",
+      "blocks": [
+        {
+          "type": "example",
+          "ar": "الْكِتَابَانِ فِي الْفَصْلِ.",
+          "fr": "Les deux livres sont dans la salle de classe."
+        },
+        { "type": "example", "ar": "الْقَلَمُ عَلَى الْكِتَابَيْنِ.", "fr": "Le stylo est sur les deux livres." },
+        {
+          "type": "example",
+          "ar": "السَّلَامُ عَلَى الْمُسْلِمَيْنِ.",
+          "fr": "Que la paix soit sur les deux musulmans."
+        },
+        {
+          "type": "paragraph",
+          "text": "{ar|الْكِتَابَانِ} est le sujet ({ar|مُبْتَدَأٌ}) : il est au nominatif ({ar|مَرْفُوعٌ}), et son signe est l'alif. {ar|الْكِتَابَيْنِ} et {ar|الْمُسْلِمَيْنِ} suivent une préposition : ils sont au génitif ({ar|مَجْرُورٌ}), et leur signe est le yā."
+        },
+        {
+          "type": "note",
+          "text": "Pour l'accusatif, le professeur donne {ar|اِشْتَرَيْتُ كِتَابَيْنِ} (« j'ai acheté deux livres »). Le verbe viendra plus tard : retiens seulement la fin {ar|كِتَابَيْنِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.grammar-2#3",
+      "type": "spot",
+      "instruction": "Touche le nom au duel et au génitif.",
+      "words": ["الْقَلَمُ", "فَوْقَ", "الْكِتَابَيْنِ."],
+      "answers": [2],
+      "fr": "Le stylo est au-dessus des deux livres.",
+      "explain": "{ar|فَوْقَ} est suivi d'un nom au génitif : {ar|الْكِتَابَيْنِ} (yā)."
+    },
+    {
+      "id": "medine-t1.l18.grammar-2#4",
+      "type": "tip",
+      "title": "Le nūn ne change jamais",
+      "blocks": [
+        { "type": "paragraph", "text": "Attention à la fin du duel : le {ar|ن} n'est **pas** un signe du cas." },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ce {ar|ن} porte **toujours une kasra**, quel que soit le cas. Cette kasra n'est jamais le signe du cas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le signe du cas, c'est **la lettre qui précède le nūn** : l'alif ou le yā."
+        },
+        {
+          "type": "note",
+          "text": "Ce {ar|ن} remplace seulement le tanwin, qui marque ordinairement un nom indéfini. C'est pourquoi on n'ajoute pas de tanwin à un duel."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.grammar-2#5",
+      "type": "true_false",
+      "statement": { "fr": "La kasra du nūn de {ar|الْكِتَابَيْنِ} est le signe du génitif." },
+      "answer": false,
+      "explain": "Le signe du génitif est le yā. Le nūn a toujours une kasra, au nominatif comme au génitif."
+    },
+    {
+      "id": "medine-t1.l18.grammar-2#6",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|الْقَلَمُ عَلَى الْكِتَابَيْنِ}, quel est le signe du génitif de {ar|الْكِتَابَيْنِ} ?" },
+      "choices": [ { "fr": "Le yā" }, { "fr": "La kasra du nūn" }, { "fr": "L'alif" } ],
+      "answer": 0,
+      "explain": "Le yā, la lettre qui précède le nūn."
+    },
+    {
+      "id": "medine-t1.l18.grammar-2#7",
+      "type": "fill_gap",
+      "sentence": "{0} فِي الْبَيْتِ.",
+      "fr": "Les deux livres sont dans la maison.",
+      "gaps": [ { "answers": ["الْكِتَابَانِ"] } ],
+      "options": ["الْكِتَابَانِ", "الْكِتَابَيْنِ", "الْكِتَابُ"],
+      "explain": "Le sujet est au nominatif : l'alif, {ar|الْكِتَابَانِ}."
+    },
+    {
+      "id": "medine-t1.l18.grammar-2#8",
+      "type": "fill_gap",
+      "sentence": "الْقَلَمُ عَلَى {0}.",
+      "fr": "Le stylo est sur les deux livres.",
+      "gaps": [ { "answers": ["الْكِتَابَيْنِ"] } ],
+      "options": ["الْكِتَابَيْنِ", "الْكِتَابَانِ", "الْكِتَابِ"],
+      "explain": "Après {ar|عَلَى}, le nom est au génitif : le yā, {ar|الْكِتَابَيْنِ}."
+    },
+    {
+      "id": "medine-t1.l18.grammar-2#9",
+      "type": "tip",
+      "title": "L'adjectif et l'attribut suivent",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'adjectif qui décrit un duel, et l'attribut d'un duel, sont eux aussi **au duel**, avec le même cas."
+        },
+        {
+          "type": "example",
+          "ar": "فِي الْبَيْتِ غُرْفَتَانِ كَبِيرَتَانِ.",
+          "fr": "Dans la maison, il y a deux grandes pièces."
+        },
+        { "type": "example", "ar": "الْوَلَدَانِ صَغِيرَانِ.", "fr": "Les deux garçons sont petits." },
+        {
+          "type": "example",
+          "ar": "فِي الْبَيْتَيْنِ الْكَبِيرَيْنِ مَطْبَخَانِ.",
+          "fr": "Dans les deux grandes maisons, il y a deux cuisines."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Des choses au pluriel prennent en général l'adjectif au féminin singulier (chapitre 13) : {ar|غُرَفٌ كَبِيرَةٌ}. Mais pour **deux** choses, l'adjectif suit le duel : {ar|غُرْفَتَانِ كَبِيرَتَانِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.grammar-2#10",
+      "type": "fill_gap",
+      "sentence": "فِي الْبَيْتِ {0} {1}.",
+      "fr": "Dans la maison, il y a deux grandes pièces.",
+      "gaps": [ { "answers": ["غُرْفَتَانِ"] }, { "answers": ["كَبِيرَتَانِ"] } ],
+      "options": ["غُرْفَتَانِ", "كَبِيرَتَانِ", "كَبِيرَانِ", "غُرْفَةٌ"],
+      "explain": "{ar|غُرْفَةٌ} est féminin : l'adjectif aussi, {ar|كَبِيرَتَانِ}. {ar|كَبِيرَانِ} serait pour un nom masculin."
+    },
+    {
+      "id": "medine-t1.l18.grammar-2#11",
+      "type": "order",
+      "fr": "Les deux garçons sont petits.",
+      "answers": [["الْوَلَدَانِ", "صَغِيرَانِ"]],
+      "punctuation": ".",
+      "distractors": ["صَغِيرٌ"]
+    },
+    {
+      "id": "medine-t1.l18.grammar-2#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les deux livres sont dans la salle de classe.",
+      "answers": ["الْكِتَابَانِ فِي الْفَصْلِ."]
+    }
+  ]
+}

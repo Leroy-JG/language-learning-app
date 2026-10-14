@@ -1,0 +1,163 @@
+{
+  "id": "medine-t1.l18.grammar-5",
+  "type": "grammar",
+  "title": "Combien ? {ar|كَمْ}",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l18.grammar-5#1",
+      "type": "tip",
+      "title": "Demander « combien ? »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour demander **combien**, on emploie {ar|كَمْ}. Il sert à interroger sur l'âge, le nombre ou la durée."
+        },
+        {
+          "type": "table",
+          "header": ["On demande…", "Exemple", "Sens"],
+          "rows": [
+            ["l'âge", "{ar|كَمْ عُمْرُكَ؟}", "Quel âge as-tu ? ({ar|عُمْرٌ} : un âge)"],
+            ["le nombre", "{ar|كَمْ طَالِبًا فِي الْفَصْلِ؟}", "Combien d'étudiants y a-t-il dans la classe ?"],
+            [
+              "la durée",
+              "{ar|كَمْ وَقْتًا بَقِيتَ فِي فَرَنْسَا؟}",
+              "Combien de temps es-tu resté en France ? ({ar|وَقْتٌ} : un temps ; {ar|بَقِيتَ} : « tu es resté »)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les mots {ar|عُمْرٌ}, {ar|وَقْتٌ} et le verbe {ar|بَقِيتَ} viendront plus tard : ici, retiens seulement {ar|كَمْ}."
+        }
+      ]
+    },
+    { "id": "medine-t1.l18.grammar-5#2", "type": "present", "item": "w:kam" },
+    {
+      "id": "medine-t1.l18.grammar-5#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kam",
+      "distractors": ["w:ayna", "w:man"],
+      "explain": "{ar|كَمْ} : combien. {ar|أَيْنَ} : où ; {ar|مَنْ} : qui."
+    },
+    {
+      "id": "medine-t1.l18.grammar-5#4",
+      "type": "tip",
+      "title": "Le nom qui suit {ar|كَمْ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le nom qui suit {ar|كَمْ} est, en général, **indéfini**, **au singulier** et **à l'accusatif** : il prend le tanwin avec la fatha. Le professeur l'appelle {ar|التَّمْيِيزُ} (« la précision »)."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "قَلَمٌ", "fr": "un stylo" },
+              "to": { "ar": "كَمْ قَلَمًا؟", "fr": "combien de stylos ?" },
+              "label": "tanwin damma → tanwin fatha, avec un alif"
+            },
+            {
+              "from": { "ar": "أُخْتٌ", "fr": "une sœur" },
+              "to": { "ar": "كَمْ أُخْتًا؟", "fr": "combien de sœurs ?" }
+            },
+            {
+              "from": { "ar": "طَالِبٌ", "fr": "un étudiant" },
+              "to": { "ar": "كَمْ طَالِبًا؟", "fr": "combien d'étudiants ?" }
+            },
+            {
+              "from": { "ar": "نَافِذَةٌ", "fr": "une fenêtre" },
+              "to": { "ar": "كَمْ نَافِذَةً؟", "fr": "combien de fenêtres ?" },
+              "label": "après {ar|ة} : fatha sans alif (chapitre 5)"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Le français dit « combien de **livres** », l'arabe dit en quelque sorte « combien de **livre** » : le nom reste au singulier."
+        },
+        {
+          "type": "note",
+          "text": "On dit « en général » : il existe de rares exceptions, que tu verras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.grammar-5#5",
+      "type": "tip",
+      "title": "Répondre à la question",
+      "blocks": [
+        { "type": "example", "ar": "كَمْ أُخْتًا لَكَ؟", "fr": "Combien de sœurs as-tu ?" },
+        { "type": "example", "ar": "لِي أُخْتَانِ.", "fr": "J'ai deux sœurs." },
+        { "type": "example", "ar": "كَمْ أَخًا لَكَ؟", "fr": "Combien de frères as-tu ?" },
+        { "type": "example", "ar": "لِي أَخٌ وَاحِدٌ.", "fr": "J'ai un seul frère." },
+        {
+          "type": "note",
+          "text": "La réponse met le nom au duel pour deux ({ar|أُخْتَانِ}), et ajoute {ar|وَاحِدٌ} pour un seul."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.grammar-5#6",
+      "type": "question",
+      "prompt": { "fr": "Après {ar|كَمْ}, le nom est en général…" },
+      "choices": [
+        { "fr": "au singulier, indéfini, à l'accusatif" },
+        { "fr": "au pluriel, défini, au nominatif" },
+        { "fr": "au duel, au génitif" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|كَمْ}, on met en général le nom au singulier, indéfini, avec le tanwin à la fatha : {ar|كَمْ كِتَابًا}."
+    },
+    {
+      "id": "medine-t1.l18.grammar-5#7",
+      "type": "spot",
+      "instruction": "Touche le nom qui précise {ar|كَمْ} (le tamyīz).",
+      "words": ["كَمْ", "قَلَمًا", "عِنْدَكَ؟"],
+      "answers": [1],
+      "fr": "Combien de stylos as-tu ?",
+      "explain": "{ar|قَلَمًا} : le nom qui suit {ar|كَمْ}, au singulier, avec le tanwin à la fatha."
+    },
+    {
+      "id": "medine-t1.l18.grammar-5#8",
+      "type": "fill_gap",
+      "sentence": "كَمْ {0} عِنْدَكَ؟",
+      "fr": "Combien de stylos as-tu ?",
+      "gaps": [ { "answers": ["قَلَمًا"] } ],
+      "options": ["قَلَمًا", "قَلَمٌ", "أَقْلَامٌ"],
+      "explain": "Après {ar|كَمْ} : le singulier, avec le tanwin à la fatha."
+    },
+    {
+      "id": "medine-t1.l18.grammar-5#9",
+      "type": "fill_gap",
+      "sentence": "كَمْ {0} فِي غُرْفَتِكَ؟",
+      "fr": "Combien de fenêtres y a-t-il dans ta chambre ?",
+      "gaps": [ { "answers": ["نَافِذَةً"] } ],
+      "options": ["نَافِذَةً", "نَوَافِذُ", "نَافِذَتَانِ"],
+      "explain": "Après {ar|كَمْ} : {ar|نَافِذَةً} (singulier, fatha sans alif après le {ar|ة})."
+    },
+    {
+      "id": "medine-t1.l18.grammar-5#10",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|كَمْ}, on met en général le nom au singulier." },
+      "answer": true,
+      "explain": "Même pour demander plusieurs : {ar|كَمْ كِتَابًا} (« combien de livres ? »)."
+    },
+    {
+      "id": "medine-t1.l18.grammar-5#11",
+      "type": "order",
+      "fr": "Combien de frères as-tu ?",
+      "answers": [["كَمْ", "أَخًا", "لَكَ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l18.grammar-5#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Combien d'étudiants y a-t-il dans la classe ?",
+      "answers": ["كَمْ طَالِبًا فِي الْفَصْلِ؟"]
+    }
+  ]
+}
