@@ -40,7 +40,7 @@ Pour tout ajout ou modification de contenu (`app/src/main/assets/content/`) :
 **Ajouter une leçon : suivre la procédure `.claude/skills/nouvelle-lecon/SKILL.md`** (étape par
 étape, avec la liste de contrôle). **Concevoir une leçon : `docs/pedagogie.md`** (cadre fixe pour la
 cohérence de l'app, palette d'outils à choisir librement pour chaque notion, et méthode pour créer
-un nouveau type d'écran si aucun ne convient). Historique des choix de contenu : `docs/sources.md`.
+un nouveau type d'écran si aucun ne convient). Historique des choix de contenu : `docs/sources.md`. Les QCM notés du professeur (types `test` et `exam`, écran `multi`) : `docs/content-format.md` §9.15 et `docs/sources-quiz.md`.
 
 ## Autres règles
 
