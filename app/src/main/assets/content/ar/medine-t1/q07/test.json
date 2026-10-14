@@ -84,7 +84,7 @@
       "answers": [1, 3],
       "shuffle": false,
       "points": 5,
-      "explain": "En règle générale, ce pluriel concerne des personnes de genre masculin : prénoms, noms et adjectifs. Pour des choses, l'adjectif se met au féminin."
+      "explain": "En règle générale, ce pluriel concerne des personnes de genre masculin : prénoms, noms et adjectifs. Pour des choses, l'adjectif se met au féminin. Beaucoup d'adjectifs de personnes ont pourtant un pluriel irrégulier ({ar|كَبِيرٌ} → {ar|كِبَارٌ}, {ar|طَوِيلٌ} → {ar|طِوَالٌ})."
     },
     {
       "id": "medine-t1.q07.test#8",

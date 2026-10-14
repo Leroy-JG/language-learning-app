@@ -121,7 +121,7 @@
       "answer": 0,
       "shuffle": false,
       "instruction": "Ce nom est-il au duel ou au pluriel ?",
-      "explain": "Le {ar|◌ِينَ} final (kasra, puis fatha sur le nūn) marque le pluriel masculin régulier à l'accusatif ou au génitif.",
+      "explain": "Le {ar|◌ِينَ} final marque le pluriel masculin régulier à l'accusatif ou au génitif : kasra, puis {ar|ي} sans voyelle, puis {ar|نَ} avec une fatha.",
       "points": 5
     },
     {

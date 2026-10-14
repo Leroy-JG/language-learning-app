@@ -57,7 +57,7 @@
       "choices": [ { "fr": "oui" }, { "fr": "non" } ],
       "answer": 1,
       "shuffle": false,
-      "explain": "{ar|مَا} s'emploie pour les choses et les animaux ; pour une personne, on emploie {ar|مَنْ}.",
+      "explain": "En général, {ar|مَا} s'emploie pour les choses et les animaux ; pour une personne, on emploie {ar|مَنْ}.",
       "points": 1
     },
     {
