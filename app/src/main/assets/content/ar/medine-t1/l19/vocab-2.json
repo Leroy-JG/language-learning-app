@@ -1,0 +1,93 @@
+{
+  "id": "medine-t1.l19.vocab-2",
+  "type": "vocabulary",
+  "title": "De six à dix",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l19.vocab-2#1",
+      "type": "tip",
+      "title": "De six à dix",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Même principe : chaque nombre a une forme pour un nom masculin et une pour un nom féminin."
+        },
+        {
+          "type": "table",
+          "header": ["Chiffre", "Avec un nom masculin", "Avec un nom féminin"],
+          "rows": [
+            ["{ar|٦}", "{ar|سِتَّةٌ}", "{ar|سِتٌّ}"],
+            ["{ar|٧}", "{ar|سَبْعَةٌ}", "{ar|سَبْعٌ}"],
+            ["{ar|٨}", "{ar|ثَمَانِيَةٌ}", "{ar|ثَمَانٍ}"],
+            ["{ar|٩}", "{ar|تِسْعَةٌ}", "{ar|تِسْعٌ}"],
+            ["{ar|١٠}", "{ar|عَشَرَةٌ}", "{ar|عَشْرٌ}"]
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t1.l19.vocab-2#2", "type": "present", "item": "w:n-6" },
+    { "id": "medine-t1.l19.vocab-2#3", "type": "present", "item": "w:n-7" },
+    {
+      "id": "medine-t1.l19.vocab-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:n-7",
+      "distractors": ["w:n-6", "w:n-5"]
+    },
+    { "id": "medine-t1.l19.vocab-2#5", "type": "present", "item": "w:n-8" },
+    { "id": "medine-t1.l19.vocab-2#6", "type": "present", "item": "w:n-9" },
+    {
+      "id": "medine-t1.l19.vocab-2#7",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:n-9",
+      "distractors": ["w:n-8", "w:n-7"]
+    },
+    { "id": "medine-t1.l19.vocab-2#8", "type": "present", "item": "w:n-10" },
+    {
+      "id": "medine-t1.l19.vocab-2#9",
+      "type": "question",
+      "prompt": { "fr": "Quel mot écrit le chiffre {ar|٨} ?" },
+      "choices": [ { "ar": "ثَمَانِيَةٌ، ثَمَانٍ" }, { "ar": "تِسْعَةٌ، تِسْعٌ" }, { "ar": "سِتَّةٌ، سِتٌّ" } ],
+      "answer": 0,
+      "explain": "{ar|٨} est huit : {ar|ثَمَانِيَةٌ} avec un nom masculin, {ar|ثَمَانٍ} avec un nom féminin."
+    },
+    {
+      "id": "medine-t1.l19.vocab-2#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:n-6", "w:n-7", "w:n-8", "w:n-9", "w:n-10"]
+    },
+    {
+      "id": "medine-t1.l19.vocab-2#11",
+      "type": "question",
+      "prompt": { "fr": "Quel mot écrit le chiffre {ar|١٠} ?" },
+      "choices": [ { "ar": "عَشَرَةٌ، عَشْرٌ" }, { "ar": "تِسْعَةٌ، تِسْعٌ" }, { "ar": "سَبْعَةٌ، سَبْعٌ" } ],
+      "answer": 0,
+      "explain": "{ar|١٠} est dix : {ar|عَشَرَةٌ} avec un nom masculin, {ar|عَشْرٌ} avec un nom féminin."
+    },
+    {
+      "id": "medine-t1.l19.vocab-2#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "sept",
+      "answers": ["سَبْعَةٌ", "سَبْعٌ"],
+      "explain": "{ar|سَبْعَةٌ} avec un nom masculin, {ar|سَبْعٌ} avec un nom féminin : les deux formes sont justes."
+    },
+    {
+      "id": "medine-t1.l19.vocab-2#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "huit",
+      "answers": ["ثَمَانِيَةٌ", "ثَمَانٍ", "ثَمَانِي"],
+      "explain": "{ar|ثَمَانِيَةٌ} avec un nom masculin ; {ar|ثَمَانٍ} (ou {ar|ثَمَانِي}, devant le nom compté) avec un nom féminin."
+    },
+    {
+      "id": "medine-t1.l19.vocab-2#14",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:n-6", "w:n-7", "w:n-8", "w:n-9", "w:n-10"]
+    }
+  ]
+}

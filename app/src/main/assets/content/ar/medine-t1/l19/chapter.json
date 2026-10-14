@@ -1,0 +1,18 @@
+{
+  "id": "medine-t1.l19",
+  "number": 19,
+  "title": { "ar": "الدَّرْسُ التَّاسِعَ عَشَرَ", "fr": "Les nombres de 1 à 10" },
+  "description": "Compter de un à dix ({ar|وَاحِدٌ}, {ar|اِثْنَانِ}, {ar|ثَلَاثَةٌ}…), accorder le nombre au dénombré (le nombre est de genre contraire), demander {ar|كَمْ} et lire le texte du livre.",
+  "source": "Tome de Médine 1, leçon 19",
+  "sections": [
+    { "title": "Compter de un à dix", "activities": ["vocab-1", "vocab-2"] },
+    { "title": "Compter des choses : de trois à dix", "activities": ["grammar-1", "grammar-2", "practice-1"] },
+    { "title": "Un et deux", "activities": ["grammar-3", "practice-2"] },
+    { "title": "Les sous et les poches", "activities": ["vocab-3"] },
+    { "title": "Combien ?", "activities": ["grammar-4", "practice-3"] },
+    { "title": "Les mots du texte", "activities": ["vocab-4", "vocab-5"] },
+    { "title": "Le texte du livre", "activities": ["dialogue-1", "dialogue-2"] },
+    { "title": "Lis et écris", "activities": ["practice-4", "practice-5"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

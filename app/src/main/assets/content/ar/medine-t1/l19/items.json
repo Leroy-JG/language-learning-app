@@ -1,0 +1,250 @@
+[
+  {
+    "id": "w:wahida",
+    "kind": "word",
+    "ar": "وَاحِدَةٌ",
+    "fr": "une, une seule",
+    "translit": "wāḥidatun",
+    "note": "C'est le féminin de {ar|وَاحِدٌ} (chapitre 10) : on ajoute le {ar|ة}. {ar|وَاحِدٌ} va avec un nom masculin, {ar|وَاحِدَةٌ} avec un nom féminin.",
+    "example": { "ar": "فِي الْفَصْلِ طَالِبَةٌ وَاحِدَةٌ.", "fr": "Il y a une seule étudiante dans la classe." }
+  },
+  {
+    "id": "w:adad",
+    "kind": "word",
+    "ar": "عَدَدٌ",
+    "fr": "un nombre",
+    "translit": "ʿadadun",
+    "plural": "أَعْدَادٌ",
+    "gender": "m",
+    "note": "En grammaire, {ar|الْعَدَدُ} (avec l'article) est « le nombre » : par exemple {ar|ثَلَاثَةٌ} dans {ar|ثَلَاثَةُ كُتُبٍ}. Le mot vient du verbe {ar|عَدَّ} (« il a compté »).",
+    "example": { "ar": "مَا عَدَدُ الطُّلَّابِ؟", "fr": "Quel est le nombre d'étudiants ?" }
+  },
+  {
+    "id": "w:n-2",
+    "kind": "word",
+    "ar": "اِثْنَانِ، اِثْنَتَانِ",
+    "fr": "deux",
+    "translit": "ithnāni، ithnatāni",
+    "note": "{ar|اِثْنَانِ} avec un nom masculin, {ar|اِثْنَتَانِ} avec un nom féminin. L'alif du début est un alif de liaison (sans hamza). Ce sont les formes du nominatif : dans un autre rôle, elles deviennent {ar|اِثْنَيْنِ} et {ar|اِثْنَتَيْنِ} (comme dans {ar|يَوْمُ الِاثْنَيْنِ}, lundi)."
+  },
+  {
+    "id": "w:n-3",
+    "kind": "word",
+    "ar": "ثَلَاثَةٌ، ثَلَاثٌ",
+    "fr": "trois",
+    "translit": "thalāthatun، thalāthun",
+    "note": "Avec un nom masculin : {ar|ثَلَاثَةٌ}. Avec un nom féminin : {ar|ثَلَاثٌ}. C'est le contraire de ce qu'on attend : tu comprendras pourquoi dans la leçon de grammaire.",
+    "example": { "ar": "لِي ثَلَاثَةُ كُتُبٍ.", "fr": "J'ai trois livres." }
+  },
+  {
+    "id": "w:n-4",
+    "kind": "word",
+    "ar": "أَرْبَعَةٌ، أَرْبَعٌ",
+    "fr": "quatre",
+    "translit": "arbaʿatun، arbaʿun",
+    "note": "Avec un nom masculin : {ar|أَرْبَعَةٌ}. Avec un nom féminin : {ar|أَرْبَعٌ}.",
+    "example": { "ar": "فِي الْغُرْفَةِ أَرْبَعُ نَوَافِذَ.", "fr": "Il y a quatre fenêtres dans la pièce." }
+  },
+  {
+    "id": "w:n-5",
+    "kind": "word",
+    "ar": "خَمْسَةٌ، خَمْسٌ",
+    "fr": "cinq",
+    "translit": "khamsatun، khamsun",
+    "note": "Avec un nom masculin : {ar|خَمْسَةٌ}. Avec un nom féminin : {ar|خَمْسٌ}.",
+    "example": { "ar": "فِي الْفَصْلِ خَمْسُ طَالِبَاتٍ.", "fr": "Il y a cinq étudiantes dans la classe." }
+  },
+  {
+    "id": "w:n-6",
+    "kind": "word",
+    "ar": "سِتَّةٌ، سِتٌّ",
+    "fr": "six",
+    "translit": "sittatun، sittun",
+    "note": "Avec un nom masculin : {ar|سِتَّةٌ}. Avec un nom féminin : {ar|سِتٌّ}. Dans les deux formes, le {ar|ت} porte une shadda.",
+    "example": { "ar": "فِي الْبَيْتِ سِتُّ غُرَفٍ.", "fr": "Il y a six pièces dans la maison." }
+  },
+  {
+    "id": "w:n-7",
+    "kind": "word",
+    "ar": "سَبْعَةٌ، سَبْعٌ",
+    "fr": "sept",
+    "translit": "sabʿatun، sabʿun",
+    "note": "Avec un nom masculin : {ar|سَبْعَةٌ}. Avec un nom féminin : {ar|سَبْعٌ}.",
+    "example": { "ar": "فِي الْأُسْبُوعِ سَبْعَةُ أَيَّامٍ.", "fr": "Il y a sept jours dans la semaine." }
+  },
+  {
+    "id": "w:n-8",
+    "kind": "word",
+    "ar": "ثَمَانِيَةٌ، ثَمَانٍ",
+    "fr": "huit",
+    "translit": "thamāniyatun، thamānin",
+    "note": "Avec un nom masculin : {ar|ثَمَانِيَةٌ}. Avec un nom féminin : {ar|ثَمَانٍ}, mais devant le nom compté le {ar|ي} revient (tu le verras dans la leçon de grammaire).",
+    "example": { "ar": "عِنْدِي ثَمَانِيَةُ أَقْلَامٍ.", "fr": "J'ai huit stylos." }
+  },
+  {
+    "id": "w:n-9",
+    "kind": "word",
+    "ar": "تِسْعَةٌ، تِسْعٌ",
+    "fr": "neuf",
+    "translit": "tisʿatun، tisʿun",
+    "note": "Avec un nom masculin : {ar|تِسْعَةٌ}. Avec un nom féminin : {ar|تِسْعٌ}.",
+    "example": { "ar": "فِي هٰذَا الشَّارِعِ تِسْعَةُ بُيُوتٍ.", "fr": "Dans cette rue, il y a neuf maisons." }
+  },
+  {
+    "id": "w:n-10",
+    "kind": "word",
+    "ar": "عَشَرَةٌ، عَشْرٌ",
+    "fr": "dix",
+    "translit": "ʿasharatun، ʿashrun",
+    "note": "Avec un nom masculin : {ar|عَشَرَةٌ}, avec une fatha sur le {ar|ش}. Avec un nom féminin : {ar|عَشْرٌ}, avec un sukūn sur le {ar|ش}.",
+    "example": { "ar": "فِي الْفَصْلِ عَشَرَةُ طُلَّابٍ.", "fr": "Il y a dix étudiants dans la classe." }
+  },
+  {
+    "id": "w:maadud",
+    "kind": "word",
+    "ar": "الْمَعْدُودُ",
+    "fr": "le dénombré",
+    "translit": "al-maʿdūdu",
+    "gender": "m",
+    "note": "Ce qu'on compte : dans « trois livres », c'est « livres ». Comme {ar|الْعَدَدُ}, le mot vient du verbe {ar|عَدَّ} (« il a compté »)."
+  },
+  {
+    "id": "w:riyal",
+    "kind": "word",
+    "ar": "رِيَالٌ",
+    "fr": "un riyal (monnaie saoudienne)",
+    "translit": "riyālun",
+    "plural": "رِيَالَاتٌ",
+    "gender": "m",
+    "note": "Le riyal est la monnaie de l'Arabie saoudite. Son pluriel {ar|رِيَالَاتٌ} se termine par {ar|◌َاتٌ}, comme beaucoup de pluriels féminins, mais {ar|رِيَالٌ} est un nom **masculin**.",
+    "example": { "ar": "لِي عَشَرَةُ رِيَالَاتٍ.", "fr": "J'ai dix riyals." }
+  },
+  {
+    "id": "w:qirsh",
+    "kind": "word",
+    "ar": "قِرْشٌ",
+    "fr": "un qirsh (petite pièce saoudienne)",
+    "translit": "qirshun",
+    "plural": "قُرُوشٌ",
+    "gender": "m",
+    "note": "Le qirsh est une petite subdivision du riyal.",
+    "example": { "ar": "لِي أَرْبَعَةُ قُرُوشٍ.", "fr": "J'ai quatre qirsh." }
+  },
+  {
+    "id": "w:thaman",
+    "kind": "word",
+    "ar": "ثَمَنٌ",
+    "fr": "un prix",
+    "translit": "thamanun",
+    "plural": "أَثْمَانٌ",
+    "gender": "m",
+    "note": "Ne confonds pas {ar|ثَمَنٌ} (un prix) et {ar|ثَمَانِيَةٌ} (huit) : ils commencent par les mêmes lettres, mais ce sont deux mots différents.",
+    "example": { "ar": "ثَمَنُ الْكِتَابِ ثَلَاثَةُ رِيَالَاتٍ.", "fr": "Le prix du livre est de trois riyals." }
+  },
+  {
+    "id": "w:jayb",
+    "kind": "word",
+    "ar": "جَيْبٌ",
+    "fr": "une poche",
+    "translit": "jaybun",
+    "plural": "جُيُوبٌ",
+    "gender": "m",
+    "note": "{ar|جَيْبِي} : {ar|جَيْبٌ} + {ar|ي} (« ma »).",
+    "example": { "ar": "فِي جَيْبِي خَمْسَةُ رِيَالَاتٍ.", "fr": "Dans ma poche, il y a cinq riyals." }
+  },
+  {
+    "id": "w:nisf",
+    "kind": "word",
+    "ar": "نِصْفٌ",
+    "fr": "une moitié",
+    "translit": "nisfun",
+    "plural": "أَنْصَافٌ",
+    "gender": "m",
+    "note": "Dans l'exemple, {ar|نِصْفَ} prend une fatha : c'est la chose que Zayd a mémorisée (tu verras cette fonction plus tard). {ar|الْقُرْآنِ} est le second terme de l'annexion, au génitif.",
+    "example": { "ar": "حَفِظَ زَيْدٌ نِصْفَ الْقُرْآنِ.", "fr": "Zayd a mémorisé la moitié du Coran." }
+  },
+  {
+    "id": "w:kam",
+    "kind": "word",
+    "ar": "كَمْ",
+    "fr": "combien… ?",
+    "translit": "kam",
+    "note": "Nom interrogatif de la quantité. Comme {ar|مَا}, {ar|مَنْ}, {ar|أَيْنَ} et {ar|مَتَى}, il est invariable et se place en tête de la question. Attention : {ar|كَمْ} (« combien ») a une fatha ; {ar|كُمْ} (« votre », chapitre 10) a une damma.",
+    "example": { "ar": "كَمْ كِتَابًا عِنْدَكَ؟", "fr": "Combien de livres as-tu ? (à un homme)" }
+  },
+  {
+    "id": "w:rakib",
+    "kind": "word",
+    "ar": "رَاكِبٌ",
+    "fr": "un passager",
+    "translit": "rākibun",
+    "plural": "رُكَّابٌ",
+    "gender": "m",
+    "note": "Celui qui monte dans un véhicule (ou sur une monture : le mot veut aussi dire « cavalier »).",
+    "example": { "ar": "الطُّلَّابُ رُكَّابٌ فِي السَّيَّارَةِ.", "fr": "Les étudiants sont des passagers dans la voiture." }
+  },
+  {
+    "id": "w:kull",
+    "kind": "word",
+    "ar": "كُلٌّ",
+    "fr": "tout, tous",
+    "translit": "kullun",
+    "note": "Collé à un pronom, il veut dire « tous » : {ar|كُلُّهُمْ} (eux tous), {ar|كُلُّنَا} (nous tous). Devant un nom indéfini singulier, il veut dire « chaque » : {ar|كُلُّ طَالِبٍ} (chaque étudiant). Il est alors premier terme d'annexion : pas de tanwin.",
+    "example": { "ar": "الطُّلَّابُ كُلُّهُمْ فِي الْفَصْلِ.", "fr": "Les étudiants sont tous dans la classe." }
+  },
+  {
+    "id": "w:mukhtalif",
+    "kind": "word",
+    "ar": "مُخْتَلِفٌ",
+    "fr": "différent, divergent",
+    "translit": "mukhtalifun",
+    "plural": "مُخْتَلِفُونَ",
+    "note": "Féminin : {ar|مُخْتَلِفَةٌ}. Pour des personnes au masculin pluriel : {ar|مُخْتَلِفُونَ}. Pour plusieurs choses, on met en général le féminin singulier : {ar|بِلَادٌ مُخْتَلِفَةٌ} (des pays différents). Avec {ar|فِي}, il veut dire « être en désaccord sur » : {ar|هُمْ مُخْتَلِفُونَ فِي هٰذَا} (ils divergent sur ce point).",
+    "example": { "ar": "لُغَاتُهُمْ مُخْتَلِفَةٌ.", "fr": "Leurs langues sont différentes." }
+  },
+  {
+    "id": "w:shukran",
+    "kind": "word",
+    "ar": "شُكْرًا",
+    "fr": "merci",
+    "translit": "shukran",
+    "note": "Le mot veut dire « remerciement ». On ajoute {ar|لَكَ} (« à toi ») : {ar|شُكْرًا لَكَ}. Le tanwin à la fatha est le même que dans {ar|مَرْحَبًا} et {ar|أَهْلًا وَسَهْلًا} (chapitre 14).",
+    "example": { "ar": "شُكْرًا لَكَ.", "fr": "Merci à toi. (à un homme)" }
+  },
+  {
+    "id": "w:malizya",
+    "kind": "word",
+    "ar": "مَالِيزِيَا",
+    "fr": "la Malaisie",
+    "translit": "mālīziyā",
+    "note": "Un nom de pays qui se termine par un alif long : il ne change pas à l'écrit, comme {ar|تُرْكِيَا} (chapitre 14) : {ar|مِنْ مَالِيزِيَا}.",
+    "example": { "ar": "طَالِبٌ وَاحِدٌ مِنْ مَالِيزِيَا.", "fr": "Un seul étudiant de Malaisie." }
+  },
+  {
+    "id": "w:uruba",
+    "kind": "word",
+    "ar": "أُورُبَّا",
+    "fr": "l'Europe",
+    "translit": "ʾūrubbā",
+    "note": "On trouve aussi l'écriture {ar|أُورُوبَّا}. Le nom se termine par un alif long : il ne change pas à l'écrit.",
+    "example": { "ar": "فَرَنْسَا فِي أُورُبَّا.", "fr": "La France est en Europe." }
+  },
+  {
+    "id": "w:inkiltira",
+    "kind": "word",
+    "ar": "إِنْكِلْتِرَا",
+    "fr": "l'Angleterre",
+    "translit": "ʾinkiltirā",
+    "note": "Le nom se termine par un alif long : il ne change pas à l'écrit : {ar|مِنْ إِنْكِلْتِرَا}.",
+    "example": { "ar": "لَنْدَنُ فِي إِنْكِلْتِرَا.", "fr": "Londres est en Angleterre." }
+  },
+  {
+    "id": "w:qudama",
+    "kind": "word",
+    "ar": "قُدَامَى",
+    "fr": "anciens",
+    "translit": "qudāmā",
+    "note": "Pluriel de {ar|قَدِيمٌ} (« ancien ») : ici, des étudiants qui étaient déjà là avant les nouveaux ({ar|جُدُدٌ}). Comme {ar|كُسَالَى} (chapitre 9), ce pluriel se termine par {ar|ى} et n'a jamais de tanwin.",
+    "example": { "ar": "فِي هٰذَا الْفَصْلِ طُلَّابٌ قُدَامَى.", "fr": "Dans cette classe, il y a d'anciens étudiants." }
+  }
+]

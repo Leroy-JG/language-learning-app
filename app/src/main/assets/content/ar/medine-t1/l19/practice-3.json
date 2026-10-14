@@ -1,0 +1,103 @@
+{
+  "id": "medine-t1.l19.practice-3",
+  "type": "grammar",
+  "title": "Réponds avec le nombre",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l19.practice-3#1",
+      "type": "tip",
+      "title": "L'exercice du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans le livre, on te pose des questions avec {ar|كَمْ} et tu réponds avec le nombre donné entre parenthèses."
+        },
+        { "type": "example", "ar": "كَمْ كِتَابًا عِنْدَكَ؟", "fr": "Combien de livres as-tu ? ({ar|٣})" },
+        { "type": "example", "ar": "عِنْدِي ثَلَاثَةُ كُتُبٍ.", "fr": "J'ai trois livres." },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Le dénombré est masculin ({ar|كِتَابٌ}) : le nombre prend le {ar|ة}. Pense à regarder le genre du singulier avant de répondre."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.practice-3#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ أَخًا لَكَ يَا حَامِدُ؟",
+      "answers": [
+        "لِي خَمْسَةُ إِخْوَةٍ.",
+        "عِنْدِي خَمْسَةُ إِخْوَةٍ.",
+        "خَمْسَةُ إِخْوَةٍ.",
+        "لِي خَمْسَةُ إِخْوَانٍ.",
+        "عِنْدِي خَمْسَةُ إِخْوَانٍ.",
+        "خَمْسَةُ إِخْوَانٍ."
+      ],
+      "fr": "J'ai cinq frères.",
+      "instruction": "Réponds avec le nombre {ar|٥}.",
+      "explain": "{ar|أَخٌ} est masculin : {ar|خَمْسَةُ إِخْوَةٍ}. Le pluriel {ar|إِخْوَانٌ} est aussi possible."
+    },
+    {
+      "id": "medine-t1.l19.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "كَمْ عَمًّا لَكِ يَا لَيْلَى؟ لِي {0} أَعْمَامٍ.",
+      "fr": "Combien d'oncles as-tu, Laylā ? J'ai quatre oncles.",
+      "gaps": [ { "answers": ["أَرْبَعَةُ"] } ],
+      "options": ["أَرْبَعَةُ", "أَرْبَعُ", "خَمْسَةُ"],
+      "explain": "{ar|عَمٌّ} est masculin : le nombre prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l19.practice-3#4",
+      "type": "order",
+      "fr": "J'ai six filles.",
+      "answers": [["لِي", "سِتُّ", "بَنَاتٍ"]],
+      "punctuation": ".",
+      "explain": "{ar|بِنْتٌ} est féminin : le nombre est sans {ar|ة}. Question du livre : {ar|كَمْ بِنْتًا لَكَ يَا شَيْخُ؟}"
+    },
+    {
+      "id": "medine-t1.l19.practice-3#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ مَسْجِدًا فِي هٰذَا الشَّارِعِ؟",
+      "answers": ["فِي هٰذَا الشَّارِعِ ثَمَانِيَةُ مَسَاجِدَ.", "ثَمَانِيَةُ مَسَاجِدَ.", "فِيهِ ثَمَانِيَةُ مَسَاجِدَ."],
+      "fr": "Il y a huit mosquées dans cette rue.",
+      "instruction": "Réponds avec le nombre {ar|٨}.",
+      "explain": "{ar|مَسْجِدٌ} est masculin : {ar|ثَمَانِيَةُ}. {ar|مَسَاجِدُ} est sans tanwin : après le nombre, il prend la fatha."
+    },
+    {
+      "id": "medine-t1.l19.practice-3#6",
+      "type": "fill_gap",
+      "sentence": "كَمْ رِيَالًا فِي جَيْبِكَ؟ فِي جَيْبِي {0} رِيَالَاتٍ.",
+      "fr": "Combien de riyals as-tu dans ta poche ? J'ai sept riyals dans ma poche.",
+      "gaps": [ { "answers": ["سَبْعَةُ"] } ],
+      "options": ["سَبْعَةُ", "سَبْعُ", "سِتَّةُ"],
+      "explain": "{ar|رِيَالٌ} est masculin : le nombre prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l19.practice-3#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ ثَمَنُ هٰذَا الْكِتَابِ؟",
+      "answers": ["ثَمَنُهُ عَشَرَةُ رِيَالَاتٍ.", "عَشَرَةُ رِيَالَاتٍ.", "ثَمَنُ الْكِتَابِ عَشَرَةُ رِيَالَاتٍ."],
+      "fr": "Il coûte dix riyals.",
+      "instruction": "Réponds avec le nombre {ar|١٠}."
+    },
+    {
+      "id": "medine-t1.l19.practice-3#8",
+      "type": "question",
+      "prompt": { "fr": "{ar|كَمْ ثَمَنُ هٰذَا الْقَلَمِ؟ ثَمَنُهُ أَرْبَعَةُ قُرُوشٍ.} Combien coûte le stylo ?" },
+      "choices": [ { "fr": "Quatre qirsh" }, { "fr": "Quatre riyals" }, { "fr": "Quatre stylos" } ],
+      "answer": 0,
+      "explain": "{ar|أَرْبَعَةُ قُرُوشٍ} : quatre qirsh."
+    },
+    {
+      "id": "medine-t1.l19.practice-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai cinq livres.",
+      "answers": ["عِنْدِي خَمْسَةُ كُتُبٍ.", "لِي خَمْسَةُ كُتُبٍ."]
+    }
+  ]
+}

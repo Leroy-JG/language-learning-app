@@ -1,0 +1,116 @@
+{
+  "id": "medine-t1.l19.practice-4",
+  "type": "grammar",
+  "title": "Compte les étudiants",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l19.practice-4#1",
+      "type": "tip",
+      "title": "L'exercice du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans le livre, on te fait lire et écrire les nombres de 3 à 10 avec {ar|طُلَّابٌ}, puis avec d'autres noms. Tous ces noms sont masculins : le nombre prend donc le {ar|ة}."
+        },
+        {
+          "type": "table",
+          "header": ["Chiffre", "Lecture"],
+          "rows": [
+            ["{ar|٣}", "{ar|ثَلَاثَةُ طُلَّابٍ}"],
+            ["{ar|٤}", "{ar|أَرْبَعَةُ طُلَّابٍ}"],
+            ["{ar|٥}", "{ar|خَمْسَةُ طُلَّابٍ}"],
+            ["{ar|٦}", "{ar|سِتَّةُ طُلَّابٍ}"],
+            ["{ar|٧}", "{ar|سَبْعَةُ طُلَّابٍ}"],
+            ["{ar|٨}", "{ar|ثَمَانِيَةُ طُلَّابٍ}"],
+            ["{ar|٩}", "{ar|تِسْعَةُ طُلَّابٍ}"],
+            ["{ar|١٠}", "{ar|عَشَرَةُ طُلَّابٍ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.practice-4#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:kitab", "w:qalam", "w:tajir", "w:rajul", "w:talib"]
+    },
+    {
+      "id": "medine-t1.l19.practice-4#3",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "trois étudiants",
+      "answers": ["ثَلَاثَةُ طُلَّابٍ"]
+    },
+    {
+      "id": "medine-t1.l19.practice-4#4",
+      "type": "fill_gap",
+      "sentence": "{0} رِجَالٍ",
+      "fr": "six hommes",
+      "gaps": [ { "answers": ["سِتَّةُ"] } ],
+      "options": ["سِتَّةُ", "سِتُّ", "سَبْعَةُ"],
+      "explain": "{ar|رَجُلٌ} est masculin : le nombre prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l19.practice-4#5",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Six étudiants.",
+      "answers": ["سِتَّةُ طُلَّابٍ."]
+    },
+    {
+      "id": "medine-t1.l19.practice-4#6",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:riyal", "w:qirsh", "w:akh", "w:ibn", "w:jayb"]
+    },
+    {
+      "id": "medine-t1.l19.practice-4#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "neuf riyals",
+      "answers": ["تِسْعَةُ رِيَالَاتٍ"]
+    },
+    {
+      "id": "medine-t1.l19.practice-4#8",
+      "type": "order",
+      "fr": "J'ai cinq qirsh.",
+      "answers": [["لِي", "خَمْسَةُ", "قُرُوشٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l19.practice-4#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "trois frères",
+      "answers": ["ثَلَاثَةُ إِخْوَةٍ", "ثَلَاثَةُ إِخْوَانٍ"],
+      "explain": "{ar|أَخٌ} a deux pluriels : {ar|إِخْوَةٌ} (les frères de sang) et {ar|إِخْوَانٌ} (aussi les frères en religion ou en amitié)."
+    },
+    {
+      "id": "medine-t1.l19.practice-4#10",
+      "type": "fill_gap",
+      "sentence": "{0} أَبْنَاءٍ",
+      "fr": "sept fils",
+      "gaps": [ { "answers": ["سَبْعَةُ"] } ],
+      "options": ["سَبْعَةُ", "سَبْعُ", "ثَمَانِيَةُ"],
+      "explain": "{ar|اِبْنٌ} est masculin : le nombre prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l19.practice-4#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ رَاكِبًا فِي السَّيَّارَةِ؟",
+      "answers": ["فِي السَّيَّارَةِ خَمْسَةُ رُكَّابٍ.", "خَمْسَةُ رُكَّابٍ.", "فِيهَا خَمْسَةُ رُكَّابٍ."],
+      "fr": "Il y a cinq passagers dans la voiture.",
+      "instruction": "Réponds avec le nombre {ar|٥}.",
+      "explain": "{ar|رَاكِبٌ} est masculin : le nombre prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l19.practice-4#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "quatre commerçants",
+      "answers": ["أَرْبَعَةُ تُجَّارٍ"]
+    }
+  ]
+}

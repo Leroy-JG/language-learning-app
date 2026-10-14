@@ -53,7 +53,7 @@ object ArabicScript {
     fun problems(text: String): List<String> {
         val s = nfc(text)
         val out = mutableListOf<String>()
-        if (s.none { isLetter(it) || it == CIRCLE }) out += "texte arabe sans lettre arabe : « $s »"
+        if (s.none { isLetter(it) || it == CIRCLE || isArabicDigit(it) }) out += "texte arabe sans lettre arabe : « $s »"
         var prev: Char? = null
         for ((i, c) in s.withIndex()) {
             when {

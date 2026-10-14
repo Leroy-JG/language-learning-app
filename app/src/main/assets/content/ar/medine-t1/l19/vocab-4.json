@@ -1,0 +1,109 @@
+{
+  "id": "medine-t1.l19.vocab-4",
+  "type": "vocabulary",
+  "title": "Tous, différent, merci",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t1.l19.vocab-4#1", "type": "present", "item": "w:kull" },
+    { "id": "medine-t1.l19.vocab-4#2", "type": "present", "item": "w:mukhtalif" },
+    {
+      "id": "medine-t1.l19.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kull",
+      "distractors": ["w:bad", "w:nas"]
+    },
+    {
+      "id": "medine-t1.l19.vocab-4#4",
+      "type": "tip",
+      "title": "{ar|كُلٌّ} avec un pronom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Collé à un pronom, {ar|كُلٌّ} perd son tanwin et prend la damma : c'est le premier terme d'une annexion."
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Sens"],
+          "rows": [
+            ["{ar|كُلُّهُمْ}", "eux tous"],
+            ["{ar|كُلُّهُنَّ}", "elles toutes"],
+            ["{ar|كُلُّكُمْ}", "vous tous"],
+            ["{ar|كُلُّنَا}", "nous tous"]
+          ]
+        },
+        {
+          "type": "example",
+          "ar": "الطُّلَّابُ كُلُّهُمْ فِي الْفَصْلِ.",
+          "fr": "Les étudiants sont tous dans la classe."
+        },
+        {
+          "type": "note",
+          "text": "Devant un nom indéfini au singulier, {ar|كُلُّ} veut dire « chaque » : {ar|كُلُّ طَالِبٍ} (chaque étudiant)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.vocab-4#5",
+      "type": "fill_gap",
+      "sentence": "الطُّلَّابُ {0} فِي الْفَصْلِ.",
+      "fr": "Les étudiants sont tous dans la classe.",
+      "gaps": [ { "answers": ["كُلُّهُمْ"] } ],
+      "options": ["كُلُّهُمْ", "بَعْضُهُمْ", "كُلُّهُنَّ"],
+      "explain": "{ar|كُلُّهُمْ} : « eux tous ». {ar|بَعْضُهُمْ} voudrait dire « certains d'entre eux », et {ar|كُلُّهُنَّ} s'emploie pour des femmes."
+    },
+    { "id": "medine-t1.l19.vocab-4#6", "type": "present", "item": "w:rakib" },
+    { "id": "medine-t1.l19.vocab-4#7", "type": "present", "item": "w:shukran" },
+    {
+      "id": "medine-t1.l19.vocab-4#8",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:shukran",
+      "distractors": ["w:marhaban", "w:hasanan"]
+    },
+    {
+      "id": "medine-t1.l19.vocab-4#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:kull", "w:mukhtalif", "w:rakib", "w:shukran"]
+    },
+    {
+      "id": "medine-t1.l19.vocab-4#10",
+      "type": "fill_gap",
+      "sentence": "هُمْ مِنْ بِلَادٍ {0}.",
+      "fr": "Ils viennent de pays différents.",
+      "gaps": [ { "answers": ["مُخْتَلِفَةٍ"] } ],
+      "options": ["مُخْتَلِفَةٍ", "مُخْتَلِفٍ", "مُخْتَلِفِينَ"],
+      "explain": "{ar|بِلَادٌ} est un pluriel de choses : l'adjectif se met en général au féminin singulier ({ar|مُخْتَلِفَةٍ}, au génitif après {ar|مِنْ})."
+    },
+    {
+      "id": "medine-t1.l19.vocab-4#11",
+      "type": "order",
+      "fr": "Leurs langues sont différentes.",
+      "answers": [["لُغَاتُهُمْ", "مُخْتَلِفَةٌ"]],
+      "punctuation": ".",
+      "explain": "{ar|لُغَاتٌ} est un pluriel de choses : l'adjectif est au féminin singulier. {ar|لُغَاتُهُمْ} : {ar|لُغَاتٌ} + {ar|هُمْ} (« leurs »)."
+    },
+    {
+      "id": "medine-t1.l19.vocab-4#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Merci à toi. (à un homme)",
+      "answers": ["شُكْرًا لَكَ."]
+    },
+    {
+      "id": "medine-t1.l19.vocab-4#13",
+      "type": "true_false",
+      "statement": { "fr": "{ar|شُكْرًا لَكِ} s'adresse à une femme." },
+      "answer": true,
+      "explain": "{ar|لَكَ} s'adresse à un homme, {ar|لَكِ} à une femme (chapitre 12)."
+    },
+    {
+      "id": "medine-t1.l19.vocab-4#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les étudiants sont tous dans la classe.",
+      "answers": ["الطُّلَّابُ كُلُّهُمْ فِي الْفَصْلِ."]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "medine-t1.l19.grammar-4",
+  "type": "grammar",
+  "title": "Combien ? {ar|كَمْ}",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l19.grammar-4#1",
+      "type": "tip",
+      "title": "Demander la quantité",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour demander « combien ? », on emploie {ar|كَمْ}. C'est un nom interrogatif de plus, après {ar|مَا}, {ar|مَنْ}, {ar|أَيْنَ}, {ar|كَيْفَ}, {ar|أَيُّ} et {ar|مَتَى} (chapitre 15) : il demande la quantité."
+        }
+      ]
+    },
+    { "id": "medine-t1.l19.grammar-4#2", "type": "present", "item": "w:kam" },
+    {
+      "id": "medine-t1.l19.grammar-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kam",
+      "distractors": ["w:ayna", "w:mata"]
+    },
+    {
+      "id": "medine-t1.l19.grammar-4#4",
+      "type": "tip",
+      "title": "{ar|كَمْ} + le nom compté",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand {ar|كَمْ} est directement suivi du nom qu'on compte, ce nom se met en général **au singulier** et **à l'accusatif** (fatha et tanwin). En français, on dit « combien de livres » avec un pluriel ; en arabe, le nom reste au singulier."
+        },
+        {
+          "type": "breakdown",
+          "ar": "كَمْ كِتَابًا عِنْدَكَ؟",
+          "fr": "Combien de livres as-tu ?",
+          "parts": [
+            { "ar": "كَمْ", "fr": "combien" },
+            { "ar": "كِتَابًا", "fr": "livre (singulier, accusatif)" },
+            { "ar": "عِنْدَكَ", "fr": "chez toi" }
+          ]
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "كِتَابٌ", "fr": "un livre" },
+              "to": { "ar": "كَمْ كِتَابًا", "fr": "combien de livres" },
+              "label": "damma → fatha, et le nom reste au singulier"
+            },
+            {
+              "from": { "ar": "طَالِبٌ", "fr": "un étudiant" },
+              "to": { "ar": "كَمْ طَالِبًا", "fr": "combien d'étudiants" }
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "ar": "كَمْ طَالِبًا جَدِيدًا فِي فَصْلِكَ؟",
+          "fr": "Combien de nouveaux étudiants y a-t-il dans ta classe ? (l'adjectif aussi est au singulier, à l'accusatif)"
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.grammar-4#5",
+      "type": "tip",
+      "title": "Combien coûte… ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour demander un prix, on dit {ar|كَمْ ثَمَنُ} suivi du nom : mot à mot « combien est le prix de… ? ». Ici, {ar|ثَمَنُ} n'est pas ce qu'on compte : c'est le sujet, au nominatif."
+        },
+        { "type": "example", "ar": "كَمْ ثَمَنُ هٰذَا الْكِتَابِ؟", "fr": "Combien coûte ce livre ?" },
+        {
+          "type": "example",
+          "ar": "ثَمَنُ الْكِتَابِ ثَلَاثَةُ رِيَالَاتٍ.",
+          "fr": "Le prix du livre est de trois riyals."
+        },
+        {
+          "type": "note",
+          "text": "Dans la réponse, le nombre est suivi du dénombré au pluriel et au génitif, comme dans toute la leçon : {ar|ثَلَاثَةُ رِيَالَاتٍ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.grammar-4#6",
+      "type": "fill_gap",
+      "sentence": "كَمْ {0} فِي الْفَصْلِ؟",
+      "fr": "Combien d'étudiants y a-t-il dans la classe ?",
+      "gaps": [ { "answers": ["طَالِبًا"] } ],
+      "options": ["طَالِبًا", "طُلَّابٍ", "كِتَابًا"],
+      "explain": "Après {ar|كَمْ}, le nom compté est au singulier et à l'accusatif : {ar|طَالِبًا}. {ar|طُلَّابٍ} est un pluriel."
+    },
+    {
+      "id": "medine-t1.l19.grammar-4#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|كَمْ كِتَابًا عِنْدَكَ؟}, comment est le nom {ar|كِتَابًا} ?" },
+      "choices": [
+        { "fr": "Au singulier, à l'accusatif (fatha)" },
+        { "fr": "Au pluriel, au génitif (kasra)" },
+        { "fr": "Au singulier, au nominatif (damma)" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|كَمْ}, le nom compté est au singulier et à l'accusatif."
+    },
+    {
+      "id": "medine-t1.l19.grammar-4#8",
+      "type": "spot",
+      "instruction": "Touche le nom qu'on compte.",
+      "words": ["كَمْ", "كِتَابًا", "عِنْدَكَ؟"],
+      "answers": [1],
+      "fr": "Combien de livres as-tu ? (à un homme)"
+    },
+    {
+      "id": "medine-t1.l19.grammar-4#9",
+      "type": "order",
+      "fr": "Combien de livres as-tu ? (à un homme)",
+      "answers": [["كَمْ", "كِتَابًا", "عِنْدَكَ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l19.grammar-4#10",
+      "type": "order",
+      "fr": "Combien coûte ce livre ?",
+      "answers": [["كَمْ", "ثَمَنُ", "هٰذَا", "الْكِتَابِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l19.grammar-4#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Combien d'étudiants y a-t-il dans la classe ?",
+      "answers": ["كَمْ طَالِبًا فِي الْفَصْلِ؟"]
+    },
+    {
+      "id": "medine-t1.l19.grammar-4#12",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ ثَمَنُ هٰذَا الْكِتَابِ؟",
+      "answers": ["ثَمَنُهُ ثَلَاثَةُ رِيَالَاتٍ.", "ثَلَاثَةُ رِيَالَاتٍ.", "ثَمَنُ الْكِتَابِ ثَلَاثَةُ رِيَالَاتٍ."],
+      "fr": "Il coûte trois riyals.",
+      "instruction": "Réponds : le livre coûte trois riyals.",
+      "explain": "Le dénombré {ar|رِيَالٌ} est masculin : {ar|ثَلَاثَةُ رِيَالَاتٍ}."
+    }
+  ]
+}

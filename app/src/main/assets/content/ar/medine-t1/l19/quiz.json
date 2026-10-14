@@ -1,0 +1,143 @@
+{
+  "id": "medine-t1.l19.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 19",
+  "screens": [
+    {
+      "id": "medine-t1.l19.quiz#1",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:n-7",
+      "distractors": ["w:n-6", "w:n-9"]
+    },
+    {
+      "id": "medine-t1.l19.quiz#2",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:n-3", "w:n-5", "w:n-8", "w:n-10", "w:wahida"]
+    },
+    {
+      "id": "medine-t1.l19.quiz#3",
+      "type": "question",
+      "prompt": { "fr": "Quel mot écrit le chiffre {ar|٩} ?" },
+      "choices": [ { "ar": "تِسْعَةٌ، تِسْعٌ" }, { "ar": "سِتَّةٌ، سِتٌّ" }, { "ar": "سَبْعَةٌ، سَبْعٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l19.quiz#4",
+      "type": "fill_gap",
+      "sentence": "لِي {0} كُتُبٍ.",
+      "fr": "J'ai neuf livres.",
+      "gaps": [ { "answers": ["تِسْعَةُ"] } ],
+      "options": ["تِسْعَةُ", "تِسْعُ", "ثَمَانِيَةُ"]
+    },
+    {
+      "id": "medine-t1.l19.quiz#5",
+      "type": "fill_gap",
+      "sentence": "فِي الْبَيْتِ {0} غُرَفٍ.",
+      "fr": "Il y a quatre pièces dans la maison.",
+      "gaps": [ { "answers": ["أَرْبَعُ"] } ],
+      "options": ["أَرْبَعُ", "أَرْبَعَةُ", "خَمْسُ"],
+      "explain": "{ar|غُرْفَةٌ} est féminin : le nombre est sans {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l19.quiz#6",
+      "type": "spot",
+      "instruction": "Touche le nom qu'on compte.",
+      "words": ["لِي", "عَشَرَةُ", "رِيَالَاتٍ."],
+      "answers": [2],
+      "fr": "J'ai dix riyals."
+    },
+    {
+      "id": "medine-t1.l19.quiz#7",
+      "type": "sort",
+      "categories": [ { "ar": "ثَلَاثَةُ" }, { "ar": "ثَلَاثُ" } ],
+      "cards": [
+        { "ar": "أَيَّامٌ", "category": 0 },
+        { "ar": "نَوَافِذُ", "category": 1 },
+        { "ar": "رِيَالَاتٌ", "category": 0 },
+        { "ar": "أُمَّهَاتٌ", "category": 1 },
+        { "ar": "قُرُوشٌ", "category": 0 },
+        { "ar": "مَدَارِسُ", "category": 1 }
+      ],
+      "instruction": "Avec quel nombre va chaque dénombré ?"
+    },
+    {
+      "id": "medine-t1.l19.quiz#8",
+      "type": "question",
+      "prompt": { "fr": "Où se place {ar|وَاحِدٌ} ?" },
+      "choices": [
+        { "fr": "Après le nom, comme un adjectif" },
+        { "fr": "Devant le nom, comme les autres nombres" },
+        { "fr": "Collé au nom" }
+      ],
+      "answer": 0,
+      "explain": "{ar|كِتَابٌ وَاحِدٌ} : pour 1, le nombre suit le nom et s'accorde avec lui."
+    },
+    {
+      "id": "medine-t1.l19.quiz#9",
+      "type": "true_false",
+      "statement": { "fr": "Pour dire « deux étudiants », on emploie le duel : {ar|طَالِبَانِ}." },
+      "answer": true,
+      "explain": "Pour deux, on ne dit jamais un pluriel : on met le nom au duel."
+    },
+    {
+      "id": "medine-t1.l19.quiz#10",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|كَمْ كِتَابًا عِنْدَكَ؟}, le nom {ar|كِتَابًا} est…" },
+      "choices": [
+        { "fr": "au singulier, à l'accusatif" },
+        { "fr": "au pluriel, au génitif" },
+        { "fr": "au singulier, au nominatif" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l19.quiz#11",
+      "type": "order",
+      "fr": "Combien de riyals as-tu dans ta poche ? (à un homme)",
+      "answers": [["كَمْ", "رِيَالًا", "فِي", "جَيْبِكَ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l19.quiz#12",
+      "type": "question",
+      "prompt": { "fr": "Combien d'étudiants viennent des Philippines ?" },
+      "choices": [ { "fr": "Trois" }, { "fr": "Quatre" }, { "fr": "Sept" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l19.dialogue-1#1" },
+      "explain": "{ar|ثَلَاثَةُ طُلَّابٍ مِنَ الْفِلِبِّينِ}."
+    },
+    {
+      "id": "medine-t1.l19.quiz#13",
+      "type": "question",
+      "prompt": { "fr": "D'où viennent les huit étudiants d'Europe ?" },
+      "choices": [ { "fr": "D'Allemagne" }, { "fr": "De France" }, { "fr": "De Grèce" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l19.dialogue-2#1" },
+      "explain": "{ar|ثَمَانِيَةُ طُلَّابٍ مِنْ أَلْمَانِيَا}."
+    },
+    {
+      "id": "medine-t1.l19.quiz#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "huit étudiants",
+      "answers": ["ثَمَانِيَةُ طُلَّابٍ"]
+    },
+    {
+      "id": "medine-t1.l19.quiz#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Merci, cheikh.",
+      "answers": ["شُكْرًا يَا شَيْخُ."]
+    },
+    {
+      "id": "medine-t1.l19.quiz#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "sept étudiantes",
+      "answers": ["سَبْعُ طَالِبَاتٍ"],
+      "explain": "{ar|طَالِبَةٌ} est féminin : le nombre est sans {ar|ة}."
+    }
+  ]
+}

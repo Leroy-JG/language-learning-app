@@ -1,0 +1,140 @@
+{
+  "id": "medine-t1.l19.grammar-3",
+  "type": "grammar",
+  "title": "Un et deux : après le nom",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t1.l19.grammar-3#1",
+      "type": "tip",
+      "title": "Un : après le nom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour 1 et 2, on ne met pas le nombre devant le nom. Pour **un**, {ar|وَاحِدٌ} se place **après** le nom, comme un adjectif, et s'accorde avec lui."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "كِتَابٌ", "fr": "un livre" },
+              "to": { "ar": "كِتَابٌ وَاحِدٌ", "fr": "un seul livre" },
+              "label": "{ar|وَاحِدٌ} (masculin)"
+            },
+            {
+              "from": { "ar": "سَيَّارَةٌ", "fr": "une voiture" },
+              "to": { "ar": "سَيَّارَةٌ وَاحِدَةٌ", "fr": "une seule voiture" },
+              "label": "{ar|وَاحِدَةٌ} (féminin)"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le plus souvent, on dit simplement {ar|كِتَابٌ} pour « un livre » : {ar|وَاحِدٌ} ajoute l'idée « un seul »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.grammar-3#2",
+      "type": "tip",
+      "title": "Deux : le duel",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour **deux**, l'arabe n'emploie pas le pluriel : il met le nom au **duel** ({ar|الْمُثَنَّى}, chapitre 13). Au nominatif, le nom prend la terminaison {ar|◌َانِ}. Le mot {ar|اِثْنَانِ} (masculin) ou {ar|اِثْنَتَانِ} (féminin) peut s'ajouter après, pour insister."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "طَالِبٌ", "fr": "un étudiant" },
+              "to": { "ar": "طَالِبَانِ", "fr": "deux étudiants" }
+            },
+            { "from": { "ar": "كِتَابٌ", "fr": "un livre" }, "to": { "ar": "كِتَابَانِ", "fr": "deux livres" } },
+            {
+              "from": { "ar": "طَالِبَةٌ", "fr": "une étudiante" },
+              "to": { "ar": "طَالِبَتَانِ", "fr": "deux étudiantes" },
+              "label": "le {ar|ة} devient {ar|ت}"
+            },
+            {
+              "from": { "ar": "سَيَّارَةٌ", "fr": "une voiture" },
+              "to": { "ar": "سَيَّارَتَانِ", "fr": "deux voitures" },
+              "label": "le {ar|ة} devient {ar|ت}"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le duel a d'autres formes dans d'autres rôles ({ar|◌َيْنِ}) : tu le verras plus tard. Retiens seulement que pour deux, on ne dit jamais un pluriel."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.grammar-3#3",
+      "type": "fill_gap",
+      "sentence": "طَالِبٌ {0}",
+      "fr": "un seul étudiant",
+      "gaps": [ { "answers": ["وَاحِدٌ"] } ],
+      "options": ["وَاحِدٌ", "وَاحِدَةٌ"],
+      "explain": "{ar|طَالِبٌ} est masculin : {ar|وَاحِدٌ}."
+    },
+    {
+      "id": "medine-t1.l19.grammar-3#4",
+      "type": "fill_gap",
+      "sentence": "سَيَّارَةٌ {0}",
+      "fr": "une seule voiture",
+      "gaps": [ { "answers": ["وَاحِدَةٌ"] } ],
+      "options": ["وَاحِدَةٌ", "وَاحِدٌ"],
+      "explain": "{ar|سَيَّارَةٌ} est féminin : {ar|وَاحِدَةٌ}. Pour 1, le nombre s'accorde avec le nom."
+    },
+    {
+      "id": "medine-t1.l19.grammar-3#5",
+      "type": "sort",
+      "categories": [ { "fr": "un seul" }, { "fr": "deux" } ],
+      "cards": [
+        { "ar": "طَالِبٌ وَاحِدٌ", "category": 0 },
+        { "ar": "طَالِبَانِ", "category": 1 },
+        { "ar": "كِتَابَانِ", "category": 1 },
+        { "ar": "سَيَّارَةٌ وَاحِدَةٌ", "category": 0 },
+        { "ar": "طَالِبَتَانِ", "category": 1 }
+      ],
+      "instruction": "Un seul ou deux ?"
+    },
+    {
+      "id": "medine-t1.l19.grammar-3#6",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « deux livres » ?" },
+      "choices": [ { "ar": "كِتَابَانِ" }, { "ar": "ثَلَاثَةُ كُتُبٍ" }, { "ar": "كِتَابٌ وَاحِدٌ" } ],
+      "answer": 0,
+      "explain": "Pour deux, on emploie le duel : {ar|كِتَابَانِ}."
+    },
+    {
+      "id": "medine-t1.l19.grammar-3#7",
+      "type": "order",
+      "fr": "Il y a un seul étudiant dans la classe.",
+      "answers": [["فِي", "الْفَصْلِ", "طَالِبٌ", "وَاحِدٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l19.grammar-3#8",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|طَالِبٌ وَاحِدٌ}, le mot {ar|وَاحِدٌ} se place après le nom, comme un adjectif." },
+      "answer": true,
+      "explain": "Oui. Seuls les nombres de 3 à 10 se placent devant le dénombré."
+    },
+    {
+      "id": "medine-t1.l19.grammar-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "deux étudiants",
+      "answers": ["طَالِبَانِ"]
+    },
+    {
+      "id": "medine-t1.l19.grammar-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "une seule voiture",
+      "answers": ["سَيَّارَةٌ وَاحِدَةٌ"]
+    }
+  ]
+}

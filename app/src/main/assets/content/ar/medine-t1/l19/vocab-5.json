@@ -1,0 +1,73 @@
+{
+  "id": "medine-t1.l19.vocab-5",
+  "type": "vocabulary",
+  "title": "Les pays du texte",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t1.l19.vocab-5#1", "type": "present", "item": "w:malizya" },
+    { "id": "medine-t1.l19.vocab-5#2", "type": "present", "item": "w:uruba" },
+    {
+      "id": "medine-t1.l19.vocab-5#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:uruba",
+      "distractors": ["w:ifriqiya", "w:amrika"]
+    },
+    { "id": "medine-t1.l19.vocab-5#4", "type": "present", "item": "w:inkiltira" },
+    { "id": "medine-t1.l19.vocab-5#5", "type": "present", "item": "w:qudama" },
+    {
+      "id": "medine-t1.l19.vocab-5#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:malizya", "w:uruba", "w:inkiltira", "w:qudama"]
+    },
+    {
+      "id": "medine-t1.l19.vocab-5#7",
+      "type": "question",
+      "prompt": { "fr": "Quel mot est le contraire de {ar|جُدُدٌ} (nouveaux) pour des étudiants ?" },
+      "choices": [ { "ar": "قُدَامَى" }, { "ar": "أَغْنِيَاءُ" }, { "ar": "كِبَارٌ" } ],
+      "answer": 0,
+      "explain": "{ar|جُدُدٌ} : nouveaux ; {ar|قُدَامَى} : anciens."
+    },
+    {
+      "id": "medine-t1.l19.vocab-5#8",
+      "type": "fill_gap",
+      "sentence": "فَرَنْسَا فِي {0}.",
+      "fr": "La France est en Europe.",
+      "gaps": [ { "answers": ["أُورُبَّا"] } ],
+      "options": ["أُورُبَّا", "مَالِيزِيَا", "إِفْرِيقِيَا"]
+    },
+    {
+      "id": "medine-t1.l19.vocab-5#9",
+      "type": "fill_gap",
+      "sentence": "لَنْدَنُ فِي {0}.",
+      "fr": "Londres est en Angleterre.",
+      "gaps": [ { "answers": ["إِنْكِلْتِرَا"] } ],
+      "options": ["إِنْكِلْتِرَا", "فَرَنْسَا", "الْيَابَانِ"]
+    },
+    { "id": "medine-t1.l19.vocab-5#10", "type": "build", "item": "w:uruba", "extra": ["ن"] },
+    {
+      "id": "medine-t1.l19.vocab-5#11",
+      "type": "true_false",
+      "statement": {
+        "fr": "{ar|إِنْكِلْتِرَا} se termine par un alif long : on écrit {ar|مِنْ إِنْكِلْتِرَا}, sans changer le mot."
+      },
+      "answer": true,
+      "explain": "Comme {ar|تُرْكِيَا} (chapitre 14), les noms qui finissent par un alif long ne changent pas à l'écrit."
+    },
+    {
+      "id": "medine-t1.l19.vocab-5#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "l'Europe",
+      "answers": ["أُورُبَّا", "أُورُوبَّا"]
+    },
+    {
+      "id": "medine-t1.l19.vocab-5#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des anciens",
+      "answers": ["قُدَامَى"]
+    }
+  ]
+}
