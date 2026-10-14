@@ -127,7 +127,7 @@
     "translit": "qirshun",
     "plural": "قُرُوشٌ",
     "gender": "m",
-    "note": "Le qirsh est une petite subdivision du riyal. En français, on écrit « des qirsh », sans s.",
+    "note": "Le qirsh est une petite subdivision du riyal. Dans l'application, « qirsh » reste invariable au pluriel.",
     "example": { "ar": "لِي أَرْبَعَةُ قُرُوشٍ.", "fr": "J'ai quatre qirsh." }
   },
   {

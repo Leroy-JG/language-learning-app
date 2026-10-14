@@ -126,20 +126,22 @@
       "answers": ["ثَمَانِيَةُ طُلَّابٍ"]
     },
     {
-      "id": "medine-t1.l19.quiz#15",
+      "id": "medine-t1.l19.quiz#14b",
       "type": "true_false",
-      "statement": { "fr": "Quand on compte sans nom, on emploie la forme masculine, celle en {ar|ة}." },
+      "statement": {
+        "fr": "Quand on compte sans nom, on emploie la forme qu'on utilise avec un dénombré masculin, celle en {ar|ة}."
+      },
       "answer": true
     },
     {
-      "id": "medine-t1.l19.quiz#16",
+      "id": "medine-t1.l19.quiz#15",
       "type": "typing",
       "ask": "audio",
       "fr": "Merci, cheikh.",
       "answers": ["شُكْرًا يَا شَيْخُ."]
     },
     {
-      "id": "medine-t1.l19.quiz#17",
+      "id": "medine-t1.l19.quiz#16",
       "type": "typing",
       "ask": "fr",
       "fr": "sept étudiantes",

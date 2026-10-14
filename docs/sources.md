@@ -769,7 +769,8 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - `إِخْوَةٌ` / `إِخْوَانٌ` : « surtout » (le Coran emploie `إِخْوَةٌ` pour les frères en religion, 49:10) ;
   - réponses ajoutées : ordre inverse des mots pour `فِي الْأُسْبُوعِ سَبْعَةُ أَيَّامٍ`, `ثَمَانِيَةُ مَسَاجِدَ فِي هٰذَا الشَّارِعِ`, `خَمْسَةُ رُكَّابٍ فِي السَّيَّارَةِ`, `طَالِبَانِ اثْنَانِ` ;
   - rythme : pas de 4 présentations d'affilée ni de 3 `typing` d'affilée ;
-  - notes ajoutées : chiffres ٥ / ٠ et chiffres du Maghreb, `ن` du duel, `كُلُّ` + nom défini, `ثَمَانِيَ` à l'accusatif, récitation des nombres sans nom (forme en `ة`), `قُدَمَاءُ`, « des qirsh » invariable, plusieurs pays ont un riyal ;
+  - notes ajoutées : chiffres ٥ / ٠ et chiffres du Maghreb, `ن` du duel, `كُلُّ` + nom défini, `ثَمَانِيَ` à l'accusatif, récitation des nombres sans nom (forme en `ة`), `قُدَمَاءُ`, « qirsh » invariable en français dans l'app (convention), plusieurs pays ont un riyal ;
+  - ids stables : les écrans ajoutés après le premier push portent un suffixe (`vocab-1#3b`, `quiz#14b`).
   - `قُدَامَى` pluriel de `قَدِيمٌ` : attesté (Wiktionnaire, dictionnaires modernes) mais non retrouvé dans Lisān al-ʿArab / al-Wasīṭ par le relecteur : **à confirmer avec le professeur**.
 - **Pas de nouvelle icône.** Modification de `core` : `ArabicScript.problems` accepte les chiffres arabes seuls.
 
