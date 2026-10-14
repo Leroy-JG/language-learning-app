@@ -1,0 +1,184 @@
+{
+  "id": "medine-t1.l18.dialogue-2",
+  "type": "dialogue",
+  "title": "Zayd au restaurant",
+  "icon": "meal",
+  "screens": [
+    {
+      "id": "medine-t1.l18.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Zayd et Muḥammad au restaurant",
+      "intro": "Deux amis vont manger après leurs cours (texte du livre).",
+      "speakers": {
+        "N": { "name": "Récit", "voice": "f1" },
+        "Z": { "name": "Zayd", "voice": "m1" },
+        "M": { "name": "Muḥammad", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "N",
+          "ar": "ذَهَبَ زَيْدٌ وَمُحَمَّدٌ إِلَى الْمَطْعَمِ بَعْدَ دُرُوسِهِمَا. دَخَلَ الصَّدِيقَانِ الْمَطْعَمَ.",
+          "fr": "Zayd et Muḥammad sont allés au restaurant après leurs cours. Les deux amis sont entrés dans le restaurant."
+        },
+        { "speaker": "N", "ar": "قَالَ زَيْدٌ :", "fr": "Zayd a dit :" },
+        { "speaker": "Z", "ar": "أَأَنْتَ جَوْعَانُ يَا مُحَمَّدُ؟", "fr": "As-tu faim, Muḥammad ?" },
+        { "speaker": "M", "ar": "أَنَا جَوْعَانُ جِدًّا وَعَطْشَانُ.", "fr": "J'ai très faim, et j'ai soif." },
+        { "speaker": "Z", "ar": "مَاذَا تُرِيدُ أَنْ تَأْكُلَ؟", "fr": "Que veux-tu manger ?" },
+        {
+          "speaker": "M",
+          "ar": "مَا رَأْيُكَ أَنْ نَطْلُبَ خُبْزًا وَعَدَسًا؟",
+          "fr": "Que dirais-tu de commander du pain et des lentilles ?"
+        },
+        {
+          "speaker": "Z",
+          "ar": "فِكْرَةٌ طَيِّبَةٌ. هَيَّا بِنَا نُكَلِّمُ الْمُوَظَّفَ فِي الِاسْتِقْبَالِ.",
+          "fr": "Bonne idée. Allons parler à l'employé, à la réception."
+        },
+        {
+          "speaker": "N",
+          "ar": "طَلَبَ الصَّدِيقَانِ طَعَامَهُمَا مِنَ الْمُوَظَّفِ. ثُمَّ جَلَسَ زَيْدٌ وَذَهَبَ مُحَمَّدٌ إِلَى الْحَمَّامِ لِغَسْلِ يَدَيْهِ. قَدَّمَ الْمُوَظَّفُ الطَّعَامَ عَلَى الطَّاوِلَةِ فَأَكَلَ الصَّدِيقَانِ.",
+          "fr": "Les deux amis ont commandé leur repas à l'employé. Puis Zayd s'est assis et Muḥammad est allé à la salle de bains pour se laver les mains. L'employé a servi le repas sur la table, et les deux amis ont mangé."
+        },
+        {
+          "speaker": "Z",
+          "ar": "أَأَنْتَ شَبْعَانُ الْآنَ يَا مُحَمَّدُ؟",
+          "fr": "Es-tu rassasié maintenant, Muḥammad ?"
+        },
+        {
+          "speaker": "M",
+          "ar": "نَعَمْ يَا صَدِيقِي، أَكَلْتُ كَثِيرًا.",
+          "fr": "Oui, mon ami, j'ai beaucoup mangé."
+        },
+        { "speaker": "Z", "ar": "الْحَمْدُ لِلَّهِ.", "fr": "Louange à Allah." }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.dialogue-2#2",
+      "type": "tip",
+      "title": "Un duel dans le récit",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le récit parle de deux amis : {ar|الصَّدِيقَانِ} est le duel de {ar|صَدِيقٌ} (l'alif au nominatif, comme tous les duels)."
+        },
+        {
+          "type": "example",
+          "ar": "دَخَلَ الصَّدِيقَانِ الْمَطْعَمَ.",
+          "fr": "Les deux amis sont entrés dans le restaurant."
+        },
+        {
+          "type": "example",
+          "ar": "طَلَبَ الصَّدِيقَانِ طَعَامَهُمَا مِنَ الْمُوَظَّفِ.",
+          "fr": "Les deux amis ont commandé leur repas à l'employé."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Quand le verbe vient avant son sujet, il reste au singulier, même si le sujet est un duel : {ar|دَخَلَ الصَّدِيقَانِ}, comme on dit {ar|دَخَلَ الصَّدِيقُ}. Seul le genre s'accorde (chapitre 12) : {ar|دَخَلَتِ الْبِنْتَانِ} (« les deux filles sont entrées »)."
+        },
+        {
+          "type": "note",
+          "text": "{ar|طَعَامَهُمَا} : « leur repas (à tous les deux) » = {ar|طَعَامٌ} + {ar|هُمَا} (chapitre 10)."
+        },
+        {
+          "type": "note",
+          "text": "{ar|لِغَسْلِ يَدَيْهِ} : « pour se laver les mains », mot à mot « pour laver ses deux mains ». Devant le pronom collé, le duel {ar|يَدَانِ} perd son {ar|ن} : {ar|يَدَيْ} + {ar|هِ}. Il est ici au génitif, second terme de l'annexion après {ar|غَسْلِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.dialogue-2#3",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le texte du livre contient des formes que tu n'as pas encore apprises. Rien de tout cela n'est demandé dans les exercices : repère-les seulement, avec leur sens."
+        },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À savoir"],
+          "rows": [
+            ["{ar|قَالَ زَيْدٌ}", "Zayd a dit", "un verbe au passé, comme {ar|ذَهَبَ}"],
+            [
+              "{ar|دَخَلَ الْمَطْعَمَ}",
+              "il est entré dans le restaurant",
+              "pas de préposition : « entrer » + l'accusatif"
+            ],
+            [
+              "{ar|تُرِيدُ أَنْ تَأْكُلَ}",
+              "tu veux manger",
+              "après {ar|أَنْ}, le verbe prend en général une fatha finale"
+            ],
+            ["{ar|أَنْ نَطْلُبَ}", "que nous commandions", "même règle ; {ar|نَطْلُبُ} : « nous demandons »"],
+            ["{ar|نُكَلِّمُ}", "nous parlons à", "un verbe au présent"],
+            ["{ar|أَكَلْتُ}", "j'ai mangé", "le verbe au passé avec {ar|تُ} : « je »"],
+            ["{ar|كَثِيرًا}", "beaucoup", "un adverbe à l'accusatif"],
+            ["{ar|فِكْرَةٌ طَيِّبَةٌ}", "une bonne idée", "{ar|طَيِّبٌ} : « bon »"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Que propose Muḥammad de commander ?" },
+      "choices": [
+        { "fr": "Du pain et des lentilles" },
+        { "fr": "De la viande et du thé" },
+        { "fr": "Du poisson et des fruits" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l18.dialogue-2#1" },
+      "explain": "{ar|نَطْلُبَ خُبْزًا وَعَدَسًا} : commander du pain et des lentilles."
+    },
+    {
+      "id": "medine-t1.l18.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Au début, Muḥammad a très faim." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l18.dialogue-2#1" },
+      "explain": "{ar|أَنَا جَوْعَانُ جِدًّا} : « j'ai très faim »."
+    },
+    {
+      "id": "medine-t1.l18.dialogue-2#6",
+      "type": "fill_gap",
+      "sentence": "أَأَنْتَ {0} يَا مُحَمَّدُ؟",
+      "fr": "Es-tu rassasié, Muḥammad ?",
+      "gaps": [ { "answers": ["شَبْعَانُ"] } ],
+      "options": ["شَبْعَانُ", "جَوْعَانُ", "عَطْشَانُ"],
+      "context": { "dialogue": "medine-t1.l18.dialogue-2#1" },
+      "explain": "{ar|شَبْعَانُ} : rassasié."
+    },
+    {
+      "id": "medine-t1.l18.dialogue-2#7",
+      "type": "order",
+      "fr": "L'employé a servi le repas.",
+      "answers": [["قَدَّمَ", "الْمُوَظَّفُ", "الطَّعَامَ"], ["الْمُوَظَّفُ", "قَدَّمَ", "الطَّعَامَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l18.dialogue-2#8",
+      "type": "question",
+      "prompt": { "fr": "Où Muḥammad va-t-il pendant que Zayd s'assoit ?" },
+      "choices": [ { "fr": "À la salle de bains" }, { "fr": "À la réception" }, { "fr": "À la maison" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l18.dialogue-2#1" },
+      "explain": "{ar|ذَهَبَ مُحَمَّدٌ إِلَى الْحَمَّامِ} : il va se laver les mains."
+    },
+    {
+      "id": "medine-t1.l18.dialogue-2#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Es-tu rassasié maintenant, Muḥammad ?",
+      "answers": ["أَأَنْتَ شَبْعَانُ الْآنَ يَا مُحَمَّدُ؟"]
+    },
+    {
+      "id": "medine-t1.l18.dialogue-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai très faim, et j'ai soif.",
+      "answers": ["أَنَا جَوْعَانُ جِدًّا وَعَطْشَانُ."]
+    }
+  ]
+}

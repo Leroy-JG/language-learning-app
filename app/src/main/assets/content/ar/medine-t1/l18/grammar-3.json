@@ -1,0 +1,123 @@
+{
+  "id": "medine-t1.l18.grammar-3",
+  "type": "grammar",
+  "title": "Ces deux… : {ar|هٰذَانِ} et {ar|هَاتَانِ}",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l18.grammar-3#1",
+      "type": "tip",
+      "title": "Montrer deux êtres ou deux choses",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour montrer **deux** personnes ou **deux** choses proches, l'arabe a des démonstratifs à part. Ils servent pour des personnes comme pour des choses."
+        },
+        {
+          "type": "table",
+          "header": ["Proche", "Un seul", "Deux"],
+          "rows": [["masculin", "{ar|هٰذَا}", "{ar|هٰذَانِ}"], ["féminin", "{ar|هٰذِهِ}", "{ar|هَاتَانِ}"]]
+        },
+        {
+          "type": "note",
+          "text": "{ar|هَاتَانِ} n'est pas {ar|هٰذِهِ} avec {ar|انِ} ajouté : c'est une forme à part, qu'on apprend telle quelle."
+        },
+        { "type": "note", "text": "On dit « hādhāni » et « hātāni » : dans les deux, le ā est long." }
+      ]
+    },
+    { "id": "medine-t1.l18.grammar-3#2", "type": "present", "item": "w:hadhani" },
+    { "id": "medine-t1.l18.grammar-3#3", "type": "present", "item": "w:hatani" },
+    {
+      "id": "medine-t1.l18.grammar-3#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hadhani",
+      "distractors": ["w:hadha", "w:hadhihi"],
+      "explain": "{ar|هٰذَانِ} montre deux êtres ou choses masculins ; {ar|هٰذَا} en montre un seul."
+    },
+    {
+      "id": "medine-t1.l18.grammar-3#5",
+      "type": "tip",
+      "title": "Groupe ou phrase ?",
+      "blocks": [
+        { "type": "paragraph", "text": "Comme au chapitre 13, le sens dépend du nom qui suit le démonstratif :" },
+        { "type": "example", "ar": "هٰذَانِ طَالِبَانِ.", "fr": "Ceux-ci sont deux étudiants." },
+        { "type": "example", "ar": "هٰذَانِ الطَّالِبَانِ جَدِيدَانِ.", "fr": "Ces deux étudiants sont nouveaux." },
+        {
+          "type": "note",
+          "text": "Nom **sans** article : c'est une phrase (« ce sont deux étudiants »). Nom **avec** l'article : c'est un groupe (« ces deux étudiants »). Dans les deux cas, le nom est lui aussi au duel."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.grammar-3#6",
+      "type": "sort",
+      "categories": [ { "ar": "هٰذَانِ" }, { "ar": "هَاتَانِ" } ],
+      "cards": [
+        { "ar": "طَالِبَانِ", "category": 0 },
+        { "ar": "مَدْرَسَتَانِ", "category": 1 },
+        { "ar": "مِفْتَاحَانِ", "category": 0 },
+        { "ar": "نَافِذَتَانِ", "category": 1 },
+        { "ar": "كِتَابَانِ", "category": 0 },
+        { "ar": "طَالِبَتَانِ", "category": 1 }
+      ],
+      "instruction": "Quel démonstratif va devant chaque nom au duel ?",
+      "explain": "Un nom masculin prend {ar|هٰذَانِ} ; un nom féminin (le {ar|ة} devenu {ar|ت}) prend {ar|هَاتَانِ}."
+    },
+    {
+      "id": "medine-t1.l18.grammar-3#7",
+      "type": "fill_gap",
+      "sentence": "{0} طَالِبَتَانِ.",
+      "fr": "Celles-ci sont deux étudiantes.",
+      "gaps": [ { "answers": ["هَاتَانِ"] } ],
+      "options": ["هَاتَانِ", "هٰذَانِ", "هٰذِهِ"],
+      "explain": "Deux étudiantes : le duel féminin {ar|هَاتَانِ}."
+    },
+    {
+      "id": "medine-t1.l18.grammar-3#8",
+      "type": "fill_gap",
+      "sentence": "{0} مِفْتَاحَانِ.",
+      "fr": "Ce sont deux clés.",
+      "gaps": [ { "answers": ["هٰذَانِ"] } ],
+      "options": ["هٰذَانِ", "هَاتَانِ", "هٰذَا"],
+      "explain": "{ar|مِفْتَاحٌ} est masculin : {ar|هٰذَانِ}."
+    },
+    {
+      "id": "medine-t1.l18.grammar-3#9",
+      "type": "spot",
+      "instruction": "Touche le nom démonstratif.",
+      "words": ["هٰذَانِ", "الدَّفْتَرَانِ", "جَدِيدَانِ."],
+      "answers": [0],
+      "fr": "Ces deux cahiers sont neufs.",
+      "explain": "{ar|هٰذَانِ} est le démonstratif ; {ar|الدَّفْتَرَانِ} est le nom désigné."
+    },
+    {
+      "id": "medine-t1.l18.grammar-3#10",
+      "type": "true_false",
+      "statement": { "fr": "{ar|هٰذَانِ} ne s'emploie que pour des personnes." },
+      "answer": false,
+      "explain": "Il s'emploie aussi pour des choses : {ar|هٰذَانِ مِفْتَاحَانِ} (« ce sont deux clés »)."
+    },
+    {
+      "id": "medine-t1.l18.grammar-3#11",
+      "type": "order",
+      "fr": "Ces deux étudiantes sont nouvelles.",
+      "answers": [["هَاتَانِ", "الطَّالِبَتَانِ", "جَدِيدَتَانِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l18.grammar-3#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Celles-ci sont deux étudiantes.",
+      "answers": ["هَاتَانِ طَالِبَتَانِ."]
+    },
+    {
+      "id": "medine-t1.l18.grammar-3#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ceux-ci sont deux étudiants.",
+      "answers": ["هٰذَانِ طَالِبَانِ."]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "medine-t1.l18.plurals-1",
+  "type": "vocabulary",
+  "title": "Les pluriels du chapitre",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l18.plurals-1#1",
+      "type": "tip",
+      "title": "Des pluriels en « -āt »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Beaucoup de noms féminins en {ar|ة} forment leur pluriel en remplaçant le {ar|ة} par {ar|ات}. Un nom masculin de chose peut le faire aussi."
+        },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Remarque"],
+          "rows": [
+            ["{ar|فِكْرَةٌ}", "{ar|فِكْرَاتٌ}", "féminin en {ar|ة} → {ar|ات}"],
+            ["{ar|خِدْمَةٌ}", "{ar|خِدْمَاتٌ}", "féminin en {ar|ة} → {ar|ات}"],
+            ["{ar|عَجَلَةٌ}", "{ar|عَجَلَاتٌ}", "féminin en {ar|ة} → {ar|ات}"],
+            ["{ar|مِسْطَرَةٌ}", "{ar|مِسْطَرَاتٌ}", "féminin en {ar|ة} → {ar|ات}"],
+            ["{ar|طَاوِلَةٌ}", "{ar|طَاوِلَاتٌ}", "féminin en {ar|ة} → {ar|ات}"],
+            ["{ar|رَكْعَةٌ}", "{ar|رَكَعَاتٌ}", "le sukūn devient une fatha"],
+            ["{ar|سَنَةٌ}", "{ar|سَنَوَاتٌ}", "un {ar|و} apparaît"],
+            ["{ar|اِسْتِقْبَالٌ}", "{ar|اِسْتِقْبَالَاتٌ}", "masculin, mais pluriel en {ar|ات}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.plurals-1#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:fikra", "w:khidma", "w:ajala", "w:mistara", "w:tawila"]
+    },
+    {
+      "id": "medine-t1.l18.plurals-1#3",
+      "type": "tip",
+      "title": "Des pluriels brisés, un pluriel en « -ūna »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les autres pluriels changent la forme du mot : on les apprend avec le mot. Le pluriel en {ar|◌ُونَ} (chapitre 6) est régulier."
+        },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Remarque"],
+          "rows": [
+            ["{ar|رَأْيٌ}", "{ar|آرَاءٌ}", "avec tanwin"],
+            ["{ar|طَعَامٌ}", "{ar|أَطْعِمَةٌ}", "avec tanwin"],
+            ["{ar|عِيدٌ}", "{ar|أَعْيَادٌ}", "avec tanwin"],
+            ["{ar|حَيٌّ}", "{ar|أَحْيَاءٌ}", "avec tanwin"],
+            ["{ar|مَتْجَرٌ}", "{ar|مَتَاجِرُ}", "forme longue : sans tanwin (comme {ar|مَسَاجِدُ})"],
+            ["{ar|مُوَظَّفٌ}", "{ar|مُوَظَّفُونَ}", "des personnes : pluriel en {ar|◌ُونَ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.plurals-1#4",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:ray", "w:taam", "w:eid", "w:hayy", "w:matjar"]
+    },
+    {
+      "id": "medine-t1.l18.plurals-1#5",
+      "type": "sort",
+      "categories": [ { "fr": "avec tanwin ({ar|◌ٌ})" }, { "fr": "sans tanwin ({ar|◌ُ})" } ],
+      "cards": [
+        { "ar": "آرَاءٌ", "category": 0 },
+        { "ar": "مَتَاجِرُ", "category": 1 },
+        { "ar": "أَعْيَادٌ", "category": 0 },
+        { "ar": "مَسَاجِدُ", "category": 1 },
+        { "ar": "أَحْيَاءٌ", "category": 0 }
+      ],
+      "instruction": "Range chaque pluriel : porte-t-il le tanwin ?",
+      "explain": "Les pluriels de forme longue ({ar|مَتَاجِرُ}, {ar|مَسَاجِدُ}) n'ont pas de tanwin ; les autres, oui."
+    },
+    {
+      "id": "medine-t1.l18.plurals-1#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des idées",
+      "answers": ["فِكْرَاتٌ", "أَفْكَارٌ", "فِكَرٌ"],
+      "explain": "Le professeur donne {ar|فِكْرَاتٌ} ; on trouve aussi {ar|أَفْكَارٌ} (très courant) et {ar|فِكَرٌ}."
+    },
+    {
+      "id": "medine-t1.l18.plurals-1#7",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|مُوَظَّفٌ} (un employé) ?" },
+      "choices": [ { "ar": "مُوَظَّفُونَ" }, { "ar": "مُوَظَّفَانِ" }, { "ar": "مُوَظَّفَاتٌ" } ],
+      "answer": 0,
+      "explain": "{ar|مُوَظَّفُونَ} : pluriel de personnes. {ar|مُوَظَّفَانِ} est le duel ; {ar|مُوَظَّفَاتٌ} est le pluriel féminin."
+    },
+    {
+      "id": "medine-t1.l18.plurals-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des fêtes",
+      "answers": ["أَعْيَادٌ"]
+    },
+    {
+      "id": "medine-t1.l18.plurals-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des années",
+      "answers": ["سَنَوَاتٌ", "سِنُونَ"],
+      "explain": "Le professeur donne {ar|سَنَوَاتٌ} ; {ar|سِنُونَ} existe aussi (al-Muʿjam al-Wasīṭ)."
+    }
+  ]
+}

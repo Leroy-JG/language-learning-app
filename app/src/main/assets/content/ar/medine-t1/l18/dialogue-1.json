@@ -1,0 +1,137 @@
+{
+  "id": "medine-t1.l18.dialogue-1",
+  "type": "dialogue",
+  "title": "Combien en as-tu ?",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t1.l18.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Le professeur interroge ses élèves",
+      "intro": "Le professeur pose des questions avec « combien ? » à plusieurs élèves, qui répondent avec le duel (texte du livre).",
+      "speakers": { "A": { "name": "Le professeur", "voice": "m1" }, "B": { "name": "Les élèves", "voice": "m2" } },
+      "lines": [
+        { "speaker": "A", "ar": "كَمْ أَخًا لَكَ يَا مُحَمَّدُ؟", "fr": "Combien de frères as-tu, Muḥammad ?" },
+        { "speaker": "B", "ar": "لِي أَخٌ وَاحِدٌ.", "fr": "J'ai un seul frère." },
+        { "speaker": "A", "ar": "وَكَمْ أُخْتًا لَكَ؟", "fr": "Et combien de sœurs as-tu ?" },
+        { "speaker": "B", "ar": "لِي أُخْتَانِ.", "fr": "J'ai deux sœurs." },
+        {
+          "speaker": "A",
+          "ar": "كَمْ عَجَلَةً لِلدَّرَّاجَةِ يَا حَامِدُ؟",
+          "fr": "Combien de roues a le vélo, Ḥāmid ?"
+        },
+        { "speaker": "B", "ar": "لَهَا عَجَلَتَانِ.", "fr": "Il a deux roues." },
+        {
+          "speaker": "A",
+          "ar": "كَمْ عِيدًا فِي السَّنَةِ يَا زَكَرِيَّا؟",
+          "fr": "Combien de fêtes y a-t-il dans l'année, Zakariyyā ?"
+        },
+        {
+          "speaker": "B",
+          "ar": "فِي السَّنَةِ عِيدَانِ : هُمَا عِيدُ الْفِطْرِ وَعِيدُ الْأَضْحَى.",
+          "fr": "Dans l'année, il y a deux fêtes : la fête de la rupture du jeûne et la fête du sacrifice."
+        },
+        {
+          "speaker": "A",
+          "ar": "يَا إِبْرَاهِيمُ، أَبُوكَ تَاجِرٌ كَبِيرٌ. كَمْ مَتْجَرًا عِنْدَهُ؟",
+          "fr": "Ibrāhīm, ton père est un grand commerçant. Combien de magasins a-t-il ?"
+        },
+        { "speaker": "B", "ar": "عِنْدَهُ مَتْجَرَانِ كَبِيرَانِ.", "fr": "Il a deux grands magasins." },
+        {
+          "speaker": "A",
+          "ar": "كَمْ نَافِذَةً فِي غُرْفَتِكَ يَا إِسْمَاعِيلُ؟",
+          "fr": "Combien de fenêtres y a-t-il dans ta chambre, Ismāʿīl ?"
+        },
+        { "speaker": "B", "ar": "فِيهَا نَافِذَتَانِ.", "fr": "Il y a deux fenêtres." },
+        { "speaker": "A", "ar": "لِمَنْ هٰذَانِ الدَّفْتَرَانِ؟", "fr": "À qui sont ces deux cahiers ?" },
+        { "speaker": "B", "ar": "هُمَا لِي.", "fr": "Ils sont à moi." },
+        { "speaker": "A", "ar": "لِمَنْ هَاتَانِ الْمِسْطَرَتَانِ؟", "fr": "À qui sont ces deux règles ?" },
+        { "speaker": "B", "ar": "هُمَا لِي.", "fr": "Elles sont à moi." }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.dialogue-1#2",
+      "type": "tip",
+      "title": "Le duel est partout",
+      "blocks": [
+        { "type": "paragraph", "text": "Chaque réponse du dialogue contient un duel :" },
+        {
+          "type": "table",
+          "header": ["Phrase", "Duel", "Sens"],
+          "rows": [
+            ["{ar|لِي أُخْتَانِ.}", "{ar|أُخْتَانِ}", "deux sœurs"],
+            ["{ar|لَهَا عَجَلَتَانِ.}", "{ar|عَجَلَتَانِ}", "deux roues"],
+            ["{ar|فِي السَّنَةِ عِيدَانِ.}", "{ar|عِيدَانِ}", "deux fêtes"],
+            ["{ar|عِنْدَهُ مَتْجَرَانِ كَبِيرَانِ.}", "{ar|مَتْجَرَانِ كَبِيرَانِ}", "deux grands magasins"],
+            ["{ar|فِيهَا نَافِذَتَانِ.}", "{ar|نَافِذَتَانِ}", "deux fenêtres"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|هُمَا لِي} : « ils (ou elles) deux sont à moi ». Le pronom {ar|هُمَا} (chapitre 10) reprend les deux cahiers ou les deux règles : il sert pour deux choses comme pour deux personnes."
+        },
+        {
+          "type": "note",
+          "text": "Les élèves sont appelés avec {ar|يَا} + leur prénom, sans tanwin (chapitre 5) : {ar|يَا مُحَمَّدُ}, {ar|يَا حَامِدُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Combien de sœurs Muḥammad a-t-il ?" },
+      "choices": [ { "fr": "Deux" }, { "fr": "Une" }, { "fr": "Aucune" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l18.dialogue-1#1" },
+      "explain": "{ar|لِي أُخْتَانِ} : « j'ai deux sœurs »."
+    },
+    {
+      "id": "medine-t1.l18.dialogue-1#4",
+      "type": "fill_gap",
+      "sentence": "كَمْ عِيدًا فِي {0} يَا زَكَرِيَّا؟",
+      "fr": "Combien de fêtes y a-t-il dans l'année, Zakariyyā ?",
+      "gaps": [ { "answers": ["السَّنَةِ"] } ],
+      "options": ["السَّنَةِ", "الْأُسْبُوعِ", "الشَّهْرِ"],
+      "context": { "dialogue": "medine-t1.l18.dialogue-1#1" },
+      "explain": "{ar|السَّنَةُ} : l'année. Il y a deux fêtes par an."
+    },
+    {
+      "id": "medine-t1.l18.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Le père d'Ibrāhīm a un seul magasin." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l18.dialogue-1#1" },
+      "explain": "{ar|عِنْدَهُ مَتْجَرَانِ كَبِيرَانِ} : il a deux grands magasins."
+    },
+    {
+      "id": "medine-t1.l18.dialogue-1#6",
+      "type": "question",
+      "prompt": { "fr": "Combien de roues a le vélo, selon Ḥāmid ?" },
+      "choices": [ { "fr": "Deux" }, { "fr": "Trois" }, { "fr": "Quatre" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l18.dialogue-1#1" },
+      "explain": "{ar|لَهَا عَجَلَتَانِ} : deux roues."
+    },
+    {
+      "id": "medine-t1.l18.dialogue-1#7",
+      "type": "order",
+      "fr": "À qui sont ces deux cahiers ?",
+      "answers": [["لِمَنْ", "هٰذَانِ", "الدَّفْتَرَانِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l18.dialogue-1#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il a deux grands magasins.",
+      "answers": ["عِنْدَهُ مَتْجَرَانِ كَبِيرَانِ."]
+    },
+    {
+      "id": "medine-t1.l18.dialogue-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ce sont la fête de la rupture du jeûne et la fête du sacrifice.",
+      "answers": ["هُمَا عِيدُ الْفِطْرِ وَعِيدُ الْأَضْحَى.", "هٰذَانِ عِيدُ الْفِطْرِ وَعِيدُ الْأَضْحَى."]
+    }
+  ]
+}

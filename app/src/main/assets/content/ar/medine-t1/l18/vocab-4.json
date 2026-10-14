@@ -1,0 +1,83 @@
+{
+  "id": "medine-t1.l18.vocab-4",
+  "type": "vocabulary",
+  "title": "Les fêtes, l'année et la prière",
+  "icon": "moon",
+  "screens": [
+    { "id": "medine-t1.l18.vocab-4#1", "type": "present", "item": "w:eid" },
+    { "id": "medine-t1.l18.vocab-4#2", "type": "present", "item": "w:fitr" },
+    {
+      "id": "medine-t1.l18.vocab-4#3",
+      "type": "tip",
+      "title": "Les deux fêtes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans l'année, les musulmans ont deux grandes fêtes. Chacune a un nom en deux mots : {ar|عِيدٌ} + un second nom, en annexion (chapitre 5)."
+        },
+        {
+          "type": "breakdown",
+          "ar": "عِيدُ الْفِطْرِ",
+          "fr": "la fête de la rupture du jeûne",
+          "parts": [
+            { "ar": "عِيدُ", "fr": "la fête (premier terme, sans tanwin)" },
+            { "ar": "الْفِطْرِ", "fr": "la rupture du jeûne (second terme, au génitif)" }
+          ]
+        },
+        { "type": "example", "ar": "عِيدُ الْأَضْحَى", "fr": "la fête du sacrifice" },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "La première fête suit le mois de Ramadan ; la seconde a lieu au moment du pèlerinage."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.vocab-4#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:eid",
+      "distractors": ["w:yawm", "w:shahr"]
+    },
+    { "id": "medine-t1.l18.vocab-4#5", "type": "present", "item": "w:sana" },
+    { "id": "medine-t1.l18.vocab-4#6", "type": "present", "item": "w:rakaa" },
+    {
+      "id": "medine-t1.l18.vocab-4#7",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:sana",
+      "distractors": ["w:shahr", "w:usbu"]
+    },
+    {
+      "id": "medine-t1.l18.vocab-4#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:eid", "w:fitr", "w:sana", "w:rakaa"]
+    },
+    {
+      "id": "medine-t1.l18.vocab-4#9",
+      "type": "fill_gap",
+      "sentence": "هٰذَا {0} الْفِطْرِ.",
+      "fr": "C'est la fête de la rupture du jeûne.",
+      "gaps": [ { "answers": ["عِيدُ"] } ],
+      "options": ["عِيدُ", "سَنَةُ", "رَكْعَةُ"],
+      "explain": "{ar|عِيدُ الْفِطْرِ} : « la fête de la rupture du jeûne »."
+    },
+    {
+      "id": "medine-t1.l18.vocab-4#10",
+      "type": "true_false",
+      "statement": { "fr": "La prière de l'aube compte deux rakʿas." },
+      "answer": true,
+      "explain": "La prière de l'aube ({ar|الْفَجْرُ}) est de deux rakʿas : {ar|رَكْعَتَانِ}."
+    },
+    { "id": "medine-t1.l18.vocab-4#11", "type": "typing", "ask": "fr", "item": "w:sana" },
+    { "id": "medine-t1.l18.vocab-4#12", "type": "build", "item": "w:rakaa", "extra": ["ه"] },
+    {
+      "id": "medine-t1.l18.vocab-4#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le jour de la fête est proche.",
+      "answers": ["يَوْمُ الْعِيدِ قَرِيبٌ."]
+    }
+  ]
+}

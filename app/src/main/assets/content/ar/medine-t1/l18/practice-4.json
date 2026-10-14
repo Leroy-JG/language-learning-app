@@ -1,0 +1,100 @@
+{
+  "id": "medine-t1.l18.practice-4",
+  "type": "grammar",
+  "title": "Lis et écris",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t1.l18.practice-4#1",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Khālid a deux fils et deux filles.",
+      "answers": ["خَالِدٌ لَهُ اِبْنَانِ وَبِنْتَانِ."]
+    },
+    {
+      "id": "medine-t1.l18.practice-4#2",
+      "type": "question",
+      "prompt": { "fr": "{ar|خَالِدٌ لَهُ اِبْنَانِ وَبِنْتَانِ.} Combien d'enfants Khālid a-t-il en tout ?" },
+      "choices": [ { "fr": "Quatre" }, { "fr": "Deux" }, { "fr": "Trois" } ],
+      "answer": 0,
+      "explain": "Deux fils ({ar|اِبْنَانِ}) et deux filles ({ar|بِنْتَانِ}) : quatre enfants."
+    },
+    {
+      "id": "medine-t1.l18.practice-4#3",
+      "type": "order",
+      "fr": "Dans cette maison, il y a deux grandes pièces.",
+      "answers": [["فِي", "هٰذَا", "الْبَيْتِ", "غُرْفَتَانِ", "كَبِيرَتَانِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l18.practice-4#4",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Fāṭima a deux jeunes enfants.",
+      "answers": ["فَاطِمَةُ لَهَا طِفْلَانِ صَغِيرَانِ."]
+    },
+    {
+      "id": "medine-t1.l18.practice-4#5",
+      "type": "fill_gap",
+      "sentence": "لِي {0} وَأُذُنَانِ.",
+      "fr": "J'ai deux yeux et deux oreilles.",
+      "gaps": [ { "answers": ["عَيْنَانِ"] } ],
+      "options": ["عَيْنَانِ", "عَيْنٌ", "يَدَانِ"],
+      "explain": "{ar|عَيْنَانِ} : deux yeux."
+    },
+    {
+      "id": "medine-t1.l18.practice-4#6",
+      "type": "spot",
+      "instruction": "Touche le nom au duel.",
+      "words": ["فِي", "هٰذَا", "الْحَيِّ", "مَدْرَسَتَانِ."],
+      "answers": [3],
+      "fr": "Dans ce quartier, il y a deux écoles.",
+      "explain": "{ar|مَدْرَسَتَانِ} : deux écoles."
+    },
+    {
+      "id": "medine-t1.l18.practice-4#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La prière de l'aube compte deux rakʿas.",
+      "answers": ["صَلَاةُ الْفَجْرِ رَكْعَتَانِ."]
+    },
+    {
+      "id": "medine-t1.l18.practice-4#8",
+      "type": "fill_gap",
+      "sentence": "لِلْبَيْتِ {0}.",
+      "fr": "La maison a deux clés.",
+      "gaps": [ { "answers": ["مِفْتَاحَانِ"] } ],
+      "options": ["مِفْتَاحَانِ", "مِفْتَاحٌ", "مَفَاتِيحُ"],
+      "explain": "{ar|مِفْتَاحَانِ} : deux clés."
+    },
+    {
+      "id": "medine-t1.l18.practice-4#9",
+      "type": "question",
+      "prompt": { "fr": "{ar|لِمَنْ هَاتَانِ الْبَقَرَتَانِ؟ هُمَا لِلْفَلَّاحِ.} À qui sont les deux vaches ?" },
+      "choices": [ { "fr": "Au paysan" }, { "fr": "Au directeur" }, { "fr": "Au médecin" } ],
+      "answer": 0,
+      "explain": "{ar|هُمَا لِلْفَلَّاحِ} : « elles sont au paysan »."
+    },
+    {
+      "id": "medine-t1.l18.practice-4#10",
+      "type": "order",
+      "fr": "Ces deux médecins sont-ils d'Allemagne ?",
+      "answers": [["أَهٰذَانِ", "الطَّبِيبَانِ", "مِنْ", "أَلْمَانِيَا"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l18.practice-4#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Non. Ils viennent de France.",
+      "answers": ["لَا. هُمَا مِنْ فَرَنْسَا."]
+    },
+    {
+      "id": "medine-t1.l18.practice-4#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Dans mon village, il y a deux petites mosquées.",
+      "answers": ["فِي قَرْيَتِي مَسْجِدَانِ صَغِيرَانِ."]
+    }
+  ]
+}

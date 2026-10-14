@@ -108,6 +108,7 @@
     "ar": "طَاوِلَةٌ",
     "fr": "une table",
     "translit": "ṭāwilatun",
+    "plural": "طَاوِلَاتٌ",
     "gender": "f",
     "example": { "ar": "الْكِتَابُ عَلَى الطَّاوِلَةِ.", "fr": "Le livre est sur la table." }
   },

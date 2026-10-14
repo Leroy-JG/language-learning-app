@@ -1,0 +1,74 @@
+{
+  "id": "medine-t1.l18.vocab-3",
+  "type": "vocabulary",
+  "title": "Donner son avis",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t1.l18.vocab-3#1", "type": "present", "item": "w:ray" },
+    { "id": "medine-t1.l18.vocab-3#2", "type": "present", "item": "p:ma-raik" },
+    {
+      "id": "medine-t1.l18.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ray",
+      "distractors": ["w:dars", "w:sadiq"]
+    },
+    { "id": "medine-t1.l18.vocab-3#4", "type": "present", "item": "w:fikra" },
+    { "id": "medine-t1.l18.vocab-3#5", "type": "present", "item": "w:khidma" },
+    { "id": "medine-t1.l18.vocab-3#6", "type": "match", "mode": "ar-fr", "items": ["w:ray", "w:fikra", "w:khidma"] },
+    { "id": "medine-t1.l18.vocab-3#7", "type": "present", "item": "p:hayya-bina" },
+    { "id": "medine-t1.l18.vocab-3#8", "type": "present", "item": "p:turid-an" },
+    {
+      "id": "medine-t1.l18.vocab-3#9",
+      "type": "tip",
+      "title": "Des phrases utiles",
+      "blocks": [
+        { "type": "example", "ar": "مَا رَأْيُكَ فِي هٰذَا الْمَطْعَمِ؟", "fr": "Que penses-tu de ce restaurant ?" },
+        { "type": "example", "ar": "هَيَّا بِنَا إِلَى الْمَطْعَمِ.", "fr": "Allons au restaurant !" },
+        { "type": "example", "ar": "تُرِيدُ أَنْ تَأْكُلَ؟", "fr": "Veux-tu manger ?" },
+        { "type": "paragraph", "text": "Avec {ar|قَدَّمَ}, on peut présenter un plat, une idée ou un service :" },
+        { "type": "example", "ar": "قَدَّمَ الْمُوَظَّفُ فِكْرَةً.", "fr": "L'employé a présenté une idée." },
+        { "type": "example", "ar": "قَدَّمَ الْمُوَظَّفُ خِدْمَةً.", "fr": "L'employé a offert un service." },
+        { "type": "note", "text": "À une femme, {ar|رَأْيُكَ} devient {ar|رَأْيُكِ} (chapitre 12)." }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.vocab-3#10",
+      "type": "question",
+      "prompt": { "fr": "Que dis-tu pour proposer de partir ensemble ?" },
+      "choices": [ { "ar": "هَيَّا بِنَا." }, { "ar": "مَا رَأْيُكَ فِي هٰذَا؟" }, { "ar": "تُرِيدُ أَنْ" } ],
+      "answer": 0,
+      "explain": "{ar|هَيَّا بِنَا} : « allons-y ! »."
+    },
+    {
+      "id": "medine-t1.l18.vocab-3#11",
+      "type": "fill_gap",
+      "sentence": "مَا {0} فِي هٰذَا؟",
+      "fr": "Que penses-tu de ceci ?",
+      "gaps": [ { "answers": ["رَأْيُكَ"] } ],
+      "options": ["رَأْيُكَ", "رَأْيِي", "فِكْرَتُكَ"],
+      "explain": "{ar|رَأْيُكَ} : « ton avis ». {ar|رَأْيِي} voudrait dire « mon avis »."
+    },
+    {
+      "id": "medine-t1.l18.vocab-3#12",
+      "type": "order",
+      "fr": "Quel est ton avis ?",
+      "answers": [["مَا", "رَأْيُكَ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l18.vocab-3#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai une idée.",
+      "answers": ["عِنْدِي فِكْرَةٌ.", "لِي فِكْرَةٌ."]
+    },
+    {
+      "id": "medine-t1.l18.vocab-3#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Allons au restaurant !",
+      "answers": ["هَيَّا بِنَا إِلَى الْمَطْعَمِ."]
+    }
+  ]
+}

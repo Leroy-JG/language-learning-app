@@ -1,0 +1,200 @@
+{
+  "id": "medine-t1.l18.grammar-4",
+  "type": "grammar",
+  "title": "Là-bas, et les trois cas",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l18.grammar-4#1",
+      "type": "tip",
+      "title": "Montrer deux êtres ou deux choses éloignés",
+      "blocks": [
+        { "type": "paragraph", "text": "Comme au singulier (chapitre 7), le {ar|كَ} final marque l'éloignement :" },
+        {
+          "type": "table",
+          "header": ["Loin", "Un seul", "Deux"],
+          "rows": [["masculin", "{ar|ذٰلِكَ}", "{ar|ذَانِكَ}"], ["féminin", "{ar|تِلْكَ}", "{ar|تَانِكَ}"]]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Pour retenir : un {ar|ه} au début (« ha- ») = proche, un {ar|كَ} à la fin = loin. Ça marche aussi au duel : {ar|هٰذَانِ} (proche), {ar|ذَانِكَ} (loin)."
+        },
+        {
+          "type": "note",
+          "text": "Au duel, il n'y a pas de {ar|ل} : {ar|ذَانِكَ} et {ar|تَانِكَ} n'ont pas le {ar|ل} de {ar|ذٰلِكَ} et {ar|تِلْكَ}."
+        }
+      ]
+    },
+    { "id": "medine-t1.l18.grammar-4#2", "type": "present", "item": "w:dhanika" },
+    { "id": "medine-t1.l18.grammar-4#3", "type": "present", "item": "w:tanika" },
+    {
+      "id": "medine-t1.l18.grammar-4#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:tanika",
+      "distractors": ["w:tilka", "w:hatani"],
+      "explain": "{ar|تَانِكَ} : deux êtres ou choses féminins, éloignés."
+    },
+    {
+      "id": "medine-t1.l18.grammar-4#5",
+      "type": "sort",
+      "categories": [ { "fr": "proche" }, { "fr": "loin" } ],
+      "cards": [
+        { "ar": "هٰذَانِ", "category": 0 },
+        { "ar": "ذَانِكَ", "category": 1 },
+        { "ar": "هَاتَانِ", "category": 0 },
+        { "ar": "تَانِكَ", "category": 1 }
+      ],
+      "instruction": "Proche ou loin ?",
+      "explain": "Un {ar|ه} au début : proche. Un {ar|كَ} à la fin : loin."
+    },
+    {
+      "id": "medine-t1.l18.grammar-4#6",
+      "type": "fill_gap",
+      "sentence": "{0} رَجُلَانِ.",
+      "fr": "Ceux-là sont deux hommes.",
+      "gaps": [ { "answers": ["ذَانِكَ"] } ],
+      "options": ["ذَانِكَ", "تَانِكَ", "هٰذَانِ"],
+      "explain": "{ar|رَجُلٌ} est masculin et « là » : {ar|ذَانِكَ}."
+    },
+    {
+      "id": "medine-t1.l18.grammar-4#7",
+      "type": "tip",
+      "title": "Les démonstratifs du duel changent de forme",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les démonstratifs que tu connais jusqu'ici ne changent jamais de forme. **Ceux du duel sont l'exception** : comme tout duel, ils changent selon leur rôle (chapitre 11 l'annonçait)."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "هٰذَانِ", "fr": "ces deux-ci, masculin" },
+              "to": { "ar": "هٰذَيْنِ", "fr": "ces deux-ci, masculin" },
+              "label": "nominatif → accusatif ou génitif"
+            },
+            {
+              "from": { "ar": "هَاتَانِ", "fr": "ces deux-ci, féminin" },
+              "to": { "ar": "هَاتَيْنِ", "fr": "ces deux-ci, féminin" }
+            },
+            {
+              "from": { "ar": "ذَانِكَ", "fr": "ces deux-là, masculin" },
+              "to": { "ar": "ذَيْنِكَ", "fr": "ces deux-là, masculin" }
+            },
+            {
+              "from": { "ar": "تَانِكَ", "fr": "ces deux-là, féminin" },
+              "to": { "ar": "تَيْنِكَ", "fr": "ces deux-là, féminin" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Même règle que pour les autres duels : l'alif au nominatif, le yā à l'accusatif et au génitif. Le {ar|ن} garde toujours sa kasra : ce n'est pas lui qui porte le cas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.grammar-4#8",
+      "type": "tip",
+      "title": "Des exemples",
+      "blocks": [
+        { "type": "example", "ar": "هٰذَانِ الدَّفْتَرَانِ جَدِيدَانِ.", "fr": "Ces deux cahiers sont neufs." },
+        {
+          "type": "example",
+          "ar": "فِي هٰذَيْنِ الْبَيْتَيْنِ مَطْبَخَانِ.",
+          "fr": "Dans ces deux maisons, il y a deux cuisines."
+        },
+        {
+          "type": "example",
+          "ar": "السَّلَامُ عَلَى ذَيْنِكَ الرَّجُلَيْنِ.",
+          "fr": "Que la paix soit sur ces deux hommes-là."
+        },
+        {
+          "type": "note",
+          "text": "Comme au singulier, le nom qui suit le démonstratif prend le cas de la fonction de l'ensemble (génitif après {ar|فِي}). La différence : au duel, le démonstratif lui-même porte ce cas : {ar|هٰذَيْنِ الْبَيْتَيْنِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.grammar-4#9",
+      "type": "spot",
+      "instruction": "Touche le démonstratif.",
+      "words": ["السَّلَامُ", "عَلَى", "ذَيْنِكَ", "الرَّجُلَيْنِ."],
+      "answers": [2],
+      "fr": "Que la paix soit sur ces deux hommes-là.",
+      "explain": "{ar|ذَيْنِكَ} : le duel de {ar|ذٰلِكَ}, au génitif après {ar|عَلَى}."
+    },
+    {
+      "id": "medine-t1.l18.grammar-4#10",
+      "type": "fill_gap",
+      "sentence": "لِمَنْ {0} الدَّفْتَرَانِ؟",
+      "fr": "À qui sont ces deux cahiers ?",
+      "gaps": [ { "answers": ["هٰذَانِ"] } ],
+      "options": ["هٰذَانِ", "هٰذَيْنِ", "هٰذَا"],
+      "explain": "Ici, le démonstratif est le sujet : le nominatif {ar|هٰذَانِ} (alif)."
+    },
+    {
+      "id": "medine-t1.l18.grammar-4#11",
+      "type": "fill_gap",
+      "sentence": "السَّلَامُ عَلَى {0} الرَّجُلَيْنِ.",
+      "fr": "Que la paix soit sur ces deux hommes-là.",
+      "gaps": [ { "answers": ["ذَيْنِكَ"] } ],
+      "options": ["ذَيْنِكَ", "ذَانِكَ", "ذٰلِكَ"],
+      "explain": "Après {ar|عَلَى}, le génitif : {ar|ذَيْنِكَ} (yā)."
+    },
+    {
+      "id": "medine-t1.l18.grammar-4#12",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif ({ar|◌َانِ})" }, { "fr": "accusatif ou génitif ({ar|◌َيْنِ})" } ],
+      "cards": [
+        { "ar": "هٰذَانِ", "category": 0 },
+        { "ar": "هَاتَيْنِ", "category": 1 },
+        { "ar": "ذَانِكَ", "category": 0 },
+        { "ar": "تَيْنِكَ", "category": 1 },
+        { "ar": "هٰذَيْنِ", "category": 1 },
+        { "ar": "هَاتَانِ", "category": 0 }
+      ],
+      "instruction": "Nominatif ou autre cas ?",
+      "explain": "L'alif : nominatif. Le yā : accusatif ou génitif."
+    },
+    {
+      "id": "medine-t1.l18.grammar-4#13",
+      "type": "tip",
+      "title": "Tous les démonstratifs",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Nombre et genre", "Proche", "Loin"],
+          "rows": [
+            ["singulier masculin", "{ar|هٰذَا}", "{ar|ذٰلِكَ}"],
+            ["singulier féminin", "{ar|هٰذِهِ}", "{ar|تِلْكَ}"],
+            ["duel masculin", "{ar|هٰذَانِ}", "{ar|ذَانِكَ}"],
+            ["duel féminin", "{ar|هَاتَانِ}", "{ar|تَانِكَ}"],
+            ["pluriel de personnes", "{ar|هَؤُلَاءِ}", "{ar|أُولَئِكَ}"],
+            ["pluriel de choses (en général)", "{ar|هٰذِهِ}", "{ar|تِلْكَ}"],
+            ["lieu", "{ar|هُنَا}", "{ar|هُنَاكَ}"]
+          ]
+        },
+        { "type": "note", "text": "Tous sont invariables, sauf ceux du duel." }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.grammar-4#14",
+      "type": "question",
+      "prompt": { "fr": "Lesquels de ces démonstratifs changent de forme selon leur rôle ?" },
+      "choices": [ { "fr": "Ceux du duel" }, { "fr": "Ceux du singulier" }, { "fr": "Ceux du pluriel" } ],
+      "answer": 0,
+      "explain": "Seuls les démonstratifs du duel sont variables : {ar|هٰذَانِ} / {ar|هٰذَيْنِ}."
+    },
+    {
+      "id": "medine-t1.l18.grammar-4#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Que la paix soit sur ces deux hommes-là.",
+      "answers": ["السَّلَامُ عَلَى ذَيْنِكَ الرَّجُلَيْنِ."]
+    }
+  ]
+}

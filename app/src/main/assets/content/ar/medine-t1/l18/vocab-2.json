@@ -1,0 +1,111 @@
+{
+  "id": "medine-t1.l18.vocab-2",
+  "type": "vocabulary",
+  "title": "Demander, vouloir, manger, servir",
+  "icon": "pot",
+  "screens": [
+    { "id": "medine-t1.l18.vocab-2#1", "type": "present", "item": "w:talaba" },
+    { "id": "medine-t1.l18.vocab-2#2", "type": "present", "item": "w:arada" },
+    {
+      "id": "medine-t1.l18.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:talaba",
+      "distractors": ["w:arada", "w:dhahaba"]
+    },
+    { "id": "medine-t1.l18.vocab-2#4", "type": "present", "item": "w:akala" },
+    { "id": "medine-t1.l18.vocab-2#5", "type": "present", "item": "w:qaddama" },
+    {
+      "id": "medine-t1.l18.vocab-2#6",
+      "type": "tip",
+      "title": "Leurs formes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme aux chapitres précédents, chaque verbe est cité **au passé, à la troisième personne du masculin singulier**. Voici ses quatre formes, données pour que tu les reconnaisses : tu n'as pas à les apprendre maintenant."
+        },
+        {
+          "type": "table",
+          "header": ["Forme", "demander", "vouloir", "manger", "servir"],
+          "rows": [
+            ["{ar|الْمَاضِي} (passé)", "{ar|طَلَبَ}", "{ar|أَرَادَ}", "{ar|أَكَلَ}", "{ar|قَدَّمَ}"],
+            [
+              "{ar|الْمُضَارِعُ} (présent, futur)",
+              "{ar|يَطْلُبُ}",
+              "{ar|يُرِيدُ}",
+              "{ar|يَأْكُلُ}",
+              "{ar|يُقَدِّمُ}"
+            ],
+            ["{ar|الْأَمْرُ} (impératif)", "{ar|اُطْلُبْ}", "{ar|أَرِدْ}", "{ar|كُلْ}", "{ar|قَدِّمْ}"],
+            ["{ar|الْمَصْدَرُ} (nom d'action)", "{ar|طَلَبٌ}", "{ar|إِرَادَةٌ}", "{ar|أَكْلٌ}", "{ar|تَقْدِيمٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le professeur écrit les noms d'action avec une fatha ({ar|طَلَبًا}, {ar|إِرَادَةً}…) : c'est la même forme, à l'accusatif."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Quelques verbes à hamza initiale, comme {ar|أَكَلَ}, perdent leur hamza à l'impératif : {ar|كُلْ} (« mange ! »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.vocab-2#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:talaba", "w:arada", "w:akala", "w:qaddama"]
+    },
+    {
+      "id": "medine-t1.l18.vocab-2#8",
+      "type": "tip",
+      "title": "Ce qu'on demande, ce qu'on mange",
+      "blocks": [
+        { "type": "example", "ar": "طَلَبَ الطَّالِبُ كِتَابًا.", "fr": "L'étudiant a demandé un livre." },
+        { "type": "example", "ar": "أَكَلَ الْوَلَدُ خُبْزًا.", "fr": "Le garçon a mangé du pain." },
+        { "type": "example", "ar": "قَدَّمَ الْمُوَظَّفُ طَعَامًا.", "fr": "L'employé a servi de la nourriture." },
+        {
+          "type": "note",
+          "text": "Ce qui est demandé, mangé ou servi est à l'accusatif : une fatha, avec l'alif du tanwin ({ar|كِتَابًا}, {ar|خُبْزًا}). Comme aux chapitres 11 et 14, tu le vois sans avoir à le produire."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.vocab-2#9",
+      "type": "fill_gap",
+      "sentence": "{0} الْمُوَظَّفُ طَعَامًا.",
+      "fr": "L'employé a servi de la nourriture.",
+      "gaps": [ { "answers": ["قَدَّمَ"] } ],
+      "options": ["قَدَّمَ", "أَكَلَ", "طَلَبَ", "أَرَادَ"],
+      "explain": "{ar|قَدَّمَ} : il a présenté, il a servi."
+    },
+    {
+      "id": "medine-t1.l18.vocab-2#10",
+      "type": "fill_gap",
+      "sentence": "{0} الْوَلَدُ خُبْزًا.",
+      "fr": "Le garçon a mangé du pain.",
+      "gaps": [ { "answers": ["أَكَلَ"] } ],
+      "options": ["أَكَلَ", "طَلَبَ", "أَرَادَ"],
+      "explain": "{ar|أَكَلَ} : il a mangé."
+    },
+    {
+      "id": "medine-t1.l18.vocab-2#11",
+      "type": "order",
+      "fr": "Zayd a mangé du pain.",
+      "answers": [["أَكَلَ", "زَيْدٌ", "خُبْزًا"], ["زَيْدٌ", "أَكَلَ", "خُبْزًا"]],
+      "punctuation": ".",
+      "explain": "Le verbe peut venir en premier (phrase verbale) ou après le sujet (phrase nominale), comme au chapitre 8."
+    },
+    {
+      "id": "medine-t1.l18.vocab-2#12",
+      "type": "true_false",
+      "statement": { "fr": "{ar|كُلْ} est l'impératif de {ar|أَكَلَ} : « mange ! »." },
+      "answer": true,
+      "explain": "L'impératif de {ar|أَكَلَ} est {ar|كُلْ} : la hamza disparaît."
+    },
+    { "id": "medine-t1.l18.vocab-2#13", "type": "build", "item": "w:arada", "extra": ["ذ"] },
+    { "id": "medine-t1.l18.vocab-2#14", "type": "typing", "ask": "fr", "item": "w:talaba" },
+    { "id": "medine-t1.l18.vocab-2#15", "type": "typing", "ask": "fr", "item": "w:akala" }
+  ]
+}

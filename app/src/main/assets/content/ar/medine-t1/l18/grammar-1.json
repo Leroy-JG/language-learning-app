@@ -1,0 +1,192 @@
+{
+  "id": "medine-t1.l18.grammar-1",
+  "type": "grammar",
+  "title": "Le duel : deux unités",
+  "icon": "eye",
+  "screens": [
+    {
+      "id": "medine-t1.l18.grammar-1#1",
+      "type": "tip",
+      "title": "Un, deux, ou plusieurs ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le français distingue le singulier (un) et le pluriel (plusieurs). L'arabe a **trois nombres** : un nom est au singulier ({ar|الْمُفْرَدُ}), au duel ({ar|الْمُثَنَّى}) ou au pluriel ({ar|الْجَمْعُ})."
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "En arabe", "Combien ?", "Exemple"],
+          "rows": [
+            ["singulier", "{ar|الْمُفْرَدُ}", "un seul", "{ar|كِتَابٌ} (un livre)"],
+            ["duel", "{ar|الْمُثَنَّى}", "**exactement deux**", "{ar|كِتَابَانِ} (deux livres)"],
+            ["pluriel", "{ar|الْجَمْعُ}", "trois ou plus", "{ar|كُتُبٌ} (des livres)"]
+          ]
+        },
+        {
+          "type": "gallery",
+          "title": "Deux personnes : tu connais déjà le duel des pronoms",
+          "items": ["w:huma", "w:antuma"]
+        },
+        {
+          "type": "note",
+          "text": "Au chapitre 10, tu as appris {ar|هُمَا} (« eux deux ») et {ar|أَنْتُمَا} (« vous deux »). Les noms aussi ont une forme pour deux : c'est le sujet de ce chapitre."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.grammar-1#3",
+      "type": "question",
+      "prompt": { "fr": "Pour combien d'êtres ou de choses emploie-t-on le duel ?" },
+      "choices": [ { "fr": "Exactement deux" }, { "fr": "Deux ou plus" }, { "fr": "Trois ou plus" } ],
+      "answer": 0,
+      "explain": "Le duel désigne exactement deux. À partir de trois, on emploie le pluriel."
+    },
+    {
+      "id": "medine-t1.l18.grammar-1#4",
+      "type": "tip",
+      "title": "Former le duel",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour mettre un nom au duel, on ajoute à la fin de son singulier {ar|انِ}, avec une fatha sur la lettre qui précède. Le tanwin disparaît : c'est le {ar|ن} qui prend sa place."
+        },
+        {
+          "type": "breakdown",
+          "ar": "مُسْلِمَانِ",
+          "fr": "deux musulmans",
+          "parts": [
+            { "ar": "مُسْلِمَ", "fr": "le singulier, sans tanwin" },
+            { "ar": "انِ", "fr": "la marque du duel : « deux »" }
+          ]
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "كِتَابٌ", "fr": "un livre" },
+              "to": { "ar": "كِتَابَانِ", "fr": "deux livres" },
+              "label": "le tanwin disparaît, {ar|انِ} arrive"
+            },
+            { "from": { "ar": "قَلَمٌ", "fr": "un stylo" }, "to": { "ar": "قَلَمَانِ", "fr": "deux stylos" } },
+            { "from": { "ar": "مِفْتَاحٌ", "fr": "une clé" }, "to": { "ar": "مِفْتَاحَانِ", "fr": "deux clés" } },
+            {
+              "from": { "ar": "طَالِبٌ", "fr": "un étudiant" },
+              "to": { "ar": "طَالِبَانِ", "fr": "deux étudiants" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pas besoin du mot « deux » : {ar|كِتَابَانِ} veut déjà dire « deux livres ». On peut ajouter {ar|اِثْنَانِ} (« deux ») pour insister, mais ce n'est pas nécessaire."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.grammar-1#5",
+      "type": "spot",
+      "instruction": "Touche le nom au duel.",
+      "words": ["فِي", "الْغُرْفَةِ", "كِتَابَانِ."],
+      "answers": [2],
+      "fr": "Dans la chambre, il y a deux livres.",
+      "explain": "Le {ar|انِ} final marque le duel : {ar|كِتَابَانِ} = deux livres."
+    },
+    {
+      "id": "medine-t1.l18.grammar-1#6",
+      "type": "tip",
+      "title": "Le duel au féminin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au féminin, le {ar|ة} devient {ar|ت} devant {ar|انِ}. La fatha reste devant."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "مُسْلِمَةٌ", "fr": "une musulmane" },
+              "to": { "ar": "مُسْلِمَتَانِ", "fr": "deux musulmanes" }
+            },
+            {
+              "from": { "ar": "طَالِبَةٌ", "fr": "une étudiante" },
+              "to": { "ar": "طَالِبَتَانِ", "fr": "deux étudiantes" }
+            },
+            {
+              "from": { "ar": "مَدْرَسَةٌ", "fr": "une école" },
+              "to": { "ar": "مَدْرَسَتَانِ", "fr": "deux écoles" }
+            },
+            {
+              "from": { "ar": "نَافِذَةٌ", "fr": "une fenêtre" },
+              "to": { "ar": "نَافِذَتَانِ", "fr": "deux fenêtres" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Tu connais déjà ce {ar|ة} → {ar|ت} : c'est le même changement que devant un pronom collé (chapitre 10), comme dans {ar|سَيَّارَتِي}."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Quelques noms changent un peu. Le duel de {ar|أَخٌ} est {ar|أَخَوَانِ} : le {ar|و} revient, comme dans {ar|أَخُوكَ}."
+        },
+        {
+          "type": "note",
+          "text": "Les parties du corps qui vont par paire (chapitre 3) viennent d'abord à l'esprit : {ar|عَيْنٌ} → {ar|عَيْنَانِ} (deux yeux), {ar|أُذُنٌ} → {ar|أُذُنَانِ} (deux oreilles), {ar|يَدٌ} → {ar|يَدَانِ} (deux mains)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.grammar-1#7",
+      "type": "sort",
+      "categories": [ { "fr": "un seul" }, { "fr": "deux" } ],
+      "cards": [
+        { "ar": "كِتَابٌ", "category": 0 },
+        { "ar": "قَلَمَانِ", "category": 1 },
+        { "ar": "بَابٌ", "category": 0 },
+        { "ar": "مِفْتَاحَانِ", "category": 1 },
+        { "ar": "طَالِبَتَانِ", "category": 1 },
+        { "ar": "مَدْرَسَةٌ", "category": 0 }
+      ],
+      "instruction": "Un seul ou deux ? Range chaque nom.",
+      "explain": "Le {ar|انِ} final marque le duel (deux) ; les autres noms sont au singulier."
+    },
+    {
+      "id": "medine-t1.l18.grammar-1#8",
+      "type": "question",
+      "prompt": { "fr": "Quel est le duel de {ar|مُسْلِمَةٌ} ?" },
+      "choices": [ { "ar": "مُسْلِمَتَانِ" }, { "ar": "مُسْلِمَاتَانِ" }, { "ar": "مُسْلِمَانِ" } ],
+      "answer": 0,
+      "explain": "Le {ar|ة} devient {ar|ت} : {ar|مُسْلِمَتَانِ}. {ar|مُسْلِمَانِ} est le duel de {ar|مُسْلِمٌ} (masculin)."
+    },
+    {
+      "id": "medine-t1.l18.grammar-1#9",
+      "type": "fill_gap",
+      "sentence": "فِي الْفَصْلِ {0}.",
+      "fr": "Il y a deux fenêtres dans la salle de classe.",
+      "gaps": [ { "answers": ["نَافِذَتَانِ"] } ],
+      "options": ["نَافِذَتَانِ", "نَافِذَةٌ", "نَوَافِذُ"],
+      "explain": "{ar|نَافِذَتَانِ} : deux fenêtres. {ar|نَافِذَةٌ} en est une seule, {ar|نَوَافِذُ} en est trois ou plus."
+    },
+    {
+      "id": "medine-t1.l18.grammar-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "deux livres",
+      "answers": ["كِتَابَانِ"]
+    },
+    {
+      "id": "medine-t1.l18.grammar-1#11",
+      "type": "order",
+      "fr": "Il y a deux stylos sur la table.",
+      "answers": [["عَلَى", "الطَّاوِلَةِ", "قَلَمَانِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l18.grammar-1#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il y a deux pièces dans la maison.",
+      "answers": ["فِي الْبَيْتِ غُرْفَتَانِ."]
+    }
+  ]
+}

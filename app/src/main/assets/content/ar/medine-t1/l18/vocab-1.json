@@ -1,0 +1,86 @@
+{
+  "id": "medine-t1.l18.vocab-1",
+  "type": "vocabulary",
+  "title": "Au restaurant",
+  "icon": "meal",
+  "screens": [
+    { "id": "medine-t1.l18.vocab-1#1", "type": "present", "item": "w:shabaan" },
+    {
+      "id": "medine-t1.l18.vocab-1#2",
+      "type": "tip",
+      "title": "Faim, soif, rassasié",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici trois adjectifs d'état, tous de forme {ar|فَعْلَانُ} : ils n'ont pas de tanwin."
+        },
+        {
+          "type": "table",
+          "header": ["Adjectif", "Sens", "Pluriel"],
+          "rows": [
+            ["{ar|جَوْعَانُ}", "qui a faim", "{ar|جِيَاعٌ}"],
+            ["{ar|عَطْشَانُ}", "qui a soif", "{ar|عِطَاشٌ}"],
+            ["{ar|شَبْعَانُ}", "rassasié", "{ar|شِبَاعٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Ces trois adjectifs décrivent l'état de quelqu'un : {ar|أَنَا جَوْعَانُ} (« j'ai faim », dit par un homme), {ar|أَنَا شَبْعَانُ} (« je suis rassasié », dit par un homme)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:shabaan",
+      "distractors": ["w:jawan", "w:ataan"],
+      "explain": "{ar|شَبْعَانُ} : rassasié. {ar|جَوْعَانُ} : qui a faim ; {ar|عَطْشَانُ} : qui a soif."
+    },
+    { "id": "medine-t1.l18.vocab-1#4", "type": "present", "item": "w:taam" },
+    { "id": "medine-t1.l18.vocab-1#5", "type": "present", "item": "w:adas" },
+    { "id": "medine-t1.l18.vocab-1#6", "type": "present", "item": "w:muwazzaf" },
+    {
+      "id": "medine-t1.l18.vocab-1#7",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:adas",
+      "distractors": ["w:khubz", "w:lahm"]
+    },
+    { "id": "medine-t1.l18.vocab-1#8", "type": "present", "item": "w:istiqbal" },
+    { "id": "medine-t1.l18.vocab-1#9", "type": "present", "item": "w:ghasl" },
+    {
+      "id": "medine-t1.l18.vocab-1#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:taam", "w:adas", "w:muwazzaf", "w:istiqbal", "w:ghasl"]
+    },
+    {
+      "id": "medine-t1.l18.vocab-1#11",
+      "type": "fill_gap",
+      "sentence": "الْمُوَظَّفُ عِنْدَ {0}.",
+      "fr": "L'employé est à la réception.",
+      "gaps": [ { "answers": ["الِاسْتِقْبَالِ"] } ],
+      "options": ["الِاسْتِقْبَالِ", "الْغَسْلِ", "الْعَدَسِ"],
+      "explain": "{ar|الِاسْتِقْبَالُ} : la réception. Après {ar|عِنْدَ}, le nom est au génitif."
+    },
+    {
+      "id": "medine-t1.l18.vocab-1#12",
+      "type": "fill_gap",
+      "sentence": "عَلَى الطَّاوِلَةِ {0}.",
+      "fr": "Sur la table, il y a des lentilles.",
+      "gaps": [ { "answers": ["عَدَسٌ"] } ],
+      "options": ["عَدَسٌ", "مُوَظَّفٌ", "غَسْلٌ"],
+      "explain": "{ar|عَدَسٌ} : des lentilles (un nom collectif)."
+    },
+    {
+      "id": "medine-t1.l18.vocab-1#13",
+      "type": "true_false",
+      "statement": { "fr": "{ar|شَبْعَانُ} est le contraire de {ar|جَوْعَانُ}." },
+      "answer": true,
+      "explain": "Celui qui est {ar|شَبْعَانُ} n'a plus faim ; celui qui est {ar|جَوْعَانُ} a faim."
+    },
+    { "id": "medine-t1.l18.vocab-1#14", "type": "build", "item": "w:istiqbal", "extra": ["ث"] },
+    { "id": "medine-t1.l18.vocab-1#15", "type": "typing", "ask": "fr", "item": "w:muwazzaf" }
+  ]
+}
