@@ -3,7 +3,7 @@ Icônes : OpenMoji 15.1 (https://openmoji.org/), licence CC BY-SA 4.0
 le projet libre d'emojis et d'icônes.
 
 Fichiers app/src/main/res/drawable-nodpi/icon_*.png et ui_*.png : rendus en PNG 256 × 256 à partir des SVG
-couleur d'OpenMoji, sans autre modification.
+couleur d'OpenMoji, sans autre modification (sauf indication ci-dessous).
 
 Nom dans l'app → code OpenMoji
 house 1F3E0 · mosque 1F54C · door 1F6AA · book 1F4D5 · pen 1F58A · key 1F511 · bed 1F6CF
@@ -21,5 +21,8 @@ bicycle 1F6B2 · spoon 1F944 · window 1FA9F · ear 1F442 · nose 1F443 · leg 1
 cow 1F404 · farmer 1F9D1-200D-1F33E · tea 1FAD6 · hen 1F414 · pot 1F372
 duck 1F986 · egg 1F95A · tree 1F333
 airplane 2708 · hotel 1F3E8 · mountain 26F0 · sea 1F30A
+circle_red 1F534 · circle_blue 1F535 · circle_black 26AB · circle_white 26AA · circle_yellow 1F7E1 · circle_green 1F7E2 · cup 2615
+(circle_green et circle_blue : seule la couleur de remplissage a été changée, vert #5c9e31 au lieu du vert citron
+d'OpenMoji et bleu #3c7dc4, pour que la couleur enseignée soit sans ambiguïté.)
 
 Images de l'interface : ui_flag 1F3C1 · ui_trophy 1F3C6

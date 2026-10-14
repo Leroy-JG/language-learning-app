@@ -84,6 +84,13 @@ object IconImages {
         "hotel" to R.drawable.icon_hotel,
         "mountain" to R.drawable.icon_mountain,
         "sea" to R.drawable.icon_sea,
+        "circle_red" to R.drawable.icon_circle_red,
+        "circle_green" to R.drawable.icon_circle_green,
+        "circle_blue" to R.drawable.icon_circle_blue,
+        "circle_black" to R.drawable.icon_circle_black,
+        "circle_white" to R.drawable.icon_circle_white,
+        "circle_yellow" to R.drawable.icon_circle_yellow,
+        "cup" to R.drawable.icon_cup,
     )
 
     @DrawableRes

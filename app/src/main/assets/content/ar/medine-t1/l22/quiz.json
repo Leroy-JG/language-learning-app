@@ -1,0 +1,151 @@
+{
+  "id": "medine-t1.l22.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 22",
+  "screens": [
+    {
+      "id": "medine-t1.l22.quiz#1",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:asfar",
+      "distractors": ["w:ahmar", "w:aswad"]
+    },
+    {
+      "id": "medine-t1.l22.quiz#2",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:daqiqa", "w:finjan", "w:qalil", "w:qala"]
+    },
+    {
+      "id": "medine-t1.l22.quiz#3",
+      "type": "fill_gap",
+      "sentence": "هٰذَا مِنْدِيلٌ {0}.",
+      "fr": "C'est un mouchoir vert.",
+      "gaps": [ { "answers": ["أَخْضَرُ"] } ],
+      "options": ["أَخْضَرُ", "أَحْمَرُ", "أَزْرَقُ"],
+      "explain": "{ar|أَخْضَرُ} : vert."
+    },
+    {
+      "id": "medine-t1.l22.quiz#4",
+      "type": "sort",
+      "categories": [ { "fr": "avec tanwin ({ar|◌ٌ})" }, { "fr": "sans tanwin ({ar|◌ُ})" } ],
+      "cards": [
+        { "ar": "كَبِيرٌ", "category": 0 },
+        { "ar": "أَحْمَرُ", "category": 1 },
+        { "ar": "مُحَمَّدٌ", "category": 0 },
+        { "ar": "أَحْمَدُ", "category": 1 },
+        { "ar": "كَسْلَانُ", "category": 1 },
+        { "ar": "فِنْجَانٌ", "category": 0 }
+      ],
+      "instruction": "Range chaque mot : porte-t-il le tanwin ?",
+      "explain": "{ar|أَحْمَرُ}, {ar|أَحْمَدُ}, {ar|كَسْلَانُ} sont privés de tanwin. {ar|كَبِيرٌ}, {ar|مُحَمَّدٌ} et {ar|فِنْجَانٌ} le gardent."
+    },
+    {
+      "id": "medine-t1.l22.quiz#5",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|أَحْمَرُ} n'a-t-il pas de tanwin ?" },
+      "choices": [
+        { "fr": "C'est un adjectif de la forme {ar|أَفْعَلُ}" },
+        { "fr": "C'est un pluriel de forme longue" },
+        { "fr": "C'est un nom propre non arabe" }
+      ],
+      "answer": 0,
+      "explain": "Les couleurs sont de la forme {ar|أَفْعَلُ} : elles n'ont pas de tanwin."
+    },
+    {
+      "id": "medine-t1.l22.quiz#6",
+      "type": "question",
+      "prompt": { "fr": "Après la préposition {ar|مِنْ}, le prénom {ar|حَمْزَةُ} (sans article) prend…" },
+      "choices": [ { "fr": "une fatha ({ar|◌َ})" }, { "fr": "une kasra ({ar|◌ِ})" }, { "fr": "un tanwin ({ar|◌ٍ})" } ],
+      "answer": 0,
+      "explain": "{ar|حَمْزَةُ} est privé de tanwin : {ar|مِنْ حَمْزَةَ}."
+    },
+    {
+      "id": "medine-t1.l22.quiz#7",
+      "type": "sort",
+      "categories": [
+        { "fr": "un nom propre non arabe" },
+        { "fr": "la forme {ar|أَفْعَلُ}" },
+        { "fr": "un prénom d'homme en {ar|ة}" }
+      ],
+      "cards": [
+        { "ar": "يُونُسُ", "category": 0 },
+        { "ar": "لَنْدَنُ", "category": 0 },
+        { "ar": "أَنْوَرُ", "category": 1 },
+        { "ar": "أَصْفَرُ", "category": 1 },
+        { "ar": "طَلْحَةُ", "category": 2 },
+        { "ar": "مُعَاوِيَةُ", "category": 2 }
+      ],
+      "instruction": "Pourquoi ce nom n'a-t-il pas de tanwin ? Range chaque nom selon sa sorte.",
+      "explain": "{ar|يُونُسُ}, {ar|لَنْدَنُ} : des noms non arabes. {ar|أَنْوَرُ}, {ar|أَصْفَرُ} : la forme {ar|أَفْعَلُ}. {ar|طَلْحَةُ}, {ar|مُعَاوِيَةُ} : des prénoms d'hommes en {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l22.quiz#8",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:baghdad",
+      "distractors": ["w:jidda", "w:landan"]
+    },
+    {
+      "id": "medine-t1.l22.quiz#9",
+      "type": "fill_gap",
+      "sentence": "{0} فَاطِمَةُ : لَا.",
+      "fr": "Fāṭima a dit : « Non. »",
+      "gaps": [ { "answers": ["قَالَتْ"] } ],
+      "options": ["قَالَتْ", "قَالَ", "ذَهَبَتْ"],
+      "explain": "Le sujet {ar|فَاطِمَةُ} est féminin : {ar|قَالَتْ}."
+    },
+    {
+      "id": "medine-t1.l22.quiz#10",
+      "type": "true_false",
+      "statement": { "fr": "Un pluriel de forme longue comme {ar|مَنَادِيلُ} a un tanwin." },
+      "answer": false,
+      "explain": "Les pluriels de forme longue n'ont pas de tanwin."
+    },
+    {
+      "id": "medine-t1.l22.quiz#11",
+      "type": "question",
+      "prompt": { "fr": "Lequel des fils de Ḥāmid est paresseux ?" },
+      "choices": [ { "fr": "Ḥamza" }, { "fr": "Aḥmad" }, { "fr": "Ibrāhīm" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l22.dialogue-1#1" },
+      "explain": "{ar|حَمْزَةُ طَالِبٌ كَسْلَانُ}."
+    },
+    {
+      "id": "medine-t1.l22.quiz#12",
+      "type": "order",
+      "fr": "J'ai un livre bleu.",
+      "answers": [["عِنْدِي", "كِتَابٌ", "أَزْرَقُ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l22.quiz#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Fāṭima est à Djeddah.",
+      "answers": ["فَاطِمَةُ فِي جُدَّةَ."]
+    },
+    {
+      "id": "medine-t1.l22.quiz#14",
+      "type": "true_false",
+      "statement": { "fr": "Yūsuf a cinq stylos de cinq couleurs différentes." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l22.dialogue-2#1" },
+      "explain": "Rouge, bleu, vert, noir et jaune : {ar|خَمْسَةُ أَقْلَامٍ}."
+    },
+    {
+      "id": "medine-t1.l22.quiz#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est la clé du sac.",
+      "answers": ["هٰذَا مِفْتَاحُ الْحَقِيبَةِ."]
+    },
+    {
+      "id": "medine-t1.l22.quiz#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "dans une maison blanche",
+      "answers": ["فِي بَيْتٍ أَبْيَضَ."]
+    }
+  ]
+}

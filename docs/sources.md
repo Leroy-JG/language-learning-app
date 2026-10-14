@@ -886,6 +886,45 @@ Notes de choix dans un fichier à part : `docs/sources-lecon-17.md` (les chapitr
 - **Relecture (3 relecteurs indépendants) :** une généralisation fausse corrigée (prénoms non arabes « de plus de trois lettres »), réponses ajoutées (`هٰذَا رَجُلٌ صَالِحٌ`, variantes de `practice-1`, ordres de `أَبْوَابُنَا مَفْتُوحَةٌ الْآنَ`, inversion des deux choix de `أَمْ`), « (de peau) » précisé, note sur l'ordre des mots de la question en `أَمْ` reformulée (ordre du livre, non obligatoire), « en général » après `كَمْ`, aperçu de `نُحِبُّهُ` séparé en son propre écran. Aucune erreur d'arabe ni de vocalisation.
 - **Retiré du programme :** rien. Aucun exercice sur `نُحِبُّهُ`, `كَثِيرًا` (adverbe à l'accusatif) ni `الَّتِي`.
 
+### Leçon 22 (`l22`)
+
+- **Support :** un seul PDF de 14 pages (cours 22, « L'interdit de tanwin 4 » : texte du livre sur une page, deux diapos sur `الْمَمْنُوعُ مِنَ الصَّرْفِ` (les formes `أَفْعَلُ` et `فَعْلَانُ`, le schéma des quatre familles), exercices 1 à 6 (listes de noms), diapo des couleurs, vocabulaire nouveau, carte du monde avec quatre villes).
+- **Une leçon de synthèse** : les noms privés de tanwin ont été enseignés famille par famille (chapitres 4, 5, 6, 9, 14). La seule vraie notion nouvelle est la **forme `أَفْعَلُ`** (couleurs, prénoms comme `أَحْمَدُ`, adjectifs comme `أَكْبَرُ`). Le reste récapitule : `grammar-3` (terminaison `ـانُ`) et `grammar-4` (les six sortes, avec les noms des exercices du livre). Éléments **nouveaux** (13) : `أَحْمَرُ`, `أَخْضَرُ`, `أَزْرَقُ`, `أَسْوَدُ`, `أَصْفَرُ`, `دَقِيقَةٌ`, `فِنْجَانٌ`, `قَلِيلٌ`, `قَالَ`, `قَالَتْ`, `جُدَّةُ`, `بَغْدَادُ`. Aucun doublon de carte : `أَبْيَضُ` (révision 1), `مَلْآنُ` (chapitre 9), `بَارِيسُ` et `بَاكِسْتَانُ` (chapitre 14) sont réutilisés ; `w:abyad` reçoit seulement une icône (`circle_white`).
+- **Exercices et textes du livre repris :**
+  - texte du livre → `dialogue-1` (la famille de Ḥāmid), `dialogue-2` (stylos, mouchoirs, clés), `dialogue-3` (le pays de Sufyān, la question sur des personnes) ;
+  - diapos `الْمَمْنُوعُ مِنَ الصَّرْفِ` → `grammar-2` (`أَفْعَلُ`), `grammar-3` (`فَعْلَانُ`), `grammar-4` (schéma des quatre familles + les deux autres déjà connues) ;
+  - exercices 1 à 5 (listes de noms) → `practice-1` (tableau des listes, puis tris et cas après préposition) ; exercice 6 (pluriels) → `practice-2` ;
+  - couleurs → `vocab-1` et `grammar-1` ; vocabulaire nouveau → `vocab-2` (minute, tasse, peu), `vocab-3` (dire), `vocab-4` (villes).
+- **Écarts avec le PDF :**
+  - les exercices 1 à 6 du livre sont des **listes à lire** (« les types de noms suivants sont privés de tanwin ») : l'app les montre dans un tableau (`practice-1`, `practice-2`) et en tire des tris, des questions et des écritures ;
+  - `قَوْلٌ` (nom d'action de `قَالَ`) : le PDF écrit `قَوْلًا` (avec le tanwin à la fatha, l'accusatif) ; l'app donne la forme de base `قَوْلٌ`, comme `خُرُوجٌ` et `ذَهَابٌ` au chapitre 4, et signale la forme du livre dans une note ;
+  - exemples du vocabulaire remplacés quand ils emploient des mots non enseignés : `انْتَظَرَ زَيْدٌ الْحَافِلَةَ دَقِيقَةً` (verbe `انْتَظَرَ`, `الْحَافِلَةَ`) → `عِنْدِي خَمْسُ دَقَائِقَ` ; `الْفِنْجَانُ مَلْآنُ بِاللَّبَنِ` (préposition `بِ` non enseignée) → `فِي الْفِنْجَانِ لَبَنٌ` (exemple du PDF pour `فِنْجَانٌ`) et `الْفِنْجَانُ مَلْآنُ` ; `مَلْآنُ` est déjà au chapitre 9 ;
+  - `قَالَتْ` (texte du livre : `قَالَتْ زَيْنَبُ`) : le féminin du verbe est enseigné au chapitre 12 ; il est présenté comme mot (`w:qalat`) pour que le texte soit entièrement couvert ;
+  - `قَلِيلٌ` n'est pas dans la liste du vocabulaire du PDF mais le texte l'emploie (`فَنَادِقُ قَلِيلَةٌ`) : présenté comme mot nouveau ;
+  - `أَهَؤُلَاءِ` : orthographe de l'app (`هَؤُلَاءِ`, chapitre 13), sans alif suscrit ;
+  - le texte du livre est presque sans voyelles : vocalisation de l'app, vérifiée par les relecteurs (`أَعِنْدَكِ` : Fāṭima s'adresse à une femme) ;
+  - `وِلْيَمُ`, `إِدْوَرْدُ`, `بَاكِسْتَانُ` : formes du chapitre 14 ; `بَغْدَادُ` : le professeur le range avec les noms non arabes (origine persane) ; `كَرَاسِيُّ` : pluriel de `كُرْسِيٌّ`, déjà au chapitre 1 ;
+  - les pluriels des couleurs (`حُمْرٌ`, `خُضْرٌ`, `زُرْقٌ`, `سُودٌ`, `صُفْرٌ`, `بِيضٌ` pour `أَبْيَضُ`) ne sont pas dans le PDF : ils sont attestés dans les dictionnaires (Lisān al-ʿArab) et affichés sur les cartes, sans exercice ; le féminin des couleurs (`حَمْرَاءُ`…) n'est qu'un **aperçu** (astuce `grammar-1`) ;
+  - `مَرْيَمُ` (exercice 1 du livre) est cité dans les tableaux mais n'est jamais une carte de tri (nom féminin d'origine non arabe : deux familles possibles).
+- **Choix de contenu :**
+  - les `sort` sur les familles évitent tout nom qui pourrait aller dans deux catégories (`لَنْدَنُ` est aussi une ville, donc « féminin » pour les grammairiens ; `بَاكِسْتَانُ` finit par `ـانُ` ; `مَرْيَمُ`) ; les villes non arabes servent dans `vocab-4`, `practice-1` et le bilan pour la catégorie « non arabe » seulement avec des prénoms ou `بَغْدَادُ` ;
+  - pas de nouvelle activité de type `review` : `grammar-1` à `grammar-4` et `practice-1`, `practice-2` sont des points de grammaire ; les trois `dialogue-N` sont des textes à comprendre ;
+  - un seul narrateur (`m1`) pour les lectures du texte ; `dialogue-3` ajoute deux voix (question `m2`, réponse `m1`) ;
+  - nouvelles icônes : six pastilles de couleur (`circle_red`, `circle_green`, `circle_blue`, `circle_black`, `circle_white`, `circle_yellow`) et une tasse (`cup`, OpenMoji `2615`) ; **le vert et le bleu d'OpenMoji** (vert citron `#b1cc33`, bleu clair) étaient trop proches d'autres couleurs pour un cours de couleurs : seule la couleur de remplissage a été changée (`#5c9e31`, `#3c7dc4`), comme noté dans `docs/licenses/OpenMoji.txt` ;
+  - `tools/generateur_contenu.py` : les champs `sentence`, `answers`, `words`, `options` et `distractors` (toujours en arabe) ne reçoivent plus d'espace insécable avant « : » (le validateur l'interdit dans un texte arabe).
+- **Explications ajoutées (données à l'oral, absentes du PDF) :**
+  - la doctrine des grammairiens : un nom perd son tanwin quand il cumule en général **deux raisons** (nom propre + féminin, nom propre + non arabe…), certaines formes (pluriels de forme longue, mots en `ـاءُ`) y suffisent seules ;
+  - la forme `أَفْعَلُ` n'a pas de tanwin pour les couleurs, en général pour les prénoms et les adjectifs ; un nom **commun** de cette forme garde son tanwin (`أَرْنَبٌ`, un lapin) ;
+  - un nom **commun** en `ـانٌ` garde son tanwin (`فِنْجَانٌ`, `مَكَانٌ`) : seuls les adjectifs de la forme `فَعْلَانُ` et la plupart des prénoms en `ـانُ` en sont privés ;
+  - le féminin des couleurs a une autre forme en `ـاءُ` (aperçu) ; une couleur qui suit un nom prend la fatha après une préposition (`فِي بَيْتٍ أَبْيَضَ`) et retrouve la kasra avec l'article (`فِي الْبَيْتِ الْأَبْيَضِ`) ;
+  - `حَامِدٌ` / `مُحَمَّدٌ` / `أَحْمَدُ` / `الْحَمْدُ` : la même racine `ح م د` ; `أَحْمَدُ` est un nom du Prophète, cité dans le Coran (61:6) ;
+  - un prénom féminin de trois lettres comme `هِنْدٌ` peut garder son tanwin ; `نُوحٌ` (non arabe, trois lettres) le garde ;
+  - `أَبْنَاءٍ` garde son tanwin contrairement à `أَطِبَّاءُ` (rappel du chapitre 5) ;
+  - le `و` de `يَقُولُ` est la vraie lettre du milieu de `قَالَ` (verbe creux) ; `قُلْ` : l'alif long disparaît à l'impératif ;
+  - `جُدَّةُ` : sur la mer Rouge, près de La Mecque.
+- **Pas encore enseigné (donc sans exercice) :** le féminin des couleurs (`فَعْلَاءُ`), le comparatif `أَكْبَرُ` / `أَجْمَلُ` (cités seulement), le présent `يَقُولُ` et l'impératif `قُلْ` (tableau « à reconnaître »), la préposition `بِ`.
+- **À confirmer avec le professeur :** rien de nouveau (`مَرْيَمُ` : présenté dans les tableaux comme nom féminin, comme dans le livre).
+
 ## Audio
 
 Aucun MP3 n'est encore généré : l'app utilise la synthèse vocale arabe du téléphone en attendant

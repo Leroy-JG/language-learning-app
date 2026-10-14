@@ -1,0 +1,122 @@
+{
+  "id": "medine-t1.l22.vocab-3",
+  "type": "vocabulary",
+  "title": "Dire",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l22.vocab-3#1",
+      "type": "tip",
+      "title": "Dire : {ar|قَالَ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le verbe {ar|قَالَ} veut dire « il a dit ». Tu le verras sans cesse dans les textes, pour rapporter une parole : on écrit le verbe, puis celui qui parle, puis ses paroles."
+        },
+        { "type": "example", "ar": "قَالَ زَيْدٌ : لَا.", "fr": "Zayd a dit : « Non. »" },
+        {
+          "type": "note",
+          "text": "Comme {ar|خَرَجَ} et {ar|ذَهَبَ} (chapitre 4), le verbe est cité au passé, à la troisième personne du masculin singulier : le « il » est déjà dans le verbe."
+        }
+      ]
+    },
+    { "id": "medine-t1.l22.vocab-3#2", "type": "present", "item": "w:qala" },
+    {
+      "id": "medine-t1.l22.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:qala",
+      "distractors": ["w:kharaja", "w:dhahaba"]
+    },
+    {
+      "id": "medine-t1.l22.vocab-3#4",
+      "type": "tip",
+      "title": "Quand celui qui parle est une femme",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Avec un sujet féminin, le verbe prend le {ar|تْ} du féminin (chapitre 12)."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "قَالَ زَيْدٌ", "fr": "Zayd a dit" },
+              "to": { "ar": "قَالَتْ فَاطِمَةُ", "fr": "Fāṭima a dit" },
+              "label": "le {ar|تْ} montre que le sujet est féminin"
+            }
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t1.l22.vocab-3#5", "type": "present", "item": "w:qalat" },
+    {
+      "id": "medine-t1.l22.vocab-3#6",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْنَبُ : لَا.",
+      "fr": "Zaynab a dit : « Non. »",
+      "gaps": [ { "answers": ["قَالَتْ"] } ],
+      "options": ["قَالَتْ", "قَالَ", "ذَهَبَتْ"],
+      "explain": "Le sujet {ar|زَيْنَبُ} est féminin : {ar|قَالَتْ}."
+    },
+    {
+      "id": "medine-t1.l22.vocab-3#7",
+      "type": "fill_gap",
+      "sentence": "{0} حَامِدٌ : نَعَمْ.",
+      "fr": "Ḥāmid a dit : « Oui. »",
+      "gaps": [ { "answers": ["قَالَ"] } ],
+      "options": ["قَالَ", "قَالَتْ", "خَرَجَ"],
+      "explain": "Le sujet {ar|حَامِدٌ} est masculin : {ar|قَالَ}."
+    },
+    {
+      "id": "medine-t1.l22.vocab-3#8",
+      "type": "tip",
+      "title": "Le verbe dire : ses formes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici les quatre formes du verbe, comme pour {ar|خَرَجَ} et {ar|ذَهَبَ}. Elles sont données pour que tu les reconnaisses : tu n'as pas à les apprendre maintenant."
+        },
+        {
+          "type": "table",
+          "header": ["Forme", "Arabe", "Sens"],
+          "rows": [
+            ["{ar|الْمَاضِي} (passé)", "{ar|قَالَ}", "il a dit"],
+            ["{ar|الْمُضَارِعُ} (présent, futur)", "{ar|يَقُولُ}", "il dit, il dira"],
+            ["{ar|الْأَمْرُ} (impératif)", "{ar|قُلْ}", "dis ! (à un homme)"],
+            ["{ar|الْمَصْدَرُ} (nom d'action)", "{ar|قَوْلٌ}", "le fait de dire"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le {ar|و} de {ar|يَقُولُ} et de {ar|قَوْلٌ} est la vraie lettre du milieu de ce verbe : au passé, elle se cache dans l'alif long de {ar|قَالَ}."
+        },
+        {
+          "type": "note",
+          "text": "Le livre écrit le nom d'action {ar|قَوْلًا}, avec le tanwin à la fatha (l'accusatif) : c'est le même mot que {ar|قَوْلٌ}, qui est sa forme de base."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.vocab-3#9",
+      "type": "true_false",
+      "statement": { "fr": "Le verbe {ar|قَالَتْ} s'emploie quand celui qui parle est une femme." },
+      "answer": true,
+      "explain": "Le {ar|تْ} final est la marque du féminin : {ar|قَالَتْ فَاطِمَةُ}, mais {ar|قَالَ زَيْدٌ}."
+    },
+    {
+      "id": "medine-t1.l22.vocab-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd a dit : « Oui. »",
+      "answers": ["قَالَ زَيْدٌ : نَعَمْ."]
+    },
+    {
+      "id": "medine-t1.l22.vocab-3#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Fāṭima a dit : « Non. »",
+      "answers": ["قَالَتْ فَاطِمَةُ : لَا."]
+    }
+  ]
+}

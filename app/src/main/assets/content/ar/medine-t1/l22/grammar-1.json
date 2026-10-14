@@ -1,0 +1,160 @@
+{
+  "id": "medine-t1.l22.grammar-1",
+  "type": "grammar",
+  "title": "Des couleurs sans tanwin",
+  "icon": "circle_blue",
+  "screens": [
+    {
+      "id": "medine-t1.l22.grammar-1#1",
+      "type": "tip",
+      "title": "Une couleur, après le nom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Une couleur se place après le nom et suit son défini ou indéfini (chapitre 9) : si le nom a l'article, la couleur l'a aussi."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "قَلَمٌ أَحْمَرُ", "fr": "un stylo rouge" },
+              "to": { "ar": "الْقَلَمُ الْأَحْمَرُ", "fr": "le stylo rouge" },
+              "label": "l'article sur les deux mots"
+            }
+          ]
+        },
+        { "type": "example", "ar": "هٰذَا الْقَلَمُ أَحْمَرُ.", "fr": "Ce stylo est rouge." }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.grammar-1#2",
+      "type": "tip",
+      "title": "Pas de tanwin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Compare un adjectif ordinaire et une couleur : l'adjectif ordinaire a le tanwin ({ar|◌ٌ}), la couleur au singulier masculin n'en a pas. Elle se termine par une damma simple ({ar|◌ُ}) : c'est un nom {ar|مَمْنُوعٌ مِنَ الصَّرْفِ} (chapitre 4)."
+        },
+        {
+          "type": "table",
+          "header": ["Adjectif", "Sa fin", "Tanwin ?"],
+          "rows": [
+            ["{ar|جَدِيدٌ} (neuf)", "{ar|◌ٌ}", "oui"],
+            ["{ar|كَبِيرٌ} (grand)", "{ar|◌ٌ}", "oui"],
+            ["{ar|أَحْمَرُ} (rouge)", "{ar|◌ُ}", "non"],
+            ["{ar|أَخْضَرُ} (vert)", "{ar|◌ُ}", "non"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.grammar-1#3",
+      "type": "sort",
+      "categories": [ { "fr": "avec tanwin ({ar|◌ٌ})" }, { "fr": "sans tanwin ({ar|◌ُ})" } ],
+      "cards": [
+        { "ar": "جَدِيدٌ", "category": 0 },
+        { "ar": "أَحْمَرُ", "category": 1 },
+        { "ar": "كَبِيرٌ", "category": 0 },
+        { "ar": "أَزْرَقُ", "category": 1 },
+        { "ar": "قَصِيرٌ", "category": 0 },
+        { "ar": "أَصْفَرُ", "category": 1 },
+        { "ar": "مُجْتَهِدٌ", "category": 0 },
+        { "ar": "أَسْوَدُ", "category": 1 }
+      ],
+      "instruction": "Range chaque adjectif : porte-t-il le tanwin ?",
+      "explain": "Les couleurs n'ont pas de tanwin ; les adjectifs ordinaires comme {ar|جَدِيدٌ} en ont un."
+    },
+    {
+      "id": "medine-t1.l22.grammar-1#4",
+      "type": "tip",
+      "title": "Après une préposition : la fatha",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme {ar|مَكَّةُ} (chapitre 4), un nom privé de tanwin, sans article et qui n'est pas premier terme d'une annexion, prend la **fatha** au lieu de la kasra après une préposition. C'est vrai aussi pour la couleur qui suit un nom : le nom prend la kasra et son tanwin, la couleur prend la fatha."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "بَيْتٌ أَبْيَضُ", "fr": "une maison blanche" },
+              "to": { "ar": "فِي بَيْتٍ أَبْيَضَ", "fr": "dans une maison blanche" },
+              "label": "kasra et tanwin sur le nom, fatha sur la couleur"
+            },
+            {
+              "from": { "ar": "كِتَابٌ أَحْمَرُ", "fr": "un livre rouge" },
+              "to": { "ar": "عَلَى كِتَابٍ أَحْمَرَ", "fr": "sur un livre rouge" }
+            },
+            {
+              "from": { "ar": "قَلَمٌ أَزْرَقُ", "fr": "un stylo bleu" },
+              "to": { "ar": "مِنْ قَلَمٍ أَزْرَقَ", "fr": "d'un stylo bleu" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Avec l'article, la couleur retrouve la kasra, comme tous les autres mots : {ar|فِي الْبَيْتِ الْأَبْيَضِ} (dans la maison blanche)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.grammar-1#5",
+      "type": "question",
+      "prompt": {
+        "fr": "Après la préposition {ar|فِي}, dans {ar|فِي بَيْتٍ أَبْيَضَ}, la couleur {ar|أَبْيَضُ} (sans article) prend…"
+      },
+      "choices": [ { "fr": "une fatha ({ar|◌َ})" }, { "fr": "une kasra ({ar|◌ِ})" }, { "fr": "un tanwin ({ar|◌ٍ})" } ],
+      "answer": 0,
+      "explain": "{ar|أَبْيَضُ} est privé de tanwin : après une préposition, il prend la fatha. Le nom {ar|بَيْتٍ} garde la kasra et le tanwin."
+    },
+    {
+      "id": "medine-t1.l22.grammar-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Au singulier masculin, une couleur comme {ar|أَحْمَرُ} se termine par un tanwin." },
+      "answer": false,
+      "explain": "Au singulier masculin, une couleur n'a pas de tanwin : elle se termine par une damma simple ({ar|أَحْمَرُ}). Son pluriel, lui, en a un : {ar|حُمْرٌ}."
+    },
+    {
+      "id": "medine-t1.l22.grammar-1#7",
+      "type": "tip",
+      "title": "Et au féminin ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand le nom est féminin, la couleur prend une **autre forme**, qui se termine par {ar|اءُ} (le signe du féminin du chapitre 6). Tu n'as pas à l'apprendre maintenant : retiens seulement qu'on n'ajoute pas {ar|ة} à une couleur."
+        },
+        {
+          "type": "table",
+          "header": ["Masculin", "Féminin"],
+          "rows": [
+            ["{ar|أَحْمَرُ} (rouge)", "{ar|حَمْرَاءُ}"],
+            ["{ar|أَخْضَرُ} (vert)", "{ar|خَضْرَاءُ}"],
+            ["{ar|أَزْرَقُ} (bleu)", "{ar|زَرْقَاءُ}"],
+            ["{ar|أَسْوَدُ} (noir)", "{ar|سَوْدَاءُ}"],
+            ["{ar|أَصْفَرُ} (jaune)", "{ar|صَفْرَاءُ}"],
+            ["{ar|أَبْيَضُ} (blanc)", "{ar|بَيْضَاءُ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le féminin n'a pas de tanwin non plus : un mot qui porte ce signe du féminin ({ar|اءُ}) en est privé (chapitre 6)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.grammar-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "dans une maison blanche",
+      "answers": ["فِي بَيْتٍ أَبْيَضَ."],
+      "explain": "Le nom {ar|بَيْتٍ} a la kasra et le tanwin ; la couleur {ar|أَبْيَضَ} prend la fatha."
+    },
+    {
+      "id": "medine-t1.l22.grammar-1#9",
+      "type": "order",
+      "fr": "Le stylo est sur un livre rouge.",
+      "answers": [["الْقَلَمُ", "عَلَى", "كِتَابٍ", "أَحْمَرَ"]],
+      "punctuation": "."
+    }
+  ]
+}

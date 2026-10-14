@@ -1,0 +1,15 @@
+{
+  "id": "medine-t1.l22",
+  "number": 22,
+  "title": { "ar": "الدَّرْسُ الثَّانِي وَالْعِشْرُونَ", "fr": "Les couleurs et les noms sans tanwin" },
+  "description": "Apprendre les couleurs, comprendre la forme {ar|أَفْعَلُ} et les mots en {ar|انُ}, récapituler les six sortes de noms privés de tanwin, puis lire le texte du livre sur la famille de Ḥāmid.",
+  "source": "Tome de Médine 1, leçon 22",
+  "sections": [
+    { "title": "Les couleurs", "activities": ["vocab-1", "grammar-1"] },
+    { "title": "Des mots nouveaux", "activities": ["vocab-2", "vocab-3", "vocab-4"] },
+    { "title": "Les noms sans tanwin", "activities": ["grammar-2", "grammar-3", "grammar-4"] },
+    { "title": "Le texte du livre", "activities": ["dialogue-1", "dialogue-2", "dialogue-3"] },
+    { "title": "Les exercices du livre", "activities": ["practice-1", "practice-2"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

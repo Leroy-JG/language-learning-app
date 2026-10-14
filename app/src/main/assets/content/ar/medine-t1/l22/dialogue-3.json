@@ -1,0 +1,153 @@
+{
+  "id": "medine-t1.l22.dialogue-3",
+  "type": "dialogue",
+  "title": "Dans notre pays",
+  "icon": "mosque",
+  "screens": [
+    {
+      "id": "medine-t1.l22.dialogue-3#1",
+      "type": "dialogue",
+      "title": "Dans notre pays",
+      "intro": "Fin du texte du livre : Sufyān parle de son pays, puis une question sur des personnes et sa réponse.",
+      "speakers": {
+        "N": { "name": "Le narrateur", "voice": "m1" },
+        "A": { "name": "La question", "voice": "m2" },
+        "B": { "name": "La réponse", "voice": "m1" }
+      },
+      "lines": [
+        {
+          "speaker": "N",
+          "ar": "قَالَ سُفْيَانُ : فِي بَلَدِنَا مَسَاجِدُ وَمَدَارِسُ كَثِيرَةٌ، وَفَنَادِقُ قَلِيلَةٌ.",
+          "fr": "Sufyān a dit : Dans notre pays, il y a beaucoup de mosquées et d'écoles, et peu d'hôtels."
+        },
+        { "speaker": "A", "ar": "أَهَؤُلَاءِ أَطِبَّاءُ؟", "fr": "Ceux-ci sont-ils des médecins ?" },
+        {
+          "speaker": "B",
+          "ar": "لَا. هُمْ مُدَرِّسُونَ. وَهُمْ عُلَمَاءُ كِبَارٌ.",
+          "fr": "Non. Ce sont des enseignants. Et ce sont de grands savants."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.dialogue-3#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Tu reconnais presque tout. Regarde ces formes." },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Mot à mot"],
+          "rows": [
+            [
+              "{ar|بَلَدِنَا}",
+              "notre pays",
+              "{ar|بَلَدٌ} + {ar|نَا} (chapitre 14) ; ici après {ar|فِي}, le {ar|د} prend la kasra : {ar|بَلَدِنَا}"
+            ],
+            [
+              "{ar|أَهَؤُلَاءِ أَطِبَّاءُ؟}",
+              "ceux-ci sont-ils des médecins ?",
+              "{ar|أَ} (la question) + {ar|هَؤُلَاءِ} (chapitre 13)"
+            ],
+            [
+              "{ar|فَنَادِقُ قَلِيلَةٌ}",
+              "peu d'hôtels",
+              "un pluriel de choses : l'adjectif est, en général, au féminin singulier"
+            ],
+            [
+              "{ar|عُلَمَاءُ كِبَارٌ}",
+              "de grands savants",
+              "un pluriel de personnes : l'adjectif est lui aussi au pluriel ({ar|كِبَارٌ}, pluriel de {ar|كَبِيرٌ})"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.dialogue-3#3",
+      "type": "question",
+      "prompt": { "fr": "Qu'y a-t-il en grand nombre dans le pays de Sufyān ?" },
+      "choices": [ { "fr": "Des mosquées et des écoles" }, { "fr": "Des hôtels" }, { "fr": "Des voitures" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l22.dialogue-3#1" },
+      "explain": "{ar|مَسَاجِدُ وَمَدَارِسُ كَثِيرَةٌ} : beaucoup de mosquées et d'écoles."
+    },
+    {
+      "id": "medine-t1.l22.dialogue-3#4",
+      "type": "true_false",
+      "statement": { "fr": "Il y a beaucoup d'hôtels dans le pays de Sufyān." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l22.dialogue-3#1" },
+      "explain": "{ar|فَنَادِقُ قَلِيلَةٌ} : il y a peu d'hôtels."
+    },
+    {
+      "id": "medine-t1.l22.dialogue-3#5",
+      "type": "fill_gap",
+      "sentence": "فِي بَلَدِنَا فَنَادِقُ {0}.",
+      "fr": "Dans notre pays, il y a peu d'hôtels.",
+      "gaps": [ { "answers": ["قَلِيلَةٌ"] } ],
+      "options": ["قَلِيلَةٌ", "كَثِيرَةٌ", "مَفْتُوحَةٌ"],
+      "context": { "dialogue": "medine-t1.l22.dialogue-3#1" },
+      "explain": "{ar|قَلِيلَةٌ} : peu nombreux ; en général, l'adjectif d'un pluriel de choses est au féminin singulier."
+    },
+    {
+      "id": "medine-t1.l22.dialogue-3#6",
+      "type": "sort",
+      "categories": [ { "fr": "un pluriel de forme longue" }, { "fr": "un pluriel en {ar|اءُ}" } ],
+      "cards": [
+        { "ar": "مَسَاجِدُ", "category": 0 },
+        { "ar": "مَدَارِسُ", "category": 0 },
+        { "ar": "فَنَادِقُ", "category": 0 },
+        { "ar": "أَطِبَّاءُ", "category": 1 },
+        { "ar": "عُلَمَاءُ", "category": 1 }
+      ],
+      "instruction": "Pourquoi ces pluriels n'ont-ils pas de tanwin ?",
+      "explain": "{ar|مَسَاجِدُ}, {ar|مَدَارِسُ}, {ar|فَنَادِقُ} sont de forme longue ; {ar|أَطِبَّاءُ} et {ar|عُلَمَاءُ} finissent par {ar|اءُ}."
+    },
+    {
+      "id": "medine-t1.l22.dialogue-3#7",
+      "type": "question",
+      "prompt": { "fr": "Que sont les personnes dont on parle à la fin du texte ?" },
+      "choices": [
+        { "fr": "Des enseignants, de grands savants" },
+        { "fr": "Des médecins" },
+        { "fr": "Des étudiants paresseux" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l22.dialogue-3#1" },
+      "explain": "{ar|هُمْ مُدَرِّسُونَ. وَهُمْ عُلَمَاءُ كِبَارٌ} : ce sont des enseignants, et de grands savants."
+    },
+    {
+      "id": "medine-t1.l22.dialogue-3#8",
+      "type": "true_false",
+      "statement": { "fr": "Ces personnes sont des médecins." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l22.dialogue-3#1" },
+      "explain": "{ar|لَا. هُمْ مُدَرِّسُونَ} : non, ce sont des enseignants."
+    },
+    {
+      "id": "medine-t1.l22.dialogue-3#9",
+      "type": "order",
+      "fr": "Et ce sont de grands savants.",
+      "answers": [["وَهُمْ", "عُلَمَاءُ", "كِبَارٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l22.dialogue-3#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Dans notre pays, il y a beaucoup de mosquées.",
+      "answers": [
+        "فِي بَلَدِنَا مَسَاجِدُ كَثِيرَةٌ.",
+        "مَسَاجِدُ كَثِيرَةٌ فِي بَلَدِنَا.",
+        "فِي بَلَدِنَا مَسَاجِدُ كَثِيرَاتٌ."
+      ]
+    },
+    {
+      "id": "medine-t1.l22.dialogue-3#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ceux-ci sont-ils des médecins ?",
+      "answers": ["أَهَؤُلَاءِ أَطِبَّاءُ؟"]
+    }
+  ]
+}

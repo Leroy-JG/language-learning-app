@@ -4,12 +4,12 @@ Pour lire une fonction : `Read` avec `offset` = ligne et `limit` ≈ 60, plutôt
 Les fichiers `app/` ne se compilent que sur GitHub Actions.
 
 - `core/src/main/kotlin/io/github/leroyjg/arabe/arabic/AnswerMatcher.kt` (132 l.) — AnswerMatcher:14
-- `core/src/main/kotlin/io/github/leroyjg/arabe/arabic/ArabicScript.kt` (97 l.) — ArabicScript:6
+- `core/src/main/kotlin/io/github/leroyjg/arabe/arabic/ArabicScript.kt` (98 l.) — ArabicScript:6
 - `core/src/main/kotlin/io/github/leroyjg/arabe/arabic/Markup.kt` (64 l.) — Markup:7
 - `core/src/main/kotlin/io/github/leroyjg/arabe/content/Audio.kt` (79 l.) — AudioNeed:7, Audio:9
 - `core/src/main/kotlin/io/github/leroyjg/arabe/content/ContentLoader.kt` (130 l.) — ContentSource:8, FileContentSource:16, ContentIssue:28, Course:32, Level:57, Chapter:61, Activity:72, LoadResult:82, ContentLoader:85
 - `core/src/main/kotlin/io/github/leroyjg/arabe/content/CourseIndex.kt` (89 l.) — Position:6, CourseIndex:16
-- `core/src/main/kotlin/io/github/leroyjg/arabe/content/Icons.kt` (21 l.) — Icons:7
+- `core/src/main/kotlin/io/github/leroyjg/arabe/content/Icons.kt` (22 l.) — Icons:7
 - `core/src/main/kotlin/io/github/leroyjg/arabe/content/Model.kt` (381 l.) — CourseFile:12, Voice:22, LevelFile:25, ChapterFile:34, BiText:46, Section:49, ItemKind:52, Gender:58, Item:64, ActivityType:82, ActivityFile:91, ScreenContext:102, Txt:110, Screen:113, Exercise:118, PresentScreen:126, TipScreen:130, McqMode:133, McqScreen:142, MatchMode:153, MatchScreen:161, Gap:171, FillGapScreen:175, OrderScreen:188, TypingAsk:200, TypingScreen:208, Statement:221, TrueFalseScreen:225, QuestionScreen:236, SortCard:249, SortScreen:259, SpotScreen:271, BuildScreen:284, MemoryMode:294, MemoryScreen:302, Speaker:312, DialogueLine:315, DialogueScreen:319, Block:328, ParagraphBlock:332, ExampleBlock:336, TableBlock:340, NoteTone:343, NoteBlock:359, CompareRow:363, CompareBlock:367, Part:371, BreakdownBlock:376, GalleryBlock:381
 - `core/src/main/kotlin/io/github/leroyjg/arabe/content/Validator.kt` (594 l.) — ValidationReport:7, Validator:22
 - `core/src/main/kotlin/io/github/leroyjg/arabe/engine/ActivitySession.kt` (72 l.) — Outcome:10, ActivitySession:28
@@ -31,7 +31,7 @@ Les fichiers `app/` ne se compilent que sur GitHub Actions.
 - `app/src/main/java/io/github/leroyjg/arabe/ui/Common.kt` (68 l.) — WithContent:37, ActivityType.label:54, ActivityType.icon:62
 - `app/src/main/java/io/github/leroyjg/arabe/ui/Decor.kt` (95 l.) — AppIcons:30, DrawScope.eightPointStar:57, MasteryBars:78
 - `app/src/main/java/io/github/leroyjg/arabe/ui/GenderTag.kt` (78 l.) — GenderIcons:31, GenderTag:56
-- `app/src/main/java/io/github/leroyjg/arabe/ui/IconImages.kt` (91 l.) — IconImages:7
+- `app/src/main/java/io/github/leroyjg/arabe/ui/IconImages.kt` (98 l.) — IconImages:7
 - `app/src/main/java/io/github/leroyjg/arabe/ui/activity/ActivityScreen.kt` (663 l.) — ReviewKind:126, ActivityScreen:133, ReviewSessionScreen:162, ReviewPlanHolder:215, planReview:217, NothingToReview:251, Player:265, PlayerTopBar:320, ComboSlot:339, ComboBadge:349, ScreenBody:368, BottomArea:402, BigButton:447, FeedbackPanel:458, EndScreen:528, StatTile:642, NoVoiceWarning:654
 - `app/src/main/java/io/github/leroyjg/arabe/ui/activity/Celebration.kt` (73 l.) — Piece:18, Confetti:32
 - `app/src/main/java/io/github/leroyjg/arabe/ui/activity/Games.kt` (411 l.) — SortContent:76, sortSound:166, SortCardText:173, CategoryLabel:182, GameInstruction:188, SpotContent:196, BuildContent:235, MemoryContent:305, MemoryTile:364

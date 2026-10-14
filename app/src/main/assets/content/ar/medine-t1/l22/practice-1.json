@@ -1,0 +1,151 @@
+{
+  "id": "medine-t1.l22.practice-1",
+  "type": "grammar",
+  "title": "Pourquoi pas de tanwin ?",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t1.l22.practice-1#1",
+      "type": "tip",
+      "title": "Les listes du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne les noms de ces cinq familles. Lis-les : tu en connais déjà beaucoup."
+        },
+        {
+          "type": "table",
+          "header": ["N°", "Les noms du livre"],
+          "rows": [
+            ["1", "{ar|زَيْنَبُ}, {ar|مَرْيَمُ}, {ar|فَاطِمَةُ}, {ar|عَائِشَةُ}, {ar|مَكَّةُ}, {ar|جُدَّةُ}"],
+            ["2", "{ar|حَمْزَةُ}, {ar|أُسَامَةُ}, {ar|مُعَاوِيَةُ}, {ar|طَلْحَةُ}"],
+            ["3 a", "{ar|عُثْمَانُ}, {ar|عَفَّانُ}, {ar|سُفْيَانُ}, {ar|مَرْوَانُ}, {ar|نُعْمَانُ}"],
+            ["3 b", "{ar|كَسْلَانُ}, {ar|جَوْعَانُ}, {ar|عَطْشَانُ}, {ar|شَبْعَانُ}, {ar|مَلْآنُ}"],
+            ["4 a", "{ar|أَحْمَدُ}, {ar|أَنْوَرُ}, {ar|أَكْبَرُ}, {ar|أَسْعَدُ}"],
+            ["4 b", "{ar|أَبْيَضُ}, {ar|أَسْوَدُ}, {ar|أَحْمَرُ}, {ar|أَصْفَرُ}, {ar|أَخْضَرُ}, {ar|أَزْرَقُ}"],
+            [
+              "5 a",
+              "{ar|وِلْيَمُ}, {ar|إِدْوَرْدُ}, {ar|لَنْدَنُ}, {ar|بَارِيسُ}, {ar|بَاكِسْتَانُ}, {ar|بَغْدَادُ}"
+            ],
+            [
+              "5 b",
+              "{ar|إِبْرَاهِيمُ}, {ar|إِسْمَاعِيلُ}, {ar|إِسْحَاقُ}, {ar|يَعْقُوبُ}, {ar|يُونُسُ}, {ar|يُوسُفُ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les familles 1 et 2 : noms propres féminins et prénoms d'hommes en {ar|ة}. 3 : la terminaison {ar|انُ}. 4 : la forme {ar|أَفْعَلُ}. 5 : les noms propres non arabes."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.practice-1#2",
+      "type": "sort",
+      "categories": [
+        { "fr": "un nom propre féminin" },
+        { "fr": "un prénom d'homme en {ar|ة}" },
+        { "fr": "un nom propre non arabe" }
+      ],
+      "cards": [
+        { "ar": "عَائِشَةُ", "category": 0 },
+        { "ar": "جُدَّةُ", "category": 0 },
+        { "ar": "فَاطِمَةُ", "category": 0 },
+        { "ar": "مُعَاوِيَةُ", "category": 1 },
+        { "ar": "أُسَامَةُ", "category": 1 },
+        { "ar": "وِلْيَمُ", "category": 2 },
+        { "ar": "إِدْوَرْدُ", "category": 2 },
+        { "ar": "يُونُسُ", "category": 2 }
+      ],
+      "instruction": "Pourquoi ce nom n'a-t-il pas de tanwin ? Range chaque nom selon sa sorte.",
+      "explain": "{ar|عَائِشَةُ}, {ar|جُدَّةُ}, {ar|فَاطِمَةُ} : des noms féminins. {ar|مُعَاوِيَةُ}, {ar|أُسَامَةُ} : des prénoms d'hommes en {ar|ة}. {ar|وِلْيَمُ}, {ar|إِدْوَرْدُ}, {ar|يُونُسُ} : des noms non arabes."
+    },
+    {
+      "id": "medine-t1.l22.practice-1#3",
+      "type": "question",
+      "prompt": { "fr": "Après la préposition {ar|مِنْ}, le prénom {ar|عُثْمَانُ} (sans article) prend…" },
+      "choices": [ { "fr": "une fatha ({ar|◌َ})" }, { "fr": "une kasra ({ar|◌ِ})" }, { "fr": "une damma ({ar|◌ُ})" } ],
+      "answer": 0,
+      "explain": "{ar|عُثْمَانُ} est privé de tanwin : après une préposition, il prend la fatha ({ar|مِنْ عُثْمَانَ})."
+    },
+    {
+      "id": "medine-t1.l22.practice-1#4",
+      "type": "sort",
+      "categories": [
+        { "fr": "la forme {ar|أَفْعَلُ}" },
+        { "fr": "la terminaison {ar|انُ}" },
+        { "fr": "un nom propre non arabe" }
+      ],
+      "cards": [
+        { "ar": "أَنْوَرُ", "category": 0 },
+        { "ar": "أَكْبَرُ", "category": 0 },
+        { "ar": "أَزْرَقُ", "category": 0 },
+        { "ar": "عَفَّانُ", "category": 1 },
+        { "ar": "نُعْمَانُ", "category": 1 },
+        { "ar": "شَبْعَانُ", "category": 1 },
+        { "ar": "إِسْمَاعِيلُ", "category": 2 },
+        { "ar": "بَغْدَادُ", "category": 2 }
+      ],
+      "instruction": "Pourquoi ce nom n'a-t-il pas de tanwin ? Range chaque nom selon sa sorte.",
+      "explain": "{ar|أَنْوَرُ}, {ar|أَكْبَرُ}, {ar|أَزْرَقُ} : la forme {ar|أَفْعَلُ}. {ar|عَفَّانُ}, {ar|نُعْمَانُ}, {ar|شَبْعَانُ} : la terminaison {ar|انُ}. {ar|إِسْمَاعِيلُ}, {ar|بَغْدَادُ} : des noms non arabes."
+    },
+    {
+      "id": "medine-t1.l22.practice-1#5",
+      "type": "question",
+      "prompt": { "fr": "Après la préposition {ar|مِنْ}, le prénom {ar|عَلِيٌّ} (sans article) prend…" },
+      "choices": [
+        { "fr": "une fatha ({ar|◌َ})" },
+        { "fr": "une kasra ({ar|◌ِ}), avec tanwin" },
+        { "fr": "une damma ({ar|◌ُ})" }
+      ],
+      "answer": 1,
+      "explain": "{ar|عَلِيٌّ} a le tanwin : après une préposition, il prend la kasra et son tanwin ({ar|مِنْ عَلِيٍّ})."
+    },
+    {
+      "id": "medine-t1.l22.practice-1#6",
+      "type": "sort",
+      "categories": [ { "fr": "avec tanwin ({ar|◌ٌ})" }, { "fr": "sans tanwin ({ar|◌ُ})" } ],
+      "cards": [
+        { "ar": "مُحَمَّدٌ", "category": 0 },
+        { "ar": "عَلِيٌّ", "category": 0 },
+        { "ar": "زَيْدٌ", "category": 0 },
+        { "ar": "نُوحٌ", "category": 0 },
+        { "ar": "حَمْزَةُ", "category": 1 },
+        { "ar": "عُثْمَانُ", "category": 1 },
+        { "ar": "أَحْمَدُ", "category": 1 },
+        { "ar": "زَيْنَبُ", "category": 1 }
+      ],
+      "instruction": "Range chaque nom : porte-t-il le tanwin ?",
+      "explain": "{ar|مُحَمَّدٌ}, {ar|عَلِيٌّ}, {ar|زَيْدٌ} et {ar|نُوحٌ} (trois lettres) gardent leur tanwin. Les quatre autres appartiennent à l'une des familles."
+    },
+    {
+      "id": "medine-t1.l22.practice-1#7",
+      "type": "spot",
+      "instruction": "Touche le prénom qui n'a pas de tanwin.",
+      "words": ["هٰذَا", "زَيْدٌ", "وَهٰذَا", "أَحْمَدُ", "وَهٰذَا", "عَلِيٌّ."],
+      "answers": [3],
+      "fr": "Voici Zayd, voici Aḥmad et voici ʿAlī."
+    },
+    {
+      "id": "medine-t1.l22.practice-1#8",
+      "type": "order",
+      "fr": "C'est le livre d'ʿUthmān.",
+      "answers": [["هٰذَا", "كِتَابُ", "عُثْمَانَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l22.practice-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "de la part de Ḥamza",
+      "answers": ["مِنْ حَمْزَةَ."]
+    },
+    {
+      "id": "medine-t1.l22.practice-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "C'est le stylo de Ṭalḥa.",
+      "answers": ["هٰذَا قَلَمُ طَلْحَةَ."]
+    }
+  ]
+}

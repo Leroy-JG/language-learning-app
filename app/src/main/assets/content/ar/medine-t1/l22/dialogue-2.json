@@ -1,0 +1,143 @@
+{
+  "id": "medine-t1.l22.dialogue-2",
+  "type": "dialogue",
+  "title": "Des stylos, des mouchoirs et des clés",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l22.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Des stylos, des mouchoirs et des clés",
+      "intro": "Suite du texte du livre : Yūsuf, Zaynab, Fāṭima et Ṭalḥa parlent de ce qu'ils ont.",
+      "speakers": { "N": { "name": "Le narrateur", "voice": "m1" } },
+      "lines": [
+        {
+          "speaker": "N",
+          "ar": "قَالَ يُوسُفُ : عِنْدِي خَمْسَةُ أَقْلَامٍ.",
+          "fr": "Yūsuf a dit : J'ai cinq stylos."
+        },
+        {
+          "speaker": "N",
+          "ar": "هٰذَا قَلَمٌ أَحْمَرُ، وَهٰذَا قَلَمٌ أَزْرَقُ، وَهٰذَا قَلَمٌ أَخْضَرُ، وَهٰذَا قَلَمٌ أَسْوَدُ، وَهٰذَا قَلَمٌ أَصْفَرُ.",
+          "fr": "Ceci est un stylo rouge, ceci est un stylo bleu, ceci est un stylo vert, ceci est un stylo noir et ceci est un stylo jaune."
+        },
+        {
+          "speaker": "N",
+          "ar": "قَالَتْ زَيْنَبُ : عِنْدِي مَنَادِيلُ كَثِيرَةٌ. هٰذَا أَبْيَضُ، وَهٰذَا أَصْفَرُ، وَهٰذَا أَحْمَرُ، وَهٰذَا أَزْرَقُ.",
+          "fr": "Zaynab a dit : J'ai beaucoup de mouchoirs. Celui-ci est blanc, celui-ci est jaune, celui-ci est rouge et celui-ci est bleu."
+        },
+        {
+          "speaker": "N",
+          "ar": "قَالَتْ لَهَا فَاطِمَةُ : أَعِنْدَكِ مِنْدِيلٌ أَخْضَرُ؟",
+          "fr": "Fāṭima lui a dit : As-tu un mouchoir vert ?"
+        },
+        {
+          "speaker": "N",
+          "ar": "قَالَتْ : لَا. مَا عِنْدِي مِنْدِيلٌ أَخْضَرُ.",
+          "fr": "Elle a dit : Non. Je n'ai pas de mouchoir vert."
+        },
+        {
+          "speaker": "N",
+          "ar": "قَالَ طَلْحَةُ : عِنْدِي مَفَاتِيحُ كَثِيرَةٌ. هٰذَا مِفْتَاحُ الْغُرْفَةِ، وَهٰذَا مِفْتَاحُ الْحَقِيبَةِ، وَهٰذَا مِفْتَاحُ السَّيَّارَةِ.",
+          "fr": "Ṭalḥa a dit : J'ai beaucoup de clés. Ceci est la clé de la chambre, ceci est la clé du sac et ceci est la clé de la voiture."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Tu reconnais presque tout. Regarde ces formes." },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Mot à mot"],
+          "rows": [
+            ["{ar|قَالَتْ لَهَا فَاطِمَةُ}", "Fāṭima lui a dit", "{ar|لَهَا} : « à elle »"],
+            [
+              "{ar|أَعِنْدَكِ مِنْدِيلٌ أَخْضَرُ؟}",
+              "As-tu un mouchoir vert ?",
+              "{ar|أَ} (la question) + {ar|عِنْدَكِ} (chez toi, à une femme)"
+            ],
+            ["{ar|مَا عِنْدِي}", "je n'ai pas", "{ar|مَا} devant {ar|عِنْدِي} : la négation"],
+            [
+              "{ar|مَنَادِيلُ كَثِيرَةٌ}",
+              "beaucoup de mouchoirs",
+              "un pluriel de choses : en général, l'adjectif est au féminin singulier"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Combien de stylos Yūsuf a-t-il ?" },
+      "choices": [ { "fr": "Cinq" }, { "fr": "Trois" }, { "fr": "Quatre" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l22.dialogue-2#1" },
+      "explain": "{ar|عِنْدِي خَمْسَةُ أَقْلَامٍ} : « j'ai cinq stylos »."
+    },
+    {
+      "id": "medine-t1.l22.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "De quelle couleur est le deuxième stylo de Yūsuf ?" },
+      "choices": [ { "fr": "Bleu" }, { "fr": "Rouge" }, { "fr": "Vert" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l22.dialogue-2#1" },
+      "explain": "Dans l'ordre : {ar|أَحْمَرُ} (rouge), {ar|أَزْرَقُ} (bleu), {ar|أَخْضَرُ} (vert), {ar|أَسْوَدُ} (noir), {ar|أَصْفَرُ} (jaune)."
+    },
+    {
+      "id": "medine-t1.l22.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Zaynab a un mouchoir vert." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l22.dialogue-2#1" },
+      "explain": "{ar|مَا عِنْدِي مِنْدِيلٌ أَخْضَرُ} : elle n'en a pas. Ses mouchoirs sont blancs, jaunes, rouges et bleus."
+    },
+    {
+      "id": "medine-t1.l22.dialogue-2#6",
+      "type": "question",
+      "prompt": { "fr": "Que demande Fāṭima à Zaynab ?" },
+      "choices": [
+        { "fr": "Si elle a un mouchoir vert" },
+        { "fr": "Si elle a un stylo rouge" },
+        { "fr": "Si elle a une clé" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l22.dialogue-2#1" },
+      "explain": "{ar|أَعِنْدَكِ مِنْدِيلٌ أَخْضَرُ؟} : « as-tu un mouchoir vert ? »"
+    },
+    {
+      "id": "medine-t1.l22.dialogue-2#7",
+      "type": "fill_gap",
+      "sentence": "هٰذَا مِفْتَاحُ {0}.",
+      "fr": "C'est la clé de la voiture.",
+      "gaps": [ { "answers": ["السَّيَّارَةِ"] } ],
+      "options": ["السَّيَّارَةِ", "الْغُرْفَةِ", "الْحَقِيبَةِ"],
+      "context": { "dialogue": "medine-t1.l22.dialogue-2#1" },
+      "explain": "Ṭalḥa a trois clés : {ar|مِفْتَاحُ الْغُرْفَةِ} (la chambre), {ar|مِفْتَاحُ الْحَقِيبَةِ} (le sac) et {ar|مِفْتَاحُ السَّيَّارَةِ} (la voiture)."
+    },
+    {
+      "id": "medine-t1.l22.dialogue-2#8",
+      "type": "order",
+      "fr": "Je n'ai pas de mouchoir vert.",
+      "answers": [["مَا", "عِنْدِي", "مِنْدِيلٌ", "أَخْضَرُ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l22.dialogue-2#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est la clé de la chambre.",
+      "answers": ["هٰذَا مِفْتَاحُ الْغُرْفَةِ."]
+    },
+    {
+      "id": "medine-t1.l22.dialogue-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai beaucoup de clés.",
+      "answers": ["عِنْدِي مَفَاتِيحُ كَثِيرَةٌ.", "عِنْدِي مَفَاتِيحُ كَثِيرَاتٌ."]
+    }
+  ]
+}
