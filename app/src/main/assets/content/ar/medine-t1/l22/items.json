@@ -7,7 +7,7 @@
     "translit": "aḥmaru",
     "plural": "حُمْرٌ",
     "icon": "circle_red",
-    "note": "Une couleur de cette forme n'a pas de tanwin. Au féminin : {ar|حَمْرَاءُ} (aperçu, tu le verras plus tard).",
+    "note": "Au singulier masculin, une couleur de cette forme n'a pas de tanwin. Au féminin : {ar|حَمْرَاءُ} (aperçu, tu le verras plus tard).",
     "example": { "ar": "هٰذَا مِنْدِيلٌ أَحْمَرُ.", "fr": "C'est un mouchoir rouge." }
   },
   {
@@ -120,7 +120,7 @@
     "ar": "بَغْدَادُ",
     "fr": "Bagdad",
     "translit": "baghdādu",
-    "note": "La capitale de l'Irak. Son nom n'est pas arabe à l'origine (il vient du persan) et il a plus de trois lettres : il n'a pas de tanwin, comme {ar|لَنْدَنُ} et {ar|بَارِيسُ}.",
+    "note": "La capitale de l'Irak. Son nom n'est pas arabe à l'origine (il vient du persan, selon l'avis le plus courant) et il a plus de trois lettres : il n'a pas de tanwin, comme {ar|لَنْدَنُ} et {ar|بَارِيسُ}.",
     "example": { "ar": "هُوَ مِنْ بَغْدَادَ.", "fr": "Il est de Bagdad." }
   }
 ]

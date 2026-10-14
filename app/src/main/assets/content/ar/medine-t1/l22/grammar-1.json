@@ -33,7 +33,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Compare un adjectif ordinaire et une couleur : l'adjectif ordinaire a le tanwin ({ar|◌ٌ}), la couleur n'en a jamais. Elle se termine par une damma simple ({ar|◌ُ}) : c'est un nom {ar|مَمْنُوعٌ مِنَ الصَّرْفِ} (chapitre 4)."
+          "text": "Compare un adjectif ordinaire et une couleur : l'adjectif ordinaire a le tanwin ({ar|◌ٌ}), la couleur au singulier masculin n'en a pas. Elle se termine par une damma simple ({ar|◌ُ}) : c'est un nom {ar|مَمْنُوعٌ مِنَ الصَّرْفِ} (chapitre 4)."
         },
         {
           "type": "table",
@@ -110,9 +110,9 @@
     {
       "id": "medine-t1.l22.grammar-1#6",
       "type": "true_false",
-      "statement": { "fr": "Une couleur comme {ar|أَحْمَرُ} se termine par un tanwin." },
+      "statement": { "fr": "Au singulier masculin, une couleur comme {ar|أَحْمَرُ} se termine par un tanwin." },
       "answer": false,
-      "explain": "Une couleur n'a jamais de tanwin : elle se termine par une damma simple ({ar|أَحْمَرُ})."
+      "explain": "Au singulier masculin, une couleur n'a pas de tanwin : elle se termine par une damma simple ({ar|أَحْمَرُ}). Son pluriel, lui, en a un : {ar|حُمْرٌ}."
     },
     {
       "id": "medine-t1.l22.grammar-1#7",

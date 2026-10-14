@@ -102,7 +102,7 @@
       "type": "typing",
       "ask": "audio",
       "fr": "Dans notre pays, il y a beaucoup de mosquées.",
-      "answers": ["فِي بَلَدِنَا مَسَاجِدُ كَثِيرَةٌ."]
+      "answers": ["فِي بَلَدِنَا مَسَاجِدُ كَثِيرَةٌ.", "مَسَاجِدُ كَثِيرَةٌ فِي بَلَدِنَا."]
     },
     {
       "id": "medine-t1.l22.dialogue-3#10",

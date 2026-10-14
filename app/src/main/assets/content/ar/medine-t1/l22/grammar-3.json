@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Regarde ces adjectifs que tu connais et ces prénoms d'hommes. Tous finissent par un alif long suivi de {ar|نُ} (« -ānu »), et aucun n'a de tanwin."
+          "text": "Regarde ces adjectifs d'état que tu connais et ces prénoms d'hommes. Tous finissent par un alif long suivi de {ar|نُ} (« -ānu »), et aucun n'a de tanwin."
         },
         {
           "type": "table",
@@ -37,7 +37,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Un nom **commun** qui finit par {ar|انٌ} garde son tanwin. La règle vaut pour ces adjectifs et pour la plupart de ces prénoms."
+          "text": "Un nom **commun** qui finit par {ar|انٌ} garde son tanwin. En général, la règle vaut pour les adjectifs d'état de ce type et pour la plupart de ces prénoms."
         },
         {
           "type": "compare",

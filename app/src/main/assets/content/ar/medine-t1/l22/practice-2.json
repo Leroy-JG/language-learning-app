@@ -26,7 +26,7 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "Attention à deux pluriels qui ressemblent à ceux du groupe b mais gardent leur tanwin (chapitre 5) : {ar|أَبْنَاءٌ} et {ar|أَسْمَاءٌ}."
+          "text": "Attention à deux pluriels qui ressemblent à ceux des groupes a et b mais gardent leur tanwin (chapitre 5) : {ar|أَبْنَاءٌ} et {ar|أَسْمَاءٌ}."
         }
       ]
     },
@@ -81,7 +81,7 @@
       "id": "medine-t1.l22.practice-2#7",
       "type": "order",
       "fr": "Dans la voiture, il y a beaucoup de clés.",
-      "answers": [["فِي", "السَّيَّارَةِ", "مَفَاتِيحُ", "كَثِيرَةٌ"]],
+      "answers": [["فِي", "السَّيَّارَةِ", "مَفَاتِيحُ", "كَثِيرَةٌ"], ["مَفَاتِيحُ", "كَثِيرَةٌ", "فِي", "السَّيَّارَةِ"]],
       "punctuation": "."
     },
     {
