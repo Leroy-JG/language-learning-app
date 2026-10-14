@@ -1,0 +1,298 @@
+{
+  "id": "medine-t1.exam.exam",
+  "type": "exam",
+  "title": "Examen final du tome 1",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t1.exam.exam#1",
+      "type": "multi",
+      "prompt": { "fr": "Coche les noms invariables ({ar|مَبْنِيٌّ})." },
+      "choices": [
+        { "ar": "هٰذَا" },
+        { "ar": "أُولَئِكَ" },
+        { "ar": "زَيْدٌ" },
+        { "ar": "فَاطِمَةُ" },
+        { "ar": "مَنْ" },
+        { "ar": "أَيْنَ" },
+        { "ar": "بَيْتٌ" },
+        { "ar": "هُمْ" },
+        { "ar": "يَاسِرٌ" },
+        { "ar": "أَنَا" },
+        { "ar": "أَنْتُمْ" }
+      ],
+      "answers": [0, 1, 4, 5, 7, 9, 10],
+      "shuffle": false,
+      "points": 5,
+      "explain": "Sont invariables les démonstratifs ({ar|هٰذَا}, {ar|أُولَئِكَ}), les interrogatifs ({ar|مَنْ}, {ar|أَيْنَ}) et les pronoms ({ar|هُمْ}, {ar|أَنَا}, {ar|أَنْتُمْ}). Les noms propres et les noms communs sont variables."
+    },
+    {
+      "id": "medine-t1.exam.exam#2",
+      "type": "multi",
+      "prompt": { "fr": "Coche les noms démonstratifs ({ar|أَسْمَاءُ الْإِشَارَةِ})." },
+      "choices": [
+        { "ar": "هٰذَا" },
+        { "ar": "هٰذِهِ" },
+        { "ar": "مَنْ" },
+        { "ar": "هٰذَانِ" },
+        { "ar": "أَيُّ" },
+        { "ar": "هَاتَانِ" },
+        { "ar": "أُولَئِكَ" },
+        { "ar": "زَيْدٌ" },
+        { "ar": "أَيْنَ" },
+        { "ar": "فِي" },
+        { "ar": "هُنَاكَ" }
+      ],
+      "answers": [0, 1, 3, 5, 6, 10],
+      "shuffle": false,
+      "points": 5,
+      "explain": "{ar|مَنْ}, {ar|أَيُّ} et {ar|أَيْنَ} sont des noms interrogatifs, {ar|زَيْدٌ} un nom propre, {ar|فِي} une préposition."
+    },
+    {
+      "id": "medine-t1.exam.exam#3",
+      "type": "multi",
+      "prompt": { "fr": "Coche les noms interrogatifs ({ar|أَسْمَاءُ الِاسْتِفْهَامِ})." },
+      "choices": [
+        { "ar": "مَا" },
+        { "ar": "مَنْ" },
+        { "ar": "هٰذَانِ" },
+        { "ar": "أَيُّ" },
+        { "ar": "مَتَى" },
+        { "ar": "هُمْ" },
+        { "ar": "أَنْتَ" },
+        { "ar": "كَيْفَ" },
+        { "ar": "كَمْ" },
+        { "ar": "هَؤُلَاءِ" }
+      ],
+      "answers": [0, 1, 3, 4, 7, 8],
+      "shuffle": false,
+      "points": 5,
+      "explain": "{ar|هٰذَانِ} et {ar|هَؤُلَاءِ} sont des démonstratifs ; {ar|هُمْ} et {ar|أَنْتَ} des pronoms."
+    },
+    {
+      "id": "medine-t1.exam.exam#4",
+      "type": "multi",
+      "prompt": { "fr": "Coche les sortes de noms définis ({ar|الْمَعَارِفُ})." },
+      "choices": [
+        { "ar": "الضَّمَائِرُ" },
+        { "ar": "أَسْمَاءُ الِاسْتِفْهَامِ" },
+        { "ar": "أَسْمَاءُ الْإِشَارَةِ" },
+        { "ar": "الْعَلَمُ" }
+      ],
+      "answers": [0, 2, 3],
+      "shuffle": false,
+      "points": 5,
+      "explain": "Sont définis : les pronoms, les démonstratifs, les noms propres (et les noms avec l'article). Un nom interrogatif ne désigne rien de précis : il est indéfini."
+    },
+    {
+      "id": "medine-t1.exam.exam#5",
+      "type": "question",
+      "prompt": { "fr": "La phrase nominale ({ar|الْجُمْلَةُ الِاسْمِيَّةُ}) commence toujours par…" },
+      "choices": [ { "fr": "un nom" }, { "fr": "un verbe" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "Tout dépend du premier mot : une phrase qui commence par un nom est nominale.",
+      "points": 3
+    },
+    {
+      "id": "medine-t1.exam.exam#6",
+      "type": "question",
+      "prompt": { "fr": "La phrase verbale ({ar|الْجُمْلَةُ الْفِعْلِيَّةُ}) commence toujours par…" },
+      "choices": [ { "fr": "un nom" }, { "fr": "un verbe" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Une phrase qui commence par un verbe est verbale.",
+      "points": 3
+    },
+    {
+      "id": "medine-t1.exam.exam#7",
+      "type": "question",
+      "prompt": { "fr": "La règle de base de l'{ar|الْإِعْرَابُ} : un nom se termine par…" },
+      "choices": [
+        { "fr": "la damma au nominatif, la kasra à l'accusatif, la fatha au génitif" },
+        { "fr": "la damma au nominatif, la fatha à l'accusatif, la kasra au génitif" },
+        { "fr": "le sukūn au nominatif, la kasra à l'accusatif, la fatha au génitif" }
+      ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Nominatif : damma. Accusatif : fatha. Génitif : kasra.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.exam.exam#8",
+      "type": "multi",
+      "prompt": { "fr": "Coche les noms dont la terminaison ne suit pas toujours la règle de base (damma, fatha, kasra)." },
+      "choices": [
+        { "ar": "زَيْدٌ" },
+        { "ar": "مُسْلِمُونَ" },
+        { "ar": "فَاطِمَةُ" },
+        { "ar": "طَالِبَتَانِ" },
+        { "ar": "مُحَمَّدٌ" },
+        { "ar": "بَيْتٌ" }
+      ],
+      "answers": [1, 2, 3],
+      "shuffle": false,
+      "points": 5,
+      "explain": "{ar|مُسْلِمُونَ} (pluriel masculin) et {ar|طَالِبَتَانِ} (duel) ont une lettre pour signe du cas. {ar|فَاطِمَةُ} est privé de tanwin : au génitif, il prend la fatha au lieu de la kasra."
+    },
+    {
+      "id": "medine-t1.exam.exam#9",
+      "type": "multi",
+      "prompt": { "fr": "Coche les signes du féminin." },
+      "choices": [ { "ar": "ة" }, { "ar": "◌ُونَ" }, { "ar": "ى" }, { "ar": "◌َانِ" }, { "ar": "اءُ" } ],
+      "answers": [0, 2, 4],
+      "shuffle": false,
+      "points": 5,
+      "explain": "Les trois signes du féminin sont {ar|ة}, {ar|ى} et {ar|اءُ}. {ar|◌ُونَ} et {ar|◌َانِ} sont des terminaisons du pluriel et du duel."
+    },
+    {
+      "id": "medine-t1.exam.exam#10",
+      "type": "multi",
+      "prompt": { "fr": "Les nombres de 3 à 10 suivent trois règles. Coche-les." },
+      "choices": [
+        { "fr": "Le dénombré ({ar|الْمَعْدُودُ}) est au pluriel" },
+        { "fr": "Le nombre ({ar|الْعَدَدُ}) est toujours masculin" },
+        { "fr": "Le dénombré est toujours féminin" },
+        {
+          "fr": "Le dénombré est le second terme de l'annexion ({ar|مُضَافٌ إِلَيْهِ}) et le nombre le premier ({ar|مُضَافٌ})"
+        },
+        { "fr": "Le nombre est de genre contraire à celui du dénombré" }
+      ],
+      "answers": [0, 3, 4],
+      "shuffle": false,
+      "points": 5,
+      "explain": "Annexion, dénombré au pluriel, genre contraire."
+    },
+    {
+      "id": "medine-t1.exam.exam#11",
+      "type": "question",
+      "prompt": { "fr": "Comment s'écrit « 3 + étudiant » ?" },
+      "choices": [
+        { "ar": "ثَلَاثُ طُلَّابٍ" },
+        { "ar": "ثَلَاثَةٌ طُلَّابٌ" },
+        { "ar": "ثَلَاثَةُ طُلَّابٍ" },
+        { "ar": "ثَلَاثَةُ طَالِبٍ" }
+      ],
+      "answer": 2,
+      "explain": "{ar|طَالِبٌ} est masculin : {ar|ثَلَاثَةُ}, puis le dénombré au pluriel et au génitif : {ar|طُلَّابٍ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.exam.exam#12",
+      "type": "question",
+      "prompt": { "fr": "Comment s'écrit « 7 + étudiante » ?" },
+      "choices": [ { "ar": "سَبْعَةُ طَالِبَاتٍ" }, { "ar": "سَبْعُ طَالِبَاتٍ" }, { "ar": "سِتُّ طَالِبَاتٍ" } ],
+      "answer": 1,
+      "explain": "{ar|طَالِبَةٌ} est féminin : {ar|سَبْعُ} (sans {ar|ة}), puis {ar|طَالِبَاتٍ}. {ar|سِتُّ} veut dire « six ».",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.exam.exam#13",
+      "type": "multi",
+      "prompt": { "fr": "Coche les noms privés de tanwin ({ar|مَمْنُوعٌ مِنَ الصَّرْفِ})." },
+      "choices": [
+        { "ar": "زَيْد" },
+        { "ar": "يَاسِر" },
+        { "ar": "فَاطِمَة" },
+        { "ar": "عُثْمَان" },
+        { "ar": "فَرَنْسَا" },
+        { "ar": "بَيْت" }
+      ],
+      "answers": [2, 3, 4],
+      "shuffle": false,
+      "points": 5,
+      "instruction": "Les noms sont donnés sans leur voyelle finale.",
+      "explain": "Privés de tanwin : {ar|فَاطِمَةُ} (nom propre féminin), {ar|عُثْمَانُ} (nom propre terminé par {ar|◌َان}) et {ar|فَرَنْسَا} (nom propre étranger). {ar|زَيْدٌ}, {ar|يَاسِرٌ} et {ar|بَيْتٌ} prennent le tanwin."
+    },
+    {
+      "id": "medine-t1.exam.exam#14",
+      "type": "question",
+      "prompt": { "ar": "مُدَرِّسٌ" },
+      "choices": [ { "fr": "un enseignant" }, { "fr": "un médecin" }, { "fr": "un étudiant" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.exam.exam#15",
+      "type": "question",
+      "prompt": { "ar": "طَبِيبٌ" },
+      "choices": [ { "fr": "un médecin" }, { "fr": "un enseignant" }, { "fr": "un étudiant" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.exam.exam#16",
+      "type": "question",
+      "prompt": { "ar": "اِسْتَيْقَظَ" },
+      "choices": [ { "fr": "se réveiller" }, { "fr": "dormir" }, { "fr": "manger" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.exam.exam#17",
+      "type": "question",
+      "prompt": { "ar": "رَجَعَ" },
+      "choices": [ { "fr": "revenir" }, { "fr": "partir" }, { "fr": "dormir" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.exam.exam#18",
+      "type": "question",
+      "prompt": { "ar": "صَفٌّ" },
+      "choices": [ { "fr": "un rang" }, { "fr": "un livre" }, { "fr": "un bureau" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.exam.exam#19",
+      "type": "question",
+      "prompt": { "ar": "مَسْجِدٌ" },
+      "choices": [ { "fr": "une mosquée" }, { "fr": "une maison" }, { "fr": "une école" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 3
+    },
+    {
+      "id": "medine-t1.exam.exam#20",
+      "type": "question",
+      "prompt": { "ar": "أَحَبَّ" },
+      "choices": [ { "fr": "aimer" }, { "fr": "manger" }, { "fr": "boire" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 3
+    },
+    {
+      "id": "medine-t1.exam.exam#21",
+      "type": "question",
+      "prompt": { "ar": "قَالَ" },
+      "choices": [ { "fr": "dire" }, { "fr": "dormir" }, { "fr": "écrire" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 3
+    },
+    {
+      "id": "medine-t1.exam.exam#22",
+      "type": "question",
+      "prompt": { "ar": "مُغْلَقٌ" },
+      "choices": [ { "fr": "fermé" }, { "fr": "ouvert" }, { "fr": "cassé" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 3
+    },
+    {
+      "id": "medine-t1.exam.exam#23",
+      "type": "question",
+      "prompt": { "ar": "مَفْتُوحٌ" },
+      "choices": [ { "fr": "ouvert" }, { "fr": "fermé" }, { "fr": "cassé" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 2
+    }
+  ]
+}

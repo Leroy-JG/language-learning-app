@@ -54,7 +54,7 @@ data class AppColors(
         ActivityType.GRAMMAR -> grammar
         ActivityType.DIALOGUE -> dialogue
         ActivityType.REVIEW -> review
-        ActivityType.QUIZ -> quiz
+        ActivityType.QUIZ, ActivityType.TEST, ActivityType.EXAM -> quiz
     }
 
     fun forMastery(mastery: Mastery): Color = when (mastery) {

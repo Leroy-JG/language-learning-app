@@ -1,0 +1,276 @@
+{
+  "id": "medine-t1.q04.test",
+  "type": "test",
+  "title": "QCM du professeur n°4",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t1.q04.test#1",
+      "type": "question",
+      "prompt": { "fr": "Combien y a-t-il de sortes de phrases en arabe ?" },
+      "choices": [ { "fr": "1" }, { "fr": "2" }, { "fr": "3" }, { "fr": "4" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Deux : la phrase nominale ({ar|الْجُمْلَةُ الِاسْمِيَّةُ}) et la phrase verbale ({ar|الْجُمْلَةُ الْفِعْلِيَّةُ}).",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q04.test#2",
+      "type": "question",
+      "prompt": { "fr": "La phrase nominale ({ar|الْجُمْلَةُ الِاسْمِيَّةُ}) a deux piliers :" },
+      "choices": [
+        { "ar": "الْفِعْلُ وَالْفَاعِلُ" },
+        { "ar": "الْمُضَافُ وَالْمُضَافُ إِلَيْهِ" },
+        { "ar": "الْمُبْتَدَأُ وَالْخَبَرُ" }
+      ],
+      "answer": 2,
+      "explain": "Le sujet ({ar|الْمُبْتَدَأُ}) et le prédicat ({ar|الْخَبَرُ}).",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q04.test#3",
+      "type": "question",
+      "prompt": { "fr": "La phrase verbale ({ar|الْجُمْلَةُ الْفِعْلِيَّةُ}) a deux piliers :" },
+      "choices": [
+        { "ar": "الْفَاعِلُ وَالْخَبَرُ" },
+        { "ar": "الْمُبْتَدَأُ وَالْخَبَرُ" },
+        { "ar": "الْفِعْلُ وَالْفَاعِلُ" }
+      ],
+      "answer": 2,
+      "explain": "Le verbe ({ar|الْفِعْلُ}) et celui qui fait l'action ({ar|الْفَاعِلُ}).",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q04.test#4",
+      "type": "question",
+      "prompt": { "fr": "Quel est le cas ({ar|الْإِعْرَابُ}) du sujet de la phrase nominale, {ar|الْمُبْتَدَأُ} ?" },
+      "choices": [ { "ar": "مَرْفُوعٌ" }, { "ar": "مَنْصُوبٌ" }, { "ar": "مَجْرُورٌ" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "Le sujet de la phrase nominale est au nominatif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q04.test#5",
+      "type": "question",
+      "prompt": { "fr": "Quel est le cas du prédicat, {ar|الْخَبَرُ} ?" },
+      "choices": [ { "ar": "مَرْفُوعٌ" }, { "ar": "مَنْصُوبٌ" }, { "ar": "مَجْرُورٌ" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "Le prédicat est au nominatif : quand c'est un nom ou un adjectif, il porte la damma ou le tanwin {ar|◌ٌ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q04.test#6",
+      "type": "question",
+      "prompt": { "fr": "Quel est le cas de celui qui fait l'action du verbe, {ar|الْفَاعِلُ} ?" },
+      "choices": [ { "ar": "مَرْفُوعٌ" }, { "ar": "مَنْصُوبٌ" }, { "ar": "مَجْرُورٌ" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "Celui qui fait l'action est au nominatif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q04.test#7",
+      "type": "question",
+      "prompt": { "fr": "Quel est le cas de l'adverbe de lieu {ar|فَوْقَ} ?" },
+      "choices": [ { "ar": "مَرْفُوعٌ" }, { "ar": "مَنْصُوبٌ" }, { "ar": "مَجْرُورٌ" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Un adverbe de lieu est en général à l'accusatif : il porte une fatha.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q04.test#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|مُحَمَّدٌ جَالِسٌ} (« Muḥammad est assis »), quel est le cas du nom {ar|مُحَمَّدٌ} ?" },
+      "choices": [ { "ar": "مَرْفُوعٌ" }, { "ar": "مَنْصُوبٌ" }, { "ar": "مَجْرُورٌ" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|مُحَمَّدٌ} est le sujet de la phrase nominale : il est au nominatif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q04.test#9",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|كِتَابُ زَيْدٍ فِي الْفَصْلِ}, quel est le cas du nom {ar|زَيْدٍ} ?" },
+      "choices": [ { "ar": "مَرْفُوعٌ" }, { "ar": "مَنْصُوبٌ" }, { "ar": "مَجْرُورٌ" } ],
+      "answer": 2,
+      "shuffle": false,
+      "explain": "{ar|زَيْدٍ} est le second terme de l'annexion : il est au génitif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q04.test#10",
+      "type": "question",
+      "prompt": { "fr": "Quel est le cas du second terme d'une annexion, {ar|الْمُضَافُ إِلَيْهِ} ?" },
+      "choices": [ { "ar": "مَرْفُوعٌ" }, { "ar": "مَنْصُوبٌ" }, { "ar": "مَجْرُورٌ" } ],
+      "answer": 2,
+      "shuffle": false,
+      "explain": "Le second terme d'une annexion est toujours au génitif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q04.test#11",
+      "type": "question",
+      "prompt": { "ar": "يَدٌ" },
+      "choices": [ { "ar": "مُذَكَّرٌ" }, { "ar": "مُؤَنَّثٌ" } ],
+      "answer": 1,
+      "shuffle": false,
+      "instruction": "Ce nom est-il masculin ou féminin ?",
+      "explain": "Une main : féminin.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q04.test#12",
+      "type": "question",
+      "prompt": { "ar": "زَيْنَبُ" },
+      "choices": [ { "ar": "مُذَكَّرٌ" }, { "ar": "مُؤَنَّثٌ" } ],
+      "answer": 1,
+      "shuffle": false,
+      "instruction": "Ce nom est-il masculin ou féminin ?",
+      "explain": "Un prénom de femme : féminin, même sans le signe {ar|ة}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q04.test#13",
+      "type": "question",
+      "prompt": { "ar": "كِتَابٌ" },
+      "choices": [ { "ar": "مُذَكَّرٌ" }, { "ar": "مُؤَنَّثٌ" } ],
+      "answer": 0,
+      "shuffle": false,
+      "instruction": "Ce nom est-il masculin ou féminin ?",
+      "explain": "Un nom sans signe du féminin qui ne désigne pas une femme : masculin.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q04.test#14",
+      "type": "multi",
+      "prompt": { "fr": "Coche les noms privés de tanwin ({ar|مَمْنُوعٌ مِنَ الصَّرْفِ})." },
+      "choices": [
+        { "ar": "زَيْد" },
+        { "ar": "فَاطِمَة" },
+        { "ar": "زَيْنَب" },
+        { "ar": "حَمْزَة" },
+        { "ar": "جَوْعَان" },
+        { "ar": "مُحَمَّد" },
+        { "ar": "رَجُل" },
+        { "ar": "غَضْبَان" },
+        { "ar": "يَد" }
+      ],
+      "answers": [1, 2, 3, 4, 7],
+      "shuffle": false,
+      "points": 5,
+      "instruction": "Les noms sont donnés sans leur voyelle finale.",
+      "explain": "Privés de tanwin : les prénoms féminins ({ar|فَاطِمَة}, {ar|زَيْنَب}), {ar|حَمْزَة}, et les adjectifs {ar|جَوْعَان} et {ar|غَضْبَان} (chapitre 9). Les autres prennent le tanwin."
+    },
+    {
+      "id": "medine-t1.q04.test#15",
+      "type": "question",
+      "prompt": { "ar": "عُصْفُورٌ" },
+      "choices": [ { "fr": "un oiseau" }, { "fr": "un chien" }, { "fr": "un chat" }, { "fr": "un chameau" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 3
+    },
+    {
+      "id": "medine-t1.q04.test#16",
+      "type": "question",
+      "prompt": { "ar": "مُسْتَشْفًى" },
+      "choices": [ { "fr": "un hôpital" }, { "fr": "un restaurant" }, { "fr": "une cantine" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 3
+    },
+    {
+      "id": "medine-t1.q04.test#17",
+      "type": "question",
+      "prompt": { "ar": "خَلْفَ" },
+      "choices": [ { "fr": "derrière" }, { "fr": "devant" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 3
+    },
+    {
+      "id": "medine-t1.q04.test#18",
+      "type": "question",
+      "prompt": { "ar": "أَمَامَ" },
+      "choices": [ { "fr": "devant" }, { "fr": "derrière" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 3
+    },
+    {
+      "id": "medine-t1.q04.test#19",
+      "type": "question",
+      "prompt": { "ar": "كُوبٌ" },
+      "choices": [ { "fr": "un verre" }, { "fr": "une assiette" }, { "fr": "un couteau" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 3
+    },
+    {
+      "id": "medine-t1.q04.test#20",
+      "type": "question",
+      "prompt": { "ar": "غُرْفَةٌ" },
+      "choices": [ { "fr": "une chambre" }, { "fr": "une cuisine" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 3
+    },
+    {
+      "id": "medine-t1.q04.test#21",
+      "type": "question",
+      "prompt": { "ar": "صَعْبٌ" },
+      "choices": [ { "fr": "difficile" }, { "fr": "facile" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 3
+    },
+    {
+      "id": "medine-t1.q04.test#22",
+      "type": "question",
+      "prompt": { "ar": "سَهْلٌ" },
+      "choices": [ { "fr": "facile" }, { "fr": "difficile" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 3
+    },
+    {
+      "id": "medine-t1.q04.test#23",
+      "type": "question",
+      "prompt": { "ar": "جَلَسَ" },
+      "choices": [ { "fr": "s'asseoir" }, { "fr": "courir" }, { "fr": "dormir" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 2
+    },
+    {
+      "id": "medine-t1.q04.test#24",
+      "type": "question",
+      "prompt": { "ar": "نَاقَةٌ" },
+      "choices": [ { "fr": "une chamelle" }, { "fr": "un chien" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 2
+    },
+    {
+      "id": "medine-t1.q04.test#25",
+      "type": "question",
+      "prompt": { "ar": "عَمٌّ" },
+      "choices": [ { "fr": "un oncle paternel" }, { "fr": "un oncle maternel" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q04.test#26",
+      "type": "question",
+      "prompt": { "ar": "وَزِيرٌ" },
+      "choices": [ { "fr": "un ministre" }, { "fr": "un président" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 1
+    }
+  ]
+}

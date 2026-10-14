@@ -57,6 +57,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -91,6 +92,7 @@ import io.github.leroyjg.arabe.content.DialogueScreen
 import io.github.leroyjg.arabe.content.Exercise
 import io.github.leroyjg.arabe.content.PresentScreen
 import io.github.leroyjg.arabe.content.TipScreen
+import io.github.leroyjg.arabe.content.isGraded
 import io.github.leroyjg.arabe.data.ProgressRepository
 import io.github.leroyjg.arabe.data.ReviewRepository
 import io.github.leroyjg.arabe.data.Settings
@@ -99,12 +101,14 @@ import io.github.leroyjg.arabe.engine.PreparedFillGap
 import io.github.leroyjg.arabe.engine.PreparedMatch
 import io.github.leroyjg.arabe.engine.PreparedMcq
 import io.github.leroyjg.arabe.engine.PreparedMemory
+import io.github.leroyjg.arabe.engine.PreparedMulti
 import io.github.leroyjg.arabe.engine.PreparedOrder
 import io.github.leroyjg.arabe.engine.PreparedQuestion
 import io.github.leroyjg.arabe.engine.PreparedSort
 import io.github.leroyjg.arabe.engine.PreparedSpot
 import io.github.leroyjg.arabe.engine.PreparedTrueFalse
 import io.github.leroyjg.arabe.engine.PreparedTyping
+import io.github.leroyjg.arabe.engine.TestScoring
 import io.github.leroyjg.arabe.review.CardKind
 import io.github.leroyjg.arabe.review.Grade
 import io.github.leroyjg.arabe.review.GradedKey
@@ -152,7 +156,12 @@ fun ActivityScreen(activityId: String, onClose: () -> Unit) {
                     container.review.afterActivity(ready.course, activity, r.itemResults, r.score)
                 }
             }
-            Player(vm, Playback(ready.course, container.audio), onClose)
+            // Dans un quiz noté, les voyelles sont toujours affichées : beaucoup de questions portent dessus.
+            val prefs = LocalReadingPrefs.current
+            val shown = if (activity.file.type.isGraded && prefs.hideHarakat) prefs.copy(hideHarakat = false) else prefs
+            CompositionLocalProvider(LocalReadingPrefs provides shown) {
+                Player(vm, Playback(ready.course, container.audio), onClose)
+            }
         }
     }
 }
@@ -375,6 +384,7 @@ private fun ScreenBody(vm: PlayerViewModel, playback: Playback) {
         is PreparedTyping -> TypingContent(p, vm, playback)
         is PreparedTrueFalse -> TrueFalseContent(p, vm, playback)
         is PreparedQuestion -> QuestionContent(p, vm, playback)
+        is PreparedMulti -> MultiContent(p, vm, playback)
         is PreparedSort -> SortContent(p, vm, playback)
         is PreparedSpot -> SpotContent(p, vm, playback)
         is PreparedBuild -> BuildContent(p, vm, playback)
@@ -528,7 +538,7 @@ private fun FeedbackPanel(feedback: Feedback, turn: Int, playback: Playback, onC
 private fun EndScreen(result: ActivityResult, onContinue: () -> Unit, onRetry: () -> Unit) {
     val colors = AppTheme.colors
     val scheme = MaterialTheme.colorScheme
-    val failedQuiz = result.isQuiz && !result.passed
+    val failedQuiz = (result.isQuiz || result.isGraded) && !result.passed
     val sounds = LocalAppContainer.current.sounds
     val haptics = rememberHaptics()
     LaunchedEffect(Unit) {
@@ -546,12 +556,16 @@ private fun EndScreen(result: ActivityResult, onContinue: () -> Unit, onRetry: (
     }
     val title = when {
         result.kind is SessionKind.VocabularyReview || result.kind is SessionKind.GrammarReview -> R.string.end_review_title
+        result.isExam -> if (result.passed) R.string.end_exam_passed else R.string.end_exam_failed
+        result.isGraded -> if (result.passed) R.string.end_test_passed else R.string.end_test_failed
         !result.isQuiz -> R.string.end_title
         result.passed -> R.string.end_quiz_passed
         else -> R.string.end_quiz_failed
     }
     val encouragement = when {
+        failedQuiz && result.isGraded -> R.string.end_test_failed_hint
         failedQuiz -> R.string.end_quiz_failed_hint
+        result.isGraded -> R.string.end_test_passed_hint
         result.score >= 0.9 -> R.string.end_great
         result.score >= 0.7 -> R.string.end_good
         else -> R.string.end_keep_going
@@ -589,19 +603,31 @@ private fun EndScreen(result: ActivityResult, onContinue: () -> Unit, onRetry: (
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 StatTile(stringResource(R.string.end_stat_xp), "+${xp.value.toInt()}", scheme.secondary, Modifier.weight(1f))
                 if (result.exerciseCount > 0) {
-                    StatTile(stringResource(R.string.end_stat_accuracy), "${(result.score * 100).toInt()} %", colors.correct, Modifier.weight(1f))
+                    if (result.isGraded) {
+                        StatTile(
+                            stringResource(R.string.end_stat_mark),
+                            stringResource(R.string.end_mark_value, TestScoring.format(result.mark)),
+                            if (result.passed) colors.correct else colors.wrong,
+                            Modifier.weight(1f),
+                        )
+                    } else {
+                        StatTile(stringResource(R.string.end_stat_accuracy), "${(result.score * 100).toInt()} %", colors.correct, Modifier.weight(1f))
+                    }
                     StatTile(stringResource(R.string.end_stat_streak), "🔥 ${result.bestCombo}", colors.dialogue, Modifier.weight(1f))
                 }
             }
             if (result.exerciseCount > 0) {
                 Text(
-                    stringResource(R.string.end_score, result.firstTryCorrect, result.exerciseCount),
+                    stringResource(if (result.isGraded) R.string.end_test_score else R.string.end_score, result.firstTryCorrect, result.exerciseCount),
                     style = MaterialTheme.typography.bodyMedium,
                     color = scheme.onSurfaceVariant,
                 )
             }
             if (result.isQuiz && result.passed) {
                 Text(stringResource(R.string.end_chapter_done), style = MaterialTheme.typography.titleMedium, textAlign = TextAlign.Center)
+            }
+            if (result.isExam && result.passed) {
+                Text(stringResource(R.string.end_exam_done), style = MaterialTheme.typography.titleMedium, textAlign = TextAlign.Center)
             }
             if (result.items.isNotEmpty()) {
                 Text(
@@ -621,7 +647,11 @@ private fun EndScreen(result: ActivityResult, onContinue: () -> Unit, onRetry: (
             }
             Spacer(Modifier.height(8.dp))
             if (failedQuiz) {
-                BigButton(stringResource(R.string.end_retry_quiz), enabled = true, onClick = onRetry)
+                BigButton(
+                    stringResource(if (result.isGraded) R.string.end_retry_test else R.string.end_retry_quiz),
+                    enabled = true,
+                    onClick = onRetry,
+                )
                 OutlinedButton(onClick = onContinue, modifier = Modifier.fillMaxWidth().height(54.dp), shape = RoundedCornerShape(16.dp)) {
                     Text(stringResource(R.string.continue_))
                 }

@@ -1,0 +1,245 @@
+{
+  "id": "medine-t1.q06.test",
+  "type": "test",
+  "title": "QCM du professeur n°6",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t1.q06.test#1",
+      "type": "question",
+      "prompt": { "fr": "{ar|هَؤُلَاءِ}…" },
+      "choices": [ { "fr": "s'emploie pour le pluriel proche" }, { "fr": "s'emploie pour le pluriel éloigné" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|هَؤُلَاءِ} montre plusieurs personnes proches : « ceux-ci, celles-ci ».",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q06.test#2",
+      "type": "question",
+      "prompt": { "fr": "{ar|أُولَئِكَ}…" },
+      "choices": [ { "fr": "s'emploie pour le pluriel proche" }, { "fr": "s'emploie pour le pluriel éloigné" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|أُولَئِكَ} montre plusieurs personnes éloignées : « ceux-là, celles-là ». Le {ar|كَ} final marque l'éloignement.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q06.test#3",
+      "type": "question",
+      "prompt": { "ar": "هٰذَا طَالِبٌ." },
+      "choices": [ { "ar": "هَؤُلَاءِ طُلَّابٌ" }, { "ar": "ذٰلِكَ طُلَّابٌ" }, { "ar": "هُنَاكَ طُلَّابٌ" } ],
+      "answer": 0,
+      "instruction": "Choisis la phrase accordée au pluriel.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q06.test#4",
+      "type": "question",
+      "prompt": { "ar": "أَنْتَ مُسْلِمٌ." },
+      "choices": [ { "ar": "أَنْتُمَا مُسْلِمُونَ" }, { "ar": "أَنْتُمْ مُسْلِمُونَ" }, { "ar": "هُمْ مُسْلِمُونَ" } ],
+      "answer": 1,
+      "instruction": "Choisis la phrase accordée au pluriel.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q06.test#5",
+      "type": "question",
+      "prompt": { "ar": "ذٰلِكَ عَالِمٌ كَبِيرٌ." },
+      "choices": [
+        { "ar": "ذٰلِكَ عُلَمَاءُ كِبَارٌ" },
+        { "ar": "أُولَئِكَ عُلَمَاءُ كِبَارٌ" },
+        { "ar": "هُمْ عُلَمَاءُ كَبِيرٌ" }
+      ],
+      "answer": 1,
+      "instruction": "Choisis la phrase accordée au pluriel.",
+      "explain": "Le pluriel de {ar|ذٰلِكَ} (pour des personnes) est {ar|أُولَئِكَ}, et l'adjectif se met aussi au pluriel : {ar|كِبَارٌ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q06.test#6",
+      "type": "question",
+      "prompt": { "ar": "هٰذَا الرَّجُلُ الطَّوِيلُ مِنْ فَرَنْسَا." },
+      "choices": [
+        { "ar": "هٰذَا الرِّجَالُ الطِّوَالُ مِنْ فَرَنْسَا" },
+        { "ar": "هَؤُلَاءِ الرَّجُلُ الطَّوِيلُ مِنْ فَرَنْسَا" },
+        { "ar": "هَؤُلَاءِ الرِّجَالُ الطِّوَالُ مِنْ فَرَنْسَا" }
+      ],
+      "answer": 2,
+      "instruction": "Choisis la phrase accordée au pluriel.",
+      "explain": "Le démonstratif, le nom et l'adjectif passent tous les trois au pluriel.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q06.test#7",
+      "type": "question",
+      "prompt": { "ar": "تِلْكَ بِنْتٌ." },
+      "choices": [ { "ar": "هٰذِهِ بَنَاتٌ" }, { "ar": "أُولَئِكَ بَنَاتٌ" }, { "ar": "هٰذِهِ بِنْتٌ" } ],
+      "answer": 1,
+      "instruction": "Choisis la phrase accordée au pluriel.",
+      "explain": "Pour plusieurs personnes éloignées, on emploie {ar|أُولَئِكَ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q06.test#8",
+      "type": "question",
+      "prompt": { "ar": "هٰذِهِ امْرَأَةٌ." },
+      "choices": [ { "ar": "هَؤُلَاءِ رِجَالٌ" }, { "ar": "هَؤُلَاءِ بَنَاتٌ" }, { "ar": "هَؤُلَاءِ نِسَاءٌ" } ],
+      "answer": 2,
+      "instruction": "Choisis la phrase accordée au pluriel.",
+      "explain": "{ar|نِسَاءٌ} est le pluriel de {ar|اِمْرَأَةٌ}. {ar|بَنَاتٌ} est le pluriel de {ar|بِنْتٌ} (une fille).",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q06.test#9",
+      "type": "multi",
+      "prompt": { "fr": "Coche tous les pronoms isolés ({ar|الضَّمِيرُ الْمُنْفَصِلُ})." },
+      "choices": [
+        { "ar": "أَنَا" },
+        { "ar": "نَحْنُ" },
+        { "ar": "أَنْتَ" },
+        { "ar": "أَنْتُمَا" },
+        { "ar": "كَ" },
+        { "ar": "كُمَا" },
+        { "ar": "نَا" },
+        { "ar": "هُمْ" },
+        { "ar": "هُوَ" }
+      ],
+      "answers": [0, 1, 2, 3, 7, 8],
+      "shuffle": false,
+      "points": 5,
+      "explain": "{ar|كَ}, {ar|كُمَا} et {ar|نَا} se collent à un nom. {ar|هُمْ}, écrit seul, est le pronom isolé « ils »."
+    },
+    {
+      "id": "medine-t1.q06.test#10",
+      "type": "multi",
+      "prompt": {
+        "fr": "Coche tous les pronoms affixes ({ar|الضَّمِيرُ الْمُتَّصِلُ}) : ceux qui se collent à la fin d'un mot."
+      },
+      "choices": [
+        { "ar": "أَنَا" },
+        { "ar": "◌ِي" },
+        { "ar": "نَا" },
+        { "ar": "كُمْ" },
+        { "ar": "أَنْتُمْ" },
+        { "ar": "هُوَ" },
+        { "ar": "هُ" },
+        { "ar": "هُمْ" },
+        { "ar": "هُنَّ" }
+      ],
+      "answers": [1, 2, 3, 6, 7, 8],
+      "shuffle": false,
+      "points": 5,
+      "explain": "{ar|أَنَا}, {ar|أَنْتُمْ} et {ar|هُوَ} s'écrivent seuls. Les autres se collent à un mot : {ar|كِتَابِي}, {ar|كِتَابُنَا}, {ar|كِتَابُكُمْ}, {ar|كِتَابُهُ}, {ar|كِتَابُهُمْ}, {ar|كِتَابُهُنَّ}."
+    },
+    {
+      "id": "medine-t1.q06.test#11",
+      "type": "question",
+      "prompt": { "fr": "Un mot invariable s'appelle {ar|مُعْرَبٌ}." },
+      "choices": [ { "fr": "vrai" }, { "fr": "faux" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Un mot invariable est {ar|مَبْنِيٌّ}. {ar|مُعْرَبٌ} veut dire « variable ».",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q06.test#12",
+      "type": "question",
+      "prompt": { "fr": "Les noms {ar|مُعْرَبٌ} peuvent être {ar|مَرْفُوعٌ}, {ar|مَنْصُوبٌ} ou {ar|مَجْرُورٌ}." },
+      "choices": [ { "fr": "vrai" }, { "fr": "faux" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "Un nom variable change de terminaison selon son rôle : nominatif, accusatif ou génitif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q06.test#13",
+      "type": "question",
+      "prompt": { "fr": "Les noms {ar|مَبْنِيٌّ} ne changent jamais de terminaison." },
+      "choices": [ { "fr": "vrai" }, { "fr": "faux" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "Un nom invariable garde la même terminaison, quel que soit son rôle dans la phrase.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q06.test#14",
+      "type": "question",
+      "prompt": { "fr": "Le nom interrogatif {ar|كَيْفَ} sert à interroger sur…" },
+      "choices": [
+        { "fr": "un être doué de raison" },
+        { "fr": "un être dépourvu de raison" },
+        { "fr": "un lieu" },
+        { "fr": "la manière, l'état d'une chose" },
+        { "fr": "le temps" }
+      ],
+      "answer": 3,
+      "shuffle": false,
+      "explain": "{ar|كَيْفَ} veut dire « comment ? » : il interroge sur la manière, l'état.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q06.test#15",
+      "type": "question",
+      "prompt": { "ar": "أَحَبَّ" },
+      "choices": [ { "fr": "aimer" }, { "fr": "manger" }, { "fr": "boire" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q06.test#16",
+      "type": "question",
+      "prompt": { "ar": "شَهِيرٌ" },
+      "choices": [ { "fr": "célèbre" }, { "fr": "faible" }, { "fr": "fort" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q06.test#17",
+      "type": "question",
+      "prompt": { "ar": "نَاسٌ" },
+      "choices": [ { "fr": "des gens" }, { "fr": "des femmes" }, { "fr": "des enfants" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q06.test#18",
+      "type": "question",
+      "prompt": { "ar": "نِسَاءٌ" },
+      "choices": [ { "fr": "des femmes" }, { "fr": "des hommes" }, { "fr": "des enfants" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q06.test#19",
+      "type": "question",
+      "prompt": { "ar": "حَالٌ" },
+      "choices": [ { "fr": "un état, une situation" }, { "fr": "un genre" }, { "fr": "un cours" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 3
+    },
+    {
+      "id": "medine-t1.q06.test#20",
+      "type": "question",
+      "prompt": { "ar": "رَحْمَةٌ" },
+      "choices": [ { "fr": "une miséricorde" }, { "fr": "une bénédiction" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 3
+    },
+    {
+      "id": "medine-t1.q06.test#21",
+      "type": "question",
+      "prompt": { "ar": "مَطْعَمٌ" },
+      "choices": [ { "fr": "un restaurant" }, { "fr": "de la nourriture" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 4
+    }
+  ]
+}

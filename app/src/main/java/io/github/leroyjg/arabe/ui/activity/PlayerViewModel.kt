@@ -20,6 +20,7 @@ import io.github.leroyjg.arabe.content.Item
 import io.github.leroyjg.arabe.content.MatchScreen
 import io.github.leroyjg.arabe.content.McqScreen
 import io.github.leroyjg.arabe.content.MemoryScreen
+import io.github.leroyjg.arabe.content.MultiScreen
 import io.github.leroyjg.arabe.content.OrderScreen
 import io.github.leroyjg.arabe.content.PresentScreen
 import io.github.leroyjg.arabe.content.QuestionScreen
@@ -27,6 +28,7 @@ import io.github.leroyjg.arabe.content.Screen
 import io.github.leroyjg.arabe.content.SortScreen
 import io.github.leroyjg.arabe.content.SpotScreen
 import io.github.leroyjg.arabe.content.TipScreen
+import io.github.leroyjg.arabe.content.isGraded
 import io.github.leroyjg.arabe.content.TrueFalseScreen
 import io.github.leroyjg.arabe.content.TypingScreen
 import io.github.leroyjg.arabe.engine.ActivitySession
@@ -38,6 +40,7 @@ import io.github.leroyjg.arabe.engine.PreparedFillGap
 import io.github.leroyjg.arabe.engine.PreparedMatch
 import io.github.leroyjg.arabe.engine.PreparedMcq
 import io.github.leroyjg.arabe.engine.PreparedMemory
+import io.github.leroyjg.arabe.engine.PreparedMulti
 import io.github.leroyjg.arabe.engine.PreparedOrder
 import io.github.leroyjg.arabe.engine.PreparedQuestion
 import io.github.leroyjg.arabe.engine.PreparedSort
@@ -45,6 +48,7 @@ import io.github.leroyjg.arabe.engine.PreparedSpot
 import io.github.leroyjg.arabe.engine.PreparedTrueFalse
 import io.github.leroyjg.arabe.engine.PreparedTyping
 import io.github.leroyjg.arabe.engine.QUIZ_PASS_SCORE
+import io.github.leroyjg.arabe.engine.TestScoring
 
 /** Résultat affiché dans le panneau de correction. */
 data class Feedback(
@@ -89,8 +93,23 @@ data class ActivityResult(
     val itemResults: Map<String, Boolean>,
     /** Meilleure série de bonnes réponses d'affilée. */
     val bestCombo: Int,
+    /** Points gagnés et points possibles d'un quiz noté du professeur (0 et 0 ailleurs). */
+    val earnedPoints: Int = 0,
+    val totalPoints: Int = 0,
 ) {
-    val isQuiz: Boolean get() = (kind as? SessionKind.Lesson)?.activity?.file?.type == ActivityType.QUIZ
+    private val type: ActivityType? get() = (kind as? SessionKind.Lesson)?.activity?.file?.type
+
+    /** Bilan de chapitre. */
+    val isQuiz: Boolean get() = type == ActivityType.QUIZ
+
+    /** Quiz noté du professeur ou examen final : note sur 20. */
+    val isGraded: Boolean get() = type?.isGraded == true
+
+    /** Examen final : sa réussite valide le tome. */
+    val isExam: Boolean get() = type == ActivityType.EXAM
+
+    /** Note sur 20 d'un quiz noté. */
+    val mark: Double get() = TestScoring.mark(earnedPoints, totalPoints)
 }
 
 /**
@@ -106,7 +125,10 @@ class PlayerViewModel(
     private val onFinished: (ActivityResult) -> Unit,
 ) : ViewModel() {
     private val factory = ExerciseFactory(course, index)
-    private var session = ActivitySession(screens)
+
+    /** Quiz noté ou examen : une seule tentative par question. */
+    private val graded = (kind as? SessionKind.Lesson)?.activity?.file?.type?.isGraded == true
+    private var session = ActivitySession(screens, retryMissed = !graded)
     private var pendingOutcome: Outcome = Outcome.VIEWED
     private val itemResults = mutableMapOf<String, Boolean>()
     private val remarkScreens = mutableSetOf<String>()
@@ -153,6 +175,9 @@ class PlayerViewModel(
     /** Catégorie touchée à tort (secouée un instant). */
     var sortWrong by mutableStateOf<Int?>(null)
 
+    /** Question à réponses multiples : positions cochées. */
+    val multiSelected = mutableStateListOf<Int>()
+
     /** Repérer : mots sélectionnés. */
     val spotSelected = mutableStateListOf<Int>()
 
@@ -186,6 +211,7 @@ class PlayerViewModel(
         sortMistakes = 0
         sortWrong = null
         spotSelected.clear()
+        multiSelected.clear()
         buildPicked.clear()
         memoryOpen.clear()
         memoryFound.clear()
@@ -204,6 +230,7 @@ class PlayerViewModel(
         is TypingScreen -> factory.typing(screen)
         is TrueFalseScreen -> factory.trueFalse(screen)
         is QuestionScreen -> factory.question(screen)
+        is MultiScreen -> factory.multi(screen)
         is SortScreen -> factory.sort(screen)
         is SpotScreen -> factory.spot(screen)
         is BuildScreen -> factory.build(screen)
@@ -215,6 +242,7 @@ class PlayerViewModel(
     val canCheck: Boolean
         get() = feedback == null && when (prepared) {
             is PreparedMcq, is PreparedQuestion -> choice != null
+            is PreparedMulti -> multiSelected.isNotEmpty()
             is PreparedTyping -> typed.isNotBlank()
             is PreparedTrueFalse -> trueFalseChoice != null
             is PreparedFillGap -> gapFill.all { it != null }
@@ -238,6 +266,16 @@ class PlayerViewModel(
                     verdict = verdict(p.check(choice!!)),
                     answerAr = right.ar, answerFr = right.fr,
                     sound = right.ar?.let { Sound.OfText(it) },
+                    explain = p.screen.explain,
+                )
+            }
+            is PreparedMulti -> {
+                val right = p.correctPositions.sorted().map { p.screen.choices[p.order[it]] }
+                val arabic = right.mapNotNull { it.ar }
+                Feedback(
+                    verdict = verdict(p.check(multiSelected.toList())),
+                    answerAr = arabic.takeIf { it.size == right.size }?.joinToString("  "),
+                    answerFr = right.mapNotNull { it.fr }.takeIf { it.isNotEmpty() }?.joinToString(" · "),
                     explain = p.screen.explain,
                 )
             }
@@ -364,6 +402,12 @@ class PlayerViewModel(
         }
     }
 
+    /** Réponses multiples : coche ou décoche une réponse. */
+    fun toggleMulti(position: Int) {
+        if (feedback != null) return
+        if (position in multiSelected) multiSelected.remove(position) else multiSelected.add(position)
+    }
+
     /** Repérer : sélectionne ou désélectionne un mot. */
     fun toggleSpot(word: Int) {
         if (feedback != null) return
@@ -407,7 +451,7 @@ class PlayerViewModel(
     }
 
     fun restart() {
-        session = ActivitySession(screens)
+        session = ActivitySession(screens, retryMissed = !graded)
         itemResults.clear()
         remarkScreens.clear()
         combo = 0
@@ -418,8 +462,11 @@ class PlayerViewModel(
 
     private fun finish() {
         val s = session
-        val xp = s.firstTryCorrect * 10 + (s.exerciseCount - s.firstTryCorrect) * 5
+        // Dans un quiz noté, une question ratée ne rapporte rien (elle ne revient pas).
+        val xp = if (graded) s.firstTryCorrect * 10 else s.firstTryCorrect * 10 + (s.exerciseCount - s.firstTryCorrect) * 5
         val isQuiz = (kind as? SessionKind.Lesson)?.activity?.file?.type == ActivityType.QUIZ
+        val totalPoints = if (graded) TestScoring.totalPoints(screens) else 0
+        val earnedPoints = if (graded) TestScoring.earnedPoints(screens, s.missedScreens) else 0
         val items = when (kind) {
             is SessionKind.Lesson -> screens.filterIsInstance<PresentScreen>().mapNotNull { course.item(it.item) }
             SessionKind.VocabularyReview -> screens.mapNotNull { sc ->
@@ -435,14 +482,16 @@ class PlayerViewModel(
             kind = kind,
             exerciseCount = s.exerciseCount,
             firstTryCorrect = s.firstTryCorrect,
-            score = s.score,
-            passed = !isQuiz || s.score >= QUIZ_PASS_SCORE,
+            score = if (graded && totalPoints > 0) earnedPoints.toDouble() / totalPoints else s.score,
+            passed = if (graded) TestScoring.passed(earnedPoints, totalPoints) else !isQuiz || s.score >= QUIZ_PASS_SCORE,
             xp = xp,
             items = items,
             missedScreens = s.missedScreens.toSet(),
             remarkScreens = remarkScreens.toSet(),
             itemResults = itemResults.toMap(),
             bestCombo = bestCombo,
+            earnedPoints = earnedPoints,
+            totalPoints = totalPoints,
         )
         result = r
         onFinished(r)

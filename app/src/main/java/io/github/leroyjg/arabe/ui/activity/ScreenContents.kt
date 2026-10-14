@@ -83,6 +83,7 @@ import io.github.leroyjg.arabe.content.TypingAsk
 import io.github.leroyjg.arabe.engine.PreparedFillGap
 import io.github.leroyjg.arabe.engine.PreparedMatch
 import io.github.leroyjg.arabe.engine.PreparedMcq
+import io.github.leroyjg.arabe.engine.PreparedMulti
 import io.github.leroyjg.arabe.engine.PreparedOrder
 import io.github.leroyjg.arabe.engine.PreparedQuestion
 import io.github.leroyjg.arabe.engine.PreparedTrueFalse
@@ -545,6 +546,33 @@ fun QuestionContent(p: PreparedQuestion, vm: PlayerViewModel, playback: Playback
                 state = choiceState(position, vm.choice, p.correctPosition, vm.feedback != null),
                 onClick = { vm.choice = position },
             ) { TxtView(p.screen.choices[choiceIndex], playback, prompt = false) }
+        }
+    }
+}
+
+// ---------------------------------------------------------------- réponses multiples
+
+/** « Coche toutes les bonnes réponses » : on touche chaque réponse à cocher, puis « Vérifier ». */
+@Composable
+fun MultiContent(p: PreparedMulti, vm: PlayerViewModel, playback: Playback) {
+    AutoPlay(vm.turn, playback, p.screen.prompt.ar?.let { Sound.OfText(it) })
+    Column(verticalArrangement = Arrangement.spacedBy(14.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+        Instruction(p.screen.instruction ?: stringResource(R.string.instruction_multi))
+        ContextView(p.screen, playback)
+        TxtView(p.screen.prompt, playback, prompt = true)
+        Spacer(Modifier.height(4.dp))
+        p.order.forEachIndexed { position, choiceIndex ->
+            val checked = vm.feedback != null
+            val selected = position in vm.multiSelected
+            val state = when {
+                !checked -> if (selected) ChoiceState.SELECTED else ChoiceState.IDLE
+                position in p.correctPositions -> ChoiceState.CORRECT
+                selected -> ChoiceState.WRONG
+                else -> ChoiceState.DISABLED
+            }
+            ChoiceCard(state = state, onClick = { vm.toggleMulti(position) }) {
+                TxtView(p.screen.choices[choiceIndex], playback, prompt = false)
+            }
         }
     }
 }

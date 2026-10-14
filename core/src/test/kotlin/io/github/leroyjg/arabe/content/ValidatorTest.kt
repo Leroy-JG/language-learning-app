@@ -102,6 +102,16 @@ class ValidatorTest {
             "\"tone\": \"memo\"", "\"tone\": \"astuce\"", "JSON non conforme"),
         Mutation("trous incohérents", "medine-t1/l01/grammar-1.json",
             "\"sentence\": \"هٰذَا {0}.\"", "\"sentence\": \"هٰذَا {1}.\"", "trous"),
+        Mutation("réponses multiples hors bornes", "medine-t1/q03/test.json",
+            "\"answers\": [1, 3, 5]", "\"answers\": [1, 3, 9]", "hors bornes"),
+        Mutation("réponses multiples en double", "medine-t1/q03/test.json",
+            "\"answers\": [1, 3, 5]", "\"answers\": [1, 3, 3]", "en double"),
+        Mutation("choix en double dans un quiz noté", "medine-t1/q03/test.json",
+            "{ \"ar\": \"ي\" }, { \"ar\": \"ى\" }", "{ \"ar\": \"ي\" }, { \"ar\": \"ي\" }", "choix en double"),
+        Mutation("points hors d'un quiz noté", "medine-t1/l03/quiz.json",
+            "\"answer\": 0", "\"answer\": 0, \"points\": 5", "points seulement"),
+        Mutation("quiz noté avec d'autres écrans que des questions", "medine-t1/l01/quiz.json",
+            "\"type\": \"quiz\"", "\"type\": \"test\"", "ne contient que des écrans question ou multi"),
     )
 
     @TestFactory

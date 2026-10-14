@@ -214,8 +214,9 @@ dont un écran `present` te l'a montré (voir §12).
 }
 ```
 
-- `type` : `vocabulary`, `grammar`, `dialogue`, `review` ou `quiz`. Il détermine la couleur de
-  l'activité ; le contenu est libre (une activité de vocabulaire peut contenir une astuce).
+- `type` : `vocabulary`, `grammar`, `dialogue`, `review`, `quiz`, `test` ou `exam`. Il détermine la
+  couleur de l'activité ; le contenu est libre (une activité de vocabulaire peut contenir une astuce).
+  `test` et `exam` sont les **QCM notés du professeur** (voir §9.15).
 - `icon` (facultatif) : image de l'activité dans le parcours de l'accueil ; sinon le symbole de
   son type. Une activité `quiz` s'affiche toujours comme la carte « Bilan du chapitre ».
 - Dans l'app, un chapitre s'appelle « Chapitre N » et chacune de ses activités est une « leçon »
@@ -226,6 +227,9 @@ dont un écran `present` te l'a montré (voir §12).
 
 **Déroulé** : un exercice raté revient en fin d'activité jusqu'à ce qu'il soit réussi. Le score
 compte les réussites du premier coup. Un `quiz` est réussi à partir de **70 %** ; sinon on le recommence.
+
+**Quiz du professeur (`test`) et examen final (`exam`)** : voir §9.15. Pas de reprise des erreurs,
+voyelles toujours affichées, note sur 20, réussi à 12/20.
 
 **Champs communs à tous les exercices** (tous les types sauf `present`, `tip` et `dialogue`)
 
@@ -446,6 +450,36 @@ ligne en la touchant et afficher ou masquer les traductions.
   fait entendre. Le jeu compte toujours comme réussi (chercher fait partie du jeu) : c'est un
   moment ludique de consolidation, pas une évaluation.
 
+### 9.15 `multi` et les QCM notés du professeur (`test`, `exam`)
+
+Les QCM que le professeur propose après certains chapitres sont des chapitres à part (dossier `qNN`,
+`label` « Quiz N » ; l'examen final : dossier `exam`, `label` « Examen final »), placés dans `level.json`
+après le chapitre indiqué. Chacun a une seule partie et une seule activité (`test`, ou `exam` pour l'examen
+final, dont la réussite **valide le tome**). Une telle activité ne contient que des écrans `question` et `multi`.
+
+Règles propres à ces activités :
+- **Une seule tentative** par question : une question ratée ne revient pas.
+- **Les voyelles sont toujours affichées**, quel que soit le réglage (beaucoup de questions portent sur elles) ;
+  deux choix peuvent donc ne différer que par les harakat.
+- **Points** : chaque `question` / `multi` a `points` (1 par défaut, 1 à 20), ceux du professeur. La note est
+  `20 × points gagnés / points possibles` ; le quiz est **réussi à 12/20** (60 % des points, calcul entier).
+  `points` est refusé en dehors d'un `test` / `exam`.
+- Un `question` y accepte 2 à 12 choix (au lieu de 4).
+- Les phrases fautives en choix sont permises (le contrôle « démonstratif / genre » ne s'y applique pas).
+
+```json
+{
+  "id": "…#3", "type": "multi",
+  "prompt": { "fr": "Parmi ces lettres, lesquelles sont des signes du féminin ?" },
+  "choices": [ { "ar": "ي" }, { "ar": "ى" }, { "ar": "ن" }, { "ar": "ة" } ],
+  "answers": [1, 3], "points": 5, "explain": "…"
+}
+```
+- `multi` : 2 à 12 choix (`fr` ou `ar`), `answers` non vide, sans doublon, dans les bornes. Il est juste
+  **seulement si la sélection est exactement `answers`** (tout ou rien). `shuffle` comme pour `question`.
+- Le résultat est enregistré comme une activité ordinaire : `score` = points gagnés / points possibles, `passed`
+  = note ≥ 12/20 ; la meilleure note reste donc `score × 20`.
+
 ---
 
 ## 10. Audio
@@ -488,7 +522,10 @@ Conséquences :
 - `order` : toutes les `answers` utilisent exactement les mêmes étiquettes ; étiquettes et
   distracteurs différents même sans harakat (ou strictement identiques, donc interchangeables).
 - `typing` : `item` ou `answers` (pas les deux) ; `question` présent si et seulement si `ask` vaut `question`.
-- `question` : 2 à 4 choix différents même sans harakat, `answer` dans les bornes.
+- `question` : 2 à 4 choix différents même sans harakat, `answer` dans les bornes (dans un quiz noté : 2 à 12
+  choix différents, harakat comprises).
+- `multi` : 2 à 12 choix différents, `answers` non vide, sans doublon, dans les bornes ; `points` seulement dans un
+  quiz noté (`test`, `exam`), qui ne contient que des `question` et des `multi`.
 - `sort` : 2 ou 3 catégories et 3 à 8 cartes, toutes différentes ; chaque carte a un seul champ et
   une catégorie existante ; chaque catégorie a au moins une carte.
 - `spot` : 2 à 12 mots sans espace ; `answers` non vide, sans doublon, dans les bornes, et pas tous les mots.

@@ -1,0 +1,9 @@
+{
+  "id": "medine-t1.q01",
+  "number": 4,
+  "title": { "ar": "اِخْتِبَارٌ", "fr": "Teste-toi : chapitres 1 à 4" },
+  "label": "Quiz 1",
+  "description": "Le QCM du professeur sur les chapitres 1 à 4. Une seule tentative par question : il faut 12/20 pour le valider.",
+  "source": "QCM du professeur",
+  "sections": [ { "title": "Le QCM du professeur", "activities": ["test"] } ]
+}

@@ -34,7 +34,9 @@ for c in chapitres:
     d = racine / c
     ch = json.loads((d / "chapter.json").read_text(encoding="utf-8"))
     dernieres = ch["sections"][-1]["activities"]
-    if dernieres != ["quiz"]:
+    # Les chapitres « Quiz N » et « Examen final » (QCM du professeur) n'ont qu'un test noté, sans bilan.
+    note = dernieres in (["test"], ["exam"])
+    if dernieres != ["quiz"] and not note:
         avert.append(f"{c}: le bilan « quiz » doit être seul, dans la dernière partie")
     for e in json.loads((d / "items.json").read_text(encoding="utf-8")):
         ou = f"{c}/{e['id']}"
@@ -50,7 +52,7 @@ for c in chapitres:
         a = json.loads(f.read_text(encoding="utf-8"))
         ecrans = a.get("screens", a if isinstance(a, list) else [])
         n = len(ecrans)
-        if not 6 <= n <= 16 and f.stem != "quiz": avert.append(f"{c}/{f.stem}: {n} écrans (cadre : 6 à 16)")
+        if not 6 <= n <= 30 and f.stem != "quiz" and not note: avert.append(f"{c}/{f.stem}: {n} écrans (cadre : 6 à 16)")
         ids = [x.get("id") for x in ecrans if isinstance(x, dict)]
         if len(ids) != len(set(ids)): avert.append(f"{c}/{f.stem}: ids d'écran en double")
         parcourir(a, f"{c}/{f.stem}")

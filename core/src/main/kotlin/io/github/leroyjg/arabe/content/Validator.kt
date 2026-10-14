@@ -45,6 +45,9 @@ class Validator(
 
         private val allIds = mutableSetOf<String>()
         private val arabicTexts = mutableListOf<Pair<String, String>>()
+
+        /** Vrai pendant le contrôle d'un quiz noté : ses choix faux (phrases fautives) échappent aux contrôles globaux. */
+        private var inGradedActivity = false
         private lateinit var course: Course
         private lateinit var index: CourseIndex
 
@@ -77,7 +80,7 @@ class Validator(
                     }
                 }
             }
-            arabicTexts += where to text
+            if (!inGradedActivity) arabicTexts += where to text
         }
 
         /** Texte français, éventuellement avec `{ar|…}` et `**gras**`. */
@@ -157,7 +160,8 @@ class Validator(
                     .filterNot { it == "chapter" || it == "items" || it in codes }
                 if (unlisted.isNotEmpty()) err(w, "fichiers d'activité non listés : $unlisted")
             }
-            if (chapter.activities.lastOrNull()?.file?.type != ActivityType.QUIZ) {
+            val last = chapter.activities.lastOrNull()?.file?.type
+            if (last != ActivityType.QUIZ && last?.isGraded != true) {
                 warn(w, "la dernière activité n'est pas un quiz")
             }
             checkItems(chapter)
@@ -208,7 +212,14 @@ class Validator(
             f.icon?.let { if (it !in Icons.NAMES) err(w, "icône inconnue : $it") }
             if (f.screens.isEmpty()) err(w, "aucun écran")
             if (f.screens.none { it is Exercise }) warn(w, "aucun exercice")
+            if (f.type.isGraded) {
+                f.screens.filterNot { it is QuestionScreen || it is MultiScreen }.forEach {
+                    err(it.id, "un quiz noté ne contient que des écrans question ou multi")
+                }
+            }
+            inGradedActivity = f.type.isGraded
             for (screen in f.screens) checkScreen(activity, screen)
+            inGradedActivity = false
         }
 
         fun checkScreen(activity: Activity, screen: Screen) {
@@ -234,7 +245,8 @@ class Validator(
                     fr("$w.statement.fr", screen.statement.fr)
                     screen.statement.ar?.let { ar("$w.statement.ar", it) }
                 }
-                is QuestionScreen -> checkQuestion(w, screen)
+                is QuestionScreen -> checkQuestion(w, screen, activity.file.type)
+                is MultiScreen -> checkMulti(w, screen, activity.file.type)
                 is DialogueScreen -> checkDialogue(w, screen)
                 is SortScreen -> checkSort(w, screen, pos)
                 is SpotScreen -> checkSpot(w, screen)
@@ -427,23 +439,52 @@ class Validator(
             }
         }
 
-        fun checkQuestion(w: String, screen: QuestionScreen) {
-            txt("$w.prompt", screen.prompt)
-            val keys = screen.choices.mapIndexed { i, c -> txt("$w.choices[$i]", c) }
-            if (screen.choices.size !in 2..4) err(w, "il faut 2 à 4 choix")
-            if (keys.filterNotNull().toSet().size != keys.size) err(w, "choix en double (au moins sans harakat)")
+        fun checkQuestion(w: String, screen: QuestionScreen, type: ActivityType) {
+            val graded = type.isGraded
+            txt("$w.prompt", screen.prompt, graded)
+            val keys = screen.choices.mapIndexed { i, c -> txt("$w.choices[$i]", c, graded) }
+            if (screen.choices.size !in 2..(if (graded) MAX_GRADED_CHOICES else 4)) {
+                err(w, "il faut 2 à ${if (graded) MAX_GRADED_CHOICES else 4} choix")
+            }
+            if (keys.filterNotNull().toSet().size != keys.size) {
+                err(w, if (graded) "choix en double" else "choix en double (au moins sans harakat)")
+            }
             if (screen.answer !in screen.choices.indices) err(w, "answer hors bornes")
+            checkPoints(w, screen.points, graded)
         }
 
-        /** Texte d'un choix (fr ou ar) ; renvoie une clé de comparaison. */
-        fun txt(where: String, t: Txt): String? {
+        fun checkMulti(w: String, screen: MultiScreen, type: ActivityType) {
+            val graded = type.isGraded
+            txt("$w.prompt", screen.prompt, graded)
+            val keys = screen.choices.mapIndexed { i, c -> txt("$w.choices[$i]", c, graded) }
+            if (screen.choices.size !in 2..MAX_GRADED_CHOICES) err(w, "il faut 2 à $MAX_GRADED_CHOICES choix")
+            if (keys.filterNotNull().toSet().size != keys.size) {
+                err(w, if (graded) "choix en double" else "choix en double (au moins sans harakat)")
+            }
+            if (screen.answers.isEmpty()) err(w, "answers vide")
+            if (screen.answers.toSet().size != screen.answers.size) err(w, "answers en double")
+            if (screen.answers.any { it !in screen.choices.indices }) err(w, "answers hors bornes")
+            checkPoints(w, screen.points, graded)
+        }
+
+        /** Les points ne servent que dans un quiz noté. */
+        fun checkPoints(w: String, points: Int, graded: Boolean) {
+            if (points !in 1..MAX_POINTS) err(w, "points hors de 1..$MAX_POINTS")
+            if (!graded && points != 1) err(w, "points seulement dans un quiz noté (test ou exam)")
+        }
+
+        /**
+         * Texte d'un choix (fr ou ar) ; renvoie une clé de comparaison. Dans un quiz noté ([strict]),
+         * les voyelles sont toujours affichées : deux choix qui ne diffèrent que par elles sont permis.
+         */
+        fun txt(where: String, t: Txt, strict: Boolean = false): String? {
             if (listOfNotNull(t.fr, t.ar).size != 1) {
                 err(where, "il faut exactement un champ fr ou ar")
                 return null
             }
             return t.ar?.let {
                 ar(where, it)
-                "ar:" + letters(it)
+                "ar:" + (if (strict) ArabicScript.nfc(it) else letters(it))
             } ?: run {
                 fr(where, t.fr!!)
                 "fr:" + t.fr
@@ -565,6 +606,9 @@ class Validator(
     }
 
     private companion object {
+        /** Nombre maximal de choix d'une question de quiz noté (« coche tous les noms… »). */
+        const val MAX_GRADED_CHOICES = 12
+        const val MAX_POINTS = 20
         val CODE = Regex("[a-z0-9-]+")
         val ITEM_ID = Regex("[wp]:[a-z0-9-]+")
         val RATE = Regex("[+-]\\d{1,3}%")
@@ -584,6 +628,7 @@ class Validator(
             is TypingScreen -> "typing"
             is TrueFalseScreen -> "true_false"
             is QuestionScreen -> "question"
+            is MultiScreen -> "multi"
             is DialogueScreen -> "dialogue"
             is SortScreen -> "sort"
             is SpotScreen -> "spot"

@@ -1,0 +1,205 @@
+{
+  "id": "medine-t1.q08.test",
+  "type": "test",
+  "title": "QCM du professeur n°8",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t1.q08.test#1",
+      "type": "question",
+      "prompt": { "fr": "Pour mettre un nom au duel au nominatif, on ajoute à la fin du singulier…" },
+      "choices": [ { "ar": "◌َاتٌ" }, { "ar": "◌ُونَ" }, { "ar": "◌َانِ" } ],
+      "answer": 2,
+      "shuffle": false,
+      "explain": "{ar|كِتَابٌ} → {ar|كِتَابَانِ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#2",
+      "type": "question",
+      "prompt": { "fr": "Pour mettre un nom au duel à l'accusatif et au génitif, on ajoute à la fin du singulier…" },
+      "choices": [ { "ar": "◌َاتٌ" }, { "ar": "◌َيْنِ" }, { "ar": "◌ِينَ" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|الْكِتَابَانِ} (nominatif) → {ar|الْكِتَابَيْنِ} (accusatif et génitif).",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#3",
+      "type": "question",
+      "prompt": { "fr": "Quelles lettres marquent le cas du pluriel masculin régulier ?" },
+      "choices": [ { "fr": "{ar|ا} et {ar|ي}" }, { "fr": "{ar|ا} et {ar|ن}" }, { "fr": "{ar|و} et {ar|ي}" } ],
+      "answer": 2,
+      "shuffle": false,
+      "explain": "{ar|و} au nominatif, {ar|ي} à l'accusatif et au génitif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#4",
+      "type": "question",
+      "prompt": { "fr": "Comment se marque le cas du pluriel féminin régulier ?" },
+      "choices": [
+        { "fr": "par les lettres {ar|و} et {ar|ي}" },
+        { "fr": "par les lettres {ar|ا} et {ar|ي}" },
+        { "fr": "par des voyelles : la damma et la kasra" }
+      ],
+      "answer": 2,
+      "shuffle": false,
+      "explain": "Ici, pas de lettre : la damma au nominatif, la kasra à l'accusatif et au génitif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#5",
+      "type": "question",
+      "prompt": { "fr": "Quelles lettres marquent le cas du duel ?" },
+      "choices": [ { "fr": "{ar|و} et {ar|ي}" }, { "fr": "{ar|ا} et {ar|ي}" }, { "fr": "{ar|و} et {ar|ن}" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|ا} au nominatif, {ar|ي} à l'accusatif et au génitif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#6",
+      "type": "question",
+      "prompt": {
+        "fr": "Le {ar|ن} qui termine le pluriel masculin régulier ({ar|الْمُسْلِمُونَ}, {ar|الْمُسْلِمِينَ}) porte…"
+      },
+      "choices": [ { "fr": "une fatha" }, { "fr": "une kasra" }, { "fr": "une damma" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "Il porte toujours une fatha, quel que soit le cas.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#7",
+      "type": "question",
+      "prompt": { "fr": "Le {ar|ن} qui termine le duel ({ar|الْكِتَابَانِ}, {ar|الْكِتَابَيْنِ}) porte…" },
+      "choices": [ { "fr": "une fatha" }, { "fr": "une damma" }, { "fr": "une kasra" } ],
+      "answer": 2,
+      "shuffle": false,
+      "explain": "Il porte toujours une kasra, quel que soit le cas.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#8",
+      "type": "question",
+      "prompt": { "ar": "مُسْلِمَيْنِ" },
+      "choices": [ { "fr": "au pluriel" }, { "fr": "au duel" } ],
+      "answer": 1,
+      "shuffle": false,
+      "instruction": "Ce nom est-il au duel ou au pluriel ?",
+      "explain": "Le {ar|ي} précédé d'une fatha et suivi de {ar|نِ} (kasra) marque le duel : deux musulmans.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#9",
+      "type": "question",
+      "prompt": { "ar": "مُسْلِمُونَ" },
+      "choices": [ { "fr": "au pluriel" }, { "fr": "au duel" } ],
+      "answer": 0,
+      "shuffle": false,
+      "instruction": "Ce nom est-il au duel ou au pluriel ?",
+      "explain": "Le {ar|ونَ} final marque le pluriel masculin régulier.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#10",
+      "type": "question",
+      "prompt": { "ar": "طَالِبَانِ" },
+      "choices": [ { "fr": "au pluriel" }, { "fr": "au duel" } ],
+      "answer": 1,
+      "shuffle": false,
+      "instruction": "Ce nom est-il au duel ou au pluriel ?",
+      "explain": "Le {ar|انِ} final marque le duel : deux étudiants.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#11",
+      "type": "question",
+      "prompt": { "ar": "مُسْلِمِينَ" },
+      "choices": [ { "fr": "au pluriel" }, { "fr": "au duel" } ],
+      "answer": 0,
+      "shuffle": false,
+      "instruction": "Ce nom est-il au duel ou au pluriel ?",
+      "explain": "Le {ar|◌ِينَ} final (kasra, puis fatha sur le nūn) marque le pluriel masculin régulier à l'accusatif ou au génitif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#12",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de personnes de {ar|ذٰلِكَ} ?" },
+      "choices": [ { "ar": "هَؤُلَاءِ" }, { "ar": "أُولَئِكَ" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Loin (le {ar|كَ} final) : {ar|أُولَئِكَ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#13",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de personnes de {ar|هٰذِهِ} ?" },
+      "choices": [ { "ar": "هَؤُلَاءِ" }, { "ar": "أُولَئِكَ" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "Proche : {ar|هَؤُلَاءِ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#14",
+      "type": "question",
+      "prompt": { "fr": "Quel pluriel de l'adjectif {ar|رَاسٍ} (solide, ancré) convient à {ar|جِبَالٌ} (des montagnes) ?" },
+      "choices": [ { "ar": "رَاسُونَ" }, { "ar": "رَاسِيَاتٌ" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Pour un pluriel de choses, l'adjectif se met au féminin : {ar|جِبَالٌ رَاسِيَاتٌ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#15",
+      "type": "question",
+      "prompt": { "fr": "Quel pluriel de l'adjectif {ar|مَعْدُودٌ} (compté) convient à {ar|أَيَّامٌ} (des jours) ?" },
+      "choices": [ { "ar": "مَعْدُودُونَ" }, { "ar": "مَعْدُودَاتٌ" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Pour un pluriel de choses, l'adjectif se met au féminin : {ar|أَيَّامٌ مَعْدُودَاتٌ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#16",
+      "type": "question",
+      "prompt": { "fr": "Quel est le duel (nominatif) de {ar|طَالِبَةٌ} ?" },
+      "choices": [ { "ar": "طَالِبَانِ" }, { "ar": "طَالِبَتَانِ" }, { "ar": "طُلَّابٌ" } ],
+      "answer": 1,
+      "explain": "Le {ar|ة} devient {ar|ت} devant {ar|انِ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#17",
+      "type": "question",
+      "prompt": { "fr": "Quel est le duel (nominatif) de {ar|هٰذِهِ} ?" },
+      "choices": [ { "ar": "ذَانِكَ" }, { "ar": "هٰذَانِ" }, { "ar": "هَاتَانِ" } ],
+      "answer": 2,
+      "explain": "Le duel féminin proche est {ar|هَاتَانِ}. {ar|هٰذَانِ} est son masculin.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#18",
+      "type": "question",
+      "prompt": { "fr": "Quel est le duel (nominatif) de {ar|تِلْكَ} ?" },
+      "choices": [ { "ar": "ذَانِكَ" }, { "ar": "تَانِكَ" }, { "ar": "هَؤُلَاءِ" } ],
+      "answer": 1,
+      "explain": "Le duel féminin éloigné est {ar|تَانِكَ}. {ar|ذَانِكَ} est son masculin.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q08.test#19",
+      "type": "question",
+      "prompt": { "fr": "La terminaison des démonstratifs du duel suit la même règle que celle des autres noms au duel." },
+      "choices": [ { "fr": "vrai" }, { "fr": "faux" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "Oui : {ar|هٰذَانِ} au nominatif, {ar|هٰذَيْنِ} à l'accusatif et au génitif.",
+      "points": 5
+    }
+  ]
+}

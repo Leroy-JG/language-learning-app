@@ -24,8 +24,9 @@ enum class Outcome {
 /**
  * Déroulé d'une activité, à la Busuu : les écrans dans l'ordre, chaque exercice raté revient en fin
  * d'activité jusqu'à sa réussite ; le score compte les réussites du premier coup.
+ * Dans un quiz noté ([retryMissed] faux), une question ratée ne revient pas : une seule tentative.
  */
-class ActivitySession(val screens: List<Screen>) {
+class ActivitySession(val screens: List<Screen>, private val retryMissed: Boolean = true) {
     private val queue = ArrayDeque<Int>(screens.indices.toList())
     private val missed = mutableSetOf<String>()
 
@@ -60,7 +61,7 @@ class ActivitySession(val screens: List<Screen>) {
         when (outcome) {
             Outcome.WRONG -> {
                 missed += screen.id
-                queue.addLast(index)
+                if (retryMissed) queue.addLast(index) else completed++
             }
             Outcome.COMPLETED_WITH_MISTAKES -> {
                 missed += screen.id
