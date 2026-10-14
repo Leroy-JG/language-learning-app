@@ -60,7 +60,7 @@
       "fr": "Combien de questions y a-t-il dans l'examen ?",
       "gaps": [ { "answers": ["سُؤَالًا"] } ],
       "options": ["سُؤَالًا", "دَرْسًا", "يَوْمًا"],
-      "explain": "Après {ar|كَمْ}, le nom est au singulier et à l'accusatif : {ar|سُؤَالًا}."
+      "explain": "Après {ar|كَمْ}, le nom est en général au singulier et à l'accusatif : {ar|سُؤَالًا}."
     },
     {
       "id": "medine-t1.r02.vocab-7#11",
@@ -80,7 +80,10 @@
       "id": "medine-t1.r02.vocab-7#13",
       "type": "order",
       "fr": "L'examen est demain, si Allah le veut.",
-      "answers": [["الِاخْتِبَارُ", "غَدًا", "إِنْ", "شَاءَ", "اللَّهُ"]],
+      "answers": [
+        ["الِاخْتِبَارُ", "غَدًا", "إِنْ", "شَاءَ", "اللَّهُ"],
+        ["غَدًا", "الِاخْتِبَارُ", "إِنْ", "شَاءَ", "اللَّهُ"]
+      ],
       "punctuation": "."
     },
     { "id": "medine-t1.r02.vocab-7#14", "type": "typing", "ask": "fr", "fr": "demain", "answers": ["غَدًا"] },

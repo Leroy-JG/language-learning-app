@@ -48,7 +48,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Les pluriels de forme « longue » ({ar|مَنَابِرُ}) et ceux de la forme {ar|فُعَلَاءُ} ({ar|خُطَبَاءُ}) n'ont pas de tanwin ; les autres l'ont ({ar|صُفُوفٌ}, {ar|قُرَّاءٌ}, {ar|أَئِمَّةٌ})."
+          "text": "Dans ce tableau, {ar|مَنَابِرُ} (forme « longue ») et {ar|خُطَبَاءُ} (forme {ar|فُعَلَاءُ}) n'ont pas de tanwin ; {ar|صُفُوفٌ}, {ar|خُطَبٌ}, {ar|قُرَّاءٌ} et {ar|أَئِمَّةٌ} en ont un."
         }
       ]
     },

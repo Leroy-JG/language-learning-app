@@ -83,23 +83,23 @@
       "fr": "Combien d'étudiants y a-t-il dans la classe ?",
       "gaps": [ { "answers": ["كَمْ"] } ],
       "options": ["كَمْ", "مَتَى", "كَيْفَ"],
-      "explain": "On demande un nombre : {ar|كَمْ}, suivi d'un nom au singulier et à l'accusatif."
+      "explain": "On demande un nombre : {ar|كَمْ}, suivi en général d'un nom au singulier et à l'accusatif."
     },
     {
       "id": "medine-t1.r02.revue-3#7",
-      "type": "fill_gap",
-      "sentence": "{0} حَالُكَ؟",
-      "fr": "Comment vas-tu ?",
-      "gaps": [ { "answers": ["كَيْفَ"] } ],
-      "options": ["كَيْفَ", "أَيْنَ", "مَا"]
-    },
-    {
-      "id": "medine-t1.r02.revue-3#8",
       "type": "question",
       "prompt": { "fr": "Quel nom interrogatif veut dire « quel… ? »" },
       "choices": [ { "ar": "أَيُّ" }, { "ar": "كَمْ" }, { "ar": "مَتَى" } ],
       "answer": 0,
       "explain": "{ar|أَيُّ} veut dire « quel… ? » : {ar|أَيُّ دَرْسٍ؟} (« quelle leçon ? »)."
+    },
+    {
+      "id": "medine-t1.r02.revue-3#8",
+      "type": "fill_gap",
+      "sentence": "{0} حَالُكَ؟",
+      "fr": "Comment vas-tu ?",
+      "gaps": [ { "answers": ["كَيْفَ"] } ],
+      "options": ["كَيْفَ", "أَيْنَ", "مَنْ"]
     },
     {
       "id": "medine-t1.r02.revue-3#9",

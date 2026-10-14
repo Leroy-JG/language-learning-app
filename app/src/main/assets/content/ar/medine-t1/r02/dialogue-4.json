@@ -77,6 +77,11 @@
             ],
             ["{ar|هَاتِ}", "donne !", "chapitre 23"],
             [
+              "{ar|رَأْيُكُمْ}",
+              "votre avis",
+              "{ar|رَأْيٌ} : une opinion ; le {ar|كُمْ} (« vous ») est ici un « vous » de politesse, adressé à un seul professeur"
+            ],
+            [
               "{ar|عَشَرَةُ أَسْئِلَةٍ}",
               "dix questions",
               "{ar|سُؤَالٌ} est masculin : le nombre garde le {ar|ة} (chapitre 19)"
@@ -84,7 +89,10 @@
             ["{ar|اِفْتَحُوا}", "ouvrez", "l'impératif pluriel du verbe {ar|فَتَحَ}"]
           ]
         },
-        { "type": "note", "text": "Tu n'as pas à les apprendre maintenant : tu les étudieras plus tard." }
+        {
+          "type": "note",
+          "text": "Les formes nouvelles de ce tableau ne sont exigées dans aucun exercice : tu les étudieras plus tard."
+        }
       ]
     },
     {
@@ -174,7 +182,7 @@
       "type": "typing",
       "ask": "question",
       "question": "مَتَى الِاخْتِبَارُ؟",
-      "answers": ["غَدًا إِنْ شَاءَ اللَّهُ.", "غَدًا."],
+      "answers": ["غَدًا إِنْ شَاءَ اللَّهُ.", "غَدًا.", "الِاخْتِبَارُ غَدًا."],
       "fr": "Demain, si Allah le veut.",
       "instruction": "Réponds : demain.",
       "context": { "dialogue": "medine-t1.r02.dialogue-4#1" }

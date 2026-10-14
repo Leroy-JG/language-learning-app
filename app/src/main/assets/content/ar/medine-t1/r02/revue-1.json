@@ -14,8 +14,12 @@
           "type": "table",
           "header": ["Nom", "Comment le reconnaître", "Exemple"],
           "rows": [
-            ["indéfini", "il porte le tanwin", "{ar|كِتَابٌ}"],
-            ["défini", "il a l'article {ar|الْ}, ou c'est l'une des sortes de la page suivante", "{ar|الْكِتَابُ}"]
+            [
+              "indéfini",
+              "il porte normalement le tanwin (sauf les noms privés de tanwin, comme {ar|مَسَاجِدُ})",
+              "{ar|كِتَابٌ}"
+            ],
+            ["défini", "il a l'article {ar|الْ}, ou c'est l'une des sortes de l'écran suivant", "{ar|الْكِتَابُ}"]
           ]
         },
         {
@@ -40,8 +44,8 @@
           "rows": [
             ["un nom propre", "{ar|الْعَلَمُ}", "{ar|زَيْنَبُ}, {ar|مَكَّةُ}, {ar|مُحَمَّدٌ}"],
             ["un pronom", "{ar|الضَّمِيرُ}", "{ar|هُوَ}, {ar|أَنَا}"],
-            ["un nom démonstratif", "{ar|اسْمُ الْإِشَارَةِ}", "{ar|هٰذَا}, {ar|تِلْكَ}"],
-            ["un nom avec l'article", "{ar|الْمُعَرَّفُ بِالْ}", "{ar|الْبَيْتُ}, {ar|الْمَدْرَسَةُ}"]
+            ["un nom démonstratif", "{ar|اِسْمُ الْإِشَارَةِ}", "{ar|هٰذَا}, {ar|تِلْكَ}"],
+            ["un nom avec l'article", "{ar|الْمُعَرَّفُ بِأَلْ}", "{ar|الْبَيْتُ}, {ar|الْمَدْرَسَةُ}"]
           ]
         },
         {
@@ -86,7 +90,7 @@
         { "ar": "أَنَا", "category": 0 }
       ],
       "instruction": "Ce nom est-il défini ou indéfini ?",
-      "explain": "{ar|زَيْدٌ} porte un tanwin, mais un nom propre est toujours défini. Un nom indéfini a le tanwin et rien d'autre ({ar|كِتَابٌ}, {ar|بَيْتٌ}, {ar|مَدْرَسَةٌ})."
+      "explain": "{ar|زَيْدٌ} porte un tanwin, mais un nom propre est toujours défini. Un nom indéfini ordinaire a le tanwin et rien d'autre ({ar|كِتَابٌ}, {ar|بَيْتٌ}, {ar|مَدْرَسَةٌ})."
     },
     {
       "id": "medine-t1.r02.revue-1#6",
@@ -129,7 +133,7 @@
       "id": "medine-t1.r02.revue-1#10",
       "type": "order",
       "fr": "La voiture de Zaynab est ici.",
-      "answers": [["سَيَّارَةُ", "زَيْنَبَ", "هُنَا"]],
+      "answers": [["سَيَّارَةُ", "زَيْنَبَ", "هُنَا"], ["هُنَا", "سَيَّارَةُ", "زَيْنَبَ"]],
       "punctuation": "."
     },
     { "id": "medine-t1.r02.revue-1#11", "type": "typing", "ask": "fr", "fr": "un livre", "answers": ["كِتَابٌ"] },

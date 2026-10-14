@@ -87,6 +87,11 @@
           "type": "note",
           "tone": "info",
           "text": "Pour les marques de base, tu as : {ar|زَيْدٌ فِي الْفَصْلِ} (damma), {ar|لَقِيَ زَيْدٌ يَاسِرًا} (fatha), {ar|فِي الْفَصْلِ طَالِبٌ} (kasra sur {ar|الْفَصْلِ})."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le nom qui reçoit l'action du verbe (ce qu'on aime, ce qu'on rencontre) est l'**objet** du verbe : il est à l'accusatif, comme au chapitre 17."
         }
       ]
     },

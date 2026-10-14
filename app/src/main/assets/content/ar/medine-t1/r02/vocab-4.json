@@ -35,13 +35,13 @@
           "type": "table",
           "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
           "rows": [
-            ["trouver", "{ar|وَجَدَ}", "{ar|يَجِدُ}", "{ar|جِدْ}", "{ar|وَجْدٌ}"],
+            ["trouver", "{ar|وَجَدَ}", "{ar|يَجِدُ}", "{ar|جِدْ}", "{ar|وُجُودٌ}"],
             ["se diriger vers", "{ar|اِسْتَقْبَلَ}", "{ar|يَسْتَقْبِلُ}", "{ar|اِسْتَقْبِلْ}", "{ar|اِسْتِقْبَالٌ}"]
           ]
         },
         {
           "type": "note",
-          "text": "Le professeur donne {ar|وَجْدٌ} comme nom d'action de {ar|وَجَدَ} ; on dit aussi {ar|وُجُودٌ} et {ar|وِجْدَانٌ}."
+          "text": "Le professeur donne {ar|وَجْدٌ} comme nom d'action de {ar|وَجَدَ}, mais ce mot veut surtout dire « passion, chagrin ». Pour « trouver », on dit {ar|وُجُودٌ} ou {ar|وِجْدَانٌ}."
         }
       ]
     },

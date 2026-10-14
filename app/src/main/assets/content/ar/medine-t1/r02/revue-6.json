@@ -76,7 +76,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le **nūn** final ne change jamais et ne marque pas le cas : le cas se lit sur la lettre qui précède."
+          "text": "Le **nūn** final ne marque pas le cas : le cas se lit sur la lettre qui précède. Le pluriel masculin régulier désigne des hommes (ou un groupe mixte), et son {ar|ن} tombe, comme celui du duel, quand le mot est premier terme d'une annexion : {ar|مُسْلِمُو الْمَدِينَةِ}."
         },
         {
           "type": "table",
@@ -116,7 +116,7 @@
       "type": "true_false",
       "statement": { "fr": "Le {ar|ن} final du duel est la marque du cas." },
       "answer": false,
-      "explain": "Le {ar|ن} garde toujours sa kasra. La marque du cas est la lettre qui le précède : {ar|ا} au nominatif, {ar|ي} sinon."
+      "explain": "Le {ar|ن} du duel porte toujours une kasra, quel que soit le cas : ce n'est pas lui qui marque le cas. La marque du cas est la lettre qui le précède : {ar|ا} au nominatif, {ar|ي} sinon."
     },
     {
       "id": "medine-t1.r02.revue-6#10",

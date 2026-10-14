@@ -57,7 +57,7 @@
           "header": ["En arabe", "Sens"],
           "rows": [
             ["{ar|صَلَاةُ الْجَمَاعَةِ}", "la prière en groupe"],
-            ["{ar|الصَّفُّ الْأَوَّلُ}", "le premier rang"],
+            ["{ar|الصَّفُّ الْأَوَّلُ}", "le premier rang (nom + adjectif)"],
             ["{ar|تَحِيَّةُ الْمَسْجِدِ}", "les deux rakʿas que l'on prie en entrant dans la mosquée"],
             ["{ar|خُطْبَةُ الْجُمُعَةِ}", "le sermon du vendredi"]
           ]
@@ -65,7 +65,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Ce sont des annexions : le premier terme n'a ni article ni tanwin, le second est au génitif (chapitre 5)."
+          "text": "Trois de ces groupes sont des annexions : le premier terme n'a ni article ni tanwin, le second est au génitif (chapitre 5). {ar|الصَّفُّ الْأَوَّلُ} est un nom suivi de son adjectif : les deux mots ont l'article."
         }
       ]
     },
@@ -76,7 +76,7 @@
       "fr": "Le premier rang est long.",
       "gaps": [ { "answers": ["الصَّفُّ"] } ],
       "options": ["الصَّفُّ", "الْجَمَاعَةُ", "الْخُطْبَةُ"],
-      "explain": "{ar|أَوَّلُ} est masculin : il suit un nom masculin, {ar|الصَّفُّ}."
+      "explain": "{ar|الصَّفُّ الْأَوَّلُ} : le premier rang. {ar|أَوَّلُ} est masculin et s'accorde avec {ar|الصَّفُّ} ; les autres choix sont des noms féminins."
     },
     {
       "id": "medine-t1.r02.vocab-1#12",

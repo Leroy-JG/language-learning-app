@@ -24,7 +24,7 @@
         {
           "speaker": "A",
           "ar": "قَامَ الْخَطِيبُ لِخُطْبَتِهِ فَحَمِدَ اللَّهَ وَصَلَّى عَلَى النَّبِيِّ وَخَطَبَ خُطْبَتَيْنِ خَفِيفَتَيْنِ.",
-          "fr": "Le prédicateur s'est levé pour son sermon ; il a loué Allah, a invoqué la paix sur le Prophète et a prononcé deux sermons légers."
+          "fr": "Le prédicateur s'est levé pour son sermon ; il a loué Allah, a invoqué la bénédiction d'Allah sur le Prophète et a prononcé deux sermons légers."
         },
         {
           "speaker": "A",
@@ -79,12 +79,17 @@
               "un verbe au passif (« a été… ») ; le {ar|تْ} du féminin prend la kasra devant l'article"
             ],
             ["{ar|صَلَّى بِالنَّاسِ}", "il a dirigé les gens dans la prière", "{ar|بِ} : préposition vue plus tard"],
-            ["{ar|رَكْعَتَيْنِ}", "deux rakʿas", "le duel à l'accusatif : {ar|◌َيْنِ}"]
+            ["{ar|رَكْعَتَيْنِ}", "deux rakʿas", "le duel à l'accusatif : {ar|◌َيْنِ}"],
+            [
+              "{ar|الْحَاضِرُونَ}",
+              "les personnes présentes",
+              "l'adjectif {ar|حَاضِرٌ} employé comme un nom : « l'assistance »"
+            ]
           ]
         },
         {
           "type": "note",
-          "text": "Les deux sermons sont dits « légers » : on comprend qu'ils sont brefs. Tu n'as pas à les apprendre maintenant : tu les étudieras plus tard."
+          "text": "Les deux sermons sont dits « légers » : on comprend qu'ils sont brefs. Les formes nouvelles de ce tableau ne sont exigées dans aucun exercice : tu les étudieras plus tard."
         }
       ]
     },

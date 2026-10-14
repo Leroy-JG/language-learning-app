@@ -64,7 +64,10 @@
             ["{ar|يَنْتَظِرُ}", "il attend", "le présent du verbe {ar|اِنْتَظَرَ} (chapitre 17)"]
           ]
         },
-        { "type": "note", "text": "Tu n'as pas à les apprendre maintenant : tu les étudieras plus tard." }
+        {
+          "type": "note",
+          "text": "Les formes nouvelles de ce tableau ne sont exigées dans aucun exercice : tu les étudieras plus tard."
+        }
       ]
     },
     {
@@ -107,7 +110,7 @@
       "gaps": [ { "answers": ["الصَّفِّ"] } ],
       "options": ["الصَّفِّ", "الْمِنْبَرِ", "الْمَسْجِدِ"],
       "context": { "dialogue": "medine-t1.r02.dialogue-1#1" },
-      "explain": "{ar|الْأَوَّلِ} est masculin : le nom est {ar|الصَّفِّ}."
+      "explain": "Le texte dit que Zayd s'est assis au premier rang : {ar|الصَّفِّ الْأَوَّلِ}."
     },
     {
       "id": "medine-t1.r02.dialogue-1#8",

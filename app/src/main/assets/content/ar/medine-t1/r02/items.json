@@ -25,7 +25,7 @@
     "translit": "jamāʿatun",
     "plural": "جَمَاعَاتٌ",
     "gender": "f",
-    "note": "La prière en groupe, à la mosquée, se dit {ar|صَلَاةُ الْجَمَاعَةِ}.",
+    "note": "La prière en groupe, à la mosquée, se dit {ar|صَلَاةُ الْجَمَاعَةِ}. Même racine que {ar|الْجُمُعَةُ} (le vendredi, jour où l'on se réunit) et {ar|الْجَمْعُ} (le pluriel).",
     "example": { "ar": "الْجَمَاعَةُ فِي الْمَسْجِدِ.", "fr": "Le groupe est dans la mosquée." }
   },
   {
@@ -101,7 +101,7 @@
     "translit": "muṣallin",
     "plural": "مُصَلُّونَ",
     "gender": "m",
-    "note": "Même forme que {ar|مُدَرِّسٌ} (celui qui fait l'action) : celui qui fait la prière ({ar|صَلَاةٌ}). Il se termine par un {ar|ي} : avec le tanwin, le {ar|ي} disparaît ({ar|مُصَلٍّ}) ; avec l'article, il revient ({ar|الْمُصَلِّي}), comme {ar|غَالٍ} au chapitre 17.",
+    "note": "Même forme que {ar|مُدَرِّسٌ} (celui qui fait l'action) : celui qui fait la prière ({ar|صَلَاةٌ}). Il se termine par un {ar|ي} : au nominatif et au génitif, avec le tanwin, le {ar|ي} disparaît ({ar|مُصَلٍّ}) ; avec l'article, il revient ({ar|الْمُصَلِّي}), comme {ar|غَالٍ} au chapitre 17.",
     "example": { "ar": "الْمُصَلُّونَ فِي الْمَسْجِدِ.", "fr": "Les fidèles sont dans la mosquée." }
   },
   {
@@ -141,7 +141,7 @@
     "ar": "تَقْوَى",
     "fr": "la piété (la crainte d'Allah)",
     "translit": "taqwā",
-    "note": "Nom maqṣūr (chapitre 8) : il se termine par {ar|ى}, donc aucune voyelle finale ne se voit. {ar|تَقْوَى اللَّهِ} : la crainte d'Allah, la piété.",
+    "note": "Nom maqṣūr (chapitre 8) : il se termine par {ar|ى}, donc aucune voyelle finale ne se voit. {ar|تَقْوَى اللَّهِ} : la crainte d'Allah, la piété. Le mot vient d'une racine qui veut dire « se protéger ».",
     "example": { "ar": "تَقْوَى اللَّهِ.", "fr": "La crainte d'Allah." }
   },
   {
@@ -246,7 +246,7 @@
     "ar": "صَلَّى",
     "fr": "il a prié (prier)",
     "translit": "ṣallā",
-    "note": "Même racine que {ar|صَلَاةٌ}. {ar|صَلَّى عَلَى النَّبِيِّ} : il a invoqué la paix et la bénédiction sur le Prophète.",
+    "note": "Même racine que {ar|صَلَاةٌ}. {ar|صَلَّى عَلَى النَّبِيِّ} : il a invoqué la bénédiction d'Allah sur le Prophète (voir aussi {ar|سَلَّمَ}, « il a salué »).",
     "example": { "ar": "صَلَّى زَيْدٌ فِي الْمَسْجِدِ.", "fr": "Zayd a prié dans la mosquée." }
   },
   {
@@ -335,7 +335,7 @@
     "ar": "مِصْرُ",
     "fr": "l'Égypte",
     "translit": "miṣru",
-    "note": "Nom de pays sans tanwin, comme {ar|مَكَّةُ} (chapitre 4) : après une préposition, il prend la fatha ({ar|مِنْ مِصْرَ}).",
+    "note": "Nom de pays, d'ordinaire sans tanwin comme {ar|مَكَّةُ} (chapitre 4) : après une préposition, il prend la fatha ({ar|مِنْ مِصْرَ}). Le Coran dit {ar|اُدْخُلُوا مِصْرَ} (12:99).",
     "example": { "ar": "أَنَا مِنْ مِصْرَ.", "fr": "Je viens d'Égypte." }
   },
   {
@@ -409,10 +409,10 @@
     "id": "w:dhakara",
     "kind": "word",
     "ar": "ذَكَرَ",
-    "fr": "il s'est rappelé (se rappeler, mentionner)",
+    "fr": "il a mentionné (mentionner, se rappeler)",
     "translit": "dhakara",
-    "note": "{ar|ذَكَرَ اللَّهَ} : il a invoqué Allah, il l'a mentionné, il s'est souvenu de lui (c'est le {ar|ذِكْرٌ}).",
-    "example": { "ar": "ذَكَرَ زَيْدٌ اللَّهَ.", "fr": "Zayd a invoqué Allah." }
+    "note": "{ar|ذَكَرَ اللَّهَ} : il a mentionné Allah, il s'est souvenu de lui, il l'a invoqué : c'est le {ar|ذِكْرٌ}.",
+    "example": { "ar": "ذَكَرَ زَيْدٌ اللَّهَ.", "fr": "Zayd a mentionné Allah." }
   },
   {
     "id": "w:tala",
@@ -420,7 +420,7 @@
     "ar": "تَلَا",
     "fr": "il a récité (réciter le Coran)",
     "translit": "talā",
-    "note": "On l'emploie surtout pour la récitation du Coran ({ar|تِلَاوَةٌ}).",
+    "note": "On l'emploie surtout pour la récitation du Coran ({ar|تِلَاوَةٌ}). Le même verbe veut aussi dire « suivre ».",
     "example": { "ar": "تَلَا زَيْدٌ الْقُرْآنَ.", "fr": "Zayd a récité le Coran." }
   },
   {
@@ -447,7 +447,7 @@
     "ar": "نَظَّفَ",
     "fr": "il a nettoyé (nettoyer)",
     "translit": "naẓẓafa",
-    "note": "{ar|نَظِيفٌ} veut dire « propre » : {ar|نَظَّفَ} veut dire « rendre propre ». Le professeur le traduit aussi « ranger ».",
+    "note": "{ar|نَظِيفٌ} veut dire « propre » : {ar|نَظَّفَ} veut dire « rendre propre », donc « nettoyer ». Le professeur le traduit « ranger ».",
     "example": { "ar": "نَظَّفَ زَيْدٌ الْغُرْفَةَ.", "fr": "Zayd a nettoyé la chambre." }
   },
   {

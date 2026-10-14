@@ -24,7 +24,7 @@
         {
           "speaker": "A",
           "ar": "ثُمَّ يَذْهَبُ إِلَى الْمَسْجِدِ فَيُصَلِّي مَعَ الْجَمَاعَةِ.",
-          "fr": "Puis il va à la mosquée et prie avec le groupe."
+          "fr": "Puis il va à la mosquée et prie en groupe."
         },
         {
           "speaker": "A",
@@ -50,7 +50,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le texte décrit ce que Zayd fait **chaque jour** : les verbes sont au présent. Le {ar|يَ} au début veut dire « il »."
+          "text": "Le texte décrit ce que Zayd fait **chaque jour** : les verbes sont au présent. Le {ar|ي} au début veut dire « il »."
         },
         {
           "type": "table",
@@ -62,7 +62,7 @@
             ["{ar|ذَهَبَ} (il est allé)", "{ar|يَذْهَبُ}"],
             ["{ar|صَلَّى} (il a prié)", "{ar|يُصَلِّي}"],
             ["{ar|جَلَسَ} (il s'est assis)", "{ar|يَجْلِسُ}"],
-            ["{ar|ذَكَرَ} (il a invoqué)", "{ar|يَذْكُرُ}"],
+            ["{ar|ذَكَرَ} (il a mentionné)", "{ar|يَذْكُرُ}"],
             ["{ar|تَلَا} (il a récité)", "{ar|يَتْلُو}"],
             ["{ar|رَجَعَ} (il est revenu)", "{ar|يَرْجِعُ}"],
             ["{ar|نَظَّفَ} (il a nettoyé)", "{ar|يُنَظِّفُ}"],
@@ -71,7 +71,7 @@
         },
         {
           "type": "note",
-          "text": "{ar|تَطْلُعُ} est le présent de {ar|طَلَعَ} : avec {ar|حَتَّى}, la fin change ({ar|تَطْلُعَ}) : tu l'étudieras plus tard."
+          "text": "{ar|تَطْلُعُ} est le présent de {ar|طَلَعَ} : il commence par {ar|تَ} (« elle ») parce que {ar|الشَّمْسُ} est un nom féminin. Avec {ar|حَتَّى}, la fin change ({ar|تَطْلُعَ}) : tu l'étudieras plus tard."
         }
       ]
     },
@@ -99,7 +99,10 @@
             ["{ar|الْغَدَاءَ}", "le repas", "{ar|غَدَاءٌ} : le repas du matin ou de midi, selon les pays"]
           ]
         },
-        { "type": "note", "text": "Tu n'as pas à les apprendre maintenant : tu les étudieras plus tard." }
+        {
+          "type": "note",
+          "text": "Les formes nouvelles de ce tableau ne sont exigées dans aucun exercice : tu les étudieras plus tard."
+        }
       ]
     },
     {
@@ -124,7 +127,7 @@
       "statement": { "fr": "Zayd prie la prière de l'aube seul, à la maison." },
       "answer": false,
       "context": { "dialogue": "medine-t1.r02.dialogue-5#1" },
-      "explain": "Il va à la mosquée et prie {ar|مَعَ الْجَمَاعَةِ}, avec le groupe."
+      "explain": "Il va à la mosquée et prie {ar|مَعَ الْجَمَاعَةِ}, en groupe."
     },
     {
       "id": "medine-t1.r02.dialogue-5#7",
@@ -140,7 +143,7 @@
       "categories": [ { "fr": "avant" }, { "fr": "après" } ],
       "cards": [
         { "fr": "il fait ses ablutions", "category": 0 },
-        { "fr": "il prie avec le groupe", "category": 0 },
+        { "fr": "il prie en groupe", "category": 0 },
         { "fr": "il récite le Coran", "category": 0 },
         { "fr": "il prie la prière de la matinée", "category": 1 },
         { "fr": "il prend son repas", "category": 1 },

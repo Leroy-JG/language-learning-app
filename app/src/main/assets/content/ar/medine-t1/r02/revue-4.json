@@ -26,7 +26,7 @@
             ["vous (femmes)", "{ar|أَنْتُنَّ}", "{ar|كُنَّ}"],
             ["il / son (à lui)", "{ar|هُوَ}", "{ar|هُ}"],
             ["elle / son (à elle)", "{ar|هِيَ}", "{ar|هَا}"],
-            ["eux deux", "{ar|هُمَا}", "{ar|هُمَا}"],
+            ["eux deux, elles deux", "{ar|هُمَا}", "{ar|هُمَا}"],
             ["ils / leur", "{ar|هُمْ}", "{ar|هُمْ}"],
             ["elles / leur", "{ar|هُنَّ}", "{ar|هُنَّ}"]
           ]
@@ -140,10 +140,10 @@
       "id": "medine-t1.r02.revue-4#11",
       "type": "true_false",
       "statement": {
-        "fr": "Dans {ar|فِيهِ}, le {ar|هِ} prend une kasra parce que la lettre qui précède porte une kasra ou un {ar|ي}."
+        "fr": "Dans {ar|فِيهِ}, le {ar|هِ} prend une kasra parce qu'il est précédé d'une kasra ou d'un {ar|ي} sans voyelle."
       },
       "answer": true,
-      "explain": "Après une kasra ou un {ar|ي}, {ar|هُ} devient {ar|هِ}. Après un sukūn ou une fatha, il garde la damma : {ar|مِنْهُ}, {ar|لَهُ}."
+      "explain": "Après une kasra ou un {ar|ي} sans voyelle, {ar|هُ} devient {ar|هِ}. Après une fatha ou une autre lettre sans voyelle, il garde la damma : {ar|لَهُ}, {ar|مِنْهُ}."
     },
     {
       "id": "medine-t1.r02.revue-4#12",

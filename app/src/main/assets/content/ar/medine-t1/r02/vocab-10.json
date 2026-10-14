@@ -1,7 +1,7 @@
 {
   "id": "medine-t1.r02.vocab-10",
   "type": "vocabulary",
-  "title": "Dormir, invoquer, réciter, se lever",
+  "title": "Dormir, mentionner, réciter, apparaître",
   "icon": "sun",
   "screens": [
     { "id": "medine-t1.r02.vocab-10#1", "type": "present", "item": "w:nama" },
@@ -29,14 +29,14 @@
           "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
           "rows": [
             ["dormir", "{ar|نَامَ}", "{ar|يَنَامُ}", "{ar|نَمْ}", "{ar|نَوْمٌ}"],
-            ["se rappeler", "{ar|ذَكَرَ}", "{ar|يَذْكُرُ}", "{ar|اُذْكُرْ}", "{ar|ذِكْرٌ}"],
+            ["mentionner", "{ar|ذَكَرَ}", "{ar|يَذْكُرُ}", "{ar|اُذْكُرْ}", "{ar|ذِكْرٌ}"],
             ["réciter le Coran", "{ar|تَلَا}", "{ar|يَتْلُو}", "{ar|اُتْلُ}", "{ar|تِلَاوَةٌ}"],
             ["apparaître", "{ar|طَلَعَ}", "{ar|يَطْلُعُ}", "{ar|اُطْلُعْ}", "{ar|طُلُوعٌ}"]
           ]
         },
         {
           "type": "note",
-          "text": "Pour {ar|نَامَ}, l'impératif {ar|نَمْ} n'a pas d'alif de liaison. À l'impératif, le premier alif est un alif de liaison : il prend une damma quand l'avant-dernière lettre du présent porte une damma ({ar|يَحْضُرُ} → {ar|اُحْضُرْ}), et une kasra sinon ({ar|يَصْعَدُ} → {ar|اِصْعَدْ})."
+          "text": "Pour {ar|نَامَ}, l'impératif {ar|نَمْ} n'a pas d'alif de liaison. À l'impératif, le premier alif est un alif de liaison : il prend une damma quand l'avant-dernière lettre du présent porte une damma ({ar|يَذْكُرُ} → {ar|اُذْكُرْ}), et une kasra sinon ({ar|يَصْعَدُ} → {ar|اِصْعَدْ})."
         }
       ]
     },
@@ -73,7 +73,7 @@
     {
       "id": "medine-t1.r02.vocab-10#11",
       "type": "true_false",
-      "statement": { "fr": "{ar|ذَكَرَ اللَّهَ} veut dire « il a invoqué Allah, il l'a mentionné »." },
+      "statement": { "fr": "{ar|ذَكَرَ اللَّهَ} veut dire « il a mentionné Allah, il s'est souvenu de lui »." },
       "answer": true
     },
     {

@@ -11,7 +11,7 @@
       "type": "mcq",
       "mode": "ar-fr",
       "item": "w:saida",
-      "distractors": ["w:nazala", "w:rakiba"]
+      "distractors": ["w:kharaja", "w:dhahaba"]
     },
     { "id": "medine-t1.r02.vocab-5#4", "type": "present", "item": "w:qaada" },
     { "id": "medine-t1.r02.vocab-5#5", "type": "present", "item": "w:sakata" },
