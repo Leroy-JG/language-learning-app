@@ -1,0 +1,155 @@
+{
+  "id": "medine-t1.l21.dialogue-1",
+  "type": "dialogue",
+  "title": "L'école et la salle de classe",
+  "icon": "school",
+  "screens": [
+    {
+      "id": "medine-t1.l21.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Mon école",
+      "intro": "Un étudiant présente son école, puis sa salle de classe (texte du livre, première partie).",
+      "speakers": { "A": { "name": "Le narrateur", "voice": "m1" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "هٰذِهِ مَدْرَسَتِي. هِيَ قَرِيبَةٌ مِنَ الْمَسْجِدِ.",
+          "fr": "Voici mon école. Elle est proche de la mosquée."
+        },
+        {
+          "speaker": "A",
+          "ar": "هِيَ مَدْرَسَةٌ كَبِيرَةٌ لَهَا ثَلَاثَةُ أَبْوَابٍ. أَبْوَابُهَا مَفْتُوحَةٌ الْآنَ.",
+          "fr": "C'est une grande école qui a trois portes. Ses portes sont ouvertes maintenant."
+        },
+        {
+          "speaker": "A",
+          "ar": "فِي الْمَدْرَسَةِ فُصُولٌ كَثِيرَةٌ. هٰذَا فَصْلُنَا. وَهُوَ فَصْلٌ وَاسِعٌ.",
+          "fr": "Dans l'école, il y a beaucoup de salles de classe. Voici notre classe. C'est une classe spacieuse."
+        },
+        {
+          "speaker": "A",
+          "ar": "فِيهِ نَافِذَتَانِ كَبِيرَتَانِ. وَفِيهِ مَكَاتِبُ وَكَرَاسِيُّ. وَفِيهِ سَبُّورَةٌ كَبِيرَةٌ.",
+          "fr": "Il y a deux grandes fenêtres. Il y a aussi des bureaux et des chaises. Il y a aussi un grand tableau."
+        },
+        {
+          "speaker": "A",
+          "ar": "هٰذَا مَكْتَبُ الْمُدَرِّسِ وَذَاكَ كُرْسِيُّهُ.",
+          "fr": "Ceci est le bureau de l'enseignant, et cela est sa chaise."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَتِلْكَ مَكَاتِبُ الطُّلَّابِ وَكَرَاسِيُّهُمْ.",
+          "fr": "Et ce sont les bureaux des étudiants et leurs chaises."
+        },
+        {
+          "speaker": "A",
+          "ar": "مَكْتَبُ الْمُدَرِّسِ كَبِيرٌ وَمَكَاتِبُ الطُّلَّابِ صَغِيرَةٌ.",
+          "fr": "Le bureau de l'enseignant est grand et les bureaux des étudiants sont petits."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l21.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Tu reconnais presque tout. Regarde ces petites formes." },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Mot à mot"],
+          "rows": [
+            ["{ar|لَهَا ثَلَاثَةُ أَبْوَابٍ}", "elle a trois portes", "{ar|لِ} + {ar|هَا} : « à elle »"],
+            ["{ar|أَبْوَابُهَا}", "ses portes", "{ar|أَبْوَابٌ} + {ar|هَا}"],
+            ["{ar|فِيهِ}", "dedans, dans la classe", "{ar|فِي} + {ar|هِ}"],
+            ["{ar|فَصْلُنَا}", "notre classe", "{ar|فَصْلٌ} + {ar|نَا}"],
+            ["{ar|كُرْسِيُّهُ}", "sa chaise", "{ar|كُرْسِيٌّ} + {ar|هُ}"],
+            ["{ar|كَرَاسِيُّهُمْ}", "leurs chaises", "{ar|كَرَاسِيُّ} + {ar|هُمْ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|ثَلَاثَةُ أَبْوَابٍ} : {ar|بَابٌ} est masculin, donc le nombre garde le {ar|ة} (chapitre 19)."
+        },
+        {
+          "type": "note",
+          "text": "{ar|وَتِلْكَ مَكَاتِبُ الطُّلَّابِ} : pour montrer plusieurs choses, on dit {ar|هٰذِهِ} ou {ar|تِلْكَ} (chapitre 16)."
+        },
+        {
+          "type": "note",
+          "text": "{ar|لَهَا ثَلَاثَةُ أَبْوَابٍ} décrit l'école : « une grande école qui a trois portes ». {ar|لَهَا} veut dire mot à mot « à elle », donc « elle a »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l21.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Où se trouve l'école ?" },
+      "choices": [ { "fr": "Près de la mosquée" }, { "fr": "Près de l'aéroport" }, { "fr": "Près de l'université" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l21.dialogue-1#1" },
+      "explain": "{ar|هِيَ قَرِيبَةٌ مِنَ الْمَسْجِدِ} : « elle est proche de la mosquée »."
+    },
+    {
+      "id": "medine-t1.l21.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Combien de portes l'école a-t-elle ?" },
+      "choices": [ { "fr": "Trois" }, { "fr": "Deux" }, { "fr": "Dix" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l21.dialogue-1#1" },
+      "explain": "{ar|لَهَا ثَلَاثَةُ أَبْوَابٍ} : « elle a trois portes »."
+    },
+    {
+      "id": "medine-t1.l21.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Les portes de l'école sont fermées maintenant." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l21.dialogue-1#1" },
+      "explain": "{ar|أَبْوَابُهَا مَفْتُوحَةٌ الْآنَ} : « ses portes sont ouvertes maintenant »."
+    },
+    {
+      "id": "medine-t1.l21.dialogue-1#6",
+      "type": "fill_gap",
+      "sentence": "وَ{0} مَكَاتِبُ الطُّلَّابِ وَكَرَاسِيُّهُمْ.",
+      "fr": "Et ce sont les bureaux des étudiants et leurs chaises.",
+      "gaps": [ { "answers": ["تِلْكَ"] } ],
+      "options": ["تِلْكَ", "ذَاكَ", "هٰذَا"],
+      "context": { "dialogue": "medine-t1.l21.dialogue-1#1" },
+      "explain": "Pour montrer plusieurs choses qui sont loin, on dit {ar|تِلْكَ} (chapitre 16). {ar|ذَاكَ} et {ar|هٰذَا} sont pour un seul nom masculin."
+    },
+    {
+      "id": "medine-t1.l21.dialogue-1#7",
+      "type": "sort",
+      "categories": [ { "fr": "grand" }, { "fr": "petit" } ],
+      "cards": [
+        { "fr": "l'école", "category": 0 },
+        { "fr": "le tableau", "category": 0 },
+        { "fr": "les fenêtres", "category": 0 },
+        { "fr": "le bureau de l'enseignant", "category": 0 },
+        { "fr": "les bureaux des étudiants", "category": 1 }
+      ],
+      "instruction": "Est-ce grand ou petit, d'après le texte ?"
+    },
+    {
+      "id": "medine-t1.l21.dialogue-1#8",
+      "type": "order",
+      "fr": "L'école est proche de la mosquée.",
+      "answers": [["الْمَدْرَسَةُ", "قَرِيبَةٌ", "مِنَ", "الْمَسْجِدِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l21.dialogue-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elle a trois portes.",
+      "answers": ["لَهَا ثَلَاثَةُ أَبْوَابٍ.", "عِنْدَهَا ثَلَاثَةُ أَبْوَابٍ."],
+      "explain": "{ar|لَهَا} (« à elle ») ou {ar|عِنْدَهَا} : « elle a »."
+    },
+    {
+      "id": "medine-t1.l21.dialogue-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ses portes sont ouvertes maintenant.",
+      "answers": ["أَبْوَابُهَا مَفْتُوحَةٌ الْآنَ."]
+    }
+  ]
+}

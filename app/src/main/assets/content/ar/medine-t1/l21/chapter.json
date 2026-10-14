@@ -1,0 +1,14 @@
+{
+  "id": "medine-t1.l21",
+  "number": 21,
+  "title": { "ar": "الدَّرْسُ الْحَادِي وَالْعِشْرُونَ", "fr": "Mon école : {ar|ذَاكَ} et le texte du livre" },
+  "description": "Dire « cela » avec {ar|ذَاكَ} (comme {ar|ذٰلِكَ}), apprendre de nouveaux mots ({ar|لَوْنٌ}, {ar|صَالِحٌ}, {ar|وَاسِعٌ}, {ar|لٰكِنْ}, {ar|أَمْ}) et trois pays d'Asie et d'Afrique, puis lire le texte du livre sur l'école, la classe et les étudiants.",
+  "source": "Tome de Médine 1, leçon 21",
+  "sections": [
+    { "title": "Les mots nouveaux", "activities": ["vocab-1", "vocab-2"] },
+    { "title": "{ar|ذَاكَ}, un autre « cela »", "activities": ["grammar-1"] },
+    { "title": "Le texte du livre : {ar|مَدْرَسَتِي}", "activities": ["dialogue-1", "dialogue-2", "dialogue-3"] },
+    { "title": "Les exercices du livre", "activities": ["practice-1", "practice-2", "practice-3", "practice-4"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

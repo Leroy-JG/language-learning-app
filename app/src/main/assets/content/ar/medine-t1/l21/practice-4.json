@@ -1,0 +1,121 @@
+{
+  "id": "medine-t1.l21.practice-4",
+  "type": "grammar",
+  "title": "Notre, son, leur : les petites formes du texte",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t1.l21.practice-4#1",
+      "type": "tip",
+      "title": "Le même nom, plusieurs suffixes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le texte du livre est plein de suffixes que tu connais (chapitres 10 et 11). Le nom perd son tanwin ou son article, le {ar|ة} devient {ar|ت}, et le suffixe suit le possesseur."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "فَصْلٌ", "fr": "une classe" }, "to": { "ar": "فَصْلُنَا", "fr": "notre classe" } },
+            {
+              "from": { "ar": "أَبْوَابٌ", "fr": "des portes" },
+              "to": { "ar": "أَبْوَابُهَا", "fr": "ses portes (à elle)" }
+            },
+            {
+              "from": { "ar": "كُرْسِيٌّ", "fr": "une chaise" },
+              "to": { "ar": "كُرْسِيُّهُ", "fr": "sa chaise (à lui)" }
+            },
+            {
+              "from": { "ar": "لُغَاتٌ", "fr": "des langues" },
+              "to": { "ar": "لُغَاتُهُمْ", "fr": "leurs langues" }
+            },
+            {
+              "from": { "ar": "قِبْلَةٌ", "fr": "une qibla" },
+              "to": { "ar": "قِبْلَتُهُمْ", "fr": "leur qibla" },
+              "label": "le {ar|ة} devient {ar|ت}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l21.practice-4#2",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ مَدْرَسَةٌ. {0} مَفْتُوحَةٌ الْآنَ.",
+      "fr": "Voici une école. Ses portes sont ouvertes maintenant.",
+      "gaps": [ { "answers": ["أَبْوَابُهَا"] } ],
+      "options": ["أَبْوَابُهَا", "أَبْوَابُهُ", "أَبْوَابُنَا"],
+      "explain": "L'école est féminine : {ar|هَا}, « elle ». {ar|هُ} serait « lui » et {ar|نَا} « nous »."
+    },
+    {
+      "id": "medine-t1.l21.practice-4#3",
+      "type": "fill_gap",
+      "sentence": "هٰذَا مَكْتَبُ الْمُدَرِّسِ وَذٰلِكَ {0}.",
+      "fr": "Ceci est le bureau de l'enseignant et cela est sa chaise.",
+      "gaps": [ { "answers": ["كُرْسِيُّهُ"] } ],
+      "options": ["كُرْسِيُّهُ", "كُرْسِيُّهَا", "كُرْسِيُّهُمْ"],
+      "explain": "L'enseignant est un seul homme : {ar|هُ}. {ar|هَا} serait « elle » et {ar|هُمْ} « eux »."
+    },
+    {
+      "id": "medine-t1.l21.practice-4#4",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|قِبْلَتُهُمْ} ?" },
+      "choices": [ { "fr": "leur qibla" }, { "fr": "ta qibla" }, { "fr": "notre qibla" } ],
+      "answer": 0,
+      "explain": "{ar|قِبْلَةٌ} + {ar|هُمْ} : « leur qibla ». Le {ar|ة} devient {ar|ت}."
+    },
+    {
+      "id": "medine-t1.l21.practice-4#5",
+      "type": "sort",
+      "categories": [ { "fr": "de lui" }, { "fr": "d'elle" }, { "fr": "d'eux" } ],
+      "cards": [
+        { "ar": "اِسْمُهُ", "category": 0 },
+        { "ar": "كُرْسِيُّهُ", "category": 0 },
+        { "ar": "أَبْوَابُهَا", "category": 1 },
+        { "ar": "مَكْتَبُهَا", "category": 1 },
+        { "ar": "دِينُهُمْ", "category": 2 },
+        { "ar": "قِبْلَتُهُمْ", "category": 2 },
+        { "ar": "لُغَاتُهُمْ", "category": 2 },
+        { "ar": "نَبِيُّهُمْ", "category": 2 }
+      ],
+      "instruction": "Le suffixe parle de qui ?"
+    },
+    {
+      "id": "medine-t1.l21.practice-4#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "notre classe",
+      "answers": ["فَصْلُنَا"]
+    },
+    {
+      "id": "medine-t1.l21.practice-4#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "leurs langues",
+      "answers": ["لُغَاتُهُمْ"]
+    },
+    {
+      "id": "medine-t1.l21.practice-4#8",
+      "type": "fill_gap",
+      "sentence": "هُمْ طُلَّابٌ. {0} مُخْتَلِفَةٌ.",
+      "fr": "Ils sont étudiants. Leurs langues sont différentes.",
+      "gaps": [ { "answers": ["لُغَاتُهُمْ"] } ],
+      "options": ["لُغَاتُهُمْ", "لُغَاتُنَا", "لُغَاتُهَا"],
+      "explain": "Plusieurs hommes : {ar|هُمْ}, « leurs »."
+    },
+    {
+      "id": "medine-t1.l21.practice-4#9",
+      "type": "order",
+      "fr": "Notre enseignant est de Médine.",
+      "answers": [["مُدَرِّسُنَا", "مِنَ", "الْمَدِينَةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l21.practice-4#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Son nom est le cheikh Bilāl.",
+      "answers": ["اِسْمُهُ الشَّيْخُ بِلَالٌ."]
+    }
+  ]
+}

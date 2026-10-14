@@ -1,0 +1,121 @@
+{
+  "id": "medine-t1.l21.practice-2",
+  "type": "dialogue",
+  "title": "Vrai ou faux ?",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t1.l21.practice-2#1",
+      "type": "true_false",
+      "statement": { "ar": "مَدْرَسَتِي قَرِيبَةٌ مِنَ الْمَطَارِ.", "fr": "Mon école est proche de l'aéroport." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l21.dialogue-1#1" },
+      "explain": "Elle est proche de la mosquée ({ar|الْمَسْجِدِ}), pas de l'aéroport."
+    },
+    {
+      "id": "medine-t1.l21.practice-2#2",
+      "type": "true_false",
+      "statement": { "ar": "لَهَا ثَلَاثَةُ أَبْوَابٍ.", "fr": "Elle a trois portes." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l21.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l21.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "مَدْرَسَتِي قَرِيبَةٌ مِنَ {0}.",
+      "fr": "Mon école est proche de la mosquée.",
+      "gaps": [ { "answers": ["الْمَسْجِدِ"] } ],
+      "options": ["الْمَسْجِدِ", "الْمَطَارِ", "الْجَامِعَةِ"],
+      "context": { "dialogue": "medine-t1.l21.dialogue-1#1" },
+      "explain": "L'école est proche de la mosquée : {ar|الْمَسْجِدِ}."
+    },
+    {
+      "id": "medine-t1.l21.practice-2#4",
+      "type": "true_false",
+      "statement": { "ar": "أَبْوَابُهَا مُغْلَقَةٌ الْآنَ.", "fr": "Ses portes sont fermées maintenant." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l21.dialogue-1#1" },
+      "explain": "Ses portes sont ouvertes ({ar|مَفْتُوحَةٌ})."
+    },
+    {
+      "id": "medine-t1.l21.practice-2#5",
+      "type": "true_false",
+      "statement": { "ar": "مَكَاتِبُ الطُّلَّابِ كَبِيرَةٌ.", "fr": "Les bureaux des étudiants sont grands." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l21.dialogue-1#1" },
+      "explain": "Les bureaux des étudiants sont petits ({ar|صَغِيرَةٌ})."
+    },
+    {
+      "id": "medine-t1.l21.practice-2#6",
+      "type": "fill_gap",
+      "sentence": "مَكَاتِبُ الطُّلَّابِ {0}.",
+      "fr": "Les bureaux des étudiants sont petits.",
+      "gaps": [ { "answers": ["صَغِيرَةٌ"] } ],
+      "options": ["صَغِيرَةٌ", "كَبِيرَةٌ", "مُغْلَقَةٌ"],
+      "context": { "dialogue": "medine-t1.l21.dialogue-1#1" },
+      "explain": "{ar|مَكَاتِبُ} est un pluriel de choses : l'adjectif est au féminin singulier, {ar|صَغِيرَةٌ}."
+    },
+    {
+      "id": "medine-t1.l21.practice-2#7",
+      "type": "true_false",
+      "statement": { "ar": "مَكْتَبُ الْمُدَرِّسِ كَبِيرٌ.", "fr": "Le bureau de l'enseignant est grand." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l21.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t1.l21.practice-2#8",
+      "type": "true_false",
+      "statement": { "ar": "فِي فَصْلِنَا عَشَرَةُ طُلَّابٍ.", "fr": "Dans notre classe, il y a dix étudiants." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l21.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l21.practice-2#9",
+      "type": "question",
+      "prompt": { "fr": "D'où vient ʿAmmār ?" },
+      "choices": [ { "fr": "De Malaisie" }, { "fr": "De Grèce" }, { "fr": "De Turquie" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l21.dialogue-2#1" },
+      "explain": "{ar|هٰذَا عَمَّارٌ وَهُوَ مِنْ مَالِيزِيَا} : ʿAmmār est de Malaisie."
+    },
+    {
+      "id": "medine-t1.l21.practice-2#10",
+      "type": "true_false",
+      "statement": { "ar": "بَيْرَمُ مِنْ تُرْكِيَا.", "fr": "Bayram est de Turquie." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l21.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l21.practice-2#11",
+      "type": "true_false",
+      "statement": { "ar": "يُوسُفُ مِنْ مَالِيزِيَا.", "fr": "Yūsuf est de Malaisie." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l21.dialogue-2#1" },
+      "explain": "Yūsuf est d'Angleterre ({ar|إِنْكِلْتِرَا})."
+    },
+    {
+      "id": "medine-t1.l21.practice-2#12",
+      "type": "fill_gap",
+      "sentence": "يُوسُفُ مِنْ {0}.",
+      "fr": "Yūsuf est d'Angleterre.",
+      "gaps": [ { "answers": ["إِنْكِلْتِرَا"] } ],
+      "options": ["إِنْكِلْتِرَا", "مَالِيزِيَا", "تُرْكِيَا"],
+      "context": { "dialogue": "medine-t1.l21.dialogue-2#1" },
+      "explain": "{ar|يُوسُفُ} est d'Angleterre : {ar|إِنْكِلْتِرَا}."
+    },
+    {
+      "id": "medine-t1.l21.practice-2#13",
+      "type": "true_false",
+      "statement": { "ar": "مُدَرِّسُنَا مِنَ الْمَدِينَةِ.", "fr": "Notre enseignant est de Médine." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l21.dialogue-3#1" }
+    },
+    {
+      "id": "medine-t1.l21.practice-2#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Dans notre classe, il y a dix étudiants.",
+      "answers": ["فِي فَصْلِنَا عَشَرَةُ طُلَّابٍ."]
+    }
+  ]
+}

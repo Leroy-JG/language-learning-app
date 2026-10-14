@@ -1,0 +1,65 @@
+{
+  "id": "medine-t1.l21.vocab-2",
+  "type": "vocabulary",
+  "title": "Les pays et les continents",
+  "icon": "africa",
+  "screens": [
+    {
+      "id": "medine-t1.l21.vocab-2#1",
+      "type": "tip",
+      "title": "Les pays du texte",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans le texte de cette leçon, dix étudiants viennent de dix pays. Tu en connais déjà huit : il n'y en a que deux de nouveaux, et un nouveau continent."
+        },
+        {
+          "type": "gallery",
+          "title": "Les pays que tu connais déjà",
+          "items": ["w:sin", "w:yaban", "w:hind", "w:turkiya", "w:malizya", "w:inkiltira", "w:amrika", "w:yunan"]
+        }
+      ]
+    },
+    { "id": "medine-t1.l21.vocab-2#2", "type": "present", "item": "w:ghana" },
+    { "id": "medine-t1.l21.vocab-2#3", "type": "present", "item": "w:nijiriya" },
+    {
+      "id": "medine-t1.l21.vocab-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ghana",
+      "distractors": ["w:nijiriya", "w:malizya"]
+    },
+    { "id": "medine-t1.l21.vocab-2#5", "type": "present", "item": "w:asia" },
+    {
+      "id": "medine-t1.l21.vocab-2#6",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:asia",
+      "distractors": ["w:ifriqiya", "w:uruba"]
+    },
+    {
+      "id": "medine-t1.l21.vocab-2#7",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:ghana", "w:nijiriya", "w:asia", "w:inkiltira", "w:hind"]
+    },
+    {
+      "id": "medine-t1.l21.vocab-2#8",
+      "type": "fill_gap",
+      "sentence": "غَانَا فِي {0}.",
+      "fr": "Le Ghana est en Afrique.",
+      "gaps": [ { "answers": ["إِفْرِيقِيَا"] } ],
+      "options": ["إِفْرِيقِيَا", "آسِيَا", "أُورُبَّا"],
+      "explain": "{ar|غَانَا} est en Afrique ({ar|إِفْرِيقِيَا}). {ar|آسِيَا} est l'Asie et {ar|أُورُبَّا} l'Europe."
+    },
+    { "id": "medine-t1.l21.vocab-2#9", "type": "build", "item": "w:nijiriya", "extra": ["ز"] },
+    { "id": "medine-t1.l21.vocab-2#10", "type": "typing", "ask": "fr", "item": "w:nijiriya" },
+    {
+      "id": "medine-t1.l21.vocab-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il est du Ghana.",
+      "answers": ["هُوَ مِنْ غَانَا."]
+    }
+  ]
+}

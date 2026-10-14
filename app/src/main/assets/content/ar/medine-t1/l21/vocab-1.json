@@ -1,0 +1,98 @@
+{
+  "id": "medine-t1.l21.vocab-1",
+  "type": "vocabulary",
+  "title": "Des mots du texte",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t1.l21.vocab-1#1", "type": "present", "item": "w:lawn" },
+    { "id": "medine-t1.l21.vocab-1#2", "type": "present", "item": "w:salih" },
+    {
+      "id": "medine-t1.l21.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:lawn",
+      "distractors": ["w:dars", "w:ism"]
+    },
+    { "id": "medine-t1.l21.vocab-1#4", "type": "present", "item": "w:wasi" },
+    {
+      "id": "medine-t1.l21.vocab-1#5",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:salih",
+      "distractors": ["w:kabir", "w:jadid"]
+    },
+    {
+      "id": "medine-t1.l21.vocab-1#6",
+      "type": "tip",
+      "title": "{ar|نَبِيٌّ} : un prophète",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais déjà {ar|النَّبِيُّ} (chapitre 11), « le Prophète ». Sans l'article, {ar|نَبِيٌّ} veut dire « un prophète », et le pluriel est {ar|أَنْبِيَاءُ}."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "نَبِيٌّ", "fr": "un prophète" },
+              "to": { "ar": "النَّبِيُّ", "fr": "le Prophète" },
+              "label": "l'article rend le mot défini"
+            },
+            {
+              "from": { "ar": "نَبِيٌّ", "fr": "un prophète" },
+              "to": { "ar": "أَنْبِيَاءُ", "fr": "des prophètes" },
+              "label": "le pluriel"
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "ar": "إِبْرَاهِيمُ وَيُوسُفُ وَإِسْمَاعِيلُ أَنْبِيَاءُ.",
+          "fr": "Ibrāhīm, Yūsuf et Ismāʿīl sont des prophètes."
+        },
+        {
+          "type": "note",
+          "text": "Comme {ar|أَغْنِيَاءُ} et {ar|أَطِبَّاءُ} (chapitres 5 et 1), {ar|أَنْبِيَاءُ} n'a pas de tanwin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l21.vocab-1#7",
+      "type": "question",
+      "prompt": { "fr": "{ar|إِبْرَاهِيمُ وَيُوسُفُ وَإِسْمَاعِيلُ أَنْبِيَاءُ.} Que dit cette phrase ?" },
+      "choices": [
+        { "fr": "Ibrāhīm, Yūsuf et Ismāʿīl sont des prophètes." },
+        { "fr": "Ibrāhīm, Yūsuf et Ismāʿīl sont des étudiants." },
+        { "fr": "Ibrāhīm, Yūsuf et Ismāʿīl sont des enseignants." }
+      ],
+      "answer": 0,
+      "explain": "{ar|أَنْبِيَاءُ} : « des prophètes », le pluriel de {ar|نَبِيٌّ}."
+    },
+    { "id": "medine-t1.l21.vocab-1#8", "type": "present", "item": "w:lakin" },
+    {
+      "id": "medine-t1.l21.vocab-1#9",
+      "type": "fill_gap",
+      "sentence": "الْمَسْجِدُ كَبِيرٌ، وَ{0} بَابُهُ صَغِيرٌ.",
+      "fr": "La mosquée est grande, mais sa porte est petite.",
+      "gaps": [ { "answers": ["لٰكِنْ"] } ],
+      "options": ["لٰكِنْ", "أَمْ", "مِنْ"],
+      "explain": "{ar|لٰكِنْ} veut dire « mais » : elle relie deux idées qui s'opposent (grand / petit)."
+    },
+    { "id": "medine-t1.l21.vocab-1#10", "type": "present", "item": "w:am" },
+    {
+      "id": "medine-t1.l21.vocab-1#11",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:lawn", "w:salih", "w:wasi", "w:lakin", "w:am"]
+    },
+    { "id": "medine-t1.l21.vocab-1#12", "type": "typing", "ask": "fr", "item": "w:wasi" },
+    {
+      "id": "medine-t1.l21.vocab-1#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd est-il étudiant ou enseignant ?",
+      "answers": ["أَزَيْدٌ طَالِبٌ أَمْ مُدَرِّسٌ؟", "أَطَالِبٌ زَيْدٌ أَمْ مُدَرِّسٌ؟"],
+      "explain": "On commence la question par {ar|أَ}, puis on relie les deux choix par {ar|أَمْ}."
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "medine-t1.l21.dialogue-2",
+  "type": "dialogue",
+  "title": "Les étudiants de la classe",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t1.l21.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Dix étudiants, dix pays",
+      "intro": "Le narrateur présente les dix étudiants de sa classe et dit d'où ils viennent (texte du livre, deuxième partie).",
+      "speakers": { "A": { "name": "Le narrateur", "voice": "m1" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "فِي فَصْلِنَا عَشَرَةُ طُلَّابٍ. وَهُمْ مِنْ بِلَادٍ مُخْتَلِفَةٍ.",
+          "fr": "Dans notre classe, il y a dix étudiants. Ils viennent de pays différents."
+        },
+        {
+          "speaker": "A",
+          "ar": "هٰذَا مُحَمَّدٌ وَهُوَ مِنَ الْيَابَانِ. وَهٰذَا خَالِدٌ وَهُوَ مِنَ الصِّينِ.",
+          "fr": "Voici Muḥammad : il est du Japon. Et voici Khālid : il est de Chine."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَهٰذَا أَحْمَدُ وَهُوَ مِنَ الْهِنْدِ. وَهٰذَا إِبْرَاهِيمُ وَهُوَ مِنْ غَانَا.",
+          "fr": "Et voici Aḥmad : il est d'Inde. Et voici Ibrāhīm : il est du Ghana."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَهٰذَا إِسْمَاعِيلُ وَهُوَ مِنْ نَيْجِيرِيَا. وَهٰذَا يُوسُفُ وَهُوَ مِنْ إِنْكِلْتِرَا.",
+          "fr": "Et voici Ismāʿīl : il est du Nigeria. Et voici Yūsuf : il est d'Angleterre."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَهٰذَا بَيْرَمُ وَهُوَ مِنْ تُرْكِيَا. وَهٰذَا عَمَّارٌ وَهُوَ مِنْ مَالِيزِيَا.",
+          "fr": "Et voici Bayram : il est de Turquie. Et voici ʿAmmār : il est de Malaisie."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَهٰذَا عَلِيٌّ وَهُوَ مِنْ أَمْرِيكَا. وَهٰذَا أَبُو بَكْرٍ وَهُوَ مِنَ الْيُونَانِ.",
+          "fr": "Et voici ʿAlī : il est d'Amérique. Et voici Abū Bakr : il est de Grèce."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l21.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Tu reconnais presque tout. Regarde ces petites formes." },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Mot à mot"],
+          "rows": [
+            ["{ar|وَهُمْ}", "et ils", "{ar|وَ} + {ar|هُمْ}"],
+            [
+              "{ar|مِنْ بِلَادٍ مُخْتَلِفَةٍ}",
+              "de pays différents",
+              "{ar|بِلَادٌ} : pluriel de {ar|بَلَدٌ} ; plusieurs choses → adjectif au féminin singulier"
+            ],
+            [
+              "{ar|وَهُوَ مِنَ الْيَابَانِ}",
+              "et il est du Japon",
+              "{ar|وَ} + {ar|هُوَ} + {ar|مِنَ الْ} + {ar|يَابَانِ}"
+            ],
+            ["{ar|أَبُو بَكْرٍ}", "Abū Bakr", "{ar|أَبٌ} + {ar|بَكْرٍ} : « le père de Bakr »"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les prénoms d'hommes arabes ont en général le tanwin ({ar|مُحَمَّدٌ}, {ar|خَالِدٌ}, {ar|عَمَّارٌ}, {ar|عَلِيٌّ}), sauf certaines formes comme {ar|أَحْمَدُ}. Les prénoms d'origine non arabe n'ont pas de tanwin : {ar|إِبْرَاهِيمُ}, {ar|إِسْمَاعِيلُ}, {ar|يُوسُفُ}, {ar|بَيْرَمُ} (un prénom turc)."
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "{ar|أَبُو بَكْرٍ} est aussi le nom du compagnon du Prophète qui devint le premier calife."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l21.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Combien d'étudiants y a-t-il dans la classe ?" },
+      "choices": [ { "fr": "Dix" }, { "fr": "Huit" }, { "fr": "Neuf" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l21.dialogue-2#1" },
+      "explain": "{ar|فِي فَصْلِنَا عَشَرَةُ طُلَّابٍ} : « dans notre classe, dix étudiants »."
+    },
+    {
+      "id": "medine-t1.l21.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "D'où vient Khālid ?" },
+      "choices": [ { "fr": "De Chine" }, { "fr": "Du Japon" }, { "fr": "D'Inde" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l21.dialogue-2#1" },
+      "explain": "{ar|هٰذَا خَالِدٌ وَهُوَ مِنَ الصِّينِ}."
+    },
+    {
+      "id": "medine-t1.l21.dialogue-2#5",
+      "type": "fill_gap",
+      "sentence": "هٰذَا إِبْرَاهِيمُ وَهُوَ مِنْ {0}.",
+      "fr": "Voici Ibrāhīm : il est du Ghana.",
+      "gaps": [ { "answers": ["غَانَا"] } ],
+      "options": ["غَانَا", "نَيْجِيرِيَا", "تُرْكِيَا"],
+      "context": { "dialogue": "medine-t1.l21.dialogue-2#1" },
+      "explain": "{ar|إِبْرَاهِيمُ} est du Ghana ({ar|غَانَا}). {ar|إِسْمَاعِيلُ} est du Nigeria ({ar|نَيْجِيرِيَا})."
+    },
+    {
+      "id": "medine-t1.l21.dialogue-2#6",
+      "type": "true_false",
+      "statement": { "fr": "Abū Bakr vient de Turquie." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l21.dialogue-2#1" },
+      "explain": "{ar|هٰذَا أَبُو بَكْرٍ وَهُوَ مِنَ الْيُونَانِ} : il vient de Grèce. C'est {ar|بَيْرَمُ} qui vient de Turquie."
+    },
+    {
+      "id": "medine-t1.l21.dialogue-2#7",
+      "type": "order",
+      "fr": "Ismāʿīl est du Nigeria.",
+      "answers": [["إِسْمَاعِيلُ", "مِنْ", "نَيْجِيرِيَا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l21.dialogue-2#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Voici Bayram : il est de Turquie.",
+      "answers": ["هٰذَا بَيْرَمُ وَهُوَ مِنْ تُرْكِيَا."]
+    },
+    {
+      "id": "medine-t1.l21.dialogue-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Yūsuf est d'Angleterre.",
+      "answers": ["يُوسُفُ مِنْ إِنْكِلْتِرَا.", "هُوَ مِنْ إِنْكِلْتِرَا."]
+    }
+  ]
+}

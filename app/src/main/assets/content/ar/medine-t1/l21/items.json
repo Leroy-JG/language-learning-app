@@ -1,0 +1,90 @@
+[
+  {
+    "id": "w:lawn",
+    "kind": "word",
+    "ar": "لَوْنٌ",
+    "fr": "une couleur",
+    "translit": "lawnun",
+    "plural": "أَلْوَانٌ",
+    "gender": "m",
+    "note": "Le pluriel {ar|أَلْوَانٌ} est un pluriel irrégulier, de la même forme que {ar|أَقْلَامٌ} et {ar|أَبْوَابٌ}.",
+    "example": { "ar": "مَا لَوْنُ الْقَمِيصِ؟", "fr": "Quelle est la couleur de la chemise ?" }
+  },
+  {
+    "id": "w:salih",
+    "kind": "word",
+    "ar": "صَالِحٌ",
+    "fr": "pieux, vertueux",
+    "translit": "ṣāliḥun",
+    "plural": "صَالِحُونَ",
+    "note": "Pour des personnes, le pluriel est régulier : {ar|الصَّالِحُونَ}, « les gens pieux ». {ar|صَالِحٌ} est aussi un prénom d'homme : c'est le nom d'un prophète cité dans le Coran.",
+    "example": { "ar": "زَيْدٌ رَجُلٌ صَالِحٌ.", "fr": "Zayd est un homme pieux." }
+  },
+  {
+    "id": "w:wasi",
+    "kind": "word",
+    "ar": "وَاسِعٌ",
+    "fr": "spacieux, vaste",
+    "translit": "wāsiʿun",
+    "note": "Le contraire est {ar|ضَيِّقٌ} (« étroit »).",
+    "example": { "ar": "الْبَيْتُ وَاسِعٌ.", "fr": "La maison est spacieuse." }
+  },
+  {
+    "id": "w:lakin",
+    "kind": "word",
+    "ar": "لٰكِنْ",
+    "fr": "mais",
+    "translit": "lākin",
+    "note": "On prononce « lākin » : le alif long n'est écrit qu'en petit au-dessus du {ar|ل}, comme dans {ar|هٰذَا} et {ar|ذٰلِكَ}. On le trouve souvent avec {ar|وَ} : {ar|وَلٰكِنْ}.",
+    "example": {
+      "ar": "الْمَدْرَسَةُ كَبِيرَةٌ، لٰكِنْ فَصْلِي صَغِيرٌ.",
+      "fr": "L'école est grande, mais ma classe est petite."
+    }
+  },
+  {
+    "id": "w:am",
+    "kind": "word",
+    "ar": "أَمْ",
+    "fr": "ou (dans une question à deux choix)",
+    "translit": "ʾam",
+    "note": "On commence la question par {ar|أَ}, puis on donne les deux choix reliés par {ar|أَمْ}. Dans une phrase qui n'est pas une question à deux choix, « ou » se dit en général {ar|أَوْ}.",
+    "example": { "ar": "أَزَيْدٌ طَالِبٌ أَمْ مُدَرِّسٌ؟", "fr": "Zayd est-il étudiant ou enseignant ?" }
+  },
+  {
+    "id": "w:dhaka",
+    "kind": "word",
+    "ar": "ذَاكَ",
+    "fr": "cela, celui-là (loin, forme courte)",
+    "translit": "dhāka",
+    "gender": "m",
+    "note": "Même sens et même emploi que {ar|ذٰلِكَ} : un nom masculin singulier qui est loin. Les deux ne s'écrivent pas pareil : {ar|ذَاكَ} a un vrai alif, {ar|ذٰلِكَ} un alif en petit.",
+    "example": { "ar": "ذَاكَ زَيْدٌ.", "fr": "Celui-là, c'est Zayd." }
+  },
+  {
+    "id": "w:asia",
+    "kind": "word",
+    "ar": "آسِيَا",
+    "fr": "l'Asie",
+    "translit": "ʾāsiyā",
+    "note": "C'est un continent. Le nom se termine par un alif long : il ne change pas à l'écrit : {ar|فِي آسِيَا}.",
+    "example": { "ar": "الصِّينُ فِي آسِيَا.", "fr": "La Chine est en Asie." }
+  },
+  {
+    "id": "w:ghana",
+    "kind": "word",
+    "ar": "غَانَا",
+    "fr": "le Ghana",
+    "translit": "ghānā",
+    "note": "Le nom se termine par un alif long : il ne change pas à l'écrit : {ar|مِنْ غَانَا}.",
+    "example": { "ar": "غَانَا فِي إِفْرِيقِيَا.", "fr": "Le Ghana est en Afrique." }
+  },
+  {
+    "id": "w:nijiriya",
+    "kind": "word",
+    "ar": "نَيْجِيرِيَا",
+    "fr": "le Nigeria",
+    "translit": "nayjīriyā",
+    "note": "Comme {ar|غَانَا}, le nom se termine par un alif long : {ar|مِنْ نَيْجِيرِيَا}.",
+    "example": { "ar": "نَيْجِيرِيَا فِي إِفْرِيقِيَا.", "fr": "Le Nigeria est en Afrique." }
+  }
+]
