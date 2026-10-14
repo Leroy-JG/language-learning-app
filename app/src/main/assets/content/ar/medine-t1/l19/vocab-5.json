@@ -25,7 +25,7 @@
       "id": "medine-t1.l19.vocab-5#7",
       "type": "question",
       "prompt": { "fr": "Quel mot est le contraire de {ar|جُدُدٌ} (nouveaux) pour des étudiants ?" },
-      "choices": [ { "ar": "قُدَامَى" }, { "ar": "أَغْنِيَاءُ" }, { "ar": "كِبَارٌ" } ],
+      "choices": [ { "ar": "قُدَامَى" }, { "ar": "أَغْنِيَاءُ" }, { "ar": "صِغَارٌ" } ],
       "answer": 0,
       "explain": "{ar|جُدُدٌ} : nouveaux ; {ar|قُدَامَى} : anciens."
     },
@@ -53,7 +53,7 @@
         "fr": "{ar|إِنْكِلْتِرَا} se termine par un alif long : on écrit {ar|مِنْ إِنْكِلْتِرَا}, sans changer le mot."
       },
       "answer": true,
-      "explain": "Comme {ar|تُرْكِيَا} (chapitre 14), les noms qui finissent par un alif long ne changent pas à l'écrit."
+      "explain": "Comme {ar|تُرْكِيَا} (chapitre 14), ces noms de pays étrangers, qui finissent par un alif long, ne changent pas à l'écrit."
     },
     {
       "id": "medine-t1.l19.vocab-5#12",

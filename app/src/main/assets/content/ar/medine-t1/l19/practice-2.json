@@ -79,10 +79,11 @@
     },
     {
       "id": "medine-t1.l19.practice-2#8",
-      "type": "typing",
-      "ask": "fr",
+      "type": "fill_gap",
+      "sentence": "{0} أَيَّامٍ",
       "fr": "neuf jours",
-      "answers": ["تِسْعَةُ أَيَّامٍ"],
+      "gaps": [ { "answers": ["تِسْعَةُ"] } ],
+      "options": ["تِسْعَةُ", "تِسْعُ", "ثَمَانِيَةُ"],
       "explain": "{ar|يَوْمٌ} est masculin : le nombre prend le {ar|ة}."
     },
     {

@@ -60,7 +60,8 @@
         { "ar": "قُرُوشٌ", "category": 0 },
         { "ar": "مَدَارِسُ", "category": 1 }
       ],
-      "instruction": "Avec quel nombre va chaque dénombré ?"
+      "instruction": "Avec quel nombre va chaque dénombré ?",
+      "explain": "Regarde le singulier : {ar|يَوْمٌ}, {ar|رِيَالٌ} et {ar|قِرْشٌ} sont masculins ; {ar|نَافِذَةٌ}, {ar|أُمٌّ} et {ar|مَدْرَسَةٌ} sont féminins."
     },
     {
       "id": "medine-t1.l19.quiz#8",
@@ -111,8 +112,8 @@
     {
       "id": "medine-t1.l19.quiz#13",
       "type": "question",
-      "prompt": { "fr": "D'où viennent les huit étudiants d'Europe ?" },
-      "choices": [ { "fr": "D'Allemagne" }, { "fr": "De France" }, { "fr": "De Grèce" } ],
+      "prompt": { "fr": "Quel pays d'Europe compte huit étudiants ?" },
+      "choices": [ { "fr": "L'Allemagne" }, { "fr": "La France" }, { "fr": "La Grèce" } ],
       "answer": 0,
       "context": { "dialogue": "medine-t1.l19.dialogue-2#1" },
       "explain": "{ar|ثَمَانِيَةُ طُلَّابٍ مِنْ أَلْمَانِيَا}."
@@ -126,13 +127,19 @@
     },
     {
       "id": "medine-t1.l19.quiz#15",
+      "type": "true_false",
+      "statement": { "fr": "Quand on compte sans nom, on emploie la forme masculine, celle en {ar|ة}." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.l19.quiz#16",
       "type": "typing",
       "ask": "audio",
       "fr": "Merci, cheikh.",
       "answers": ["شُكْرًا يَا شَيْخُ."]
     },
     {
-      "id": "medine-t1.l19.quiz#16",
+      "id": "medine-t1.l19.quiz#17",
       "type": "typing",
       "ask": "fr",
       "fr": "sept étudiantes",

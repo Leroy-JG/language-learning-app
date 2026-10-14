@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Pour 1 et 2, on ne met pas le nombre devant le nom. Pour **un**, {ar|وَاحِدٌ} se place **après** le nom, comme un adjectif, et s'accorde avec lui."
+          "text": "Pour compter un ou deux êtres ou choses, on ne met pas le nombre devant le nom. Pour **un**, {ar|وَاحِدٌ} se place **après** le nom, comme un adjectif, et s'accorde avec lui."
         },
         {
           "type": "compare",
@@ -66,7 +66,8 @@
         {
           "type": "note",
           "text": "Le duel a d'autres formes dans d'autres rôles ({ar|◌َيْنِ}) : tu le verras plus tard. Retiens seulement que pour deux, on ne dit jamais un pluriel."
-        }
+        },
+        { "type": "note", "text": "Le {ar|ن} de la terminaison remplace le tanwin : le duel n'a jamais de tanwin." }
       ]
     },
     {
@@ -120,14 +121,14 @@
       "type": "true_false",
       "statement": { "fr": "Dans {ar|طَالِبٌ وَاحِدٌ}, le mot {ar|وَاحِدٌ} se place après le nom, comme un adjectif." },
       "answer": true,
-      "explain": "Oui. Seuls les nombres de 3 à 10 se placent devant le dénombré."
+      "explain": "Oui. Pour 1, le nombre suit le nom ; ce sont les nombres de 3 à 10 qui se placent devant le dénombré."
     },
     {
       "id": "medine-t1.l19.grammar-3#9",
       "type": "typing",
       "ask": "fr",
       "fr": "deux étudiants",
-      "answers": ["طَالِبَانِ"]
+      "answers": ["طَالِبَانِ", "طَالِبَانِ اثْنَانِ"]
     },
     {
       "id": "medine-t1.l19.grammar-3#10",

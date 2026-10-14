@@ -116,7 +116,7 @@
     "translit": "riyālun",
     "plural": "رِيَالَاتٌ",
     "gender": "m",
-    "note": "Le riyal est la monnaie de l'Arabie saoudite. Son pluriel {ar|رِيَالَاتٌ} se termine par {ar|◌َاتٌ}, comme beaucoup de pluriels féminins, mais {ar|رِيَالٌ} est un nom **masculin**.",
+    "note": "Plusieurs pays ont un riyal ; celui du livre est la monnaie de l'Arabie saoudite. Son pluriel {ar|رِيَالَاتٌ} se termine par {ar|◌َاتٌ}, comme beaucoup de pluriels féminins, mais {ar|رِيَالٌ} est un nom **masculin**.",
     "example": { "ar": "لِي عَشَرَةُ رِيَالَاتٍ.", "fr": "J'ai dix riyals." }
   },
   {
@@ -127,7 +127,7 @@
     "translit": "qirshun",
     "plural": "قُرُوشٌ",
     "gender": "m",
-    "note": "Le qirsh est une petite subdivision du riyal.",
+    "note": "Le qirsh est une petite subdivision du riyal. En français, on écrit « des qirsh », sans s.",
     "example": { "ar": "لِي أَرْبَعَةُ قُرُوشٍ.", "fr": "J'ai quatre qirsh." }
   },
   {
@@ -138,7 +138,7 @@
     "translit": "thamanun",
     "plural": "أَثْمَانٌ",
     "gender": "m",
-    "note": "Ne confonds pas {ar|ثَمَنٌ} (un prix) et {ar|ثَمَانِيَةٌ} (huit) : ils commencent par les mêmes lettres, mais ce sont deux mots différents.",
+    "note": "Ne confonds pas {ar|ثَمَنٌ} (un prix) et {ar|ثَمَانِيَةٌ} (huit) : ils commencent par les mêmes lettres, mais ce sont deux mots différents (le second a des lettres de plus).",
     "example": { "ar": "ثَمَنُ الْكِتَابِ ثَلَاثَةُ رِيَالَاتٍ.", "fr": "Le prix du livre est de trois riyals." }
   },
   {
@@ -169,7 +169,7 @@
     "ar": "كَمْ",
     "fr": "combien… ?",
     "translit": "kam",
-    "note": "Nom interrogatif de la quantité. Comme {ar|مَا}, {ar|مَنْ}, {ar|أَيْنَ} et {ar|مَتَى}, il est invariable et se place en tête de la question. Attention : {ar|كَمْ} (« combien ») a une fatha ; {ar|كُمْ} (« votre », chapitre 10) a une damma.",
+    "note": "Nom interrogatif de la quantité. Comme {ar|مَا}, {ar|مَنْ}, {ar|أَيْنَ} et {ar|مَتَى}, il est invariable et se place en général en tête de la question. Attention : {ar|كَمْ} (« combien ») a une fatha ; {ar|كُمْ} (« votre », chapitre 10) a une damma.",
     "example": { "ar": "كَمْ كِتَابًا عِنْدَكَ؟", "fr": "Combien de livres as-tu ? (à un homme)" }
   },
   {
@@ -244,7 +244,7 @@
     "ar": "قُدَامَى",
     "fr": "anciens",
     "translit": "qudāmā",
-    "note": "Pluriel de {ar|قَدِيمٌ} (« ancien ») : ici, des étudiants qui étaient déjà là avant les nouveaux ({ar|جُدُدٌ}). Comme {ar|كُسَالَى} (chapitre 9), ce pluriel se termine par {ar|ى} et n'a jamais de tanwin.",
+    "note": "Pluriel de {ar|قَدِيمٌ} (« ancien ») : ici, des étudiants qui étaient déjà là avant les nouveaux ({ar|جُدُدٌ}). Un autre pluriel de {ar|قَدِيمٌ} est {ar|قُدَمَاءُ}. Comme {ar|كُسَالَى} (chapitre 9), {ar|قُدَامَى} se termine par {ar|ى} et n'a jamais de tanwin.",
     "example": { "ar": "فِي هٰذَا الْفَصْلِ طُلَّابٌ قُدَامَى.", "fr": "Dans cette classe, il y a d'anciens étudiants." }
   }
 ]

@@ -45,7 +45,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Il y a sept jours dans la semaine.",
-      "answers": ["فِي الْأُسْبُوعِ سَبْعَةُ أَيَّامٍ."]
+      "answers": ["فِي الْأُسْبُوعِ سَبْعَةُ أَيَّامٍ.", "سَبْعَةُ أَيَّامٍ فِي الْأُسْبُوعِ."]
     },
     {
       "id": "medine-t1.l19.practice-5#5",

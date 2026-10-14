@@ -84,7 +84,7 @@
       "ask": "fr",
       "fr": "trois frères",
       "answers": ["ثَلَاثَةُ إِخْوَةٍ", "ثَلَاثَةُ إِخْوَانٍ"],
-      "explain": "{ar|أَخٌ} a deux pluriels : {ar|إِخْوَةٌ} (les frères de sang) et {ar|إِخْوَانٌ} (aussi les frères en religion ou en amitié)."
+      "explain": "{ar|أَخٌ} a deux pluriels : {ar|إِخْوَةٌ} s'emploie surtout pour les frères de sang, {ar|إِخْوَانٌ} surtout pour les frères en religion ou en amitié ; la distinction n'est pas absolue."
     },
     {
       "id": "medine-t1.l19.practice-4#10",
@@ -100,7 +100,12 @@
       "type": "typing",
       "ask": "question",
       "question": "كَمْ رَاكِبًا فِي السَّيَّارَةِ؟",
-      "answers": ["فِي السَّيَّارَةِ خَمْسَةُ رُكَّابٍ.", "خَمْسَةُ رُكَّابٍ.", "فِيهَا خَمْسَةُ رُكَّابٍ."],
+      "answers": [
+        "فِي السَّيَّارَةِ خَمْسَةُ رُكَّابٍ.",
+        "خَمْسَةُ رُكَّابٍ.",
+        "فِيهَا خَمْسَةُ رُكَّابٍ.",
+        "خَمْسَةُ رُكَّابٍ فِي السَّيَّارَةِ."
+      ],
       "fr": "Il y a cinq passagers dans la voiture.",
       "instruction": "Réponds avec le nombre {ar|٥}.",
       "explain": "{ar|رَاكِبٌ} est masculin : le nombre prend le {ar|ة}."

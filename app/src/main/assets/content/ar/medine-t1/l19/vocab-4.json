@@ -20,7 +20,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Collé à un pronom, {ar|كُلٌّ} perd son tanwin et prend la damma : c'est le premier terme d'une annexion."
+          "text": "Collé à un pronom, {ar|كُلٌّ} perd son tanwin : c'est le premier terme d'une annexion. Sa voyelle suit son rôle dans la phrase ; ici, il est au nominatif, donc à la damma."
         },
         {
           "type": "table",
@@ -40,6 +40,10 @@
         {
           "type": "note",
           "text": "Devant un nom indéfini au singulier, {ar|كُلُّ} veut dire « chaque » : {ar|كُلُّ طَالِبٍ} (chaque étudiant)."
+        },
+        {
+          "type": "note",
+          "text": "Devant un nom défini, {ar|كُلُّ} veut dire « tout, tous » : {ar|كُلُّ الطُّلَّابِ} (tous les étudiants), {ar|كُلُّ الْكِتَابِ} (tout le livre)."
         }
       ]
     },

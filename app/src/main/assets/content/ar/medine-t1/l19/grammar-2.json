@@ -25,6 +25,10 @@
           "type": "note",
           "tone": "memo",
           "text": "Pour retenir : un dénombré masculin appelle le {ar|ة} (signe du féminin), un dénombré féminin n'en veut pas. Pense « contraire »."
+        },
+        {
+          "type": "note",
+          "text": "Quand on récite les nombres sans nom (un, deux, trois…), on emploie la forme masculine, celle en {ar|ة} : {ar|ثَلَاثَةٌ}, {ar|أَرْبَعَةٌ}…"
         }
       ]
     },
@@ -127,6 +131,10 @@
         {
           "type": "paragraph",
           "text": "Avec un nom masculin, huit est régulier : {ar|ثَمَانِيَةُ طُلَّابٍ}. Avec un nom féminin, la forme isolée est {ar|ثَمَانٍ} ; mais devant le dénombré, le tanwin disparaît et le {ar|ي} revient."
+        },
+        {
+          "type": "note",
+          "text": "À l'accusatif, la forme devient {ar|ثَمَانِيَ} (avec une fatha sur le {ar|ي}) : tu le verras plus tard."
         },
         {
           "type": "compare",

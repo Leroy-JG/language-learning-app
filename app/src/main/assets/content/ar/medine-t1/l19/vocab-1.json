@@ -28,33 +28,45 @@
             ["{ar|٥}", "{ar|خَمْسَةٌ}", "{ar|خَمْسٌ}"]
           ]
         },
-        { "type": "note", "text": "Tu connais déjà {ar|وَاحِدٌ} (chapitre 10)." }
+        { "type": "note", "text": "Tu connais déjà {ar|وَاحِدٌ} (chapitre 10)." },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Attention : le chiffre {ar|٥} (cinq) ressemble à un zéro ; le zéro est un simple point, {ar|٠}. Au Maghreb, on emploie plutôt nos chiffres 1, 2, 3…"
+        }
       ]
     },
     { "id": "medine-t1.l19.vocab-1#2", "type": "present", "item": "w:adad" },
     { "id": "medine-t1.l19.vocab-1#3", "type": "present", "item": "w:wahida" },
-    { "id": "medine-t1.l19.vocab-1#4", "type": "present", "item": "w:n-2" },
     {
-      "id": "medine-t1.l19.vocab-1#5",
+      "id": "medine-t1.l19.vocab-1#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:wahida",
+      "distractors": ["w:wahid", "w:adad"]
+    },
+    { "id": "medine-t1.l19.vocab-1#5", "type": "present", "item": "w:n-2" },
+    {
+      "id": "medine-t1.l19.vocab-1#6",
       "type": "mcq",
       "mode": "ar-fr",
       "item": "w:n-2",
       "distractors": ["w:wahida", "w:adad"]
     },
-    { "id": "medine-t1.l19.vocab-1#6", "type": "present", "item": "w:n-3" },
-    { "id": "medine-t1.l19.vocab-1#7", "type": "present", "item": "w:n-4" },
+    { "id": "medine-t1.l19.vocab-1#7", "type": "present", "item": "w:n-3" },
+    { "id": "medine-t1.l19.vocab-1#8", "type": "present", "item": "w:n-4" },
     {
-      "id": "medine-t1.l19.vocab-1#8",
+      "id": "medine-t1.l19.vocab-1#9",
       "type": "mcq",
       "mode": "fr-ar",
       "item": "w:n-4",
       "distractors": ["w:n-3", "w:n-2"]
     },
-    { "id": "medine-t1.l19.vocab-1#9", "type": "present", "item": "w:n-5" },
+    { "id": "medine-t1.l19.vocab-1#10", "type": "present", "item": "w:n-5" },
     {
-      "id": "medine-t1.l19.vocab-1#10",
+      "id": "medine-t1.l19.vocab-1#11",
       "type": "tip",
-      "title": "Les jours de la semaine sont des nombres",
+      "title": "Les jours de la semaine viennent des nombres",
       "blocks": [
         {
           "type": "paragraph",
@@ -74,12 +86,12 @@
         {
           "type": "note",
           "tone": "culture",
-          "text": "La semaine arabe commence le dimanche : c'est pour cela que lundi est « le deux », et jeudi « le cinq »."
+          "text": "Dans la tradition arabe, la semaine commence le dimanche : c'est pour cela que lundi est « le deux », et jeudi « le cinq »."
         }
       ]
     },
     {
-      "id": "medine-t1.l19.vocab-1#11",
+      "id": "medine-t1.l19.vocab-1#12",
       "type": "question",
       "prompt": { "fr": "Quel mot écrit le chiffre {ar|٤} ?" },
       "choices": [ { "ar": "أَرْبَعَةٌ، أَرْبَعٌ" }, { "ar": "ثَلَاثَةٌ، ثَلَاثٌ" }, { "ar": "خَمْسَةٌ، خَمْسٌ" } ],
@@ -87,13 +99,13 @@
       "explain": "{ar|٤} est quatre : {ar|أَرْبَعَةٌ} avec un nom masculin, {ar|أَرْبَعٌ} avec un nom féminin."
     },
     {
-      "id": "medine-t1.l19.vocab-1#12",
+      "id": "medine-t1.l19.vocab-1#13",
       "type": "match",
       "mode": "ar-fr",
       "items": ["w:n-2", "w:n-3", "w:n-4", "w:n-5", "w:wahida"]
     },
     {
-      "id": "medine-t1.l19.vocab-1#13",
+      "id": "medine-t1.l19.vocab-1#14",
       "type": "typing",
       "ask": "fr",
       "fr": "quatre",
@@ -101,7 +113,7 @@
       "explain": "{ar|أَرْبَعَةٌ} avec un nom masculin, {ar|أَرْبَعٌ} avec un nom féminin : les deux formes sont justes."
     },
     {
-      "id": "medine-t1.l19.vocab-1#14",
+      "id": "medine-t1.l19.vocab-1#15",
       "type": "memory",
       "mode": "ar-fr",
       "items": ["w:wahida", "w:n-2", "w:n-3", "w:n-4", "w:n-5"]

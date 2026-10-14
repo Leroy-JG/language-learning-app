@@ -54,17 +54,22 @@
       "fr": "J'ai six filles.",
       "answers": [["لِي", "سِتُّ", "بَنَاتٍ"]],
       "punctuation": ".",
-      "explain": "{ar|بِنْتٌ} est féminin : le nombre est sans {ar|ة}. Question du livre : {ar|كَمْ بِنْتًا لَكَ يَا شَيْخُ؟}"
+      "explain": "{ar|بِنْتٌ} est féminin : le nombre est sans {ar|ة}. Dans le livre, la question porte sur les fils ({ar|كَمْ اِبْنًا لَكَ يَا شَيْخُ؟}) ; ici, on l'adapte au féminin : {ar|كَمْ بِنْتًا لَكَ يَا شَيْخُ؟}"
     },
     {
       "id": "medine-t1.l19.practice-3#5",
       "type": "typing",
       "ask": "question",
       "question": "كَمْ مَسْجِدًا فِي هٰذَا الشَّارِعِ؟",
-      "answers": ["فِي هٰذَا الشَّارِعِ ثَمَانِيَةُ مَسَاجِدَ.", "ثَمَانِيَةُ مَسَاجِدَ.", "فِيهِ ثَمَانِيَةُ مَسَاجِدَ."],
+      "answers": [
+        "فِي هٰذَا الشَّارِعِ ثَمَانِيَةُ مَسَاجِدَ.",
+        "ثَمَانِيَةُ مَسَاجِدَ.",
+        "فِيهِ ثَمَانِيَةُ مَسَاجِدَ.",
+        "ثَمَانِيَةُ مَسَاجِدَ فِي هٰذَا الشَّارِعِ."
+      ],
       "fr": "Il y a huit mosquées dans cette rue.",
       "instruction": "Réponds avec le nombre {ar|٨}.",
-      "explain": "{ar|مَسْجِدٌ} est masculin : {ar|ثَمَانِيَةُ}. {ar|مَسَاجِدُ} est sans tanwin : après le nombre, il prend la fatha."
+      "explain": "{ar|مَسْجِدٌ} est masculin : {ar|ثَمَانِيَةُ}. {ar|مَسَاجِدُ} n'a pas de tanwin : au génitif, après le nombre, il prend la fatha ({ar|مَسَاجِدَ})."
     },
     {
       "id": "medine-t1.l19.practice-3#6",

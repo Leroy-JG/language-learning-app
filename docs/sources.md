@@ -718,6 +718,61 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - rythme : jamais trois écrans du même type d'affilée ; réponses ajoutées : vocatif en tête de phrase (`يَا أَخَوَاتُ أَيْنَ بَيْتُكُنَّ؟`), `ذَهَبَ إِلَى الرِّيَاضِ قَبْلَ شَهْرٍ.`
 - **Pas de nouvelle icône.**
 
+### Leçon 19 (`l19`)
+
+- **Support :** un seul PDF de 15 pages (cours 19 : diapos « les nombres de 1 à 10 » avec les deux formes de chaque nombre, diapos sur le dénombré, dialogue du livre, exercices 1 à 4, vocabulaire nouveau, « expressions nouvelles »).
+- **Chapitre écrit en parallèle des leçons 16, 17 et 18** (autres conversations) : `l19` ne s'appuie que sur le contenu publié jusqu'à la leçon 15. Mots susceptibles d'être aussi définis par les leçons 16 à 18 (à dédoublonner à la fusion : garder l'id du chapitre le plus ancien, retirer le mot de `l19/items.json` et vérifier que les exemples restent compris) : `w:kam` (كَمْ), `w:kull`, `w:shukran`, `w:inkiltira`, `w:uruba`, `w:malizya`, `w:qudama`, `w:mukhtalif`.
+- **Exercices et textes du livre repris :**
+  - tableau des nombres 1 à 10 → `vocab-1`, `vocab-2` (un item par nombre, avec les deux formes : « nom masculin، nom féminin ») ;
+  - diapos du dénombré et des trois règles (3 à 10) → `grammar-1` (annexion, pluriel, génitif) et `grammar-2` (genre contraire, « regarde le singulier ») ;
+  - dialogue (pages 2 et 3) → `dialogue-1` et `dialogue-2` ; une ligne du professeur (celle des pays) est coupée en deux répliques pour l'audio ;
+  - exercice 1 (lire et écrire ثَلَاثَةُ طُلَّابٍ… عَشَرَةُ طُلَّابٍ) → `practice-4` (tableau) ;
+  - exercice 4 (nombres de 3 à 10 avec كِتَابٌ، قَلَمٌ، تَاجِرٌ، رَجُلٌ، طَالِبٌ، رِيَالٌ، قِرْشٌ، أَخٌ، اِبْنٌ) → `practice-4` ;
+  - exercice 2 (neuf phrases) → `practice-1` (phrase 1) et `practice-5` (phrases 2 à 9) ;
+  - exercice 3 (« réponds avec le nombre ») → `practice-3` et `practice-4` (la question du passager) ;
+  - vocabulaire nouveau (كُلٌّ، مُخْتَلِفٌ، شُكْرًا، ثَمَنٌ، رِيَالٌ، قِرْشٌ، رَاكِبٌ، نِصْفٌ، جَيْبٌ، عَدَدٌ) → `vocab-3`, `vocab-4` (et `vocab-1` pour عَدَدٌ) ;
+  - expressions nouvelles (كَمْ ثَمَنُ هٰذَا…؟, كَمْ كِتَابًا عِنْدَكَ؟, هُمْ مِنْ بِلَادٍ مُخْتَلِفَةٍ, لُغَاتُهُمْ مُخْتَلِفَةٌ…) → `grammar-4`, `vocab-4`, `dialogue-1`.
+- **Écarts avec le PDF :**
+  - les deux formes de chaque nombre sont classées **selon le genre du dénombré** (forme avec ة d'abord pour 3 à 10), alors que le PDF les aligne dans l'autre ordre (forme sans ة d'abord) ; la diapo du professeur dit bien que ثَلَاثَةٌ va avec un dénombré masculin ;
+  - exemple de مُخْتَلِفٌ du PDF (« les savants divergent sur les ablutions après avoir mangé de la viande de chameau ») non repris : mots non enseignés (الْعُلَمَاءُ، الْوُضُوءُ، الْإِبِلُ) ; remplacé par les expressions nouvelles du PDF (لُغَاتُهُمْ مُخْتَلِفَةٌ, هُمْ مِنْ بِلَادٍ مُخْتَلِفَةٍ) ; la phrase هُمْ مُخْتَلِفُونَ فِي هٰذَا est citée dans la note ;
+  - exemple de رَاكِب (« الطُّلَّابُ رُكَّابٌ فِي الْحَافِلَةِ ») : `حَافِلَةٌ` n'est pas enseigné → `فِي السَّيَّارَةِ` ; exemple de نِصْف repris (حَفِظَ زَيْدٌ نِصْفَ الْقُرْآنِ) car tous ses mots sont connus ;
+  - exercice 2 : phrase 2 (`خَالِدٌ لَهُ سِتَّةُ أَبْنَاءٍ`) → `لِخَالِدٍ سِتَّةُ أَبْنَاءٍ` (`لَهُ` n'est pas enseigné) ; phrase 6 (`فِي هٰذَا الْحَيِّ`) → `فِي هٰذَا الشَّارِعِ` (`الْحَيُّ` n'est pas enseigné) ;
+  - exercice 3 : question 3 (`كَمْ ابْنًا لَكَ يَا شَيْخُ؟`) → `كَمْ بِنْتًا لَكَ يَا شَيْخُ؟` (réponse `سِتُّ بَنَاتٍ`) : devant l'alif de liaison de `ابْنًا`, la mim de `كَمْ` prend une kasra (non enseigné), et la fille permet de travailler le féminin ; question 4 (`كَمْ سُؤَالًا فِي هٰذَا الدَّرْسِ؟`) → `كَمْ مَسْجِدًا فِي هٰذَا الشَّارِعِ؟` (`سُؤَالٌ` n'est pas enseigné) ; question 5 : `الْحَافِلَةِ` → `السَّيَّارَةِ` ;
+  - « Combien de livre possède tu ? » (PDF) : corrigé en « Combien de livres as-tu ? » ; « Combien coute » : « Combien coûte » ;
+  - `قِرْشٌ` : le PDF dit « centime saoudien » ; l'app dit « petite pièce saoudienne » (note : « petite subdivision du riyal ») ; `ثَمَنٌ` : l'exemple du PDF est repris ;
+  - le professeur dit que les nombres « sont toujours accompagnés du dénombré » : l'app écrit « quand on compte des choses » (le nombre peut aussi être employé seul, comme `عَدَدُ الطُّلَّابِ عَشَرَةٌ`) ;
+  - le duel (`طَالِبَانِ`, `اِثْنَانِ`) est seulement montré en aperçu (`grammar-3`) ; aucune déclinaison du duel n'est exigée ;
+  - `قُدَامَى` n'a pas de traduction dans le PDF : « anciens » (par opposition à `جُدُدٌ`), noté comme pluriel de `قَدِيمٌ` ;
+  - `مَالِيزِيَا`, `أُورُبَّا`, `إِنْكِلْتِرَا` : le PDF écrit les voyelles de façon incomplète ; formes retenues : celles du dictionnaire / de la leçon 14.
+- **Choix de contenu :**
+  - les nombres sont des **mots doubles** (un seul item par nombre, `ar` = « forme avec nom masculin، forme avec nom féminin ») : pas de `gender` (il dépend du dénombré), pas de `build` ni de `typing` d'item (le texte contient deux formes ; les `typing` de nombres acceptent les deux) ;
+  - `وَاحِدَةٌ` est un item à part (`w:wahida`) ; `وَاحِدٌ` est celui du chapitre 10 ;
+  - les chiffres arabes d'Orient (١ ٢ … ١٠) apparaissent dans les tableaux et les consignes ; le validateur accepte maintenant un texte arabe composé seulement de chiffres (`ArabicScript.problems`, test ajouté) ;
+  - `رِيَالٌ` est présenté comme masculin malgré son pluriel en `◌َاتٌ` (le livre emploie `ثَمَانِيَةُ رِيَالَاتٍ`) ;
+  - `ثَمَانٍ` / `ثَمَانِي` : forme isolée (celle du PDF) et forme devant le dénombré, avec une astuce et un exercice ;
+  - aucun exercice sur les nombres à partir de 11, ni sur `عِشْرُونَ` (cité dans la carte du dénombré comme aperçu) ;
+  - `إِخْوَةٍ` et `إِخْوَانٍ` sont acceptés pour « frères » ; pour `رِيَالٌ`, `قِرْشٌ`, `تَاجِرٌ`… un seul pluriel.
+- **Explications ajoutées (données à l'oral, absentes du PDF) :**
+  - les noms des cinq premiers jours de la semaine viennent des nombres 1 à 5 ;
+  - `الْعَدَدُ` et `الْمَعْدُودُ` viennent du verbe `عَدَّ` (« compter ») ;
+  - pour 1, `وَاحِدٌ` suit le nom et s'accorde (« un seul ») ; pour 2, on met le nom au duel, `اِثْنَانِ` peut s'ajouter pour insister ;
+  - `اِثْنَانِ` devient `اِثْنَيْنِ` dans d'autres rôles (déjà vu dans `يَوْمُ الِاثْنَيْنِ`) ; son alif est un alif de liaison ;
+  - le nombre est le premier terme d'une annexion : il suit son rôle (`فِي ثَلَاثَةِ أَيَّامٍ`) ; devant un pluriel de forme longue, le dénombré prend la fatha (`ثَلَاثَةُ مَسَاجِدَ`) ;
+  - pour 11 à 99 (plus tard), le dénombré est au singulier et à l'accusatif ;
+  - après `كَمْ` interrogatif, le nom compté est en général au singulier et à l'accusatif ; `كَمْ ثَمَنُ…` : `ثَمَنُ` est le sujet ;
+  - `كُلُّ` + pronom : « tous » ; `كُلُّ` + nom indéfini singulier : « chaque » ;
+  - `كَمْ` (fatha) ≠ `كُمْ` (damma, chapitre 10) ;
+  - un pluriel en `◌َاتٌ` n'est pas toujours féminin (`حَمَّامَاتٌ`, `رِيَالَاتٌ`) et un féminin n'a pas toujours de ة (`بِنْتٌ`, `أُخْتٌ`) ;
+  - les noms de pays qui finissent par un alif long ne changent pas à l'écrit.
+- **Corrections après relecture (3 relecteurs indépendants + relecture du diff) :**
+  - explications fausses corrigées : « seuls les nombres de 3 à 10 se placent devant le dénombré » (11 à 99 aussi) ; « كُلٌّ prend la damma » (la voyelle suit le rôle) ; « aucun exercice ne les exige » (dialogue) ; la question du livre est `كَمْ اِبْنًا` (fils), la variante `بِنْتًا` est annoncée comme telle ;
+  - `إِخْوَةٌ` / `إِخْوَانٌ` : « surtout » (le Coran emploie `إِخْوَةٌ` pour les frères en religion, 49:10) ;
+  - réponses ajoutées : ordre inverse des mots pour `فِي الْأُسْبُوعِ سَبْعَةُ أَيَّامٍ`, `ثَمَانِيَةُ مَسَاجِدَ فِي هٰذَا الشَّارِعِ`, `خَمْسَةُ رُكَّابٍ فِي السَّيَّارَةِ`, `طَالِبَانِ اثْنَانِ` ;
+  - rythme : pas de 4 présentations d'affilée ni de 3 `typing` d'affilée ;
+  - notes ajoutées : chiffres ٥ / ٠ et chiffres du Maghreb, `ن` du duel, `كُلُّ` + nom défini, `ثَمَانِيَ` à l'accusatif, récitation des nombres sans nom (forme en `ة`), `قُدَمَاءُ`, « des qirsh » invariable, plusieurs pays ont un riyal ;
+  - `قُدَامَى` pluriel de `قَدِيمٌ` : attesté (Wiktionnaire, dictionnaires modernes) mais non retrouvé dans Lisān al-ʿArab / al-Wasīṭ par le relecteur : **à confirmer avec le professeur**.
+- **Pas de nouvelle icône.** Modification de `core` : `ArabicScript.problems` accepte les chiffres arabes seuls.
+
 ## Audio
 
 Aucun MP3 n'est encore généré : l'app utilise la synthèse vocale arabe du téléphone en attendant
