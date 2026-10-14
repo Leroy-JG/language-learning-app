@@ -41,7 +41,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Pour **deux**, l'arabe n'emploie pas le pluriel : il met le nom au **duel** ({ar|الْمُثَنَّى}, chapitre 13). Au nominatif, le nom prend la terminaison {ar|◌َانِ}. Le mot {ar|اِثْنَانِ} (masculin) ou {ar|اِثْنَتَانِ} (féminin) peut s'ajouter après, pour insister."
+          "text": "Pour **deux**, l'arabe n'emploie pas le pluriel : il met le nom au **duel** ({ar|الْمُثَنَّى}, chapitre 18). Au nominatif, le nom prend la terminaison {ar|◌َانِ}. Le mot {ar|اِثْنَانِ} (masculin) ou {ar|اِثْنَتَانِ} (féminin) peut s'ajouter après, pour insister, mais le duel suffit."
         },
         {
           "type": "compare",
@@ -65,7 +65,7 @@
         },
         {
           "type": "note",
-          "text": "Le duel a d'autres formes dans d'autres rôles ({ar|◌َيْنِ}) : tu le verras plus tard. Retiens seulement que pour deux, on ne dit jamais un pluriel."
+          "text": "Dans les autres rôles, le duel se termine par {ar|◌َيْنِ} (chapitre 18). Retiens surtout que pour deux, on ne dit jamais un pluriel."
         },
         { "type": "note", "text": "Le {ar|ن} de la terminaison remplace le tanwin : le duel n'a jamais de tanwin." }
       ]

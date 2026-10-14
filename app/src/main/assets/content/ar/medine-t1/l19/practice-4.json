@@ -99,15 +99,15 @@
       "id": "medine-t1.l19.practice-4#11",
       "type": "typing",
       "ask": "question",
-      "question": "كَمْ رَاكِبًا فِي السَّيَّارَةِ؟",
+      "question": "كَمْ رَاكِبًا فِي الْحَافِلَةِ؟",
       "answers": [
-        "فِي السَّيَّارَةِ خَمْسَةُ رُكَّابٍ.",
-        "خَمْسَةُ رُكَّابٍ.",
-        "فِيهَا خَمْسَةُ رُكَّابٍ.",
-        "خَمْسَةُ رُكَّابٍ فِي السَّيَّارَةِ."
+        "فِي الْحَافِلَةِ تِسْعَةُ رُكَّابٍ.",
+        "تِسْعَةُ رُكَّابٍ.",
+        "فِيهَا تِسْعَةُ رُكَّابٍ.",
+        "تِسْعَةُ رُكَّابٍ فِي الْحَافِلَةِ."
       ],
-      "fr": "Il y a cinq passagers dans la voiture.",
-      "instruction": "Réponds avec le nombre {ar|٥}.",
+      "fr": "Il y a neuf passagers dans le bus.",
+      "instruction": "Réponds avec le nombre {ar|٩}.",
       "explain": "{ar|رَاكِبٌ} est masculin : le nombre prend le {ar|ة}."
     },
     {

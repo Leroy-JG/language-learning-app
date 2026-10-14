@@ -67,8 +67,8 @@
     {
       "id": "medine-t1.l19.practice-5#7",
       "type": "fill_gap",
-      "sentence": "فِي هٰذَا الشَّارِعِ تِسْعَةُ بُيُوتٍ {0}.",
-      "fr": "Dans cette rue, il y a neuf maisons neuves.",
+      "sentence": "فِي هٰذَا الْحَيِّ تِسْعَةُ بُيُوتٍ {0}.",
+      "fr": "Dans ce quartier, il y a neuf maisons neuves.",
       "gaps": [ { "answers": ["جَدِيدَةٍ"] } ],
       "options": ["جَدِيدَةٍ", "جَدِيدٍ", "جَدِيدًا"],
       "explain": "{ar|بُيُوتٌ} est un pluriel de choses : l'adjectif se met en général au féminin singulier."

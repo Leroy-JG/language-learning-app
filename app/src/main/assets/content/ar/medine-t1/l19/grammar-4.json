@@ -11,17 +11,9 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Pour demander « combien ? », on emploie {ar|كَمْ}. C'est un nom interrogatif de plus, après {ar|مَا}, {ar|مَنْ}, {ar|أَيْنَ}, {ar|كَيْفَ}, {ar|أَيُّ} et {ar|مَتَى} (chapitre 15) : il demande la quantité."
+          "text": "Tu connais {ar|كَمْ} (« combien ? », chapitre 18), le nom interrogatif de la quantité. Maintenant que tu sais compter, tu peux répondre à la question avec un nombre."
         }
       ]
-    },
-    { "id": "medine-t1.l19.grammar-4#2", "type": "present", "item": "w:kam" },
-    {
-      "id": "medine-t1.l19.grammar-4#3",
-      "type": "mcq",
-      "mode": "ar-fr",
-      "item": "w:kam",
-      "distractors": ["w:ayna", "w:mata"]
     },
     {
       "id": "medine-t1.l19.grammar-4#4",

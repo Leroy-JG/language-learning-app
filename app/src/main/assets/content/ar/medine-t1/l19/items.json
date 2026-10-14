@@ -164,15 +164,6 @@
     "example": { "ar": "حَفِظَ زَيْدٌ نِصْفَ الْقُرْآنِ.", "fr": "Zayd a mémorisé la moitié du Coran." }
   },
   {
-    "id": "w:kam",
-    "kind": "word",
-    "ar": "كَمْ",
-    "fr": "combien… ?",
-    "translit": "kam",
-    "note": "Nom interrogatif de la quantité. Comme {ar|مَا}, {ar|مَنْ}, {ar|أَيْنَ} et {ar|مَتَى}, il est invariable et se place en général en tête de la question. Attention : {ar|كَمْ} (« combien ») a une fatha ; {ar|كُمْ} (« votre », chapitre 10) a une damma.",
-    "example": { "ar": "كَمْ كِتَابًا عِنْدَكَ؟", "fr": "Combien de livres as-tu ? (à un homme)" }
-  },
-  {
     "id": "w:rakib",
     "kind": "word",
     "ar": "رَاكِبٌ",
@@ -181,7 +172,7 @@
     "plural": "رُكَّابٌ",
     "gender": "m",
     "note": "Celui qui monte dans un véhicule (ou sur une monture : le mot veut aussi dire « cavalier »).",
-    "example": { "ar": "الطُّلَّابُ رُكَّابٌ فِي السَّيَّارَةِ.", "fr": "Les étudiants sont des passagers dans la voiture." }
+    "example": { "ar": "الطُّلَّابُ رُكَّابٌ فِي الْحَافِلَةِ.", "fr": "Les étudiants sont des passagers dans le bus." }
   },
   {
     "id": "w:kull",

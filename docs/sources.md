@@ -765,7 +765,7 @@ Notes de choix dans un fichier à part : `docs/sources-lecon-17.md` (les chapitr
 ### Leçon 19 (`l19`)
 
 - **Support :** un seul PDF de 15 pages (cours 19 : diapos « les nombres de 1 à 10 » avec les deux formes de chaque nombre, diapos sur le dénombré, dialogue du livre, exercices 1 à 4, vocabulaire nouveau, « expressions nouvelles »).
-- **Chapitre écrit en parallèle des leçons 16, 17 et 18** (autres conversations) : `l19` ne s'appuie que sur le contenu publié jusqu'à la leçon 15. Mots susceptibles d'être aussi définis par les leçons 16 à 18 (à dédoublonner à la fusion : garder l'id du chapitre le plus ancien, retirer le mot de `l19/items.json` et vérifier que les exemples restent compris) : `w:kam` (كَمْ), `w:kull`, `w:shukran`, `w:inkiltira`, `w:uruba`, `w:malizya`, `w:qudama`, `w:mukhtalif`.
+- **Chapitre écrit en parallèle des leçons 16, 17 et 18** (autres conversations), puis fusionné avec `main` : `w:kam` (défini au chapitre 18) a été retiré de `l19/items.json` et `grammar-4` ne le présente plus (simple rappel) ; le duel, enseigné au chapitre 18 (`docs/sources-lecon-18.md`), est rappelé dans `grammar-3`. `حَافِلَةٌ` (chapitre 17) et `حَيٌّ` (chapitre 18) étant désormais enseignés, les exercices du livre ont retrouvé leurs mots d'origine (`فِي هٰذَا الْحَيِّ`, `كَمْ رَاكِبًا فِي الْحَافِلَةِ؟ (٩)`, exemple de `رَاكِبٌ`).
 - **Exercices et textes du livre repris :**
   - tableau des nombres 1 à 10 → `vocab-1`, `vocab-2` (un item par nombre, avec les deux formes : « nom masculin، nom féminin ») ;
   - diapos du dénombré et des trois règles (3 à 10) → `grammar-1` (annexion, pluriel, génitif) et `grammar-2` (genre contraire, « regarde le singulier ») ;
@@ -779,13 +779,13 @@ Notes de choix dans un fichier à part : `docs/sources-lecon-17.md` (les chapitr
 - **Écarts avec le PDF :**
   - les deux formes de chaque nombre sont classées **selon le genre du dénombré** (forme avec ة d'abord pour 3 à 10), alors que le PDF les aligne dans l'autre ordre (forme sans ة d'abord) ; la diapo du professeur dit bien que ثَلَاثَةٌ va avec un dénombré masculin ;
   - exemple de مُخْتَلِفٌ du PDF (« les savants divergent sur les ablutions après avoir mangé de la viande de chameau ») non repris : mots non enseignés (الْعُلَمَاءُ، الْوُضُوءُ، الْإِبِلُ) ; remplacé par les expressions nouvelles du PDF (لُغَاتُهُمْ مُخْتَلِفَةٌ, هُمْ مِنْ بِلَادٍ مُخْتَلِفَةٍ) ; la phrase هُمْ مُخْتَلِفُونَ فِي هٰذَا est citée dans la note ;
-  - exemple de رَاكِب (« الطُّلَّابُ رُكَّابٌ فِي الْحَافِلَةِ ») : `حَافِلَةٌ` n'est pas enseigné → `فِي السَّيَّارَةِ` ; exemple de نِصْف repris (حَفِظَ زَيْدٌ نِصْفَ الْقُرْآنِ) car tous ses mots sont connus ;
-  - exercice 2 : phrase 2 (`خَالِدٌ لَهُ سِتَّةُ أَبْنَاءٍ`) → `لِخَالِدٍ سِتَّةُ أَبْنَاءٍ` (`لَهُ` n'est pas enseigné) ; phrase 6 (`فِي هٰذَا الْحَيِّ`) → `فِي هٰذَا الشَّارِعِ` (`الْحَيُّ` n'est pas enseigné) ;
-  - exercice 3 : question 3 (`كَمْ ابْنًا لَكَ يَا شَيْخُ؟`) → `كَمْ بِنْتًا لَكَ يَا شَيْخُ؟` (réponse `سِتُّ بَنَاتٍ`) : devant l'alif de liaison de `ابْنًا`, la mim de `كَمْ` prend une kasra (non enseigné), et la fille permet de travailler le féminin ; question 4 (`كَمْ سُؤَالًا فِي هٰذَا الدَّرْسِ؟`) → `كَمْ مَسْجِدًا فِي هٰذَا الشَّارِعِ؟` (`سُؤَالٌ` n'est pas enseigné) ; question 5 : `الْحَافِلَةِ` → `السَّيَّارَةِ` ;
+  - exemple de نِصْف repris (حَفِظَ زَيْدٌ نِصْفَ الْقُرْآنِ) car tous ses mots sont connus ;
+  - exercice 2 : phrase 2 (`خَالِدٌ لَهُ سِتَّةُ أَبْنَاءٍ`) → `لِخَالِدٍ سِتَّةُ أَبْنَاءٍ` (`لَهُ` n'est pas enseigné) ;
+  - exercice 3 : question 3 (`كَمْ ابْنًا لَكَ يَا شَيْخُ؟`) → `كَمْ بِنْتًا لَكَ يَا شَيْخُ؟` (réponse `سِتُّ بَنَاتٍ`) : devant l'alif de liaison de `ابْنًا`, la mim de `كَمْ` prend une kasra (non enseigné), et la fille permet de travailler le féminin ; question 4 (`كَمْ سُؤَالًا فِي هٰذَا الدَّرْسِ؟`) → `كَمْ مَسْجِدًا فِي هٰذَا الشَّارِعِ؟` (`سُؤَالٌ` n'est pas enseigné) ;
   - « Combien de livre possède tu ? » (PDF) : corrigé en « Combien de livres as-tu ? » ; « Combien coute » : « Combien coûte » ;
   - `قِرْشٌ` : le PDF dit « centime saoudien » ; l'app dit « petite pièce saoudienne » (note : « petite subdivision du riyal ») ; `ثَمَنٌ` : l'exemple du PDF est repris ;
   - le professeur dit que les nombres « sont toujours accompagnés du dénombré » : l'app écrit « quand on compte des choses » (le nombre peut aussi être employé seul, comme `عَدَدُ الطُّلَّابِ عَشَرَةٌ`) ;
-  - le duel (`طَالِبَانِ`, `اِثْنَانِ`) est seulement montré en aperçu (`grammar-3`) ; aucune déclinaison du duel n'est exigée ;
+  - le duel (`طَالِبَانِ`, `اِثْنَانِ`) est enseigné au chapitre 18 : `grammar-3` le rappelle pour le nombre deux ;
   - `قُدَامَى` n'a pas de traduction dans le PDF : « anciens » (par opposition à `جُدُدٌ`), noté comme pluriel de `قَدِيمٌ` ;
   - `مَالِيزِيَا`, `أُورُبَّا`, `إِنْكِلْتِرَا` : le PDF écrit les voyelles de façon incomplète ; formes retenues : celles du dictionnaire / de la leçon 14.
 - **Choix de contenu :**
