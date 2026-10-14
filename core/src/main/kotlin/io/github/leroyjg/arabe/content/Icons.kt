@@ -17,5 +17,6 @@ object Icons {
         "bicycle", "spoon", "window", "ear", "nose", "leg", "cow", "farmer", "tea", "hen", "pot",
         "duck", "egg", "tree",
         "airplane", "hotel", "mountain", "sea",
+        "circle_red", "circle_green", "circle_blue", "circle_black", "circle_white", "circle_yellow", "cup",
     )
 }

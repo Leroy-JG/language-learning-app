@@ -25,7 +25,7 @@ def fr(s):
 
 def conv(o, key=None):
     if isinstance(o, str):
-        return o if key in ("ar", "id") else fr(o)
+        return o if key in ("ar", "id", "sentence", "answers", "words", "options", "distractors") else fr(o)
     if isinstance(o, list):
         return [conv(x, key) for x in o]
     if isinstance(o, dict):

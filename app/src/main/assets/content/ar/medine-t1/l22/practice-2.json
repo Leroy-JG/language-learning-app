@@ -1,0 +1,103 @@
+{
+  "id": "medine-t1.l22.practice-2",
+  "type": "grammar",
+  "title": "Des pluriels sans tanwin",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l22.practice-2#1",
+      "type": "tip",
+      "title": "Les pluriels du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne quatre groupes de pluriels sans tanwin. Les deux premiers finissent par {ar|اءُ} ; les deux autres sont de forme longue (chapitre 4)."
+        },
+        {
+          "type": "table",
+          "header": ["Groupe", "Les pluriels du livre"],
+          "rows": [
+            ["a", "{ar|أَغْنِيَاءُ}, {ar|أَصْدِقَاءُ}, {ar|أَقْوِيَاءُ}, {ar|أَطِبَّاءُ}"],
+            ["b", "{ar|فُقَرَاءُ}, {ar|وُزَرَاءُ}, {ar|زُمَلَاءُ}, {ar|عُلَمَاءُ}"],
+            ["c", "{ar|مَسَاجِدُ}, {ar|مَدَارِسُ}, {ar|فَنَادِقُ}, {ar|مَكَاتِبُ}, {ar|دَقَائِقُ}"],
+            ["d", "{ar|مَنَادِيلُ}, {ar|مَفَاتِيحُ}, {ar|فَنَاجِينُ}, {ar|كَرَاسِيُّ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Attention à deux pluriels qui ressemblent à ceux du groupe b mais gardent leur tanwin (chapitre 5) : {ar|أَبْنَاءٌ} et {ar|أَسْمَاءٌ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.practice-2#2",
+      "type": "sort",
+      "categories": [ { "fr": "avec tanwin" }, { "fr": "sans tanwin, en {ar|اءُ}" }, { "fr": "sans tanwin, de forme longue" } ],
+      "cards": [
+        { "ar": "أَقْلَامٌ", "category": 0 },
+        { "ar": "أَبْنَاءٌ", "category": 0 },
+        { "ar": "كُتُبٌ", "category": 0 },
+        { "ar": "أَغْنِيَاءُ", "category": 1 },
+        { "ar": "عُلَمَاءُ", "category": 1 },
+        { "ar": "مَسَاجِدُ", "category": 2 },
+        { "ar": "مَنَادِيلُ", "category": 2 },
+        { "ar": "دَقَائِقُ", "category": 2 }
+      ],
+      "instruction": "Ce pluriel a-t-il un tanwin ? Range chaque pluriel.",
+      "explain": "{ar|أَقْلَامٌ}, {ar|أَبْنَاءٌ} et {ar|كُتُبٌ} gardent leur tanwin. {ar|أَغْنِيَاءُ} et {ar|عُلَمَاءُ} finissent par {ar|اءُ} ; {ar|مَسَاجِدُ}, {ar|مَنَادِيلُ} et {ar|دَقَائِقُ} sont de forme longue : sans tanwin."
+    },
+    {
+      "id": "medine-t1.l22.practice-2#3",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:ghani", "w:wazir", "w:miftah", "w:finjan", "w:daqiqa"]
+    },
+    {
+      "id": "medine-t1.l22.practice-2#4",
+      "type": "question",
+      "prompt": { "fr": "Un seul de ces pluriels a un tanwin. Lequel ?" },
+      "choices": [ { "ar": "أَقْلَامٌ" }, { "ar": "مَسَاجِدُ" }, { "ar": "أَغْنِيَاءُ" } ],
+      "answer": 0,
+      "explain": "{ar|أَقْلَامٌ} n'est ni de forme longue ni en {ar|اءُ} : il garde son tanwin."
+    },
+    {
+      "id": "medine-t1.l22.practice-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Un pluriel de forme longue comme {ar|مَنَادِيلُ} a un tanwin." },
+      "answer": false,
+      "explain": "Les pluriels de forme longue n'ont pas de tanwin : {ar|مَنَادِيلُ}, {ar|مَفَاتِيحُ}, {ar|فَنَاجِينُ}."
+    },
+    {
+      "id": "medine-t1.l22.practice-2#6",
+      "type": "fill_gap",
+      "sentence": "عِنْدِي {0} كَثِيرَةٌ.",
+      "fr": "J'ai beaucoup de mouchoirs.",
+      "gaps": [ { "answers": ["مَنَادِيلُ"] } ],
+      "options": ["مَنَادِيلُ", "مَفَاتِيحُ", "فَنَاجِينُ"],
+      "explain": "{ar|مَنَادِيلُ} : des mouchoirs, le pluriel de {ar|مِنْدِيلٌ}."
+    },
+    {
+      "id": "medine-t1.l22.practice-2#7",
+      "type": "order",
+      "fr": "Dans la voiture, il y a beaucoup de clés.",
+      "answers": [["فِي", "السَّيَّارَةِ", "مَفَاتِيحُ", "كَثِيرَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l22.practice-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des tasses",
+      "answers": ["فَنَاجِينُ"]
+    },
+    {
+      "id": "medine-t1.l22.practice-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "cinq minutes",
+      "answers": ["خَمْسُ دَقَائِقَ"],
+      "explain": "{ar|دَقِيقَةٌ} est féminin : {ar|خَمْسُ} (sans {ar|ة}). Le pluriel prend la fatha : {ar|دَقَائِقَ}."
+    }
+  ]
+}

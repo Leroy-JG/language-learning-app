@@ -1,0 +1,92 @@
+{
+  "id": "medine-t1.l22.vocab-2",
+  "type": "vocabulary",
+  "title": "Une minute, une tasse",
+  "icon": "cup",
+  "screens": [
+    { "id": "medine-t1.l22.vocab-2#1", "type": "present", "item": "w:daqiqa" },
+    { "id": "medine-t1.l22.vocab-2#2", "type": "present", "item": "w:finjan" },
+    {
+      "id": "medine-t1.l22.vocab-2#3",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:finjan",
+      "distractors": ["w:bab", "w:qalam"]
+    },
+    { "id": "medine-t1.l22.vocab-2#4", "type": "present", "item": "w:qalil" },
+    {
+      "id": "medine-t1.l22.vocab-2#5",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:qalil",
+      "distractors": ["w:kathir", "w:kabir"]
+    },
+    {
+      "id": "medine-t1.l22.vocab-2#6",
+      "type": "tip",
+      "title": "Des pluriels de forme longue",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les pluriels de {ar|دَقِيقَةٌ} et de {ar|فِنْجَانٌ} sont de **forme longue** (chapitre 4) : un alif long après la deuxième lettre, puis deux ou trois lettres. Ils n'ont pas de tanwin."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "دَقِيقَةٌ", "fr": "une minute" },
+              "to": { "ar": "دَقَائِقُ", "fr": "des minutes" },
+              "label": "le {ar|ي} devient une hamza"
+            },
+            { "from": { "ar": "فِنْجَانٌ", "fr": "une tasse" }, "to": { "ar": "فَنَاجِينُ", "fr": "des tasses" } },
+            {
+              "from": { "ar": "مِنْدِيلٌ", "fr": "un mouchoir" },
+              "to": { "ar": "مَنَادِيلُ", "fr": "des mouchoirs" }
+            },
+            { "from": { "ar": "مِفْتَاحٌ", "fr": "une clé" }, "to": { "ar": "مَفَاتِيحُ", "fr": "des clés" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.vocab-2#7",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:daqiqa", "w:finjan", "w:mindil", "w:miftah"]
+    },
+    {
+      "id": "medine-t1.l22.vocab-2#8",
+      "type": "fill_gap",
+      "sentence": "الْفِنْجَانُ {0}.",
+      "fr": "La tasse est pleine.",
+      "gaps": [ { "answers": ["مَلْآنُ"] } ],
+      "options": ["مَلْآنُ", "كَسْلَانُ", "مَفْتُوحٌ"],
+      "explain": "{ar|مَلْآنُ} : plein (chapitre 9). Il n'a pas de tanwin."
+    },
+    {
+      "id": "medine-t1.l22.vocab-2#9",
+      "type": "fill_gap",
+      "sentence": "فِي الْفِنْجَانِ {0}.",
+      "fr": "Il y a du lait dans la tasse.",
+      "gaps": [ { "answers": ["لَبَنٌ"] } ],
+      "options": ["لَبَنٌ", "كِتَابٌ", "قَلَمٌ"]
+    },
+    {
+      "id": "medine-t1.l22.vocab-2#10",
+      "type": "order",
+      "fr": "J'ai cinq minutes.",
+      "answers": [["عِنْدِي", "خَمْسُ", "دَقَائِقَ"]],
+      "punctuation": ".",
+      "explain": "{ar|دَقِيقَةٌ} est féminin : le nombre prend la forme sans {ar|ة} ({ar|خَمْسُ}). Le pluriel {ar|دَقَائِقَ} prend la fatha (chapitre 19)."
+    },
+    { "id": "medine-t1.l22.vocab-2#11", "type": "typing", "ask": "fr", "item": "w:finjan" },
+    {
+      "id": "medine-t1.l22.vocab-2#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai peu de mouchoirs.",
+      "answers": ["عِنْدِي مَنَادِيلُ قَلِيلَةٌ."],
+      "explain": "Avec un pluriel de choses, l'adjectif se met au féminin singulier : {ar|قَلِيلَةٌ}."
+    }
+  ]
+}

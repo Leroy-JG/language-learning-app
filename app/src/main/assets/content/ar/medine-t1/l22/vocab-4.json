@@ -1,0 +1,108 @@
+{
+  "id": "medine-t1.l22.vocab-4",
+  "type": "vocabulary",
+  "title": "Des villes",
+  "icon": "sea",
+  "screens": [
+    { "id": "medine-t1.l22.vocab-4#1", "type": "present", "item": "w:jidda" },
+    { "id": "medine-t1.l22.vocab-4#2", "type": "present", "item": "w:baghdad" },
+    {
+      "id": "medine-t1.l22.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:jidda",
+      "distractors": ["w:makka", "w:baris"]
+    },
+    {
+      "id": "medine-t1.l22.vocab-4#4",
+      "type": "tip",
+      "title": "Des villes sans tanwin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme {ar|مَكَّةُ} (chapitre 4) et {ar|بَارِيسُ} (chapitre 14), ces villes n'ont pas de tanwin. Après une préposition, sans article, elles prennent la fatha."
+        },
+        {
+          "type": "table",
+          "header": ["Villes", "Pourquoi pas de tanwin ?"],
+          "rows": [
+            ["{ar|جُدَّةُ}, {ar|مَكَّةُ}", "noms propres féminins en {ar|ة}"],
+            [
+              "{ar|بَغْدَادُ}, {ar|بَارِيسُ}, {ar|لَنْدَنُ}, {ar|بَاكِسْتَانُ}",
+              "noms propres non arabes de plus de trois lettres"
+            ]
+          ]
+        },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "جُدَّةُ", "fr": "Djeddah" }, "to": { "ar": "فِي جُدَّةَ", "fr": "à Djeddah" } },
+            {
+              "from": { "ar": "بَغْدَادُ", "fr": "Bagdad" },
+              "to": { "ar": "إِلَى بَغْدَادَ", "fr": "vers Bagdad" }
+            },
+            { "from": { "ar": "بَارِيسُ", "fr": "Paris" }, "to": { "ar": "مِنْ بَارِيسَ", "fr": "de Paris" } },
+            {
+              "from": { "ar": "بَاكِسْتَانُ", "fr": "le Pakistan" },
+              "to": { "ar": "مِنْ بَاكِسْتَانَ", "fr": "du Pakistan" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.vocab-4#5",
+      "type": "sort",
+      "categories": [ { "fr": "en Arabie saoudite" }, { "fr": "dans un autre pays" } ],
+      "cards": [
+        { "item": "w:makka", "category": 0 },
+        { "item": "w:jidda", "category": 0 },
+        { "item": "w:baghdad", "category": 1 },
+        { "item": "w:baris", "category": 1 },
+        { "item": "w:landan", "category": 1 }
+      ],
+      "instruction": "Dans quel pays se trouve cette ville ?",
+      "explain": "La Mecque et Djeddah sont en Arabie saoudite ; Bagdad est en Irak, Paris en France, Londres en Angleterre."
+    },
+    {
+      "id": "medine-t1.l22.vocab-4#6",
+      "type": "fill_gap",
+      "sentence": "فَاطِمَةُ فِي {0}.",
+      "fr": "Fāṭima est à Djeddah.",
+      "gaps": [ { "answers": ["جُدَّةَ"] } ],
+      "options": ["جُدَّةَ", "بَارِيسَ", "بَغْدَادَ"],
+      "explain": "{ar|جُدَّةُ} est privé de tanwin : après {ar|فِي}, il prend la fatha."
+    },
+    {
+      "id": "medine-t1.l22.vocab-4#7",
+      "type": "fill_gap",
+      "sentence": "هُوَ مِنْ {0}.",
+      "fr": "Il est de Bagdad.",
+      "gaps": [ { "answers": ["بَغْدَادَ"] } ],
+      "options": ["بَغْدَادَ", "جُدَّةَ", "لَنْدَنَ"],
+      "explain": "{ar|بَغْدَادُ} : après {ar|مِنْ}, la fatha."
+    },
+    {
+      "id": "medine-t1.l22.vocab-4#8",
+      "type": "order",
+      "fr": "Aḥmad est du Pakistan.",
+      "answers": [["أَحْمَدُ", "مِنْ", "بَاكِسْتَانَ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.l22.vocab-4#9", "type": "build", "item": "w:jidda", "extra": ["ه"] },
+    {
+      "id": "medine-t1.l22.vocab-4#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis de Paris.",
+      "answers": ["أَنَا مِنْ بَارِيسَ."]
+    },
+    {
+      "id": "medine-t1.l22.vocab-4#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Fāṭima est à Djeddah.",
+      "answers": ["فَاطِمَةُ فِي جُدَّةَ."]
+    }
+  ]
+}

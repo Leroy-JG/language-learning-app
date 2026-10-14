@@ -1,0 +1,133 @@
+{
+  "id": "medine-t1.l22.grammar-3",
+  "type": "grammar",
+  "title": "Les mots en -ān",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l22.grammar-3#1",
+      "type": "tip",
+      "title": "Des mots en -ān",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Regarde ces adjectifs que tu connais et ces prénoms d'hommes. Tous finissent par un alif long suivi de {ar|نُ} (« -ānu »), et aucun n'a de tanwin."
+        },
+        {
+          "type": "table",
+          "header": ["Adjectif", "Prénom d'homme"],
+          "rows": [
+            ["{ar|كَسْلَانُ} (paresseux)", "{ar|عُثْمَانُ} (ʿUthmān)"],
+            ["{ar|جَوْعَانُ} (affamé)", "{ar|سُفْيَانُ} (Sufyān)"],
+            ["{ar|عَطْشَانُ} (assoiffé)", "{ar|مَرْوَانُ} (Marwān)"],
+            ["{ar|شَبْعَانُ} (rassasié)", "{ar|نُعْمَانُ} (Nuʿmān)"],
+            ["{ar|مَلْآنُ} (plein)", "{ar|عَفَّانُ} (ʿAffān)"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le professeur appelle la forme de ces adjectifs {ar|فَعْلَانُ} : les trois lettres de la racine ({ar|ك} {ar|س} {ar|ل} dans {ar|كَسْلَانُ}) suivies de {ar|انُ}. Les prénoms ont une forme très proche."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.grammar-3#2",
+      "type": "tip",
+      "title": "Attention : un nom commun garde son tanwin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un nom **commun** qui finit par {ar|انٌ} garde son tanwin. La règle vaut pour ces adjectifs et pour la plupart de ces prénoms."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "عُثْمَانُ", "fr": "ʿUthmān" },
+              "to": { "ar": "مِنْ عُثْمَانَ", "fr": "de la part de ʿUthmān" },
+              "label": "sans tanwin : fatha"
+            },
+            {
+              "from": { "ar": "كَسْلَانُ", "fr": "paresseux" },
+              "to": { "ar": "مِنْ طَالِبٍ كَسْلَانَ", "fr": "d'un étudiant paresseux" },
+              "label": "l'adjectif prend la fatha"
+            },
+            {
+              "from": { "ar": "مَكَانٌ", "fr": "un endroit" },
+              "to": { "ar": "فِي مَكَانٍ", "fr": "dans un endroit" },
+              "label": "nom commun : tanwin et kasra"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "{ar|فِنْجَانٌ} (une tasse) et {ar|مَكَانٌ} (un endroit) finissent aussi par {ar|انٌ}, mais gardent leur tanwin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.grammar-3#3",
+      "type": "sort",
+      "categories": [ { "fr": "avec tanwin ({ar|◌ٌ})" }, { "fr": "sans tanwin ({ar|◌ُ})" } ],
+      "cards": [
+        { "ar": "كَسْلَانُ", "category": 1 },
+        { "ar": "فِنْجَانٌ", "category": 0 },
+        { "ar": "عُثْمَانُ", "category": 1 },
+        { "ar": "مَكَانٌ", "category": 0 },
+        { "ar": "جَوْعَانُ", "category": 1 },
+        { "ar": "مُجْتَهِدٌ", "category": 0 },
+        { "ar": "مَلْآنُ", "category": 1 },
+        { "ar": "سُفْيَانُ", "category": 1 }
+      ],
+      "instruction": "Range chaque mot : porte-t-il le tanwin ?",
+      "explain": "Les adjectifs d'état en {ar|انُ} et ces prénoms n'ont pas de tanwin. {ar|فِنْجَانٌ} et {ar|مَكَانٌ} sont des noms communs : ils gardent leur tanwin."
+    },
+    {
+      "id": "medine-t1.l22.grammar-3#4",
+      "type": "spot",
+      "instruction": "Touche l'adjectif en -ān, qui n'a pas de tanwin.",
+      "words": ["أَحْمَدُ", "طَالِبٌ", "مُجْتَهِدٌ", "وَحَمْزَةُ", "طَالِبٌ", "كَسْلَانُ."],
+      "answers": [5],
+      "fr": "Aḥmad est un étudiant appliqué et Ḥamza est un étudiant paresseux."
+    },
+    {
+      "id": "medine-t1.l22.grammar-3#5",
+      "type": "question",
+      "prompt": { "fr": "Un seul de ces mots garde son tanwin. Lequel ?" },
+      "choices": [ { "ar": "عَطْشَانُ" }, { "ar": "مَلْآنُ" }, { "ar": "مَكَانٌ" } ],
+      "answer": 2,
+      "explain": "{ar|مَكَانٌ} est un nom commun : il garde son tanwin. {ar|عَطْشَانُ} et {ar|مَلْآنُ} sont des adjectifs en {ar|انُ} : sans tanwin."
+    },
+    {
+      "id": "medine-t1.l22.grammar-3#6",
+      "type": "true_false",
+      "statement": { "fr": "Un mot qui finit par « -ān » n'a jamais de tanwin." },
+      "answer": false,
+      "explain": "Un nom commun comme {ar|فِنْجَانٌ} ou {ar|مَكَانٌ} garde son tanwin."
+    },
+    {
+      "id": "medine-t1.l22.grammar-3#7",
+      "type": "fill_gap",
+      "sentence": "الطَّالِبُ {0}.",
+      "fr": "L'étudiant est paresseux.",
+      "gaps": [ { "answers": ["كَسْلَانُ"] } ],
+      "options": ["كَسْلَانُ", "مُجْتَهِدٌ", "مَلْآنُ"],
+      "explain": "{ar|كَسْلَانُ} : paresseux. Il n'a pas de tanwin."
+    },
+    {
+      "id": "medine-t1.l22.grammar-3#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "un étudiant paresseux",
+      "answers": ["طَالِبٌ كَسْلَانُ"]
+    },
+    {
+      "id": "medine-t1.l22.grammar-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ḥamza est un étudiant paresseux.",
+      "answers": ["حَمْزَةُ طَالِبٌ كَسْلَانُ."]
+    }
+  ]
+}

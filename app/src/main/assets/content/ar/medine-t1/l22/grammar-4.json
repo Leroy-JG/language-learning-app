@@ -1,0 +1,186 @@
+{
+  "id": "medine-t1.l22.grammar-4",
+  "type": "grammar",
+  "title": "Les six sortes de noms sans tanwin",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l22.grammar-4#1",
+      "type": "tip",
+      "title": "Pourquoi pas de tanwin ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les grammairiens disent d'un nom sans tanwin qu'il est {ar|مَمْنُوعٌ مِنَ الصَّرْفِ} (chapitre 4)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur explication : un tel nom cumule en général **deux raisons**, par exemple être un nom propre **et** être féminin, ou être un nom propre **et** être non arabe. Pour quelques formes, comme les pluriels de forme longue, une seule raison suffit."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.grammar-4#2",
+      "type": "tip",
+      "title": "Les six sortes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Depuis le début du cours, tu as rencontré six sortes de noms privés de tanwin. Voici toutes les familles, avec les noms du livre."
+        },
+        {
+          "type": "table",
+          "header": ["Sorte de nom", "Exemples du livre", "Chap."],
+          "rows": [
+            [
+              "Un nom propre féminin (une femme, une ville)",
+              "{ar|زَيْنَبُ}, {ar|مَرْيَمُ}, {ar|فَاطِمَةُ}, {ar|عَائِشَةُ}, {ar|مَكَّةُ}, {ar|جُدَّةُ}",
+              "4"
+            ],
+            ["Un prénom d'homme en {ar|ة}", "{ar|حَمْزَةُ}, {ar|أُسَامَةُ}, {ar|مُعَاوِيَةُ}, {ar|طَلْحَةُ}", "6"],
+            [
+              "Un prénom ou un adjectif en {ar|انُ}",
+              "{ar|عُثْمَانُ}, {ar|مَرْوَانُ}, {ar|كَسْلَانُ}, {ar|عَطْشَانُ}",
+              "9 et 22"
+            ],
+            [
+              "La forme {ar|أَفْعَلُ} : prénoms, adjectifs, couleurs",
+              "{ar|أَحْمَدُ}, {ar|أَكْبَرُ}, {ar|أَحْمَرُ}, {ar|أَبْيَضُ}",
+              "22"
+            ],
+            [
+              "Un nom propre non arabe de plus de trois lettres",
+              "{ar|إِبْرَاهِيمُ}, {ar|يُوسُفُ}, {ar|لَنْدَنُ}, {ar|بَغْدَادُ}",
+              "14"
+            ],
+            [
+              "Un pluriel de forme longue ou en {ar|اءُ}",
+              "{ar|مَسَاجِدُ}, {ar|مَنَادِيلُ}, {ar|أَغْنِيَاءُ}, {ar|عُلَمَاءُ}",
+              "4 et 5"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Chaque famille a ses exceptions, c'est pourquoi on dit « en général ». Par exemple, un prénom féminin de trois lettres comme {ar|هِنْدٌ} (Hind) peut garder son tanwin, et un nom propre non arabe de trois lettres comme {ar|نُوحٌ} le garde (chapitre 14)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.grammar-4#3",
+      "type": "tip",
+      "title": "La même conséquence pour tous",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quelle que soit la famille, un nom sans tanwin, sans article, prend la **fatha** à la place de la kasra après une préposition ou comme second terme d'une annexion."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "فَاطِمَةُ", "fr": "Fāṭima" },
+              "to": { "ar": "مِنْ فَاطِمَةَ", "fr": "de la part de Fāṭima" }
+            },
+            {
+              "from": { "ar": "عُثْمَانُ", "fr": "ʿUthmān" },
+              "to": { "ar": "إِلَى عُثْمَانَ", "fr": "vers ʿUthmān" }
+            },
+            {
+              "from": { "ar": "أَحْمَدُ", "fr": "Aḥmad" },
+              "to": { "ar": "كِتَابُ أَحْمَدَ", "fr": "le livre d'Aḥmad" }
+            },
+            {
+              "from": { "ar": "إِبْرَاهِيمُ", "fr": "Ibrāhīm" },
+              "to": { "ar": "بَيْتُ إِبْرَاهِيمَ", "fr": "la maison d'Ibrāhīm" }
+            },
+            {
+              "from": { "ar": "مَسَاجِدُ", "fr": "des mosquées" },
+              "to": { "ar": "فِي مَسَاجِدَ", "fr": "dans des mosquées" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Avec l'article, ces noms retrouvent la kasra : {ar|فِي الْمَسَاجِدِ} (dans les mosquées)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.grammar-4#4",
+      "type": "sort",
+      "categories": [
+        { "fr": "un nom propre féminin" },
+        { "fr": "un prénom d'homme en {ar|ة}" },
+        { "fr": "un nom propre non arabe" }
+      ],
+      "cards": [
+        { "ar": "فَاطِمَةُ", "category": 0 },
+        { "ar": "زَيْنَبُ", "category": 0 },
+        { "ar": "مَكَّةُ", "category": 0 },
+        { "ar": "حَمْزَةُ", "category": 1 },
+        { "ar": "طَلْحَةُ", "category": 1 },
+        { "ar": "أُسَامَةُ", "category": 1 },
+        { "ar": "إِسْحَاقُ", "category": 2 },
+        { "ar": "يَعْقُوبُ", "category": 2 }
+      ],
+      "instruction": "Pourquoi ce nom n'a-t-il pas de tanwin ? Range chaque nom selon sa sorte.",
+      "explain": "{ar|فَاطِمَةُ}, {ar|زَيْنَبُ}, {ar|مَكَّةُ} : des noms féminins. {ar|حَمْزَةُ}, {ar|طَلْحَةُ}, {ar|أُسَامَةُ} : des prénoms d'hommes en {ar|ة}. {ar|إِسْحَاقُ}, {ar|يَعْقُوبُ} : des noms non arabes de plus de trois lettres."
+    },
+    {
+      "id": "medine-t1.l22.grammar-4#5",
+      "type": "sort",
+      "categories": [
+        { "fr": "la forme {ar|أَفْعَلُ}" },
+        { "fr": "la terminaison {ar|انُ}" },
+        { "fr": "un nom propre non arabe" }
+      ],
+      "cards": [
+        { "ar": "أَحْمَدُ", "category": 0 },
+        { "ar": "أَخْضَرُ", "category": 0 },
+        { "ar": "أَسْعَدُ", "category": 0 },
+        { "ar": "عُثْمَانُ", "category": 1 },
+        { "ar": "كَسْلَانُ", "category": 1 },
+        { "ar": "مَرْوَانُ", "category": 1 },
+        { "ar": "إِبْرَاهِيمُ", "category": 2 },
+        { "ar": "يُوسُفُ", "category": 2 }
+      ],
+      "instruction": "Pourquoi ce nom n'a-t-il pas de tanwin ? Range chaque nom selon sa sorte.",
+      "explain": "{ar|أَحْمَدُ}, {ar|أَخْضَرُ}, {ar|أَسْعَدُ} : la forme {ar|أَفْعَلُ}. {ar|عُثْمَانُ}, {ar|كَسْلَانُ}, {ar|مَرْوَانُ} : la terminaison {ar|انُ}. {ar|إِبْرَاهِيمُ}, {ar|يُوسُفُ} : des noms non arabes."
+    },
+    {
+      "id": "medine-t1.l22.grammar-4#6",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|مَسَاجِدُ} n'a-t-il pas de tanwin ?" },
+      "choices": [
+        { "fr": "C'est un pluriel de forme longue" },
+        { "fr": "C'est un nom propre féminin" },
+        { "fr": "C'est un nom propre non arabe" }
+      ],
+      "answer": 0,
+      "explain": "{ar|مَسَاجِدُ} est le pluriel de {ar|مَسْجِدٌ}, de forme longue (alif long après la deuxième lettre)."
+    },
+    {
+      "id": "medine-t1.l22.grammar-4#7",
+      "type": "true_false",
+      "statement": { "fr": "Un prénom d'homme arabe comme {ar|مُحَمَّدٌ} est privé de tanwin." },
+      "answer": false,
+      "explain": "{ar|مُحَمَّدٌ} garde son tanwin : il n'appartient à aucune des six familles. Seuls certains prénoms, comme {ar|أَحْمَدُ} ou {ar|حَمْزَةُ}, en sont privés."
+    },
+    {
+      "id": "medine-t1.l22.grammar-4#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "C'est le livre de Fāṭima.",
+      "answers": ["هٰذَا كِتَابُ فَاطِمَةَ."]
+    },
+    {
+      "id": "medine-t1.l22.grammar-4#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "C'est la maison d'Ibrāhīm.",
+      "answers": ["هٰذَا بَيْتُ إِبْرَاهِيمَ."]
+    }
+  ]
+}

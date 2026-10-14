@@ -315,6 +315,7 @@
     "fr": "blanc",
     "translit": "abyaḍu",
     "plural": "بِيضٌ",
+    "icon": "circle_white",
     "note": "Pas de tanwin (forme {ar|أَفْعَلُ}, les noms privés de tanwin : chapitre 4). Au féminin : {ar|بَيْضَاءُ}. Son pluriel {ar|بِيضٌ} (avec une kasra) s'écrit comme {ar|بَيْضٌ} « des œufs » (chapitre 7), mais ce sont deux mots différents.",
     "example": { "ar": "الْمَسْجِدُ أَبْيَضُ.", "fr": "La mosquée est blanche." }
   },

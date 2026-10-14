@@ -1,0 +1,133 @@
+{
+  "id": "medine-t1.l22.grammar-2",
+  "type": "grammar",
+  "title": "La forme {ar|أَفْعَلُ}",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t1.l22.grammar-2#1",
+      "type": "tip",
+      "title": "Une forme qui revient",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les couleurs ont toutes la même forme. On la retrouve dans des prénoms d'hommes ({ar|أَحْمَدُ}) et dans des adjectifs comme {ar|أَكْبَرُ} (« plus grand ») ou {ar|أَجْمَلُ} (« plus beau »), que tu étudieras plus tard."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les grammairiens appellent cette forme {ar|أَفْعَلُ} : les lettres {ar|ف} {ar|ع} {ar|ل} représentent les trois lettres de la racine du mot, précédées d'un alif avec une fatha ({ar|أَ})."
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Les trois lettres de la racine", "Sens"],
+          "rows": [
+            ["{ar|أَحْمَرُ}", "{ar|ح} {ar|م} {ar|ر}", "rouge"],
+            ["{ar|أَخْضَرُ}", "{ar|خ} {ar|ض} {ar|ر}", "vert"],
+            ["{ar|أَحْمَدُ}", "{ar|ح} {ar|م} {ar|د}", "Aḥmad (un prénom)"],
+            ["{ar|أَكْبَرُ}", "{ar|ك} {ar|ب} {ar|ر}", "plus grand"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.grammar-2#2",
+      "type": "tip",
+      "title": "Pas de tanwin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les couleurs et, en général, les prénoms d'hommes et les adjectifs de cette forme sont privés de tanwin ({ar|مَمْنُوعٌ مِنَ الصَّرْفِ}). Après une préposition, ou comme second terme d'une annexion, ils prennent la fatha."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَحْمَدُ", "fr": "Aḥmad" },
+              "to": { "ar": "مِنْ أَحْمَدَ", "fr": "de la part d'Aḥmad" }
+            },
+            {
+              "from": { "ar": "أَحْمَدُ", "fr": "Aḥmad" },
+              "to": { "ar": "كِتَابُ أَحْمَدَ", "fr": "le livre d'Aḥmad" },
+              "label": "second terme d'une annexion"
+            },
+            {
+              "from": { "ar": "مُحَمَّدٌ", "fr": "Muḥammad" },
+              "to": { "ar": "مِنْ مُحَمَّدٍ", "fr": "de la part de Muḥammad" },
+              "label": "un prénom avec tanwin garde la kasra"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Un nom **commun** de cette forme, qui n'est ni une couleur, ni un adjectif, ni un prénom, garde son tanwin : {ar|أَرْنَبٌ} (un lapin)."
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "{ar|حَامِدٌ}, {ar|مُحَمَّدٌ}, {ar|أَحْمَدُ} et {ar|الْحَمْدُ} (« la louange », dans {ar|الْحَمْدُ لِلَّهِ}) viennent de la même racine {ar|ح} {ar|م} {ar|د}, qui exprime la louange. {ar|أَحْمَدُ} est aussi l'un des noms du Prophète, cité dans le Coran (sourate 61, verset 6)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l22.grammar-2#3",
+      "type": "sort",
+      "categories": [ { "fr": "avec tanwin ({ar|◌ٌ})" }, { "fr": "sans tanwin ({ar|◌ُ})" } ],
+      "cards": [
+        { "ar": "حَامِدٌ", "category": 0 },
+        { "ar": "أَحْمَدُ", "category": 1 },
+        { "ar": "مُحَمَّدٌ", "category": 0 },
+        { "ar": "أَسْعَدُ", "category": 1 },
+        { "ar": "كَبِيرٌ", "category": 0 },
+        { "ar": "أَخْضَرُ", "category": 1 },
+        { "ar": "أَنْوَرُ", "category": 1 },
+        { "ar": "خَالِدٌ", "category": 0 }
+      ],
+      "instruction": "Range chaque mot : porte-t-il le tanwin ?",
+      "explain": "{ar|أَحْمَدُ}, {ar|أَسْعَدُ}, {ar|أَنْوَرُ} et {ar|أَخْضَرُ} sont de la forme {ar|أَفْعَلُ} : sans tanwin. {ar|حَامِدٌ}, {ar|مُحَمَّدٌ}, {ar|خَالِدٌ} et {ar|كَبِيرٌ} ont une autre forme : ils gardent leur tanwin."
+    },
+    {
+      "id": "medine-t1.l22.grammar-2#4",
+      "type": "spot",
+      "instruction": "Touche les deux adjectifs qui n'ont pas de tanwin.",
+      "words": ["هٰذَا", "قَلَمٌ", "أَحْمَرُ", "وَذٰلِكَ", "كِتَابٌ", "أَصْفَرُ."],
+      "answers": [2, 5],
+      "fr": "Ceci est un stylo rouge et cela est un livre jaune."
+    },
+    {
+      "id": "medine-t1.l22.grammar-2#5",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|أَحْمَدُ} n'a-t-il pas de tanwin ?" },
+      "choices": [
+        { "fr": "C'est un prénom de la forme {ar|أَفْعَلُ}" },
+        { "fr": "C'est un prénom féminin" },
+        { "fr": "Il n'a que trois lettres" }
+      ],
+      "answer": 0,
+      "explain": "{ar|أَحْمَدُ} est de la forme {ar|أَفْعَلُ}. Ce n'est pas un prénom féminin, et il a quatre lettres."
+    },
+    {
+      "id": "medine-t1.l22.grammar-2#6",
+      "type": "fill_gap",
+      "sentence": "هٰذَا كِتَابُ {0}.",
+      "fr": "C'est le livre d'Aḥmad.",
+      "gaps": [ { "answers": ["أَحْمَدَ"] } ],
+      "options": ["أَحْمَدَ", "مُحَمَّدٍ", "زَيْدٍ"],
+      "explain": "{ar|أَحْمَدُ} est privé de tanwin : second terme d'une annexion, il prend la fatha."
+    },
+    {
+      "id": "medine-t1.l22.grammar-2#7",
+      "type": "order",
+      "fr": "C'est le stylo d'Aḥmad.",
+      "answers": [["هٰذَا", "قَلَمُ", "أَحْمَدَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l22.grammar-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Voici la maison d'Aḥmad.",
+      "answers": ["هٰذَا بَيْتُ أَحْمَدَ."]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+[
+  {
+    "id": "w:ahmar",
+    "kind": "word",
+    "ar": "أَحْمَرُ",
+    "fr": "rouge",
+    "translit": "aḥmaru",
+    "plural": "حُمْرٌ",
+    "icon": "circle_red",
+    "note": "Une couleur de cette forme n'a pas de tanwin. Au féminin : {ar|حَمْرَاءُ} (aperçu, tu le verras plus tard).",
+    "example": { "ar": "هٰذَا مِنْدِيلٌ أَحْمَرُ.", "fr": "C'est un mouchoir rouge." }
+  },
+  {
+    "id": "w:akhdar",
+    "kind": "word",
+    "ar": "أَخْضَرُ",
+    "fr": "vert",
+    "translit": "akhḍaru",
+    "plural": "خُضْرٌ",
+    "icon": "circle_green",
+    "note": "Au féminin : {ar|خَضْرَاءُ} (aperçu, tu le verras plus tard).",
+    "example": { "ar": "هٰذَا قَلَمٌ أَخْضَرُ.", "fr": "C'est un stylo vert." }
+  },
+  {
+    "id": "w:azraq",
+    "kind": "word",
+    "ar": "أَزْرَقُ",
+    "fr": "bleu",
+    "translit": "azraqu",
+    "plural": "زُرْقٌ",
+    "icon": "circle_blue",
+    "note": "Au féminin : {ar|زَرْقَاءُ} (aperçu, tu le verras plus tard).",
+    "example": { "ar": "هٰذَا كِتَابٌ أَزْرَقُ.", "fr": "C'est un livre bleu." }
+  },
+  {
+    "id": "w:aswad",
+    "kind": "word",
+    "ar": "أَسْوَدُ",
+    "fr": "noir",
+    "translit": "aswadu",
+    "plural": "سُودٌ",
+    "icon": "circle_black",
+    "note": "Au féminin : {ar|سَوْدَاءُ} (aperçu, tu le verras plus tard).",
+    "example": { "ar": "هٰذَا بَابٌ أَسْوَدُ.", "fr": "C'est une porte noire." }
+  },
+  {
+    "id": "w:asfar",
+    "kind": "word",
+    "ar": "أَصْفَرُ",
+    "fr": "jaune",
+    "translit": "aṣfaru",
+    "plural": "صُفْرٌ",
+    "icon": "circle_yellow",
+    "note": "Au féminin : {ar|صَفْرَاءُ} (aperçu, tu le verras plus tard).",
+    "example": { "ar": "هٰذَا مِفْتَاحٌ أَصْفَرُ.", "fr": "C'est une clé jaune." }
+  },
+  {
+    "id": "w:daqiqa",
+    "kind": "word",
+    "ar": "دَقِيقَةٌ",
+    "fr": "une minute",
+    "translit": "daqīqatun",
+    "plural": "دَقَائِقُ",
+    "gender": "f",
+    "note": "Son pluriel {ar|دَقَائِقُ} est de forme longue : il n'a pas de tanwin. Le {ar|ي} de {ar|دَقِيقَةٌ} est devenu une hamza, comme dans {ar|حَقِيبَةٌ} → {ar|حَقَائِبُ}.",
+    "example": { "ar": "عِنْدِي خَمْسُ دَقَائِقَ.", "fr": "J'ai cinq minutes." }
+  },
+  {
+    "id": "w:finjan",
+    "kind": "word",
+    "ar": "فِنْجَانٌ",
+    "fr": "une tasse",
+    "translit": "finjānun",
+    "plural": "فَنَاجِينُ",
+    "icon": "cup",
+    "gender": "m",
+    "note": "Une tasse à café ou à thé. Le mot finit par {ar|انٌ}, mais il garde son tanwin : c'est un nom commun (voir plus bas). Son pluriel {ar|فَنَاجِينُ} est de forme longue : sans tanwin.",
+    "example": { "ar": "فِي الْفِنْجَانِ لَبَنٌ.", "fr": "Il y a du lait dans la tasse." }
+  },
+  {
+    "id": "w:qalil",
+    "kind": "word",
+    "ar": "قَلِيلٌ",
+    "fr": "peu nombreux",
+    "translit": "qalīlun",
+    "note": "Le contraire de {ar|كَثِيرٌ}. Comme {ar|كَثِيرٌ}, il se met au féminin singulier avec un pluriel de choses : {ar|مَنَادِيلُ قَلِيلَةٌ}.",
+    "example": { "ar": "عِنْدِي أَقْلَامٌ قَلِيلَةٌ.", "fr": "J'ai peu de stylos." }
+  },
+  {
+    "id": "w:qala",
+    "kind": "word",
+    "ar": "قَالَ",
+    "fr": "il a dit (dire)",
+    "translit": "qāla",
+    "note": "Passé, troisième personne du masculin singulier, comme {ar|خَرَجَ} et {ar|ذَهَبَ}. On s'en sert pour rapporter une parole : {ar|قَالَ زَيْدٌ} (Zayd a dit).",
+    "example": { "ar": "قَالَ زَيْدٌ : نَعَمْ.", "fr": "Zayd a dit : « Oui. »" }
+  },
+  {
+    "id": "w:qalat",
+    "kind": "word",
+    "ar": "قَالَتْ",
+    "fr": "elle a dit (dire)",
+    "translit": "qālat",
+    "note": "Avec un sujet féminin, le verbe prend le {ar|تْ} du féminin (chapitre 12) : {ar|قَالَتْ فَاطِمَةُ} (Fāṭima a dit).",
+    "example": { "ar": "قَالَتْ فَاطِمَةُ : لَا.", "fr": "Fāṭima a dit : « Non. »" }
+  },
+  {
+    "id": "w:jidda",
+    "kind": "word",
+    "ar": "جُدَّةُ",
+    "fr": "Djeddah",
+    "translit": "juddatu",
+    "gender": "f",
+    "note": "Grande ville d'Arabie saoudite, au bord de la mer Rouge, près de La Mecque. Comme {ar|مَكَّةُ}, c'est un nom propre féminin en {ar|ة} : sans tanwin.",
+    "example": { "ar": "فَاطِمَةُ فِي جُدَّةَ.", "fr": "Fāṭima est à Djeddah." }
+  },
+  {
+    "id": "w:baghdad",
+    "kind": "word",
+    "ar": "بَغْدَادُ",
+    "fr": "Bagdad",
+    "translit": "baghdādu",
+    "note": "La capitale de l'Irak. Son nom n'est pas arabe à l'origine (il vient du persan) et il a plus de trois lettres : il n'a pas de tanwin, comme {ar|لَنْدَنُ} et {ar|بَارِيسُ}.",
+    "example": { "ar": "هُوَ مِنْ بَغْدَادَ.", "fr": "Il est de Bagdad." }
+  }
+]
