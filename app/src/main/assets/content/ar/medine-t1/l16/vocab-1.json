@@ -1,0 +1,57 @@
+{
+  "id": "medine-t1.l16.vocab-1",
+  "type": "vocabulary",
+  "title": "Voyage et paysages",
+  "icon": "airplane",
+  "screens": [
+    { "id": "medine-t1.l16.vocab-1#1", "type": "present", "item": "w:taira" },
+    { "id": "medine-t1.l16.vocab-1#2", "type": "present", "item": "w:funduq" },
+    {
+      "id": "medine-t1.l16.vocab-1#3",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:taira",
+      "distractors": ["w:sayyara", "w:darraja"]
+    },
+    { "id": "medine-t1.l16.vocab-1#4", "type": "present", "item": "w:jabal" },
+    { "id": "medine-t1.l16.vocab-1#5", "type": "present", "item": "w:bahr" },
+    {
+      "id": "medine-t1.l16.vocab-1#6",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:bahr",
+      "distractors": ["w:qamar", "w:shajara"]
+    },
+    { "id": "medine-t1.l16.vocab-1#7", "type": "present", "item": "w:nahr" },
+    {
+      "id": "medine-t1.l16.vocab-1#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:taira", "w:funduq", "w:jabal", "w:bahr", "w:nahr"]
+    },
+    {
+      "id": "medine-t1.l16.vocab-1#9",
+      "type": "memory",
+      "mode": "icon-ar",
+      "items": ["w:taira", "w:funduq", "w:jabal", "w:bahr"]
+    },
+    {
+      "id": "medine-t1.l16.vocab-1#10",
+      "type": "fill_gap",
+      "sentence": "هٰذَا {0} كَبِيرٌ.",
+      "fr": "Ceci est un grand hôtel.",
+      "gaps": [ { "answers": ["فُنْدُقٌ"] } ],
+      "options": ["فُنْدُقٌ", "بَحْرٌ", "نَهْرٌ"],
+      "explain": "{ar|فُنْدُقٌ} veut dire « un hôtel »."
+    },
+    { "id": "medine-t1.l16.vocab-1#11", "type": "build", "item": "w:taira", "extra": ["ه", "ي"] },
+    { "id": "medine-t1.l16.vocab-1#12", "type": "typing", "ask": "fr", "item": "w:nahr" },
+    {
+      "id": "medine-t1.l16.vocab-1#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les avions sont à l'aéroport.",
+      "answers": ["الطَّائِرَاتُ فِي الْمَطَارِ."]
+    }
+  ]
+}

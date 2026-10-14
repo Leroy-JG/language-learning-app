@@ -191,47 +191,6 @@
     "example": { "ar": "فِي الْهِنْدِ لُغَاتٌ كَثِيرَةٌ.", "fr": "En Inde, il y a de nombreuses langues." }
   },
   {
-    "id": "w:funduq",
-    "kind": "word",
-    "ar": "فُنْدُقٌ",
-    "fr": "un hôtel",
-    "translit": "funduqun",
-    "plural": "فَنَادِقُ",
-    "gender": "m",
-    "example": { "ar": "فِي هٰذَا الشَّارِعِ فُنْدُقٌ كَبِيرٌ.", "fr": "Dans cette rue, il y a un grand hôtel." }
-  },
-  {
-    "id": "w:jabal",
-    "kind": "word",
-    "ar": "جَبَلٌ",
-    "fr": "une montagne",
-    "translit": "jabalun",
-    "plural": "جِبَالٌ",
-    "gender": "m",
-    "example": { "ar": "ذٰلِكَ الْجَبَلُ بَعِيدٌ.", "fr": "Cette montagne-là est loin." }
-  },
-  {
-    "id": "w:nahr",
-    "kind": "word",
-    "ar": "نَهْرٌ",
-    "fr": "un fleuve, une rivière",
-    "translit": "nahrun",
-    "plural": "أَنْهَارٌ",
-    "gender": "m",
-    "example": { "ar": "هٰذَا النَّهْرُ كَبِيرٌ.", "fr": "Ce fleuve-ci est grand." }
-  },
-  {
-    "id": "w:tairatun",
-    "kind": "word",
-    "ar": "طَائِرَةٌ",
-    "fr": "un avion",
-    "translit": "ṭāʾiratun",
-    "plural": "طَائِرَاتٌ",
-    "gender": "f",
-    "note": "Du même verbe que {ar|طَائِرٌ} (« un oiseau ») : ce qui vole.",
-    "example": { "ar": "تِلْكَ الطَّائِرَةُ كَبِيرَةٌ.", "fr": "Cet avion-là est grand." }
-  },
-  {
     "id": "w:zawja",
     "kind": "word",
     "ar": "زَوْجَةٌ",

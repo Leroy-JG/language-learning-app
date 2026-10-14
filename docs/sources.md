@@ -217,6 +217,15 @@ Support utilisé pour la leçon 13 (`l13`) : `TOME1-13.pdf` (19 pages) : `أَس
 - le dialogue du livre (deux parties), les exercices 1 à 7 ;
 - seulement **aperçus** (astuces, rien n'est exigé en exercice) : `ذَهَبْنَا` / `رَجَعْنَا` / `أَذَهَبْتُنَّ` (verbe + `نَا` / `تُنَّ`), `خَرَجْتَ` / `خَرَجْتُ` / `ذَهَبْتَ` / `ذَهَبْتُ` (terminaisons `تَ` / `تُ`), `يَرْجِعُ` (présent) et `بِلَادِهِمْ` ;
 
+**Leçon 16** (`l16`) : les démonstratifs du pluriel des choses, le pronom `هِيَ`, cinq mots de voyage et de paysage :
+- `الْعَاقِلُ` (les personnes) et `غَيْرُ الْعَاقِلِ` (les animaux et les choses) : termes de grammaire, présentés comme tels ;
+- pour plusieurs **choses ou animaux** : `هٰذِهِ` (proche) et `تِلْكَ` (loin), comme pour un féminin singulier ; `هَؤُلَاءِ` et `أُولَئِكَ` ne servent, en général, que pour des personnes (le schéma `أَسْمَاءُ الْإِشَارَةِ لِلْجَمْعِ`) ;
+- le démonstratif au pluriel suit le type d'être montré (`هٰذَا بَيْتٌ` → `هٰذِهِ بُيُوتٌ`, `ذٰلِكَ نَجْمٌ` → `تِلْكَ نُجُومٌ`, `هٰذَا طَالِبٌ` → `هَؤُلَاءِ طُلَّابٌ`) ;
+- le pronom `هِيَ` reprend plusieurs choses ou animaux (`هُمْ` / `هُنَّ` pour des personnes) ; l'adjectif d'un pluriel de choses est, le plus souvent, au féminin singulier (`كُتُبٌ جَدِيدَةٌ`) ;
+- deux modèles de pluriels brisés fréquents : `فِعَالٌ` (`بِحَارٌ`, `جِبَالٌ`, `كِلَابٌ`…) et `أَفْعَالٌ` (`أَنْهَارٌ`, `أَقْلَامٌ`…), « des habitudes, pas des lois » ;
+- vocabulaire : `طَائِرَةٌ` `فُنْدُقٌ` `جَبَلٌ` `بَحْرٌ` `نَهْرٌ` `بَلْجِيكَا` (+ `الْعَاقِلُ`, `غَيْرُ الْعَاقِلِ`) ; pluriels `طَائِرَاتٌ` `فَنَادِقُ` `جِبَالٌ` `بِحَارٌ` `أَنْهَارٌ` ;
+- le dialogue du livre, les exercices 2, 3, 4 et les phrases (أ) et (ب).
+
 **Pas encore enseigné** (ne pas l'exiger dans un exercice) :
 - les pronoms affixes du nominatif et de l'accusatif (ils s'attachent aux verbes) et les pronoms isolés de l'accusatif (`إِيَّاكَ`) ;
 - les cas du nom et leurs fonctions : le sujet, le prédicat, le sujet du verbe, l'adverbe, le second terme d'annexion et le nom après une préposition sont vus (leçon 8) ; pas le complément d'objet : le نَصْب n'est montré qu'avec les adverbes et après قَرَأْتُ (et, sans exercice, dans les dialogues de la révision 1 et dans les phrases `أُحِبُّ …` de la leçon 11) ;
@@ -718,7 +727,42 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - rythme : jamais trois écrans du même type d'affilée ; réponses ajoutées : vocatif en tête de phrase (`يَا أَخَوَاتُ أَيْنَ بَيْتُكُنَّ؟`), `ذَهَبَ إِلَى الرِّيَاضِ قَبْلَ شَهْرٍ.`
 - **Pas de nouvelle icône.**
 
+### Leçon 16 (`l16`)
+
+- **Support :** un seul PDF de 13 pages (cours 16 : dialogue du livre, diapo `هٰذِهِ` `تِلْكَ`, exercices 2 et 3, phrases (أ) et (ب), diapo `هَؤُلَاءِ` `أُولَئِكَ`, schéma des démonstratifs du pluriel, exercice 4, vocabulaire nouveau).
+- **Exercices et textes du livre repris :**
+  - dialogue (page 2) → `dialogue-1` (voix `m1` pour le professeur, `m2` pour Muḥammad et ʿAlī) ;
+  - exercice 3 (montrer ce qui est proche, 17 mots) → `practice-1` ; exercice 4 (montrer ce qui est loin, 17 mots) → `practice-2` : une partie des mots en tri et en phrases ; exercice 2 (mettre le sujet au pluriel, 19 phrases) → `practice-3` (les 19 phrases sont reprises : les 12 premières par association, tri ou choix, les phrases 14 à 19 en production) ;
+  - phrases (أ) et (ب) (« ils sont de Belgique ») → `grammar-3` et `practice-4` ;
+  - diapos `هٰذِهِ` / `تِلْكَ` et `هَؤُلَاءِ` / `أُولَئِكَ`, schéma des démonstratifs du pluriel → `recap`, `grammar-1` ; tableau de vocabulaire → `vocab-1`, `plurals-1`.
+- **Écarts avec le PDF :**
+  - exemples du vocabulaire : `فِي الْمَدِينَةِ فَنَادِقُ كَثِيرَةٌ` → `…كَبِيرَةٌ` (`كَثِيرٌ` n'est pas enseigné) ; `فِي الْأَرْضِ جِبَالٌ عَالِيَةٌ` → `تِلْكَ جِبَالٌ كَبِيرَةٌ` ; `السُّفُنُ فِي الْبِحَارِ` → `الْبِحَارُ كَبِيرَةٌ` ; `النِّيلُ نَهْرٌ كَبِيرٌ` est gardé (le Nil est traduit dans la note) ;
+  - `الطَّائِرَاتُ فِي الْمَطَرِ` (PDF, exemple de `طَائِرَةٌ`) → `الطَّائِرَاتُ فِي الْمَطَارِ` (« à l'aéroport », `مَطَارٌ` est enseigné au chapitre 14) : le PDF porte probablement une coquille (`الْمَطَرِ` = « la pluie »), à confirmer avec le professeur ;
+  - `بَلْجِيكَا` est ajouté comme mot (employé par les phrases (أ) et (ب)), sans `gender` comme les autres pays ;
+  - exercice 3 : `رَجُلٌ` et `رِجْلٌ` s'écrivant pareil sans harakat, `رَجُلٌ` n'est pas utilisé comme singulier dans les cartes ; `أَخَوَاتِي` repris comme dans le livre ;
+  - exercice 2 : `حُمُرٌ` et `سُرُرٌ` seulement en choix (autres pluriels existants : `حَمِيرٌ`, `أَسِرَّةٌ`) ; les pluriels saisis sont ceux du cours (`typing` : « avec les pluriels de la leçon ») ;
+  - le professeur dit que `هَؤُلَاءِ` et `أُولَئِكَ` s'emploient « exclusivement » pour les êtres doués de raison : l'app écrit « en général » et ajoute la note sur le Coran 17:36 (`كُلُّ أُولَئِكَ` reprend l'ouïe, la vue et le cœur), exception connue des grammairiens ;
+  - `لَا تَقُولُ` du PDF (« on ne dit pas ») n'est pas repris tel quel : l'encadré dit « on ne dit pas `هَؤُلَاءِ كُتُبٌ` » ; aucune phrase fausse n'est proposée en choix isolé.
+- **Choix de contenu :**
+  - `الْعَاقِلُ` / `غَيْرُ الْعَاقِلِ` : `gender` m, présentés par `present` (termes du professeur, déjà cités dans les tableaux des chapitres 12 et 14) ;
+  - `بَحْرٌ`, `نَهْرٌ`, `جَبَلٌ`, `فُنْدُقٌ` : masculins (comme dans l'exercice 2 du livre) ; `طَائِرَةٌ` : féminin ;
+  - le pronom `هِيَ` pour des choses est présenté comme règle de base (le professeur l'emploie dans le dialogue et la phrase (ب)) ; `هُنَّ` (pluriel de choses de moins de dix) n'est pas cité ;
+  - 4 icônes OpenMoji ajoutées (`airplane`, `hotel`, `mountain`, `sea`) ; pas d'icône de fleuve (la seule image disponible ressemblait à la montagne).
+- **Explications ajoutées (données à l'oral, absentes du PDF) :**
+  - `الْعَاقِلُ` / `غَيْرُ الْعَاقِلِ` : termes de grammaire, pas un jugement ; lien avec `مَنْ` / `مَا` ;
+  - « un pluriel de choses se comporte comme un féminin singulier » (démonstratif, pronom, adjectif) ;
+  - `طَائِرَةٌ` : « celle qui vole », féminin de `طَائِرٌ` ;
+  - les deux modèles de pluriels brisés `فِعَالٌ` / `أَفْعَالٌ` ;
+  - `فَنَادِقُ` sans tanwin (forme longue) ; `جَبَلٌ`, `بَحْرٌ` masculins en arabe, féminins en français ;
+  - `يَا إِخْوَانُ` : « ô frères », autre pluriel de `أَخٌ` (voir le chapitre 15) ;
+  - exception coranique pour `أُولَئِكَ` (Coran 17:36).
+- **Notes mises à jour dans les chapitres précédents :** notes de `w:hadhihi` (`l06`) et `w:tilka` (`l07`), et l'astuce de `l13/grammar-1` (renvoi au chapitre 16).
+
 ## Audio
 
 Aucun MP3 n'est encore généré : l'app utilise la synthèse vocale arabe du téléphone en attendant
 (voir `docs/roadmap.md`).
+
+### Leçon 17 (`l17`)
+
+Notes de choix dans un fichier à part : `docs/sources-lecon-17.md` (les chapitres 16 à 19 ont été écrits en parallèle, dans des conversations différentes).

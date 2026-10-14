@@ -6,7 +6,7 @@
   - Parmi eux, 4 mini-jeux : ranger, repérer, écrire lettre par lettre, mémoire.
   - Les astuces ont 7 sortes de blocs, dont comparer, décomposer, galerie et encadrés à ton.
   - Le guide de conception est `docs/pedagogie.md`.
-- **Parcours :** chapitres 1 à 15 du Tome de Médine 1 et le chapitre de révision 1 (`r01`, libellé « Révision 1 », placé après le chapitre 9 ; les chapitres 10 et 11 viennent ensuite). Les chapitres s'affichent en accordéon et rien n'est verrouillé.
+- **Parcours :** chapitres 1 à 17 du Tome de Médine 1 et le chapitre de révision 1 (`r01`, libellé « Révision 1 », placé après le chapitre 9 ; les chapitres 10 et 11 viennent ensuite). Les chapitres s'affichent en accordéon et rien n'est verrouillé.
 - **Réviser :** répétition espacée FSRS-5, deux onglets (Vocabulaire / Grammaire), niveaux de maîtrise, favoris, recherche.
 - **Paramètres :**
   - harakat, translittération, taille de l'arabe ;
@@ -22,7 +22,8 @@
 ## À faire, par ordre de priorité
 
 1. **Leçons suivantes du Tome de Médine 1**, avec la procédure `.claude/skills/nouvelle-lecon/SKILL.md`. Il faut que l'utilisateur joigne les PDF.
-   - Prochaine : la leçon 16 (les chapitres 1 à 15 et la révision 1 sont publiés).
+   - Prochaine : la leçon 18 (les chapitres 1 à 17 et la révision 1 sont publiés).
+   - À confirmer avec le professeur (leçon 17, voir `docs/sources-lecon-17.md`) : le pluriel de مَوْعِدٌ (le PDF donne مَوَاعِدُ, l'app met مَوَاعِيدُ), et la voyelle du milieu de الْحَمْزَاتُ / الطَّلْحَاتُ (non repris).
    - À confirmer avec le professeur (voir `docs/sources.md`, leçon 6) : le pluriel de قَهْوَةٌ (قَهَوَاتٌ ou قَهْوَاتٌ), le genre de قِدْرٌ (féminin ici, comme dans le livre), et les exemples du PDF non repris (سَمَاءٌ, مُوسَى ; سِكِّينٌ est présenté au masculin avec une note, leçon 8).
 2. **Audio de qualité** avec `tools/generate_audio.py`, à écrire :
    - Lire le manifeste produit par `./gradlew -p core audioManifest` (`core/build/audio-manifest.json` : texte, voix, nom de fichier = empreinte).

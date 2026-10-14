@@ -1,0 +1,142 @@
+{
+  "id": "medine-t1.l16.dialogue-1",
+  "type": "dialogue",
+  "title": "Le professeur et ses élèves",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t1.l16.dialogue-1#1",
+      "type": "dialogue",
+      "title": "À qui sont ces stylos ?",
+      "intro": "Le professeur interroge ses élèves sur des stylos, des livres et des cahiers.",
+      "speakers": {
+        "A": { "name": "Le professeur", "voice": "m1" },
+        "B": { "name": "Muḥammad", "voice": "m2" },
+        "C": { "name": "ʿAlī", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "لِمَنْ هٰذِهِ الْأَقْلَامُ يَا مُحَمَّدُ؟",
+          "fr": "À qui sont ces stylos, Muḥammad ?"
+        },
+        { "speaker": "B", "ar": "هِيَ لِي يَا أُسْتَاذُ.", "fr": "Ils sont à moi, professeur." },
+        {
+          "speaker": "A",
+          "ar": "هِيَ جَمِيلَةٌ جِدًّا. وَهٰذِهِ الْكُتُبُ الْجَدِيدَةُ أَهِيَ لَكَ؟",
+          "fr": "Ils sont très beaux. Et ces nouveaux livres, sont-ils à toi ?"
+        },
+        { "speaker": "B", "ar": "لَا، هِيَ لِحَامِدٍ.", "fr": "Non, ils sont à Ḥāmid." },
+        { "speaker": "A", "ar": "أَيْنَ دَفَاتِرُكُمْ يَا إِخْوَانُ؟", "fr": "Où sont vos cahiers, mes frères ?" },
+        { "speaker": "C", "ar": "هِيَ هُنَا عَلَى هٰذَا الْمَكْتَبِ.", "fr": "Ils sont ici, sur ce bureau." }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.dialogue-1#2",
+      "type": "tip",
+      "title": "Les petites formes du texte",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans ce texte, tu reconnais presque tout. Regarde comment il parle de **plusieurs choses**."
+        },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens"],
+          "rows": [
+            [
+              "{ar|هِيَ لِي}",
+              "« ils sont à moi » : {ar|هِيَ} reprend {ar|الْأَقْلَامُ} (plusieurs choses) ; {ar|لِي} = {ar|لِ} + {ar|ي}"
+            ],
+            ["{ar|هِيَ جَمِيلَةٌ جِدًّا}", "« ils sont très beaux » : l'adjectif est au féminin singulier"],
+            ["{ar|الْكُتُبُ الْجَدِيدَةُ}", "« les nouveaux livres » : même accord, avec l'article"],
+            ["{ar|أَهِيَ لَكَ؟}", "« sont-ils à toi ? » : {ar|أَ} + {ar|هِيَ} + {ar|لَكَ} ({ar|لِ} + {ar|كَ})"],
+            ["{ar|دَفَاتِرُكُمْ}", "« vos cahiers » : {ar|دَفَاتِرُ} + {ar|كُمْ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "En français, « stylos » et « livres » sont masculins : on dit « ils ». En arabe, pour plusieurs choses, on dit {ar|هِيَ}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|هٰذِهِ الْأَقْلَامُ} : un démonstratif suivi d'un nom **défini** veut dire « ces stylos ». Avec un nom indéfini, c'est une phrase : {ar|هٰذِهِ أَقْلَامٌ} (« ce sont des stylos »)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|يَا إِخْوَانُ} : « ô frères ». {ar|إِخْوَانٌ} est un autre pluriel de {ar|أَخٌ} (voir le chapitre 15) ; le professeur s'adresse ainsi à un groupe d'élèves."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "À qui sont les stylos ?" },
+      "choices": [ { "fr": "À Muḥammad" }, { "fr": "À Ḥāmid" }, { "fr": "Au professeur" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l16.dialogue-1#1" },
+      "explain": "{ar|هِيَ لِي} : « ils sont à moi », dit Muḥammad."
+    },
+    {
+      "id": "medine-t1.l16.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "À qui sont les nouveaux livres ?" },
+      "choices": [ { "fr": "À Ḥāmid" }, { "fr": "À Muḥammad" }, { "fr": "À ʿAlī" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l16.dialogue-1#1" },
+      "explain": "{ar|لَا، هِيَ لِحَامِدٍ} : « non, ils sont à Ḥāmid »."
+    },
+    {
+      "id": "medine-t1.l16.dialogue-1#5",
+      "type": "fill_gap",
+      "sentence": "لِمَنْ {0} الْأَقْلَامُ؟",
+      "fr": "À qui sont ces stylos ?",
+      "gaps": [ { "answers": ["هٰذِهِ"] } ],
+      "options": ["هٰذِهِ", "هَؤُلَاءِ", "هٰذَا"],
+      "context": { "dialogue": "medine-t1.l16.dialogue-1#1" },
+      "explain": "Des stylos sont des choses : {ar|هٰذِهِ}."
+    },
+    {
+      "id": "medine-t1.l16.dialogue-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Les cahiers sont sur le bureau." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l16.dialogue-1#1" },
+      "explain": "{ar|هِيَ هُنَا عَلَى هٰذَا الْمَكْتَبِ}."
+    },
+    {
+      "id": "medine-t1.l16.dialogue-1#7",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ {0} يَا إِخْوَانُ؟",
+      "fr": "Où sont vos cahiers, mes frères ?",
+      "gaps": [ { "answers": ["دَفَاتِرُكُمْ"] } ],
+      "options": ["دَفَاتِرُكُمْ", "دَفَاتِرُكُنَّ", "دَفْتَرُكُمْ"],
+      "context": { "dialogue": "medine-t1.l16.dialogue-1#1" },
+      "explain": "Plusieurs cahiers, et on parle à un groupe d'hommes : {ar|دَفَاتِرُ} + {ar|كُمْ}."
+    },
+    {
+      "id": "medine-t1.l16.dialogue-1#8",
+      "type": "order",
+      "fr": "Ils sont à moi, professeur. (des stylos)",
+      "answers": [["هِيَ", "لِي", "يَا", "أُسْتَاذُ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l16.dialogue-1#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Non, ils sont à Ḥāmid. (des livres)",
+      "answers": ["لَا، هِيَ لِحَامِدٍ."]
+    },
+    {
+      "id": "medine-t1.l16.dialogue-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ils sont ici, sur ce bureau. (des cahiers)",
+      "answers": ["هِيَ هُنَا عَلَى هٰذَا الْمَكْتَبِ."]
+    }
+  ]
+}

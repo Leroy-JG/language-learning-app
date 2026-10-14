@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Quand un pluriel désigne des **choses** (ou des animaux), le mot qui le décrit se met au **féminin**. Deux accords sont possibles :"
+          "text": "Au chapitre 16, tu as vu qu'un pluriel de **choses** (ou d'animaux) se comporte comme un féminin singulier. Pour l'adjectif, le professeur donne en fait **deux accords** possibles, toujours au **féminin** :"
         },
         {
           "type": "table",
@@ -36,7 +36,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le démonstratif et le pronom qui reprennent un pluriel de choses sont eux aussi, en général, au **féminin** : {ar|هٰذِهِ} et {ar|هِيَ}."
+          "text": "Tu connais déjà le démonstratif et le pronom qui reprennent un pluriel de choses : {ar|هٰذِهِ} et {ar|هِيَ} (chapitre 16). Voici les phrases du livre."
         },
         { "type": "example", "ar": "هٰذِهِ الدُّرُوسُ سَهْلَةٌ.", "fr": "Ces leçons sont faciles." },
         {

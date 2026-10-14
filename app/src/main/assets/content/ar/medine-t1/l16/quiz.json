@@ -1,0 +1,141 @@
+{
+  "id": "medine-t1.l16.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 16",
+  "screens": [
+    {
+      "id": "medine-t1.l16.quiz#1",
+      "type": "mcq",
+      "mode": "icon-ar",
+      "item": "w:funduq",
+      "distractors": ["w:bayt", "w:masjid"]
+    },
+    {
+      "id": "medine-t1.l16.quiz#2",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:jabal",
+      "distractors": ["w:bahr", "w:nahr"]
+    },
+    {
+      "id": "medine-t1.l16.quiz#3",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:taira", "w:funduq", "w:jabal", "w:bahr", "w:nahr"]
+    },
+    {
+      "id": "medine-t1.l16.quiz#4",
+      "type": "question",
+      "prompt": { "fr": "Quel démonstratif montre plusieurs livres, de près ?" },
+      "choices": [ { "ar": "هٰذِهِ" }, { "ar": "هَؤُلَاءِ" }, { "ar": "هٰذَا" } ],
+      "answer": 0,
+      "explain": "Des livres sont des choses : {ar|هٰذِهِ}."
+    },
+    {
+      "id": "medine-t1.l16.quiz#5",
+      "type": "fill_gap",
+      "sentence": "{0} بُيُوتٌ.",
+      "fr": "Ce sont des maisons, là-bas.",
+      "gaps": [ { "answers": ["تِلْكَ"] } ],
+      "options": ["تِلْكَ", "أُولَئِكَ", "ذٰلِكَ"],
+      "explain": "Des maisons sont des choses, et elles sont loin : {ar|تِلْكَ}."
+    },
+    {
+      "id": "medine-t1.l16.quiz#6",
+      "type": "sort",
+      "categories": [ { "ar": "هٰذِهِ" }, { "ar": "هَؤُلَاءِ" } ],
+      "cards": [
+        { "ar": "كِلَابٌ", "category": 0 },
+        { "ar": "أَطِبَّاءُ", "category": 1 },
+        { "ar": "أَبْوَابٌ", "category": 0 },
+        { "ar": "تُجَّارٌ", "category": 1 },
+        { "ar": "طَائِرَاتٌ", "category": 0 },
+        { "ar": "مُدَرِّسُونَ", "category": 1 }
+      ],
+      "instruction": "Quel démonstratif de proximité va avec chaque pluriel ?",
+      "explain": "Animaux et choses : {ar|هٰذِهِ}. Personnes : {ar|هَؤُلَاءِ}."
+    },
+    {
+      "id": "medine-t1.l16.quiz#7",
+      "type": "true_false",
+      "statement": { "fr": "Plusieurs voitures se montrent avec {ar|أُولَئِكَ}." },
+      "answer": false,
+      "explain": "{ar|أُولَئِكَ} est réservé aux personnes. Pour des voitures : {ar|تِلْكَ} (loin) ou {ar|هٰذِهِ} (proche)."
+    },
+    {
+      "id": "medine-t1.l16.quiz#8",
+      "type": "fill_gap",
+      "sentence": "{0} طُلَّابٌ مِنْ بَلْجِيكَا.",
+      "fr": "Ceux-ci sont des étudiants de Belgique.",
+      "gaps": [ { "answers": ["هَؤُلَاءِ"] } ],
+      "options": ["هَؤُلَاءِ", "هٰذِهِ", "هٰذَا"],
+      "explain": "Des étudiants sont des personnes."
+    },
+    {
+      "id": "medine-t1.l16.quiz#9",
+      "type": "question",
+      "prompt": { "fr": "Mets au pluriel : {ar|ذٰلِكَ كَلْبٌ}." },
+      "choices": [ { "ar": "تِلْكَ كِلَابٌ" }, { "ar": "أُولَئِكَ كِلَابٌ" }, { "ar": "ذٰلِكَ كِلَابٌ" } ],
+      "answer": 0,
+      "explain": "Un chien est un animal, et il est loin : {ar|تِلْكَ كِلَابٌ}."
+    },
+    {
+      "id": "medine-t1.l16.quiz#10",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ طَائِرَاتٌ كَبِيرَةٌ. {0} فِي الْمَطَارِ.",
+      "fr": "Ce sont de grands avions. Ils sont à l'aéroport.",
+      "gaps": [ { "answers": ["هِيَ"] } ],
+      "options": ["هِيَ", "هُمْ", "هُوَ"],
+      "explain": "Plusieurs avions (des choses) : {ar|هِيَ}."
+    },
+    {
+      "id": "medine-t1.l16.quiz#11",
+      "type": "spot",
+      "instruction": "Touche le pronom isolé.",
+      "words": ["هٰذِهِ", "كُتُبٌ", "جَدِيدَةٌ.", "هِيَ", "لِي."],
+      "answers": [3],
+      "fr": "Ce sont de nouveaux livres. Ils sont à moi.",
+      "explain": "{ar|هِيَ} reprend les livres. {ar|لِي} est {ar|لِ} + {ar|ي}, collé."
+    },
+    {
+      "id": "medine-t1.l16.quiz#12",
+      "type": "question",
+      "prompt": { "fr": "À qui sont les nouveaux livres ?" },
+      "choices": [ { "fr": "À Ḥāmid" }, { "fr": "À Muḥammad" }, { "fr": "À ʿAlī" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l16.dialogue-1#1" },
+      "explain": "{ar|لَا، هِيَ لِحَامِدٍ}."
+    },
+    {
+      "id": "medine-t1.l16.quiz#13",
+      "type": "question",
+      "prompt": { "fr": "Où sont les cahiers ?" },
+      "choices": [ { "fr": "Sur le bureau" }, { "fr": "Dans le sac" }, { "fr": "À l'école" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l16.dialogue-1#1" },
+      "explain": "{ar|هِيَ هُنَا عَلَى هٰذَا الْمَكْتَبِ}."
+    },
+    {
+      "id": "medine-t1.l16.quiz#14",
+      "type": "order",
+      "fr": "Celles-là sont de grandes montagnes.",
+      "answers": [["تِلْكَ", "جِبَالٌ", "كَبِيرَةٌ"]],
+      "punctuation": ".",
+      "distractors": ["أُولَئِكَ"]
+    },
+    {
+      "id": "medine-t1.l16.quiz#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ce sont des voitures.",
+      "answers": ["هٰذِهِ سَيَّارَاتٌ."]
+    },
+    {
+      "id": "medine-t1.l16.quiz#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les avions sont à l'aéroport.",
+      "answers": ["الطَّائِرَاتُ فِي الْمَطَارِ."]
+    }
+  ]
+}

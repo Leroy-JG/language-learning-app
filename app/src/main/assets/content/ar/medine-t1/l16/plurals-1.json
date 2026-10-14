@@ -1,0 +1,123 @@
+{
+  "id": "medine-t1.l16.plurals-1",
+  "type": "vocabulary",
+  "title": "Les pluriels de la leçon",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l16.plurals-1#1",
+      "type": "tip",
+      "title": "Cinq pluriels",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici les pluriels des cinq mots de la leçon. Quatre sont des **pluriels brisés** ; un seul est un pluriel en « -āt »."
+        },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Remarque"],
+          "rows": [
+            [
+              "{ar|طَائِرَةٌ}",
+              "{ar|طَائِرَاتٌ}",
+              "féminin : « -āt » remplace le {ar|ة} (comme {ar|سَيَّارَةٌ} → {ar|سَيَّارَاتٌ})"
+            ],
+            ["{ar|فُنْدُقٌ}", "{ar|فَنَادِقُ}", "forme longue : sans tanwin (comme {ar|مَسَاجِدُ})"],
+            ["{ar|جَبَلٌ}", "{ar|جِبَالٌ}", "pluriel brisé"],
+            ["{ar|بَحْرٌ}", "{ar|بِحَارٌ}", "pluriel brisé"],
+            ["{ar|نَهْرٌ}", "{ar|أَنْهَارٌ}", "pluriel brisé"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.plurals-1#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:taira", "w:funduq", "w:jabal", "w:bahr", "w:nahr"]
+    },
+    {
+      "id": "medine-t1.l16.plurals-1#3",
+      "type": "tip",
+      "title": "Deux familles de pluriels brisés",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Beaucoup de noms de trois lettres ont un pluriel brisé de l'un de ces deux modèles. Tu en connais déjà plusieurs."
+        },
+        {
+          "type": "table",
+          "header": ["Modèle du pluriel", "Exemples"],
+          "rows": [
+            [
+              "{ar|فِعَالٌ} : une kasra sur la première lettre, puis un alif long avant la dernière lettre",
+              "{ar|بَحْرٌ} → {ar|بِحَارٌ} ; {ar|جَبَلٌ} → {ar|جِبَالٌ} ; {ar|كَلْبٌ} → {ar|كِلَابٌ} ; {ar|جَمَلٌ} → {ar|جِمَالٌ} ; {ar|رَجُلٌ} → {ar|رِجَالٌ}"
+            ],
+            [
+              "{ar|أَفْعَالٌ} : un {ar|أَ} au début, puis un alif long avant la dernière lettre",
+              "{ar|نَهْرٌ} → {ar|أَنْهَارٌ} ; {ar|قَلَمٌ} → {ar|أَقْلَامٌ} ; {ar|بَابٌ} → {ar|أَبْوَابٌ} ; {ar|قَمَرٌ} → {ar|أَقْمَارٌ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ce sont des habitudes fréquentes, pas des lois : des noms de même forme ont un autre pluriel ({ar|بَيْتٌ} → {ar|بُيُوتٌ}, {ar|نَجْمٌ} → {ar|نُجُومٌ}). Apprends toujours le pluriel avec le mot."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.plurals-1#4",
+      "type": "sort",
+      "categories": [ { "ar": "فِعَالٌ" }, { "ar": "أَفْعَالٌ" } ],
+      "cards": [
+        { "ar": "بِحَارٌ", "category": 0 },
+        { "ar": "أَنْهَارٌ", "category": 1 },
+        { "ar": "جِبَالٌ", "category": 0 },
+        { "ar": "أَقْلَامٌ", "category": 1 },
+        { "ar": "كِلَابٌ", "category": 0 },
+        { "ar": "أَبْوَابٌ", "category": 1 },
+        { "ar": "جِمَالٌ", "category": 0 }
+      ],
+      "instruction": "Range chaque pluriel selon son modèle.",
+      "explain": "Modèle {ar|فِعَالٌ} : kasra au début. Modèle {ar|أَفْعَالٌ} : {ar|أَ} au début."
+    },
+    {
+      "id": "medine-t1.l16.plurals-1#5",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|جَبَلٌ} (une montagne) ?" },
+      "choices": [ { "ar": "جِبَالٌ" }, { "ar": "بِحَارٌ" }, { "ar": "أَنْهَارٌ" } ],
+      "answer": 0,
+      "explain": "{ar|جِبَالٌ} est le pluriel de {ar|جَبَلٌ}. {ar|بِحَارٌ} est celui de {ar|بَحْرٌ} (une mer) et {ar|أَنْهَارٌ} celui de {ar|نَهْرٌ} (un fleuve)."
+    },
+    {
+      "id": "medine-t1.l16.plurals-1#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des mers (le pluriel brisé de la leçon)",
+      "answers": ["بِحَارٌ"]
+    },
+    {
+      "id": "medine-t1.l16.plurals-1#7",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|فُنْدُقٌ} (un hôtel) ?" },
+      "choices": [ { "ar": "فَنَادِقُ" }, { "ar": "مَسَاجِدُ" }, { "ar": "مَطَاعِمُ" } ],
+      "answer": 0,
+      "explain": "{ar|فَنَادِقُ} est le pluriel de {ar|فُنْدُقٌ}. {ar|مَسَاجِدُ} est celui de {ar|مَسْجِدٌ} (une mosquée) et {ar|مَطَاعِمُ} celui de {ar|مَطْعَمٌ} (un restaurant)."
+    },
+    {
+      "id": "medine-t1.l16.plurals-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des avions",
+      "answers": ["طَائِرَاتٌ"]
+    },
+    {
+      "id": "medine-t1.l16.plurals-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des fleuves, des rivières (le pluriel brisé de la leçon)",
+      "answers": ["أَنْهَارٌ"]
+    }
+  ]
+}

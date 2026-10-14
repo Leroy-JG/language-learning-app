@@ -1,0 +1,125 @@
+{
+  "id": "medine-t1.l16.practice-1",
+  "type": "grammar",
+  "title": "Montre ce qui est proche",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l16.practice-1#1",
+      "type": "tip",
+      "title": "Un, une ou plusieurs ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre te demande de montrer ce qui est **proche**. Avant de choisir, pose-toi deux questions : combien ? et des personnes ou des choses ?"
+        },
+        {
+          "type": "table",
+          "header": ["Tu montres…", "Tu dis"],
+          "rows": [
+            ["un seul être ou une seule chose, masculin", "{ar|هٰذَا}"],
+            ["un seul être ou une seule chose, féminin ; ou plusieurs choses ou animaux", "{ar|هٰذِهِ}"],
+            ["plusieurs personnes", "{ar|هَؤُلَاءِ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.practice-1#2",
+      "type": "sort",
+      "categories": [ { "ar": "هٰذَا" }, { "ar": "هٰذِهِ" }, { "ar": "هَؤُلَاءِ" } ],
+      "cards": [
+        { "ar": "كَلْبٌ", "category": 0 },
+        { "ar": "كُتُبٌ", "category": 1 },
+        { "ar": "طَبِيبَاتٌ", "category": 2 },
+        { "ar": "عَيْنٌ", "category": 1 },
+        { "ar": "مُدَرِّسُونَ", "category": 2 },
+        { "ar": "حِمَارٌ", "category": 0 },
+        { "ar": "سَيَّارَاتٌ", "category": 1 }
+      ],
+      "instruction": "Quel démonstratif va avec chaque mot ?",
+      "explain": "Un seul être ou une seule chose masculine : {ar|هٰذَا}. Une seule chose féminine, ou plusieurs choses ou animaux : {ar|هٰذِهِ}. Plusieurs personnes : {ar|هَؤُلَاءِ}."
+    },
+    {
+      "id": "medine-t1.l16.practice-1#3",
+      "type": "fill_gap",
+      "sentence": "{0} كِلَابٌ كَبِيرَةٌ.",
+      "fr": "Ce sont de grands chiens.",
+      "gaps": [ { "answers": ["هٰذِهِ"] } ],
+      "options": ["هٰذِهِ", "هَؤُلَاءِ", "هٰذَا"],
+      "explain": "Des chiens sont des animaux : un pluriel d'animaux se comporte, en général, comme un féminin singulier."
+    },
+    {
+      "id": "medine-t1.l16.practice-1#4",
+      "type": "fill_gap",
+      "sentence": "{0} مُدَرِّسُونَ مُجْتَهِدُونَ.",
+      "fr": "Ceux-ci sont des enseignants studieux.",
+      "gaps": [ { "answers": ["هَؤُلَاءِ"] } ],
+      "options": ["هَؤُلَاءِ", "هٰذِهِ", "هٰذَا"],
+      "explain": "Des enseignants sont des personnes."
+    },
+    {
+      "id": "medine-t1.l16.practice-1#5",
+      "type": "question",
+      "prompt": { "fr": "On montre plusieurs voitures. Quel mot choisis-tu ?" },
+      "choices": [ { "ar": "هٰذِهِ" }, { "ar": "هَؤُلَاءِ" }, { "ar": "هٰذَا" } ],
+      "answer": 0,
+      "explain": "Des voitures sont des choses : {ar|هٰذِهِ}."
+    },
+    {
+      "id": "medine-t1.l16.practice-1#6",
+      "type": "fill_gap",
+      "sentence": "{0} حِمَارٌ كَبِيرٌ.",
+      "fr": "Ceci est un grand âne.",
+      "gaps": [ { "answers": ["هٰذَا"] } ],
+      "options": ["هٰذَا", "هٰذِهِ", "هَؤُلَاءِ"],
+      "explain": "Un seul âne, et {ar|حِمَارٌ} est masculin : {ar|هٰذَا}."
+    },
+    {
+      "id": "medine-t1.l16.practice-1#7",
+      "type": "fill_gap",
+      "sentence": "{0} أَخَوَاتِي.",
+      "fr": "Celles-ci sont mes sœurs.",
+      "gaps": [ { "answers": ["هَؤُلَاءِ"] } ],
+      "options": ["هَؤُلَاءِ", "هٰذِهِ", "هٰذَا"],
+      "explain": "Des sœurs sont des personnes, même si le mot est un pluriel en « -āt »."
+    },
+    {
+      "id": "medine-t1.l16.practice-1#8",
+      "type": "true_false",
+      "statement": { "fr": "Une seule voiture et plusieurs voitures se montrent toutes deux avec {ar|هٰذِهِ}." },
+      "answer": true,
+      "explain": "{ar|هٰذِهِ سَيَّارَةٌ} (une voiture) et {ar|هٰذِهِ سَيَّارَاتٌ} (des voitures)."
+    },
+    {
+      "id": "medine-t1.l16.practice-1#9",
+      "type": "order",
+      "fr": "Ce sont de nouveaux livres.",
+      "answers": [["هٰذِهِ", "كُتُبٌ", "جَدِيدَةٌ"]],
+      "punctuation": ".",
+      "distractors": ["هَؤُلَاءِ"]
+    },
+    {
+      "id": "medine-t1.l16.practice-1#10",
+      "type": "order",
+      "fr": "Celles-ci sont des femmes médecins.",
+      "answers": [["هَؤُلَاءِ", "طَبِيبَاتٌ"]],
+      "punctuation": ".",
+      "distractors": ["هٰذِهِ"]
+    },
+    {
+      "id": "medine-t1.l16.practice-1#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ceci est un chien.",
+      "answers": ["هٰذَا كَلْبٌ."]
+    },
+    {
+      "id": "medine-t1.l16.practice-1#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ce sont des stylos.",
+      "answers": ["هٰذِهِ أَقْلَامٌ."]
+    }
+  ]
+}

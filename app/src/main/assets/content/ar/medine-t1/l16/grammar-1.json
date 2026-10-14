@@ -1,0 +1,187 @@
+{
+  "id": "medine-t1.l16.grammar-1",
+  "type": "grammar",
+  "title": "Personnes, animaux, choses",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l16.grammar-1#1",
+      "type": "tip",
+      "title": "Des personnes, des animaux, des choses",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour choisir le bon démonstratif au pluriel, l'arabe range les êtres en **deux groupes**. D'un côté, les **personnes** : on les appelle {ar|الْعَاقِلُ} (« celui qui est doué de raison »). De l'autre, **tout le reste**, animaux comme choses : {ar|غَيْرُ الْعَاقِلِ} (« ce qui n'est pas doué de raison »)."
+        },
+        {
+          "type": "table",
+          "header": ["Groupe", "En arabe", "Exemples"],
+          "rows": [
+            ["les personnes", "{ar|الْعَاقِلُ}", "un médecin, une étudiante, des enseignants"],
+            ["les animaux et les choses", "{ar|غَيْرُ الْعَاقِلِ}", "un chien, un livre, des voitures"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Ce sont des termes de grammaire, pas un jugement : ils servent seulement à choisir le bon mot. Tu avais déjà vu cette distinction avec {ar|مَنْ} (une personne) et {ar|مَا} (une chose, un animal)."
+        }
+      ]
+    },
+    { "id": "medine-t1.l16.grammar-1#2", "type": "present", "item": "w:aqil" },
+    { "id": "medine-t1.l16.grammar-1#3", "type": "present", "item": "w:ghayr-aqil" },
+    {
+      "id": "medine-t1.l16.grammar-1#4",
+      "type": "sort",
+      "categories": [ { "fr": "une personne" }, { "fr": "un animal ou une chose" } ],
+      "cards": [
+        { "ar": "طَبِيبٌ", "category": 0 },
+        { "ar": "كَلْبٌ", "category": 1 },
+        { "ar": "كِتَابٌ", "category": 1 },
+        { "ar": "مُدَرِّسَةٌ", "category": 0 },
+        { "ar": "دَجَاجَةٌ", "category": 1 },
+        { "ar": "طَالِبٌ", "category": 0 },
+        { "ar": "سَيَّارَةٌ", "category": 1 }
+      ],
+      "instruction": "Range chaque mot : est-ce une personne, ou un animal ou une chose ?",
+      "explain": "Les personnes : un médecin, une enseignante, un étudiant. Les animaux et les choses : un chien, un livre, une poule, une voiture."
+    },
+    {
+      "id": "medine-t1.l16.grammar-1#5",
+      "type": "tip",
+      "title": "Plusieurs choses : un féminin singulier",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour montrer **plusieurs choses** ou **plusieurs animaux**, l'arabe ne dit pas, en général, {ar|هَؤُلَاءِ}. Il les traite comme **un seul féminin** et emploie les démonstratifs du féminin singulier que tu connais : {ar|هٰذِهِ} (proche) et {ar|تِلْكَ} (loin)."
+        },
+        { "type": "example", "ar": "هٰذِهِ بُيُوتٌ.", "fr": "Ce sont des maisons." },
+        { "type": "example", "ar": "تِلْكَ بُيُوتٌ.", "fr": "Ce sont des maisons, là-bas." },
+        { "type": "example", "ar": "هٰذِهِ كِلَابٌ.", "fr": "Ce sont des chiens." },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le même mot sert pour une seule chose féminine et pour plusieurs choses, même masculines : {ar|هٰذِهِ سَيَّارَةٌ} (une voiture), {ar|هٰذِهِ سَيَّارَاتٌ} (des voitures), {ar|هٰذِهِ كُتُبٌ} (des livres)."
+        },
+        { "type": "note", "tone": "memo", "text": "Pour retenir : plusieurs choses = une seule grande « elle »." }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.grammar-1#6",
+      "type": "fill_gap",
+      "sentence": "{0} كُتُبٌ جَدِيدَةٌ.",
+      "fr": "Ce sont de nouveaux livres.",
+      "gaps": [ { "answers": ["هٰذِهِ"] } ],
+      "options": ["هٰذِهِ", "هَؤُلَاءِ", "هٰذَا"],
+      "explain": "Plusieurs choses (des livres) : {ar|هٰذِهِ}. {ar|هَؤُلَاءِ} est réservé aux personnes, et {ar|هٰذَا} ne montre qu'un seul être."
+    },
+    {
+      "id": "medine-t1.l16.grammar-1#7",
+      "type": "fill_gap",
+      "sentence": "{0} أَقْلَامٌ.",
+      "fr": "Ce sont des stylos, là-bas.",
+      "gaps": [ { "answers": ["تِلْكَ"] } ],
+      "options": ["تِلْكَ", "أُولَئِكَ", "ذٰلِكَ"],
+      "explain": "Plusieurs choses, au loin : {ar|تِلْكَ}. {ar|أُولَئِكَ} est réservé aux personnes ; {ar|ذٰلِكَ} ne montre qu'une seule chose masculine."
+    },
+    {
+      "id": "medine-t1.l16.grammar-1#8",
+      "type": "tip",
+      "title": "Des personnes : seulement {ar|هَؤُلَاءِ} et {ar|أُولَئِكَ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "À l'inverse, **plusieurs personnes** se montrent avec {ar|هَؤُلَاءِ} (proche) et {ar|أُولَئِكَ} (loin), et ces deux mots ne servent, en général, que pour des personnes."
+        },
+        { "type": "example", "ar": "هَؤُلَاءِ طُلَّابٌ.", "fr": "Ceux-ci sont des étudiants." },
+        { "type": "example", "ar": "أُولَئِكَ رِجَالٌ.", "fr": "Ceux-là sont des hommes." },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Des livres ne sont pas des personnes : on ne dit pas {ar|هَؤُلَاءِ كُتُبٌ}, mais {ar|هٰذِهِ كُتُبٌ}."
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "Dans la langue classique, il existe de rares exceptions : dans le Coran (17:36), {ar|كُلُّ أُولَئِكَ} reprend l'ouïe, la vue et le cœur. Dans la langue d'aujourd'hui, on s'en tient à la règle."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.grammar-1#9",
+      "type": "tip",
+      "title": "Le schéma des démonstratifs du pluriel",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Le pluriel désigne…", "Proche", "Loin"],
+          "rows": [
+            ["des personnes ({ar|لِلْعَاقِلِ})", "{ar|هَؤُلَاءِ}", "{ar|أُولَئِكَ}"],
+            ["des animaux ou des choses ({ar|لِغَيْرِ الْعَاقِلِ})", "{ar|هٰذِهِ}", "{ar|تِلْكَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les grammairiens appellent ces mots {ar|أَسْمَاءُ الْإِشَارَةِ لِلْجَمْعِ} (« les noms démonstratifs du pluriel »). Ils ne changent jamais de forme."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.grammar-1#10",
+      "type": "sort",
+      "categories": [ { "ar": "هَؤُلَاءِ" }, { "ar": "هٰذِهِ" } ],
+      "cards": [
+        { "ar": "رِجَالٌ", "category": 0 },
+        { "ar": "كُتُبٌ", "category": 1 },
+        { "ar": "كِلَابٌ", "category": 1 },
+        { "ar": "طَبِيبَاتٌ", "category": 0 },
+        { "ar": "سَيَّارَاتٌ", "category": 1 },
+        { "ar": "طُلَّابٌ", "category": 0 },
+        { "ar": "أَبْوَابٌ", "category": 1 }
+      ],
+      "instruction": "Quel démonstratif de proximité va avec chaque pluriel ?",
+      "explain": "Des personnes : {ar|هَؤُلَاءِ}. Des animaux ou des choses : {ar|هٰذِهِ}."
+    },
+    {
+      "id": "medine-t1.l16.grammar-1#11",
+      "type": "true_false",
+      "statement": { "fr": "Pour montrer plusieurs livres, on emploie {ar|هَؤُلَاءِ}." },
+      "answer": false,
+      "explain": "Des livres ne sont pas des personnes : on emploie {ar|هٰذِهِ} (proche) ou {ar|تِلْكَ} (loin)."
+    },
+    {
+      "id": "medine-t1.l16.grammar-1#12",
+      "type": "fill_gap",
+      "sentence": "{0} مُدَرِّسُونَ.",
+      "fr": "Ceux-ci sont des enseignants.",
+      "gaps": [ { "answers": ["هَؤُلَاءِ"] } ],
+      "options": ["هَؤُلَاءِ", "هٰذِهِ", "هٰذَا"],
+      "explain": "Plusieurs personnes proches : {ar|هَؤُلَاءِ}."
+    },
+    {
+      "id": "medine-t1.l16.grammar-1#13",
+      "type": "order",
+      "fr": "Ce sont des voitures, là-bas.",
+      "answers": [["تِلْكَ", "سَيَّارَاتٌ"]],
+      "punctuation": ".",
+      "distractors": ["أُولَئِكَ"],
+      "explain": "{ar|تِلْكَ} puis {ar|سَيَّارَاتٌ} : des voitures sont des choses, donc pas {ar|أُولَئِكَ}."
+    },
+    {
+      "id": "medine-t1.l16.grammar-1#14",
+      "type": "question",
+      "prompt": { "fr": "Quel mot montre plusieurs chiens, au loin ?" },
+      "choices": [ { "ar": "تِلْكَ" }, { "ar": "أُولَئِكَ" }, { "ar": "ذٰلِكَ" } ],
+      "answer": 0,
+      "explain": "Des chiens sont des animaux : {ar|تِلْكَ}. {ar|أُولَئِكَ} est réservé aux personnes."
+    },
+    {
+      "id": "medine-t1.l16.grammar-1#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ce sont des chiens.",
+      "answers": ["هٰذِهِ كِلَابٌ."]
+    }
+  ]
+}

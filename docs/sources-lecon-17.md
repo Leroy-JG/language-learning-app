@@ -75,9 +75,11 @@ Trois PDF du cours 17 (`TOME1-17a.pdf`, `17b`, `17c`), lus page par page :
 
 ## Mots ajoutés (absents de la liste du PDF, employés par ses textes ou exercices)
 
-`كَثِيرٌ` (phrase 5 et exemple de la rue), `فُنْدُقٌ` (phrase 13, exercices 1 et 3), `جَبَلٌ` (exercice 2), `نَهْرٌ` (exercice 2), `طَائِرَةٌ` (exercice 2),
-`زَوْجَةٌ` (exercice 1), `مُؤْمِنٌ`, `كَافِرٌ`, `صَادِقٌ`, `خَائِفٌ`, `مُخْلِصٌ`, `حَافِظٌ` (liste de l'exercice « حَوِّلْ إِلَى جَمْعٍ » et astuces),
+`كَثِيرٌ` (phrase 5 et exemple de la rue), `زَوْجَةٌ` (exercice 1), `مُؤْمِنٌ`, `كَافِرٌ`, `صَادِقٌ`, `خَائِفٌ`, `مُخْلِصٌ`, `حَافِظٌ` (liste de l'exercice « حَوِّلْ إِلَى جَمْعٍ » et astuces),
 et cinq termes de grammaire : `الْمُثَنَّى`, `الْجَمْعُ السَّالِمُ`, `جَمْعُ الْمُذَكَّرِ السَّالِمُ`, `جَمْعُ الْمُؤَنَّثِ السَّالِمُ`, `جَمْعُ التَّكْسِيرِ`.
+
+`فُنْدُقٌ` (phrase 13, exercices 1 et 3), `جَبَلٌ`, `نَهْرٌ` et `طَائِرَةٌ` (exercice 2) sont aussi employés par le livre, mais ils sont **déjà enseignés au chapitre 16**
+(`w:funduq`, `w:jabal`, `w:nahr`, `w:taira`) : le chapitre 17 les réutilise sans les redéfinir (`vocab-4` les revoit, avec le seul mot nouveau `زَوْجَةٌ`).
 
 ## Choix de contenu
 
@@ -93,17 +95,20 @@ et cinq termes de grammaire : `الْمُثَنَّى`, `الْجَمْعُ ال
   aucun exercice n'impose un seul des deux. Les options fausses des exercices sont le masculin singulier ou le masculin pluriel.
 - **Pluriel de l'adjectif de personnes féminines** : `جُدُدٌ` ou `جَدِيدَاتٌ` sont tous deux acceptés (comme au chapitre 13).
 - **Cas du pluriel brisé** : se décline comme un nom ordinaire ; rappel du pluriel de forme longue sans tanwin (chapitres 4 et 5).
-- **`مَوْعِدٌ`** : `gender` masculin ; `نَهْرٌ`, `جَبَلٌ`, `فُنْدُقٌ` : masculins ; `طَائِرَةٌ`, `زَوْجَةٌ`, `حَافِلَةٌ`, `مَحَطَّةٌ`, `شَرِكَةٌ` : féminins.
+- **Genres** : `مَوْعِدٌ`, `سَائِقٌ` : masculins ; `زَوْجَةٌ`, `حَافِلَةٌ`, `مَحَطَّةٌ`, `شَرِكَةٌ` : féminins.
 - **`سَائِقٌ`** : pluriel `سُوَّاقٌ` (PDF), avec `سَائِقُونَ` en note.
 - **`حَافِظٌ`** : « qui a mémorisé » (de `حَفِظَ`, chapitre r01).
 - **Exercices de vocabulaire avec verbes** : les options fausses sont des verbes dont le sens ne convient pas à la phrase française ; `order` accepte l'ordre
   verbe-sujet et l'ordre sujet-verbe.
-- **Pas de nouvelle icône** (pas d'icône de bus, d'hôtel, de montagne ni d'avion pour l'instant).
+- **Pas de nouvelle icône** (pas d'icône de bus pour l'instant ; l'hôtel, la montagne et l'avion ont leur icône depuis le chapitre 16).
+- **`grammar-7`** : le chapitre 16 enseigne déjà que le démonstratif, le pronom et l'adjectif d'un pluriel de choses se mettent au féminin singulier ; `grammar-7` le rappelle
+  et ajoute ce que dit le professeur en plus : l'adjectif peut aussi se mettre au féminin pluriel.
 
-## Coordination avec les autres chapitres en cours
+## Coordination avec les autres chapitres
 
-- Chapitre 19 (autre conversation) : avait prévu `w:hafila` (`حَافِلَةٌ`), puis l'a retiré de son chapitre : pas de doublon.
-- Chapitre 16 et chapitre 18 : à vérifier à la fusion (le validateur refuse les ids en double).
+- Chapitre 16 (fusionné dans `main` avant le 17) : `w:taira`, `w:funduq`, `w:jabal`, `w:nahr` y sont définis ; le chapitre 17 les réutilise (doublons retirés lors de la fusion de `main`).
+- Chapitre 18 (en cours) : définit aussi `w:muthanna` ; comme le 17 passe avant, c'est le chapitre 18 qui retire sa définition à sa fusion.
+- Chapitre 19 : avait prévu `w:hafila`, puis l'a retiré de son chapitre : pas de doublon.
 
 ## Relectures
 
