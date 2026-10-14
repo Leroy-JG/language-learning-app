@@ -758,11 +758,11 @@ Le validateur refuse هٰذَا ou ذٰلِكَ devant un nom marqué féminin, 
   - exception coranique pour `أُولَئِكَ` (Coran 17:36).
 - **Notes mises à jour dans les chapitres précédents :** notes de `w:hadhihi` (`l06`) et `w:tilka` (`l07`), et l'astuce de `l13/grammar-1` (renvoi au chapitre 16).
 
+### Leçon 17 (`l17`)
+
+Notes de choix dans un fichier à part : `docs/sources-lecon-17.md` (les chapitres 16 à 19 ont été écrits en parallèle, dans des conversations différentes).
+
 ## Audio
 
 Aucun MP3 n'est encore généré : l'app utilise la synthèse vocale arabe du téléphone en attendant
 (voir `docs/roadmap.md`).
-
-### Leçon 17 (`l17`)
-
-Notes de choix dans un fichier à part : `docs/sources-lecon-17.md` (les chapitres 16 à 19 ont été écrits en parallèle, dans des conversations différentes).
