@@ -1,0 +1,143 @@
+{
+  "id": "medine-t1.r02.revue-6",
+  "type": "review",
+  "title": "Un, deux, plusieurs",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.r02.revue-6#1",
+      "type": "tip",
+      "title": "Trois nombres, deux sortes de pluriel",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Nombre", "En arabe", "Exemple"],
+          "rows": [
+            ["un seul", "{ar|الْمُفْرَدُ}", "{ar|مُسْلِمٌ}"],
+            ["exactement deux", "{ar|الْمُثَنَّى}", "{ar|مُسْلِمَانِ}"],
+            ["trois ou plus", "{ar|الْجَمْعُ}", "{ar|مُسْلِمُونَ}"]
+          ]
+        },
+        {
+          "type": "table",
+          "header": ["Pluriel", "En arabe", "Comment", "Exemple"],
+          "rows": [
+            [
+              "régulier masculin",
+              "{ar|جَمْعُ الْمُذَكَّرِ السَّالِمُ}",
+              "{ar|◌ُونَ} / {ar|◌ِينَ}",
+              "{ar|مُسْلِمُونَ}"
+            ],
+            ["régulier féminin", "{ar|جَمْعُ الْمُؤَنَّثِ السَّالِمُ}", "{ar|◌َاتٌ}", "{ar|مُسْلِمَاتٌ}"],
+            ["irrégulier", "{ar|جَمْعُ التَّكْسِيرِ}", "le mot lui-même change", "{ar|كِتَابٌ} → {ar|كُتُبٌ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.revue-6#2",
+      "type": "sort",
+      "categories": [ { "fr": "singulier" }, { "fr": "duel" }, { "fr": "pluriel" } ],
+      "cards": [
+        { "ar": "كِتَابٌ", "category": 0 },
+        { "ar": "كِتَابَانِ", "category": 1 },
+        { "ar": "كُتُبٌ", "category": 2 },
+        { "ar": "طَالِبَةٌ", "category": 0 },
+        { "ar": "طَالِبَتَانِ", "category": 1 },
+        { "ar": "طَالِبَاتٌ", "category": 2 }
+      ],
+      "instruction": "Singulier, duel ou pluriel ?"
+    },
+    {
+      "id": "medine-t1.r02.revue-6#3",
+      "type": "sort",
+      "categories": [ { "fr": "masculin régulier" }, { "fr": "féminin régulier" }, { "fr": "irrégulier" } ],
+      "cards": [
+        { "ar": "مُسْلِمُونَ", "category": 0 },
+        { "ar": "مُسْلِمَاتٌ", "category": 1 },
+        { "ar": "أَقْلَامٌ", "category": 2 },
+        { "ar": "مُدَرِّسُونَ", "category": 0 },
+        { "ar": "ثَلَّاجَاتٌ", "category": 1 },
+        { "ar": "مَسَاجِدُ", "category": 2 }
+      ],
+      "instruction": "Quel type de pluriel ?",
+      "explain": "{ar|◌ُونَ} : masculin régulier ; {ar|◌َاتٌ} : féminin régulier ; {ar|أَقْلَامٌ} et {ar|مَسَاجِدُ} : le mot change, c'est un pluriel irrégulier."
+    },
+    {
+      "id": "medine-t1.r02.revue-6#4",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:qalam", "w:bayt", "w:tabib", "w:walad", "w:kitab"]
+    },
+    {
+      "id": "medine-t1.r02.revue-6#5",
+      "type": "tip",
+      "title": "Le duel et le pluriel changent de fin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le **nūn** final ne change jamais et ne marque pas le cas : le cas se lit sur la lettre qui précède."
+        },
+        {
+          "type": "table",
+          "header": ["Cas", "Duel", "Pluriel masculin régulier"],
+          "rows": [["nominatif", "{ar|◌َانِ}", "{ar|◌ُونَ}"], ["accusatif et génitif", "{ar|◌َيْنِ}", "{ar|◌ِينَ}"]]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.revue-6#6",
+      "type": "fill_gap",
+      "sentence": "السَّلَامُ عَلَى {0}.",
+      "fr": "Que la paix soit sur les deux musulmans.",
+      "gaps": [ { "answers": ["الْمُسْلِمَيْنِ"] } ],
+      "options": ["الْمُسْلِمَيْنِ", "الْمُسْلِمَانِ", "الْمُسْلِمُونَ"],
+      "explain": "Après {ar|عَلَى}, le nom est au génitif. Pour deux, c'est le duel : {ar|الْمُسْلِمَيْنِ}."
+    },
+    {
+      "id": "medine-t1.r02.revue-6#7",
+      "type": "fill_gap",
+      "sentence": "الطَّالِبَتَانِ {0}.",
+      "fr": "Les deux étudiantes sont nouvelles.",
+      "gaps": [ { "answers": ["جَدِيدَتَانِ"] } ],
+      "options": ["جَدِيدَتَانِ", "جَدِيدَةٌ", "جُدُدٌ"],
+      "explain": "L'adjectif d'un duel est lui aussi au duel."
+    },
+    {
+      "id": "medine-t1.r02.revue-6#8",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « deux livres » ?" },
+      "choices": [ { "ar": "كِتَابَانِ" }, { "ar": "كُتُبٌ" }, { "ar": "كِتَابٌ" } ],
+      "answer": 0,
+      "explain": "Pour deux, on met le nom au duel : {ar|كِتَابَانِ}."
+    },
+    {
+      "id": "medine-t1.r02.revue-6#9",
+      "type": "true_false",
+      "statement": { "fr": "Le {ar|ن} final du duel est la marque du cas." },
+      "answer": false,
+      "explain": "Le {ar|ن} garde toujours sa kasra. La marque du cas est la lettre qui le précède : {ar|ا} au nominatif, {ar|ي} sinon."
+    },
+    {
+      "id": "medine-t1.r02.revue-6#10",
+      "type": "true_false",
+      "statement": { "fr": "Un pluriel en {ar|◌َاتٌ} est toujours un féminin." },
+      "answer": false,
+      "explain": "{ar|حَمَّامَاتٌ} est le pluriel de {ar|حَمَّامٌ}, qui est masculin."
+    },
+    {
+      "id": "medine-t1.r02.revue-6#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "deux étudiantes",
+      "answers": ["طَالِبَتَانِ"]
+    },
+    {
+      "id": "medine-t1.r02.revue-6#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les deux musulmans sont dans la mosquée.",
+      "answers": ["الْمُسْلِمَانِ فِي الْمَسْجِدِ."]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "medine-t1.r02.vocab-8",
+  "type": "vocabulary",
+  "title": "La grammaire, la révision, deux pays",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t1.r02.vocab-8#1", "type": "present", "item": "w:nahw" },
+    { "id": "medine-t1.r02.vocab-8#2", "type": "present", "item": "w:murajaa" },
+    {
+      "id": "medine-t1.r02.vocab-8#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:nahw",
+      "distractors": ["w:handasa", "w:tibb"]
+    },
+    { "id": "medine-t1.r02.vocab-8#4", "type": "present", "item": "w:misr" },
+    { "id": "medine-t1.r02.vocab-8#5", "type": "present", "item": "w:yaman" },
+    {
+      "id": "medine-t1.r02.vocab-8#6",
+      "type": "tip",
+      "title": "Deux pays, deux terminaisons",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pays", "Après {ar|مِنْ}", "Pourquoi"],
+          "rows": [
+            ["{ar|مِصْرُ}", "{ar|مِنْ مِصْرَ}", "sans tanwin : la fatha, comme {ar|مِنْ مَكَّةَ}"],
+            ["{ar|الْيَمَنُ}", "{ar|مِنَ الْيَمَنِ}", "avec l'article : la kasra, et {ar|مِنْ} devient {ar|مِنَ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.vocab-8#7",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:misr", "w:yaman", "w:faransa", "w:iraq", "w:hind"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-8#8",
+      "type": "fill_gap",
+      "sentence": "أَنَا مِنْ {0}.",
+      "fr": "Je viens d'Égypte.",
+      "gaps": [ { "answers": ["مِصْرَ"] } ],
+      "options": ["مِصْرَ", "فَرَنْسَا", "بَاكِسْتَانَ"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-8#9",
+      "type": "fill_gap",
+      "sentence": "هُوَ مِنَ {0}.",
+      "fr": "Il vient du Yémen.",
+      "gaps": [ { "answers": ["الْيَمَنِ"] } ],
+      "options": ["الْيَمَنِ", "الْعِرَاقِ", "الْكُوَيْتِ"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-8#10",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|مُرَاجَعَةٌ} ?" },
+      "choices": [ { "fr": "Une révision" }, { "fr": "Un examen" }, { "fr": "Une leçon" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.r02.vocab-8#11",
+      "type": "true_false",
+      "statement": { "fr": "{ar|النَّحْوُ} étudie notamment la terminaison des mots (le cas)." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.r02.vocab-8#12",
+      "type": "order",
+      "fr": "Je viens d'Égypte.",
+      "answers": [["أَنَا", "مِنْ", "مِصْرَ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.r02.vocab-8#13", "type": "build", "item": "w:misr", "extra": ["س"] },
+    { "id": "medine-t1.r02.vocab-8#14", "type": "typing", "ask": "fr", "fr": "l'Égypte", "answers": ["مِصْرُ"] },
+    {
+      "id": "medine-t1.r02.vocab-8#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il vient du Yémen.",
+      "answers": ["هُوَ مِنَ الْيَمَنِ."]
+    }
+  ]
+}

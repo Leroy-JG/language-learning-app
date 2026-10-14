@@ -1,0 +1,95 @@
+{
+  "id": "medine-t1.r02.vocab-10",
+  "type": "vocabulary",
+  "title": "Dormir, invoquer, réciter, se lever",
+  "icon": "sun",
+  "screens": [
+    { "id": "medine-t1.r02.vocab-10#1", "type": "present", "item": "w:nama" },
+    { "id": "medine-t1.r02.vocab-10#2", "type": "present", "item": "w:dhakara" },
+    {
+      "id": "medine-t1.r02.vocab-10#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:nama",
+      "distractors": ["w:akala", "w:qama"]
+    },
+    { "id": "medine-t1.r02.vocab-10#4", "type": "present", "item": "w:tala" },
+    { "id": "medine-t1.r02.vocab-10#5", "type": "present", "item": "w:tala-2" },
+    {
+      "id": "medine-t1.r02.vocab-10#6",
+      "type": "tip",
+      "title": "Les quatre formes d'un verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne chaque verbe sous **quatre formes** : le passé (« il a… »), le présent, l'impératif et le nom d'action. Tu connais déjà le passé : les trois autres sont un simple aperçu, rien n'est exigé."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["dormir", "{ar|نَامَ}", "{ar|يَنَامُ}", "{ar|نَمْ}", "{ar|نَوْمٌ}"],
+            ["se rappeler", "{ar|ذَكَرَ}", "{ar|يَذْكُرُ}", "{ar|اُذْكُرْ}", "{ar|ذِكْرٌ}"],
+            ["réciter le Coran", "{ar|تَلَا}", "{ar|يَتْلُو}", "{ar|اُتْلُ}", "{ar|تِلَاوَةٌ}"],
+            ["apparaître", "{ar|طَلَعَ}", "{ar|يَطْلُعُ}", "{ar|اُطْلُعْ}", "{ar|طُلُوعٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pour {ar|نَامَ}, l'impératif {ar|نَمْ} n'a pas d'alif de liaison. À l'impératif, le premier alif est un alif de liaison : il prend une damma quand l'avant-dernière lettre du présent porte une damma ({ar|يَحْضُرُ} → {ar|اُحْضُرْ}), et une kasra sinon ({ar|يَصْعَدُ} → {ar|اِصْعَدْ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.vocab-10#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:nama", "w:dhakara", "w:tala", "w:tala-2", "w:qama"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-10#8",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ مُبَكِّرًا.",
+      "fr": "Zayd s'est couché tôt.",
+      "gaps": [ { "answers": ["نَامَ"] } ],
+      "options": ["نَامَ", "تَلَا", "طَلَعَ"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-10#9",
+      "type": "fill_gap",
+      "sentence": "{0} الشَّمْسُ.",
+      "fr": "Le soleil s'est levé.",
+      "gaps": [ { "answers": ["طَلَعَتِ"] } ],
+      "options": ["طَلَعَتِ", "ذَهَبَتِ", "جَلَسَتِ"],
+      "explain": "{ar|الشَّمْسُ} est féminin : le verbe prend le {ar|تْ} du féminin (chapitre 12), avec une kasra devant l'article."
+    },
+    {
+      "id": "medine-t1.r02.vocab-10#10",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|تَلَا زَيْدٌ الْقُرْآنَ} ?" },
+      "choices": [ { "fr": "Zayd a récité le Coran" }, { "fr": "Zayd a écrit le Coran" }, { "fr": "Zayd a caché le Coran" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.r02.vocab-10#11",
+      "type": "true_false",
+      "statement": { "fr": "{ar|ذَكَرَ اللَّهَ} veut dire « il a invoqué Allah, il l'a mentionné »." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.r02.vocab-10#12",
+      "type": "order",
+      "fr": "Le soleil s'est levé.",
+      "answers": [["طَلَعَتِ", "الشَّمْسُ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.r02.vocab-10#13", "type": "typing", "ask": "fr", "item": "w:tala" },
+    {
+      "id": "medine-t1.r02.vocab-10#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd a récité le Coran.",
+      "answers": ["تَلَا زَيْدٌ الْقُرْآنَ."]
+    }
+  ]
+}

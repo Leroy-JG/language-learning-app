@@ -1,0 +1,142 @@
+{
+  "id": "medine-t1.r02.revue-3",
+  "type": "review",
+  "title": "Qui ? Quoi ? Où ? Quand ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.r02.revue-3#1",
+      "type": "tip",
+      "title": "Les noms interrogatifs",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Mot", "Il demande…", "Les grammairiens disent"],
+          "rows": [
+            ["{ar|مَنْ}", "une personne", "{ar|لِلْعَاقِلِ}"],
+            ["{ar|مَا}", "une chose, un animal", "{ar|لِغَيْرِ الْعَاقِلِ}"],
+            ["{ar|أَيْنَ}", "un lieu", "{ar|لِلْمَكَانِ}"],
+            ["{ar|كَيْفَ}", "l'état, la manière", "{ar|لِلْحَالِ وَالْكَيْفِيَّةِ}"],
+            ["{ar|مَتَى}", "un moment", "{ar|لِلزَّمَانِ}"],
+            ["{ar|كَمْ}", "un nombre", "{ar|لِلْعَدَدِ}"],
+            [
+              "{ar|أَيُّ}",
+              "« quel… ? » : un lieu, un moment, une personne ou une chose",
+              "{ar|لِلْمَكَانِ وَالزَّمَانِ وَالْعَاقِلِ وَغَيْرِ الْعَاقِلِ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Tous sont invariables, sauf {ar|أَيُّ}, qui est premier terme d'une annexion et suit son rôle : {ar|فِي أَيِّ مَدْرَسَةٍ؟}"
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.revue-3#2",
+      "type": "sort",
+      "categories": [ { "fr": "une personne" }, { "fr": "une chose" }, { "fr": "un lieu" } ],
+      "cards": [
+        { "item": "w:man", "category": 0 },
+        { "item": "w:ma", "category": 1 },
+        { "item": "w:ayna", "category": 2 },
+        { "ar": "مَنْ هٰذَا؟", "category": 0 },
+        { "ar": "مَا هٰذَا؟", "category": 1 },
+        { "ar": "أَيْنَ الْمَسْجِدُ؟", "category": 2 }
+      ],
+      "instruction": "Que demande chaque mot ?"
+    },
+    {
+      "id": "medine-t1.r02.revue-3#3",
+      "type": "sort",
+      "categories": [ { "fr": "un moment" }, { "fr": "un nombre" }, { "fr": "une manière" } ],
+      "cards": [
+        { "item": "w:mata", "category": 0 },
+        { "item": "w:kam", "category": 1 },
+        { "item": "w:kayfa", "category": 2 },
+        { "ar": "مَتَى الدَّرْسُ؟", "category": 0 },
+        { "ar": "كَمْ كِتَابًا؟", "category": 1 },
+        { "ar": "كَيْفَ حَالُكَ؟", "category": 2 }
+      ],
+      "instruction": "Que demande chaque mot ?"
+    },
+    {
+      "id": "medine-t1.r02.revue-3#4",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:mata", "w:kam", "w:kayfa", "w:ayy", "w:limadha"]
+    },
+    {
+      "id": "medine-t1.r02.revue-3#5",
+      "type": "fill_gap",
+      "sentence": "{0} الِاخْتِبَارُ؟ بَعْدَ أُسْبُوعٍ.",
+      "fr": "Quand est l'examen ? Dans une semaine.",
+      "gaps": [ { "answers": ["مَتَى"] } ],
+      "options": ["مَتَى", "مَنْ", "أَيْنَ"],
+      "explain": "La réponse est un moment (« dans une semaine ») : {ar|مَتَى}."
+    },
+    {
+      "id": "medine-t1.r02.revue-3#6",
+      "type": "fill_gap",
+      "sentence": "{0} طَالِبًا فِي الْفَصْلِ؟",
+      "fr": "Combien d'étudiants y a-t-il dans la classe ?",
+      "gaps": [ { "answers": ["كَمْ"] } ],
+      "options": ["كَمْ", "مَتَى", "كَيْفَ"],
+      "explain": "On demande un nombre : {ar|كَمْ}, suivi d'un nom au singulier et à l'accusatif."
+    },
+    {
+      "id": "medine-t1.r02.revue-3#7",
+      "type": "fill_gap",
+      "sentence": "{0} حَالُكَ؟",
+      "fr": "Comment vas-tu ?",
+      "gaps": [ { "answers": ["كَيْفَ"] } ],
+      "options": ["كَيْفَ", "أَيْنَ", "مَا"]
+    },
+    {
+      "id": "medine-t1.r02.revue-3#8",
+      "type": "question",
+      "prompt": { "fr": "Quel nom interrogatif veut dire « quel… ? »" },
+      "choices": [ { "ar": "أَيُّ" }, { "ar": "كَمْ" }, { "ar": "مَتَى" } ],
+      "answer": 0,
+      "explain": "{ar|أَيُّ} veut dire « quel… ? » : {ar|أَيُّ دَرْسٍ؟} (« quelle leçon ? »)."
+    },
+    {
+      "id": "medine-t1.r02.revue-3#9",
+      "type": "true_false",
+      "statement": { "fr": "Tous les noms interrogatifs sont invariables." },
+      "answer": false,
+      "explain": "{ar|أَيُّ} suit son rôle dans la phrase : {ar|فِي أَيِّ مَدْرَسَةٍ؟}, {ar|مِنْ أَيِّ بَلَدٍ؟}."
+    },
+    {
+      "id": "medine-t1.r02.revue-3#10",
+      "type": "order",
+      "fr": "Quand est ton examen ?",
+      "answers": [["مَتَى", "اِخْتِبَارُكَ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.r02.revue-3#11",
+      "type": "order",
+      "fr": "Combien d'étudiants y a-t-il dans ta classe ?",
+      "answers": [["كَمْ", "طَالِبًا", "فِي", "فَصْلِكَ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.r02.revue-3#12",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِنْ أَيْنَ أَنْتَ؟",
+      "answers": ["أَنَا مِنْ فَرَنْسَا.", "مِنْ فَرَنْسَا."],
+      "fr": "Je viens de France.",
+      "instruction": "Réponds : je viens de France."
+    },
+    {
+      "id": "medine-t1.r02.revue-3#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Où est ton livre ?",
+      "answers": ["أَيْنَ كِتَابُكَ؟"]
+    }
+  ]
+}

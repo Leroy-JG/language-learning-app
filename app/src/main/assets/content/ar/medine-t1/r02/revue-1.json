@@ -1,0 +1,144 @@
+{
+  "id": "medine-t1.r02.revue-1",
+  "type": "review",
+  "title": "Défini ou indéfini ?",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.r02.revue-1#1",
+      "type": "tip",
+      "title": "Indéfini ou défini ?",
+      "blocks": [
+        { "type": "paragraph", "text": "Un nom est **indéfini** ({ar|نَكِرَةٌ}) ou **défini** ({ar|مَعْرِفَةٌ})." },
+        {
+          "type": "table",
+          "header": ["Nom", "Comment le reconnaître", "Exemple"],
+          "rows": [
+            ["indéfini", "il porte le tanwin", "{ar|كِتَابٌ}"],
+            ["défini", "il a l'article {ar|الْ}, ou c'est l'une des sortes de la page suivante", "{ar|الْكِتَابُ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "L'article fait perdre le tanwin : on n'écrit jamais les deux ensemble."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.revue-1#2",
+      "type": "tip",
+      "title": "Quatre sortes de noms définis",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les noms définis ({ar|الْمَعَارِفُ}) sont de plusieurs sortes. Tu en connais quatre :"
+        },
+        {
+          "type": "table",
+          "header": ["Sorte", "En arabe", "Exemples"],
+          "rows": [
+            ["un nom propre", "{ar|الْعَلَمُ}", "{ar|زَيْنَبُ}, {ar|مَكَّةُ}, {ar|مُحَمَّدٌ}"],
+            ["un pronom", "{ar|الضَّمِيرُ}", "{ar|هُوَ}, {ar|أَنَا}"],
+            ["un nom démonstratif", "{ar|اسْمُ الْإِشَارَةِ}", "{ar|هٰذَا}, {ar|تِلْكَ}"],
+            ["un nom avec l'article", "{ar|الْمُعَرَّفُ بِالْ}", "{ar|الْبَيْتُ}, {ar|الْمَدْرَسَةُ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Un nom en annexion avec un nom défini est défini lui aussi : {ar|كِتَابُ الطَّالِبِ} (« le livre de l'étudiant »), chapitre 5."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.revue-1#3",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:marifa", "w:alam", "w:damir", "w:ism-ishara", "w:al"]
+    },
+    {
+      "id": "medine-t1.r02.revue-1#4",
+      "type": "sort",
+      "categories": [ { "fr": "nom propre" }, { "fr": "pronom" }, { "fr": "démonstratif" } ],
+      "cards": [
+        { "ar": "مَكَّةُ", "category": 0 },
+        { "ar": "هُوَ", "category": 1 },
+        { "ar": "هٰذِهِ", "category": 2 },
+        { "ar": "أَنْتِ", "category": 1 },
+        { "ar": "ذٰلِكَ", "category": 2 },
+        { "ar": "إِبْرَاهِيمُ", "category": 0 }
+      ],
+      "instruction": "De quelle sorte de nom défini s'agit-il ?",
+      "explain": "{ar|مَكَّةُ} et {ar|إِبْرَاهِيمُ} sont des noms propres ; {ar|هُوَ} et {ar|أَنْتِ} des pronoms ; {ar|هٰذِهِ} et {ar|ذٰلِكَ} des noms démonstratifs."
+    },
+    {
+      "id": "medine-t1.r02.revue-1#5",
+      "type": "sort",
+      "categories": [ { "fr": "défini" }, { "fr": "indéfini" } ],
+      "cards": [
+        { "ar": "كِتَابٌ", "category": 1 },
+        { "ar": "الْكِتَابُ", "category": 0 },
+        { "ar": "هٰذَا", "category": 0 },
+        { "ar": "بَيْتٌ", "category": 1 },
+        { "ar": "زَيْدٌ", "category": 0 },
+        { "ar": "مَدْرَسَةٌ", "category": 1 },
+        { "ar": "أَنَا", "category": 0 }
+      ],
+      "instruction": "Ce nom est-il défini ou indéfini ?",
+      "explain": "{ar|زَيْدٌ} porte un tanwin, mais un nom propre est toujours défini. Un nom indéfini a le tanwin et rien d'autre ({ar|كِتَابٌ}, {ar|بَيْتٌ}, {ar|مَدْرَسَةٌ})."
+    },
+    {
+      "id": "medine-t1.r02.revue-1#6",
+      "type": "spot",
+      "instruction": "Touche le nom indéfini.",
+      "words": ["فِي", "الْمَسْجِدِ", "رَجُلٌ."],
+      "answers": [2],
+      "fr": "Dans la mosquée, il y a un homme.",
+      "explain": "{ar|رَجُلٌ} a le tanwin : il est indéfini ({ar|الْمَسْجِدِ} a l'article). Après « préposition + nom », le sujet peut être indéfini."
+    },
+    {
+      "id": "medine-t1.r02.revue-1#7",
+      "type": "fill_gap",
+      "sentence": "الْكِتَابُ عَلَى الْمَكْتَبِ. {0} جَدِيدٌ.",
+      "fr": "Le livre est sur le bureau. Il est neuf.",
+      "gaps": [ { "answers": ["هُوَ"] } ],
+      "options": ["هُوَ", "هِيَ", "هُمْ"],
+      "explain": "{ar|الْكِتَابُ} est un nom masculin singulier : le pronom qui le reprend est {ar|هُوَ}."
+    },
+    {
+      "id": "medine-t1.r02.revue-1#8",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|كِتَابُ الطَّالِبِ} est-il défini ?" },
+      "choices": [
+        { "fr": "Parce que son second terme, {ar|الطَّالِبِ}, est défini" },
+        { "fr": "Parce qu'il porte un tanwin" },
+        { "fr": "Parce que c'est un nom propre" }
+      ],
+      "answer": 0,
+      "explain": "Une annexion est définie quand son second terme l'est. {ar|كِتَابُ} lui-même n'a ni article ni tanwin."
+    },
+    {
+      "id": "medine-t1.r02.revue-1#9",
+      "type": "true_false",
+      "statement": { "fr": "{ar|زَيْنَبُ} est un nom indéfini, parce qu'elle n'a pas l'article." },
+      "answer": false,
+      "explain": "Un nom propre est défini sans avoir besoin de l'article."
+    },
+    {
+      "id": "medine-t1.r02.revue-1#10",
+      "type": "order",
+      "fr": "La voiture de Zaynab est ici.",
+      "answers": [["سَيَّارَةُ", "زَيْنَبَ", "هُنَا"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.r02.revue-1#11", "type": "typing", "ask": "fr", "fr": "un livre", "answers": ["كِتَابٌ"] },
+    {
+      "id": "medine-t1.r02.revue-1#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceci est le livre de Zaynab.",
+      "answers": ["هٰذَا كِتَابُ زَيْنَبَ."]
+    }
+  ]
+}

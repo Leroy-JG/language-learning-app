@@ -1,0 +1,170 @@
+{
+  "id": "medine-t1.r02.revue-4",
+  "type": "review",
+  "title": "Les pronoms",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.r02.revue-4#1",
+      "type": "tip",
+      "title": "Isolé ou affixe ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un pronom ({ar|الضَّمِيرُ}) est un nom défini dont la fin ne change jamais. Il est **isolé** ({ar|مُنْفَصِلٌ}) ou **affixe** ({ar|مُتَّصِلٌ}, collé à un autre mot)."
+        },
+        {
+          "type": "table",
+          "header": ["Personne", "Isolé", "Affixe"],
+          "rows": [
+            ["je / mon", "{ar|أَنَا}", "{ar|◌ِي}"],
+            ["nous / notre", "{ar|نَحْنُ}", "{ar|نَا}"],
+            ["toi, à un homme", "{ar|أَنْتَ}", "{ar|كَ}"],
+            ["toi, à une femme", "{ar|أَنْتِ}", "{ar|كِ}"],
+            ["vous deux", "{ar|أَنْتُمَا}", "{ar|كُمَا}"],
+            ["vous (hommes)", "{ar|أَنْتُمْ}", "{ar|كُمْ}"],
+            ["vous (femmes)", "{ar|أَنْتُنَّ}", "{ar|كُنَّ}"],
+            ["il / son (à lui)", "{ar|هُوَ}", "{ar|هُ}"],
+            ["elle / son (à elle)", "{ar|هِيَ}", "{ar|هَا}"],
+            ["eux deux", "{ar|هُمَا}", "{ar|هُمَا}"],
+            ["ils / leur", "{ar|هُمْ}", "{ar|هُمْ}"],
+            ["elles / leur", "{ar|هُنَّ}", "{ar|هُنَّ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.revue-4#2",
+      "type": "tip",
+      "title": "Où sont-ils dans la phrase ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les pronoms isolés que tu connais sont au nominatif ({ar|مَرْفُوعَةٌ}) : ils servent de sujet, comme dans {ar|أَنَا فِي الْمَسْجِدِ}. Les pronoms affixes que tu connais sont au génitif ({ar|مَجْرُورَةٌ}) : ils se collent à un nom ({ar|كِتَابُهُ}) ou à une préposition ({ar|فِيهِ})."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Il existe aussi des pronoms isolés à l'accusatif, comme {ar|إِيَّاكَ} et {ar|إِيَّاهُ} : tu les verras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.revue-4#3",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:ana", "w:nahnu", "w:anta", "w:huwa", "w:hiya"]
+    },
+    {
+      "id": "medine-t1.r02.revue-4#4",
+      "type": "sort",
+      "categories": [ { "fr": "isolé" }, { "fr": "affixe" } ],
+      "cards": [
+        { "ar": "هُوَ", "category": 0 },
+        { "ar": "كِتَابُهُ", "category": 1 },
+        { "ar": "أَنْتُمْ", "category": 0 },
+        { "ar": "بَيْتِي", "category": 1 },
+        { "ar": "نَحْنُ", "category": 0 },
+        { "ar": "لَكَ", "category": 1 }
+      ],
+      "instruction": "Ce pronom est-il isolé ou affixe ?",
+      "explain": "Un pronom isolé s'écrit seul ({ar|هُوَ}, {ar|أَنْتُمْ}, {ar|نَحْنُ}). Un pronom affixe est collé à un nom ({ar|كِتَابُهُ}, {ar|بَيْتِي}) ou à une préposition ({ar|لَكَ})."
+    },
+    {
+      "id": "medine-t1.r02.revue-4#5",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ سَيَّارَةُ زَيْنَبَ. {0} جَدِيدَةٌ.",
+      "fr": "Voici la voiture de Zaynab. Elle est neuve.",
+      "gaps": [ { "answers": ["هِيَ"] } ],
+      "options": ["هِيَ", "هُوَ", "هُنَّ"],
+      "explain": "{ar|سَيَّارَةٌ} est un nom féminin singulier : {ar|هِيَ}."
+    },
+    {
+      "id": "medine-t1.r02.revue-4#6",
+      "type": "fill_gap",
+      "sentence": "{0} مُدَرِّسَانِ.",
+      "fr": "Ils sont deux enseignants.",
+      "gaps": [ { "answers": ["هُمَا"] } ],
+      "options": ["هُمَا", "هُمْ", "هُوَ"],
+      "explain": "{ar|مُدَرِّسَانِ} est un duel : le pronom du duel est {ar|هُمَا}."
+    },
+    {
+      "id": "medine-t1.r02.revue-4#7",
+      "type": "tip",
+      "title": "Un pronom collé à une préposition",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pronom", "{ar|لِ}", "{ar|عَلَى}", "{ar|فِي}", "{ar|مِنْ}"],
+          "rows": [
+            ["{ar|◌ِي}", "{ar|لِي}", "{ar|عَلَيَّ}", "{ar|فِيَّ}", "{ar|مِنِّي}"],
+            ["{ar|كَ}", "{ar|لَكَ}", "{ar|عَلَيْكَ}", "{ar|فِيكَ}", "{ar|مِنْكَ}"],
+            ["{ar|هُ}", "{ar|لَهُ}", "{ar|عَلَيْهِ}", "{ar|فِيهِ}", "{ar|مِنْهُ}"],
+            ["{ar|هَا}", "{ar|لَهَا}", "{ar|عَلَيْهَا}", "{ar|فِيهَا}", "{ar|مِنْهَا}"],
+            ["{ar|نَا}", "{ar|لَنَا}", "{ar|عَلَيْنَا}", "{ar|فِينَا}", "{ar|مِنَّا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Devant un pronom, {ar|لِ} devient {ar|لَ} (sauf {ar|لِي}) et le {ar|ى} de {ar|عَلَى} devient {ar|ي}. Après une kasra ou un {ar|ي}, le {ar|هُ} devient {ar|هِ} : {ar|فِيهِ}, {ar|عَلَيْهِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.revue-4#8",
+      "type": "fill_gap",
+      "sentence": "{0} أَخٌ.",
+      "fr": "J'ai un frère.",
+      "gaps": [ { "answers": ["لِي"] } ],
+      "options": ["لِي", "لَكَ", "لَهُ"],
+      "explain": "« À moi, un frère » : {ar|لِي أَخٌ}."
+    },
+    {
+      "id": "medine-t1.r02.revue-4#9",
+      "type": "fill_gap",
+      "sentence": "السَّلَامُ {0}.",
+      "fr": "Que la paix soit sur toi (à un homme).",
+      "gaps": [ { "answers": ["عَلَيْكَ"] } ],
+      "options": ["عَلَيْكَ", "عَلَيْهَا", "عَلَيْنَا"]
+    },
+    {
+      "id": "medine-t1.r02.revue-4#10",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|كِتَابُهَا} ?" },
+      "choices": [ { "fr": "Son livre (à elle)" }, { "fr": "Son livre (à lui)" }, { "fr": "Ton livre (à une femme)" } ],
+      "answer": 0,
+      "explain": "Le pronom {ar|هَا} désigne celle qui possède : « son livre à elle »."
+    },
+    {
+      "id": "medine-t1.r02.revue-4#11",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans {ar|فِيهِ}, le {ar|هِ} prend une kasra parce que la lettre qui précède porte une kasra ou un {ar|ي}."
+      },
+      "answer": true,
+      "explain": "Après une kasra ou un {ar|ي}, {ar|هُ} devient {ar|هِ}. Après un sukūn ou une fatha, il garde la damma : {ar|مِنْهُ}, {ar|لَهُ}."
+    },
+    {
+      "id": "medine-t1.r02.revue-4#12",
+      "type": "order",
+      "fr": "Mon livre est sur ton bureau (à un homme).",
+      "answers": [["كِتَابِي", "عَلَى", "مَكْتَبِكَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.r02.revue-4#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "ta maison (à une femme)",
+      "answers": ["بَيْتُكِ"]
+    },
+    {
+      "id": "medine-t1.r02.revue-4#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il a un livre.",
+      "answers": ["عِنْدَهُ كِتَابٌ."]
+    }
+  ]
+}

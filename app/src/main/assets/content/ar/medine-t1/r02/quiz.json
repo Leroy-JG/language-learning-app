@@ -1,0 +1,139 @@
+{
+  "id": "medine-t1.r02.quiz",
+  "type": "quiz",
+  "title": "Bilan de la révision 2",
+  "screens": [
+    {
+      "id": "medine-t1.r02.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:irab-asli",
+      "distractors": ["w:irab-farii", "w:irab"]
+    },
+    {
+      "id": "medine-t1.r02.quiz#2",
+      "type": "sort",
+      "categories": [ { "fr": "de base" }, { "fr": "secondaire" } ],
+      "cards": [
+        { "ar": "الْمَسْجِدُ", "category": 0 },
+        { "ar": "الْمُدَرِّسُونَ", "category": 1 },
+        { "ar": "حَاضِرَانِ", "category": 1 },
+        { "ar": "مُصَلٍّ", "category": 0 },
+        { "ar": "الْكِتَابُ", "category": 0 },
+        { "ar": "طَالِبَانِ", "category": 1 }
+      ],
+      "instruction": "La marque du cas est-elle de base ou secondaire ?"
+    },
+    {
+      "id": "medine-t1.r02.quiz#3",
+      "type": "fill_gap",
+      "sentence": "أُحِبُّ {0}.",
+      "fr": "J'aime les musulmans.",
+      "gaps": [ { "answers": ["الْمُسْلِمِينَ"] } ],
+      "options": ["الْمُسْلِمِينَ", "الْمُسْلِمَاتُ", "الْمُسْلِمَانِ"],
+      "explain": "L'objet de {ar|أُحِبُّ} est à l'accusatif : le pluriel masculin prend {ar|◌ِينَ}."
+    },
+    {
+      "id": "medine-t1.r02.quiz#4",
+      "type": "sort",
+      "categories": [ { "fr": "défini" }, { "fr": "indéfini" } ],
+      "cards": [
+        { "ar": "الْمِنْبَرُ", "category": 0 },
+        { "ar": "مِنْبَرٌ", "category": 1 },
+        { "ar": "هُوَ", "category": 0 },
+        { "ar": "خُطْبَةٌ", "category": 1 },
+        { "ar": "مِصْرُ", "category": 0 },
+        { "ar": "حَيَاةٌ", "category": 1 }
+      ],
+      "instruction": "Ce nom est-il défini ou indéfini ?"
+    },
+    {
+      "id": "medine-t1.r02.quiz#5",
+      "type": "fill_gap",
+      "sentence": "{0} الطَّالِبَانِ جَدِيدَانِ.",
+      "fr": "Ces deux étudiants sont nouveaux.",
+      "gaps": [ { "answers": ["هٰذَانِ"] } ],
+      "options": ["هٰذَانِ", "هَاتَانِ", "هَؤُلَاءِ"]
+    },
+    {
+      "id": "medine-t1.r02.quiz#6",
+      "type": "sort",
+      "categories": [ { "fr": "une personne" }, { "fr": "un moment" }, { "fr": "un nombre" } ],
+      "cards": [
+        { "item": "w:man", "category": 0 },
+        { "item": "w:mata", "category": 1 },
+        { "item": "w:kam", "category": 2 },
+        { "ar": "مَنْ فِي الْمَسْجِدِ؟", "category": 0 },
+        { "ar": "مَتَى الدَّرْسُ؟", "category": 1 },
+        { "ar": "كَمْ كِتَابًا؟", "category": 2 }
+      ],
+      "instruction": "Que demande chaque mot ?"
+    },
+    {
+      "id": "medine-t1.r02.quiz#7",
+      "type": "fill_gap",
+      "sentence": "{0} مُدَرِّسُونَ.",
+      "fr": "Ils sont enseignants.",
+      "gaps": [ { "answers": ["هُمْ"] } ],
+      "options": ["هُمْ", "هُمَا", "هُنَّ"]
+    },
+    {
+      "id": "medine-t1.r02.quiz#8",
+      "type": "fill_gap",
+      "sentence": "فِي الْفَصْلِ {0} طَالِبَاتٍ.",
+      "fr": "Dans la classe, il y a cinq étudiantes.",
+      "gaps": [ { "answers": ["خَمْسُ"] } ],
+      "options": ["خَمْسُ", "خَمْسَةُ", "سِتَّةُ"],
+      "explain": "{ar|طَالِبَةٌ} est féminin : le nombre est sans {ar|ة}."
+    },
+    {
+      "id": "medine-t1.r02.quiz#9",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:khatib",
+      "distractors": ["w:imam", "w:musalli"]
+    },
+    {
+      "id": "medine-t1.r02.quiz#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:saida", "w:qaada", "w:sakata", "w:hamida", "w:daa"]
+    },
+    {
+      "id": "medine-t1.r02.quiz#11",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:ghadan", "w:tamrin", "w:mawdu", "w:suaal", "w:nahw"]
+    },
+    {
+      "id": "medine-t1.r02.quiz#12",
+      "type": "order",
+      "fr": "Combien de questions y a-t-il dans l'examen ?",
+      "answers": [["كَمْ", "سُؤَالًا", "فِي", "الِاخْتِبَارِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.r02.quiz#13",
+      "type": "true_false",
+      "statement": { "fr": "{ar|حَاضِرٌ} est le contraire de {ar|غَائِبٌ}." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.r02.quiz#14",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ الْقُرْآنَ.",
+      "fr": "Zayd a récité le Coran.",
+      "gaps": [ { "answers": ["تَلَا"] } ],
+      "options": ["تَلَا", "نَامَ", "نَظَّفَ"]
+    },
+    { "id": "medine-t1.r02.quiz#15", "type": "build", "item": "w:hadir", "extra": ["ص"] },
+    { "id": "medine-t1.r02.quiz#16", "type": "typing", "ask": "fr", "fr": "une nuit", "answers": ["لَيْلَةٌ"] },
+    {
+      "id": "medine-t1.r02.quiz#17",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'examen est demain, si Allah le veut.",
+      "answers": ["الِاخْتِبَارُ غَدًا إِنْ شَاءَ اللَّهُ."]
+    }
+  ]
+}

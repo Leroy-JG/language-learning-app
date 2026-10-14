@@ -1,0 +1,462 @@
+[
+  {
+    "id": "w:irab-asli",
+    "kind": "word",
+    "ar": "الْإِعْرَابُ الْأَصْلِيُّ",
+    "fr": "la marque de base du cas",
+    "translit": "al-iʿrābu l-aṣliyyu",
+    "gender": "m",
+    "note": "Mot à mot : « l'iʿrāb initial ». C'est la voyelle courte du cas : damma, fatha ou kasra."
+  },
+  {
+    "id": "w:irab-farii",
+    "kind": "word",
+    "ar": "الْإِعْرَابُ الْفَرْعِيُّ",
+    "fr": "la marque secondaire du cas",
+    "translit": "al-iʿrābu l-farʿiyyu",
+    "gender": "m",
+    "note": "Mot à mot : « l'iʿrāb secondaire ». C'est tout autre signe du cas : une lettre ({ar|و}, {ar|ا}, {ar|ي}) ou une autre voyelle (la kasra de l'accusatif d'un pluriel féminin, la fatha du génitif d'un nom sans tanwin)."
+  },
+  {
+    "id": "w:jamaa",
+    "kind": "word",
+    "ar": "جَمَاعَةٌ",
+    "fr": "un groupe",
+    "translit": "jamāʿatun",
+    "plural": "جَمَاعَاتٌ",
+    "gender": "f",
+    "note": "La prière en groupe, à la mosquée, se dit {ar|صَلَاةُ الْجَمَاعَةِ}.",
+    "example": { "ar": "الْجَمَاعَةُ فِي الْمَسْجِدِ.", "fr": "Le groupe est dans la mosquée." }
+  },
+  {
+    "id": "w:saff",
+    "kind": "word",
+    "ar": "صَفٌّ",
+    "fr": "un rang",
+    "translit": "ṣaffun",
+    "plural": "صُفُوفٌ",
+    "gender": "m",
+    "note": "À la mosquée, les fidèles se placent en rangs derrière l'imam pour la prière.",
+    "example": { "ar": "الصَّفُّ طَوِيلٌ.", "fr": "Le rang est long." }
+  },
+  {
+    "id": "w:awwal",
+    "kind": "word",
+    "ar": "أَوَّلُ",
+    "fr": "premier",
+    "translit": "awwalu",
+    "plural": "أَوَّلُونَ",
+    "note": "Il suit le nom comme un adjectif : {ar|الصَّفُّ الْأَوَّلُ} (« le premier rang »). Au féminin : {ar|أُولَى}. Il n'a pas de tanwin : c'est la forme {ar|أَفْعَلُ} (chapitre 22).",
+    "example": { "ar": "الصَّفُّ الْأَوَّلُ.", "fr": "Le premier rang." }
+  },
+  {
+    "id": "w:tahiyya",
+    "kind": "word",
+    "ar": "تَحِيَّةٌ",
+    "fr": "une salutation",
+    "translit": "taḥiyyatun",
+    "plural": "تَحِيَّاتٌ",
+    "gender": "f",
+    "note": "{ar|تَحِيَّةُ الْمَسْجِدِ} : les deux rakʿas que l'on prie en entrant dans la mosquée.",
+    "example": { "ar": "السَّلَامُ تَحِيَّةُ الْمُسْلِمِينَ.", "fr": "Le salām est la salutation des musulmans." }
+  },
+  {
+    "id": "w:khutba",
+    "kind": "word",
+    "ar": "خُطْبَةٌ",
+    "fr": "un sermon",
+    "translit": "khuṭbatun",
+    "plural": "خُطَبٌ",
+    "gender": "f",
+    "note": "Le vendredi, le prédicateur prononce deux sermons avant la prière collective.",
+    "example": { "ar": "الْخُطْبَةُ فِي يَوْمِ الْجُمُعَةِ.", "fr": "Le sermon a lieu le vendredi." }
+  },
+  {
+    "id": "w:minbar",
+    "kind": "word",
+    "ar": "مِنْبَرٌ",
+    "fr": "un minbar (chaire de mosquée)",
+    "translit": "minbarun",
+    "plural": "مَنَابِرُ",
+    "gender": "m",
+    "note": "C'est la chaire à marches d'où le prédicateur prononce le sermon du vendredi.",
+    "example": { "ar": "الْخَطِيبُ عَلَى الْمِنْبَرِ.", "fr": "Le prédicateur est sur le minbar." }
+  },
+  {
+    "id": "w:khatib",
+    "kind": "word",
+    "ar": "خَطِيبٌ",
+    "fr": "un prédicateur, un orateur",
+    "translit": "khaṭībun",
+    "plural": "خُطَبَاءُ",
+    "gender": "m",
+    "note": "Celui qui prononce le sermon ({ar|الْخُطْبَةُ}) : les deux mots ont la même racine.",
+    "example": { "ar": "الْخَطِيبُ فِي الْمَسْجِدِ.", "fr": "Le prédicateur est dans la mosquée." }
+  },
+  {
+    "id": "w:musalli",
+    "kind": "word",
+    "ar": "مُصَلٍّ",
+    "fr": "un fidèle (celui qui prie)",
+    "translit": "muṣallin",
+    "plural": "مُصَلُّونَ",
+    "gender": "m",
+    "note": "Même forme que {ar|مُدَرِّسٌ} (celui qui fait l'action) : celui qui fait la prière ({ar|صَلَاةٌ}). Il se termine par un {ar|ي} : avec le tanwin, le {ar|ي} disparaît ({ar|مُصَلٍّ}) ; avec l'article, il revient ({ar|الْمُصَلِّي}), comme {ar|غَالٍ} au chapitre 17.",
+    "example": { "ar": "الْمُصَلُّونَ فِي الْمَسْجِدِ.", "fr": "Les fidèles sont dans la mosquée." }
+  },
+  {
+    "id": "w:qari",
+    "kind": "word",
+    "ar": "قَارِئٌ",
+    "fr": "un lecteur",
+    "translit": "qāriʾun",
+    "plural": "قُرَّاءٌ",
+    "gender": "m",
+    "note": "Même racine que {ar|الْقُرْآنُ} : le Coran est « la lecture, la récitation ». Un {ar|قَارِئٌ} est quelqu'un qui lit, ou qui récite le Coran.",
+    "example": { "ar": "الْقَارِئُ فِي الْمَسْجِدِ.", "fr": "Le lecteur est dans la mosquée." }
+  },
+  {
+    "id": "w:hadir",
+    "kind": "word",
+    "ar": "حَاضِرٌ",
+    "fr": "présent",
+    "translit": "ḥāḍirun",
+    "plural": "حَاضِرُونَ",
+    "note": "Son contraire est {ar|غَائِبٌ} (« absent ») : c'est le mot que tu connais pour la 3ᵉ personne ({ar|الْغَائِبُ}, chapitre 10), celle « dont on parle, qui est absente ».",
+    "example": { "ar": "زَيْدٌ حَاضِرٌ فِي الْمَسْجِدِ.", "fr": "Zayd est présent à la mosquée." }
+  },
+  {
+    "id": "w:khafif",
+    "kind": "word",
+    "ar": "خَفِيفٌ",
+    "fr": "léger",
+    "translit": "khafīfun",
+    "plural": "خِفَافٌ",
+    "note": "Au féminin : {ar|خَفِيفَةٌ}. Son contraire est {ar|ثَقِيلٌ} (« lourd »).",
+    "example": { "ar": "الْكِتَابُ خَفِيفٌ.", "fr": "Le livre est léger." }
+  },
+  {
+    "id": "w:taqwa",
+    "kind": "word",
+    "ar": "تَقْوَى",
+    "fr": "la piété (la crainte d'Allah)",
+    "translit": "taqwā",
+    "note": "Nom maqṣūr (chapitre 8) : il se termine par {ar|ى}, donc aucune voyelle finale ne se voit. {ar|تَقْوَى اللَّهِ} : la crainte d'Allah, la piété.",
+    "example": { "ar": "تَقْوَى اللَّهِ.", "fr": "La crainte d'Allah." }
+  },
+  {
+    "id": "w:dakhala",
+    "kind": "word",
+    "ar": "دَخَلَ",
+    "fr": "il est entré (entrer)",
+    "translit": "dakhala",
+    "note": "Il se construit directement avec le lieu où l'on entre, sans préposition : {ar|دَخَلَ زَيْدٌ الْمَسْجِدَ}.",
+    "example": { "ar": "دَخَلَ زَيْدٌ الْمَسْجِدَ.", "fr": "Zayd est entré dans la mosquée." }
+  },
+  {
+    "id": "w:wajada",
+    "kind": "word",
+    "ar": "وَجَدَ",
+    "fr": "il a trouvé (trouver)",
+    "translit": "wajada",
+    "example": { "ar": "وَجَدَ زَيْدٌ الْمِفْتَاحَ.", "fr": "Zayd a trouvé la clé." }
+  },
+  {
+    "id": "w:istaqbala",
+    "kind": "word",
+    "ar": "اِسْتَقْبَلَ",
+    "fr": "il s'est dirigé vers (se diriger vers, accueillir)",
+    "translit": "istaqbala",
+    "note": "{ar|اِسْتَقْبَلَ الْقِبْلَةَ} : il s'est tourné vers la qibla. Le même verbe veut dire « accueillir » : {ar|اِسْتَقْبَلَ الضَّيْفَ}. Même racine que {ar|قِبْلَةٌ} et {ar|اِسْتِقْبَالٌ} (chapitre 18).",
+    "example": { "ar": "اِسْتَقْبَلَ زَيْدٌ الْقِبْلَةَ.", "fr": "Zayd s'est tourné vers la qibla." }
+  },
+  {
+    "id": "w:hadara",
+    "kind": "word",
+    "ar": "حَضَرَ",
+    "fr": "il est venu, il était présent (être présent)",
+    "translit": "ḥaḍara",
+    "note": "Même racine que {ar|حَاضِرٌ} (« présent »).",
+    "example": { "ar": "حَضَرَ الْمُدِيرُ.", "fr": "Le directeur est venu." }
+  },
+  {
+    "id": "w:saida",
+    "kind": "word",
+    "ar": "صَعِدَ",
+    "fr": "il est monté (monter, gravir)",
+    "translit": "ṣaʿida",
+    "note": "On l'emploie pour monter un escalier, une montagne, un minbar. Pour monter dans un véhicule, on dit {ar|رَكِبَ} (chapitre 17).",
+    "example": { "ar": "صَعِدَ الْخَطِيبُ الْمِنْبَرَ.", "fr": "Le prédicateur est monté sur le minbar." }
+  },
+  {
+    "id": "w:qaada",
+    "kind": "word",
+    "ar": "قَعَدَ",
+    "fr": "il s'est assis (s'asseoir)",
+    "translit": "qaʿada",
+    "note": "Même sens que {ar|جَلَسَ} (chapitre 8) : les deux verbes se traduisent « s'asseoir ».",
+    "example": { "ar": "قَعَدَ الْإِمَامُ عَلَى الْمِنْبَرِ.", "fr": "L'imam s'est assis sur le minbar." }
+  },
+  {
+    "id": "w:sakata",
+    "kind": "word",
+    "ar": "سَكَتَ",
+    "fr": "il s'est tu (se taire)",
+    "translit": "sakata",
+    "example": { "ar": "سَكَتَ الْحَاضِرُونَ.", "fr": "Les personnes présentes se sont tues." }
+  },
+  {
+    "id": "w:hamida",
+    "kind": "word",
+    "ar": "حَمِدَ",
+    "fr": "il a loué (louer)",
+    "translit": "ḥamida",
+    "note": "{ar|حَمِدَ اللَّهَ} : il a loué Allah, en disant {ar|الْحَمْدُ لِلَّهِ}. Même racine que {ar|الْحَمْدُ} (chapitre 6), {ar|مُحَمَّدٌ} et {ar|أَحْمَدُ}.",
+    "example": { "ar": "حَمِدَ زَيْدٌ اللَّهَ.", "fr": "Zayd a loué Allah." }
+  },
+  {
+    "id": "w:khataba",
+    "kind": "word",
+    "ar": "خَطَبَ",
+    "fr": "il a prononcé un sermon (prononcer un sermon)",
+    "translit": "khaṭaba",
+    "note": "Même racine que {ar|خُطْبَةٌ} et {ar|خَطِيبٌ}.",
+    "example": { "ar": "خَطَبَ الْخَطِيبُ خُطْبَةً.", "fr": "Le prédicateur a prononcé un sermon." }
+  },
+  {
+    "id": "w:daa",
+    "kind": "word",
+    "ar": "دَعَا",
+    "fr": "il a invoqué (invoquer, appeler)",
+    "translit": "daʿā",
+    "note": "{ar|دَعَا لِلْمُسْلِمِينَ} : il a fait une invocation en faveur des musulmans. {ar|دُعَاءٌ} veut dire « une invocation ».",
+    "example": { "ar": "دَعَا زَيْدٌ لِلْمُسْلِمِينَ.", "fr": "Zayd a fait une invocation pour les musulmans." }
+  },
+  {
+    "id": "w:intashara",
+    "kind": "word",
+    "ar": "اِنْتَشَرَ",
+    "fr": "il s'est dispersé (se disperser, se répandre)",
+    "translit": "intashara",
+    "example": { "ar": "اِنْتَشَرَ الْحَاضِرُونَ.", "fr": "Les personnes présentes se sont dispersées." }
+  },
+  {
+    "id": "w:salla",
+    "kind": "word",
+    "ar": "صَلَّى",
+    "fr": "il a prié (prier)",
+    "translit": "ṣallā",
+    "note": "Même racine que {ar|صَلَاةٌ}. {ar|صَلَّى عَلَى النَّبِيِّ} : il a invoqué la paix et la bénédiction sur le Prophète.",
+    "example": { "ar": "صَلَّى زَيْدٌ فِي الْمَسْجِدِ.", "fr": "Zayd a prié dans la mosquée." }
+  },
+  {
+    "id": "w:sallama",
+    "kind": "word",
+    "ar": "سَلَّمَ",
+    "fr": "il a salué (saluer)",
+    "translit": "sallama",
+    "note": "{ar|سَلَّمَ عَلَى زَيْدٍ} : il a dit le salām à Zayd. Même racine que {ar|السَّلَامُ}.",
+    "example": { "ar": "سَلَّمَ زَيْدٌ عَلَى الْمُدِيرِ.", "fr": "Zayd a salué le directeur." }
+  },
+  {
+    "id": "w:ghadan",
+    "kind": "word",
+    "ar": "غَدًا",
+    "fr": "demain",
+    "translit": "ghadan",
+    "note": "Adverbe de temps, comme {ar|الْيَوْمَ} : le tanwin à la fatha le marque. On ajoute souvent {ar|إِنْ شَاءَ اللَّهُ}. Ne le confonds pas avec {ar|غَدَاءٌ} (un repas).",
+    "example": { "ar": "الدَّرْسُ غَدًا.", "fr": "La leçon est demain." }
+  },
+  {
+    "id": "w:tamrin",
+    "kind": "word",
+    "ar": "تَمْرِينٌ",
+    "fr": "un exercice",
+    "translit": "tamrīnun",
+    "plural": "تَمَارِينُ",
+    "gender": "m",
+    "note": "Le pluriel {ar|تَمَارِينُ} est de forme longue : il n'a pas de tanwin (chapitre 4).",
+    "example": { "ar": "التَّمْرِينُ سَهْلٌ.", "fr": "L'exercice est facile." }
+  },
+  {
+    "id": "w:mawdu",
+    "kind": "word",
+    "ar": "مَوْضُوعٌ",
+    "fr": "un sujet, un thème",
+    "translit": "mawḍūʿun",
+    "plural": "مَوْضُوعَاتٌ",
+    "gender": "m",
+    "note": "Le {ar|مَوْضُوعُ الِاخْتِبَارِ} est ce sur quoi porte l'examen. On entend aussi le pluriel {ar|مَوَاضِيعُ}, que donne le professeur.",
+    "example": { "ar": "مَوْضُوعُ الدَّرْسِ النَّحْوُ.", "fr": "Le sujet de la leçon est la grammaire." }
+  },
+  {
+    "id": "w:suaal",
+    "kind": "word",
+    "ar": "سُؤَالٌ",
+    "fr": "une question",
+    "translit": "suʾālun",
+    "plural": "أَسْئِلَةٌ",
+    "gender": "m",
+    "note": "Une question que l'on pose (le verbe est {ar|سَأَلَ}, « il a demandé »). Son pluriel est de la forme de {ar|أَطْعِمَةٌ} (pluriel de {ar|طَعَامٌ}).",
+    "example": { "ar": "كَمْ سُؤَالًا فِي الِاخْتِبَارِ؟", "fr": "Combien de questions y a-t-il dans l'examen ?" }
+  },
+  {
+    "id": "w:nahw",
+    "kind": "word",
+    "ar": "نَحْوٌ",
+    "fr": "de la grammaire",
+    "translit": "naḥwun",
+    "gender": "m",
+    "note": "{ar|النَّحْوُ} est l'étude de la phrase et de la terminaison des mots ({ar|الْإِعْرَابُ}) : c'est ce que tu étudies dans ce cours.",
+    "example": { "ar": "الْيَوْمَ دَرْسُ النَّحْوِ.", "fr": "Aujourd'hui, c'est le cours de grammaire." }
+  },
+  {
+    "id": "w:murajaa",
+    "kind": "word",
+    "ar": "مُرَاجَعَةٌ",
+    "fr": "une révision",
+    "translit": "murājaʿatun",
+    "plural": "مُرَاجَعَاتٌ",
+    "gender": "f",
+    "note": "Même racine que {ar|رَاجَعَ} (« il a révisé »). C'est aussi le titre de ce chapitre.",
+    "example": { "ar": "الْمُرَاجَعَةُ فِي الْفَصْلِ.", "fr": "La révision a lieu dans la salle de classe." }
+  },
+  {
+    "id": "p:insha-allah",
+    "kind": "phrase",
+    "ar": "إِنْ شَاءَ اللَّهُ",
+    "fr": "si Allah le veut",
+    "translit": "in shāʾa llāhu",
+    "note": "Mot à mot : « si Allah a voulu ». On l'ajoute quand on parle de l'avenir : {ar|غَدًا إِنْ شَاءَ اللَّهُ}."
+  },
+  {
+    "id": "w:misr",
+    "kind": "word",
+    "ar": "مِصْرُ",
+    "fr": "l'Égypte",
+    "translit": "miṣru",
+    "note": "Nom de pays sans tanwin, comme {ar|مَكَّةُ} (chapitre 4) : après une préposition, il prend la fatha ({ar|مِنْ مِصْرَ}).",
+    "example": { "ar": "أَنَا مِنْ مِصْرَ.", "fr": "Je viens d'Égypte." }
+  },
+  {
+    "id": "w:yaman",
+    "kind": "word",
+    "ar": "الْيَمَنُ",
+    "fr": "le Yémen",
+    "translit": "al-yamanu",
+    "example": { "ar": "هُوَ مِنَ الْيَمَنِ.", "fr": "Il vient du Yémen." }
+  },
+  {
+    "id": "w:mubakkiran",
+    "kind": "word",
+    "ar": "مُبَكِّرًا",
+    "fr": "tôt",
+    "translit": "mubakkiran",
+    "note": "Il est formé comme {ar|مُدَرِّسٌ}. Le tanwin à la fatha en fait un adverbe, comme {ar|جِدًّا} et {ar|حَسَنًا}. Son contraire est {ar|مُتَأَخِّرًا} (« tard »), de la même racine que {ar|تَأَخَّرَ}.",
+    "example": { "ar": "رَجَعَ زَيْدٌ مِنَ الْمَدْرَسَةِ مُبَكِّرًا.", "fr": "Zayd est revenu de l'école tôt." }
+  },
+  {
+    "id": "w:duha",
+    "kind": "word",
+    "ar": "ضُحًى",
+    "fr": "la matinée",
+    "translit": "ḍuḥan",
+    "note": "Le moment de la matinée, après le lever du soleil. Avec l'article : {ar|الضُّحَى}. {ar|صَلَاةُ الضُّحَى} est la prière de la matinée. Nom maqṣūr (chapitre 8) : il se termine par {ar|ى}.",
+    "example": {
+      "ar": "صَلَاةُ الضُّحَى بَعْدَ صَلَاةِ الْفَجْرِ.",
+      "fr": "La prière de la matinée est après la prière de l'aube."
+    }
+  },
+  {
+    "id": "w:hayat",
+    "kind": "word",
+    "ar": "حَيَاةٌ",
+    "fr": "une vie",
+    "translit": "ḥayātun",
+    "gender": "f",
+    "example": { "ar": "الْحَيَاةُ جَمِيلَةٌ.", "fr": "La vie est belle." }
+  },
+  {
+    "id": "w:layla",
+    "kind": "word",
+    "ar": "لَيْلَةٌ",
+    "fr": "une nuit",
+    "translit": "laylatun",
+    "plural": "لَيَالٍ",
+    "gender": "f",
+    "note": "{ar|لَيْلَةُ الْجُمُعَةِ} : la nuit qui précède le vendredi.",
+    "example": { "ar": "لَيْلَةُ الْجُمُعَةِ.", "fr": "La nuit du vendredi." }
+  },
+  {
+    "id": "w:adhan",
+    "kind": "word",
+    "ar": "أَذَانٌ",
+    "fr": "un appel à la prière",
+    "translit": "adhānun",
+    "gender": "m",
+    "note": "C'est l'appel que lance le muezzin ({ar|مُؤَذِّنٌ}, chapitre 7) : même racine. {ar|أَذَانُ الْفَجْرِ} : l'appel à la prière de l'aube.",
+    "example": { "ar": "أَذَانُ الْفَجْرِ.", "fr": "L'appel à la prière de l'aube." }
+  },
+  {
+    "id": "w:nama",
+    "kind": "word",
+    "ar": "نَامَ",
+    "fr": "il a dormi (dormir)",
+    "translit": "nāma",
+    "example": { "ar": "نَامَ زَيْدٌ مُبَكِّرًا.", "fr": "Zayd s'est couché tôt." }
+  },
+  {
+    "id": "w:dhakara",
+    "kind": "word",
+    "ar": "ذَكَرَ",
+    "fr": "il s'est rappelé (se rappeler, mentionner)",
+    "translit": "dhakara",
+    "note": "{ar|ذَكَرَ اللَّهَ} : il a invoqué Allah, il l'a mentionné, il s'est souvenu de lui (c'est le {ar|ذِكْرٌ}).",
+    "example": { "ar": "ذَكَرَ زَيْدٌ اللَّهَ.", "fr": "Zayd a invoqué Allah." }
+  },
+  {
+    "id": "w:tala",
+    "kind": "word",
+    "ar": "تَلَا",
+    "fr": "il a récité (réciter le Coran)",
+    "translit": "talā",
+    "note": "On l'emploie surtout pour la récitation du Coran ({ar|تِلَاوَةٌ}).",
+    "example": { "ar": "تَلَا زَيْدٌ الْقُرْآنَ.", "fr": "Zayd a récité le Coran." }
+  },
+  {
+    "id": "w:tala-2",
+    "kind": "word",
+    "ar": "طَلَعَ",
+    "fr": "il est apparu (apparaître : le soleil, la lune)",
+    "translit": "ṭalaʿa",
+    "note": "{ar|طَلَعَتِ الشَّمْسُ} : le soleil s'est levé. Le {ar|تْ} est celui du féminin (chapitre 12) : le soleil est féminin.",
+    "example": { "ar": "طَلَعَتِ الشَّمْسُ.", "fr": "Le soleil s'est levé." }
+  },
+  {
+    "id": "w:tanawala",
+    "kind": "word",
+    "ar": "تَنَاوَلَ",
+    "fr": "il a pris (prendre)",
+    "translit": "tanāwala",
+    "note": "Avec un repas, il veut dire « prendre un repas, manger » : {ar|تَنَاوَلَ الْغَدَاءَ}.",
+    "example": { "ar": "تَنَاوَلَ زَيْدٌ الْكِتَابَ.", "fr": "Zayd a pris le livre." }
+  },
+  {
+    "id": "w:nazzafa",
+    "kind": "word",
+    "ar": "نَظَّفَ",
+    "fr": "il a nettoyé (nettoyer)",
+    "translit": "naẓẓafa",
+    "note": "{ar|نَظِيفٌ} veut dire « propre » : {ar|نَظَّفَ} veut dire « rendre propre ». Le professeur le traduit aussi « ranger ».",
+    "example": { "ar": "نَظَّفَ زَيْدٌ الْغُرْفَةَ.", "fr": "Zayd a nettoyé la chambre." }
+  },
+  {
+    "id": "w:istadda",
+    "kind": "word",
+    "ar": "اِسْتَعَدَّ",
+    "fr": "il s'est préparé (se préparer)",
+    "translit": "istaʿadda",
+    "note": "{ar|اِسْتَعَدَّ لِلِاخْتِبَارِ} : il s'est préparé à l'examen. Après le verbe, on met {ar|لِ} puis ce pour quoi on se prépare.",
+    "example": { "ar": "اِسْتَعَدَّ زَيْدٌ لِلِاخْتِبَارِ.", "fr": "Zayd s'est préparé à l'examen." }
+  }
+]

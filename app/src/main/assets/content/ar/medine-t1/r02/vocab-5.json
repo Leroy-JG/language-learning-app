@@ -1,0 +1,102 @@
+{
+  "id": "medine-t1.r02.vocab-5",
+  "type": "vocabulary",
+  "title": "Venir, monter, s'asseoir, se taire",
+  "icon": "mosque",
+  "screens": [
+    { "id": "medine-t1.r02.vocab-5#1", "type": "present", "item": "w:hadara" },
+    { "id": "medine-t1.r02.vocab-5#2", "type": "present", "item": "w:saida" },
+    {
+      "id": "medine-t1.r02.vocab-5#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:saida",
+      "distractors": ["w:nazala", "w:rakiba"]
+    },
+    { "id": "medine-t1.r02.vocab-5#4", "type": "present", "item": "w:qaada" },
+    { "id": "medine-t1.r02.vocab-5#5", "type": "present", "item": "w:sakata" },
+    {
+      "id": "medine-t1.r02.vocab-5#6",
+      "type": "tip",
+      "title": "Les quatre formes d'un verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne chaque verbe sous **quatre formes** : le passé (« il a… »), le présent, l'impératif et le nom d'action. Tu connais déjà le passé : les trois autres sont un simple aperçu, rien n'est exigé."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["être présent", "{ar|حَضَرَ}", "{ar|يَحْضُرُ}", "{ar|اُحْضُرْ}", "{ar|حُضُورٌ}"],
+            ["monter", "{ar|صَعِدَ}", "{ar|يَصْعَدُ}", "{ar|اِصْعَدْ}", "{ar|صُعُودٌ}"],
+            ["s'asseoir", "{ar|قَعَدَ}", "{ar|يَقْعُدُ}", "{ar|اُقْعُدْ}", "{ar|قُعُودٌ}"],
+            ["se taire", "{ar|سَكَتَ}", "{ar|يَسْكُتُ}", "{ar|اُسْكُتْ}", "{ar|سُكُوتٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "À l'impératif, le premier alif est un alif de liaison : il prend une damma quand l'avant-dernière lettre du présent porte une damma ({ar|يَحْضُرُ} → {ar|اُحْضُرْ}), et une kasra sinon ({ar|يَصْعَدُ} → {ar|اِصْعَدْ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.vocab-5#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:hadara", "w:saida", "w:sakata", "w:nazala", "w:khalfa"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-5#8",
+      "type": "fill_gap",
+      "sentence": "{0} الْخَطِيبُ الْمِنْبَرَ.",
+      "fr": "Le prédicateur est monté sur le minbar.",
+      "gaps": [ { "answers": ["صَعِدَ"] } ],
+      "options": ["صَعِدَ", "قَعَدَ", "سَكَتَ"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-5#9",
+      "type": "fill_gap",
+      "sentence": "{0} الْحَاضِرُونَ.",
+      "fr": "Les personnes présentes se sont tues.",
+      "gaps": [ { "answers": ["سَكَتَ"] } ],
+      "options": ["سَكَتَ", "صَعِدَ", "حَضَرَ"],
+      "explain": "Le verbe, placé avant son sujet, reste au singulier : {ar|سَكَتَ الْحَاضِرُونَ}."
+    },
+    {
+      "id": "medine-t1.r02.vocab-5#10",
+      "type": "question",
+      "prompt": { "fr": "Quel est le contraire de {ar|صَعِدَ} (« monter ») ?" },
+      "choices": [ { "ar": "نَزَلَ" }, { "ar": "قَعَدَ" }, { "ar": "سَكَتَ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.r02.vocab-5#11",
+      "type": "true_false",
+      "statement": { "fr": "{ar|قَعَدَ} et {ar|جَلَسَ} se traduisent tous les deux « s'asseoir »." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.r02.vocab-5#12",
+      "type": "order",
+      "fr": "L'imam est venu.",
+      "answers": [["حَضَرَ", "الْإِمَامُ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.r02.vocab-5#13",
+      "type": "order",
+      "fr": "Les personnes présentes se sont tues.",
+      "answers": [["سَكَتَ", "الْحَاضِرُونَ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.r02.vocab-5#14", "type": "typing", "ask": "fr", "item": "w:sakata" },
+    {
+      "id": "medine-t1.r02.vocab-5#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'imam s'est assis sur le minbar.",
+      "answers": ["قَعَدَ الْإِمَامُ عَلَى الْمِنْبَرِ."]
+    }
+  ]
+}

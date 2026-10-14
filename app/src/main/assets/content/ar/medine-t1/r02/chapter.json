@@ -1,0 +1,22 @@
+{
+  "id": "medine-t1.r02",
+  "number": 23,
+  "title": { "ar": "مُرَاجَعَةٌ", "fr": "Tout revoir pour conclure le tome 1" },
+  "label": "Révision 2",
+  "description": "Revoir les cas du nom, les noms définis, les démonstratifs, les noms interrogatifs, les pronoms, les nombres et les pluriels, puis lire trois textes (la mosquée, l'école, la journée de Zayd) avec leur vocabulaire nouveau.",
+  "source": "Tome de Médine 1, semaine de révision 2",
+  "sections": [
+    { "title": "Les cas du nom", "activities": ["grammar-1"] },
+    { "title": "Rappel : défini et indéfini", "activities": ["revue-1"] },
+    { "title": "Rappel : montrer et demander", "activities": ["revue-2", "revue-3"] },
+    { "title": "Rappel : les pronoms", "activities": ["revue-4"] },
+    { "title": "Rappel : compter et pluriels", "activities": ["revue-5", "revue-6"] },
+    {
+      "title": "À la mosquée",
+      "activities": ["vocab-1", "vocab-2", "vocab-3", "vocab-4", "vocab-5", "vocab-6", "dialogue-1", "dialogue-2"]
+    },
+    { "title": "À l'école", "activities": ["vocab-7", "vocab-8", "dialogue-3", "dialogue-4"] },
+    { "title": "La journée de Zayd", "activities": ["vocab-9", "vocab-10", "vocab-11", "dialogue-5", "plurals-1"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "medine-t1.r02.vocab-2",
+  "type": "vocabulary",
+  "title": "L'imam et le prédicateur",
+  "icon": "mosque",
+  "screens": [
+    { "id": "medine-t1.r02.vocab-2#1", "type": "present", "item": "w:minbar" },
+    { "id": "medine-t1.r02.vocab-2#2", "type": "present", "item": "w:khatib" },
+    {
+      "id": "medine-t1.r02.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:khatib",
+      "distractors": ["w:muadhdhin", "w:mudir"]
+    },
+    { "id": "medine-t1.r02.vocab-2#4", "type": "present", "item": "w:musalli" },
+    {
+      "id": "medine-t1.r02.vocab-2#5",
+      "type": "tip",
+      "title": "Celui qui fait l'action",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|مُصَلٍّ} (« celui qui prie ») a la même forme que {ar|مُدَرِّسٌ} (« celui qui enseigne ») et {ar|مُؤَذِّنٌ} (« celui qui lance l'appel »). Sa fin est particulière : le {ar|ي} disparaît avec le tanwin, et revient avec l'article."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "الْمُصَلِّي", "fr": "le fidèle" },
+              "to": { "ar": "مُصَلٍّ", "fr": "un fidèle" },
+              "label": "avec le tanwin, le {ar|ي} disparaît"
+            },
+            {
+              "from": { "ar": "مُصَلٍّ", "fr": "un fidèle" },
+              "to": { "ar": "مُصَلُّونَ", "fr": "des fidèles" },
+              "label": "pluriel régulier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.vocab-2#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:imam", "w:minbar", "w:khatib", "w:musalli", "w:muadhdhin"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-2#7",
+      "type": "question",
+      "prompt": { "fr": "Qui dirige la prière collective ?" },
+      "choices": [ { "ar": "الْإِمَامُ" }, { "ar": "الْمِنْبَرُ" }, { "ar": "الْمُؤَذِّنُ" } ],
+      "answer": 0,
+      "explain": "L'imam dirige la prière ; le minbar est la chaire, le muezzin lance l'appel à la prière."
+    },
+    {
+      "id": "medine-t1.r02.vocab-2#8",
+      "type": "fill_gap",
+      "sentence": "{0} عَلَى الْمِنْبَرِ.",
+      "fr": "Le prédicateur est sur le minbar.",
+      "gaps": [ { "answers": ["الْخَطِيبُ"] } ],
+      "options": ["الْخَطِيبُ", "الْمُؤَذِّنُ", "الْمُصَلُّونَ"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-2#9",
+      "type": "fill_gap",
+      "sentence": "الْمُصَلُّونَ خَلْفَ {0}.",
+      "fr": "Les fidèles sont derrière l'imam.",
+      "gaps": [ { "answers": ["الْإِمَامِ"] } ],
+      "options": ["الْإِمَامِ", "الْمِنْبَرِ", "الْخُطْبَةِ"],
+      "explain": "{ar|خَلْفَ} est le premier terme d'une annexion : le nom qui suit est au génitif, à la kasra."
+    },
+    {
+      "id": "medine-t1.r02.vocab-2#10",
+      "type": "true_false",
+      "statement": { "fr": "{ar|مُصَلٍّ} veut dire « celui qui prie »." },
+      "answer": true
+    },
+    {
+      "id": "medine-t1.r02.vocab-2#11",
+      "type": "order",
+      "fr": "L'imam est devant les fidèles.",
+      "answers": [["الْإِمَامُ", "أَمَامَ", "الْمُصَلِّينَ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.r02.vocab-2#12", "type": "build", "item": "w:minbar", "extra": ["ث"] },
+    {
+      "id": "medine-t1.r02.vocab-2#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "un prédicateur",
+      "answers": ["خَطِيبٌ"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-2#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les fidèles sont derrière l'imam.",
+      "answers": ["الْمُصَلُّونَ خَلْفَ الْإِمَامِ."]
+    }
+  ]
+}

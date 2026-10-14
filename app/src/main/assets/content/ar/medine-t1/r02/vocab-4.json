@@ -1,0 +1,98 @@
+{
+  "id": "medine-t1.r02.vocab-4",
+  "type": "vocabulary",
+  "title": "Entrer, prier, saluer",
+  "icon": "mosque",
+  "screens": [
+    { "id": "medine-t1.r02.vocab-4#1", "type": "present", "item": "w:dakhala" },
+    { "id": "medine-t1.r02.vocab-4#2", "type": "present", "item": "w:salla" },
+    {
+      "id": "medine-t1.r02.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:dakhala",
+      "distractors": ["w:kharaja", "w:dhahaba"]
+    },
+    { "id": "medine-t1.r02.vocab-4#4", "type": "present", "item": "w:sallama" },
+    { "id": "medine-t1.r02.vocab-4#5", "type": "present", "item": "w:wajada" },
+    { "id": "medine-t1.r02.vocab-4#6", "type": "present", "item": "w:istaqbala" },
+    {
+      "id": "medine-t1.r02.vocab-4#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:dakhala", "w:salla", "w:sallama", "w:wajada", "w:istaqbala"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-4#8",
+      "type": "tip",
+      "title": "Les quatre formes d'un verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne chaque verbe sous **quatre formes** : le passé (« il a… »), le présent, l'impératif et le nom d'action. Tu connais déjà le passé : les trois autres sont un simple aperçu, rien n'est exigé."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["trouver", "{ar|وَجَدَ}", "{ar|يَجِدُ}", "{ar|جِدْ}", "{ar|وَجْدٌ}"],
+            ["se diriger vers", "{ar|اِسْتَقْبَلَ}", "{ar|يَسْتَقْبِلُ}", "{ar|اِسْتَقْبِلْ}", "{ar|اِسْتِقْبَالٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le professeur donne {ar|وَجْدٌ} comme nom d'action de {ar|وَجَدَ} ; on dit aussi {ar|وُجُودٌ} et {ar|وِجْدَانٌ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.vocab-4#9",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ الْمَسْجِدَ.",
+      "fr": "Zayd est entré dans la mosquée.",
+      "gaps": [ { "answers": ["دَخَلَ"] } ],
+      "options": ["دَخَلَ", "وَجَدَ", "صَلَّى"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-4#10",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ فِي الْمَسْجِدِ.",
+      "fr": "Zayd a prié dans la mosquée.",
+      "gaps": [ { "answers": ["صَلَّى"] } ],
+      "options": ["صَلَّى", "سَلَّمَ", "اِسْتَقْبَلَ"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-4#11",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|اِسْتَقْبَلَ زَيْدٌ الْقِبْلَةَ} ?" },
+      "choices": [
+        { "fr": "Zayd s'est tourné vers la qibla" },
+        { "fr": "Zayd a quitté la qibla" },
+        { "fr": "Zayd a trouvé la qibla" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.r02.vocab-4#12",
+      "type": "true_false",
+      "statement": { "fr": "{ar|سَلَّمَ} a la même racine que {ar|السَّلَامُ}." },
+      "answer": true,
+      "explain": "{ar|سَلَّمَ عَلَى زَيْدٍ} : il a dit le salām à Zayd."
+    },
+    {
+      "id": "medine-t1.r02.vocab-4#13",
+      "type": "order",
+      "fr": "Zayd est entré dans la mosquée.",
+      "answers": [["دَخَلَ", "زَيْدٌ", "الْمَسْجِدَ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.r02.vocab-4#14", "type": "typing", "ask": "fr", "item": "w:wajada" },
+    {
+      "id": "medine-t1.r02.vocab-4#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd a trouvé la clé.",
+      "answers": ["وَجَدَ زَيْدٌ الْمِفْتَاحَ."]
+    }
+  ]
+}

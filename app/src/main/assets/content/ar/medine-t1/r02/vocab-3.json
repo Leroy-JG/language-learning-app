@@ -1,0 +1,89 @@
+{
+  "id": "medine-t1.r02.vocab-3",
+  "type": "vocabulary",
+  "title": "Lecteurs, présents, légers",
+  "icon": "books",
+  "screens": [
+    { "id": "medine-t1.r02.vocab-3#1", "type": "present", "item": "w:qari" },
+    { "id": "medine-t1.r02.vocab-3#2", "type": "present", "item": "w:hadir" },
+    {
+      "id": "medine-t1.r02.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hadir",
+      "distractors": ["w:waqif", "w:jalis"]
+    },
+    { "id": "medine-t1.r02.vocab-3#4", "type": "present", "item": "w:khafif" },
+    { "id": "medine-t1.r02.vocab-3#5", "type": "present", "item": "w:taqwa" },
+    {
+      "id": "medine-t1.r02.vocab-3#6",
+      "type": "tip",
+      "title": "Deux contraires",
+      "blocks": [
+        { "type": "paragraph", "text": "Chacun de ces mots a un contraire que tu peux apprendre avec lui." },
+        {
+          "type": "table",
+          "header": ["Mot", "Son contraire"],
+          "rows": [["{ar|حَاضِرٌ} (présent)", "{ar|غَائِبٌ} (absent)"], ["{ar|خَفِيفٌ} (léger)", "{ar|ثَقِيلٌ} (lourd)"]]
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "Le Coran ({ar|الْقُرْآنُ}) vient de la même racine que {ar|قَارِئٌ} : « lire, réciter »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.r02.vocab-3#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:qari", "w:hadir", "w:khafif", "w:taqwa", "w:jalis"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-3#8",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ {0} فِي الْمَسْجِدِ.",
+      "fr": "Zayd est présent à la mosquée.",
+      "gaps": [ { "answers": ["حَاضِرٌ"] } ],
+      "options": ["حَاضِرٌ", "خَفِيفٌ", "طَوِيلٌ"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-3#9",
+      "type": "fill_gap",
+      "sentence": "الْكِتَابُ {0}.",
+      "fr": "Le livre est léger.",
+      "gaps": [ { "answers": ["خَفِيفٌ"] } ],
+      "options": ["خَفِيفٌ", "حَاضِرٌ", "قَارِئٌ"]
+    },
+    {
+      "id": "medine-t1.r02.vocab-3#10",
+      "type": "question",
+      "prompt": { "fr": "Quel est le contraire de {ar|حَاضِرٌ} ?" },
+      "choices": [ { "ar": "غَائِبٌ" }, { "ar": "خَفِيفٌ" }, { "ar": "جَالِسٌ" } ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.r02.vocab-3#11",
+      "type": "true_false",
+      "statement": { "fr": "{ar|تَقْوَى} se termine par un alif maqṣūra : on n'y voit aucune voyelle finale." },
+      "answer": true,
+      "explain": "C'est un nom maqṣūr (chapitre 8), comme {ar|ذِكْرَى}."
+    },
+    {
+      "id": "medine-t1.r02.vocab-3#12",
+      "type": "order",
+      "fr": "Les fidèles sont présents.",
+      "answers": [["الْمُصَلُّونَ", "حَاضِرُونَ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.r02.vocab-3#13", "type": "build", "item": "w:khafif", "extra": ["ح"] },
+    { "id": "medine-t1.r02.vocab-3#14", "type": "typing", "ask": "fr", "fr": "présent", "answers": ["حَاضِرٌ"] },
+    {
+      "id": "medine-t1.r02.vocab-3#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le livre est léger.",
+      "answers": ["الْكِتَابُ خَفِيفٌ."]
+    }
+  ]
+}

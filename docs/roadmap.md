@@ -6,7 +6,7 @@
   - Parmi eux, 4 mini-jeux : ranger, repérer, écrire lettre par lettre, mémoire.
   - Les astuces ont 7 sortes de blocs, dont comparer, décomposer, galerie et encadrés à ton.
   - Le guide de conception est `docs/pedagogie.md`.
-- **Parcours :** chapitres 1 à 23 du Tome de Médine 1 et le chapitre de révision 1 (`r01`, libellé « Révision 1 », placé après le chapitre 9 ; les chapitres 10 et 11 viennent ensuite). Les chapitres s'affichent en accordéon et rien n'est verrouillé.
+- **Parcours :** le Tome de Médine 1 est complet : chapitres 1 à 23 et deux chapitres de révision (`r01`, libellé « Révision 1 », placé après le chapitre 9 ; `r02`, libellé « Révision 2 », placé à la fin, après le chapitre 23). Les chapitres s'affichent en accordéon et rien n'est verrouillé.
 - **Réviser :** répétition espacée FSRS-5, deux onglets (Vocabulaire / Grammaire), niveaux de maîtrise, favoris, recherche.
 - **Paramètres :**
   - harakat, translittération, taille de l'arabe ;
@@ -22,7 +22,7 @@
 ## À faire, par ordre de priorité
 
 1. **Leçons suivantes du Tome de Médine 1**, avec la procédure `.claude/skills/nouvelle-lecon/SKILL.md`. Il faut que l'utilisateur joigne les PDF.
-   - Prochaine : la leçon 23 (les chapitres 1 à 22 et la révision 1 sont publiés ; la leçon 18 est décrite dans `docs/sources-lecon-18.md`, les leçons 19 à 22 dans `docs/sources.md`).
+   - Prochaine : le Tome 2 (le tome 1 est terminé : chapitres 1 à 23 et révisions 1 et 2 ; la leçon 18 est décrite dans `docs/sources-lecon-18.md`, les autres dans `docs/sources.md`).
    - À confirmer avec le professeur (leçon 21) : `إِنْكِلْتِرَا` (graphie du livre, avec ك) face à `إِنْجِلْتِرَا`, et la traduction de `الْمَدِينَةُ` par « Médine » dans le texte.
    - À confirmer avec le professeur (leçon 20) : la forme `أُرُوبَّا` (lettres dans cet ordre) sur la carte du PDF, face à `أُورُبَّا` / `أُورُوبَّا` dans l'app (l'exercice 3 de la leçon 21 écrit `أُورُبَّا`, comme l'app).
    - À confirmer avec le professeur (leçon 19) : `قُدَامَى` comme pluriel de `قَدِيمٌ` (attesté dans les dictionnaires modernes, non retrouvé dans Lisān al-ʿArab / al-Wasīṭ).
