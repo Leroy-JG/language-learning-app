@@ -83,7 +83,7 @@
     "ar": "قَلِيلٌ",
     "fr": "peu nombreux",
     "translit": "qalīlun",
-    "note": "Le contraire de {ar|كَثِيرٌ}. Comme {ar|كَثِيرٌ}, il se met au féminin singulier avec un pluriel de choses : {ar|مَنَادِيلُ قَلِيلَةٌ}.",
+    "note": "Le contraire de {ar|كَثِيرٌ}. Comme {ar|كَثِيرٌ}, avec un pluriel de choses, il se met en général au féminin singulier : {ar|مَنَادِيلُ قَلِيلَةٌ}.",
     "example": { "ar": "عِنْدِي أَقْلَامٌ قَلِيلَةٌ.", "fr": "J'ai peu de stylos." }
   },
   {

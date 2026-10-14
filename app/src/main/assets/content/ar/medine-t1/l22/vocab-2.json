@@ -85,8 +85,8 @@
       "type": "typing",
       "ask": "fr",
       "fr": "J'ai peu de mouchoirs.",
-      "answers": ["عِنْدِي مَنَادِيلُ قَلِيلَةٌ."],
-      "explain": "Avec un pluriel de choses, l'adjectif se met au féminin singulier : {ar|قَلِيلَةٌ}."
+      "answers": ["عِنْدِي مَنَادِيلُ قَلِيلَةٌ.", "عِنْدِي مَنَادِيلُ قَلِيلَاتٌ."],
+      "explain": "En général, l'adjectif d'un pluriel de choses se met au féminin singulier : {ar|قَلِيلَةٌ}. Le féminin pluriel ({ar|قَلِيلَاتٌ}) est possible aussi (chapitre 17)."
     }
   ]
 }

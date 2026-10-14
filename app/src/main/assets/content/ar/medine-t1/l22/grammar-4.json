@@ -39,7 +39,7 @@
             ],
             ["Un prénom d'homme en {ar|ة}", "{ar|حَمْزَةُ}, {ar|أُسَامَةُ}, {ar|مُعَاوِيَةُ}, {ar|طَلْحَةُ}", "6"],
             [
-              "Un prénom ou un adjectif en {ar|انُ}",
+              "Un prénom, ou un adjectif d'état, en {ar|انُ}",
               "{ar|عُثْمَانُ}, {ar|مَرْوَانُ}, {ar|كَسْلَانُ}, {ar|عَطْشَانُ}",
               "9 et 22"
             ],
@@ -74,7 +74,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Quelle que soit la famille, un nom sans tanwin, sans article, prend la **fatha** à la place de la kasra après une préposition ou comme second terme d'une annexion."
+          "text": "Quelle que soit la famille, un nom sans tanwin, sans article et qui n'est pas premier terme d'une annexion, prend la **fatha** à la place de la kasra après une préposition ou comme second terme d'une annexion."
         },
         {
           "type": "compare",
