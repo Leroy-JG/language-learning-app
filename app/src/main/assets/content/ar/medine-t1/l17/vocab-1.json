@@ -1,0 +1,79 @@
+{
+  "id": "medine-t1.l17.vocab-1",
+  "type": "vocabulary",
+  "title": "Le bus et la gare",
+  "icon": "road",
+  "screens": [
+    { "id": "medine-t1.l17.vocab-1#1", "type": "present", "item": "w:hafila" },
+    { "id": "medine-t1.l17.vocab-1#2", "type": "present", "item": "w:mahatta" },
+    {
+      "id": "medine-t1.l17.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hafila",
+      "distractors": ["w:sayyara", "w:madrasa"]
+    },
+    { "id": "medine-t1.l17.vocab-1#4", "type": "present", "item": "w:mawid" },
+    { "id": "medine-t1.l17.vocab-1#5", "type": "present", "item": "w:muhaddad" },
+    {
+      "id": "medine-t1.l17.vocab-1#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mawid",
+      "distractors": ["w:ikhtibar", "w:yawm"]
+    },
+    { "id": "medine-t1.l17.vocab-1#7", "type": "present", "item": "w:saiq" },
+    {
+      "id": "medine-t1.l17.vocab-1#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:hafila", "w:mahatta", "w:mawid", "w:muhaddad", "w:saiq"]
+    },
+    { "id": "medine-t1.l17.vocab-1#9", "type": "build", "item": "w:mahatta", "extra": ["ه"] },
+    {
+      "id": "medine-t1.l17.vocab-1#10",
+      "type": "fill_gap",
+      "sentence": "{0} فِي الْحَافِلَةِ.",
+      "fr": "Le chauffeur est dans le bus.",
+      "gaps": [ { "answers": ["السَّائِقُ"] } ],
+      "options": ["السَّائِقُ", "الْمَوْعِدُ", "الْمَحَطَّةُ"],
+      "explain": "Dans le bus, il y a le chauffeur : {ar|السَّائِقُ}."
+    },
+    { "id": "medine-t1.l17.vocab-1#11", "type": "typing", "ask": "fr", "item": "w:mawid" },
+    {
+      "id": "medine-t1.l17.vocab-1#12",
+      "type": "tip",
+      "title": "Une rue, des rues",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais déjà {ar|شَارِعٌ} (chapitre 5). Son pluriel est {ar|شَوَارِعُ}. Le professeur l'emploie avec les mots de ce chapitre."
+        },
+        {
+          "type": "example",
+          "ar": "فِي الشَّارِعِ سَيَّارَاتٌ كَبِيرَةٌ.",
+          "fr": "Dans la rue, il y a de grandes voitures."
+        },
+        {
+          "type": "note",
+          "text": "{ar|شَوَارِعُ} est un pluriel de forme longue : pas de tanwin. {ar|سَيَّارَاتٌ} est un pluriel de choses : l'adjectif {ar|كَبِيرَةٌ} est au féminin singulier."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.vocab-1#13",
+      "type": "order",
+      "fr": "La gare routière est derrière la mosquée.",
+      "answers": [["مَحَطَّةُ", "الْحَافِلَاتِ", "خَلْفَ", "الْمَسْجِدِ"]],
+      "punctuation": ".",
+      "explain": "{ar|مَحَطَّةُ الْحَافِلَاتِ} : une annexion (« la gare des bus »)."
+    },
+    {
+      "id": "medine-t1.l17.vocab-1#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La gare routière est derrière la mosquée.",
+      "answers": ["مَحَطَّةُ الْحَافِلَاتِ خَلْفَ الْمَسْجِدِ."]
+    }
+  ]
+}

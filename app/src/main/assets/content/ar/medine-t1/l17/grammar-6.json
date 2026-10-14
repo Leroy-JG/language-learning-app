@@ -1,0 +1,176 @@
+{
+  "id": "medine-t1.l17.grammar-6",
+  "type": "grammar",
+  "title": "Le pluriel irrégulier",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l17.grammar-6#1",
+      "type": "tip",
+      "title": "Un pluriel qui change le mot",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le pluriel irrégulier désigne trois êtres ou plus, masculins ou féminins. La forme du singulier est **déformée**. Cela peut se faire de trois façons."
+        },
+        {
+          "type": "table",
+          "header": ["Ce qui se passe", "Singulier", "Pluriel"],
+          "rows": [
+            [
+              "des lettres s'ajoutent",
+              "{ar|قَلَمٌ} (un stylo), {ar|قَوْمٌ} (un peuple)",
+              "{ar|أَقْلَامٌ}, {ar|أَقْوَامٌ}"
+            ],
+            [
+              "des lettres disparaissent",
+              "{ar|سَرِيرٌ} (un lit), {ar|غُرْفَةٌ} (une chambre)",
+              "{ar|سُرُرٌ}, {ar|غُرَفٌ}"
+            ],
+            ["seules les voyelles changent", "{ar|أَسَدٌ} (un lion)", "{ar|أُسُدٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Ces changements peuvent aussi se combiner : dans {ar|كِتَابٌ} → {ar|كُتُبٌ}, l'alif disparaît et les voyelles changent."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.grammar-6#2",
+      "type": "tip",
+      "title": "Pas de règle constante",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Contrairement aux pluriels réguliers, il n'existe **pas de règle constante** pour fabriquer ces pluriels. Ils ont des formes précises et nombreuses, qui dépendent du mot au singulier (de sa forme et de sa racine). Il faut donc les **apprendre avec chaque mot**."
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Le professeur les détaille dans le cours de {ar|الصَّرْفُ} (la morphologie, l'étude de la forme des mots). Pour l'instant, chaque mot nouveau est présenté avec son pluriel : lis-le et écoute-le."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.grammar-6#3",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:kitab", "w:bayt", "w:qalam", "w:najm", "w:kalb"]
+    },
+    {
+      "id": "medine-t1.l17.grammar-6#4",
+      "type": "tip",
+      "title": "Qui prend un pluriel irrégulier ?",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pour…", "Exemples"],
+          "rows": [
+            ["des hommes", "{ar|طَالِبٌ} → {ar|طُلَّابٌ} (étudiants)"],
+            ["des femmes", "{ar|صَاحِبَةٌ} → {ar|صَوَاحِبُ} (compagnes)"],
+            [
+              "des choses ou des animaux, masculins ou féminins",
+              "{ar|كِتَابٌ} → {ar|كُتُبٌ} (livres), {ar|حَدِيقَةٌ} → {ar|حَدَائِقُ} (jardins)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Beaucoup de noms de choses ont un pluriel irrégulier ; d'autres, surtout ceux en {ar|ة}, ont un pluriel en {ar|◌َاتٌ} (chapitre 5 : {ar|سَيَّارَاتٌ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.grammar-6#5",
+      "type": "sort",
+      "categories": [ { "fr": "masculin régulier" }, { "fr": "féminin régulier" }, { "fr": "irrégulier" } ],
+      "cards": [
+        { "ar": "فَلَّاحُونَ", "category": 0 },
+        { "ar": "مُمَرِّضَاتٌ", "category": 1 },
+        { "ar": "أَقْلَامٌ", "category": 2 },
+        { "ar": "مُهَنْدِسُونَ", "category": 0 },
+        { "ar": "ثَلَّاجَاتٌ", "category": 1 },
+        { "ar": "مَكَاتِبُ", "category": 2 }
+      ],
+      "instruction": "Quel type de pluriel est-ce ?",
+      "explain": "{ar|◌ُونَ} : masculin régulier ; {ar|◌َاتٌ} : féminin régulier ; {ar|أَقْلَامٌ} et {ar|مَكَاتِبُ} : le mot a changé, c'est un pluriel irrégulier."
+    },
+    {
+      "id": "medine-t1.l17.grammar-6#6",
+      "type": "tip",
+      "title": "Il se décline comme un nom ordinaire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le pluriel irrégulier n'a pas de terminaison à part : son dernier signe est une voyelle, comme pour la plupart des noms. Damma au nominatif, fatha à l'accusatif, kasra au génitif."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "كُتُبٌ", "fr": "nominatif" },
+              "to": { "ar": "كُتُبًا", "fr": "accusatif" },
+              "label": "la damma devient une fatha"
+            },
+            {
+              "from": { "ar": "كُتُبٌ", "fr": "nominatif" },
+              "to": { "ar": "كُتُبٍ", "fr": "génitif" },
+              "label": "la damma devient une kasra"
+            }
+          ]
+        },
+        { "type": "example", "ar": "الرِّجَالُ فِي الْمَسَاجِدِ.", "fr": "Les hommes sont dans les mosquées." },
+        { "type": "example", "ar": "الْأَطْفَالُ فِي الْحَدَائِقِ.", "fr": "Les enfants sont dans les jardins." },
+        {
+          "type": "note",
+          "text": "Les pluriels de forme longue ({ar|مَسَاجِدُ}, {ar|حَدَائِقُ}, {ar|مَكَاتِبُ}…) n'ont pas de tanwin (chapitres 4 et 5). Indéfinis, ils prennent la fatha après une préposition : {ar|فِي مَسَاجِدَ} (dans des mosquées). Avec l'article, ils retrouvent la kasra : {ar|فِي الْمَسَاجِدِ}. Ils la retrouvent aussi quand ils sont premier terme d'une annexion : {ar|فِي مَسَاجِدِ الْمَدِينَةِ} (dans les mosquées de la ville)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.grammar-6#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|الرِّجَالُ فِي الْمَسَاجِدِ}, pourquoi {ar|الْمَسَاجِدِ} porte-t-il une kasra ?" },
+      "choices": [
+        { "fr": "Il est après la préposition {ar|فِي} : génitif" },
+        { "fr": "Parce que c'est un pluriel irrégulier" },
+        { "fr": "Parce que c'est le sujet de la phrase" }
+      ],
+      "answer": 0,
+      "explain": "Un pluriel irrégulier se décline comme un nom ordinaire : après {ar|فِي}, il est au génitif, à la kasra."
+    },
+    {
+      "id": "medine-t1.l17.grammar-6#8",
+      "type": "spot",
+      "instruction": "Touche les deux pluriels irréguliers.",
+      "words": ["الْمُسْلِمُونَ", "وَالْأَطْفَالُ", "فِي", "الْحَدَائِقِ."],
+      "answers": [1, 3],
+      "fr": "Les musulmans et les enfants sont dans les jardins.",
+      "explain": "{ar|الْأَطْفَالُ} et {ar|الْحَدَائِقِ} sont des pluriels irréguliers. {ar|الْمُسْلِمُونَ} est un pluriel régulier."
+    },
+    {
+      "id": "medine-t1.l17.grammar-6#9",
+      "type": "fill_gap",
+      "sentence": "الْأَطْفَالُ فِي {0}.",
+      "fr": "Les enfants sont dans les jardins.",
+      "gaps": [ { "answers": ["الْحَدَائِقِ"] } ],
+      "options": ["الْحَدَائِقِ", "الْحَدِيقَةِ", "الْمَسَاجِدِ"],
+      "explain": "Un pluriel : {ar|الْحَدَائِقِ} (les jardins), à la kasra après {ar|فِي}."
+    },
+    {
+      "id": "medine-t1.l17.grammar-6#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des maisons",
+      "answers": ["بُيُوتٌ"]
+    },
+    {
+      "id": "medine-t1.l17.grammar-6#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des jardins",
+      "answers": ["حَدَائِقُ"]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "medine-t1.l17.plurals-1",
+  "type": "vocabulary",
+  "title": "Les pluriels du chapitre",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l17.plurals-1#1",
+      "type": "tip",
+      "title": "Les pluriels des mots du chapitre",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Type"],
+          "rows": [
+            ["{ar|حَافِلَةٌ} (un bus)", "{ar|حَافِلَاتٌ}", "féminin régulier"],
+            ["{ar|مَحَطَّةٌ} (une gare)", "{ar|مَحَطَّاتٌ}", "féminin régulier"],
+            ["{ar|شَرِكَةٌ} (une société)", "{ar|شَرِكَاتٌ}", "féminin régulier"],
+            ["{ar|طَائِرَةٌ} (un avion)", "{ar|طَائِرَاتٌ}", "féminin régulier"],
+            ["{ar|زَوْجَةٌ} (une épouse)", "{ar|زَوْجَاتٌ}", "féminin régulier"],
+            ["{ar|مُؤْمِنٌ} (un croyant)", "{ar|مُؤْمِنُونَ}", "masculin régulier"],
+            [
+              "{ar|سَائِقٌ} (un chauffeur)",
+              "{ar|سُوَّاقٌ}",
+              "irrégulier ; on dit aussi {ar|سَائِقُونَ} (masculin régulier)"
+            ],
+            ["{ar|مَوْعِدٌ} (un rendez-vous)", "{ar|مَوَاعِيدُ}", "irrégulier, forme longue : sans tanwin"],
+            ["{ar|شَارِعٌ} (une rue)", "{ar|شَوَارِعُ}", "irrégulier, forme longue : sans tanwin"],
+            ["{ar|فُنْدُقٌ} (un hôtel)", "{ar|فَنَادِقُ}", "irrégulier, forme longue : sans tanwin"],
+            ["{ar|جَبَلٌ} (une montagne)", "{ar|جِبَالٌ}", "irrégulier"],
+            ["{ar|نَهْرٌ} (un fleuve)", "{ar|أَنْهَارٌ}", "irrégulier"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.plurals-1#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:hafila", "w:mawid", "w:funduq", "w:jabal", "w:nahr"]
+    },
+    {
+      "id": "medine-t1.l17.plurals-1#3",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:mahatta", "w:sharika", "w:saiq", "w:taira", "w:zawja"]
+    },
+    {
+      "id": "medine-t1.l17.plurals-1#4",
+      "type": "sort",
+      "categories": [ { "fr": "masculin régulier" }, { "fr": "féminin régulier" }, { "fr": "irrégulier" } ],
+      "cards": [
+        { "ar": "خَائِفُونَ", "category": 0 },
+        { "ar": "طَائِرَاتٌ", "category": 1 },
+        { "ar": "فَنَادِقُ", "category": 2 },
+        { "ar": "حَافِلَاتٌ", "category": 1 },
+        { "ar": "مُخْلِصُونَ", "category": 0 },
+        { "ar": "جِبَالٌ", "category": 2 }
+      ],
+      "instruction": "Quel type de pluriel est-ce ?",
+      "explain": "{ar|خَائِفُونَ} et {ar|مُخْلِصُونَ} : {ar|◌ُونَ}. {ar|طَائِرَاتٌ} et {ar|حَافِلَاتٌ} : {ar|◌َاتٌ}. {ar|فَنَادِقُ} et {ar|جِبَالٌ} : le mot a changé."
+    },
+    {
+      "id": "medine-t1.l17.plurals-1#5",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|شَارِعٌ} (une rue) ?" },
+      "choices": [ { "ar": "شَوَارِعُ" }, { "ar": "شَارِعَاتٌ" }, { "ar": "شَارِعُونَ" } ],
+      "answer": 0,
+      "explain": "Le pluriel de {ar|شَارِعٌ} est irrégulier : {ar|شَوَارِعُ}. Il s'apprend avec le mot."
+    },
+    {
+      "id": "medine-t1.l17.plurals-1#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des hôtels",
+      "answers": ["فَنَادِقُ"]
+    },
+    { "id": "medine-t1.l17.plurals-1#7", "type": "typing", "ask": "fr", "fr": "des bus", "answers": ["حَافِلَاتٌ"] },
+    {
+      "id": "medine-t1.l17.plurals-1#8",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:hafila", "w:mahatta", "w:mawid", "w:saiq", "w:sharika", "w:funduq"]
+    }
+  ]
+}
