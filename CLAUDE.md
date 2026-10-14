@@ -1,4 +1,4 @@
-# Lurata — règles du projet
+# Loura — règles du projet
 
 App Android personnelle pour apprendre l'arabe (interface en français), inspirée de Busuu et de
 Duolingo, **100 % hors ligne**. Cursus : Tomes de Médine (tome 1 : leçons 1 à 23, « Révision 1 » et « Révision 2 » publiées,
@@ -40,7 +40,7 @@ Pour tout ajout ou modification de contenu (`app/src/main/assets/content/`) :
 **Ajouter une leçon : suivre la procédure `.claude/skills/nouvelle-lecon/SKILL.md`** (étape par
 étape, avec la liste de contrôle). **Concevoir une leçon : `docs/pedagogie.md`** (cadre fixe pour la
 cohérence de l'app, palette d'outils à choisir librement pour chaque notion, et méthode pour créer
-un nouveau type d'écran si aucun ne convient). Historique des choix de contenu : `docs/sources.md`. Les QCM notés du professeur (types `test` et `exam`, écran `multi`) : `docs/content-format.md` §9.15 et `docs/sources-quiz.md`.
+un nouveau type d'écran si aucun ne convient). Historique des choix de contenu : `docs/sources.md`. Les défis notés, repris des quiz du professeur (types `test` et `exam`, écran `multi`) : `docs/content-format.md` §9.15 et `docs/sources-quiz.md`.
 
 ## Autres règles
 
@@ -78,7 +78,7 @@ validation du contenu, compilation, signature avec la clé définitive (secret `
 puis publication de la release `v0.1.<numéro du run>`. Après le push :
 1. Trouver le run du dernier commit (`actions_list`, filtre par branche) et attendre sa fin.
 2. En cas d'échec, lire les logs (`get_job_logs`), corriger, repousser.
-3. Donner le lien : `https://github.com/Leroy-JG/language-learning-app/releases/download/v0.1.<n>/lurata.apk`
+3. Donner le lien : `https://github.com/Leroy-JG/language-learning-app/releases/download/v0.1.<n>/loura.apk`
    (il s'installe par-dessus l'ancienne version, la progression est conservée).
 
 Branches : chaque conversation travaille sur sa branche `claude/…`, puis la fusionne dans `main`

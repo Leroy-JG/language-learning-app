@@ -1,9 +1,9 @@
 ---
 name: nouvelle-lecon
-description: Procédure complète pour ajouter (ou corriger) une leçon du cours d'arabe Lurata à partir des PDF du professeur (Tomes de Médine) — rédaction du contenu JSON, vérifications, relecture indépendante, publication de l'APK. À utiliser dès que l'utilisateur demande une nouvelle leçon, un nouveau chapitre ou une modification du contenu des cours.
+description: Procédure complète pour ajouter (ou corriger) une leçon du cours d'arabe Loura à partir des PDF du professeur (Tomes de Médine) — rédaction du contenu JSON, vérifications, relecture indépendante, publication de l'APK. À utiliser dès que l'utilisateur demande une nouvelle leçon, un nouveau chapitre ou une modification du contenu des cours.
 ---
 
-# Ajouter une leçon à Lurata
+# Ajouter une leçon à Loura
 
 Règle n° 1 (voir `CLAUDE.md`) : **tout doit être juste à 100 %**. Prendre le temps qu'il faut.
 Mieux vaut une leçon de moins qu'une seule erreur.
@@ -168,6 +168,6 @@ ce qui est confirmé. Relancer une relecture sur le diff des corrections.
 3. Suivre la CI GitHub jusqu'au bout ; corriger si elle échoue.
 4. Donner à l'utilisateur, en français : ce qui a été ajouté, les choix faits (et pourquoi), ce
    qui reste incertain, et le lien direct
-   `https://github.com/Leroy-JG/language-learning-app/releases/download/v0.1.<n>/lurata.apk`.
+   `https://github.com/Leroy-JG/language-learning-app/releases/download/v0.1.<n>/loura.apk`.
 5. Proposer de fusionner la branche dans `main` (pull request) pour que la prochaine conversation
    parte de ce travail.

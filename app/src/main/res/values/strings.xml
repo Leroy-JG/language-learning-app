@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lurata</string>
+    <string name="app_name">Loura</string>
 
     <!-- Onglets -->
     <string name="tab_learn">Apprendre</string>
@@ -18,8 +18,8 @@
     <string name="checkpoint_title">Bilan du chapitre</string>
     <string name="checkpoint_text">Teste tout ce que tu as appris dans ce chapitre.</string>
     <string name="checkpoint_done">Réussi\u00A0! Tu peux le refaire quand tu veux.</string>
-    <string name="test_to_pass">À passer\u00A0: 12/20 pour valider</string>
-    <string name="exam_or_quiz_passed">Validé\u00A0! Tu peux le refaire quand tu veux.</string>
+    <string name="test_to_pass">Objectif\u00A0: 12/20</string>
+    <string name="exam_or_quiz_passed">Relevé\u00A0! Tu peux le retenter quand tu veux.</string>
     <string name="level_validated">Tome validé</string>
     <string name="lesson_done">Terminée</string>
     <string name="lesson_next">Suivante</string>
@@ -31,8 +31,8 @@
     <string name="activity_type_dialogue">Dialogue</string>
     <string name="activity_type_review">Révision</string>
     <string name="activity_type_quiz">Quiz</string>
-    <string name="activity_type_test">QCM noté</string>
-    <string name="activity_type_exam">Examen</string>
+    <string name="activity_type_test">Défi</string>
+    <string name="activity_type_exam">Grand défi</string>
     <string name="activity_not_found">Activité introuvable.</string>
 
     <!-- Réviser -->
@@ -169,17 +169,17 @@
     <string name="end_words_reviewed">Mots révisés</string>
     <string name="end_retry_quiz">Recommencer le bilan</string>
     <string name="end_chapter_done">Tu as terminé le bilan de ce chapitre.</string>
-    <string name="end_test_passed">Quiz réussi\u00A0!</string>
-    <string name="end_test_failed">Quiz à refaire</string>
+    <string name="end_test_passed">Défi relevé\u00A0!</string>
+    <string name="end_test_failed">Défi à retenter</string>
     <string name="end_test_passed_hint">Tu as obtenu au moins 12/20\u00A0: bravo\u00A0!</string>
-    <string name="end_test_failed_hint">Il faut au moins 12/20 pour valider. Relis les leçons et réessaie\u00A0!</string>
-    <string name="end_exam_passed">Examen réussi\u00A0!</string>
-    <string name="end_exam_failed">Examen à refaire</string>
+    <string name="end_test_failed_hint">Il faut au moins 12/20 pour relever le défi. Relis les leçons et réessaie\u00A0!</string>
+    <string name="end_exam_passed">Grand défi relevé\u00A0!</string>
+    <string name="end_exam_failed">Grand défi à retenter</string>
     <string name="end_exam_done">Tu as validé le tome 1\u00A0! Mabrouk\u00A0!</string>
     <string name="end_stat_mark">Note</string>
     <string name="end_mark_value">%1$s / 20</string>
     <string name="end_test_score">Bonnes réponses\u00A0: %1$d sur %2$d</string>
-    <string name="end_retry_test">Refaire le quiz</string>
+    <string name="end_retry_test">Retenter le défi</string>
 
     <!-- Paramètres -->
     <string name="settings_section_arabic">Lecture de l\'arabe</string>
@@ -224,7 +224,7 @@
     <string name="settings_exported">Progression exportée.</string>
     <string name="settings_export_failed">L\'export a échoué.</string>
     <string name="settings_imported">Progression importée.</string>
-    <string name="settings_import_invalid">Ce fichier n\'est pas une sauvegarde de Lurata.</string>
+    <string name="settings_import_invalid">Ce fichier n\'est pas une sauvegarde de Loura.</string>
     <string name="settings_import_confirm_title">Importer cette sauvegarde\u00A0?</string>
     <string name="settings_import_confirm_text">Sauvegarde du %1$s (%2$d séances, %3$d éléments en mémoire). Ta progression actuelle sera remplacée.</string>
     <string name="settings_import_confirm">Importer</string>

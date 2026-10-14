@@ -34,7 +34,7 @@ for c in chapitres:
     d = racine / c
     ch = json.loads((d / "chapter.json").read_text(encoding="utf-8"))
     dernieres = ch["sections"][-1]["activities"]
-    # Les chapitres « Quiz N » et « Examen final » (QCM du professeur) n'ont qu'un test noté, sans bilan.
+    # Les chapitres « Défi N » et « Le grand défi » n'ont qu'un test noté, sans bilan.
     note = dernieres in (["test"], ["exam"])
     if dernieres != ["quiz"] and not note:
         avert.append(f"{c}: le bilan « quiz » doit être seul, dans la dernière partie")

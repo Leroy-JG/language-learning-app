@@ -252,7 +252,7 @@ private fun ChapterCard(
     val lessons = chapter.activities.filter { it.file.type != ActivityType.QUIZ }
     val doneCount = lessons.count { progress.isCompleted(it) }
     val chapterDone = chapter.activities.all { progress.isCompleted(it) }
-    // Un chapitre « Quiz » ou « Examen » ne contient qu'un test noté du professeur.
+    // Un chapitre « Défi » ou « Le grand défi » ne contient qu'un test noté.
     val graded = chapter.activities.isNotEmpty() && chapter.activities.all { it.file.type.isGraded }
     val scheme = MaterialTheme.colorScheme
     val star = scheme.primary.copy(alpha = 0.10f)

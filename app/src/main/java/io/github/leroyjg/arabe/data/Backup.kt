@@ -77,7 +77,7 @@ class BackupManager(private val progress: ProgressDao, private val review: Revie
     fun read(input: InputStream): BackupFile? = runCatching {
         val text = input.bufferedReader(Charsets.UTF_8).use { it.readText() }
         json.decodeFromString(BackupFile.serializer(), text)
-    }.getOrNull()?.takeIf { it.format == FORMAT && it.version in 1..VERSION && it.isValid() }
+    }.getOrNull()?.takeIf { it.format in ACCEPTED_FORMATS && it.version in 1..VERSION && it.isValid() }
 
     /** Remplace toute la progression par celle de la sauvegarde. */
     suspend fun restore(file: BackupFile) {
@@ -111,7 +111,10 @@ class BackupManager(private val progress: ProgressDao, private val review: Revie
             saved.map { it.itemId }.toSet().size == saved.size
 
     companion object {
-        const val FORMAT = "lurata-progression"
+        const val FORMAT = "loura-progression"
+
+        /** Les sauvegardes faites avant le changement de nom de l'app restent lisibles. */
+        private val ACCEPTED_FORMATS = setOf(FORMAT, "lurata-progression")
         const val VERSION = 1
     }
 }
