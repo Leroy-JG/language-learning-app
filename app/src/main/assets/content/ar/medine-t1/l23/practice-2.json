@@ -92,12 +92,12 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Phrase 14 : {ar|لَوْنُهَا} veut dire « sa couleur », celle de la voiture ({ar|هَا}, féminin). {ar|لَوْنٌ} est masculin : la couleur qui le qualifie est donc au masculin, {ar|أَخْضَرُ}."
+          "text": "Phrase 14 : {ar|لَوْنُهَا} veut dire « sa couleur », celle de la voiture ({ar|هَا}, féminin). {ar|لَوْنٌ} est masculin : le mot qui le décrit est donc au masculin, {ar|أَخْضَرُ}. La phrase entière, {ar|لَوْنُهَا أَخْضَرُ}, dit quelque chose de {ar|سَيَّارَتِي} : « ma voiture : sa couleur est verte »."
         },
         {
           "type": "note",
           "tone": "info",
-          "text": "Phrase 19 : {ar|الطَّائِفُ} est une ville proche de La Mecque. Avec l'article, elle prend la kasra après {ar|مِنْ}."
+          "text": "Phrase 19 : {ar|الطَّائِفُ} est une ville d'Arabie saoudite, à l'est de La Mecque. Elle porte toujours l'article : après {ar|مِنْ}, la kasra."
         }
       ]
     },
@@ -154,11 +154,11 @@
       },
       "choices": [
         { "fr": "Parce qu'il décrit {ar|لَوْنٌ}, qui est masculin" },
-        { "fr": "Parce qu'une couleur est toujours au masculin" },
+        { "fr": "Parce qu'un adjectif de couleur est toujours au masculin" },
         { "fr": "Parce qu'il est sans tanwin" }
       ],
       "answer": 0,
-      "explain": "{ar|لَوْنُهَا} : « sa couleur ». C'est la couleur qui est verte, et {ar|لَوْنٌ} est masculin. Une couleur n'est pas toujours au masculin : {ar|حَمْرَاءُ}, {ar|خَضْرَاءُ} existent."
+      "explain": "{ar|لَوْنُهَا} : « sa couleur ». C'est la couleur qui est verte, et {ar|لَوْنٌ} est masculin. Un adjectif de couleur s'accorde avec le nom qu'il décrit : {ar|حَمْرَاءُ}, {ar|خَضْرَاءُ} existent."
     },
     {
       "id": "medine-t1.l23.practice-2#8",

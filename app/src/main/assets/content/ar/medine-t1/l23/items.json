@@ -6,7 +6,7 @@
     "fr": "sacré ; interdit",
     "translit": "ḥarāmun",
     "plural": "حُرُمٌ",
-    "note": "Deux sens : « sacré, saint » ({ar|الْبَيْتُ الْحَرَامُ}) et « interdit, illicite ». Ils viennent de la même racine ({ar|ح} {ar|ر} {ar|م}) : ce qui est sacré est aussi ce qu'il est interdit de violer. Son contraire, pour « permis, licite », est {ar|حَلَالٌ}.",
+    "note": "Deux sens : « sacré, saint » ({ar|الْبَيْتُ الْحَرَامُ}) et « interdit, illicite ». Ils viennent de la même racine ({ar|ح} {ar|ر} {ar|م}) : ce qui est sacré est aussi ce qu'il est interdit de violer. De la même racine : {ar|الْحَرَمُ} (le territoire sacré) et {ar|الْإِحْرَامُ} (l'état de sacralisation du pèlerin). Son contraire, pour « permis, licite », est {ar|حَلَالٌ}.",
     "example": { "ar": "الْمَسْجِدُ الْحَرَامُ فِي مَكَّةَ.", "fr": "La Mosquée sacrée est à La Mecque." }
   },
   {
@@ -15,7 +15,7 @@
     "ar": "هَاتِ",
     "fr": "donne !",
     "translit": "hāti",
-    "note": "Ordre adressé à un homme. En pratique, on ne l'emploie qu'à l'impératif. À une femme : {ar|هَاتِي}.",
+    "note": "Ordre adressé à un homme, pour dire « donne » ou « apporte ». En pratique, on ne l'emploie qu'à l'impératif. À une femme : {ar|هَاتِي}.",
     "example": { "ar": "هَاتِ يَا أُسْتَاذُ.", "fr": "Donne, professeur !" }
   }
 ]

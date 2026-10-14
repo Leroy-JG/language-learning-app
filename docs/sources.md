@@ -951,13 +951,15 @@ Notes de choix dans un fichier à part : `docs/sources-lecon-17.md` (les chapitr
   - le `النَّصْبُ` est montré mais jamais exigé en exercice (seul `أُحِبُّ مَكَّةَ` en exemple, comme au chapitre 11) ;
   - les `sort` « fatha / kasra » ne mettent que des cartes dont la catégorie se déduit de la présence de l'article ou du nom lui-même (ils restent justes avec les harakat masquées) ;
   - `ذَهَبَ أَحْمَدُ إِلَى مُحَمَّدٍ` / `ذَهَبَ مُحَمَّدٌ إِلَى أَحْمَدَ` (phrases 17 et 18) servent de paire minimale : la fin de chaque nom dit qui est allé chez qui ;
-  - la phrase 14 (`سَيَّارَتِي لَوْنُهَا أَخْضَرُ`) donne lieu à une question : `أَخْضَرُ` qualifie `لَوْنٌ` (masculin).
+  - la phrase 14 (`سَيَّارَتِي لَوْنُهَا أَخْضَرُ`) donne lieu à une question : `أَخْضَرُ` décrit `لَوْنٌ` (masculin).
 - **Explications ajoutées (données à l'oral, absentes du PDF) :**
   - **Ibn Mālik (Alfiyya)** : le nom sans tanwin est mis au génitif par la fatha tant qu'il n'est ni premier terme d'annexion ni précédé de l'article ;
   - « damma, fatha, fatha » comme moyen de retenir ;
   - au `النَّصْبُ` et au `الْجَرُّ`, un nom sans tanwin a la même fin : seul le rôle dans la phrase dit le cas ;
-  - `حَرَامٌ` : deux sens issus de la racine `ح ر م` ; contraire `حَلَالٌ` ; `حُرُمٌ` est le pluriel de `حَرَامٌ` (`الْأَشْهُرُ الْحُرُمُ`, Coran 9:5 et 9:36) ; pour un pluriel de choses, l'adjectif est le plus souvent au féminin singulier, le pluriel est aussi possible ; les quatre mois sacrés (sourate 9, verset 36) : Dhū l-Qaʿda, Dhū l-Ḥijja, Muḥarram et Rajab ;
-  - `الطَّائِفُ` : ville proche de La Mecque (cité en lecture, aucune carte).
+  - `حَرَامٌ` : deux sens issus de la racine `ح ر م` ; contraire `حَلَالٌ` ; `حُرُمٌ` est le pluriel de `حَرَامٌ` (`الْأَشْهُرُ الْحُرُمُ`, Coran 9:5 et 9:36) ; pour un pluriel de choses, l'adjectif est le plus souvent au féminin singulier, le pluriel est aussi possible ; les quatre mois sacrés (le nombre : sourate 9, verset 36 ; les noms : hadith d'Abū Bakra, al-Bukhārī et Muslim) : Dhū l-Qaʿda, Dhū l-Ḥijja, Muḥarram et Rajab ; racine `ح ر م` : `الْحَرَمُ`, `الْإِحْرَامُ` ; `الْخَمْرُ` traduit « l'alcool (le vin et toute boisson enivrante) » ;
+  - `الطَّائِفُ` : ville d'Arabie saoudite, à l'est de La Mecque, toujours avec l'article (cité en lecture, aucune carte) ;
+  - `هَاتِ` : « donne » ou « apporte » ; le vers de l'Alfiyya est cité dans la note de `grammar-2` (relu par un relecteur) ;
+  - **corrections après relecture :** « avec l'article, ces noms prennent la kasra » (et non « tout nom » : duel, pluriel masculin sain, noms en `ى` / `ِي`) ; `أَخْضَرُ` décrit `لَوْنٌ` ; `مِنْ أَيْنَ أَنْتَ؟` : « D'où viens-tu ? » comme au chapitre 4 ; consignes des `spot` précisées (« villes », « prénom »).
 - **Pas encore enseigné (donc sans exercice) :** le verbe `كَانَ`, l'impératif négatif (`لَا تَكُنْ`), le complément d'objet, `أَنْ` + subjonctif, `الْخَمْرُ`, `حَلَالٌ` (cité dans la note de `حَرَامٌ`).
 - **À confirmer avec le professeur :** rien de nouveau.
 

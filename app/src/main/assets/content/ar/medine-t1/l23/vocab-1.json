@@ -18,7 +18,11 @@
             ["sacré, saint", "{ar|الْبَيْتُ الْحَرَامُ}", "la Maison sacrée (la Kaaba)"],
             ["sacré, saint", "{ar|الْمَسْجِدُ الْحَرَامُ}", "la Mosquée sacrée (à La Mecque)"],
             ["sacré, saint", "{ar|الْأَشْهُرُ الْحُرُمُ}", "les mois sacrés"],
-            ["interdit, illicite", "{ar|الْخَمْرُ حَرَامٌ}", "l'alcool est interdit"]
+            [
+              "interdit, illicite",
+              "{ar|الْخَمْرُ حَرَامٌ}",
+              "l'alcool (le vin et toute boisson enivrante) est interdit"
+            ]
           ]
         },
         {
@@ -29,7 +33,7 @@
         {
           "type": "note",
           "tone": "culture",
-          "text": "Les mois sacrés sont quatre (sourate 9, verset 36) : Dhū l-Qaʿda, Dhū l-Ḥijja, Muḥarram et Rajab."
+          "text": "Les mois sacrés sont quatre (sourate 9, verset 36). Le hadith d'Abū Bakra, rapporté par al-Bukhārī et Muslim, les nomme : Dhū l-Qaʿda, Dhū l-Ḥijja, Muḥarram et Rajab."
         }
       ]
     },

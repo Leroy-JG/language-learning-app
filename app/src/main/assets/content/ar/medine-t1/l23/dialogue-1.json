@@ -19,7 +19,7 @@
         { "speaker": "A", "ar": "أَنَا طَالِبٌ جَدِيدٌ.", "fr": "Je suis un nouvel étudiant." },
         { "speaker": "T", "ar": "مَا اسْمُكَ؟", "fr": "Quel est ton nom ?" },
         { "speaker": "A", "ar": "اسْمِي أَحْمَدُ.", "fr": "Mon nom est Aḥmad." },
-        { "speaker": "T", "ar": "مِنْ أَيْنَ أَنْتَ؟", "fr": "D'où es-tu ?" },
+        { "speaker": "T", "ar": "مِنْ أَيْنَ أَنْتَ؟", "fr": "D'où viens-tu ?" },
         { "speaker": "A", "ar": "أَنَا مِنْ بَاكِسْتَانَ.", "fr": "Je suis du Pakistan." },
         {
           "speaker": "T",
