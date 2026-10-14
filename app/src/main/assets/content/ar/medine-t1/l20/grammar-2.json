@@ -1,0 +1,98 @@
+{
+  "id": "medine-t1.l20.grammar-2",
+  "type": "grammar",
+  "title": "Le huit devant le dénombré",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l20.grammar-2#1",
+      "type": "tip",
+      "title": "Le huit change devant le dénombré",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur insiste sur le nombre huit. Avec un nom féminin, sa forme isolée est {ar|ثَمَانٍ} ; mais quand il est le premier terme d'une annexion, il **perd son tanwin et prend un {ar|ي}**."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "ثَمَانٍ", "fr": "huit (nom féminin)" },
+              "to": { "ar": "ثَمَانِي طَالِبَاتٍ", "fr": "huit étudiantes" },
+              "label": "le tanwin disparaît, le {ar|ي} revient"
+            },
+            {
+              "from": { "ar": "ثَمَانٍ", "fr": "huit (nom féminin)" },
+              "to": { "ar": "ثَمَانِي سَيَّارَاتٍ", "fr": "huit voitures" },
+              "label": "le tanwin disparaît, le {ar|ي} revient"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Avec un nom masculin, le huit est régulier : {ar|ثَمَانِيَةُ طُلَّابٍ} (huit étudiants)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l20.grammar-2#2",
+      "type": "fill_gap",
+      "sentence": "فِي بَيْتِنَا {0} غُرَفٍ.",
+      "fr": "Dans notre maison, il y a huit pièces.",
+      "gaps": [ { "answers": ["ثَمَانِي"] } ],
+      "options": ["ثَمَانِي", "ثَمَانٍ", "ثَمَانِيَةُ"],
+      "explain": "{ar|غُرْفَةٌ} est féminin : le nombre n'a pas de {ar|ة}, et devant le dénombré la forme est {ar|ثَمَانِي}. {ar|ثَمَانٍ} est la forme isolée."
+    },
+    {
+      "id": "medine-t1.l20.grammar-2#3",
+      "type": "spot",
+      "instruction": "Touche le nombre.",
+      "words": ["فِي", "الْجَامِعَةِ", "ثَمَانِي", "كُلِّيَّاتٍ."],
+      "answers": [2],
+      "fr": "Dans l'université, il y a huit facultés."
+    },
+    {
+      "id": "medine-t1.l20.grammar-2#4",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi écrit-on {ar|ثَمَانِي طَالِبَاتٍ} et non {ar|ثَمَانٍ طَالِبَاتٍ} ?" },
+      "choices": [
+        {
+          "fr": "Parce que le nombre est le premier terme d'une annexion : il perd son tanwin et le {ar|ي} revient"
+        },
+        { "fr": "Parce que {ar|طَالِبَةٌ} est un nom masculin" },
+        { "fr": "Parce que huit s'écrit toujours {ar|ثَمَانِيَةٌ}" }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "medine-t1.l20.grammar-2#5",
+      "type": "order",
+      "fr": "Dans notre classe, il y a huit étudiantes d'Indonésie.",
+      "answers": [["فِي", "فَصْلِنَا", "ثَمَانِي", "طَالِبَاتٍ", "مِنْ", "إِنْدُونِيسِيَا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l20.grammar-2#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "huit étudiantes",
+      "answers": ["ثَمَانِي طَالِبَاتٍ"]
+    },
+    {
+      "id": "medine-t1.l20.grammar-2#7",
+      "type": "fill_gap",
+      "sentence": "فِي الْجَامِعَةِ {0} طُلَّابٍ.",
+      "fr": "Dans l'université, il y a huit étudiants.",
+      "gaps": [ { "answers": ["ثَمَانِيَةُ"] } ],
+      "options": ["ثَمَانِيَةُ", "ثَمَانِي", "ثَمَانٍ"],
+      "explain": "{ar|طَالِبٌ} est masculin : le nombre prend le {ar|ة} : {ar|ثَمَانِيَةُ}."
+    },
+    {
+      "id": "medine-t1.l20.grammar-2#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai huit voitures.",
+      "answers": ["لِي ثَمَانِي سَيَّارَاتٍ.", "عِنْدِي ثَمَانِي سَيَّارَاتٍ."]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "medine-t1.l20.dialogue-2",
+  "type": "dialogue",
+  "title": "Frères et sœurs",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t1.l20.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Combien de frères et de sœurs ?",
+      "intro": "Salmā demande à Laylā combien de sœurs et de frères elle a. Puis Laylā parle d'une camarade, Khadīja.",
+      "speakers": { "A": { "name": "Laylā", "voice": "f1" }, "B": { "name": "Salmā", "voice": "f1" } },
+      "lines": [
+        { "speaker": "B", "ar": "كَمْ أُخْتًا لَكِ يَا لَيْلَى؟", "fr": "Combien de sœurs as-tu, Laylā ?" },
+        { "speaker": "A", "ar": "لِي ثَلَاثُ أَخَوَاتٍ.", "fr": "J'ai trois sœurs." },
+        { "speaker": "B", "ar": "وَكَمْ أَخًا لَكِ؟", "fr": "Et combien de frères as-tu ?" },
+        { "speaker": "A", "ar": "لِي خَمْسَةُ إِخْوَةٍ.", "fr": "J'ai cinq frères." },
+        {
+          "speaker": "B",
+          "ar": "لَكِ ثَلَاثُ أَخَوَاتٍ وَخَمْسَةُ إِخْوَةٍ.",
+          "fr": "Tu as trois sœurs et cinq frères."
+        },
+        {
+          "speaker": "A",
+          "ar": "نَعَمْ، وَكَمْ أَخًا وَأُخْتًا لَكِ؟",
+          "fr": "Oui. Et toi, combien de frères et de sœurs as-tu ?"
+        },
+        {
+          "speaker": "B",
+          "ar": "لِي أَرْبَعَةُ إِخْوَةٍ وَأَرْبَعُ أَخَوَاتٍ.",
+          "fr": "J'ai quatre frères et quatre sœurs."
+        },
+        {
+          "speaker": "A",
+          "ar": "لِي زَمِيلَةٌ اِسْمُهَا خَدِيجَةُ. لَهَا ثَمَانِيَةُ إِخْوَةٍ وَثَمَانِي أَخَوَاتٍ.",
+          "fr": "J'ai une camarade qui s'appelle Khadīja. Elle a huit frères et huit sœurs."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l20.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Ce texte contient de petites formes que tu reconnais en partie." },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Mot à mot"],
+          "rows": [
+            ["{ar|لَكِ}", "à toi, tu as (à une femme)", "{ar|لِ} + {ar|كِ}"],
+            [
+              "{ar|كَمْ أَخًا وَأُخْتًا}",
+              "combien de frères et de sœurs",
+              "deux noms au singulier, à l'accusatif, après {ar|كَمْ}"
+            ],
+            ["{ar|اِسْمُهَا}", "son nom (à elle)", "{ar|اِسْمٌ} + {ar|هَا}"],
+            ["{ar|لَهَا}", "elle a", "{ar|لِ} + {ar|هَا} : « à elle »"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|لِي زَمِيلَةٌ اِسْمُهَا خَدِيجَةُ} : mot à mot « j'ai une camarade, son nom est Khadīja »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l20.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Combien de sœurs Laylā a-t-elle ?" },
+      "choices": [ { "fr": "Trois" }, { "fr": "Cinq" }, { "fr": "Quatre" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l20.dialogue-2#1" },
+      "explain": "{ar|لِي ثَلَاثُ أَخَوَاتٍ}."
+    },
+    {
+      "id": "medine-t1.l20.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Combien de frères Laylā a-t-elle ?" },
+      "choices": [ { "fr": "Cinq" }, { "fr": "Trois" }, { "fr": "Huit" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l20.dialogue-2#1" },
+      "explain": "{ar|لِي خَمْسَةُ إِخْوَةٍ}."
+    },
+    {
+      "id": "medine-t1.l20.dialogue-2#5",
+      "type": "sort",
+      "categories": [ { "fr": "Laylā" }, { "fr": "Salmā" }, { "fr": "Khadīja" } ],
+      "cards": [
+        { "fr": "trois sœurs", "category": 0 },
+        { "fr": "cinq frères", "category": 0 },
+        { "fr": "quatre frères", "category": 1 },
+        { "fr": "quatre sœurs", "category": 1 },
+        { "fr": "huit frères", "category": 2 },
+        { "fr": "huit sœurs", "category": 2 }
+      ],
+      "instruction": "Qui a ces frères et ces sœurs ?"
+    },
+    {
+      "id": "medine-t1.l20.dialogue-2#6",
+      "type": "true_false",
+      "statement": { "fr": "Salmā a autant de frères que de sœurs." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l20.dialogue-2#1" },
+      "explain": "{ar|لِي أَرْبَعَةُ إِخْوَةٍ وَأَرْبَعُ أَخَوَاتٍ} : quatre frères et quatre sœurs."
+    },
+    {
+      "id": "medine-t1.l20.dialogue-2#7",
+      "type": "fill_gap",
+      "sentence": "لَهَا {0} إِخْوَةٍ وَثَمَانِي أَخَوَاتٍ.",
+      "fr": "Elle a huit frères et huit sœurs.",
+      "gaps": [ { "answers": ["ثَمَانِيَةُ"] } ],
+      "options": ["ثَمَانِيَةُ", "ثَمَانِي", "ثَمَانٍ"],
+      "context": { "dialogue": "medine-t1.l20.dialogue-2#1" },
+      "explain": "{ar|أَخٌ} est masculin : le nombre prend le {ar|ة} : {ar|ثَمَانِيَةُ إِخْوَةٍ}. Pour les sœurs, {ar|ثَمَانِي أَخَوَاتٍ}."
+    },
+    {
+      "id": "medine-t1.l20.dialogue-2#8",
+      "type": "order",
+      "fr": "Et combien de frères et de sœurs as-tu ? (à une femme)",
+      "answers": [["وَكَمْ", "أَخًا", "وَأُخْتًا", "لَكِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l20.dialogue-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai quatre frères et quatre sœurs.",
+      "answers": ["لِي أَرْبَعَةُ إِخْوَةٍ وَأَرْبَعُ أَخَوَاتٍ.", "عِنْدِي أَرْبَعَةُ إِخْوَةٍ وَأَرْبَعُ أَخَوَاتٍ."]
+    },
+    {
+      "id": "medine-t1.l20.dialogue-2#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai une camarade qui s'appelle Khadīja.",
+      "answers": ["لِي زَمِيلَةٌ اِسْمُهَا خَدِيجَةُ."]
+    }
+  ]
+}

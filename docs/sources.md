@@ -818,6 +818,36 @@ Notes de choix dans un fichier à part : `docs/sources-lecon-17.md` (les chapitr
   - `قُدَامَى` pluriel de `قَدِيمٌ` : attesté (Wiktionnaire, dictionnaires modernes) mais non retrouvé dans Lisān al-ʿArab / al-Wasīṭ par le relecteur : **à confirmer avec le professeur**.
 - **Pas de nouvelle icône.** Modification de `core` : `ArabicScript.problems` accepte les chiffres arabes seuls.
 
+### Leçon 20 (`l20`)
+
+- **Support :** un seul PDF de 16 pages (cours 20, « Les nombres, deuxième partie » : dialogue de Salmā et Laylā, diapos « العَدَدُ مِنْ ٣ إِلَى ١٠ » (les trois règles) et l'analyse de deux phrases, diapo sur ثَمَانٍ, exercices 1 à 4, vocabulaire nouveau, carte du monde).
+- **Une leçon surtout de reprise** : les règles de 3 à 10 (annexion, pluriel, genre contraire), ثَمَانٍ / ثَمَانِي et كَمْ sont enseignés au chapitre 19. Le chapitre 20 les reprend avec les termes d'analyse du professeur (`الْعَدَدُ مُؤَنَّثٌ مُضَافٌ`, `الْمَعْدُودُ مُذَكَّرٌ جَمْعٌ مُضَافٌ إِلَيْهِ`), avec des **dénombrés féminins** (le chapitre 19 travaillait surtout des masculins), et avec le nouveau dialogue. Éléments **nouveaux** : `مَجَلَّةٌ`, `كَلِمَةٌ`, `إِنْدُونِيسِيَا` ; aucun doublon de carte (`أُورُبَّا`, `مَالِيزِيَا` sont déjà au chapitre 19).
+- **Exercices et textes du livre repris :**
+  - dialogue (pages 3 et 4) → `dialogue-1` (pays des étudiantes) et `dialogue-2` (frères et sœurs, Khadīja) ;
+  - diapos des trois règles et de l'analyse → `grammar-1` ; diapo ثَمَانٍ → `grammar-2` ;
+  - exercice 1 (٣ à ١٠ avec طَالِبَاتٌ ; le numéro « (١٥) » du PDF est le numéro 10 mal rendu, la phrase est `عَشْرُ طَالِبَاتٍ`) → `practice-1` ;
+  - exercice 2 (phrases 1 à 9 et 11 à 14 ; le PDF n'affiche pas de numéro 10) → `practice-2`, sauf les phrases 6 et 9 reprises dans `practice-4` / `grammar-2` / quiz sous une autre forme ;
+  - exercice 3 (« réponds avec le nombre ») → `practice-3` ; exercice 4 (chiffres → lettres) → `practice-4` ;
+  - vocabulaire nouveau (`مَجَلَّةٌ`, `كَلِمَةٌ`) → `vocab-1` ; carte (`أُورُوبَّا`, `مَالِيزِيَا`, `إِنْدُونِيسِيَا`) → `vocab-2`.
+- **Écarts avec le PDF :**
+  - **ellipse** « نَعَمْ… » du dialogue : le caractère « … » est interdit dans un texte arabe (validateur) ; l'app écrit `نَعَمْ،` ;
+  - **`كَمِ اِبْنًا`** (ex. 3, question 7) : le PDF écrit `كم ابناً` sans voyelles ; la vocalisation correcte porte une kasra sur le mim devant l'alif de liaison. Une astuce l'explique (`practice-3`), contrairement au chapitre 19 qui avait remplacé la question par `كَمْ بِنْتًا` ;
+  - **ex. 3, question 9** (`كم جامعةً`) : le PDF ne donne pas de complément ; l'app ajoute `فِي بَلَدِكِ` ;
+  - **ex. 3** : les questions sont vocalisées avec `لَكِ` (féminin), comme le dialogue du même cours ; la réponse ne dépend pas de ce choix ;
+  - **ex. 4** : donné en français avec des chiffres (« J'ai 10 livres et 7 revues. ») plutôt qu'en arabe avec des chiffres, car l'audio d'une question arabe contenant des chiffres dirait le nombre en toutes lettres et trahirait la réponse ;
+  - `أُرُوبَّا` : la carte du PDF écrit les lettres dans cet ordre (sans و après l'alif) ; l'app garde la forme du chapitre 19 (`أُورُبَّا`, avec `أُورُوبَّا` acceptée à la saisie) ; **à confirmer avec le professeur** ;
+  - exemple de `مَجَلَّةٌ` du PDF (`يَقْرَأُ زَيْدٌ الْمَجَلَّةَ الْجَدِيدَةَ`) non repris : `يَقْرَأُ` n'est pas enseigné ; remplacé par `عِنْدِي ثَلَاثُ مَجَلَّاتٍ` (phrase 14 de l'exercice 2) ;
+  - `جَدِيدَاتٍ` (exemple de `كَلِمَةٌ` du PDF) et `جَدِيدَةٍ` (exercice 2, phrase 13) sont tous deux acceptés ;
+  - fautes de typographie du PDF non reproduites (chiffre « ه » pour ٥, « ١٥ » pour ١٠).
+- **Explications ajoutées (données à l'oral, absentes du PDF) :**
+  - un nom collectif (`بَقَرٌ`, `دَجَاجٌ`) ne se compte pas : on passe au pluriel régulier (`بَقَرَاتٌ`, `دَجَاجَاتٌ`) ;
+  - `كَلِمَةٌ` (un mot, quel qu'il soit) ≠ `اِسْمٌ` (une sorte de mot) ; `مُدَرِّسَةٌ` (enseignante) ≠ `مَدْرَسَةٌ` (école) ;
+  - le « féminin » du nombre dans l'analyse du professeur désigne la forme du nombre (celle en ة) ;
+  - chaque nombre s'accorde avec son propre dénombré (`ثَلَاثُ أَخَوَاتٍ وَخَمْسَةُ إِخْوَةٍ`) ;
+  - après `كَلِمَاتٌ`, l'adjectif peut être au féminin singulier ou au féminin pluriel ;
+  - `يَا سَلْمَى` : prénom en alif, qui ne change pas à l'écrit.
+- **Choix de contenu :** `w:majalla` : « une revue » (aussi « magazine », en note) ; pas de nouvelle icône (le drapeau d'Indonésie n'existe pas dans les icônes de l'app) ; les deux locutrices du dialogue ont la même voix (`f1`, seule voix féminine du cours), comme au chapitre 12.
+
 ## Audio
 
 Aucun MP3 n'est encore généré : l'app utilise la synthèse vocale arabe du téléphone en attendant
