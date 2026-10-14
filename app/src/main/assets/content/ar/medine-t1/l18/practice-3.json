@@ -1,0 +1,120 @@
+{
+  "id": "medine-t1.l18.practice-3",
+  "type": "grammar",
+  "title": "Réponds avec le duel",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l18.practice-3#1",
+      "type": "tip",
+      "title": "L'exercice du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur te pose des questions avec {ar|كَمْ}. Réponds avec le duel : tu as deux de chaque !"
+        },
+        {
+          "type": "note",
+          "text": "Dans le livre, pour la famille, on dit en général {ar|لِي} (« j'ai ») ; pour les objets, {ar|عِنْدِي} (chapitre 10). Les deux sont acceptés ici. Souviens-toi : le duel de {ar|أَخٌ} est {ar|أَخَوَانِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.practice-3#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ قَلَمًا عِنْدَكَ؟",
+      "answers": ["عِنْدِي قَلَمَانِ.", "لِي قَلَمَانِ.", "قَلَمَانِ."],
+      "fr": "J'ai deux stylos.",
+      "instruction": "Réponds : « j'ai deux stylos »."
+    },
+    {
+      "id": "medine-t1.l18.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "كَمْ كِتَابًا عِنْدَكَ؟ عِنْدِي {0}.",
+      "fr": "J'ai deux livres.",
+      "gaps": [ { "answers": ["كِتَابَانِ"] } ],
+      "options": ["كِتَابَانِ", "كِتَابَيْنِ", "كِتَابٌ"],
+      "explain": "{ar|كِتَابَانِ} est le sujet de la phrase (« deux livres sont chez moi ») : le nominatif, avec l'alif."
+    },
+    {
+      "id": "medine-t1.l18.practice-3#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ سَبُّورَةً فِي فَصْلِكُمْ؟",
+      "answers": ["فِي فَصْلِنَا سَبُّورَتَانِ.", "فِي الْفَصْلِ سَبُّورَتَانِ.", "سَبُّورَتَانِ."],
+      "fr": "Il y a deux tableaux dans notre classe.",
+      "instruction": "Réponds : « il y a deux tableaux dans notre classe »."
+    },
+    {
+      "id": "medine-t1.l18.practice-3#5",
+      "type": "order",
+      "fr": "J'ai deux frères.",
+      "answers": [["لِي", "أَخَوَانِ"]],
+      "punctuation": ".",
+      "instruction": "Remets les mots dans l'ordre, avec {ar|لِي}."
+    },
+    {
+      "id": "medine-t1.l18.practice-3#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ أُخْتًا لَكَ يَا عَلِيُّ؟",
+      "answers": ["لِي أُخْتَانِ.", "عِنْدِي أُخْتَانِ.", "أُخْتَانِ."],
+      "fr": "J'ai deux sœurs.",
+      "instruction": "Réponds : « j'ai deux sœurs »."
+    },
+    {
+      "id": "medine-t1.l18.practice-3#7",
+      "type": "fill_gap",
+      "sentence": "كَمْ صَدِيقًا لَكَ يَا مُحَمَّدُ؟ لِي {0}.",
+      "fr": "J'ai deux amis.",
+      "gaps": [ { "answers": ["صَدِيقَانِ"] } ],
+      "options": ["صَدِيقَانِ", "صَدِيقَيْنِ", "صَدِيقٌ"],
+      "explain": "{ar|صَدِيقَانِ} : le sujet de la phrase, au nominatif."
+    },
+    {
+      "id": "medine-t1.l18.practice-3#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ طَالِبًا جَدِيدًا فِي فَصْلِكُمْ؟",
+      "answers": ["فِي فَصْلِنَا طَالِبَانِ جَدِيدَانِ.", "فِي الْفَصْلِ طَالِبَانِ جَدِيدَانِ.", "طَالِبَانِ جَدِيدَانِ."],
+      "fr": "Il y a deux nouveaux étudiants dans notre classe.",
+      "instruction": "Réponds : « il y a deux nouveaux étudiants dans notre classe »."
+    },
+    {
+      "id": "medine-t1.l18.practice-3#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ مَسْجِدًا فِي قَرْيَتِكَ يَا زَكَرِيَّا؟",
+      "answers": ["فِي قَرْيَتِي مَسْجِدَانِ.", "مَسْجِدَانِ."],
+      "fr": "Il y a deux mosquées dans mon village.",
+      "instruction": "Réponds : « il y a deux mosquées dans mon village »."
+    },
+    {
+      "id": "medine-t1.l18.practice-3#10",
+      "type": "question",
+      "prompt": {
+        "fr": "Āmina répond qu'elle a deux oncles paternels. Que dit-elle à la question {ar|كَمْ عَمًّا لَكِ يَا آمِنَةُ؟} ?"
+      },
+      "choices": [ { "ar": "لِي عَمَّانِ." }, { "ar": "لِي عَمَّتَانِ." }, { "ar": "لِي عَمٌّ وَاحِدٌ." } ],
+      "answer": 0,
+      "explain": "{ar|عَمٌّ} (oncle paternel) → {ar|عَمَّانِ}. {ar|عَمَّتَانِ} serait « deux tantes paternelles »."
+    },
+    {
+      "id": "medine-t1.l18.practice-3#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ مَطْعَمًا فِي هٰذَا الشَّارِعِ؟",
+      "answers": ["فِي هٰذَا الشَّارِعِ مَطْعَمَانِ.", "مَطْعَمَانِ."],
+      "fr": "Il y a deux restaurants dans cette rue.",
+      "instruction": "Réponds : « il y a deux restaurants dans cette rue »."
+    },
+    {
+      "id": "medine-t1.l18.practice-3#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai deux frères et deux sœurs.",
+      "answers": ["لِي أَخَوَانِ وَأُخْتَانِ."]
+    }
+  ]
+}

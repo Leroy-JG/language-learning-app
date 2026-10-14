@@ -1,0 +1,17 @@
+{
+  "id": "medine-t1.l18",
+  "number": 18,
+  "title": { "ar": "الدَّرْسُ الثَّامِنَ عَشَرَ", "fr": "Le duel et « combien ? »" },
+  "description": "Parler de deux êtres ou de deux choses avec le duel, dire « ces deux… » avec {ar|هٰذَانِ} et {ar|هَاتَانِ}, demander « combien ? » avec {ar|كَمْ}, et lire les deux textes du livre.",
+  "source": "Tome de Médine 1, leçon 18",
+  "sections": [
+    { "title": "Le duel", "activities": ["grammar-1", "grammar-2"] },
+    { "title": "Au restaurant", "activities": ["vocab-1", "vocab-2", "vocab-3"] },
+    { "title": "Les fêtes, le quartier et la classe", "activities": ["vocab-4", "vocab-5", "plurals-1"] },
+    { "title": "Ces deux… : {ar|هٰذَانِ} et {ar|هَاتَانِ}", "activities": ["grammar-3", "grammar-4", "practice-1"] },
+    { "title": "Combien ? {ar|كَمْ}", "activities": ["grammar-5", "practice-2"] },
+    { "title": "Lis et écris", "activities": ["practice-3", "practice-4"] },
+    { "title": "Le texte du livre", "activities": ["dialogue-1", "dialogue-2"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

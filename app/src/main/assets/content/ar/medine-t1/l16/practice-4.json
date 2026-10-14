@@ -1,0 +1,89 @@
+{
+  "id": "medine-t1.l16.practice-4",
+  "type": "grammar",
+  "title": "Lis et écris",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t1.l16.practice-4#1",
+      "type": "tip",
+      "title": "Quatre questions",
+      "blocks": [
+        { "type": "paragraph", "text": "Pour mettre une phrase au pluriel, pose-toi ces quatre questions :" },
+        {
+          "type": "table",
+          "header": ["Question", "Ce que tu changes"],
+          "rows": [
+            ["Des personnes ou des choses ?", "le démonstratif"],
+            ["Quel pluriel ?", "le nom"],
+            ["Un adjectif ?", "au pluriel pour des personnes, au féminin singulier pour des choses"],
+            ["Un pronom ?", "{ar|هُمْ} ou {ar|هُنَّ} pour des personnes, {ar|هِيَ} pour des choses"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l16.practice-4#2",
+      "type": "question",
+      "prompt": { "fr": "Mets au pluriel : {ar|هٰذَا كِتَابٌ جَدِيدٌ. هُوَ مِنْ بَلْجِيكَا.}" },
+      "choices": [
+        { "ar": "هٰذِهِ كُتُبٌ جَدِيدَةٌ. هِيَ مِنْ بَلْجِيكَا." },
+        { "ar": "هَؤُلَاءِ كُتُبٌ جُدُدٌ. هُمْ مِنْ بَلْجِيكَا." },
+        { "ar": "هٰذِهِ كُتُبٌ جَدِيدٌ. هُوَ مِنْ بَلْجِيكَا." }
+      ],
+      "answer": 0,
+      "explain": "Des livres sont des choses : {ar|هٰذِهِ}, {ar|جَدِيدَةٌ} et {ar|هِيَ}."
+    },
+    {
+      "id": "medine-t1.l16.practice-4#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "هٰذَا طَالِبٌ جَدِيدٌ. هُوَ مِنْ بَلْجِيكَا.",
+      "answers": ["هَؤُلَاءِ طُلَّابٌ جُدُدٌ. هُمْ مِنْ بَلْجِيكَا."],
+      "fr": "Ceux-ci sont de nouveaux étudiants. Ils sont de Belgique.",
+      "instruction": "Mets les phrases au pluriel."
+    },
+    {
+      "id": "medine-t1.l16.practice-4#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "هٰذَا كِتَابٌ جَدِيدٌ. هُوَ مِنْ بَلْجِيكَا.",
+      "answers": ["هٰذِهِ كُتُبٌ جَدِيدَةٌ. هِيَ مِنْ بَلْجِيكَا."],
+      "fr": "Ce sont de nouveaux livres. Ils sont de Belgique.",
+      "instruction": "Mets les phrases au pluriel."
+    },
+    {
+      "id": "medine-t1.l16.practice-4#5",
+      "type": "order",
+      "fr": "Ceux-là sont de nouveaux médecins. Ils sont de Belgique.",
+      "answers": [["أُولَئِكَ", "أَطِبَّاءُ", "جُدُدٌ.", "هُمْ", "مِنْ", "بَلْجِيكَا"]],
+      "punctuation": ".",
+      "distractors": ["هِيَ"]
+    },
+    {
+      "id": "medine-t1.l16.practice-4#6",
+      "type": "true_false",
+      "statement": { "fr": "Pour plusieurs étudiantes, le pronom est {ar|هُنَّ}." },
+      "answer": true,
+      "explain": "{ar|هُمْ} reprend des hommes (ou un groupe mixte) ; {ar|هُنَّ} reprend des femmes."
+    },
+    {
+      "id": "medine-t1.l16.practice-4#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "هٰذِهِ طَبِيبَةٌ. هِيَ مِنْ بَلْجِيكَا.",
+      "answers": ["هَؤُلَاءِ طَبِيبَاتٌ. هُنَّ مِنْ بَلْجِيكَا."],
+      "fr": "Celles-ci sont des femmes médecins. Elles sont de Belgique.",
+      "instruction": "Mets les phrases au pluriel."
+    },
+    {
+      "id": "medine-t1.l16.practice-4#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "هٰذِهِ سَيَّارَةٌ جَدِيدَةٌ. هِيَ مِنْ فَرَنْسَا.",
+      "answers": ["هٰذِهِ سَيَّارَاتٌ جَدِيدَةٌ. هِيَ مِنْ فَرَنْسَا."],
+      "fr": "Ce sont de nouvelles voitures. Elles sont de France.",
+      "instruction": "Mets les phrases au pluriel."
+    }
+  ]
+}

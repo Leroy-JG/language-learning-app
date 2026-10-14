@@ -1,0 +1,119 @@
+{
+  "id": "medine-t1.l17.practice-2",
+  "type": "grammar",
+  "title": "Des filles et des femmes",
+  "icon": "girl",
+  "screens": [
+    {
+      "id": "medine-t1.l17.practice-2#1",
+      "type": "tip",
+      "title": "Les exercices du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre demande deux choses : mettre au pluriel une phrase qui commence par {ar|هٰذِهِ}, et mettre au féminin une question adressée à plusieurs hommes."
+        },
+        { "type": "example", "ar": "هٰذِهِ بِنْتٌ.", "fr": "Voici une fille." },
+        { "type": "example", "ar": "هَؤُلَاءِ بَنَاتٌ.", "fr": "Voici des filles." },
+        { "type": "example", "ar": "أَأَنْتُمْ طُلَّابٌ؟", "fr": "Êtes-vous étudiants ?" },
+        { "type": "example", "ar": "أَأَنْتُنَّ طَالِبَاتٌ؟", "fr": "Êtes-vous étudiantes ?" }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.practice-2#2",
+      "type": "fill_gap",
+      "sentence": "هَؤُلَاءِ {0}.",
+      "fr": "Celles-ci sont des musulmanes.",
+      "gaps": [ { "answers": ["مُسْلِمَاتٌ"] } ],
+      "options": ["مُسْلِمَاتٌ", "مُسْلِمُونَ", "مُسْلِمَةٌ"],
+      "explain": "Plusieurs femmes : {ar|مُسْلِمَاتٌ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "هَؤُلَاءِ {0}.",
+      "fr": "Celles-ci sont des épouses.",
+      "gaps": [ { "answers": ["زَوْجَاتٌ"] } ],
+      "options": ["زَوْجَاتٌ", "زَوْجَةٌ", "طَالِبَاتٌ"],
+      "explain": "{ar|زَوْجَةٌ} (une épouse) → {ar|زَوْجَاتٌ} : on retire le {ar|ة} et on ajoute {ar|◌َاتٌ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-2#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "هٰذِهِ أُخْتٌ.",
+      "answers": ["هَؤُلَاءِ أَخَوَاتٌ."],
+      "fr": "Voici des sœurs.",
+      "instruction": "Mets la phrase au pluriel, comme dans le livre.",
+      "explain": "Le pluriel de {ar|أُخْتٌ} est {ar|أَخَوَاتٌ} : le mot change un peu avant {ar|◌َاتٌ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-2#5",
+      "type": "order",
+      "fr": "Celles-ci sont des jeunes filles.",
+      "answers": [["هَؤُلَاءِ", "فَتَيَاتٌ"]],
+      "punctuation": ".",
+      "explain": "{ar|فَتَاةٌ} → {ar|فَتَيَاتٌ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-2#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "هٰذِهِ طَالِبَةٌ جَدِيدَةٌ.",
+      "answers": ["هَؤُلَاءِ طَالِبَاتٌ جُدُدٌ.", "هَؤُلَاءِ طَالِبَاتٌ جَدِيدَاتٌ."],
+      "fr": "Voici de nouvelles étudiantes.",
+      "instruction": "Mets la phrase au pluriel.",
+      "explain": "L'adjectif se met au pluriel : {ar|جُدُدٌ} (pluriel irrégulier, comme pour les hommes) ou {ar|جَدِيدَاتٌ} (pluriel féminin régulier). Les deux sont possibles."
+    },
+    {
+      "id": "medine-t1.l17.practice-2#7",
+      "type": "sort",
+      "categories": [ { "fr": "des hommes (ou un groupe mixte)" }, { "fr": "des femmes" } ],
+      "cards": [
+        { "ar": "مُدَرِّسُونَ", "category": 0 },
+        { "ar": "مُدَرِّسَاتٌ", "category": 1 },
+        { "ar": "أَطِبَّاءُ", "category": 0 },
+        { "ar": "طَبِيبَاتٌ", "category": 1 },
+        { "ar": "إِخْوَةٌ", "category": 0 },
+        { "ar": "أَخَوَاتٌ", "category": 1 }
+      ],
+      "instruction": "Masculin ou féminin ?",
+      "explain": "Les pluriels en {ar|◌َاتٌ} désignent ici des femmes. {ar|أَطِبَّاءُ} et {ar|إِخْوَةٌ} désignent des hommes ou un groupe mixte."
+    },
+    {
+      "id": "medine-t1.l17.practice-2#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَأَنْتُمْ مُسْلِمُونَ؟",
+      "answers": ["أَأَنْتُنَّ مُسْلِمَاتٌ؟", "أَنْتُنَّ مُسْلِمَاتٌ؟"],
+      "fr": "Êtes-vous musulmanes ?",
+      "instruction": "Mets la question au féminin : tu parles à plusieurs femmes.",
+      "explain": "{ar|أَنْتُمْ} → {ar|أَنْتُنَّ} et {ar|مُسْلِمُونَ} → {ar|مُسْلِمَاتٌ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-2#9",
+      "type": "order",
+      "fr": "Êtes-vous les sœurs de Ḥāmid ? (à plusieurs femmes)",
+      "answers": [["أَأَنْتُنَّ", "أَخَوَاتُ", "حَامِدٍ"]],
+      "punctuation": "؟",
+      "explain": "Le livre demande : {ar|أَأَنْتُمْ إِخْوَةُ حَامِدٍ؟} Au féminin, {ar|إِخْوَةٌ} devient {ar|أَخَوَاتٌ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-2#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَأَنْتُمْ أَطِبَّاءُ؟",
+      "answers": ["أَأَنْتُنَّ طَبِيبَاتٌ؟", "أَنْتُنَّ طَبِيبَاتٌ؟"],
+      "fr": "Êtes-vous femmes médecins ?",
+      "instruction": "Mets la question au féminin : tu parles à plusieurs femmes.",
+      "explain": "Le féminin de {ar|أَطِبَّاءُ} est {ar|طَبِيبَاتٌ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Êtes-vous enseignantes ? (à plusieurs femmes)",
+      "answers": ["أَأَنْتُنَّ مُدَرِّسَاتٌ؟", "أَنْتُنَّ مُدَرِّسَاتٌ؟"]
+    }
+  ]
+}

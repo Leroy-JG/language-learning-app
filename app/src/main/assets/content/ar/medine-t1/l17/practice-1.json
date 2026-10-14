@@ -1,0 +1,114 @@
+{
+  "id": "medine-t1.l17.practice-1",
+  "type": "grammar",
+  "title": "Du singulier au pluriel : les hommes",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l17.practice-1#1",
+      "type": "tip",
+      "title": "L'exercice du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande de mettre au pluriel une dizaine de mots, tous de la même famille : des noms ou des adjectifs de personnes. La règle est toujours la même : on ajoute {ar|◌ُونَ}."
+        },
+        {
+          "type": "note",
+          "text": "Le professeur demande aussi de compléter des phrases dont le sujet est un pluriel, comme {ar|أَصْدِقَاءُ زَيْدٍ} : le mot qui complète est au pluriel, comme le sujet."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.practice-1#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "مُؤْمِنٌ",
+      "answers": ["مُؤْمِنُونَ"],
+      "fr": "croyants",
+      "instruction": "Écris le pluriel régulier masculin de ce mot.",
+      "explain": "On garde {ar|مُؤْمِنٌ}, on enlève le tanwin et on ajoute {ar|◌ُونَ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-1#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "صَادِقٌ",
+      "answers": ["صَادِقُونَ"],
+      "fr": "véridiques",
+      "instruction": "Écris le pluriel régulier masculin de ce mot."
+    },
+    {
+      "id": "medine-t1.l17.practice-1#4",
+      "type": "fill_gap",
+      "sentence": "أَصْدِقَاءُ زَيْدٍ {0}.",
+      "fr": "Les amis de Zayd sont sincères.",
+      "gaps": [ { "answers": ["مُخْلِصُونَ"] } ],
+      "options": ["مُخْلِصُونَ", "مُخْلِصٌ", "مُخْلِصَاتٌ"],
+      "explain": "{ar|أَصْدِقَاءُ} est un pluriel d'hommes : le mot qui le complète est au pluriel, {ar|مُخْلِصُونَ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-1#5",
+      "type": "sort",
+      "categories": [ { "fr": "singulier" }, { "fr": "pluriel" } ],
+      "cards": [
+        { "ar": "مُؤْمِنُونَ", "category": 1 },
+        { "ar": "كَافِرٌ", "category": 0 },
+        { "ar": "حَافِظُونَ", "category": 1 },
+        { "ar": "خَائِفٌ", "category": 0 },
+        { "ar": "مُخْلِصُونَ", "category": 1 },
+        { "ar": "صَادِقٌ", "category": 0 }
+      ],
+      "instruction": "Ce mot est-il au singulier ou au pluriel ?",
+      "explain": "Les trois mots en {ar|◌ُونَ} sont des pluriels. Les trois autres sont des singuliers."
+    },
+    {
+      "id": "medine-t1.l17.practice-1#6",
+      "type": "fill_gap",
+      "sentence": "الرِّجَالُ {0}.",
+      "fr": "Les hommes ont peur.",
+      "gaps": [ { "answers": ["خَائِفُونَ"] } ],
+      "options": ["خَائِفُونَ", "خَائِفٌ", "خَائِفَاتٌ"],
+      "explain": "{ar|الرِّجَالُ} est un pluriel d'hommes : {ar|خَائِفُونَ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-1#7",
+      "type": "spot",
+      "instruction": "Touche les deux pluriels réguliers masculins.",
+      "words": ["الْمُسْلِمُونَ", "وَالْمُؤْمِنُونَ", "فِي", "الْمَسْجِدِ."],
+      "answers": [0, 1],
+      "fr": "Les musulmans et les croyants sont dans la mosquée."
+    },
+    {
+      "id": "medine-t1.l17.practice-1#8",
+      "type": "order",
+      "fr": "Les croyants sont véridiques.",
+      "answers": [["الْمُؤْمِنُونَ", "صَادِقُونَ"]],
+      "punctuation": ".",
+      "explain": "Le sujet et le mot qui le complète sont tous deux au pluriel."
+    },
+    {
+      "id": "medine-t1.l17.practice-1#9",
+      "type": "fill_gap",
+      "sentence": "أَبْنَاءُ يَاسِرٍ {0}.",
+      "fr": "Les fils de Yāsir sont studieux.",
+      "gaps": [ { "answers": ["مُجْتَهِدُونَ"] } ],
+      "options": ["مُجْتَهِدُونَ", "مُجْتَهِدٌ", "مُجْتَهِدَاتٌ"],
+      "explain": "{ar|أَبْنَاءُ} : des fils ; le mot qui les décrit est au pluriel masculin, {ar|مُجْتَهِدُونَ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les musulmans sont véridiques.",
+      "answers": ["الْمُسْلِمُونَ صَادِقُونَ."]
+    },
+    {
+      "id": "medine-t1.l17.practice-1#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les croyants sont dans la mosquée.",
+      "answers": ["الْمُؤْمِنُونَ فِي الْمَسْجِدِ."]
+    }
+  ]
+}

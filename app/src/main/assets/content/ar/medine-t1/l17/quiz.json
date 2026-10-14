@@ -1,0 +1,129 @@
+{
+  "id": "medine-t1.l17.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 17",
+  "screens": [
+    {
+      "id": "medine-t1.l17.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:jam-taksir",
+      "distractors": ["w:jam-salim", "w:muthanna"]
+    },
+    {
+      "id": "medine-t1.l17.quiz#2",
+      "type": "sort",
+      "categories": [ { "fr": "masculin régulier" }, { "fr": "féminin régulier" }, { "fr": "irrégulier" } ],
+      "cards": [
+        { "ar": "مُهَنْدِسُونَ", "category": 0 },
+        { "ar": "مُمَرِّضَاتٌ", "category": 1 },
+        { "ar": "مَطَاعِمُ", "category": 2 },
+        { "ar": "كَافِرُونَ", "category": 0 },
+        { "ar": "سَيَّارَاتٌ", "category": 1 },
+        { "ar": "أَقْلَامٌ", "category": 2 }
+      ],
+      "instruction": "Quel type de pluriel est-ce ?",
+      "explain": "{ar|◌ُونَ} : masculin régulier ; {ar|◌َاتٌ} : féminin régulier ; quand le mot lui-même change ({ar|مَطَاعِمُ}, {ar|أَقْلَامٌ}) : irrégulier."
+    },
+    {
+      "id": "medine-t1.l17.quiz#3",
+      "type": "fill_gap",
+      "sentence": "أُحِبُّ {0}.",
+      "fr": "J'aime les croyants.",
+      "gaps": [ { "answers": ["الْمُؤْمِنِينَ"] } ],
+      "options": ["الْمُؤْمِنِينَ", "الْمُؤْمِنُونَ", "الْمُؤْمِنَاتِ"],
+      "explain": "{ar|الْمُؤْمِنِينَ} est l'objet de {ar|أُحِبُّ} : accusatif, donc {ar|◌ِينَ}. {ar|الْمُؤْمِنَاتِ} serait des femmes."
+    },
+    {
+      "id": "medine-t1.l17.quiz#4",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel régulier féminin de {ar|زَوْجَةٌ} (une épouse) ?" },
+      "choices": [ { "ar": "زَوْجَاتٌ" }, { "ar": "أَزْوَاجٌ" }, { "ar": "مَوَاعِيدُ" } ],
+      "answer": 0,
+      "explain": "{ar|زَوْجَاتٌ} : on retire le {ar|ة} et on ajoute {ar|◌َاتٌ}. {ar|أَزْوَاجٌ} est irrégulier."
+    },
+    {
+      "id": "medine-t1.l17.quiz#5",
+      "type": "spot",
+      "instruction": "Touche le pluriel qui est à l'accusatif (objet du verbe).",
+      "words": ["أُحِبُّ", "الْمُؤْمِنَاتِ", "فِي", "الْمَسْجِدِ."],
+      "answers": [1],
+      "fr": "J'aime les croyantes dans la mosquée.",
+      "explain": "{ar|الْمُؤْمِنَاتِ} est l'objet de {ar|أُحِبُّ} : accusatif, avec la kasra."
+    },
+    {
+      "id": "medine-t1.l17.quiz#6",
+      "type": "true_false",
+      "statement": { "fr": "Le {ar|نَ} final du pluriel masculin régulier porte toujours une fatha." },
+      "answer": true,
+      "explain": "Oui : il ne change jamais. Le cas se lit sur la lettre qui le précède, {ar|و} ou {ar|ي}."
+    },
+    {
+      "id": "medine-t1.l17.quiz#7",
+      "type": "order",
+      "fr": "Les chauffeurs sont à la gare routière.",
+      "answers": [["السُّوَّاقُ", "فِي", "مَحَطَّةِ", "الْحَافِلَاتِ"]],
+      "punctuation": ".",
+      "explain": "{ar|السُّوَّاقُ} est le pluriel irrégulier de {ar|سَائِقٌ}."
+    },
+    {
+      "id": "medine-t1.l17.quiz#8",
+      "type": "question",
+      "prompt": { "fr": "Un pluriel de choses est suivi d'un adjectif…" },
+      "choices": [ { "fr": "au féminin" }, { "fr": "au pluriel masculin en {ar|◌ُونَ}" }, { "fr": "au duel" } ],
+      "answer": 0,
+      "explain": "Pour des choses, l'adjectif se met en général au féminin singulier : {ar|كُتُبٌ جَدِيدَةٌ}."
+    },
+    { "id": "medine-t1.l17.quiz#9", "type": "typing", "ask": "fr", "fr": "des sociétés", "answers": ["شَرِكَاتٌ"] },
+    {
+      "id": "medine-t1.l17.quiz#10",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:rakiba",
+      "distractors": ["w:nazala", "w:wasala"]
+    },
+    {
+      "id": "medine-t1.l17.quiz#11",
+      "type": "fill_gap",
+      "sentence": "{0} الْجِبَالُ بَعِيدَةٌ.",
+      "fr": "Ces montagnes-là sont loin.",
+      "gaps": [ { "answers": ["تِلْكَ"] } ],
+      "options": ["تِلْكَ", "ذٰلِكَ", "هٰذِهِ"],
+      "explain": "Des montagnes (des choses) : le démonstratif est au féminin, et « là-bas » se dit {ar|تِلْكَ}."
+    },
+    {
+      "id": "medine-t1.l17.quiz#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Que la paix soit sur les croyants.",
+      "answers": ["السَّلَامُ عَلَى الْمُؤْمِنِينَ."]
+    },
+    {
+      "id": "medine-t1.l17.quiz#13",
+      "type": "true_false",
+      "statement": { "fr": "Un pluriel irrégulier se termine toujours par une damma." },
+      "answer": false,
+      "explain": "Faux : il se décline comme un nom ordinaire. Damma, fatha ou kasra selon son rôle dans la phrase."
+    },
+    {
+      "id": "medine-t1.l17.quiz#14",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:mahatta", "w:sharika", "w:jabal", "w:nahr", "w:taira"]
+    },
+    {
+      "id": "medine-t1.l17.quiz#15",
+      "type": "order",
+      "fr": "Zayd est descendu du bus.",
+      "answers": [["نَزَلَ", "زَيْدٌ", "مِنَ", "الْحَافِلَةِ"], ["زَيْدٌ", "نَزَلَ", "مِنَ", "الْحَافِلَةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l17.quiz#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les croyantes sont dans la mosquée.",
+      "answers": ["الْمُؤْمِنَاتُ فِي الْمَسْجِدِ."]
+    }
+  ]
+}

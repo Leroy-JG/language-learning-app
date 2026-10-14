@@ -1,0 +1,18 @@
+{
+  "id": "medine-t1.l17",
+  "number": 17,
+  "title": { "ar": "الدَّرْسُ السَّابِعَ عَشَرَ", "fr": "Le pluriel : régulier et irrégulier" },
+  "description": "Comprendre les deux sortes de pluriel : le pluriel régulier masculin ({ar|◌ُونَ} / {ar|◌ِينَ}) et féminin ({ar|◌َاتٌ}), le pluriel irrégulier et celui des choses ; lire comment la dernière lettre change selon le rôle du mot ; apprendre le vocabulaire du bus, de la gare et de la rue.",
+  "source": "Tome de Médine 1, leçon 17",
+  "sections": [
+    { "title": "Rappel : un seul, plusieurs", "activities": ["recap"] },
+    { "title": "Un, deux, plusieurs", "activities": ["grammar-1"] },
+    { "title": "Le bus, la gare et les prix", "activities": ["vocab-1", "vocab-2"] },
+    { "title": "Le pluriel masculin régulier", "activities": ["grammar-2", "vocab-3", "grammar-3", "practice-1"] },
+    { "title": "Le pluriel féminin régulier", "activities": ["vocab-4", "grammar-4", "grammar-5", "practice-2"] },
+    { "title": "Le pluriel irrégulier", "activities": ["grammar-6", "grammar-7", "practice-3", "plurals-1"] },
+    { "title": "Zayd dans le bus", "activities": ["vocab-5", "dialogue-1", "dialogue-2"] },
+    { "title": "Lis et écris", "activities": ["practice-4", "practice-5", "practice-6"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

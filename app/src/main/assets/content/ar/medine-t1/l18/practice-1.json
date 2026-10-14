@@ -1,0 +1,111 @@
+{
+  "id": "medine-t1.l18.practice-1",
+  "type": "grammar",
+  "title": "Au duel !",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t1.l18.practice-1#1",
+      "type": "tip",
+      "title": "L'exercice du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans le livre, on demande de mettre le sujet de chaque phrase au duel. Le démonstratif, le nom et l'attribut passent **tous** au duel."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "هٰذَا كِتَابٌ.", "fr": "Ceci est un livre." },
+              "to": { "ar": "هٰذَانِ كِتَابَانِ.", "fr": "Ce sont deux livres." }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l18.practice-1#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "هٰذَا قَلَمٌ.",
+      "answers": ["هٰذَانِ قَلَمَانِ."],
+      "fr": "Ce sont deux stylos.",
+      "instruction": "Mets la phrase au duel."
+    },
+    {
+      "id": "medine-t1.l18.practice-1#3",
+      "type": "order",
+      "fr": "Celles-ci sont deux règles.",
+      "answers": [["هَاتَانِ", "مِسْطَرَتَانِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l18.practice-1#4",
+      "type": "fill_gap",
+      "sentence": "{0} {1}.",
+      "fr": "Ceux-ci sont deux étudiants.",
+      "gaps": [ { "answers": ["هٰذَانِ"] }, { "answers": ["طَالِبَانِ"] } ],
+      "options": ["هٰذَانِ", "طَالِبَانِ", "هٰذَا", "طَالِبٌ"],
+      "explain": "Le démonstratif et le nom passent au duel : {ar|هٰذَانِ طَالِبَانِ}."
+    },
+    {
+      "id": "medine-t1.l18.practice-1#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "هٰذِهِ طَالِبَةٌ.",
+      "answers": ["هَاتَانِ طَالِبَتَانِ."],
+      "fr": "Celles-ci sont deux étudiantes.",
+      "instruction": "Mets la phrase au duel."
+    },
+    {
+      "id": "medine-t1.l18.practice-1#6",
+      "type": "order",
+      "fr": "Ces deux hommes sont enseignants.",
+      "answers": [["هٰذَانِ", "الرَّجُلَانِ", "مُدَرِّسَانِ"]],
+      "punctuation": ".",
+      "explain": "L'attribut aussi passe au duel : {ar|مُدَرِّسَانِ}."
+    },
+    {
+      "id": "medine-t1.l18.practice-1#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "هٰذَا الطَّالِبُ مِنَ الْهِنْدِ.",
+      "answers": ["هٰذَانِ الطَّالِبَانِ مِنَ الْهِنْدِ."],
+      "fr": "Ces deux étudiants viennent de l'Inde.",
+      "instruction": "Mets la phrase au duel."
+    },
+    {
+      "id": "medine-t1.l18.practice-1#8",
+      "type": "fill_gap",
+      "sentence": "{0} {1} لِلْمُدِيرِ.",
+      "fr": "Ces deux voitures sont au directeur.",
+      "gaps": [ { "answers": ["هَاتَانِ"] }, { "answers": ["السَّيَّارَتَانِ"] } ],
+      "options": ["هَاتَانِ", "السَّيَّارَتَانِ", "هٰذَانِ", "السَّيَّارَةُ"],
+      "explain": "{ar|سَيَّارَةٌ} est féminin : {ar|هَاتَانِ السَّيَّارَتَانِ}."
+    },
+    {
+      "id": "medine-t1.l18.practice-1#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَنْ هٰذَا الْمِفْتَاحُ؟",
+      "answers": ["لِمَنْ هٰذَانِ الْمِفْتَاحَانِ؟"],
+      "fr": "À qui sont ces deux clés ?",
+      "instruction": "Mets la phrase au duel."
+    },
+    {
+      "id": "medine-t1.l18.practice-1#10",
+      "type": "order",
+      "fr": "À qui sont ces deux cuillères ?",
+      "answers": [["لِمَنْ", "هَاتَانِ", "الْمِلْعَقَتَانِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t1.l18.practice-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ces deux montres viennent du Japon.",
+      "answers": ["هَاتَانِ السَّاعَتَانِ مِنَ الْيَابَانِ."]
+    }
+  ]
+}

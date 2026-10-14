@@ -1,0 +1,270 @@
+[
+  {
+    "id": "w:muthanna",
+    "kind": "word",
+    "ar": "الْمُثَنَّى",
+    "fr": "le duel",
+    "translit": "al-muthannā",
+    "gender": "m",
+    "note": "Le duel désigne **exactement deux** êtres ou deux choses. Tu en connais déjà des pronoms : {ar|هُمَا} et {ar|أَنْتُمَا} (chapitre 10)."
+  },
+  {
+    "id": "w:jam-salim",
+    "kind": "word",
+    "ar": "الْجَمْعُ السَّالِمُ",
+    "fr": "le pluriel régulier",
+    "translit": "al-jamʿu s-sālimu",
+    "gender": "m",
+    "note": "{ar|سَالِمٌ} veut dire « intact, sain » : le début du mot reste intact, seule sa fin change (on ajoute une terminaison)."
+  },
+  {
+    "id": "w:jam-mudhakkar-salim",
+    "kind": "word",
+    "ar": "جَمْعُ الْمُذَكَّرِ السَّالِمُ",
+    "fr": "le pluriel masculin régulier",
+    "translit": "jamʿu l-mudhakkari s-sālimu",
+    "gender": "m",
+    "note": "Le pluriel en {ar|◌ُونَ} / {ar|◌ِينَ}.",
+    "example": { "ar": "الْمُسْلِمُونَ فِي الْمَسْجِدِ.", "fr": "Les musulmans sont dans la mosquée." }
+  },
+  {
+    "id": "w:jam-muannath-salim",
+    "kind": "word",
+    "ar": "جَمْعُ الْمُؤَنَّثِ السَّالِمُ",
+    "fr": "le pluriel féminin régulier",
+    "translit": "jamʿu l-muʾannathi s-sālimu",
+    "gender": "m",
+    "note": "Le pluriel en {ar|◌َاتٌ}.",
+    "example": { "ar": "الْمُسْلِمَاتُ فِي الْمَسْجِدِ.", "fr": "Les musulmanes sont dans la mosquée." }
+  },
+  {
+    "id": "w:jam-taksir",
+    "kind": "word",
+    "ar": "جَمْعُ التَّكْسِيرِ",
+    "fr": "le pluriel irrégulier (brisé)",
+    "translit": "jamʿu t-taksīri",
+    "gender": "m",
+    "note": "On dit « brisé » parce que la forme du singulier est « brisée » : des lettres s'ajoutent, disparaissent ou changent de voyelle. {ar|كُتُبٌ}, {ar|مَسَاجِدُ}, {ar|حُجَّاجٌ} en sont des exemples."
+  },
+  {
+    "id": "w:muamin",
+    "kind": "word",
+    "ar": "مُؤْمِنٌ",
+    "fr": "croyant",
+    "translit": "muʾminun",
+    "plural": "مُؤْمِنُونَ",
+    "note": "Au féminin : {ar|مُؤْمِنَةٌ}, pluriel {ar|مُؤْمِنَاتٌ}.",
+    "example": { "ar": "الْمُؤْمِنُونَ فِي الْمَسْجِدِ.", "fr": "Les croyants sont dans la mosquée." }
+  },
+  {
+    "id": "w:kafir",
+    "kind": "word",
+    "ar": "كَافِرٌ",
+    "fr": "incroyant",
+    "translit": "kāfirun",
+    "plural": "كَافِرُونَ",
+    "note": "Le contraire de {ar|مُؤْمِنٌ}."
+  },
+  {
+    "id": "w:sadiq-2",
+    "kind": "word",
+    "ar": "صَادِقٌ",
+    "fr": "véridique",
+    "translit": "ṣādiqun",
+    "plural": "صَادِقُونَ",
+    "note": "Même racine que {ar|صَدِيقٌ} (« un ami »), mais ne les confonds pas : {ar|صَادِقٌ} a un alif, {ar|صَدِيقٌ} a un {ar|ي}.",
+    "example": { "ar": "زَيْدٌ صَادِقٌ.", "fr": "Zayd est véridique." }
+  },
+  {
+    "id": "w:khaif",
+    "kind": "word",
+    "ar": "خَائِفٌ",
+    "fr": "qui a peur",
+    "translit": "khāʾifun",
+    "plural": "خَائِفُونَ",
+    "example": { "ar": "الطِّفْلُ خَائِفٌ.", "fr": "L'enfant a peur." }
+  },
+  {
+    "id": "w:mukhlis",
+    "kind": "word",
+    "ar": "مُخْلِصٌ",
+    "fr": "sincère, loyal",
+    "translit": "mukhliṣun",
+    "plural": "مُخْلِصُونَ",
+    "example": { "ar": "مُحَمَّدٌ صَدِيقٌ مُخْلِصٌ.", "fr": "Muḥammad est un ami sincère." }
+  },
+  {
+    "id": "w:hafiz",
+    "kind": "word",
+    "ar": "حَافِظٌ",
+    "fr": "qui a mémorisé",
+    "translit": "ḥāfiẓun",
+    "plural": "حَافِظُونَ",
+    "note": "Il vient de {ar|حَفِظَ} (« il a mémorisé »). {ar|حَافِظُ الْقُرْآنِ} : celui qui sait le Coran par cœur."
+  },
+  {
+    "id": "w:hafila",
+    "kind": "word",
+    "ar": "حَافِلَةٌ",
+    "fr": "un bus",
+    "translit": "ḥāfilatun",
+    "plural": "حَافِلَاتٌ",
+    "gender": "f",
+    "note": "Dans la vie courante, on entend aussi {ar|بَاصٌ} (de l'anglais « bus »).",
+    "example": { "ar": "الْحَافِلَةُ سَرِيعَةٌ.", "fr": "Le bus est rapide." }
+  },
+  {
+    "id": "w:mahatta",
+    "kind": "word",
+    "ar": "مَحَطَّةٌ",
+    "fr": "une gare, une station",
+    "translit": "maḥaṭṭatun",
+    "plural": "مَحَطَّاتٌ",
+    "gender": "f",
+    "example": { "ar": "مَحَطَّةُ الْحَافِلَاتِ خَلْفَ الْمَسْجِدِ.", "fr": "La gare routière est derrière la mosquée." }
+  },
+  {
+    "id": "w:mawid",
+    "kind": "word",
+    "ar": "مَوْعِدٌ",
+    "fr": "un rendez-vous",
+    "translit": "mawʿidun",
+    "plural": "مَوَاعِيدُ",
+    "gender": "m",
+    "example": { "ar": "مَوْعِدُنَا يَوْمُ الْأَحَدِ.", "fr": "Notre rendez-vous est dimanche." }
+  },
+  {
+    "id": "w:muhaddad",
+    "kind": "word",
+    "ar": "مُحَدَّدٌ",
+    "fr": "fixé, déterminé",
+    "translit": "muḥaddadun",
+    "note": "Il vient du verbe {ar|حَدَّدَ} (« fixer »).",
+    "example": { "ar": "الْمَوْعِدُ الْمُحَدَّدُ يَوْمُ الْخَمِيسِ.", "fr": "Le rendez-vous fixé est jeudi." }
+  },
+  {
+    "id": "w:saiq",
+    "kind": "word",
+    "ar": "سَائِقٌ",
+    "fr": "un chauffeur, un conducteur",
+    "translit": "sāʾiqun",
+    "plural": "سُوَّاقٌ",
+    "gender": "m",
+    "note": "On dit aussi {ar|سَائِقُونَ} (pluriel régulier).",
+    "example": { "ar": "السَّائِقُ فِي الْحَافِلَةِ.", "fr": "Le chauffeur est dans le bus." }
+  },
+  {
+    "id": "w:sharika",
+    "kind": "word",
+    "ar": "شَرِكَةٌ",
+    "fr": "une société, une entreprise",
+    "translit": "sharikatun",
+    "plural": "شَرِكَاتٌ",
+    "gender": "f",
+    "example": { "ar": "هٰذَا الرَّجُلُ مُدِيرُ الشَّرِكَةِ.", "fr": "Cet homme est le directeur de la société." }
+  },
+  {
+    "id": "w:rakhis",
+    "kind": "word",
+    "ar": "رَخِيصٌ",
+    "fr": "bon marché, pas cher",
+    "translit": "rakhīṣun",
+    "note": "Au féminin : {ar|رَخِيصَةٌ}.",
+    "example": { "ar": "هٰذِهِ السَّاعَةُ رَخِيصَةٌ.", "fr": "Cette montre est bon marché." }
+  },
+  {
+    "id": "w:ghali",
+    "kind": "word",
+    "ar": "غَالٍ",
+    "fr": "cher, coûteux",
+    "translit": "ghālin",
+    "note": "Le {ar|ي} final disparaît sous le tanwin ({ar|غَالٍ}, comme {ar|مَكَاوٍ}) ; avec l'article, il revient : {ar|الْغَالِي}. Au féminin : {ar|غَالِيَةٌ}.",
+    "example": { "ar": "هٰذِهِ السَّاعَةُ غَالِيَةٌ.", "fr": "Cette montre est chère." }
+  },
+  {
+    "id": "w:kathir",
+    "kind": "word",
+    "ar": "كَثِيرٌ",
+    "fr": "nombreux",
+    "translit": "kathīrun",
+    "note": "Au pluriel de choses, l'adjectif se met en général au féminin singulier : {ar|كَثِيرَةٌ}.",
+    "example": { "ar": "فِي الْهِنْدِ لُغَاتٌ كَثِيرَةٌ.", "fr": "En Inde, il y a de nombreuses langues." }
+  },
+  {
+    "id": "w:zawja",
+    "kind": "word",
+    "ar": "زَوْجَةٌ",
+    "fr": "une épouse",
+    "translit": "zawjatun",
+    "plural": "زَوْجَاتٌ",
+    "gender": "f",
+    "note": "{ar|زَوْجٌ} (chapitre 10) sert pour l'époux comme pour l'épouse ; {ar|زَوْجَةٌ} précise que c'est une femme."
+  },
+  {
+    "id": "w:intazara",
+    "kind": "word",
+    "ar": "اِنْتَظَرَ",
+    "fr": "il a attendu (attendre)",
+    "translit": "intaẓara",
+    "note": "L'objet est à l'accusatif : {ar|اِنْتَظَرَ زَيْدٌ مُحَمَّدًا}.",
+    "example": { "ar": "اِنْتَظَرَ زَيْدٌ مُحَمَّدًا.", "fr": "Zayd a attendu Muḥammad." }
+  },
+  {
+    "id": "w:aqbala",
+    "kind": "word",
+    "ar": "أَقْبَلَ",
+    "fr": "il s'est approché (s'approcher, venir vers)",
+    "translit": "aqbala",
+    "example": { "ar": "أَقْبَلَ الْمُدَرِّسُ.", "fr": "L'enseignant s'est approché." }
+  },
+  {
+    "id": "w:wasala",
+    "kind": "word",
+    "ar": "وَصَلَ",
+    "fr": "il est arrivé (arriver, atteindre)",
+    "translit": "waṣala",
+    "example": { "ar": "وَصَلَ زَيْدٌ إِلَى الْمَدْرَسَةِ.", "fr": "Zayd est arrivé à l'école." }
+  },
+  {
+    "id": "w:sara",
+    "kind": "word",
+    "ar": "سَارَ",
+    "fr": "il a avancé (avancer, circuler)",
+    "translit": "sāra",
+    "example": { "ar": "سَارَ السَّائِقُ فِي الشَّارِعِ.", "fr": "Le chauffeur a avancé dans la rue." }
+  },
+  {
+    "id": "w:masha",
+    "kind": "word",
+    "ar": "مَشَى",
+    "fr": "il a marché (marcher)",
+    "translit": "mashā",
+    "example": { "ar": "مَشَى زَيْدٌ إِلَى الْمَدْرَسَةِ.", "fr": "Zayd a marché jusqu'à l'école." }
+  },
+  {
+    "id": "w:rakiba",
+    "kind": "word",
+    "ar": "رَكِبَ",
+    "fr": "il est monté (monter dans un véhicule)",
+    "translit": "rakiba",
+    "note": "L'objet est à l'accusatif : {ar|رَكِبَ زَيْدٌ الْحَافِلَةَ}.",
+    "example": { "ar": "رَكِبَ زَيْدٌ الْحَافِلَةَ.", "fr": "Zayd est monté dans le bus." }
+  },
+  {
+    "id": "w:nazala",
+    "kind": "word",
+    "ar": "نَزَلَ",
+    "fr": "il est descendu (descendre)",
+    "translit": "nazala",
+    "example": { "ar": "نَزَلَ الطُّلَّابُ مِنَ الْحَافِلَةِ.", "fr": "Les étudiants sont descendus du bus." }
+  },
+  {
+    "id": "w:radda",
+    "kind": "word",
+    "ar": "رَدَّ",
+    "fr": "il a répondu (répondre, répliquer)",
+    "translit": "radda",
+    "note": "On dit {ar|رَدَّ عَلَى} : « répondre à ».",
+    "example": { "ar": "رَدَّ زَيْدٌ عَلَى مُحَمَّدٍ.", "fr": "Zayd a répondu à Muḥammad." }
+  }
+]

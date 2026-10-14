@@ -20,5 +20,6 @@ car 1F697 · bag 1F4BC · notebook 1F4D3 · girl 1F467 · elder 1F474 · road 1F
 bicycle 1F6B2 · spoon 1F944 · window 1FA9F · ear 1F442 · nose 1F443 · leg 1F9B5
 cow 1F404 · farmer 1F9D1-200D-1F33E · tea 1FAD6 · hen 1F414 · pot 1F372
 duck 1F986 · egg 1F95A · tree 1F333
+airplane 2708 · hotel 1F3E8 · mountain 26F0 · sea 1F30A
 
 Images de l'interface : ui_flag 1F3C1 · ui_trophy 1F3C6
