@@ -16,7 +16,7 @@
     "translit": "ʿadadun",
     "plural": "أَعْدَادٌ",
     "gender": "m",
-    "note": "En grammaire, {ar|الْعَدَدُ} (avec l'article) est « le nombre » : par exemple {ar|ثَلَاثَةٌ} dans {ar|ثَلَاثَةُ كُتُبٍ}. Le mot vient du verbe {ar|عَدَّ} (« il a compté »).",
+    "note": "En grammaire, {ar|الْعَدَدُ} (avec l'article) est « le nombre » : par exemple {ar|ثَلَاثَةٌ} dans {ar|ثَلَاثَةُ كُتُبٍ}. Le mot vient du verbe {ar|عَدَّ} (« il a compté »). Ne le confonds pas avec « le nombre » du chapitre 18 (singulier, duel, pluriel) : ici, il s'agit des nombres qu'on compte (un, deux, trois…).",
     "example": { "ar": "مَا عَدَدُ الطُّلَّابِ؟", "fr": "Quel est le nombre d'étudiants ?" }
   },
   {
