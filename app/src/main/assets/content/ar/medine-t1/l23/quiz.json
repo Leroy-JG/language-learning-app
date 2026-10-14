@@ -38,7 +38,7 @@
         { "ar": "فِي الْبَيْتِ", "category": 1 }
       ],
       "instruction": "Quelle est la fin du dernier mot ?",
-      "explain": "Un nom sans tanwin et sans article prend la fatha. Avec l'article, tout nom a la kasra."
+      "explain": "Un nom sans tanwin et sans article prend la fatha. Avec l'article, ces noms prennent la kasra."
     },
     {
       "id": "medine-t1.l23.quiz#5",
@@ -50,7 +50,7 @@
     {
       "id": "medine-t1.l23.quiz#6",
       "type": "spot",
-      "instruction": "Touche le nom sans tanwin.",
+      "instruction": "Touche le prénom qui n'a pas de tanwin.",
       "words": ["أَيْنَ", "زَوْجُ", "خَدِيجَةَ؟"],
       "answers": [2],
       "fr": "Où est l'époux de Khadīja ?",

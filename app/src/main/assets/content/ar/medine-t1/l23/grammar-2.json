@@ -57,7 +57,7 @@
         { "type": "example", "ar": "ذَهَبَ إِلَى الرِّيَاضِ.", "fr": "Il est allé à Riyad." },
         {
           "type": "paragraph",
-          "text": "Dans {ar|مَكَّةَ}, aucun article : fatha. Dans {ar|الرِّيَاضِ}, l'article est là : kasra, comme pour n'importe quel nom."
+          "text": "Dans {ar|مَكَّةَ}, aucun article : fatha. Dans {ar|الرِّيَاضِ}, l'article est là : kasra, comme pour un nom ordinaire."
         },
         {
           "type": "note",
@@ -104,7 +104,7 @@
     {
       "id": "medine-t1.l23.grammar-2#6",
       "type": "spot",
-      "instruction": "Touche les deux noms sans tanwin.",
+      "instruction": "Touche les deux noms de villes.",
       "words": ["ذَهَبَ", "أَبِي", "إِلَى", "مَكَّةَ", "وَذَهَبَ", "عَمِّي", "إِلَى", "جُدَّةَ."],
       "answers": [3, 7],
       "fr": "Mon père est allé à La Mecque et mon oncle paternel est allé à Djeddah.",
