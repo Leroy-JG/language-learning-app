@@ -1,0 +1,226 @@
+{
+  "id": "medine-t1.l19.grammar-2",
+  "type": "grammar",
+  "title": "Le nombre est de genre contraire",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t1.l19.grammar-2#1",
+      "type": "tip",
+      "title": "Une surprise : le genre contraire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici la surprise de cette leçon : de 3 à 10, **le nombre est de genre contraire à celui du dénombré**."
+        },
+        {
+          "type": "table",
+          "header": ["Le dénombré est…", "Le nombre a…", "Exemple"],
+          "rows": [
+            ["masculin", "la forme avec {ar|ة}", "{ar|ثَلَاثَةُ كُتُبٍ} (trois livres)"],
+            ["féminin", "la forme sans {ar|ة}", "{ar|ثَلَاثُ طَالِبَاتٍ} (trois étudiantes)"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Pour retenir : un dénombré masculin appelle le {ar|ة} (signe du féminin), un dénombré féminin n'en veut pas. Pense « contraire »."
+        },
+        {
+          "type": "note",
+          "text": "Quand on récite les nombres sans nom (un, deux, trois…), on emploie la forme qu'on utilise avec un dénombré masculin, celle en {ar|ة} : {ar|ثَلَاثَةٌ}, {ar|أَرْبَعَةٌ}…"
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.grammar-2#2",
+      "type": "tip",
+      "title": "Les deux phrases du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans les phrases du livre, les grammairiens disent : le dénombré est au masculin, donc le nombre est « féminin » (il a un {ar|ة}) ; le dénombré est au féminin, donc le nombre est « masculin » (il n'a pas de {ar|ة}). Le masculin se dit {ar|الْمُذَكَّرُ} et le féminin {ar|الْمُؤَنَّثُ} (chapitre 6)."
+        },
+        {
+          "type": "example",
+          "ar": "لِي ثَلَاثَةُ كُتُبٍ.",
+          "fr": "J'ai trois livres. ({ar|كِتَابٌ} est masculin : le nombre prend le {ar|ة}.)"
+        },
+        {
+          "type": "example",
+          "ar": "فِي الْفَصْلِ ثَلَاثُ طَالِبَاتٍ.",
+          "fr": "Il y a trois étudiantes dans la classe. ({ar|طَالِبَةٌ} est féminin : le nombre perd le {ar|ة}.)"
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.grammar-2#3",
+      "type": "fill_gap",
+      "sentence": "فِي الْفَصْلِ {0} طَالِبَاتٍ.",
+      "fr": "Il y a trois étudiantes dans la classe.",
+      "gaps": [ { "answers": ["ثَلَاثُ"] } ],
+      "options": ["ثَلَاثُ", "ثَلَاثَةُ", "أَرْبَعُ"],
+      "explain": "{ar|طَالِبَةٌ} est féminin : le nombre est de genre contraire, donc sans {ar|ة} : {ar|ثَلَاثُ}."
+    },
+    {
+      "id": "medine-t1.l19.grammar-2#4",
+      "type": "tip",
+      "title": "Regarde le singulier",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour connaître le genre du dénombré, **regarde son singulier**. Un pluriel peut tromper."
+        },
+        {
+          "type": "table",
+          "header": ["Pluriel", "Singulier", "Genre", "Avec « trois »"],
+          "rows": [
+            ["{ar|سَيَّارَاتٌ}", "{ar|سَيَّارَةٌ}", "féminin", "{ar|ثَلَاثُ سَيَّارَاتٍ}"],
+            ["{ar|بَنَاتٌ}", "{ar|بِنْتٌ}", "féminin", "{ar|ثَلَاثُ بَنَاتٍ}"],
+            ["{ar|أَخَوَاتٌ}", "{ar|أُخْتٌ}", "féminin", "{ar|ثَلَاثُ أَخَوَاتٍ}"],
+            ["{ar|حَمَّامَاتٌ}", "{ar|حَمَّامٌ}", "masculin", "{ar|ثَلَاثَةُ حَمَّامَاتٍ}"],
+            ["{ar|أَبْنَاءٌ}", "{ar|اِبْنٌ}", "masculin", "{ar|ثَلَاثَةُ أَبْنَاءٍ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Un pluriel en {ar|◌َاتٌ} n'est pas toujours féminin : {ar|حَمَّامَاتٌ} est le pluriel de {ar|حَمَّامٌ}, qui est masculin. Et un nom féminin n'a pas toujours un {ar|ة} : {ar|بِنْتٌ} et {ar|أُخْتٌ} sont féminins (chapitre 6)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.grammar-2#5",
+      "type": "sort",
+      "categories": [ { "ar": "ثَلَاثَةُ" }, { "ar": "ثَلَاثُ" } ],
+      "cards": [
+        { "ar": "كُتُبٌ", "category": 0 },
+        { "ar": "سَيَّارَاتٌ", "category": 1 },
+        { "ar": "حَمَّامَاتٌ", "category": 0 },
+        { "ar": "بَنَاتٌ", "category": 1 },
+        { "ar": "أَبْوَابٌ", "category": 0 },
+        { "ar": "غُرَفٌ", "category": 1 },
+        { "ar": "أَخَوَاتٌ", "category": 1 },
+        { "ar": "أَبْنَاءٌ", "category": 0 }
+      ],
+      "instruction": "Avec quel nombre va chaque dénombré ?",
+      "explain": "Regarde le singulier : {ar|كِتَابٌ}, {ar|حَمَّامٌ}, {ar|بَابٌ} et {ar|اِبْنٌ} sont masculins ; {ar|سَيَّارَةٌ}, {ar|بِنْتٌ}, {ar|غُرْفَةٌ} et {ar|أُخْتٌ} sont féminins."
+    },
+    {
+      "id": "medine-t1.l19.grammar-2#6",
+      "type": "fill_gap",
+      "sentence": "لِي {0} كُتُبٍ.",
+      "fr": "J'ai cinq livres.",
+      "gaps": [ { "answers": ["خَمْسَةُ"] } ],
+      "options": ["خَمْسَةُ", "خَمْسُ", "سِتَّةُ"],
+      "explain": "{ar|كِتَابٌ} est masculin : le nombre prend le {ar|ة} ({ar|خَمْسَةُ})."
+    },
+    {
+      "id": "medine-t1.l19.grammar-2#7",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la bonne forme pour « trois salles de bains » ? ({ar|حَمَّامٌ} est masculin.)" },
+      "choices": [ { "ar": "ثَلَاثَةُ حَمَّامَاتٍ" }, { "ar": "ثَلَاثُ حَمَّامَاتٍ" } ],
+      "answer": 0,
+      "explain": "{ar|حَمَّامٌ} est masculin : le nombre prend le {ar|ة}, même si le pluriel {ar|حَمَّامَاتٌ} ressemble à un pluriel féminin."
+    },
+    {
+      "id": "medine-t1.l19.grammar-2#8",
+      "type": "tip",
+      "title": "Huit : {ar|ثَمَانٍ} devient {ar|ثَمَانِي}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Avec un nom masculin, huit est régulier : {ar|ثَمَانِيَةُ طُلَّابٍ}. Avec un nom féminin, la forme isolée est {ar|ثَمَانٍ} ; mais devant le dénombré, le tanwin disparaît et le {ar|ي} revient."
+        },
+        {
+          "type": "note",
+          "text": "À l'accusatif, la forme devient {ar|ثَمَانِيَ} (avec une fatha sur le {ar|ي}) : tu le verras plus tard."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "ثَمَانٍ", "fr": "huit (nom féminin)" },
+              "to": { "ar": "ثَمَانِي طَالِبَاتٍ", "fr": "huit étudiantes" },
+              "label": "le tanwin disparaît, le {ar|ي} revient"
+            },
+            {
+              "from": { "ar": "ثَمَانِيَةٌ", "fr": "huit (nom masculin)" },
+              "to": { "ar": "ثَمَانِيَةُ طُلَّابٍ", "fr": "huit étudiants" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.grammar-2#9",
+      "type": "fill_gap",
+      "sentence": "فِي الْفَصْلِ {0} طَالِبَاتٍ.",
+      "fr": "Il y a huit étudiantes dans la classe.",
+      "gaps": [ { "answers": ["ثَمَانِي"] } ],
+      "options": ["ثَمَانِي", "ثَمَانِيَةُ", "تِسْعُ"],
+      "explain": "{ar|طَالِبَةٌ} est féminin : le nombre n'a pas de {ar|ة}, et devant le dénombré la forme est {ar|ثَمَانِي}."
+    },
+    {
+      "id": "medine-t1.l19.grammar-2#10",
+      "type": "tip",
+      "title": "Le nombre suit son rôle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le nombre est le premier terme d'une annexion : comme {ar|كِتَابُ زَيْدٍ} (chapitre 5), sa voyelle finale suit son rôle dans la phrase. Après une préposition, il est au génitif."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "ثَلَاثَةُ أَيَّامٍ", "fr": "trois jours" },
+              "to": { "ar": "فِي ثَلَاثَةِ أَيَّامٍ", "fr": "en trois jours" },
+              "label": "damma → kasra après {ar|فِي}"
+            },
+            {
+              "from": { "ar": "ثَلَاثُ غُرَفٍ", "fr": "trois pièces" },
+              "to": { "ar": "فِي ثَلَاثِ غُرَفٍ", "fr": "dans trois pièces" },
+              "label": "damma → kasra après {ar|فِي}"
+            }
+          ]
+        },
+        { "type": "note", "text": "Le dénombré, lui, reste au génitif dans tous les cas : c'est le second terme." }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.grammar-2#11",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|فِي ثَلَاثَةِ أَيَّامٍ}, pourquoi le nombre {ar|ثَلَاثَةِ} a-t-il une kasra ?" },
+      "choices": [
+        { "fr": "Parce qu'il suit la préposition {ar|فِي}" },
+        { "fr": "Parce que {ar|أَيَّامٍ} est au pluriel" },
+        { "fr": "Parce que {ar|يَوْمٌ} est masculin" }
+      ],
+      "answer": 0,
+      "explain": "Le nombre est le premier terme d'une annexion ; après {ar|فِي}, il est au génitif, donc à la kasra."
+    },
+    {
+      "id": "medine-t1.l19.grammar-2#12",
+      "type": "order",
+      "fr": "Il y a quatre étudiantes dans la classe.",
+      "answers": [["فِي", "الْفَصْلِ", "أَرْبَعُ", "طَالِبَاتٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l19.grammar-2#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "trois étudiantes",
+      "answers": ["ثَلَاثُ طَالِبَاتٍ"]
+    },
+    {
+      "id": "medine-t1.l19.grammar-2#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "quatre portes",
+      "answers": ["أَرْبَعَةُ أَبْوَابٍ"],
+      "explain": "{ar|بَابٌ} est masculin : le nombre prend le {ar|ة}."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "medine-t1.l19.vocab-3",
+  "type": "vocabulary",
+  "title": "Les sous et les poches",
+  "icon": "bag",
+  "screens": [
+    { "id": "medine-t1.l19.vocab-3#1", "type": "present", "item": "w:riyal" },
+    { "id": "medine-t1.l19.vocab-3#2", "type": "present", "item": "w:qirsh" },
+    {
+      "id": "medine-t1.l19.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:qirsh",
+      "distractors": ["w:riyal", "w:adad"]
+    },
+    { "id": "medine-t1.l19.vocab-3#4", "type": "present", "item": "w:thaman" },
+    { "id": "medine-t1.l19.vocab-3#5", "type": "present", "item": "w:jayb" },
+    {
+      "id": "medine-t1.l19.vocab-3#6",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:jayb",
+      "distractors": ["w:thaman", "w:riyal"]
+    },
+    { "id": "medine-t1.l19.vocab-3#7", "type": "present", "item": "w:nisf" },
+    {
+      "id": "medine-t1.l19.vocab-3#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:riyal", "w:qirsh", "w:thaman", "w:jayb", "w:nisf"]
+    },
+    {
+      "id": "medine-t1.l19.vocab-3#9",
+      "type": "fill_gap",
+      "sentence": "ثَمَنُ الْكِتَابِ {0} رِيَالَاتٍ.",
+      "fr": "Le prix du livre est de trois riyals.",
+      "gaps": [ { "answers": ["ثَلَاثَةُ"] } ],
+      "options": ["ثَلَاثَةُ", "ثَلَاثُ", "أَرْبَعَةُ"],
+      "explain": "{ar|رِيَالٌ} est masculin : le nombre prend le {ar|ة}, même si le pluriel {ar|رِيَالَاتٌ} ressemble à un pluriel féminin."
+    },
+    {
+      "id": "medine-t1.l19.vocab-3#10",
+      "type": "question",
+      "prompt": {
+        "fr": "Pourquoi dit-on {ar|ثَلَاثَةُ رِيَالَاتٍ}, avec un {ar|ة}, alors que {ar|رِيَالَاتٌ} ressemble à un pluriel féminin ?"
+      },
+      "choices": [
+        { "fr": "Parce que {ar|رِيَالٌ} est un nom masculin" },
+        { "fr": "Parce que {ar|رِيَالٌ} est un nom féminin" },
+        { "fr": "Parce que trois s'écrit toujours avec un {ar|ة}" }
+      ],
+      "answer": 0,
+      "explain": "On regarde le singulier : {ar|رِيَالٌ} est masculin, donc le nombre prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l19.vocab-3#11",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:riyal", "w:qirsh", "w:jayb", "w:nisf", "w:thaman"]
+    },
+    {
+      "id": "medine-t1.l19.vocab-3#12",
+      "type": "order",
+      "fr": "Dans ma poche, il y a cinq riyals.",
+      "answers": [["فِي", "جَيْبِي", "خَمْسَةُ", "رِيَالَاتٍ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t1.l19.vocab-3#13", "type": "build", "item": "w:qirsh", "extra": ["ك"] },
+    {
+      "id": "medine-t1.l19.vocab-3#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "dix riyals",
+      "answers": ["عَشَرَةُ رِيَالَاتٍ"]
+    },
+    {
+      "id": "medine-t1.l19.vocab-3#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai quatre qirsh.",
+      "answers": ["لِي أَرْبَعَةُ قُرُوشٍ.", "عِنْدِي أَرْبَعَةُ قُرُوشٍ."]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "medine-t1.l19.practice-2",
+  "type": "grammar",
+  "title": "Du un au dix",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t1.l19.practice-2#1",
+      "type": "tip",
+      "title": "Récapitulatif",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Nombre", "Où ?", "Le dénombré", "Exemple"],
+          "rows": [
+            ["1", "après le nom", "singulier, accord en genre", "{ar|كِتَابٌ وَاحِدٌ}, {ar|سَيَّارَةٌ وَاحِدَةٌ}"],
+            ["2", "le duel suffit", "duel", "{ar|كِتَابَانِ}, {ar|سَيَّارَتَانِ}"],
+            [
+              "3 à 10",
+              "devant le nom",
+              "pluriel au génitif, genre contraire",
+              "{ar|ثَلَاثَةُ كُتُبٍ}, {ar|ثَلَاثُ سَيَّارَاتٍ}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.practice-2#2",
+      "type": "sort",
+      "categories": [ { "fr": "le nombre est après le nom (un)" }, { "fr": "le nombre est devant le nom (3 à 10)" } ],
+      "cards": [
+        { "ar": "كِتَابٌ وَاحِدٌ", "category": 0 },
+        { "ar": "ثَلَاثَةُ كُتُبٍ", "category": 1 },
+        { "ar": "سَيَّارَةٌ وَاحِدَةٌ", "category": 0 },
+        { "ar": "أَرْبَعُ سَيَّارَاتٍ", "category": 1 },
+        { "ar": "طَالِبٌ وَاحِدٌ", "category": 0 },
+        { "ar": "سَبْعَةُ طُلَّابٍ", "category": 1 }
+      ],
+      "instruction": "Où est le nombre ?"
+    },
+    {
+      "id": "medine-t1.l19.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "فِي الْفَصْلِ طَالِبَةٌ {0}.",
+      "fr": "Il y a une seule étudiante dans la classe.",
+      "gaps": [ { "answers": ["وَاحِدَةٌ"] } ],
+      "options": ["وَاحِدَةٌ", "وَاحِدٌ"]
+    },
+    {
+      "id": "medine-t1.l19.practice-2#4",
+      "type": "spot",
+      "instruction": "Touche les deux nombres.",
+      "words": ["فِي", "الْفَصْلِ", "سِتُّ", "طَالِبَاتٍ", "وَطَالِبٌ", "وَاحِدٌ."],
+      "answers": [2, 5],
+      "fr": "Il y a six étudiantes et un seul étudiant dans la classe."
+    },
+    {
+      "id": "medine-t1.l19.practice-2#5",
+      "type": "order",
+      "fr": "Il y a sept jours dans la semaine.",
+      "answers": [["فِي", "الْأُسْبُوعِ", "سَبْعَةُ", "أَيَّامٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l19.practice-2#6",
+      "type": "question",
+      "prompt": { "fr": "Quelle expression veut dire « huit voitures » ?" },
+      "choices": [ { "ar": "ثَمَانِي سَيَّارَاتٍ" }, { "ar": "ثَمَانِيَةُ سَيَّارَاتٍ" }, { "ar": "ثَمَانِيَةُ سَيَّارَةٍ" } ],
+      "answer": 0,
+      "explain": "{ar|سَيَّارَةٌ} est féminin : le nombre n'a pas de {ar|ة} et devient {ar|ثَمَانِي} devant le dénombré. Le dénombré est au pluriel : {ar|سَيَّارَاتٍ}."
+    },
+    {
+      "id": "medine-t1.l19.practice-2#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "trois voitures",
+      "answers": ["ثَلَاثُ سَيَّارَاتٍ"]
+    },
+    {
+      "id": "medine-t1.l19.practice-2#8",
+      "type": "fill_gap",
+      "sentence": "{0} أَيَّامٍ",
+      "fr": "neuf jours",
+      "gaps": [ { "answers": ["تِسْعَةُ"] } ],
+      "options": ["تِسْعَةُ", "تِسْعُ", "ثَمَانِيَةُ"],
+      "explain": "{ar|يَوْمٌ} est masculin : le nombre prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l19.practice-2#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il y a une seule voiture.",
+      "answers": ["سَيَّارَةٌ وَاحِدَةٌ.", "هُنَاكَ سَيَّارَةٌ وَاحِدَةٌ."]
+    }
+  ]
+}

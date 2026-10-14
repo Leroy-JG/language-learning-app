@@ -1,0 +1,82 @@
+{
+  "id": "medine-t1.l19.practice-1",
+  "type": "grammar",
+  "title": "Compte les choses",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t1.l19.practice-1#1",
+      "type": "fill_gap",
+      "sentence": "عِنْدِي {0} أَقْلَامٍ.",
+      "fr": "J'ai huit stylos.",
+      "gaps": [ { "answers": ["ثَمَانِيَةُ"] } ],
+      "options": ["ثَمَانِيَةُ", "ثَمَانِي", "تِسْعَةُ"],
+      "explain": "{ar|قَلَمٌ} est masculin : le nombre prend le {ar|ة} : {ar|ثَمَانِيَةُ}."
+    },
+    {
+      "id": "medine-t1.l19.practice-1#2",
+      "type": "spot",
+      "instruction": "Touche les deux nombres.",
+      "words": ["لِي", "ثَلَاثَةُ", "كُتُبٍ", "وَأَرْبَعَةُ", "أَقْلَامٍ."],
+      "answers": [1, 3],
+      "fr": "J'ai trois livres et quatre stylos."
+    },
+    {
+      "id": "medine-t1.l19.practice-1#3",
+      "type": "order",
+      "fr": "J'ai cinq livres et trois stylos.",
+      "answers": [["عِنْدِي", "خَمْسَةُ", "كُتُبٍ", "وَثَلَاثَةُ", "أَقْلَامٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l19.practice-1#4",
+      "type": "fill_gap",
+      "sentence": "لِي {0} أَخَوَاتٍ وَ{1} إِخْوَةٍ.",
+      "fr": "J'ai trois sœurs et quatre frères.",
+      "gaps": [ { "answers": ["ثَلَاثُ"] }, { "answers": ["أَرْبَعَةُ"] } ],
+      "options": ["ثَلَاثُ", "أَرْبَعَةُ", "ثَلَاثَةُ", "أَرْبَعُ"],
+      "explain": "{ar|أُخْتٌ} est féminin : {ar|ثَلَاثُ أَخَوَاتٍ}. {ar|أَخٌ} est masculin : {ar|أَرْبَعَةُ إِخْوَةٍ}."
+    },
+    {
+      "id": "medine-t1.l19.practice-1#5",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|فِي الْبَيْتِ سِتُّ غُرَفٍ}, pourquoi le nombre n'a-t-il pas de {ar|ة} ?" },
+      "choices": [
+        { "fr": "Parce que {ar|غُرْفَةٌ} est un nom féminin" },
+        { "fr": "Parce que {ar|غُرَفٍ} est au singulier" },
+        { "fr": "Parce que six s'écrit toujours sans {ar|ة}" }
+      ],
+      "answer": 0,
+      "explain": "De 3 à 10, le nombre est de genre contraire : {ar|غُرْفَةٌ} est féminin, donc {ar|سِتُّ}, sans {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l19.practice-1#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "sept étudiants",
+      "answers": ["سَبْعَةُ طُلَّابٍ"]
+    },
+    {
+      "id": "medine-t1.l19.practice-1#7",
+      "type": "true_false",
+      "statement": { "fr": "{ar|بَابٌ} est masculin : on dit donc {ar|ثَلَاثَةُ أَبْوَابٍ}." },
+      "answer": true,
+      "explain": "Oui : le dénombré est masculin, le nombre prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l19.practice-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "six sœurs",
+      "answers": ["سِتُّ أَخَوَاتٍ"],
+      "explain": "{ar|أُخْتٌ} est féminin : le nombre perd le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l19.practice-1#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il y a cinq étudiantes dans la classe.",
+      "answers": ["فِي الْفَصْلِ خَمْسُ طَالِبَاتٍ."]
+    }
+  ]
+}

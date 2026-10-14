@@ -1,0 +1,122 @@
+{
+  "id": "medine-t1.l19.vocab-1",
+  "type": "vocabulary",
+  "title": "De un à cinq",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l19.vocab-1#1",
+      "type": "tip",
+      "title": "Compter de un à dix",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour compter, l'arabe a des mots (qu'on écrit en lettres) et des chiffres : {ar|١} {ar|٢} {ar|٣} {ar|٤} {ar|٥}… Ce sont les chiffres qu'on emploie surtout en Orient arabe. Ils s'écrivent de gauche à droite, comme chez nous : {ar|١٠} se lit « dix »."
+        },
+        {
+          "type": "paragraph",
+          "text": "De 1 à 10, **chaque nombre a deux formes** : une pour un nom masculin, une pour un nom féminin. Pour l'instant, regarde-les ; tu comprendras plus loin comment choisir."
+        },
+        {
+          "type": "table",
+          "header": ["Chiffre", "Avec un nom masculin", "Avec un nom féminin"],
+          "rows": [
+            ["{ar|١}", "{ar|وَاحِدٌ}", "{ar|وَاحِدَةٌ}"],
+            ["{ar|٢}", "{ar|اِثْنَانِ}", "{ar|اِثْنَتَانِ}"],
+            ["{ar|٣}", "{ar|ثَلَاثَةٌ}", "{ar|ثَلَاثٌ}"],
+            ["{ar|٤}", "{ar|أَرْبَعَةٌ}", "{ar|أَرْبَعٌ}"],
+            ["{ar|٥}", "{ar|خَمْسَةٌ}", "{ar|خَمْسٌ}"]
+          ]
+        },
+        { "type": "note", "text": "Tu connais déjà {ar|وَاحِدٌ} (chapitre 10)." },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Attention : le chiffre {ar|٥} (cinq) ressemble à un zéro ; le zéro est un simple point, {ar|٠}. Au Maghreb, on emploie plutôt nos chiffres 1, 2, 3…"
+        }
+      ]
+    },
+    { "id": "medine-t1.l19.vocab-1#2", "type": "present", "item": "w:adad" },
+    { "id": "medine-t1.l19.vocab-1#3", "type": "present", "item": "w:wahida" },
+    {
+      "id": "medine-t1.l19.vocab-1#3b",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:wahida",
+      "distractors": ["w:wahid", "w:adad"]
+    },
+    { "id": "medine-t1.l19.vocab-1#4", "type": "present", "item": "w:n-2" },
+    {
+      "id": "medine-t1.l19.vocab-1#5",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:n-2",
+      "distractors": ["w:wahida", "w:adad"]
+    },
+    { "id": "medine-t1.l19.vocab-1#6", "type": "present", "item": "w:n-3" },
+    { "id": "medine-t1.l19.vocab-1#7", "type": "present", "item": "w:n-4" },
+    {
+      "id": "medine-t1.l19.vocab-1#8",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:n-4",
+      "distractors": ["w:n-3", "w:n-2"]
+    },
+    { "id": "medine-t1.l19.vocab-1#9", "type": "present", "item": "w:n-5" },
+    {
+      "id": "medine-t1.l19.vocab-1#10",
+      "type": "tip",
+      "title": "Les jours de la semaine viennent des nombres",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais déjà ces nombres sans le savoir : les noms des cinq premiers jours de la semaine sont formés sur eux (révision 1)."
+        },
+        {
+          "type": "table",
+          "header": ["Jour", "Nombre", "Sens du nom"],
+          "rows": [
+            ["{ar|يَوْمُ الْأَحَدِ} (dimanche)", "{ar|وَاحِدٌ}, « un »", "le jour un, le premier jour"],
+            ["{ar|يَوْمُ الِاثْنَيْنِ} (lundi)", "{ar|اِثْنَانِ}, « deux »", "le jour deux"],
+            ["{ar|يَوْمُ الثُّلَاثَاءِ} (mardi)", "{ar|ثَلَاثَةٌ}, « trois »", "le jour trois"],
+            ["{ar|يَوْمُ الْأَرْبِعَاءِ} (mercredi)", "{ar|أَرْبَعَةٌ}, « quatre »", "le jour quatre"],
+            ["{ar|يَوْمُ الْخَمِيسِ} (jeudi)", "{ar|خَمْسَةٌ}, « cinq »", "le jour cinq"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "Dans la tradition arabe, la semaine commence le dimanche : c'est pour cela que lundi est « le deux », et jeudi « le cinq »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.vocab-1#11",
+      "type": "question",
+      "prompt": { "fr": "Quel mot écrit le chiffre {ar|٤} ?" },
+      "choices": [ { "ar": "أَرْبَعَةٌ، أَرْبَعٌ" }, { "ar": "ثَلَاثَةٌ، ثَلَاثٌ" }, { "ar": "خَمْسَةٌ، خَمْسٌ" } ],
+      "answer": 0,
+      "explain": "{ar|٤} est quatre : {ar|أَرْبَعَةٌ} avec un nom masculin, {ar|أَرْبَعٌ} avec un nom féminin."
+    },
+    {
+      "id": "medine-t1.l19.vocab-1#12",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:n-2", "w:n-3", "w:n-4", "w:n-5", "w:wahida"]
+    },
+    {
+      "id": "medine-t1.l19.vocab-1#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "quatre",
+      "answers": ["أَرْبَعَةٌ", "أَرْبَعٌ"],
+      "explain": "{ar|أَرْبَعَةٌ} avec un nom masculin, {ar|أَرْبَعٌ} avec un nom féminin : les deux formes sont justes."
+    },
+    {
+      "id": "medine-t1.l19.vocab-1#14",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:wahida", "w:n-2", "w:n-3", "w:n-4", "w:n-5"]
+    }
+  ]
+}

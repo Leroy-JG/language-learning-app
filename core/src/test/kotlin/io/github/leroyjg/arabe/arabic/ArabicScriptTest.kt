@@ -10,6 +10,7 @@ class ArabicScriptTest {
     fun `texte correct`() {
         assertEquals(emptyList(), ArabicScript.problems("مَا هٰذَا؟ هٰذَا بَيْتٌ."))
         assertEquals(emptyList(), ArabicScript.problems("◌ٌ"))
+        assertEquals(emptyList(), ArabicScript.problems("١٠"), "un chiffre arabe seul est un texte arabe valide")
         assertEquals(emptyList(), ArabicScript.problems("الْوَلَدُ جَالِسٌ، وَالْمُدَرِّسُ وَاقِفٌ."))
         assertEquals(emptyList(), ArabicScript.problems("اَلْكِتَابُ جَدِيدٌ."), "alif de l'article vocalisé en début de phrase")
         assertEquals(emptyList(), ArabicScript.problems("الِاسْتِفْهَامُ"), "lām vocalisé devant une hamza de liaison")

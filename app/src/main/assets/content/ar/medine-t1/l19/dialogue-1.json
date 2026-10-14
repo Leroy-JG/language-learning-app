@@ -1,0 +1,131 @@
+{
+  "id": "medine-t1.l19.dialogue-1",
+  "type": "dialogue",
+  "title": "Combien d'étudiants ?",
+  "icon": "man",
+  "screens": [
+    {
+      "id": "medine-t1.l19.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Le directeur interroge le professeur",
+      "intro": "Le directeur demande au professeur combien d'étudiants nouveaux il a dans sa classe, et d'où ils viennent.",
+      "speakers": { "A": { "name": "Le directeur", "voice": "m1" }, "B": { "name": "Le professeur", "voice": "m2" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "كَمْ طَالِبًا جَدِيدًا فِي فَصْلِكَ يَا شَيْخُ؟",
+          "fr": "Combien de nouveaux étudiants y a-t-il dans ta classe, cheikh ?"
+        },
+        { "speaker": "B", "ar": "فِيهِ عَشَرَةُ طُلَّابٍ جُدُدٍ.", "fr": "Il y a dix nouveaux étudiants." },
+        {
+          "speaker": "A",
+          "ar": "مِنْ أَيْنَ هُمْ؟ أَكُلُّهُمْ مِنْ بَلَدٍ وَاحِدٍ؟",
+          "fr": "D'où viennent-ils ? Sont-ils tous d'un seul pays ?"
+        },
+        {
+          "speaker": "B",
+          "ar": "لَا. هُمْ مِنْ بِلَادٍ مُخْتَلِفَةٍ.",
+          "fr": "Non. Ils viennent de pays différents."
+        },
+        {
+          "speaker": "B",
+          "ar": "مِنْهُمْ ثَلَاثَةُ طُلَّابٍ مِنَ الْفِلِبِّينِ، وَأَرْبَعَةُ طُلَّابٍ مِنَ الْيَابَانِ، وَطَالِبَانِ مِنَ الصِّينِ، وَطَالِبٌ وَاحِدٌ مِنْ مَالِيزِيَا.",
+          "fr": "Parmi eux, il y a trois étudiants des Philippines, quatre du Japon, deux de Chine et un seul de Malaisie."
+        },
+        {
+          "speaker": "A",
+          "ar": "أَفِي فَصْلِكَ طُلَّابٌ مِنْ أَمْرِيكَا؟",
+          "fr": "Y a-t-il dans ta classe des étudiants d'Amérique ?"
+        },
+        {
+          "speaker": "B",
+          "ar": "نَعَمْ. فِيهِ سَبْعَةُ طُلَّابٍ مِنْ أَمْرِيكَا.",
+          "fr": "Oui. Il y a sept étudiants d'Amérique."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ce texte contient de petites formes que tu reconnais en partie. Retiens leur sens : tu les retrouveras dans les exercices qui suivent."
+        },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Mot à mot"],
+          "rows": [
+            ["{ar|فِيهِ}", "il y a (dans la classe)", "{ar|فِي} + {ar|هُ} : « dans lui »"],
+            ["{ar|فَصْلِكَ}", "ta classe", "{ar|فَصْلٌ} + {ar|كَ}"],
+            ["{ar|مِنْهُمْ}", "parmi eux", "{ar|مِنْ} + {ar|هُمْ}"],
+            ["{ar|أَكُلُّهُمْ}", "est-ce qu'ils sont tous… ?", "{ar|أَ} + {ar|كُلُّ} + {ar|هُمْ}"],
+            ["{ar|وَطَالِبَانِ}", "et deux étudiants", "{ar|وَ} + {ar|طَالِبَانِ} (duel)"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le directeur appelle le professeur {ar|يَا شَيْخُ} : c'est une manière respectueuse de s'adresser à un maître (chapitre 5)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Combien de nouveaux étudiants y a-t-il dans la classe ?" },
+      "choices": [ { "fr": "Dix" }, { "fr": "Sept" }, { "fr": "Trois" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l19.dialogue-1#1" },
+      "explain": "{ar|فِيهِ عَشَرَةُ طُلَّابٍ جُدُدٍ}."
+    },
+    {
+      "id": "medine-t1.l19.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Combien d'étudiants viennent de Chine ?" },
+      "choices": [ { "fr": "Deux" }, { "fr": "Un" }, { "fr": "Quatre" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l19.dialogue-1#1" },
+      "explain": "{ar|وَطَالِبَانِ مِنَ الصِّينِ} : deux étudiants (le duel)."
+    },
+    {
+      "id": "medine-t1.l19.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Les nouveaux étudiants viennent tous du même pays." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l19.dialogue-1#1" },
+      "explain": "{ar|هُمْ مِنْ بِلَادٍ مُخْتَلِفَةٍ} : ils viennent de pays différents."
+    },
+    {
+      "id": "medine-t1.l19.dialogue-1#6",
+      "type": "fill_gap",
+      "sentence": "مِنْهُمْ {0} طُلَّابٍ مِنَ الْفِلِبِّينِ.",
+      "fr": "Parmi eux, il y a trois étudiants des Philippines.",
+      "gaps": [ { "answers": ["ثَلَاثَةُ"] } ],
+      "options": ["ثَلَاثَةُ", "ثَلَاثُ", "أَرْبَعَةُ"],
+      "context": { "dialogue": "medine-t1.l19.dialogue-1#1" },
+      "explain": "{ar|طَالِبٌ} est masculin : le nombre prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t1.l19.dialogue-1#7",
+      "type": "order",
+      "fr": "Il y a sept étudiants d'Amérique.",
+      "answers": [["فِيهِ", "سَبْعَةُ", "طُلَّابٍ", "مِنْ", "أَمْرِيكَا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l19.dialogue-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ils viennent de pays différents.",
+      "answers": ["هُمْ مِنْ بِلَادٍ مُخْتَلِفَةٍ."]
+    },
+    {
+      "id": "medine-t1.l19.dialogue-1#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Combien de nouveaux étudiants y a-t-il dans ta classe, cheikh ?",
+      "answers": ["كَمْ طَالِبًا جَدِيدًا فِي فَصْلِكَ يَا شَيْخُ؟"]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "medine-t1.l19.practice-5",
+  "type": "grammar",
+  "title": "Les phrases du livre",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t1.l19.practice-5#1",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ces phrases du livre contiennent de petites formes que tu reconnais en partie."
+        },
+        {
+          "type": "table",
+          "header": ["Dans le livre", "Sens", "Mot à mot"],
+          "rows": [
+            ["{ar|ثَمَنُهُ}", "son prix", "{ar|ثَمَنٌ} + {ar|هُ}"],
+            ["{ar|لِخَالِدٍ}", "à Khālid", "{ar|لِ} + {ar|خَالِدٌ} (kasra après {ar|لِ})"],
+            ["{ar|وَنِصْفٌ}", "et demi", "{ar|وَ} + {ar|نِصْفٌ}"]
+          ]
+        },
+        { "type": "note", "text": "{ar|سَبْعَةُ رِيَالَاتٍ وَنِصْفٌ} veut dire « sept riyals et demi »." }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.practice-5#2",
+      "type": "order",
+      "fr": "Khālid a six fils.",
+      "answers": [["لِخَالِدٍ", "سِتَّةُ", "أَبْنَاءٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l19.practice-5#3",
+      "type": "question",
+      "prompt": { "fr": "{ar|كَمْ أَخًا لَكِ يَا آمِنَةُ؟ لِي أَرْبَعَةُ إِخْوَةٍ.} Combien de frères Āmina a-t-elle ?" },
+      "choices": [ { "fr": "Quatre" }, { "fr": "Deux" }, { "fr": "Six" } ],
+      "answer": 0,
+      "explain": "{ar|أَرْبَعَةُ إِخْوَةٍ} : quatre frères."
+    },
+    {
+      "id": "medine-t1.l19.practice-5#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a sept jours dans la semaine.",
+      "answers": ["فِي الْأُسْبُوعِ سَبْعَةُ أَيَّامٍ.", "سَبْعَةُ أَيَّامٍ فِي الْأُسْبُوعِ."]
+    },
+    {
+      "id": "medine-t1.l19.practice-5#5",
+      "type": "spot",
+      "instruction": "Touche le nom qu'on compte.",
+      "words": ["كَمْ", "رِيَالًا", "عِنْدَكَ", "الْآنَ", "يَا", "عَمَّارُ؟"],
+      "answers": [1],
+      "fr": "Combien de riyals as-tu maintenant, ʿAmmār ?"
+    },
+    {
+      "id": "medine-t1.l19.practice-5#6",
+      "type": "fill_gap",
+      "sentence": "عِنْدِي الْآنَ {0} رِيَالَاتٍ.",
+      "fr": "J'ai maintenant huit riyals.",
+      "gaps": [ { "answers": ["ثَمَانِيَةُ"] } ],
+      "options": ["ثَمَانِيَةُ", "ثَمَانِي", "ثَمَانٍ"],
+      "explain": "{ar|رِيَالٌ} est masculin : le nombre prend le {ar|ة} : {ar|ثَمَانِيَةُ}."
+    },
+    {
+      "id": "medine-t1.l19.practice-5#7",
+      "type": "fill_gap",
+      "sentence": "فِي هٰذَا الْحَيِّ تِسْعَةُ بُيُوتٍ {0}.",
+      "fr": "Dans ce quartier, il y a neuf maisons neuves.",
+      "gaps": [ { "answers": ["جَدِيدَةٍ"] } ],
+      "options": ["جَدِيدَةٍ", "جَدِيدٍ", "جَدِيدًا"],
+      "explain": "{ar|بُيُوتٌ} est un pluriel de choses : l'adjectif se met en général au féminin singulier."
+    },
+    {
+      "id": "medine-t1.l19.practice-5#8",
+      "type": "order",
+      "fr": "Cette voiture a quatre portes.",
+      "answers": [["لِهٰذِهِ", "السَّيَّارَةِ", "أَرْبَعَةُ", "أَبْوَابٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l19.practice-5#9",
+      "type": "question",
+      "prompt": { "fr": "{ar|كَمْ ثَمَنُ هٰذَا الْكِتَابِ؟ ثَمَنُهُ سَبْعَةُ رِيَالَاتٍ وَنِصْفٌ.} Combien coûte le livre ?" },
+      "choices": [ { "fr": "Sept riyals et demi" }, { "fr": "Sept riyals" }, { "fr": "Huit riyals" } ],
+      "answer": 0,
+      "explain": "{ar|وَنِصْفٌ} : « et demi »."
+    },
+    {
+      "id": "medine-t1.l19.practice-5#10",
+      "type": "spot",
+      "instruction": "Touche les deux nombres.",
+      "words": ["فِي", "هٰذَا", "الْفَصْلِ", "عَشَرَةُ", "طُلَّابٍ", "قُدَامَى", "وَأَرْبَعَةُ", "طُلَّابٍ", "جُدُدٍ."],
+      "answers": [3, 6],
+      "fr": "Dans cette classe, il y a dix anciens étudiants et quatre nouveaux."
+    },
+    {
+      "id": "medine-t1.l19.practice-5#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Dans cette classe, il y a dix anciens étudiants et quatre nouveaux.",
+      "answers": ["فِي هٰذَا الْفَصْلِ عَشَرَةُ طُلَّابٍ قُدَامَى وَأَرْبَعَةُ طُلَّابٍ جُدُدٍ."]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "medine-t1.l19.grammar-1",
+  "type": "grammar",
+  "title": "Le dénombré : un pluriel annexé",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l19.grammar-1#1",
+      "type": "tip",
+      "title": "Compter des choses",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand on compte des choses, il y a deux éléments : **le nombre** ({ar|الْعَدَدُ}) et **ce qu'on compte**, **le dénombré** ({ar|الْمَعْدُودُ})."
+        },
+        {
+          "type": "breakdown",
+          "ar": "خَمْسَةُ كُتُبٍ",
+          "fr": "cinq livres",
+          "parts": [ { "ar": "خَمْسَةُ", "fr": "le nombre" }, { "ar": "كُتُبٍ", "fr": "le dénombré" } ]
+        },
+        { "type": "paragraph", "text": "Le dénombré change selon le nombre. Voici la carte de ce qui t'attend :" },
+        {
+          "type": "table",
+          "header": ["Nombre", "Le dénombré", "Exemple"],
+          "rows": [
+            [
+              "1 et 2",
+              "après le nom, comme un adjectif (pour 2, le nom est au duel)",
+              "{ar|طَالِبٌ وَاحِدٌ}, {ar|طَالِبَانِ}"
+            ],
+            ["3 à 10", "au pluriel, au génitif, annexé au nombre", "{ar|ثَلَاثَةُ كُتُبٍ}"],
+            ["11 à 99 (plus tard)", "au singulier, à l'accusatif", "{ar|عِشْرُونَ كِتَابًا} (vingt livres)"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans ce chapitre, tu apprends les deux premières lignes. Les nombres à partir de 11 viendront plus tard."
+        }
+      ]
+    },
+    { "id": "medine-t1.l19.grammar-1#2", "type": "present", "item": "w:maadud" },
+    {
+      "id": "medine-t1.l19.grammar-1#3",
+      "type": "tip",
+      "title": "De 3 à 10 : une annexion",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour les nombres de 3 à 10, le nombre et le dénombré forment une **annexion** (chapitre 5). Le nombre est le premier terme, le dénombré est le second terme."
+        },
+        {
+          "type": "breakdown",
+          "ar": "ثَلَاثَةُ كُتُبٍ",
+          "fr": "trois livres",
+          "parts": [
+            { "ar": "ثَلَاثَةُ", "fr": "le nombre (premier terme)" },
+            { "ar": "كُتُبٍ", "fr": "le dénombré (second terme)" }
+          ]
+        },
+        {
+          "type": "table",
+          "header": ["Règle", "Pourquoi", "Exemple"],
+          "rows": [
+            ["le nombre n'a ni article ni tanwin", "c'est le premier terme de l'annexion", "{ar|ثَلَاثَةُ}"],
+            [
+              "le dénombré est au pluriel",
+              "on compte plusieurs êtres ou choses",
+              "{ar|كُتُبٍ} (et non {ar|كِتَابٍ})"
+            ],
+            ["le dénombré est au génitif", "c'est le second terme de l'annexion", "{ar|كُتُبٍ} : tanwin à la kasra"]
+          ]
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "كُتُبٌ", "fr": "des livres" },
+              "to": { "ar": "ثَلَاثَةُ كُتُبٍ", "fr": "trois livres" },
+              "label": "damma → kasra : second terme d'annexion"
+            },
+            {
+              "from": { "ar": "أَقْلَامٌ", "fr": "des stylos" },
+              "to": { "ar": "خَمْسَةُ أَقْلَامٍ", "fr": "cinq stylos" }
+            },
+            {
+              "from": { "ar": "رِجَالٌ", "fr": "des hommes" },
+              "to": { "ar": "سَبْعَةُ رِجَالٍ", "fr": "sept hommes" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Quand le pluriel est de forme longue et n'a pas de tanwin ({ar|مَسَاجِدُ}), le génitif prend la fatha : {ar|ثَلَاثَةُ مَسَاجِدَ} (trois mosquées)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l19.grammar-1#4",
+      "type": "spot",
+      "instruction": "Touche le dénombré (ce qu'on compte).",
+      "words": ["لِي", "خَمْسَةُ", "كُتُبٍ."],
+      "answers": [2],
+      "fr": "J'ai cinq livres.",
+      "explain": "{ar|كُتُبٍ} est ce qu'on compte. {ar|خَمْسَةُ} est le nombre."
+    },
+    {
+      "id": "medine-t1.l19.grammar-1#5",
+      "type": "spot",
+      "instruction": "Touche le nombre.",
+      "words": ["فِي", "الْفَصْلِ", "سَبْعَةُ", "طُلَّابٍ."],
+      "answers": [2],
+      "fr": "Il y a sept étudiants dans la classe."
+    },
+    {
+      "id": "medine-t1.l19.grammar-1#6",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|ثَلَاثَةُ كُتُبٍ}, comment est le dénombré {ar|كُتُبٍ} ?" },
+      "choices": [
+        { "fr": "Au pluriel, au génitif (kasra)" },
+        { "fr": "Au singulier, au génitif" },
+        { "fr": "Au pluriel, au nominatif (damma)" }
+      ],
+      "answer": 0,
+      "explain": "De 3 à 10, le dénombré est au pluriel et c'est le second terme d'une annexion : il est au génitif."
+    },
+    {
+      "id": "medine-t1.l19.grammar-1#7",
+      "type": "fill_gap",
+      "sentence": "لِي ثَلَاثَةُ {0}.",
+      "fr": "J'ai trois livres.",
+      "gaps": [ { "answers": ["كُتُبٍ"] } ],
+      "options": ["كُتُبٍ", "كِتَابٍ", "أَقْلَامٍ"],
+      "explain": "Après le nombre, le dénombré est au pluriel et au génitif : {ar|كُتُبٍ}. {ar|كِتَابٍ} est au singulier."
+    },
+    {
+      "id": "medine-t1.l19.grammar-1#8",
+      "type": "fill_gap",
+      "sentence": "عِنْدِي سِتَّةُ {0}.",
+      "fr": "J'ai six stylos.",
+      "gaps": [ { "answers": ["أَقْلَامٍ"] } ],
+      "options": ["أَقْلَامٍ", "قَلَمٍ", "أَبْوَابٍ"],
+      "explain": "Le dénombré est au pluriel : {ar|أَقْلَامٍ} (des stylos). {ar|قَلَمٍ} est au singulier et {ar|أَبْوَابٍ} veut dire « des portes »."
+    },
+    {
+      "id": "medine-t1.l19.grammar-1#9",
+      "type": "order",
+      "fr": "Il y a sept étudiants dans la classe.",
+      "answers": [["فِي", "الْفَصْلِ", "سَبْعَةُ", "طُلَّابٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l19.grammar-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "cinq livres",
+      "answers": ["خَمْسَةُ كُتُبٍ"]
+    },
+    {
+      "id": "medine-t1.l19.grammar-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai six stylos.",
+      "answers": ["عِنْدِي سِتَّةُ أَقْلَامٍ.", "لِي سِتَّةُ أَقْلَامٍ."]
+    }
+  ]
+}
