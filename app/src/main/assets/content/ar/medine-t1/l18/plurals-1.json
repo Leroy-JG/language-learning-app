@@ -22,7 +22,7 @@
             ["{ar|عَجَلَةٌ}", "{ar|عَجَلَاتٌ}", "féminin en {ar|ة} → {ar|ات}"],
             ["{ar|مِسْطَرَةٌ}", "{ar|مِسْطَرَاتٌ}", "féminin en {ar|ة} → {ar|ات}"],
             ["{ar|طَاوِلَةٌ}", "{ar|طَاوِلَاتٌ}", "féminin en {ar|ة} → {ar|ات}"],
-            ["{ar|رَكْعَةٌ}", "{ar|رَكَعَاتٌ}", "la voyelle du milieu change aussi"],
+            ["{ar|رَكْعَةٌ}", "{ar|رَكَعَاتٌ}", "le sukūn devient une fatha"],
             ["{ar|سَنَةٌ}", "{ar|سَنَوَاتٌ}", "un {ar|و} apparaît"],
             ["{ar|اِسْتِقْبَالٌ}", "{ar|اِسْتِقْبَالَاتٌ}", "masculin, mais pluriel en {ar|ات}"]
           ]
@@ -42,7 +42,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Les autres pluriels changent la forme du mot : on les apprend avec le mot. Les noms de personnes en {ar|◌ُونَ} (chapitre 6) restent réguliers."
+          "text": "Les autres pluriels changent la forme du mot : on les apprend avec le mot. Le pluriel en {ar|◌ُونَ} (chapitre 6) est régulier."
         },
         {
           "type": "table",
@@ -83,8 +83,8 @@
       "type": "typing",
       "ask": "fr",
       "fr": "des idées",
-      "answers": ["فِكْرَاتٌ", "أَفْكَارٌ"],
-      "explain": "Le professeur donne {ar|فِكْرَاتٌ} ; on entend aussi très souvent {ar|أَفْكَارٌ}."
+      "answers": ["فِكْرَاتٌ", "أَفْكَارٌ", "فِكَرٌ"],
+      "explain": "Le professeur donne {ar|فِكْرَاتٌ} ; on trouve aussi {ar|أَفْكَارٌ} (très courant) et {ar|فِكَرٌ}."
     },
     {
       "id": "medine-t1.l18.plurals-1#7",
@@ -106,7 +106,8 @@
       "type": "typing",
       "ask": "fr",
       "fr": "des années",
-      "answers": ["سَنَوَاتٌ"]
+      "answers": ["سَنَوَاتٌ", "سِنُونَ"],
+      "explain": "Le professeur donne {ar|سَنَوَاتٌ} ; {ar|سِنُونَ} existe aussi (al-Muʿjam al-Wasīṭ)."
     }
   ]
 }

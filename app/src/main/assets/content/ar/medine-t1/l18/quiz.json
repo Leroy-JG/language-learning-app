@@ -48,7 +48,7 @@
       "type": "true_false",
       "statement": { "fr": "Le nūn à la fin de {ar|الْكِتَابَانِ} est le signe du nominatif." },
       "answer": false,
-      "explain": "Le signe du nominatif est l'alif. Le nūn n'est jamais un signe du cas."
+      "explain": "Le signe du nominatif est l'alif. Dans un duel, le nūn n'est jamais un signe du cas."
     },
     {
       "id": "medine-t1.l18.quiz#7",
@@ -120,8 +120,8 @@
       "id": "medine-t1.l18.quiz#16",
       "type": "typing",
       "ask": "fr",
-      "fr": "deux grandes écoles",
-      "answers": ["مَدْرَسَتَانِ كَبِيرَتَانِ"]
+      "fr": "deux grandes maisons",
+      "answers": ["بَيْتَانِ كَبِيرَانِ"]
     }
   ]
 }

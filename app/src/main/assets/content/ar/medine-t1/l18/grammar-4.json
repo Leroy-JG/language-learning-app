@@ -18,7 +18,7 @@
         {
           "type": "note",
           "tone": "memo",
-          "text": "Pour retenir : un {ar|هٰ} au début = proche, un {ar|كَ} à la fin = loin. Ça marche aussi au duel : {ar|هٰذَانِ} (proche), {ar|ذَانِكَ} (loin)."
+          "text": "Pour retenir : un {ar|ه} au début (« ha- ») = proche, un {ar|كَ} à la fin = loin. Ça marche aussi au duel : {ar|هٰذَانِ} (proche), {ar|ذَانِكَ} (loin)."
         },
         {
           "type": "note",
@@ -47,7 +47,7 @@
         { "ar": "تَانِكَ", "category": 1 }
       ],
       "instruction": "Proche ou loin ?",
-      "explain": "Un {ar|هٰ} au début : proche. Un {ar|كَ} à la fin : loin."
+      "explain": "Un {ar|ه} au début : proche. Un {ar|كَ} à la fin : loin."
     },
     {
       "id": "medine-t1.l18.grammar-4#6",
@@ -71,21 +71,21 @@
           "type": "compare",
           "rows": [
             {
-              "from": { "ar": "هٰذَانِ", "fr": "ces deux-ci (m.)" },
-              "to": { "ar": "هٰذَيْنِ", "fr": "ces deux-ci (m.)" },
+              "from": { "ar": "هٰذَانِ", "fr": "ces deux-ci, masculin" },
+              "to": { "ar": "هٰذَيْنِ", "fr": "ces deux-ci, masculin" },
               "label": "nominatif → accusatif ou génitif"
             },
             {
-              "from": { "ar": "هَاتَانِ", "fr": "ces deux-ci (f.)" },
-              "to": { "ar": "هَاتَيْنِ", "fr": "ces deux-ci (f.)" }
+              "from": { "ar": "هَاتَانِ", "fr": "ces deux-ci, féminin" },
+              "to": { "ar": "هَاتَيْنِ", "fr": "ces deux-ci, féminin" }
             },
             {
-              "from": { "ar": "ذَانِكَ", "fr": "ces deux-là (m.)" },
-              "to": { "ar": "ذَيْنِكَ", "fr": "ces deux-là (m.)" }
+              "from": { "ar": "ذَانِكَ", "fr": "ces deux-là, masculin" },
+              "to": { "ar": "ذَيْنِكَ", "fr": "ces deux-là, masculin" }
             },
             {
-              "from": { "ar": "تَانِكَ", "fr": "ces deux-là (f.)" },
-              "to": { "ar": "تَيْنِكَ", "fr": "ces deux-là (f.)" }
+              "from": { "ar": "تَانِكَ", "fr": "ces deux-là, féminin" },
+              "to": { "ar": "تَيْنِكَ", "fr": "ces deux-là, féminin" }
             }
           ]
         },
@@ -114,7 +114,7 @@
         },
         {
           "type": "note",
-          "text": "Le démonstratif est invariable ailleurs, mais ici le nom qui le suit prend le même cas que lui : {ar|هٰذَيْنِ الْبَيْتَيْنِ} (génitif après {ar|فِي})."
+          "text": "Comme au singulier, le nom qui suit le démonstratif prend le cas de la fonction de l'ensemble (génitif après {ar|فِي}). La différence : au duel, le démonstratif lui-même porte ce cas : {ar|هٰذَيْنِ الْبَيْتَيْنِ}."
         }
       ]
     },

@@ -64,7 +64,7 @@
       "blocks": [
         { "type": "example", "ar": "طَلَبَ الطَّالِبُ كِتَابًا.", "fr": "L'étudiant a demandé un livre." },
         { "type": "example", "ar": "أَكَلَ الْوَلَدُ خُبْزًا.", "fr": "Le garçon a mangé du pain." },
-        { "type": "example", "ar": "قَدَّمَ الْمُوَظَّفُ طَعَامًا.", "fr": "L'employé a servi un repas." },
+        { "type": "example", "ar": "قَدَّمَ الْمُوَظَّفُ طَعَامًا.", "fr": "L'employé a servi de la nourriture." },
         {
           "type": "note",
           "text": "Ce qui est demandé, mangé ou servi est à l'accusatif : une fatha, avec l'alif du tanwin ({ar|كِتَابًا}, {ar|خُبْزًا}). Comme aux chapitres 11 et 14, tu le vois sans avoir à le produire."
@@ -75,7 +75,7 @@
       "id": "medine-t1.l18.vocab-2#9",
       "type": "fill_gap",
       "sentence": "{0} الْمُوَظَّفُ طَعَامًا.",
-      "fr": "L'employé a servi un repas.",
+      "fr": "L'employé a servi de la nourriture.",
       "gaps": [ { "answers": ["قَدَّمَ"] } ],
       "options": ["قَدَّمَ", "أَكَلَ", "طَلَبَ", "أَرَادَ"],
       "explain": "{ar|قَدَّمَ} : il a présenté, il a servi."

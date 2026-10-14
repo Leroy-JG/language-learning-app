@@ -56,7 +56,7 @@
             {
               "from": { "ar": "قَلَمٌ", "fr": "un stylo" },
               "to": { "ar": "كَمْ قَلَمًا؟", "fr": "combien de stylos ?" },
-              "label": "tanwin damma → tanwin fatha, avec un alif"
+              "label": "tanwin damma → tanwin fatha, avec un alif en général"
             },
             {
               "from": { "ar": "أُخْتٌ", "fr": "une sœur" },
@@ -72,6 +72,10 @@
               "label": "après {ar|ة} : fatha sans alif (chapitre 5)"
             }
           ]
+        },
+        {
+          "type": "note",
+          "text": "L'adjectif qui décrit ce nom prend lui aussi la fatha : {ar|كَمْ طَالِبًا جَدِيدًا فِي فَصْلِكُمْ؟} (« combien de nouveaux étudiants y a-t-il dans votre classe ? »)."
         },
         {
           "type": "note",

@@ -86,6 +86,10 @@
         {
           "type": "note",
           "text": "Ce {ar|ن} remplace seulement le tanwin, qui marque ordinairement un nom indéfini. C'est pourquoi on n'ajoute pas de tanwin à un duel."
+        },
+        {
+          "type": "note",
+          "text": "Le {ar|ن} reste avec l'article ({ar|الْكِتَابَانِ}), mais il tombe quand le duel est le premier terme d'une annexion ou qu'un pronom lui est collé : {ar|كِتَابَا الطَّالِبِ} (« les deux livres de l'étudiant »), {ar|كِتَابَاهُ} (« ses deux livres »). Tu en verras un exemple dans le texte du livre."
         }
       ]
     },

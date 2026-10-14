@@ -76,6 +76,31 @@
   duel (`grammar-1` et `grammar-2`) n'emploient que des mots déjà enseignés.
 - `هُمَا لِي` (dialogue) : `هُمَا` reprend deux choses ; `طَعَامَهُمَا` et `يَدَيْهِ` : cités en astuce.
 
+## Corrections après relecture
+
+Trois relecteurs indépendants (arabe, exercices, français et pédagogie), puis une relecture ciblée du diff. Aucune erreur
+d'arabe n'a été trouvée ; les corrections portent sur des réponses justes à accepter et sur des formulations :
+
+- réponses acceptées en plus : `لِي قَلَمَانِ`, `عِنْدِي أُخْتَانِ`, réponses courtes (`سَبُّورَتَانِ`…), `كَمْ مِفْتَاحًا لَكَ؟`,
+  l'ordre `الْمُوَظَّفُ قَدَّمَ الطَّعَامَ`, `فِي حَقِيبَتِي الْمِسْطَرَةُ`, `هٰذَانِ عِيدُ الْفِطْرِ وَعِيدُ الْأَضْحَى`, les pluriels
+  `أَفْكَارٌ` et `فِكَرٌ` (« des idées ») et `سِنُونَ` (« des années ») ;
+- « un `ه` au début = proche » (et non `هٰ`), car `هَاتَانِ` commence par `هَـ` ; « en général » ajouté partout où il existe
+  des exceptions (nom après `كَمْ`, fatha après `أَنْ`, alif du tanwin à la fatha) ;
+- explications ajoutées : le `ن` du duel tombe en annexion ou devant un pronom collé (`كِتَابَا الطَّالِبِ`, `يَدَيْهِ`) ; le verbe
+  avant un sujet au duel ne s'accorde qu'en genre (`دَخَلَتِ الْبِنْتَانِ`) ; l'adjectif après `كَمْ` prend la fatha ;
+  `اِثْنَانِ` n'est utile que pour insister ;
+- français : « de la nourriture » (et non « un repas ») pour `طَعَامٌ`, « le vélo », « de l'Inde », « deux jeunes enfants »,
+  « deux grandes maisons » (pas « grandes écoles ») ; `l'employé, à la réception` ;
+- `أَبٌ` → `أَبَوَانِ` et le `ن` du duel tombant en annexion ne sont pas exigés en exercice.
+
+## À faire à la fusion dans `main` (chapitres 16, 17, 18, 19 écrits en parallèle)
+
+- `level.json` : ordre `l15, l16, l17, l18, l19`.
+- `w:muthanna` : défini aussi par `l17/items.json` (le chapitre 17 précède) ; supprimer la définition de `l18/items.json` et
+  l'écran `present` de `l18/grammar-1` qui la présente (le mot est alors présenté au chapitre 17).
+- `w:kam` : défini ici ; le chapitre 19 retire sa définition provisoire de `l19/items.json`.
+- Mettre à jour `CLAUDE.md`, `docs/roadmap.md` (« chapitres 1 à 19 ») et ajouter ces choix à `docs/sources.md`.
+
 ## Écriture en parallèle des leçons 16 à 19
 
 La leçon 18 ne s'appuie que sur la leçon 15 et sur ce qu'elle enseigne elle-même. Ids partagés avec la leçon 19

@@ -32,7 +32,7 @@
         {
           "speaker": "Z",
           "ar": "فِكْرَةٌ طَيِّبَةٌ. هَيَّا بِنَا نُكَلِّمُ الْمُوَظَّفَ فِي الِاسْتِقْبَالِ.",
-          "fr": "Bonne idée. Allons parler à l'employé de la réception."
+          "fr": "Bonne idée. Allons parler à l'employé, à la réception."
         },
         {
           "speaker": "N",
@@ -74,7 +74,7 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "Quand le verbe vient avant son sujet, il reste au singulier, même si le sujet est un duel : {ar|دَخَلَ الصَّدِيقَانِ}, comme on dit {ar|دَخَلَ الصَّدِيقُ}."
+          "text": "Quand le verbe vient avant son sujet, il reste au singulier, même si le sujet est un duel : {ar|دَخَلَ الصَّدِيقَانِ}, comme on dit {ar|دَخَلَ الصَّدِيقُ}. Seul le genre s'accorde (chapitre 12) : {ar|دَخَلَتِ الْبِنْتَانِ} (« les deux filles sont entrées »)."
         },
         {
           "type": "note",
@@ -82,7 +82,7 @@
         },
         {
           "type": "note",
-          "text": "{ar|لِغَسْلِ يَدَيْهِ} : « pour se laver les mains », mot à mot « pour laver ses deux mains ». Devant le pronom collé, le duel {ar|يَدَانِ} perd son {ar|ن} : {ar|يَدَيْ} + {ar|هِ}."
+          "text": "{ar|لِغَسْلِ يَدَيْهِ} : « pour se laver les mains », mot à mot « pour laver ses deux mains ». Devant le pronom collé, le duel {ar|يَدَانِ} perd son {ar|ن} : {ar|يَدَيْ} + {ar|هِ}. Il est ici au génitif, second terme de l'annexion après {ar|غَسْلِ}."
         }
       ]
     },
@@ -105,7 +105,11 @@
               "il est entré dans le restaurant",
               "pas de préposition : « entrer » + l'accusatif"
             ],
-            ["{ar|تُرِيدُ أَنْ تَأْكُلَ}", "tu veux manger", "après {ar|أَنْ}, le verbe prend une fatha finale"],
+            [
+              "{ar|تُرِيدُ أَنْ تَأْكُلَ}",
+              "tu veux manger",
+              "après {ar|أَنْ}, le verbe prend en général une fatha finale"
+            ],
             ["{ar|أَنْ نَطْلُبَ}", "que nous commandions", "même règle ; {ar|نَطْلُبُ} : « nous demandons »"],
             ["{ar|نُكَلِّمُ}", "nous parlons à", "un verbe au présent"],
             ["{ar|أَكَلْتُ}", "j'ai mangé", "le verbe au passé avec {ar|تُ} : « je »"],
@@ -150,7 +154,7 @@
       "id": "medine-t1.l18.dialogue-2#7",
       "type": "order",
       "fr": "L'employé a servi le repas.",
-      "answers": [["قَدَّمَ", "الْمُوَظَّفُ", "الطَّعَامَ"]],
+      "answers": [["قَدَّمَ", "الْمُوَظَّفُ", "الطَّعَامَ"], ["الْمُوَظَّفُ", "قَدَّمَ", "الطَّعَامَ"]],
       "punctuation": "."
     },
     {

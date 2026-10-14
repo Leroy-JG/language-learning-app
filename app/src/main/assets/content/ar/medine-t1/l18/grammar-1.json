@@ -76,7 +76,10 @@
             }
           ]
         },
-        { "type": "note", "text": "Pas besoin du mot « deux » : {ar|كِتَابَانِ} veut déjà dire « deux livres »." }
+        {
+          "type": "note",
+          "text": "Pas besoin du mot « deux » : {ar|كِتَابَانِ} veut déjà dire « deux livres ». On peut ajouter {ar|اِثْنَانِ} (« deux ») pour insister, mais ce n'est pas nécessaire."
+        }
       ]
     },
     {
@@ -129,8 +132,7 @@
         },
         {
           "type": "note",
-          "tone": "culture",
-          "text": "Les parties du corps qui vont par paire (chapitre 3) sont les premières à qui l'on pense : {ar|عَيْنٌ} → {ar|عَيْنَانِ} (deux yeux), {ar|أُذُنٌ} → {ar|أُذُنَانِ} (deux oreilles), {ar|يَدٌ} → {ar|يَدَانِ} (deux mains)."
+          "text": "Les parties du corps qui vont par paire (chapitre 3) viennent d'abord à l'esprit : {ar|عَيْنٌ} → {ar|عَيْنَانِ} (deux yeux), {ar|أُذُنٌ} → {ar|أُذُنَانِ} (deux oreilles), {ar|يَدٌ} → {ar|يَدَانِ} (deux mains)."
         }
       ]
     },

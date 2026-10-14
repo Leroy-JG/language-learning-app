@@ -18,7 +18,7 @@
         {
           "speaker": "A",
           "ar": "كَمْ عَجَلَةً لِلدَّرَّاجَةِ يَا حَامِدُ؟",
-          "fr": "Combien de roues a un vélo, Ḥāmid ?"
+          "fr": "Combien de roues a le vélo, Ḥāmid ?"
         },
         { "speaker": "B", "ar": "لَهَا عَجَلَتَانِ.", "fr": "Il a deux roues." },
         {
@@ -106,7 +106,7 @@
     {
       "id": "medine-t1.l18.dialogue-1#6",
       "type": "question",
-      "prompt": { "fr": "Combien de roues a un vélo, selon Ḥāmid ?" },
+      "prompt": { "fr": "Combien de roues a le vélo, selon Ḥāmid ?" },
       "choices": [ { "fr": "Deux" }, { "fr": "Trois" }, { "fr": "Quatre" } ],
       "answer": 0,
       "context": { "dialogue": "medine-t1.l18.dialogue-1#1" },
@@ -131,7 +131,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Ce sont la fête de la rupture du jeûne et la fête du sacrifice.",
-      "answers": ["هُمَا عِيدُ الْفِطْرِ وَعِيدُ الْأَضْحَى."]
+      "answers": ["هُمَا عِيدُ الْفِطْرِ وَعِيدُ الْأَضْحَى.", "هٰذَانِ عِيدُ الْفِطْرِ وَعِيدُ الْأَضْحَى."]
     }
   ]
 }

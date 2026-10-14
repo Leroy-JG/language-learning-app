@@ -15,7 +15,7 @@
         },
         {
           "type": "note",
-          "text": "Pour la famille, on dit {ar|لِي} (« j'ai ») ; pour les objets, {ar|عِنْدِي} (chapitre 10). Souviens-toi : le duel de {ar|أَخٌ} est {ar|أَخَوَانِ}."
+          "text": "Dans le livre, pour la famille, on dit en général {ar|لِي} (« j'ai ») ; pour les objets, {ar|عِنْدِي} (chapitre 10). Les deux sont acceptés ici. Souviens-toi : le duel de {ar|أَخٌ} est {ar|أَخَوَانِ}."
         }
       ]
     },
@@ -24,7 +24,7 @@
       "type": "typing",
       "ask": "question",
       "question": "كَمْ قَلَمًا عِنْدَكَ؟",
-      "answers": ["عِنْدِي قَلَمَانِ.", "قَلَمَانِ."],
+      "answers": ["عِنْدِي قَلَمَانِ.", "لِي قَلَمَانِ.", "قَلَمَانِ."],
       "fr": "J'ai deux stylos.",
       "instruction": "Réponds : « j'ai deux stylos »."
     },
@@ -42,7 +42,7 @@
       "type": "typing",
       "ask": "question",
       "question": "كَمْ سَبُّورَةً فِي فَصْلِكُمْ؟",
-      "answers": ["فِي فَصْلِنَا سَبُّورَتَانِ.", "فِي الْفَصْلِ سَبُّورَتَانِ."],
+      "answers": ["فِي فَصْلِنَا سَبُّورَتَانِ.", "فِي الْفَصْلِ سَبُّورَتَانِ.", "سَبُّورَتَانِ."],
       "fr": "Il y a deux tableaux dans notre classe.",
       "instruction": "Réponds : « il y a deux tableaux dans notre classe »."
     },
@@ -51,14 +51,15 @@
       "type": "order",
       "fr": "J'ai deux frères.",
       "answers": [["لِي", "أَخَوَانِ"]],
-      "punctuation": "."
+      "punctuation": ".",
+      "instruction": "Remets les mots dans l'ordre, avec {ar|لِي}."
     },
     {
       "id": "medine-t1.l18.practice-3#6",
       "type": "typing",
       "ask": "question",
       "question": "كَمْ أُخْتًا لَكَ يَا عَلِيُّ؟",
-      "answers": ["لِي أُخْتَانِ."],
+      "answers": ["لِي أُخْتَانِ.", "عِنْدِي أُخْتَانِ.", "أُخْتَانِ."],
       "fr": "J'ai deux sœurs.",
       "instruction": "Réponds : « j'ai deux sœurs »."
     },
@@ -76,7 +77,7 @@
       "type": "typing",
       "ask": "question",
       "question": "كَمْ طَالِبًا جَدِيدًا فِي فَصْلِكُمْ؟",
-      "answers": ["فِي فَصْلِنَا طَالِبَانِ جَدِيدَانِ.", "فِي الْفَصْلِ طَالِبَانِ جَدِيدَانِ."],
+      "answers": ["فِي فَصْلِنَا طَالِبَانِ جَدِيدَانِ.", "فِي الْفَصْلِ طَالِبَانِ جَدِيدَانِ.", "طَالِبَانِ جَدِيدَانِ."],
       "fr": "Il y a deux nouveaux étudiants dans notre classe.",
       "instruction": "Réponds : « il y a deux nouveaux étudiants dans notre classe »."
     },
@@ -85,7 +86,7 @@
       "type": "typing",
       "ask": "question",
       "question": "كَمْ مَسْجِدًا فِي قَرْيَتِكَ يَا زَكَرِيَّا؟",
-      "answers": ["فِي قَرْيَتِي مَسْجِدَانِ."],
+      "answers": ["فِي قَرْيَتِي مَسْجِدَانِ.", "مَسْجِدَانِ."],
       "fr": "Il y a deux mosquées dans mon village.",
       "instruction": "Réponds : « il y a deux mosquées dans mon village »."
     },
@@ -104,7 +105,7 @@
       "type": "typing",
       "ask": "question",
       "question": "كَمْ مَطْعَمًا فِي هٰذَا الشَّارِعِ؟",
-      "answers": ["فِي هٰذَا الشَّارِعِ مَطْعَمَانِ."],
+      "answers": ["فِي هٰذَا الشَّارِعِ مَطْعَمَانِ.", "مَطْعَمَانِ."],
       "fr": "Il y a deux restaurants dans cette rue.",
       "instruction": "Réponds : « il y a deux restaurants dans cette rue »."
     },

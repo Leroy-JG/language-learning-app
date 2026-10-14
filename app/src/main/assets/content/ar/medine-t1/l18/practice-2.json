@@ -21,7 +21,7 @@
         },
         {
           "type": "note",
-          "text": "Rappel : le nom est indéfini, au singulier, avec le tanwin à la fatha (avec un alif, sauf après {ar|ة})."
+          "text": "Rappel : le nom est indéfini, au singulier, avec le tanwin à la fatha (avec un alif en général, mais pas après {ar|ة})."
         }
       ]
     },
@@ -80,7 +80,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Combien de clés as-tu ?",
-      "answers": ["كَمْ مِفْتَاحًا عِنْدَكَ؟"]
+      "answers": ["كَمْ مِفْتَاحًا عِنْدَكَ؟", "كَمْ مِفْتَاحًا لَكَ؟"]
     },
     {
       "id": "medine-t1.l18.practice-2#9",

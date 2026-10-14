@@ -157,7 +157,7 @@
     "fr": "il a présenté, il a servi (présenter, servir)",
     "translit": "qaddama",
     "note": "Avec une shadda sur le {ar|د}. On peut présenter un plat, une idée ou un service : ce qu'on présente est à l'accusatif (fatha), comme au chapitre 14.",
-    "example": { "ar": "قَدَّمَ الْمُوَظَّفُ طَعَامًا.", "fr": "L'employé a servi un repas." }
+    "example": { "ar": "قَدَّمَ الْمُوَظَّفُ طَعَامًا.", "fr": "L'employé a servi de la nourriture." }
   },
   {
     "id": "w:ray",
@@ -178,7 +178,7 @@
     "translit": "fikratun",
     "plural": "فِكْرَاتٌ",
     "gender": "f",
-    "note": "On entend aussi très souvent {ar|أَفْكَارٌ} pour dire « des idées ».",
+    "note": "Pour dire « des idées », on emploie aussi très souvent {ar|أَفْكَارٌ} ; on trouve également {ar|فِكَرٌ}.",
     "example": { "ar": "عِنْدِي فِكْرَةٌ.", "fr": "J'ai une idée." }
   },
   {

@@ -72,7 +72,7 @@
       "ask": "question",
       "question": "هٰذَا الطَّالِبُ مِنَ الْهِنْدِ.",
       "answers": ["هٰذَانِ الطَّالِبَانِ مِنَ الْهِنْدِ."],
-      "fr": "Ces deux étudiants viennent d'Inde.",
+      "fr": "Ces deux étudiants viennent de l'Inde.",
       "instruction": "Mets la phrase au duel."
     },
     {
