@@ -48,7 +48,10 @@
       "type": "tip",
       "title": "Qui prend ce pluriel ?",
       "blocks": [
-        { "type": "paragraph", "text": "Ce pluriel est réservé aux **êtres humains de sexe masculin**." },
+        {
+          "type": "paragraph",
+          "text": "Ce pluriel s'emploie pour des **êtres humains de genre masculin** : des hommes, et aussi un groupe qui mêle hommes et femmes (comme {ar|أَنْتُمْ}, chapitre 10)."
+        },
         {
           "type": "table",
           "header": ["Pour…", "Exemples"],

@@ -53,7 +53,7 @@
             [
               "régulier",
               "{ar|جَمْعٌ سَالِمٌ}",
-              "le singulier reste entier, on ajoute une terminaison",
+              "le début du mot reste, seule la fin change",
               "{ar|مُسْلِمٌ} → {ar|مُسْلِمُونَ}"
             ],
             ["irrégulier", "{ar|جَمْعُ تَكْسِيرٍ}", "le mot lui-même change", "{ar|كِتَابٌ} → {ar|كُتُبٌ}"]
@@ -62,7 +62,7 @@
         {
           "type": "note",
           "tone": "memo",
-          "text": "{ar|سَالِمٌ} veut dire « intact » : le mot reste entier. {ar|تَكْسِيرٌ} veut dire « le fait de briser » : le mot est brisé. C'est pourquoi on dit aussi pluriel « sain » et pluriel « brisé »."
+          "text": "{ar|سَالِمٌ} veut dire « intact » : le début du mot reste intact. {ar|تَكْسِيرٌ} veut dire « le fait de briser » : le mot est brisé. C'est pourquoi on dit aussi pluriel « sain » et pluriel « brisé »."
         }
       ]
     },
@@ -72,7 +72,7 @@
       "id": "medine-t1.l17.grammar-1#7",
       "type": "true_false",
       "statement": {
-        "fr": "{ar|مُسْلِمَاتٌ} est un pluriel régulier : on a gardé le mot {ar|مُسْلِمَةٌ} et changé seulement sa fin."
+        "fr": "{ar|مُسْلِمَاتٌ} est un pluriel régulier : le début du mot {ar|مُسْلِمَةٌ} est gardé, seule la fin change."
       },
       "answer": true,
       "explain": "Oui : {ar|مُسْلِمَةٌ} → {ar|مُسْلِمَاتٌ}. Le début du mot ne change pas, seule la fin est remplacée."
@@ -110,7 +110,7 @@
       "type": "question",
       "prompt": { "fr": "Qu'est-ce que {ar|مُسْلِمُونَ} et {ar|مُسْلِمَاتٌ} ont en commun ?" },
       "choices": [
-        { "fr": "On a gardé {ar|مُسْلِمٌ} et ajouté une terminaison" },
+        { "fr": "Le début du mot reste, seule la fin change" },
         { "fr": "Le mot {ar|مُسْلِمٌ} a été brisé" },
         { "fr": "Tous deux désignent des hommes" }
       ],
@@ -120,7 +120,7 @@
     {
       "id": "medine-t1.l17.grammar-1#13",
       "type": "sort",
-      "categories": [ { "fr": "régulier (une terminaison s'ajoute)" }, { "fr": "irrégulier (le mot change)" } ],
+      "categories": [ { "fr": "régulier (seule la fin change)" }, { "fr": "irrégulier (le mot change)" } ],
       "cards": [
         { "ar": "مُسْلِمُونَ", "category": 0 },
         { "ar": "كُتُبٌ", "category": 1 },

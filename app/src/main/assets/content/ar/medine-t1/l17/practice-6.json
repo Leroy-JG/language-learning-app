@@ -23,8 +23,8 @@
       "ask": "question",
       "question": "أَيْنَ الْكُتُبُ الْجَدِيدَةُ؟",
       "answers": ["هِيَ فِي الْفَصْلِ.", "فِي الْفَصْلِ."],
-      "fr": "Elles sont en classe.",
-      "instruction": "Réponds : elles sont en classe.",
+      "fr": "Ils sont en classe.",
+      "instruction": "Réponds : ils sont en classe.",
       "explain": "{ar|هِيَ} reprend le pluriel de choses."
     },
     {
@@ -39,19 +39,19 @@
     {
       "id": "medine-t1.l17.practice-6#4",
       "type": "order",
-      "fr": "Ce stylo-ci est neuf. → Ces stylos-ci sont neufs.",
+      "fr": "Voici de nouveaux stylos.",
       "answers": [["هٰذِهِ", "أَقْلَامٌ", "جَدِيدَةٌ"]],
       "punctuation": ".",
-      "instruction": "Mets au pluriel : {ar|هٰذَا قَلَمٌ جَدِيدٌ.}",
+      "instruction": "Mets au pluriel : {ar|هٰذَا قَلَمٌ جَدِيدٌ.} (Voici un nouveau stylo.)",
       "explain": "{ar|قَلَمٌ} → {ar|أَقْلَامٌ} ; {ar|هٰذَا} → {ar|هٰذِهِ} ; {ar|جَدِيدٌ} → {ar|جَدِيدَةٌ}."
     },
     {
       "id": "medine-t1.l17.practice-6#5",
       "type": "order",
-      "fr": "Cette étoile est belle. → Ces étoiles sont belles.",
+      "fr": "Les étoiles sont belles.",
       "answers": [["النُّجُومُ", "جَمِيلَةٌ"]],
       "punctuation": ".",
-      "instruction": "Mets au pluriel : {ar|النَّجْمُ جَمِيلٌ.}",
+      "instruction": "Mets au pluriel : {ar|النَّجْمُ جَمِيلٌ.} (L'étoile est belle.)",
       "explain": "{ar|نَجْمٌ} → {ar|نُجُومٌ} ; {ar|جَمِيلٌ} → {ar|جَمِيلَةٌ}."
     },
     {
@@ -60,34 +60,34 @@
       "ask": "question",
       "question": "لِمَنْ هٰذِهِ الْأَقْلَامُ الْجَدِيدَةُ؟",
       "answers": ["هِيَ لِلْمُدَرِّسِ.", "لِلْمُدَرِّسِ."],
-      "fr": "Elles sont à l'enseignant.",
-      "instruction": "Réponds : elles sont à l'enseignant.",
+      "fr": "Ils appartiennent à l'enseignant.",
+      "instruction": "Réponds : ils appartiennent à l'enseignant.",
       "explain": "{ar|لِ} + {ar|الْمُدَرِّسِ} s'écrit {ar|لِلْمُدَرِّسِ}."
     },
     {
       "id": "medine-t1.l17.practice-6#7",
       "type": "order",
-      "fr": "Ce lit-là est cassé. → Ces lits-là sont cassés.",
+      "fr": "Ces lits-là sont cassés.",
       "answers": [["تِلْكَ", "السُّرُرُ", "مَكْسُورَةٌ"]],
       "punctuation": ".",
-      "instruction": "Mets au pluriel : {ar|ذٰلِكَ السَّرِيرُ مَكْسُورٌ.}"
+      "instruction": "Mets au pluriel : {ar|ذٰلِكَ السَّرِيرُ مَكْسُورٌ.} (Ce lit-là est cassé.)"
     },
     {
       "id": "medine-t1.l17.practice-6#8",
       "type": "order",
-      "fr": "Ce jeune étudiant... → Ces nouveaux étudiants.",
+      "fr": "Voici de nouveaux étudiants.",
       "answers": [["هَؤُلَاءِ", "طُلَّابٌ", "جُدُدٌ"]],
       "punctuation": ".",
-      "instruction": "Mets au pluriel : {ar|هٰذَا طَالِبٌ جَدِيدٌ.}",
+      "instruction": "Mets au pluriel : {ar|هٰذَا طَالِبٌ جَدِيدٌ.} (Voici un nouvel étudiant.)",
       "explain": "Pour des personnes, on emploie {ar|هَؤُلَاءِ}, le pluriel {ar|طُلَّابٌ} et l'adjectif au pluriel, {ar|جُدُدٌ}."
     },
     {
       "id": "medine-t1.l17.practice-6#9",
       "type": "order",
-      "fr": "Cet homme est un grand savant. → Ces hommes sont de grands savants.",
+      "fr": "Ces hommes-là sont de grands savants.",
       "answers": [["أُولَئِكَ", "الرِّجَالُ", "عُلَمَاءُ", "كِبَارٌ"]],
       "punctuation": ".",
-      "instruction": "Mets au pluriel : {ar|ذٰلِكَ الرَّجُلُ عَالِمٌ كَبِيرٌ.}",
+      "instruction": "Mets au pluriel : {ar|ذٰلِكَ الرَّجُلُ عَالِمٌ كَبِيرٌ.} (Cet homme-là est un grand savant.)",
       "explain": "{ar|ذٰلِكَ} → {ar|أُولَئِكَ} ; {ar|رَجُلٌ} → {ar|رِجَالٌ} ; {ar|عَالِمٌ} → {ar|عُلَمَاءُ} ; {ar|كَبِيرٌ} → {ar|كِبَارٌ}."
     },
     {
@@ -95,9 +95,9 @@
       "type": "typing",
       "ask": "question",
       "question": "هٰذِهِ سَاعَةٌ رَخِيصَةٌ.",
-      "answers": ["هٰذِهِ سَاعَاتٌ رَخِيصَةٌ."],
-      "fr": "Ces montres sont bon marché.",
-      "instruction": "Mets le sujet au pluriel.",
+      "answers": ["هٰذِهِ سَاعَاتٌ رَخِيصَةٌ.", "هٰذِهِ سَاعَاتٌ رَخِيصَاتٌ."],
+      "fr": "Voici des montres bon marché.",
+      "instruction": "Mets le sujet au pluriel. (Voici une montre bon marché.)",
       "explain": "{ar|سَاعَةٌ} → {ar|سَاعَاتٌ} (pluriel féminin régulier)."
     },
     {
@@ -105,7 +105,7 @@
       "type": "typing",
       "ask": "question",
       "question": "تِلْكَ الطَّائِرَةُ كَبِيرَةٌ.",
-      "answers": ["تِلْكَ الطَّائِرَاتُ كَبِيرَةٌ."],
+      "answers": ["تِلْكَ الطَّائِرَاتُ كَبِيرَةٌ.", "تِلْكَ الطَّائِرَاتُ كَبِيرَاتٌ."],
       "fr": "Ces avions-là sont grands.",
       "instruction": "Mets le sujet au pluriel.",
       "explain": "{ar|طَائِرَةٌ} → {ar|طَائِرَاتٌ}."

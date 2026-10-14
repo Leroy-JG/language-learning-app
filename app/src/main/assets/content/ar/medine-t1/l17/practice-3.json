@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le livre donne des sujets et demande de choisir un prédicat qui convient : {ar|الْبُيُوتُ}, {ar|الْفَنَادِقُ}, {ar|الطُّلَّابُ}. Le prédicat doit s'accorder avec le sujet : un pluriel de choses prend le féminin, un pluriel d'hommes prend le pluriel masculin."
+          "text": "Le livre donne des sujets et demande de choisir un prédicat qui convient : {ar|الْبُيُوتُ}, {ar|الْفَنَادِقُ}, {ar|الطُّلَّابُ}. Le prédicat doit s'accorder avec le sujet : un pluriel de choses prend le féminin, un pluriel d'hommes prend un mot au pluriel (en {ar|◌ُونَ}, ou un pluriel irrégulier comme {ar|كِبَارٌ})."
         }
       ]
     },
@@ -44,15 +44,6 @@
     },
     {
       "id": "medine-t1.l17.practice-3#5",
-      "type": "fill_gap",
-      "sentence": "السَّيَّارَاتُ {0}.",
-      "fr": "Les voitures sont chères.",
-      "gaps": [ { "answers": ["غَالِيَةٌ"] } ],
-      "options": ["غَالِيَةٌ", "غَالٍ", "خَائِفُونَ"],
-      "explain": "Des voitures : l'adjectif est au féminin, {ar|غَالِيَةٌ}."
-    },
-    {
-      "id": "medine-t1.l17.practice-3#6",
       "type": "sort",
       "categories": [ { "fr": "des choses (prédicat au féminin)" }, { "fr": "des hommes (prédicat au pluriel masculin)" } ],
       "cards": [
@@ -65,6 +56,15 @@
       ],
       "instruction": "Le sujet désigne-t-il des choses ou des hommes ?",
       "explain": "Pour des choses ({ar|أَبْوَابٌ}, {ar|نُجُومٌ}, {ar|قُمْصَانٌ}), le prédicat est au féminin. Pour des hommes, au pluriel masculin."
+    },
+    {
+      "id": "medine-t1.l17.practice-3#6",
+      "type": "fill_gap",
+      "sentence": "السَّيَّارَاتُ {0}.",
+      "fr": "Les voitures sont chères.",
+      "gaps": [ { "answers": ["غَالِيَةٌ"] } ],
+      "options": ["غَالِيَةٌ", "غَالٍ", "خَائِفُونَ"],
+      "explain": "Des voitures : l'adjectif est au féminin, {ar|غَالِيَةٌ}."
     },
     {
       "id": "medine-t1.l17.practice-3#7",

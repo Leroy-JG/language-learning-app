@@ -66,7 +66,7 @@
       "prompt": { "fr": "Quel est le pluriel de {ar|شَارِعٌ} (une rue) ?" },
       "choices": [ { "ar": "شَوَارِعُ" }, { "ar": "شَارِعَاتٌ" }, { "ar": "شَارِعُونَ" } ],
       "answer": 0,
-      "explain": "{ar|شَارِعٌ} est un nom de chose masculin : son pluriel est irrégulier, {ar|شَوَارِعُ}."
+      "explain": "Le pluriel de {ar|شَارِعٌ} est irrégulier : {ar|شَوَارِعُ}. Il s'apprend avec le mot."
     },
     {
       "id": "medine-t1.l17.plurals-1#6",

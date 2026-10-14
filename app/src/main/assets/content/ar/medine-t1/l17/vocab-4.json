@@ -41,7 +41,7 @@
         { "item": "w:nahr", "category": 0 }
       ],
       "instruction": "Masculin ou féminin ?",
-      "explain": "{ar|فُنْدُقٌ}, {ar|جَبَلٌ} et {ar|نَهْرٌ} sont masculins ; {ar|طَائِرَةٌ} et {ar|زَوْجَةٌ} sont féminins (ils se terminent par {ar|ة})."
+      "explain": "{ar|فُنْدُقٌ}, {ar|جَبَلٌ} et {ar|نَهْرٌ} sont masculins ; {ar|طَائِرَةٌ} et {ar|زَوْجَةٌ} sont féminins (ces mots se terminent par {ar|ة})."
     },
     { "id": "medine-t1.l17.vocab-4#10", "type": "build", "item": "w:funduq", "extra": ["ك"] },
     {

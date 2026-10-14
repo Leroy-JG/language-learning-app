@@ -16,7 +16,7 @@
         },
         { "type": "example", "ar": "تِلْكَ السُّرُرُ مَكْسُورَةٌ.", "fr": "Ces lits-là sont cassés." },
         { "type": "example", "ar": "هٰذِهِ السَّاعَةُ رَخِيصَةٌ.", "fr": "Cette montre est bon marché." },
-        { "type": "example", "ar": "هٰذِهِ الْحُمُرُ لِلْفَلَّاحِ.", "fr": "Ces ânes sont au paysan." },
+        { "type": "example", "ar": "هٰذِهِ الْحُمُرُ لِلْفَلَّاحِ.", "fr": "Ces ânes appartiennent au paysan." },
         {
           "type": "example",
           "ar": "أَيْنَ كُتُبُكُنَّ يَا أَخَوَاتُ؟ هِيَ فِي الْفَصْلِ.",
@@ -81,7 +81,7 @@
       "id": "medine-t1.l17.practice-5#7",
       "type": "typing",
       "ask": "fr",
-      "fr": "Ces ânes sont au paysan.",
+      "fr": "Ces ânes appartiennent au paysan.",
       "answers": ["هٰذِهِ الْحُمُرُ لِلْفَلَّاحِ.", "هٰذِهِ الْحَمِيرُ لِلْفَلَّاحِ."]
     },
     {

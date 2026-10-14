@@ -85,7 +85,7 @@
       "words": ["سَارَتِ", "الْحَافِلَةُ", "فِي", "شَوَارِعِ", "الْمَدِينَةِ"],
       "answers": [3],
       "fr": "Le bus a roulé dans les rues de la ville.",
-      "explain": "{ar|شَوَارِعِ} est le pluriel irrégulier de {ar|شَارِعٌ} ; il est à la kasra parce qu'il suit la préposition {ar|فِي}."
+      "explain": "{ar|شَوَارِعِ} est le pluriel irrégulier de {ar|شَارِعٌ}. Il est au génitif après {ar|فِي} ; et comme il est premier terme d'une annexion ({ar|شَوَارِعِ الْمَدِينَةِ}), ce pluriel de forme longue retrouve la kasra."
     },
     {
       "id": "medine-t1.l17.dialogue-2#6",

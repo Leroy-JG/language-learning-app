@@ -17,7 +17,7 @@
         {
           "type": "example",
           "ar": "لِمَنْ هٰذِهِ الْبُيُوتُ الْجَدِيدَةُ؟ هِيَ لِمُدِيرِ الشَّرِكَةِ.",
-          "fr": "À qui sont ces nouvelles maisons ? Elles sont au directeur de la société."
+          "fr": "À qui appartiennent ces nouvelles maisons ? Elles appartiennent au directeur de la société."
         },
         { "type": "example", "ar": "النُّجُومُ جَمِيلَةٌ.", "fr": "Les étoiles sont belles." },
         { "type": "example", "ar": "هٰذِهِ الدُّرُوسُ سَهْلَةٌ.", "fr": "Ces leçons sont faciles." },
@@ -44,10 +44,10 @@
     {
       "id": "medine-t1.l17.practice-4#3",
       "type": "question",
-      "prompt": { "fr": "À qui sont ces nouvelles maisons ?" },
+      "prompt": { "fr": "À qui appartiennent ces nouvelles maisons ?" },
       "choices": [ { "fr": "Au directeur de la société" }, { "fr": "À l'étudiant" }, { "fr": "Au chauffeur" } ],
       "answer": 0,
-      "explain": "{ar|هِيَ لِمُدِيرِ الشَّرِكَةِ} : « elles sont au directeur de la société »."
+      "explain": "{ar|هِيَ لِمُدِيرِ الشَّرِكَةِ} : « elles appartiennent au directeur de la société »."
     },
     {
       "id": "medine-t1.l17.practice-4#4",
@@ -77,8 +77,8 @@
       "ask": "question",
       "question": "لِمَنْ هٰذِهِ الْبُيُوتُ الْجَدِيدَةُ؟",
       "answers": ["هِيَ لِمُدِيرِ الشَّرِكَةِ.", "لِمُدِيرِ الشَّرِكَةِ."],
-      "fr": "Elles sont au directeur de la société.",
-      "instruction": "Réponds : elles sont au directeur de la société.",
+      "fr": "Elles appartiennent au directeur de la société.",
+      "instruction": "Réponds : elles appartiennent au directeur de la société.",
       "explain": "{ar|هِيَ} reprend le pluriel de choses {ar|الْبُيُوتُ}."
     },
     {

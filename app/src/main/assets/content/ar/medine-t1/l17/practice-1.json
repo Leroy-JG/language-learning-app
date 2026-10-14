@@ -94,7 +94,7 @@
       "fr": "Les fils de Yāsir sont studieux.",
       "gaps": [ { "answers": ["مُجْتَهِدُونَ"] } ],
       "options": ["مُجْتَهِدُونَ", "مُجْتَهِدٌ", "مُجْتَهِدَاتٌ"],
-      "explain": "{ar|أَبْنَاءُ} : des garçons ; le mot qui les décrit est au pluriel masculin, {ar|مُجْتَهِدُونَ}."
+      "explain": "{ar|أَبْنَاءُ} : des fils ; le mot qui les décrit est au pluriel masculin, {ar|مُجْتَهِدُونَ}."
     },
     {
       "id": "medine-t1.l17.practice-1#10",

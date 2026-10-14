@@ -43,7 +43,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Contrairement aux pluriels réguliers, il n'existe **pas de règle constante** pour fabriquer ces pluriels. Ils ont des formes précises et nombreuses, qui dépendent de la racine du mot au singulier. Il faut donc les **apprendre avec chaque mot**."
+          "text": "Contrairement aux pluriels réguliers, il n'existe **pas de règle constante** pour fabriquer ces pluriels. Ils ont des formes précises et nombreuses, qui dépendent du mot au singulier (de sa forme et de sa racine). Il faut donc les **apprendre avec chaque mot**."
         },
         {
           "type": "note",
@@ -77,7 +77,7 @@
         },
         {
           "type": "note",
-          "text": "La plupart des noms de choses ont un pluriel irrégulier ; certains ont un pluriel en {ar|◌َاتٌ} (chapitre précédent : {ar|سَيَّارَاتٌ})."
+          "text": "Beaucoup de noms de choses ont un pluriel irrégulier ; d'autres, surtout ceux en {ar|ة}, ont un pluriel en {ar|◌َاتٌ} (chapitre 5 : {ar|سَيَّارَاتٌ})."
         }
       ]
     },
@@ -124,7 +124,7 @@
         { "type": "example", "ar": "الْأَطْفَالُ فِي الْحَدَائِقِ.", "fr": "Les enfants sont dans les jardins." },
         {
           "type": "note",
-          "text": "Les pluriels de forme longue ({ar|مَسَاجِدُ}, {ar|حَدَائِقُ}, {ar|مَكَاتِبُ}…) n'ont pas de tanwin (chapitres 4 et 5). Indéfinis, ils prennent la fatha après une préposition : {ar|فِي مَسَاجِدَ} (dans des mosquées). Avec l'article, ils retrouvent la kasra : {ar|فِي الْمَسَاجِدِ}."
+          "text": "Les pluriels de forme longue ({ar|مَسَاجِدُ}, {ar|حَدَائِقُ}, {ar|مَكَاتِبُ}…) n'ont pas de tanwin (chapitres 4 et 5). Indéfinis, ils prennent la fatha après une préposition : {ar|فِي مَسَاجِدَ} (dans des mosquées). Avec l'article, ils retrouvent la kasra : {ar|فِي الْمَسَاجِدِ}. Ils la retrouvent aussi quand ils sont premier terme d'une annexion : {ar|فِي مَسَاجِدِ الْمَدِينَةِ} (dans les mosquées de la ville)."
         }
       ]
     },

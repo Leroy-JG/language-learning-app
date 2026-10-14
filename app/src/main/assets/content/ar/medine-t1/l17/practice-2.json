@@ -62,7 +62,7 @@
       "question": "هٰذِهِ طَالِبَةٌ جَدِيدَةٌ.",
       "answers": ["هَؤُلَاءِ طَالِبَاتٌ جُدُدٌ.", "هَؤُلَاءِ طَالِبَاتٌ جَدِيدَاتٌ."],
       "fr": "Voici de nouvelles étudiantes.",
-      "instruction": "Mets la phrase au pluriel (on parle de jeunes filles).",
+      "instruction": "Mets la phrase au pluriel.",
       "explain": "L'adjectif se met au pluriel : {ar|جُدُدٌ} (pluriel irrégulier, comme pour les hommes) ou {ar|جَدِيدَاتٌ} (pluriel féminin régulier). Les deux sont possibles."
     },
     {
@@ -113,7 +113,7 @@
       "type": "typing",
       "ask": "audio",
       "fr": "Êtes-vous enseignantes ? (à plusieurs femmes)",
-      "answers": ["أَأَنْتُنَّ مُدَرِّسَاتٌ؟"]
+      "answers": ["أَأَنْتُنَّ مُدَرِّسَاتٌ؟", "أَنْتُنَّ مُدَرِّسَاتٌ؟"]
     }
   ]
 }

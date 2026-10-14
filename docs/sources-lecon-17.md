@@ -65,10 +65,11 @@ Trois PDF du cours 17 (`TOME1-17a.pdf`, `17b`, `17c`), lus page par page :
 - **Texte « زَيْدٌ فِي الْحَافِلَةِ »** : texte narratif présenté comme un `dialogue` à un seul narrateur (comme au chapitre 14), en deux parties, avec une astuce
   « Des petites formes à repérer » (suffixes `هِ` / `هِمَا` / `هَا`, `فَ`, `حَتَّى`, `فَتَحَ`, `سَلَّمَ`, le duel `الصَّدِيقَانِ`, le `ت` du féminin) ;
   rien n'est exigé en exercice sur ces formes. `وَصَلَتْ` / `سَارَتْ` du PDF sont écrits `وَصَلَتِ` / `سَارَتِ` devant l'article (kasra, pour éviter deux sukūn).
-- **Exercices 1 et 2 du livre** (page « تمرين ») : les questions ouvertes de l'exercice 1 ont des réponses guidées par la consigne (comme aux chapitres 14 et 15) ;
-  les questions 5 et 6 (`أَيْنَ الْكِلَابُ؟`, `أَيْنَ الْحَمِيرُ؟`) ne sont pas reprises. Dans l'exercice 2, seules douze des treize phrases sont reprises
-  (la phrase 13 du livre l'est, les phrases 3 et 4 de la série du livre ne sont pas toutes demandées) : voir `practice-6` pour la liste exacte.
-  Les mots de l'exercice 3 sont travaillés par accord (`practice-3`).
+- **Exercices 1 et 2 du livre** (page « تمرين » de 17c) : les questions ouvertes de l'exercice 1 ont des réponses guidées par la consigne (comme aux chapitres 14 et 15).
+  Reprises : les questions 1 (`أَيْنَ الْكُتُبُ الْجَدِيدَةُ؟`), 2 (`لِمَنْ هٰذِهِ الْبُيُوتُ…`, dans `practice-4`), 8 (`أَيْنَ دَفَاتِرُ الطُّلَّابِ؟`) et 10 (`لِمَنْ هٰذِهِ الْأَقْلَامُ الْجَدِيدَةُ؟`) ; non reprises : 3, 4, 5, 6, 7 et 9
+  (mêmes structures ; 5 et 6 : `الْكِلَابُ`, `الْحَمِيرُ`). Exercice 2 (mettre le sujet au pluriel) : reprises les phrases 1, 2, 9, 10, 11, 12 ; non reprises : 3 à 8 et 13
+  (même structure). La phrase `ذٰلِكَ السَّرِيرُ مَكْسُورٌ` est un exemple ajouté, construit comme la phrase 7 du livre (`هٰذَا الْمَكْتَبُ مَكْسُورٌ`).
+  L'exercice 3 (prédicats) est travaillé par accord dans `practice-3`.
 - **Liste « حَوِّلْ إِلَى جَمْعٍ »** (17a, page 17) : dix adjectifs ; `قَائِمٌ` et `ذَاكِرٌ` ne sont pas repris (sens à nuancer, `قَائِمٌ` fait doublon avec `وَاقِفٌ`) ;
   les huit autres sont repris (dont `مُسْلِمٌ` et `مُجْتَهِدٌ`, déjà enseignés).
 
@@ -101,5 +102,13 @@ et cinq termes de grammaire : `الْمُثَنَّى`, `الْجَمْعُ ال
 
 ## Coordination avec les autres chapitres en cours
 
-- Chapitre 19 (autre conversation) : prévoit aussi `w:hafila` (`حَافِلَةٌ`) ; l'id est celui de `l17/items.json`, à réutiliser (ne pas le redéfinir).
+- Chapitre 19 (autre conversation) : avait prévu `w:hafila` (`حَافِلَةٌ`), puis l'a retiré de son chapitre : pas de doublon.
 - Chapitre 16 et chapitre 18 : à vérifier à la fusion (le validateur refuse les ids en double).
+
+## Relectures
+
+Trois relecteurs indépendants (arabe et fidélité aux PDF ; exercices ; français et pédagogie), puis une seconde relecture sur le `git diff` des corrections ;
+chaque remarque a été contrôlée avant correction. Corrigés notamment : des traductions françaises qui ne correspondaient pas à l'arabe (défini / indéfini, « jeune » pour
+`جَدِيدٌ`, « Elles » pour des noms masculins), des réponses justes manquantes (adjectif au féminin pluriel pour des choses, ordre sujet-verbe), des formulations trop absolues
+(« le mot reste entier », pluriel masculin « réservé » aux hommes, « la plupart des noms de choses »), la kasra des pluriels de forme longue aussi comme premier terme
+d'annexion, et quatre `fill_gap` d'affilée. Aucune erreur d'arabe n'a été trouvée par les relecteurs.

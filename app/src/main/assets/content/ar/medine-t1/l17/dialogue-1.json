@@ -118,8 +118,12 @@
       "id": "medine-t1.l17.dialogue-1#8",
       "type": "order",
       "fr": "Muḥammad est arrivé au rendez-vous fixé.",
-      "answers": [["وَصَلَ", "مُحَمَّدٌ", "فِي", "الْمَوْعِدِ", "الْمُحَدَّدِ"]],
-      "punctuation": "."
+      "answers": [
+        ["وَصَلَ", "مُحَمَّدٌ", "فِي", "الْمَوْعِدِ", "الْمُحَدَّدِ"],
+        ["مُحَمَّدٌ", "وَصَلَ", "فِي", "الْمَوْعِدِ", "الْمُحَدَّدِ"]
+      ],
+      "punctuation": ".",
+      "explain": "Le verbe peut être avant son sujet (le plus courant) ou après."
     },
     {
       "id": "medine-t1.l17.dialogue-1#9",

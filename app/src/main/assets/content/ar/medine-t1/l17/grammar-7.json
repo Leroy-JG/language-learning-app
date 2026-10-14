@@ -36,15 +36,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le démonstratif et le pronom qui reprennent un pluriel de choses sont eux aussi au **féminin** : {ar|هٰذِهِ} et {ar|هِيَ}."
+          "text": "Le démonstratif et le pronom qui reprennent un pluriel de choses sont eux aussi, en général, au **féminin** : {ar|هٰذِهِ} et {ar|هِيَ}."
         },
         { "type": "example", "ar": "هٰذِهِ الدُّرُوسُ سَهْلَةٌ.", "fr": "Ces leçons sont faciles." },
         {
           "type": "example",
           "ar": "أَيْنَ الْكُتُبُ؟ هِيَ فِي الْفَصْلِ.",
-          "fr": "Où sont les livres ? Elles sont en classe."
+          "fr": "Où sont les livres ? Ils sont en classe."
         },
-        { "type": "example", "ar": "هٰذِهِ الْحُمُرُ لِلْفَلَّاحِ.", "fr": "Ces ânes sont au paysan." },
+        { "type": "example", "ar": "هٰذِهِ الْحُمُرُ لِلْفَلَّاحِ.", "fr": "Ces ânes appartiennent au paysan." },
         {
           "type": "note",
           "tone": "warning",
@@ -112,7 +112,7 @@
       "id": "medine-t1.l17.grammar-7#9",
       "type": "typing",
       "ask": "fr",
-      "fr": "Ces ânes sont au paysan.",
+      "fr": "Ces ânes appartiennent au paysan.",
       "answers": ["هٰذِهِ الْحُمُرُ لِلْفَلَّاحِ.", "هٰذِهِ الْحَمِيرُ لِلْفَلَّاحِ."],
       "explain": "Le pluriel de {ar|حِمَارٌ} est {ar|حُمُرٌ} ; on dit aussi {ar|حَمِيرٌ}. Les animaux se comportent comme des choses : {ar|هٰذِهِ}."
     }
