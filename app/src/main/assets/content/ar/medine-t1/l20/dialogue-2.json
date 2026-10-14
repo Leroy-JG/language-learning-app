@@ -60,6 +60,11 @@
         {
           "type": "note",
           "text": "{ar|لِي زَمِيلَةٌ اِسْمُهَا خَدِيجَةُ} : mot à mot « j'ai une camarade, son nom est Khadīja »."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "{ar|إِخْوَةٌ} finit par {ar|ة}, mais ce n'est **pas** un féminin : c'est le pluriel irrégulier de {ar|أَخٌ}, qui est masculin. On dit donc {ar|خَمْسَةُ إِخْوَةٍ}, avec {ar|ة}. Ici, le {ar|ة} n'est pas le signe du féminin."
         }
       ]
     },
@@ -125,7 +130,12 @@
       "type": "typing",
       "ask": "fr",
       "fr": "J'ai quatre frères et quatre sœurs.",
-      "answers": ["لِي أَرْبَعَةُ إِخْوَةٍ وَأَرْبَعُ أَخَوَاتٍ.", "عِنْدِي أَرْبَعَةُ إِخْوَةٍ وَأَرْبَعُ أَخَوَاتٍ."]
+      "answers": [
+        "لِي أَرْبَعَةُ إِخْوَةٍ وَأَرْبَعُ أَخَوَاتٍ.",
+        "عِنْدِي أَرْبَعَةُ إِخْوَةٍ وَأَرْبَعُ أَخَوَاتٍ.",
+        "لِي أَرْبَعَةُ إِخْوَانٍ وَأَرْبَعُ أَخَوَاتٍ.",
+        "عِنْدِي أَرْبَعَةُ إِخْوَانٍ وَأَرْبَعُ أَخَوَاتٍ."
+      ]
     },
     {
       "id": "medine-t1.l20.dialogue-2#10",

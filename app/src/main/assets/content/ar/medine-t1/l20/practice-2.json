@@ -55,7 +55,7 @@
       },
       "choices": [ { "fr": "Huit" }, { "fr": "Dix" }, { "fr": "Six" } ],
       "answer": 0,
-      "explain": "{ar|ثَمَانِي مُدَرِّسَاتٍ} : huit enseignantes. {ar|مُدَرِّسَةٌ} (une enseignante) et {ar|مَدْرَسَةٌ} (une école) viennent de la même racine, mais ce sont deux mots."
+      "explain": "{ar|ثَمَانِي مُدَرِّسَاتٍ} : huit enseignantes. {ar|مُدَرِّسَةٌ} (une enseignante) et {ar|مَدْرَسَةٌ} (une école) viennent de la même racine, mais ce sont deux mots : {ar|مَدْرَسَةٌ} (un sukun sur le {ar|د}) est le lieu où l'on étudie ; {ar|مُدَرِّسَةٌ} (une shadda sur le {ar|ر}) est celle qui enseigne."
     },
     {
       "id": "medine-t1.l20.practice-2#5",
@@ -68,6 +68,13 @@
     },
     {
       "id": "medine-t1.l20.practice-2#6",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Dans l'université, il y a cinq facultés.",
+      "answers": ["فِي الْجَامِعَةِ خَمْسُ كُلِّيَّاتٍ."]
+    },
+    {
+      "id": "medine-t1.l20.practice-2#7",
       "type": "spot",
       "instruction": "Touche ce qu'on compte.",
       "words": ["فِي", "بَيْتِنَا", "تِسْعُ", "دَجَاجَاتٍ."],
@@ -75,7 +82,7 @@
       "fr": "Dans notre maison, il y a neuf poules."
     },
     {
-      "id": "medine-t1.l20.practice-2#7",
+      "id": "medine-t1.l20.practice-2#8",
       "type": "fill_gap",
       "sentence": "فِي الْمُسْتَشْفَى {0} طَبِيبَاتٍ وَ{1} مُمَرِّضَاتٍ.",
       "fr": "À l'hôpital, il y a dix femmes médecins et quatre infirmières.",
@@ -84,14 +91,14 @@
       "explain": "{ar|طَبِيبَةٌ} et {ar|مُمَرِّضَةٌ} sont féminins : les deux nombres sont sans {ar|ة}."
     },
     {
-      "id": "medine-t1.l20.practice-2#8",
+      "id": "medine-t1.l20.practice-2#9",
       "type": "order",
       "fr": "Khālid a trois fils et quatre filles.",
       "answers": [["خَالِدٌ", "لَهُ", "ثَلَاثَةُ", "أَبْنَاءٍ", "وَأَرْبَعُ", "بَنَاتٍ"]],
       "punctuation": "."
     },
     {
-      "id": "medine-t1.l20.practice-2#9",
+      "id": "medine-t1.l20.practice-2#10",
       "type": "typing",
       "ask": "fr",
       "fr": "Nous avons quatre oncles paternels et cinq tantes paternelles.",
@@ -99,14 +106,21 @@
       "explain": "{ar|عَمٌّ} est masculin ({ar|أَرْبَعَةُ أَعْمَامٍ}), {ar|عَمَّةٌ} est féminin ({ar|خَمْسُ عَمَّاتٍ})."
     },
     {
-      "id": "medine-t1.l20.practice-2#10",
+      "id": "medine-t1.l20.practice-2#11",
+      "type": "order",
+      "fr": "J'ai cinq frères et six sœurs.",
+      "answers": [["لِي", "خَمْسَةُ", "إِخْوَةٍ", "وَسِتُّ", "أَخَوَاتٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l20.practice-2#12",
       "type": "typing",
       "ask": "fr",
       "fr": "Dans mon pays, il y a cinq universités.",
       "answers": ["فِي بَلَدِي خَمْسُ جَامِعَاتٍ."]
     },
     {
-      "id": "medine-t1.l20.practice-2#11",
+      "id": "medine-t1.l20.practice-2#13",
       "type": "fill_gap",
       "sentence": "فِي ذٰلِكَ الدَّرْسِ ثَمَانِي كَلِمَاتٍ {0}.",
       "fr": "Dans cette leçon-là, il y a huit mots nouveaux.",
@@ -115,7 +129,7 @@
       "explain": "Après {ar|كَلِمَاتٍ}, l'adjectif peut se mettre au féminin singulier ({ar|جَدِيدَةٍ}, comme dans cet exercice du livre) ou au féminin pluriel ({ar|جَدِيدَاتٍ}, comme dans l'exemple du vocabulaire). {ar|جَدِيدٍ} est masculin."
     },
     {
-      "id": "medine-t1.l20.practice-2#12",
+      "id": "medine-t1.l20.practice-2#14",
       "type": "typing",
       "ask": "audio",
       "fr": "J'ai trois revues.",

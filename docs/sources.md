@@ -826,7 +826,7 @@ Notes de choix dans un fichier à part : `docs/sources-lecon-17.md` (les chapitr
   - dialogue (pages 3 et 4) → `dialogue-1` (pays des étudiantes) et `dialogue-2` (frères et sœurs, Khadīja) ;
   - diapos des trois règles et de l'analyse → `grammar-1` ; diapo ثَمَانٍ → `grammar-2` ;
   - exercice 1 (٣ à ١٠ avec طَالِبَاتٌ ; le numéro « (١٥) » du PDF est le numéro 10 mal rendu, la phrase est `عَشْرُ طَالِبَاتٍ`) → `practice-1` ;
-  - exercice 2 (phrases 1 à 9 et 11 à 14 ; le PDF n'affiche pas de numéro 10) → `practice-2`, sauf les phrases 6 et 9 reprises dans `practice-4` / `grammar-2` / quiz sous une autre forme ;
+  - exercice 2 (phrases 1 à 9 et 11 à 14 ; le PDF n'affiche pas de numéro 10) → `practice-2` ;
   - exercice 3 (« réponds avec le nombre ») → `practice-3` ; exercice 4 (chiffres → lettres) → `practice-4` ;
   - vocabulaire nouveau (`مَجَلَّةٌ`, `كَلِمَةٌ`) → `vocab-1` ; carte (`أُورُوبَّا`, `مَالِيزِيَا`, `إِنْدُونِيسِيَا`) → `vocab-2`.
 - **Écarts avec le PDF :**
@@ -845,7 +845,9 @@ Notes de choix dans un fichier à part : `docs/sources-lecon-17.md` (les chapitr
   - le « féminin » du nombre dans l'analyse du professeur désigne la forme du nombre (celle en ة) ;
   - chaque nombre s'accorde avec son propre dénombré (`ثَلَاثُ أَخَوَاتٍ وَخَمْسَةُ إِخْوَةٍ`) ;
   - après `كَلِمَاتٌ`, l'adjectif peut être au féminin singulier ou au féminin pluriel ;
-  - `يَا سَلْمَى` : prénom en alif, qui ne change pas à l'écrit.
+  - `يَا سَلْمَى` : prénom de femme en alif maqṣūra (comme `لَيْلَى`), fin invariable, sans tanwin ;
+  - `إِخْوَةٌ` finit par ة mais n'est pas un féminin (pluriel irrégulier de `أَخٌ`, masculin) ; `عَشَرَةُ` (dénombré masculin) en face de `عَشْرُ` (féminin) ; `مَدْرَسَةٌ` (lieu) / `مُدَرِّسَةٌ` (celle qui enseigne).
+- **Relecture (3 relecteurs indépendants + relecture du diff) :** aucune erreur d'arabe ; corrigés : « chaque nombre s'accorde » → « se règle sur » (genre contraire), note sur `سَلْمَى`, « nom en ة = féminin » nuancé, `إِخْوَانٍ` accepté dans `dialogue-2` (typing), phrases 6 et 9 de l'exercice 2 reprises telles quelles, tri « Qui le dit ? » (le PDF ne précise pas que ce sont deux classes), redite du nom collectif réduite à `بَقَرٌ` dans `practice-3`. Non retenu : ordre alternatif `كَمْ لَكِ بِنْتًا` (correct mais non enseigné), `خَمْسُ` à la place de `ثَمَانِي` dans `vocab-2` (`ثَمَانِي` est enseigné au chapitre 19, `grammar-2`).
 - **Choix de contenu :** `w:majalla` : « une revue » (aussi « magazine », en note) ; pas de nouvelle icône (le drapeau d'Indonésie n'existe pas dans les icônes de l'app) ; les deux locutrices du dialogue ont la même voix (`f1`, seule voix féminine du cours), comme au chapitre 12.
 
 ## Audio

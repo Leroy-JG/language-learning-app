@@ -61,11 +61,11 @@
     {
       "id": "medine-t1.l20.practice-3#5",
       "type": "tip",
-      "title": "Un nom collectif ne se compte pas",
+      "title": "Un nom collectif ne se compte pas directement",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Tu connais {ar|بَقَرٌ} (les vaches) et {ar|دَجَاجٌ} (les poules) : ce sont des noms collectifs, qui désignent le groupe en général. Pour compter, on emploie le pluriel régulier de {ar|بَقَرَةٌ} et de {ar|دَجَاجَةٌ}."
+          "text": "Tu connais {ar|بَقَرٌ} (les vaches) : c'est un nom collectif, comme {ar|دَجَاجٌ} (les poules), qui désigne le groupe en général. Pour compter, on emploie le pluriel régulier de {ar|بَقَرَةٌ}."
         },
         {
           "type": "compare",
@@ -73,10 +73,6 @@
             {
               "from": { "ar": "بَقَرٌ", "fr": "les vaches (en général)" },
               "to": { "ar": "بَقَرَاتٌ", "fr": "des vaches (qu'on compte)" }
-            },
-            {
-              "from": { "ar": "دَجَاجٌ", "fr": "les poules (en général)" },
-              "to": { "ar": "دَجَاجَاتٌ", "fr": "des poules (qu'on compte)" }
             }
           ]
         },
@@ -131,7 +127,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le {ar|اِ} de {ar|اِبْنٌ} est un alif de liaison : il ne se prononce pas après un autre mot. Pour que les deux mots se lient, le {ar|م} de {ar|كَمْ} prend alors une kasra : {ar|كَمِ اِبْنًا لَكِ؟} Le livre l'écrit sans voyelles."
+          "text": "Le {ar|اِ} de {ar|اِبْنٌ} est un alif de liaison : il ne se prononce pas après un autre mot. Pour que les deux mots se lient, le {ar|م} de {ar|كَمْ} prend alors une kasra : {ar|كَمِ اِبْنًا لَكِ؟} Le livre écrit simplement {ar|كم ابناً} : la kasra n'est pas notée à l'écrit, mais on la dit à l'oral."
         }
       ]
     },
