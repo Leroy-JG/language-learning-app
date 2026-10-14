@@ -9,6 +9,7 @@ import io.github.leroyjg.arabe.content.FillGapScreen
 import io.github.leroyjg.arabe.content.MatchScreen
 import io.github.leroyjg.arabe.content.McqScreen
 import io.github.leroyjg.arabe.content.MemoryScreen
+import io.github.leroyjg.arabe.content.MultiScreen
 import io.github.leroyjg.arabe.content.OrderScreen
 import io.github.leroyjg.arabe.content.QuestionScreen
 import io.github.leroyjg.arabe.content.SortScreen
@@ -157,6 +158,7 @@ class EngineTest {
                     is TypingScreen -> factory.typing(s).let { p -> p.answers.all { p.check(it).verdict == Verdict.CORRECT } }
                     is TrueFalseScreen -> factory.trueFalse(s).check(s.answer)
                     is QuestionScreen -> factory.question(s).let { it.check(it.correctPosition) }
+                    is MultiScreen -> factory.multi(s).let { it.check(it.correctPositions) }
                     is SortScreen -> factory.sort(s).let { p -> p.cards.indices.all { p.check(it, p.cards[it].category) } }
                     is SpotScreen -> factory.spot(s).check(s.answers)
                     is BuildScreen -> factory.build(s).let { p -> p.check(buildSolution(p)) }

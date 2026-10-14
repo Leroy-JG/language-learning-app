@@ -1,0 +1,9 @@
+{
+  "id": "medine-t1.exam",
+  "number": 23,
+  "title": { "ar": "الِامْتِحَانُ النِّهَائِيُّ", "fr": "Valide le tome 1" },
+  "label": "Examen final",
+  "description": "L'examen final du professeur sur tout le tome 1. Il faut 12/20 pour valider le tome.",
+  "source": "QCM du professeur",
+  "sections": [ { "title": "L'examen du professeur", "activities": ["exam"] } ]
+}

@@ -1,0 +1,195 @@
+{
+  "id": "medine-t1.q01.test",
+  "type": "test",
+  "title": "QCM du professeur n°1",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t1.q01.test#1",
+      "type": "question",
+      "prompt": { "fr": "Combien de catégories de mots l'arabe distingue-t-il ?" },
+      "choices": [ { "fr": "1" }, { "fr": "2" }, { "fr": "3" } ],
+      "answer": 2,
+      "shuffle": false,
+      "explain": "Trois : le nom ({ar|اِسْمٌ}), le verbe ({ar|فِعْلٌ}) et la particule ({ar|حَرْفٌ}).",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q01.test#2",
+      "type": "question",
+      "prompt": { "fr": "Qu'indique le nom ({ar|الِاسْمُ}) ?" },
+      "choices": [ { "fr": "un temps" }, { "fr": "un sens" }, { "fr": "un sens et un temps" } ],
+      "answer": 1,
+      "explain": "Le nom indique un sens à lui seul, sans temps. Le verbe, lui, indique une action et un temps.",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q01.test#3",
+      "type": "question",
+      "prompt": { "fr": "{ar|هٰذَا} s'emploie pour quelque chose…" },
+      "choices": [
+        { "fr": "de loin, masculin, pluriel" },
+        { "fr": "de proche, féminin, singulier" },
+        { "fr": "de proche, masculin, singulier" }
+      ],
+      "answer": 2,
+      "explain": "{ar|هٰذَا} montre quelque chose de proche, au masculin singulier : « ceci ».",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q01.test#4",
+      "type": "question",
+      "prompt": { "ar": "زَيْدٌ فِي الْمَطْبَخِ." },
+      "choices": [
+        { "fr": "Zayd est dans les toilettes" },
+        { "fr": "Zayd est dans la cuisine" },
+        { "fr": "Zayd est dans la chambre" }
+      ],
+      "answer": 1,
+      "instruction": "Choisis le sens correct de la phrase.",
+      "explain": "{ar|الْمَطْبَخُ} est la cuisine.",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q01.test#5",
+      "type": "question",
+      "prompt": { "fr": "Le mot {ar|مَا} s'emploie-t-il pour un être doué de raison ?" },
+      "choices": [ { "fr": "oui" }, { "fr": "non" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "En général, {ar|مَا} s'emploie pour les choses et les animaux ; pour une personne, on emploie {ar|مَنْ}.",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q01.test#6",
+      "type": "question",
+      "prompt": { "fr": "Le mot {ar|مَنْ} fait-il partie des noms démonstratifs ?" },
+      "choices": [ { "fr": "oui" }, { "fr": "non" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|مَنْ} est un nom interrogatif (« qui ? »), pas un démonstratif.",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q01.test#7",
+      "type": "question",
+      "prompt": { "fr": "Le nom propre ({ar|الْعَلَمُ}) est…" },
+      "choices": [ { "ar": "اِسْمٌ نَكِرَةٌ" }, { "ar": "اِسْمٌ مَعْرِفَةٌ" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Un nom propre désigne une personne ou un lieu précis : il est défini ({ar|مَعْرِفَةٌ}), même sans l'article.",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q01.test#8",
+      "type": "question",
+      "prompt": { "fr": "{ar|التَّنْوِينُ عَلَامَةُ الِاسْمِ} : le tanwin est une marque du nom." },
+      "choices": [ { "fr": "vrai" }, { "fr": "faux" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "Un verbe ou une particule ne porte pas le tanwin : c'est une marque du nom.",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q01.test#9",
+      "type": "question",
+      "prompt": { "fr": "Qu'est-ce que le {ar|مَمْنُوعٌ مِنَ الصَّرْفِ} ?" },
+      "choices": [
+        { "fr": "un nom indéfini" },
+        { "fr": "un nom qui ne prend pas de tanwin" },
+        { "fr": "un nom qui porte une kasra" }
+      ],
+      "answer": 1,
+      "explain": "C'est un nom « privé de tanwin » : par exemple {ar|فَاطِمَةُ}.",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q01.test#10",
+      "type": "question",
+      "prompt": { "fr": "Quelle sorte de nom privé de tanwin ({ar|مَمْنُوعٌ مِنَ الصَّرْفِ}) as-tu vue jusqu'ici ?" },
+      "choices": [
+        { "fr": "le nom démonstratif {ar|هٰذَا}" },
+        { "fr": "le nom interrogatif {ar|مَنْ}" },
+        { "fr": "le nom propre féminin ({ar|الْعَلَمُ الْمُؤَنَّثُ})" }
+      ],
+      "answer": 2,
+      "explain": "La plupart des noms propres féminins, comme {ar|فَاطِمَةُ} ou {ar|زَيْنَبُ}, n'ont pas de tanwin.",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q01.test#11",
+      "type": "question",
+      "prompt": { "fr": "Dans quelle catégorie de mots classe-t-on les prépositions ({ar|حُرُوفُ الْجَرِّ}) ?" },
+      "choices": [ { "ar": "اِسْمٌ" }, { "ar": "فِعْلٌ" }, { "ar": "حَرْفٌ" } ],
+      "answer": 2,
+      "shuffle": false,
+      "explain": "Une préposition est une particule : {ar|حَرْفٌ} (au pluriel {ar|حُرُوفٌ}).",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q01.test#12",
+      "type": "question",
+      "prompt": {
+        "fr": "À quelle catégorie de mots appartient {ar|هَمْزَةُ الِاسْتِفْهَامِ} (le {ar|أَ} qui pose une question) ?"
+      },
+      "choices": [ { "ar": "اِسْمٌ" }, { "ar": "فِعْلٌ" }, { "ar": "حَرْفٌ" } ],
+      "answer": 2,
+      "shuffle": false,
+      "explain": "{ar|أَ} est une particule : elle n'a de sens qu'avec un autre mot.",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q01.test#13",
+      "type": "question",
+      "prompt": { "fr": "L'article {ar|الْ} s'appelle…" },
+      "choices": [ { "ar": "حَرْفُ التَّعْرِيفِ" }, { "ar": "حَرْفُ التَّنْكِيرِ" }, { "ar": "حَرْفُ التَّخْطِئَةِ" } ],
+      "answer": 0,
+      "explain": "{ar|الْ} est l'article défini : {ar|حَرْفُ التَّعْرِيفِ}.",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q01.test#14",
+      "type": "question",
+      "prompt": { "ar": "مَا فِي الْبَيْتِ؟ زَيْدٌ فِي الْبَيْتِ." },
+      "choices": [ { "fr": "oui" }, { "fr": "non" } ],
+      "answer": 1,
+      "shuffle": false,
+      "instruction": "Une question, puis sa réponse. Ce petit dialogue est-il correct ?",
+      "explain": "Zayd est une personne : il faut {ar|مَنْ فِي الْبَيْتِ؟}. {ar|مَا} s'emploie pour les choses et les animaux.",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q01.test#15",
+      "type": "question",
+      "prompt": { "ar": "مَنْ هٰذَا؟ هٰذَا كَلْبٌ." },
+      "choices": [ { "fr": "oui" }, { "fr": "non" } ],
+      "answer": 1,
+      "shuffle": false,
+      "instruction": "Une question, puis sa réponse. Ce petit dialogue est-il correct ?",
+      "explain": "{ar|مَنْ} interroge sur une personne. Pour un chien, on demande {ar|مَا هٰذَا؟}.",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q01.test#16",
+      "type": "question",
+      "prompt": { "fr": "Les prépositions ({ar|حُرُوفُ الْجَرِّ}) agissent de deux manières sur le nom : sur…" },
+      "choices": [
+        { "fr": "sa terminaison et son sens" },
+        { "fr": "sa terminaison et son genre" },
+        { "fr": "son genre et son sens" }
+      ],
+      "answer": 0,
+      "explain": "Elles changent le sens du nom (dans, sur, de…) et sa voyelle finale, qui devient en général une kasra.",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q01.test#17",
+      "type": "question",
+      "prompt": { "fr": "Quand l'article {ar|الْ} s'ajoute à un nom, celui-ci perd son…" },
+      "choices": [ { "ar": "التَّنْوِينُ" }, { "ar": "الضَّمَّةُ" }, { "ar": "الْكَسْرَةُ" } ],
+      "answer": 0,
+      "explain": "Un nom n'a jamais à la fois l'article et le tanwin : {ar|كِتَابٌ} → {ar|الْكِتَابُ}.",
+      "points": 1
+    }
+  ]
+}

@@ -23,7 +23,7 @@ MCQ_MODES = {"ar-fr": "arabe → français", "fr-ar": "français → arabe",
 MATCH_MODES = {"ar-fr": "arabe ↔ français", "audio-ar": "audio ↔ arabe", "sing-plur": "singulier ↔ pluriel"}
 ASK = {"fr": "à partir du français", "audio": "dictée", "question": "répondre à la question"}
 ACT_TYPES = {"vocabulary": "Vocabulaire", "grammar": "Grammaire", "dialogue": "Dialogue",
-             "review": "Révision", "quiz": "Quiz"}
+             "review": "Révision", "quiz": "Quiz", "test": "QCM noté", "exam": "Examen"}
 
 
 def load(path):
@@ -163,7 +163,10 @@ def render_screen(sc, screens_by_id):
         body = f'<div>Vrai ou faux : {stxt}</div><div>✅ {"Vrai" if sc["answer"] else "Faux"}</div>'
     elif t == "question":
         ch = "".join(f'<li>{"✅ " if i == sc["answer"] else ""}{text_obj(c)}</li>' for i, c in enumerate(sc["choices"]))
-        body = f'<div>{text_obj(sc["prompt"])}</div><ul>{ch}</ul>'
+        body = f'<div>{text_obj(sc["prompt"])}' + (f' <span class="muted">({sc["points"]} pt)</span>' if "points" in sc else "") + f'</div><ul>{ch}</ul>'
+    elif t == "multi":
+        ch = "".join(f'<li>{"✅ " if i in sc["answers"] else ""}{text_obj(c)}</li>' for i, c in enumerate(sc["choices"]))
+        body = f'<div>{text_obj(sc["prompt"])} <span class="muted">(plusieurs réponses, {sc.get("points", 1)} pt)</span></div><ul>{ch}</ul>'
     elif t == "sort":
         cats = [text_obj(c) for c in sc["categories"]]
         def card(c):

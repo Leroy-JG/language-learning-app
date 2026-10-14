@@ -18,6 +18,9 @@
     <string name="checkpoint_title">Bilan du chapitre</string>
     <string name="checkpoint_text">Teste tout ce que tu as appris dans ce chapitre.</string>
     <string name="checkpoint_done">Réussi\u00A0! Tu peux le refaire quand tu veux.</string>
+    <string name="test_to_pass">À passer\u00A0: 12/20 pour valider</string>
+    <string name="exam_or_quiz_passed">Validé\u00A0! Tu peux le refaire quand tu veux.</string>
+    <string name="level_validated">Tome validé</string>
     <string name="lesson_done">Terminée</string>
     <string name="lesson_next">Suivante</string>
     <string name="back">Retour</string>
@@ -28,6 +31,8 @@
     <string name="activity_type_dialogue">Dialogue</string>
     <string name="activity_type_review">Révision</string>
     <string name="activity_type_quiz">Quiz</string>
+    <string name="activity_type_test">QCM noté</string>
+    <string name="activity_type_exam">Examen</string>
     <string name="activity_not_found">Activité introuvable.</string>
 
     <!-- Réviser -->
@@ -98,6 +103,7 @@
     <string name="instruction_typing_question">Réponds en arabe.</string>
     <string name="instruction_true_false">Vrai ou faux\u00A0?</string>
     <string name="instruction_question">Choisis la bonne réponse.</string>
+    <string name="instruction_multi">Coche toutes les bonnes réponses.</string>
     <string name="instruction_sort">Range chaque carte dans la bonne catégorie.</string>
     <string name="instruction_build">Écris le mot en touchant ses lettres dans l\'ordre.</string>
     <string name="instruction_memory">Retourne les cartes deux par deux et retrouve les paires.</string>
@@ -163,6 +169,17 @@
     <string name="end_words_reviewed">Mots révisés</string>
     <string name="end_retry_quiz">Recommencer le bilan</string>
     <string name="end_chapter_done">Tu as terminé le bilan de ce chapitre.</string>
+    <string name="end_test_passed">Quiz réussi\u00A0!</string>
+    <string name="end_test_failed">Quiz à refaire</string>
+    <string name="end_test_passed_hint">Tu as obtenu au moins 12/20\u00A0: bravo\u00A0!</string>
+    <string name="end_test_failed_hint">Il faut au moins 12/20 pour valider. Relis les leçons et réessaie\u00A0!</string>
+    <string name="end_exam_passed">Examen réussi\u00A0!</string>
+    <string name="end_exam_failed">Examen à refaire</string>
+    <string name="end_exam_done">Tu as validé le tome 1\u00A0! Mabrouk\u00A0!</string>
+    <string name="end_stat_mark">Note</string>
+    <string name="end_mark_value">%1$s / 20</string>
+    <string name="end_test_score">Bonnes réponses\u00A0: %1$d sur %2$d</string>
+    <string name="end_retry_test">Refaire le quiz</string>
 
     <!-- Paramètres -->
     <string name="settings_section_arabic">Lecture de l\'arabe</string>

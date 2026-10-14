@@ -1,0 +1,214 @@
+{
+  "id": "medine-t1.q05.test",
+  "type": "test",
+  "title": "QCM du professeur n°5",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t1.q05.test#1",
+      "type": "question",
+      "prompt": { "fr": "Combien y a-t-il de grandes catégories de pronoms ?" },
+      "choices": [ { "fr": "1" }, { "fr": "2" }, { "fr": "3" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Deux : les pronoms isolés ({ar|الضَّمِيرُ الْمُنْفَصِلُ}) et les pronoms affixes ({ar|الضَّمِيرُ الْمُتَّصِلُ}).",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q05.test#2",
+      "type": "question",
+      "prompt": {
+        "fr": "Du point de vue du cas ({ar|الْإِعْرَابُ}), combien de catégories de pronoms isolés ({ar|الضَّمَائِرُ الْمُنْفَصِلَةُ}) y a-t-il ?"
+      },
+      "choices": [ { "fr": "1" }, { "fr": "2" }, { "fr": "3" }, { "fr": "4" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Deux : les pronoms isolés du nominatif ({ar|أَنَا}, {ar|أَنْتَ}, {ar|هُوَ}…) et ceux de l'accusatif, compléments d'objet ({ar|إِيَّاكَ}, {ar|إِيَّاهُ}…).",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q05.test#3",
+      "type": "multi",
+      "prompt": { "fr": "Coche tous les pronoms isolés au nominatif ({ar|الضَّمَائِرُ الْمُنْفَصِلَةُ الْمَرْفُوعَةُ})." },
+      "choices": [
+        { "ar": "أَنَا" },
+        { "ar": "أَنْتَ" },
+        { "ar": "أَنْتُنَّ" },
+        { "ar": "إِنَّ" },
+        { "ar": "كُمْ" },
+        { "ar": "أَنْتُمْ" },
+        { "ar": "هَا" },
+        { "ar": "هُمْ" }
+      ],
+      "answers": [0, 1, 2, 5, 7],
+      "shuffle": false,
+      "points": 5,
+      "explain": "{ar|أَنَا}, {ar|أَنْتَ}, {ar|أَنْتُنَّ}, {ar|أَنْتُمْ} et {ar|هُمْ} sont des pronoms isolés (« ils »). {ar|كُمْ} et {ar|هَا} se collent à un autre mot, et {ar|إِنَّ} n'est pas un pronom. {ar|هُمْ} est aussi un pronom affixe (« leur », {ar|كِتَابُهُمْ}) : voir la question suivante."
+    },
+    {
+      "id": "medine-t1.q05.test#4",
+      "type": "multi",
+      "prompt": {
+        "fr": "Coche tous les pronoms affixes au génitif ({ar|الضَّمَائِرُ الْمُتَّصِلَةُ الْمَجْرُورَةُ}) : ceux qui se collent à la fin d'un nom, comme {ar|كِتَابُهُمْ}."
+      },
+      "choices": [
+        { "ar": "نَحْنُ" },
+        { "ar": "نَا" },
+        { "ar": "هُمْ" },
+        { "ar": "هُنَّ" },
+        { "ar": "كُمَا" },
+        { "ar": "كُمْ" },
+        { "ar": "◌ِي" },
+        { "ar": "هَا" }
+      ],
+      "answers": [1, 2, 3, 4, 5, 6, 7],
+      "shuffle": false,
+      "points": 5,
+      "explain": "{ar|نَحْنُ} est le seul pronom isolé de la liste ; tous les autres se collent à un nom, y compris {ar|هُمْ} (« leur », {ar|كِتَابُهُمْ})."
+    },
+    {
+      "id": "medine-t1.q05.test#5",
+      "type": "question",
+      "prompt": { "fr": "Traduis : « Je suis Zayd. »" },
+      "choices": [ { "ar": "أَنَا زَيْدٌ" }, { "ar": "أَنْتَ زَيْدٌ" }, { "ar": "هُوَ زَيْدٌ" } ],
+      "answer": 0,
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q05.test#6",
+      "type": "question",
+      "prompt": { "fr": "Traduis : « Tu es Fāṭima. »" },
+      "choices": [ { "ar": "أَنْتَ فَاطِمَةُ" }, { "ar": "أَنْتِ فَاطِمَةُ" }, { "ar": "أَنْتُمْ فَاطِمَةُ" } ],
+      "answer": 1,
+      "explain": "On parle à une femme : {ar|أَنْتِ} (avec une kasra).",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q05.test#7",
+      "type": "question",
+      "prompt": { "fr": "Traduis : « Où est ton livre ? » (tu parles à un homme)" },
+      "choices": [ { "ar": "أَيْنَ كِتَابُهُ؟" }, { "ar": "أَيْنَ كِتَابُكَ؟" }, { "ar": "أَيْنَ كِتَابُكُمْ؟" } ],
+      "answer": 1,
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q05.test#8",
+      "type": "question",
+      "prompt": { "fr": "Traduis : « Ceci est ma maison. »" },
+      "choices": [ { "ar": "هٰذَا بَيْتُهُمْ" }, { "ar": "هٰذَا بَيْتُكَ" }, { "ar": "هٰذَا بَيْتِي" } ],
+      "answer": 2,
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q05.test#9",
+      "type": "question",
+      "prompt": { "fr": "Traduis : « Votre enseignant est en retard. » (vous êtes plusieurs hommes)" },
+      "choices": [ { "ar": "تَأَخَّرَ مُدَرِّسُكُمْ" }, { "ar": "تَأَخَّرَ مُدَرِّسُنَا" }, { "ar": "تَأَخَّرَ مُدَرِّسُكَ" } ],
+      "answer": 0,
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q05.test#10",
+      "type": "question",
+      "prompt": {
+        "fr": "Cette liste devrait ne contenir que des pronoms isolés du nominatif : un seul n'y a pas sa place. Lequel ?"
+      },
+      "choices": [
+        { "ar": "أَنَا" },
+        { "ar": "نَحْنُ" },
+        { "ar": "أَنْتَ" },
+        { "ar": "أَنْتُمَا" },
+        { "ar": "أَنْتُمْ" },
+        { "ar": "أَنْتُنَّ" },
+        { "ar": "هُوَ" },
+        { "ar": "هِيَ" },
+        { "ar": "إِيَّاهُ" },
+        { "ar": "هُمَا" },
+        { "ar": "هُمْ" }
+      ],
+      "answer": 8,
+      "shuffle": false,
+      "explain": "{ar|إِيَّاهُ} est un pronom isolé de l'accusatif (complément d'objet). Tous les autres sont au nominatif.",
+      "points": 10
+    },
+    {
+      "id": "medine-t1.q05.test#11",
+      "type": "question",
+      "prompt": { "fr": "Parmi tous ces pronoms affixes, un seul n'est pas à sa place. Lequel ?" },
+      "choices": [
+        { "ar": "◌ِي" },
+        { "ar": "نَا" },
+        { "ar": "كَ" },
+        { "ar": "كِ" },
+        { "ar": "كُمَا" },
+        { "ar": "كُمْ" },
+        { "ar": "كُنَّ" },
+        { "ar": "هُ" },
+        { "ar": "هَا" },
+        { "ar": "هُمْ" },
+        { "ar": "هُوَ" },
+        { "ar": "هُنَّ" }
+      ],
+      "answer": 10,
+      "shuffle": false,
+      "explain": "{ar|هُوَ} est un pronom isolé : il ne se colle pas à un nom. Le pronom affixe « son (à lui) » est {ar|هُ}.",
+      "points": 10
+    },
+    {
+      "id": "medine-t1.q05.test#12",
+      "type": "question",
+      "prompt": { "fr": "Traduis le pronom : « je »." },
+      "choices": [ { "ar": "أَنْتَ" }, { "ar": "هُوَ" }, { "ar": "أَنَا" } ],
+      "answer": 2,
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q05.test#13",
+      "type": "question",
+      "prompt": { "fr": "Traduis le pronom : « vous » (plusieurs hommes)." },
+      "choices": [ { "ar": "أَنْتُمَا" }, { "ar": "أَنْتُنَّ" }, { "ar": "أَنْتُمْ" } ],
+      "answer": 2,
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q05.test#14",
+      "type": "question",
+      "prompt": { "fr": "Traduis le pronom : « vous » (plusieurs femmes)." },
+      "choices": [ { "ar": "أَنْتَ" }, { "ar": "أَنْتُنَّ" }, { "ar": "أَنْتُمْ" } ],
+      "answer": 1,
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q05.test#15",
+      "type": "question",
+      "prompt": { "fr": "Traduis le pronom : « ils »." },
+      "choices": [ { "ar": "هُمْ" }, { "ar": "هُنَّ" }, { "ar": "هُمَا" } ],
+      "answer": 0,
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q05.test#16",
+      "type": "question",
+      "prompt": { "fr": "Traduis le pronom : « elles »." },
+      "choices": [ { "ar": "هُنَّ" }, { "ar": "هُمْ" }, { "ar": "هُمَا" } ],
+      "answer": 0,
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q05.test#17",
+      "type": "question",
+      "prompt": { "fr": "Traduis le pronom affixe : « votre » (à deux personnes)." },
+      "choices": [ { "ar": "كُمْ" }, { "ar": "كُمَا" }, { "ar": "كُنَّ" } ],
+      "answer": 1,
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q05.test#18",
+      "type": "question",
+      "prompt": { "fr": "Traduis le pronom affixe : « leur » (à plusieurs hommes)." },
+      "choices": [ { "ar": "هُمْ" }, { "ar": "هُنَّ" }, { "ar": "هُمَا" } ],
+      "answer": 0,
+      "points": 5
+    }
+  ]
+}

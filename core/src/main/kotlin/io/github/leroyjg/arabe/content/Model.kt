@@ -85,7 +85,16 @@ enum class ActivityType {
     @SerialName("dialogue") DIALOGUE,
     @SerialName("review") REVIEW,
     @SerialName("quiz") QUIZ,
+
+    /** Quiz noté du professeur : une seule tentative par question, note sur 20, réussi à 12/20. */
+    @SerialName("test") TEST,
+
+    /** Examen final d'un tome : comme un quiz noté, et sa réussite valide le tome. */
+    @SerialName("exam") EXAM,
 }
+
+/** Quiz noté ou examen : voyelles toujours visibles, pas de reprise des erreurs, note sur 20. */
+val ActivityType.isGraded: Boolean get() = this == ActivityType.TEST || this == ActivityType.EXAM
 
 @Serializable
 data class ActivityFile(
@@ -239,6 +248,23 @@ data class QuestionScreen(
     val choices: List<Txt>,
     val answer: Int,
     val shuffle: Boolean = true,
+    /** Poids de la question dans un quiz noté (ignoré ailleurs). */
+    val points: Int = 1,
+    override val instruction: String? = null,
+    override val context: ScreenContext? = null,
+    override val explain: String? = null,
+) : Exercise
+
+/** Question « coche toutes les bonnes réponses » : juste seulement si la sélection est exactement [answers]. */
+@Serializable
+@SerialName("multi")
+data class MultiScreen(
+    override val id: String,
+    val prompt: Txt,
+    val choices: List<Txt>,
+    val answers: List<Int>,
+    val shuffle: Boolean = true,
+    val points: Int = 1,
     override val instruction: String? = null,
     override val context: ScreenContext? = null,
     override val explain: String? = null,

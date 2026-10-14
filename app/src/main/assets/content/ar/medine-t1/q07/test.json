@@ -1,0 +1,218 @@
+{
+  "id": "medine-t1.q07.test",
+  "type": "test",
+  "title": "QCM du professeur n°7",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t1.q07.test#1",
+      "type": "question",
+      "prompt": { "fr": "Combien y a-t-il de sortes de pluriel, sans tenir compte du masculin et du féminin ?" },
+      "choices": [ { "fr": "1" }, { "fr": "2" }, { "fr": "3" }, { "fr": "4" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Deux : le pluriel régulier ({ar|جَمْعٌ سَالِمٌ}) et le pluriel irrégulier ({ar|جَمْعُ التَّكْسِيرِ}).",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#2",
+      "type": "question",
+      "prompt": { "fr": "Combien y a-t-il de sortes de pluriel régulier ({ar|جَمْعٌ سَالِمٌ}) ?" },
+      "choices": [ { "fr": "1" }, { "fr": "2" }, { "fr": "3" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Deux : le masculin ({ar|جَمْعُ الْمُذَكَّرِ السَّالِمُ}) et le féminin ({ar|جَمْعُ الْمُؤَنَّثِ السَّالِمُ}).",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#3",
+      "type": "question",
+      "prompt": { "fr": "Le pluriel régulier ({ar|جَمْعٌ سَالِمٌ}) se reconnaît à ceci :" },
+      "choices": [
+        { "fr": "le mot lui-même change au pluriel (il est « brisé »)" },
+        { "fr": "le début du mot reste, seule la fin change" }
+      ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|سَالِمٌ} veut dire « intact » : le début du mot reste intact.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#4",
+      "type": "question",
+      "prompt": { "fr": "Pour former le pluriel masculin régulier, on ajoute au singulier (sans son tanwin)…" },
+      "choices": [ { "ar": "◌َاتٌ" }, { "ar": "◌ُوتٌ" }, { "ar": "◌ُونَ" } ],
+      "answer": 2,
+      "shuffle": false,
+      "explain": "{ar|مُسْلِمٌ} → {ar|مُسْلِمُونَ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#5",
+      "type": "question",
+      "prompt": { "fr": "Pour former le pluriel féminin régulier, on ajoute au singulier (sans son {ar|ة})…" },
+      "choices": [ { "ar": "◌َاتٌ" }, { "ar": "◌ُونَ" }, { "ar": "◌ِينَ" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|مُسْلِمَةٌ} → {ar|مُسْلِمَاتٌ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#6",
+      "type": "question",
+      "prompt": { "fr": "Quelles lettres marquent le cas du pluriel masculin régulier ?" },
+      "choices": [
+        { "fr": "{ar|و} au nominatif, {ar|ي} à l'accusatif et au génitif" },
+        { "fr": "{ar|ي} au nominatif, {ar|و} à l'accusatif et au génitif" },
+        { "fr": "{ar|و} au nominatif et à l'accusatif, {ar|ي} au génitif" }
+      ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|الْمُسْلِمُونَ} (nominatif) → {ar|الْمُسْلِمِينَ} (accusatif et génitif).",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#7",
+      "type": "multi",
+      "prompt": { "fr": "Dans quels cas emploie-t-on le pluriel masculin régulier ({ar|جَمْعُ الْمُذَكَّرِ السَّالِمُ}) ?" },
+      "choices": [
+        { "fr": "Le pluriel des noms de choses ou d'animaux" },
+        { "fr": "Le pluriel de la plupart des prénoms masculins" },
+        { "fr": "Le pluriel des adjectifs de tous les noms masculins, y compris de choses" },
+        { "fr": "Le pluriel des adjectifs de personnes de genre masculin" }
+      ],
+      "answers": [1, 3],
+      "shuffle": false,
+      "points": 5,
+      "explain": "En règle générale, ce pluriel concerne des personnes de genre masculin : prénoms, noms et adjectifs. Pour des choses, l'adjectif se met au féminin. Beaucoup d'adjectifs de personnes ont pourtant un pluriel irrégulier ({ar|كَبِيرٌ} → {ar|كِبَارٌ}, {ar|طَوِيلٌ} → {ar|طِوَالٌ})."
+    },
+    {
+      "id": "medine-t1.q07.test#8",
+      "type": "multi",
+      "prompt": { "fr": "Dans quels cas emploie-t-on le pluriel féminin régulier ({ar|جَمْعُ الْمُؤَنَّثِ السَّالِمُ}) ?" },
+      "choices": [
+        { "fr": "Le pluriel des prénoms féminins" },
+        { "fr": "Le pluriel de beaucoup de noms terminés par {ar|ة}" },
+        { "fr": "Le pluriel de l'adjectif d'un pluriel de choses, comme {ar|أَيَّامٌ مَعْدُودَاتٌ}" },
+        { "fr": "Le pluriel des adjectifs de personnes de genre masculin, comme {ar|مُسْلِمٌ}" }
+      ],
+      "answers": [0, 1, 2],
+      "shuffle": false,
+      "points": 5,
+      "explain": "Prénoms féminins ({ar|الزَّيْنَبَاتُ}), beaucoup de noms en {ar|ة} ({ar|سَيَّارَاتٌ}), et l'adjectif possible d'un pluriel de choses ({ar|أَيَّامٌ مَعْدُودَاتٌ}). Le pluriel masculin de personnes est en {ar|◌ُونَ}."
+    },
+    {
+      "id": "medine-t1.q07.test#9",
+      "type": "question",
+      "prompt": { "fr": "Comment se marque le cas du pluriel féminin régulier ?" },
+      "choices": [
+        { "fr": "par la damma au nominatif, la kasra à l'accusatif et au génitif" },
+        { "fr": "par la damma au nominatif, la fatha à l'accusatif et au génitif" },
+        { "fr": "par la kasra au nominatif, la fatha à l'accusatif et au génitif" }
+      ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|الْمُسْلِمَاتُ} (nominatif) → {ar|الْمُسْلِمَاتِ} (accusatif et génitif) : jamais de fatha à la fin.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#10",
+      "type": "question",
+      "prompt": { "fr": "Pour certains noms, le signe du cas est une lettre et non une voyelle." },
+      "choices": [ { "fr": "vrai" }, { "fr": "faux" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "C'est le cas du pluriel masculin régulier : {ar|و} au nominatif, {ar|ي} à l'accusatif et au génitif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#11",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel régulier de {ar|مُسْلِمٌ} (un musulman) ?" },
+      "choices": [ { "ar": "مُسْلِمَاتٌ" }, { "ar": "مُسْلِمُونَ" }, { "ar": "مُسْلِمَةٌ" } ],
+      "answer": 1,
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#12",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel régulier de {ar|طَبِيبَةٌ} (une femme médecin) ?" },
+      "choices": [ { "ar": "طَبِيبُونَ" }, { "ar": "أَطِبَّاءُ" }, { "ar": "طَبِيبَاتٌ" } ],
+      "answer": 2,
+      "explain": "On retire le {ar|ة} et on ajoute {ar|◌َاتٌ}. {ar|أَطِبَّاءُ} est un pluriel irrégulier.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#13",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel régulier de {ar|مُفْلِحٌ} (un homme qui réussit) ?" },
+      "choices": [ { "ar": "مُفْلِحَةٌ" }, { "ar": "مُفْلِحَاتٌ" }, { "ar": "مُفْلِحُونَ" } ],
+      "answer": 2,
+      "explain": "On garde le singulier et on ajoute {ar|◌ُونَ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#14",
+      "type": "question",
+      "prompt": { "fr": "Mets {ar|مُجْرِمٌ} (un criminel) au pluriel régulier, après une préposition (au génitif)." },
+      "choices": [ { "ar": "مُجْرِمُونَ" }, { "ar": "مُجْرِمِينَ" }, { "ar": "مُجْرِمَاتٌ" } ],
+      "answer": 1,
+      "explain": "Au génitif, le {ar|و} devient {ar|ي} : {ar|مُجْرِمِينَ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#15",
+      "type": "question",
+      "prompt": { "ar": "اِنْتَظَرَ" },
+      "choices": [ { "fr": "attendre" }, { "fr": "marcher" }, { "fr": "monter" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#16",
+      "type": "question",
+      "prompt": { "ar": "مَشَى" },
+      "choices": [ { "fr": "marcher" }, { "fr": "attendre" }, { "fr": "monter" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#17",
+      "type": "question",
+      "prompt": { "ar": "أَقْبَلَ" },
+      "choices": [ { "fr": "s'approcher" }, { "fr": "marcher" }, { "fr": "attendre" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#18",
+      "type": "question",
+      "prompt": { "ar": "سَارَ" },
+      "choices": [ { "fr": "avancer, circuler" }, { "fr": "attendre" }, { "fr": "arriver" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#19",
+      "type": "question",
+      "prompt": { "ar": "مَوْعِدٌ" },
+      "choices": [ { "fr": "un rendez-vous" }, { "fr": "une gare" }, { "fr": "un bus" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q07.test#20",
+      "type": "question",
+      "prompt": { "ar": "مَحَطَّةٌ" },
+      "choices": [ { "fr": "une gare" }, { "fr": "un bus" }, { "fr": "un rendez-vous" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    }
+  ]
+}

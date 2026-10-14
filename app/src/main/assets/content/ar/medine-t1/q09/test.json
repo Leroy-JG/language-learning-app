@@ -1,0 +1,214 @@
+{
+  "id": "medine-t1.q09.test",
+  "type": "test",
+  "title": "QCM du professeur n°9",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t1.q09.test#1",
+      "type": "question",
+      "prompt": { "fr": "Les nombres de 3 à 10 suivent combien de règles ?" },
+      "choices": [ { "fr": "1" }, { "fr": "2" }, { "fr": "3" }, { "fr": "4" } ],
+      "answer": 2,
+      "shuffle": false,
+      "explain": "Trois : le nombre et le dénombré forment une annexion (le nombre en est le premier terme), le dénombré est au pluriel, et le nombre est de genre contraire au sien.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q09.test#2",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|ثَلَاثَةُ كُتُبٍ}, lequel est le nombre ({ar|الْعَدَدُ}) et lequel est le dénombré ({ar|الْمَعْدُودُ}) ?"
+      },
+      "choices": [
+        { "fr": "{ar|كُتُبٍ} est le nombre et {ar|ثَلَاثَةُ} le dénombré" },
+        { "fr": "{ar|كُتُبٍ} est le dénombré et {ar|ثَلَاثَةُ} le nombre" }
+      ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Le nombre dit « combien » ({ar|ثَلَاثَةُ}) ; le dénombré est ce qu'on compte ({ar|كُتُبٍ}).",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q09.test#3",
+      "type": "multi",
+      "prompt": { "fr": "Le dénombré ({ar|الْمَعْدُودُ}) est…" },
+      "choices": [ { "ar": "مُضَافٌ" }, { "ar": "مُضَافٌ إِلَيْهِ" }, { "ar": "مُفْرَدٌ" }, { "ar": "جَمْعٌ" } ],
+      "answers": [1, 3],
+      "shuffle": false,
+      "points": 5,
+      "explain": "De 3 à 10, le dénombré est le second terme de l'annexion ({ar|مُضَافٌ إِلَيْهِ}) et il est au pluriel ({ar|جَمْعٌ})."
+    },
+    {
+      "id": "medine-t1.q09.test#4",
+      "type": "question",
+      "prompt": { "fr": "Quand le dénombré est masculin, le nombre ({ar|الْعَدَدُ}) est, selon le professeur…" },
+      "choices": [ { "ar": "مُذَكَّرٌ" }, { "ar": "مُؤَنَّثٌ" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Le nombre est de genre contraire : {ar|ثَلَاثَةُ} (avec {ar|ة}) devant un dénombré masculin, que le professeur appelle {ar|مُؤَنَّثٌ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q09.test#5",
+      "type": "multi",
+      "prompt": { "fr": "Quelles sont les règles entre le nombre ({ar|الْعَدَدُ}) et le dénombré ({ar|الْمَعْدُودُ}) ?" },
+      "choices": [
+        {
+          "fr": "Le nombre est le premier terme de l'annexion ({ar|مُضَافٌ}) et le dénombré le second ({ar|مُضَافٌ إِلَيْهِ})"
+        },
+        { "fr": "Le nombre est le second terme de l'annexion et le dénombré le premier" },
+        { "fr": "Le dénombré est au pluriel" },
+        { "fr": "Le dénombré est au singulier" },
+        { "fr": "Le nombre et le dénombré ont le même genre" },
+        { "fr": "Le nombre est de genre contraire à celui du dénombré" }
+      ],
+      "answers": [0, 2, 5],
+      "shuffle": false,
+      "points": 5,
+      "explain": "Les trois règles : annexion (nombre puis dénombré), dénombré au pluriel, genre contraire."
+    },
+    {
+      "id": "medine-t1.q09.test#6",
+      "type": "question",
+      "prompt": { "fr": "Comment écris-tu « trois étudiants » ?" },
+      "choices": [ { "ar": "ثَلَاثُ طُلَّابٍ" }, { "ar": "ثَلَاثَةُ طَالِبٍ" }, { "ar": "ثَلَاثَةُ طُلَّابٍ" } ],
+      "answer": 2,
+      "explain": "{ar|طَالِبٌ} est masculin : {ar|ثَلَاثَةُ} (avec {ar|ة}), et le dénombré est au pluriel : {ar|طُلَّابٍ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q09.test#7",
+      "type": "question",
+      "prompt": { "fr": "Comment écris-tu « trois étudiantes » ?" },
+      "choices": [ { "ar": "ثَلَاثُ طَالِبَةٍ" }, { "ar": "ثَلَاثُ طَالِبَاتٍ" }, { "ar": "ثَلَاثَةُ طَالِبَاتٍ" } ],
+      "answer": 1,
+      "explain": "{ar|طَالِبَةٌ} est féminin : {ar|ثَلَاثُ} (sans {ar|ة}), et le dénombré est au pluriel : {ar|طَالِبَاتٍ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q09.test#8",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|جَمِيلٌ} pour des femmes ?" },
+      "choices": [ { "ar": "جَمِيلَةٌ" }, { "ar": "جَمِيلَاتٌ" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Pour des femmes, on ajoute {ar|◌َاتٌ} : pluriel féminin régulier.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q09.test#9",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|جَمِيلٌ} pour des hommes ?" },
+      "choices": [ { "ar": "جَمِيلَةٌ" }, { "ar": "جَمِيلُونَ" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Pour des hommes, on ajoute {ar|◌ُونَ} : pluriel masculin régulier.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q09.test#10",
+      "type": "question",
+      "prompt": { "fr": "De quelle sorte de pluriel est {ar|مَسَاجِدُ} ?" },
+      "choices": [
+        { "ar": "جَمْعُ الْمُذَكَّرِ السَّالِمُ" },
+        { "ar": "جَمْعُ التَّكْسِيرِ" },
+        { "ar": "جَمْعُ الْمُؤَنَّثِ السَّالِمُ" }
+      ],
+      "answer": 1,
+      "explain": "Le mot {ar|مَسْجِدٌ} a changé : c'est un pluriel irrégulier ({ar|جَمْعُ التَّكْسِيرِ}).",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q09.test#11",
+      "type": "question",
+      "prompt": {
+        "fr": "Complète avec le duel de {ar|طَالِبَةٌ} : {ar|سَلَّمَ زَيْدٌ عَلَى} … (« Zayd a salué deux étudiantes »)."
+      },
+      "choices": [ { "ar": "طَالِبَاتٍ" }, { "ar": "طَالِبَةٍ" }, { "ar": "طَالِبَتَيْنِ" } ],
+      "answer": 2,
+      "explain": "Après {ar|عَلَى}, le génitif : le duel prend {ar|◌َيْنِ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q09.test#12",
+      "type": "question",
+      "prompt": { "fr": "Complète avec le duel de {ar|رَجُلٌ} : {ar|جَاءَ} … (« deux hommes sont venus »)." },
+      "choices": [ { "ar": "رَجُلَيْنِ" }, { "ar": "رَجُلَانِ" }, { "ar": "رِجَالٌ" } ],
+      "answer": 1,
+      "explain": "Celui qui fait l'action est au nominatif : le duel prend {ar|◌َانِ}.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q09.test#13",
+      "type": "question",
+      "prompt": {
+        "fr": "Complète avec le duel de {ar|هٰذَا الْمُسْلِمِ} : {ar|السَّلَامُ عَلَى} … (« Que la paix soit sur ces deux musulmans »)."
+      },
+      "choices": [
+        { "ar": "هَؤُلَاءِ الْمُسْلِمُونَ" },
+        { "ar": "هٰذَيْنِ الْمُسْلِمَيْنِ" },
+        { "ar": "هٰذَانِ الْمُسْلِمَانِ" }
+      ],
+      "answer": 1,
+      "explain": "Après {ar|عَلَى}, le génitif : le démonstratif et le nom sont au duel, avec le yā.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q09.test#14",
+      "type": "question",
+      "prompt": { "fr": "Complète avec le duel de {ar|تِلْكَ} : … {ar|بِنْتَانِ} (« ces deux-là sont deux filles »)." },
+      "choices": [ { "ar": "ذٰلِكَ" }, { "ar": "تَانِكَ" }, { "ar": "تَيْنِكَ" } ],
+      "answer": 1,
+      "explain": "Ici, le démonstratif est le sujet : le nominatif {ar|تَانِكَ} (alif).",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q09.test#15",
+      "type": "question",
+      "prompt": {
+        "fr": "Complète avec le duel de {ar|ذٰلِكَ الطَّالِبِ} : {ar|قَالَ زَيْدٌ لِ} … (« Zayd a dit à ces deux étudiants-là »)."
+      },
+      "choices": [ { "ar": "أُولَئِكَ طُلَّابٌ" }, { "ar": "ذَانِكَ الطَّالِبَانِ" }, { "ar": "ذَيْنِكَ الطَّالِبَيْنِ" } ],
+      "answer": 2,
+      "explain": "Après la préposition {ar|لِ}, le génitif : {ar|ذَيْنِكَ الطَّالِبَيْنِ} (yā).",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q09.test#16",
+      "type": "question",
+      "prompt": { "ar": "فَنَادِقُ" },
+      "choices": [ { "fr": "des hôtels" }, { "fr": "des chambres" }, { "fr": "des hôpitaux" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q09.test#17",
+      "type": "question",
+      "prompt": { "ar": "مَكَاتِبُ" },
+      "choices": [ { "fr": "des bureaux" }, { "fr": "des tableaux" }, { "fr": "des crayons" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q09.test#18",
+      "type": "question",
+      "prompt": { "ar": "اِنْتَظَرَ" },
+      "choices": [ { "fr": "attendre" }, { "fr": "manger" }, { "fr": "boire" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q09.test#19",
+      "type": "question",
+      "prompt": { "ar": "مُخْتَلِفٌ" },
+      "choices": [ { "fr": "différent" }, { "fr": "beau" }, { "fr": "grand" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    }
+  ]
+}

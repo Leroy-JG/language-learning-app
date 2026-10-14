@@ -1,0 +1,226 @@
+{
+  "id": "medine-t1.q02.test",
+  "type": "test",
+  "title": "QCM du professeur n°2",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t1.q02.test#1",
+      "type": "question",
+      "prompt": { "fr": "Combien y a-t-il de cas ({ar|الْإِعْرَابُ}) pour les noms ?" },
+      "choices": [ { "fr": "1" }, { "fr": "2" }, { "fr": "3" }, { "fr": "4" } ],
+      "answer": 2,
+      "shuffle": false,
+      "explain": "Trois : le nominatif ({ar|الرَّفْعُ}), l'accusatif ({ar|النَّصْبُ}) et le génitif ({ar|الْجَرُّ}).",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#2",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|زَيْدٌ فِي الْبَيْتِ}, quel est le cas du nom {ar|الْبَيْتِ} ?" },
+      "choices": [ { "ar": "مَرْفُوعٌ" }, { "ar": "مَنْصُوبٌ" }, { "ar": "مَجْرُورٌ" } ],
+      "answer": 2,
+      "shuffle": false,
+      "explain": "Il suit la préposition {ar|فِي} : il est au génitif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|هٰذَا مُحَمَّدٌ}, quel est le cas du nom {ar|مُحَمَّدٌ} ?" },
+      "choices": [ { "ar": "مَرْفُوعٌ" }, { "ar": "مَنْصُوبٌ" }, { "ar": "مَجْرُورٌ" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "Il se termine par la damma, avec son tanwin ({ar|◌ٌ}) : il est au nominatif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|هٰذَا كِتَابُ زَيْدٍ}, quel est le cas du nom {ar|زَيْدٍ} ?" },
+      "choices": [ { "ar": "مَرْفُوعٌ" }, { "ar": "مَنْصُوبٌ" }, { "ar": "مَجْرُورٌ" } ],
+      "answer": 2,
+      "shuffle": false,
+      "explain": "{ar|زَيْدٍ} est le second terme de l'annexion : il est au génitif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#5",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|خَرَجَ مُدَرِّسُ الْمَدْرَسَةِ} (« l'enseignant de l'école est sorti »), quel est le cas du nom {ar|مُدَرِّسُ} ?"
+      },
+      "choices": [ { "ar": "مَرْفُوعٌ" }, { "ar": "مَنْصُوبٌ" }, { "ar": "مَجْرُورٌ" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|مُدَرِّسُ} est celui qui est sorti, celui qui fait l'action : il est au nominatif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#6",
+      "type": "question",
+      "prompt": { "fr": "Une seule de ces phrases est correcte. Laquelle ? (« C'est Muḥammad. »)" },
+      "choices": [ { "ar": "هٰذَا مُحَمَّدٍ" }, { "ar": "هٰذَا مُحَمَّدٌ" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|مُحَمَّدٌ} n'est ni après une préposition ni second terme d'une annexion : il est au nominatif (damma, tanwin {ar|◌ٌ}), pas au génitif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#7",
+      "type": "question",
+      "prompt": { "fr": "Une seule de ces phrases est correcte. Laquelle ? ({ar|كَاتِبٌ} : un écrivain)" },
+      "choices": [ { "ar": "ذٰلِكَ كَاتِبٌ مُحَمَّدٍ" }, { "ar": "ذٰلِكَ كَاتِبُ مُحَمَّدٍ" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|كَاتِبُ مُحَمَّدٍ} est une annexion (« l'écrivain de Muḥammad ») : le premier terme n'a ni article ni tanwin, et le second est au génitif.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#8",
+      "type": "question",
+      "prompt": { "fr": "Une seule de ces phrases est correcte. Laquelle ? (« C'est le livre de Muḥammad. »)" },
+      "choices": [ { "ar": "هٰذَا الْكِتَابُ مُحَمَّدٍ" }, { "ar": "هٰذَا كِتَابُ مُحَمَّدٍ" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "{ar|كِتَابُ مُحَمَّدٍ} est une annexion (« le livre de Muḥammad ») : le premier terme n'a ni article ni tanwin.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#9",
+      "type": "question",
+      "prompt": { "fr": "Une seule de ces phrases est correcte. Laquelle ?" },
+      "choices": [ { "ar": "خَرَجَ زَيْدٌ مِنَ الْبَيْتَ" }, { "ar": "خَرَجَ زَيْدٌ مِنَ الْبَيْتِ" } ],
+      "answer": 1,
+      "shuffle": false,
+      "explain": "Après la préposition {ar|مِنْ}, le nom est au génitif : il prend la kasra.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#10",
+      "type": "question",
+      "prompt": { "fr": "Une seule de ces phrases est correcte. Laquelle ?" },
+      "choices": [ { "ar": "الْحَقِيبَةُ عَلَى مَكْتَبِ الْمُدَرِّسِ" }, { "ar": "الْحَقِيبَةُ عَلَى مَكْتَبُ الْمُدَرِّسِ" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "{ar|مَكْتَبِ} suit la préposition {ar|عَلَى} : il est au génitif (kasra). {ar|الْمُدَرِّسِ} est le second terme de l'annexion : génitif aussi.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#11",
+      "type": "question",
+      "prompt": { "ar": "مَكْتَبٌ" },
+      "choices": [ { "fr": "un bureau" }, { "fr": "un couloir" }, { "fr": "une cuisine" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#12",
+      "type": "question",
+      "prompt": { "ar": "جَامِعَةٌ" },
+      "choices": [ { "fr": "une université" }, { "fr": "une école" }, { "fr": "une maison" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#13",
+      "type": "question",
+      "prompt": { "ar": "مَطْبَخٌ" },
+      "choices": [ { "fr": "une cuisine" }, { "fr": "une salle de bains" }, { "fr": "une chambre" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#14",
+      "type": "question",
+      "prompt": { "ar": "حَجَرٌ" },
+      "choices": [ { "fr": "une pierre" }, { "fr": "un couteau" }, { "fr": "de l'herbe" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#15",
+      "type": "question",
+      "prompt": { "ar": "مُدِيرٌ" },
+      "choices": [ { "fr": "un directeur" }, { "fr": "un enseignant" }, { "fr": "un infirmier" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#16",
+      "type": "question",
+      "prompt": { "ar": "خَرَجَ" },
+      "choices": [ { "fr": "sortir" }, { "fr": "entrer" }, { "fr": "dormir" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#17",
+      "type": "question",
+      "prompt": { "ar": "ذَهَبَ" },
+      "choices": [ { "fr": "aller" }, { "fr": "courir" }, { "fr": "dormir" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#18",
+      "type": "question",
+      "prompt": { "ar": "حَمَّامٌ" },
+      "choices": [ { "fr": "une salle de bains" }, { "fr": "une chambre" }, { "fr": "un couloir" } ],
+      "answer": 0,
+      "instruction": "Choisis le sens du mot.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#19",
+      "type": "question",
+      "prompt": { "ar": "هٰذَا مِفْتَاحُ الْمَدْرَسَةِ." },
+      "choices": [
+        { "fr": "C'est la clé de la chambre" },
+        { "fr": "C'est le cahier de l'école" },
+        { "fr": "C'est la clé de l'école" }
+      ],
+      "answer": 2,
+      "instruction": "Choisis la bonne traduction.",
+      "points": 5
+    },
+    {
+      "id": "medine-t1.q02.test#20",
+      "type": "question",
+      "prompt": { "ar": "خَرَجَ زَيْدٌ مِنْ مَكْتَبِ الْمُدِيرِ." },
+      "choices": [
+        { "fr": "Zayd est sorti de la chambre de l'enseignant" },
+        { "fr": "Zayd est allé vers le bureau de l'enseignant" },
+        { "fr": "Zayd est sorti du bureau du directeur" }
+      ],
+      "answer": 2,
+      "instruction": "Choisis la bonne traduction.",
+      "points": 1
+    },
+    {
+      "id": "medine-t1.q02.test#21",
+      "type": "question",
+      "prompt": { "ar": "مِنْ أَيْنَ؟" },
+      "choices": [ { "fr": "Qu'est-ce que c'est ?" }, { "fr": "D'où… ?" }, { "fr": "Où… ?" } ],
+      "answer": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "points": 2
+    },
+    {
+      "id": "medine-t1.q02.test#22",
+      "type": "question",
+      "prompt": { "ar": "مَنْ هٰذَا؟" },
+      "choices": [ { "fr": "Qui est-ce ?" }, { "fr": "Qu'est-ce que c'est ?" } ],
+      "answer": 0,
+      "instruction": "Choisis la bonne traduction.",
+      "points": 2
+    }
+  ]
+}

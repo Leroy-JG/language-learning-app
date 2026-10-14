@@ -12,6 +12,7 @@ import io.github.leroyjg.arabe.content.MatchScreen
 import io.github.leroyjg.arabe.content.McqScreen
 import io.github.leroyjg.arabe.content.MemoryMode
 import io.github.leroyjg.arabe.content.MemoryScreen
+import io.github.leroyjg.arabe.content.MultiScreen
 import io.github.leroyjg.arabe.content.OrderScreen
 import io.github.leroyjg.arabe.content.QuestionScreen
 import io.github.leroyjg.arabe.content.SortCard
@@ -64,6 +65,13 @@ class PreparedQuestion(val screen: QuestionScreen, val order: List<Int>) : Prepa
     /** Position affichée du bon choix. */
     val correctPosition: Int = order.indexOf(screen.answer)
     fun check(position: Int): Boolean = order.getOrNull(position) == screen.answer
+}
+
+/** Question à réponses multiples : [order] donne l'index du fichier affiché à chaque position. */
+class PreparedMulti(val screen: MultiScreen, val order: List<Int>) : PreparedExercise {
+    /** Positions affichées des bonnes réponses. */
+    val correctPositions: Set<Int> = order.indices.filter { order[it] in screen.answers }.toSet()
+    fun check(selected: Collection<Int>): Boolean = selected.toSet() == correctPositions
 }
 
 /** Cartes à ranger, dans un ordre mélangé ; l'élément éventuel de chaque carte. */
@@ -175,6 +183,11 @@ class ExerciseFactory(
         val other = if (screen.mode == MemoryMode.ICON_AR) MemoryFace.ICON else MemoryFace.FRENCH
         val cards = items.flatMap { listOf(MemoryCard(it, MemoryFace.ARABIC), MemoryCard(it, other)) }
         return PreparedMemory(screen, cards.shuffled(random))
+    }
+
+    fun multi(screen: MultiScreen): PreparedMulti {
+        val indices = screen.choices.indices.toList()
+        return PreparedMulti(screen, if (screen.shuffle) indices.shuffled(random) else indices)
     }
 
     fun question(screen: QuestionScreen): PreparedQuestion {

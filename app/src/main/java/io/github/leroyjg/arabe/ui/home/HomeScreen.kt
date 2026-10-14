@@ -74,6 +74,7 @@ import io.github.leroyjg.arabe.content.ActivityType
 import io.github.leroyjg.arabe.content.Chapter
 import io.github.leroyjg.arabe.content.Course
 import io.github.leroyjg.arabe.content.Level
+import io.github.leroyjg.arabe.content.isGraded
 import io.github.leroyjg.arabe.engine.CourseProgress
 import io.github.leroyjg.arabe.ui.IconImages
 import io.github.leroyjg.arabe.ui.LocalAppContainer
@@ -127,10 +128,15 @@ fun LearnScreen(onOpenActivity: (String) -> Unit) {
             }
 
             Column(Modifier.fillMaxSize()) {
+                // Le tome est validé quand son examen final est réussi.
+                val validated = level.chapters.any { chapter ->
+                    chapter.activities.any { it.file.type == ActivityType.EXAM && progress.isCompleted(it) }
+                }
                 LevelHeader(
                     course = course,
                     level = level,
                     fraction = progress.fraction(level),
+                    validated = validated,
                     onChoose = { chosenLevel = it },
                 )
                 LazyColumn(
@@ -160,7 +166,7 @@ fun LearnScreen(onOpenActivity: (String) -> Unit) {
 // ---------------------------------------------------------------- en-tête
 
 @Composable
-private fun LevelHeader(course: Course, level: Level, fraction: Float, onChoose: (String) -> Unit) {
+private fun LevelHeader(course: Course, level: Level, fraction: Float, validated: Boolean, onChoose: (String) -> Unit) {
     var menu by remember { mutableStateOf(false) }
     Column(
         Modifier.fillMaxWidth()
@@ -187,6 +193,16 @@ private fun LevelHeader(course: Course, level: Level, fraction: Float, onChoose:
                         trailingIcon = { if (l.id == level.id) Icon(Icons.Filled.Check, contentDescription = null) },
                     )
                 }
+            }
+        }
+        if (validated) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                Icon(Icons.Filled.Check, contentDescription = null, tint = AppTheme.colors.correct, modifier = Modifier.size(20.dp))
+                Text(
+                    stringResource(R.string.level_validated),
+                    style = MaterialTheme.typography.titleMedium,
+                    color = AppTheme.colors.correct,
+                )
             }
         }
         Spacer(Modifier.height(12.dp))
@@ -236,6 +252,8 @@ private fun ChapterCard(
     val lessons = chapter.activities.filter { it.file.type != ActivityType.QUIZ }
     val doneCount = lessons.count { progress.isCompleted(it) }
     val chapterDone = chapter.activities.all { progress.isCompleted(it) }
+    // Un chapitre « Quiz » ou « Examen » ne contient qu'un test noté du professeur.
+    val graded = chapter.activities.isNotEmpty() && chapter.activities.all { it.file.type.isGraded }
     val scheme = MaterialTheme.colorScheme
     val star = scheme.primary.copy(alpha = 0.10f)
     Surface(
@@ -262,7 +280,11 @@ private fun ChapterCard(
                         style = MaterialTheme.typography.headlineMedium.copy(fontWeight = FontWeight.Bold),
                     )
                     Text(
-                        stringResource(R.string.lessons_done, doneCount, lessons.size),
+                        if (graded) {
+                            stringResource(if (chapterDone) R.string.exam_or_quiz_passed else R.string.test_to_pass)
+                        } else {
+                            stringResource(R.string.lessons_done, doneCount, lessons.size)
+                        },
                         style = MaterialTheme.typography.titleMedium,
                         color = if (chapterDone) AppTheme.colors.correct else scheme.onSurfaceVariant,
                     )

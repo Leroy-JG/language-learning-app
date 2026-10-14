@@ -69,6 +69,10 @@ object Audio {
                 add(screen.prompt.ar)
                 screen.choices.forEach { add(it.ar) }
             }
+            is MultiScreen -> {
+                add(screen.prompt.ar)
+                screen.choices.forEach { add(it.ar) }
+            }
             is DialogueScreen -> screen.lines.forEach { line -> add(line.ar, screen.speakers[line.speaker]?.voice) }
             is SortScreen -> screen.cards.forEach { add(it.ar) }
             is SpotScreen -> add(spotSentence(screen))

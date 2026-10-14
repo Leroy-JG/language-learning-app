@@ -57,6 +57,8 @@ fun ActivityType.label(): Int = when (this) {
     ActivityType.DIALOGUE -> R.string.activity_type_dialogue
     ActivityType.REVIEW -> R.string.activity_type_review
     ActivityType.QUIZ -> R.string.activity_type_quiz
+    ActivityType.TEST -> R.string.activity_type_test
+    ActivityType.EXAM -> R.string.activity_type_exam
 }
 
 fun ActivityType.icon(): ImageVector = when (this) {
@@ -64,5 +66,5 @@ fun ActivityType.icon(): ImageVector = when (this) {
     ActivityType.GRAMMAR -> Icons.Filled.Build
     ActivityType.DIALOGUE -> Icons.Filled.Face
     ActivityType.REVIEW -> Icons.Filled.Refresh
-    ActivityType.QUIZ -> Icons.Filled.CheckCircle
+    ActivityType.QUIZ, ActivityType.TEST, ActivityType.EXAM -> Icons.Filled.CheckCircle
 }
