@@ -1,4 +1,4 @@
-# Lurata
+# Loura
 
 Application Android personnelle d'apprentissage de l'arabe, inspirée du fonctionnement de Busuu,
 100 % hors ligne. Le cursus suit les Tomes de Médine.

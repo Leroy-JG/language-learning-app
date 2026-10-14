@@ -23,7 +23,7 @@ MCQ_MODES = {"ar-fr": "arabe → français", "fr-ar": "français → arabe",
 MATCH_MODES = {"ar-fr": "arabe ↔ français", "audio-ar": "audio ↔ arabe", "sing-plur": "singulier ↔ pluriel"}
 ASK = {"fr": "à partir du français", "audio": "dictée", "question": "répondre à la question"}
 ACT_TYPES = {"vocabulary": "Vocabulaire", "grammar": "Grammaire", "dialogue": "Dialogue",
-             "review": "Révision", "quiz": "Quiz", "test": "QCM noté", "exam": "Examen"}
+             "review": "Révision", "quiz": "Quiz", "test": "Défi", "exam": "Grand défi"}
 
 
 def load(path):

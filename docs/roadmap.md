@@ -7,7 +7,7 @@
   - Les astuces ont 7 sortes de blocs, dont comparer, décomposer, galerie et encadrés à ton.
   - Le guide de conception est `docs/pedagogie.md`.
 - **Parcours :** le Tome de Médine 1 est complet : chapitres 1 à 23 et deux chapitres de révision (`r01`, libellé « Révision 1 », placé après le chapitre 9 ; `r02`, libellé « Révision 2 », placé à la fin, après le chapitre 23). Les chapitres s'affichent en accordéon et rien n'est verrouillé.
-- **QCM du professeur :** neuf quiz (après les leçons 4, 5, 8, 9, 10, 13, 17, 18, 21) et l'examen final, notés sur 20 (réussi à 12/20) ; la réussite de l'examen valide le tome. Voir `docs/sources-quiz.md`.
+- **Défis (quiz du professeur) :** neuf défis (après les leçons 4, 5, 8, 9, 10, 13, 17, 18, 21) et le grand défi final, notés sur 20 (réussi à 12/20) ; la réussite de l'examen valide le tome. Voir `docs/sources-quiz.md`.
 - **Réviser :** répétition espacée FSRS-5, deux onglets (Vocabulaire / Grammaire), niveaux de maîtrise, favoris, recherche.
 - **Paramètres :**
   - harakat, translittération, taille de l'arabe ;

@@ -1,4 +1,4 @@
-# QCM du professeur (quiz 1 à 9 et examen final)
+# Défis (quiz 1 à 9 et grand défi final), repris des quiz du professeur
 
 Notes de choix, dans un fichier à part (comme `sources-lecon-17.md`). Les QCM viennent des formulaires du professeur,
 collés par l'utilisateur dans la conversation (pas de PDF). Aucune clé de réponse n'a été fournie : chaque réponse

@@ -24,7 +24,7 @@ Les fichiers `app/` ne se compilent que sur GitHub Actions.
 - `app/src/main/java/io/github/leroyjg/arabe/MainActivity.kt` (105 l.) — MainActivity:32, MainRoute:77, ActivityRoute:80, ReviewRoute:84, AppNavHost:87
 - `app/src/main/java/io/github/leroyjg/arabe/audio/AudioPlayer.kt` (157 l.) — Sound:22, AudioPlayer:31, PhoneSpeech:89
 - `app/src/main/java/io/github/leroyjg/arabe/audio/SoundEffects.kt` (72 l.) — SoundEffects:17, Haptics:55, rememberHaptics:68
-- `app/src/main/java/io/github/leroyjg/arabe/data/Backup.kt` (117 l.) — BackupFile:11, BackupResult:22, BackupCard:34, BackupLog:47, BackupSaved:50, BackupManager:53
+- `app/src/main/java/io/github/leroyjg/arabe/data/Backup.kt` (120 l.) — BackupFile:11, BackupResult:22, BackupCard:34, BackupLog:47, BackupSaved:50, BackupManager:53
 - `app/src/main/java/io/github/leroyjg/arabe/data/ContentRepository.kt` (52 l.) — AssetContentSource:19, ContentState:29, ContentRepository:36
 - `app/src/main/java/io/github/leroyjg/arabe/data/ProgressDatabase.kt` (127 l.) — ActivityResultEntity:29, CompletionRow:42, ProgressDao:49, ProgressDatabase:84, ProgressRepository:96
 - `app/src/main/java/io/github/leroyjg/arabe/data/ReviewDatabase.kt` (227 l.) — ReviewCardEntity:39, ReviewLogEntity:53, SavedItemEntity:65, ReviewDao:71, ReviewDatabase:128, ReviewCardEntity.toCard:139, ReviewCard.toEntity:146, ReviewRepository:159

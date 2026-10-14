@@ -52,7 +52,7 @@ jobs:
         run: ./gradlew :app:testReleaseUnitTest :app:assembleRelease -PversionCode=${{ github.run_number }}
 
       - name: Préparer l'APK
-        run: cp app/build/outputs/apk/release/app-release.apk lurata.apk
+        run: cp app/build/outputs/apk/release/app-release.apk loura.apk
 
       # Schéma de la base de progression (versionné ensuite dans app/schemas pour tester les migrations).
       - uses: actions/upload-artifact@v4
@@ -64,8 +64,8 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: lurata-0.1.${{ github.run_number }}
-          path: lurata.apk
+          name: loura-0.1.${{ github.run_number }}
+          path: loura.apk
           retention-days: 30
 
       - name: Publier la version
@@ -77,6 +77,6 @@ jobs:
           notes="Branche ${GITHUB_REF_NAME}, commit ${GITHUB_SHA::7}. Clé de signature : ${KEY_KIND}."
           prerelease=""
           if [ "$KEY_KIND" != "définitive" ]; then prerelease="--prerelease"; fi
-          gh release create "$TAG" lurata.apk --target "$GITHUB_SHA" --title "Version 0.1.${{ github.run_number }}" --notes "$notes" $prerelease \
-            || gh release upload "$TAG" lurata.apk --clobber
+          gh release create "$TAG" loura.apk --target "$GITHUB_SHA" --title "Version 0.1.${{ github.run_number }}" --notes "$notes" $prerelease \
+            || gh release upload "$TAG" loura.apk --clobber
           rm -f "$RUNNER_TEMP/release.keystore"

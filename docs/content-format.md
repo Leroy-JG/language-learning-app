@@ -216,7 +216,7 @@ dont un écran `present` te l'a montré (voir §12).
 
 - `type` : `vocabulary`, `grammar`, `dialogue`, `review`, `quiz`, `test` ou `exam`. Il détermine la
   couleur de l'activité ; le contenu est libre (une activité de vocabulaire peut contenir une astuce).
-  `test` et `exam` sont les **QCM notés du professeur** (voir §9.15).
+  `test` et `exam` sont les **défis notés** (repris des quiz du professeur, voir §9.15).
 - `icon` (facultatif) : image de l'activité dans le parcours de l'accueil ; sinon le symbole de
   son type. Une activité `quiz` s'affiche toujours comme la carte « Bilan du chapitre ».
 - Dans l'app, un chapitre s'appelle « Chapitre N » et chacune de ses activités est une « leçon »
@@ -228,7 +228,7 @@ dont un écran `present` te l'a montré (voir §12).
 **Déroulé** : un exercice raté revient en fin d'activité jusqu'à ce qu'il soit réussi. Le score
 compte les réussites du premier coup. Un `quiz` est réussi à partir de **70 %** ; sinon on le recommence.
 
-**Quiz du professeur (`test`) et examen final (`exam`)** : voir §9.15. Pas de reprise des erreurs,
+**Défi (`test`) et grand défi (`exam`)** : voir §9.15. Pas de reprise des erreurs,
 voyelles toujours affichées, note sur 20, réussi à 12/20.
 
 **Champs communs à tous les exercices** (tous les types sauf `present`, `tip` et `dialogue`)
@@ -450,10 +450,10 @@ ligne en la touchant et afficher ou masquer les traductions.
   fait entendre. Le jeu compte toujours comme réussi (chercher fait partie du jeu) : c'est un
   moment ludique de consolidation, pas une évaluation.
 
-### 9.15 `multi` et les QCM notés du professeur (`test`, `exam`)
+### 9.15 `multi` et les défis notés (`test`, `exam`)
 
-Les QCM que le professeur propose après certains chapitres sont des chapitres à part (dossier `qNN`,
-`label` « Quiz N » ; l'examen final : dossier `exam`, `label` « Examen final »), placés dans `level.json`
+Les quiz que le professeur propose après certains chapitres sont, dans l'app, des « défis » : des chapitres à part (dossier `qNN`,
+`label` « Défi N » ; le grand défi final : dossier `exam`, `label` « Le grand défi »), placés dans `level.json`
 après le chapitre indiqué. Chacun a une seule partie et une seule activité (`test`, ou `exam` pour l'examen
 final, dont la réussite **valide le tome**). Une telle activité ne contient que des écrans `question` et `multi`.
 

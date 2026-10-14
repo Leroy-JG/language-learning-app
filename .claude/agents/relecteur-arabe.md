@@ -1,6 +1,6 @@
 ---
 name: relecteur-arabe
-description: Relecteur indépendant du contenu des cours d'arabe de Lurata (JSON dans app/src/main/assets/content). À lancer après chaque ajout ou modification de contenu, idéalement plusieurs en parallèle avec des angles différents (arabe, exercices, français et pédagogie). Lecture seule.
+description: Relecteur indépendant du contenu des cours d'arabe de Loura (JSON dans app/src/main/assets/content). À lancer après chaque ajout ou modification de contenu, idéalement plusieurs en parallèle avec des angles différents (arabe, exercices, français et pédagogie). Lecture seule.
 tools: Read, Grep, Glob, Bash
 ---
 

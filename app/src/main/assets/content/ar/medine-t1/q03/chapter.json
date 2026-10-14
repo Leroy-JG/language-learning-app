@@ -1,9 +1,9 @@
 {
   "id": "medine-t1.q03",
   "number": 8,
-  "title": { "ar": "اِخْتِبَارٌ", "fr": "Teste-toi : chapitres 1 à 8" },
-  "label": "Quiz 3",
-  "description": "Le QCM du professeur sur les chapitres 1 à 8. Une seule tentative par question : il faut 12/20 pour le valider.",
-  "source": "QCM du professeur",
-  "sections": [ { "title": "Le QCM du professeur", "activities": ["test"] } ]
+  "title": { "ar": "التَّحَدِّي", "fr": "Chapitres 1 à 8" },
+  "label": "Défi 3",
+  "description": "Que retiens-tu des chapitres 1 à 8 ? Une seule chance par question : 12/20 pour relever le défi.",
+  "source": "Quiz du professeur",
+  "sections": [ { "title": "Le défi 3", "activities": ["test"] } ]
 }

@@ -215,7 +215,7 @@ fun SettingsScreen() {
 
                 Section(stringResource(R.string.settings_section_data)) {
                     ActionRow(stringResource(R.string.settings_export), stringResource(R.string.settings_export_hint)) {
-                        exportLauncher.launch("lurata-progression-${LocalDate.now()}.json")
+                        exportLauncher.launch("loura-progression-${LocalDate.now()}.json")
                     }
                     ActionRow(stringResource(R.string.settings_import), stringResource(R.string.settings_import_hint)) {
                         importLauncher.launch(arrayOf("application/json", "text/plain", "application/octet-stream"))
