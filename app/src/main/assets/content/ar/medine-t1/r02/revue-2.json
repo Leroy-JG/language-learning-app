@@ -68,7 +68,7 @@
       "id": "medine-t1.r02.revue-2#5",
       "type": "fill_gap",
       "sentence": "{0} طَالِبَتَانِ.",
-      "fr": "Celles-ci sont deux étudiantes.",
+      "fr": "Ces deux-ci (féminin) sont deux étudiantes.",
       "gaps": [ { "answers": ["هَاتَانِ"] } ],
       "options": ["هَاتَانِ", "هٰذَانِ", "هٰذِهِ"],
       "explain": "{ar|طَالِبَتَانِ} est un duel féminin : on choisit {ar|هَاتَانِ} (proche)."

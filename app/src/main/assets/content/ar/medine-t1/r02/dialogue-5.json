@@ -29,7 +29,7 @@
         {
           "speaker": "A",
           "ar": "وَبَعْدَ الصَّلَاةِ يَجْلِسُ يَذْكُرُ اللَّهَ وَيَتْلُو الْقُرْآنَ حَتَّى تَطْلُعَ الشَّمْسُ فَيُصَلِّي صَلَاةَ الضُّحَى.",
-          "fr": "Après la prière, il s'assoit, invoque Allah et récite le Coran jusqu'à ce que le soleil se lève, puis il fait la prière de la matinée."
+          "fr": "Après la prière, il s'assoit, mentionne Allah (fait le dhikr) et récite le Coran jusqu'à ce que le soleil se lève, puis il fait la prière de la matinée."
         },
         {
           "speaker": "A",
@@ -133,7 +133,7 @@
       "id": "medine-t1.r02.dialogue-5#7",
       "type": "question",
       "prompt": { "fr": "Que fait Zayd entre la prière de l'aube et la prière de la matinée ?" },
-      "choices": [ { "fr": "Il invoque Allah et récite le Coran" }, { "fr": "Il dort" }, { "fr": "Il va à l'école" } ],
+      "choices": [ { "fr": "Il mentionne Allah et récite le Coran" }, { "fr": "Il dort" }, { "fr": "Il va à l'école" } ],
       "answer": 0,
       "context": { "dialogue": "medine-t1.r02.dialogue-5#1" }
     },

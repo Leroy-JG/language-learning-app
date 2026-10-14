@@ -117,7 +117,7 @@
       "id": "medine-t1.r02.dialogue-3#7",
       "type": "fill_gap",
       "sentence": "{0} طَالِبَتَانِ مِنَ الْيَمَنِ.",
-      "fr": "Celles-ci sont deux étudiantes du Yémen.",
+      "fr": "Ces deux-ci (féminin) sont deux étudiantes du Yémen.",
       "gaps": [ { "answers": ["هَاتَانِ"] } ],
       "options": ["هَاتَانِ", "هَؤُلَاءِ", "ذَانِكَ"],
       "context": { "dialogue": "medine-t1.r02.dialogue-3#1" },
