@@ -1,0 +1,166 @@
+{
+  "id": "medine-t1.l21.practice-1",
+  "type": "dialogue",
+  "title": "Réponds aux questions du livre",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t1.l21.practice-1#1",
+      "type": "tip",
+      "title": "L'exercice du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans le livre, on te pose des questions sur le texte. Voici les formes à connaître."
+        },
+        {
+          "type": "table",
+          "header": ["Question", "Sens", "Mot à mot"],
+          "rows": [
+            [
+              "{ar|كَمْ بَابًا لَهَا؟}",
+              "combien de portes a-t-elle ?",
+              "{ar|كَمْ} + nom singulier à l'accusatif (en général) ; {ar|لَهَا} = « à elle »"
+            ],
+            [
+              "{ar|أَمُغْلَقَةٌ أَبْوَابُهَا الْآنَ أَمْ مَفْتُوحَةٌ؟}",
+              "ses portes sont-elles fermées maintenant ou ouvertes ?",
+              "{ar|أَ} + choix 1 + {ar|أَمْ} + choix 2"
+            ],
+            [
+              "{ar|أَكُلُّهُمْ مِنْ بَلَدٍ وَاحِدٍ؟}",
+              "sont-ils tous d'un seul pays ?",
+              "{ar|أَ} + {ar|كُلُّ} + {ar|هُمْ} : « tous »"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans {ar|أَمُغْلَقَةٌ أَبْوَابُهَا الْآنَ أَمْ مَفْتُوحَةٌ؟}, c'est l'ordre du livre : on place tout de suite après {ar|أَ} le mot dont on compare les deux possibilités ({ar|مُغْلَقَةٌ} / {ar|مَفْتُوحَةٌ}), avant {ar|أَبْوَابُهَا}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l21.practice-1#2",
+      "type": "question",
+      "prompt": { "ar": "أَيْنَ هٰذِهِ الْمَدْرَسَةُ؟" },
+      "choices": [
+        { "ar": "هِيَ قَرِيبَةٌ مِنَ الْمَسْجِدِ." },
+        { "ar": "هِيَ قَرِيبَةٌ مِنَ الْمَطَارِ." },
+        { "ar": "هِيَ بَعِيدَةٌ مِنَ الْمَسْجِدِ." }
+      ],
+      "answer": 0,
+      "instruction": "Choisis la bonne réponse, d'après le texte.",
+      "context": { "dialogue": "medine-t1.l21.dialogue-1#1" },
+      "explain": "{ar|أَيْنَ هٰذِهِ الْمَدْرَسَةُ؟} : « où est cette école ? » Elle est proche de la mosquée."
+    },
+    {
+      "id": "medine-t1.l21.practice-1#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ بَابًا لَهَا؟",
+      "answers": ["لَهَا ثَلَاثَةُ أَبْوَابٍ.", "عِنْدَهَا ثَلَاثَةُ أَبْوَابٍ.", "ثَلَاثَةُ أَبْوَابٍ.", "ثَلَاثَةٌ."],
+      "fr": "Elle a trois portes.",
+      "instruction": "Réponds à la question : « Combien de portes a-t-elle ? »",
+      "context": { "dialogue": "medine-t1.l21.dialogue-1#1" },
+      "explain": "{ar|بَابٌ} est masculin : {ar|ثَلَاثَةُ أَبْوَابٍ}."
+    },
+    {
+      "id": "medine-t1.l21.practice-1#4",
+      "type": "question",
+      "prompt": { "ar": "أَمُغْلَقَةٌ أَبْوَابُهَا الْآنَ أَمْ مَفْتُوحَةٌ؟" },
+      "choices": [ { "ar": "أَبْوَابُهَا مَفْتُوحَةٌ الْآنَ." }, { "ar": "أَبْوَابُهَا مُغْلَقَةٌ الْآنَ." } ],
+      "answer": 0,
+      "instruction": "Choisis la bonne réponse, d'après le texte.",
+      "context": { "dialogue": "medine-t1.l21.dialogue-1#1" },
+      "explain": "« Ses portes sont-elles fermées maintenant ou ouvertes ? » Elles sont ouvertes."
+    },
+    {
+      "id": "medine-t1.l21.practice-1#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ نَافِذَةً فِي هٰذَا الْفَصْلِ؟",
+      "answers": [
+        "فِيهِ نَافِذَتَانِ.",
+        "فِي الْفَصْلِ نَافِذَتَانِ.",
+        "فِي فَصْلِنَا نَافِذَتَانِ.",
+        "فِي هٰذَا الْفَصْلِ نَافِذَتَانِ.",
+        "نَافِذَتَانِ.",
+        "فِيهِ نَافِذَتَانِ كَبِيرَتَانِ.",
+        "نَافِذَتَانِ كَبِيرَتَانِ."
+      ],
+      "fr": "Il y a deux fenêtres.",
+      "instruction": "Réponds à la question : « Combien de fenêtres y a-t-il dans cette classe ? »",
+      "context": { "dialogue": "medine-t1.l21.dialogue-1#1" },
+      "explain": "Deux fenêtres : le duel {ar|نَافِذَتَانِ}."
+    },
+    {
+      "id": "medine-t1.l21.practice-1#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ طَالِبًا فِي هٰذَا الْفَصْلِ؟",
+      "answers": [
+        "فِيهِ عَشَرَةُ طُلَّابٍ.",
+        "فِي الْفَصْلِ عَشَرَةُ طُلَّابٍ.",
+        "فِي هٰذَا الْفَصْلِ عَشَرَةُ طُلَّابٍ.",
+        "فِي فَصْلِنَا عَشَرَةُ طُلَّابٍ.",
+        "عَشَرَةُ طُلَّابٍ."
+      ],
+      "fr": "Il y a dix étudiants.",
+      "instruction": "Réponds à la question : « Combien d'étudiants y a-t-il dans cette classe ? »",
+      "context": { "dialogue": "medine-t1.l21.dialogue-2#1" },
+      "explain": "{ar|طَالِبٌ} est masculin : {ar|عَشَرَةُ طُلَّابٍ}."
+    },
+    {
+      "id": "medine-t1.l21.practice-1#7",
+      "type": "question",
+      "prompt": { "ar": "أَكُلُّهُمْ مِنْ بَلَدٍ وَاحِدٍ؟" },
+      "choices": [ { "ar": "لَا، هُمْ مِنْ بِلَادٍ مُخْتَلِفَةٍ." }, { "ar": "نَعَمْ، هُمْ مِنْ بَلَدٍ وَاحِدٍ." } ],
+      "answer": 0,
+      "instruction": "Choisis la bonne réponse, d'après le texte.",
+      "context": { "dialogue": "medine-t1.l21.dialogue-2#1" },
+      "explain": "« Sont-ils tous d'un seul pays ? » Non : ils viennent de pays différents."
+    },
+    {
+      "id": "medine-t1.l21.practice-1#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِنْ أَيْنَ أَبُو بَكْرٍ؟",
+      "answers": ["هُوَ مِنَ الْيُونَانِ.", "أَبُو بَكْرٍ مِنَ الْيُونَانِ.", "مِنَ الْيُونَانِ."],
+      "fr": "Il est de Grèce.",
+      "instruction": "Réponds à la question : « D'où vient Abū Bakr ? »",
+      "context": { "dialogue": "medine-t1.l21.dialogue-2#1" },
+      "explain": "{ar|الْيُونَانُ} devient {ar|الْيُونَانِ} après {ar|مِنَ}."
+    },
+    {
+      "id": "medine-t1.l21.practice-1#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِنْ أَيْنَ يُوسُفُ؟",
+      "answers": ["هُوَ مِنْ إِنْكِلْتِرَا.", "يُوسُفُ مِنْ إِنْكِلْتِرَا.", "مِنْ إِنْكِلْتِرَا."],
+      "fr": "Il est d'Angleterre.",
+      "instruction": "Réponds à la question : « D'où vient Yūsuf ? »",
+      "context": { "dialogue": "medine-t1.l21.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t1.l21.practice-1#10",
+      "type": "question",
+      "prompt": { "ar": "مِنْ أَيْنَ أَحْمَدُ؟" },
+      "choices": [ { "ar": "هُوَ مِنَ الْهِنْدِ." }, { "ar": "هُوَ مِنَ الصِّينِ." }, { "ar": "هُوَ مِنَ الْيَابَانِ." } ],
+      "answer": 0,
+      "instruction": "Choisis la bonne réponse, d'après le texte.",
+      "context": { "dialogue": "medine-t1.l21.dialogue-2#1" },
+      "explain": "{ar|هٰذَا أَحْمَدُ وَهُوَ مِنَ الْهِنْدِ} : Aḥmad est d'Inde."
+    },
+    {
+      "id": "medine-t1.l21.practice-1#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِنْ أَيْنَ مُحَمَّدٌ؟",
+      "answers": ["هُوَ مِنَ الْيَابَانِ.", "مُحَمَّدٌ مِنَ الْيَابَانِ.", "مِنَ الْيَابَانِ."],
+      "fr": "Il est du Japon.",
+      "instruction": "Réponds à la question : « D'où vient Muḥammad ? »",
+      "context": { "dialogue": "medine-t1.l21.dialogue-2#1" }
+    }
+  ]
+}

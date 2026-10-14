@@ -1,0 +1,140 @@
+{
+  "id": "medine-t1.l21.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 21",
+  "screens": [
+    {
+      "id": "medine-t1.l21.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:lawn",
+      "distractors": ["w:dars", "w:ism"]
+    },
+    {
+      "id": "medine-t1.l21.quiz#2",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:salih", "w:lakin", "w:am", "w:nijiriya"]
+    },
+    {
+      "id": "medine-t1.l21.quiz#3",
+      "type": "fill_gap",
+      "sentence": "هٰذَا كِتَابٌ وَ{0} قَلَمٌ.",
+      "fr": "Ceci est un livre et cela est un stylo.",
+      "gaps": [ { "answers": ["ذَاكَ", "ذٰلِكَ"] } ],
+      "options": ["ذَاكَ", "ذٰلِكَ", "تِلْكَ"],
+      "explain": "{ar|قَلَمٌ} est masculin : {ar|ذَاكَ} ou {ar|ذٰلِكَ}, les deux sont justes."
+    },
+    {
+      "id": "medine-t1.l21.quiz#4",
+      "type": "fill_gap",
+      "sentence": "الْمَسْجِدُ كَبِيرٌ وَ{0} بَابُهُ صَغِيرٌ.",
+      "fr": "La mosquée est grande, mais sa porte est petite.",
+      "gaps": [ { "answers": ["لٰكِنْ"] } ],
+      "options": ["لٰكِنْ", "أَمْ", "مِنْ"],
+      "explain": "{ar|لٰكِنْ} : « mais »."
+    },
+    {
+      "id": "medine-t1.l21.quiz#5",
+      "type": "spot",
+      "instruction": "Touche le mot qui veut dire « ou ».",
+      "words": ["أَمُحَمَّدٌ", "فِي", "الْفَصْلِ", "أَمْ", "فِي", "الْمَسْجِدِ؟"],
+      "answers": [3],
+      "fr": "Muḥammad est-il dans la classe ou à la mosquée ?"
+    },
+    {
+      "id": "medine-t1.l21.quiz#6",
+      "type": "sort",
+      "categories": [ { "ar": "آسِيَا" }, { "ar": "إِفْرِيقِيَا" }, { "ar": "أُورُبَّا" } ],
+      "cards": [
+        { "item": "w:ghana", "category": 1 },
+        { "item": "w:hind", "category": 0 },
+        { "item": "w:inkiltira", "category": 2 },
+        { "item": "w:yaban", "category": 0 },
+        { "item": "w:yunan", "category": 2 }
+      ],
+      "instruction": "Dans quel continent se trouve ce pays ?"
+    },
+    {
+      "id": "medine-t1.l21.quiz#7",
+      "type": "question",
+      "prompt": { "fr": "Combien d'étudiants y a-t-il dans la classe du texte ?" },
+      "choices": [ { "fr": "Dix" }, { "fr": "Huit" }, { "fr": "Neuf" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l21.dialogue-2#1" },
+      "explain": "{ar|عَشَرَةُ طُلَّابٍ}."
+    },
+    {
+      "id": "medine-t1.l21.quiz#8",
+      "type": "true_false",
+      "statement": { "fr": "Les étudiants du texte ont tous la même langue." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l21.dialogue-3#1" },
+      "explain": "{ar|لُغَاتُهُمْ مُخْتَلِفَةٌ} : leurs langues sont différentes."
+    },
+    {
+      "id": "medine-t1.l21.quiz#9",
+      "type": "fill_gap",
+      "sentence": "{0} وَاحِدَةٌ.",
+      "fr": "Leur qibla est unique.",
+      "gaps": [ { "answers": ["قِبْلَتُهُمْ"] } ],
+      "options": ["قِبْلَتُهُمْ", "قِبْلَتُهَا", "قِبْلَتُنَا"],
+      "explain": "« Leur » : {ar|هُمْ}, et le {ar|ة} de {ar|قِبْلَةٌ} devient {ar|ت}."
+    },
+    {
+      "id": "medine-t1.l21.quiz#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "une classe spacieuse",
+      "answers": ["فَصْلٌ وَاسِعٌ"]
+    },
+    {
+      "id": "medine-t1.l21.quiz#11",
+      "type": "question",
+      "prompt": { "fr": "Qui est le cheikh Bilāl ?" },
+      "choices": [
+        { "fr": "L'enseignant de la classe" },
+        { "fr": "Un étudiant du Ghana" },
+        { "fr": "Un étudiant de Turquie" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l21.dialogue-3#1" },
+      "explain": "{ar|هٰذَا مُدَرِّسُنَا. اِسْمُهُ الشَّيْخُ بِلَالٌ}."
+    },
+    {
+      "id": "medine-t1.l21.quiz#12",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:asia",
+      "distractors": ["w:ifriqiya", "w:uruba"]
+    },
+    {
+      "id": "medine-t1.l21.quiz#13",
+      "type": "order",
+      "fr": "Elle a trois portes.",
+      "answers": [["لَهَا", "ثَلَاثَةُ", "أَبْوَابٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l21.quiz#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Et les musulmans sont des frères.",
+      "answers": ["وَالْمُسْلِمُونَ إِخْوَةٌ."]
+    },
+    {
+      "id": "medine-t1.l21.quiz#15",
+      "type": "true_false",
+      "statement": { "fr": "{ar|ذَاكَ} et {ar|ذٰلِكَ} ont le même sens." },
+      "answer": true,
+      "explain": "Les deux veulent dire « celui-là » : un nom masculin qui est loin."
+    },
+    {
+      "id": "medine-t1.l21.quiz#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nos portes sont ouvertes maintenant.",
+      "answers": ["أَبْوَابُنَا مَفْتُوحَةٌ الْآنَ.", "أَبْوَابُنَا الْآنَ مَفْتُوحَةٌ.", "مَفْتُوحَةٌ أَبْوَابُنَا الْآنَ."]
+    }
+  ]
+}

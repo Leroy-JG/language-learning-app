@@ -1,0 +1,126 @@
+{
+  "id": "medine-t1.l21.grammar-1",
+  "type": "grammar",
+  "title": "{ar|ذَاكَ}, un autre « cela »",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l21.grammar-1#1",
+      "type": "tip",
+      "title": "{ar|ذَاكَ} = {ar|ذٰلِكَ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|ذٰلِكَ} (chapitre 2) : il montre **un seul** nom **masculin** qui est **loin**. Le professeur ajoute une deuxième forme, {ar|ذَاكَ}. Elle a exactement le même sens et le même emploi."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "ذٰلِكَ زَيْدٌ", "fr": "celui-là, c'est Zayd" },
+              "to": { "ar": "ذَاكَ زَيْدٌ", "fr": "celui-là, c'est Zayd" },
+              "label": "même sens"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "header": ["Distance", "Masculin", "Féminin"],
+          "rows": [["Proche", "{ar|هٰذَا}", "{ar|هٰذِهِ}"], ["Loin", "{ar|ذٰلِكَ} ou {ar|ذَاكَ}", "{ar|تِلْكَ}"]]
+        },
+        {
+          "type": "note",
+          "text": "Ils ne s'écrivent pas pareil : {ar|ذَاكَ} s'écrit avec un vrai alif, {ar|ذٰلِكَ} avec un alif en petit au-dessus du {ar|ذ}. La prononciation du {ar|ا} est la même (« dhā »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l21.grammar-1#2",
+      "type": "tip",
+      "title": "Deux façons de bâtir le mot",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|ذَاكَ} est plus court que {ar|ذٰلِكَ}. Les deux se composent du démonstratif {ar|ذَا} (« ce, ceci ») et du {ar|كَ}, qui s'adresse à celui à qui on parle ; dans {ar|ذٰلِكَ}, il y a en plus un {ar|لِ} entre les deux."
+        },
+        {
+          "type": "breakdown",
+          "ar": "ذَاكَ",
+          "fr": "celui-là",
+          "parts": [ { "ar": "ذَا", "fr": "ce, ceci" }, { "ar": "كَ", "fr": "pour celui qui écoute" } ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "{ar|ذَاكَ} suit les mêmes règles que {ar|ذٰلِكَ} : on l'emploie avec un nom masculin. Devant un nom féminin, on dit {ar|تِلْكَ} : {ar|تِلْكَ سَيَّارَةٌ}."
+        }
+      ]
+    },
+    { "id": "medine-t1.l21.grammar-1#3", "type": "present", "item": "w:dhaka" },
+    {
+      "id": "medine-t1.l21.grammar-1#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:dhaka",
+      "distractors": ["w:ayna", "w:kam"]
+    },
+    {
+      "id": "medine-t1.l21.grammar-1#5",
+      "type": "fill_gap",
+      "sentence": "هٰذَا مَكْتَبُ الْمُدَرِّسِ وَ{0} كُرْسِيُّهُ.",
+      "fr": "Ceci est le bureau de l'enseignant, et cela est sa chaise.",
+      "gaps": [ { "answers": ["ذَاكَ", "ذٰلِكَ"] } ],
+      "options": ["ذَاكَ", "ذٰلِكَ", "تِلْكَ"],
+      "explain": "{ar|كُرْسِيٌّ} est masculin et la chaise est loin : {ar|ذَاكَ} ou {ar|ذٰلِكَ}, les deux sont justes. {ar|تِلْكَ} est féminin."
+    },
+    {
+      "id": "medine-t1.l21.grammar-1#6",
+      "type": "sort",
+      "categories": [ { "fr": "proche" }, { "fr": "loin" } ],
+      "cards": [
+        { "ar": "هٰذَا كِتَابٌ", "category": 0 },
+        { "ar": "ذَاكَ بَابٌ", "category": 1 },
+        { "ar": "ذٰلِكَ بَيْتٌ", "category": 1 },
+        { "ar": "هٰذَا مَسْجِدٌ", "category": 0 },
+        { "ar": "ذَاكَ قَلَمٌ", "category": 1 },
+        { "ar": "هٰذَا مَكْتَبٌ", "category": 0 }
+      ],
+      "instruction": "Ce démonstratif montre-t-il ce qui est proche ou ce qui est loin ?"
+    },
+    {
+      "id": "medine-t1.l21.grammar-1#7",
+      "type": "question",
+      "prompt": { "fr": "Avec quelle sorte de nom peut-on employer {ar|ذَاكَ} ?" },
+      "choices": [
+        { "fr": "Un nom masculin singulier, par exemple {ar|مَكْتَبٌ}" },
+        { "fr": "Un nom féminin singulier, par exemple {ar|سَيَّارَةٌ}" },
+        { "fr": "Plusieurs personnes, par exemple {ar|طُلَّابٌ}" }
+      ],
+      "answer": 0,
+      "explain": "{ar|ذَاكَ} est le même mot que {ar|ذٰلِكَ} : masculin singulier. Pour un féminin on dit {ar|تِلْكَ}, et pour plusieurs personnes {ar|أُولَئِكَ}."
+    },
+    {
+      "id": "medine-t1.l21.grammar-1#8",
+      "type": "true_false",
+      "statement": { "fr": "{ar|ذَاكَ زَيْدٌ} et {ar|ذٰلِكَ زَيْدٌ} ont le même sens." },
+      "answer": true,
+      "explain": "Les deux veulent dire « celui-là, c'est Zayd »."
+    },
+    {
+      "id": "medine-t1.l21.grammar-1#9",
+      "type": "spot",
+      "instruction": "Touche le mot qui montre ce qui est loin.",
+      "words": ["هٰذَا", "مَكْتَبُ", "الْمُدَرِّسِ", "وَذَاكَ", "كُرْسِيُّهُ."],
+      "answers": [3],
+      "fr": "Ceci est le bureau de l'enseignant et cela est sa chaise."
+    },
+    {
+      "id": "medine-t1.l21.grammar-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Celui-là est Zayd.",
+      "answers": ["ذَاكَ زَيْدٌ.", "ذٰلِكَ زَيْدٌ."],
+      "explain": "{ar|ذَاكَ} et {ar|ذٰلِكَ} sont tous les deux justes."
+    }
+  ]
+}
