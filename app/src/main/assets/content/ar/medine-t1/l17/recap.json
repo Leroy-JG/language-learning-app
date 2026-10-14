@@ -1,0 +1,92 @@
+{
+  "id": "medine-t1.l17.recap",
+  "type": "review",
+  "title": "Rappel : un seul, plusieurs",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l17.recap#1",
+      "type": "tip",
+      "title": "Des pluriels que tu connais déjà",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Depuis le chapitre 1, tu rencontres des pluriels. Ils n'ont pas tous la même allure :"
+        },
+        {
+          "type": "table",
+          "header": ["Singulier", "Pluriel", "Ce qui change"],
+          "rows": [
+            ["{ar|كِتَابٌ} (un livre)", "{ar|كُتُبٌ}", "le mot lui-même change (chapitre 1)"],
+            [
+              "{ar|مُسْلِمٌ} (un musulman)",
+              "{ar|مُسْلِمُونَ}",
+              "une terminaison s'ajoute : {ar|◌ُونَ} (chapitre 6)"
+            ],
+            [
+              "{ar|سَيَّارَةٌ} (une voiture)",
+              "{ar|سَيَّارَاتٌ}",
+              "une terminaison s'ajoute : {ar|◌َاتٌ} (chapitre 5)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Ce chapitre met de l'ordre dans tous ces pluriels : comment ils se forment, quand les employer, et comment leur dernière lettre change selon le rôle du mot dans la phrase."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.recap#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:kitab", "w:muslim", "w:sayyara", "w:talib", "w:mudarris"]
+    },
+    {
+      "id": "medine-t1.l17.recap#3",
+      "type": "sort",
+      "categories": [ { "fr": "se termine par -ūna" }, { "fr": "se termine par -āt" }, { "fr": "le mot change" } ],
+      "cards": [
+        { "ar": "فَلَّاحُونَ", "category": 0 },
+        { "ar": "كُتُبٌ", "category": 2 },
+        { "ar": "سَيَّارَاتٌ", "category": 1 },
+        { "ar": "مُدِيرُونَ", "category": 0 },
+        { "ar": "أَبْوَابٌ", "category": 2 },
+        { "ar": "جَامِعَاتٌ", "category": 1 }
+      ],
+      "instruction": "Range chaque pluriel selon son allure.",
+      "explain": "{ar|فَلَّاحُونَ} et {ar|مُدِيرُونَ} se terminent par {ar|◌ُونَ} ; {ar|سَيَّارَاتٌ} et {ar|جَامِعَاتٌ} par {ar|◌َاتٌ} ; dans {ar|كُتُبٌ} et {ar|أَبْوَابٌ}, le mot lui-même a changé."
+    },
+    {
+      "id": "medine-t1.l17.recap#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:jam",
+      "distractors": ["w:mufrad", "w:ism"]
+    },
+    {
+      "id": "medine-t1.l17.recap#5",
+      "type": "fill_gap",
+      "sentence": "{0} فِي الْفَصْلِ.",
+      "fr": "Les enseignants sont en classe.",
+      "gaps": [ { "answers": ["الْمُدَرِّسُونَ"] } ],
+      "options": ["الْمُدَرِّسُونَ", "الْمُدَرِّسُ", "الْمُدَرِّسَةُ"],
+      "explain": "« Les enseignants » : le pluriel {ar|الْمُدَرِّسُونَ}. {ar|الْمُدَرِّسُ} est au singulier, {ar|الْمُدَرِّسَةُ} est une femme."
+    },
+    {
+      "id": "medine-t1.l17.recap#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mufrad",
+      "distractors": ["w:jam", "w:ism"]
+    },
+    { "id": "medine-t1.l17.recap#7", "type": "typing", "ask": "fr", "fr": "des livres", "answers": ["كُتُبٌ"] },
+    {
+      "id": "medine-t1.l17.recap#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des musulmans",
+      "answers": ["مُسْلِمُونَ"]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "medine-t1.l17.vocab-4",
+  "type": "vocabulary",
+  "title": "Hôtels, montagnes et avions",
+  "icon": "bed",
+  "screens": [
+    { "id": "medine-t1.l17.vocab-4#1", "type": "present", "item": "w:funduq" },
+    { "id": "medine-t1.l17.vocab-4#2", "type": "present", "item": "w:jabal" },
+    {
+      "id": "medine-t1.l17.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:funduq",
+      "distractors": ["w:bayt", "w:madrasa"]
+    },
+    { "id": "medine-t1.l17.vocab-4#4", "type": "present", "item": "w:nahr" },
+    { "id": "medine-t1.l17.vocab-4#5", "type": "present", "item": "w:tairatun" },
+    {
+      "id": "medine-t1.l17.vocab-4#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:tairatun",
+      "distractors": ["w:sayyara", "w:tair"]
+    },
+    { "id": "medine-t1.l17.vocab-4#7", "type": "present", "item": "w:zawja" },
+    {
+      "id": "medine-t1.l17.vocab-4#8",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:funduq", "w:jabal", "w:nahr", "w:tairatun", "w:zawja"]
+    },
+    {
+      "id": "medine-t1.l17.vocab-4#9",
+      "type": "sort",
+      "categories": [ { "fr": "masculin" }, { "fr": "féminin" } ],
+      "cards": [
+        { "item": "w:funduq", "category": 0 },
+        { "item": "w:jabal", "category": 0 },
+        { "item": "w:tairatun", "category": 1 },
+        { "item": "w:zawja", "category": 1 },
+        { "item": "w:nahr", "category": 0 }
+      ],
+      "instruction": "Masculin ou féminin ?",
+      "explain": "{ar|فُنْدُقٌ}, {ar|جَبَلٌ} et {ar|نَهْرٌ} sont masculins ; {ar|طَائِرَةٌ} et {ar|زَوْجَةٌ} sont féminins (ils se terminent par {ar|ة})."
+    },
+    { "id": "medine-t1.l17.vocab-4#10", "type": "build", "item": "w:funduq", "extra": ["ك"] },
+    {
+      "id": "medine-t1.l17.vocab-4#11",
+      "type": "fill_gap",
+      "sentence": "فِي هٰذَا الشَّارِعِ {0} كَبِيرٌ.",
+      "fr": "Dans cette rue, il y a un grand hôtel.",
+      "gaps": [ { "answers": ["فُنْدُقٌ"] } ],
+      "options": ["فُنْدُقٌ", "طَائِرَةٌ", "زَوْجَةٌ"],
+      "explain": "{ar|كَبِيرٌ} est masculin : le nom qui convient est {ar|فُنْدُقٌ}."
+    },
+    { "id": "medine-t1.l17.vocab-4#12", "type": "typing", "ask": "fr", "item": "w:nahr" },
+    {
+      "id": "medine-t1.l17.vocab-4#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Cette montagne-là est loin.",
+      "answers": ["ذٰلِكَ الْجَبَلُ بَعِيدٌ."]
+    }
+  ]
+}

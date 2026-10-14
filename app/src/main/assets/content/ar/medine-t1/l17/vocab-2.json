@@ -1,0 +1,92 @@
+{
+  "id": "medine-t1.l17.vocab-2",
+  "type": "vocabulary",
+  "title": "La société et les prix",
+  "icon": "shop",
+  "screens": [
+    { "id": "medine-t1.l17.vocab-2#1", "type": "present", "item": "w:sharika" },
+    { "id": "medine-t1.l17.vocab-2#2", "type": "present", "item": "w:rakhis" },
+    { "id": "medine-t1.l17.vocab-2#3", "type": "present", "item": "w:ghali" },
+    {
+      "id": "medine-t1.l17.vocab-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:rakhis",
+      "distractors": ["w:ghali", "w:jamil"]
+    },
+    {
+      "id": "medine-t1.l17.vocab-2#5",
+      "type": "tip",
+      "title": "Une lettre qui disparaît",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|غَالٍ} se termine par un tanwin sur le {ar|ل} : le {ar|ي} final, qui existe dans le mot, disparaît sous le tanwin. Avec l'article, il revient."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "غَالٍ", "fr": "cher" },
+              "to": { "ar": "الْغَالِي", "fr": "le cher" },
+              "label": "le {ar|ي} revient avec l'article"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Tu as déjà vu la même chose avec {ar|مَكَاوٍ}, le pluriel de {ar|مِكْوَاةٌ} (chapitre 6). Au féminin, le {ar|ي} est écrit : {ar|غَالِيَةٌ}."
+        }
+      ]
+    },
+    { "id": "medine-t1.l17.vocab-2#6", "type": "present", "item": "w:kathir" },
+    {
+      "id": "medine-t1.l17.vocab-2#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kathir",
+      "distractors": ["w:kabir", "w:saghir"]
+    },
+    {
+      "id": "medine-t1.l17.vocab-2#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:sharika", "w:rakhis", "w:ghali", "w:kathir", "w:qadim"]
+    },
+    { "id": "medine-t1.l17.vocab-2#9", "type": "build", "item": "w:sharika", "extra": ["ه", "ق"] },
+    {
+      "id": "medine-t1.l17.vocab-2#10",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ السَّاعَةُ {0}.",
+      "fr": "Cette montre est chère.",
+      "gaps": [ { "answers": ["غَالِيَةٌ"] } ],
+      "options": ["غَالِيَةٌ", "رَخِيصَةٌ", "قَدِيمَةٌ"],
+      "explain": "{ar|غَالٍ} veut dire « cher » : au féminin, {ar|غَالِيَةٌ}. {ar|رَخِيصَةٌ} serait « bon marché »."
+    },
+    {
+      "id": "medine-t1.l17.vocab-2#11",
+      "type": "order",
+      "fr": "Le directeur de la société est ici.",
+      "answers": [["مُدِيرُ", "الشَّرِكَةِ", "هُنَا"]],
+      "punctuation": ".",
+      "explain": "{ar|مُدِيرُ الشَّرِكَةِ} : une annexion (« le directeur de la société »)."
+    },
+    {
+      "id": "medine-t1.l17.vocab-2#12",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ السَّاعَةُ {0}.",
+      "fr": "Cette montre est bon marché.",
+      "gaps": [ { "answers": ["رَخِيصَةٌ"] } ],
+      "options": ["رَخِيصَةٌ", "غَالِيَةٌ", "كَثِيرَةٌ"],
+      "explain": "{ar|رَخِيصٌ} veut dire « bon marché » : au féminin, {ar|رَخِيصَةٌ}."
+    },
+    { "id": "medine-t1.l17.vocab-2#13", "type": "typing", "ask": "fr", "item": "w:sharika" },
+    {
+      "id": "medine-t1.l17.vocab-2#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Cette montre est bon marché.",
+      "answers": ["هٰذِهِ السَّاعَةُ رَخِيصَةٌ."]
+    }
+  ]
+}

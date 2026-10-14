@@ -1,0 +1,120 @@
+{
+  "id": "medine-t1.l17.grammar-7",
+  "type": "grammar",
+  "title": "Des choses au pluriel",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t1.l17.grammar-7#1",
+      "type": "tip",
+      "title": "Le pluriel des choses prend le féminin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand un pluriel désigne des **choses** (ou des animaux), le mot qui le décrit se met au **féminin**. Deux accords sont possibles :"
+        },
+        {
+          "type": "table",
+          "header": ["Accord", "Exemple", "Sens"],
+          "rows": [
+            ["au féminin singulier (le plus courant)", "{ar|كُتُبٌ جَدِيدَةٌ}", "de nouveaux livres"],
+            ["au féminin singulier", "{ar|أَيَّامٌ مَعْدُودَةٌ}", "des jours comptés"],
+            ["au féminin pluriel", "{ar|أَيَّامٌ مَعْدُودَاتٌ}", "des jours comptés"],
+            ["au féminin pluriel", "{ar|جِبَالٌ رَاسِيَاتٌ}", "des montagnes solidement ancrées"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le féminin singulier est le plus courant. Le féminin pluriel est possible aussi : on le trouve par exemple dans {ar|أَيَّامٌ مَعْدُودَاتٌ}, une expression du Coran (2:184)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.grammar-7#2",
+      "type": "tip",
+      "title": "Les mots qui reprennent ce pluriel",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le démonstratif et le pronom qui reprennent un pluriel de choses sont eux aussi au **féminin** : {ar|هٰذِهِ} et {ar|هِيَ}."
+        },
+        { "type": "example", "ar": "هٰذِهِ الدُّرُوسُ سَهْلَةٌ.", "fr": "Ces leçons sont faciles." },
+        {
+          "type": "example",
+          "ar": "أَيْنَ الْكُتُبُ؟ هِيَ فِي الْفَصْلِ.",
+          "fr": "Où sont les livres ? Elles sont en classe."
+        },
+        { "type": "example", "ar": "هٰذِهِ الْحُمُرُ لِلْفَلَّاحِ.", "fr": "Ces ânes sont au paysan." },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Pour des **personnes**, c'est différent : {ar|هَؤُلَاءِ} (chapitre 13), {ar|هُمْ} et {ar|هُنَّ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.grammar-7#3",
+      "type": "fill_gap",
+      "sentence": "{0} الدُّرُوسُ سَهْلَةٌ.",
+      "fr": "Ces leçons sont faciles.",
+      "gaps": [ { "answers": ["هٰذِهِ"] } ],
+      "options": ["هٰذِهِ", "هٰذَا", "ذٰلِكَ"],
+      "explain": "Des leçons (des choses) : le démonstratif est au féminin, {ar|هٰذِهِ}."
+    },
+    {
+      "id": "medine-t1.l17.grammar-7#4",
+      "type": "fill_gap",
+      "sentence": "فِي الْهِنْدِ لُغَاتٌ {0}.",
+      "fr": "En Inde, il y a de nombreuses langues.",
+      "gaps": [ { "answers": ["كَثِيرَةٌ"] } ],
+      "options": ["كَثِيرَةٌ", "كَثِيرٌ", "كَثِيرُونَ"],
+      "explain": "{ar|لُغَاتٌ} désigne des choses : l'adjectif se met au féminin, {ar|كَثِيرَةٌ}. {ar|كَثِيرُونَ} serait réservé à des hommes."
+    },
+    {
+      "id": "medine-t1.l17.grammar-7#5",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ الْكُتُبُ؟ {0} فِي الْفَصْلِ.",
+      "fr": "Où sont les livres ? Ils sont en classe.",
+      "gaps": [ { "answers": ["هِيَ"] } ],
+      "options": ["هِيَ", "هُوَ", "هُمْ"],
+      "explain": "Un pluriel de choses est repris par le féminin {ar|هِيَ}."
+    },
+    {
+      "id": "medine-t1.l17.grammar-7#6",
+      "type": "true_false",
+      "statement": { "fr": "Pour un pluriel de choses, on met en général l'adjectif au féminin singulier." },
+      "answer": true,
+      "explain": "Oui : {ar|كُتُبٌ جَدِيدَةٌ}, {ar|لُغَاتٌ كَثِيرَةٌ}, {ar|سَيَّارَاتٌ كَبِيرَةٌ}."
+    },
+    {
+      "id": "medine-t1.l17.grammar-7#7",
+      "type": "sort",
+      "categories": [ { "fr": "féminin singulier" }, { "fr": "féminin pluriel" } ],
+      "cards": [
+        { "ar": "كُتُبٌ جَدِيدَةٌ", "category": 0 },
+        { "ar": "أَيَّامٌ مَعْدُودَاتٌ", "category": 1 },
+        { "ar": "لُغَاتٌ كَثِيرَةٌ", "category": 0 },
+        { "ar": "جِبَالٌ رَاسِيَاتٌ", "category": 1 },
+        { "ar": "أَيَّامٌ مَعْدُودَةٌ", "category": 0 }
+      ],
+      "instruction": "L'adjectif est-il au féminin singulier ou au féminin pluriel ?",
+      "explain": "Féminin singulier : terminaison {ar|◌َةٌ}. Féminin pluriel : terminaison {ar|◌َاتٌ}."
+    },
+    {
+      "id": "medine-t1.l17.grammar-7#8",
+      "type": "order",
+      "fr": "Ces leçons sont faciles.",
+      "answers": [["هٰذِهِ", "الدُّرُوسُ", "سَهْلَةٌ"]],
+      "punctuation": ".",
+      "explain": "{ar|هٰذِهِ} (féminin, pour des choses) puis le groupe {ar|الدُّرُوسُ} et l'adjectif au féminin singulier."
+    },
+    {
+      "id": "medine-t1.l17.grammar-7#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ces ânes sont au paysan.",
+      "answers": ["هٰذِهِ الْحُمُرُ لِلْفَلَّاحِ.", "هٰذِهِ الْحَمِيرُ لِلْفَلَّاحِ."],
+      "explain": "Le pluriel de {ar|حِمَارٌ} est {ar|حُمُرٌ} ; on dit aussi {ar|حَمِيرٌ}. Les animaux se comportent comme des choses : {ar|هٰذِهِ}."
+    }
+  ]
+}

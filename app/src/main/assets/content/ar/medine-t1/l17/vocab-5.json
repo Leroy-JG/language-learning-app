@@ -1,0 +1,94 @@
+{
+  "id": "medine-t1.l17.vocab-5",
+  "type": "vocabulary",
+  "title": "Les verbes du voyage",
+  "icon": "bicycle",
+  "screens": [
+    { "id": "medine-t1.l17.vocab-5#1", "type": "present", "item": "w:intazara" },
+    { "id": "medine-t1.l17.vocab-5#2", "type": "present", "item": "w:aqbala" },
+    { "id": "medine-t1.l17.vocab-5#3", "type": "present", "item": "w:wasala" },
+    {
+      "id": "medine-t1.l17.vocab-5#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:wasala",
+      "distractors": ["w:kharaja", "w:dhahaba"]
+    },
+    { "id": "medine-t1.l17.vocab-5#5", "type": "present", "item": "w:sara" },
+    { "id": "medine-t1.l17.vocab-5#6", "type": "present", "item": "w:masha" },
+    { "id": "medine-t1.l17.vocab-5#7", "type": "present", "item": "w:rakiba" },
+    {
+      "id": "medine-t1.l17.vocab-5#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:sara", "w:masha", "w:rakiba", "w:intazara", "w:wasala"]
+    },
+    { "id": "medine-t1.l17.vocab-5#9", "type": "present", "item": "w:nazala" },
+    { "id": "medine-t1.l17.vocab-5#10", "type": "present", "item": "w:radda" },
+    {
+      "id": "medine-t1.l17.vocab-5#11",
+      "type": "tip",
+      "title": "Les quatre formes d'un verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans son tableau, le professeur donne chaque verbe sous **quatre formes** : le passé (« il a… »), le présent, l'impératif et le nom d'action. Tu viens de voir le passé. Les autres viendront dans des leçons à venir : tu n'as rien à retenir ici, juste à regarder."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["attendre", "{ar|اِنْتَظَرَ}", "{ar|يَنْتَظِرُ}", "{ar|اِنْتَظِرْ}", "{ar|اِنْتِظَارٌ}"],
+            ["s'approcher", "{ar|أَقْبَلَ}", "{ar|يُقْبِلُ}", "{ar|أَقْبِلْ}", "{ar|إِقْبَالٌ}"],
+            ["arriver", "{ar|وَصَلَ}", "{ar|يَصِلُ}", "{ar|صِلْ}", "{ar|وُصُولٌ}"],
+            ["avancer", "{ar|سَارَ}", "{ar|يَسِيرُ}", "{ar|سِرْ}", "{ar|سَيْرٌ}"],
+            ["marcher", "{ar|مَشَى}", "{ar|يَمْشِي}", "{ar|اِمْشِ}", "{ar|مَشْيٌ}"],
+            ["monter", "{ar|رَكِبَ}", "{ar|يَرْكَبُ}", "{ar|اِرْكَبْ}", "{ar|رُكُوبٌ}"],
+            ["descendre", "{ar|نَزَلَ}", "{ar|يَنْزِلُ}", "{ar|اِنْزِلْ}", "{ar|نُزُولٌ}"],
+            ["répondre", "{ar|رَدَّ}", "{ar|يَرُدُّ}", "{ar|رُدَّ}", "{ar|رَدٌّ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.vocab-5#12",
+      "type": "fill_gap",
+      "sentence": "{0} الطُّلَّابُ مِنَ الْحَافِلَةِ.",
+      "fr": "Les étudiants sont descendus du bus.",
+      "gaps": [ { "answers": ["نَزَلَ"] } ],
+      "options": ["نَزَلَ", "رَكِبَ", "اِنْتَظَرَ"],
+      "explain": "« Descendre de » : {ar|نَزَلَ مِنْ}. Le verbe reste au singulier quand il est avant son sujet."
+    },
+    {
+      "id": "medine-t1.l17.vocab-5#13",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ الْحَافِلَةَ.",
+      "fr": "Zayd est monté dans le bus.",
+      "gaps": [ { "answers": ["رَكِبَ"] } ],
+      "options": ["رَكِبَ", "مَشَى", "رَدَّ"],
+      "explain": "« Monter dans un véhicule » : {ar|رَكِبَ}, suivi d'un objet à l'accusatif."
+    },
+    {
+      "id": "medine-t1.l17.vocab-5#14",
+      "type": "order",
+      "fr": "Zayd est arrivé à l'école.",
+      "answers": [["وَصَلَ", "زَيْدٌ", "إِلَى", "الْمَدْرَسَةِ"], ["زَيْدٌ", "وَصَلَ", "إِلَى", "الْمَدْرَسَةِ"]],
+      "punctuation": ".",
+      "explain": "Le verbe peut être avant son sujet (le plus courant) ou après."
+    },
+    {
+      "id": "medine-t1.l17.vocab-5#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd a marché jusqu'à l'école.",
+      "answers": ["مَشَى زَيْدٌ إِلَى الْمَدْرَسَةِ.", "زَيْدٌ مَشَى إِلَى الْمَدْرَسَةِ."]
+    },
+    {
+      "id": "medine-t1.l17.vocab-5#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd a répondu à Muḥammad.",
+      "answers": ["رَدَّ زَيْدٌ عَلَى مُحَمَّدٍ.", "زَيْدٌ رَدَّ عَلَى مُحَمَّدٍ."]
+    }
+  ]
+}

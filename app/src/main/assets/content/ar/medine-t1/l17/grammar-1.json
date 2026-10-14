@@ -1,0 +1,136 @@
+{
+  "id": "medine-t1.l17.grammar-1",
+  "type": "grammar",
+  "title": "Un, deux, plusieurs",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l17.grammar-1#1",
+      "type": "tip",
+      "title": "Trois nombres",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un nom peut désigner un seul être, deux êtres ou plusieurs êtres : c'est le **nombre**. L'arabe en distingue trois."
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "En arabe", "Combien", "Exemple"],
+          "rows": [
+            ["singulier", "{ar|مُفْرَدٌ}", "un seul", "{ar|مُسْلِمٌ}"],
+            ["duel", "{ar|مُثَنًّى}", "deux", "(à venir)"],
+            ["pluriel", "{ar|جَمْعٌ}", "trois ou plus", "{ar|مُسْلِمُونَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le duel a ses propres formes : tu en connais déjà des pronoms, {ar|هُمَا} et {ar|أَنْتُمَا} (chapitre 10). Nous les étudierons plus tard. Aujourd'hui : le pluriel."
+        }
+      ]
+    },
+    { "id": "medine-t1.l17.grammar-1#2", "type": "present", "item": "w:muthanna" },
+    {
+      "id": "medine-t1.l17.grammar-1#3",
+      "type": "question",
+      "prompt": { "fr": "Pour parler de **deux** personnes, on emploie…" },
+      "choices": [ { "fr": "le singulier" }, { "fr": "le duel" }, { "fr": "le pluriel" } ],
+      "answer": 1,
+      "explain": "Un seul : le singulier. Deux : le duel ({ar|الْمُثَنَّى}). Trois ou plus : le pluriel ({ar|الْجَمْعُ})."
+    },
+    {
+      "id": "medine-t1.l17.grammar-1#4",
+      "type": "tip",
+      "title": "Deux sortes de pluriel",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le pluriel arabe indique **trois êtres ou plus**. Il se forme de deux façons très différentes."
+        },
+        {
+          "type": "table",
+          "header": ["Sorte", "En arabe", "Comment", "Exemple"],
+          "rows": [
+            [
+              "régulier",
+              "{ar|جَمْعٌ سَالِمٌ}",
+              "le singulier reste entier, on ajoute une terminaison",
+              "{ar|مُسْلِمٌ} → {ar|مُسْلِمُونَ}"
+            ],
+            ["irrégulier", "{ar|جَمْعُ تَكْسِيرٍ}", "le mot lui-même change", "{ar|كِتَابٌ} → {ar|كُتُبٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "{ar|سَالِمٌ} veut dire « intact » : le mot reste entier. {ar|تَكْسِيرٌ} veut dire « le fait de briser » : le mot est brisé. C'est pourquoi on dit aussi pluriel « sain » et pluriel « brisé »."
+        }
+      ]
+    },
+    { "id": "medine-t1.l17.grammar-1#5", "type": "present", "item": "w:jam-salim" },
+    { "id": "medine-t1.l17.grammar-1#6", "type": "present", "item": "w:jam-taksir" },
+    {
+      "id": "medine-t1.l17.grammar-1#7",
+      "type": "true_false",
+      "statement": {
+        "fr": "{ar|مُسْلِمَاتٌ} est un pluriel régulier : on a gardé le mot {ar|مُسْلِمَةٌ} et changé seulement sa fin."
+      },
+      "answer": true,
+      "explain": "Oui : {ar|مُسْلِمَةٌ} → {ar|مُسْلِمَاتٌ}. Le début du mot ne change pas, seule la fin est remplacée."
+    },
+    {
+      "id": "medine-t1.l17.grammar-1#8",
+      "type": "tip",
+      "title": "Le pluriel régulier a deux types",
+      "blocks": [
+        { "type": "paragraph", "text": "Selon le genre, le pluriel régulier a deux formes :" },
+        {
+          "type": "table",
+          "header": ["Type", "En arabe", "Terminaison", "Exemple"],
+          "rows": [
+            ["masculin", "{ar|جَمْعُ الْمُذَكَّرِ السَّالِمُ}", "{ar|◌ُونَ} ou {ar|◌ِينَ}", "{ar|مُسْلِمُونَ}"],
+            ["féminin", "{ar|جَمْعُ الْمُؤَنَّثِ السَّالِمُ}", "{ar|◌َاتٌ}", "{ar|مُسْلِمَاتٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le pluriel irrégulier, lui, n'a pas de type : il suffit d'apprendre le pluriel de chaque mot."
+        }
+      ]
+    },
+    { "id": "medine-t1.l17.grammar-1#9", "type": "present", "item": "w:jam-mudhakkar-salim" },
+    { "id": "medine-t1.l17.grammar-1#10", "type": "present", "item": "w:jam-muannath-salim" },
+    {
+      "id": "medine-t1.l17.grammar-1#11",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:jam-salim", "w:jam-taksir", "w:jam-mudhakkar-salim", "w:jam-muannath-salim", "w:muthanna"]
+    },
+    {
+      "id": "medine-t1.l17.grammar-1#12",
+      "type": "question",
+      "prompt": { "fr": "Qu'est-ce que {ar|مُسْلِمُونَ} et {ar|مُسْلِمَاتٌ} ont en commun ?" },
+      "choices": [
+        { "fr": "On a gardé {ar|مُسْلِمٌ} et ajouté une terminaison" },
+        { "fr": "Le mot {ar|مُسْلِمٌ} a été brisé" },
+        { "fr": "Tous deux désignent des hommes" }
+      ],
+      "answer": 0,
+      "explain": "Ce sont deux pluriels réguliers : le début du mot reste, seule la fin change. Le premier désigne des hommes, le second des femmes."
+    },
+    {
+      "id": "medine-t1.l17.grammar-1#13",
+      "type": "sort",
+      "categories": [ { "fr": "régulier (une terminaison s'ajoute)" }, { "fr": "irrégulier (le mot change)" } ],
+      "cards": [
+        { "ar": "مُسْلِمُونَ", "category": 0 },
+        { "ar": "كُتُبٌ", "category": 1 },
+        { "ar": "طَبِيبَاتٌ", "category": 0 },
+        { "ar": "بُيُوتٌ", "category": 1 },
+        { "ar": "مُدَرِّسُونَ", "category": 0 },
+        { "ar": "أَبْوَابٌ", "category": 1 }
+      ],
+      "instruction": "Range chaque pluriel : régulier ou irrégulier ?",
+      "explain": "Réguliers : {ar|مُسْلِمُونَ}, {ar|طَبِيبَاتٌ}, {ar|مُدَرِّسُونَ}. Irréguliers : {ar|كُتُبٌ}, {ar|بُيُوتٌ}, {ar|أَبْوَابٌ} (le mot a changé)."
+    }
+  ]
+}

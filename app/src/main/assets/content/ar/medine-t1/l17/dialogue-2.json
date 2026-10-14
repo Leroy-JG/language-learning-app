@@ -1,0 +1,131 @@
+{
+  "id": "medine-t1.l17.dialogue-2",
+  "type": "dialogue",
+  "title": "Dans le bus",
+  "icon": "road",
+  "screens": [
+    {
+      "id": "medine-t1.l17.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Dans le bus",
+      "intro": "Le bus roule jusqu'à l'école (texte du livre, seconde partie).",
+      "speakers": { "A": { "name": "Le narrateur", "voice": "m1" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "سَارَتِ الْحَافِلَةُ فِي شَوَارِعِ الْمَدِينَةِ إِلَى الْمَدْرَسَةِ سَاعَةً.",
+          "fr": "Le bus a roulé dans les rues de la ville jusqu'à l'école pendant une heure."
+        },
+        {
+          "speaker": "A",
+          "ar": "حَتَّى وَصَلَتِ الْحَافِلَةُ مَحَطَّةَ الْحَافِلَاتِ عِنْدَ الْمَدْرَسَةِ.",
+          "fr": "Jusqu'à ce que le bus arrive à la gare routière près de l'école."
+        },
+        {
+          "speaker": "A",
+          "ar": "فَتَحَ السَّائِقُ بَابَ الْحَافِلَةِ فَنَزَلَ مِنْهَا الطُّلَّابُ.",
+          "fr": "Le chauffeur a ouvert la porte du bus et les étudiants en sont descendus."
+        },
+        {
+          "speaker": "A",
+          "ar": "فَنَزَلَ زَيْدٌ وَمُحَمَّدٌ وَمَشَى الصَّدِيقَانِ إِلَى فَصْلِهِمَا.",
+          "fr": "Zayd et Muḥammad sont alors descendus, et les deux amis ont marché jusqu'à leur classe."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Retiens seulement le sens de ces formes : tu verras plus tard comment elles se construisent."
+        },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens"],
+          "rows": [
+            ["{ar|سَاعَةً}", "« pendant une heure » : un nom de temps à l'accusatif (tanwin à la fatha)"],
+            ["{ar|حَتَّى}", "« jusqu'à ce que »"],
+            ["{ar|وَصَلَتِ الْحَافِلَةُ}", "« le bus est arrivé » : verbe au féminin, avec le {ar|ت} final"],
+            ["{ar|فَتَحَ}", "« il a ouvert »"],
+            ["{ar|مِنْهَا}", "« d'elle » : {ar|مِنْ} + {ar|هَا} (« elle », ici le bus)"],
+            ["{ar|فَصْلِهِمَا}", "« leur classe, à tous les deux » : {ar|فَصْلٌ} + {ar|هِمَا} (« eux deux »)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Où le bus roule-t-il ?" },
+      "choices": [
+        { "fr": "Dans les rues de la ville, jusqu'à l'école" },
+        { "fr": "Sur la route de la montagne" },
+        { "fr": "Autour de la mosquée" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l17.dialogue-2#1" },
+      "explain": "{ar|فِي شَوَارِعِ الْمَدِينَةِ إِلَى الْمَدْرَسَةِ} : « dans les rues de la ville, jusqu'à l'école »."
+    },
+    {
+      "id": "medine-t1.l17.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Qui ouvre la porte du bus ?" },
+      "choices": [ { "fr": "Le chauffeur" }, { "fr": "Zayd" }, { "fr": "Muḥammad" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l17.dialogue-2#1" },
+      "explain": "{ar|فَتَحَ السَّائِقُ بَابَ الْحَافِلَةِ} : « le chauffeur a ouvert la porte du bus »."
+    },
+    {
+      "id": "medine-t1.l17.dialogue-2#5",
+      "type": "spot",
+      "instruction": "Touche le pluriel irrégulier.",
+      "words": ["سَارَتِ", "الْحَافِلَةُ", "فِي", "شَوَارِعِ", "الْمَدِينَةِ"],
+      "answers": [3],
+      "fr": "Le bus a roulé dans les rues de la ville.",
+      "explain": "{ar|شَوَارِعِ} est le pluriel irrégulier de {ar|شَارِعٌ} ; il est à la kasra parce qu'il suit la préposition {ar|فِي}."
+    },
+    {
+      "id": "medine-t1.l17.dialogue-2#6",
+      "type": "true_false",
+      "statement": { "fr": "Le bus roule pendant une heure avant d'arriver à l'école." },
+      "answer": true,
+      "context": { "dialogue": "medine-t1.l17.dialogue-2#1" },
+      "explain": "{ar|سَاعَةً} : « pendant une heure »."
+    },
+    {
+      "id": "medine-t1.l17.dialogue-2#7",
+      "type": "fill_gap",
+      "sentence": "فَتَحَ {0} بَابَ الْحَافِلَةِ.",
+      "fr": "Le chauffeur a ouvert la porte du bus.",
+      "gaps": [ { "answers": ["السَّائِقُ"] } ],
+      "options": ["السَّائِقُ", "الْحَافِلَةُ", "الْمَحَطَّةُ"],
+      "context": { "dialogue": "medine-t1.l17.dialogue-2#1" },
+      "explain": "{ar|فَتَحَ} est au masculin : son sujet est {ar|السَّائِقُ}, un homme."
+    },
+    {
+      "id": "medine-t1.l17.dialogue-2#8",
+      "type": "order",
+      "fr": "Les deux amis ont marché jusqu'à leur classe.",
+      "answers": [["مَشَى", "الصَّدِيقَانِ", "إِلَى", "فَصْلِهِمَا"]],
+      "punctuation": ".",
+      "explain": "Le verbe est au singulier devant son sujet, qui est au duel."
+    },
+    {
+      "id": "medine-t1.l17.dialogue-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les étudiants sont descendus du bus.",
+      "answers": ["نَزَلَ الطُّلَّابُ مِنَ الْحَافِلَةِ."]
+    },
+    {
+      "id": "medine-t1.l17.dialogue-2#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les deux amis ont marché jusqu'à leur classe.",
+      "answers": ["مَشَى الصَّدِيقَانِ إِلَى فَصْلِهِمَا."]
+    }
+  ]
+}

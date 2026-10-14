@@ -1,0 +1,131 @@
+{
+  "id": "medine-t1.l17.grammar-2",
+  "type": "grammar",
+  "title": "Le pluriel masculin régulier",
+  "icon": "man",
+  "screens": [
+    {
+      "id": "medine-t1.l17.grammar-2#1",
+      "type": "tip",
+      "title": "Former le pluriel masculin régulier",
+      "blocks": [
+        { "type": "paragraph", "text": "On garde le singulier, on enlève le tanwin et on ajoute {ar|◌ُونَ}." },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "مُسْلِمٌ", "fr": "un musulman" },
+              "to": { "ar": "مُسْلِمُونَ", "fr": "des musulmans" }
+            },
+            {
+              "from": { "ar": "مُدَرِّسٌ", "fr": "un enseignant" },
+              "to": { "ar": "مُدَرِّسُونَ", "fr": "des enseignants" }
+            },
+            {
+              "from": { "ar": "مُهَنْدِسٌ", "fr": "un ingénieur" },
+              "to": { "ar": "مُهَنْدِسُونَ", "fr": "des ingénieurs" }
+            },
+            { "from": { "ar": "فَلَّاحٌ", "fr": "un paysan" }, "to": { "ar": "فَلَّاحُونَ", "fr": "des paysans" } }
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "مُسْلِمُونَ",
+          "fr": "des musulmans",
+          "parts": [
+            { "ar": "مُسْلِمُ", "fr": "le singulier, sans tanwin" },
+            { "ar": "ونَ", "fr": "la terminaison du pluriel" }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le {ar|نَ} final prend la place du tanwin : on ne met jamais les deux ensemble."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.grammar-2#2",
+      "type": "tip",
+      "title": "Qui prend ce pluriel ?",
+      "blocks": [
+        { "type": "paragraph", "text": "Ce pluriel est réservé aux **êtres humains de sexe masculin**." },
+        {
+          "type": "table",
+          "header": ["Pour…", "Exemples"],
+          "rows": [
+            [
+              "des prénoms masculins",
+              "{ar|الزَّيْدُونَ} (les gens qui s'appellent Zayd), {ar|الْمُحَمَّدُونَ} (ceux qui s'appellent Muḥammad)"
+            ],
+            [
+              "des noms ou des adjectifs de personnes",
+              "{ar|الْمُسْلِمُونَ} (les musulmans), {ar|الطَّيِّبُونَ} (les bons), {ar|الْخَاشِعُونَ} (ceux qui sont recueillis), {ar|الْحَافِظُونَ} (ceux qui ont mémorisé)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "En général, ce pluriel ne sert pas pour des choses : des livres se disent {ar|كُتُبٌ}, jamais « {ar|كِتَابُونَ} »."
+        },
+        {
+          "type": "note",
+          "text": "Tous les noms de personnes ne l'ont pas : le pluriel habituel de {ar|طَالِبٌ} est {ar|طُلَّابٌ}, celui de {ar|رَجُلٌ} est {ar|رِجَالٌ}. On apprend le pluriel de chaque mot en même temps que le mot."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.grammar-2#3",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel régulier masculin de {ar|مُدَرِّسٌ} (un enseignant) ?" },
+      "choices": [ { "ar": "مُدَرِّسُونَ" }, { "ar": "مُدَرِّسَاتٌ" }, { "ar": "مَدَارِسُ" } ],
+      "answer": 0,
+      "explain": "{ar|مُدَرِّسُونَ} : on garde {ar|مُدَرِّسٌ} et on ajoute {ar|◌ُونَ}. {ar|مُدَرِّسَاتٌ} est le pluriel féminin, {ar|مَدَارِسُ} celui de {ar|مَدْرَسَةٌ} (une école)."
+    },
+    {
+      "id": "medine-t1.l17.grammar-2#4",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:muslim", "w:mudarris", "w:muhandis", "w:fallah", "w:mudir"]
+    },
+    {
+      "id": "medine-t1.l17.grammar-2#5",
+      "type": "fill_gap",
+      "sentence": "هَؤُلَاءِ الرِّجَالُ {0}.",
+      "fr": "Ces hommes sont des ingénieurs.",
+      "gaps": [ { "answers": ["مُهَنْدِسُونَ"] } ],
+      "options": ["مُهَنْدِسُونَ", "مُهَنْدِسٌ", "مُهَنْدِسَاتٌ"],
+      "explain": "Plusieurs hommes : le pluriel masculin {ar|مُهَنْدِسُونَ}. {ar|مُهَنْدِسٌ} est au singulier et {ar|مُهَنْدِسَاتٌ} désigne des femmes."
+    },
+    {
+      "id": "medine-t1.l17.grammar-2#6",
+      "type": "spot",
+      "instruction": "Touche le pluriel masculin régulier.",
+      "words": ["الْمُسْلِمُونَ", "فِي", "الْمَسْجِدِ."],
+      "answers": [0],
+      "fr": "Les musulmans sont dans la mosquée."
+    },
+    {
+      "id": "medine-t1.l17.grammar-2#7",
+      "type": "order",
+      "fr": "Ceux-ci sont des enseignants.",
+      "answers": [["هَؤُلَاءِ", "مُدَرِّسُونَ"]],
+      "punctuation": ".",
+      "explain": "Pas de verbe « être » : {ar|هَؤُلَاءِ} puis le pluriel {ar|مُدَرِّسُونَ}."
+    },
+    {
+      "id": "medine-t1.l17.grammar-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "des enseignants",
+      "answers": ["مُدَرِّسُونَ"]
+    },
+    {
+      "id": "medine-t1.l17.grammar-2#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ceux-ci sont des ingénieurs.",
+      "answers": ["هَؤُلَاءِ مُهَنْدِسُونَ."]
+    }
+  ]
+}

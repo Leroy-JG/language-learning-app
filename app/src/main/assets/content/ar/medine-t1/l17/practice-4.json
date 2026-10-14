@@ -1,0 +1,92 @@
+{
+  "id": "medine-t1.l17.practice-4",
+  "type": "grammar",
+  "title": "Lis et écris : les phrases du livre (1)",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l17.practice-4#1",
+      "type": "tip",
+      "title": "Lis les phrases (1)",
+      "blocks": [
+        {
+          "type": "example",
+          "ar": "أَبْوَابُ الْمَسْجِدِ مَفْتُوحَةٌ.",
+          "fr": "Les portes de la mosquée sont ouvertes."
+        },
+        {
+          "type": "example",
+          "ar": "لِمَنْ هٰذِهِ الْبُيُوتُ الْجَدِيدَةُ؟ هِيَ لِمُدِيرِ الشَّرِكَةِ.",
+          "fr": "À qui sont ces nouvelles maisons ? Elles sont au directeur de la société."
+        },
+        { "type": "example", "ar": "النُّجُومُ جَمِيلَةٌ.", "fr": "Les étoiles sont belles." },
+        { "type": "example", "ar": "هٰذِهِ الدُّرُوسُ سَهْلَةٌ.", "fr": "Ces leçons sont faciles." },
+        {
+          "type": "example",
+          "ar": "فِي الْهِنْدِ لُغَاتٌ كَثِيرَةٌ.",
+          "fr": "En Inde, il y a de nombreuses langues."
+        },
+        {
+          "type": "note",
+          "text": "Dans toutes ces phrases, les pluriels de choses ({ar|أَبْوَابٌ}, {ar|بُيُوتٌ}, {ar|نُجُومٌ}, {ar|دُرُوسٌ}, {ar|لُغَاتٌ}) sont suivis d'un mot au féminin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l17.practice-4#2",
+      "type": "fill_gap",
+      "sentence": "أَبْوَابُ الْمَسْجِدِ {0}.",
+      "fr": "Les portes de la mosquée sont ouvertes.",
+      "gaps": [ { "answers": ["مَفْتُوحَةٌ"] } ],
+      "options": ["مَفْتُوحَةٌ", "مَفْتُوحٌ", "مَفْتُوحُونَ"],
+      "explain": "Des portes (des choses) : l'adjectif est au féminin singulier, {ar|مَفْتُوحَةٌ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-4#3",
+      "type": "question",
+      "prompt": { "fr": "À qui sont ces nouvelles maisons ?" },
+      "choices": [ { "fr": "Au directeur de la société" }, { "fr": "À l'étudiant" }, { "fr": "Au chauffeur" } ],
+      "answer": 0,
+      "explain": "{ar|هِيَ لِمُدِيرِ الشَّرِكَةِ} : « elles sont au directeur de la société »."
+    },
+    {
+      "id": "medine-t1.l17.practice-4#4",
+      "type": "order",
+      "fr": "Ces leçons sont faciles.",
+      "answers": [["هٰذِهِ", "الدُّرُوسُ", "سَهْلَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l17.practice-4#5",
+      "type": "spot",
+      "instruction": "Touche l'adjectif qui décrit le pluriel {ar|لُغَاتٌ}.",
+      "words": ["فِي", "الْهِنْدِ", "لُغَاتٌ", "كَثِيرَةٌ."],
+      "answers": [3],
+      "fr": "En Inde, il y a de nombreuses langues."
+    },
+    {
+      "id": "medine-t1.l17.practice-4#6",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les étoiles sont belles.",
+      "answers": ["النُّجُومُ جَمِيلَةٌ."]
+    },
+    {
+      "id": "medine-t1.l17.practice-4#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَنْ هٰذِهِ الْبُيُوتُ الْجَدِيدَةُ؟",
+      "answers": ["هِيَ لِمُدِيرِ الشَّرِكَةِ.", "لِمُدِيرِ الشَّرِكَةِ."],
+      "fr": "Elles sont au directeur de la société.",
+      "instruction": "Réponds : elles sont au directeur de la société.",
+      "explain": "{ar|هِيَ} reprend le pluriel de choses {ar|الْبُيُوتُ}."
+    },
+    {
+      "id": "medine-t1.l17.practice-4#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "En Inde, il y a de nombreuses langues.",
+      "answers": ["فِي الْهِنْدِ لُغَاتٌ كَثِيرَةٌ."]
+    }
+  ]
+}
