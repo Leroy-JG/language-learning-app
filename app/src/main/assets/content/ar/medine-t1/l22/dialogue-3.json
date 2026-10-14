@@ -38,7 +38,11 @@
           "type": "table",
           "header": ["Dans le texte", "Sens", "Mot à mot"],
           "rows": [
-            ["{ar|بَلَدِنَا}", "notre pays", "{ar|بَلَدٌ} + {ar|نَا} (chapitre 14)"],
+            [
+              "{ar|بَلَدِنَا}",
+              "notre pays",
+              "{ar|بَلَدٌ} + {ar|نَا} (chapitre 14) ; ici après {ar|فِي}, le {ar|د} prend la kasra : {ar|بَلَدِنَا}"
+            ],
             [
               "{ar|أَهَؤُلَاءِ أَطِبَّاءُ؟}",
               "ceux-ci sont-ils des médecins ?",
