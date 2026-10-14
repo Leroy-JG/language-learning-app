@@ -1,0 +1,161 @@
+{
+  "id": "medine-t1.l23.dialogue-1",
+  "type": "dialogue",
+  "title": "Un nouvel étudiant et sept cahiers",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t1.l23.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Un nouvel étudiant et sept cahiers",
+      "intro": "Début du texte du livre : un nouvel étudiant se présente, puis le professeur parle de ses sept cahiers et demande à qui ils sont.",
+      "speakers": {
+        "T": { "name": "Le professeur", "voice": "m1" },
+        "A": { "name": "Aḥmad", "voice": "m2" },
+        "B": { "name": "ʿAbbās", "voice": "m2" }
+      },
+      "lines": [
+        { "speaker": "T", "ar": "مَنْ أَنْتَ يَا أَخِي؟", "fr": "Qui es-tu, mon frère ?" },
+        { "speaker": "A", "ar": "أَنَا طَالِبٌ جَدِيدٌ.", "fr": "Je suis un nouvel étudiant." },
+        { "speaker": "T", "ar": "مَا اسْمُكَ؟", "fr": "Quel est ton nom ?" },
+        { "speaker": "A", "ar": "اسْمِي أَحْمَدُ.", "fr": "Mon nom est Aḥmad." },
+        { "speaker": "T", "ar": "مِنْ أَيْنَ أَنْتَ؟", "fr": "D'où es-tu ?" },
+        { "speaker": "A", "ar": "أَنَا مِنْ بَاكِسْتَانَ.", "fr": "Je suis du Pakistan." },
+        {
+          "speaker": "T",
+          "ar": "عِنْدِي سَبْعَةُ دَفَاتِرَ. لِمَنْ هِيَ؟",
+          "fr": "J'ai sept cahiers. À qui sont-ils ?"
+        },
+        { "speaker": "B", "ar": "هَاتِ يَا أُسْتَاذُ. هٰذَا لِي.", "fr": "Donne, professeur ! Celui-ci est à moi." },
+        {
+          "speaker": "B",
+          "ar": "وَهٰذَا لِمُحَمَّدٍ وَهٰذَا لِحَامِدٍ وَهٰذَا لِإِبْرَاهِيمَ وَهٰذَا لِعُثْمَانَ وَهٰذَا لِيُوسُفَ وَهٰذَا لِطَلْحَةَ.",
+          "fr": "Et celui-ci est à Muḥammad, celui-ci à Ḥāmid, celui-ci à Ibrāhīm, celui-ci à ʿUthmān, celui-ci à Yūsuf et celui-ci à Ṭalḥa."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l23.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Tu reconnais presque tout. Regarde ces formes." },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Explication"],
+          "rows": [
+            ["{ar|يَا أَخِي}", "mon frère (en l'appelant)", "{ar|يَا} + {ar|أَخٌ} + {ar|ي} (chapitres 5 et 10)"],
+            ["{ar|اسْمِي}", "mon nom", "{ar|اسْمٌ} + {ar|ي} (chapitre 10)"],
+            [
+              "{ar|مِنْ بَاكِسْتَانَ}",
+              "du Pakistan",
+              "{ar|بَاكِسْتَانُ} est sans tanwin : après {ar|مِنْ}, la fatha"
+            ],
+            [
+              "{ar|سَبْعَةُ دَفَاتِرَ}",
+              "sept cahiers",
+              "nombre + pluriel au génitif (chapitre 19) ; {ar|دَفَاتِرُ} est sans tanwin : la fatha"
+            ],
+            [
+              "{ar|لِمَنْ هِيَ؟}",
+              "à qui sont-ils ?",
+              "{ar|لِ} + {ar|مَنْ} (chapitre 6) ; {ar|هِيَ} reprend un pluriel de choses (chapitre 16)"
+            ],
+            [
+              "{ar|هَاتِ يَا أُسْتَاذُ}",
+              "donne, professeur !",
+              "{ar|هَاتِ} : mot de cette leçon ; le nom interpellé garde la damma (chapitre 5)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Après {ar|لِ}, quatre prénoms ont la fatha et deux gardent le tanwin : {ar|لِمُحَمَّدٍ} et {ar|لِحَامِدٍ} sont des noms ordinaires, avec kasra et tanwin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l23.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Qui est Aḥmad ?" },
+      "choices": [ { "fr": "Un nouvel étudiant" }, { "fr": "Le professeur" }, { "fr": "Un médecin" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l23.dialogue-1#1" },
+      "explain": "{ar|أَنَا طَالِبٌ جَدِيدٌ} : « je suis un nouvel étudiant »."
+    },
+    {
+      "id": "medine-t1.l23.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "D'où vient Aḥmad ?" },
+      "choices": [ { "fr": "Du Pakistan" }, { "fr": "De Paris" }, { "fr": "De Londres" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l23.dialogue-1#1" },
+      "explain": "{ar|أَنَا مِنْ بَاكِسْتَانَ} : « je suis du Pakistan »."
+    },
+    {
+      "id": "medine-t1.l23.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Le professeur a neuf cahiers." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l23.dialogue-1#1" },
+      "explain": "{ar|عِنْدِي سَبْعَةُ دَفَاتِرَ} : il en a sept."
+    },
+    {
+      "id": "medine-t1.l23.dialogue-1#6",
+      "type": "question",
+      "prompt": { "fr": "À qui est le premier cahier, d'après ʿAbbās ?" },
+      "choices": [ { "fr": "À ʿAbbās lui-même" }, { "fr": "À Muḥammad" }, { "fr": "À Aḥmad" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l23.dialogue-1#1" },
+      "explain": "{ar|هٰذَا لِي} : « celui-ci est à moi ». C'est ʿAbbās qui parle."
+    },
+    {
+      "id": "medine-t1.l23.dialogue-1#7",
+      "type": "sort",
+      "categories": [ { "fr": "la kasra et le tanwin ({ar|◌ٍ})" }, { "fr": "la fatha ({ar|◌َ})" } ],
+      "cards": [
+        { "ar": "لِمُحَمَّدٍ", "category": 0 },
+        { "ar": "لِحَامِدٍ", "category": 0 },
+        { "ar": "لِإِبْرَاهِيمَ", "category": 1 },
+        { "ar": "لِعُثْمَانَ", "category": 1 },
+        { "ar": "لِيُوسُفَ", "category": 1 },
+        { "ar": "لِطَلْحَةَ", "category": 1 }
+      ],
+      "instruction": "Après {ar|لِ}, quelle est la fin du prénom ?",
+      "explain": "{ar|مُحَمَّدٌ} et {ar|حَامِدٌ} sont des noms ordinaires : kasra et tanwin. {ar|إِبْرَاهِيمُ}, {ar|يُوسُفُ} (noms non arabes), {ar|عُثْمَانُ} (terminaison {ar|انُ}) et {ar|طَلْحَةُ} (prénom d'homme en {ar|ة}) n'ont pas de tanwin : la fatha."
+    },
+    {
+      "id": "medine-t1.l23.dialogue-1#8",
+      "type": "fill_gap",
+      "sentence": "أَنَا مِنْ {0}.",
+      "fr": "Je suis du Pakistan.",
+      "gaps": [ { "answers": ["بَاكِسْتَانَ"] } ],
+      "options": ["بَاكِسْتَانَ", "بَارِيسَ", "لَنْدَنَ"],
+      "context": { "dialogue": "medine-t1.l23.dialogue-1#1" },
+      "explain": "{ar|بَاكِسْتَانُ} est sans tanwin : après {ar|مِنْ}, la fatha."
+    },
+    {
+      "id": "medine-t1.l23.dialogue-1#9",
+      "type": "order",
+      "fr": "J'ai sept cahiers.",
+      "answers": [["عِنْدِي", "سَبْعَةُ", "دَفَاتِرَ"]],
+      "punctuation": ".",
+      "explain": "{ar|دَفَاتِرُ} est de forme longue : sans tanwin. Après le nombre, il prend la fatha."
+    },
+    {
+      "id": "medine-t1.l23.dialogue-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis un nouvel étudiant.",
+      "answers": ["أَنَا طَالِبٌ جَدِيدٌ."]
+    },
+    {
+      "id": "medine-t1.l23.dialogue-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je suis du Pakistan.",
+      "answers": ["أَنَا مِنْ بَاكِسْتَانَ."]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "medine-t1.l23.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 23",
+  "screens": [
+    {
+      "id": "medine-t1.l23.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:haram",
+      "distractors": ["w:jadid", "w:qadim"]
+    },
+    {
+      "id": "medine-t1.l23.quiz#2",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hat",
+      "distractors": ["w:kharaja", "w:dhahaba"]
+    },
+    {
+      "id": "medine-t1.l23.quiz#3",
+      "type": "question",
+      "prompt": { "fr": "Après la préposition {ar|فِي}, le nom {ar|لَنْدَنُ} (sans article) prend…" },
+      "choices": [ { "fr": "une fatha ({ar|◌َ})" }, { "fr": "une kasra ({ar|◌ِ})" }, { "fr": "un tanwin ({ar|◌ٍ})" } ],
+      "answer": 0,
+      "explain": "{ar|لَنْدَنُ} est privé de tanwin : {ar|فِي لَنْدَنَ}."
+    },
+    {
+      "id": "medine-t1.l23.quiz#4",
+      "type": "sort",
+      "categories": [ { "fr": "la fatha ({ar|◌َ})" }, { "fr": "la kasra ({ar|◌ِ})" } ],
+      "cards": [
+        { "ar": "عَلَى زَيْنَبَ", "category": 0 },
+        { "ar": "عَلَى الْكِتَابِ", "category": 1 },
+        { "ar": "إِلَى جُدَّةَ", "category": 0 },
+        { "ar": "فِي الْفَصْلِ", "category": 1 },
+        { "ar": "مِنْ فَاطِمَةَ", "category": 0 },
+        { "ar": "فِي الْبَيْتِ", "category": 1 }
+      ],
+      "instruction": "Quelle est la fin du dernier mot ?",
+      "explain": "Un nom sans tanwin et sans article prend la fatha. Avec l'article, tout nom a la kasra."
+    },
+    {
+      "id": "medine-t1.l23.quiz#5",
+      "type": "true_false",
+      "statement": { "fr": "Comme premier terme d'une annexion, un nom sans tanwin garde la fatha au génitif." },
+      "answer": false,
+      "explain": "Il retrouve la kasra : {ar|فِي مَسَاجِدِ مَكَّةَ}."
+    },
+    {
+      "id": "medine-t1.l23.quiz#6",
+      "type": "spot",
+      "instruction": "Touche le nom sans tanwin.",
+      "words": ["أَيْنَ", "زَوْجُ", "خَدِيجَةَ؟"],
+      "answers": [2],
+      "fr": "Où est l'époux de Khadīja ?",
+      "explain": "{ar|خَدِيجَةُ} est un prénom de femme : sans tanwin. {ar|زَوْجٌ} est un nom ordinaire."
+    },
+    {
+      "id": "medine-t1.l23.quiz#7",
+      "type": "fill_gap",
+      "sentence": "فِي {0} مَسَاجِدُ كَثِيرَةٌ.",
+      "fr": "À Bagdad, il y a beaucoup de mosquées.",
+      "gaps": [ { "answers": ["بَغْدَادَ"] } ],
+      "options": ["بَغْدَادَ", "جُدَّةَ", "بَارِيسَ"],
+      "explain": "{ar|بَغْدَادُ} est sans tanwin : après {ar|فِي}, la fatha."
+    },
+    {
+      "id": "medine-t1.l23.quiz#8",
+      "type": "question",
+      "prompt": { "fr": "Combien de cahiers le professeur a-t-il ?" },
+      "choices": [ { "fr": "Sept" }, { "fr": "Six" }, { "fr": "Neuf" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l23.dialogue-1#1" },
+      "explain": "{ar|عِنْدِي سَبْعَةُ دَفَاتِرَ} : sept cahiers."
+    },
+    {
+      "id": "medine-t1.l23.quiz#9",
+      "type": "order",
+      "fr": "C'est le livre de Ḥamza.",
+      "answers": [["هٰذَا", "كِتَابُ", "حَمْزَةَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l23.quiz#10",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:daftar", "w:sayyara", "w:mindil", "w:kursi"]
+    },
+    {
+      "id": "medine-t1.l23.quiz#11",
+      "type": "question",
+      "prompt": { "fr": "Où est allé Yaʿqūb ?" },
+      "choices": [ { "fr": "À La Mecque" }, { "fr": "À Riyad" }, { "fr": "Chez le directeur" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l23.dialogue-2#1" },
+      "explain": "{ar|ذَهَبَ إِلَى مَكَّةَ} : il est allé à La Mecque."
+    },
+    {
+      "id": "medine-t1.l23.quiz#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "de la part de ʿAbbās",
+      "answers": ["مِنْ عَبَّاسٍ."],
+      "explain": "{ar|عَبَّاسٌ} garde son tanwin : kasra après {ar|مِنْ}."
+    },
+    {
+      "id": "medine-t1.l23.quiz#13",
+      "type": "true_false",
+      "statement": { "fr": "ʿAlī est allé à La Mecque." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l23.dialogue-2#1" },
+      "explain": "{ar|ذَهَبَ إِلَى الرِّيَاضِ} : il est allé à Riyad."
+    },
+    {
+      "id": "medine-t1.l23.quiz#14",
+      "type": "order",
+      "fr": "Ceci est à Ṭalḥa et cela est à Yūsuf.",
+      "answers": [["هٰذَا", "لِطَلْحَةَ", "وَذٰلِكَ", "لِيُوسُفَ"]],
+      "punctuation": ".",
+      "explain": "{ar|طَلْحَةُ} et {ar|يُوسُفُ} sont sans tanwin : fatha après {ar|لِ}."
+    },
+    {
+      "id": "medine-t1.l23.quiz#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "sept cahiers",
+      "answers": ["سَبْعَةُ دَفَاتِرَ"]
+    },
+    {
+      "id": "medine-t1.l23.quiz#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Donne, professeur !",
+      "answers": ["هَاتِ يَا أُسْتَاذُ."]
+    }
+  ]
+}

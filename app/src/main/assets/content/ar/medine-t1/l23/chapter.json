@@ -1,0 +1,14 @@
+{
+  "id": "medine-t1.l23",
+  "number": 23,
+  "title": { "ar": "الدَّرْسُ الثَّالِثُ وَالْعِشْرُونَ", "fr": "Les trois cas des noms sans tanwin" },
+  "description": "Revoir la voyelle finale d'un nom sans tanwin (damma, fatha, fatha), apprendre {ar|حَرَامٌ} et {ar|هَاتِ}, lire le texte du livre et faire ses exercices.",
+  "source": "Tome de Médine 1, leçon 23",
+  "sections": [
+    { "title": "Les trois cas d'un nom sans tanwin", "activities": ["grammar-1", "grammar-2"] },
+    { "title": "Des mots nouveaux", "activities": ["vocab-1"] },
+    { "title": "Le texte du livre", "activities": ["dialogue-1", "dialogue-2"] },
+    { "title": "Les exercices du livre", "activities": ["practice-1", "practice-2", "practice-3"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

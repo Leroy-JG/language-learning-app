@@ -1,0 +1,150 @@
+{
+  "id": "medine-t1.l23.practice-1",
+  "type": "grammar",
+  "title": "Les noms du livre",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t1.l23.practice-1#1",
+      "type": "tip",
+      "title": "Seuls, puis après une préposition",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 3 du livre te fait lire des noms, puis écrire leur fin selon la situation. Voici ses noms sans tanwin, avec leur fin quand ils sont seuls (damma) et après une préposition (fatha)."
+        },
+        {
+          "type": "table",
+          "header": ["Nom seul", "Après une préposition"],
+          "rows": [
+            ["{ar|آمِنَةُ}", "{ar|مِنْ آمِنَةَ}"],
+            ["{ar|أَحْمَدُ}", "{ar|لِأَحْمَدَ}"],
+            ["{ar|خَدِيجَةُ}", "{ar|لِخَدِيجَةَ}"],
+            ["{ar|عَائِشَةُ}", "{ar|لِعَائِشَةَ}"],
+            ["{ar|مُعَاوِيَةُ}", "{ar|مِنْ مُعَاوِيَةَ}"],
+            ["{ar|عُثْمَانُ}", "{ar|مِنْ عُثْمَانَ}"],
+            ["{ar|إِسْحَاقُ}", "{ar|لِإِسْحَاقَ}"],
+            ["{ar|بَاكِسْتَانُ}", "{ar|مِنْ بَاكِسْتَانَ}"],
+            ["{ar|لَنْدَنُ}", "{ar|فِي لَنْدَنَ}"],
+            ["{ar|بَغْدَادُ}", "{ar|إِلَى بَغْدَادَ}"],
+            ["{ar|مَكَّةُ}", "{ar|فِي مَكَّةَ}"],
+            ["{ar|جُدَّةُ}", "{ar|فِي جُدَّةَ}"],
+            ["{ar|مَدَارِسُ}", "{ar|فِي مَدَارِسَ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l23.practice-1#2",
+      "type": "tip",
+      "title": "Attention aux noms ordinaires",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans les mêmes listes, quatre prénoms sont des noms ordinaires : ils gardent le tanwin, et prennent la kasra après une préposition."
+        },
+        {
+          "type": "table",
+          "header": ["Nom seul", "Après une préposition"],
+          "rows": [
+            ["{ar|مُحَمَّدٌ}", "{ar|مِنْ مُحَمَّدٍ}"],
+            ["{ar|خَالِدٌ}", "{ar|مِنْ خَالِدٍ}"],
+            ["{ar|عَبَّاسٌ}", "{ar|مِنْ عَبَّاسٍ}"],
+            ["{ar|حَامِدٌ}", "{ar|لِحَامِدٍ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Avant d'écrire la fin d'un nom, demande-toi d'abord : a-t-il un tanwin ? Seuls les noms sans tanwin prennent la fatha."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l23.practice-1#3",
+      "type": "sort",
+      "categories": [ { "fr": "avec tanwin ({ar|◌ٌ})" }, { "fr": "sans tanwin ({ar|◌ُ})" } ],
+      "cards": [
+        { "ar": "مُحَمَّدٌ", "category": 0 },
+        { "ar": "آمِنَةُ", "category": 1 },
+        { "ar": "خَالِدٌ", "category": 0 },
+        { "ar": "عَائِشَةُ", "category": 1 },
+        { "ar": "حَامِدٌ", "category": 0 },
+        { "ar": "بَاكِسْتَانُ", "category": 1 },
+        { "ar": "عَبَّاسٌ", "category": 0 },
+        { "ar": "أَحْمَدُ", "category": 1 }
+      ],
+      "instruction": "Range chaque nom : porte-t-il le tanwin ?",
+      "explain": "{ar|مُحَمَّدٌ}, {ar|خَالِدٌ}, {ar|حَامِدٌ} et {ar|عَبَّاسٌ} sont des noms ordinaires. Les quatre autres sont dans une des familles de noms sans tanwin."
+    },
+    {
+      "id": "medine-t1.l23.practice-1#4",
+      "type": "question",
+      "prompt": { "fr": "Après {ar|مِنْ}, le prénom {ar|عَبَّاسٌ} (sans article) prend…" },
+      "choices": [
+        { "fr": "une kasra ({ar|◌ِ}), avec tanwin" },
+        { "fr": "une fatha ({ar|◌َ})" },
+        { "fr": "une damma ({ar|◌ُ})" }
+      ],
+      "answer": 0,
+      "explain": "{ar|عَبَّاسٌ} garde son tanwin : {ar|مِنْ عَبَّاسٍ}."
+    },
+    {
+      "id": "medine-t1.l23.practice-1#5",
+      "type": "spot",
+      "instruction": "Touche les deux prénoms qui n'ont pas de tanwin.",
+      "words": ["مِنْ", "آمِنَةَ", "وَمِنْ", "مُحَمَّدٍ", "وَمِنْ", "عَائِشَةَ"],
+      "answers": [1, 5],
+      "fr": "De la part d'Āmina, de la part de Muḥammad et de la part de ʿĀʾisha.",
+      "explain": "{ar|آمِنَةَ} et {ar|عَائِشَةَ} sont des noms féminins sans tanwin. {ar|مُحَمَّدٍ} garde le tanwin."
+    },
+    {
+      "id": "medine-t1.l23.practice-1#6",
+      "type": "question",
+      "prompt": { "fr": "Seul, au {ar|الرَّفْعُ}, {ar|خَدِيجَةُ} se termine par…" },
+      "choices": [
+        { "fr": "une damma simple ({ar|◌ُ})" },
+        { "fr": "le tanwin de la damma ({ar|◌ٌ})" },
+        { "fr": "une fatha ({ar|◌َ})" }
+      ],
+      "answer": 0,
+      "explain": "{ar|خَدِيجَةُ} est privé de tanwin : au {ar|الرَّفْعُ}, une damma simple."
+    },
+    {
+      "id": "medine-t1.l23.practice-1#7",
+      "type": "order",
+      "fr": "Ceci est à ʿAbbās et cela est à Aḥmad.",
+      "answers": [["هٰذَا", "لِعَبَّاسٍ", "وَذٰلِكَ", "لِأَحْمَدَ"]],
+      "punctuation": ".",
+      "explain": "{ar|عَبَّاسٌ} garde son tanwin : {ar|لِعَبَّاسٍ}. {ar|أَحْمَدُ} n'en a pas : {ar|لِأَحْمَدَ}."
+    },
+    {
+      "id": "medine-t1.l23.practice-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "de la part d'Āmina",
+      "answers": ["مِنْ آمِنَةَ."]
+    },
+    {
+      "id": "medine-t1.l23.practice-1#9",
+      "type": "true_false",
+      "statement": { "fr": "Après une préposition, {ar|خَالِدٌ} prend la fatha." },
+      "answer": false,
+      "explain": "{ar|خَالِدٌ} garde son tanwin : {ar|مِنْ خَالِدٍ}."
+    },
+    {
+      "id": "medine-t1.l23.practice-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "de la part de Khālid",
+      "answers": ["مِنْ خَالِدٍ."]
+    },
+    {
+      "id": "medine-t1.l23.practice-1#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Voici le livre de ʿĀʾisha.",
+      "answers": ["هٰذَا كِتَابُ عَائِشَةَ."]
+    }
+  ]
+}

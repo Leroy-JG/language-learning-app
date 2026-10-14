@@ -1,0 +1,216 @@
+{
+  "id": "medine-t1.l23.practice-2",
+  "type": "grammar",
+  "title": "Les phrases du livre",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t1.l23.practice-2#1",
+      "type": "tip",
+      "title": "Les phrases du livre (1 à 10)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 2 du livre te fait lire, puis écrire, vingt phrases. Le livre n'écrit presque aucune voyelle : ici, elles sont écrites. Lis chaque phrase en regardant la fin des noms."
+        },
+        {
+          "type": "table",
+          "header": ["N°", "Phrase", "Sens"],
+          "rows": [
+            [
+              "1",
+              "{ar|هٰذَا الْكِتَابُ لِمُحَمَّدٍ وَذٰلِكَ لِزَيْنَبَ.}",
+              "Ce livre est à Muḥammad et celui-là est à Zaynab."
+            ],
+            ["2", "{ar|ذَهَبَ خَالِدٌ إِلَى أَحْمَدَ.}", "Khālid est allé chez Aḥmad."],
+            [
+              "3",
+              "{ar|ذَهَبَ أَبِي إِلَى مَكَّةَ وَذَهَبَ عَمِّي إِلَى جُدَّةَ.}",
+              "Mon père est allé à La Mecque et mon oncle paternel est allé à Djeddah."
+            ],
+            ["4", "{ar|أُخْتُ مَرْوَانَ مَرِيضَةٌ.}", "La sœur de Marwān est malade."],
+            [
+              "5",
+              "{ar|أَيْنَ زَوْجُ خَدِيجَةَ؟ هُوَ فِي لَنْدَنَ.}",
+              "Où est l'époux de Khadīja ? Il est à Londres."
+            ],
+            [
+              "6",
+              "{ar|سَيَّارَةُ حَامِدٍ جَدِيدَةٌ وَسَيَّارَةُ إِبْرَاهِيمَ قَدِيمَةٌ.}",
+              "La voiture de Ḥāmid est neuve et la voiture d'Ibrāhīm est vieille."
+            ],
+            [
+              "7",
+              "{ar|بَيْتُ خَالِدٍ كَبِيرٌ وَبَيْتُ أُسَامَةَ صَغِيرٌ.}",
+              "La maison de Khālid est grande et la maison d'Usāma est petite."
+            ],
+            [
+              "8",
+              "{ar|أَيْنَ ذَهَبَ أَبُوكِ يَا لَيْلَى؟ ذَهَبَ إِلَى بَغْدَادَ.}",
+              "Où est allé ton père, Laylā ? Il est allé à Bagdad."
+            ],
+            ["9", "{ar|فِي جُدَّةَ مَسَاجِدُ كَثِيرَةٌ.}", "À Djeddah, il y a beaucoup de mosquées."],
+            ["10", "{ar|عِنْدِي خَمْسَةُ مَفَاتِيحَ.}", "J'ai cinq clés."]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans la phrase 8, {ar|أَبُوكِ} se termine par {ar|كِ} : Laylā est une fille, on lui parle au féminin (chapitre 12)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l23.practice-2#2",
+      "type": "tip",
+      "title": "Les phrases du livre (11 à 20)",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["N°", "Phrase", "Sens"],
+          "rows": [
+            ["11", "{ar|الْكَعْبَةُ فِي مَكَّةَ.}", "La Kaaba est à La Mecque."],
+            ["12", "{ar|فِي هٰذَا الشَّارِعِ ثَلَاثَةُ مَسَاجِدَ.}", "Dans cette rue, il y a trois mosquées."],
+            [
+              "13",
+              "{ar|هٰذَا الطَّبِيبُ اسْمُهُ وِلْيَمُ وَهُوَ مِنْ لَنْدَنَ وَذٰلِكَ اسْمُهُ لُوِيسُ وَهُوَ مِنْ بَارِيسَ.}",
+              "Ce médecin s'appelle William et il est de Londres ; celui-là s'appelle Louis et il est de Paris."
+            ],
+            ["14", "{ar|سَيَّارَتِي لَوْنُهَا أَخْضَرُ.}", "La couleur de ma voiture est verte."],
+            ["15", "{ar|عِنْدِي قَلَمٌ أَحْمَرُ.}", "J'ai un stylo rouge."],
+            ["16", "{ar|الْبَيْتُ الْحَرَامُ فِي مَكَّةَ.}", "La Maison sacrée est à La Mecque."],
+            ["17", "{ar|ذَهَبَ أَحْمَدُ إِلَى مُحَمَّدٍ.}", "Aḥmad est allé chez Muḥammad."],
+            ["18", "{ar|ذَهَبَ مُحَمَّدٌ إِلَى أَحْمَدَ.}", "Muḥammad est allé chez Aḥmad."],
+            [
+              "19",
+              "{ar|أَأَنْتَ مِنْ مَكَّةَ؟ لَا. أَنَا مِنَ الطَّائِفِ.}",
+              "Es-tu de La Mecque ? Non. Je suis de Ṭāʾif."
+            ],
+            ["20", "{ar|أُخْتُ فَاطِمَةَ طَالِبَةٌ.}", "La sœur de Fāṭima est étudiante."]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Phrase 14 : {ar|لَوْنُهَا} veut dire « sa couleur », celle de la voiture ({ar|هَا}, féminin). {ar|لَوْنٌ} est masculin : la couleur qui le qualifie est donc au masculin, {ar|أَخْضَرُ}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Phrase 19 : {ar|الطَّائِفُ} est une ville proche de La Mecque. Avec l'article, elle prend la kasra après {ar|مِنْ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l23.practice-2#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|ذَهَبَ أَحْمَدُ إِلَى مُحَمَّدٍ}, qui est allé chez qui ?" },
+      "choices": [ { "fr": "Aḥmad est allé chez Muḥammad." }, { "fr": "Muḥammad est allé chez Aḥmad." } ],
+      "answer": 0,
+      "explain": "Le sujet de {ar|ذَهَبَ} est le nom à la damma : {ar|أَحْمَدُ}. {ar|مُحَمَّدٍ} suit {ar|إِلَى} : kasra et tanwin."
+    },
+    {
+      "id": "medine-t1.l23.practice-2#4",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|ذَهَبَ مُحَمَّدٌ إِلَى أَحْمَدَ}, c'est Muḥammad qui est allé chez Aḥmad." },
+      "answer": true,
+      "explain": "Le sujet {ar|مُحَمَّدٌ} a la damma et le tanwin ; {ar|أَحْمَدَ}, après {ar|إِلَى}, a la fatha."
+    },
+    {
+      "id": "medine-t1.l23.practice-2#5",
+      "type": "sort",
+      "categories": [
+        { "fr": "un pluriel de forme longue" },
+        { "fr": "la terminaison {ar|انُ}" },
+        { "fr": "un nom propre féminin" }
+      ],
+      "cards": [
+        { "ar": "مَفَاتِيحُ", "category": 0 },
+        { "ar": "مَسَاجِدُ", "category": 0 },
+        { "ar": "دَفَاتِرُ", "category": 0 },
+        { "ar": "مَرْوَانُ", "category": 1 },
+        { "ar": "عُثْمَانُ", "category": 1 },
+        { "ar": "زَيْنَبُ", "category": 2 },
+        { "ar": "خَدِيجَةُ", "category": 2 },
+        { "ar": "فَاطِمَةُ", "category": 2 }
+      ],
+      "instruction": "Pourquoi ces noms n'ont-ils pas de tanwin ?",
+      "explain": "{ar|مَفَاتِيحُ}, {ar|مَسَاجِدُ}, {ar|دَفَاتِرُ} : pluriels de forme longue. {ar|مَرْوَانُ} et {ar|عُثْمَانُ} finissent par {ar|انُ}. {ar|زَيْنَبُ}, {ar|خَدِيجَةُ}, {ar|فَاطِمَةُ} : des prénoms de femmes."
+    },
+    {
+      "id": "medine-t1.l23.practice-2#6",
+      "type": "spot",
+      "instruction": "Touche le prénom qui n'a pas de tanwin.",
+      "words": ["سَيَّارَةُ", "حَامِدٍ", "جَدِيدَةٌ", "وَسَيَّارَةُ", "إِبْرَاهِيمَ", "قَدِيمَةٌ."],
+      "answers": [4],
+      "fr": "La voiture de Ḥāmid est neuve et la voiture d'Ibrāhīm est vieille.",
+      "explain": "{ar|إِبْرَاهِيمُ} est un nom non arabe : sans tanwin, avec la fatha comme second terme d'annexion. {ar|حَامِدٌ} garde son tanwin."
+    },
+    {
+      "id": "medine-t1.l23.practice-2#7",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|سَيَّارَتِي لَوْنُهَا أَخْضَرُ}, pourquoi {ar|أَخْضَرُ} est-il au masculin alors que {ar|سَيَّارَةٌ} est féminin ?"
+      },
+      "choices": [
+        { "fr": "Parce qu'il décrit {ar|لَوْنٌ}, qui est masculin" },
+        { "fr": "Parce qu'une couleur est toujours au masculin" },
+        { "fr": "Parce qu'il est sans tanwin" }
+      ],
+      "answer": 0,
+      "explain": "{ar|لَوْنُهَا} : « sa couleur ». C'est la couleur qui est verte, et {ar|لَوْنٌ} est masculin. Une couleur n'est pas toujours au masculin : {ar|حَمْرَاءُ}, {ar|خَضْرَاءُ} existent."
+    },
+    {
+      "id": "medine-t1.l23.practice-2#8",
+      "type": "order",
+      "fr": "La maison de Khālid est grande.",
+      "answers": [["بَيْتُ", "خَالِدٍ", "كَبِيرٌ"]],
+      "punctuation": ".",
+      "explain": "{ar|خَالِدٌ} garde son tanwin : second terme de l'annexion, il prend la kasra."
+    },
+    {
+      "id": "medine-t1.l23.practice-2#9",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أَيْنَ ذَهَبَ أَبُوكِ يَا لَيْلَى؟}, pourquoi {ar|أَبُوكِ} se termine-t-il par {ar|كِ} ?" },
+      "choices": [
+        { "fr": "Parce que Laylā est une fille" },
+        { "fr": "Parce que Laylā est un garçon" },
+        { "fr": "Parce que {ar|أَبٌ} est féminin" }
+      ],
+      "answer": 0,
+      "explain": "{ar|كِ} est le « ton » du féminin : on parle à une fille (chapitre 12)."
+    },
+    {
+      "id": "medine-t1.l23.practice-2#10",
+      "type": "order",
+      "fr": "Ma voiture, sa couleur est verte.",
+      "answers": [["سَيَّارَتِي", "لَوْنُهَا", "أَخْضَرُ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t1.l23.practice-2#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Khālid est allé chez Aḥmad.",
+      "answers": ["ذَهَبَ خَالِدٌ إِلَى أَحْمَدَ.", "خَالِدٌ ذَهَبَ إِلَى أَحْمَدَ."],
+      "explain": "{ar|خَالِدٌ} est le sujet : damma et tanwin. {ar|أَحْمَدُ} est sans tanwin : fatha après {ar|إِلَى}."
+    },
+    {
+      "id": "medine-t1.l23.practice-2#12",
+      "type": "fill_gap",
+      "sentence": "أُخْتُ {0} طَالِبَةٌ.",
+      "fr": "La sœur de Fāṭima est étudiante.",
+      "gaps": [ { "answers": ["فَاطِمَةَ"] } ],
+      "options": ["فَاطِمَةَ", "زَيْنَبَ", "خَدِيجَةَ"],
+      "explain": "{ar|فَاطِمَةُ} est sans tanwin : second terme d'annexion, fatha."
+    },
+    {
+      "id": "medine-t1.l23.practice-2#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Où est l'époux de Khadīja ?",
+      "answers": ["أَيْنَ زَوْجُ خَدِيجَةَ؟"],
+      "explain": "{ar|خَدِيجَةُ} est sans tanwin : fatha comme second terme de l'annexion."
+    }
+  ]
+}

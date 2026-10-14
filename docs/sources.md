@@ -925,6 +925,42 @@ Notes de choix dans un fichier à part : `docs/sources-lecon-17.md` (les chapitr
 - **Pas encore enseigné (donc sans exercice) :** le féminin des couleurs (`فَعْلَاءُ`), le comparatif `أَكْبَرُ` / `أَجْمَلُ` (cités seulement), le présent `يَقُولُ` et l'impératif `قُلْ` (tableau « à reconnaître »), la préposition `بِ`.
 - **À confirmer avec le professeur :** rien de nouveau (`مَرْيَمُ` : présenté dans les tableaux comme nom féminin, comme dans le livre).
 
+### Leçon 23 (`l23`)
+
+- **Support :** un seul PDF de 15 pages (cours 23, « L'interdit de tanwin 5 » : texte du livre sur deux pages, deux diapos sur `إِعْرَابُ الْمَمْنُوعِ مِنَ الصَّرْفِ` (damma, fatha, fatha), exercice 1 (`تَأَمَّلِ الْأَمْثِلَةَ` : `مُحَمَّدٌ` et `زَيْنَبُ`), diapo récapitulative (deux différences avec les noms ordinaires), exercices 2 (vingt phrases), 3 (listes de noms à écrire avec leur fin) et 4 (les nombres de 3 à 10 avec neuf mots), vocabulaire nouveau : `حَرَامٌ` et `هَاتِ`).
+- **Une leçon de synthèse** : les familles de noms sans tanwin ont été enseignées aux chapitres 4, 5, 6, 9, 14 et 22. Cette leçon donne la règle des trois cas (**damma, fatha, fatha**) et ses deux conditions. Éléments **nouveaux** (2) : `حَرَامٌ` (+ pluriel `حُرُمٌ`) et `هَاتِ`. Aucune nouvelle icône.
+- **Exercices et textes du livre repris :**
+  - texte du livre (deux pages) → `dialogue-1` (le nouvel étudiant et les sept cahiers) et `dialogue-2` (les trois absents) ;
+  - diapos `إِعْرَابُ الْمَمْنُوعِ مِنَ الصَّرْفِ` et exercice 1 → `grammar-1` ; diapo récapitulative (deux différences, `السَّلَامُ عَلَى زَيْدٍ` / `عَلَى إِبْرَاهِيمَ`) → `grammar-2` ;
+  - vocabulaire nouveau → `vocab-1` ;
+  - exercice 3 (listes de noms) → `practice-1` (tableaux « seul / après une préposition », puis tris et dictées) ; exercice 2 (vingt phrases) → `practice-2` (deux tableaux de dix phrases, puis exercices) ; exercice 4 (nombres de 3 à 10 avec neuf mots) → `practice-3`.
+- **Écarts avec le PDF :**
+  - le PDF est presque sans voyelles : toutes les phrases sont vocalisées par l'app (relues par les relecteurs) ;
+  - **faute du PDF** : `خَرَجِ إِلَى الْمُدِيرِ` (kasra sous le `ج`) est écrit `خَرَجَ` (la même forme avec fatha est dans les deux répliques suivantes) ;
+  - **phrase 9 de l'exercice 2** : `فِي إِصْطَنْبُولَ مَسَاجِدُ كَثِيرَةٌ` devient `فِي جُدَّةَ مَسَاجِدُ كَثِيرَةٌ` (la vocalisation d'Istanbul varie selon les dictionnaires : `إِسْطَنْبُولُ`, `أُسْطُنْبُولُ`…) ; `إِصْطَنْبُولُ` est aussi retiré de l'exercice 3 ;
+  - `أَبُوكَ يَا لَيْلَى` (phrase 8) : vocalisé `أَبُوكِ` (on parle à une fille) ;
+  - `لُوِيس` (phrase 13) : écrit `لُوِيسُ` (le `ي` long sans sukun, comme dans tout le cours) ;
+  - `لَا تَكُنْ كَسْلَانَ` et `سَلَّمَ زَيْدٌ عَلَى زَيْنَبَ` (diapo des trois cas) : le verbe `كَانَ` / `تَكُنْ` n'est pas enseigné, `سَلَّمَ` non plus. Le premier n'est cité qu'en **aperçu** (note de `grammar-1`) ; le second est remplacé par `السَّلَامُ عَلَى زَيْدٍ` / `عَلَى إِبْرَاهِيمَ` (diapo récapitulative) ; l'exemple du `النَّصْبُ` est `أُحِبُّ مَكَّةَ` (chapitre 11) ;
+  - `الْخَمْرُ حَرَامٌ` et `حَرَامٌ عَلَيْكَ أَنْ تَضْرِبَ زَيْدًا` (exemples du PDF pour « interdit ») : seul le premier est cité (tableau de `vocab-1`, sans exercice : `الْخَمْرُ` n'est pas un mot du cours) ; le second emploie `أَنْ` + subjonctif et `ضَرَبَ`, non enseignés ;
+  - `الْأَشْهُرُ الْحُرُمُ` : `أَشْهُرٌ` est le pluriel de `شَهْرٌ` (chapitre 14) ;
+  - exercice 4 : le livre demande de compter neuf mots avec les nombres de 3 à 10 sans dire quel nombre pour quel mot ; l'app propose un nombre par mot (`ثَلَاثَةُ مَسَاجِدَ`, `أَرْبَعَةُ فَنَادِقَ`…, `عَشْرُ مَدَارِسَ`, `ثَلَاثُ دَقَائِقَ`) ; pluriels : `مَسَاجِدُ`, `فَنَادِقُ`, `مَنَادِيلُ`, `مَفَاتِيحُ`, `أَصْدِقَاءُ`, `زُمَلَاءُ`, `كَرَاسِيُّ` (génitif `كَرَاسِيَّ`), `مَدَارِسُ`, `دَقَائِقُ`, tous déjà enseignés ;
+  - `هَاتِ` : le PDF ne remplit que la case de l'impératif. L'app dit « en pratique, on ne l'emploie qu'à l'impératif » (sans affirmer qu'il n'a ni passé ni présent) ;
+  - le texte « هَاتِ يَا أُسْتَاذُ » : traduit « Donne, professeur ! » ; `خَرَجَ إِلَى الْمُدِيرِ` : « Il est sorti voir le directeur » ; `لِمَنْ هِيَ؟` : « À qui sont-ils ? » (`هِيَ` reprend `دَفَاتِرُ`, pluriel de choses).
+- **Choix de contenu :**
+  - la règle est donnée avec ses **deux conditions** (sans article, hors premier terme d'annexion) dès `grammar-1` (rappel d'avertissement) et détaillée dans `grammar-2` ; le PDF ne les mentionne pas, mais les chapitres 4 à 6 les ont enseignées ;
+  - le `النَّصْبُ` est montré mais jamais exigé en exercice (seul `أُحِبُّ مَكَّةَ` en exemple, comme au chapitre 11) ;
+  - les `sort` « fatha / kasra » ne mettent que des cartes dont la catégorie se déduit de la présence de l'article ou du nom lui-même (ils restent justes avec les harakat masquées) ;
+  - `ذَهَبَ أَحْمَدُ إِلَى مُحَمَّدٍ` / `ذَهَبَ مُحَمَّدٌ إِلَى أَحْمَدَ` (phrases 17 et 18) servent de paire minimale : la fin de chaque nom dit qui est allé chez qui ;
+  - la phrase 14 (`سَيَّارَتِي لَوْنُهَا أَخْضَرُ`) donne lieu à une question : `أَخْضَرُ` qualifie `لَوْنٌ` (masculin).
+- **Explications ajoutées (données à l'oral, absentes du PDF) :**
+  - **Ibn Mālik (Alfiyya)** : le nom sans tanwin est mis au génitif par la fatha tant qu'il n'est ni premier terme d'annexion ni précédé de l'article ;
+  - « damma, fatha, fatha » comme moyen de retenir ;
+  - au `النَّصْبُ` et au `الْجَرُّ`, un nom sans tanwin a la même fin : seul le rôle dans la phrase dit le cas ;
+  - `حَرَامٌ` : deux sens issus de la racine `ح ر م` ; contraire `حَلَالٌ` ; `حُرُمٌ` est le pluriel de `حَرَامٌ` (`الْأَشْهُرُ الْحُرُمُ`, Coran 9:5 et 9:36) ; pour un pluriel de choses, l'adjectif est le plus souvent au féminin singulier, le pluriel est aussi possible ; les quatre mois sacrés (sourate 9, verset 36) : Dhū l-Qaʿda, Dhū l-Ḥijja, Muḥarram et Rajab ;
+  - `الطَّائِفُ` : ville proche de La Mecque (cité en lecture, aucune carte).
+- **Pas encore enseigné (donc sans exercice) :** le verbe `كَانَ`, l'impératif négatif (`لَا تَكُنْ`), le complément d'objet, `أَنْ` + subjonctif, `الْخَمْرُ`, `حَلَالٌ` (cité dans la note de `حَرَامٌ`).
+- **À confirmer avec le professeur :** rien de nouveau.
+
 ## Audio
 
 Aucun MP3 n'est encore généré : l'app utilise la synthèse vocale arabe du téléphone en attendant

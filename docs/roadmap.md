@@ -6,7 +6,7 @@
   - Parmi eux, 4 mini-jeux : ranger, repérer, écrire lettre par lettre, mémoire.
   - Les astuces ont 7 sortes de blocs, dont comparer, décomposer, galerie et encadrés à ton.
   - Le guide de conception est `docs/pedagogie.md`.
-- **Parcours :** chapitres 1 à 22 du Tome de Médine 1 et le chapitre de révision 1 (`r01`, libellé « Révision 1 », placé après le chapitre 9 ; les chapitres 10 et 11 viennent ensuite). Les chapitres s'affichent en accordéon et rien n'est verrouillé.
+- **Parcours :** chapitres 1 à 23 du Tome de Médine 1 et le chapitre de révision 1 (`r01`, libellé « Révision 1 », placé après le chapitre 9 ; les chapitres 10 et 11 viennent ensuite). Les chapitres s'affichent en accordéon et rien n'est verrouillé.
 - **Réviser :** répétition espacée FSRS-5, deux onglets (Vocabulaire / Grammaire), niveaux de maîtrise, favoris, recherche.
 - **Paramètres :**
   - harakat, translittération, taille de l'arabe ;

@@ -1,0 +1,162 @@
+{
+  "id": "medine-t1.l23.dialogue-2",
+  "type": "dialogue",
+  "title": "Où sont-ils allés ?",
+  "icon": "school",
+  "screens": [
+    {
+      "id": "medine-t1.l23.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Où sont-ils allés ?",
+      "intro": "Suite du texte du livre : le professeur demande si le livre est à Muḥammad, puis où sont ʿAlī, Yaʿqūb et Isḥāq.",
+      "speakers": {
+        "T": { "name": "Le professeur", "voice": "m1" },
+        "M": { "name": "Muḥammad", "voice": "m2" },
+        "H": { "name": "Ḥāmid", "voice": "m2" }
+      },
+      "lines": [
+        { "speaker": "T", "ar": "أَهٰذَا كِتَابُكَ يَا مُحَمَّدُ؟", "fr": "Est-ce ton livre, Muḥammad ?" },
+        { "speaker": "M", "ar": "لَا. هٰذَا كِتَابُ حَمْزَةَ.", "fr": "Non. C'est le livre de Ḥamza." },
+        { "speaker": "T", "ar": "أَيْنَ عَلِيٌّ يَا إِخْوَانُ؟", "fr": "Où est ʿAlī, mes frères ?" },
+        { "speaker": "H", "ar": "ذَهَبَ إِلَى الرِّيَاضِ.", "fr": "Il est allé à Riyad." },
+        { "speaker": "T", "ar": "وَأَيْنَ يَعْقُوبُ؟", "fr": "Et où est Yaʿqūb ?" },
+        { "speaker": "H", "ar": "ذَهَبَ إِلَى مَكَّةَ.", "fr": "Il est allé à La Mecque." },
+        { "speaker": "T", "ar": "أَيْنَ إِسْحَاقُ؟", "fr": "Où est Isḥāq ?" },
+        { "speaker": "M", "ar": "خَرَجَ إِلَى الْمُدِيرِ.", "fr": "Il est sorti voir le directeur." },
+        { "speaker": "T", "ar": "مَتَى خَرَجَ؟", "fr": "Quand est-il sorti ?" },
+        { "speaker": "M", "ar": "خَرَجَ قَبْلَ خَمْسِ دَقَائِقَ.", "fr": "Il est sorti il y a cinq minutes." }
+      ]
+    },
+    {
+      "id": "medine-t1.l23.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Tu reconnais presque tout. Regarde ces formes." },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Explication"],
+          "rows": [
+            [
+              "{ar|أَهٰذَا كِتَابُكَ؟}",
+              "est-ce ton livre ?",
+              "{ar|أَ} (la question, chapitre 1) + {ar|كِتَابُكَ} (chapitre 10)"
+            ],
+            ["{ar|كِتَابُ حَمْزَةَ}", "le livre de Ḥamza", "annexion ; {ar|حَمْزَةُ} est sans tanwin : la fatha"],
+            [
+              "{ar|يَا إِخْوَانُ}",
+              "mes frères !",
+              "{ar|إِخْوَانٌ} : autre pluriel de {ar|أَخٌ} ; le nom interpellé garde la damma (chapitre 5)"
+            ],
+            ["{ar|إِلَى الرِّيَاضِ}", "à Riyad", "avec l'article : la kasra"],
+            ["{ar|إِلَى مَكَّةَ}", "à La Mecque", "sans article, nom sans tanwin : la fatha"],
+            [
+              "{ar|خَرَجَ إِلَى الْمُدِيرِ}",
+              "il est sorti voir le directeur",
+              "{ar|إِلَى} : « vers » ; {ar|الْمُدِيرِ} a l'article : la kasra"
+            ],
+            [
+              "{ar|قَبْلَ خَمْسِ دَقَائِقَ}",
+              "il y a cinq minutes",
+              "{ar|قَبْلَ} (chapitre 15) + annexion ; {ar|دَقَائِقُ} est sans tanwin : la fatha"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Compare {ar|إِلَى الرِّيَاضِ} et {ar|إِلَى مَكَّةَ} : c'est la règle de cette leçon. Avec l'article, la kasra ; sans article, un nom sans tanwin prend la fatha."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l23.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Où est allé ʿAlī ?" },
+      "choices": [ { "fr": "À Riyad" }, { "fr": "À La Mecque" }, { "fr": "Chez le directeur" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l23.dialogue-2#1" },
+      "explain": "{ar|ذَهَبَ إِلَى الرِّيَاضِ} : il est allé à Riyad."
+    },
+    {
+      "id": "medine-t1.l23.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Où est allé Yaʿqūb ?" },
+      "choices": [ { "fr": "À La Mecque" }, { "fr": "À Riyad" }, { "fr": "Chez le directeur" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l23.dialogue-2#1" },
+      "explain": "{ar|ذَهَبَ إِلَى مَكَّةَ} : il est allé à La Mecque."
+    },
+    {
+      "id": "medine-t1.l23.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Isḥāq est parti à La Mecque." },
+      "answer": false,
+      "context": { "dialogue": "medine-t1.l23.dialogue-2#1" },
+      "explain": "{ar|خَرَجَ إِلَى الْمُدِيرِ} : il est sorti voir le directeur."
+    },
+    {
+      "id": "medine-t1.l23.dialogue-2#6",
+      "type": "question",
+      "prompt": { "fr": "Quand Isḥāq est-il sorti ?" },
+      "choices": [ { "fr": "Il y a cinq minutes" }, { "fr": "Il y a dix minutes" }, { "fr": "Dans cinq minutes" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t1.l23.dialogue-2#1" },
+      "explain": "{ar|خَرَجَ قَبْلَ خَمْسِ دَقَائِقَ} : il est sorti il y a cinq minutes."
+    },
+    {
+      "id": "medine-t1.l23.dialogue-2#7",
+      "type": "sort",
+      "categories": [ { "fr": "la fatha ({ar|◌َ})" }, { "fr": "la kasra ({ar|◌ِ})" } ],
+      "cards": [
+        { "ar": "إِلَى مَكَّةَ", "category": 0 },
+        { "ar": "إِلَى بَغْدَادَ", "category": 0 },
+        { "ar": "إِلَى جُدَّةَ", "category": 0 },
+        { "ar": "إِلَى الرِّيَاضِ", "category": 1 },
+        { "ar": "إِلَى الْمُدِيرِ", "category": 1 },
+        { "ar": "إِلَى الْمَدْرَسَةِ", "category": 1 }
+      ],
+      "instruction": "Après {ar|إِلَى}, quelle est la fin du nom ?",
+      "explain": "Sans article, {ar|مَكَّةُ}, {ar|بَغْدَادُ} et {ar|جُدَّةُ} (sans tanwin) prennent la fatha. Avec l'article, la kasra : {ar|الرِّيَاضِ}, {ar|الْمُدِيرِ}, {ar|الْمَدْرَسَةِ}."
+    },
+    {
+      "id": "medine-t1.l23.dialogue-2#8",
+      "type": "fill_gap",
+      "sentence": "خَرَجَ {0} خَمْسِ دَقَائِقَ.",
+      "fr": "Il est sorti il y a cinq minutes.",
+      "gaps": [ { "answers": ["قَبْلَ"] } ],
+      "options": ["قَبْلَ", "بَعْدَ", "مِنْ"],
+      "context": { "dialogue": "medine-t1.l23.dialogue-2#1" },
+      "explain": "{ar|قَبْلَ} : « avant », donc « il y a » devant une durée au passé."
+    },
+    {
+      "id": "medine-t1.l23.dialogue-2#9",
+      "type": "order",
+      "fr": "C'est le livre de Ḥamza.",
+      "answers": [["هٰذَا", "كِتَابُ", "حَمْزَةَ"]],
+      "punctuation": ".",
+      "explain": "{ar|حَمْزَةُ} est un prénom d'homme en {ar|ة} : sans tanwin, et la fatha comme second terme de l'annexion."
+    },
+    {
+      "id": "medine-t1.l23.dialogue-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il est sorti il y a cinq minutes.",
+      "answers": ["خَرَجَ قَبْلَ خَمْسِ دَقَائِقَ."]
+    },
+    {
+      "id": "medine-t1.l23.dialogue-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il est allé à Riyad.",
+      "answers": ["ذَهَبَ إِلَى الرِّيَاضِ."]
+    },
+    {
+      "id": "medine-t1.l23.dialogue-2#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Où est Isḥāq ?",
+      "answers": ["أَيْنَ إِسْحَاقُ؟"]
+    }
+  ]
+}
