@@ -1,0 +1,161 @@
+{
+  "id": "medine-t1.l23.grammar-1",
+  "type": "grammar",
+  "title": "Damma, fatha, fatha",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t1.l23.grammar-1#1",
+      "type": "tip",
+      "title": "Un nom sans tanwin, trois cas",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un nom sans tanwin ({ar|الْمَمْنُوعُ مِنَ الصَّرْفِ}, chapitre 4) suit lui aussi les trois cas que tu connais (chapitre 5), mais il n'a **pas de tanwin** et, au {ar|الْجَرُّ}, il prend la **fatha**. Compare un nom ordinaire, {ar|مُحَمَّدٌ}, et un nom sans tanwin, {ar|زَيْنَبُ}."
+        },
+        {
+          "type": "table",
+          "header": ["Cas", "Nom ordinaire", "Nom sans tanwin", "Sa terminaison"],
+          "rows": [
+            ["{ar|الرَّفْعُ}", "{ar|مُحَمَّدٌ}", "{ar|زَيْنَبُ}", "la damma ({ar|◌ُ}), sans tanwin"],
+            ["{ar|النَّصْبُ}", "{ar|مُحَمَّدًا}", "{ar|زَيْنَبَ}", "la fatha ({ar|◌َ}), sans tanwin ni alif"],
+            ["{ar|الْجَرُّ}", "{ar|مُحَمَّدٍ}", "{ar|زَيْنَبَ}", "la fatha ({ar|◌َ}) au lieu de la kasra"]
+          ]
+        },
+        { "type": "note", "tone": "memo", "text": "Pour retenir : **damma, fatha, fatha**." },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Cette règle vaut pour un nom **sans article** et qui **n'est pas premier terme d'une annexion**. Sinon, il prend la kasra (voir l'activité suivante)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l23.grammar-1#2",
+      "type": "tip",
+      "title": "Les exemples du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre te fait comparer {ar|مُحَمَّدٌ} et {ar|زَيْنَبُ} dans les mêmes situations. Dans chaque ligne, le nom est au {ar|الْجَرُّ}."
+        },
+        {
+          "type": "table",
+          "header": ["Situation", "Nom ordinaire", "Nom sans tanwin"],
+          "rows": [
+            ["après {ar|مِنْ}", "{ar|مِنْ مُحَمَّدٍ}", "{ar|مِنْ زَيْنَبَ}"],
+            ["après {ar|إِلَى}", "{ar|إِلَى مُحَمَّدٍ}", "{ar|إِلَى زَيْنَبَ}"],
+            ["après {ar|لِ}", "{ar|لِمُحَمَّدٍ}", "{ar|لِزَيْنَبَ}"],
+            ["second terme d'une annexion", "{ar|كِتَابُ مُحَمَّدٍ}", "{ar|كِتَابُ زَيْنَبَ}"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le nom ordinaire a la kasra et le tanwin ; le nom sans tanwin a la fatha. C'est la même chose après une préposition et comme second terme d'une annexion."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l23.grammar-1#3",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|هٰذَا كِتَابُ زَيْنَبَ}, le nom {ar|زَيْنَبَ} est le second terme d'une annexion (et {ar|زَيْنَبُ} est sans tanwin). Sa fin est…"
+      },
+      "choices": [ { "fr": "une fatha ({ar|◌َ})" }, { "fr": "une kasra ({ar|◌ِ})" }, { "fr": "une damma ({ar|◌ُ})" } ],
+      "answer": 0,
+      "explain": "Un nom sans tanwin, sans article, prend la fatha au {ar|الْجَرُّ} : {ar|كِتَابُ زَيْنَبَ}. Avec un nom ordinaire, on aurait la kasra et le tanwin : {ar|كِتَابُ مُحَمَّدٍ}."
+    },
+    {
+      "id": "medine-t1.l23.grammar-1#4",
+      "type": "sort",
+      "categories": [ { "fr": "la kasra et le tanwin ({ar|◌ٍ})" }, { "fr": "la fatha ({ar|◌َ})" } ],
+      "cards": [
+        { "ar": "مِنْ زَيْنَبَ", "category": 1 },
+        { "ar": "عَلَى زَيْدٍ", "category": 0 },
+        { "ar": "إِلَى مَكَّةَ", "category": 1 },
+        { "ar": "فِي بَيْتٍ", "category": 0 },
+        { "ar": "مِنْ عُثْمَانَ", "category": 1 },
+        { "ar": "لِمُحَمَّدٍ", "category": 0 },
+        { "ar": "إِلَى بَغْدَادَ", "category": 1 },
+        { "ar": "مِنْ خَالِدٍ", "category": 0 }
+      ],
+      "instruction": "Quelle est la fin du dernier mot ?",
+      "explain": "{ar|زَيْنَبُ}, {ar|مَكَّةُ}, {ar|عُثْمَانُ} et {ar|بَغْدَادُ} sont privés de tanwin : après une préposition, ils prennent la fatha. {ar|زَيْدٌ}, {ar|بَيْتٌ}, {ar|مُحَمَّدٌ} et {ar|خَالِدٌ} sont des noms ordinaires : kasra et tanwin."
+    },
+    {
+      "id": "medine-t1.l23.grammar-1#5",
+      "type": "tip",
+      "title": "Au nominatif et à l'accusatif : comme les autres noms",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au {ar|الرَّفْعُ} et au {ar|النَّصْبُ}, un nom sans tanwin se comporte comme les autres noms : il prend la damma, puis la fatha. Il perd seulement le tanwin."
+        },
+        { "type": "example", "ar": "فَاطِمَةُ فِي الْفَصْلِ.", "fr": "Fāṭima est dans la salle de classe." },
+        {
+          "type": "paragraph",
+          "text": "Ci-dessus, {ar|فَاطِمَةُ} est au {ar|الرَّفْعُ} : une damma simple. Ci-dessous, ce qu'on aime est à l'accusatif (chapitre 11) : une fatha simple, sans alif."
+        },
+        { "type": "example", "ar": "أُحِبُّ مَكَّةَ.", "fr": "J'aime La Mecque." },
+        {
+          "type": "paragraph",
+          "text": "Attention : au {ar|النَّصْبُ} et au {ar|الْجَرُّ}, le nom sans tanwin a donc la **même fin** (la fatha). Seul le rôle du mot dans la phrase te dit lequel des deux cas c'est."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le livre donne aussi {ar|لَا تَكُنْ كَسْلَانَ} (« ne sois pas paresseux ») : tu verras le verbe {ar|تَكُنْ} plus tard. Regarde seulement la fin de {ar|كَسْلَانَ} : une fatha, sans tanwin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l23.grammar-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Au {ar|الرَّفْعُ}, un nom sans tanwin comme {ar|فَاطِمَةُ} se termine par une damma simple." },
+      "answer": true,
+      "explain": "Au {ar|الرَّفْعُ}, il prend la damma, sans tanwin : {ar|فَاطِمَةُ فِي الْفَصْلِ}."
+    },
+    {
+      "id": "medine-t1.l23.grammar-1#7",
+      "type": "spot",
+      "instruction": "Touche le nom qui n'a pas de tanwin.",
+      "words": ["ذَهَبَ", "خَالِدٌ", "إِلَى", "أَحْمَدَ."],
+      "answers": [3],
+      "fr": "Khālid est allé chez Aḥmad.",
+      "explain": "{ar|خَالِدٌ} est un nom ordinaire : il garde son tanwin. {ar|أَحْمَدَ} est de la forme {ar|أَفْعَلُ} : sans tanwin, avec la fatha après {ar|إِلَى}."
+    },
+    {
+      "id": "medine-t1.l23.grammar-1#8",
+      "type": "fill_gap",
+      "sentence": "ذَهَبَ زَيْدٌ إِلَى {0}.",
+      "fr": "Zayd est allé chez Zaynab.",
+      "gaps": [ { "answers": ["زَيْنَبَ"] } ],
+      "options": ["زَيْنَبَ", "خَالِدٍ", "فَاطِمَةَ"],
+      "explain": "{ar|زَيْنَبُ} est privé de tanwin : après {ar|إِلَى}, il prend la fatha."
+    },
+    {
+      "id": "medine-t1.l23.grammar-1#9",
+      "type": "order",
+      "fr": "Mon père est allé à La Mecque.",
+      "answers": [["ذَهَبَ", "أَبِي", "إِلَى", "مَكَّةَ"], ["أَبِي", "ذَهَبَ", "إِلَى", "مَكَّةَ"]],
+      "punctuation": ".",
+      "explain": "{ar|مَكَّةُ} est privé de tanwin : après {ar|إِلَى}, il prend la fatha."
+    },
+    {
+      "id": "medine-t1.l23.grammar-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "de la part de Zaynab",
+      "answers": ["مِنْ زَيْنَبَ."],
+      "explain": "Après {ar|مِنْ}, {ar|زَيْنَبُ} prend la fatha."
+    },
+    {
+      "id": "medine-t1.l23.grammar-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "C'est le livre de Zaynab.",
+      "answers": ["هٰذَا كِتَابُ زَيْنَبَ.", "ذٰلِكَ كِتَابُ زَيْنَبَ."],
+      "explain": "Second terme d'une annexion : fatha."
+    }
+  ]
+}

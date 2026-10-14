@@ -1,0 +1,137 @@
+{
+  "id": "medine-t1.l23.practice-3",
+  "type": "grammar",
+  "title": "Compte les mots du livre",
+  "icon": "key",
+  "screens": [
+    {
+      "id": "medine-t1.l23.practice-3#1",
+      "type": "tip",
+      "title": "L'exercice 4 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre te demande de compter chacun de ces mots avec un nombre de 3 à 10 (chapitre 19). Tous ont un pluriel sans tanwin. Après le nombre, ce pluriel est au {ar|الْجَرُّ} (second terme de l'annexion) : il prend donc la **fatha**."
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Genre", "Pluriel", "Avec un nombre"],
+          "rows": [
+            ["{ar|مَسْجِدٌ}", "masculin", "{ar|مَسَاجِدُ}", "{ar|ثَلَاثَةُ مَسَاجِدَ}"],
+            ["{ar|فُنْدُقٌ}", "masculin", "{ar|فَنَادِقُ}", "{ar|أَرْبَعَةُ فَنَادِقَ}"],
+            ["{ar|مِنْدِيلٌ}", "masculin", "{ar|مَنَادِيلُ}", "{ar|خَمْسَةُ مَنَادِيلَ}"],
+            ["{ar|مِفْتَاحٌ}", "masculin", "{ar|مَفَاتِيحُ}", "{ar|سِتَّةُ مَفَاتِيحَ}"],
+            ["{ar|صَدِيقٌ}", "masculin", "{ar|أَصْدِقَاءُ}", "{ar|سَبْعَةُ أَصْدِقَاءَ}"],
+            ["{ar|زَمِيلٌ}", "masculin", "{ar|زُمَلَاءُ}", "{ar|ثَمَانِيَةُ زُمَلَاءَ}"],
+            ["{ar|كُرْسِيٌّ}", "masculin", "{ar|كَرَاسِيُّ}", "{ar|تِسْعَةُ كَرَاسِيَّ}"],
+            ["{ar|مَدْرَسَةٌ}", "féminin", "{ar|مَدَارِسُ}", "{ar|عَشْرُ مَدَارِسَ}"],
+            ["{ar|دَقِيقَةٌ}", "féminin", "{ar|دَقَائِقُ}", "{ar|ثَلَاثُ دَقَائِقَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les mots féminins ({ar|مَدْرَسَةٌ}, {ar|دَقِيقَةٌ}) prennent le nombre sans le {ar|ة} : {ar|عَشْرُ}, {ar|ثَلَاثُ} (chapitre 19). Ici, le nombre n'est pas le sujet du livre : regarde surtout la fin du pluriel."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l23.practice-3#2",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:masjid", "w:funduq", "w:mindil", "w:miftah", "w:sadiq"]
+    },
+    {
+      "id": "medine-t1.l23.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "{0} مَدَارِسَ",
+      "fr": "dix écoles",
+      "gaps": [ { "answers": ["عَشْرُ"] } ],
+      "options": ["عَشْرُ", "عَشَرَةُ", "تِسْعَةُ"],
+      "explain": "{ar|مَدْرَسَةٌ} est féminin : le nombre prend la forme sans {ar|ة}, {ar|عَشْرُ}."
+    },
+    {
+      "id": "medine-t1.l23.practice-3#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "trois mosquées",
+      "answers": ["ثَلَاثَةُ مَسَاجِدَ"],
+      "explain": "{ar|مَسْجِدٌ} est masculin : {ar|ثَلَاثَةُ}. {ar|مَسَاجِدُ} est sans tanwin : fatha."
+    },
+    {
+      "id": "medine-t1.l23.practice-3#5",
+      "type": "sort",
+      "categories": [ { "fr": "masculin" }, { "fr": "féminin" } ],
+      "cards": [
+        { "ar": "ثَلَاثَةُ مَسَاجِدَ", "category": 0 },
+        { "ar": "سِتَّةُ مَفَاتِيحَ", "category": 0 },
+        { "ar": "تِسْعَةُ كَرَاسِيَّ", "category": 0 },
+        { "ar": "عَشْرُ مَدَارِسَ", "category": 1 },
+        { "ar": "خَمْسُ دَقَائِقَ", "category": 1 },
+        { "ar": "ثَلَاثُ دَقَائِقَ", "category": 1 }
+      ],
+      "instruction": "Le nom compté est-il masculin ou féminin ?",
+      "explain": "De 3 à 10, le nombre est de genre contraire au nom compté : avec le {ar|ة} pour un nom masculin, sans le {ar|ة} pour un nom féminin."
+    },
+    {
+      "id": "medine-t1.l23.practice-3#6",
+      "type": "order",
+      "fr": "J'ai cinq mouchoirs.",
+      "answers": [["عِنْدِي", "خَمْسَةُ", "مَنَادِيلَ"]],
+      "punctuation": ".",
+      "explain": "{ar|مِنْدِيلٌ} est masculin : {ar|خَمْسَةُ}. {ar|مَنَادِيلُ} est sans tanwin : fatha."
+    },
+    {
+      "id": "medine-t1.l23.practice-3#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|ثَلَاثَةُ مَسَاجِدَ}, pourquoi {ar|مَسَاجِدَ} a-t-il une fatha ?" },
+      "choices": [
+        { "fr": "Il est au génitif (second terme de l'annexion) et sans tanwin" },
+        { "fr": "Il est au nominatif" },
+        { "fr": "Un nom après un nombre prend toujours la fatha" }
+      ],
+      "answer": 0,
+      "explain": "{ar|مَسَاجِدُ} est sans tanwin : au {ar|الْجَرُّ}, il prend la fatha. Un pluriel ordinaire garde la kasra : {ar|ثَلَاثَةُ طُلَّابٍ}."
+    },
+    {
+      "id": "medine-t1.l23.practice-3#8",
+      "type": "true_false",
+      "statement": { "fr": "Après un nombre de 3 à 10, un pluriel ordinaire comme {ar|طُلَّابٌ} prend la kasra et le tanwin." },
+      "answer": true,
+      "explain": "{ar|ثَلَاثَةُ طُلَّابٍ} (chapitre 19) : kasra et tanwin. Seuls les pluriels sans tanwin, comme {ar|مَسَاجِدُ}, prennent la fatha."
+    },
+    {
+      "id": "medine-t1.l23.practice-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "huit camarades",
+      "answers": ["ثَمَانِيَةُ زُمَلَاءَ"],
+      "explain": "{ar|زَمِيلٌ} est masculin : {ar|ثَمَانِيَةُ}. {ar|زُمَلَاءُ} est sans tanwin : fatha."
+    },
+    {
+      "id": "medine-t1.l23.practice-3#10",
+      "type": "fill_gap",
+      "sentence": "خَمْسُ {0}",
+      "fr": "cinq minutes",
+      "gaps": [ { "answers": ["دَقَائِقَ"] } ],
+      "options": ["دَقَائِقَ", "دَقِيقَةٍ", "مَدَارِسَ"],
+      "explain": "Après {ar|خَمْسُ}, le pluriel {ar|دَقَائِقَ} : sans tanwin, avec la fatha."
+    },
+    {
+      "id": "medine-t1.l23.practice-3#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "neuf chaises",
+      "answers": ["تِسْعَةُ كَرَاسِيَّ"],
+      "explain": "{ar|كُرْسِيٌّ} est masculin : {ar|تِسْعَةُ}. {ar|كَرَاسِيُّ} est sans tanwin : {ar|كَرَاسِيَّ} (fatha) après le nombre."
+    },
+    {
+      "id": "medine-t1.l23.practice-3#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai sept cahiers.",
+      "answers": ["عِنْدِي سَبْعَةُ دَفَاتِرَ.", "لِي سَبْعَةُ دَفَاتِرَ."],
+      "explain": "{ar|دَفَاتِرُ} est de forme longue : fatha après le nombre."
+    }
+  ]
+}

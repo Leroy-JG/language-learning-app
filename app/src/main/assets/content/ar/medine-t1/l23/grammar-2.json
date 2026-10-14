@@ -1,0 +1,138 @@
+{
+  "id": "medine-t1.l23.grammar-2",
+  "type": "grammar",
+  "title": "Deux différences, et la kasra qui revient",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t1.l23.grammar-2#1",
+      "type": "tip",
+      "title": "Deux différences, pas plus",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre résume : un nom sans tanwin se distingue des autres noms sur **deux points** seulement."
+        },
+        {
+          "type": "table",
+          "header": ["N°", "La différence", "Exemple"],
+          "rows": [
+            ["1", "Au {ar|الْجَرُّ}, il prend la fatha, pas la kasra.", "{ar|زَيْدٍ} → {ar|إِبْرَاهِيمَ}"],
+            ["2", "Il n'a pas de tanwin.", "{ar|زَيْدٌ} → {ar|إِبْرَاهِيمُ}"]
+          ]
+        },
+        { "type": "example", "ar": "السَّلَامُ عَلَى زَيْدٍ.", "fr": "Que la paix soit sur Zayd." },
+        { "type": "example", "ar": "السَّلَامُ عَلَى إِبْرَاهِيمَ.", "fr": "Que la paix soit sur Ibrāhīm." },
+        {
+          "type": "paragraph",
+          "text": "Pour tout le reste, il se comporte comme un nom ordinaire : damma au {ar|الرَّفْعُ}, fatha au {ar|النَّصْبُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l23.grammar-2#2",
+      "type": "tip",
+      "title": "Quand la kasra revient",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La fatha du {ar|الْجَرُّ} ne dure que **tant que le nom est seul** : sans article et sans être premier terme d'une annexion. Avec l'article, ou comme premier terme d'une annexion, il retrouve la kasra."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "فِي مَسَاجِدَ", "fr": "dans des mosquées" },
+              "to": { "ar": "فِي الْمَسَاجِدِ", "fr": "dans les mosquées" },
+              "label": "avec l'article"
+            },
+            {
+              "from": { "ar": "فِي مَسَاجِدَ", "fr": "dans des mosquées" },
+              "to": { "ar": "فِي مَسَاجِدِ مَكَّةَ", "fr": "dans les mosquées de La Mecque" },
+              "label": "premier terme d'une annexion"
+            }
+          ]
+        },
+        { "type": "example", "ar": "ذَهَبَ إِلَى مَكَّةَ.", "fr": "Il est allé à La Mecque." },
+        { "type": "example", "ar": "ذَهَبَ إِلَى الرِّيَاضِ.", "fr": "Il est allé à Riyad." },
+        {
+          "type": "paragraph",
+          "text": "Dans {ar|مَكَّةَ}, aucun article : fatha. Dans {ar|الرِّيَاضِ}, l'article est là : kasra, comme pour un nom ordinaire."
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "Ibn Mālik résume cette règle dans son Alfiyya : le nom sans tanwin est mis au génitif par la fatha, tant qu'il n'est pas premier terme d'une annexion et qu'il n'est pas précédé de l'article. Ses mots : {ar|وَجُرَّ بِالْفَتْحَةِ مَا لَا يَنْصَرِفْ مَا لَمْ يُضَفْ أَوْ يَكُ بَعْدَ أَلْ رَدِفْ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t1.l23.grammar-2#3",
+      "type": "sort",
+      "categories": [ { "fr": "la fatha ({ar|◌َ})" }, { "fr": "la kasra ({ar|◌ِ})" } ],
+      "cards": [
+        { "ar": "إِلَى بَغْدَادَ", "category": 0 },
+        { "ar": "إِلَى الرِّيَاضِ", "category": 1 },
+        { "ar": "فِي مَدَارِسَ", "category": 0 },
+        { "ar": "فِي الْمَدَارِسِ", "category": 1 },
+        { "ar": "مِنْ حَمْزَةَ", "category": 0 },
+        { "ar": "فِي الْفَنَادِقِ", "category": 1 },
+        { "ar": "فِي فَنَادِقَ", "category": 0 }
+      ],
+      "instruction": "Quelle est la fin du dernier mot ?",
+      "explain": "Sans article, un nom sans tanwin prend la fatha : {ar|بَغْدَادَ}, {ar|مَدَارِسَ}, {ar|حَمْزَةَ}, {ar|فَنَادِقَ}. Avec l'article, il retrouve la kasra : {ar|الرِّيَاضِ}, {ar|الْمَدَارِسِ}, {ar|الْفَنَادِقِ}."
+    },
+    {
+      "id": "medine-t1.l23.grammar-2#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|فِي مَسَاجِدِ مَكَّةَ}, pourquoi {ar|مَسَاجِدِ} a-t-il une kasra ?" },
+      "choices": [
+        { "fr": "Parce qu'il est premier terme d'une annexion" },
+        { "fr": "Parce qu'il porte l'article {ar|الْ}" },
+        { "fr": "Parce que c'est un nom ordinaire, avec tanwin" }
+      ],
+      "answer": 0,
+      "explain": "{ar|مَسَاجِدُ} est sans tanwin, mais il est premier terme d'une annexion : il retrouve la kasra. Le second terme, {ar|مَكَّةَ}, est seul : fatha."
+    },
+    {
+      "id": "medine-t1.l23.grammar-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Un nom sans tanwin garde sa fatha après une préposition, même s'il porte l'article." },
+      "answer": false,
+      "explain": "Avec l'article, il retrouve la kasra : {ar|إِلَى الرِّيَاضِ}."
+    },
+    {
+      "id": "medine-t1.l23.grammar-2#6",
+      "type": "spot",
+      "instruction": "Touche les deux noms de villes.",
+      "words": ["ذَهَبَ", "أَبِي", "إِلَى", "مَكَّةَ", "وَذَهَبَ", "عَمِّي", "إِلَى", "جُدَّةَ."],
+      "answers": [3, 7],
+      "fr": "Mon père est allé à La Mecque et mon oncle paternel est allé à Djeddah.",
+      "explain": "{ar|مَكَّةَ} et {ar|جُدَّةَ} sont des noms féminins sans tanwin. {ar|أَبِي} et {ar|عَمِّي} sont des noms ordinaires."
+    },
+    {
+      "id": "medine-t1.l23.grammar-2#7",
+      "type": "order",
+      "fr": "J'ai cinq clés.",
+      "answers": [["عِنْدِي", "خَمْسَةُ", "مَفَاتِيحَ"]],
+      "punctuation": ".",
+      "explain": "{ar|مَفَاتِيحُ} est de forme longue : sans tanwin. Second terme de l'annexion {ar|خَمْسَةُ مَفَاتِيحَ}, il prend la fatha."
+    },
+    {
+      "id": "medine-t1.l23.grammar-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "dans les mosquées",
+      "answers": ["فِي الْمَسَاجِدِ."],
+      "explain": "Avec l'article : kasra."
+    },
+    {
+      "id": "medine-t1.l23.grammar-2#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "dans les mosquées de La Mecque",
+      "answers": ["فِي مَسَاجِدِ مَكَّةَ."],
+      "explain": "{ar|مَسَاجِدِ} : premier terme d'une annexion, kasra. {ar|مَكَّةَ} : seul, fatha."
+    }
+  ]
+}
