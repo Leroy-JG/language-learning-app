@@ -21,12 +21,12 @@
             [
               "{ar|مُسْلِمٌ} (un musulman)",
               "{ar|مُسْلِمُونَ}",
-              "une terminaison s'ajoute : {ar|◌ُونَ} (chapitre 6)"
+              "le début du mot reste, la fin change : {ar|◌ُونَ} (chapitre 6)"
             ],
             [
               "{ar|سَيَّارَةٌ} (une voiture)",
               "{ar|سَيَّارَاتٌ}",
-              "une terminaison s'ajoute : {ar|◌َاتٌ} (chapitre 5)"
+              "le début du mot reste, la fin change : {ar|◌َاتٌ} (chapitre 5)"
             ]
           ]
         },

@@ -60,7 +60,7 @@
       "type": "true_false",
       "statement": { "fr": "À l'accusatif, le pluriel féminin régulier prend la fatha." },
       "answer": false,
-      "explain": "Faux : il prend la kasra, comme au génitif. La dernière lettre ne porte jamais de fatha."
+      "explain": "Faux : il prend la kasra, comme au génitif. La dernière lettre de ce pluriel ne porte jamais de fatha."
     },
     {
       "id": "medine-t1.l17.grammar-5#4",

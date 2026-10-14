@@ -43,7 +43,7 @@
       "explain": "{ar|فَنَادِقُ} désigne des choses : {ar|كَبِيرَةٌ}."
     },
     {
-      "id": "medine-t1.l17.practice-3#5",
+      "id": "medine-t1.l17.practice-3#6",
       "type": "sort",
       "categories": [ { "fr": "des choses (prédicat au féminin)" }, { "fr": "des hommes (prédicat au pluriel masculin)" } ],
       "cards": [
@@ -58,7 +58,7 @@
       "explain": "Pour des choses ({ar|أَبْوَابٌ}, {ar|نُجُومٌ}, {ar|قُمْصَانٌ}), le prédicat est au féminin. Pour des hommes, au pluriel masculin."
     },
     {
-      "id": "medine-t1.l17.practice-3#6",
+      "id": "medine-t1.l17.practice-3#5",
       "type": "fill_gap",
       "sentence": "السَّيَّارَاتُ {0}.",
       "fr": "Les voitures sont chères.",
