@@ -1,0 +1,86 @@
+{
+  "id": "medine-t2.l04.practice-5",
+  "type": "grammar",
+  "title": "Corriger les phrases",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l04.practice-5#1",
+      "type": "tip",
+      "title": "L'exercice 4 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne six phrases où le verbe (ou un autre mot) ne s'accorde pas avec le sujet. Il faut les corriger. Retiens la règle : quand le sujet est une ou plusieurs personnes et qu'il est **avant** le verbe, le verbe s'accorde complètement avec lui (singulier, duel ou pluriel ; masculin ou féminin)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.practice-5#2",
+      "type": "fill_gap",
+      "sentence": "{0} إِلَى الْمُسْتَشْفَى يَا مُحَمَّدُ؟",
+      "fr": "Es-tu allé à l'hôpital, Muḥammad ?",
+      "gaps": [ { "answers": ["أَذَهَبْتَ"] } ],
+      "options": ["أَذَهَبْتَ", "أَذَهَبْنَ", "أَذَهَبُوا", "أَذَهَبَا"],
+      "instruction": "Dans le livre : « {ar|أَذَهَبْتُ إِلَى الْمُسْتَشْفَى يَا مُحَمَّدُ؟} » Corrige le verbe.",
+      "explain": "On parle à Muḥammad (« tu », à un homme) : {ar|ذَهَبْتَ}, et non {ar|ذَهَبْتُ} (« je »)."
+    },
+    {
+      "id": "medine-t2.l04.practice-5#3",
+      "type": "fill_gap",
+      "sentence": "آمِنَةُ وَفَاطِمَةُ وَزَيْنَبُ {0} مِنَ الْجَامِعَةِ.",
+      "fr": "Āmina, Fāṭima et Zaynab sont revenues de l'université.",
+      "gaps": [ { "answers": ["رَجَعْنَ"] } ],
+      "options": ["رَجَعْنَ", "رَجَعُوا", "رَجَعَتْ", "رَجَعَ"],
+      "instruction": "Dans le livre : « {ar|آمِنَةُ وَفَاطِمَةُ وَزَيْنَبُ رَجَعُوا مِنَ الْجَامِعَةِ} ». Corrige le verbe.",
+      "explain": "Trois femmes : « elles », {ar|رَجَعْنَ}. {ar|رَجَعُوا} est le masculin pluriel."
+    },
+    {
+      "id": "medine-t2.l04.practice-5#4",
+      "type": "question",
+      "prompt": { "fr": "Dans « {ar|زُمَلَائِي ذَهَبَ إِلَى مَكَّةَ} », quelle est la faute ?" },
+      "choices": [
+        { "fr": "le verbe devrait être au pluriel : {ar|ذَهَبُوا}" },
+        { "fr": "il manque {ar|إِلَى}" },
+        { "fr": "{ar|مَكَّةَ} devrait avoir une damma" }
+      ],
+      "answer": 0,
+      "explain": "Le sujet {ar|زُمَلَائِي} (« mes camarades ») est avant le verbe : le verbe doit s'accorder, {ar|ذَهَبُوا}. (Placé avant son sujet, le verbe reste au singulier, mais s'accorde en genre : {ar|ذَهَبَ زُمَلَائِي إِلَى مَكَّةَ} est aussi juste.)"
+    },
+    {
+      "id": "medine-t2.l04.practice-5#5",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} مِنَ الرِّيَاضِ أَمْسِ.",
+      "fr": "Je suis revenu de Riyad hier.",
+      "gaps": [ { "answers": ["رَجَعْتُ"] } ],
+      "options": ["رَجَعْتُ", "رَجَعْنَا", "رَجَعُوا", "رَجَعَا"],
+      "instruction": "Dans le livre : « {ar|أَنَا رَجَعْتَ مِنَ الرِّيَاضِ أَمْسِ} ». Corrige le verbe.",
+      "explain": "« Moi » : {ar|رَجَعْتُ}, avec la damma. {ar|رَجَعْتَ} serait « tu »."
+    },
+    {
+      "id": "medine-t2.l04.practice-5#6",
+      "type": "order",
+      "fr": "Maryam et ses filles sont allées à Djeddah.",
+      "answers": [["مَرْيَمُ", "وَبَنَاتُهَا", "ذَهَبْنَ", "إِلَى", "جُدَّةَ"]],
+      "punctuation": ".",
+      "explain": "Le sujet {ar|مَرْيَمُ وَبَنَاتُهَا} (plusieurs femmes) est avant le verbe : {ar|ذَهَبْنَ}, et non {ar|ذَهَبَتْ}."
+    },
+    {
+      "id": "medine-t2.l04.practice-5#7",
+      "type": "fill_gap",
+      "sentence": "أُمِّي {0}: أَنَا {1}.",
+      "fr": "Ma mère a dit : « Je suis malade. »",
+      "gaps": [ { "answers": ["قَالَتْ"] }, { "answers": ["مَرِيضَةٌ"] } ],
+      "options": ["قَالَتْ", "قَالَ", "مَرِيضَةٌ", "مَرِيضٌ"],
+      "instruction": "Dans le livre : « {ar|أُمِّي قَالَ: أَنَا مَرِيضٌ} ». Corrige les deux mots.",
+      "explain": "{ar|أُمِّي} est une femme : le verbe prend le {ar|تْ} du féminin ({ar|قَالَتْ}), et le prédicat s'accorde avec elle ({ar|مَرِيضَةٌ})."
+    },
+    {
+      "id": "medine-t2.l04.practice-5#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Āmina, Fāṭima et Zaynab sont revenues de l'université.",
+      "answers": ["آمِنَةُ وَفَاطِمَةُ وَزَيْنَبُ رَجَعْنَ مِنَ الْجَامِعَةِ."]
+    }
+  ]
+}

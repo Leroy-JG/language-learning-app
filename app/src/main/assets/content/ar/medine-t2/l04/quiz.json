@@ -1,0 +1,150 @@
+{
+  "id": "medine-t2.l04.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 4",
+  "screens": [
+    {
+      "id": "medine-t2.l04.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hissa",
+      "distractors": ["w:madrasa", "w:yawm"]
+    },
+    {
+      "id": "medine-t2.l04.quiz#2",
+      "type": "fill_gap",
+      "sentence": "{0} رَجَعَتْ آمِنَةُ مِنَ الْجَامِعَةِ.",
+      "fr": "Āmina n'est pas revenue de l'université.",
+      "gaps": [ { "answers": ["مَا"] } ],
+      "options": ["مَا", "لَا", "لَيْسَ"],
+      "explain": "Devant un verbe au passé, on nie avec {ar|مَا}."
+    },
+    {
+      "id": "medine-t2.l04.quiz#3",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|مَا ذَهَبْنَ} ?" },
+      "choices": [
+        { "fr": "Elles ne sont pas allées." },
+        { "fr": "Nous ne sommes pas allés." },
+        { "fr": "Elles sont allées." }
+      ],
+      "answer": 0,
+      "explain": "{ar|ذَهَبْنَ} (sans alif) : « elles sont allées ». {ar|مَا} devant : « elles ne sont pas allées »."
+    },
+    {
+      "id": "medine-t2.l04.quiz#4",
+      "type": "sort",
+      "categories": [ { "fr": "une question : {ar|مَا} interrogatif" }, { "fr": "une négation : {ar|مَا} négatif" } ],
+      "cards": [
+        { "ar": "مَا هٰذَا؟", "category": 0 },
+        { "ar": "مَا خَرَجَ زَيْدٌ.", "category": 1 },
+        { "ar": "مَا اسْمُكِ؟", "category": 0 },
+        { "ar": "مَا آمِنَةُ فِي الْمَطْبَخِ.", "category": 1 },
+        { "ar": "مَا هٰذَا الْقَلَمُ؟", "category": 0 },
+        { "ar": "مَا كَتَبْتُ الدَّرْسَ.", "category": 1 }
+      ],
+      "instruction": "Une question ou une négation ?"
+    },
+    {
+      "id": "medine-t2.l04.quiz#5",
+      "type": "fill_gap",
+      "sentence": "رَجَعَ حَامِدٌ {0} مَرِيضٌ.",
+      "fr": "Ḥāmid est rentré parce qu'il est malade.",
+      "gaps": [ { "answers": ["لِأَنَّهُ"] } ],
+      "options": ["لِأَنَّهُ", "لِأَنَّهَا", "لِأَنَّنَا"],
+      "explain": "{ar|حَامِدٌ} est un homme : le pronom est {ar|هُ}."
+    },
+    {
+      "id": "medine-t2.l04.quiz#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:maktaba",
+      "distractors": ["w:maktab", "w:madrasa"]
+    },
+    {
+      "id": "medine-t2.l04.quiz#7",
+      "type": "fill_gap",
+      "sentence": "أَمَا ذَهَبْتَ إِلَى الْمَكْتَبَةِ؟ {0}، ذَهَبْتُ.",
+      "fr": "N'es-tu pas allé à la bibliothèque ? Si, j'y suis allé.",
+      "gaps": [ { "answers": ["بَلَى"] } ],
+      "options": ["بَلَى", "نَعَمْ", "لَا"],
+      "explain": "Question négative : {ar|بَلَى}."
+    },
+    {
+      "id": "medine-t2.l04.quiz#8",
+      "type": "spot",
+      "instruction": "Touche le prédicat de {ar|لَكِنَّ}.",
+      "words": ["آمِنَةُ", "فَقِيرَةٌ", "لَكِنَّهَا", "كَرِيمَةٌ."],
+      "answers": [3],
+      "fr": "Āmina est pauvre, mais elle est généreuse.",
+      "explain": "Le prédicat de {ar|لَكِنَّ} est {ar|كَرِيمَةٌ}, au nominatif. Le nom de {ar|لَكِنَّ} est le pronom {ar|هَا}."
+    },
+    {
+      "id": "medine-t2.l04.quiz#9",
+      "type": "question",
+      "prompt": { "fr": "Quelle particule sert à corriger ou à nuancer ce qu'on vient de dire ?" },
+      "choices": [ { "ar": "لَكِنَّ" }, { "ar": "كَأَنَّ" }, { "ar": "لَعَلَّ" } ],
+      "answer": 0,
+      "explain": "{ar|لَكِنَّ} : « mais » ({ar|الِاسْتِدْرَاكُ}). {ar|كَأَنَّ} compare ; {ar|لَعَلَّ} exprime l'espoir."
+    },
+    {
+      "id": "medine-t2.l04.quiz#10",
+      "type": "fill_gap",
+      "sentence": "هُنَّ {0} إِلَى الْمَلْعَبِ.",
+      "fr": "Elles sont allées au terrain de jeu.",
+      "gaps": [ { "answers": ["ذَهَبْنَ"] } ],
+      "options": ["ذَهَبْنَ", "ذَهَبُوا", "ذَهَبَ", "ذَهَبْنَا"],
+      "explain": "« Elles » : {ar|ذَهَبْنَ}."
+    },
+    {
+      "id": "medine-t2.l04.quiz#11",
+      "type": "order",
+      "fr": "Je suis rentré parce que j'ai faim.",
+      "answers": [["رَجَعْتُ", "لِأَنَّنِي", "جَوْعَانُ"]],
+      "punctuation": ".",
+      "explain": "Après {ar|لِأَنَّنِي}, le prédicat reste au nominatif."
+    },
+    {
+      "id": "medine-t2.l04.quiz#12",
+      "type": "fill_gap",
+      "sentence": "{0} طَبِيبٌ.",
+      "fr": "On dirait un médecin.",
+      "gaps": [ { "answers": ["كَأَنَّهُ"] } ],
+      "options": ["كَأَنَّهُ", "لَكِنَّهُ", "لَعَلَّهُ"],
+      "explain": "Pour dire « on dirait » : {ar|كَأَنَّ}."
+    },
+    {
+      "id": "medine-t2.l04.quiz#13",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:shabbaha",
+      "distractors": ["w:istadraka", "w:kataba"]
+    },
+    {
+      "id": "medine-t2.l04.quiz#14",
+      "type": "question",
+      "prompt": { "fr": "Que dit-on pour rassurer quelqu'un ?" },
+      "choices": [ { "ar": "لَا بَأْسَ عَلَيْكَ" }, { "ar": "أَهْلًا وَسَهْلًا" }, { "ar": "مَرْحَبًا بِكَ" } ],
+      "answer": 0,
+      "explain": "{ar|لَا بَأْسَ عَلَيْكَ} : « tout va bien pour toi »."
+    },
+    {
+      "id": "medine-t2.l04.quiz#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je n'ai pas écrit la leçon.",
+      "answers": ["مَا كَتَبْتُ الدَّرْسَ.", "أَنَا مَا كَتَبْتُ الدَّرْسَ."]
+    },
+    {
+      "id": "medine-t2.l04.quiz#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ibrāhīm n'est pas dans la maison.",
+      "answers": [
+        "مَا إِبْرَاهِيمُ فِي الْبَيْتِ.",
+        "لَيْسَ إِبْرَاهِيمُ فِي الْبَيْتِ.",
+        "إِبْرَاهِيمُ لَيْسَ فِي الْبَيْتِ."
+      ]
+    }
+  ]
+}

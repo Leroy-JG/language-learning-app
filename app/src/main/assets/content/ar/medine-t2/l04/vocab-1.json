@@ -1,0 +1,87 @@
+{
+  "id": "medine-t2.l04.vocab-1",
+  "type": "vocabulary",
+  "title": "Rectifier et comparer",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t2.l04.vocab-1#1", "type": "present", "item": "w:istadraka" },
+    { "id": "medine-t2.l04.vocab-1#2", "type": "present", "item": "w:shabbaha" },
+    {
+      "id": "medine-t2.l04.vocab-1#3",
+      "type": "tip",
+      "title": "Les deux verbes du professeur : un aperçu",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le tableau du professeur donne les quatre formes de chaque verbe. Aujourd'hui, tu retiens seulement le passé ; le présent et l'impératif viendront plus tard."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["rectifier", "{ar|اِسْتَدْرَكَ}", "{ar|يَسْتَدْرِكُ}", "{ar|اِسْتَدْرِكْ}", "{ar|اِسْتِدْرَاكٌ}"],
+            ["faire ressembler", "{ar|شَبَّهَ}", "{ar|يُشَبِّهُ}", "{ar|شَبِّهْ}", "{ar|تَشْبِيهٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le professeur écrit les noms d'action à l'accusatif ({ar|اِسْتِدْرَاكًا}, {ar|تَشْبِيهًا}) ; ici, ils sont donnés à la forme du nominatif."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.vocab-1#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:istadraka",
+      "distractors": ["w:shabbaha", "w:dhahaba"]
+    },
+    { "id": "medine-t2.l04.vocab-1#5", "type": "present", "item": "w:istidrak" },
+    { "id": "medine-t2.l04.vocab-1#6", "type": "present", "item": "w:tashbih" },
+    {
+      "id": "medine-t2.l04.vocab-1#7",
+      "type": "tip",
+      "title": "Un verbe, un nom, un rôle",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Nom d'action", "Verbe", "Rôle dans la phrase"],
+          "rows": [
+            ["{ar|الِاسْتِدْرَاكُ} (la rectification)", "{ar|اِسْتَدْرَكَ}", "{ar|لَكِنَّ} : « mais »"],
+            ["{ar|التَّشْبِيهُ} (la comparaison)", "{ar|شَبَّهَ}", "{ar|كَأَنَّ} : « comme si »"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le nom d'action {ar|الِاسْتِدْرَاكُ} vient de {ar|اِسْتَدْرَكَ}, et {ar|التَّشْبِيهُ} de {ar|شَبَّهَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.vocab-1#8",
+      "type": "sort",
+      "categories": [ { "ar": "الِاسْتِدْرَاكُ" }, { "ar": "التَّشْبِيهُ" } ],
+      "cards": [
+        { "ar": "يَاسِرٌ غَنِيٌّ لَكِنَّهُ بَخِيلٌ.", "category": 0 },
+        { "ar": "كَأَنَّهُ أَخُوكَ.", "category": 1 },
+        { "ar": "كَأَنَّكَ طَبِيبٌ.", "category": 1 },
+        { "ar": "لَكِنَّنِي عَطْشَانُ.", "category": 0 },
+        { "ar": "كَأَنَّهُ الْقَمَرُ.", "category": 1 },
+        { "ar": "سَيَّارَتِي قَدِيمَةٌ لَكِنَّهَا قَوِيَّةٌ.", "category": 0 }
+      ],
+      "instruction": "Quel est le rôle de la particule ?",
+      "explain": "{ar|لَكِنَّ} rectifie ou nuance ({ar|الِاسْتِدْرَاكُ}). {ar|كَأَنَّ} compare ({ar|التَّشْبِيهُ})."
+    },
+    {
+      "id": "medine-t2.l04.vocab-1#9",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:shabbaha",
+      "distractors": ["w:istadraka", "w:kataba"]
+    },
+    { "id": "medine-t2.l04.vocab-1#10", "type": "build", "item": "w:istadraka", "extra": ["ظ"] },
+    { "id": "medine-t2.l04.vocab-1#11", "type": "typing", "ask": "fr", "item": "w:shabbaha" }
+  ]
+}

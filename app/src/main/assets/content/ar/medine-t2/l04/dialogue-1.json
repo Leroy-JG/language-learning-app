@@ -1,0 +1,181 @@
+{
+  "id": "medine-t2.l04.dialogue-1",
+  "type": "dialogue",
+  "title": "Yūsuf et Ibrāhīm : où sont-ils tous ?",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t2.l04.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Yūsuf et Ibrāhīm : où sont-ils tous ?",
+      "intro": "Yūsuf est l'oncle maternel d'Ibrāhīm. Il lui demande où est la famille, puis pourquoi Ibrāhīm est rentré de l'école.",
+      "speakers": { "A": { "name": "Yūsuf", "voice": "m1" }, "B": { "name": "Ibrāhīm", "voice": "m2" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.",
+          "fr": "Que la paix soit sur vous, ainsi que la miséricorde d'Allah et Ses bénédictions."
+        },
+        {
+          "speaker": "B",
+          "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ. أَهْلًا وَسَهْلًا وَمَرْحَبًا بِكَ يَا خَالِي. كَيْفَ حَالُكَ؟ لَعَلَّكَ بِخَيْرٍ.",
+          "fr": "Et sur vous la paix, ainsi que la miséricorde d'Allah et Ses bénédictions. Bienvenue, bienvenue à toi, mon oncle ! Comment vas-tu ? J'espère que tu vas bien."
+        },
+        {
+          "speaker": "A",
+          "ar": "الْحَمْدُ لِلَّهِ. أَيْنَ أَبُوكَ يَا إِبْرَاهِيمُ؟",
+          "fr": "Louange à Allah. Où est ton père, Ibrāhīm ?"
+        },
+        { "speaker": "B", "ar": "ذَهَبَ إِلَى السُّوقِ.", "fr": "Il est allé au marché." },
+        { "speaker": "A", "ar": "وَأَيْنَ أُمُّكَ؟", "fr": "Et où est ta mère ?" },
+        {
+          "speaker": "B",
+          "ar": "ذَهَبَتْ إِلَى خَالَتِي زَيْنَبَ.",
+          "fr": "Elle est allée chez ma tante maternelle Zaynab."
+        },
+        { "speaker": "A", "ar": "وَأَيْنَ إِخْوَتُكَ؟", "fr": "Et où sont tes frères ?" },
+        { "speaker": "B", "ar": "ذَهَبُوا إِلَى الْجَامِعَةِ.", "fr": "Ils sont allés à l'université." },
+        { "speaker": "A", "ar": "وَأَيْنَ أَخَوَاتُكَ؟", "fr": "Et où sont tes sœurs ?" },
+        { "speaker": "B", "ar": "ذَهَبْنَ إِلَى الْمَدْرَسَةِ.", "fr": "Elles sont allées à l'école." },
+        {
+          "speaker": "A",
+          "ar": "أَمَا ذَهَبْتَ إِلَى الْمَدْرَسَةِ الْيَوْمَ؟",
+          "fr": "Toi, tu n'es pas allé à l'école aujourd'hui ?"
+        },
+        {
+          "speaker": "B",
+          "ar": "بَلَى، ذَهَبْتُ وَرَجَعْتُ بَعْدَ الْحِصَّةِ الْأُولَى.",
+          "fr": "Si, j'y suis allé et je suis rentré après la première séance."
+        },
+        { "speaker": "A", "ar": "لِمَاذَا رَجَعْتَ؟", "fr": "Pourquoi es-tu rentré ?" },
+        { "speaker": "B", "ar": "رَجَعْتُ لِأَنَّنِي مَرِيضٌ.", "fr": "Je suis rentré parce que je suis malade." },
+        {
+          "speaker": "A",
+          "ar": "لَا بَأْسَ. أَذَهَبْتَ إِلَى الطَّبِيبِ؟",
+          "fr": "Ce n'est pas grave. Es-tu allé chez le médecin ?"
+        },
+        { "speaker": "B", "ar": "نَعَمْ، ذَهَبْتُ.", "fr": "Oui, j'y suis allé." }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Explication"],
+          "rows": [
+            [
+              "{ar|وَعَلَيْكُمُ السَّلَامُ}",
+              "et sur vous la paix",
+              "la réponse à {ar|السَّلَامُ عَلَيْكُمْ} ; devant l'article, le {ar|مُ} porte une damma"
+            ],
+            [
+              "{ar|يَا خَالِي}",
+              "mon oncle maternel !",
+              "{ar|خَالٌ} + le pronom collé {ar|ي} (« mon ») ; le {ar|ي} exige une kasra sur la lettre qui le précède"
+            ],
+            [
+              "{ar|أَبُوكَ}, {ar|أُمُّكَ}, {ar|إِخْوَتُكَ}, {ar|أَخَوَاتُكَ}",
+              "ton père, ta mère, tes frères, tes sœurs",
+              "un nom + le pronom collé {ar|كَ} (« ton, ta, tes »), comme au tome 1, chapitre 10"
+            ],
+            ["{ar|خَالَتِي}", "ma tante maternelle", "{ar|خَالَةٌ} + {ar|ي} (« ma ») : kasra sur le {ar|ت}"],
+            [
+              "{ar|الْحِصَّةِ الْأُولَى}",
+              "la première séance",
+              "l'adjectif {ar|أُولَى} (féminin de {ar|أَوَّلُ}) suit le nom et s'accorde avec lui"
+            ],
+            ["{ar|لِأَنَّنِي}", "parce que je…", "{ar|لِأَنَّ} + {ar|نِي} (« je »)"],
+            [
+              "{ar|أَمَا ذَهَبْتَ؟}",
+              "n'es-tu pas allé ?",
+              "{ar|أَ} + le {ar|مَا} négatif : une question négative, à laquelle on répond {ar|بَلَى}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le texte du livre a très peu de voyelles : la vocalisation est celle de l'app."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Comment Ibrāhīm appelle-t-il Yūsuf ?" },
+      "choices": [ { "fr": "mon oncle maternel" }, { "fr": "mon oncle paternel" }, { "fr": "mon père" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l04.dialogue-1#1" },
+      "explain": "{ar|يَا خَالِي} : {ar|خَالٌ} est l'oncle maternel (le frère de la mère)."
+    },
+    {
+      "id": "medine-t2.l04.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Où est allé le père d'Ibrāhīm ?" },
+      "choices": [ { "fr": "au marché" }, { "fr": "à l'université" }, { "fr": "à l'école" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l04.dialogue-1#1" },
+      "explain": "{ar|ذَهَبَ إِلَى السُّوقِ}."
+    },
+    {
+      "id": "medine-t2.l04.dialogue-1#5",
+      "type": "question",
+      "prompt": { "fr": "Où sont allées les sœurs d'Ibrāhīm ?" },
+      "choices": [ { "fr": "à l'école" }, { "fr": "à l'université" }, { "fr": "chez le médecin" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l04.dialogue-1#1" },
+      "explain": "{ar|ذَهَبْنَ إِلَى الْمَدْرَسَةِ} : la terminaison {ar|نَ} montre que le sujet est féminin pluriel."
+    },
+    {
+      "id": "medine-t2.l04.dialogue-1#6",
+      "type": "fill_gap",
+      "sentence": "أَمَا ذَهَبْتَ إِلَى الْمَدْرَسَةِ الْيَوْمَ؟ {0}، ذَهَبْتُ.",
+      "fr": "Toi, tu n'es pas allé à l'école aujourd'hui ? Si, j'y suis allé.",
+      "gaps": [ { "answers": ["بَلَى"] } ],
+      "options": ["بَلَى", "نَعَمْ", "لَا"],
+      "context": { "dialogue": "medine-t2.l04.dialogue-1#1" },
+      "explain": "La question est négative ({ar|أَمَا}) : on la contredit avec {ar|بَلَى}."
+    },
+    {
+      "id": "medine-t2.l04.dialogue-1#7",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi Ibrāhīm est-il rentré de l'école ?" },
+      "choices": [
+        { "fr": "parce qu'il est malade" },
+        { "fr": "parce que la séance était finie" },
+        { "fr": "parce qu'il avait faim" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l04.dialogue-1#1" },
+      "explain": "{ar|رَجَعْتُ لِأَنَّنِي مَرِيضٌ}."
+    },
+    {
+      "id": "medine-t2.l04.dialogue-1#8",
+      "type": "fill_gap",
+      "sentence": "رَجَعْتُ {0} مَرِيضٌ.",
+      "fr": "Je suis rentré parce que je suis malade.",
+      "gaps": [ { "answers": ["لِأَنَّنِي", "لِأَنِّي"] } ],
+      "options": ["لِأَنَّنِي", "لِأَنِّي", "لِأَنَّهُ", "لِأَنَّهَا"],
+      "context": { "dialogue": "medine-t2.l04.dialogue-1#1" },
+      "explain": "« Je » : {ar|لِأَنَّنِي} ou {ar|لِأَنِّي}."
+    },
+    {
+      "id": "medine-t2.l04.dialogue-1#9",
+      "type": "order",
+      "fr": "Es-tu allé chez le médecin ?",
+      "answers": [["أَذَهَبْتَ", "إِلَى", "الطَّبِيبِ"]],
+      "punctuation": "؟",
+      "context": { "dialogue": "medine-t2.l04.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l04.dialogue-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Pourquoi es-tu rentré ? Je suis rentré parce que je suis malade.",
+      "answers": ["لِمَاذَا رَجَعْتَ؟ رَجَعْتُ لِأَنَّنِي مَرِيضٌ.", "لِمَاذَا رَجَعْتَ؟ رَجَعْتُ لِأَنِّي مَرِيضٌ."]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "medine-t2.l04",
+  "number": 4,
+  "title": { "ar": "الدَّرْسُ الرَّابِعُ", "fr": "La négation avec {ar|مَا}" },
+  "description": "La négation avec {ar|مَا} (devant un verbe et devant une phrase nominale) ; {ar|أَمَا} et {ar|بَلَى} ; {ar|لِأَنَّ} ; {ar|لَكِنَّ} et {ar|كَأَنَّ} (exercices du livre) ; le texte du livre et ses exercices.",
+  "source": "Tome de Médine 2, leçon 4",
+  "sections": [
+    { "title": "Revoir : {ar|إِنَّ} et ses sœurs", "activities": ["revue-1"] },
+    { "title": "Rectifier et comparer", "activities": ["vocab-1", "practice-1", "practice-2"] },
+    { "title": "La négation avec {ar|مَا}", "activities": ["grammar-1", "grammar-2", "grammar-3", "grammar-4"] },
+    { "title": "Parce que", "activities": ["grammar-5"] },
+    { "title": "La séance, la bibliothèque et le mal", "activities": ["vocab-2", "vocab-3"] },
+    {
+      "title": "Le texte du livre",
+      "activities": ["dialogue-1", "practice-3", "practice-4", "practice-5", "practice-6"]
+    },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

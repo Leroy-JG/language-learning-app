@@ -1,0 +1,106 @@
+{
+  "id": "medine-t2.l04.grammar-1",
+  "type": "grammar",
+  "title": "Deux {ar|مَا} : une négation ou une question",
+  "icon": "question",
+  "screens": [
+    { "id": "medine-t2.l04.grammar-1#1", "type": "present", "item": "w:nafy" },
+    { "id": "medine-t2.l04.grammar-1#2", "type": "present", "item": "w:nafiya" },
+    {
+      "id": "medine-t2.l04.grammar-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:nafiya",
+      "distractors": ["w:tawkid", "w:tarajji"]
+    },
+    { "id": "medine-t2.l04.grammar-1#4", "type": "present", "item": "w:istifhamiyya" },
+    {
+      "id": "medine-t2.l04.grammar-1#5",
+      "type": "tip",
+      "title": "{ar|مَا} : un mot, deux emplois",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|مَا} au sens de « qu'est-ce que… ? » (tome 1, chapitre 1). Il a un second emploi : la **négation**. Le professeur distingue deux {ar|مَا} :"
+        },
+        {
+          "type": "table",
+          "header": ["Point de comparaison", "{ar|مَا الِاسْتِفْهَامِيَّةُ}", "{ar|مَا النَّافِيَةُ}"],
+          "rows": [
+            ["Nature", "un nom ({ar|اِسْمٌ})", "une particule ({ar|حَرْفٌ})"],
+            ["Emploi", "poser une question", "nier la phrase qui la suit"],
+            ["Exemple", "{ar|مَا هٰذَا الْكِتَابُ؟}", "{ar|مَا أَكَلَ زَيْدٌ.}"],
+            ["Sens", "Qu'est-ce que c'est que ce livre ?", "Zayd n'a pas mangé."]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le {ar|مَا} négatif ne se traduit pas : il fait de la phrase une négation (« ne… pas »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.grammar-1#6",
+      "type": "tip",
+      "title": "Comment les reconnaître ?",
+      "blocks": [
+        { "type": "paragraph", "text": "Le **sens** et la **ponctuation** décident :" },
+        {
+          "type": "table",
+          "header": ["Point de comparaison", "{ar|مَا} interrogatif", "{ar|مَا} négatif"],
+          "rows": [
+            ["La phrase se termine par…", "un point d'interrogation", "un point"],
+            ["On attend…", "une réponse", "rien : c'est une affirmation négative"],
+            ["Le mot ressemble à…", "« quoi ? », « qu'est-ce que ? »", "« ne… pas »"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Un verbe peut aussi suivre le {ar|مَا} interrogatif : {ar|مَا فَعَلْتَ؟} veut dire « Qu'as-tu fait ? ». C'est donc bien le sens et la ponctuation qui tranchent, pas seulement le mot qui suit {ar|مَا}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.grammar-1#7",
+      "type": "sort",
+      "categories": [ { "fr": "une question : {ar|مَا} interrogatif" }, { "fr": "une négation : {ar|مَا} négatif" } ],
+      "cards": [
+        { "ar": "مَا هٰذَا؟", "category": 0 },
+        { "ar": "مَا ذَهَبَ زَيْدٌ.", "category": 1 },
+        { "ar": "مَا اسْمُكَ؟", "category": 0 },
+        { "ar": "مَا رَجَعْتُ.", "category": 1 },
+        { "ar": "مَا هٰذَا الْكِتَابُ؟", "category": 0 },
+        { "ar": "مَا زَيْدٌ فِي الْفَصْلِ.", "category": 1 }
+      ],
+      "instruction": "Une question ou une négation ?",
+      "explain": "Une phrase qui pose une question (avec un point d'interrogation) a le {ar|مَا} interrogatif. Une phrase qui affirme qu'une chose n'est pas ou n'a pas eu lieu a le {ar|مَا} négatif."
+    },
+    {
+      "id": "medine-t2.l04.grammar-1#8",
+      "type": "true_false",
+      "statement": { "fr": "« {ar|مَا ذَهَبَ زَيْدٌ.} » est une question." },
+      "answer": false,
+      "explain": "Non : c'est une négation (« Zayd n'est pas parti »), avec le {ar|مَا} négatif. Elle se termine par un point, pas par un point d'interrogation."
+    },
+    {
+      "id": "medine-t2.l04.grammar-1#9",
+      "type": "order",
+      "fr": "Qu'est-ce que c'est que ce livre ?",
+      "answers": [["مَا", "هٰذَا", "الْكِتَابُ"]],
+      "punctuation": "؟",
+      "explain": "Ici {ar|مَا} est interrogatif : c'est une question."
+    },
+    {
+      "id": "medine-t2.l04.grammar-1#10",
+      "type": "spot",
+      "instruction": "Touche le {ar|مَا} négatif.",
+      "words": ["مَا", "هٰذَا", "الْكِتَابُ؟", "مَا", "رَجَعَ", "زَيْدٌ."],
+      "answers": [3],
+      "fr": "Qu'est-ce que c'est que ce livre ? Zayd n'est pas revenu.",
+      "explain": "Le premier {ar|مَا} ouvre une question (il y a un point d'interrogation) ; le second ({ar|مَا رَجَعَ زَيْدٌ}) nie : « Zayd n'est pas revenu »."
+    },
+    { "id": "medine-t2.l04.grammar-1#11", "type": "typing", "ask": "fr", "item": "p:ma-hadha" }
+  ]
+}

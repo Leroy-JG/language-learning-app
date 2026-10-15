@@ -1,0 +1,86 @@
+{
+  "id": "medine-t2.l04.vocab-3",
+  "type": "vocabulary",
+  "title": "Pas de mal !",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t2.l04.vocab-3#1", "type": "present", "item": "w:bas" },
+    { "id": "medine-t2.l04.vocab-3#2", "type": "present", "item": "p:la-bas" },
+    {
+      "id": "medine-t2.l04.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "p:la-bas",
+      "distractors": ["p:alhamdu-lillah", "p:ahlan-wa-sahlan"]
+    },
+    { "id": "medine-t2.l04.vocab-3#4", "type": "present", "item": "p:la-bas-alayka" },
+    { "id": "medine-t2.l04.vocab-3#5", "type": "present", "item": "p:la-bas-fi-dhalik" },
+    {
+      "id": "medine-t2.l04.vocab-3#6",
+      "type": "tip",
+      "title": "Trois façons de dire « pas de mal »",
+      "blocks": [
+        {
+          "type": "breakdown",
+          "ar": "لَا بَأْسَ عَلَيْكَ",
+          "fr": "tout va bien pour toi",
+          "parts": [
+            { "ar": "لَا", "fr": "pas de" },
+            { "ar": "بَأْسَ", "fr": "mal" },
+            { "ar": "عَلَيْكَ", "fr": "sur toi" }
+          ]
+        },
+        {
+          "type": "table",
+          "header": ["Expression", "Sens"],
+          "rows": [
+            ["{ar|لَا بَأْسَ}", "il n'y a pas de mal, ce n'est pas grave"],
+            ["{ar|لَا بَأْسَ فِي ذٰلِكَ}", "il n'y a pas de mal à cela"],
+            ["{ar|لَا بَأْسَ عَلَيْكَ}", "tout va bien pour toi (à une femme : {ar|عَلَيْكِ})"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans {ar|لَا بَأْسَ}, le nom {ar|بَأْسَ} porte une fatha et n'a pas de tanwin : {ar|لَا} nie ici le genre entier (« aucun mal »). Tu étudieras cette règle plus tard."
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "On dit {ar|لَا بَأْسَ} par exemple pour rassurer un malade. On rapporte (al-Bukhārī) que le Prophète (que la paix soit sur lui) disait à un malade : {ar|لَا بَأْسَ، طَهُورٌ إِنْ شَاءَ اللَّهُ} (« Ce n'est pas grave : c'est une purification, si Allah le veut »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.vocab-3#7",
+      "type": "question",
+      "prompt": { "fr": "Que dit-on pour rassurer quelqu'un ?" },
+      "choices": [ { "ar": "لَا بَأْسَ عَلَيْكَ" }, { "ar": "أَهْلًا وَسَهْلًا" }, { "ar": "الْحَمْدُ لِلَّهِ" } ],
+      "answer": 0,
+      "explain": "{ar|لَا بَأْسَ عَلَيْكَ} : « tout va bien pour toi ». {ar|أَهْلًا وَسَهْلًا} accueille ; {ar|الْحَمْدُ لِلَّهِ} remercie Allah."
+    },
+    {
+      "id": "medine-t2.l04.vocab-3#8",
+      "type": "fill_gap",
+      "sentence": "لَا بَأْسَ {0}.",
+      "fr": "Tout va bien pour toi.",
+      "gaps": [ { "answers": ["عَلَيْكَ"] } ],
+      "options": ["عَلَيْكَ", "فِي ذٰلِكَ", "فِي الْبَيْتِ"],
+      "explain": "« Pour toi » : {ar|عَلَيْكَ}. {ar|لَا بَأْسَ فِي ذٰلِكَ} veut dire « il n'y a pas de mal à cela »."
+    },
+    {
+      "id": "medine-t2.l04.vocab-3#9",
+      "type": "order",
+      "fr": "Il n'y a pas de mal à cela.",
+      "answers": [["لَا", "بَأْسَ", "فِي", "ذٰلِكَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l04.vocab-3#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Tout va bien pour toi.",
+      "answers": ["لَا بَأْسَ عَلَيْكَ."]
+    }
+  ]
+}

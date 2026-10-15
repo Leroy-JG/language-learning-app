@@ -1,0 +1,123 @@
+{
+  "id": "medine-t2.l04.grammar-3",
+  "type": "grammar",
+  "title": "{ar|مَا} devant une phrase nominale",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l04.grammar-3#1",
+      "type": "tip",
+      "title": "Nier une phrase nominale",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|مَا النَّافِيَةُ} peut aussi se mettre devant une **phrase nominale** (sujet + prédicat). Elle la nie entièrement :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "زَيْدٌ عَالِمٌ", "fr": "Zayd est un savant." },
+              "to": { "ar": "مَا زَيْدٌ عَالِمٌ", "fr": "Zayd n'est pas un savant." }
+            },
+            {
+              "from": { "ar": "زَيْدٌ فِي الْفَصْلِ", "fr": "Zayd est dans la classe." },
+              "to": { "ar": "مَا زَيْدٌ فِي الْفَصْلِ", "fr": "Zayd n'est pas dans la classe." }
+            },
+            {
+              "from": { "ar": "الْكِتَابُ فِي الْبَيْتِ", "fr": "Le livre est dans la maison." },
+              "to": { "ar": "مَا الْكِتَابُ فِي الْبَيْتِ", "fr": "Le livre n'est pas dans la maison." }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans ces exemples du professeur, {ar|مَا} ne change aucun cas : le sujet garde la damma du nominatif et le prédicat reste au nominatif (damma quand c'est un mot comme {ar|عَالِمٌ}) : contrairement à {ar|إِنَّ} et à ses sœurs, aucun cas ne change. C'est l'usage des Banū Tamīm ; les Ḥijāzīs faisaient agir {ar|مَا} comme {ar|لَيْسَ} (voir la note suivante). Les deux usages existent."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.grammar-3#2",
+      "type": "tip",
+      "title": "{ar|مَا} et {ar|لَيْسَ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur ajoute que {ar|مَا} peut, **dans certains cas**, avoir la même fonction que {ar|لَيْسَ}. Les deux nient une phrase nominale :"
+        },
+        {
+          "type": "table",
+          "header": ["Avec {ar|مَا}", "Avec {ar|لَيْسَ}", "Sens"],
+          "rows": [["{ar|مَا زَيْدٌ فِي الْفَصْلِ}", "{ar|لَيْسَ زَيْدٌ فِي الْفَصْلِ}", "Zayd n'est pas dans la classe."]]
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "Quand {ar|مَا} agit comme {ar|لَيْسَ}, son prédicat passe à l'accusatif. On le voit dans le Coran (12:31) : {ar|مَا هٰذَا بَشَرًا} (« ce n'est pas un être humain »). Le support n'en détaille pas les cas : dans les exercices, on s'en tient aux phrases du professeur."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.grammar-3#3",
+      "type": "spot",
+      "instruction": "Touche le sujet de la phrase niée.",
+      "words": ["مَا", "آمِنَةُ", "فِي", "الْمَطْبَخِ."],
+      "answers": [1],
+      "fr": "Āmina n'est pas dans la cuisine.",
+      "explain": "Le sujet est {ar|آمِنَةُ} ; {ar|فِي الْمَطْبَخِ} est le prédicat."
+    },
+    {
+      "id": "medine-t2.l04.grammar-3#4",
+      "type": "sort",
+      "categories": [ { "fr": "la négation d'une phrase verbale" }, { "fr": "la négation d'une phrase nominale" } ],
+      "cards": [
+        { "ar": "مَا ذَهَبَ زَيْدٌ إِلَى السُّوقِ.", "category": 0 },
+        { "ar": "مَا الْكِتَابُ فِي الْبَيْتِ.", "category": 1 },
+        { "ar": "مَا رَجَعَتْ آمِنَةُ مِنَ الْمَدْرَسَةِ.", "category": 0 },
+        { "ar": "مَا زَيْدٌ عَالِمٌ.", "category": 1 },
+        { "ar": "مَا دَرَسْتُ الْيَوْمَ.", "category": 0 },
+        { "ar": "مَا آمِنَةُ فِي الْمَطْبَخِ.", "category": 1 }
+      ],
+      "instruction": "Quelle phrase est niée ?",
+      "explain": "Après {ar|مَا} : un verbe, c'est une phrase verbale ; un nom (le sujet), c'est une phrase nominale."
+    },
+    {
+      "id": "medine-t2.l04.grammar-3#5",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ فِي الْفَصْلِ.",
+      "fr": "Zayd n'est pas dans la classe.",
+      "gaps": [ { "answers": ["مَا"] } ],
+      "options": ["مَا", "أَيْنَ", "مَنْ"],
+      "explain": "On nie une phrase nominale avec {ar|مَا} (ou avec le verbe {ar|لَيْسَ})."
+    },
+    {
+      "id": "medine-t2.l04.grammar-3#6",
+      "type": "order",
+      "fr": "Āmina n'est pas dans la cuisine.",
+      "answers": [["مَا", "آمِنَةُ", "فِي", "الْمَطْبَخِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l04.grammar-3#7",
+      "type": "true_false",
+      "statement": { "fr": "« {ar|مَا زَيْدٌ عَالِمٌ} » veut dire « Zayd est un savant »." },
+      "answer": false,
+      "explain": "Non : {ar|مَا} nie la phrase. {ar|مَا زَيْدٌ عَالِمٌ} veut dire « Zayd n'est pas un savant »."
+    },
+    {
+      "id": "medine-t2.l04.grammar-3#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd n'est pas dans la classe.",
+      "answers": ["مَا زَيْدٌ فِي الْفَصْلِ.", "لَيْسَ زَيْدٌ فِي الْفَصْلِ.", "زَيْدٌ لَيْسَ فِي الْفَصْلِ."]
+    },
+    {
+      "id": "medine-t2.l04.grammar-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le livre n'est pas dans la maison.",
+      "answers": ["مَا الْكِتَابُ فِي الْبَيْتِ.", "لَيْسَ الْكِتَابُ فِي الْبَيْتِ.", "الْكِتَابُ لَيْسَ فِي الْبَيْتِ."]
+    }
+  ]
+}

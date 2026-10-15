@@ -1,0 +1,146 @@
+{
+  "id": "medine-t2.l04.grammar-2",
+  "type": "grammar",
+  "title": "{ar|مَا} devant un verbe",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l04.grammar-2#1",
+      "type": "tip",
+      "title": "Nier une phrase verbale",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|مَا النَّافِيَةُ} est une particule qui **nie la phrase qui la suit**. Devant une phrase verbale, on la met **juste avant le verbe**, qui ne change pas :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "ذَهَبَ زَيْدٌ", "fr": "Zayd est parti." },
+              "to": { "ar": "مَا ذَهَبَ زَيْدٌ", "fr": "Zayd n'est pas parti." }
+            },
+            {
+              "from": { "ar": "دَرَسْتُ الْيَوْمَ", "fr": "J'ai étudié aujourd'hui." },
+              "to": { "ar": "مَا دَرَسْتُ الْيَوْمَ", "fr": "Je n'ai pas étudié aujourd'hui." }
+            },
+            {
+              "from": { "ar": "رَجَعَتْ آمِنَةُ", "fr": "Āmina est revenue." },
+              "to": { "ar": "مَا رَجَعَتْ آمِنَةُ", "fr": "Āmina n'est pas revenue." }
+            },
+            {
+              "from": { "ar": "ذَهَبْنَ إِلَى الْمَدْرَسَةِ", "fr": "Elles sont allées à l'école." },
+              "to": { "ar": "مَا ذَهَبْنَ إِلَى الْمَدْرَسَةِ", "fr": "Elles ne sont pas allées à l'école." }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Avec un verbe au passé, {ar|مَا} nie un fait passé. Le verbe garde toute sa forme : sa terminaison ({ar|تُ}, {ar|نَ}, {ar|وا}…) et le {ar|تْ} du féminin ne bougent pas. Ce n'est pas la seule négation du passé : {ar|لَمْ} (avec le présent) existe aussi, tu la verras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.grammar-2#2",
+      "type": "spot",
+      "instruction": "Touche la particule de négation.",
+      "words": ["مَا", "ذَهَبَ", "زَيْدٌ", "إِلَى", "السُّوقِ."],
+      "answers": [0],
+      "fr": "Zayd n'est pas allé au marché.",
+      "explain": "{ar|مَا} ouvre la phrase et la nie."
+    },
+    {
+      "id": "medine-t2.l04.grammar-2#3",
+      "type": "fill_gap",
+      "sentence": "{0} ذَهَبَ زَيْدٌ إِلَى السُّوقِ.",
+      "fr": "Zayd n'est pas allé au marché.",
+      "gaps": [ { "answers": ["مَا"] } ],
+      "options": ["مَا", "لَا", "لَيْسَ"],
+      "explain": "Devant un verbe au passé, on nie avec {ar|مَا}. {ar|لَيْسَ} se met devant un nom ({ar|لَيْسَ زَيْدٌ فِي الْفَصْلِ})."
+    },
+    {
+      "id": "medine-t2.l04.grammar-2#4",
+      "type": "sort",
+      "categories": [ { "fr": "oui, c'est arrivé" }, { "fr": "non, ce n'est pas arrivé" } ],
+      "cards": [
+        { "ar": "رَجَعْتُ مِنَ الْمَدْرَسَةِ.", "category": 0 },
+        { "ar": "مَا رَجَعْتُ مِنَ الْمَدْرَسَةِ.", "category": 1 },
+        { "ar": "ذَهَبَتْ فَاطِمَةُ إِلَى مَكَّةَ.", "category": 0 },
+        { "ar": "مَا ذَهَبَتْ فَاطِمَةُ إِلَى مَكَّةَ.", "category": 1 },
+        { "ar": "خَرَجَ الْمُدَرِّسُ.", "category": 0 },
+        { "ar": "مَا خَرَجَ الْمُدَرِّسُ.", "category": 1 }
+      ],
+      "instruction": "Le fait a-t-il eu lieu ?",
+      "explain": "Avec {ar|مَا} devant le verbe, la phrase est une négation."
+    },
+    {
+      "id": "medine-t2.l04.grammar-2#5",
+      "type": "tip",
+      "title": "Question et réponse négative",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour répondre « non » à une question, on met {ar|مَا} devant le verbe. Comme on change de point de vue, le pronom change : « tu » ({ar|تَ}) devient « je » ({ar|تُ}), et « ton » devient « mon »."
+        },
+        {
+          "type": "table",
+          "header": ["Question", "Réponse négative"],
+          "rows": [
+            [
+              "{ar|أَكَتَبْتَ الدَّرْسَ؟} (As-tu écrit la leçon ?)",
+              "{ar|مَا كَتَبْتُ الدَّرْسَ.} (Je n'ai pas écrit la leçon.)"
+            ],
+            [
+              "{ar|أَخَرَجَتْ أُمُّكَ مِنَ الْبَيْتِ؟} (Ta mère est-elle sortie de la maison ?)",
+              "{ar|مَا خَرَجَتْ أُمِّي مِنَ الْبَيْتِ.} (Ma mère n'est pas sortie de la maison.)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|أَ} au début de la question veut dire « est-ce que » (tome 1, chapitre 1)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.grammar-2#6",
+      "type": "fill_gap",
+      "sentence": "أَنَا مَا {0} إِلَى الْمَدْرَسَةِ.",
+      "fr": "Je ne suis pas allé à l'école.",
+      "gaps": [ { "answers": ["ذَهَبْتُ"] } ],
+      "options": ["ذَهَبْتُ", "ذَهَبْنَا", "ذَهَبُوا", "ذَهَبَا"],
+      "explain": "« Je » : la terminaison {ar|تُ}. Le verbe garde sa forme après {ar|مَا}."
+    },
+    {
+      "id": "medine-t2.l04.grammar-2#7",
+      "type": "order",
+      "fr": "Zayd n'est pas allé au marché.",
+      "answers": [["مَا", "ذَهَبَ", "زَيْدٌ", "إِلَى", "السُّوقِ"], ["زَيْدٌ", "مَا", "ذَهَبَ", "إِلَى", "السُّوقِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l04.grammar-2#8",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|مَا رَجَعْتُ} ?" },
+      "choices": [ { "fr": "Je ne suis pas revenu." }, { "fr": "Je suis revenu." }, { "fr": "Qu'est-ce que tu as fait ?" } ],
+      "answer": 0,
+      "explain": "{ar|رَجَعْتُ} : « je suis revenu ». Avec {ar|مَا} devant : « je ne suis pas revenu »."
+    },
+    {
+      "id": "medine-t2.l04.grammar-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je n'ai pas étudié aujourd'hui.",
+      "answers": ["مَا دَرَسْتُ الْيَوْمَ.", "أَنَا مَا دَرَسْتُ الْيَوْمَ."]
+    },
+    {
+      "id": "medine-t2.l04.grammar-2#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd n'est pas parti.",
+      "answers": ["مَا ذَهَبَ زَيْدٌ."]
+    }
+  ]
+}

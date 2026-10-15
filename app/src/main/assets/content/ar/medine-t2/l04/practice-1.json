@@ -1,0 +1,106 @@
+{
+  "id": "medine-t2.l04.practice-1",
+  "type": "grammar",
+  "title": "Joindre deux phrases avec {ar|لَكِنَّ}",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l04.practice-1#1",
+      "type": "tip",
+      "title": "L'exercice 6 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne sept paires de phrases. Il faut les joindre avec {ar|لَكِنَّ}, en mettant le nom qui suit à l'accusatif."
+        },
+        {
+          "type": "table",
+          "header": ["Deux phrases", "Une phrase avec {ar|لَكِنَّ}"],
+          "rows": [
+            ["{ar|الطُّلَّابُ كَثِيرٌ. الْفَصْلُ صَغِيرٌ.}", "{ar|الطُّلَّابُ كَثِيرٌ لَكِنَّ الْفَصْلَ صَغِيرٌ.}"],
+            [
+              "{ar|حَامِدٌ مُجْتَهِدٌ. صَدِيقُهُ كَسْلَانُ.}",
+              "{ar|حَامِدٌ مُجْتَهِدٌ لَكِنَّ صَدِيقَهُ كَسْلَانُ.}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans ces deux exemples, le nom de {ar|لَكِنَّ} est {ar|الْفَصْلَ} puis {ar|صَدِيقَهُ} : fatha."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.practice-1#2",
+      "type": "order",
+      "fr": "Muḥammad est grand, mais Ḥāmid est petit.",
+      "answers": [["مُحَمَّدٌ", "طَوِيلٌ", "لَكِنَّ", "حَامِدًا", "قَصِيرٌ"]],
+      "punctuation": ".",
+      "distractors": ["لَكِنَّهُ"],
+      "explain": "Le nom de {ar|لَكِنَّ} est {ar|حَامِدًا}, à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l04.practice-1#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "آمِنَةُ مُجْتَهِدَةٌ. أُخْتُهَا كَسْلَى.",
+      "answers": ["آمِنَةُ مُجْتَهِدَةٌ لَكِنَّ أُخْتَهَا كَسْلَى."],
+      "fr": "Āmina est studieuse, mais sa sœur est paresseuse.",
+      "instruction": "Joins les deux phrases avec {ar|لَكِنَّ}.",
+      "explain": "{ar|أُخْتَهَا} : le nom de {ar|لَكِنَّ} prend la fatha ; le pronom {ar|هَا} reste au génitif."
+    },
+    {
+      "id": "medine-t2.l04.practice-1#4",
+      "type": "fill_gap",
+      "sentence": "هٰذَا الدَّرْسُ طَوِيلٌ {0} سَهْلٌ.",
+      "fr": "Cette leçon est longue, mais elle est facile.",
+      "gaps": [ { "answers": ["لَكِنَّهُ"] } ],
+      "options": ["لَكِنَّهُ", "لَكِنَّهَا", "لَكِنَّنِي"],
+      "explain": "{ar|الدَّرْسُ} est masculin : le pronom qui le reprend est {ar|هُ}."
+    },
+    {
+      "id": "medine-t2.l04.practice-1#5",
+      "type": "order",
+      "fr": "Ma voiture est vieille, mais elle est solide.",
+      "answers": [["سَيَّارَتِي", "قَدِيمَةٌ", "لَكِنَّهَا", "قَوِيَّةٌ"]],
+      "punctuation": ".",
+      "distractors": ["لَكِنَّهُ"],
+      "explain": "{ar|سَيَّارَةٌ} est féminin : le pronom qui la reprend est {ar|هَا}."
+    },
+    {
+      "id": "medine-t2.l04.practice-1#6",
+      "type": "fill_gap",
+      "sentence": "أَخِي مُتَزَوِّجٌ {0} عَزَبٌ.",
+      "fr": "Mon frère est marié, mais moi, je suis célibataire.",
+      "gaps": [ { "answers": ["لَكِنَّنِي", "لَكِنِّي"] } ],
+      "options": ["لَكِنَّنِي", "لَكِنِّي", "لَكِنَّهُ", "لَكِنَّكَ"],
+      "explain": "« Moi » : {ar|لَكِنَّنِي} ou {ar|لَكِنِّي}. Le pronom {ar|هُ} reprendrait « mon frère »."
+    },
+    {
+      "id": "medine-t2.l04.practice-1#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "إِبْرَاهِيمُ فَقِيرٌ. عَمُّهُ غَنِيٌّ جِدًّا.",
+      "answers": ["إِبْرَاهِيمُ فَقِيرٌ لَكِنَّ عَمَّهُ غَنِيٌّ جِدًّا."],
+      "fr": "Ibrāhīm est pauvre, mais son oncle est très riche.",
+      "instruction": "Joins les deux phrases avec {ar|لَكِنَّ}.",
+      "explain": "{ar|عَمَّهُ} : le premier terme de l'annexion prend la fatha."
+    },
+    {
+      "id": "medine-t2.l04.practice-1#8",
+      "type": "order",
+      "fr": "Ta maison est très belle, mais elle est petite.",
+      "answers": [["بَيْتُكَ", "جَمِيلٌ", "جِدًّا", "لَكِنَّهُ", "صَغِيرٌ"]],
+      "punctuation": ".",
+      "distractors": ["لَكِنَّهَا"]
+    },
+    {
+      "id": "medine-t2.l04.practice-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Cette leçon est longue, mais elle est facile.",
+      "answers": ["هٰذَا الدَّرْسُ طَوِيلٌ لَكِنَّهُ سَهْلٌ."]
+    }
+  ]
+}

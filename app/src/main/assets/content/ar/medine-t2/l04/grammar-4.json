@@ -1,0 +1,106 @@
+{
+  "id": "medine-t2.l04.grammar-4",
+  "type": "grammar",
+  "title": "Une question négative : {ar|أَمَا} et {ar|بَلَى}",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t2.l04.grammar-4#1", "type": "present", "item": "w:a-ma" },
+    {
+      "id": "medine-t2.l04.grammar-4#2",
+      "type": "tip",
+      "title": "{ar|أَمَا} : « ne… pas ? »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour poser une question **négative**, on ajoute {ar|أَ} devant {ar|مَا}. Comme avec {ar|أَلَيْسَ} (chapitre 3 de ce tome), la réponse « oui » est alors {ar|بَلَى}."
+        },
+        {
+          "type": "breakdown",
+          "ar": "أَمَا",
+          "fr": "est-ce que… ne… pas ?",
+          "parts": [ { "ar": "أَ", "fr": "est-ce que" }, { "ar": "مَا", "fr": "ne… pas" } ]
+        },
+        {
+          "type": "table",
+          "header": ["Question", "Réponse « oui »"],
+          "rows": [
+            ["{ar|أَذَهَبْتَ إِلَى الْمَدْرَسَةِ أَمْسِ؟} (Es-tu allé à l'école hier ?)", "{ar|نَعَمْ، ذَهَبْتُ.}"],
+            [
+              "{ar|أَمَا ذَهَبْتَ إِلَى الْمَدْرَسَةِ أَمْسِ؟} (N'es-tu pas allé à l'école hier ?)",
+              "{ar|بَلَى، ذَهَبْتُ.}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Pour dire « non » à une question négative, on répète la négation : {ar|مَا ذَهَبْتُ}. {ar|نَعَمْ} confirmerait ce qu'on vient de dire, donc la négation : on l'évite pour ne pas prêter à confusion."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.grammar-4#3",
+      "type": "sort",
+      "categories": [ { "ar": "نَعَمْ" }, { "ar": "بَلَى" } ],
+      "cards": [
+        { "ar": "أَدَرَسْتَ الْيَوْمَ؟", "category": 0 },
+        { "ar": "أَمَا دَرَسْتَ الْيَوْمَ؟", "category": 1 },
+        { "ar": "أَذَهَبَتْ لَيْلَى إِلَى الْجَامِعَةِ؟", "category": 0 },
+        { "ar": "أَمَا ذَهَبَ أَخُوكَ إِلَى الرِّيَاضِ؟", "category": 1 },
+        { "ar": "أَرَجَعَ أَبُوكَ؟", "category": 0 },
+        { "ar": "أَمَا رَجَعَ أَبُوكَ؟", "category": 1 }
+      ],
+      "instruction": "Tu veux répondre « oui » : quel mot ?",
+      "explain": "Question sans négation : {ar|نَعَمْ}. Question avec {ar|أَمَا} (négative) : {ar|بَلَى}."
+    },
+    {
+      "id": "medine-t2.l04.grammar-4#4",
+      "type": "fill_gap",
+      "sentence": "أَمَا خَرَجَ الطَّالِبُ مِنَ الْفَصْلِ؟ {0}، خَرَجَ.",
+      "fr": "L'étudiant n'est-il pas sorti de la classe ? Si, il est sorti.",
+      "gaps": [ { "answers": ["بَلَى"] } ],
+      "options": ["بَلَى", "نَعَمْ", "لَا"],
+      "explain": "La question est négative ({ar|أَمَا}) : on la contredit avec {ar|بَلَى}."
+    },
+    {
+      "id": "medine-t2.l04.grammar-4#5",
+      "type": "fill_gap",
+      "sentence": "أَخَرَجَ الطَّالِبُ مِنَ الْفَصْلِ؟ {0}، خَرَجَ.",
+      "fr": "L'étudiant est-il sorti de la classe ? Oui, il est sorti.",
+      "gaps": [ { "answers": ["نَعَمْ"] } ],
+      "options": ["نَعَمْ", "بَلَى", "لَا"],
+      "explain": "La question n'est pas négative : « oui » se dit {ar|نَعَمْ}."
+    },
+    {
+      "id": "medine-t2.l04.grammar-4#6",
+      "type": "true_false",
+      "statement": { "fr": "À la question « {ar|أَمَا ذَهَبْتَ؟} », on répond « oui, je suis allé » par {ar|نَعَمْ}." },
+      "answer": false,
+      "explain": "Non : après une question négative, « oui » se dit {ar|بَلَى}."
+    },
+    {
+      "id": "medine-t2.l04.grammar-4#7",
+      "type": "order",
+      "fr": "N'es-tu pas allé à l'école aujourd'hui ?",
+      "answers": [
+        ["أَمَا", "ذَهَبْتَ", "إِلَى", "الْمَدْرَسَةِ", "الْيَوْمَ"],
+        ["أَمَا", "ذَهَبْتَ", "الْيَوْمَ", "إِلَى", "الْمَدْرَسَةِ"]
+      ],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l04.grammar-4#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'étudiant n'est-il pas sorti de la classe ? Si, il est sorti.",
+      "answers": ["أَمَا خَرَجَ الطَّالِبُ مِنَ الْفَصْلِ؟ بَلَى، خَرَجَ."]
+    },
+    {
+      "id": "medine-t2.l04.grammar-4#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "N'es-tu pas allé à l'école aujourd'hui ?",
+      "answers": ["أَمَا ذَهَبْتَ إِلَى الْمَدْرَسَةِ الْيَوْمَ؟", "أَمَا ذَهَبْتَ الْيَوْمَ إِلَى الْمَدْرَسَةِ؟"]
+    }
+  ]
+}
