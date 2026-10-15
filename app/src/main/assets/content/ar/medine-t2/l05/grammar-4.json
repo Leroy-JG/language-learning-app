@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le professeur range sous le nom d'**accusatif** ({ar|النَّصْبُ}) tous les mots qui prennent la fatha pour une raison de grammaire. Tu en connais maintenant cinq :"
+          "text": "Le professeur range sous le nom d'**accusatif** ({ar|النَّصْبُ}) tous les mots qui prennent la fatha pour une raison de grammaire. Tu en connais maintenant cinq (il y en a d'autres, que tu verras plus tard) :"
         },
         {
           "type": "table",
@@ -91,7 +91,7 @@
       "id": "medine-t2.l05.grammar-4#6",
       "type": "order",
       "fr": "Le garçon a bu l'eau.",
-      "answers": [["شَرِبَ", "الْوَلَدُ", "الْمَاءَ"]],
+      "answers": [["شَرِبَ", "الْوَلَدُ", "الْمَاءَ"], ["الْوَلَدُ", "شَرِبَ", "الْمَاءَ"]],
       "punctuation": "."
     },
     {
@@ -99,14 +99,19 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Le professeur a ouvert la porte.",
-      "answers": ["فَتَحَ الْمُدَرِّسُ الْبَابَ."]
+      "answers": [
+        "فَتَحَ الْمُدَرِّسُ الْبَابَ.",
+        "فَتَحَ الْأُسْتَاذُ الْبَابَ.",
+        "الْمُدَرِّسُ فَتَحَ الْبَابَ.",
+        "الْأُسْتَاذُ فَتَحَ الْبَابَ."
+      ]
     },
     {
       "id": "medine-t2.l05.grammar-4#8",
       "type": "typing",
       "ask": "fr",
       "fr": "Le directeur a lu le livre.",
-      "answers": ["قَرَأَ الْمُدِيرُ الْكِتَابَ."]
+      "answers": ["قَرَأَ الْمُدِيرُ الْكِتَابَ.", "الْمُدِيرُ قَرَأَ الْكِتَابَ."]
     }
   ]
 }

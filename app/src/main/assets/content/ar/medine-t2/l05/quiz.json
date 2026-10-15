@@ -86,7 +86,8 @@
       "fr": "Les garçons ont bu l'eau et ont mangé les figues.",
       "answers": [["شَرِبَ", "الْأَوْلَادُ", "الْمَاءَ", "وَأَكَلُوا", "التِّينَ"]],
       "punctuation": ".",
-      "distractors": ["شَرِبُوا"]
+      "distractors": ["شَرِبُوا"],
+      "instruction": "Mets le verbe en tête de la phrase."
     },
     {
       "id": "medine-t2.l05.quiz#10",
@@ -100,7 +101,7 @@
       "type": "true_false",
       "statement": { "fr": "Un nom qui suit une préposition est un complément d'objet direct." },
       "answer": false,
-      "explain": "Non : après une préposition, le nom est au génitif. Le complément d'objet direct suit le verbe sans préposition et porte la fatha."
+      "explain": "Non : après une préposition, le nom est au génitif. Le complément d'objet direct suit le verbe sans préposition et porte en général la fatha."
     },
     {
       "id": "medine-t2.l05.quiz#12",
@@ -115,7 +116,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Zayd a lavé la chemise.",
-      "answers": ["غَسَلَ زَيْدٌ الْقَمِيصَ."]
+      "answers": ["غَسَلَ زَيْدٌ الْقَمِيصَ.", "زَيْدٌ غَسَلَ الْقَمِيصَ."]
     },
     {
       "id": "medine-t2.l05.quiz#14",
@@ -129,7 +130,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "L'enfant a tué le serpent avec la canne.",
-      "answers": ["قَتَلَ الطِّفْلُ الْحَيَّةَ بِالْعَصَا."]
+      "answers": ["قَتَلَ الطِّفْلُ الْحَيَّةَ بِالْعَصَا.", "الطِّفْلُ قَتَلَ الْحَيَّةَ بِالْعَصَا."]
     },
     {
       "id": "medine-t2.l05.quiz#16",

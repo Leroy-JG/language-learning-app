@@ -106,20 +106,20 @@
     {
       "id": "medine-t2.l05.grammar-2#8",
       "type": "question",
-      "prompt": { "fr": "Quelle voyelle finale porte le complément d'objet direct ?" },
+      "prompt": { "fr": "Quelle voyelle finale porte le complément d'objet direct, quand c'est un nom au singulier ?" },
       "choices": [
         { "fr": "une fatha (ou un tanwin fatha)" },
         { "fr": "une damma (ou un tanwin damma)" },
         { "fr": "une kasra (ou un tanwin kasra)" }
       ],
       "answer": 0,
-      "explain": "Le complément d'objet direct est à l'accusatif, le cas de la fatha."
+      "explain": "Le complément d'objet direct est à l'accusatif, le cas de la fatha (les pluriels réguliers et les duels ont leur marque propre)."
     },
     {
       "id": "medine-t2.l05.grammar-2#9",
       "type": "order",
       "fr": "Zayd a ouvert la porte.",
-      "answers": [["فَتَحَ", "زَيْدٌ", "الْبَابَ"]],
+      "answers": [["فَتَحَ", "زَيْدٌ", "الْبَابَ"], ["زَيْدٌ", "فَتَحَ", "الْبَابَ"]],
       "punctuation": "."
     },
     {
@@ -134,7 +134,12 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Le professeur a écrit la leçon.",
-      "answers": ["كَتَبَ الْمُدَرِّسُ الدَّرْسَ."]
+      "answers": [
+        "كَتَبَ الْمُدَرِّسُ الدَّرْسَ.",
+        "كَتَبَ الْأُسْتَاذُ الدَّرْسَ.",
+        "الْمُدَرِّسُ كَتَبَ الدَّرْسَ.",
+        "الْأُسْتَاذُ كَتَبَ الدَّرْسَ."
+      ]
     }
   ]
 }

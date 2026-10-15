@@ -80,7 +80,10 @@
             ["la précision après {ar|كَمْ}", "{ar|كَمْ طَالِبًا فِي الْفَصْلِ؟}", "{ar|طَالِبًا}"]
           ]
         },
-        { "type": "note", "text": "Aujourd'hui, tu en découvres un cinquième : le **complément d'objet direct**." }
+        {
+          "type": "note",
+          "text": "Aujourd'hui, tu en découvres un cinquième : le **complément d'objet direct**. Il y en a d'autres, que tu verras plus tard."
+        }
       ]
     },
     {
@@ -102,7 +105,7 @@
       "id": "medine-t2.l05.revue-1#7",
       "type": "order",
       "fr": "Le directeur est allé à la mosquée.",
-      "answers": [["ذَهَبَ", "الْمُدِيرُ", "إِلَى", "الْمَسْجِدِ"]],
+      "answers": [["ذَهَبَ", "الْمُدِيرُ", "إِلَى", "الْمَسْجِدِ"], ["الْمُدِيرُ", "ذَهَبَ", "إِلَى", "الْمَسْجِدِ"]],
       "punctuation": "."
     },
     {

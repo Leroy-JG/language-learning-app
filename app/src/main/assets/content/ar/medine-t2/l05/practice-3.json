@@ -54,6 +54,7 @@
       "answers": [["خَرَجَ", "الطُّلَّابُ", "مِنَ", "الْفَصْلِ"]],
       "punctuation": ".",
       "distractors": ["خَرَجُوا"],
+      "instruction": "Mets le verbe en tête de la phrase.",
       "explain": "Le verbe est avant son sujet : il reste au singulier."
     },
     {
@@ -121,8 +122,8 @@
               "to": { "ar": "الْقَهْوَةَ", "fr": "le café (complément)" }
             },
             {
-              "from": { "ar": "التُّفَّاحُ", "fr": "la pomme" },
-              "to": { "ar": "التُّفَّاحَ", "fr": "la pomme (complément)" }
+              "from": { "ar": "التُّفَّاحُ", "fr": "les pommes" },
+              "to": { "ar": "التُّفَّاحَ", "fr": "les pommes (complément)" }
             },
             {
               "from": { "ar": "الْبَابُ", "fr": "la porte" },
@@ -173,7 +174,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Zayd a bu le café.",
-      "answers": ["شَرِبَ زَيْدٌ الْقَهْوَةَ."]
+      "answers": ["شَرِبَ زَيْدٌ الْقَهْوَةَ.", "زَيْدٌ شَرِبَ الْقَهْوَةَ."]
     }
   ]
 }

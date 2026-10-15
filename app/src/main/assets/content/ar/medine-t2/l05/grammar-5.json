@@ -51,7 +51,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Quand le verbe est **avant** son sujet, il reste au **singulier**, mais il s'accorde en genre : masculin avec un sujet masculin, féminin avec un sujet féminin."
+          "text": "Quand le verbe est **avant** son sujet, il reste au **singulier**, mais il s'accorde en genre : masculin avec un sujet masculin, le plus souvent féminin avec un sujet féminin."
         },
         {
           "type": "compare",
@@ -72,6 +72,10 @@
               "to": { "ar": "ذَهَبَتِ الطَّالِبَاتُ إِلَى الْمَكْتَبَةِ", "fr": "le verbe passe au féminin singulier" }
             }
           ]
+        },
+        {
+          "type": "note",
+          "text": "La règle vaut aussi pour le duel : {ar|ذَهَبَ الطَّالِبَانِ}, et non {ar|ذَهَبَا الطَّالِبَانِ}."
         },
         {
           "type": "note",
@@ -108,6 +112,7 @@
       "answers": [["شَرِبَ", "الْأَوْلَادُ", "الْقَهْوَةَ"]],
       "punctuation": ".",
       "distractors": ["شَرِبُوا"],
+      "instruction": "Mets le verbe en tête de la phrase.",
       "explain": "Le verbe est avant son sujet {ar|الْأَوْلَادُ} : il reste au singulier. {ar|شَرِبُوا} serait un deuxième sujet."
     },
     {
@@ -157,7 +162,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Les étudiants ont lu et ont écrit.",
-      "answers": ["قَرَأَ الطُّلَّابُ وَكَتَبُوا."]
+      "answers": ["قَرَأَ الطُّلَّابُ وَكَتَبُوا.", "الطُّلَّابُ قَرَؤُوا وَكَتَبُوا."]
     },
     {
       "id": "medine-t2.l05.grammar-5#10",

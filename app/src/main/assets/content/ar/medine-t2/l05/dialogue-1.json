@@ -72,7 +72,7 @@
       "type": "tip",
       "title": "Des pronoms à repérer",
       "blocks": [
-        { "type": "paragraph", "text": "Dans ce texte, la plupart des verbes portent un pronom complément collé :" },
+        { "type": "paragraph", "text": "Dans ce texte, plusieurs verbes portent un pronom complément collé :" },
         {
           "type": "table",
           "header": ["Dans le texte", "Sens", "Le pronom reprend…"],

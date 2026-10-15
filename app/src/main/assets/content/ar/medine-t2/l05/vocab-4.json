@@ -41,7 +41,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "À l'impératif, la hamza de départ porte une damma quand la voyelle du milieu du présent est une damma ({ar|يَقْتُلُ} → {ar|اُقْتُلْ}), une kasra sinon ({ar|يَغْسِلُ} → {ar|اِغْسِلْ}, {ar|يَسْمَعُ} → {ar|اِسْمَعْ})."
+          "text": "À l'impératif, l'alif de départ (une hamza de liaison) porte une damma quand la voyelle du milieu du présent est une damma ({ar|يَقْتُلُ} → {ar|اُقْتُلْ}), une kasra sinon ({ar|يَغْسِلُ} → {ar|اِغْسِلْ}, {ar|يَسْمَعُ} → {ar|اِسْمَعْ})."
         }
       ]
     },
@@ -52,7 +52,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Dans {ar|كَسَرَ زَيْدٌ عَصَاهُ} (« Zayd a cassé sa canne »), {ar|عَصَاهُ} est le complément d'objet direct : il est à l'accusatif. Pourtant, **on ne voit aucune fatha** : le mot se termine par un alif long ({ar|ا}), qui ne porte jamais de voyelle. Un nom de ce genre (un nom maqṣūr) garde la même forme à tous les cas."
+          "text": "Dans {ar|كَسَرَ زَيْدٌ عَصَاهُ} (« Zayd a cassé sa canne »), {ar|عَصَاهُ} est le complément d'objet direct : il est à l'accusatif. Pourtant, **on ne voit aucune fatha** : le mot se termine par un alif long ({ar|ا}), qui ne porte jamais de voyelle. Un nom de ce genre (un nom maqṣūr : terminé par un alif long, écrit {ar|ا} ou {ar|ى}) garde la même forme à tous les cas."
         },
         { "type": "example", "ar": "كَسَرَ زَيْدٌ عَصَاهُ.", "fr": "Zayd a cassé sa canne." },
         {

@@ -40,6 +40,7 @@
       "answers": [["خَرَجَ", "الطُّلَّابُ", "وَذَهَبُوا"]],
       "punctuation": ".",
       "distractors": ["وَذَهَبَ"],
+      "instruction": "Mets le verbe en tête de la phrase.",
       "explain": "Le second verbe reprend {ar|الطُّلَّابُ} par le pronom {ar|◌ُوا}."
     },
     {
@@ -79,6 +80,7 @@
       "answers": [["دَخَلَ", "الطُّلَّابُ", "الْفَصْلَ", "وَجَلَسُوا"]],
       "punctuation": ".",
       "distractors": ["دَخَلُوا"],
+      "instruction": "Mets le verbe en tête de la phrase.",
       "explain": "{ar|دَخَلَ} est avant son sujet : il reste au singulier. Le second verbe reprend le sujet par {ar|◌ُوا}."
     },
     {
@@ -97,6 +99,7 @@
       "answers": [["قَرَأَ", "الطُّلَّابُ", "الدَّرْسَ", "وَفَهِمُوهُ"]],
       "punctuation": ".",
       "distractors": ["وَفَهِمُوهَا"],
+      "instruction": "Mets le verbe en tête de la phrase.",
       "explain": "{ar|الدَّرْسُ} est masculin : le pronom est {ar|هُ}."
     },
     {
@@ -111,14 +114,14 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Les étudiants ont ouvert la porte et sont sortis.",
-      "answers": ["فَتَحَ الطُّلَّابُ الْبَابَ وَخَرَجُوا."]
+      "answers": ["فَتَحَ الطُّلَّابُ الْبَابَ وَخَرَجُوا.", "الطُّلَّابُ فَتَحُوا الْبَابَ وَخَرَجُوا."]
     },
     {
       "id": "medine-t2.l05.practice-5#10",
       "type": "typing",
       "ask": "fr",
-      "fr": "Les enfants ont mangé les figues et ont bu l'eau.",
-      "answers": ["أَكَلَ الْأَوْلَادُ التِّينَ وَشَرِبُوا الْمَاءَ."]
+      "fr": "Les garçons ont mangé les figues et ont bu l'eau.",
+      "answers": ["أَكَلَ الْأَوْلَادُ التِّينَ وَشَرِبُوا الْمَاءَ.", "الْأَوْلَادُ أَكَلُوا التِّينَ وَشَرِبُوا الْمَاءَ."]
     }
   ]
 }

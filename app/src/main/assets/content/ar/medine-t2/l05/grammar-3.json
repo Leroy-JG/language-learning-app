@@ -23,7 +23,7 @@
         },
         {
           "type": "note",
-          "text": "Dans {ar|ضَرَبَكَ زَيْدٌ}, le pronom {ar|كَ} (« te ») est collé au verbe, **avant** le sujet {ar|زَيْدٌ}. Un pronom complément reste toujours collé au verbe."
+          "text": "Dans {ar|ضَرَبَكَ زَيْدٌ}, le pronom {ar|كَ} (« te ») est collé au verbe, **avant** le sujet {ar|زَيْدٌ}. Un pronom complément collé reste collé au verbe : il ne se place pas après le sujet."
         }
       ]
     },
@@ -63,11 +63,6 @@
         { "type": "note", "text": "Le pronom sujet ({ar|تُ}) vient avant le pronom complément ({ar|هُ})." },
         {
           "type": "note",
-          "tone": "info",
-          "text": "Seul « me » change : avec un verbe, on dit {ar|نِي} ({ar|ضَرَبَنِي}, « il m'a frappé »), et non {ar|ي}. Les autres pronoms compléments viendront plus tard dans le tome."
-        },
-        {
-          "type": "note",
           "tone": "warning",
           "text": "Le pronom suit le genre du mot **arabe** : {ar|الْبَابُ} est masculin, donc {ar|هُ}, même si « porte » est féminin en français."
         }
@@ -90,6 +85,21 @@
     },
     {
       "id": "medine-t2.l05.grammar-3#4",
+      "type": "tip",
+      "title": "Et pour dire « me » ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Seul « me » change : avec un verbe, on colle {ar|نِي} (et non {ar|ي}) : {ar|ضَرَبَنِي} (« il m'a frappé »). La lettre {ar|ن} s'appelle la nūn « de protection » ({ar|نُونُ الْوِقَايَةِ}) : elle protège la dernière lettre du verbe de la kasra du pronom."
+        },
+        {
+          "type": "note",
+          "text": "Tu l'as déjà rencontrée après {ar|أَنَّ} et {ar|إِنَّ} : {ar|لِأَنَّنِي} (« parce que je »), {ar|إِنَّنِي}. La forme {ar|لِأَنِّي}, {ar|إِنِّي} est aussi correcte. Les autres pronoms compléments viendront plus tard dans le tome."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.grammar-3#5",
       "type": "tip",
       "title": "Un pronom à la place du nom",
       "blocks": [
@@ -123,7 +133,7 @@
       ]
     },
     {
-      "id": "medine-t2.l05.grammar-3#5",
+      "id": "medine-t2.l05.grammar-3#6",
       "type": "fill_gap",
       "sentence": "أَنَا {0}.",
       "fr": "Moi, je l'ai ouverte (la porte).",
@@ -133,7 +143,7 @@
       "explain": "{ar|بَابٌ} est masculin : on colle {ar|هُ}. (En français, « porte » est féminin, mais le pronom suit le mot arabe.)"
     },
     {
-      "id": "medine-t2.l05.grammar-3#6",
+      "id": "medine-t2.l05.grammar-3#7",
       "type": "fill_gap",
       "sentence": "أَنَا {0}.",
       "fr": "Moi, je l'ai ouverte (la fenêtre).",
@@ -143,21 +153,21 @@
       "explain": "{ar|نَافِذَةٌ} est féminin : on colle {ar|هَا}."
     },
     {
-      "id": "medine-t2.l05.grammar-3#7",
+      "id": "medine-t2.l05.grammar-3#8",
       "type": "order",
       "fr": "Zayd t'a frappé.",
       "answers": [["ضَرَبَكَ", "زَيْدٌ"]],
       "punctuation": "."
     },
     {
-      "id": "medine-t2.l05.grammar-3#8",
+      "id": "medine-t2.l05.grammar-3#9",
       "type": "typing",
       "ask": "fr",
       "fr": "Je l'ai ouverte (la fenêtre).",
       "answers": ["فَتَحْتُهَا."]
     },
     {
-      "id": "medine-t2.l05.grammar-3#9",
+      "id": "medine-t2.l05.grammar-3#10",
       "type": "typing",
       "ask": "fr",
       "fr": "Je l'ai lu (le livre).",

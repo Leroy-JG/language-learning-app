@@ -96,7 +96,7 @@
       "words": ["سَمِعَ", "بِلَالٌ", "الْأَذَانَ", "وَذَهَبَ", "إِلَى", "الْمَسْجِدِ."],
       "answers": [1, 2],
       "fr": "Bilāl a entendu l'appel à la prière et est allé à la mosquée.",
-      "explain": "Le second verbe {ar|ذَهَبَ} a le même sujet, sous-entendu ; {ar|الْمَسْجِدِ} suit {ar|إِلَى}."
+      "explain": "Le second verbe {ar|ذَهَبَ} a pour sujet un pronom caché (« il »), qui reprend {ar|بِلَالٌ} ; {ar|الْمَسْجِدِ} suit {ar|إِلَى}."
     },
     {
       "id": "medine-t2.l05.practice-2#10",

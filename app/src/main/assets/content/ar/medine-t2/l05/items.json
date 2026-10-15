@@ -63,9 +63,9 @@
     "id": "w:jamula",
     "kind": "word",
     "ar": "جَمُلَ",
-    "fr": "il est devenu beau (être beau)",
+    "fr": "il est beau (être beau)",
     "translit": "jamula",
-    "note": "La voyelle du milieu est une damma : c'est le modèle des verbes qui expriment une qualité ou un état ({ar|كَبُرَ}, {ar|جَمُلَ}…).",
+    "note": "La voyelle du milieu est une damma : c'est le modèle des verbes qui expriment une qualité naturelle ({ar|كَبُرَ}, {ar|جَمُلَ}…).",
     "example": { "ar": "جَمُلَ زَيْدٌ.", "fr": "Zayd est beau." }
   },
   {
