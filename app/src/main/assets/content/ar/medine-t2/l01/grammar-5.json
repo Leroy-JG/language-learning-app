@@ -55,15 +55,24 @@
         },
         {
           "type": "table",
-          "header": ["Particule", "Sens"],
+          "header": ["Particule", "Sens", "Nuance"],
           "rows": [
-            ["{ar|إِنَّ}", "certes (confirmation)"],
-            ["{ar|أَنَّ}", "que (confirmation, au milieu de la phrase)"],
-            ["{ar|لَعَلَّ}", "peut-être, j'espère que"],
-            ["{ar|كَأَنَّ}", "comme si (aperçu)"],
-            ["{ar|لَكِنَّ}", "mais (aperçu)"],
-            ["{ar|لَيْتَ}", "si seulement (aperçu)"]
+            ["{ar|إِنَّ}", "certes", "la confirmation ({ar|التَّوْكِيدُ})"],
+            ["{ar|أَنَّ}", "que (au milieu de la phrase)", "la confirmation ({ar|التَّوْكِيدُ})"],
+            ["{ar|لَعَلَّ}", "peut-être, j'espère que", "l'espoir d'une chose possible ({ar|التَّرَجِّي})"],
+            ["{ar|كَأَنَّ}", "comme si (aperçu)", "la comparaison ({ar|التَّشْبِيهُ})"],
+            ["{ar|لَكِنَّ}", "mais (aperçu)", "la rectification ({ar|الِاسْتِدْرَاكُ})"],
+            [
+              "{ar|لَيْتَ}",
+              "si seulement (aperçu)",
+              "le souhait d'une chose difficile ou impossible ({ar|التَّمَنِّي})"
+            ]
           ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Ne confonds pas {ar|لَيْتَ} et {ar|لَعَلَّ} : {ar|لَعَلَّ} espère une chose qui peut arriver, {ar|لَيْتَ} souhaite une chose qui paraît hors de portée."
         },
         {
           "type": "note",
@@ -86,7 +95,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le professeur récapitule trois emplois de l'accusatif ({ar|النَّصْبُ}) que tu connais déjà :"
+          "text": "Le professeur récapitule trois emplois de l'accusatif ({ar|النَّصْبُ}). Deux sont déjà vus au tome 1 ; le troisième, le sujet de {ar|إِنَّ}, vient de t'être enseigné :"
         },
         {
           "type": "table",

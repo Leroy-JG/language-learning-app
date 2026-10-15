@@ -21,7 +21,7 @@
               "La question commence par la hamza d'interrogation ({ar|هَمْزَةُ الِاسْتِفْهَامِ}, {ar|أَ})",
               "{ar|أَزَيْدٌ دَخَلَ}"
             ],
-            ["Les deux réponses possibles se suivent directement : {ar|أَ} … {ar|أَمْ} …", "{ar|أَمْ يَاسِرٌ؟}"]
+            ["Le premier choix suit {ar|أَ}, le second suit {ar|أَمْ}", "{ar|أَزَيْدٌ دَخَلَ أَمْ يَاسِرٌ؟}"]
           ]
         },
         { "type": "example", "ar": "أَزَيْدٌ دَخَلَ أَمْ يَاسِرٌ؟", "fr": "Est-ce Zayd qui est entré, ou Yāsir ?" },
@@ -130,7 +130,7 @@
       "fr": "Est-ce une mosquée ou une école ?",
       "answers": [["أَمَسْجِدٌ", "هٰذَا", "أَمْ", "مَدْرَسَةٌ"]],
       "punctuation": "؟",
-      "explain": "L'ordre du livre place d'abord ce sur quoi porte le choix. {ar|أَهٰذَا مَسْجِدٌ أَمْ مَدْرَسَةٌ؟} est aussi une phrase correcte."
+      "explain": "L'ordre du livre place d'abord ce sur quoi porte le choix. On rencontre aussi {ar|أَهٰذَا مَسْجِدٌ أَمْ مَدْرَسَةٌ؟}."
     },
     {
       "id": "medine-t2.l01.grammar-8#11",

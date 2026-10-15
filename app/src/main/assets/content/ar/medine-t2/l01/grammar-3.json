@@ -95,7 +95,7 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "Le prédicat s'accorde toujours avec le sujet en genre et en nombre : {ar|إِنَّهَا طَالِبَةٌ} (féminin), {ar|إِنَّهُمْ طُلَّابٌ} (pluriel)."
+          "text": "Quand le prédicat est un nom ou un adjectif, il s'accorde avec le sujet en genre et en nombre : {ar|إِنَّهَا طَالِبَةٌ} (féminin), {ar|إِنَّهُمْ طُلَّابٌ} (pluriel). Un groupe « préposition + nom » ne s'accorde pas : {ar|إِنَّهَا مِنَ الْهِنْدِ}."
         }
       ]
     },

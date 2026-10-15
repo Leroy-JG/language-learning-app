@@ -58,6 +58,14 @@
     },
     {
       "id": "medine-t2.l01.grammar-1#4",
+      "type": "question",
+      "prompt": { "fr": "Quel mot sert à nier la phrase nominale ?" },
+      "choices": [ { "ar": "لَيْسَ" }, { "ar": "كَانَ" }, { "ar": "إِنَّ" } ],
+      "answer": 0,
+      "explain": "{ar|لَيْسَ زَيْدٌ طَالِبًا} : « Zayd n'est pas étudiant »."
+    },
+    {
+      "id": "medine-t2.l01.grammar-1#5",
       "type": "tip",
       "title": "Deux manières d'agir sur la phrase",
       "blocks": [
@@ -91,17 +99,9 @@
         },
         {
           "type": "note",
-          "text": "Les mots de ce tableau sont tous des {ar|النَّوَاسِخُ}, mais chacun change les cas à sa manière. {ar|إِنَّ} et ses sœurs mettent le **sujet à l'accusatif** et laissent le **prédicat au nominatif**."
+          "text": "Les mots de ce tableau sont tous des {ar|النَّوَاسِخُ}, mais chacun change les cas à sa manière. {ar|إِنَّ} et ses sœurs mettent le **sujet à l'accusatif** et laissent le **prédicat au nominatif** : c'est l'inverse de {ar|كَانَ}, qui laisse le sujet au nominatif et met le prédicat à l'accusatif."
         }
       ]
-    },
-    {
-      "id": "medine-t2.l01.grammar-1#5",
-      "type": "question",
-      "prompt": { "fr": "Quel mot sert à nier la phrase nominale ?" },
-      "choices": [ { "ar": "لَيْسَ" }, { "ar": "كَانَ" }, { "ar": "إِنَّ" } ],
-      "answer": 0,
-      "explain": "{ar|لَيْسَ زَيْدٌ طَالِبًا} : « Zayd n'est pas étudiant »."
     },
     {
       "id": "medine-t2.l01.grammar-1#6",

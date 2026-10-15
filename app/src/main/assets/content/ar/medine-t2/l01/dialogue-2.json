@@ -92,6 +92,14 @@
     },
     {
       "id": "medine-t2.l01.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "La montre de Hāshim est chère." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l01.dialogue-2#1" },
+      "explain": "Elle est {ar|رَخِيصَةٌ جِدًّا} : très bon marché, cent roupies seulement."
+    },
+    {
+      "id": "medine-t2.l01.dialogue-2#6",
       "type": "question",
       "prompt": { "fr": "Combien de sœurs Hāshim a-t-il ?" },
       "choices": [ { "fr": "Quatre" }, { "fr": "Trois" }, { "fr": "Cinq" } ],
@@ -100,21 +108,13 @@
       "explain": "{ar|لِي أَرْبَعُ أَخَوَاتٍ} : « j'ai quatre sœurs »."
     },
     {
-      "id": "medine-t2.l01.dialogue-2#6",
+      "id": "medine-t2.l01.dialogue-2#7",
       "type": "question",
       "prompt": { "fr": "Où sont ses sœurs ?" },
       "choices": [ { "fr": "À Médine, avec leurs parents" }, { "fr": "En Inde" }, { "fr": "Au Japon" } ],
       "answer": 0,
       "context": { "dialogue": "medine-t2.l01.dialogue-2#1" },
       "explain": "{ar|إِنَّهُنَّ هُنَا بِالْمَدِينَةِ الْمُنَوَّرَةِ مَعَ أَبِي وَأُمِّي}."
-    },
-    {
-      "id": "medine-t2.l01.dialogue-2#7",
-      "type": "true_false",
-      "statement": { "fr": "La montre de Hāshim est chère." },
-      "answer": false,
-      "context": { "dialogue": "medine-t2.l01.dialogue-2#1" },
-      "explain": "Elle est {ar|رَخِيصَةٌ جِدًّا} : très bon marché, cent roupies seulement."
     },
     {
       "id": "medine-t2.l01.dialogue-2#8",

@@ -19,18 +19,18 @@
     },
     {
       "id": "medine-t2.l01.quiz#3",
-      "type": "mcq",
-      "mode": "ar-fr",
-      "item": "w:mi-a",
-      "distractors": ["w:alf", "w:n-10"]
-    },
-    {
-      "id": "medine-t2.l01.quiz#4",
       "type": "question",
       "prompt": { "fr": "Après {ar|إِنَّ}, le sujet est…" },
       "choices": [ { "fr": "à l'accusatif" }, { "fr": "au nominatif" }, { "fr": "au génitif" } ],
       "answer": 0,
       "explain": "{ar|إِنَّ زَيْدًا طَالِبٌ} : le sujet passe à l'accusatif, le prédicat reste au nominatif."
+    },
+    {
+      "id": "medine-t2.l01.quiz#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mi-a",
+      "distractors": ["w:alf", "w:n-10"]
     },
     {
       "id": "medine-t2.l01.quiz#5",

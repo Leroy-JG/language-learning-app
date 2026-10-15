@@ -30,6 +30,14 @@
     { "id": "medine-t2.l01.grammar-2#3", "type": "present", "item": "w:tawkid" },
     {
       "id": "medine-t2.l01.grammar-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:inna",
+      "distractors": ["w:lakin", "w:am"],
+      "explain": "{ar|إِنَّ} : « certes ». {ar|لٰكِنْ} : « mais » ; {ar|أَمْ} : « ou » (dans une question à deux choix)."
+    },
+    {
+      "id": "medine-t2.l01.grammar-2#5",
       "type": "tip",
       "title": "Le sujet à l'accusatif, le prédicat au nominatif",
       "blocks": [
@@ -54,16 +62,24 @@
         }
       ]
     },
-    { "id": "medine-t2.l01.grammar-2#5", "type": "present", "item": "w:ism-inna" },
-    { "id": "medine-t2.l01.grammar-2#6", "type": "present", "item": "w:khabar-inna" },
+    { "id": "medine-t2.l01.grammar-2#6", "type": "present", "item": "w:ism-inna" },
+    { "id": "medine-t2.l01.grammar-2#7", "type": "present", "item": "w:khabar-inna" },
     {
-      "id": "medine-t2.l01.grammar-2#7",
+      "id": "medine-t2.l01.grammar-2#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|إِنَّ زَيْدًا طَالِبٌ}, quel est le cas de {ar|زَيْدًا} ?" },
+      "choices": [ { "fr": "L'accusatif (la fatha)" }, { "fr": "Le nominatif (la damma)" }, { "fr": "Le génitif (la kasra)" } ],
+      "answer": 0,
+      "explain": "Après {ar|إِنَّ}, le sujet passe à l'accusatif : c'est {ar|اِسْمُ إِنَّ}."
+    },
+    {
+      "id": "medine-t2.l01.grammar-2#9",
       "type": "tip",
       "title": "Ce que devient le nom après {ar|إِنَّ}",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Après {ar|إِنَّ}, le nom prend la **fatha** (ou le tanwin avec la fatha, avec un alif en général). Le prédicat, lui, ne change pas."
+          "text": "Après {ar|إِنَّ}, un nom au singulier (ou au pluriel irrégulier) prend la **fatha** (ou le tanwin avec la fatha, avec un alif en général). Le prédicat, lui, ne change pas. Le duel et les pluriels réguliers gardent leurs marques de l'accusatif du tome 1 ({ar|◌َيْنِ}, {ar|◌ِينَ}, la kasra du pluriel féminin)."
         },
         {
           "type": "compare",
@@ -93,20 +109,12 @@
         {
           "type": "note",
           "tone": "memo",
-          "text": "Pour retenir : {ar|إِنَّ} « pousse son nom à la fatha » ; le prédicat ne bouge pas."
+          "text": "Pour retenir : {ar|إِنَّ} « pousse son nom à l'accusatif » (à la fatha pour un nom singulier) ; le prédicat ne bouge pas."
         }
       ]
     },
     {
-      "id": "medine-t2.l01.grammar-2#8",
-      "type": "question",
-      "prompt": { "fr": "Dans {ar|إِنَّ زَيْدًا طَالِبٌ}, quel est le cas de {ar|زَيْدًا} ?" },
-      "choices": [ { "fr": "L'accusatif (la fatha)" }, { "fr": "Le nominatif (la damma)" }, { "fr": "Le génitif (la kasra)" } ],
-      "answer": 0,
-      "explain": "Après {ar|إِنَّ}, le sujet passe à l'accusatif : c'est {ar|اِسْمُ إِنَّ}."
-    },
-    {
-      "id": "medine-t2.l01.grammar-2#9",
+      "id": "medine-t2.l01.grammar-2#10",
       "type": "spot",
       "instruction": "Touche {ar|اِسْمُ إِنَّ} (le sujet, à l'accusatif).",
       "words": ["إِنَّ", "الْمُدَرِّسَ", "جَدِيدٌ."],
@@ -114,7 +122,7 @@
       "fr": "Certes, l'enseignant est nouveau."
     },
     {
-      "id": "medine-t2.l01.grammar-2#10",
+      "id": "medine-t2.l01.grammar-2#11",
       "type": "spot",
       "instruction": "Touche {ar|خَبَرُ إِنَّ} (le prédicat, au nominatif).",
       "words": ["إِنَّ", "حَامِدًا", "مُتَزَوِّجٌ."],
@@ -122,7 +130,7 @@
       "fr": "Certes, Ḥāmid est marié."
     },
     {
-      "id": "medine-t2.l01.grammar-2#11",
+      "id": "medine-t2.l01.grammar-2#12",
       "type": "fill_gap",
       "sentence": "إِنَّ زَيْدًا {0}.",
       "fr": "Certes, Zayd est étudiant.",
@@ -131,14 +139,14 @@
       "explain": "Le prédicat reste au nominatif : {ar|طَالِبٌ}, avec la damma."
     },
     {
-      "id": "medine-t2.l01.grammar-2#12",
+      "id": "medine-t2.l01.grammar-2#13",
       "type": "order",
       "fr": "Certes, l'enseignant est nouveau.",
       "answers": [["إِنَّ", "الْمُدَرِّسَ", "جَدِيدٌ"]],
       "punctuation": "."
     },
     {
-      "id": "medine-t2.l01.grammar-2#13",
+      "id": "medine-t2.l01.grammar-2#14",
       "type": "typing",
       "ask": "question",
       "question": "الْمُدَرِّسُ جَدِيدٌ.",

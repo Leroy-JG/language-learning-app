@@ -26,7 +26,7 @@ Les deux PDF se recoupent (1b reprend les diapositives de `إِنَّ` de 1a) : 
 | Ceux qui abrogent : `النَّوَاسِخُ` | `grammar-1` |
 | Intelligent, marié, célibataire | `vocab-1` |
 | Certes… : `إِنَّ` | `grammar-2` (sujet à l'accusatif), `grammar-3` (pronoms), `practice-1` (exercices 4 et 5) |
-| `لَعَلَّ`, `أَنَّ` et les six sœurs | `grammar-4`, `grammar-5` (+ trois emplois de la fatha) |
+| `لَعَلَّ`, `أَنَّ` et les six particules | `grammar-4`, `grammar-5` (+ trois emplois de la fatha) |
 | Cent et mille | `grammar-6`, `vocab-2` |
 | Prix, expressions et exercice 12 | `grammar-7` (`بِ`), `vocab-3`, `vocab-4` (`ذُو`), `practice-2` (exercice 12) |
 | Choisir entre deux réponses : `أَمْ` | `grammar-8` (exercice 7) |
@@ -67,6 +67,7 @@ Les deux PDF se recoupent (1b reprend les diapositives de `إِنَّ` de 1a) : 
   - `أَنَا أُحِبُّكَ كَثِيرًا` est traduit « Je t'aime beaucoup » (le verbe est `أُحِبُّ`, celui du chapitre 11) ;
   - `الْمَدِينَةِ الْمُنَوَّرَةِ` est traduit « Médine » (comme au chapitre 5) ;
   - `لَعَلَّكَ بِخَيْرٍ` : le PDF met un point d'interrogation ; l'app met un point (c'est un souhait, « j'espère que tu vas bien »).
+- **Titres des astuces** : les guillemets imbriqués vus dans l'outil de lecture (`««إِنَّ» ou «أَنَّ» ?»`) viennent de l'outil, pas de l'app (l'arabe balisé `{ar|…}` s'affiche en police arabe, sans guillemets).
 - **Pluriels non repris** : aucun pluriel de `مِائَةٌ` (`مِئَاتٌ`), `أَلْفٌ` (`آلَافٌ`) ni de `صَفْحَةٌ` (`صَفَحَاتٌ` / `صَفْحَاتٌ`, variantes) : le PDF n'en donne pas.
 
 ## Choix de contenu
@@ -81,15 +82,25 @@ Les deux PDF se recoupent (1b reprend les diapositives de `إِنَّ` de 1a) : 
 ## Explications ajoutées (données à l'oral, absentes du PDF)
 
 - `نَاسِخٌ` = « celui qui abroge » ; les `النَّوَاسِخُ` sont des verbes ou des particules (les quatre exemples : `كَانَ`, `لَيْسَ`, `إِنَّ`, `أَظُنُّ` et le tableau des cas de chacun : sujet / prédicat).
-- `إِنَّ` a **six sœurs** (`إِنَّ`, `أَنَّ`, `كَأَنَّ`, `لَكِنَّ`, `لَيْتَ`, `لَعَلَّ`, vers de l'Alfiyya) ; `لَكِنَّ` (avec shadda) agit comme `إِنَّ`, alors que `لٰكِنْ` (chapitre 21 du tome 1) n'agit d'ordinaire pas.
+- `إِنَّ وَأَخَوَاتُهَا` réunit **six particules** en tout (`إِنَّ` et cinq sœurs : `أَنَّ`, `كَأَنَّ`, `لَكِنَّ`, `لَيْتَ`, `لَعَلَّ`, vers de l'Alfiyya), avec la nuance de chacune (`التَّوْكِيدُ`, `التَّشْبِيهُ`, `الِاسْتِدْرَاكُ`, `التَّمَنِّي`, `التَّرَجِّي`) ; `لَيْتَ` (souhait d'une chose difficile) ≠ `لَعَلَّ` (espoir d'une chose possible) ; `لَكِنَّ` (avec shadda) agit comme `إِنَّ`, alors que `لٰكِنْ` (chapitre 21 du tome 1) n'agit d'ordinaire pas ; `إِنَّ` et ses sœurs font l'inverse de `كَانَ`.
 - `لَعَلَّ` exprime l'espoir pour une chose souhaitée et l'inquiétude pour une chose redoutée (`التَّرَجِّي` et `الْإِشْفَاقُ`) ; avec « je » : `لَعَلِّي` ou `لَعَلَّنِي`.
-- Après `إِنَّ`, « je » et « nous » ont deux formes correctes (`إِنِّي` / `إِنَّنِي`, `إِنَّنَا` / `إِنَّا`) ; le pronom affixe tient la place de `اِسْمُ إِنَّ` (accusatif) mais reste invariable.
+- Après `إِنَّ`, « je » et « nous » ont deux formes correctes : `إِنِّي` = `إِنَّ` + `ي`, `إِنَّنِي` avec le `ن` « de protection » (`نُونُ الْوِقَايَةِ`), de même `إِنَّنَا` / `إِنَّا` ; le pronom affixe tient la place de `اِسْمُ إِنَّ` (accusatif) mais reste invariable.
+- Après `إِنَّ`, un nom **singulier (ou pluriel irrégulier)** prend la fatha ; le duel et les pluriels réguliers gardent leurs marques de l'accusatif (`ـَيْنِ`, `ـِينَ`, la kasra du pluriel féminin) ; le prédicat s'accorde quand c'est un nom ou un adjectif (pas un groupe « préposition + nom »).
 - `أَنَّ` ne commence pas la phrase ; exemple d'aperçu `أَعْلَمُ أَنَّ زَيْدًا طَالِبٌ`.
 - De 11 à 99, le dénombré est au singulier et à l'accusatif (comme après `كَمْ`) ; `مِائَةٌ` s'écrit aussi `مِئَةٌ`.
 - `بِ` : l'alif de `الْ` reste écrit (`بِالْمَدِينَةِ`), contrairement à `لِ` (`لِلْمُدِيرِ`) ; sens selon le mot qui suit (lieu, prix, état) ; `كَمْ` ne change pas après `بِ`.
-- `ذُو` : toujours annexé à un nom (au génitif) ; `ذَا` à l'accusatif, `ذِي` au génitif ; féminin `ذَاتُ`.
-- `أَمْ` : on répond en choisissant l'un des deux termes, pas par oui ou non.
+- `ذُو` : toujours annexé à un nom (au génitif) ; `ذَا` à l'accusatif, `ذِي` au génitif ; féminin `ذَاتُ` ; l'un des « cinq noms » (`الْأَسْمَاءُ الْخَمْسَةُ`).
+- `أَمْ` : le premier choix suit `أَ`, le second suit `أَمْ` ; on répond en choisissant l'un des deux termes, pas par oui ou non. L'ordre « le choix juste après `أَ` » est celui du livre (et de la grammaire classique) ; l'autre ordre se rencontre aussi et reste accepté en dictée.
+- `بِ` a aussi le sens instrumental (`بِالْقَلَمِ`, « avec le stylo »), cité hors exercice ; `لَعَلَّكَ بِخَيْرٍ` est dit à un homme (à une femme : `لَعَلَّكِ بِخَيْرٍ`).
 - Racine de `دَرَسَ` / `دَرْسٌ` ; `غَنِيُّ الْقَلْبِ` : premier terme d'annexion, d'où la perte du tanwin.
+
+## Corrections faites après la relecture (3 relecteurs + relecture du diff)
+
+- « `إِنَّ` a six sœurs » → six particules en tout ; le pronom « je » (`ي`, pas `نِي`) ; « le prédicat s'accorde toujours » → seulement nom ou adjectif ; « le nom prend la fatha » → singulier ou pluriel irrégulier ; condition de `أَمْ` (l'exemple `أَزَيْدٌ دَخَلَ أَمْ يَاسِرٌ` contredisait « se suivent directement »).
+- Cartes de tri `كَمْ كِتَابًا عِنْدَكَ؟` et `كَمْ طَالِبًا عِنْدَكَ؟` remplacées (`عِنْدَ` est lui-même un adverbe à l'accusatif, la carte avait deux réponses).
+- Réponses acceptées ajoutées : `مِئَةُ` / `مِئَةِ`, réponses courtes (`بِمِائَةِ رِيَالٍ.`), réponses sans `الْمُنَوَّرَةِ`, `أَهُنَّ خَالَاتُكَ أَمْ عَمَّاتُكَ؟` (consigne précisée « à un homme »). Refusé : l'ordre `مِائَةُ صَفْحَةٍ فِي هٰذَا الْكِتَابِ` (non standard pour le cours).
+- Rythme : plus de trois présentations d'affilée ni de trois exercices identiques de suite ; `practice-3` finit sur une production.
+- Note de `grammar-1` : `كَانَ`, `لَيْسَ`, `أَظُنُّ` à retenir seulement par leur sorte et leur nuance. « Pourvu que… » pour `لَعَلَّ` avec « je ». Ligne `أَغَالِيَةٌ هِيَ؟` ajoutée au tableau du texte (`غَالٍ` : tome 1, chapitre 17).
 
 ## Pas encore enseigné (donc sans exercice)
 

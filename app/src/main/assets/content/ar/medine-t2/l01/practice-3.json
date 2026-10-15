@@ -131,6 +131,13 @@
       "answer": false,
       "context": { "dialogue": "medine-t2.l01.dialogue-2#1" },
       "explain": "Elles sont à Médine : {ar|إِنَّهُنَّ هُنَا بِالْمَدِينَةِ الْمُنَوَّرَةِ}."
+    },
+    {
+      "id": "medine-t2.l01.practice-3#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Sa montre coûte cent roupies.",
+      "answers": ["سَاعَتُهُ بِمِائَةِ رُوبِيَّةٍ.", "سَاعَتُهُ بِمِئَةِ رُوبِيَّةٍ."]
     }
   ]
 }

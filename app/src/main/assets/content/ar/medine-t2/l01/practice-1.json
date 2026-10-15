@@ -24,7 +24,7 @@
         },
         {
           "type": "note",
-          "text": "Si le sujet est un nom et non un pronom, c'est le nom qui passe à la fatha : {ar|الْمُدَرِّسُ جَدِيدٌ} → {ar|إِنَّ الْمُدَرِّسَ جَدِيدٌ}."
+          "text": "Si le sujet est un nom singulier et non un pronom, c'est le nom qui passe à la fatha : {ar|الْمُدَرِّسُ جَدِيدٌ} → {ar|إِنَّ الْمُدَرِّسَ جَدِيدٌ}."
         }
       ]
     },

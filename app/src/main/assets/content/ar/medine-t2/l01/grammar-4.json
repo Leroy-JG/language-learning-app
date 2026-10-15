@@ -28,9 +28,17 @@
       ]
     },
     { "id": "medine-t2.l01.grammar-4#3", "type": "present", "item": "w:laalla" },
-    { "id": "medine-t2.l01.grammar-4#4", "type": "present", "item": "w:tarajji" },
     {
-      "id": "medine-t2.l01.grammar-4#5",
+      "id": "medine-t2.l01.grammar-4#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:laalla",
+      "distractors": ["w:inna", "w:lakin"],
+      "explain": "{ar|لَعَلَّ} : « peut-être, j'espère que ». {ar|إِنَّ} : « certes » ; {ar|لٰكِنْ} : « mais »."
+    },
+    { "id": "medine-t2.l01.grammar-4#5", "type": "present", "item": "w:tarajji" },
+    {
+      "id": "medine-t2.l01.grammar-4#6",
       "type": "tip",
       "title": "Zayd réussit, espérons qu'il réussisse",
       "blocks": [
@@ -52,7 +60,15 @@
       ]
     },
     {
-      "id": "medine-t2.l01.grammar-4#6",
+      "id": "medine-t2.l01.grammar-4#7",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|لَعَلَّ زَيْدًا نَاجِحٌ} ?" },
+      "choices": [ { "fr": "Espérons que Zayd réussisse" }, { "fr": "Certes, Zayd réussit" }, { "fr": "Zayd n'a pas réussi" } ],
+      "answer": 0,
+      "explain": "{ar|لَعَلَّ} exprime l'espoir ; {ar|إِنَّ} aurait donné « certes »."
+    },
+    {
+      "id": "medine-t2.l01.grammar-4#8",
       "type": "tip",
       "title": "{ar|لَعَلَّ} avec un pronom",
       "blocks": [
@@ -62,15 +78,15 @@
           "rows": [
             {
               "from": { "ar": "أَنْتَ نَاجِحٌ.", "fr": "Tu réussis." },
-              "to": { "ar": "لَعَلَّكَ نَاجِحٌ.", "fr": "J'espère que tu réussis." }
+              "to": { "ar": "لَعَلَّكَ نَاجِحٌ.", "fr": "Pourvu que tu réussisses." }
             },
             {
               "from": { "ar": "هُوَ نَاجِحٌ.", "fr": "Il réussit." },
-              "to": { "ar": "لَعَلَّهُ نَاجِحٌ.", "fr": "J'espère qu'il réussit." }
+              "to": { "ar": "لَعَلَّهُ نَاجِحٌ.", "fr": "Pourvu qu'il réussisse." }
             },
             {
               "from": { "ar": "أَنَا نَاجِحٌ.", "fr": "Je réussis." },
-              "to": { "ar": "لَعَلِّي نَاجِحٌ.", "fr": "J'espère que je réussis." }
+              "to": { "ar": "لَعَلِّي نَاجِحٌ.", "fr": "Pourvu que je réussisse." }
             }
           ]
         },
@@ -80,22 +96,6 @@
           "text": "Pour « je », on dit {ar|لَعَلِّي} ou {ar|لَعَلَّنِي}, comme {ar|إِنِّي} ou {ar|إِنَّنِي}."
         }
       ]
-    },
-    {
-      "id": "medine-t2.l01.grammar-4#7",
-      "type": "mcq",
-      "mode": "ar-fr",
-      "item": "w:laalla",
-      "distractors": ["w:inna", "w:lakin"],
-      "explain": "{ar|لَعَلَّ} : « peut-être, j'espère que ». {ar|إِنَّ} : « certes » ; {ar|لٰكِنْ} : « mais »."
-    },
-    {
-      "id": "medine-t2.l01.grammar-4#8",
-      "type": "question",
-      "prompt": { "fr": "Que veut dire {ar|لَعَلَّ زَيْدًا نَاجِحٌ} ?" },
-      "choices": [ { "fr": "Espérons que Zayd réussisse" }, { "fr": "Certes, Zayd réussit" }, { "fr": "Zayd n'a pas réussi" } ],
-      "answer": 0,
-      "explain": "{ar|لَعَلَّ} exprime l'espoir ; {ar|إِنَّ} aurait donné « certes »."
     },
     {
       "id": "medine-t2.l01.grammar-4#9",
@@ -125,7 +125,7 @@
       "id": "medine-t2.l01.grammar-4#12",
       "type": "fill_gap",
       "sentence": "{0} نَاجِحٌ.",
-      "fr": "J'espère qu'il réussit.",
+      "fr": "Pourvu qu'il réussisse.",
       "gaps": [ { "answers": ["لَعَلَّهُ"] } ],
       "options": ["لَعَلَّهُ", "لَعَلَّهَا", "لَعَلَّكَ"],
       "explain": "« Il » : {ar|هُوَ} devient {ar|هُ} : {ar|لَعَلَّهُ}."
