@@ -24,6 +24,9 @@
     <string name="test_to_pass">Objectif\u00A0: 12/20</string>
     <string name="exam_or_quiz_passed">Relevé\u00A0! Tu peux le retenter quand tu veux.</string>
     <string name="level_validated">Tome validé</string>
+    <string name="level_soon">Bientôt disponible</string>
+    <string name="level_soon_title">Ce tome arrive bientôt</string>
+    <string name="level_soon_body">Les chapitres seront ajoutés un par un. Reviens vite\u00A0!</string>
     <string name="lesson_done">Terminée</string>
     <string name="lesson_next">Suivante</string>
     <string name="back">Retour</string>
