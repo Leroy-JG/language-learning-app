@@ -15,6 +15,9 @@
     <string name="chapter_collapse">Fermer le chapitre</string>
     <string name="level_choose">Choisir le tome</string>
     <string name="level_progress">%1$d\u00A0%%</string>
+    <string name="time_minutes">%1$d\u00A0min</string>
+    <string name="time_hours">%1$d\u00A0h</string>
+    <string name="time_hours_minutes">%1$d\u00A0h\u00A0%2$02d</string>
     <string name="checkpoint_title">Bilan du chapitre</string>
     <string name="checkpoint_text">Teste tout ce que tu as appris dans ce chapitre.</string>
     <string name="checkpoint_done">Réussi\u00A0! Tu peux le refaire quand tu veux.</string>

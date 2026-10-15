@@ -76,6 +76,7 @@ import io.github.leroyjg.arabe.content.Course
 import io.github.leroyjg.arabe.content.Level
 import io.github.leroyjg.arabe.content.isGraded
 import io.github.leroyjg.arabe.engine.CourseProgress
+import io.github.leroyjg.arabe.engine.TimeEstimate
 import io.github.leroyjg.arabe.ui.IconImages
 import io.github.leroyjg.arabe.ui.LocalAppContainer
 import io.github.leroyjg.arabe.ui.WithContent
@@ -210,6 +211,18 @@ private fun LevelHeader(course: Course, level: Level, fraction: Float, validated
     }
 }
 
+/** Durée à la minute près (« 5 min », « 1 h 05 », « 2 h »). */
+@Composable
+private fun durationText(minutes: Int): String {
+    val hours = minutes / 60
+    val rest = minutes % 60
+    return when {
+        hours == 0 -> stringResource(R.string.time_minutes, rest)
+        rest == 0 -> stringResource(R.string.time_hours, hours)
+        else -> stringResource(R.string.time_hours_minutes, hours, rest)
+    }
+}
+
 /** Barre de progression du tome, avec le pourcentage dans une pastille au bout du remplissage. */
 @Composable
 private fun ProgressWithBadge(fraction: Float) {
@@ -287,6 +300,11 @@ private fun ChapterCard(
                         },
                         style = MaterialTheme.typography.titleMedium,
                         color = if (chapterDone) AppTheme.colors.correct else scheme.onSurfaceVariant,
+                    )
+                    Text(
+                        durationText(TimeEstimate.minutes(chapter)),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = scheme.onSurfaceVariant,
                     )
                     Spacer(Modifier.height(8.dp))
                     RichText(chapter.file.title.fr, style = MaterialTheme.typography.bodyLarge)
@@ -376,7 +394,12 @@ private fun ChapterPath(chapter: Chapter, progress: CourseProgress, next: Activi
     }
     quizzes.forEach { quiz ->
         Spacer(Modifier.height(10.dp))
-        CheckpointCard(done = progress.isCompleted(quiz), isNext = next == quiz, onClick = { onOpenActivity(quiz.id) })
+        CheckpointCard(
+            done = progress.isCompleted(quiz),
+            isNext = next == quiz,
+            minutes = TimeEstimate.minutes(quiz),
+            onClick = { onOpenActivity(quiz.id) },
+        )
     }
 }
 
@@ -400,6 +423,11 @@ private fun LessonRow(activity: Activity, completed: Boolean, isNext: Boolean, c
                 }
                 Spacer(Modifier.height(4.dp))
                 RichText(activity.file.title, style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.SemiBold, fontSize = 19.sp))
+                Text(
+                    durationText(TimeEstimate.minutes(activity)),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
             }
         }
         if (connectorBelow) {
@@ -484,7 +512,7 @@ private fun NextPill() {
 
 /** Bilan du chapitre : le quiz final. */
 @Composable
-private fun CheckpointCard(done: Boolean, isNext: Boolean, onClick: () -> Unit) {
+private fun CheckpointCard(done: Boolean, isNext: Boolean, minutes: Int, onClick: () -> Unit) {
     val colors = AppTheme.colors
     val scheme = MaterialTheme.colorScheme
     Row(
@@ -516,6 +544,11 @@ private fun CheckpointCard(done: Boolean, isNext: Boolean, onClick: () -> Unit) 
             Text(
                 stringResource(if (done) R.string.checkpoint_done else R.string.checkpoint_text),
                 style = MaterialTheme.typography.bodyMedium,
+            )
+            Text(
+                durationText(minutes),
+                style = MaterialTheme.typography.bodyMedium,
+                color = scheme.onSurfaceVariant,
             )
         }
     }
