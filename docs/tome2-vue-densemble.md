@@ -74,7 +74,7 @@ ordinaux (cours 10). Le sujet revient en révision (révision 4).
 
 | Cours | Contenu | Remarque |
 |---|---|---|
-| 1 | Phrase nominale (2ᵉ partie) : le prédicat, présentation des `نَوَاسِخُ` ; `إِنَّ وَأَخَوَاتُهَا` : `إِنَّ` / `أَنَّ`, `لَعَلَّ` ; `أَمْ` ; nombres (2ᵉ partie : vue d'ensemble) | **Cours très chargé** (4 sujets), à scinder sans doute |
+| 1 | Phrase nominale (2ᵉ partie) : le prédicat, présentation des `نَوَاسِخُ` ; `إِنَّ وَأَخَوَاتُهَا` : `إِنَّ` / `أَنَّ`, `لَعَلَّ` ; `أَمْ` ; nombres (2ᵉ partie : vue d'ensemble) | cours chargé (4 sujets) |
 | intro verbe | Le verbe (1ʳᵉ partie) : passé / présent / impératif ; le sujet du verbe (apparent ou pronom) | rattaché au cours 2 (≈) |
 | 2 | Pronoms sujets collés **du passé** (3ᵉ partie des pronoms) ; `كَانَ وَأَخَوَاتُهَا` (1ʳᵉ partie) : `لَيْسَ` | première vraie conjugaison |
 | 3 | Nombres 11 à 19 en détail (3ᵉ partie) ; `أَفْعَلُ التَّفْضِيلِ` ; `إِنَّ وَأَخَوَاتُهَا` (2ᵉ partie) : `كَأَنَّ`, `لَكِنَّ` (≈) | |
@@ -151,8 +151,9 @@ première à exiger le complément d'objet. Ce qui n'y est pas encore vu ne doit
   au tome 1).
 - **Nombres** : la règle d'accord « inversé » demande beaucoup d'exercices courts (`ثَلَاثَةُ كُتُبٍ`
   / `ثَلَاثُ بَنَاتٍ`).
-- **Cours trop chargés** (cours 1, cours 12 à 15) : prévoir de les scinder en plusieurs chapitres
-  (ids stables, jamais renumérotés : suffixes `…#3b` pour les écrans, nouveaux ids pour les chapitres).
+- **Découpage en chapitres : c'est l'utilisateur qui décide**, chapitre par chapitre. Ne jamais
+  scinder, regrouper ni réordonner les cours de sa propre initiative. Ce fichier ne sert qu'à
+  garder les grandes lignes du tome (fils rouges, ce qui précède, pièges) pour rester cohérent.
 - **Défis (quiz du professeur) et examen final** : aucun n'apparaît dans la copie ; à demander.
 - **Textes de révision** (extraits de « قَصَصُ النَّبِيِّينَ ») : en images dans le PDF, donc absents de
   la copie.
@@ -163,8 +164,6 @@ première à exiger le complément d'objet. Ce qui n'y est pas encore vu ne doit
 ## 7. Questions ouvertes pour l'utilisateur
 
 1. Numérotation des cours 6 et 12 à 15 (absente de la copie) : quel PDF correspond à quel numéro ?
-2. Comment découper les cours très chargés (1, 12 à 15) : un chapitre par support, ou un chapitre par cours ?
-3. Les pages du livre (dialogues, exercices) du tome 2 existent-elles, comme au tome 1 ? Elles sont absentes de la copie.
-4. Y a-t-il des quiz du professeur (défis) et un examen final pour le tome 2 ?
-5. Où est la « Révision 1 » du tome 2 (absente de la copie) ?
-6. Faut-il garder un chapitre par cours même quand le cours est une simple révision (cours 20, 22, 23) ?
+2. Les pages du livre (dialogues, exercices) du tome 2 existent-elles, comme au tome 1 ? Elles sont absentes de la copie.
+3. Y a-t-il des quiz du professeur (défis) et un examen final pour le tome 2 ?
+4. Où est la « Révision 1 » du tome 2 (absente de la copie) ?
