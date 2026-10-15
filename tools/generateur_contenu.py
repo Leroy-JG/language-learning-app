@@ -4,7 +4,8 @@ Usage (voir .claude/skills/nouvelle-lecon/SKILL.md) : écrire un script `mon_cha
 fait `import sys; sys.path.insert(0, "<dépôt>/tools"); from generateur_contenu import *`, définit les
 mots avec `item(...)`, écrit `activity("grammar-1", "grammar", "Titre", "icone", [ ...écrans... ])` pour
 chaque activité (ids d'écran numérotés automatiquement : `#1`, `#2`…) et `write("items.json", [...])`.
-Le numéro du chapitre vient de la variable d'environnement LURATA_CHAPITRE (ex. `LURATA_CHAPITRE=07`).
+Le numéro du chapitre vient de la variable d'environnement LURATA_CHAPITRE (ex. `LURATA_CHAPITRE=07`), le niveau de
+LURATA_NIVEAU (défaut `medine-t1` ; `medine-t2` pour le tome 2).
 Les espaces avant ? ! : ; » et après « deviennent des espaces insécables, et le JSON est mis en forme
 comme celui des chapitres existants. Le chapitre 6 a été écrit ainsi (modèle : docs/sources.md, leçon 6).
 Après génération : `./gradlew -p core validateContent` puis `python3 tools/controle_qualite.py lNN`.
@@ -13,8 +14,9 @@ import os
 import json, pathlib, re
 
 _N = int(os.environ.get("LURATA_CHAPITRE", "7"))
-CH = f"medine-t1.l{_N:02d}"
-OUT = pathlib.Path(__file__).resolve().parent.parent / f"app/src/main/assets/content/ar/medine-t1/l{_N:02d}"
+_NIVEAU = os.environ.get("LURATA_NIVEAU", "medine-t1")  # ex. medine-t2 pour le tome 2
+CH = f"{_NIVEAU}.l{_N:02d}"
+OUT = pathlib.Path(__file__).resolve().parent.parent / f"app/src/main/assets/content/ar/{_NIVEAU}/l{_N:02d}"
 NB = " "
 
 def fr(s):

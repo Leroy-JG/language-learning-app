@@ -1,0 +1,156 @@
+{
+  "id": "medine-t2.l01.dialogue-2",
+  "type": "dialogue",
+  "title": "Hāshim et son professeur : la famille",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t2.l01.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Hāshim et son professeur : la famille",
+      "intro": "Suite du texte du livre : le professeur interroge Hāshim sur le prix de la montre, puis sur ses frères et ses sœurs.",
+      "speakers": { "T": { "name": "Le professeur", "voice": "m1" }, "H": { "name": "Hāshim", "voice": "m2" } },
+      "lines": [
+        { "speaker": "T", "ar": "أَغَالِيَةٌ هِيَ أَمْ رَخِيصَةٌ؟", "fr": "Est-elle chère ou bon marché ?" },
+        {
+          "speaker": "H",
+          "ar": "إِنَّهَا رَخِيصَةٌ جِدًّا. إِنَّهَا بِمِائَةِ رُوبِيَّةٍ فَقَطْ.",
+          "fr": "Elle est très bon marché. Elle coûte cent roupies seulement."
+        },
+        { "speaker": "T", "ar": "كَمْ أَخًا لَكَ يَا هَاشِمُ؟", "fr": "Combien de frères as-tu, Hāshim ?" },
+        { "speaker": "H", "ar": "لِي ثَلَاثَةُ إِخْوَةٍ.", "fr": "J'ai trois frères." },
+        { "speaker": "T", "ar": "أَطُلَّابٌ هُمْ؟", "fr": "Sont-ils étudiants ?" },
+        { "speaker": "H", "ar": "لَا، إِنَّهُمْ تُجَّارٌ.", "fr": "Non, ce sont des commerçants." },
+        { "speaker": "T", "ar": "وَكَمْ أُخْتًا لَكَ؟", "fr": "Et combien de sœurs as-tu ?" },
+        { "speaker": "H", "ar": "لِي أَرْبَعُ أَخَوَاتٍ.", "fr": "J'ai quatre sœurs." },
+        { "speaker": "T", "ar": "أَفِي الْهِنْدِ هُنَّ الْآنَ؟", "fr": "Sont-elles en Inde maintenant ?" },
+        {
+          "speaker": "H",
+          "ar": "لَا، إِنَّهُنَّ هُنَا بِالْمَدِينَةِ الْمُنَوَّرَةِ مَعَ أَبِي وَأُمِّي.",
+          "fr": "Non, elles sont ici, à Médine, avec mon père et ma mère."
+        },
+        { "speaker": "T", "ar": "أَطَالِبَاتٌ هُنَّ؟", "fr": "Sont-elles étudiantes ?" }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Explication"],
+          "rows": [
+            [
+              "{ar|أَغَالِيَةٌ هِيَ؟}",
+              "est-elle chère ?",
+              "{ar|غَالِيَةٌ} : chère, féminin de {ar|غَالٍ} (tome 1, chapitre 17) ; {ar|أَ} + le prédicat + le sujet"
+            ],
+            ["{ar|بِمِائَةِ رُوبِيَّةٍ}", "pour cent roupies", "{ar|بِ} + {ar|مِائَةٌ} + le dénombré au singulier"],
+            [
+              "{ar|كَمْ أَخًا لَكَ؟}",
+              "combien de frères as-tu ?",
+              "{ar|كَمْ} + la précision à l'accusatif (tome 1, chapitre 18) ; {ar|لَكَ} = {ar|لِ} + {ar|كَ} (chapitre 10)"
+            ],
+            [
+              "{ar|ثَلَاثَةُ إِخْوَةٍ}",
+              "trois frères",
+              "{ar|أَخٌ} est masculin : {ar|ثَلَاثَةُ}, avec le pluriel {ar|إِخْوَةٌ}"
+            ],
+            ["{ar|أَرْبَعُ أَخَوَاتٍ}", "quatre sœurs", "{ar|أُخْتٌ} est féminin : {ar|أَرْبَعُ}, sans {ar|ة}"],
+            [
+              "{ar|أَطُلَّابٌ هُمْ؟}",
+              "sont-ils étudiants ?",
+              "{ar|أَ} + le prédicat ({ar|طُلَّابٌ}, pluriel de {ar|طَالِبٌ}) + le sujet {ar|هُمْ}"
+            ],
+            ["{ar|أَبِي وَأُمِّي}", "mon père et ma mère", "{ar|أَبٌ} et {ar|أُمٌّ} + {ar|ي} (tome 1, chapitre 10)"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le texte du livre s'arrête sur la question du professeur : « Sont-elles étudiantes ? ». Les formes nouvelles de ce tableau ne sont exigées dans aucun exercice."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Combien de frères Hāshim a-t-il ?" },
+      "choices": [ { "fr": "Trois" }, { "fr": "Quatre" }, { "fr": "Sept" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l01.dialogue-2#1" },
+      "explain": "{ar|لِي ثَلَاثَةُ إِخْوَةٍ} : « j'ai trois frères »."
+    },
+    {
+      "id": "medine-t2.l01.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Que font ses frères ?" },
+      "choices": [ { "fr": "Ce sont des commerçants" }, { "fr": "Ce sont des étudiants" }, { "fr": "Ce sont des médecins" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l01.dialogue-2#1" },
+      "explain": "{ar|إِنَّهُمْ تُجَّارٌ} : « ce sont des commerçants »."
+    },
+    {
+      "id": "medine-t2.l01.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "La montre de Hāshim est chère." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l01.dialogue-2#1" },
+      "explain": "Elle est {ar|رَخِيصَةٌ جِدًّا} : très bon marché, cent roupies seulement."
+    },
+    {
+      "id": "medine-t2.l01.dialogue-2#6",
+      "type": "question",
+      "prompt": { "fr": "Combien de sœurs Hāshim a-t-il ?" },
+      "choices": [ { "fr": "Quatre" }, { "fr": "Trois" }, { "fr": "Cinq" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l01.dialogue-2#1" },
+      "explain": "{ar|لِي أَرْبَعُ أَخَوَاتٍ} : « j'ai quatre sœurs »."
+    },
+    {
+      "id": "medine-t2.l01.dialogue-2#7",
+      "type": "question",
+      "prompt": { "fr": "Où sont ses sœurs ?" },
+      "choices": [ { "fr": "À Médine, avec leurs parents" }, { "fr": "En Inde" }, { "fr": "Au Japon" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l01.dialogue-2#1" },
+      "explain": "{ar|إِنَّهُنَّ هُنَا بِالْمَدِينَةِ الْمُنَوَّرَةِ مَعَ أَبِي وَأُمِّي}."
+    },
+    {
+      "id": "medine-t2.l01.dialogue-2#8",
+      "type": "fill_gap",
+      "sentence": "{0} تُجَّارٌ.",
+      "fr": "Ce sont des commerçants.",
+      "gaps": [ { "answers": ["إِنَّهُمْ"] } ],
+      "options": ["إِنَّهُمْ", "إِنَّهُنَّ", "إِنَّهَا"],
+      "context": { "dialogue": "medine-t2.l01.dialogue-2#1" },
+      "explain": "Le prédicat est au pluriel masculin : {ar|إِنَّهُمْ}."
+    },
+    {
+      "id": "medine-t2.l01.dialogue-2#9",
+      "type": "order",
+      "fr": "J'ai quatre sœurs.",
+      "answers": [["لِي", "أَرْبَعُ", "أَخَوَاتٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l01.dialogue-2#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai trois frères.",
+      "answers": ["لِي ثَلَاثَةُ إِخْوَةٍ.", "عِنْدِي ثَلَاثَةُ إِخْوَةٍ."]
+    },
+    {
+      "id": "medine-t2.l01.dialogue-2#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles sont ici, à Médine.",
+      "answers": [
+        "إِنَّهُنَّ هُنَا بِالْمَدِينَةِ الْمُنَوَّرَةِ.",
+        "هُنَّ هُنَا بِالْمَدِينَةِ الْمُنَوَّرَةِ.",
+        "إِنَّهُنَّ هُنَا بِالْمَدِينَةِ.",
+        "هُنَّ هُنَا بِالْمَدِينَةِ."
+      ]
+    }
+  ]
+}

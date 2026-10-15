@@ -1,0 +1,143 @@
+{
+  "id": "medine-t2.l01.practice-3",
+  "type": "grammar",
+  "title": "Les exercices 1 et 2 du livre",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l01.practice-3#1",
+      "type": "tip",
+      "title": "Questions sur le texte",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 1 du livre pose sept questions sur le texte ; l'exercice 2 te demande de choisir la phrase juste. Une question à repérer : {ar|أَيُحِبُّهُ الْمُدَرِّسُ؟} veut dire « le professeur l'aime-t-il ? » ({ar|أَ} + {ar|يُحِبُّ} + {ar|هُ}, « lui »)."
+        },
+        {
+          "type": "note",
+          "text": "Dans les questions, {ar|هُ} se rapporte à Hāshim : {ar|سَاعَتُهُ} (« sa montre »), {ar|لَهُ} (« à lui »), {ar|أَخَوَاتُهُ} (« ses sœurs »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.practice-3#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِنْ أَيْنَ هَاشِمٌ؟",
+      "answers": ["هُوَ مِنَ الْهِنْدِ.", "هَاشِمٌ مِنَ الْهِنْدِ.", "إِنَّهُ مِنَ الْهِنْدِ.", "مِنَ الْهِنْدِ."],
+      "fr": "D'où vient Hāshim ? — Il est de l'Inde.",
+      "instruction": "Réponds à la question.",
+      "context": { "dialogue": "medine-t2.l01.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l01.practice-3#3",
+      "type": "question",
+      "prompt": { "ar": "أَيُحِبُّهُ الْمُدَرِّسُ؟" },
+      "choices": [ { "fr": "Oui" }, { "fr": "Non" } ],
+      "answer": 0,
+      "shuffle": false,
+      "context": { "dialogue": "medine-t2.l01.dialogue-1#1" },
+      "explain": "La question veut dire : « Le professeur l'aime-t-il ? ». Il dit : {ar|أَنَا أُحِبُّكَ كَثِيرًا يَا هَاشِمُ}."
+    },
+    {
+      "id": "medine-t2.l01.practice-3#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِنْ أَيْنَ سَاعَتُهُ؟",
+      "answers": ["سَاعَتُهُ مِنَ الْهِنْدِ.", "هِيَ مِنَ الْهِنْدِ.", "إِنَّهَا مِنَ الْهِنْدِ.", "مِنَ الْهِنْدِ."],
+      "fr": "D'où vient sa montre ? — Elle est de l'Inde.",
+      "instruction": "Réponds à la question.",
+      "context": { "dialogue": "medine-t2.l01.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l01.practice-3#5",
+      "type": "question",
+      "prompt": { "ar": "بِكَمْ هِيَ؟" },
+      "choices": [ { "ar": "هِيَ بِمِائَةِ رُوبِيَّةٍ." }, { "ar": "هِيَ بِأَلْفِ رُوبِيَّةٍ." } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l01.dialogue-2#1" },
+      "explain": "{ar|بِكَمْ هِيَ؟} : « combien coûte-t-elle ? ». D'après le texte : {ar|بِمِائَةِ رُوبِيَّةٍ فَقَطْ}."
+    },
+    {
+      "id": "medine-t2.l01.practice-3#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ أَخًا لَهُ؟",
+      "answers": ["لَهُ ثَلَاثَةُ إِخْوَةٍ.", "عِنْدَهُ ثَلَاثَةُ إِخْوَةٍ.", "ثَلَاثَةُ إِخْوَةٍ."],
+      "fr": "Combien de frères a-t-il ? — Il a trois frères.",
+      "instruction": "Réponds à la question.",
+      "context": { "dialogue": "medine-t2.l01.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t2.l01.practice-3#7",
+      "type": "order",
+      "fr": "Il a quatre sœurs.",
+      "answers": [["لَهُ", "أَرْبَعُ", "أَخَوَاتٍ"]],
+      "punctuation": ".",
+      "explain": "C'est la réponse à {ar|كَمْ أُخْتًا لَهُ؟} (« combien de sœurs a-t-il ? »)."
+    },
+    {
+      "id": "medine-t2.l01.practice-3#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ أَخَوَاتُهُ؟",
+      "answers": [
+        "أَخَوَاتُهُ بِالْمَدِينَةِ الْمُنَوَّرَةِ.",
+        "هُنَّ بِالْمَدِينَةِ الْمُنَوَّرَةِ.",
+        "إِنَّهُنَّ بِالْمَدِينَةِ الْمُنَوَّرَةِ.",
+        "هُنَّ هُنَا بِالْمَدِينَةِ الْمُنَوَّرَةِ.",
+        "إِنَّهُنَّ هُنَا بِالْمَدِينَةِ الْمُنَوَّرَةِ.",
+        "أَخَوَاتُهُ هُنَا بِالْمَدِينَةِ الْمُنَوَّرَةِ.",
+        "بِالْمَدِينَةِ الْمُنَوَّرَةِ.",
+        "أَخَوَاتُهُ بِالْمَدِينَةِ.",
+        "هُنَّ بِالْمَدِينَةِ.",
+        "إِنَّهُنَّ بِالْمَدِينَةِ.",
+        "بِالْمَدِينَةِ."
+      ],
+      "fr": "Où sont ses sœurs ? — À Médine.",
+      "instruction": "Réponds à la question.",
+      "context": { "dialogue": "medine-t2.l01.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t2.l01.practice-3#9",
+      "type": "question",
+      "prompt": { "fr": "Quelle phrase est juste, d'après le texte ?" },
+      "choices": [ { "ar": "هَاشِمٌ طَالِبٌ كَسْلَانُ." }, { "ar": "هَاشِمٌ طَالِبٌ مُجْتَهِدٌ." } ],
+      "answer": 1,
+      "context": { "dialogue": "medine-t2.l01.dialogue-1#1" },
+      "explain": "Le professeur dit : {ar|إِنَّكَ طَالِبٌ ذَكِيٌّ وَمُجْتَهِدٌ}."
+    },
+    {
+      "id": "medine-t2.l01.practice-3#10",
+      "type": "true_false",
+      "statement": { "ar": "سَاعَتُهُ رَخِيصَةٌ.", "fr": "Sa montre est bon marché." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l01.dialogue-2#1" },
+      "explain": "{ar|إِنَّهَا رَخِيصَةٌ جِدًّا}."
+    },
+    {
+      "id": "medine-t2.l01.practice-3#11",
+      "type": "question",
+      "prompt": { "fr": "Quelle phrase est juste, d'après le texte ?" },
+      "choices": [ { "ar": "سَاعَتُهُ بِأَلْفِ رُوبِيَّةٍ." }, { "ar": "سَاعَتُهُ بِمِائَةِ رُوبِيَّةٍ." } ],
+      "answer": 1,
+      "context": { "dialogue": "medine-t2.l01.dialogue-2#1" },
+      "explain": "{ar|إِنَّهَا بِمِائَةِ رُوبِيَّةٍ فَقَطْ}."
+    },
+    {
+      "id": "medine-t2.l01.practice-3#12",
+      "type": "true_false",
+      "statement": { "ar": "أَخَوَاتُهُ بِالْهِنْدِ.", "fr": "Ses sœurs sont en Inde." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l01.dialogue-2#1" },
+      "explain": "Elles sont à Médine : {ar|إِنَّهُنَّ هُنَا بِالْمَدِينَةِ الْمُنَوَّرَةِ}."
+    },
+    {
+      "id": "medine-t2.l01.practice-3#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Sa montre coûte cent roupies.",
+      "answers": ["سَاعَتُهُ بِمِائَةِ رُوبِيَّةٍ.", "سَاعَتُهُ بِمِئَةِ رُوبِيَّةٍ."]
+    }
+  ]
+}

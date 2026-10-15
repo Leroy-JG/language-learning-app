@@ -6,6 +6,7 @@
   - Parmi eux, 4 mini-jeux : ranger, repérer, écrire lettre par lettre, mémoire.
   - Les astuces ont 7 sortes de blocs, dont comparer, décomposer, galerie et encadrés à ton.
   - Le guide de conception est `docs/pedagogie.md`.
+- **Tome de Médine 2 :** le niveau `medine-t2` existe ; la leçon 1 (`medine-t2.l01` : la phrase nominale 2, `إِنَّ` et ses sœurs, cent et mille, `بِ`, `أَمْ`, texte du livre) est publiée, décrite dans `docs/sources-t2-lecon-1.md`. Pas encore de défi ni d'examen pour ce tome.
 - **Parcours :** le Tome de Médine 1 est complet : chapitres 1 à 23 et deux chapitres de révision (`r01`, libellé « Révision 1 », placé après le chapitre 9 ; `r02`, libellé « Révision 2 », placé à la fin, après le chapitre 23). Les chapitres s'affichent en accordéon et rien n'est verrouillé.
 - **Défis (quiz du professeur) :** neuf défis (après les leçons 4, 5, 8, 9, 10, 13, 17, 18, 21) et le grand défi final, notés sur 20 (réussi à 12/20) ; la réussite de l'examen valide le tome. Voir `docs/sources-quiz.md`.
 - **Réviser :** répétition espacée FSRS-5, deux onglets (Vocabulaire / Grammaire), niveaux de maîtrise, favoris, recherche.
@@ -23,8 +24,9 @@
 
 ## À faire, par ordre de priorité
 
-1. **Leçons suivantes du Tome de Médine 1**, avec la procédure `.claude/skills/nouvelle-lecon/SKILL.md`. Il faut que l'utilisateur joigne les PDF.
-   - Prochaine : le Tome 2 (menu créé, aucun chapitre pour l'instant ; plan dans `docs/tome2-vue-densemble.md`, questions ouvertes au §7 ; le tome 1 est terminé : chapitres 1 à 23 et révisions 1 et 2 ; la leçon 18 est décrite dans `docs/sources-lecon-18.md`, les autres dans `docs/sources.md`).
+1. **Leçons suivantes du Tome de Médine 2**, avec la procédure `.claude/skills/nouvelle-lecon/SKILL.md` (niveau `medine-t2`, `LURATA_NIVEAU=medine-t2`). Il faut que l'utilisateur joigne les PDF.
+   - Prochaine : la suite du tome 2, **découpage décidé par l'utilisateur** (plan et questions ouvertes dans `docs/tome2-vue-densemble.md` §7 ; la leçon 1 est décrite dans `docs/sources-t2-lecon-1.md` ; le tome 1 est terminé : chapitres 1 à 23 et révisions 1 et 2, la leçon 18 dans `docs/sources-lecon-18.md`, les autres dans `docs/sources.md`).
+   - À prévoir pour le tome 2 : `كَانَ` et ses sœurs, `أَظُنُّ` (cités en aperçu à la leçon 1), `كَأَنَّ` et `لَكِنَّ`, le détail des nombres de 11 à 99 ; ses défis (`qNN`) et son examen final.
    - À confirmer avec le professeur (leçon 21) : `إِنْكِلْتِرَا` (graphie du livre, avec ك) face à `إِنْجِلْتِرَا`, et la traduction de `الْمَدِينَةُ` par « Médine » dans le texte.
    - À confirmer avec le professeur (leçon 20) : la forme `أُرُوبَّا` (lettres dans cet ordre) sur la carte du PDF, face à `أُورُبَّا` / `أُورُوبَّا` dans l'app (l'exercice 3 de la leçon 21 écrit `أُورُبَّا`, comme l'app).
    - À confirmer avec le professeur (leçon 19) : `قُدَامَى` comme pluriel de `قَدِيمٌ` (attesté dans les dictionnaires modernes, non retrouvé dans Lisān al-ʿArab / al-Wasīṭ).

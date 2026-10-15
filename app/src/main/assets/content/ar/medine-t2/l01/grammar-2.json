@@ -1,0 +1,159 @@
+{
+  "id": "medine-t2.l01.grammar-2",
+  "type": "grammar",
+  "title": "Certes… : {ar|إِنَّ}",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l01.grammar-2#1",
+      "type": "tip",
+      "title": "{ar|إِنَّ} et ses sœurs",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|إِنَّ} fait partie d'un groupe de particules ({ar|حُرُوفٌ}) que le professeur appelle {ar|إِنَّ وَأَخَوَاتُهَا} (« {ar|إِنَّ} et ses sœurs »). Ce sont des {ar|النَّوَاسِخُ} : elles agissent de deux manières sur la phrase nominale."
+        },
+        {
+          "type": "table",
+          "header": ["Fonction", "Pour {ar|إِنَّ}"],
+          "rows": [
+            ["1. Elle change le sens", "elle **confirme** et appuie le sens de la phrase : « certes… »"],
+            [
+              "2. Elle change le statut du sujet et du prédicat",
+              "le sujet passe à l'**accusatif** ; le prédicat reste au **nominatif**"
+            ]
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t2.l01.grammar-2#2", "type": "present", "item": "w:inna" },
+    { "id": "medine-t2.l01.grammar-2#3", "type": "present", "item": "w:tawkid" },
+    {
+      "id": "medine-t2.l01.grammar-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:inna",
+      "distractors": ["w:lakin", "w:am"],
+      "explain": "{ar|إِنَّ} : « certes ». {ar|لٰكِنْ} : « mais » ; {ar|أَمْ} : « ou » (dans une question à deux choix)."
+    },
+    {
+      "id": "medine-t2.l01.grammar-2#5",
+      "type": "tip",
+      "title": "Le sujet à l'accusatif, le prédicat au nominatif",
+      "blocks": [
+        { "type": "paragraph", "text": "Compare une phrase nominale ordinaire et la même phrase avec {ar|إِنَّ}." },
+        { "type": "example", "ar": "زَيْدٌ طَالِبٌ.", "fr": "Zayd est étudiant." },
+        { "type": "example", "ar": "إِنَّ زَيْدًا طَالِبٌ.", "fr": "Certes, Zayd est étudiant." },
+        {
+          "type": "table",
+          "header": ["Phrase", "{ar|زَيْدٌ}", "{ar|طَالِبٌ}"],
+          "rows": [
+            ["{ar|زَيْدٌ طَالِبٌ}", "{ar|مُبْتَدَأٌ} (sujet), nominatif", "{ar|خَبَرٌ} (prédicat), nominatif"],
+            [
+              "{ar|إِنَّ زَيْدًا طَالِبٌ}",
+              "{ar|اِسْمُ إِنَّ}, accusatif ({ar|مَنْصُوبٌ})",
+              "{ar|خَبَرُ إِنَّ}, nominatif ({ar|مَرْفُوعٌ})"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|مَرْفُوعٌ} veut dire « au nominatif » ({ar|الرَّفْعُ}) et {ar|مَنْصُوبٌ} « à l'accusatif » ({ar|النَّصْبُ}) ; tu connais ces cas depuis le tome 1."
+        }
+      ]
+    },
+    { "id": "medine-t2.l01.grammar-2#6", "type": "present", "item": "w:ism-inna" },
+    { "id": "medine-t2.l01.grammar-2#7", "type": "present", "item": "w:khabar-inna" },
+    {
+      "id": "medine-t2.l01.grammar-2#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|إِنَّ زَيْدًا طَالِبٌ}, quel est le cas de {ar|زَيْدًا} ?" },
+      "choices": [ { "fr": "L'accusatif (la fatha)" }, { "fr": "Le nominatif (la damma)" }, { "fr": "Le génitif (la kasra)" } ],
+      "answer": 0,
+      "explain": "Après {ar|إِنَّ}, le sujet passe à l'accusatif : c'est {ar|اِسْمُ إِنَّ}."
+    },
+    {
+      "id": "medine-t2.l01.grammar-2#9",
+      "type": "tip",
+      "title": "Ce que devient le nom après {ar|إِنَّ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Après {ar|إِنَّ}, un nom au singulier (ou au pluriel irrégulier) prend la **fatha** (ou le tanwin avec la fatha, avec un alif en général). Le prédicat, lui, ne change pas. Le duel et les pluriels réguliers gardent leurs marques de l'accusatif du tome 1 ({ar|◌َيْنِ}, {ar|◌ِينَ}, la kasra du pluriel féminin)."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "الْمُدَرِّسُ جَدِيدٌ.", "fr": "L'enseignant est nouveau." },
+              "to": { "ar": "إِنَّ الْمُدَرِّسَ جَدِيدٌ.", "fr": "Certes, l'enseignant est nouveau." },
+              "label": "damma → fatha"
+            },
+            {
+              "from": { "ar": "فَاطِمَةُ طَبِيبَةٌ.", "fr": "Fāṭima est médecin." },
+              "to": { "ar": "إِنَّ فَاطِمَةَ طَبِيبَةٌ.", "fr": "Certes, Fāṭima est médecin." },
+              "label": "nom sans tanwin : damma → fatha"
+            },
+            {
+              "from": { "ar": "حَامِدٌ مُتَزَوِّجٌ.", "fr": "Ḥāmid est marié." },
+              "to": { "ar": "إِنَّ حَامِدًا مُتَزَوِّجٌ.", "fr": "Certes, Ḥāmid est marié." },
+              "label": "tanwin damma → tanwin fatha, avec alif"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Quand le prédicat est un groupe « préposition + nom », il garde sa propre terminaison : {ar|إِنَّ زَيْدًا فِي الْفَصْلِ} (« certes, Zayd est dans la classe »)."
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Pour retenir : {ar|إِنَّ} « pousse son nom à l'accusatif » (à la fatha pour un nom singulier) ; le prédicat ne bouge pas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-2#10",
+      "type": "spot",
+      "instruction": "Touche {ar|اِسْمُ إِنَّ} (le sujet, à l'accusatif).",
+      "words": ["إِنَّ", "الْمُدَرِّسَ", "جَدِيدٌ."],
+      "answers": [1],
+      "fr": "Certes, l'enseignant est nouveau."
+    },
+    {
+      "id": "medine-t2.l01.grammar-2#11",
+      "type": "spot",
+      "instruction": "Touche {ar|خَبَرُ إِنَّ} (le prédicat, au nominatif).",
+      "words": ["إِنَّ", "حَامِدًا", "مُتَزَوِّجٌ."],
+      "answers": [2],
+      "fr": "Certes, Ḥāmid est marié."
+    },
+    {
+      "id": "medine-t2.l01.grammar-2#12",
+      "type": "fill_gap",
+      "sentence": "إِنَّ زَيْدًا {0}.",
+      "fr": "Certes, Zayd est étudiant.",
+      "gaps": [ { "answers": ["طَالِبٌ"] } ],
+      "options": ["طَالِبٌ", "طَالِبًا", "طَالِبَةٌ"],
+      "explain": "Le prédicat reste au nominatif : {ar|طَالِبٌ}, avec la damma."
+    },
+    {
+      "id": "medine-t2.l01.grammar-2#13",
+      "type": "order",
+      "fr": "Certes, l'enseignant est nouveau.",
+      "answers": [["إِنَّ", "الْمُدَرِّسَ", "جَدِيدٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l01.grammar-2#14",
+      "type": "typing",
+      "ask": "question",
+      "question": "الْمُدَرِّسُ جَدِيدٌ.",
+      "answers": ["إِنَّ الْمُدَرِّسَ جَدِيدٌ."],
+      "fr": "L'enseignant est nouveau. → Certes, l'enseignant est nouveau.",
+      "instruction": "Ajoute {ar|إِنَّ} au début, et mets le nom à la bonne fin.",
+      "explain": "Après {ar|إِنَّ}, {ar|الْمُدَرِّسُ} devient {ar|الْمُدَرِّسَ} ; {ar|جَدِيدٌ} ne change pas."
+    }
+  ]
+}

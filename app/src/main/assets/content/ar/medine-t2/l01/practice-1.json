@@ -1,0 +1,148 @@
+{
+  "id": "medine-t2.l01.practice-1",
+  "type": "grammar",
+  "title": "Les exercices 4 et 5 du livre",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l01.practice-1#1",
+      "type": "tip",
+      "title": "Ajouter {ar|إِنَّ} à une phrase, en trois gestes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 4 du livre te demande d'ajouter {ar|إِنَّ} à dix phrases ; l'exercice 5 donne trois phrases transformées à lire. La méthode est toujours la même :"
+        },
+        {
+          "type": "table",
+          "header": ["Geste", "Exemple"],
+          "rows": [
+            ["1. Écrire {ar|إِنَّ} au début", "{ar|إِنَّ} …"],
+            ["2. Le pronom sujet se colle à {ar|إِنَّ}", "{ar|هُوَ تَاجِرٌ} → {ar|إِنَّهُ تَاجِرٌ}"],
+            ["3. Le prédicat ne change pas", "{ar|أَنْتَ رَجُلٌ غَنِيٌّ} → {ar|إِنَّكَ رَجُلٌ غَنِيٌّ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Si le sujet est un nom singulier et non un pronom, c'est le nom qui passe à la fatha : {ar|الْمُدَرِّسُ جَدِيدٌ} → {ar|إِنَّ الْمُدَرِّسَ جَدِيدٌ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.practice-1#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَنَا طَالِبٌ.",
+      "answers": ["إِنِّي طَالِبٌ.", "إِنَّنِي طَالِبٌ."],
+      "fr": "Je suis étudiant. → Certes, je suis étudiant.",
+      "instruction": "Ajoute {ar|إِنَّ} (le pronom se colle à {ar|إِنَّ}).",
+      "explain": "{ar|إِنَّ} + {ar|أَنَا} = {ar|إِنِّي} ou {ar|إِنَّنِي}."
+    },
+    {
+      "id": "medine-t2.l01.practice-1#3",
+      "type": "fill_gap",
+      "sentence": "{0} تَاجِرٌ.",
+      "fr": "Certes, il est commerçant.",
+      "gaps": [ { "answers": ["إِنَّهُ"] } ],
+      "options": ["إِنَّهُ", "إِنَّهَا", "إِنَّهُمْ", "إِنَّكَ"]
+    },
+    {
+      "id": "medine-t2.l01.practice-1#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "هُمْ مِنَ الْيَابَانِ.",
+      "answers": ["إِنَّهُمْ مِنَ الْيَابَانِ."],
+      "fr": "Ils sont du Japon. → Certes, ils sont du Japon.",
+      "instruction": "Ajoute {ar|إِنَّ}.",
+      "explain": "Le prédicat {ar|مِنَ الْيَابَانِ} (préposition + nom) ne change pas."
+    },
+    {
+      "id": "medine-t2.l01.practice-1#5",
+      "type": "order",
+      "fr": "Certes, vous êtes intelligents.",
+      "answers": [["إِنَّكُمْ", "أَذْكِيَاءُ"]],
+      "punctuation": ".",
+      "distractors": ["إِنَّكُنَّ"]
+    },
+    {
+      "id": "medine-t2.l01.practice-1#6",
+      "type": "fill_gap",
+      "sentence": "{0} مُتَزَوِّجَةٌ.",
+      "fr": "Certes, elle est mariée.",
+      "gaps": [ { "answers": ["إِنَّهَا"] } ],
+      "options": ["إِنَّهَا", "إِنَّهُ", "إِنَّنَا"]
+    },
+    {
+      "id": "medine-t2.l01.practice-1#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "نَحْنُ مُسْلِمُونَ.",
+      "answers": ["إِنَّنَا مُسْلِمُونَ.", "إِنَّا مُسْلِمُونَ."],
+      "fr": "Nous sommes musulmans. → Certes, nous sommes musulmans.",
+      "instruction": "Ajoute {ar|إِنَّ}."
+    },
+    {
+      "id": "medine-t2.l01.practice-1#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَنْتُنَّ مُجْتَهِدَاتٌ.",
+      "answers": ["إِنَّكُنَّ مُجْتَهِدَاتٌ."],
+      "fr": "Vous êtes studieuses. → Certes, vous êtes studieuses.",
+      "instruction": "Ajoute {ar|إِنَّ}.",
+      "explain": "{ar|أَنْتُنَّ} (plusieurs femmes) devient {ar|إِنَّكُنَّ}."
+    },
+    {
+      "id": "medine-t2.l01.practice-1#9",
+      "type": "order",
+      "fr": "Certes, elles sont musulmanes.",
+      "answers": [["إِنَّهُنَّ", "مُسْلِمَاتٌ"]],
+      "punctuation": ".",
+      "distractors": ["إِنَّهُمْ"]
+    },
+    {
+      "id": "medine-t2.l01.practice-1#10",
+      "type": "fill_gap",
+      "sentence": "{0} رَجُلٌ غَنِيٌّ.",
+      "fr": "Certes, tu (un homme) es un homme riche.",
+      "gaps": [ { "answers": ["إِنَّكَ"] } ],
+      "options": ["إِنَّكَ", "إِنَّكُمْ", "إِنَّهُ"],
+      "explain": "{ar|رَجُلٌ غَنِيٌّ} est le prédicat : il garde sa damma et son tanwin."
+    },
+    {
+      "id": "medine-t2.l01.practice-1#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَنْتِ ذَكِيَّةٌ.",
+      "answers": ["إِنَّكِ ذَكِيَّةٌ."],
+      "fr": "Tu es intelligente. → Certes, tu es intelligente.",
+      "instruction": "Ajoute {ar|إِنَّ}. Tu parles à une femme.",
+      "explain": "{ar|أَنْتِ} (à une femme) devient {ar|إِنَّكِ}."
+    },
+    {
+      "id": "medine-t2.l01.practice-1#12",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|إِنَّ فَاطِمَةَ طَبِيبَةٌ}, le prédicat {ar|طَبِيبَةٌ} reste au nominatif." },
+      "answer": true,
+      "explain": "Seul le sujet passe à l'accusatif ({ar|فَاطِمَةُ} → {ar|فَاطِمَةَ}, sans tanwin : la fatha)."
+    },
+    {
+      "id": "medine-t2.l01.practice-1#13",
+      "type": "typing",
+      "ask": "question",
+      "question": "فَاطِمَةُ طَبِيبَةٌ.",
+      "answers": ["إِنَّ فَاطِمَةَ طَبِيبَةٌ."],
+      "fr": "Fāṭima est médecin. → Certes, Fāṭima est médecin.",
+      "instruction": "Ajoute {ar|إِنَّ} (exercice 5 du livre)."
+    },
+    {
+      "id": "medine-t2.l01.practice-1#14",
+      "type": "typing",
+      "ask": "question",
+      "question": "حَامِدٌ مُتَزَوِّجٌ.",
+      "answers": ["إِنَّ حَامِدًا مُتَزَوِّجٌ."],
+      "fr": "Ḥāmid est marié. → Certes, Ḥāmid est marié.",
+      "instruction": "Ajoute {ar|إِنَّ} (exercice 5 du livre).",
+      "explain": "Le tanwin damma de {ar|حَامِدٌ} devient un tanwin fatha : {ar|حَامِدًا}."
+    }
+  ]
+}

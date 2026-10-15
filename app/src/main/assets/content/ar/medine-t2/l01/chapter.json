@@ -1,0 +1,19 @@
+{
+  "id": "medine-t2.l01",
+  "number": 1,
+  "title": { "ar": "الدَّرْسُ الْأَوَّلُ", "fr": "La phrase nominale (2) : {ar|إِنَّ} et ses sœurs" },
+  "description": "Les mots qui changent la phrase nominale ({ar|النَّوَاسِخُ}) : {ar|إِنَّ}, {ar|أَنَّ} et {ar|لَعَلَّ} avec leurs pronoms ; cent et mille ; {ar|بِ} ; {ar|أَمْ} ; le texte du livre et ses exercices.",
+  "source": "Tome de Médine 2, leçon 1",
+  "sections": [
+    { "title": "Revoir la phrase nominale", "activities": ["revue-1"] },
+    { "title": "Ceux qui abrogent : {ar|النَّوَاسِخُ}", "activities": ["grammar-1"] },
+    { "title": "Intelligent, marié, célibataire", "activities": ["vocab-1"] },
+    { "title": "Certes… : {ar|إِنَّ}", "activities": ["grammar-2", "grammar-3", "practice-1"] },
+    { "title": "{ar|لَعَلَّ}, {ar|أَنَّ} et les six particules", "activities": ["grammar-4", "grammar-5"] },
+    { "title": "Cent et mille", "activities": ["grammar-6", "vocab-2"] },
+    { "title": "Prix, expressions et exercice 12", "activities": ["grammar-7", "vocab-3", "vocab-4", "practice-2"] },
+    { "title": "Choisir entre deux réponses : {ar|أَمْ}", "activities": ["grammar-8"] },
+    { "title": "Le texte du livre", "activities": ["dialogue-1", "dialogue-2", "practice-3"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

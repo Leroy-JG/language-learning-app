@@ -124,6 +124,14 @@ Quand les PDF sont surtout des **rappels** avec quelques éléments nouveaux :
 - le chapitre `r02` ajoute un point de grammaire (`grammar-1`, avec deux nouveaux termes), six rappels `review` (`revue-1` à `revue-6`), onze activités de vocabulaire (mots du PDF, avec tableaux des quatre formes des verbes en aperçu) et cinq textes en `dialogue` ; avant d'ajouter un mot, vérifier qu'aucun élément existant n'a les mêmes lettres (le validateur ne voit que les ids : `w:imam` existait déjà au chapitre 2) ;
 - les textes du professeur qui contiennent des formes pas encore enseignées (suffixes, conjugaisons, complément d'objet, adjectif épithète) se reprennent en **dialogue** avec une astuce « Des petites formes à repérer » (aperçu, rien n'est exigé en exercice) ; ne créer ni `grammar` ni exercice sur ces formes avant la leçon qui les enseigne.
 
+## 2 quinquies. Tome 2 (niveau `medine-t2`, leçon 1 écrite en premier)
+
+- Chapitre `medine-t2.lNN` (dossier `medine-t2/lNN/`, `number` repart de 1 : la numérotation est contrôlée par niveau), ajouté à la fin de `chapters` de `medine-t2/level.json`. Les ids d'éléments `w:` / `p:` restent uniques dans **tout le cours** (tomes 1 et 2) : vérifier avec `python3 tools/deja_enseigne.py` (les éléments du tome 2 sont préfixés `t2/lNN`).
+- Outils : `LURATA_NIVEAU=medine-t2 LURATA_CHAPITRE=02 python3 mon_script.py` (générateur), `LURATA_NIVEAU=medine-t2 python3 tools/lire_chapitre.py 02 grammar-1.json`, `LURATA_NIVEAU=medine-t2 python3 tools/controle_qualite.py l02`. Mettre `PYTHONDONTWRITEBYTECODE=1` : `tools/__pycache__` est suivi par git, ne pas le salir.
+- Les PDF du tome 2 sont des **diapositives** (parfois deux PDF qui se recoupent : fusionner). Les exercices du livre sont des images de pages : les zoomer (`pdftoppm -r 220 -f N -l N -png`, puis Read de l'image) avant de transcrire, surtout les harakat et les chiffres (le PDF de la leçon 1 contient des chiffres faux à l'exercice 12).
+- Pièges de la leçon 1 : pas de tatweel `ـ` dans un `{ar|…}` (écrire `{ar|كَ}`, `{ar|نِي}`, `{ar|◌ِي}`) ; pas de « … » dans un texte arabe ; `fill_gap` et `question` sans deux options qui ne diffèrent que par les harakat (`إِنَّكَ` / `إِنَّكِ`) ; les tests de `core` qui supposaient un seul niveau (`CourseProgressTest`) ont été corrigés : ne pas en réintroduire.
+- Un point de grammaire annoncé dans une diapositive (`كَانَ`, `لَيْسَ`, `أَظُنُّ`, nombres 11-99…) mais pas encore enseigné se cite en **aperçu** (tableau, note), sans carte ni exercice.
+
 ## 3. Vérifications automatiques
 
 ```

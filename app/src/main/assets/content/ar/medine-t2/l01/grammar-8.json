@@ -1,0 +1,167 @@
+{
+  "id": "medine-t2.l01.grammar-8",
+  "type": "grammar",
+  "title": "Choisir entre deux réponses : {ar|أَمْ}",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l01.grammar-8#1",
+      "type": "tip",
+      "title": "{ar|أَمْ} : une conjonction de choix",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|أَمْ} (tome 1, chapitre 21). Le professeur la range parmi les {ar|الْعَوَاطِفُ}, les « conjonctions de coordination ». Elle a plusieurs fonctions ; l'une d'elles est d'exprimer le **choix entre deux réponses** dans une question, à deux conditions :"
+        },
+        {
+          "type": "table",
+          "header": ["Condition", "Exemple"],
+          "rows": [
+            [
+              "La question commence par la hamza d'interrogation ({ar|هَمْزَةُ الِاسْتِفْهَامِ}, {ar|أَ})",
+              "{ar|أَزَيْدٌ دَخَلَ}"
+            ],
+            ["Le premier choix suit {ar|أَ}, le second suit {ar|أَمْ}", "{ar|أَزَيْدٌ دَخَلَ أَمْ يَاسِرٌ؟}"]
+          ]
+        },
+        { "type": "example", "ar": "أَزَيْدٌ دَخَلَ أَمْ يَاسِرٌ؟", "fr": "Est-ce Zayd qui est entré, ou Yāsir ?" },
+        { "type": "example", "ar": "أَطَبِيبٌ أَنْتَ أَمْ مُهَنْدِسٌ؟", "fr": "Es-tu médecin ou ingénieur ?" },
+        {
+          "type": "example",
+          "ar": "أَمِنَ الْهِنْدِ أَنْتَ أَمْ مِنْ بَاكِسْتَانَ؟",
+          "fr": "Es-tu de l'Inde ou du Pakistan ?"
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "On ne répond pas par « oui » ou « non », mais en choisissant l'un des deux termes. Dans les modèles du livre, ce sur quoi porte le choix ({ar|أَطَبِيبٌ}, {ar|أَمِنَ الْهِنْدِ}) est placé juste après {ar|أَ}, avant le pronom."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-8#2",
+      "type": "question",
+      "prompt": { "fr": "Que fait {ar|أَمْ} dans {ar|أَطَبِيبٌ أَنْتَ أَمْ مُهَنْدِسٌ؟}" },
+      "choices": [
+        { "fr": "Elle propose un choix entre deux réponses" },
+        { "fr": "Elle nie la phrase" },
+        { "fr": "Elle demande « où ? »" }
+      ],
+      "answer": 0,
+      "explain": "Elle relie les deux possibilités : médecin ou ingénieur."
+    },
+    {
+      "id": "medine-t2.l01.grammar-8#3",
+      "type": "true_false",
+      "statement": { "fr": "À une question avec {ar|أَمْ}, on répond par « oui » ou par « non »." },
+      "answer": false,
+      "explain": "Faux : on choisit l'un des deux termes, par exemple {ar|أَنَا مُهَنْدِسٌ}."
+    },
+    {
+      "id": "medine-t2.l01.grammar-8#4",
+      "type": "spot",
+      "instruction": "Touche la conjonction qui offre le choix.",
+      "words": ["أَطَبِيبٌ", "أَنْتَ", "أَمْ", "مُهَنْدِسٌ؟"],
+      "answers": [2],
+      "fr": "Es-tu médecin ou ingénieur ?"
+    },
+    {
+      "id": "medine-t2.l01.grammar-8#5",
+      "type": "sort",
+      "categories": [ { "fr": "par oui ou non" }, { "fr": "par l'un des deux choix" } ],
+      "cards": [
+        { "ar": "أَهُوَ طَالِبٌ؟", "category": 0 },
+        { "ar": "أَطَالِبٌ هُوَ أَمْ مُدَرِّسٌ؟", "category": 1 },
+        { "ar": "أَهٰذَا بَيْتٌ؟", "category": 0 },
+        { "ar": "أَهٰذَا بَيْتٌ أَمْ مَسْجِدٌ؟", "category": 1 },
+        { "ar": "أَفِي الْفَصْلِ أَنْتَ؟", "category": 0 },
+        { "ar": "أَفِي الْفَصْلِ أَنْتَ أَمْ فِي الْبَيْتِ؟", "category": 1 }
+      ],
+      "instruction": "Comment répond-on à cette question ?",
+      "explain": "Sans {ar|أَمْ}, la question attend « oui » ou « non » ; avec {ar|أَمْ}, elle propose deux réponses."
+    },
+    {
+      "id": "medine-t2.l01.grammar-8#6",
+      "type": "tip",
+      "title": "L'exercice 7 : fabriquer des questions",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 7 du livre te donne trois mots : un pronom (ou un démonstratif) et deux choix. Tu fabriques une question avec {ar|أَمْ}, sur le modèle des exemples. Le choix passe en premier, le pronom ensuite :"
+        },
+        {
+          "type": "breakdown",
+          "ar": "أَطَبِيبٌ أَنْتَ أَمْ مُهَنْدِسٌ",
+          "fr": "es-tu médecin ou ingénieur",
+          "parts": [
+            { "ar": "أَ", "fr": "est-ce que" },
+            { "ar": "طَبِيبٌ", "fr": "médecin" },
+            { "ar": "أَنْتَ", "fr": "toi" },
+            { "ar": "أَمْ", "fr": "ou" },
+            { "ar": "مُهَنْدِسٌ", "fr": "ingénieur" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-8#7",
+      "type": "order",
+      "fr": "Es-tu studieux ou paresseux ? (à un homme)",
+      "answers": [["أَمُجْتَهِدٌ", "أَنْتَ", "أَمْ", "كَسْلَانُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l01.grammar-8#8",
+      "type": "order",
+      "fr": "Est-elle de Chine ou du Japon ?",
+      "answers": [["أَمِنَ", "الصِّينِ", "هِيَ", "أَمْ", "مِنَ", "الْيَابَانِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l01.grammar-8#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Es-tu médecin ou infirmière ? (à une femme)",
+      "answers": ["أَطَبِيبَةٌ أَنْتِ أَمْ مُمَرِّضَةٌ؟", "أَأَنْتِ طَبِيبَةٌ أَمْ مُمَرِّضَةٌ؟"]
+    },
+    {
+      "id": "medine-t2.l01.grammar-8#10",
+      "type": "order",
+      "fr": "Est-ce une mosquée ou une école ?",
+      "answers": [["أَمَسْجِدٌ", "هٰذَا", "أَمْ", "مَدْرَسَةٌ"]],
+      "punctuation": "؟",
+      "explain": "L'ordre du livre place d'abord ce sur quoi porte le choix. On rencontre aussi {ar|أَهٰذَا مَسْجِدٌ أَمْ مَدْرَسَةٌ؟}."
+    },
+    {
+      "id": "medine-t2.l01.grammar-8#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Es-tu marié ou célibataire ? (à un homme)",
+      "answers": ["أَمُتَزَوِّجٌ أَنْتَ أَمْ عَزَبٌ؟", "أَأَنْتَ مُتَزَوِّجٌ أَمْ عَزَبٌ؟"]
+    },
+    {
+      "id": "medine-t2.l01.grammar-8#12",
+      "type": "order",
+      "fr": "Ta maison est-elle proche ou loin ?",
+      "answers": [["أَقَرِيبٌ", "بَيْتُكَ", "أَمْ", "بَعِيدٌ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l01.grammar-8#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Est-ce la voiture du directeur ou la voiture de l'enseignant ?",
+      "answers": [
+        "أَسَيَّارَةُ الْمُدِيرِ هٰذِهِ أَمْ سَيَّارَةُ الْمُدَرِّسِ؟",
+        "أَهٰذِهِ سَيَّارَةُ الْمُدِيرِ أَمْ سَيَّارَةُ الْمُدَرِّسِ؟"
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-8#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Sont-elles tes tantes maternelles ou tes tantes paternelles ? (à un homme)",
+      "answers": ["أَخَالَاتُكَ هُنَّ أَمْ عَمَّاتُكَ؟", "أَهُنَّ خَالَاتُكَ أَمْ عَمَّاتُكَ؟"]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "medine-t2.l01.vocab-4",
+  "type": "vocabulary",
+  "title": "Qui a de la science, de l'argent…",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t2.l01.vocab-4#1", "type": "present", "item": "w:dhu" },
+    {
+      "id": "medine-t2.l01.vocab-4#2",
+      "type": "tip",
+      "title": "{ar|ذُو} : « qui a »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|ذُو} veut dire « qui a, possesseur de ». Il est **toujours suivi d'un nom**, auquel il est annexé : le nom qui suit est au génitif."
+        },
+        {
+          "type": "table",
+          "header": ["Expression", "Sens"],
+          "rows": [
+            ["{ar|ذُو خُلُقٍ}", "qui a un bon comportement"],
+            ["{ar|ذُو عِلْمٍ}", "qui a de la science"],
+            ["{ar|ذُو مَالٍ}", "qui a de l'argent"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|ذُو} est la forme du nominatif. À l'accusatif, on dit {ar|ذَا} ; au génitif, {ar|ذِي} (comme {ar|أَبُو} et {ar|أَبِي}, tome 1, chapitre 10). Au féminin : {ar|ذَاتُ} ({ar|هِيَ ذَاتُ خُلُقٍ})."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|ذُو} fait partie des « cinq noms » ({ar|الْأَسْمَاءُ الْخَمْسَةُ} : {ar|أَبُو}, {ar|أَخُو}, {ar|حَمُو}, {ar|فُو}, {ar|ذُو}). Quand ils sont annexés à un autre mot que le {ar|ي} de « mon », ils prennent {ar|و}, {ar|ا} ou {ar|ي} au lieu de la damma, de la fatha et de la kasra : {ar|أَبُوهُ}, {ar|أَبَاهُ}, {ar|أَبِيهِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:dhu",
+      "distractors": ["w:inda", "w:maa-2"]
+    },
+    { "id": "medine-t2.l01.vocab-4#4", "type": "present", "item": "p:dhu-khuluq" },
+    { "id": "medine-t2.l01.vocab-4#5", "type": "present", "item": "p:dhu-ilm" },
+    { "id": "medine-t2.l01.vocab-4#6", "type": "present", "item": "p:dhu-mal" },
+    {
+      "id": "medine-t2.l01.vocab-4#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["p:dhu-khuluq", "p:dhu-ilm", "p:dhu-mal"]
+    },
+    {
+      "id": "medine-t2.l01.vocab-4#8",
+      "type": "tip",
+      "title": "Une phrase avec {ar|ذُو}",
+      "blocks": [
+        { "type": "example", "ar": "زَيْدٌ ذُو عِلْمٍ.", "fr": "Zayd a de la science." },
+        { "type": "example", "ar": "حَامِدٌ ذُو مَالٍ.", "fr": "Ḥāmid a de l'argent." },
+        {
+          "type": "note",
+          "text": "Ici, {ar|ذُو عِلْمٍ} est le prédicat de {ar|زَيْدٌ} : il reste au nominatif ({ar|ذُو}, avec la damma)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.vocab-4#9",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ ذُو {0}.",
+      "fr": "Zayd a de l'argent.",
+      "gaps": [ { "answers": ["مَالٍ"] } ],
+      "options": ["مَالٍ", "عِلْمٍ", "خُلُقٍ"],
+      "explain": "{ar|مَالٌ} : l'argent ; {ar|عِلْمٌ} : la science ; {ar|خُلُقٌ} : le comportement."
+    },
+    {
+      "id": "medine-t2.l01.vocab-4#10",
+      "type": "question",
+      "prompt": { "fr": "Quel est le cas du nom qui suit {ar|ذُو} ?" },
+      "choices": [ { "fr": "Le génitif (la kasra)" }, { "fr": "Le nominatif (la damma)" }, { "fr": "L'accusatif (la fatha)" } ],
+      "answer": 0,
+      "explain": "{ar|ذُو} est le premier terme d'une annexion : le nom qui le suit ({ar|مَالٍ}, {ar|عِلْمٍ}, {ar|خُلُقٍ}) est au génitif."
+    },
+    {
+      "id": "medine-t2.l01.vocab-4#11",
+      "type": "order",
+      "fr": "Ḥāmid a de l'argent.",
+      "answers": [["حَامِدٌ", "ذُو", "مَالٍ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t2.l01.vocab-4#12", "type": "typing", "ask": "fr", "item": "p:dhu-ilm" },
+    {
+      "id": "medine-t2.l01.vocab-4#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd a de la science.",
+      "answers": ["زَيْدٌ ذُو عِلْمٍ."]
+    }
+  ]
+}

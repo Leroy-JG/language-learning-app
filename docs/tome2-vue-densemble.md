@@ -157,13 +157,35 @@ première à exiger le complément d'objet. Ce qui n'y est pas encore vu ne doit
 - **Défis (quiz du professeur) et examen final** : aucun n'apparaît dans la copie ; à demander.
 - **Textes de révision** (extraits de « قَصَصُ النَّبِيِّينَ ») : en images dans le PDF, donc absents de
   la copie.
-- **Outils** : `tools/nouveau_chapitre.py`, `generateur_contenu.py`, `lire_chapitre.py`,
-  `deja_enseigne.py`, `controle_qualite.py` visent le dossier `medine-t1` : les paramétrer pour le
-  tome 2 au premier chapitre.
+- **Outils** : fait au premier chapitre (voir §8) : `generateur_contenu.py`, `lire_chapitre.py` et
+  `controle_qualite.py` lisent `LURATA_NIVEAU` (`medine-t2`), `deja_enseigne.py` liste tous les
+  niveaux. `nouveau_chapitre.py` vise encore `medine-t1` (le premier chapitre du tome 2 a été créé à la main).
 
 ## 7. Questions ouvertes pour l'utilisateur
 
 1. Numérotation des cours 6 et 12 à 15 (absente de la copie) : quel PDF correspond à quel numéro ?
-2. Les pages du livre (dialogues, exercices) du tome 2 existent-elles, comme au tome 1 ? Elles sont absentes de la copie.
+2. Les pages du livre (dialogues, exercices) du tome 2 existent-elles, comme au tome 1 ? Elles sont absentes de la copie. **Réponse pour le cours 1** : oui, elles sont dans les PDF sous forme d'images (texte du livre, exercices 1 à 5, 7 et 12), reprises dans `medine-t2.l01` ; à vérifier pour les autres cours.
 3. Y a-t-il des quiz du professeur (défis) et un examen final pour le tome 2 ?
 4. Où est la « Révision 1 » du tome 2 (absente de la copie) ?
+
+## 8. Avancement et conventions posées par le chapitre 1 (`medine-t2.l01`)
+
+Le cours 1 (PDF « 1a » et « 1b », fournis ensemble comme « le premier chapitre ») est publié :
+`docs/sources-t2-lecon-1.md` (choix, écarts avec le PDF, explications ajoutées). À réutiliser pour rester cohérent :
+
+- **Ids** : chapitre `medine-t2.lNN` (`number` repart de 1 dans le tome 2), activités `grammar-N`, `vocab-N`,
+  `practice-N` (exercices du livre), `dialogue-N` (texte du livre), `revue-N` (rappel `review`, sans carte), `quiz` (bilan).
+  Les ids d'éléments `w:` / `p:` restent uniques dans tout le cours (tomes 1 et 2).
+- **Rappel en tête** : un chapitre qui reprend une notion du tome 1 commence par une activité `review`
+  (ici `revue-1`, « Le sujet et le prédicat ») : aucune carte, aucun doublon.
+- **Aperçu** : une notion citée par une diapositive mais enseignée plus loin (`كَانَ`, `لَيْسَ`, `أَظُنُّ`, les
+  nombres de 11 à 99, `كَأَنَّ`, `لَكِنَّ`, `لَيْتَ`) se montre dans un tableau ou une note marqués « aperçu »,
+  sans carte ni exercice (hors de rares questions de reconnaissance).
+- **Termes techniques** : `النَّوَاسِخُ`, `اِسْمُ إِنَّ`, `خَبَرُ إِنَّ`, `التَّوْكِيدُ`, `التَّرَجِّي` sont présentés
+  (cartes) dans ce chapitre ; `مَنْصُوبٌ` / `مَرْفُوعٌ` sont glosés dans une note. Les réemployer sans les réexpliquer.
+- **Tableaux de référence** (piège n° 7) : le tableau des dix pronoms avec `إِنَّ` est dans `l01.grammar-3` ;
+  la vue d'ensemble des nombres 3 à 1000 et les règles de `مِائَةٌ وَأَلْفٌ` sont dans `l01.grammar-6`. Les
+  cours 3, 10 et 24 (nombres) et les cours 3 (`كَأَنَّ`, `لَكِنَّ`) les complètent plutôt que de les redonner.
+- **`إِنَّ` / `أَنَّ`** (piège n° 3) : `إِنَّ` commence la phrase d'ordinaire ; `أَنَّ` suit un autre mot (verbe,
+  conjonction…, déjà vu dans `لِأَنَّهُ`). Ne pas écrire « début / milieu » sans nuance.
+- **Pas encore fait** : défis et examen du tome 2 (questions 3 et 4 du §7), la « Révision 1 ».
