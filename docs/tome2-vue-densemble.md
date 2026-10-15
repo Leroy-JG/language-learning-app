@@ -80,7 +80,7 @@ ordinaux (cours 10). Le sujet revient en révision (révision 4).
 | 3 | Nombres 11 à 19 en détail (3ᵉ partie) ; `أَفْعَلُ التَّفْضِيلِ` ; `إِنَّ وَأَخَوَاتُهَا` (2ᵉ partie) : `كَأَنَّ`, `لَكِنَّ` (≈) | |
 | 4 | `مَا` négatif (et `مَا` interrogatif) | |
 | 5 | Verbe intransitif / transitif ; `الْمَفْعُولُ بِهِ` (1ʳᵉ partie) ; un seul sujet par verbe | |
-| 6 (≈) | `بَلَى` / `نَعَمْ` ; `ظَنَّ` + `أَنَّ` | numéro absent de la copie |
+| 6 | `بَلَى` / `نَعَمْ` ; `ظَنَّ` + `أَنَّ` ; `جَوْعَانُ` / `جَوْعَى` ; texte du livre (Saʿīd, Maryam) | **confirmé** par le PDF du cours 6 (voir §12) |
 | 7 | `كَانَ وَأَخَوَاتُهَا` (2ᵉ partie) : `كَانَ` ; rencontre de deux sukūn ; complément placé avant le verbe (avec `أَ` / `أَمْ`) | |
 | 8 | `الْمَفْعُولُ بِهِ` (2ᵉ partie) ; pronoms compléments collés (4ᵉ partie des pronoms) ; un verbe peut avoir sujet **et** complément collés | |
 | 9 | Les relatifs (`الَّذِي` et ses formes, duel, pluriel) ; `أَ` + article (`آلْ`) ; `بِمَ` / `مِمَّ` ; exclamation `مَا أَفْعَلَ …` ; pays | cours riche en vocabulaire |
@@ -210,3 +210,9 @@ Le cours 4 (un seul PDF de 25 pages) est publié : `docs/sources-t2-lecon-4.md`.
 au chapitre 3, avec leurs exercices 6 et 7), puis `مَا النَّافِيَةُ` (`l04.grammar-1` : les deux `مَا`, `grammar-2` : devant un verbe, `grammar-3` : devant une phrase nominale), `أَمَا` / `بَلَى`
 (`grammar-4`), `لِأَنَّ` (`grammar-5`), le vocabulaire (`حِصَّةٌ`, `بَأْسٌ`, `اِسْتَدْرَكَ`, `شَبَّهَ`) et le texte du livre (Yūsuf et Ibrāhīm) avec ses exercices 1 à 7.
 `مَا` « comme `لَيْسَ` » reste cité sans détail ; `لَمْ` et `لَنْ` (négations du présent) viendront plus tard.
+
+## 12. Avancement : le chapitre 6 (`medine-t2.l06`)
+
+Le cours 6 (un seul PDF de 21 pages) est publié : `docs/sources-t2-lecon-6.md`. Le support du professeur contient le texte du livre (Saʿīd, Maryam, la mère, la servante Laylā), les exercices 1 à 5, 7, 8, 10 à 14 et 16 (les exercices 6, 9 et 15 manquent ou sont coupés), deux diapositives
+(`بَلَى` / `نَعَمْ` ; `ظَنَّ` + `أَنَّ`) et le vocabulaire nouveau (huit noms et sept verbes). Le chapitre les réunit : `l06.grammar-1` (`نَعَمْ` / `بَلَى`), `grammar-2` (`ظَنَّ` + `أَنَّ`), `grammar-3` (`جَوْعَانُ` / `جَوْعَى`), `dialogue-1` et `practice-1` à `practice-8`
+(un exercice du livre par activité ou presque ; les exercices 11 à 13 reprennent les nombres de 11 à 19 du chapitre 3). Les dizaines (`عِشْرُونَ`), le présent, l'impératif, `الَّتِي` et les pronoms compléments autres que `هُ`, `هَا`, `كَ` restent « pas encore enseignés ».

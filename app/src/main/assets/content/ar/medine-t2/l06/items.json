@@ -1,0 +1,233 @@
+[
+  {
+    "id": "w:dara",
+    "kind": "word",
+    "ar": "دَرَى",
+    "fr": "il a su (savoir)",
+    "translit": "darā",
+    "note": "Ce verbe s'emploie surtout dans une phrase négative ou dans une question : {ar|لَا أَدْرِي} (« je ne sais pas »). Devant {ar|تُ} (« je »), le {ar|ى} redevient {ar|ي} : {ar|دَرَيْتُ}.",
+    "example": { "ar": "مَا دَرَيْتُ أَيْنَ ذَهَبَ زَيْدٌ.", "fr": "Je n'ai pas su où Zayd est allé." }
+  },
+  {
+    "id": "w:fariha",
+    "kind": "word",
+    "ar": "فَرِحَ",
+    "fr": "il s'est réjoui, il a été content (être content)",
+    "translit": "fariḥa",
+    "note": "Il se construit avec la préposition {ar|بِ} : {ar|فَرِحَ بِ} suivi d'un nom (« se réjouir de quelque chose »). Ne le confonds pas avec l'adjectif {ar|فَرِحٌ} (« content »), vu au tome 1.",
+    "example": { "ar": "فَرِحَ الْمُدَرِّسُ بِالطَّالِبِ.", "fr": "Le professeur s'est réjoui de l'étudiant." }
+  },
+  {
+    "id": "w:zada",
+    "kind": "word",
+    "ar": "زَادَ",
+    "fr": "il a ajouté, il a augmenté (ajouter, augmenter)",
+    "translit": "zāda",
+    "example": { "ar": "زَادَ عَدَدُ الطُّلَّابِ.", "fr": "Le nombre d'étudiants a augmenté." }
+  },
+  {
+    "id": "w:akhadha",
+    "kind": "word",
+    "ar": "أَخَذَ",
+    "fr": "il a pris (prendre)",
+    "translit": "ʾakhadha",
+    "note": "À l'impératif, la hamza disparaît : {ar|خُذْ} (« prends ! »). Au présent, elle reste : {ar|يَأْخُذُ}.",
+    "example": { "ar": "أَخَذَ الطَّالِبُ الْقَلَمَ.", "fr": "L'étudiant a pris le stylo." }
+  },
+  {
+    "id": "w:kawa",
+    "kind": "word",
+    "ar": "كَوَى",
+    "fr": "il a repassé (repasser)",
+    "translit": "kawā",
+    "note": "Même racine que {ar|مِكْوَاةٌ} (« un fer à repasser »), vu au tome 1. Devant {ar|تُ} (« je »), le {ar|ى} redevient {ar|ي} : {ar|كَوَيْتُ}.",
+    "example": { "ar": "كَوَيْتُ الْقَمِيصَ بِالْمِكْوَاةِ.", "fr": "J'ai repassé la chemise avec le fer à repasser." }
+  },
+  {
+    "id": "w:zanna",
+    "kind": "word",
+    "ar": "ظَنَّ",
+    "fr": "il a pensé, il a cru (penser, croire)",
+    "translit": "ẓanna",
+    "note": "Le plus souvent, il exprime une supposition (« je pense que… »), pas une certitude.",
+    "example": {
+      "ar": "ظَنَّ زَيْدٌ أَنَّ الْمَكْتَبَةَ مَفْتُوحَةٌ.",
+      "fr": "Zayd a pensé que la bibliothèque était ouverte."
+    }
+  },
+  {
+    "id": "w:bunayya",
+    "kind": "word",
+    "ar": "بُنَيَّ",
+    "fr": "mon petit (mon fils)",
+    "translit": "bunayya",
+    "gender": "m",
+    "note": "Diminutif de {ar|اِبْنٌ} (« un fils ») avec le pronom « mon ». C'est un mot affectueux, qu'on emploie pour appeler un garçon : {ar|يَا بُنَيَّ}.",
+    "example": { "ar": "يَا بُنَيَّ، أَيْنَ ذَهَبْتَ؟", "fr": "Mon fils, où es-tu allé ?" }
+  },
+  {
+    "id": "w:khadima",
+    "kind": "word",
+    "ar": "خَادِمَةٌ",
+    "fr": "une servante (une employée de maison)",
+    "translit": "khādimatun",
+    "plural": "خَادِمَاتٌ",
+    "gender": "f",
+    "example": { "ar": "اِسْمُ الْخَادِمَةِ لَيْلَى.", "fr": "La servante s'appelle Laylā." }
+  },
+  {
+    "id": "w:qita",
+    "kind": "word",
+    "ar": "قِطْعَةٌ",
+    "fr": "un morceau, une part",
+    "translit": "qiṭʿatun",
+    "plural": "قِطَعٌ",
+    "gender": "f",
+    "note": "« Un morceau de pain » se dit {ar|قِطْعَةُ خُبْزٍ} (annexion) ou {ar|قِطْعَةٌ مِنَ الْخُبْزِ}.",
+    "example": { "ar": "أَكَلْتُ قِطْعَةً مِنَ الْخُبْزِ.", "fr": "J'ai mangé un morceau de pain." }
+  },
+  {
+    "id": "w:mudira",
+    "kind": "word",
+    "ar": "مُدِيرَةٌ",
+    "fr": "une directrice",
+    "translit": "mudīratun",
+    "plural": "مُدِيرَاتٌ",
+    "gender": "f",
+    "note": "Le féminin de {ar|مُدِيرٌ} (« un directeur »), vu au tome 1.",
+    "example": { "ar": "الْمُدِيرَةُ فِي الْمَدْرَسَةِ.", "fr": "La directrice est à l'école." }
+  },
+  {
+    "id": "w:zuhr",
+    "kind": "word",
+    "ar": "ظُهْرٌ",
+    "fr": "le midi (le milieu de la journée)",
+    "translit": "ẓuhrun",
+    "gender": "m",
+    "note": "C'est l'heure de la prière de midi : {ar|صَلَاةُ الظُّهْرِ}. Ne le confonds pas avec {ar|ظَهْرٌ} (« un dos »), vu au tome 1 : seule la voyelle de la première lettre change.",
+    "example": { "ar": "خَرَجْتُ بَعْدَ صَلَاةِ الظُّهْرِ.", "fr": "Je suis sorti après la prière de midi." }
+  },
+  {
+    "id": "w:aya",
+    "kind": "word",
+    "ar": "آيَةٌ",
+    "fr": "un verset (du Coran), un signe",
+    "translit": "ʾāyatun",
+    "plural": "آيَاتٌ",
+    "gender": "f",
+    "note": "Le mot veut dire aussi « un signe, une preuve » : les versets du Coran sont les signes d'Allah.",
+    "example": { "ar": "حَفِظَ زَيْدٌ آيَاتٍ مِنَ الْقُرْآنِ.", "fr": "Zayd a mémorisé des versets du Coran." }
+  },
+  {
+    "id": "w:naba",
+    "kind": "word",
+    "ar": "نَبَأٌ",
+    "fr": "une nouvelle (une information importante)",
+    "translit": "nabaʾun",
+    "plural": "أَنْبَاءٌ",
+    "gender": "m",
+    "note": "La 78ᵉ sourate s'appelle {ar|سُورَةُ النَّبَإِ} (« la Nouvelle »). Au génitif, la hamza s'écrit sous l'alif : {ar|نَبَإٍ}, {ar|النَّبَإِ}.",
+    "example": { "ar": "جَاءَ نَبَأٌ مِنْ بَاكِسْتَانَ.", "fr": "Une nouvelle est arrivée du Pakistan." }
+  },
+  {
+    "id": "w:rahman",
+    "kind": "word",
+    "ar": "الرَّحْمٰنُ",
+    "fr": "le Tout Miséricordieux (Ar-Raḥmān)",
+    "translit": "ar-raḥmānu",
+    "gender": "m",
+    "note": "C'est l'un des noms d'Allah. La 55ᵉ sourate du Coran s'appelle {ar|سُورَةُ الرَّحْمٰنِ}.",
+    "example": { "ar": "قَرَأْتُ سُورَةَ الرَّحْمٰنِ.", "fr": "J'ai lu la sourate Ar-Raḥmān." }
+  },
+  {
+    "id": "w:hadid",
+    "kind": "word",
+    "ar": "حَدِيدٌ",
+    "fr": "du fer",
+    "translit": "ḥadīdun",
+    "gender": "m",
+    "note": "Un nom de matière, comme {ar|ذَهَبٌ} (« de l'or »). La 57ᵉ sourate s'appelle {ar|سُورَةُ الْحَدِيدِ} (« le Fer ») : elle contient un verset où Allah dit avoir fait descendre le fer (57:25).",
+    "example": { "ar": "الْبَابُ مِنَ الْحَدِيدِ.", "fr": "La porte est en fer." }
+  },
+  {
+    "id": "w:fiqh",
+    "kind": "word",
+    "ar": "فِقْهٌ",
+    "fr": "le fiqh (la jurisprudence islamique)",
+    "translit": "fiqhun",
+    "gender": "m",
+    "note": "C'est la science des règles de la pratique religieuse, tirées du Coran et de la Sunna. À l'origine, le mot veut dire « la compréhension ».",
+    "example": { "ar": "دَرَسْتُ الْفِقْهَ.", "fr": "J'ai étudié le fiqh." }
+  },
+  {
+    "id": "w:ilm",
+    "kind": "word",
+    "ar": "عِلْمٌ",
+    "fr": "un savoir, une science",
+    "translit": "ʿilmun",
+    "plural": "عُلُومٌ",
+    "gender": "m",
+    "note": "Même racine que {ar|عَالِمٌ} (« un savant »), vu au tome 1.",
+    "example": { "ar": "الْمُدَرِّسُ ذُو عِلْمٍ.", "fr": "L'enseignant est un homme de science." }
+  },
+  {
+    "id": "w:jawa",
+    "kind": "word",
+    "ar": "جَوْعَى",
+    "fr": "qui a faim (au féminin)",
+    "translit": "jawʿā",
+    "plural": "جِيَاعٌ",
+    "note": "Le féminin de {ar|جَوْعَانُ}. Comme lui, il n'a pas de tanwin : il se termine par un alif écrit {ar|ى}.",
+    "example": { "ar": "مَرْيَمُ جَوْعَى.", "fr": "Maryam a faim." }
+  },
+  {
+    "id": "w:wajh",
+    "kind": "word",
+    "ar": "وَجْهٌ",
+    "fr": "un visage",
+    "translit": "wajhun",
+    "plural": "وُجُوهٌ",
+    "gender": "m",
+    "note": "Tu l'as déjà vu avec l'article, au tome 1 : {ar|الْوَجْهُ}.",
+    "example": { "ar": "غَسَلْتُ وَجْهِي.", "fr": "J'ai lavé mon visage." }
+  },
+  {
+    "id": "w:barid-2",
+    "kind": "word",
+    "ar": "بَارِدٌ",
+    "fr": "froid",
+    "translit": "bāridun",
+    "note": "Le contraire de {ar|حَارٌّ} (« chaud »). Avec un nom féminin : {ar|بَارِدَةٌ}.",
+    "example": { "ar": "الْمَاءُ بَارِدٌ.", "fr": "L'eau est froide." }
+  },
+  {
+    "id": "p:la-adri",
+    "kind": "phrase",
+    "ar": "لَا أَدْرِي",
+    "fr": "Je ne sais pas.",
+    "translit": "lā ʾadrī",
+    "note": "{ar|أَدْرِي} est le présent de {ar|دَرَى} à la première personne (« je »). Tu n'étudies pas encore le présent : retiens l'expression telle quelle.",
+    "example": { "ar": "مَنْ فَتَحَ الْبَابَ؟ لَا أَدْرِي.", "fr": "Qui a ouvert la porte ? Je ne sais pas." }
+  },
+  {
+    "id": "p:lima",
+    "kind": "phrase",
+    "ar": "لِمَ؟",
+    "fr": "Pourquoi ? (forme courte)",
+    "translit": "lima",
+    "note": "{ar|لِمَ} = {ar|لِ} + {ar|مَا} (« à quoi ? », d'où « pourquoi ? ») : l'alif de {ar|مَا} tombe après la préposition. Même sens que {ar|لِمَاذَا}. Le livre l'écrit {ar|لِمَهْ}, avec un {ar|هْ} muet pour s'arrêter sur le mot.",
+    "example": { "ar": "لِمَ ذَهَبْتَ إِلَى مَكَّةَ؟", "fr": "Pourquoi es-tu allé à La Mecque ?" }
+  },
+  {
+    "id": "p:zadaka-llahu-ilman",
+    "kind": "phrase",
+    "ar": "زَادَكَ اللَّهُ عِلْمًا",
+    "fr": "Qu'Allah augmente ta science !",
+    "translit": "zādaka llāhu ʿilman",
+    "note": "On le dit à un homme pour le féliciter de son savoir ; à une femme : {ar|زَادَكِ اللَّهُ عِلْمًا}. Le verbe est au passé, mais il exprime un souhait.",
+    "example": {
+      "ar": "مَا شَاءَ اللَّهُ! زَادَكَ اللَّهُ عِلْمًا.",
+      "fr": "Ce qu'Allah a voulu ! Qu'Allah augmente ta science !"
+    }
+  }
+]

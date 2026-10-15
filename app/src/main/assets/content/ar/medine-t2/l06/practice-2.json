@@ -1,0 +1,90 @@
+{
+  "id": "medine-t2.l06.practice-2",
+  "type": "grammar",
+  "title": "Des questions pour toi",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l06.practice-2#1",
+      "type": "tip",
+      "title": "L'exercice 3 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ces six questions ne portent pas sur le texte : tu réponds pour toi. Ici, on te dit quoi répondre, pour que tu t'exerces à former la phrase."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.practice-2#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَذَهَبْتَ إِلَى الْمَدْرَسَةِ الْيَوْمَ؟",
+      "answers": [
+        "نَعَمْ، ذَهَبْتُ إِلَى الْمَدْرَسَةِ الْيَوْمَ.",
+        "نَعَمْ، ذَهَبْتُ.",
+        "ذَهَبْتُ إِلَى الْمَدْرَسَةِ الْيَوْمَ.",
+        "ذَهَبْتُ.",
+        "نَعَمْ، ذَهَبْتُ إِلَى الْمَدْرَسَةِ."
+      ],
+      "fr": "Oui, je suis allé à l'école aujourd'hui.",
+      "instruction": "Réponds « oui »."
+    },
+    {
+      "id": "medine-t2.l06.practice-2#3",
+      "type": "question",
+      "prompt": {
+        "fr": "Tu réponds à {ar|مَتَى رَجَعْتَ مِنَ الْمَدْرَسَةِ؟} : « je suis rentré il y a une demi-heure ». Quelle réponse choisis-tu ?"
+      },
+      "choices": [ { "ar": "رَجَعْتُ قَبْلَ نِصْفِ سَاعَةٍ." }, { "ar": "رَجَعْتُ بَعْدَ نِصْفِ سَاعَةٍ." } ],
+      "answer": 0,
+      "explain": "{ar|قَبْلَ} veut dire « avant » : « il y a une demi-heure ». {ar|بَعْدَ} voudrait dire « après »."
+    },
+    {
+      "id": "medine-t2.l06.practice-2#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيَّ سُورَةٍ قَرَأْتَ بَعْدَ صَلَاةِ الْفَجْرِ؟",
+      "answers": [
+        "قَرَأْتُ سُورَةَ الرَّحْمٰنِ.",
+        "سُورَةَ الرَّحْمٰنِ.",
+        "قَرَأْتُ سُورَةَ الرَّحْمٰنِ بَعْدَ صَلَاةِ الْفَجْرِ."
+      ],
+      "fr": "J'ai lu la sourate Ar-Raḥmān.",
+      "instruction": "Réponds : la sourate Ar-Raḥmān."
+    },
+    {
+      "id": "medine-t2.l06.practice-2#5",
+      "type": "fill_gap",
+      "sentence": "حَفِظْتُ سُورَةَ {0} هٰذَا الْأُسْبُوعَ.",
+      "fr": "J'ai mémorisé la sourate Al-Ḥadīd cette semaine.",
+      "gaps": [ { "answers": ["الْحَدِيدِ"] } ],
+      "options": ["الْحَدِيدِ", "الرَّحْمٰنِ", "النَّبَإِ"],
+      "instruction": "Réponse à {ar|أَيَّ سُورَةٍ حَفِظْتَ هٰذَا الْأُسْبُوعَ؟} : la sourate Al-Ḥadīd.",
+      "explain": "{ar|هٰذَا الْأُسْبُوعَ} (« cette semaine ») est à l'accusatif : c'est un complément de temps."
+    },
+    {
+      "id": "medine-t2.l06.practice-2#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَبِالْمَاءِ الْبَارِدِ غَسَلْتَ وَجْهَكَ أَمْ بِالْمَاءِ الْحَارِّ؟",
+      "answers": [
+        "غَسَلْتُ وَجْهِي بِالْمَاءِ الْبَارِدِ.",
+        "بِالْمَاءِ الْبَارِدِ.",
+        "بِالْمَاءِ الْبَارِدِ غَسَلْتُ وَجْهِي."
+      ],
+      "fr": "J'ai lavé mon visage avec de l'eau froide.",
+      "instruction": "Réponds : avec de l'eau froide.",
+      "explain": "{ar|أَمْ} offre le choix entre deux possibilités ; ton visage devient {ar|وَجْهِي}."
+    },
+    {
+      "id": "medine-t2.l06.practice-2#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ غَسَلَ قَمِيصَكَ وَمِنْدِيلَكَ؟",
+      "answers": ["غَسَلْتُ قَمِيصِي وَمِنْدِيلِي.", "أَنَا غَسَلْتُ قَمِيصِي وَمِنْدِيلِي.", "أَنَا."],
+      "fr": "C'est moi qui ai lavé ma chemise et mon mouchoir.",
+      "instruction": "Réponds : c'est moi."
+    }
+  ]
+}

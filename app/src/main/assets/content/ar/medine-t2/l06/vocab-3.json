@@ -1,0 +1,95 @@
+{
+  "id": "medine-t2.l06.vocab-3",
+  "type": "vocabulary",
+  "title": "Le Coran et la science",
+  "icon": "book",
+  "screens": [
+    { "id": "medine-t2.l06.vocab-3#1", "type": "present", "item": "w:aya" },
+    { "id": "medine-t2.l06.vocab-3#2", "type": "present", "item": "w:naba" },
+    {
+      "id": "medine-t2.l06.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:aya",
+      "distractors": ["w:sura", "w:quran"]
+    },
+    { "id": "medine-t2.l06.vocab-3#4", "type": "present", "item": "w:rahman" },
+    { "id": "medine-t2.l06.vocab-3#5", "type": "present", "item": "w:hadid" },
+    {
+      "id": "medine-t2.l06.vocab-3#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:rahman",
+      "distractors": ["w:hadid", "w:aya"]
+    },
+    {
+      "id": "medine-t2.l06.vocab-3#7",
+      "type": "tip",
+      "title": "Trois sourates, trois noms",
+      "blocks": [
+        { "type": "paragraph", "text": "Le nom d'une sourate est une annexion : {ar|سُورَةُ} + un nom au génitif." },
+        {
+          "type": "table",
+          "header": ["N°", "Sourate", "Sens"],
+          "rows": [
+            ["55", "{ar|سُورَةُ الرَّحْمٰنِ}", "le Tout Miséricordieux"],
+            ["57", "{ar|سُورَةُ الْحَدِيدِ}", "le Fer"],
+            ["78", "{ar|سُورَةُ النَّبَإِ}", "la Nouvelle"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Tu connais déjà {ar|سُورَةُ الْفَجْرِ} (la 89ᵉ) et {ar|سُورَةُ التِّينِ} (la 95ᵉ), du chapitre 5."
+        }
+      ]
+    },
+    { "id": "medine-t2.l06.vocab-3#8", "type": "present", "item": "w:fiqh" },
+    { "id": "medine-t2.l06.vocab-3#9", "type": "present", "item": "w:ilm" },
+    {
+      "id": "medine-t2.l06.vocab-3#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:aya", "w:naba", "w:fiqh", "w:ilm", "w:hadid"]
+    },
+    {
+      "id": "medine-t2.l06.vocab-3#11",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:aya", "w:naba", "w:ilm", "w:sura"]
+    },
+    { "id": "medine-t2.l06.vocab-3#12", "type": "build", "item": "w:naba", "extra": ["ئ"] },
+    {
+      "id": "medine-t2.l06.vocab-3#13",
+      "type": "fill_gap",
+      "sentence": "قَرَأْتُ سُورَةَ {0}.",
+      "fr": "J'ai lu la sourate Ar-Raḥmān.",
+      "gaps": [ { "answers": ["الرَّحْمٰنِ"] } ],
+      "options": ["الرَّحْمٰنِ", "الْحَدِيدِ", "النَّبَإِ"],
+      "explain": "La traduction nomme la sourate Ar-Raḥmān : {ar|سُورَةُ الرَّحْمٰنِ}."
+    },
+    {
+      "id": "medine-t2.l06.vocab-3#14",
+      "type": "spot",
+      "instruction": "Touche le nom de la sourate.",
+      "words": ["قَرَأْتُ", "سُورَةَ", "الْحَدِيدِ", "الْيَوْمَ."],
+      "answers": [2],
+      "fr": "J'ai lu la sourate Al-Ḥadīd aujourd'hui.",
+      "explain": "{ar|الْحَدِيدِ} est le nom de la sourate : il suit {ar|سُورَةَ}, au génitif."
+    },
+    {
+      "id": "medine-t2.l06.vocab-3#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai étudié le fiqh.",
+      "answers": ["دَرَسْتُ الْفِقْهَ."]
+    },
+    {
+      "id": "medine-t2.l06.vocab-3#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "L'enseignant est un homme de science.",
+      "answers": ["الْمُدَرِّسُ ذُو عِلْمٍ."]
+    }
+  ]
+}

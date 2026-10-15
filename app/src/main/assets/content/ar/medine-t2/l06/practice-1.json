@@ -1,0 +1,168 @@
+{
+  "id": "medine-t2.l06.practice-1",
+  "type": "grammar",
+  "title": "Questions sur le texte",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l06.practice-1#1",
+      "type": "tip",
+      "title": "Les exercices 1 et 2 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande de répondre à quatre questions sur le texte, puis de dire si cinq phrases sont justes ou fausses."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.practice-1#2",
+      "type": "true_false",
+      "statement": { "ar": "مَا فَرِحَ الْمُدَرِّسُ بِسَعِيدٍ.", "fr": "Le professeur ne s'est pas réjoui de Saʿīd." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" },
+      "explain": "Au contraire : {ar|فَفَرِحَ بِي الْمُدَرِّسُ كَثِيرًا} (« le professeur s'est beaucoup réjoui de moi »)."
+    },
+    {
+      "id": "medine-t2.l06.practice-1#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيَّ سُورَةٍ حَفِظَ سَعِيدٌ؟",
+      "answers": [
+        "حَفِظَ سُورَةَ الرَّحْمٰنِ.",
+        "حَفِظَ سَعِيدٌ سُورَةَ الرَّحْمٰنِ.",
+        "سُورَةَ الرَّحْمٰنِ.",
+        "حَفِظَهَا.",
+        "حَفِظَهَا سَعِيدٌ."
+      ],
+      "fr": "Il a mémorisé la sourate Ar-Raḥmān.",
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l06.practice-1#4",
+      "type": "true_false",
+      "statement": { "ar": "مَرْيَمُ جَوْعَى.", "fr": "Maryam a faim." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" },
+      "explain": "Elle le dit à la fin : {ar|أَنَا جَوْعَى}."
+    },
+    {
+      "id": "medine-t2.l06.practice-1#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ آيَةً مِنْ سُورَةِ النَّبَإِ حَفِظَتْ مَرْيَمُ؟",
+      "answers": [
+        "حَفِظَتْ سِتَّ عَشْرَةَ آيَةً.",
+        "حَفِظَتْ مَرْيَمُ سِتَّ عَشْرَةَ آيَةً.",
+        "سِتَّ عَشْرَةَ آيَةً.",
+        "سِتَّ عَشْرَةَ.",
+        "حَفِظَتْ سِتَّ عَشْرَةَ آيَةً مِنْ سُورَةِ النَّبَإِ.",
+        "حَفِظَتْ مَرْيَمُ سِتَّ عَشْرَةَ آيَةً مِنْ سُورَةِ النَّبَإِ."
+      ],
+      "fr": "Elle a mémorisé seize versets.",
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" },
+      "explain": "« Seize » avec un nom féminin ({ar|آيَةٌ}) : {ar|سِتَّ عَشْرَةَ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-1#6",
+      "type": "true_false",
+      "statement": {
+        "ar": "خَرَجَتْ مَرْيَمُ مِنَ الْمَدْرَسَةِ بَعْدَ صَلَاةِ الظُّهْرِ.",
+        "fr": "Maryam est sortie de l'école après la prière de midi."
+      },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" },
+      "explain": "{ar|خَرَجْتُ بَعْدَ صَلَاةِ الظُّهْرِ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-1#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا اسْمُ الْمَجَلَّةِ؟",
+      "answers": ["اسْمُهَا الْإِسْلَامُ.", "الْإِسْلَامُ.", "اسْمُ الْمَجَلَّةِ الْإِسْلَامُ."],
+      "fr": "Elle s'appelle « Al-Islām ».",
+      "instruction": "Il s'agit de la revue que Maryam a lue à la bibliothèque.",
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l06.practice-1#8",
+      "type": "true_false",
+      "statement": {
+        "ar": "سُورَةُ الرَّحْمٰنِ أَطْوَلُ مِنْ سُورَةِ الْحَدِيدِ.",
+        "fr": "La sourate Ar-Raḥmān est plus longue que la sourate Al-Ḥadīd."
+      },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" },
+      "explain": "Selon le texte, c'est l'inverse : Maryam dit que la sourate Al-Ḥadīd ({ar|وَهِيَ أَطْوَلُ مِنْ سُورَةِ الرَّحْمٰنِ}) est la plus longue. Elle a moins de versets, mais ses versets sont plus longs."
+    },
+    {
+      "id": "medine-t2.l06.practice-1#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "بِأَيِّ لُغَةٍ هِيَ؟",
+      "answers": [
+        "هِيَ بِاللُّغَةِ الْإِنْكِلِيزِيَّةِ.",
+        "بِاللُّغَةِ الْإِنْكِلِيزِيَّةِ.",
+        "بِالْإِنْكِلِيزِيَّةِ.",
+        "هِيَ بِالْإِنْكِلِيزِيَّةِ.",
+        "هِيَ بِاللُّغَةِ الْإِنْجِلِيزِيَّةِ.",
+        "بِاللُّغَةِ الْإِنْجِلِيزِيَّةِ.",
+        "بِالْإِنْجِلِيزِيَّةِ.",
+        "هِيَ بِالْإِنْجِلِيزِيَّةِ."
+      ],
+      "fr": "Elle est en anglais.",
+      "instruction": "Il s'agit de la même revue.",
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l06.practice-1#10",
+      "type": "true_false",
+      "statement": {
+        "ar": "آمِنَةُ وَفَاطِمَةُ وَسُعَادُ زَمِيلَاتُ مَرْيَمَ.",
+        "fr": "Āmina, Fāṭima et Suʿād sont les camarades de Maryam."
+      },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" },
+      "explain": "La mère le dit : {ar|أَيْنَ زَمِيلَاتُكِ آمِنَةُ وَفَاطِمَةُ وَسُعَادُ؟}"
+    },
+    {
+      "id": "medine-t2.l06.practice-1#11",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|كَمْ آيَةً حَفِظَتْ مَرْيَمُ؟}, pourquoi {ar|آيَةً} est-il au singulier et à l'accusatif ?"
+      },
+      "choices": [
+        { "fr": "Après {ar|كَمْ}, le dénombré est au singulier, indéfini, à l'accusatif" },
+        { "fr": "Parce que {ar|آيَةً} est le sujet du verbe" },
+        { "fr": "Parce que {ar|كَمْ} veut dire « beaucoup »" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|كَمْ} (« combien ? »), le nom est au singulier et à l'accusatif : {ar|كَمْ آيَةً}. C'est « la précision » ({ar|التَّمْيِيزُ}), comme après les nombres de 11 à 19."
+    },
+    {
+      "id": "medine-t2.l06.practice-1#12",
+      "type": "order",
+      "fr": "Quelle sourate as-tu mémorisée ?",
+      "answers": [["أَيَّ", "سُورَةٍ", "حَفِظْتَ"]],
+      "punctuation": "؟",
+      "explain": "{ar|أَيَّ} est le complément d'objet de {ar|حَفِظْتَ}, placé en tête : il est à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l06.practice-1#13",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ لَيْلَى؟",
+      "answers": [
+        "هِيَ الْخَادِمَةُ.",
+        "الْخَادِمَةُ.",
+        "لَيْلَى هِيَ الْخَادِمَةُ.",
+        "لَيْلَى خَادِمَةٌ.",
+        "هِيَ خَادِمَةٌ.",
+        "خَادِمَةٌ."
+      ],
+      "fr": "C'est la servante.",
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" },
+      "explain": "La mère lui dit {ar|هَاتِي الشَّايَ يَا لَيْلَى} : elle s'adresse à la servante."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "medine-t2.l06.practice-4",
+  "type": "grammar",
+  "title": "Oui, non, si : les exercices 7 et 8",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l06.practice-4#1",
+      "type": "tip",
+      "title": "Les exercices 7 et 8 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 7 montre les réponses possibles à deux questions. L'exercice 8 donne sept réponses : tu dois retrouver une question qui convient."
+        },
+        {
+          "type": "table",
+          "header": ["Question", "Réponse « oui » ou « si »", "Réponse « non »"],
+          "rows": [
+            ["{ar|أَفَهِمْتَ الدَّرْسَ يَا عَلِيُّ؟}", "{ar|نَعَمْ، فَهِمْتُهُ.}", "{ar|لَا، مَا فَهِمْتُهُ.}"],
+            [
+              "{ar|أَمَا فَهِمْتَ الدَّرْسَ يَا عَلِيُّ؟}",
+              "{ar|بَلَى، فَهِمْتُهُ.}",
+              "{ar|نَعَمْ، مَا فَهِمْتُهُ.}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.practice-4#2",
+      "type": "question",
+      "prompt": { "fr": "Quelle question convient à la réponse {ar|نَعَمْ، شَرِبْتُ.} ?" },
+      "choices": [ { "ar": "أَشَرِبْتَ الشَّايَ؟" }, { "ar": "أَمَا شَرِبْتَ الشَّايَ؟" }, { "ar": "أَفَهِمْتَ الدَّرْسَ؟" } ],
+      "answer": 0,
+      "explain": "Après une question sans négation, « oui » se dit {ar|نَعَمْ}. Avec {ar|أَمَا}, on aurait répondu {ar|بَلَى}. Et le verbe doit être {ar|شَرِبَ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-4#3",
+      "type": "question",
+      "prompt": { "fr": "Quelle question convient à la réponse {ar|نَعَمْ، كَتَبْتُ.} ?" },
+      "choices": [
+        { "ar": "أَكَتَبْتَ الدَّرْسَ؟" },
+        { "ar": "أَمَا كَتَبْتَ الدَّرْسَ؟" },
+        { "ar": "أَقَرَأْتَ الدَّرْسَ؟" }
+      ],
+      "answer": 0,
+      "explain": "Question sans négation, avec le verbe {ar|كَتَبَ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-4#4",
+      "type": "true_false",
+      "statement": {
+        "ar": "أَمَا فَهِمْتَ الدَّرْسَ؟ نَعَمْ، فَهِمْتُهُ.",
+        "fr": "N'as-tu pas compris la leçon ? Oui, je l'ai comprise."
+      },
+      "answer": false,
+      "explain": "Après {ar|أَمَا}, {ar|نَعَمْ} confirmerait la négation : elle ne peut pas être suivie de {ar|فَهِمْتُهُ}. Pour affirmer, on dit {ar|بَلَى، فَهِمْتُهُ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-4#5",
+      "type": "question",
+      "prompt": { "fr": "Quelle question convient à la réponse {ar|بَلَى، رَأَيْتُهُ.} ?" },
+      "choices": [ { "ar": "أَمَا رَأَيْتَهُ؟" }, { "ar": "أَرَأَيْتَهُ؟" }, { "ar": "أَمَا رَأَيْتَهَا؟" } ],
+      "answer": 0,
+      "explain": "{ar|بَلَى} répond à une question négative ({ar|أَمَا}) ; et le pronom doit être le même : {ar|هُ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-4#6",
+      "type": "question",
+      "prompt": { "fr": "Quelle question convient à la réponse {ar|نَعَمْ، مَا قَرَأْتُ هٰذَا الْكِتَابَ فِي بَلَدِي.} ?" },
+      "choices": [
+        { "ar": "أَمَا قَرَأْتَ هٰذَا الْكِتَابَ فِي بَلَدِكَ؟" },
+        { "ar": "أَقَرَأْتَ هٰذَا الْكِتَابَ فِي بَلَدِكَ؟" },
+        { "ar": "أَمَا كَتَبْتَ هٰذَا الْكِتَابَ فِي بَلَدِكَ؟" }
+      ],
+      "answer": 0,
+      "explain": "La réponse {ar|نَعَمْ، مَا قَرَأْتُ} confirme une négation : la question était négative ({ar|أَمَا}), avec le verbe {ar|قَرَأَ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-4#7",
+      "type": "fill_gap",
+      "sentence": "أَمَا سَمِعْتَ الْأَذَانَ؟ {0}، سَمِعْتُ.",
+      "fr": "N'as-tu pas entendu l'appel à la prière ? Si, je l'ai entendu.",
+      "gaps": [ { "answers": ["بَلَى"] } ],
+      "options": ["بَلَى", "نَعَمْ"],
+      "explain": "Question négative, réponse positive : {ar|بَلَى}."
+    },
+    {
+      "id": "medine-t2.l06.practice-4#8",
+      "type": "question",
+      "prompt": { "fr": "Quelle question convient à la réponse {ar|لَا، مَا سَمِعْتُ الْأَذَانَ.} ?" },
+      "choices": [ { "ar": "أَسَمِعْتَ الْأَذَانَ؟" }, { "ar": "أَسَمِعْتَ الْقُرْآنَ؟" }, { "ar": "أَقَرَأْتَ الْقُرْآنَ؟" } ],
+      "answer": 0,
+      "explain": "La réponse nie {ar|سَمِعْتُ الْأَذَانَ} : la question porte sur le même verbe et le même objet."
+    },
+    {
+      "id": "medine-t2.l06.practice-4#9",
+      "type": "question",
+      "prompt": { "fr": "Quelle question convient à la réponse {ar|لَا، مَا ضَرَبْتُ هٰذَا الْوَلَدَ.} ?" },
+      "choices": [
+        { "ar": "أَضَرَبْتَ هٰذَا الْوَلَدَ؟" },
+        { "ar": "أَرَأَيْتَ هٰذَا الْوَلَدَ؟" },
+        { "ar": "أَسَمِعْتَ هٰذَا الْوَلَدَ؟" }
+      ],
+      "answer": 0,
+      "explain": "La réponse nie {ar|ضَرَبْتُ} : la question porte sur ce verbe."
+    },
+    {
+      "id": "medine-t2.l06.practice-4#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "As-tu entendu l'appel à la prière ? Oui, je l'ai entendu.",
+      "answers": ["أَسَمِعْتَ الْأَذَانَ؟ نَعَمْ، سَمِعْتُهُ.", "أَسَمِعْتَ الْأَذَانَ؟ نَعَمْ، سَمِعْتُ."]
+    },
+    {
+      "id": "medine-t2.l06.practice-4#11",
+      "type": "order",
+      "fr": "N'as-tu pas lu le livre ? Si, je l'ai lu.",
+      "answers": [["أَمَا", "قَرَأْتَ", "الْكِتَابَ؟", "بَلَى،", "قَرَأْتُهُ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l06.practice-4#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "N'as-tu pas entendu l'appel à la prière ? Non, je ne l'ai pas entendu.",
+      "answers": [
+        "أَمَا سَمِعْتَ الْأَذَانَ؟ نَعَمْ، مَا سَمِعْتُهُ.",
+        "أَمَا سَمِعْتَ الْأَذَانَ؟ نَعَمْ، مَا سَمِعْتُ الْأَذَانَ.",
+        "أَمَا سَمِعْتَ الْأَذَانَ؟ مَا سَمِعْتُهُ.",
+        "أَمَا سَمِعْتَ الْأَذَانَ؟ مَا سَمِعْتُ الْأَذَانَ."
+      ]
+    }
+  ]
+}

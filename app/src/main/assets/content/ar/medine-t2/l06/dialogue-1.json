@@ -1,0 +1,286 @@
+{
+  "id": "medine-t2.l06.dialogue-1",
+  "type": "dialogue",
+  "title": "À la maison, après l'école",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l06.dialogue-1#1",
+      "type": "dialogue",
+      "title": "À la maison, après l'école",
+      "intro": "Saʿīd est rentré de l'école ; sa mère l'interroge. Puis sa sœur Maryam arrive, et la mère l'interroge à son tour. Dans le livre, une indication de scène précède la première réplique de Maryam : « Maryam entre ».",
+      "speakers": {
+        "M": { "name": "La mère", "voice": "f1" },
+        "S": { "name": "Saʿīd", "voice": "m2" },
+        "Y": { "name": "Maryam", "voice": "f1" }
+      },
+      "lines": [
+        {
+          "speaker": "M",
+          "ar": "مَتَى رَجَعْتَ مِنَ الْمَدْرَسَةِ يَا بُنَيَّ؟",
+          "fr": "Quand es-tu rentré de l'école, mon fils ?"
+        },
+        { "speaker": "S", "ar": "رَجَعْتُ قَبْلَ نِصْفِ سَاعَةٍ.", "fr": "Je suis rentré il y a une demi-heure." },
+        {
+          "speaker": "M",
+          "ar": "أَيْنَ أُخْتُكَ مَرْيَمُ؟ أَمَا رَجَعَتْ؟",
+          "fr": "Où est ta sœur Maryam ? N'est-elle pas rentrée ?"
+        },
+        { "speaker": "S", "ar": "لَا أَدْرِي. أَنَا مَا رَأَيْتُهَا.", "fr": "Je ne sais pas. Je ne l'ai pas vue." },
+        { "speaker": "M", "ar": "مَاذَا قَرَأْتَ الْيَوْمَ؟", "fr": "Qu'as-tu lu aujourd'hui ?" },
+        {
+          "speaker": "S",
+          "ar": "قَرَأْتُ الْيَوْمَ دَرْسًا جَدِيدًا فِي الْفِقْهِ.",
+          "fr": "Aujourd'hui, j'ai lu une nouvelle leçon de fiqh."
+        },
+        { "speaker": "M", "ar": "أَفَهِمْتَهُ؟", "fr": "Est-ce que tu l'as compris ?" },
+        { "speaker": "S", "ar": "نَعَمْ، فَهِمْتُهُ جَيِّدًا.", "fr": "Oui, je l'ai bien compris." },
+        {
+          "speaker": "M",
+          "ar": "أَمَا قَرَأْتَ الْقُرْآنَ الْيَوْمَ؟",
+          "fr": "Tu n'as pas lu le Coran aujourd'hui ?"
+        },
+        {
+          "speaker": "S",
+          "ar": "بَلَى، قَرَأْتُ سُورَةَ الرَّحْمٰنِ وَحَفِظْتُهَا. فَفَرِحَ بِي الْمُدَرِّسُ كَثِيرًا وَقَالَ: إِنَّكَ أَحْسَنُ طَالِبٍ فِي الْفَصْلِ.",
+          "fr": "Si ! J'ai lu la sourate Ar-Raḥmān et je l'ai mémorisée. Le professeur s'est beaucoup réjoui de moi et a dit : « Tu es le meilleur étudiant de la classe. »"
+        },
+        {
+          "speaker": "M",
+          "ar": "مَا شَاءَ اللَّهُ! زَادَكَ اللَّهُ عِلْمًا يَا بُنَيَّ.",
+          "fr": "Ce qu'Allah a voulu ! Qu'Allah augmente ta science, mon fils."
+        },
+        { "speaker": "S", "ar": "أَغَسَلْتِ قُمْصَانِي يَا أُمِّي؟", "fr": "As-tu lavé mes chemises, maman ?" },
+        {
+          "speaker": "M",
+          "ar": "نَعَمْ، غَسَلْتُهَا وَكَوَيْتُهَا. خُذْ هٰذَا الْقَمِيصَ.",
+          "fr": "Oui, je les ai lavées et repassées. Prends cette chemise-ci."
+        },
+        {
+          "speaker": "S",
+          "ar": "هَاتِي ذَاكَ يَا أُمِّي. ذَاكَ أَجْمَلُ مِنْ هٰذَا.",
+          "fr": "Donne-moi celle-là, maman. Celle-là est plus belle que celle-ci."
+        },
+        {
+          "speaker": "Y",
+          "ar": "السَّلَامُ عَلَيْكُمْ. كَيْفَ حَالُكِ يَا أُمِّي؟ وَكَيْفَ حَالُكَ يَا أَخِي؟",
+          "fr": "Que la paix soit sur vous. Comment vas-tu, maman ? Et toi, comment vas-tu, mon frère ?"
+        },
+        {
+          "speaker": "M",
+          "ar": "وَعَلَيْكُمُ السَّلَامُ. أَهْلًا يَا بِنْتِي. مَتَى خَرَجْتِ مِنَ الْمَدْرَسَةِ؟",
+          "fr": "Et sur vous la paix. Bienvenue, ma fille. Quand es-tu sortie de l'école ?"
+        },
+        {
+          "speaker": "Y",
+          "ar": "خَرَجْتُ بَعْدَ صَلَاةِ الظُّهْرِ.",
+          "fr": "Je suis sortie après la prière de midi."
+        },
+        {
+          "speaker": "M",
+          "ar": "أَيْنَ زَمِيلَاتُكِ آمِنَةُ وَفَاطِمَةُ وَسُعَادُ؟",
+          "fr": "Où sont tes camarades Āmina, Fāṭima et Suʿād ?"
+        },
+        {
+          "speaker": "Y",
+          "ar": "أَنَا مَا رَأَيْتُهُنَّ بَعْدَ الصَّلَاةِ.",
+          "fr": "Je ne les ai pas vues après la prière."
+        },
+        {
+          "speaker": "M",
+          "ar": "يَا بِنْتِي، أَخُوكِ حَفِظَ سُورَةَ الرَّحْمٰنِ. أَيَّ سُورَةٍ حَفِظْتِ أَنْتِ؟",
+          "fr": "Ma fille, ton frère a mémorisé la sourate Ar-Raḥmān. Quelle sourate as-tu mémorisée, toi ?"
+        },
+        {
+          "speaker": "Y",
+          "ar": "أَنَا حَفِظْتُ سُورَةَ الْحَدِيدِ، وَهِيَ أَطْوَلُ مِنْ سُورَةِ الرَّحْمٰنِ. وَكَذٰلِكَ حَفِظْتُ سِتَّ عَشْرَةَ آيَةً مِنْ سُورَةِ النَّبَإِ.",
+          "fr": "Moi, j'ai mémorisé la sourate Al-Ḥadīd, qui est plus longue que la sourate Ar-Raḥmān. J'ai aussi mémorisé seize versets de la sourate An-Naba'."
+        },
+        {
+          "speaker": "M",
+          "ar": "مَا شَاءَ اللَّهُ! إِنَّكِ طَالِبَةٌ مُجْتَهِدَةٌ. أَنَا مَسْرُورَةٌ بِكِ.",
+          "fr": "Ce qu'Allah a voulu ! Tu es une étudiante appliquée. Je suis contente de toi."
+        },
+        {
+          "speaker": "M",
+          "ar": "أَذَهَبْتِ إِلَى الْمَكْتَبَةِ الْيَوْمَ؟",
+          "fr": "Es-tu allée à la bibliothèque aujourd'hui ?"
+        },
+        { "speaker": "Y", "ar": "نَعَمْ، ذَهَبْتُ.", "fr": "Oui, j'y suis allée." },
+        { "speaker": "M", "ar": "مَاذَا قَرَأْتِ هُنَاكَ؟", "fr": "Qu'as-tu lu là-bas ?" },
+        {
+          "speaker": "Y",
+          "ar": "قَرَأْتُ مَجَلَّةً مِنْ بَاكِسْتَانَ اسْمُهَا «الْإِسْلَامُ».",
+          "fr": "J'ai lu une revue du Pakistan qui s'appelle « Al-Islām »."
+        },
+        { "speaker": "M", "ar": "أَبِاللُّغَةِ الْعَرَبِيَّةِ هِيَ؟", "fr": "Est-elle en arabe ?" },
+        { "speaker": "Y", "ar": "لَا، هِيَ بِاللُّغَةِ الْإِنْكِلِيزِيَّةِ.", "fr": "Non, elle est en anglais." },
+        { "speaker": "M", "ar": "أَذَهَبْتِ إِلَى الْمُدِيرَةِ؟", "fr": "Es-tu allée voir la directrice ?" },
+        { "speaker": "Y", "ar": "لَا، هِيَ مَا جَاءَتِ الْيَوْمَ.", "fr": "Non, elle n'est pas venue aujourd'hui." },
+        { "speaker": "M", "ar": "لِمَ؟", "fr": "Pourquoi ?" },
+        {
+          "speaker": "Y",
+          "ar": "أَظُنُّ أَنَّهَا ذَهَبَتْ إِلَى مَكَّةَ.",
+          "fr": "Je pense qu'elle est allée à La Mecque."
+        },
+        { "speaker": "M", "ar": "أَشَرِبْتِ الشَّايَ؟", "fr": "As-tu bu le thé ?" },
+        { "speaker": "Y", "ar": "لَا، مَا شَرِبْتُ.", "fr": "Non, je n'ai pas bu." },
+        { "speaker": "M", "ar": "هَاتِي الشَّايَ يَا لَيْلَى.", "fr": "(À la servante) Apporte le thé, Laylā." },
+        {
+          "speaker": "Y",
+          "ar": "وَهَاتِي قِطْعَةَ خُبْزٍ أَيْضًا يَا لَيْلَى. أَنَا جَوْعَى.",
+          "fr": "Et apporte aussi un morceau de pain, Laylā. J'ai faim."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.dialogue-1#2",
+      "type": "tip",
+      "title": "Des verbes et des pronoms à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ce texte contient quelques formes que tu n'as pas encore étudiées en détail. Il suffit de les repérer : rien n'est exigé en exercice."
+        },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            [
+              "{ar|تَدْخُلُ مَرْيَمُ}",
+              "Maryam entre (indication de scène)",
+              "présent de {ar|دَخَلَ} : le présent viendra plus tard"
+            ],
+            [
+              "{ar|رَأَيْتُهُنَّ}",
+              "je les ai vues (plusieurs femmes)",
+              "{ar|هُنَّ} collé au verbe : un pronom complément de plus, après {ar|هُ}, {ar|هَا}, {ar|كَ} (chapitre 5)"
+            ],
+            ["{ar|قُمْصَانِي}", "mes chemises", "{ar|قُمْصَانٌ} (pluriel de {ar|قَمِيصٌ}) + {ar|ي} (« mon, mes »)"],
+            [
+              "{ar|غَسَلْتُهَا وَكَوَيْتُهَا}",
+              "je les ai lavées et repassées",
+              "un pluriel de choses est repris par {ar|هَا}"
+            ],
+            ["{ar|بِي}", "de moi", "{ar|فَرِحَ بِي} : « il s'est réjoui de moi »"],
+            [
+              "{ar|أَخُوكِ}",
+              "ton frère (à une femme)",
+              "{ar|أَخٌ} devient {ar|أَخُو} devant un pronom collé, comme {ar|أَبُوكَ}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.dialogue-1#3",
+      "type": "tip",
+      "title": "Des petits mots à repérer",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            [
+              "{ar|هَاتِي} / {ar|خُذْ}",
+              "donne ! (à une femme) / prends !",
+              "{ar|هَاتِ} (à un homme, chapitre 23 du tome 1) prend {ar|ي} pour une femme ; {ar|خُذْ} est l'impératif de {ar|أَخَذَ}"
+            ],
+            ["{ar|كَثِيرًا} / {ar|جَيِّدًا}", "beaucoup / bien", "{ar|كَثِيرٌ} et {ar|جَيِّدٌ} mis à l'accusatif"],
+            ["{ar|أَهْلًا}", "bienvenue", "forme courte de {ar|أَهْلًا وَسَهْلًا}"],
+            [
+              "{ar|أَيَّ سُورَةٍ}",
+              "quelle sourate ?",
+              "{ar|أَيُّ} (tome 1, chapitre 14) prend le cas de sa fonction : ici le complément d'objet de {ar|حَفِظْتِ}, placé en tête, donc la fatha"
+            ],
+            ["{ar|أَبِاللُّغَةِ}", "est-ce en (la) langue… ?", "{ar|أَ} (question) + {ar|بِ} + {ar|اللُّغَةِ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Qui est rentré de l'école il y a une demi-heure ?" },
+      "choices": [ { "fr": "Saʿīd" }, { "fr": "Maryam" }, { "fr": "Laylā" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" },
+      "explain": "Saʿīd répond : {ar|رَجَعْتُ قَبْلَ نِصْفِ سَاعَةٍ}."
+    },
+    {
+      "id": "medine-t2.l06.dialogue-1#5",
+      "type": "question",
+      "prompt": { "fr": "Quelle leçon nouvelle Saʿīd a-t-il lue aujourd'hui ?" },
+      "choices": [ { "fr": "Une leçon de fiqh" }, { "fr": "Une leçon de grammaire" }, { "fr": "Une leçon d'anglais" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" },
+      "explain": "{ar|قَرَأْتُ الْيَوْمَ دَرْسًا جَدِيدًا فِي الْفِقْهِ}."
+    },
+    {
+      "id": "medine-t2.l06.dialogue-1#6",
+      "type": "true_false",
+      "statement": { "ar": "غَسَلَتِ الْأُمُّ قُمْصَانَ سَعِيدٍ.", "fr": "La mère a lavé les chemises de Saʿīd." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" },
+      "explain": "Elle le dit : {ar|غَسَلْتُهَا وَكَوَيْتُهَا}."
+    },
+    {
+      "id": "medine-t2.l06.dialogue-1#7",
+      "type": "question",
+      "prompt": { "fr": "Où Maryam pense-t-elle que la directrice est allée ?" },
+      "choices": [ { "fr": "À La Mecque" }, { "fr": "À la bibliothèque" }, { "fr": "À l'aéroport" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" },
+      "explain": "{ar|أَظُنُّ أَنَّهَا ذَهَبَتْ إِلَى مَكَّةَ}."
+    },
+    {
+      "id": "medine-t2.l06.dialogue-1#8",
+      "type": "fill_gap",
+      "sentence": "نَعَمْ، {0} وَكَوَيْتُهَا.",
+      "fr": "Oui, je les ai lavées et repassées.",
+      "gaps": [ { "answers": ["غَسَلْتُهَا"] } ],
+      "options": ["غَسَلْتُهَا", "غَسَلْتُهُ", "غَسَلْتُكَ"],
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" },
+      "explain": "{ar|قُمْصَانِي} est un pluriel de choses : on le reprend par {ar|هَا}."
+    },
+    {
+      "id": "medine-t2.l06.dialogue-1#9",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi Maryam demande-t-elle un morceau de pain ?" },
+      "choices": [ { "fr": "Elle a faim" }, { "fr": "Elle a soif" }, { "fr": "Elle est en colère" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" },
+      "explain": "{ar|أَنَا جَوْعَى} : « j'ai faim »."
+    },
+    {
+      "id": "medine-t2.l06.dialogue-1#10",
+      "type": "order",
+      "fr": "Celle-là est plus belle que celle-ci.",
+      "answers": [["ذَاكَ", "أَجْمَلُ", "مِنْ", "هٰذَا"]],
+      "punctuation": ".",
+      "explain": "Dans le texte, Saʿīd compare deux chemises : {ar|ذَاكَ} (« celle-là ») est plus belle que {ar|هٰذَا} (« celle-ci »). Le comparatif {ar|أَجْمَلُ} est suivi de {ar|مِنْ}."
+    },
+    {
+      "id": "medine-t2.l06.dialogue-1#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَاذَا قَرَأَتْ مَرْيَمُ فِي الْمَكْتَبَةِ؟",
+      "answers": [
+        "قَرَأَتْ مَجَلَّةً مِنْ بَاكِسْتَانَ.",
+        "قَرَأَتْ مَرْيَمُ مَجَلَّةً مِنْ بَاكِسْتَانَ.",
+        "مَجَلَّةً مِنْ بَاكِسْتَانَ.",
+        "قَرَأَتْ مَجَلَّةً.",
+        "مَجَلَّةً."
+      ],
+      "fr": "Elle a lu une revue du Pakistan.",
+      "context": { "dialogue": "medine-t2.l06.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l06.dialogue-1#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Non, je n'ai pas bu.",
+      "answers": ["لَا، مَا شَرِبْتُ."]
+    }
+  ]
+}

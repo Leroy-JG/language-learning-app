@@ -1,0 +1,101 @@
+{
+  "id": "medine-t2.l06.vocab-4",
+  "type": "vocabulary",
+  "title": "Quelques mots de plus",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t2.l06.vocab-4#1", "type": "present", "item": "p:la-adri" },
+    { "id": "medine-t2.l06.vocab-4#2", "type": "present", "item": "p:lima" },
+    {
+      "id": "medine-t2.l06.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "p:la-adri",
+      "distractors": ["p:lima", "p:kayfa-haluka"]
+    },
+    { "id": "medine-t2.l06.vocab-4#4", "type": "present", "item": "p:zadaka-llahu-ilman" },
+    {
+      "id": "medine-t2.l06.vocab-4#5",
+      "type": "tip",
+      "title": "Le verbe, « te », puis le sujet",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans {ar|زَادَكَ اللَّهُ عِلْمًا}, l'ordre est : le verbe, le pronom collé qui le complète (« te »), puis le sujet {ar|اللَّهُ}. Comme au chapitre 5, le pronom complément reste collé au verbe, avant le sujet."
+        },
+        {
+          "type": "breakdown",
+          "ar": "زَادَكَ",
+          "fr": "il t'a augmenté",
+          "parts": [ { "ar": "زَادَ", "fr": "il a augmenté" }, { "ar": "كَ", "fr": "te (à un homme)" } ]
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "زَادَكَ اللَّهُ عِلْمًا", "fr": "Qu'Allah augmente ta science ! (à un homme)" },
+              "to": { "ar": "زَادَكِ اللَّهُ عِلْمًا", "fr": "Qu'Allah augmente ta science ! (à une femme)" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le verbe est au passé, mais il exprime un souhait : l'arabe emploie souvent le passé pour les prières et les vœux ({ar|رَحِمَهُ اللَّهُ}, {ar|بَارَكَ اللَّهُ فِيكَ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.vocab-4#6",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "p:zadaka-llahu-ilman",
+      "distractors": ["p:la-adri", "p:lima"]
+    },
+    { "id": "medine-t2.l06.vocab-4#7", "type": "present", "item": "w:wajh" },
+    { "id": "medine-t2.l06.vocab-4#8", "type": "present", "item": "w:barid-2" },
+    {
+      "id": "medine-t2.l06.vocab-4#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["p:la-adri", "p:lima", "w:wajh", "w:barid-2", "p:zadaka-llahu-ilman"]
+    },
+    {
+      "id": "medine-t2.l06.vocab-4#10",
+      "type": "fill_gap",
+      "sentence": "{0} رَجَعْتَ؟",
+      "fr": "Pourquoi es-tu revenu ?",
+      "gaps": [ { "answers": ["لِمَ"] } ],
+      "options": ["لِمَ", "مَاذَا", "مَتَى", "أَيْنَ"],
+      "explain": "La traduction dit « pourquoi ? » : {ar|لِمَ}."
+    },
+    {
+      "id": "medine-t2.l06.vocab-4#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "L'eau est froide.",
+      "answers": ["الْمَاءُ بَارِدٌ."]
+    },
+    {
+      "id": "medine-t2.l06.vocab-4#12",
+      "type": "order",
+      "fr": "J'ai lavé mon visage avec de l'eau froide.",
+      "answers": [["غَسَلْتُ", "وَجْهِي", "بِالْمَاءِ", "الْبَارِدِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l06.vocab-4#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Qu'Allah augmente ta science !",
+      "answers": ["زَادَكَ اللَّهُ عِلْمًا."]
+    },
+    {
+      "id": "medine-t2.l06.vocab-4#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je ne sais pas.",
+      "answers": ["لَا أَدْرِي."]
+    }
+  ]
+}

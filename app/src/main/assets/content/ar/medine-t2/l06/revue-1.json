@@ -1,0 +1,88 @@
+{
+  "id": "medine-t2.l06.revue-1",
+  "type": "review",
+  "title": "Revoir : « je » et « tu » au passé",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l06.revue-1#1",
+      "type": "tip",
+      "title": "Je, tu, tu : trois voyelles sur le {ar|ت}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au passé, « je » et « tu » se disent par une terminaison collée au verbe. C'est le {ar|ت} final qui change de voyelle :"
+        },
+        {
+          "type": "table",
+          "header": ["Qui ?", "Terminaison", "Exemple"],
+          "rows": [
+            ["« je »", "{ar|تُ} (damma)", "{ar|ذَهَبْتُ} (je suis allé)"],
+            ["« tu » (à un homme)", "{ar|تَ} (fatha)", "{ar|ذَهَبْتَ} (tu es allé)"],
+            ["« tu » (à une femme)", "{ar|تِ} (kasra)", "{ar|ذَهَبْتِ} (tu es allée)"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Pour « tu », le {ar|ت} porte la voyelle du pronom isolé : {ar|أَنْتَ} (fatha), {ar|أَنْتِ} (kasra). Pour « elle », le {ar|تْ} de {ar|ذَهَبَتْ} n'est pas un pronom : c'est la marque du féminin, avec un sukūn."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.revue-1#2",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أَذَهَبْتِ إِلَى الْمَكْتَبَةِ يَا فَاطِمَةُ؟}, quelle voyelle porte le {ar|ت} ?" },
+      "choices": [ { "fr": "une kasra" }, { "fr": "une damma" }, { "fr": "une fatha" } ],
+      "answer": 0,
+      "explain": "On parle à Fāṭima, une femme : le {ar|ت} porte la kasra, comme {ar|أَنْتِ}."
+    },
+    {
+      "id": "medine-t2.l06.revue-1#3",
+      "type": "sort",
+      "categories": [ { "fr": "je (celui qui parle)" }, { "fr": "tu, à un homme" }, { "fr": "tu, à une femme" } ],
+      "cards": [
+        { "ar": "أَنَا ذَهَبْتُ إِلَى الْمَطَارِ.", "category": 0 },
+        { "ar": "أَذَهَبْتَ إِلَى الْمَلْعَبِ يَا يُوسُفُ؟", "category": 1 },
+        { "ar": "أَذَهَبْتِ إِلَى الْمَكْتَبَةِ يَا فَاطِمَةُ؟", "category": 2 },
+        { "ar": "أَنَا قَرَأْتُ الْقُرْآنَ.", "category": 0 },
+        { "ar": "أَشَرِبْتَ الشَّايَ يَا حَامِدُ؟", "category": 1 },
+        { "ar": "أَكَتَبْتِ الدَّرْسَ يَا سُعَادُ؟", "category": 2 }
+      ],
+      "instruction": "À qui parle-t-on, ou qui parle ?",
+      "explain": "Le pronom {ar|أَنَا} ou le nom de la personne à qui l'on parle indique le sens : Yūsuf et Ḥāmid sont des hommes (fatha), Fāṭima et Suʿād des femmes (kasra)."
+    },
+    {
+      "id": "medine-t2.l06.revue-1#4",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} إِلَى الْمَطَارِ.",
+      "fr": "Nous sommes allés à l'aéroport.",
+      "gaps": [ { "answers": ["ذَهَبْنَا"] } ],
+      "options": ["ذَهَبْنَا", "ذَهَبْتُ", "ذَهَبُوا", "ذَهَبَا"],
+      "explain": "« Nous » : la terminaison {ar|نَا}."
+    },
+    {
+      "id": "medine-t2.l06.revue-1#5",
+      "type": "order",
+      "fr": "Est-ce que tu as bu le thé, Ḥāmid ?",
+      "answers": [["أَشَرِبْتَ", "الشَّايَ", "يَا", "حَامِدُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l06.revue-1#6",
+      "type": "fill_gap",
+      "sentence": "هِيَ {0} إِلَى الْمُسْتَشْفَى.",
+      "fr": "Elle est allée à l'hôpital.",
+      "gaps": [ { "answers": ["ذَهَبَتْ"] } ],
+      "options": ["ذَهَبَتْ", "ذَهَبْنَ", "ذَهَبُوا", "ذَهَبَا"],
+      "explain": "« Elle » : le verbe prend la marque du féminin {ar|تْ}, avec un sukūn."
+    },
+    {
+      "id": "medine-t2.l06.revue-1#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai compris la leçon.",
+      "answers": ["فَهِمْتُ الدَّرْسَ."]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "medine-t2.l06.grammar-3",
+  "type": "grammar",
+  "title": "Avoir faim, avoir soif",
+  "icon": "question",
+  "screens": [
+    { "id": "medine-t2.l06.grammar-3#1", "type": "present", "item": "w:jawa" },
+    {
+      "id": "medine-t2.l06.grammar-3#2",
+      "type": "tip",
+      "title": "Masculin, féminin, pluriel",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les adjectifs qui disent la faim, la soif, la colère, la paresse… ont trois formes. Tu connais le masculin et le pluriel (chapitres 9 et 18 du tome 1) ; voici le féminin."
+        },
+        {
+          "type": "table",
+          "header": ["Masculin", "Féminin", "Pluriel", "Sens"],
+          "rows": [
+            ["{ar|جَوْعَانُ}", "{ar|جَوْعَى}", "{ar|جِيَاعٌ}", "qui a faim"],
+            ["{ar|عَطْشَانُ}", "{ar|عَطْشَى}", "{ar|عِطَاشٌ}", "qui a soif"],
+            ["{ar|شَبْعَانُ}", "{ar|شَبْعَى}", "{ar|شِبَاعٌ}", "rassasié"],
+            ["{ar|غَضْبَانُ}", "{ar|غَضْبَى}", "{ar|غِضَابٌ}", "en colère"],
+            ["{ar|كَسْلَانُ}", "{ar|كَسْلَى}", "{ar|كُسَالَى}", "paresseux"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le masculin et le féminin n'ont **pas de tanwin** : le masculin se termine par une damma simple, le féminin par un alif écrit {ar|ى}. Le pluriel, lui, a le tanwin."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le pluriel sert pour les hommes comme pour les femmes : {ar|الطُّلَّابُ جِيَاعٌ}, {ar|الطَّالِبَاتُ جِيَاعٌ}. Le livre donne un pluriel par adjectif ; il en existe parfois d'autres."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.grammar-3#3",
+      "type": "tip",
+      "title": "Du masculin au féminin",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "حَامِدٌ جَوْعَانُ.", "fr": "Ḥāmid a faim." },
+              "to": { "ar": "مَرْيَمُ جَوْعَى.", "fr": "Maryam a faim." }
+            },
+            {
+              "from": { "ar": "خَالِدٌ عَطْشَانُ.", "fr": "Khālid a soif." },
+              "to": { "ar": "مَرْيَمُ عَطْشَى.", "fr": "Maryam a soif." }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le féminin {ar|جَوْعَى} se termine par un alif écrit {ar|ى} : il se prononce {ar|جَوْعَا} (« jawʿā »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.grammar-3#4",
+      "type": "sort",
+      "categories": [ { "fr": "un homme" }, { "fr": "une femme" }, { "fr": "plusieurs personnes" } ],
+      "cards": [
+        { "ar": "خَالِدٌ عَطْشَانُ.", "category": 0 },
+        { "ar": "مَرْيَمُ عَطْشَى.", "category": 1 },
+        { "ar": "الطُّلَّابُ عِطَاشٌ.", "category": 2 },
+        { "ar": "الْمُدَرِّسُ غَضْبَانُ.", "category": 0 },
+        { "ar": "الْمُدَرِّسَةُ غَضْبَى.", "category": 1 },
+        { "ar": "الطَّالِبَاتُ جِيَاعٌ.", "category": 2 }
+      ],
+      "instruction": "De qui parle-t-on ?",
+      "explain": "Le sujet dit de qui on parle : un homme (masculin), une femme (féminin), plusieurs personnes (pluriel)."
+    },
+    {
+      "id": "medine-t2.l06.grammar-3#5",
+      "type": "fill_gap",
+      "sentence": "مَرْيَمُ {0}.",
+      "fr": "Maryam a faim.",
+      "gaps": [ { "answers": ["جَوْعَى"] } ],
+      "options": ["جَوْعَى", "جَوْعَانُ", "جِيَاعٌ"],
+      "explain": "Le sujet est une femme : le féminin {ar|جَوْعَى}."
+    },
+    {
+      "id": "medine-t2.l06.grammar-3#6",
+      "type": "fill_gap",
+      "sentence": "الْأَوْلَادُ {0}.",
+      "fr": "Les garçons ont soif.",
+      "gaps": [ { "answers": ["عِطَاشٌ"] } ],
+      "options": ["عِطَاشٌ", "عَطْشَانُ", "جَوْعَانُ"],
+      "explain": "Le sujet est au pluriel : le pluriel {ar|عِطَاشٌ}."
+    },
+    {
+      "id": "medine-t2.l06.grammar-3#7",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:jawan", "w:ataan", "w:ghadban", "w:kaslan", "w:shabaan"]
+    },
+    {
+      "id": "medine-t2.l06.grammar-3#8",
+      "type": "spot",
+      "instruction": "Touche l'adjectif au féminin.",
+      "words": ["مَرْيَمُ", "جَوْعَى", "وَحَامِدٌ", "شَبْعَانُ."],
+      "answers": [1],
+      "fr": "Maryam a faim, et Ḥāmid est rassasié.",
+      "explain": "{ar|جَوْعَى} est le féminin ; {ar|شَبْعَانُ} est le masculin."
+    },
+    {
+      "id": "medine-t2.l06.grammar-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Khālid est en colère.",
+      "answers": ["خَالِدٌ غَضْبَانُ."]
+    },
+    {
+      "id": "medine-t2.l06.grammar-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les étudiantes ont faim.",
+      "answers": ["الطَّالِبَاتُ جِيَاعٌ."]
+    }
+  ]
+}

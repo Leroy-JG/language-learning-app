@@ -1,0 +1,132 @@
+{
+  "id": "medine-t2.l06.grammar-2",
+  "type": "grammar",
+  "title": "Je pense que…",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t2.l06.grammar-2#1", "type": "present", "item": "w:zanna" },
+    {
+      "id": "medine-t2.l06.grammar-2#2",
+      "type": "tip",
+      "title": "{ar|ظَنَّ} et la particule {ar|أَنَّ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le verbe {ar|ظَنَّ} peut se construire avec la particule {ar|أَنَّ} : il exprime alors un **doute**, une supposition, à propos de la phrase qui le suit (la phrase nominale sur laquelle {ar|أَنَّ} agit). À la première personne du présent, il se dit {ar|أَظُنُّ} (« je pense »)."
+        },
+        {
+          "type": "compare",
+          "title": "De {ar|إِنَّ} à {ar|أَظُنُّ أَنَّ}",
+          "rows": [
+            {
+              "from": { "ar": "إِنَّ زَيْدًا عَالِمٌ", "fr": "Certes, Zayd est savant." },
+              "to": { "ar": "أَظُنُّ أَنَّ زَيْدًا عَالِمٌ", "fr": "Je pense que Zayd est savant." }
+            },
+            {
+              "from": { "ar": "إِنَّهُ خَرَجَ مِنَ الْفَصْلِ", "fr": "Certes, il est sorti de la classe." },
+              "to": { "ar": "أَظُنُّ أَنَّهُ خَرَجَ مِنَ الْفَصْلِ", "fr": "Je pense qu'il est sorti de la classe." }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Tu n'étudies pas encore le présent : retiens {ar|أَظُنُّ} (« je pense ») comme une expression. Au chapitre 1, tu l'as vu construit autrement, avec deux accusatifs : {ar|أَظُنُّ زَيْدًا طَالِبًا}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.grammar-2#3",
+      "type": "tip",
+      "title": "{ar|أَنَّ} agit comme {ar|إِنَّ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|أَنَّ} est une sœur de {ar|إِنَّ} : son nom (le sujet) est à l'**accusatif** et son prédicat reste au **nominatif**. D'ordinaire, on emploie {ar|إِنَّ} pour commencer une phrase, et {ar|أَنَّ} après un verbe comme {ar|أَظُنُّ}."
+        },
+        {
+          "type": "table",
+          "header": ["Pronom isolé", "Avec {ar|أَنَّ}", "Sens"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|أَنِّي} ou {ar|أَنَّنِي}", "que je…"],
+            ["{ar|أَنْتَ}", "{ar|أَنَّكَ}", "que tu… (à un homme)"],
+            ["{ar|أَنْتِ}", "{ar|أَنَّكِ}", "que tu… (à une femme)"],
+            ["{ar|هُوَ}", "{ar|أَنَّهُ}", "qu'il…"],
+            ["{ar|هِيَ}", "{ar|أَنَّهَا}", "qu'elle…"],
+            ["{ar|نَحْنُ}", "{ar|أَنَّنَا}", "que nous…"],
+            ["{ar|أَنْتُمْ}", "{ar|أَنَّكُمْ}", "que vous… (hommes, ou groupe mixte)"],
+            ["{ar|هُمْ}", "{ar|أَنَّهُمْ}", "qu'ils…"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Ce sont les mêmes pronoms collés que ceux de {ar|إِنَّ} (chapitre 1) : {ar|كَ}, {ar|كِ}, {ar|هُ}, {ar|هَا}…"
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.grammar-2#4",
+      "type": "question",
+      "prompt": { "fr": "Que dit {ar|أَظُنُّ أَنَّ زَيْدًا عَالِمٌ} ?" },
+      "choices": [
+        { "fr": "une supposition : « je pense que Zayd est savant »" },
+        { "fr": "une certitude absolue" },
+        { "fr": "une question" }
+      ],
+      "answer": 0,
+      "explain": "{ar|ظَنَّ} exprime le doute, la supposition : « je pense que… »."
+    },
+    {
+      "id": "medine-t2.l06.grammar-2#5",
+      "type": "fill_gap",
+      "sentence": "أَظُنُّ {0} الْمُدَرِّسَ جَدِيدٌ.",
+      "fr": "Je pense que l'enseignant est nouveau.",
+      "gaps": [ { "answers": ["أَنَّ"] } ],
+      "options": ["أَنَّ", "لَكِنَّ", "كَأَنَّ"],
+      "explain": "Après {ar|أَظُنُّ}, on emploie {ar|أَنَّ} (« que »). {ar|لَكِنَّ} veut dire « mais » et {ar|كَأَنَّ} « comme si »."
+    },
+    {
+      "id": "medine-t2.l06.grammar-2#6",
+      "type": "spot",
+      "instruction": "Touche le nom de {ar|أَنَّ} (le sujet, à l'accusatif).",
+      "words": ["أَظُنُّ", "أَنَّ", "الْمُدَرِّسَ", "جَدِيدٌ."],
+      "answers": [2],
+      "fr": "Je pense que l'enseignant est nouveau.",
+      "explain": "{ar|الْمُدَرِّسَ} est le nom de {ar|أَنَّ} : il prend la fatha. {ar|جَدِيدٌ}, le prédicat, reste au nominatif."
+    },
+    {
+      "id": "medine-t2.l06.grammar-2#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "الْمُدَرِّسُ جَدِيدٌ.",
+      "answers": ["أَظُنُّ أَنَّ الْمُدَرِّسَ جَدِيدٌ."],
+      "fr": "Je pense que l'enseignant est nouveau.",
+      "instruction": "Mets {ar|أَظُنُّ أَنَّ} au début, et le nom à la bonne fin.",
+      "explain": "Après {ar|أَنَّ}, {ar|الْمُدَرِّسُ} devient {ar|الْمُدَرِّسَ} ; {ar|جَدِيدٌ} ne change pas."
+    },
+    {
+      "id": "medine-t2.l06.grammar-2#8",
+      "type": "order",
+      "fr": "Je pense qu'il est sorti de la classe.",
+      "answers": [["أَظُنُّ", "أَنَّهُ", "خَرَجَ", "مِنَ", "الْفَصْلِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l06.grammar-2#9",
+      "type": "fill_gap",
+      "sentence": "هُوَ طَالِبٌ. أَظُنُّ {0} طَالِبٌ.",
+      "fr": "Il est étudiant. Je pense qu'il est étudiant.",
+      "gaps": [ { "answers": ["أَنَّهُ"] } ],
+      "options": ["أَنَّهُ", "أَنَّهَا", "أَنَّهُمْ", "أَنَّكَ"],
+      "explain": "« Il » : {ar|هُوَ} devient {ar|هُ}, collé à {ar|أَنَّ}."
+    },
+    {
+      "id": "medine-t2.l06.grammar-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je pense qu'il est étudiant.",
+      "answers": ["أَظُنُّ أَنَّهُ طَالِبٌ."]
+    }
+  ]
+}

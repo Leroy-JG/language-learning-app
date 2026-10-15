@@ -1,0 +1,115 @@
+{
+  "id": "medine-t2.l06.grammar-1",
+  "type": "grammar",
+  "title": "Oui, non ou si ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l06.grammar-1#1",
+      "type": "tip",
+      "title": "{ar|نَعَمْ} et {ar|بَلَى} : ce que dit le professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais déjà {ar|نَعَمْ} et {ar|بَلَى}. Le professeur résume ainsi leur différence :"
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Elle répond à…", "Elle sert à…"],
+          "rows": [
+            ["{ar|بَلَى}", "**seulement** une question négative", "en affirmer le sens (« si »)"],
+            ["{ar|نَعَمْ}", "une question négative **ou** affirmative", "confirmer ce que la question dit"]
+          ]
+        },
+        { "type": "paragraph", "text": "Voici ses exemples, avec le verbe {ar|كَتَبَ} :" },
+        {
+          "type": "table",
+          "header": ["Question", "Réponse", "Sens"],
+          "rows": [
+            ["{ar|أَكَتَبْتَ الدَّرْسَ؟} (As-tu écrit la leçon ?)", "{ar|نَعَمْ، كَتَبْتُ.}", "oui, j'ai écrit"],
+            [
+              "{ar|أَمَا كَتَبْتَ الدَّرْسَ؟} (N'as-tu pas écrit la leçon ?)",
+              "{ar|بَلَى، كَتَبْتُ.}",
+              "si, j'ai écrit"
+            ],
+            ["{ar|أَمَا كَتَبْتَ الدَّرْسَ؟}", "{ar|نَعَمْ، مَا كَتَبْتُ.}", "non, je n'ai pas écrit"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Dans la troisième ligne, {ar|نَعَمْ} ne veut pas dire « si » : elle confirme la question telle qu'elle est posée, donc la négation (« c'est exact, je n'ai pas écrit »). Voilà pourquoi la réponse continue par {ar|مَا كَتَبْتُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.grammar-1#2",
+      "type": "sort",
+      "categories": [ { "fr": "il l'a fait" }, { "fr": "il ne l'a pas fait" } ],
+      "cards": [
+        { "ar": "أَكَتَبْتَ الدَّرْسَ؟ نَعَمْ، كَتَبْتُ.", "category": 0 },
+        { "ar": "أَمَا كَتَبْتَ الدَّرْسَ؟ بَلَى، كَتَبْتُ.", "category": 0 },
+        { "ar": "أَمَا كَتَبْتَ الدَّرْسَ؟ نَعَمْ، مَا كَتَبْتُ.", "category": 1 },
+        { "ar": "أَكَتَبْتَ الدَّرْسَ؟ لَا، مَا كَتَبْتُ.", "category": 1 },
+        { "ar": "أَمَا فَهِمْتَ الدَّرْسَ؟ بَلَى، فَهِمْتُهُ.", "category": 0 },
+        { "ar": "أَمَا فَهِمْتَ الدَّرْسَ؟ نَعَمْ، مَا فَهِمْتُهُ.", "category": 1 }
+      ],
+      "instruction": "Qu'a fait celui qui répond ?",
+      "explain": "Regarde la fin de la réponse : {ar|مَا} annonce une négation (il ne l'a pas fait), même après {ar|نَعَمْ}. Après {ar|بَلَى}, la réponse est toujours positive."
+    },
+    {
+      "id": "medine-t2.l06.grammar-1#3",
+      "type": "fill_gap",
+      "sentence": "أَمَا فَهِمْتَ الدَّرْسَ؟ {0}، فَهِمْتُهُ.",
+      "fr": "N'as-tu pas compris la leçon ? Si, je l'ai comprise.",
+      "gaps": [ { "answers": ["بَلَى"] } ],
+      "options": ["بَلَى", "نَعَمْ", "لَا"],
+      "explain": "La question est négative et la réponse est positive : on la contredit avec {ar|بَلَى}."
+    },
+    {
+      "id": "medine-t2.l06.grammar-1#4",
+      "type": "fill_gap",
+      "sentence": "أَمَا فَهِمْتَ الدَّرْسَ؟ {0}، مَا فَهِمْتُهُ.",
+      "fr": "N'as-tu pas compris la leçon ? Non, je ne l'ai pas comprise.",
+      "gaps": [ { "answers": ["نَعَمْ"] } ],
+      "options": ["نَعَمْ", "بَلَى"],
+      "explain": "La réponse est négative : {ar|نَعَمْ} confirme la négation de la question. {ar|بَلَى} serait impossible, puisqu'elle affirme."
+    },
+    {
+      "id": "medine-t2.l06.grammar-1#5",
+      "type": "question",
+      "prompt": { "fr": "À la question {ar|أَفَهِمْتَ الدَّرْسَ؟}, comment dit-on « oui » ?" },
+      "choices": [ { "ar": "نَعَمْ" }, { "ar": "بَلَى" }, { "ar": "لَا" } ],
+      "answer": 0,
+      "explain": "La question n'est pas négative : « oui » se dit {ar|نَعَمْ}. {ar|بَلَى} est réservée aux questions négatives."
+    },
+    {
+      "id": "medine-t2.l06.grammar-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Après une question négative, {ar|نَعَمْ} veut dire « si »." },
+      "answer": false,
+      "explain": "Non : {ar|نَعَمْ} confirme ce que dit la question, donc la négation. Pour dire « si », on emploie {ar|بَلَى}."
+    },
+    {
+      "id": "medine-t2.l06.grammar-1#7",
+      "type": "order",
+      "fr": "Si, je l'ai compris.",
+      "answers": [["بَلَى،", "فَهِمْتُهُ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l06.grammar-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "N'as-tu pas lu le Coran aujourd'hui ? Si, je l'ai lu.",
+      "answers": ["أَمَا قَرَأْتَ الْقُرْآنَ الْيَوْمَ؟ بَلَى، قَرَأْتُهُ."]
+    },
+    {
+      "id": "medine-t2.l06.grammar-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "As-tu compris la leçon ? Oui, je l'ai comprise.",
+      "answers": ["أَفَهِمْتَ الدَّرْسَ؟ نَعَمْ، فَهِمْتُهُ."]
+    }
+  ]
+}
