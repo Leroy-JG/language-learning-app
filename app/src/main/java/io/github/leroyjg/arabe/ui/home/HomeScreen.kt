@@ -128,10 +128,6 @@ fun LearnScreen(onOpenActivity: (String) -> Unit) {
                 }
             }
 
-            val totalSeconds = remember(level) { TimeEstimate.seconds(level) }
-            val remainingSeconds = remember(level, progress) {
-                level.chapters.sumOf { c -> c.activities.filterNot { progress.isCompleted(it) }.sumOf { TimeEstimate.seconds(it) } }
-            }
             Column(Modifier.fillMaxSize()) {
                 // Le tome est validé quand son examen final est réussi.
                 val validated = level.chapters.any { chapter ->
@@ -141,8 +137,6 @@ fun LearnScreen(onOpenActivity: (String) -> Unit) {
                     course = course,
                     level = level,
                     fraction = progress.fraction(level),
-                    totalSeconds = totalSeconds,
-                    remainingSeconds = remainingSeconds,
                     validated = validated,
                     onChoose = { chosenLevel = it },
                 )
@@ -173,15 +167,7 @@ fun LearnScreen(onOpenActivity: (String) -> Unit) {
 // ---------------------------------------------------------------- en-tête
 
 @Composable
-private fun LevelHeader(
-    course: Course,
-    level: Level,
-    fraction: Float,
-    totalSeconds: Int,
-    remainingSeconds: Int,
-    validated: Boolean,
-    onChoose: (String) -> Unit,
-) {
+private fun LevelHeader(course: Course, level: Level, fraction: Float, validated: Boolean, onChoose: (String) -> Unit) {
     var menu by remember { mutableStateOf(false) }
     Column(
         Modifier.fillMaxWidth()
@@ -222,22 +208,12 @@ private fun LevelHeader(
         }
         Spacer(Modifier.height(12.dp))
         ProgressWithBadge(fraction)
-        Text(
-            if (remainingSeconds in 1 until totalSeconds) {
-                stringResource(R.string.level_time_left, durationText(totalSeconds), durationText(remainingSeconds))
-            } else {
-                stringResource(R.string.level_time_total, durationText(totalSeconds))
-            },
-            style = MaterialTheme.typography.bodyMedium,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
     }
 }
 
-/** Durée estimée, arrondie (« 5 min », « 1 h 05 », « 30 h »). */
+/** Durée à la minute près (« 5 min », « 1 h 05 », « 2 h »). */
 @Composable
-private fun durationText(seconds: Int): String {
-    val minutes = TimeEstimate.displayMinutes(seconds)
+private fun durationText(minutes: Int): String {
     val hours = minutes / 60
     val rest = minutes % 60
     return when {
@@ -326,7 +302,7 @@ private fun ChapterCard(
                         color = if (chapterDone) AppTheme.colors.correct else scheme.onSurfaceVariant,
                     )
                     Text(
-                        stringResource(R.string.time_about, durationText(TimeEstimate.seconds(chapter))),
+                        durationText(TimeEstimate.minutes(chapter)),
                         style = MaterialTheme.typography.bodyMedium,
                         color = scheme.onSurfaceVariant,
                     )
@@ -421,7 +397,7 @@ private fun ChapterPath(chapter: Chapter, progress: CourseProgress, next: Activi
         CheckpointCard(
             done = progress.isCompleted(quiz),
             isNext = next == quiz,
-            seconds = TimeEstimate.seconds(quiz),
+            minutes = TimeEstimate.minutes(quiz),
             onClick = { onOpenActivity(quiz.id) },
         )
     }
@@ -448,7 +424,7 @@ private fun LessonRow(activity: Activity, completed: Boolean, isNext: Boolean, c
                 Spacer(Modifier.height(4.dp))
                 RichText(activity.file.title, style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.SemiBold, fontSize = 19.sp))
                 Text(
-                    stringResource(R.string.time_about, durationText(TimeEstimate.seconds(activity))),
+                    durationText(TimeEstimate.minutes(activity)),
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -536,7 +512,7 @@ private fun NextPill() {
 
 /** Bilan du chapitre : le quiz final. */
 @Composable
-private fun CheckpointCard(done: Boolean, isNext: Boolean, seconds: Int, onClick: () -> Unit) {
+private fun CheckpointCard(done: Boolean, isNext: Boolean, minutes: Int, onClick: () -> Unit) {
     val colors = AppTheme.colors
     val scheme = MaterialTheme.colorScheme
     Row(
@@ -570,7 +546,7 @@ private fun CheckpointCard(done: Boolean, isNext: Boolean, seconds: Int, onClick
                 style = MaterialTheme.typography.bodyMedium,
             )
             Text(
-                stringResource(R.string.time_about, durationText(seconds)),
+                durationText(minutes),
                 style = MaterialTheme.typography.bodyMedium,
                 color = scheme.onSurfaceVariant,
             )

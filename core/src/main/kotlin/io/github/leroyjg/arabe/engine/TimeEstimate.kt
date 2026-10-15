@@ -5,7 +5,6 @@ import io.github.leroyjg.arabe.content.BuildScreen
 import io.github.leroyjg.arabe.content.Chapter
 import io.github.leroyjg.arabe.content.DialogueScreen
 import io.github.leroyjg.arabe.content.FillGapScreen
-import io.github.leroyjg.arabe.content.Level
 import io.github.leroyjg.arabe.content.MatchScreen
 import io.github.leroyjg.arabe.content.McqScreen
 import io.github.leroyjg.arabe.content.MemoryScreen
@@ -21,7 +20,7 @@ import io.github.leroyjg.arabe.content.TrueFalseScreen
 import io.github.leroyjg.arabe.content.TypingScreen
 
 /**
- * Durée estimée d'une leçon, d'un chapitre ou d'un tome, calculée d'après le contenu :
+ * Durée estimée d'une leçon ou d'un chapitre, calculée d'après le contenu :
  * chaque écran a un temps moyen selon son type (lire, écouter, répéter, répondre, se tromper et
  * recommencer), augmenté pour les écrans qui contiennent plusieurs éléments (paires, cartes, répliques…).
  * C'est un ordre de grandeur pour un débutant, pas une mesure.
@@ -48,16 +47,9 @@ object TimeEstimate {
 
     fun seconds(activity: Activity): Int = activity.screens.sumOf { seconds(it) }
 
-    fun seconds(chapter: Chapter): Int = chapter.activities.sumOf { seconds(it) }
+    /** Minutes affichées pour une leçon : arrondies à la minute supérieure, 1 min au minimum. */
+    fun minutes(activity: Activity): Int = maxOf((seconds(activity) + 59) / 60, 1)
 
-    fun seconds(level: Level): Int = level.chapters.sumOf { seconds(it) }
-
-    /**
-     * Minutes à afficher : arrondies à la minute au-dessous de 10 min, au multiple de 5 min
-     * au-dessus (une précision plus fine serait trompeuse), 1 min au minimum.
-     */
-    fun displayMinutes(seconds: Int): Int {
-        val minutes = (seconds + 59) / 60
-        return if (minutes < 10) maxOf(minutes, 1) else (minutes + 2) / 5 * 5
-    }
+    /** Minutes affichées pour un chapitre : la somme de celles de ses leçons. */
+    fun minutes(chapter: Chapter): Int = chapter.activities.sumOf { minutes(it) }
 }

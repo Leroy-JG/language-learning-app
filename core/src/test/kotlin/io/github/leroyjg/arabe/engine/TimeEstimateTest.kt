@@ -9,29 +9,23 @@ class TimeEstimateTest {
     private val course = TestContent.course
 
     @Test
-    fun `chaque leçon a une durée positive`() {
-        assertTrue(course.activities.all { TimeEstimate.seconds(it) > 0 })
+    fun `chaque leçon dure au moins une minute`() {
+        assertTrue(course.activities.all { TimeEstimate.minutes(it) >= 1 })
     }
 
     @Test
-    fun `un chapitre dure la somme de ses leçons et un tome la somme de ses chapitres`() {
-        for (chapter in course.chapters) {
-            assertEquals(chapter.activities.sumOf { TimeEstimate.seconds(it) }, TimeEstimate.seconds(chapter))
+    fun `une leçon est arrondie à la minute supérieure`() {
+        for (activity in course.activities) {
+            val seconds = TimeEstimate.seconds(activity)
+            assertTrue(seconds > 0)
+            assertEquals(maxOf((seconds + 59) / 60, 1), TimeEstimate.minutes(activity))
         }
-        val level = course.levels.first()
-        assertEquals(level.chapters.sumOf { TimeEstimate.seconds(it) }, TimeEstimate.seconds(level))
     }
 
     @Test
-    fun `l'arrondi affiché reste raisonnable`() {
-        assertEquals(1, TimeEstimate.displayMinutes(0))
-        assertEquals(1, TimeEstimate.displayMinutes(40))
-        assertEquals(1, TimeEstimate.displayMinutes(60))
-        assertEquals(2, TimeEstimate.displayMinutes(61))
-        assertEquals(9, TimeEstimate.displayMinutes(9 * 60))
-        assertEquals(10, TimeEstimate.displayMinutes(9 * 60 + 1))
-        assertEquals(10, TimeEstimate.displayMinutes(12 * 60))
-        assertEquals(15, TimeEstimate.displayMinutes(13 * 60))
-        assertEquals(35, TimeEstimate.displayMinutes(34 * 60))
+    fun `un chapitre dure la somme des minutes affichées de ses leçons`() {
+        for (chapter in course.chapters) {
+            assertEquals(chapter.activities.sumOf { TimeEstimate.minutes(it) }, TimeEstimate.minutes(chapter))
+        }
     }
 }

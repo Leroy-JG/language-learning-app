@@ -17,7 +17,7 @@
   - thème ;
   - exporter, importer ou réinitialiser la progression.
 - **Motivation :** sons, vibrations, série 🔥, confettis, écran de fin avec XP.
-- **Durées estimées :** chaque leçon, chaque chapitre et le tome affichent une durée approximative (`TimeEstimate`, calculée d'après le contenu : temps moyen par type d'écran, plus le nombre d'éléments). Les temps par écran sont des estimations pour un débutant, à ajuster d'après l'usage réel.
+- **Durées estimées :** chaque leçon affiche une durée à la minute près (`TimeEstimate`, calculée d'après le contenu : temps moyen par type d'écran, plus le nombre d'éléments) ; un chapitre affiche la somme de ses leçons. Les temps par écran sont des estimations pour un débutant, à ajuster d'après l'usage réel.
 - **Mots :** genre (masculin / féminin) affiché sous chaque nom.
 - **Signature :** clé définitive, APK publié automatiquement à chaque push.
 
