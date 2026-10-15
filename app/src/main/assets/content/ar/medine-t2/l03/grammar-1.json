@@ -1,0 +1,151 @@
+{
+  "id": "medine-t2.l03.grammar-1",
+  "type": "grammar",
+  "title": "Au-delà de dix : le plan",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l03.grammar-1#1",
+      "type": "tip",
+      "title": "Compter au-delà de dix : les quatre familles",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur range les nombres en quatre familles. Tu connais déjà la première. Aujourd'hui, tu étudies la deuxième : **de 11 à 19**."
+        },
+        {
+          "type": "table",
+          "header": ["Nombres", "Exemple", "Le nombre et le dénombré"],
+          "rows": [
+            [
+              "de 3 à 10",
+              "{ar|ثَلَاثَةُ كُتُبٍ} (trois livres)",
+              "annexion : le dénombré est au pluriel, au génitif"
+            ],
+            [
+              "de 11 à 19",
+              "{ar|ثَلَاثَةَ عَشَرَ كِتَابًا} (treize livres)",
+              "le nombre a deux parties ; le dénombré est au singulier, à l'accusatif"
+            ],
+            ["de 20 à 99", "{ar|عِشْرُونَ كِتَابًا} (vingt livres)", "à venir dans une autre leçon"],
+            [
+              "100 et 1000",
+              "{ar|مِائَةُ كِتَابٍ} (cent livres), {ar|أَلْفُ كِتَابٍ} (mille livres)",
+              "annexion : le dénombré est au singulier, au génitif"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Tu avais déjà vu ce plan au chapitre 1 de ce tome, en aperçu. Ici, tu étudies la deuxième famille en détail."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-1#2",
+      "type": "sort",
+      "categories": [ { "fr": "pluriel, au génitif" }, { "fr": "singulier, à l'accusatif" }, { "fr": "singulier, au génitif" } ],
+      "cards": [
+        { "ar": "ثَلَاثَةُ كُتُبٍ", "category": 0 },
+        { "ar": "خَمْسُ سَيَّارَاتٍ", "category": 0 },
+        { "ar": "ثَلَاثَةَ عَشَرَ كِتَابًا", "category": 1 },
+        { "ar": "أَرْبَعَةَ عَشَرَ رَجُلًا", "category": 1 },
+        { "ar": "مِائَةُ كِتَابٍ", "category": 2 },
+        { "ar": "أَلْفُ رِيَالٍ", "category": 2 }
+      ],
+      "instruction": "Range chaque groupe « nombre + dénombré » selon la forme du dénombré.",
+      "explain": "De 3 à 10 : le dénombré est au pluriel, au génitif. De 11 à 19 : au singulier, à l'accusatif. Avec cent et mille : au singulier, au génitif."
+    },
+    {
+      "id": "medine-t2.l03.grammar-1#3",
+      "type": "tip",
+      "title": "Onze à dix-neuf : deux parties",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un nombre de 11 à 19 se compose de **deux parties** ({ar|جُزْآنِ}) : les **unités**, puis **dix**."
+        },
+        {
+          "type": "breakdown",
+          "ar": "ثَلَاثَةَ عَشَرَ",
+          "fr": "treize (avec un nom masculin)",
+          "parts": [ { "ar": "ثَلَاثَةَ", "fr": "trois" }, { "ar": "عَشَرَ", "fr": "dix" } ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "ثَلَاثَ عَشْرَةَ",
+          "fr": "treize (avec un nom féminin)",
+          "parts": [ { "ar": "ثَلَاثَ", "fr": "trois" }, { "ar": "عَشْرَةَ", "fr": "dix" } ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque nombre a deux formes : l'une avec un dénombré masculin, l'autre avec un dénombré féminin."
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "Avec un nom masculin", "Avec un nom féminin"],
+          "rows": [
+            ["11", "{ar|أَحَدَ عَشَرَ}", "{ar|إِحْدَى عَشْرَةَ}"],
+            ["12", "{ar|اِثْنَا عَشَرَ}", "{ar|اِثْنَتَا عَشْرَةَ}"],
+            ["13", "{ar|ثَلَاثَةَ عَشَرَ}", "{ar|ثَلَاثَ عَشْرَةَ}"],
+            ["14", "{ar|أَرْبَعَةَ عَشَرَ}", "{ar|أَرْبَعَ عَشْرَةَ}"],
+            ["15", "{ar|خَمْسَةَ عَشَرَ}", "{ar|خَمْسَ عَشْرَةَ}"],
+            ["16", "{ar|سِتَّةَ عَشَرَ}", "{ar|سِتَّ عَشْرَةَ}"],
+            ["17", "{ar|سَبْعَةَ عَشَرَ}", "{ar|سَبْعَ عَشْرَةَ}"],
+            ["18", "{ar|ثَمَانِيَةَ عَشَرَ}", "{ar|ثَمَانِيَ عَشْرَةَ}"],
+            ["19", "{ar|تِسْعَةَ عَشَرَ}", "{ar|تِسْعَ عَشْرَةَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Tu apprends ces formes une à une dans les deux activités suivantes, puis tu verras pourquoi elles changent."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-1#4",
+      "type": "question",
+      "prompt": { "fr": "Combien de parties a un nombre de 11 à 19 ?" },
+      "choices": [ { "fr": "deux : les unités, puis « dix »" }, { "fr": "un seul" }, { "fr": "trois" } ],
+      "answer": 0,
+      "explain": "{ar|ثَلَاثَةَ عَشَرَ} = {ar|ثَلَاثَةَ} (« trois ») + {ar|عَشَرَ} (« dix »)."
+    },
+    {
+      "id": "medine-t2.l03.grammar-1#5",
+      "type": "spot",
+      "instruction": "Touche la partie « dix ».",
+      "words": ["ثَلَاثَةَ", "عَشَرَ", "كِتَابًا."],
+      "answers": [1],
+      "fr": "Treize livres.",
+      "explain": "{ar|عَشَرَ} est la partie « dix » ; {ar|ثَلَاثَةَ} est la partie « trois » ; {ar|كِتَابًا} est le dénombré."
+    },
+    {
+      "id": "medine-t2.l03.grammar-1#6",
+      "type": "spot",
+      "instruction": "Touche le dénombré.",
+      "words": ["أَرْبَعَةَ", "عَشَرَ", "رَجُلًا."],
+      "answers": [2],
+      "fr": "Quatorze hommes.",
+      "explain": "Le dénombré est ce qu'on compte : {ar|رَجُلًا} (un homme). Il vient après les deux parties du nombre."
+    },
+    {
+      "id": "medine-t2.l03.grammar-1#7",
+      "type": "question",
+      "prompt": { "fr": "De 11 à 19, le dénombré est…" },
+      "choices": [
+        { "fr": "au singulier, à l'accusatif" },
+        { "fr": "au pluriel, au génitif" },
+        { "fr": "au singulier, au génitif" }
+      ],
+      "answer": 0,
+      "explain": "Comme après {ar|كَمْ} : le dénombré est au singulier, à l'accusatif ({ar|ثَلَاثَةَ عَشَرَ كِتَابًا})."
+    },
+    {
+      "id": "medine-t2.l03.grammar-1#8",
+      "type": "order",
+      "fr": "Treize livres.",
+      "answers": [["ثَلَاثَةَ", "عَشَرَ", "كِتَابًا"]],
+      "punctuation": "."
+    }
+  ]
+}

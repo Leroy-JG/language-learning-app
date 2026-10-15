@@ -1,0 +1,147 @@
+{
+  "id": "medine-t2.l03.practice-5",
+  "type": "grammar",
+  "title": "Questions sur le texte",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t2.l03.practice-5#1",
+      "type": "tip",
+      "title": "Les exercices 1 et 2 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande d'abord de répondre à quatre questions sur le texte, puis de dire si quatre phrases sont justes ou fausses."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.practice-5#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ طَالِبًا فِي فَصْلِ أَحْمَدَ؟",
+      "answers": [
+        "فِي فَصْلِ أَحْمَدَ تِسْعَةَ عَشَرَ طَالِبًا.",
+        "فِيهِ تِسْعَةَ عَشَرَ طَالِبًا.",
+        "تِسْعَةَ عَشَرَ طَالِبًا."
+      ],
+      "fr": "Il y a dix-neuf étudiants dans la classe d'Aḥmad.",
+      "context": { "dialogue": "medine-t2.l03.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l03.practice-5#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ طَالِبًا فِي فَصْلِ عَلِيٍّ؟",
+      "answers": [
+        "فِي فَصْلِ عَلِيٍّ أَرْبَعَةَ عَشَرَ طَالِبًا.",
+        "فِيهِ أَرْبَعَةَ عَشَرَ طَالِبًا.",
+        "أَرْبَعَةَ عَشَرَ طَالِبًا."
+      ],
+      "fr": "Il y a quatorze étudiants dans la classe de ʿAlī.",
+      "context": { "dialogue": "medine-t2.l03.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l03.practice-5#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ أَطْوَلُ طَالِبٍ فِي فَصْلِ أَحْمَدَ؟",
+      "answers": [
+        "أَطْوَلُ طَالِبٍ فِي فَصْلِ أَحْمَدَ إِبْرَاهِيمُ.",
+        "إِبْرَاهِيمُ أَطْوَلُ طَالِبٍ فِي فَصْلِ أَحْمَدَ.",
+        "هُوَ إِبْرَاهِيمُ.",
+        "إِبْرَاهِيمُ."
+      ],
+      "fr": "Le plus grand étudiant de la classe d'Aḥmad est Ibrāhīm.",
+      "context": { "dialogue": "medine-t2.l03.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l03.practice-5#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "وَمَنْ أَطْوَلُ طَالِبٍ فِي فَصْلِ عَلِيٍّ؟",
+      "answers": [
+        "أَطْوَلُ طَالِبٍ فِي فَصْلِ عَلِيٍّ حَامِدٌ.",
+        "حَامِدٌ أَطْوَلُ طَالِبٍ فِي فَصْلِ عَلِيٍّ.",
+        "هُوَ حَامِدٌ.",
+        "حَامِدٌ."
+      ],
+      "fr": "Le plus grand étudiant de la classe de ʿAlī est Ḥāmid.",
+      "context": { "dialogue": "medine-t2.l03.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l03.practice-5#6",
+      "type": "true_false",
+      "statement": { "fr": "Le nouvel étudiant venu hier s'appelle Usāma." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l03.dialogue-1#1" },
+      "explain": "{ar|اِسْمُهُ أُسَامَةُ}."
+    },
+    {
+      "id": "medine-t2.l03.practice-5#7",
+      "type": "true_false",
+      "statement": { "ar": "حَامِدٌ فِي فَصْلِ أَحْمَدَ.", "fr": "Ḥāmid est dans la classe d'Aḥmad." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l03.dialogue-1#1" },
+      "explain": "Non : ʿAlī dit que Ḥāmid est le plus grand étudiant de sa classe (la classe de ʿAlī), pas de celle d'Aḥmad."
+    },
+    {
+      "id": "medine-t2.l03.practice-5#8",
+      "type": "true_false",
+      "statement": { "fr": "Les chambres du huitième dortoir sont plus spacieuses que celles du cinquième." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l03.dialogue-2#1" },
+      "explain": "Non : ce sont les chambres du cinquième dortoir qui sont plus spacieuses."
+    },
+    {
+      "id": "medine-t2.l03.practice-5#9",
+      "type": "true_false",
+      "statement": { "fr": "Le huitième dortoir est plus loin de l'école que le cinquième." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l03.dialogue-2#1" },
+      "explain": "Oui : {ar|هُوَ أَبْعَدُ مِنْ مَهْجَعِكُمْ}."
+    },
+    {
+      "id": "medine-t2.l03.practice-5#10",
+      "type": "fill_gap",
+      "sentence": "أَطْوَلُ {0} فِي فَصْلِنَا إِبْرَاهِيمُ.",
+      "fr": "Le plus grand étudiant de notre classe, c'est Ibrāhīm.",
+      "gaps": [ { "answers": ["طَالِبٍ"] } ],
+      "options": ["طَالِبٍ", "طَالِبَةٍ", "كِتَابٍ"],
+      "explain": "Le superlatif : le comparatif {ar|أَطْوَلُ} + un nom indéfini au génitif."
+    },
+    {
+      "id": "medine-t2.l03.practice-5#11",
+      "type": "fill_gap",
+      "sentence": "فِي فَصْلِنَا {0} طَالِبًا.",
+      "fr": "Dans notre classe, il y a quatorze étudiants.",
+      "gaps": [ { "answers": ["أَرْبَعَةَ عَشَرَ"] } ],
+      "options": ["أَرْبَعَةَ عَشَرَ", "أَرْبَعَ عَشْرَةَ", "ثَلَاثَةَ عَشَرَ"],
+      "explain": "{ar|طَالِبٌ} est masculin : {ar|أَرْبَعَةَ عَشَرَ}."
+    },
+    {
+      "id": "medine-t2.l03.practice-5#12",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi ʿAlī dit-il {ar|مَا شَاءَ اللَّهُ} à Aḥmad ?" },
+      "choices": [ { "fr": "Il admire son écriture." }, { "fr": "Il le remercie." }, { "fr": "Il le salue." } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l03.dialogue-1#1" },
+      "explain": "{ar|إِنَّ خَطَّكَ جَمِيلٌ جِدًّا. مَا شَاءَ اللَّهُ!} : il admire l'écriture d'Aḥmad."
+    },
+    {
+      "id": "medine-t2.l03.practice-5#13",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ هٰذَا الْفَتَى مَعَ أَحْمَدَ؟",
+      "answers": [
+        "هُوَ أَخُوهُ الشَّقِيقُ.",
+        "أَخُوهُ الشَّقِيقُ.",
+        "هُوَ أَخُوهُ.",
+        "هُوَ أَخُو أَحْمَدَ الشَّقِيقُ.",
+        "أَخُو أَحْمَدَ الشَّقِيقُ."
+      ],
+      "fr": "C'est son frère germain.",
+      "context": { "dialogue": "medine-t2.l03.dialogue-2#1" }
+    }
+  ]
+}

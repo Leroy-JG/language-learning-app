@@ -1,0 +1,131 @@
+{
+  "id": "medine-t2.l03.practice-2",
+  "type": "grammar",
+  "title": "Lire des phrases de comparaison",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t2.l03.practice-2#1",
+      "type": "tip",
+      "title": "L'exercice 3 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne deux modèles, puis dix phrases à lire. Voici les modèles :"
+        },
+        {
+          "type": "table",
+          "header": ["Modèle", "Sens"],
+          "rows": [
+            [
+              "{ar|هَاشِمٌ طَوِيلٌ، وَحَامِدٌ أَطْوَلُ مِنْهُ}",
+              "Hāshim est grand, et Ḥāmid est plus grand que lui."
+            ],
+            [
+              "{ar|آمِنَةُ صَغِيرَةٌ، وَزَيْنَبُ أَصْغَرُ مِنْهَا}",
+              "Āmina est petite, et Zaynab est plus petite qu'elle."
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|أَصْغَرُ} est le même mot pour {ar|زَيْنَبُ}, qui est féminin : le comparatif ne change pas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.practice-2#2",
+      "type": "order",
+      "fr": "Ce livre est plus facile que celui-là.",
+      "answers": [["هٰذَا", "الْكِتَابُ", "أَسْهَلُ", "مِنْ", "ذَاكَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l03.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ السَّيَّارَةُ أَجْمَلُ مِنْ {0}.",
+      "fr": "Cette voiture est plus belle que celle-là.",
+      "gaps": [ { "answers": ["تِلْكَ"] } ],
+      "options": ["تِلْكَ", "ذٰلِكَ", "ذَاكَ"],
+      "explain": "{ar|تِلْكَ} est le féminin de {ar|ذٰلِكَ} : elle remplace {ar|السَّيَّارَةُ}, féminin."
+    },
+    {
+      "id": "medine-t2.l03.practice-2#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ḥamza est plus âgé que moi.",
+      "answers": ["حَمْزَةُ أَكْبَرُ مِنِّي سِنًّا.", "حَمْزَةُ أَكْبَرُ مِنِّي."],
+      "explain": "{ar|سِنًّا} (« en âge ») est la précision, à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l03.practice-2#5",
+      "type": "fill_gap",
+      "sentence": "هَؤُلَاءِ الطُّلَّابُ أَحْسَنُ مِنْ {0}.",
+      "fr": "Ces étudiants sont meilleurs que ceux-là.",
+      "gaps": [ { "answers": ["أُولَئِكَ"] } ],
+      "options": ["أُولَئِكَ", "تِلْكَ", "ذٰلِكَ"],
+      "explain": "{ar|أُولَئِكَ} : « ceux-là » (pluriel). {ar|أَحْسَنُ} ne change pas, même avec un pluriel."
+    },
+    {
+      "id": "medine-t2.l03.practice-2#6",
+      "type": "order",
+      "fr": "Ma maison est plus loin de l'école que la tienne.",
+      "answers": [
+        ["بَيْتِي", "أَبْعَدُ", "عَنِ", "الْمَدْرَسَةِ", "مِنْ", "بَيْتِكَ"],
+        ["بَيْتِي", "أَبْعَدُ", "مِنْ", "بَيْتِكَ", "عَنِ", "الْمَدْرَسَةِ"]
+      ],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l03.practice-2#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il est plus jeune que nous.",
+      "answers": ["هُوَ أَصْغَرُ مِنَّا سِنًّا.", "هُوَ أَصْغَرُ مِنَّا."]
+    },
+    {
+      "id": "medine-t2.l03.practice-2#8",
+      "type": "fill_gap",
+      "sentence": "خَطِّي أَحْسَنُ مِنْ {0}.",
+      "fr": "Mon écriture est meilleure que la tienne.",
+      "gaps": [ { "answers": ["خَطِّكَ"] } ],
+      "options": ["خَطِّكَ", "خَطِّهِ", "خَطِّهَا"],
+      "explain": "Après {ar|مِنْ}, le second terme est au génitif : {ar|خَطِّكَ} (« ton écriture »)."
+    },
+    {
+      "id": "medine-t2.l03.practice-2#9",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|هٰذَا الشَّارِعُ أَنْظَفُ مِنْ ذٰلِكَ} ?" },
+      "choices": [
+        { "fr": "Cette rue est plus propre que celle-là." },
+        { "fr": "Cette rue est plus large que celle-là." },
+        { "fr": "Cette rue est moins propre que celle-là." }
+      ],
+      "answer": 0,
+      "explain": "{ar|أَنْظَفُ} : « plus propre »."
+    },
+    {
+      "id": "medine-t2.l03.practice-2#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le lait est meilleur que le thé.",
+      "answers": ["اللَّبَنُ أَحْسَنُ مِنَ الشَّايِ."]
+    },
+    {
+      "id": "medine-t2.l03.practice-2#11",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ السَّاعَةُ {0} مِنْ تِلْكَ.",
+      "fr": "Cette montre est moins chère que celle-là.",
+      "gaps": [ { "answers": ["أَرْخَصُ"] } ],
+      "options": ["أَرْخَصُ", "رَخِيصَةٌ", "أَكْبَرُ"],
+      "explain": "{ar|أَرْخَصُ} : « moins cher »."
+    },
+    {
+      "id": "medine-t2.l03.practice-2#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Cette rue est plus propre que celle-là.",
+      "answers": ["هٰذَا الشَّارِعُ أَنْظَفُ مِنْ ذٰلِكَ.", "هٰذَا الشَّارِعُ أَنْظَفُ مِنْ ذَاكَ."]
+    }
+  ]
+}

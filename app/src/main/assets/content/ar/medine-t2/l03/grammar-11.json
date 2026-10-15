@@ -1,0 +1,106 @@
+{
+  "id": "medine-t2.l03.grammar-11",
+  "type": "grammar",
+  "title": "Mais si ! {ar|بَلَى}",
+  "icon": "question",
+  "screens": [
+    { "id": "medine-t2.l03.grammar-11#1", "type": "present", "item": "w:bala" },
+    { "id": "medine-t2.l03.grammar-11#2", "type": "present", "item": "w:kadhalika" },
+    {
+      "id": "medine-t2.l03.grammar-11#3",
+      "type": "tip",
+      "title": "{ar|نَعَمْ} ou {ar|بَلَى} ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Après une question **qui n'est pas négative**, on répond « oui » par {ar|نَعَمْ}. Après une question **négative** (par exemple avec {ar|أَلَيْسَ}), on répond « oui » par {ar|بَلَى} : elle contredit la négation, comme « si ! » en français."
+        },
+        {
+          "type": "breakdown",
+          "ar": "أَلَيْسَ",
+          "fr": "est-ce que… ne… pas ?",
+          "parts": [ { "ar": "أَ", "fr": "est-ce que" }, { "ar": "لَيْسَ", "fr": "ne… pas" } ]
+        },
+        {
+          "type": "table",
+          "header": ["Question", "Réponse « oui »"],
+          "rows": [
+            ["{ar|أَزَيْدٌ عَالِمٌ؟} (Zayd est-il savant ?)", "{ar|نَعَمْ}"],
+            ["{ar|أَلَيْسَ زَيْدٌ عَالِمًا؟} (Zayd n'est-il pas savant ?)", "{ar|بَلَى، إِنَّهُ عَالِمٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "On la trouve dans le Coran (7:172) : {ar|أَلَسْتُ بِرَبِّكُمْ؟ قَالُوا بَلَى} (« Ne suis-Je pas votre Seigneur ? — Si ! »). Elle peut aussi contredire une phrase négative qui n'est pas une question."
+        },
+        {
+          "type": "note",
+          "text": "{ar|نَعَمْ} confirme ce qu'on vient de dire. Après une question négative, elle confirmerait la négation (« oui, il n'est pas savant »), ce qui prête à confusion : c'est pourquoi on emploie {ar|بَلَى}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-11#4",
+      "type": "sort",
+      "categories": [ { "ar": "نَعَمْ" }, { "ar": "بَلَى" } ],
+      "cards": [
+        { "ar": "أَزَيْدٌ عَالِمٌ؟", "category": 0 },
+        { "ar": "أَلَيْسَ زَيْدٌ عَالِمًا؟", "category": 1 },
+        { "ar": "أَهٰذَا كِتَابٌ؟", "category": 0 },
+        { "ar": "أَلَيْسَ هٰذَا كِتَابًا؟", "category": 1 },
+        { "ar": "أَأَنْتَ طَالِبٌ؟", "category": 0 },
+        { "ar": "أَلَسْتَ طَالِبًا؟", "category": 1 }
+      ],
+      "instruction": "Tu veux répondre « oui » : quel mot faut-il employer ?",
+      "explain": "Question sans négation : {ar|نَعَمْ}. Question avec {ar|لَيْسَ} (négative) : {ar|بَلَى}."
+    },
+    {
+      "id": "medine-t2.l03.grammar-11#5",
+      "type": "fill_gap",
+      "sentence": "أَلَيْسَ زَيْدٌ عَالِمًا؟ {0}، إِنَّهُ عَالِمٌ.",
+      "fr": "Zayd n'est-il pas savant ? Mais si, il est savant.",
+      "gaps": [ { "answers": ["بَلَى"] } ],
+      "options": ["بَلَى", "نَعَمْ", "لَا"],
+      "explain": "La question est négative ({ar|أَلَيْسَ}) : on la contredit avec {ar|بَلَى}."
+    },
+    {
+      "id": "medine-t2.l03.grammar-11#6",
+      "type": "fill_gap",
+      "sentence": "أَزَيْدٌ عَالِمٌ؟ {0}، هُوَ عَالِمٌ.",
+      "fr": "Zayd est-il savant ? Oui, il est savant.",
+      "gaps": [ { "answers": ["نَعَمْ"] } ],
+      "options": ["نَعَمْ", "بَلَى", "لَا"],
+      "explain": "La question n'est pas négative : on répond « oui » par {ar|نَعَمْ}. {ar|بَلَى} s'emploie seulement pour contredire une négation."
+    },
+    {
+      "id": "medine-t2.l03.grammar-11#7",
+      "type": "question",
+      "prompt": { "fr": "Quel mot contredit une négation (« si ! ») ?" },
+      "choices": [ { "ar": "بَلَى" }, { "ar": "نَعَمْ" }, { "ar": "لَا" } ],
+      "answer": 0,
+      "explain": "{ar|بَلَى} contredit une négation : {ar|أَلَيْسَ كَذٰلِكَ؟ بَلَى.}"
+    },
+    {
+      "id": "medine-t2.l03.grammar-11#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "N'est-ce pas ainsi ? Mais si !",
+      "answers": ["أَلَيْسَ كَذٰلِكَ؟ بَلَى."]
+    },
+    {
+      "id": "medine-t2.l03.grammar-11#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd n'est-il pas savant ? Mais si, il est savant.",
+      "answers": ["أَلَيْسَ زَيْدٌ عَالِمًا؟ بَلَى، إِنَّهُ عَالِمٌ."]
+    },
+    {
+      "id": "medine-t2.l03.grammar-11#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis étudiant, et lui aussi.",
+      "answers": ["أَنَا طَالِبٌ وَهُوَ كَذٰلِكَ.", "أَنَا طَالِبٌ وَهُوَ أَيْضًا.", "أَنَا طَالِبٌ وَهُوَ طَالِبٌ أَيْضًا."]
+    }
+  ]
+}

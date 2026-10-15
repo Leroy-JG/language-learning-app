@@ -196,3 +196,10 @@ Le cours 2 (PDF « 2a » et « 2b », fournis ensemble) est publié : `docs/sour
 (trois temps, sujet du verbe), les pronoms sujets collés du passé (douze formes, tableau de référence dans `l02.grammar-4`),
 `لَيْسَ` (tableau de référence dans `l02.grammar-7`, `لَيْسَ لِي`, les quatre accusatifs) et le texte du livre (Hishām et Bilāl).
 Le complément d'objet, le présent et l'impératif restent « pas encore enseignés ».
+
+## 10. Avancement : le chapitre 3 (`medine-t2.l03`)
+
+Le cours 3 (un seul PDF de 26 pages) est publié : `docs/sources-t2-lecon-3.md`. Il réunit les nombres de 11 à 19 (deux morceaux, tableau de référence dans
+`l03.grammar-1`, accord dans `l03.grammar-2`, dénombré et `التَّمْيِيزُ` dans `l03.grammar-3`, douze dans `l03.grammar-4`), `أَفْعَلُ التَّفْضِيلِ` (comparatif avec `مِنْ`
+dans `l03.grammar-6`, superlatif dans `l03.grammar-7`, fatha / kasra dans `l03.grammar-8`), `لَكِنَّ`, `كَأَنَّ` et `بَلَى`, et le texte du livre (Aḥmad et ʿAlī).
+Les dizaines (20 à 99), les nombres ordinaux, le féminin du comparatif et le superlatif avec l'article restent « pas encore enseignés ».

@@ -1,0 +1,80 @@
+{
+  "id": "medine-t2.l03.vocab-8",
+  "type": "vocabulary",
+  "title": "Le dortoir et l'admiration",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t2.l03.vocab-8#1", "type": "present", "item": "w:mahja" },
+    { "id": "medine-t2.l03.vocab-8#2", "type": "present", "item": "p:ma-shaa-allah" },
+    {
+      "id": "medine-t2.l03.vocab-8#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mahja",
+      "distractors": ["w:ghurfa", "w:bayt"]
+    },
+    {
+      "id": "medine-t2.l03.vocab-8#4",
+      "type": "tip",
+      "title": "{ar|مَا شَاءَ اللَّهُ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|مَا شَاءَ اللَّهُ} (« ce qu'Allah a voulu ») se dit pour exprimer son admiration devant quelque chose de beau ou de réussi, en rappelant que ce qui arrive est voulu par Allah."
+        },
+        {
+          "type": "breakdown",
+          "ar": "مَا شَاءَ اللَّهُ",
+          "fr": "ce qu'Allah a voulu",
+          "parts": [
+            { "ar": "مَا", "fr": "ce que" },
+            { "ar": "شَاءَ", "fr": "a voulu" },
+            { "ar": "اللَّهُ", "fr": "Allah" }
+          ]
+        },
+        {
+          "type": "example",
+          "ar": "إِنَّ خَطَّكَ جَمِيلٌ جِدًّا. مَا شَاءَ اللَّهُ!",
+          "fr": "Ton écriture est très belle. Ce qu'Allah a voulu !"
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "On la trouve dans le Coran (18:39) : {ar|قُلْتَ مَا شَاءَ اللَّهُ لَا قُوَّةَ إِلَّا بِاللَّهِ} (« ce qu'Allah a voulu ! Il n'y a de force qu'en Allah »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.vocab-8#5",
+      "type": "question",
+      "prompt": { "fr": "Que dit-on pour exprimer son admiration devant une belle écriture ?" },
+      "choices": [ { "ar": "مَا شَاءَ اللَّهُ" }, { "ar": "أَهْلًا وَسَهْلًا" }, { "ar": "شُكْرًا" } ],
+      "answer": 0,
+      "explain": "{ar|مَا شَاءَ اللَّهُ} exprime l'admiration. {ar|أَهْلًا وَسَهْلًا} accueille quelqu'un ; {ar|شُكْرًا} remercie."
+    },
+    {
+      "id": "medine-t2.l03.vocab-8#6",
+      "type": "fill_gap",
+      "sentence": "هٰذَا الْمَهْجَعُ بَعِيدٌ عَنِ {0}.",
+      "fr": "Ce dortoir est loin de l'école.",
+      "gaps": [ { "answers": ["الْمَدْرَسَةِ"] } ],
+      "options": ["الْمَدْرَسَةِ", "الْمَهْجَعِ", "الْكِتَابِ"],
+      "explain": "{ar|بَعِيدٌ عَنِ الْمَدْرَسَةِ} : « loin de l'école »."
+    },
+    {
+      "id": "medine-t2.l03.vocab-8#7",
+      "type": "order",
+      "fr": "Mon dortoir est loin de l'école.",
+      "answers": [["مَهْجَعِي", "بَعِيدٌ", "عَنِ", "الْمَدْرَسَةِ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t2.l03.vocab-8#8", "type": "typing", "ask": "fr", "item": "w:mahja" },
+    {
+      "id": "medine-t2.l03.vocab-8#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ton écriture est très belle. Ce qu'Allah a voulu !",
+      "answers": ["إِنَّ خَطَّكَ جَمِيلٌ جِدًّا. مَا شَاءَ اللَّهُ!", "خَطُّكَ جَمِيلٌ جِدًّا. مَا شَاءَ اللَّهُ!"]
+    }
+  ]
+}

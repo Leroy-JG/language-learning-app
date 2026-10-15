@@ -1,0 +1,180 @@
+{
+  "id": "medine-t2.l03.dialogue-1",
+  "type": "dialogue",
+  "title": "Aḥmad et ʿAlī : les classes",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t2.l03.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Aḥmad et ʿAlī : les classes",
+      "intro": "Aḥmad et ʿAlī sont dans des classes différentes. Ils comparent le nombre d'étudiants, parlent du nouvel étudiant, puis de leur écriture.",
+      "speakers": { "A": { "name": "Aḥmad", "voice": "m1" }, "B": { "name": "ʿAlī", "voice": "m2" } },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "كَمْ طَالِبًا فِي فَصْلِكُمْ يَا عَلِيُّ؟",
+          "fr": "Combien d'étudiants y a-t-il dans votre classe, ʿAlī ?"
+        },
+        {
+          "speaker": "B",
+          "ar": "فِي فَصْلِنَا أَرْبَعَةَ عَشَرَ طَالِبًا.",
+          "fr": "Dans notre classe, il y a quatorze étudiants."
+        },
+        {
+          "speaker": "A",
+          "ar": "الطُّلَّابُ فِي فَصْلِنَا أَكْثَرُ. فِيهِ تِسْعَةَ عَشَرَ طَالِبًا. يَا عَلِيُّ، مَا اسْمُ الطَّالِبِ الْجَدِيدِ الَّذِي جَاءَ أَمْسِ؟",
+          "fr": "Les étudiants de notre classe sont plus nombreux. Il y a dix-neuf étudiants. ʿAlī, comment s'appelle le nouvel étudiant qui est venu hier ?"
+        },
+        { "speaker": "B", "ar": "اِسْمُهُ أُسَامَةُ.", "fr": "Il s'appelle Usāma." },
+        {
+          "speaker": "A",
+          "ar": "هُوَ طَوِيلٌ جِدًّا. أَلَيْسَ كَذٰلِكَ؟",
+          "fr": "Il est très grand. N'est-ce pas ?"
+        },
+        {
+          "speaker": "B",
+          "ar": "بَلَى. هُوَ طَوِيلٌ جِدًّا وَلَكِنَّ حَامِدًا أَطْوَلُ مِنْهُ. إِنَّهُ أَطْوَلُ طَالِبٍ فِي فَصْلِنَا. وَمَنْ أَطْوَلُ طَالِبٍ فِي فَصْلِكُمْ؟",
+          "fr": "Si. Il est très grand, mais Ḥāmid est plus grand que lui. C'est le plus grand étudiant de notre classe. Et qui est le plus grand étudiant de votre classe ?"
+        },
+        {
+          "speaker": "A",
+          "ar": "أَطْوَلُ طَالِبٍ فِي فَصْلِنَا إِبْرَاهِيمُ.",
+          "fr": "Le plus grand étudiant de notre classe, c'est Ibrāhīm."
+        },
+        {
+          "speaker": "B",
+          "ar": "أَدَفْتَرُكَ هٰذَا يَا أَحْمَدُ؟ إِنَّ خَطَّكَ جَمِيلٌ جِدًّا. مَا شَاءَ اللَّهُ!",
+          "fr": "Est-ce ton cahier, Aḥmad ? Ton écriture est très belle. Ce qu'Allah a voulu !"
+        },
+        {
+          "speaker": "A",
+          "ar": "شُكْرًا يَا عَلِيُّ. خَطِّي جَمِيلٌ، وَخَطُّكَ أَجْمَلُ.",
+          "fr": "Merci, ʿAlī. Mon écriture est belle, et la tienne est plus belle."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Explication"],
+          "rows": [
+            [
+              "{ar|فَصْلِكُمْ}, {ar|فَصْلِنَا}",
+              "votre classe, notre classe",
+              "un nom + le pronom collé {ar|كُمْ} (« votre ») ou {ar|نَا} (« notre »), comme au tome 1, chapitre 10"
+            ],
+            ["{ar|يَا عَلِيُّ}", "ʿAlī !", "l'appel (tome 1, chapitre 5) : le nom appelé a la damma, sans tanwin"],
+            [
+              "{ar|الَّذِي جَاءَ أَمْسِ}",
+              "qui est venu hier",
+              "{ar|الَّذِي} relie « le nouvel étudiant » à « est venu » (aperçu)"
+            ],
+            ["{ar|اِسْمُهُ}", "son nom", "{ar|اِسْمٌ} + le pronom collé {ar|هُ}"],
+            ["{ar|وَلَكِنَّ حَامِدًا}", "mais Ḥāmid", "{ar|وَ} + {ar|لَكِنَّ} ; le nom qui suit est à l'accusatif"],
+            [
+              "{ar|أَدَفْتَرُكَ هٰذَا؟}",
+              "est-ce ton cahier ?",
+              "{ar|أَ} (« est-ce que ») + {ar|دَفْتَرُكَ} (« ton cahier ») + {ar|هٰذَا}"
+            ],
+            [
+              "{ar|خَطِّي}",
+              "mon écriture",
+              "au nominatif : le pronom {ar|ي} exige une kasra sur la lettre qui le précède ; la damma du nominatif ne se voit pas"
+            ]
+          ]
+        },
+        { "type": "note", "text": "Le texte du livre a très peu de voyelles : la vocalisation est celle de l'app." }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Combien d'étudiants y a-t-il dans la classe de ʿAlī ?" },
+      "choices": [ { "fr": "quatorze" }, { "fr": "dix-neuf" }, { "fr": "douze" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l03.dialogue-1#1" },
+      "explain": "{ar|فِي فَصْلِنَا أَرْبَعَةَ عَشَرَ طَالِبًا}."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Dans quelle classe y a-t-il le plus d'étudiants ?" },
+      "choices": [ { "fr": "dans la classe d'Aḥmad" }, { "fr": "dans la classe de ʿAlī" }, { "fr": "autant dans les deux" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l03.dialogue-1#1" },
+      "explain": "Aḥmad dit : {ar|الطُّلَّابُ فِي فَصْلِنَا أَكْثَرُ} : dix-neuf, contre quatorze chez ʿAlī."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Le nouvel étudiant s'appelle Ḥāmid." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l03.dialogue-1#1" },
+      "explain": "Non : {ar|اِسْمُهُ أُسَامَةُ}. Ḥāmid est le plus grand de la classe de ʿAlī."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-1#6",
+      "type": "question",
+      "prompt": { "fr": "Qui est le plus grand étudiant de la classe de ʿAlī ?" },
+      "choices": [ { "fr": "Ḥāmid" }, { "fr": "Usāma" }, { "fr": "Ibrāhīm" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l03.dialogue-1#1" },
+      "explain": "{ar|حَامِدًا أَطْوَلُ مِنْهُ. إِنَّهُ أَطْوَلُ طَالِبٍ فِي فَصْلِنَا}."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-1#7",
+      "type": "question",
+      "prompt": { "fr": "Qui est le plus grand étudiant de la classe d'Aḥmad ?" },
+      "choices": [ { "fr": "Ibrāhīm" }, { "fr": "Ḥāmid" }, { "fr": "Usāma" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l03.dialogue-1#1" },
+      "explain": "{ar|أَطْوَلُ طَالِبٍ فِي فَصْلِنَا إِبْرَاهِيمُ}."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-1#8",
+      "type": "fill_gap",
+      "sentence": "بَلَى. هُوَ طَوِيلٌ جِدًّا {0} حَامِدًا أَطْوَلُ مِنْهُ.",
+      "fr": "Si. Il est très grand, mais Ḥāmid est plus grand que lui.",
+      "gaps": [ { "answers": ["وَلَكِنَّ"] } ],
+      "options": ["وَلَكِنَّ", "وَلَعَلَّ", "وَكَأَنَّ"],
+      "context": { "dialogue": "medine-t2.l03.dialogue-1#1" },
+      "explain": "« Mais » : {ar|لَكِنَّ}. Le nom {ar|حَامِدًا} est à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-1#9",
+      "type": "order",
+      "fr": "Ḥāmid est plus grand que lui.",
+      "answers": [["حَامِدٌ", "أَطْوَلُ", "مِنْهُ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-1#10",
+      "type": "fill_gap",
+      "sentence": "إِنَّ {0} جَمِيلٌ جِدًّا.",
+      "fr": "Ton écriture est très belle.",
+      "gaps": [ { "answers": ["خَطَّكَ"] } ],
+      "options": ["خَطَّكَ", "خَطَّهُ", "خَطَّهَا"],
+      "context": { "dialogue": "medine-t2.l03.dialogue-1#1" },
+      "explain": "Après {ar|إِنَّ}, le nom est à l'accusatif : {ar|خَطَّكَ} (« ton écriture »)."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Merci, ʿAlī. Mon écriture est belle, et la tienne est plus belle.",
+      "answers": ["شُكْرًا يَا عَلِيُّ. خَطِّي جَمِيلٌ، وَخَطُّكَ أَجْمَلُ."]
+    },
+    {
+      "id": "medine-t2.l03.dialogue-1#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il est très grand. N'est-ce pas ?",
+      "answers": ["هُوَ طَوِيلٌ جِدًّا. أَلَيْسَ كَذٰلِكَ؟"]
+    }
+  ]
+}

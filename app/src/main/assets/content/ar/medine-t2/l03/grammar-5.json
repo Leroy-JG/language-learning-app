@@ -1,0 +1,101 @@
+{
+  "id": "medine-t2.l03.grammar-5",
+  "type": "grammar",
+  "title": "Plus grand, plus beau : la forme {ar|أَفْعَلُ}",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l03.grammar-5#1",
+      "type": "tip",
+      "title": "Plus grand, plus beau…",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour dire « plus… », l'arabe emploie un nom de la forme {ar|أَفْعَلُ}. Le professeur l'appelle {ar|أَفْعَلُ التَّفْضِيلِ}, « le nom de supériorité » : il dit qu'une chose est **supérieure** à une autre dans une même qualité. Il peut aussi exprimer le **superlatif** (« le plus… »)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tu connais déjà cette forme : tu as rencontré {ar|أَكْبَرُ} au tome 1 (chapitre 22), avec les couleurs et les prénoms."
+        }
+      ]
+    },
+    { "id": "medine-t2.l03.grammar-5#2", "type": "present", "item": "w:ism-tafdil" },
+    {
+      "id": "medine-t2.l03.grammar-5#3",
+      "type": "tip",
+      "title": "Un moule construit sur la racine du verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le comparatif se forme avec les trois lettres de la racine du verbe, dans le moule {ar|أَفْعَلُ} : une hamza avec fatha, la première lettre avec un sukūn, la deuxième avec une fatha, la troisième avec une damma."
+        },
+        {
+          "type": "table",
+          "header": ["Verbe", "Sens du verbe", "Comparatif"],
+          "rows": [
+            ["{ar|حَمِدَ}", "il a loué", "{ar|أَحْمَدُ} (plus louable ; c'est aussi un prénom)"],
+            ["{ar|كَبُرَ}", "il est devenu grand", "{ar|أَكْبَرُ}"],
+            ["{ar|طَالَ}", "il a été long", "{ar|أَطْوَلُ}"],
+            ["{ar|جَمُلَ}", "il a été beau", "{ar|أَجْمَلُ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le {ar|و} de {ar|طَالَ} est une lettre de la racine ({ar|ط} {ar|و} {ar|ل}) : elle réapparaît dans {ar|أَطْوَلُ}."
+        }
+      ]
+    },
+    { "id": "medine-t2.l03.grammar-5#4", "type": "present", "item": "w:atwal" },
+    { "id": "medine-t2.l03.grammar-5#5", "type": "present", "item": "w:akbar" },
+    {
+      "id": "medine-t2.l03.grammar-5#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:atwal",
+      "distractors": ["w:akbar", "w:tawil"],
+      "explain": "{ar|أَطْوَلُ} : « plus grand (de taille) ». {ar|طَوِيلٌ} : « grand (de taille) » ; {ar|أَكْبَرُ} : « plus grand, plus gros »."
+    },
+    { "id": "medine-t2.l03.grammar-5#7", "type": "present", "item": "w:asghar" },
+    { "id": "medine-t2.l03.grammar-5#8", "type": "present", "item": "w:ajmal" },
+    {
+      "id": "medine-t2.l03.grammar-5#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:atwal", "w:akbar", "w:asghar", "w:ajmal"]
+    },
+    {
+      "id": "medine-t2.l03.grammar-5#10",
+      "type": "tip",
+      "title": "Du mot de base au comparatif",
+      "blocks": [
+        { "type": "paragraph", "text": "Le comparatif garde les trois lettres de l'adjectif de base :" },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "طَوِيلٌ", "fr": "grand (de taille)" },
+              "to": { "ar": "أَطْوَلُ", "fr": "plus grand (de taille)" }
+            },
+            {
+              "from": { "ar": "كَبِيرٌ", "fr": "grand, gros" },
+              "to": { "ar": "أَكْبَرُ", "fr": "plus grand, plus gros" }
+            },
+            { "from": { "ar": "صَغِيرٌ", "fr": "petit" }, "to": { "ar": "أَصْغَرُ", "fr": "plus petit" } },
+            { "from": { "ar": "جَمِيلٌ", "fr": "beau" }, "to": { "ar": "أَجْمَلُ", "fr": "plus beau" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-5#11",
+      "type": "spot",
+      "instruction": "Touche le comparatif.",
+      "words": ["الْبَيْتُ", "أَكْبَرُ", "وَالسَّيَّارَةُ", "صَغِيرَةٌ."],
+      "answers": [1],
+      "fr": "La maison est plus grande, et la voiture est petite.",
+      "explain": "{ar|أَكْبَرُ} est de la forme {ar|أَفْعَلُ} : « plus grand ». {ar|صَغِيرَةٌ} est un adjectif ordinaire."
+    },
+    { "id": "medine-t2.l03.grammar-5#12", "type": "typing", "ask": "fr", "item": "w:ajmal" },
+    { "id": "medine-t2.l03.grammar-5#13", "type": "typing", "ask": "fr", "item": "w:asghar" }
+  ]
+}

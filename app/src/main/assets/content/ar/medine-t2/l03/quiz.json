@@ -1,0 +1,148 @@
+{
+  "id": "medine-t2.l03.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 3",
+  "screens": [
+    {
+      "id": "medine-t2.l03.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:n-13",
+      "distractors": ["w:n-12", "w:n-14"]
+    },
+    {
+      "id": "medine-t2.l03.quiz#2",
+      "type": "fill_gap",
+      "sentence": "لِي {0} أُخْتًا.",
+      "fr": "J'ai quinze sœurs.",
+      "gaps": [ { "answers": ["خَمْسَ عَشْرَةَ"] } ],
+      "options": ["خَمْسَ عَشْرَةَ", "خَمْسَةَ عَشَرَ", "خَمْسَ عَشَرَ"],
+      "explain": "{ar|أُخْتٌ} est féminin : « cinq » sans {ar|ة} ({ar|خَمْسَ}), « dix » avec {ar|ة} ({ar|عَشْرَةَ})."
+    },
+    {
+      "id": "medine-t2.l03.quiz#3",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi dit-on {ar|إِحْدَى عَشْرَةَ أُخْتًا} (et non {ar|أَحَدَ عَشَرَ}) ?" },
+      "choices": [
+        { "fr": "La première partie de onze s'accorde avec le dénombré (c'est une exception)." },
+        { "fr": "Parce que la première partie de onze est toujours féminine." },
+        { "fr": "Parce que le dénombré est au pluriel." }
+      ],
+      "answer": 0,
+      "explain": "De 13 à 19, la première partie contredit le dénombré ; pour 11 et 12, il s'accorde avec lui : {ar|أُخْتٌ} est féminin, donc {ar|إِحْدَى}."
+    },
+    {
+      "id": "medine-t2.l03.quiz#4",
+      "type": "fill_gap",
+      "sentence": "فِي الْفَصْلِ {0} طَالِبًا.",
+      "fr": "Il y a douze étudiants dans la classe.",
+      "gaps": [ { "answers": ["اثْنَا عَشَرَ"] } ],
+      "options": ["اثْنَا عَشَرَ", "اثْنَيْ عَشَرَ", "اثْنَتَا عَشْرَةَ"],
+      "explain": "Le nombre est le sujet, placé après {ar|فِي الْفَصْلِ} : nominatif. {ar|طَالِبٌ} est masculin."
+    },
+    {
+      "id": "medine-t2.l03.quiz#5",
+      "type": "spot",
+      "instruction": "Touche le dénombré.",
+      "words": ["فِي", "الْمَدِينَةِ", "ثَمَانِيَةَ", "عَشَرَ", "مَسْجِدًا."],
+      "answers": [4],
+      "fr": "Il y a dix-huit mosquées dans la ville.",
+      "explain": "Le dénombré est {ar|مَسْجِدًا} : singulier, à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l03.quiz#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:akbar",
+      "distractors": ["w:asghar", "w:ajmal"]
+    },
+    {
+      "id": "medine-t2.l03.quiz#7",
+      "type": "fill_gap",
+      "sentence": "فَاطِمَةُ {0} مِنْ زَيْنَبَ.",
+      "fr": "Fāṭima est plus savante que Zaynab.",
+      "gaps": [ { "answers": ["أَعْلَمُ"] } ],
+      "options": ["أَعْلَمُ", "عَالِمَةٌ", "أَكْثَرُ"],
+      "explain": "Pour comparer, le comparatif reste au masculin : {ar|أَعْلَمُ}."
+    },
+    {
+      "id": "medine-t2.l03.quiz#8",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|أَعْلَمَ} a-t-il une fatha dans {ar|لَيْسَ زَيْدٌ بِأَعْلَمَ مِنْ مُحَمَّدٍ} ?" },
+      "choices": [
+        { "fr": "C'est un nom sans tanwin, seul, au génitif." },
+        { "fr": "Parce qu'il est à l'accusatif sans {ar|بِ}." },
+        { "fr": "Parce que {ar|مُحَمَّدٍ} a un tanwin." }
+      ],
+      "answer": 0,
+      "explain": "Un nom sans tanwin prend la fatha au génitif quand il est seul (sans article, pas premier terme d'une annexion)."
+    },
+    {
+      "id": "medine-t2.l03.quiz#9",
+      "type": "order",
+      "fr": "Cette montre est moins chère que celle-là.",
+      "answers": [["هٰذِهِ", "السَّاعَةُ", "أَرْخَصُ", "مِنْ", "تِلْكَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l03.quiz#10",
+      "type": "fill_gap",
+      "sentence": "هٰذَا {0} بَيْتٍ فِي الشَّارِعِ.",
+      "fr": "C'est la plus belle maison de la rue.",
+      "gaps": [ { "answers": ["أَجْمَلُ"] } ],
+      "options": ["أَجْمَلُ", "جَمِيلٌ", "أَكْبَرُ"],
+      "explain": "Le superlatif : le comparatif {ar|أَجْمَلُ} devant un nom indéfini au génitif."
+    },
+    {
+      "id": "medine-t2.l03.quiz#11",
+      "type": "question",
+      "prompt": { "fr": "Quelle phrase veut dire « Zayd est l'étudiant le plus savant » ?" },
+      "choices": [
+        { "ar": "زَيْدٌ أَعْلَمُ طَالِبٍ" },
+        { "ar": "زَيْدٌ أَعْلَمُ مِنْ طَالِبٍ" },
+        { "ar": "زَيْدٌ عَالِمٌ طَالِبًا" }
+      ],
+      "answer": 0,
+      "explain": "Superlatif : le comparatif suivi d'un nom indéfini, sans {ar|مِنْ}."
+    },
+    {
+      "id": "medine-t2.l03.quiz#12",
+      "type": "fill_gap",
+      "sentence": "يَاسِرٌ غَنِيٌّ {0} بَخِيلٌ.",
+      "fr": "Yāsir est riche, mais il est avare.",
+      "gaps": [ { "answers": ["لَكِنَّهُ"] } ],
+      "options": ["لَكِنَّهُ", "كَأَنَّهُ", "لَعَلَّهُ"],
+      "explain": "« Mais » : {ar|لَكِنَّ}, suivie du pronom {ar|هُ}."
+    },
+    {
+      "id": "medine-t2.l03.quiz#13",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kaanna",
+      "distractors": ["w:lakinna", "w:laalla"]
+    },
+    {
+      "id": "medine-t2.l03.quiz#14",
+      "type": "fill_gap",
+      "sentence": "أَلَيْسَ هٰذَا كِتَابًا؟ {0}، هُوَ كِتَابٌ.",
+      "fr": "N'est-ce pas un livre ? Mais si, c'est un livre.",
+      "gaps": [ { "answers": ["بَلَى"] } ],
+      "options": ["بَلَى", "نَعَمْ", "لَا"],
+      "explain": "La question est négative : on la contredit avec {ar|بَلَى}."
+    },
+    {
+      "id": "medine-t2.l03.quiz#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Hier, un nouvel étudiant est venu.",
+      "answers": ["جَاءَ طَالِبٌ جَدِيدٌ أَمْسِ.", "أَمْسِ جَاءَ طَالِبٌ جَدِيدٌ.", "جَاءَ أَمْسِ طَالِبٌ جَدِيدٌ."]
+    },
+    {
+      "id": "medine-t2.l03.quiz#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a quatorze étudiantes dans la classe.",
+      "answers": ["فِي الْفَصْلِ أَرْبَعَ عَشْرَةَ طَالِبَةً."]
+    }
+  ]
+}

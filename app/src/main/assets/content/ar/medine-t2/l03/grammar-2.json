@@ -1,0 +1,132 @@
+{
+  "id": "medine-t2.l03.grammar-2",
+  "type": "grammar",
+  "title": "Les deux parties et le genre",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l03.grammar-2#1",
+      "type": "tip",
+      "title": "La partie « dix » s'accorde avec le dénombré",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La deuxième partie (« dix ») est toujours **invariable** : elle garde sa fatha, quel que soit le rôle du nombre dans la phrase. Elle s'accorde seulement **en genre** avec le dénombré."
+        },
+        {
+          "type": "table",
+          "header": ["Dénombré", "Partie « dix »", "Exemple"],
+          "rows": [
+            ["masculin", "{ar|عَشَرَ} (sans {ar|ة}, fatha sur le {ar|ش})", "{ar|ثَلَاثَةَ عَشَرَ كِتَابًا}"],
+            ["féminin", "{ar|عَشْرَةَ} (avec {ar|ة}, sukūn sur le {ar|ش})", "{ar|ثَلَاثَ عَشْرَةَ أُخْتًا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ne le confonds pas avec « dix » tout seul (de 3 à 10), qui est de genre contraire : {ar|عَشَرَةُ كُتُبٍ} (dix livres), {ar|عَشْرُ سَيَّارَاتٍ} (dix voitures). Dans les nombres de 11 à 19, « dix » s'accorde."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-2#2",
+      "type": "tip",
+      "title": "La partie « unités » contredit le dénombré (sauf 11 et 12)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La première partie (les unités) suit la règle de 3 à 10 : elle est de genre **contraire** au dénombré. Il y a une exception, **onze** et **douze** : leur première partie **s'accorde** avec le dénombré."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "ثَلَاثَةَ عَشَرَ كِتَابًا", "fr": "treize livres (nom masculin)" },
+              "to": { "ar": "ثَلَاثَ عَشْرَةَ أُخْتًا", "fr": "treize sœurs (nom féminin)" },
+              "label": "« trois » perd son {ar|ة} (il contredit), « dix » prend son {ar|ة} (il s'accorde)"
+            },
+            {
+              "from": { "ar": "أَحَدَ عَشَرَ كِتَابًا", "fr": "onze livres (nom masculin)" },
+              "to": { "ar": "إِحْدَى عَشْرَةَ أُخْتًا", "fr": "onze sœurs (nom féminin)" },
+              "label": "exception : « un » s'accorde avec le dénombré"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Pour retenir : de 13 à 19, une seule des deux parties porte le {ar|ة}. Avec un nom masculin, c'est la première ({ar|ثَلَاثَةَ عَشَرَ}) ; avec un nom féminin, c'est la seconde ({ar|ثَلَاثَ عَشْرَةَ})."
+        },
+        {
+          "type": "note",
+          "text": "Les deux parties sont invariables (elles gardent la fatha, qui ne se voit pas dans {ar|إِحْدَى}), sauf la première partie de douze, que tu étudies plus loin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-2#3",
+      "type": "sort",
+      "categories": [ { "fr": "avec un nom masculin" }, { "fr": "avec un nom féminin" } ],
+      "cards": [
+        { "ar": "ثَلَاثَةَ عَشَرَ", "category": 0 },
+        { "ar": "ثَلَاثَ عَشْرَةَ", "category": 1 },
+        { "ar": "أَحَدَ عَشَرَ", "category": 0 },
+        { "ar": "إِحْدَى عَشْرَةَ", "category": 1 },
+        { "ar": "خَمْسَ عَشْرَةَ", "category": 1 },
+        { "ar": "سَبْعَةَ عَشَرَ", "category": 0 }
+      ],
+      "instruction": "Avec quel nom compté se dit chaque nombre ?",
+      "explain": "La seconde partie suffit pour le savoir : {ar|عَشَرَ} (sans {ar|ة}) va avec un nom masculin, {ar|عَشْرَةَ} (avec {ar|ة}) avec un nom féminin."
+    },
+    {
+      "id": "medine-t2.l03.grammar-2#4",
+      "type": "spot",
+      "instruction": "Touche la partie qui s'accorde avec le dénombré.",
+      "words": ["أَرْبَعَةَ", "عَشَرَ", "كِتَابًا."],
+      "answers": [1],
+      "fr": "Quatorze livres.",
+      "explain": "{ar|كِتَابٌ} est masculin et {ar|عَشَرَ} est masculin (sans {ar|ة}) : ils s'accordent. {ar|أَرْبَعَةَ} (avec {ar|ة}) est de genre contraire."
+    },
+    {
+      "id": "medine-t2.l03.grammar-2#5",
+      "type": "spot",
+      "instruction": "Touche la partie qui est de genre contraire au dénombré.",
+      "words": ["سَبْعَ", "عَشْرَةَ", "طَالِبَةً."],
+      "answers": [0],
+      "fr": "Dix-sept étudiantes.",
+      "explain": "{ar|طَالِبَةٌ} est féminin : {ar|عَشْرَةَ} (avec {ar|ة}) s'accorde, {ar|سَبْعَ} (sans {ar|ة}) est de genre contraire."
+    },
+    {
+      "id": "medine-t2.l03.grammar-2#6",
+      "type": "fill_gap",
+      "sentence": "لِي {0} كِتَابًا.",
+      "fr": "J'ai quatorze livres.",
+      "gaps": [ { "answers": ["أَرْبَعَةَ عَشَرَ"] } ],
+      "options": ["أَرْبَعَةَ عَشَرَ", "أَرْبَعَ عَشْرَةَ", "أَرْبَعَ عَشَرَ"],
+      "explain": "{ar|كِتَابٌ} est masculin : « quatre » prend la forme avec {ar|ة} ({ar|أَرْبَعَةَ}) et « dix » la forme sans {ar|ة} ({ar|عَشَرَ})."
+    },
+    {
+      "id": "medine-t2.l03.grammar-2#7",
+      "type": "fill_gap",
+      "sentence": "فِي الْفَصْلِ {0} طَالِبَةً.",
+      "fr": "Il y a seize étudiantes dans la classe.",
+      "gaps": [ { "answers": ["سِتَّ عَشْرَةَ"] } ],
+      "options": ["سِتَّ عَشْرَةَ", "سِتَّةَ عَشَرَ", "سِتَّةَ عَشْرَةَ"],
+      "explain": "{ar|طَالِبَةٌ} est féminin : « six » prend la forme sans {ar|ة} ({ar|سِتَّ}) et « dix » la forme avec {ar|ة} ({ar|عَشْرَةَ})."
+    },
+    {
+      "id": "medine-t2.l03.grammar-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai dix-sept livres.",
+      "answers": ["لِي سَبْعَةَ عَشَرَ كِتَابًا.", "عِنْدِي سَبْعَةَ عَشَرَ كِتَابًا."]
+    },
+    {
+      "id": "medine-t2.l03.grammar-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a dix-sept étudiantes dans la classe.",
+      "answers": ["فِي الْفَصْلِ سَبْعَ عَشْرَةَ طَالِبَةً."]
+    }
+  ]
+}

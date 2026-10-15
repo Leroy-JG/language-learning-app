@@ -1,0 +1,133 @@
+{
+  "id": "medine-t2.l03.grammar-3",
+  "type": "grammar",
+  "title": "Le dénombré : la précision",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l03.grammar-3#1",
+      "type": "tip",
+      "title": "Après 11 à 19 : un singulier à l'accusatif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Après un nombre de 11 à 19, le dénombré est **au singulier**, **indéfini** et **à l'accusatif**, comme après {ar|كَمْ} ({ar|كَمْ كِتَابًا؟}). On appelle ce nom {ar|التَّمْيِيزُ}, « la précision »."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "ثَلَاثَةُ كُتُبٍ", "fr": "trois livres (de 3 à 10)" },
+              "to": { "ar": "ثَلَاثَةَ عَشَرَ كِتَابًا", "fr": "treize livres (de 11 à 19)" },
+              "label": "pluriel, génitif → singulier, accusatif"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le nombre lui-même ne change pas de voyelle selon son rôle dans la phrase : il est invariable (sauf la première partie de douze)."
+        }
+      ]
+    },
+    { "id": "medine-t2.l03.grammar-3#2", "type": "present", "item": "w:tamyiz" },
+    {
+      "id": "medine-t2.l03.grammar-3#3",
+      "type": "tip",
+      "title": "Analyser une phrase avec un nombre de 11 à 19",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur analyse les phrases ainsi. Quand il dit que « le nombre est féminin », il parle de la **forme** de la première partie (avec {ar|ة}) : de 13 à 19, c'est la forme qui va avec un dénombré masculin ; pour 11, la première partie suit le dénombré."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Le nombre ({ar|الْعَدَدُ})", "Le dénombré ({ar|الْمَعْدُودُ})"],
+          "rows": [
+            [
+              "{ar|لِي ثَلَاثَةَ عَشَرَ كِتَابًا}",
+              "{ar|مُؤَنَّثٌ مَبْنِيٌّ عَلَى الْفَتْحِ}",
+              "{ar|مُفْرَدٌ مُذَكَّرٌ مَنْصُوبٌ}"
+            ],
+            [
+              "{ar|لِي ثَلَاثَ عَشْرَةَ أُخْتًا}",
+              "{ar|مُذَكَّرٌ مَبْنِيٌّ عَلَى الْفَتْحِ}",
+              "{ar|مُفْرَدٌ مُؤَنَّثٌ مَنْصُوبٌ}"
+            ],
+            [
+              "{ar|لِي أَحَدَ عَشَرَ كِتَابًا}",
+              "{ar|مُذَكَّرٌ مَبْنِيٌّ عَلَى الْفَتْحِ}",
+              "{ar|مُفْرَدٌ مُذَكَّرٌ مَنْصُوبٌ}"
+            ],
+            [
+              "{ar|لِي إِحْدَى عَشْرَةَ أُخْتًا}",
+              "{ar|مُؤَنَّثٌ مَبْنِيٌّ عَلَى الْفَتْحِ}",
+              "{ar|مُفْرَدٌ مُؤَنَّثٌ مَنْصُوبٌ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|مَبْنِيٌّ عَلَى الْفَتْحِ} : le nombre est invariable, il garde sa fatha. {ar|مُفْرَدٌ} : au singulier. {ar|مَنْصُوبٌ} : à l'accusatif."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-3#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|لِي ثَلَاثَةَ عَشَرَ كِتَابًا}, quelle terminaison porte {ar|كِتَابًا} ?" },
+      "choices": [
+        { "fr": "une fatha avec tanwin (l'accusatif)" },
+        { "fr": "une kasra avec tanwin (le génitif)" },
+        { "fr": "une damma avec tanwin (le nominatif)" }
+      ],
+      "answer": 0,
+      "explain": "Le dénombré est la précision ({ar|التَّمْيِيزُ}) : il est à l'accusatif, avec la fatha du tanwin."
+    },
+    {
+      "id": "medine-t2.l03.grammar-3#5",
+      "type": "true_false",
+      "statement": {
+        "fr": "Le nombre {ar|ثَلَاثَةَ عَشَرَ} change de voyelle quand son rôle dans la phrase change (sujet, complément…)."
+      },
+      "answer": false,
+      "explain": "Faux : il est invariable ({ar|مَبْنِيٌّ عَلَى الْفَتْحِ}) et garde sa fatha dans toutes les phrases."
+    },
+    {
+      "id": "medine-t2.l03.grammar-3#6",
+      "type": "spot",
+      "instruction": "Touche le dénombré.",
+      "words": ["لِي", "ثَلَاثَ", "عَشْرَةَ", "أُخْتًا."],
+      "answers": [3],
+      "fr": "J'ai treize sœurs.",
+      "explain": "{ar|أُخْتًا} est le dénombré : singulier, féminin, à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l03.grammar-3#7",
+      "type": "order",
+      "fr": "J'ai onze livres.",
+      "answers": [["لِي", "أَحَدَ", "عَشَرَ", "كِتَابًا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l03.grammar-3#8",
+      "type": "order",
+      "fr": "J'ai onze sœurs.",
+      "answers": [["لِي", "إِحْدَى", "عَشْرَةَ", "أُخْتًا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l03.grammar-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a dix-huit étudiantes dans la classe.",
+      "answers": ["فِي الْفَصْلِ ثَمَانِيَ عَشْرَةَ طَالِبَةً."]
+    },
+    {
+      "id": "medine-t2.l03.grammar-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a quatorze étudiants dans notre classe.",
+      "answers": ["فِي فَصْلِنَا أَرْبَعَةَ عَشَرَ طَالِبًا."]
+    }
+  ]
+}

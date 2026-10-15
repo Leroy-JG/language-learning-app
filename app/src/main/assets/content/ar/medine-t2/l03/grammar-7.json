@@ -1,0 +1,132 @@
+{
+  "id": "medine-t2.l03.grammar-7",
+  "type": "grammar",
+  "title": "Le superlatif : le plus…",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l03.grammar-7#1",
+      "type": "tip",
+      "title": "Le plus savant des étudiants",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour dire « le plus… », on place le comparatif **devant un nom indéfini**, qui s'accorde avec la personne ou la chose dont on parle (ici, une seule personne : le singulier). C'est une annexion : le comparatif est le premier terme, le nom est au génitif."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            ["{ar|زَيْدٌ أَعْلَمُ طَالِبٍ}", "Zayd est l'étudiant le plus savant."],
+            ["{ar|فَاطِمَةُ أَعْلَمُ طَالِبَةٍ}", "Fāṭima est l'étudiante la plus savante."]
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "أَعْلَمُ طَالِبٍ",
+          "fr": "l'étudiant le plus savant",
+          "parts": [ { "ar": "أَعْلَمُ", "fr": "le plus savant" }, { "ar": "طَالِبٍ", "fr": "étudiant" } ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-7#2",
+      "type": "tip",
+      "title": "Comparatif ou superlatif ?",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "زَيْدٌ أَعْلَمُ مِنْ يَاسِرٍ", "fr": "Zayd est plus savant que Yāsir." },
+              "to": { "ar": "زَيْدٌ أَعْلَمُ طَالِبٍ", "fr": "Zayd est l'étudiant le plus savant." },
+              "label": "avec {ar|مِنْ} : comparatif ; avec un nom indéfini : superlatif"
+            }
+          ]
+        },
+        { "type": "paragraph", "text": "On précise souvent le groupe avec {ar|فِي} :" },
+        {
+          "type": "example",
+          "ar": "أَطْوَلُ طَالِبٍ فِي فَصْلِنَا",
+          "fr": "l'étudiant le plus grand de notre classe"
+        },
+        { "type": "note", "text": "Tu verras plus tard le superlatif avec l'article ({ar|الْ})." }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-7#3",
+      "type": "sort",
+      "categories": [ { "fr": "comparatif (plus… que…)" }, { "fr": "superlatif (le plus…)" } ],
+      "cards": [
+        { "ar": "زَيْدٌ أَعْلَمُ مِنْ يَاسِرٍ", "category": 0 },
+        { "ar": "زَيْدٌ أَعْلَمُ طَالِبٍ", "category": 1 },
+        { "ar": "حَامِدٌ أَطْوَلُ مِنْهُ", "category": 0 },
+        { "ar": "إِنَّهُ أَطْوَلُ طَالِبٍ فِي فَصْلِنَا", "category": 1 },
+        { "ar": "خَطِّي أَحْسَنُ مِنْ خَطِّكَ", "category": 0 },
+        { "ar": "هٰذَا أَجْمَلُ بَيْتٍ", "category": 1 }
+      ],
+      "instruction": "Comparatif ou superlatif ?",
+      "explain": "Avec {ar|مِنْ} : comparatif. Devant un nom indéfini au singulier : superlatif."
+    },
+    {
+      "id": "medine-t2.l03.grammar-7#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|فَاطِمَةُ أَعْلَمُ طَالِبَةٍ}, le nom {ar|طَالِبَةٍ} est…" },
+      "choices": [
+        { "fr": "au singulier, indéfini, au génitif" },
+        { "fr": "au pluriel, défini, au génitif" },
+        { "fr": "au singulier, indéfini, à l'accusatif" }
+      ],
+      "answer": 0,
+      "explain": "Le comparatif est le premier terme d'une annexion ; le second terme est au singulier, indéfini, au génitif."
+    },
+    {
+      "id": "medine-t2.l03.grammar-7#5",
+      "type": "spot",
+      "instruction": "Touche le nom qui suit le comparatif.",
+      "words": ["هٰذَا", "أَجْمَلُ", "بَيْتٍ", "فِي", "الشَّارِعِ."],
+      "answers": [2],
+      "fr": "C'est la plus belle maison de la rue.",
+      "explain": "{ar|بَيْتٍ} est le second terme de l'annexion : indéfini, singulier, au génitif."
+    },
+    {
+      "id": "medine-t2.l03.grammar-7#6",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ أَعْلَمُ {0}.",
+      "fr": "Zayd est l'étudiant le plus savant.",
+      "gaps": [ { "answers": ["طَالِبٍ"] } ],
+      "options": ["طَالِبٍ", "طَالِبَةٍ", "كِتَابٍ"],
+      "explain": "Le nom s'accorde avec Zayd, un homme : {ar|طَالِبٍ}."
+    },
+    {
+      "id": "medine-t2.l03.grammar-7#7",
+      "type": "fill_gap",
+      "sentence": "فَاطِمَةُ أَعْلَمُ {0}.",
+      "fr": "Fāṭima est l'étudiante la plus savante.",
+      "gaps": [ { "answers": ["طَالِبَةٍ"] } ],
+      "options": ["طَالِبَةٍ", "طَالِبٍ", "بَيْتٍ"],
+      "explain": "Le nom s'accorde avec Fāṭima, une femme : {ar|طَالِبَةٍ}."
+    },
+    {
+      "id": "medine-t2.l03.grammar-7#8",
+      "type": "order",
+      "fr": "L'étudiant le plus grand de notre classe.",
+      "answers": [["أَطْوَلُ", "طَالِبٍ", "فِي", "فَصْلِنَا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l03.grammar-7#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Fāṭima est l'étudiante la plus savante.",
+      "answers": ["فَاطِمَةُ أَعْلَمُ طَالِبَةٍ."]
+    },
+    {
+      "id": "medine-t2.l03.grammar-7#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ibrāhīm est l'étudiant le plus grand (de taille) de notre classe.",
+      "answers": ["إِبْرَاهِيمُ أَطْوَلُ طَالِبٍ فِي فَصْلِنَا."]
+    }
+  ]
+}

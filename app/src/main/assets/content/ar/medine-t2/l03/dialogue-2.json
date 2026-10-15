@@ -1,0 +1,196 @@
+{
+  "id": "medine-t2.l03.dialogue-2",
+  "type": "dialogue",
+  "title": "Aḥmad et ʿAlī : les dortoirs",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t2.l03.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Aḥmad et ʿAlī : les dortoirs",
+      "intro": "ʿAlī rencontre Aḥmad avec un jeune homme. Ils parlent de leurs dortoirs et les comparent.",
+      "speakers": { "A": { "name": "Aḥmad", "voice": "m1" }, "B": { "name": "ʿAlī", "voice": "m2" } },
+      "lines": [
+        {
+          "speaker": "B",
+          "ar": "مَنْ هٰذَا الْفَتَى الَّذِي مَعَكَ يَا أَحْمَدُ؟ كَأَنَّهُ أَخُوكَ.",
+          "fr": "Qui est ce jeune homme qui est avec toi, Aḥmad ? On dirait ton frère."
+        },
+        { "speaker": "A", "ar": "نَعَمْ، هُوَ أَخِي الشَّقِيقُ.", "fr": "Oui, c'est mon frère germain." },
+        {
+          "speaker": "B",
+          "ar": "أَأَكْبَرُ مِنْكَ هُوَ أَمْ أَصْغَرُ؟",
+          "fr": "Est-il plus âgé que toi ou plus jeune ?"
+        },
+        { "speaker": "A", "ar": "هُوَ أَصْغَرُ مِنِّي.", "fr": "Il est plus jeune que moi." },
+        {
+          "speaker": "B",
+          "ar": "فِي أَيِّ مَهْجَعٍ أَنْتَ يَا أَخِي؟",
+          "fr": "Dans quel dortoir es-tu, mon frère ?"
+        },
+        {
+          "speaker": "A",
+          "ar": "أَنَا فِي الْمَهْجَعِ الْخَامِسِ، وَهُوَ بَعِيدٌ جِدًّا عَنِ الْمَدْرَسَةِ.",
+          "fr": "Je suis dans le cinquième dortoir, et il est très loin de l'école."
+        },
+        {
+          "speaker": "B",
+          "ar": "أَنَا فِي الْمَهْجَعِ الثَّامِنِ وَهُوَ أَبْعَدُ مِنْ مَهْجَعِكُمْ.",
+          "fr": "Je suis dans le huitième dortoir, et il est plus loin que votre dortoir."
+        },
+        { "speaker": "A", "ar": "أَيُّهُمَا أَحْسَنُ؟", "fr": "Lequel des deux est le meilleur ?" },
+        {
+          "speaker": "B",
+          "ar": "الْمَهْجَعُ الْخَامِسُ أَحْسَنُ، فَإِنَّ غُرَفَهُ أَوْسَعُ، وَنَوَافِذَهُ أَكْبَرُ، وَمَرَاحِيضَهُ أَنْظَفُ، وَالسُّرُرُ الَّتِي فِيهِ أَجْمَلُ.",
+          "fr": "Le cinquième dortoir est meilleur, car ses chambres sont plus spacieuses, ses fenêtres plus grandes, ses toilettes plus propres, et les lits qu'il contient sont plus beaux."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Explication"],
+          "rows": [
+            ["{ar|مَعَكَ}", "avec toi", "{ar|مَعَ} (tome 1, chapitre 10) + le pronom collé {ar|كَ}"],
+            [
+              "{ar|أَأَكْبَرُ مِنْكَ هُوَ أَمْ أَصْغَرُ؟}",
+              "est-il plus âgé que toi ou plus jeune ?",
+              "{ar|أَ} + le comparatif, puis {ar|أَمْ} pour choisir entre deux réponses (chapitre 1 de ce tome)"
+            ],
+            ["{ar|أَيُّهُمَا}", "lequel des deux", "{ar|أَيُّ} (« quel ») + {ar|هُمَا} (« eux deux »)"],
+            [
+              "{ar|الْخَامِسِ}, {ar|الثَّامِنِ}",
+              "cinquième, huitième",
+              "les nombres ordinaux : tu les étudieras plus tard"
+            ],
+            [
+              "{ar|فَإِنَّ}",
+              "car, en effet",
+              "{ar|فَ} + {ar|إِنَّ} : le nom qui suit est à l'accusatif ({ar|غُرَفَهُ}, {ar|نَوَافِذَهُ}, {ar|مَرَاحِيضَهُ})"
+            ],
+            [
+              "{ar|الَّتِي}",
+              "qui (pour un nom féminin ou un pluriel de choses)",
+              "le féminin de {ar|الَّذِي} (aperçu) : elle reprend {ar|السُّرُرُ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|السُّرُرُ} (« les lits ») est au nominatif dans le livre ; l'accusatif {ar|وَالسُّرُرَ}, comme les noms qui précèdent, serait aussi correct."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Qui est le jeune homme avec Aḥmad ?" },
+      "choices": [ { "fr": "son frère germain" }, { "fr": "son voisin" }, { "fr": "son camarade de classe" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l03.dialogue-2#1" },
+      "explain": "{ar|هُوَ أَخِي الشَّقِيقُ}."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Le frère d'Aḥmad est-il plus âgé ou plus jeune que lui ?" },
+      "choices": [ { "fr": "plus jeune" }, { "fr": "plus âgé" } ],
+      "answer": 0,
+      "shuffle": false,
+      "context": { "dialogue": "medine-t2.l03.dialogue-2#1" },
+      "explain": "{ar|هُوَ أَصْغَرُ مِنِّي}."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-2#5",
+      "type": "question",
+      "prompt": { "fr": "Dans quel dortoir est Aḥmad ?" },
+      "choices": [ { "fr": "le cinquième" }, { "fr": "le huitième" }, { "fr": "le premier" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l03.dialogue-2#1" },
+      "explain": "{ar|أَنَا فِي الْمَهْجَعِ الْخَامِسِ}."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-2#6",
+      "type": "question",
+      "prompt": { "fr": "Quel dortoir est le plus loin de l'école ?" },
+      "choices": [
+        { "fr": "le huitième, celui de ʿAlī" },
+        { "fr": "le cinquième, celui d'Aḥmad" },
+        { "fr": "les deux sont à la même distance" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l03.dialogue-2#1" },
+      "explain": "ʿAlī dit que son dortoir (le huitième) est {ar|أَبْعَدُ مِنْ مَهْجَعِكُمْ} : plus loin que celui d'Aḥmad."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-2#7",
+      "type": "true_false",
+      "statement": { "fr": "Le huitième dortoir est meilleur que le cinquième." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l03.dialogue-2#1" },
+      "explain": "Non : {ar|الْمَهْجَعُ الْخَامِسُ أَحْسَنُ}."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-2#8",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi ʿAlī trouve-t-il le cinquième dortoir meilleur ?" },
+      "choices": [
+        {
+          "fr": "Ses chambres sont plus spacieuses, ses fenêtres plus grandes, ses toilettes plus propres et ses lits plus beaux."
+        },
+        { "fr": "Il est plus près de l'école." },
+        { "fr": "Il est moins cher." }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l03.dialogue-2#1" },
+      "explain": "{ar|غُرَفُهُ أَوْسَعُ، وَنَوَافِذُهُ أَكْبَرُ، وَمَرَاحِيضُهُ أَنْظَفُ، وَالسُّرُرُ أَجْمَلُ}."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-2#9",
+      "type": "fill_gap",
+      "sentence": "هُوَ {0} مِنِّي.",
+      "fr": "Il est plus jeune que moi.",
+      "gaps": [ { "answers": ["أَصْغَرُ"] } ],
+      "options": ["أَصْغَرُ", "أَكْبَرُ", "أَطْوَلُ"],
+      "context": { "dialogue": "medine-t2.l03.dialogue-2#1" },
+      "explain": "Aḥmad dit que son frère est plus jeune : {ar|أَصْغَرُ}."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-2#10",
+      "type": "fill_gap",
+      "sentence": "مَهْجَعِي {0} مِنْ مَهْجَعِكُمْ.",
+      "fr": "Mon dortoir est plus loin que votre dortoir.",
+      "gaps": [ { "answers": ["أَبْعَدُ"] } ],
+      "options": ["أَبْعَدُ", "بَعِيدٌ", "أَحْسَنُ"],
+      "context": { "dialogue": "medine-t2.l03.dialogue-2#1" },
+      "explain": "Avec {ar|مِنْ}, on emploie le comparatif : {ar|أَبْعَدُ}."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-2#11",
+      "type": "spot",
+      "instruction": "Touche les trois comparatifs.",
+      "words": ["غُرَفُهُ", "أَوْسَعُ", "وَنَوَافِذُهُ", "أَكْبَرُ", "وَمَرَاحِيضُهُ", "أَنْظَفُ."],
+      "answers": [1, 3, 5],
+      "fr": "Ses chambres sont plus spacieuses, ses fenêtres plus grandes, ses toilettes plus propres.",
+      "explain": "{ar|أَوْسَعُ}, {ar|أَكْبَرُ} et {ar|أَنْظَفُ} sont de la forme {ar|أَفْعَلُ}."
+    },
+    {
+      "id": "medine-t2.l03.dialogue-2#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il est plus jeune que moi.",
+      "answers": ["هُوَ أَصْغَرُ مِنِّي."]
+    },
+    {
+      "id": "medine-t2.l03.dialogue-2#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Lequel des deux est le meilleur ?",
+      "answers": ["أَيُّهُمَا أَحْسَنُ؟"]
+    }
+  ]
+}

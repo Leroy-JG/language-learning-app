@@ -1,0 +1,52 @@
+{
+  "id": "medine-t2.l03.vocab-6",
+  "type": "vocabulary",
+  "title": "Plus savant, plus nombreux, plus facile",
+  "icon": "student",
+  "screens": [
+    { "id": "medine-t2.l03.vocab-6#1", "type": "present", "item": "w:aalam" },
+    { "id": "medine-t2.l03.vocab-6#2", "type": "present", "item": "w:akthar" },
+    {
+      "id": "medine-t2.l03.vocab-6#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:aalam",
+      "distractors": ["w:akbar", "w:atwal"]
+    },
+    { "id": "medine-t2.l03.vocab-6#4", "type": "present", "item": "w:ashal" },
+    { "id": "medine-t2.l03.vocab-6#5", "type": "present", "item": "w:hasan" },
+    { "id": "medine-t2.l03.vocab-6#6", "type": "present", "item": "w:ahsan" },
+    {
+      "id": "medine-t2.l03.vocab-6#7",
+      "type": "tip",
+      "title": "Du mot de base au comparatif",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "عَالِمٌ", "fr": "savant" }, "to": { "ar": "أَعْلَمُ", "fr": "plus savant" } },
+            { "from": { "ar": "كَثِيرٌ", "fr": "nombreux" }, "to": { "ar": "أَكْثَرُ", "fr": "plus nombreux" } },
+            { "from": { "ar": "سَهْلٌ", "fr": "facile" }, "to": { "ar": "أَسْهَلُ", "fr": "plus facile" } },
+            { "from": { "ar": "حَسَنٌ", "fr": "bon" }, "to": { "ar": "أَحْسَنُ", "fr": "meilleur" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.vocab-6#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:aalam", "w:akthar", "w:ashal", "w:ahsan"]
+    },
+    {
+      "id": "medine-t2.l03.vocab-6#9",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:ahsan",
+      "distractors": ["w:ashal", "w:akthar"]
+    },
+    { "id": "medine-t2.l03.vocab-6#10", "type": "build", "item": "w:aalam", "extra": ["ق"] },
+    { "id": "medine-t2.l03.vocab-6#11", "type": "typing", "ask": "fr", "item": "w:ashal" },
+    { "id": "medine-t2.l03.vocab-6#12", "type": "typing", "ask": "fr", "item": "w:akthar" }
+  ]
+}
