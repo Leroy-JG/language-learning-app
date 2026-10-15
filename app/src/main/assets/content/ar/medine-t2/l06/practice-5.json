@@ -110,7 +110,7 @@
       "words": ["أَظُنُّ", "أَنَّ", "فَاطِمَةَ", "فِي", "الْمَكْتَبَةِ."],
       "answers": [2],
       "fr": "Je pense que Fāṭima est à la bibliothèque.",
-      "explain": "{ar|فَاطِمَةَ} est le nom de {ar|أَنَّ} : un nom sans tanwin prend la fatha."
+      "explain": "{ar|فَاطِمَةَ} est le nom de {ar|أَنَّ} : à l'accusatif, il prend la fatha (un prénom féminin n'a pas de tanwin)."
     },
     {
       "id": "medine-t2.l06.practice-5#11",

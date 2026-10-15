@@ -12,7 +12,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le verbe {ar|ظَنَّ} peut se construire avec la particule {ar|أَنَّ} : il exprime alors un **doute**, une supposition, à propos de la phrase qui le suit (la phrase nominale sur laquelle {ar|أَنَّ} agit). À la première personne du présent, il se dit {ar|أَظُنُّ} (« je pense »)."
+          "text": "Le verbe {ar|ظَنَّ} peut se construire avec la particule {ar|أَنَّ} : il exprime alors, le plus souvent, un **doute**, une supposition, à propos de la phrase qui le suit (la phrase nominale sur laquelle {ar|أَنَّ} agit). À la première personne du présent, il se dit {ar|أَظُنُّ} (« je pense »)."
         },
         {
           "type": "compare",
@@ -75,7 +75,7 @@
         { "fr": "une question" }
       ],
       "answer": 0,
-      "explain": "{ar|ظَنَّ} exprime le doute, la supposition : « je pense que… »."
+      "explain": "{ar|ظَنَّ} exprime le plus souvent le doute, la supposition : « je pense que… »."
     },
     {
       "id": "medine-t2.l06.grammar-2#5",

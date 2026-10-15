@@ -51,7 +51,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Dans {ar|دَرَى} et {ar|كَوَى}, le {ar|ى} redevient {ar|ي} devant la terminaison {ar|تُ} : {ar|دَرَيْتُ}, {ar|كَوَيْتُ}. C'est aussi le cas de {ar|رَأَى} : {ar|رَأَيْتُ}."
+          "text": "Dans {ar|دَرَى} et {ar|كَوَى}, le {ar|ى} redevient {ar|ي} devant les terminaisons du passé ({ar|تُ}, {ar|تَ}, {ar|تِ}, {ar|نَا}…) : {ar|دَرَيْتُ}, {ar|كَوَيْنَا}. C'est aussi le cas de {ar|رَأَى} : {ar|رَأَيْتُ}."
         }
       ]
     },
@@ -83,7 +83,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "J'ai pris le livre.",
-      "answers": ["أَخَذْتُ الْكِتَابَ."]
+      "answers": ["أَخَذْتُ الْكِتَابَ.", "أَنَا أَخَذْتُ الْكِتَابَ."]
     }
   ]
 }

@@ -18,10 +18,10 @@
     {
       "id": "medine-t2.l06.practice-1#2",
       "type": "true_false",
-      "statement": { "ar": "مَا فَرِحَ الْمُدَرِّسُ بِسَعِيدٍ.", "fr": "Le professeur ne s'est pas réjoui de Saʿīd." },
+      "statement": { "ar": "مَا فَرِحَ الْمُدَرِّسُ بِسَعِيدٍ.", "fr": "Le professeur n'a pas été content de Saʿīd." },
       "answer": false,
       "context": { "dialogue": "medine-t2.l06.dialogue-1#1" },
-      "explain": "Au contraire : {ar|فَفَرِحَ بِي الْمُدَرِّسُ كَثِيرًا} (« le professeur s'est beaucoup réjoui de moi »)."
+      "explain": "Au contraire : {ar|فَفَرِحَ بِي الْمُدَرِّسُ كَثِيرًا} (« le professeur a été très content de moi »)."
     },
     {
       "id": "medine-t2.l06.practice-1#3",
@@ -89,11 +89,11 @@
       "type": "true_false",
       "statement": {
         "ar": "سُورَةُ الرَّحْمٰنِ أَطْوَلُ مِنْ سُورَةِ الْحَدِيدِ.",
-        "fr": "La sourate Ar-Raḥmān est plus longue que la sourate Al-Ḥadīd."
+        "fr": "D'après le texte, la sourate Ar-Raḥmān est plus longue que la sourate Al-Ḥadīd."
       },
       "answer": false,
       "context": { "dialogue": "medine-t2.l06.dialogue-1#1" },
-      "explain": "Selon le texte, c'est l'inverse : Maryam dit que la sourate Al-Ḥadīd ({ar|وَهِيَ أَطْوَلُ مِنْ سُورَةِ الرَّحْمٰنِ}) est la plus longue. Elle a moins de versets, mais ses versets sont plus longs."
+      "explain": "Selon le texte, c'est l'inverse : Maryam dit que la sourate Al-Ḥadīd est plus longue que la sourate Ar-Raḥmān ({ar|وَهِيَ أَطْوَلُ مِنْ سُورَةِ الرَّحْمٰنِ}). Elle a moins de versets, mais ses versets sont plus longs."
     },
     {
       "id": "medine-t2.l06.practice-1#9",

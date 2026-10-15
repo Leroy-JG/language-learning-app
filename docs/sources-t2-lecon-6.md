@@ -94,3 +94,21 @@ Outils de la palette : `sort` (je / tu / tu ; il l'a fait / il ne l'a pas fait ;
 
 Le présent et l'impératif des verbes (aperçu dans les tableaux), le pronom complément `هُنَّ` (cité dans le texte), `الَّتِي`, les dizaines (`عِشْرُونَ`), `أَيَّ` comme notion
 (le mot est du tome 1, chapitre 14).
+
+## Corrections faites après la relecture (3 relecteurs : arabe, exercices, français et pédagogie)
+
+- **Arabe** : aucune erreur de vocalisation, de cas, de pluriel ni de genre.
+- **Explications précisées** :
+  - « Le pluriel a le tanwin » (faux pour `كُسَالَى`) → les pluriels de la forme `فِعَالٌ` ont le tanwin ; le masculin `فَعْلَانُ` a la damma au nominatif et la fatha au génitif et à l'accusatif ;
+  - `ظَنَّ` « le plus souvent » une supposition (`grammar-2`, `quiz`) : il peut marquer la quasi-certitude (Coran 2:46) ;
+  - `أَخٌ` devient `أَخُو` **au nominatif** devant un pronom collé, pas devant `ي` (`أَخِي`) ;
+  - `ى` → `ي` devant toutes les terminaisons du passé, pas seulement `تُ` ;
+  - « d'ordinaire » pour la reprise d'un pluriel de choses par `هَا` (`هُنَّ` est aussi possible) ;
+  - tanwin fatha sans alif aussi après une hamza précédée d'un alif (`مَاءً`) ;
+  - « un nom sans tanwin prend la fatha » (faux pour `الْكِتَابُ`) → un prénom féminin ;
+  - `practice-3` : « le sujet est caché » retiré pour `أُخْتِي ذَهَبَتْ` (le sujet est le nom).
+- **Français** : « s'est réjoui » → « a été content » ; « dans une maison » → « à une maison » ; « avec de l'eau froide » → « à l'eau froide » (défini comme l'arabe) ; « est la plus longue » → « est plus longue que » ;
+  la phrase fausse de l'exercice 2 commence par « D'après le texte ».
+- **Réponses justes ajoutées** : réponses courtes sans pronom (`بَلَى، قَرَأْتُ`), sujet `أَنَا` / `نَحْنُ` en tête, `الطَّالِبَةُ أَخَذَتِ الْكِتَابَ`, `عِنْدَ عُثْمَانَ…`, `لَهُ… فَقَطْ`, `اسْمُهَا الْإِسْلَامُ` (sans guillemets).
+- **Consigne** : exercice 8 (dernière phrase) : « la réponse « non » commence par `نَعَمْ` ».
+- **Environnement** : Maven Central répondait 404/429 au hasard ; le miroir `maven-central.storage-download.googleapis.com` (via un script `~/.gradle/init.d`, hors du dépôt) a permis d'exécuter `./gradlew -p core test validateContent`.

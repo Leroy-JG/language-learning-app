@@ -43,7 +43,7 @@
         {
           "speaker": "S",
           "ar": "بَلَى، قَرَأْتُ سُورَةَ الرَّحْمٰنِ وَحَفِظْتُهَا. فَفَرِحَ بِي الْمُدَرِّسُ كَثِيرًا وَقَالَ: إِنَّكَ أَحْسَنُ طَالِبٍ فِي الْفَصْلِ.",
-          "fr": "Si ! J'ai lu la sourate Ar-Raḥmān et je l'ai mémorisée. Le professeur s'est beaucoup réjoui de moi et a dit : « Tu es le meilleur étudiant de la classe. »"
+          "fr": "Si ! J'ai lu la sourate Ar-Raḥmān et je l'ai mémorisée. Le professeur a été très content de moi et a dit : « Tu es le meilleur étudiant de la classe. »"
         },
         {
           "speaker": "M",
@@ -160,13 +160,13 @@
             [
               "{ar|غَسَلْتُهَا وَكَوَيْتُهَا}",
               "je les ai lavées et repassées",
-              "un pluriel de choses est repris par {ar|هَا}"
+              "d'ordinaire, un pluriel de choses est repris par {ar|هَا}"
             ],
-            ["{ar|بِي}", "de moi", "{ar|فَرِحَ بِي} : « il s'est réjoui de moi »"],
+            ["{ar|بِي}", "de moi", "{ar|فَرِحَ بِي} : « il a été content de moi »"],
             [
               "{ar|أَخُوكِ}",
               "ton frère (à une femme)",
-              "{ar|أَخٌ} devient {ar|أَخُو} devant un pronom collé, comme {ar|أَبُوكَ}"
+              "{ar|أَخٌ} devient {ar|أَخُو} au nominatif devant un pronom collé (sauf devant {ar|ي} : {ar|أَخِي}), comme {ar|أَبُوكَ}"
             ]
           ]
         }
@@ -241,7 +241,7 @@
       "gaps": [ { "answers": ["غَسَلْتُهَا"] } ],
       "options": ["غَسَلْتُهَا", "غَسَلْتُهُ", "غَسَلْتُكَ"],
       "context": { "dialogue": "medine-t2.l06.dialogue-1#1" },
-      "explain": "{ar|قُمْصَانِي} est un pluriel de choses : on le reprend par {ar|هَا}."
+      "explain": "{ar|قُمْصَانِي} est un pluriel de choses : on le reprend d'ordinaire par {ar|هَا}."
     },
     {
       "id": "medine-t2.l06.dialogue-1#9",
@@ -268,6 +268,8 @@
       "answers": [
         "قَرَأَتْ مَجَلَّةً مِنْ بَاكِسْتَانَ.",
         "قَرَأَتْ مَرْيَمُ مَجَلَّةً مِنْ بَاكِسْتَانَ.",
+        "قَرَأَتْ مَجَلَّةً مِنْ بَاكِسْتَانَ اسْمُهَا الْإِسْلَامُ.",
+        "قَرَأَتْ مَرْيَمُ مَجَلَّةً مِنْ بَاكِسْتَانَ اسْمُهَا الْإِسْلَامُ.",
         "مَجَلَّةً مِنْ بَاكِسْتَانَ.",
         "قَرَأَتْ مَجَلَّةً.",
         "مَجَلَّةً."

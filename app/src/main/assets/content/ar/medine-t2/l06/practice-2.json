@@ -73,8 +73,8 @@
         "بِالْمَاءِ الْبَارِدِ.",
         "بِالْمَاءِ الْبَارِدِ غَسَلْتُ وَجْهِي."
       ],
-      "fr": "J'ai lavé mon visage avec de l'eau froide.",
-      "instruction": "Réponds : avec de l'eau froide.",
+      "fr": "J'ai lavé mon visage à l'eau froide.",
+      "instruction": "Réponds : à l'eau froide.",
       "explain": "{ar|أَمْ} offre le choix entre deux possibilités ; ton visage devient {ar|وَجْهِي}."
     },
     {

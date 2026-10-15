@@ -5,7 +5,7 @@
     "ar": "دَرَى",
     "fr": "il a su (savoir)",
     "translit": "darā",
-    "note": "Ce verbe s'emploie surtout dans une phrase négative ou dans une question : {ar|لَا أَدْرِي} (« je ne sais pas »). Devant {ar|تُ} (« je »), le {ar|ى} redevient {ar|ي} : {ar|دَرَيْتُ}.",
+    "note": "Ce verbe s'emploie surtout dans une phrase négative ou dans une question : {ar|لَا أَدْرِي} (« je ne sais pas »). Devant les terminaisons du passé ({ar|تُ}, {ar|تَ}, {ar|نَا}…), le {ar|ى} redevient {ar|ي} : {ar|دَرَيْتُ}.",
     "example": { "ar": "مَا دَرَيْتُ أَيْنَ ذَهَبَ زَيْدٌ.", "fr": "Je n'ai pas su où Zayd est allé." }
   },
   {
@@ -15,7 +15,7 @@
     "fr": "il s'est réjoui, il a été content (être content)",
     "translit": "fariḥa",
     "note": "Il se construit avec la préposition {ar|بِ} : {ar|فَرِحَ بِ} suivi d'un nom (« se réjouir de quelque chose »). Ne le confonds pas avec l'adjectif {ar|فَرِحٌ} (« content »), vu au tome 1.",
-    "example": { "ar": "فَرِحَ الْمُدَرِّسُ بِالطَّالِبِ.", "fr": "Le professeur s'est réjoui de l'étudiant." }
+    "example": { "ar": "فَرِحَ الْمُدَرِّسُ بِالطَّالِبِ.", "fr": "Le professeur a été content de l'étudiant." }
   },
   {
     "id": "w:zada",
@@ -40,7 +40,7 @@
     "ar": "كَوَى",
     "fr": "il a repassé (repasser)",
     "translit": "kawā",
-    "note": "Même racine que {ar|مِكْوَاةٌ} (« un fer à repasser »), vu au tome 1. Devant {ar|تُ} (« je »), le {ar|ى} redevient {ar|ي} : {ar|كَوَيْتُ}.",
+    "note": "Même racine que {ar|مِكْوَاةٌ} (« un fer à repasser »), vu au tome 1. Devant les terminaisons du passé ({ar|تُ}, {ar|تَ}, {ar|نَا}…), le {ar|ى} redevient {ar|ي} : {ar|كَوَيْتُ}.",
     "example": { "ar": "كَوَيْتُ الْقَمِيصَ بِالْمِكْوَاةِ.", "fr": "J'ai repassé la chemise avec le fer à repasser." }
   },
   {

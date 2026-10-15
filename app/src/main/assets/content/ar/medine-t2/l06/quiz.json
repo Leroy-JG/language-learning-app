@@ -38,7 +38,7 @@
       "type": "true_false",
       "statement": { "fr": "{ar|أَظُنُّ أَنَّ} veut dire « je suis certain que »." },
       "answer": false,
-      "explain": "Non : {ar|ظَنَّ} exprime une supposition, « je pense que… »."
+      "explain": "Non : {ar|ظَنَّ} exprime le plus souvent une supposition, « je pense que… »."
     },
     {
       "id": "medine-t2.l06.quiz#6",
@@ -104,14 +104,14 @@
       "type": "typing",
       "ask": "fr",
       "fr": "L'étudiante a pris le livre.",
-      "answers": ["أَخَذَتِ الطَّالِبَةُ الْكِتَابَ."]
+      "answers": ["أَخَذَتِ الطَّالِبَةُ الْكِتَابَ.", "الطَّالِبَةُ أَخَذَتِ الْكِتَابَ."]
     },
     {
       "id": "medine-t2.l06.quiz#14",
       "type": "typing",
       "ask": "fr",
       "fr": "J'ai repassé la chemise et le mouchoir.",
-      "answers": ["كَوَيْتُ الْقَمِيصَ وَالْمِنْدِيلَ."]
+      "answers": ["كَوَيْتُ الْقَمِيصَ وَالْمِنْدِيلَ.", "أَنَا كَوَيْتُ الْقَمِيصَ وَالْمِنْدِيلَ."]
     },
     {
       "id": "medine-t2.l06.quiz#15",

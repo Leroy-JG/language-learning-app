@@ -82,7 +82,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "J'ai étudié le fiqh.",
-      "answers": ["دَرَسْتُ الْفِقْهَ."]
+      "answers": ["دَرَسْتُ الْفِقْهَ.", "أَنَا دَرَسْتُ الْفِقْهَ."]
     },
     {
       "id": "medine-t2.l06.vocab-3#16",

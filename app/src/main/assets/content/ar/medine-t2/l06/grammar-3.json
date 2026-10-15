@@ -28,7 +28,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Le masculin et le féminin n'ont **pas de tanwin** : le masculin se termine par une damma simple, le féminin par un alif écrit {ar|ى}. Le pluriel, lui, a le tanwin."
+          "text": "Le masculin et le féminin n'ont **pas de tanwin** : le masculin se termine par une damma simple au nominatif (et par une fatha au génitif et à l'accusatif), le féminin par un alif écrit {ar|ى}. Les pluriels de la forme {ar|فِعَالٌ} ont le tanwin ({ar|جِيَاعٌ}, {ar|عِطَاشٌ}, {ar|شِبَاعٌ}, {ar|غِضَابٌ}) ; {ar|كُسَالَى}, qui se termine par un alif écrit {ar|ى}, n'en a pas."
         },
         {
           "type": "note",

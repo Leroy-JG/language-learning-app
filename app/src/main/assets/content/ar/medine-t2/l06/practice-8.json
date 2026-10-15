@@ -25,7 +25,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Le tanwin fatha s'écrit en général avec un alif ({ar|كِتَابًا}), sauf après un {ar|ة} ({ar|سَيَّارَةً})."
+          "text": "Le tanwin fatha s'écrit en général avec un alif ({ar|كِتَابًا}), sauf après un {ar|ة} ({ar|سَيَّارَةً}) et après une hamza précédée d'un alif ({ar|مَاءً})."
         }
       ]
     },
@@ -125,7 +125,7 @@
       "instruction": "Touche le nom au génitif.",
       "words": ["ذَهَبَ", "حَامِدٌ", "إِلَى", "بَيْتٍ."],
       "answers": [3],
-      "fr": "Ḥāmid est allé dans une maison.",
+      "fr": "Ḥāmid est allé à une maison.",
       "explain": "{ar|بَيْتٍ} suit la préposition {ar|إِلَى} : génitif, avec la kasra. {ar|حَامِدٌ}, le sujet, est au nominatif."
     },
     {
@@ -133,7 +133,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "J'ai pris un fer à repasser.",
-      "answers": ["أَخَذْتُ مِكْوَاةً."],
+      "answers": ["أَخَذْتُ مِكْوَاةً.", "أَنَا أَخَذْتُ مِكْوَاةً."],
       "explain": "Complément d'objet : accusatif ; après le {ar|ة}, le tanwin fatha s'écrit sans alif."
     },
     {
@@ -149,14 +149,14 @@
       "type": "typing",
       "ask": "fr",
       "fr": "J'ai lu un livre.",
-      "answers": ["قَرَأْتُ كِتَابًا."]
+      "answers": ["قَرَأْتُ كِتَابًا.", "أَنَا قَرَأْتُ كِتَابًا."]
     },
     {
       "id": "medine-t2.l06.practice-8#11",
       "type": "typing",
       "ask": "fr",
       "fr": "Je suis allé à une école.",
-      "answers": ["ذَهَبْتُ إِلَى مَدْرَسَةٍ."]
+      "answers": ["ذَهَبْتُ إِلَى مَدْرَسَةٍ.", "أَنَا ذَهَبْتُ إِلَى مَدْرَسَةٍ."]
     }
   ]
 }
