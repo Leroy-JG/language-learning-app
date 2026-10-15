@@ -1,21 +1,21 @@
 {
   "id": "medine-t2.l03.grammar-2",
   "type": "grammar",
-  "title": "Les deux morceaux et le genre",
+  "title": "Les deux parties et le genre",
   "icon": "puzzle",
   "screens": [
     {
       "id": "medine-t2.l03.grammar-2#1",
       "type": "tip",
-      "title": "Le morceau « dix » s'accorde avec le dénombré",
+      "title": "La partie « dix » s'accorde avec le dénombré",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le deuxième morceau (« dix ») est toujours **invariable** : il garde sa fatha, quel que soit le rôle du nombre dans la phrase. Il s'accorde seulement **en genre** avec le dénombré."
+          "text": "La deuxième partie (« dix ») est toujours **invariable** : elle garde sa fatha, quel que soit le rôle du nombre dans la phrase. Elle s'accorde seulement **en genre** avec le dénombré."
         },
         {
           "type": "table",
-          "header": ["Dénombré", "Morceau « dix »", "Exemple"],
+          "header": ["Dénombré", "Partie « dix »", "Exemple"],
           "rows": [
             ["masculin", "{ar|عَشَرَ} (sans {ar|ة}, fatha sur le {ar|ش})", "{ar|ثَلَاثَةَ عَشَرَ كِتَابًا}"],
             ["féminin", "{ar|عَشْرَةَ} (avec {ar|ة}, sukūn sur le {ar|ش})", "{ar|ثَلَاثَ عَشْرَةَ أُخْتًا}"]
@@ -31,11 +31,11 @@
     {
       "id": "medine-t2.l03.grammar-2#2",
       "type": "tip",
-      "title": "Le morceau « unités » contredit le dénombré",
+      "title": "La partie « unités » contredit le dénombré (sauf 11 et 12)",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le premier morceau (les unités) suit la règle de 3 à 10 : il est de genre **contraire** au dénombré. Il y a une exception, **onze** et **douze** : leur premier morceau **s'accorde** avec le dénombré."
+          "text": "La première partie (les unités) suit la règle de 3 à 10 : elle est de genre **contraire** au dénombré. Il y a une exception, **onze** et **douze** : leur première partie **s'accorde** avec le dénombré."
         },
         {
           "type": "compare",
@@ -54,7 +54,12 @@
         },
         {
           "type": "note",
-          "text": "Les deux morceaux sont invariables (ils gardent la fatha), sauf le premier morceau de douze, que tu étudies plus loin."
+          "tone": "memo",
+          "text": "Pour retenir : de 13 à 19, une seule des deux parties porte le {ar|ة}. Avec un nom masculin, c'est la première ({ar|ثَلَاثَةَ عَشَرَ}) ; avec un nom féminin, c'est la seconde ({ar|ثَلَاثَ عَشْرَةَ})."
+        },
+        {
+          "type": "note",
+          "text": "Les deux parties sont invariables (elles gardent la fatha, qui ne se voit pas dans {ar|إِحْدَى}), sauf la première partie de douze, que tu étudies plus loin."
         }
       ]
     },
@@ -71,12 +76,12 @@
         { "ar": "سَبْعَةَ عَشَرَ", "category": 0 }
       ],
       "instruction": "Avec quel nom compté se dit chaque nombre ?",
-      "explain": "Le second morceau suffit pour le savoir : {ar|عَشَرَ} (sans {ar|ة}) va avec un nom masculin, {ar|عَشْرَةَ} (avec {ar|ة}) avec un nom féminin."
+      "explain": "La seconde partie suffit pour le savoir : {ar|عَشَرَ} (sans {ar|ة}) va avec un nom masculin, {ar|عَشْرَةَ} (avec {ar|ة}) avec un nom féminin."
     },
     {
       "id": "medine-t2.l03.grammar-2#4",
       "type": "spot",
-      "instruction": "Touche le morceau qui s'accorde avec le dénombré.",
+      "instruction": "Touche la partie qui s'accorde avec le dénombré.",
       "words": ["أَرْبَعَةَ", "عَشَرَ", "كِتَابًا."],
       "answers": [1],
       "fr": "Quatorze livres.",
@@ -85,7 +90,7 @@
     {
       "id": "medine-t2.l03.grammar-2#5",
       "type": "spot",
-      "instruction": "Touche le morceau qui est de genre contraire au dénombré.",
+      "instruction": "Touche la partie qui est de genre contraire au dénombré.",
       "words": ["سَبْعَ", "عَشْرَةَ", "طَالِبَةً."],
       "answers": [0],
       "fr": "Dix-sept étudiantes.",

@@ -5,7 +5,7 @@
     "ar": "أَحَدَ عَشَرَ، إِحْدَى عَشْرَةَ",
     "fr": "onze",
     "translit": "aḥada ʿashara، iḥdā ʿashrata",
-    "note": "Avec un nom masculin : {ar|أَحَدَ عَشَرَ}. Avec un nom féminin : {ar|إِحْدَى عَشْرَةَ}. Le premier morceau est « un » ({ar|أَحَدَ} au masculin, {ar|إِحْدَى} au féminin) : il s'accorde avec le nom compté, c'est une exception.",
+    "note": "Avec un nom masculin : {ar|أَحَدَ عَشَرَ}. Avec un nom féminin : {ar|إِحْدَى عَشْرَةَ}. La première partie est « un » ({ar|أَحَدَ} au masculin, {ar|إِحْدَى} au féminin) : elle s'accorde avec le nom compté, c'est une exception.",
     "example": { "ar": "لِي أَحَدَ عَشَرَ كِتَابًا.", "fr": "J'ai onze livres." }
   },
   {
@@ -14,7 +14,7 @@
     "ar": "اِثْنَا عَشَرَ، اِثْنَتَا عَشْرَةَ",
     "fr": "douze",
     "translit": "ithnā ʿashara، ithnatā ʿashrata",
-    "note": "Avec un nom masculin : {ar|اِثْنَا عَشَرَ}. Avec un nom féminin : {ar|اِثْنَتَا عَشْرَةَ}. Ce sont les formes du nominatif ; le premier morceau change de forme selon le cas (tu verras comment dans une leçon de grammaire).",
+    "note": "Avec un nom masculin : {ar|اِثْنَا عَشَرَ}. Avec un nom féminin : {ar|اِثْنَتَا عَشْرَةَ}. Ce sont les formes du nominatif ; la première partie change de forme selon le cas (tu verras comment dans une leçon de grammaire).",
     "example": { "ar": "لِي اثْنَا عَشَرَ كِتَابًا.", "fr": "J'ai douze livres." }
   },
   {
@@ -23,7 +23,7 @@
     "ar": "ثَلَاثَةَ عَشَرَ، ثَلَاثَ عَشْرَةَ",
     "fr": "treize",
     "translit": "thalāthata ʿashara، thalātha ʿashrata",
-    "note": "Avec un nom masculin : {ar|ثَلَاثَةَ عَشَرَ}. Avec un nom féminin : {ar|ثَلَاثَ عَشْرَةَ}. Le premier morceau (« trois ») est de genre contraire au nom compté, le second (« dix ») est du même genre.",
+    "note": "Avec un nom masculin : {ar|ثَلَاثَةَ عَشَرَ}. Avec un nom féminin : {ar|ثَلَاثَ عَشْرَةَ}. La première partie (« trois ») est de genre contraire au nom compté, la seconde (« dix ») est du même genre.",
     "example": { "ar": "لِي ثَلَاثَةَ عَشَرَ كِتَابًا.", "fr": "J'ai treize livres." }
   },
   {
@@ -349,7 +349,7 @@
     "ar": "أَطْوَلُ",
     "fr": "plus grand (de taille), plus long",
     "translit": "aṭwalu",
-    "note": "Il vient de {ar|طَالَ} (« être long ») : le {ar|و} de {ar|طَوِيلٌ} revient. Comme tous les noms de cette forme, il n'a pas de tanwin.",
+    "note": "Il vient de {ar|طَالَ} (« être long ») : le {ar|و} de {ar|طَوِيلٌ} revient. Comme tous les comparatifs, il n'a pas de tanwin.",
     "example": { "ar": "هُوَ أَطْوَلُ مِنِّي.", "fr": "Il est plus grand que moi." }
   },
   {

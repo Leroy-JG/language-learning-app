@@ -35,7 +35,7 @@
         {
           "speaker": "B",
           "ar": "بَلَى. هُوَ طَوِيلٌ جِدًّا وَلَكِنَّ حَامِدًا أَطْوَلُ مِنْهُ. إِنَّهُ أَطْوَلُ طَالِبٍ فِي فَصْلِنَا. وَمَنْ أَطْوَلُ طَالِبٍ فِي فَصْلِكُمْ؟",
-          "fr": "Mais si. Il est très grand, mais Ḥāmid est plus grand que lui. C'est le plus grand étudiant de notre classe. Et qui est le plus grand étudiant de votre classe ?"
+          "fr": "Si. Il est très grand, mais Ḥāmid est plus grand que lui. C'est le plus grand étudiant de notre classe. Et qui est le plus grand étudiant de votre classe ?"
         },
         {
           "speaker": "A",
@@ -84,14 +84,11 @@
             [
               "{ar|خَطِّي}",
               "mon écriture",
-              "au nominatif, malgré la kasra : la voyelle s'efface devant le pronom {ar|ي}"
+              "au nominatif : le pronom {ar|ي} exige une kasra sur la lettre qui le précède ; la damma du nominatif ne se voit pas"
             ]
           ]
         },
-        {
-          "type": "note",
-          "text": "Le texte du livre a très peu de voyelles : la vocalisation est celle de l'app. Dans le livre, une suite de points suit {ar|فِي فَصْلِنَا} : l'app ne la reprend pas."
-        }
+        { "type": "note", "text": "Le texte du livre a très peu de voyelles : la vocalisation est celle de l'app." }
       ]
     },
     {
@@ -142,7 +139,7 @@
       "id": "medine-t2.l03.dialogue-1#8",
       "type": "fill_gap",
       "sentence": "بَلَى. هُوَ طَوِيلٌ جِدًّا {0} حَامِدًا أَطْوَلُ مِنْهُ.",
-      "fr": "Mais si. Il est très grand, mais Ḥāmid est plus grand que lui.",
+      "fr": "Si. Il est très grand, mais Ḥāmid est plus grand que lui.",
       "gaps": [ { "answers": ["وَلَكِنَّ"] } ],
       "options": ["وَلَكِنَّ", "وَلَعَلَّ", "وَكَأَنَّ"],
       "context": { "dialogue": "medine-t2.l03.dialogue-1#1" },

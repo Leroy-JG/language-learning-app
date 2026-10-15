@@ -9,7 +9,7 @@ Chapitre généré avec `tools/generateur_contenu.py` (scripts hors du dépôt).
 Un seul PDF de diapositives (« Livre de Médine, Tome 2 », cours numéro 3, 26 pages, la première est blanche) :
 
 - vue d'ensemble de `الْعَدَدُ` (quatre familles : 3 à 10, 11 à 19, 20 à 99, 100 et 1000) ;
-- `الْعَدَدُ مِنْ ١١ إِلَى ١٩` : tableau des neuf nombres (deux formes chacun), les règles des deux morceaux, quatre diapositives
+- `الْعَدَدُ مِنْ ١١ إِلَى ١٩` : tableau des neuf nombres (deux formes chacun), les règles des deux parties, quatre diapositives
   d'analyse (`لِي ثَلَاثَةَ عَشَرَ كِتَابًا`, `لِي ثَلَاثَ عَشْرَةَ أُخْتًا`, `لِي أَحَدَ عَشَرَ كِتَابًا`, `لِي إِحْدَى عَشْرَةَ أُخْتًا`) et
   deux diapositives sur douze (`اثْنَا عَشَرَ`, `اثْنَتَيْ عَشْرَةَ`) ;
 - exercice 9 (écrire les nombres en lettres) ;
@@ -24,7 +24,7 @@ Un seul PDF de diapositives (« Livre de Médine, Tome 2 », cours numéro 3, 26
 | Partie | Activités |
 |---|---|
 | Revoir : compter jusqu'à dix et la forme `أَفْعَلُ` | `revue-1` (rappel `review`, aucune carte) |
-| Les nombres de 11 à 19 | `grammar-1` (le plan, deux morceaux), `vocab-1` (11 à 15), `vocab-2` (16 à 19), `grammar-2` (accord des deux morceaux), `grammar-3` (le dénombré, `التَّمْيِيزُ`), `grammar-4` (douze) |
+| Les nombres de 11 à 19 | `grammar-1` (le plan, deux parties), `vocab-1` (11 à 15), `vocab-2` (16 à 19), `grammar-2` (accord des deux parties), `grammar-3` (le dénombré, `التَّمْيِيزُ`), `grammar-4` (douze) |
 | Hier, rêve, équipe et frère | `vocab-3`, `vocab-4`, `vocab-5` (mots du tableau du PDF) |
 | Exercice du livre : écrire les nombres en lettres | `practice-1` (exercice 9) |
 | Plus grand, plus beau : le comparatif | `grammar-5` (définition, moule), `vocab-6`, `grammar-6` (`أَفْعَلُ مِنْ`), `vocab-7`, `grammar-7` (superlatif), `grammar-8` (sans tanwin) |
@@ -35,7 +35,7 @@ Un seul PDF de diapositives (« Livre de Médine, Tome 2 », cours numéro 3, 26
 
 Outils de la palette utilisés : `sort` (famille de nombres, genre du dénombré, nominatif / accusatif de douze, comparatif / superlatif, kasra / fatha,
 `نَعَمْ` / `بَلَى`, trois particules), `spot` (morceau « dix », dénombré, prédicat, comparatifs), `build` (`جَاءَ`, `أَعْلَمُ`), `breakdown`
-(les deux morceaux d'un nombre, `كُرَةُ الْقَدَمِ`, `أَعْلَمُ طَالِبٍ`, `بِأَعْلَمَ`, `لَكِنَّهُ`, `كَأَنَّهُ`, `أَلَيْسَ`), `compare`
+(les deux parties d'un nombre, `كُرَةُ الْقَدَمِ`, `أَعْلَمُ طَالِبٍ`, `بِأَعْلَمَ`, `لَكِنَّهُ`, `كَأَنَّهُ`, `أَلَيْسَ`), `compare`
 (masculin → féminin d'un nombre, adjectif → comparatif, comparatif → superlatif), `match` (`sing-plur`).
 
 ## Notions et éléments nouveaux (47)
@@ -73,7 +73,8 @@ Outils de la palette utilisés : `sort` (famille de nombres, genre du dénombré
 - **Verbes** : `جِيئَةٌ` (nom d'action de `جَاءَ`, donné par le PDF) est repris, avec la mention de `مَجِيءٌ` (nom d'action courant) ; `رَ` (impératif
   de `رَأَى`) et `رُؤْيَةٌ` / `رَأْيٌ` / `رُؤْيَا` sont repris tels quels. Seul le passé est exigé (présent et impératif : aperçu).
 - **Pluriels** repris du PDF : `خُطُوطٌ`, `أَجْزَاءٌ`, `مَنَامَاتٌ`, `كَوَاكِبُ`, `أَشِقَّاءُ`, `فُرَقَاءُ`, `لَاعِبُونَ`. `سِنٌّ` : le PDF ne donne pas de pluriel.
-- **Genre** : `سِنٌّ` est féminin (comme « dent » ; usage : `فِي سِنٍّ مُبَكِّرَةٍ`) : point à confirmer avec le professeur.
+- **Genre** : `سِنٌّ` est **sans `gender`** : féminin pour « dent » (Lisān, Wasīṭ), mais pour « âge » les dictionnaires (Lane) donnent aussi le féminin sans trancher ; à confirmer avec le professeur.
+- **Pluriel `فُرَقَاءُ`** (`فَرِيقٌ`) : repris du PDF (Langenscheidt le donne aussi) ; un relecteur ne connaît avec certitude que `أَفْرِقَةٌ` / `فُرُقٌ` : à vérifier dans le Lisān.
 - **Faute d'orthographe du support** : `نص` (exercice 9, phrase 1) ; le PDF met aussi `ولكنَّ` sans alif dans la bulle de dialogue (graphie courante).
 
 ## Explications ajoutées (données à l'oral, absentes du PDF)
@@ -105,3 +106,18 @@ Les dizaines (`عِشْرُونَ`…), les nombres ordinaux (`الْخَامِ�
 
 Le chapitre suit `docs/tome2-vue-densemble.md` (cours 3 : nombres 11 à 19, `أَفْعَلُ التَّفْضِيلِ`, `كَأَنَّ` et `لَكِنَّ`). La règle d'accord complète des nombres
 (20 à 99, centaines, milliers) viendra aux cours 10 et 24 ; ici, on ne traite que 11 à 19.
+
+## Corrections faites après la relecture (3 relecteurs : arabe, exercices, français et pédagogie)
+
+- **Explication fausse** : « مِنْ + ي donne مِنِّي » corrigé en `مِنْ` + `نِي` (le `ن` de protection) ; même logique ajoutée pour `لَكِنَّنِي` / `لَكِنِّي` (`grammar-9`).
+- **Généralisations** : « tous les noms de la forme `أَفْعَلُ` n'ont pas de tanwin » (faux pour `أَسَدٌ`, `أَرْنَبٌ`) → « les adjectifs (couleurs, comparatifs) et les prénoms comme `أَحْمَدُ` » ;
+  « le comparatif ne change jamais » → « de genre ni de nombre » (sa voyelle finale change : `بِأَعْلَمَ`) ; le superlatif s'accorde avec ce qu'il désigne (un seul sujet ici) ;
+  « le second terme sans tanwin prend la fatha » complété (avec l'article : kasra, `مِنَ الرِّجَالِ`) ; `أَعْلَمُ طَالِبٍ` traduit « l'étudiant le plus savant » (et non « des étudiants »).
+- **Vocabulaire** : « morceau » remplacé par « partie » dans tout le chapitre (mot du professeur, et `جُزْءٌ` est enseigné).
+- **Réponses justes ajoutées** : `أَطْوَلُ` pour « plus grand que lui », réponses sans `سِنًّا`, `وَهُوَ أَيْضًا`, `فِي السَّمَاءِ نُجُومٌ`, ordres de mots avec `أَمْسِ` en tête, ordre alternatif de `بَيْتِي أَبْعَدُ…`.
+- **Distracteurs** : `كَوْكَبٌ` n'a plus « étoile » ni « lune » comme faux choix ; `أَكْبَرُ` (bilan) n'a plus `أَطْوَلُ`.
+- **Notions exigées sans être enseignées** : les phrases du livre avec `الثَّامِنُ` / `الْخَامِسِ` et `الَّذِي` sont posées en français seul (`practice-5`).
+- **Revue** : deux exercices hors dialogue ajoutés à `practice-5` (le planificateur de révision ignore les exercices liés à un dialogue).
+- **Notes d'oral ajoutées** : astuce « une seule des deux parties porte le `ة` » (13 à 19), `مَا شَاءَ اللَّهُ` (Coran 18:39), `بَلَى` (Coran 7:172, peut suivre une phrase négative non interrogative), prononciation de `لَكِنَّ`.
+- **Notes d'éditeur retirées de l'app** (restées dans ce fichier) : phrase 7 de l'exercice 5, phrases omises de l'exercice 4, suite de points du dialogue ; `سَلَّمَ` est de la Révision 2 (plus un aperçu).
+- **Gardé** : `السُّرُرُ` au nominatif (reprise du PDF, l'accusatif est aussi correct, noté dans l'app) ; `جِيئَةٌ` (attesté dans le Lisān) avec `مَجِيءٌ`.

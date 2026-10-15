@@ -24,12 +24,12 @@
       "type": "question",
       "prompt": { "fr": "Pourquoi dit-on {ar|إِحْدَى عَشْرَةَ أُخْتًا} (et non {ar|أَحَدَ عَشَرَ}) ?" },
       "choices": [
-        { "fr": "Le premier morceau de onze s'accorde avec le dénombré (c'est une exception)." },
-        { "fr": "Parce que le premier morceau de onze est toujours féminin." },
+        { "fr": "La première partie de onze s'accorde avec le dénombré (c'est une exception)." },
+        { "fr": "Parce que la première partie de onze est toujours féminine." },
         { "fr": "Parce que le dénombré est au pluriel." }
       ],
       "answer": 0,
-      "explain": "De 13 à 19, le premier morceau contredit le dénombré ; pour 11 et 12, il s'accorde avec lui : {ar|أُخْتٌ} est féminin, donc {ar|إِحْدَى}."
+      "explain": "De 13 à 19, la première partie contredit le dénombré ; pour 11 et 12, il s'accorde avec lui : {ar|أُخْتٌ} est féminin, donc {ar|إِحْدَى}."
     },
     {
       "id": "medine-t2.l03.quiz#4",
@@ -54,7 +54,7 @@
       "type": "mcq",
       "mode": "ar-fr",
       "item": "w:akbar",
-      "distractors": ["w:asghar", "w:atwal"]
+      "distractors": ["w:asghar", "w:ajmal"]
     },
     {
       "id": "medine-t2.l03.quiz#7",
@@ -135,7 +135,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Hier, un nouvel étudiant est venu.",
-      "answers": ["جَاءَ طَالِبٌ جَدِيدٌ أَمْسِ.", "أَمْسِ جَاءَ طَالِبٌ جَدِيدٌ."]
+      "answers": ["جَاءَ طَالِبٌ جَدِيدٌ أَمْسِ.", "أَمْسِ جَاءَ طَالِبٌ جَدِيدٌ.", "جَاءَ أَمْسِ طَالِبٌ جَدِيدٌ."]
     },
     {
       "id": "medine-t2.l03.quiz#16",

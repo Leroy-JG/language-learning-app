@@ -54,7 +54,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Ḥamza est plus âgé que moi.",
-      "answers": ["حَمْزَةُ أَكْبَرُ مِنِّي سِنًّا."],
+      "answers": ["حَمْزَةُ أَكْبَرُ مِنِّي سِنًّا.", "حَمْزَةُ أَكْبَرُ مِنِّي."],
       "explain": "{ar|سِنًّا} (« en âge ») est la précision, à l'accusatif."
     },
     {
@@ -70,7 +70,10 @@
       "id": "medine-t2.l03.practice-2#6",
       "type": "order",
       "fr": "Ma maison est plus loin de l'école que la tienne.",
-      "answers": [["بَيْتِي", "أَبْعَدُ", "عَنِ", "الْمَدْرَسَةِ", "مِنْ", "بَيْتِكَ"]],
+      "answers": [
+        ["بَيْتِي", "أَبْعَدُ", "عَنِ", "الْمَدْرَسَةِ", "مِنْ", "بَيْتِكَ"],
+        ["بَيْتِي", "أَبْعَدُ", "مِنْ", "بَيْتِكَ", "عَنِ", "الْمَدْرَسَةِ"]
+      ],
       "punctuation": "."
     },
     {
@@ -78,7 +81,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Il est plus jeune que nous.",
-      "answers": ["هُوَ أَصْغَرُ مِنَّا سِنًّا."]
+      "answers": ["هُوَ أَصْغَرُ مِنَّا سِنًّا.", "هُوَ أَصْغَرُ مِنَّا."]
     },
     {
       "id": "medine-t2.l03.practice-2#8",

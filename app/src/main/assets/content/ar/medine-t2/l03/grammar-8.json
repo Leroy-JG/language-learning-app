@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le comparatif, comme les couleurs, est de la forme {ar|أَفْعَلُ} : c'est un nom sans tanwin ({ar|الْمَمْنُوعُ مِنَ الصَّرْفِ}, tome 1, chapitres 22 et 23). Seuls (sans article, sans être premier terme d'une annexion), ils prennent la **fatha** au génitif, pas la kasra."
+          "text": "Les adjectifs de la forme {ar|أَفْعَلُ} (les couleurs, les comparatifs) et les prénoms comme {ar|أَحْمَدُ} sont des noms sans tanwin ({ar|الْمَمْنُوعُ مِنَ الصَّرْفِ}, tome 1, chapitres 22 et 23). Seuls (sans article, sans être premier terme d'une annexion), ils prennent la **fatha** au génitif, pas la kasra."
         },
         {
           "type": "example",
@@ -44,7 +44,7 @@
           "rows": [
             {
               "from": { "ar": "بِأَعْلَمَ مِنْ مُحَمَّدٍ", "fr": "plus savant que Muḥammad (comparatif, seul)" },
-              "to": { "ar": "بِأَعْلَمِ طَالِبٍ", "fr": "le plus savant des étudiants (premier terme d'une annexion)" },
+              "to": { "ar": "بِأَعْلَمِ طَالِبٍ", "fr": "l'étudiant le plus savant (premier terme d'une annexion)" },
               "label": "fatha → kasra"
             }
           ]

@@ -25,7 +25,7 @@
         },
         {
           "type": "note",
-          "text": "Le nombre lui-même ne change pas de voyelle selon son rôle dans la phrase : il est invariable (sauf le premier morceau de douze)."
+          "text": "Le nombre lui-même ne change pas de voyelle selon son rôle dans la phrase : il est invariable (sauf la première partie de douze)."
         }
       ]
     },
@@ -37,7 +37,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le professeur analyse les phrases ainsi. Quand il dit que « le nombre est féminin », il parle de la **forme** du premier morceau (avec {ar|ة}) : de 13 à 19, c'est la forme qui va avec un dénombré masculin ; pour 11, le premier morceau suit le dénombré."
+          "text": "Le professeur analyse les phrases ainsi. Quand il dit que « le nombre est féminin », il parle de la **forme** de la première partie (avec {ar|ة}) : de 13 à 19, c'est la forme qui va avec un dénombré masculin ; pour 11, la première partie suit le dénombré."
         },
         {
           "type": "table",
@@ -86,7 +86,9 @@
     {
       "id": "medine-t2.l03.grammar-3#5",
       "type": "true_false",
-      "statement": { "fr": "Le nombre {ar|ثَلَاثَةَ عَشَرَ} change de voyelle quand il n'est plus au début de la phrase." },
+      "statement": {
+        "fr": "Le nombre {ar|ثَلَاثَةَ عَشَرَ} change de voyelle quand son rôle dans la phrase change (sujet, complément…)."
+      },
       "answer": false,
       "explain": "Faux : il est invariable ({ar|مَبْنِيٌّ عَلَى الْفَتْحِ}) et garde sa fatha dans toutes les phrases."
     },

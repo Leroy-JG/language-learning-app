@@ -72,10 +72,7 @@
     {
       "id": "medine-t2.l03.practice-5#6",
       "type": "true_false",
-      "statement": {
-        "ar": "الطَّالِبُ الْجَدِيدُ الَّذِي جَاءَ أَمْسِ اسْمُهُ أُسَامَةُ.",
-        "fr": "Le nouvel étudiant venu hier s'appelle Usāma."
-      },
+      "statement": { "fr": "Le nouvel étudiant venu hier s'appelle Usāma." },
       "answer": true,
       "context": { "dialogue": "medine-t2.l03.dialogue-1#1" },
       "explain": "{ar|اِسْمُهُ أُسَامَةُ}."

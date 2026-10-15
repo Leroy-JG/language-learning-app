@@ -23,7 +23,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Dans ces phrases, {ar|مِنْ} veut dire « que », et non « de ». Le second terme prend la kasra avec tanwin ({ar|يَاسِرٍ}) ou, s'il est sans tanwin, la fatha ({ar|زَيْنَبَ})."
+          "text": "Dans ces phrases, {ar|مِنْ} veut dire « que », et non « de ». Le second terme prend la kasra avec tanwin ({ar|يَاسِرٍ}) ; un nom sans tanwin, seul, prend la fatha ({ar|زَيْنَبَ}) ; avec l'article, c'est la kasra sans tanwin ({ar|مِنَ الرِّجَالِ})."
         }
       ]
     },
@@ -44,7 +44,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Suivi de {ar|مِنْ}, le comparatif **ne change jamais** : même forme pour un sujet masculin ou féminin, singulier ou pluriel."
+          "text": "Suivi de {ar|مِنْ}, le comparatif **ne change jamais de genre ni de nombre** : même forme pour un sujet masculin ou féminin, singulier ou pluriel."
         }
       ]
     },
@@ -66,7 +66,7 @@
         },
         {
           "type": "note",
-          "text": "{ar|مِنْ} + {ar|نِي} (« moi ») donne {ar|مِنِّي} : les deux {ar|ن} se rejoignent en une lettre doublée. De même {ar|مِنْ} + {ar|نَا} (« nous ») donne {ar|مِنَّا}."
+          "text": "{ar|مِنْ} + {ar|نِي} (« moi » : le {ar|ن} de protection, puis {ar|ي}) donne {ar|مِنِّي} : les deux {ar|ن} se rejoignent en une lettre doublée. De même {ar|مِنْ} + {ar|نَا} (« nous ») donne {ar|مِنَّا}."
         }
       ]
     },
@@ -92,7 +92,7 @@
         },
         {
           "type": "note",
-          "text": "Quand le second terme est évident, on peut l'omettre avec {ar|مِنْ} : {ar|خَطِّي جَمِيلٌ، وَخَطُّكَ أَجْمَلُ} (« mon écriture est belle, et la tienne est plus belle »)."
+          "text": "Quand le second terme est évident, on peut omettre {ar|مِنْ} et le second terme : {ar|خَطِّي جَمِيلٌ، وَخَطُّكَ أَجْمَلُ} (« mon écriture est belle, et la tienne est plus belle »)."
         }
       ]
     },

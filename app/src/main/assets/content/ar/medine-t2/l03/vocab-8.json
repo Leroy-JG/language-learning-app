@@ -23,9 +23,24 @@
           "text": "{ar|مَا شَاءَ اللَّهُ} (« ce qu'Allah a voulu ») se dit pour exprimer son admiration devant quelque chose de beau ou de réussi, en rappelant que ce qui arrive est voulu par Allah."
         },
         {
+          "type": "breakdown",
+          "ar": "مَا شَاءَ اللَّهُ",
+          "fr": "ce qu'Allah a voulu",
+          "parts": [
+            { "ar": "مَا", "fr": "ce que" },
+            { "ar": "شَاءَ", "fr": "a voulu" },
+            { "ar": "اللَّهُ", "fr": "Allah" }
+          ]
+        },
+        {
           "type": "example",
           "ar": "إِنَّ خَطَّكَ جَمِيلٌ جِدًّا. مَا شَاءَ اللَّهُ!",
           "fr": "Ton écriture est très belle. Ce qu'Allah a voulu !"
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "On la trouve dans le Coran (18:39) : {ar|قُلْتَ مَا شَاءَ اللَّهُ لَا قُوَّةَ إِلَّا بِاللَّهِ} (« ce qu'Allah a voulu ! Il n'y a de force qu'en Allah »)."
         }
       ]
     },

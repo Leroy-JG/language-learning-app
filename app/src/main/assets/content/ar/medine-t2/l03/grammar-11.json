@@ -31,6 +31,11 @@
         },
         {
           "type": "note",
+          "tone": "culture",
+          "text": "On la trouve dans le Coran (7:172) : {ar|أَلَسْتُ بِرَبِّكُمْ؟ قَالُوا بَلَى} (« Ne suis-Je pas votre Seigneur ? — Si ! »). Elle peut aussi contredire une phrase négative qui n'est pas une question."
+        },
+        {
+          "type": "note",
           "text": "{ar|نَعَمْ} confirme ce qu'on vient de dire. Après une question négative, elle confirmerait la négation (« oui, il n'est pas savant »), ce qui prête à confusion : c'est pourquoi on emploie {ar|بَلَى}."
         }
       ]
@@ -95,7 +100,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Je suis étudiant, et lui aussi.",
-      "answers": ["أَنَا طَالِبٌ وَهُوَ كَذٰلِكَ."]
+      "answers": ["أَنَا طَالِبٌ وَهُوَ كَذٰلِكَ.", "أَنَا طَالِبٌ وَهُوَ أَيْضًا.", "أَنَا طَالِبٌ وَهُوَ طَالِبٌ أَيْضًا."]
     }
   ]
 }

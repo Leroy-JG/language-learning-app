@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Pour dire « le plus… », on place le comparatif **devant un nom indéfini, au singulier**. C'est une annexion : le comparatif est le premier terme, le nom est au génitif. Le nom s'accorde en genre avec la personne ou la chose dont on parle."
+          "text": "Pour dire « le plus… », on place le comparatif **devant un nom indéfini**, qui s'accorde avec la personne ou la chose dont on parle (ici, une seule personne : le singulier). C'est une annexion : le comparatif est le premier terme, le nom est au génitif."
         },
         {
           "type": "table",
@@ -24,7 +24,7 @@
         {
           "type": "breakdown",
           "ar": "أَعْلَمُ طَالِبٍ",
-          "fr": "le plus savant des étudiants",
+          "fr": "l'étudiant le plus savant",
           "parts": [ { "ar": "أَعْلَمُ", "fr": "le plus savant" }, { "ar": "طَالِبٍ", "fr": "étudiant" } ]
         }
       ]

@@ -11,7 +11,7 @@
       "type": "mcq",
       "mode": "ar-fr",
       "item": "w:kawkab",
-      "distractors": ["w:najm", "w:qamar"]
+      "distractors": ["w:bab", "w:daftar"]
     },
     { "id": "medine-t2.l03.vocab-4#4", "type": "present", "item": "w:juz" },
     { "id": "medine-t2.l03.vocab-4#5", "type": "present", "item": "w:raa" },
@@ -81,7 +81,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Il y a des astres dans le ciel.",
-      "answers": ["فِي السَّمَاءِ كَوَاكِبُ."]
+      "answers": ["فِي السَّمَاءِ كَوَاكِبُ.", "فِي السَّمَاءِ نُجُومٌ."]
     }
   ]
 }

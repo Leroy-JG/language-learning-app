@@ -13,7 +13,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "{ar|لَكِنَّ} (« mais ») est une sœur de {ar|إِنَّ} (chapitre 1 de ce tome) : elle agit sur la phrase nominale comme {ar|إِنَّ}. Le nom qui la suit est à l'**accusatif**, son prédicat reste au **nominatif**. On l'emploie entre deux phrases dont le sens s'oppose."
+          "text": "{ar|لَكِنَّ} (« mais ») est une sœur de {ar|إِنَّ} (chapitre 1 de ce tome) : elle agit sur la phrase nominale comme {ar|إِنَّ}. Le nom qui la suit est à l'**accusatif**, son prédicat reste au **nominatif**. On l'emploie entre deux phrases, pour corriger ou préciser ce qui précède (souvent un sens opposé)."
         },
         {
           "type": "table",
@@ -53,8 +53,12 @@
         },
         {
           "type": "note",
+          "text": "{ar|لَكِنَّنِي} = {ar|لَكِنَّ} + {ar|نِي} : comme avec {ar|إِنَّنِي} (chapitre 1 de ce tome), le {ar|ن} de protection précède le pronom {ar|ي} ; on peut aussi n'écrire qu'un seul {ar|ن} : {ar|لَكِنِّي}."
+        },
+        {
+          "type": "note",
           "tone": "warning",
-          "text": "Ne la confonds pas avec {ar|لٰكِنْ} (tome 1, chapitre 21) : sans shadda, elle ne change aucun cas."
+          "text": "Ne la confonds pas avec {ar|لٰكِنْ} (tome 1, chapitre 21) : sans shadda, elle ne change aucun cas. Les deux se prononcent avec un « ā » long (« lākinna », « lākin »), même si le livre ne l'écrit pas pour {ar|لَكِنَّ}."
         }
       ]
     },
