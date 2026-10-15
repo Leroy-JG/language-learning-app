@@ -59,6 +59,7 @@ import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.res.painterResource
@@ -86,6 +87,7 @@ import io.github.leroyjg.arabe.ui.label
 import io.github.leroyjg.arabe.ui.text.ArabicText
 import io.github.leroyjg.arabe.ui.text.RichText
 import io.github.leroyjg.arabe.ui.theme.AppTheme
+import io.github.leroyjg.arabe.ui.theme.Brand
 
 private fun levelOf(course: Course, activity: Activity?): Level? =
     activity?.let { a -> course.chapter(a.chapterId)?.let { course.levelOf(it) } }
@@ -146,6 +148,9 @@ fun LearnScreen(onOpenActivity: (String) -> Unit) {
                     contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 4.dp, bottom = 28.dp),
                     verticalArrangement = Arrangement.spacedBy(14.dp),
                 ) {
+                    if (level.chapters.isEmpty()) {
+                        item(key = "bientot") { LevelSoon() }
+                    }
                     items(level.chapters, key = { it.id }) { chapter ->
                         ChapterCard(
                             chapter = chapter,
@@ -176,17 +181,42 @@ private fun LevelHeader(course: Course, level: Level, fraction: Float, validated
             .padding(start = 20.dp, end = 20.dp, top = 12.dp, bottom = 14.dp),
     ) {
         Box {
+            val scheme = MaterialTheme.colorScheme
+            val pill = RoundedCornerShape(50)
             Row(
-                Modifier.clip(RoundedCornerShape(12.dp)).clickable { menu = true }.padding(vertical = 4.dp),
+                Modifier.clip(pill)
+                    .background(scheme.primary.copy(alpha = 0.09f))
+                    .border(1.dp, scheme.primary.copy(alpha = 0.28f), pill)
+                    .clickable { menu = true }
+                    .padding(start = 6.dp, end = 10.dp, top = 6.dp, bottom = 6.dp),
                 verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(10.dp),
             ) {
-                RichText(level.file.title, style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.Bold))
-                Icon(Icons.Filled.KeyboardArrowDown, contentDescription = stringResource(R.string.level_choose), modifier = Modifier.size(32.dp))
+                LevelBadge()
+                RichText(level.file.title, style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold))
+                Icon(
+                    Icons.Filled.KeyboardArrowDown,
+                    contentDescription = stringResource(R.string.level_choose),
+                    tint = scheme.primary,
+                    modifier = Modifier.size(22.dp),
+                )
             }
             DropdownMenu(expanded = menu, onDismissRequest = { menu = false }) {
                 course.levels.forEach { l ->
                     DropdownMenuItem(
-                        text = { RichText(l.file.title, style = MaterialTheme.typography.titleMedium) },
+                        leadingIcon = { LevelBadge() },
+                        text = {
+                            Column {
+                                RichText(l.file.title, style = MaterialTheme.typography.titleMedium)
+                                if (l.chapters.isEmpty()) {
+                                    Text(
+                                        stringResource(R.string.level_soon),
+                                        style = MaterialTheme.typography.bodySmall,
+                                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                    )
+                                }
+                            }
+                        },
                         onClick = {
                             menu = false
                             onChoose(l.id)
@@ -209,6 +239,16 @@ private fun LevelHeader(course: Course, level: Level, fraction: Float, validated
         Spacer(Modifier.height(12.dp))
         ProgressWithBadge(fraction)
     }
+}
+
+/** Pastille émeraude ornée d'une étoile à huit branches dorée : l'emblème d'un tome. */
+@Composable
+private fun LevelBadge() {
+    Box(
+        Modifier.size(30.dp)
+            .background(Brush.linearGradient(listOf(Brand.Emerald, Brand.EmeraldDeep)), CircleShape)
+            .drawBehind { eightPointStar(center, 9.dp.toPx(), Brand.Gold, 1.3.dp.toPx()) },
+    )
 }
 
 /** Durée à la minute près (« 5 min », « 1 h 05 », « 2 h »). */
@@ -246,6 +286,39 @@ private fun ProgressWithBadge(fraction: Float) {
             contentAlignment = Alignment.Center,
         ) {
             Text(stringResource(R.string.level_progress, percent), color = MaterialTheme.colorScheme.onPrimary, fontWeight = FontWeight.Bold, fontSize = 15.sp)
+        }
+    }
+}
+
+/** Tome dont les chapitres ne sont pas encore publiés. */
+@Composable
+private fun LevelSoon() {
+    val scheme = MaterialTheme.colorScheme
+    Surface(
+        shape = RoundedCornerShape(26.dp),
+        color = scheme.surface,
+        border = BorderStroke(1.dp, scheme.outlineVariant),
+        modifier = Modifier.fillMaxWidth(),
+    ) {
+        Column(
+            Modifier.fillMaxWidth()
+                .drawBehind { eightPointStar(Offset(size.width / 2, 56.dp.toPx()), 64.dp.toPx(), scheme.primary.copy(alpha = 0.12f), 2.dp.toPx()) }
+                .padding(horizontal = 24.dp, vertical = 40.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            Spacer(Modifier.height(64.dp))
+            Text(
+                stringResource(R.string.level_soon_title),
+                style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
+                textAlign = TextAlign.Center,
+            )
+            Text(
+                stringResource(R.string.level_soon_body),
+                style = MaterialTheme.typography.bodyLarge,
+                color = scheme.onSurfaceVariant,
+                textAlign = TextAlign.Center,
+            )
         }
     }
 }
