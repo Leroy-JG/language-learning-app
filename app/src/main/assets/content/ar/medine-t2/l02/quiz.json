@@ -1,0 +1,140 @@
+{
+  "id": "medine-t2.l02.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 2",
+  "screens": [
+    {
+      "id": "medine-t2.l02.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:laysa",
+      "distractors": ["w:inna", "w:laalla"]
+    },
+    {
+      "id": "medine-t2.l02.quiz#2",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:darasa",
+      "distractors": ["w:daraba", "w:kataba"]
+    },
+    {
+      "id": "medine-t2.l02.quiz#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|خَرَجْتُ}, que représente {ar|تُ} ?" },
+      "choices": [
+        { "fr": "le pronom « je », sujet du verbe" },
+        { "fr": "le pronom « tu », sujet du verbe" },
+        { "fr": "la marque du féminin" }
+      ],
+      "answer": 0,
+      "explain": "{ar|تُ} (avec une damma) est le pronom « je », collé au verbe."
+    },
+    {
+      "id": "medine-t2.l02.quiz#4",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} مِنَ الْمَدْرَسَةِ.",
+      "fr": "Nous sommes sortis de l'école.",
+      "gaps": [ { "answers": ["خَرَجْنَا"] } ],
+      "options": ["خَرَجْنَا", "خَرَجُوا", "خَرَجَتْ"]
+    },
+    {
+      "id": "medine-t2.l02.quiz#5",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|كَتَبُوا}, quelle voyelle porte le {ar|ب} ?" },
+      "choices": [ { "fr": "une damma" }, { "fr": "une fatha" }, { "fr": "un sukūn" } ],
+      "answer": 0,
+      "explain": "Devant le pronom « ils » ({ar|كَتَبُوا}), la fatha finale du verbe devient une damma."
+    },
+    {
+      "id": "medine-t2.l02.quiz#6",
+      "type": "fill_gap",
+      "sentence": "هُمْ {0} فِي الْجَامِعَةِ.",
+      "fr": "Ils ont étudié à l'université.",
+      "gaps": [ { "answers": ["دَرَسُوا"] } ],
+      "options": ["دَرَسُوا", "دَرَسَا", "دَرَسْنَ"]
+    },
+    {
+      "id": "medine-t2.l02.quiz#7",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|كَتَبُوا}, le {ar|ا} final est écrit mais ne se prononce pas." },
+      "answer": true,
+      "explain": "C'est un alif écrit après le {ar|و} du pluriel masculin : on lit « katabū »."
+    },
+    {
+      "id": "medine-t2.l02.quiz#8",
+      "type": "sort",
+      "categories": [ { "fr": "un nom apparent" }, { "fr": "un pronom collé" }, { "fr": "un pronom caché" } ],
+      "cards": [
+        { "ar": "خَرَجَ زَيْدٌ", "category": 0 },
+        { "ar": "ذَهَبْتُ", "category": 1 },
+        { "ar": "جَلَسَ", "category": 2 },
+        { "ar": "جَلَسَتِ الطَّالِبَةُ", "category": 0 },
+        { "ar": "خَرَجْتُمْ", "category": 1 },
+        { "ar": "نَجَحَتْ", "category": 2 }
+      ],
+      "instruction": "Quel est le sujet de chaque verbe ?"
+    },
+    {
+      "id": "medine-t2.l02.quiz#9",
+      "type": "question",
+      "prompt": { "fr": "Après {ar|لَيْسَ}, le prédicat est…" },
+      "choices": [ { "fr": "à l'accusatif" }, { "fr": "au nominatif" }, { "fr": "au génitif" } ],
+      "answer": 0,
+      "explain": "{ar|لَيْسَ زَيْدٌ طَالِبًا} : le sujet reste au nominatif, le prédicat passe à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l02.quiz#10",
+      "type": "fill_gap",
+      "sentence": "{0} الْقَلَمُ مَكْسُورًا.",
+      "fr": "Le stylo n'est pas cassé.",
+      "gaps": [ { "answers": ["لَيْسَ"] } ],
+      "options": ["لَيْسَ", "إِنَّ", "لَيْسَتْ"]
+    },
+    {
+      "id": "medine-t2.l02.quiz#11",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:masrur",
+      "distractors": ["w:hazin", "w:ghadban"]
+    },
+    {
+      "id": "medine-t2.l02.quiz#12",
+      "type": "fill_gap",
+      "sentence": "أَنْتُمْ {0} بِطُلَّابٍ.",
+      "fr": "Vous n'êtes pas étudiants. (à plusieurs hommes)",
+      "gaps": [ { "answers": ["لَسْتُمْ"] } ],
+      "options": ["لَسْتُمْ", "لَسْنَا", "لَيْسُوا", "لَسْتُنَّ"]
+    },
+    {
+      "id": "medine-t2.l02.quiz#13",
+      "type": "order",
+      "fr": "Nous ne sommes pas étudiants.",
+      "answers": [["نَحْنُ", "لَسْنَا", "بِطُلَّابٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l02.quiz#14",
+      "type": "fill_gap",
+      "sentence": "هِيَ {0} بِمُدَرِّسَةٍ.",
+      "fr": "Elle n'est pas enseignante.",
+      "gaps": [ { "answers": ["لَيْسَتْ"] } ],
+      "options": ["لَيْسَتْ", "لَيْسَ", "لَسْنَ"]
+    },
+    {
+      "id": "medine-t2.l02.quiz#15",
+      "type": "question",
+      "prompt": { "fr": "Combien de filles Hishām a-t-il ?" },
+      "choices": [ { "fr": "Cinq" }, { "fr": "Six" }, { "fr": "Trois" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l02.dialogue-2#1" },
+      "explain": "{ar|لِي خَمْسُ بَنَاتٍ}."
+    },
+    {
+      "id": "medine-t2.l02.quiz#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il n'est pas musulman.",
+      "answers": ["هُوَ لَيْسَ بِمُسْلِمٍ.", "هُوَ لَيْسَ مُسْلِمًا.", "لَيْسَ بِمُسْلِمٍ.", "لَيْسَ مُسْلِمًا."]
+    }
+  ]
+}

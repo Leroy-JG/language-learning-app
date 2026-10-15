@@ -1,0 +1,193 @@
+{
+  "id": "medine-t2.l02.grammar-6",
+  "type": "grammar",
+  "title": "{ar|لَيْسَ} : nier la phrase nominale",
+  "icon": "circle_red",
+  "screens": [
+    {
+      "id": "medine-t2.l02.grammar-6#1",
+      "type": "tip",
+      "title": "Deux familles d'abrogeants",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu as vu (chapitre 1) que les abrogeants ({ar|النَّوَاسِخُ}) sont des **verbes** ou des **particules**. Le professeur les range ainsi :"
+        },
+        {
+          "type": "table",
+          "header": ["Sorte", "Famille", "Exemple"],
+          "rows": [
+            [
+              "des verbes ({ar|أَفْعَالٌ})",
+              "{ar|كَانَ وَأَخَوَاتُهَا}",
+              "{ar|لَيْسَ زَيْدٌ جَالِسًا} (Zayd n'est pas assis)"
+            ],
+            [
+              "des particules ({ar|حُرُوفٌ})",
+              "{ar|إِنَّ وَأَخَوَاتُهَا}",
+              "{ar|إِنَّ زَيْدًا جَالِسٌ} (certes, Zayd est assis)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Tu connais déjà la seconde famille. Aujourd'hui, tu étudies le premier verbe de cette famille : {ar|لَيْسَ}."
+        }
+      ]
+    },
+    { "id": "medine-t2.l02.grammar-6#2", "type": "present", "item": "p:kana-wa-akhawatuha" },
+    { "id": "medine-t2.l02.grammar-6#3", "type": "present", "item": "w:laysa" },
+    {
+      "id": "medine-t2.l02.grammar-6#4",
+      "type": "tip",
+      "title": "Les deux rôles de {ar|لَيْسَ}",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|لَيْسَ} se place devant une phrase nominale et fait deux choses :" },
+        {
+          "type": "table",
+          "header": ["Rôle", "Effet"],
+          "rows": [
+            [
+              "Il **nie** la phrase nominale.",
+              "{ar|زَيْدٌ طَالِبٌ} (Zayd est étudiant) devient {ar|لَيْسَ زَيْدٌ طَالِبًا} (Zayd n'est pas étudiant)."
+            ],
+            [
+              "Il **change le statut** du sujet et du prédicat.",
+              "Le sujet reste au nominatif ; le prédicat passe à l'accusatif."
+            ]
+          ]
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "زَيْدٌ طَالِبٌ", "fr": "Zayd est étudiant" },
+              "to": { "ar": "لَيْسَ زَيْدٌ طَالِبًا", "fr": "Zayd n'est pas étudiant" },
+              "label": "la négation"
+            }
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t2.l02.grammar-6#5", "type": "present", "item": "w:ism-laysa" },
+    { "id": "medine-t2.l02.grammar-6#6", "type": "present", "item": "w:khabar-laysa" },
+    {
+      "id": "medine-t2.l02.grammar-6#7",
+      "type": "tip",
+      "title": "Analyser une phrase avec {ar|لَيْسَ}",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Phrase", "Le sujet", "Le prédicat"],
+          "rows": [
+            [
+              "{ar|زَيْدٌ طَالِبٌ}",
+              "{ar|زَيْدٌ} : {ar|الْمُبْتَدَأُ}, au nominatif",
+              "{ar|طَالِبٌ} : {ar|الْخَبَرُ}, au nominatif"
+            ],
+            [
+              "{ar|لَيْسَ زَيْدٌ طَالِبًا}",
+              "{ar|زَيْدٌ} : {ar|اِسْمُ لَيْسَ}, au nominatif",
+              "{ar|طَالِبًا} : {ar|خَبَرُ لَيْسَ}, à l'accusatif"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "L'ordre est : {ar|لَيْسَ}, son nom, puis son prédicat. Le sujet ne change pas de cas ; seul le prédicat passe à l'accusatif."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.grammar-6#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|لَيْسَ زَيْدٌ طَالِبًا}, quel est le cas de {ar|طَالِبًا} ?" },
+      "choices": [ { "fr": "l'accusatif" }, { "fr": "le nominatif" }, { "fr": "le génitif" } ],
+      "answer": 0,
+      "explain": "Le prédicat de {ar|لَيْسَ} est à l'accusatif ({ar|خَبَرُ لَيْسَ مَنْصُوبٌ}) : on le reconnaît à la fatha du tanwin."
+    },
+    {
+      "id": "medine-t2.l02.grammar-6#9",
+      "type": "tip",
+      "title": "La préposition {ar|بِ} devant le prédicat",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le prédicat de {ar|لَيْسَ} est souvent accompagné de la préposition {ar|بِ}. Les deux phrases ont le même sens :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "لَيْسَ زَيْدٌ جَالِسًا", "fr": "Zayd n'est pas assis" },
+              "to": { "ar": "لَيْسَ زَيْدٌ بِجَالِسٍ", "fr": "Zayd n'est pas assis" },
+              "label": "avec {ar|بِ}, le prédicat est au génitif"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sans {ar|بِ}, le prédicat est à l'accusatif ({ar|جَالِسًا}). Avec {ar|بِ}, il est au génitif ({ar|جَالِسٍ}), à cause de la préposition. Cette {ar|بِ} ne se traduit pas : elle renforce la négation."
+        },
+        {
+          "type": "note",
+          "text": "On ne met pas {ar|بِ} devant un groupe « préposition + nom » : {ar|هُوَ لَيْسَ مِنَ الْيَابَانِ} (« il n'est pas du Japon »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.grammar-6#10",
+      "type": "fill_gap",
+      "sentence": "{0} الْكِتَابُ جَدِيدًا.",
+      "fr": "Le livre n'est pas neuf.",
+      "gaps": [ { "answers": ["لَيْسَ"] } ],
+      "options": ["لَيْسَ", "إِنَّ", "لَعَلَّ"],
+      "explain": "Le prédicat {ar|جَدِيدًا} est à l'accusatif et le sujet {ar|الْكِتَابُ} au nominatif : c'est la marque de {ar|لَيْسَ}."
+    },
+    {
+      "id": "medine-t2.l02.grammar-6#11",
+      "type": "spot",
+      "instruction": "Touche le nom de {ar|لَيْسَ} (le sujet).",
+      "words": ["لَيْسَ", "الْبَابُ", "مَفْتُوحًا."],
+      "answers": [1],
+      "fr": "La porte n'est pas ouverte.",
+      "explain": "{ar|الْبَابُ} est le nom de {ar|لَيْسَ} : il reste au nominatif."
+    },
+    {
+      "id": "medine-t2.l02.grammar-6#12",
+      "type": "spot",
+      "instruction": "Touche le prédicat de {ar|لَيْسَ}.",
+      "words": ["لَيْسَ", "الْقَلَمُ", "مَكْسُورًا."],
+      "answers": [2],
+      "fr": "Le stylo n'est pas cassé.",
+      "explain": "{ar|مَكْسُورًا} est le prédicat de {ar|لَيْسَ} : il est à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l02.grammar-6#13",
+      "type": "question",
+      "prompt": { "fr": "Où se place la préposition {ar|بِ} dans une phrase avec {ar|لَيْسَ} ?" },
+      "choices": [
+        { "fr": "devant le prédicat de {ar|لَيْسَ}" },
+        { "fr": "devant le nom de {ar|لَيْسَ}" },
+        { "fr": "devant {ar|لَيْسَ} lui-même" }
+      ],
+      "answer": 0,
+      "explain": "{ar|بِ} se colle au prédicat, qui passe alors au génitif : {ar|لَيْسَ الْقَلَمُ بِمَكْسُورٍ}."
+    },
+    {
+      "id": "medine-t2.l02.grammar-6#14",
+      "type": "order",
+      "fr": "L'étudiant n'est pas assis.",
+      "answers": [["لَيْسَ", "الطَّالِبُ", "جَالِسًا"], ["الطَّالِبُ", "لَيْسَ", "جَالِسًا"]],
+      "punctuation": ".",
+      "explain": "Le nom peut aussi se placer avant {ar|لَيْسَ} : {ar|الطَّالِبُ لَيْسَ جَالِسًا}."
+    },
+    {
+      "id": "medine-t2.l02.grammar-6#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd n'est pas étudiant.",
+      "answers": ["لَيْسَ زَيْدٌ طَالِبًا.", "لَيْسَ زَيْدٌ بِطَالِبٍ.", "زَيْدٌ لَيْسَ طَالِبًا.", "زَيْدٌ لَيْسَ بِطَالِبٍ."]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "medine-t2.l02.grammar-3",
+  "type": "grammar",
+  "title": "Le pronom sujet collé au verbe",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l02.grammar-3#1",
+      "type": "tip",
+      "title": "Cinq caractéristiques",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le pronom collé du nominatif ({ar|الضَّمِيرُ الْمُتَّصِلُ الْمَرْفُوعُ}) est le sujet d'un verbe. Le professeur lui donne cinq caractéristiques :"
+        },
+        {
+          "type": "table",
+          "header": ["Il est…", "Ce que cela veut dire"],
+          "rows": [
+            [
+              "**invariable** ({ar|مَبْنِيٌّ})",
+              "il ne change pas selon le cas : il est toujours sujet (ses voyelles, comme dans {ar|تَ} et {ar|تِ}, indiquent la personne, pas le cas)"
+            ],
+            ["réservé au **verbe**", "on le colle à un verbe, jamais à un nom"],
+            [
+              "toujours **sujet**",
+              "c'est le sujet du verbe auquel il est collé : on l'appelle aussi « pronom sujet »"
+            ],
+            [
+              "variable selon le **temps**",
+              "sa forme dépend du temps du verbe : les formes du passé sont celles de ce cours"
+            ],
+            ["parfois **caché** ({ar|مُسْتَتِرٌ})", "dans {ar|خَرَجَ}, le « il » n'est écrit nulle part"]
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t2.l02.grammar-3#2", "type": "present", "item": "w:mustatir" },
+    {
+      "id": "medine-t2.l02.grammar-3#3",
+      "type": "tip",
+      "title": "Analyser un verbe et son pronom",
+      "blocks": [
+        { "type": "paragraph", "text": "Le professeur analyse deux phrases :" },
+        {
+          "type": "table",
+          "header": ["Phrase", "Le verbe", "Le pronom collé"],
+          "rows": [
+            ["{ar|خَرَجْتُ مِنَ الْمَدْرَسَةِ}", "{ar|خَرَجَ} : verbe au passé", "{ar|تُ} : sujet (« je »)"],
+            ["{ar|الطُّلَّابُ دَخَلُوا الْبَيْتَ}", "{ar|دَخَلَ} : verbe au passé", "{ar|وا} : sujet (« ils »)"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans la seconde phrase, {ar|الطُّلَّابُ} est le sujet de la phrase nominale ; son prédicat est la phrase verbale {ar|دَخَلُوا الْبَيْتَ}, dont le sujet est le pronom {ar|وا}. {ar|الْبَيْتَ} (« la maison ») est le complément du verbe, à l'accusatif : tu l'étudieras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.grammar-3#4",
+      "type": "tip",
+      "title": "Un seul sujet par verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un verbe n'a qu'un sujet : un pronom (collé ou caché) ou un nom apparent placé après lui. Quand le sujet est un nom apparent **après** le verbe, le verbe ne prend pas de pronom : il reste au singulier, au masculin ou au féminin selon le nom."
+        },
+        {
+          "type": "table",
+          "header": ["Le sujet est…", "Phrase", "Sens"],
+          "rows": [
+            ["un nom après le verbe", "{ar|خَرَجَ الطُّلَّابُ}", "les étudiants sont sortis"],
+            ["un nom après le verbe (féminin)", "{ar|خَرَجَتِ الطَّالِبَاتُ}", "les étudiantes sont sorties"],
+            ["un nom avant le verbe", "{ar|الطُّلَّابُ خَرَجُوا}", "les étudiants sont sortis"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Dans la dernière phrase, le nom vient avant : la phrase est nominale, et le verbe reprend le sujet par le pronom {ar|وا}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.grammar-3#5",
+      "type": "true_false",
+      "statement": { "fr": "Le pronom sujet collé peut se coller à un nom." },
+      "answer": false,
+      "explain": "Faux : il est réservé au verbe. Collé à un nom ({ar|كِتَابُكَ}), un pronom a un autre rôle (il est au génitif)."
+    },
+    {
+      "id": "medine-t2.l02.grammar-3#6",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|خَرَجْتُ مِنَ الْمَدْرَسَةِ}, quel est le sujet du verbe ?" },
+      "choices": [ { "fr": "le pronom collé {ar|تُ}" }, { "ar": "الْمَدْرَسَةِ" }, { "fr": "il n'y a pas de sujet" } ],
+      "answer": 0,
+      "explain": "{ar|تُ} est le pronom « je », collé à la fin du verbe : c'est le sujet. {ar|الْمَدْرَسَةِ} suit la préposition {ar|مِنْ}."
+    },
+    {
+      "id": "medine-t2.l02.grammar-3#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|خَرَجَ} (« il est sorti »), où est le pronom « il » ?" },
+      "choices": [
+        { "fr": "il est caché ({ar|مُسْتَتِرٌ}) dans le verbe" },
+        { "fr": "il est collé à la fin du verbe" },
+        { "fr": "il est écrit avant le verbe" }
+      ],
+      "answer": 0,
+      "explain": "Le sujet « il » n'a aucune lettre : il est sous-entendu dans le verbe."
+    },
+    {
+      "id": "medine-t2.l02.grammar-3#8",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mustatir",
+      "distractors": ["w:mabni", "w:muarab"]
+    },
+    {
+      "id": "medine-t2.l02.grammar-3#9",
+      "type": "true_false",
+      "statement": { "fr": "Tous les pronoms sujets collés sont invariables." },
+      "answer": true,
+      "explain": "Leur forme ne dépend pas du cas : ils sont toujours sujets. Les voyelles ({ar|تُ}, {ar|تَ}, {ar|تِ}) distinguent les personnes, pas les cas."
+    }
+  ]
+}

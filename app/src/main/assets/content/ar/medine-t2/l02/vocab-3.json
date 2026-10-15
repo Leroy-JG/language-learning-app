@@ -1,0 +1,91 @@
+{
+  "id": "medine-t2.l02.vocab-3",
+  "type": "vocabulary",
+  "title": "Les États-Unis",
+  "icon": "airplane",
+  "screens": [
+    { "id": "medine-t2.l02.vocab-3#1", "type": "present", "item": "p:wilayat-muttahida" },
+    {
+      "id": "medine-t2.l02.vocab-3#2",
+      "type": "tip",
+      "title": "Mot à mot",
+      "blocks": [
+        {
+          "type": "breakdown",
+          "ar": "الْوِلَايَاتُ الْمُتَّحِدَةُ",
+          "fr": "les États-Unis",
+          "parts": [ { "ar": "الْوِلَايَاتُ", "fr": "les États" }, { "ar": "الْمُتَّحِدَةُ", "fr": "unis" } ]
+        },
+        {
+          "type": "note",
+          "text": "Les États-Unis sont un pluriel de choses : l'adjectif {ar|الْمُتَّحِدَةُ} est au féminin singulier (tome 1, chapitre 16)."
+        }
+      ]
+    },
+    { "id": "medine-t2.l02.vocab-3#3", "type": "present", "item": "w:washintun" },
+    { "id": "medine-t2.l02.vocab-3#4", "type": "present", "item": "w:niyuyurk" },
+    {
+      "id": "medine-t2.l02.vocab-3#5",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:washintun",
+      "distractors": ["w:baris", "w:landan"]
+    },
+    {
+      "id": "medine-t2.l02.vocab-3#6",
+      "type": "tip",
+      "title": "Un nom propre étranger après {ar|مِنْ}",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "وَاشِنْطُنُ", "fr": "Washington" },
+              "to": { "ar": "مِنْ وَاشِنْطُنَ", "fr": "de Washington" },
+              "label": "après {ar|مِنْ}, fatha"
+            },
+            {
+              "from": { "ar": "نِيُويُورْكُ", "fr": "New York" },
+              "to": { "ar": "مِنْ نِيُويُورْكَ", "fr": "de New York" },
+              "label": "après {ar|مِنْ}, fatha"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Ces noms propres étrangers de plus de trois lettres n'ont pas de tanwin ; après une préposition, ils prennent la fatha (tome 1, chapitre 14)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.vocab-3#7",
+      "type": "fill_gap",
+      "sentence": "أَنَا مِنْ {0}.",
+      "fr": "Je viens de New York.",
+      "gaps": [ { "answers": ["نِيُويُورْكَ"] } ],
+      "options": ["نِيُويُورْكَ", "وَاشِنْطُنَ", "لَنْدَنَ"]
+    },
+    {
+      "id": "medine-t2.l02.vocab-3#8",
+      "type": "fill_gap",
+      "sentence": "هُوَ مِنْ {0}.",
+      "fr": "Il vient de Washington.",
+      "gaps": [ { "answers": ["وَاشِنْطُنَ"] } ],
+      "options": ["وَاشِنْطُنَ", "نِيُويُورْكَ", "بَارِيسَ"]
+    },
+    {
+      "id": "medine-t2.l02.vocab-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je viens de New York.",
+      "answers": ["أَنَا مِنْ نِيُويُورْكَ.", "إِنِّي مِنْ نِيُويُورْكَ."]
+    },
+    {
+      "id": "medine-t2.l02.vocab-3#10",
+      "type": "order",
+      "fr": "Il vient des États-Unis.",
+      "answers": [["هُوَ", "مِنَ", "الْوِلَايَاتِ", "الْمُتَّحِدَةِ"]],
+      "punctuation": "."
+    }
+  ]
+}

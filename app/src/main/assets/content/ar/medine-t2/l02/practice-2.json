@@ -1,0 +1,132 @@
+{
+  "id": "medine-t2.l02.practice-2",
+  "type": "grammar",
+  "title": "Nier avec {ar|لَيْسَ} (1)",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l02.practice-2#1",
+      "type": "typing",
+      "ask": "question",
+      "question": "السَّيَّارَةُ جَمِيلَةٌ.",
+      "answers": [
+        "السَّيَّارَةُ لَيْسَتْ جَمِيلَةً.",
+        "السَّيَّارَةُ لَيْسَتْ بِجَمِيلَةٍ.",
+        "لَيْسَتِ السَّيَّارَةُ جَمِيلَةً.",
+        "لَيْسَتِ السَّيَّارَةُ بِجَمِيلَةٍ."
+      ],
+      "fr": "La voiture n'est pas belle.",
+      "instruction": "Mets la phrase à la forme négative avec {ar|لَيْسَ}.",
+      "explain": "Le sujet est féminin : {ar|لَيْسَتْ}. Le prédicat est à l'accusatif ({ar|جَمِيلَةً}) ou, avec {ar|بِ}, au génitif ({ar|بِجَمِيلَةٍ})."
+    },
+    {
+      "id": "medine-t2.l02.practice-2#2",
+      "type": "fill_gap",
+      "sentence": "حَامِدٌ {0} بِطَالِبٍ.",
+      "fr": "Ḥāmid n'est pas étudiant.",
+      "gaps": [ { "answers": ["لَيْسَ"] } ],
+      "options": ["لَيْسَ", "لَيْسَتْ", "لَيْسُوا", "لَسْتُ"],
+      "explain": "Le sujet est un homme : {ar|لَيْسَ}."
+    },
+    {
+      "id": "medine-t2.l02.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "آمِنَةُ {0} بِطَبِيبَةٍ.",
+      "fr": "Āmina n'est pas médecin.",
+      "gaps": [ { "answers": ["لَيْسَتْ"] } ],
+      "options": ["لَيْسَتْ", "لَيْسَ", "لَسْنَ", "لَيْسَا"],
+      "explain": "Le sujet est une femme : {ar|لَيْسَتْ}."
+    },
+    {
+      "id": "medine-t2.l02.practice-2#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَنَا غَنِيٌّ.",
+      "answers": ["أَنَا لَسْتُ غَنِيًّا.", "أَنَا لَسْتُ بِغَنِيٍّ.", "لَسْتُ غَنِيًّا.", "لَسْتُ بِغَنِيٍّ."],
+      "fr": "Je ne suis pas riche.",
+      "instruction": "Mets la phrase à la forme négative avec {ar|لَيْسَ}."
+    },
+    {
+      "id": "medine-t2.l02.practice-2#5",
+      "type": "order",
+      "fr": "Les étudiants ne sont pas petits.",
+      "answers": [["الطُّلَّابُ", "لَيْسُوا", "بِصِغَارٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l02.practice-2#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَنْتَ فَقِيرٌ.",
+      "answers": ["أَنْتَ لَسْتَ فَقِيرًا.", "أَنْتَ لَسْتَ بِفَقِيرٍ.", "لَسْتَ فَقِيرًا.", "لَسْتَ بِفَقِيرٍ."],
+      "fr": "Tu n'es pas pauvre. (à un homme)",
+      "instruction": "Mets la phrase à la forme négative avec {ar|لَيْسَ}."
+    },
+    {
+      "id": "medine-t2.l02.practice-2#7",
+      "type": "fill_gap",
+      "sentence": "الْفَتَيَاتُ {0} بِمُتَزَوِّجَاتٍ.",
+      "fr": "Les jeunes filles ne sont pas mariées.",
+      "gaps": [ { "answers": ["لَسْنَ"] } ],
+      "options": ["لَسْنَ", "لَيْسُوا", "لَيْسَتْ", "لَيْسَا"],
+      "explain": "« Elles » : {ar|لَسْنَ}."
+    },
+    {
+      "id": "medine-t2.l02.practice-2#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "هِيَ مِنَ الْعِرَاقِ.",
+      "answers": ["هِيَ لَيْسَتْ مِنَ الْعِرَاقِ.", "لَيْسَتْ مِنَ الْعِرَاقِ."],
+      "fr": "Elle n'est pas d'Irak.",
+      "instruction": "Mets la phrase à la forme négative avec {ar|لَيْسَ}.",
+      "explain": "Devant un groupe « préposition + nom », on ne met pas {ar|بِ} : {ar|مِنَ الْعِرَاقِ} garde sa kasra."
+    },
+    {
+      "id": "medine-t2.l02.practice-2#9",
+      "type": "spot",
+      "instruction": "Touche le mot qui nie.",
+      "words": ["هُوَ", "لَيْسَ", "مِنَ", "الْيَابَانِ."],
+      "answers": [1],
+      "fr": "Il n'est pas du Japon."
+    },
+    {
+      "id": "medine-t2.l02.practice-2#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "نَحْنُ أَذْكِيَاءُ.",
+      "answers": [
+        "نَحْنُ لَسْنَا أَذْكِيَاءَ.",
+        "نَحْنُ لَسْنَا بِأَذْكِيَاءَ.",
+        "لَسْنَا أَذْكِيَاءَ.",
+        "لَسْنَا بِأَذْكِيَاءَ."
+      ],
+      "fr": "Nous ne sommes pas intelligents.",
+      "instruction": "Mets la phrase à la forme négative avec {ar|لَيْسَ}.",
+      "explain": "{ar|أَذْكِيَاءُ} n'a pas de tanwin : à l'accusatif comme après {ar|بِ}, il prend la fatha ({ar|أَذْكِيَاءَ})."
+    },
+    {
+      "id": "medine-t2.l02.practice-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il n'est pas commerçant.",
+      "answers": ["هُوَ لَيْسَ بِتَاجِرٍ.", "هُوَ لَيْسَ تَاجِرًا."]
+    },
+    {
+      "id": "medine-t2.l02.practice-2#12",
+      "type": "question",
+      "prompt": { "fr": "Quelle phrase nie « Il est célibataire » ?" },
+      "choices": [ { "ar": "هُوَ لَيْسَ بِعَزَبٍ." }, { "ar": "هُوَ لَيْسَتْ بِعَزَبٍ." }, { "ar": "هُوَ لَسْتُ بِعَزَبٍ." } ],
+      "answer": 0,
+      "explain": "Le sujet {ar|هُوَ} (« il ») demande {ar|لَيْسَ}."
+    },
+    {
+      "id": "medine-t2.l02.practice-2#13",
+      "type": "typing",
+      "ask": "question",
+      "question": "هُوَ عَزَبٌ.",
+      "answers": ["هُوَ لَيْسَ عَزَبًا.", "هُوَ لَيْسَ بِعَزَبٍ.", "لَيْسَ عَزَبًا.", "لَيْسَ بِعَزَبٍ."],
+      "fr": "Il n'est pas célibataire.",
+      "instruction": "Mets la phrase à la forme négative avec {ar|لَيْسَ}."
+    }
+  ]
+}

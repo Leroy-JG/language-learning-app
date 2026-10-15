@@ -1,0 +1,81 @@
+{
+  "id": "medine-t2.l02.vocab-1",
+  "type": "vocabulary",
+  "title": "Frapper et étudier",
+  "icon": "teacher",
+  "screens": [
+    { "id": "medine-t2.l02.vocab-1#1", "type": "present", "item": "w:daraba" },
+    { "id": "medine-t2.l02.vocab-1#2", "type": "present", "item": "w:darasa" },
+    {
+      "id": "medine-t2.l02.vocab-1#3",
+      "type": "tip",
+      "title": "Leurs quatre formes (aperçu)",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Verbe", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["{ar|ضَرَبَ} (il a frappé)", "{ar|يَضْرِبُ}", "{ar|اِضْرِبْ}", "{ar|ضَرْبٌ}"],
+            ["{ar|دَرَسَ} (il a étudié)", "{ar|يَدْرُسُ}", "{ar|اُدْرُسْ}", "{ar|دِرَاسَةٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le présent et l'impératif ne sont qu'un aperçu : tu les étudieras plus tard. {ar|دَرْسٌ} (« une leçon ») est lui aussi un nom d'action de {ar|دَرَسَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.vocab-1#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:daraba",
+      "distractors": ["w:akala", "w:kharaja"]
+    },
+    {
+      "id": "medine-t2.l02.vocab-1#5",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:darasa",
+      "distractors": ["w:dhahaba", "w:jalasa"]
+    },
+    {
+      "id": "medine-t2.l02.vocab-1#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:daraba", "w:darasa", "w:kataba", "w:akala"]
+    },
+    {
+      "id": "medine-t2.l02.vocab-1#7",
+      "type": "question",
+      "prompt": { "fr": "Quel mot est de la même famille que {ar|دَرَسَ} ?" },
+      "choices": [ { "ar": "دَرْسٌ" }, { "ar": "دَفْتَرٌ" }, { "ar": "دُكَّانٌ" } ],
+      "answer": 0,
+      "explain": "{ar|دَرَسَ} (« il a étudié ») et {ar|دَرْسٌ} (« une leçon ») partagent les mêmes trois lettres : {ar|د ر س}."
+    },
+    { "id": "medine-t2.l02.vocab-1#8", "type": "build", "item": "w:darasa", "extra": ["ذ", "ص"] },
+    {
+      "id": "medine-t2.l02.vocab-1#9",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ فِي الْجَامِعَةِ.",
+      "fr": "Zayd a étudié à l'université.",
+      "gaps": [ { "answers": ["دَرَسَ"] } ],
+      "options": ["دَرَسَ", "ضَرَبَ", "نَجَحَ"]
+    },
+    { "id": "medine-t2.l02.vocab-1#10", "type": "typing", "ask": "fr", "item": "w:daraba" },
+    {
+      "id": "medine-t2.l02.vocab-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai étudié à l'université.",
+      "answers": ["دَرَسْتُ فِي الْجَامِعَةِ."]
+    },
+    {
+      "id": "medine-t2.l02.vocab-1#12",
+      "type": "order",
+      "fr": "Nous avons étudié à l'université.",
+      "answers": [["نَحْنُ", "دَرَسْنَا", "فِي", "الْجَامِعَةِ"]],
+      "punctuation": "."
+    }
+  ]
+}
