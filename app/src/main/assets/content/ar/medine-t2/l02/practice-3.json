@@ -19,7 +19,7 @@
       ],
       "fr": "Non, mon père n'est pas ingénieur.",
       "instruction": "Réponds par la négative avec {ar|لَيْسَ} : ton père n'est pas ingénieur.",
-      "explain": "{ar|أَبُوكَ} (« ton père ») devient {ar|أَبِي} (« mon père »)."
+      "explain": "{ar|أَبُوكَ} (« ton père ») devient {ar|أَبِي} (« mon père »). Devant {ar|ي} (« mon, ma, mes »), la dernière lettre du nom porte toujours une kasra : {ar|أَبِي} est pourtant bien au nominatif (c'est le sujet), comme {ar|إِخْوَتِي} et {ar|أَخَوَاتِي}."
     },
     {
       "id": "medine-t2.l02.practice-3#2",
@@ -146,7 +146,12 @@
       "type": "typing",
       "ask": "question",
       "question": "أَنْتُنَّ طَالِبَاتٌ جُدُدٌ.",
-      "answers": ["أَنْتُنَّ لَسْتُنَّ طَالِبَاتٍ جُدُدًا.", "أَنْتُنَّ لَسْتُنَّ بِطَالِبَاتٍ جُدُدٍ."],
+      "answers": [
+        "أَنْتُنَّ لَسْتُنَّ طَالِبَاتٍ جُدُدًا.",
+        "أَنْتُنَّ لَسْتُنَّ بِطَالِبَاتٍ جُدُدٍ.",
+        "لَسْتُنَّ طَالِبَاتٍ جُدُدًا.",
+        "لَسْتُنَّ بِطَالِبَاتٍ جُدُدٍ."
+      ],
       "fr": "Vous n'êtes pas de nouvelles étudiantes. (à plusieurs femmes)",
       "instruction": "Mets la phrase à la forme négative avec {ar|لَيْسَ}.",
       "explain": "Le prédicat est « nom + adjectif » : les deux mots changent ensemble ({ar|طَالِبَاتٍ جُدُدًا} ou {ar|بِطَالِبَاتٍ جُدُدٍ})."
@@ -156,7 +161,7 @@
       "type": "typing",
       "ask": "question",
       "question": "أَنْتُمْ كِبَارٌ.",
-      "answers": ["أَنْتُمْ لَسْتُمْ كِبَارًا.", "أَنْتُمْ لَسْتُمْ بِكِبَارٍ."],
+      "answers": ["أَنْتُمْ لَسْتُمْ كِبَارًا.", "أَنْتُمْ لَسْتُمْ بِكِبَارٍ.", "لَسْتُمْ كِبَارًا.", "لَسْتُمْ بِكِبَارٍ."],
       "fr": "Vous n'êtes pas grands. (à plusieurs hommes)",
       "instruction": "Mets la phrase à la forme négative avec {ar|لَيْسَ}."
     },
@@ -165,7 +170,7 @@
       "type": "typing",
       "ask": "question",
       "question": "الْمُدَرِّسُونَ فِي الْفُصُولِ.",
-      "answers": ["الْمُدَرِّسُونَ لَيْسُوا فِي الْفُصُولِ."],
+      "answers": ["الْمُدَرِّسُونَ لَيْسُوا فِي الْفُصُولِ.", "لَيْسَ الْمُدَرِّسُونَ فِي الْفُصُولِ."],
       "fr": "Les enseignants ne sont pas dans les classes.",
       "instruction": "Mets la phrase à la forme négative avec {ar|لَيْسَ}.",
       "explain": "Devant « préposition + nom », pas de {ar|بِ} ; {ar|لَيْسُوا} s'accorde avec {ar|الْمُدَرِّسُونَ}."

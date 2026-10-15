@@ -31,7 +31,7 @@
         },
         {
           "type": "note",
-          "text": "Tu connais déjà la seconde famille. Aujourd'hui, tu étudies le premier verbe de la première : {ar|لَيْسَ}."
+          "text": "Tu connais déjà la seconde famille. Aujourd'hui, tu étudies le premier verbe de cette famille : {ar|لَيْسَ}."
         }
       ]
     },
@@ -178,15 +178,16 @@
       "id": "medine-t2.l02.grammar-6#14",
       "type": "order",
       "fr": "L'étudiant n'est pas assis.",
-      "answers": [["لَيْسَ", "الطَّالِبُ", "جَالِسًا"]],
-      "punctuation": "."
+      "answers": [["لَيْسَ", "الطَّالِبُ", "جَالِسًا"], ["الطَّالِبُ", "لَيْسَ", "جَالِسًا"]],
+      "punctuation": ".",
+      "explain": "Le nom peut aussi se placer avant {ar|لَيْسَ} : {ar|الطَّالِبُ لَيْسَ جَالِسًا}."
     },
     {
       "id": "medine-t2.l02.grammar-6#15",
       "type": "typing",
       "ask": "fr",
       "fr": "Zayd n'est pas étudiant.",
-      "answers": ["لَيْسَ زَيْدٌ طَالِبًا.", "لَيْسَ زَيْدٌ بِطَالِبٍ."]
+      "answers": ["لَيْسَ زَيْدٌ طَالِبًا.", "لَيْسَ زَيْدٌ بِطَالِبٍ.", "زَيْدٌ لَيْسَ طَالِبًا.", "زَيْدٌ لَيْسَ بِطَالِبٍ."]
     }
   ]
 }

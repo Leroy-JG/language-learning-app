@@ -9,7 +9,12 @@
       "type": "typing",
       "ask": "question",
       "question": "السَّيَّارَةُ جَمِيلَةٌ.",
-      "answers": ["السَّيَّارَةُ لَيْسَتْ جَمِيلَةً.", "السَّيَّارَةُ لَيْسَتْ بِجَمِيلَةٍ."],
+      "answers": [
+        "السَّيَّارَةُ لَيْسَتْ جَمِيلَةً.",
+        "السَّيَّارَةُ لَيْسَتْ بِجَمِيلَةٍ.",
+        "لَيْسَتِ السَّيَّارَةُ جَمِيلَةً.",
+        "لَيْسَتِ السَّيَّارَةُ بِجَمِيلَةٍ."
+      ],
       "fr": "La voiture n'est pas belle.",
       "instruction": "Mets la phrase à la forme négative avec {ar|لَيْسَ}.",
       "explain": "Le sujet est féminin : {ar|لَيْسَتْ}. Le prédicat est à l'accusatif ({ar|جَمِيلَةً}) ou, avec {ar|بِ}, au génitif ({ar|بِجَمِيلَةٍ})."
@@ -37,7 +42,7 @@
       "type": "typing",
       "ask": "question",
       "question": "أَنَا غَنِيٌّ.",
-      "answers": ["أَنَا لَسْتُ غَنِيًّا.", "أَنَا لَسْتُ بِغَنِيٍّ."],
+      "answers": ["أَنَا لَسْتُ غَنِيًّا.", "أَنَا لَسْتُ بِغَنِيٍّ.", "لَسْتُ غَنِيًّا.", "لَسْتُ بِغَنِيٍّ."],
       "fr": "Je ne suis pas riche.",
       "instruction": "Mets la phrase à la forme négative avec {ar|لَيْسَ}."
     },
@@ -53,7 +58,7 @@
       "type": "typing",
       "ask": "question",
       "question": "أَنْتَ فَقِيرٌ.",
-      "answers": ["أَنْتَ لَسْتَ فَقِيرًا.", "أَنْتَ لَسْتَ بِفَقِيرٍ."],
+      "answers": ["أَنْتَ لَسْتَ فَقِيرًا.", "أَنْتَ لَسْتَ بِفَقِيرٍ.", "لَسْتَ فَقِيرًا.", "لَسْتَ بِفَقِيرٍ."],
       "fr": "Tu n'es pas pauvre. (à un homme)",
       "instruction": "Mets la phrase à la forme négative avec {ar|لَيْسَ}."
     },
@@ -71,7 +76,7 @@
       "type": "typing",
       "ask": "question",
       "question": "هِيَ مِنَ الْعِرَاقِ.",
-      "answers": ["هِيَ لَيْسَتْ مِنَ الْعِرَاقِ."],
+      "answers": ["هِيَ لَيْسَتْ مِنَ الْعِرَاقِ.", "لَيْسَتْ مِنَ الْعِرَاقِ."],
       "fr": "Elle n'est pas d'Irak.",
       "instruction": "Mets la phrase à la forme négative avec {ar|لَيْسَ}.",
       "explain": "Devant un groupe « préposition + nom », on ne met pas {ar|بِ} : {ar|مِنَ الْعِرَاقِ} garde sa kasra."
@@ -89,7 +94,12 @@
       "type": "typing",
       "ask": "question",
       "question": "نَحْنُ أَذْكِيَاءُ.",
-      "answers": ["نَحْنُ لَسْنَا أَذْكِيَاءَ.", "نَحْنُ لَسْنَا بِأَذْكِيَاءَ."],
+      "answers": [
+        "نَحْنُ لَسْنَا أَذْكِيَاءَ.",
+        "نَحْنُ لَسْنَا بِأَذْكِيَاءَ.",
+        "لَسْنَا أَذْكِيَاءَ.",
+        "لَسْنَا بِأَذْكِيَاءَ."
+      ],
       "fr": "Nous ne sommes pas intelligents.",
       "instruction": "Mets la phrase à la forme négative avec {ar|لَيْسَ}.",
       "explain": "{ar|أَذْكِيَاءُ} n'a pas de tanwin : à l'accusatif comme après {ar|بِ}, il prend la fatha ({ar|أَذْكِيَاءَ})."
@@ -114,7 +124,7 @@
       "type": "typing",
       "ask": "question",
       "question": "هُوَ عَزَبٌ.",
-      "answers": ["هُوَ لَيْسَ عَزَبًا.", "هُوَ لَيْسَ بِعَزَبٍ."],
+      "answers": ["هُوَ لَيْسَ عَزَبًا.", "هُوَ لَيْسَ بِعَزَبٍ.", "لَيْسَ عَزَبًا.", "لَيْسَ بِعَزَبٍ."],
       "fr": "Il n'est pas célibataire.",
       "instruction": "Mets la phrase à la forme négative avec {ar|لَيْسَ}."
     }

@@ -106,7 +106,7 @@
       "type": "mcq",
       "mode": "ar-fr",
       "item": "w:damir-muttasil-marfu",
-      "distractors": ["w:damir-muttasil", "w:damir-munfasil"],
+      "distractors": ["w:damir-munfasil", "w:ism-ishara"],
       "explain": "{ar|الضَّمِيرُ الْمُتَّصِلُ الْمَرْفُوعُ} : le pronom collé du nominatif, c'est-à-dire le sujet du verbe auquel il est collé."
     },
     {

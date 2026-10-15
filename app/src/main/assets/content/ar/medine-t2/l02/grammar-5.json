@@ -47,7 +47,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Quand le pronom sujet est {ar|وا} (« ils », plusieurs hommes), la lettre qui le précède prend une **damma**, quelle que soit sa voyelle d'origine :"
+          "text": "Au passé, la 3e personne du masculin singulier se termine toujours par une fatha ({ar|كَتَبَ}, {ar|حَفِظَ}). Quand le pronom sujet est {ar|وا} (« ils », plusieurs hommes), cette fatha finale devient une **damma** :"
         },
         {
           "type": "compare",
@@ -60,7 +60,7 @@
             {
               "from": { "ar": "حَفِظَ", "fr": "il a mémorisé" },
               "to": { "ar": "حَفِظُوا", "fr": "ils ont mémorisé" },
-              "label": "la kasra devient damma"
+              "label": "la fatha du {ar|ظ} devient damma ; la kasra du {ar|ف} ne change pas"
             }
           ]
         },
@@ -112,7 +112,7 @@
       "prompt": { "fr": "Dans {ar|كَتَبُوا}, quelle voyelle porte le {ar|ب} ?" },
       "choices": [ { "fr": "une damma" }, { "fr": "une fatha" }, { "fr": "un sukūn" } ],
       "answer": 0,
-      "explain": "Devant le pronom « ils », la lettre qui précède prend toujours une damma."
+      "explain": "Devant le pronom « ils », la fatha finale du verbe devient une damma (dans les verbes réguliers vus ici)."
     },
     {
       "id": "medine-t2.l02.grammar-5#6",

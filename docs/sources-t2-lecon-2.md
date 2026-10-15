@@ -97,3 +97,17 @@ Le chapitre suit `docs/tome2-vue-densemble.md` (cours 2 : pronoms sujets collés
 l'introduction « le verbe, 1re partie » du PDF 2a est rattachée à ce cours (hypothèse du plan, confirmée par l'ordre des diapositives).
 Le tableau des douze formes de `كَتَبَ` (`grammar-4`) et celui de `لَيْسَ` (`grammar-7`) sont les tableaux de référence ; les cours suivants
 (présent, cours 11) les complètent plutôt que de les redonner.
+
+## Corrections faites après la relecture (3 relecteurs)
+
+- `حَفِظَ → حَفِظُوا` : c'est la fatha du `ظ` (dernière lettre) qui devient damma, la kasra du `ف` ne change pas (légende fausse corrigée) ;
+  la règle est donnée « pour les verbes réguliers vus ici » (les verbes défectueux comme `دَعَا → دَعَوْا` gardent la fatha : non enseigné).
+- `practice-4` : le trou était avant un sujet nom (`لَيْسُوا أَبْنَاؤُهُ`), ce qui contredit « le verbe reste au singulier » ; le sujet passe avant le trou.
+- Réponses acceptées ajoutées : `لَيْسَ` après le sujet (`زَيْدٌ لَيْسَ طَالِبًا`), `لَيْسَتِ السَّيَّارَةُ …`, réponses sans pronom sujet,
+  `إِنَّ لِي فِي الْمَصْرِفِ أَلْفَ دُولَارٍ`, `عِنْدَهُ ثَلَاثُ أَخَوَاتٍ`, `هِشَامٌ مِنْ نِيُويُورْكَ`.
+- Notes ajoutées : `لَيْسَ` placé après le sujet (il cache un pronom, s'accorde avec le sujet) ; chute du `ي` de `لَيْسَ` devant les
+  terminaisons commençant par `ت` ou `ن` ; `أَبِي` / `إِخْوَتِي` sont au nominatif malgré la kasra devant `ي` ; `لَيْسَ فِي` + nom indéfini ;
+  prédicat avancé de `إِنَّ لِي …` (usage quand le sujet est indéfini).
+- Distracteur partiellement vrai (`الضَّمِيرُ الْمُتَّصِلُ`) retiré du QCM de `grammar-2`.
+- Gardé : le tri passé / présent / impératif de `revue-1` (la reconnaissance des trois formes est enseignée au tome 1, chapitres 1 et 8 ;
+  seule la conjugaison du présent ne l'est pas).

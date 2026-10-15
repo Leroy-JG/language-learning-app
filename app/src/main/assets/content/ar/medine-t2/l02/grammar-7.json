@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "{ar|لَيْسَ} n'existe qu'à cette forme (il n'a ni présent ni impératif), mais il se conjugue comme un verbe du passé, avec les pronoms collés que tu viens d'apprendre. Devant un pronom qui commence par une consonne, le {ar|ي} tombe et le {ar|س} prend un sukūn :"
+          "text": "{ar|لَيْسَ} n'existe qu'à cette forme (il n'a ni présent ni impératif), mais il se conjugue comme un verbe du passé, avec les pronoms collés que tu viens d'apprendre. Devant les terminaisons qui commencent par {ar|ت} ou {ar|ن} ({ar|تُ}, {ar|تَ}, {ar|تِ}, {ar|تُمَا}, {ar|تُمْ}, {ar|تُنَّ}, {ar|نَا}, {ar|نَ}), le {ar|ي} tombe et le {ar|س} prend un sukūn ; devant {ar|ا}, {ar|وا} et {ar|تْ}, il reste :"
         },
         {
           "type": "table",
@@ -71,6 +71,10 @@
         {
           "type": "note",
           "text": "Dans toutes ces phrases, {ar|بِ} est facultative : sans elle, le prédicat est à l'accusatif ({ar|أَنَا لَسْتُ مُدَرِّسًا})."
+        },
+        {
+          "type": "note",
+          "text": "Ici le nom vient **avant** {ar|لَيْسَ} : c'est le sujet d'une phrase nominale, et {ar|لَيْسَ} cache un pronom (« il ») ; le prédicat est {ar|لَيْسَ بِطَالِبٍ}. C'est pourquoi {ar|لَيْسَ} s'accorde avec le sujet : {ar|آمِنَةُ لَيْسَتْ}, {ar|الطُّلَّابُ لَيْسُوا}. Quand {ar|لَيْسَ} est en tête ({ar|لَيْسَ زَيْدٌ طَالِبًا}), il reste au singulier devant un nom."
         }
       ]
     },

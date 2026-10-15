@@ -43,7 +43,7 @@
       "prompt": { "fr": "Dans {ar|كَتَبُوا}, quelle voyelle porte le {ar|ب} ?" },
       "choices": [ { "fr": "une damma" }, { "fr": "une fatha" }, { "fr": "un sukūn" } ],
       "answer": 0,
-      "explain": "Devant le pronom « ils » ({ar|كَتَبُوا}), la lettre qui précède prend une damma."
+      "explain": "Devant le pronom « ils » ({ar|كَتَبُوا}), la fatha finale du verbe devient une damma."
     },
     {
       "id": "medine-t2.l02.quiz#6",

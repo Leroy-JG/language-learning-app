@@ -25,7 +25,7 @@
         },
         {
           "type": "note",
-          "text": "L'ordre d'origine est {ar|إِنَّ ثَلَاثَ أَخَوَاتٍ لِي} : le prédicat {ar|لِي} a été avancé. Après {ar|إِنَّ}, le sujet passe à l'accusatif : {ar|ثَلَاثُ} devient {ar|ثَلَاثَ}."
+          "text": "Le professeur donne l'ordre d'origine : {ar|إِنَّ ثَلَاثَ أَخَوَاتٍ لِي}. On avance le prédicat {ar|لِي} devant le sujet, comme on le fait d'ordinaire quand le sujet est indéfini. Après {ar|إِنَّ}, le sujet passe à l'accusatif : {ar|ثَلَاثُ} devient {ar|ثَلَاثَ}."
         }
       ]
     },
@@ -65,7 +65,10 @@
       "id": "medine-t2.l02.practice-5#5",
       "type": "order",
       "fr": "Certes, j'ai mille dollars à la banque.",
-      "answers": [["إِنَّ", "لِي", "أَلْفَ", "دُولَارٍ", "فِي", "الْمَصْرِفِ"]],
+      "answers": [
+        ["إِنَّ", "لِي", "أَلْفَ", "دُولَارٍ", "فِي", "الْمَصْرِفِ"],
+        ["إِنَّ", "لِي", "فِي", "الْمَصْرِفِ", "أَلْفَ", "دُولَارٍ"]
+      ],
       "punctuation": "."
     },
     {
