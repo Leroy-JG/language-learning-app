@@ -42,21 +42,6 @@
     },
     {
       "id": "medine-t2.l04.grammar-1#6",
-      "type": "sort",
-      "categories": [ { "fr": "une question : {ar|مَا} interrogatif" }, { "fr": "une négation : {ar|مَا} négatif" } ],
-      "cards": [
-        { "ar": "مَا هٰذَا؟", "category": 0 },
-        { "ar": "مَا ذَهَبَ زَيْدٌ.", "category": 1 },
-        { "ar": "مَا اسْمُكَ؟", "category": 0 },
-        { "ar": "مَا رَجَعْتُ.", "category": 1 },
-        { "ar": "مَا هٰذَا الْكِتَابُ؟", "category": 0 },
-        { "ar": "مَا زَيْدٌ فِي الْفَصْلِ.", "category": 1 }
-      ],
-      "instruction": "Une question ou une négation ?",
-      "explain": "Une phrase qui pose une question (avec un point d'interrogation) a le {ar|مَا} interrogatif. Une phrase qui affirme qu'une chose n'est pas ou n'a pas eu lieu a le {ar|مَا} négatif."
-    },
-    {
-      "id": "medine-t2.l04.grammar-1#7",
       "type": "tip",
       "title": "Comment les reconnaître ?",
       "blocks": [
@@ -76,6 +61,21 @@
           "text": "Un verbe peut aussi suivre le {ar|مَا} interrogatif : {ar|مَا فَعَلْتَ؟} veut dire « Qu'as-tu fait ? ». C'est donc bien le sens et la ponctuation qui tranchent, pas seulement le mot qui suit {ar|مَا}."
         }
       ]
+    },
+    {
+      "id": "medine-t2.l04.grammar-1#7",
+      "type": "sort",
+      "categories": [ { "fr": "une question : {ar|مَا} interrogatif" }, { "fr": "une négation : {ar|مَا} négatif" } ],
+      "cards": [
+        { "ar": "مَا هٰذَا؟", "category": 0 },
+        { "ar": "مَا ذَهَبَ زَيْدٌ.", "category": 1 },
+        { "ar": "مَا اسْمُكَ؟", "category": 0 },
+        { "ar": "مَا رَجَعْتُ.", "category": 1 },
+        { "ar": "مَا هٰذَا الْكِتَابُ؟", "category": 0 },
+        { "ar": "مَا زَيْدٌ فِي الْفَصْلِ.", "category": 1 }
+      ],
+      "instruction": "Une question ou une négation ?",
+      "explain": "Une phrase qui pose une question (avec un point d'interrogation) a le {ar|مَا} interrogatif. Une phrase qui affirme qu'une chose n'est pas ou n'a pas eu lieu a le {ar|مَا} négatif."
     },
     {
       "id": "medine-t2.l04.grammar-1#8",

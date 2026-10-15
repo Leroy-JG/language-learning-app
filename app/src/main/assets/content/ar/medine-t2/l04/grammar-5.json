@@ -12,7 +12,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "{ar|لِأَنَّ} (« parce que ») s'écrit en un seul mot, mais c'est {ar|لِ} + {ar|أَنَّ}. Et {ar|أَنَّ} est une sœur de {ar|إِنَّ} : le nom qui suit est donc à l'**accusatif**, et son prédicat reste au **nominatif**."
+          "text": "{ar|لِأَنَّ} (« parce que ») s'écrit en un seul mot, mais c'est {ar|لِ} + {ar|أَنَّ}. Et {ar|أَنَّ} est une sœur de {ar|إِنَّ} : le nom qui suit est donc à l'**accusatif**, et son prédicat reste au **nominatif**. Elle est suivie d'un nom ou d'un pronom collé, jamais directement d'un verbe : {ar|لِأَنَّهُ ذَهَبَ} (« parce qu'il est allé »), et non {ar|لِأَنَّ ذَهَبَ}."
         },
         {
           "type": "breakdown",

@@ -100,3 +100,14 @@ Le présent et l'impératif de `اِسْتَدْرَكَ` / `شَبَّهَ` (ap
 
 Le chapitre suit `docs/tome2-vue-densemble.md` (cours 4 : `مَا` négatif et interrogatif). Le support y ajoute la fin du cours 3 (`لَكِنَّ`, `كَأَنَّ` et leurs exercices), déjà publiée au
 chapitre 3 : les exercices 6 et 7 du livre ne figuraient pas à ce chapitre et sont donc repris ici (`practice-1`, `practice-2`).
+
+## Corrections faites après la relecture (3 relecteurs : arabe, exercices, français et pédagogie)
+
+- **Arabe** : aucune erreur ; le pluriel `أَبْؤُسٌ` est repris du PDF sans s'appuyer sur le proverbe (voir plus haut).
+- **Réponses justes ajoutées** : ordre avec le sujet en tête (`زَيْدٌ مَا ذَهَبَ…`), `الْيَوْمَ` avant le complément, `كَبِيرٌ` à la place de `كَثِيرٌ` (« grand »), produit complet des variantes pour la mère d'Ibrāhīm
+  (`أُمُّهُ`, `إِلَى أُخْتِهَا زَيْنَبَ`…) et pour « quand est-il rentré ? » (avec `مِنَ الْمَدْرَسَةِ`), réponses négatives avec `أَنَا`, avec le sujet en tête et avec `لَا،`, formes courtes acceptées partout.
+- **Explications précisées** : `grammar-3` (le prédicat reste au nominatif, damma seulement pour un nom comme `عَالِمٌ` ; `لَيْسَ` est un verbe ; usage tamīmī / ḥijāzī de `مَا`), `practice-5` (accord complet
+  seulement pour un sujet de personnes ; le verbe en tête s'accorde en genre), `grammar-2` (le passé se nie aussi avec `لَمْ`), `vocab-3` (« par exemple pour rassurer un malade »).
+- **Ordre pédagogique** : dans `grammar-1`, l'astuce « Comment les reconnaître ? » passe avant le jeu de rangement.
+- **Explications d'oral ajoutées** : la fatha de `بَأْسَ` après `لَا` (`لَا` qui nie le genre entier, règle annoncée pour plus tard) ; `لِأَنَّ` n'est jamais suivie directement d'un verbe.
+- **Gardé** : `كَثِيرٌ` au singulier pour des étudiants (exercice 6 du livre, usage attesté) ; `قَوِيَّةٌ` traduit « solide » pour une voiture ; `مَكْتَبَةٌ` « bibliothèque, librairie ».

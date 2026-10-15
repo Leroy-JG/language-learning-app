@@ -41,8 +41,13 @@
         },
         {
           "type": "note",
+          "tone": "info",
+          "text": "Dans {ar|لَا بَأْسَ}, le nom {ar|بَأْسَ} porte une fatha et n'a pas de tanwin : {ar|لَا} nie ici le genre entier (« aucun mal »). Tu étudieras cette règle plus tard."
+        },
+        {
+          "type": "note",
           "tone": "culture",
-          "text": "On dit {ar|لَا بَأْسَ} surtout pour rassurer un malade. On rapporte (al-Bukhārī) que le Prophète (que la paix soit sur lui) disait à un malade : {ar|لَا بَأْسَ، طَهُورٌ إِنْ شَاءَ اللَّهُ} (« Ce n'est pas grave : c'est une purification, si Allah le veut »)."
+          "text": "On dit {ar|لَا بَأْسَ} par exemple pour rassurer un malade. On rapporte (al-Bukhārī) que le Prophète (que la paix soit sur lui) disait à un malade : {ar|لَا بَأْسَ، طَهُورٌ إِنْ شَاءَ اللَّهُ} (« Ce n'est pas grave : c'est une purification, si Allah le veut »)."
         }
       ]
     },
