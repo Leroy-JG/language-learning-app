@@ -1,0 +1,106 @@
+{
+  "id": "medine-t2.l02.grammar-8",
+  "type": "grammar",
+  "title": "Ne pas avoir : {ar|لَيْسَ لِي}",
+  "icon": "circle_red",
+  "screens": [
+    {
+      "id": "medine-t2.l02.grammar-8#1",
+      "type": "tip",
+      "title": "{ar|لَيْسَ لِي} : « je n'ai pas »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour dire qu'on n'a pas quelque chose, on met {ar|لَيْسَ} devant {ar|لِي}. Le nom qui suit est le nom de {ar|لَيْسَ} : il reste au **nominatif**. Le prédicat, c'est le groupe {ar|لِي}, placé avant lui."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "لِي إِخْوَةٌ", "fr": "j'ai des frères" },
+              "to": { "ar": "لَيْسَ لِي إِخْوَةٌ", "fr": "je n'ai pas de frères" },
+              "label": "la négation"
+            },
+            {
+              "from": { "ar": "فِي الْفَصْلِ طَالِبٌ", "fr": "il y a un étudiant dans la classe" },
+              "to": { "ar": "لَيْسَ فِي الْفَصْلِ طَالِبٌ", "fr": "il n'y a pas d'étudiant dans la classe" },
+              "label": "la négation"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Tu as lu cette forme dans le texte du livre : {ar|لَيْسَ لِي إِخْوَةٌ}. Le nom qui suit est indéfini : on nie qu'il y en ait."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.grammar-8#2",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|لَيْسَ لِي إِخْوَةٌ}, le mot {ar|إِخْوَةٌ} est à l'accusatif." },
+      "answer": false,
+      "explain": "Faux : {ar|إِخْوَةٌ} est le nom de {ar|لَيْسَ}, donc au nominatif. C'est le groupe {ar|لِي} qui est le prédicat."
+    },
+    {
+      "id": "medine-t2.l02.grammar-8#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|لَيْسَ لِي إِخْوَةٌ}, quel mot est le nom de {ar|لَيْسَ} (le sujet) ?" },
+      "choices": [ { "ar": "إِخْوَةٌ" }, { "ar": "لِي" }, { "ar": "لَيْسَ" } ],
+      "answer": 0,
+      "explain": "{ar|إِخْوَةٌ} est le nom de {ar|لَيْسَ} ; {ar|لِي} est son prédicat, placé avant."
+    },
+    {
+      "id": "medine-t2.l02.grammar-8#4",
+      "type": "order",
+      "fr": "Je n'ai pas de frères.",
+      "answers": [["لَيْسَ", "لِي", "إِخْوَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l02.grammar-8#5",
+      "type": "fill_gap",
+      "sentence": "لَيْسَ {0} كِتَابٌ.",
+      "fr": "Je n'ai pas de livre.",
+      "gaps": [ { "answers": ["لِي"] } ],
+      "options": ["لِي", "لَكَ", "لَهُ"],
+      "explain": "« Je » : {ar|لِي}. {ar|لَكَ} voudrait dire « tu n'as pas » et {ar|لَهُ} « il n'a pas »."
+    },
+    {
+      "id": "medine-t2.l02.grammar-8#6",
+      "type": "order",
+      "fr": "Il n'y a pas d'étudiant dans la classe.",
+      "answers": [["لَيْسَ", "فِي", "الْفَصْلِ", "طَالِبٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l02.grammar-8#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je n'ai pas de frères.",
+      "answers": ["لَيْسَ لِي إِخْوَةٌ."]
+    },
+    {
+      "id": "medine-t2.l02.grammar-8#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je n'ai pas de livre.",
+      "answers": ["لَيْسَ لِي كِتَابٌ.", "لَيْسَ عِنْدِي كِتَابٌ."]
+    },
+    {
+      "id": "medine-t2.l02.grammar-8#9",
+      "type": "fill_gap",
+      "sentence": "لَيْسَ {0} أَخَوَاتٌ.",
+      "fr": "Il n'a pas de sœurs.",
+      "gaps": [ { "answers": ["لَهُ"] } ],
+      "options": ["لَهُ", "لَهَا", "لِي"],
+      "explain": "« Il » : {ar|لَهُ}. {ar|لَهَا} voudrait dire « elle n'a pas »."
+    },
+    {
+      "id": "medine-t2.l02.grammar-8#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Tu n'as pas de stylo. (à un homme)",
+      "answers": ["لَيْسَ لَكَ قَلَمٌ.", "لَيْسَ عِنْدَكَ قَلَمٌ."]
+    }
+  ]
+}

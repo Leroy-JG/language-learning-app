@@ -1,0 +1,191 @@
+{
+  "id": "medine-t2.l02.grammar-4",
+  "type": "grammar",
+  "title": "Les douze formes du passé",
+  "icon": "telescope",
+  "screens": [
+    {
+      "id": "medine-t2.l02.grammar-4#1",
+      "type": "tip",
+      "title": "Au passé : je, nous, tu, vous",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au passé, le pronom sujet se colle à la fin du verbe. Voici {ar|كَتَبَ} (« il a écrit ») avec les pronoms que tu connais (tome 1, chapitre 10) :"
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Verbe", "Sens"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|كَتَبْتُ}", "j'ai écrit"],
+            ["{ar|نَحْنُ}", "{ar|كَتَبْنَا}", "nous avons écrit"],
+            ["{ar|أَنْتَ}", "{ar|كَتَبْتَ}", "tu as écrit (à un homme)"],
+            ["{ar|أَنْتِ}", "{ar|كَتَبْتِ}", "tu as écrit (à une femme)"],
+            ["{ar|أَنْتُمَا}", "{ar|كَتَبْتُمَا}", "vous avez écrit (à deux personnes)"],
+            ["{ar|أَنْتُمْ}", "{ar|كَتَبْتُمْ}", "vous avez écrit (à plusieurs hommes, ou à un groupe mixte)"],
+            ["{ar|أَنْتُنَّ}", "{ar|كَتَبْتُنَّ}", "vous avez écrit (à plusieurs femmes)"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Pour « tu », le {ar|ت} final porte la même voyelle que le pronom isolé : une fatha comme {ar|أَنْتَ} (à un homme), une kasra comme {ar|أَنْتِ} (à une femme). Pour « je », c'est une damma."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.grammar-4#2",
+      "type": "tip",
+      "title": "Au passé : il, elle, ils, elles",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pronom", "Verbe", "Sens"],
+          "rows": [
+            ["{ar|هُوَ}", "{ar|كَتَبَ}", "il a écrit"],
+            ["{ar|هِيَ}", "{ar|كَتَبَتْ}", "elle a écrit"],
+            ["{ar|هُمَا}", "{ar|كَتَبَا}", "eux deux ont écrit"],
+            ["{ar|هُمْ}", "{ar|كَتَبُوا}", "ils ont écrit"],
+            ["{ar|هُنَّ}", "{ar|كَتَبْنَ}", "elles ont écrit"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pour « il » et « elle », le pronom est caché ({ar|مُسْتَتِرٌ}) : il n'a aucune lettre. Le {ar|تْ} de {ar|كَتَبَتْ} n'est pas un pronom : c'est la marque du féminin (tome 1, chapitre 12)."
+        },
+        {
+          "type": "note",
+          "text": "Au duel, le féminin ajoute la marque du féminin : {ar|كَتَبَتَا} veut dire « elles deux ont écrit »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.grammar-4#3",
+      "type": "tip",
+      "title": "Les terminaisons en un coup d'œil",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Personne", "Pronom isolé", "Terminaison collée"],
+          "rows": [
+            ["{ar|الْمُتَكَلِّمُ} (1re)", "{ar|أَنَا}", "{ar|تُ}"],
+            ["{ar|الْمُتَكَلِّمُ} (1re)", "{ar|نَحْنُ}", "{ar|نَا}"],
+            ["{ar|الْمُخَاطَبُ} (2e)", "{ar|أَنْتَ}", "{ar|تَ}"],
+            ["{ar|الْمُخَاطَبُ} (2e)", "{ar|أَنْتِ}", "{ar|تِ}"],
+            ["{ar|الْمُخَاطَبُ} (2e)", "{ar|أَنْتُمَا}", "{ar|تُمَا}"],
+            ["{ar|الْمُخَاطَبُ} (2e)", "{ar|أَنْتُمْ}", "{ar|تُمْ}"],
+            ["{ar|الْمُخَاطَبُ} (2e)", "{ar|أَنْتُنَّ}", "{ar|تُنَّ}"],
+            ["{ar|الْغَائِبُ} (3e)", "{ar|هُوَ}", "rien (pronom caché)"],
+            ["{ar|الْغَائِبُ} (3e)", "{ar|هِيَ}", "rien (pronom caché), avec {ar|تْ}"],
+            ["{ar|الْغَائِبُ} (3e)", "{ar|هُمَا}", "{ar|ا}"],
+            ["{ar|الْغَائِبُ} (3e)", "{ar|هُمْ}", "{ar|وا}"],
+            ["{ar|الْغَائِبُ} (3e)", "{ar|هُنَّ}", "{ar|نَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Les terminaisons de la 2e personne ressemblent aux pronoms : {ar|تُمَا} / {ar|أَنْتُمَا}, {ar|تُمْ} / {ar|أَنْتُمْ}, {ar|تُنَّ} / {ar|أَنْتُنَّ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.grammar-4#4",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} مِنَ الْمَدْرَسَةِ.",
+      "fr": "Je suis sorti(e) de l'école.",
+      "gaps": [ { "answers": ["خَرَجْتُ"] } ],
+      "options": ["خَرَجْتُ", "خَرَجْنَا", "خَرَجُوا", "خَرَجَا"],
+      "explain": "« Je » : la terminaison {ar|تُ}."
+    },
+    {
+      "id": "medine-t2.l02.grammar-4#5",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} مِنَ الْمَدْرَسَةِ.",
+      "fr": "Nous sommes sortis de l'école.",
+      "gaps": [ { "answers": ["خَرَجْنَا"] } ],
+      "options": ["خَرَجْنَا", "خَرَجْنَ", "خَرَجْتُمْ", "خَرَجَا"],
+      "explain": "« Nous » : la terminaison {ar|نَا}. Ne la confonds pas avec {ar|نَ} (« elles »), sans alif."
+    },
+    {
+      "id": "medine-t2.l02.grammar-4#6",
+      "type": "question",
+      "prompt": { "fr": "Pour dire « tu as écrit » à une femme ({ar|كَتَبْتِ}), quelle voyelle porte le {ar|ت} final ?" },
+      "choices": [ { "fr": "une kasra" }, { "fr": "une damma" }, { "fr": "une fatha" } ],
+      "answer": 0,
+      "explain": "Comme le pronom isolé {ar|أَنْتِ} : une kasra. À un homme, une fatha ({ar|كَتَبْتَ}) ; pour « je », une damma ({ar|كَتَبْتُ})."
+    },
+    {
+      "id": "medine-t2.l02.grammar-4#7",
+      "type": "fill_gap",
+      "sentence": "هُمْ {0} مِنَ الْمَدْرَسَةِ.",
+      "fr": "Ils sont sortis de l'école.",
+      "gaps": [ { "answers": ["خَرَجُوا"] } ],
+      "options": ["خَرَجُوا", "خَرَجَا", "خَرَجْنَ", "خَرَجْتُمْ"],
+      "explain": "« Ils » (plusieurs hommes) : la terminaison du pluriel masculin, comme dans {ar|كَتَبُوا}."
+    },
+    {
+      "id": "medine-t2.l02.grammar-4#8",
+      "type": "fill_gap",
+      "sentence": "هُنَّ {0} مِنَ الْمَدْرَسَةِ.",
+      "fr": "Elles sont sorties de l'école.",
+      "gaps": [ { "answers": ["خَرَجْنَ"] } ],
+      "options": ["خَرَجْنَ", "خَرَجُوا", "خَرَجْنَا", "خَرَجَتْ"],
+      "explain": "« Elles » (plusieurs femmes) : la terminaison {ar|نَ}."
+    },
+    {
+      "id": "medine-t2.l02.grammar-4#9",
+      "type": "sort",
+      "categories": [ { "fr": "un nom apparent" }, { "fr": "un pronom collé" }, { "fr": "un pronom caché" } ],
+      "cards": [
+        { "ar": "جَلَسَ الْمُدِيرُ", "category": 0 },
+        { "ar": "ذَهَبْنَا", "category": 1 },
+        { "ar": "رَجَعَ", "category": 2 },
+        { "ar": "خَرَجَتِ الطَّالِبَةُ", "category": 0 },
+        { "ar": "جَلَسُوا", "category": 1 },
+        { "ar": "قَامَتْ", "category": 2 }
+      ],
+      "instruction": "Quel est le sujet de chaque verbe ?",
+      "explain": "{ar|جَلَسَ الْمُدِيرُ} et {ar|خَرَجَتِ الطَّالِبَةُ} ont un nom apparent. {ar|ذَهَبْنَا} (« nous ») et {ar|جَلَسُوا} (« ils ») ont un pronom collé. Dans {ar|رَجَعَ} (« il ») et {ar|قَامَتْ} (« elle »), le pronom est caché."
+    },
+    {
+      "id": "medine-t2.l02.grammar-4#10",
+      "type": "fill_gap",
+      "sentence": "أَنْتُمَا {0} فِي الْفَصْلِ.",
+      "fr": "Vous (deux) vous êtes assis dans la classe.",
+      "gaps": [ { "answers": ["جَلَسْتُمَا"] } ],
+      "options": ["جَلَسْتُمَا", "جَلَسْتُمْ", "جَلَسْتُنَّ", "جَلَسَا"],
+      "explain": "« Vous deux » : {ar|أَنْتُمَا} donne la terminaison {ar|تُمَا}."
+    },
+    {
+      "id": "medine-t2.l02.grammar-4#11",
+      "type": "fill_gap",
+      "sentence": "أَنْتُنَّ {0} فِي الْفَصْلِ.",
+      "fr": "Vous (plusieurs femmes) vous êtes assises dans la classe.",
+      "gaps": [ { "answers": ["جَلَسْتُنَّ"] } ],
+      "options": ["جَلَسْتُنَّ", "جَلَسْتُمْ", "جَلَسْنَ", "جَلَسَتْ"],
+      "explain": "« Vous, plusieurs femmes » : {ar|أَنْتُنَّ} donne la terminaison {ar|تُنَّ}."
+    },
+    {
+      "id": "medine-t2.l02.grammar-4#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous avons écrit.",
+      "answers": ["كَتَبْنَا.", "نَحْنُ كَتَبْنَا."]
+    },
+    {
+      "id": "medine-t2.l02.grammar-4#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ils ont écrit.",
+      "answers": ["هُمْ كَتَبُوا.", "كَتَبُوا."]
+    },
+    {
+      "id": "medine-t2.l02.grammar-4#14",
+      "type": "order",
+      "fr": "Elles sont sorties de la mosquée.",
+      "answers": [["هُنَّ", "خَرَجْنَ", "مِنَ", "الْمَسْجِدِ"]],
+      "punctuation": "."
+    }
+  ]
+}

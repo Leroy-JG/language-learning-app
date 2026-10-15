@@ -1,0 +1,150 @@
+{
+  "id": "medine-t2.l02.grammar-1",
+  "type": "grammar",
+  "title": "Les trois temps et le sujet du verbe",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l02.grammar-1#1",
+      "type": "tip",
+      "title": "Les trois temps du verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le verbe ({ar|الْفِعْلُ}) change de forme selon le temps. Voici ses trois sortes, avec leurs noms arabes :"
+        },
+        {
+          "type": "table",
+          "header": ["Arabe", "Sens", "Exemple"],
+          "rows": [
+            ["{ar|الْمَاضِي}", "le passé", "{ar|كَتَبَ} (il a écrit)"],
+            ["{ar|الْمُضَارِعُ}", "le présent ou le futur", "{ar|يَكْتُبُ} (il écrit, il écrira)"],
+            ["{ar|الْأَمْرُ}", "l'impératif", "{ar|اُكْتُبْ} (écris !)"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Ce chapitre étudie surtout le passé ({ar|الْمَاضِي}). Le présent et l'impératif viendront plus loin dans le tome."
+        }
+      ]
+    },
+    { "id": "medine-t2.l02.grammar-1#2", "type": "present", "item": "w:madi" },
+    { "id": "medine-t2.l02.grammar-1#3", "type": "present", "item": "w:mudari" },
+    { "id": "medine-t2.l02.grammar-1#4", "type": "present", "item": "w:amr" },
+    {
+      "id": "medine-t2.l02.grammar-1#5",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:madi", "w:mudari", "w:amr"]
+    },
+    {
+      "id": "medine-t2.l02.grammar-1#6",
+      "type": "tip",
+      "title": "Un verbe a toujours un sujet",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un verbe a toujours un sujet : celui qui fait l'action ({ar|الْفَاعِلُ}). Le professeur en donne trois règles :"
+        },
+        {
+          "type": "table",
+          "header": ["Règle", "Exemple"],
+          "rows": [
+            ["Le sujet vient **après** le verbe.", "{ar|خَرَجَ زَيْدٌ}"],
+            ["Le sujet est au **nominatif** ({ar|مَرْفُوعٌ}).", "{ar|زَيْدٌ} porte la damma"],
+            ["Le sujet est un **nom apparent** ou un **pronom**.", "{ar|خَرَجَ زَيْدٌ} ou {ar|خَرَجْتُ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Il s'agit ici du verbe à la voix active. Le passif (« la lettre a été écrite »), que tu étudieras plus tard, ne nomme pas celui qui agit."
+        }
+      ]
+    },
+    { "id": "medine-t2.l02.grammar-1#7", "type": "present", "item": "w:ism-zahir" },
+    {
+      "id": "medine-t2.l02.grammar-1#8",
+      "type": "tip",
+      "title": "Nom apparent ou pronom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le sujet du verbe peut être un nom apparent ({ar|اِسْمٌ ظَاهِرٌ}) ou un pronom ({ar|ضَمِيرٌ}) :"
+        },
+        {
+          "type": "table",
+          "header": ["Le sujet est…", "Exemple", "Sens"],
+          "rows": [
+            ["un nom apparent", "{ar|كَتَبَ زَيْدٌ الدَّرْسَ}", "Zayd a écrit la leçon"],
+            ["un pronom", "{ar|كَتَبْتُ الدَّرْسَ}", "j'ai écrit la leçon"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un nom apparent montre le nominatif : {ar|زَيْدٌ} porte la damma. Un pronom ne varie pas : on ne voit pas de damma, mais il tient la place du nominatif."
+        },
+        {
+          "type": "note",
+          "text": "{ar|الدَّرْسَ} (« la leçon ») est le complément du verbe, à l'accusatif : tu l'étudieras plus tard. Pour l'instant, regarde seulement le sujet : {ar|زَيْدٌ} dans la première phrase, la lettre {ar|تُ} dans la seconde."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.grammar-1#9",
+      "type": "spot",
+      "instruction": "Touche le sujet du verbe (un nom apparent).",
+      "words": ["جَلَسَ", "الطَّالِبُ", "فِي", "الْفَصْلِ."],
+      "answers": [1],
+      "fr": "L'étudiant s'est assis dans la classe.",
+      "explain": "{ar|الطَّالِبُ} est celui qui s'est assis : c'est un nom apparent, au nominatif, après le verbe."
+    },
+    {
+      "id": "medine-t2.l02.grammar-1#10",
+      "type": "sort",
+      "categories": [ { "fr": "un nom apparent" }, { "fr": "un pronom" } ],
+      "cards": [
+        { "ar": "زَيْدٌ", "category": 0 },
+        { "ar": "أَنَا", "category": 1 },
+        { "ar": "الطَّالِبَةُ", "category": 0 },
+        { "ar": "هُمْ", "category": 1 },
+        { "ar": "الْمُدِيرُ", "category": 0 },
+        { "ar": "أَنْتِ", "category": 1 }
+      ],
+      "instruction": "Nom apparent ou pronom ?",
+      "explain": "Un nom apparent est un vrai nom ({ar|زَيْدٌ}, {ar|الطَّالِبَةُ}, {ar|الْمُدِيرُ}) ; {ar|أَنَا}, {ar|هُمْ} et {ar|أَنْتِ} sont des pronoms."
+    },
+    {
+      "id": "medine-t2.l02.grammar-1#11",
+      "type": "true_false",
+      "statement": { "fr": "Le sujet d'un verbe est au nominatif." },
+      "answer": true,
+      "explain": "Un nom apparent porte la damma du nominatif ; un pronom ne varie pas mais tient la place du nominatif."
+    },
+    {
+      "id": "medine-t2.l02.grammar-1#12",
+      "type": "question",
+      "prompt": { "fr": "Que peut être le sujet d'un verbe ?" },
+      "choices": [
+        { "fr": "un nom apparent ou un pronom" },
+        { "fr": "seulement un nom apparent" },
+        { "fr": "seulement un pronom" }
+      ],
+      "answer": 0,
+      "explain": "Les deux sont possibles : {ar|خَرَجَ زَيْدٌ} (nom apparent) et {ar|خَرَجْتُ} (pronom)."
+    },
+    {
+      "id": "medine-t2.l02.grammar-1#13",
+      "type": "order",
+      "fr": "L'étudiant s'est assis dans la classe.",
+      "answers": [["جَلَسَ", "الطَّالِبُ", "فِي", "الْفَصْلِ"], ["الطَّالِبُ", "جَلَسَ", "فِي", "الْفَصْلِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l02.grammar-1#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le directeur est sorti.",
+      "answers": ["خَرَجَ الْمُدِيرُ.", "الْمُدِيرُ خَرَجَ."]
+    }
+  ]
+}

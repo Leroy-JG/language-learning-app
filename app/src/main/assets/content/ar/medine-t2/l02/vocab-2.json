@@ -1,0 +1,117 @@
+{
+  "id": "medine-t2.l02.vocab-2",
+  "type": "vocabulary",
+  "title": "Rencontre, poste et banque",
+  "icon": "shop",
+  "screens": [
+    { "id": "medine-t2.l02.vocab-2#1", "type": "present", "item": "w:liqa" },
+    { "id": "medine-t2.l02.vocab-2#2", "type": "present", "item": "w:masrur" },
+    {
+      "id": "medine-t2.l02.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:liqa",
+      "distractors": ["w:ziyara", "w:mawid"]
+    },
+    { "id": "medine-t2.l02.vocab-2#4", "type": "present", "item": "w:barid" },
+    { "id": "medine-t2.l02.vocab-2#5", "type": "present", "item": "w:barqiyya" },
+    {
+      "id": "medine-t2.l02.vocab-2#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:barid",
+      "distractors": ["w:matjar", "w:suq"]
+    },
+    { "id": "medine-t2.l02.vocab-2#7", "type": "present", "item": "w:masrif" },
+    {
+      "id": "medine-t2.l02.vocab-2#8",
+      "type": "tip",
+      "title": "Du singulier au pluriel",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "بَرْقِيَّةٌ", "fr": "un télégramme" },
+              "to": { "ar": "بَرْقِيَّاتٌ", "fr": "des télégrammes" }
+            },
+            {
+              "from": { "ar": "لِقَاءٌ", "fr": "une rencontre" },
+              "to": { "ar": "لِقَاءَاتٌ", "fr": "des rencontres" }
+            },
+            { "from": { "ar": "مَصْرِفٌ", "fr": "une banque" }, "to": { "ar": "مَصَارِفُ", "fr": "des banques" } },
+            { "from": { "ar": "مَسْرُورٌ", "fr": "ravi" }, "to": { "ar": "مَسْرُورُونَ", "fr": "ravis" } }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|الْبَرِيدُ} n'a pas de pluriel dans le tableau du professeur. {ar|مَصَارِفُ} est un pluriel irrégulier : il n'a pas de tanwin, comme {ar|مَسَاجِدُ} (tome 1, chapitre 1)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.vocab-2#9",
+      "type": "tip",
+      "title": "Trois mots déjà connus",
+      "blocks": [
+        { "type": "paragraph", "text": "Le professeur reprend aussi trois mots que tu connais :" },
+        {
+          "type": "table",
+          "header": ["Mot", "Exemple", "Sens"],
+          "rows": [
+            [
+              "{ar|نَهْرٌ} (tome 1, chapitre 16)",
+              "{ar|فِي النَّهْرِ سَمَكٌ}",
+              "il y a des poissons dans la rivière"
+            ],
+            [
+              "{ar|جَيْبٌ} (tome 1, chapitre 19)",
+              "{ar|فِي جَيْبِي مِائَةُ رِيَالٍ}",
+              "j'ai cent riyals dans ma poche"
+            ],
+            ["{ar|جَيِّدٌ} (tome 1, révision 1)", "{ar|هٰذَا الدَّرْسُ جَيِّدٌ}", "cette leçon est bonne"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.vocab-2#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:liqa", "w:barid", "w:barqiyya", "w:masrif", "w:masrur"]
+    },
+    {
+      "id": "medine-t2.l02.vocab-2#11",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:liqa", "w:barqiyya", "w:masrif", "w:masrur"]
+    },
+    {
+      "id": "medine-t2.l02.vocab-2#12",
+      "type": "fill_gap",
+      "sentence": "الْمَصْرِفُ {0} الْمَدْرَسَةِ.",
+      "fr": "La banque est derrière l'école.",
+      "gaps": [ { "answers": ["خَلْفَ"] } ],
+      "options": ["خَلْفَ", "فَوْقَ", "أَمَامَ"],
+      "explain": "« Derrière » : {ar|خَلْفَ}. {ar|فَوْقَ} veut dire « au-dessus de » et {ar|أَمَامَ} « devant »."
+    },
+    {
+      "id": "medine-t2.l02.vocab-2#13",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} بِلِقَائِكَ.",
+      "fr": "Je suis ravi de te rencontrer.",
+      "gaps": [ { "answers": ["مَسْرُورٌ"] } ],
+      "options": ["مَسْرُورٌ", "حَزِينٌ", "غَضْبَانُ"],
+      "explain": "{ar|مَسْرُورٌ بِ} + un nom : « content de » quelque chose."
+    },
+    { "id": "medine-t2.l02.vocab-2#14", "type": "build", "item": "w:barqiyya", "extra": ["ف", "ه"] },
+    { "id": "medine-t2.l02.vocab-2#15", "type": "typing", "ask": "fr", "item": "w:barqiyya" },
+    {
+      "id": "medine-t2.l02.vocab-2#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "La banque est derrière l'école.",
+      "answers": ["الْمَصْرِفُ خَلْفَ الْمَدْرَسَةِ."]
+    }
+  ]
+}

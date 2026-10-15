@@ -1,0 +1,186 @@
+{
+  "id": "medine-t2.l02.dialogue-2",
+  "type": "dialogue",
+  "title": "Hishām et Bilāl : les enfants et la famille",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t2.l02.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Hishām et Bilāl : les enfants et la famille",
+      "intro": "Suite du texte du livre : Bilāl interroge Hishām sur ses fils, ses filles, ses frères et ses sœurs.",
+      "speakers": { "B": { "name": "Bilāl", "voice": "m1" }, "H": { "name": "Hishām", "voice": "m2" } },
+      "lines": [
+        { "speaker": "B", "ar": "أَلَكَ أَبْنَاءٌ يَا هِشَامُ؟", "fr": "As-tu des fils, Hishām ?" },
+        { "speaker": "H", "ar": "نَعَمْ، لِي سِتَّةُ أَبْنَاءٍ.", "fr": "Oui, j'ai six fils." },
+        { "speaker": "B", "ar": "أَطُلَّابٌ هُمْ؟", "fr": "Sont-ils étudiants ?" },
+        {
+          "speaker": "H",
+          "ar": "لَا، هُمْ لَيْسُوا بِطُلَّابٍ. إِنَّ بَعْضَهُمْ تُجَّارٌ وَبَعْضُهُمْ مُهَنْدِسُونَ.",
+          "fr": "Non, ils ne sont pas étudiants. Certains sont commerçants et d'autres ingénieurs."
+        },
+        { "speaker": "B", "ar": "أَلَكَ بَنَاتٌ؟", "fr": "As-tu des filles ?" },
+        { "speaker": "H", "ar": "نَعَمْ، لِي خَمْسُ بَنَاتٍ.", "fr": "Oui, j'ai cinq filles." },
+        { "speaker": "B", "ar": "أَمُتَزَوِّجَاتٌ هُنَّ؟", "fr": "Sont-elles mariées ?" },
+        {
+          "speaker": "H",
+          "ar": "لَا، هُنَّ لَسْنَ بِمُتَزَوِّجَاتٍ. إِنَّهُنَّ صِغَارٌ. بَعْضُهُنَّ فِي الْمَدْرَسَةِ الِابْتِدَائِيَّةِ وَبَعْضُهُنَّ فِي الْمَدْرَسَةِ الْمُتَوَسِّطَةِ.",
+          "fr": "Non, elles ne sont pas mariées. Elles sont petites. Certaines sont à l'école primaire et d'autres au collège."
+        },
+        { "speaker": "B", "ar": "أَلَكَ إِخْوَةٌ؟", "fr": "As-tu des frères ?" },
+        {
+          "speaker": "H",
+          "ar": "لَا، لَيْسَ لِي إِخْوَةٌ. إِنَّ لِي ثَلَاثَ أَخَوَاتٍ.",
+          "fr": "Non, je n'ai pas de frères. J'ai trois sœurs."
+        },
+        { "speaker": "B", "ar": "أَمُسْلِمَاتٌ هُنَّ؟", "fr": "Sont-elles musulmanes ?" },
+        {
+          "speaker": "H",
+          "ar": "نَعَمْ، هُنَّ مُسْلِمَاتٌ، وَالْحَمْدُ لِلَّهِ.",
+          "fr": "Oui, elles sont musulmanes, louange à Allah."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Explication"],
+          "rows": [
+            [
+              "{ar|سِتَّةُ أَبْنَاءٍ}",
+              "six fils",
+              "{ar|اِبْنٌ} est masculin : {ar|سِتَّةُ}, avec {ar|ة} (la règle des nombres de 3 à 10)"
+            ],
+            ["{ar|خَمْسُ بَنَاتٍ}", "cinq filles", "{ar|بِنْتٌ} est féminin : {ar|خَمْسُ}, sans {ar|ة}"],
+            [
+              "{ar|إِنَّ لِي ثَلَاثَ أَخَوَاتٍ}",
+              "j'ai trois sœurs",
+              "après {ar|إِنَّ}, le sujet {ar|ثَلَاثَ أَخَوَاتٍ} est à l'accusatif ; {ar|لِي} est le prédicat, placé avant"
+            ],
+            [
+              "{ar|لَيْسَ لِي إِخْوَةٌ}",
+              "je n'ai pas de frères",
+              "le nom de {ar|لَيْسَ} ({ar|إِخْوَةٌ}) reste au nominatif ; {ar|لِي} est son prédicat"
+            ],
+            [
+              "{ar|بَعْضُهُمْ}, {ar|بَعْضُهُنَّ}",
+              "certains d'entre eux, certaines d'entre elles",
+              "{ar|بَعْضٌ} + le pronom collé {ar|هُمْ} ou {ar|هُنَّ} (tome 1, chapitre 13)"
+            ],
+            [
+              "{ar|أَمُتَزَوِّجَاتٌ هُنَّ؟}",
+              "sont-elles mariées ?",
+              "{ar|أَ} + le prédicat + le sujet : même ordre que dans le premier texte"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Combien de fils Hishām a-t-il ?" },
+      "choices": [ { "fr": "Six" }, { "fr": "Cinq" }, { "fr": "Trois" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l02.dialogue-2#1" },
+      "explain": "{ar|لِي سِتَّةُ أَبْنَاءٍ}."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Que font ses fils ?" },
+      "choices": [
+        { "fr": "Certains sont commerçants, d'autres ingénieurs" },
+        { "fr": "Ils sont tous étudiants" },
+        { "fr": "Ils sont tous médecins" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l02.dialogue-2#1" },
+      "explain": "{ar|إِنَّ بَعْضَهُمْ تُجَّارٌ وَبَعْضُهُمْ مُهَنْدِسُونَ}."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-2#5",
+      "type": "question",
+      "prompt": { "fr": "Combien de filles Hishām a-t-il ?" },
+      "choices": [ { "fr": "Cinq" }, { "fr": "Six" }, { "fr": "Trois" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l02.dialogue-2#1" },
+      "explain": "{ar|لِي خَمْسُ بَنَاتٍ}."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-2#6",
+      "type": "true_false",
+      "statement": { "fr": "Les filles de Hishām sont mariées." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l02.dialogue-2#1" },
+      "explain": "Non : {ar|هُنَّ لَسْنَ بِمُتَزَوِّجَاتٍ}. Elles sont petites."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-2#7",
+      "type": "question",
+      "prompt": { "fr": "Où sont ses filles ?" },
+      "choices": [ { "fr": "Certaines à l'école primaire, d'autres au collège" }, { "fr": "Toutes à l'université" } ],
+      "answer": 0,
+      "shuffle": false,
+      "context": { "dialogue": "medine-t2.l02.dialogue-2#1" },
+      "explain": "{ar|بَعْضُهُنَّ فِي الْمَدْرَسَةِ الِابْتِدَائِيَّةِ وَبَعْضُهُنَّ فِي الْمَدْرَسَةِ الْمُتَوَسِّطَةِ}."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-2#8",
+      "type": "question",
+      "prompt": { "fr": "Combien de sœurs Hishām a-t-il ?" },
+      "choices": [ { "fr": "Trois" }, { "fr": "Cinq" }, { "fr": "Six" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l02.dialogue-2#1" },
+      "explain": "{ar|إِنَّ لِي ثَلَاثَ أَخَوَاتٍ}."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-2#9",
+      "type": "true_false",
+      "statement": { "fr": "Hishām a des frères." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l02.dialogue-2#1" },
+      "explain": "Non : {ar|لَيْسَ لِي إِخْوَةٌ}. Il a des fils et des filles, mais pas de frères."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-2#10",
+      "type": "fill_gap",
+      "sentence": "{0} لِي إِخْوَةٌ.",
+      "fr": "Je n'ai pas de frères.",
+      "gaps": [ { "answers": ["لَيْسَ"] } ],
+      "options": ["لَيْسَ", "إِنَّ", "لَعَلَّ"],
+      "context": { "dialogue": "medine-t2.l02.dialogue-2#1" },
+      "explain": "Le nom {ar|إِخْوَةٌ} est au nominatif : c'est {ar|لَيْسَ}, pas {ar|إِنَّ} (qui demande l'accusatif)."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-2#11",
+      "type": "order",
+      "fr": "Oui, j'ai cinq filles.",
+      "answers": [["نَعَمْ،", "لِي", "خَمْسُ", "بَنَاتٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-2#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai six fils.",
+      "answers": ["لِي سِتَّةُ أَبْنَاءٍ.", "عِنْدِي سِتَّةُ أَبْنَاءٍ."]
+    },
+    {
+      "id": "medine-t2.l02.dialogue-2#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles ne sont pas mariées. (plusieurs femmes)",
+      "answers": [
+        "هُنَّ لَسْنَ بِمُتَزَوِّجَاتٍ.",
+        "لَسْنَ بِمُتَزَوِّجَاتٍ.",
+        "هُنَّ لَسْنَ مُتَزَوِّجَاتٍ.",
+        "لَسْنَ مُتَزَوِّجَاتٍ."
+      ]
+    }
+  ]
+}

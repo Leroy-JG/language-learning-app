@@ -1,0 +1,123 @@
+{
+  "id": "medine-t2.l02.grammar-9",
+  "type": "grammar",
+  "title": "L'accusatif : quatre emplois",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l02.grammar-9#1",
+      "type": "tip",
+      "title": "Quatre raisons d'avoir la fatha",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur récapitule les mots à l'accusatif ({ar|النَّصْبُ}). Tu en connais maintenant quatre emplois :"
+        },
+        {
+          "type": "table",
+          "header": ["Emploi", "Exemple", "Le mot à l'accusatif"],
+          "rows": [
+            [
+              "l'adverbe ({ar|الظَّرْفُ}) : {ar|فَوْقَ}, {ar|تَحْتَ}, {ar|قَبْلَ}",
+              "{ar|فَوْقَ الْمَكْتَبِ} (au-dessus du bureau)",
+              "{ar|فَوْقَ}"
+            ],
+            [
+              "le sujet de {ar|إِنَّ} et de ses sœurs",
+              "{ar|إِنَّ زَيْدًا جَالِسٌ} (certes, Zayd est assis)",
+              "{ar|زَيْدًا}"
+            ],
+            [
+              "le prédicat de {ar|كَانَ وَأَخَوَاتِهَا} (par exemple {ar|لَيْسَ})",
+              "{ar|لَيْسَ زَيْدٌ جَالِسًا} (Zayd n'est pas assis)",
+              "{ar|جَالِسًا}"
+            ],
+            [
+              "la précision ({ar|التَّمْيِيزُ}) après {ar|كَمْ}",
+              "{ar|كَمْ طَالِبًا فِي الْفَصْلِ؟} (combien d'étudiants dans la classe ?)",
+              "{ar|طَالِبًا}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|إِنَّ} et {ar|لَيْسَ} font le contraire : après {ar|إِنَّ}, c'est le sujet qui passe à l'accusatif ; après {ar|لَيْسَ}, c'est le prédicat."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.grammar-9#2",
+      "type": "sort",
+      "categories": [ { "fr": "un adverbe" }, { "fr": "le sujet de {ar|إِنَّ}" }, { "fr": "le prédicat de {ar|لَيْسَ}" } ],
+      "cards": [
+        { "ar": "فَوْقَ الْمَكْتَبِ", "category": 0 },
+        { "ar": "إِنَّ الْقَلَمَ مَكْسُورٌ", "category": 1 },
+        { "ar": "لَيْسَ الْكِتَابُ جَدِيدًا", "category": 2 },
+        { "ar": "تَحْتَ السَّرِيرِ", "category": 0 },
+        { "ar": "إِنَّ الْكِتَابَ جَدِيدٌ", "category": 1 },
+        { "ar": "لَيْسَ الْقَلَمُ مَكْسُورًا", "category": 2 }
+      ],
+      "instruction": "Dans chaque groupe, un mot est à l'accusatif : pourquoi ?",
+      "explain": "{ar|فَوْقَ} et {ar|تَحْتَ} sont des adverbes. Après {ar|إِنَّ}, le sujet est à l'accusatif ({ar|الْقَلَمَ}, {ar|الْكِتَابَ}). Après {ar|لَيْسَ}, le prédicat l'est ({ar|جَدِيدًا}, {ar|مَكْسُورًا})."
+    },
+    {
+      "id": "medine-t2.l02.grammar-9#3",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|جَالِسًا} est-il à l'accusatif dans {ar|لَيْسَ زَيْدٌ جَالِسًا} ?" },
+      "choices": [
+        { "fr": "parce que c'est le prédicat de {ar|لَيْسَ}" },
+        { "fr": "parce que c'est le sujet de {ar|إِنَّ}" },
+        { "fr": "parce que c'est un adverbe" }
+      ],
+      "answer": 0,
+      "explain": "{ar|جَالِسًا} est {ar|خَبَرُ لَيْسَ} : le prédicat de {ar|لَيْسَ} est à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l02.grammar-9#4",
+      "type": "sort",
+      "categories": [
+        { "fr": "le sujet de {ar|إِنَّ}" },
+        { "fr": "le prédicat de {ar|لَيْسَ}" },
+        { "fr": "la précision après {ar|كَمْ}" }
+      ],
+      "cards": [
+        { "ar": "إِنَّ الطَّالِبَ جَالِسٌ", "category": 0 },
+        { "ar": "لَيْسَ الْبَابُ مَفْتُوحًا", "category": 1 },
+        { "ar": "كَمْ كِتَابًا لَكَ؟", "category": 2 },
+        { "ar": "لَعَلَّ الْمُدِيرَ جَالِسٌ", "category": 0 },
+        { "ar": "لَيْسَ الْمُدِيرُ جَالِسًا", "category": 1 },
+        { "ar": "كَمْ قَلَمًا فِي الْحَقِيبَةِ؟", "category": 2 }
+      ],
+      "instruction": "Pourquoi cet accusatif ?",
+      "explain": "{ar|إِنَّ} et {ar|لَعَلَّ} mettent leur sujet à l'accusatif ; {ar|لَيْسَ} y met son prédicat ; {ar|كَمْ} y met le nom compté."
+    },
+    {
+      "id": "medine-t2.l02.grammar-9#5",
+      "type": "true_false",
+      "statement": { "fr": "Le sujet de {ar|لَيْسَ} est à l'accusatif." },
+      "answer": false,
+      "explain": "Faux : le sujet de {ar|لَيْسَ} reste au nominatif ({ar|اِسْمُ لَيْسَ مَرْفُوعٌ}) ; c'est son prédicat qui est à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l02.grammar-9#6",
+      "type": "order",
+      "fr": "Combien d'étudiants y a-t-il dans la classe ?",
+      "answers": [["كَمْ", "طَالِبًا", "فِي", "الْفَصْلِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l02.grammar-9#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le directeur n'est pas assis.",
+      "answers": ["لَيْسَ الْمُدِيرُ جَالِسًا.", "لَيْسَ الْمُدِيرُ بِجَالِسٍ."]
+    },
+    {
+      "id": "medine-t2.l02.grammar-9#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La porte n'est pas ouverte.",
+      "answers": ["لَيْسَ الْبَابُ مَفْتُوحًا.", "لَيْسَ الْبَابُ بِمَفْتُوحٍ."]
+    }
+  ]
+}

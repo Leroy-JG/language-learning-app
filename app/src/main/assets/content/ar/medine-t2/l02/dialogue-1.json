@@ -1,0 +1,179 @@
+{
+  "id": "medine-t2.l02.dialogue-1",
+  "type": "dialogue",
+  "title": "Hishām et Bilāl : les présentations",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t2.l02.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Hishām et Bilāl : les présentations",
+      "intro": "Hishām, un nouvel ingénieur, rencontre Bilāl, son camarade. Ils se saluent, se présentent, puis Bilāl l'interroge sur ses parents.",
+      "speakers": { "B": { "name": "Bilāl", "voice": "m1" }, "H": { "name": "Hishām", "voice": "m2" } },
+      "lines": [
+        {
+          "speaker": "H",
+          "ar": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.",
+          "fr": "La paix soit sur vous, ainsi que la miséricorde d'Allah et ses bénédictions."
+        },
+        {
+          "speaker": "B",
+          "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ. كَيْفَ حَالُكَ يَا أَخِي؟ مَنِ الْأَخُ؟",
+          "fr": "Et sur vous la paix, ainsi que la miséricorde d'Allah et ses bénédictions. Comment vas-tu, mon frère ? Qui est ce frère ?"
+        },
+        {
+          "speaker": "H",
+          "ar": "أَنَا مُهَنْدِسٌ جَدِيدٌ. اِسْمِي هِشَامٌ. أَنَا مِنَ الْوِلَايَاتِ الْمُتَّحِدَةِ.",
+          "fr": "Je suis un nouvel ingénieur. Je m'appelle Hishām. Je viens des États-Unis."
+        },
+        {
+          "speaker": "B",
+          "ar": "أَهْلًا وَسَهْلًا وَمَرْحَبًا بِكَ يَا أَخِي. أَنَا مَسْرُورٌ بِلِقَائِكَ. أَنَا زَمِيلُكَ. اِسْمِي بِلَالُ بْنُ حَامِدٍ. أَمِنْ وَاشِنْطُنَ أَنْتَ يَا هِشَامُ؟",
+          "fr": "Sois le bienvenu, mon frère ! Je suis ravi de te rencontrer. Je suis ton camarade. Je m'appelle Bilāl ibn Ḥāmid. Es-tu de Washington, Hishām ?"
+        },
+        {
+          "speaker": "H",
+          "ar": "لَا، أَنَا لَسْتُ مِنْ وَاشِنْطُنَ. إِنِّي مِنْ نِيُويُورْكَ.",
+          "fr": "Non, je ne suis pas de Washington. Je suis de New York."
+        },
+        { "speaker": "B", "ar": "أَمُسْلِمٌ أَبُوكَ يَا هِشَامُ؟", "fr": "Ton père est-il musulman, Hishām ?" },
+        { "speaker": "H", "ar": "لَا، هُوَ لَيْسَ بِمُسْلِمٍ.", "fr": "Non, il n'est pas musulman." },
+        { "speaker": "B", "ar": "وَأُمُّكَ، أَمُسْلِمَةٌ هِيَ؟", "fr": "Et ta mère, est-elle musulmane ?" },
+        { "speaker": "H", "ar": "لَا، هِيَ لَيْسَتْ بِمُسْلِمَةٍ.", "fr": "Non, elle n'est pas musulmane." }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Explication"],
+          "rows": [
+            [
+              "{ar|بِلَالُ بْنُ حَامِدٍ}",
+              "Bilāl, fils de Ḥāmid",
+              "{ar|اِبْنٌ} (tome 1, chapitre 5) perd son alif écrit entre deux noms propres : {ar|بْنُ}"
+            ],
+            [
+              "{ar|مَنِ الْأَخُ؟}",
+              "qui est ce frère ?",
+              "le {ar|ن} de {ar|مَنْ} prend une kasra devant l'alif de {ar|الْ}, pour ne pas enchaîner deux sans-voyelle"
+            ],
+            [
+              "{ar|مَسْرُورٌ بِلِقَائِكَ}",
+              "ravi de te rencontrer",
+              "{ar|بِ} + {ar|لِقَاءٌ} + {ar|كَ} (le {ar|كَ} est le pronom « toi », comme au tome 1, chapitre 10)"
+            ],
+            [
+              "{ar|أَبُوكَ}, {ar|أُمُّكَ}, {ar|زَمِيلُكَ}",
+              "ton père, ta mère, ton camarade",
+              "un nom + le pronom collé {ar|كَ}"
+            ],
+            [
+              "{ar|أَمُسْلِمٌ أَبُوكَ؟}",
+              "ton père est-il musulman ?",
+              "{ar|أَ} + le prédicat + le sujet (comme au chapitre 1)"
+            ],
+            [
+              "{ar|لَسْتُ}, {ar|لَيْسَ}, {ar|لَيْسَتْ}",
+              "je ne suis pas, il n'est pas, elle n'est pas",
+              "les formes de {ar|لَيْسَ} que tu viens d'étudier"
+            ]
+          ]
+        },
+        { "type": "note", "text": "Le texte du livre a très peu de voyelles : la vocalisation est celle de l'app." }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "D'où vient Hishām ?" },
+      "choices": [ { "fr": "De New York" }, { "fr": "De Washington" }, { "fr": "De Londres" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l02.dialogue-1#1" },
+      "explain": "{ar|إِنِّي مِنْ نِيُويُورْكَ} : « je suis de New York ». Il vient des États-Unis."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Que dit Hishām de lui au début ?" },
+      "choices": [
+        { "fr": "Il est un nouvel ingénieur" },
+        { "fr": "Il est un ancien professeur" },
+        { "fr": "Il est étudiant" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l02.dialogue-1#1" },
+      "explain": "{ar|أَنَا مُهَنْدِسٌ جَدِيدٌ}."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Hishām est de Washington." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l02.dialogue-1#1" },
+      "explain": "Non : {ar|أَنَا لَسْتُ مِنْ وَاشِنْطُنَ}, il est de New York."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-1#6",
+      "type": "question",
+      "prompt": { "fr": "Le père de Hishām est-il musulman ?" },
+      "choices": [ { "fr": "Non, il ne l'est pas" }, { "fr": "Oui, il l'est" } ],
+      "answer": 0,
+      "shuffle": false,
+      "context": { "dialogue": "medine-t2.l02.dialogue-1#1" },
+      "explain": "{ar|هُوَ لَيْسَ بِمُسْلِمٍ}."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-1#7",
+      "type": "true_false",
+      "statement": { "fr": "La mère de Hishām est musulmane." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l02.dialogue-1#1" },
+      "explain": "Non : {ar|هِيَ لَيْسَتْ بِمُسْلِمَةٍ}."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-1#8",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} مِنْ وَاشِنْطُنَ.",
+      "fr": "Je ne suis pas de Washington.",
+      "gaps": [ { "answers": ["لَسْتُ"] } ],
+      "options": ["لَسْتُ", "لَسْنَا", "لَيْسَ"],
+      "context": { "dialogue": "medine-t2.l02.dialogue-1#1" },
+      "explain": "« Je » : {ar|لَسْتُ}."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-1#9",
+      "type": "fill_gap",
+      "sentence": "هِيَ {0} بِمُسْلِمَةٍ.",
+      "fr": "Elle n'est pas musulmane.",
+      "gaps": [ { "answers": ["لَيْسَتْ"] } ],
+      "options": ["لَيْسَتْ", "لَيْسَ", "لَسْنَ"],
+      "context": { "dialogue": "medine-t2.l02.dialogue-1#1" },
+      "explain": "« Elle » : {ar|لَيْسَتْ}."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-1#10",
+      "type": "order",
+      "fr": "Non, il n'est pas musulman.",
+      "answers": [["لَا،", "هُوَ", "لَيْسَ", "بِمُسْلِمٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l02.dialogue-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je suis ravi de te rencontrer.",
+      "answers": ["أَنَا مَسْرُورٌ بِلِقَائِكَ.", "مَسْرُورٌ بِلِقَائِكَ."]
+    },
+    {
+      "id": "medine-t2.l02.dialogue-1#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il n'est pas musulman.",
+      "answers": ["هُوَ لَيْسَ بِمُسْلِمٍ.", "هُوَ لَيْسَ مُسْلِمًا.", "لَيْسَ بِمُسْلِمٍ.", "لَيْسَ مُسْلِمًا."]
+    }
+  ]
+}

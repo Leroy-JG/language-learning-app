@@ -1,0 +1,138 @@
+{
+  "id": "medine-t2.l02.practice-1",
+  "type": "grammar",
+  "title": "Conjuguer au passé",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l02.practice-1#1",
+      "type": "tip",
+      "title": "L'exercice du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande : « Donne à ces verbes un sujet (un pronom collé) et utilise tous les pronoms pour chaque verbe. » Voici son modèle, avec {ar|أَكَلَ} (« il a mangé ») :"
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Verbe", "Sens"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|أَكَلْتُ}", "j'ai mangé"],
+            ["{ar|نَحْنُ}", "{ar|أَكَلْنَا}", "nous avons mangé"],
+            ["{ar|أَنْتَ}", "{ar|أَكَلْتَ}", "tu as mangé (à un homme)"],
+            ["{ar|أَنْتِ}", "{ar|أَكَلْتِ}", "tu as mangé (à une femme)"],
+            ["{ar|أَنْتُمَا}", "{ar|أَكَلْتُمَا}", "vous avez mangé (à deux personnes)"],
+            ["{ar|أَنْتُمْ}", "{ar|أَكَلْتُمْ}", "vous avez mangé (à plusieurs hommes)"],
+            ["{ar|أَنْتُنَّ}", "{ar|أَكَلْتُنَّ}", "vous avez mangé (à plusieurs femmes)"],
+            ["{ar|هُوَ}", "{ar|أَكَلَ}", "il a mangé"],
+            ["{ar|هِيَ}", "{ar|أَكَلَتْ}", "elle a mangé"],
+            ["{ar|هُمَا}", "{ar|أَكَلَا}", "eux deux ont mangé"],
+            ["{ar|هُمْ}", "{ar|أَكَلُوا}", "ils ont mangé"],
+            ["{ar|هُنَّ}", "{ar|أَكَلْنَ}", "elles ont mangé"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Il reste à faire de même avec {ar|ضَرَبَ}, {ar|خَرَجَ} et {ar|دَرَسَ}. Dans le PDF, la fin de la ligne du modèle reprend les formes de {ar|كَتَبَ} (copiées de l'exemple précédent) et {ar|نَحْنُ} n'y figure pas : l'app donne la ligne complète, celle du tableau ci-dessus."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.practice-1#2",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Tu as frappé. (à un homme)",
+      "answers": ["ضَرَبْتَ.", "أَنْتَ ضَرَبْتَ."]
+    },
+    {
+      "id": "medine-t2.l02.practice-1#3",
+      "type": "fill_gap",
+      "sentence": "هِيَ {0} مِنَ الْمَسْجِدِ.",
+      "fr": "Elle est sortie de la mosquée.",
+      "gaps": [ { "answers": ["خَرَجَتْ"] } ],
+      "options": ["خَرَجَتْ", "خَرَجَ", "خَرَجَا", "خَرَجُوا"],
+      "explain": "« Elle » : {ar|خَرَجَتْ}, avec la marque du féminin {ar|تْ}."
+    },
+    {
+      "id": "medine-t2.l02.practice-1#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Vous êtes sortis. (à deux personnes)",
+      "answers": ["خَرَجْتُمَا.", "أَنْتُمَا خَرَجْتُمَا."]
+    },
+    {
+      "id": "medine-t2.l02.practice-1#5",
+      "type": "question",
+      "prompt": { "fr": "Quelle forme de {ar|ضَرَبَ} va avec {ar|هُمَا} ?" },
+      "choices": [ { "ar": "ضَرَبَا" }, { "ar": "ضَرَبُوا" }, { "ar": "ضَرَبْنَ" } ],
+      "answer": 0,
+      "explain": "« Eux deux » : le duel {ar|ا}, avec une fatha devant lui."
+    },
+    {
+      "id": "medine-t2.l02.practice-1#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ils ont étudié. (plusieurs hommes)",
+      "answers": ["دَرَسُوا.", "هُمْ دَرَسُوا."]
+    },
+    {
+      "id": "medine-t2.l02.practice-1#7",
+      "type": "order",
+      "fr": "Vous êtes sortis de l'école. (plusieurs hommes)",
+      "answers": [["أَنْتُمْ", "خَرَجْتُمْ", "مِنَ", "الْمَدْرَسَةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l02.practice-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles ont frappé.",
+      "answers": ["ضَرَبْنَ.", "هُنَّ ضَرَبْنَ."]
+    },
+    {
+      "id": "medine-t2.l02.practice-1#9",
+      "type": "fill_gap",
+      "sentence": "أَنْتُمْ {0} فِي الْجَامِعَةِ.",
+      "fr": "Vous avez étudié à l'université. (plusieurs hommes)",
+      "gaps": [ { "answers": ["دَرَسْتُمْ"] } ],
+      "options": ["دَرَسْتُمْ", "دَرَسْتُمَا", "دَرَسْتُنَّ", "دَرَسُوا"],
+      "explain": "« Vous » (plusieurs hommes) : {ar|أَنْتُمْ} donne la terminaison {ar|تُمْ}."
+    },
+    {
+      "id": "medine-t2.l02.practice-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Vous avez étudié. (à plusieurs femmes)",
+      "answers": ["دَرَسْتُنَّ.", "أَنْتُنَّ دَرَسْتُنَّ."]
+    },
+    {
+      "id": "medine-t2.l02.practice-1#11",
+      "type": "question",
+      "prompt": { "fr": "Quelle forme de {ar|خَرَجَ} va avec {ar|هُنَّ} ?" },
+      "choices": [ { "ar": "خَرَجْنَ" }, { "ar": "خَرَجُوا" }, { "ar": "خَرَجَتْ" } ],
+      "answer": 0,
+      "explain": "« Elles » : la terminaison {ar|نَ}, avec un sukūn sur le {ar|ج}."
+    },
+    {
+      "id": "medine-t2.l02.practice-1#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elle est sortie.",
+      "answers": ["خَرَجَتْ.", "هِيَ خَرَجَتْ."]
+    },
+    {
+      "id": "medine-t2.l02.practice-1#13",
+      "type": "order",
+      "fr": "Nous sommes sortis de la mosquée.",
+      "answers": [["نَحْنُ", "خَرَجْنَا", "مِنَ", "الْمَسْجِدِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l02.practice-1#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai étudié.",
+      "answers": ["دَرَسْتُ.", "أَنَا دَرَسْتُ."]
+    }
+  ]
+}

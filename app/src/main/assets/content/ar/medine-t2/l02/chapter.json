@@ -1,0 +1,21 @@
+{
+  "id": "medine-t2.l02",
+  "number": 2,
+  "title": { "ar": "الدَّرْسُ الثَّانِي", "fr": "Le verbe, les pronoms sujets et {ar|لَيْسَ}" },
+  "description": "Le verbe et son sujet ; les pronoms sujets collés au passé (douze formes) ; {ar|لَيْسَ} et la négation de la phrase nominale ; poste, banque et rencontre ; le texte du livre et ses exercices.",
+  "source": "Tome de Médine 2, leçon 2",
+  "sections": [
+    { "title": "Revoir le verbe et son sujet", "activities": ["revue-1"] },
+    { "title": "Les trois temps et le sujet du verbe", "activities": ["grammar-1"] },
+    { "title": "Les pronoms, 3ᵉ partie", "activities": ["grammar-2"] },
+    { "title": "Le pronom sujet collé au verbe", "activities": ["grammar-3", "grammar-4", "grammar-5"] },
+    { "title": "Frapper, étudier et conjuguer", "activities": ["vocab-1", "practice-1"] },
+    {
+      "title": "Ceux qui abrogent, suite : {ar|لَيْسَ}",
+      "activities": ["grammar-6", "grammar-7", "grammar-8", "grammar-9", "practice-2", "practice-3"]
+    },
+    { "title": "Rencontre, poste et banque", "activities": ["vocab-2", "vocab-3", "practice-5"] },
+    { "title": "Le texte du livre", "activities": ["dialogue-1", "dialogue-2", "practice-4"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

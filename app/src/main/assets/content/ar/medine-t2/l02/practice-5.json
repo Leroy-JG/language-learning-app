@@ -1,0 +1,124 @@
+{
+  "id": "medine-t2.l02.practice-5",
+  "type": "grammar",
+  "title": "Ajouter {ar|إِنَّ}",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l02.practice-5#1",
+      "type": "tip",
+      "title": "Le modèle du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande : « Ajoute {ar|إِنَّ} aux phrases suivantes. » Dans le modèle, la phrase commence par le prédicat, un groupe « préposition + nom », et le sujet vient après :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "لِي ثَلَاثُ أَخَوَاتٍ", "fr": "j'ai trois sœurs" },
+              "to": { "ar": "إِنَّ لِي ثَلَاثَ أَخَوَاتٍ", "fr": "certes, j'ai trois sœurs" },
+              "label": "avec {ar|إِنَّ}"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "L'ordre d'origine est {ar|إِنَّ ثَلَاثَ أَخَوَاتٍ لِي} : le prédicat {ar|لِي} a été avancé. Après {ar|إِنَّ}, le sujet passe à l'accusatif : {ar|ثَلَاثُ} devient {ar|ثَلَاثَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.practice-5#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "فِي الْفَصْلِ خَمْسَةُ طُلَّابٍ جُدُدٍ.",
+      "answers": ["إِنَّ فِي الْفَصْلِ خَمْسَةَ طُلَّابٍ جُدُدٍ."],
+      "fr": "Certes, il y a cinq nouveaux étudiants dans la classe.",
+      "instruction": "Ajoute {ar|إِنَّ} au début de la phrase.",
+      "explain": "Le sujet est {ar|خَمْسَةُ طُلَّابٍ جُدُدٍ} : son premier mot passe à l'accusatif ({ar|خَمْسَةَ})."
+    },
+    {
+      "id": "medine-t2.l02.practice-5#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|إِنَّ لِي ثَلَاثَ أَخَوَاتٍ}, pourquoi {ar|ثَلَاثَ} est-il à l'accusatif ?" },
+      "choices": [
+        { "fr": "parce que c'est le sujet de {ar|إِنَّ}" },
+        { "fr": "parce que c'est le prédicat de {ar|لَيْسَ}" },
+        { "fr": "parce que c'est un adverbe" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|إِنَّ}, le sujet passe à l'accusatif ; le prédicat est ici le groupe {ar|لِي}."
+    },
+    {
+      "id": "medine-t2.l02.practice-5#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "لَنَا مُدَرِّسٌ جَيِّدٌ.",
+      "answers": ["إِنَّ لَنَا مُدَرِّسًا جَيِّدًا."],
+      "fr": "Certes, nous avons un bon enseignant.",
+      "instruction": "Ajoute {ar|إِنَّ} au début de la phrase.",
+      "explain": "Le sujet {ar|مُدَرِّسٌ جَيِّدٌ} (nom + adjectif) passe tout entier à l'accusatif : {ar|مُدَرِّسًا جَيِّدًا}."
+    },
+    {
+      "id": "medine-t2.l02.practice-5#5",
+      "type": "order",
+      "fr": "Certes, j'ai mille dollars à la banque.",
+      "answers": [["إِنَّ", "لِي", "أَلْفَ", "دُولَارٍ", "فِي", "الْمَصْرِفِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l02.practice-5#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "فِي جَيْبِي مِائَةُ رِيَالٍ.",
+      "answers": ["إِنَّ فِي جَيْبِي مِائَةَ رِيَالٍ."],
+      "fr": "Certes, j'ai cent riyals dans ma poche.",
+      "instruction": "Ajoute {ar|إِنَّ} au début de la phrase.",
+      "explain": "Le professeur écrit {ar|مِائَةُ دِينَارٍ} (« cent dinars ») ; ici le nom compté est {ar|رِيَالٍ}, déjà vu."
+    },
+    {
+      "id": "medine-t2.l02.practice-5#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|إِنَّ فِي جَيْبِي مِائَةَ رِيَالٍ}, quel mot est le sujet de {ar|إِنَّ} ?" },
+      "choices": [ { "ar": "مِائَةَ" }, { "ar": "جَيْبِي" }, { "ar": "رِيَالٍ" } ],
+      "answer": 0,
+      "explain": "Le sujet est le groupe {ar|مِائَةَ رِيَالٍ} ; son premier mot, {ar|مِائَةَ}, porte la fatha de l'accusatif. {ar|رِيَالٍ} est son second terme, au génitif."
+    },
+    {
+      "id": "medine-t2.l02.practice-5#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "فِي الْهِنْدِ أَنْهَارٌ كَثِيرَةٌ.",
+      "answers": ["إِنَّ فِي الْهِنْدِ أَنْهَارًا كَثِيرَةً."],
+      "fr": "Certes, il y a beaucoup de rivières en Inde.",
+      "instruction": "Ajoute {ar|إِنَّ} au début de la phrase."
+    },
+    {
+      "id": "medine-t2.l02.practice-5#9",
+      "type": "order",
+      "fr": "Certes, il y a beaucoup de rivières en Inde.",
+      "answers": [["إِنَّ", "فِي", "الْهِنْدِ", "أَنْهَارًا", "كَثِيرَةً"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l02.practice-5#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "لَكَ بَرْقِيَّةٌ فِي مَكْتَبِ الْبَرِيدِ.",
+      "answers": ["إِنَّ لَكَ بَرْقِيَّةً فِي مَكْتَبِ الْبَرِيدِ."],
+      "fr": "Certes, tu as un télégramme au bureau de poste. (à un homme)",
+      "instruction": "Ajoute {ar|إِنَّ} au début de la phrase."
+    },
+    {
+      "id": "medine-t2.l02.practice-5#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِي أَلْفُ دُولَارٍ فِي الْمَصْرِفِ.",
+      "answers": ["إِنَّ لِي أَلْفَ دُولَارٍ فِي الْمَصْرِفِ."],
+      "fr": "Certes, j'ai mille dollars à la banque.",
+      "instruction": "Ajoute {ar|إِنَّ} au début de la phrase."
+    }
+  ]
+}

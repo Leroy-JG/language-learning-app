@@ -189,3 +189,10 @@ Le cours 1 (PDF « 1a » et « 1b », fournis ensemble comme « le premier chapi
 - **`إِنَّ` / `أَنَّ`** (piège n° 3) : `إِنَّ` commence la phrase d'ordinaire ; `أَنَّ` suit un autre mot (verbe,
   conjonction…, déjà vu dans `لِأَنَّهُ`). Ne pas écrire « début / milieu » sans nuance.
 - **Pas encore fait** : défis et examen du tome 2 (questions 3 et 4 du §7), la « Révision 1 ».
+
+## 9. Avancement : le chapitre 2 (`medine-t2.l02`)
+
+Le cours 2 (PDF « 2a » et « 2b », fournis ensemble) est publié : `docs/sources-t2-lecon-2.md`. Il réunit l'introduction « le verbe, 1re partie »
+(trois temps, sujet du verbe), les pronoms sujets collés du passé (douze formes, tableau de référence dans `l02.grammar-4`),
+`لَيْسَ` (tableau de référence dans `l02.grammar-7`, `لَيْسَ لِي`, les quatre accusatifs) et le texte du livre (Hishām et Bilāl).
+Le complément d'objet, le présent et l'impératif restent « pas encore enseignés ».

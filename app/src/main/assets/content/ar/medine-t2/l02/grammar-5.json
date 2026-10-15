@@ -1,0 +1,176 @@
+{
+  "id": "medine-t2.l02.grammar-5",
+  "type": "grammar",
+  "title": "La lettre qui précède le pronom",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l02.grammar-5#1",
+      "type": "tip",
+      "title": "Une voyelle sur le pronom : un sukūn avant lui",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand le pronom sujet collé a une voyelle ({ar|حَرَكَةٌ}), la lettre qui le précède devient sans voyelle ({ar|سَاكِنٌ}), c'est-à-dire qu'elle prend un sukūn. Regarde le {ar|ب} de {ar|كَتَبَ} :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "كَتَبَ", "fr": "il a écrit" },
+              "to": { "ar": "كَتَبْتُ", "fr": "j'ai écrit" },
+              "label": "avec « je »"
+            },
+            {
+              "from": { "ar": "كَتَبَ", "fr": "il a écrit" },
+              "to": { "ar": "كَتَبْنَا", "fr": "nous avons écrit" },
+              "label": "avec « nous »"
+            },
+            {
+              "from": { "ar": "خَرَجَ", "fr": "il est sorti" },
+              "to": { "ar": "خَرَجْتَ", "fr": "tu es sorti" },
+              "label": "avec « tu »"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "La raison : l'arabe évite d'enchaîner quatre voyelles brèves dans un même mot. {ar|كَتَبَتُ} aurait une fatha, une fatha, une fatha puis une damma ; le dernier {ar|ب} du verbe devient donc sans voyelle : {ar|كَتَبْتُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.grammar-5#2",
+      "type": "tip",
+      "title": "Avec {ar|وا} : une damma avant lui",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand le pronom sujet est {ar|وا} (« ils », plusieurs hommes), la lettre qui le précède prend une **damma**, quelle que soit sa voyelle d'origine :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "كَتَبَ", "fr": "il a écrit" },
+              "to": { "ar": "كَتَبُوا", "fr": "ils ont écrit" },
+              "label": "la fatha devient damma"
+            },
+            {
+              "from": { "ar": "حَفِظَ", "fr": "il a mémorisé" },
+              "to": { "ar": "حَفِظُوا", "fr": "ils ont mémorisé" },
+              "label": "la kasra devient damma"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le {ar|ا} qui suit {ar|وا} est écrit, mais il ne se prononce pas : {ar|كَتَبُوا} se lit « katabū »."
+        },
+        { "type": "note", "text": "Au duel ({ar|ا}), la lettre qui précède garde sa fatha : {ar|كَتَبَا}." }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.grammar-5#3",
+      "type": "tip",
+      "title": "Le tableau du professeur",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pronom collé", "La lettre qui précède porte…", "Exemple"],
+          "rows": [
+            [
+              "{ar|تُ}, {ar|نَا}, {ar|تَ}, {ar|تِ}, {ar|تُمَا}, {ar|تُمْ}, {ar|تُنَّ}, {ar|نَ}",
+              "un sukūn",
+              "{ar|كَتَبْتُ}, {ar|كَتَبْنَ}"
+            ],
+            ["{ar|ا} (duel)", "une fatha", "{ar|كَتَبَا}"],
+            ["{ar|وا}", "une damma", "{ar|كَتَبُوا}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.grammar-5#4",
+      "type": "sort",
+      "categories": [ { "fr": "un sukūn" }, { "fr": "une fatha" }, { "fr": "une damma" } ],
+      "cards": [
+        { "ar": "كَتَبْتُ", "category": 0 },
+        { "ar": "خَرَجْنَا", "category": 0 },
+        { "ar": "كَتَبَا", "category": 1 },
+        { "ar": "جَلَسَا", "category": 1 },
+        { "ar": "كَتَبُوا", "category": 2 },
+        { "ar": "حَفِظُوا", "category": 2 }
+      ],
+      "instruction": "Quelle voyelle précède le pronom ?",
+      "explain": "Devant {ar|تُ} et {ar|نَا} : un sukūn. Devant le duel {ar|ا} : une fatha. Devant le pronom « ils » ({ar|كَتَبُوا}) : une damma."
+    },
+    {
+      "id": "medine-t2.l02.grammar-5#5",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|كَتَبُوا}, quelle voyelle porte le {ar|ب} ?" },
+      "choices": [ { "fr": "une damma" }, { "fr": "une fatha" }, { "fr": "un sukūn" } ],
+      "answer": 0,
+      "explain": "Devant le pronom « ils », la lettre qui précède prend toujours une damma."
+    },
+    {
+      "id": "medine-t2.l02.grammar-5#6",
+      "type": "true_false",
+      "statement": { "fr": "Avec le pronom « ils » (plusieurs hommes), la lettre qui précède porte une fatha." },
+      "answer": false,
+      "explain": "Faux : elle porte une damma ({ar|كَتَبُوا}, {ar|حَفِظُوا}). La fatha reste devant le duel {ar|ا} ({ar|كَتَبَا})."
+    },
+    {
+      "id": "medine-t2.l02.grammar-5#7",
+      "type": "fill_gap",
+      "sentence": "هُمْ {0} فِي الْفَصْلِ.",
+      "fr": "Ils se sont assis dans la classe.",
+      "gaps": [ { "answers": ["جَلَسُوا"] } ],
+      "options": ["جَلَسُوا", "جَلَسَا", "جَلَسْنَ", "جَلَسَتْ"],
+      "explain": "« Ils » (plusieurs hommes) : la terminaison du pluriel masculin, avec une damma sur le {ar|س}."
+    },
+    {
+      "id": "medine-t2.l02.grammar-5#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ils sont revenus.",
+      "answers": ["رَجَعُوا.", "هُمْ رَجَعُوا."]
+    },
+    {
+      "id": "medine-t2.l02.grammar-5#9",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi le {ar|ب} de {ar|كَتَبْتُ} porte-t-il un sukūn ?" },
+      "choices": [
+        { "fr": "pour éviter d'enchaîner quatre voyelles brèves dans le mot" },
+        { "fr": "parce que le verbe est au présent" },
+        { "fr": "parce que le sujet est un nom apparent" }
+      ],
+      "answer": 0,
+      "explain": "Le pronom {ar|تُ} a sa voyelle : sans sukūn, le mot enchaînerait quatre voyelles brèves."
+    },
+    {
+      "id": "medine-t2.l02.grammar-5#10",
+      "type": "fill_gap",
+      "sentence": "هُمَا {0} فِي الْفَصْلِ.",
+      "fr": "Eux deux se sont assis dans la classe.",
+      "gaps": [ { "answers": ["جَلَسَا"] } ],
+      "options": ["جَلَسَا", "جَلَسُوا", "جَلَسْنَ", "جَلَسَتْ"],
+      "explain": "« Eux deux » : le duel {ar|ا}, avec une fatha sur le {ar|س}."
+    },
+    {
+      "id": "medine-t2.l02.grammar-5#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous sommes allés.",
+      "answers": ["ذَهَبْنَا.", "نَحْنُ ذَهَبْنَا."]
+    },
+    {
+      "id": "medine-t2.l02.grammar-5#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ils ont mémorisé.",
+      "answers": ["حَفِظُوا.", "هُمْ حَفِظُوا."]
+    }
+  ]
+}

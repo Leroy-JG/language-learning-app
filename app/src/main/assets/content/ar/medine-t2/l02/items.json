@@ -1,0 +1,168 @@
+[
+  {
+    "id": "w:madi",
+    "kind": "word",
+    "ar": "الْمَاضِي",
+    "fr": "le passé (temps du verbe)",
+    "translit": "al-māḍī",
+    "gender": "m",
+    "note": "Le verbe au passé dit qu'une action est terminée : {ar|كَتَبَ} (« il a écrit »).",
+    "example": { "ar": "كَتَبَ زَيْدٌ.", "fr": "Zayd a écrit." }
+  },
+  {
+    "id": "w:mudari",
+    "kind": "word",
+    "ar": "الْمُضَارِعُ",
+    "fr": "le présent (temps du verbe, aussi le futur)",
+    "translit": "al-muḍāriʿu",
+    "gender": "m",
+    "note": "Il sert pour le présent et pour le futur, selon le contexte : {ar|يَكْتُبُ} (« il écrit » ou « il écrira »)."
+  },
+  {
+    "id": "w:amr",
+    "kind": "word",
+    "ar": "الْأَمْرُ",
+    "fr": "l'impératif (temps du verbe)",
+    "translit": "al-ʾamru",
+    "gender": "m",
+    "note": "Il sert à donner un ordre : {ar|اُكْتُبْ} (« écris ! »)."
+  },
+  {
+    "id": "w:ism-zahir",
+    "kind": "word",
+    "ar": "اِسْمٌ ظَاهِرٌ",
+    "fr": "un nom apparent (un nom écrit dans la phrase, par opposition au pronom)",
+    "translit": "ismun ẓāhirun",
+    "gender": "m",
+    "note": "{ar|ظَاهِرٌ} veut dire « visible, apparent ». {ar|زَيْدٌ} ou {ar|الطَّالِبُ} sont des noms apparents ; {ar|هُوَ} ou {ar|أَنَا} sont des pronoms."
+  },
+  {
+    "id": "w:mustatir",
+    "kind": "word",
+    "ar": "مُسْتَتِرٌ",
+    "fr": "caché (un pronom sous-entendu, qu'on n'écrit pas)",
+    "translit": "mustatirun",
+    "note": "Dans {ar|خَرَجَ} (« il est sorti »), le « il » n'est écrit nulle part : il est caché dans le verbe. À l'impératif, le « toi » est caché de la même façon (tome 1, chapitre 8)."
+  },
+  {
+    "id": "w:damir-muttasil-marfu",
+    "kind": "word",
+    "ar": "الضَّمِيرُ الْمُتَّصِلُ الْمَرْفُوعُ",
+    "fr": "le pronom sujet affixé (collé au verbe)",
+    "translit": "aḍ-ḍamīru l-muttaṣilu l-marfūʿu",
+    "plural": "الضَّمَائِرُ الْمُتَّصِلَةُ الْمَرْفُوعَةُ",
+    "gender": "m",
+    "note": "Littéralement : « le pronom collé du nominatif ». Il se colle à la fin d'un verbe et en est le sujet : {ar|خَرَجْتُ} (« je suis sorti »)."
+  },
+  {
+    "id": "p:kana-wa-akhawatuha",
+    "kind": "phrase",
+    "ar": "كَانَ وَأَخَوَاتُهَا",
+    "fr": "kāna et ses sœurs (verbes qui agissent sur la phrase nominale)",
+    "translit": "kāna wa-ʾakhawātuhā",
+    "note": "Le professeur appelle ainsi un groupe de verbes qui entrent sur la phrase nominale, comme {ar|كَانَ} (« il était »). {ar|لَيْسَ} est le premier que tu étudies ; les autres viendront dans les prochains chapitres."
+  },
+  {
+    "id": "w:laysa",
+    "kind": "word",
+    "ar": "لَيْسَ",
+    "fr": "ne… pas, n'est pas (il nie la phrase nominale)",
+    "translit": "laysa",
+    "note": "C'est un verbe : il se conjugue comme un verbe du passé ({ar|لَسْتُ}, {ar|لَسْنَا}…), mais il n'a ni présent ni impératif. D'ordinaire, il se traduit par un présent : « il n'est pas ». Il se place devant la phrase nominale, la nie et change le cas du prédicat.",
+    "example": { "ar": "لَيْسَ زَيْدٌ طَالِبًا.", "fr": "Zayd n'est pas étudiant." }
+  },
+  {
+    "id": "w:ism-laysa",
+    "kind": "word",
+    "ar": "اِسْمُ لَيْسَ",
+    "fr": "le nom de {ar|لَيْسَ} (le sujet, qui reste au nominatif)",
+    "translit": "ismu laysa",
+    "gender": "m"
+  },
+  {
+    "id": "w:khabar-laysa",
+    "kind": "word",
+    "ar": "خَبَرُ لَيْسَ",
+    "fr": "le prédicat de {ar|لَيْسَ} (à l'accusatif)",
+    "translit": "khabaru laysa",
+    "gender": "m"
+  },
+  {
+    "id": "w:daraba",
+    "kind": "word",
+    "ar": "ضَرَبَ",
+    "fr": "il a frappé (frapper)",
+    "translit": "ḍaraba",
+    "note": "Ce verbe est suivi de ce qu'on frappe (le complément, que tu étudieras plus tard) : {ar|ضَرَبْتُ زَيْدًا} (« j'ai frappé Zayd »)."
+  },
+  {
+    "id": "w:darasa",
+    "kind": "word",
+    "ar": "دَرَسَ",
+    "fr": "il a étudié (étudier)",
+    "translit": "darasa",
+    "note": "Même racine que {ar|دَرْسٌ} (« une leçon »).",
+    "example": { "ar": "دَرَسْتُ فِي الْجَامِعَةِ.", "fr": "J'ai étudié à l'université." }
+  },
+  {
+    "id": "w:liqa",
+    "kind": "word",
+    "ar": "لِقَاءٌ",
+    "fr": "une rencontre",
+    "translit": "liqāʾun",
+    "plural": "لِقَاءَاتٌ",
+    "gender": "m",
+    "note": "{ar|إِلَى اللِّقَاءِ} est une formule d'au revoir : « à bientôt », littéralement « jusqu'à la rencontre ».",
+    "example": { "ar": "إِلَى اللِّقَاءِ.", "fr": "À bientôt !" }
+  },
+  {
+    "id": "w:masrur",
+    "kind": "word",
+    "ar": "مَسْرُورٌ",
+    "fr": "ravi, content",
+    "translit": "masrūrun",
+    "plural": "مَسْرُورُونَ",
+    "note": "On l'emploie souvent avec {ar|بِ} pour dire de quoi l'on est content : {ar|مَسْرُورٌ بِلِقَائِكَ}. Tu connais aussi {ar|فَرِحٌ} (« content », révision 1).",
+    "example": { "ar": "أَنَا مَسْرُورٌ بِلِقَائِكَ.", "fr": "Je suis ravi de te rencontrer." }
+  },
+  {
+    "id": "w:barid",
+    "kind": "word",
+    "ar": "الْبَرِيدُ",
+    "fr": "la poste, le courrier",
+    "translit": "al-barīdu",
+    "gender": "m",
+    "note": "On dit {ar|بِالْبَرِيدِ} pour « par la poste ».",
+    "example": { "ar": "مَكْتَبُ الْبَرِيدِ بَعِيدٌ.", "fr": "Le bureau de poste est loin." }
+  },
+  {
+    "id": "w:barqiyya",
+    "kind": "word",
+    "ar": "بَرْقِيَّةٌ",
+    "fr": "un télégramme",
+    "translit": "barqiyyatun",
+    "plural": "بَرْقِيَّاتٌ",
+    "gender": "f",
+    "example": { "ar": "هٰذِهِ بَرْقِيَّةٌ.", "fr": "Ceci est un télégramme." }
+  },
+  {
+    "id": "w:masrif",
+    "kind": "word",
+    "ar": "مَصْرِفٌ",
+    "fr": "une banque",
+    "translit": "maṣrifun",
+    "plural": "مَصَارِفُ",
+    "gender": "m",
+    "example": { "ar": "الْمَصْرِفُ خَلْفَ الْمَدْرَسَةِ.", "fr": "La banque est derrière l'école." }
+  },
+  {
+    "id": "p:wilayat-muttahida",
+    "kind": "phrase",
+    "ar": "الْوِلَايَاتُ الْمُتَّحِدَةُ",
+    "fr": "les États-Unis",
+    "translit": "al-wilāyātu l-muttaḥidatu",
+    "note": "Mot à mot : « les États unis ». {ar|وِلَايَةٌ} (pluriel {ar|وِلَايَاتٌ}) veut dire « un État » ; {ar|مُتَّحِدَةٌ} veut dire « unie »."
+  },
+  { "id": "w:washintun", "kind": "word", "ar": "وَاشِنْطُنُ", "fr": "Washington", "translit": "wāshinṭunu" },
+  { "id": "w:niyuyurk", "kind": "word", "ar": "نِيُويُورْكُ", "fr": "New York", "translit": "niyūyūrku" }
+]

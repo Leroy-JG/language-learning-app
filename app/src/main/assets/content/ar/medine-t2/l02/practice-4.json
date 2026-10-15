@@ -1,0 +1,106 @@
+{
+  "id": "medine-t2.l02.practice-4",
+  "type": "grammar",
+  "title": "Questions sur le texte",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l02.practice-4#1",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِنْ أَيْنَ هِشَامٌ؟",
+      "answers": [
+        "هُوَ مِنْ نِيُويُورْكَ.",
+        "هُوَ مِنَ الْوِلَايَاتِ الْمُتَّحِدَةِ.",
+        "إِنَّهُ مِنْ نِيُويُورْكَ.",
+        "إِنَّهُ مِنَ الْوِلَايَاتِ الْمُتَّحِدَةِ.",
+        "مِنْ نِيُويُورْكَ.",
+        "مِنَ الْوِلَايَاتِ الْمُتَّحِدَةِ."
+      ],
+      "fr": "Il est de New York, aux États-Unis.",
+      "context": { "dialogue": "medine-t2.l02.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l02.practice-4#2",
+      "type": "true_false",
+      "statement": { "ar": "هِشَامٌ مِنْ وَاشِنْطُنَ.", "fr": "Hishām est de Washington." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l02.dialogue-1#1" },
+      "explain": "Il dit : {ar|أَنَا لَسْتُ مِنْ وَاشِنْطُنَ}."
+    },
+    {
+      "id": "medine-t2.l02.practice-4#3",
+      "type": "true_false",
+      "statement": { "ar": "أَخَوَاتُهُ مُسْلِمَاتٌ.", "fr": "Ses sœurs sont musulmanes." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l02.dialogue-2#1" },
+      "explain": "{ar|هُنَّ مُسْلِمَاتٌ، وَالْحَمْدُ لِلَّهِ}."
+    },
+    {
+      "id": "medine-t2.l02.practice-4#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِنْ أَيِّ مَدِينَةٍ هُوَ؟",
+      "answers": ["هُوَ مِنْ نِيُويُورْكَ.", "إِنَّهُ مِنْ نِيُويُورْكَ.", "مِنْ نِيُويُورْكَ."],
+      "fr": "Il est de New York.",
+      "context": { "dialogue": "medine-t2.l02.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l02.practice-4#5",
+      "type": "true_false",
+      "statement": { "ar": "بَنَاتُهُ لَسْنَ بِمُتَزَوِّجَاتٍ.", "fr": "Ses filles ne sont pas mariées." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l02.dialogue-2#1" },
+      "explain": "{ar|هُنَّ لَسْنَ بِمُتَزَوِّجَاتٍ}."
+    },
+    {
+      "id": "medine-t2.l02.practice-4#6",
+      "type": "true_false",
+      "statement": { "ar": "أَبْنَاؤُهُ طُلَّابٌ.", "fr": "Ses fils sont étudiants." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l02.dialogue-2#1" },
+      "explain": "Non : {ar|هُمْ لَيْسُوا بِطُلَّابٍ}. Certains sont commerçants, d'autres ingénieurs."
+    },
+    {
+      "id": "medine-t2.l02.practice-4#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ أُخْتًا لَهُ؟",
+      "answers": ["لَهُ ثَلَاثُ أَخَوَاتٍ.", "ثَلَاثُ أَخَوَاتٍ.", "إِنَّ لَهُ ثَلَاثَ أَخَوَاتٍ."],
+      "fr": "Il a trois sœurs.",
+      "context": { "dialogue": "medine-t2.l02.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t2.l02.practice-4#8",
+      "type": "true_false",
+      "statement": { "ar": "أُمُّهُ لَيْسَتْ بِمُسْلِمَةٍ.", "fr": "Sa mère n'est pas musulmane." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l02.dialogue-1#1" },
+      "explain": "{ar|هِيَ لَيْسَتْ بِمُسْلِمَةٍ}."
+    },
+    {
+      "id": "medine-t2.l02.practice-4#9",
+      "type": "true_false",
+      "statement": { "ar": "أَبُوهُ مُسْلِمٌ.", "fr": "Son père est musulman." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l02.dialogue-1#1" },
+      "explain": "Non : {ar|هُوَ لَيْسَ بِمُسْلِمٍ}."
+    },
+    {
+      "id": "medine-t2.l02.practice-4#10",
+      "type": "fill_gap",
+      "sentence": "{0} أَبْنَاؤُهُ بِطُلَّابٍ.",
+      "fr": "Ses fils ne sont pas étudiants.",
+      "gaps": [ { "answers": ["لَيْسُوا"] } ],
+      "options": ["لَيْسُوا", "لَيْسَ", "لَسْنَ", "لَيْسَا"],
+      "explain": "Le sujet {ar|أَبْنَاؤُهُ} est au pluriel masculin : {ar|لَيْسُوا}."
+    },
+    {
+      "id": "medine-t2.l02.practice-4#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il vient de New York.",
+      "answers": ["هُوَ مِنْ نِيُويُورْكَ.", "إِنَّهُ مِنْ نِيُويُورْكَ."]
+    }
+  ]
+}

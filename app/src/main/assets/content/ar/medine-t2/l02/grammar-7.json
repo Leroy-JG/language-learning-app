@@ -1,0 +1,173 @@
+{
+  "id": "medine-t2.l02.grammar-7",
+  "type": "grammar",
+  "title": "{ar|لَيْسَ} avec tous les pronoms",
+  "icon": "circle_red",
+  "screens": [
+    {
+      "id": "medine-t2.l02.grammar-7#1",
+      "type": "tip",
+      "title": "Conjuguer {ar|لَيْسَ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|لَيْسَ} n'existe qu'à cette forme (il n'a ni présent ni impératif), mais il se conjugue comme un verbe du passé, avec les pronoms collés que tu viens d'apprendre. Devant un pronom qui commence par une consonne, le {ar|ي} tombe et le {ar|س} prend un sukūn :"
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Forme", "Sens"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|لَسْتُ}", "je ne suis pas"],
+            ["{ar|نَحْنُ}", "{ar|لَسْنَا}", "nous ne sommes pas"],
+            ["{ar|أَنْتَ}", "{ar|لَسْتَ}", "tu n'es pas (à un homme)"],
+            ["{ar|أَنْتِ}", "{ar|لَسْتِ}", "tu n'es pas (à une femme)"],
+            ["{ar|أَنْتُمَا}", "{ar|لَسْتُمَا}", "vous n'êtes pas (à deux personnes)"],
+            ["{ar|أَنْتُمْ}", "{ar|لَسْتُمْ}", "vous n'êtes pas (à plusieurs hommes)"],
+            ["{ar|أَنْتُنَّ}", "{ar|لَسْتُنَّ}", "vous n'êtes pas (à plusieurs femmes)"],
+            ["{ar|هُوَ}", "{ar|لَيْسَ}", "il n'est pas"],
+            ["{ar|هِيَ}", "{ar|لَيْسَتْ}", "elle n'est pas"],
+            ["{ar|هُمَا}", "{ar|لَيْسَا}", "eux deux ne sont pas"],
+            ["{ar|هُمْ}", "{ar|لَيْسُوا}", "ils ne sont pas"],
+            ["{ar|هُنَّ}", "{ar|لَسْنَ}", "elles ne sont pas"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Les terminaisons sont celles du passé : {ar|تُ}, {ar|نَا}, {ar|تَ}, {ar|تِ}… et, pour « ils », la damma suivie de {ar|وا} ({ar|لَيْسُوا}). Au duel féminin : {ar|لَيْسَتَا}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.grammar-7#2",
+      "type": "tip",
+      "title": "Les dix exemples du professeur",
+      "blocks": [
+        { "type": "paragraph", "text": "Le professeur donne dix phrases, d'abord sans {ar|لَيْسَ}, puis avec :" },
+        {
+          "type": "table",
+          "header": ["Phrase", "Avec {ar|لَيْسَ}", "Sens"],
+          "rows": [
+            ["{ar|حَامِدٌ طَالِبٌ}", "{ar|حَامِدٌ لَيْسَ بِطَالِبٍ}", "Ḥāmid n'est pas étudiant"],
+            ["{ar|الطُّلَّابُ صِغَارٌ}", "{ar|الطُّلَّابُ لَيْسُوا بِصِغَارٍ}", "les étudiants ne sont pas petits"],
+            ["{ar|آمِنَةُ طَبِيبَةٌ}", "{ar|آمِنَةُ لَيْسَتْ بِطَبِيبَةٍ}", "Āmina n'est pas médecin"],
+            [
+              "{ar|الْفَتَيَاتُ مُتَزَوِّجَاتٌ}",
+              "{ar|الْفَتَيَاتُ لَسْنَ بِمُتَزَوِّجَاتٍ}",
+              "les jeunes filles ne sont pas mariées"
+            ],
+            ["{ar|أَنْتَ كَبِيرٌ}", "{ar|أَنْتَ لَسْتَ بِكَبِيرٍ}", "tu n'es pas grand"],
+            ["{ar|أَنْتُمْ جُدُدٌ}", "{ar|أَنْتُمْ لَسْتُمْ بِجُدُدٍ}", "vous n'êtes pas nouveaux"],
+            ["{ar|أَنْتِ فَقِيرَةٌ}", "{ar|أَنْتِ لَسْتِ بِفَقِيرَةٍ}", "tu n'es pas pauvre (à une femme)"],
+            [
+              "{ar|أَنْتُنَّ مُجْتَهِدَاتٌ}",
+              "{ar|أَنْتُنَّ لَسْتُنَّ بِمُجْتَهِدَاتٍ}",
+              "vous n'êtes pas studieuses"
+            ],
+            ["{ar|أَنَا مُدَرِّسٌ}", "{ar|أَنَا لَسْتُ بِمُدَرِّسٍ}", "je ne suis pas enseignant"],
+            ["{ar|نَحْنُ طُلَّابٌ}", "{ar|نَحْنُ لَسْنَا بِطُلَّابٍ}", "nous ne sommes pas étudiants"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans toutes ces phrases, {ar|بِ} est facultative : sans elle, le prédicat est à l'accusatif ({ar|أَنَا لَسْتُ مُدَرِّسًا})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.grammar-7#3",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} بِمُدَرِّسٍ.",
+      "fr": "Je ne suis pas enseignant.",
+      "gaps": [ { "answers": ["لَسْتُ"] } ],
+      "options": ["لَسْتُ", "لَيْسَ", "لَسْنَ", "لَيْسُوا"],
+      "explain": "« Je » : {ar|لَسْتُ}."
+    },
+    {
+      "id": "medine-t2.l02.grammar-7#4",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} بِطُلَّابٍ.",
+      "fr": "Nous ne sommes pas étudiants.",
+      "gaps": [ { "answers": ["لَسْنَا"] } ],
+      "options": ["لَسْنَا", "لَسْنَ", "لَسْتُ", "لَيْسَ"],
+      "explain": "« Nous » : {ar|لَسْنَا}, avec un alif. {ar|لَسْنَ} (sans alif) est le féminin pluriel de la 3e personne."
+    },
+    {
+      "id": "medine-t2.l02.grammar-7#5",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle porte le {ar|ت} de {ar|لَسْتِ} (« tu n'es pas », à une femme) ?" },
+      "choices": [ { "fr": "une kasra" }, { "fr": "une damma" }, { "fr": "une fatha" } ],
+      "answer": 0,
+      "explain": "Comme avec les autres verbes : kasra pour une femme ({ar|لَسْتِ}), fatha pour un homme ({ar|لَسْتَ}), damma pour « je » ({ar|لَسْتُ})."
+    },
+    {
+      "id": "medine-t2.l02.grammar-7#6",
+      "type": "fill_gap",
+      "sentence": "هُمْ {0} بِصِغَارٍ.",
+      "fr": "Ils ne sont pas petits.",
+      "gaps": [ { "answers": ["لَيْسُوا"] } ],
+      "options": ["لَيْسُوا", "لَسْنَ", "لَيْسَا", "لَيْسَتْ"],
+      "explain": "« Ils » : {ar|لَيْسُوا}, avec la terminaison du pluriel masculin."
+    },
+    {
+      "id": "medine-t2.l02.grammar-7#7",
+      "type": "fill_gap",
+      "sentence": "هِيَ {0} بِطَبِيبَةٍ.",
+      "fr": "Elle n'est pas médecin.",
+      "gaps": [ { "answers": ["لَيْسَتْ"] } ],
+      "options": ["لَيْسَتْ", "لَيْسَ", "لَيْسَا", "لَسْنَ"],
+      "explain": "« Elle » : {ar|لَيْسَتْ}, avec la marque du féminin {ar|تْ}."
+    },
+    {
+      "id": "medine-t2.l02.grammar-7#8",
+      "type": "sort",
+      "categories": [
+        { "fr": "la 1re personne (je, nous)" },
+        { "fr": "la 2e personne (tu, vous)" },
+        { "fr": "la 3e personne (il, elle, ils, elles)" }
+      ],
+      "cards": [
+        { "ar": "لَسْنَا", "category": 0 },
+        { "ar": "لَسْتُمْ", "category": 1 },
+        { "ar": "لَيْسُوا", "category": 2 },
+        { "ar": "لَيْسَتْ", "category": 2 },
+        { "ar": "لَسْتُنَّ", "category": 1 },
+        { "ar": "لَسْنَ", "category": 2 }
+      ],
+      "instruction": "Quelle personne ?",
+      "explain": "{ar|لَسْنَا} (« nous ») est de la 1re personne. {ar|لَسْتُمْ} et {ar|لَسْتُنَّ} (« vous ») sont de la 2e. {ar|لَيْسُوا}, {ar|لَيْسَتْ} et {ar|لَسْنَ} (« ils », « elle », « elles ») sont de la 3e."
+    },
+    {
+      "id": "medine-t2.l02.grammar-7#9",
+      "type": "fill_gap",
+      "sentence": "أَنْتُنَّ {0} بِمُجْتَهِدَاتٍ.",
+      "fr": "Vous n'êtes pas studieuses. (à plusieurs femmes)",
+      "gaps": [ { "answers": ["لَسْتُنَّ"] } ],
+      "options": ["لَسْتُنَّ", "لَسْتُمْ", "لَسْنَ", "لَيْسَتْ"],
+      "explain": "« Vous, plusieurs femmes » : {ar|لَسْتُنَّ}."
+    },
+    {
+      "id": "medine-t2.l02.grammar-7#10",
+      "type": "fill_gap",
+      "sentence": "أَنْتَ {0} بِكَبِيرٍ.",
+      "fr": "Tu n'es pas grand. (à un homme)",
+      "gaps": [ { "answers": ["لَسْتَ"] } ],
+      "options": ["لَسْتَ", "لَسْنَا", "لَيْسَ", "لَسْتُمَا"],
+      "explain": "« Toi » (à un homme) : {ar|لَسْتَ}, avec une fatha sur le {ar|ت}."
+    },
+    {
+      "id": "medine-t2.l02.grammar-7#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous ne sommes pas étudiants.",
+      "answers": ["نَحْنُ لَسْنَا بِطُلَّابٍ.", "نَحْنُ لَسْنَا طُلَّابًا.", "لَسْنَا بِطُلَّابٍ.", "لَسْنَا طُلَّابًا."]
+    },
+    {
+      "id": "medine-t2.l02.grammar-7#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je ne suis pas enseignant.",
+      "answers": ["أَنَا لَسْتُ بِمُدَرِّسٍ.", "لَسْتُ بِمُدَرِّسٍ.", "أَنَا لَسْتُ مُدَرِّسًا.", "لَسْتُ مُدَرِّسًا."]
+    }
+  ]
+}

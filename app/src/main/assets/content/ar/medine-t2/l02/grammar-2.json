@@ -1,0 +1,127 @@
+{
+  "id": "medine-t2.l02.grammar-2",
+  "type": "grammar",
+  "title": "Les pronoms : la carte complète",
+  "icon": "telescope",
+  "screens": [
+    {
+      "id": "medine-t2.l02.grammar-2#1",
+      "type": "tip",
+      "title": "Deux familles, trois cas",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais deux familles de pronoms (tome 1, chapitre 10) : les pronoms **isolés** ({ar|الضَّمَائِرُ الْمُنْفَصِلَةُ}), qui sont des mots à part, et les pronoms **collés** ({ar|الضَّمَائِرُ الْمُتَّصِلَةُ}), qui se collent à la fin d'un mot. Chaque famille a des formes pour les cas ({ar|الرَّفْعُ}, {ar|النَّصْبُ}, {ar|الْجَرُّ}). Voici la carte du professeur :"
+        },
+        {
+          "type": "table",
+          "header": ["Famille", "Nominatif", "Accusatif", "Génitif"],
+          "rows": [
+            [
+              "isolé ({ar|مُنْفَصِلٌ})",
+              "{ar|أَنَا}, {ar|أَنْتَ}, {ar|هُوَ}, {ar|هُنَّ}…",
+              "{ar|إِيَّاكَ}… (cité au tome 1)",
+              "aucun"
+            ],
+            [
+              "collé ({ar|مُتَّصِلٌ})",
+              "{ar|تُ}, {ar|نَا}, {ar|وا}… (ce chapitre)",
+              "{ar|كَ}, {ar|هُ}, {ar|نِي}… (déjà croisés après {ar|إِنَّ})",
+              "{ar|عَلَيْكَ}, {ar|مِنْهُمْ}, {ar|إِلَيْنَا}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Aujourd'hui, tu remplis la case « collé, nominatif » : les pronoms qui sont le sujet d'un verbe. Les autres cases se remplissent peu à peu."
+        }
+      ]
+    },
+    { "id": "medine-t2.l02.grammar-2#2", "type": "present", "item": "w:damir-muttasil-marfu" },
+    {
+      "id": "medine-t2.l02.grammar-2#3",
+      "type": "tip",
+      "title": "Où est le pronom collé, et quel est son cas ?",
+      "blocks": [
+        { "type": "paragraph", "text": "Un pronom collé prend son cas de la place où il se trouve :" },
+        {
+          "type": "table",
+          "header": ["Mot", "Pronom collé", "Son cas", "Pourquoi"],
+          "rows": [
+            ["{ar|كِتَابُكَ}", "{ar|كَ}", "génitif", "second terme d'annexion"],
+            ["{ar|مِنْهُمْ}", "{ar|هُمْ}", "génitif", "après la préposition {ar|مِنْ}"],
+            ["{ar|إِنَّكَ}", "{ar|كَ}", "accusatif", "nom de {ar|إِنَّ}"],
+            ["{ar|كَتَبْتُ}", "{ar|تُ}", "nominatif", "sujet du verbe"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pour la plupart des pronoms collés ({ar|كَ}, {ar|هُ}, {ar|هُمْ}, {ar|نَا}…), la forme est la même à l'accusatif et au génitif (à l'adaptation près vue au tome 1 : {ar|هُ} devient {ar|هِ} après une kasra) : seul le rôle dans la phrase indique le cas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l02.grammar-2#4",
+      "type": "sort",
+      "categories": [ { "fr": "un pronom isolé" }, { "fr": "un pronom collé" } ],
+      "cards": [
+        { "ar": "أَنْتُمْ", "category": 0 },
+        { "ar": "بَيْتُهُمْ", "category": 1 },
+        { "ar": "هِيَ", "category": 0 },
+        { "ar": "عَلَيْكَ", "category": 1 },
+        { "ar": "نَحْنُ", "category": 0 },
+        { "ar": "مِنْهُنَّ", "category": 1 }
+      ],
+      "instruction": "Pronom isolé ou pronom collé ?",
+      "explain": "Un pronom isolé est un mot à part ({ar|أَنْتُمْ}, {ar|هِيَ}, {ar|نَحْنُ}). Un pronom collé termine un autre mot : {ar|بَيْتُهُمْ}, {ar|عَلَيْكَ}, {ar|مِنْهُنَّ}."
+    },
+    {
+      "id": "medine-t2.l02.grammar-2#5",
+      "type": "sort",
+      "categories": [
+        { "fr": "nominatif (sujet du verbe)" },
+        { "fr": "accusatif (après {ar|إِنَّ})" },
+        { "fr": "génitif (annexion ou préposition)" }
+      ],
+      "cards": [
+        { "ar": "ذَهَبْتُ", "category": 0 },
+        { "ar": "كِتَابُكَ", "category": 2 },
+        { "ar": "إِنَّكَ", "category": 1 },
+        { "ar": "خَرَجْنَا", "category": 0 },
+        { "ar": "مِنْهُمْ", "category": 2 },
+        { "ar": "إِنَّهُ", "category": 1 }
+      ],
+      "instruction": "Quel est le cas du pronom collé ?",
+      "explain": "Collé à un verbe, le pronom est le sujet (nominatif). Après {ar|إِنَّ}, il est son nom (accusatif). Après un nom ou une préposition, il est au génitif."
+    },
+    {
+      "id": "medine-t2.l02.grammar-2#6",
+      "type": "true_false",
+      "statement": { "fr": "Un pronom isolé peut être au génitif." },
+      "answer": false,
+      "explain": "Faux : les pronoms isolés n'existent qu'au nominatif ({ar|أَنَا}, {ar|هُوَ}…) et à l'accusatif ({ar|إِيَّاكَ}…). Le génitif n'a que des pronoms collés."
+    },
+    {
+      "id": "medine-t2.l02.grammar-2#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:damir-muttasil-marfu",
+      "distractors": ["w:damir-muttasil", "w:damir-munfasil"],
+      "explain": "{ar|الضَّمِيرُ الْمُتَّصِلُ الْمَرْفُوعُ} : le pronom collé du nominatif, c'est-à-dire le sujet du verbe auquel il est collé."
+    },
+    {
+      "id": "medine-t2.l02.grammar-2#8",
+      "type": "order",
+      "fr": "Ton livre est sur le bureau.",
+      "answers": [["كِتَابُكَ", "عَلَى", "الْمَكْتَبِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l02.grammar-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Notre maison est grande.",
+      "answers": ["بَيْتُنَا كَبِيرٌ."]
+    }
+  ]
+}
