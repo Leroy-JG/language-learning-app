@@ -1,0 +1,165 @@
+{
+  "id": "medine-t2.l01.dialogue-1",
+  "type": "dialogue",
+  "title": "Hāshim et son professeur : la montre",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t2.l01.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Hāshim et son professeur : la montre",
+      "intro": "Début du texte du livre : Hāshim salue son professeur, qui lui demande d'où il vient et d'où vient sa montre.",
+      "speakers": { "T": { "name": "Le professeur", "voice": "m1" }, "H": { "name": "Hāshim", "voice": "m2" } },
+      "lines": [
+        {
+          "speaker": "H",
+          "ar": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.",
+          "fr": "La paix soit sur vous, ainsi que la miséricorde d'Allah et ses bénédictions."
+        },
+        {
+          "speaker": "T",
+          "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.",
+          "fr": "Et sur vous la paix, ainsi que la miséricorde d'Allah et ses bénédictions."
+        },
+        {
+          "speaker": "H",
+          "ar": "كَيْفَ حَالُكَ يَا أُسْتَاذُ؟ لَعَلَّكَ بِخَيْرٍ.",
+          "fr": "Comment vas-tu, professeur ? J'espère que tu vas bien."
+        },
+        {
+          "speaker": "T",
+          "ar": "الْحَمْدُ لِلَّهِ. وَكَيْفَ حَالُكَ أَنْتَ يَا هَاشِمُ؟",
+          "fr": "Louange à Allah. Et toi, comment vas-tu, Hāshim ?"
+        },
+        {
+          "speaker": "T",
+          "ar": "أَنَا أُحِبُّكَ كَثِيرًا يَا هَاشِمُ. إِنَّكَ طَالِبٌ ذَكِيٌّ وَمُجْتَهِدٌ وَذُو خُلُقٍ.",
+          "fr": "Je t'aime beaucoup, Hāshim. Tu es un étudiant intelligent, studieux et de bon comportement."
+        },
+        {
+          "speaker": "T",
+          "ar": "أَمِنْ بَاكِسْتَانَ أَنْتَ أَمْ مِنَ الْهِنْدِ يَا هَاشِمُ؟",
+          "fr": "Es-tu du Pakistan ou de l'Inde, Hāshim ?"
+        },
+        { "speaker": "H", "ar": "إِنِّي مِنَ الْهِنْدِ.", "fr": "Je suis de l'Inde." },
+        {
+          "speaker": "T",
+          "ar": "وَزَمِيلُكَ الَّذِي خَرَجَ مَعَكَ الْآنَ مِنَ الْفَصْلِ، أَهُوَ أَيْضًا مِنَ الْهِنْدِ؟",
+          "fr": "Et ton camarade qui vient de sortir de la classe avec toi, est-il aussi de l'Inde ?"
+        },
+        { "speaker": "H", "ar": "لَا، إِنَّهُ مِنْ بَاكِسْتَانَ.", "fr": "Non, il est du Pakistan." },
+        {
+          "speaker": "T",
+          "ar": "إِنَّ سَاعَتَكَ جَمِيلَةٌ يَا هَاشِمُ. أَمِنَ الْيَابَانِ هِيَ؟",
+          "fr": "Ta montre est belle, Hāshim. Est-elle du Japon ?"
+        },
+        { "speaker": "H", "ar": "لَا، إِنَّهَا مِنَ الْهِنْدِ.", "fr": "Non, elle est de l'Inde." }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu reconnais presque tout : {ar|إِنَّ} avec ses pronoms, {ar|لَعَلَّ}, {ar|أَمْ}, {ar|بِ}, {ar|ذُو}… Regarde aussi ces formes."
+        },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Explication"],
+          "rows": [
+            [
+              "{ar|أُحِبُّكَ}",
+              "je t'aime",
+              "{ar|أُحِبُّ} (« j'aime », tome 1, chapitre 11) + {ar|كَ} : le pronom « toi » collé au verbe (aperçu)"
+            ],
+            ["{ar|كَثِيرًا}", "beaucoup", "un adverbe, avec le tanwin à la fatha (aperçu)"],
+            ["{ar|الَّذِي}", "qui, celui qui", "il relie « ton camarade » à « est sorti » (aperçu)"],
+            ["{ar|مَعَكَ}", "avec toi", "{ar|مَعَ} + {ar|كَ} (tome 1, chapitre 10)"],
+            [
+              "{ar|إِنَّ سَاعَتَكَ}",
+              "certes, ta montre",
+              "{ar|سَاعَةٌ} + {ar|كَ} (le {ar|ة} devient {ar|ت}), puis la fatha après {ar|إِنَّ}"
+            ],
+            ["{ar|يَا أُسْتَاذُ}", "professeur !", "le nom interpellé garde la damma (tome 1, chapitre 5)"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les formes marquées « aperçu » ne sont exigées dans aucun exercice : tu les étudieras plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "D'où vient Hāshim ?" },
+      "choices": [ { "fr": "De l'Inde" }, { "fr": "Du Pakistan" }, { "fr": "Du Japon" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l01.dialogue-1#1" },
+      "explain": "{ar|إِنِّي مِنَ الْهِنْدِ} : « je suis de l'Inde »."
+    },
+    {
+      "id": "medine-t2.l01.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "D'où vient le camarade de Hāshim ?" },
+      "choices": [ { "fr": "Du Pakistan" }, { "fr": "De l'Inde" }, { "fr": "Du Japon" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l01.dialogue-1#1" },
+      "explain": "{ar|إِنَّهُ مِنْ بَاكِسْتَانَ} : « il est du Pakistan »."
+    },
+    {
+      "id": "medine-t2.l01.dialogue-1#5",
+      "type": "question",
+      "prompt": { "fr": "Que pense le professeur de Hāshim ?" },
+      "choices": [
+        { "fr": "Qu'il est intelligent, studieux et de bon comportement" },
+        { "fr": "Qu'il est paresseux" },
+        { "fr": "Qu'il est célibataire" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l01.dialogue-1#1" },
+      "explain": "{ar|إِنَّكَ طَالِبٌ ذَكِيٌّ وَمُجْتَهِدٌ وَذُو خُلُقٍ}."
+    },
+    {
+      "id": "medine-t2.l01.dialogue-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Le professeur trouve que la montre de Hāshim est belle." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l01.dialogue-1#1" },
+      "explain": "{ar|إِنَّ سَاعَتَكَ جَمِيلَةٌ} : « ta montre est belle »."
+    },
+    {
+      "id": "medine-t2.l01.dialogue-1#7",
+      "type": "fill_gap",
+      "sentence": "{0} مِنْ بَاكِسْتَانَ.",
+      "fr": "Il est du Pakistan.",
+      "gaps": [ { "answers": ["إِنَّهُ"] } ],
+      "options": ["إِنَّهُ", "إِنِّي", "إِنَّهَا"],
+      "context": { "dialogue": "medine-t2.l01.dialogue-1#1" },
+      "explain": "« Il » : {ar|إِنَّ} + {ar|هُوَ} = {ar|إِنَّهُ}."
+    },
+    {
+      "id": "medine-t2.l01.dialogue-1#8",
+      "type": "order",
+      "fr": "Ta montre est belle.",
+      "answers": [["إِنَّ", "سَاعَتَكَ", "جَمِيلَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l01.dialogue-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis de l'Inde.",
+      "answers": ["إِنِّي مِنَ الْهِنْدِ.", "إِنَّنِي مِنَ الْهِنْدِ.", "أَنَا مِنَ الْهِنْدِ."]
+    },
+    {
+      "id": "medine-t2.l01.dialogue-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Non, elle est de l'Inde.",
+      "answers": ["لَا، إِنَّهَا مِنَ الْهِنْدِ."]
+    }
+  ]
+}

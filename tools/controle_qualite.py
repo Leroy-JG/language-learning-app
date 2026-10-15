@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """Contrôles de qualité automatiques (complètent `validateContent`, ne remplacent pas les relecteurs).
 
-Usage : python3 tools/controle_qualite.py [lNN ...]   (par défaut : tous les chapitres)
+Usage : python3 tools/controle_qualite.py [lNN ...]   (par défaut : tous les chapitres du niveau ; LURATA_NIVEAU=medine-t2 pour le tome 2)
 Signale : activité hors de 6-16 écrans, bilan pas en dernier, mot sans translit/genre,
 typographie française (espace avant ? ! : ; », après «), tanwin/ids suspects, mot arabe non vocalisé.
 Les avertissements sont à vérifier à la main ; code de sortie 1 s'il y en a.
 """
 import json, pathlib, re, sys
 
-racine = pathlib.Path(__file__).resolve().parent.parent / "app/src/main/assets/content/ar/medine-t1"
+import os
+racine = pathlib.Path(__file__).resolve().parent.parent / ("app/src/main/assets/content/ar/" + os.environ.get("LURATA_NIVEAU", "medine-t1"))
 chapitres = sys.argv[1:] or json.loads((racine / "level.json").read_text(encoding="utf-8"))["chapters"]
 HARAKAT = re.compile("[ً-ْٰ]")
 LETTRES = re.compile("[ء-ي]")

@@ -1,0 +1,143 @@
+{
+  "id": "medine-t2.l01.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 1",
+  "screens": [
+    {
+      "id": "medine-t2.l01.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:inna",
+      "distractors": ["w:laalla", "w:am"]
+    },
+    {
+      "id": "medine-t2.l01.quiz#2",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:dhaki",
+      "distractors": ["w:ghani", "w:kaslan"]
+    },
+    {
+      "id": "medine-t2.l01.quiz#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mi-a",
+      "distractors": ["w:alf", "w:n-10"]
+    },
+    {
+      "id": "medine-t2.l01.quiz#4",
+      "type": "question",
+      "prompt": { "fr": "Après {ar|إِنَّ}, le sujet est…" },
+      "choices": [ { "fr": "à l'accusatif" }, { "fr": "au nominatif" }, { "fr": "au génitif" } ],
+      "answer": 0,
+      "explain": "{ar|إِنَّ زَيْدًا طَالِبٌ} : le sujet passe à l'accusatif, le prédicat reste au nominatif."
+    },
+    {
+      "id": "medine-t2.l01.quiz#5",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|إِنَّ حَامِدًا مُتَزَوِّجٌ}, quel est le cas du prédicat {ar|مُتَزَوِّجٌ} ?" },
+      "choices": [ { "fr": "le nominatif" }, { "fr": "l'accusatif" }, { "fr": "le génitif" } ],
+      "answer": 0,
+      "explain": "Le prédicat de {ar|إِنَّ} reste au nominatif : {ar|خَبَرُ إِنَّ مَرْفُوعٌ}."
+    },
+    {
+      "id": "medine-t2.l01.quiz#6",
+      "type": "fill_gap",
+      "sentence": "إِنَّ {0} مُتَزَوِّجٌ.",
+      "fr": "Certes, Ḥāmid est marié.",
+      "gaps": [ { "answers": ["حَامِدًا"] } ],
+      "options": ["حَامِدًا", "حَامِدٌ"]
+    },
+    {
+      "id": "medine-t2.l01.quiz#7",
+      "type": "fill_gap",
+      "sentence": "{0} غَنِيٌّ.",
+      "fr": "Certes, il est riche.",
+      "gaps": [ { "answers": ["إِنَّهُ"] } ],
+      "options": ["إِنَّهُ", "إِنَّهَا", "إِنَّكَ"]
+    },
+    {
+      "id": "medine-t2.l01.quiz#8",
+      "type": "question",
+      "prompt": { "fr": "Quel pronom est caché dans {ar|إِنَّهُنَّ} ?" },
+      "choices": [ { "ar": "هُنَّ" }, { "ar": "هُمْ" }, { "ar": "هِيَ" } ],
+      "answer": 0,
+      "explain": "{ar|هُنَّ} : « elles », le pronom affixe de {ar|هُنَّ}."
+    },
+    {
+      "id": "medine-t2.l01.quiz#9",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|لَعَلَّ}, le sujet passe à l'accusatif." },
+      "answer": true,
+      "explain": "Comme après {ar|إِنَّ} : {ar|لَعَلَّ زَيْدًا نَاجِحٌ}."
+    },
+    {
+      "id": "medine-t2.l01.quiz#10",
+      "type": "sort",
+      "categories": [
+        { "fr": "un adverbe ({ar|فَوْقَ}, {ar|قَبْلَ}…)" },
+        { "fr": "le sujet de {ar|إِنَّ} ou de {ar|لَعَلَّ}" },
+        { "fr": "la précision après {ar|كَمْ}" }
+      ],
+      "cards": [
+        { "ar": "فَوْقَ الْبَابِ", "category": 0 },
+        { "ar": "إِنَّ زَيْدًا جَالِسٌ", "category": 1 },
+        { "ar": "كَمْ أُخْتًا لَكَ؟", "category": 2 },
+        { "ar": "قَبْلَ الدَّرْسِ", "category": 0 },
+        { "ar": "لَعَلَّ حَامِدًا نَاجِحٌ", "category": 1 },
+        { "ar": "كَمْ طَالِبًا عِنْدَكَ؟", "category": 2 }
+      ],
+      "instruction": "Dans chaque groupe, un mot est à l'accusatif : pour quelle raison ?"
+    },
+    {
+      "id": "medine-t2.l01.quiz#11",
+      "type": "question",
+      "prompt": { "fr": "Après {ar|مِائَةٌ}, le dénombré est…" },
+      "choices": [
+        { "fr": "au singulier, au génitif" },
+        { "fr": "au pluriel, au génitif" },
+        { "fr": "au singulier, à l'accusatif" }
+      ],
+      "answer": 0,
+      "explain": "{ar|مِائَةُ كِتَابٍ} : le dénombré est le second terme de l'annexion, au singulier."
+    },
+    {
+      "id": "medine-t2.l01.quiz#12",
+      "type": "fill_gap",
+      "sentence": "عِنْدِي مِائَةُ {0}.",
+      "fr": "J'ai cent dollars.",
+      "gaps": [ { "answers": ["دُولَارٍ"] } ],
+      "options": ["دُولَارٍ", "دُولَارَاتٍ"]
+    },
+    {
+      "id": "medine-t2.l01.quiz#13",
+      "type": "order",
+      "fr": "Combien coûte ce livre ?",
+      "answers": [["بِكَمْ", "هٰذَا", "الْكِتَابُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l01.quiz#14",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « qui a de l'argent » ?" },
+      "choices": [ { "ar": "ذُو مَالٍ" }, { "ar": "ذُو عِلْمٍ" }, { "ar": "ذُو خُلُقٍ" } ],
+      "answer": 0,
+      "explain": "{ar|مَالٌ} : l'argent ; {ar|عِلْمٌ} : la science ; {ar|خُلُقٌ} : le comportement."
+    },
+    {
+      "id": "medine-t2.l01.quiz#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Certes, la montre est belle.",
+      "answers": ["إِنَّ السَّاعَةَ جَمِيلَةٌ."],
+      "explain": "Après {ar|إِنَّ}, {ar|السَّاعَةُ} devient {ar|السَّاعَةَ} ; l'adjectif {ar|جَمِيلَةٌ} ne change pas."
+    },
+    {
+      "id": "medine-t2.l01.quiz#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Es-tu marié ou célibataire ? (à un homme)",
+      "answers": ["أَمُتَزَوِّجٌ أَنْتَ أَمْ عَزَبٌ؟", "أَأَنْتَ مُتَزَوِّجٌ أَمْ عَزَبٌ؟"]
+    }
+  ]
+}

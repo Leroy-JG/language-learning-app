@@ -1,0 +1,73 @@
+{
+  "id": "medine-t2.l01.practice-2",
+  "type": "grammar",
+  "title": "L'exercice 12 du livre : écrire les nombres",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l01.practice-2#1",
+      "type": "tip",
+      "title": "Écrire cent et mille en lettres",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 12 du livre te fait écrire en lettres les nombres de cent et de mille. Les deux modèles du professeur :"
+        },
+        { "type": "example", "ar": "مِائَةُ رَجُلٍ", "fr": "cent hommes" },
+        { "type": "example", "ar": "مِائَةُ اِمْرَأَةٍ", "fr": "cent femmes" },
+        { "type": "example", "ar": "أَلْفُ رَجُلٍ", "fr": "mille hommes" },
+        { "type": "example", "ar": "أَلْفُ اِمْرَأَةٍ", "fr": "mille femmes" },
+        {
+          "type": "note",
+          "text": "Le nombre garde la même forme pour les hommes et pour les femmes, et le dénombré reste au singulier."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.practice-2#2",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Cette télévision coûte 1000 riyals. (Écris le nombre en lettres.)",
+      "answers": ["هٰذَا التِّلْفَازُ بِأَلْفِ رِيَالٍ."],
+      "explain": "{ar|بِ} met {ar|أَلْفٌ} au génitif ({ar|أَلْفِ}) ; {ar|رِيَالٍ} est le second terme, au singulier."
+    },
+    {
+      "id": "medine-t2.l01.practice-2#3",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai 1000 dollars. (Écris le nombre en lettres.)",
+      "answers": ["عِنْدِي أَلْفُ دُولَارٍ.", "لِي أَلْفُ دُولَارٍ."]
+    },
+    {
+      "id": "medine-t2.l01.practice-2#4",
+      "type": "order",
+      "fr": "Il y a cent pages dans ce livre.",
+      "answers": [["فِي", "هٰذَا", "الْكِتَابِ", "مِائَةُ", "صَفْحَةٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l01.practice-2#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "بِكَمْ هٰذِهِ الْحَقِيبَةُ؟",
+      "answers": ["هِيَ بِمِائَةِ رِيَالٍ.", "إِنَّهَا بِمِائَةِ رِيَالٍ."],
+      "fr": "Combien coûte ce sac ? — Il coûte 100 riyals.",
+      "instruction": "Réponds : le sac coûte cent riyals (écris le nombre en lettres)."
+    },
+    {
+      "id": "medine-t2.l01.practice-2#6",
+      "type": "true_false",
+      "statement": { "fr": "On dit {ar|مِائَةُ صَفْحَاتٍ} pour « cent pages »." },
+      "answer": false,
+      "explain": "Faux : après {ar|مِائَةٌ}, le dénombré est au singulier : {ar|مِائَةُ صَفْحَةٍ}."
+    },
+    {
+      "id": "medine-t2.l01.practice-2#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Dans cette faculté, il y a 100 étudiants du Pakistan et 100 étudiants d'Indonésie. (Écris les nombres en lettres.)",
+      "answers": ["فِي هٰذِهِ الْكُلِّيَّةِ مِائَةُ طَالِبٍ مِنْ بَاكِسْتَانَ وَمِائَةُ طَالِبٍ مِنْ إِنْدُونِيسِيَا."],
+      "explain": "{ar|بَاكِسْتَانَ} est sans tanwin : après {ar|مِنْ}, la fatha. {ar|إِنْدُونِيسِيَا} ne change pas."
+    }
+  ]
+}

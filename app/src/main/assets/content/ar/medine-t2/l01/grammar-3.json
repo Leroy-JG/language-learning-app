@@ -1,0 +1,176 @@
+{
+  "id": "medine-t2.l01.grammar-3",
+  "type": "grammar",
+  "title": "Certes, il… : {ar|إِنَّ} et les pronoms",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l01.grammar-3#1",
+      "type": "tip",
+      "title": "Quand le sujet est un pronom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le sujet qui suit {ar|إِنَّ} peut être un pronom ({ar|الضَّمِيرُ}, tome 1, chapitre 10). Le pronom isolé ({ar|هُوَ}, {ar|أَنْتُمْ}…) devient alors un **pronom affixe**, collé à {ar|إِنَّ}."
+        },
+        {
+          "type": "breakdown",
+          "ar": "إِنَّهُ",
+          "fr": "certes, il",
+          "parts": [ { "ar": "إِنَّ", "fr": "certes" }, { "ar": "هُ", "fr": "il (pronom affixe)" } ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "إِنَّكُمْ",
+          "fr": "certes, vous",
+          "parts": [ { "ar": "إِنَّ", "fr": "certes" }, { "ar": "كُمْ", "fr": "vous (pronom affixe)" } ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "إِنَّنَا",
+          "fr": "certes, nous",
+          "parts": [ { "ar": "إِنَّ", "fr": "certes" }, { "ar": "نَا", "fr": "nous (pronom affixe)" } ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-3#2",
+      "type": "tip",
+      "title": "Le tableau des dix pronoms",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pronom isolé", "Avec {ar|إِنَّ}", "Sens"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|إِنِّي} ou {ar|إِنَّنِي}", "certes, je…"],
+            ["{ar|أَنْتَ}", "{ar|إِنَّكَ}", "certes, tu… (à un homme)"],
+            ["{ar|أَنْتِ}", "{ar|إِنَّكِ}", "certes, tu… (à une femme)"],
+            ["{ar|هُوَ}", "{ar|إِنَّهُ}", "certes, il…"],
+            ["{ar|هِيَ}", "{ar|إِنَّهَا}", "certes, elle…"],
+            ["{ar|نَحْنُ}", "{ar|إِنَّنَا} ou {ar|إِنَّا}", "certes, nous…"],
+            ["{ar|أَنْتُمْ}", "{ar|إِنَّكُمْ}", "certes, vous… (plusieurs hommes, ou un groupe mixte)"],
+            ["{ar|أَنْتُنَّ}", "{ar|إِنَّكُنَّ}", "certes, vous… (plusieurs femmes)"],
+            ["{ar|هُمْ}", "{ar|إِنَّهُمْ}", "certes, ils…"],
+            ["{ar|هُنَّ}", "{ar|إِنَّهُنَّ}", "certes, elles…"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Pour « je » et « nous », il y a deux formes, toutes les deux correctes : {ar|إِنِّي} ou {ar|إِنَّنِي}, {ar|إِنَّنَا} ou {ar|إِنَّا}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Ces pronoms affixes sont ceux du chapitre 10 du tome 1 ({ar|كَ}, {ar|كِ}, {ar|هُ}, {ar|هَا}…), sauf pour « je » : après {ar|إِنَّ}, c'est {ar|نِي} (ou {ar|إِنِّي}), et non {ar|◌ِي} seul. Le pronom affixe tient la place du sujet ({ar|اِسْمُ إِنَّ}) : il est à l'accusatif, mais sa forme ne change pas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-3#3",
+      "type": "tip",
+      "title": "Du pronom isolé à {ar|إِنَّ} + pronom",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَنَا طَالِبٌ.", "fr": "Je suis étudiant." },
+              "to": { "ar": "إِنِّي طَالِبٌ.", "fr": "Certes, je suis étudiant." }
+            },
+            {
+              "from": { "ar": "هُوَ طَالِبٌ.", "fr": "Il est étudiant." },
+              "to": { "ar": "إِنَّهُ طَالِبٌ.", "fr": "Certes, il est étudiant." }
+            },
+            {
+              "from": { "ar": "هِيَ طَالِبَةٌ.", "fr": "Elle est étudiante." },
+              "to": { "ar": "إِنَّهَا طَالِبَةٌ.", "fr": "Certes, elle est étudiante." }
+            },
+            {
+              "from": { "ar": "أَنْتَ طَالِبٌ.", "fr": "Tu es étudiant." },
+              "to": { "ar": "إِنَّكَ طَالِبٌ.", "fr": "Certes, tu es étudiant." }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Le prédicat s'accorde toujours avec le sujet en genre et en nombre : {ar|إِنَّهَا طَالِبَةٌ} (féminin), {ar|إِنَّهُمْ طُلَّابٌ} (pluriel)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-3#4",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « certes, il… » ?" },
+      "choices": [ { "ar": "إِنَّهُ" }, { "ar": "إِنَّهَا" }, { "ar": "إِنَّهُمْ" } ],
+      "answer": 0,
+      "explain": "{ar|إِنَّ} + {ar|هُوَ} = {ar|إِنَّهُ}. {ar|إِنَّهَا} veut dire « certes, elle » et {ar|إِنَّهُمْ} « certes, ils »."
+    },
+    {
+      "id": "medine-t2.l01.grammar-3#5",
+      "type": "fill_gap",
+      "sentence": "{0} طَالِبَةٌ.",
+      "fr": "Certes, elle est étudiante.",
+      "gaps": [ { "answers": ["إِنَّهَا"] } ],
+      "options": ["إِنَّهَا", "إِنَّهُ", "إِنَّهُمْ", "إِنَّنَا"],
+      "explain": "Le sujet est « elle » : {ar|إِنَّهَا}. Le prédicat est au féminin."
+    },
+    {
+      "id": "medine-t2.l01.grammar-3#6",
+      "type": "question",
+      "prompt": { "fr": "Quel pronom est caché dans {ar|إِنَّكُنَّ} ?" },
+      "choices": [ { "ar": "أَنْتُنَّ" }, { "ar": "أَنْتُمْ" }, { "ar": "هُنَّ" } ],
+      "answer": 0,
+      "explain": "{ar|كُنَّ} : « vous » (plusieurs femmes), le pronom affixe de {ar|أَنْتُنَّ}."
+    },
+    {
+      "id": "medine-t2.l01.grammar-3#7",
+      "type": "sort",
+      "categories": [ { "fr": "je / nous" }, { "fr": "tu / vous" }, { "fr": "il / elle / ils / elles" } ],
+      "cards": [
+        { "ar": "إِنِّي", "category": 0 },
+        { "ar": "إِنَّنَا", "category": 0 },
+        { "ar": "إِنَّكَ", "category": 1 },
+        { "ar": "إِنَّكُمْ", "category": 1 },
+        { "ar": "إِنَّهُ", "category": 2 },
+        { "ar": "إِنَّهُنَّ", "category": 2 },
+        { "ar": "إِنَّهَا", "category": 2 },
+        { "ar": "إِنَّكُنَّ", "category": 1 }
+      ],
+      "instruction": "De qui parle-t-on ?",
+      "explain": "{ar|إِنَّكَ}, {ar|إِنَّكُمْ} et {ar|إِنَّكُنَّ} s'adressent à quelqu'un ; {ar|إِنَّهُ}, {ar|إِنَّهَا} et {ar|إِنَّهُنَّ} parlent d'une autre personne ; {ar|إِنِّي} et {ar|إِنَّنَا} parlent de soi."
+    },
+    {
+      "id": "medine-t2.l01.grammar-3#8",
+      "type": "fill_gap",
+      "sentence": "{0} مُتَزَوِّجُونَ.",
+      "fr": "Certes, ils sont mariés.",
+      "gaps": [ { "answers": ["إِنَّهُمْ"] } ],
+      "options": ["إِنَّهُمْ", "إِنَّهُنَّ", "إِنَّهُ", "إِنَّكَ"],
+      "explain": "Le prédicat est au pluriel masculin ({ar|مُتَزَوِّجُونَ}) : le sujet est {ar|إِنَّهُمْ}."
+    },
+    {
+      "id": "medine-t2.l01.grammar-3#9",
+      "type": "order",
+      "fr": "Certes, ils sont des commerçants.",
+      "answers": [["إِنَّهُمْ", "تُجَّارٌ"]],
+      "punctuation": ".",
+      "distractors": ["إِنَّهُنَّ"]
+    },
+    {
+      "id": "medine-t2.l01.grammar-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Certes, il est riche.",
+      "answers": ["إِنَّهُ غَنِيٌّ."]
+    },
+    {
+      "id": "medine-t2.l01.grammar-3#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Certes, elle est intelligente.",
+      "answers": ["إِنَّهَا ذَكِيَّةٌ."]
+    }
+  ]
+}

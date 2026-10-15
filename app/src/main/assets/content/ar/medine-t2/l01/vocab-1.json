@@ -1,0 +1,104 @@
+{
+  "id": "medine-t2.l01.vocab-1",
+  "type": "vocabulary",
+  "title": "Intelligent, marié, célibataire",
+  "icon": "student",
+  "screens": [
+    { "id": "medine-t2.l01.vocab-1#1", "type": "present", "item": "w:dhaki" },
+    { "id": "medine-t2.l01.vocab-1#2", "type": "present", "item": "w:mutazawwij" },
+    {
+      "id": "medine-t2.l01.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:dhaki",
+      "distractors": ["w:ghani", "w:kaslan"]
+    },
+    { "id": "medine-t2.l01.vocab-1#4", "type": "present", "item": "w:azab" },
+    {
+      "id": "medine-t2.l01.vocab-1#5",
+      "type": "tip",
+      "title": "Du masculin au féminin, du singulier au pluriel",
+      "blocks": [
+        {
+          "type": "compare",
+          "title": "Au féminin",
+          "rows": [
+            { "from": { "ar": "ذَكِيٌّ", "fr": "intelligent" }, "to": { "ar": "ذَكِيَّةٌ", "fr": "intelligente" } },
+            { "from": { "ar": "مُتَزَوِّجٌ", "fr": "marié" }, "to": { "ar": "مُتَزَوِّجَةٌ", "fr": "mariée" } }
+          ]
+        },
+        {
+          "type": "compare",
+          "title": "Au pluriel",
+          "rows": [
+            {
+              "from": { "ar": "ذَكِيٌّ", "fr": "intelligent" },
+              "to": { "ar": "أَذْكِيَاءُ", "fr": "intelligents" }
+            },
+            { "from": { "ar": "مُتَزَوِّجٌ", "fr": "marié" }, "to": { "ar": "مُتَزَوِّجُونَ", "fr": "mariés" } },
+            { "from": { "ar": "عَزَبٌ", "fr": "célibataire" }, "to": { "ar": "أَعْزَابٌ", "fr": "célibataires" } }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le professeur donne aussi {ar|يَاسِرٌ عَزَبٌ يُرِيدُ الزَّوَاجَ} (« Yāsir est célibataire, il veut se marier »). {ar|يُرِيدُ} (« il veut ») et {ar|الزَّوَاجُ} (« le mariage ») viendront plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.vocab-1#6",
+      "type": "tip",
+      "title": "Riche de cœur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|غَنِيٌّ} (« riche », tome 1, chapitre 5). Le professeur en donne un exemple de plus :"
+        },
+        { "type": "example", "ar": "زَيْدٌ غَنِيُّ الْقَلْبِ.", "fr": "Zayd est riche de cœur." },
+        {
+          "type": "note",
+          "text": "{ar|غَنِيُّ} perd son tanwin : c'est le premier terme d'une annexion (tome 1, chapitre 5). {ar|الْقَلْبُ} veut dire « le cœur » ; ce mot n'est pas encore au programme."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.vocab-1#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:dhaki", "w:mutazawwij", "w:azab", "w:ghani"]
+    },
+    {
+      "id": "medine-t2.l01.vocab-1#8",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:dhaki", "w:mutazawwij", "w:azab", "w:ghani"]
+    },
+    {
+      "id": "medine-t2.l01.vocab-1#9",
+      "type": "fill_gap",
+      "sentence": "هِيَ {0}.",
+      "fr": "Elle est mariée.",
+      "gaps": [ { "answers": ["مُتَزَوِّجَةٌ"] } ],
+      "options": ["مُتَزَوِّجَةٌ", "مُتَزَوِّجٌ", "عَزَبٌ"],
+      "explain": "Le sujet {ar|هِيَ} est féminin : l'adjectif prend le {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l01.vocab-1#10",
+      "type": "fill_gap",
+      "sentence": "هُمْ {0}.",
+      "fr": "Ils sont intelligents.",
+      "gaps": [ { "answers": ["أَذْكِيَاءُ"] } ],
+      "options": ["أَذْكِيَاءُ", "ذَكِيٌّ", "ذَكِيَّةٌ"],
+      "explain": "Le sujet {ar|هُمْ} est pluriel : l'adjectif aussi."
+    },
+    { "id": "medine-t2.l01.vocab-1#11", "type": "build", "item": "w:mutazawwij", "extra": ["ر"] },
+    { "id": "medine-t2.l01.vocab-1#12", "type": "typing", "ask": "fr", "item": "w:dhaki" },
+    {
+      "id": "medine-t2.l01.vocab-1#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Yāsir est célibataire.",
+      "answers": ["يَاسِرٌ عَزَبٌ."]
+    }
+  ]
+}

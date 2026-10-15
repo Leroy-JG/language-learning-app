@@ -38,6 +38,7 @@ class CourseProgressTest {
         val done = CourseProgress(course, all.map { it.id }.toSet() + "id.disparu")
         assertNull(done.next)
         assertEquals(1f, done.fraction(level))
-        assertEquals(all.size, done.completedIn(level))
+        assertEquals(all.size, course.levels.sumOf { done.completedIn(it) })
+        assertTrue(course.levels.all { done.fraction(it) == 1f })
     }
 }

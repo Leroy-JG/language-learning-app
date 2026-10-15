@@ -8,5 +8,5 @@
     "f1": { "provider": "edge", "name": "ar-SA-ZariyahNeural", "rate": "-10%" }
   },
   "defaultVoice": "m1",
-  "levels": ["medine-t1"]
+  "levels": ["medine-t1", "medine-t2"]
 }

@@ -2,7 +2,8 @@
 
 App Android personnelle pour apprendre l'arabe (interface en français), inspirée de Busuu et de
 Duolingo, **100 % hors ligne**. Cursus : Tomes de Médine (tome 1 : leçons 1 à 23, « Révision 1 » et « Révision 2 » publiées,
-le tome 1 est terminé), à partir des supports PDF du professeur de l'utilisateur. Le but est aussi de **donner
+le tome 1 est terminé ; tome 2 commencé : leçon 1 publiée, niveau `medine-t2`, voir `docs/sources-t2-lecon-1.md`), à partir
+des supports PDF du professeur de l'utilisateur. Le but est aussi de **donner
 envie** d'apprendre l'arabe : la qualité du design, de l'UX et des animations compte.
 
 L'utilisateur est francophone et non développeur : lui répondre **en français**, simplement, et lui
@@ -40,7 +41,7 @@ Pour tout ajout ou modification de contenu (`app/src/main/assets/content/`) :
 **Ajouter une leçon : suivre la procédure `.claude/skills/nouvelle-lecon/SKILL.md`** (étape par
 étape, avec la liste de contrôle). **Concevoir une leçon : `docs/pedagogie.md`** (cadre fixe pour la
 cohérence de l'app, palette d'outils à choisir librement pour chaque notion, et méthode pour créer
-un nouveau type d'écran si aucun ne convient). Historique des choix de contenu : `docs/sources.md`. Les défis notés, repris des quiz du professeur (types `test` et `exam`, écran `multi`) : `docs/content-format.md` §9.15 et `docs/sources-quiz.md`.
+un nouveau type d'écran si aucun ne convient). Historique des choix de contenu : `docs/sources.md` (tome 1) et `docs/sources-t2-lecon-1.md` (tome 2). Les défis notés, repris des quiz du professeur (types `test` et `exam`, écran `multi`) : `docs/content-format.md` §9.15 et `docs/sources-quiz.md`.
 
 ## Autres règles
 
@@ -90,7 +91,7 @@ Carte détaillée fichier par fichier avec numéros de ligne : `docs/carte-du-co
 chercher du code ; la régénérer après un ajout de fichier/fonction : `python3 tools/carte_du_code.py`).
 Lire une plage (`Read` avec `offset`/`limit`) plutôt que des fichiers entiers.
 
-- `app/src/main/assets/content/ar/` : les cours en JSON (`course.json` → `medine-t1/level.json` →
+- `app/src/main/assets/content/ar/` : les cours en JSON (`course.json` → `medine-t1/level.json` (ou `medine-t2`, outils : `LURATA_NIVEAU=medine-t2`) →
   `lNN/chapter.json`, `items.json`, un fichier par activité). Aucune leçon dans le code.
 - `core/src/main/kotlin/io/github/leroyjg/arabe/` (Kotlin pur, testé) :
   - `content/` : modèle (`Model.kt`), chargeur, `Validator.kt` (le build échoue si le contenu est

@@ -1,0 +1,182 @@
+{
+  "id": "medine-t2.l01.grammar-6",
+  "type": "grammar",
+  "title": "Cent et mille : {ar|مِائَةٌ وَأَلْفٌ}",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l01.grammar-6#1",
+      "type": "tip",
+      "title": "Compter au-delà de dix : vue d'ensemble",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au tome 1 (chapitres 19 et 20), tu as compté de 3 à 10. Voici le plan que donne le professeur pour les grands nombres. Dans cette leçon, tu étudies seulement **cent** et **mille**."
+        },
+        {
+          "type": "table",
+          "header": ["Nombres", "Exemple", "Le dénombré est…"],
+          "rows": [
+            ["de 3 à 10", "{ar|ثَلَاثَةُ كُتُبٍ} (trois livres)", "au pluriel, au génitif (annexion)"],
+            ["de 11 à 19", "{ar|ثَلَاثَةَ عَشَرَ كِتَابًا} (treize livres)", "au singulier, à l'accusatif"],
+            ["de 20 à 99", "{ar|عِشْرُونَ كِتَابًا} (vingt livres)", "au singulier, à l'accusatif"],
+            [
+              "100 et 1000",
+              "{ar|مِائَةُ كِتَابٍ} (cent livres), {ar|أَلْفُ كِتَابٍ} (mille livres)",
+              "au singulier, au génitif (annexion)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "De 11 à 99, le dénombré est au singulier et à l'accusatif, comme après {ar|كَمْ} (tome 1, chapitre 18). Le détail de ces nombres viendra dans une autre leçon : ici, ce ne sont que des aperçus."
+        }
+      ]
+    },
+    { "id": "medine-t2.l01.grammar-6#2", "type": "present", "item": "w:mi-a" },
+    { "id": "medine-t2.l01.grammar-6#3", "type": "present", "item": "w:alf" },
+    {
+      "id": "medine-t2.l01.grammar-6#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mi-a",
+      "distractors": ["w:n-10", "w:n-3"],
+      "explain": "{ar|مِائَةٌ} : cent. {ar|عَشَرَةٌ} : dix ; {ar|ثَلَاثَةٌ} : trois."
+    },
+    {
+      "id": "medine-t2.l01.grammar-6#5",
+      "type": "tip",
+      "title": "Les règles de cent et de mille",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|مِائَةٌ} et {ar|أَلْفٌ} ont leurs propres règles :" },
+        {
+          "type": "table",
+          "header": ["Règle", "Exemple"],
+          "rows": [
+            [
+              "Le nombre est le premier terme d'une annexion ({ar|مُضَافٌ}). Le dénombré ({ar|الْمَعْدُودُ}) est le second terme ({ar|مُضَافٌ إِلَيْهِ}), au génitif.",
+              "{ar|مِائَةُ كِتَابٍ}"
+            ],
+            [
+              "Le nombre et le dénombré sont au singulier ({ar|مُفْرَدٌ}).",
+              "{ar|أَلْفُ قَلَمٍ} (et non {ar|أَلْفُ أَقْلَامٍ})"
+            ],
+            [
+              "Le nombre garde la même forme au masculin et au féminin.",
+              "{ar|مِائَةُ رَجُلٍ} et {ar|مِائَةُ اِمْرَأَةٍ}"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "{ar|الْعَدَدُ}", "{ar|الْمَعْدُودُ}"],
+          "rows": [
+            ["{ar|لِي مِائَةُ كِتَابٍ}", "{ar|مُفْرَدٌ مُضَافٌ}", "{ar|مُفْرَدٌ مُضَافٌ إِلَيْهِ}"],
+            ["{ar|لِي أَلْفُ بَقَرَةٍ}", "{ar|مُفْرَدٌ مُضَافٌ}", "{ar|مُفْرَدٌ مُضَافٌ إِلَيْهِ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ce n'est pas comme de 3 à 10 : là, le nombre change selon le genre et le dénombré est au pluriel ({ar|ثَلَاثَةُ كُتُبٍ}). Le français dit « cent livres » ; l'arabe dit en quelque sorte « cent de livre »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-6#6",
+      "type": "sort",
+      "categories": [ { "fr": "au singulier" }, { "fr": "au pluriel" } ],
+      "cards": [
+        { "ar": "مِائَةُ قَلَمٍ", "category": 0 },
+        { "ar": "ثَلَاثَةُ أَقْلَامٍ", "category": 1 },
+        { "ar": "أَلْفُ كِتَابٍ", "category": 0 },
+        { "ar": "خَمْسَةُ كُتُبٍ", "category": 1 },
+        { "ar": "مِائَةُ بِنْتٍ", "category": 0 },
+        { "ar": "سَبْعُ بَنَاتٍ", "category": 1 }
+      ],
+      "instruction": "Le dénombré est-il au singulier ou au pluriel ?",
+      "explain": "Après {ar|مِائَةٌ} et {ar|أَلْفٌ}, le dénombré est au singulier ; de 3 à 10, au pluriel."
+    },
+    {
+      "id": "medine-t2.l01.grammar-6#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:alf",
+      "distractors": ["w:n-10", "w:n-7"],
+      "explain": "{ar|أَلْفٌ} : mille. {ar|عَشَرَةٌ} : dix ; {ar|سَبْعَةٌ} : sept."
+    },
+    {
+      "id": "medine-t2.l01.grammar-6#8",
+      "type": "tip",
+      "title": "Le {ar|ا} muet de {ar|مِائَةٌ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans {ar|مِائَةٌ}, le {ar|ا} qui précède le {ar|ئ} ne se prononce pas : on dit « miʾa(tun) »."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "مِائَةٌ", "fr": "cent (comme on l'écrit)" },
+              "to": { "ar": "مِئَةٌ", "fr": "cent (écriture sans alif, comme on le prononce)" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les deux écritures existent. Le {ar|ا} muet ne change ni le sens ni la prononciation."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-6#9",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « mille filles » ?" },
+      "choices": [ { "ar": "أَلْفُ بِنْتٍ" }, { "ar": "أَلْفُ بَنَاتٍ" } ],
+      "answer": 0,
+      "explain": "Après {ar|أَلْفٌ}, le dénombré est au singulier : {ar|بِنْتٍ}, et non {ar|بَنَاتٍ}."
+    },
+    {
+      "id": "medine-t2.l01.grammar-6#10",
+      "type": "fill_gap",
+      "sentence": "لِي مِائَةُ {0}.",
+      "fr": "J'ai cent livres.",
+      "gaps": [ { "answers": ["كِتَابٍ"] } ],
+      "options": ["كِتَابٍ", "كُتُبٍ"],
+      "explain": "Après {ar|مِائَةُ}, le dénombré est au singulier et au génitif."
+    },
+    {
+      "id": "medine-t2.l01.grammar-6#11",
+      "type": "fill_gap",
+      "sentence": "لِي {0} قَلَمٍ.",
+      "fr": "J'ai mille stylos.",
+      "gaps": [ { "answers": ["أَلْفُ"] } ],
+      "options": ["أَلْفُ", "ثَلَاثَةُ", "ثَلَاثُ"],
+      "explain": "Le dénombré {ar|قَلَمٍ} est au singulier : ce n'est pas un nombre de 3 à 10."
+    },
+    {
+      "id": "medine-t2.l01.grammar-6#12",
+      "type": "order",
+      "fr": "J'ai cent stylos.",
+      "answers": [["لِي", "مِائَةُ", "قَلَمٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l01.grammar-6#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "mille livres",
+      "answers": ["أَلْفُ كِتَابٍ"]
+    },
+    {
+      "id": "medine-t2.l01.grammar-6#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai cent stylos.",
+      "answers": ["لِي مِائَةُ قَلَمٍ.", "عِنْدِي مِائَةُ قَلَمٍ."]
+    }
+  ]
+}

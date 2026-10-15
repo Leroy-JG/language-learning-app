@@ -1,0 +1,111 @@
+{
+  "id": "medine-t2.l01.vocab-3",
+  "type": "vocabulary",
+  "title": "Seulement, combien et j'espère que…",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t2.l01.vocab-3#1", "type": "present", "item": "w:faqat" },
+    {
+      "id": "medine-t2.l01.vocab-3#2",
+      "type": "tip",
+      "title": "{ar|فَقَطْ} : seulement",
+      "blocks": [
+        { "type": "paragraph", "text": "{ar|فَقَطْ} se place **après** ce qu'il limite et ne change jamais." },
+        { "type": "example", "ar": "عِنْدِي مِائَةُ رِيَالٍ فَقَطْ.", "fr": "J'ai seulement cent riyals." },
+        {
+          "type": "example",
+          "ar": "دَرَسَ زَيْدٌ النَّحْوَ فَقَطْ.",
+          "fr": "Zayd a étudié seulement la grammaire."
+        },
+        {
+          "type": "note",
+          "text": "{ar|دَرَسَ} veut dire « il a étudié » : c'est un verbe de la même racine que {ar|دَرْسٌ} (« une leçon »). Il n'est ici qu'un aperçu."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:faqat",
+      "distractors": ["w:jiddan", "w:aydan"]
+    },
+    { "id": "medine-t2.l01.vocab-3#4", "type": "present", "item": "p:bikam-hadha" },
+    { "id": "medine-t2.l01.vocab-3#5", "type": "present", "item": "p:bikam-hadha-alkitab" },
+    {
+      "id": "medine-t2.l01.vocab-3#6",
+      "type": "tip",
+      "title": "Demander le prix",
+      "blocks": [
+        {
+          "type": "breakdown",
+          "ar": "بِكَمْ هٰذَا",
+          "fr": "combien coûte ceci",
+          "parts": [
+            { "ar": "بِ", "fr": "à, au prix de" },
+            { "ar": "كَمْ", "fr": "combien" },
+            { "ar": "هٰذَا", "fr": "ceci" }
+          ]
+        },
+        {
+          "type": "table",
+          "header": ["Question", "Réponse possible"],
+          "rows": [
+            ["{ar|بِكَمْ هٰذَا الْكِتَابُ؟}", "{ar|هُوَ بِمِائَةِ رُوبِيَّةٍ.} (il coûte cent roupies)"],
+            ["{ar|بِكَمْ هٰذِهِ الْحَقِيبَةُ؟}", "{ar|هِيَ بِمِائَةِ رِيَالٍ.} (il coûte cent riyals)"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Pour un nom féminin, on dit {ar|بِكَمْ هٰذِهِ} : {ar|بِكَمْ هٰذِهِ الْحَقِيبَةُ؟}. {ar|كَمْ} ne change pas après {ar|بِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.vocab-3#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "p:bikam-hadha",
+      "distractors": ["p:ma-hadha", "p:man-hadha"]
+    },
+    { "id": "medine-t2.l01.vocab-3#8", "type": "present", "item": "p:laallaka-bikhayr" },
+    {
+      "id": "medine-t2.l01.vocab-3#9",
+      "type": "fill_gap",
+      "sentence": "{0} هٰذَا؟",
+      "fr": "Combien coûte ceci ?",
+      "gaps": [ { "answers": ["بِكَمْ"] } ],
+      "options": ["بِكَمْ", "أَيْنَ", "مَنْ"]
+    },
+    {
+      "id": "medine-t2.l01.vocab-3#10",
+      "type": "order",
+      "fr": "Combien coûte ce livre ?",
+      "answers": [["بِكَمْ", "هٰذَا", "الْكِتَابُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l01.vocab-3#11",
+      "type": "fill_gap",
+      "sentence": "عِنْدِي مِائَةُ رِيَالٍ {0}.",
+      "fr": "J'ai seulement cent riyals.",
+      "gaps": [ { "answers": ["فَقَطْ"] } ],
+      "options": ["فَقَطْ", "جِدًّا", "أَيْضًا"]
+    },
+    {
+      "id": "medine-t2.l01.vocab-3#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Combien coûte ce livre ?",
+      "answers": ["بِكَمْ هٰذَا الْكِتَابُ؟"]
+    },
+    {
+      "id": "medine-t2.l01.vocab-3#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai seulement trois riyals.",
+      "answers": ["لِي ثَلَاثَةُ رِيَالَاتٍ فَقَطْ.", "عِنْدِي ثَلَاثَةُ رِيَالَاتٍ فَقَطْ."]
+    }
+  ]
+}

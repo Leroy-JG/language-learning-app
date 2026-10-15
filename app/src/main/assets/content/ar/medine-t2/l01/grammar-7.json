@@ -1,0 +1,117 @@
+{
+  "id": "medine-t2.l01.grammar-7",
+  "type": "grammar",
+  "title": "À, dans, au prix de : la préposition {ar|بِ}",
+  "icon": "road",
+  "screens": [
+    { "id": "medine-t2.l01.grammar-7#1", "type": "present", "item": "w:bi" },
+    {
+      "id": "medine-t2.l01.grammar-7#2",
+      "type": "tip",
+      "title": "{ar|بِ} : une préposition d'une seule lettre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|بِ} est une préposition ({ar|حَرْفُ جَرٍّ}, tome 1, chapitre 4). Elle se **colle** au mot qui la suit et le met au **génitif**. Son sens dépend du mot qui l'accompagne :"
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Exemple", "Traduction"],
+          "rows": [
+            ["à, dans (un lieu)", "{ar|بِالْمَدِينَةِ الْمُنَوَّرَةِ}", "à Médine"],
+            ["au prix de", "{ar|بِمِائَةِ رُوبِيَّةٍ}", "pour cent roupies"],
+            ["dans un état", "{ar|بِخَيْرٍ}", "bien (en bonne santé)"],
+            ["après {ar|مُتَزَوِّجٌ}", "{ar|مُتَزَوِّجٌ بِفَاطِمَةَ}", "marié à Fāṭima"]
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "بِالْمَدِينَةِ",
+          "fr": "à la ville",
+          "parts": [ { "ar": "بِ", "fr": "à, dans" }, { "ar": "الْمَدِينَةِ", "fr": "la ville (génitif)" } ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "بِمِائَةِ رُوبِيَّةٍ",
+          "fr": "pour cent roupies",
+          "parts": [
+            { "ar": "بِ", "fr": "pour, au prix de" },
+            { "ar": "مِائَةِ", "fr": "cent (génitif)" },
+            { "ar": "رُوبِيَّةٍ", "fr": "roupie (second terme)" }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Contrairement à {ar|لِ} ({ar|لِلْمُدِيرِ}, tome 1, chapitre 6), {ar|بِ} laisse l'alif de l'article : {ar|بِالْمَدِينَةِ}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|فَاطِمَةُ} est un nom sans tanwin : après {ar|بِ}, il prend la fatha ({ar|بِفَاطِمَةَ}), comme après toute préposition."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-7#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:bi",
+      "distractors": ["w:min", "w:fi"],
+      "explain": "{ar|بِ} : « à, dans, avec, pour ». {ar|مِنْ} : « de » ; {ar|فِي} : « dans »."
+    },
+    {
+      "id": "medine-t2.l01.grammar-7#4",
+      "type": "question",
+      "prompt": { "fr": "Quel est le cas du nom qui suit {ar|بِ} ?" },
+      "choices": [ { "fr": "Le génitif (la kasra)" }, { "fr": "Le nominatif (la damma)" }, { "fr": "L'accusatif (la fatha)" } ],
+      "answer": 0,
+      "explain": "Comme toute préposition, {ar|بِ} met le nom au génitif : {ar|بِمِائَةِ رُوبِيَّةٍ}."
+    },
+    {
+      "id": "medine-t2.l01.grammar-7#5",
+      "type": "spot",
+      "instruction": "Touche le mot qui commence par la préposition {ar|بِ}.",
+      "words": ["أَخَوَاتُهُ", "بِالْمَدِينَةِ", "الْمُنَوَّرَةِ."],
+      "answers": [1],
+      "fr": "Ses sœurs sont à Médine la Lumineuse."
+    },
+    {
+      "id": "medine-t2.l01.grammar-7#6",
+      "type": "sort",
+      "categories": [ { "fr": "un lieu" }, { "fr": "un prix" }, { "fr": "un état" } ],
+      "cards": [
+        { "ar": "زَيْدٌ بِالْمَدِينَةِ", "category": 0 },
+        { "ar": "الْكِتَابُ بِمِائَةِ رِيَالٍ", "category": 1 },
+        { "ar": "أَنَا بِخَيْرٍ", "category": 2 },
+        { "ar": "أَخَوَاتُهُ بِالْمَدِينَةِ", "category": 0 },
+        { "ar": "التِّلْفَازُ بِأَلْفِ دُولَارٍ", "category": 1 },
+        { "ar": "هُوَ بِخَيْرٍ", "category": 2 }
+      ],
+      "instruction": "Quel est le sens de {ar|بِ} ici ?",
+      "explain": "{ar|بِالْمَدِينَةِ} : le lieu ; {ar|بِمِائَةِ رِيَالٍ} et {ar|بِأَلْفِ دُولَارٍ} : le prix ; {ar|بِخَيْرٍ} : l'état."
+    },
+    {
+      "id": "medine-t2.l01.grammar-7#7",
+      "type": "order",
+      "fr": "La montre coûte cent roupies.",
+      "answers": [["السَّاعَةُ", "بِمِائَةِ", "رُوبِيَّةٍ"]],
+      "punctuation": ".",
+      "explain": "Mot à mot : « la montre (est) à cent roupies »."
+    },
+    {
+      "id": "medine-t2.l01.grammar-7#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd est marié à Fāṭima.",
+      "answers": ["زَيْدٌ مُتَزَوِّجٌ بِفَاطِمَةَ."]
+    },
+    {
+      "id": "medine-t2.l01.grammar-7#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La montre coûte cent roupies.",
+      "answers": ["السَّاعَةُ بِمِائَةِ رُوبِيَّةٍ."]
+    }
+  ]
+}

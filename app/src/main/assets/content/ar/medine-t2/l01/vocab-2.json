@@ -1,0 +1,106 @@
+{
+  "id": "medine-t2.l01.vocab-2",
+  "type": "vocabulary",
+  "title": "Dictionnaire, télévision et monnaies",
+  "icon": "shop",
+  "screens": [
+    { "id": "medine-t2.l01.vocab-2#1", "type": "present", "item": "w:mujam" },
+    {
+      "id": "medine-t2.l01.vocab-2#2",
+      "type": "tip",
+      "title": "Un dictionnaire arabe-français",
+      "blocks": [
+        {
+          "type": "example",
+          "ar": "هٰذَا مُعْجَمٌ عَرَبِيٌّ فَرَنْسِيٌّ.",
+          "fr": "Ceci est un dictionnaire arabe-français."
+        },
+        {
+          "type": "note",
+          "text": "{ar|عَرَبِيٌّ} (« arabe ») et {ar|فَرَنْسِيٌّ} (« français ») sont des adjectifs : ils suivent le nom et s'accordent avec lui (tome 1, chapitre 9). Les adjectifs de langue ou de pays se forment avec {ar|◌ِيٌّ}."
+        }
+      ]
+    },
+    { "id": "medine-t2.l01.vocab-2#3", "type": "present", "item": "w:tilfaz" },
+    {
+      "id": "medine-t2.l01.vocab-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:tilfaz",
+      "distractors": ["w:mujam", "w:kitab"]
+    },
+    { "id": "medine-t2.l01.vocab-2#5", "type": "present", "item": "w:dular" },
+    { "id": "medine-t2.l01.vocab-2#6", "type": "present", "item": "w:rubiyya" },
+    {
+      "id": "medine-t2.l01.vocab-2#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:mujam", "w:tilfaz", "w:dular", "w:rubiyya"]
+    },
+    {
+      "id": "medine-t2.l01.vocab-2#8",
+      "type": "tip",
+      "title": "Les monnaies et les nombres",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|رِيَالٌ} (le riyal, monnaie saoudienne). {ar|دُولَارٌ} est le dollar ; {ar|رُوبِيَّةٌ} est la roupie (Inde, Pakistan…). Avec les nombres, on applique les règles que tu connais :"
+        },
+        {
+          "type": "table",
+          "header": ["Nombre + monnaie", "Pourquoi"],
+          "rows": [
+            ["{ar|ثَلَاثَةُ رِيَالَاتٍ}", "{ar|رِيَالٌ} est masculin : {ar|ثَلَاثَةُ} ; de 3 à 10, le pluriel"],
+            [
+              "{ar|ثَلَاثُ رُوبِيَّاتٍ}",
+              "{ar|رُوبِيَّةٌ} est féminin : {ar|ثَلَاثُ}, sans {ar|ة} ; de 3 à 10, le pluriel"
+            ],
+            ["{ar|مِائَةُ دُولَارٍ}", "après {ar|مِائَةٌ}, le singulier"],
+            ["{ar|أَلْفُ رُوبِيَّةٍ}", "après {ar|أَلْفٌ}, le singulier"]
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t2.l01.vocab-2#9", "type": "present", "item": "w:safha" },
+    {
+      "id": "medine-t2.l01.vocab-2#10",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:safha",
+      "distractors": ["w:kitab", "w:daftar"]
+    },
+    {
+      "id": "medine-t2.l01.vocab-2#11",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:mujam", "w:tilfaz", "w:dular", "w:rubiyya"]
+    },
+    {
+      "id": "medine-t2.l01.vocab-2#12",
+      "type": "fill_gap",
+      "sentence": "{0} مَكْسُورٌ.",
+      "fr": "La télévision est cassée.",
+      "gaps": [ { "answers": ["التِّلْفَازُ"] } ],
+      "options": ["التِّلْفَازُ", "الْمُعْجَمُ", "الدُّولَارُ"],
+      "explain": "{ar|التِّلْفَازُ} (la télévision) : le {ar|ت} est une lettre solaire, d'où la shadda."
+    },
+    {
+      "id": "medine-t2.l01.vocab-2#13",
+      "type": "fill_gap",
+      "sentence": "عِنْدِي مِائَةُ {0}.",
+      "fr": "J'ai cent dollars.",
+      "gaps": [ { "answers": ["دُولَارٍ"] } ],
+      "options": ["دُولَارٍ", "رُوبِيَّةٍ"],
+      "explain": "« Dollars » : {ar|دُولَارٍ} ; {ar|رُوبِيَّةٍ} voudrait dire « roupies »."
+    },
+    { "id": "medine-t2.l01.vocab-2#14", "type": "build", "item": "w:rubiyya", "extra": ["ه"] },
+    { "id": "medine-t2.l01.vocab-2#15", "type": "typing", "ask": "fr", "item": "w:tilfaz" },
+    {
+      "id": "medine-t2.l01.vocab-2#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai mille dollars.",
+      "answers": ["لِي أَلْفُ دُولَارٍ.", "عِنْدِي أَلْفُ دُولَارٍ."]
+    }
+  ]
+}

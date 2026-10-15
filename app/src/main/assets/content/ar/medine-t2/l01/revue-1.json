@@ -1,0 +1,116 @@
+{
+  "id": "medine-t2.l01.revue-1",
+  "type": "review",
+  "title": "Le sujet et le prédicat",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l01.revue-1#1",
+      "type": "tip",
+      "title": "Rappel : l'information de la phrase",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais la phrase nominale ({ar|الْجُمْلَةُ الِاسْمِيَّةُ}, tome 1, chapitre 8) : elle commence par un nom, le sujet ({ar|الْمُبْتَدَأُ}). Le prédicat ({ar|الْخَبَرُ}) lui apporte une **information**, un jugement, et c'est lui qui complète la phrase."
+        },
+        { "type": "example", "ar": "زَيْدٌ فِي الْفَصْلِ.", "fr": "Zayd est dans la classe." },
+        {
+          "type": "paragraph",
+          "text": "Ici, on a simplement informé que Zayd se trouve dans la classe : le sujet est {ar|زَيْدٌ}, le prédicat est {ar|فِي الْفَصْلِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.revue-1#2",
+      "type": "tip",
+      "title": "Trois sortes de prédicat",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le prédicat n'est pas toujours un seul mot. Le professeur en donne trois exemples :"
+        },
+        {
+          "type": "table",
+          "header": ["Le prédicat est…", "Exemple"],
+          "rows": [
+            ["un nom ou un adjectif", "{ar|زَيْدٌ جَمِيلٌ} (Zayd est beau)"],
+            ["un groupe « préposition + nom »", "{ar|زَيْدٌ فِي الْفَصْلِ} (Zayd est dans la classe)"],
+            ["un verbe", "{ar|زَيْدٌ يَكْتُبُ} (Zayd écrit)"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|يَكْتُبُ} est le présent de {ar|كَتَبَ} (« il a écrit », tome 1, chapitre 8) : tu étudieras le présent plus tard. Ici, retiens seulement que le prédicat peut être un verbe."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.revue-1#3",
+      "type": "spot",
+      "instruction": "Touche le sujet (le mot par lequel la phrase commence).",
+      "words": ["الْمُدَرِّسُ", "فِي", "الْمَكْتَبِ."],
+      "answers": [0],
+      "fr": "L'enseignant est dans le bureau."
+    },
+    {
+      "id": "medine-t2.l01.revue-1#4",
+      "type": "spot",
+      "instruction": "Touche le prédicat (l'information).",
+      "words": ["الْكِتَابُ", "جَدِيدٌ."],
+      "answers": [1],
+      "fr": "Le livre est neuf.",
+      "explain": "{ar|جَدِيدٌ} dit quelque chose du livre : c'est le prédicat."
+    },
+    {
+      "id": "medine-t2.l01.revue-1#5",
+      "type": "sort",
+      "categories": [ { "fr": "un adjectif" }, { "fr": "une préposition et un nom" }, { "fr": "un verbe" } ],
+      "cards": [
+        { "ar": "الْبَابُ مَفْتُوحٌ", "category": 0 },
+        { "ar": "الطَّالِبُ فِي الْفَصْلِ", "category": 1 },
+        { "ar": "زَيْدٌ ذَهَبَ", "category": 2 },
+        { "ar": "الْقَلَمُ مَكْسُورٌ", "category": 0 },
+        { "ar": "الْكِتَابُ فِي الْحَقِيبَةِ", "category": 1 },
+        { "ar": "الْمُدِيرُ خَرَجَ", "category": 2 }
+      ],
+      "instruction": "Que contient le prédicat ?",
+      "explain": "Le prédicat est un adjectif, un groupe « préposition + nom », ou un verbe."
+    },
+    {
+      "id": "medine-t2.l01.revue-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Le prédicat apporte une information sur le sujet." },
+      "answer": true,
+      "explain": "C'est son rôle : sans lui, la phrase est incomplète."
+    },
+    {
+      "id": "medine-t2.l01.revue-1#7",
+      "type": "question",
+      "prompt": { "fr": "Quelle phrase est une phrase nominale ?" },
+      "choices": [ { "ar": "زَيْدٌ فِي الْفَصْلِ." }, { "ar": "دَخَلَ زَيْدٌ الْفَصْلَ." }, { "ar": "ذَهَبَ الطَّالِبُ." } ],
+      "answer": 0,
+      "explain": "{ar|زَيْدٌ فِي الْفَصْلِ} commence par un nom : elle est nominale. Les deux autres commencent par un verbe : elles sont verbales."
+    },
+    {
+      "id": "medine-t2.l01.revue-1#8",
+      "type": "order",
+      "fr": "Zayd est dans la classe.",
+      "answers": [["زَيْدٌ", "فِي", "الْفَصْلِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l01.revue-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le livre est neuf.",
+      "answers": ["الْكِتَابُ جَدِيدٌ."]
+    },
+    {
+      "id": "medine-t2.l01.revue-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'enseignant est nouveau.",
+      "answers": ["الْمُدَرِّسُ جَدِيدٌ."]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "id": "medine-t2.l01.grammar-1",
+  "type": "grammar",
+  "title": "Ceux qui abrogent : {ar|النَّوَاسِخُ}",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l01.grammar-1#1",
+      "type": "tip",
+      "title": "Un mot devant la phrase nominale",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "On peut changer le sens d'une phrase nominale en lui ajoutant **un seul mot devant**. Ce mot nuance la phrase dans le temps, dans l'affirmation ou la négation, dans la confirmation, dans l'espoir qu'elle se réalise, etc."
+        },
+        { "type": "example", "ar": "زَيْدٌ طَالِبٌ.", "fr": "Zayd est étudiant." },
+        {
+          "type": "paragraph",
+          "text": "Ces mots s'appellent {ar|النَّوَاسِخُ} (pluriel de {ar|نَاسِخٌ}), littéralement « ceux qui abrogent ». Ils abrogent, c'est-à-dire qu'ils annulent, le statut habituel de la phrase nominale."
+        }
+      ]
+    },
+    { "id": "medine-t2.l01.grammar-1#2", "type": "present", "item": "w:nasikh" },
+    {
+      "id": "medine-t2.l01.grammar-1#3",
+      "type": "tip",
+      "title": "Quatre exemples du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici la même phrase, {ar|زَيْدٌ طَالِبٌ}, avec quatre mots ajoutés devant. Chacun lui donne une nuance différente."
+        },
+        {
+          "type": "table",
+          "header": ["Mot ajouté", "Sorte", "Nuance", "Phrase"],
+          "rows": [
+            ["{ar|كَانَ}", "un verbe", "le passé", "{ar|كَانَ زَيْدٌ طَالِبًا.} (Zayd était étudiant.)"],
+            ["{ar|لَيْسَ}", "un verbe", "la négation", "{ar|لَيْسَ زَيْدٌ طَالِبًا.} (Zayd n'est pas étudiant.)"],
+            [
+              "{ar|إِنَّ}",
+              "une particule",
+              "la confirmation",
+              "{ar|إِنَّ زَيْدًا طَالِبٌ.} (Certes, Zayd est étudiant.)"
+            ],
+            [
+              "{ar|أَظُنُّ}",
+              "un verbe",
+              "la croyance, l'opinion",
+              "{ar|أَظُنُّ زَيْدًا طَالِبًا.} (Je pense que Zayd est étudiant.)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|كَانَ}, {ar|لَيْسَ} et {ar|أَظُنُّ} ne sont ici que des **aperçus** : tu n'as pas à les retenir maintenant. Dans ce chapitre, tu étudies {ar|إِنَّ} et ses sœurs."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-1#4",
+      "type": "tip",
+      "title": "Deux manières d'agir sur la phrase",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les {ar|النَّوَاسِخُ} sont des **verbes** ({ar|أَفْعَالٌ}) ou des **particules** ({ar|حُرُوفٌ}). Quelle que soit leur sorte, ils agissent de deux manières :"
+        },
+        {
+          "type": "table",
+          "header": ["Ils…", "Exemple"],
+          "rows": [
+            [
+              "changent le sens et le jugement de la phrase",
+              "{ar|لَيْسَ} nie, {ar|إِنَّ} confirme, {ar|كَانَ} met au passé"
+            ],
+            [
+              "changent le statut ({ar|الْإِعْرَابُ}) du sujet et du prédicat",
+              "les cas des deux éléments ne sont plus les mêmes (tableau ci-dessous)"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Le sujet", "Le prédicat"],
+          "rows": [
+            ["{ar|زَيْدٌ طَالِبٌ}", "nominatif", "nominatif"],
+            ["{ar|كَانَ زَيْدٌ طَالِبًا}", "nominatif", "accusatif"],
+            ["{ar|إِنَّ زَيْدًا طَالِبٌ}", "accusatif", "nominatif"],
+            ["{ar|أَظُنُّ زَيْدًا طَالِبًا}", "accusatif", "accusatif"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les mots de ce tableau sont tous des {ar|النَّوَاسِخُ}, mais chacun change les cas à sa manière. {ar|إِنَّ} et ses sœurs mettent le **sujet à l'accusatif** et laissent le **prédicat au nominatif**."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-1#5",
+      "type": "question",
+      "prompt": { "fr": "Quel mot sert à nier la phrase nominale ?" },
+      "choices": [ { "ar": "لَيْسَ" }, { "ar": "كَانَ" }, { "ar": "إِنَّ" } ],
+      "answer": 0,
+      "explain": "{ar|لَيْسَ زَيْدٌ طَالِبًا} : « Zayd n'est pas étudiant »."
+    },
+    {
+      "id": "medine-t2.l01.grammar-1#6",
+      "type": "question",
+      "prompt": { "fr": "Quel mot confirme la phrase (« certes… ») ?" },
+      "choices": [ { "ar": "إِنَّ" }, { "ar": "لَيْسَ" }, { "ar": "أَظُنُّ" } ],
+      "answer": 0,
+      "explain": "{ar|إِنَّ زَيْدًا طَالِبٌ} : « certes, Zayd est étudiant »."
+    },
+    {
+      "id": "medine-t2.l01.grammar-1#7",
+      "type": "true_false",
+      "statement": { "fr": "Les abrogeants ne changent que le sens de la phrase, jamais la fin des mots." },
+      "answer": false,
+      "explain": "Faux : ils changent aussi le cas du sujet et du prédicat. Après {ar|إِنَّ}, par exemple, le sujet passe de {ar|زَيْدٌ} à {ar|زَيْدًا}."
+    },
+    {
+      "id": "medine-t2.l01.grammar-1#8",
+      "type": "sort",
+      "categories": [ { "fr": "un verbe" }, { "fr": "une particule" } ],
+      "cards": [
+        { "ar": "كَانَ", "category": 0 },
+        { "ar": "إِنَّ", "category": 1 },
+        { "ar": "لَيْسَ", "category": 0 },
+        { "ar": "أَظُنُّ", "category": 0 }
+      ],
+      "instruction": "Verbe ou particule ?",
+      "explain": "{ar|كَانَ}, {ar|لَيْسَ} et {ar|أَظُنُّ} sont des verbes ; {ar|إِنَّ} est une particule."
+    },
+    {
+      "id": "medine-t2.l01.grammar-1#9",
+      "type": "spot",
+      "instruction": "Touche le mot qui abroge (celui qu'on a ajouté devant la phrase).",
+      "words": ["لَيْسَ", "زَيْدٌ", "طَالِبًا."],
+      "answers": [0],
+      "fr": "Zayd n'est pas étudiant."
+    },
+    {
+      "id": "medine-t2.l01.grammar-1#10",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدًا طَالِبٌ.",
+      "fr": "Certes, Zayd est étudiant.",
+      "gaps": [ { "answers": ["إِنَّ"] } ],
+      "options": ["إِنَّ", "لَيْسَ", "كَانَ"],
+      "explain": "Le sujet {ar|زَيْدًا} est à l'accusatif et le prédicat {ar|طَالِبٌ} au nominatif : c'est la marque de {ar|إِنَّ}."
+    }
+  ]
+}

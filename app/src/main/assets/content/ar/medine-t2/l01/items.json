@@ -1,0 +1,250 @@
+[
+  {
+    "id": "w:nasikh",
+    "kind": "word",
+    "ar": "النَّاسِخُ",
+    "fr": "l'abrogeant (outil qui change la phrase nominale)",
+    "translit": "an-nāsikhu",
+    "plural": "النَّوَاسِخُ",
+    "gender": "m",
+    "note": "Au sens propre, {ar|نَاسِخٌ} est « celui qui abroge, qui annule ». Ici, c'est un mot qui, placé devant une phrase nominale, en change le sens et le cas de ses deux éléments."
+  },
+  {
+    "id": "w:inna",
+    "kind": "word",
+    "ar": "إِنَّ",
+    "fr": "certes, en vérité (elle confirme la phrase)",
+    "translit": "inna",
+    "note": "Elle se place au début de la phrase. Le sujet qui la suit passe à l'accusatif ; le prédicat reste au nominatif.",
+    "example": { "ar": "إِنَّ زَيْدًا طَالِبٌ.", "fr": "Certes, Zayd est étudiant." }
+  },
+  {
+    "id": "w:anna",
+    "kind": "word",
+    "ar": "أَنَّ",
+    "fr": "que (elle confirme la phrase, au milieu d'une phrase)",
+    "translit": "anna",
+    "note": "Même sens et même effet sur la phrase que {ar|إِنَّ}, mais elle ne commence pas la phrase : elle vient après un autre mot (« je sais que… »)."
+  },
+  {
+    "id": "w:laalla",
+    "kind": "word",
+    "ar": "لَعَلَّ",
+    "fr": "peut-être, j'espère que",
+    "translit": "laʿalla",
+    "note": "Elle exprime l'espoir ou la probabilité que la chose se réalise. Le sujet qui la suit passe à l'accusatif.",
+    "example": { "ar": "لَعَلَّ زَيْدًا نَاجِحٌ.", "fr": "Espérons que Zayd réussisse." }
+  },
+  {
+    "id": "w:najih",
+    "kind": "word",
+    "ar": "نَاجِحٌ",
+    "fr": "qui réussit",
+    "translit": "nājiḥun",
+    "note": "Participe actif du verbe {ar|نَجَحَ} (« réussir »), employé comme adjectif.",
+    "example": { "ar": "زَيْدٌ نَاجِحٌ.", "fr": "Zayd réussit." }
+  },
+  {
+    "id": "w:ism-inna",
+    "kind": "word",
+    "ar": "اِسْمُ إِنَّ",
+    "fr": "le nom de {ar|إِنَّ} (le sujet après {ar|إِنَّ}, à l'accusatif)",
+    "translit": "ismu inna",
+    "gender": "m"
+  },
+  {
+    "id": "w:khabar-inna",
+    "kind": "word",
+    "ar": "خَبَرُ إِنَّ",
+    "fr": "le prédicat de {ar|إِنَّ} (au nominatif)",
+    "translit": "khabaru inna",
+    "gender": "m"
+  },
+  {
+    "id": "w:tawkid",
+    "kind": "word",
+    "ar": "التَّوْكِيدُ",
+    "fr": "la confirmation, l'insistance",
+    "translit": "at-tawkīdu",
+    "gender": "m",
+    "note": "Dire avec force que la phrase est vraie : « certes… »."
+  },
+  {
+    "id": "w:tarajji",
+    "kind": "word",
+    "ar": "التَّرَجِّي",
+    "fr": "l'espoir (la probabilité qu'une chose se réalise)",
+    "translit": "at-tarajjī",
+    "gender": "m"
+  },
+  {
+    "id": "w:dhaki",
+    "kind": "word",
+    "ar": "ذَكِيٌّ",
+    "fr": "intelligent",
+    "translit": "dhakiyyun",
+    "plural": "أَذْكِيَاءُ",
+    "note": "Au féminin : {ar|ذَكِيَّةٌ}. Le pluriel {ar|أَذْكِيَاءُ} n'a pas de tanwin, comme {ar|أَغْنِيَاءُ} (pluriel de {ar|غَنِيٌّ}).",
+    "example": { "ar": "زَيْدٌ رَجُلٌ ذَكِيٌّ.", "fr": "Zayd est un homme intelligent." }
+  },
+  {
+    "id": "w:mutazawwij",
+    "kind": "word",
+    "ar": "مُتَزَوِّجٌ",
+    "fr": "marié",
+    "translit": "mutazawwijun",
+    "plural": "مُتَزَوِّجُونَ",
+    "note": "Au féminin : {ar|مُتَزَوِّجَةٌ} (« mariée »). Le professeur écrit {ar|مُتَزَوِّجٌ (ة)} pour signaler les deux formes.",
+    "example": { "ar": "حَامِدٌ مُتَزَوِّجٌ.", "fr": "Ḥāmid est marié." }
+  },
+  {
+    "id": "w:azab",
+    "kind": "word",
+    "ar": "عَزَبٌ",
+    "fr": "célibataire",
+    "translit": "ʿazabun",
+    "plural": "أَعْزَابٌ",
+    "example": { "ar": "يَاسِرٌ عَزَبٌ.", "fr": "Yāsir est célibataire." }
+  },
+  {
+    "id": "w:mujam",
+    "kind": "word",
+    "ar": "مُعْجَمٌ",
+    "fr": "un dictionnaire",
+    "translit": "muʿjamun",
+    "plural": "مَعَاجِمُ",
+    "gender": "m",
+    "example": { "ar": "هٰذَا مُعْجَمٌ.", "fr": "Ceci est un dictionnaire." }
+  },
+  {
+    "id": "w:tilfaz",
+    "kind": "word",
+    "ar": "تِلْفَازٌ",
+    "fr": "une télévision (le poste)",
+    "translit": "tilfāzun",
+    "plural": "تِلْفَازَاتٌ",
+    "gender": "m",
+    "example": { "ar": "التِّلْفَازُ مَكْسُورٌ.", "fr": "La télévision est cassée." }
+  },
+  {
+    "id": "w:dular",
+    "kind": "word",
+    "ar": "دُولَارٌ",
+    "fr": "un dollar",
+    "translit": "dūlārun",
+    "plural": "دُولَارَاتٌ",
+    "gender": "m",
+    "example": { "ar": "لِي مِائَةُ دُولَارٍ.", "fr": "J'ai cent dollars." }
+  },
+  {
+    "id": "w:rubiyya",
+    "kind": "word",
+    "ar": "رُوبِيَّةٌ",
+    "fr": "une roupie",
+    "translit": "rūbiyyatun",
+    "plural": "رُوبِيَّاتٌ",
+    "gender": "f",
+    "example": { "ar": "لَكَ أَلْفُ رُوبِيَّةٍ.", "fr": "Tu as mille roupies." }
+  },
+  {
+    "id": "w:safha",
+    "kind": "word",
+    "ar": "صَفْحَةٌ",
+    "fr": "une page",
+    "translit": "ṣafḥatun",
+    "gender": "f",
+    "example": { "ar": "فِي الْكِتَابِ مِائَةُ صَفْحَةٍ.", "fr": "Il y a cent pages dans le livre." }
+  },
+  {
+    "id": "w:mi-a",
+    "kind": "word",
+    "ar": "مِائَةٌ",
+    "fr": "cent",
+    "translit": "miʾatun",
+    "gender": "f",
+    "note": "Le {ar|ا} ne se prononce pas : on dit « miʾa(tun) ». Le mot s'écrit aussi sans {ar|ا} : {ar|مِئَةٌ}.",
+    "example": { "ar": "لِي مِائَةُ كِتَابٍ.", "fr": "J'ai cent livres." }
+  },
+  {
+    "id": "w:alf",
+    "kind": "word",
+    "ar": "أَلْفٌ",
+    "fr": "mille",
+    "translit": "ʾalfun",
+    "gender": "m",
+    "example": { "ar": "لِي أَلْفُ قَلَمٍ.", "fr": "J'ai mille stylos." }
+  },
+  {
+    "id": "w:bi",
+    "kind": "word",
+    "ar": "بِ",
+    "fr": "à, dans, avec, pour (selon le mot qui suit)",
+    "translit": "bi-",
+    "note": "Préposition d'une seule lettre, collée au mot qui la suit. Le nom qui la suit est au génitif.",
+    "example": { "ar": "زَيْدٌ بِالْمَدِينَةِ الْمُنَوَّرَةِ.", "fr": "Zayd est à Médine." }
+  },
+  {
+    "id": "w:faqat",
+    "kind": "word",
+    "ar": "فَقَطْ",
+    "fr": "seulement, c'est tout",
+    "translit": "faqaṭ",
+    "example": { "ar": "لِي ثَلَاثَةُ رِيَالَاتٍ فَقَطْ.", "fr": "J'ai seulement trois riyals." }
+  },
+  {
+    "id": "w:dhu",
+    "kind": "word",
+    "ar": "ذُو",
+    "fr": "qui a, possesseur de",
+    "translit": "dhū",
+    "gender": "m",
+    "note": "Toujours suivi d'un nom, auquel il est annexé : {ar|ذُو مَالٍ}. Au féminin : {ar|ذَاتُ}."
+  },
+  {
+    "id": "p:dhu-khuluq",
+    "kind": "phrase",
+    "ar": "ذُو خُلُقٍ",
+    "fr": "qui a un bon comportement",
+    "translit": "dhū khuluqin",
+    "note": "{ar|خُلُقٌ} : le caractère, le comportement. Dans cette expression, on comprend un bon caractère."
+  },
+  {
+    "id": "p:dhu-ilm",
+    "kind": "phrase",
+    "ar": "ذُو عِلْمٍ",
+    "fr": "qui a de la science",
+    "translit": "dhū ʿilmin",
+    "note": "{ar|عِلْمٌ} : la science, le savoir."
+  },
+  {
+    "id": "p:dhu-mal",
+    "kind": "phrase",
+    "ar": "ذُو مَالٍ",
+    "fr": "qui a de l'argent, fortuné",
+    "translit": "dhū mālin",
+    "note": "{ar|مَالٌ} : l'argent, la fortune."
+  },
+  {
+    "id": "p:laallaka-bikhayr",
+    "kind": "phrase",
+    "ar": "لَعَلَّكَ بِخَيْرٍ.",
+    "fr": "J'espère que tu vas bien.",
+    "translit": "laʿallaka bi-khayrin",
+    "note": "Phrase de politesse. Mot à mot : « peut-être que toi, en bien »."
+  },
+  {
+    "id": "p:bikam-hadha",
+    "kind": "phrase",
+    "ar": "بِكَمْ هٰذَا؟",
+    "fr": "Combien coûte ceci ?",
+    "translit": "bi-kam hādhā",
+    "note": "Mot à mot : « à combien (est) ceci ? »."
+  },
+  {
+    "id": "p:bikam-hadha-alkitab",
+    "kind": "phrase",
+    "ar": "بِكَمْ هٰذَا الْكِتَابُ؟",
+    "fr": "Combien coûte ce livre ?",
+    "translit": "bi-kam hādhā l-kitābu"
+  }
+]

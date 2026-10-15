@@ -1,0 +1,148 @@
+{
+  "id": "medine-t2.l01.grammar-4",
+  "type": "grammar",
+  "title": "Espérons que… : {ar|لَعَلَّ}",
+  "icon": "telescope",
+  "screens": [
+    { "id": "medine-t2.l01.grammar-4#1", "type": "present", "item": "w:najih" },
+    {
+      "id": "medine-t2.l01.grammar-4#2",
+      "type": "tip",
+      "title": "{ar|لَعَلَّ} : l'espoir",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|لَعَلَّ} est une sœur de {ar|إِنَّ}. Elle exprime le **souhait** ou la **probabilité** que la chose se réalise ({ar|التَّرَجِّي}). Comme {ar|إِنَّ}, elle agit de deux manières sur la phrase nominale :"
+        },
+        {
+          "type": "table",
+          "header": ["Fonction", "Pour {ar|لَعَلَّ}"],
+          "rows": [
+            ["1. Elle change le sens", "elle exprime l'espoir : « peut-être », « j'espère que »"],
+            [
+              "2. Elle change le statut du sujet et du prédicat",
+              "le sujet ({ar|اِسْمُ لَعَلَّ}) passe à l'accusatif ; le prédicat ({ar|خَبَرُ لَعَلَّ}) reste au nominatif"
+            ]
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t2.l01.grammar-4#3", "type": "present", "item": "w:laalla" },
+    { "id": "medine-t2.l01.grammar-4#4", "type": "present", "item": "w:tarajji" },
+    {
+      "id": "medine-t2.l01.grammar-4#5",
+      "type": "tip",
+      "title": "Zayd réussit, espérons qu'il réussisse",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "زَيْدٌ نَاجِحٌ.", "fr": "Zayd réussit." },
+              "to": { "ar": "لَعَلَّ زَيْدًا نَاجِحٌ.", "fr": "Espérons que Zayd réussisse." },
+              "label": "{ar|زَيْدًا} : accusatif ; {ar|نَاجِحٌ} : nominatif"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les grammairiens disent que {ar|لَعَلَّ} exprime l'espoir quand la chose est souhaitée, et l'inquiétude quand elle est redoutée. Dans ce cours, on retient surtout l'espoir."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-4#6",
+      "type": "tip",
+      "title": "{ar|لَعَلَّ} avec un pronom",
+      "blocks": [
+        { "type": "paragraph", "text": "Comme {ar|إِنَّ}, {ar|لَعَلَّ} se colle au pronom qui est son sujet." },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَنْتَ نَاجِحٌ.", "fr": "Tu réussis." },
+              "to": { "ar": "لَعَلَّكَ نَاجِحٌ.", "fr": "J'espère que tu réussis." }
+            },
+            {
+              "from": { "ar": "هُوَ نَاجِحٌ.", "fr": "Il réussit." },
+              "to": { "ar": "لَعَلَّهُ نَاجِحٌ.", "fr": "J'espère qu'il réussit." }
+            },
+            {
+              "from": { "ar": "أَنَا نَاجِحٌ.", "fr": "Je réussis." },
+              "to": { "ar": "لَعَلِّي نَاجِحٌ.", "fr": "J'espère que je réussis." }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Pour « je », on dit {ar|لَعَلِّي} ou {ar|لَعَلَّنِي}, comme {ar|إِنِّي} ou {ar|إِنَّنِي}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-4#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:laalla",
+      "distractors": ["w:inna", "w:lakin"],
+      "explain": "{ar|لَعَلَّ} : « peut-être, j'espère que ». {ar|إِنَّ} : « certes » ; {ar|لٰكِنْ} : « mais »."
+    },
+    {
+      "id": "medine-t2.l01.grammar-4#8",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|لَعَلَّ زَيْدًا نَاجِحٌ} ?" },
+      "choices": [ { "fr": "Espérons que Zayd réussisse" }, { "fr": "Certes, Zayd réussit" }, { "fr": "Zayd n'a pas réussi" } ],
+      "answer": 0,
+      "explain": "{ar|لَعَلَّ} exprime l'espoir ; {ar|إِنَّ} aurait donné « certes »."
+    },
+    {
+      "id": "medine-t2.l01.grammar-4#9",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|لَعَلَّ}, le prédicat passe à l'accusatif." },
+      "answer": false,
+      "explain": "Faux : après {ar|لَعَلَّ}, comme après {ar|إِنَّ}, seul le sujet passe à l'accusatif. Le prédicat reste au nominatif."
+    },
+    {
+      "id": "medine-t2.l01.grammar-4#10",
+      "type": "spot",
+      "instruction": "Touche le sujet, qui est à l'accusatif.",
+      "words": ["لَعَلَّ", "زَيْدًا", "نَاجِحٌ."],
+      "answers": [1],
+      "fr": "Espérons que Zayd réussisse."
+    },
+    {
+      "id": "medine-t2.l01.grammar-4#11",
+      "type": "fill_gap",
+      "sentence": "لَعَلَّ {0} نَاجِحٌ.",
+      "fr": "Espérons que Zayd réussisse.",
+      "gaps": [ { "answers": ["زَيْدًا"] } ],
+      "options": ["زَيْدًا", "زَيْدٌ"],
+      "explain": "Après {ar|لَعَلَّ}, le sujet est à l'accusatif : {ar|زَيْدًا}."
+    },
+    {
+      "id": "medine-t2.l01.grammar-4#12",
+      "type": "fill_gap",
+      "sentence": "{0} نَاجِحٌ.",
+      "fr": "J'espère qu'il réussit.",
+      "gaps": [ { "answers": ["لَعَلَّهُ"] } ],
+      "options": ["لَعَلَّهُ", "لَعَلَّهَا", "لَعَلَّكَ"],
+      "explain": "« Il » : {ar|هُوَ} devient {ar|هُ} : {ar|لَعَلَّهُ}."
+    },
+    {
+      "id": "medine-t2.l01.grammar-4#13",
+      "type": "order",
+      "fr": "Espérons que Zayd réussisse.",
+      "answers": [["لَعَلَّ", "زَيْدًا", "نَاجِحٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l01.grammar-4#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Espérons que Zayd réussisse.",
+      "answers": ["لَعَلَّ زَيْدًا نَاجِحٌ."]
+    }
+  ]
+}

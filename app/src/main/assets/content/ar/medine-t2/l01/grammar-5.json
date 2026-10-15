@@ -1,0 +1,170 @@
+{
+  "id": "medine-t2.l01.grammar-5",
+  "type": "grammar",
+  "title": "{ar|إِنَّ} ou {ar|أَنَّ} ? Les six sœurs",
+  "icon": "puzzle",
+  "screens": [
+    { "id": "medine-t2.l01.grammar-5#1", "type": "present", "item": "w:anna" },
+    {
+      "id": "medine-t2.l01.grammar-5#2",
+      "type": "tip",
+      "title": "{ar|إِنَّ} ou {ar|أَنَّ} ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|إِنَّ} et {ar|أَنَّ} expriment la même chose : elles **confirment** le sens de la phrase. Elles ont aussi le même effet : le sujet passe à l'accusatif, le prédicat reste au nominatif. Leur différence est leur **place** :"
+        },
+        {
+          "type": "table",
+          "header": ["Particule", "Place", "Exemple"],
+          "rows": [
+            ["{ar|إِنَّ}", "au début de la phrase", "{ar|إِنَّ زَيْدًا طَالِبٌ} (certes, Zayd est étudiant)"],
+            [
+              "{ar|أَنَّ}",
+              "au milieu de la phrase, après un autre mot",
+              "{ar|أَعْلَمُ أَنَّ زَيْدًا طَالِبٌ} (je sais que Zayd est étudiant)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|أَعْلَمُ} (« je sais ») est un aperçu : tu l'étudieras plus tard. Ici, retiens la place de {ar|أَنَّ} : elle ne commence pas la phrase."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-5#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:anna",
+      "distractors": ["w:inna", "w:laalla"],
+      "explain": "{ar|أَنَّ} : « que » (au milieu de la phrase). {ar|إِنَّ} : « certes ». {ar|لَعَلَّ} : « peut-être »."
+    },
+    {
+      "id": "medine-t2.l01.grammar-5#4",
+      "type": "tip",
+      "title": "{ar|إِنَّ} et ses six sœurs",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans la tradition, {ar|إِنَّ} a **six** sœurs ({ar|إِنَّ وَأَخَوَاتُهَا}). Toutes mettent le sujet à l'accusatif et laissent le prédicat au nominatif. Tu en étudies trois dans ce chapitre : {ar|إِنَّ}, {ar|أَنَّ} et {ar|لَعَلَّ}."
+        },
+        {
+          "type": "table",
+          "header": ["Particule", "Sens"],
+          "rows": [
+            ["{ar|إِنَّ}", "certes (confirmation)"],
+            ["{ar|أَنَّ}", "que (confirmation, au milieu de la phrase)"],
+            ["{ar|لَعَلَّ}", "peut-être, j'espère que"],
+            ["{ar|كَأَنَّ}", "comme si (aperçu)"],
+            ["{ar|لَكِنَّ}", "mais (aperçu)"],
+            ["{ar|لَيْتَ}", "si seulement (aperçu)"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "{ar|لَكِنَّ} (avec une shadda) n'est pas {ar|لٰكِنْ} (« mais », tome 1, chapitre 21) : {ar|لَكِنَّ} agit sur la phrase comme {ar|إِنَّ}, alors que {ar|لٰكِنْ} n'agit d'ordinaire pas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-5#5",
+      "type": "true_false",
+      "statement": { "fr": "Toutes les sœurs de {ar|إِنَّ} mettent le sujet à l'accusatif." },
+      "answer": true,
+      "explain": "C'est ce qui les réunit : {ar|إِنَّ}, {ar|أَنَّ}, {ar|كَأَنَّ}, {ar|لَكِنَّ}, {ar|لَيْتَ} et {ar|لَعَلَّ}."
+    },
+    {
+      "id": "medine-t2.l01.grammar-5#6",
+      "type": "tip",
+      "title": "La fatha : un nom à l'accusatif, trois raisons",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur récapitule trois emplois de l'accusatif ({ar|النَّصْبُ}) que tu connais déjà :"
+        },
+        {
+          "type": "table",
+          "header": ["Emploi", "Exemple", "Le mot à l'accusatif"],
+          "rows": [
+            [
+              "l'adverbe de lieu ou de temps ({ar|الظَّرْفُ}) : {ar|فَوْقَ}, {ar|تَحْتَ}, {ar|قَبْلَ}",
+              "{ar|فَوْقَ الْمَكْتَبِ} (au-dessus du bureau)",
+              "{ar|فَوْقَ}"
+            ],
+            [
+              "le sujet de {ar|إِنَّ} et de ses sœurs",
+              "{ar|إِنَّ زَيْدًا جَالِسٌ} (certes, Zayd est assis)",
+              "{ar|زَيْدًا}"
+            ],
+            [
+              "la précision après {ar|كَمْ} ({ar|التَّمْيِيزُ})",
+              "{ar|كَمْ طَالِبًا فِي الْفَصْلِ؟} (combien d'étudiants dans la classe ?)",
+              "{ar|طَالِبًا}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Tu connais d'autres emplois : l'objet du verbe (tome 1, chapitre 17). L'accusatif ne sert donc pas qu'à un seul rôle."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l01.grammar-5#7",
+      "type": "sort",
+      "categories": [
+        { "fr": "un adverbe ({ar|فَوْقَ}, {ar|تَحْتَ}…)" },
+        { "fr": "le sujet de {ar|إِنَّ} ou de {ar|لَعَلَّ}" },
+        { "fr": "la précision après {ar|كَمْ}" }
+      ],
+      "cards": [
+        { "ar": "فَوْقَ الْمَكْتَبِ", "category": 0 },
+        { "ar": "إِنَّ الطَّالِبَ جَدِيدٌ", "category": 1 },
+        { "ar": "كَمْ كِتَابًا عِنْدَكَ؟", "category": 2 },
+        { "ar": "تَحْتَ السَّرِيرِ", "category": 0 },
+        { "ar": "لَعَلَّ زَيْدًا نَاجِحٌ", "category": 1 },
+        { "ar": "كَمْ قَلَمًا فِي الْحَقِيبَةِ؟", "category": 2 }
+      ],
+      "instruction": "Dans chaque groupe, un mot est à l'accusatif : pour quelle raison ?",
+      "explain": "{ar|فَوْقَ} et {ar|تَحْتَ} sont des adverbes de lieu ; {ar|الطَّالِبَ} et {ar|زَيْدًا} suivent {ar|إِنَّ} et {ar|لَعَلَّ} ; {ar|كِتَابًا} et {ar|قَلَمًا} précisent {ar|كَمْ}."
+    },
+    {
+      "id": "medine-t2.l01.grammar-5#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|كَمْ كِتَابًا عِنْدَكَ؟}, pourquoi {ar|كِتَابًا} est-il à l'accusatif ?" },
+      "choices": [
+        { "fr": "C'est la précision après {ar|كَمْ} ({ar|التَّمْيِيزُ})" },
+        { "fr": "Parce qu'il suit {ar|إِنَّ}" },
+        { "fr": "Parce que c'est un adverbe de lieu" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|كَمْ}, le nom est en général au singulier, à l'accusatif (tome 1, chapitre 18)."
+    },
+    {
+      "id": "medine-t2.l01.grammar-5#9",
+      "type": "fill_gap",
+      "sentence": "{0} الْمُدَرِّسَ جَدِيدٌ.",
+      "fr": "Certes, l'enseignant est nouveau.",
+      "gaps": [ { "answers": ["إِنَّ"] } ],
+      "options": ["إِنَّ", "أَنَّ"],
+      "explain": "{ar|أَنَّ} ne commence pas la phrase : on met {ar|إِنَّ}."
+    },
+    {
+      "id": "medine-t2.l01.grammar-5#10",
+      "type": "order",
+      "fr": "Combien de livres as-tu ?",
+      "answers": [["كَمْ", "كِتَابًا", "عِنْدَكَ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l01.grammar-5#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Combien d'étudiants y a-t-il dans la classe ?",
+      "answers": ["كَمْ طَالِبًا فِي الْفَصْلِ؟"]
+    }
+  ]
+}
