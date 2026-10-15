@@ -41,7 +41,7 @@ sens et les cas** de la phrase :
 Le gros morceau, dans cet ordre :
 1. Le verbe et son sujet (nom apparent ou pronom) ; les trois temps et leurs signes.
 2. **Les pronoms sujets collés au passé** (cours 2), puis **au présent** (cours 11).
-3. Verbe intransitif / transitif, `الْمَفْعُولُ بِهِ` (cours 5), pronoms compléments collés (cours 8).
+3. Verbe intransitif / transitif, `الْمَفْعُولُ بِهِ` (cours 5), pronoms compléments collés (`هُ`, `هَا`, `كَ` dès le cours 5 pour le texte du livre ; les autres au cours 8).
 4. **L'`إِعْرَاب` du présent** : nominatif, accusatif, jussif ; les deux cas où le verbe est
    invariable ; les `الْأَفْعَالُ الْخَمْسَةُ` ; le verbe à finale défectueuse.
 5. Les particules qui agissent sur le présent : `النَّوَاصِبُ` (`أَنْ`, `لِ` de but, `لَنْ`) et

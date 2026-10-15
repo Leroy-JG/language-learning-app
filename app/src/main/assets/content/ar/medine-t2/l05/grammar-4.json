@@ -1,0 +1,117 @@
+{
+  "id": "medine-t2.l05.grammar-4",
+  "type": "grammar",
+  "title": "Cinq raisons d'avoir la fatha",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l05.grammar-4#1",
+      "type": "tip",
+      "title": "Cinq emplois de l'accusatif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur range sous le nom d'**accusatif** ({ar|النَّصْبُ}) tous les mots qui prennent la fatha pour une raison de grammaire. Tu en connais maintenant cinq (il y en a d'autres, que tu verras plus tard) :"
+        },
+        {
+          "type": "table",
+          "header": ["Emploi", "Exemple", "Le mot à l'accusatif"],
+          "rows": [
+            ["l'adverbe : {ar|فَوْقَ}, {ar|تَحْتَ}, {ar|قَبْلَ}", "{ar|فَوْقَ الْمَكْتَبِ}", "{ar|فَوْقَ}"],
+            ["le sujet de {ar|إِنَّ} et de ses sœurs", "{ar|إِنَّ الطَّبِيبَ جَالِسٌ}", "{ar|الطَّبِيبَ}"],
+            [
+              "le prédicat de {ar|كَانَ وَأَخَوَاتِهَا} (par exemple {ar|لَيْسَ})",
+              "{ar|لَيْسَ الْبَابُ مَفْتُوحًا}",
+              "{ar|مَفْتُوحًا}"
+            ],
+            ["le complément d'objet direct", "{ar|ضَرَبَ زَيْدٌ يَاسِرًا}", "{ar|يَاسِرًا}"],
+            [
+              "la précision ({ar|التَّمْيِيزُ}) après {ar|كَمْ}",
+              "{ar|كَمْ طَالِبًا فِي الْفَصْلِ؟}",
+              "{ar|طَالِبًا}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le complément d'objet direct ne dépend d'aucune particule : c'est le **verbe transitif** qui l'appelle."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.grammar-4#2",
+      "type": "sort",
+      "categories": [
+        { "fr": "le complément d'objet direct" },
+        { "fr": "le sujet de {ar|إِنَّ}" },
+        { "fr": "le prédicat de {ar|لَيْسَ}" }
+      ],
+      "cards": [
+        { "ar": "شَرِبَ زَيْدٌ الْمَاءَ", "category": 0 },
+        { "ar": "إِنَّ الطَّبِيبَ جَالِسٌ", "category": 1 },
+        { "ar": "لَيْسَ الْبَابُ مَفْتُوحًا", "category": 2 },
+        { "ar": "قَرَأَ الطَّالِبُ الْقُرْآنَ", "category": 0 },
+        { "ar": "لَعَلَّ الْمُدِيرَ جَالِسٌ", "category": 1 },
+        { "ar": "لَيْسَ الْقَلَمُ مَكْسُورًا", "category": 2 },
+        { "ar": "فَتَحَ الْمُدِيرُ الْبَابَ", "category": 0 },
+        { "ar": "كَتَبَ الْمُدَرِّسُ الدَّرْسَ", "category": 0 }
+      ],
+      "instruction": "Pourquoi cet accusatif ?",
+      "explain": "Après un verbe transitif, le nom qui subit l'action est à l'accusatif. Après {ar|إِنَّ} et {ar|لَعَلَّ}, c'est le sujet ; après {ar|لَيْسَ}, c'est le prédicat."
+    },
+    {
+      "id": "medine-t2.l05.grammar-4#3",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|الْمُدِيرَ} est-il à l'accusatif dans {ar|إِنَّ الْمُدِيرَ جَالِسٌ} ?" },
+      "choices": [
+        { "fr": "c'est le sujet de {ar|إِنَّ}" },
+        { "fr": "c'est le complément d'objet direct" },
+        { "fr": "c'est le prédicat de {ar|لَيْسَ}" }
+      ],
+      "answer": 0,
+      "explain": "Il n'y a pas de verbe transitif ici : {ar|الْمُدِيرَ} est à l'accusatif parce que c'est le sujet de {ar|إِنَّ}."
+    },
+    {
+      "id": "medine-t2.l05.grammar-4#4",
+      "type": "spot",
+      "instruction": "Touche le mot à l'accusatif.",
+      "words": ["جَلَسَ", "زَيْدٌ", "فَوْقَ", "السَّرِيرِ."],
+      "answers": [2],
+      "fr": "Zayd s'est assis sur le lit.",
+      "explain": "{ar|فَوْقَ} est un adverbe : il porte la fatha. Ce n'est pas un complément d'objet direct, car {ar|جَلَسَ} n'en a pas besoin."
+    },
+    {
+      "id": "medine-t2.l05.grammar-4#5",
+      "type": "true_false",
+      "statement": { "fr": "Tout nom à l'accusatif est un complément d'objet direct." },
+      "answer": false,
+      "explain": "Non : l'adverbe, le sujet de {ar|إِنَّ}, le prédicat de {ar|لَيْسَ} et la précision après {ar|كَمْ} sont aussi à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l05.grammar-4#6",
+      "type": "order",
+      "fr": "Le garçon a bu l'eau.",
+      "answers": [["شَرِبَ", "الْوَلَدُ", "الْمَاءَ"], ["الْوَلَدُ", "شَرِبَ", "الْمَاءَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l05.grammar-4#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le professeur a ouvert la porte.",
+      "answers": [
+        "فَتَحَ الْمُدَرِّسُ الْبَابَ.",
+        "فَتَحَ الْأُسْتَاذُ الْبَابَ.",
+        "الْمُدَرِّسُ فَتَحَ الْبَابَ.",
+        "الْأُسْتَاذُ فَتَحَ الْبَابَ."
+      ]
+    },
+    {
+      "id": "medine-t2.l05.grammar-4#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le directeur a lu le livre.",
+      "answers": ["قَرَأَ الْمُدِيرُ الْكِتَابَ.", "الْمُدِيرُ قَرَأَ الْكِتَابَ."]
+    }
+  ]
+}

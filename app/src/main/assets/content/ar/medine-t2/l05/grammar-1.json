@@ -1,0 +1,169 @@
+{
+  "id": "medine-t2.l05.grammar-1",
+  "type": "grammar",
+  "title": "Un complément ou non ?",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l05.grammar-1#1",
+      "type": "tip",
+      "title": "Deux sortes de verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur partage les verbes ({ar|الْأَفْعَالُ}) en deux familles, selon ce dont ils ont besoin pour faire une phrase complète."
+        },
+        {
+          "type": "table",
+          "header": ["Famille", "Ce dont le verbe a besoin", "Exemple"],
+          "rows": [
+            ["{ar|الْفِعْلُ اللَّازِمُ}", "d'un sujet seulement", "{ar|نَامَ زَيْدٌ} (Zayd a dormi)"],
+            [
+              "{ar|الْفِعْلُ الْمُتَعَدِّي}",
+              "d'un sujet **et** d'un complément d'objet direct",
+              "{ar|ضَرَبَ زَيْدٌ يَاسِرًا} (Zayd a frappé Yāsir)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Un verbe transitif est incomplet sans son complément : « Zayd a frappé » appelle la question « qui ? »."
+        }
+      ]
+    },
+    { "id": "medine-t2.l05.grammar-1#2", "type": "present", "item": "w:fil-lazim" },
+    { "id": "medine-t2.l05.grammar-1#3", "type": "present", "item": "w:fil-mutaaddi" },
+    {
+      "id": "medine-t2.l05.grammar-1#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:fil-lazim",
+      "distractors": ["w:fil-mutaaddi", "w:fil"]
+    },
+    { "id": "medine-t2.l05.grammar-1#5", "type": "present", "item": "w:jamula" },
+    { "id": "medine-t2.l05.grammar-1#6", "type": "present", "item": "w:kabura" },
+    {
+      "id": "medine-t2.l05.grammar-1#7",
+      "type": "tip",
+      "title": "Les exemples du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici les exemples du professeur : d'abord des verbes qui n'ont besoin que d'un sujet, puis des verbes qui ont aussi un complément."
+        },
+        {
+          "type": "table",
+          "header": ["Verbe intransitif", "Sens"],
+          "rows": [
+            ["{ar|نَامَ زَيْدٌ}", "Zayd a dormi."],
+            ["{ar|جَمُلَ زَيْدٌ}", "Zayd est beau."],
+            ["{ar|كَبُرْتُ}", "J'ai grandi."]
+          ]
+        },
+        {
+          "type": "table",
+          "header": ["Verbe transitif", "Sens"],
+          "rows": [
+            ["{ar|ضَرَبَ زَيْدٌ يَاسِرًا}", "Zayd a frappé Yāsir."],
+            ["{ar|أَكَلَ زَيْدٌ خُبْزًا}", "Zayd a mangé du pain."],
+            ["{ar|قَرَأْتُ الْكِتَابَ}", "J'ai lu le livre."]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "{ar|لَازِمٌ} veut dire « attaché » : l'action reste collée à celui qui la fait. {ar|مُتَعَدٍّ} veut dire « qui dépasse » : l'action dépasse le sujet et passe sur un complément."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.grammar-1#8",
+      "type": "sort",
+      "categories": [ { "ar": "الْفِعْلُ اللَّازِمُ" }, { "ar": "الْفِعْلُ الْمُتَعَدِّي" } ],
+      "cards": [
+        { "ar": "نَامَ زَيْدٌ.", "category": 0 },
+        { "ar": "ضَرَبَ زَيْدٌ يَاسِرًا.", "category": 1 },
+        { "ar": "جَمُلَ زَيْدٌ.", "category": 0 },
+        { "ar": "أَكَلَ زَيْدٌ خُبْزًا.", "category": 1 },
+        { "ar": "كَبُرَ الْوَلَدُ.", "category": 0 },
+        { "ar": "فَتَحَ الْمُدِيرُ الْبَابَ.", "category": 1 },
+        { "ar": "جَلَسَ زَيْدٌ فِي الْفَصْلِ.", "category": 0 },
+        { "ar": "قَرَأَ الطَّالِبُ الْقُرْآنَ.", "category": 1 }
+      ],
+      "instruction": "Le verbe de cette phrase a-t-il besoin d'un complément ?",
+      "explain": "Dans {ar|جَلَسَ زَيْدٌ فِي الْفَصْلِ}, {ar|الْفَصْلِ} suit une préposition : ce n'est pas un complément d'objet direct, et {ar|جَلَسَ} reste intransitif."
+    },
+    {
+      "id": "medine-t2.l05.grammar-1#9",
+      "type": "tip",
+      "title": "Après une préposition, ce n'est pas un complément direct",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Attention : un nom qui suit une **préposition** n'est pas un complément d'objet direct. Il est au **génitif**."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Le nom après le verbe", "Pourquoi ?"],
+          "rows": [
+            [
+              "{ar|جَلَسَ زَيْدٌ فِي الْفَصْلِ}",
+              "{ar|الْفَصْلِ}",
+              "après {ar|فِي} : génitif, pas un complément direct"
+            ],
+            [
+              "{ar|ذَهَبَ زَيْدٌ إِلَى الْمَسْجِدِ}",
+              "{ar|الْمَسْجِدِ}",
+              "après {ar|إِلَى} : génitif, pas un complément direct"
+            ],
+            [
+              "{ar|فَتَحَ زَيْدٌ الْبَابَ}",
+              "{ar|الْبَابَ}",
+              "juste après le verbe : complément d'objet direct, accusatif"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les deux langues ne se ressemblent pas toujours. En arabe, {ar|دَخَلَ} (« entrer ») se construit directement, **sans** préposition : {ar|دَخَلَ الطُّلَّابُ الْفَصْلَ} (« les étudiants sont entrés dans la classe »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.grammar-1#10",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|ذَهَبَ زَيْدٌ إِلَى الْمَسْجِدِ}, le mot {ar|الْمَسْجِدِ} est-il un complément d'objet direct ?"
+      },
+      "choices": [
+        { "fr": "Non : il suit la préposition {ar|إِلَى}, il est au génitif" },
+        { "fr": "Oui : il vient juste après le verbe" },
+        { "fr": "Oui : il est le sujet du verbe" }
+      ],
+      "answer": 0,
+      "explain": "{ar|إِلَى} est une préposition : le nom qui la suit est au génitif (kasra). Le complément d'objet direct, lui, suit le verbe sans préposition et porte en général la fatha."
+    },
+    {
+      "id": "medine-t2.l05.grammar-1#11",
+      "type": "question",
+      "prompt": { "fr": "Lequel de ces verbes demande d'ordinaire un complément d'objet direct ?" },
+      "choices": [ { "ar": "نَامَ" }, { "ar": "جَلَسَ" }, { "ar": "كَتَبَ" }, { "ar": "خَرَجَ" } ],
+      "answer": 2,
+      "explain": "On écrit quelque chose : {ar|كَتَبَ} est transitif. On dort, on s'assoit, on sort : {ar|نَامَ}, {ar|جَلَسَ}, {ar|خَرَجَ} n'ont besoin que d'un sujet."
+    },
+    {
+      "id": "medine-t2.l05.grammar-1#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd a mangé du pain.",
+      "answers": ["أَكَلَ زَيْدٌ خُبْزًا."]
+    },
+    {
+      "id": "medine-t2.l05.grammar-1#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd a dormi.",
+      "answers": ["نَامَ زَيْدٌ."]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "medine-t2.l05.practice-2",
+  "type": "grammar",
+  "title": "Le verbe, le sujet et le complément",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l05.practice-2#1",
+      "type": "tip",
+      "title": "Les exercices 3 et 4 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne d'abord quatre phrases modèles, où il faut reconnaître le verbe, le sujet et le complément d'objet direct :"
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Le verbe", "Le sujet", "Le complément"],
+          "rows": [
+            ["{ar|قَرَأَ الطَّالِبُ الْقُرْآنَ}", "{ar|قَرَأَ}", "{ar|الطَّالِبُ}", "{ar|الْقُرْآنَ}"],
+            ["{ar|شَرِبَ الضَّيْفُ الْقَهْوَةَ}", "{ar|شَرِبَ}", "{ar|الضَّيْفُ}", "{ar|الْقَهْوَةَ}"],
+            ["{ar|كَتَبَ الْمُدَرِّسُ الدَّرْسَ}", "{ar|كَتَبَ}", "{ar|الْمُدَرِّسُ}", "{ar|الدَّرْسَ}"],
+            ["{ar|فَتَحَتْ آمِنَةُ الْبَابَ}", "{ar|فَتَحَتْ}", "{ar|آمِنَةُ}", "{ar|الْبَابَ}"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il demande ensuite de trouver le sujet et le complément dans neuf phrases, et de vocaliser leur dernière lettre : **damma** pour le sujet, **fatha** pour le complément."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.practice-2#2",
+      "type": "spot",
+      "instruction": "Touche le sujet et le complément d'objet direct.",
+      "words": ["كَسَرَ", "الطِّفْلُ", "الْقَلَمَ."],
+      "answers": [1, 2],
+      "fr": "L'enfant a cassé le stylo.",
+      "explain": "{ar|الطِّفْلُ} fait l'action (sujet, damma) ; {ar|الْقَلَمَ} la subit (complément, fatha)."
+    },
+    {
+      "id": "medine-t2.l05.practice-2#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|غَسَلَتْ آمِنَةُ الْمِنْدِيلَ}, qui fait l'action ?" },
+      "choices": [ { "ar": "آمِنَةُ" }, { "ar": "الْمِنْدِيلَ" }, { "ar": "غَسَلَتْ" } ],
+      "answer": 0,
+      "explain": "{ar|آمِنَةُ} est le sujet. {ar|الْمِنْدِيلَ} est le complément : c'est lui qu'on lave."
+    },
+    {
+      "id": "medine-t2.l05.practice-2#4",
+      "type": "spot",
+      "instruction": "Touche les deux sujets et les deux compléments d'objet.",
+      "words": ["أَكَلَ", "أُسَامَةُ", "الْعِنَبَ", "وَأَكَلَتْ", "زَوْجَتُهُ", "الْمَوْزَ."],
+      "answers": [1, 2, 4, 5],
+      "fr": "Usāma a mangé le raisin et sa femme a mangé les bananes.",
+      "explain": "Chaque verbe a son sujet et son complément : {ar|أُسَامَةُ} / {ar|الْعِنَبَ}, {ar|زَوْجَتُهُ} / {ar|الْمَوْزَ}."
+    },
+    {
+      "id": "medine-t2.l05.practice-2#5",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|شَرِبَتِ الْبَقَرَةُ الْمَاءَ}, quel est le complément d'objet direct ?" },
+      "choices": [ { "ar": "الْبَقَرَةُ" }, { "ar": "الْمَاءَ" }, { "ar": "شَرِبَتِ" } ],
+      "answer": 1,
+      "explain": "{ar|الْبَقَرَةُ} (damma) fait l'action ; {ar|الْمَاءَ} (fatha) la subit."
+    },
+    {
+      "id": "medine-t2.l05.practice-2#6",
+      "type": "spot",
+      "instruction": "Touche le sujet et le complément d'objet direct.",
+      "words": ["حَفِظَ", "حَمْزَةُ", "الْقُرْآنَ."],
+      "answers": [1, 2],
+      "fr": "Ḥamza a mémorisé le Coran.",
+      "explain": "{ar|حَمْزَةُ} est le sujet (damma) ; {ar|الْقُرْآنَ} est le complément (fatha)."
+    },
+    {
+      "id": "medine-t2.l05.practice-2#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|ضَرَبَتْ فَاطِمَةُ بِنْتَهَا}, qui reçoit les coups ?" },
+      "choices": [ { "ar": "فَاطِمَةُ" }, { "ar": "بِنْتَهَا" } ],
+      "answer": 1,
+      "explain": "{ar|بِنْتَهَا} = {ar|بِنْتَ} + {ar|هَا} (« sa fille ») : c'est le complément, à l'accusatif. {ar|فَاطِمَةُ} est le sujet."
+    },
+    {
+      "id": "medine-t2.l05.practice-2#8",
+      "type": "spot",
+      "instruction": "Touche le sujet et le complément d'objet direct.",
+      "words": ["قَتَلَ", "الرَّجُلُ", "الْحَيَّةَ", "بِالْحَجَرِ."],
+      "answers": [1, 2],
+      "fr": "L'homme a tué le serpent avec la pierre.",
+      "explain": "{ar|بِالْحَجَرِ} suit la préposition {ar|بِ} : il est au génitif, ce n'est pas un complément d'objet direct."
+    },
+    {
+      "id": "medine-t2.l05.practice-2#9",
+      "type": "spot",
+      "instruction": "Touche le sujet et le complément d'objet direct du premier verbe.",
+      "words": ["سَمِعَ", "بِلَالٌ", "الْأَذَانَ", "وَذَهَبَ", "إِلَى", "الْمَسْجِدِ."],
+      "answers": [1, 2],
+      "fr": "Bilāl a entendu l'appel à la prière et est allé à la mosquée.",
+      "explain": "Le second verbe {ar|ذَهَبَ} a pour sujet un pronom caché (« il »), qui reprend {ar|بِلَالٌ} ; {ar|الْمَسْجِدِ} suit {ar|إِلَى}."
+    },
+    {
+      "id": "medine-t2.l05.practice-2#10",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|كَتَبَ الْمُدَرِّسُ الدَّرْسَ عَلَى السَّبُّورَةِ}, quel mot est le complément d'objet direct ?"
+      },
+      "choices": [ { "ar": "الدَّرْسَ" }, { "ar": "السَّبُّورَةِ" }, { "ar": "الْمُدَرِّسُ" } ],
+      "answer": 0,
+      "explain": "{ar|الدَّرْسَ} est ce qu'on écrit. {ar|السَّبُّورَةِ} suit la préposition {ar|عَلَى} : génitif."
+    },
+    {
+      "id": "medine-t2.l05.practice-2#11",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|كَسَرَ الطِّفْلُ الْقَلَمَ}, quelles voyelles finales portent le sujet et le complément ?" },
+      "choices": [
+        { "fr": "damma pour le sujet, fatha pour le complément" },
+        { "fr": "fatha pour le sujet, damma pour le complément" },
+        { "fr": "kasra pour les deux" }
+      ],
+      "answer": 0,
+      "explain": "Le sujet est au nominatif (damma) : {ar|الطِّفْلُ}. Le complément est à l'accusatif (fatha) : {ar|الْقَلَمَ}."
+    },
+    {
+      "id": "medine-t2.l05.practice-2#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'enfant a cassé le stylo.",
+      "answers": ["كَسَرَ الطِّفْلُ الْقَلَمَ."]
+    },
+    {
+      "id": "medine-t2.l05.practice-2#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La vache a bu l'eau.",
+      "answers": ["شَرِبَتِ الْبَقَرَةُ الْمَاءَ."]
+    }
+  ]
+}

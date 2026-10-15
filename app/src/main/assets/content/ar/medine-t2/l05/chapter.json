@@ -1,0 +1,19 @@
+{
+  "id": "medine-t2.l05",
+  "number": 5,
+  "title": { "ar": "الدَّرْسُ الْخَامِسُ", "fr": "Le complément d'objet direct" },
+  "description": "Le verbe intransitif et le verbe transitif ; le complément d'objet direct ({ar|الْمَفْعُولُ بِهِ}) : nom apparent ou pronom collé ; un seul sujet par verbe ; le texte du livre et ses exercices.",
+  "source": "Tome de Médine 2, leçon 5",
+  "sections": [
+    { "title": "Revoir : le verbe et son sujet", "activities": ["revue-1"] },
+    { "title": "Ouvrir, lire, comprendre, boire", "activities": ["vocab-1"] },
+    { "title": "Le verbe et son complément", "activities": ["grammar-1", "grammar-2", "grammar-3", "grammar-4"] },
+    { "title": "Un seul sujet par verbe", "activities": ["grammar-5"] },
+    { "title": "L'épicier, le serpent et quatre verbes de plus", "activities": ["vocab-2", "vocab-3", "vocab-4"] },
+    {
+      "title": "Le texte du livre",
+      "activities": ["dialogue-1", "practice-1", "practice-2", "practice-3", "practice-4", "practice-5"]
+    },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

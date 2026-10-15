@@ -1,0 +1,145 @@
+{
+  "id": "medine-t2.l05.grammar-2",
+  "type": "grammar",
+  "title": "Le complément d'objet direct",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l05.grammar-2#1",
+      "type": "tip",
+      "title": "Celui qui subit l'action",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le {ar|الْمَفْعُولُ بِهِ} (le complément d'objet direct) est **le nom qui subit l'action du verbe**. Dans {ar|ضَرَبَ زَيْدٌ يَاسِرًا}, c'est Yāsir qui reçoit les coups."
+        },
+        { "type": "example", "ar": "ضَرَبَ زَيْدٌ يَاسِرًا.", "fr": "Zayd a frappé Yāsir." },
+        {
+          "type": "table",
+          "header": ["Mot", "Rôle", "Pourquoi ?"],
+          "rows": [
+            ["{ar|ضَرَبَ}", "le verbe", "c'est l'action"],
+            ["{ar|زَيْدٌ}", "le sujet ({ar|الْفَاعِلُ})", "il fait l'action : nominatif"],
+            ["{ar|يَاسِرًا}", "le complément d'objet direct", "il subit l'action : accusatif"]
+          ]
+        },
+        { "type": "paragraph", "text": "Le professeur le définit aussi en arabe :" },
+        {
+          "type": "example",
+          "ar": "هُوَ الِاسْمُ الَّذِي يَقَعُ عَلَيْهِ الْفِعْلُ.",
+          "fr": "C'est le nom sur lequel tombe l'action du verbe."
+        },
+        { "type": "note", "text": "Cette phrase arabe est un aperçu : tu n'as pas encore vu tous ses mots." }
+      ]
+    },
+    { "id": "medine-t2.l05.grammar-2#2", "type": "present", "item": "w:maful-bih" },
+    {
+      "id": "medine-t2.l05.grammar-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:maful-bih",
+      "distractors": ["w:fail", "w:fil"]
+    },
+    {
+      "id": "medine-t2.l05.grammar-2#4",
+      "type": "tip",
+      "title": "Il est à l'accusatif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le complément d'objet direct est à l'**accusatif** : il porte la fatha (ou le tanwin fatha). Le sujet, lui, est au nominatif (damma)."
+        },
+        {
+          "type": "compare",
+          "title": "La damma devient fatha",
+          "rows": [
+            {
+              "from": { "ar": "يَاسِرٌ", "fr": "Yāsir (sujet)" },
+              "to": { "ar": "يَاسِرًا", "fr": "Yāsir (complément)" }
+            },
+            {
+              "from": { "ar": "خُبْزٌ", "fr": "du pain (sujet)" },
+              "to": { "ar": "خُبْزًا", "fr": "du pain (complément)" }
+            },
+            {
+              "from": { "ar": "الْكِتَابُ", "fr": "le livre (sujet)" },
+              "to": { "ar": "الْكِتَابَ", "fr": "le livre (complément)" }
+            },
+            {
+              "from": { "ar": "الدَّرْسُ", "fr": "la leçon (sujet)" },
+              "to": { "ar": "الدَّرْسَ", "fr": "la leçon (complément)" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Au pluriel masculin régulier, l'accusatif s'écrit {ar|◌ِينَ} ; au pluriel féminin régulier, il prend la kasra : {ar|◌َاتِ}. C'est la même marque qu'au génitif (tu l'as vu au tome 1)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.grammar-2#5",
+      "type": "spot",
+      "instruction": "Touche le sujet (celui qui fait l'action).",
+      "words": ["أَكَلَ", "زَيْدٌ", "خُبْزًا."],
+      "answers": [1],
+      "fr": "Zayd a mangé du pain.",
+      "explain": "{ar|زَيْدٌ} fait l'action : c'est le sujet, au nominatif. {ar|خُبْزًا} la subit."
+    },
+    {
+      "id": "medine-t2.l05.grammar-2#6",
+      "type": "spot",
+      "instruction": "Touche le complément d'objet direct.",
+      "words": ["قَرَأَ", "الطَّالِبُ", "الْقُرْآنَ", "فِي", "الْمَسْجِدِ."],
+      "answers": [2],
+      "fr": "L'étudiant a lu le Coran à la mosquée.",
+      "explain": "{ar|الْقُرْآنَ} subit l'action de lire. {ar|الْمَسْجِدِ} suit la préposition {ar|فِي} : ce n'est pas un complément direct."
+    },
+    {
+      "id": "medine-t2.l05.grammar-2#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|كَتَبَ الطَّالِبُ الدَّرْسَ}, quel mot subit l'action ?" },
+      "choices": [ { "ar": "كَتَبَ" }, { "ar": "الطَّالِبُ" }, { "ar": "الدَّرْسَ" } ],
+      "answer": 2,
+      "explain": "Ce qu'on écrit, c'est {ar|الدَّرْسَ} : c'est le complément d'objet direct. {ar|الطَّالِبُ} est le sujet."
+    },
+    {
+      "id": "medine-t2.l05.grammar-2#8",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle finale porte le complément d'objet direct, quand c'est un nom au singulier ?" },
+      "choices": [
+        { "fr": "une fatha (ou un tanwin fatha)" },
+        { "fr": "une damma (ou un tanwin damma)" },
+        { "fr": "une kasra (ou un tanwin kasra)" }
+      ],
+      "answer": 0,
+      "explain": "Le complément d'objet direct est à l'accusatif, le cas de la fatha (les pluriels réguliers et les duels ont leur marque propre)."
+    },
+    {
+      "id": "medine-t2.l05.grammar-2#9",
+      "type": "order",
+      "fr": "Zayd a ouvert la porte.",
+      "answers": [["فَتَحَ", "زَيْدٌ", "الْبَابَ"], ["زَيْدٌ", "فَتَحَ", "الْبَابَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l05.grammar-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai bu l'eau.",
+      "answers": ["شَرِبْتُ الْمَاءَ."]
+    },
+    {
+      "id": "medine-t2.l05.grammar-2#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le professeur a écrit la leçon.",
+      "answers": [
+        "كَتَبَ الْمُدَرِّسُ الدَّرْسَ.",
+        "كَتَبَ الْأُسْتَاذُ الدَّرْسَ.",
+        "الْمُدَرِّسُ كَتَبَ الدَّرْسَ.",
+        "الْأُسْتَاذُ كَتَبَ الدَّرْسَ."
+      ]
+    }
+  ]
+}

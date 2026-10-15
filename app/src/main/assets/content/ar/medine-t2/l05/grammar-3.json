@@ -1,0 +1,177 @@
+{
+  "id": "medine-t2.l05.grammar-3",
+  "type": "grammar",
+  "title": "Un nom ou un pronom ?",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l05.grammar-3#1",
+      "type": "tip",
+      "title": "Deux sortes de compléments",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le complément d'objet direct est soit un **nom apparent** ({ar|اِسْمٌ ظَاهِرٌ}), soit un **pronom** ({ar|ضَمِيرٌ}) collé au verbe."
+        },
+        {
+          "type": "table",
+          "header": ["Le complément est…", "Exemple", "Sens"],
+          "rows": [
+            ["un nom apparent", "{ar|ضَرَبَ زَيْدٌ يَاسِرًا}", "Zayd a frappé Yāsir"],
+            ["un pronom collé", "{ar|ضَرَبَكَ زَيْدٌ}", "Zayd t'a frappé"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans {ar|ضَرَبَكَ زَيْدٌ}, le pronom {ar|كَ} (« te ») est collé au verbe, **avant** le sujet {ar|زَيْدٌ}. Un pronom complément collé reste collé au verbe : il ne se place pas après le sujet."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.grammar-3#2",
+      "type": "tip",
+      "title": "Les pronoms compléments collés",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ces pronoms sont ceux que tu connais déjà collés aux noms ({ar|كِتَابُهُ}, {ar|كِتَابُهَا}, {ar|كِتَابُكَ}) : on les colle simplement au verbe."
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Sens", "Avec {ar|ضَرَبَ} (il a frappé)", "Avec {ar|ضَرَبْتُ} (j'ai frappé)"],
+          "rows": [
+            ["{ar|هُ}", "le, l' (masculin)", "{ar|ضَرَبَهُ} : il l'a frappé", "{ar|ضَرَبْتُهُ} : je l'ai frappé"],
+            [
+              "{ar|هَا}",
+              "la, l' (féminin)",
+              "{ar|ضَرَبَهَا} : il l'a frappée",
+              "{ar|ضَرَبْتُهَا} : je l'ai frappée"
+            ],
+            ["{ar|كَ}", "te, t' (à un homme)", "{ar|ضَرَبَكَ} : il t'a frappé", "{ar|ضَرَبْتُكَ} : je t'ai frappé"]
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "فَتَحْتُهُ",
+          "fr": "je l'ai ouvert",
+          "parts": [
+            { "ar": "فَتَحْ", "fr": "la base du verbe : ouvr-" },
+            { "ar": "تُ", "fr": "le sujet : je" },
+            { "ar": "هُ", "fr": "le complément : le" }
+          ]
+        },
+        { "type": "note", "text": "Le pronom sujet ({ar|تُ}) vient avant le pronom complément ({ar|هُ})." },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Le pronom suit le genre du mot **arabe** : {ar|الْبَابُ} est masculin, donc {ar|هُ}, même si « porte » est féminin en français."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.grammar-3#3",
+      "type": "sort",
+      "categories": [ { "fr": "un nom apparent" }, { "fr": "un pronom collé" } ],
+      "cards": [
+        { "ar": "فَتَحَ زَيْدٌ الْبَابَ.", "category": 0 },
+        { "ar": "فَتَحَهُ زَيْدٌ.", "category": 1 },
+        { "ar": "ضَرَبَكَ زَيْدٌ.", "category": 1 },
+        { "ar": "ضَرَبَ زَيْدٌ يَاسِرًا.", "category": 0 },
+        { "ar": "قَرَأْتُ الْكِتَابَ.", "category": 0 },
+        { "ar": "قَرَأْتُهُ.", "category": 1 }
+      ],
+      "instruction": "Le complément d'objet direct est…",
+      "explain": "Un nom apparent est écrit dans la phrase ; un pronom complément est collé à la fin du verbe."
+    },
+    {
+      "id": "medine-t2.l05.grammar-3#4",
+      "type": "tip",
+      "title": "Et pour dire « me » ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Seul « me » change : avec un verbe, on colle {ar|نِي} (et non {ar|ي}) : {ar|ضَرَبَنِي} (« il m'a frappé »). La lettre {ar|ن} s'appelle la nūn « de protection » ({ar|نُونُ الْوِقَايَةِ}) : elle protège la dernière lettre du verbe de la kasra du pronom."
+        },
+        {
+          "type": "note",
+          "text": "Tu l'as déjà rencontrée après {ar|أَنَّ} et {ar|إِنَّ} : {ar|لِأَنَّنِي} (« parce que je »), {ar|إِنَّنِي}. La forme {ar|لِأَنِّي}, {ar|إِنِّي} est aussi correcte. Les autres pronoms compléments viendront plus tard dans le tome."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.grammar-3#5",
+      "type": "tip",
+      "title": "Un pronom à la place du nom",
+      "blocks": [
+        { "type": "paragraph", "text": "Un pronom collé évite de répéter le nom :" },
+        {
+          "type": "compare",
+          "title": "Le nom est remplacé par un pronom",
+          "rows": [
+            {
+              "from": { "ar": "قَرَأَ الْكِتَابَ", "fr": "il a lu le livre" },
+              "to": { "ar": "قَرَأَهُ", "fr": "il l'a lu" }
+            },
+            {
+              "from": { "ar": "فَتَحَ النَّافِذَةَ", "fr": "il a ouvert la fenêtre" },
+              "to": { "ar": "فَتَحَهَا", "fr": "il l'a ouverte" }
+            },
+            {
+              "from": { "ar": "ضَرَبَ الْبَقَرَةَ", "fr": "il a frappé la vache" },
+              "to": { "ar": "ضَرَبَهَا", "fr": "il l'a frappée" }
+            },
+            {
+              "from": { "ar": "فَتَحْتُ النَّوَافِذَ", "fr": "j'ai ouvert les fenêtres" },
+              "to": { "ar": "فَتَحْتُهَا", "fr": "je les ai ouvertes" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pour un pluriel de choses (pas de personnes), on emploie en général le pronom du **féminin singulier** {ar|هَا} : {ar|النَّوَافِذُ} → {ar|فَتَحْتُهَا} (« je les ai ouvertes »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.grammar-3#6",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0}.",
+      "fr": "Moi, je l'ai ouverte (la porte).",
+      "gaps": [ { "answers": ["فَتَحْتُهُ"] } ],
+      "options": ["فَتَحْتُهُ", "فَتَحْتُهَا", "فَتَحْتُكَ"],
+      "context": { "icon": "door" },
+      "explain": "{ar|بَابٌ} est masculin : on colle {ar|هُ}. (En français, « porte » est féminin, mais le pronom suit le mot arabe.)"
+    },
+    {
+      "id": "medine-t2.l05.grammar-3#7",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0}.",
+      "fr": "Moi, je l'ai ouverte (la fenêtre).",
+      "gaps": [ { "answers": ["فَتَحْتُهَا"] } ],
+      "options": ["فَتَحْتُهَا", "فَتَحْتُهُ", "فَتَحْتُكَ"],
+      "context": { "icon": "window" },
+      "explain": "{ar|نَافِذَةٌ} est féminin : on colle {ar|هَا}."
+    },
+    {
+      "id": "medine-t2.l05.grammar-3#8",
+      "type": "order",
+      "fr": "Zayd t'a frappé.",
+      "answers": [["ضَرَبَكَ", "زَيْدٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l05.grammar-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je l'ai ouverte (la fenêtre).",
+      "answers": ["فَتَحْتُهَا."]
+    },
+    {
+      "id": "medine-t2.l05.grammar-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je l'ai lu (le livre).",
+      "answers": ["قَرَأْتُهُ."]
+    }
+  ]
+}

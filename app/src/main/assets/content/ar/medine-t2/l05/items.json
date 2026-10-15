@@ -1,0 +1,198 @@
+[
+  {
+    "id": "w:fil-lazim",
+    "kind": "word",
+    "ar": "الْفِعْلُ اللَّازِمُ",
+    "fr": "le verbe intransitif (qui n'a besoin que d'un sujet)",
+    "translit": "al-fiʿlu l-lāzimu",
+    "gender": "m",
+    "note": "Littéralement « le verbe attaché » : l'action reste attachée à celui qui la fait. Exemples : {ar|نَامَ}, {ar|جَلَسَ}."
+  },
+  {
+    "id": "w:fil-mutaaddi",
+    "kind": "word",
+    "ar": "الْفِعْلُ الْمُتَعَدِّي",
+    "fr": "le verbe transitif (qui a besoin d'un complément d'objet direct)",
+    "translit": "al-fiʿlu l-mutaʿaddī",
+    "gender": "m",
+    "note": "{ar|مُتَعَدٍّ} vient de {ar|تَعَدَّى} (« dépasser, passer au-delà ») : l'action dépasse le sujet et passe sur un complément. Exemples : {ar|ضَرَبَ}, {ar|أَكَلَ}, {ar|كَتَبَ}."
+  },
+  {
+    "id": "w:maful-bih",
+    "kind": "word",
+    "ar": "الْمَفْعُولُ بِهِ",
+    "fr": "le complément d'objet direct",
+    "translit": "al-mafʿūlu bihi",
+    "gender": "m",
+    "note": "C'est le nom (ou le pronom) sur lequel tombe l'action du verbe. Il est à l'accusatif (cas de {ar|النَّصْبُ}). Il fait partie des cinq {ar|الْمَفَاعِيلُ}, les compléments liés au verbe ; les autres viendront plus tard."
+  },
+  {
+    "id": "w:fataha",
+    "kind": "word",
+    "ar": "فَتَحَ",
+    "fr": "il a ouvert (ouvrir)",
+    "translit": "fataḥa",
+    "example": { "ar": "فَتَحَ حَامِدٌ الْبَابَ.", "fr": "Ḥāmid a ouvert la porte." }
+  },
+  {
+    "id": "w:qaraa",
+    "kind": "word",
+    "ar": "قَرَأَ",
+    "fr": "il a lu (lire)",
+    "translit": "qaraʾa",
+    "note": "Avec {ar|تُ} (« je ») : {ar|قَرَأْتُ} (« j'ai lu »). Le sukūn se pose sur la hamza.",
+    "example": { "ar": "قَرَأَ الطَّالِبُ الْقُرْآنَ.", "fr": "L'étudiant a lu le Coran." }
+  },
+  {
+    "id": "w:fahima",
+    "kind": "word",
+    "ar": "فَهِمَ",
+    "fr": "il a compris (comprendre)",
+    "translit": "fahima",
+    "example": { "ar": "فَهِمْتُ الدَّرْسَ.", "fr": "J'ai compris la leçon." }
+  },
+  {
+    "id": "w:shariba",
+    "kind": "word",
+    "ar": "شَرِبَ",
+    "fr": "il a bu (boire)",
+    "translit": "shariba",
+    "example": { "ar": "شَرِبْتُ مَاءً.", "fr": "J'ai bu de l'eau." }
+  },
+  {
+    "id": "w:jamula",
+    "kind": "word",
+    "ar": "جَمُلَ",
+    "fr": "il est beau (être beau)",
+    "translit": "jamula",
+    "note": "La voyelle du milieu est une damma : c'est le modèle des verbes qui expriment une qualité naturelle ({ar|كَبُرَ}, {ar|جَمُلَ}…).",
+    "example": { "ar": "جَمُلَ زَيْدٌ.", "fr": "Zayd est beau." }
+  },
+  {
+    "id": "w:kabura",
+    "kind": "word",
+    "ar": "كَبُرَ",
+    "fr": "il a grandi (grandir, être grand)",
+    "translit": "kabura",
+    "note": "Avec {ar|تُ} : {ar|كَبُرْتُ} (« j'ai grandi », « je suis devenu grand »).",
+    "example": { "ar": "كَبُرَ الْوَلَدُ.", "fr": "Le garçon a grandi." }
+  },
+  {
+    "id": "w:baqqal",
+    "kind": "word",
+    "ar": "بَقَّالٌ",
+    "fr": "un épicier",
+    "translit": "baqqālun",
+    "plural": "بَقَّالُونَ",
+    "gender": "m",
+    "note": "Les noms de métier suivent souvent le modèle {ar|فَعَّالٌ} : la lettre du milieu est doublée (shadda). Exemples : {ar|بَقَّالٌ} (épicier), {ar|خَبَّازٌ} (boulanger), {ar|نَجَّارٌ} (menuisier).",
+    "example": { "ar": "الْبَقَّالُ فِي الدُّكَّانِ.", "fr": "L'épicier est dans la boutique." }
+  },
+  {
+    "id": "w:tin",
+    "kind": "word",
+    "ar": "تِينٌ",
+    "fr": "des figues",
+    "translit": "tīnun",
+    "gender": "m",
+    "note": "Nom collectif : il désigne la figue ou les figues en général. Une seule figue se dit {ar|تِينَةٌ}.",
+    "example": { "ar": "أَكَلْتُ تِينًا.", "fr": "J'ai mangé des figues." }
+  },
+  {
+    "id": "w:inab",
+    "kind": "word",
+    "ar": "عِنَبٌ",
+    "fr": "du raisin",
+    "translit": "ʿinabun",
+    "gender": "m",
+    "note": "Nom collectif : il désigne le raisin en général. Un seul grain se dit {ar|عِنَبَةٌ}.",
+    "example": { "ar": "أَكَلْتُ عِنَبًا.", "fr": "J'ai mangé du raisin." }
+  },
+  {
+    "id": "w:mawz",
+    "kind": "word",
+    "ar": "مَوْزٌ",
+    "fr": "des bananes",
+    "translit": "mawzun",
+    "gender": "m",
+    "note": "Nom collectif : il désigne la banane ou les bananes en général. Une seule banane se dit {ar|مَوْزَةٌ}.",
+    "example": { "ar": "أَكَلَ الْوَلَدُ مَوْزًا.", "fr": "Le garçon a mangé des bananes." }
+  },
+  {
+    "id": "w:hayya-2",
+    "kind": "word",
+    "ar": "حَيَّةٌ",
+    "fr": "un serpent",
+    "translit": "ḥayyatun",
+    "plural": "حَيَّاتٌ",
+    "gender": "f",
+    "note": "Le professeur la traduit par « vipère » ; le mot désigne un serpent en général. Il est féminin, que le serpent soit mâle ou femelle.",
+    "example": { "ar": "هٰذِهِ حَيَّةٌ.", "fr": "Ceci est un serpent." }
+  },
+  {
+    "id": "w:asa",
+    "kind": "word",
+    "ar": "عَصًا",
+    "fr": "une canne, un bâton",
+    "translit": "ʿaṣan",
+    "plural": "عِصِيٌّ",
+    "gender": "f",
+    "note": "Féminin, sans signe de féminin. Elle se termine par un alif long : c'est un nom maqṣūr, comme {ar|مُسْتَشْفًى}.",
+    "example": { "ar": "هٰذِهِ عَصَا زَيْدٍ.", "fr": "Ceci est la canne de Zayd." }
+  },
+  {
+    "id": "w:jawab",
+    "kind": "word",
+    "ar": "جَوَابٌ",
+    "fr": "une réponse",
+    "translit": "jawābun",
+    "plural": "أَجْوِبَةٌ",
+    "gender": "m",
+    "note": "Son contraire : {ar|سُؤَالٌ} (« une question »), pluriel {ar|أَسْئِلَةٌ}.",
+    "example": { "ar": "هٰذَا جَوَابُ السُّؤَالِ.", "fr": "Ceci est la réponse à la question." }
+  },
+  {
+    "id": "w:sura",
+    "kind": "word",
+    "ar": "سُورَةٌ",
+    "fr": "une sourate",
+    "translit": "sūratun",
+    "plural": "سُوَرٌ",
+    "gender": "f",
+    "note": "Un chapitre du Coran (il y en a 114). Dans le texte : {ar|سُورَةُ الْفَجْرِ} (« l'Aube », la 89ᵉ) et {ar|سُورَةُ التِّينِ} (« le Figuier », la 95ᵉ).",
+    "example": { "ar": "قَرَأَ الطَّالِبُ سُورَةَ الْفَجْرِ.", "fr": "L'étudiant a lu la sourate Al-Fajr." }
+  },
+  {
+    "id": "w:ghasala",
+    "kind": "word",
+    "ar": "غَسَلَ",
+    "fr": "il a lavé (laver)",
+    "translit": "ghasala",
+    "note": "Son nom d'action est {ar|غَسْلٌ} (« un lavage »), déjà vu au tome 1.",
+    "example": { "ar": "غَسَلْتُ الْقَمِيصَ.", "fr": "J'ai lavé la chemise." }
+  },
+  {
+    "id": "w:qatala",
+    "kind": "word",
+    "ar": "قَتَلَ",
+    "fr": "il a tué (tuer)",
+    "translit": "qatala",
+    "example": { "ar": "قَتَلَ زَيْدٌ الْحَيَّةَ.", "fr": "Zayd a tué le serpent." }
+  },
+  {
+    "id": "w:samia",
+    "kind": "word",
+    "ar": "سَمِعَ",
+    "fr": "il a entendu (entendre)",
+    "translit": "samiʿa",
+    "example": { "ar": "سَمِعْتُ الْأَذَانَ.", "fr": "J'ai entendu l'appel à la prière." }
+  },
+  {
+    "id": "w:kasara",
+    "kind": "word",
+    "ar": "كَسَرَ",
+    "fr": "il a cassé (casser)",
+    "translit": "kasara",
+    "example": { "ar": "كَسَرَ زَيْدٌ عَصَاهُ.", "fr": "Zayd a cassé sa canne." }
+  }
+]
