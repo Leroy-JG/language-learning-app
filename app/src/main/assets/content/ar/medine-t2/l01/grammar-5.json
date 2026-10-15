@@ -1,7 +1,7 @@
 {
   "id": "medine-t2.l01.grammar-5",
   "type": "grammar",
-  "title": "{ar|إِنَّ} ou {ar|أَنَّ} ? Les six sœurs",
+  "title": "{ar|إِنَّ} ou {ar|أَنَّ} ? Les six particules",
   "icon": "puzzle",
   "screens": [
     { "id": "medine-t2.l01.grammar-5#1", "type": "present", "item": "w:anna" },
@@ -18,7 +18,11 @@
           "type": "table",
           "header": ["Particule", "Place", "Exemple"],
           "rows": [
-            ["{ar|إِنَّ}", "au début de la phrase", "{ar|إِنَّ زَيْدًا طَالِبٌ} (certes, Zayd est étudiant)"],
+            [
+              "{ar|إِنَّ}",
+              "au début de la phrase (d'ordinaire)",
+              "{ar|إِنَّ زَيْدًا طَالِبٌ} (certes, Zayd est étudiant)"
+            ],
             [
               "{ar|أَنَّ}",
               "au milieu de la phrase, après un autre mot",
@@ -43,11 +47,11 @@
     {
       "id": "medine-t2.l01.grammar-5#4",
       "type": "tip",
-      "title": "{ar|إِنَّ} et ses six sœurs",
+      "title": "{ar|إِنَّ} et ses cinq sœurs",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Dans la tradition, {ar|إِنَّ} a **six** sœurs ({ar|إِنَّ وَأَخَوَاتُهَا}). Toutes mettent le sujet à l'accusatif et laissent le prédicat au nominatif. Tu en étudies trois dans ce chapitre : {ar|إِنَّ}, {ar|أَنَّ} et {ar|لَعَلَّ}."
+          "text": "Dans la tradition, {ar|إِنَّ وَأَخَوَاتُهَا} réunit **six** particules en tout : {ar|إِنَّ} et ses cinq sœurs. Toutes mettent le sujet à l'accusatif et laissent le prédicat au nominatif. Tu en étudies trois dans ce chapitre : {ar|إِنَّ}, {ar|أَنَّ} et {ar|لَعَلَّ}."
         },
         {
           "type": "table",
@@ -123,7 +127,7 @@
       "cards": [
         { "ar": "فَوْقَ الْمَكْتَبِ", "category": 0 },
         { "ar": "إِنَّ الطَّالِبَ جَدِيدٌ", "category": 1 },
-        { "ar": "كَمْ كِتَابًا عِنْدَكَ؟", "category": 2 },
+        { "ar": "كَمْ كِتَابًا لَكَ؟", "category": 2 },
         { "ar": "تَحْتَ السَّرِيرِ", "category": 0 },
         { "ar": "لَعَلَّ زَيْدًا نَاجِحٌ", "category": 1 },
         { "ar": "كَمْ قَلَمًا فِي الْحَقِيبَةِ؟", "category": 2 }
@@ -134,7 +138,7 @@
     {
       "id": "medine-t2.l01.grammar-5#8",
       "type": "question",
-      "prompt": { "fr": "Dans {ar|كَمْ كِتَابًا عِنْدَكَ؟}, pourquoi {ar|كِتَابًا} est-il à l'accusatif ?" },
+      "prompt": { "fr": "Dans {ar|كَمْ كِتَابًا لَكَ؟}, pourquoi {ar|كِتَابًا} est-il à l'accusatif ?" },
       "choices": [
         { "fr": "C'est la précision après {ar|كَمْ} ({ar|التَّمْيِيزُ})" },
         { "fr": "Parce qu'il suit {ar|إِنَّ}" },

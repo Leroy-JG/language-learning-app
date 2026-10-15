@@ -160,8 +160,8 @@
       "id": "medine-t2.l01.grammar-8#14",
       "type": "typing",
       "ask": "fr",
-      "fr": "Sont-elles tes tantes maternelles ou tes tantes paternelles ?",
-      "answers": ["أَخَالَاتُكَ هُنَّ أَمْ عَمَّاتُكَ؟"]
+      "fr": "Sont-elles tes tantes maternelles ou tes tantes paternelles ? (à un homme)",
+      "answers": ["أَخَالَاتُكَ هُنَّ أَمْ عَمَّاتُكَ؟", "أَهُنَّ خَالَاتُكَ أَمْ عَمَّاتُكَ؟"]
     }
   ]
 }

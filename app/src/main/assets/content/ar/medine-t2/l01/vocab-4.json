@@ -27,6 +27,11 @@
           "type": "note",
           "tone": "info",
           "text": "{ar|ذُو} est la forme du nominatif. À l'accusatif, on dit {ar|ذَا} ; au génitif, {ar|ذِي} (comme {ar|أَبُو} et {ar|أَبِي}, tome 1, chapitre 10). Au féminin : {ar|ذَاتُ}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|ذُو} fait partie des « cinq noms » ({ar|الْأَسْمَاءُ الْخَمْسَةُ} : {ar|أَبٌ}, {ar|أَخٌ}, {ar|حَمٌ}, {ar|فَمٌ}, {ar|ذُو}), qui prennent {ar|و}, {ar|ا} ou {ar|ي} au lieu de la damma, de la fatha et de la kasra."
         }
       ]
     },

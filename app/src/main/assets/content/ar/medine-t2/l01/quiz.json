@@ -62,7 +62,7 @@
       "prompt": { "fr": "Quel pronom est caché dans {ar|إِنَّهُنَّ} ?" },
       "choices": [ { "ar": "هُنَّ" }, { "ar": "هُمْ" }, { "ar": "هِيَ" } ],
       "answer": 0,
-      "explain": "{ar|هُنَّ} : « elles », le pronom affixe de {ar|هُنَّ}."
+      "explain": "{ar|هُنَّ} (« elles ») est le pronom isolé dont {ar|إِنَّهُنَّ} est la forme collée à {ar|إِنَّ}."
     },
     {
       "id": "medine-t2.l01.quiz#9",
@@ -85,7 +85,7 @@
         { "ar": "كَمْ أُخْتًا لَكَ؟", "category": 2 },
         { "ar": "قَبْلَ الدَّرْسِ", "category": 0 },
         { "ar": "لَعَلَّ حَامِدًا نَاجِحٌ", "category": 1 },
-        { "ar": "كَمْ طَالِبًا عِنْدَكَ؟", "category": 2 }
+        { "ar": "كَمْ طَالِبًا فِي الْفَصْلِ؟", "category": 2 }
       ],
       "instruction": "Dans chaque groupe, un mot est à l'accusatif : pour quelle raison ?"
     },
