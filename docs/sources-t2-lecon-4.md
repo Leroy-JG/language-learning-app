@@ -69,7 +69,7 @@ sujet d'une annexion après `لَكِنَّ`), `order`, `typing`.
 - **Exercice 6 du livre (page 20, `لِأَنَّ`)** : c'est une page d'observation, sans question ; ses exemples (`لِأَنَّهُ`, `لِأَنَّهَا`, `لِأَنَّنِي`) sont repris dans `grammar-5`.
 - **Exercice 7 du livre (page 20, `نَعَمْ` / `بَلَى`)** : le livre demande d'écrire la réponse selon la réalité ; l'app donne la réalité dans la suite de la phrase
   (« `رَجَعَ` »), ce qui permet de la corriger.
-- **`بَأْسٌ`** : le support donne trois sens (« force, courage, mal ») ; dans `لَا بَأْسَ`, le sens est « mal ». Pluriel `أَبْؤُسٌ` repris du PDF (attesté dans le proverbe `عَسَى الْغُوَيْرُ أَبْؤُسًا`).
+- **`بَأْسٌ`** : le support donne trois sens (« force, courage, mal ») ; dans `لَا بَأْسَ`, le sens est « mal ». Pluriel `أَبْؤُسٌ` repris du PDF, de forme régulière (`فَعْلٌ` → `أَفْعُلٌ`) ; le proverbe `عَسَى الْغُوَيْرُ أَبْؤُسًا` est parfois rattaché à `بُؤْسٌ` par les lexiques : le pluriel n'est donc pas appuyé sur lui.
 - **`اِسْتَدْرَكَ`** : le support donne « se reprendre, corriger » ; traduit « il a rectifié (rectifier, se reprendre) », sens du terme grammatical `الِاسْتِدْرَاكُ`.
 - **`شَبَّهَ`** : « faire ressembler une chose à une autre » (traduction du PDF). Les noms d'action sont écrits au nominatif (`اِسْتِدْرَاكٌ`, `تَشْبِيهٌ`) ; le PDF les donne à
   l'accusatif (`اِسْتِدْرَاكًا`, `تَشْبِيهًا`).

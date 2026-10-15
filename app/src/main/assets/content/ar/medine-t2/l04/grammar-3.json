@@ -33,7 +33,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Dans ces exemples du professeur, {ar|مَا} ne change aucun cas : le sujet et le prédicat gardent la damma du nominatif (contrairement à {ar|إِنَّ} et à ses sœurs)."
+          "text": "Dans ces exemples du professeur, {ar|مَا} ne change aucun cas : le sujet garde la damma du nominatif et le prédicat reste au nominatif (damma quand c'est un mot comme {ar|عَالِمٌ}) : contrairement à {ar|إِنَّ} et à ses sœurs, aucun cas ne change."
         }
       ]
     },
@@ -89,7 +89,7 @@
       "fr": "Zayd n'est pas dans la classe.",
       "gaps": [ { "answers": ["مَا"] } ],
       "options": ["مَا", "أَيْنَ", "مَنْ"],
-      "explain": "Pour nier une phrase nominale avec une particule : {ar|مَا} (ou {ar|لَيْسَ} devant le nom)."
+      "explain": "On nie une phrase nominale avec {ar|مَا} (ou avec le verbe {ar|لَيْسَ})."
     },
     {
       "id": "medine-t2.l04.grammar-3#6",
