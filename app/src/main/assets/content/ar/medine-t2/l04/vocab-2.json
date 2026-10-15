@@ -1,0 +1,68 @@
+{
+  "id": "medine-t2.l04.vocab-2",
+  "type": "vocabulary",
+  "title": "La séance et la bibliothèque",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t2.l04.vocab-2#1", "type": "present", "item": "w:hissa" },
+    {
+      "id": "medine-t2.l04.vocab-2#2",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hissa",
+      "distractors": ["w:madrasa", "w:yawm"]
+    },
+    { "id": "medine-t2.l04.vocab-2#3", "type": "present", "item": "w:maktaba" },
+    {
+      "id": "medine-t2.l04.vocab-2#4",
+      "type": "tip",
+      "title": "Une famille de mots : {ar|ك ت ب}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Plusieurs mots que tu connais viennent des trois mêmes lettres, {ar|ك ت ب}, qui évoquent l'écriture :"
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Sens"],
+          "rows": [
+            ["{ar|كَتَبَ}", "il a écrit"],
+            ["{ar|كِتَابٌ}", "un livre"],
+            ["{ar|مَكْتَبٌ}", "un bureau"],
+            ["{ar|مَكْتَبَةٌ}", "une bibliothèque, une librairie"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ne confonds pas {ar|مَكْتَبٌ} (un bureau) et {ar|مَكْتَبَةٌ} (une bibliothèque) : la seule différence est le {ar|ة} final."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.vocab-2#5",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:maktaba",
+      "distractors": ["w:maktab", "w:jamia"]
+    },
+    { "id": "medine-t2.l04.vocab-2#6", "type": "build", "item": "w:hissa", "extra": ["ه"] },
+    {
+      "id": "medine-t2.l04.vocab-2#7",
+      "type": "fill_gap",
+      "sentence": "ذَهَبَ الطُّلَّابُ إِلَى {0}.",
+      "fr": "Les étudiants sont allés à la bibliothèque.",
+      "gaps": [ { "answers": ["الْمَكْتَبَةِ"] } ],
+      "options": ["الْمَكْتَبَةِ", "الْمَطْبَخِ", "الْمَلْعَبِ"]
+    },
+    {
+      "id": "medine-t2.l04.vocab-2#8",
+      "type": "order",
+      "fr": "Je suis rentré après la première séance.",
+      "answers": [["رَجَعْتُ", "بَعْدَ", "الْحِصَّةِ", "الْأُولَى"], ["بَعْدَ", "الْحِصَّةِ", "الْأُولَى", "رَجَعْتُ"]],
+      "punctuation": ".",
+      "explain": "{ar|الْأُولَى} est le féminin de {ar|أَوَّلُ} (« premier »), comme {ar|الْحِصَّةِ}."
+    },
+    { "id": "medine-t2.l04.vocab-2#9", "type": "typing", "ask": "fr", "item": "w:maktaba" }
+  ]
+}

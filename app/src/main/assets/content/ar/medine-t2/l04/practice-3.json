@@ -1,0 +1,129 @@
+{
+  "id": "medine-t2.l04.practice-3",
+  "type": "grammar",
+  "title": "Questions sur le texte",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t2.l04.practice-3#1",
+      "type": "tip",
+      "title": "Les exercices 1 et 2 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande d'abord de répondre à trois questions sur le texte, puis de dire si cinq phrases sont justes ou fausses."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.practice-3#2",
+      "type": "true_false",
+      "statement": { "ar": "إِبْرَاهِيمُ اِبْنُ أُخْتِ يُوسُفَ.", "fr": "Ibrāhīm est le fils de la sœur de Yūsuf." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l04.dialogue-1#1" },
+      "explain": "Ibrāhīm appelle Yūsuf {ar|يَا خَالِي} : Yūsuf est son oncle maternel, le frère de sa mère. Ibrāhīm est donc le fils de la sœur de Yūsuf."
+    },
+    {
+      "id": "medine-t2.l04.practice-3#3",
+      "type": "true_false",
+      "statement": { "ar": "يُوسُفُ عَمُّ إِبْرَاهِيمَ.", "fr": "Yūsuf est l'oncle paternel d'Ibrāhīm." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l04.dialogue-1#1" },
+      "explain": "Non : Ibrāhīm l'appelle {ar|يَا خَالِي}. Yūsuf est son oncle maternel ({ar|خَالٌ}), pas son oncle paternel ({ar|عَمٌّ})."
+    },
+    {
+      "id": "medine-t2.l04.practice-3#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ ذَهَبَ أَبُو إِبْرَاهِيمَ؟",
+      "answers": [
+        "ذَهَبَ إِلَى السُّوقِ.",
+        "ذَهَبَ أَبُو إِبْرَاهِيمَ إِلَى السُّوقِ.",
+        "ذَهَبَ أَبُوهُ إِلَى السُّوقِ.",
+        "إِلَى السُّوقِ."
+      ],
+      "fr": "Il est allé au marché.",
+      "context": { "dialogue": "medine-t2.l04.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l04.practice-3#5",
+      "type": "question",
+      "prompt": { "fr": "Comment appelle-t-on le frère de sa mère ?" },
+      "choices": [ { "ar": "خَالٌ" }, { "ar": "عَمٌّ" }, { "ar": "أَخٌ" } ],
+      "answer": 0,
+      "explain": "Le frère de la mère est {ar|خَالٌ} (oncle maternel) ; le frère du père est {ar|عَمٌّ} (oncle paternel)."
+    },
+    {
+      "id": "medine-t2.l04.practice-3#6",
+      "type": "true_false",
+      "statement": {
+        "ar": "أَخَوَاتُ إِبْرَاهِيمَ ذَهَبْنَ إِلَى الْمَكْتَبَةِ.",
+        "fr": "Les sœurs d'Ibrāhīm sont allées à la bibliothèque."
+      },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l04.dialogue-1#1" },
+      "explain": "Non : elles sont allées à l'école ({ar|ذَهَبْنَ إِلَى الْمَدْرَسَةِ})."
+    },
+    {
+      "id": "medine-t2.l04.practice-3#7",
+      "type": "true_false",
+      "statement": {
+        "ar": "إِخْوَةُ إِبْرَاهِيمَ ذَهَبُوا إِلَى الْجَامِعَةِ.",
+        "fr": "Les frères d'Ibrāhīm sont allés à l'université."
+      },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l04.dialogue-1#1" },
+      "explain": "Oui : {ar|ذَهَبُوا إِلَى الْجَامِعَةِ}."
+    },
+    {
+      "id": "medine-t2.l04.practice-3#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "وَأَيْنَ ذَهَبَتْ أُمُّهُ؟",
+      "answers": [
+        "ذَهَبَتْ إِلَى خَالَتِهِ زَيْنَبَ.",
+        "ذَهَبَتْ أُمُّهُ إِلَى خَالَتِهِ زَيْنَبَ.",
+        "ذَهَبَتْ أُمُّ إِبْرَاهِيمَ إِلَى خَالَتِهِ زَيْنَبَ.",
+        "ذَهَبَتْ إِلَى خَالَتِهِ.",
+        "ذَهَبَتْ إِلَى أُخْتِهَا زَيْنَبَ.",
+        "ذَهَبَتْ إِلَى أُخْتِهَا.",
+        "ذَهَبَتْ إِلَى زَيْنَبَ.",
+        "إِلَى خَالَتِهِ زَيْنَبَ.",
+        "إِلَى خَالَتِهِ.",
+        "إِلَى أُخْتِهَا."
+      ],
+      "fr": "Elle est allée chez la tante maternelle d'Ibrāhīm, Zaynab (la sœur de sa mère).",
+      "context": { "dialogue": "medine-t2.l04.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l04.practice-3#9",
+      "type": "true_false",
+      "statement": { "ar": "مَا ذَهَبَ إِبْرَاهِيمُ إِلَى الطَّبِيبِ.", "fr": "Ibrāhīm n'est pas allé chez le médecin." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l04.dialogue-1#1" },
+      "explain": "Non : à la question {ar|أَذَهَبْتَ إِلَى الطَّبِيبِ؟}, il répond {ar|نَعَمْ، ذَهَبْتُ}. {ar|مَا ذَهَبَ} veut dire « il n'est pas allé »."
+    },
+    {
+      "id": "medine-t2.l04.practice-3#10",
+      "type": "fill_gap",
+      "sentence": "أُخْتُ أُمِّي هِيَ {0}.",
+      "fr": "La sœur de ma mère est ma tante maternelle.",
+      "gaps": [ { "answers": ["خَالَتِي"] } ],
+      "options": ["خَالَتِي", "أُخْتِي", "بِنْتِي"],
+      "explain": "La sœur de la mère est {ar|خَالَةٌ} (tante maternelle) : {ar|خَالَتِي}, « ma tante maternelle »."
+    },
+    {
+      "id": "medine-t2.l04.practice-3#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَتَى رَجَعَ إِبْرَاهِيمُ مِنَ الْمَدْرَسَةِ؟",
+      "answers": [
+        "رَجَعَ بَعْدَ الْحِصَّةِ الْأُولَى.",
+        "رَجَعَ إِبْرَاهِيمُ بَعْدَ الْحِصَّةِ الْأُولَى.",
+        "بَعْدَ الْحِصَّةِ الْأُولَى."
+      ],
+      "fr": "Il est rentré après la première séance.",
+      "context": { "dialogue": "medine-t2.l04.dialogue-1#1" }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "medine-t2.l04.practice-4",
+  "type": "grammar",
+  "title": "Conjuguer {ar|ذَهَبَ}",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l04.practice-4#1",
+      "type": "tip",
+      "title": "L'exercice 3 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne six phrases où il faut écrire {ar|ذَهَبَ} avec la terminaison qui convient au sujet. Rappel :"
+        },
+        {
+          "type": "table",
+          "header": ["Sujet", "Verbe"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|ذَهَبْتُ}"],
+            ["{ar|أَنْتَ}", "{ar|ذَهَبْتَ}"],
+            ["{ar|نَحْنُ}", "{ar|ذَهَبْنَا}"],
+            ["{ar|هُوَ}", "{ar|ذَهَبَ}"],
+            ["{ar|هِيَ}", "{ar|ذَهَبَتْ}"],
+            ["{ar|هُمْ}", "{ar|ذَهَبُوا}"],
+            ["{ar|هُنَّ}", "{ar|ذَهَبْنَ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.practice-4#2",
+      "type": "fill_gap",
+      "sentence": "الْأَوْلَادُ {0} إِلَى الْمَلْعَبِ.",
+      "fr": "Les garçons sont allés au terrain de jeu.",
+      "gaps": [ { "answers": ["ذَهَبُوا"] } ],
+      "options": ["ذَهَبُوا", "ذَهَبْنَ", "ذَهَبَتْ", "ذَهَبَ"],
+      "explain": "{ar|الْأَوْلَادُ} : plusieurs garçons, « ils » : {ar|ذَهَبُوا}."
+    },
+    {
+      "id": "medine-t2.l04.practice-4#3",
+      "type": "fill_gap",
+      "sentence": "الطَّالِبَاتُ {0} إِلَى الْمَدْرَسَةِ.",
+      "fr": "Les étudiantes sont allées à l'école.",
+      "gaps": [ { "answers": ["ذَهَبْنَ"] } ],
+      "options": ["ذَهَبْنَ", "ذَهَبُوا", "ذَهَبَتْ", "ذَهَبَ"],
+      "explain": "{ar|الطَّالِبَاتُ} : plusieurs femmes, « elles » : {ar|ذَهَبْنَ}."
+    },
+    {
+      "id": "medine-t2.l04.practice-4#4",
+      "type": "sort",
+      "categories": [ { "fr": "un sujet masculin" }, { "fr": "un sujet féminin" } ],
+      "cards": [
+        { "ar": "ذَهَبَ", "category": 0 },
+        { "ar": "ذَهَبَتْ", "category": 1 },
+        { "ar": "ذَهَبُوا", "category": 0 },
+        { "ar": "ذَهَبْنَ", "category": 1 },
+        { "ar": "ذَهَبَا", "category": 0 },
+        { "ar": "ذَهَبَتَا", "category": 1 }
+      ],
+      "instruction": "Le sujet est-il masculin ou féminin ?",
+      "explain": "{ar|ذَهَبَ}, {ar|ذَهَبُوا} et {ar|ذَهَبَا} : sujet masculin (il, ils, eux deux). {ar|ذَهَبَتْ}, {ar|ذَهَبْنَ} et {ar|ذَهَبَتَا} : sujet féminin."
+    },
+    {
+      "id": "medine-t2.l04.practice-4#5",
+      "type": "fill_gap",
+      "sentence": "الْمُدَرِّسُ {0} إِلَى الْفَصْلِ.",
+      "fr": "L'enseignant est allé en classe.",
+      "gaps": [ { "answers": ["ذَهَبَ"] } ],
+      "options": ["ذَهَبَ", "ذَهَبُوا", "ذَهَبْنَ", "ذَهَبْنَا"],
+      "explain": "{ar|الْمُدَرِّسُ} : un seul homme, « il » : {ar|ذَهَبَ}."
+    },
+    {
+      "id": "medine-t2.l04.practice-4#6",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} إِلَى الْمَطَارِ.",
+      "fr": "Je suis allé à l'aéroport.",
+      "gaps": [ { "answers": ["ذَهَبْتُ"] } ],
+      "options": ["ذَهَبْتُ", "ذَهَبْنَا", "ذَهَبُوا", "ذَهَبَا"],
+      "explain": "« Je » : la terminaison {ar|تُ}."
+    },
+    {
+      "id": "medine-t2.l04.practice-4#7",
+      "type": "order",
+      "fr": "Ma sœur est allée à la cuisine.",
+      "answers": [["أُخْتِي", "ذَهَبَتْ", "إِلَى", "الْمَطْبَخِ"], ["ذَهَبَتْ", "أُخْتِي", "إِلَى", "الْمَطْبَخِ"]],
+      "punctuation": ".",
+      "explain": "Le verbe peut suivre ou précéder son sujet. {ar|أُخْتِي} est féminin : le verbe prend le {ar|تْ} du féminin."
+    },
+    {
+      "id": "medine-t2.l04.practice-4#8",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ {0} أَنْتَ؟",
+      "fr": "Où es-tu allé ? (à un homme)",
+      "gaps": [ { "answers": ["ذَهَبْتَ"] } ],
+      "options": ["ذَهَبْتَ", "ذَهَبْنَ", "ذَهَبُوا", "ذَهَبَا"],
+      "explain": "« Toi » (à un homme) : {ar|ذَهَبْتَ}, avec une fatha sur le {ar|ت}."
+    },
+    {
+      "id": "medine-t2.l04.practice-4#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles sont allées à l'école.",
+      "answers": ["ذَهَبْنَ إِلَى الْمَدْرَسَةِ.", "هُنَّ ذَهَبْنَ إِلَى الْمَدْرَسَةِ."]
+    }
+  ]
+}

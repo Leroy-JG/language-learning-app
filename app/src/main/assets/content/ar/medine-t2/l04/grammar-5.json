@@ -1,0 +1,125 @@
+{
+  "id": "medine-t2.l04.grammar-5",
+  "type": "grammar",
+  "title": "Parce que : {ar|لِأَنَّ}",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t2.l04.grammar-5#1", "type": "present", "item": "w:li-anna" },
+    {
+      "id": "medine-t2.l04.grammar-5#2",
+      "type": "tip",
+      "title": "{ar|لِأَنَّ} : une sœur de {ar|إِنَّ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|لِأَنَّ} (« parce que ») s'écrit en un seul mot, mais c'est {ar|لِ} + {ar|أَنَّ}. Et {ar|أَنَّ} est une sœur de {ar|إِنَّ} : le nom qui suit est donc à l'**accusatif**, et son prédicat reste au **nominatif**."
+        },
+        {
+          "type": "breakdown",
+          "ar": "لِأَنَّ",
+          "fr": "parce que",
+          "parts": [ { "ar": "لِ", "fr": "pour (la cause)" }, { "ar": "أَنَّ", "fr": "que" } ]
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Avec {ar|لِأَنَّ}"],
+          "rows": [
+            ["{ar|هُوَ}", "{ar|لِأَنَّهُ}"],
+            ["{ar|هِيَ}", "{ar|لِأَنَّهَا}"],
+            ["{ar|أَنْتَ}", "{ar|لِأَنَّكَ}"],
+            ["{ar|أَنَا}", "{ar|لِأَنَّنِي} ou {ar|لِأَنِّي}"],
+            ["{ar|نَحْنُ}", "{ar|لِأَنَّنَا}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.grammar-5#3",
+      "type": "tip",
+      "title": "Les exemples du professeur",
+      "blocks": [
+        {
+          "type": "example",
+          "ar": "رَجَعَ حَامِدٌ مِنَ الْمَدْرَسَةِ لِأَنَّهُ مَرِيضٌ.",
+          "fr": "Ḥāmid est rentré de l'école parce qu'il est malade."
+        },
+        {
+          "type": "example",
+          "ar": "رَجَعَتْ آمِنَةُ مِنَ الْمَدْرَسَةِ لِأَنَّهَا مَرِيضَةٌ.",
+          "fr": "Āmina est rentrée de l'école parce qu'elle est malade."
+        },
+        {
+          "type": "example",
+          "ar": "رَجَعْتُ مِنَ الْمَدْرَسَةِ لِأَنَّنِي مَرِيضَةٌ.",
+          "fr": "Je suis rentrée de l'école parce que je suis malade. (c'est une fille qui parle)"
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans chaque phrase, {ar|مَرِيضٌ} (ou {ar|مَرِيضَةٌ}) est le prédicat : il reste au nominatif et s'accorde avec la personne dont on parle."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Avec un nom, c'est le nom qui est à l'accusatif : {ar|لِأَنَّ حَامِدًا مَرِيضٌ} (« parce que Ḥāmid est malade »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.grammar-5#4",
+      "type": "fill_gap",
+      "sentence": "رَجَعَتْ آمِنَةُ مِنَ الْمَدْرَسَةِ {0} مَرِيضَةٌ.",
+      "fr": "Āmina est rentrée de l'école parce qu'elle est malade.",
+      "gaps": [ { "answers": ["لِأَنَّهَا"] } ],
+      "options": ["لِأَنَّهَا", "لِأَنَّهُ", "لِأَنَّنِي"],
+      "explain": "{ar|آمِنَةُ} est une femme : le pronom est {ar|هَا} (« elle »)."
+    },
+    {
+      "id": "medine-t2.l04.grammar-5#5",
+      "type": "question",
+      "prompt": { "fr": "Après {ar|لِأَنَّ}, le nom est…" },
+      "choices": [ { "fr": "à l'accusatif" }, { "fr": "au nominatif" }, { "fr": "au génitif" } ],
+      "answer": 0,
+      "explain": "Comme après {ar|إِنَّ}, le nom qui suit {ar|لِأَنَّ} est à l'accusatif ({ar|لِأَنَّ حَامِدًا مَرِيضٌ}). Son prédicat reste au nominatif."
+    },
+    {
+      "id": "medine-t2.l04.grammar-5#6",
+      "type": "fill_gap",
+      "sentence": "لِمَاذَا رَجَعْتَ؟ رَجَعْتُ {0} مَرِيضٌ.",
+      "fr": "Pourquoi es-tu rentré ? Je suis rentré parce que je suis malade.",
+      "gaps": [ { "answers": ["لِأَنَّنِي", "لِأَنِّي"] } ],
+      "options": ["لِأَنَّنِي", "لِأَنِّي", "لِأَنَّهُ", "لِأَنَّكَ"],
+      "explain": "« Je » : {ar|لِأَنَّنِي} ou {ar|لِأَنِّي}."
+    },
+    {
+      "id": "medine-t2.l04.grammar-5#7",
+      "type": "spot",
+      "instruction": "Touche le prédicat de {ar|لِأَنَّ}.",
+      "words": ["رَجَعَ", "حَامِدٌ", "لِأَنَّهُ", "مَرِيضٌ."],
+      "answers": [3],
+      "fr": "Ḥāmid est rentré parce qu'il est malade.",
+      "explain": "Le prédicat est {ar|مَرِيضٌ}, au nominatif. Le nom de {ar|لِأَنَّ} est le pronom {ar|هُ}."
+    },
+    {
+      "id": "medine-t2.l04.grammar-5#8",
+      "type": "order",
+      "fr": "Je suis rentré parce que je suis malade.",
+      "answers": [["رَجَعْتُ", "لِأَنَّنِي", "مَرِيضٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l04.grammar-5#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ḥāmid est rentré parce qu'il est malade.",
+      "answers": ["رَجَعَ حَامِدٌ لِأَنَّهُ مَرِيضٌ.", "رَجَعَ حَامِدٌ مِنَ الْمَدْرَسَةِ لِأَنَّهُ مَرِيضٌ."]
+    },
+    {
+      "id": "medine-t2.l04.grammar-5#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis rentré parce que je suis malade.",
+      "answers": ["رَجَعْتُ لِأَنَّنِي مَرِيضٌ.", "رَجَعْتُ لِأَنِّي مَرِيضٌ."]
+    }
+  ]
+}

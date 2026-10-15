@@ -1,0 +1,134 @@
+[
+  {
+    "id": "w:istadraka",
+    "kind": "word",
+    "ar": "اِسْتَدْرَكَ",
+    "fr": "il a rectifié (rectifier, se reprendre)",
+    "translit": "istadraka",
+    "note": "Le professeur le traduit par « se reprendre, corriger » : on corrige ou on nuance ce qu'on vient de dire. Son nom d'action, {ar|الِاسْتِدْرَاكُ}, désigne le rôle de {ar|لَكِنَّ}."
+  },
+  {
+    "id": "w:shabbaha",
+    "kind": "word",
+    "ar": "شَبَّهَ",
+    "fr": "il a fait ressembler (une chose à une autre)",
+    "translit": "shabbaha",
+    "note": "Son nom d'action, {ar|التَّشْبِيهُ}, désigne la comparaison : c'est le rôle de {ar|كَأَنَّ}."
+  },
+  {
+    "id": "w:istidrak",
+    "kind": "word",
+    "ar": "الِاسْتِدْرَاكُ",
+    "fr": "la rectification (corriger ou nuancer ce qu'on vient de dire)",
+    "translit": "al-istidrāku",
+    "gender": "m",
+    "note": "C'est le rôle de {ar|لَكِنَّ} dans une phrase."
+  },
+  {
+    "id": "w:tashbih",
+    "kind": "word",
+    "ar": "التَّشْبِيهُ",
+    "fr": "la comparaison (dire qu'une chose ressemble à une autre)",
+    "translit": "at-tashbīhu",
+    "gender": "m",
+    "note": "C'est le rôle de {ar|كَأَنَّ} dans une phrase."
+  },
+  {
+    "id": "w:nafy",
+    "kind": "word",
+    "ar": "النَّفْيُ",
+    "fr": "la négation",
+    "translit": "an-nafyu",
+    "gender": "m",
+    "note": "Dire qu'une chose n'est pas, ou qu'elle n'a pas eu lieu."
+  },
+  {
+    "id": "w:nafiya",
+    "kind": "word",
+    "ar": "نَافِيَةٌ",
+    "fr": "négative (qui exprime la négation)",
+    "translit": "nāfiyatun",
+    "note": "On dit {ar|مَا النَّافِيَةُ} : le {ar|مَا} de négation. C'est le participe actif du verbe {ar|نَفَى} (« nier »), comme {ar|نَاجِحٌ} vient de {ar|نَجَحَ}."
+  },
+  {
+    "id": "w:istifhamiyya",
+    "kind": "word",
+    "ar": "اِسْتِفْهَامِيَّةٌ",
+    "fr": "interrogative (qui pose une question)",
+    "translit": "istifhāmiyyatun",
+    "note": "On dit {ar|مَا الِاسْتِفْهَامِيَّةُ} : le {ar|مَا} interrogatif, celui de {ar|مَا هٰذَا؟}. Elle vient de {ar|الِاسْتِفْهَامُ} (« l'interrogation »), comme dans {ar|اِسْمُ الِاسْتِفْهَامِ}."
+  },
+  {
+    "id": "w:a-ma",
+    "kind": "word",
+    "ar": "أَمَا",
+    "fr": "est-ce que… ne… pas ? (début d'une question négative)",
+    "translit": "ʾamā",
+    "note": "C'est {ar|أَ} (« est-ce que ») + {ar|مَا} (le {ar|مَا} négatif). On y répond « oui » par {ar|بَلَى}."
+  },
+  {
+    "id": "w:li-anna",
+    "kind": "word",
+    "ar": "لِأَنَّ",
+    "fr": "parce que",
+    "translit": "li-anna",
+    "note": "C'est {ar|لِ} + {ar|أَنَّ}. Elle est suivie d'un nom ou d'un pronom collé, à l'accusatif : {ar|لِأَنَّهُ}, {ar|لِأَنَّهَا}…",
+    "example": { "ar": "رَجَعَ حَامِدٌ لِأَنَّهُ مَرِيضٌ.", "fr": "Ḥāmid est rentré parce qu'il est malade." }
+  },
+  {
+    "id": "w:hissa",
+    "kind": "word",
+    "ar": "حِصَّةٌ",
+    "fr": "une séance (de cours), une part",
+    "translit": "ḥiṣṣatun",
+    "plural": "حِصَصٌ",
+    "gender": "f",
+    "note": "Le support donne « part, période ». À l'école, c'est une séance de cours.",
+    "example": { "ar": "انْتَهَتِ الْحِصَّةُ الْأُولَى.", "fr": "La première séance s'est terminée." }
+  },
+  {
+    "id": "w:maktaba",
+    "kind": "word",
+    "ar": "مَكْتَبَةٌ",
+    "fr": "une bibliothèque, une librairie",
+    "translit": "maktabatun",
+    "plural": "مَكْتَبَاتٌ",
+    "gender": "f",
+    "note": "Elle vient de la même racine que {ar|مَكْتَبٌ} (un bureau), {ar|كِتَابٌ} (un livre) et {ar|كَتَبَ} (« il a écrit ») : {ar|ك ت ب}, l'écriture.",
+    "example": { "ar": "ذَهَبَ الطَّالِبُ إِلَى الْمَكْتَبَةِ.", "fr": "L'étudiant est allé à la bibliothèque." }
+  },
+  {
+    "id": "w:bas",
+    "kind": "word",
+    "ar": "بَأْسٌ",
+    "fr": "le mal, la force, le courage",
+    "translit": "baʾsun",
+    "plural": "أَبْؤُسٌ",
+    "gender": "m",
+    "note": "Le support donne ces trois sens. Dans {ar|لَا بَأْسَ}, il veut dire « mal » : « pas de mal ».",
+    "example": { "ar": "لَا بَأْسَ عَلَيْكَ.", "fr": "Tout va bien pour toi." }
+  },
+  {
+    "id": "p:la-bas",
+    "kind": "phrase",
+    "ar": "لَا بَأْسَ",
+    "fr": "il n'y a pas de mal (ce n'est pas grave)",
+    "translit": "lā baʾsa",
+    "note": "On le dit pour rassurer quelqu'un ou pour accepter quelque chose."
+  },
+  {
+    "id": "p:la-bas-fi-dhalik",
+    "kind": "phrase",
+    "ar": "لَا بَأْسَ فِي ذٰلِكَ",
+    "fr": "il n'y a pas de mal à cela",
+    "translit": "lā baʾsa fī dhālika"
+  },
+  {
+    "id": "p:la-bas-alayka",
+    "kind": "phrase",
+    "ar": "لَا بَأْسَ عَلَيْكَ",
+    "fr": "tout va bien pour toi (il n'y a pas de mal pour toi)",
+    "translit": "lā baʾsa ʿalayka",
+    "note": "À une femme : {ar|لَا بَأْسَ عَلَيْكِ}."
+  }
+]

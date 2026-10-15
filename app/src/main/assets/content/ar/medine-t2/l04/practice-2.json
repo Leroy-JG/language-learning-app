@@ -1,0 +1,112 @@
+{
+  "id": "medine-t2.l04.practice-2",
+  "type": "grammar",
+  "title": "Comme si : {ar|كَأَنَّ} devant la phrase",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t2.l04.practice-2#1",
+      "type": "tip",
+      "title": "L'exercice 7 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne deux exemples, puis demande de mettre {ar|كَأَنَّ} devant les phrases suivantes. Le sujet devient un pronom collé à {ar|كَأَنَّ} (ou un nom à l'accusatif), et le prédicat reste au nominatif."
+        },
+        {
+          "type": "example",
+          "ar": "مَنْ هٰذَا الْفَتَى؟ كَأَنَّهُ أَخُوكَ.",
+          "fr": "Qui est ce jeune homme ? On dirait ton frère."
+        },
+        {
+          "type": "example",
+          "ar": "مَنْ هٰذِهِ الطِّفْلَةُ؟ كَأَنَّهَا أُخْتُكَ.",
+          "fr": "Qui est cette petite fille ? On dirait ta sœur."
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Avec {ar|كَأَنَّ}"],
+          "rows": [
+            ["{ar|هُوَ}", "{ar|كَأَنَّهُ}"],
+            ["{ar|هِيَ}", "{ar|كَأَنَّهَا}"],
+            ["{ar|هُمْ}", "{ar|كَأَنَّهُمْ}"],
+            ["{ar|أَنْتِ}", "{ar|كَأَنَّكِ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.practice-2#2",
+      "type": "fill_gap",
+      "sentence": "{0} زَمِيلُكَ.",
+      "fr": "On dirait ton camarade.",
+      "gaps": [ { "answers": ["كَأَنَّهُ"] } ],
+      "options": ["كَأَنَّهُ", "كَأَنَّهَا", "كَأَنَّهُمْ"],
+      "explain": "{ar|زَمِيلٌ} est masculin singulier : {ar|هُوَ} devient {ar|كَأَنَّهُ}."
+    },
+    {
+      "id": "medine-t2.l04.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "{0} طَبِيبَةٌ.",
+      "fr": "On dirait une femme médecin.",
+      "gaps": [ { "answers": ["كَأَنَّهَا"] } ],
+      "options": ["كَأَنَّهَا", "كَأَنَّهُ", "كَأَنَّهُمْ"],
+      "explain": "{ar|طَبِيبَةٌ} est féminin : {ar|هِيَ} devient {ar|كَأَنَّهَا}."
+    },
+    {
+      "id": "medine-t2.l04.practice-2#4",
+      "type": "order",
+      "fr": "On dirait des étudiants.",
+      "answers": [["كَأَنَّهُمْ", "طُلَّابٌ"]],
+      "punctuation": ".",
+      "distractors": ["كَأَنَّهُ"],
+      "explain": "{ar|طُلَّابٌ} est un pluriel : {ar|هُمْ} devient {ar|كَأَنَّهُمْ}."
+    },
+    {
+      "id": "medine-t2.l04.practice-2#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "On dirait un nouvel enseignant.",
+      "answers": ["كَأَنَّهُ مُدَرِّسٌ جَدِيدٌ."],
+      "explain": "{ar|هُوَ} devient {ar|كَأَنَّهُ} ; le prédicat reste au nominatif."
+    },
+    {
+      "id": "medine-t2.l04.practice-2#6",
+      "type": "fill_gap",
+      "sentence": "{0} أُخْتُ مَرْيَمَ.",
+      "fr": "On dirait que tu es la sœur de Maryam. (à une femme)",
+      "gaps": [ { "answers": ["كَأَنَّكِ"] } ],
+      "options": ["كَأَنَّكِ", "كَأَنَّهُ", "كَأَنَّنِي"],
+      "explain": "« Tu » (à une femme) : {ar|أَنْتِ} devient {ar|كَأَنَّكِ}, avec une kasra."
+    },
+    {
+      "id": "medine-t2.l04.practice-2#7",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|كَأَنَّهَا أُخْتُكَ} ?" },
+      "choices": [ { "fr": "On dirait ta sœur." }, { "fr": "Peut-être est-ce ta sœur." }, { "fr": "Mais c'est ta sœur." } ],
+      "answer": 0,
+      "explain": "{ar|كَأَنَّ} : « comme si, on dirait que ». {ar|لَعَلَّ} : « peut-être ». {ar|لَكِنَّ} : « mais »."
+    },
+    {
+      "id": "medine-t2.l04.practice-2#8",
+      "type": "sort",
+      "categories": [ { "ar": "كَأَنَّ" }, { "ar": "لَكِنَّ" } ],
+      "cards": [
+        { "ar": "كَأَنَّهُ مَرِيضٌ", "category": 0 },
+        { "ar": "لَكِنَّهُ مَرِيضٌ", "category": 1 },
+        { "ar": "كَأَنَّهُمْ إِخْوَةٌ", "category": 0 },
+        { "ar": "لَكِنَّهَا فَقِيرَةٌ", "category": 1 },
+        { "ar": "كَأَنَّكَ تَاجِرٌ", "category": 0 },
+        { "ar": "لَكِنَّنَا طُلَّابٌ", "category": 1 }
+      ],
+      "instruction": "Quelle particule : « on dirait » ou « mais » ?"
+    },
+    {
+      "id": "medine-t2.l04.practice-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "On dirait ta sœur.",
+      "answers": ["كَأَنَّهَا أُخْتُكَ."]
+    }
+  ]
+}

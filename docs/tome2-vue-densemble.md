@@ -203,3 +203,10 @@ Le cours 3 (un seul PDF de 26 pages) est publié : `docs/sources-t2-lecon-3.md`.
 `l03.grammar-1`, accord dans `l03.grammar-2`, dénombré et `التَّمْيِيزُ` dans `l03.grammar-3`, douze dans `l03.grammar-4`), `أَفْعَلُ التَّفْضِيلِ` (comparatif avec `مِنْ`
 dans `l03.grammar-6`, superlatif dans `l03.grammar-7`, fatha / kasra dans `l03.grammar-8`), `لَكِنَّ`, `كَأَنَّ` et `بَلَى`, et le texte du livre (Aḥmad et ʿAlī).
 Les dizaines (20 à 99), les nombres ordinaux, le féminin du comparatif et le superlatif avec l'article restent « pas encore enseignés ».
+
+## 11. Avancement : le chapitre 4 (`medine-t2.l04`)
+
+Le cours 4 (un seul PDF de 25 pages) est publié : `docs/sources-t2-lecon-4.md`. Il reprend d'abord la fin du cours 3 de la vidéo (`إِنَّ وَأَخَوَاتُهَا`, 2e partie : `لَكِنَّ`, `كَأَنَّ`, déjà enseignés
+au chapitre 3, avec leurs exercices 6 et 7), puis `مَا النَّافِيَةُ` (`l04.grammar-1` : les deux `مَا`, `grammar-2` : devant un verbe, `grammar-3` : devant une phrase nominale), `أَمَا` / `بَلَى`
+(`grammar-4`), `لِأَنَّ` (`grammar-5`), le vocabulaire (`حِصَّةٌ`, `بَأْسٌ`, `اِسْتَدْرَكَ`, `شَبَّهَ`) et le texte du livre (Yūsuf et Ibrāhīm) avec ses exercices 1 à 7.
+`مَا` « comme `لَيْسَ` » reste cité sans détail ; `لَمْ` et `لَنْ` (négations du présent) viendront plus tard.

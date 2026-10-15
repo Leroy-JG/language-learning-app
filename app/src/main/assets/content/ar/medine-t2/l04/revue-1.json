@@ -1,0 +1,179 @@
+{
+  "id": "medine-t2.l04.revue-1",
+  "type": "review",
+  "title": "Revoir : {ar|إِنَّ} et ses sœurs",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l04.revue-1#1",
+      "type": "tip",
+      "title": "Les {ar|نَوَاسِخُ} : ce qui change la phrase nominale",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur regroupe sous le nom de {ar|النَّوَاسِخُ} les mots qui entrent dans une phrase nominale et **modifient les cas** du sujet et du prédicat. Il y en a de deux familles :"
+        },
+        {
+          "type": "table",
+          "header": ["Famille", "Exemple", "Effet"],
+          "rows": [
+            [
+              "des verbes ({ar|أَفْعَالٌ}) : {ar|كَانَ وَأَخَوَاتُهَا}, dont {ar|لَيْسَ}",
+              "{ar|لَيْسَ زَيْدٌ جَالِسًا} (Zayd n'est pas assis.)",
+              "le sujet reste au nominatif, le prédicat passe à l'accusatif"
+            ],
+            [
+              "des particules ({ar|حُرُوفٌ}) : {ar|إِنَّ وَأَخَوَاتُهَا}",
+              "{ar|إِنَّ زَيْدًا جَالِسٌ} (Certes, Zayd est assis.)",
+              "le sujet passe à l'accusatif, le prédicat reste au nominatif"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les sœurs de {ar|إِنَّ} que tu connais : {ar|إِنَّ} (« certes »), {ar|أَنَّ} (« que »), {ar|لَعَلَّ} (« peut-être »), {ar|لَكِنَّ} (« mais ») et {ar|كَأَنَّ} (« comme si »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.revue-1#2",
+      "type": "sort",
+      "categories": [
+        { "fr": "un verbe : le prédicat passe à l'accusatif" },
+        { "fr": "une particule : le sujet passe à l'accusatif" }
+      ],
+      "cards": [
+        { "ar": "لَيْسَ", "category": 0 },
+        { "ar": "إِنَّ", "category": 1 },
+        { "ar": "لَكِنَّ", "category": 1 },
+        { "ar": "لَسْتُ", "category": 0 },
+        { "ar": "كَأَنَّ", "category": 1 },
+        { "ar": "لَعَلَّ", "category": 1 }
+      ],
+      "instruction": "Quelle famille de {ar|نَوَاسِخُ} ?",
+      "explain": "{ar|لَيْسَ} (et ses formes, comme {ar|لَسْتُ}) est un verbe : son prédicat est à l'accusatif. {ar|إِنَّ}, {ar|لَكِنَّ}, {ar|كَأَنَّ} et {ar|لَعَلَّ} sont des particules : leur nom est à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l04.revue-1#3",
+      "type": "tip",
+      "title": "{ar|لَكِنَّ} : rectifier ou nuancer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|لَكِنَّ} (« mais ») sert à **corriger ou nuancer** ce qui vient d'être dit. Elle doit donc être précédée d'une phrase qui **va dans l'autre sens**. Comme {ar|إِنَّ}, elle change le statut des deux termes de la phrase nominale qu'elle ouvre :"
+        },
+        {
+          "type": "table",
+          "header": ["Terme", "Cas", "Nom"],
+          "rows": [["le sujet", "accusatif", "{ar|اِسْمُ لَكِنَّ}"], ["le prédicat", "nominatif", "{ar|خَبَرُ لَكِنَّ}"]]
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            [
+              "{ar|زَيْدٌ فَقِيرٌ لَكِنَّهُ غَنِيُّ الْقَلْبِ}",
+              "Zayd est pauvre, mais il est riche de cœur (« riche du cœur »)."
+            ],
+            ["{ar|زَيْدٌ فَقِيرٌ لَكِنَّ عِلْمَهُ كَثِيرٌ}", "Zayd est pauvre, mais son savoir est grand."]
+          ]
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "عِلْمُ زَيْدٍ كَثِيرٌ", "fr": "Le savoir de Zayd est grand." },
+              "to": { "ar": "لَكِنَّ عِلْمَهُ كَثِيرٌ", "fr": "Mais son savoir est grand." },
+              "label": "le premier terme de l'annexion passe à l'accusatif"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Quand le sujet est une annexion ({ar|عِلْمُ زَيْدٍ}), c'est le **premier terme** qui prend la fatha ({ar|عِلْمَهُ}) ; le second terme (ici le pronom {ar|هُ}) reste au génitif. Le prédicat {ar|كَثِيرٌ} reste au nominatif."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.revue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|لَكِنَّ عِلْمَهُ كَثِيرٌ}, quelle voyelle porte la dernière lettre de {ar|عِلْمَ} ?" },
+      "choices": [ { "fr": "une fatha" }, { "fr": "une damma" }, { "fr": "une kasra" } ],
+      "answer": 0,
+      "explain": "{ar|عِلْمَ} est le nom de {ar|لَكِنَّ} : il est à l'accusatif, donc une fatha. Le prédicat {ar|كَثِيرٌ} garde la damma du nominatif."
+    },
+    {
+      "id": "medine-t2.l04.revue-1#5",
+      "type": "spot",
+      "instruction": "Touche le nom de {ar|لَكِنَّ}.",
+      "words": ["زَيْدٌ", "فَقِيرٌ", "لَكِنَّ", "عِلْمَهُ", "كَثِيرٌ."],
+      "answers": [3],
+      "fr": "Zayd est pauvre, mais son savoir est grand.",
+      "explain": "Le nom de {ar|لَكِنَّ} est {ar|عِلْمَهُ}, à l'accusatif. Le prédicat est {ar|كَثِيرٌ}."
+    },
+    {
+      "id": "medine-t2.l04.revue-1#6",
+      "type": "tip",
+      "title": "{ar|كَأَنَّ} : comparer, ou supposer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|كَأَنَّ} (« comme si ») a, elle aussi, deux emplois. Elle **compare** ce que décrivent le sujet et le prédicat, ou elle exprime une **supposition** : « on dirait que… ». Comme {ar|إِنَّ}, elle met son nom à l'accusatif et laisse son prédicat au nominatif."
+        },
+        {
+          "type": "table",
+          "header": ["Sans {ar|كَأَنَّ}", "Avec {ar|كَأَنَّ}"],
+          "rows": [
+            [
+              "{ar|زَيْدٌ عَالِمٌ} (Zayd est un savant.)",
+              "{ar|كَأَنَّ زَيْدًا عَالِمٌ} (Comme si Zayd était un savant. On dirait que Zayd est un savant.)"
+            ]
+          ]
+        },
+        {
+          "type": "example",
+          "ar": "زَيْدٌ عَالِمٌ كَأَنَّهُ مُحَدِّثٌ.",
+          "fr": "Zayd est un savant, comme s'il était un spécialiste du ḥadīth (un traditionniste)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans {ar|كَأَنَّ زَيْدًا عَالِمٌ}, {ar|زَيْدًا} est le nom de {ar|كَأَنَّ} (accusatif) et {ar|عَالِمٌ} son prédicat (nominatif)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.revue-1#7",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ جَمِيلٌ {0} الْقَمَرُ.",
+      "fr": "Zayd est beau, comme s'il était la lune.",
+      "gaps": [ { "answers": ["كَأَنَّهُ"] } ],
+      "options": ["كَأَنَّهُ", "لَكِنَّهُ", "لَعَلَّهُ"],
+      "explain": "Pour comparer : {ar|كَأَنَّ}. Elle met son nom (le pronom {ar|هُ}) à l'accusatif et laisse {ar|الْقَمَرُ} au nominatif."
+    },
+    {
+      "id": "medine-t2.l04.revue-1#8",
+      "type": "order",
+      "fr": "Zayd est pauvre, mais son savoir est grand.",
+      "answers": [["زَيْدٌ", "فَقِيرٌ", "لَكِنَّ", "عِلْمَهُ", "كَثِيرٌ"]],
+      "punctuation": ".",
+      "distractors": ["كَأَنَّ"]
+    },
+    {
+      "id": "medine-t2.l04.revue-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "On dirait que Zayd est un savant.",
+      "answers": ["كَأَنَّ زَيْدًا عَالِمٌ."],
+      "explain": "Après {ar|كَأَنَّ}, le nom est à l'accusatif : {ar|زَيْدًا}."
+    },
+    {
+      "id": "medine-t2.l04.revue-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd est pauvre, mais son savoir est grand.",
+      "answers": ["زَيْدٌ فَقِيرٌ لَكِنَّ عِلْمَهُ كَثِيرٌ."]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "medine-t2.l04.practice-6",
+  "type": "grammar",
+  "title": "Répondre par la négative, répondre « si »",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l04.practice-6#1",
+      "type": "tip",
+      "title": "Les exercices 5 et 7 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Exercice 5 : répondre à trois questions par la négative, avec {ar|مَا}. Exercice 7 : répondre « oui » par {ar|نَعَمْ} ou par {ar|بَلَى}, selon la question."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l04.practice-6#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَذَهَبْتَ إِلَى الْمَدْرَسَةِ أَمْسِ؟",
+      "answers": [
+        "مَا ذَهَبْتُ إِلَى الْمَدْرَسَةِ أَمْسِ.",
+        "مَا ذَهَبْتُ أَمْسِ إِلَى الْمَدْرَسَةِ.",
+        "مَا ذَهَبْتُ إِلَى الْمَدْرَسَةِ.",
+        "مَا ذَهَبْتُ."
+      ],
+      "fr": "Je ne suis pas allé à l'école hier.",
+      "instruction": "Réponds par la négative, avec {ar|مَا}.",
+      "explain": "« Tu » devient « je » : {ar|ذَهَبْتَ} → {ar|ذَهَبْتُ}. {ar|مَا} se met devant le verbe."
+    },
+    {
+      "id": "medine-t2.l04.practice-6#3",
+      "type": "fill_gap",
+      "sentence": "أَرَجَعَ أَبُوكَ مِنَ السُّوقِ؟ {0}، رَجَعَ.",
+      "fr": "Ton père est-il revenu du marché ? Oui, il est revenu.",
+      "gaps": [ { "answers": ["نَعَمْ"] } ],
+      "options": ["نَعَمْ", "بَلَى", "لَا"],
+      "explain": "La question n'est pas négative : « oui » se dit {ar|نَعَمْ}."
+    },
+    {
+      "id": "medine-t2.l04.practice-6#4",
+      "type": "fill_gap",
+      "sentence": "أَمَا رَجَعَ أَبُوكَ مِنَ السُّوقِ؟ {0}، رَجَعَ.",
+      "fr": "Ton père n'est-il pas revenu du marché ? Si, il est revenu.",
+      "gaps": [ { "answers": ["بَلَى"] } ],
+      "options": ["بَلَى", "نَعَمْ", "لَا"],
+      "explain": "La question est négative ({ar|أَمَا}) : on la contredit avec {ar|بَلَى}."
+    },
+    {
+      "id": "medine-t2.l04.practice-6#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَرَجَعَ أَبُوكَ مِنْ بَغْدَادَ؟",
+      "answers": ["مَا رَجَعَ أَبِي مِنْ بَغْدَادَ.", "مَا رَجَعَ مِنْ بَغْدَادَ."],
+      "fr": "Mon père n'est pas revenu de Bagdad.",
+      "instruction": "Réponds par la négative, avec {ar|مَا}.",
+      "explain": "« Ton père » ({ar|أَبُوكَ}) devient « mon père » ({ar|أَبِي}, avec une kasra avant le {ar|ي}). {ar|بَغْدَادُ} n'a pas de tanwin : fatha après {ar|مِنْ}."
+    },
+    {
+      "id": "medine-t2.l04.practice-6#6",
+      "type": "fill_gap",
+      "sentence": "أَذَهَبَتْ لَيْلَى إِلَى الْجَامِعَةِ؟ {0}، مَا ذَهَبَتْ.",
+      "fr": "Laylā est-elle allée à l'université ? Non, elle n'y est pas allée.",
+      "gaps": [ { "answers": ["لَا"] } ],
+      "options": ["لَا", "نَعَمْ", "بَلَى"],
+      "explain": "« Non » se dit {ar|لَا}, puis on répète la négation : {ar|مَا ذَهَبَتْ}."
+    },
+    {
+      "id": "medine-t2.l04.practice-6#7",
+      "type": "fill_gap",
+      "sentence": "أَمَا ذَهَبَ أَخُوكَ إِلَى الرِّيَاضِ؟ {0}، ذَهَبَ.",
+      "fr": "Ton frère n'est-il pas allé à Riyad ? Si, il y est allé.",
+      "gaps": [ { "answers": ["بَلَى"] } ],
+      "options": ["بَلَى", "نَعَمْ", "لَا"],
+      "explain": "Question négative ({ar|أَمَا}) : {ar|بَلَى}."
+    },
+    {
+      "id": "medine-t2.l04.practice-6#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَذَهَبَتْ أُخْتُكَ إِلَى الْمُسْتَشْفَى؟",
+      "answers": ["مَا ذَهَبَتْ أُخْتِي إِلَى الْمُسْتَشْفَى.", "مَا ذَهَبَتْ إِلَى الْمُسْتَشْفَى."],
+      "fr": "Ma sœur n'est pas allée à l'hôpital.",
+      "instruction": "Réponds par la négative, avec {ar|مَا}.",
+      "explain": "« Ta sœur » ({ar|أُخْتُكَ}) devient « ma sœur » ({ar|أُخْتِي}) ; le verbe garde le {ar|تْ} du féminin."
+    }
+  ]
+}
