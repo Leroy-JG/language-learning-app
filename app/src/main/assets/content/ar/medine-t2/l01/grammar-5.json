@@ -25,14 +25,20 @@
             ],
             [
               "{ar|أَنَّ}",
-              "au milieu de la phrase, après un autre mot",
+              "après un autre mot (un verbe, une conjonction…), pas au début",
               "{ar|أَعْلَمُ أَنَّ زَيْدًا طَالِبٌ} (je sais que Zayd est étudiant)"
             ]
           ]
         },
         {
           "type": "note",
-          "text": "{ar|أَعْلَمُ} (« je sais ») est un aperçu : tu l'étudieras plus tard. Ici, retiens la place de {ar|أَنَّ} : elle ne commence pas la phrase."
+          "tone": "info",
+          "text": "{ar|أَعْلَمُ} (« je sais ») est un aperçu : tu l'étudieras plus tard. Ici, retiens que {ar|أَنَّ} ne commence pas la phrase : elle suit un autre mot."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Tu connais déjà un exemple : {ar|لِأَنَّهُ} (« parce que », tome 1, révision 1) est {ar|لِ} + {ar|أَنَّ} + {ar|هُ}. Après {ar|أَنَّ}, le pronom {ar|هُ} est le sujet, à l'accusatif, comme après {ar|إِنَّ}."
         }
       ]
     },
@@ -61,7 +67,11 @@
             ["{ar|أَنَّ}", "que (au milieu de la phrase)", "la confirmation ({ar|التَّوْكِيدُ})"],
             ["{ar|لَعَلَّ}", "peut-être, j'espère que", "l'espoir d'une chose possible ({ar|التَّرَجِّي})"],
             ["{ar|كَأَنَّ}", "comme si (aperçu)", "la comparaison ({ar|التَّشْبِيهُ})"],
-            ["{ar|لَكِنَّ}", "mais (aperçu)", "la rectification ({ar|الِاسْتِدْرَاكُ})"],
+            [
+              "{ar|لَكِنَّ}",
+              "mais (pour corriger ou préciser ce qui précède) (aperçu)",
+              "la rectification ({ar|الِاسْتِدْرَاكُ})"
+            ],
             [
               "{ar|لَيْتَ}",
               "si seulement (aperçu)",

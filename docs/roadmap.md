@@ -25,8 +25,8 @@
 ## À faire, par ordre de priorité
 
 1. **Leçons suivantes du Tome de Médine 2**, avec la procédure `.claude/skills/nouvelle-lecon/SKILL.md` (niveau `medine-t2`, `LURATA_NIVEAU=medine-t2`). Il faut que l'utilisateur joigne les PDF.
-   - Prochaine : la leçon 2 du Tome 2 (la leçon 1 est décrite dans `docs/sources-t2-lecon-1.md` ; le tome 1 est terminé : chapitres 1 à 23 et révisions 1 et 2, la leçon 18 dans `docs/sources-lecon-18.md`, les autres dans `docs/sources.md`).
-   - À prévoir pour le tome 2 : `كَانَ` et ses sœurs, `أَظُنُّ` (cités en aperçu à la leçon 1), le détail des nombres de 11 à 99 ; ses défis (`qNN`) et son examen final.
+   - Prochaine : la suite du tome 2, **découpage décidé par l'utilisateur** (plan et questions ouvertes dans `docs/tome2-vue-densemble.md` §7 ; la leçon 1 est décrite dans `docs/sources-t2-lecon-1.md` ; le tome 1 est terminé : chapitres 1 à 23 et révisions 1 et 2, la leçon 18 dans `docs/sources-lecon-18.md`, les autres dans `docs/sources.md`).
+   - À prévoir pour le tome 2 : `كَانَ` et ses sœurs, `أَظُنُّ` (cités en aperçu à la leçon 1), `كَأَنَّ` et `لَكِنَّ`, le détail des nombres de 11 à 99 ; ses défis (`qNN`) et son examen final.
    - À confirmer avec le professeur (leçon 21) : `إِنْكِلْتِرَا` (graphie du livre, avec ك) face à `إِنْجِلْتِرَا`, et la traduction de `الْمَدِينَةُ` par « Médine » dans le texte.
    - À confirmer avec le professeur (leçon 20) : la forme `أُرُوبَّا` (lettres dans cet ordre) sur la carte du PDF, face à `أُورُبَّا` / `أُورُوبَّا` dans l'app (l'exercice 3 de la leçon 21 écrit `أُورُبَّا`, comme l'app).
    - À confirmer avec le professeur (leçon 19) : `قُدَامَى` comme pluriel de `قَدِيمٌ` (attesté dans les dictionnaires modernes, non retrouvé dans Lisān al-ʿArab / al-Wasīṭ).

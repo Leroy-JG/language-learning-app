@@ -86,7 +86,7 @@ Les deux PDF se recoupent (1b reprend les diapositives de `إِنَّ` de 1a) : 
 - `لَعَلَّ` exprime l'espoir pour une chose souhaitée et l'inquiétude pour une chose redoutée (`التَّرَجِّي` et `الْإِشْفَاقُ`) ; avec « je » : `لَعَلِّي` ou `لَعَلَّنِي`.
 - Après `إِنَّ`, « je » et « nous » ont deux formes correctes : `إِنِّي` = `إِنَّ` + `ي`, `إِنَّنِي` avec le `ن` « de protection » (`نُونُ الْوِقَايَةِ`), de même `إِنَّنَا` / `إِنَّا` ; le pronom affixe tient la place de `اِسْمُ إِنَّ` (accusatif) mais reste invariable.
 - Après `إِنَّ`, un nom **singulier (ou pluriel irrégulier)** prend la fatha ; le duel et les pluriels réguliers gardent leurs marques de l'accusatif (`ـَيْنِ`, `ـِينَ`, la kasra du pluriel féminin) ; le prédicat s'accorde quand c'est un nom ou un adjectif (pas un groupe « préposition + nom »).
-- `أَنَّ` ne commence pas la phrase ; exemple d'aperçu `أَعْلَمُ أَنَّ زَيْدًا طَالِبٌ`.
+- `أَنَّ` ne commence pas la phrase : elle suit un autre mot (un verbe, une conjonction…) ; exemple d'aperçu `أَعْلَمُ أَنَّ زَيْدًا طَالِبٌ` et rappel de `لِأَنَّهُ` (tome 1, révision 1) = `لِ` + `أَنَّ` + `هُ`. Prudence du plan du tome 2 (`docs/tome2-vue-densemble.md`, piège n° 3) : `إِنَّ` « au début » est dit « d'ordinaire ».
 - De 11 à 99, le dénombré est au singulier et à l'accusatif (comme après `كَمْ`) ; `مِائَةٌ` s'écrit aussi `مِئَةٌ`.
 - `بِ` : l'alif de `الْ` reste écrit (`بِالْمَدِينَةِ`), contrairement à `لِ` (`لِلْمُدِيرِ`) ; sens selon le mot qui suit (lieu, prix, état) ; `كَمْ` ne change pas après `بِ`.
 - `ذُو` : toujours annexé à un nom (au génitif) ; `ذَا` à l'accusatif, `ذِي` au génitif ; féminin `ذَاتُ` ; l'un des « cinq noms » (`الْأَسْمَاءُ الْخَمْسَةُ`).
@@ -101,6 +101,10 @@ Les deux PDF se recoupent (1b reprend les diapositives de `إِنَّ` de 1a) : 
 - Réponses acceptées ajoutées : `مِئَةُ` / `مِئَةِ`, réponses courtes (`بِمِائَةِ رِيَالٍ.`), réponses sans `الْمُنَوَّرَةِ`, `أَهُنَّ خَالَاتُكَ أَمْ عَمَّاتُكَ؟` (consigne précisée « à un homme »). Refusé : l'ordre `مِائَةُ صَفْحَةٍ فِي هٰذَا الْكِتَابِ` (non standard pour le cours).
 - Rythme : plus de trois présentations d'affilée ni de trois exercices identiques de suite ; `practice-3` finit sur une production.
 - Note de `grammar-1` : `كَانَ`, `لَيْسَ`, `أَظُنُّ` à retenir seulement par leur sorte et leur nuance. « Pourvu que… » pour `لَعَلَّ` avec « je ». Ligne `أَغَالِيَةٌ هِيَ؟` ajoutée au tableau du texte (`غَالٍ` : tome 1, chapitre 17).
+
+## Cohérence avec le tome 2
+
+Le chapitre suit `docs/tome2-vue-densemble.md` (cours 1 : phrase nominale 2, `النَّوَاسِخُ`, `إِنَّ` / `أَنَّ`, `لَعَلَّ`, `أَمْ`, nombres 2ᵉ partie en vue d'ensemble) et ses pièges : n° 3 (`إِنَّ` / `أَنَّ`, nuancé), n° 5 (`لَكِنَّ` traduit « mais, pour corriger ou préciser ce qui précède »), n° 7 (tableaux de référence uniques, voir §8 du plan). `كَأَنَّ` et `لَكِنَّ` (cours 3 du plan) ne sont que cités.
 
 ## Pas encore enseigné (donc sans exercice)
 

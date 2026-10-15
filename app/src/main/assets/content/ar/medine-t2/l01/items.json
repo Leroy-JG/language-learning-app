@@ -24,7 +24,7 @@
     "ar": "أَنَّ",
     "fr": "que (elle confirme la phrase, au milieu d'une phrase)",
     "translit": "anna",
-    "note": "Même sens et même effet sur la phrase que {ar|إِنَّ}, mais elle ne commence pas la phrase : elle vient après un autre mot (« je sais que… »)."
+    "note": "Même sens et même effet sur la phrase que {ar|إِنَّ}, mais elle ne commence pas la phrase : elle suit un autre mot, un verbe par exemple (« je sais que… »). On la retrouve dans {ar|لِأَنَّهُ} (« parce que »)."
   },
   {
     "id": "w:laalla",
