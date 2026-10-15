@@ -1,0 +1,133 @@
+{
+  "id": "medine-t2.l03.grammar-9",
+  "type": "grammar",
+  "title": "Mais : {ar|لَكِنَّ}",
+  "icon": "puzzle",
+  "screens": [
+    { "id": "medine-t2.l03.grammar-9#1", "type": "present", "item": "w:lakinna" },
+    { "id": "medine-t2.l03.grammar-9#2", "type": "present", "item": "w:bakhil" },
+    {
+      "id": "medine-t2.l03.grammar-9#3",
+      "type": "tip",
+      "title": "{ar|لَكِنَّ} agit comme {ar|إِنَّ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|لَكِنَّ} (« mais ») est une sœur de {ar|إِنَّ} (chapitre 1 de ce tome) : elle agit sur la phrase nominale comme {ar|إِنَّ}. Le nom qui la suit est à l'**accusatif**, son prédicat reste au **nominatif**. On l'emploie entre deux phrases dont le sens s'oppose."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            ["{ar|زَيْدٌ لَيْسَ غَنِيًّا لَكِنَّهُ عَالِمٌ}", "Zayd n'est pas riche, mais il est savant."],
+            ["{ar|يَاسِرٌ غَنِيٌّ لَكِنَّهُ بَخِيلٌ}", "Yāsir est riche, mais il est avare."]
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "لَكِنَّهُ",
+          "fr": "mais il",
+          "parts": [ { "ar": "لَكِنَّ", "fr": "mais" }, { "ar": "هُ", "fr": "il" } ]
+        },
+        {
+          "type": "note",
+          "text": "Dans {ar|لَكِنَّهُ عَالِمٌ}, le pronom {ar|هُ} est le nom de {ar|لَكِنَّ} (à l'accusatif) et {ar|عَالِمٌ} est son prédicat (au nominatif)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-9#4",
+      "type": "tip",
+      "title": "{ar|لَكِنَّ} avec les pronoms",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pronom", "Avec {ar|لَكِنَّ}", "Sens"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|لَكِنَّنِي} ou {ar|لَكِنِّي}", "mais je…"],
+            ["{ar|أَنْتَ}", "{ar|لَكِنَّكَ}", "mais tu… (à un homme)"],
+            ["{ar|هُوَ}", "{ar|لَكِنَّهُ}", "mais il…"],
+            ["{ar|هِيَ}", "{ar|لَكِنَّهَا}", "mais elle…"],
+            ["{ar|نَحْنُ}", "{ar|لَكِنَّنَا}", "mais nous…"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ne la confonds pas avec {ar|لٰكِنْ} (tome 1, chapitre 21) : sans shadda, elle ne change aucun cas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-9#5",
+      "type": "question",
+      "prompt": { "fr": "Après {ar|لَكِنَّ}, le nom est…" },
+      "choices": [ { "fr": "à l'accusatif" }, { "fr": "au nominatif" }, { "fr": "au génitif" } ],
+      "answer": 0,
+      "explain": "Comme {ar|إِنَّ}, {ar|لَكِنَّ} met son nom à l'accusatif et laisse son prédicat au nominatif."
+    },
+    {
+      "id": "medine-t2.l03.grammar-9#6",
+      "type": "true_false",
+      "statement": { "fr": "{ar|لٰكِنْ} (sans shadda) et {ar|لَكِنَّ} agissent de la même façon sur la phrase." },
+      "answer": false,
+      "explain": "Faux : {ar|لَكِنَّ} (avec shadda) met son nom à l'accusatif ; {ar|لٰكِنْ} (sans shadda) ne change aucun cas."
+    },
+    {
+      "id": "medine-t2.l03.grammar-9#7",
+      "type": "spot",
+      "instruction": "Touche le prédicat de {ar|لَكِنَّ}.",
+      "words": ["يَاسِرٌ", "غَنِيٌّ", "لَكِنَّهُ", "بَخِيلٌ."],
+      "answers": [3],
+      "fr": "Yāsir est riche, mais il est avare.",
+      "explain": "Le prédicat de {ar|لَكِنَّ} est {ar|بَخِيلٌ}, au nominatif. Le nom de {ar|لَكِنَّ} est le pronom {ar|هُ}."
+    },
+    {
+      "id": "medine-t2.l03.grammar-9#8",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ لَيْسَ غَنِيًّا {0} عَالِمٌ.",
+      "fr": "Zayd n'est pas riche, mais il est savant.",
+      "gaps": [ { "answers": ["لَكِنَّهُ"] } ],
+      "options": ["لَكِنَّهُ", "لَكِنَّهَا", "لَكِنَّكَ"],
+      "explain": "Le pronom reprend {ar|زَيْدٌ} : « il », {ar|هُ}."
+    },
+    {
+      "id": "medine-t2.l03.grammar-9#9",
+      "type": "fill_gap",
+      "sentence": "أَنَا لَسْتُ جَوْعَانَ {0} عَطْشَانُ.",
+      "fr": "Je n'ai pas faim, mais j'ai soif.",
+      "gaps": [ { "answers": ["لَكِنَّنِي", "لَكِنِّي"] } ],
+      "options": ["لَكِنَّنِي", "لَكِنِّي", "لَكِنَّهُ", "لَكِنَّكَ"],
+      "explain": "« Je » : {ar|لَكِنَّنِي} ou {ar|لَكِنِّي}."
+    },
+    {
+      "id": "medine-t2.l03.grammar-9#10",
+      "type": "order",
+      "fr": "Zayd n'est pas riche, mais il est savant.",
+      "answers": [
+        ["زَيْدٌ", "لَيْسَ", "غَنِيًّا", "لَكِنَّهُ", "عَالِمٌ"],
+        ["لَيْسَ", "زَيْدٌ", "غَنِيًّا", "لَكِنَّهُ", "عَالِمٌ"]
+      ],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l03.grammar-9#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Yāsir est riche, mais il est avare.",
+      "answers": ["يَاسِرٌ غَنِيٌّ لَكِنَّهُ بَخِيلٌ."]
+    },
+    {
+      "id": "medine-t2.l03.grammar-9#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je n'ai pas faim, mais j'ai soif.",
+      "answers": [
+        "لَسْتُ جَوْعَانَ لَكِنَّنِي عَطْشَانُ.",
+        "لَسْتُ جَوْعَانَ لَكِنِّي عَطْشَانُ.",
+        "أَنَا لَسْتُ جَوْعَانَ لَكِنَّنِي عَطْشَانُ.",
+        "أَنَا لَسْتُ جَوْعَانَ لَكِنِّي عَطْشَانُ."
+      ]
+    }
+  ]
+}

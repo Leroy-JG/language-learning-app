@@ -1,0 +1,56 @@
+{
+  "id": "medine-t2.l03.vocab-1",
+  "type": "vocabulary",
+  "title": "Onze, douze, treize, quatorze, quinze",
+  "icon": "books",
+  "screens": [
+    { "id": "medine-t2.l03.vocab-1#1", "type": "present", "item": "w:n-11" },
+    { "id": "medine-t2.l03.vocab-1#2", "type": "present", "item": "w:n-12" },
+    {
+      "id": "medine-t2.l03.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:n-11",
+      "distractors": ["w:n-12", "w:n-10"]
+    },
+    { "id": "medine-t2.l03.vocab-1#4", "type": "present", "item": "w:n-13" },
+    { "id": "medine-t2.l03.vocab-1#5", "type": "present", "item": "w:n-14" },
+    {
+      "id": "medine-t2.l03.vocab-1#6",
+      "type": "mcq",
+      "mode": "audio-ar",
+      "item": "w:n-13",
+      "distractors": ["w:n-14", "w:n-12"]
+    },
+    { "id": "medine-t2.l03.vocab-1#7", "type": "present", "item": "w:n-15" },
+    {
+      "id": "medine-t2.l03.vocab-1#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:n-11", "w:n-12", "w:n-13", "w:n-14", "w:n-15"]
+    },
+    {
+      "id": "medine-t2.l03.vocab-1#9",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:n-15",
+      "distractors": ["w:n-14", "w:n-13"]
+    },
+    {
+      "id": "medine-t2.l03.vocab-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "onze (avec un nom masculin ou féminin)",
+      "answers": ["أَحَدَ عَشَرَ", "إِحْدَى عَشْرَةَ"],
+      "explain": "Avec un nom masculin : {ar|أَحَدَ عَشَرَ}. Avec un nom féminin : {ar|إِحْدَى عَشْرَةَ}."
+    },
+    {
+      "id": "medine-t2.l03.vocab-1#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "quatorze (avec un nom féminin)",
+      "answers": ["أَرْبَعَ عَشْرَةَ"],
+      "explain": "Avec un nom féminin : {ar|أَرْبَعَ عَشْرَةَ} (sans {ar|ة} sur {ar|أَرْبَعَ}, avec {ar|ة} sur {ar|عَشْرَةَ})."
+    }
+  ]
+}

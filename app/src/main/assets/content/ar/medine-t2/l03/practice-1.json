@@ -1,0 +1,90 @@
+{
+  "id": "medine-t2.l03.practice-1",
+  "type": "grammar",
+  "title": "Écrire les nombres en lettres",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l03.practice-1#1",
+      "type": "tip",
+      "title": "L'exercice 9 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne des phrases avec des chiffres, et demande de les réécrire avec les nombres **en toutes lettres**. À toi de choisir la bonne forme du nombre : elle dépend du genre du dénombré et du rôle du nombre dans la phrase."
+        },
+        {
+          "type": "note",
+          "text": "Trois phrases du livre ne sont pas reprises : la première est coupée dans le support, les deux autres emploient « vingt » (les dizaines viendront plus tard)."
+        },
+        {
+          "type": "note",
+          "text": "{ar|عَلَيْهِ السَّلَامُ} (« que la paix soit sur lui ») est la formule qu'on dit après le nom d'un prophète."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.practice-1#2",
+      "type": "fill_gap",
+      "sentence": "عِنْدِي {0} كِتَابًا بِاللُّغَةِ الْعَرَبِيَّةِ وَ{1} كِتَابًا بِاللُّغَةِ الْفَرَنْسِيَّةِ.",
+      "fr": "J'ai 15 livres en arabe et 12 livres en français.",
+      "gaps": [ { "answers": ["خَمْسَةَ عَشَرَ"] }, { "answers": ["اثْنَا عَشَرَ"] } ],
+      "options": ["خَمْسَةَ عَشَرَ", "اثْنَا عَشَرَ", "اثْنَيْ عَشَرَ", "خَمْسَ عَشْرَةَ"],
+      "explain": "{ar|كِتَابٌ} est masculin : {ar|خَمْسَةَ عَشَرَ}. Le second nombre est le sujet de la phrase (après {ar|عِنْدِي}), au nominatif : {ar|اثْنَا عَشَرَ}."
+    },
+    {
+      "id": "medine-t2.l03.practice-1#3",
+      "type": "fill_gap",
+      "sentence": "رَأَى يُوسُفُ عَلَيْهِ السَّلَامُ فِي الْمَنَامِ {0} كَوْكَبًا.",
+      "fr": "Yūsuf (que la paix soit sur lui) a vu en rêve 11 astres.",
+      "gaps": [ { "answers": ["أَحَدَ عَشَرَ"] } ],
+      "options": ["أَحَدَ عَشَرَ", "إِحْدَى عَشْرَةَ", "اثْنَيْ عَشَرَ"],
+      "explain": "{ar|كَوْكَبٌ} est masculin : {ar|أَحَدَ عَشَرَ}."
+    },
+    {
+      "id": "medine-t2.l03.practice-1#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ فُنْدُقًا فِي هٰذَا الشَّارِعِ؟",
+      "answers": [
+        "فِيهِ ثَلَاثَةَ عَشَرَ فُنْدُقًا.",
+        "فِي هٰذَا الشَّارِعِ ثَلَاثَةَ عَشَرَ فُنْدُقًا.",
+        "ثَلَاثَةَ عَشَرَ فُنْدُقًا."
+      ],
+      "fr": "Il y a treize hôtels dans cette rue.",
+      "instruction": "Réponds : il y en a 13.",
+      "explain": "{ar|فُنْدُقٌ} est masculin : {ar|ثَلَاثَةَ عَشَرَ فُنْدُقًا}."
+    },
+    {
+      "id": "medine-t2.l03.practice-1#5",
+      "type": "fill_gap",
+      "sentence": "فِي هٰذِهِ الْمَدِينَةِ {0} مَسْجِدًا.",
+      "fr": "Il y a 14 mosquées dans cette ville.",
+      "gaps": [ { "answers": ["أَرْبَعَةَ عَشَرَ"] } ],
+      "options": ["أَرْبَعَةَ عَشَرَ", "أَرْبَعَ عَشْرَةَ", "ثَلَاثَةَ عَشَرَ"],
+      "explain": "{ar|مَسْجِدٌ} est masculin : {ar|أَرْبَعَةَ عَشَرَ}."
+    },
+    {
+      "id": "medine-t2.l03.practice-1#6",
+      "type": "order",
+      "fr": "Le prix de ce livre est de 17 riyals.",
+      "answers": [["ثَمَنُ", "هٰذَا", "الْكِتَابِ", "سَبْعَةَ", "عَشَرَ", "رِيَالًا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l03.practice-1#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a 12 mois dans l'année.",
+      "answers": ["فِي السَّنَةِ اثْنَا عَشَرَ شَهْرًا."],
+      "explain": "Le nombre est le sujet, placé après {ar|فِي السَّنَةِ} : nominatif ({ar|اثْنَا}). {ar|شَهْرٌ} est masculin."
+    },
+    {
+      "id": "medine-t2.l03.practice-1#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai quinze livres en arabe.",
+      "answers": ["عِنْدِي خَمْسَةَ عَشَرَ كِتَابًا بِاللُّغَةِ الْعَرَبِيَّةِ."]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "medine-t2.l03.practice-3",
+  "type": "grammar",
+  "title": "Former des phrases avec le comparatif",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l03.practice-3#1",
+      "type": "tip",
+      "title": "L'exercice 4 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne trois mots (le sujet, un adjectif, le second terme) et demande de former une phrase avec le comparatif. Modèle : {ar|هَاشِمٌ} / {ar|طَوِيلٌ} / {ar|عُثْمَانُ} donne {ar|هَاشِمٌ أَطْوَلُ مِنْ عُثْمَانَ}."
+        },
+        {
+          "type": "note",
+          "text": "Trois phrases du livre ne sont pas reprises (elles comparent des fruits, des hommes et des femmes, ou des langues)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.practice-3#2",
+      "type": "order",
+      "fr": "Hāshim est plus grand (de taille) que ʿUthmān.",
+      "answers": [["هَاشِمٌ", "أَطْوَلُ", "مِنْ", "عُثْمَانَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l03.practice-3#3",
+      "type": "order",
+      "fr": "Le Caire est plus grand que Riyad.",
+      "answers": [["الْقَاهِرَةُ", "أَكْبَرُ", "مِنَ", "الرِّيَاضِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l03.practice-3#4",
+      "type": "order",
+      "fr": "Cet hôtel est plus propre que celui-là.",
+      "answers": [["هٰذَا", "الْفُنْدُقُ", "أَنْظَفُ", "مِنْ", "ذَاكَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l03.practice-3#5",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|الشَّمْسُ أَبْعَدُ مِنَ الْقَمَرِ}, pourquoi {ar|أَبْعَدُ} n'est-il pas au féminin, alors que {ar|الشَّمْسُ} est féminin ?"
+      },
+      "choices": [
+        { "fr": "Suivi de {ar|مِنْ}, le comparatif ne change pas de forme." },
+        { "fr": "Parce que {ar|الْقَمَرِ} est masculin." },
+        { "fr": "Parce que le comparatif est toujours masculin, même sans {ar|مِنْ}." }
+      ],
+      "answer": 0,
+      "explain": "Avec {ar|مِنْ}, le comparatif est invariable. (Sans {ar|مِنْ}, il existe aussi une forme féminine : tu la verras plus tard.)"
+    },
+    {
+      "id": "medine-t2.l03.practice-3#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis plus grand que lui.",
+      "answers": ["أَنَا أَكْبَرُ مِنْهُ."]
+    },
+    {
+      "id": "medine-t2.l03.practice-3#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il est plus petit que toi.",
+      "answers": ["هُوَ أَصْغَرُ مِنْكَ."]
+    },
+    {
+      "id": "medine-t2.l03.practice-3#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Tu es meilleur que moi.",
+      "answers": ["أَنْتَ أَحْسَنُ مِنِّي."]
+    },
+    {
+      "id": "medine-t2.l03.practice-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le soleil est plus loin que la lune.",
+      "answers": ["الشَّمْسُ أَبْعَدُ مِنَ الْقَمَرِ."]
+    }
+  ]
+}

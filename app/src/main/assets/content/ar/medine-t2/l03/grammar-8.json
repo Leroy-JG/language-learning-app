@@ -1,0 +1,123 @@
+{
+  "id": "medine-t2.l03.grammar-8",
+  "type": "grammar",
+  "title": "Un comparatif sans tanwin",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l03.grammar-8#1",
+      "type": "tip",
+      "title": "Le comparatif n'a pas de tanwin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le comparatif, comme les couleurs, est de la forme {ar|أَفْعَلُ} : c'est un nom sans tanwin ({ar|الْمَمْنُوعُ مِنَ الصَّرْفِ}, tome 1, chapitres 22 et 23). Seuls (sans article, sans être premier terme d'une annexion), ils prennent la **fatha** au génitif, pas la kasra."
+        },
+        {
+          "type": "example",
+          "ar": "لَيْسَ زَيْدٌ بِأَعْلَمَ مِنْ مُحَمَّدٍ.",
+          "fr": "Zayd n'est pas plus savant que Muḥammad."
+        },
+        {
+          "type": "breakdown",
+          "ar": "بِأَعْلَمَ",
+          "fr": "plus savant (avec {ar|بِ})",
+          "parts": [ { "ar": "بِ", "fr": "à, avec" }, { "ar": "أَعْلَمَ", "fr": "plus savant" } ]
+        },
+        {
+          "type": "note",
+          "text": "Après {ar|لَيْسَ}, on peut mettre {ar|بِ} ou non : {ar|لَيْسَ زَيْدٌ أَعْلَمَ مِنْ مُحَمَّدٍ} est aussi correct (sans {ar|بِ}, c'est l'accusatif). Dans les deux cas, {ar|أَعْلَمَ} garde la fatha."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-8#2",
+      "type": "tip",
+      "title": "Quand la kasra revient",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme tout nom sans tanwin, le comparatif retrouve la **kasra** quand il est premier terme d'une annexion (le superlatif) ou quand il a l'article."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "بِأَعْلَمَ مِنْ مُحَمَّدٍ", "fr": "plus savant que Muḥammad (comparatif, seul)" },
+              "to": { "ar": "بِأَعْلَمِ طَالِبٍ", "fr": "le plus savant des étudiants (premier terme d'une annexion)" },
+              "label": "fatha → kasra"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "On n'écrit jamais de tanwin sur ces noms : c'est pourquoi on écrit {ar|أَكْبَرُ}, et non {ar|أَكْبَرٌ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-8#3",
+      "type": "question",
+      "prompt": {
+        "fr": "Quelle voyelle porte la dernière lettre de {ar|أَعْلَمَ} dans {ar|لَيْسَ زَيْدٌ بِأَعْلَمَ مِنْ مُحَمَّدٍ} ?"
+      },
+      "choices": [ { "fr": "une fatha" }, { "fr": "une kasra" }, { "fr": "une damma" } ],
+      "answer": 0,
+      "explain": "Seul, sans article et sans être premier terme d'une annexion, un nom sans tanwin prend la fatha au génitif."
+    },
+    {
+      "id": "medine-t2.l03.grammar-8#4",
+      "type": "question",
+      "prompt": {
+        "fr": "Quelle voyelle porte la dernière lettre de {ar|أَعْلَمِ} dans {ar|لَيْسَ زَيْدٌ بِأَعْلَمِ طَالِبٍ} ?"
+      },
+      "choices": [ { "fr": "une fatha" }, { "fr": "une kasra" }, { "fr": "une damma" } ],
+      "answer": 1,
+      "explain": "Ici {ar|أَعْلَمِ} est le premier terme d'une annexion ({ar|أَعْلَمِ طَالِبٍ}) : il retrouve la kasra."
+    },
+    {
+      "id": "medine-t2.l03.grammar-8#5",
+      "type": "true_false",
+      "statement": { "fr": "Au génitif, le comparatif prend toujours la fatha." },
+      "answer": false,
+      "explain": "Faux : il prend la fatha seul ({ar|بِأَعْلَمَ مِنْ مُحَمَّدٍ}), mais il retrouve la kasra comme premier terme d'une annexion ({ar|بِأَعْلَمِ طَالِبٍ})."
+    },
+    {
+      "id": "medine-t2.l03.grammar-8#6",
+      "type": "sort",
+      "categories": [ { "fr": "nom ordinaire : kasra et tanwin" }, { "fr": "nom sans tanwin : fatha" } ],
+      "cards": [
+        { "ar": "مِنْ بَيْتٍ", "category": 0 },
+        { "ar": "مِنْ أَكْبَرَ", "category": 1 },
+        { "ar": "مِنْ مُحَمَّدٍ", "category": 0 },
+        { "ar": "مِنْ أَطْوَلَ", "category": 1 },
+        { "ar": "مِنْ زَيْدٍ", "category": 0 },
+        { "ar": "مِنْ أَحْمَدَ", "category": 1 }
+      ],
+      "instruction": "Nom ordinaire ou nom sans tanwin, après {ar|مِنْ} ?",
+      "explain": "{ar|أَكْبَرُ}, {ar|أَطْوَلُ} et {ar|أَحْمَدُ} sont de la forme {ar|أَفْعَلُ} : sans tanwin, fatha. {ar|بَيْتٌ}, {ar|مُحَمَّدٌ} et {ar|زَيْدٌ} sont des noms ordinaires."
+    },
+    {
+      "id": "medine-t2.l03.grammar-8#7",
+      "type": "order",
+      "fr": "Zayd n'est pas plus savant que Muḥammad.",
+      "answers": [
+        ["لَيْسَ", "زَيْدٌ", "بِأَعْلَمَ", "مِنْ", "مُحَمَّدٍ"],
+        ["زَيْدٌ", "لَيْسَ", "بِأَعْلَمَ", "مِنْ", "مُحَمَّدٍ"]
+      ],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l03.grammar-8#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ḥāmid n'est pas plus grand (de taille) que ʿUthmān.",
+      "answers": [
+        "لَيْسَ حَامِدٌ بِأَطْوَلَ مِنْ عُثْمَانَ.",
+        "لَيْسَ حَامِدٌ أَطْوَلَ مِنْ عُثْمَانَ.",
+        "حَامِدٌ لَيْسَ بِأَطْوَلَ مِنْ عُثْمَانَ.",
+        "حَامِدٌ لَيْسَ أَطْوَلَ مِنْ عُثْمَانَ."
+      ]
+    }
+  ]
+}

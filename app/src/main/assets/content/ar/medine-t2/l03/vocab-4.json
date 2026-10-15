@@ -1,0 +1,87 @@
+{
+  "id": "medine-t2.l03.vocab-4",
+  "type": "vocabulary",
+  "title": "Rêve, astres et parties",
+  "icon": "telescope",
+  "screens": [
+    { "id": "medine-t2.l03.vocab-4#1", "type": "present", "item": "w:manam" },
+    { "id": "medine-t2.l03.vocab-4#2", "type": "present", "item": "w:kawkab" },
+    {
+      "id": "medine-t2.l03.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kawkab",
+      "distractors": ["w:najm", "w:qamar"]
+    },
+    { "id": "medine-t2.l03.vocab-4#4", "type": "present", "item": "w:juz" },
+    { "id": "medine-t2.l03.vocab-4#5", "type": "present", "item": "w:raa" },
+    {
+      "id": "medine-t2.l03.vocab-4#6",
+      "type": "tip",
+      "title": "Le verbe {ar|رَأَى} : un aperçu",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme pour {ar|جَاءَ}, tu retiens seulement le passé ; le présent et l'impératif viendront plus tard."
+        },
+        {
+          "type": "table",
+          "header": ["Passé", "Présent", "Impératif"],
+          "rows": [["{ar|رَأَى}", "{ar|يَرَى}", "{ar|رَ}"], ["il a vu", "il voit", "vois !"]]
+        },
+        { "type": "paragraph", "text": "Son nom d'action change selon le sens :" },
+        {
+          "type": "table",
+          "header": ["Sens", "Nom d'action"],
+          "rows": [
+            ["voir avec les yeux", "{ar|رُؤْيَةٌ}"],
+            ["voir (avoir un avis)", "{ar|رَأْيٌ}"],
+            ["voir en rêve", "{ar|رُؤْيَا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "L'exercice du livre rappelle le verset de la sourate Yūsuf (12:4) : {ar|إِنِّي رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا} (« j'ai vu onze astres »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.vocab-4#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:raa",
+      "distractors": ["w:jaa", "w:dhahaba"]
+    },
+    {
+      "id": "medine-t2.l03.vocab-4#8",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:manam", "w:kawkab", "w:juz", "w:khatt"]
+    },
+    {
+      "id": "medine-t2.l03.vocab-4#9",
+      "type": "fill_gap",
+      "sentence": "رَأَيْتُ فِي {0} مَسْجِدًا.",
+      "fr": "J'ai vu une mosquée en rêve.",
+      "gaps": [ { "answers": ["الْمَنَامِ"] } ],
+      "options": ["الْمَنَامِ", "الْكَوْكَبِ", "الْجُزْءِ"],
+      "explain": "{ar|فِي الْمَنَامِ} : « en rêve »."
+    },
+    {
+      "id": "medine-t2.l03.vocab-4#10",
+      "type": "true_false",
+      "statement": { "fr": "Le Coran est divisé en trente parties ({ar|أَجْزَاءٌ})." },
+      "answer": true,
+      "explain": "Oui : {ar|فِي الْقُرْآنِ ثَلَاثُونَ جُزْءًا}."
+    },
+    { "id": "medine-t2.l03.vocab-4#11", "type": "typing", "ask": "fr", "item": "w:manam" },
+    {
+      "id": "medine-t2.l03.vocab-4#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a des astres dans le ciel.",
+      "answers": ["فِي السَّمَاءِ كَوَاكِبُ."]
+    }
+  ]
+}

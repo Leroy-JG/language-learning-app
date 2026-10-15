@@ -1,0 +1,91 @@
+{
+  "id": "medine-t2.l03.vocab-3",
+  "type": "vocabulary",
+  "title": "Hier, l'écriture et l'âge",
+  "icon": "pen",
+  "screens": [
+    { "id": "medine-t2.l03.vocab-3#1", "type": "present", "item": "w:amsi" },
+    { "id": "medine-t2.l03.vocab-3#2", "type": "present", "item": "w:khatt" },
+    {
+      "id": "medine-t2.l03.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:khatt",
+      "distractors": ["w:daftar", "w:qalam"]
+    },
+    { "id": "medine-t2.l03.vocab-3#4", "type": "present", "item": "w:sinn" },
+    {
+      "id": "medine-t2.l03.vocab-3#5",
+      "type": "tip",
+      "title": "Jeune ou âgé ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour parler de l'âge de quelqu'un, on met {ar|السِّنُّ} (« l'âge ») après un adjectif :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "صَغِيرٌ", "fr": "petit" },
+              "to": { "ar": "صَغِيرُ السِّنِّ", "fr": "jeune (« petit d'âge »)" },
+              "label": "le second mot, {ar|السِّنِّ}, est au génitif"
+            },
+            {
+              "from": { "ar": "كَبِيرٌ", "fr": "grand" },
+              "to": { "ar": "كَبِيرُ السِّنِّ", "fr": "âgé (« grand d'âge »)" },
+              "label": "le second mot, {ar|السِّنِّ}, est au génitif"
+            }
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t2.l03.vocab-3#6", "type": "present", "item": "w:jaa" },
+    {
+      "id": "medine-t2.l03.vocab-3#7",
+      "type": "tip",
+      "title": "Le verbe {ar|جَاءَ} : un aperçu",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le tableau du professeur donne les quatre formes du verbe. Aujourd'hui, tu retiens seulement le passé ; le présent et l'impératif viendront plus tard."
+        },
+        {
+          "type": "table",
+          "header": ["Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["{ar|جَاءَ}", "{ar|يَجِيءُ}", "{ar|جِئْ}", "{ar|جِيئَةٌ}"],
+            ["il est venu", "il vient", "viens !", "le fait de venir"]
+          ]
+        },
+        { "type": "note", "text": "Les dictionnaires donnent aussi {ar|مَجِيءٌ} comme nom d'action de ce verbe." }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.vocab-3#8",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:jaa",
+      "distractors": ["w:dhahaba", "w:kharaja"]
+    },
+    {
+      "id": "medine-t2.l03.vocab-3#9",
+      "type": "fill_gap",
+      "sentence": "ذَهَبْتُ إِلَى الْمَدْرَسَةِ {0}.",
+      "fr": "Je suis allé à l'école hier.",
+      "gaps": [ { "answers": ["أَمْسِ"] } ],
+      "options": ["أَمْسِ", "الْيَوْمَ", "أَيْضًا"],
+      "explain": "{ar|أَمْسِ} : « hier ». {ar|الْيَوْمَ} : « aujourd'hui »."
+    },
+    {
+      "id": "medine-t2.l03.vocab-3#10",
+      "type": "order",
+      "fr": "L'étudiant est venu hier.",
+      "answers": [["جَاءَ", "الطَّالِبُ", "أَمْسِ"], ["الطَّالِبُ", "جَاءَ", "أَمْسِ"]],
+      "punctuation": ".",
+      "explain": "Le verbe peut précéder son sujet ({ar|جَاءَ الطَّالِبُ}) ou le suivre ({ar|الطَّالِبُ جَاءَ})."
+    },
+    { "id": "medine-t2.l03.vocab-3#11", "type": "build", "item": "w:jaa", "extra": ["ب"] },
+    { "id": "medine-t2.l03.vocab-3#12", "type": "typing", "ask": "fr", "item": "w:amsi" }
+  ]
+}

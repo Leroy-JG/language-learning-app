@@ -1,0 +1,82 @@
+{
+  "id": "medine-t2.l03.vocab-7",
+  "type": "vocabulary",
+  "title": "Plus loin, plus propre, plus spacieux, moins cher",
+  "icon": "road",
+  "screens": [
+    { "id": "medine-t2.l03.vocab-7#1", "type": "present", "item": "w:abad" },
+    { "id": "medine-t2.l03.vocab-7#2", "type": "present", "item": "w:an" },
+    {
+      "id": "medine-t2.l03.vocab-7#3",
+      "type": "tip",
+      "title": "{ar|بَعِيدٌ عَنْ} : « loin de »",
+      "blocks": [
+        { "type": "example", "ar": "بَيْتِي بَعِيدٌ عَنِ الْمَدْرَسَةِ.", "fr": "Ma maison est loin de l'école." },
+        {
+          "type": "paragraph",
+          "text": "Le comparatif garde la préposition : {ar|أَبْعَدُ عَنْ} (« plus loin de »)."
+        },
+        {
+          "type": "example",
+          "ar": "بَيْتِي أَبْعَدُ عَنِ الْمَدْرَسَةِ مِنْ بَيْتِكَ.",
+          "fr": "Ma maison est plus loin de l'école que la tienne."
+        }
+      ]
+    },
+    { "id": "medine-t2.l03.vocab-7#4", "type": "present", "item": "w:nazif" },
+    { "id": "medine-t2.l03.vocab-7#5", "type": "present", "item": "w:anzaf" },
+    { "id": "medine-t2.l03.vocab-7#6", "type": "present", "item": "w:awsa" },
+    { "id": "medine-t2.l03.vocab-7#7", "type": "present", "item": "w:arkhas" },
+    {
+      "id": "medine-t2.l03.vocab-7#8",
+      "type": "tip",
+      "title": "Du mot de base au comparatif",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "بَعِيدٌ", "fr": "éloigné" }, "to": { "ar": "أَبْعَدُ", "fr": "plus loin" } },
+            { "from": { "ar": "نَظِيفٌ", "fr": "propre" }, "to": { "ar": "أَنْظَفُ", "fr": "plus propre" } },
+            {
+              "from": { "ar": "وَاسِعٌ", "fr": "spacieux" },
+              "to": { "ar": "أَوْسَعُ", "fr": "plus spacieux" },
+              "label": "le {ar|ا} de {ar|وَاسِعٌ} disparaît"
+            },
+            { "from": { "ar": "رَخِيصٌ", "fr": "bon marché" }, "to": { "ar": "أَرْخَصُ", "fr": "moins cher" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.vocab-7#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:abad", "w:anzaf", "w:awsa", "w:arkhas"]
+    },
+    {
+      "id": "medine-t2.l03.vocab-7#10",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:arkhas",
+      "distractors": ["w:anzaf", "w:awsa"]
+    },
+    {
+      "id": "medine-t2.l03.vocab-7#11",
+      "type": "fill_gap",
+      "sentence": "بَيْتِي {0} عَنِ الْمَدْرَسَةِ مِنْ بَيْتِكَ.",
+      "fr": "Ma maison est plus loin de l'école que la tienne.",
+      "gaps": [ { "answers": ["أَبْعَدُ"] } ],
+      "options": ["أَبْعَدُ", "بَعِيدٌ", "أَوْسَعُ"],
+      "explain": "Avec {ar|مِنْ} (« que »), on emploie le comparatif : {ar|أَبْعَدُ}."
+    },
+    {
+      "id": "medine-t2.l03.vocab-7#12",
+      "type": "order",
+      "fr": "Cette salle de classe est plus spacieuse que celle-là.",
+      "answers": [["هٰذَا", "الْفَصْلُ", "أَوْسَعُ", "مِنْ", "ذٰلِكَ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t2.l03.vocab-7#13", "type": "typing", "ask": "fr", "item": "w:awsa" },
+    { "id": "medine-t2.l03.vocab-7#14", "type": "typing", "ask": "fr", "item": "w:anzaf" }
+  ]
+}

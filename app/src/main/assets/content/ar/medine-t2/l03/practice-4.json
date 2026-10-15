@@ -1,0 +1,154 @@
+{
+  "id": "medine-t2.l03.practice-4",
+  "type": "grammar",
+  "title": "Le plus… : transformer les phrases",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l03.practice-4#1",
+      "type": "tip",
+      "title": "L'exercice 5 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne trois modèles : on transforme une phrase avec un adjectif en une phrase avec le **superlatif**."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase de départ", "Phrase transformée"],
+          "rows": [
+            [
+              "{ar|مُحَمَّدٌ طَالِبٌ حَسَنٌ}",
+              "{ar|مُحَمَّدٌ أَحْسَنُ طَالِبٍ فِي الْفَصْلِ} (Muḥammad est le meilleur étudiant de la classe)"
+            ],
+            [
+              "{ar|هٰذَا بَيْتٌ جَمِيلٌ}",
+              "{ar|هٰذَا أَجْمَلُ بَيْتٍ فِي الشَّارِعِ} (C'est la plus belle maison de la rue)"
+            ],
+            [
+              "{ar|آمِنَةُ طَالِبَةٌ صَغِيرَةٌ}",
+              "{ar|آمِنَةُ أَصْغَرُ طَالِبَةٍ فِي الْمَدْرَسَةِ} (Āmina est la plus petite étudiante de l'école)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "La phrase 7 du livre n'est pas reprise : elle présente al-Azhar comme la plus ancienne université du monde, ce qui ne peut pas s'affirmer sans nuance."
+        }
+      ]
+    },
+    { "id": "medine-t2.l03.practice-4#2", "type": "present", "item": "w:jar" },
+    {
+      "id": "medine-t2.l03.practice-4#3",
+      "type": "tip",
+      "title": "Le superlatif : ce qui change",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "هٰذَا مَسْجِدٌ كَبِيرٌ", "fr": "C'est une grande mosquée." },
+              "to": { "ar": "هٰذَا أَكْبَرُ مَسْجِدٍ", "fr": "C'est la plus grande mosquée." },
+              "label": "adjectif → comparatif ; le nom suit, au génitif"
+            },
+            {
+              "from": { "ar": "هٰذِهِ سَيَّارَةٌ جَمِيلَةٌ", "fr": "C'est une belle voiture." },
+              "to": { "ar": "هٰذِهِ أَجْمَلُ سَيَّارَةٍ", "fr": "C'est la plus belle voiture." },
+              "label": "le comparatif reste masculin, même avec un nom féminin"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour les phrases de l'exercice, tu as aussi besoin de trois comparatifs nouveaux :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "فَقِيرٌ", "fr": "pauvre" }, "to": { "ar": "أَفْقَرُ", "fr": "plus pauvre" } },
+            { "from": { "ar": "شَهِيرٌ", "fr": "célèbre" }, "to": { "ar": "أَشْهَرُ", "fr": "plus célèbre" } },
+            { "from": { "ar": "صَعْبٌ", "fr": "difficile" }, "to": { "ar": "أَصْعَبُ", "fr": "plus difficile" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.practice-4#4",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ {0} غُرْفَةٍ فِي بَيْتِنَا.",
+      "fr": "C'est la plus petite chambre de notre maison.",
+      "gaps": [ { "answers": ["أَصْغَرُ"] } ],
+      "options": ["أَصْغَرُ", "صَغِيرَةٌ", "أَكْبَرُ"],
+      "explain": "Le superlatif : {ar|أَصْغَرُ} + un nom indéfini au génitif ({ar|غُرْفَةٍ})."
+    },
+    {
+      "id": "medine-t2.l03.practice-4#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "يَاسِرٌ رَجُلٌ فَقِيرٌ فِي قَرْيَتِنَا.",
+      "answers": ["يَاسِرٌ أَفْقَرُ رَجُلٍ فِي قَرْيَتِنَا."],
+      "fr": "Yāsir est l'homme le plus pauvre de notre village.",
+      "instruction": "Mets la phrase au superlatif.",
+      "explain": "{ar|فَقِيرٌ} devient {ar|أَفْقَرُ} ; le nom {ar|رَجُلٍ} passe au génitif."
+    },
+    {
+      "id": "medine-t2.l03.practice-4#6",
+      "type": "order",
+      "fr": "C'est la leçon la plus facile du livre.",
+      "answers": [["هٰذَا", "أَسْهَلُ", "دَرْسٍ", "فِي", "الْكِتَابِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l03.practice-4#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "هٰذَا فَصْلٌ وَاسِعٌ فِي الْكُلِّيَّةِ.",
+      "answers": ["هٰذَا أَوْسَعُ فَصْلٍ فِي الْكُلِّيَّةِ."],
+      "fr": "C'est la salle de classe la plus spacieuse de la faculté.",
+      "instruction": "Mets la phrase au superlatif."
+    },
+    {
+      "id": "medine-t2.l03.practice-4#8",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ {0} سَاعَةٍ فِي السُّوقِ.",
+      "fr": "C'est la montre la moins chère du marché.",
+      "gaps": [ { "answers": ["أَرْخَصُ"] } ],
+      "options": ["أَرْخَصُ", "رَخِيصَةٌ", "أَجْمَلُ"],
+      "explain": "{ar|أَرْخَصُ سَاعَةٍ} : « la montre la moins chère »."
+    },
+    {
+      "id": "medine-t2.l03.practice-4#9",
+      "type": "order",
+      "fr": "C'est la leçon la plus difficile du livre.",
+      "answers": [["ذٰلِكَ", "أَصْعَبُ", "دَرْسٍ", "فِي", "الْكِتَابِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l03.practice-4#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "بِلَالٌ جَارٌ حَسَنٌ فِي حَيِّنَا.",
+      "answers": ["بِلَالٌ أَحْسَنُ جَارٍ فِي حَيِّنَا."],
+      "fr": "Bilāl est le meilleur voisin de notre quartier.",
+      "instruction": "Mets la phrase au superlatif."
+    },
+    {
+      "id": "medine-t2.l03.practice-4#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "الدُّكْتُورُ زَكَرِيَّا طَبِيبٌ شَهِيرٌ فِي بَلَدِنَا.",
+      "answers": ["الدُّكْتُورُ زَكَرِيَّا أَشْهَرُ طَبِيبٍ فِي بَلَدِنَا."],
+      "fr": "Le docteur Zakariyyā est le médecin le plus célèbre de notre pays.",
+      "instruction": "Mets la phrase au superlatif."
+    },
+    {
+      "id": "medine-t2.l03.practice-4#12",
+      "type": "typing",
+      "ask": "question",
+      "question": "الْأُسْتَاذُ نُعْمَانُ مُدَرِّسٌ حَسَنٌ فِي الْمَدْرَسَةِ.",
+      "answers": ["الْأُسْتَاذُ نُعْمَانُ أَحْسَنُ مُدَرِّسٍ فِي الْمَدْرَسَةِ."],
+      "fr": "Le professeur Nuʿmān est le meilleur enseignant de l'école.",
+      "instruction": "Mets la phrase au superlatif."
+    }
+  ]
+}

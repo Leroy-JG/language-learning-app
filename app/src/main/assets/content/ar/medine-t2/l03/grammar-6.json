@@ -1,0 +1,180 @@
+{
+  "id": "medine-t2.l03.grammar-6",
+  "type": "grammar",
+  "title": "Comparer : plus… que…",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l03.grammar-6#1",
+      "type": "tip",
+      "title": "Plus… que… : {ar|أَفْعَلُ مِنْ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour comparer, on met d'abord la personne ou la chose comparée, puis le comparatif, puis {ar|مِنْ} (« que ») et le second terme, qui est au **génitif** :"
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            ["{ar|زَيْدٌ أَعْلَمُ مِنْ يَاسِرٍ}", "Zayd est plus savant que Yāsir."],
+            ["{ar|فَاطِمَةُ أَعْلَمُ مِنْ زَيْنَبَ}", "Fāṭima est plus savante que Zaynab."]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans ces phrases, {ar|مِنْ} veut dire « que », et non « de ». Le second terme prend la kasra avec tanwin ({ar|يَاسِرٍ}) ou, s'il est sans tanwin, la fatha ({ar|زَيْنَبَ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-6#2",
+      "type": "tip",
+      "title": "Un comparatif qui ne change pas",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "زَيْدٌ أَعْلَمُ مِنْ يَاسِرٍ", "fr": "Zayd est plus savant que Yāsir." },
+              "to": { "ar": "فَاطِمَةُ أَعْلَمُ مِنْ زَيْنَبَ", "fr": "Fāṭima est plus savante que Zaynab." },
+              "label": "même forme {ar|أَعْلَمُ} pour le masculin et le féminin"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Suivi de {ar|مِنْ}, le comparatif **ne change jamais** : même forme pour un sujet masculin ou féminin, singulier ou pluriel."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-6#3",
+      "type": "tip",
+      "title": "Avec un pronom après {ar|مِنْ}",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pronom", "Après {ar|مِنْ}", "Exemple"],
+          "rows": [
+            ["moi", "{ar|مِنِّي}", "{ar|أَنْتَ أَعْلَمُ مِنِّي} (tu es plus savant que moi)"],
+            ["toi", "{ar|مِنْكَ}", "{ar|أَنَا أَصْغَرُ مِنْكَ} (je suis plus petit que toi)"],
+            ["lui", "{ar|مِنْهُ}", "{ar|حَامِدٌ أَطْوَلُ مِنْهُ} (Ḥāmid est plus grand que lui)"],
+            ["elle", "{ar|مِنْهَا}", "{ar|زَيْنَبُ أَصْغَرُ مِنْهَا} (Zaynab est plus petite qu'elle)"],
+            ["nous", "{ar|مِنَّا}", "{ar|هُوَ أَطْوَلُ مِنَّا} (il est plus grand que nous)"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|مِنْ} + {ar|نِي} (« moi ») donne {ar|مِنِّي} : les deux {ar|ن} se rejoignent en une lettre doublée. De même {ar|مِنْ} + {ar|نَا} (« nous ») donne {ar|مِنَّا}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-6#4",
+      "type": "tip",
+      "title": "En quoi compare-t-on ? La précision",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour dire **en quoi** on compare, on ajoute la précision ({ar|التَّمْيِيزُ}) : un nom indéfini, au singulier, à l'accusatif."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            ["{ar|حَمْزَةُ أَكْبَرُ مِنِّي سِنًّا}", "Ḥamza est plus âgé que moi (« plus grand que moi en âge »)."],
+            [
+              "{ar|النِّسَاءُ أَكْثَرُ مِنَ الرِّجَالِ عَدَدًا}",
+              "Les femmes sont plus nombreuses que les hommes (« en nombre »). C'est l'exemple du professeur."
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Quand le second terme est évident, on peut l'omettre avec {ar|مِنْ} : {ar|خَطِّي جَمِيلٌ، وَخَطُّكَ أَجْمَلُ} (« mon écriture est belle, et la tienne est plus belle »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-6#5",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|فَاطِمَةُ أَعْلَمُ مِنْ زَيْنَبَ}, pourquoi {ar|أَعْلَمُ} reste-t-il à la forme masculine ?"
+      },
+      "choices": [
+        { "fr": "Suivi de {ar|مِنْ}, le comparatif ne change pas de forme." },
+        { "fr": "Parce que {ar|زَيْنَبَ} est un nom masculin." },
+        { "fr": "C'est une faute : il devrait être au féminin." }
+      ],
+      "answer": 0,
+      "explain": "Suivi de {ar|مِنْ}, le comparatif est invariable : même forme pour le masculin et le féminin."
+    },
+    {
+      "id": "medine-t2.l03.grammar-6#6",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ السَّيَّارَةُ {0} مِنْ تِلْكَ.",
+      "fr": "Cette voiture est plus belle que celle-là.",
+      "gaps": [ { "answers": ["أَجْمَلُ"] } ],
+      "options": ["أَجْمَلُ", "جَمِيلَةٌ", "أَكْبَرُ"],
+      "explain": "Pour comparer, on emploie le comparatif {ar|أَجْمَلُ}, même avec {ar|السَّيَّارَةُ}, féminin."
+    },
+    {
+      "id": "medine-t2.l03.grammar-6#7",
+      "type": "order",
+      "fr": "Zayd est plus savant que Yāsir.",
+      "answers": [["زَيْدٌ", "أَعْلَمُ", "مِنْ", "يَاسِرٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l03.grammar-6#8",
+      "type": "spot",
+      "instruction": "Touche le mot qui veut dire « que ».",
+      "words": ["فَاطِمَةُ", "أَعْلَمُ", "مِنْ", "زَيْنَبَ."],
+      "answers": [2],
+      "fr": "Fāṭima est plus savante que Zaynab.",
+      "explain": "{ar|مِنْ} introduit le second terme de la comparaison : « que »."
+    },
+    {
+      "id": "medine-t2.l03.grammar-6#9",
+      "type": "spot",
+      "instruction": "Touche le second terme de la comparaison.",
+      "words": ["فَاطِمَةُ", "أَعْلَمُ", "مِنْ", "زَيْنَبَ."],
+      "answers": [3],
+      "fr": "Fāṭima est plus savante que Zaynab.",
+      "explain": "On compare Fāṭima à {ar|زَيْنَبَ}, le mot qui suit {ar|مِنْ}."
+    },
+    {
+      "id": "medine-t2.l03.grammar-6#10",
+      "type": "fill_gap",
+      "sentence": "أَنْتَ أَعْلَمُ {0}.",
+      "fr": "Tu es plus savant que moi.",
+      "gaps": [ { "answers": ["مِنِّي"] } ],
+      "options": ["مِنِّي", "مِنْكَ", "مِنْهُ"],
+      "explain": "« Que moi » : {ar|مِنِّي}."
+    },
+    {
+      "id": "medine-t2.l03.grammar-6#11",
+      "type": "fill_gap",
+      "sentence": "آمِنَةُ صَغِيرَةٌ، وَزَيْنَبُ أَصْغَرُ {0}.",
+      "fr": "Āmina est petite, et Zaynab est plus petite qu'elle.",
+      "gaps": [ { "answers": ["مِنْهَا"] } ],
+      "options": ["مِنْهَا", "مِنْهُ", "مِنْكَ"],
+      "explain": "« Qu'elle » (Āmina) : {ar|مِنْهَا}."
+    },
+    {
+      "id": "medine-t2.l03.grammar-6#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Hāshim est plus grand (de taille) que ʿUthmān.",
+      "answers": ["هَاشِمٌ أَطْوَلُ مِنْ عُثْمَانَ."]
+    },
+    {
+      "id": "medine-t2.l03.grammar-6#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis plus petit que toi.",
+      "answers": ["أَنَا أَصْغَرُ مِنْكَ."]
+    }
+  ]
+}

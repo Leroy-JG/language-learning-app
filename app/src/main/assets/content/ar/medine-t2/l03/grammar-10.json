@@ -1,0 +1,105 @@
+{
+  "id": "medine-t2.l03.grammar-10",
+  "type": "grammar",
+  "title": "Comme si : {ar|كَأَنَّ}",
+  "icon": "puzzle",
+  "screens": [
+    { "id": "medine-t2.l03.grammar-10#1", "type": "present", "item": "w:kaanna" },
+    {
+      "id": "medine-t2.l03.grammar-10#2",
+      "type": "tip",
+      "title": "{ar|كَأَنَّ} compare",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|كَأَنَّ} (« comme si ») compare une chose à une autre. Comme {ar|إِنَّ} et {ar|لَكِنَّ}, elle met son nom à l'**accusatif** et laisse son prédicat au **nominatif**."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            ["{ar|كَأَنَّهُ أَخُوكَ}", "On dirait ton frère (« comme s'il était ton frère »)."],
+            ["{ar|زَيْدٌ جَمِيلٌ كَأَنَّهُ الْقَمَرُ}", "Zayd est beau, comme s'il était la lune."]
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "كَأَنَّهُ",
+          "fr": "comme s'il",
+          "parts": [ { "ar": "كَ", "fr": "comme" }, { "ar": "أَنَّ", "fr": "que" }, { "ar": "هُ", "fr": "il" } ]
+        },
+        {
+          "type": "note",
+          "text": "Dans {ar|كَأَنَّهُ أَخُوكَ}, le pronom {ar|هُ} est le nom de {ar|كَأَنَّ} (accusatif) et {ar|أَخُوكَ} (« ton frère ») est son prédicat, au nominatif : le {ar|و} remplace la damma."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.grammar-10#3",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|كَأَنَّهُ أَخُوكَ} ?" },
+      "choices": [
+        { "fr": "Comme s'il était ton frère." },
+        { "fr": "Peut-être est-il ton frère." },
+        { "fr": "Mais il est ton frère." }
+      ],
+      "answer": 0,
+      "explain": "{ar|كَأَنَّ} : « comme si ». {ar|لَعَلَّ} : « peut-être ». {ar|لَكِنَّ} : « mais »."
+    },
+    {
+      "id": "medine-t2.l03.grammar-10#4",
+      "type": "sort",
+      "categories": [ { "fr": "comme si ({ar|كَأَنَّ})" }, { "fr": "mais ({ar|لَكِنَّ})" }, { "fr": "peut-être ({ar|لَعَلَّ})" } ],
+      "cards": [
+        { "ar": "كَأَنَّهُ أَخُوكَ", "category": 0 },
+        { "ar": "لَكِنَّهُ بَخِيلٌ", "category": 1 },
+        { "ar": "لَعَلَّكَ بِخَيْرٍ", "category": 2 },
+        { "ar": "كَأَنَّهُ الْقَمَرُ", "category": 0 },
+        { "ar": "لَكِنَّنِي عَطْشَانُ", "category": 1 },
+        { "ar": "لَعَلَّهُ جَالِسٌ", "category": 2 }
+      ],
+      "instruction": "Range chaque phrase selon sa première particule.",
+      "explain": "Ces trois particules sont des sœurs de {ar|إِنَّ} : même effet sur les cas, sens différents."
+    },
+    {
+      "id": "medine-t2.l03.grammar-10#5",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ جَمِيلٌ {0} الْقَمَرُ.",
+      "fr": "Zayd est beau, comme s'il était la lune.",
+      "gaps": [ { "answers": ["كَأَنَّهُ"] } ],
+      "options": ["كَأَنَّهُ", "لَكِنَّهُ", "لَعَلَّهُ"],
+      "explain": "Pour comparer : {ar|كَأَنَّ}."
+    },
+    {
+      "id": "medine-t2.l03.grammar-10#6",
+      "type": "order",
+      "fr": "On dirait ton frère.",
+      "answers": [["كَأَنَّهُ", "أَخُوكَ"]],
+      "punctuation": ".",
+      "distractors": ["لَكِنَّهُ"]
+    },
+    {
+      "id": "medine-t2.l03.grammar-10#7",
+      "type": "spot",
+      "instruction": "Touche le prédicat de {ar|كَأَنَّ}.",
+      "words": ["زَيْدٌ", "جَمِيلٌ", "كَأَنَّهُ", "الْقَمَرُ."],
+      "answers": [3],
+      "fr": "Zayd est beau, comme s'il était la lune.",
+      "explain": "Le prédicat de {ar|كَأَنَّ} est {ar|الْقَمَرُ}, au nominatif. Le nom de {ar|كَأَنَّ} est le pronom {ar|هُ}."
+    },
+    {
+      "id": "medine-t2.l03.grammar-10#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Comme s'il était ton frère.",
+      "answers": ["كَأَنَّهُ أَخُوكَ."]
+    },
+    {
+      "id": "medine-t2.l03.grammar-10#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd est beau, comme s'il était la lune.",
+      "answers": ["زَيْدٌ جَمِيلٌ كَأَنَّهُ الْقَمَرُ."]
+    }
+  ]
+}

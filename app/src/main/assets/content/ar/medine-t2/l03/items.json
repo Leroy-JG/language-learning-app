@@ -1,0 +1,454 @@
+[
+  {
+    "id": "w:n-11",
+    "kind": "word",
+    "ar": "أَحَدَ عَشَرَ، إِحْدَى عَشْرَةَ",
+    "fr": "onze",
+    "translit": "aḥada ʿashara، iḥdā ʿashrata",
+    "note": "Avec un nom masculin : {ar|أَحَدَ عَشَرَ}. Avec un nom féminin : {ar|إِحْدَى عَشْرَةَ}. Le premier morceau est « un » ({ar|أَحَدَ} au masculin, {ar|إِحْدَى} au féminin) : il s'accorde avec le nom compté, c'est une exception.",
+    "example": { "ar": "لِي أَحَدَ عَشَرَ كِتَابًا.", "fr": "J'ai onze livres." }
+  },
+  {
+    "id": "w:n-12",
+    "kind": "word",
+    "ar": "اِثْنَا عَشَرَ، اِثْنَتَا عَشْرَةَ",
+    "fr": "douze",
+    "translit": "ithnā ʿashara، ithnatā ʿashrata",
+    "note": "Avec un nom masculin : {ar|اِثْنَا عَشَرَ}. Avec un nom féminin : {ar|اِثْنَتَا عَشْرَةَ}. Ce sont les formes du nominatif ; le premier morceau change de forme selon le cas (tu verras comment dans une leçon de grammaire).",
+    "example": { "ar": "لِي اثْنَا عَشَرَ كِتَابًا.", "fr": "J'ai douze livres." }
+  },
+  {
+    "id": "w:n-13",
+    "kind": "word",
+    "ar": "ثَلَاثَةَ عَشَرَ، ثَلَاثَ عَشْرَةَ",
+    "fr": "treize",
+    "translit": "thalāthata ʿashara، thalātha ʿashrata",
+    "note": "Avec un nom masculin : {ar|ثَلَاثَةَ عَشَرَ}. Avec un nom féminin : {ar|ثَلَاثَ عَشْرَةَ}. Le premier morceau (« trois ») est de genre contraire au nom compté, le second (« dix ») est du même genre.",
+    "example": { "ar": "لِي ثَلَاثَةَ عَشَرَ كِتَابًا.", "fr": "J'ai treize livres." }
+  },
+  {
+    "id": "w:n-14",
+    "kind": "word",
+    "ar": "أَرْبَعَةَ عَشَرَ، أَرْبَعَ عَشْرَةَ",
+    "fr": "quatorze",
+    "translit": "arbaʿata ʿashara، arbaʿa ʿashrata",
+    "note": "Avec un nom masculin : {ar|أَرْبَعَةَ عَشَرَ}. Avec un nom féminin : {ar|أَرْبَعَ عَشْرَةَ}.",
+    "example": { "ar": "فِي فَصْلِنَا أَرْبَعَةَ عَشَرَ طَالِبًا.", "fr": "Il y a quatorze étudiants dans notre classe." }
+  },
+  {
+    "id": "w:n-15",
+    "kind": "word",
+    "ar": "خَمْسَةَ عَشَرَ، خَمْسَ عَشْرَةَ",
+    "fr": "quinze",
+    "translit": "khamsata ʿashara، khamsa ʿashrata",
+    "note": "Avec un nom masculin : {ar|خَمْسَةَ عَشَرَ}. Avec un nom féminin : {ar|خَمْسَ عَشْرَةَ}.",
+    "example": { "ar": "عِنْدِي خَمْسَةَ عَشَرَ كِتَابًا.", "fr": "J'ai quinze livres." }
+  },
+  {
+    "id": "w:n-16",
+    "kind": "word",
+    "ar": "سِتَّةَ عَشَرَ، سِتَّ عَشْرَةَ",
+    "fr": "seize",
+    "translit": "sittata ʿashara، sitta ʿashrata",
+    "note": "Avec un nom masculin : {ar|سِتَّةَ عَشَرَ}. Avec un nom féminin : {ar|سِتَّ عَشْرَةَ}.",
+    "example": { "ar": "فِي الْفَصْلِ سِتَّ عَشْرَةَ طَالِبَةً.", "fr": "Il y a seize étudiantes dans la classe." }
+  },
+  {
+    "id": "w:n-17",
+    "kind": "word",
+    "ar": "سَبْعَةَ عَشَرَ، سَبْعَ عَشْرَةَ",
+    "fr": "dix-sept",
+    "translit": "sabʿata ʿashara، sabʿa ʿashrata",
+    "note": "Avec un nom masculin : {ar|سَبْعَةَ عَشَرَ}. Avec un nom féminin : {ar|سَبْعَ عَشْرَةَ}.",
+    "example": {
+      "ar": "ثَمَنُ هٰذَا الْكِتَابِ سَبْعَةَ عَشَرَ رِيَالًا.",
+      "fr": "Le prix de ce livre est de dix-sept riyals."
+    }
+  },
+  {
+    "id": "w:n-18",
+    "kind": "word",
+    "ar": "ثَمَانِيَةَ عَشَرَ، ثَمَانِيَ عَشْرَةَ",
+    "fr": "dix-huit",
+    "translit": "thamāniyata ʿashara، thamāniya ʿashrata",
+    "note": "Avec un nom masculin : {ar|ثَمَانِيَةَ عَشَرَ}. Avec un nom féminin : {ar|ثَمَانِيَ عَشْرَةَ} : le {ar|ي} de {ar|ثَمَانٍ} revient, avec une fatha, devant {ar|عَشْرَةَ}.",
+    "example": {
+      "ar": "فِي هٰذِهِ الْمَدِينَةِ ثَمَانِيَةَ عَشَرَ مَسْجِدًا.",
+      "fr": "Il y a dix-huit mosquées dans cette ville."
+    }
+  },
+  {
+    "id": "w:n-19",
+    "kind": "word",
+    "ar": "تِسْعَةَ عَشَرَ، تِسْعَ عَشْرَةَ",
+    "fr": "dix-neuf",
+    "translit": "tisʿata ʿashara، tisʿa ʿashrata",
+    "note": "Avec un nom masculin : {ar|تِسْعَةَ عَشَرَ}. Avec un nom féminin : {ar|تِسْعَ عَشْرَةَ}.",
+    "example": { "ar": "فِي فَصْلِنَا تِسْعَةَ عَشَرَ طَالِبًا.", "fr": "Il y a dix-neuf étudiants dans notre classe." }
+  },
+  {
+    "id": "w:tamyiz",
+    "kind": "word",
+    "ar": "التَّمْيِيزُ",
+    "fr": "la précision (le nom qui précise ce qu'on compte ou ce en quoi on compare)",
+    "translit": "at-tamyīzu",
+    "gender": "m",
+    "note": "Le mot de la précision est un nom **indéfini, au singulier, à l'accusatif**. {ar|التَّمْيِيزُ} vient du verbe {ar|مَيَّزَ} (« distinguer »). Tu l'as vu après {ar|كَمْ} ({ar|كَمْ كِتَابًا؟}) ; tu le retrouves après les nombres de 11 à 19 et dans la comparaison.",
+    "example": { "ar": "لِي ثَلَاثَةَ عَشَرَ كِتَابًا.", "fr": "J'ai treize livres." }
+  },
+  {
+    "id": "w:ism-tafdil",
+    "kind": "word",
+    "ar": "أَفْعَلُ التَّفْضِيلِ",
+    "fr": "le comparatif et le superlatif (le nom de supériorité, de forme {ar|أَفْعَلُ})",
+    "translit": "ʾafʿalu t-tafḍīli",
+    "gender": "m",
+    "note": "{ar|التَّفْضِيلُ} vient du verbe {ar|فَضَّلَ} (« préférer, mettre au-dessus ») : c'est le nom qui dit qu'une chose est supérieure à une autre. On l'appelle aussi {ar|اِسْمُ التَّفْضِيلِ}."
+  },
+  {
+    "id": "w:amsi",
+    "kind": "word",
+    "ar": "أَمْسِ",
+    "fr": "hier",
+    "translit": "ʾamsi",
+    "note": "Il se termine en général par une kasra, quelle que soit sa place dans la phrase. À ne pas confondre avec {ar|الْيَوْمَ} (« aujourd'hui »).",
+    "example": { "ar": "ذَهَبْتُ إِلَى الْمَدْرَسَةِ أَمْسِ.", "fr": "Je suis allé à l'école hier." }
+  },
+  {
+    "id": "w:khatt",
+    "kind": "word",
+    "ar": "خَطٌّ",
+    "fr": "une écriture (la manière d'écrire), une ligne",
+    "translit": "khaṭṭun",
+    "plural": "خُطُوطٌ",
+    "gender": "m",
+    "note": "Pour parler de l'écriture de quelqu'un : {ar|خَطُّ الْمُدَرِّسِ} (« l'écriture du professeur »). Le mot veut aussi dire « une ligne, un trait ».",
+    "example": { "ar": "خَطُّ الْمُدَرِّسِ جَمِيلٌ.", "fr": "L'écriture du professeur est belle." }
+  },
+  {
+    "id": "w:sinn",
+    "kind": "word",
+    "ar": "سِنٌّ",
+    "fr": "un âge",
+    "translit": "sinnun",
+    "note": "Ce mot veut aussi dire « une dent » (dans ce sens, il est féminin). {ar|صَغِيرُ السِّنِّ} (« petit d'âge ») veut dire « jeune » et {ar|كَبِيرُ السِّنِّ} (« grand d'âge ») « âgé ».",
+    "example": { "ar": "زَيْدٌ صَغِيرُ السِّنِّ.", "fr": "Zayd est jeune." }
+  },
+  {
+    "id": "w:jaa",
+    "kind": "word",
+    "ar": "جَاءَ",
+    "fr": "il est venu (venir, arriver)",
+    "translit": "jāʾa",
+    "note": "Au féminin : {ar|جَاءَتْ} (« elle est venue »). La hamza est à la fin du mot, après le {ar|ا} long.",
+    "example": { "ar": "جَاءَ الطَّالِبُ الْجَدِيدُ أَمْسِ.", "fr": "Le nouvel étudiant est venu hier." }
+  },
+  {
+    "id": "w:juz",
+    "kind": "word",
+    "ar": "جُزْءٌ",
+    "fr": "une partie",
+    "translit": "juzʾun",
+    "plural": "أَجْزَاءٌ",
+    "gender": "m",
+    "note": "Le Coran est divisé en trente parties ({ar|أَجْزَاءٌ}) pour faciliter sa lecture. {ar|ثَلَاثُونَ} (« trente ») est un aperçu : les dizaines viendront plus tard.",
+    "example": { "ar": "فِي الْقُرْآنِ ثَلَاثُونَ جُزْءًا.", "fr": "Le Coran compte trente parties." }
+  },
+  {
+    "id": "w:manam",
+    "kind": "word",
+    "ar": "مَنَامٌ",
+    "fr": "un rêve (fait en dormant), le sommeil",
+    "translit": "manāmun",
+    "plural": "مَنَامَاتٌ",
+    "gender": "m",
+    "note": "Il vient du verbe {ar|نَامَ} (« il a dormi »). {ar|فِي الْمَنَامِ} veut dire « en rêve, pendant le sommeil ».",
+    "example": { "ar": "رَأَيْتُ فِي الْمَنَامِ مَسْجِدًا.", "fr": "J'ai vu une mosquée en rêve." }
+  },
+  {
+    "id": "w:kawkab",
+    "kind": "word",
+    "ar": "كَوْكَبٌ",
+    "fr": "un astre, une planète",
+    "translit": "kawkabun",
+    "plural": "كَوَاكِبُ",
+    "gender": "m",
+    "note": "Le pluriel {ar|كَوَاكِبُ} est un pluriel de forme longue : il n'a pas de tanwin.",
+    "example": { "ar": "فِي السَّمَاءِ كَوَاكِبُ.", "fr": "Il y a des astres dans le ciel." }
+  },
+  {
+    "id": "w:raa",
+    "kind": "word",
+    "ar": "رَأَى",
+    "fr": "il a vu (voir)",
+    "translit": "raʾā",
+    "note": "Le verbe {ar|رَأَى} sert à voir avec les yeux, à penser (avoir un avis) et à voir en rêve. Dans {ar|رَأَيْتُ} (« j'ai vu »), le {ar|ى} final devient {ar|ي} : tu verras cette règle plus tard. Le mot qui suit, {ar|مَسْجِدًا}, est le complément d'objet (à l'accusatif) : aperçu.",
+    "example": { "ar": "رَأَيْتُ فِي الْمَنَامِ مَسْجِدًا.", "fr": "J'ai vu une mosquée en rêve." }
+  },
+  {
+    "id": "w:shaqiq",
+    "kind": "word",
+    "ar": "شَقِيقٌ",
+    "fr": "un frère germain (de même père et de même mère)",
+    "translit": "shaqīqun",
+    "plural": "أَشِقَّاءُ",
+    "gender": "m",
+    "note": "Au féminin : {ar|شَقِيقَةٌ} (une sœur germaine). Le pluriel {ar|أَشِقَّاءُ} n'a pas de tanwin.",
+    "example": { "ar": "أَخُو زَيْدٍ الشَّقِيقُ هُوَ يَاسِرٌ.", "fr": "Le frère germain de Zayd, c'est Yāsir." }
+  },
+  {
+    "id": "w:fariq",
+    "kind": "word",
+    "ar": "فَرِيقٌ",
+    "fr": "une équipe, un groupe",
+    "translit": "farīqun",
+    "plural": "فُرَقَاءُ",
+    "gender": "m",
+    "note": "Il désigne un groupe de personnes ; en sport, c'est une équipe.",
+    "example": { "ar": "هٰذَا فَرِيقٌ جَيِّدٌ.", "fr": "C'est une bonne équipe." }
+  },
+  {
+    "id": "w:laib",
+    "kind": "word",
+    "ar": "لَاعِبٌ",
+    "fr": "un joueur",
+    "translit": "lāʿibun",
+    "plural": "لَاعِبُونَ",
+    "gender": "m",
+    "note": "Il vient du verbe {ar|لَعِبَ} (« il a joué »), comme {ar|لُعْبَةٌ} (un jeu) et {ar|مَلْعَبٌ} (un terrain de jeu).",
+    "example": { "ar": "هٰذَا لَاعِبٌ جَيِّدٌ.", "fr": "C'est un bon joueur." }
+  },
+  {
+    "id": "w:qadam",
+    "kind": "word",
+    "ar": "قَدَمٌ",
+    "fr": "un pied",
+    "translit": "qadamun",
+    "plural": "أَقْدَامٌ",
+    "gender": "f",
+    "note": "Comme la plupart des parties du corps qui vont par paire, il est féminin.",
+    "example": { "ar": "هٰذِهِ قَدَمِي.", "fr": "Voici mon pied." }
+  },
+  {
+    "id": "p:kurat-alqadam",
+    "kind": "phrase",
+    "ar": "كُرَةُ الْقَدَمِ",
+    "fr": "le football",
+    "translit": "kuratu l-qadami",
+    "note": "{ar|كُرَةٌ} (« un ballon ») + {ar|الْقَدَمِ} (« du pied ») : « le ballon du pied ». C'est une annexion."
+  },
+  {
+    "id": "w:kadhalika",
+    "kind": "word",
+    "ar": "كَذٰلِكَ",
+    "fr": "ainsi, de même, comme cela",
+    "translit": "kadhālika",
+    "note": "C'est {ar|كَ} (« comme ») + {ar|ذٰلِكَ} (« cela »). {ar|أَلَيْسَ كَذٰلِكَ؟} veut dire « n'est-ce pas ainsi ? ».",
+    "example": { "ar": "أَنَا طَالِبٌ وَهُوَ كَذٰلِكَ.", "fr": "Je suis étudiant, et lui aussi." }
+  },
+  {
+    "id": "w:lakinna",
+    "kind": "word",
+    "ar": "لَكِنَّ",
+    "fr": "mais (avec une shadda : elle agit comme {ar|إِنَّ})",
+    "translit": "lākinna",
+    "note": "Le nom qui la suit est à l'accusatif et son prédicat au nominatif, comme avec {ar|إِنَّ}. Ne la confonds pas avec {ar|لٰكِنْ} (sans shadda, tome 1, chapitre 21), qui ne change rien à la phrase.",
+    "example": { "ar": "لَسْتُ جَوْعَانَ لَكِنَّنِي عَطْشَانُ.", "fr": "Je n'ai pas faim, mais j'ai soif." }
+  },
+  {
+    "id": "w:kaanna",
+    "kind": "word",
+    "ar": "كَأَنَّ",
+    "fr": "comme si",
+    "translit": "kaʾanna",
+    "note": "Elle agit comme {ar|إِنَّ} : le nom qui la suit est à l'accusatif, son prédicat au nominatif. Elle vient de {ar|كَ} (« comme ») et {ar|أَنَّ} (« que »).",
+    "example": { "ar": "كَأَنَّهُ أَخُوكَ.", "fr": "Comme s'il était ton frère." }
+  },
+  {
+    "id": "w:bala",
+    "kind": "word",
+    "ar": "بَلَى",
+    "fr": "mais si ! (réponse qui contredit une négation)",
+    "translit": "balā",
+    "note": "On l'emploie après une question négative, pour répondre « oui » : {ar|أَلَيْسَ كَذٰلِكَ؟ بَلَى.} (« N'est-ce pas ainsi ? Mais si ! »). Après une question qui n'est pas négative, on dit {ar|نَعَمْ}.",
+    "example": { "ar": "أَلَيْسَ كَذٰلِكَ؟ بَلَى.", "fr": "N'est-ce pas ainsi ? Mais si !" }
+  },
+  {
+    "id": "p:ma-shaa-allah",
+    "kind": "phrase",
+    "ar": "مَا شَاءَ اللَّهُ",
+    "fr": "ce qu'Allah a voulu ! (marque d'admiration)",
+    "translit": "mā shāʾa llāhu",
+    "note": "On la dit pour exprimer son admiration, en rappelant que ce qui arrive est voulu par Allah.",
+    "example": {
+      "ar": "إِنَّ خَطَّكَ جَمِيلٌ جِدًّا. مَا شَاءَ اللَّهُ!",
+      "fr": "Ton écriture est très belle. Ce qu'Allah a voulu !"
+    }
+  },
+  {
+    "id": "w:hasan",
+    "kind": "word",
+    "ar": "حَسَنٌ",
+    "fr": "bon, bien, beau",
+    "translit": "ḥasanun",
+    "note": "Au féminin : {ar|حَسَنَةٌ}. À ne pas confondre avec {ar|حَسَنًا} (« d'accord ! », tome 1, révision 1) : c'est le même mot, à l'accusatif.",
+    "example": { "ar": "هٰذَا طَالِبٌ حَسَنٌ.", "fr": "C'est un bon étudiant." }
+  },
+  {
+    "id": "w:nazif",
+    "kind": "word",
+    "ar": "نَظِيفٌ",
+    "fr": "propre",
+    "translit": "naẓīfun",
+    "note": "Au féminin : {ar|نَظِيفَةٌ}.",
+    "example": { "ar": "هٰذَا الْفُنْدُقُ نَظِيفٌ.", "fr": "Cet hôtel est propre." }
+  },
+  {
+    "id": "w:bakhil",
+    "kind": "word",
+    "ar": "بَخِيلٌ",
+    "fr": "avare",
+    "translit": "bakhīlun",
+    "plural": "بُخَلَاءُ",
+    "note": "Au féminin : {ar|بَخِيلَةٌ}.",
+    "example": { "ar": "يَاسِرٌ غَنِيٌّ لَكِنَّهُ بَخِيلٌ.", "fr": "Yāsir est riche, mais il est avare." }
+  },
+  {
+    "id": "w:jar",
+    "kind": "word",
+    "ar": "جَارٌ",
+    "fr": "un voisin",
+    "translit": "jārun",
+    "plural": "جِيرَانٌ",
+    "gender": "m",
+    "note": "Au féminin : {ar|جَارَةٌ} (une voisine).",
+    "example": { "ar": "جَارِي طَبِيبٌ.", "fr": "Mon voisin est médecin." }
+  },
+  {
+    "id": "w:mahja",
+    "kind": "word",
+    "ar": "مَهْجَعٌ",
+    "fr": "un dortoir",
+    "translit": "mahjaʿun",
+    "plural": "مَهَاجِعُ",
+    "gender": "m",
+    "note": "Il vient du verbe {ar|هَجَعَ} (« dormir la nuit »). Dans une école ou une université, c'est le bâtiment où les étudiants logent et dorment.",
+    "example": { "ar": "مَهْجَعِي بَعِيدٌ عَنِ الْمَدْرَسَةِ.", "fr": "Mon dortoir est loin de l'école." }
+  },
+  {
+    "id": "w:an",
+    "kind": "word",
+    "ar": "عَنْ",
+    "fr": "de, loin de (éloignement)",
+    "translit": "ʿan",
+    "note": "Avec {ar|بَعِيدٌ} : {ar|بَعِيدٌ عَنِ الْمَدْرَسَةِ} (« loin de l'école »). Devant l'article, on ajoute une kasra au {ar|ن} : {ar|عَنِ}. Elle a d'autres sens, que tu verras plus tard (« au sujet de »)."
+  },
+  {
+    "id": "w:atwal",
+    "kind": "word",
+    "ar": "أَطْوَلُ",
+    "fr": "plus grand (de taille), plus long",
+    "translit": "aṭwalu",
+    "note": "Il vient de {ar|طَالَ} (« être long ») : le {ar|و} de {ar|طَوِيلٌ} revient. Comme tous les noms de cette forme, il n'a pas de tanwin.",
+    "example": { "ar": "هُوَ أَطْوَلُ مِنِّي.", "fr": "Il est plus grand que moi." }
+  },
+  {
+    "id": "w:akbar",
+    "kind": "word",
+    "ar": "أَكْبَرُ",
+    "fr": "plus grand, plus gros, plus âgé",
+    "translit": "akbaru",
+    "note": "Pour l'âge, on précise : {ar|أَكْبَرُ مِنِّي سِنًّا} (« plus âgé que moi »). {ar|اللَّهُ أَكْبَرُ} (« Allah est le plus grand ») contient le même mot.",
+    "example": { "ar": "هٰذَا الْبَيْتُ أَكْبَرُ مِنْ ذٰلِكَ.", "fr": "Cette maison est plus grande que celle-là." }
+  },
+  {
+    "id": "w:asghar",
+    "kind": "word",
+    "ar": "أَصْغَرُ",
+    "fr": "plus petit, plus jeune",
+    "translit": "aṣgharu",
+    "note": "Pour l'âge, on précise : {ar|أَصْغَرُ مِنِّي سِنًّا} (« plus jeune que moi »).",
+    "example": { "ar": "أَنَا أَصْغَرُ مِنْكَ.", "fr": "Je suis plus petit que toi." }
+  },
+  {
+    "id": "w:ajmal",
+    "kind": "word",
+    "ar": "أَجْمَلُ",
+    "fr": "plus beau",
+    "translit": "ajmalu",
+    "example": { "ar": "هٰذِهِ السَّيَّارَةُ أَجْمَلُ مِنْ تِلْكَ.", "fr": "Cette voiture est plus belle que celle-là." }
+  },
+  {
+    "id": "w:aalam",
+    "kind": "word",
+    "ar": "أَعْلَمُ",
+    "fr": "plus savant",
+    "translit": "aʿlamu",
+    "note": "Il est de la même famille que {ar|عَالِمٌ} (« un savant »).",
+    "example": { "ar": "زَيْدٌ أَعْلَمُ مِنْ يَاسِرٍ.", "fr": "Zayd est plus savant que Yāsir." }
+  },
+  {
+    "id": "w:akthar",
+    "kind": "word",
+    "ar": "أَكْثَرُ",
+    "fr": "plus nombreux, davantage",
+    "translit": "aktharu",
+    "note": "Il vient de {ar|كَثِيرٌ} (« nombreux »).",
+    "example": { "ar": "الطُّلَّابُ فِي فَصْلِنَا أَكْثَرُ.", "fr": "Les étudiants de notre classe sont plus nombreux." }
+  },
+  {
+    "id": "w:ashal",
+    "kind": "word",
+    "ar": "أَسْهَلُ",
+    "fr": "plus facile",
+    "translit": "ashalu",
+    "example": { "ar": "هٰذَا الدَّرْسُ أَسْهَلُ مِنْ ذَاكَ.", "fr": "Cette leçon est plus facile que celle-là." }
+  },
+  {
+    "id": "w:ahsan",
+    "kind": "word",
+    "ar": "أَحْسَنُ",
+    "fr": "meilleur, mieux",
+    "translit": "aḥsanu",
+    "note": "Il vient de {ar|حَسَنٌ} (« bon »). Selon le sens, il se traduit « meilleur » ou « plus beau ».",
+    "example": { "ar": "خَطِّي أَحْسَنُ مِنْ خَطِّكَ.", "fr": "Mon écriture est meilleure que la tienne." }
+  },
+  {
+    "id": "w:abad",
+    "kind": "word",
+    "ar": "أَبْعَدُ",
+    "fr": "plus loin, plus éloigné",
+    "translit": "abʿadu",
+    "note": "Il vient de {ar|بَعِيدٌ} (« éloigné »).",
+    "example": { "ar": "بَيْتِي أَبْعَدُ مِنْ بَيْتِكَ.", "fr": "Ma maison est plus loin que la tienne." }
+  },
+  {
+    "id": "w:anzaf",
+    "kind": "word",
+    "ar": "أَنْظَفُ",
+    "fr": "plus propre",
+    "translit": "anẓafu",
+    "example": { "ar": "هٰذَا الشَّارِعُ أَنْظَفُ مِنْ ذٰلِكَ.", "fr": "Cette rue est plus propre que celle-là." }
+  },
+  {
+    "id": "w:awsa",
+    "kind": "word",
+    "ar": "أَوْسَعُ",
+    "fr": "plus spacieux, plus large",
+    "translit": "awsaʿu",
+    "note": "Il vient de {ar|وَاسِعٌ} (« spacieux ») : le {ar|ا} de {ar|وَاسِعٌ} disparaît.",
+    "example": {
+      "ar": "هٰذَا الْفَصْلُ أَوْسَعُ مِنْ ذٰلِكَ.",
+      "fr": "Cette salle de classe est plus spacieuse que celle-là."
+    }
+  },
+  {
+    "id": "w:arkhas",
+    "kind": "word",
+    "ar": "أَرْخَصُ",
+    "fr": "moins cher (plus bon marché)",
+    "translit": "arkhaṣu",
+    "note": "Il vient de {ar|رَخِيصٌ} (« bon marché »).",
+    "example": { "ar": "هٰذَا الْكِتَابُ أَرْخَصُ مِنْ ذٰلِكَ.", "fr": "Ce livre est moins cher que celui-là." }
+  }
+]

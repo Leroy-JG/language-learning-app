@@ -1,0 +1,24 @@
+{
+  "id": "medine-t2.l03",
+  "number": 3,
+  "title": { "ar": "الدَّرْسُ الثَّالِثُ", "fr": "Les nombres de 11 à 19 et le comparatif" },
+  "description": "Les nombres de 11 à 19 ; le comparatif et le superlatif ({ar|أَفْعَلُ التَّفْضِيلِ}) ; {ar|لَكِنَّ}, {ar|كَأَنَّ} et {ar|بَلَى} ; le texte du livre et ses exercices.",
+  "source": "Tome de Médine 2, leçon 3",
+  "sections": [
+    { "title": "Revoir : compter jusqu'à dix et la forme {ar|أَفْعَلُ}", "activities": ["revue-1"] },
+    {
+      "title": "Les nombres de 11 à 19",
+      "activities": ["grammar-1", "vocab-1", "vocab-2", "grammar-2", "grammar-3", "grammar-4"]
+    },
+    { "title": "Hier, rêve, équipe et frère", "activities": ["vocab-3", "vocab-4", "vocab-5"] },
+    { "title": "Exercice du livre : écrire les nombres en lettres", "activities": ["practice-1"] },
+    {
+      "title": "Plus grand, plus beau : le comparatif",
+      "activities": ["grammar-5", "vocab-6", "grammar-6", "vocab-7", "grammar-7", "grammar-8"]
+    },
+    { "title": "Exercices du livre : comparer", "activities": ["practice-2", "practice-3", "practice-4"] },
+    { "title": "Mais, comme si, mais si !", "activities": ["grammar-9", "grammar-10", "grammar-11"] },
+    { "title": "Le texte du livre", "activities": ["vocab-8", "dialogue-1", "dialogue-2", "practice-5"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

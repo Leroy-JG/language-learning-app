@@ -1,0 +1,78 @@
+{
+  "id": "medine-t2.l03.vocab-5",
+  "type": "vocabulary",
+  "title": "Le football et le frère germain",
+  "icon": "boy",
+  "screens": [
+    { "id": "medine-t2.l03.vocab-5#1", "type": "present", "item": "w:qadam" },
+    { "id": "medine-t2.l03.vocab-5#2", "type": "present", "item": "p:kurat-alqadam" },
+    {
+      "id": "medine-t2.l03.vocab-5#3",
+      "type": "tip",
+      "title": "{ar|كُرَةُ الْقَدَمِ} : « le ballon du pied »",
+      "blocks": [
+        {
+          "type": "breakdown",
+          "ar": "كُرَةُ الْقَدَمِ",
+          "fr": "le football",
+          "parts": [ { "ar": "كُرَةُ", "fr": "le ballon de" }, { "ar": "الْقَدَمِ", "fr": "le pied" } ]
+        },
+        {
+          "type": "paragraph",
+          "text": "C'est une annexion : {ar|كُرَةُ} est le premier terme, {ar|الْقَدَمِ} le second, au génitif."
+        }
+      ]
+    },
+    { "id": "medine-t2.l03.vocab-5#4", "type": "present", "item": "w:fariq" },
+    { "id": "medine-t2.l03.vocab-5#5", "type": "present", "item": "w:laib" },
+    {
+      "id": "medine-t2.l03.vocab-5#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:laib",
+      "distractors": ["w:fariq", "w:talib"]
+    },
+    { "id": "medine-t2.l03.vocab-5#7", "type": "present", "item": "w:shaqiq" },
+    {
+      "id": "medine-t2.l03.vocab-5#8",
+      "type": "tip",
+      "title": "Le frère germain et le joueur de football",
+      "blocks": [
+        {
+          "type": "example",
+          "ar": "أَخُو زَيْدٍ الشَّقِيقُ هُوَ يَاسِرٌ.",
+          "fr": "Le frère germain de Zayd, c'est Yāsir."
+        },
+        {
+          "type": "paragraph",
+          "text": "{ar|الشَّقِيقُ} suit {ar|أَخُو} : c'est un adjectif, au nominatif comme le nom qu'il décrit."
+        },
+        { "type": "example", "ar": "هٰذَا لَاعِبُ كُرَةِ الْقَدَمِ.", "fr": "Voici le joueur de football." }
+      ]
+    },
+    {
+      "id": "medine-t2.l03.vocab-5#9",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:fariq", "w:laib", "w:qadam", "w:shaqiq"]
+    },
+    {
+      "id": "medine-t2.l03.vocab-5#10",
+      "type": "fill_gap",
+      "sentence": "هٰذَا {0} كُرَةِ الْقَدَمِ.",
+      "fr": "Voici le joueur de football.",
+      "gaps": [ { "answers": ["لَاعِبُ"] } ],
+      "options": ["لَاعِبُ", "شَقِيقُ", "كَوْكَبُ"],
+      "explain": "{ar|لَاعِبُ كُرَةِ الْقَدَمِ} : « le joueur de football »."
+    },
+    {
+      "id": "medine-t2.l03.vocab-5#11",
+      "type": "order",
+      "fr": "Voici l'équipe de football.",
+      "answers": [["هٰذَا", "فَرِيقُ", "كُرَةِ", "الْقَدَمِ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t2.l03.vocab-5#12", "type": "typing", "ask": "fr", "item": "w:fariq" },
+    { "id": "medine-t2.l03.vocab-5#13", "type": "typing", "ask": "fr", "item": "w:laib" }
+  ]
+}
