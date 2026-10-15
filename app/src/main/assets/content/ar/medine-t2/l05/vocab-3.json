@@ -1,0 +1,79 @@
+{
+  "id": "medine-t2.l05.vocab-3",
+  "type": "vocabulary",
+  "title": "Un serpent, une canne, une réponse",
+  "icon": "book",
+  "screens": [
+    { "id": "medine-t2.l05.vocab-3#1", "type": "present", "item": "w:hayya-2" },
+    { "id": "medine-t2.l05.vocab-3#2", "type": "present", "item": "w:asa" },
+    {
+      "id": "medine-t2.l05.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hayya-2",
+      "distractors": ["w:asa", "w:baqara"]
+    },
+    { "id": "medine-t2.l05.vocab-3#4", "type": "present", "item": "w:jawab" },
+    { "id": "medine-t2.l05.vocab-3#5", "type": "present", "item": "w:sura" },
+    {
+      "id": "medine-t2.l05.vocab-3#6",
+      "type": "tip",
+      "title": "Question et réponse",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais déjà {ar|سُؤَالٌ} (« une question »). Voici son contraire, avec les deux pluriels : ils ont le même modèle ({ar|أَفْعِلَةٌ})."
+        },
+        {
+          "type": "compare",
+          "title": "Question et réponse",
+          "rows": [
+            { "from": { "ar": "سُؤَالٌ", "fr": "une question" }, "to": { "ar": "جَوَابٌ", "fr": "une réponse" } },
+            {
+              "from": { "ar": "أَسْئِلَةٌ", "fr": "des questions" },
+              "to": { "ar": "أَجْوِبَةٌ", "fr": "des réponses" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.vocab-3#7",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:hayya-2", "w:asa", "w:jawab", "w:sura"]
+    },
+    {
+      "id": "medine-t2.l05.vocab-3#8",
+      "type": "sort",
+      "categories": [ { "fr": "masculin" }, { "fr": "féminin" } ],
+      "cards": [
+        { "item": "w:hayya-2", "category": 1 },
+        { "item": "w:asa", "category": 1 },
+        { "item": "w:sura", "category": 1 },
+        { "item": "w:jawab", "category": 0 },
+        { "item": "w:baqqal", "category": 0 },
+        { "item": "w:suaal", "category": 0 }
+      ],
+      "instruction": "Masculin ou féminin ?",
+      "explain": "{ar|حَيَّةٌ} et {ar|سُورَةٌ} ont la tāʾ marbūṭa ; {ar|عَصًا} est féminin sans signe, à retenir."
+    },
+    {
+      "id": "medine-t2.l05.vocab-3#9",
+      "type": "fill_gap",
+      "sentence": "قَرَأْتُ {0} التِّينِ.",
+      "fr": "J'ai lu la sourate At-Tīn.",
+      "gaps": [ { "answers": ["سُورَةَ"] } ],
+      "options": ["سُورَةَ", "جَوَابَ", "حَيَّةَ"],
+      "explain": "On lit une sourate : {ar|سُورَةَ}, premier mot d'une annexion, à l'accusatif car c'est le complément d'objet de {ar|قَرَأْتُ}."
+    },
+    {
+      "id": "medine-t2.l05.vocab-3#10",
+      "type": "order",
+      "fr": "Ceci est la réponse à la question.",
+      "answers": [["هٰذَا", "جَوَابُ", "السُّؤَالِ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t2.l05.vocab-3#11", "type": "typing", "ask": "fr", "item": "w:asa" }
+  ]
+}

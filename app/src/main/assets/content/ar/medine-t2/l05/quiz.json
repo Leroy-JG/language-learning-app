@@ -1,0 +1,142 @@
+{
+  "id": "medine-t2.l05.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 5",
+  "screens": [
+    {
+      "id": "medine-t2.l05.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:jawab",
+      "distractors": ["w:suaal", "w:sura"]
+    },
+    {
+      "id": "medine-t2.l05.quiz#2",
+      "type": "fill_gap",
+      "sentence": "{0} الْوَلَدُ مَوْزًا.",
+      "fr": "Le garçon a mangé des bananes.",
+      "gaps": [ { "answers": ["أَكَلَ"] } ],
+      "options": ["أَكَلَ", "شَرِبَ", "قَرَأَ"]
+    },
+    {
+      "id": "medine-t2.l05.quiz#3",
+      "type": "question",
+      "prompt": { "fr": "Quel verbe n'a pas besoin de complément d'objet direct ?" },
+      "choices": [ { "ar": "كَبُرَ" }, { "ar": "غَسَلَ" }, { "ar": "قَتَلَ" }, { "ar": "كَسَرَ" } ],
+      "answer": 0,
+      "explain": "{ar|كَبُرَ} (« grandir ») n'a besoin que d'un sujet : c'est un verbe intransitif."
+    },
+    {
+      "id": "medine-t2.l05.quiz#4",
+      "type": "sort",
+      "categories": [ { "ar": "الْفِعْلُ اللَّازِمُ" }, { "ar": "الْفِعْلُ الْمُتَعَدِّي" } ],
+      "cards": [
+        { "ar": "جَلَسَ زَيْدٌ.", "category": 0 },
+        { "ar": "كَسَرَ زَيْدٌ الْقَلَمَ.", "category": 1 },
+        { "ar": "نَامَ الطِّفْلُ.", "category": 0 },
+        { "ar": "غَسَلَتْ آمِنَةُ الْقَمِيصَ.", "category": 1 },
+        { "ar": "كَبُرْتُ.", "category": 0 },
+        { "ar": "قَتَلَ الرَّجُلُ الْحَيَّةَ.", "category": 1 }
+      ],
+      "instruction": "Le verbe a-t-il besoin d'un complément ?"
+    },
+    {
+      "id": "medine-t2.l05.quiz#5",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0}.",
+      "fr": "Moi, je l'ai mangé (le pain).",
+      "gaps": [ { "answers": ["أَكَلْتُهُ"] } ],
+      "options": ["أَكَلْتُهُ", "أَكَلْتُهَا", "أَكَلْتُكَ"],
+      "context": { "icon": "bread" },
+      "explain": "{ar|خُبْزٌ} est masculin : on colle {ar|هُ}."
+    },
+    {
+      "id": "medine-t2.l05.quiz#6",
+      "type": "spot",
+      "instruction": "Touche le complément d'objet direct.",
+      "words": ["كَسَرَ", "الْوَلَدُ", "الْعَصَا", "فِي", "الْبَيْتِ."],
+      "answers": [2],
+      "fr": "Le garçon a cassé la canne dans la maison.",
+      "explain": "{ar|الْعَصَا} est le complément d'objet direct : sa fatha ne se voit pas, car le mot se termine par un alif. {ar|الْبَيْتِ} suit {ar|فِي} : génitif."
+    },
+    {
+      "id": "medine-t2.l05.quiz#7",
+      "type": "question",
+      "prompt": { "fr": "Que fait le verbe quand il est avant son sujet « les étudiants » ?" },
+      "choices": [
+        { "fr": "Il reste au masculin singulier" },
+        { "fr": "Il se met au pluriel" },
+        { "fr": "Il prend un pronom en plus" }
+      ],
+      "answer": 0,
+      "explain": "{ar|ذَهَبَ الطُّلَّابُ} : un verbe placé avant son sujet reste au singulier."
+    },
+    {
+      "id": "medine-t2.l05.quiz#8",
+      "type": "fill_gap",
+      "sentence": "{0} النَّاسُ الْأَذَانَ.",
+      "fr": "Les gens ont entendu l'appel à la prière.",
+      "gaps": [ { "answers": ["سَمِعَ"] } ],
+      "options": ["سَمِعَ", "سَمِعُوا", "سَمِعْنَ", "سَمِعَا"],
+      "explain": "Le verbe est avant son sujet {ar|النَّاسُ} : il reste au singulier."
+    },
+    {
+      "id": "medine-t2.l05.quiz#9",
+      "type": "order",
+      "fr": "Les garçons ont bu l'eau et ont mangé les figues.",
+      "answers": [["شَرِبَ", "الْأَوْلَادُ", "الْمَاءَ", "وَأَكَلُوا", "التِّينَ"]],
+      "punctuation": ".",
+      "distractors": ["شَرِبُوا"]
+    },
+    {
+      "id": "medine-t2.l05.quiz#10",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hayya-2",
+      "distractors": ["w:asa", "w:sura"]
+    },
+    {
+      "id": "medine-t2.l05.quiz#11",
+      "type": "true_false",
+      "statement": { "fr": "Un nom qui suit une préposition est un complément d'objet direct." },
+      "answer": false,
+      "explain": "Non : après une préposition, le nom est au génitif. Le complément d'objet direct suit le verbe sans préposition et porte la fatha."
+    },
+    {
+      "id": "medine-t2.l05.quiz#12",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|فَتَحْتُهَا}, que représente {ar|هَا} ?" },
+      "choices": [ { "fr": "le complément d'objet direct, féminin" }, { "fr": "le sujet" }, { "fr": "une préposition" } ],
+      "answer": 0,
+      "explain": "{ar|هَا} est un pronom collé au verbe : il remplace le complément d'objet direct (« la », « les »)."
+    },
+    {
+      "id": "medine-t2.l05.quiz#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd a lavé la chemise.",
+      "answers": ["غَسَلَ زَيْدٌ الْقَمِيصَ."]
+    },
+    {
+      "id": "medine-t2.l05.quiz#14",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:baqqal",
+      "distractors": ["w:tajir", "w:mudir"]
+    },
+    {
+      "id": "medine-t2.l05.quiz#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "L'enfant a tué le serpent avec la canne.",
+      "answers": ["قَتَلَ الطِّفْلُ الْحَيَّةَ بِالْعَصَا."]
+    },
+    {
+      "id": "medine-t2.l05.quiz#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je l'ai lu (le Coran).",
+      "answers": ["قَرَأْتُهُ."]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "medine-t2.l05.grammar-5",
+  "type": "grammar",
+  "title": "Un seul sujet par verbe",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l05.grammar-5#1",
+      "type": "tip",
+      "title": "Un verbe, un seul sujet",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un verbe ne peut avoir **qu'un seul sujet**. Quand ce sujet est un nom apparent, le verbe ne porte donc **aucun** pronom sujet collé."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Verdict", "Pourquoi ?"],
+          "rows": [
+            [
+              "{ar|كَتَبَ الطُّلَّابُ}",
+              "juste",
+              "le sujet est le nom {ar|الطُّلَّابُ}, placé après le verbe : le verbe n'a pas de pronom pluriel"
+            ],
+            [
+              "{ar|الطُّلَّابُ كَتَبُوا}",
+              "juste",
+              "{ar|الطُّلَّابُ} ouvre une phrase nominale ; le verbe a son propre sujet, le pronom {ar|◌ُوا}"
+            ],
+            [
+              "{ar|كَتَبُوا الطُّلَّابُ}",
+              "faux",
+              "deux sujets pour un seul verbe : le pronom {ar|◌ُوا} et le nom {ar|الطُّلَّابُ}"
+            ]
+          ]
+        },
+        { "type": "note", "text": "Dans l'arabe standard, la troisième phrase est incorrecte." }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.grammar-5#2",
+      "type": "true_false",
+      "statement": { "ar": "كَتَبُوا الطُّلَّابُ الدَّرْسَ.", "fr": "Les étudiants ont écrit la leçon." },
+      "answer": false,
+      "explain": "Le verbe ne doit pas avoir de pronom pluriel quand son sujet est le nom {ar|الطُّلَّابُ}. On écrit {ar|كَتَبَ الطُّلَّابُ الدَّرْسَ}."
+    },
+    {
+      "id": "medine-t2.l05.grammar-5#3",
+      "type": "tip",
+      "title": "Verbe en tête : au singulier",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand le verbe est **avant** son sujet, il reste au **singulier**, mais il s'accorde en genre : masculin avec un sujet masculin, féminin avec un sujet féminin."
+        },
+        {
+          "type": "compare",
+          "title": "Le verbe d'abord",
+          "rows": [
+            {
+              "from": {
+                "ar": "الطُّلَّابُ ذَهَبُوا إِلَى الْمَلْعَبِ",
+                "fr": "Les étudiants sont allés au terrain de jeu."
+              },
+              "to": { "ar": "ذَهَبَ الطُّلَّابُ إِلَى الْمَلْعَبِ", "fr": "le verbe passe au masculin singulier" }
+            },
+            {
+              "from": {
+                "ar": "الطَّالِبَاتُ ذَهَبْنَ إِلَى الْمَكْتَبَةِ",
+                "fr": "Les étudiantes sont allées à la bibliothèque."
+              },
+              "to": { "ar": "ذَهَبَتِ الطَّالِبَاتُ إِلَى الْمَكْتَبَةِ", "fr": "le verbe passe au féminin singulier" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|ذَهَبَتْ} devient {ar|ذَهَبَتِ} devant {ar|الْ} : la kasra évite deux sukūn de suite."
+        },
+        {
+          "type": "note",
+          "text": "Avec un pluriel féminin, le verbe au masculin singulier ({ar|ذَهَبَ الطَّالِبَاتُ}) est aussi possible ; le professeur donne la forme féminine."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.grammar-5#4",
+      "type": "fill_gap",
+      "sentence": "{0} الطُّلَّابُ مِنَ الْفَصْلِ.",
+      "fr": "Les étudiants sont sortis de la classe.",
+      "gaps": [ { "answers": ["خَرَجَ"] } ],
+      "options": ["خَرَجَ", "خَرَجُوا", "خَرَجْنَ", "خَرَجَا"],
+      "explain": "Le verbe est avant son sujet {ar|الطُّلَّابُ} : il reste au singulier."
+    },
+    {
+      "id": "medine-t2.l05.grammar-5#5",
+      "type": "fill_gap",
+      "sentence": "{0} الطَّالِبَاتُ مِنَ الْفَصْلِ.",
+      "fr": "Les étudiantes sont sorties de la classe.",
+      "gaps": [ { "answers": ["خَرَجَتِ", "خَرَجَ"] } ],
+      "options": ["خَرَجَتِ", "خَرَجَ", "خَرَجْنَ", "خَرَجُوا"],
+      "explain": "Le verbe est avant son sujet : il reste au singulier, au féminin pour des étudiantes ({ar|خَرَجَتِ}). Le masculin singulier {ar|خَرَجَ} est aussi permis avec un pluriel féminin."
+    },
+    {
+      "id": "medine-t2.l05.grammar-5#6",
+      "type": "order",
+      "fr": "Les garçons ont bu le café.",
+      "answers": [["شَرِبَ", "الْأَوْلَادُ", "الْقَهْوَةَ"]],
+      "punctuation": ".",
+      "distractors": ["شَرِبُوا"],
+      "explain": "Le verbe est avant son sujet {ar|الْأَوْلَادُ} : il reste au singulier. {ar|شَرِبُوا} serait un deuxième sujet."
+    },
+    {
+      "id": "medine-t2.l05.grammar-5#7",
+      "type": "tip",
+      "title": "Deux verbes pour un même sujet",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le nom apparent n'est écrit qu'une fois, avec le **premier** verbe. Le second verbe a besoin de son propre sujet : on le lui donne sous la forme d'un **pronom collé**."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens", "Les deux sujets"],
+          "rows": [
+            [
+              "{ar|خَرَجَ الطُّلَّابُ وَذَهَبُوا}",
+              "Les étudiants sont sortis et sont partis.",
+              "{ar|خَرَجَ} : le nom {ar|الطُّلَّابُ} ; {ar|ذَهَبُوا} : le pronom {ar|◌ُوا}"
+            ],
+            [
+              "{ar|قَرَأَ الطُّلَّابُ وَكَتَبُوا}",
+              "Les étudiants ont lu et ont écrit.",
+              "{ar|قَرَأَ} : le nom {ar|الطُّلَّابُ} ; {ar|كَتَبُوا} : le pronom {ar|◌ُوا}"
+            ],
+            [
+              "{ar|أَكَلَ النَّاسُ وَشَرِبُوا}",
+              "Les gens ont mangé et ont bu.",
+              "{ar|أَكَلَ} : le nom {ar|النَّاسُ} ; {ar|شَرِبُوا} : le pronom {ar|◌ُوا}"
+            ]
+          ]
+        },
+        { "type": "note", "text": "Le pronom {ar|◌ُوا} reprend le nom {ar|الطُّلَّابُ}, qui est au pluriel." }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.grammar-5#8",
+      "type": "fill_gap",
+      "sentence": "خَرَجَ الطُّلَّابُ {0}.",
+      "fr": "Les étudiants sont sortis et sont partis.",
+      "gaps": [ { "answers": ["وَذَهَبُوا"] } ],
+      "options": ["وَذَهَبُوا", "وَذَهَبَ", "وَذَهَبْنَ", "وَذَهَبَا"],
+      "explain": "Le second verbe reprend {ar|الطُّلَّابُ} par le pronom {ar|◌ُوا} : {ar|وَذَهَبُوا}."
+    },
+    {
+      "id": "medine-t2.l05.grammar-5#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les étudiants ont lu et ont écrit.",
+      "answers": ["قَرَأَ الطُّلَّابُ وَكَتَبُوا."]
+    },
+    {
+      "id": "medine-t2.l05.grammar-5#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les étudiantes sont allées à la bibliothèque.",
+      "answers": [
+        "ذَهَبَتِ الطَّالِبَاتُ إِلَى الْمَكْتَبَةِ.",
+        "ذَهَبَ الطَّالِبَاتُ إِلَى الْمَكْتَبَةِ.",
+        "الطَّالِبَاتُ ذَهَبْنَ إِلَى الْمَكْتَبَةِ."
+      ]
+    }
+  ]
+}

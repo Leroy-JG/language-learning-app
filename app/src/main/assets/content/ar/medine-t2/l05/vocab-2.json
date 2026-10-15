@@ -1,0 +1,82 @@
+{
+  "id": "medine-t2.l05.vocab-2",
+  "type": "vocabulary",
+  "title": "Chez l'épicier",
+  "icon": "shop",
+  "screens": [
+    { "id": "medine-t2.l05.vocab-2#1", "type": "present", "item": "w:baqqal" },
+    { "id": "medine-t2.l05.vocab-2#2", "type": "present", "item": "w:tin" },
+    {
+      "id": "medine-t2.l05.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:tin",
+      "distractors": ["w:baqqal", "w:khubz"]
+    },
+    { "id": "medine-t2.l05.vocab-2#4", "type": "present", "item": "w:inab" },
+    { "id": "medine-t2.l05.vocab-2#5", "type": "present", "item": "w:mawz" },
+    {
+      "id": "medine-t2.l05.vocab-2#6",
+      "type": "tip",
+      "title": "Du collectif à l'unité",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Beaucoup de noms de fruits sont des **noms collectifs** : ils désignent le fruit en général. Pour parler d'un seul fruit, on ajoute la tāʾ marbūṭa ({ar|ة}) ; le nom d'unité est féminin."
+        },
+        {
+          "type": "compare",
+          "title": "Un seul fruit",
+          "rows": [
+            { "from": { "ar": "تِينٌ", "fr": "des figues" }, "to": { "ar": "تِينَةٌ", "fr": "une figue" } },
+            {
+              "from": { "ar": "عِنَبٌ", "fr": "du raisin" },
+              "to": { "ar": "عِنَبَةٌ", "fr": "un grain de raisin" }
+            },
+            { "from": { "ar": "مَوْزٌ", "fr": "des bananes" }, "to": { "ar": "مَوْزَةٌ", "fr": "une banane" } },
+            { "from": { "ar": "تُفَّاحٌ", "fr": "des pommes" }, "to": { "ar": "تُفَّاحَةٌ", "fr": "une pomme" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.vocab-2#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:baqqal", "w:tin", "w:inab", "w:mawz"]
+    },
+    {
+      "id": "medine-t2.l05.vocab-2#8",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:baqqal", "w:tin", "w:inab", "w:mawz"]
+    },
+    {
+      "id": "medine-t2.l05.vocab-2#9",
+      "type": "sort",
+      "categories": [ { "fr": "un commerçant ou une boutique" }, { "fr": "quelque chose à manger" } ],
+      "cards": [
+        { "item": "w:baqqal", "category": 0 },
+        { "item": "w:tajir", "category": 0 },
+        { "item": "w:dukkan", "category": 0 },
+        { "item": "w:tin", "category": 1 },
+        { "item": "w:inab", "category": 1 },
+        { "item": "w:mawz", "category": 1 },
+        { "item": "w:tuffah", "category": 1 },
+        { "item": "w:khubz", "category": 1 }
+      ],
+      "instruction": "Range chaque mot."
+    },
+    {
+      "id": "medine-t2.l05.vocab-2#10",
+      "type": "fill_gap",
+      "sentence": "الْبَقَّالُ فِي {0}.",
+      "fr": "L'épicier est dans la boutique.",
+      "gaps": [ { "answers": ["الدُّكَّانِ"] } ],
+      "options": ["الدُّكَّانِ", "الْعِنَبِ", "التِّينِ"],
+      "explain": "Un épicier travaille dans une boutique : {ar|الدُّكَّانِ}, au génitif après {ar|فِي}."
+    },
+    { "id": "medine-t2.l05.vocab-2#11", "type": "build", "item": "w:inab", "extra": ["غ"] },
+    { "id": "medine-t2.l05.vocab-2#12", "type": "typing", "ask": "fr", "item": "w:mawz" }
+  ]
+}

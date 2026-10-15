@@ -1,0 +1,179 @@
+{
+  "id": "medine-t2.l05.practice-3",
+  "type": "grammar",
+  "title": "Compléter les phrases",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l05.practice-3#1",
+      "type": "tip",
+      "title": "Les exercices 5 et 6 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne dix phrases à compléter par un mot qui convient (un verbe ou un complément), puis six mots à mettre à l'accusatif en vocalisant leur fin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.practice-3#2",
+      "type": "order",
+      "fr": "Qui a ouvert la porte ?",
+      "answers": [["مَنْ", "فَتَحَ", "الْبَابَ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l05.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "{0} الرَّجُلُ الْحَيَّةَ بِالْعَصَا.",
+      "fr": "L'homme a tué le serpent avec la canne.",
+      "gaps": [ { "answers": ["قَتَلَ"] } ],
+      "options": ["قَتَلَ", "شَرِبَ", "فَتَحَ", "سَمِعَ"],
+      "explain": "On tue un serpent avec une canne : {ar|قَتَلَ}."
+    },
+    {
+      "id": "medine-t2.l05.practice-3#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ma sœur a lavé la chemise.",
+      "answers": ["غَسَلَتْ أُخْتِي الْقَمِيصَ."]
+    },
+    {
+      "id": "medine-t2.l05.practice-3#5",
+      "type": "fill_gap",
+      "sentence": "{0} يُوسُفُ الْقَهْوَةَ.",
+      "fr": "Yūsuf a bu le café.",
+      "gaps": [ { "answers": ["شَرِبَ"] } ],
+      "options": ["شَرِبَ", "كَسَرَ", "غَسَلَ", "قَرَأَ"],
+      "explain": "On boit du café : {ar|شَرِبَ}."
+    },
+    {
+      "id": "medine-t2.l05.practice-3#6",
+      "type": "order",
+      "fr": "Les étudiants sont sortis de la classe.",
+      "answers": [["خَرَجَ", "الطُّلَّابُ", "مِنَ", "الْفَصْلِ"]],
+      "punctuation": ".",
+      "distractors": ["خَرَجُوا"],
+      "explain": "Le verbe est avant son sujet : il reste au singulier."
+    },
+    {
+      "id": "medine-t2.l05.practice-3#7",
+      "type": "fill_gap",
+      "sentence": "{0} سُعَادُ الْخُبْزَ.",
+      "fr": "Suʿād a mangé le pain.",
+      "gaps": [ { "answers": ["أَكَلَتْ"] } ],
+      "options": ["أَكَلَتْ", "أَكَلَ", "أَكَلُوا"],
+      "explain": "Le sujet {ar|سُعَادُ} est une femme et suit le verbe : celui-ci s'accorde au féminin, {ar|أَكَلَتْ}."
+    },
+    {
+      "id": "medine-t2.l05.practice-3#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai lu le Coran.",
+      "answers": ["قَرَأْتُ الْقُرْآنَ."]
+    },
+    {
+      "id": "medine-t2.l05.practice-3#9",
+      "type": "fill_gap",
+      "sentence": "{0} الْأَذَانَ يَا حَمْزَةُ؟",
+      "fr": "As-tu entendu l'appel à la prière, Ḥamza ?",
+      "gaps": [ { "answers": ["أَسَمِعْتَ"] } ],
+      "options": ["أَسَمِعْتَ", "أَكَسَرْتَ", "أَشَرِبْتَ"],
+      "explain": "On entend l'appel à la prière : {ar|أَسَمِعْتَ} (« as-tu entendu ? »). {ar|أَ} ouvre la question."
+    },
+    {
+      "id": "medine-t2.l05.practice-3#10",
+      "type": "fill_gap",
+      "sentence": "{0} التَّاجِرُ الدُّكَّانَ.",
+      "fr": "Le commerçant a ouvert la boutique.",
+      "gaps": [ { "answers": ["فَتَحَ"] } ],
+      "options": ["فَتَحَ", "قَرَأَ", "فَهِمَ", "سَمِعَ"],
+      "explain": "On ouvre une boutique : {ar|فَتَحَ}."
+    },
+    {
+      "id": "medine-t2.l05.practice-3#11",
+      "type": "fill_gap",
+      "sentence": "كَتَبَ الْمُدَرِّسُ {0} عَلَى السَّبُّورَةِ.",
+      "fr": "Le professeur a écrit la leçon sur le tableau.",
+      "gaps": [ { "answers": ["الدَّرْسَ"] } ],
+      "options": ["الدَّرْسَ", "الْحَيَّةَ", "الْعِنَبَ"],
+      "explain": "On écrit une leçon au tableau : {ar|الدَّرْسَ}, complément d'objet direct, à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l05.practice-3#12",
+      "type": "tip",
+      "title": "L'exercice 6 : mettre un nom à l'accusatif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour faire d'un nom un complément d'objet direct, on change sa voyelle finale : la damma devient une fatha."
+        },
+        {
+          "type": "compare",
+          "title": "La damma devient fatha",
+          "rows": [
+            {
+              "from": { "ar": "الْقُرْآنُ", "fr": "le Coran" },
+              "to": { "ar": "الْقُرْآنَ", "fr": "le Coran (complément)" }
+            },
+            {
+              "from": { "ar": "الْقَهْوَةُ", "fr": "le café" },
+              "to": { "ar": "الْقَهْوَةَ", "fr": "le café (complément)" }
+            },
+            {
+              "from": { "ar": "التُّفَّاحُ", "fr": "la pomme" },
+              "to": { "ar": "التُّفَّاحَ", "fr": "la pomme (complément)" }
+            },
+            {
+              "from": { "ar": "الْبَابُ", "fr": "la porte" },
+              "to": { "ar": "الْبَابَ", "fr": "la porte (complément)" }
+            },
+            {
+              "from": { "ar": "الدَّرْسُ", "fr": "la leçon" },
+              "to": { "ar": "الدَّرْسَ", "fr": "la leçon (complément)" }
+            },
+            {
+              "from": { "ar": "الْقَمِيصُ", "fr": "la chemise" },
+              "to": { "ar": "الْقَمِيصَ", "fr": "la chemise (complément)" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Sans article, le mot prend le tanwin fatha : {ar|بَابٌ} → {ar|بَابًا}, mais {ar|قَهْوَةٌ} → {ar|قَهْوَةً} (pas d'alif après la tāʾ marbūṭa)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.practice-3#13",
+      "type": "question",
+      "prompt": { "fr": "Que devient la damma finale de {ar|الْقَمِيصُ} quand il devient complément d'objet direct ?" },
+      "choices": [
+        { "fr": "une fatha : {ar|الْقَمِيصَ}" },
+        { "fr": "une kasra : {ar|الْقَمِيصِ}" },
+        { "fr": "elle ne change pas" }
+      ],
+      "answer": 0,
+      "explain": "Le complément d'objet direct est à l'accusatif : la damma devient une fatha."
+    },
+    {
+      "id": "medine-t2.l05.practice-3#14",
+      "type": "question",
+      "prompt": { "fr": "Comment met-on {ar|قَهْوَةٌ} à l'accusatif ?" },
+      "choices": [
+        { "fr": "{ar|قَهْوَةً} (tanwin fatha)" },
+        { "fr": "{ar|قَهْوَةٍ} (tanwin kasra)" },
+        { "fr": "{ar|قَهْوَةٌ} (elle ne change pas)" }
+      ],
+      "answer": 0,
+      "explain": "En général, le tanwin fatha s'écrit avec un alif ({ar|بَابًا}), sauf après la tāʾ marbūṭa : {ar|قَهْوَةً}."
+    },
+    {
+      "id": "medine-t2.l05.practice-3#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd a bu le café.",
+      "answers": ["شَرِبَ زَيْدٌ الْقَهْوَةَ."]
+    }
+  ]
+}

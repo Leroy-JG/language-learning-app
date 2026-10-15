@@ -1,0 +1,162 @@
+{
+  "id": "medine-t2.l05.dialogue-1",
+  "type": "dialogue",
+  "title": "Qui a ouvert la porte ?",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t2.l05.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Qui a ouvert la porte ?",
+      "intro": "Le professeur interroge ses étudiants : qui a ouvert, qui a cassé, qui a compris ?",
+      "speakers": {
+        "T": { "name": "Le professeur", "voice": "m1" },
+        "H": { "name": "Ḥāmid", "voice": "m2" },
+        "A": { "name": "ʿAlī", "voice": "m2" },
+        "S": { "name": "Hāshim", "voice": "m2" },
+        "B": { "name": "ʿAbbās", "voice": "m2" },
+        "Q": { "name": "Ṭalḥa", "voice": "m2" },
+        "F": { "name": "Fayṣal", "voice": "m2" },
+        "I": { "name": "Ibrāhīm", "voice": "m2" }
+      },
+      "lines": [
+        { "speaker": "T", "ar": "مَنْ فَتَحَ بَابَ الْفَصْلِ؟", "fr": "Qui a ouvert la porte de la classe ?" },
+        { "speaker": "H", "ar": "أَنَا فَتَحْتُهُ.", "fr": "Moi, je l'ai ouverte." },
+        { "speaker": "T", "ar": "وَمَنْ فَتَحَ النَّوَافِذَ؟", "fr": "Et qui a ouvert les fenêtres ?" },
+        { "speaker": "A", "ar": "أَنَا فَتَحْتُهَا.", "fr": "Moi, je les ai ouvertes." },
+        {
+          "speaker": "T",
+          "ar": "مَنْ كَسَرَ هٰذَا الْمَكْتَبَ؟ أَأَنْتَ كَسَرْتَهُ يَا هَاشِمُ؟",
+          "fr": "Qui a cassé ce bureau ? Est-ce toi qui l'as cassé, Hāshim ?"
+        },
+        { "speaker": "S", "ar": "لَا، إِنِّي مَا كَسَرْتُهُ.", "fr": "Non, en vérité, je ne l'ai pas cassé." },
+        {
+          "speaker": "T",
+          "ar": "أَرَجَعَ زَكَرِيَّا وَحَمْزَةُ وَعُثْمَانُ مِنْ مَكَّةَ؟",
+          "fr": "Zakariyyā, Ḥamza et ʿUthmān sont-ils revenus de La Mecque ?"
+        },
+        { "speaker": "H", "ar": "لَا، مَا رَجَعُوا.", "fr": "Non, ils ne sont pas revenus." },
+        {
+          "speaker": "B",
+          "ar": "يَا أُسْتَاذُ، خَرَجَ الطُّلَّابُ الْجُدُدُ وَذَهَبُوا إِلَى الْمُدِيرِ.",
+          "fr": "Professeur, les nouveaux étudiants sont sortis et sont allés chez le directeur."
+        },
+        { "speaker": "T", "ar": "أَفَهِمْتَ الدَّرْسَ يَا طَلْحَةُ؟", "fr": "As-tu compris la leçon, Ṭalḥa ?" },
+        { "speaker": "Q", "ar": "نَعَمْ، فَهِمْتُهُ جَيِّدًا.", "fr": "Oui, je l'ai bien compris." },
+        {
+          "speaker": "T",
+          "ar": "أَكَتَبْتَ الْأَجْوِبَةَ يَا فَيْصَلُ؟",
+          "fr": "As-tu écrit les réponses, Fayṣal ?"
+        },
+        { "speaker": "F", "ar": "لَا، مَا كَتَبْتُهَا.", "fr": "Non, je ne les ai pas écrites." },
+        { "speaker": "T", "ar": "لِمَاذَا؟", "fr": "Pourquoi ?" },
+        {
+          "speaker": "F",
+          "ar": "لِأَنَّنِي مَا فَهِمْتُ الْأَسْئِلَةَ.",
+          "fr": "Parce que je n'ai pas compris les questions."
+        },
+        {
+          "speaker": "T",
+          "ar": "أَحَفِظْتَ سُورَةَ الْفَجْرِ يَا إِبْرَاهِيمُ؟",
+          "fr": "As-tu mémorisé la sourate Al-Fajr, Ibrāhīm ?"
+        },
+        {
+          "speaker": "I",
+          "ar": "نَعَمْ، حَفِظْتُهَا، وَحَفِظْتُ سُورَةَ التِّينِ أَيْضًا.",
+          "fr": "Oui, je l'ai mémorisée, et j'ai aussi mémorisé la sourate At-Tīn."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.dialogue-1#2",
+      "type": "tip",
+      "title": "Des pronoms à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Dans ce texte, la plupart des verbes portent un pronom complément collé :" },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "Le pronom reprend…"],
+          "rows": [
+            ["{ar|أَنَا فَتَحْتُهُ}", "Moi, je l'ai ouverte.", "{ar|بَابَ الْفَصْلِ} (masculin : {ar|هُ})"],
+            [
+              "{ar|أَنَا فَتَحْتُهَا}",
+              "Moi, je les ai ouvertes.",
+              "{ar|النَّوَافِذَ} (pluriel de choses : {ar|هَا})"
+            ],
+            ["{ar|كَسَرْتَهُ}", "tu l'as cassé", "{ar|هٰذَا الْمَكْتَبَ} (masculin : {ar|هُ})"],
+            ["{ar|فَهِمْتُهُ جَيِّدًا}", "je l'ai bien compris", "{ar|الدَّرْسَ} (masculin : {ar|هُ})"],
+            [
+              "{ar|مَا كَتَبْتُهَا}",
+              "je ne les ai pas écrites",
+              "{ar|الْأَجْوِبَةَ} (pluriel de choses : {ar|هَا})"
+            ],
+            ["{ar|حَفِظْتُهَا}", "je l'ai mémorisée", "{ar|سُورَةَ الْفَجْرِ} (féminin : {ar|هَا})"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le pronom isolé {ar|أَنَا} est ajouté pour insister : « c'est moi qui… ». Le verbe contient déjà son sujet ({ar|تُ})."
+        },
+        {
+          "type": "note",
+          "text": "{ar|جَيِّدًا} (« bien ») vient de {ar|جَيِّدٌ} (« bon »), mis à l'accusatif. {ar|أَ} devant un verbe ouvre une question : {ar|أَفَهِمْتَ} (« as-tu compris ? »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Qui a ouvert la porte de la classe ?" },
+      "choices": [ { "fr": "Ḥāmid" }, { "fr": "ʿAlī" }, { "fr": "Hāshim" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l05.dialogue-1#1" },
+      "explain": "Ḥāmid répond : {ar|أَنَا فَتَحْتُهُ}. ʿAlī, lui, a ouvert les fenêtres."
+    },
+    {
+      "id": "medine-t2.l05.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Que répond Hāshim au professeur ?" },
+      "choices": [
+        { "fr": "Qu'il n'a pas cassé le bureau" },
+        { "fr": "Qu'il a cassé le bureau" },
+        { "fr": "Qu'il ne sait pas qui l'a cassé" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l05.dialogue-1#1" },
+      "explain": "{ar|مَا كَسَرْتُهُ} : « je ne l'ai pas cassé »."
+    },
+    {
+      "id": "medine-t2.l05.dialogue-1#5",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi Fayṣal n'a-t-il pas écrit les réponses ?" },
+      "choices": [ { "fr": "Il n'a pas compris les questions" }, { "fr": "Son stylo est cassé" }, { "fr": "Il était malade" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l05.dialogue-1#1" },
+      "explain": "{ar|لِأَنَّنِي مَا فَهِمْتُ الْأَسْئِلَةَ} : « parce que je n'ai pas compris les questions »."
+    },
+    {
+      "id": "medine-t2.l05.dialogue-1#6",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0}.",
+      "fr": "Moi, je les ai ouvertes (les fenêtres).",
+      "gaps": [ { "answers": ["فَتَحْتُهَا"] } ],
+      "options": ["فَتَحْتُهَا", "فَتَحْتُهُ", "فَتَحْتُكَ"],
+      "context": { "dialogue": "medine-t2.l05.dialogue-1#1" },
+      "explain": "{ar|النَّوَافِذُ} est un pluriel de choses : on le reprend par {ar|هَا}."
+    },
+    {
+      "id": "medine-t2.l05.dialogue-1#7",
+      "type": "order",
+      "fr": "Oui, je l'ai bien compris.",
+      "answers": [["نَعَمْ،", "فَهِمْتُهُ", "جَيِّدًا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l05.dialogue-1#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Non, je ne les ai pas écrites.",
+      "answers": ["لَا، مَا كَتَبْتُهَا."]
+    }
+  ]
+}

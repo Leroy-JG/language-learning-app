@@ -1,0 +1,151 @@
+{
+  "id": "medine-t2.l05.practice-1",
+  "type": "grammar",
+  "title": "Questions sur le texte",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t2.l05.practice-1#1",
+      "type": "tip",
+      "title": "Les exercices 1 et 2 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande de répondre à quatre questions sur le texte, puis de dire si quatre phrases sont justes ou fausses."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.practice-1#2",
+      "type": "true_false",
+      "statement": { "ar": "فَتَحَ عَلِيٌّ بَابَ الْفَصْلِ.", "fr": "ʿAlī a ouvert la porte de la classe." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l05.dialogue-1#1" },
+      "explain": "C'est Ḥāmid qui a ouvert la porte : {ar|أَنَا فَتَحْتُهُ}. ʿAlī a ouvert les fenêtres."
+    },
+    {
+      "id": "medine-t2.l05.practice-1#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ ذَهَبَ الطُّلَّابُ الْجُدُدُ؟",
+      "answers": ["ذَهَبُوا إِلَى الْمُدِيرِ.", "إِلَى الْمُدِيرِ.", "ذَهَبَ الطُّلَّابُ الْجُدُدُ إِلَى الْمُدِيرِ."],
+      "fr": "Ils sont allés chez le directeur.",
+      "context": { "dialogue": "medine-t2.l05.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l05.practice-1#4",
+      "type": "true_false",
+      "statement": {
+        "ar": "مَا رَجَعَ زَكَرِيَّا وَحَمْزَةُ وَعُثْمَانُ مِنْ مَكَّةَ.",
+        "fr": "Zakariyyā, Ḥamza et ʿUthmān ne sont pas revenus de La Mecque."
+      },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l05.dialogue-1#1" },
+      "explain": "Ḥāmid répond : {ar|لَا، مَا رَجَعُوا}. Remarque : {ar|رَجَعَ} reste au singulier devant ses trois sujets, parce qu'il est avant eux."
+    },
+    {
+      "id": "medine-t2.l05.practice-1#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَفَهِمَ طَلْحَةُ الدَّرْسَ؟",
+      "answers": [
+        "نَعَمْ، فَهِمَ الدَّرْسَ.",
+        "نَعَمْ، فَهِمَ الدَّرْسَ جَيِّدًا.",
+        "نَعَمْ، فَهِمَ طَلْحَةُ الدَّرْسَ.",
+        "نَعَمْ، فَهِمَ طَلْحَةُ الدَّرْسَ جَيِّدًا.",
+        "نَعَمْ، فَهِمَهُ.",
+        "نَعَمْ، فَهِمَهُ جَيِّدًا.",
+        "نَعَمْ، فَهِمَهُ طَلْحَةُ.",
+        "نَعَمْ، فَهِمَهُ طَلْحَةُ جَيِّدًا.",
+        "نَعَمْ، فَهِمَ طَلْحَةُ.",
+        "نَعَمْ، فَهِمَ طَلْحَةُ جَيِّدًا.",
+        "نَعَمْ، فَهِمَ.",
+        "نَعَمْ، فَهِمَ جَيِّدًا.",
+        "فَهِمَ الدَّرْسَ.",
+        "فَهِمَ الدَّرْسَ جَيِّدًا.",
+        "فَهِمَ طَلْحَةُ الدَّرْسَ.",
+        "فَهِمَ طَلْحَةُ الدَّرْسَ جَيِّدًا.",
+        "فَهِمَهُ.",
+        "فَهِمَهُ جَيِّدًا.",
+        "فَهِمَهُ طَلْحَةُ.",
+        "فَهِمَهُ طَلْحَةُ جَيِّدًا.",
+        "فَهِمَ طَلْحَةُ.",
+        "فَهِمَ طَلْحَةُ جَيِّدًا.",
+        "فَهِمَ.",
+        "فَهِمَ جَيِّدًا.",
+        "نَعَمْ."
+      ],
+      "fr": "Oui, il a bien compris la leçon.",
+      "context": { "dialogue": "medine-t2.l05.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l05.practice-1#6",
+      "type": "true_false",
+      "statement": {
+        "ar": "مَا كَتَبَ فَيْصَلٌ الْأَجْوِبَةَ لِأَنَّهُ مَا فَهِمَ الْأَسْئِلَةَ.",
+        "fr": "Fayṣal n'a pas écrit les réponses parce qu'il n'a pas compris les questions."
+      },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l05.dialogue-1#1" },
+      "explain": "C'est ce qu'il explique au professeur : {ar|لِأَنَّنِي مَا فَهِمْتُ الْأَسْئِلَةَ}."
+    },
+    {
+      "id": "medine-t2.l05.practice-1#7",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|مَا رَجَعَ زَكَرِيَّا وَحَمْزَةُ وَعُثْمَانُ مِنْ مَكَّةَ}, pourquoi le verbe {ar|رَجَعَ} est-il au singulier alors qu'il y a trois sujets ?"
+      },
+      "choices": [
+        { "fr": "Parce qu'il est placé avant ses sujets" },
+        { "fr": "Parce que les trois sujets forment un duel" },
+        { "fr": "Parce que {ar|مَا} change la forme du verbe" }
+      ],
+      "answer": 0,
+      "explain": "Un verbe placé avant son sujet reste au singulier, même devant plusieurs personnes. Après les sujets, il serait au pluriel : {ar|زَكَرِيَّا وَحَمْزَةُ وَعُثْمَانُ مَا رَجَعُوا}."
+    },
+    {
+      "id": "medine-t2.l05.practice-1#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَاذَا حَفِظَ إِبْرَاهِيمُ؟",
+      "answers": [
+        "حَفِظَ سُورَةَ الْفَجْرِ وَسُورَةَ التِّينِ.",
+        "حَفِظَ إِبْرَاهِيمُ سُورَةَ الْفَجْرِ وَسُورَةَ التِّينِ.",
+        "حَفِظَ سُورَةَ الْفَجْرِ وَسُورَةَ التِّينِ أَيْضًا.",
+        "حَفِظَ سُورَةَ الْفَجْرِ.",
+        "حَفِظَ سُورَةَ التِّينِ.",
+        "سُورَةَ الْفَجْرِ وَسُورَةَ التِّينِ.",
+        "سُورَةَ الْفَجْرِ.",
+        "سُورَةَ التِّينِ."
+      ],
+      "fr": "Il a mémorisé la sourate Al-Fajr et la sourate At-Tīn.",
+      "context": { "dialogue": "medine-t2.l05.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l05.practice-1#9",
+      "type": "true_false",
+      "statement": {
+        "ar": "مَا كَتَبَ فَيْصَلٌ الْأَجْوِبَةَ لِأَنَّ قَلَمَهُ مَكْسُورٌ.",
+        "fr": "Fayṣal n'a pas écrit les réponses parce que son stylo est cassé."
+      },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l05.dialogue-1#1" },
+      "explain": "Non : il dit {ar|لِأَنَّنِي مَا فَهِمْتُ الْأَسْئِلَةَ} (« parce que je n'ai pas compris les questions »)."
+    },
+    {
+      "id": "medine-t2.l05.practice-1#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ فَتَحَ النَّوَافِذَ؟",
+      "answers": [
+        "عَلِيٌّ.",
+        "فَتَحَهَا عَلِيٌّ.",
+        "عَلِيٌّ فَتَحَهَا.",
+        "فَتَحَ عَلِيٌّ النَّوَافِذَ.",
+        "عَلِيٌّ فَتَحَ النَّوَافِذَ."
+      ],
+      "fr": "C'est ʿAlī qui les a ouvertes.",
+      "context": { "dialogue": "medine-t2.l05.dialogue-1#1" }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "medine-t2.l05.vocab-4",
+  "type": "vocabulary",
+  "title": "Laver, tuer, entendre, casser",
+  "icon": "water",
+  "screens": [
+    { "id": "medine-t2.l05.vocab-4#1", "type": "present", "item": "w:ghasala" },
+    { "id": "medine-t2.l05.vocab-4#2", "type": "present", "item": "w:qatala" },
+    {
+      "id": "medine-t2.l05.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ghasala",
+      "distractors": ["w:shariba", "w:fataha"]
+    },
+    { "id": "medine-t2.l05.vocab-4#4", "type": "present", "item": "w:samia" },
+    { "id": "medine-t2.l05.vocab-4#5", "type": "present", "item": "w:kasara" },
+    {
+      "id": "medine-t2.l05.vocab-4#6",
+      "type": "tip",
+      "title": "Les quatre formes : un aperçu",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici les quatre autres verbes du tableau du professeur. Tu retiens seulement le passé ; le reste est un aperçu."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["laver", "{ar|غَسَلَ}", "{ar|يَغْسِلُ}", "{ar|اِغْسِلْ}", "{ar|غَسْلٌ}"],
+            ["tuer", "{ar|قَتَلَ}", "{ar|يَقْتُلُ}", "{ar|اُقْتُلْ}", "{ar|قَتْلٌ}"],
+            ["entendre", "{ar|سَمِعَ}", "{ar|يَسْمَعُ}", "{ar|اِسْمَعْ}", "{ar|سَمْعٌ}"],
+            ["casser", "{ar|كَسَرَ}", "{ar|يَكْسِرُ}", "{ar|اِكْسِرْ}", "{ar|كَسْرٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le professeur écrit les noms d'action à l'accusatif ({ar|غَسْلًا}, {ar|قَتْلًا}, {ar|سَمْعًا}, {ar|كَسْرًا}) ; ici, ils sont à la forme du nominatif."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "À l'impératif, la hamza de départ porte une damma quand la voyelle du milieu du présent est une damma ({ar|يَقْتُلُ} → {ar|اُقْتُلْ}), une kasra sinon ({ar|يَغْسِلُ} → {ar|اِغْسِلْ}, {ar|يَسْمَعُ} → {ar|اِسْمَعْ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.vocab-4#7",
+      "type": "tip",
+      "title": "Une fatha qu'on ne voit pas",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans {ar|كَسَرَ زَيْدٌ عَصَاهُ} (« Zayd a cassé sa canne »), {ar|عَصَاهُ} est le complément d'objet direct : il est à l'accusatif. Pourtant, **on ne voit aucune fatha** : le mot se termine par un alif long ({ar|ا}), qui ne porte jamais de voyelle. Un nom de ce genre (un nom maqṣūr) garde la même forme à tous les cas."
+        },
+        { "type": "example", "ar": "كَسَرَ زَيْدٌ عَصَاهُ.", "fr": "Zayd a cassé sa canne." },
+        {
+          "type": "note",
+          "text": "On dit que la fatha est « sous-entendue » : elle existe en grammaire, mais elle ne s'écrit pas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.vocab-4#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:ghasala", "w:qatala", "w:samia", "w:kasara"]
+    },
+    { "id": "medine-t2.l05.vocab-4#9", "type": "build", "item": "w:samia", "extra": ["ص"] },
+    {
+      "id": "medine-t2.l05.vocab-4#10",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ الْقَمِيصَ.",
+      "fr": "Zayd a lavé la chemise.",
+      "gaps": [ { "answers": ["غَسَلَ"] } ],
+      "options": ["غَسَلَ", "سَمِعَ", "قَتَلَ", "كَسَرَ"],
+      "explain": "On lave une chemise : {ar|غَسَلَ}."
+    },
+    {
+      "id": "medine-t2.l05.vocab-4#11",
+      "type": "order",
+      "fr": "J'ai cassé le stylo.",
+      "answers": [["كَسَرْتُ", "الْقَلَمَ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t2.l05.vocab-4#12", "type": "typing", "ask": "fr", "item": "w:qatala" }
+  ]
+}

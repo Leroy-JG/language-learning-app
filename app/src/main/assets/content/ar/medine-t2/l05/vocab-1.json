@@ -1,0 +1,68 @@
+{
+  "id": "medine-t2.l05.vocab-1",
+  "type": "vocabulary",
+  "title": "Ouvrir, lire, comprendre, boire",
+  "icon": "door",
+  "screens": [
+    { "id": "medine-t2.l05.vocab-1#1", "type": "present", "item": "w:fataha" },
+    { "id": "medine-t2.l05.vocab-1#2", "type": "present", "item": "w:qaraa" },
+    {
+      "id": "medine-t2.l05.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:fataha",
+      "distractors": ["w:kataba", "w:dakhala"]
+    },
+    { "id": "medine-t2.l05.vocab-1#4", "type": "present", "item": "w:fahima" },
+    { "id": "medine-t2.l05.vocab-1#5", "type": "present", "item": "w:shariba" },
+    {
+      "id": "medine-t2.l05.vocab-1#6",
+      "type": "tip",
+      "title": "Les quatre formes d'un verbe : un aperçu",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans son tableau, le professeur donne quatre formes pour chaque verbe : le passé, le présent, l'impératif et le nom d'action ({ar|الْمَصْدَرُ}). Aujourd'hui, tu retiens seulement le passé ; le reste est un aperçu."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["ouvrir", "{ar|فَتَحَ}", "{ar|يَفْتَحُ}", "{ar|اِفْتَحْ}", "{ar|فَتْحٌ}"],
+            ["lire", "{ar|قَرَأَ}", "{ar|يَقْرَأُ}", "{ar|اِقْرَأْ}", "{ar|قِرَاءَةٌ}"],
+            ["comprendre", "{ar|فَهِمَ}", "{ar|يَفْهَمُ}", "{ar|اِفْهَمْ}", "{ar|فَهْمٌ}"],
+            ["boire", "{ar|شَرِبَ}", "{ar|يَشْرَبُ}", "{ar|اِشْرَبْ}", "{ar|شَرْبٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le professeur écrit les noms d'action à l'accusatif ({ar|فَهْمًا}, {ar|شَرْبًا}) ; ici, ils sont à la forme du nominatif. {ar|فَتَحَ} et {ar|قَرَأَ} ne sont pas dans son tableau : leurs formes sont ajoutées ici."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.vocab-1#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:fataha", "w:qaraa", "w:fahima", "w:shariba"]
+    },
+    { "id": "medine-t2.l05.vocab-1#8", "type": "build", "item": "w:fataha", "extra": ["خ"] },
+    {
+      "id": "medine-t2.l05.vocab-1#9",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ الْبَابَ.",
+      "fr": "Zayd a ouvert la porte.",
+      "gaps": [ { "answers": ["فَتَحَ"] } ],
+      "options": ["فَتَحَ", "قَرَأَ", "شَرِبَ", "فَهِمَ"],
+      "explain": "La traduction dit « a ouvert » : {ar|فَتَحَ}."
+    },
+    {
+      "id": "medine-t2.l05.vocab-1#10",
+      "type": "order",
+      "fr": "J'ai lu le livre.",
+      "answers": [["قَرَأْتُ", "الْكِتَابَ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t2.l05.vocab-1#11", "type": "typing", "ask": "fr", "item": "w:shariba" }
+  ]
+}

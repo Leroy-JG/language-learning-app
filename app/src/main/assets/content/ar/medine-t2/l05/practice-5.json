@@ -1,0 +1,124 @@
+{
+  "id": "medine-t2.l05.practice-5",
+  "type": "grammar",
+  "title": "Deux verbes, un sujet",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l05.practice-5#1",
+      "type": "tip",
+      "title": "L'exercice 9 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne trois exemples. Le nom est écrit une seule fois, avec le premier verbe ; le second verbe reprend le sujet par le pronom {ar|◌ُوا}."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            ["{ar|خَرَجَ الطُّلَّابُ وَذَهَبُوا}", "Les étudiants sont sortis et sont partis."],
+            ["{ar|قَرَأَ الطُّلَّابُ وَكَتَبُوا}", "Les étudiants ont lu et ont écrit."],
+            ["{ar|أَكَلَ النَّاسُ وَشَرِبُوا}", "Les gens ont mangé et ont bu."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.practice-5#2",
+      "type": "fill_gap",
+      "sentence": "أَكَلَ النَّاسُ {0}.",
+      "fr": "Les gens ont mangé et ont bu.",
+      "gaps": [ { "answers": ["وَشَرِبُوا"] } ],
+      "options": ["وَشَرِبُوا", "وَشَرِبَ", "وَشَرِبْنَ", "وَشَرِبَا"],
+      "explain": "Le second verbe reprend {ar|النَّاسُ} par le pronom {ar|◌ُوا} : {ar|وَشَرِبُوا}."
+    },
+    {
+      "id": "medine-t2.l05.practice-5#3",
+      "type": "order",
+      "fr": "Les étudiants sont sortis et sont partis.",
+      "answers": [["خَرَجَ", "الطُّلَّابُ", "وَذَهَبُوا"]],
+      "punctuation": ".",
+      "distractors": ["وَذَهَبَ"],
+      "explain": "Le second verbe reprend {ar|الطُّلَّابُ} par le pronom {ar|◌ُوا}."
+    },
+    {
+      "id": "medine-t2.l05.practice-5#4",
+      "type": "tip",
+      "title": "L'exercice 10 : faire des phrases",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour l'exercice 10, tu fais des phrases avec les verbes du chapitre. Quand le second verbe reprend aussi le complément du premier, on le colle sous forme de pronom."
+        },
+        {
+          "type": "example",
+          "ar": "كَتَبَ الطُّلَّابُ الْأَجْوِبَةَ وَحَفِظُوهَا.",
+          "fr": "Les étudiants ont écrit les réponses et les ont mémorisées."
+        },
+        {
+          "type": "breakdown",
+          "ar": "حَفِظُوهَا",
+          "fr": "ils les ont mémorisées",
+          "parts": [
+            { "ar": "حَفِظُ", "fr": "mémoris- (le verbe)" },
+            { "ar": "و", "fr": "ils (le pronom sujet)" },
+            { "ar": "هَا", "fr": "les (le complément)" }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "L'alif muet de {ar|◌ُوا} ne s'écrit pas devant un pronom collé : {ar|حَفِظُوا} + {ar|هَا} → {ar|حَفِظُوهَا}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l05.practice-5#5",
+      "type": "order",
+      "fr": "Les étudiants sont entrés dans la classe et se sont assis.",
+      "answers": [["دَخَلَ", "الطُّلَّابُ", "الْفَصْلَ", "وَجَلَسُوا"]],
+      "punctuation": ".",
+      "distractors": ["دَخَلُوا"],
+      "explain": "{ar|دَخَلَ} est avant son sujet : il reste au singulier. Le second verbe reprend le sujet par {ar|◌ُوا}."
+    },
+    {
+      "id": "medine-t2.l05.practice-5#6",
+      "type": "fill_gap",
+      "sentence": "ضَرَبَ الْأَوْلَادُ الْحَيَّةَ {0}.",
+      "fr": "Les garçons ont frappé le serpent et l'ont tué.",
+      "gaps": [ { "answers": ["وَقَتَلُوهَا"] } ],
+      "options": ["وَقَتَلُوهَا", "وَقَتَلُوهُ", "وَقَتَلُوا", "وَقَتَلَهَا"],
+      "explain": "{ar|حَيَّةٌ} est féminin : le complément est repris par {ar|هَا}, et le sujet pluriel par {ar|◌ُوا} : {ar|وَقَتَلُوهَا}."
+    },
+    {
+      "id": "medine-t2.l05.practice-5#7",
+      "type": "order",
+      "fr": "Les étudiants ont lu le cours et l'ont compris.",
+      "answers": [["قَرَأَ", "الطُّلَّابُ", "الدَّرْسَ", "وَفَهِمُوهُ"]],
+      "punctuation": ".",
+      "distractors": ["وَفَهِمُوهَا"],
+      "explain": "{ar|الدَّرْسُ} est masculin : le pronom est {ar|هُ}."
+    },
+    {
+      "id": "medine-t2.l05.practice-5#8",
+      "type": "order",
+      "fr": "Les gens ont entendu l'appel à la prière et sont allés à la mosquée.",
+      "answers": [["سَمِعَ", "النَّاسُ", "الْأَذَانَ", "وَذَهَبُوا", "إِلَى", "الْمَسْجِدِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l05.practice-5#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les étudiants ont ouvert la porte et sont sortis.",
+      "answers": ["فَتَحَ الطُّلَّابُ الْبَابَ وَخَرَجُوا."]
+    },
+    {
+      "id": "medine-t2.l05.practice-5#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les enfants ont mangé les figues et ont bu l'eau.",
+      "answers": ["أَكَلَ الْأَوْلَادُ التِّينَ وَشَرِبُوا الْمَاءَ."]
+    }
+  ]
+}
