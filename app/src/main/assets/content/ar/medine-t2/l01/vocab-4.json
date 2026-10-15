@@ -31,7 +31,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "{ar|ذُو} fait partie des « cinq noms » ({ar|الْأَسْمَاءُ الْخَمْسَةُ} : {ar|أَبٌ}, {ar|أَخٌ}, {ar|حَمٌ}, {ar|فَمٌ}, {ar|ذُو}), qui prennent {ar|و}, {ar|ا} ou {ar|ي} au lieu de la damma, de la fatha et de la kasra."
+          "text": "{ar|ذُو} fait partie des « cinq noms » ({ar|الْأَسْمَاءُ الْخَمْسَةُ} : {ar|أَبُو}, {ar|أَخُو}, {ar|حَمُو}, {ar|فُو}, {ar|ذُو}). Quand ils sont annexés à un autre mot que le {ar|ي} de « mon », ils prennent {ar|و}, {ar|ا} ou {ar|ي} au lieu de la damma, de la fatha et de la kasra : {ar|أَبُوهُ}, {ar|أَبَاهُ}, {ar|أَبِيهِ}."
         }
       ]
     },
