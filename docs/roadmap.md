@@ -24,7 +24,7 @@
 ## À faire, par ordre de priorité
 
 1. **Leçons suivantes du Tome de Médine 1**, avec la procédure `.claude/skills/nouvelle-lecon/SKILL.md`. Il faut que l'utilisateur joigne les PDF.
-   - Prochaine : le Tome 2 (le tome 1 est terminé : chapitres 1 à 23 et révisions 1 et 2 ; la leçon 18 est décrite dans `docs/sources-lecon-18.md`, les autres dans `docs/sources.md`).
+   - Prochaine : le Tome 2 (menu créé, aucun chapitre pour l'instant ; plan dans `docs/tome2-vue-densemble.md`, questions ouvertes au §7 ; le tome 1 est terminé : chapitres 1 à 23 et révisions 1 et 2 ; la leçon 18 est décrite dans `docs/sources-lecon-18.md`, les autres dans `docs/sources.md`).
    - À confirmer avec le professeur (leçon 21) : `إِنْكِلْتِرَا` (graphie du livre, avec ك) face à `إِنْجِلْتِرَا`, et la traduction de `الْمَدِينَةُ` par « Médine » dans le texte.
    - À confirmer avec le professeur (leçon 20) : la forme `أُرُوبَّا` (lettres dans cet ordre) sur la carte du PDF, face à `أُورُبَّا` / `أُورُوبَّا` dans l'app (l'exercice 3 de la leçon 21 écrit `أُورُبَّا`, comme l'app).
    - À confirmer avec le professeur (leçon 19) : `قُدَامَى` comme pluriel de `قَدِيمٌ` (attesté dans les dictionnaires modernes, non retrouvé dans Lisān al-ʿArab / al-Wasīṭ).

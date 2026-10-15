@@ -1,0 +1,170 @@
+# Tome de Médine 2 : vue d'ensemble
+
+Ce fichier garde la **carte du tome 2** avant d'écrire le premier chapitre. Il sert à rester
+cohérent d'une conversation à l'autre : où va le tome, ce qu'il suppose connu, ce qui est nouveau,
+les pièges déjà repérés. Il ne contient aucun contenu de cours (le dépôt est public : on ne
+recopie pas les supports du professeur, voir `docs/sources.md`).
+
+**Source de cette analyse :** un copier-coller (Ctrl+A) du PDF complet des supports du tome 2,
+fourni par l'utilisateur. Ce texte est **très abîmé** : harakat et shaddas perdues ou déplacées,
+mots arabes écrits à l'envers dans les tableaux, colonnes de vocabulaire mélangées, schémas et
+pages du livre absents (images). Il donne le plan et le sens, **jamais la forme exacte d'un mot**.
+Pour chaque chapitre, relire les PDF **visuellement** (règle de `CLAUDE.md`).
+
+## 1. Le tome en un coup d'œil
+
+- **31 cours numérotés** (le tome 1 en avait 23), plus des semaines de révision.
+- Le ton change par rapport au tome 1 : on passe du **vocabulaire et des phrases simples** à de la
+  **grammaire** (le verbe, les terminaisons, les particules qui agissent sur la phrase). Presque
+  chaque cours enseigne une règle, avec ses termes techniques arabes.
+- Le tome 1 s'était arrêté avant la conjugaison (seules les 3ᵉ personnes du passé étaient citées,
+  voir `docs/sources.md`, « Ce qui n'est pas enseigné »). **Le tome 2 est celui de la conjugaison
+  et de l'`إِعْرَاب` du verbe.**
+- Chaque cours garde la forme du tome 1 : une ou plusieurs parties de cours, puis un tableau
+  « vocabulaire nouveau » (mot, exemple, pluriel, singulier), et parfois des « expressions
+  nouvelles ». Nouveauté : un **tableau de verbes** à quatre formes (traduction, nom d'action
+  `الْمَصْدَرُ`, impératif, présent, passé) dans la plupart des cours.
+
+## 2. Les cinq fils rouges
+
+### A. La phrase nominale et les `نَوَاسِخُ` (cours 1, 2, 3, 4, 7, 25)
+`الْمُبْتَدَأُ` et `الْخَبَرُ` (vus au tome 1) sont repris, puis on apprend les mots qui **changent le
+sens et les cas** de la phrase :
+- `إِنَّ وَأَخَوَاتُهَا` (particules) : `إِنَّ` / `أَنَّ` (confirmation), `لَعَلَّ` (espoir),
+  `كَأَنَّ` (comparaison), `لَكِنَّ` (correction). Le sujet passe à l'accusatif, le prédicat reste au nominatif.
+- `كَانَ وَأَخَوَاتُهَا` (verbes) : `لَيْسَ` (négation), `كَانَ` (passé), `مَا زَالَ` (continuité).
+  Le sujet reste au nominatif, le prédicat passe à l'accusatif.
+- `مَا` négatif (qui peut jouer le rôle de `لَيْسَ`), puis `كَادَ` (verbes d'imminence).
+- Un pronom peut être le nom de `إِنَّ` / `لَعَلَّ` (`إِنِّي`, `لَعَلَّكَ`, `إِنَّهُ`).
+
+### B. Le verbe (cours 2, 5, 7, 8, 11 à 15, 17 à 19, 21, 22, 25 à 31)
+Le gros morceau, dans cet ordre :
+1. Le verbe et son sujet (nom apparent ou pronom) ; les trois temps et leurs signes.
+2. **Les pronoms sujets collés au passé** (cours 2), puis **au présent** (cours 11).
+3. Verbe intransitif / transitif, `الْمَفْعُولُ بِهِ` (cours 5), pronoms compléments collés (cours 8).
+4. **L'`إِعْرَاب` du présent** : nominatif, accusatif, jussif ; les deux cas où le verbe est
+   invariable ; les `الْأَفْعَالُ الْخَمْسَةُ` ; le verbe à finale défectueuse.
+5. Les particules qui agissent sur le présent : `النَّوَاصِبُ` (`أَنْ`, `لِ` de but, `لَنْ`) et
+   `الْجَوَازِمُ` (`لَا` de l'interdiction, `لَمْ`, `لَمَّا`) ; le futur avec `سَ` / `سَوْفَ` ;
+   **l'impératif** (cours 12 à 15, numérotation à confirmer).
+6. Les familles de verbes : défectueux (`الْمِثَالُ`, `الْأَجْوَفُ`, `النَّاقِصُ`, `اللَّفِيفُ`), doublé
+   (`الْمُضَعَّفُ`), à hamza (`الْمَهْمُوزُ`), sain (`السَّالِمُ`) : cours 26 à 31.
+
+### C. Les nombres (cours 1, 3, 10, 24)
+Reprise et fin du sujet commencé au tome 1 (1 à 10) : 3 à 10 annexés au pluriel, 11 à 19 composés,
+20 à 99 coordonnés, 100 et 1000, centaines et milliers (lecture dans les deux sens), **règle
+d'accord « inversé »** (3 à 10 : le nombre est de genre contraire au nom compté ; 1 et 2 s'accordent ;
+pour les composés et les dizaines, l'accord se fait selon le dernier élément), et les nombres
+ordinaux (cours 10). Le sujet revient en révision (révision 4).
+
+### D. Noms, pronoms, adjectifs
+- Les relatifs `الْأَسْمَاءُ الْمَوْصُولَةُ` (cours 9) ; `مَا` relatif (cours 16).
+- `أَفْعَلُ التَّفْضِيلِ` : comparatif et superlatif (cours 3) ; les couleurs (cours 16) ; `غَيْرُ`, `آخَرُ` / `أُخْرَى`.
+- Les cas des noms : révision du duel et des pluriels sains (cours 20 et 23), `الظُّرُوفُ`, `التَّمْيِيزُ`.
+- `كَافُ التَّشْبِيهِ` (cours 18) ; `مُنْذُ` (cours 17).
+
+### E. Petites particules et expressions
+`أَمْ` (choix), `بَلَى` et `نَعَمْ` (différence), `ظَنَّ` avec `أَنَّ`, `لَكِنْ`, `لِأَنَّ`, `أَمَّا … فَ …`,
+`لَسْتُ بِ …`, `لَقَدْ`, `يَنْبَغِي`, `ها` + pronom (`هَا أَنَا ذَا`), `مَا أَسْهَلَ …!` (exclamation),
+`لَا بَأْسَ`, `ذُو`. Un cours de pays/capitales (Yémen, Soudan, Égypte, Damas, Khartoum) au cours 9.
+
+## 3. Plan cours par cours (tel que lu dans le copier-coller)
+
+(≈) = numéro **non écrit** dans le copier-coller, déduit de l'ordre : à confirmer sur les PDF.
+
+| Cours | Contenu | Remarque |
+|---|---|---|
+| 1 | Phrase nominale (2ᵉ partie) : le prédicat, présentation des `نَوَاسِخُ` ; `إِنَّ وَأَخَوَاتُهَا` : `إِنَّ` / `أَنَّ`, `لَعَلَّ` ; `أَمْ` ; nombres (2ᵉ partie : vue d'ensemble) | **Cours très chargé** (4 sujets), à scinder sans doute |
+| intro verbe | Le verbe (1ʳᵉ partie) : passé / présent / impératif ; le sujet du verbe (apparent ou pronom) | rattaché au cours 2 (≈) |
+| 2 | Pronoms sujets collés **du passé** (3ᵉ partie des pronoms) ; `كَانَ وَأَخَوَاتُهَا` (1ʳᵉ partie) : `لَيْسَ` | première vraie conjugaison |
+| 3 | Nombres 11 à 19 en détail (3ᵉ partie) ; `أَفْعَلُ التَّفْضِيلِ` ; `إِنَّ وَأَخَوَاتُهَا` (2ᵉ partie) : `كَأَنَّ`, `لَكِنَّ` (≈) | |
+| 4 | `مَا` négatif (et `مَا` interrogatif) | |
+| 5 | Verbe intransitif / transitif ; `الْمَفْعُولُ بِهِ` (1ʳᵉ partie) ; un seul sujet par verbe | |
+| 6 (≈) | `بَلَى` / `نَعَمْ` ; `ظَنَّ` + `أَنَّ` | numéro absent de la copie |
+| 7 | `كَانَ وَأَخَوَاتُهَا` (2ᵉ partie) : `كَانَ` ; rencontre de deux sukūn ; complément placé avant le verbe (avec `أَ` / `أَمْ`) | |
+| 8 | `الْمَفْعُولُ بِهِ` (2ᵉ partie) ; pronoms compléments collés (4ᵉ partie des pronoms) ; un verbe peut avoir sujet **et** complément collés | |
+| 9 | Les relatifs (`الَّذِي` et ses formes, duel, pluriel) ; `أَ` + article (`آلْ`) ; `بِمَ` / `مِمَّ` ; exclamation `مَا أَفْعَلَ …` ; pays | cours riche en vocabulaire |
+| 10 | Nombres 20 à 99 (4ᵉ partie) ; nombres ordinaux | |
+| 11 | Le verbe (3ᵉ partie) : signes du passé, du présent (lettres `أَنَيْتُ`), de l'impératif ; pronoms sujets collés **du présent** (5ᵉ partie) ; futur `سَ` / `سَوْفَ` | seul le support des pronoms porte le numéro 11 ; la 3ᵉ partie du verbe le précède sans numéro |
+| 12 à 15 (≈) | `إِعْرَابُ الْفِعْلِ` : variable / invariable, `نُونُ النِّسْوَةِ` et `نُونُ التَّوْكِيدِ` ; cas de base et cas secondaires ; `الْأَفْعَالُ الْخَمْسَةُ` ; verbe à finale défectueuse (avec exercices) ; **l'impératif** (2 parties) ; derniers pronoms ; `الْجَوَازِمُ` (1ʳᵉ partie) : `لَا` de l'interdiction ; `كَادَ وَأَخَوَاتُهَا` | **six supports pour quatre numéros** : répartition inconnue |
+| 16 | Les couleurs ; `آخَرُ` / `أُخْرَى` ; `مَا` relatif ; `غَيْرُ` | |
+| 17 | `النَّوَاصِبُ` (1ʳᵉ partie) : `أَنْ`, `لِ` de but (`لَامُ التَّعْلِيلِ`) ; `مُنْذُ` ; saisons | |
+| 18 | `كَافُ التَّشْبِيهِ` ; `أَنْ` + `لَا` → `أَلَّا` | cours court |
+| 19 | `النَّوَاصِبُ` (2ᵉ partie) : `لَنْ` | |
+| 20 | **Révision** : `إِعْرَابُ الِاسْمِ` (cas de base, secondaires), duel, pluriels sains, noms sans tanwin | pas de partie nouvelle |
+| 21 | `الْجَوَازِمُ` (2ᵉ partie) : `لَمْ`, `لَمَّا` ; rencontre de deux sukūn dans les verbes | |
+| 22 | **Révision** : `إِعْرَابُ الْفِعْلِ الْمُضَارِعِ` | |
+| 23 | **Révision** : cas du pluriel masculin sain, etc. ; vocabulaire nouveau | seul cours « révision » avec vocabulaire |
+| 24 | Nombres, complément : annexés / composés / coordonnés, centaines, milliers, règle du dernier nombre | pas de vocabulaire |
+| 25 | `كَانَ وَأَخَوَاتُهَا` (3ᵉ partie) : `مَا زَالَ` | |
+| 26 | Le verbe défectueux (1ʳᵉ partie) : les quatre types ; `الْمِثَالُ` ; `هَا` + démonstratif | **texte du vocabulaire très corrompu** |
+| 27 | `الْأَجْوَفُ` | voir piège n° 1 |
+| 28 | `النَّاقِصُ` (finale `و`, `ي`, `ى`) ; interchangeabilité des lettres défectueuses | |
+| 29 | `الْمُضَعَّفُ` (verbe doublé) | |
+| 30 | `الْفِعْلُ الصَّحِيحُ` : trois types | |
+| 31 | `الْمَهْمُوزُ` | dernier cours |
+| Révisions 2, 3, 4 | **Deux semaines** : semaine 1 (`إِعْرَابُ الْفِعْلِ`, noms / `نَوَاسِخُ` / complément, nombres) et semaine 2 (mêmes thèmes + `الظُّرُوفُ`, `التَّمْيِيزُ`, nombres, **textes extraits de « قَصَصُ النَّبِيِّينَ »**) | la « Révision 1 » n'apparaît pas dans la copie |
+
+## 4. Ce que le tome 1 a déjà enseigné et que le tome 2 reprend
+
+À relire dans `docs/sources.md` avant chaque chapitre ; en résumé :
+- cas du nom, `مُبْتَدَأ` / `خَبَر`, `فَاعِل`, annexion, prépositions, noms variables / invariables ;
+- pronoms isolés du nominatif et pronoms affixes du génitif (chap. 10) ; `هُ` → `هِ` après kasra ;
+- nombres de 1 à 10 et règles de 3 à 10 (chap. 20 et révision 2) ;
+- le passé à la 3ᵉ personne et le `تْ` du féminin (chap. 12) ; **seulement des aperçus** de `ذَهَبْتُ`,
+  `ذَهَبْنَا`, `أُحِبُّ`, `يُحِبُّ` ;
+- `الَّذِي` : seulement aperçu (chap. 10) ; l'accusatif du complément : seulement aperçu (chap. 11) ;
+- tableaux de verbes à quatre formes : présents en révision 1 et 2 (dix verbes).
+
+Conséquence : **le cours 2 du tome 2 est la première leçon à exiger la conjugaison**, et le cours 5 la
+première à exiger le complément d'objet. Ce qui n'y est pas encore vu ne doit pas apparaître en exercice.
+
+## 5. Pièges déjà repérés (à ne pas recopier)
+
+1. **Cours 26 contre cours 27** : le cours 26 définit `اللَّفِيفُ` (deux lettres défectueuses) et
+   `الْأَجْوَفُ` (lettre défectueuse au **milieu**) ; le cours 27 **inverse** les deux définitions.
+   Retenir : `أَجْوَف` = milieu, `لَفِيف` = deux lettres défectueuses. Le support dit « début et fin »
+   pour le lafīf : c'est un cas (`لَفِيفٌ مَفْرُوقٌ`, ex. `وَقَى`) ; il en existe un autre (lettres côte à
+   côte, ex. `طَوَى`). À vérifier avant d'écrire une définition.
+2. **Cours 26, `الْمِثَالُ`** : « le `و` initial disparaît au présent et à l'impératif » est vrai pour la
+   grande majorité (`وَعَدَ` → `يَعِدُ`, `عِدْ`), pas pour tous. Écrire « en général ».
+3. **Cours 1** : « `إِنَّ` en début de phrase, `أَنَّ` au milieu » est une simplification. À écrire avec
+   prudence (`أَنَّ` suit un verbe, une conjonction…).
+4. **Cours 4** : `مَا` « peut avoir la même fonction que `لَيْسَ` dans certains cas ». Les cas ne sont pas
+   précisés dans la copie : ne pas affirmer de règle sans le support.
+5. **Cours 3 et 4** (traductions) : certaines définitions du support sont approximatives
+   (« se reprendre » pour `اِسْتَدْرَكَ`, « Mais » pour `لَكِنَّ`) : adapter la traduction au sens exact.
+6. **Formes à vérifier sur le PDF** : les tableaux de vocabulaire des cours 26, 29 et 30 sont presque
+   illisibles dans la copie ; `ظَنَّ` est décrit comme « douter » dans le cours 6 et traduit « penser,
+   croire » dans le tableau ; les pluriels rares (ex. `أَرَضُونَ`) sont à contrôler un par un.
+7. **Mêmes tableaux répétés** dans plusieurs cours (pronoms, `إِعْرَاب`, nombres) : une seule
+   version doit servir de référence dans l'app, et les chapitres de révision les reprennent.
+
+## 6. Ce que cela change pour l'app (à décider avec l'utilisateur, chapitre par chapitre)
+
+- **Verbes** : aucun type d'écran ne présente aujourd'hui une conjugaison complète. Méthode pour en
+  créer un : `docs/pedagogie.md` §4. Besoins probables : une « carte de verbe » (quatre formes),
+  un tableau de conjugaison (pronom → forme), un exercice « pronom ↔ terminaison », un exercice
+  d'analyse (`إِعْرَاب`) : « quel est le cas / la marque ? ».
+- **Termes techniques** : le tome 2 en emploie beaucoup (`مَنْصُوب`, `مَجْزُوم`, `اِسْمُ إِنَّ`…). À
+  présenter une fois, avec la traduction, puis à réemployer sans les expliquer de nouveau (comme
+  au tome 1).
+- **Nombres** : la règle d'accord « inversé » demande beaucoup d'exercices courts (`ثَلَاثَةُ كُتُبٍ`
+  / `ثَلَاثُ بَنَاتٍ`).
+- **Cours trop chargés** (cours 1, cours 12 à 15) : prévoir de les scinder en plusieurs chapitres
+  (ids stables, jamais renumérotés : suffixes `…#3b` pour les écrans, nouveaux ids pour les chapitres).
+- **Défis (quiz du professeur) et examen final** : aucun n'apparaît dans la copie ; à demander.
+- **Textes de révision** (extraits de « قَصَصُ النَّبِيِّينَ ») : en images dans le PDF, donc absents de
+  la copie.
+- **Outils** : `tools/nouveau_chapitre.py`, `generateur_contenu.py`, `lire_chapitre.py`,
+  `deja_enseigne.py`, `controle_qualite.py` visent le dossier `medine-t1` : les paramétrer pour le
+  tome 2 au premier chapitre.
+
+## 7. Questions ouvertes pour l'utilisateur
+
+1. Numérotation des cours 6 et 12 à 15 (absente de la copie) : quel PDF correspond à quel numéro ?
+2. Comment découper les cours très chargés (1, 12 à 15) : un chapitre par support, ou un chapitre par cours ?
+3. Les pages du livre (dialogues, exercices) du tome 2 existent-elles, comme au tome 1 ? Elles sont absentes de la copie.
+4. Y a-t-il des quiz du professeur (défis) et un examen final pour le tome 2 ?
+5. Où est la « Révision 1 » du tome 2 (absente de la copie) ?
+6. Faut-il garder un chapitre par cours même quand le cours est une simple révision (cours 20, 22, 23) ?
