@@ -1,0 +1,83 @@
+{
+  "id": "medine-t2.l09.vocab-5",
+  "type": "vocabulary",
+  "title": "Le grand-père, un instant, un lien",
+  "icon": "elder",
+  "screens": [
+    { "id": "medine-t2.l09.vocab-5#1", "type": "present", "item": "w:jadd" },
+    { "id": "medine-t2.l09.vocab-5#2", "type": "present", "item": "w:alaqa" },
+    {
+      "id": "medine-t2.l09.vocab-5#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:jadd",
+      "distractors": ["w:ab", "w:umm"]
+    },
+    { "id": "medine-t2.l09.vocab-5#4", "type": "present", "item": "w:lahza" },
+    { "id": "medine-t2.l09.vocab-5#5", "type": "present", "item": "w:talaq" },
+    {
+      "id": "medine-t2.l09.vocab-5#6",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:lahza",
+      "distractors": ["w:alaqa", "w:talaq"]
+    },
+    {
+      "id": "medine-t2.l09.vocab-5#7",
+      "type": "tip",
+      "title": "Un rapport avec…",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|عَلَاقَةٌ} se construit avec {ar|بِ} : {ar|لَهُ عَلَاقَةٌ بِالدَّرْسِ} (« il a un rapport avec le cours »). Pour dire « il n'a rien à voir avec… », le professeur emploie {ar|لَيْسَ}, que tu connais :"
+        },
+        {
+          "type": "example",
+          "ar": "لَيْسَتْ لَهُ عَلَاقَةٌ بِالدَّرْسِ.",
+          "fr": "Il n'a rien à voir avec le cours."
+        },
+        {
+          "type": "note",
+          "text": "Ici, {ar|لَيْسَتْ} s'accorde avec {ar|عَلَاقَةٌ}, qui est féminin : c'est elle, le sujet de {ar|لَيْسَ}. Comme le sujet vient après le verbe, on peut aussi dire {ar|لَيْسَ لَهُ عَلَاقَةٌ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.vocab-5#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:jadd", "w:alaqa", "w:lahza", "w:talaq"]
+    },
+    { "id": "medine-t2.l09.vocab-5#9", "type": "build", "item": "w:lahza", "extra": ["ه", "ض"] },
+    {
+      "id": "medine-t2.l09.vocab-5#10",
+      "type": "fill_gap",
+      "sentence": "سَلَّمَ زَيْدٌ عَلَى {0}.",
+      "fr": "Zayd a salué son grand-père.",
+      "gaps": [ { "answers": ["جَدِّهِ"] } ],
+      "options": ["جَدِّهِ", "لَحْظَةٍ", "طَلَاقٍ"],
+      "explain": "On salue une personne : {ar|جَدِّهِ} (« son grand-père »)."
+    },
+    {
+      "id": "medine-t2.l09.vocab-5#11",
+      "type": "order",
+      "fr": "Zayd a salué son grand-père.",
+      "answers": [["سَلَّمَ", "زَيْدٌ", "عَلَى", "جَدِّهِ"], ["زَيْدٌ", "سَلَّمَ", "عَلَى", "جَدِّهِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l09.vocab-5#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai une question qui n'a rien à voir avec le cours.",
+      "answers": ["عِنْدِي سُؤَالٌ لَيْسَتْ لَهُ عَلَاقَةٌ بِالدَّرْسِ.", "عِنْدِي سُؤَالٌ لَيْسَ لَهُ عَلَاقَةٌ بِالدَّرْسِ."]
+    },
+    {
+      "id": "medine-t2.l09.vocab-5#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "À cet instant, la sonnette a sonné.",
+      "answers": ["فِي هٰذِهِ اللَّحْظَةِ رَنَّ الْجَرَسُ."]
+    }
+  ]
+}

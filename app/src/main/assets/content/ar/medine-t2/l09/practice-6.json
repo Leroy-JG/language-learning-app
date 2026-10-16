@@ -1,0 +1,111 @@
+{
+  "id": "medine-t2.l09.practice-6",
+  "type": "vocabulary",
+  "title": "Au pluriel : exercices 13 et 14",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t2.l09.practice-6#1",
+      "type": "tip",
+      "title": "Mettre toute la phrase au pluriel",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans les exercices 13 et 14, on met au pluriel le nom souligné, puis tout ce qui s'accorde avec lui : le relatif, le verbe de la relative, et le prédicat s'il y en a un. Voici les deux modèles du professeur :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": {
+                "ar": "مَنِ الْفَتَى الَّذِي خَرَجَ مِنَ الْفَصْلِ الْآنَ؟",
+                "fr": "Qui est le jeune homme qui est sorti de la classe maintenant ?"
+              },
+              "to": {
+                "ar": "مَنِ الْفِتْيَةُ الَّذِينَ خَرَجُوا مِنَ الْفَصْلِ الْآنَ؟",
+                "fr": "Qui sont les jeunes hommes qui sont sortis de la classe maintenant ?"
+              },
+              "label": "exercice 13"
+            },
+            {
+              "from": {
+                "ar": "الطَّالِبَةُ الَّتِي دَخَلَتِ الْفَصْلَ الْآنَ مِنَ الْهِنْدِ.",
+                "fr": "L'étudiante qui est entrée dans la classe maintenant est de l'Inde."
+              },
+              "to": {
+                "ar": "الطَّالِبَاتُ اللَّاتِي دَخَلْنَ الْفَصْلَ الْآنَ مِنَ الْهِنْدِ.",
+                "fr": "Les étudiantes qui sont entrées dans la classe maintenant sont de l'Inde."
+              },
+              "label": "exercice 14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.practice-6#2",
+      "type": "order",
+      "fr": "Qui sont les hommes qui sont entrés chez vous maintenant ?",
+      "answers": [
+        ["مَنِ", "الرِّجَالُ", "الَّذِينَ", "دَخَلُوا", "بَيْتَكُمُ", "الْآنَ"],
+        ["مَنِ", "الرِّجَالُ", "الَّذِينَ", "دَخَلُوا", "الْآنَ", "بَيْتَكُمُ"]
+      ],
+      "punctuation": "؟",
+      "instruction": "Mets la phrase au pluriel : {ar|مَنِ الرَّجُلُ الَّذِي دَخَلَ بَيْتَكُمُ الْآنَ؟}",
+      "explain": "Le {ar|مْ} de {ar|كُمْ} prend une damma devant {ar|الْ} (deux sukūn qui se rencontrent, chapitre 7)."
+    },
+    {
+      "id": "medine-t2.l09.practice-6#3",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ {0} {1} جَاءُوا أَمْسِ؟",
+      "fr": "Où sont les étudiants qui sont venus hier ?",
+      "gaps": [ { "answers": ["الطُّلَّابُ"] }, { "answers": ["الَّذِينَ"] } ],
+      "options": ["الطُّلَّابُ", "الطَّالِبُ", "الَّذِينَ", "الَّذِي"],
+      "instruction": "Mets la phrase au pluriel : {ar|أَيْنَ الطَّالِبُ الَّذِي جَاءَ أَمْسِ؟}",
+      "explain": "Plusieurs hommes : {ar|الطُّلَّابُ} (le pluriel de {ar|طَالِبٌ}), {ar|الَّذِينَ}, {ar|جَاءُوا}."
+    },
+    {
+      "id": "medine-t2.l09.practice-6#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai frappé les garçons qui m'ont frappé.",
+      "answers": ["ضَرَبْتُ الْأَوْلَادَ الَّذِينَ ضَرَبُونِي."],
+      "instruction": "Mets la phrase au pluriel : {ar|ضَرَبْتُ الْوَلَدَ الَّذِي ضَرَبَنِي.}",
+      "explain": "{ar|ضَرَبُونِي} : le {ar|ا} muet de {ar|◌ُوا} tombe devant le pronom collé {ar|نِي}."
+    },
+    {
+      "id": "medine-t2.l09.practice-6#5",
+      "type": "order",
+      "fr": "Les jeunes filles qui sont chez la directrice sont les sœurs de Maryam.",
+      "answers": [["الْفَتَيَاتُ", "اللَّاتِي", "عِنْدَ", "الْمُدِيرَةِ", "أَخَوَاتُ", "مَرْيَمَ"]],
+      "punctuation": ".",
+      "instruction": "Mets toute la phrase au pluriel : {ar|الْفَتَاةُ الَّتِي عِنْدَ الْمُدِيرَةِ أُخْتُ مَرْيَمَ.}",
+      "explain": "Le prédicat s'accorde aussi : {ar|أُخْتُ} devient {ar|أَخَوَاتُ}."
+    },
+    {
+      "id": "medine-t2.l09.practice-6#6",
+      "type": "fill_gap",
+      "sentence": "{0} {1} فِي مُسْتَشْفَى الْوِلَادَةِ مِنْ إِنْكِلْتِرَا.",
+      "fr": "Les femmes médecins qui sont à la maternité sont d'Angleterre.",
+      "gaps": [ { "answers": ["الطَّبِيبَاتُ"] }, { "answers": ["اللَّاتِي"] } ],
+      "options": ["الطَّبِيبَاتُ", "الطَّبِيبَةُ", "اللَّاتِي", "الَّتِي"],
+      "instruction": "Mets au pluriel : {ar|الطَّبِيبَةُ الَّتِي فِي مُسْتَشْفَى الْوِلَادَةِ مِنْ إِنْكِلْتِرَا.}",
+      "explain": "Plusieurs femmes : {ar|الطَّبِيبَاتُ اللَّاتِي}."
+    },
+    {
+      "id": "medine-t2.l09.practice-6#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les femmes qui sont entrées chez nous sont mes tantes paternelles.",
+      "answers": ["النِّسَاءُ اللَّاتِي دَخَلْنَ بَيْتَنَا عَمَّاتِي."]
+    },
+    {
+      "id": "medine-t2.l09.practice-6#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les étudiantes qui sont entrées dans la classe maintenant sont de l'Inde.",
+      "answers": ["الطَّالِبَاتُ اللَّاتِي دَخَلْنَ الْفَصْلَ الْآنَ مِنَ الْهِنْدِ."],
+      "instruction": "Mets la phrase au pluriel : {ar|الطَّالِبَةُ الَّتِي دَخَلَتِ الْفَصْلَ الْآنَ مِنَ الْهِنْدِ.}"
+    }
+  ]
+}

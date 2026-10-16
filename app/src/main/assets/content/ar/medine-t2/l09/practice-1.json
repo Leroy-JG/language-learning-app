@@ -1,0 +1,118 @@
+{
+  "id": "medine-t2.l09.practice-1",
+  "type": "vocabulary",
+  "title": "Questions sur le texte : exercice 1",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t2.l09.practice-1#1",
+      "type": "question",
+      "prompt": { "ar": "كَمْ طَالِبًا وَجَدَ الْمُدَرِّسُ فِي الْفَصْلِ؟" },
+      "choices": [ { "ar": "خَمْسَةَ عَشَرَ طَالِبًا" }, { "ar": "خَمْسَةَ طُلَّابٍ" }, { "ar": "ثَلَاثَةَ عَشَرَ طَالِبًا" } ],
+      "answer": 0,
+      "instruction": "Réponds d'après le texte.",
+      "context": { "dialogue": "medine-t2.l09.dialogue-1#1" },
+      "explain": "« Il n'a trouvé que quinze étudiants » : {ar|خَمْسَةَ عَشَرَ طَالِبًا}. Les cinq nouveaux étudiants étaient sortis."
+    },
+    {
+      "id": "medine-t2.l09.practice-1#2",
+      "type": "question",
+      "prompt": { "ar": "لِمَ ذَهَبَ الطُّلَّابُ الْجُدُدُ إِلَى الْمُدِيرِ؟" },
+      "choices": [
+        { "ar": "لِأَنَّهُمْ مَا وَجَدُوا أَسْمَاءَهُمْ فِي الْقَائِمَةِ" },
+        { "ar": "لِأَنَّ الْمُدَرِّسَ مَرِيضٌ" },
+        { "ar": "لِأَنَّهُمْ مَا فَهِمُوا الدَّرْسَ" }
+      ],
+      "answer": 0,
+      "instruction": "Réponds d'après le texte.",
+      "context": { "dialogue": "medine-t2.l09.dialogue-1#1" },
+      "explain": "Ils disent : « nous n'avons pas trouvé nos noms sur la liste »."
+    },
+    {
+      "id": "medine-t2.l09.practice-1#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ خَلَقَنَا؟",
+      "answers": ["خَلَقَنَا اللَّهُ.", "اللَّهُ خَلَقَنَا.", "اللَّهُ."],
+      "fr": "Allah nous a créés.",
+      "context": { "dialogue": "medine-t2.l09.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t2.l09.practice-1#4",
+      "type": "question",
+      "prompt": { "ar": "مَنْ خَلَقَ الْقَمَرَ؟" },
+      "choices": [ { "ar": "خَلَقَهُ اللَّهُ" }, { "ar": "خَلَقَهَا اللَّهُ" }, { "ar": "خَلَقَهُمُ اللَّهُ" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l09.dialogue-2#1" },
+      "explain": "{ar|الْقَمَرُ} est masculin : le pronom complément est {ar|هُ}."
+    },
+    {
+      "id": "medine-t2.l09.practice-1#5",
+      "type": "question",
+      "prompt": { "ar": "مَنْ خَلَقَ الشَّمْسَ؟" },
+      "choices": [ { "ar": "خَلَقَهَا اللَّهُ" }, { "ar": "خَلَقَهُ اللَّهُ" }, { "ar": "خَلَقَهُمُ اللَّهُ" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l09.dialogue-2#1" },
+      "explain": "{ar|الشَّمْسُ} est féminin : le pronom complément est {ar|هَا}."
+    },
+    {
+      "id": "medine-t2.l09.practice-1#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِمَّ خَلَقَ اللَّهُ الْإِنْسَانَ؟",
+      "answers": [
+        "خَلَقَ اللَّهُ الْإِنْسَانَ مِنْ طِينٍ.",
+        "خَلَقَهُ اللَّهُ مِنْ طِينٍ.",
+        "خَلَقَهُ مِنْ طِينٍ.",
+        "مِنْ طِينٍ.",
+        "اللَّهُ خَلَقَ الْإِنْسَانَ مِنْ طِينٍ.",
+        "خَلَقَ الْإِنْسَانَ مِنْ طِينٍ.",
+        "اللَّهُ خَلَقَهُ مِنْ طِينٍ."
+      ],
+      "fr": "Allah a créé l'être humain à partir de boue.",
+      "instruction": "Réponds d'après le texte.",
+      "context": { "dialogue": "medine-t2.l09.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t2.l09.practice-1#7",
+      "type": "question",
+      "prompt": { "ar": "مَنْ خَلَقَ النُّجُومَ؟" },
+      "choices": [ { "ar": "خَلَقَهَا اللَّهُ" }, { "ar": "خَلَقَهُ اللَّهُ" }, { "ar": "خَلَقَنِي اللَّهُ" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l09.dialogue-2#1" },
+      "explain": "Des étoiles (un pluriel de choses) : on emploie {ar|هَا}, comme pour un féminin singulier."
+    },
+    {
+      "id": "medine-t2.l09.practice-1#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِمَّ خَلَقَ اللَّهُ الْجَانَّ؟",
+      "answers": [
+        "خَلَقَ اللَّهُ الْجَانَّ مِنْ نَارٍ.",
+        "خَلَقَهُ اللَّهُ مِنْ نَارٍ.",
+        "خَلَقَهُ مِنْ نَارٍ.",
+        "مِنْ نَارٍ.",
+        "اللَّهُ خَلَقَ الْجَانَّ مِنْ نَارٍ.",
+        "خَلَقَ الْجَانَّ مِنْ نَارٍ.",
+        "اللَّهُ خَلَقَهُ مِنْ نَارٍ."
+      ],
+      "fr": "Allah a créé le djinn à partir de feu.",
+      "instruction": "Réponds d'après le texte.",
+      "context": { "dialogue": "medine-t2.l09.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t2.l09.practice-1#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ سَمَاءً خَلَقَ اللَّهُ؟",
+      "answers": [
+        "خَلَقَ اللَّهُ سَبْعَ سَمَاوَاتٍ.",
+        "سَبْعَ سَمَاوَاتٍ.",
+        "خَلَقَ سَبْعَ سَمَاوَاتٍ.",
+        "اللَّهُ خَلَقَ سَبْعَ سَمَاوَاتٍ."
+      ],
+      "fr": "Allah a créé sept cieux.",
+      "context": { "dialogue": "medine-t2.l09.dialogue-2#1" }
+    }
+  ]
+}

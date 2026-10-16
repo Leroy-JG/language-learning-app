@@ -1,0 +1,112 @@
+{
+  "id": "medine-t2.l09.grammar-4",
+  "type": "grammar",
+  "title": "Du singulier au pluriel : tout change",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l09.grammar-4#1",
+      "type": "tip",
+      "title": "Le nom, le relatif, le verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand on met le nom au pluriel, il faut changer aussi le relatif et le verbe de la relative. Le professeur le montre avec {ar|الْفَتَى} :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "الْفَتَى الَّذِي خَرَجَ مِنَ الْفَصْلِ", "fr": "le jeune homme qui est sorti de la classe" },
+              "to": {
+                "ar": "الْفِتْيَةُ الَّذِينَ خَرَجُوا مِنَ الْفَصْلِ",
+                "fr": "les jeunes hommes qui sont sortis de la classe"
+              },
+              "label": "modèle du professeur"
+            },
+            {
+              "from": { "ar": "الْمُدَرِّسُ الَّذِي دَخَلَ", "fr": "l'enseignant qui est entré" },
+              "to": { "ar": "الْمُدَرِّسُونَ الَّذِينَ دَخَلُوا", "fr": "les enseignants qui sont entrés" }
+            },
+            {
+              "from": { "ar": "الطَّالِبَةُ الَّتِي دَخَلَتْ", "fr": "l'étudiante qui est entrée" },
+              "to": { "ar": "الطَّالِبَاتُ اللَّاتِي دَخَلْنَ", "fr": "les étudiantes qui sont entrées" }
+            },
+            {
+              "from": { "ar": "الْمَرْأَةُ الَّتِي دَخَلَتْ", "fr": "la femme qui est entrée" },
+              "to": { "ar": "النِّسَاءُ اللَّاتِي دَخَلْنَ", "fr": "les femmes qui sont entrées" }
+            },
+            {
+              "from": { "ar": "الْوَلَدُ الَّذِي ضَرَبَنِي", "fr": "le garçon qui m'a frappé" },
+              "to": { "ar": "الْأَوْلَادُ الَّذِينَ ضَرَبُونِي", "fr": "les garçons qui m'ont frappé" },
+              "label": "le {ar|ا} muet tombe devant {ar|نِي}"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les mots qui s'accordent avec le nom (un prédicat, par exemple) passent aussi au pluriel : {ar|الْفَتَاةُ الَّتِي عِنْدَ الْمُدِيرَةِ أُخْتُ مَرْيَمَ} devient {ar|الْفَتَيَاتُ اللَّاتِي عِنْدَ الْمُدِيرَةِ أَخَوَاتُ مَرْيَمَ}."
+        },
+        {
+          "type": "note",
+          "text": "{ar|فَتًى} a aussi le pluriel {ar|فِتْيَانٌ}. {ar|الْفِتْيَةُ} est le pluriel employé par le professeur ; le féminin est {ar|فَتَاةٌ} (pluriel {ar|فَتَيَاتٌ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.grammar-4#2",
+      "type": "sort",
+      "categories": [ { "fr": "plusieurs hommes" }, { "fr": "plusieurs femmes" } ],
+      "cards": [
+        { "ar": "خَرَجُوا", "category": 0 },
+        { "ar": "دَخَلْنَ", "category": 1 },
+        { "ar": "ذَهَبُوا", "category": 0 },
+        { "ar": "جَلَسْنَ", "category": 1 },
+        { "ar": "كَتَبُوا", "category": 0 },
+        { "ar": "فَتَحْنَ", "category": 1 }
+      ],
+      "instruction": "Pour qui ce verbe est-il au pluriel ?",
+      "explain": "Pour des hommes, le verbe se termine par {ar|◌ُوا} ; pour des femmes, par {ar|نَ} avec un sukūn sur la lettre qui précède."
+    },
+    {
+      "id": "medine-t2.l09.grammar-4#3",
+      "type": "fill_gap",
+      "sentence": "مَنِ {0} {1} دَخَلُوا الْفَصْلَ؟",
+      "fr": "Qui sont les enseignants qui sont entrés dans la classe ?",
+      "gaps": [ { "answers": ["الْمُدَرِّسُونَ"] }, { "answers": ["الَّذِينَ"] } ],
+      "options": ["الْمُدَرِّسُونَ", "الْمُدَرِّسُ", "الَّذِينَ", "الَّذِي"],
+      "explain": "Le nom, le relatif et le verbe sont tous au pluriel : {ar|الْمُدَرِّسُونَ الَّذِينَ دَخَلُوا}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-4#4",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ {0} {1} دَخَلْنَ الْفَصْلَ الْآنَ؟",
+      "fr": "Où sont les étudiantes qui sont entrées dans la classe maintenant ?",
+      "gaps": [ { "answers": ["الطَّالِبَاتُ"] }, { "answers": ["اللَّاتِي"] } ],
+      "options": ["الطَّالِبَاتُ", "الطَّالِبَةُ", "اللَّاتِي", "الَّتِي"],
+      "explain": "Plusieurs femmes : {ar|الطَّالِبَاتُ اللَّاتِي دَخَلْنَ}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-4#5",
+      "type": "order",
+      "fr": "Qui sont les jeunes hommes qui sont sortis maintenant ?",
+      "answers": [["مَنِ", "الْفِتْيَةُ", "الَّذِينَ", "خَرَجُوا", "الْآنَ"]],
+      "punctuation": "؟",
+      "explain": "{ar|مَنِ} : le {ar|ن} de {ar|مَنْ} prend une kasra devant {ar|الْ} (deux sukūn qui se rencontrent, chapitre 7)."
+    },
+    {
+      "id": "medine-t2.l09.grammar-4#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Où sont les jeunes hommes qui sont sortis ?",
+      "answers": ["أَيْنَ الْفِتْيَةُ الَّذِينَ خَرَجُوا؟"]
+    },
+    {
+      "id": "medine-t2.l09.grammar-4#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les jeunes hommes qui sont venus hier sont de nouveaux étudiants.",
+      "answers": ["الْفِتْيَةُ الَّذِينَ جَاءُوا أَمْسِ طُلَّابٌ جُدُدٌ."]
+    }
+  ]
+}

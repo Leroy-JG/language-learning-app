@@ -1,0 +1,83 @@
+{
+  "id": "medine-t2.l09.practice-4",
+  "type": "vocabulary",
+  "title": "Poser la question avec {ar|أَ} : exercice 9",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t2.l09.practice-4#1",
+      "type": "tip",
+      "title": "Le modèle du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans l'exercice 9, on transforme une phrase en question avec {ar|أَ}. Le professeur donne un exemple :"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "الْبِحَارُ جَمْعُ الْبَحْرِ", "fr": "« Les mers » est le pluriel de « la mer »" },
+              "to": { "ar": "آلْبِحَارُ جَمْعُ الْبَحْرِ؟", "fr": "« Les mers » est-il le pluriel de « la mer » ?" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Quand le premier mot n'a pas {ar|الْ}, on met simplement {ar|أَ} devant : {ar|أَهٰذَا الطَّالِبُ ضَرَبَكَ؟}"
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.practice-4#2",
+      "type": "fill_gap",
+      "sentence": "{0} خَرَجْتَ؟",
+      "fr": "Est-ce maintenant que tu es sorti ?",
+      "gaps": [ { "answers": ["آلْآنَ"] } ],
+      "options": ["آلْآنَ", "الْآنَ", "أَيْنَ"],
+      "explain": "{ar|الْآنَ خَرَجْتَ.} devient {ar|آلْآنَ خَرَجْتَ؟}."
+    },
+    {
+      "id": "medine-t2.l09.practice-4#3",
+      "type": "order",
+      "fr": "Est-ce aujourd'hui que ton père est revenu de Damas ?",
+      "answers": [
+        ["آلْيَوْمَ", "رَجَعَ", "أَبُوكَ", "مِنْ", "دِمَشْقَ"],
+        ["آلْيَوْمَ", "رَجَعَ", "مِنْ", "دِمَشْقَ", "أَبُوكَ"]
+      ],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l09.practice-4#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Est-ce l'enseignant qui est malade ?",
+      "answers": ["آلْمُدَرِّسُ مَرِيضٌ؟"]
+    },
+    {
+      "id": "medine-t2.l09.practice-4#5",
+      "type": "fill_gap",
+      "sentence": "{0} قَالَ هٰكَذَا؟",
+      "fr": "Est-ce le directeur qui a dit ça ?",
+      "gaps": [ { "answers": ["آلْمُدِيرُ"] } ],
+      "options": ["آلْمُدِيرُ", "الْمُدِيرُ", "مُدِيرٌ"],
+      "explain": "{ar|الْمُدِيرُ قَالَ هٰكَذَا.} devient {ar|آلْمُدِيرُ قَالَ هٰكَذَا؟}."
+    },
+    {
+      "id": "medine-t2.l09.practice-4#6",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Est-ce le nouvel étudiant qui a cassé cette chaise ?",
+      "answers": ["آلطَّالِبُ الْجَدِيدُ كَسَرَ هٰذَا الْكُرْسِيَّ؟"]
+    },
+    {
+      "id": "medine-t2.l09.practice-4#7",
+      "type": "fill_gap",
+      "sentence": "{0} الطَّالِبُ ضَرَبَكَ؟",
+      "fr": "Est-ce cet étudiant qui t'a frappé ?",
+      "gaps": [ { "answers": ["أَهٰذَا"] } ],
+      "options": ["أَهٰذَا", "آهٰذَا", "هٰذَا"],
+      "explain": "{ar|هٰذَا} n'a pas l'article {ar|الْ} : on met un simple {ar|أَ} devant ({ar|أَهٰذَا})."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "medine-t2.l09.vocab-2",
+  "type": "vocabulary",
+  "title": "La liste, la phrase, le sens",
+  "icon": "books",
+  "screens": [
+    { "id": "medine-t2.l09.vocab-2#1", "type": "present", "item": "w:qaima" },
+    { "id": "medine-t2.l09.vocab-2#2", "type": "present", "item": "w:jumla" },
+    {
+      "id": "medine-t2.l09.vocab-2#3",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:qaima",
+      "distractors": ["w:jumla", "w:kalima"]
+    },
+    { "id": "medine-t2.l09.vocab-2#4", "type": "present", "item": "w:maana" },
+    { "id": "medine-t2.l09.vocab-2#5", "type": "present", "item": "w:imtihan" },
+    {
+      "id": "medine-t2.l09.vocab-2#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:maana",
+      "distractors": ["w:suaal", "w:kalima"]
+    },
+    {
+      "id": "medine-t2.l09.vocab-2#7",
+      "type": "tip",
+      "title": "Un sens, son sens",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans {ar|مَعْنًى}, le tanwin est écrit sur un {ar|ى}. Quand on ajoute un pronom collé, le tanwin tombe et le {ar|ى} devient {ar|ا}. Le pronom suit le genre du mot dont on parle."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "مَعْنًى", "fr": "un sens" },
+              "to": { "ar": "مَعْنَاهُ", "fr": "son sens, pour un mot masculin" }
+            },
+            {
+              "from": { "ar": "مَعْنًى", "fr": "un sens" },
+              "to": { "ar": "مَعْنَاهَا", "fr": "son sens, pour un mot féminin" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans le texte du livre, le professeur parle d'un mot ({ar|كَلِمَةٌ}, féminin) : {ar|مَعْنَاهَا}. Pour {ar|الْجَدُّ} et {ar|الطِّينُ}, qui sont masculins, il dit {ar|مَعْنَاهُ}."
+        }
+      ]
+    },
+    { "id": "medine-t2.l09.vocab-2#8", "type": "present", "item": "p:ma-maana-hadha" },
+    { "id": "medine-t2.l09.vocab-2#9", "type": "present", "item": "p:ma-maana-hadhihi-alkalima" },
+    { "id": "medine-t2.l09.vocab-2#10", "type": "build", "item": "w:maana", "extra": ["ا", "ي"] },
+    {
+      "id": "medine-t2.l09.vocab-2#11",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:qaima", "w:jumla", "w:maana", "w:imtihan"]
+    },
+    {
+      "id": "medine-t2.l09.vocab-2#12",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:qaima", "w:jumla", "w:maana", "w:imtihan"]
+    },
+    {
+      "id": "medine-t2.l09.vocab-2#13",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mujtahid",
+      "distractors": ["w:jayyid", "w:marid"]
+    },
+    {
+      "id": "medine-t2.l09.vocab-2#14",
+      "type": "fill_gap",
+      "sentence": "مَا {0} هٰذِهِ الْكَلِمَةِ؟",
+      "fr": "Quel est le sens de ce mot ?",
+      "gaps": [ { "answers": ["مَعْنَى"] } ],
+      "options": ["مَعْنَى", "قَائِمَةُ", "امْتِحَانُ"],
+      "explain": "« Le sens de… » : {ar|مَعْنَى} + un nom au génitif ({ar|مَعْنَى هٰذِهِ الْكَلِمَةِ})."
+    },
+    {
+      "id": "medine-t2.l09.vocab-2#15",
+      "type": "order",
+      "fr": "J'ai un examen aujourd'hui.",
+      "answers": [
+        ["عِنْدِي", "امْتِحَانٌ", "الْيَوْمَ"],
+        ["الْيَوْمَ", "عِنْدِي", "امْتِحَانٌ"],
+        ["عِنْدِي", "الْيَوْمَ", "امْتِحَانٌ"]
+      ],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l09.vocab-2#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Quel est le sens de ce mot ?",
+      "answers": ["مَا مَعْنَى هٰذِهِ الْكَلِمَةِ؟"]
+    },
+    {
+      "id": "medine-t2.l09.vocab-2#17",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Où est le menu ?",
+      "answers": ["أَيْنَ قَائِمَةُ الطَّعَامِ؟"]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "medine-t2.l09.grammar-2",
+  "type": "grammar",
+  "title": "{ar|الَّذِي} ou {ar|الَّتِي} ?",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l09.grammar-2#1",
+      "type": "tip",
+      "title": "Le relatif s'accorde avec le nom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le relatif prend le genre du nom auquel il renvoie : {ar|الَّذِي} après un nom masculin, {ar|الَّتِي} après un nom féminin. Le verbe de la relative s'accorde aussi ({ar|خَرَجَ} / {ar|خَرَجَتْ})."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "الْمُدِيرُ الَّذِي جَاءَ", "fr": "le directeur qui est venu" },
+              "to": { "ar": "الْمُدِيرَةُ الَّتِي جَاءَتْ", "fr": "la directrice qui est venue" }
+            },
+            {
+              "from": { "ar": "الطَّالِبُ الَّذِي خَرَجَ", "fr": "l'étudiant qui est sorti" },
+              "to": { "ar": "الطَّالِبَةُ الَّتِي خَرَجَتْ", "fr": "l'étudiante qui est sortie" }
+            },
+            {
+              "from": { "ar": "الْكِتَابُ الَّذِي عَلَى الْمَكْتَبِ", "fr": "le livre qui est sur le bureau" },
+              "to": { "ar": "الْمَجَلَّةُ الَّتِي عَلَى الْمَكْتَبِ", "fr": "la revue qui est sur le bureau" },
+              "label": "un nom de chose suit la même règle"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pour les choses, c'est le genre du mot arabe qui décide : {ar|الشَّمْسُ} et {ar|النَّارُ} sont féminins, donc {ar|الَّتِي}. La relative peut aussi être un groupe avec préposition, comme {ar|الَّتِي عَلَى الْمَكْتَبِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.grammar-2#2",
+      "type": "sort",
+      "categories": [ { "ar": "الَّذِي" }, { "ar": "الَّتِي" } ],
+      "cards": [
+        { "ar": "الْكِتَابُ", "category": 0 },
+        { "ar": "الْمَدْرَسَةُ", "category": 1 },
+        { "ar": "الْقَمَرُ", "category": 0 },
+        { "ar": "الشَّمْسُ", "category": 1 },
+        { "ar": "الْجَدُّ", "category": 0 },
+        { "ar": "الْقَائِمَةُ", "category": 1 },
+        { "ar": "النَّارُ", "category": 1 },
+        { "ar": "الطِّينُ", "category": 0 }
+      ],
+      "instruction": "Quel relatif suit chaque nom ?",
+      "explain": "Un nom masculin est suivi de {ar|الَّذِي}, un nom féminin de {ar|الَّتِي}. {ar|الشَّمْسُ} et {ar|النَّارُ} sont féminins sans avoir de {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-2#3",
+      "type": "fill_gap",
+      "sentence": "الْمُدِيرَةُ {0} جَاءَتْ أَمْسِ مَرِيضَةٌ.",
+      "fr": "La directrice qui est venue hier est malade.",
+      "gaps": [ { "answers": ["الَّتِي"] } ],
+      "options": ["الَّتِي", "الَّذِي", "الَّذِينَ"],
+      "explain": "{ar|الْمُدِيرَةُ} est féminin : {ar|الَّتِي}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-2#4",
+      "type": "fill_gap",
+      "sentence": "الْكِتَابُ {0} عَلَى الْمَكْتَبِ جَدِيدٌ.",
+      "fr": "Le livre qui est sur le bureau est neuf.",
+      "gaps": [ { "answers": ["الَّذِي"] } ],
+      "options": ["الَّذِي", "الَّتِي", "اللَّاتِي"],
+      "explain": "{ar|الْكِتَابُ} est masculin : {ar|الَّذِي}. La relative est ici le groupe {ar|عَلَى الْمَكْتَبِ}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-2#5",
+      "type": "fill_gap",
+      "sentence": "الطَّالِبَةُ الَّتِي {0} مِنَ الْفَصْلِ مَرِيضَةٌ.",
+      "fr": "L'étudiante qui est sortie de la classe est malade.",
+      "gaps": [ { "answers": ["خَرَجَتْ"] } ],
+      "options": ["خَرَجَتْ", "خَرَجَ", "خَرَجُوا"],
+      "explain": "Le verbe de la relative s'accorde avec le nom : féminin, donc {ar|خَرَجَتْ}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-2#6",
+      "type": "spot",
+      "instruction": "Touche la proposition relative.",
+      "words": ["الْفَتَاةُ", "الَّتِي", "عِنْدَ", "الْمُدِيرَةِ", "أُخْتُ", "مَرْيَمَ."],
+      "answers": [2, 3],
+      "fr": "La jeune fille qui est chez la directrice est la sœur de Maryam.",
+      "explain": "Le relatif est {ar|الَّتِي} ; la relative est le groupe {ar|عِنْدَ الْمُدِيرَةِ}. {ar|أُخْتُ مَرْيَمَ} est le prédicat."
+    },
+    {
+      "id": "medine-t2.l09.grammar-2#7",
+      "type": "order",
+      "fr": "L'étudiante qui est sortie de la classe est malade.",
+      "answers": [["الطَّالِبَةُ", "الَّتِي", "خَرَجَتْ", "مِنَ", "الْفَصْلِ", "مَرِيضَةٌ"]],
+      "punctuation": ".",
+      "distractors": ["الَّذِي"]
+    },
+    {
+      "id": "medine-t2.l09.grammar-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "La directrice qui est venue hier est malade.",
+      "answers": ["الْمُدِيرَةُ الَّتِي جَاءَتْ أَمْسِ مَرِيضَةٌ."]
+    }
+  ]
+}

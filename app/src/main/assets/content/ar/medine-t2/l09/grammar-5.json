@@ -1,0 +1,110 @@
+{
+  "id": "medine-t2.l09.grammar-5",
+  "type": "grammar",
+  "title": "Une question avec {ar|أَ} : {ar|آلْ}",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l09.grammar-5#1",
+      "type": "tip",
+      "title": "{ar|أَ} + {ar|الْ} = {ar|آلْ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu sais que {ar|أَ} ({ar|هَمْزَةُ الِاسْتِفْهَامِ}) ouvre une question et que le mot sur lequel porte la question vient juste après. Quand ce mot commence par l'article {ar|الْ}, on allonge le {ar|أَ} (un {ar|مَدٌّ}) et la hamza de liaison de l'article ne se prononce plus."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "الْآنَ", "fr": "maintenant" },
+              "to": { "ar": "آلْآنَ", "fr": "est-ce maintenant… ?" }
+            },
+            {
+              "from": { "ar": "الْكِتَابَ", "fr": "le livre" },
+              "to": { "ar": "آلْكِتَابَ", "fr": "est-ce le livre… ?" }
+            }
+          ]
+        },
+        { "type": "example", "ar": "آلدَّرْسَ حَفِظْتَ؟", "fr": "Est-ce le cours que tu as mémorisé ?" },
+        { "type": "example", "ar": "آلْآنَ جَاءَ زَيْدٌ؟", "fr": "Est-ce maintenant que Zayd est venu ?" },
+        {
+          "type": "note",
+          "text": "Devant un nom sans {ar|الْ}, rien ne change : {ar|أَهٰذَا ضَرَبَكَ؟} (« est-ce celui-ci qui t'a frappé ? »)."
+        },
+        {
+          "type": "note",
+          "text": "À l'oral, on entend un « ā » long. Devant une lettre solaire, cette lettre est doublée ({ar|آلدَّرْسَ} : « ā-d-darsa ») ; devant une lettre lunaire, le {ar|ل} se prononce ({ar|آلْكِتَابَ} : « ā-l-kitāba »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.grammar-5#2",
+      "type": "question",
+      "prompt": { "fr": "Que devient la hamza de liaison de {ar|الْ} après {ar|أَ} ?" },
+      "choices": [
+        { "fr": "Elle disparaît et on allonge le {ar|أَ} : {ar|آلْ}" },
+        { "fr": "Elle reste : {ar|أَالْ}" },
+        { "fr": "Elle devient un {ar|ي}" }
+      ],
+      "answer": 0,
+      "explain": "{ar|أَ} + {ar|الْكِتَابَ} = {ar|آلْكِتَابَ} : la hamza de liaison tombe, et le {ar|أَ} s'allonge."
+    },
+    {
+      "id": "medine-t2.l09.grammar-5#3",
+      "type": "sort",
+      "categories": [ { "ar": "آلْ" }, { "ar": "أَ" } ],
+      "cards": [
+        { "ar": "آلْيَوْمَ رَجَعْتَ؟", "category": 0 },
+        { "ar": "أَهٰذَا ضَرَبَكَ؟", "category": 1 },
+        { "ar": "آلْمُدَرِّسُ مَرِيضٌ؟", "category": 0 },
+        { "ar": "أَزَيْدٌ جَاءَ؟", "category": 1 },
+        { "ar": "آلْكِتَابَ قَرَأْتَ؟", "category": 0 },
+        { "ar": "أَكِتَابًا قَرَأْتَ؟", "category": 1 }
+      ],
+      "instruction": "Comment la question commence-t-elle ?",
+      "explain": "Avec un nom qui porte l'article ({ar|الْيَوْمَ}, {ar|الْمُدَرِّسُ}, {ar|الْكِتَابَ}) : {ar|آلْ}. Sinon : {ar|أَ} simple."
+    },
+    {
+      "id": "medine-t2.l09.grammar-5#4",
+      "type": "spot",
+      "instruction": "Touche le mot sur lequel porte la question.",
+      "words": ["آلْيَوْمَ", "رَجَعَ", "أَبُوكَ", "مِنْ", "دِمَشْقَ؟"],
+      "answers": [0],
+      "fr": "Est-ce aujourd'hui que ton père est revenu de Damas ?",
+      "explain": "Le mot qui suit {ar|أَ} porte la question : c'est « aujourd'hui » qu'on veut savoir."
+    },
+    {
+      "id": "medine-t2.l09.grammar-5#5",
+      "type": "fill_gap",
+      "sentence": "{0} جَاءَ زَيْدٌ؟",
+      "fr": "Est-ce maintenant que Zayd est venu ?",
+      "gaps": [ { "answers": ["آلْآنَ"] } ],
+      "options": ["آلْآنَ", "الْآنَ", "أَيْنَ"],
+      "explain": "{ar|أَ} + {ar|الْآنَ} = {ar|آلْآنَ}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-5#6",
+      "type": "fill_gap",
+      "sentence": "{0} مَرِيضٌ؟",
+      "fr": "Est-ce l'enseignant qui est malade ?",
+      "gaps": [ { "answers": ["آلْمُدَرِّسُ"] } ],
+      "options": ["آلْمُدَرِّسُ", "الْمُدَرِّسُ", "مُدَرِّسٌ"],
+      "explain": "{ar|أَ} + {ar|الْمُدَرِّسُ} = {ar|آلْمُدَرِّسُ}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-5#7",
+      "type": "order",
+      "fr": "Est-ce le cours que tu as mémorisé ?",
+      "answers": [["آلدَّرْسَ", "حَفِظْتَ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l09.grammar-5#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Est-ce maintenant que Zayd est venu ?",
+      "answers": ["آلْآنَ جَاءَ زَيْدٌ؟"]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "medine-t2.l09.grammar-1",
+  "type": "grammar",
+  "title": "Un nom, un relatif, une phrase",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l09.grammar-1#1",
+      "type": "tip",
+      "title": "À quoi sert un relatif ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un pronom relatif ({ar|اِسْمٌ مَوْصُولٌ}) relie un nom à une phrase qui donne une précision sur lui. En français : « l'étudiant **qui** est sorti de la classe »."
+        },
+        { "type": "paragraph", "text": "Pour employer un relatif, il faut trois éléments :" },
+        {
+          "type": "table",
+          "header": ["Élément", "Exemple"],
+          "rows": [
+            ["1. un nom (celui dont on parle)", "{ar|الطَّالِبُ}"],
+            ["2. le relatif ({ar|اِسْمٌ مَوْصُولٌ}), qui renvoie à ce nom", "{ar|الَّذِي}"],
+            ["3. une phrase, la proposition relative ({ar|صِلَةُ الْمَوْصُولِ})", "{ar|خَرَجَ مِنَ الْفَصْلِ}"]
+          ]
+        },
+        {
+          "type": "example",
+          "ar": "الطَّالِبُ الَّذِي خَرَجَ مِنَ الْفَصْلِ.",
+          "fr": "L'étudiant qui est sorti de la classe."
+        },
+        {
+          "type": "note",
+          "text": "Le relatif est un nom défini et invariable ({ar|مَبْنِيٌّ}) : sa forme ne change pas selon son rôle dans la phrase. Seul le duel fait exception (tu le verras bientôt)."
+        }
+      ]
+    },
+    { "id": "medine-t2.l09.grammar-1#2", "type": "present", "item": "w:ism-mawsul" },
+    { "id": "medine-t2.l09.grammar-1#3", "type": "present", "item": "w:alladhi" },
+    {
+      "id": "medine-t2.l09.grammar-1#4",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:alladhi",
+      "distractors": ["w:hadha", "w:hadhihi"]
+    },
+    { "id": "medine-t2.l09.grammar-1#5", "type": "present", "item": "w:allati" },
+    {
+      "id": "medine-t2.l09.grammar-1#6",
+      "type": "tip",
+      "title": "Zayd, celui qui est sorti de la classe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur analyse deux phrases. Dans la première, la relative est une phrase verbale :"
+        },
+        {
+          "type": "example",
+          "ar": "زَيْدٌ الَّذِي خَرَجَ مِنَ الْفَصْلِ مَرِيضٌ.",
+          "fr": "Zayd, celui qui est sorti de la classe, est malade."
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Rôle"],
+          "rows": [
+            ["{ar|زَيْدٌ}", "le sujet ({ar|مُبْتَدَأٌ})"],
+            ["{ar|الَّذِي}", "le pronom relatif ({ar|اِسْمٌ مَوْصُولٌ})"],
+            [
+              "{ar|خَرَجَ مِنَ الْفَصْلِ}",
+              "la proposition relative ({ar|صِلَةُ الْمَوْصُولِ}) : elle donne une précision sur Zayd"
+            ],
+            ["{ar|مَرِيضٌ}", "le prédicat ({ar|خَبَرٌ})"]
+          ]
+        },
+        { "type": "paragraph", "text": "Dans la seconde, la relative est une phrase nominale :" },
+        {
+          "type": "example",
+          "ar": "فَاطِمَةُ الَّتِي هِيَ مُجْتَهِدَةٌ مَرِيضَةٌ.",
+          "fr": "Fāṭima, celle qui est assidue, est malade."
+        },
+        {
+          "type": "note",
+          "text": "La relative contient toujours un pronom qui renvoie au nom : le sujet caché « il » dans {ar|خَرَجَ}, le pronom {ar|هِيَ} dans la deuxième phrase, ou un pronom collé (le complément {ar|هُ} dans {ar|الدَّرْسُ الَّذِي حَفِظْتُهُ}, « la leçon que j'ai mémorisée »)."
+        }
+      ]
+    },
+    { "id": "medine-t2.l09.grammar-1#7", "type": "present", "item": "w:silat-mawsul" },
+    {
+      "id": "medine-t2.l09.grammar-1#8",
+      "type": "sort",
+      "categories": [ { "fr": "une phrase verbale" }, { "fr": "une phrase nominale" } ],
+      "cards": [
+        { "ar": "خَرَجَ مِنَ الْفَصْلِ", "category": 0 },
+        { "ar": "هُوَ مُجْتَهِدٌ", "category": 1 },
+        { "ar": "دَخَلَ الْبَيْتَ", "category": 0 },
+        { "ar": "هِيَ فِي الْمَطْعَمِ", "category": 1 },
+        { "ar": "ضَرَبَنِي", "category": 0 },
+        { "ar": "أَبُوهُ مُدِيرٌ", "category": 1 }
+      ],
+      "instruction": "Cette relative est…",
+      "explain": "Une phrase verbale commence par un verbe ({ar|خَرَجَ}, {ar|دَخَلَ}, {ar|ضَرَبَنِي}). Une phrase nominale commence par un nom ou un pronom ({ar|هُوَ}, {ar|هِيَ}, {ar|أَبُوهُ})."
+    },
+    {
+      "id": "medine-t2.l09.grammar-1#9",
+      "type": "spot",
+      "instruction": "Touche la proposition relative (les mots qui suivent le relatif).",
+      "words": ["الطَّالِبُ", "الَّذِي", "جَاءَ", "أَمْسِ", "مَرِيضٌ."],
+      "answers": [2, 3],
+      "fr": "L'étudiant qui est venu hier est malade.",
+      "explain": "Le relatif est {ar|الَّذِي} ; la relative est {ar|جَاءَ أَمْسِ}. {ar|مَرِيضٌ} est le prédicat de la phrase."
+    },
+    {
+      "id": "medine-t2.l09.grammar-1#10",
+      "type": "tip",
+      "title": "Après un nom défini",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|الَّذِي} et {ar|الَّتِي} s'emploient après un nom défini (avec {ar|الْ}, un nom propre…). Avec un nom indéfini, la phrase se met directement après le nom, sans relatif."
+        },
+        {
+          "type": "table",
+          "header": ["Nom défini : avec le relatif", "Nom indéfini : sans relatif"],
+          "rows": [
+            ["{ar|الرَّجُلُ الَّذِي خَرَجَ مِنَ الْفَصْلِ}", "{ar|رَجُلٌ خَرَجَ مِنَ الْفَصْلِ}"],
+            ["l'homme qui est sorti de la classe", "un homme qui est sorti de la classe"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.grammar-1#11",
+      "type": "fill_gap",
+      "sentence": "هٰذَا رَجُلٌ {0} الْفَصْلَ.",
+      "fr": "C'est un homme qui est entré dans la classe.",
+      "gaps": [ { "answers": ["دَخَلَ"] } ],
+      "options": ["دَخَلَ", "الَّذِي دَخَلَ", "الَّتِي دَخَلَتْ"],
+      "explain": "{ar|رَجُلٌ} est indéfini : pas de relatif. On met directement la phrase : {ar|رَجُلٌ دَخَلَ الْفَصْلَ}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-1#12",
+      "type": "fill_gap",
+      "sentence": "الرَّجُلُ {0} دَخَلَ الْفَصْلَ مَرِيضٌ.",
+      "fr": "L'homme qui est entré dans la classe est malade.",
+      "gaps": [ { "answers": ["الَّذِي"] } ],
+      "options": ["الَّذِي", "الَّتِي", "اللَّذَانِ"],
+      "explain": "{ar|الرَّجُلُ} est défini et masculin : on emploie {ar|الَّذِي}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-1#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd, celui qui est sorti de la classe, est malade.",
+      "answers": ["زَيْدٌ الَّذِي خَرَجَ مِنَ الْفَصْلِ مَرِيضٌ."]
+    }
+  ]
+}

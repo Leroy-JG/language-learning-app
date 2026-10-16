@@ -1,0 +1,220 @@
+{
+  "id": "medine-t2.l09.dialogue-1",
+  "type": "dialogue",
+  "title": "Les cinq nouveaux étudiants",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l09.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Les cinq nouveaux étudiants",
+      "intro": "L'enseignant ne trouve que quinze étudiants dans la classe : les cinq nouveaux étudiants manquent. Le cours commence ensuite, avec des mots à expliquer.",
+      "speakers": {
+        "R": { "name": "Le récit", "voice": "f1" },
+        "T": { "name": "Le professeur", "voice": "m1" },
+        "A": { "name": "ʿAbd Allāh", "voice": "m2" },
+        "S": { "name": "Les nouveaux étudiants", "voice": "m2" },
+        "H": { "name": "ʿAbd al-Raḥmān", "voice": "m2" },
+        "M": { "name": "Muḥammad", "voice": "m2" },
+        "F": { "name": "Fayṣal", "voice": "m2" },
+        "G": { "name": "Al-Ḥasan", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "R",
+          "ar": "دَخَلَ الْمُدَرِّسُ الْفَصْلَ وَوَجَدَ فِيهِ خَمْسَةَ عَشَرَ طَالِبًا فَقَطْ.",
+          "fr": "L'enseignant est entré dans la classe et n'y a trouvé que quinze étudiants."
+        },
+        {
+          "speaker": "T",
+          "ar": "أَيْنَ الطُّلَّابُ الْجُدُدُ الْخَمْسَةُ الَّذِينَ جَاءُوا أَمْسِ؟",
+          "fr": "Où sont les cinq nouveaux étudiants qui sont venus hier ?"
+        },
+        {
+          "speaker": "A",
+          "ar": "حَضَرُوا الْيَوْمَ وَخَرَجُوا قَبْلَ قَلِيلٍ. أَظُنُّ أَنَّهُمْ ذَهَبُوا إِلَى الْمُدِيرِ.",
+          "fr": "Ils sont venus aujourd'hui et sont sortis il y a un instant. Je pense qu'ils sont allés chez le directeur."
+        },
+        {
+          "speaker": "R",
+          "ar": "رَجَعَ الطُّلَّابُ الْخَمْسَةُ بَعْدَ قَلِيلٍ.",
+          "fr": "Les cinq étudiants sont revenus peu après."
+        },
+        {
+          "speaker": "T",
+          "ar": "أَإِلَى الْمُدِيرِ ذَهَبْتُمْ يَا أَبْنَائِي؟",
+          "fr": "Est-ce chez le directeur que vous êtes allés, mes fils ?"
+        },
+        {
+          "speaker": "S",
+          "ar": "نَعَمْ. ذَهَبْنَا إِلَيْهِ لِأَنَّنَا مَا وَجَدْنَا أَسْمَاءَنَا فِي الْقَائِمَةِ.",
+          "fr": "Oui. Nous sommes allés le voir parce que nous n'avons pas trouvé nos noms sur la liste."
+        },
+        { "speaker": "R", "ar": "جَلَسَ الْمُدَرِّسُ.", "fr": "L'enseignant s'est assis." },
+        {
+          "speaker": "T",
+          "ar": "أَقَرَأْتُمْ دَرْسَ الْأَمْسِ يَا أَبْنَائِي؟",
+          "fr": "Avez-vous lu la leçon d'hier, mes fils ?"
+        },
+        {
+          "speaker": "S",
+          "ar": "نَعَمْ. قَرَأْنَاهُ وَكَتَبْنَاهُ وَحَفِظْنَاهُ.",
+          "fr": "Oui. Nous l'avons lue, écrite et mémorisée."
+        },
+        { "speaker": "T", "ar": "أَفَهِمْتُمُوهُ؟", "fr": "Et l'avez-vous comprise ?" },
+        {
+          "speaker": "S",
+          "ar": "نَعَمْ. فَهِمْنَاهُ جَيِّدًا. مَا أَسْهَلَ هٰذَا الدَّرْسَ!",
+          "fr": "Oui. Nous l'avons bien comprise. Comme ce cours est facile !"
+        },
+        {
+          "speaker": "H",
+          "ar": "أَنَا مَا فَهِمْتُ فِيهِ ثَلَاثَ كَلِمَاتٍ.",
+          "fr": "Moi, je n'y ai pas compris trois mots."
+        },
+        { "speaker": "T", "ar": "مَا هِيَ؟", "fr": "Lesquels ?" },
+        {
+          "speaker": "H",
+          "ar": "قَرَأْنَا فِي الدَّرْسِ هٰذِهِ الْجُمْلَةَ: «عَادَ جَدِّي مِنَ الْخُرْطُومِ». فَمَا مَعْنَى هٰذِهِ الْكَلِمَاتِ الثَّلَاثِ؟",
+          "fr": "Nous avons lu cette phrase dans le cours : « Mon grand-père est revenu de Khartoum. » Quel est le sens de ces trois mots ?"
+        },
+        {
+          "speaker": "T",
+          "ar": "«عَادَ» مَعْنَاهَا «رَجَعَ»، وَ«الْجَدُّ» مَعْنَاهُ «أَبُو الْأَبِ أَوْ أَبُو الْأُمِّ»، وَ«الْخُرْطُومُ» عَاصِمَةُ السُّودَانِ. أَفَهِمْتَ؟",
+          "fr": "« {ar|عَادَ} » veut dire « {ar|رَجَعَ} », « {ar|الْجَدُّ} » veut dire « le père du père ou le père de la mère », et « {ar|الْخُرْطُومُ} » est la capitale du Soudan. As-tu compris ?"
+        },
+        { "speaker": "H", "ar": "الْآنَ فَهِمْتُ.", "fr": "Maintenant, j'ai compris." },
+        {
+          "speaker": "R",
+          "ar": "ثُمَّ فَتَحَ الْمُدَرِّسُ كِتَابَهُ وَقَرَأَ دَرْسًا جَدِيدًا:",
+          "fr": "Puis l'enseignant a ouvert son livre et a lu une nouvelle leçon :"
+        },
+        {
+          "speaker": "T",
+          "ar": "خَلَقَ اللَّهُ الشَّمْسَ وَالْقَمَرَ وَالنُّجُومَ وَالْأَرْضَ وَالْبِحَارَ، وَخَلَقَ كُلَّ شَيْءٍ. وَخَلَقَ الْإِنْسَانَ مِنْ طِينٍ.",
+          "fr": "Allah a créé le soleil, la lune, les étoiles, la terre et les mers, et Il a créé toute chose. Et Il a créé l'être humain à partir de boue."
+        },
+        {
+          "speaker": "R",
+          "ar": "ثُمَّ قَامَ وَكَتَبَ هٰذَا الدَّرْسَ عَلَى السَّبُّورَةِ.",
+          "fr": "Puis il s'est levé et a écrit cette leçon au tableau."
+        },
+        { "speaker": "R", "ar": "رَفَعَ مُحَمَّدٌ يَدَهُ.", "fr": "Muḥammad a levé la main." },
+        {
+          "speaker": "M",
+          "ar": "مَا مَعْنَى «الطِّينِ» يَا أُسْتَاذُ؟",
+          "fr": "Quel est le sens de « {ar|الطِّينِ} », professeur ?"
+        },
+        {
+          "speaker": "T",
+          "ar": "الطِّينُ مَعْنَاهُ التُّرَابُ الْمُخْتَلِطُ بِالْمَاءِ.",
+          "fr": "{ar|الطِّينُ} veut dire la terre mélangée à l'eau."
+        },
+        { "speaker": "R", "ar": "وَرَفَعَ فَيْصَلٌ يَدَهُ.", "fr": "Et Fayṣal a levé la main." },
+        { "speaker": "T", "ar": "أَعِنْدَكَ سُؤَالٌ يَا فَيْصَلُ؟", "fr": "As-tu une question, Fayṣal ?" },
+        {
+          "speaker": "F",
+          "ar": "نَعَمْ. عِنْدِي سُؤَالٌ. آلْبِحَارُ جَمْعُ الْبَحْرِ؟",
+          "fr": "Oui. J'ai une question. {ar|الْبِحَارُ}, est-ce le pluriel de {ar|الْبَحْرُ} ?"
+        },
+        { "speaker": "T", "ar": "نَعَمْ. هُوَ كَذٰلِكَ.", "fr": "Oui. C'est bien cela." },
+        { "speaker": "R", "ar": "قَامَ الْحَسَنُ.", "fr": "Al-Ḥasan s'est levé." },
+        {
+          "speaker": "G",
+          "ar": "مَا جَمْعُ «السَّمَاءِ» يَا أُسْتَاذُ؟",
+          "fr": "Quel est le pluriel de « {ar|السَّمَاءِ} », professeur ?"
+        },
+        { "speaker": "T", "ar": "جَمْعُهَا «سَمَاوَاتٌ».", "fr": "Son pluriel est « {ar|سَمَاوَاتٌ} »." }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le texte du livre contient quelques formes que tu vas comprendre plus tard. Rien n'est exigé en exercice : repère-les simplement."
+        },
+        {
+          "type": "table",
+          "header": ["Forme", "Sens"],
+          "rows": [
+            ["{ar|أَظُنُّ}", "je pense, je crois (le présent de {ar|ظَنَّ})"],
+            ["{ar|يَا أَبْنَائِي}", "mes fils ! (le pluriel de {ar|اِبْنٌ}, avec « mon », après {ar|يَا})"],
+            ["{ar|لِأَنَّنَا}", "parce que nous ({ar|لِأَنَّ} + {ar|نَا})"],
+            ["{ar|خَيْرٌ}", "dans le verset, « meilleur » (au sens de « plus que »)"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les phrases entre guillemets dans le texte arabe sont citées telles quelles : le mot expliqué par le professeur, ou un verset du Coran (la sourate est donnée avant)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Combien d'étudiants le professeur trouve-t-il en entrant dans la classe ?" },
+      "choices": [ { "fr": "quinze" }, { "fr": "cinq" }, { "fr": "vingt" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l09.dialogue-1#1" },
+      "explain": "{ar|خَمْسَةَ عَشَرَ طَالِبًا فَقَطْ} : quinze étudiants seulement."
+    },
+    {
+      "id": "medine-t2.l09.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Où les cinq nouveaux étudiants sont-ils allés ?" },
+      "choices": [ { "fr": "chez le directeur" }, { "fr": "à la bibliothèque" }, { "fr": "à la maison" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l09.dialogue-1#1" },
+      "explain": "{ar|أَظُنُّ أَنَّهُمْ ذَهَبُوا إِلَى الْمُدِيرِ} : ʿAbd Allāh pense qu'ils sont allés chez le directeur ; les étudiants le confirment."
+    },
+    {
+      "id": "medine-t2.l09.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "ʿAbd al-Raḥmān a tout compris dès le début de la leçon." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l09.dialogue-1#1" },
+      "explain": "Faux : il dit qu'il n'a pas compris trois mots, et le professeur les lui explique."
+    },
+    {
+      "id": "medine-t2.l09.dialogue-1#6",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|السَّمَاءُ}, d'après le professeur ?" },
+      "choices": [ { "ar": "سَمَاوَاتٌ" }, { "ar": "أَسْمَاءٌ" }, { "ar": "بِحَارٌ" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l09.dialogue-1#1" },
+      "explain": "Le professeur dit : {ar|جَمْعُهَا «سَمَاوَاتٌ»}. {ar|أَسْمَاءٌ} est le pluriel de {ar|اِسْمٌ}, {ar|بِحَارٌ} celui de {ar|بَحْرٌ}."
+    },
+    {
+      "id": "medine-t2.l09.dialogue-1#7",
+      "type": "fill_gap",
+      "sentence": "{0} الْمُدَرِّسُ الْفَصْلَ.",
+      "fr": "L'enseignant est entré dans la classe.",
+      "gaps": [ { "answers": ["دَخَلَ"] } ],
+      "options": ["دَخَلَ", "خَرَجَ", "ذَهَبَ"],
+      "context": { "dialogue": "medine-t2.l09.dialogue-1#1" },
+      "explain": "« Entrer » : {ar|دَخَلَ}."
+    },
+    {
+      "id": "medine-t2.l09.dialogue-1#8",
+      "type": "question",
+      "prompt": { "fr": "Quel est le sens de {ar|الْجَدُّ}, d'après le professeur ?" },
+      "choices": [
+        { "fr": "le père du père ou le père de la mère" },
+        { "fr": "la mère de la mère" },
+        { "fr": "le frère du père" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l09.dialogue-1#1" }
+    },
+    {
+      "id": "medine-t2.l09.dialogue-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Comme ce cours est facile !",
+      "answers": ["مَا أَسْهَلَ هٰذَا الدَّرْسَ!"]
+    }
+  ]
+}

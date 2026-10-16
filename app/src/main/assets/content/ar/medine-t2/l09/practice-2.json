@@ -1,0 +1,117 @@
+{
+  "id": "medine-t2.l09.practice-2",
+  "type": "vocabulary",
+  "title": "Le verset d'Iblīs, vrai ou faux : exercices 2 et 3",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t2.l09.practice-2#1",
+      "type": "tip",
+      "title": "Le verset de la sourate Al-Aʿrāf",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Abū Bakr cite un verset du Coran. Le professeur du livre pose trois questions dessus."
+        },
+        {
+          "type": "example",
+          "ar": "أَنَا خَيْرٌ مِنْهُ، خَلَقْتَنِي مِنْ نَارٍ وَخَلَقْتَهُ مِنْ طِينٍ.",
+          "fr": "Je suis meilleur que lui : Tu m'as créé de feu et Tu l'as créé d'argile. (Coran, 7:12)"
+        },
+        {
+          "type": "note",
+          "text": "Pour dire « à qui ? », on écrit {ar|لِمَنْ} : la préposition {ar|لِ} et {ar|مَنْ}, sans rien perdre (contrairement à {ar|لِ} + {ar|مَا} = {ar|لِمَ}). Dans le verset, {ar|خَلَقْتَنِي} veut dire « Tu m'as créé » : {ar|خَلَقْتَ} (« tu as créé ») + {ar|نِي} (« me »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.practice-2#2",
+      "type": "question",
+      "prompt": { "ar": "مَنْ قَالَ هٰذَا؟" },
+      "choices": [ { "ar": "إِبْلِيسُ" }, { "ar": "أَبُو بَكْرٍ" }, { "ar": "الْمُدَرِّسُ" } ],
+      "answer": 0,
+      "instruction": "Qui parle dans le verset ?",
+      "context": { "dialogue": "medine-t2.l09.dialogue-2#1" },
+      "explain": "Abū Bakr cite le verset ; c'est Iblīs qui parle, dans le Coran : « Iblīs a dit à Allah… »."
+    },
+    {
+      "id": "medine-t2.l09.practice-2#3",
+      "type": "question",
+      "prompt": { "ar": "وَلِمَنْ؟" },
+      "choices": [ { "ar": "لِلَّهِ" }, { "ar": "لِعُثْمَانَ" }, { "ar": "لِلْمُدَرِّسِ" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l09.dialogue-2#1" },
+      "explain": "Iblīs a parlé à Allah : {ar|قَالَ لِلَّهِ}."
+    },
+    {
+      "id": "medine-t2.l09.practice-2#4",
+      "type": "true_false",
+      "statement": { "ar": "الطُّلَّابُ الْجُدُدُ خَمْسَةَ عَشَرَ.", "fr": "Les nouveaux étudiants sont quinze." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l09.dialogue-1#1" },
+      "explain": "Faux : le professeur a trouvé quinze étudiants, mais les nouveaux étudiants sont cinq."
+    },
+    {
+      "id": "medine-t2.l09.practice-2#5",
+      "type": "question",
+      "prompt": { "ar": "مِنْ أَيِّ سُورَةٍ هٰذِهِ الْآيَةُ؟" },
+      "choices": [
+        { "ar": "مِنْ سُورَةِ الْأَعْرَافِ" },
+        { "ar": "مِنْ سُورَةِ الطَّلَاقِ" },
+        { "ar": "مِنْ سُورَةِ الْحَدِيدِ" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l09.dialogue-2#1" },
+      "explain": "Abū Bakr dit : {ar|فَجَاءَ فِي سُورَةِ الْأَعْرَافِ}."
+    },
+    {
+      "id": "medine-t2.l09.practice-2#6",
+      "type": "true_false",
+      "statement": {
+        "ar": "عَبْدُ الرَّحْمٰنِ مَا فَهِمَ مَعْنَى ثَلَاثِ كَلِمَاتٍ.",
+        "fr": "ʿAbd al-Raḥmān n'a pas compris le sens de trois mots."
+      },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l09.dialogue-1#1" },
+      "explain": "Vrai : « je n'y ai pas compris trois mots »."
+    },
+    {
+      "id": "medine-t2.l09.practice-2#7",
+      "type": "fill_gap",
+      "sentence": "قَالَ إِبْلِيسُ لِلَّهِ: أَنَا {0} مِنْهُ.",
+      "fr": "Iblīs a dit à Allah : je suis meilleur que lui.",
+      "gaps": [ { "answers": ["خَيْرٌ"] } ],
+      "options": ["خَيْرٌ", "مَرِيضٌ", "جَدِيدٌ"],
+      "explain": "Dans le verset, {ar|خَيْرٌ مِنْهُ} veut dire « meilleur que lui »."
+    },
+    {
+      "id": "medine-t2.l09.practice-2#8",
+      "type": "true_false",
+      "statement": {
+        "ar": "سَأَلَ فَيْصَلٌ الْمُدَرِّسَ: مَا جَمْعُ السَّمَاءِ؟",
+        "fr": "Fayṣal a demandé à l'enseignant : « Quel est le pluriel de {ar|السَّمَاءِ} ? »"
+      },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l09.dialogue-1#1" },
+      "explain": "Faux : c'est Fayṣal qui a demandé si {ar|الْبِحَارُ} est le pluriel de {ar|الْبَحْرُ} ; la question sur {ar|السَّمَاءُ} vient d'Al-Ḥasan."
+    },
+    {
+      "id": "medine-t2.l09.practice-2#9",
+      "type": "true_false",
+      "statement": {
+        "ar": "كَتَبَ الْمُدَرِّسُ الدَّرْسَ عَلَى السَّبُّورَةِ.",
+        "fr": "L'enseignant a écrit la leçon au tableau."
+      },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l09.dialogue-1#1" },
+      "explain": "Vrai : « Puis il s'est levé et a écrit cette leçon au tableau »."
+    },
+    {
+      "id": "medine-t2.l09.practice-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Allah a créé le djinn à partir de feu.",
+      "answers": ["خَلَقَ اللَّهُ الْجَانَّ مِنْ نَارٍ."]
+    }
+  ]
+}

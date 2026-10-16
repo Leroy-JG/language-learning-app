@@ -1,0 +1,90 @@
+{
+  "id": "medine-t2.l09.grammar-7",
+  "type": "grammar",
+  "title": "Combien ? Plusieurs ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l09.grammar-7#1",
+      "type": "tip",
+      "title": "{ar|كَمْ} et {ar|عِدَّةُ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Après {ar|كَمْ} (« combien de… ? »), le nom compté est au singulier, indéfini, à l'accusatif. Quand une préposition précède {ar|كَمْ}, on met en général le nom au génitif singulier. {ar|عِدَّةُ} (« plusieurs ») est suivi d'un nom pluriel indéfini au génitif."
+        },
+        {
+          "type": "table",
+          "header": ["Arabe", "Sens"],
+          "rows": [
+            [
+              "{ar|كَمْ طَالِبًا وَجَدَ الْمُدَرِّسُ فِي الْفَصْلِ؟}",
+              "Combien d'étudiants l'enseignant a-t-il trouvés dans la classe ?"
+            ],
+            ["{ar|كَمْ سَمَاءً خَلَقَ اللَّهُ؟}", "Combien de cieux Allah a-t-il créés ?"],
+            ["{ar|فِي كَمْ يَوْمٍ؟}", "En combien de jours ?"],
+            ["{ar|بِكَمْ رِيَالٍ هٰذَا الْكِتَابُ؟}", "Ce livre coûte combien de riyals ?"],
+            [
+              "{ar|عِدَّةُ أَسْئِلَةٍ}, {ar|عِدَّةُ كُتُبٍ}, {ar|عِدَّةُ أَيَّامٍ}",
+              "plusieurs questions, plusieurs livres, plusieurs jours"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|فِي كَمْ يَوْمٍ} et {ar|بِكَمْ رِيَالٍ} : quand une préposition ({ar|فِي}, {ar|بِ}) précède {ar|كَمْ}, le nom qui suit se met en général au génitif, comme le fait le professeur."
+        }
+      ]
+    },
+    { "id": "medine-t2.l09.grammar-7#2", "type": "present", "item": "p:fi-kam-yawm" },
+    { "id": "medine-t2.l09.grammar-7#3", "type": "present", "item": "p:bikam-riyal-alkitab" },
+    {
+      "id": "medine-t2.l09.grammar-7#4",
+      "type": "fill_gap",
+      "sentence": "سَأَلَ الْمُدَرِّسُ الطُّلَّابَ عِدَّةَ {0}.",
+      "fr": "L'enseignant a posé plusieurs questions aux étudiants.",
+      "gaps": [ { "answers": ["أَسْئِلَةٍ"] } ],
+      "options": ["أَسْئِلَةٍ", "سُؤَالٍ", "كُتُبٍ"],
+      "explain": "{ar|عِدَّةَ} est suivi d'un nom pluriel : {ar|أَسْئِلَةٍ} (le pluriel de {ar|سُؤَالٌ}). {ar|كُتُبٍ} est aussi un pluriel, mais on ne « pose » pas des livres à quelqu'un : le sens ne convient pas."
+    },
+    {
+      "id": "medine-t2.l09.grammar-7#5",
+      "type": "spot",
+      "instruction": "Touche les mots qui veulent dire « plusieurs questions ».",
+      "words": ["سَأَلَ", "الْمُدَرِّسُ", "الطُّلَّابَ", "عِدَّةَ", "أَسْئِلَةٍ."],
+      "answers": [3, 4],
+      "fr": "L'enseignant a posé plusieurs questions aux étudiants.",
+      "explain": "{ar|عِدَّةَ أَسْئِلَةٍ} : une annexion (« plusieurs questions »)."
+    },
+    {
+      "id": "medine-t2.l09.grammar-7#6",
+      "type": "fill_gap",
+      "sentence": "كَمْ {0} خَلَقَ اللَّهُ؟",
+      "fr": "Combien de cieux Allah a-t-il créés ?",
+      "gaps": [ { "answers": ["سَمَاءً"] } ],
+      "options": ["سَمَاءً", "سَمَاوَاتٍ", "شَمْسٍ"],
+      "explain": "Après {ar|كَمْ}, le nom est au singulier et à l'accusatif : {ar|سَمَاءً}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-7#7",
+      "type": "order",
+      "fr": "Combien d'étudiants l'enseignant a-t-il trouvés dans la classe ?",
+      "answers": [["كَمْ", "طَالِبًا", "وَجَدَ", "الْمُدَرِّسُ", "فِي", "الْفَصْلِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l09.grammar-7#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ce livre coûte combien de riyals ?",
+      "answers": ["بِكَمْ رِيَالٍ هٰذَا الْكِتَابُ؟"]
+    },
+    {
+      "id": "medine-t2.l09.grammar-7#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Combien de cieux Allah a-t-il créés ?",
+      "answers": ["كَمْ سَمَاءً خَلَقَ اللَّهُ؟"]
+    }
+  ]
+}

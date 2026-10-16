@@ -1,0 +1,88 @@
+{
+  "id": "medine-t2.l09.practice-3",
+  "type": "vocabulary",
+  "title": "Le sens des mots, les capitales : exercices 4 et 5",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t2.l09.practice-3#1",
+      "type": "tip",
+      "title": "Le modèle du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour l'exercice 5, le professeur donne un modèle : « la capitale du Soudan est Khartoum ». Tu fais pareil avec d'autres pays."
+        },
+        {
+          "type": "example",
+          "ar": "عَاصِمَةُ السُّودَانِ الْخُرْطُومُ.",
+          "fr": "La capitale du Soudan est Khartoum."
+        },
+        {
+          "type": "note",
+          "text": "{ar|دِمَشْقُ} n'a jamais de tanwin ; {ar|مِصْرُ} n'en a d'ordinaire pas non plus. Après {ar|عَاصِمَةُ}, le pays est au génitif, avec une fatha ({ar|عَاصِمَةُ مِصْرَ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.practice-3#2",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|الطِّينُ} d'après le professeur ?" },
+      "choices": [ { "fr": "la terre mélangée à l'eau" }, { "fr": "le père du père ou de la mère" }, { "fr": "revenir" } ],
+      "answer": 0,
+      "explain": "Le professeur dit : {ar|الطِّينُ مَعْنَاهُ التُّرَابُ الْمُخْتَلِطُ بِالْمَاءِ}."
+    },
+    {
+      "id": "medine-t2.l09.practice-3#3",
+      "type": "question",
+      "prompt": { "fr": "Par quel verbe, déjà connu, le professeur explique-t-il {ar|عَادَ} ?" },
+      "choices": [ { "ar": "رَجَعَ" }, { "ar": "ذَهَبَ" }, { "ar": "خَرَجَ" } ],
+      "answer": 0,
+      "explain": "Le professeur dit : {ar|عَادَ} {ar|مَعْنَاهَا} {ar|رَجَعَ} (« il est revenu »)."
+    },
+    {
+      "id": "medine-t2.l09.practice-3#4",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|الْجَدُّ} ?" },
+      "choices": [
+        { "fr": "le père du père ou le père de la mère" },
+        { "fr": "la mère de la mère" },
+        { "fr": "le frère du père" }
+      ],
+      "answer": 0,
+      "explain": "Le professeur dit : {ar|الْجَدُّ مَعْنَاهُ أَبُو الْأَبِ أَوْ أَبُو الْأُمِّ}."
+    },
+    {
+      "id": "medine-t2.l09.practice-3#5",
+      "type": "fill_gap",
+      "sentence": "عَاصِمَةُ الْعِرَاقِ {0}.",
+      "fr": "La capitale de l'Irak est Bagdad.",
+      "gaps": [ { "answers": ["بَغْدَادُ"] } ],
+      "options": ["بَغْدَادُ", "الرِّيَاضُ", "صَنْعَاءُ", "الْقَاهِرَةُ"],
+      "explain": "La capitale de l'Irak est {ar|بَغْدَادُ}."
+    },
+    {
+      "id": "medine-t2.l09.practice-3#6",
+      "type": "fill_gap",
+      "sentence": "عَاصِمَةُ الْمَمْلَكَةِ الْعَرَبِيَّةِ السُّعُودِيَّةِ {0}.",
+      "fr": "La capitale du Royaume d'Arabie saoudite est Riyad.",
+      "gaps": [ { "answers": ["الرِّيَاضُ"] } ],
+      "options": ["الرِّيَاضُ", "بَغْدَادُ", "صَنْعَاءُ", "الْخُرْطُومُ"],
+      "explain": "La capitale de l'Arabie saoudite est {ar|الرِّيَاضُ}."
+    },
+    {
+      "id": "medine-t2.l09.practice-3#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "La capitale de l'Égypte est Le Caire.",
+      "answers": ["عَاصِمَةُ مِصْرَ الْقَاهِرَةُ."]
+    },
+    {
+      "id": "medine-t2.l09.practice-3#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La capitale du Yémen est Sanaa.",
+      "answers": ["عَاصِمَةُ الْيَمَنِ صَنْعَاءُ."]
+    }
+  ]
+}

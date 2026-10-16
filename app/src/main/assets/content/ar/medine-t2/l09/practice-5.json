@@ -1,0 +1,124 @@
+{
+  "id": "medine-t2.l09.practice-5",
+  "type": "vocabulary",
+  "title": "Questions et réponses : exercices 10 et 12",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t2.l09.practice-5#1",
+      "type": "tip",
+      "title": "Qui a créé… ? Réponds sur le modèle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans l'exercice 10, le pronom de la réponse change selon la question : « toi » devient « moi », « vous » devient « nous »."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "مَنْ خَلَقَكَ؟", "fr": "Qui t'a créé ?" },
+              "to": { "ar": "خَلَقَنِي اللَّهُ.", "fr": "Allah m'a créé." },
+              "label": "modèle du professeur"
+            },
+            {
+              "from": { "ar": "مَنْ خَلَقَكُمْ؟", "fr": "Qui vous a créés ?" },
+              "to": { "ar": "خَلَقَنَا اللَّهُ.", "fr": "Allah nous a créés." }
+            },
+            {
+              "from": { "ar": "مَنْ خَلَقَنِي؟", "fr": "Qui m'a créé ?" },
+              "to": { "ar": "خَلَقَكَ اللَّهُ.", "fr": "Allah t'a créé." }
+            },
+            {
+              "from": { "ar": "مَنْ خَلَقَ الشَّمْسَ؟", "fr": "Qui a créé le soleil ?" },
+              "to": { "ar": "خَلَقَهَا اللَّهُ.", "fr": "Allah l'a créé." }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.practice-5#2",
+      "type": "fill_gap",
+      "sentence": "{0} اللَّهُ.",
+      "fr": "Allah m'a créé.",
+      "gaps": [ { "answers": ["خَلَقَنِي"] } ],
+      "options": ["خَلَقَنِي", "خَلَقَكَ", "خَلَقَنَا"],
+      "instruction": "Réponds à la question {ar|مَنْ خَلَقَكَ؟}",
+      "explain": "La question dit « toi » ({ar|كَ}) : tu réponds « moi » ({ar|نِي})."
+    },
+    {
+      "id": "medine-t2.l09.practice-5#3",
+      "type": "fill_gap",
+      "sentence": "{0} اللَّهُ.",
+      "fr": "Allah nous a créés.",
+      "gaps": [ { "answers": ["خَلَقَنَا"] } ],
+      "options": ["خَلَقَنَا", "خَلَقَنِي", "خَلَقَهُمْ"],
+      "instruction": "Réponds à la question {ar|مَنْ خَلَقَكُمْ؟}",
+      "explain": "La question dit « vous » ({ar|كُمْ}) : vous répondez « nous » ({ar|نَا})."
+    },
+    {
+      "id": "medine-t2.l09.practice-5#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنْ خَلَقَنِي؟",
+      "answers": ["خَلَقَكَ اللَّهُ.", "اللَّهُ خَلَقَكَ.", "اللَّهُ."],
+      "fr": "Allah t'a créé.",
+      "instruction": "Tu réponds à ton professeur."
+    },
+    {
+      "id": "medine-t2.l09.practice-5#5",
+      "type": "question",
+      "prompt": { "ar": "مِمَّ خَلَقَ اللَّهُ الْإِنْسَانَ؟" },
+      "choices": [ { "ar": "خَلَقَهُ مِنْ طِينٍ" }, { "ar": "خَلَقَهُ مِنْ نَارٍ" }, { "ar": "خَلَقَهُ مِنْ حَجَرٍ" } ],
+      "answer": 0,
+      "explain": "Dans le texte du livre : {ar|خَلَقَهُ مِنْ طِينٍ}."
+    },
+    {
+      "id": "medine-t2.l09.practice-5#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je l'ai tuée avec la pierre.",
+      "answers": ["قَتَلْتُهَا بِالْحَجَرِ."],
+      "instruction": "Réponds à la question {ar|بِمَ قَتَلْتَ الْحَيَّةَ؟}",
+      "explain": "{ar|الْحَيَّةُ} est féminin : le complément est {ar|هَا}."
+    },
+    {
+      "id": "medine-t2.l09.practice-5#7",
+      "type": "question",
+      "prompt": { "ar": "لِمَ خَرَجْتَ مِنَ الْفَصْلِ؟" },
+      "choices": [
+        { "ar": "خَرَجْتُ لِأَنَّنِي مَرِيضٌ" },
+        { "ar": "خَرَجْتُ مِنَ الْبَابِ" },
+        { "ar": "خَرَجْتُ مَعَ زَيْدٍ" }
+      ],
+      "answer": 0,
+      "explain": "{ar|لِمَ} veut dire « pourquoi ? » : on répond avec {ar|لِأَنَّ} (« parce que »)."
+    },
+    {
+      "id": "medine-t2.l09.practice-5#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai cherché ma montre.",
+      "answers": ["بَحَثْتُ عَنْ سَاعَتِي."],
+      "instruction": "Réponds à la question {ar|عَمَّ بَحَثْتَ فِي الْمَدْرَسَةِ؟}"
+    },
+    {
+      "id": "medine-t2.l09.practice-5#9",
+      "type": "fill_gap",
+      "sentence": "سَأَلْتُهُ {0} الِامْتِحَانِ.",
+      "fr": "Je l'ai interrogé sur l'examen.",
+      "gaps": [ { "answers": ["عَنِ"] } ],
+      "options": ["عَنِ", "مِنَ", "فِي"],
+      "instruction": "Réponds à la question {ar|عَمَّ سَأَلْتَ الْمُدَرِّسَ؟}",
+      "explain": "{ar|سَأَلَ} se construit avec {ar|عَنْ} : {ar|عَنْ} prend une kasra devant {ar|الِامْتِحَانِ}."
+    },
+    {
+      "id": "medine-t2.l09.practice-5#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il l'a créé à partir de boue.",
+      "answers": ["خَلَقَهُ مِنْ طِينٍ."]
+    }
+  ]
+}
