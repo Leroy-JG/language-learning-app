@@ -1,0 +1,88 @@
+{
+  "id": "medine-t2.l06.vocab-2",
+  "type": "vocabulary",
+  "title": "Chez Saʿīd",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t2.l06.vocab-2#1", "type": "present", "item": "w:bunayya" },
+    { "id": "medine-t2.l06.vocab-2#2", "type": "present", "item": "w:khadima" },
+    {
+      "id": "medine-t2.l06.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:khadima",
+      "distractors": ["w:mudarrisa", "w:zamila"]
+    },
+    { "id": "medine-t2.l06.vocab-2#4", "type": "present", "item": "w:qita" },
+    { "id": "medine-t2.l06.vocab-2#5", "type": "present", "item": "w:mudira" },
+    {
+      "id": "medine-t2.l06.vocab-2#6",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:mudira",
+      "distractors": ["w:khadima", "w:mudarrisa"]
+    },
+    { "id": "medine-t2.l06.vocab-2#7", "type": "present", "item": "w:zuhr" },
+    {
+      "id": "medine-t2.l06.vocab-2#8",
+      "type": "tip",
+      "title": "Midi, dos, directrice : de petites différences",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Mot", "Sens", "Ce qui change"],
+          "rows": [
+            ["{ar|ظَهْرٌ}", "un dos", "fatha sur le {ar|ظ}"],
+            ["{ar|ظُهْرٌ}", "le midi", "damma sur le {ar|ظ}"],
+            ["{ar|مُدِيرٌ}", "un directeur", "—"],
+            ["{ar|مُدِيرَةٌ}", "une directrice", "le {ar|ة} marque le féminin"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Pour un morceau d'une chose, on peut employer l'annexion ({ar|قِطْعَةُ خُبْزٍ}) ou {ar|مِنْ} ({ar|قِطْعَةٌ مِنَ الْخُبْزِ}) : les deux sont justes."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.vocab-2#9",
+      "type": "sort",
+      "categories": [ { "fr": "masculin" }, { "fr": "féminin" } ],
+      "cards": [
+        { "item": "w:bunayya", "category": 0 },
+        { "item": "w:khadima", "category": 1 },
+        { "item": "w:qita", "category": 1 },
+        { "item": "w:zuhr", "category": 0 },
+        { "item": "w:mudira", "category": 1 },
+        { "item": "w:mudir", "category": 0 }
+      ],
+      "instruction": "Masculin ou féminin ?",
+      "explain": "Les noms terminés par {ar|ة} sont en général féminins ; {ar|بُنَيَّ} (« mon fils ») et {ar|ظُهْرٌ} sont masculins."
+    },
+    { "id": "medine-t2.l06.vocab-2#10", "type": "build", "item": "w:khadima", "extra": ["ه"] },
+    {
+      "id": "medine-t2.l06.vocab-2#11",
+      "type": "fill_gap",
+      "sentence": "يَا {0}، أَيْنَ ذَهَبْتَ؟",
+      "fr": "Mon fils, où es-tu allé ?",
+      "gaps": [ { "answers": ["بُنَيَّ"] } ],
+      "options": ["بُنَيَّ", "بِنْتِي", "أُخْتِي"],
+      "explain": "{ar|بُنَيَّ} = « mon fils »."
+    },
+    {
+      "id": "medine-t2.l06.vocab-2#12",
+      "type": "order",
+      "fr": "J'ai mangé un morceau de pain.",
+      "answers": [["أَكَلْتُ", "قِطْعَةَ", "خُبْزٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l06.vocab-2#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le directeur et la directrice sont à l'école.",
+      "answers": ["الْمُدِيرُ وَالْمُدِيرَةُ فِي الْمَدْرَسَةِ."]
+    }
+  ]
+}

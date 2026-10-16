@@ -1,0 +1,107 @@
+{
+  "id": "medine-t2.l06.practice-7",
+  "type": "grammar",
+  "title": "Faim, soif, colère, paresse",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l06.practice-7#1",
+      "type": "tip",
+      "title": "L'exercice 14 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le modèle part d'un homme, et donne la phrase au féminin, puis au pluriel (étudiants, étudiantes). Tu fais de même avec quatre adjectifs."
+        },
+        {
+          "type": "table",
+          "header": ["Modèle", "Au féminin", "Au pluriel"],
+          "rows": [
+            [
+              "{ar|حَامِدٌ جَوْعَانُ.}",
+              "{ar|مَرْيَمُ جَوْعَى.}",
+              "{ar|الطُّلَّابُ جِيَاعٌ.} / {ar|الطَّالِبَاتُ جِيَاعٌ.}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.practice-7#2",
+      "type": "fill_gap",
+      "sentence": "مَرْيَمُ {0}.",
+      "fr": "Maryam a soif.",
+      "gaps": [ { "answers": ["عَطْشَى"] } ],
+      "options": ["عَطْشَى", "عَطْشَانُ", "عِطَاشٌ"],
+      "explain": "Le sujet est une femme : le féminin {ar|عَطْشَى}."
+    },
+    {
+      "id": "medine-t2.l06.practice-7#3",
+      "type": "fill_gap",
+      "sentence": "الطُّلَّابُ {0}.",
+      "fr": "Les étudiants ont soif.",
+      "gaps": [ { "answers": ["عِطَاشٌ"] } ],
+      "options": ["عِطَاشٌ", "عَطْشَانُ", "شَبْعَانُ"],
+      "explain": "Le sujet est au pluriel : le pluriel {ar|عِطَاشٌ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-7#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Maryam est rassasiée.",
+      "answers": ["مَرْيَمُ شَبْعَى."]
+    },
+    {
+      "id": "medine-t2.l06.practice-7#5",
+      "type": "fill_gap",
+      "sentence": "الطَّالِبَاتُ {0}.",
+      "fr": "Les étudiantes sont rassasiées.",
+      "gaps": [ { "answers": ["شِبَاعٌ"] } ],
+      "options": ["شِبَاعٌ", "شَبْعَانُ", "جَوْعَانُ"],
+      "explain": "Le sujet est au pluriel : le pluriel {ar|شِبَاعٌ}, qui sert aussi pour des femmes."
+    },
+    {
+      "id": "medine-t2.l06.practice-7#6",
+      "type": "fill_gap",
+      "sentence": "الْمُدَرِّسَةُ {0}.",
+      "fr": "L'enseignante est en colère.",
+      "gaps": [ { "answers": ["غَضْبَى"] } ],
+      "options": ["غَضْبَى", "غَضْبَانُ", "غِضَابٌ"],
+      "explain": "Le sujet est une femme : le féminin {ar|غَضْبَى}."
+    },
+    {
+      "id": "medine-t2.l06.practice-7#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les étudiantes sont en colère.",
+      "answers": ["الطَّالِبَاتُ غِضَابٌ."]
+    },
+    {
+      "id": "medine-t2.l06.practice-7#8",
+      "type": "fill_gap",
+      "sentence": "مَرْيَمُ {0}.",
+      "fr": "Maryam est paresseuse.",
+      "gaps": [ { "answers": ["كَسْلَى"] } ],
+      "options": ["كَسْلَى", "كَسْلَانُ", "كُسَالَى"],
+      "explain": "Le sujet est une femme, au singulier : le féminin {ar|كَسْلَى}."
+    },
+    {
+      "id": "medine-t2.l06.practice-7#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les étudiants sont paresseux.",
+      "answers": ["الطُّلَّابُ كُسَالَى."]
+    },
+    {
+      "id": "medine-t2.l06.practice-7#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Maryam a faim, mais Ḥāmid est rassasié.",
+      "answers": [
+        "مَرْيَمُ جَوْعَى وَحَامِدٌ شَبْعَانُ.",
+        "مَرْيَمُ جَوْعَى لٰكِنَّ حَامِدًا شَبْعَانُ.",
+        "مَرْيَمُ جَوْعَى وَلٰكِنَّ حَامِدًا شَبْعَانُ."
+      ]
+    }
+  ]
+}

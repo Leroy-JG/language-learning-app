@@ -108,7 +108,7 @@ la plus claire de la montrer, puis la plus efficace de l'entraîner ?**
 3. Varier d'une leçon à l'autre : un chapitre doit contenir au moins un jeu (`memory`, `sort`, `build` ou `spot`) en plus des exercices classiques.
 4. Écrire le plan du chapitre (parties, activités, outils choisis) avant le JSON.
 
-Exemples tirés des leçons 1 à 5 :
+Exemples tirés des leçons 1 à 6 :
 - `sort` مَا / مَنْ dans `l01/grammar-3` ;
 - `memory` des animaux dans `l01/vocab-5` ;
 - `build` de مِفْتَاحٌ dans `l01/vocab-2` ;
@@ -125,6 +125,10 @@ Exemples tirés des leçons 1 à 5 :
 - `sort` « annexion / préposition + nom » (deux raisons d'avoir la kasra) dans `l05/practice-1`, et « on appelle / on parle de quelqu'un » dans `l05/practice-5` ;
 - `memory` d'images (voiture, sac, cahier, rue, clé) dans `l05/vocab-3` ;
 - `compare` de l'interpellation (le tanwin disparaît) dans `l05/grammar-5`.
+- `sort` « il l'a fait / il ne l'a pas fait » (réponses en `نَعَمْ` / `بَلَى` / `لَا`) dans `l06/grammar-1`, et « un homme / une femme / plusieurs personnes » (`جَوْعَانُ` / `جَوْعَى` / `جِيَاعٌ`) dans `l06/grammar-3` ;
+- `compare` de « tu » au masculin puis au féminin (le `ت` et le pronom collé changent) dans `l06/practice-3` ;
+- `build` de `كَوَى` (le `ى`, pas le `ي`) dans `l06/vocab-1` et de `نَبَأٌ` (le siège de la hamza) dans `l06/vocab-3` ;
+- `fill_gap` à deux trous (nombres de 11 à 19 selon le genre du dénombré) dans `l06/practice-6`.
 - `sort` « féminin avec signe / féminin sans signe » dans `l06/grammar-5`, et `sort` à trois catégories (les trois signes du féminin, avec le ة, le ى et le alif-hamza comme étiquettes) dans `l06/grammar-3` ;
 - `compare` du masculin au féminin (طَالِبٌ → طَالِبَةٌ) dans `l06/grammar-4`, et de la forme avec l'article après لِ (الْمُدِيرُ → لِلْمُدِيرِ) dans `l06/grammar-7` ;
 - `breakdown` de لِلْمُدِيرِ et de الْحَمْدُ لِلَّهِ (l'alif de l'article qui disparaît) dans `l06/grammar-7` et `l06/vocab-5` ;

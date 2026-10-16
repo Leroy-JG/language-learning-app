@@ -1,0 +1,89 @@
+{
+  "id": "medine-t2.l06.vocab-1",
+  "type": "vocabulary",
+  "title": "Cinq verbes de plus",
+  "icon": "pen",
+  "screens": [
+    { "id": "medine-t2.l06.vocab-1#1", "type": "present", "item": "w:dara" },
+    { "id": "medine-t2.l06.vocab-1#2", "type": "present", "item": "w:fariha" },
+    {
+      "id": "medine-t2.l06.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:dara",
+      "distractors": ["w:fariha", "w:fahima"]
+    },
+    { "id": "medine-t2.l06.vocab-1#4", "type": "present", "item": "w:zada" },
+    { "id": "medine-t2.l06.vocab-1#5", "type": "present", "item": "w:akhadha" },
+    {
+      "id": "medine-t2.l06.vocab-1#6",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:akhadha",
+      "distractors": ["w:fataha", "w:qaraa"]
+    },
+    { "id": "medine-t2.l06.vocab-1#7", "type": "present", "item": "w:kawa" },
+    {
+      "id": "medine-t2.l06.vocab-1#8",
+      "type": "tip",
+      "title": "Les quatre formes : un aperçu",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme au chapitre 5, le professeur donne quatre formes pour chaque verbe. Tu retiens seulement le passé ; le reste est un aperçu."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["savoir", "{ar|دَرَى}", "{ar|يَدْرِي}", "{ar|اِدْرِ}", "{ar|دِرَايَةٌ}"],
+            ["être content", "{ar|فَرِحَ}", "{ar|يَفْرَحُ}", "{ar|اِفْرَحْ}", "{ar|فَرَحٌ}"],
+            ["ajouter", "{ar|زَادَ}", "{ar|يَزِيدُ}", "{ar|زِدْ}", "{ar|زِيَادَةٌ}"],
+            ["prendre", "{ar|أَخَذَ}", "{ar|يَأْخُذُ}", "{ar|خُذْ}", "{ar|أَخْذٌ}"],
+            ["repasser", "{ar|كَوَى}", "{ar|يَكْوِي}", "{ar|اِكْوِ}", "{ar|كَيٌّ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les noms d'action sont écrits au nominatif ; le professeur les donne à l'accusatif ({ar|فَرَحًا}, {ar|أَخْذًا}…)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans {ar|دَرَى} et {ar|كَوَى}, le {ar|ى} redevient {ar|ي} devant les terminaisons du passé ({ar|تُ}, {ar|تَ}, {ar|تِ}, {ar|نَا}…) : {ar|دَرَيْتُ}, {ar|كَوَيْنَا}. C'est aussi le cas de {ar|رَأَى} : {ar|رَأَيْتُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.vocab-1#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:dara", "w:fariha", "w:zada", "w:akhadha", "w:kawa"]
+    },
+    { "id": "medine-t2.l06.vocab-1#10", "type": "build", "item": "w:kawa", "extra": ["ي"] },
+    {
+      "id": "medine-t2.l06.vocab-1#11",
+      "type": "fill_gap",
+      "sentence": "{0} الطَّالِبُ الْقَلَمَ.",
+      "fr": "L'étudiant a pris le stylo.",
+      "gaps": [ { "answers": ["أَخَذَ"] } ],
+      "options": ["أَخَذَ", "فَرِحَ", "كَوَى", "دَرَى"],
+      "explain": "La traduction dit « a pris » : {ar|أَخَذَ}."
+    },
+    {
+      "id": "medine-t2.l06.vocab-1#12",
+      "type": "order",
+      "fr": "J'ai repassé la chemise.",
+      "answers": [["كَوَيْتُ", "الْقَمِيصَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l06.vocab-1#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai pris le livre.",
+      "answers": ["أَخَذْتُ الْكِتَابَ.", "أَنَا أَخَذْتُ الْكِتَابَ."]
+    }
+  ]
+}

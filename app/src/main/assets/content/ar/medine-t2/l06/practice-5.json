@@ -1,0 +1,126 @@
+{
+  "id": "medine-t2.l06.practice-5",
+  "type": "grammar",
+  "title": "Je pense que… : l'exercice 10",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l06.practice-5#1",
+      "type": "tip",
+      "title": "L'exercice 10 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande de relier chaque phrase à {ar|أَظُنُّ} avec {ar|أَنَّ} : le pronom isolé devient un pronom collé, et un nom passe à l'accusatif."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Avec {ar|أَظُنُّ أَنَّ}"],
+          "rows": [
+            ["{ar|هُوَ مَرِيضٌ.} (Il est malade.)", "{ar|أَظُنُّ أَنَّهُ مَرِيضٌ.}"],
+            [
+              "{ar|الْمُدَرِّسُ مَا جَاءَ.} (L'enseignant n'est pas venu.)",
+              "{ar|أَظُنُّ أَنَّ الْمُدَرِّسَ مَا جَاءَ.}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans la deuxième phrase, le prédicat de {ar|أَنَّ} est un verbe ({ar|مَا جَاءَ}) : le nom {ar|الْمُدَرِّسَ} est à l'accusatif, et le verbe ne change pas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.practice-5#2",
+      "type": "fill_gap",
+      "sentence": "أَنْتَ طَبِيبٌ. أَظُنُّ {0} طَبِيبٌ.",
+      "fr": "Je pense que tu es médecin.",
+      "gaps": [ { "answers": ["أَنَّكَ"] } ],
+      "options": ["أَنَّكَ", "أَنَّهُ", "أَنَّهَا", "أَنَّنِي"],
+      "explain": "{ar|أَنْتَ} (« tu », à un homme) devient {ar|كَ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-5#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "هُوَ مِنَ الْيَابَانِ.",
+      "answers": ["أَظُنُّ أَنَّهُ مِنَ الْيَابَانِ."],
+      "fr": "Je pense qu'il est du Japon.",
+      "instruction": "Mets {ar|أَظُنُّ أَنَّ} au début, avec le pronom collé.",
+      "explain": "{ar|هُوَ} devient {ar|هُ} : {ar|أَنَّهُ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-5#4",
+      "type": "order",
+      "fr": "Je pense qu'elle est malade.",
+      "answers": [["أَظُنُّ", "أَنَّهَا", "مَرِيضَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l06.practice-5#5",
+      "type": "fill_gap",
+      "sentence": "هُمْ طُلَّابٌ. أَظُنُّ {0} طُلَّابٌ.",
+      "fr": "Je pense qu'ils sont étudiants.",
+      "gaps": [ { "answers": ["أَنَّهُمْ"] } ],
+      "options": ["أَنَّهُمْ", "أَنَّهُ", "أَنَّهَا", "أَنَّكُمْ"],
+      "explain": "« Ils » : le pronom {ar|هُمْ} se colle à {ar|أَنَّ} : {ar|أَنَّهُمْ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-5#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَنْتِ جَوْعَى.",
+      "answers": ["أَظُنُّ أَنَّكِ جَوْعَى."],
+      "fr": "Je pense que tu as faim.",
+      "instruction": "Tu parles à une femme. Mets {ar|أَظُنُّ أَنَّ} au début, avec le pronom collé.",
+      "explain": "{ar|أَنْتِ} (« tu », à une femme) devient {ar|كِ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-5#7",
+      "type": "order",
+      "fr": "Je pense que la bibliothèque est ouverte.",
+      "answers": [["أَظُنُّ", "أَنَّ", "الْمَكْتَبَةَ", "مَفْتُوحَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l06.practice-5#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "الْقَهْوَةُ بَارِدَةٌ.",
+      "answers": ["أَظُنُّ أَنَّ الْقَهْوَةَ بَارِدَةٌ."],
+      "fr": "Je pense que le café est froid.",
+      "instruction": "Mets {ar|أَظُنُّ أَنَّ} au début, et le nom à la bonne fin.",
+      "explain": "{ar|الْقَهْوَةُ} devient {ar|الْقَهْوَةَ} ; {ar|بَارِدَةٌ} ne change pas."
+    },
+    {
+      "id": "medine-t2.l06.practice-5#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "مُحَمَّدٌ ذَهَبَ إِلَى مَكَّةَ.",
+      "answers": ["أَظُنُّ أَنَّ مُحَمَّدًا ذَهَبَ إِلَى مَكَّةَ."],
+      "fr": "Je pense que Muḥammad est allé à La Mecque.",
+      "instruction": "Mets {ar|أَظُنُّ أَنَّ} au début, et le nom à la bonne fin.",
+      "explain": "{ar|مُحَمَّدٌ} devient {ar|مُحَمَّدًا} (tanwin fatha, avec alif) ; le verbe ne change pas."
+    },
+    {
+      "id": "medine-t2.l06.practice-5#10",
+      "type": "spot",
+      "instruction": "Touche le nom de {ar|أَنَّ} (à l'accusatif).",
+      "words": ["أَظُنُّ", "أَنَّ", "فَاطِمَةَ", "فِي", "الْمَكْتَبَةِ."],
+      "answers": [2],
+      "fr": "Je pense que Fāṭima est à la bibliothèque.",
+      "explain": "{ar|فَاطِمَةَ} est le nom de {ar|أَنَّ} : à l'accusatif, il prend la fatha (un prénom féminin n'a pas de tanwin)."
+    },
+    {
+      "id": "medine-t2.l06.practice-5#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَنْتُمْ مُدَرِّسُونَ.",
+      "answers": ["أَظُنُّ أَنَّكُمْ مُدَرِّسُونَ."],
+      "fr": "Je pense que vous êtes enseignants.",
+      "instruction": "Mets {ar|أَظُنُّ أَنَّ} au début, avec le pronom collé.",
+      "explain": "{ar|أَنْتُمْ} devient {ar|كُمْ} : {ar|أَنَّكُمْ}."
+    }
+  ]
+}

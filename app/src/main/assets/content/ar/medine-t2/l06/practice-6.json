@@ -1,0 +1,162 @@
+{
+  "id": "medine-t2.l06.practice-6",
+  "type": "grammar",
+  "title": "Les nombres de 11 à 20",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l06.practice-6#1",
+      "type": "tip",
+      "title": "Les exercices 11 à 13 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur fait lire les nombres de 11 à 20 avec {ar|طَالِبَةً} (une étudiante), puis demande de les écrire en lettres. Tu reconnais le plan du chapitre 3 : deux parties, un dénombré au singulier, à l'accusatif."
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "Avec un nom féminin"],
+          "rows": [
+            ["11", "{ar|إِحْدَى عَشْرَةَ طَالِبَةً}"],
+            ["12", "{ar|اِثْنَتَا عَشْرَةَ طَالِبَةً}"],
+            ["13", "{ar|ثَلَاثَ عَشْرَةَ طَالِبَةً}"],
+            ["14", "{ar|أَرْبَعَ عَشْرَةَ طَالِبَةً}"],
+            ["15", "{ar|خَمْسَ عَشْرَةَ طَالِبَةً}"],
+            ["16", "{ar|سِتَّ عَشْرَةَ طَالِبَةً}"],
+            ["17", "{ar|سَبْعَ عَشْرَةَ طَالِبَةً}"],
+            ["18", "{ar|ثَمَانِيَ عَشْرَةَ طَالِبَةً}"],
+            ["19", "{ar|تِسْعَ عَشْرَةَ طَالِبَةً}"],
+            ["20", "{ar|عِشْرُونَ طَالِبَةً}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Après 19 vient 20 : {ar|عِشْرُونَ طَالِبَةً}. Les dizaines de 20 à 99 seront étudiées dans un prochain chapitre : ici, tu dois seulement le lire."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.practice-6#2",
+      "type": "sort",
+      "categories": [ { "fr": "un nom masculin" }, { "fr": "un nom féminin" } ],
+      "cards": [
+        { "ar": "ثَلَاثَةَ عَشَرَ يَوْمًا", "category": 0 },
+        { "ar": "ثَلَاثَ عَشْرَةَ دَقِيقَةً", "category": 1 },
+        { "ar": "أَرْبَعَةَ عَشَرَ رَجُلًا", "category": 0 },
+        { "ar": "أَرْبَعَ عَشْرَةَ سَيَّارَةً", "category": 1 },
+        { "ar": "سِتَّةَ عَشَرَ كِتَابًا", "category": 0 },
+        { "ar": "سِتَّ عَشْرَةَ قَرْيَةً", "category": 1 }
+      ],
+      "instruction": "Avec quel dénombré ?",
+      "explain": "La seconde partie suffit : {ar|عَشَرَ} (sans {ar|ة}) va avec un nom masculin, {ar|عَشْرَةَ} (avec {ar|ة}) avec un nom féminin."
+    },
+    {
+      "id": "medine-t2.l06.practice-6#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ سِنُّكَ؟",
+      "answers": ["سِنِّي تِسْعَ عَشْرَةَ سَنَةً.", "تِسْعَ عَشْرَةَ سَنَةً."],
+      "fr": "J'ai dix-neuf ans.",
+      "instruction": "Tu as 19 ans : écris le nombre en lettres.",
+      "explain": "{ar|سَنَةٌ} est féminin : {ar|تِسْعَ عَشْرَةَ}, puis {ar|سَنَةً} (singulier, accusatif)."
+    },
+    {
+      "id": "medine-t2.l06.practice-6#4",
+      "type": "fill_gap",
+      "sentence": "قَرَأْنَا {0} صَفْحَةً مِنْ هٰذَا الْكِتَابِ.",
+      "fr": "Nous avons lu 14 pages de ce livre.",
+      "gaps": [ { "answers": ["أَرْبَعَ عَشْرَةَ"] } ],
+      "options": ["أَرْبَعَ عَشْرَةَ", "أَرْبَعَةَ عَشَرَ", "أَرْبَعَ عَشَرَ"],
+      "explain": "{ar|صَفْحَةٌ} est féminin : {ar|أَرْبَعَ} (sans {ar|ة}) et {ar|عَشْرَةَ} (avec {ar|ة})."
+    },
+    {
+      "id": "medine-t2.l06.practice-6#5",
+      "type": "fill_gap",
+      "sentence": "فِي هٰذِهِ الْحَافِلَةِ {0} رَاكِبًا وَخَلْفَهُمْ {1} رَاكِبَةً.",
+      "fr": "Dans ce bus, il y a 18 passagers (hommes) et, derrière eux, 15 passagères.",
+      "gaps": [ { "answers": ["ثَمَانِيَةَ عَشَرَ"] }, { "answers": ["خَمْسَ عَشْرَةَ"] } ],
+      "options": ["ثَمَانِيَةَ عَشَرَ", "ثَمَانِيَ عَشْرَةَ", "خَمْسَ عَشْرَةَ", "خَمْسَةَ عَشَرَ"],
+      "explain": "{ar|رَاكِبٌ} est masculin : {ar|ثَمَانِيَةَ عَشَرَ}. {ar|رَاكِبَةٌ} est féminin : {ar|خَمْسَ عَشْرَةَ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-6#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "C'est un petit hôtel : il n'y a que 12 chambres.",
+      "answers": [
+        "هٰذَا فُنْدُقٌ صَغِيرٌ فِيهِ اثْنَتَا عَشْرَةَ غُرْفَةً فَقَطْ.",
+        "فِيهِ اثْنَتَا عَشْرَةَ غُرْفَةً فَقَطْ.",
+        "فِيهِ اثْنَتَا عَشْرَةَ غُرْفَةً.",
+        "هٰذَا فُنْدُقٌ صَغِيرٌ فِيهِ فَقَطْ اثْنَتَا عَشْرَةَ غُرْفَةً.",
+        "هٰذَا فُنْدُقٌ صَغِيرٌ لَهُ اثْنَتَا عَشْرَةَ غُرْفَةً فَقَطْ."
+      ],
+      "explain": "{ar|غُرْفَةٌ} est féminin. Le nombre est le sujet de {ar|فِيهِ} : il est au nominatif, donc {ar|اثْنَتَا} (et non {ar|اثْنَتَيْ})."
+    },
+    {
+      "id": "medine-t2.l06.practice-6#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "ʿUthmān a 11 fils et 12 filles.",
+      "answers": [
+        "عُثْمَانُ لَهُ أَحَدَ عَشَرَ اِبْنًا وَاثْنَتَا عَشْرَةَ بِنْتًا.",
+        "لِعُثْمَانَ أَحَدَ عَشَرَ اِبْنًا وَاثْنَتَا عَشْرَةَ بِنْتًا.",
+        "عِنْدَ عُثْمَانَ أَحَدَ عَشَرَ اِبْنًا وَاثْنَتَا عَشْرَةَ بِنْتًا.",
+        "عُثْمَانُ عِنْدَهُ أَحَدَ عَشَرَ اِبْنًا وَاثْنَتَا عَشْرَةَ بِنْتًا."
+      ],
+      "explain": "{ar|اِبْنٌ} est masculin : {ar|أَحَدَ عَشَرَ}. {ar|بِنْتٌ} est féminin : {ar|اثْنَتَا عَشْرَةَ} (nominatif, sujet de {ar|لَهُ})."
+    },
+    {
+      "id": "medine-t2.l06.practice-6#8",
+      "type": "fill_gap",
+      "sentence": "أَنَا حَفِظْتُ {0} سُورَةً.",
+      "fr": "J'ai mémorisé 13 sourates.",
+      "gaps": [ { "answers": ["ثَلَاثَ عَشْرَةَ"] } ],
+      "options": ["ثَلَاثَ عَشْرَةَ", "ثَلَاثَةَ عَشَرَ", "ثَلَاثَ عَشَرَ"],
+      "explain": "{ar|سُورَةٌ} est féminin : {ar|ثَلَاثَ عَشْرَةَ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-6#9",
+      "type": "fill_gap",
+      "sentence": "فِي هٰذَا الْمُسْتَشْفَى {0} طَبِيبًا وَ{1} طَبِيبَةً.",
+      "fr": "Dans cet hôpital, il y a 19 médecins (hommes) et 17 femmes médecins.",
+      "gaps": [ { "answers": ["تِسْعَةَ عَشَرَ"] }, { "answers": ["سَبْعَ عَشْرَةَ"] } ],
+      "options": ["تِسْعَةَ عَشَرَ", "تِسْعَ عَشْرَةَ", "سَبْعَ عَشْرَةَ", "سَبْعَةَ عَشَرَ"],
+      "explain": "{ar|طَبِيبٌ} est masculin : {ar|تِسْعَةَ عَشَرَ}. {ar|طَبِيبَةٌ} est féminin : {ar|سَبْعَ عَشْرَةَ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-6#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous avons lu 18 mots nouveaux aujourd'hui.",
+      "answers": [
+        "قَرَأْنَا الْيَوْمَ ثَمَانِيَ عَشْرَةَ كَلِمَةً جَدِيدَةً.",
+        "قَرَأْنَا ثَمَانِيَ عَشْرَةَ كَلِمَةً جَدِيدَةً الْيَوْمَ.",
+        "قَرَأْنَا ثَمَانِيَ عَشْرَةَ كَلِمَةً جَدِيدَةً.",
+        "نَحْنُ قَرَأْنَا الْيَوْمَ ثَمَانِيَ عَشْرَةَ كَلِمَةً جَدِيدَةً."
+      ],
+      "explain": "{ar|كَلِمَةٌ} est féminin : {ar|ثَمَانِيَ عَشْرَةَ} ; le dénombré et son adjectif sont au singulier, à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l06.practice-6#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai 11 livres.",
+      "answers": ["عِنْدِي أَحَدَ عَشَرَ كِتَابًا.", "لِي أَحَدَ عَشَرَ كِتَابًا."]
+    },
+    {
+      "id": "medine-t2.l06.practice-6#12",
+      "type": "order",
+      "fr": "Il y a 15 étudiants dans la classe.",
+      "answers": [["فِي", "الْفَصْلِ", "خَمْسَةَ", "عَشَرَ", "طَالِبًا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l06.practice-6#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a 16 voitures dans le village.",
+      "answers": ["فِي الْقَرْيَةِ سِتَّ عَشْرَةَ سَيَّارَةً."]
+    }
+  ]
+}

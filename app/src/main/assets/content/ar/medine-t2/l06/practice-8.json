@@ -1,0 +1,162 @@
+{
+  "id": "medine-t2.l06.practice-8",
+  "type": "grammar",
+  "title": "Un nom, trois formes",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l06.practice-8#1",
+      "type": "tip",
+      "title": "L'exercice 16 du livre : écrire un nom au génitif et à l'accusatif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne des noms indéfinis au nominatif ({ar|الْمَرْفُوعُ}) et demande de les écrire au génitif ({ar|الْمَجْرُورُ}) et à l'accusatif ({ar|الْمَنْصُوبُ}). Seul le tanwin change."
+        },
+        {
+          "type": "table",
+          "header": ["Cas", "Tanwin", "{ar|كِتَابٌ}", "{ar|سَيَّارَةٌ}"],
+          "rows": [
+            ["nominatif", "{ar|◌ٌ} (damma)", "{ar|كِتَابٌ}", "{ar|سَيَّارَةٌ}"],
+            ["génitif", "{ar|◌ٍ} (kasra)", "{ar|كِتَابٍ}", "{ar|سَيَّارَةٍ}"],
+            ["accusatif", "{ar|◌ً} (fatha)", "{ar|كِتَابًا}", "{ar|سَيَّارَةً}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le tanwin fatha s'écrit en général avec un alif ({ar|كِتَابًا}), sauf après un {ar|ة} ({ar|سَيَّارَةً}) et après une hamza précédée d'un alif ({ar|مَاءً})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.practice-8#2",
+      "type": "tip",
+      "title": "Trois noms du livre",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "حَامِدٌ", "fr": "Ḥāmid (nominatif)" },
+              "to": { "ar": "حَامِدٍ", "fr": "Ḥāmid (génitif)" },
+              "label": "génitif : la kasra"
+            },
+            {
+              "from": { "ar": "حَامِدٌ", "fr": "Ḥāmid (nominatif)" },
+              "to": { "ar": "حَامِدًا", "fr": "Ḥāmid (accusatif)" },
+              "label": "accusatif : la fatha, avec un alif"
+            },
+            {
+              "from": { "ar": "سَاعَةٌ", "fr": "une montre (nominatif)" },
+              "to": { "ar": "سَاعَةٍ", "fr": "une montre (génitif)" },
+              "label": "génitif : la kasra"
+            },
+            {
+              "from": { "ar": "سَاعَةٌ", "fr": "une montre (nominatif)" },
+              "to": { "ar": "سَاعَةً", "fr": "une montre (accusatif)" },
+              "label": "accusatif : la fatha, sans alif après le {ar|ة}"
+            },
+            {
+              "from": { "ar": "مِكْوَاةٌ", "fr": "un fer à repasser (nominatif)" },
+              "to": { "ar": "مِكْوَاةٍ", "fr": "un fer à repasser (génitif)" },
+              "label": "génitif : la kasra"
+            },
+            {
+              "from": { "ar": "مِكْوَاةٌ", "fr": "un fer à repasser (nominatif)" },
+              "to": { "ar": "مِكْوَاةً", "fr": "un fer à repasser (accusatif)" },
+              "label": "accusatif : la fatha, sans alif après le {ar|ة}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.practice-8#3",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif" }, { "fr": "génitif" }, { "fr": "accusatif" } ],
+      "cards": [
+        { "ar": "جَاءَ رَجُلٌ", "category": 0 },
+        { "ar": "هٰذِهِ سَاعَةٌ", "category": 0 },
+        { "ar": "فِي بَيْتٍ", "category": 1 },
+        { "ar": "إِلَى مَدْرَسَةٍ", "category": 1 },
+        { "ar": "رَأَيْتُ سَيَّارَةً", "category": 2 },
+        { "ar": "قَرَأْتُ كِتَابًا", "category": 2 }
+      ],
+      "instruction": "Quel est le cas du nom indéfini ?",
+      "explain": "Sujet ou prédicat : nominatif (damma). Après une préposition : génitif (kasra). Complément d'objet : accusatif (fatha)."
+    },
+    {
+      "id": "medine-t2.l06.practice-8#4",
+      "type": "question",
+      "prompt": { "fr": "Après la préposition {ar|فِي}, quelle terminaison prend {ar|بَيْتٌ} ?" },
+      "choices": [
+        { "fr": "un tanwin kasra : {ar|بَيْتٍ}" },
+        { "fr": "un tanwin damma : {ar|بَيْتٌ}" },
+        { "fr": "un tanwin fatha : {ar|بَيْتًا}" }
+      ],
+      "answer": 0,
+      "explain": "Après une préposition, le nom est au génitif : kasra."
+    },
+    {
+      "id": "medine-t2.l06.practice-8#5",
+      "type": "question",
+      "prompt": { "fr": "Écris {ar|رَجُلٌ} comme complément d'objet de {ar|رَأَيْتُ}. Quelle terminaison ?" },
+      "choices": [
+        { "fr": "un tanwin fatha, avec alif : {ar|رَجُلًا}" },
+        { "fr": "un tanwin kasra : {ar|رَجُلٍ}" },
+        { "fr": "un tanwin damma : {ar|رَجُلٌ}" }
+      ],
+      "answer": 0,
+      "explain": "Le complément d'objet direct est à l'accusatif : tanwin fatha."
+    },
+    {
+      "id": "medine-t2.l06.practice-8#6",
+      "type": "fill_gap",
+      "sentence": "رَأَيْتُ {0}.",
+      "fr": "J'ai vu un homme.",
+      "gaps": [ { "answers": ["رَجُلًا"] } ],
+      "options": ["رَجُلًا", "رَجُلٌ"],
+      "explain": "Complément d'objet : accusatif. Le tanwin fatha s'écrit avec un alif : {ar|رَجُلًا}."
+    },
+    {
+      "id": "medine-t2.l06.practice-8#7",
+      "type": "spot",
+      "instruction": "Touche le nom au génitif.",
+      "words": ["ذَهَبَ", "حَامِدٌ", "إِلَى", "بَيْتٍ."],
+      "answers": [3],
+      "fr": "Ḥāmid est allé à une maison.",
+      "explain": "{ar|بَيْتٍ} suit la préposition {ar|إِلَى} : génitif, avec la kasra. {ar|حَامِدٌ}, le sujet, est au nominatif."
+    },
+    {
+      "id": "medine-t2.l06.practice-8#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai pris un fer à repasser.",
+      "answers": ["أَخَذْتُ مِكْوَاةً.", "أَنَا أَخَذْتُ مِكْوَاةً."],
+      "explain": "Complément d'objet : accusatif ; après le {ar|ة}, le tanwin fatha s'écrit sans alif."
+    },
+    {
+      "id": "medine-t2.l06.practice-8#9",
+      "type": "order",
+      "fr": "J'ai écrit sur un tableau.",
+      "answers": [["كَتَبْتُ", "عَلَى", "سَبُّورَةٍ"]],
+      "punctuation": ".",
+      "explain": "Après {ar|عَلَى}, le nom est au génitif : {ar|سَبُّورَةٍ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-8#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai lu un livre.",
+      "answers": ["قَرَأْتُ كِتَابًا.", "أَنَا قَرَأْتُ كِتَابًا."]
+    },
+    {
+      "id": "medine-t2.l06.practice-8#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis allé à une école.",
+      "answers": ["ذَهَبْتُ إِلَى مَدْرَسَةٍ.", "أَنَا ذَهَبْتُ إِلَى مَدْرَسَةٍ."]
+    }
+  ]
+}

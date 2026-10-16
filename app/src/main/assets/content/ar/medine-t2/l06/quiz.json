@@ -1,0 +1,132 @@
+{
+  "id": "medine-t2.l06.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 6",
+  "screens": [
+    {
+      "id": "medine-t2.l06.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:zanna",
+      "distractors": ["w:dara", "w:fahima"]
+    },
+    {
+      "id": "medine-t2.l06.quiz#2",
+      "type": "fill_gap",
+      "sentence": "{0} الطَّالِبُ الْكِتَابَ مِنَ الْمَكْتَبِ.",
+      "fr": "L'étudiant a pris le livre du bureau.",
+      "gaps": [ { "answers": ["أَخَذَ"] } ],
+      "options": ["أَخَذَ", "فَرِحَ", "زَادَ", "كَوَى"]
+    },
+    {
+      "id": "medine-t2.l06.quiz#3",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:khadima",
+      "distractors": ["w:mudira", "w:mudarrisa"]
+    },
+    {
+      "id": "medine-t2.l06.quiz#4",
+      "type": "question",
+      "prompt": { "fr": "Quelle réponse veut dire « si, j'ai compris » à {ar|أَمَا فَهِمْتَ الدَّرْسَ؟} ?" },
+      "choices": [ { "ar": "بَلَى، فَهِمْتُهُ." }, { "ar": "نَعَمْ، فَهِمْتُهُ." }, { "ar": "لَا، فَهِمْتُهُ." } ],
+      "answer": 0,
+      "explain": "Question négative : on la contredit avec {ar|بَلَى}."
+    },
+    {
+      "id": "medine-t2.l06.quiz#5",
+      "type": "true_false",
+      "statement": { "fr": "{ar|أَظُنُّ أَنَّ} veut dire « je suis certain que »." },
+      "answer": false,
+      "explain": "Non : {ar|ظَنَّ} exprime le plus souvent une supposition, « je pense que… »."
+    },
+    {
+      "id": "medine-t2.l06.quiz#6",
+      "type": "fill_gap",
+      "sentence": "أَظُنُّ {0} الْمَدْرَسَةَ مَفْتُوحَةٌ.",
+      "fr": "Je pense que l'école est ouverte.",
+      "gaps": [ { "answers": ["أَنَّ"] } ],
+      "options": ["أَنَّ", "لَكِنَّ", "كَأَنَّ"]
+    },
+    {
+      "id": "medine-t2.l06.quiz#7",
+      "type": "sort",
+      "categories": [ { "fr": "un homme" }, { "fr": "une femme" }, { "fr": "plusieurs personnes" } ],
+      "cards": [
+        { "ar": "يُوسُفُ شَبْعَانُ.", "category": 0 },
+        { "ar": "فَاطِمَةُ شَبْعَى.", "category": 1 },
+        { "ar": "الْأَوْلَادُ شِبَاعٌ.", "category": 2 },
+        { "ar": "الطَّالِبُ كَسْلَانُ.", "category": 0 },
+        { "ar": "الطَّالِبَةُ كَسْلَى.", "category": 1 },
+        { "ar": "الطُّلَّابُ كُسَالَى.", "category": 2 }
+      ],
+      "instruction": "De qui parle-t-on ?"
+    },
+    {
+      "id": "medine-t2.l06.quiz#8",
+      "type": "order",
+      "fr": "Je pense qu'elle est allée à l'école.",
+      "answers": [["أَظُنُّ", "أَنَّهَا", "ذَهَبَتْ", "إِلَى", "الْمَدْرَسَةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l06.quiz#9",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:aya",
+      "distractors": ["w:sura", "w:quran"]
+    },
+    {
+      "id": "medine-t2.l06.quiz#10",
+      "type": "fill_gap",
+      "sentence": "فِي الْفَصْلِ {0} طَالِبًا.",
+      "fr": "Il y a quinze étudiants dans la classe.",
+      "gaps": [ { "answers": ["خَمْسَةَ عَشَرَ"] } ],
+      "options": ["خَمْسَةَ عَشَرَ", "خَمْسَ عَشْرَةَ", "خَمْسَ عَشَرَ"],
+      "explain": "{ar|طَالِبٌ} est masculin : {ar|خَمْسَةَ عَشَرَ}."
+    },
+    {
+      "id": "medine-t2.l06.quiz#11",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:barid-2",
+      "distractors": ["w:wajh", "w:ilm"]
+    },
+    {
+      "id": "medine-t2.l06.quiz#12",
+      "type": "true_false",
+      "statement": { "fr": "Le féminin de {ar|جَوْعَانُ} est {ar|جَوْعَى}." },
+      "answer": true,
+      "explain": "C'est le modèle des adjectifs de la faim, de la soif, de la colère : {ar|جَوْعَانُ} / {ar|جَوْعَى}."
+    },
+    {
+      "id": "medine-t2.l06.quiz#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "L'étudiante a pris le livre.",
+      "answers": ["أَخَذَتِ الطَّالِبَةُ الْكِتَابَ.", "الطَّالِبَةُ أَخَذَتِ الْكِتَابَ."]
+    },
+    {
+      "id": "medine-t2.l06.quiz#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai repassé la chemise et le mouchoir.",
+      "answers": ["كَوَيْتُ الْقَمِيصَ وَالْمِنْدِيلَ.", "أَنَا كَوَيْتُ الْقَمِيصَ وَالْمِنْدِيلَ."]
+    },
+    {
+      "id": "medine-t2.l06.quiz#15",
+      "type": "spot",
+      "instruction": "Touche le nom de {ar|أَنَّ} (à l'accusatif).",
+      "words": ["أَظُنُّ", "أَنَّ", "الْمُدِيرَةَ", "فِي", "الْمَدْرَسَةِ."],
+      "answers": [2],
+      "fr": "Je pense que la directrice est à l'école."
+    },
+    {
+      "id": "medine-t2.l06.quiz#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je pense que Maryam a faim.",
+      "answers": ["أَظُنُّ أَنَّ مَرْيَمَ جَوْعَى."]
+    }
+  ]
+}

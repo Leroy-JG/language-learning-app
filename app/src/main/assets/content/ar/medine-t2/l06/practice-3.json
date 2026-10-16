@@ -1,0 +1,187 @@
+{
+  "id": "medine-t2.l06.practice-3",
+  "type": "grammar",
+  "title": "Au féminin : « tu » et « elle »",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l06.practice-3#1",
+      "type": "tip",
+      "title": "L'exercice 4 du livre : mets le sujet au féminin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande de mettre la question à une **femme**, et de mettre la bonne voyelle sur le pronom. Tout ce qui parle à « tu » change : le {ar|ت} du verbe, et le pronom collé qui suit ({ar|وَجْهَكَ} devient {ar|وَجْهَكِ})."
+        },
+        {
+          "type": "compare",
+          "title": "Du masculin au féminin",
+          "rows": [
+            {
+              "from": { "ar": "أَشَرِبْتَ الشَّايَ يَا حَامِدُ؟", "fr": "As-tu bu le thé, Ḥāmid ?" },
+              "to": { "ar": "أَشَرِبْتِ الشَّايَ يَا سُعَادُ؟", "fr": "As-tu bu le thé, Suʿād ?" }
+            },
+            {
+              "from": { "ar": "أَكَتَبْتَ الدَّرْسَ يَا عَلِيُّ؟", "fr": "As-tu écrit la leçon, ʿAlī ?" },
+              "to": { "ar": "أَكَتَبْتِ الدَّرْسَ يَا فَاطِمَةُ؟", "fr": "As-tu écrit la leçon, Fāṭima ?" }
+            },
+            {
+              "from": { "ar": "أَغَسَلْتَ وَجْهَكَ يَا أَخِي؟", "fr": "As-tu lavé ton visage, mon frère ?" },
+              "to": { "ar": "أَغَسَلْتِ وَجْهَكِ يَا أُخْتِي؟", "fr": "As-tu lavé ton visage, ma sœur ?" }
+            },
+            {
+              "from": { "ar": "أَيَّ سُورَةٍ حَفِظْتَ يَا بُنَيَّ؟", "fr": "Quelle sourate as-tu mémorisée, mon fils ?" },
+              "to": { "ar": "أَيَّ سُورَةٍ حَفِظْتِ يَا بِنْتِي؟", "fr": "Quelle sourate as-tu mémorisée, ma fille ?" }
+            },
+            {
+              "from": {
+                "ar": "أَفَهِمْتَ الدَّرْسَ الْجَدِيدَ يَا هَاشِمُ؟",
+                "fr": "As-tu compris la nouvelle leçon, Hāshim ?"
+              },
+              "to": {
+                "ar": "أَفَهِمْتِ الدَّرْسَ الْجَدِيدَ يَا فَاطِمَةُ؟",
+                "fr": "As-tu compris la nouvelle leçon, Fāṭima ?"
+              }
+            },
+            {
+              "from": {
+                "ar": "أَيْنَ ذَهَبْتَ بَعْدَ الدَّرْسِ يَا أَخِي؟",
+                "fr": "Où es-tu allé après le cours, mon frère ?"
+              },
+              "to": {
+                "ar": "أَيْنَ ذَهَبْتِ بَعْدَ الدَّرْسِ يَا أُخْتِي؟",
+                "fr": "Où es-tu allée après le cours, ma sœur ?"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.practice-3#2",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أَشَرِبْتِ الشَّايَ يَا سُعَادُ؟}, quelle voyelle porte le {ar|ت} ?" },
+      "choices": [ { "fr": "une kasra" }, { "fr": "une fatha" }, { "fr": "une damma" } ],
+      "answer": 0,
+      "explain": "On parle à Suʿād, une femme : kasra, comme {ar|أَنْتِ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-3#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَكَتَبْتَ الدَّرْسَ يَا عَلِيُّ؟",
+      "answers": ["أَكَتَبْتِ الدَّرْسَ يَا فَاطِمَةُ؟"],
+      "fr": "As-tu écrit la leçon, Fāṭima ?",
+      "instruction": "Mets la question au féminin : parle à Fāṭima.",
+      "explain": "{ar|كَتَبْتَ} devient {ar|كَتَبْتِ}, et {ar|يَا عَلِيُّ} devient {ar|يَا فَاطِمَةُ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-3#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَغَسَلْتَ وَجْهَكَ يَا أَخِي؟",
+      "answers": ["أَغَسَلْتِ وَجْهَكِ يَا أُخْتِي؟"],
+      "fr": "As-tu lavé ton visage, ma sœur ?",
+      "instruction": "Mets la question au féminin : parle à ta sœur.",
+      "explain": "Le {ar|ت} du verbe et le {ar|ك} du pronom collé prennent la kasra : {ar|أَغَسَلْتِ وَجْهَكِ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-3#5",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أَغَسَلْتِ وَجْهَكِ يَا أُخْتِي؟}, quelle voyelle porte le {ar|ك} de {ar|وَجْهَكِ} ?" },
+      "choices": [ { "fr": "une kasra" }, { "fr": "une fatha" }, { "fr": "une damma" } ],
+      "answer": 0,
+      "explain": "Le pronom collé qui désigne « ton » à une femme est {ar|كِ}, avec la kasra."
+    },
+    {
+      "id": "medine-t2.l06.practice-3#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيَّ سُورَةٍ حَفِظْتَ يَا بُنَيَّ؟",
+      "answers": ["أَيَّ سُورَةٍ حَفِظْتِ يَا بِنْتِي؟"],
+      "fr": "Quelle sourate as-tu mémorisée, ma fille ?",
+      "instruction": "Mets la question au féminin : parle à ta fille.",
+      "explain": "{ar|حَفِظْتَ} devient {ar|حَفِظْتِ} ; {ar|بُنَيَّ} (« mon fils ») devient {ar|بِنْتِي} (« ma fille »)."
+    },
+    {
+      "id": "medine-t2.l06.practice-3#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ ذَهَبْتَ بَعْدَ الدَّرْسِ يَا أَخِي؟",
+      "answers": ["أَيْنَ ذَهَبْتِ بَعْدَ الدَّرْسِ يَا أُخْتِي؟"],
+      "fr": "Où es-tu allée après le cours, ma sœur ?",
+      "instruction": "Mets la question au féminin : parle à ta sœur."
+    },
+    {
+      "id": "medine-t2.l06.practice-3#8",
+      "type": "tip",
+      "title": "L'exercice 5 du livre : la voyelle du pronom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans chaque phrase, le professeur demande de vocaliser la terminaison du verbe {ar|ذَهَبَ}."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Terminaison", "Pourquoi ?"],
+          "rows": [
+            ["{ar|أَنَا ذَهَبْتُ إِلَى الْمَطَارِ.}", "{ar|تُ} (damma)", "« je »"],
+            ["{ar|أَذَهَبْتَ إِلَى الْمَلْعَبِ يَا يُوسُفُ؟}", "{ar|تَ} (fatha)", "« tu », à un homme (Yūsuf)"],
+            [
+              "{ar|أُخْتِي ذَهَبَتْ إِلَى الْمُسْتَشْفَى.}",
+              "{ar|تْ} (sukūn)",
+              "« elle » : le {ar|ت} est la marque du féminin (le sujet est le nom {ar|أُخْتِي})"
+            ],
+            [
+              "{ar|أَذَهَبْتِ إِلَى الْمَكْتَبَةِ يَا فَاطِمَةُ؟}",
+              "{ar|تِ} (kasra)",
+              "« tu », à une femme (Fāṭima)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l06.practice-3#9",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أُخْتِي ذَهَبَتْ إِلَى الْمُسْتَشْفَى}, comment se termine le verbe ?" },
+      "choices": [
+        { "fr": "par {ar|تْ}, avec un sukūn : c'est la marque du féminin" },
+        { "fr": "par {ar|تُ}, avec une damma : « je »" },
+        { "fr": "par {ar|تِ}, avec une kasra : « tu », à une femme" }
+      ],
+      "answer": 0,
+      "explain": "Le sujet est {ar|أُخْتِي} (« ma sœur ») : un nom à la troisième personne, donc {ar|ذَهَبَتْ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-3#10",
+      "type": "fill_gap",
+      "sentence": "أُخْتِي {0} إِلَى الْمُسْتَشْفَى.",
+      "fr": "Ma sœur est allée à l'hôpital.",
+      "gaps": [ { "answers": ["ذَهَبَتْ"] } ],
+      "options": ["ذَهَبَتْ", "ذَهَبْنَ", "ذَهَبُوا", "ذَهَبَا"],
+      "explain": "Le sujet est un nom féminin singulier : {ar|ذَهَبَتْ}."
+    },
+    {
+      "id": "medine-t2.l06.practice-3#11",
+      "type": "order",
+      "fr": "Es-tu allé au terrain de jeu, Yūsuf ?",
+      "answers": [["أَذَهَبْتَ", "إِلَى", "الْمَلْعَبِ", "يَا", "يُوسُفُ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l06.practice-3#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Es-tu allée à la bibliothèque, Fāṭima ?",
+      "answers": ["أَذَهَبْتِ إِلَى الْمَكْتَبَةِ يَا فَاطِمَةُ؟"]
+    },
+    {
+      "id": "medine-t2.l06.practice-3#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis allé à l'aéroport.",
+      "answers": ["أَنَا ذَهَبْتُ إِلَى الْمَطَارِ.", "ذَهَبْتُ إِلَى الْمَطَارِ."]
+    }
+  ]
+}

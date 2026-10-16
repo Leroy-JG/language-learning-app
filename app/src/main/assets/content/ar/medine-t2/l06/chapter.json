@@ -1,0 +1,30 @@
+{
+  "id": "medine-t2.l06",
+  "number": 6,
+  "title": { "ar": "الدَّرْسُ السَّادِسُ", "fr": "Oui, non, si ; je pense que ; avoir faim" },
+  "description": "{ar|نَعَمْ} et {ar|بَلَى} ; {ar|ظَنَّ} avec {ar|أَنَّ} (« je pense que ») ; les adjectifs de la faim et de la soif ({ar|جَوْعَانُ} / {ar|جَوْعَى}) ; « je », « tu » et « elle » au passé ; le texte du livre et ses exercices.",
+  "source": "Tome de Médine 2, leçon 6",
+  "sections": [
+    { "title": "Revoir : « je » et « tu » au passé", "activities": ["revue-1"] },
+    { "title": "Savoir, se réjouir, ajouter, prendre, repasser", "activities": ["vocab-1"] },
+    { "title": "À la maison, au Coran, à l'étude", "activities": ["vocab-2", "vocab-3", "vocab-4"] },
+    { "title": "Oui, non ou si ?", "activities": ["grammar-1"] },
+    { "title": "Je pense que…", "activities": ["grammar-2"] },
+    { "title": "Avoir faim, avoir soif", "activities": ["grammar-3"] },
+    {
+      "title": "Le texte du livre",
+      "activities": [
+        "dialogue-1",
+        "practice-1",
+        "practice-2",
+        "practice-3",
+        "practice-4",
+        "practice-5",
+        "practice-6",
+        "practice-7",
+        "practice-8"
+      ]
+    },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}
