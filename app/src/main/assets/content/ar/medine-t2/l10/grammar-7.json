@@ -27,7 +27,7 @@
     {
       "id": "medine-t2.l10.grammar-7#9",
       "type": "sort",
-      "categories": [ { "fr": "nombre ordinaire (combien ?)" }, { "fr": "nombre ordinal (quel rang ?)" } ],
+      "categories": [ { "fr": "nombre cardinal (combien ?)" }, { "fr": "nombre ordinal (quel rang ?)" } ],
       "cards": [
         { "ar": "ثَلَاثَةُ دُرُوسٍ", "category": 0 },
         { "ar": "الدَّرْسُ الثَّالِثُ", "category": 1 },
@@ -36,8 +36,8 @@
         { "ar": "عَشَرَةُ طُلَّابٍ", "category": 0 },
         { "ar": "الطَّالِبُ الْعَاشِرُ", "category": 1 }
       ],
-      "instruction": "Nombre ordinaire ou nombre ordinal ?",
-      "explain": "Le nombre ordinaire compte (trois leçons, sept voitures, dix étudiants) ; le nombre ordinal donne le rang (la troisième leçon, la septième voiture, le dixième étudiant)."
+      "instruction": "Nombre cardinal ou nombre ordinal ?",
+      "explain": "Le nombre cardinal compte (trois cours, sept voitures, dix étudiants) ; le nombre ordinal donne le rang (le troisième cours, la septième voiture, le dixième étudiant)."
     },
     {
       "id": "medine-t2.l10.grammar-7#10",

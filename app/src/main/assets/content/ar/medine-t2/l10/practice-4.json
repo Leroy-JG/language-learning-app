@@ -24,7 +24,7 @@
             ["{ar|ذَهَبَتْ لَيْلَى إِلَى الْجَامِعَةِ مُتَأَخِّرَةً.}", "Laylā est allée en retard à l'université."],
             [
               "{ar|ذَهَبَتِ الطَّبِيبَةُ الْيَوْمَ إِلَى الْمُسْتَشْفَى مُبَكِّرَةً.}",
-              "La doctoresse est allée tôt à l'hôpital aujourd'hui."
+              "La femme médecin est allée tôt à l'hôpital aujourd'hui."
             ]
           ]
         },
@@ -39,7 +39,7 @@
       "id": "medine-t2.l10.practice-4#2",
       "type": "fill_gap",
       "sentence": "ذَهَبَتِ الطَّبِيبَةُ الْيَوْمَ إِلَى الْمُسْتَشْفَى {0}.",
-      "fr": "La doctoresse est allée tôt à l'hôpital aujourd'hui.",
+      "fr": "La femme médecin est allée tôt à l'hôpital aujourd'hui.",
       "gaps": [ { "answers": ["مُبَكِّرَةً"] } ],
       "options": ["مُبَكِّرَةً", "مُبَكِّرًا", "مُتَأَخِّرَةً"],
       "explain": "Elle est allée tôt : {ar|مُبَكِّرَةً}, avec {ar|ة} parce que {ar|الطَّبِيبَةُ} est une femme."
@@ -68,7 +68,11 @@
       "id": "medine-t2.l10.practice-4#5",
       "type": "order",
       "fr": "Zayd est toujours à la mosquée. (exercice 9 : {ar|دَائِمًا})",
-      "answers": [["زَيْدٌ", "دَائِمًا", "فِي", "الْمَسْجِدِ"], ["زَيْدٌ", "فِي", "الْمَسْجِدِ", "دَائِمًا"]],
+      "answers": [
+        ["زَيْدٌ", "دَائِمًا", "فِي", "الْمَسْجِدِ"],
+        ["زَيْدٌ", "فِي", "الْمَسْجِدِ", "دَائِمًا"],
+        ["دَائِمًا", "زَيْدٌ", "فِي", "الْمَسْجِدِ"]
+      ],
       "punctuation": "."
     },
     {
@@ -76,7 +80,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Je suis parfois à la maison. (exercice 9 : {ar|أَحْيَانًا})",
-      "answers": ["أَنَا فِي الْبَيْتِ أَحْيَانًا.", "أَنَا أَحْيَانًا فِي الْبَيْتِ."]
+      "answers": ["أَنَا فِي الْبَيْتِ أَحْيَانًا.", "أَنَا أَحْيَانًا فِي الْبَيْتِ.", "أَحْيَانًا أَنَا فِي الْبَيْتِ."]
     },
     {
       "id": "medine-t2.l10.practice-4#7",

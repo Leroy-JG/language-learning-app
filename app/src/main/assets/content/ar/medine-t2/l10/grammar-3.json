@@ -96,7 +96,7 @@
     {
       "id": "medine-t2.l10.grammar-3#4",
       "type": "spot",
-      "instruction": "Touche la partie qui change selon le genre du dénombré.",
+      "instruction": "Touche la partie du nombre qui change selon le genre du dénombré.",
       "words": ["ثَلَاثَةٌ", "وَعِشْرُونَ", "كِتَابًا."],
       "answers": [0],
       "fr": "Vingt-trois livres.",
@@ -131,19 +131,19 @@
     },
     {
       "id": "medine-t2.l10.grammar-3#8",
+      "type": "order",
+      "fr": "J'ai vingt-huit livres.",
+      "answers": [["لِي", "ثَمَانِيَةٌ", "وَعِشْرُونَ", "كِتَابًا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l10.grammar-3#9",
       "type": "fill_gap",
       "sentence": "لِي {0} أُخْتًا.",
       "fr": "J'ai vingt-deux sœurs.",
       "gaps": [ { "answers": ["اِثْنَتَانِ وَعِشْرُونَ"] } ],
       "options": ["اِثْنَتَانِ وَعِشْرُونَ", "اِثْنَانِ وَعِشْرُونَ", "ثَلَاثٌ وَعِشْرُونَ"],
       "explain": "« Deux » s'accorde avec le dénombré : {ar|أُخْتٌ} est féminin, donc {ar|اِثْنَتَانِ}."
-    },
-    {
-      "id": "medine-t2.l10.grammar-3#9",
-      "type": "order",
-      "fr": "J'ai vingt-huit livres.",
-      "answers": [["لِي", "ثَمَانِيَةٌ", "وَعِشْرُونَ", "كِتَابًا"]],
-      "punctuation": "."
     },
     {
       "id": "medine-t2.l10.grammar-3#10",

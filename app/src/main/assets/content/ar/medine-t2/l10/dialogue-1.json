@@ -95,7 +95,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Ce texte parle surtout au **présent**. Tu vas l'étudier dans une leçon à venir : ici, repère simplement le sens. Rien de cela n'est exigé en exercice."
+          "text": "Ce texte parle surtout au **présent**. Tu vas l'étudier dans une leçon à venir : ici, repère simplement le sens. Tu n'as à les comprendre que dans les questions du texte, jamais à les écrire."
         },
         {
           "type": "table",
@@ -108,6 +108,10 @@
               "il fait, il lit, il entend (il écoute), il s'assoit, il travaille (le présent de {ar|فَعَلَ}, {ar|قَرَأَ}, {ar|سَمِعَ}, {ar|جَلَسَ}, {ar|عَمِلَ})"
             ],
             ["{ar|لَا يَذْهَبُ}", "il ne va pas ({ar|لَا} devant le présent)"],
+            [
+              "{ar|كُلَّ يَوْمٍ}",
+              "chaque jour, tous les jours ({ar|كُلٌّ} + un nom indéfini ; à l'accusatif, car c'est un complément de temps)"
+            ],
             ["{ar|الصُّحُفُ}", "les journaux (le pluriel de {ar|صَحِيفَةٌ})"],
             [
               "{ar|لَيْسَ بِكَبِيرٍ}",
@@ -115,7 +119,7 @@
             ],
             [
               "{ar|مِائَةٌ وَخَمْسَةٌ وَعِشْرُونَ عَامِلًا}",
-              "125 ouvriers : cent, puis cinq, puis vingt ; le dénombré suit le dernier nombre (singulier, accusatif)"
+              "125 ouvriers : cent, puis cinq, puis vingt ; le dénombré se règle sur le dernier groupe de nombres (ici 25 : singulier, accusatif) ; {ar|مِائَةٌ} n'a pas d'effet sur lui"
             ],
             ["{ar|وَمُهَنْدِسَانِ}", "et deux ingénieurs ({ar|مُهَنْدِسَانِ} est le duel de {ar|مُهَنْدِسٌ})"]
           ]
@@ -155,7 +159,7 @@
       "statement": { "fr": "Ḥāmid retourne à l'usine après midi." },
       "answer": false,
       "context": { "dialogue": "medine-t2.l10.dialogue-1#1" },
-      "explain": "Faux : {ar|لَا يَذْهَبُ بَعْدَ الظُّهْرِ}. Il reste à la maison, dans son bureau, après la prière de l'après-midi."
+      "explain": "Faux : {ar|لَا يَذْهَبُ بَعْدَ الظُّهْرِ}. Il reste ici, dans son bureau, après la prière de l'après-midi."
     },
     {
       "id": "medine-t2.l10.dialogue-1#6",
@@ -189,7 +193,12 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Notre usine n'est pas grande.",
-      "answers": ["مَصْنَعُنَا لَيْسَ بِكَبِيرٍ.", "مَصْنَعُنَا لَيْسَ كَبِيرًا."],
+      "answers": [
+        "مَصْنَعُنَا لَيْسَ بِكَبِيرٍ.",
+        "مَصْنَعُنَا لَيْسَ كَبِيرًا.",
+        "لَيْسَ مَصْنَعُنَا بِكَبِيرٍ.",
+        "لَيْسَ مَصْنَعُنَا كَبِيرًا."
+      ],
       "explain": "Le professeur écrit {ar|لَيْسَ بِكَبِيرٍ} ; sans {ar|بِ}, le prédicat de {ar|لَيْسَ} est à l'accusatif : {ar|لَيْسَ كَبِيرًا}."
     }
   ]

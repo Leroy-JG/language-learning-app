@@ -63,19 +63,19 @@
     },
     {
       "id": "medine-t2.l10.grammar-5#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "deux étudiantes",
+      "answers": ["طَالِبَتَانِ اِثْنَتَانِ", "طَالِبَتَانِ", "طَالِبَتَيْنِ اِثْنَتَيْنِ", "طَالِبَتَيْنِ"]
+    },
+    {
+      "id": "medine-t2.l10.grammar-5#6",
       "type": "fill_gap",
       "sentence": "أُخْتَانِ {0}.",
       "fr": "Deux sœurs.",
       "gaps": [ { "answers": ["اِثْنَتَانِ"] } ],
       "options": ["اِثْنَتَانِ", "اِثْنَانِ"],
       "explain": "{ar|أُخْتٌ} est féminin et « deux » s'accorde : {ar|اِثْنَتَانِ}."
-    },
-    {
-      "id": "medine-t2.l10.grammar-5#6",
-      "type": "typing",
-      "ask": "fr",
-      "fr": "deux étudiantes",
-      "answers": ["طَالِبَتَانِ اِثْنَتَانِ", "طَالِبَتَانِ"]
     },
     {
       "id": "medine-t2.l10.grammar-5#7",
@@ -89,7 +89,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "vingt-deux livres",
-      "answers": ["اِثْنَانِ وَعِشْرُونَ كِتَابًا"]
+      "answers": ["اِثْنَانِ وَعِشْرُونَ كِتَابًا", "اِثْنَيْنِ وَعِشْرِينَ كِتَابًا"]
     }
   ]
 }

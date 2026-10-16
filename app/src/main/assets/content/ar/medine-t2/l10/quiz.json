@@ -96,7 +96,7 @@
       "id": "medine-t2.l10.quiz#11",
       "type": "question",
       "prompt": { "ar": "السَّاعَةُ الْآنَ الرَّابِعَةُ وَالنِّصْفُ." },
-      "choices": [ { "fr": "4 h 30" }, { "fr": "3 h 30" }, { "fr": "4 h 15" } ],
+      "choices": [ { "fr": "4 h 30" }, { "fr": "3 h 30" }, { "fr": "4 h 15" } ],
       "answer": 0,
       "instruction": "Quelle heure est-il ?",
       "explain": "{ar|الرَّابِعَةُ} : quatre heures ; {ar|وَالنِّصْفُ} : et demie."

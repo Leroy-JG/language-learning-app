@@ -79,7 +79,7 @@
         { "ar": "مَعَ ثَمَانِينَ رَجُلًا", "category": 1 }
       ],
       "instruction": "Range chaque phrase selon le rôle de la dizaine.",
-      "explain": "Après un verbe (complément d'objet) ou une préposition, la dizaine se termine par {ar|ينَ}. Quand elle est le sujet, elle se termine par {ar|ونَ} : dans {ar|فِي الْفَصْلِ سِتُّونَ طَالِبًا}, c'est {ar|سِتُّونَ} le sujet, et non {ar|الْفَصْلِ}."
+      "explain": "Quand la dizaine est complément d'objet d'un verbe, ou qu'elle suit une préposition, elle se termine par {ar|ينَ}. Quand elle est le sujet, elle se termine par {ar|ونَ} : dans {ar|فِي الْفَصْلِ سِتُّونَ طَالِبًا}, c'est {ar|سِتُّونَ} le sujet, et non {ar|الْفَصْلِ}."
     },
     {
       "id": "medine-t2.l10.grammar-2#10",

@@ -43,6 +43,14 @@
     },
     {
       "id": "medine-t2.l10.vocab-4#8",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mitr",
+      "distractors": ["w:kilumitr", "w:santimitr"],
+      "explain": "{ar|مِتْرٌ} : un mètre. {ar|كِيلُومِتْرٌ} : un kilomètre ; {ar|سَنْتِيمِتْرٌ} : un centimètre."
+    },
+    {
+      "id": "medine-t2.l10.vocab-4#9",
       "type": "fill_gap",
       "sentence": "عَرْضُ الْبَيْتِ تِسْعَةُ {0}.",
       "fr": "La largeur de la maison est de neuf mètres.",
@@ -50,6 +58,6 @@
       "options": ["أَمْتَارٍ", "مِتْرٍ"],
       "explain": "De 3 à 10, le dénombré est au pluriel, au génitif : {ar|تِسْعَةُ أَمْتَارٍ}. {ar|مِتْرٌ} est masculin, donc « neuf » prend la forme avec {ar|ة}."
     },
-    { "id": "medine-t2.l10.vocab-4#9", "type": "typing", "ask": "fr", "fr": "un mètre", "answers": ["مِتْرٌ"] }
+    { "id": "medine-t2.l10.vocab-4#10", "type": "typing", "ask": "fr", "fr": "un mètre", "answers": ["مِتْرٌ"] }
   ]
 }

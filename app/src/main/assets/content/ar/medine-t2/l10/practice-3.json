@@ -24,7 +24,11 @@
       "id": "medine-t2.l10.practice-3#3",
       "type": "order",
       "fr": "Aujourd'hui, 22 nouveaux étudiants sont venus.",
-      "answers": [["جَاءَ", "الْيَوْمَ", "اِثْنَانِ", "وَعِشْرُونَ", "طَالِبًا", "جَدِيدًا"]],
+      "answers": [
+        ["جَاءَ", "الْيَوْمَ", "اِثْنَانِ", "وَعِشْرُونَ", "طَالِبًا", "جَدِيدًا"],
+        ["جَاءَ", "اِثْنَانِ", "وَعِشْرُونَ", "طَالِبًا", "جَدِيدًا", "الْيَوْمَ"],
+        ["الْيَوْمَ", "جَاءَ", "اِثْنَانِ", "وَعِشْرُونَ", "طَالِبًا", "جَدِيدًا"]
+      ],
       "punctuation": ".",
       "explain": "« Deux » s'accorde : {ar|اِثْنَانِ} pour un nom masculin. Le nombre est le sujet du verbe : nominatif. L'adjectif {ar|جَدِيدًا} suit le dénombré : singulier, accusatif."
     },
@@ -39,7 +43,7 @@
     {
       "id": "medine-t2.l10.practice-3#5",
       "type": "order",
-      "fr": "La longueur de ce terrain est de 28 mètres et sa largeur de 24 mètres.",
+      "fr": "Ce terrain mesure 28 mètres de long et 24 mètres de large.",
       "answers": [
         [
           "هٰذَا",
@@ -61,7 +65,7 @@
       "id": "medine-t2.l10.practice-3#6",
       "type": "fill_gap",
       "sentence": "الْمَسَافَةُ بَيْنَهُمَا {0} كِيلُومِتْرًا.",
-      "fr": "La distance entre eux est de 23 kilomètres.",
+      "fr": "La distance entre les deux est de 23 kilomètres.",
       "gaps": [ { "answers": ["ثَلَاثَةٌ وَعِشْرُونَ"] } ],
       "options": ["ثَلَاثَةٌ وَعِشْرُونَ", "ثَلَاثٌ وَعِشْرُونَ", "ثَلَاثَةٌ وَعِشْرِينَ"],
       "explain": "{ar|كِيلُومِتْرٌ} est masculin : {ar|ثَلَاثَةٌ}. Le nombre est le prédicat de {ar|الْمَسَافَةُ} : nominatif, donc {ar|وَعِشْرُونَ}."
@@ -71,7 +75,10 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Ce cahier mesure 27 centimètres de long.",
-      "answers": ["هٰذَا الدَّفْتَرُ طُولُهُ سَبْعَةٌ وَعِشْرُونَ سَنْتِيمِتْرًا."],
+      "answers": [
+        "هٰذَا الدَّفْتَرُ طُولُهُ سَبْعَةٌ وَعِشْرُونَ سَنْتِيمِتْرًا.",
+        "طُولُ هٰذَا الدَّفْتَرِ سَبْعَةٌ وَعِشْرُونَ سَنْتِيمِتْرًا."
+      ],
       "explain": "{ar|سَنْتِيمِتْرٌ} est masculin : {ar|سَبْعَةٌ}."
     }
   ]

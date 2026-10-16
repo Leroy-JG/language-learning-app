@@ -49,7 +49,7 @@ Outils de la palette : `sort` (genre du nom compté, cas du nombre, rôle de la 
 - **Exercice 6** : les chiffres du PDF sont faux (`260`, `270`, `280`, `290`, `350` à côté de `سِتَّةٌ وَعِشْرُونَ` … `ثَلَاثُونَ`) ; l'app lit 26, 27, 28, 29 et 30.
 - **Vocabulaire** : le tableau écrit `مُتَاخِّرًا` (sans la hamza) ; l'app écrit `مُتَأَخِّرًا`. `الثَّانِيْ` (sukūn sur le ي dans l'exercice 10) est écrit `الثَّانِي`.
 - **`أُخْرَى`** : le PDF donne le pluriel `أُخْرَيَاتٌ` ; l'élément porte le pluriel `أُخَرُ` (sans tanwin, le plus courant, `فَعِدَّةٌ مِنْ أَيَّامٍ أُخَرَ`) et la note cite `أُخْرَيَاتٌ`.
-- **`عَرْضٌ`** : pluriel `أَعْرَاضٌ` du PDF (attesté comme pluriel de `عَرْضٌ` dans Lane, qui le donne aussi pour d'autres mots de même racine).
+- **`عَرْضٌ`** : le PDF donne le pluriel `أَعْرَاضٌ` ; le pluriel usuel de « largeur » est peut-être `عُرُوضٌ` (doute d'un relecteur, `أَعْرَاضٌ` étant aussi celui de `عِرْضٌ` et `عَرَضٌ`) et je n'ai pas pu le vérifier dans le Lisān : **aucun pluriel n'est affiché**. À confirmer avec le professeur.
 - **`مِتْرٌ`, `كِيلُومِتْرٌ`, `سَنْتِيمِتْرٌ`** : le PDF ne donne un pluriel que pour `مِتْرٌ` (`أَمْتَارٌ`) ; aucun pluriel inventé pour les deux autres.
 - **Exemples du vocabulaire** : ceux du PDF (`يُرَاجِعُ زَيْدٌ دُرُوسَهُ دَائِمًا`, `يَأْكُلُ زَيْدٌ التُّفَّاحَ أَحْيَانًا`, `أَذْهَبُ إِلَى الْمَصْنَعِ مَرَّةً أُخْرَى`, `مَشَيْتُ أَمْتَارًا`) emploient le présent, pas encore enseigné : ils sont
   remplacés par des phrases au passé ou nominales (`هُوَ فِي الْمَسْجِدِ دَائِمًا`, `جَاءَ زَيْدٌ مَرَّةً أُخْرَى`…). `مَسَافَةُ الطَّرِيقِ طَوِيلَةٌ` n'est pas reprise (`طَرِيقٌ` n'est pas un élément).
@@ -70,11 +70,21 @@ Outils de la palette : `sort` (genre du nom compté, cas du nombre, rôle de la 
 - **Dizaines** : ce ne sont pas de vrais pluriels (`ثَلَاثُونَ` n'est pas « plusieurs trois ») ; elles n'ont pas de singulier et sont « rattachées » au pluriel masculin sain (`مُلْحَقٌ بِجَمْعِ الْمُذَكَّرِ السَّالِمِ`) ; `ثَمَانٍ` perd son `ي` dans `ثَمَانُونَ` ; `عِشْرُونَ` est un mot à part (le PDF ne donne pas de règle).
 - **Unités + dizaine** : le schéma vaut de 21 à 99 (`خَمْسَةٌ وَأَرْبَعُونَ`, `تِسْعَةٌ وَتِسْعُونَ`) ; `إِحْدَى وَعِشْرُونَ` existe pour vingt et un au féminin ; le cas de `اِثْنَانِ` / `اِثْنَتَانِ` se lit comme un duel (`اِثْنَيْنِ`, `اِثْنَتَيْنِ`).
 - **Un et deux** : le nombre peut suivre le nom comme un adjectif (`كِتَابٌ وَاحِدٌ`, `كِتَابَانِ اثْنَانِ`), ou on emploie le duel seul (`كِتَابَانِ`).
-- **Ordinaux** : `سَادِسٌ` s'écrit avec `د`, non `ت` ; `خَامِسٌ` et `الْخَمِيسُ` (jeudi, le cinquième jour) ; `ثَانٍ` perd son `ي` devant le tanwin ; le nombre ordinal s'accorde, le nombre ordinaire contredit.
-- **L'heure** : `السَّاعَةُ` + ordinal féminin ; « une heure » se dit `الْوَاحِدَةُ` (non `الْأُولَى`) ; `فِي السَّاعَةِ …` met l'heure au génitif ; `وَالنِّصْفُ`, `وَالرُّبْعُ`, `إِلَّا رُبْعًا`.
+- **Ordinaux** : `سَادِسٌ` s'écrit avec `د`, non `ت` ; `خَامِسٌ` et `الْخَمِيسُ` (jeudi, le cinquième jour) ; `ثَانٍ` perd son `ي` devant le tanwin ; le nombre ordinal s'accorde (aussi en défini / indéfini : `دَرْسٌ ثَالِثٌ`), le nombre cardinal contredit.
+- **L'heure** : `كَمِ السَّاعَةُ الْآنَ؟` (« quelle heure est-il ? », note « en complément », absente du PDF) ; `السَّاعَةُ` + ordinal féminin ; « une heure » se dit `الْوَاحِدَةُ` (non `الْأُولَى`) ; `فِي السَّاعَةِ …` met l'heure au génitif ; `وَالنِّصْفُ`, `وَالرُّبْعُ`, `إِلَّا رُبْعًا`.
 - **`إِلَّا`** : dans une phrase affirmative comme les exemples, le mot qui suit est à l'accusatif (`إِلَّا زَيْدًا`, `إِلَّا رُبْعًا`) ; la shadda la distingue de `إِلَى`.
 - **`فَعَلَ`** : son nom d'action `فِعْلٌ` est le mot « verbe » du chapitre 1 du tome 1 ; **`عَصْرٌ`** : la prière de l'après-midi est la troisième des cinq prières ; **`خَبَرٌ`** : le prédicat est « l'information ».
 - **Adverbes** : `مُتَأَخِّرًا` / `مُبَكِّرًا` décrivent la personne et prennent `ة` au féminin ; `أَحْيَانًا` est un pluriel de `حِينٌ` employé comme adverbe.
+
+## Corrections faites après la relecture
+
+Trois relecteurs indépendants (arabe, exercices, français et pédagogie) ; aucune erreur d'arabe certaine. Remarques vérifiées et corrigées :
+
+- **Français** : « nombre ordinaire » (faux) remplacé par « nombre cardinal » ; « comme n'importe quel adjectif » remplacé par « comme la plupart des adjectifs » ; « la doctoresse » remplacé par « la femme médecin » ; « entre eux » par « entre les deux » (duel) ; espaces insécables dans « 8 h 30 » ;
+  « Il reste ici, dans son bureau » (le texte dit `هُنَا`) ; `ثَانٍ` : le `ي` tombe « au nominatif et au génitif » seulement.
+- **Explications** : la phrase sur `ينَ` précise « complément d'objet d'un verbe, ou après une préposition » (un sujet placé après un verbe reste en `ونَ`) ; « le dénombré suit le dernier nombre » devient « se règle sur le dernier groupe de nombres » ; `كُلَّ يَوْمٍ` est glosé ; l'accord des ordinaux en défini / indéfini est ajouté.
+- **Exercices** : réponses ajoutées (ordres de mots `طُولُ هٰذَا الدَّفْتَرِ…`, `الْيَوْمَ` en tête, `لَيْسَ مَصْنَعُنَا…`, `أَحْيَانًا أَنَا…`, formes obliques `اِثْنَيْنِ وَعِشْرِينَ`, `طَالِبَتَيْنِ`) ; la phrase française de l'exercice 7-5 devient « Ce terrain mesure 28 mètres de long et 24 mètres de large » ;
+  le distracteur `إِلَى الْمَصْنَعِ` de l'exercice 1 devient `إِلَى الْمَطَارِ` (Ḥāmid va aussi à l'usine après l'aube, plus tard) ; les séries de trois exercices du même type sont coupées (hors exercices du livre).
 
 ## Pas encore enseigné (donc sans exercice)
 

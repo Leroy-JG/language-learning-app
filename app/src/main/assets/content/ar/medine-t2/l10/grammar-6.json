@@ -12,7 +12,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le nombre ordinal dit le **rang** d'un élément. Il est variable ({ar|مُعْرَبٌ}) et s'emploie en général comme un adjectif : il suit le nom, s'accorde avec lui et a le même cas que lui (le nom qualifié, {ar|الْمَنْعُوتُ})."
+          "text": "Le nombre ordinal dit le **rang** d'un élément. Il est variable ({ar|مُعْرَبٌ}) et s'emploie en général comme un adjectif : il suit le nom, s'accorde avec lui en genre et en défini / indéfini ({ar|الدَّرْسُ الثَّالِثُ} : « le troisième cours » ; {ar|دَرْسٌ ثَالِثٌ} : « un troisième cours ») et a le même cas que lui (le nom qualifié, {ar|الْمَنْعُوتُ})."
         },
         {
           "type": "compare",
@@ -28,7 +28,7 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "Ne confonds pas le nombre ordinal et le nombre ordinaire : l'ordinal **s'accorde** ({ar|الدَّرْسُ الثَّالِثُ}, {ar|السَّنَةُ الثَّالِثَةُ}), alors que le nombre ordinaire de 3 à 10 **contredit** ({ar|ثَلَاثَةُ دُرُوسٍ}, {ar|ثَلَاثُ سَنَوَاتٍ})."
+          "text": "Ne confonds pas le nombre ordinal et le nombre cardinal : l'ordinal **s'accorde** ({ar|الدَّرْسُ الثَّالِثُ}, {ar|السَّنَةُ الثَّالِثَةُ}), alors que le nombre cardinal de 3 à 10 **contredit** ({ar|ثَلَاثَةُ دُرُوسٍ}, {ar|ثَلَاثُ سَنَوَاتٍ})."
         }
       ]
     },
@@ -57,7 +57,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Au féminin, l'ordinal prend {ar|ة}, comme n'importe quel adjectif. Une exception : « premier », dont le féminin est {ar|أُولَى}, sans {ar|ة}."
+          "text": "Au féminin, l'ordinal prend {ar|ة}, comme la plupart des adjectifs. Une exception : « premier », dont le féminin est {ar|أُولَى}, sans {ar|ة}."
         },
         {
           "type": "compare",

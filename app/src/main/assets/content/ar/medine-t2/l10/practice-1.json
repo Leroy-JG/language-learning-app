@@ -28,7 +28,7 @@
       "id": "medine-t2.l10.practice-1#3",
       "type": "question",
       "prompt": { "ar": "أَيْنَ يَذْهَبُ حَامِدٌ بَعْدَ صَلَاةِ الْفَجْرِ؟" },
-      "choices": [ { "ar": "إِلَى السُّوقِ" }, { "ar": "إِلَى الْمَصْنَعِ" }, { "ar": "إِلَى الْجَامِعَةِ" } ],
+      "choices": [ { "ar": "إِلَى السُّوقِ" }, { "ar": "إِلَى الْمَطَارِ" }, { "ar": "إِلَى الْجَامِعَةِ" } ],
       "answer": 0,
       "instruction": "Réponds d'après le texte.",
       "context": { "dialogue": "medine-t2.l10.dialogue-1#1" },

@@ -37,7 +37,10 @@
       "id": "medine-t2.l10.vocab-6#8",
       "type": "order",
       "fr": "Zayd a entendu une nouvelle à la radio.",
-      "answers": [["سَمِعَ", "زَيْدٌ", "خَبَرًا", "مِنَ", "الْإِذَاعَةِ"]],
+      "answers": [
+        ["سَمِعَ", "زَيْدٌ", "خَبَرًا", "مِنَ", "الْإِذَاعَةِ"],
+        ["سَمِعَ", "زَيْدٌ", "مِنَ", "الْإِذَاعَةِ", "خَبَرًا"]
+      ],
       "punctuation": "."
     },
     { "id": "medine-t2.l10.vocab-6#9", "type": "typing", "ask": "fr", "fr": "sauf", "answers": ["إِلَّا"] }

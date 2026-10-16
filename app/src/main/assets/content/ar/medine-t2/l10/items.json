@@ -105,7 +105,7 @@
     "fr": "le nombre ordinal (qui dit le rang)",
     "translit": "al-ʿadadu at-tartībiyyu",
     "gender": "m",
-    "note": "{ar|التَّرْتِيبُ} veut dire « l'ordre, le classement ». Le nombre ordinal répond à la question « quel rang ? » (premier, deuxième…), alors que le nombre ordinaire répond à « combien ? »."
+    "note": "{ar|التَّرْتِيبُ} veut dire « l'ordre, le classement ». Le nombre ordinal répond à la question « quel rang ? » (premier, deuxième…), alors que le nombre cardinal (un, deux, trois…) répond à « combien ? »."
   },
   {
     "id": "w:thani",
@@ -113,7 +113,7 @@
     "ar": "ثَانٍ",
     "fr": "deuxième",
     "translit": "thānin",
-    "note": "Sans article, on écrit {ar|ثَانٍ} : le {ar|ي} tombe devant le tanwin. Avec l'article, il se voit : {ar|الثَّانِي}. Au féminin : {ar|ثَانِيَةٌ}.",
+    "note": "Sans article, on écrit {ar|ثَانٍ} : au nominatif et au génitif, le {ar|ي} tombe devant le tanwin (à l'accusatif, il revient : {ar|ثَانِيًا}). Avec l'article, il se voit : {ar|الثَّانِي}. Au féminin : {ar|ثَانِيَةٌ}.",
     "example": { "ar": "الدَّرْسُ الثَّانِي.", "fr": "Le deuxième cours." }
   },
   {
@@ -264,7 +264,6 @@
     "ar": "عَرْضٌ",
     "fr": "une largeur",
     "translit": "ʿarḍun",
-    "plural": "أَعْرَاضٌ",
     "gender": "m",
     "note": "Avec un pronom collé : {ar|عَرْضُهُ} (« sa largeur »). Ne le confonds pas avec {ar|أَرْضٌ} (la terre).",
     "example": { "ar": "مَا عَرْضُ هٰذَا الْبَيْتِ؟", "fr": "Quelle est la largeur de cette maison ?" }
