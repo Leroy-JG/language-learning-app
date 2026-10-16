@@ -66,7 +66,7 @@
         { "ar": "فَتَحْنَ", "category": 1 }
       ],
       "instruction": "Pour qui ce verbe est-il au pluriel ?",
-      "explain": "Pour des hommes, le verbe se termine par {ar|وا} ; pour des femmes, par {ar|نَ} avec un sukūn sur la lettre qui précède."
+      "explain": "Pour des hommes, le verbe se termine par {ar|◌ُوا} ; pour des femmes, par {ar|نَ} avec un sukūn sur la lettre qui précède."
     },
     {
       "id": "medine-t2.l09.grammar-4#3",
@@ -89,11 +89,8 @@
     {
       "id": "medine-t2.l09.grammar-4#5",
       "type": "order",
-      "fr": "Qui sont les jeunes hommes qui sont sortis de la classe maintenant ?",
-      "answers": [
-        ["مَنِ", "الْفِتْيَةُ", "الَّذِينَ", "خَرَجُوا", "مِنَ", "الْفَصْلِ", "الْآنَ"],
-        ["مَنِ", "الْفِتْيَةُ", "الَّذِينَ", "خَرَجُوا", "الْآنَ", "مِنَ", "الْفَصْلِ"]
-      ],
+      "fr": "Qui sont les jeunes hommes qui sont sortis maintenant ?",
+      "answers": [["مَنِ", "الْفِتْيَةُ", "الَّذِينَ", "خَرَجُوا", "الْآنَ"]],
       "punctuation": "؟",
       "explain": "{ar|مَنِ} : le {ar|ن} de {ar|مَنْ} prend une kasra devant {ar|الْ} (deux sukūn qui se rencontrent, chapitre 7)."
     },

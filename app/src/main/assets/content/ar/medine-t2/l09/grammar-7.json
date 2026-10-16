@@ -25,7 +25,7 @@
             ["{ar|فِي كَمْ يَوْمٍ؟}", "En combien de jours ?"],
             ["{ar|بِكَمْ رِيَالٍ هٰذَا الْكِتَابُ؟}", "Ce livre coûte combien de riyals ?"],
             [
-              "{ar|عِدَّةُ أَسْئِلَةٍ}، {ar|عِدَّةُ كُتُبٍ}، {ar|عِدَّةُ أَيَّامٍ}",
+              "{ar|عِدَّةُ أَسْئِلَةٍ}, {ar|عِدَّةُ كُتُبٍ}, {ar|عِدَّةُ أَيَّامٍ}",
               "plusieurs questions, plusieurs livres, plusieurs jours"
             ]
           ]

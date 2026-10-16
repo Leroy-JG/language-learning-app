@@ -65,16 +65,15 @@
       "mode": "sing-plur",
       "items": ["w:qaima", "w:jumla", "w:maana", "w:imtihan"]
     },
-    { "id": "medine-t2.l09.vocab-2#13", "type": "present", "item": "w:mujtahid" },
     {
-      "id": "medine-t2.l09.vocab-2#14",
+      "id": "medine-t2.l09.vocab-2#13",
       "type": "mcq",
       "mode": "ar-fr",
       "item": "w:mujtahid",
       "distractors": ["w:jayyid", "w:marid"]
     },
     {
-      "id": "medine-t2.l09.vocab-2#15",
+      "id": "medine-t2.l09.vocab-2#14",
       "type": "fill_gap",
       "sentence": "مَا {0} هٰذِهِ الْكَلِمَةِ؟",
       "fr": "Quel est le sens de ce mot ?",
@@ -83,7 +82,7 @@
       "explain": "« Le sens de… » : {ar|مَعْنَى} + un nom au génitif ({ar|مَعْنَى هٰذِهِ الْكَلِمَةِ})."
     },
     {
-      "id": "medine-t2.l09.vocab-2#16",
+      "id": "medine-t2.l09.vocab-2#15",
       "type": "order",
       "fr": "J'ai un examen aujourd'hui.",
       "answers": [
@@ -94,14 +93,14 @@
       "punctuation": "."
     },
     {
-      "id": "medine-t2.l09.vocab-2#17",
+      "id": "medine-t2.l09.vocab-2#16",
       "type": "typing",
       "ask": "fr",
       "fr": "Quel est le sens de ce mot ?",
       "answers": ["مَا مَعْنَى هٰذِهِ الْكَلِمَةِ؟"]
     },
     {
-      "id": "medine-t2.l09.vocab-2#18",
+      "id": "medine-t2.l09.vocab-2#17",
       "type": "typing",
       "ask": "audio",
       "fr": "Où est le menu ?",

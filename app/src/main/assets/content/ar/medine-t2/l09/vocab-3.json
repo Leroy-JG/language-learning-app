@@ -68,7 +68,7 @@
       "fr": "C'est de l'eau mélangée à la boue.",
       "gaps": [ { "answers": ["مُخْتَلِطٌ"] } ],
       "options": ["مُخْتَلِطٌ", "مَرِيضٌ", "جَدِيدٌ", "بَعِيدٌ"],
-      "explain": "{ar|مُخْتَلِطٌ بِ…} : « mélangé à… »."
+      "explain": "{ar|مُخْتَلِطٌ} + {ar|بِ} + un nom : « mélangé à… »."
     },
     {
       "id": "medine-t2.l09.vocab-3#11",

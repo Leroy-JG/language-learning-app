@@ -86,15 +86,6 @@
     "example": { "ar": "عِنْدِي امْتِحَانٌ الْيَوْمَ.", "fr": "J'ai un examen aujourd'hui." }
   },
   {
-    "id": "w:mujtahid",
-    "kind": "word",
-    "ar": "مُجْتَهِدٌ",
-    "fr": "assidu, studieux (qui fait des efforts)",
-    "translit": "mujtahidun",
-    "note": "C'est un adjectif : au féminin, {ar|مُجْتَهِدَةٌ}.",
-    "example": { "ar": "الطَّالِبُ مُجْتَهِدٌ.", "fr": "L'étudiant est assidu." }
-  },
-  {
     "id": "w:ard",
     "kind": "word",
     "ar": "أَرْضٌ",
@@ -133,7 +124,7 @@
     "ar": "مُخْتَلِطٌ",
     "fr": "mélangé",
     "translit": "mukhtaliṭun",
-    "note": "Il se construit avec {ar|بِ} : {ar|مُخْتَلِطٌ بِ…} (« mélangé à… »). C'est un adjectif : au féminin, {ar|مُخْتَلِطَةٌ}.",
+    "note": "Il se construit avec {ar|بِ} suivi d'un nom : « mélangé à… ». C'est un adjectif : au féminin, {ar|مُخْتَلِطَةٌ}.",
     "example": { "ar": "هٰذَا مَاءٌ مُخْتَلِطٌ بِالطِّينِ.", "fr": "C'est de l'eau mélangée à la boue." }
   },
   {
@@ -241,7 +232,7 @@
     "ar": "هٰكَذَا",
     "fr": "ainsi, comme ça",
     "translit": "hākadhā",
-    "note": "Comme {ar|هٰذَا}, il s'écrit avec un alif suscrit, souvent omis dans l'écriture courante ({ar|هكذا}).",
+    "note": "Comme {ar|هٰذَا}, il s'écrit avec un alif suscrit, souvent omis dans l'écriture courante ({ar|هَكَذَا}).",
     "example": { "ar": "هٰكَذَا كَتَبَ زَيْدٌ.", "fr": "Zayd a écrit comme ça." }
   },
   {

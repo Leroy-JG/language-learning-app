@@ -71,7 +71,7 @@
       "fr": "J'ai frappé les garçons qui m'ont frappé.",
       "answers": ["ضَرَبْتُ الْأَوْلَادَ الَّذِينَ ضَرَبُونِي."],
       "instruction": "Mets la phrase au pluriel : {ar|ضَرَبْتُ الْوَلَدَ الَّذِي ضَرَبَنِي.}",
-      "explain": "{ar|ضَرَبُونِي} : le {ar|ا} muet de {ar|وا} tombe devant le pronom collé {ar|نِي}."
+      "explain": "{ar|ضَرَبُونِي} : le {ar|ا} muet de {ar|◌ُوا} tombe devant le pronom collé {ar|نِي}."
     },
     {
       "id": "medine-t2.l09.practice-6#5",

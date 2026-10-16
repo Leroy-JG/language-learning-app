@@ -23,7 +23,7 @@ Un seul PDF de diapositives (« Livre de Médine, Tome 2 », cours numéro 9, 26
 | Partie | Activités |
 |---|---|
 | Créer, savoir, demander, revenir | `vocab-1` (les cinq verbes nouveaux, tableau des quatre formes en aperçu) |
-| La classe, la terre, la création | `vocab-2` (liste, phrase, sens, examen, assidu, `مَعْنَاهُ`), `vocab-3` (terre, poussière, boue), `vocab-4` (feu, djinn, être humain, chose) |
+| La classe, la terre, la création | `vocab-2` (liste, phrase, sens, examen, `مَعْنَاهُ`), `vocab-3` (terre, poussière, boue), `vocab-4` (feu, djinn, être humain, chose) |
 | Le grand-père, plusieurs, ainsi | `vocab-5` (grand-père, lien, instant, divorce), `vocab-6` (`عِدَّةُ`, `هٰكَذَا`, `أَوْ`, `تَعَالَى`) |
 | Pays et capitales | `vocab-7` (capitale, Damas, Soudan, Khartoum, Sanaa ; carte et jeu de mémoire) |
 | Les pronoms relatifs | `grammar-1` (un nom, un relatif, une phrase), `grammar-2` (`الَّذِي` ou `الَّتِي`), `grammar-3` (duel et pluriel), `grammar-4` (du singulier au pluriel) |
@@ -36,11 +36,11 @@ Outils de la palette : `sort` (`أَرْضٌ` / `تُرَابٌ` / `طِينٌ` 
 `compare` (`مَعْنًى` → `مَعْنَاهُ`, masculin → féminin, nominatif → génitif du duel, singulier → pluriel, `الْ` → `آلْ`), `build` (`مَعْنًى` : `ى` et non `ا` ; `طِينٌ` : `ط` et non `ت` ; `لَحْظَةٌ` ; `صَنْعَاءُ` : le `ء`),
 `memory` (pays et capitales), `gallery`, `order`, `fill_gap` (deux trous pour le nom et le relatif), `typing`, `question` en français pour les voyelles.
 
-## Notions et éléments nouveaux (48)
+## Notions et éléments nouveaux (47)
 
 - **Verbes** (5) : `عَادَ`, `خَلَقَ`, `أَحْسَنَ`, `عَرَفَ`, `سَأَلَ`. `حَضَرَ` et `رَفَعَ` (déjà enseignés) figurent seulement dans le tableau des quatre formes.
-- **Noms et adjectifs** (22) : `قَائِمَةٌ`, `جُمْلَةٌ`, `مَعْنًى`, `امْتِحَانٌ`, `مُجْتَهِدٌ`, `أَرْضٌ`, `تُرَابٌ`, `طِينٌ`, `مُخْتَلِطٌ`, `نَارٌ`, `جَانٌّ`, `إِنْسَانٌ`, `شَيْءٌ`, `جَدٌّ`, `عَلَاقَةٌ`, `لَحْظَةٌ`, `طَلَاقٌ`, `عِدَّةٌ`, `هٰكَذَا`, `أَوْ`, `تَعَالَى`, `عَاصِمَةٌ`.
-  `سَائِقٌ` (déjà enseigné au chapitre 17 du tome 1) n'est pas redéfini.
+- **Noms et adjectifs** (21) : `قَائِمَةٌ`, `جُمْلَةٌ`, `مَعْنًى`, `امْتِحَانٌ`, `أَرْضٌ`, `تُرَابٌ`, `طِينٌ`, `مُخْتَلِطٌ`, `نَارٌ`, `جَانٌّ`, `إِنْسَانٌ`, `شَيْءٌ`, `جَدٌّ`, `عَلَاقَةٌ`, `لَحْظَةٌ`, `طَلَاقٌ`, `عِدَّةٌ`, `هٰكَذَا`, `أَوْ`, `تَعَالَى`, `عَاصِمَةٌ`.
+  `سَائِقٌ` (chapitre 17 du tome 1) et `مُجْتَهِدٌ` (chapitre 9 du tome 1, « studieux, appliqué ») sont déjà enseignés : ils ne sont pas redéfinis (`مُجْتَهِدٌ` sert de distracteur et d'exemple).
 - **Pays et villes** (4) : `دِمَشْقُ`, `السُّودَانُ`, `الْخُرْطُومُ`, `صَنْعَاءُ`. `مِصْرُ`, `الْيَمَنُ`, `الْقَاهِرَةُ`, `بَغْدَادُ`, `الرِّيَاضُ`, `الْعِرَاقُ` sont réutilisés.
 - **Relatifs** (6) : `الَّذِي`, `الَّتِي`, `اللَّذَانِ`, `اللَّتَانِ`, `الَّذِينَ`, `اللَّاتِي`. Les formes `اللَّذَيْنِ`, `اللَّتَيْنِ`, `اللَّائِي` sont données dans un tableau et dans les notes.
 - **Termes** (2) : `اِسْمٌ مَوْصُولٌ` (le pronom relatif), `صِلَةُ الْمَوْصُولِ` (la proposition relative).
@@ -91,6 +91,9 @@ Trois relecteurs indépendants (arabe, exercices, français et pédagogie) ; auc
 - **Réponses acceptées ajoutées** : `ذٰلِكَ شَيْءٌ جَمِيلٌ` ; sujet en tête (`اللَّهُ خَلَقَ …`, `اللَّهُ تَعَالَى قَالَ`) ; réponses courtes de l'exercice 1 ; `اللَّهُ.` ; `لَيْسَ لَهُ عَلَاقَةٌ` (le sujet vient après le verbe) ;
   ordres de mots alternatifs de `مَنِ الرِّجَالُ …` et de `آلْيَوْمَ رَجَعَ …`.
 - **Explications d'oral ajoutées** : le `مَا` d'exclamation n'est pas le « quoi ? » ; prononciation de `آلْ` ; `فِتْيَانٌ` ; `فِيمَ`, `عَلَامَ`, `إِلَامَ`.
+- **Erreurs trouvées par la validation sur GitHub** (`validateContent`, impossible à lancer ici : Maven Central refusait les téléchargements, erreur 429) :
+  `w:mujtahid` existait déjà au tome 1 (id en double : retiré, réutilisé) ; points de suspension `…` interdits dans un texte arabe (`مُخْتَلِطٌ بِ…`) ; `هكذا` et `وا` non vocalisés dans une note et dans deux `explain` ;
+  virgules arabes `،` hors balise dans deux tableaux ; deux étiquettes d'un exercice d'ordre qui ne diffèrent que par les harakat (`مَنِ` / `مِنَ`) : la phrase est raccourcie (« Qui sont les jeunes hommes qui sont sortis maintenant ? »).
 - `grammar-7` : option `أَقْلَامٍ` (pluriel correct, écarté par le sens seulement) : l'explication le dit.
 
 ## Pas encore enseigné (donc sans exercice)
