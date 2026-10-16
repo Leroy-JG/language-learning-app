@@ -46,7 +46,10 @@
       "id": "medine-t2.l09.practice-6#2",
       "type": "order",
       "fr": "Qui sont les hommes qui sont entrés chez vous maintenant ?",
-      "answers": [["مَنِ", "الرِّجَالُ", "الَّذِينَ", "دَخَلُوا", "بَيْتَكُمُ", "الْآنَ"]],
+      "answers": [
+        ["مَنِ", "الرِّجَالُ", "الَّذِينَ", "دَخَلُوا", "بَيْتَكُمُ", "الْآنَ"],
+        ["مَنِ", "الرِّجَالُ", "الَّذِينَ", "دَخَلُوا", "الْآنَ", "بَيْتَكُمُ"]
+      ],
       "punctuation": "؟",
       "instruction": "Mets la phrase au pluriel : {ar|مَنِ الرَّجُلُ الَّذِي دَخَلَ بَيْتَكُمُ الْآنَ؟}",
       "explain": "Le {ar|مْ} de {ar|كُمْ} prend une damma devant {ar|الْ} (deux sukūn qui se rencontrent, chapitre 7)."
@@ -93,7 +96,7 @@
       "id": "medine-t2.l09.practice-6#7",
       "type": "typing",
       "ask": "audio",
-      "fr": "Les femmes qui sont entrées chez nous sont mes tantes.",
+      "fr": "Les femmes qui sont entrées chez nous sont mes tantes paternelles.",
       "answers": ["النِّسَاءُ اللَّاتِي دَخَلْنَ بَيْتَنَا عَمَّاتِي."]
     },
     {

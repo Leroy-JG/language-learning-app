@@ -30,6 +30,7 @@
       "prompt": { "ar": "مَنْ قَالَ هٰذَا؟" },
       "choices": [ { "ar": "إِبْلِيسُ" }, { "ar": "أَبُو بَكْرٍ" }, { "ar": "الْمُدَرِّسُ" } ],
       "answer": 0,
+      "instruction": "Qui parle dans le verset ?",
       "context": { "dialogue": "medine-t2.l09.dialogue-2#1" },
       "explain": "Abū Bakr cite le verset ; c'est Iblīs qui parle, dans le Coran : « Iblīs a dit à Allah… »."
     },

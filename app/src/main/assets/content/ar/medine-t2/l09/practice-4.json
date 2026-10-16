@@ -41,14 +41,17 @@
       "id": "medine-t2.l09.practice-4#3",
       "type": "order",
       "fr": "Est-ce aujourd'hui que ton père est revenu de Damas ?",
-      "answers": [["آلْيَوْمَ", "رَجَعَ", "أَبُوكَ", "مِنْ", "دِمَشْقَ"]],
+      "answers": [
+        ["آلْيَوْمَ", "رَجَعَ", "أَبُوكَ", "مِنْ", "دِمَشْقَ"],
+        ["آلْيَوْمَ", "رَجَعَ", "مِنْ", "دِمَشْقَ", "أَبُوكَ"]
+      ],
       "punctuation": "؟"
     },
     {
       "id": "medine-t2.l09.practice-4#4",
       "type": "typing",
       "ask": "fr",
-      "fr": "L'enseignant est-il malade ?",
+      "fr": "Est-ce l'enseignant qui est malade ?",
       "answers": ["آلْمُدَرِّسُ مَرِيضٌ؟"]
     },
     {

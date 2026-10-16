@@ -89,7 +89,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "C'est une belle chose.",
-      "answers": ["هٰذَا شَيْءٌ جَمِيلٌ."]
+      "answers": ["هٰذَا شَيْءٌ جَمِيلٌ.", "ذٰلِكَ شَيْءٌ جَمِيلٌ."]
     },
     {
       "id": "medine-t2.l09.vocab-4#14",

@@ -41,6 +41,10 @@
           "type": "note",
           "tone": "memo",
           "text": "Pour retenir : ces mots se terminent toujours par un {ar|م} à la fatha ({ar|بِمَ}, {ar|لِمَ}, {ar|مِمَّ}, {ar|عَمَّ}), jamais par un alif. Tu connais déjà {ar|لِمَ} (« pourquoi ? ») du chapitre 6."
+        },
+        {
+          "type": "note",
+          "text": "La règle vaut pour toutes les prépositions : {ar|فِي} + {ar|مَا} = {ar|فِيمَ} (« en quoi ? »), {ar|عَلَى} + {ar|مَا} = {ar|عَلَامَ}, {ar|إِلَى} + {ar|مَا} = {ar|إِلَامَ} (le {ar|ى} s'écrit {ar|ا} devant {ar|مَ}). Le professeur ne donne que quatre exemples."
         }
       ]
     },
@@ -96,7 +100,7 @@
     {
       "id": "medine-t2.l09.grammar-6#12",
       "type": "order",
-      "fr": "Sur quoi as-tu cherché à l'école ?",
+      "fr": "Qu'as-tu cherché à l'école ?",
       "answers": [["عَمَّ", "بَحَثْتَ", "فِي", "الْمَدْرَسَةِ"]],
       "punctuation": "؟"
     },

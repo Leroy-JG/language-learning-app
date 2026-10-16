@@ -134,7 +134,7 @@
     "fr": "mélangé",
     "translit": "mukhtaliṭun",
     "note": "Il se construit avec {ar|بِ} : {ar|مُخْتَلِطٌ بِ…} (« mélangé à… »). C'est un adjectif : au féminin, {ar|مُخْتَلِطَةٌ}.",
-    "example": { "ar": "هٰذَا مَاءٌ مُخْتَلِطٌ بِالطِّينِ.", "fr": "C'est de l'eau mélangée à de la boue." }
+    "example": { "ar": "هٰذَا مَاءٌ مُخْتَلِطٌ بِالطِّينِ.", "fr": "C'est de l'eau mélangée à la boue." }
   },
   {
     "id": "w:nar",
@@ -201,7 +201,7 @@
     "note": "Le professeur donne le pluriel {ar|عَلَائِقُ} ; on rencontre aussi {ar|عَلَاقَاتٌ}.",
     "example": {
       "ar": "عِنْدِي سُؤَالٌ لَيْسَتْ لَهُ عَلَاقَةٌ بِالدَّرْسِ.",
-      "fr": "J'ai une question qui n'a aucun rapport avec le cours."
+      "fr": "J'ai une question qui n'a rien à voir avec le cours."
     }
   },
   {
@@ -395,7 +395,7 @@
     "ar": "عَمَّ",
     "fr": "sur quoi ? à propos de quoi ?",
     "translit": "ʿamma",
-    "note": "{ar|عَنْ} + {ar|مَا} : le {ar|ن} se fond dans le {ar|م} et l'alif de {ar|مَا} disparaît.",
+    "note": "{ar|عَنْ} + {ar|مَا} : le {ar|ن} se fond dans le {ar|م} et l'alif de {ar|مَا} disparaît. Après {ar|سَأَلَ}, on traduit « sur quoi ? » ; après {ar|بَحَثَ} ({ar|بَحَثَ عَنْ} : « chercher »), « qu'as-tu cherché ? ».",
     "example": { "ar": "عَمَّ سَأَلْتَ الْمُدَرِّسَ؟", "fr": "Sur quoi as-tu interrogé l'enseignant ?" }
   },
   {

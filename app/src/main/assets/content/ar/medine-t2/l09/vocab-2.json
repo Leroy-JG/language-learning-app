@@ -36,11 +36,11 @@
           "rows": [
             {
               "from": { "ar": "مَعْنًى", "fr": "un sens" },
-              "to": { "ar": "مَعْنَاهُ", "fr": "son sens (d'un mot masculin)" }
+              "to": { "ar": "مَعْنَاهُ", "fr": "son sens, pour un mot masculin" }
             },
             {
               "from": { "ar": "مَعْنًى", "fr": "un sens" },
-              "to": { "ar": "مَعْنَاهَا", "fr": "son sens (d'un mot féminin)" }
+              "to": { "ar": "مَعْنَاهَا", "fr": "son sens, pour un mot féminin" }
             }
           ]
         },

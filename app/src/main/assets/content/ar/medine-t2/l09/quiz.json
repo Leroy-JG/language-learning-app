@@ -113,7 +113,7 @@
       "fr": "En combien de jours Allah a-t-il créé les cieux et la terre ?",
       "gaps": [ { "answers": ["كَمْ"] } ],
       "options": ["كَمْ", "مَا", "مَنْ"],
-      "explain": "« Combien de… ? » : {ar|كَمْ}. Après {ar|فِي}, le nom qui suit est au génitif : {ar|فِي كَمْ يَوْمٍ}."
+      "explain": "« Combien de… ? » : {ar|كَمْ}. Après {ar|فِي كَمْ}, le nom se met en général au génitif : {ar|فِي كَمْ يَوْمٍ}."
     },
     {
       "id": "medine-t2.l09.quiz#14",

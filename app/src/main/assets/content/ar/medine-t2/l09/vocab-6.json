@@ -52,7 +52,7 @@
       "fr": "J'ai lu plusieurs livres.",
       "gaps": [ { "answers": ["كُتُبٍ"] } ],
       "options": ["كُتُبٍ", "كِتَابٍ", "أَقْلَامٍ"],
-      "explain": "{ar|عِدَّةَ} est suivi d'un nom pluriel : {ar|كُتُبٍ}."
+      "explain": "{ar|عِدَّةَ} est suivi d'un nom pluriel : {ar|كُتُبٍ}. {ar|أَقْلَامٍ} est aussi un pluriel correct, mais on lit des livres, pas des stylos."
     },
     {
       "id": "medine-t2.l09.vocab-6#9",
@@ -76,7 +76,7 @@
       "id": "medine-t2.l09.vocab-6#11",
       "type": "order",
       "fr": "Allah, qu'Il soit exalté, a dit.",
-      "answers": [["قَالَ", "اللَّهُ", "تَعَالَى"]],
+      "answers": [["قَالَ", "اللَّهُ", "تَعَالَى"], ["اللَّهُ", "تَعَالَى", "قَالَ"]],
       "punctuation": "."
     },
     {

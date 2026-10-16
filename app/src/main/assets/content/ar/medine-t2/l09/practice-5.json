@@ -62,7 +62,7 @@
       "type": "typing",
       "ask": "question",
       "question": "مَنْ خَلَقَنِي؟",
-      "answers": ["خَلَقَكَ اللَّهُ.", "اللَّهُ خَلَقَكَ."],
+      "answers": ["خَلَقَكَ اللَّهُ.", "اللَّهُ خَلَقَكَ.", "اللَّهُ."],
       "fr": "Allah t'a créé.",
       "instruction": "Tu réponds à ton professeur."
     },

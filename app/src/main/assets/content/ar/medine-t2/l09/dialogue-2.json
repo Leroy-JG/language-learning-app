@@ -55,7 +55,7 @@
         {
           "speaker": "Y",
           "ar": "يَا أُسْتَاذُ، عِنْدِي سُؤَالٌ لَيْسَتْ لَهُ عَلَاقَةٌ بِالدَّرْسِ.",
-          "fr": "Professeur, j'ai une question qui n'a aucun rapport avec le cours."
+          "fr": "Professeur, j'ai une question qui n'a rien à voir avec le cours."
         },
         { "speaker": "T", "ar": "مَا هُوَ؟", "fr": "Laquelle ?" },
         {
@@ -173,7 +173,7 @@
       "id": "medine-t2.l09.dialogue-2#7",
       "type": "order",
       "fr": "Allah a créé sept cieux.",
-      "answers": [["خَلَقَ", "اللَّهُ", "سَبْعَ", "سَمَاوَاتٍ"]],
+      "answers": [["خَلَقَ", "اللَّهُ", "سَبْعَ", "سَمَاوَاتٍ"], ["اللَّهُ", "خَلَقَ", "سَبْعَ", "سَمَاوَاتٍ"]],
       "punctuation": "."
     },
     {

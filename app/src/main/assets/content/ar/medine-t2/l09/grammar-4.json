@@ -46,6 +46,10 @@
         {
           "type": "note",
           "text": "Les mots qui s'accordent avec le nom (un prédicat, par exemple) passent aussi au pluriel : {ar|الْفَتَاةُ الَّتِي عِنْدَ الْمُدِيرَةِ أُخْتُ مَرْيَمَ} devient {ar|الْفَتَيَاتُ اللَّاتِي عِنْدَ الْمُدِيرَةِ أَخَوَاتُ مَرْيَمَ}."
+        },
+        {
+          "type": "note",
+          "text": "{ar|فَتًى} a aussi le pluriel {ar|فِتْيَانٌ}. {ar|الْفِتْيَةُ} est le pluriel employé par le professeur ; le féminin est {ar|فَتَاةٌ} (pluriel {ar|فَتَيَاتٌ})."
         }
       ]
     },

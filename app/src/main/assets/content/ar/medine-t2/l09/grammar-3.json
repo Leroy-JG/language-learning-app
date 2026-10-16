@@ -56,7 +56,7 @@
               "from": { "ar": "الطَّالِبَانِ اللَّذَانِ خَرَجَا", "fr": "les deux étudiants qui sont sortis" },
               "to": {
                 "ar": "الطَّالِبَيْنِ اللَّذَيْنِ خَرَجَا",
-                "fr": "les deux étudiants qui sont sortis (accusatif, génitif)"
+                "fr": "les deux étudiants qui sont sortis ; accusatif et génitif"
               },
               "label": "masculin"
             },
@@ -64,7 +64,7 @@
               "from": { "ar": "الطَّالِبَتَانِ اللَّتَانِ خَرَجَتَا", "fr": "les deux étudiantes qui sont sorties" },
               "to": {
                 "ar": "الطَّالِبَتَيْنِ اللَّتَيْنِ خَرَجَتَا",
-                "fr": "les deux étudiantes qui sont sorties (accusatif, génitif)"
+                "fr": "les deux étudiantes qui sont sorties ; accusatif et génitif"
               },
               "label": "féminin"
             }

@@ -65,7 +65,7 @@
       "id": "medine-t2.l09.vocab-3#10",
       "type": "fill_gap",
       "sentence": "هٰذَا مَاءٌ {0} بِالطِّينِ.",
-      "fr": "C'est de l'eau mélangée à de la boue.",
+      "fr": "C'est de l'eau mélangée à la boue.",
       "gaps": [ { "answers": ["مُخْتَلِطٌ"] } ],
       "options": ["مُخْتَلِطٌ", "مَرِيضٌ", "جَدِيدٌ", "بَعِيدٌ"],
       "explain": "{ar|مُخْتَلِطٌ بِ…} : « mélangé à… »."

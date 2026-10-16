@@ -31,6 +31,10 @@
         {
           "type": "note",
           "text": "Devant un nom sans {ar|الْ}, rien ne change : {ar|أَهٰذَا ضَرَبَكَ؟} (« est-ce celui-ci qui t'a frappé ? »)."
+        },
+        {
+          "type": "note",
+          "text": "À l'oral, on entend un « ā » long. Devant une lettre solaire, cette lettre est doublée ({ar|آلدَّرْسَ} : « ā-d-darsa ») ; devant une lettre lunaire, le {ar|ل} se prononce ({ar|آلْكِتَابَ} : « ā-l-kitāba »)."
         }
       ]
     },
@@ -83,7 +87,7 @@
       "id": "medine-t2.l09.grammar-5#6",
       "type": "fill_gap",
       "sentence": "{0} مَرِيضٌ؟",
-      "fr": "L'enseignant est-il malade ?",
+      "fr": "Est-ce l'enseignant qui est malade ?",
       "gaps": [ { "answers": ["آلْمُدَرِّسُ"] } ],
       "options": ["آلْمُدَرِّسُ", "الْمُدَرِّسُ", "مُدَرِّسٌ"],
       "explain": "{ar|أَ} + {ar|الْمُدَرِّسُ} = {ar|آلْمُدَرِّسُ}."

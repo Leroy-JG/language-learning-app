@@ -27,6 +27,10 @@
           "type": "note",
           "tone": "warning",
           "text": "Attention à la ressemblance avec le comparatif ({ar|أَسْهَلُ} : « plus facile ») : dans l'exclamation, le mot garde sa fatha, et il est précédé de {ar|مَا}. Le nom qui suit prend lui aussi une fatha ({ar|الدَّرْسَ})."
+        },
+        {
+          "type": "note",
+          "text": "Ce {ar|مَا} n'est pas le « quoi ? » du début du chapitre : c'est un {ar|مَا} d'exclamation. {ar|مَا أَسْهَلَ الدَّرْسَ!} (« comme le cours est facile ! ») n'a pas le même sens qu'une question."
         }
       ]
     },
