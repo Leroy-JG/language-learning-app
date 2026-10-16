@@ -105,7 +105,7 @@
       "fr": "Avez-vous lavé vos visages avec le savon ? (à plusieurs femmes)",
       "gaps": [ { "answers": ["أَغَسَلْتُنَّ"] } ],
       "options": ["أَغَسَلْتُنَّ", "أَغَسَلْتُمْ"],
-      "explain": "{ar|وُجُوهَكُنَّ} (« vos visages », féminin) : {ar|أَغَسَلْتُنَّ}."
+      "explain": "{ar|وُجُوهَكُنَّ} (« vos visages », féminin) : {ar|أَغَسَلْتُنَّ}. {ar|الصَّابُونِ} veut dire « le savon »."
     },
     {
       "id": "medine-t2.l07.practice-3#10",

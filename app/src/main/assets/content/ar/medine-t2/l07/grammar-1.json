@@ -34,7 +34,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "{ar|لَيْسَ}, la première « sœur » de {ar|كَانَ}, a été étudiée au chapitre 2. Aujourd'hui : {ar|كَانَ} lui-même. Les autres sœurs viendront plus tard."
+          "text": "{ar|لَيْسَ}, une « sœur » de {ar|كَانَ}, a été étudiée au chapitre 2. Aujourd'hui : {ar|كَانَ} lui-même. Les autres sœurs viendront plus tard."
         }
       ]
     },
@@ -84,10 +84,25 @@
         }
       ]
     },
-    { "id": "medine-t2.l07.grammar-1#3", "type": "present", "item": "w:ism-kana" },
-    { "id": "medine-t2.l07.grammar-1#4", "type": "present", "item": "w:khabar-kana" },
     {
-      "id": "medine-t2.l07.grammar-1#5",
+      "id": "medine-t2.l07.grammar-1#3",
+      "type": "sort",
+      "categories": [ { "fr": "présent" }, { "fr": "passé" } ],
+      "cards": [
+        { "ar": "الْمَاءُ بَارِدٌ", "category": 0 },
+        { "ar": "كَانَ الْمَاءُ بَارِدًا", "category": 1 },
+        { "ar": "زَيْدٌ طَالِبٌ", "category": 0 },
+        { "ar": "كَانَ زَيْدٌ طَالِبًا", "category": 1 },
+        { "ar": "الْبَابُ مَفْتُوحٌ", "category": 0 },
+        { "ar": "كَانَ الْبَابُ مَفْتُوحًا", "category": 1 }
+      ],
+      "instruction": "Quel temps ?",
+      "explain": "Sans {ar|كَانَ}, la phrase nominale est au présent. Avec {ar|كَانَ}, elle est au passé."
+    },
+    { "id": "medine-t2.l07.grammar-1#4", "type": "present", "item": "w:ism-kana" },
+    { "id": "medine-t2.l07.grammar-1#5", "type": "present", "item": "w:khabar-kana" },
+    {
+      "id": "medine-t2.l07.grammar-1#6",
       "type": "tip",
       "title": "Analyser la phrase",
       "blocks": [
@@ -108,7 +123,7 @@
       ]
     },
     {
-      "id": "medine-t2.l07.grammar-1#6",
+      "id": "medine-t2.l07.grammar-1#7",
       "type": "spot",
       "instruction": "Touche le nom de {ar|كَانَ} (le sujet).",
       "words": ["كَانَ", "الْمَاءُ", "بَارِدًا"],
@@ -117,7 +132,7 @@
       "explain": "Le sujet est resté au nominatif (damma) : {ar|الْمَاءُ}."
     },
     {
-      "id": "medine-t2.l07.grammar-1#7",
+      "id": "medine-t2.l07.grammar-1#8",
       "type": "spot",
       "instruction": "Touche le prédicat de {ar|كَانَ}.",
       "words": ["كَانَتِ", "الْمُدِيرَةُ", "مَسْرُورَةً"],
@@ -126,27 +141,12 @@
       "explain": "Le prédicat est à l'accusatif (tanwin fatha) : {ar|مَسْرُورَةً}."
     },
     {
-      "id": "medine-t2.l07.grammar-1#8",
+      "id": "medine-t2.l07.grammar-1#9",
       "type": "question",
       "prompt": { "fr": "À quel cas est le prédicat dans {ar|كَانَ زَيْدٌ طَالِبًا} ?" },
       "choices": [ { "fr": "À l'accusatif" }, { "fr": "Au nominatif" }, { "fr": "Au génitif" } ],
       "answer": 0,
       "explain": "Après {ar|كَانَ}, le prédicat passe à l'accusatif : {ar|طَالِبًا} (tanwin fatha)."
-    },
-    {
-      "id": "medine-t2.l07.grammar-1#9",
-      "type": "sort",
-      "categories": [ { "fr": "présent" }, { "fr": "passé" } ],
-      "cards": [
-        { "ar": "الْمَاءُ بَارِدٌ", "category": 0 },
-        { "ar": "كَانَ الْمَاءُ بَارِدًا", "category": 1 },
-        { "ar": "زَيْدٌ طَالِبٌ", "category": 0 },
-        { "ar": "كَانَ زَيْدٌ طَالِبًا", "category": 1 },
-        { "ar": "الْبَابُ مَفْتُوحٌ", "category": 0 },
-        { "ar": "كَانَ الْبَابُ مَفْتُوحًا", "category": 1 }
-      ],
-      "instruction": "Quel temps ?",
-      "explain": "Sans {ar|كَانَ}, la phrase nominale est au présent. Avec {ar|كَانَ}, elle est au passé."
     },
     {
       "id": "medine-t2.l07.grammar-1#10",
@@ -164,7 +164,7 @@
       "fr": "La directrice était dans sa chambre.",
       "gaps": [ { "answers": ["كَانَتِ"] } ],
       "options": ["كَانَتِ", "كَانَ"],
-      "explain": "{ar|الْمُدِيرَةُ} est féminin : {ar|كَانَتِ}, avec une kasra devant {ar|الْ}."
+      "explain": "{ar|الْمُدِيرَةُ} est féminin : {ar|كَانَتِ}, avec une kasra devant {ar|الْ} (on y revient dans la section sur les deux sukūn)."
     },
     {
       "id": "medine-t2.l07.grammar-1#12",

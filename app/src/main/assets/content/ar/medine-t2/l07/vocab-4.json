@@ -15,10 +15,17 @@
     },
     { "id": "medine-t2.l07.vocab-4#4", "type": "present", "item": "w:bayna" },
     { "id": "medine-t2.l07.vocab-4#5", "type": "present", "item": "w:sira" },
-    { "id": "medine-t2.l07.vocab-4#6", "type": "present", "item": "p:usbu-madi" },
-    { "id": "medine-t2.l07.vocab-4#7", "type": "present", "item": "w:sahih" },
     {
-      "id": "medine-t2.l07.vocab-4#8",
+      "id": "medine-t2.l07.vocab-4#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:bayna",
+      "distractors": ["w:sira", "w:sabah"]
+    },
+    { "id": "medine-t2.l07.vocab-4#7", "type": "present", "item": "p:usbu-madi" },
+    { "id": "medine-t2.l07.vocab-4#8", "type": "present", "item": "w:sahih" },
+    {
+      "id": "medine-t2.l07.vocab-4#9",
       "type": "tip",
       "title": "Les expressions de temps : l'accusatif",
       "blocks": [
@@ -39,21 +46,21 @@
       ]
     },
     {
-      "id": "medine-t2.l07.vocab-4#9",
+      "id": "medine-t2.l07.vocab-4#10",
       "type": "match",
       "mode": "ar-fr",
       "items": ["w:sabah", "w:albarihah", "w:bayna", "w:sira", "w:sahih"]
     },
     {
-      "id": "medine-t2.l07.vocab-4#10",
+      "id": "medine-t2.l07.vocab-4#11",
       "type": "mcq",
       "mode": "fr-ar",
       "item": "w:sahih",
       "distractors": ["w:jadid", "w:qalil"]
     },
-    { "id": "medine-t2.l07.vocab-4#11", "type": "build", "item": "w:sabah", "extra": ["س"] },
+    { "id": "medine-t2.l07.vocab-4#12", "type": "build", "item": "w:sabah", "extra": ["س"] },
     {
-      "id": "medine-t2.l07.vocab-4#12",
+      "id": "medine-t2.l07.vocab-4#13",
       "type": "fill_gap",
       "sentence": "رَجَعْتُ مِنْ مَكَّةَ {0}.",
       "fr": "Je suis rentré de La Mecque hier.",
@@ -62,21 +69,21 @@
       "explain": "« Hier » : {ar|الْبَارِحَةَ}."
     },
     {
-      "id": "medine-t2.l07.vocab-4#13",
+      "id": "medine-t2.l07.vocab-4#14",
       "type": "order",
       "fr": "La mosquée est entre la maison et l'école.",
       "answers": [["الْمَسْجِدُ", "بَيْنَ", "الْبَيْتِ", "وَالْمَدْرَسَةِ"]],
       "punctuation": "."
     },
     {
-      "id": "medine-t2.l07.vocab-4#14",
+      "id": "medine-t2.l07.vocab-4#15",
       "type": "typing",
       "ask": "fr",
       "fr": "Zayd est venu ce matin.",
       "answers": ["جَاءَ زَيْدٌ هٰذَا الصَّبَاحَ.", "جَاءَ زَيْدٌ الْيَوْمَ فِي الصَّبَاحِ."]
     },
     {
-      "id": "medine-t2.l07.vocab-4#15",
+      "id": "medine-t2.l07.vocab-4#16",
       "type": "typing",
       "ask": "audio",
       "fr": "J'ai lu le livre de biographie la semaine dernière.",

@@ -37,14 +37,14 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "On hésite entre deux personnes (ou deux choses), pas sur le verbe : le premier complément passe avant le verbe, le second suit {ar|أَمْ} et le verbe n'est pas répété."
+          "text": "On hésite entre deux personnes (ou deux choses), pas sur le verbe : le premier complément passe avant le verbe, le second suit {ar|أَمْ} et le verbe n'est pas répété. On répond à une telle question en nommant l'un des deux, pas par « oui » ou « non »."
         }
       ]
     },
     {
       "id": "medine-t2.l07.grammar-4#2",
       "type": "tip",
-      "title": "Le hamza d'interrogation collé au mot",
+      "title": "La hamza d'interrogation collée au mot",
       "blocks": [
         {
           "type": "breakdown",
@@ -95,7 +95,7 @@
     {
       "id": "medine-t2.l07.grammar-4#6",
       "type": "order",
-      "fr": "Est-ce des oranges que tu as mangées, ou des bananes ?",
+      "fr": "Est-ce des oranges que tu as mangées, ou des bananes ? (à un homme)",
       "answers": [["أَبُرْتُقَالًا", "أَكَلْتَ", "أَمْ", "مَوْزًا"]],
       "punctuation": "؟"
     },
@@ -122,14 +122,14 @@
       "id": "medine-t2.l07.grammar-4#9",
       "type": "typing",
       "ask": "fr",
-      "fr": "Est-ce Muḥammad que tu as vu, ou Ḥāmid ?",
+      "fr": "Est-ce Muḥammad que tu as vu, ou Ḥāmid ? (à un homme)",
       "answers": ["أَمُحَمَّدًا رَأَيْتَ أَمْ حَامِدًا؟"]
     },
     {
       "id": "medine-t2.l07.grammar-4#10",
       "type": "typing",
       "ask": "fr",
-      "fr": "Est-ce des oranges que tu as mangées, ou des bananes ?",
+      "fr": "Est-ce des oranges que tu as mangées, ou des bananes ? (à un homme)",
       "answers": ["أَبُرْتُقَالًا أَكَلْتَ أَمْ مَوْزًا؟"]
     }
   ]

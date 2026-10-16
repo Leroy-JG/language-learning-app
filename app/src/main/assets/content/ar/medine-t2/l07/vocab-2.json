@@ -53,7 +53,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Dans {ar|وَجَدَ} et {ar|وَضَعَ}, le {ar|و} du début tombe, en général, au présent et à l'impératif. L'impératif des verbes à hamza de liaison commence par {ar|اِ} ({ar|اِلْعَبْ}, {ar|اِمْشِ}, {ar|اِبْحَثْ}) ; celui de {ar|أَبْشَرَ} garde son hamza de coupure."
+          "text": "Dans {ar|وَجَدَ} et {ar|وَضَعَ}, le {ar|و} du début tombe, en général, au présent et à l'impératif. L'impératif des verbes à hamza de liaison commence par {ar|اِ} ({ar|اِلْعَبْ}, {ar|اِمْشِ}, {ar|اِبْحَثْ}) ; celui de {ar|أَبْشَرَ} garde sa hamza de coupure."
         }
       ]
     },
@@ -92,7 +92,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Zayd a cherché une clé.",
-      "answers": ["بَحَثَ زَيْدٌ عَنْ مِفْتَاحٍ.", "بَحَثَ عَنْ مِفْتَاحٍ."]
+      "answers": ["بَحَثَ زَيْدٌ عَنْ مِفْتَاحٍ.", "زَيْدٌ بَحَثَ عَنْ مِفْتَاحٍ."]
     },
     {
       "id": "medine-t2.l07.vocab-2#14",

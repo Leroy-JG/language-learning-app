@@ -21,14 +21,14 @@
       "fr": "Le directeur est entré dans la mosquée.",
       "answers": [["دَخَلَ", "الْمُدِيرُ", "الْمَسْجِدَ"]],
       "punctuation": ".",
-      "explain": "{ar|دَخَلَ} se construit sans préposition : {ar|الْمَسْجِدَ} est le complément d'objet (fatha)."
+      "explain": "Avec un nom de lieu, {ar|دَخَلَ} se construit sans préposition : {ar|الْمَسْجِدَ} est le complément d'objet (fatha)."
     },
     {
       "id": "medine-t2.l07.practice-7#3",
       "type": "typing",
       "ask": "fr",
       "fr": "Zayd a cherché la clé.",
-      "answers": ["بَحَثَ زَيْدٌ عَنِ الْمِفْتَاحِ.", "بَحَثَ عَنِ الْمِفْتَاحِ."],
+      "answers": ["بَحَثَ زَيْدٌ عَنِ الْمِفْتَاحِ.", "زَيْدٌ بَحَثَ عَنِ الْمِفْتَاحِ."],
       "explain": "{ar|بَحَثَ} + {ar|عَنْ} : devant {ar|الْ}, le {ar|ن} prend la kasra : {ar|عَنِ الْمِفْتَاحِ}."
     },
     {
@@ -62,7 +62,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Zayd est un homme de science.",
-      "answers": ["زَيْدٌ ذُو عِلْمٍ."],
+      "answers": ["زَيْدٌ ذُو عِلْمٍ.", "زَيْدٌ رَجُلٌ ذُو عِلْمٍ."],
       "explain": "{ar|ذُو} est suivi d'un nom au génitif : {ar|ذُو عِلْمٍ}."
     },
     {

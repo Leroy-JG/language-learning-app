@@ -30,7 +30,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "On ajoute souvent « il y a… » avec {ar|قَبْلَ} suivi d'un génitif : {ar|كَانَ الْمُدَرِّسُ فِي الْفَصْلِ قَبْلَ خَمْسِ دَقَائِقَ} (« le professeur était en classe il y a cinq minutes »)."
+          "text": "On ajoute souvent « il y a… » avec {ar|قَبْلَ} (« avant »), suivi d'un génitif : {ar|كَانَ الْمُدَرِّسُ فِي الْفَصْلِ قَبْلَ خَمْسِ دَقَائِقَ} (« le professeur était en classe il y a cinq minutes », littéralement « avant cinq minutes »). {ar|دَقَائِقَ} garde la fatha même au génitif : c'est un nom sans tanwin."
         }
       ]
     },

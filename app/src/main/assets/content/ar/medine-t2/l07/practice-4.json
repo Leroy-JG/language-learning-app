@@ -28,6 +28,11 @@
         {
           "type": "note",
           "tone": "info",
+          "text": "{ar|قَبْلَ} veut dire « avant » : {ar|قَبْلَ سَاعَةٍ} = « il y a une heure », {ar|قَبْلَ قَلِيلٍ} = « il y a un instant » (littéralement « avant peu »)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
           "text": "Rappel : un groupe préposition + nom ne change pas ; le verbe reste au singulier devant le sujet et s'accorde en genre."
         }
       ]
@@ -62,8 +67,11 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Les médecins étaient à l'hôpital il y a un tiers d'heure.",
-      "answers": ["كَانَ الْأَطِبَّاءُ فِي الْمُسْتَشْفَى قَبْلَ ثُلُثِ سَاعَةٍ."],
-      "explain": "Le verbe est au singulier devant un pluriel : {ar|كَانَ الْأَطِبَّاءُ}."
+      "answers": [
+        "كَانَ الْأَطِبَّاءُ فِي الْمُسْتَشْفَى قَبْلَ ثُلُثِ سَاعَةٍ.",
+        "كَانَتِ الْأَطِبَّاءُ فِي الْمُسْتَشْفَى قَبْلَ ثُلُثِ سَاعَةٍ."
+      ],
+      "explain": "Le verbe est au singulier devant un pluriel : {ar|كَانَ الْأَطِبَّاءُ}. Devant un pluriel brisé, le féminin singulier est aussi possible."
     },
     {
       "id": "medine-t2.l07.practice-4#6",

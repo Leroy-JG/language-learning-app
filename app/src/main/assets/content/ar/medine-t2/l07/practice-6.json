@@ -59,8 +59,12 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Est-ce cette revue-ci que vous avez lue, ou celle-là ? (à plusieurs femmes)",
-      "answers": ["أَهٰذِهِ الْمَجَلَّةَ قَرَأْتُنَّ أَمْ تِلْكَ؟"],
-      "explain": "{ar|هٰذِهِ} : « celle-ci » ; {ar|تِلْكَ} : « celle-là » (le nom {ar|الْمَجَلَّةَ} n'est pas répété)."
+      "answers": [
+        "أَهٰذِهِ الْمَجَلَّةَ قَرَأْتُنَّ أَمْ تِلْكَ؟",
+        "أَهٰذِهِ الْمَجَلَّةَ قَرَأْتُنَّ أَمْ تِلْكَ الْمَجَلَّةَ؟",
+        "أَهٰذِهِ قَرَأْتُنَّ أَمْ تِلْكَ؟"
+      ],
+      "explain": "{ar|هٰذِهِ الْمَجَلَّةَ} : « cette revue » ; {ar|تِلْكَ} : « celle-là » (le nom {ar|الْمَجَلَّةَ} n'est pas obligé d'être répété)."
     },
     {
       "id": "medine-t2.l07.practice-6#6",

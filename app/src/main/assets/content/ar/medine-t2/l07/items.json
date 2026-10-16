@@ -41,7 +41,7 @@
     "ar": "أَبْشَرَ",
     "fr": "il s'est réjoui (se réjouir)",
     "translit": "ʾabshara",
-    "note": "À l'impératif, on dit {ar|أَبْشِرْ} (« réjouis-toi ! ») pour annoncer une bonne nouvelle ou rassurer quelqu'un : « bonne nouvelle ! », « sois tranquille ! ». Son impératif garde le hamza de coupure {ar|أَ}, contrairement à {ar|اِبْحَثْ} ou {ar|اِمْشِ} (hamza de liaison).",
+    "note": "À l'impératif, on dit {ar|أَبْشِرْ} (« réjouis-toi ! ») pour annoncer une bonne nouvelle ou rassurer quelqu'un : « bonne nouvelle ! », « sois tranquille ! ». Son impératif garde la hamza de coupure {ar|أَ}, contrairement à {ar|اِبْحَثْ} ou {ar|اِمْشِ} (hamza de liaison).",
     "example": {
       "ar": "أَبْشِرْ، فِي الثَّلَّاجَةِ مَاءٌ بَارِدٌ.",
       "fr": "Bonne nouvelle : il y a de l'eau froide dans le réfrigérateur."
@@ -235,7 +235,7 @@
     "fr": "un huitième",
     "translit": "thumnun",
     "gender": "m",
-    "note": "Ne le confonds pas avec {ar|ثَمَنٌ} (« un prix »), du tome 1 : une seule voyelle change."
+    "note": "Ne le confonds pas avec {ar|ثَمَنٌ} (« un prix »), du tome 1 : les voyelles changent."
   },
   { "id": "w:tus", "kind": "word", "ar": "تُسْعٌ", "fr": "un neuvième", "translit": "tusʿun", "gender": "m" },
   { "id": "w:ushr", "kind": "word", "ar": "عُشْرٌ", "fr": "un dixième", "translit": "ʿushrun", "gender": "m" },

@@ -93,16 +93,16 @@
       "id": "medine-t2.l07.practice-5#7",
       "type": "typing",
       "ask": "fr",
-      "fr": "Vous avez mangé les bananes.",
-      "answers": ["أَكَلْتُمُ الْمَوْزَ."],
+      "fr": "Vous avez mangé les bananes. (à plusieurs hommes)",
+      "answers": ["أَكَلْتُمُ الْمَوْزَ.", "أَنْتُمْ أَكَلْتُمُ الْمَوْزَ."],
       "explain": "{ar|أَكَلْتُمْ} + {ar|الْمَوْزَ} : le {ar|م} prend la damma."
     },
     {
       "id": "medine-t2.l07.practice-5#8",
       "type": "typing",
       "ask": "fr",
-      "fr": "Vous avez compris la leçon.",
-      "answers": ["فَهِمْتُمُ الدَّرْسَ."]
+      "fr": "Vous avez compris la leçon. (à plusieurs hommes)",
+      "answers": ["فَهِمْتُمُ الدَّرْسَ.", "أَنْتُمْ فَهِمْتُمُ الدَّرْسَ."]
     },
     {
       "id": "medine-t2.l07.practice-5#9",

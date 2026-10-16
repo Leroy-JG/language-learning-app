@@ -73,6 +73,11 @@
         },
         {
           "type": "note",
+          "tone": "info",
+          "text": "Si le premier mot se termine par une voyelle longue ({ar|فِي الْبَيْتِ}, {ar|إِلَى الْمَسْجِدِ}), la voyelle longue s'abrège dans la prononciation : on lit « fil-bayt », « ilal-masjid ». Et la fatha de {ar|مِنْ} est propre à {ar|مِنْ} + {ar|الْ} : devant un autre mot à alif de liaison, comme {ar|اِبْنٌ}, {ar|مِنْ} prend la kasra ({ar|مِنِ ابْنِ زَيْدٍ})."
+        },
+        {
+          "type": "note",
           "tone": "memo",
           "text": "Dans un texte vocalisé, la voyelle de liaison est écrite. Dans un texte courant, les voyelles ne sont pas écrites : c'est à toi de les ajouter en lisant."
         }
@@ -154,14 +159,14 @@
       "type": "typing",
       "ask": "fr",
       "fr": "La fille est sortie.",
-      "answers": ["خَرَجَتِ الْبِنْتُ."]
+      "answers": ["خَرَجَتِ الْبِنْتُ.", "الْبِنْتُ خَرَجَتْ."]
     },
     {
       "id": "medine-t2.l07.grammar-3#11",
       "type": "typing",
       "ask": "fr",
-      "fr": "Vous avez étudié la leçon.",
-      "answers": ["دَرَسْتُمُ الدَّرْسَ."],
+      "fr": "Vous avez étudié la leçon. (à plusieurs hommes)",
+      "answers": ["دَرَسْتُمُ الدَّرْسَ.", "أَنْتُمْ دَرَسْتُمُ الدَّرْسَ."],
       "explain": "Le {ar|م} de {ar|دَرَسْتُمْ} prend la damma devant {ar|الدَّرْسَ}."
     }
   ]
