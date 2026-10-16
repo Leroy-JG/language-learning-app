@@ -234,3 +234,10 @@ l'exercice 8 (verbe + pronom complément), le tableau de `ذَهَبَ` et les e
 Le cours 9 (un seul PDF de 26 pages) est publié : `docs/sources-t2-lecon-9.md`. Le support du professeur contient `الْأَسْمَاءُ الْمَوْصُولَةُ` (les relatifs, avec le duel et le pluriel), `أَ` + article (`آلْ`), `مَا` + préposition (`بِمَ`, `مِمَّ`), le texte du livre (la création),
 les exercices 1 à 5 et 9 à 14 (les exercices 6, 7 et 8 manquent ; l'exercice 10 se réduit à son modèle), le vocabulaire nouveau (dix-sept mots, sept verbes), cinq expressions (dont `مَا أَسْهَلَ الدَّرْسَ !`, `كَمْ`, `عِدَّةُ`) et une carte (Damas, le Yémen, l'Égypte, le Soudan, Khartoum).
 Le chapitre les réunit : `l09.vocab-1` à `vocab-7`, `grammar-1` à `grammar-4` (relatifs), `grammar-5` à `grammar-7` (questions), `grammar-8` (exclamation), `dialogue-1` et `dialogue-2`, `practice-1` à `practice-6`. Le présent et l'impératif restent « pas encore enseignés » (aperçu dans les tableaux de verbes).
+
+## 16. Avancement : le chapitre 10 (`medine-t2.l10`)
+
+Le cours 10 (un seul PDF de 25 pages) est publié : `docs/sources-t2-lecon-10.md`. Le support du professeur contient les nombres de 20 à 99 (les dizaines, leur formation « comme le pluriel masculin sain », les unités avec `وَ`, les règles d'accord, six phrases analysées, le résumé), les nombres ordinaux (définition seulement),
+le texte du livre (Zakariyyā et Mūsā), les exercices 1, 6, 7, 8, 9, 10 et 11 (les exercices 2 à 5 manquent) et le vocabulaire nouveau (onze lignes, deux verbes). Le chapitre les réunit : `l10.revue-1` (rappel), `vocab-1` (verbes), `grammar-1` et `grammar-2` (les dizaines),
+`grammar-3` à `grammar-5` (21 à 99, analyse, résumé de l'accord), `vocab-2` à `vocab-4` (usine, dimensions, mesures), `grammar-6` et `grammar-7` (ordinaux), `vocab-5` et `vocab-6` (adverbes, `إِلَّا`), `grammar-8` (l'heure), `dialogue-1` et `practice-1` à `practice-5`.
+Les nombres composés avec cent et mille (`مِائَةٌ وَخَمْسَةٌ وَعِشْرُونَ`, seulement en aperçu dans le texte), les ordinaux au-delà de dix, le présent et l'impératif restent « pas encore enseignés ».

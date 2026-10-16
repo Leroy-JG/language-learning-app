@@ -1,0 +1,95 @@
+{
+  "id": "medine-t2.l10.grammar-5",
+  "type": "grammar",
+  "title": "En résumé : un et deux, trois à neuf",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l10.grammar-5#1",
+      "type": "tip",
+      "title": "L'accord des nombres : le résumé du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur résume ainsi : les nombres de **3 à 9** contredisent **toujours** le dénombré en genre, quelle que soit la famille du nombre. Les nombres **1 et 2** s'accordent **toujours** avec lui."
+        },
+        {
+          "type": "table",
+          "header": ["Famille", "Avec « deux »", "Avec « trois »"],
+          "rows": [
+            ["de 1 à 10", "{ar|كِتَابَانِ اِثْنَانِ}", "{ar|ثَلَاثَةُ كُتُبٍ}"],
+            ["de 11 à 19", "{ar|اِثْنَا عَشَرَ كِتَابًا}", "{ar|ثَلَاثَةَ عَشَرَ كِتَابًا}"],
+            ["de 20 à 99", "{ar|اِثْنَانِ وَعِشْرُونَ كِتَابًا}", "{ar|ثَلَاثَةٌ وَعِشْرُونَ كِتَابًا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Pour un et deux, le nombre suit le nom comme un adjectif : {ar|كِتَابٌ وَاحِدٌ} (un livre), {ar|كِتَابَانِ اِثْنَانِ} (deux livres). On peut aussi employer le duel seul : {ar|كِتَابَانِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l10.grammar-5#2",
+      "type": "sort",
+      "categories": [ { "fr": "il s'accorde" }, { "fr": "il est de genre contraire" } ],
+      "cards": [
+        { "ar": "كِتَابَانِ اِثْنَانِ", "category": 0 },
+        { "ar": "أُخْتَانِ اِثْنَتَانِ", "category": 0 },
+        { "ar": "وَاحِدٌ وَعِشْرُونَ كِتَابًا", "category": 0 },
+        { "ar": "ثَلَاثَةُ كُتُبٍ", "category": 1 },
+        { "ar": "ثَلَاثُ بَنَاتٍ", "category": 1 },
+        { "ar": "سَبْعَةُ رِجَالٍ", "category": 1 }
+      ],
+      "instruction": "Le nombre s'accorde-t-il avec le dénombré ?",
+      "explain": "Avec un et deux, le nombre s'accorde. De 3 à 9, il est de genre contraire : {ar|ثَلَاثَةُ كُتُبٍ} (livre est masculin), {ar|ثَلَاثُ بَنَاتٍ} (fille est féminin), {ar|سَبْعَةُ رِجَالٍ} (homme est masculin)."
+    },
+    {
+      "id": "medine-t2.l10.grammar-5#3",
+      "type": "question",
+      "prompt": { "fr": "Quels nombres s'accordent toujours avec le dénombré ?" },
+      "choices": [ { "fr": "un et deux" }, { "fr": "de trois à neuf" }, { "fr": "tous les nombres" } ],
+      "answer": 0,
+      "explain": "Un et deux s'accordent ; de trois à neuf, le nombre est de genre contraire. (Pour « dix », la règle dépend de la famille : de 3 à 10 il contredit, de 11 à 19 il s'accorde.)"
+    },
+    {
+      "id": "medine-t2.l10.grammar-5#4",
+      "type": "fill_gap",
+      "sentence": "كِتَابَانِ {0}.",
+      "fr": "Deux livres.",
+      "gaps": [ { "answers": ["اِثْنَانِ"] } ],
+      "options": ["اِثْنَانِ", "اِثْنَتَانِ", "ثَلَاثَةٌ"],
+      "explain": "{ar|كِتَابٌ} est masculin et « deux » s'accorde : {ar|اِثْنَانِ}."
+    },
+    {
+      "id": "medine-t2.l10.grammar-5#5",
+      "type": "fill_gap",
+      "sentence": "أُخْتَانِ {0}.",
+      "fr": "Deux sœurs.",
+      "gaps": [ { "answers": ["اِثْنَتَانِ"] } ],
+      "options": ["اِثْنَتَانِ", "اِثْنَانِ"],
+      "explain": "{ar|أُخْتٌ} est féminin et « deux » s'accorde : {ar|اِثْنَتَانِ}."
+    },
+    {
+      "id": "medine-t2.l10.grammar-5#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "deux étudiantes",
+      "answers": ["طَالِبَتَانِ اِثْنَتَانِ", "طَالِبَتَانِ"]
+    },
+    {
+      "id": "medine-t2.l10.grammar-5#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "trois sœurs",
+      "answers": ["ثَلَاثُ أَخَوَاتٍ"]
+    },
+    {
+      "id": "medine-t2.l10.grammar-5#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "vingt-deux livres",
+      "answers": ["اِثْنَانِ وَعِشْرُونَ كِتَابًا"]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "medine-t2.l10.vocab-1",
+  "type": "vocabulary",
+  "title": "Faire, travailler, acheter",
+  "icon": "pen",
+  "screens": [
+    { "id": "medine-t2.l10.vocab-1#1", "type": "present", "item": "w:faala" },
+    { "id": "medine-t2.l10.vocab-1#2", "type": "present", "item": "w:amila" },
+    {
+      "id": "medine-t2.l10.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:faala",
+      "distractors": ["w:amila", "w:dhahaba"],
+      "explain": "{ar|فَعَلَ} : il a fait. {ar|عَمِلَ} : il a travaillé ; {ar|ذَهَبَ} : il est allé."
+    },
+    { "id": "medine-t2.l10.vocab-1#4", "type": "present", "item": "w:ishtara" },
+    {
+      "id": "medine-t2.l10.vocab-1#5",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:ishtara",
+      "distractors": ["w:faala", "w:qaraa"],
+      "explain": "{ar|اِشْتَرَى} : il a acheté. {ar|فَعَلَ} : il a fait ; {ar|قَرَأَ} : il a lu."
+    },
+    {
+      "id": "medine-t2.l10.vocab-1#6",
+      "type": "tip",
+      "title": "Les quatre formes : un aperçu",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme aux chapitres précédents, le professeur donne quatre formes pour chaque verbe. Tu retiens seulement le passé ; le reste est un aperçu (le présent et l'impératif viendront plus tard)."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["faire", "{ar|فَعَلَ}", "{ar|يَفْعَلُ}", "{ar|اِفْعَلْ}", "{ar|فِعْلٌ}"],
+            ["agir, travailler", "{ar|عَمِلَ}", "{ar|يَعْمَلُ}", "{ar|اِعْمَلْ}", "{ar|عَمَلٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|اِشْتَرَى} (acheter) n'est pas dans le tableau du professeur ; il sert dans ses exemples du cours."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l10.vocab-1#7",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ كِتَابًا.",
+      "fr": "Zayd a acheté un livre.",
+      "gaps": [ { "answers": ["اِشْتَرَى"] } ],
+      "options": ["اِشْتَرَى", "عَمِلَ", "فَعَلَ"],
+      "explain": "« Acheter » : {ar|اِشْتَرَى}. {ar|عَمِلَ} : travailler ; {ar|فَعَلَ} : faire."
+    },
+    {
+      "id": "medine-t2.l10.vocab-1#8",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ فِي الشَّرِكَةِ.",
+      "fr": "Zayd a travaillé dans la société.",
+      "gaps": [ { "answers": ["عَمِلَ"] } ],
+      "options": ["عَمِلَ", "اِشْتَرَى", "جَلَسَ"],
+      "explain": "On travaille dans une société : {ar|عَمِلَ}."
+    },
+    {
+      "id": "medine-t2.l10.vocab-1#9",
+      "type": "order",
+      "fr": "Qu'a fait Zayd ?",
+      "answers": [["مَاذَا", "فَعَلَ", "زَيْدٌ"]],
+      "punctuation": "؟"
+    },
+    { "id": "medine-t2.l10.vocab-1#10", "type": "typing", "ask": "fr", "item": "w:amila" }
+  ]
+}

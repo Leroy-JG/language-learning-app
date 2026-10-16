@@ -1,0 +1,153 @@
+{
+  "id": "medine-t2.l10.grammar-4",
+  "type": "grammar",
+  "title": "Analyser un nombre de 20 à 99",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l10.grammar-4#1",
+      "type": "tip",
+      "title": "Les deux parties se déclinent",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans {ar|ثَلَاثَةٌ وَعِشْرُونَ}, **les deux parties** se déclinent : chacune prend la terminaison qu'exige le rôle du nombre. Le professeur analyse ses phrases ainsi : {ar|الْعَدَدُ} est le nombre, {ar|الْمَعْدُودُ} le dénombré."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Le nombre ({ar|الْعَدَدُ})", "Le dénombré ({ar|الْمَعْدُودُ})"],
+          "rows": [
+            [
+              "{ar|لِي ثَلَاثَةٌ وَعِشْرُونَ كِتَابًا}",
+              "{ar|مُؤَنَّثٌ مَرْفُوعٌ}",
+              "{ar|مُفْرَدٌ مُذَكَّرٌ مَنْصُوبٌ}"
+            ],
+            [
+              "{ar|لِي ثَلَاثٌ وَعِشْرُونَ أُخْتًا}",
+              "{ar|مُذَكَّرٌ مَرْفُوعٌ}",
+              "{ar|مُفْرَدٌ مُؤَنَّثٌ مَنْصُوبٌ}"
+            ],
+            [
+              "{ar|اِشْتَرَيْتُ ثَلَاثَةً وَعِشْرِينَ كِتَابًا}",
+              "{ar|مُؤَنَّثٌ مَنْصُوبٌ}",
+              "{ar|مُفْرَدٌ مُذَكَّرٌ مَنْصُوبٌ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|مَرْفُوعٌ} : au nominatif. {ar|مَنْصُوبٌ} : à l'accusatif. {ar|مَجْرُورٌ} : au génitif. {ar|مُفْرَدٌ} : au singulier. Quand le professeur dit que le nombre est « féminin » ({ar|مُؤَنَّثٌ}), il parle de sa **forme** : {ar|ثَلَاثَةٌ} (avec {ar|ة}) va avec un nom masculin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l10.grammar-4#2",
+      "type": "tip",
+      "title": "Le nombre au génitif",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Phrase", "Le nombre ({ar|الْعَدَدُ})", "Le dénombré ({ar|الْمَعْدُودُ})"],
+          "rows": [
+            [
+              "{ar|فِي ثَلَاثٍ وَعِشْرِينَ مَدْرَسَةً}",
+              "{ar|مُذَكَّرٌ مَجْرُورٌ}",
+              "{ar|مُفْرَدٌ مُؤَنَّثٌ مَنْصُوبٌ}"
+            ],
+            [
+              "{ar|لِي وَاحِدٌ وَعِشْرُونَ كِتَابًا}",
+              "{ar|مُذَكَّرٌ مَرْفُوعٌ}",
+              "{ar|مُفْرَدٌ مُذَكَّرٌ مَنْصُوبٌ}"
+            ],
+            [
+              "{ar|سَلَّمْتُ عَلَى اِثْنَتَيْنِ وَعِشْرِينَ أُخْتًا}",
+              "{ar|مُؤَنَّثٌ مَجْرُورٌ}",
+              "{ar|مُفْرَدٌ مُؤَنَّثٌ مَنْصُوبٌ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Pour deux, le cas se lit dans la terminaison, comme pour un duel : {ar|اِثْنَانِ} et {ar|اِثْنَتَانِ} au nominatif, {ar|اِثْنَيْنِ} et {ar|اِثْنَتَيْنِ} à l'accusatif et au génitif."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l10.grammar-4#3",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif" }, { "fr": "accusatif" }, { "fr": "génitif" } ],
+      "cards": [
+        { "ar": "لِي أَرْبَعَةٌ وَعِشْرُونَ كِتَابًا", "category": 0 },
+        { "ar": "فِي الْفَصْلِ سَبْعَةٌ وَعِشْرُونَ طَالِبًا", "category": 0 },
+        { "ar": "قَرَأْتُ خَمْسَةً وَعِشْرِينَ كِتَابًا", "category": 1 },
+        { "ar": "اِشْتَرَيْتُ تِسْعَةً وَعِشْرِينَ كِتَابًا", "category": 1 },
+        { "ar": "فِي سِتٍّ وَعِشْرِينَ مَدْرَسَةً", "category": 2 },
+        { "ar": "سَلَّمْتُ عَلَى ثَمَانِيَةٍ وَعِشْرِينَ طَالِبًا", "category": 2 }
+      ],
+      "instruction": "Dans quel cas est le nombre ?",
+      "explain": "Le nombre est au nominatif quand il est le sujet ; à l'accusatif quand il est le complément d'objet d'un verbe ; au génitif après une préposition."
+    },
+    {
+      "id": "medine-t2.l10.grammar-4#4",
+      "type": "spot",
+      "instruction": "Touche le dénombré.",
+      "words": ["قَرَأْتُ", "ثَلَاثَةً", "وَعِشْرِينَ", "كِتَابًا."],
+      "answers": [3],
+      "fr": "J'ai lu vingt-trois livres.",
+      "explain": "Le dénombré est {ar|كِتَابًا} : singulier, accusatif. Les deux autres mots forment le nombre."
+    },
+    {
+      "id": "medine-t2.l10.grammar-4#5",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|فِي ثَلَاثٍ وَعِشْرِينَ مَدْرَسَةً}, pourquoi {ar|ثَلَاثٍ} est-il sans {ar|ة} ?" },
+      "choices": [
+        { "fr": "parce que {ar|مَدْرَسَةٌ} est féminin : le nombre est de genre contraire" },
+        { "fr": "parce que le nombre est au génitif" },
+        { "fr": "parce que {ar|مَدْرَسَةٌ} est au singulier" }
+      ],
+      "answer": 0,
+      "explain": "« Trois » contredit le dénombré : {ar|مَدْرَسَةٌ} est féminin, donc {ar|ثَلَاثٍ} (sans {ar|ة}). Le génitif se voit à la kasra du tanwin."
+    },
+    {
+      "id": "medine-t2.l10.grammar-4#6",
+      "type": "fill_gap",
+      "sentence": "فِي {0} مَدْرَسَةً.",
+      "fr": "Dans vingt-quatre écoles.",
+      "gaps": [ { "answers": ["أَرْبَعٍ وَعِشْرِينَ"] } ],
+      "options": ["أَرْبَعٍ وَعِشْرِينَ", "أَرْبَعَةٍ وَعِشْرِينَ", "أَرْبَعٌ وَعِشْرُونَ"],
+      "explain": "{ar|مَدْرَسَةٌ} est féminin : « quatre » est sans {ar|ة} ({ar|أَرْبَعٍ}). Après {ar|فِي}, tout est au génitif : kasra et {ar|ينَ}."
+    },
+    {
+      "id": "medine-t2.l10.grammar-4#7",
+      "type": "fill_gap",
+      "sentence": "قَرَأْتُ {0} كِتَابًا.",
+      "fr": "J'ai lu vingt-trois livres.",
+      "gaps": [ { "answers": ["ثَلَاثَةً وَعِشْرِينَ"] } ],
+      "options": ["ثَلَاثَةً وَعِشْرِينَ", "ثَلَاثَةٌ وَعِشْرُونَ", "ثَلَاثًا وَعِشْرِينَ"],
+      "explain": "Le nombre est le complément d'objet : accusatif (tanwin à la fatha, {ar|ينَ}). {ar|كِتَابٌ} est masculin : {ar|ثَلَاثَةً}, avec {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l10.grammar-4#8",
+      "type": "order",
+      "fr": "J'ai lu vingt-cinq livres.",
+      "answers": [["قَرَأْتُ", "خَمْسَةً", "وَعِشْرِينَ", "كِتَابًا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l10.grammar-4#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai lu trente livres.",
+      "answers": ["قَرَأْتُ ثَلَاثِينَ كِتَابًا."]
+    },
+    {
+      "id": "medine-t2.l10.grammar-4#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai salué vingt-deux étudiantes.",
+      "answers": ["سَلَّمْتُ عَلَى اِثْنَتَيْنِ وَعِشْرِينَ طَالِبَةً."]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "medine-t2.l10.practice-2",
+  "type": "grammar",
+  "title": "Lire les nombres : exercice 6",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l10.practice-2#1",
+      "type": "question",
+      "prompt": { "ar": "وَاحِدٌ وَعِشْرُونَ طَالِبًا." },
+      "choices": [ { "fr": "21 étudiants" }, { "fr": "12 étudiants" }, { "fr": "31 étudiants" } ],
+      "answer": 0,
+      "instruction": "Combien d'étudiants ?",
+      "explain": "{ar|وَاحِدٌ وَعِشْرُونَ} : un et vingt, soit 21."
+    },
+    {
+      "id": "medine-t2.l10.practice-2#2",
+      "type": "question",
+      "prompt": { "ar": "ثَلَاثَةٌ وَعِشْرُونَ طَالِبًا." },
+      "choices": [ { "fr": "23 étudiants" }, { "fr": "13 étudiants" }, { "fr": "32 étudiants" } ],
+      "answer": 0,
+      "instruction": "Combien d'étudiants ?",
+      "explain": "{ar|ثَلَاثَةٌ وَعِشْرُونَ} : trois et vingt, soit 23."
+    },
+    {
+      "id": "medine-t2.l10.practice-2#3",
+      "type": "question",
+      "prompt": { "ar": "خَمْسَةٌ وَعِشْرُونَ طَالِبًا." },
+      "choices": [ { "fr": "25 étudiants" }, { "fr": "15 étudiants" }, { "fr": "35 étudiants" } ],
+      "answer": 0,
+      "instruction": "Combien d'étudiants ?",
+      "explain": "{ar|خَمْسَةٌ وَعِشْرُونَ} : cinq et vingt, soit 25."
+    },
+    {
+      "id": "medine-t2.l10.practice-2#4",
+      "type": "question",
+      "prompt": { "ar": "ثَمَانِيَةٌ وَعِشْرُونَ طَالِبًا." },
+      "choices": [ { "fr": "28 étudiants" }, { "fr": "18 étudiants" }, { "fr": "38 étudiants" } ],
+      "answer": 0,
+      "instruction": "Combien d'étudiants ?",
+      "explain": "{ar|ثَمَانِيَةٌ وَعِشْرُونَ} : huit et vingt, soit 28."
+    },
+    {
+      "id": "medine-t2.l10.practice-2#5",
+      "type": "question",
+      "prompt": { "ar": "ثَلَاثُونَ طَالِبًا." },
+      "choices": [ { "fr": "30 étudiants" }, { "fr": "13 étudiants" }, { "fr": "20 étudiants" } ],
+      "answer": 0,
+      "instruction": "Combien d'étudiants ?",
+      "explain": "{ar|ثَلَاثُونَ} : trente."
+    },
+    {
+      "id": "medine-t2.l10.practice-2#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "22 étudiants",
+      "answers": ["اِثْنَانِ وَعِشْرُونَ طَالِبًا"]
+    },
+    {
+      "id": "medine-t2.l10.practice-2#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "26 étudiants",
+      "answers": ["سِتَّةٌ وَعِشْرُونَ طَالِبًا"]
+    },
+    {
+      "id": "medine-t2.l10.practice-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "24 étudiants",
+      "answers": ["أَرْبَعَةٌ وَعِشْرُونَ طَالِبًا"]
+    }
+  ]
+}

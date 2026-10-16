@@ -135,6 +135,10 @@ Exemples tirés des leçons 1 à 6 :
 - `spot` du ة contre le ه (هٰذِهِ / سَيَّارَةُ) dans `l06/grammar-3` ;
 - `memory` d'images (cuillère, marmite, thé ; oreille, jambe, nez, œil, main) dans `l06/vocab-2` et `l06/vocab-4` ;
 - `build` de نَافِذَةٌ (le ة, pas le ه) dans `l06/vocab-3`.
+- (Tome 2, leçon 10) `compare` de la dizaine (`ثَلَاثٌ` → `ثَلَاثُونَ`) et `breakdown` de `ثَلَاثَةٌ وَعِشْرُونَ` (unité + `وَ` + dizaine) dans `medine-t2/l10/grammar-1` et `grammar-3` ;
+  `sort` « avec un nom masculin / féminin » et `sort` à trois catégories (nominatif / accusatif / génitif, la catégorie se déduit du verbe ou de la préposition) dans `l10/grammar-3` et `grammar-4` ;
+  `build` de `ثَمَانُونَ` (pas de `ي`) et de `سَادِسٌ` (le `د`, pas le `ت`) dans `l10/grammar-2` et `grammar-7` ;
+  `question` à phrase arabe et heures en chiffres (`السَّاعَةُ الْآنَ التَّاسِعَةُ إِلَّا رُبْعًا` → « 8 h 45 ») dans `l10/grammar-8`.
 
 ### Entraîner une voyelle finale (kasra, fatha…)
 

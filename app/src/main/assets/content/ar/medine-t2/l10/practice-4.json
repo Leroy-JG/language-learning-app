@@ -1,0 +1,96 @@
+{
+  "id": "medine-t2.l10.practice-4",
+  "type": "grammar",
+  "title": "Tôt, tard, toujours : exercices 8 et 9",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l10.practice-4#1",
+      "type": "tip",
+      "title": "Observe : tôt ou tard ? (exercice 8)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur te demande d'observer les deux mots {ar|مُبَكِّرًا} et {ar|مُتَأَخِّرًا}, qui sont opposés, dans trois phrases."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            [
+              "{ar|ذَهَبْتُ إِلَى الْمَدْرَسَةِ الْيَوْمَ مُبَكِّرًا. وَرَجَعْتُ إِلَى الْبَيْتِ مُتَأَخِّرًا.}",
+              "Je suis allé à l'école tôt aujourd'hui, et je suis rentré à la maison tard."
+            ],
+            ["{ar|ذَهَبَتْ لَيْلَى إِلَى الْجَامِعَةِ مُتَأَخِّرَةً.}", "Laylā est allée en retard à l'université."],
+            [
+              "{ar|ذَهَبَتِ الطَّبِيبَةُ الْيَوْمَ إِلَى الْمُسْتَشْفَى مُبَكِّرَةً.}",
+              "La doctoresse est allée tôt à l'hôpital aujourd'hui."
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Pour une femme, le mot prend {ar|ة} : {ar|مُتَأَخِّرَةً}, {ar|مُبَكِّرَةً}. Il décrit la personne qui va à l'école ou à l'hôpital."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l10.practice-4#2",
+      "type": "fill_gap",
+      "sentence": "ذَهَبَتِ الطَّبِيبَةُ الْيَوْمَ إِلَى الْمُسْتَشْفَى {0}.",
+      "fr": "La doctoresse est allée tôt à l'hôpital aujourd'hui.",
+      "gaps": [ { "answers": ["مُبَكِّرَةً"] } ],
+      "options": ["مُبَكِّرَةً", "مُبَكِّرًا", "مُتَأَخِّرَةً"],
+      "explain": "Elle est allée tôt : {ar|مُبَكِّرَةً}, avec {ar|ة} parce que {ar|الطَّبِيبَةُ} est une femme."
+    },
+    {
+      "id": "medine-t2.l10.practice-4#3",
+      "type": "fill_gap",
+      "sentence": "ذَهَبَتْ لَيْلَى إِلَى الْجَامِعَةِ {0}.",
+      "fr": "Laylā est allée en retard à l'université.",
+      "gaps": [ { "answers": ["مُتَأَخِّرَةً"] } ],
+      "options": ["مُتَأَخِّرَةً", "مُتَأَخِّرًا", "مُبَكِّرَةً"],
+      "explain": "En retard : {ar|مُتَأَخِّرَةً}, avec {ar|ة} parce que Laylā est une femme."
+    },
+    {
+      "id": "medine-t2.l10.practice-4#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis allé à l'école tôt aujourd'hui.",
+      "answers": [
+        "ذَهَبْتُ إِلَى الْمَدْرَسَةِ الْيَوْمَ مُبَكِّرًا.",
+        "ذَهَبْتُ إِلَى الْمَدْرَسَةِ مُبَكِّرًا الْيَوْمَ.",
+        "ذَهَبْتُ الْيَوْمَ إِلَى الْمَدْرَسَةِ مُبَكِّرًا."
+      ]
+    },
+    {
+      "id": "medine-t2.l10.practice-4#5",
+      "type": "order",
+      "fr": "Zayd est toujours à la mosquée. (exercice 9 : {ar|دَائِمًا})",
+      "answers": [["زَيْدٌ", "دَائِمًا", "فِي", "الْمَسْجِدِ"], ["زَيْدٌ", "فِي", "الْمَسْجِدِ", "دَائِمًا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l10.practice-4#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis parfois à la maison. (exercice 9 : {ar|أَحْيَانًا})",
+      "answers": ["أَنَا فِي الْبَيْتِ أَحْيَانًا.", "أَنَا أَحْيَانًا فِي الْبَيْتِ."]
+    },
+    {
+      "id": "medine-t2.l10.practice-4#7",
+      "type": "order",
+      "fr": "Zayd est arrivé en retard. (exercice 9 : {ar|مُتَأَخِّرًا})",
+      "answers": [["جَاءَ", "زَيْدٌ", "مُتَأَخِّرًا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l10.practice-4#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd est de nouveau revenu de l'usine. (exercice 9 : {ar|مَرَّةً أُخْرَى})",
+      "answers": ["رَجَعَ زَيْدٌ مِنَ الْمَصْنَعِ مَرَّةً أُخْرَى.", "رَجَعَ زَيْدٌ مَرَّةً أُخْرَى مِنَ الْمَصْنَعِ."]
+    }
+  ]
+}
