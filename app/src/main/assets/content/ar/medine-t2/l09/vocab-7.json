@@ -1,0 +1,94 @@
+{
+  "id": "medine-t2.l09.vocab-7",
+  "type": "vocabulary",
+  "title": "Pays et capitales",
+  "icon": "africa",
+  "screens": [
+    { "id": "medine-t2.l09.vocab-7#1", "type": "present", "item": "w:asima" },
+    { "id": "medine-t2.l09.vocab-7#2", "type": "present", "item": "w:dimashq" },
+    { "id": "medine-t2.l09.vocab-7#3", "type": "present", "item": "w:sudan" },
+    {
+      "id": "medine-t2.l09.vocab-7#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:sudan",
+      "distractors": ["w:yaman", "w:misr"]
+    },
+    { "id": "medine-t2.l09.vocab-7#5", "type": "present", "item": "w:khartum" },
+    { "id": "medine-t2.l09.vocab-7#6", "type": "present", "item": "w:sanaa" },
+    {
+      "id": "medine-t2.l09.vocab-7#7",
+      "type": "tip",
+      "title": "La capitale de…",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "« La capitale du Soudan » : {ar|عَاصِمَةُ السُّودَانِ}. C'est une annexion : {ar|عَاصِمَةُ} n'a ni article ni tanwin, le pays est au génitif."
+        },
+        {
+          "type": "example",
+          "ar": "عَاصِمَةُ السُّودَانِ الْخُرْطُومُ.",
+          "fr": "La capitale du Soudan est Khartoum."
+        },
+        {
+          "type": "gallery",
+          "title": "Pays et capitales",
+          "items": ["w:misr", "w:qahira", "w:iraq", "w:baghdad", "w:yaman", "w:sanaa"]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.vocab-7#8",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:sudan", "w:khartum", "w:yaman", "w:sanaa", "w:misr", "w:qahira"]
+    },
+    {
+      "id": "medine-t2.l09.vocab-7#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:asima", "w:dimashq", "w:sudan", "w:khartum", "w:sanaa"]
+    },
+    {
+      "id": "medine-t2.l09.vocab-7#10",
+      "type": "fill_gap",
+      "sentence": "{0} السُّودَانِ الْخُرْطُومُ.",
+      "fr": "La capitale du Soudan est Khartoum.",
+      "gaps": [ { "answers": ["عَاصِمَةُ"] } ],
+      "options": ["عَاصِمَةُ", "قَائِمَةُ", "مَدْرَسَةُ"],
+      "explain": "« La capitale de… » : {ar|عَاصِمَةُ} + le pays au génitif."
+    },
+    {
+      "id": "medine-t2.l09.vocab-7#11",
+      "type": "fill_gap",
+      "sentence": "عَاصِمَةُ الْيَمَنِ {0}.",
+      "fr": "La capitale du Yémen est Sanaa.",
+      "gaps": [ { "answers": ["صَنْعَاءُ"] } ],
+      "options": ["صَنْعَاءُ", "بَغْدَادُ", "الرِّيَاضُ", "الْقَاهِرَةُ"],
+      "explain": "La capitale du Yémen est {ar|صَنْعَاءُ}."
+    },
+    { "id": "medine-t2.l09.vocab-7#12", "type": "build", "item": "w:sanaa", "extra": ["أ"] },
+    {
+      "id": "medine-t2.l09.vocab-7#13",
+      "type": "order",
+      "fr": "Zayd est revenu de Damas.",
+      "answers": [["عَادَ", "زَيْدٌ", "مِنْ", "دِمَشْقَ"], ["زَيْدٌ", "عَادَ", "مِنْ", "دِمَشْقَ"]],
+      "punctuation": ".",
+      "explain": "{ar|دِمَشْقُ} n'a jamais de tanwin : après {ar|مِنْ}, elle prend une fatha."
+    },
+    {
+      "id": "medine-t2.l09.vocab-7#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "La capitale du Soudan est Khartoum.",
+      "answers": ["عَاصِمَةُ السُّودَانِ الْخُرْطُومُ."]
+    },
+    {
+      "id": "medine-t2.l09.vocab-7#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La capitale du Yémen est Sanaa.",
+      "answers": ["عَاصِمَةُ الْيَمَنِ صَنْعَاءُ."]
+    }
+  ]
+}

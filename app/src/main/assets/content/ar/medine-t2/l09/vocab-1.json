@@ -1,0 +1,103 @@
+{
+  "id": "medine-t2.l09.vocab-1",
+  "type": "vocabulary",
+  "title": "Créer, savoir, demander, revenir",
+  "icon": "pen",
+  "screens": [
+    { "id": "medine-t2.l09.vocab-1#1", "type": "present", "item": "w:aada" },
+    { "id": "medine-t2.l09.vocab-1#2", "type": "present", "item": "w:khalaqa" },
+    {
+      "id": "medine-t2.l09.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:aada",
+      "distractors": ["w:kharaja", "w:dhahaba"]
+    },
+    { "id": "medine-t2.l09.vocab-1#4", "type": "present", "item": "w:ahsana" },
+    { "id": "medine-t2.l09.vocab-1#5", "type": "present", "item": "w:arafa" },
+    {
+      "id": "medine-t2.l09.vocab-1#6",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:arafa",
+      "distractors": ["w:fahima", "w:wajada"]
+    },
+    { "id": "medine-t2.l09.vocab-1#7", "type": "present", "item": "w:saala" },
+    {
+      "id": "medine-t2.l09.vocab-1#8",
+      "type": "tip",
+      "title": "Les quatre formes : un aperçu",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme aux chapitres précédents, le professeur donne quatre formes pour chaque verbe. Tu retiens seulement le passé ; le reste est un aperçu. Deux verbes déjà connus ({ar|حَضَرَ} et {ar|رَفَعَ}) figurent dans son tableau."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["être présent", "{ar|حَضَرَ}", "{ar|يَحْضُرُ}", "{ar|اُحْضُرْ}", "{ar|حُضُورٌ}"],
+            ["revenir", "{ar|عَادَ}", "{ar|يَعُودُ}", "{ar|عُدْ}", "{ar|عَوْدَةٌ}"],
+            ["créer", "{ar|خَلَقَ}", "{ar|يَخْلُقُ}", "{ar|اُخْلُقْ}", "{ar|خَلْقٌ}"],
+            ["lever", "{ar|رَفَعَ}", "{ar|يَرْفَعُ}", "{ar|اِرْفَعْ}", "{ar|رَفْعٌ}"],
+            ["bien faire", "{ar|أَحْسَنَ}", "{ar|يُحْسِنُ}", "{ar|أَحْسِنْ}", "{ar|إِحْسَانٌ}"],
+            ["savoir, connaître", "{ar|عَرَفَ}", "{ar|يَعْرِفُ}", "{ar|اِعْرِفْ}", "{ar|مَعْرِفَةٌ}"],
+            ["demander", "{ar|سَأَلَ}", "{ar|يَسْأَلُ}", "{ar|سَلْ}", "{ar|مَسْأَلَةٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les noms d'action sont écrits au nominatif, comme aux chapitres précédents. Pour {ar|سَأَلَ}, on dit aussi {ar|سُؤَالٌ} (« une question », déjà vu)."
+        },
+        {
+          "type": "note",
+          "text": "L'impératif des verbes à hamza de liaison commence par {ar|اِ} ({ar|اِرْفَعْ}, {ar|اِعْرِفْ}) ; avec les verbes dont la voyelle du présent est une damma, la hamza de liaison prend une damma ({ar|اُحْضُرْ}, {ar|اُخْلُقْ}). {ar|أَحْسَنَ} garde sa hamza de coupure ({ar|أَحْسِنْ}). {ar|سَأَلَ} perd sa hamza : {ar|سَلْ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.vocab-1#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:aada", "w:khalaqa", "w:ahsana", "w:arafa", "w:saala"]
+    },
+    {
+      "id": "medine-t2.l09.vocab-1#10",
+      "type": "fill_gap",
+      "sentence": "{0} اللَّهُ الشَّمْسَ وَالْقَمَرَ.",
+      "fr": "Allah a créé le soleil et la lune.",
+      "gaps": [ { "answers": ["خَلَقَ"] } ],
+      "options": ["خَلَقَ", "عَادَ", "سَأَلَ", "أَحْسَنَ"],
+      "explain": "« Créer » : {ar|خَلَقَ}."
+    },
+    {
+      "id": "medine-t2.l09.vocab-1#11",
+      "type": "question",
+      "prompt": { "fr": "Quelle préposition suit {ar|سَأَلَ} pour dire « interroger quelqu'un sur quelque chose » ?" },
+      "choices": [ { "ar": "عَنْ" }, { "ar": "إِلَى" }, { "ar": "عَلَى" } ],
+      "answer": 0,
+      "explain": "{ar|سَأَلْتُ الْمُدَرِّسَ عَنِ الدَّرْسِ} : « j'ai interrogé l'enseignant sur le cours »."
+    },
+    {
+      "id": "medine-t2.l09.vocab-1#12",
+      "type": "order",
+      "fr": "J'ai su cela par le Coran.",
+      "answers": [["عَرَفْتُ", "ذٰلِكَ", "مِنَ", "الْقُرْآنِ"], ["مِنَ", "الْقُرْآنِ", "عَرَفْتُ", "ذٰلِكَ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l09.vocab-1#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Allah a créé le soleil et la lune.",
+      "answers": ["خَلَقَ اللَّهُ الشَّمْسَ وَالْقَمَرَ."]
+    },
+    {
+      "id": "medine-t2.l09.vocab-1#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Bravo, Zayd !",
+      "answers": ["أَحْسَنْتَ يَا زَيْدُ!"]
+    }
+  ]
+}

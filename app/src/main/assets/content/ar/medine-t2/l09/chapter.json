@@ -1,0 +1,33 @@
+{
+  "id": "medine-t2.l09",
+  "number": 9,
+  "title": {
+    "ar": "الدَّرْسُ التَّاسِعُ",
+    "fr": "Les pronoms relatifs ; poser des questions ; l'exclamation ; pays et capitales"
+  },
+  "description": "Les pronoms relatifs ({ar|الَّذِي}, {ar|الَّتِي}, le duel et le pluriel), la question avec {ar|أَ} devant l'article ({ar|آلْ}), {ar|مَا} après une préposition ({ar|بِمَ}, {ar|مِمَّ}), « combien » et « plusieurs », l'exclamation {ar|مَا أَسْهَلَ}, les pays et leurs capitales, le texte du livre et ses exercices.",
+  "source": "Tome de Médine 2, leçon 9",
+  "sections": [
+    { "title": "Créer, savoir, demander, revenir", "activities": ["vocab-1"] },
+    { "title": "La classe, la terre, la création", "activities": ["vocab-2", "vocab-3", "vocab-4"] },
+    { "title": "Le grand-père, plusieurs, ainsi", "activities": ["vocab-5", "vocab-6"] },
+    { "title": "Pays et capitales", "activities": ["vocab-7"] },
+    { "title": "Les pronoms relatifs", "activities": ["grammar-1", "grammar-2", "grammar-3", "grammar-4"] },
+    { "title": "Poser des questions", "activities": ["grammar-5", "grammar-6", "grammar-7"] },
+    { "title": "Comme c'est facile !", "activities": ["grammar-8"] },
+    {
+      "title": "Le texte du livre",
+      "activities": [
+        "dialogue-1",
+        "dialogue-2",
+        "practice-1",
+        "practice-2",
+        "practice-3",
+        "practice-4",
+        "practice-5",
+        "practice-6"
+      ]
+    },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "medine-t2.l09.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 9",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l09.quiz#1",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:khalaqa",
+      "distractors": ["w:aada", "w:saala"]
+    },
+    {
+      "id": "medine-t2.l09.quiz#2",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ard",
+      "distractors": ["w:turab", "w:tiyn"]
+    },
+    {
+      "id": "medine-t2.l09.quiz#3",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:asima", "w:jadd", "w:lahza", "w:maana", "w:idda"]
+    },
+    {
+      "id": "medine-t2.l09.quiz#4",
+      "type": "sort",
+      "categories": [ { "ar": "الَّذِي" }, { "ar": "الَّتِي" } ],
+      "cards": [
+        { "ar": "الْعَاصِمَةُ", "category": 1 },
+        { "ar": "الْجُمْلَةُ", "category": 1 },
+        { "ar": "الطِّينُ", "category": 0 },
+        { "ar": "الْجَانُّ", "category": 0 },
+        { "ar": "الْأَرْضُ", "category": 1 },
+        { "ar": "الْمَعْنَى", "category": 0 }
+      ],
+      "instruction": "Quel relatif suit chaque nom ?",
+      "explain": "Un nom masculin est suivi de {ar|الَّذِي}, un nom féminin de {ar|الَّتِي}. {ar|الْأَرْضُ} est féminin sans avoir de {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l09.quiz#5",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ الْفَتَيَاتُ {0} دَخَلْنَ الْفَصْلَ؟",
+      "fr": "Où sont les jeunes filles qui sont entrées dans la classe ?",
+      "gaps": [ { "answers": ["اللَّاتِي"] } ],
+      "options": ["اللَّاتِي", "الَّذِينَ", "اللَّذَانِ"],
+      "explain": "Plusieurs femmes : {ar|اللَّاتِي}."
+    },
+    {
+      "id": "medine-t2.l09.quiz#6",
+      "type": "fill_gap",
+      "sentence": "سَلَّمْتُ عَلَى الطَّالِبَتَيْنِ {0} خَرَجَتَا مِنَ الْفَصْلِ.",
+      "fr": "J'ai salué les deux étudiantes qui sont sorties de la classe.",
+      "gaps": [ { "answers": ["اللَّتَيْنِ"] } ],
+      "options": ["اللَّتَيْنِ", "اللَّتَانِ", "اللَّاتِي", "الَّتِي"],
+      "explain": "Deux femmes, après {ar|عَلَى} (génitif) : {ar|اللَّتَيْنِ}. Au nominatif, on dirait {ar|اللَّتَانِ}."
+    },
+    {
+      "id": "medine-t2.l09.quiz#7",
+      "type": "spot",
+      "instruction": "Touche la proposition relative.",
+      "words": ["الْوَلَدُ", "الَّذِي", "ضَرَبَنِي", "هُوَ", "أَخِي."],
+      "answers": [2],
+      "fr": "Le garçon qui m'a frappé est mon frère.",
+      "explain": "Le relatif est {ar|الَّذِي} ; la relative est {ar|ضَرَبَنِي}. {ar|هُوَ أَخِي} est la suite de la phrase."
+    },
+    {
+      "id": "medine-t2.l09.quiz#8",
+      "type": "true_false",
+      "statement": { "fr": "Après un nom indéfini comme {ar|رَجُلٌ}, on met {ar|الَّذِي} devant la relative." },
+      "answer": false,
+      "explain": "Faux : {ar|الَّذِي} s'emploie après un nom défini. Avec un nom indéfini, la phrase suit directement : {ar|رَجُلٌ دَخَلَ الْفَصْلَ}."
+    },
+    {
+      "id": "medine-t2.l09.quiz#9",
+      "type": "fill_gap",
+      "sentence": "{0} الْمُدِيرُ قَالَ هٰذَا؟",
+      "fr": "Est-ce le directeur qui a dit cela ?",
+      "gaps": [ { "answers": ["آلْمُدِيرُ"] } ],
+      "options": ["آلْمُدِيرُ", "الْمُدِيرُ", "أَيْنَ"],
+      "explain": "{ar|أَ} + {ar|الْمُدِيرُ} = {ar|آلْمُدِيرُ}."
+    },
+    {
+      "id": "medine-t2.l09.quiz#10",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « de quoi ? » (la matière) ?" },
+      "choices": [ { "ar": "مِمَّ" }, { "ar": "بِمَ" }, { "ar": "عَمَّ" } ],
+      "answer": 0,
+      "explain": "{ar|مِنْ} + {ar|مَا} = {ar|مِمَّ}."
+    },
+    {
+      "id": "medine-t2.l09.quiz#11",
+      "type": "fill_gap",
+      "sentence": "{0} خَرَجْتَ مِنَ الْفَصْلِ؟",
+      "fr": "Pourquoi es-tu sorti de la classe ?",
+      "gaps": [ { "answers": ["لِمَ"] } ],
+      "options": ["لِمَ", "بِمَ", "مِمَّ", "عَمَّ"],
+      "explain": "« Pourquoi ? » : {ar|لِمَ}."
+    },
+    {
+      "id": "medine-t2.l09.quiz#12",
+      "type": "order",
+      "fr": "Comme la Terre est grande !",
+      "answers": [["مَا", "أَكْبَرَ", "الْأَرْضَ"]],
+      "punctuation": "!"
+    },
+    {
+      "id": "medine-t2.l09.quiz#13",
+      "type": "fill_gap",
+      "sentence": "فِي {0} يَوْمٍ خَلَقَ اللَّهُ السَّمَاوَاتِ وَالْأَرْضَ؟",
+      "fr": "En combien de jours Allah a-t-il créé les cieux et la terre ?",
+      "gaps": [ { "answers": ["كَمْ"] } ],
+      "options": ["كَمْ", "مَا", "مَنْ"],
+      "explain": "« Combien de… ? » : {ar|كَمْ}. Après {ar|فِي}, le nom qui suit est au génitif : {ar|فِي كَمْ يَوْمٍ}."
+    },
+    {
+      "id": "medine-t2.l09.quiz#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd est revenu de Damas.",
+      "answers": ["عَادَ زَيْدٌ مِنْ دِمَشْقَ.", "زَيْدٌ عَادَ مِنْ دِمَشْقَ."]
+    },
+    {
+      "id": "medine-t2.l09.quiz#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai interrogé l'enseignant sur l'examen.",
+      "answers": ["سَأَلْتُ الْمُدَرِّسَ عَنِ الِامْتِحَانِ."]
+    }
+  ]
+}

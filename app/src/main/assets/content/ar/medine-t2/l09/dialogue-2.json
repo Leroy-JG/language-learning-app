@@ -1,0 +1,187 @@
+{
+  "id": "medine-t2.l09.dialogue-2",
+  "type": "dialogue",
+  "title": "Qui a créé quoi ?",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l09.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Qui a créé quoi ?",
+      "intro": "L'enseignant pose plusieurs questions aux étudiants : d'abord sur celui qui les a créés, puis sur ce qu'Allah a créé et de quoi. Pendant ce temps, Yaʿqūb a une question sans rapport avec le cours.",
+      "speakers": {
+        "R": { "name": "Le récit", "voice": "f1" },
+        "T": { "name": "Le professeur", "voice": "m1" },
+        "I": { "name": "Ibrāhīm", "voice": "m2" },
+        "S": { "name": "Tous", "voice": "m2" },
+        "B": { "name": "ʿAbbās", "voice": "m2" },
+        "A": { "name": "ʿAbd Allāh", "voice": "m2" },
+        "H": { "name": "ʿAbd al-Raḥmān", "voice": "m2" },
+        "D": { "name": "Aḥmad", "voice": "m2" },
+        "Y": { "name": "Yaʿqūb", "voice": "m2" },
+        "U": { "name": "ʿUthmān", "voice": "m2" },
+        "K": { "name": "Abū Bakr", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "R",
+          "ar": "ثُمَّ سَأَلَ الْمُدَرِّسُ الطُّلَّابَ عِدَّةَ أَسْئِلَةٍ.",
+          "fr": "Puis l'enseignant a posé plusieurs questions aux étudiants."
+        },
+        { "speaker": "T", "ar": "مَنْ خَلَقَكَ يَا إِبْرَاهِيمُ؟", "fr": "Qui t'a créé, Ibrāhīm ?" },
+        { "speaker": "I", "ar": "خَلَقَنِي اللَّهُ.", "fr": "Allah m'a créé." },
+        { "speaker": "T", "ar": "مَنْ خَلَقَكُمْ يَا أَبْنَائِي؟", "fr": "Qui vous a créés, mes fils ?" },
+        { "speaker": "S", "ar": "خَلَقَنَا اللَّهُ.", "fr": "Allah nous a créés." },
+        { "speaker": "T", "ar": "مَنْ خَلَقَنِي يَا عَبَّاسُ؟", "fr": "Qui m'a créé, ʿAbbās ?" },
+        { "speaker": "B", "ar": "خَلَقَكَ اللَّهُ.", "fr": "Allah t'a créé." },
+        {
+          "speaker": "T",
+          "ar": "مَنْ خَلَقَ الشَّمْسَ يَا عَبْدَ اللَّهِ؟",
+          "fr": "Qui a créé le soleil, ʿAbd Allāh ?"
+        },
+        { "speaker": "A", "ar": "خَلَقَهَا اللَّهُ.", "fr": "Allah l'a créé." },
+        {
+          "speaker": "T",
+          "ar": "وَمَنْ خَلَقَ الْقَمَرَ يَا عَبْدَ الرَّحْمٰنِ؟",
+          "fr": "Et qui a créé la lune, ʿAbd al-Raḥmān ?"
+        },
+        { "speaker": "H", "ar": "خَلَقَهُ اللَّهُ.", "fr": "Allah l'a créée." },
+        {
+          "speaker": "T",
+          "ar": "وَمَنْ خَلَقَ النُّجُومَ يَا أَحْمَدُ؟",
+          "fr": "Et qui a créé les étoiles, Aḥmad ?"
+        },
+        { "speaker": "D", "ar": "خَلَقَهَا اللَّهُ.", "fr": "Allah les a créées." },
+        {
+          "speaker": "Y",
+          "ar": "يَا أُسْتَاذُ، عِنْدِي سُؤَالٌ لَيْسَتْ لَهُ عَلَاقَةٌ بِالدَّرْسِ.",
+          "fr": "Professeur, j'ai une question qui n'a aucun rapport avec le cours."
+        },
+        { "speaker": "T", "ar": "مَا هُوَ؟", "fr": "Laquelle ?" },
+        {
+          "speaker": "Y",
+          "ar": "قَرَأْتُ فِي كِتَابٍ أَنَّ النُّجُومَ أَبْعَدُ مِنَ الشَّمْسِ. أَصَحِيحٌ هٰذَا؟",
+          "fr": "J'ai lu dans un livre que les étoiles sont plus loin que le soleil. Est-ce vrai ?"
+        },
+        {
+          "speaker": "T",
+          "ar": "نَعَمْ. هٰذَا صَحِيحٌ. مِمَّ خَلَقَ اللَّهُ الْإِنْسَانَ يَا عُثْمَانُ؟",
+          "fr": "Oui. C'est vrai. De quoi Allah a-t-il créé l'être humain, ʿUthmān ?"
+        },
+        {
+          "speaker": "U",
+          "ar": "خَلَقَ اللَّهُ الْإِنْسَانَ مِنْ طِينٍ.",
+          "fr": "Allah a créé l'être humain à partir de boue."
+        },
+        {
+          "speaker": "T",
+          "ar": "أَحْسَنْتَ يَا عُثْمَانُ! وَمِمَّ خَلَقَ اللَّهُ الْجَانَّ يَا أَبَا بَكْرٍ؟",
+          "fr": "Bravo, ʿUthmān ! Et de quoi Allah a-t-il créé le djinn, Abū Bakr ?"
+        },
+        {
+          "speaker": "K",
+          "ar": "خَلَقَ اللَّهُ الْجَانَّ مِنْ نَارٍ.",
+          "fr": "Allah a créé le djinn à partir de feu."
+        },
+        {
+          "speaker": "T",
+          "ar": "كَيْفَ عَرَفْتَ ذٰلِكَ يَا أَبَا بَكْرٍ؟",
+          "fr": "Comment as-tu su cela, Abū Bakr ?"
+        },
+        {
+          "speaker": "K",
+          "ar": "عَرَفْتُ ذٰلِكَ مِنَ الْقُرْآنِ الْكَرِيمِ. فَجَاءَ فِي سُورَةِ الْأَعْرَافِ أَنَّ إِبْلِيسَ قَالَ لِلَّهِ: «أَنَا خَيْرٌ مِنْهُ، خَلَقْتَنِي مِنْ نَارٍ وَخَلَقْتَهُ مِنْ طِينٍ».",
+          "fr": "J'ai su cela par le noble Coran. Il est dit dans la sourate Al-Aʿrāf qu'Iblīs a dit à Allah : « Je suis meilleur que lui : Tu m'as créé de feu et Tu l'as créé d'argile. »"
+        },
+        {
+          "speaker": "T",
+          "ar": "أَحْسَنْتَ يَا أَبَا بَكْرٍ! كَمْ سَمَاءً خَلَقَ اللَّهُ يَا عَبْدَ اللَّهِ؟",
+          "fr": "Bravo, Abū Bakr ! Combien de cieux Allah a-t-il créés, ʿAbd Allāh ?"
+        },
+        { "speaker": "A", "ar": "خَلَقَ اللَّهُ سَبْعَ سَمَاوَاتٍ.", "fr": "Allah a créé sept cieux." },
+        {
+          "speaker": "T",
+          "ar": "وَفِي كَمْ يَوْمٍ خَلَقَ اللَّهُ السَّمَاوَاتِ وَالْأَرْضَ يَا عَبْدَ الرَّحْمٰنِ؟",
+          "fr": "Et en combien de jours Allah a-t-il créé les cieux et la terre, ʿAbd al-Raḥmān ?"
+        },
+        {
+          "speaker": "H",
+          "ar": "خَلَقَ اللَّهُ السَّمَاوَاتِ وَالْأَرْضَ فِي سِتَّةِ أَيَّامٍ.",
+          "fr": "Allah a créé les cieux et la terre en six jours."
+        },
+        {
+          "speaker": "T",
+          "ar": "هٰذَا صَحِيحٌ. قَالَ اللَّهُ تَعَالَى فِي كَثِيرٍ مِنَ الْآيَاتِ إِنَّهُ خَلَقَ سَبْعَ سَمَاوَاتٍ، فَقَالَ فِي سُورَةِ الطَّلَاقِ: «اللَّهُ الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ». وَكَذٰلِكَ قَالَ فِي كَثِيرٍ مِنَ الْآيَاتِ إِنَّهُ خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ فِي سِتَّةِ أَيَّامٍ، فَقَالَ فِي سُورَةِ الْحَدِيدِ: «هُوَ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ فِي سِتَّةِ أَيَّامٍ».",
+          "fr": "C'est vrai. Allah, qu'Il soit exalté, a dit dans de nombreux versets qu'Il a créé sept cieux ; Il a dit dans la sourate At-Talāq : « Allah est Celui qui a créé sept cieux. » De même, Il a dit dans de nombreux versets qu'Il a créé les cieux et la terre en six jours ; Il a dit dans la sourate Al-Ḥadīd : « C'est Lui qui a créé les cieux et la terre en six jours. »"
+        },
+        {
+          "speaker": "R",
+          "ar": "فِي هٰذِهِ اللَّحْظَةِ رَنَّ الْجَرَسُ وَخَرَجَ الْمُدَرِّسُ مِنَ الْفَصْلِ.",
+          "fr": "À cet instant, la sonnette a sonné et l'enseignant est sorti de la classe."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.dialogue-2#2",
+      "type": "question",
+      "prompt": { "fr": "Quelle question Yaʿqūb pose-t-il au professeur ?" },
+      "choices": [
+        { "fr": "si les étoiles sont plus loin que le soleil" },
+        { "fr": "si la lune est plus grande que le soleil" },
+        { "fr": "combien de cieux existent" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l09.dialogue-2#1" },
+      "explain": "{ar|قَرَأْتُ فِي كِتَابٍ أَنَّ النُّجُومَ أَبْعَدُ مِنَ الشَّمْسِ. أَصَحِيحٌ هٰذَا؟}"
+    },
+    {
+      "id": "medine-t2.l09.dialogue-2#3",
+      "type": "true_false",
+      "statement": { "fr": "Abū Bakr a su de quoi est créé le djinn grâce au Coran." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l09.dialogue-2#1" },
+      "explain": "Vrai : {ar|عَرَفْتُ ذٰلِكَ مِنَ الْقُرْآنِ الْكَرِيمِ}."
+    },
+    {
+      "id": "medine-t2.l09.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "En combien de jours Allah a-t-il créé les cieux et la terre, d'après ʿAbd al-Raḥmān ?" },
+      "choices": [ { "fr": "six jours" }, { "fr": "sept jours" }, { "fr": "trois jours" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l09.dialogue-2#1" },
+      "explain": "{ar|فِي سِتَّةِ أَيَّامٍ} : en six jours."
+    },
+    {
+      "id": "medine-t2.l09.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Le professeur dit « bravo » ({ar|أَحْسَنْتَ}) à ʿAbbās." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l09.dialogue-2#1" },
+      "explain": "Faux : il le dit à ʿUthmān et à Abū Bakr, qui ont bien répondu."
+    },
+    {
+      "id": "medine-t2.l09.dialogue-2#6",
+      "type": "fill_gap",
+      "sentence": "{0} الْجَرَسُ.",
+      "fr": "La sonnette a sonné.",
+      "gaps": [ { "answers": ["رَنَّ"] } ],
+      "options": ["رَنَّ", "لَعِبَ", "وَضَعَ"],
+      "context": { "dialogue": "medine-t2.l09.dialogue-2#1" },
+      "explain": "À la fin du texte : {ar|رَنَّ الْجَرَسُ}."
+    },
+    {
+      "id": "medine-t2.l09.dialogue-2#7",
+      "type": "order",
+      "fr": "Allah a créé sept cieux.",
+      "answers": [["خَلَقَ", "اللَّهُ", "سَبْعَ", "سَمَاوَاتٍ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l09.dialogue-2#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Allah nous a créés.",
+      "answers": ["خَلَقَنَا اللَّهُ."]
+    }
+  ]
+}

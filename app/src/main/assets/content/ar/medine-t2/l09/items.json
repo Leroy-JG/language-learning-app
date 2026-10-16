@@ -1,0 +1,443 @@
+[
+  {
+    "id": "w:aada",
+    "kind": "word",
+    "ar": "عَادَ",
+    "fr": "il est revenu, il est retourné (revenir, retourner)",
+    "translit": "ʿāda",
+    "note": "Le professeur l'explique par {ar|رَجَعَ} (déjà vu) : les deux verbes veulent dire « revenir ». Son {ar|ا} vient d'un {ar|و} : au présent, on dit {ar|يَعُودُ}.",
+    "example": { "ar": "عَادَ زَيْدٌ مِنَ الْمَدْرَسَةِ.", "fr": "Zayd est revenu de l'école." }
+  },
+  {
+    "id": "w:khalaqa",
+    "kind": "word",
+    "ar": "خَلَقَ",
+    "fr": "il a créé (créer)",
+    "translit": "khalaqa",
+    "example": { "ar": "خَلَقَ اللَّهُ الشَّمْسَ وَالْقَمَرَ.", "fr": "Allah a créé le soleil et la lune." }
+  },
+  {
+    "id": "w:ahsana",
+    "kind": "word",
+    "ar": "أَحْسَنَ",
+    "fr": "il a bien fait, il a bien agi (bien faire)",
+    "translit": "ʾaḥsana",
+    "note": "{ar|أَحْسَنْتَ!} (« bravo ! », littéralement « tu as bien fait ») est le compliment que le professeur adresse à un élève qui a bien répondu. À une fille ou une femme : {ar|أَحْسَنْتِ}.",
+    "example": { "ar": "أَحْسَنْتَ يَا زَيْدُ!", "fr": "Bravo, Zayd !" }
+  },
+  {
+    "id": "w:arafa",
+    "kind": "word",
+    "ar": "عَرَفَ",
+    "fr": "il a su, il a connu (savoir, connaître)",
+    "translit": "ʿarafa",
+    "example": { "ar": "عَرَفْتُ ذٰلِكَ مِنَ الْقُرْآنِ.", "fr": "J'ai su cela par le Coran." }
+  },
+  {
+    "id": "w:saala",
+    "kind": "word",
+    "ar": "سَأَلَ",
+    "fr": "il a demandé, il a interrogé (demander, questionner)",
+    "translit": "saʾala",
+    "note": "Pour « interroger quelqu'un sur quelque chose », on met la personne à l'accusatif, puis {ar|عَنْ} : {ar|سَأَلْتُ الْمُدَرِّسَ عَنِ الدَّرْسِ}. Le {ar|أ} s'écrit sur un {ar|ا}.",
+    "example": { "ar": "سَأَلْتُ الْمُدَرِّسَ عَنِ الدَّرْسِ.", "fr": "J'ai interrogé l'enseignant sur le cours." }
+  },
+  {
+    "id": "w:qaima",
+    "kind": "word",
+    "ar": "قَائِمَةٌ",
+    "fr": "une liste",
+    "translit": "qāʾimatun",
+    "plural": "قَائِمَاتٌ",
+    "gender": "f",
+    "note": "{ar|قَائِمَةُ الطَّعَامِ} (« la liste des plats ») est le menu d'un restaurant. Un autre pluriel existe : {ar|قَوَائِمُ}.",
+    "example": { "ar": "أَيْنَ قَائِمَةُ الطَّعَامِ؟", "fr": "Où est le menu ?" }
+  },
+  {
+    "id": "w:jumla",
+    "kind": "word",
+    "ar": "جُمْلَةٌ",
+    "fr": "une phrase",
+    "translit": "jumlatun",
+    "plural": "جُمَلٌ",
+    "gender": "f",
+    "example": { "ar": "قَرَأْنَا هٰذِهِ الْجُمْلَةَ فِي الدَّرْسِ.", "fr": "Nous avons lu cette phrase dans le cours." }
+  },
+  {
+    "id": "w:maana",
+    "kind": "word",
+    "ar": "مَعْنًى",
+    "fr": "un sens, une signification",
+    "translit": "maʿnan",
+    "plural": "مَعَانٍ",
+    "gender": "m",
+    "note": "En annexion, le tanwin disparaît : {ar|مَعْنَى هٰذِهِ الْكَلِمَةِ}. Devant un pronom collé, le {ar|ى} final devient {ar|ا} : {ar|مَعْنَاهُ} (« son sens », pour un mot masculin), {ar|مَعْنَاهَا} (« son sens », pour un mot féminin).",
+    "example": { "ar": "مَا مَعْنَى هٰذِهِ الْكَلِمَةِ؟", "fr": "Quel est le sens de ce mot ?" }
+  },
+  {
+    "id": "w:imtihan",
+    "kind": "word",
+    "ar": "امْتِحَانٌ",
+    "fr": "un examen (autre mot pour {ar|اِخْتِبَارٌ})",
+    "translit": "imtiḥānun",
+    "plural": "امْتِحَانَاتٌ",
+    "gender": "m",
+    "note": "Même sens que {ar|اِخْتِبَارٌ}. Avec l'article, on écrit {ar|الِامْتِحَانُ} : l'alif du début est une hamza de liaison, qui ne se prononce pas après {ar|الْ}.",
+    "example": { "ar": "عِنْدِي امْتِحَانٌ الْيَوْمَ.", "fr": "J'ai un examen aujourd'hui." }
+  },
+  {
+    "id": "w:mujtahid",
+    "kind": "word",
+    "ar": "مُجْتَهِدٌ",
+    "fr": "assidu, studieux (qui fait des efforts)",
+    "translit": "mujtahidun",
+    "note": "C'est un adjectif : au féminin, {ar|مُجْتَهِدَةٌ}.",
+    "example": { "ar": "الطَّالِبُ مُجْتَهِدٌ.", "fr": "L'étudiant est assidu." }
+  },
+  {
+    "id": "w:ard",
+    "kind": "word",
+    "ar": "أَرْضٌ",
+    "fr": "une terre (la Terre, le sol)",
+    "translit": "ʾarḍun",
+    "plural": "أَرَضُونَ",
+    "gender": "f",
+    "note": "{ar|أَرْضٌ} est féminin sans avoir de {ar|ة} : {ar|الْأَرْضُ كَبِيرَةٌ}. Son pluriel {ar|أَرَضُونَ} est une exception : un pluriel en {ar|ونَ} pour une chose ; {ar|أَرَاضٍ} se dit aussi.",
+    "example": { "ar": "الْأَرْضُ كَبِيرَةٌ.", "fr": "La Terre est grande." }
+  },
+  {
+    "id": "w:turab",
+    "kind": "word",
+    "ar": "تُرَابٌ",
+    "fr": "de la terre, de la poussière",
+    "translit": "turābun",
+    "plural": "أَتْرِبَةٌ",
+    "gender": "m",
+    "note": "{ar|أَرْضٌ} désigne la Terre ou le sol ; {ar|تُرَابٌ} désigne la matière : la terre ou la poussière qu'on a sur ses vêtements.",
+    "example": { "ar": "عَلَى قَمِيصِ زَيْدٍ تُرَابٌ.", "fr": "Il y a de la terre sur la chemise de Zayd." }
+  },
+  {
+    "id": "w:tiyn",
+    "kind": "word",
+    "ar": "طِينٌ",
+    "fr": "de la boue, de l'argile",
+    "translit": "ṭīnun",
+    "plural": "أَطْيَانٌ",
+    "gender": "m",
+    "note": "Ne le confonds pas avec {ar|تِينٌ} (« des figues ») : le {ar|ط} est un {ar|ت} emphatique, plus grave. Le professeur définit {ar|الطِّينُ} : la terre mélangée à l'eau.",
+    "example": { "ar": "عَلَى الْبَابِ طِينٌ.", "fr": "Il y a de la boue sur la porte." }
+  },
+  {
+    "id": "w:mukhtalit",
+    "kind": "word",
+    "ar": "مُخْتَلِطٌ",
+    "fr": "mélangé",
+    "translit": "mukhtaliṭun",
+    "note": "Il se construit avec {ar|بِ} : {ar|مُخْتَلِطٌ بِ…} (« mélangé à… »). C'est un adjectif : au féminin, {ar|مُخْتَلِطَةٌ}.",
+    "example": { "ar": "هٰذَا مَاءٌ مُخْتَلِطٌ بِالطِّينِ.", "fr": "C'est de l'eau mélangée à de la boue." }
+  },
+  {
+    "id": "w:nar",
+    "kind": "word",
+    "ar": "نَارٌ",
+    "fr": "un feu",
+    "translit": "nārun",
+    "plural": "نِيرَانٌ",
+    "gender": "f",
+    "note": "{ar|نَارٌ} est féminin sans avoir de {ar|ة}.",
+    "example": { "ar": "النَّارُ حَارَّةٌ.", "fr": "Le feu est chaud." }
+  },
+  {
+    "id": "w:jann",
+    "kind": "word",
+    "ar": "جَانٌّ",
+    "fr": "un djinn",
+    "translit": "jānnun",
+    "plural": "جِنَّانٌ",
+    "gender": "m",
+    "note": "Le mot {ar|الْجِنُّ} désigne les djinns en général. Dans {ar|جَانٌّ}, le tanwin se pose sur le {ar|ن} qui porte la shadda.",
+    "example": { "ar": "خَلَقَ اللَّهُ الْجَانَّ مِنْ نَارٍ.", "fr": "Allah a créé le djinn à partir de feu." }
+  },
+  {
+    "id": "w:insan",
+    "kind": "word",
+    "ar": "إِنْسَانٌ",
+    "fr": "un être humain",
+    "translit": "ʾinsānun",
+    "gender": "m",
+    "note": "Pour dire « les gens », on emploie {ar|النَّاسُ}.",
+    "example": { "ar": "خَلَقَ اللَّهُ الْإِنْسَانَ مِنْ طِينٍ.", "fr": "Allah a créé l'être humain à partir de boue." }
+  },
+  {
+    "id": "w:shayi",
+    "kind": "word",
+    "ar": "شَيْءٌ",
+    "fr": "une chose",
+    "translit": "shayʾun",
+    "plural": "أَشْيَاءُ",
+    "gender": "m",
+    "note": "Son pluriel {ar|أَشْيَاءُ} fait partie des noms qui ne prennent jamais de tanwin.",
+    "example": { "ar": "هٰذَا شَيْءٌ جَمِيلٌ.", "fr": "C'est une belle chose." }
+  },
+  {
+    "id": "w:jadd",
+    "kind": "word",
+    "ar": "جَدٌّ",
+    "fr": "un grand-père",
+    "translit": "jaddun",
+    "plural": "أَجْدَادٌ",
+    "gender": "m",
+    "note": "Le père du père, ou le père de la mère.",
+    "example": { "ar": "سَلَّمَ زَيْدٌ عَلَى جَدِّهِ.", "fr": "Zayd a salué son grand-père." }
+  },
+  {
+    "id": "w:alaqa",
+    "kind": "word",
+    "ar": "عَلَاقَةٌ",
+    "fr": "un lien, un rapport",
+    "translit": "ʿalāqatun",
+    "plural": "عَلَائِقُ",
+    "gender": "f",
+    "note": "Le professeur donne le pluriel {ar|عَلَائِقُ} ; on rencontre aussi {ar|عَلَاقَاتٌ}.",
+    "example": {
+      "ar": "عِنْدِي سُؤَالٌ لَيْسَتْ لَهُ عَلَاقَةٌ بِالدَّرْسِ.",
+      "fr": "J'ai une question qui n'a aucun rapport avec le cours."
+    }
+  },
+  {
+    "id": "w:lahza",
+    "kind": "word",
+    "ar": "لَحْظَةٌ",
+    "fr": "un instant",
+    "translit": "laḥẓatun",
+    "plural": "لَحَظَاتٌ",
+    "gender": "f",
+    "note": "Seul, {ar|لَحْظَةً} (à l'accusatif) peut s'employer pour dire « un instant ! ».",
+    "example": { "ar": "فِي هٰذِهِ اللَّحْظَةِ رَنَّ الْجَرَسُ.", "fr": "À cet instant, la sonnette a sonné." }
+  },
+  {
+    "id": "w:talaq",
+    "kind": "word",
+    "ar": "طَلَاقٌ",
+    "fr": "un divorce",
+    "translit": "ṭalāqun",
+    "gender": "m",
+    "note": "C'est aussi le nom d'une sourate : {ar|سُورَةُ الطَّلَاقِ}."
+  },
+  {
+    "id": "w:idda",
+    "kind": "word",
+    "ar": "عِدَّةٌ",
+    "fr": "plusieurs, de nombreux (un certain nombre de)",
+    "translit": "ʿiddatun",
+    "plural": "عِدَدٌ",
+    "gender": "f",
+    "note": "On l'emploie en annexion, devant un nom pluriel indéfini au génitif : {ar|عِدَّةُ كُتُبٍ} (« plusieurs livres »), {ar|عِدَّةُ أَيَّامٍ} (« plusieurs jours »). Le mot lui-même n'a ni tanwin ni article.",
+    "example": { "ar": "قَرَأْتُ عِدَّةَ كُتُبٍ.", "fr": "J'ai lu plusieurs livres." }
+  },
+  {
+    "id": "w:hakadha",
+    "kind": "word",
+    "ar": "هٰكَذَا",
+    "fr": "ainsi, comme ça",
+    "translit": "hākadhā",
+    "note": "Comme {ar|هٰذَا}, il s'écrit avec un alif suscrit, souvent omis dans l'écriture courante ({ar|هكذا}).",
+    "example": { "ar": "هٰكَذَا كَتَبَ زَيْدٌ.", "fr": "Zayd a écrit comme ça." }
+  },
+  {
+    "id": "w:aw",
+    "kind": "word",
+    "ar": "أَوْ",
+    "fr": "ou (dans une phrase qui n'est pas une question à deux choix)",
+    "translit": "ʾaw",
+    "example": { "ar": "قَرَأَ زَيْدٌ كِتَابًا أَوْ مَجَلَّةً.", "fr": "Zayd a lu un livre ou une revue." }
+  },
+  {
+    "id": "w:taala-allah",
+    "kind": "word",
+    "ar": "تَعَالَى",
+    "fr": "Il est exalté (dit après le nom d'Allah)",
+    "translit": "taʿālā",
+    "note": "On dit {ar|قَالَ اللَّهُ تَعَالَى} (« Allah, qu'Il soit exalté, a dit »).",
+    "example": { "ar": "قَالَ اللَّهُ تَعَالَى.", "fr": "Allah, qu'Il soit exalté, a dit." }
+  },
+  {
+    "id": "w:asima",
+    "kind": "word",
+    "ar": "عَاصِمَةٌ",
+    "fr": "une capitale",
+    "translit": "ʿāṣimatun",
+    "plural": "عَوَاصِمُ",
+    "gender": "f",
+    "example": { "ar": "الْعَاصِمَةُ مَدِينَةٌ كَبِيرَةٌ.", "fr": "La capitale est une grande ville." }
+  },
+  {
+    "id": "w:dimashq",
+    "kind": "word",
+    "ar": "دِمَشْقُ",
+    "fr": "Damas",
+    "translit": "dimashqu",
+    "note": "Ce nom de ville n'a jamais de tanwin, et après une préposition il prend une fatha : {ar|مِنْ دِمَشْقَ}."
+  },
+  { "id": "w:sudan", "kind": "word", "ar": "السُّودَانُ", "fr": "le Soudan", "translit": "as-sūdānu" },
+  {
+    "id": "w:khartum",
+    "kind": "word",
+    "ar": "الْخُرْطُومُ",
+    "fr": "Khartoum",
+    "translit": "al-khurṭūmu",
+    "note": "Khartoum est la capitale du Soudan : {ar|عَاصِمَةُ السُّودَانِ الْخُرْطُومُ}."
+  },
+  {
+    "id": "w:sanaa",
+    "kind": "word",
+    "ar": "صَنْعَاءُ",
+    "fr": "Sanaa",
+    "translit": "ṣanʿāʾu",
+    "note": "Sanaa est la capitale du Yémen. Ce nom n'a jamais de tanwin, et après une préposition il prend une fatha : {ar|مِنْ صَنْعَاءَ}."
+  },
+  {
+    "id": "w:ism-mawsul",
+    "kind": "word",
+    "ar": "اِسْمٌ مَوْصُولٌ",
+    "fr": "un pronom relatif (« un nom relié à une phrase »)",
+    "translit": "ismun mawṣūlun",
+    "plural": "الْأَسْمَاءُ الْمَوْصُولَةُ",
+    "gender": "m"
+  },
+  {
+    "id": "w:silat-mawsul",
+    "kind": "word",
+    "ar": "صِلَةُ الْمَوْصُولِ",
+    "fr": "la proposition relative (la phrase qui suit le relatif)",
+    "translit": "ṣilatu l-mawṣūli",
+    "gender": "f"
+  },
+  {
+    "id": "w:alladhi",
+    "kind": "word",
+    "ar": "الَّذِي",
+    "fr": "qui, celui qui (masculin singulier)",
+    "translit": "alladhī",
+    "gender": "m",
+    "note": "Il ne change jamais de forme, quel que soit son rôle dans la phrase.",
+    "example": {
+      "ar": "زَيْدٌ الَّذِي خَرَجَ مِنَ الْفَصْلِ مَرِيضٌ.",
+      "fr": "Zayd, celui qui est sorti de la classe, est malade."
+    }
+  },
+  {
+    "id": "w:allati",
+    "kind": "word",
+    "ar": "الَّتِي",
+    "fr": "qui, celle qui (féminin singulier)",
+    "translit": "allatī",
+    "gender": "f",
+    "example": { "ar": "فَاطِمَةُ الَّتِي هِيَ مُجْتَهِدَةٌ مَرِيضَةٌ.", "fr": "Fāṭima, celle qui est assidue, est malade." }
+  },
+  {
+    "id": "w:alladhani",
+    "kind": "word",
+    "ar": "اللَّذَانِ",
+    "fr": "ceux qui (deux hommes, deux choses masculines)",
+    "translit": "alladhāni",
+    "gender": "m",
+    "note": "Au duel, le relatif se décline : {ar|اللَّذَانِ} au nominatif, {ar|اللَّذَيْنِ} à l'accusatif et au génitif."
+  },
+  {
+    "id": "w:allatani",
+    "kind": "word",
+    "ar": "اللَّتَانِ",
+    "fr": "celles qui (deux femmes, deux choses féminines)",
+    "translit": "allatāni",
+    "gender": "f",
+    "note": "Au duel, le relatif se décline : {ar|اللَّتَانِ} au nominatif, {ar|اللَّتَيْنِ} à l'accusatif et au génitif."
+  },
+  {
+    "id": "w:alladhina",
+    "kind": "word",
+    "ar": "الَّذِينَ",
+    "fr": "ceux qui (plusieurs hommes, ou un groupe mixte)",
+    "translit": "alladhīna",
+    "gender": "m",
+    "note": "Il ne change jamais de forme (comme {ar|الَّذِي})."
+  },
+  {
+    "id": "w:allati-pl",
+    "kind": "word",
+    "ar": "اللَّاتِي",
+    "fr": "celles qui (plusieurs femmes)",
+    "translit": "allātī",
+    "gender": "f",
+    "note": "On dit aussi {ar|اللَّائِي}, avec le même sens. Ces deux formes ne changent jamais."
+  },
+  {
+    "id": "w:bima",
+    "kind": "word",
+    "ar": "بِمَ",
+    "fr": "avec quoi ? par quoi ?",
+    "translit": "bima",
+    "note": "{ar|بِ} + {ar|مَا} : l'alif de {ar|مَا} disparaît.",
+    "example": { "ar": "بِمَ قَتَلْتَ الْحَيَّةَ؟", "fr": "Avec quoi as-tu tué le serpent ?" }
+  },
+  {
+    "id": "w:mimma",
+    "kind": "word",
+    "ar": "مِمَّ",
+    "fr": "de quoi ? (à partir de quoi ?)",
+    "translit": "mimma",
+    "note": "{ar|مِنْ} + {ar|مَا} : le {ar|ن} se fond dans le {ar|م} (d'où la shadda) et l'alif de {ar|مَا} disparaît.",
+    "example": { "ar": "مِمَّ خَلَقَ اللَّهُ الْإِنْسَانَ؟", "fr": "De quoi Allah a-t-il créé l'être humain ?" }
+  },
+  {
+    "id": "w:amma-ma",
+    "kind": "word",
+    "ar": "عَمَّ",
+    "fr": "sur quoi ? à propos de quoi ?",
+    "translit": "ʿamma",
+    "note": "{ar|عَنْ} + {ar|مَا} : le {ar|ن} se fond dans le {ar|م} et l'alif de {ar|مَا} disparaît.",
+    "example": { "ar": "عَمَّ سَأَلْتَ الْمُدَرِّسَ؟", "fr": "Sur quoi as-tu interrogé l'enseignant ?" }
+  },
+  {
+    "id": "p:ma-maana-hadha",
+    "kind": "phrase",
+    "ar": "مَا مَعْنَى هٰذَا؟",
+    "fr": "Quel est le sens de ceci ?",
+    "translit": "mā maʿnā hādhā"
+  },
+  {
+    "id": "p:ma-maana-hadhihi-alkalima",
+    "kind": "phrase",
+    "ar": "مَا مَعْنَى هٰذِهِ الْكَلِمَةِ؟",
+    "fr": "Quel est le sens de ce mot ?",
+    "translit": "mā maʿnā hādhihi l-kalimati"
+  },
+  {
+    "id": "p:ma-ashal-aldars",
+    "kind": "phrase",
+    "ar": "مَا أَسْهَلَ الدَّرْسَ!",
+    "fr": "Comme le cours est facile !",
+    "translit": "mā ʾashala d-darsa"
+  },
+  {
+    "id": "p:ma-asab-aldars",
+    "kind": "phrase",
+    "ar": "مَا أَصْعَبَ الدَّرْسَ!",
+    "fr": "Comme le cours est difficile !",
+    "translit": "mā ʾaṣʿaba d-darsa"
+  },
+  {
+    "id": "p:fi-kam-yawm",
+    "kind": "phrase",
+    "ar": "فِي كَمْ يَوْمٍ؟",
+    "fr": "En combien de jours ?",
+    "translit": "fī kam yawmin"
+  },
+  {
+    "id": "p:bikam-riyal-alkitab",
+    "kind": "phrase",
+    "ar": "بِكَمْ رِيَالٍ هٰذَا الْكِتَابُ؟",
+    "fr": "Ce livre coûte combien de riyals ?",
+    "translit": "bikam riyālin hādhā l-kitābu"
+  }
+]

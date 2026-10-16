@@ -1,0 +1,97 @@
+{
+  "id": "medine-t2.l09.vocab-6",
+  "type": "vocabulary",
+  "title": "Plusieurs, ainsi, ou",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t2.l09.vocab-6#1", "type": "present", "item": "w:idda" },
+    { "id": "medine-t2.l09.vocab-6#2", "type": "present", "item": "w:hakadha" },
+    {
+      "id": "medine-t2.l09.vocab-6#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hakadha",
+      "distractors": ["w:jiddan", "w:amsi"]
+    },
+    { "id": "medine-t2.l09.vocab-6#4", "type": "present", "item": "w:aw" },
+    { "id": "medine-t2.l09.vocab-6#5", "type": "present", "item": "w:taala-allah" },
+    {
+      "id": "medine-t2.l09.vocab-6#6",
+      "type": "tip",
+      "title": "Plusieurs : {ar|عِدَّةُ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|عِدَّةُ} est suivi d'un nom pluriel indéfini au génitif (annexion). Il n'a ni tanwin ni article."
+        },
+        {
+          "type": "table",
+          "header": ["Arabe", "Sens"],
+          "rows": [
+            ["{ar|عِدَّةُ أَسْئِلَةٍ}", "plusieurs questions"],
+            ["{ar|عِدَّةُ كُتُبٍ}", "plusieurs livres"],
+            ["{ar|عِدَّةُ أَيَّامٍ}", "plusieurs jours"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|عِدَّةُ} change de cas comme n'importe quel nom : complément d'un verbe, il est à l'accusatif ({ar|قَرَأْتُ عِدَّةَ كُتُبٍ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.vocab-6#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:idda", "w:hakadha", "w:aw", "w:taala-allah"]
+    },
+    {
+      "id": "medine-t2.l09.vocab-6#8",
+      "type": "fill_gap",
+      "sentence": "قَرَأْتُ عِدَّةَ {0}.",
+      "fr": "J'ai lu plusieurs livres.",
+      "gaps": [ { "answers": ["كُتُبٍ"] } ],
+      "options": ["كُتُبٍ", "كِتَابٍ", "أَقْلَامٍ"],
+      "explain": "{ar|عِدَّةَ} est suivi d'un nom pluriel : {ar|كُتُبٍ}."
+    },
+    {
+      "id": "medine-t2.l09.vocab-6#9",
+      "type": "fill_gap",
+      "sentence": "{0} كَتَبَ زَيْدٌ.",
+      "fr": "Zayd a écrit comme ça.",
+      "gaps": [ { "answers": ["هٰكَذَا"] } ],
+      "options": ["هٰكَذَا", "أَوْ", "ثُمَّ"],
+      "explain": "« Ainsi, comme ça » : {ar|هٰكَذَا}."
+    },
+    {
+      "id": "medine-t2.l09.vocab-6#10",
+      "type": "fill_gap",
+      "sentence": "قَرَأَ زَيْدٌ كِتَابًا {0} مَجَلَّةً.",
+      "fr": "Zayd a lu un livre ou une revue.",
+      "gaps": [ { "answers": ["أَوْ"] } ],
+      "options": ["أَوْ", "لٰكِنْ", "مَعَ"],
+      "explain": "« Ou » : {ar|أَوْ}."
+    },
+    {
+      "id": "medine-t2.l09.vocab-6#11",
+      "type": "order",
+      "fr": "Allah, qu'Il soit exalté, a dit.",
+      "answers": [["قَالَ", "اللَّهُ", "تَعَالَى"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l09.vocab-6#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai lu plusieurs livres.",
+      "answers": ["قَرَأْتُ عِدَّةَ كُتُبٍ."]
+    },
+    {
+      "id": "medine-t2.l09.vocab-6#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd a écrit comme ça.",
+      "answers": ["هٰكَذَا كَتَبَ زَيْدٌ.", "كَتَبَ زَيْدٌ هٰكَذَا."]
+    }
+  ]
+}

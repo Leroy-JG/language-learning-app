@@ -1,0 +1,102 @@
+{
+  "id": "medine-t2.l09.vocab-4",
+  "type": "vocabulary",
+  "title": "Le feu, le djinn, l'être humain",
+  "icon": "water",
+  "screens": [
+    { "id": "medine-t2.l09.vocab-4#1", "type": "present", "item": "w:nar" },
+    { "id": "medine-t2.l09.vocab-4#2", "type": "present", "item": "w:jann" },
+    {
+      "id": "medine-t2.l09.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:nar",
+      "distractors": ["w:ard", "w:tiyn"]
+    },
+    { "id": "medine-t2.l09.vocab-4#4", "type": "present", "item": "w:insan" },
+    { "id": "medine-t2.l09.vocab-4#5", "type": "present", "item": "w:shayi" },
+    {
+      "id": "medine-t2.l09.vocab-4#6",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:insan",
+      "distractors": ["w:jann", "w:nar"]
+    },
+    {
+      "id": "medine-t2.l09.vocab-4#7",
+      "type": "tip",
+      "title": "Créé à partir de…",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur dit de quoi Allah a créé les êtres. Après {ar|خَلَقَ}, la matière se dit avec {ar|مِنْ} (« à partir de »)."
+        },
+        {
+          "type": "example",
+          "ar": "خَلَقَ اللَّهُ الْإِنْسَانَ مِنْ طِينٍ.",
+          "fr": "Allah a créé l'être humain à partir de boue."
+        },
+        {
+          "type": "example",
+          "ar": "خَلَقَ اللَّهُ الْجَانَّ مِنْ نَارٍ.",
+          "fr": "Allah a créé le djinn à partir de feu."
+        },
+        {
+          "type": "note",
+          "text": "{ar|نَارٌ} est féminin sans {ar|ة}, comme {ar|أَرْضٌ}. Son pluriel est {ar|نِيرَانٌ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.vocab-4#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:nar", "w:jann", "w:insan", "w:shayi"]
+    },
+    {
+      "id": "medine-t2.l09.vocab-4#9",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:nar", "w:jann", "w:shayi"]
+    },
+    {
+      "id": "medine-t2.l09.vocab-4#10",
+      "type": "fill_gap",
+      "sentence": "خَلَقَ اللَّهُ الْجَانَّ مِنْ {0}.",
+      "fr": "Allah a créé le djinn à partir de feu.",
+      "gaps": [ { "answers": ["نَارٍ"] } ],
+      "options": ["نَارٍ", "طِينٍ", "حَجَرٍ"],
+      "explain": "Le djinn est créé de feu : {ar|مِنْ نَارٍ}."
+    },
+    {
+      "id": "medine-t2.l09.vocab-4#11",
+      "type": "fill_gap",
+      "sentence": "خَلَقَ اللَّهُ الْإِنْسَانَ مِنْ {0}.",
+      "fr": "Allah a créé l'être humain à partir de boue.",
+      "gaps": [ { "answers": ["طِينٍ"] } ],
+      "options": ["طِينٍ", "نَارٍ", "حَجَرٍ"],
+      "explain": "Dans le texte du livre : {ar|خَلَقَ اللَّهُ الْإِنْسَانَ مِنْ طِينٍ}."
+    },
+    {
+      "id": "medine-t2.l09.vocab-4#12",
+      "type": "true_false",
+      "statement": { "fr": "Le pluriel {ar|أَشْيَاءُ} prend un tanwin." },
+      "answer": false,
+      "explain": "Faux : {ar|أَشْيَاءُ} fait partie des noms qui ne prennent jamais de tanwin."
+    },
+    {
+      "id": "medine-t2.l09.vocab-4#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "C'est une belle chose.",
+      "answers": ["هٰذَا شَيْءٌ جَمِيلٌ."]
+    },
+    {
+      "id": "medine-t2.l09.vocab-4#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Allah a créé l'être humain à partir de boue.",
+      "answers": ["خَلَقَ اللَّهُ الْإِنْسَانَ مِنْ طِينٍ."]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "medine-t2.l09.grammar-6",
+  "type": "grammar",
+  "title": "{ar|مَا} après une préposition : {ar|بِمَ}, {ar|مِمَّ}…",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l09.grammar-6#1",
+      "type": "tip",
+      "title": "{ar|مَا} perd son alif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand le {ar|مَا} interrogatif (« quoi ? ») est précédé d'une préposition, son {ar|ا} disparaît : la préposition et {ar|مَا} s'écrivent en un seul mot."
+        },
+        {
+          "type": "table",
+          "header": ["Préposition + {ar|مَا}", "Mot obtenu", "Sens", "Exemple"],
+          "rows": [
+            ["{ar|بِ} + {ar|مَا}", "{ar|بِمَ}", "avec quoi ?", "{ar|بِمَ قَتَلْتَ الْحَيَّةَ؟}"],
+            ["{ar|مِنْ} + {ar|مَا}", "{ar|مِمَّ}", "de quoi ?", "{ar|مِمَّ خَلَقَ اللَّهُ الْإِنْسَانَ؟}"],
+            ["{ar|لِ} + {ar|مَا}", "{ar|لِمَ}", "pourquoi ?", "{ar|لِمَ خَرَجْتَ مِنَ الْفَصْلِ؟}"],
+            ["{ar|عَنْ} + {ar|مَا}", "{ar|عَمَّ}", "sur quoi ?", "{ar|عَمَّ سَأَلْتَ الْمُدَرِّسَ؟}"]
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t2.l09.grammar-6#2", "type": "present", "item": "w:bima" },
+    { "id": "medine-t2.l09.grammar-6#3", "type": "present", "item": "w:mimma" },
+    { "id": "medine-t2.l09.grammar-6#4", "type": "present", "item": "w:amma-ma" },
+    {
+      "id": "medine-t2.l09.grammar-6#5",
+      "type": "tip",
+      "title": "Deux lettres qui se fondent",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Avec {ar|مِنْ} et {ar|عَنْ}, il se passe autre chose en plus : le {ar|ن} se fond dans le {ar|م} de {ar|مَا}, d'où la shadda : {ar|مِنْ} + {ar|مَا} = {ar|مِمَّ}, {ar|عَنْ} + {ar|مَا} = {ar|عَمَّ}."
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Pour retenir : ces mots se terminent toujours par un {ar|م} à la fatha ({ar|بِمَ}, {ar|لِمَ}, {ar|مِمَّ}, {ar|عَمَّ}), jamais par un alif. Tu connais déjà {ar|لِمَ} (« pourquoi ? ») du chapitre 6."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.grammar-6#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:bima",
+      "distractors": ["w:mimma", "w:amma-ma"]
+    },
+    {
+      "id": "medine-t2.l09.grammar-6#7",
+      "type": "question",
+      "prompt": { "fr": "De quelle préposition vient le mot {ar|مِمَّ} ?" },
+      "choices": [ { "ar": "مِنْ" }, { "ar": "عَنْ" }, { "ar": "بِ" } ],
+      "answer": 0,
+      "explain": "{ar|مِنْ} + {ar|مَا} : le {ar|ن} se fond dans le {ar|م}, et l'alif de {ar|مَا} disparaît."
+    },
+    {
+      "id": "medine-t2.l09.grammar-6#8",
+      "type": "fill_gap",
+      "sentence": "{0} قَتَلْتَ الْحَيَّةَ؟",
+      "fr": "Avec quoi as-tu tué le serpent ?",
+      "gaps": [ { "answers": ["بِمَ"] } ],
+      "options": ["بِمَ", "مِمَّ", "عَمَّ", "لِمَ"],
+      "explain": "« Avec quoi ? » : {ar|بِ} + {ar|مَا} = {ar|بِمَ}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-6#9",
+      "type": "fill_gap",
+      "sentence": "{0} خَلَقَ اللَّهُ الْجَانَّ؟",
+      "fr": "De quoi Allah a-t-il créé le djinn ?",
+      "gaps": [ { "answers": ["مِمَّ"] } ],
+      "options": ["مِمَّ", "بِمَ", "عَمَّ", "لِمَ"],
+      "explain": "« De quoi ? » (la matière) : {ar|مِنْ} + {ar|مَا} = {ar|مِمَّ}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-6#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Avec quoi as-tu tué le serpent ?",
+      "answers": ["بِمَ قَتَلْتَ الْحَيَّةَ؟"]
+    },
+    {
+      "id": "medine-t2.l09.grammar-6#11",
+      "type": "fill_gap",
+      "sentence": "{0} خَرَجْتَ مِنَ الْفَصْلِ؟",
+      "fr": "Pourquoi es-tu sorti de la classe ?",
+      "gaps": [ { "answers": ["لِمَ"] } ],
+      "options": ["لِمَ", "بِمَ", "مِمَّ", "عَمَّ"],
+      "explain": "« Pourquoi ? » : {ar|لِ} + {ar|مَا} = {ar|لِمَ}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-6#12",
+      "type": "order",
+      "fr": "Sur quoi as-tu cherché à l'école ?",
+      "answers": [["عَمَّ", "بَحَثْتَ", "فِي", "الْمَدْرَسَةِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l09.grammar-6#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "De quoi Allah a-t-il créé l'être humain ?",
+      "answers": ["مِمَّ خَلَقَ اللَّهُ الْإِنْسَانَ؟"]
+    }
+  ]
+}

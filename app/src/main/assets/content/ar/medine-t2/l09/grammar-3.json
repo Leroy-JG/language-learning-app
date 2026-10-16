@@ -1,0 +1,163 @@
+{
+  "id": "medine-t2.l09.grammar-3",
+  "type": "grammar",
+  "title": "Le duel et le pluriel des relatifs",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l09.grammar-3#1",
+      "type": "tip",
+      "title": "Tous les relatifs",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Genre", "Singulier", "Duel", "Pluriel"],
+          "rows": [
+            ["masculin", "{ar|الَّذِي}", "{ar|اللَّذَانِ}، {ar|اللَّذَيْنِ}", "{ar|الَّذِينَ}"],
+            ["féminin", "{ar|الَّتِي}", "{ar|اللَّتَانِ}، {ar|اللَّتَيْنِ}", "{ar|اللَّاتِي}، {ar|اللَّائِي}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le relatif suit le nom auquel il renvoie : genre et nombre. Seul le duel se décline (deux formes) ; les autres relatifs ne changent jamais."
+        }
+      ]
+    },
+    { "id": "medine-t2.l09.grammar-3#2", "type": "present", "item": "w:alladhani" },
+    { "id": "medine-t2.l09.grammar-3#3", "type": "present", "item": "w:allatani" },
+    {
+      "id": "medine-t2.l09.grammar-3#4",
+      "type": "sort",
+      "categories": [ { "fr": "une personne" }, { "fr": "deux personnes" }, { "fr": "plusieurs personnes" } ],
+      "cards": [
+        { "ar": "الَّذِي", "category": 0 },
+        { "ar": "الَّتِي", "category": 0 },
+        { "ar": "اللَّذَانِ", "category": 1 },
+        { "ar": "اللَّتَانِ", "category": 1 },
+        { "ar": "الَّذِينَ", "category": 2 },
+        { "ar": "اللَّاتِي", "category": 2 }
+      ],
+      "instruction": "Combien de personnes ?",
+      "explain": "Un seul : {ar|الَّذِي}, {ar|الَّتِي}. Deux : {ar|اللَّذَانِ}, {ar|اللَّتَانِ}. Plusieurs : {ar|الَّذِينَ} (hommes), {ar|اللَّاتِي} (femmes)."
+    },
+    {
+      "id": "medine-t2.l09.grammar-3#5",
+      "type": "tip",
+      "title": "Le duel se décline",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au duel, le nom et le relatif ont deux formes : le nominatif en {ar|انِ}, l'accusatif et le génitif en {ar|يْنِ}. Le verbe de la relative est au duel aussi : {ar|خَرَجَا} (deux hommes), {ar|خَرَجَتَا} (deux femmes)."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "الطَّالِبَانِ اللَّذَانِ خَرَجَا", "fr": "les deux étudiants qui sont sortis" },
+              "to": {
+                "ar": "الطَّالِبَيْنِ اللَّذَيْنِ خَرَجَا",
+                "fr": "les deux étudiants qui sont sortis (accusatif, génitif)"
+              },
+              "label": "masculin"
+            },
+            {
+              "from": { "ar": "الطَّالِبَتَانِ اللَّتَانِ خَرَجَتَا", "fr": "les deux étudiantes qui sont sorties" },
+              "to": {
+                "ar": "الطَّالِبَتَيْنِ اللَّتَيْنِ خَرَجَتَا",
+                "fr": "les deux étudiantes qui sont sorties (accusatif, génitif)"
+              },
+              "label": "féminin"
+            }
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t2.l09.grammar-3#6", "type": "present", "item": "w:alladhina" },
+    { "id": "medine-t2.l09.grammar-3#7", "type": "present", "item": "w:allati-pl" },
+    {
+      "id": "medine-t2.l09.grammar-3#8",
+      "type": "tip",
+      "title": "Le pluriel ne change jamais",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|الَّذِينَ} s'emploie pour plusieurs hommes (ou un groupe mixte), {ar|اللَّاتِي} pour plusieurs femmes. Le verbe de la relative prend la fin du pluriel : {ar|وا} pour des hommes, {ar|نَ} pour des femmes."
+        },
+        {
+          "type": "example",
+          "ar": "الطُّلَّابُ الَّذِينَ جَاءُوا أَمْسِ.",
+          "fr": "Les étudiants qui sont venus hier."
+        },
+        {
+          "type": "example",
+          "ar": "الطَّالِبَاتُ اللَّاتِي دَخَلْنَ الْفَصْلَ.",
+          "fr": "Les étudiantes qui sont entrées dans la classe."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Pour des choses ou des animaux au pluriel, on emploie en général {ar|الَّتِي}, comme pour un féminin singulier : {ar|الْكُتُبُ الَّتِي قَرَأْتُهَا} (« les livres que j'ai lus »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.grammar-3#9",
+      "type": "fill_gap",
+      "sentence": "الطَّالِبَانِ {0} خَرَجَا مِنَ الْفَصْلِ مَرِيضَانِ.",
+      "fr": "Les deux étudiants qui sont sortis de la classe sont malades.",
+      "gaps": [ { "answers": ["اللَّذَانِ"] } ],
+      "options": ["اللَّذَانِ", "اللَّتَانِ", "الَّذِينَ", "الَّذِي"],
+      "explain": "Deux hommes, au nominatif : {ar|اللَّذَانِ}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-3#10",
+      "type": "fill_gap",
+      "sentence": "سَلَّمْتُ عَلَى الطَّالِبَيْنِ {0} خَرَجَا مِنَ الْفَصْلِ.",
+      "fr": "J'ai salué les deux étudiants qui sont sortis de la classe.",
+      "gaps": [ { "answers": ["اللَّذَيْنِ"] } ],
+      "options": ["اللَّذَيْنِ", "اللَّذَانِ", "اللَّتَيْنِ", "الَّذِينَ"],
+      "explain": "Après {ar|عَلَى}, le nom est au génitif ({ar|الطَّالِبَيْنِ}) : le relatif aussi ({ar|اللَّذَيْنِ})."
+    },
+    {
+      "id": "medine-t2.l09.grammar-3#11",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ الطُّلَّابُ {0} جَاءُوا أَمْسِ؟",
+      "fr": "Où sont les étudiants qui sont venus hier ?",
+      "gaps": [ { "answers": ["الَّذِينَ"] } ],
+      "options": ["الَّذِينَ", "اللَّاتِي", "اللَّذَانِ", "الَّذِي"],
+      "explain": "Plusieurs hommes : {ar|الَّذِينَ}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-3#12",
+      "type": "fill_gap",
+      "sentence": "الطَّالِبَاتُ {0} دَخَلْنَ الْفَصْلَ مِنَ الْهِنْدِ.",
+      "fr": "Les étudiantes qui sont entrées dans la classe sont de l'Inde.",
+      "gaps": [ { "answers": ["اللَّاتِي"] } ],
+      "options": ["اللَّاتِي", "الَّذِينَ", "اللَّتَانِ"],
+      "explain": "Plusieurs femmes : {ar|اللَّاتِي}."
+    },
+    {
+      "id": "medine-t2.l09.grammar-3#13",
+      "type": "spot",
+      "instruction": "Touche les deux relatifs.",
+      "words": ["الطُّلَّابُ", "الَّذِينَ", "جَاءُوا", "وَالطَّالِبَاتُ", "اللَّاتِي", "خَرَجْنَ."],
+      "answers": [1, 4],
+      "fr": "Les étudiants qui sont venus et les étudiantes qui sont sorties.",
+      "explain": "{ar|الَّذِينَ} pour les hommes, {ar|اللَّاتِي} pour les femmes."
+    },
+    {
+      "id": "medine-t2.l09.grammar-3#14",
+      "type": "order",
+      "fr": "Où sont les étudiants qui sont venus hier ?",
+      "answers": [["أَيْنَ", "الطُّلَّابُ", "الَّذِينَ", "جَاءُوا", "أَمْسِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l09.grammar-3#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les étudiantes qui sont entrées dans la classe sont de l'Inde.",
+      "answers": ["الطَّالِبَاتُ اللَّاتِي دَخَلْنَ الْفَصْلَ مِنَ الْهِنْدِ."]
+    }
+  ]
+}

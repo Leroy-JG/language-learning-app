@@ -1,0 +1,102 @@
+{
+  "id": "medine-t2.l09.vocab-3",
+  "type": "vocabulary",
+  "title": "La Terre, la terre et la boue",
+  "icon": "mountain",
+  "screens": [
+    { "id": "medine-t2.l09.vocab-3#1", "type": "present", "item": "w:ard" },
+    { "id": "medine-t2.l09.vocab-3#2", "type": "present", "item": "w:turab" },
+    {
+      "id": "medine-t2.l09.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ard",
+      "distractors": ["w:sama", "w:bahr"]
+    },
+    { "id": "medine-t2.l09.vocab-3#4", "type": "present", "item": "w:tiyn" },
+    { "id": "medine-t2.l09.vocab-3#5", "type": "present", "item": "w:mukhtalit" },
+    {
+      "id": "medine-t2.l09.vocab-3#6",
+      "type": "tip",
+      "title": "Terre, sol, boue",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le français dit « terre » pour des choses différentes. L'arabe distingue :"
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Sens"],
+          "rows": [
+            ["{ar|أَرْضٌ}", "la Terre, le sol, un terrain"],
+            ["{ar|تُرَابٌ}", "la matière : la terre ou la poussière qu'on a sur ses vêtements"],
+            ["{ar|طِينٌ}", "la terre mélangée à l'eau : la boue, l'argile"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|الْأَرْضُ} est féminin même sans {ar|ة} : on dit {ar|الْأَرْضُ كَبِيرَةٌ}, comme {ar|الشَّمْسُ كَبِيرَةٌ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l09.vocab-3#7",
+      "type": "sort",
+      "categories": [ { "ar": "أَرْضٌ" }, { "ar": "تُرَابٌ" }, { "ar": "طِينٌ" } ],
+      "cards": [
+        { "fr": "la planète où nous vivons", "category": 0 },
+        { "fr": "la poussière sur une chemise", "category": 1 },
+        { "fr": "la terre mélangée à l'eau", "category": 2 },
+        { "fr": "la boue après la pluie", "category": 2 },
+        { "fr": "le sol sur lequel on marche", "category": 0 },
+        { "fr": "la terre qu'on a sur les mains", "category": 1 }
+      ],
+      "instruction": "À quoi correspond chaque description ?",
+      "explain": "{ar|أَرْضٌ} : la Terre ou le sol ; {ar|تُرَابٌ} : la terre ou la poussière (la matière) ; {ar|طِينٌ} : la terre mélangée à l'eau."
+    },
+    {
+      "id": "medine-t2.l09.vocab-3#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:ard", "w:turab", "w:tiyn", "w:mukhtalit"]
+    },
+    { "id": "medine-t2.l09.vocab-3#9", "type": "build", "item": "w:tiyn", "extra": ["ت"] },
+    {
+      "id": "medine-t2.l09.vocab-3#10",
+      "type": "fill_gap",
+      "sentence": "هٰذَا مَاءٌ {0} بِالطِّينِ.",
+      "fr": "C'est de l'eau mélangée à de la boue.",
+      "gaps": [ { "answers": ["مُخْتَلِطٌ"] } ],
+      "options": ["مُخْتَلِطٌ", "مَرِيضٌ", "جَدِيدٌ", "بَعِيدٌ"],
+      "explain": "{ar|مُخْتَلِطٌ بِ…} : « mélangé à… »."
+    },
+    {
+      "id": "medine-t2.l09.vocab-3#11",
+      "type": "order",
+      "fr": "La Terre est grande.",
+      "answers": [["الْأَرْضُ", "كَبِيرَةٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l09.vocab-3#12",
+      "type": "true_false",
+      "statement": { "fr": "{ar|أَرْضٌ} est un nom féminin." },
+      "answer": true,
+      "explain": "Oui : {ar|أَرْضٌ} est féminin, même sans {ar|ة}. On dit {ar|الْأَرْضُ كَبِيرَةٌ}."
+    },
+    {
+      "id": "medine-t2.l09.vocab-3#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a de la boue sur la porte.",
+      "answers": ["عَلَى الْبَابِ طِينٌ."]
+    },
+    {
+      "id": "medine-t2.l09.vocab-3#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il y a de la terre sur la chemise de Zayd.",
+      "answers": ["عَلَى قَمِيصِ زَيْدٍ تُرَابٌ."]
+    }
+  ]
+}

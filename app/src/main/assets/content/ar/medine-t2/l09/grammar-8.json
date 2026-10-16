@@ -1,0 +1,96 @@
+{
+  "id": "medine-t2.l09.grammar-8",
+  "type": "grammar",
+  "title": "Comme c'est facile ! {ar|مَا أَسْهَلَ}",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l09.grammar-8#1",
+      "type": "tip",
+      "title": "{ar|مَا أَسْهَلَ الدَّرْسَ!}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour s'exclamer (« comme… ! »), on dit {ar|مَا} + un mot de la forme {ar|أَفْعَلَ} + ce qui nous étonne, à l'accusatif."
+        },
+        {
+          "type": "table",
+          "header": ["Arabe", "Sens"],
+          "rows": [
+            ["{ar|مَا أَسْهَلَ الدَّرْسَ!}", "Comme le cours est facile !"],
+            ["{ar|مَا أَصْعَبَ الدَّرْسَ!}", "Comme le cours est difficile !"],
+            ["{ar|مَا أَجْمَلَ السَّمَاءَ!}", "Comme le ciel est beau !"],
+            ["{ar|مَا أَبْعَدَ النُّجُومَ!}", "Comme les étoiles sont loin !"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Attention à la ressemblance avec le comparatif ({ar|أَسْهَلُ} : « plus facile ») : dans l'exclamation, le mot garde sa fatha, et il est précédé de {ar|مَا}. Le nom qui suit prend lui aussi une fatha ({ar|الدَّرْسَ})."
+        }
+      ]
+    },
+    { "id": "medine-t2.l09.grammar-8#2", "type": "present", "item": "p:ma-ashal-aldars" },
+    { "id": "medine-t2.l09.grammar-8#3", "type": "present", "item": "p:ma-asab-aldars" },
+    {
+      "id": "medine-t2.l09.grammar-8#4",
+      "type": "sort",
+      "categories": [ { "fr": "plus… que… (comparatif)" }, { "fr": "comme… ! (exclamation)" } ],
+      "cards": [
+        { "ar": "الدَّرْسُ أَسْهَلُ مِنَ الْكِتَابِ", "category": 0 },
+        { "ar": "مَا أَسْهَلَ الدَّرْسَ", "category": 1 },
+        { "ar": "النُّجُومُ أَبْعَدُ مِنَ الشَّمْسِ", "category": 0 },
+        { "ar": "مَا أَبْعَدَ النُّجُومَ", "category": 1 },
+        { "ar": "الْمَدْرَسَةُ أَكْبَرُ مِنَ الْبَيْتِ", "category": 0 },
+        { "ar": "مَا أَكْبَرَ الْمَدْرَسَةَ", "category": 1 }
+      ],
+      "instruction": "Comparatif ou exclamation ?",
+      "explain": "L'exclamation commence par {ar|مَا} suivi d'un mot à la fatha ; le comparatif est suivi de {ar|مِنْ} (« que »)."
+    },
+    {
+      "id": "medine-t2.l09.grammar-8#5",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|مَا أَجْمَلَ السَّمَاءَ!}, quelle est la voyelle finale de {ar|السَّمَاءَ} ?" },
+      "choices": [ { "fr": "une fatha (accusatif)" }, { "fr": "une damma (nominatif)" }, { "fr": "une kasra (génitif)" } ],
+      "answer": 0,
+      "explain": "Ce qui provoque l'exclamation est à l'accusatif : fatha."
+    },
+    {
+      "id": "medine-t2.l09.grammar-8#6",
+      "type": "fill_gap",
+      "sentence": "مَا {0} الدَّرْسَ!",
+      "fr": "Comme le cours est facile !",
+      "gaps": [ { "answers": ["أَسْهَلَ"] } ],
+      "options": ["أَسْهَلَ", "أَصْعَبَ", "أَبْعَدَ"],
+      "explain": "« Facile » : {ar|أَسْهَلَ}. ({ar|أَصْعَبَ} voudrait dire « difficile »)."
+    },
+    {
+      "id": "medine-t2.l09.grammar-8#7",
+      "type": "order",
+      "fr": "Comme le cours est difficile !",
+      "answers": [["مَا", "أَصْعَبَ", "الدَّرْسَ"]],
+      "punctuation": "!"
+    },
+    {
+      "id": "medine-t2.l09.grammar-8#8",
+      "type": "order",
+      "fr": "Comme les étoiles sont loin !",
+      "answers": [["مَا", "أَبْعَدَ", "النُّجُومَ"]],
+      "punctuation": "!"
+    },
+    {
+      "id": "medine-t2.l09.grammar-8#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Comme le ciel est beau !",
+      "answers": ["مَا أَجْمَلَ السَّمَاءَ!"]
+    },
+    {
+      "id": "medine-t2.l09.grammar-8#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Comme le cours est facile !",
+      "answers": ["مَا أَسْهَلَ الدَّرْسَ!"]
+    }
+  ]
+}
