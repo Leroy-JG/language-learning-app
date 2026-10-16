@@ -72,12 +72,12 @@
       "id": "medine-t2.l11.practice-2#7",
       "type": "true_false",
       "statement": {
-        "ar": "نَزَلَ عَبْدُ اللَّهِ مِنَ الْحَافِلَةِ قَبْلَ نُزُولِ فَيْصَلٍ.",
-        "fr": "ʿAbd Allāh est descendu du bus avant que Fayṣal descende."
+        "ar": "سَيَنْزِلُ فَيْصَلٌ فِي الْمَحَطَّةِ الْقَادِمَةِ.",
+        "fr": "Fayṣal descendra à la prochaine station."
       },
-      "answer": false,
+      "answer": true,
       "context": { "dialogue": "medine-t2.l11.dialogue-2#1" },
-      "explain": "Faux : c'est Fayṣal qui descend à la prochaine station ; rien ne dit que ʿAbd Allāh descend avant lui."
+      "explain": "Vrai : {ar|أَنَا سَأَنْزِلُ فِي الْمَحَطَّةِ الْقَادِمَةِ}, dit Fayṣal ; ʿAbd Allāh lui répond {ar|فِي أَمَانِ اللَّهِ}, et le conducteur s'adresse à lui pour la sortie."
     },
     {
       "id": "medine-t2.l11.practice-2#8",
@@ -103,7 +103,7 @@
       "type": "question",
       "prompt": { "ar": "مِنْ أَيِّ إِذَاعَةٍ تَسْمَعُ الْأَخْبَارَ؟" },
       "choices": [
-        { "fr": "À quelle station de radio écoutes-tu les nouvelles ?" },
+        { "fr": "Sur quelle station de radio écoutes-tu les nouvelles ?" },
         { "fr": "Dans quelle école étudies-tu ?" },
         { "fr": "À quelle heure vas-tu à l'école ?" }
       ],
@@ -122,7 +122,7 @@
       "id": "medine-t2.l11.practice-2#12",
       "type": "typing",
       "ask": "fr",
-      "fr": "Où habites-tu ?",
+      "fr": "Où habites-tu ? (à un homme)",
       "answers": ["أَيْنَ تَسْكُنُ؟", "أَيْنَ تَسْكُنُ أَنْتَ؟", "أَيْنَ أَنْتَ تَسْكُنُ؟"]
     }
   ]

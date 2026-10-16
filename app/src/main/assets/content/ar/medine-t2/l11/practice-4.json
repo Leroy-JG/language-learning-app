@@ -97,9 +97,13 @@
       "id": "medine-t2.l11.practice-4#11",
       "type": "order",
       "fr": "Ma sœur écrit maintenant ses leçons dans le cahier.",
-      "answers": [["أُخْتِي", "تَكْتُبُ", "الْآنَ", "دُرُوسَهَا", "فِي", "الدَّفْتَرِ"]],
+      "answers": [
+        ["أُخْتِي", "تَكْتُبُ", "الْآنَ", "دُرُوسَهَا", "فِي", "الدَّفْتَرِ"],
+        ["أُخْتِي", "تَكْتُبُ", "دُرُوسَهَا", "فِي", "الدَّفْتَرِ", "الْآنَ"],
+        ["الْآنَ", "أُخْتِي", "تَكْتُبُ", "دُرُوسَهَا", "فِي", "الدَّفْتَرِ"]
+      ],
       "punctuation": ".",
-      "explain": "{ar|دُرُوسَهَا} : « ses leçons » ({ar|هَا} : « sa », pour une femme)."
+      "explain": "{ar|دُرُوسَهَا} : « ses leçons » ({ar|هَا} : « son », « sa » ou « ses », pour une femme)."
     },
     {
       "id": "medine-t2.l11.practice-4#12",

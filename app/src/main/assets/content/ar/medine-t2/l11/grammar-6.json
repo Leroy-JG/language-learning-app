@@ -110,8 +110,8 @@
       "sentence": "{0} يَذْهَبُ زَيْدٌ إِلَى مَكَّةَ بَعْدَ أُسْبُوعٍ.",
       "fr": "Zayd ira à La Mecque dans une semaine.",
       "gaps": [ { "answers": ["سَوْفَ"] } ],
-      "options": ["سَوْفَ", "لَا"],
-      "explain": "{ar|سَوْفَ} devant le présent annonce le futur ; {ar|لَا} le nierait."
+      "options": ["سَوْفَ", "إِلَى"],
+      "explain": "{ar|سَوْفَ} devant le présent annonce le futur. {ar|إِلَى} est une préposition : elle ne se place pas devant un verbe."
     },
     {
       "id": "medine-t2.l11.grammar-6#9",
@@ -128,7 +128,9 @@
         ["سَيَكْتُبُ", "زَيْدٌ", "غَدًا"],
         ["زَيْدٌ", "سَيَكْتُبُ", "غَدًا"],
         ["سَيَكْتُبُ", "غَدًا", "زَيْدٌ"],
-        ["غَدًا", "سَيَكْتُبُ", "زَيْدٌ"]
+        ["غَدًا", "سَيَكْتُبُ", "زَيْدٌ"],
+        ["زَيْدٌ", "غَدًا", "سَيَكْتُبُ"],
+        ["غَدًا", "زَيْدٌ", "سَيَكْتُبُ"]
       ],
       "punctuation": ".",
       "explain": "{ar|سَ} se colle au verbe ; le sujet peut le suivre ou le précéder."

@@ -75,9 +75,16 @@ Outils de la palette : `sort` (personne d'une forme, lettre du présent d'un pro
 
 ## Corrections faites après la relecture
 
-(à compléter)
+Trois relecteurs indépendants (arabe et fidélité au PDF, exercices, français et pédagogie) ; aucune erreur dans les formes du présent ni dans le texte du livre. Remarques vérifiées et corrigées :
+
+- **Accord du verbe avant son sujet** : `يَبْحَثْنَ أَخَوَاتِي` et `يَدْخُلْنَ الطَّالِبَاتُ` (verbe pluriel devant un sujet nominal pluriel) étaient acceptés à tort ; ils sont remplacés par `تَبْحَثُ أَخَوَاتِي` et `تَدْخُلُ الطَّالِبَاتُ` (verbe singulier, accordé en genre). La note de `practice-6` le précise.
+- **Exercices** : le distracteur « verbe singulier » de `practice-5` (qui rendait juste une réponse refusée) devient une forme réellement fausse (`يَدْخُلْنَ`…) ; `لَا` n'est plus un distracteur de `grammar-6` (négation enseignée après) ; la phrase fausse de `practice-2` (« ʿAbd Allāh est descendu avant Fayṣal », non démontrable) est remplacée par une phrase vraie du texte ; « Où habites-tu ? » et « Tu es sous la protection d'Allah » précisent « (à un homme) » ;
+  `يَسْكُنُونَ` n'est plus demandé avant `vocab-1` (`grammar-4` : `يَدْرُسُونَ`) ; `بِ` accepté à la place de `فِي` avec « Riyad » ; `grammar-1` n'emploie plus un verbe en `س` (`خَرَجَتْ`) pour la question des signes du passé ; la consigne du `spot` de `أَمَّا` est « le mot qui veut dire « quant à » ».
+- **Ordres de mots** : ajout des ordres justes pour un adverbe libre ou le sujet avant le verbe (`grammar-6`, `grammar-7`, `vocab-2`, `vocab-3`, `vocab-4`, `practice-4`, `practice-5`, `practice-7`).
+- **Explications** : « en général » pour `مَا` + passé / `لَا` + présent (`grammar-7`) ; la voyelle « de la lettre du milieu de la racine » (`grammar-2`) ; `فِي أَيِّ كُلِّيَّةٍ` (`dialogue-1`) ; le tableau de `grammar-3` (« eux deux », « elles ») ; « Qu'Allah te garde » partout ; `إِنْ شَاءَ اللَّهِ` « couramment » ; `هَا` : « son, sa, ses » ; consignes « mon adresse » / « je descendrai ».
+- **Ajout** : un rappel des pronoms collés (isolés / collés, nominatif / accusatif / génitif, d'après les diapositives 11 à 13 du PDF) en tête de `grammar-5`.
 
 ## Pas encore enseigné (donc sans exercice)
 
 L'impératif (aperçu seulement : le tableau de quatre formes, la diapositive du verbe), `نُونُ التَّوْكِيدِ`, `لَمْ` / `لَنْ` (cités), le rôle du `ن` final de `تَكْتُبُونَ` / `تَكْتُبَانِ` / `تَكْتُبِينَ`, l'accusatif et le jussif du présent,
-les pronoms collés compléments et génitifs (rappelés dans la diapositive des pronoms, déjà enseignés aux chapitres 8 et 10 du tome 1 et du tome 2), l'accord du verbe placé avant un sujet pluriel (noté en passant dans `practice-6`), le nom d'action (`الْمَصْدَرُ`, aperçu dans le tableau des quatre formes).
+les pronoms collés compléments et génitifs (simplement rappelés dans `grammar-5`, déjà enseignés au chapitre 10 du tome 1 et au chapitre 8 de ce tome), l'accord du verbe placé avant un sujet pluriel (noté en passant dans `practice-6`), le nom d'action (`الْمَصْدَرُ`, aperçu dans le tableau des quatre formes).

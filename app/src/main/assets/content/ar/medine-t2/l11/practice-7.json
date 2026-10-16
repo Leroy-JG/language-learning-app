@@ -63,7 +63,8 @@
       "answers": [
         ["سَأَكْتُبُ", "الرِّسَالَةَ", "إِلَى", "أُمِّي", "غَدًا"],
         ["غَدًا", "سَأَكْتُبُ", "الرِّسَالَةَ", "إِلَى", "أُمِّي"],
-        ["سَأَكْتُبُ", "غَدًا", "الرِّسَالَةَ", "إِلَى", "أُمِّي"]
+        ["سَأَكْتُبُ", "غَدًا", "الرِّسَالَةَ", "إِلَى", "أُمِّي"],
+        ["سَأَكْتُبُ", "الرِّسَالَةَ", "غَدًا", "إِلَى", "أُمِّي"]
       ],
       "punctuation": ".",
       "explain": "Réponse à {ar|مَتَى تَكْتُبُ الرِّسَالَةَ إِلَى أُمِّكَ يَا يُونُسُ؟} : « je » + futur : {ar|سَأَكْتُبُ}."
@@ -72,7 +73,11 @@
       "id": "medine-t2.l11.practice-7#5",
       "type": "order",
       "fr": "Je laverai la voiture demain.",
-      "answers": [["سَأَغْسِلُ", "السَّيَّارَةَ", "غَدًا"], ["غَدًا", "سَأَغْسِلُ", "السَّيَّارَةَ"]],
+      "answers": [
+        ["سَأَغْسِلُ", "السَّيَّارَةَ", "غَدًا"],
+        ["غَدًا", "سَأَغْسِلُ", "السَّيَّارَةَ"],
+        ["سَأَغْسِلُ", "غَدًا", "السَّيَّارَةَ"]
+      ],
       "punctuation": ".",
       "explain": "Réponse à {ar|مَتَى تَغْسِلُ السَّيَّارَةَ يَا وَلَدُ؟} : {ar|سَأَغْسِلُ}."
     },
@@ -97,7 +102,7 @@
         "أَنَا سَأَنْزِلُ فِي الْمَحَطَّةِ الْقَادِمَةِ."
       ],
       "fr": "Je descendrai à la prochaine station.",
-      "instruction": "Réponds : tu descendras à la prochaine station.",
+      "instruction": "Réponds : je descendrai à la prochaine station.",
       "explain": "C'est la phrase du texte : {ar|أَنَا سَأَنْزِلُ فِي الْمَحَطَّةِ الْقَادِمَةِ}."
     },
     {
@@ -108,7 +113,7 @@
         "fr": "J'irai à La Mecque dans une semaine, si Allah le veut."
       },
       "answer": true,
-      "explain": "Oui : {ar|سَ} + le présent, avec {ar|إِنْ شَاءَ اللَّهُ}, qu'on ajoute quand on parle de l'avenir."
+      "explain": "Oui : {ar|سَ} + le présent, avec {ar|إِنْ شَاءَ اللَّهُ}, qu'on ajoute couramment quand on parle de l'avenir."
     },
     {
       "id": "medine-t2.l11.practice-7#9",

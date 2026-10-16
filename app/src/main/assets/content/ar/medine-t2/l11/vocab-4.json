@@ -38,6 +38,11 @@
         },
         {
           "type": "note",
+          "tone": "info",
+          "text": "Tu as aussi rencontré {ar|أَمَانٌ} dans la formule d'adieu {ar|فِي أَمَانِ اللَّهِ} (« Qu'Allah te garde »)."
+        },
+        {
+          "type": "note",
           "tone": "warning",
           "text": "Ne confonds pas {ar|قَادِمٌ} (« prochain ») avec {ar|قَدِيمٌ} (« ancien ») : ils partagent les lettres {ar|ق}, {ar|د}, {ar|م}, mais {ar|قَادِمٌ} a un alif après le {ar|ق}, et {ar|قَدِيمٌ} un {ar|ي} après le {ar|د}."
         }
@@ -80,7 +85,7 @@
       "id": "medine-t2.l11.vocab-4#10",
       "type": "order",
       "fr": "La prochaine leçon est demain.",
-      "answers": [["الدَّرْسُ", "الْقَادِمُ", "غَدًا"]],
+      "answers": [["الدَّرْسُ", "الْقَادِمُ", "غَدًا"], ["غَدًا", "الدَّرْسُ", "الْقَادِمُ"]],
       "punctuation": ".",
       "explain": "{ar|الدَّرْسُ} est masculin : l'adjectif reste {ar|الْقَادِمُ}."
     },
@@ -88,7 +93,7 @@
       "id": "medine-t2.l11.vocab-4#11",
       "type": "typing",
       "ask": "fr",
-      "fr": "Tu es sous la protection d'Allah.",
+      "fr": "Tu es sous la protection d'Allah. (à un homme)",
       "answers": ["أَنْتَ فِي أَمَانِ اللَّهِ."]
     }
   ]

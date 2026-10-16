@@ -44,7 +44,7 @@
     {
       "id": "medine-t2.l11.vocab-5#5",
       "type": "spot",
-      "instruction": "Touche le mot qui annonce ce dont on va parler (« quant à »).",
+      "instruction": "Touche le mot qui veut dire « quant à ».",
       "words": ["أَمَّا", "الطَّالِبُ", "فَهُوَ", "فِي", "الْفَصْلِ."],
       "answers": [0],
       "fr": "Quant à l'étudiant, il est en classe.",

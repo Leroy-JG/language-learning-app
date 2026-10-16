@@ -70,7 +70,7 @@
       "id": "medine-t2.l11.vocab-2#10",
       "type": "order",
       "fr": "Zayd a lu la lettre de son ami.",
-      "answers": [["قَرَأَ", "زَيْدٌ", "رِسَالَةَ", "صَدِيقِهِ"]],
+      "answers": [["قَرَأَ", "زَيْدٌ", "رِسَالَةَ", "صَدِيقِهِ"], ["زَيْدٌ", "قَرَأَ", "رِسَالَةَ", "صَدِيقِهِ"]],
       "punctuation": ".",
       "explain": "{ar|رِسَالَةَ} est le complément de {ar|قَرَأَ} (accusatif) ; {ar|صَدِيقِهِ} est son complément d'annexion (génitif), avec le pronom {ar|هِ} (« son »)."
     },
@@ -81,7 +81,7 @@
       "question": "مَا عُنْوَانُكَ؟",
       "answers": ["عُنْوَانِي فِي الرِّيَاضِ.", "عُنْوَانِي بِالرِّيَاضِ."],
       "fr": "Mon adresse est à Riyad.",
-      "instruction": "Réponds : ton adresse est à Riyad.",
+      "instruction": "Réponds : mon adresse est à Riyad.",
       "explain": "« Mon adresse » : {ar|عُنْوَانِي}."
     },
     { "id": "medine-t2.l11.vocab-2#12", "type": "typing", "ask": "fr", "item": "w:bitaqa" }

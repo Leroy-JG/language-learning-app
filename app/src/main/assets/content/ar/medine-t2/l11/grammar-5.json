@@ -7,6 +7,43 @@
     {
       "id": "medine-t2.l11.grammar-5#1",
       "type": "tip",
+      "title": "Les pronoms collés : où en est-on ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur remet de l'ordre : un pronom est **isolé** ({ar|الضَّمِيرُ الْمُنْفَصِلُ}, comme {ar|أَنَا}) ou **collé** ({ar|الضَّمِيرُ الْمُتَّصِلُ}). Les pronoms collés se rangent selon leur fonction, que tu connais :"
+        },
+        {
+          "type": "table",
+          "header": ["Fonction", "Exemples du professeur", "Sens"],
+          "rows": [
+            [
+              "{ar|الرَّفْعُ} : sujet du verbe",
+              "{ar|كَتَبْتُ}, {ar|كَتَبُوا}, {ar|كَتَبْنَ}",
+              "j'ai écrit, ils ont écrit, elles ont écrit"
+            ],
+            [
+              "{ar|النَّصْبُ} : complément du verbe",
+              "{ar|ضَرَبَنِي}, {ar|ضَرَبَكَ}, {ar|ضَرَبَهُ}",
+              "il m'a frappé, il t'a frappé, il l'a frappé"
+            ],
+            [
+              "{ar|الْجَرُّ} : après une préposition ou dans une annexion",
+              "{ar|كِتَابُكَ}, {ar|لَكَ}, {ar|عَلَيْكَ}",
+              "ton livre, à toi, sur toi"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les pronoms collés sujets ({ar|الرَّفْعُ}) existent pour les trois temps du verbe : tu les as vus au passé (chapitre 2 de ce tome) ; aujourd'hui, ceux du présent. Ceux de l'impératif viendront plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.grammar-5#2",
+      "type": "tip",
       "title": "Le sujet du présent : apparent ou caché",
       "blocks": [
         {
@@ -45,9 +82,9 @@
         }
       ]
     },
-    { "id": "medine-t2.l11.grammar-5#2", "type": "present", "item": "w:bariz" },
+    { "id": "medine-t2.l11.grammar-5#3", "type": "present", "item": "w:bariz" },
     {
-      "id": "medine-t2.l11.grammar-5#3",
+      "id": "medine-t2.l11.grammar-5#4",
       "type": "mcq",
       "mode": "ar-fr",
       "item": "w:bariz",
@@ -55,7 +92,7 @@
       "explain": "{ar|بَارِزٌ} : apparent (qu'on voit). {ar|مُسْتَتِرٌ} : caché. {ar|الْمَاضِي} : le passé."
     },
     {
-      "id": "medine-t2.l11.grammar-5#4",
+      "id": "medine-t2.l11.grammar-5#5",
       "type": "tip",
       "title": "Au passé et au présent : « ils »",
       "blocks": [
@@ -75,7 +112,7 @@
       ]
     },
     {
-      "id": "medine-t2.l11.grammar-5#5",
+      "id": "medine-t2.l11.grammar-5#6",
       "type": "sort",
       "categories": [ { "fr": "pronom apparent" }, { "fr": "pronom caché" } ],
       "cards": [
@@ -90,7 +127,7 @@
       "explain": "{ar|يَكْتُبُونَ} ({ar|و}), {ar|تَكْتُبِينَ} ({ar|ي}) et {ar|يَكْتُبْنَ} ({ar|نَ}) ont un pronom qu'on voit. Dans {ar|أَكْتُبُ}, {ar|نَكْتُبُ} et {ar|يَكْتُبُ}, le pronom est caché."
     },
     {
-      "id": "medine-t2.l11.grammar-5#6",
+      "id": "medine-t2.l11.grammar-5#7",
       "type": "question",
       "prompt": { "fr": "Dans {ar|يَكْتُبُونَ}, quelle lettre est le pronom sujet « ils » ?" },
       "choices": [ { "ar": "و" }, { "ar": "ي" }, { "ar": "ب" } ],
@@ -98,7 +135,7 @@
       "explain": "Le {ar|يَ} du début est la lettre du présent, pas le pronom. Le pronom sujet « ils » est le {ar|و}."
     },
     {
-      "id": "medine-t2.l11.grammar-5#7",
+      "id": "medine-t2.l11.grammar-5#8",
       "type": "spot",
       "instruction": "Touche le verbe dont le sujet est un pronom apparent.",
       "words": ["الطُّلَّابُ", "يَدْرُسُونَ", "وَأَنَا", "أَدْرُسُ"],
@@ -107,7 +144,7 @@
       "explain": "Dans {ar|يَدْرُسُونَ}, le pronom est le {ar|و}, qu'on voit. Dans {ar|أَدْرُسُ}, « je » est caché."
     },
     {
-      "id": "medine-t2.l11.grammar-5#8",
+      "id": "medine-t2.l11.grammar-5#9",
       "type": "fill_gap",
       "sentence": "هُمْ {0} فِي الْمَسْجِدِ.",
       "fr": "Ils s'assoient dans la mosquée.",
@@ -116,21 +153,21 @@
       "explain": "« Ils » (plusieurs hommes) : le pronom {ar|و}, avec {ar|ونَ} à la fin."
     },
     {
-      "id": "medine-t2.l11.grammar-5#9",
+      "id": "medine-t2.l11.grammar-5#10",
       "type": "true_false",
       "statement": { "fr": "Dans {ar|أَكْتُبُ}, la lettre {ar|أَ} du début est le pronom « je »." },
       "answer": false,
       "explain": "Non : {ar|أَ} est la lettre du présent. Le pronom « je » est caché."
     },
     {
-      "id": "medine-t2.l11.grammar-5#10",
+      "id": "medine-t2.l11.grammar-5#11",
       "type": "typing",
       "ask": "fr",
       "fr": "Elles étudient.",
       "answers": ["يَدْرُسْنَ.", "هُنَّ يَدْرُسْنَ."]
     },
     {
-      "id": "medine-t2.l11.grammar-5#11",
+      "id": "medine-t2.l11.grammar-5#12",
       "type": "order",
       "fr": "Les étudiantes étudient à l'université.",
       "answers": [["الطَّالِبَاتُ", "يَدْرُسْنَ", "فِي", "الْجَامِعَةِ"]],

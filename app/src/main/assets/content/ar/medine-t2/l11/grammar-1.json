@@ -90,7 +90,7 @@
     {
       "id": "medine-t2.l11.grammar-1#5",
       "type": "question",
-      "prompt": { "fr": "Quel signe prouve que {ar|سَمِعَتْ} est au passé ?" },
+      "prompt": { "fr": "Quel signe prouve que {ar|خَرَجَتْ} est au passé ?" },
       "choices": [
         { "fr": "le {ar|تْ} du féminin à la fin" },
         { "fr": "la lettre {ar|يَ} au début" },

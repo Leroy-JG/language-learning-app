@@ -26,7 +26,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Quand le verbe est avant son sujet pluriel, il reste en général au singulier ({ar|يَخْرُجُ الطُّلَّابُ}) ; quand le sujet est avant, le verbe s'accorde ({ar|الطُّلَّابُ يَخْرُجُونَ}). Les deux phrases sont justes."
+          "text": "Quand le verbe est avant son sujet pluriel, il reste en général au singulier, mais il s'accorde en genre avec lui : {ar|يَخْرُجُ الطُّلَّابُ} (sujet masculin), {ar|تَدْخُلُ الطَّالِبَاتُ الْفَصْلَ} (sujet féminin). Quand le sujet est avant, le verbe s'accorde aussi en nombre : {ar|الطُّلَّابُ يَخْرُجُونَ}, {ar|الطَّالِبَاتُ يَدْخُلْنَ}. Les deux ordres sont justes."
         }
       ]
     },
@@ -64,7 +64,7 @@
       "type": "typing",
       "ask": "question",
       "question": "الطَّالِبَاتُ دَخَلْنَ الْفَصْلَ.",
-      "answers": ["الطَّالِبَاتُ يَدْخُلْنَ الْفَصْلَ.", "يَدْخُلْنَ الطَّالِبَاتُ الْفَصْلَ."],
+      "answers": ["الطَّالِبَاتُ يَدْخُلْنَ الْفَصْلَ.", "تَدْخُلُ الطَّالِبَاتُ الْفَصْلَ."],
       "fr": "Les étudiantes entrent dans la classe.",
       "instruction": "Mets le verbe au présent.",
       "explain": "{ar|دَخَلْنَ} → {ar|يَدْخُلْنَ} : le pronom {ar|نَ} reste, la lettre {ar|يَ} s'ajoute devant."

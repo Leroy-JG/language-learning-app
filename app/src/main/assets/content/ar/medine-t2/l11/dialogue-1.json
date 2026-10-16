@@ -66,7 +66,7 @@
             ["{ar|أَطَالِبٌ أَنْتَ}", "es-tu étudiant ? (la question commence par {ar|أَ})"],
             [
               "{ar|فِي أَيِّ كُلِّيَّةٍ}",
-              "dans quelle faculté ? ({ar|أَيٌّ} + un nom indéfini, ici au génitif après {ar|فِي})"
+              "dans quelle faculté ? ({ar|أَيٌّ} est suivi d'un nom indéfini au génitif ; {ar|أَيٌّ} lui-même prend le cas que demande {ar|فِي})"
             ],
             ["{ar|أَحْسَنُ مُدَرِّسٍ}", "le meilleur enseignant (le superlatif, chapitre 3 de ce tome)"]
           ]

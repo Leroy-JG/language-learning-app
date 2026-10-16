@@ -29,7 +29,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Le nom change aussi : {ar|طَالِبٌ} → {ar|طُلَّابٌ} ; {ar|أُخْتٌ} → {ar|أَخَوَاتٌ}. Ce sont des pluriels irréguliers (tome 1)."
+          "text": "Le nom change aussi : {ar|طَالِبٌ} → {ar|طُلَّابٌ} ; {ar|أُخْتٌ} → {ar|أَخَوَاتٌ}. Dans les deux cas, le mot change au pluriel (tome 1)."
         }
       ]
     },
@@ -39,7 +39,7 @@
       "sentence": "{0} {1} الْفَصْلَ.",
       "fr": "Les étudiants entrent dans la classe.",
       "gaps": [ { "answers": ["الطُّلَّابُ"] }, { "answers": ["يَدْخُلُونَ"] } ],
-      "options": ["الطُّلَّابُ", "الطَّالِبُ", "يَدْخُلُونَ", "يَدْخُلُ"],
+      "options": ["الطُّلَّابُ", "الطَّالِبُ", "يَدْخُلُونَ", "يَدْخُلْنَ"],
       "explain": "Le sujet est au pluriel : {ar|الطُّلَّابُ}, et le verbe aussi : {ar|يَدْخُلُونَ}."
     },
     {
@@ -48,7 +48,7 @@
       "sentence": "{0} {1} فِي الْمَصْنَعِ ثَمَانِيَ سَاعَاتٍ.",
       "fr": "Les ouvriers travaillent huit heures à l'usine.",
       "gaps": [ { "answers": ["الْعُمَّالُ"] }, { "answers": ["يَعْمَلُونَ"] } ],
-      "options": ["الْعُمَّالُ", "الْعَامِلُ", "يَعْمَلُونَ", "يَعْمَلُ"],
+      "options": ["الْعُمَّالُ", "الْعَامِلُ", "يَعْمَلُونَ", "يَعْمَلْنَ"],
       "explain": "{ar|عَامِلٌ} → {ar|عُمَّالٌ}. Le verbe suit : {ar|يَعْمَلُونَ}."
     },
     {
@@ -65,14 +65,17 @@
       "sentence": "{0} {1} الدُّكَّانَ فِي السَّاعَةِ الثَّامِنَةِ.",
       "fr": "Les commerçants ouvrent la boutique à huit heures.",
       "gaps": [ { "answers": ["التُّجَّارُ"] }, { "answers": ["يَفْتَحُونَ"] } ],
-      "options": ["التُّجَّارُ", "التَّاجِرُ", "يَفْتَحُونَ", "يَفْتَحُ"],
+      "options": ["التُّجَّارُ", "التَّاجِرُ", "يَفْتَحُونَ", "يَفْتَحْنَ"],
       "explain": "{ar|تَاجِرٌ} → {ar|تُجَّارٌ} ; le verbe : {ar|يَفْتَحُونَ}."
     },
     {
       "id": "medine-t2.l11.practice-5#6",
       "type": "order",
       "fr": "Les médecins vont maintenant à l'hôpital.",
-      "answers": [["الْأَطِبَّاءُ", "يَذْهَبُونَ", "الْآنَ", "إِلَى", "الْمُسْتَشْفَى"]],
+      "answers": [
+        ["الْأَطِبَّاءُ", "يَذْهَبُونَ", "الْآنَ", "إِلَى", "الْمُسْتَشْفَى"],
+        ["الْأَطِبَّاءُ", "يَذْهَبُونَ", "إِلَى", "الْمُسْتَشْفَى", "الْآنَ"]
+      ],
       "punctuation": ".",
       "explain": "{ar|طَبِيبٌ} → {ar|أَطِبَّاءُ}. Le verbe est au pluriel masculin : {ar|يَذْهَبُونَ}."
     },
@@ -88,7 +91,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Mes sœurs cherchent le balai.",
-      "answers": ["أَخَوَاتِي يَبْحَثْنَ عَنِ الْمِكْنَسَةِ.", "يَبْحَثْنَ أَخَوَاتِي عَنِ الْمِكْنَسَةِ."],
+      "answers": ["أَخَوَاتِي يَبْحَثْنَ عَنِ الْمِكْنَسَةِ.", "تَبْحَثُ أَخَوَاتِي عَنِ الْمِكْنَسَةِ."],
       "explain": "Le sujet {ar|أَخَوَاتِي} est au pluriel féminin : le verbe {ar|يَبْحَثْنَ}."
     }
   ]
