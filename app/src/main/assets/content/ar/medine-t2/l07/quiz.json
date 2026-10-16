@@ -89,7 +89,7 @@
     {
       "id": "medine-t2.l07.quiz#11",
       "type": "order",
-      "fr": "Est-ce le café que tu as bu, ou le thé ? (à un homme)",
+      "fr": "Est-ce du café que tu as bu, ou du thé ? (à un homme)",
       "answers": [["أَقَهْوَةً", "شَرِبْتَ", "أَمْ", "شَايًا"]],
       "punctuation": "؟",
       "explain": "Le complément d'objet passe avant le verbe, et reste à l'accusatif : {ar|قَهْوَةً}, {ar|شَايًا}."

@@ -53,7 +53,7 @@ compléments d'objet), `build` (`مِكْنَسَةٌ` avec `ة` / `ه`, `صَب
 - **Vocabulaire** :
   - **`غِلَافٌ`** : le PDF donne le pluriel `غُلْفٌ` (sukūn) ; les dictionnaires (Lisān al-ʿArab : `غِلَافُ السَّيْفِ… وَالْجَمْعُ غُلُفٌ`) donnent `غُلُفٌ` ; l'app écrit `غُلُفٌ` avec une note.
   - **`وَجَدَ`** : le PDF donne le nom d'action `وَجْدًا` ; ce mot désigne plutôt « l'amour intense, le chagrin » ; le nom d'action de « trouver » est `وُجُودٌ` / `وِجْدَانٌ` (écrit `وُجُودٌ` dans l'aperçu).
-  - **`لَعِبَ`** : nom d'action écrit `لَعِبٌ` (le PDF le donne à l'accusatif, comme tous les autres noms d'action, écrits ici au nominatif).
+  - **`لَعِبَ`** : nom d'action écrit `لَعِبٌ` (au nominatif, comme les autres noms d'action) ; le PDF écrit `لَعَبًا` (fatha sur le `ع`), forme que les dictionnaires consultés ne confirment pas (`لَعِبٌ` et `لَعْبٌ` y figurent).
   - **`صَحِيفَةٌ`** : le PDF dit « page, feuille » ; le texte du livre l'emploie pour « journal » (`الصُّحُفُ`), précisé dans la note.
   - **`إِذَاعَةٌ`** : le PDF dit « émission, diffusion » ; dans le texte, c'est une station de radio.
   - **`سُلَّمٌ`** : le PDF dit « escalier » ; le mot désigne aussi une échelle (note) ; il est « en général masculin (parfois féminin) ».

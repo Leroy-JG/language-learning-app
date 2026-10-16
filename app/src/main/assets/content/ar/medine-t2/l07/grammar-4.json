@@ -37,7 +37,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "On hésite entre deux personnes (ou deux choses), pas sur le verbe : c'est pourquoi les deux compléments passent avant."
+          "text": "On hésite entre deux personnes (ou deux choses), pas sur le verbe : le premier complément passe avant le verbe, le second suit {ar|أَمْ} et le verbe n'est pas répété."
         }
       ]
     },
@@ -68,7 +68,7 @@
       "words": ["أَيَاسِرًا", "ضَرَبَ", "زَيْدٌ", "أَمْ", "خَالِدًا؟"],
       "answers": [0, 4],
       "fr": "Est-ce Yāsir que Zayd a frappé, ou Khālid ?",
-      "explain": "{ar|يَاسِرًا} et {ar|خَالِدًا} : tous deux à l'accusatif, avant le verbe."
+      "explain": "{ar|يَاسِرًا} et {ar|خَالِدًا} : tous deux à l'accusatif. Le premier est placé avant le verbe ; le second suit {ar|أَمْ}, et le verbe n'est pas répété."
     },
     {
       "id": "medine-t2.l07.grammar-4#4",

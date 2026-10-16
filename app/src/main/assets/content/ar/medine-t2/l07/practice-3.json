@@ -102,7 +102,7 @@
       "id": "medine-t2.l07.practice-3#9",
       "type": "fill_gap",
       "sentence": "{0} وُجُوهَكُنَّ بِالصَّابُونِ؟",
-      "fr": "Avez-vous lavé vos visages avec le savon, mesdames ?",
+      "fr": "Avez-vous lavé vos visages avec le savon ? (à plusieurs femmes)",
       "gaps": [ { "answers": ["أَغَسَلْتُنَّ"] } ],
       "options": ["أَغَسَلْتُنَّ", "أَغَسَلْتُمْ"],
       "explain": "{ar|وُجُوهَكُنَّ} (« vos visages », féminin) : {ar|أَغَسَلْتُنَّ}."
