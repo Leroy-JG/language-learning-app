@@ -1,0 +1,89 @@
+{
+  "id": "medine-t2.l07.vocab-4",
+  "type": "vocabulary",
+  "title": "Hier, ce matin, entre",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t2.l07.vocab-4#1", "type": "present", "item": "w:sabah" },
+    { "id": "medine-t2.l07.vocab-4#2", "type": "present", "item": "w:albarihah" },
+    {
+      "id": "medine-t2.l07.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:albarihah",
+      "distractors": ["w:sabah", "w:alyawm"]
+    },
+    { "id": "medine-t2.l07.vocab-4#4", "type": "present", "item": "w:bayna" },
+    { "id": "medine-t2.l07.vocab-4#5", "type": "present", "item": "w:sira" },
+    { "id": "medine-t2.l07.vocab-4#6", "type": "present", "item": "p:usbu-madi" },
+    { "id": "medine-t2.l07.vocab-4#7", "type": "present", "item": "w:sahih" },
+    {
+      "id": "medine-t2.l07.vocab-4#8",
+      "type": "tip",
+      "title": "Les expressions de temps : l'accusatif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Plusieurs mots de temps de ce chapitre sont à l'accusatif : ils répondent à la question « quand ? »."
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Sens"],
+          "rows": [["{ar|الْيَوْمَ}", "aujourd'hui"], ["{ar|الْبَارِحَةَ}", "hier"], ["{ar|هٰذَا الصَّبَاحَ}", "ce matin"]]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Avec une préposition, on revient au génitif : {ar|فِي الصَّبَاحِ} (« le matin ») et {ar|فِي الْأُسْبُوعِ الْمَاضِي} (« la semaine dernière »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.vocab-4#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:sabah", "w:albarihah", "w:bayna", "w:sira", "w:sahih"]
+    },
+    {
+      "id": "medine-t2.l07.vocab-4#10",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:sahih",
+      "distractors": ["w:jadid", "w:qalil"]
+    },
+    { "id": "medine-t2.l07.vocab-4#11", "type": "build", "item": "w:sabah", "extra": ["س"] },
+    {
+      "id": "medine-t2.l07.vocab-4#12",
+      "type": "fill_gap",
+      "sentence": "رَجَعْتُ مِنْ مَكَّةَ {0}.",
+      "fr": "Je suis rentré de La Mecque hier.",
+      "gaps": [ { "answers": ["الْبَارِحَةَ"] } ],
+      "options": ["الْبَارِحَةَ", "الْمَسْجِدِ", "السِّيرَةِ"],
+      "explain": "« Hier » : {ar|الْبَارِحَةَ}."
+    },
+    {
+      "id": "medine-t2.l07.vocab-4#13",
+      "type": "order",
+      "fr": "La mosquée est entre la maison et l'école.",
+      "answers": [["الْمَسْجِدُ", "بَيْنَ", "الْبَيْتِ", "وَالْمَدْرَسَةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l07.vocab-4#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd est venu ce matin.",
+      "answers": ["جَاءَ زَيْدٌ هٰذَا الصَّبَاحَ.", "جَاءَ زَيْدٌ الْيَوْمَ فِي الصَّبَاحِ."]
+    },
+    {
+      "id": "medine-t2.l07.vocab-4#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai lu le livre de biographie la semaine dernière.",
+      "answers": [
+        "قَرَأْتُ كِتَابَ السِّيرَةِ فِي الْأُسْبُوعِ الْمَاضِي.",
+        "أَنَا قَرَأْتُ كِتَابَ السِّيرَةِ فِي الْأُسْبُوعِ الْمَاضِي."
+      ]
+    }
+  ]
+}

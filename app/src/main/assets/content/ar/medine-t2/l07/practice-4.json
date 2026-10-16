@@ -1,0 +1,96 @@
+{
+  "id": "medine-t2.l07.practice-4",
+  "type": "grammar",
+  "title": "Mettre {ar|كَانَ} devant : exercice 6",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l07.practice-4#1",
+      "type": "tip",
+      "title": "L'exercice 6 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne trois modèles, puis cinq phrases où il faut ajouter {ar|كَانَ} (ou {ar|كَانَتْ}) devant la phrase nominale, en gardant l'expression « il y a… »."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase nominale", "Avec {ar|كَانَ}"],
+          "rows": [
+            ["{ar|الْمُدَرِّسُ فِي الْفَصْلِ}", "{ar|كَانَ الْمُدَرِّسُ فِي الْفَصْلِ قَبْلَ خَمْسِ دَقَائِقَ.}"],
+            [
+              "{ar|الطُّلَّابُ فِي الْمَكْتَبَةِ}",
+              "{ar|كَانَ الطُّلَّابُ فِي الْمَكْتَبَةِ قَبْلَ نِصْفِ سَاعَةٍ.}"
+            ],
+            ["{ar|أُمِّي فِي الْمَطْبَخِ}", "{ar|كَانَتْ أُمِّي فِي الْمَطْبَخِ قَبْلَ قَلِيلٍ.}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Rappel : un groupe préposition + nom ne change pas ; le verbe reste au singulier devant le sujet et s'accorde en genre."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.practice-4#2",
+      "type": "order",
+      "fr": "Le directeur était dans sa chambre il y a une heure.",
+      "answers": [["كَانَ", "الْمُدِيرُ", "فِي", "غُرْفَتِهِ", "قَبْلَ", "سَاعَةٍ"]],
+      "punctuation": ".",
+      "distractors": ["كَانَتْ"],
+      "explain": "{ar|الْمُدِيرُ} est masculin : {ar|كَانَ}."
+    },
+    {
+      "id": "medine-t2.l07.practice-4#3",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le ministre était à Londres il y a une semaine.",
+      "answers": ["كَانَ الْوَزِيرُ فِي لَنْدَنَ قَبْلَ أُسْبُوعٍ."]
+    },
+    {
+      "id": "medine-t2.l07.practice-4#4",
+      "type": "order",
+      "fr": "Mon frère était à La Mecque il y a quatre jours.",
+      "answers": [["كَانَ", "أَخِي", "فِي", "مَكَّةَ", "قَبْلَ", "أَرْبَعَةِ", "أَيَّامٍ"]],
+      "punctuation": ".",
+      "distractors": ["كَانَتْ"],
+      "explain": "{ar|أَخِي} est masculin : {ar|كَانَ}. Après {ar|قَبْلَ}, le nom qui suit est au génitif : {ar|أَرْبَعَةِ أَيَّامٍ}."
+    },
+    {
+      "id": "medine-t2.l07.practice-4#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les médecins étaient à l'hôpital il y a un tiers d'heure.",
+      "answers": ["كَانَ الْأَطِبَّاءُ فِي الْمُسْتَشْفَى قَبْلَ ثُلُثِ سَاعَةٍ."],
+      "explain": "Le verbe est au singulier devant un pluriel : {ar|كَانَ الْأَطِبَّاءُ}."
+    },
+    {
+      "id": "medine-t2.l07.practice-4#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les étudiantes étaient à la bibliothèque il y a un instant.",
+      "answers": [
+        "كَانَتِ الطَّالِبَاتُ فِي الْمَكْتَبَةِ قَبْلَ قَلِيلٍ.",
+        "كَانَ الطَّالِبَاتُ فِي الْمَكْتَبَةِ قَبْلَ قَلِيلٍ."
+      ],
+      "explain": "Devant un pluriel féminin, on met d'ordinaire {ar|كَانَتِ} (avec la kasra devant {ar|الْ}) ; le masculin singulier {ar|كَانَ} est aussi possible."
+    },
+    {
+      "id": "medine-t2.l07.practice-4#7",
+      "type": "spot",
+      "instruction": "Touche le nom de {ar|كَانَ} (le sujet).",
+      "words": ["كَانَ", "الْمُدِيرُ", "فِي", "غُرْفَتِهِ"],
+      "answers": [1],
+      "fr": "Le directeur était dans sa chambre.",
+      "explain": "Le sujet reste au nominatif : {ar|الْمُدِيرُ}."
+    },
+    {
+      "id": "medine-t2.l07.practice-4#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ma mère était à la cuisine il y a un instant.",
+      "answers": ["كَانَتْ أُمِّي فِي الْمَطْبَخِ قَبْلَ قَلِيلٍ."]
+    }
+  ]
+}

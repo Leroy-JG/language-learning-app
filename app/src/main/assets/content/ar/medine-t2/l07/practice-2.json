@@ -1,0 +1,119 @@
+{
+  "id": "medine-t2.l07.practice-2",
+  "type": "grammar",
+  "title": "Juste ou faux ? Questions personnelles",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l07.practice-2#1",
+      "type": "tip",
+      "title": "Les exercices 2 et 3 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 2 donne six phrases : le livre demande de cocher (✓) les phrases justes et de marquer d'une croix (✗) les fausses. L'exercice 3 pose quatre questions qui ne sont pas tirées du texte ; ici, la réponse est imposée dans la consigne, pour que la correction puisse la juger."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.practice-2#2",
+      "type": "true_false",
+      "statement": {
+        "ar": "لَعِبَ الْأَبْنَاءُ كُرَةَ الْقَدَمِ فِي الْأُسْبُوعِ الْمَاضِي.",
+        "fr": "Les fils ont joué au football la semaine dernière."
+      },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l07.dialogue-1#1" },
+      "explain": "Ils ont joué au football aujourd'hui ; c'est au basketball qu'ils ont joué la semaine dernière."
+    },
+    {
+      "id": "medine-t2.l07.practice-2#3",
+      "type": "true_false",
+      "statement": {
+        "ar": "دَخَلَ بِلَالٌ الْمُسْتَشْفَى قَبْلَ ثَلَاثَةِ أَيَّامٍ.",
+        "fr": "Bilāl est entré à l'hôpital il y a trois jours."
+      },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l07.dialogue-1#1" },
+      "explain": "{ar|دَخَلَ قَبْلَ ثَلَاثَةِ أَيَّامٍ}."
+    },
+    {
+      "id": "medine-t2.l07.practice-2#4",
+      "type": "true_false",
+      "statement": {
+        "ar": "سَمِعَ الْأَبْنَاءُ الْأَخْبَارَ مِنْ إِذَاعَةِ الْقَاهِرَةِ وَإِذَاعَةِ الرِّيَاضِ وَإِذَاعَةِ لَنْدَنَ.",
+        "fr": "Les fils ont entendu les nouvelles sur la radio du Caire, celle de Riyad et celle de Londres."
+      },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l07.dialogue-1#1" },
+      "explain": "Les trois radios sont bien celles du texte."
+    },
+    {
+      "id": "medine-t2.l07.practice-2#5",
+      "type": "true_false",
+      "statement": { "ar": "الْكِتَابُ غِلَافُهُ أَصْفَرُ.", "fr": "La couverture du livre est jaune." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l07.dialogue-1#1" },
+      "explain": "Le livre a une couverture rouge ({ar|ذُو الْغِلَافِ الْأَحْمَرِ}). C'est la revue qui a une couverture jaune."
+    },
+    {
+      "id": "medine-t2.l07.practice-2#6",
+      "type": "true_false",
+      "statement": {
+        "ar": "بَيْتُ الْمُدِيرَةِ بَيْنَ الْمَسْجِدِ وَالْمَدْرَسَةِ.",
+        "fr": "La maison de la directrice est entre la mosquée et l'école."
+      },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l07.dialogue-1#1" },
+      "explain": "{ar|هُوَ بَيْنَ الْمَسْجِدِ وَالْمَدْرَسَةِ}."
+    },
+    {
+      "id": "medine-t2.l07.practice-2#7",
+      "type": "true_false",
+      "statement": { "ar": "الْأُمُّ وَجَدَتِ الْمِكْنَسَةَ.", "fr": "La mère a trouvé le balai." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l07.dialogue-1#1" },
+      "explain": "Elle dit : {ar|بَحَثْتُ عَنْهَا كَثِيرًا وَمَا وَجَدْتُهَا} (« je l'ai beaucoup cherché et je ne l'ai pas trouvé »). C'est Suʿād qui l'avait posé sous l'escalier."
+    },
+    {
+      "id": "medine-t2.l07.practice-2#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَتَى خَرَجْتُمْ مِنَ الْفَصْلِ؟",
+      "answers": ["خَرَجْنَا مِنَ الْفَصْلِ قَبْلَ سَاعَةٍ.", "خَرَجْنَا قَبْلَ سَاعَةٍ.", "قَبْلَ سَاعَةٍ."],
+      "fr": "Nous sommes sortis de la classe il y a une heure.",
+      "instruction": "Réponds : « Nous sommes sortis de la classe il y a une heure. »"
+    },
+    {
+      "id": "medine-t2.l07.practice-2#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ ذَهَبْتُمْ بَعْدَ الدَّرْسِ؟",
+      "answers": ["ذَهَبْنَا إِلَى الْمَسْجِدِ.", "إِلَى الْمَسْجِدِ."],
+      "fr": "Nous sommes allés à la mosquée.",
+      "instruction": "Réponds : « Nous sommes allés à la mosquée. »"
+    },
+    {
+      "id": "medine-t2.l07.practice-2#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِنْ أَيِّ إِذَاعَةٍ سَمِعْتُمُ الْأَخْبَارَ؟",
+      "answers": [
+        "سَمِعْنَاهَا مِنْ إِذَاعَةِ الْقَاهِرَةِ.",
+        "سَمِعْنَا الْأَخْبَارَ مِنْ إِذَاعَةِ الْقَاهِرَةِ.",
+        "مِنْ إِذَاعَةِ الْقَاهِرَةِ."
+      ],
+      "fr": "Nous les avons entendues sur la radio du Caire.",
+      "instruction": "Réponds : « Nous les avons entendues sur la radio du Caire. »"
+    },
+    {
+      "id": "medine-t2.l07.practice-2#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَكُرَةَ الْقَدَمِ لَعِبْتُمْ أَمْ كُرَةَ السَّلَّةِ؟",
+      "answers": ["لَعِبْنَا كُرَةَ السَّلَّةِ.", "لَعِبْنَا بِكُرَةِ السَّلَّةِ.", "كُرَةَ السَّلَّةِ."],
+      "fr": "Nous avons joué au basketball.",
+      "instruction": "Réponds : « Nous avons joué au basketball. »"
+    }
+  ]
+}

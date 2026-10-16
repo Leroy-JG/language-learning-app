@@ -1,0 +1,136 @@
+{
+  "id": "medine-t2.l07.grammar-4",
+  "type": "grammar",
+  "title": "Le complément avant le verbe",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l07.grammar-4#1",
+      "type": "tip",
+      "title": "Un complément qui passe avant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "En général, le complément d'objet ({ar|الْمَفْعُولُ بِهِ}) vient **après** le verbe et son sujet. Dans certains cas, il peut passer **avant** le verbe."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un de ces cas : une question avec le {ar|أَ} d'interrogation (que le professeur appelle {ar|هَمْزَةُ الِاسْتِفْهَامِ}) et {ar|أَمْ} (« ou »). On place d'abord ce sur quoi porte la question."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "ضَرَبَ زَيْدٌ يَاسِرًا", "fr": "Zayd a frappé Yāsir" },
+              "to": {
+                "ar": "أَيَاسِرًا ضَرَبَ زَيْدٌ أَمْ خَالِدًا؟",
+                "fr": "Est-ce Yāsir que Zayd a frappé, ou Khālid ?"
+              }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le complément avancé reste à l'accusatif : {ar|يَاسِرًا}, {ar|خَالِدًا}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "On hésite entre deux personnes (ou deux choses), pas sur le verbe : c'est pourquoi les deux compléments passent avant."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.grammar-4#2",
+      "type": "tip",
+      "title": "Le hamza d'interrogation collé au mot",
+      "blocks": [
+        {
+          "type": "breakdown",
+          "ar": "أَيَاسِرًا",
+          "fr": "est-ce Yāsir… ?",
+          "parts": [
+            { "ar": "أَ", "fr": "le {ar|أَ} d'interrogation" },
+            { "ar": "يَاسِرًا", "fr": "Yāsir (complément d'objet, accusatif)" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le {ar|أَ} se colle au premier mot de la phrase. Dans cette question, ce premier mot est le complément d'objet."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.grammar-4#3",
+      "type": "spot",
+      "instruction": "Touche les deux compléments d'objet.",
+      "words": ["أَيَاسِرًا", "ضَرَبَ", "زَيْدٌ", "أَمْ", "خَالِدًا؟"],
+      "answers": [0, 4],
+      "fr": "Est-ce Yāsir que Zayd a frappé, ou Khālid ?",
+      "explain": "{ar|يَاسِرًا} et {ar|خَالِدًا} : tous deux à l'accusatif, avant le verbe."
+    },
+    {
+      "id": "medine-t2.l07.grammar-4#4",
+      "type": "sort",
+      "categories": [ { "fr": "avant le verbe" }, { "fr": "après le verbe" } ],
+      "cards": [
+        { "ar": "ضَرَبَ زَيْدٌ يَاسِرًا", "category": 1 },
+        { "ar": "أَيَاسِرًا ضَرَبَ زَيْدٌ أَمْ خَالِدًا؟", "category": 0 },
+        { "ar": "أَكَلْتُ بُرْتُقَالًا", "category": 1 },
+        { "ar": "أَبُرْتُقَالًا أَكَلْتَ أَمْ مَوْزًا؟", "category": 0 },
+        { "ar": "قَرَأْتُ صَحِيفَةً", "category": 1 },
+        { "ar": "أَصَحِيفَةً قَرَأْتَ أَمْ مَجَلَّةً؟", "category": 0 }
+      ],
+      "instruction": "Où est le complément d'objet ?",
+      "explain": "Dans les phrases ordinaires, le complément suit le verbe. Dans une question {ar|أَ} … {ar|أَمْ}, il passe avant."
+    },
+    {
+      "id": "medine-t2.l07.grammar-4#5",
+      "type": "order",
+      "fr": "Est-ce Yāsir que Zayd a frappé, ou Khālid ?",
+      "answers": [["أَيَاسِرًا", "ضَرَبَ", "زَيْدٌ", "أَمْ", "خَالِدًا"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l07.grammar-4#6",
+      "type": "order",
+      "fr": "Est-ce des oranges que tu as mangées, ou des bananes ?",
+      "answers": [["أَبُرْتُقَالًا", "أَكَلْتَ", "أَمْ", "مَوْزًا"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l07.grammar-4#7",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|أَمُحَمَّدًا رَأَيْتَ أَمْ حَامِدًا؟}, les deux noms propres sont à l'accusatif." },
+      "answer": true,
+      "explain": "Ce sont les compléments d'objet de {ar|رَأَيْتَ}, même placés avant le verbe : {ar|مُحَمَّدًا} et {ar|حَامِدًا}."
+    },
+    {
+      "id": "medine-t2.l07.grammar-4#8",
+      "type": "question",
+      "prompt": { "fr": "Que demande {ar|أَصَحِيفَةً قَرَأْتَ أَمْ مَجَلَّةً؟} ?" },
+      "choices": [
+        { "fr": "Est-ce une page (un journal) que tu as lue, ou une revue ?" },
+        { "fr": "As-tu lu ou écrit une page ?" },
+        { "fr": "Où as-tu lu cette revue ?" }
+      ],
+      "answer": 0,
+      "explain": "Le choix porte sur {ar|صَحِيفَةً} ou {ar|مَجَلَّةً}, placés avant le verbe."
+    },
+    {
+      "id": "medine-t2.l07.grammar-4#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Est-ce Muḥammad que tu as vu, ou Ḥāmid ?",
+      "answers": ["أَمُحَمَّدًا رَأَيْتَ أَمْ حَامِدًا؟"]
+    },
+    {
+      "id": "medine-t2.l07.grammar-4#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Est-ce des oranges que tu as mangées, ou des bananes ?",
+      "answers": ["أَبُرْتُقَالًا أَكَلْتَ أَمْ مَوْزًا؟"]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "medine-t2.l07.grammar-3",
+  "type": "grammar",
+  "title": "Deux sukūn qui se rencontrent",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l07.grammar-3#1",
+      "type": "tip",
+      "title": "Un problème de prononciation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand un mot qui se termine par un sukūn est suivi d'un mot qui commence par l'article {ar|الْ}, l'alif de l'article ne se prononce pas : les deux sukūn (celui du mot et celui de l'article) se retrouvent côte à côte. C'est ce que le professeur appelle {ar|اِلْتِقَاءُ السَّاكِنَيْنِ}, « la rencontre de deux sukūn ». Elle est difficile à prononcer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour y remédier, on donne une **voyelle de liaison** à la première des deux lettres."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "مِنْ الْفَصْلِ", "fr": "écrit avec un sukūn" },
+              "to": { "ar": "مِنَ الْفَصْلِ", "fr": "avec la voyelle de liaison" },
+              "label": "fatha sur le {ar|ن}"
+            },
+            {
+              "from": { "ar": "دَرَسْتُمْ الْكِتَابَ", "fr": "écrit avec un sukūn" },
+              "to": { "ar": "دَرَسْتُمُ الْكِتَابَ", "fr": "avec la voyelle de liaison" },
+              "label": "damma sur le {ar|م}"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Cela vaut devant l'article lunaire comme devant l'article solaire : {ar|خَرَجَتِ الشَّمْسُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.grammar-3#2",
+      "type": "tip",
+      "title": "Quelle voyelle de liaison ?",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Voyelle", "Dans quels cas", "Exemples"],
+          "rows": [
+            [
+              "kasra (la règle générale)",
+              "la plupart des mots : par exemple le {ar|ت} du féminin {ar|تْ}, {ar|عَنْ}, {ar|مَنْ} (« qui ? »)",
+              "{ar|خَرَجَتِ الْبِنْتُ} ; {ar|عَنِ الْبَيْتِ} ; {ar|مَنِ الْوَلَدُ؟}"
+            ],
+            [
+              "damma",
+              "le {ar|م} du pluriel masculin : {ar|تُمْ}, {ar|كُمْ}, {ar|أَنْتُمْ}, {ar|هُمْ}",
+              "{ar|دَرَسْتُمُ الْكِتَابَ} ; {ar|عَلَيْكُمُ السَّلَامُ} ; {ar|أَنْتُمُ الطُّلَّابُ}"
+            ],
+            ["fatha", "la préposition {ar|مِنْ} (« de »), devant {ar|الْ}", "{ar|مِنَ الْفَصْلِ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ne confonds pas : {ar|مَنْ} (« qui ? ») prend la kasra ({ar|مَنِ الْوَلَدُ؟}, « qui est le garçon ? »), alors que {ar|مِنْ} (« de ») prend la fatha ({ar|مِنَ الْوَلَدِ}, « du garçon »)."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Seul le mot qui est suivi de {ar|الْ} (ou d'un autre alif de liaison) change. Devant une autre lettre, rien ne change : {ar|أَكَلْتُمْ مَوْزًا} ; {ar|مَنْ هٰذَا؟}."
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Dans un texte vocalisé, la voyelle de liaison est écrite. Dans un texte courant, les voyelles ne sont pas écrites : c'est à toi de les ajouter en lisant."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.grammar-3#3",
+      "type": "question",
+      "prompt": {
+        "fr": "Quelle voyelle remplace le sukūn du {ar|ت} dans {ar|خَرَجَتْ الْبِنْتُ} (« la fille est sortie ») ?"
+      },
+      "choices": [ { "fr": "une kasra" }, { "fr": "une damma" }, { "fr": "une fatha" } ],
+      "answer": 0,
+      "explain": "Règle générale : la kasra. On lit {ar|خَرَجَتِ الْبِنْتُ}."
+    },
+    {
+      "id": "medine-t2.l07.grammar-3#4",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle remplace le sukūn du {ar|م} dans {ar|دَرَسْتُمْ الْكِتَابَ} ?" },
+      "choices": [ { "fr": "une damma" }, { "fr": "une kasra" }, { "fr": "une fatha" } ],
+      "answer": 0,
+      "explain": "Le {ar|م} du pluriel masculin prend la damma : {ar|دَرَسْتُمُ الْكِتَابَ}."
+    },
+    {
+      "id": "medine-t2.l07.grammar-3#5",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle remplace le sukūn du {ar|ن} dans {ar|مِنْ الْفَصْلِ} (« de la classe ») ?" },
+      "choices": [ { "fr": "une fatha" }, { "fr": "une kasra" }, { "fr": "une damma" } ],
+      "answer": 0,
+      "explain": "La préposition {ar|مِنْ} prend la fatha : {ar|مِنَ الْفَصْلِ}."
+    },
+    {
+      "id": "medine-t2.l07.grammar-3#6",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle remplace le sukūn du {ar|ن} dans {ar|مَنْ الْوَلَدُ؟} (« qui est le garçon ? ») ?" },
+      "choices": [ { "fr": "une kasra" }, { "fr": "une fatha" }, { "fr": "une damma" } ],
+      "answer": 0,
+      "explain": "Ici {ar|مَنْ} est « qui ? » : règle générale, la kasra. On lit {ar|مَنِ الْوَلَدُ؟}."
+    },
+    {
+      "id": "medine-t2.l07.grammar-3#7",
+      "type": "sort",
+      "categories": [ { "fr": "une kasra" }, { "fr": "une damma" }, { "fr": "une fatha" } ],
+      "cards": [
+        { "ar": "خَرَجَتْ الْبِنْتُ", "category": 0 },
+        { "ar": "دَرَسْتُمْ الْكِتَابَ", "category": 1 },
+        { "ar": "مِنْ الْفَصْلِ", "category": 2 },
+        { "ar": "أَنْتُمْ الطُّلَّابُ", "category": 1 },
+        { "ar": "عَنْ الْبَيْتِ", "category": 0 },
+        { "ar": "عَلَيْكُمْ السَّلَامُ", "category": 1 },
+        { "ar": "جَلَسَتْ الطَّالِبَةُ", "category": 0 }
+      ],
+      "instruction": "Quelle voyelle de liaison faut-il à la dernière lettre du premier mot ?",
+      "explain": "{ar|تْ}, {ar|عَنْ} : kasra. {ar|تُمْ}, {ar|أَنْتُمْ}, {ar|كُمْ} : damma. {ar|مِنْ} : fatha."
+    },
+    {
+      "id": "medine-t2.l07.grammar-3#8",
+      "type": "spot",
+      "instruction": "Un seul de ces verbes change de voyelle finale à cause de l'article qui suit. Lequel ?",
+      "words": ["أَكَلْتُمْ", "مَوْزًا", "وَشَرِبْتُمْ", "الْعَصِيرَ"],
+      "answers": [2],
+      "fr": "Vous avez mangé des bananes et bu le jus.",
+      "explain": "{ar|شَرِبْتُمْ} est suivi de {ar|الْعَصِيرَ} : on lit {ar|شَرِبْتُمُ الْعَصِيرَ}. {ar|أَكَلْتُمْ} est suivi de {ar|مَوْزًا}, sans article : rien ne change."
+    },
+    {
+      "id": "medine-t2.l07.grammar-3#9",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أَكَلْتُمْ مَوْزًا}, que devient le sukūn du {ar|م} ?" },
+      "choices": [
+        { "fr": "Rien : le mot suivant n'a pas d'article" },
+        { "fr": "Il prend une damma" },
+        { "fr": "Il prend une kasra" }
+      ],
+      "answer": 0,
+      "explain": "La voyelle de liaison n'est nécessaire que devant l'article (ou un autre alif de liaison)."
+    },
+    {
+      "id": "medine-t2.l07.grammar-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "La fille est sortie.",
+      "answers": ["خَرَجَتِ الْبِنْتُ."]
+    },
+    {
+      "id": "medine-t2.l07.grammar-3#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Vous avez étudié la leçon.",
+      "answers": ["دَرَسْتُمُ الدَّرْسَ."],
+      "explain": "Le {ar|م} de {ar|دَرَسْتُمْ} prend la damma devant {ar|الدَّرْسَ}."
+    }
+  ]
+}

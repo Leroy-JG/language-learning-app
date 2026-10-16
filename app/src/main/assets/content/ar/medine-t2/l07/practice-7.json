@@ -1,0 +1,76 @@
+{
+  "id": "medine-t2.l07.practice-7",
+  "type": "grammar",
+  "title": "Faire des phrases : exercice 12",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l07.practice-7#1",
+      "type": "tip",
+      "title": "L'exercice 12 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre demande de faire une phrase avec chacun de sept mots ou groupes : {ar|دَخَلَ}, {ar|بَحَثَ عَنْ}, {ar|الْأُسْبُوعِ الْمَاضِي}, {ar|الْبَارِحَةَ}, {ar|زِيَارَةٌ}, {ar|ذُو} et {ar|نِصْفٌ}. Les sept phrases ci-dessous suivent cet ordre ; la traduction est donnée, à toi de l'écrire."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.practice-7#2",
+      "type": "order",
+      "fr": "Le directeur est entré dans la mosquée.",
+      "answers": [["دَخَلَ", "الْمُدِيرُ", "الْمَسْجِدَ"]],
+      "punctuation": ".",
+      "explain": "{ar|دَخَلَ} se construit sans préposition : {ar|الْمَسْجِدَ} est le complément d'objet (fatha)."
+    },
+    {
+      "id": "medine-t2.l07.practice-7#3",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd a cherché la clé.",
+      "answers": ["بَحَثَ زَيْدٌ عَنِ الْمِفْتَاحِ.", "بَحَثَ عَنِ الْمِفْتَاحِ."],
+      "explain": "{ar|بَحَثَ} + {ar|عَنْ} : devant {ar|الْ}, le {ar|ن} prend la kasra : {ar|عَنِ الْمِفْتَاحِ}."
+    },
+    {
+      "id": "medine-t2.l07.practice-7#4",
+      "type": "order",
+      "fr": "J'ai lu un livre la semaine dernière.",
+      "answers": [["قَرَأْتُ", "كِتَابًا", "فِي", "الْأُسْبُوعِ", "الْمَاضِي"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l07.practice-7#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis allé à la bibliothèque hier.",
+      "answers": [
+        "ذَهَبْتُ إِلَى الْمَكْتَبَةِ الْبَارِحَةَ.",
+        "ذَهَبْتُ الْبَارِحَةَ إِلَى الْمَكْتَبَةِ.",
+        "أَنَا ذَهَبْتُ إِلَى الْمَكْتَبَةِ الْبَارِحَةَ."
+      ]
+    },
+    {
+      "id": "medine-t2.l07.practice-7#6",
+      "type": "order",
+      "fr": "Nous sommes allés rendre visite au directeur.",
+      "answers": [["ذَهَبْنَا", "لِزِيَارَةِ", "الْمُدِيرِ"]],
+      "punctuation": ".",
+      "explain": "{ar|لِزِيَارَةِ} : {ar|لِ} + {ar|زِيَارَةِ} (« visite »), puis le génitif : « pour la visite du directeur »."
+    },
+    {
+      "id": "medine-t2.l07.practice-7#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd est un homme de science.",
+      "answers": ["زَيْدٌ ذُو عِلْمٍ."],
+      "explain": "{ar|ذُو} est suivi d'un nom au génitif : {ar|ذُو عِلْمٍ}."
+    },
+    {
+      "id": "medine-t2.l07.practice-7#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai lu la moitié du livre.",
+      "answers": ["قَرَأْتُ نِصْفَ الْكِتَابِ.", "أَنَا قَرَأْتُ نِصْفَ الْكِتَابِ."]
+    }
+  ]
+}

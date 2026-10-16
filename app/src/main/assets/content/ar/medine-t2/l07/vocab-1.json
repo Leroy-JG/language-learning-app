@@ -1,0 +1,88 @@
+{
+  "id": "medine-t2.l07.vocab-1",
+  "type": "vocabulary",
+  "title": "À la maison",
+  "icon": "house",
+  "screens": [
+    { "id": "medine-t2.l07.vocab-1#1", "type": "present", "item": "w:miknasa" },
+    { "id": "medine-t2.l07.vocab-1#2", "type": "present", "item": "w:sullam" },
+    {
+      "id": "medine-t2.l07.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:sullam",
+      "distractors": ["w:miknasa", "w:bab"]
+    },
+    { "id": "medine-t2.l07.vocab-1#4", "type": "present", "item": "w:jaras" },
+    { "id": "medine-t2.l07.vocab-1#5", "type": "present", "item": "w:ghilaf" },
+    {
+      "id": "medine-t2.l07.vocab-1#6",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:ghilaf",
+      "distractors": ["w:jaras", "w:miknasa"]
+    },
+    { "id": "medine-t2.l07.vocab-1#7", "type": "present", "item": "w:burtuqal" },
+    { "id": "medine-t2.l07.vocab-1#8", "type": "present", "item": "w:asir" },
+    {
+      "id": "medine-t2.l07.vocab-1#9",
+      "type": "tip",
+      "title": "Des oranges, un jus d'orange",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|بُرْتُقَالٌ} est un nom collectif : il désigne les oranges en général. Pour une seule orange, on dit {ar|بُرْتُقَالَةٌ}."
+        },
+        { "type": "example", "ar": "عَصِيرُ بُرْتُقَالٍ", "fr": "un jus d'orange" },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|عَصِيرُ بُرْتُقَالٍ} est une annexion : le premier nom ne prend ni tanwin ni article, le second est au génitif. Sans article, le sens est « un jus d'orange » ; avec l'article, {ar|عَصِيرُ الْبُرْتُقَالِ} veut dire « le jus d'orange »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.vocab-1#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:miknasa", "w:sullam", "w:jaras", "w:ghilaf", "w:burtuqal"]
+    },
+    {
+      "id": "medine-t2.l07.vocab-1#11",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:miknasa", "w:sullam", "w:jaras", "w:ghilaf"]
+    },
+    { "id": "medine-t2.l07.vocab-1#12", "type": "build", "item": "w:miknasa", "extra": ["ه"] },
+    {
+      "id": "medine-t2.l07.vocab-1#13",
+      "type": "fill_gap",
+      "sentence": "نَظَّفَتِ الْأُمُّ الْبَيْتَ {0}.",
+      "fr": "La mère a nettoyé la maison avec le balai.",
+      "gaps": [ { "answers": ["بِالْمِكْنَسَةِ"] } ],
+      "options": ["بِالْمِكْنَسَةِ", "بِالْجَرَسِ", "بِالسُّلَّمِ", "بِالْغِلَافِ"],
+      "explain": "On nettoie avec un balai : {ar|بِالْمِكْنَسَةِ}."
+    },
+    {
+      "id": "medine-t2.l07.vocab-1#14",
+      "type": "order",
+      "fr": "Le livre est sous l'escalier.",
+      "answers": [["الْكِتَابُ", "تَحْتَ", "السُّلَّمِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l07.vocab-1#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai mangé des oranges.",
+      "answers": ["أَكَلْتُ بُرْتُقَالًا.", "أَنَا أَكَلْتُ بُرْتُقَالًا."]
+    },
+    {
+      "id": "medine-t2.l07.vocab-1#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai bu un jus d'orange.",
+      "answers": ["شَرِبْتُ عَصِيرَ بُرْتُقَالٍ.", "أَنَا شَرِبْتُ عَصِيرَ بُرْتُقَالٍ."]
+    }
+  ]
+}

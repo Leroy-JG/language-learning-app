@@ -1,0 +1,191 @@
+{
+  "id": "medine-t2.l07.grammar-1",
+  "type": "grammar",
+  "title": "{ar|كَانَ} : le passé de la phrase nominale",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l07.grammar-1#1",
+      "type": "tip",
+      "title": "Rappel : deux familles de {ar|نَوَاسِخُ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au chapitre 1, tu as vu que les {ar|نَوَاسِخُ} sont des mots qui entrent sur une phrase nominale et en changent le sens et les cas. Il y en a deux familles : des particules et des verbes. Elles font l'inverse l'une de l'autre."
+        },
+        {
+          "type": "table",
+          "header": ["Famille", "Exemple", "Le sujet", "Le prédicat"],
+          "rows": [
+            [
+              "{ar|إِنَّ وَأَخَوَاتُهَا} (particules : {ar|إِنَّ}, {ar|أَنَّ}, {ar|لَكِنَّ}, {ar|كَأَنَّ}, {ar|لَيْتَ}, {ar|لَعَلَّ})",
+              "{ar|إِنَّ زَيْدًا طَالِبٌ}",
+              "accusatif",
+              "nominatif"
+            ],
+            [
+              "{ar|كَانَ وَأَخَوَاتُهَا} (verbes : {ar|لَيْسَ}, {ar|كَانَ}…)",
+              "{ar|كَانَ زَيْدٌ طَالِبًا}",
+              "nominatif",
+              "accusatif"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|لَيْسَ}, la première « sœur » de {ar|كَانَ}, a été étudiée au chapitre 2. Aujourd'hui : {ar|كَانَ} lui-même. Les autres sœurs viendront plus tard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.grammar-1#2",
+      "type": "tip",
+      "title": "{ar|كَانَ} : deux rôles",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|كَانَ} (« il était ») s'ajoute devant une phrase nominale. Il fait deux choses :"
+        },
+        {
+          "type": "paragraph",
+          "text": "**1.** Il met la phrase au **passé**. Au présent, la phrase nominale n'a pas de verbe : « Zayd (est) étudiant ». {ar|كَانَ} ajoute le verbe « être » au passé : « Zayd était étudiant »."
+        },
+        {
+          "type": "paragraph",
+          "text": "**2.** Il change les cas. Le sujet **reste au nominatif** : on l'appelle {ar|اِسْمُ كَانَ}. Le prédicat **passe à l'accusatif** : on l'appelle {ar|خَبَرُ كَانَ}."
+        },
+        {
+          "type": "compare",
+          "title": "Du présent au passé",
+          "rows": [
+            {
+              "from": { "ar": "زَيْدٌ طَالِبٌ", "fr": "Zayd est étudiant" },
+              "to": { "ar": "كَانَ زَيْدٌ طَالِبًا", "fr": "Zayd était étudiant" }
+            },
+            {
+              "from": { "ar": "الْبَابُ مَفْتُوحٌ", "fr": "La porte est ouverte" },
+              "to": { "ar": "كَانَ الْبَابُ مَفْتُوحًا", "fr": "La porte était ouverte" }
+            },
+            {
+              "from": { "ar": "الْمَاءُ بَارِدٌ", "fr": "L'eau est froide" },
+              "to": { "ar": "كَانَ الْمَاءُ بَارِدًا", "fr": "L'eau était froide" }
+            },
+            {
+              "from": { "ar": "الْمُدِيرَةُ مَسْرُورَةٌ", "fr": "La directrice est ravie" },
+              "to": { "ar": "كَانَتِ الْمُدِيرَةُ مَسْرُورَةً", "fr": "La directrice était ravie" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|كَانَ} se place devant le sujet, au singulier, et s'accorde en genre avec lui : {ar|كَانَ الْمَاءُ} (masculin), {ar|كَانَتِ الْمُدِيرَةُ} (féminin)."
+        }
+      ]
+    },
+    { "id": "medine-t2.l07.grammar-1#3", "type": "present", "item": "w:ism-kana" },
+    { "id": "medine-t2.l07.grammar-1#4", "type": "present", "item": "w:khabar-kana" },
+    {
+      "id": "medine-t2.l07.grammar-1#5",
+      "type": "tip",
+      "title": "Analyser la phrase",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Mot", "Rôle", "Cas"],
+          "rows": [
+            ["{ar|كَانَ}", "le verbe « il était »", "—"],
+            ["{ar|زَيْدٌ}", "{ar|اِسْمُ كَانَ}", "nominatif (damma)"],
+            ["{ar|طَالِبًا}", "{ar|خَبَرُ كَانَ}", "accusatif (tanwin fatha)"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "C'est le même fonctionnement que {ar|لَيْسَ} : {ar|لَيْسَ زَيْدٌ طَالِبًا} (« Zayd n'est pas étudiant »). Seul le sens change : {ar|لَيْسَ} nie, {ar|كَانَ} met au passé."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.grammar-1#6",
+      "type": "spot",
+      "instruction": "Touche le nom de {ar|كَانَ} (le sujet).",
+      "words": ["كَانَ", "الْمَاءُ", "بَارِدًا"],
+      "answers": [1],
+      "fr": "L'eau était froide.",
+      "explain": "Le sujet est resté au nominatif (damma) : {ar|الْمَاءُ}."
+    },
+    {
+      "id": "medine-t2.l07.grammar-1#7",
+      "type": "spot",
+      "instruction": "Touche le prédicat de {ar|كَانَ}.",
+      "words": ["كَانَتِ", "الْمُدِيرَةُ", "مَسْرُورَةً"],
+      "answers": [2],
+      "fr": "La directrice était ravie.",
+      "explain": "Le prédicat est à l'accusatif (tanwin fatha) : {ar|مَسْرُورَةً}."
+    },
+    {
+      "id": "medine-t2.l07.grammar-1#8",
+      "type": "question",
+      "prompt": { "fr": "À quel cas est le prédicat dans {ar|كَانَ زَيْدٌ طَالِبًا} ?" },
+      "choices": [ { "fr": "À l'accusatif" }, { "fr": "Au nominatif" }, { "fr": "Au génitif" } ],
+      "answer": 0,
+      "explain": "Après {ar|كَانَ}, le prédicat passe à l'accusatif : {ar|طَالِبًا} (tanwin fatha)."
+    },
+    {
+      "id": "medine-t2.l07.grammar-1#9",
+      "type": "sort",
+      "categories": [ { "fr": "présent" }, { "fr": "passé" } ],
+      "cards": [
+        { "ar": "الْمَاءُ بَارِدٌ", "category": 0 },
+        { "ar": "كَانَ الْمَاءُ بَارِدًا", "category": 1 },
+        { "ar": "زَيْدٌ طَالِبٌ", "category": 0 },
+        { "ar": "كَانَ زَيْدٌ طَالِبًا", "category": 1 },
+        { "ar": "الْبَابُ مَفْتُوحٌ", "category": 0 },
+        { "ar": "كَانَ الْبَابُ مَفْتُوحًا", "category": 1 }
+      ],
+      "instruction": "Quel temps ?",
+      "explain": "Sans {ar|كَانَ}, la phrase nominale est au présent. Avec {ar|كَانَ}, elle est au passé."
+    },
+    {
+      "id": "medine-t2.l07.grammar-1#10",
+      "type": "fill_gap",
+      "sentence": "{0} الْمَاءُ بَارِدًا.",
+      "fr": "L'eau était froide.",
+      "gaps": [ { "answers": ["كَانَ"] } ],
+      "options": ["كَانَ", "كَانَتْ"],
+      "explain": "{ar|الْمَاءُ} est masculin : {ar|كَانَ}."
+    },
+    {
+      "id": "medine-t2.l07.grammar-1#11",
+      "type": "fill_gap",
+      "sentence": "{0} الْمُدِيرَةُ فِي غُرْفَتِهَا.",
+      "fr": "La directrice était dans sa chambre.",
+      "gaps": [ { "answers": ["كَانَتِ"] } ],
+      "options": ["كَانَتِ", "كَانَ"],
+      "explain": "{ar|الْمُدِيرَةُ} est féminin : {ar|كَانَتِ}, avec une kasra devant {ar|الْ}."
+    },
+    {
+      "id": "medine-t2.l07.grammar-1#12",
+      "type": "order",
+      "fr": "Zayd était étudiant.",
+      "answers": [["كَانَ", "زَيْدٌ", "طَالِبًا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l07.grammar-1#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "La porte était ouverte.",
+      "answers": ["كَانَ الْبَابُ مَفْتُوحًا."]
+    },
+    {
+      "id": "medine-t2.l07.grammar-1#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "L'eau était froide.",
+      "answers": ["كَانَ الْمَاءُ بَارِدًا."]
+    }
+  ]
+}

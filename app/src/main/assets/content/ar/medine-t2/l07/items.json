@@ -1,0 +1,258 @@
+[
+  {
+    "id": "w:laiba",
+    "kind": "word",
+    "ar": "لَعِبَ",
+    "fr": "il a joué (jouer)",
+    "translit": "laʿiba",
+    "note": "Le livre le construit tantôt directement avec le nom du sport ({ar|لَعِبْنَا كُرَةَ الْقَدَمِ}), tantôt avec la préposition {ar|بِ} ({ar|أَلْعَبُ بِكُرَةِ الْقَدَمِ}).",
+    "example": { "ar": "لَعِبَ الْوَلَدُ كُرَةَ الْقَدَمِ.", "fr": "Le garçon a joué au football." }
+  },
+  {
+    "id": "w:ranna",
+    "kind": "word",
+    "ar": "رَنَّ",
+    "fr": "il a sonné (sonner)",
+    "translit": "ranna",
+    "note": "Se dit d'une sonnette ou d'une cloche : {ar|رَنَّ الْجَرَسُ}. Le verbe se termine par deux {ar|ن} identiques, écrits en une seule lettre avec une shadda.",
+    "example": { "ar": "رَنَّ الْجَرَسُ.", "fr": "La sonnette a sonné." }
+  },
+  {
+    "id": "w:wadaa",
+    "kind": "word",
+    "ar": "وَضَعَ",
+    "fr": "il a posé, il a mis (poser, mettre)",
+    "translit": "waḍaʿa",
+    "note": "Le {ar|و} du début tombe, en général, au présent et à l'impératif : {ar|يَضَعُ}, {ar|ضَعْ} (« pose ! »).",
+    "example": { "ar": "وَضَعْتُ الْكِتَابَ عَلَى الْمَكْتَبِ.", "fr": "J'ai posé le livre sur le bureau." }
+  },
+  {
+    "id": "w:bahatha",
+    "kind": "word",
+    "ar": "بَحَثَ",
+    "fr": "il a cherché (chercher)",
+    "translit": "baḥatha",
+    "note": "Pour « chercher quelque chose » ou « chercher quelqu'un », il se construit avec la préposition {ar|عَنْ} : {ar|بَحَثَ عَنْ مِفْتَاحٍ}. Dans le tableau du professeur, il est écrit {ar|بَحَثَ عَنْ}.",
+    "example": { "ar": "بَحَثَ زَيْدٌ عَنْ مِفْتَاحٍ.", "fr": "Zayd a cherché une clé." }
+  },
+  {
+    "id": "w:abshara",
+    "kind": "word",
+    "ar": "أَبْشَرَ",
+    "fr": "il s'est réjoui (se réjouir)",
+    "translit": "ʾabshara",
+    "note": "À l'impératif, on dit {ar|أَبْشِرْ} (« réjouis-toi ! ») pour annoncer une bonne nouvelle ou rassurer quelqu'un : « bonne nouvelle ! », « sois tranquille ! ». Son impératif garde le hamza de coupure {ar|أَ}, contrairement à {ar|اِبْحَثْ} ou {ar|اِمْشِ} (hamza de liaison).",
+    "example": {
+      "ar": "أَبْشِرْ، فِي الثَّلَّاجَةِ مَاءٌ بَارِدٌ.",
+      "fr": "Bonne nouvelle : il y a de l'eau froide dans le réfrigérateur."
+    }
+  },
+  {
+    "id": "w:idhaa",
+    "kind": "word",
+    "ar": "إِذَاعَةٌ",
+    "fr": "une station de radio, une émission",
+    "translit": "ʾidhāʿatun",
+    "plural": "إِذَاعَاتٌ",
+    "gender": "f",
+    "note": "Le mot veut dire « diffusion » ; on s'en sert pour une station de radio : {ar|إِذَاعَةُ الْقَاهِرَةِ} (« la radio du Caire »).",
+    "example": { "ar": "سَمِعْتُ الْخَبَرَ فِي الْإِذَاعَةِ.", "fr": "J'ai entendu la nouvelle à la radio." }
+  },
+  {
+    "id": "w:akhbar",
+    "kind": "word",
+    "ar": "أَخْبَارٌ",
+    "fr": "des nouvelles, des informations",
+    "translit": "ʾakhbārun",
+    "note": "Pluriel de {ar|خَبَرٌ} (« une nouvelle »). Tu connais déjà ce mot dans {ar|الْخَبَرُ}, le prédicat de la phrase nominale : c'est ce qu'on « annonce » à propos du sujet. Exemple du professeur : {ar|جَاءَ خَبَرُ زَيْدٍ} (« la nouvelle de Zayd est arrivée »).",
+    "example": { "ar": "سَمِعْتُ الْأَخْبَارَ مِنَ الْإِذَاعَةِ.", "fr": "J'ai entendu les nouvelles à la radio." }
+  },
+  {
+    "id": "w:sahifa",
+    "kind": "word",
+    "ar": "صَحِيفَةٌ",
+    "fr": "une page, une feuille",
+    "translit": "ṣaḥīfatun",
+    "plural": "صُحُفٌ",
+    "gender": "f",
+    "note": "Le mot désigne aussi un journal : {ar|الصُّحُفُ} peut se traduire « les journaux », comme dans le texte du livre.",
+    "example": { "ar": "قَرَأْتُ صَحِيفَةً.", "fr": "J'ai lu une page." }
+  },
+  {
+    "id": "p:kurat-assalla",
+    "kind": "phrase",
+    "ar": "كُرَةُ السَّلَّةِ",
+    "fr": "le basketball",
+    "translit": "kuratu s-sallati",
+    "note": "{ar|كُرَةٌ} (« un ballon ») + {ar|السَّلَّةِ} (« du panier », {ar|سَلَّةٌ} = « un panier ») : « le ballon du panier ». C'est une annexion, comme {ar|كُرَةُ الْقَدَمِ}."
+  },
+  {
+    "id": "w:miknasa",
+    "kind": "word",
+    "ar": "مِكْنَسَةٌ",
+    "fr": "un balai",
+    "translit": "miknasatun",
+    "plural": "مَكَانِسُ",
+    "gender": "f",
+    "note": "Comme {ar|مِكْوَاةٌ} (« un fer à repasser »), c'est un nom d'instrument, de la forme {ar|مِفْعَلَةٌ} ; il vient de {ar|كَنَسَ} (« balayer »).",
+    "example": { "ar": "نَظَّفَتِ الْأُمُّ الْبَيْتَ بِالْمِكْنَسَةِ.", "fr": "La mère a nettoyé la maison avec le balai." }
+  },
+  {
+    "id": "w:sullam",
+    "kind": "word",
+    "ar": "سُلَّمٌ",
+    "fr": "un escalier",
+    "translit": "sullamun",
+    "plural": "سَلَالِمُ",
+    "gender": "m",
+    "note": "Le mot désigne aussi une échelle. Il est en général masculin (parfois féminin).",
+    "example": { "ar": "الْكِتَابُ تَحْتَ السُّلَّمِ.", "fr": "Le livre est sous l'escalier." }
+  },
+  {
+    "id": "w:jaras",
+    "kind": "word",
+    "ar": "جَرَسٌ",
+    "fr": "une sonnette, une cloche",
+    "translit": "jarasun",
+    "plural": "أَجْرَاسٌ",
+    "gender": "m",
+    "example": { "ar": "رَنَّ الْجَرَسُ.", "fr": "La sonnette a sonné." }
+  },
+  {
+    "id": "w:ghilaf",
+    "kind": "word",
+    "ar": "غِلَافٌ",
+    "fr": "une couverture (de livre)",
+    "translit": "ghilāfun",
+    "plural": "غُلُفٌ",
+    "gender": "m",
+    "note": "Le mot désigne aussi l'étui d'un objet (une gaine, un fourreau). Le professeur écrit le pluriel avec un sukūn ({ar|غُلْفٌ}) ; les dictionnaires donnent {ar|غُلُفٌ}.",
+    "example": { "ar": "غِلَافُ الْكِتَابِ جَدِيدٌ.", "fr": "La couverture du livre est neuve." }
+  },
+  {
+    "id": "w:burtuqal",
+    "kind": "word",
+    "ar": "بُرْتُقَالٌ",
+    "fr": "des oranges",
+    "translit": "burtuqālun",
+    "gender": "m",
+    "note": "Nom collectif : il désigne l'orange ou les oranges en général. Une seule orange se dit {ar|بُرْتُقَالَةٌ}.",
+    "example": { "ar": "أَكَلْتُ بُرْتُقَالًا.", "fr": "J'ai mangé des oranges." }
+  },
+  {
+    "id": "w:asir",
+    "kind": "word",
+    "ar": "عَصِيرٌ",
+    "fr": "un jus",
+    "translit": "ʿaṣīrun",
+    "gender": "m",
+    "note": "{ar|عَصِيرُ بُرْتُقَالٍ} (« un jus d'orange ») est une annexion, sans article : « un jus d'orange ».",
+    "example": { "ar": "شَرِبْتُ عَصِيرَ بُرْتُقَالٍ.", "fr": "J'ai bu un jus d'orange." }
+  },
+  {
+    "id": "w:sabah",
+    "kind": "word",
+    "ar": "صَبَاحٌ",
+    "fr": "un matin, le matin",
+    "translit": "ṣabāḥun",
+    "gender": "m",
+    "note": "{ar|هٰذَا الصَّبَاحَ} veut dire « ce matin » : comme {ar|الْيَوْمَ}, l'expression de temps est à l'accusatif.",
+    "example": { "ar": "جَاءَ زَيْدٌ فِي الصَّبَاحِ.", "fr": "Zayd est venu le matin." }
+  },
+  {
+    "id": "w:albarihah",
+    "kind": "word",
+    "ar": "الْبَارِحَةَ",
+    "fr": "hier, la veille",
+    "translit": "al-bāriḥata",
+    "note": "Adverbe de temps, à l'accusatif. Le mot signifie à l'origine « la nuit qui vient de passer ».",
+    "example": { "ar": "رَجَعْتُ مِنْ مَكَّةَ الْبَارِحَةَ.", "fr": "Je suis rentré de La Mecque hier." }
+  },
+  {
+    "id": "w:bayna",
+    "kind": "word",
+    "ar": "بَيْنَ",
+    "fr": "entre",
+    "translit": "bayna",
+    "note": "Le nom qui suit {ar|بَيْنَ} est au génitif.",
+    "example": { "ar": "الْمَسْجِدُ بَيْنَ الْبَيْتِ وَالْمَدْرَسَةِ.", "fr": "La mosquée est entre la maison et l'école." }
+  },
+  {
+    "id": "w:sira",
+    "kind": "word",
+    "ar": "سِيرَةٌ",
+    "fr": "une biographie",
+    "translit": "sīratun",
+    "plural": "سِيَرٌ",
+    "gender": "f",
+    "note": "Avec l'article, {ar|السِّيرَةُ} désigne souvent la biographie du Prophète ﷺ.",
+    "example": { "ar": "أَخَذْتُ كِتَابَ السِّيرَةِ.", "fr": "J'ai pris le livre de biographie." }
+  },
+  {
+    "id": "p:usbu-madi",
+    "kind": "phrase",
+    "ar": "فِي الْأُسْبُوعِ الْمَاضِي",
+    "fr": "la semaine dernière",
+    "translit": "fī l-usbūʿi l-māḍī",
+    "note": "{ar|الْمَاضِي} (« passé, dernier ») est un adjectif : c'est le mot qui désigne le temps du passé (chapitre 2), employé ici pour une semaine « passée ». Il suit le nom et prend le même cas : {ar|الْأُسْبُوعِ الْمَاضِي}."
+  },
+  {
+    "id": "w:sahih",
+    "kind": "word",
+    "ar": "صَحِيحٌ",
+    "fr": "vrai, juste, correct",
+    "translit": "ṣaḥīḥun",
+    "note": "Au féminin : {ar|صَحِيحَةٌ}. Dans les exercices du livre, le professeur demande de cocher les phrases justes : le signe qu'il utilise est l'abréviation de ce mot.",
+    "example": { "ar": "هٰذَا صَحِيحٌ.", "fr": "C'est vrai." }
+  },
+  {
+    "id": "w:thuluth",
+    "kind": "word",
+    "ar": "ثُلُثٌ",
+    "fr": "un tiers",
+    "translit": "thuluthun",
+    "gender": "m",
+    "note": "Avec {ar|سَاعَةٌ} : {ar|ثُلُثُ سَاعَةٍ} = vingt minutes.",
+    "example": { "ar": "هٰذَا ثُلُثُ الْكِتَابِ.", "fr": "Voici le tiers du livre." }
+  },
+  {
+    "id": "w:rubu",
+    "kind": "word",
+    "ar": "رُبْعٌ",
+    "fr": "un quart",
+    "translit": "rubʿun",
+    "gender": "m",
+    "note": "Avec {ar|سَاعَةٌ} : {ar|رُبْعُ سَاعَةٍ} = un quart d'heure, quinze minutes.",
+    "example": { "ar": "هٰذَا رُبْعُ الْكِتَابِ.", "fr": "Voici le quart du livre." }
+  },
+  { "id": "w:khums", "kind": "word", "ar": "خُمْسٌ", "fr": "un cinquième", "translit": "khumsun", "gender": "m" },
+  { "id": "w:suds", "kind": "word", "ar": "سُدُسٌ", "fr": "un sixième", "translit": "sudusun", "gender": "m" },
+  { "id": "w:subu", "kind": "word", "ar": "سُبْعٌ", "fr": "un septième", "translit": "subʿun", "gender": "m" },
+  {
+    "id": "w:thumn",
+    "kind": "word",
+    "ar": "ثُمْنٌ",
+    "fr": "un huitième",
+    "translit": "thumnun",
+    "gender": "m",
+    "note": "Ne le confonds pas avec {ar|ثَمَنٌ} (« un prix »), du tome 1 : une seule voyelle change."
+  },
+  { "id": "w:tus", "kind": "word", "ar": "تُسْعٌ", "fr": "un neuvième", "translit": "tusʿun", "gender": "m" },
+  { "id": "w:ushr", "kind": "word", "ar": "عُشْرٌ", "fr": "un dixième", "translit": "ʿushrun", "gender": "m" },
+  {
+    "id": "w:ism-kana",
+    "kind": "word",
+    "ar": "اِسْمُ كَانَ",
+    "fr": "le nom de {ar|كَانَ} (le sujet, qui reste au nominatif)",
+    "translit": "ismu kāna",
+    "gender": "m"
+  },
+  {
+    "id": "w:khabar-kana",
+    "kind": "word",
+    "ar": "خَبَرُ كَانَ",
+    "fr": "le prédicat de {ar|كَانَ} (à l'accusatif)",
+    "translit": "khabaru kāna",
+    "gender": "m"
+  }
+]

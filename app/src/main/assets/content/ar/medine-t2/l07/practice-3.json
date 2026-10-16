@@ -1,0 +1,129 @@
+{
+  "id": "medine-t2.l07.practice-3",
+  "type": "grammar",
+  "title": "Vous, les femmes : exercices 4 et 5",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l07.practice-3#1",
+      "type": "tip",
+      "title": "Les exercices 4 et 5 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Exercice 4 : mets le sujet au féminin pluriel (« vous » à plusieurs femmes), sans oublier le mot qui appelle les personnes. Le livre donne le modèle ci-dessous."
+        },
+        {
+          "type": "compare",
+          "title": "Le modèle du livre",
+          "rows": [
+            {
+              "from": { "ar": "أَشَرِبْتُمُ الْقَهْوَةَ يَا إِخْوَانُ؟", "fr": "Avez-vous bu le café, mes frères ?" },
+              "to": { "ar": "أَشَرِبْتُنَّ الْقَهْوَةَ يَا أَخَوَاتُ؟", "fr": "Avez-vous bu le café, mes sœurs ?" }
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Exercice 5 : devant chaque phrase, le livre donne deux formes du verbe ({ar|تُمْ} ou {ar|تُنَّ}) ; il faut choisir la bonne et compléter la phrase."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans ces phrases, le {ar|م} de {ar|تُمْ} prend une damma devant l'article : {ar|أَشَرِبْتُمُ الْقَهْوَةَ}. {ar|تُنَّ} ne change pas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.practice-3#2",
+      "type": "order",
+      "fr": "Avez-vous lu cette revue, les femmes ?",
+      "answers": [["أَقَرَأْتُنَّ", "هٰذِهِ", "الْمَجَلَّةَ", "يَا", "نِسَاءُ"]],
+      "punctuation": "؟",
+      "distractors": ["أَقَرَأْتُمْ", "رِجَالُ"],
+      "explain": "Le sujet est féminin : {ar|أَقَرَأْتُنَّ} (pas {ar|أَقَرَأْتُمْ}) et l'appel {ar|يَا نِسَاءُ} (pas {ar|يَا رِجَالُ})."
+    },
+    {
+      "id": "medine-t2.l07.practice-3#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَفَهِمْتُمُ الدَّرْسَ الْجَدِيدَ يَا أَبْنَائِي؟",
+      "answers": ["أَفَهِمْتُنَّ الدَّرْسَ الْجَدِيدَ يَا بَنَاتِي؟"],
+      "fr": "Avez-vous compris la nouvelle leçon, mes filles ?",
+      "instruction": "Mets le sujet au féminin pluriel : « mes fils » devient « mes filles ».",
+      "explain": "{ar|فَهِمْتُمْ} → {ar|فَهِمْتُنَّ} ; {ar|أَبْنَائِي} (« mes fils ») → {ar|بَنَاتِي} (« mes filles »)."
+    },
+    {
+      "id": "medine-t2.l07.practice-3#4",
+      "type": "order",
+      "fr": "Quand êtes-vous sorties de l'école, les filles ?",
+      "answers": [["مَتَى", "خَرَجْتُنَّ", "مِنَ", "الْمَدْرَسَةِ", "يَا", "بَنَاتُ"]],
+      "punctuation": "؟",
+      "distractors": ["خَرَجْتُمْ", "أَوْلَادُ"],
+      "explain": "Au féminin : {ar|خَرَجْتُنَّ}, et l'appel {ar|يَا بَنَاتُ}."
+    },
+    {
+      "id": "medine-t2.l07.practice-3#5",
+      "type": "order",
+      "fr": "Avez-vous entendu l'appel à la prière, mes sœurs ?",
+      "answers": [["أَسَمِعْتُنَّ", "الْأَذَانَ", "يَا", "أَخَوَاتُ"]],
+      "punctuation": "؟",
+      "distractors": ["أَسَمِعْتُمُ", "إِخْوَانُ"],
+      "explain": "Au féminin : {ar|أَسَمِعْتُنَّ}, et l'appel {ar|يَا أَخَوَاتُ}."
+    },
+    {
+      "id": "medine-t2.l07.practice-3#6",
+      "type": "order",
+      "fr": "Avez-vous vu le nouvel enseignant, mes sœurs ?",
+      "answers": [["أَرَأَيْتُنَّ", "الْمُدَرِّسَ", "الْجَدِيدَ", "يَا", "أَخَوَاتُ"]],
+      "punctuation": "؟",
+      "distractors": ["أَرَأَيْتُمُ", "إِخْوَانُ"],
+      "explain": "Seul le sujet passe au féminin : l'enseignant (le complément d'objet) reste {ar|الْمُدَرِّسَ}."
+    },
+    {
+      "id": "medine-t2.l07.practice-3#7",
+      "type": "fill_gap",
+      "sentence": "{0} الْقُرْآنَ الْيَوْمَ يَا أَبْنَائِي؟",
+      "fr": "Avez-vous lu le Coran aujourd'hui, mes fils ?",
+      "gaps": [ { "answers": ["أَقَرَأْتُمُ"] } ],
+      "options": ["أَقَرَأْتُمُ", "أَقَرَأْتُنَّ"],
+      "explain": "{ar|أَبْنَائِي} (« mes fils ») : plusieurs hommes, {ar|أَقَرَأْتُمُ}."
+    },
+    {
+      "id": "medine-t2.l07.practice-3#8",
+      "type": "fill_gap",
+      "sentence": "مَتَى {0} مِنْ مَكَّةَ يَا إِخْوَانِي؟",
+      "fr": "Quand êtes-vous rentrés de La Mecque, mes frères ?",
+      "gaps": [ { "answers": ["رَجَعْتُمْ"] } ],
+      "options": ["رَجَعْتُمْ", "رَجَعْتُنَّ"],
+      "explain": "{ar|إِخْوَانِي} (« mes frères ») : {ar|رَجَعْتُمْ}."
+    },
+    {
+      "id": "medine-t2.l07.practice-3#9",
+      "type": "fill_gap",
+      "sentence": "{0} وُجُوهَكُنَّ بِالصَّابُونِ؟",
+      "fr": "Avez-vous lavé vos visages avec le savon, mesdames ?",
+      "gaps": [ { "answers": ["أَغَسَلْتُنَّ"] } ],
+      "options": ["أَغَسَلْتُنَّ", "أَغَسَلْتُمْ"],
+      "explain": "{ar|وُجُوهَكُنَّ} (« vos visages », féminin) : {ar|أَغَسَلْتُنَّ}."
+    },
+    {
+      "id": "medine-t2.l07.practice-3#10",
+      "type": "fill_gap",
+      "sentence": "مِنْ أَيِّ إِذَاعَةٍ {0} الْأَخْبَارَ يَا بَنَاتِي؟",
+      "fr": "Sur quelle radio avez-vous entendu les nouvelles, mes filles ?",
+      "gaps": [ { "answers": ["سَمِعْتُنَّ"] } ],
+      "options": ["سَمِعْتُنَّ", "سَمِعْتُمُ"],
+      "explain": "{ar|بَنَاتِي} (« mes filles ») : {ar|سَمِعْتُنَّ}."
+    },
+    {
+      "id": "medine-t2.l07.practice-3#11",
+      "type": "fill_gap",
+      "sentence": "مِنْ أَيِّ بَابٍ {0} الْمَسْجِدَ يَا إِخْوَانِي؟",
+      "fr": "Par quelle porte êtes-vous entrés dans la mosquée, mes frères ?",
+      "gaps": [ { "answers": ["دَخَلْتُمُ"] } ],
+      "options": ["دَخَلْتُمُ", "دَخَلْتُنَّ"],
+      "explain": "{ar|إِخْوَانِي} (« mes frères ») : {ar|دَخَلْتُمُ}, avec la damma devant {ar|الْمَسْجِدَ}."
+    }
+  ]
+}

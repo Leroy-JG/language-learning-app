@@ -1,0 +1,136 @@
+{
+  "id": "medine-t2.l07.grammar-2",
+  "type": "grammar",
+  "title": "{ar|كَانَ} et un groupe avec préposition",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l07.grammar-2#1",
+      "type": "tip",
+      "title": "Quand le prédicat est préposition + nom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Souvent, le prédicat est un petit groupe : une préposition et son nom ({ar|فِي الْفَصْلِ}, {ar|فِي مَكَّةَ}…). Ce groupe est déjà au génitif, à cause de la préposition : après {ar|كَانَ}, **il ne change pas**."
+        },
+        {
+          "type": "table",
+          "header": ["Au présent", "Au passé"],
+          "rows": [
+            ["{ar|الْمُدَرِّسُ فِي الْفَصْلِ}", "{ar|كَانَ الْمُدَرِّسُ فِي الْفَصْلِ}"],
+            ["{ar|أَخِي فِي مَكَّةَ}", "{ar|كَانَ أَخِي فِي مَكَّةَ}"],
+            ["{ar|أُمِّي فِي الْمَطْبَخِ}", "{ar|كَانَتْ أُمِّي فِي الْمَطْبَخِ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Seul le sujet et le verbe se voient : le sujet reste au nominatif, et {ar|كَانَ} s'accorde en genre avec lui ({ar|كَانَ}, {ar|كَانَتْ})."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "On ajoute souvent « il y a… » avec {ar|قَبْلَ} suivi d'un génitif : {ar|كَانَ الْمُدَرِّسُ فِي الْفَصْلِ قَبْلَ خَمْسِ دَقَائِقَ} (« le professeur était en classe il y a cinq minutes »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.grammar-2#2",
+      "type": "sort",
+      "categories": [ { "fr": "il passe à l'accusatif" }, { "fr": "il ne change pas (préposition + nom)" } ],
+      "cards": [
+        { "ar": "كَانَ الْمَاءُ بَارِدًا", "category": 0 },
+        { "ar": "كَانَ زَيْدٌ فِي الْغُرْفَةِ", "category": 1 },
+        { "ar": "كَانَتِ الْمُدِيرَةُ فِي غُرْفَتِهَا", "category": 1 },
+        { "ar": "كَانَ الْبَابُ مَفْتُوحًا", "category": 0 },
+        { "ar": "كَانَتِ الْمُدِيرَةُ مَسْرُورَةً", "category": 0 },
+        { "ar": "كَانَ الْمُدَرِّسُ فِي الْمَسْجِدِ", "category": 1 }
+      ],
+      "instruction": "Le prédicat change-t-il de voyelle ?",
+      "explain": "Un prédicat seul (adjectif, nom) passe à l'accusatif. Un groupe avec préposition ({ar|فِي الْغُرْفَةِ}) reste au génitif."
+    },
+    {
+      "id": "medine-t2.l07.grammar-2#3",
+      "type": "spot",
+      "instruction": "Touche le prédicat de {ar|كَانَ} (il est formé de deux mots).",
+      "words": ["كَانَ", "أَخِي", "فِي", "مَكَّةَ"],
+      "answers": [2, 3],
+      "fr": "Mon frère était à La Mecque.",
+      "explain": "Le prédicat est le groupe {ar|فِي مَكَّةَ}."
+    },
+    {
+      "id": "medine-t2.l07.grammar-2#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|كَانَ الْمُدَرِّسُ فِي الْفَصْلِ}, pourquoi le prédicat ne prend-il pas la fatha ?" },
+      "choices": [
+        { "fr": "C'est un groupe préposition + nom, déjà au génitif" },
+        { "fr": "Parce que {ar|كَانَ} est un verbe invariable" },
+        { "fr": "Parce que le sujet est défini" }
+      ],
+      "answer": 0,
+      "explain": "Après une préposition, le nom est au génitif ; ce groupe ne change pas après {ar|كَانَ}."
+    },
+    {
+      "id": "medine-t2.l07.grammar-2#5",
+      "type": "fill_gap",
+      "sentence": "{0} الطَّالِبَةُ فِي الْمَكْتَبَةِ.",
+      "fr": "L'étudiante était à la bibliothèque.",
+      "gaps": [ { "answers": ["كَانَتِ"] } ],
+      "options": ["كَانَتِ", "كَانَ"],
+      "explain": "{ar|الطَّالِبَةُ} est féminin : {ar|كَانَتِ}."
+    },
+    {
+      "id": "medine-t2.l07.grammar-2#6",
+      "type": "tip",
+      "title": "Aperçu : {ar|كَانَ} avec « je », « tu », « nous »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|كَانَ} se conjugue comme les autres verbes du passé, avec les mêmes terminaisons que {ar|لَيْسَ}. Ce tableau est un simple aperçu : aucun exercice ne l'exige."
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Forme", "Sens"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|كُنْتُ}", "j'étais"],
+            ["{ar|أَنْتَ}", "{ar|كُنْتَ}", "tu étais (à un homme)"],
+            ["{ar|أَنْتِ}", "{ar|كُنْتِ}", "tu étais (à une femme)"],
+            ["{ar|هُوَ}", "{ar|كَانَ}", "il était"],
+            ["{ar|هِيَ}", "{ar|كَانَتْ}", "elle était"],
+            ["{ar|نَحْنُ}", "{ar|كُنَّا}", "nous étions"],
+            ["{ar|أَنْتُمْ}", "{ar|كُنْتُمْ}", "vous étiez (plusieurs hommes)"],
+            ["{ar|أَنْتُنَّ}", "{ar|كُنْتُنَّ}", "vous étiez (plusieurs femmes)"],
+            ["{ar|هُمْ}", "{ar|كَانُوا}", "ils étaient"],
+            ["{ar|هُنَّ}", "{ar|كُنَّ}", "elles étaient"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le {ar|ا} de {ar|كَانَ} tombe devant les terminaisons qui commencent par {ar|ت} ou {ar|ن} ({ar|كُنْتُ}, {ar|كُنَّا}), et la voyelle de la première lettre change. L'explication viendra avec les verbes dont la lettre du milieu est faible."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.grammar-2#7",
+      "type": "order",
+      "fr": "La directrice était dans sa chambre.",
+      "answers": [["كَانَتِ", "الْمُدِيرَةُ", "فِي", "غُرْفَتِهَا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l07.grammar-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mon frère était à La Mecque.",
+      "answers": ["كَانَ أَخِي فِي مَكَّةَ."]
+    },
+    {
+      "id": "medine-t2.l07.grammar-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "L'étudiante était ravie.",
+      "answers": ["كَانَتِ الطَّالِبَةُ مَسْرُورَةً."]
+    }
+  ]
+}

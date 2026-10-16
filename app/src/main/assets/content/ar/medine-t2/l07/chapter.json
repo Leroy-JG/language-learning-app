@@ -1,0 +1,29 @@
+{
+  "id": "medine-t2.l07",
+  "number": 7,
+  "title": { "ar": "الدَّرْسُ السَّابِعُ", "fr": "Kāna ; deux sukūn qui se rencontrent ; le complément avant le verbe" },
+  "description": "{ar|كَانَ} et ses sœurs (2ᵉ partie) : le passé de la phrase nominale ; la rencontre de deux sukūn ; le complément d'objet placé avant le verbe ({ar|أَ} … {ar|أَمْ}) ; les fractions ; le texte du livre et ses exercices.",
+  "source": "Tome de Médine 2, leçon 7",
+  "sections": [
+    { "title": "Revoir : « vous » et « nous » au passé", "activities": ["revue-1"] },
+    { "title": "À la maison, jouer, sonner, chercher", "activities": ["vocab-1", "vocab-2"] },
+    { "title": "La radio, le temps, les fractions", "activities": ["vocab-3", "vocab-4", "vocab-5"] },
+    { "title": "Le passé de la phrase nominale", "activities": ["grammar-1", "grammar-2"] },
+    { "title": "Deux sukūn qui se rencontrent", "activities": ["grammar-3"] },
+    { "title": "Le complément avant le verbe", "activities": ["grammar-4"] },
+    {
+      "title": "Le texte du livre",
+      "activities": [
+        "dialogue-1",
+        "practice-1",
+        "practice-2",
+        "practice-3",
+        "practice-4",
+        "practice-5",
+        "practice-6",
+        "practice-7"
+      ]
+    },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}
