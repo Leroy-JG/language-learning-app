@@ -1,0 +1,105 @@
+{
+  "id": "medine-t2.l07.vocab-2",
+  "type": "vocabulary",
+  "title": "Jouer, sonner, chercher, poser",
+  "icon": "pen",
+  "screens": [
+    { "id": "medine-t2.l07.vocab-2#1", "type": "present", "item": "w:laiba" },
+    { "id": "medine-t2.l07.vocab-2#2", "type": "present", "item": "w:ranna" },
+    {
+      "id": "medine-t2.l07.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:laiba",
+      "distractors": ["w:ranna", "w:kharaja"]
+    },
+    { "id": "medine-t2.l07.vocab-2#4", "type": "present", "item": "w:wadaa" },
+    { "id": "medine-t2.l07.vocab-2#5", "type": "present", "item": "w:bahatha" },
+    {
+      "id": "medine-t2.l07.vocab-2#6",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:bahatha",
+      "distractors": ["w:wadaa", "w:laiba"]
+    },
+    { "id": "medine-t2.l07.vocab-2#7", "type": "present", "item": "w:abshara" },
+    {
+      "id": "medine-t2.l07.vocab-2#8",
+      "type": "tip",
+      "title": "Les quatre formes : un aperçu",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme aux chapitres précédents, le professeur donne quatre formes pour chaque verbe. Tu retiens seulement le passé ; le reste est un aperçu. Deux verbes déjà connus ({ar|مَشَى} et {ar|وَجَدَ}) figurent dans son tableau."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["jouer", "{ar|لَعِبَ}", "{ar|يَلْعَبُ}", "{ar|اِلْعَبْ}", "{ar|لَعِبٌ}"],
+            ["sonner", "{ar|رَنَّ}", "{ar|يَرِنُّ}", "{ar|رِنَّ}", "{ar|رَنِينٌ}"],
+            ["marcher", "{ar|مَشَى}", "{ar|يَمْشِي}", "{ar|اِمْشِ}", "{ar|مَشْيٌ}"],
+            ["trouver", "{ar|وَجَدَ}", "{ar|يَجِدُ}", "{ar|جِدْ}", "{ar|وُجُودٌ}"],
+            ["chercher", "{ar|بَحَثَ}", "{ar|يَبْحَثُ}", "{ar|اِبْحَثْ}", "{ar|بَحْثٌ}"],
+            ["poser", "{ar|وَضَعَ}", "{ar|يَضَعُ}", "{ar|ضَعْ}", "{ar|وَضْعٌ}"],
+            ["se réjouir", "{ar|أَبْشَرَ}", "{ar|يُبْشِرُ}", "{ar|أَبْشِرْ}", "{ar|إِبْشَارٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les noms d'action sont écrits au nominatif, comme aux chapitres précédents."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans {ar|وَجَدَ} et {ar|وَضَعَ}, le {ar|و} du début tombe, en général, au présent et à l'impératif. L'impératif des verbes à hamza de liaison commence par {ar|اِ} ({ar|اِلْعَبْ}, {ar|اِمْشِ}, {ar|اِبْحَثْ}) ; celui de {ar|أَبْشَرَ} garde sa hamza de coupure."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.vocab-2#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:laiba", "w:ranna", "w:wadaa", "w:bahatha", "w:abshara"]
+    },
+    {
+      "id": "medine-t2.l07.vocab-2#10",
+      "type": "fill_gap",
+      "sentence": "{0} الْجَرَسُ.",
+      "fr": "La sonnette a sonné.",
+      "gaps": [ { "answers": ["رَنَّ"] } ],
+      "options": ["رَنَّ", "لَعِبَ", "وَضَعَ", "بَحَثَ"],
+      "explain": "C'est la sonnette qui « sonne » : {ar|رَنَّ}."
+    },
+    {
+      "id": "medine-t2.l07.vocab-2#11",
+      "type": "question",
+      "prompt": { "fr": "Quelle préposition suit {ar|بَحَثَ} pour dire « chercher quelque chose » ?" },
+      "choices": [ { "ar": "عَنْ" }, { "ar": "إِلَى" }, { "ar": "عَلَى" } ],
+      "answer": 0,
+      "explain": "« Chercher quelque chose » : {ar|بَحَثَ عَنْ} suivi du nom."
+    },
+    {
+      "id": "medine-t2.l07.vocab-2#12",
+      "type": "order",
+      "fr": "J'ai posé le livre sur le bureau.",
+      "answers": [["وَضَعْتُ", "الْكِتَابَ", "عَلَى", "الْمَكْتَبِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l07.vocab-2#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd a cherché une clé.",
+      "answers": ["بَحَثَ زَيْدٌ عَنْ مِفْتَاحٍ.", "زَيْدٌ بَحَثَ عَنْ مِفْتَاحٍ."]
+    },
+    {
+      "id": "medine-t2.l07.vocab-2#14",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La sonnette a sonné.",
+      "answers": ["رَنَّ الْجَرَسُ."]
+    }
+  ]
+}

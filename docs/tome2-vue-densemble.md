@@ -216,3 +216,9 @@ au chapitre 3, avec leurs exercices 6 et 7), puis `مَا النَّافِيَة
 Le cours 6 (un seul PDF de 21 pages) est publié : `docs/sources-t2-lecon-6.md`. Le support du professeur contient le texte du livre (Saʿīd, Maryam, la mère, la servante Laylā), les exercices 1 à 5, 7, 8, 10 à 14 et 16 (les exercices 6, 9 et 15 manquent ou sont coupés), deux diapositives
 (`بَلَى` / `نَعَمْ` ; `ظَنَّ` + `أَنَّ`) et le vocabulaire nouveau (huit noms et sept verbes). Le chapitre les réunit : `l06.grammar-1` (`نَعَمْ` / `بَلَى`), `grammar-2` (`ظَنَّ` + `أَنَّ`), `grammar-3` (`جَوْعَانُ` / `جَوْعَى`), `dialogue-1` et `practice-1` à `practice-8`
 (un exercice du livre par activité ou presque ; les exercices 11 à 13 reprennent les nombres de 11 à 19 du chapitre 3). Les dizaines (`عِشْرُونَ`), le présent, l'impératif, `الَّتِي` et les pronoms compléments autres que `هُ`, `هَا`, `كَ` restent « pas encore enseignés ».
+
+## 13. Avancement : le chapitre 7 (`medine-t2.l07`)
+
+Le cours 7 (un seul PDF de 23 pages) est publié : `docs/sources-t2-lecon-7.md`. Le support du professeur contient `النَّوَاسِخُ` et `كَانَ` (deux fonctions), le texte du livre (un père, ses fils et ses filles), les exercices 1 à 7, 10 à 12 (les exercices 8 et 9 manquent),
+deux diapositives (la rencontre de deux sukūn ; le complément avant le verbe avec `أَ` … `أَمْ`) et le vocabulaire nouveau (quatorze noms et sept verbes). Le chapitre les réunit : `l07.grammar-1` et `grammar-2` (`كَانَ`), `grammar-3` (deux sukūn), `grammar-4` (complément avant le verbe),
+`vocab-5` (les fractions de l'exercice 11), `dialogue-1` et `practice-1` à `practice-7`. La conjugaison de `كَانَ` n'est qu'un aperçu ; `الَّذِي` / `الَّتِي`, les ordinaux et le présent restent « pas encore enseignés ».

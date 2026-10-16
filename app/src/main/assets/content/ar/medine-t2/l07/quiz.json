@@ -1,0 +1,142 @@
+{
+  "id": "medine-t2.l07.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 7",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l07.quiz#1",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:miknasa",
+      "distractors": ["w:jaras", "w:ghilaf"]
+    },
+    {
+      "id": "medine-t2.l07.quiz#2",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:burtuqal",
+      "distractors": ["w:asir", "w:sabah"]
+    },
+    {
+      "id": "medine-t2.l07.quiz#3",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:sullam", "w:ghilaf", "w:idhaa", "w:laiba", "w:wadaa"]
+    },
+    {
+      "id": "medine-t2.l07.quiz#4",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ الْمِفْتَاحَ فِي الْغُرْفَةِ.",
+      "fr": "Zayd a posé la clé dans la chambre.",
+      "gaps": [ { "answers": ["وَضَعَ"] } ],
+      "options": ["وَضَعَ", "بَحَثَ", "رَنَّ", "لَعِبَ"],
+      "explain": "« Poser » : {ar|وَضَعَ}."
+    },
+    {
+      "id": "medine-t2.l07.quiz#5",
+      "type": "question",
+      "prompt": { "fr": "Quelle phrase veut dire « L'enseignant était content » ?" },
+      "choices": [
+        { "ar": "كَانَ الْمُدَرِّسُ مَسْرُورًا" },
+        { "ar": "الْمُدَرِّسُ مَسْرُورٌ" },
+        { "ar": "لَيْسَ الْمُدَرِّسُ مَسْرُورًا" }
+      ],
+      "answer": 0,
+      "explain": "{ar|كَانَ} met la phrase au passé et le prédicat à l'accusatif. {ar|الْمُدَرِّسُ مَسْرُورٌ} est au présent ; {ar|لَيْسَ} nie."
+    },
+    {
+      "id": "medine-t2.l07.quiz#6",
+      "type": "spot",
+      "instruction": "Touche le prédicat de {ar|كَانَ}.",
+      "words": ["كَانَ", "الْبَابُ", "مَفْتُوحًا", "قَبْلَ", "سَاعَةٍ"],
+      "answers": [2],
+      "fr": "La porte était ouverte il y a une heure.",
+      "explain": "Le prédicat est {ar|مَفْتُوحًا}, à l'accusatif. {ar|قَبْلَ سَاعَةٍ} dit « il y a une heure »."
+    },
+    {
+      "id": "medine-t2.l07.quiz#7",
+      "type": "order",
+      "fr": "L'étudiante était à l'école.",
+      "answers": [["كَانَتِ", "الطَّالِبَةُ", "فِي", "الْمَدْرَسَةِ"]],
+      "punctuation": ".",
+      "distractors": ["كَانَ"],
+      "explain": "{ar|الطَّالِبَةُ} est féminin : {ar|كَانَتِ}."
+    },
+    {
+      "id": "medine-t2.l07.quiz#8",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|كَانَ}, un prédicat formé d'un seul mot (un adjectif, par exemple) est à l'accusatif." },
+      "answer": true,
+      "explain": "Le sujet reste au nominatif ; le prédicat passe à l'accusatif : {ar|كَانَ الْمَاءُ بَارِدًا}."
+    },
+    {
+      "id": "medine-t2.l07.quiz#9",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle remplace le sukūn du {ar|ت} dans {ar|ذَهَبَتْ الطَّالِبَةُ} ?" },
+      "choices": [ { "fr": "une kasra" }, { "fr": "une damma" }, { "fr": "une fatha" } ],
+      "answer": 0,
+      "explain": "Règle générale, la kasra : {ar|ذَهَبَتِ الطَّالِبَةُ}."
+    },
+    {
+      "id": "medine-t2.l07.quiz#10",
+      "type": "question",
+      "prompt": { "fr": "Dans quelle phrase le {ar|م} de {ar|تُمْ} prend-il une damma ?" },
+      "choices": [ { "ar": "قَرَأْتُمْ الْكِتَابَ" }, { "ar": "قَرَأْتُمْ كِتَابًا" }, { "ar": "قَرَأْتُمْ فِي الْبَيْتِ" } ],
+      "answer": 0,
+      "explain": "Seule la première est suivie de l'article {ar|الْ} : {ar|قَرَأْتُمُ الْكِتَابَ}."
+    },
+    {
+      "id": "medine-t2.l07.quiz#11",
+      "type": "order",
+      "fr": "Est-ce du café que tu as bu, ou du thé ? (à un homme)",
+      "answers": [["أَقَهْوَةً", "شَرِبْتَ", "أَمْ", "شَايًا"]],
+      "punctuation": "؟",
+      "explain": "Le complément d'objet passe avant le verbe, et reste à l'accusatif : {ar|قَهْوَةً}, {ar|شَايًا}."
+    },
+    {
+      "id": "medine-t2.l07.quiz#12",
+      "type": "fill_gap",
+      "sentence": "{0} الْكِتَابِ",
+      "fr": "la moitié du livre",
+      "gaps": [ { "answers": ["نِصْفُ"] } ],
+      "options": ["نِصْفُ", "ثُلُثُ", "رُبْعُ", "عُشْرُ"],
+      "explain": "Une moitié : {ar|نِصْفٌ}."
+    },
+    {
+      "id": "medine-t2.l07.quiz#13",
+      "type": "question",
+      "prompt": { "fr": "Quel est le plus petit morceau ?" },
+      "choices": [ { "ar": "عُشْرٌ" }, { "ar": "ثُلُثٌ" }, { "ar": "نِصْفٌ" } ],
+      "answer": 0,
+      "explain": "Un dixième ({ar|عُشْرٌ}) est plus petit qu'un tiers ou qu'une moitié."
+    },
+    {
+      "id": "medine-t2.l07.quiz#14",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|صَحِيفَةٌ} ?" },
+      "choices": [ { "ar": "صُحُفٌ" }, { "ar": "إِذَاعَاتٌ" }, { "ar": "أَخْبَارٌ" } ],
+      "answer": 0,
+      "explain": "{ar|صُحُفٌ}. {ar|إِذَاعَاتٌ} est le pluriel de {ar|إِذَاعَةٌ}, {ar|أَخْبَارٌ} celui de {ar|خَبَرٌ}."
+    },
+    {
+      "id": "medine-t2.l07.quiz#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai cherché le balai.",
+      "answers": ["بَحَثْتُ عَنِ الْمِكْنَسَةِ.", "أَنَا بَحَثْتُ عَنِ الْمِكْنَسَةِ."],
+      "explain": "{ar|بَحَثَ عَنْ} : devant {ar|الْ}, le {ar|ن} de {ar|عَنْ} prend la kasra."
+    },
+    {
+      "id": "medine-t2.l07.quiz#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Hier, j'ai entendu les nouvelles à la radio.",
+      "answers": [
+        "سَمِعْتُ الْأَخْبَارَ مِنَ الْإِذَاعَةِ الْبَارِحَةَ.",
+        "سَمِعْتُ الْأَخْبَارَ فِي الْإِذَاعَةِ الْبَارِحَةَ.",
+        "سَمِعْتُ الْأَخْبَارَ الْبَارِحَةَ مِنَ الْإِذَاعَةِ."
+      ]
+    }
+  ]
+}

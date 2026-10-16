@@ -1,0 +1,327 @@
+{
+  "id": "medine-t2.l07.dialogue-1",
+  "type": "dialogue",
+  "title": "Les fils, les filles et la mère",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l07.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Les fils, les filles et la mère",
+      "intro": "Un père interroge ses fils, rentrés de l'école. Pendant qu'ils parlent, la sonnette retentit : Marwān va ouvrir la porte et ses sœurs entrent (c'est l'indication de scène du livre). Le père interroge alors ses filles, puis leur mère parle avec elles.",
+      "speakers": {
+        "F": { "name": "Le père", "voice": "m1" },
+        "S": { "name": "Les fils", "voice": "m2" },
+        "Y": { "name": "Yūsuf", "voice": "m2" },
+        "B": { "name": "Bilāl", "voice": "m2" },
+        "M": { "name": "Marwān", "voice": "m2" },
+        "G": { "name": "Les filles", "voice": "f1" },
+        "T": { "name": "Tous", "voice": "m2" },
+        "U": { "name": "La mère", "voice": "f1" },
+        "D": { "name": "Suʿād", "voice": "f1" }
+      },
+      "lines": [
+        {
+          "speaker": "F",
+          "ar": "أَيْنَ ذَهَبْتُمْ بَعْدَ الدَّرْسِ يَا أَبْنَائِي؟",
+          "fr": "Où êtes-vous allés après le cours, mes fils ?"
+        },
+        { "speaker": "S", "ar": "ذَهَبْنَا إِلَى الْمَلْعَبِ.", "fr": "Nous sommes allés au terrain de jeu." },
+        {
+          "speaker": "F",
+          "ar": "أَكُرَةَ الْقَدَمِ لَعِبْتُمْ أَمْ كُرَةَ السَّلَّةِ؟",
+          "fr": "Avez-vous joué au football ou au basketball ?"
+        },
+        {
+          "speaker": "S",
+          "ar": "لَعِبْنَا الْيَوْمَ كُرَةَ الْقَدَمِ. لَعِبْنَا كُرَةَ السَّلَّةِ فِي الْأُسْبُوعِ الْمَاضِي.",
+          "fr": "Aujourd'hui, nous avons joué au football. Nous avons joué au basketball la semaine dernière."
+        },
+        {
+          "speaker": "F",
+          "ar": "أَمَا ذَهَبْتُمْ إِلَى الْمَكْتَبَةِ الْيَوْمَ؟",
+          "fr": "N'êtes-vous pas allés à la bibliothèque aujourd'hui ?"
+        },
+        { "speaker": "S", "ar": "بَلَى، ذَهَبْنَا.", "fr": "Si, nous y sommes allés." },
+        { "speaker": "F", "ar": "مَاذَا قَرَأْتُمْ هُنَاكَ؟", "fr": "Qu'avez-vous lu là-bas ?" },
+        { "speaker": "S", "ar": "قَرَأْنَا الصُّحُفَ.", "fr": "Nous avons lu les journaux." },
+        {
+          "speaker": "F",
+          "ar": "أَسَمِعْتُمُ الْأَخْبَارَ مِنَ الْإِذَاعَةِ الْيَوْمَ؟",
+          "fr": "Avez-vous entendu les nouvelles à la radio aujourd'hui ?"
+        },
+        { "speaker": "S", "ar": "نَعَمْ، سَمِعْنَاهَا.", "fr": "Oui, nous les avons entendues." },
+        {
+          "speaker": "F",
+          "ar": "مِنْ أَيِّ إِذَاعَةٍ سَمِعْتُمْ؟",
+          "fr": "Sur quelle radio les avez-vous entendues ?"
+        },
+        {
+          "speaker": "S",
+          "ar": "سَمِعْنَا مِنْ ثَلَاثِ إِذَاعَاتٍ: مِنْ إِذَاعَةِ الرِّيَاضِ وَإِذَاعَةِ الْقَاهِرَةِ وَإِذَاعَةِ لَنْدَنَ.",
+          "fr": "Nous les avons entendues sur trois radios : la radio de Riyad, la radio du Caire et la radio de Londres."
+        },
+        {
+          "speaker": "F",
+          "ar": "سَمِعْتُ أَنَّ بِلَالًا مَرِيضٌ وَأَنَّهُ فِي الْمُسْتَشْفَى. أَصَحِيحٌ هٰذَا؟",
+          "fr": "J'ai entendu dire que Bilāl est malade et qu'il est à l'hôpital. Est-ce vrai ?"
+        },
+        {
+          "speaker": "S",
+          "ar": "نَعَمْ، هٰذَا صَحِيحٌ. شَفَاهُ اللَّهُ.",
+          "fr": "Oui, c'est vrai. Qu'Allah le guérisse."
+        },
+        {
+          "speaker": "F",
+          "ar": "آمِينَ. مَتَى دَخَلَ الْمُسْتَشْفَى؟",
+          "fr": "Amen. Quand est-il entré à l'hôpital ?"
+        },
+        { "speaker": "S", "ar": "دَخَلَ قَبْلَ ثَلَاثَةِ أَيَّامٍ.", "fr": "Il y est entré il y a trois jours." },
+        {
+          "speaker": "F",
+          "ar": "أَيْنَ الْكِتَابُ ذُو الْغِلَافِ الْأَحْمَرِ الَّذِي كَانَ فِي غُرْفَتِي؟ أَرَأَيْتُمُوهُ؟",
+          "fr": "Où est le livre à la couverture rouge qui était dans ma chambre ? L'avez-vous vu ?"
+        },
+        {
+          "speaker": "Y",
+          "ar": "أَنَا أَخَذْتُهُ الْبَارِحَةَ وَقَرَأْتُ نِصْفَهُ.",
+          "fr": "Je l'ai pris hier et j'en ai lu la moitié."
+        },
+        {
+          "speaker": "F",
+          "ar": "وَأَيْنَ الْمَجَلَّةُ الَّتِي كَانَتْ تَحْتَ ذٰلِكَ الْكِتَابِ؟",
+          "fr": "Et où est la revue qui était sous ce livre-là ?"
+        },
+        { "speaker": "B", "ar": "أَهٰذِهِ هِيَ؟", "fr": "Est-ce celle-ci ?" },
+        {
+          "speaker": "F",
+          "ar": "لَا، الْمَجَلَّةُ ذَاتُ الْغِلَافِ الْأَصْفَرِ.",
+          "fr": "Non, la revue à la couverture jaune."
+        },
+        {
+          "speaker": "M",
+          "ar": "هِيَ عِنْدِي. أَخَذْتُهَا الْيَوْمَ.",
+          "fr": "Elle est chez moi. Je l'ai prise aujourd'hui."
+        },
+        {
+          "speaker": "G",
+          "ar": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.",
+          "fr": "Que la paix, la miséricorde d'Allah et ses bénédictions soient sur vous."
+        },
+        {
+          "speaker": "T",
+          "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.",
+          "fr": "Et sur vous la paix, la miséricorde d'Allah et ses bénédictions."
+        },
+        { "speaker": "F", "ar": "أَيْنَ ذَهَبْتُنَّ يَا بَنَاتِي؟", "fr": "Où êtes-vous allées, mes filles ?" },
+        {
+          "speaker": "G",
+          "ar": "ذَهَبْنَا لِزِيَارَةِ الْمُدِيرَةِ.",
+          "fr": "Nous sommes allées rendre visite à la directrice."
+        },
+        {
+          "speaker": "F",
+          "ar": "أَمَشَيْتُنَّ أَمْ ذَهَبْتُنَّ بِالسَّيَّارَةِ؟",
+          "fr": "Avez-vous marché, ou êtes-vous allées en voiture ?"
+        },
+        {
+          "speaker": "G",
+          "ar": "مَشَيْنَا لِأَنَّ بَيْتَهَا قَرِيبٌ مِنْ مَدْرَسَتِنَا. هُوَ بَيْنَ الْمَسْجِدِ وَالْمَدْرَسَةِ.",
+          "fr": "Nous avons marché parce que sa maison est proche de notre école. Elle se trouve entre la mosquée et l'école."
+        },
+        { "speaker": "U", "ar": "أَوَجَدْتُنَّهَا فِي الْبَيْتِ؟", "fr": "L'avez-vous trouvée à la maison ?" },
+        {
+          "speaker": "G",
+          "ar": "نَعَمْ، وَجَدْنَاهَا. جَلَسْنَا عِنْدَهَا ثُلُثَ سَاعَةٍ وَخَرَجْنَا مِنْ بَيْتِهَا فِي السَّاعَةِ الْخَامِسَةِ.",
+          "fr": "Oui, nous l'avons trouvée. Nous sommes restées assises chez elle un tiers d'heure, puis nous sommes sorties de chez elle à cinq heures."
+        },
+        {
+          "speaker": "U",
+          "ar": "أَرَأَيْتُنَّ الْمِكْنَسَةَ يَا بَنَاتُ؟ بَحَثْتُ عَنْهَا كَثِيرًا وَمَا وَجَدْتُهَا.",
+          "fr": "Avez-vous vu le balai, les filles ? Je l'ai beaucoup cherché et je ne l'ai pas trouvé."
+        },
+        {
+          "speaker": "D",
+          "ar": "أَنَا وَضَعْتُهَا تَحْتَ السُّلَّمِ هٰذَا الصَّبَاحَ.",
+          "fr": "Moi, je l'ai posé sous l'escalier ce matin."
+        },
+        {
+          "speaker": "M",
+          "ar": "يَا أُمِّي، أَفِي الثَّلَّاجَةِ مَاءٌ بَارِدٌ؟ نَحْنُ عِطَاشٌ.",
+          "fr": "Maman, y a-t-il de l'eau froide dans le réfrigérateur ? Nous avons soif."
+        },
+        {
+          "speaker": "U",
+          "ar": "أَبْشِرْ. فِيهَا مَاءٌ بَارِدٌ، وَعَصِيرُ بُرْتُقَالٍ.",
+          "fr": "Bonne nouvelle ! Il y a de l'eau froide dedans, et du jus d'orange."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.dialogue-1#2",
+      "type": "tip",
+      "title": "Une scène et des formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ce texte contient quelques formes que tu n'as pas encore étudiées en détail. Il suffit de les repérer : rien n'est exigé en exercice."
+        },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            [
+              "{ar|يَرِنُّ الْجَرَسُ فَيَقُومُ مَرْوَانُ وَيَفْتَحُ الْبَابَ وَتَدْخُلُ أَخَوَاتُهُ}",
+              "la sonnette sonne ; Marwān se lève, ouvre la porte et ses sœurs entrent (indication de scène)",
+              "des verbes au présent ({ar|يَرِنُّ}, {ar|يَقُومُ}, {ar|يَفْتَحُ}, {ar|تَدْخُلُ}) : le présent viendra plus tard ; {ar|فَ} = « alors »"
+            ],
+            [
+              "{ar|أَرَأَيْتُمُوهُ}",
+              "l'avez-vous vu ?",
+              "{ar|أَ} + {ar|رَأَيْتُمْ} + {ar|هُ} : devant le pronom {ar|هُ}, le {ar|م} prend une damma et un {ar|و}"
+            ],
+            [
+              "{ar|الَّذِي كَانَ} / {ar|الَّتِي كَانَتْ}",
+              "qui était (masculin / féminin)",
+              "{ar|الَّذِي} et {ar|الَّتِي} sont les pronoms relatifs, étudiés au cours 9"
+            ],
+            [
+              "{ar|ذُو الْغِلَافِ} / {ar|ذَاتُ الْغِلَافِ}",
+              "à la couverture… (masculin / féminin)",
+              "{ar|ذُو} et son féminin {ar|ذَاتُ} (chapitre 1) : « possesseur de »"
+            ],
+            [
+              "{ar|فِي السَّاعَةِ الْخَامِسَةِ}",
+              "à cinq heures",
+              "{ar|الْخَامِسَةِ} (« cinquième ») est un nombre ordinal, étudié plus tard"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.dialogue-1#3",
+      "type": "tip",
+      "title": "Des petits mots à repérer",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            [
+              "{ar|شَفَاهُ اللَّهُ}",
+              "qu'Allah le guérisse",
+              "{ar|شَفَى} (« il a guéri ») + {ar|هُ} : un souhait au passé"
+            ],
+            ["{ar|آمِينَ}", "amen", "on le dit après une invocation"],
+            ["{ar|هٰذَا الصَّبَاحَ}", "ce matin", "expression de temps à l'accusatif, comme {ar|الْيَوْمَ}"],
+            ["{ar|ثُلُثَ سَاعَةٍ}", "pendant un tiers d'heure", "durée : à l'accusatif, avec la fatha"],
+            [
+              "{ar|وَعَلَيْكُمُ السَّلَامُ}",
+              "et sur vous la paix",
+              "le {ar|م} de {ar|عَلَيْكُمْ} prend une damma devant {ar|السَّلَامُ} (rencontre de deux sukūn)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "À quoi les fils ont-ils joué aujourd'hui ?" },
+      "choices": [ { "fr": "Au football" }, { "fr": "Au basketball" }, { "fr": "À rien" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l07.dialogue-1#1" },
+      "explain": "{ar|لَعِبْنَا الْيَوْمَ كُرَةَ الْقَدَمِ}. Le basketball, c'était la semaine dernière."
+    },
+    {
+      "id": "medine-t2.l07.dialogue-1#5",
+      "type": "true_false",
+      "statement": {
+        "ar": "قَرَأَ الْأَبْنَاءُ الصُّحُفَ فِي الْمَكْتَبَةِ.",
+        "fr": "Les fils ont lu les journaux à la bibliothèque."
+      },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l07.dialogue-1#1" },
+      "explain": "Ils vont à la bibliothèque, et le père demande ce qu'ils y ont lu : {ar|قَرَأْنَا الصُّحُفَ}."
+    },
+    {
+      "id": "medine-t2.l07.dialogue-1#6",
+      "type": "question",
+      "prompt": { "fr": "Quand Bilāl est-il entré à l'hôpital ?" },
+      "choices": [ { "fr": "Il y a trois jours" }, { "fr": "Hier" }, { "fr": "Il y a une semaine" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l07.dialogue-1#1" },
+      "explain": "{ar|دَخَلَ قَبْلَ ثَلَاثَةِ أَيَّامٍ}."
+    },
+    {
+      "id": "medine-t2.l07.dialogue-1#7",
+      "type": "question",
+      "prompt": { "fr": "Qui a pris le livre à la couverture rouge ?" },
+      "choices": [ { "fr": "Yūsuf" }, { "fr": "Marwān" }, { "fr": "Bilāl" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l07.dialogue-1#1" },
+      "explain": "{ar|أَنَا أَخَذْتُهُ الْبَارِحَةَ وَقَرَأْتُ نِصْفَهُ}, dit Yūsuf."
+    },
+    {
+      "id": "medine-t2.l07.dialogue-1#8",
+      "type": "fill_gap",
+      "sentence": "نَعَمْ، {0}.",
+      "fr": "Oui, nous l'avons trouvée.",
+      "gaps": [ { "answers": ["وَجَدْنَاهَا"] } ],
+      "options": ["وَجَدْنَاهَا", "وَجَدْنَاهُ", "وَجَدْنَاكَ"],
+      "context": { "dialogue": "medine-t2.l07.dialogue-1#1" },
+      "explain": "Les filles répondent à propos de la directrice : un pronom féminin, {ar|هَا}."
+    },
+    {
+      "id": "medine-t2.l07.dialogue-1#9",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi les filles ont-elles marché ?" },
+      "choices": [
+        { "fr": "La maison de la directrice est près de leur école" },
+        { "fr": "Il n'y avait pas de voiture" },
+        { "fr": "Elles étaient en retard" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l07.dialogue-1#1" },
+      "explain": "{ar|مَشَيْنَا لِأَنَّ بَيْتَهَا قَرِيبٌ مِنْ مَدْرَسَتِنَا}."
+    },
+    {
+      "id": "medine-t2.l07.dialogue-1#10",
+      "type": "question",
+      "prompt": { "fr": "Où Suʿād a-t-elle posé le balai ?" },
+      "choices": [ { "fr": "Sous l'escalier" }, { "fr": "Dans la cuisine" }, { "fr": "Dans le réfrigérateur" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l07.dialogue-1#1" },
+      "explain": "{ar|أَنَا وَضَعْتُهَا تَحْتَ السُّلَّمِ هٰذَا الصَّبَاحَ}."
+    },
+    {
+      "id": "medine-t2.l07.dialogue-1#11",
+      "type": "order",
+      "fr": "Nous avons soif.",
+      "answers": [["نَحْنُ", "عِطَاشٌ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l07.dialogue-1#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Bonne nouvelle !",
+      "answers": ["أَبْشِرْ."]
+    },
+    {
+      "id": "medine-t2.l07.dialogue-1#13",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ وَضَعَتْ سُعَادُ الْمِكْنَسَةَ؟",
+      "answers": [
+        "وَضَعَتْهَا تَحْتَ السُّلَّمِ.",
+        "وَضَعَتْ سُعَادُ الْمِكْنَسَةَ تَحْتَ السُّلَّمِ.",
+        "تَحْتَ السُّلَّمِ.",
+        "وَضَعَتْهَا تَحْتَ السُّلَّمِ هٰذَا الصَّبَاحَ."
+      ],
+      "fr": "Elle l'a posé sous l'escalier.",
+      "context": { "dialogue": "medine-t2.l07.dialogue-1#1" }
+    }
+  ]
+}

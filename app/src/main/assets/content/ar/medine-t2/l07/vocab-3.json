@@ -1,0 +1,102 @@
+{
+  "id": "medine-t2.l07.vocab-3",
+  "type": "vocabulary",
+  "title": "La radio, les journaux, le sport",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t2.l07.vocab-3#1", "type": "present", "item": "w:idhaa" },
+    { "id": "medine-t2.l07.vocab-3#2", "type": "present", "item": "w:akhbar" },
+    {
+      "id": "medine-t2.l07.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:idhaa",
+      "distractors": ["w:akhbar", "w:kitab"]
+    },
+    { "id": "medine-t2.l07.vocab-3#4", "type": "present", "item": "w:sahifa" },
+    { "id": "medine-t2.l07.vocab-3#5", "type": "present", "item": "p:kurat-assalla" },
+    {
+      "id": "medine-t2.l07.vocab-3#6",
+      "type": "tip",
+      "title": "Jouer au football, jouer au basketball",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre emploie {ar|لَعِبَ} de deux façons : directement avec le nom du sport, ou avec la préposition {ar|بِ}."
+        },
+        {
+          "type": "table",
+          "header": ["Construction", "Exemple", "Sens"],
+          "rows": [
+            ["verbe + nom du sport", "{ar|لَعِبْنَا كُرَةَ الْقَدَمِ}", "nous avons joué au football"],
+            ["verbe + {ar|بِ} + nom du sport", "{ar|لَعِبْنَا بِكُرَةِ الْقَدَمِ}", "nous avons joué au football"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans la première, le nom du sport est le complément d'objet : {ar|كُرَةَ} prend la fatha. Dans la seconde, il suit la préposition {ar|بِ} : {ar|كُرَةِ} prend la kasra."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Avec un nom féminin, les nombres de 3 à 10 s'écrivent sans {ar|ة} : {ar|ثَلَاثُ إِذَاعَاتٍ} (« trois radios »), comme {ar|ثَلَاثُ بَنَاتٍ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.vocab-3#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:idhaa", "w:akhbar", "w:sahifa", "p:kurat-assalla", "p:kurat-alqadam"]
+    },
+    {
+      "id": "medine-t2.l07.vocab-3#8",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:idhaa", "w:sahifa", "w:kitab"]
+    },
+    {
+      "id": "medine-t2.l07.vocab-3#9",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "p:kurat-assalla",
+      "distractors": ["p:kurat-alqadam", "w:kura"]
+    },
+    {
+      "id": "medine-t2.l07.vocab-3#10",
+      "type": "fill_gap",
+      "sentence": "سَمِعْتُ {0} مِنَ الْإِذَاعَةِ.",
+      "fr": "J'ai entendu les nouvelles à la radio.",
+      "gaps": [ { "answers": ["الْأَخْبَارَ"] } ],
+      "options": ["الْأَخْبَارَ", "الْمِكْنَسَةَ", "الْغِلَافَ", "السُّلَّمَ"],
+      "explain": "On entend « les nouvelles » à la radio : {ar|الْأَخْبَارَ}."
+    },
+    {
+      "id": "medine-t2.l07.vocab-3#11",
+      "type": "order",
+      "fr": "J'ai entendu les nouvelles à la radio.",
+      "answers": [["سَمِعْتُ", "الْأَخْبَارَ", "مِنَ", "الْإِذَاعَةِ"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l07.vocab-3#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous avons joué au football.",
+      "answers": [
+        "لَعِبْنَا كُرَةَ الْقَدَمِ.",
+        "لَعِبْنَا بِكُرَةِ الْقَدَمِ.",
+        "نَحْنُ لَعِبْنَا كُرَةَ الْقَدَمِ.",
+        "نَحْنُ لَعِبْنَا بِكُرَةِ الْقَدَمِ."
+      ]
+    },
+    {
+      "id": "medine-t2.l07.vocab-3#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai lu une page.",
+      "answers": ["قَرَأْتُ صَحِيفَةً.", "أَنَا قَرَأْتُ صَحِيفَةً."]
+    }
+  ]
+}

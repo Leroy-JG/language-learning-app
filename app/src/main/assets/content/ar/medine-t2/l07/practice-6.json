@@ -1,0 +1,86 @@
+{
+  "id": "medine-t2.l07.practice-6",
+  "type": "grammar",
+  "title": "Est-ce… ou… ? Exercice 10",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l07.practice-6#1",
+      "type": "tip",
+      "title": "L'exercice 10 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne trois phrases modèles, puis cinq groupes de mots avec lesquels il faut faire la même question {ar|أَ} … {ar|أَمْ} … (le complément d'objet passe avant le verbe)."
+        },
+        {
+          "type": "table",
+          "header": ["Modèle", "Sens"],
+          "rows": [
+            [
+              "{ar|أَكُرَةَ الْقَدَمِ لَعِبْتُمْ أَمْ كُرَةَ السَّلَّةِ؟}",
+              "Est-ce au football que vous avez joué, ou au basketball ?"
+            ],
+            ["{ar|أَمُحَمَّدًا رَأَيْتَ أَمْ حَامِدًا؟}", "Est-ce Muḥammad que tu as vu, ou Ḥāmid ?"],
+            [
+              "{ar|أَكِتَابَ الْفِقْهِ أَخَذْتِ أَمْ كِتَابَ السِّيرَةِ؟}",
+              "Est-ce le livre de fiqh que tu as pris (à une femme), ou le livre de biographie ?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.practice-6#2",
+      "type": "order",
+      "fr": "Est-ce ʿAbbās que tu as frappé, ou Maḥmūd ? (à un homme)",
+      "answers": [["أَعَبَّاسًا", "ضَرَبْتَ", "أَمْ", "مَحْمُودًا"]],
+      "punctuation": "؟",
+      "explain": "Le complément passe avant le verbe : {ar|أَعَبَّاسًا ضَرَبْتَ أَمْ مَحْمُودًا؟}. Les deux noms sont à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l07.practice-6#3",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Est-ce le jus d'orange que tu as bu, ou le jus de raisin ? (à un homme)",
+      "answers": ["أَعَصِيرَ الْبُرْتُقَالِ شَرِبْتَ أَمْ عَصِيرَ الْعِنَبِ؟"],
+      "explain": "{ar|عَصِيرَ} est le complément d'objet : fatha ; {ar|الْبُرْتُقَالِ} et {ar|الْعِنَبِ} sont au génitif (second terme de l'annexion)."
+    },
+    {
+      "id": "medine-t2.l07.practice-6#4",
+      "type": "order",
+      "fr": "Est-ce la voiture du directeur que vous avez vue, ou la voiture de l'enseignant ? (à plusieurs hommes)",
+      "answers": [["أَسَيَّارَةَ", "الْمُدِيرِ", "رَأَيْتُمْ", "أَمْ", "سَيَّارَةَ", "الْمُدَرِّسِ"]],
+      "punctuation": "؟",
+      "explain": "{ar|سَيَّارَةَ} est le complément d'objet (fatha) ; {ar|الْمُدِيرِ} et {ar|الْمُدَرِّسِ} sont au génitif."
+    },
+    {
+      "id": "medine-t2.l07.practice-6#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Est-ce cette revue-ci que vous avez lue, ou celle-là ? (à plusieurs femmes)",
+      "answers": [
+        "أَهٰذِهِ الْمَجَلَّةَ قَرَأْتُنَّ أَمْ تِلْكَ؟",
+        "أَهٰذِهِ الْمَجَلَّةَ قَرَأْتُنَّ أَمْ تِلْكَ الْمَجَلَّةَ؟",
+        "أَهٰذِهِ قَرَأْتُنَّ أَمْ تِلْكَ؟"
+      ],
+      "explain": "{ar|هٰذِهِ الْمَجَلَّةَ} : « cette revue » ; {ar|تِلْكَ} : « celle-là » (le nom {ar|الْمَجَلَّةَ} n'est pas obligé d'être répété)."
+    },
+    {
+      "id": "medine-t2.l07.practice-6#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Est-ce la clé de la maison que tu as prise, ou la clé de la voiture ? (à un homme)",
+      "answers": ["أَمِفْتَاحَ الْبَيْتِ أَخَذْتَ أَمْ مِفْتَاحَ السَّيَّارَةِ؟"]
+    },
+    {
+      "id": "medine-t2.l07.practice-6#7",
+      "type": "spot",
+      "instruction": "Touche les deux compléments d'objet.",
+      "words": ["أَسَيَّارَةَ", "الْمُدِيرِ", "رَأَيْتُمْ", "أَمْ", "سَيَّارَةَ", "الْمُدَرِّسِ؟"],
+      "answers": [0, 4],
+      "fr": "Est-ce la voiture du directeur que vous avez vue, ou la voiture de l'enseignant ?",
+      "explain": "Les compléments d'objet sont {ar|سَيَّارَةَ} (les deux fois). {ar|الْمُدِيرِ} et {ar|الْمُدَرِّسِ} sont des seconds termes d'annexion (génitif)."
+    }
+  ]
+}

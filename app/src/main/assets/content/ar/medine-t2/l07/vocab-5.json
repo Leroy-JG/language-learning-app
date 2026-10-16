@@ -1,0 +1,118 @@
+{
+  "id": "medine-t2.l07.vocab-5",
+  "type": "vocabulary",
+  "title": "Les fractions",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l07.vocab-5#1",
+      "type": "tip",
+      "title": "Une moitié, un tiers, un quart…",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 11 du livre donne les fractions. {ar|نِصْفٌ} (« une moitié ») est déjà connu ; les autres ressemblent aux nombres de 3 à 10."
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "Fraction"],
+          "rows": [
+            ["{ar|ثَلَاثَةٌ} (3)", "{ar|ثُلُثٌ} (un tiers)"],
+            ["{ar|أَرْبَعَةٌ} (4)", "{ar|رُبْعٌ} (un quart)"],
+            ["{ar|خَمْسَةٌ} (5)", "{ar|خُمْسٌ} (un cinquième)"],
+            ["{ar|سِتَّةٌ} (6)", "{ar|سُدُسٌ} (un sixième)"],
+            ["{ar|سَبْعَةٌ} (7)", "{ar|سُبْعٌ} (un septième)"],
+            ["{ar|ثَمَانِيَةٌ} (8)", "{ar|ثُمْنٌ} (un huitième)"],
+            ["{ar|تِسْعَةٌ} (9)", "{ar|تُسْعٌ} (un neuvième)"],
+            ["{ar|عَشَرَةٌ} (10)", "{ar|عُشْرٌ} (un dixième)"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Pour 6, la ressemblance est plus faible : {ar|سِتَّةٌ} → {ar|سُدُسٌ}."
+        }
+      ]
+    },
+    { "id": "medine-t2.l07.vocab-5#2", "type": "present", "item": "w:thuluth" },
+    { "id": "medine-t2.l07.vocab-5#3", "type": "present", "item": "w:rubu" },
+    {
+      "id": "medine-t2.l07.vocab-5#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:rubu",
+      "distractors": ["w:thuluth", "w:nisf"]
+    },
+    { "id": "medine-t2.l07.vocab-5#5", "type": "present", "item": "w:khums" },
+    { "id": "medine-t2.l07.vocab-5#6", "type": "present", "item": "w:suds" },
+    {
+      "id": "medine-t2.l07.vocab-5#7",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:suds",
+      "distractors": ["w:khums", "w:rubu"]
+    },
+    { "id": "medine-t2.l07.vocab-5#8", "type": "present", "item": "w:subu" },
+    { "id": "medine-t2.l07.vocab-5#9", "type": "present", "item": "w:thumn" },
+    {
+      "id": "medine-t2.l07.vocab-5#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:thuluth", "w:rubu", "w:khums", "w:suds", "w:subu"]
+    },
+    { "id": "medine-t2.l07.vocab-5#11", "type": "present", "item": "w:tus" },
+    { "id": "medine-t2.l07.vocab-5#12", "type": "present", "item": "w:ushr" },
+    {
+      "id": "medine-t2.l07.vocab-5#13",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:thumn", "w:tus", "w:ushr", "w:nisf", "w:khums"]
+    },
+    {
+      "id": "medine-t2.l07.vocab-5#14",
+      "type": "fill_gap",
+      "sentence": "{0} سَاعَةٍ",
+      "fr": "un quart d'heure",
+      "gaps": [ { "answers": ["رُبْعُ"] } ],
+      "options": ["رُبْعُ", "ثُلُثُ", "نِصْفُ", "عُشْرُ"],
+      "explain": "Quinze minutes : {ar|رُبْعُ سَاعَةٍ}."
+    },
+    {
+      "id": "medine-t2.l07.vocab-5#15",
+      "type": "fill_gap",
+      "sentence": "{0} سَاعَةٍ",
+      "fr": "un tiers d'heure (vingt minutes)",
+      "gaps": [ { "answers": ["ثُلُثُ"] } ],
+      "options": ["ثُلُثُ", "رُبْعُ", "نِصْفُ", "عُشْرُ"],
+      "explain": "Vingt minutes : {ar|ثُلُثُ سَاعَةٍ}."
+    },
+    {
+      "id": "medine-t2.l07.vocab-5#16",
+      "type": "true_false",
+      "statement": {
+        "ar": "نِصْفُ الْكِتَابِ أَكْبَرُ مِنْ ثُلُثِ الْكِتَابِ.",
+        "fr": "La moitié du livre est plus grande que le tiers du livre."
+      },
+      "answer": true,
+      "explain": "Plus on coupe en parts, plus chaque part est petite : une moitié est plus grande qu'un tiers."
+    },
+    {
+      "id": "medine-t2.l07.vocab-5#17",
+      "type": "true_false",
+      "statement": {
+        "ar": "ثُمْنُ الْكِتَابِ أَكْبَرُ مِنْ رُبْعِ الْكِتَابِ.",
+        "fr": "Le huitième du livre est plus grand que le quart du livre."
+      },
+      "answer": false,
+      "explain": "C'est l'inverse : un quart est plus grand qu'un huitième."
+    },
+    {
+      "id": "medine-t2.l07.vocab-5#18",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "un tiers du livre",
+      "answers": ["ثُلُثُ الْكِتَابِ."],
+      "explain": "Annexion : {ar|ثُلُثُ} + {ar|الْكِتَابِ} au génitif."
+    }
+  ]
+}

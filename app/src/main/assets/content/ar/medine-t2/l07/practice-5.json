@@ -1,0 +1,115 @@
+{
+  "id": "medine-t2.l07.practice-5",
+  "type": "grammar",
+  "title": "Lire avec les bonnes voyelles : exercice 7",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l07.practice-5#1",
+      "type": "tip",
+      "title": "L'exercice 7 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne cinq paires d'exemples, puis treize phrases à lire en ajoutant la voyelle de liaison du {ar|م} et des autres lettres sans voyelle. Les phrases ci-dessous sont écrites comme dans le livre : la dernière lettre du premier mot porte encore son sukūn."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَقَرَأْتُمْ الْقُرْآنَ؟", "fr": "écrit avec un sukūn" },
+              "to": { "ar": "أَقَرَأْتُمُ الْقُرْآنَ؟", "fr": "avec la voyelle de liaison" }
+            },
+            {
+              "from": { "ar": "خَرَجَتْ الْبِنْتُ", "fr": "écrit avec un sukūn" },
+              "to": { "ar": "خَرَجَتِ الْبِنْتُ", "fr": "avec la voyelle de liaison" }
+            },
+            {
+              "from": { "ar": "مَنْ الْوَلَدُ؟", "fr": "écrit avec un sukūn" },
+              "to": { "ar": "مَنِ الْوَلَدُ؟", "fr": "avec la voyelle de liaison" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l07.practice-5#2",
+      "type": "sort",
+      "categories": [ { "fr": "une damma" }, { "fr": "une kasra" }, { "fr": "rien ne change" } ],
+      "cards": [
+        { "ar": "أَكَلْتُمْ الْمَوْزَ", "category": 0 },
+        { "ar": "جَلَسْتُمْ فِي الْفَصْلِ", "category": 2 },
+        { "ar": "دَخَلْتُمْ الْمَسْجِدَ", "category": 0 },
+        { "ar": "فَهِمْتُمْ دَرْسَ الْفِقْهِ", "category": 2 },
+        { "ar": "سَمِعْتُمْ الْأَذَانَ", "category": 0 },
+        { "ar": "أَلَكُمْ هٰذِهِ السَّيَّارَةُ", "category": 2 },
+        { "ar": "كَتَبَتْ الطَّالِبَةُ الدَّرْسَ", "category": 1 },
+        { "ar": "فَهِمْتُمْ الدَّرْسَ", "category": 0 }
+      ],
+      "instruction": "Que devient le sukūn de la dernière lettre du premier mot ?",
+      "explain": "Devant l'article, {ar|تُمْ} prend la damma et {ar|تْ} la kasra. Devant un mot sans article ({ar|فِي}, {ar|دَرْسَ}, {ar|هٰذِهِ}), rien ne change."
+    },
+    {
+      "id": "medine-t2.l07.practice-5#3",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|مَنْ الْفَتَى؟} (« qui est le jeune homme ? »), quelle voyelle remplace le sukūn du {ar|ن} ?"
+      },
+      "choices": [ { "fr": "une kasra" }, { "fr": "une fatha" }, { "fr": "une damma" } ],
+      "answer": 0,
+      "explain": "{ar|مَنْ} (« qui ? ») prend la kasra : {ar|مَنِ الْفَتَى؟}."
+    },
+    {
+      "id": "medine-t2.l07.practice-5#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|مَنْ هٰذَا الرَّجُلُ؟} (« qui est cet homme ? »), que devient le sukūn du {ar|ن} ?" },
+      "choices": [
+        { "fr": "Rien : {ar|هٰذَا} ne commence pas par {ar|الْ}" },
+        { "fr": "Il prend une kasra" },
+        { "fr": "Il prend une fatha" }
+      ],
+      "answer": 0,
+      "explain": "Seul l'article provoque la rencontre de deux sukūn ; {ar|هٰذَا} n'en est pas un."
+    },
+    {
+      "id": "medine-t2.l07.practice-5#5",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|أَيْنَ الْمُدِيرَةُ؟ خَرَجَتْ الْآنَ.}, quelle voyelle remplace le sukūn du {ar|ت} de {ar|خَرَجَتْ} ?"
+      },
+      "choices": [ { "fr": "une kasra" }, { "fr": "une damma" }, { "fr": "une fatha" } ],
+      "answer": 0,
+      "explain": "{ar|الْآنَ} commence par l'article : on lit {ar|خَرَجَتِ الْآنَ}."
+    },
+    {
+      "id": "medine-t2.l07.practice-5#6",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أَلَكُمْ الْكُتُبُ؟}, quelle voyelle remplace le sukūn du {ar|م} ?" },
+      "choices": [ { "fr": "une damma" }, { "fr": "une kasra" }, { "fr": "une fatha" } ],
+      "answer": 0,
+      "explain": "Le {ar|م} de {ar|كُمْ} prend la damma : {ar|أَلَكُمُ الْكُتُبُ؟}."
+    },
+    {
+      "id": "medine-t2.l07.practice-5#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Vous avez mangé les bananes. (à plusieurs hommes)",
+      "answers": ["أَكَلْتُمُ الْمَوْزَ.", "أَنْتُمْ أَكَلْتُمُ الْمَوْزَ."],
+      "explain": "{ar|أَكَلْتُمْ} + {ar|الْمَوْزَ} : le {ar|م} prend la damma."
+    },
+    {
+      "id": "medine-t2.l07.practice-5#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Vous avez compris la leçon. (à plusieurs hommes)",
+      "answers": ["فَهِمْتُمُ الدَّرْسَ.", "أَنْتُمْ فَهِمْتُمُ الدَّرْسَ."]
+    },
+    {
+      "id": "medine-t2.l07.practice-5#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Où est la directrice ? Elle est sortie maintenant.",
+      "answers": ["أَيْنَ الْمُدِيرَةُ؟ خَرَجَتِ الْآنَ.", "أَيْنَ الْمُدِيرَةُ؟ هِيَ خَرَجَتِ الْآنَ."]
+    }
+  ]
+}
