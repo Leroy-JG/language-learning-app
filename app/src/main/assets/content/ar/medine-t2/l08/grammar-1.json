@@ -1,0 +1,167 @@
+{
+  "id": "medine-t2.l08.grammar-1",
+  "type": "grammar",
+  "title": "Les pronoms collés de l'accusatif",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l08.grammar-1#1",
+      "type": "tip",
+      "title": "Trois cas pour les pronoms collés",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un pronom collé a trois cas : le nominatif ({ar|الرَّفْعُ}), l'accusatif ({ar|النَّصْبُ}) et le génitif ({ar|الْجَرُّ}). Dans la carte du professeur, la case de l'accusatif était restée vide : on la remplit aujourd'hui."
+        },
+        {
+          "type": "table",
+          "header": ["Cas", "Où se trouve le pronom ?", "Exemples"],
+          "rows": [
+            ["nominatif ({ar|الرَّفْعُ})", "sujet d'un verbe", "{ar|كَتَبْتُ}, {ar|كَتَبُوا}, {ar|كَتَبْنَ}"],
+            [
+              "accusatif ({ar|النَّصْبُ})",
+              "complément d'un verbe, ou nom de {ar|إِنَّ}",
+              "{ar|ضَرَبَكَ}, {ar|إِنَّكَ}"
+            ],
+            [
+              "génitif ({ar|الْجَرُّ})",
+              "après un nom ou une préposition",
+              "{ar|كِتَابُكَ}, {ar|لَكَ}, {ar|عَلَيْكَ}"
+            ]
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t2.l08.grammar-1#2", "type": "present", "item": "w:damir-muttasil-mansub" },
+    { "id": "medine-t2.l08.grammar-1#3", "type": "present", "item": "w:damir-muttasil-majrur" },
+    {
+      "id": "medine-t2.l08.grammar-1#4",
+      "type": "sort",
+      "categories": [
+        { "fr": "sujet (nominatif)" },
+        { "fr": "complément (accusatif)" },
+        { "fr": "après un nom ou une préposition (génitif)" }
+      ],
+      "cards": [
+        { "ar": "كَتَبْتُ", "category": 0 },
+        { "ar": "خَرَجُوا", "category": 0 },
+        { "ar": "ضَرَبَكَ", "category": 1 },
+        { "ar": "فَتَحَهَا", "category": 1 },
+        { "ar": "كِتَابُكَ", "category": 2 },
+        { "ar": "عَلَيْهِمْ", "category": 2 }
+      ],
+      "instruction": "Quel est le cas du pronom collé ?",
+      "explain": "Collé à un verbe, le pronom est le sujet ({ar|كَتَبْتُ}, {ar|خَرَجُوا}) ou le complément ({ar|ضَرَبَكَ}, {ar|فَتَحَهَا}) : on le reconnaît à la forme. Collé à un nom ou à une préposition, il est au génitif ({ar|كِتَابُكَ}, {ar|عَلَيْهِمْ})."
+    },
+    {
+      "id": "medine-t2.l08.grammar-1#5",
+      "type": "tip",
+      "title": "Les mêmes pronoms que ceux du génitif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les pronoms collés de l'accusatif sont, à une exception près, **les mêmes** que ceux du génitif que tu connais ({ar|كِتَابُكَ}, {ar|عَلَيْكَ}), aux voyelles près ({ar|هُ} devient {ar|هِ} après une kasra, comme dans {ar|عَلَيْهِ}). Collés à un verbe, ils sont le complément d'objet. Exemples avec {ar|ضَرَبَ} (« il a frappé ») :"
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Sens (complément)", "Avec {ar|ضَرَبَ}"],
+          "rows": [
+            ["{ar|نِي}", "me", "{ar|ضَرَبَنِي} : il m'a frappé"],
+            ["{ar|نَا}", "nous", "{ar|ضَرَبَنَا} : il nous a frappés"],
+            ["{ar|كَ}", "te (à un homme)", "{ar|ضَرَبَكَ} : il t'a frappé"],
+            ["{ar|كِ}", "te (à une femme)", "{ar|ضَرَبَكِ} : il t'a frappée"],
+            ["{ar|كُمَا}", "vous (deux personnes)", "{ar|ضَرَبَكُمَا} : il vous a frappés (tous les deux)"],
+            ["{ar|كُمْ}", "vous (plusieurs hommes, ou un groupe mixte)", "{ar|ضَرَبَكُمْ} : il vous a frappés"],
+            ["{ar|كُنَّ}", "vous (plusieurs femmes)", "{ar|ضَرَبَكُنَّ} : il vous a frappées"],
+            ["{ar|هُ}", "le", "{ar|ضَرَبَهُ} : il l'a frappé"],
+            ["{ar|هَا}", "la", "{ar|ضَرَبَهَا} : il l'a frappée"],
+            ["{ar|هُمَا}", "les (deux personnes)", "{ar|ضَرَبَهُمَا} : il les a frappés (tous les deux)"],
+            ["{ar|هُمْ}", "les (plusieurs hommes, ou un groupe mixte)", "{ar|ضَرَبَهُمْ} : il les a frappés"],
+            ["{ar|هُنَّ}", "les (plusieurs femmes)", "{ar|ضَرَبَهُنَّ} : il les a frappées"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Seul « me » change. Avec un verbe, on colle {ar|نِي} ({ar|ضَرَبَنِي}) ; avec un nom et la plupart des prépositions, c'est le {ar|ي} sans {ar|ن} ({ar|كِتَابِي}, {ar|لِي}, {ar|بِي}, {ar|عَلَيَّ}). Seules {ar|مِنْ} et {ar|عَنْ} prennent la nūn : {ar|مِنِّي}, {ar|عَنِّي}."
+        },
+        {
+          "type": "note",
+          "text": "Le professeur classe ces pronoms par personne : {ar|الْمُتَكَلِّمُ} (« moi, nous »), {ar|الْمُخَاطَبُ} (« toi, vous ») et {ar|الْغَائِبُ} (« lui, elle, eux »). {ar|كَ} et {ar|كِ} ne se distinguent que par leur voyelle."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.grammar-1#6",
+      "type": "tip",
+      "title": "Un verbe et son pronom",
+      "blocks": [
+        {
+          "type": "breakdown",
+          "ar": "ضَرَبَكُمْ",
+          "fr": "il vous a frappés",
+          "parts": [ { "ar": "ضَرَبَ", "fr": "il a frappé" }, { "ar": "كُمْ", "fr": "vous (le complément)" } ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "ضَرَبَهُنَّ",
+          "fr": "il les a frappées",
+          "parts": [ { "ar": "ضَرَبَ", "fr": "il a frappé" }, { "ar": "هُنَّ", "fr": "les (plusieurs femmes)" } ]
+        },
+        {
+          "type": "note",
+          "text": "Le pronom complément se colle tel quel à la fin du verbe. Un verbe qui a un sujet nom garde le pronom collé à lui : {ar|ضَرَبَكُمْ زَيْدٌ} (« Zayd vous a frappés »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.grammar-1#7",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « il vous a frappés » (à plusieurs hommes) ?" },
+      "choices": [ { "ar": "ضَرَبَكُمْ" }, { "ar": "ضَرَبَكُنَّ" }, { "ar": "ضَرَبَكُمَا" } ],
+      "answer": 0,
+      "explain": "{ar|كُمْ} : « vous », plusieurs hommes (ou un groupe mixte). {ar|كُنَّ} s'adresse à plusieurs femmes ; {ar|كُمَا} à deux personnes."
+    },
+    {
+      "id": "medine-t2.l08.grammar-1#8",
+      "type": "question",
+      "prompt": { "fr": "Quel pronom collé veut dire « les » (plusieurs femmes) ?" },
+      "choices": [ { "ar": "هُنَّ" }, { "ar": "هُمْ" }, { "ar": "كُنَّ" } ],
+      "answer": 0,
+      "explain": "{ar|هُنَّ} : « elles », « les » (plusieurs femmes). {ar|هُمْ} : plusieurs hommes ; {ar|كُنَّ} : « vous » (plusieurs femmes)."
+    },
+    {
+      "id": "medine-t2.l08.grammar-1#9",
+      "type": "fill_gap",
+      "sentence": "{0} الْمُدَرِّسُ.",
+      "fr": "Le professeur les a entendues (plusieurs femmes).",
+      "gaps": [ { "answers": ["سَمِعَهُنَّ"] } ],
+      "options": ["سَمِعَهُنَّ", "سَمِعَهُمْ", "سَمِعَكُنَّ", "سَمِعَهَا"],
+      "explain": "« Les », plusieurs femmes : {ar|هُنَّ}. {ar|هُمْ} serait pour plusieurs hommes ; {ar|كُنَّ} voudrait dire « vous »."
+    },
+    {
+      "id": "medine-t2.l08.grammar-1#10",
+      "type": "fill_gap",
+      "sentence": "{0} الْمُدَرِّسُ.",
+      "fr": "Le professeur nous a entendus.",
+      "gaps": [ { "answers": ["سَمِعَنَا"] } ],
+      "options": ["سَمِعَنَا", "سَمِعَنِي", "سَمِعَكُمْ", "سَمِعَهُمْ"],
+      "explain": "« Nous » : {ar|نَا} se colle au verbe."
+    },
+    {
+      "id": "medine-t2.l08.grammar-1#11",
+      "type": "order",
+      "fr": "Le directeur l'a entendue.",
+      "answers": [["سَمِعَهَا", "الْمُدِيرُ"], ["الْمُدِيرُ", "سَمِعَهَا"]],
+      "punctuation": ".",
+      "explain": "Le pronom {ar|هَا} reste collé au verbe : {ar|سَمِعَهَا}. Le sujet nom peut venir avant ou après."
+    },
+    {
+      "id": "medine-t2.l08.grammar-1#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le professeur nous a entendus.",
+      "answers": ["سَمِعَنَا الْمُدَرِّسُ.", "الْمُدَرِّسُ سَمِعَنَا.", "سَمِعَنَا الْأُسْتَاذُ.", "الْأُسْتَاذُ سَمِعَنَا."]
+    }
+  ]
+}

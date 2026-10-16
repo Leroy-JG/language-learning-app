@@ -1,0 +1,94 @@
+{
+  "id": "medine-t2.l08.practice-3",
+  "type": "grammar",
+  "title": "Exercice 2 : un verbe qui convient (1)",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l08.practice-3#1",
+      "type": "tip",
+      "title": "L'exercice 2 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre demande de compléter chaque phrase par **un verbe du passé qui convient**. Il faut donc penser au sens, puis accorder le verbe avec son sujet."
+        },
+        {
+          "type": "note",
+          "text": "Si le sujet est un nom placé **après** le verbe, le verbe reste au singulier ({ar|كَتَبَ الْمُدَرِّسُ}). Placé **avant**, le verbe s'accorde ({ar|الطُّلَّابُ كَتَبُوا}). Dans les deux cas, il s'accorde toujours en genre avec le sujet : {ar|كَتَبَتِ الطَّالِبَةُ}."
+        },
+        {
+          "type": "note",
+          "text": "Le {ar|أَ} qui commence un verbe pose une question : {ar|أَسَمِعْتَ؟} (« as-tu entendu ? »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.practice-3#2",
+      "type": "fill_gap",
+      "sentence": "{0} الْأَذَانَ يَا مُحَمَّدُ؟",
+      "fr": "As-tu entendu l'appel à la prière, Muḥammad ?",
+      "gaps": [ { "answers": ["أَسَمِعْتَ"] } ],
+      "options": ["أَسَمِعْتَ", "أَسَمِعْتُمْ", "أَكَسَرْتَ"],
+      "explain": "On parle à Muḥammad (un homme) : {ar|تَ}. On entend l'appel à la prière : {ar|سَمِعَ}. {ar|أَكَسَرْتَ الْأَذَانَ} (« as-tu cassé l'appel à la prière ? ») n'a pas de sens."
+    },
+    {
+      "id": "medine-t2.l08.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} كُرَةَ السَّلَّةِ الْيَوْمَ.",
+      "fr": "Nous avons joué au basketball aujourd'hui.",
+      "gaps": [ { "answers": ["لَعِبْنَا"] } ],
+      "options": ["لَعِبْنَا", "لَعِبُوا", "أَكَلْنَا"],
+      "explain": "« Nous » : {ar|نَا}. On joue au basketball : {ar|لَعِبَ}, construit directement avec le nom du sport."
+    },
+    {
+      "id": "medine-t2.l08.practice-3#4",
+      "type": "order",
+      "fr": "Le professeur a écrit la leçon sur le tableau.",
+      "answers": [
+        ["كَتَبَ", "الْمُدَرِّسُ", "الدَّرْسَ", "عَلَى", "السَّبُّورَةِ"],
+        ["الْمُدَرِّسُ", "كَتَبَ", "الدَّرْسَ", "عَلَى", "السَّبُّورَةِ"]
+      ],
+      "punctuation": ".",
+      "distractors": ["كَتَبُوا"],
+      "explain": "Le sujet {ar|الْمُدَرِّسُ} est un seul homme : {ar|كَتَبَ}. Le complément {ar|الدَّرْسَ} est à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l08.practice-3#5",
+      "type": "fill_gap",
+      "sentence": "{0} قُمْصَانِي وَمَنَادِيلِي يَا أُمِّي؟",
+      "fr": "As-tu lavé mes chemises et mes mouchoirs, maman ?",
+      "gaps": [ { "answers": ["أَغَسَلْتِ"] } ],
+      "options": ["أَغَسَلْتِ", "أَغَسَلْتُمْ", "أَقَرَأْتِ"],
+      "explain": "On parle à sa mère (une femme) : {ar|تِ}, avec la kasra. On lave des vêtements : {ar|غَسَلَ}."
+    },
+    {
+      "id": "medine-t2.l08.practice-3#6",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} بَابَ الْفَصْلِ، وَحَامِدٌ وَهِشَامٌ وَبِلَالٌ {1} النَّوَافِذَ.",
+      "fr": "J'ai ouvert la porte de la classe, et Ḥāmid, Hishām et Bilāl ont ouvert les fenêtres.",
+      "gaps": [ { "answers": ["فَتَحْتُ"] }, { "answers": ["فَتَحُوا"] } ],
+      "options": ["فَتَحْتُ", "فَتَحُوا", "فَتَحْنَا", "فَتَحَ"],
+      "explain": "« Je » : {ar|فَتَحْتُ}. Trois hommes placés avant le verbe : « ils », donc {ar|فَتَحُوا}."
+    },
+    {
+      "id": "medine-t2.l08.practice-3#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Avez-vous bien compris la nouvelle leçon, les filles ?",
+      "answers": ["أَفَهِمْتُنَّ الدَّرْسَ الْجَدِيدَ جَيِّدًا يَا بَنَاتُ؟", "أَفَهِمْتُنَّ الدَّرْسَ الْجَدِيدَ جَيِّدًا؟"],
+      "explain": "On parle à plusieurs filles : {ar|فَهِمْتُنَّ}. {ar|يَا بَنَاتُ} appelle les filles."
+    },
+    {
+      "id": "medine-t2.l08.practice-3#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mes camarades (des filles) sont sorties de la classe après le cours.",
+      "answers": [
+        "زَمِيلَاتِي خَرَجْنَ مِنَ الْفَصْلِ بَعْدَ الدَّرْسِ.",
+        "خَرَجَتْ زَمِيلَاتِي مِنَ الْفَصْلِ بَعْدَ الدَّرْسِ."
+      ],
+      "explain": "Le sujet vient avant le verbe : {ar|خَرَجْنَ}. Le verbe en tête reste au singulier : {ar|خَرَجَتْ}."
+    }
+  ]
+}

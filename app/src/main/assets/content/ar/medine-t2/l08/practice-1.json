@@ -1,0 +1,129 @@
+{
+  "id": "medine-t2.l08.practice-1",
+  "type": "grammar",
+  "title": "Exercice 8 : verbe et pronom",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l08.practice-1#1",
+      "type": "tip",
+      "title": "L'exercice 8 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre colle un pronom complément à un verbe qui a déjà son pronom sujet, puis donne quatre questions à plusieurs personnes ({ar|تُمْ}). Dans chacune, la seconde phrase reprend le nom de la première par un pronom collé :"
+        },
+        {
+          "type": "example",
+          "ar": "أَيْنَ الطَّالِبُ الْجَدِيدُ؟ أَرَأَيْتُمُوهُ؟",
+          "fr": "Où est le nouvel étudiant ? L'avez-vous vu ?"
+        },
+        {
+          "type": "example",
+          "ar": "أَيْنَ الْحَيَّةُ؟ أَقَتَلْتُمُوهَا؟",
+          "fr": "Où est le serpent ? L'avez-vous tué ?"
+        },
+        {
+          "type": "example",
+          "ar": "هٰذَا دَرْسٌ سَهْلٌ. أَفَهِمْتُمُوهُ؟",
+          "fr": "C'est un cours facile. L'avez-vous compris ?"
+        },
+        {
+          "type": "example",
+          "ar": "أَيْنَ الْمُدَرِّسُونَ؟ أَرَأَيْتُمُوهُمْ؟",
+          "fr": "Où sont les enseignants ? Les avez-vous vus ?"
+        },
+        {
+          "type": "note",
+          "text": "Les pronoms suivent le genre du mot arabe : {ar|الْحَيَّةُ} est féminin, donc {ar|هَا}, même si « serpent » est masculin en français. {ar|الْمُدَرِّسُونَ} (plusieurs hommes) est repris par {ar|هُمْ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.practice-1#2",
+      "type": "question",
+      "prompt": { "fr": "Après {ar|أَيْنَ الطَّالِبُ الْجَدِيدُ؟}, que demande {ar|أَرَأَيْتُمُوهُ؟} ?" },
+      "choices": [ { "fr": "si vous l'avez vu" }, { "fr": "si je l'ai vu" }, { "fr": "s'il vous a vus" } ],
+      "answer": 0,
+      "explain": "{ar|رَأَيْتُمْ} : « vous avez vu » ; {ar|هُ} : « le » (le nouvel étudiant). Le {ar|أَ} du début pose la question."
+    },
+    {
+      "id": "medine-t2.l08.practice-1#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أَقَتَلْتُمُوهَا؟}, de qui ou de quoi parle-t-on ?" },
+      "choices": [ { "fr": "du serpent ({ar|الْحَيَّةُ})" }, { "fr": "du nouvel étudiant" }, { "fr": "des enseignants" } ],
+      "answer": 0,
+      "explain": "{ar|هَا} est féminin singulier : c'est {ar|الْحَيَّةُ}, un mot féminin."
+    },
+    {
+      "id": "medine-t2.l08.practice-1#4",
+      "type": "order",
+      "fr": "Où sont les enseignants ? Les avez-vous vus ?",
+      "answers": [["أَيْنَ", "الْمُدَرِّسُونَ؟", "أَرَأَيْتُمُوهُمْ"]],
+      "punctuation": "؟",
+      "explain": "Deux questions : {ar|أَيْنَ الْمُدَرِّسُونَ؟} puis {ar|أَرَأَيْتُمُوهُمْ؟}. Le pronom {ar|هُمْ} reprend {ar|الْمُدَرِّسُونَ}."
+    },
+    {
+      "id": "medine-t2.l08.practice-1#5",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أَفَهِمْتُمُوهُ؟}, quel est le sujet ?" },
+      "choices": [
+        { "fr": "le pronom collé {ar|تُمْ} (« vous »)" },
+        { "fr": "le pronom collé {ar|هُ} (« le »)" },
+        { "fr": "le {ar|أَ}, qui pose la question" }
+      ],
+      "answer": 0,
+      "explain": "{ar|تُمْ} est le sujet : « vous ». {ar|هُ} est le complément (« le »), et le {ar|و} qui les sépare s'ajoute après {ar|تُمْ}."
+    },
+    {
+      "id": "medine-t2.l08.practice-1#6",
+      "type": "question",
+      "prompt": { "fr": "Colle {ar|هُمْ} (« les ») à {ar|رَأَيْتُمْ} (« vous avez vu »). Quelle est la forme obtenue ?" },
+      "choices": [ { "ar": "رَأَيْتُمُوهُمْ" }, { "ar": "رَأَيْتُهُمْ" }, { "ar": "رَأَيْتُنَّهُمْ" } ],
+      "answer": 0,
+      "explain": "{ar|رَأَيْتُمْ} + {ar|هُمْ} = {ar|رَأَيْتُمُوهُمْ} (le {ar|م} prend une damma et un {ar|و} s'ajoute). {ar|رَأَيْتُهُمْ} voudrait dire « je les ai vus »."
+    },
+    {
+      "id": "medine-t2.l08.practice-1#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Vous l'avez tuée (le serpent, un mot féminin en arabe).",
+      "answers": ["قَتَلْتُمُوهَا.", "أَنْتُمْ قَتَلْتُمُوهَا."],
+      "explain": "{ar|قَتَلْتُمْ} + {ar|هَا} = {ar|قَتَلْتُمُوهَا}."
+    },
+    {
+      "id": "medine-t2.l08.practice-1#8",
+      "type": "question",
+      "prompt": {
+        "fr": "Colle {ar|هُ} (« le ») à {ar|غَسَلْتِ} (« tu as lavé », à une femme). Quelle voyelle porte le {ar|ه} ?"
+      },
+      "choices": [ { "fr": "une kasra" }, { "fr": "une damma" }, { "fr": "une fatha" } ],
+      "answer": 0,
+      "explain": "{ar|غَسَلْتِ} + {ar|هُ} = {ar|غَسَلْتِهِ} : après la kasra du {ar|ت}, le {ar|هُ} devient {ar|هِ}."
+    },
+    {
+      "id": "medine-t2.l08.practice-1#9",
+      "type": "question",
+      "prompt": { "fr": "Colle {ar|هَا} (« la ») à {ar|فَهِمْتُمْ} (« vous avez compris »). Quelle est la forme obtenue ?" },
+      "choices": [ { "ar": "فَهِمْتُمُوهَا" }, { "ar": "فَهِمْتُمَاهَا" }, { "ar": "فَهِمْنَاهَا" } ],
+      "answer": 0,
+      "explain": "{ar|فَهِمْتُمْ} + {ar|هَا} = {ar|فَهِمْتُمُوهَا}. {ar|فَهِمْتُمَاهَا} est pour « vous deux » et {ar|فَهِمْنَاهَا} pour « nous »."
+    },
+    {
+      "id": "medine-t2.l08.practice-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je l'ai trouvé (le stylo).",
+      "answers": ["وَجَدْتُهُ.", "أَنَا وَجَدْتُهُ."],
+      "explain": "{ar|وَجَدْتُ} + {ar|هُ} = {ar|وَجَدْتُهُ}."
+    },
+    {
+      "id": "medine-t2.l08.practice-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Vous l'avez entendu.",
+      "answers": ["سَمِعْتُمُوهُ.", "أَنْتُمْ سَمِعْتُمُوهُ."],
+      "explain": "{ar|سَمِعْتُمْ} + {ar|هُ} = {ar|سَمِعْتُمُوهُ}."
+    }
+  ]
+}

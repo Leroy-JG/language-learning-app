@@ -1,0 +1,96 @@
+{
+  "id": "medine-t2.l08.revue-1",
+  "type": "review",
+  "title": "Le complément : nom ou pronom ?",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l08.revue-1#1",
+      "type": "tip",
+      "title": "Le complément d'objet direct",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le complément d'objet direct ({ar|الْمَفْعُولُ بِهِ}) est le nom qui subit l'action du verbe. Le professeur le range avec les compléments liés au verbe, les {ar|الْمَفَاعِيلُ}. Il peut être un nom apparent ou un pronom collé."
+        },
+        {
+          "type": "table",
+          "header": ["Le complément est…", "Exemple", "Sens"],
+          "rows": [
+            ["un nom apparent ({ar|اِسْمٌ ظَاهِرٌ})", "{ar|ضَرَبَ زَيْدٌ يَاسِرًا}", "Zayd a frappé Yāsir"],
+            ["un pronom collé ({ar|ضَمِيرٌ})", "{ar|ضَرَبَكَ زَيْدٌ}", "Zayd t'a frappé"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans les deux cas, le complément est à l'accusatif ({ar|النَّصْبُ}) : le nom prend la fatha ({ar|يَاسِرًا}) et le pronom est un pronom collé de l'accusatif ({ar|كَ}). Aujourd'hui, tu apprends toute la famille de ces pronoms."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.revue-1#2",
+      "type": "sort",
+      "categories": [ { "fr": "un nom apparent" }, { "fr": "un pronom collé" } ],
+      "cards": [
+        { "ar": "قَرَأَ زَيْدٌ الْكِتَابَ.", "category": 0 },
+        { "ar": "قَرَأَهُ زَيْدٌ.", "category": 1 },
+        { "ar": "فَتَحَ الْمُدِيرُ النَّافِذَةَ.", "category": 0 },
+        { "ar": "فَتَحَهَا الْمُدِيرُ.", "category": 1 },
+        { "ar": "شَرِبَ الْوَلَدُ الْمَاءَ.", "category": 0 },
+        { "ar": "شَرِبَهُ الْوَلَدُ.", "category": 1 }
+      ],
+      "instruction": "Le complément d'objet est…",
+      "explain": "Un nom apparent est écrit dans la phrase ({ar|الْكِتَابَ}, {ar|النَّافِذَةَ}, {ar|الْمَاءَ}). Un pronom complément est collé à la fin du verbe ({ar|قَرَأَهُ}, {ar|فَتَحَهَا}, {ar|شَرِبَهُ})."
+    },
+    {
+      "id": "medine-t2.l08.revue-1#3",
+      "type": "spot",
+      "instruction": "Touche le mot qui contient un pronom complément.",
+      "words": ["أَيْنَ", "الْقَلَمُ؟", "كَسَرْتُهُ", "الْيَوْمَ."],
+      "answers": [2],
+      "fr": "Où est le stylo ? Je l'ai cassé aujourd'hui.",
+      "explain": "{ar|كَسَرْتُهُ} = {ar|كَسَرْ} + {ar|تُ} (le sujet : « je ») + {ar|هُ} (le complément : « le »)."
+    },
+    {
+      "id": "medine-t2.l08.revue-1#4",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0}.",
+      "fr": "Je l'ai cassée (la fenêtre).",
+      "gaps": [ { "answers": ["كَسَرْتُهَا"] } ],
+      "options": ["كَسَرْتُهَا", "كَسَرْتُهُ", "كَسَرْتُكَ"],
+      "context": { "icon": "window" },
+      "explain": "{ar|نَافِذَةٌ} est féminin : on colle {ar|هَا}. Le pronom suit le genre du mot arabe."
+    },
+    {
+      "id": "medine-t2.l08.revue-1#5",
+      "type": "order",
+      "fr": "Zayd m'a frappé.",
+      "answers": [["ضَرَبَنِي", "زَيْدٌ"], ["زَيْدٌ", "ضَرَبَنِي"]],
+      "punctuation": ".",
+      "explain": "Avec un verbe, « me » se colle sous la forme {ar|نِي}. Le pronom reste collé au verbe ; le sujet {ar|زَيْدٌ} peut venir avant ou après."
+    },
+    {
+      "id": "medine-t2.l08.revue-1#6",
+      "type": "question",
+      "prompt": { "ar": "ضَرَبَكَ زَيْدٌ" },
+      "choices": [ { "ar": "كَ" }, { "ar": "زَيْدٌ" }, { "ar": "ضَرَبَ" } ],
+      "answer": 0,
+      "instruction": "Quel est le complément d'objet direct de cette phrase ?",
+      "explain": "Le complément est le pronom {ar|كَ} (« te »). {ar|زَيْدٌ} est le sujet (celui qui frappe) et {ar|ضَرَبَ} le verbe."
+    },
+    {
+      "id": "medine-t2.l08.revue-1#7",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|فَتَحَهَا الْمُدِيرُ}, le pronom {ar|هَا} est le sujet du verbe." },
+      "answer": false,
+      "explain": "Non : {ar|هَا} est le complément (« la »). Le sujet est {ar|الْمُدِيرُ} : le directeur l'a ouverte."
+    },
+    {
+      "id": "medine-t2.l08.revue-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il l'a cassé (le stylo).",
+      "answers": ["كَسَرَهُ.", "هُوَ كَسَرَهُ."]
+    }
+  ]
+}

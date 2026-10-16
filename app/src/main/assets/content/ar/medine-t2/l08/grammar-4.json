@@ -1,0 +1,179 @@
+{
+  "id": "medine-t2.l08.grammar-4",
+  "type": "grammar",
+  "title": "Un verbe, deux pronoms collés",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l08.grammar-4#1",
+      "type": "tip",
+      "title": "Un verbe, deux pronoms",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un verbe peut porter plusieurs pronoms collés : d'abord le pronom sujet, puis le pronom complément. Le professeur les analyse ainsi : {ar|تُ} est un pronom collé du nominatif, le sujet ({ar|فَاعِلٌ}) ; {ar|كَ} est un pronom collé de l'accusatif, le complément ({ar|مَفْعُولٌ بِهِ})."
+        },
+        {
+          "type": "breakdown",
+          "ar": "ضَرَبْتُكَ",
+          "fr": "je t'ai frappé",
+          "parts": [
+            { "ar": "ضَرَبْ", "fr": "frapp-" },
+            { "ar": "تُ", "fr": "le sujet : je" },
+            { "ar": "كَ", "fr": "le complément : te" }
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "ضَرَبُوكُمْ",
+          "fr": "ils vous ont frappés",
+          "parts": [
+            { "ar": "ضَرَبُ", "fr": "frapp-" },
+            { "ar": "و", "fr": "le sujet : ils" },
+            { "ar": "كُمْ", "fr": "le complément : vous" }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pour « ils » ({ar|وا}), l'alif muet n'est pas écrit quand un pronom suit : {ar|ضَرَبُوا} devient {ar|ضَرَبُوكُمْ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.grammar-4#2",
+      "type": "tip",
+      "title": "Le verbe avec « le », à toutes les personnes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici {ar|ضَرَبَ} (« frapper ») avec le complément {ar|هُ} (« le »), à toutes les personnes :"
+        },
+        {
+          "type": "table",
+          "header": ["Sujet", "Verbe + {ar|هُ}", "Sens"],
+          "rows": [
+            ["il", "{ar|ضَرَبَهُ}", "il l'a frappé"],
+            ["elle", "{ar|ضَرَبَتْهُ}", "elle l'a frappé"],
+            ["eux deux (deux hommes)", "{ar|ضَرَبَاهُ}", "eux deux l'ont frappé"],
+            ["elles deux", "{ar|ضَرَبَتَاهُ}", "elles deux l'ont frappé"],
+            ["ils", "{ar|ضَرَبُوهُ}", "ils l'ont frappé"],
+            ["elles", "{ar|ضَرَبْنَهُ}", "elles l'ont frappé"],
+            ["tu (à un homme)", "{ar|ضَرَبْتَهُ}", "tu l'as frappé"],
+            ["tu (à une femme)", "{ar|ضَرَبْتِهِ}", "tu l'as frappé"],
+            ["vous deux", "{ar|ضَرَبْتُمَاهُ}", "vous deux l'avez frappé"],
+            ["vous (plusieurs hommes)", "{ar|ضَرَبْتُمُوهُ}", "vous l'avez frappé"],
+            ["vous (plusieurs femmes)", "{ar|ضَرَبْتُنَّهُ}", "vous l'avez frappé"],
+            ["je", "{ar|ضَرَبْتُهُ}", "je l'ai frappé"],
+            ["nous", "{ar|ضَرَبْنَاهُ}", "nous l'avons frappé"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.grammar-4#3",
+      "type": "tip",
+      "title": "Deux petits changements",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand on colle {ar|هُ} au verbe, presque rien ne change. Deux cas sont à retenir (les autres lignes du livre montrent que rien ne change) :"
+        },
+        {
+          "type": "table",
+          "header": ["Verbe", "Pronom", "Résultat", "Ce qui change"],
+          "rows": [
+            ["{ar|ضَرَبَ}", "{ar|هُ}", "{ar|ضَرَبَهُ}", "rien"],
+            ["{ar|ضَرَبَتْ}", "{ar|هُ}", "{ar|ضَرَبَتْهُ}", "rien : le {ar|تْ} garde son sukūn"],
+            ["{ar|ضَرَبْتَ}", "{ar|هُ}", "{ar|ضَرَبْتَهُ}", "rien"],
+            ["{ar|ضَرَبْتِ}", "{ar|هُ}", "{ar|ضَرَبْتِهِ}", "{ar|هُ} devient {ar|هِ} après la kasra"],
+            ["{ar|ضَرَبْتُ}", "{ar|هُ}", "{ar|ضَرَبْتُهُ}", "rien"],
+            ["{ar|ضَرَبْتُمْ}", "{ar|هُ}", "{ar|ضَرَبْتُمُوهُ}", "un {ar|و} s'ajoute, et le {ar|م} prend une damma"]
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "ضَرَبْتُمُوهُ",
+          "fr": "vous l'avez frappé",
+          "parts": [
+            { "ar": "ضَرَبْ", "fr": "frapp-" },
+            { "ar": "تُمُو", "fr": "vous (hommes), avec un {ar|و}" },
+            { "ar": "هُ", "fr": "le complément : le" }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ce {ar|و} n'est pas un pronom de plus : c'est le prolongement du {ar|م} du pluriel masculin ({ar|تُمْ} devient {ar|تُمُو}) devant un pronom collé. Après {ar|تُمْ}, il s'ajoute devant tous les pronoms compléments : {ar|رَأَيْتُمُوهُمْ}, {ar|فَهِمْتُمُوهَا}. Les autres « vous » n'en prennent pas : {ar|ضَرَبْتُمَاهُ}, {ar|ضَرَبْتُنَّهُ}."
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "La règle de {ar|هُ} → {ar|هِ} après une kasra vaut pour {ar|هُمْ}, {ar|هُمَا} et {ar|هُنَّ} ({ar|ضَرَبْتِهِمْ}). {ar|هَا} ne change jamais : {ar|ضَرَبْتِهَا}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.grammar-4#4",
+      "type": "sort",
+      "categories": [ { "fr": "un {ar|و} s'ajoute après {ar|تُمْ}" }, { "fr": "pas de {ar|و} ajouté" } ],
+      "cards": [
+        { "ar": "ضَرَبْتُمُوهُ", "category": 0 },
+        { "ar": "فَهِمْتُمُوهَا", "category": 0 },
+        { "ar": "سَمِعْتُمُوهُ", "category": 0 },
+        { "ar": "ضَرَبْتُمَاهُ", "category": 1 },
+        { "ar": "ضَرَبْتُنَّهُ", "category": 1 },
+        { "ar": "ضَرَبْتُهُ", "category": 1 }
+      ],
+      "instruction": "Un {ar|و} s'ajoute-t-il avant le pronom ?",
+      "explain": "Seul {ar|تُمْ} (« vous », plusieurs hommes) reçoit un {ar|و} devant le pronom complément. {ar|تُمَا}, {ar|تُنَّ} et {ar|تُ} n'en prennent pas."
+    },
+    {
+      "id": "medine-t2.l08.grammar-4#5",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|ضَرَبْتِهِ} (« tu l'as frappé », à une femme), quelle voyelle porte le {ar|ه} ?" },
+      "choices": [ { "fr": "une kasra" }, { "fr": "une damma" }, { "fr": "une fatha" } ],
+      "answer": 0,
+      "explain": "Après la kasra du {ar|ت}, le {ar|هُ} devient {ar|هِ} : {ar|ضَرَبْتِهِ}."
+    },
+    {
+      "id": "medine-t2.l08.grammar-4#6",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|ضَرَبْتُكَ}, le {ar|ت} porte une damma. Que veut dire ce verbe ?" },
+      "choices": [ { "fr": "je t'ai frappé" }, { "fr": "tu m'as frappé" }, { "fr": "il t'a frappé" } ],
+      "answer": 0,
+      "explain": "La damma indique « je » ({ar|تُ}, le sujet) ; {ar|كَ} est le complément : « je t'ai frappé »."
+    },
+    {
+      "id": "medine-t2.l08.grammar-4#7",
+      "type": "fill_gap",
+      "sentence": "أَنْتُمْ {0}.",
+      "fr": "Vous l'avez frappé (Zayd).",
+      "gaps": [ { "answers": ["ضَرَبْتُمُوهُ"] } ],
+      "options": ["ضَرَبْتُمُوهُ", "ضَرَبُوهُ", "ضَرَبْتُهُ", "ضَرَبْتُمُوهَا"],
+      "explain": "« Vous » (plusieurs hommes) : {ar|تُمْ}, puis un {ar|و}, puis {ar|هُ} (« le », Zayd est un homme)."
+    },
+    {
+      "id": "medine-t2.l08.grammar-4#8",
+      "type": "fill_gap",
+      "sentence": "أَنْتُمْ {0}.",
+      "fr": "Vous les avez vus (les enseignants).",
+      "gaps": [ { "answers": ["رَأَيْتُمُوهُمْ"] } ],
+      "options": ["رَأَيْتُمُوهُمْ", "رَأَيْتُمُوهُنَّ", "رَأَيْتُمُوهُ", "رَأَيْنَاهُمْ"],
+      "explain": "« Les » (plusieurs hommes) : {ar|هُمْ}, après {ar|تُمُو}. {ar|هُنَّ} serait pour plusieurs femmes."
+    },
+    {
+      "id": "medine-t2.l08.grammar-4#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je t'ai entendu (à un homme).",
+      "answers": ["سَمِعْتُكَ.", "أَنَا سَمِعْتُكَ."]
+    },
+    {
+      "id": "medine-t2.l08.grammar-4#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ils vous ont entendus (plusieurs hommes).",
+      "answers": ["سَمِعُوكُمْ.", "هُمْ سَمِعُوكُمْ."]
+    }
+  ]
+}
