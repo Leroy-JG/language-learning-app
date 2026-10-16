@@ -1,0 +1,130 @@
+{
+  "id": "medine-t2.l08.grammar-3",
+  "type": "grammar",
+  "title": "Moi et nous : deux pièges",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l08.grammar-3#1",
+      "type": "tip",
+      "title": "« Me » : نِي",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le tableau du professeur le montre : « me » n'a pas la même forme avec un nom, une préposition ou un verbe."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "كِتَابٌ", "fr": "un livre" }, "to": { "ar": "كِتَابِي", "fr": "mon livre" } },
+            { "from": { "ar": "لِ", "fr": "à" }, "to": { "ar": "لِي", "fr": "à moi" } },
+            { "from": { "ar": "ضَرَبَ", "fr": "il a frappé" }, "to": { "ar": "ضَرَبَنِي", "fr": "il m'a frappé" } }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Avec un verbe, on colle {ar|نِي} : la lettre {ar|ن} s'appelle la nūn de protection ({ar|نُونُ الْوِقَايَةِ}). Elle protège la dernière lettre du verbe de la kasra du pronom. On la trouve aussi après {ar|مِنْ} et {ar|عَنْ} ({ar|مِنِّي}, {ar|عَنِّي}) et après {ar|إِنَّ} ({ar|إِنَّنِي}, ou {ar|إِنِّي} sans la nūn écrite)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.grammar-3#2",
+      "type": "tip",
+      "title": "« Nous » : une voyelle fait la différence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le pronom {ar|نَا} peut être le sujet (« nous avons… ») ou le complément (« il nous a… »). Écrits sans voyelles, les deux verbes sont identiques : c'est la voyelle de la lettre qui précède {ar|نَا} qui décide."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "سَمِعْنَا", "fr": "nous avons entendu" },
+              "to": { "ar": "سَمِعَنَا", "fr": "il nous a entendus" },
+              "label": "sukūn sur le {ar|ع} → fatha"
+            },
+            {
+              "from": { "ar": "ضَرَبْنَا", "fr": "nous avons frappé" },
+              "to": { "ar": "ضَرَبَنَا", "fr": "il nous a frappés" },
+              "label": "sukūn sur le {ar|ب} → fatha"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Sujet « nous » : le verbe prend un sukūn avant {ar|نَا} (chapitre 2). Complément « nous » : le verbe garde sa fatha (quand le sujet est « il »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.grammar-3#3",
+      "type": "question",
+      "prompt": {
+        "fr": "Pour dire « il nous a entendus », on colle {ar|نَا} au verbe {ar|سَمِعَ}. Que devient la fatha du {ar|ع} ?"
+      },
+      "choices": [ { "fr": "elle reste une fatha" }, { "fr": "elle devient un sukūn" }, { "fr": "elle devient une damma" } ],
+      "answer": 0,
+      "explain": "Ici {ar|نَا} est le complément : le verbe garde sa fatha ({ar|سَمِعَنَا}). Dans {ar|سَمِعْنَا} (« nous avons entendu »), {ar|نَا} est le sujet et le {ar|ع} porte un sukūn."
+    },
+    {
+      "id": "medine-t2.l08.grammar-3#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|فَتَحْنَا} (« nous avons ouvert »), quel est le rôle de {ar|نَا} ?" },
+      "choices": [ { "fr": "le sujet" }, { "fr": "le complément d'objet" } ],
+      "answer": 0,
+      "explain": "Le {ar|ح} porte un sukūn : {ar|نَا} est le sujet (« nous »). Si c'était un complément, on aurait {ar|فَتَحَنَا} (« il nous a ouverts »)."
+    },
+    {
+      "id": "medine-t2.l08.grammar-3#5",
+      "type": "question",
+      "prompt": {
+        "fr": "Pour dire « il t'a frappée » (à une femme), on colle « te » au verbe {ar|ضَرَبَ}. Quelle voyelle porte le {ar|ك} du pronom ?"
+      },
+      "choices": [ { "fr": "une kasra" }, { "fr": "une fatha" }, { "fr": "une damma" } ],
+      "answer": 0,
+      "explain": "Comme dans {ar|أَنْتِ} : une kasra pour une femme ({ar|ضَرَبَكِ}). À un homme, une fatha ({ar|ضَرَبَكَ})."
+    },
+    {
+      "id": "medine-t2.l08.grammar-3#6",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|ضَرَبَكَ}, le pronom {ar|كَ} s'adresse à un homme." },
+      "answer": true,
+      "explain": "La fatha du {ar|ك} indique un homme, comme dans {ar|كِتَابُكَ}."
+    },
+    {
+      "id": "medine-t2.l08.grammar-3#7",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} الْمُدَرِّسَ.",
+      "fr": "Nous avons entendu le professeur.",
+      "gaps": [ { "answers": ["سَمِعْنَا"] } ],
+      "options": ["سَمِعْنَا", "سَمِعْتُمْ", "سَمِعْنَ"],
+      "explain": "{ar|نَحْنُ} est le sujet : le verbe prend {ar|نَا} avec un sukūn. Le professeur est le complément ({ar|الْمُدَرِّسَ}, à l'accusatif)."
+    },
+    {
+      "id": "medine-t2.l08.grammar-3#8",
+      "type": "fill_gap",
+      "sentence": "{0} الْمُدَرِّسُ.",
+      "fr": "Le professeur nous a entendus.",
+      "gaps": [ { "answers": ["سَمِعَنَا"] } ],
+      "options": ["سَمِعَنَا", "سَمِعَهُمْ", "سَمِعَكَ"],
+      "explain": "Le professeur ({ar|الْمُدَرِّسُ}, au nominatif) est le sujet : « nous » est le complément."
+    },
+    {
+      "id": "medine-t2.l08.grammar-3#9",
+      "type": "order",
+      "fr": "Le professeur nous a entendus.",
+      "answers": [["سَمِعَنَا", "الْمُدَرِّسُ"], ["الْمُدَرِّسُ", "سَمِعَنَا"]],
+      "punctuation": ".",
+      "explain": "Le pronom {ar|نَا} reste collé au verbe ; le sujet nom vient avant ou après."
+    },
+    {
+      "id": "medine-t2.l08.grammar-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous avons ouvert la porte.",
+      "answers": ["فَتَحْنَا الْبَابَ.", "نَحْنُ فَتَحْنَا الْبَابَ."]
+    }
+  ]
+}

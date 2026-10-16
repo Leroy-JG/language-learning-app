@@ -1,0 +1,13 @@
+{
+  "id": "medine-t2.l08",
+  "number": 8,
+  "title": { "ar": "الدَّرْسُ الثَّامِنُ", "fr": "Les pronoms compléments collés ; le complément d'objet (2ᵉ partie)" },
+  "description": "Les pronoms collés de l'accusatif ({ar|هُ}, {ar|كُمْ}, {ar|نَا}…), un verbe avec sujet et complément collés ({ar|ضَرَبْتُمُوهُ}), le rappel des pronoms sujets, et les exercices du livre.",
+  "source": "Tome de Médine 2, leçon 8",
+  "sections": [
+    { "title": "Revoir : le complément et le sujet", "activities": ["revue-1", "revue-2"] },
+    { "title": "Les pronoms collés de l'accusatif", "activities": ["grammar-1", "grammar-2", "grammar-3", "grammar-4"] },
+    { "title": "Les exercices du livre", "activities": ["practice-1", "practice-2", "practice-3", "practice-4"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

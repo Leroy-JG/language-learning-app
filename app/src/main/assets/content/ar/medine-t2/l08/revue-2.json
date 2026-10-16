@@ -1,0 +1,161 @@
+{
+  "id": "medine-t2.l08.revue-2",
+  "type": "review",
+  "title": "Le sujet : les pronoms collés",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l08.revue-2#1",
+      "type": "tip",
+      "title": "Le verbe « aller » : le tableau du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici le tableau du professeur avec {ar|ذَهَبَ} (« il est allé »). Le sujet est un nom apparent, un pronom isolé ou un pronom caché ; le verbe porte la marque de la personne."
+        },
+        {
+          "type": "table",
+          "header": ["Personne", "Au singulier", "Sens"],
+          "rows": [
+            ["3e, masculin ({ar|الْغَائِبُ})", "{ar|حَامِدٌ ذَهَبَ}", "Ḥāmid est allé"],
+            ["3e, féminin", "{ar|آمِنَةُ ذَهَبَتْ}", "Āmina est allée"],
+            ["2e, masculin ({ar|الْمُخَاطَبُ})", "{ar|أَنْتَ ذَهَبْتَ}", "tu es allé"],
+            ["2e, féminin", "{ar|أَنْتِ ذَهَبْتِ}", "tu es allée"],
+            ["1re ({ar|الْمُتَكَلِّمُ})", "{ar|أَنَا ذَهَبْتُ}", "je suis allé(e)"]
+          ]
+        },
+        {
+          "type": "table",
+          "header": ["Personne", "Au pluriel", "Sens"],
+          "rows": [
+            ["3e, masculin", "{ar|حَامِدٌ وَهَاشِمٌ وَعَلِيٌّ ذَهَبُوا}", "Ḥāmid, Hāshim et ʿAlī sont allés"],
+            ["3e, féminin", "{ar|آمِنَةُ وَزَيْنَبُ وَمَرْيَمُ ذَهَبْنَ}", "Āmina, Zaynab et Maryam sont allées"],
+            ["2e, masculin", "{ar|أَنْتُمْ ذَهَبْتُمْ}", "vous êtes allés"],
+            ["2e, féminin", "{ar|أَنْتُنَّ ذَهَبْتُنَّ}", "vous êtes allées"],
+            ["1re", "{ar|نَحْنُ ذَهَبْنَا}", "nous sommes allés (allées)"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le duel (chapitre 2) n'est pas dans ce tableau : {ar|ذَهَبَا}, {ar|ذَهَبَتَا}, {ar|ذَهَبْتُمَا}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.revue-2#2",
+      "type": "tip",
+      "title": "Les lettres collées au verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au passé, le pronom sujet est une lettre (ou deux) collée à la fin du verbe (au duel, c'est l'alif : {ar|ذَهَبَا}). Le professeur les souligne dans {ar|ذَهَبَ} :"
+        },
+        {
+          "type": "table",
+          "header": ["Pronom collé", "Exemples", "Sens"],
+          "rows": [
+            [
+              "la lettre {ar|ت}",
+              "{ar|ذَهَبْتَ}, {ar|ذَهَبْتِ}, {ar|ذَهَبْتُ}, {ar|ذَهَبْتُمْ}, {ar|ذَهَبْتُنَّ}",
+              "tu (homme), tu (femme), je, vous (hommes), vous (femmes)"
+            ],
+            ["la lettre {ar|و}", "{ar|ذَهَبُوا}", "ils"],
+            ["la lettre {ar|ن}", "{ar|ذَهَبْنَ}", "elles"],
+            ["{ar|نَا}", "{ar|ذَهَبْنَا}", "nous"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "La voyelle du {ar|ت} dit la personne : damma pour « je », fatha pour « tu » (à un homme), kasra pour « tu » (à une femme)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.revue-2#3",
+      "type": "sort",
+      "categories": [ { "fr": "un pronom collé" }, { "fr": "un pronom caché" } ],
+      "cards": [
+        { "ar": "جَلَسْنَا", "category": 0 },
+        { "ar": "حَفِظْنَ", "category": 0 },
+        { "ar": "لَعِبُوا", "category": 0 },
+        { "ar": "فَتَحَ", "category": 1 },
+        { "ar": "دَخَلَ", "category": 1 },
+        { "ar": "خَرَجَ", "category": 1 }
+      ],
+      "instruction": "Le sujet est…",
+      "explain": "Dans {ar|جَلَسْنَا} (« nous »), {ar|حَفِظْنَ} (« elles ») et {ar|لَعِبُوا} (« ils »), le pronom est collé. Dans {ar|فَتَحَ}, {ar|دَخَلَ} et {ar|خَرَجَ} (« il »), le pronom sujet est caché."
+    },
+    {
+      "id": "medine-t2.l08.revue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|سَمِعْتِ} (« tu as entendu », à une femme), quel est le sujet ?" },
+      "choices": [
+        { "fr": "le pronom collé {ar|تِ} (« toi »)" },
+        { "fr": "le pronom collé {ar|نَ} (« elles »)" },
+        { "fr": "un pronom caché (« elle »)" }
+      ],
+      "answer": 0,
+      "explain": "La terminaison {ar|تِ} (avec une kasra) est le pronom « tu », au féminin. Un pronom caché ne s'écrit pas : il n'y a aucune lettre de plus."
+    },
+    {
+      "id": "medine-t2.l08.revue-2#5",
+      "type": "tip",
+      "title": "Un sujet qu'on n'écrit pas",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand le sujet est « il » ou « elle », le verbe n'a aucune lettre de pronom : le sujet est un pronom caché ({ar|ضَمِيرٌ مُسْتَتِرٌ}). Le professeur l'écrit ainsi : {ar|الْفَاعِلُ ضَمِيرٌ مُسْتَتِرٌ}."
+        },
+        { "type": "example", "ar": "أَيْنَ حَامِدٌ؟ خَرَجَ.", "fr": "Où est Ḥāmid ? Il est sorti." },
+        { "type": "example", "ar": "أَيْنَ آمِنَةُ؟ خَرَجَتْ.", "fr": "Où est Āmina ? Elle est sortie." },
+        {
+          "type": "note",
+          "text": "Dans {ar|خَرَجَتْ}, le {ar|تْ} n'est pas un pronom : c'est la marque du féminin. Le sujet (« elle ») reste caché."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.revue-2#6",
+      "type": "spot",
+      "instruction": "Touche les deux verbes dont le sujet est un pronom caché.",
+      "words": ["أَيْنَ", "حَامِدٌ؟", "خَرَجَ.", "أَيْنَ", "آمِنَةُ؟", "خَرَجَتْ."],
+      "answers": [2, 5],
+      "fr": "Où est Ḥāmid ? Il est sorti. Où est Āmina ? Elle est sortie.",
+      "explain": "{ar|خَرَجَ} (« il ») et {ar|خَرَجَتْ} (« elle ») : aucun pronom n'est écrit, le sujet est caché. {ar|حَامِدٌ} et {ar|آمِنَةُ} sont des noms apparents, mais ils ne sont pas le sujet de ces verbes : ils sont dans la question."
+    },
+    {
+      "id": "medine-t2.l08.revue-2#7",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ آمِنَةُ؟ {0}.",
+      "fr": "Où est Āmina ? Elle est sortie.",
+      "gaps": [ { "answers": ["خَرَجَتْ"] } ],
+      "options": ["خَرَجَتْ", "خَرَجَ", "خَرَجُوا"],
+      "explain": "Āmina est une femme : on ajoute la marque du féminin {ar|تْ}."
+    },
+    {
+      "id": "medine-t2.l08.revue-2#8",
+      "type": "fill_gap",
+      "sentence": "أَنْتُنَّ {0} إِلَى الْمَطَارِ.",
+      "fr": "Vous (plusieurs femmes), vous êtes allées à l'aéroport.",
+      "gaps": [ { "answers": ["ذَهَبْتُنَّ"] } ],
+      "options": ["ذَهَبْتُنَّ", "ذَهَبْتُمْ", "ذَهَبْنَا", "ذَهَبَا"],
+      "explain": "{ar|أَنْتُنَّ} (plusieurs femmes) donne la terminaison {ar|تُنَّ}."
+    },
+    {
+      "id": "medine-t2.l08.revue-2#9",
+      "type": "order",
+      "fr": "Ḥāmid, Hāshim et ʿAlī sont allés.",
+      "answers": [["حَامِدٌ", "وَهَاشِمٌ", "وَعَلِيٌّ", "ذَهَبُوا"], ["ذَهَبَ", "حَامِدٌ", "وَهَاشِمٌ", "وَعَلِيٌّ"]],
+      "punctuation": ".",
+      "explain": "Placés avant le verbe, les trois hommes appellent le pluriel ({ar|ذَهَبُوا}). Placé avant eux, le verbe reste au singulier ({ar|ذَهَبَ})."
+    },
+    {
+      "id": "medine-t2.l08.revue-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous sommes allés à l'école.",
+      "answers": ["ذَهَبْنَا إِلَى الْمَدْرَسَةِ.", "نَحْنُ ذَهَبْنَا إِلَى الْمَدْرَسَةِ."]
+    }
+  ]
+}

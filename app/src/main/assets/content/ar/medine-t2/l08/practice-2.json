@@ -1,0 +1,116 @@
+{
+  "id": "medine-t2.l08.practice-2",
+  "type": "grammar",
+  "title": "Exercice 1 : aller",
+  "icon": "road",
+  "screens": [
+    {
+      "id": "medine-t2.l08.practice-2#1",
+      "type": "tip",
+      "title": "L'exercice 1 du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne le verbe {ar|ذَهَبَ} (« aller »). Il faut le mettre à la bonne forme, selon le sujet, en choisissant le pronom qui convient."
+        },
+        {
+          "type": "table",
+          "header": ["Sujet", "Forme"],
+          "rows": [
+            ["il, elle", "{ar|ذَهَبَ}, {ar|ذَهَبَتْ}"],
+            ["ils, elles", "{ar|ذَهَبُوا}, {ar|ذَهَبْنَ}"],
+            ["tu (homme, femme)", "{ar|ذَهَبْتَ}, {ar|ذَهَبْتِ}"],
+            ["vous (hommes, femmes)", "{ar|ذَهَبْتُمْ}, {ar|ذَهَبْتُنَّ}"],
+            ["je, nous", "{ar|ذَهَبْتُ}, {ar|ذَهَبْنَا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les mots qui appellent des personnes ({ar|يَا إِخْوَانِي}, {ar|يَا أَبِي}, {ar|يَا بَنَاتِي}) disent à qui on parle : cela indique la forme de « tu » ou de « vous »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.practice-2#2",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ الطُّلَّابُ الْجُدُدُ؟ {0} إِلَى الْمُدِيرِ.",
+      "fr": "Où sont les nouveaux étudiants ? Ils sont allés voir le directeur.",
+      "gaps": [ { "answers": ["ذَهَبُوا"] } ],
+      "options": ["ذَهَبُوا", "ذَهَبْنَ", "ذَهَبَا", "ذَهَبْتُ"],
+      "explain": "Les étudiants (plusieurs hommes) : « ils », donc {ar|ذَهَبُوا}."
+    },
+    {
+      "id": "medine-t2.l08.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} إِلَى الْمَلْعَبِ.",
+      "fr": "Nous sommes allés au terrain de jeu.",
+      "gaps": [ { "answers": ["ذَهَبْنَا"] } ],
+      "options": ["ذَهَبْنَا", "ذَهَبْنَ", "ذَهَبُوا", "ذَهَبْتُمْ"],
+      "explain": "{ar|نَحْنُ} donne la terminaison {ar|نَا}."
+    },
+    {
+      "id": "medine-t2.l08.practice-2#4",
+      "type": "order",
+      "fr": "Je suis allé à la bibliothèque aujourd'hui.",
+      "answers": [
+        ["ذَهَبْتُ", "إِلَى", "الْمَكْتَبَةِ", "الْيَوْمَ"],
+        ["ذَهَبْتُ", "الْيَوْمَ", "إِلَى", "الْمَكْتَبَةِ"],
+        ["الْيَوْمَ", "ذَهَبْتُ", "إِلَى", "الْمَكْتَبَةِ"]
+      ],
+      "punctuation": ".",
+      "distractors": ["ذَهَبْنَا"],
+      "explain": "« Je » : {ar|ذَهَبْتُ}, avec la damma de {ar|تُ}."
+    },
+    {
+      "id": "medine-t2.l08.practice-2#5",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ {0} بَعْدَ الدَّرْسِ يَا إِخْوَانِي؟",
+      "fr": "Où êtes-vous allés après le cours, mes frères ?",
+      "gaps": [ { "answers": ["ذَهَبْتُمْ"] } ],
+      "options": ["ذَهَبْتُمْ", "ذَهَبْتُنَّ", "ذَهَبْنَا", "ذَهَبُوا"],
+      "explain": "On parle à plusieurs hommes (« mes frères ») : {ar|ذَهَبْتُمْ}."
+    },
+    {
+      "id": "medine-t2.l08.practice-2#6",
+      "type": "fill_gap",
+      "sentence": "{0} إِلَى السُّوقِ الْيَوْمَ يَا أَبِي؟",
+      "fr": "Es-tu allé au marché aujourd'hui, papa ?",
+      "gaps": [ { "answers": ["أَذَهَبْتَ"] } ],
+      "options": ["أَذَهَبْتَ", "أَذَهَبْتُمْ", "أَذَهَبْنَا", "أَذَهَبُوا"],
+      "explain": "On parle à son père (un homme) : « tu », avec la fatha de {ar|تَ}. Le {ar|أَ} du début pose la question."
+    },
+    {
+      "id": "medine-t2.l08.practice-2#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mon frère est allé à l'aéroport.",
+      "answers": ["أَخِي ذَهَبَ إِلَى الْمَطَارِ.", "ذَهَبَ أَخِي إِلَى الْمَطَارِ."]
+    },
+    {
+      "id": "medine-t2.l08.practice-2#8",
+      "type": "fill_gap",
+      "sentence": "أُمِّي {0} إِلَى الْمُسْتَشْفَى.",
+      "fr": "Ma mère est allée à l'hôpital.",
+      "gaps": [ { "answers": ["ذَهَبَتْ"] } ],
+      "options": ["ذَهَبَتْ", "ذَهَبَ", "ذَهَبْنَ", "ذَهَبَا"],
+      "explain": "Le sujet est une femme (« ma mère ») : on ajoute la marque du féminin {ar|تْ}."
+    },
+    {
+      "id": "medine-t2.l08.practice-2#9",
+      "type": "fill_gap",
+      "sentence": "{0} لِزِيَارَةِ خَالَتِكُنَّ يَا بَنَاتِي؟",
+      "fr": "Êtes-vous allées rendre visite à votre tante maternelle, mes filles ?",
+      "gaps": [ { "answers": ["أَذَهَبْتُنَّ"] } ],
+      "options": ["أَذَهَبْتُنَّ", "أَذَهَبْتُمْ", "أَذَهَبْنَا", "أَذَهَبَتْ"],
+      "explain": "On parle à plusieurs filles : {ar|تُنَّ}. Dans {ar|خَالَتِكُنَّ}, le pronom {ar|كُنَّ} est collé au nom : « votre tante »."
+    },
+    {
+      "id": "medine-t2.l08.practice-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mes sœurs sont allées à la faculté.",
+      "answers": ["أَخَوَاتِي ذَهَبْنَ إِلَى الْكُلِّيَّةِ.", "ذَهَبَتْ أَخَوَاتِي إِلَى الْكُلِّيَّةِ."],
+      "explain": "Le sujet vient avant le verbe : il s'accorde ({ar|ذَهَبْنَ}). Le verbe en tête reste au singulier ({ar|ذَهَبَتْ})."
+    }
+  ]
+}

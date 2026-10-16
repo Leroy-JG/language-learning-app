@@ -1,0 +1,22 @@
+[
+  {
+    "id": "w:damir-muttasil-mansub",
+    "kind": "word",
+    "ar": "الضَّمِيرُ الْمُتَّصِلُ الْمَنْصُوبُ",
+    "fr": "le pronom affixe de l'accusatif (complément d'un verbe, nom de {ar|إِنَّ}…)",
+    "translit": "aḍ-ḍamīru l-muttaṣilu l-manṣūbu",
+    "plural": "الضَّمَائِرُ الْمُتَّصِلَةُ الْمَنْصُوبَةُ",
+    "gender": "m",
+    "note": "Littéralement : « le pronom collé de l'accusatif ». Collé à un verbe, il en est le complément d'objet ({ar|ضَرَبَكَ} : « il t'a frappé ») ; collé à {ar|إِنَّ}, il en est le nom ({ar|إِنَّكَ})."
+  },
+  {
+    "id": "w:damir-muttasil-majrur",
+    "kind": "word",
+    "ar": "الضَّمِيرُ الْمُتَّصِلُ الْمَجْرُورُ",
+    "fr": "le pronom affixé du génitif (collé à un nom ou à une préposition)",
+    "translit": "aḍ-ḍamīru l-muttaṣilu l-majrūru",
+    "plural": "الضَّمَائِرُ الْمُتَّصِلَةُ الْمَجْرُورَةُ",
+    "gender": "m",
+    "note": "Littéralement : « le pronom collé du génitif » : {ar|كِتَابُكَ} (« ton livre »), {ar|عَلَيْكَ} (« sur toi »)."
+  }
+]

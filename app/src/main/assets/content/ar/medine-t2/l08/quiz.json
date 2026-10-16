@@ -1,0 +1,150 @@
+{
+  "id": "medine-t2.l08.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 8",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l08.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:damir-muttasil-mansub",
+      "distractors": ["w:damir-muttasil-majrur", "w:damir-muttasil-marfu"]
+    },
+    {
+      "id": "medine-t2.l08.quiz#2",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:damir-muttasil-majrur",
+      "distractors": ["w:damir-muttasil-mansub", "w:damir-muttasil-marfu"]
+    },
+    {
+      "id": "medine-t2.l08.quiz#3",
+      "type": "sort",
+      "categories": [
+        { "fr": "sujet (nominatif)" },
+        { "fr": "complément (accusatif)" },
+        { "fr": "après un nom ou une préposition (génitif)" }
+      ],
+      "cards": [
+        { "ar": "سَمِعْتُمْ", "category": 0 },
+        { "ar": "خَرَجْنَ", "category": 0 },
+        { "ar": "سَمِعَكُمْ", "category": 1 },
+        { "ar": "ضَرَبَهَا", "category": 1 },
+        { "ar": "بَيْتُكُمْ", "category": 2 },
+        { "ar": "عَلَيْهَا", "category": 2 }
+      ],
+      "instruction": "Quel est le cas du pronom collé ?",
+      "explain": "Collé à un verbe, le pronom est le sujet ({ar|سَمِعْتُمْ}, {ar|خَرَجْنَ}) ou le complément ({ar|سَمِعَكُمْ}, {ar|ضَرَبَهَا}). Collé à un nom ou à une préposition, il est au génitif."
+    },
+    {
+      "id": "medine-t2.l08.quiz#4",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « il nous a frappés » ?" },
+      "choices": [ { "ar": "ضَرَبَنَا" }, { "ar": "ضَرَبَنِي" }, { "ar": "ضَرَبَكُمْ" } ],
+      "answer": 0,
+      "explain": "« Nous » : {ar|نَا}. {ar|ضَرَبَنِي} : « il m'a frappé » ; {ar|ضَرَبَكُمْ} : « il vous a frappés »."
+    },
+    {
+      "id": "medine-t2.l08.quiz#5",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ الْمَجَلَّةُ جَدِيدَةٌ. {0} أَخِي.",
+      "fr": "Cette revue est nouvelle. Mon frère l'a lue.",
+      "gaps": [ { "answers": ["قَرَأَهَا"] } ],
+      "options": ["قَرَأَهَا", "قَرَأَهُ", "قَرَأَكَ"],
+      "explain": "{ar|مَجَلَّةٌ} est féminin : le pronom complément est {ar|هَا}."
+    },
+    {
+      "id": "medine-t2.l08.quiz#6",
+      "type": "fill_gap",
+      "sentence": "{0} فِي الْمَسْجِدِ.",
+      "fr": "Certes, elles sont à la mosquée.",
+      "gaps": [ { "answers": ["إِنَّهُنَّ"] } ],
+      "options": ["إِنَّهُنَّ", "إِنَّهُمْ", "إِنَّكُنَّ", "إِنَّهَا"],
+      "explain": "« Elles » (plusieurs femmes) : {ar|هُنَّ}. Après {ar|إِنَّ}, le pronom est son nom."
+    },
+    {
+      "id": "medine-t2.l08.quiz#7",
+      "type": "true_false",
+      "statement": { "fr": "Un pronom collé de l'accusatif est toujours différent de celui du génitif." },
+      "answer": false,
+      "explain": "Faux : ce sont les mêmes pronoms ({ar|كَ}, {ar|هُ}, {ar|هُمْ}…). Seul « me » change : {ar|نِي} avec un verbe, {ar|ي} sans {ar|ن} avec un nom ({ar|كِتَابِي})."
+    },
+    {
+      "id": "medine-t2.l08.quiz#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|سَمِعْنَا} (« nous avons entendu »), {ar|نَا} est…" },
+      "choices": [ { "fr": "le sujet" }, { "fr": "le complément d'objet" } ],
+      "answer": 0,
+      "explain": "Le {ar|ع} porte un sukūn : {ar|نَا} est le sujet. Pour « il nous a entendus », on écrit {ar|سَمِعَنَا}, avec une fatha."
+    },
+    {
+      "id": "medine-t2.l08.quiz#9",
+      "type": "order",
+      "fr": "Mon frère l'a mangé hier.",
+      "answers": [
+        ["أَكَلَهُ", "أَخِي", "أَمْسِ"],
+        ["أَخِي", "أَكَلَهُ", "أَمْسِ"],
+        ["أَمْسِ", "أَكَلَهُ", "أَخِي"],
+        ["أَكَلَهُ", "أَمْسِ", "أَخِي"],
+        ["أَخِي", "أَمْسِ", "أَكَلَهُ"],
+        ["أَمْسِ", "أَخِي", "أَكَلَهُ"]
+      ],
+      "punctuation": ".",
+      "explain": "Le pronom {ar|هُ} reste collé au verbe. Le sujet {ar|أَخِي} peut le suivre ou le précéder."
+    },
+    {
+      "id": "medine-t2.l08.quiz#10",
+      "type": "fill_gap",
+      "sentence": "أَنْتُمْ {0}.",
+      "fr": "Vous l'avez entendu.",
+      "gaps": [ { "answers": ["سَمِعْتُمُوهُ"] } ],
+      "options": ["سَمِعْتُمُوهُ", "سَمِعُوهُ", "سَمِعْنَاهُ", "سَمِعْتُهُ"],
+      "explain": "« Vous » (plusieurs hommes) : {ar|تُمْ}, puis un {ar|و}, puis {ar|هُ}."
+    },
+    {
+      "id": "medine-t2.l08.quiz#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je vous ai entendus (plusieurs hommes).",
+      "answers": ["سَمِعْتُكُمْ.", "أَنَا سَمِعْتُكُمْ."],
+      "explain": "{ar|سَمِعْتُ} (« j'ai entendu ») + {ar|كُمْ} (« vous », plusieurs hommes)."
+    },
+    {
+      "id": "medine-t2.l08.quiz#12",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|غَسَلْتِهِ}, pourquoi le {ar|ه} porte-t-il une kasra ?" },
+      "choices": [
+        { "fr": "parce que la lettre qui précède porte une kasra" },
+        { "fr": "parce que le sujet est un nom" },
+        { "fr": "parce que le verbe est au pluriel" }
+      ],
+      "answer": 0,
+      "explain": "Après la kasra du {ar|ت} (le sujet « tu », au féminin), {ar|هُ} devient {ar|هِ}."
+    },
+    {
+      "id": "medine-t2.l08.quiz#13",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|تُنَّ}, on ajoute un {ar|و} avant le pronom complément." },
+      "answer": false,
+      "explain": "Faux : le {ar|و} s'ajoute seulement après {ar|تُمْ} ({ar|ضَرَبْتُمُوهُ}). On dit {ar|ضَرَبْتُنَّهُ}."
+    },
+    {
+      "id": "medine-t2.l08.quiz#14",
+      "type": "fill_gap",
+      "sentence": "أَخِي {0}.",
+      "fr": "Mon frère m'a entendu.",
+      "gaps": [ { "answers": ["سَمِعَنِي"] } ],
+      "options": ["سَمِعَنِي", "سَمِعَنَا", "سَمِعَكَ"],
+      "explain": "« Me » avec un verbe : {ar|نِي}."
+    },
+    {
+      "id": "medine-t2.l08.quiz#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ils l'ont ouvert.",
+      "answers": ["فَتَحُوهُ.", "هُمْ فَتَحُوهُ."],
+      "explain": "{ar|فَتَحُوا} + {ar|هُ} : l'alif muet de {ar|وا} tombe, on écrit {ar|فَتَحُوهُ}."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "medine-t2.l08.practice-4",
+  "type": "grammar",
+  "title": "Exercice 2 : un verbe qui convient (2)",
+  "icon": "book",
+  "screens": [
+    {
+      "id": "medine-t2.l08.practice-4#1",
+      "type": "tip",
+      "title": "Suite de l'exercice 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les sept dernières phrases de l'exercice 2. Même consigne : choisir un verbe du passé qui convient au sens, puis l'accorder avec son sujet."
+        },
+        {
+          "type": "note",
+          "text": "Devant l'article ({ar|الْ}), le {ar|م} de {ar|تُمْ} prend une damma : {ar|حَفِظْتُمُ الْقُرْآنَ} (chapitre 7)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.practice-4#2",
+      "type": "fill_gap",
+      "sentence": "{0} الْقُرْآنَ بَعْدَ صَلَاةِ الْفَجْرِ يَا أَبْنَائِي؟",
+      "fr": "Avez-vous lu (ou mémorisé) le Coran après la prière de l'aube, mes fils ?",
+      "gaps": [ { "answers": ["أَقَرَأْتُمُ", "أَحَفِظْتُمُ"] } ],
+      "options": ["أَقَرَأْتُمُ", "أَحَفِظْتُمُ", "أَقَرَأْتُنَّ", "أَشَرِبْتُمُ"],
+      "explain": "On parle à ses fils : {ar|تُمْ}. Deux verbes conviennent : on peut lire ({ar|قَرَأَ}) ou mémoriser ({ar|حَفِظَ}) le Coran. {ar|تُنَّ} serait pour des filles."
+    },
+    {
+      "id": "medine-t2.l08.practice-4#3",
+      "type": "fill_gap",
+      "sentence": "أَخِي {0} سُورَةَ الرَّحْمٰنِ.",
+      "fr": "Mon frère a lu (ou mémorisé) la sourate Ar-Raḥmān.",
+      "gaps": [ { "answers": ["قَرَأَ", "حَفِظَ"] } ],
+      "options": ["قَرَأَ", "حَفِظَ", "شَرِبَ", "قَرَأْتُ"],
+      "explain": "Le sujet est « mon frère » (un seul homme) : {ar|قَرَأَ} ou {ar|حَفِظَ}. {ar|قَرَأْتُ} voudrait dire « j'ai lu »."
+    },
+    {
+      "id": "medine-t2.l08.practice-4#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai cherché mon stylo, mais je ne l'ai pas trouvé.",
+      "answers": [
+        "أَنَا بَحَثْتُ عَنْ قَلَمِي وَلَكِنِّي مَا وَجَدْتُهُ.",
+        "بَحَثْتُ عَنْ قَلَمِي وَلَكِنِّي مَا وَجَدْتُهُ.",
+        "أَنَا بَحَثْتُ عَنْ قَلَمِي وَلَكِنَّنِي مَا وَجَدْتُهُ.",
+        "بَحَثْتُ عَنْ قَلَمِي وَلَكِنَّنِي مَا وَجَدْتُهُ."
+      ],
+      "explain": "{ar|بَحَثَ عَنْ} : chercher ; {ar|وَجَدْتُهُ} : « je l'ai trouvé » ({ar|تُ} le sujet, {ar|هُ} le complément) ; {ar|مَا} nie le passé."
+    },
+    {
+      "id": "medine-t2.l08.practice-4#5",
+      "type": "order",
+      "fr": "Qui a tué ce serpent ?",
+      "answers": [["مَنْ", "قَتَلَ", "هٰذِهِ", "الْحَيَّةَ"]],
+      "punctuation": "؟",
+      "explain": "{ar|مَنْ} (« qui ») est suivi d'un verbe au singulier. {ar|الْحَيَّةَ} est le complément : fatha."
+    },
+    {
+      "id": "medine-t2.l08.practice-4#6",
+      "type": "fill_gap",
+      "sentence": "{0} الْقَهْوَةَ يَا مَرْيَمُ؟",
+      "fr": "As-tu bu le café, Maryam ?",
+      "gaps": [ { "answers": ["أَشَرِبْتِ"] } ],
+      "options": ["أَشَرِبْتِ", "أَشَرِبْتُمْ", "أَقَرَأْتِ"],
+      "explain": "Maryam est une femme : {ar|تِ}, avec la kasra. On boit du café : {ar|شَرِبَ}."
+    },
+    {
+      "id": "medine-t2.l08.practice-4#7",
+      "type": "fill_gap",
+      "sentence": "زُمَلَائِي {0} الْمَوْزَ وَأَنَا {1} الْعِنَبَ.",
+      "fr": "Mes camarades ont mangé les bananes, et moi j'ai mangé le raisin.",
+      "gaps": [ { "answers": ["أَكَلُوا"] }, { "answers": ["أَكَلْتُ"] } ],
+      "options": ["أَكَلُوا", "أَكَلْتُ", "أَكَلْنَا", "أَكَلَ"],
+      "explain": "« Mes camarades » (plusieurs hommes), placés avant le verbe : {ar|أَكَلُوا}. « Moi » : {ar|أَكَلْتُ}."
+    },
+    {
+      "id": "medine-t2.l08.practice-4#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Fāṭima a frappé sa fille avec le bâton.",
+      "answers": ["فَاطِمَةُ ضَرَبَتْ بِنْتَهَا بِالْعَصَا.", "ضَرَبَتْ فَاطِمَةُ بِنْتَهَا بِالْعَصَا."],
+      "explain": "{ar|ضَرَبَتْ} : « elle a frappé » (marque du féminin {ar|تْ}). {ar|بِنْتَهَا} : « sa fille » : un nom à l'accusatif (fatha) avec le pronom {ar|هَا} collé."
+    }
+  ]
+}

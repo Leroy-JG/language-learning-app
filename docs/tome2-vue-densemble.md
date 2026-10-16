@@ -222,3 +222,9 @@ Le cours 6 (un seul PDF de 21 pages) est publié : `docs/sources-t2-lecon-6.md`.
 Le cours 7 (un seul PDF de 23 pages) est publié : `docs/sources-t2-lecon-7.md`. Le support du professeur contient `النَّوَاسِخُ` et `كَانَ` (deux fonctions), le texte du livre (un père, ses fils et ses filles), les exercices 1 à 7, 10 à 12 (les exercices 8 et 9 manquent),
 deux diapositives (la rencontre de deux sukūn ; le complément avant le verbe avec `أَ` … `أَمْ`) et le vocabulaire nouveau (quatorze noms et sept verbes). Le chapitre les réunit : `l07.grammar-1` et `grammar-2` (`كَانَ`), `grammar-3` (deux sukūn), `grammar-4` (complément avant le verbe),
 `vocab-5` (les fractions de l'exercice 11), `dialogue-1` et `practice-1` à `practice-7`. La conjugaison de `كَانَ` n'est qu'un aperçu ; `الَّذِي` / `الَّتِي`, les ordinaux et le présent restent « pas encore enseignés ».
+
+## 14. Avancement : le chapitre 8 (`medine-t2.l08`)
+
+Le cours 8 (un seul PDF de 21 pages) est publié : `docs/sources-t2-lecon-8.md`. Le support du professeur contient `الْمَفْعُولُ بِهِ` (2ᵉ partie, rappel), les pronoms (4ᵉ partie : les pronoms collés de l'accusatif, le tableau avec `إِنَّ` et `لَعَلَّ`, un verbe avec sujet et complément collés),
+l'exercice 8 (verbe + pronom complément), le tableau de `ذَهَبَ` et les exercices 1, 2, 4, 5 et 6 (l'exercice 3 manque). Aucun vocabulaire ni texte du livre. Le chapitre les réunit : `l08.revue-1` et `revue-2` (rappels), `grammar-1` à `grammar-4` (les douze pronoms, le tableau de référence,
+« me » et « nous », `ضَرَبْتُمُوهُ`), `practice-1` à `practice-4`. Les pronoms isolés de l'accusatif (`إِيَّاكَ`), `الَّذِي` / `الَّتِي`, les ordinaux et le présent restent « pas encore enseignés ».

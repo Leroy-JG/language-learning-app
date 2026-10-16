@@ -1,0 +1,114 @@
+{
+  "id": "medine-t2.l08.grammar-2",
+  "type": "grammar",
+  "title": "Le tableau de référence",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l08.grammar-2#1",
+      "type": "tip",
+      "title": "Les pronoms de l'accusatif : moi, nous, toi, vous",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne les mêmes pronoms après {ar|إِنَّ}, après {ar|لَعَلَّ} (où ils sont leur nom, à l'accusatif) et après un verbe (où ils sont le complément). Son tableau, avec {ar|ضَرَبَ زَيْدٌ} (« Zayd a frappé ») :"
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "{ar|إِنَّ}", "{ar|لَعَلَّ}", "{ar|ضَرَبَ زَيْدٌ}"],
+          "rows": [
+            ["{ar|ي}", "{ar|إِنَّنِي} ou {ar|إِنِّي}", "{ar|لَعَلِّي}", "{ar|ضَرَبَنِي زَيْدٌ}"],
+            ["{ar|نَا}", "{ar|إِنَّا}", "{ar|لَعَلَّنَا}", "{ar|ضَرَبَنَا زَيْدٌ}"],
+            ["{ar|كَ}", "{ar|إِنَّكَ}", "{ar|لَعَلَّكَ}", "{ar|ضَرَبَكَ زَيْدٌ}"],
+            ["{ar|كِ}", "{ar|إِنَّكِ}", "{ar|لَعَلَّكِ}", "{ar|ضَرَبَكِ زَيْدٌ}"],
+            ["{ar|كُمَا}", "{ar|إِنَّكُمَا}", "{ar|لَعَلَّكُمَا}", "{ar|ضَرَبَكُمَا زَيْدٌ}"],
+            ["{ar|كُمْ}", "{ar|إِنَّكُمْ}", "{ar|لَعَلَّكُمْ}", "{ar|ضَرَبَكُمْ زَيْدٌ}"],
+            ["{ar|كُنَّ}", "{ar|إِنَّكُنَّ}", "{ar|لَعَلَّكُنَّ}", "{ar|ضَرَبَكُنَّ زَيْدٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "La forme longue {ar|إِنَّنَا} existe aussi, à côté de {ar|إِنَّا} (celle du tableau)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.grammar-2#2",
+      "type": "tip",
+      "title": "Les pronoms de l'accusatif : lui, elle, eux",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pronom", "{ar|إِنَّ}", "{ar|لَعَلَّ}", "{ar|ضَرَبَ زَيْدٌ}"],
+          "rows": [
+            ["{ar|هُ}", "{ar|إِنَّهُ}", "{ar|لَعَلَّهُ}", "{ar|ضَرَبَهُ زَيْدٌ}"],
+            ["{ar|هَا}", "{ar|إِنَّهَا}", "{ar|لَعَلَّهَا}", "{ar|ضَرَبَهَا زَيْدٌ}"],
+            ["{ar|هُمَا}", "{ar|إِنَّهُمَا}", "{ar|لَعَلَّهُمَا}", "{ar|ضَرَبَهُمَا زَيْدٌ}"],
+            ["{ar|هُمْ}", "{ar|إِنَّهُمْ}", "{ar|لَعَلَّهُمْ}", "{ar|ضَرَبَهُمْ زَيْدٌ}"],
+            ["{ar|هُنَّ}", "{ar|إِنَّهُنَّ}", "{ar|لَعَلَّهُنَّ}", "{ar|ضَرَبَهُنَّ زَيْدٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans la dernière colonne, le pronom est collé au verbe, **avant** le sujet {ar|زَيْدٌ}. Après {ar|إِنَّ} et {ar|لَعَلَّ}, il est collé à la particule."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l08.grammar-2#3",
+      "type": "sort",
+      "categories": [ { "fr": "moi, nous" }, { "fr": "toi, vous" }, { "fr": "lui, elle, eux" } ],
+      "cards": [
+        { "ar": "إِنَّنِي", "category": 0 },
+        { "ar": "ضَرَبَنَا", "category": 0 },
+        { "ar": "لَعَلَّكَ", "category": 1 },
+        { "ar": "ضَرَبَكُمْ", "category": 1 },
+        { "ar": "ضَرَبَهَا", "category": 2 },
+        { "ar": "إِنَّهُمْ", "category": 2 }
+      ],
+      "instruction": "De qui parle-t-on ?",
+      "explain": "{ar|نِي} et {ar|نَا} : moi, nous. {ar|كَ} et {ar|كُمْ} : toi, vous. {ar|هَا} et {ar|هُمْ} : elle, eux."
+    },
+    {
+      "id": "medine-t2.l08.grammar-2#4",
+      "type": "question",
+      "prompt": { "fr": "Quel mot veut dire « peut-être qu'elle » ?" },
+      "choices": [ { "ar": "لَعَلَّهَا" }, { "ar": "لَعَلَّهُ" }, { "ar": "لَعَلَّكِ" } ],
+      "answer": 0,
+      "explain": "{ar|لَعَلَّ} + {ar|هَا} (« elle »). {ar|لَعَلَّهُ} veut dire « peut-être qu'il » et {ar|لَعَلَّكِ} « peut-être que toi (une femme) »."
+    },
+    {
+      "id": "medine-t2.l08.grammar-2#5",
+      "type": "fill_gap",
+      "sentence": "{0} طَالِبٌ.",
+      "fr": "Certes, il est étudiant.",
+      "gaps": [ { "answers": ["إِنَّهُ"] } ],
+      "options": ["إِنَّهُ", "إِنَّهَا", "إِنَّكَ", "إِنَّنِي"],
+      "explain": "« Il » : {ar|هُ}. Le pronom est le nom de {ar|إِنَّ} (à l'accusatif) ; {ar|طَالِبٌ} reste au nominatif."
+    },
+    {
+      "id": "medine-t2.l08.grammar-2#6",
+      "type": "fill_gap",
+      "sentence": "{0} بِخَيْرٍ.",
+      "fr": "J'espère que vous allez bien (plusieurs hommes).",
+      "gaps": [ { "answers": ["لَعَلَّكُمْ"] } ],
+      "options": ["لَعَلَّكُمْ", "لَعَلَّكُنَّ", "لَعَلَّهُمْ", "لَعَلِّي"],
+      "explain": "« Vous », plusieurs hommes : {ar|كُمْ}. {ar|كُنَّ} s'adresserait à plusieurs femmes."
+    },
+    {
+      "id": "medine-t2.l08.grammar-2#7",
+      "type": "true_false",
+      "statement": { "fr": "Les deux formes {ar|إِنَّنِي} et {ar|إِنِّي} sont correctes." },
+      "answer": true,
+      "explain": "Oui : le tableau du professeur donne les deux. Dans {ar|إِنَّنِي}, la nūn de protection est écrite ; dans {ar|إِنِّي}, on ne l'écrit pas."
+    },
+    {
+      "id": "medine-t2.l08.grammar-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Certes, elle est étudiante.",
+      "answers": ["إِنَّهَا طَالِبَةٌ."]
+    }
+  ]
+}
