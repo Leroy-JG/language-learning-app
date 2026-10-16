@@ -1,0 +1,141 @@
+{
+  "id": "medine-t2.l11.grammar-5",
+  "type": "grammar",
+  "title": "Un pronom qu'on voit ou qu'on ne voit pas",
+  "icon": "telescope",
+  "screens": [
+    {
+      "id": "medine-t2.l11.grammar-5#1",
+      "type": "tip",
+      "title": "Le sujet du présent : apparent ou caché",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au présent comme au passé, le sujet est un pronom collé au verbe. Il y en a deux sortes : le pronom **apparent** ({ar|بَارِزٌ}), qu'on voit écrit ; et le pronom **caché** ({ar|مُسْتَتِرٌ}), qu'on n'écrit pas. Le pronom caché est sous-entendu : il a la même fonction que le pronom apparent."
+        },
+        {
+          "type": "table",
+          "header": ["Personne", "Le pronom sujet", "Exemple"],
+          "rows": [
+            ["je ({ar|أَنَا}), nous ({ar|نَحْنُ})", "caché", "{ar|أَكْتُبُ}, {ar|نَكْتُبُ}"],
+            ["tu, à un homme ({ar|أَنْتَ})", "caché", "{ar|تَكْتُبُ}"],
+            ["il ({ar|هُوَ}), elle ({ar|هِيَ})", "caché", "{ar|يَكْتُبُ}, {ar|تَكْتُبُ}"],
+            ["tu, à une femme ({ar|أَنْتِ})", "apparent : {ar|ي}", "{ar|تَكْتُبِينَ}"],
+            [
+              "deux personnes ({ar|أَنْتُمَا}, {ar|هُمَا})",
+              "apparent : {ar|ا}",
+              "{ar|تَكْتُبَانِ}, {ar|يَكْتُبَانِ}"
+            ],
+            [
+              "plusieurs hommes ({ar|أَنْتُمْ}, {ar|هُمْ})",
+              "apparent : {ar|و}",
+              "{ar|تَكْتُبُونَ}, {ar|يَكْتُبُونَ}"
+            ],
+            [
+              "plusieurs femmes ({ar|أَنْتُنَّ}, {ar|هُنَّ})",
+              "apparent : {ar|نَ}",
+              "{ar|تَكْتُبْنَ}, {ar|يَكْتُبْنَ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Les lettres {ar|أَ}, {ar|نَ}, {ar|تَ}, {ar|يَ} du début ne sont pas des pronoms : ce sont les lettres du présent. Dans {ar|أَكْتُبُ}, le pronom « je » est caché."
+        }
+      ]
+    },
+    { "id": "medine-t2.l11.grammar-5#2", "type": "present", "item": "w:bariz" },
+    {
+      "id": "medine-t2.l11.grammar-5#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:bariz",
+      "distractors": ["w:mustatir", "w:madi"],
+      "explain": "{ar|بَارِزٌ} : apparent (qu'on voit). {ar|مُسْتَتِرٌ} : caché. {ar|الْمَاضِي} : le passé."
+    },
+    {
+      "id": "medine-t2.l11.grammar-5#4",
+      "type": "tip",
+      "title": "Au passé et au présent : « ils »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour « ils », le pronom est la lettre {ar|و} dans les deux temps. Au passé, on écrit un alif après elle, qu'on n'entend pas : {ar|كَتَبُوا}. Au présent, il n'y a pas d'alif : {ar|يَكْتُبُونَ}."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "كَتَبُوا", "fr": "ils ont écrit" },
+              "to": { "ar": "يَكْتُبُونَ", "fr": "ils écrivent" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.grammar-5#5",
+      "type": "sort",
+      "categories": [ { "fr": "pronom apparent" }, { "fr": "pronom caché" } ],
+      "cards": [
+        { "ar": "يَكْتُبُونَ", "category": 0 },
+        { "ar": "أَكْتُبُ", "category": 1 },
+        { "ar": "تَكْتُبِينَ", "category": 0 },
+        { "ar": "نَكْتُبُ", "category": 1 },
+        { "ar": "يَكْتُبْنَ", "category": 0 },
+        { "ar": "يَكْتُبُ", "category": 1 }
+      ],
+      "instruction": "Pronom apparent ou caché ?",
+      "explain": "{ar|يَكْتُبُونَ} ({ar|و}), {ar|تَكْتُبِينَ} ({ar|ي}) et {ar|يَكْتُبْنَ} ({ar|نَ}) ont un pronom qu'on voit. Dans {ar|أَكْتُبُ}, {ar|نَكْتُبُ} et {ar|يَكْتُبُ}, le pronom est caché."
+    },
+    {
+      "id": "medine-t2.l11.grammar-5#6",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|يَكْتُبُونَ}, quelle lettre est le pronom sujet « ils » ?" },
+      "choices": [ { "ar": "و" }, { "ar": "ي" }, { "ar": "ب" } ],
+      "answer": 0,
+      "explain": "Le {ar|يَ} du début est la lettre du présent, pas le pronom. Le pronom sujet « ils » est le {ar|و}."
+    },
+    {
+      "id": "medine-t2.l11.grammar-5#7",
+      "type": "spot",
+      "instruction": "Touche le verbe dont le sujet est un pronom apparent.",
+      "words": ["الطُّلَّابُ", "يَدْرُسُونَ", "وَأَنَا", "أَدْرُسُ"],
+      "answers": [1],
+      "fr": "Les étudiants étudient et moi, j'étudie.",
+      "explain": "Dans {ar|يَدْرُسُونَ}, le pronom est le {ar|و}, qu'on voit. Dans {ar|أَدْرُسُ}, « je » est caché."
+    },
+    {
+      "id": "medine-t2.l11.grammar-5#8",
+      "type": "fill_gap",
+      "sentence": "هُمْ {0} فِي الْمَسْجِدِ.",
+      "fr": "Ils s'assoient dans la mosquée.",
+      "gaps": [ { "answers": ["يَجْلِسُونَ"] } ],
+      "options": ["يَجْلِسُونَ", "يَجْلِسُ", "يَجْلِسْنَ"],
+      "explain": "« Ils » (plusieurs hommes) : le pronom {ar|و}, avec {ar|ونَ} à la fin."
+    },
+    {
+      "id": "medine-t2.l11.grammar-5#9",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|أَكْتُبُ}, la lettre {ar|أَ} du début est le pronom « je »." },
+      "answer": false,
+      "explain": "Non : {ar|أَ} est la lettre du présent. Le pronom « je » est caché."
+    },
+    {
+      "id": "medine-t2.l11.grammar-5#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles étudient.",
+      "answers": ["يَدْرُسْنَ.", "هُنَّ يَدْرُسْنَ."]
+    },
+    {
+      "id": "medine-t2.l11.grammar-5#11",
+      "type": "order",
+      "fr": "Les étudiantes étudient à l'université.",
+      "answers": [["الطَّالِبَاتُ", "يَدْرُسْنَ", "فِي", "الْجَامِعَةِ"]],
+      "punctuation": ".",
+      "explain": "Le sujet est un groupe de femmes : le verbe se termine par le pronom {ar|نَ}."
+    }
+  ]
+}

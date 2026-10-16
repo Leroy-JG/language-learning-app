@@ -1,0 +1,95 @@
+{
+  "id": "medine-t2.l11.practice-5",
+  "type": "vocabulary",
+  "title": "Exercice 6 : le sujet au pluriel",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l11.practice-5#1",
+      "type": "tip",
+      "title": "Un sujet au pluriel, un verbe au pluriel",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand on met le sujet au pluriel, il faut aussi accorder le verbe. Pour plusieurs hommes (ou un groupe mixte), le verbe prend {ar|و} : {ar|يَدْخُلُونَ}. Pour plusieurs femmes, il prend {ar|نَ} : {ar|يَبْحَثْنَ}."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "الطَّالِبُ يَدْخُلُ الْفَصْلَ", "fr": "L'étudiant entre dans la classe" },
+              "to": { "ar": "الطُّلَّابُ يَدْخُلُونَ الْفَصْلَ", "fr": "Les étudiants entrent dans la classe" }
+            },
+            {
+              "from": { "ar": "أُخْتِي تَبْحَثُ عَنِ الْمِكْنَسَةِ", "fr": "Ma sœur cherche le balai" },
+              "to": { "ar": "أَخَوَاتِي يَبْحَثْنَ عَنِ الْمِكْنَسَةِ", "fr": "Mes sœurs cherchent le balai" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le nom change aussi : {ar|طَالِبٌ} → {ar|طُلَّابٌ} ; {ar|أُخْتٌ} → {ar|أَخَوَاتٌ}. Ce sont des pluriels irréguliers (tome 1)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.practice-5#2",
+      "type": "fill_gap",
+      "sentence": "{0} {1} الْفَصْلَ.",
+      "fr": "Les étudiants entrent dans la classe.",
+      "gaps": [ { "answers": ["الطُّلَّابُ"] }, { "answers": ["يَدْخُلُونَ"] } ],
+      "options": ["الطُّلَّابُ", "الطَّالِبُ", "يَدْخُلُونَ", "يَدْخُلُ"],
+      "explain": "Le sujet est au pluriel : {ar|الطُّلَّابُ}, et le verbe aussi : {ar|يَدْخُلُونَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-5#3",
+      "type": "fill_gap",
+      "sentence": "{0} {1} فِي الْمَصْنَعِ ثَمَانِيَ سَاعَاتٍ.",
+      "fr": "Les ouvriers travaillent huit heures à l'usine.",
+      "gaps": [ { "answers": ["الْعُمَّالُ"] }, { "answers": ["يَعْمَلُونَ"] } ],
+      "options": ["الْعُمَّالُ", "الْعَامِلُ", "يَعْمَلُونَ", "يَعْمَلُ"],
+      "explain": "{ar|عَامِلٌ} → {ar|عُمَّالٌ}. Le verbe suit : {ar|يَعْمَلُونَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-5#4",
+      "type": "question",
+      "prompt": { "fr": "Quel est le pluriel de {ar|تَاجِرٌ} (« un commerçant ») ?" },
+      "choices": [ { "ar": "تُجَّارٌ" }, { "ar": "تَاجِرَاتٌ" }, { "ar": "تَجَرٌ" } ],
+      "answer": 0,
+      "explain": "{ar|تَاجِرٌ} → {ar|تُجَّارٌ} (tome 1). {ar|تَاجِرَاتٌ} serait le pluriel de {ar|تَاجِرَةٌ} (une commerçante)."
+    },
+    {
+      "id": "medine-t2.l11.practice-5#5",
+      "type": "fill_gap",
+      "sentence": "{0} {1} الدُّكَّانَ فِي السَّاعَةِ الثَّامِنَةِ.",
+      "fr": "Les commerçants ouvrent la boutique à huit heures.",
+      "gaps": [ { "answers": ["التُّجَّارُ"] }, { "answers": ["يَفْتَحُونَ"] } ],
+      "options": ["التُّجَّارُ", "التَّاجِرُ", "يَفْتَحُونَ", "يَفْتَحُ"],
+      "explain": "{ar|تَاجِرٌ} → {ar|تُجَّارٌ} ; le verbe : {ar|يَفْتَحُونَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-5#6",
+      "type": "order",
+      "fr": "Les médecins vont maintenant à l'hôpital.",
+      "answers": [["الْأَطِبَّاءُ", "يَذْهَبُونَ", "الْآنَ", "إِلَى", "الْمُسْتَشْفَى"]],
+      "punctuation": ".",
+      "explain": "{ar|طَبِيبٌ} → {ar|أَطِبَّاءُ}. Le verbe est au pluriel masculin : {ar|يَذْهَبُونَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-5#7",
+      "type": "true_false",
+      "statement": { "fr": "Pour dire « mes sœurs cherchent », on dit {ar|أَخَوَاتِي يَبْحَثُونَ}." },
+      "answer": false,
+      "explain": "Non : {ar|أَخَوَاتِي} désigne des femmes, le verbe se termine par {ar|نَ} : {ar|يَبْحَثْنَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-5#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mes sœurs cherchent le balai.",
+      "answers": ["أَخَوَاتِي يَبْحَثْنَ عَنِ الْمِكْنَسَةِ.", "يَبْحَثْنَ أَخَوَاتِي عَنِ الْمِكْنَسَةِ."],
+      "explain": "Le sujet {ar|أَخَوَاتِي} est au pluriel féminin : le verbe {ar|يَبْحَثْنَ}."
+    }
+  ]
+}

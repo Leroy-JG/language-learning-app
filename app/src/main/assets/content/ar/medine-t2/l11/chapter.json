@@ -1,0 +1,30 @@
+{
+  "id": "medine-t2.l11",
+  "number": 11,
+  "title": { "ar": "الدَّرْسُ الْحَادِي عَشَرَ", "fr": "Le présent et le futur ; les pronoms sujets du présent" },
+  "description": "Les signes du passé et du présent ({ar|أَنَيْتُ}), une lettre pour chaque personne, les douze formes du présent, le pronom apparent ou caché, le futur ({ar|سَ}, {ar|سَوْفَ}), la négation ({ar|مَا}, {ar|لَا}), le vocabulaire (étudier, habiter, remercier, descendre ; lettre, carte, coiffeur, soir), le texte du livre (dans le bus) et ses exercices.",
+  "source": "Tome de Médine 2, leçon 11",
+  "sections": [
+    { "title": "Revoir : le passé", "activities": ["revue-1"] },
+    { "title": "Reconnaître le temps d'un verbe", "activities": ["grammar-1", "grammar-2"] },
+    { "title": "Le présent, personne par personne", "activities": ["grammar-3", "grammar-4", "grammar-5"] },
+    { "title": "Le futur et la négation", "activities": ["grammar-6", "grammar-7"] },
+    { "title": "Étudier, habiter, remercier, descendre", "activities": ["vocab-1"] },
+    { "title": "Les mots du texte", "activities": ["vocab-2", "vocab-3", "vocab-4", "vocab-5"] },
+    {
+      "title": "Le texte du livre et ses exercices",
+      "activities": [
+        "dialogue-1",
+        "dialogue-2",
+        "practice-1",
+        "practice-2",
+        "practice-3",
+        "practice-4",
+        "practice-5",
+        "practice-6",
+        "practice-7"
+      ]
+    },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

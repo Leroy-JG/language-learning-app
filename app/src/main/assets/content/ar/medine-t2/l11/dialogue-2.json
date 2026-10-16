@@ -1,0 +1,196 @@
+{
+  "id": "medine-t2.l11.dialogue-2",
+  "type": "dialogue",
+  "title": "Les frères, les sœurs et l'adresse",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l11.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Les frères, les sœurs et l'adresse",
+      "intro": "Fayṣal demande à ʿAbd Allāh qui sont les jeunes gens qui sont avec lui, où étudient et habitent ses frères et ses sœurs, puis il lui demande son adresse. À la fin, le conducteur lui parle.",
+      "speakers": {
+        "F": { "name": "Fayṣal", "voice": "m1" },
+        "A": { "name": "ʿAbd Allāh", "voice": "m2" },
+        "C": { "name": "Le conducteur", "voice": "m1" }
+      },
+      "lines": [
+        {
+          "speaker": "F",
+          "ar": "مَنْ هَؤُلَاءِ الْفِتْيَةُ الَّذِينَ مَعَكَ؟ كَأَنَّهُمْ إِخْوَتُكَ.",
+          "fr": "Qui sont ces jeunes gens qui sont avec toi ? On dirait tes frères."
+        },
+        {
+          "speaker": "A",
+          "ar": "نَعَمْ. هَؤُلَاءِ إِخْوَتِي. لِي أَرْبَعَةُ إِخْوَةٍ وَثَلَاثُ أَخَوَاتٍ.",
+          "fr": "Oui. Ce sont mes frères. J'ai quatre frères et trois sœurs."
+        },
+        { "speaker": "F", "ar": "أَيْنَ يَدْرُسُ هَؤُلَاءِ؟", "fr": "Où étudient-ils ?" },
+        {
+          "speaker": "A",
+          "ar": "أَمَّا إِخْوَتِي فَكُلُّهُمْ يَدْرُسُونَ بِالْجَامِعَةِ.",
+          "fr": "Quant à mes frères, ils étudient tous à l'université."
+        },
+        {
+          "speaker": "A",
+          "ar": "عِيسَى، وَهُوَ أَكْبَرُ مِنِّي، يَدْرُسُ فِي كُلِّيَّةِ الطِّبِّ.",
+          "fr": "ʿĪsā, qui est plus âgé que moi, étudie à la faculté de médecine."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَإِبْرَاهِيمُ يَدْرُسُ فِي كُلِّيَّةِ التِّجَارَةِ. وَإِسْحَاقُ يَدْرُسُ فِي كُلِّيَّةِ الْآدَابِ. وَإِسْمَاعِيلُ يَدْرُسُ فِي كُلِّيَّةِ الْعُلُومِ.",
+          "fr": "Ibrāhīm étudie à la faculté de commerce. Isḥāq étudie à la faculté des lettres. Ismāʿīl étudie à la faculté des sciences."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَهَؤُلَاءِ الثَّلَاثَةُ أَصْغَرُ مِنِّي.",
+          "fr": "Et ces trois-là sont plus jeunes que moi."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَأَمَّا الْأَخَوَاتُ فَيَدْرُسْنَ فِي الْمَدْرَسَةِ الْمُتَوَسِّطَةِ. زَيْنَبُ تَدْرُسُ فِي السَّنَةِ الْأُولَى، وَسَلْمَى تَدْرُسُ فِي السَّنَةِ الثَّانِيَةِ، وَلَيْلَى تَدْرُسُ فِي السَّنَةِ الثَّالِثَةِ.",
+          "fr": "Quant aux sœurs, elles étudient au collège (l'école intermédiaire). Zaynab est en première année, Salmā en deuxième année et Laylā en troisième année."
+        },
+        {
+          "speaker": "F",
+          "ar": "فِي أَيِّ مَدْرَسَةٍ تَدْرُسُ أَخَوَاتُكَ؟",
+          "fr": "Dans quelle école étudient tes sœurs ?"
+        },
+        {
+          "speaker": "A",
+          "ar": "يَدْرُسْنَ فِي مَدْرَسَةِ خَالِدِ بْنِ الْوَلِيدِ لِلْبَنَاتِ بِمَكَّةَ.",
+          "fr": "Elles étudient à l'école Khālid ibn al-Walīd pour filles, à La Mecque."
+        },
+        { "speaker": "F", "ar": "أَيْنَ تَسْكُنُونَ أَنْتُمْ؟", "fr": "Où habitez-vous ?" },
+        {
+          "speaker": "A",
+          "ar": "إِخْوَتِي يَسْكُنُونَ فِي مَهَاجِعِ الْجَامِعَةِ. أَمَّا أَنَا فَأَسْكُنُ مَعَ قَرِيبٍ لِي.",
+          "fr": "Mes frères habitent dans les dortoirs de l'université. Quant à moi, j'habite avec un parent."
+        },
+        { "speaker": "F", "ar": "أَمُتَزَوِّجٌ أَنْتَ يَا عَبْدَ اللَّهِ؟", "fr": "Es-tu marié, ʿAbd Allāh ?" },
+        { "speaker": "A", "ar": "لَا. لَسْتُ بِمُتَزَوِّجٍ.", "fr": "Non. Je ne suis pas marié." },
+        { "speaker": "F", "ar": "مَا عُنْوَانُكَ؟", "fr": "Quelle est ton adresse ?" },
+        {
+          "speaker": "A",
+          "ar": "هٰذِهِ بِطَاقَتِي، فِيهَا عُنْوَانِي.",
+          "fr": "Voici ma carte ; mon adresse y figure."
+        },
+        {
+          "speaker": "F",
+          "ar": "أَشْكُرُكَ يَا أَخِي. أَنَا مَسْرُورٌ بِلِقَائِكَ.",
+          "fr": "Je te remercie, mon frère. Je suis ravi de t'avoir rencontré."
+        },
+        {
+          "speaker": "F",
+          "ar": "أَنَا سَأَنْزِلُ فِي الْمَحَطَّةِ الْقَادِمَةِ.",
+          "fr": "Moi, je descendrai à la prochaine station."
+        },
+        {
+          "speaker": "A",
+          "ar": "فِي أَمَانِ اللَّهِ، وَإِلَى اللِّقَاءِ.",
+          "fr": "Que Dieu te garde, et à bientôt."
+        },
+        {
+          "speaker": "C",
+          "ar": "هٰذَا الْبَابُ لِلدُّخُولِ يَا أَخِي. النُّزُولُ مِنْ هُنَاكَ.",
+          "fr": "Cette porte sert à entrer, mon frère. La descente se fait par là-bas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.dialogue-2#2",
+      "type": "tip",
+      "title": "Quelques mots du texte",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Forme", "Sens"],
+          "rows": [
+            ["{ar|الْفِتْيَةُ}", "les jeunes gens (le pluriel de {ar|فَتًى})"],
+            [
+              "{ar|كُلِّيَّةُ الْآدَابِ}, {ar|كُلِّيَّةُ الْعُلُومِ}",
+              "la faculté des lettres, la faculté des sciences"
+            ],
+            [
+              "{ar|الْمَدْرَسَةُ الْمُتَوَسِّطَةُ}",
+              "le collège : l'école « intermédiaire », entre l'école primaire et le lycée"
+            ],
+            [
+              "{ar|أَكْبَرُ مِنِّي}, {ar|أَصْغَرُ مِنِّي}",
+              "plus âgé que moi, plus jeune que moi (comparatif, chapitre 3 de ce tome)"
+            ],
+            [
+              "{ar|أَرْبَعَةُ إِخْوَةٍ وَثَلَاثُ أَخَوَاتٍ}",
+              "quatre frères et trois sœurs (de 3 à 10, le nombre est de genre contraire au nom compté : {ar|ثَلَاثٌ} avec {ar|أَخَوَاتٌ})"
+            ],
+            ["{ar|قَرِيبٌ لِي}", "un parent à moi (un proche)"],
+            [
+              "{ar|النُّزُولُ}, {ar|الدُّخُولُ}",
+              "la descente, l'entrée (les noms d'action de {ar|نَزَلَ} et {ar|دَخَلَ})"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "{ar|خَالِدُ بْنُ الْوَلِيدِ} est un compagnon du Prophète, resté célèbre comme chef de guerre. Entre deux noms de personnes, le mot {ar|ابْنٌ} perd son alif à l'écrit."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Combien de frères et de sœurs ʿAbd Allāh a-t-il ?" },
+      "choices": [
+        { "fr": "quatre frères et trois sœurs" },
+        { "fr": "trois frères et quatre sœurs" },
+        { "fr": "sept frères" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l11.dialogue-2#1" },
+      "explain": "{ar|لِي أَرْبَعَةُ إِخْوَةٍ وَثَلَاثُ أَخَوَاتٍ}."
+    },
+    {
+      "id": "medine-t2.l11.dialogue-2#4",
+      "type": "true_false",
+      "statement": { "fr": "ʿAbd Allāh habite dans les dortoirs de l'université avec ses frères." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l11.dialogue-2#1" },
+      "explain": "Faux : ses frères habitent dans les dortoirs ; lui habite chez un parent ({ar|أَسْكُنُ مَعَ قَرِيبٍ لِي})."
+    },
+    {
+      "id": "medine-t2.l11.dialogue-2#5",
+      "type": "fill_gap",
+      "sentence": "زَيْنَبُ {0} فِي السَّنَةِ الْأُولَى.",
+      "fr": "Zaynab étudie en première année.",
+      "gaps": [ { "answers": ["تَدْرُسُ"] } ],
+      "options": ["تَدْرُسُ", "يَدْرُسُ", "يَدْرُسْنَ"],
+      "context": { "dialogue": "medine-t2.l11.dialogue-2#1" },
+      "explain": "{ar|زَيْنَبُ} est une fille : le verbe commence par {ar|تَ}."
+    },
+    {
+      "id": "medine-t2.l11.dialogue-2#6",
+      "type": "question",
+      "prompt": { "fr": "Qui descendra à la prochaine station ?" },
+      "choices": [ { "fr": "Fayṣal" }, { "fr": "ʿAbd Allāh" }, { "fr": "le conducteur" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l11.dialogue-2#1" },
+      "explain": "{ar|أَنَا سَأَنْزِلُ فِي الْمَحَطَّةِ الْقَادِمَةِ} : c'est Fayṣal qui parle."
+    },
+    {
+      "id": "medine-t2.l11.dialogue-2#7",
+      "type": "order",
+      "fr": "Quant à mes frères, ils étudient tous à l'université.",
+      "answers": [["أَمَّا", "إِخْوَتِي", "فَكُلُّهُمْ", "يَدْرُسُونَ", "بِالْجَامِعَةِ"]],
+      "punctuation": ".",
+      "explain": "{ar|أَمَّا} annonce le sujet ; la suite commence par {ar|فَ} ({ar|فَكُلُّهُمْ})."
+    },
+    {
+      "id": "medine-t2.l11.dialogue-2#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je ne suis pas marié.",
+      "answers": ["لَسْتُ بِمُتَزَوِّجٍ.", "لَسْتُ مُتَزَوِّجًا.", "أَنَا لَسْتُ بِمُتَزَوِّجٍ.", "أَنَا لَسْتُ مُتَزَوِّجًا."]
+    }
+  ]
+}

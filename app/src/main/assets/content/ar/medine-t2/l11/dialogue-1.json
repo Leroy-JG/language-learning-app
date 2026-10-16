@@ -1,0 +1,142 @@
+{
+  "id": "medine-t2.l11.dialogue-1",
+  "type": "dialogue",
+  "title": "Dans le bus : faire connaissance",
+  "icon": "university",
+  "screens": [
+    {
+      "id": "medine-t2.l11.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Dans le bus : faire connaissance",
+      "intro": "Dans un bus, deux jeunes hommes se saluent. Fayṣal interroge ʿAbd Allāh : son nom, ses études, ses professeurs.",
+      "speakers": { "F": { "name": "Fayṣal", "voice": "m1" }, "A": { "name": "ʿAbd Allāh", "voice": "m2" } },
+      "lines": [
+        { "speaker": "F", "ar": "السَّلَامُ عَلَيْكُمْ.", "fr": "Que la paix soit sur vous." },
+        {
+          "speaker": "A",
+          "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.",
+          "fr": "Et sur vous la paix, ainsi que la miséricorde d'Allah et ses bénédictions."
+        },
+        { "speaker": "F", "ar": "مَا اسْمُكَ يَا أَخِي؟", "fr": "Quel est ton nom, mon frère ?" },
+        {
+          "speaker": "A",
+          "ar": "اِسْمِي عَبْدُ اللَّهِ، وَمَا اسْمُكَ؟",
+          "fr": "Mon nom est ʿAbd Allāh, et toi, quel est ton nom ?"
+        },
+        {
+          "speaker": "F",
+          "ar": "اِسْمِي فَيْصَلٌ. أَطَالِبٌ أَنْتَ يَا عَبْدَ اللَّهِ؟",
+          "fr": "Mon nom est Fayṣal. Es-tu étudiant, ʿAbd Allāh ?"
+        },
+        { "speaker": "A", "ar": "نَعَمْ.", "fr": "Oui." },
+        { "speaker": "F", "ar": "أَيْنَ تَدْرُسُ يَا أَخِي؟", "fr": "Où étudies-tu, mon frère ?" },
+        { "speaker": "A", "ar": "أَدْرُسُ بِجَامِعَةِ الرِّيَاضِ.", "fr": "J'étudie à l'université de Riyad." },
+        { "speaker": "F", "ar": "فِي أَيِّ كُلِّيَّةٍ تَدْرُسُ؟", "fr": "Dans quelle faculté étudies-tu ?" },
+        {
+          "speaker": "A",
+          "ar": "أَدْرُسُ فِي كُلِّيَّةِ الْهَنْدَسَةِ.",
+          "fr": "J'étudie à la faculté d'ingénierie."
+        },
+        { "speaker": "F", "ar": "فِي أَيِّ سَنَةٍ تَدْرُسُ؟", "fr": "En quelle année étudies-tu ?" },
+        { "speaker": "A", "ar": "أَدْرُسُ فِي السَّنَةِ الثَّانِيَةِ.", "fr": "J'étudie en deuxième année." },
+        { "speaker": "F", "ar": "أَتَعْرِفُ الْمُهَنْدِسَ سَلْمَانَ؟", "fr": "Connais-tu l'ingénieur Salmān ?" },
+        {
+          "speaker": "A",
+          "ar": "طَبْعًا. هُوَ أُسْتَاذِي. هُوَ أَحْسَنُ مُدَرِّسٍ فِي الْكُلِّيَّةِ.",
+          "fr": "Bien sûr. C'est mon professeur. C'est le meilleur enseignant de la faculté."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.dialogue-1#2",
+      "type": "tip",
+      "title": "Des formes à repérer dans le texte",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais maintenant le présent : voici les formes du texte, avec leur sens."
+        },
+        {
+          "type": "table",
+          "header": ["Forme", "Sens"],
+          "rows": [
+            ["{ar|تَدْرُسُ}", "tu étudies (à un homme)"],
+            ["{ar|أَدْرُسُ}", "j'étudie"],
+            ["{ar|أَتَعْرِفُ}", "connais-tu ? ({ar|أَ} de la question + {ar|تَعْرِفُ}, le présent de {ar|عَرَفَ})"],
+            ["{ar|أَطَالِبٌ أَنْتَ}", "es-tu étudiant ? (la question commence par {ar|أَ})"],
+            [
+              "{ar|فِي أَيِّ كُلِّيَّةٍ}",
+              "dans quelle faculté ? ({ar|أَيٌّ} + un nom indéfini, ici au génitif après {ar|فِي})"
+            ],
+            ["{ar|أَحْسَنُ مُدَرِّسٍ}", "le meilleur enseignant (le superlatif, chapitre 3 de ce tome)"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Fayṣal salue ʿAbd Allāh et les jeunes gens qui sont avec lui : {ar|عَلَيْكُمْ} (« sur vous ») est au pluriel. On entend aussi cette formule adressée à une seule personne."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Où ʿAbd Allāh étudie-t-il ?" },
+      "choices": [
+        { "fr": "à l'université de Riyad" },
+        { "fr": "à l'université de La Mecque" },
+        { "fr": "à l'université de Bagdad" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l11.dialogue-1#1" },
+      "explain": "{ar|أَدْرُسُ بِجَامِعَةِ الرِّيَاضِ}."
+    },
+    {
+      "id": "medine-t2.l11.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Dans quelle faculté étudie-t-il ?" },
+      "choices": [ { "fr": "ingénierie" }, { "fr": "médecine" }, { "fr": "commerce" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l11.dialogue-1#1" },
+      "explain": "{ar|أَدْرُسُ فِي كُلِّيَّةِ الْهَنْدَسَةِ}."
+    },
+    {
+      "id": "medine-t2.l11.dialogue-1#5",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ {0} يَا أَخِي؟",
+      "fr": "Où étudies-tu, mon frère ?",
+      "gaps": [ { "answers": ["تَدْرُسُ"] } ],
+      "options": ["تَدْرُسُ", "أَدْرُسُ", "يَدْرُسُ"],
+      "context": { "dialogue": "medine-t2.l11.dialogue-1#1" },
+      "explain": "Fayṣal parle à ʿAbd Allāh (« tu », à un homme) : {ar|تَدْرُسُ}."
+    },
+    {
+      "id": "medine-t2.l11.dialogue-1#6",
+      "type": "question",
+      "prompt": { "fr": "Qui est l'ingénieur Salmān pour ʿAbd Allāh ?" },
+      "choices": [ { "fr": "son professeur" }, { "fr": "son frère" }, { "fr": "son voisin" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l11.dialogue-1#1" },
+      "explain": "{ar|هُوَ أُسْتَاذِي} : « c'est mon professeur »."
+    },
+    {
+      "id": "medine-t2.l11.dialogue-1#7",
+      "type": "true_false",
+      "statement": { "fr": "ʿAbd Allāh est en première année." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l11.dialogue-1#1" },
+      "explain": "Faux : {ar|أَدْرُسُ فِي السَّنَةِ الثَّانِيَةِ}, en deuxième année."
+    },
+    {
+      "id": "medine-t2.l11.dialogue-1#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'étudie à la faculté d'ingénierie.",
+      "answers": [
+        "أَدْرُسُ فِي كُلِّيَّةِ الْهَنْدَسَةِ.",
+        "أَنَا أَدْرُسُ فِي كُلِّيَّةِ الْهَنْدَسَةِ.",
+        "أَدْرُسُ بِكُلِّيَّةِ الْهَنْدَسَةِ."
+      ]
+    }
+  ]
+}

@@ -139,6 +139,10 @@ Exemples tirés des leçons 1 à 6 :
   `sort` « avec un nom masculin / féminin » et `sort` à trois catégories (nominatif / accusatif / génitif, la catégorie se déduit du verbe ou de la préposition) dans `l10/grammar-3` et `grammar-4` ;
   `build` de `ثَمَانُونَ` (pas de `ي`) et de `سَادِسٌ` (le `د`, pas le `ت`) dans `l10/grammar-2` et `grammar-7` ;
   `question` à phrase arabe et heures en chiffres (`السَّاعَةُ الْآنَ التَّاسِعَةُ إِلَّا رُبْعًا` → « 8 h 45 ») dans `l10/grammar-8`.
+- (Tome 2, leçon 11) `compare` du passé au présent (`أَنَا كَتَبْتُ` → `أَنَا أَكْتُبُ` : où est passé le pronom ?) dans `medine-t2/l11/grammar-3`, et de `سَ` + présent dans `grammar-6` ;
+  `sort` à trois catégories (la lettre `أَ`/`نَ`, `تَ` ou `يَ` d'un pronom) dans `l11/grammar-3` et `sort` « pronom apparent / caché » dans `grammar-5` (cartes dont la catégorie reste claire même voyelles masquées : on évite `كَتَبْتُ` / `كَتَبْتَ` / `كَتَبَتْ`, identiques sans harakat) ;
+  `sort` « passé / présent » avec `نَزَلَ` / `يَنْزِلُ` pour montrer qu'une lettre du présent ne fait pas tout (`l11/grammar-2`) ;
+  `fill_gap` à deux trous (le sujet pluriel et son verbe) dans `l11/practice-5` ; `typing` « question » qui demande de transformer une phrase (au présent, à la forme négative) dans `l11/practice-6` et `grammar-7`, en listant les deux ordres des mots.
 
 ### Entraîner une voyelle finale (kasra, fatha…)
 

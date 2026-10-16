@@ -1,0 +1,111 @@
+{
+  "id": "medine-t2.l11.vocab-5",
+  "type": "vocabulary",
+  "title": "Naturellement ! Quant à…",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t2.l11.vocab-5#1", "type": "present", "item": "w:tabean" },
+    {
+      "id": "medine-t2.l11.vocab-5#2",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:tabean",
+      "distractors": ["w:ghadan", "w:alan"],
+      "explain": "{ar|طَبْعًا} : naturellement. {ar|غَدًا} : demain ; {ar|الْآنَ} : maintenant."
+    },
+    { "id": "medine-t2.l11.vocab-5#3", "type": "present", "item": "w:amma-2" },
+    {
+      "id": "medine-t2.l11.vocab-5#4",
+      "type": "tip",
+      "title": "Quant à… alors…",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Après {ar|أَمَّا}, on nomme ce dont on va parler. La suite de la phrase commence presque toujours par {ar|فَ} (« alors »), collée au mot suivant."
+        },
+        {
+          "type": "breakdown",
+          "ar": "فَهُوَ",
+          "fr": "alors il",
+          "parts": [ { "ar": "فَ", "fr": "alors" }, { "ar": "هُوَ", "fr": "il" } ]
+        },
+        {
+          "type": "example",
+          "ar": "أَمَّا زَيْدٌ فَهُوَ فِي الْبَيْتِ.",
+          "fr": "Quant à Zayd, il est à la maison."
+        },
+        {
+          "type": "example",
+          "ar": "أَمَّا إِخْوَتِي فَكُلُّهُمْ يَدْرُسُونَ بِالْجَامِعَةِ.",
+          "fr": "Quant à mes frères, ils étudient tous à l'université."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.vocab-5#5",
+      "type": "spot",
+      "instruction": "Touche le mot qui annonce ce dont on va parler (« quant à »).",
+      "words": ["أَمَّا", "الطَّالِبُ", "فَهُوَ", "فِي", "الْفَصْلِ."],
+      "answers": [0],
+      "fr": "Quant à l'étudiant, il est en classe.",
+      "explain": "{ar|أَمَّا} annonce ce dont on parle ; {ar|فَهُوَ} reprend la suite avec {ar|فَ}."
+    },
+    {
+      "id": "medine-t2.l11.vocab-5#6",
+      "type": "fill_gap",
+      "sentence": "أَمَّا زَيْدٌ {0} فِي الْبَيْتِ.",
+      "fr": "Quant à Zayd, il est à la maison.",
+      "gaps": [ { "answers": ["فَهُوَ"] } ],
+      "options": ["فَهُوَ", "وَهُوَ"],
+      "explain": "Après {ar|أَمَّا} et le mot annoncé, la suite commence par {ar|فَ} : {ar|فَهُوَ}."
+    },
+    { "id": "medine-t2.l11.vocab-5#7", "type": "present", "item": "w:faransi" },
+    { "id": "medine-t2.l11.vocab-5#8", "type": "present", "item": "p:lastu-bi-faransi" },
+    {
+      "id": "medine-t2.l11.vocab-5#9",
+      "type": "tip",
+      "title": "Je ne suis pas…",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|لَيْسَ} (chapitre 2 de ce tome). Avec « je », il devient {ar|لَسْتُ} : le {ar|ي} tombe devant le pronom."
+        },
+        {
+          "type": "breakdown",
+          "ar": "لَسْتُ",
+          "fr": "je ne suis pas",
+          "parts": [ { "ar": "لَسْ", "fr": "ne… pas" }, { "ar": "تُ", "fr": "je" } ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "La préposition {ar|بِ} avant le prédicat est facultative : {ar|لَسْتُ بِفَرَنْسِيٍّ} ou {ar|لَسْتُ فَرَنْسِيًّا}. Avec {ar|بِ}, le prédicat est au génitif ; sans elle, à l'accusatif."
+        }
+      ]
+    },
+    { "id": "medine-t2.l11.vocab-5#10", "type": "present", "item": "p:lastu-bi-kaslan" },
+    {
+      "id": "medine-t2.l11.vocab-5#11",
+      "type": "fill_gap",
+      "sentence": "لَسْتُ {0}.",
+      "fr": "Je ne suis pas paresseux.",
+      "gaps": [ { "answers": ["بِكَسْلَانَ"] } ],
+      "options": ["بِكَسْلَانَ", "بِفَرَنْسِيٍّ"],
+      "explain": "« Paresseux » : {ar|كَسْلَانُ}, sans tanwin ; après {ar|بِ}, il prend la fatha : {ar|بِكَسْلَانَ}."
+    },
+    {
+      "id": "medine-t2.l11.vocab-5#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je ne suis pas français.",
+      "answers": ["لَسْتُ بِفَرَنْسِيٍّ.", "لَسْتُ فَرَنْسِيًّا.", "أَنَا لَسْتُ بِفَرَنْسِيٍّ.", "أَنَا لَسْتُ فَرَنْسِيًّا."]
+    },
+    {
+      "id": "medine-t2.l11.vocab-5#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je ne suis pas paresseux.",
+      "answers": ["لَسْتُ بِكَسْلَانَ.", "لَسْتُ كَسْلَانَ.", "أَنَا لَسْتُ بِكَسْلَانَ.", "أَنَا لَسْتُ كَسْلَانَ."]
+    }
+  ]
+}

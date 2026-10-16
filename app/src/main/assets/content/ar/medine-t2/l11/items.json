@@ -1,0 +1,148 @@
+[
+  {
+    "id": "w:harf-mudaraa",
+    "kind": "word",
+    "ar": "حَرْفُ الْمُضَارَعَةِ",
+    "fr": "une lettre du présent (l'une des quatre lettres {ar|أَنَيْتُ})",
+    "translit": "ḥarfu l-muḍāraʿati",
+    "plural": "حُرُوفُ الْمُضَارَعَةِ",
+    "gender": "m",
+    "note": "Ce sont les quatre lettres {ar|أ}, {ar|ن}, {ar|ي}, {ar|ت} qu'on ajoute au début d'un verbe pour en faire un présent. Le professeur les rassemble dans le mot {ar|أَنَيْتُ} pour les retenir.",
+    "example": { "ar": "أَنَا أَكْتُبُ.", "fr": "J'écris." }
+  },
+  {
+    "id": "w:harf-istiqbal",
+    "kind": "word",
+    "ar": "حَرْفُ الِاسْتِقْبَالِ",
+    "fr": "une particule du futur ({ar|سَ} ou {ar|سَوْفَ})",
+    "translit": "ḥarfu l-istiqbāli",
+    "plural": "حُرُوفُ الِاسْتِقْبَالِ",
+    "gender": "m",
+    "note": "Elle se place devant un verbe au présent pour dire qu'il s'agit du futur. Ici, {ar|الِاسْتِقْبَالُ} veut dire « le futur » ; le même mot veut aussi dire « l'accueil » (tome 1, chapitre 18).",
+    "example": { "ar": "سَيَكْتُبُ زَيْدٌ غَدًا.", "fr": "Zayd écrira demain." }
+  },
+  {
+    "id": "w:bariz",
+    "kind": "word",
+    "ar": "بَارِزٌ",
+    "fr": "apparent (un pronom qu'on voit écrit)",
+    "translit": "bārizun",
+    "note": "Le contraire de {ar|مُسْتَتِرٌ} (« caché »). Dans {ar|يَكْتُبُونَ}, le pronom « ils » est la lettre {ar|و} : il est apparent."
+  },
+  {
+    "id": "w:shakara",
+    "kind": "word",
+    "ar": "شَكَرَ",
+    "fr": "il a remercié (remercier)",
+    "translit": "shakara",
+    "note": "Il prend un complément direct : {ar|شَكَرْتُكَ} (« je t'ai remercié »). Son nom d'action est {ar|شُكْرًا}, le « merci » du tome 1 (chapitre 19).",
+    "example": { "ar": "شَكَرْتُ الْمُدِيرَ.", "fr": "J'ai remercié le directeur." }
+  },
+  {
+    "id": "w:risala",
+    "kind": "word",
+    "ar": "رِسَالَةٌ",
+    "fr": "une lettre",
+    "translit": "risālatun",
+    "plural": "رَسَائِلُ",
+    "gender": "f",
+    "note": "Le mot veut aussi dire « un message ».",
+    "example": { "ar": "قَرَأَ زَيْدٌ رِسَالَةَ صَدِيقِهِ.", "fr": "Zayd a lu la lettre de son ami." }
+  },
+  {
+    "id": "w:bitaqa",
+    "kind": "word",
+    "ar": "بِطَاقَةٌ",
+    "fr": "une carte",
+    "translit": "biṭāqatun",
+    "plural": "بِطَاقَاتٌ",
+    "gender": "f",
+    "note": "Elle désigne une carte qui porte des informations : une carte d'identité, une carte de visite…",
+    "example": { "ar": "هٰذِهِ بِطَاقَتِي.", "fr": "Voici ma carte." }
+  },
+  {
+    "id": "w:hallaq",
+    "kind": "word",
+    "ar": "حَلَّاقٌ",
+    "fr": "un coiffeur",
+    "translit": "ḥallāqun",
+    "plural": "حَلَّاقُونَ",
+    "gender": "m",
+    "note": "Son pluriel est un pluriel masculin sain : {ar|حَلَّاقُونَ}.",
+    "example": { "ar": "ذَهَبَ زَيْدٌ إِلَى الْحَلَّاقِ.", "fr": "Zayd est allé chez le coiffeur." }
+  },
+  {
+    "id": "w:masa",
+    "kind": "word",
+    "ar": "مَسَاءٌ",
+    "fr": "un soir, la soirée",
+    "translit": "masāʾun",
+    "gender": "m",
+    "note": "Il s'oppose à {ar|صَبَاحٌ} (« un matin »).",
+    "example": { "ar": "جَاءَ زَيْدٌ فِي الْمَسَاءِ.", "fr": "Zayd est venu le soir." }
+  },
+  {
+    "id": "w:aman",
+    "kind": "word",
+    "ar": "أَمَانٌ",
+    "fr": "la sécurité, la protection",
+    "translit": "ʾamānun",
+    "gender": "m",
+    "note": "On le trouve dans la formule d'adieu {ar|فِي أَمَانِ اللَّهِ} (« que Dieu te garde »), mot à mot « sous la protection d'Allah ».",
+    "example": { "ar": "أَنْتَ فِي أَمَانِ اللَّهِ.", "fr": "Tu es sous la protection d'Allah." }
+  },
+  {
+    "id": "w:qadim-2",
+    "kind": "word",
+    "ar": "قَادِمٌ",
+    "fr": "prochain, qui vient",
+    "translit": "qādimun",
+    "plural": "قَادِمُونَ",
+    "note": "Au féminin : {ar|قَادِمَةٌ}. Le professeur donne deux pluriels : {ar|قَادِمُونَ} (des personnes qui arrivent) et {ar|قَادِمَاتٌ}. Il vient du verbe {ar|قَدِمَ} (« arriver »).",
+    "example": { "ar": "الدَّرْسُ الْقَادِمُ غَدًا.", "fr": "La prochaine leçon est demain." }
+  },
+  {
+    "id": "w:tabean",
+    "kind": "word",
+    "ar": "طَبْعًا",
+    "fr": "naturellement, bien sûr",
+    "translit": "ṭabʿan",
+    "note": "Adverbe : le tanwin à la fatha le marque, comme {ar|غَدًا}. On l'emploie souvent pour répondre : « bien sûr ! ».",
+    "example": { "ar": "أَتَعْرِفُ زَيْدًا؟ طَبْعًا.", "fr": "Tu connais Zayd ? Bien sûr." }
+  },
+  {
+    "id": "w:amma-2",
+    "kind": "word",
+    "ar": "أَمَّا",
+    "fr": "quant à… (alors…)",
+    "translit": "ʾammā",
+    "note": "Elle présente ce dont on va parler ; la phrase qui suit commence presque toujours par {ar|فَ} (« alors »). Ne la confonds pas avec {ar|أَمَا} (tome 2, chapitre 4) : ici le {ar|م} porte une shadda.",
+    "example": { "ar": "أَمَّا زَيْدٌ فَهُوَ فِي الْبَيْتِ.", "fr": "Quant à Zayd, il est à la maison." }
+  },
+  {
+    "id": "w:faransi",
+    "kind": "word",
+    "ar": "فَرَنْسِيٌّ",
+    "fr": "français (de France)",
+    "translit": "faransiyyun",
+    "plural": "فَرَنْسِيُّونَ",
+    "note": "Au féminin : {ar|فَرَنْسِيَّةٌ}. Il vient de {ar|فَرَنْسَا} (la France) : la lettre {ar|ي} avec une shadda, à la fin, fait un adjectif « de… ».",
+    "example": { "ar": "هُوَ فَرَنْسِيٌّ.", "fr": "Il est français." }
+  },
+  {
+    "id": "p:lastu-bi-faransi",
+    "kind": "phrase",
+    "ar": "لَسْتُ بِفَرَنْسِيٍّ.",
+    "fr": "Je ne suis pas français.",
+    "translit": "lastu bi-faransiyyin",
+    "note": "Le professeur écrit {ar|لَسْتُ بِ} + un nom ou un adjectif : {ar|بِ} est facultative (chapitre 2 de ce tome) ; avec elle, le prédicat est au génitif."
+  },
+  {
+    "id": "p:lastu-bi-kaslan",
+    "kind": "phrase",
+    "ar": "لَسْتُ بِكَسْلَانَ.",
+    "fr": "Je ne suis pas paresseux.",
+    "translit": "lastu bi-kaslāna",
+    "note": "{ar|كَسْلَانُ} est un nom sans tanwin : après {ar|بِ}, il prend la fatha ({ar|بِكَسْلَانَ})."
+  }
+]

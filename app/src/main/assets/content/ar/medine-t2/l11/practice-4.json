@@ -1,0 +1,112 @@
+{
+  "id": "medine-t2.l11.practice-4",
+  "type": "vocabulary",
+  "title": "Exercice 5 : choisir le bon verbe",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l11.practice-4#1",
+      "type": "fill_gap",
+      "sentence": "الطُّلَّابُ {0} كُرَةَ الْقَدَمِ كُلَّ أُسْبُوعٍ.",
+      "fr": "Les étudiants jouent au football chaque semaine.",
+      "gaps": [ { "answers": ["يَلْعَبُونَ"] } ],
+      "options": ["يَلْعَبُونَ", "يَغْسِلُونَ", "يَفْتَحُونَ"],
+      "explain": "« Jouer » : {ar|لَعِبَ} → {ar|يَلْعَبُونَ} (plusieurs hommes)."
+    },
+    {
+      "id": "medine-t2.l11.practice-4#2",
+      "type": "fill_gap",
+      "sentence": "الْمُدَرِّسُ {0} الدَّرْسَ عَلَى السَّبُّورَةِ.",
+      "fr": "L'enseignant écrit la leçon au tableau.",
+      "gaps": [ { "answers": ["يَكْتُبُ"] } ],
+      "options": ["يَكْتُبُ", "يَأْكُلُ", "يَشْرَبُ"],
+      "explain": "« Écrire » : {ar|كَتَبَ} → {ar|يَكْتُبُ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-4#3",
+      "type": "fill_gap",
+      "sentence": "أَخَوَاتِي {0} الثِّيَابَ بِالصَّابُونِ.",
+      "fr": "Mes sœurs lavent les vêtements avec du savon.",
+      "gaps": [ { "answers": ["يَغْسِلْنَ"] } ],
+      "options": ["يَغْسِلْنَ", "يَلْعَبْنَ", "يَأْكُلْنَ"],
+      "explain": "« Laver » : {ar|غَسَلَ} → {ar|يَغْسِلْنَ} (plusieurs femmes). {ar|ثِيَابٌ} veut dire « des vêtements » et {ar|صَابُونٌ} « du savon »."
+    },
+    {
+      "id": "medine-t2.l11.practice-4#4",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} الْقُرْآنَ كُلَّ صَبَاحٍ.",
+      "fr": "Je lis le Coran chaque matin.",
+      "gaps": [ { "answers": ["أَقْرَأُ"] } ],
+      "options": ["أَقْرَأُ", "أَشْرَبُ", "أَغْسِلُ"],
+      "explain": "« Lire » : {ar|قَرَأَ} → {ar|أَقْرَأُ} (« je »)."
+    },
+    {
+      "id": "medine-t2.l11.practice-4#5",
+      "type": "question",
+      "prompt": { "fr": "Pour « les femmes mangent », quelle forme choisir ?" },
+      "choices": [ { "ar": "النِّسَاءُ يَأْكُلْنَ" }, { "ar": "النِّسَاءُ يَأْكُلُونَ" }, { "ar": "النِّسَاءُ يَأْكُلُ" } ],
+      "answer": 0,
+      "explain": "Un groupe de femmes : le verbe se termine par le pronom {ar|نَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-4#6",
+      "type": "fill_gap",
+      "sentence": "{0} الْأَخْبَارَ مِنَ الْإِذَاعَةِ كُلَّ يَوْمٍ يَا عَبْدَ اللَّهِ؟",
+      "fr": "Écoutes-tu les nouvelles à la radio chaque jour, ʿAbd Allāh ?",
+      "gaps": [ { "answers": ["أَتَسْمَعُ"] } ],
+      "options": ["أَتَسْمَعُ", "أَتَغْسِلُ", "أَتَلْعَبُ"],
+      "explain": "{ar|أَ} de la question + {ar|تَسْمَعُ} (« tu écoutes ») : {ar|سَمِعَ} → {ar|يَسْمَعُ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-4#7",
+      "type": "fill_gap",
+      "sentence": "الطَّالِبَاتُ {0} إِلَى الْمَدْرَسَةِ بِحَافِلَةِ الْمَدْرَسَةِ.",
+      "fr": "Les étudiantes vont à l'école par le bus de l'école.",
+      "gaps": [ { "answers": ["يَذْهَبْنَ"] } ],
+      "options": ["يَذْهَبْنَ", "يَذْهَبُونَ", "يَذْهَبُ"],
+      "explain": "Plusieurs femmes : {ar|يَذْهَبْنَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-4#8",
+      "type": "fill_gap",
+      "sentence": "الطُّلَّابُ {0} الْمُدَرِّسَ أَسْئِلَةً كَثِيرَةً.",
+      "fr": "Les étudiants posent beaucoup de questions à l'enseignant.",
+      "gaps": [ { "answers": ["يَسْأَلُونَ"] } ],
+      "options": ["يَسْأَلُونَ", "يَسْكُنُونَ", "يَنْزِلُونَ"],
+      "explain": "« Demander, interroger » : {ar|سَأَلَ} → {ar|يَسْأَلُونَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-4#9",
+      "type": "fill_gap",
+      "sentence": "الْمُدِيرَةُ {0} الْآنَ مِنْ مَكْتَبِهَا.",
+      "fr": "La directrice sort maintenant de son bureau.",
+      "gaps": [ { "answers": ["تَخْرُجُ"] } ],
+      "options": ["تَخْرُجُ", "يَخْرُجُ", "تَخْرُجْنَ"],
+      "explain": "Une seule femme : {ar|تَخْرُجُ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-4#10",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} فِي كُلِّيَّةِ الْهَنْدَسَةِ.",
+      "fr": "J'étudie à la faculté d'ingénierie.",
+      "gaps": [ { "answers": ["أَدْرُسُ"] } ],
+      "options": ["أَدْرُسُ", "أَشْكُرُ", "أَنْزِلُ"],
+      "explain": "« Étudier » : {ar|دَرَسَ} → {ar|أَدْرُسُ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-4#11",
+      "type": "order",
+      "fr": "Ma sœur écrit maintenant ses leçons dans le cahier.",
+      "answers": [["أُخْتِي", "تَكْتُبُ", "الْآنَ", "دُرُوسَهَا", "فِي", "الدَّفْتَرِ"]],
+      "punctuation": ".",
+      "explain": "{ar|دُرُوسَهَا} : « ses leçons » ({ar|هَا} : « sa », pour une femme)."
+    },
+    {
+      "id": "medine-t2.l11.practice-4#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je lis le Coran chaque matin.",
+      "answers": ["أَقْرَأُ الْقُرْآنَ كُلَّ صَبَاحٍ.", "أَنَا أَقْرَأُ الْقُرْآنَ كُلَّ صَبَاحٍ."]
+    }
+  ]
+}

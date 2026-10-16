@@ -1,0 +1,118 @@
+{
+  "id": "medine-t2.l11.revue-1",
+  "type": "review",
+  "title": "Le passé : les terminaisons",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l11.revue-1#1",
+      "type": "tip",
+      "title": "Le passé : les terminaisons en un coup d'œil",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au passé, le pronom sujet se colle à la fin du verbe (chapitre 2 de ce tome). Voici {ar|كَتَبَ} (« il a écrit ») avec ses douze formes :"
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Terminaison", "Verbe", "Sens"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|تُ}", "{ar|كَتَبْتُ}", "j'ai écrit"],
+            ["{ar|نَحْنُ}", "{ar|نَا}", "{ar|كَتَبْنَا}", "nous avons écrit"],
+            ["{ar|أَنْتَ}", "{ar|تَ}", "{ar|كَتَبْتَ}", "tu as écrit (à un homme)"],
+            ["{ar|أَنْتِ}", "{ar|تِ}", "{ar|كَتَبْتِ}", "tu as écrit (à une femme)"],
+            ["{ar|أَنْتُمَا}", "{ar|تُمَا}", "{ar|كَتَبْتُمَا}", "vous avez écrit (à deux personnes)"],
+            ["{ar|أَنْتُمْ}", "{ar|تُمْ}", "{ar|كَتَبْتُمْ}", "vous avez écrit (plusieurs hommes)"],
+            ["{ar|أَنْتُنَّ}", "{ar|تُنَّ}", "{ar|كَتَبْتُنَّ}", "vous avez écrit (plusieurs femmes)"],
+            ["{ar|هُوَ}", "rien (pronom caché)", "{ar|كَتَبَ}", "il a écrit"],
+            ["{ar|هِيَ}", "{ar|تْ}", "{ar|كَتَبَتْ}", "elle a écrit"],
+            ["{ar|هُمَا}", "{ar|ا}", "{ar|كَتَبَا}", "eux deux ont écrit"],
+            ["{ar|هُمْ}", "{ar|وا}", "{ar|كَتَبُوا}", "ils ont écrit"],
+            ["{ar|هُنَّ}", "{ar|نَ}", "{ar|كَتَبْنَ}", "elles ont écrit"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.revue-1#2",
+      "type": "sort",
+      "categories": [
+        { "fr": "celui qui parle (je, nous)" },
+        { "fr": "celui à qui l'on parle (tu, vous)" },
+        { "fr": "celui dont on parle (il, elle, ils, elles)" }
+      ],
+      "cards": [
+        { "ar": "كَتَبْنَا", "category": 0 },
+        { "ar": "كَتَبْتُمْ", "category": 1 },
+        { "ar": "كَتَبُوا", "category": 2 },
+        { "ar": "كَتَبْنَ", "category": 2 },
+        { "ar": "كَتَبْتُمَا", "category": 1 },
+        { "ar": "كَتَبْتُنَّ", "category": 1 }
+      ],
+      "instruction": "Quelle personne ?",
+      "explain": "{ar|كَتَبْنَا} : « nous ». {ar|كَتَبْتُمْ}, {ar|كَتَبْتُمَا}, {ar|كَتَبْتُنَّ} : « vous ». {ar|كَتَبُوا} (« ils ») et {ar|كَتَبْنَ} (« elles ») : la 3e personne."
+    },
+    {
+      "id": "medine-t2.l11.revue-1#3",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} الدَّرْسَ.",
+      "fr": "J'ai écrit la leçon.",
+      "gaps": [ { "answers": ["كَتَبْتُ"] } ],
+      "options": ["كَتَبْتُ", "كَتَبْنَا", "كَتَبُوا"],
+      "explain": "« Je » : la terminaison {ar|تُ}, avec une damma."
+    },
+    {
+      "id": "medine-t2.l11.revue-1#4",
+      "type": "fill_gap",
+      "sentence": "أَنْتُنَّ {0} فِي الْمَكْتَبَةِ.",
+      "fr": "Vous (plusieurs femmes), vous vous êtes assises à la bibliothèque.",
+      "gaps": [ { "answers": ["جَلَسْتُنَّ"] } ],
+      "options": ["جَلَسْتُنَّ", "جَلَسْتُمْ", "جَلَسْنَ"],
+      "explain": "« Vous, plusieurs femmes » : {ar|أَنْتُنَّ} donne la terminaison {ar|تُنَّ}."
+    },
+    {
+      "id": "medine-t2.l11.revue-1#5",
+      "type": "spot",
+      "instruction": "Touche le verbe dont le sujet est « elle ».",
+      "words": ["خَرَجَتِ", "الطَّالِبَةُ", "وَخَرَجَ", "الطَّالِبُ"],
+      "answers": [0],
+      "fr": "L'étudiante est sortie et l'étudiant est sorti.",
+      "explain": "{ar|خَرَجَتِ} porte la marque du féminin {ar|تْ} (la kasra vient de la rencontre avec {ar|الطَّالِبَةُ}) : le sujet est une femme."
+    },
+    {
+      "id": "medine-t2.l11.revue-1#6",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|كَتَبَتْ} (« elle a écrit »), le {ar|تْ} final est…" },
+      "choices": [
+        { "fr": "la marque du féminin : le pronom « elle » reste caché" },
+        { "fr": "le pronom sujet « elle »" },
+        { "fr": "le pronom sujet « tu »" }
+      ],
+      "answer": 0,
+      "explain": "Le {ar|تْ} n'est pas un pronom : c'est la marque du féminin (chapitre 2 de ce tome). Le sujet « elle » est un pronom caché."
+    },
+    {
+      "id": "medine-t2.l11.revue-1#7",
+      "type": "true_false",
+      "statement": { "ar": "كَتَبْنَ", "fr": "Elles ont écrit." },
+      "answer": true,
+      "explain": "Le {ar|نَ} final est le pronom sujet des femmes (« elles »)."
+    },
+    {
+      "id": "medine-t2.l11.revue-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles sont sorties.",
+      "answers": ["خَرَجْنَ.", "هُنَّ خَرَجْنَ."]
+    },
+    {
+      "id": "medine-t2.l11.revue-1#9",
+      "type": "order",
+      "fr": "Nous sommes allés à l'université.",
+      "answers": [["ذَهَبْنَا", "إِلَى", "الْجَامِعَةِ"]],
+      "punctuation": ".",
+      "distractors": ["ذَهَبْتُمْ"],
+      "explain": "« Nous » : la terminaison {ar|نَا}."
+    }
+  ]
+}

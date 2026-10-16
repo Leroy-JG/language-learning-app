@@ -1,0 +1,107 @@
+{
+  "id": "medine-t2.l11.vocab-1",
+  "type": "vocabulary",
+  "title": "Étudier, habiter, remercier, descendre",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t2.l11.vocab-1#1", "type": "present", "item": "w:shakara" },
+    {
+      "id": "medine-t2.l11.vocab-1#2",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:shakara",
+      "distractors": ["w:darasa", "w:sakana"],
+      "explain": "{ar|شَكَرَ} : il a remercié. {ar|دَرَسَ} : il a étudié ; {ar|سَكَنَ} : il a habité."
+    },
+    {
+      "id": "medine-t2.l11.vocab-1#3",
+      "type": "tip",
+      "title": "Les quatre formes de ces verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme toujours, le professeur donne quatre formes pour chaque verbe. Tu connais maintenant le passé et le présent. L'impératif et le nom d'action ne sont qu'un aperçu."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["étudier", "{ar|دَرَسَ}", "{ar|يَدْرُسُ}", "{ar|اُدْرُسْ}", "{ar|دَرْسًا}"],
+            ["habiter", "{ar|سَكَنَ}", "{ar|يَسْكُنُ}", "{ar|اُسْكُنْ}", "{ar|سُكُونًا}"],
+            ["remercier", "{ar|شَكَرَ}", "{ar|يَشْكُرُ}", "{ar|اُشْكُرْ}", "{ar|شُكْرًا}"],
+            ["descendre", "{ar|نَزَلَ}", "{ar|يَنْزِلُ}", "{ar|اِنْزِلْ}", "{ar|نُزُولًا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "La voyelle du présent est la damma pour « étudier », « habiter » et « remercier » ({ar|يَدْرُسُ}, {ar|يَسْكُنُ}, {ar|يَشْكُرُ}), mais la kasra pour « descendre » ({ar|يَنْزِلُ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.vocab-1#4",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} فِي الرِّيَاضِ.",
+      "fr": "J'habite à Riyad.",
+      "gaps": [ { "answers": ["أَسْكُنُ"] } ],
+      "options": ["أَسْكُنُ", "أَدْرُسُ", "أَنْزِلُ"],
+      "explain": "« J'habite » : {ar|أَسْكُنُ}, le présent de {ar|سَكَنَ} avec la lettre {ar|أَ}."
+    },
+    {
+      "id": "medine-t2.l11.vocab-1#5",
+      "type": "fill_gap",
+      "sentence": "هُمْ {0} مِنَ الْحَافِلَةِ.",
+      "fr": "Ils descendent du bus.",
+      "gaps": [ { "answers": ["يَنْزِلُونَ"] } ],
+      "options": ["يَنْزِلُونَ", "يَسْكُنُونَ", "يَشْكُرُونَ"],
+      "explain": "« Ils descendent » : {ar|يَنْزِلُونَ}, le présent de {ar|نَزَلَ}."
+    },
+    {
+      "id": "medine-t2.l11.vocab-1#6",
+      "type": "question",
+      "prompt": { "fr": "Quel est le présent de {ar|نَزَلَ} pour « il » ?" },
+      "choices": [ { "ar": "يَنْزِلُ" }, { "ar": "تَنْزِلُ" }, { "ar": "أَنْزِلُ" } ],
+      "answer": 0,
+      "explain": "« Il » : la lettre {ar|يَ}, avec la kasra du verbe : {ar|يَنْزِلُ}. {ar|تَنْزِلُ} est pour « tu » ou « elle », {ar|أَنْزِلُ} pour « je »."
+    },
+    {
+      "id": "medine-t2.l11.vocab-1#7",
+      "type": "fill_gap",
+      "sentence": "أَنْتَ {0} الْمُدِيرَ.",
+      "fr": "Tu remercies le directeur.",
+      "gaps": [ { "answers": ["تَشْكُرُ"] } ],
+      "options": ["تَشْكُرُ", "تَدْرُسُ", "تَسْكُنُ"],
+      "explain": "« Tu remercies » : {ar|تَشْكُرُ}. Le directeur est le complément du verbe (à l'accusatif : {ar|الْمُدِيرَ})."
+    },
+    {
+      "id": "medine-t2.l11.vocab-1#8",
+      "type": "true_false",
+      "statement": { "fr": "{ar|شُكْرًا} (« merci ») est le nom d'action du verbe {ar|شَكَرَ}." },
+      "answer": true,
+      "explain": "Oui : {ar|شُكْرًا} veut dire « remerciement », et vient de la même racine {ar|ش}-{ar|ك}-{ar|ر}."
+    },
+    { "id": "medine-t2.l11.vocab-1#9", "type": "build", "item": "w:shakara", "extra": ["ز"] },
+    {
+      "id": "medine-t2.l11.vocab-1#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:darasa", "w:sakana", "w:shakara", "w:nazala"]
+    },
+    {
+      "id": "medine-t2.l11.vocab-1#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous étudions.",
+      "answers": ["نَدْرُسُ.", "نَحْنُ نَدْرُسُ."]
+    },
+    {
+      "id": "medine-t2.l11.vocab-1#12",
+      "type": "order",
+      "fr": "Où habites-tu, toi ?",
+      "answers": [["أَيْنَ", "تَسْكُنُ", "أَنْتَ"], ["أَيْنَ", "أَنْتَ", "تَسْكُنُ"]],
+      "punctuation": "؟",
+      "explain": "« Tu » (à un homme) : {ar|تَسْكُنُ}, avec la lettre {ar|تَ}."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "medine-t2.l11.vocab-4",
+  "type": "vocabulary",
+  "title": "Sécurité et prochain arrêt",
+  "icon": "road",
+  "screens": [
+    { "id": "medine-t2.l11.vocab-4#1", "type": "present", "item": "w:aman" },
+    { "id": "medine-t2.l11.vocab-4#2", "type": "present", "item": "w:qadim-2" },
+    {
+      "id": "medine-t2.l11.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:qadim-2",
+      "distractors": ["w:aman", "w:qadim"],
+      "explain": "{ar|قَادِمٌ} : prochain, qui vient. {ar|أَمَانٌ} : la sécurité ; {ar|قَدِيمٌ} : ancien (ne les confonds pas)."
+    },
+    {
+      "id": "medine-t2.l11.vocab-4#4",
+      "type": "tip",
+      "title": "Le prochain arrêt",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|قَادِمٌ} est un adjectif : il suit le nom et s'accorde avec lui en genre, comme les autres adjectifs. Dans son texte, le professeur dit « à la prochaine station » :"
+        },
+        {
+          "type": "table",
+          "header": ["Nom", "Adjectif", "Sens"],
+          "rows": [
+            ["{ar|الدَّرْسُ} (masculin)", "{ar|الْقَادِمُ}", "la prochaine leçon"],
+            ["{ar|الْمَحَطَّةُ} (féminin)", "{ar|الْقَادِمَةُ}", "la prochaine station"]
+          ]
+        },
+        {
+          "type": "example",
+          "ar": "سَأَنْزِلُ فِي الْمَحَطَّةِ الْقَادِمَةِ.",
+          "fr": "Je descendrai à la prochaine station."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ne confonds pas {ar|قَادِمٌ} (« prochain ») avec {ar|قَدِيمٌ} (« ancien ») : ils partagent les lettres {ar|ق}, {ar|د}, {ar|م}, mais {ar|قَادِمٌ} a un alif après le {ar|ق}, et {ar|قَدِيمٌ} un {ar|ي} après le {ar|د}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.vocab-4#5",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:aman", "w:qadim-2", "w:mahatta", "w:liqa"]
+    },
+    {
+      "id": "medine-t2.l11.vocab-4#6",
+      "type": "fill_gap",
+      "sentence": "سَأَنْزِلُ فِي الْمَحَطَّةِ {0}.",
+      "fr": "Je descendrai à la prochaine station.",
+      "gaps": [ { "answers": ["الْقَادِمَةِ"] } ],
+      "options": ["الْقَادِمَةِ", "الْقَادِمِ"],
+      "explain": "{ar|مَحَطَّةٌ} est féminin : l'adjectif prend aussi la marque du féminin, {ar|الْقَادِمَةِ}."
+    },
+    {
+      "id": "medine-t2.l11.vocab-4#7",
+      "type": "fill_gap",
+      "sentence": "أَنْتَ فِي {0} اللَّهِ.",
+      "fr": "Tu es sous la protection d'Allah.",
+      "gaps": [ { "answers": ["أَمَانِ"] } ],
+      "options": ["أَمَانِ", "لِقَاءِ"],
+      "explain": "{ar|فِي أَمَانِ اللَّهِ} : « sous la protection d'Allah ». {ar|لِقَاءٌ} veut dire « une rencontre »."
+    },
+    {
+      "id": "medine-t2.l11.vocab-4#8",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « la prochaine station » ?" },
+      "choices": [ { "ar": "الْمَحَطَّةُ الْقَادِمَةُ" }, { "ar": "الْمَحَطَّةُ الْقَادِمُ" } ],
+      "answer": 0,
+      "explain": "{ar|مَحَطَّةٌ} est un nom féminin : l'adjectif s'accorde, {ar|الْقَادِمَةُ}."
+    },
+    { "id": "medine-t2.l11.vocab-4#9", "type": "build", "item": "w:qadim-2", "extra": ["ك"] },
+    {
+      "id": "medine-t2.l11.vocab-4#10",
+      "type": "order",
+      "fr": "La prochaine leçon est demain.",
+      "answers": [["الدَّرْسُ", "الْقَادِمُ", "غَدًا"]],
+      "punctuation": ".",
+      "explain": "{ar|الدَّرْسُ} est masculin : l'adjectif reste {ar|الْقَادِمُ}."
+    },
+    {
+      "id": "medine-t2.l11.vocab-4#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Tu es sous la protection d'Allah.",
+      "answers": ["أَنْتَ فِي أَمَانِ اللَّهِ."]
+    }
+  ]
+}

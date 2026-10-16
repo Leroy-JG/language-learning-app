@@ -1,0 +1,121 @@
+{
+  "id": "medine-t2.l11.grammar-2",
+  "type": "grammar",
+  "title": "Le présent : les lettres {ar|أَنَيْتُ}",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l11.grammar-2#1",
+      "type": "tip",
+      "title": "Le présent",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le présent ({ar|الْمُضَارِعُ}) dit ce qui se passe maintenant, ou ce qui se passera : le contexte décide. Il commence toujours par l'une des quatre lettres {ar|أ}, {ar|ن}, {ar|ي}, {ar|ت}, que le professeur rassemble dans le mot {ar|أَنَيْتُ}."
+        },
+        {
+          "type": "compare",
+          "title": "Du passé au présent",
+          "rows": [
+            { "from": { "ar": "كَتَبَ", "fr": "il a écrit" }, "to": { "ar": "يَكْتُبُ", "fr": "il écrit" } },
+            { "from": { "ar": "ذَهَبَ", "fr": "il est allé" }, "to": { "ar": "يَذْهَبُ", "fr": "il va" } },
+            { "from": { "ar": "دَرَسَ", "fr": "il a étudié" }, "to": { "ar": "يَدْرُسُ", "fr": "il étudie" } },
+            { "from": { "ar": "جَلَسَ", "fr": "il s'est assis" }, "to": { "ar": "يَجْلِسُ", "fr": "il s'assoit" } }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "La voyelle qui suit la deuxième lettre change d'un verbe à l'autre ({ar|يَكْتُبُ} damma, {ar|يَذْهَبُ} fatha, {ar|يَجْلِسُ} kasra) : on la retient avec le verbe, comme dans les tableaux à quatre formes du professeur."
+        }
+      ]
+    },
+    { "id": "medine-t2.l11.grammar-2#2", "type": "present", "item": "w:harf-mudaraa" },
+    {
+      "id": "medine-t2.l11.grammar-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:harf-mudaraa",
+      "distractors": ["w:madi", "w:mudari"],
+      "explain": "{ar|حَرْفُ الْمُضَارَعَةِ} : une lettre du présent. {ar|الْمُضَارِعُ} est le présent lui-même ; {ar|الْمَاضِي}, le passé."
+    },
+    {
+      "id": "medine-t2.l11.grammar-2#4",
+      "type": "tip",
+      "title": "Elles ne font pas partie de la racine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Attention : un verbe qui commence par {ar|أ}, {ar|ن}, {ar|ي} ou {ar|ت} n'est pas forcément au présent. Le professeur précise que ces lettres doivent être **ajoutées** : elles ne doivent pas faire partie de la racine du verbe. La racine, ce sont les lettres de base du verbe, qu'on retrouve dans tous ses temps ({ar|نَزَلَ}, {ar|يَنْزِلُ}, {ar|نُزُولًا}…)."
+        },
+        {
+          "type": "table",
+          "header": ["Verbe", "Temps", "Pourquoi"],
+          "rows": [
+            ["{ar|يَنْزِلُ}", "présent (il descend)", "le {ar|يَ} est ajouté devant la racine {ar|ن}-{ar|ز}-{ar|ل}"],
+            ["{ar|نَزَلَ}", "passé (il est descendu)", "le {ar|ن} fait partie de la racine {ar|ن}-{ar|ز}-{ar|ل}"],
+            ["{ar|يَأْكُلُ}", "présent (il mange)", "le {ar|يَ} est ajouté devant la racine {ar|أ}-{ar|ك}-{ar|ل}"],
+            ["{ar|أَكَلَ}", "passé (il a mangé)", "le {ar|أ} fait partie de la racine {ar|أ}-{ar|ك}-{ar|ل}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Pour savoir si une lettre est ajoutée, regarde si on la retrouve dans les autres formes du verbe : le {ar|ن} de {ar|نَزَلَ} reste dans {ar|يَنْزِلُ}, alors que le {ar|يَ} de {ar|يَنْزِلُ} disparaît au passé."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.grammar-2#5",
+      "type": "sort",
+      "categories": [ { "fr": "passé" }, { "fr": "présent" } ],
+      "cards": [
+        { "ar": "كَتَبَ", "category": 0 },
+        { "ar": "يَكْتُبُ", "category": 1 },
+        { "ar": "نَزَلَ", "category": 0 },
+        { "ar": "يَنْزِلُ", "category": 1 },
+        { "ar": "أَكَلَ", "category": 0 },
+        { "ar": "يَأْكُلُ", "category": 1 }
+      ],
+      "instruction": "Passé ou présent ?",
+      "explain": "{ar|نَزَلَ} et {ar|أَكَلَ} commencent par {ar|ن} et {ar|أ}, mais ces lettres font partie de leur racine : ils sont au passé. {ar|يَكْتُبُ}, {ar|يَنْزِلُ}, {ar|يَأْكُلُ} ont un {ar|يَ} ajouté : ils sont au présent."
+    },
+    {
+      "id": "medine-t2.l11.grammar-2#6",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|نَزَلَ} (« il est descendu »), qui commence par {ar|ن}, n'est-il pas au présent ?" },
+      "choices": [
+        { "fr": "parce que le {ar|ن} fait partie de sa racine" },
+        { "fr": "parce que {ar|ن} n'est pas une lettre du présent" },
+        { "fr": "parce que le présent ne commence jamais par {ar|ن}" }
+      ],
+      "answer": 0,
+      "explain": "Le {ar|ن} est l'une des quatre lettres du présent ({ar|أَنَيْتُ}), mais ici il appartient à la racine {ar|ن}-{ar|ز}-{ar|ل} : il n'est pas ajouté."
+    },
+    {
+      "id": "medine-t2.l11.grammar-2#7",
+      "type": "true_false",
+      "statement": { "fr": "Tout verbe qui commence par {ar|أ}, {ar|ن}, {ar|ي} ou {ar|ت} est au présent." },
+      "answer": false,
+      "explain": "Non : {ar|نَزَلَ} et {ar|أَكَلَ} sont au passé. Il faut que la lettre soit ajoutée devant la racine."
+    },
+    {
+      "id": "medine-t2.l11.grammar-2#8",
+      "type": "spot",
+      "instruction": "Touche le verbe au présent.",
+      "words": ["نَزَلَ", "زَيْدٌ", "مِنَ", "الْحَافِلَةِ،", "وَيَنْزِلُ", "عَلِيٌّ", "الْآنَ."],
+      "answers": [4],
+      "fr": "Zayd est descendu du bus et ʿAlī descend maintenant.",
+      "explain": "{ar|وَيَنْزِلُ} a le {ar|يَ} ajouté devant la racine : c'est un présent. {ar|نَزَلَ} commence par {ar|ن} mais c'est un passé."
+    },
+    {
+      "id": "medine-t2.l11.grammar-2#9",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ إِلَى الْمَدْرَسَةِ الْآنَ.",
+      "fr": "Zayd va maintenant à l'école.",
+      "gaps": [ { "answers": ["يَذْهَبُ"] } ],
+      "options": ["يَذْهَبُ", "ذَهَبَ", "ذَهَبَتْ"],
+      "explain": "Avec {ar|الْآنَ} (« maintenant »), on emploie le présent : {ar|يَذْهَبُ}."
+    }
+  ]
+}

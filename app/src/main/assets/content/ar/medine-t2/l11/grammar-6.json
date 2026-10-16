@@ -1,0 +1,150 @@
+{
+  "id": "medine-t2.l11.grammar-6",
+  "type": "grammar",
+  "title": "Le futur : {ar|سَ} et {ar|سَوْفَ}",
+  "icon": "watch",
+  "screens": [
+    {
+      "id": "medine-t2.l11.grammar-6#1",
+      "type": "tip",
+      "title": "Annoncer le futur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le présent peut dire le présent ou le futur. Pour dire clairement le futur, on ajoute devant le verbe {ar|سَ} ou {ar|سَوْفَ}. Le professeur les appelle {ar|حُرُوفُ الِاسْتِقْبَالِ}."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "يَكْتُبُ زَيْدٌ الْآنَ", "fr": "Zayd écrit maintenant" },
+              "to": { "ar": "سَيَكْتُبُ زَيْدٌ غَدًا", "fr": "Zayd écrira demain" },
+              "label": "{ar|سَ} + le présent"
+            },
+            {
+              "from": { "ar": "يَكْتُبُ زَيْدٌ الْآنَ", "fr": "Zayd écrit maintenant" },
+              "to": { "ar": "سَوْفَ يَكْتُبُ زَيْدٌ غَدًا", "fr": "Zayd écrira demain" },
+              "label": "{ar|سَوْفَ} + le présent"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|سَ} se colle au verbe ({ar|سَيَكْتُبُ} : un seul mot). {ar|سَوْفَ} reste un mot séparé. Le verbe, lui, ne change pas."
+        }
+      ]
+    },
+    { "id": "medine-t2.l11.grammar-6#2", "type": "present", "item": "w:harf-istiqbal" },
+    {
+      "id": "medine-t2.l11.grammar-6#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:harf-istiqbal",
+      "distractors": ["w:harf-mudaraa", "w:harf-jarr"],
+      "explain": "{ar|حَرْفُ الِاسْتِقْبَالِ} : une particule du futur. {ar|حَرْفُ الْمُضَارَعَةِ} : une lettre du présent ; {ar|حَرْفُ جَرٍّ} : une préposition."
+    },
+    {
+      "id": "medine-t2.l11.grammar-6#4",
+      "type": "tip",
+      "title": "Le futur à toutes les personnes",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pronom", "Futur", "Sens"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|سَأَكْتُبُ}", "j'écrirai"],
+            ["{ar|نَحْنُ}", "{ar|سَنَكْتُبُ}", "nous écrirons"],
+            ["{ar|أَنْتَ}, {ar|هِيَ}", "{ar|سَتَكْتُبُ}", "tu écriras (à un homme), elle écrira"],
+            ["{ar|هُوَ}", "{ar|سَيَكْتُبُ}", "il écrira"],
+            ["{ar|هُمْ}", "{ar|سَيَكْتُبُونَ}", "ils écriront"],
+            ["{ar|هُنَّ}", "{ar|سَيَكْتُبْنَ}", "elles écriront"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|لَمْ} et {ar|لَنْ} se placent eux aussi devant le présent, et devant lui seul : tu les étudieras plus loin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.grammar-6#5",
+      "type": "sort",
+      "categories": [ { "fr": "passé" }, { "fr": "présent" }, { "fr": "futur" } ],
+      "cards": [
+        { "ar": "كَتَبَ زَيْدٌ الدَّرْسَ.", "category": 0 },
+        { "ar": "يَكْتُبُ زَيْدٌ الدَّرْسَ الْآنَ.", "category": 1 },
+        { "ar": "سَيَكْتُبُ زَيْدٌ الدَّرْسَ غَدًا.", "category": 2 },
+        { "ar": "سَوْفَ يَذْهَبُ زَيْدٌ إِلَى مَكَّةَ.", "category": 2 },
+        { "ar": "يَذْهَبُ زَيْدٌ إِلَى الْمَدْرَسَةِ الْآنَ.", "category": 1 },
+        { "ar": "ذَهَبَ زَيْدٌ إِلَى الْمَسْجِدِ.", "category": 0 }
+      ],
+      "instruction": "Passé, présent ou futur ?",
+      "explain": "{ar|سَيَكْتُبُ} et {ar|سَوْفَ يَذْهَبُ} annoncent le futur. {ar|يَكْتُبُ} avec {ar|الْآنَ} est un présent. {ar|كَتَبَ} et {ar|ذَهَبَ} sont des passés."
+    },
+    {
+      "id": "medine-t2.l11.grammar-6#6",
+      "type": "question",
+      "prompt": { "fr": "Quelle phrase annonce clairement le futur ?" },
+      "choices": [
+        { "ar": "سَيَكْتُبُ زَيْدٌ الدَّرْسَ." },
+        { "ar": "كَتَبَ زَيْدٌ الدَّرْسَ." },
+        { "ar": "يَكْتُبُ زَيْدٌ الدَّرْسَ الْآنَ." }
+      ],
+      "answer": 0,
+      "explain": "{ar|سَ} devant le présent annonce le futur : « Zayd écrira la leçon »."
+    },
+    {
+      "id": "medine-t2.l11.grammar-6#7",
+      "type": "fill_gap",
+      "sentence": "غَدًا {0} زَيْدٌ الدَّرْسَ.",
+      "fr": "Demain, Zayd écrira la leçon.",
+      "gaps": [ { "answers": ["سَيَكْتُبُ"] } ],
+      "options": ["سَيَكْتُبُ", "كَتَبَ", "كَتَبَتْ"],
+      "explain": "Avec {ar|غَدًا} (« demain »), on ne peut pas employer le passé : {ar|سَيَكْتُبُ}."
+    },
+    {
+      "id": "medine-t2.l11.grammar-6#8",
+      "type": "fill_gap",
+      "sentence": "{0} يَذْهَبُ زَيْدٌ إِلَى مَكَّةَ بَعْدَ أُسْبُوعٍ.",
+      "fr": "Zayd ira à La Mecque dans une semaine.",
+      "gaps": [ { "answers": ["سَوْفَ"] } ],
+      "options": ["سَوْفَ", "لَا"],
+      "explain": "{ar|سَوْفَ} devant le présent annonce le futur ; {ar|لَا} le nierait."
+    },
+    {
+      "id": "medine-t2.l11.grammar-6#9",
+      "type": "true_false",
+      "statement": { "fr": "{ar|سَ} s'écrit séparée du verbe, comme {ar|سَوْفَ}." },
+      "answer": false,
+      "explain": "Non : {ar|سَ} est collée au verbe ({ar|سَيَكْتُبُ}). Seule {ar|سَوْفَ} est un mot séparé."
+    },
+    {
+      "id": "medine-t2.l11.grammar-6#10",
+      "type": "order",
+      "fr": "Zayd écrira demain.",
+      "answers": [
+        ["سَيَكْتُبُ", "زَيْدٌ", "غَدًا"],
+        ["زَيْدٌ", "سَيَكْتُبُ", "غَدًا"],
+        ["سَيَكْتُبُ", "غَدًا", "زَيْدٌ"],
+        ["غَدًا", "سَيَكْتُبُ", "زَيْدٌ"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|سَ} se colle au verbe ; le sujet peut le suivre ou le précéder."
+    },
+    {
+      "id": "medine-t2.l11.grammar-6#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ils écriront demain.",
+      "answers": [
+        "سَيَكْتُبُونَ غَدًا.",
+        "سَوْفَ يَكْتُبُونَ غَدًا.",
+        "هُمْ سَيَكْتُبُونَ غَدًا.",
+        "هُمْ سَوْفَ يَكْتُبُونَ غَدًا.",
+        "يَكْتُبُونَ غَدًا."
+      ]
+    }
+  ]
+}

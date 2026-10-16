@@ -1,0 +1,173 @@
+{
+  "id": "medine-t2.l11.grammar-3",
+  "type": "grammar",
+  "title": "Une lettre pour chaque personne",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l11.grammar-3#1",
+      "type": "tip",
+      "title": "Quelle lettre pour quelle personne ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au présent, la lettre ajoutée au début du verbe indique la personne. Le professeur le montre avec {ar|كَتَبَ} :"
+        },
+        {
+          "type": "table",
+          "header": ["Lettre au début", "Pour qui ?", "Exemple", "Sens"],
+          "rows": [
+            ["{ar|أَ}", "« je » ({ar|أَنَا})", "{ar|أَنَا أَكْتُبُ}", "j'écris"],
+            ["{ar|نَ}", "« nous » ({ar|نَحْنُ})", "{ar|نَحْنُ نَكْتُبُ}", "nous écrivons"],
+            [
+              "{ar|تَ}",
+              "« tu » et « vous » ({ar|أَنْتَ}, {ar|أَنْتِ}, {ar|أَنْتُمَا}, {ar|أَنْتُمْ}, {ar|أَنْتُنَّ}), et « elle » ({ar|هِيَ})",
+              "{ar|أَنْتَ تَكْتُبُ}, {ar|هِيَ تَكْتُبُ}",
+              "tu écris, elle écrit"
+            ],
+            [
+              "{ar|يَ}",
+              "« il » et « eux » ({ar|هُوَ}, {ar|هُمَا}, {ar|هُمْ}, {ar|هُنَّ})",
+              "{ar|هُوَ يَكْتُبُ}",
+              "il écrit"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Pour « eux deux », il faut distinguer : deux hommes prennent {ar|يَ} ({ar|هُمَا يَكْتُبَانِ}), deux femmes prennent {ar|تَ} ({ar|هُمَا تَكْتُبَانِ}), comme « elle ». Plusieurs femmes ({ar|هُنَّ}) prennent {ar|يَ} : {ar|هُنَّ يَكْتُبْنَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.grammar-3#2",
+      "type": "tip",
+      "title": "Le même verbe, deux personnes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au présent, une même forme peut convenir à deux personnes. Le professeur le montre avec {ar|تَذْهَبُ} : le sujet, ou le contexte, dit de qui on parle."
+        },
+        { "type": "example", "ar": "أَنْتَ تَذْهَبُ.", "fr": "Tu vas. (à un homme)" },
+        { "type": "example", "ar": "هِيَ تَذْهَبُ.", "fr": "Elle va." },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "C'est la lettre {ar|تَ} qui sert à la fois pour « tu » (à un homme) et pour « elle » : {ar|تَكْتُبُ} veut dire « tu écris » ou « elle écrit »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.grammar-3#3",
+      "type": "tip",
+      "title": "Du passé au présent : où est passé le pronom ?",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَنَا كَتَبْتُ", "fr": "j'ai écrit" },
+              "to": { "ar": "أَنَا أَكْتُبُ", "fr": "j'écris" },
+              "label": "le {ar|تُ} de la fin devient le {ar|أَ} du début"
+            },
+            {
+              "from": { "ar": "نَحْنُ كَتَبْنَا", "fr": "nous avons écrit" },
+              "to": { "ar": "نَحْنُ نَكْتُبُ", "fr": "nous écrivons" },
+              "label": "le {ar|نَا} de la fin devient le {ar|نَ} du début"
+            },
+            {
+              "from": { "ar": "هُوَ كَتَبَ", "fr": "il a écrit" },
+              "to": { "ar": "هُوَ يَكْتُبُ", "fr": "il écrit" },
+              "label": "au passé, rien ; au présent, le {ar|يَ} du début"
+            },
+            {
+              "from": { "ar": "هِيَ كَتَبَتْ", "fr": "elle a écrit" },
+              "to": { "ar": "هِيَ تَكْتُبُ", "fr": "elle écrit" },
+              "label": "le {ar|تْ} de la fin devient le {ar|تَ} du début"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Au passé, la personne se lit **à la fin** du verbe ; au présent, elle se lit **au début** (et, pour certaines personnes, à la fin aussi, comme tu vas le voir)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.grammar-3#4",
+      "type": "sort",
+      "categories": [ { "fr": "la lettre {ar|أَ} ou {ar|نَ}" }, { "fr": "la lettre {ar|تَ}" }, { "fr": "la lettre {ar|يَ}" } ],
+      "cards": [
+        { "ar": "أَنَا", "category": 0 },
+        { "ar": "نَحْنُ", "category": 0 },
+        { "ar": "أَنْتَ", "category": 1 },
+        { "ar": "هِيَ", "category": 1 },
+        { "ar": "أَنْتُمْ", "category": 1 },
+        { "ar": "هُوَ", "category": 2 },
+        { "ar": "هُمْ", "category": 2 },
+        { "ar": "هُنَّ", "category": 2 }
+      ],
+      "instruction": "Quelle lettre au début du verbe ?",
+      "explain": "{ar|أَنَا} → {ar|أَ} ; {ar|نَحْنُ} → {ar|نَ}. {ar|أَنْتَ}, {ar|أَنْتُمْ} et {ar|هِيَ} → {ar|تَ}. {ar|هُوَ}, {ar|هُمْ}, {ar|هُنَّ} → {ar|يَ}."
+    },
+    {
+      "id": "medine-t2.l11.grammar-3#5",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} الدَّرْسَ الْآنَ.",
+      "fr": "J'écris la leçon maintenant.",
+      "gaps": [ { "answers": ["أَكْتُبُ"] } ],
+      "options": ["أَكْتُبُ", "نَكْتُبُ", "تَكْتُبُ", "يَكْتُبُ"],
+      "explain": "« Je » : la lettre {ar|أَ}."
+    },
+    {
+      "id": "medine-t2.l11.grammar-3#6",
+      "type": "fill_gap",
+      "sentence": "هِيَ {0} إِلَى السُّوقِ.",
+      "fr": "Elle va au marché.",
+      "gaps": [ { "answers": ["تَذْهَبُ"] } ],
+      "options": ["تَذْهَبُ", "يَذْهَبُ", "أَذْهَبُ"],
+      "explain": "« Elle » : la lettre {ar|تَ}, comme pour « tu »."
+    },
+    {
+      "id": "medine-t2.l11.grammar-3#7",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} فِي الْجَامِعَةِ.",
+      "fr": "Nous étudions à l'université.",
+      "gaps": [ { "answers": ["نَدْرُسُ"] } ],
+      "options": ["نَدْرُسُ", "أَدْرُسُ", "يَدْرُسُ"],
+      "explain": "« Nous » : la lettre {ar|نَ}."
+    },
+    {
+      "id": "medine-t2.l11.grammar-3#8",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « elle écrit » ?" },
+      "choices": [ { "ar": "تَكْتُبُ" }, { "ar": "يَكْتُبُ" }, { "ar": "أَكْتُبُ" }, { "ar": "نَكْتُبُ" } ],
+      "answer": 0,
+      "explain": "« Elle » prend la lettre {ar|تَ}, comme « tu » : {ar|هِيَ تَكْتُبُ}."
+    },
+    {
+      "id": "medine-t2.l11.grammar-3#9",
+      "type": "true_false",
+      "statement": { "fr": "{ar|تَكْتُبُ} peut vouloir dire « tu écris » (à un homme) ou « elle écrit »." },
+      "answer": true,
+      "explain": "Oui : la lettre {ar|تَ} sert aux deux personnes. C'est le sujet ({ar|أَنْتَ} ou {ar|هِيَ}) qui lève le doute."
+    },
+    {
+      "id": "medine-t2.l11.grammar-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous écrivons.",
+      "answers": ["نَكْتُبُ.", "نَحْنُ نَكْتُبُ."]
+    },
+    {
+      "id": "medine-t2.l11.grammar-3#11",
+      "type": "order",
+      "fr": "Il va à l'école.",
+      "answers": [["هُوَ", "يَذْهَبُ", "إِلَى", "الْمَدْرَسَةِ"]],
+      "punctuation": ".",
+      "explain": "« Il » : la lettre {ar|يَ}."
+    }
+  ]
+}

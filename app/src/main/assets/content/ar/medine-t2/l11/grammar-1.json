@@ -1,0 +1,126 @@
+{
+  "id": "medine-t2.l11.grammar-1",
+  "type": "grammar",
+  "title": "Les trois temps et leurs signes",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l11.grammar-1#1",
+      "type": "tip",
+      "title": "Reconnaître le temps d'un verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le verbe a trois temps : le passé, le présent et l'impératif (chapitre 2 de ce tome). Pour chacun, le professeur donne des signes qui permettent de le reconnaître."
+        },
+        {
+          "type": "table",
+          "header": ["Temps", "Comment le reconnaître"],
+          "rows": [
+            [
+              "{ar|الْمَاضِي} (le passé)",
+              "on peut lui coller un pronom sujet en {ar|ت} ({ar|كَتَبْتُ}, {ar|كَتَبْتُمْ}…) ou la marque du féminin {ar|تْ} ({ar|كَتَبَتْ})"
+            ],
+            [
+              "{ar|الْمُضَارِعُ} (le présent, aussi le futur)",
+              "il commence toujours par l'une des lettres {ar|أَنَيْتُ} ; il peut être précédé de {ar|لَمْ}, {ar|لَنْ}, {ar|سَ} ou {ar|سَوْفَ}"
+            ],
+            [
+              "{ar|الْأَمْرُ} (l'impératif)",
+              "il exprime un ordre ou une demande ; le {ar|نُونُ التَّوْكِيدِ} peut s'y coller : {ar|اُكْتُبْ} → {ar|اُكْتُبَنَّ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Aujourd'hui, tu étudies le passé en détail (rappel), le présent et le futur. L'impératif (« écris ! ») viendra dans un prochain chapitre : ici, ce n'est qu'un aperçu."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.grammar-1#2",
+      "type": "tip",
+      "title": "Le passé : deux signes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "On reconnaît un verbe au passé parce qu'on peut lui coller un pronom sujet qui commence par {ar|ت}, ou parce qu'il porte la marque du féminin : le {ar|ت} muni d'un sukūn ({ar|تَاءُ التَّأْنِيثِ السَّاكِنَةُ})."
+        },
+        {
+          "type": "table",
+          "header": ["Signe", "Exemple", "Sens"],
+          "rows": [
+            ["le pronom {ar|تُ} (« je »)", "{ar|ضَرَبْتُ}", "j'ai frappé"],
+            ["le pronom {ar|تُمْ} (« vous »)", "{ar|ضَرَبْتُمْ}", "vous avez frappé (plusieurs hommes)"],
+            ["la marque du féminin {ar|تْ}", "{ar|ضَرَبَتْ}", "elle a frappé"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Ces deux signes n'existent qu'au passé : un verbe au présent n'accepte jamais ces terminaisons."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.grammar-1#3",
+      "type": "spot",
+      "instruction": "Touche les verbes qui portent un signe du passé.",
+      "words": ["دَخَلْتُ", "الْمَسْجِدَ", "وَجَلَسْتُ", "هُنَاكَ"],
+      "answers": [0, 2],
+      "fr": "Je suis entré dans la mosquée et je me suis assis là-bas.",
+      "explain": "{ar|دَخَلْتُ} et {ar|وَجَلَسْتُ} se terminent par le pronom sujet {ar|تُ} (« je ») : ce sont des verbes au passé."
+    },
+    {
+      "id": "medine-t2.l11.grammar-1#4",
+      "type": "sort",
+      "categories": [ { "fr": "un pronom sujet en {ar|ت}" }, { "fr": "le {ar|تْ} du féminin" } ],
+      "cards": [
+        { "ar": "كَتَبْتُمْ", "category": 0 },
+        { "ar": "خَرَجْتُنَّ", "category": 0 },
+        { "ar": "ذَهَبْتُمَا", "category": 0 },
+        { "ar": "دَخَلَتْ", "category": 1 },
+        { "ar": "جَلَسَتْ", "category": 1 },
+        { "ar": "وَصَلَتْ", "category": 1 }
+      ],
+      "instruction": "Quel signe du passé ?",
+      "explain": "{ar|كَتَبْتُمْ}, {ar|خَرَجْتُنَّ}, {ar|ذَهَبْتُمَا} se terminent par un pronom en {ar|ت} (« vous »). {ar|دَخَلَتْ}, {ar|جَلَسَتْ}, {ar|وَصَلَتْ} portent le {ar|تْ} du féminin (« elle »)."
+    },
+    {
+      "id": "medine-t2.l11.grammar-1#5",
+      "type": "question",
+      "prompt": { "fr": "Quel signe prouve que {ar|سَمِعَتْ} est au passé ?" },
+      "choices": [
+        { "fr": "le {ar|تْ} du féminin à la fin" },
+        { "fr": "la lettre {ar|يَ} au début" },
+        { "fr": "la particule {ar|سَ} au début" }
+      ],
+      "answer": 0,
+      "explain": "Le {ar|تْ} final est un signe du passé. La lettre {ar|يَ} au début et la particule {ar|سَ} sont des signes du présent et du futur."
+    },
+    {
+      "id": "medine-t2.l11.grammar-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|كَتَبَتْ}, le {ar|تْ} est le pronom sujet « tu »." },
+      "answer": false,
+      "explain": "Non : c'est la marque du féminin. Le sujet est « elle », un pronom caché."
+    },
+    {
+      "id": "medine-t2.l11.grammar-1#7",
+      "type": "fill_gap",
+      "sentence": "هِيَ {0} الدَّرْسَ.",
+      "fr": "Elle a écrit la leçon.",
+      "gaps": [ { "answers": ["كَتَبَتْ"] } ],
+      "options": ["كَتَبَتْ", "كَتَبَ", "كَتَبُوا"],
+      "explain": "« Elle » : le verbe prend la marque du féminin {ar|تْ}."
+    },
+    {
+      "id": "medine-t2.l11.grammar-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elle est entrée.",
+      "answers": ["دَخَلَتْ.", "هِيَ دَخَلَتْ."]
+    }
+  ]
+}

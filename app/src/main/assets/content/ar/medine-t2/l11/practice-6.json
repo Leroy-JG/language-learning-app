@@ -1,0 +1,133 @@
+{
+  "id": "medine-t2.l11.practice-6",
+  "type": "vocabulary",
+  "title": "Exercice 9 : mettre au présent",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l11.practice-6#1",
+      "type": "tip",
+      "title": "Le modèle du livre",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَنَا ذَهَبْتُ إِلَى السُّوقِ", "fr": "Je suis allé au marché" },
+              "to": { "ar": "أَنَا أَذْهَبُ إِلَى السُّوقِ", "fr": "Je vais au marché" },
+              "label": "le {ar|تُ} de la fin devient le {ar|أَ} du début"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour chaque phrase, il faut trouver le sujet, puis la bonne forme du présent."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Quand le verbe est avant son sujet pluriel, il reste en général au singulier ({ar|يَخْرُجُ الطُّلَّابُ}) ; quand le sujet est avant, le verbe s'accorde ({ar|الطُّلَّابُ يَخْرُجُونَ}). Les deux phrases sont justes."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.practice-6#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "غَسَلَ الْوَلَدُ وَجْهَهُ بِالصَّابُونِ.",
+      "answers": ["يَغْسِلُ الْوَلَدُ وَجْهَهُ بِالصَّابُونِ.", "الْوَلَدُ يَغْسِلُ وَجْهَهُ بِالصَّابُونِ."],
+      "fr": "L'enfant lave son visage avec du savon.",
+      "instruction": "Mets le verbe au présent.",
+      "explain": "{ar|غَسَلَ} → {ar|يَغْسِلُ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-6#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "الطُّلَّابُ خَرَجُوا مِنَ الْفَصْلِ.",
+      "answers": ["الطُّلَّابُ يَخْرُجُونَ مِنَ الْفَصْلِ.", "يَخْرُجُ الطُّلَّابُ مِنَ الْفَصْلِ."],
+      "fr": "Les étudiants sortent de la classe.",
+      "instruction": "Mets le verbe au présent.",
+      "explain": "{ar|خَرَجُوا} → {ar|يَخْرُجُونَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-6#4",
+      "type": "fill_gap",
+      "sentence": "بِأَيِّ جَامِعَةٍ {0} يَا فَيْصَلُ؟",
+      "fr": "À quelle université étudies-tu, Fayṣal ?",
+      "gaps": [ { "answers": ["تَدْرُسُ"] } ],
+      "options": ["تَدْرُسُ", "دَرَسْتَ", "يَدْرُسُ"],
+      "explain": "{ar|دَرَسْتَ} (« tu as étudié ») → {ar|تَدْرُسُ} (« tu étudies »)."
+    },
+    {
+      "id": "medine-t2.l11.practice-6#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "الطَّالِبَاتُ دَخَلْنَ الْفَصْلَ.",
+      "answers": ["الطَّالِبَاتُ يَدْخُلْنَ الْفَصْلَ.", "يَدْخُلْنَ الطَّالِبَاتُ الْفَصْلَ."],
+      "fr": "Les étudiantes entrent dans la classe.",
+      "instruction": "Mets le verbe au présent.",
+      "explain": "{ar|دَخَلْنَ} → {ar|يَدْخُلْنَ} : le pronom {ar|نَ} reste, la lettre {ar|يَ} s'ajoute devant."
+    },
+    {
+      "id": "medine-t2.l11.practice-6#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "لَعِبَتْ آمِنَةُ مَعَ أُخْتِهَا.",
+      "answers": ["تَلْعَبُ آمِنَةُ مَعَ أُخْتِهَا.", "آمِنَةُ تَلْعَبُ مَعَ أُخْتِهَا."],
+      "fr": "Āmina joue avec sa sœur.",
+      "instruction": "Mets le verbe au présent.",
+      "explain": "{ar|لَعِبَتْ} → {ar|تَلْعَبُ} : « elle » prend la lettre {ar|تَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-6#7",
+      "type": "question",
+      "prompt": { "fr": "Quel est le présent de {ar|سَأَلَ} pour « ils » ?" },
+      "choices": [ { "ar": "يَسْأَلُونَ" }, { "ar": "يَسْأَلْنَ" }, { "ar": "تَسْأَلُونَ" } ],
+      "answer": 0,
+      "explain": "« Ils » : la lettre {ar|يَ} et la terminaison {ar|ونَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-6#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَتَبَ الْمُدَرِّسُ الدَّرْسَ عَلَى السَّبُّورَةِ.",
+      "answers": [
+        "يَكْتُبُ الْمُدَرِّسُ الدَّرْسَ عَلَى السَّبُّورَةِ.",
+        "الْمُدَرِّسُ يَكْتُبُ الدَّرْسَ عَلَى السَّبُّورَةِ."
+      ],
+      "fr": "L'enseignant écrit la leçon au tableau.",
+      "instruction": "Mets le verbe au présent.",
+      "explain": "{ar|كَتَبَ} → {ar|يَكْتُبُ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-6#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "سَأَلَ الطُّلَّابُ الْمُدَرِّسَ أَسْئِلَةً كَثِيرَةً.",
+      "answers": [
+        "يَسْأَلُ الطُّلَّابُ الْمُدَرِّسَ أَسْئِلَةً كَثِيرَةً.",
+        "الطُّلَّابُ يَسْأَلُونَ الْمُدَرِّسَ أَسْئِلَةً كَثِيرَةً."
+      ],
+      "fr": "Les étudiants posent beaucoup de questions à l'enseignant.",
+      "instruction": "Mets le verbe au présent.",
+      "explain": "{ar|سَأَلَ} → {ar|يَسْأَلُ} (verbe avant le sujet : singulier) ou {ar|الطُّلَّابُ يَسْأَلُونَ} (sujet avant : pluriel)."
+    },
+    {
+      "id": "medine-t2.l11.practice-6#10",
+      "type": "fill_gap",
+      "sentence": "{0} أُمِّي الثِّيَابَ.",
+      "fr": "Ma mère lave les vêtements.",
+      "gaps": [ { "answers": ["تَغْسِلُ"] } ],
+      "options": ["تَغْسِلُ", "يَغْسِلُ", "غَسَلَتْ"],
+      "explain": "« Elle » : {ar|تَغْسِلُ}. Le verbe est avant le sujet {ar|أُمِّي}, qui est une femme : lettre {ar|تَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-6#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les passagers descendent du bus.",
+      "answers": ["يَنْزِلُ الرُّكَّابُ مِنَ الْحَافِلَةِ.", "الرُّكَّابُ يَنْزِلُونَ مِنَ الْحَافِلَةِ."]
+    }
+  ]
+}
