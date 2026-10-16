@@ -146,9 +146,10 @@
       "id": "medine-t2.l08.revue-2#9",
       "type": "order",
       "fr": "Ḥāmid, Hāshim et ʿAlī sont allés.",
-      "answers": [["حَامِدٌ", "وَهَاشِمٌ", "وَعَلِيٌّ", "ذَهَبُوا"], ["ذَهَبَ", "حَامِدٌ", "وَهَاشِمٌ", "وَعَلِيٌّ"]],
+      "answers": [["حَامِدٌ", "وَهَاشِمٌ", "وَعَلِيٌّ", "ذَهَبُوا"]],
       "punctuation": ".",
-      "explain": "Placés avant le verbe, les trois hommes appellent le pluriel ({ar|ذَهَبُوا}). Placé avant eux, le verbe reste au singulier ({ar|ذَهَبَ})."
+      "distractors": ["ذَهَبْنَ"],
+      "explain": "Le sujet est formé de trois hommes, placés avant le verbe : le verbe est au pluriel masculin ({ar|ذَهَبُوا}). {ar|ذَهَبْنَ} est le pluriel féminin."
     },
     {
       "id": "medine-t2.l08.revue-2#10",

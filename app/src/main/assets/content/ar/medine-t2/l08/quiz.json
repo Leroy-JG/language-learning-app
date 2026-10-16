@@ -144,7 +144,7 @@
       "ask": "audio",
       "fr": "Ils l'ont ouvert.",
       "answers": ["فَتَحُوهُ.", "هُمْ فَتَحُوهُ."],
-      "explain": "{ar|فَتَحُوا} + {ar|هُ} : l'alif muet de {ar|وا} tombe, on écrit {ar|فَتَحُوهُ}."
+      "explain": "{ar|فَتَحُوا} + {ar|هُ} : l'alif muet qui suit le {ar|و} du pluriel tombe, on écrit {ar|فَتَحُوهُ}."
     }
   ]
 }
