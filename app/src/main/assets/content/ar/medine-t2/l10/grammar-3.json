@@ -1,0 +1,163 @@
+{
+  "id": "medine-t2.l10.grammar-3",
+  "type": "grammar",
+  "title": "Vingt et un, vingt-deux, vingt-trois…",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l10.grammar-3#1",
+      "type": "tip",
+      "title": "Les unités, puis la dizaine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De 21 à 99, on dit d'abord l'**unité**, puis {ar|وَ} (« et »), puis la **dizaine**. {ar|ثَلَاثَةٌ وَعِشْرُونَ} se lit donc « trois et vingt »."
+        },
+        {
+          "type": "breakdown",
+          "ar": "ثَلَاثَةٌ وَعِشْرُونَ",
+          "fr": "vingt-trois (avec un nom masculin)",
+          "parts": [ { "ar": "ثَلَاثَةٌ", "fr": "trois" }, { "ar": "وَ", "fr": "et" }, { "ar": "عِشْرُونَ", "fr": "vingt" } ]
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "Avec un nom masculin", "Avec un nom féminin"],
+          "rows": [
+            ["21", "{ar|وَاحِدٌ وَعِشْرُونَ}", "{ar|وَاحِدَةٌ وَعِشْرُونَ}"],
+            ["22", "{ar|اِثْنَانِ وَعِشْرُونَ}", "{ar|اِثْنَتَانِ وَعِشْرُونَ}"],
+            ["23", "{ar|ثَلَاثَةٌ وَعِشْرُونَ}", "{ar|ثَلَاثٌ وَعِشْرُونَ}"],
+            ["24", "{ar|أَرْبَعَةٌ وَعِشْرُونَ}", "{ar|أَرْبَعٌ وَعِشْرُونَ}"],
+            ["25", "{ar|خَمْسَةٌ وَعِشْرُونَ}", "{ar|خَمْسٌ وَعِشْرُونَ}"],
+            ["26", "{ar|سِتَّةٌ وَعِشْرُونَ}", "{ar|سِتٌّ وَعِشْرُونَ}"],
+            ["27", "{ar|سَبْعَةٌ وَعِشْرُونَ}", "{ar|سَبْعٌ وَعِشْرُونَ}"],
+            ["28", "{ar|ثَمَانِيَةٌ وَعِشْرُونَ}", "{ar|ثَمَانٍ وَعِشْرُونَ}"],
+            ["29", "{ar|تِسْعَةٌ وَعِشْرُونَ}", "{ar|تِسْعٌ وَعِشْرُونَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le même schéma sert de 21 à 99 : {ar|خَمْسَةٌ وَأَرْبَعُونَ} (45, avec un nom masculin), {ar|تِسْعَةٌ وَتِسْعُونَ} (99, avec un nom masculin). Pour vingt et un au féminin, on dit aussi {ar|إِحْدَى وَعِشْرُونَ}, comme pour onze."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l10.grammar-3#2",
+      "type": "tip",
+      "title": "Le genre : les unités contredisent (sauf un et deux)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La partie « unités » suit la règle de 3 à 10 : elle est de genre **contraire** à celui du dénombré. **Un** et **deux** font exception : ils s'accordent. La dizaine, elle, ne change jamais de genre."
+        },
+        {
+          "type": "compare",
+          "title": "Du masculin au féminin",
+          "rows": [
+            {
+              "from": { "ar": "ثَلَاثَةٌ وَعِشْرُونَ كِتَابًا", "fr": "vingt-trois livres (nom masculin)" },
+              "to": { "ar": "ثَلَاثٌ وَعِشْرُونَ أُخْتًا", "fr": "vingt-trois sœurs (nom féminin)" },
+              "label": "« trois » perd son {ar|ة} ; « vingt » ne change pas"
+            },
+            {
+              "from": { "ar": "وَاحِدٌ وَعِشْرُونَ كِتَابًا", "fr": "vingt et un livres" },
+              "to": { "ar": "وَاحِدَةٌ وَعِشْرُونَ أُخْتًا", "fr": "vingt et une sœurs" },
+              "label": "« un » s'accorde : il prend {ar|ة} au féminin"
+            },
+            {
+              "from": { "ar": "اِثْنَانِ وَعِشْرُونَ كِتَابًا", "fr": "vingt-deux livres" },
+              "to": { "ar": "اِثْنَتَانِ وَعِشْرُونَ أُخْتًا", "fr": "vingt-deux sœurs" },
+              "label": "« deux » s'accorde aussi"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ne confonds pas avec 11 à 19 : là, la partie « dix » s'accorde ({ar|ثَلَاثَةَ عَشَرَ}, {ar|ثَلَاثَ عَشْرَةَ}). De 20 à 99, la dizaine ne change pas de forme selon le genre."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l10.grammar-3#3",
+      "type": "sort",
+      "categories": [ { "fr": "avec un nom masculin" }, { "fr": "avec un nom féminin" } ],
+      "cards": [
+        { "ar": "وَاحِدٌ وَعِشْرُونَ", "category": 0 },
+        { "ar": "ثَلَاثٌ وَعِشْرُونَ", "category": 1 },
+        { "ar": "اِثْنَتَانِ وَعِشْرُونَ", "category": 1 },
+        { "ar": "خَمْسَةٌ وَعِشْرُونَ", "category": 0 },
+        { "ar": "ثَمَانٍ وَعِشْرُونَ", "category": 1 },
+        { "ar": "تِسْعَةٌ وَعِشْرُونَ", "category": 0 }
+      ],
+      "instruction": "Avec quel nom compté se dit chaque nombre ?",
+      "explain": "Pour 1 et 2, l'unité s'accorde ({ar|وَاحِدٌ}, {ar|اِثْنَتَانِ}). De 3 à 9, elle contredit : avec {ar|ة}, c'est un nom masculin ; sans {ar|ة}, un nom féminin."
+    },
+    {
+      "id": "medine-t2.l10.grammar-3#4",
+      "type": "spot",
+      "instruction": "Touche la partie du nombre qui change selon le genre du dénombré.",
+      "words": ["ثَلَاثَةٌ", "وَعِشْرُونَ", "كِتَابًا."],
+      "answers": [0],
+      "fr": "Vingt-trois livres.",
+      "explain": "{ar|ثَلَاثَةٌ} (l'unité) changerait pour un nom féminin ({ar|ثَلَاثٌ}). {ar|وَعِشْرُونَ} ne change pas."
+    },
+    {
+      "id": "medine-t2.l10.grammar-3#5",
+      "type": "spot",
+      "instruction": "Touche le dénombré.",
+      "words": ["لِي", "خَمْسٌ", "وَعِشْرُونَ", "أُخْتًا."],
+      "answers": [3],
+      "fr": "J'ai vingt-cinq sœurs.",
+      "explain": "Le dénombré est ce qu'on compte : {ar|أُخْتًا}. Il suit les deux parties du nombre, au singulier et à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l10.grammar-3#6",
+      "type": "fill_gap",
+      "sentence": "لِي {0} كِتَابًا.",
+      "fr": "J'ai vingt-cinq livres.",
+      "gaps": [ { "answers": ["خَمْسَةٌ وَعِشْرُونَ"] } ],
+      "options": ["خَمْسَةٌ وَعِشْرُونَ", "خَمْسٌ وَعِشْرُونَ", "سِتَّةٌ وَعِشْرُونَ"],
+      "explain": "{ar|كِتَابٌ} est masculin : « cinq » prend la forme avec {ar|ة} ({ar|خَمْسَةٌ})."
+    },
+    {
+      "id": "medine-t2.l10.grammar-3#7",
+      "type": "fill_gap",
+      "sentence": "فِي الْفَصْلِ {0} طَالِبَةً.",
+      "fr": "Il y a vingt-six étudiantes dans la classe.",
+      "gaps": [ { "answers": ["سِتٌّ وَعِشْرُونَ"] } ],
+      "options": ["سِتٌّ وَعِشْرُونَ", "سِتَّةٌ وَعِشْرُونَ", "سَبْعٌ وَعِشْرُونَ"],
+      "explain": "{ar|طَالِبَةٌ} est féminin : « six » prend la forme sans {ar|ة} ({ar|سِتٌّ})."
+    },
+    {
+      "id": "medine-t2.l10.grammar-3#8",
+      "type": "order",
+      "fr": "J'ai vingt-huit livres.",
+      "answers": [["لِي", "ثَمَانِيَةٌ", "وَعِشْرُونَ", "كِتَابًا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l10.grammar-3#9",
+      "type": "fill_gap",
+      "sentence": "لِي {0} أُخْتًا.",
+      "fr": "J'ai vingt-deux sœurs.",
+      "gaps": [ { "answers": ["اِثْنَتَانِ وَعِشْرُونَ"] } ],
+      "options": ["اِثْنَتَانِ وَعِشْرُونَ", "اِثْنَانِ وَعِشْرُونَ", "ثَلَاثٌ وَعِشْرُونَ"],
+      "explain": "« Deux » s'accorde avec le dénombré : {ar|أُخْتٌ} est féminin, donc {ar|اِثْنَتَانِ}."
+    },
+    {
+      "id": "medine-t2.l10.grammar-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai vingt-quatre livres.",
+      "answers": ["لِي أَرْبَعَةٌ وَعِشْرُونَ كِتَابًا.", "عِنْدِي أَرْبَعَةٌ وَعِشْرُونَ كِتَابًا."]
+    },
+    {
+      "id": "medine-t2.l10.grammar-3#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a vingt-neuf étudiantes dans la classe.",
+      "answers": ["فِي الْفَصْلِ تِسْعٌ وَعِشْرُونَ طَالِبَةً."]
+    }
+  ]
+}

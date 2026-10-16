@@ -1,0 +1,48 @@
+{
+  "id": "medine-t2.l10.vocab-6",
+  "type": "vocabulary",
+  "title": "Sauf, l'après-midi, les nouvelles",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t2.l10.vocab-6#1", "type": "present", "item": "w:illa" },
+    { "id": "medine-t2.l10.vocab-6#2", "type": "present", "item": "w:asr" },
+    { "id": "medine-t2.l10.vocab-6#3", "type": "present", "item": "w:khabar-2" },
+    {
+      "id": "medine-t2.l10.vocab-6#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:illa",
+      "distractors": ["w:asr", "w:khabar-2"],
+      "explain": "{ar|إِلَّا} : sauf, excepté. {ar|عَصْرٌ} : l'après-midi ; {ar|خَبَرٌ} : une nouvelle."
+    },
+    { "id": "medine-t2.l10.vocab-6#5", "type": "build", "item": "w:illa", "extra": ["ى"] },
+    {
+      "id": "medine-t2.l10.vocab-6#6",
+      "type": "fill_gap",
+      "sentence": "جَاءَ الطُّلَّابُ {0} زَيْدًا.",
+      "fr": "Les étudiants sont venus, sauf Zayd.",
+      "gaps": [ { "answers": ["إِلَّا"] } ],
+      "options": ["إِلَّا", "إِلَى", "مَعَ"],
+      "explain": "« Sauf » : {ar|إِلَّا}, avec une shadda. {ar|إِلَى} veut dire « vers »."
+    },
+    {
+      "id": "medine-t2.l10.vocab-6#7",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|صَلَاةُ الْعَصْرِ} ?" },
+      "choices": [ { "fr": "la prière de l'après-midi" }, { "fr": "la prière de l'aube" }, { "fr": "la prière de midi" } ],
+      "answer": 0,
+      "explain": "{ar|الْعَصْرُ} est l'après-midi ; {ar|الْفَجْرُ} est l'aube ; {ar|الظُّهْرُ} est le midi."
+    },
+    {
+      "id": "medine-t2.l10.vocab-6#8",
+      "type": "order",
+      "fr": "Zayd a entendu une nouvelle à la radio.",
+      "answers": [
+        ["سَمِعَ", "زَيْدٌ", "خَبَرًا", "مِنَ", "الْإِذَاعَةِ"],
+        ["سَمِعَ", "زَيْدٌ", "مِنَ", "الْإِذَاعَةِ", "خَبَرًا"]
+      ],
+      "punctuation": "."
+    },
+    { "id": "medine-t2.l10.vocab-6#9", "type": "typing", "ask": "fr", "fr": "sauf", "answers": ["إِلَّا"] }
+  ]
+}

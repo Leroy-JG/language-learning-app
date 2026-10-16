@@ -1,0 +1,365 @@
+[
+  {
+    "id": "w:faala",
+    "kind": "word",
+    "ar": "فَعَلَ",
+    "fr": "il a fait (faire)",
+    "translit": "faʿala",
+    "note": "Son nom d'action est {ar|فِعْلٌ}, le mot qui veut dire « un verbe » (chapitre 1 du tome 1) : un verbe est « ce qu'on fait », une action. {ar|فَعَلَ} remplace souvent un verbe plus précis : {ar|مَاذَا فَعَلَ؟} (« qu'a-t-il fait ? »).",
+    "example": { "ar": "مَاذَا فَعَلَ زَيْدٌ؟", "fr": "Qu'a fait Zayd ?" }
+  },
+  {
+    "id": "w:amila",
+    "kind": "word",
+    "ar": "عَمِلَ",
+    "fr": "il a travaillé, il a agi (travailler, agir)",
+    "translit": "ʿamila",
+    "note": "Il se dit d'un travail, d'un métier. Son nom d'action est {ar|عَمَلٌ} (« un travail »). La voyelle du {ar|م} est une kasra, comme dans {ar|سَمِعَ}.",
+    "example": { "ar": "عَمِلَ زَيْدٌ فِي الشَّرِكَةِ.", "fr": "Zayd a travaillé dans la société." }
+  },
+  {
+    "id": "w:ishtara",
+    "kind": "word",
+    "ar": "اِشْتَرَى",
+    "fr": "il a acheté (acheter)",
+    "translit": "ishtarā",
+    "note": "L'alif du début est un alif de liaison (sans hamza), comme dans {ar|اِسْمٌ}. Le {ar|ى} final devient {ar|ي} devant le pronom sujet : {ar|اِشْتَرَيْتُ} (« j'ai acheté »).",
+    "example": { "ar": "اِشْتَرَى زَيْدٌ كِتَابًا.", "fr": "Zayd a acheté un livre." }
+  },
+  {
+    "id": "w:n-20",
+    "kind": "word",
+    "ar": "عِشْرُونَ",
+    "fr": "vingt",
+    "translit": "ʿishrūna",
+    "note": "Il se décline comme un pluriel masculin sain : {ar|عِشْرُونَ} au nominatif, {ar|عِشْرِينَ} à l'accusatif et au génitif. Le {ar|ش} porte un sukūn.",
+    "example": { "ar": "لِي عِشْرُونَ كِتَابًا.", "fr": "J'ai vingt livres." }
+  },
+  {
+    "id": "w:n-30",
+    "kind": "word",
+    "ar": "ثَلَاثُونَ",
+    "fr": "trente",
+    "translit": "thalāthūna",
+    "note": "{ar|ثَلَاثُونَ} (nominatif) et {ar|ثَلَاثِينَ} (accusatif et génitif). Le {ar|ا} après le {ar|ل} est écrit.",
+    "example": { "ar": "فِي الْفَصْلِ ثَلَاثُونَ طَالِبًا.", "fr": "Il y a trente étudiants dans la classe." }
+  },
+  {
+    "id": "w:n-40",
+    "kind": "word",
+    "ar": "أَرْبَعُونَ",
+    "fr": "quarante",
+    "translit": "arbaʿūna",
+    "note": "{ar|أَرْبَعُونَ} (nominatif) et {ar|أَرْبَعِينَ} (accusatif et génitif).",
+    "example": { "ar": "فِي الْحَافِلَةِ أَرْبَعُونَ رَاكِبًا.", "fr": "Il y a quarante passagers dans le bus." }
+  },
+  {
+    "id": "w:n-50",
+    "kind": "word",
+    "ar": "خَمْسُونَ",
+    "fr": "cinquante",
+    "translit": "khamsūna",
+    "note": "{ar|خَمْسُونَ} (nominatif) et {ar|خَمْسِينَ} (accusatif et génitif).",
+    "example": { "ar": "عِنْدِي خَمْسُونَ دَفْتَرًا.", "fr": "J'ai cinquante cahiers." }
+  },
+  {
+    "id": "w:n-60",
+    "kind": "word",
+    "ar": "سِتُّونَ",
+    "fr": "soixante",
+    "translit": "sittūna",
+    "note": "{ar|سِتُّونَ} (nominatif) et {ar|سِتِّينَ} (accusatif et génitif). Le {ar|ت} porte une shadda, comme dans {ar|سِتَّةٌ}.",
+    "example": { "ar": "فِي الْمَسْجِدِ سِتُّونَ رَجُلًا.", "fr": "Il y a soixante hommes dans la mosquée." }
+  },
+  {
+    "id": "w:n-70",
+    "kind": "word",
+    "ar": "سَبْعُونَ",
+    "fr": "soixante-dix",
+    "translit": "sabʿūna",
+    "note": "{ar|سَبْعُونَ} (nominatif) et {ar|سَبْعِينَ} (accusatif et génitif). En arabe, on ne compte pas « soixante et dix » : c'est un mot à part.",
+    "example": { "ar": "فِي الْمَدِينَةِ سَبْعُونَ مَسْجِدًا.", "fr": "Il y a soixante-dix mosquées dans la ville." }
+  },
+  {
+    "id": "w:n-80",
+    "kind": "word",
+    "ar": "ثَمَانُونَ",
+    "fr": "quatre-vingts",
+    "translit": "thamānūna",
+    "note": "{ar|ثَمَانُونَ} (nominatif) et {ar|ثَمَانِينَ} (accusatif et génitif). Il vient de {ar|ثَمَانٍ} : le {ar|ي} de {ar|ثَمَانٍ} disparaît.",
+    "example": { "ar": "فِي الشَّرِكَةِ ثَمَانُونَ مُوَظَّفًا.", "fr": "Il y a quatre-vingts employés dans la société." }
+  },
+  {
+    "id": "w:n-90",
+    "kind": "word",
+    "ar": "تِسْعُونَ",
+    "fr": "quatre-vingt-dix",
+    "translit": "tisʿūna",
+    "note": "{ar|تِسْعُونَ} (nominatif) et {ar|تِسْعِينَ} (accusatif et génitif).",
+    "example": { "ar": "فِي الْكِتَابِ تِسْعُونَ صَفْحَةً.", "fr": "Il y a quatre-vingt-dix pages dans le livre." }
+  },
+  {
+    "id": "w:adad-tartibi",
+    "kind": "word",
+    "ar": "الْعَدَدُ التَّرْتِيبِيُّ",
+    "fr": "le nombre ordinal (qui dit le rang)",
+    "translit": "al-ʿadadu at-tartībiyyu",
+    "gender": "m",
+    "note": "{ar|التَّرْتِيبُ} veut dire « l'ordre, le classement ». Le nombre ordinal répond à la question « quel rang ? » (premier, deuxième…), alors que le nombre cardinal (un, deux, trois…) répond à « combien ? »."
+  },
+  {
+    "id": "w:thani",
+    "kind": "word",
+    "ar": "ثَانٍ",
+    "fr": "deuxième",
+    "translit": "thānin",
+    "note": "Sans article, on écrit {ar|ثَانٍ} : au nominatif et au génitif, le {ar|ي} tombe devant le tanwin (à l'accusatif, il revient : {ar|ثَانِيًا}). Avec l'article, il se voit : {ar|الثَّانِي}. Au féminin : {ar|ثَانِيَةٌ}.",
+    "example": { "ar": "الدَّرْسُ الثَّانِي.", "fr": "Le deuxième cours." }
+  },
+  {
+    "id": "w:thalith",
+    "kind": "word",
+    "ar": "ثَالِثٌ",
+    "fr": "troisième",
+    "translit": "thālithun",
+    "note": "Au féminin : {ar|ثَالِثَةٌ}. Les ordinaux de deux à dix ont la forme de {ar|طَالِبٌ} (le modèle {ar|فَاعِلٌ}).",
+    "example": { "ar": "الدَّرْسُ الثَّالِثُ.", "fr": "Le troisième cours." }
+  },
+  {
+    "id": "w:rabi",
+    "kind": "word",
+    "ar": "رَابِعٌ",
+    "fr": "quatrième",
+    "translit": "rābiʿun",
+    "note": "Au féminin : {ar|رَابِعَةٌ}.",
+    "example": { "ar": "السَّنَةُ الرَّابِعَةُ.", "fr": "La quatrième année." }
+  },
+  {
+    "id": "w:khamis-2",
+    "kind": "word",
+    "ar": "خَامِسٌ",
+    "fr": "cinquième",
+    "translit": "khāmisun",
+    "note": "Au féminin : {ar|خَامِسَةٌ}. Il est de la même famille que {ar|خَمْسَةٌ} (cinq) et que {ar|الْخَمِيسُ} (jeudi, « le cinquième » jour de la semaine).",
+    "example": { "ar": "الْغُرْفَةُ الْخَامِسَةُ.", "fr": "La cinquième pièce." }
+  },
+  {
+    "id": "w:sadis",
+    "kind": "word",
+    "ar": "سَادِسٌ",
+    "fr": "sixième",
+    "translit": "sādisun",
+    "note": "Au féminin : {ar|سَادِسَةٌ}. Attention : il s'écrit avec un {ar|د}, et non avec un {ar|ت} comme {ar|سِتَّةٌ}.",
+    "example": { "ar": "الطَّالِبَةُ السَّادِسَةُ.", "fr": "La sixième étudiante." }
+  },
+  {
+    "id": "w:sabi",
+    "kind": "word",
+    "ar": "سَابِعٌ",
+    "fr": "septième",
+    "translit": "sābiʿun",
+    "note": "Au féminin : {ar|سَابِعَةٌ}.",
+    "example": { "ar": "الْيَوْمُ السَّابِعُ.", "fr": "Le septième jour." }
+  },
+  {
+    "id": "w:thamin",
+    "kind": "word",
+    "ar": "ثَامِنٌ",
+    "fr": "huitième",
+    "translit": "thāminun",
+    "note": "Au féminin : {ar|ثَامِنَةٌ}.",
+    "example": { "ar": "الْجُزْءُ الثَّامِنُ.", "fr": "La huitième partie." }
+  },
+  {
+    "id": "w:tasi",
+    "kind": "word",
+    "ar": "تَاسِعٌ",
+    "fr": "neuvième",
+    "translit": "tāsiʿun",
+    "note": "Au féminin : {ar|تَاسِعَةٌ}.",
+    "example": { "ar": "الصَّفْحَةُ التَّاسِعَةُ.", "fr": "La neuvième page." }
+  },
+  {
+    "id": "w:ashir",
+    "kind": "word",
+    "ar": "عَاشِرٌ",
+    "fr": "dixième",
+    "translit": "ʿāshirun",
+    "note": "Au féminin : {ar|عَاشِرَةٌ}.",
+    "example": { "ar": "الدَّرْسُ الْعَاشِرُ.", "fr": "Le dixième cours." }
+  },
+  {
+    "id": "w:masna",
+    "kind": "word",
+    "ar": "مَصْنَعٌ",
+    "fr": "une usine",
+    "translit": "maṣnaʿun",
+    "plural": "مَصَانِعُ",
+    "gender": "m",
+    "note": "C'est le lieu où l'on fabrique : il vient du verbe {ar|صَنَعَ} (« il a fabriqué »), sur le modèle {ar|مَفْعَلٌ} comme {ar|مَكْتَبٌ}.",
+    "example": { "ar": "هٰذَا مَصْنَعُ سَيَّارَاتٍ.", "fr": "Ceci est une usine de voitures." }
+  },
+  {
+    "id": "w:amil",
+    "kind": "word",
+    "ar": "عَامِلٌ",
+    "fr": "un ouvrier, un travailleur",
+    "translit": "ʿāmilun",
+    "plural": "عُمَّالٌ",
+    "gender": "m",
+    "note": "Il est de la même famille que {ar|عَمِلَ} (« travailler ») : c'est « celui qui travaille ».",
+    "example": { "ar": "هٰذَا عَامِلُ الشَّرِكَةِ.", "fr": "Voici l'ouvrier de la société." }
+  },
+  {
+    "id": "w:mitr",
+    "kind": "word",
+    "ar": "مِتْرٌ",
+    "fr": "un mètre",
+    "translit": "mitrun",
+    "plural": "أَمْتَارٌ",
+    "gender": "m",
+    "note": "Un mot emprunté (« mètre »). Après un nombre de 3 à 10, on emploie le pluriel : {ar|ثَلَاثَةُ أَمْتَارٍ}.",
+    "example": { "ar": "طُولُ الْمَلْعَبِ ثَلَاثُونَ مِتْرًا.", "fr": "La longueur du terrain est de trente mètres." }
+  },
+  {
+    "id": "w:kilumitr",
+    "kind": "word",
+    "ar": "كِيلُومِتْرٌ",
+    "fr": "un kilomètre",
+    "translit": "kīlūmitrun",
+    "gender": "m",
+    "note": "Un mot emprunté (« kilomètre »).",
+    "example": {
+      "ar": "الْمَسَافَةُ بَيْنَ الْمَدِينَةِ وَالْمَطَارِ ثَلَاثُونَ كِيلُومِتْرًا.",
+      "fr": "La distance entre la ville et l'aéroport est de trente kilomètres."
+    }
+  },
+  {
+    "id": "w:santimitr",
+    "kind": "word",
+    "ar": "سَنْتِيمِتْرٌ",
+    "fr": "un centimètre",
+    "translit": "santīmitrun",
+    "gender": "m",
+    "note": "Un mot emprunté (« centimètre »).",
+    "example": {
+      "ar": "هٰذَا الْقَلَمُ طُولُهُ عِشْرُونَ سَنْتِيمِتْرًا.",
+      "fr": "Ce stylo mesure vingt centimètres de long."
+    }
+  },
+  {
+    "id": "w:tul",
+    "kind": "word",
+    "ar": "طُولٌ",
+    "fr": "une longueur",
+    "translit": "ṭūlun",
+    "plural": "أَطْوَالٌ",
+    "gender": "m",
+    "note": "Il est de la même famille que {ar|طَوِيلٌ} (« long »). Avec un pronom collé : {ar|طُولُهُ} (« sa longueur »).",
+    "example": { "ar": "مَا طُولُ هٰذَا الْبَيْتِ؟", "fr": "Quelle est la longueur de cette maison ?" }
+  },
+  {
+    "id": "w:ard-2",
+    "kind": "word",
+    "ar": "عَرْضٌ",
+    "fr": "une largeur",
+    "translit": "ʿarḍun",
+    "gender": "m",
+    "note": "Avec un pronom collé : {ar|عَرْضُهُ} (« sa largeur »). Ne le confonds pas avec {ar|أَرْضٌ} (la terre).",
+    "example": { "ar": "مَا عَرْضُ هٰذَا الْبَيْتِ؟", "fr": "Quelle est la largeur de cette maison ?" }
+  },
+  {
+    "id": "w:masafa",
+    "kind": "word",
+    "ar": "مَسَافَةٌ",
+    "fr": "une distance",
+    "translit": "masāfatun",
+    "plural": "مَسَافَاتٌ",
+    "gender": "f",
+    "example": {
+      "ar": "الْمَسَافَةُ بَيْنَ الْبَيْتِ وَالْمَدْرَسَةِ طَوِيلَةٌ.",
+      "fr": "La distance entre la maison et l'école est longue."
+    }
+  },
+  {
+    "id": "w:daiman",
+    "kind": "word",
+    "ar": "دَائِمًا",
+    "fr": "toujours",
+    "translit": "dāʾiman",
+    "note": "Le tanwin à la fatha en fait un adverbe, comme {ar|غَدًا} et {ar|جِدًّا}. La hamza s'écrit sur un {ar|ي} (elle porte une kasra).",
+    "example": { "ar": "هُوَ فِي الْمَسْجِدِ دَائِمًا.", "fr": "Il est toujours à la mosquée." }
+  },
+  {
+    "id": "w:ahyanan",
+    "kind": "word",
+    "ar": "أَحْيَانًا",
+    "fr": "parfois, de temps en temps",
+    "translit": "aḥyānan",
+    "note": "Un adverbe, avec le tanwin à la fatha. C'est le pluriel de {ar|حِينٌ} (« un moment »), employé comme adverbe.",
+    "example": { "ar": "أَنَا فِي الْبَيْتِ أَحْيَانًا.", "fr": "Je suis parfois à la maison." }
+  },
+  {
+    "id": "w:mutaakhkhiran",
+    "kind": "word",
+    "ar": "مُتَأَخِّرًا",
+    "fr": "en retard, tard",
+    "translit": "mutaʾakhkhiran",
+    "note": "C'est le contraire de {ar|مُبَكِّرًا}. Il décrit la personne : au féminin, il prend un {ar|ة} : {ar|مُتَأَخِّرَةً} (de même, {ar|مُبَكِّرَةً}).",
+    "example": { "ar": "جَاءَ زَيْدٌ مُتَأَخِّرًا.", "fr": "Zayd est arrivé en retard." }
+  },
+  {
+    "id": "w:marra",
+    "kind": "word",
+    "ar": "مَرَّةٌ",
+    "fr": "une fois",
+    "translit": "marratun",
+    "plural": "مَرَّاتٌ",
+    "gender": "f",
+    "note": "Avec le tanwin à la fatha, c'est un adverbe : {ar|مَرَّةً} (« une fois »).",
+    "example": { "ar": "جَاءَ زَيْدٌ مَرَّةً.", "fr": "Zayd est venu une fois." }
+  },
+  {
+    "id": "w:ukhra",
+    "kind": "word",
+    "ar": "أُخْرَى",
+    "fr": "une autre, autre",
+    "translit": "ukhrā",
+    "plural": "أُخَرُ",
+    "note": "C'est le féminin de {ar|آخَرُ} (« un autre »). {ar|مَرَّةً أُخْرَى} veut dire « une autre fois, de nouveau ». Le professeur donne le pluriel {ar|أُخْرَيَاتٌ} ; {ar|أُخَرُ} existe aussi.",
+    "example": { "ar": "جَاءَ زَيْدٌ مَرَّةً أُخْرَى.", "fr": "Zayd est encore venu." }
+  },
+  {
+    "id": "w:illa",
+    "kind": "word",
+    "ar": "إِلَّا",
+    "fr": "sauf, excepté, moins",
+    "translit": "illā",
+    "note": "La shadda la distingue de {ar|إِلَى} (« vers »). Dans une phrase affirmative comme celle-ci, le mot qui la suit est à l'accusatif : {ar|جَاءَ الطُّلَّابُ إِلَّا زَيْدًا}. Pour l'heure, elle veut dire « moins » : {ar|التَّاسِعَةُ إِلَّا رُبْعًا} (« neuf heures moins le quart »).",
+    "example": { "ar": "جَاءَ الطُّلَّابُ إِلَّا زَيْدًا.", "fr": "Les étudiants sont venus, sauf Zayd." }
+  },
+  {
+    "id": "w:asr",
+    "kind": "word",
+    "ar": "عَصْرٌ",
+    "fr": "l'après-midi (la fin de l'après-midi)",
+    "translit": "ʿaṣrun",
+    "gender": "m",
+    "note": "{ar|صَلَاةُ الْعَصْرِ} est la prière de l'après-midi, la troisième des cinq prières du jour. Le mot veut aussi dire « une époque ».",
+    "example": {
+      "ar": "صَلَاةُ الْعَصْرِ بَعْدَ صَلَاةِ الظُّهْرِ.",
+      "fr": "La prière de l'après-midi vient après la prière de midi."
+    }
+  },
+  {
+    "id": "w:khabar-2",
+    "kind": "word",
+    "ar": "خَبَرٌ",
+    "fr": "une nouvelle, une information",
+    "translit": "khabarun",
+    "plural": "أَخْبَارٌ",
+    "gender": "m",
+    "note": "C'est le même mot que {ar|الْخَبَرُ}, « le prédicat » de la grammaire : le prédicat est « l'information » qu'on donne sur le sujet.",
+    "example": { "ar": "سَمِعَ زَيْدٌ خَبَرًا مِنَ الْإِذَاعَةِ.", "fr": "Zayd a entendu une nouvelle à la radio." }
+  }
+]

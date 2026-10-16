@@ -1,0 +1,63 @@
+{
+  "id": "medine-t2.l10.vocab-4",
+  "type": "vocabulary",
+  "title": "Mètres et centimètres",
+  "icon": "road",
+  "screens": [
+    { "id": "medine-t2.l10.vocab-4#1", "type": "present", "item": "w:mitr" },
+    { "id": "medine-t2.l10.vocab-4#2", "type": "present", "item": "w:kilumitr" },
+    { "id": "medine-t2.l10.vocab-4#3", "type": "present", "item": "w:santimitr" },
+    {
+      "id": "medine-t2.l10.vocab-4#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kilumitr",
+      "distractors": ["w:mitr", "w:santimitr"],
+      "explain": "{ar|كِيلُومِتْرٌ} : un kilomètre. {ar|مِتْرٌ} : un mètre ; {ar|سَنْتِيمِتْرٌ} : un centimètre."
+    },
+    {
+      "id": "medine-t2.l10.vocab-4#5",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:santimitr",
+      "distractors": ["w:mitr", "w:kilumitr"],
+      "explain": "« Un centimètre » : {ar|سَنْتِيمِتْرٌ}."
+    },
+    {
+      "id": "medine-t2.l10.vocab-4#6",
+      "type": "fill_gap",
+      "sentence": "طُولُ الْمَلْعَبِ ثَلَاثُونَ {0}.",
+      "fr": "La longueur du terrain est de trente mètres.",
+      "gaps": [ { "answers": ["مِتْرًا"] } ],
+      "options": ["مِتْرًا", "كِيلُومِتْرًا", "سَنْتِيمِتْرًا"],
+      "explain": "Le français dit « mètres » : {ar|مِتْرًا}. Le dénombré est au singulier et à l'accusatif : {ar|ثَلَاثُونَ مِتْرًا}."
+    },
+    {
+      "id": "medine-t2.l10.vocab-4#7",
+      "type": "fill_gap",
+      "sentence": "الْمَسَافَةُ بَيْنَ الْمَدِينَةِ وَالْمَطَارِ ثَلَاثُونَ {0}.",
+      "fr": "La distance entre la ville et l'aéroport est de trente kilomètres.",
+      "gaps": [ { "answers": ["كِيلُومِتْرًا"] } ],
+      "options": ["كِيلُومِتْرًا", "سَنْتِيمِتْرًا", "مِتْرًا"],
+      "explain": "Le français dit « kilomètres » : {ar|كِيلُومِتْرًا}."
+    },
+    {
+      "id": "medine-t2.l10.vocab-4#8",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mitr",
+      "distractors": ["w:kilumitr", "w:santimitr"],
+      "explain": "{ar|مِتْرٌ} : un mètre. {ar|كِيلُومِتْرٌ} : un kilomètre ; {ar|سَنْتِيمِتْرٌ} : un centimètre."
+    },
+    {
+      "id": "medine-t2.l10.vocab-4#9",
+      "type": "fill_gap",
+      "sentence": "عَرْضُ الْبَيْتِ تِسْعَةُ {0}.",
+      "fr": "La largeur de la maison est de neuf mètres.",
+      "gaps": [ { "answers": ["أَمْتَارٍ"] } ],
+      "options": ["أَمْتَارٍ", "مِتْرٍ"],
+      "explain": "De 3 à 10, le dénombré est au pluriel, au génitif : {ar|تِسْعَةُ أَمْتَارٍ}. {ar|مِتْرٌ} est masculin, donc « neuf » prend la forme avec {ar|ة}."
+    },
+    { "id": "medine-t2.l10.vocab-4#10", "type": "typing", "ask": "fr", "fr": "un mètre", "answers": ["مِتْرٌ"] }
+  ]
+}

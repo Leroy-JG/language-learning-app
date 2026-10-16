@@ -1,0 +1,132 @@
+{
+  "id": "medine-t2.l10.grammar-6",
+  "type": "grammar",
+  "title": "Premier, deuxième, troisième…",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t2.l10.grammar-6#1", "type": "present", "item": "w:adad-tartibi" },
+    {
+      "id": "medine-t2.l10.grammar-6#2",
+      "type": "tip",
+      "title": "Les nombres ordinaux se comportent comme des adjectifs",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le nombre ordinal dit le **rang** d'un élément. Il est variable ({ar|مُعْرَبٌ}) et s'emploie en général comme un adjectif : il suit le nom, s'accorde avec lui en genre et en défini / indéfini ({ar|الدَّرْسُ الثَّالِثُ} : « le troisième cours » ; {ar|دَرْسٌ ثَالِثٌ} : « un troisième cours ») et a le même cas que lui (le nom qualifié, {ar|الْمَنْعُوتُ})."
+        },
+        {
+          "type": "compare",
+          "title": "Il suit le cas du nom",
+          "rows": [
+            {
+              "from": { "ar": "الدَّرْسُ الثَّالِثُ", "fr": "le troisième cours" },
+              "to": { "ar": "فِي الدَّرْسِ الثَّالِثِ", "fr": "dans le troisième cours" },
+              "label": "nominatif → génitif : l'ordinal suit le cas du nom"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ne confonds pas le nombre ordinal et le nombre cardinal : l'ordinal **s'accorde** ({ar|الدَّرْسُ الثَّالِثُ}, {ar|السَّنَةُ الثَّالِثَةُ}), alors que le nombre cardinal de 3 à 10 **contredit** ({ar|ثَلَاثَةُ دُرُوسٍ}, {ar|ثَلَاثُ سَنَوَاتٍ})."
+        }
+      ]
+    },
+    { "id": "medine-t2.l10.grammar-6#3", "type": "present", "item": "w:thani" },
+    { "id": "medine-t2.l10.grammar-6#4", "type": "present", "item": "w:thalith" },
+    {
+      "id": "medine-t2.l10.grammar-6#5",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:thalith",
+      "distractors": ["w:thani", "w:awwal"],
+      "explain": "{ar|ثَالِثٌ} : troisième. {ar|ثَانٍ} : deuxième ; {ar|أَوَّلُ} : premier."
+    },
+    { "id": "medine-t2.l10.grammar-6#6", "type": "present", "item": "w:rabi" },
+    { "id": "medine-t2.l10.grammar-6#7", "type": "present", "item": "w:khamis-2" },
+    {
+      "id": "medine-t2.l10.grammar-6#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:thani", "w:thalith", "w:rabi", "w:khamis-2", "w:awwal"]
+    },
+    {
+      "id": "medine-t2.l10.grammar-6#9",
+      "type": "tip",
+      "title": "Le féminin des nombres ordinaux",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au féminin, l'ordinal prend {ar|ة}, comme la plupart des adjectifs. Une exception : « premier », dont le féminin est {ar|أُولَى}, sans {ar|ة}."
+        },
+        {
+          "type": "compare",
+          "title": "Du masculin au féminin",
+          "rows": [
+            {
+              "from": { "ar": "الدَّرْسُ الثَّالِثُ", "fr": "le troisième cours (masculin)" },
+              "to": { "ar": "السَّاعَةُ الثَّالِثَةُ", "fr": "la troisième heure (féminin)" }
+            },
+            {
+              "from": { "ar": "الدَّرْسُ الثَّانِي", "fr": "le deuxième cours (masculin)" },
+              "to": { "ar": "الصَّفْحَةُ الثَّانِيَةُ", "fr": "la deuxième page (féminin)" },
+              "label": "le {ar|ي} de {ar|ثَانٍ} réapparaît devant le {ar|ة}"
+            },
+            {
+              "from": { "ar": "الدَّرْسُ الْأَوَّلُ", "fr": "le premier cours (masculin)" },
+              "to": { "ar": "الصَّفْحَةُ الْأُولَى", "fr": "la première page (féminin)" },
+              "label": "« premier » est irrégulier : {ar|أُولَى}, sans {ar|ة}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l10.grammar-6#10",
+      "type": "sort",
+      "categories": [ { "fr": "avec un nom masculin" }, { "fr": "avec un nom féminin" } ],
+      "cards": [
+        { "ar": "الْبَيْتُ الرَّابِعُ", "category": 0 },
+        { "ar": "الْغُرْفَةُ الْخَامِسَةُ", "category": 1 },
+        { "ar": "الدَّرْسُ الثَّانِي", "category": 0 },
+        { "ar": "السَّنَةُ الرَّابِعَةُ", "category": 1 },
+        { "ar": "الصَّفْحَةُ الْأُولَى", "category": 1 },
+        { "ar": "الدَّرْسُ الْأَوَّلُ", "category": 0 }
+      ],
+      "instruction": "Avec quel genre de nom se dit chaque groupe ?",
+      "explain": "L'ordinal s'accorde avec le nom : avec {ar|ة} (ou {ar|أُولَى}), le nom est féminin ; sans {ar|ة}, il est masculin."
+    },
+    {
+      "id": "medine-t2.l10.grammar-6#11",
+      "type": "fill_gap",
+      "sentence": "الْغُرْفَةُ {0}.",
+      "fr": "La cinquième pièce.",
+      "gaps": [ { "answers": ["الْخَامِسَةُ"] } ],
+      "options": ["الْخَامِسَةُ", "الْخَامِسُ"],
+      "explain": "{ar|غُرْفَةٌ} est féminin : l'ordinal prend {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l10.grammar-6#12",
+      "type": "fill_gap",
+      "sentence": "الصَّفْحَةُ {0}.",
+      "fr": "La première page.",
+      "gaps": [ { "answers": ["الْأُولَى"] } ],
+      "options": ["الْأُولَى", "الْأَوَّلُ"],
+      "explain": "{ar|صَفْحَةٌ} est féminin : le féminin de « premier » est {ar|أُولَى}."
+    },
+    {
+      "id": "medine-t2.l10.grammar-6#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le troisième cours.",
+      "answers": ["الدَّرْسُ الثَّالِثُ."]
+    },
+    {
+      "id": "medine-t2.l10.grammar-6#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "La deuxième page.",
+      "answers": ["الصَّفْحَةُ الثَّانِيَةُ."]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "medine-t2.l10.vocab-2",
+  "type": "vocabulary",
+  "title": "L'usine",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t2.l10.vocab-2#1", "type": "present", "item": "w:masna" },
+    { "id": "medine-t2.l10.vocab-2#2", "type": "present", "item": "w:amil" },
+    {
+      "id": "medine-t2.l10.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:masna",
+      "distractors": ["w:madrasa", "w:maktab"],
+      "explain": "{ar|مَصْنَعٌ} : une usine. {ar|مَدْرَسَةٌ} : une école ; {ar|مَكْتَبٌ} : un bureau."
+    },
+    { "id": "medine-t2.l10.vocab-2#4", "type": "build", "item": "w:masna" },
+    {
+      "id": "medine-t2.l10.vocab-2#5",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:masna", "w:amil", "w:muhandis"]
+    },
+    {
+      "id": "medine-t2.l10.vocab-2#6",
+      "type": "fill_gap",
+      "sentence": "هٰذَا مَصْنَعُ {0}.",
+      "fr": "Ceci est une usine de voitures.",
+      "gaps": [ { "answers": ["سَيَّارَاتٍ"] } ],
+      "options": ["سَيَّارَاتٍ", "كُتُبٍ"],
+      "explain": "Une usine de voitures : {ar|مَصْنَعُ سَيَّارَاتٍ} (annexion)."
+    },
+    {
+      "id": "medine-t2.l10.vocab-2#7",
+      "type": "question",
+      "prompt": { "fr": "Qui travaille dans une usine ?" },
+      "choices": [ { "ar": "عَامِلٌ" }, { "ar": "رَاكِبٌ" }, { "ar": "جَارٌ" } ],
+      "answer": 0,
+      "explain": "{ar|عَامِلٌ} : un ouvrier. {ar|رَاكِبٌ} : un passager ; {ar|جَارٌ} : un voisin."
+    },
+    {
+      "id": "medine-t2.l10.vocab-2#8",
+      "type": "order",
+      "fr": "Voici l'ouvrier de la société.",
+      "answers": [["هٰذَا", "عَامِلُ", "الشَّرِكَةِ"]],
+      "punctuation": "."
+    },
+    { "id": "medine-t2.l10.vocab-2#9", "type": "typing", "ask": "fr", "fr": "une usine", "answers": ["مَصْنَعٌ"] }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "medine-t2.l10.vocab-3",
+  "type": "vocabulary",
+  "title": "Longueur, largeur, distance",
+  "icon": "road",
+  "screens": [
+    { "id": "medine-t2.l10.vocab-3#1", "type": "present", "item": "w:tul" },
+    { "id": "medine-t2.l10.vocab-3#2", "type": "present", "item": "w:ard-2" },
+    { "id": "medine-t2.l10.vocab-3#3", "type": "present", "item": "w:masafa" },
+    {
+      "id": "medine-t2.l10.vocab-3#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ard-2",
+      "distractors": ["w:tul", "w:masafa"],
+      "explain": "{ar|عَرْضٌ} : une largeur. {ar|طُولٌ} : une longueur ; {ar|مَسَافَةٌ} : une distance."
+    },
+    {
+      "id": "medine-t2.l10.vocab-3#5",
+      "type": "sort",
+      "categories": [ { "fr": "une dimension (une mesure)" }, { "fr": "un lieu" } ],
+      "cards": [
+        { "item": "w:tul", "category": 0 },
+        { "item": "w:ard-2", "category": 0 },
+        { "item": "w:masafa", "category": 0 },
+        { "item": "w:masna", "category": 1 },
+        { "item": "w:madrasa", "category": 1 }
+      ],
+      "instruction": "Le mot désigne-t-il une dimension ou un lieu ?",
+      "explain": "Une longueur, une largeur et une distance sont des mesures. Une usine et une école sont des lieux."
+    },
+    { "id": "medine-t2.l10.vocab-3#6", "type": "build", "item": "w:masafa" },
+    {
+      "id": "medine-t2.l10.vocab-3#7",
+      "type": "fill_gap",
+      "sentence": "{0} بَيْنَ الْبَيْتِ وَالْمَدْرَسَةِ طَوِيلَةٌ.",
+      "fr": "La distance entre la maison et l'école est longue.",
+      "gaps": [ { "answers": ["الْمَسَافَةُ"] } ],
+      "options": ["الْمَسَافَةُ", "الطُّولُ", "الْعَرْضُ"],
+      "explain": "« Entre la maison et l'école » : {ar|الْمَسَافَةُ}. Le prédicat {ar|طَوِيلَةٌ} est féminin, comme {ar|مَسَافَةٌ} ; {ar|طُولٌ} et {ar|عَرْضٌ} sont masculins."
+    },
+    {
+      "id": "medine-t2.l10.vocab-3#8",
+      "type": "order",
+      "fr": "Quelle est la largeur de cette maison ?",
+      "answers": [["مَا", "عَرْضُ", "هٰذَا", "الْبَيْتِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l10.vocab-3#9",
+      "type": "order",
+      "fr": "Quelle est la longueur de cette maison ?",
+      "answers": [["مَا", "طُولُ", "هٰذَا", "الْبَيْتِ"]],
+      "punctuation": "؟"
+    },
+    {
+      "id": "medine-t2.l10.vocab-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "une distance",
+      "answers": ["مَسَافَةٌ"]
+    }
+  ]
+}

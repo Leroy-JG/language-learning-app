@@ -1,0 +1,22 @@
+{
+  "id": "medine-t2.l10",
+  "number": 10,
+  "title": { "ar": "الدَّرْسُ الْعَاشِرُ", "fr": "Les nombres de 20 à 99 ; les nombres ordinaux" },
+  "description": "Les dizaines ({ar|عِشْرُونَ} à {ar|تِسْعُونَ}), les nombres de 21 à 99 et l'accord du nombre avec le dénombré, les nombres ordinaux ({ar|الثَّانِي}, {ar|الثَّالِثُ}…), l'heure, le vocabulaire (l'usine, les mesures, {ar|دَائِمًا}, {ar|أَحْيَانًا}), le texte du livre et ses exercices.",
+  "source": "Tome de Médine 2, leçon 10",
+  "sections": [
+    { "title": "Revoir : compter jusqu'à mille", "activities": ["revue-1"] },
+    { "title": "Faire, travailler, acheter", "activities": ["vocab-1"] },
+    { "title": "Les dizaines : de vingt à quatre-vingt-dix", "activities": ["grammar-1", "grammar-2"] },
+    { "title": "De vingt et un à quatre-vingt-dix-neuf", "activities": ["grammar-3", "grammar-4", "grammar-5"] },
+    { "title": "L'usine et les mesures", "activities": ["vocab-2", "vocab-3", "vocab-4"] },
+    { "title": "Les nombres ordinaux", "activities": ["grammar-6", "grammar-7"] },
+    { "title": "Toujours, parfois, sauf", "activities": ["vocab-5", "vocab-6"] },
+    { "title": "Quelle heure est-il ?", "activities": ["grammar-8"] },
+    {
+      "title": "Le texte du livre et ses exercices",
+      "activities": ["dialogue-1", "practice-1", "practice-2", "practice-3", "practice-4", "practice-5"]
+    },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

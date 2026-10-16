@@ -1,0 +1,205 @@
+{
+  "id": "medine-t2.l10.dialogue-1",
+  "type": "dialogue",
+  "title": "Zakariyyā cherche Ḥāmid",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l10.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Zakariyyā cherche Ḥāmid",
+      "intro": "Zakariyyā rend visite à Ḥāmid, mais celui-ci est sorti. Il interroge Mūsā, le fils de Ḥāmid, sur les habitudes de son père : le marché, l'usine, l'heure du retour.",
+      "speakers": {
+        "R": { "name": "Le récit", "voice": "f1" },
+        "Z": { "name": "Zakariyyā", "voice": "m1" },
+        "M": { "name": "Mūsā", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "R",
+          "ar": "ذَهَبَ زَكَرِيَّا لِزِيَارَةِ حَامِدٍ بَعْدَ صَلَاةِ الْفَجْرِ، وَلَكِنَّهُ مَا وَجَدَهُ فِي الْبَيْتِ، فَقَالَ لِابْنِهِ مُوسَى:",
+          "fr": "Zakariyyā est allé rendre visite à Ḥāmid après la prière de l'aube, mais il ne l'a pas trouvé à la maison. Il a dit à Mūsā, le fils de Ḥāmid :"
+        },
+        { "speaker": "Z", "ar": "أَيْنَ أَبُوكَ؟", "fr": "Où est ton père ?" },
+        { "speaker": "M", "ar": "ذَهَبَ إِلَى السُّوقِ.", "fr": "Il est allé au marché." },
+        {
+          "speaker": "Z",
+          "ar": "أَيَذْهَبُ إِلَى السُّوقِ كُلَّ يَوْمٍ؟",
+          "fr": "Va-t-il au marché tous les jours ?"
+        },
+        {
+          "speaker": "M",
+          "ar": "نَعَمْ، يَذْهَبُ دَائِمًا إِلَى السُّوقِ بَعْدَ صَلَاةِ الْفَجْرِ.",
+          "fr": "Oui, il va toujours au marché après la prière de l'aube."
+        },
+        { "speaker": "Z", "ar": "مَتَى يَرْجِعُ مِنَ السُّوقِ؟", "fr": "Quand revient-il du marché ?" },
+        {
+          "speaker": "M",
+          "ar": "يَرْجِعُ فِي السَّاعَةِ السَّابِعَةِ، وَأَحْيَانًا فِي السَّاعَةِ الثَّامِنَةِ.",
+          "fr": "Il revient à sept heures, et parfois à huit heures."
+        },
+        { "speaker": "Z", "ar": "مَاذَا يَفْعَلُ فِي الْبَيْتِ؟", "fr": "Que fait-il à la maison ?" },
+        {
+          "speaker": "M",
+          "ar": "يَقْرَأُ الصُّحُفَ وَيَسْمَعُ الْأَخْبَارَ مِنَ الْإِذَاعَةِ.",
+          "fr": "Il lit les journaux et écoute les nouvelles à la radio."
+        },
+        { "speaker": "Z", "ar": "مَتَى يَذْهَبُ إِلَى الْمَصْنَعِ؟", "fr": "Quand va-t-il à l'usine ?" },
+        {
+          "speaker": "M",
+          "ar": "يَذْهَبُ فِي السَّاعَةِ التَّاسِعَةِ وَالنِّصْفِ.",
+          "fr": "Il y va à neuf heures et demie."
+        },
+        { "speaker": "Z", "ar": "وَمَتَى يَرْجِعُ مِنْ هُنَاكَ؟", "fr": "Et quand en revient-il ?" },
+        {
+          "speaker": "M",
+          "ar": "يَرْجِعُ فِي السَّاعَةِ الْوَاحِدَةِ وَالنِّصْفِ أَوِ الثَّانِيَةِ.",
+          "fr": "Il revient à une heure et demie ou à deux heures."
+        },
+        {
+          "speaker": "Z",
+          "ar": "أَيَذْهَبُ إِلَى الْمَصْنَعِ مَرَّةً أُخْرَى بَعْدَ الظُّهْرِ؟",
+          "fr": "Retourne-t-il à l'usine après midi ?"
+        },
+        {
+          "speaker": "M",
+          "ar": "لَا، لَا يَذْهَبُ بَعْدَ الظُّهْرِ. يَجْلِسُ هُنَا فِي مَكْتَبِهِ بَعْدَ صَلَاةِ الْعَصْرِ.",
+          "fr": "Non, il n'y va pas après midi. Il s'assoit ici, dans son bureau, après la prière de l'après-midi."
+        },
+        {
+          "speaker": "Z",
+          "ar": "كَمْ عَامِلًا يَعْمَلُ فِي مَصْنَعِكُمْ؟",
+          "fr": "Combien d'ouvriers travaillent dans votre usine ?"
+        },
+        {
+          "speaker": "M",
+          "ar": "مَصْنَعُنَا لَيْسَ بِكَبِيرٍ. يَعْمَلُ فِيهِ مِائَةٌ وَخَمْسَةٌ وَعِشْرُونَ عَامِلًا وَمُهَنْدِسَانِ.",
+          "fr": "Notre usine n'est pas grande. Il y travaille cent vingt-cinq ouvriers et deux ingénieurs."
+        },
+        {
+          "speaker": "Z",
+          "ar": "السَّاعَةُ الْآنَ التَّاسِعَةُ إِلَّا رُبْعًا، وَمَا رَجَعَ أَبُوكَ.",
+          "fr": "Il est maintenant neuf heures moins le quart, et ton père n'est pas revenu."
+        },
+        {
+          "speaker": "M",
+          "ar": "لَعَلَّهُ يَرْجِعُ الْيَوْمَ مُتَأَخِّرًا.",
+          "fr": "Peut-être revient-il tard aujourd'hui."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l10.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ce texte parle surtout au **présent**. Tu vas l'étudier dans une leçon à venir : ici, repère simplement le sens. Tu n'as à les comprendre que dans les questions du texte, jamais à les écrire."
+        },
+        {
+          "type": "table",
+          "header": ["Forme", "Sens"],
+          "rows": [
+            ["{ar|يَذْهَبُ}", "il va (le présent de {ar|ذَهَبَ})"],
+            ["{ar|يَرْجِعُ}", "il revient (le présent de {ar|رَجَعَ})"],
+            [
+              "{ar|يَفْعَلُ}, {ar|يَقْرَأُ}, {ar|يَسْمَعُ}, {ar|يَجْلِسُ}, {ar|يَعْمَلُ}",
+              "il fait, il lit, il entend (il écoute), il s'assoit, il travaille (le présent de {ar|فَعَلَ}, {ar|قَرَأَ}, {ar|سَمِعَ}, {ar|جَلَسَ}, {ar|عَمِلَ})"
+            ],
+            ["{ar|لَا يَذْهَبُ}", "il ne va pas ({ar|لَا} devant le présent)"],
+            [
+              "{ar|كُلَّ يَوْمٍ}",
+              "chaque jour, tous les jours ({ar|كُلٌّ} + un nom indéfini ; à l'accusatif, car c'est un complément de temps)"
+            ],
+            ["{ar|الصُّحُفُ}", "les journaux (le pluriel de {ar|صَحِيفَةٌ})"],
+            [
+              "{ar|لَيْسَ بِكَبِيرٍ}",
+              "n'est pas grand (la {ar|بِ} devant le prédicat de {ar|لَيْسَ} est facultative, chapitre 2 de ce tome)"
+            ],
+            [
+              "{ar|مِائَةٌ وَخَمْسَةٌ وَعِشْرُونَ عَامِلًا}",
+              "125 ouvriers : cent, puis cinq, puis vingt ; le dénombré se règle sur le dernier groupe de nombres (ici 25 : singulier, accusatif) ; {ar|مِائَةٌ} n'a pas d'effet sur lui"
+            ],
+            ["{ar|وَمُهَنْدِسَانِ}", "et deux ingénieurs ({ar|مُهَنْدِسَانِ} est le duel de {ar|مُهَنْدِسٌ})"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|فِي السَّاعَةِ السَّابِعَةِ} : à sept heures. {ar|أَوِ الثَّانِيَةِ} : « ou à deux heures » ; le {ar|و} de {ar|أَوْ} prend une kasra devant l'article."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l10.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi Zakariyyā demande-t-il où est Ḥāmid ?" },
+      "choices": [
+        { "fr": "Parce qu'il ne l'a pas trouvé à la maison" },
+        { "fr": "Parce qu'il est en retard" },
+        { "fr": "Parce qu'il veut aller au marché" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l10.dialogue-1#1" },
+      "explain": "{ar|مَا وَجَدَهُ فِي الْبَيْتِ} : il ne l'a pas trouvé à la maison."
+    },
+    {
+      "id": "medine-t2.l10.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "À quelle heure Ḥāmid va-t-il à l'usine ?" },
+      "choices": [ { "fr": "à neuf heures et demie" }, { "fr": "à sept heures" }, { "fr": "à huit heures" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l10.dialogue-1#1" },
+      "explain": "{ar|يَذْهَبُ فِي السَّاعَةِ التَّاسِعَةِ وَالنِّصْفِ} : il y va à neuf heures et demie."
+    },
+    {
+      "id": "medine-t2.l10.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Ḥāmid retourne à l'usine après midi." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l10.dialogue-1#1" },
+      "explain": "Faux : {ar|لَا يَذْهَبُ بَعْدَ الظُّهْرِ}. Il reste ici, dans son bureau, après la prière de l'après-midi."
+    },
+    {
+      "id": "medine-t2.l10.dialogue-1#6",
+      "type": "question",
+      "prompt": { "fr": "Combien d'ouvriers travaillent dans l'usine ?" },
+      "choices": [ { "fr": "125" }, { "fr": "25" }, { "fr": "150" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l10.dialogue-1#1" },
+      "explain": "{ar|مِائَةٌ وَخَمْسَةٌ وَعِشْرُونَ عَامِلًا} : cent vingt-cinq ouvriers (et deux ingénieurs)."
+    },
+    {
+      "id": "medine-t2.l10.dialogue-1#7",
+      "type": "fill_gap",
+      "sentence": "السَّاعَةُ الْآنَ {0} إِلَّا رُبْعًا.",
+      "fr": "Il est maintenant neuf heures moins le quart.",
+      "gaps": [ { "answers": ["التَّاسِعَةُ"] } ],
+      "options": ["التَّاسِعَةُ", "الثَّامِنَةُ", "السَّابِعَةُ"],
+      "context": { "dialogue": "medine-t2.l10.dialogue-1#1" },
+      "explain": "Zakariyyā dit : {ar|السَّاعَةُ الْآنَ التَّاسِعَةُ إِلَّا رُبْعًا}."
+    },
+    {
+      "id": "medine-t2.l10.dialogue-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "à sept heures",
+      "answers": ["فِي السَّاعَةِ السَّابِعَةِ"],
+      "explain": "{ar|فِي} + l'heure au génitif : {ar|فِي السَّاعَةِ السَّابِعَةِ}."
+    },
+    {
+      "id": "medine-t2.l10.dialogue-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Notre usine n'est pas grande.",
+      "answers": [
+        "مَصْنَعُنَا لَيْسَ بِكَبِيرٍ.",
+        "مَصْنَعُنَا لَيْسَ كَبِيرًا.",
+        "لَيْسَ مَصْنَعُنَا بِكَبِيرٍ.",
+        "لَيْسَ مَصْنَعُنَا كَبِيرًا."
+      ],
+      "explain": "Le professeur écrit {ar|لَيْسَ بِكَبِيرٍ} ; sans {ar|بِ}, le prédicat de {ar|لَيْسَ} est à l'accusatif : {ar|لَيْسَ كَبِيرًا}."
+    }
+  ]
+}

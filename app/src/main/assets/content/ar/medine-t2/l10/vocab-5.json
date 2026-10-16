@@ -1,0 +1,84 @@
+{
+  "id": "medine-t2.l10.vocab-5",
+  "type": "vocabulary",
+  "title": "Toujours, parfois, en retard",
+  "icon": "question",
+  "screens": [
+    { "id": "medine-t2.l10.vocab-5#1", "type": "present", "item": "w:daiman" },
+    { "id": "medine-t2.l10.vocab-5#2", "type": "present", "item": "w:ahyanan" },
+    {
+      "id": "medine-t2.l10.vocab-5#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:daiman",
+      "distractors": ["w:ahyanan", "w:ghadan"],
+      "explain": "{ar|دَائِمًا} : toujours. {ar|أَحْيَانًا} : parfois ; {ar|غَدًا} : demain."
+    },
+    { "id": "medine-t2.l10.vocab-5#4", "type": "present", "item": "w:mutaakhkhiran" },
+    {
+      "id": "medine-t2.l10.vocab-5#5",
+      "type": "tip",
+      "title": "Tôt ou tard ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|مُبَكِّرًا} (« tôt »). Son contraire est {ar|مُتَأَخِّرًا}. Ces mots décrivent la personne : ils s'accordent avec elle en genre."
+        },
+        {
+          "type": "compare",
+          "title": "Du masculin au féminin",
+          "rows": [
+            {
+              "from": { "ar": "مُبَكِّرًا", "fr": "tôt, de bonne heure (pour un homme)" },
+              "to": { "ar": "مُبَكِّرَةً", "fr": "tôt, de bonne heure (pour une femme)" }
+            },
+            {
+              "from": { "ar": "مُتَأَخِّرًا", "fr": "en retard (pour un homme)" },
+              "to": { "ar": "مُتَأَخِّرَةً", "fr": "en retard (pour une femme)" }
+            }
+          ]
+        },
+        {
+          "type": "example",
+          "ar": "ذَهَبَتْ لَيْلَى إِلَى الْجَامِعَةِ مُتَأَخِّرَةً.",
+          "fr": "Laylā est allée en retard à l'université."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l10.vocab-5#6",
+      "type": "fill_gap",
+      "sentence": "جَاءَ زَيْدٌ {0}.",
+      "fr": "Zayd est arrivé en retard.",
+      "gaps": [ { "answers": ["مُتَأَخِّرًا"] } ],
+      "options": ["مُتَأَخِّرًا", "مُبَكِّرًا"],
+      "explain": "« En retard » : {ar|مُتَأَخِّرًا}. {ar|مُبَكِّرًا} veut dire « tôt »."
+    },
+    { "id": "medine-t2.l10.vocab-5#7", "type": "present", "item": "w:marra" },
+    { "id": "medine-t2.l10.vocab-5#8", "type": "present", "item": "w:ukhra" },
+    {
+      "id": "medine-t2.l10.vocab-5#9",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ukhra",
+      "distractors": ["w:marra", "w:ahyanan"],
+      "explain": "{ar|أُخْرَى} : une autre. {ar|مَرَّةٌ} : une fois ; {ar|أَحْيَانًا} : parfois."
+    },
+    {
+      "id": "medine-t2.l10.vocab-5#10",
+      "type": "fill_gap",
+      "sentence": "هُوَ فِي الْمَسْجِدِ {0}.",
+      "fr": "Il est toujours à la mosquée.",
+      "gaps": [ { "answers": ["دَائِمًا"] } ],
+      "options": ["دَائِمًا", "أَحْيَانًا", "غَدًا"],
+      "explain": "« Toujours » : {ar|دَائِمًا}."
+    },
+    {
+      "id": "medine-t2.l10.vocab-5#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "une autre fois",
+      "answers": ["مَرَّةً أُخْرَى"]
+    }
+  ]
+}

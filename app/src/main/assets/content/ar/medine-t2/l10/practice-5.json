@@ -1,0 +1,127 @@
+{
+  "id": "medine-t2.l10.practice-5",
+  "type": "grammar",
+  "title": "Les nombres ordinaux : exercices 10 et 11",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l10.practice-5#1",
+      "type": "tip",
+      "title": "Lis : de « premier » à « dixième » (exercice 10)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lis à voix haute les dix premiers ordinaux, avec {ar|الدَّرْسُ} (« le cours »)."
+        },
+        {
+          "type": "table",
+          "header": ["N°", "En arabe"],
+          "rows": [
+            ["1", "{ar|الدَّرْسُ الْأَوَّلُ}"],
+            ["2", "{ar|الدَّرْسُ الثَّانِي}"],
+            ["3", "{ar|الدَّرْسُ الثَّالِثُ}"],
+            ["4", "{ar|الدَّرْسُ الرَّابِعُ}"],
+            ["5", "{ar|الدَّرْسُ الْخَامِسُ}"],
+            ["6", "{ar|الدَّرْسُ السَّادِسُ}"],
+            ["7", "{ar|الدَّرْسُ السَّابِعُ}"],
+            ["8", "{ar|الدَّرْسُ الثَّامِنُ}"],
+            ["9", "{ar|الدَّرْسُ التَّاسِعُ}"],
+            ["10", "{ar|الدَّرْسُ الْعَاشِرُ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le féminin de {ar|الْأَوَّلُ} est {ar|الْأُولَى} : {ar|الطَّالِبُ الْأَوَّلُ}, {ar|الطَّالِبَةُ الْأُولَى}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l10.practice-5#2",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:thani", "w:thalith", "w:rabi", "w:khamis-2", "w:sadis"]
+    },
+    {
+      "id": "medine-t2.l10.practice-5#3",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:sabi", "w:thamin", "w:tasi", "w:ashir", "w:awwal"]
+    },
+    {
+      "id": "medine-t2.l10.practice-5#4",
+      "type": "fill_gap",
+      "sentence": "الْجُزْءُ {0}.",
+      "fr": "La première partie.",
+      "gaps": [ { "answers": ["الْأَوَّلُ"] } ],
+      "options": ["الْأَوَّلُ", "الْأُولَى"],
+      "explain": "{ar|جُزْءٌ} est masculin en arabe, même si « partie » est féminin en français : {ar|الْأَوَّلُ}."
+    },
+    {
+      "id": "medine-t2.l10.practice-5#5",
+      "type": "fill_gap",
+      "sentence": "الطَّالِبَةُ {0}.",
+      "fr": "La sixième étudiante.",
+      "gaps": [ { "answers": ["السَّادِسَةُ"] } ],
+      "options": ["السَّادِسَةُ", "السَّادِسُ"],
+      "explain": "{ar|طَالِبَةٌ} est féminin : l'ordinal prend {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l10.practice-5#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Dans la quatrième année.",
+      "answers": ["فِي السَّنَةِ الرَّابِعَةِ."],
+      "explain": "{ar|سَنَةٌ} est féminin ; après {ar|فِي}, le nom et l'ordinal sont au génitif : {ar|فِي السَّنَةِ الرَّابِعَةِ}."
+    },
+    {
+      "id": "medine-t2.l10.practice-5#7",
+      "type": "fill_gap",
+      "sentence": "الْبَيْتُ {0}.",
+      "fr": "La septième maison.",
+      "gaps": [ { "answers": ["السَّابِعُ"] } ],
+      "options": ["السَّابِعُ", "السَّابِعَةُ"],
+      "explain": "{ar|بَيْتٌ} est masculin en arabe : l'ordinal est sans {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l10.practice-5#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "La neuvième page.",
+      "answers": ["الصَّفْحَةُ التَّاسِعَةُ."]
+    },
+    {
+      "id": "medine-t2.l10.practice-5#9",
+      "type": "fill_gap",
+      "sentence": "الْيَوْمُ {0}.",
+      "fr": "Le huitième jour.",
+      "gaps": [ { "answers": ["الثَّامِنُ"] } ],
+      "options": ["الثَّامِنُ", "الثَّامِنَةُ"],
+      "explain": "{ar|يَوْمٌ} est masculin : l'ordinal est sans {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l10.practice-5#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le troisième étudiant.",
+      "answers": ["الطَّالِبُ الثَّالِثُ."]
+    },
+    {
+      "id": "medine-t2.l10.practice-5#11",
+      "type": "fill_gap",
+      "sentence": "الدَّرْسُ {0}.",
+      "fr": "Le dixième cours.",
+      "gaps": [ { "answers": ["الْعَاشِرُ"] } ],
+      "options": ["الْعَاشِرُ", "الْعَاشِرَةُ"],
+      "explain": "{ar|دَرْسٌ} est masculin : l'ordinal est sans {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l10.practice-5#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "La deuxième partie.",
+      "answers": ["الْجُزْءُ الثَّانِي."],
+      "explain": "{ar|جُزْءٌ} est masculin : {ar|الثَّانِي}, sans {ar|ة}."
+    }
+  ]
+}

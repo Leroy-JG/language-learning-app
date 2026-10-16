@@ -1,0 +1,93 @@
+{
+  "id": "medine-t2.l10.revue-1",
+  "type": "review",
+  "title": "Compter jusqu'à mille : le rappel",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l10.revue-1#1",
+      "type": "tip",
+      "title": "Les nombres que tu connais",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Avant de passer aux nombres de **20 à 99**, voici ce que tu sais déjà (tome 1, chapitres 19 et 20, et chapitres 1 et 3 de ce tome)."
+        },
+        {
+          "type": "gallery",
+          "title": "Trois, dix, onze, cent, mille",
+          "items": ["w:n-3", "w:n-10", "w:n-11", "w:mi-a", "w:alf"]
+        },
+        {
+          "type": "table",
+          "header": ["Nombres", "Exemple", "Le dénombré est…"],
+          "rows": [
+            ["de 3 à 10", "{ar|ثَلَاثَةُ كُتُبٍ} (trois livres)", "au pluriel, au génitif"],
+            ["de 11 à 19", "{ar|ثَلَاثَةَ عَشَرَ كِتَابًا} (treize livres)", "au singulier, à l'accusatif"],
+            ["100 et 1000", "{ar|مِائَةُ كِتَابٍ} (cent livres)", "au singulier, au génitif"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "De 3 à 10, le nombre est de genre **contraire** à celui du dénombré : {ar|ثَلَاثَةُ كُتُبٍ} (livre est masculin), mais {ar|ثَلَاثُ بَنَاتٍ} (fille est féminin)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l10.revue-1#2",
+      "type": "sort",
+      "categories": [ { "fr": "pluriel, au génitif" }, { "fr": "singulier, à l'accusatif" }, { "fr": "singulier, au génitif" } ],
+      "cards": [
+        { "ar": "ثَلَاثَةُ أَقْلَامٍ", "category": 0 },
+        { "ar": "خَمْسُ بَنَاتٍ", "category": 0 },
+        { "ar": "أَحَدَ عَشَرَ طَالِبًا", "category": 1 },
+        { "ar": "سَبْعَ عَشْرَةَ سَيَّارَةً", "category": 1 },
+        { "ar": "مِائَةُ كِتَابٍ", "category": 2 },
+        { "ar": "أَلْفُ قَلَمٍ", "category": 2 }
+      ],
+      "instruction": "Range chaque groupe « nombre + dénombré » selon la forme du dénombré.",
+      "explain": "De 3 à 10 : pluriel au génitif. De 11 à 19 : singulier à l'accusatif. Avec cent et mille : singulier au génitif."
+    },
+    {
+      "id": "medine-t2.l10.revue-1#3",
+      "type": "fill_gap",
+      "sentence": "لِي {0} أَقْلَامٍ.",
+      "fr": "J'ai trois stylos.",
+      "gaps": [ { "answers": ["ثَلَاثَةُ"] } ],
+      "options": ["ثَلَاثَةُ", "ثَلَاثُ"],
+      "explain": "{ar|قَلَمٌ} est masculin : le nombre prend la forme de genre contraire, avec {ar|ة} ({ar|ثَلَاثَةُ})."
+    },
+    {
+      "id": "medine-t2.l10.revue-1#4",
+      "type": "fill_gap",
+      "sentence": "فِي الْفَصْلِ {0} طَالِبَةً.",
+      "fr": "Il y a treize étudiantes dans la classe.",
+      "gaps": [ { "answers": ["ثَلَاثَ عَشْرَةَ"] } ],
+      "options": ["ثَلَاثَ عَشْرَةَ", "ثَلَاثَةَ عَشَرَ", "ثَلَاثَ عَشَرَ"],
+      "explain": "{ar|طَالِبَةٌ} est féminin : « trois » perd son {ar|ة} et « dix » prend la forme avec {ar|ة} ({ar|عَشْرَةَ})."
+    },
+    {
+      "id": "medine-t2.l10.revue-1#5",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « mille stylos » ?" },
+      "choices": [ { "ar": "أَلْفُ قَلَمٍ" }, { "ar": "أَلْفُ أَقْلَامٍ" } ],
+      "answer": 0,
+      "explain": "Après {ar|أَلْفٌ}, le dénombré est au singulier : {ar|قَلَمٍ}."
+    },
+    {
+      "id": "medine-t2.l10.revue-1#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "treize étudiantes",
+      "answers": ["ثَلَاثَ عَشْرَةَ طَالِبَةً"]
+    },
+    {
+      "id": "medine-t2.l10.revue-1#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "cent livres",
+      "answers": ["مِائَةُ كِتَابٍ", "مِئَةُ كِتَابٍ"]
+    }
+  ]
+}

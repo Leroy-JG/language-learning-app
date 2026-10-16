@@ -1,0 +1,139 @@
+{
+  "id": "medine-t2.l10.grammar-1",
+  "type": "grammar",
+  "title": "Vingt, trente, quarante, cinquante",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l10.grammar-1#1",
+      "type": "tip",
+      "title": "Les nombres de 20 à 99 : le plan",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les nombres de **20 à 99** suivent quatre règles. Dans les activités qui viennent, tu les étudies une à une ; commence par ce plan."
+        },
+        {
+          "type": "table",
+          "header": ["Règle", "Ce que cela veut dire"],
+          "rows": [
+            [
+              "Les deux parties sont variables ({ar|مُعْرَبٌ})",
+              "elles changent de terminaison selon leur rôle dans la phrase"
+            ],
+            [
+              "La première partie (les unités)",
+              "est de genre **contraire** à celui du dénombré, sauf un et deux, qui s'accordent avec lui"
+            ],
+            [
+              "La deuxième partie (la dizaine)",
+              "ne change pas selon le genre du dénombré ; elle se décline comme un pluriel masculin sain ({ar|ونَ} ou {ar|ينَ})"
+            ],
+            ["Le dénombré ({ar|الْمَعْدُودُ})", "est au singulier ({ar|التَّمْيِيزُ}), donc à l'accusatif"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Tu connais déjà l'idée de la dernière règle : de 11 à 19 aussi, le dénombré est un singulier à l'accusatif. Et tu connais {ar|الْمُعْرَبُ} : le mot variable, dont la terminaison change."
+        }
+      ]
+    },
+    { "id": "medine-t2.l10.grammar-1#2", "type": "present", "item": "w:n-20" },
+    { "id": "medine-t2.l10.grammar-1#3", "type": "present", "item": "w:n-30" },
+    {
+      "id": "medine-t2.l10.grammar-1#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:n-30",
+      "distractors": ["w:n-20", "w:n-3"],
+      "explain": "{ar|ثَلَاثُونَ} : trente. {ar|عِشْرُونَ} : vingt ; {ar|ثَلَاثَةٌ} : trois."
+    },
+    {
+      "id": "medine-t2.l10.grammar-1#5",
+      "type": "tip",
+      "title": "Les dizaines se forment comme un pluriel masculin sain",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu as vu le pluriel masculin sain au chapitre 17 du tome 1 : on ajoute {ar|ونَ} au nominatif. Les dizaines se forment de la même façon : on part du nombre des unités et on ajoute {ar|ونَ}."
+        },
+        {
+          "type": "compare",
+          "title": "Du nombre à la dizaine",
+          "rows": [
+            {
+              "from": { "ar": "ثَلَاثٌ", "fr": "trois" },
+              "to": { "ar": "ثَلَاثُونَ", "fr": "trente" },
+              "label": "{ar|ثَلَاثٌ} + {ar|ونَ}"
+            },
+            {
+              "from": { "ar": "أَرْبَعٌ", "fr": "quatre" },
+              "to": { "ar": "أَرْبَعُونَ", "fr": "quarante" },
+              "label": "{ar|أَرْبَعٌ} + {ar|ونَ}"
+            },
+            {
+              "from": { "ar": "خَمْسٌ", "fr": "cinq" },
+              "to": { "ar": "خَمْسُونَ", "fr": "cinquante" },
+              "label": "{ar|خَمْسٌ} + {ar|ونَ}"
+            },
+            {
+              "from": { "ar": "سِتٌّ", "fr": "six" },
+              "to": { "ar": "سِتُّونَ", "fr": "soixante" },
+              "label": "{ar|سِتٌّ} + {ar|ونَ}"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Même modèle pour {ar|سَبْعٌ} → {ar|سَبْعُونَ} et {ar|تِسْعٌ} → {ar|تِسْعُونَ}. Pour huit, {ar|ثَمَانٍ} → {ar|ثَمَانُونَ} : le {ar|ي} disparaît. Pour vingt, le professeur ne donne pas de règle : retiens {ar|عِشْرُونَ} comme un mot à part."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Ce ne sont pas de vrais pluriels : {ar|ثَلَاثُونَ} n'est pas « plusieurs trois ». Ces mots n'ont pas de singulier ; les grammairiens disent qu'ils sont rattachés au pluriel masculin sain ({ar|مُلْحَقٌ بِجَمْعِ الْمُذَكَّرِ السَّالِمِ})."
+        }
+      ]
+    },
+    { "id": "medine-t2.l10.grammar-1#6", "type": "present", "item": "w:n-40" },
+    { "id": "medine-t2.l10.grammar-1#7", "type": "present", "item": "w:n-50" },
+    {
+      "id": "medine-t2.l10.grammar-1#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:n-20", "w:n-30", "w:n-40", "w:n-50"]
+    },
+    {
+      "id": "medine-t2.l10.grammar-1#9",
+      "type": "spot",
+      "instruction": "Touche la dizaine.",
+      "words": ["لِي", "ثَلَاثُونَ", "كِتَابًا."],
+      "answers": [1],
+      "fr": "J'ai trente livres.",
+      "explain": "{ar|ثَلَاثُونَ} est la dizaine ; {ar|كِتَابًا} est le dénombré."
+    },
+    {
+      "id": "medine-t2.l10.grammar-1#10",
+      "type": "fill_gap",
+      "sentence": "فِي الْفَصْلِ {0} طَالِبًا.",
+      "fr": "Il y a quarante étudiants dans la classe.",
+      "gaps": [ { "answers": ["أَرْبَعُونَ"] } ],
+      "options": ["أَرْبَعُونَ", "خَمْسُونَ", "ثَلَاثُونَ"],
+      "explain": "« Quarante » : {ar|أَرْبَعُونَ}. Le dénombré {ar|طَالِبًا} est au singulier et à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l10.grammar-1#11",
+      "type": "question",
+      "prompt": { "fr": "Comment se forme {ar|خَمْسُونَ} ?" },
+      "choices": [
+        { "fr": "On ajoute {ar|ونَ} à {ar|خَمْسٌ}, comme pour un pluriel masculin sain" },
+        { "fr": "On ajoute {ar|ةٌ} à {ar|خَمْسٌ}, comme pour un féminin" },
+        { "fr": "On ajoute {ar|انِ} à {ar|خَمْسٌ}, comme pour un duel" }
+      ],
+      "answer": 0,
+      "explain": "Les dizaines suivent le modèle du pluriel masculin sain : {ar|خَمْسٌ} + {ar|ونَ} = {ar|خَمْسُونَ}."
+    },
+    { "id": "medine-t2.l10.grammar-1#12", "type": "typing", "ask": "fr", "item": "w:n-40" }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "medine-t2.l10.grammar-7",
+  "type": "grammar",
+  "title": "Sixième, septième… dixième",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t2.l10.grammar-7#1", "type": "present", "item": "w:sadis" },
+    { "id": "medine-t2.l10.grammar-7#2", "type": "present", "item": "w:sabi" },
+    {
+      "id": "medine-t2.l10.grammar-7#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:sadis",
+      "distractors": ["w:sabi", "w:rabi"],
+      "explain": "{ar|سَادِسٌ} : sixième. {ar|سَابِعٌ} : septième ; {ar|رَابِعٌ} : quatrième."
+    },
+    { "id": "medine-t2.l10.grammar-7#4", "type": "present", "item": "w:thamin" },
+    { "id": "medine-t2.l10.grammar-7#5", "type": "present", "item": "w:tasi" },
+    {
+      "id": "medine-t2.l10.grammar-7#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:sadis", "w:sabi", "w:thamin", "w:tasi"]
+    },
+    { "id": "medine-t2.l10.grammar-7#7", "type": "present", "item": "w:ashir" },
+    { "id": "medine-t2.l10.grammar-7#8", "type": "build", "item": "w:sadis", "extra": ["ت"] },
+    {
+      "id": "medine-t2.l10.grammar-7#9",
+      "type": "sort",
+      "categories": [ { "fr": "nombre cardinal (combien ?)" }, { "fr": "nombre ordinal (quel rang ?)" } ],
+      "cards": [
+        { "ar": "ثَلَاثَةُ دُرُوسٍ", "category": 0 },
+        { "ar": "الدَّرْسُ الثَّالِثُ", "category": 1 },
+        { "ar": "سَبْعُ سَيَّارَاتٍ", "category": 0 },
+        { "ar": "السَّيَّارَةُ السَّابِعَةُ", "category": 1 },
+        { "ar": "عَشَرَةُ طُلَّابٍ", "category": 0 },
+        { "ar": "الطَّالِبُ الْعَاشِرُ", "category": 1 }
+      ],
+      "instruction": "Nombre cardinal ou nombre ordinal ?",
+      "explain": "Le nombre cardinal compte (trois cours, sept voitures, dix étudiants) ; le nombre ordinal donne le rang (le troisième cours, la septième voiture, le dixième étudiant)."
+    },
+    {
+      "id": "medine-t2.l10.grammar-7#10",
+      "type": "fill_gap",
+      "sentence": "الْجُزْءُ {0}.",
+      "fr": "La huitième partie.",
+      "gaps": [ { "answers": ["الثَّامِنُ"] } ],
+      "options": ["الثَّامِنُ", "الثَّامِنَةُ"],
+      "explain": "{ar|جُزْءٌ} est masculin : l'ordinal est sans {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l10.grammar-7#11",
+      "type": "fill_gap",
+      "sentence": "الطَّالِبَةُ {0}.",
+      "fr": "La sixième étudiante.",
+      "gaps": [ { "answers": ["السَّادِسَةُ"] } ],
+      "options": ["السَّادِسَةُ", "السَّادِسُ"],
+      "explain": "{ar|طَالِبَةٌ} est féminin : l'ordinal prend {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l10.grammar-7#12",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « le neuvième jour » ?" },
+      "choices": [ { "ar": "الْيَوْمُ التَّاسِعُ" }, { "ar": "تِسْعَةُ أَيَّامٍ" } ],
+      "answer": 0,
+      "explain": "« Le neuvième jour » est un rang : {ar|الْيَوْمُ التَّاسِعُ}. {ar|تِسْعَةُ أَيَّامٍ} veut dire « neuf jours »."
+    },
+    { "id": "medine-t2.l10.grammar-7#13", "type": "typing", "ask": "fr", "item": "w:ashir" },
+    {
+      "id": "medine-t2.l10.grammar-7#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le dixième cours.",
+      "answers": ["الدَّرْسُ الْعَاشِرُ."]
+    }
+  ]
+}

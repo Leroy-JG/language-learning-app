@@ -1,0 +1,133 @@
+{
+  "id": "medine-t2.l10.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre 10",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l10.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:n-70",
+      "distractors": ["w:n-60", "w:n-80"],
+      "explain": "{ar|سَبْعُونَ} : soixante-dix. {ar|سِتُّونَ} : soixante ; {ar|ثَمَانُونَ} : quatre-vingts."
+    },
+    {
+      "id": "medine-t2.l10.quiz#2",
+      "type": "fill_gap",
+      "sentence": "فِي الشَّارِعِ {0} سَيَّارَةً.",
+      "fr": "Il y a cinquante voitures dans la rue.",
+      "gaps": [ { "answers": ["خَمْسُونَ"] } ],
+      "options": ["خَمْسُونَ", "سِتُّونَ", "ثَلَاثُونَ"],
+      "explain": "« Cinquante » : {ar|خَمْسُونَ}. Le nombre est le sujet : nominatif ({ar|ونَ}) ; le dénombré {ar|سَيَّارَةً} est au singulier et à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l10.quiz#3",
+      "type": "fill_gap",
+      "sentence": "اِشْتَرَى زَيْدٌ {0} قَلَمًا.",
+      "fr": "Zayd a acheté quatre-vingts stylos.",
+      "gaps": [ { "answers": ["ثَمَانِينَ"] } ],
+      "options": ["ثَمَانِينَ", "ثَمَانُونَ"],
+      "explain": "Le nombre est le complément d'objet : accusatif, donc {ar|ثَمَانِينَ}."
+    },
+    {
+      "id": "medine-t2.l10.quiz#4",
+      "type": "sort",
+      "categories": [ { "fr": "avec un nom masculin" }, { "fr": "avec un nom féminin" } ],
+      "cards": [
+        { "ar": "ثَلَاثَةٌ وَأَرْبَعُونَ", "category": 0 },
+        { "ar": "خَمْسٌ وَثَلَاثُونَ", "category": 1 },
+        { "ar": "اِثْنَتَانِ وَخَمْسُونَ", "category": 1 },
+        { "ar": "سَبْعَةٌ وَسِتُّونَ", "category": 0 },
+        { "ar": "ثَمَانٍ وَسَبْعُونَ", "category": 1 },
+        { "ar": "وَاحِدٌ وَتِسْعُونَ", "category": 0 }
+      ],
+      "instruction": "Avec quel nom compté se dit chaque nombre ?",
+      "explain": "Un et deux s'accordent ({ar|اِثْنَتَانِ}, {ar|وَاحِدٌ}). De 3 à 9, l'unité contredit : avec {ar|ة}, un nom masculin ; sans {ar|ة}, un nom féminin."
+    },
+    {
+      "id": "medine-t2.l10.quiz#5",
+      "type": "fill_gap",
+      "sentence": "فِي الْمَدْرَسَةِ {0} مُدَرِّسَةً.",
+      "fr": "Il y a vingt-trois enseignantes à l'école.",
+      "gaps": [ { "answers": ["ثَلَاثٌ وَعِشْرُونَ"] } ],
+      "options": ["ثَلَاثٌ وَعِشْرُونَ", "ثَلَاثَةٌ وَعِشْرُونَ", "اِثْنَتَانِ وَعِشْرُونَ"],
+      "explain": "{ar|مُدَرِّسَةٌ} est féminin : « trois » est sans {ar|ة} ({ar|ثَلَاثٌ})."
+    },
+    {
+      "id": "medine-t2.l10.quiz#6",
+      "type": "question",
+      "prompt": { "fr": "Quels nombres s'accordent toujours avec le dénombré en genre ?" },
+      "choices": [ { "fr": "un et deux" }, { "fr": "de trois à neuf" }, { "fr": "tous les nombres" } ],
+      "answer": 0,
+      "explain": "Un et deux s'accordent ; de trois à neuf, le nombre est de genre contraire."
+    },
+    {
+      "id": "medine-t2.l10.quiz#7",
+      "type": "order",
+      "fr": "Il y a vingt-neuf étudiants dans la classe.",
+      "answers": [["فِي", "الْفَصْلِ", "تِسْعَةٌ", "وَعِشْرُونَ", "طَالِبًا"]],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l10.quiz#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai lu trente-cinq livres.",
+      "answers": ["قَرَأْتُ خَمْسَةً وَثَلَاثِينَ كِتَابًا."],
+      "explain": "Complément d'objet : accusatif ({ar|خَمْسَةً وَثَلَاثِينَ}). {ar|كِتَابٌ} est masculin : {ar|خَمْسَةً}."
+    },
+    {
+      "id": "medine-t2.l10.quiz#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:thani", "w:thalith", "w:khamis-2", "w:sabi", "w:ashir"]
+    },
+    {
+      "id": "medine-t2.l10.quiz#10",
+      "type": "fill_gap",
+      "sentence": "الصَّفْحَةُ {0}.",
+      "fr": "La dixième page.",
+      "gaps": [ { "answers": ["الْعَاشِرَةُ"] } ],
+      "options": ["الْعَاشِرَةُ", "الْعَاشِرُ"],
+      "explain": "{ar|صَفْحَةٌ} est féminin : l'ordinal prend {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l10.quiz#11",
+      "type": "question",
+      "prompt": { "ar": "السَّاعَةُ الْآنَ الرَّابِعَةُ وَالنِّصْفُ." },
+      "choices": [ { "fr": "4 h 30" }, { "fr": "3 h 30" }, { "fr": "4 h 15" } ],
+      "answer": 0,
+      "instruction": "Quelle heure est-il ?",
+      "explain": "{ar|الرَّابِعَةُ} : quatre heures ; {ar|وَالنِّصْفُ} : et demie."
+    },
+    {
+      "id": "medine-t2.l10.quiz#12",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:daiman",
+      "distractors": ["w:ahyanan", "w:mutaakhkhiran"],
+      "explain": "« Toujours » : {ar|دَائِمًا}. {ar|أَحْيَانًا} : parfois ; {ar|مُتَأَخِّرًا} : en retard."
+    },
+    {
+      "id": "medine-t2.l10.quiz#13",
+      "type": "question",
+      "prompt": { "fr": "À quelle heure Ḥāmid revient-il du marché ?" },
+      "choices": [
+        { "fr": "à sept heures, et parfois à huit heures" },
+        { "fr": "à neuf heures et demie" },
+        { "fr": "à une heure et demie" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l10.dialogue-1#1" },
+      "explain": "{ar|يَرْجِعُ فِي السَّاعَةِ السَّابِعَةِ، وَأَحْيَانًا فِي السَّاعَةِ الثَّامِنَةِ}."
+    },
+    {
+      "id": "medine-t2.l10.quiz#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il est maintenant sept heures et demie.",
+      "answers": ["السَّاعَةُ الْآنَ السَّابِعَةُ وَالنِّصْفُ."]
+    }
+  ]
+}

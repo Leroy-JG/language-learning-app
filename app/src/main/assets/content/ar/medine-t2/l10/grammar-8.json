@@ -1,0 +1,124 @@
+{
+  "id": "medine-t2.l10.grammar-8",
+  "type": "grammar",
+  "title": "Quelle heure est-il ?",
+  "icon": "watch",
+  "screens": [
+    {
+      "id": "medine-t2.l10.grammar-8#1",
+      "type": "tip",
+      "title": "Dire l'heure : {ar|السَّاعَةُ} et un nombre ordinal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|سَاعَةٌ} (« une montre », et aussi « une heure »). Pour dire l'heure, on emploie {ar|السَّاعَةُ} suivi d'un **nombre ordinal au féminin** : {ar|السَّاعَةُ الثَّانِيَةُ} (« la deuxième heure ») veut dire « deux heures »."
+        },
+        {
+          "type": "table",
+          "header": ["En arabe", "En français"],
+          "rows": [
+            ["{ar|السَّاعَةُ الْوَاحِدَةُ}", "une heure"],
+            ["{ar|السَّاعَةُ الثَّانِيَةُ}", "deux heures"],
+            ["{ar|السَّاعَةُ التَّاسِعَةُ}", "neuf heures"],
+            ["{ar|السَّاعَةُ التَّاسِعَةُ وَالنِّصْفُ}", "neuf heures et demie"],
+            ["{ar|السَّاعَةُ التَّاسِعَةُ إِلَّا رُبْعًا}", "neuf heures moins le quart"]
+          ]
+        },
+        { "type": "example", "ar": "السَّاعَةُ الْآنَ الثَّانِيَةُ.", "fr": "Il est maintenant deux heures." },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "En complément (cette question n'est pas dans le PDF du professeur) : pour demander l'heure, on dit {ar|كَمِ السَّاعَةُ الْآنَ؟} (littéralement « combien est l'heure maintenant ? »). {ar|كَمْ} prend une kasra devant l'article."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Pour « une heure », on n'emploie pas {ar|الْأُولَى} mais {ar|الْوَاحِدَةُ}, le féminin de « un ». À partir de deux heures, on emploie l'ordinal."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|وَالنِّصْفُ} (« et demie »), {ar|وَالرُّبْعُ} (« et quart ») et {ar|إِلَّا رُبْعًا} (« moins le quart ») se placent après l'heure. « À deux heures » se dit {ar|فِي السَّاعَةِ الثَّانِيَةِ} : après {ar|فِي}, tout est au génitif."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l10.grammar-8#2",
+      "type": "question",
+      "prompt": { "ar": "السَّاعَةُ الْآنَ الثَّامِنَةُ." },
+      "choices": [ { "fr": "8 h" }, { "fr": "2 h" }, { "fr": "9 h" } ],
+      "answer": 0,
+      "instruction": "Quelle heure est-il ?",
+      "explain": "{ar|الثَّامِنَةُ} est la huitième : huit heures."
+    },
+    {
+      "id": "medine-t2.l10.grammar-8#3",
+      "type": "question",
+      "prompt": { "ar": "السَّاعَةُ الْآنَ الثَّالِثَةُ وَالنِّصْفُ." },
+      "choices": [ { "fr": "3 h 30" }, { "fr": "2 h 30" }, { "fr": "3 h 15" } ],
+      "answer": 0,
+      "instruction": "Quelle heure est-il ?",
+      "explain": "{ar|الثَّالِثَةُ} : trois heures ; {ar|وَالنِّصْفُ} : et demie."
+    },
+    {
+      "id": "medine-t2.l10.grammar-8#4",
+      "type": "fill_gap",
+      "sentence": "السَّاعَةُ الْآنَ {0}.",
+      "fr": "Il est maintenant sept heures.",
+      "gaps": [ { "answers": ["السَّابِعَةُ"] } ],
+      "options": ["السَّابِعَةُ", "السَّابِعُ", "التَّاسِعَةُ"],
+      "explain": "{ar|سَاعَةٌ} est féminin : l'ordinal prend {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l10.grammar-8#5",
+      "type": "question",
+      "prompt": { "ar": "السَّاعَةُ الْآنَ التَّاسِعَةُ إِلَّا رُبْعًا." },
+      "choices": [ { "fr": "8 h 45" }, { "fr": "9 h 15" }, { "fr": "9 h 45" } ],
+      "answer": 0,
+      "instruction": "Quelle heure est-il ?",
+      "explain": "{ar|التَّاسِعَةُ إِلَّا رُبْعًا} : neuf heures moins le quart, donc huit heures quarante-cinq."
+    },
+    {
+      "id": "medine-t2.l10.grammar-8#6",
+      "type": "question",
+      "prompt": { "ar": "السَّاعَةُ الْآنَ الْوَاحِدَةُ وَالنِّصْفُ." },
+      "choices": [ { "fr": "1 h 30" }, { "fr": "2 h 30" }, { "fr": "1 h 15" } ],
+      "answer": 0,
+      "instruction": "Quelle heure est-il ?",
+      "explain": "{ar|الْوَاحِدَةُ} : une heure ; {ar|وَالنِّصْفُ} : et demie."
+    },
+    {
+      "id": "medine-t2.l10.grammar-8#7",
+      "type": "fill_gap",
+      "sentence": "السَّاعَةُ الْآنَ {0}.",
+      "fr": "Il est maintenant une heure.",
+      "gaps": [ { "answers": ["الْوَاحِدَةُ"] } ],
+      "options": ["الْوَاحِدَةُ", "الْأُولَى", "الثَّانِيَةُ"],
+      "explain": "Pour une heure, on dit {ar|الْوَاحِدَةُ}, pas {ar|الْأُولَى}."
+    },
+    {
+      "id": "medine-t2.l10.grammar-8#8",
+      "type": "order",
+      "fr": "Zayd est venu à huit heures.",
+      "answers": [
+        ["جَاءَ", "زَيْدٌ", "فِي", "السَّاعَةِ", "الثَّامِنَةِ"],
+        ["فِي", "السَّاعَةِ", "الثَّامِنَةِ", "جَاءَ", "زَيْدٌ"]
+      ],
+      "punctuation": "."
+    },
+    {
+      "id": "medine-t2.l10.grammar-8#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il est maintenant neuf heures moins le quart.",
+      "answers": ["السَّاعَةُ الْآنَ التَّاسِعَةُ إِلَّا رُبْعًا."]
+    },
+    {
+      "id": "medine-t2.l10.grammar-8#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "à neuf heures et demie",
+      "answers": ["فِي السَّاعَةِ التَّاسِعَةِ وَالنِّصْفِ"]
+    }
+  ]
+}

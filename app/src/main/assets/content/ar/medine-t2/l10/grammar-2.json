@@ -1,0 +1,124 @@
+{
+  "id": "medine-t2.l10.grammar-2",
+  "type": "grammar",
+  "title": "Soixante à quatre-vingt-dix ; deux terminaisons",
+  "icon": "puzzle",
+  "screens": [
+    { "id": "medine-t2.l10.grammar-2#1", "type": "present", "item": "w:n-60" },
+    { "id": "medine-t2.l10.grammar-2#2", "type": "present", "item": "w:n-70" },
+    {
+      "id": "medine-t2.l10.grammar-2#3",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:n-70",
+      "distractors": ["w:n-60", "w:n-50"],
+      "explain": "« Soixante-dix » : {ar|سَبْعُونَ}. {ar|سِتُّونَ} : soixante ; {ar|خَمْسُونَ} : cinquante."
+    },
+    { "id": "medine-t2.l10.grammar-2#4", "type": "present", "item": "w:n-80" },
+    { "id": "medine-t2.l10.grammar-2#5", "type": "present", "item": "w:n-90" },
+    {
+      "id": "medine-t2.l10.grammar-2#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:n-20", "w:n-60", "w:n-70", "w:n-80", "w:n-90"]
+    },
+    { "id": "medine-t2.l10.grammar-2#7", "type": "build", "item": "w:n-80", "extra": ["ي"] },
+    {
+      "id": "medine-t2.l10.grammar-2#8",
+      "type": "tip",
+      "title": "Deux terminaisons : {ar|ونَ} et {ar|ينَ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme le pluriel masculin sain, une dizaine a **deux formes**, selon son rôle dans la phrase. Le genre du dénombré ne la change pas."
+        },
+        {
+          "type": "table",
+          "header": ["Rôle de la dizaine", "Terminaison", "Exemple"],
+          "rows": [
+            ["sujet (nominatif)", "{ar|ونَ}", "{ar|لِي ثَلَاثُونَ كِتَابًا} (j'ai trente livres)"],
+            [
+              "complément d'objet (accusatif)",
+              "{ar|ينَ}",
+              "{ar|قَرَأْتُ ثَلَاثِينَ كِتَابًا} (j'ai lu trente livres)"
+            ],
+            [
+              "après une préposition (génitif)",
+              "{ar|ينَ}",
+              "{ar|سَلَّمْتُ عَلَى ثَلَاثِينَ طَالِبًا} (j'ai salué trente étudiants)"
+            ]
+          ]
+        },
+        {
+          "type": "compare",
+          "title": "Les deux formes de vingt",
+          "rows": [
+            {
+              "from": { "ar": "عِشْرُونَ", "fr": "vingt (nominatif)" },
+              "to": { "ar": "عِشْرِينَ", "fr": "vingt (accusatif ou génitif)" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le dénombré, lui, reste toujours un singulier à l'accusatif : {ar|كِتَابًا}, {ar|طَالِبًا}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l10.grammar-2#9",
+      "type": "sort",
+      "categories": [ { "fr": "la dizaine est le sujet" }, { "fr": "la dizaine est complément ou suit une préposition" } ],
+      "cards": [
+        { "ar": "لِي أَرْبَعُونَ كِتَابًا", "category": 0 },
+        { "ar": "فِي الْفَصْلِ سِتُّونَ طَالِبًا", "category": 0 },
+        { "ar": "عِنْدِي خَمْسُونَ دَفْتَرًا", "category": 0 },
+        { "ar": "قَرَأْتُ ثَلَاثِينَ كِتَابًا", "category": 1 },
+        { "ar": "سَلَّمْتُ عَلَى سَبْعِينَ طَالِبًا", "category": 1 },
+        { "ar": "مَعَ ثَمَانِينَ رَجُلًا", "category": 1 }
+      ],
+      "instruction": "Range chaque phrase selon le rôle de la dizaine.",
+      "explain": "Quand la dizaine est complément d'objet d'un verbe, ou qu'elle suit une préposition, elle se termine par {ar|ينَ}. Quand elle est le sujet, elle se termine par {ar|ونَ} : dans {ar|فِي الْفَصْلِ سِتُّونَ طَالِبًا}, c'est {ar|سِتُّونَ} le sujet, et non {ar|الْفَصْلِ}."
+    },
+    {
+      "id": "medine-t2.l10.grammar-2#10",
+      "type": "fill_gap",
+      "sentence": "قَرَأْتُ {0} كِتَابًا.",
+      "fr": "J'ai lu soixante livres.",
+      "gaps": [ { "answers": ["سِتِّينَ"] } ],
+      "options": ["سِتِّينَ", "سِتُّونَ"],
+      "explain": "Le nombre est le complément d'objet de {ar|قَرَأْتُ} : accusatif, donc {ar|سِتِّينَ}."
+    },
+    {
+      "id": "medine-t2.l10.grammar-2#11",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|سَلَّمْتُ عَلَى تِسْعِينَ طَالِبًا}, pourquoi {ar|تِسْعِينَ} se termine-t-il par {ar|ينَ} ?"
+      },
+      "choices": [
+        { "fr": "parce qu'il suit la préposition {ar|عَلَى} (génitif)" },
+        { "fr": "parce que {ar|طَالِبًا} est au singulier" },
+        { "fr": "parce que le nombre est féminin" }
+      ],
+      "answer": 0,
+      "explain": "Après une préposition, le mot est au génitif : la dizaine prend {ar|ينَ}. Le genre du dénombré ne change rien."
+    },
+    {
+      "id": "medine-t2.l10.grammar-2#12",
+      "type": "fill_gap",
+      "sentence": "فِي الْمَسْجِدِ {0} رَجُلًا.",
+      "fr": "Il y a soixante-dix hommes dans la mosquée.",
+      "gaps": [ { "answers": ["سَبْعُونَ"] } ],
+      "options": ["سَبْعُونَ", "سَبْعِينَ"],
+      "explain": "Le nombre est le sujet de la phrase (il vient après le groupe {ar|فِي الْمَسْجِدِ}) : nominatif, donc {ar|سَبْعُونَ}."
+    },
+    {
+      "id": "medine-t2.l10.grammar-2#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai quatre-vingts livres.",
+      "answers": ["لِي ثَمَانُونَ كِتَابًا.", "عِنْدِي ثَمَانُونَ كِتَابًا."]
+    }
+  ]
+}

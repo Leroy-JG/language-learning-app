@@ -1,0 +1,105 @@
+{
+  "id": "medine-t2.l10.practice-1",
+  "type": "vocabulary",
+  "title": "Questions sur le texte : exercice 1",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l10.practice-1#1",
+      "type": "question",
+      "prompt": { "ar": "لِزِيَارَةِ مَنْ ذَهَبَ زَكَرِيَّا؟" },
+      "choices": [ { "ar": "لِزِيَارَةِ حَامِدٍ" }, { "ar": "لِزِيَارَةِ مُوسَى" }, { "ar": "لِزِيَارَةِ الْمُدِيرِ" } ],
+      "answer": 0,
+      "instruction": "Réponds d'après le texte.",
+      "context": { "dialogue": "medine-t2.l10.dialogue-1#1" },
+      "explain": "Zakariyyā est allé rendre visite à Ḥāmid, qu'il n'a pas trouvé à la maison."
+    },
+    {
+      "id": "medine-t2.l10.practice-1#2",
+      "type": "question",
+      "prompt": { "ar": "مَتَى ذَهَبَ زَكَرِيَّا؟" },
+      "choices": [ { "ar": "بَعْدَ صَلَاةِ الْفَجْرِ" }, { "ar": "بَعْدَ صَلَاةِ الْعَصْرِ" }, { "ar": "بَعْدَ الظُّهْرِ" } ],
+      "answer": 0,
+      "instruction": "Réponds d'après le texte.",
+      "context": { "dialogue": "medine-t2.l10.dialogue-1#1" },
+      "explain": "{ar|ذَهَبَ زَكَرِيَّا لِزِيَارَةِ حَامِدٍ بَعْدَ صَلَاةِ الْفَجْرِ} : après la prière de l'aube."
+    },
+    {
+      "id": "medine-t2.l10.practice-1#3",
+      "type": "question",
+      "prompt": { "ar": "أَيْنَ يَذْهَبُ حَامِدٌ بَعْدَ صَلَاةِ الْفَجْرِ؟" },
+      "choices": [ { "ar": "إِلَى السُّوقِ" }, { "ar": "إِلَى الْمَطَارِ" }, { "ar": "إِلَى الْجَامِعَةِ" } ],
+      "answer": 0,
+      "instruction": "Réponds d'après le texte.",
+      "context": { "dialogue": "medine-t2.l10.dialogue-1#1" },
+      "explain": "Mūsā répond : il va toujours au marché après la prière de l'aube. Il va à l'usine plus tard."
+    },
+    {
+      "id": "medine-t2.l10.practice-1#4",
+      "type": "question",
+      "prompt": { "ar": "مَتَى يَرْجِعُ حَامِدٌ مِنَ السُّوقِ؟" },
+      "choices": [
+        { "ar": "فِي السَّاعَةِ السَّابِعَةِ، وَأَحْيَانًا فِي السَّاعَةِ الثَّامِنَةِ" },
+        { "ar": "فِي السَّاعَةِ التَّاسِعَةِ وَالنِّصْفِ" },
+        { "ar": "فِي السَّاعَةِ الْوَاحِدَةِ وَالنِّصْفِ" }
+      ],
+      "answer": 0,
+      "instruction": "Réponds d'après le texte.",
+      "context": { "dialogue": "medine-t2.l10.dialogue-1#1" },
+      "explain": "Du marché, il revient à sept heures et parfois à huit heures. Les autres heures sont celles de l'usine."
+    },
+    {
+      "id": "medine-t2.l10.practice-1#5",
+      "type": "question",
+      "prompt": { "ar": "مَاذَا يَفْعَلُ حَامِدٌ فِي الْبَيْتِ؟" },
+      "choices": [
+        { "fr": "Il lit les journaux et écoute les nouvelles à la radio" },
+        { "fr": "Il écrit des lettres" },
+        { "fr": "Il regarde la télévision" }
+      ],
+      "answer": 0,
+      "instruction": "Réponds d'après le texte.",
+      "context": { "dialogue": "medine-t2.l10.dialogue-1#1" },
+      "explain": "{ar|يَقْرَأُ الصُّحُفَ وَيَسْمَعُ الْأَخْبَارَ مِنَ الْإِذَاعَةِ}."
+    },
+    {
+      "id": "medine-t2.l10.practice-1#6",
+      "type": "question",
+      "prompt": { "ar": "مَتَى يَذْهَبُ حَامِدٌ إِلَى الْمَصْنَعِ؟" },
+      "choices": [
+        { "ar": "فِي السَّاعَةِ التَّاسِعَةِ وَالنِّصْفِ" },
+        { "ar": "فِي السَّاعَةِ السَّابِعَةِ" },
+        { "ar": "بَعْدَ الظُّهْرِ" }
+      ],
+      "answer": 0,
+      "instruction": "Réponds d'après le texte.",
+      "context": { "dialogue": "medine-t2.l10.dialogue-1#1" },
+      "explain": "Il va à l'usine à neuf heures et demie."
+    },
+    {
+      "id": "medine-t2.l10.practice-1#7",
+      "type": "question",
+      "prompt": { "ar": "كَمْ عَامِلًا يَعْمَلُ فِي مَصْنَعِ حَامِدٍ؟" },
+      "choices": [
+        { "ar": "مِائَةٌ وَخَمْسَةٌ وَعِشْرُونَ عَامِلًا" },
+        { "ar": "مِائَةٌ وَخَمْسُونَ عَامِلًا" },
+        { "ar": "مِائَةٌ وَخَمْسَةَ عَشَرَ عَامِلًا" }
+      ],
+      "answer": 0,
+      "instruction": "Réponds d'après le texte.",
+      "context": { "dialogue": "medine-t2.l10.dialogue-1#1" },
+      "explain": "{ar|مِائَةٌ وَخَمْسَةٌ وَعِشْرُونَ} : cent, cinq et vingt, soit 125. {ar|خَمْسُونَ} serait 50 ; {ar|خَمْسَةَ عَشَرَ} serait 15."
+    },
+    {
+      "id": "medine-t2.l10.practice-1#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ مُهَنْدِسًا يَعْمَلُ فِي مَصْنَعِ حَامِدٍ؟",
+      "answers": ["مُهَنْدِسَانِ اثْنَانِ.", "مُهَنْدِسَانِ.", "اثْنَانِ.", "يَعْمَلُ فِيهِ مُهَنْدِسَانِ."],
+      "fr": "Deux ingénieurs.",
+      "instruction": "Réponds d'après le texte.",
+      "context": { "dialogue": "medine-t2.l10.dialogue-1#1" },
+      "explain": "Mūsā dit : {ar|وَمُهَنْدِسَانِ}, « et deux ingénieurs »."
+    }
+  ]
+}
