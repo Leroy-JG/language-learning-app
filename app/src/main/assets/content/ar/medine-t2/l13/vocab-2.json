@@ -1,0 +1,76 @@
+{
+  "id": "medine-t2.l13.vocab-2",
+  "type": "vocabulary",
+  "title": "Messieurs, taxis et rangs",
+  "icon": "car",
+  "screens": [
+    { "id": "medine-t2.l13.vocab-2#1", "type": "present", "item": "w:sayyid" },
+    { "id": "medine-t2.l13.vocab-2#2", "type": "present", "item": "p:sayyarat-ujra" },
+    {
+      "id": "medine-t2.l13.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "p:sayyarat-ujra",
+      "distractors": ["w:sayyara", "w:sayyid"],
+      "explain": "{ar|سَيَّارَةُ الْأُجْرَةِ} : un taxi. {ar|سَيَّارَةٌ} : une voiture ; {ar|سَيِّدٌ} : un monsieur."
+    },
+    { "id": "medine-t2.l13.vocab-2#4", "type": "present", "item": "w:akhir" },
+    {
+      "id": "medine-t2.l13.vocab-2#5",
+      "type": "tip",
+      "title": "Le dernier rang",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|صَفٌّ} (« un rang », tu le connais) est suivi de l'adjectif {ar|أَخِيرٌ}. Comme tout adjectif, il prend l'article et le cas du nom qu'il décrit."
+        },
+        { "type": "example", "ar": "صَلَّى زَيْدٌ فِي الصَّفِّ الْأَخِيرِ.", "fr": "Zayd a prié au dernier rang." },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Après {ar|فِي}, le nom est au génitif : {ar|الصَّفِّ} et {ar|الْأَخِيرِ} ont tous les deux la kasra."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.vocab-2#6",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:sayyid", "w:saff", "w:akhir"]
+    },
+    {
+      "id": "medine-t2.l13.vocab-2#7",
+      "type": "fill_gap",
+      "sentence": "صَلَّى زَيْدٌ فِي الصَّفِّ {0}.",
+      "fr": "Zayd a prié au dernier rang.",
+      "gaps": [ { "answers": ["الْأَخِيرِ"] } ],
+      "options": ["الْأَخِيرِ", "الْجَدِيدِ", "الصَّغِيرِ"],
+      "explain": "« Le dernier rang » : {ar|الصَّفِّ الْأَخِيرِ}."
+    },
+    {
+      "id": "medine-t2.l13.vocab-2#8",
+      "type": "fill_gap",
+      "sentence": "يَا {0}، أَيْنَ الْمَسْجِدُ؟",
+      "fr": "Monsieur, où est la mosquée ?",
+      "gaps": [ { "answers": ["سَيِّدُ"] } ],
+      "options": ["سَيِّدُ", "سَيَّارَةُ", "صَفُّ"],
+      "explain": "Pour appeler un homme poliment : {ar|يَا سَيِّدُ}."
+    },
+    {
+      "id": "medine-t2.l13.vocab-2#9",
+      "type": "order",
+      "fr": "Zayd a prié au dernier rang.",
+      "answers": [["صَلَّى", "زَيْدٌ", "فِي", "الصَّفِّ", "الْأَخِيرِ"], ["زَيْدٌ", "صَلَّى", "فِي", "الصَّفِّ", "الْأَخِيرِ"]],
+      "punctuation": ".",
+      "explain": "L'adjectif {ar|الْأَخِيرِ} suit le nom {ar|الصَّفِّ}."
+    },
+    {
+      "id": "medine-t2.l13.vocab-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je monte dans un taxi.",
+      "answers": ["أَرْكَبُ سَيَّارَةَ الْأُجْرَةِ.", "أَنَا أَرْكَبُ سَيَّارَةَ الْأُجْرَةِ."],
+      "explain": "{ar|أَرْكَبُ} : le présent de {ar|رَكِبَ}. {ar|سَيَّارَةَ الْأُجْرَةِ} est le complément (accusatif)."
+    }
+  ]
+}

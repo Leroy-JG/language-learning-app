@@ -1,0 +1,221 @@
+{
+  "id": "medine-t2.l13.grammar-5",
+  "type": "grammar",
+  "title": "Trois états d'un verbe défectueux",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l13.grammar-5#1",
+      "type": "tip",
+      "title": "Au nominatif : la damma est sous-entendue",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au nominatif, la marque est bien la damma, mais on ne la voit pas et on ne la dit pas : elle est « sous-entendue »."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Analyse du professeur"],
+          "rows": [
+            ["{ar|زَيْدٌ يَسْعَى}", "{ar|يَسْعَى فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الضَّمَّةُ}"],
+            ["{ar|زَيْدٌ يَدْعُو}", "{ar|يَدْعُو فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الضَّمَّةُ}"],
+            ["{ar|زَيْدٌ يَقْضِي}", "{ar|يَقْضِي فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الضَّمَّةُ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les grammairiens disent {ar|الضَّمَّةُ الْمُقَدَّرَةُ} : « la damma sous-entendue »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.grammar-5#2",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la marque du nominatif de {ar|يَسْعَى} dans {ar|زَيْدٌ يَسْعَى} ?" },
+      "choices": [
+        { "fr": "La damma, sous-entendue (on ne la voit pas)" },
+        { "fr": "La fatha" },
+        { "fr": "La chute de la lettre défectueuse" }
+      ],
+      "answer": 0,
+      "explain": "Au nominatif, la marque est la damma. Avec une lettre défectueuse à la fin, elle est sous-entendue."
+    },
+    {
+      "id": "medine-t2.l13.grammar-5#3",
+      "type": "tip",
+      "title": "À l'accusatif : la fatha, visible ou non",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Après {ar|لَنْ}, la marque est la fatha. Les lettres défectueuses empêchent les voyelles de se faire entendre, **sauf la fatha sur le {ar|و} et sur le {ar|ي}**."
+        },
+        {
+          "type": "table",
+          "header": ["Nominatif", "Après {ar|لَنْ}", "La fatha"],
+          "rows": [
+            ["{ar|يَدْعُو}", "{ar|لَنْ يَدْعُوَ}", "se voit sur le {ar|و}"],
+            ["{ar|يَقْضِي}", "{ar|لَنْ يَقْضِيَ}", "se voit sur le {ar|ي}"],
+            ["{ar|يَسْعَى}", "{ar|لَنْ يَسْعَى}", "ne se voit pas (le {ar|ى} ne porte aucune voyelle)"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les grammairiens expliquent : la damma sur le {ar|و} et la kasra sur le {ar|ي} sont lourdes à prononcer, alors on ne les dit pas. La fatha, plus légère, se prononce. Sur le {ar|ى}, aucune voyelle n'est possible."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.grammar-5#4",
+      "type": "true_false",
+      "statement": { "fr": "À la fin de {ar|لَنْ يَقْضِيَ}, on voit une fatha sur le {ar|ي}." },
+      "answer": true,
+      "explain": "Oui : après {ar|لَنْ}, la fatha se voit sur le {ar|ي} et sur le {ar|و}. Seul le {ar|ى} la cache."
+    },
+    {
+      "id": "medine-t2.l13.grammar-5#5",
+      "type": "true_false",
+      "statement": { "fr": "À la fin de {ar|لَنْ يَسْعَى}, on voit une fatha." },
+      "answer": false,
+      "explain": "Non : le {ar|ى} ne porte aucune voyelle. La fatha est là, mais sous-entendue."
+    },
+    {
+      "id": "medine-t2.l13.grammar-5#6",
+      "type": "tip",
+      "title": "Au jussif : la lettre tombe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au jussif, on ne pose pas de sukūn : c'est la lettre défectueuse elle-même qui tombe, {ar|حَذْفُ حَرْفِ الْعِلَّةِ}."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "زَيْدٌ يَسْعَى", "fr": "Zayd s'efforce" },
+              "to": { "ar": "زَيْدٌ لَمْ يَسْعَ", "fr": "Zayd ne s'est pas efforcé" },
+              "label": "le {ar|ى} tombe"
+            },
+            {
+              "from": { "ar": "زَيْدٌ يَدْعُو", "fr": "Zayd appelle" },
+              "to": { "ar": "زَيْدٌ لَمْ يَدْعُ", "fr": "Zayd n'a pas appelé" },
+              "label": "le {ar|و} tombe"
+            },
+            {
+              "from": { "ar": "زَيْدٌ يَقْضِي", "fr": "Zayd accomplit" },
+              "to": { "ar": "زَيْدٌ لَمْ يَقْضِ", "fr": "Zayd n'a pas accompli" },
+              "label": "le {ar|ي} tombe"
+            },
+            {
+              "from": { "ar": "زَيْدٌ يَرَى", "fr": "Zayd voit" },
+              "to": { "ar": "زَيْدٌ لَمْ يَرَ", "fr": "Zayd n'a pas vu" },
+              "label": "le {ar|ى} tombe"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'analyse du professeur : {ar|يَسْعَ فِعْلٌ مُضَارِعٌ مَجْزُومٌ وَعَلَامَةُ جَزْمِهِ حَذْفُ حَرْفِ الْعِلَّةِ}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "La voyelle qui reste à la fin ({ar|لَمْ يَدْعُ}, {ar|لَمْ يَقْضِ}) est celle qui précédait la lettre : ce n'est pas la marque du jussif."
+        }
+      ]
+    },
+    { "id": "medine-t2.l13.grammar-5#7", "type": "present", "item": "p:hadhf-harf-illa" },
+    {
+      "id": "medine-t2.l13.grammar-5#8",
+      "type": "tip",
+      "title": "En résumé",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["État", "Marque", "Exemples"],
+          "rows": [
+            ["{ar|رَفْعٌ}", "la damma, sous-entendue", "{ar|يَدْعُو}, {ar|يَقْضِي}, {ar|يَسْعَى}"],
+            [
+              "{ar|نَصْبٌ}",
+              "la fatha (visible sur {ar|و} et {ar|ي}, sous-entendue sur {ar|ى})",
+              "{ar|لَنْ يَدْعُوَ}, {ar|لَنْ يَقْضِيَ}, {ar|لَنْ يَسْعَى}"
+            ],
+            [
+              "{ar|جَزْمٌ}",
+              "la chute de la lettre défectueuse",
+              "{ar|لَمْ يَدْعُ}, {ar|لَمْ يَقْضِ}, {ar|لَمْ يَسْعَ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Le professeur le résume ainsi : ces verbes ne contredisent la règle de base que dans **un seul cas**, le jussif, où la lettre disparaît. Au nominatif et à l'accusatif, les marques sont celles de la règle de base, mais sous-entendues (sauf la fatha sur {ar|و} et {ar|ي})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.grammar-5#9",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif ({ar|رَفْعٌ})" }, { "fr": "accusatif ({ar|نَصْبٌ})" }, { "fr": "jussif ({ar|جَزْمٌ})" } ],
+      "cards": [
+        { "ar": "يَدْعُو", "category": 0 },
+        { "ar": "لَنْ يَدْعُوَ", "category": 1 },
+        { "ar": "لَمْ يَدْعُ", "category": 2 },
+        { "ar": "يَقْضِي", "category": 0 },
+        { "ar": "لَنْ يَقْضِيَ", "category": 1 },
+        { "ar": "لَمْ يَقْضِ", "category": 2 }
+      ],
+      "instruction": "Quel est l'état du verbe ?",
+      "explain": "Sans particule : nominatif. Après {ar|لَنْ} : accusatif. Après {ar|لَمْ} : jussif, et la lettre tombe."
+    },
+    {
+      "id": "medine-t2.l13.grammar-5#10",
+      "type": "spot",
+      "instruction": "Touche le verbe dont la lettre défectueuse est tombée.",
+      "words": ["الْوَلَدُ", "يَسْعَى", "وَلَمْ", "يَمْشِ"],
+      "answers": [3],
+      "fr": "Le garçon s'efforce et n'a pas marché.",
+      "explain": "{ar|يَمْشِ} suit {ar|لَمْ} : le {ar|ي} est tombé. {ar|يَسْعَى} est au nominatif : il garde son {ar|ى}."
+    },
+    {
+      "id": "medine-t2.l13.grammar-5#11",
+      "type": "fill_gap",
+      "sentence": "الْوَلَدُ لَمْ {0} إِلَى الْمَدْرَسَةِ.",
+      "fr": "Le garçon n'a pas marché jusqu'à l'école.",
+      "gaps": [ { "answers": ["يَمْشِ"] } ],
+      "options": ["يَمْشِ", "يَمْشِي", "يَمْشُونَ"],
+      "explain": "Après {ar|لَمْ}, le {ar|ي} de {ar|يَمْشِي} tombe : {ar|لَمْ يَمْشِ}."
+    },
+    {
+      "id": "medine-t2.l13.grammar-5#12",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ لَمْ {0} إِلَى الْمَسْجِدِ.",
+      "fr": "Zayd ne s'est pas hâté vers la mosquée.",
+      "gaps": [ { "answers": ["يَسْعَ"] } ],
+      "options": ["يَسْعَ", "يَسْعَى", "يَسْعَوْنَ"],
+      "explain": "Après {ar|لَمْ}, le {ar|ى} de {ar|يَسْعَى} tombe : {ar|لَمْ يَسْعَ}."
+    },
+    {
+      "id": "medine-t2.l13.grammar-5#13",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la marque du jussif de {ar|يَدْعُو} dans {ar|لَمْ يَدْعُ} ?" },
+      "choices": [
+        { "fr": "La chute de la lettre défectueuse ({ar|و})" },
+        { "fr": "Un sukūn sur le {ar|ع}" },
+        { "fr": "Une fatha" }
+      ],
+      "answer": 0,
+      "explain": "Le verbe est {ar|مَجْزُومٌ} et sa marque est {ar|حَذْفُ حَرْفِ الْعِلَّةِ} : le {ar|و} tombe."
+    },
+    {
+      "id": "medine-t2.l13.grammar-5#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il n'a pas marché.",
+      "answers": ["لَمْ يَمْشِ.", "هُوَ لَمْ يَمْشِ."],
+      "explain": "{ar|لَمْ} + {ar|يَمْشِي} sans son {ar|ي} : {ar|لَمْ يَمْشِ}."
+    }
+  ]
+}

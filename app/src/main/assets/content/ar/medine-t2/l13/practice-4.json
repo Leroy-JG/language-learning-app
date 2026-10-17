@@ -1,0 +1,156 @@
+{
+  "id": "medine-t2.l13.practice-4",
+  "type": "vocabulary",
+  "title": "Exercice 4 : décompose {ar|ذَهَبَ}",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l13.practice-4#1",
+      "type": "tip",
+      "title": "Lire un verbe comme le professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 4 demande d'observer chaque forme de {ar|ذَهَبَ} : la **lettre du présent**, la **racine** ({ar|ذ}-{ar|ه}-{ar|ب}) et le **sujet**. Le sujet est soit un pronom caché, soit une lettre visible."
+        },
+        {
+          "type": "table",
+          "header": ["Verbe", "Lettre du présent", "Sujet"],
+          "rows": [
+            ["{ar|يَذْهَبُ}", "{ar|يَ}", "pronom caché ({ar|هُوَ})"],
+            ["{ar|تَذْهَبُ}", "{ar|تَ}", "pronom caché ({ar|هِيَ} ou {ar|أَنْتَ})"],
+            ["{ar|أَذْهَبُ}", "{ar|أَ}", "pronom caché ({ar|أَنَا})"],
+            ["{ar|نَذْهَبُ}", "{ar|نَ}", "pronom caché ({ar|نَحْنُ})"],
+            ["{ar|يَذْهَبُونَ}", "{ar|يَ}", "le {ar|و} (sujet) + le {ar|ن} (marque du nominatif)"],
+            ["{ar|تَذْهَبُونَ}", "{ar|تَ}", "le {ar|و} (sujet) + le {ar|ن} (marque du nominatif)"],
+            ["{ar|تَذْهَبِينَ}", "{ar|تَ}", "le {ar|ي} (sujet) + le {ar|ن} (marque du nominatif)"],
+            ["{ar|يَذْهَبْنَ}", "{ar|يَ}", "le {ar|نَ} (sujet : « elles »)"],
+            ["{ar|تَذْهَبْنَ}", "{ar|تَ}", "le {ar|نَ} (sujet : « vous », des femmes)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.practice-4#2",
+      "type": "tip",
+      "title": "Quatre verbes décomposés",
+      "blocks": [
+        {
+          "type": "breakdown",
+          "ar": "يَذْهَبُونَ",
+          "fr": "ils vont",
+          "parts": [
+            { "ar": "يَ", "fr": "la lettre du présent" },
+            { "ar": "ذْهَبُ", "fr": "la racine {ar|ذ}-{ar|ه}-{ar|ب}" },
+            { "ar": "و", "fr": "le sujet (le wāw du groupe)" },
+            { "ar": "نَ", "fr": "la marque du nominatif" }
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "تَذْهَبِينَ",
+          "fr": "tu vas (à une femme)",
+          "parts": [
+            { "ar": "تَ", "fr": "la lettre du présent" },
+            { "ar": "ذْهَبِ", "fr": "la racine {ar|ذ}-{ar|ه}-{ar|ب}" },
+            { "ar": "ي", "fr": "le sujet (le yā' de « toi »)" },
+            { "ar": "نَ", "fr": "la marque du nominatif" }
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "يَذْهَبْنَ",
+          "fr": "elles vont",
+          "parts": [
+            { "ar": "يَ", "fr": "la lettre du présent" },
+            { "ar": "ذْهَبْ", "fr": "la racine {ar|ذ}-{ar|ه}-{ar|ب}" },
+            { "ar": "نَ", "fr": "le sujet : le pronom « elles »" }
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "يَذْهَبُ",
+          "fr": "il va",
+          "parts": [
+            { "ar": "يَ", "fr": "la lettre du présent" },
+            { "ar": "ذْهَبُ", "fr": "la racine ; le sujet « il » est un pronom caché" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.practice-4#3",
+      "type": "sort",
+      "categories": [ { "fr": "la marque du nominatif" }, { "fr": "le pronom sujet" } ],
+      "cards": [
+        { "ar": "يَذْهَبُونَ", "category": 0 },
+        { "ar": "تَذْهَبِينَ", "category": 0 },
+        { "ar": "يَذْهَبَانِ", "category": 0 },
+        { "ar": "يَذْهَبْنَ", "category": 1 },
+        { "ar": "تَذْهَبْنَ", "category": 1 }
+      ],
+      "instruction": "Le {ar|ن} final est-il un pronom ou la marque du nominatif ?",
+      "explain": "Avec {ar|و}, {ar|ي} ou {ar|ا}, le {ar|ن} marque le nominatif. Dans {ar|يَذْهَبْنَ} et {ar|تَذْهَبْنَ}, le {ar|نَ} est le pronom sujet."
+    },
+    {
+      "id": "medine-t2.l13.practice-4#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|تَذْهَبُونَ}, quel est le pronom sujet ?" },
+      "choices": [ { "fr": "le {ar|و}" }, { "fr": "le {ar|ن}" }, { "fr": "le {ar|تَ}" } ],
+      "answer": 0,
+      "explain": "Le sujet est le wāw du groupe. Le {ar|تَ} est la lettre du présent ; le {ar|ن} marque le nominatif."
+    },
+    {
+      "id": "medine-t2.l13.practice-4#5",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|تَذْهَبْنَ}, le {ar|نَ} est le sujet : ce n'est pas la marque du nominatif." },
+      "answer": true,
+      "explain": "Oui : c'est le pronom « vous » (plusieurs femmes)."
+    },
+    {
+      "id": "medine-t2.l13.practice-4#6",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|يَذْهَبْنَ}, quel est le pronom sujet ?" },
+      "choices": [ { "fr": "le {ar|نَ} final" }, { "fr": "le {ar|يَ} du début" }, { "fr": "le {ar|و}" } ],
+      "answer": 0,
+      "explain": "Le {ar|نَ} est le pronom « elles ». Le {ar|يَ} est la lettre du présent."
+    },
+    {
+      "id": "medine-t2.l13.practice-4#7",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} إِلَى الْمَسْجِدِ.",
+      "fr": "Nous allons à la mosquée.",
+      "gaps": [ { "answers": ["نَذْهَبُ"] } ],
+      "options": ["نَذْهَبُ", "أَذْهَبُ", "تَذْهَبُ"],
+      "explain": "« Nous » : la lettre du présent {ar|نَ}, avec le pronom caché {ar|نَحْنُ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-4#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|تَذْهَبُ}, où est le sujet ?" },
+      "choices": [
+        { "fr": "Il est caché : {ar|هِيَ} ou {ar|أَنْتَ}" },
+        { "fr": "Il est dans le {ar|تَ}" },
+        { "fr": "Il est dans la damma" }
+      ],
+      "answer": 0,
+      "explain": "Le {ar|تَ} est la lettre du présent. Le sujet est un pronom caché ({ar|هِيَ} ou {ar|أَنْتَ}) : le contexte dit lequel."
+    },
+    {
+      "id": "medine-t2.l13.practice-4#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles vont.",
+      "answers": ["يَذْهَبْنَ.", "هُنَّ يَذْهَبْنَ."],
+      "explain": "« Elles » : {ar|يَ} au début, {ar|نَ} à la fin : {ar|يَذْهَبْنَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-4#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Tu vas (à une femme).",
+      "answers": ["تَذْهَبِينَ.", "أَنْتِ تَذْهَبِينَ."],
+      "explain": "« Tu » à une femme : {ar|تَذْهَبِينَ}."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "medine-t2.l13.grammar-3",
+  "type": "grammar",
+  "title": "Analyser un des cinq verbes",
+  "icon": "telescope",
+  "screens": [
+    {
+      "id": "medine-t2.l13.grammar-3#1",
+      "type": "tip",
+      "title": "L'analyse du professeur : la marque est le {ar|ن}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur analyse un des cinq verbes comme les autres présents ({ar|فِعْلٌ مُضَارِعٌ} + l'état du verbe), puis il nomme la marque : le maintien ou la chute du {ar|ن}."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Analyse"],
+          "rows": [
+            [
+              "{ar|أَنْتِ تَكْتُبِينَ}",
+              "{ar|تَكْتُبِينَ فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ ثُبُوتُ النُّونِ}"
+            ],
+            [
+              "{ar|لَنْ تَكْتُبِي}",
+              "{ar|تَكْتُبِي فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ حَذْفُ النُّونِ}"
+            ],
+            [
+              "{ar|لَمْ يَكْتُبُوا}",
+              "{ar|يَكْتُبُوا فِعْلٌ مُضَارِعٌ مَجْزُومٌ وَعَلَامَةُ جَزْمِهِ حَذْفُ النُّونِ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|وَعَلَامَةُ رَفْعِهِ} veut dire « et la marque de son nominatif est ». Le professeur donne le modèle du nominatif ; l'accusatif et le jussif suivent le même modèle, avec la chute du {ar|ن}."
+        }
+      ]
+    },
+    { "id": "medine-t2.l13.grammar-3#2", "type": "present", "item": "w:alama" },
+    {
+      "id": "medine-t2.l13.grammar-3#3",
+      "type": "fill_gap",
+      "sentence": "هُمْ يَكْتُبُونَ. يَكْتُبُونَ فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ {0}.",
+      "fr": "Ils écrivent. « {ar|يَكْتُبُونَ} » est un verbe au présent, au nominatif, dont la marque est…",
+      "gaps": [ { "answers": ["ثُبُوتُ النُّونِ"] } ],
+      "options": ["ثُبُوتُ النُّونِ", "حَذْفُ النُّونِ", "الضَّمَّةُ"],
+      "explain": "Au nominatif, le {ar|ن} de {ar|يَكْتُبُونَ} reste : {ar|ثُبُوتُ النُّونِ}. La damma est la marque des verbes ordinaires."
+    },
+    {
+      "id": "medine-t2.l13.grammar-3#4",
+      "type": "fill_gap",
+      "sentence": "لَنْ تَكْتُبِي. تَكْتُبِي فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ {0}.",
+      "fr": "Tu n'écriras pas (à une femme). « {ar|تَكْتُبِي} » est un verbe au présent, à l'accusatif, dont la marque est…",
+      "gaps": [ { "answers": ["حَذْفُ النُّونِ"] } ],
+      "options": ["حَذْفُ النُّونِ", "ثُبُوتُ النُّونِ", "الْفَتْحَةُ"],
+      "explain": "Après {ar|لَنْ}, le {ar|ن} de {ar|تَكْتُبِينَ} tombe : {ar|حَذْفُ النُّونِ}. La fatha est la marque des verbes ordinaires."
+    },
+    {
+      "id": "medine-t2.l13.grammar-3#5",
+      "type": "question",
+      "prompt": { "fr": "Comment le professeur analyse-t-il {ar|يَكْتُبُوا} dans {ar|لَمْ يَكْتُبُوا} ?" },
+      "choices": [
+        { "ar": "فِعْلٌ مُضَارِعٌ مَجْزُومٌ وَعَلَامَةُ جَزْمِهِ حَذْفُ النُّونِ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ ثُبُوتُ النُّونِ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ الْفَتْحَةُ" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|لَمْ}, le verbe est au jussif ({ar|مَجْزُومٌ}) et sa marque est la chute du {ar|ن}."
+    },
+    {
+      "id": "medine-t2.l13.grammar-3#6",
+      "type": "spot",
+      "instruction": "Touche le verbe dont la marque est la chute du {ar|ن}.",
+      "words": ["أَنْتُمْ", "لَمْ", "تَذْهَبُوا", "وَأَنْتُمْ", "تَجْلِسُونَ"],
+      "answers": [2],
+      "fr": "Vous n'êtes pas allés, et vous vous asseyez.",
+      "explain": "{ar|تَذْهَبُوا} suit {ar|لَمْ} : le {ar|ن} est tombé. {ar|تَجْلِسُونَ} garde son {ar|ن} : nominatif."
+    },
+    {
+      "id": "medine-t2.l13.grammar-3#7",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|لَنْ}, la marque de l'accusatif des cinq verbes est la fatha." },
+      "answer": false,
+      "explain": "Non : pour les cinq verbes, la marque de l'accusatif est la chute du {ar|ن} ({ar|لَنْ تَكْتُبُوا}). La fatha est la marque des verbes ordinaires."
+    },
+    {
+      "id": "medine-t2.l13.grammar-3#8",
+      "type": "true_false",
+      "statement": { "fr": "Pour les cinq verbes, l'accusatif et le jussif ont la même marque : la chute du {ar|ن}." },
+      "answer": true,
+      "explain": "Oui : {ar|لَنْ يَكْتُبُوا} (accusatif) et {ar|لَمْ يَكْتُبُوا} (jussif) ont la même forme."
+    },
+    {
+      "id": "medine-t2.l13.grammar-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ils ne sont pas allés à la mosquée.",
+      "answers": ["لَمْ يَذْهَبُوا إِلَى الْمَسْجِدِ."],
+      "explain": "{ar|لَمْ} + {ar|يَذْهَبُونَ} sans son {ar|ن} : {ar|لَمْ يَذْهَبُوا}."
+    }
+  ]
+}

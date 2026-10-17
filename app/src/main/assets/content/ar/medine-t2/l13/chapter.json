@@ -1,0 +1,19 @@
+{
+  "id": "medine-t2.l13",
+  "number": 13,
+  "title": { "ar": "الدَّرْسُ الثَّالِثَ عَشَرَ", "fr": "Les cinq verbes ; le verbe à finale défectueuse" },
+  "description": "Les cinq verbes et la chute du {ar|ن} après {ar|لَنْ} et {ar|لَمْ}, l'analyse du professeur, le verbe à finale défectueuse ({ar|يَدْعُو}, {ar|يَقْضِي}, {ar|يَسْعَى}) et ses trois états, le vocabulaire ({ar|اِتَّصَلَ}, {ar|سَيِّدٌ}, {ar|سَيَّارَةُ الْأُجْرَةِ}, {ar|أَخِيرٌ}) et les exercices du livre ({ar|ذَهَبَ} au présent, accords, trois états).",
+  "source": "Tome de Médine 2, leçon 13",
+  "sections": [
+    { "title": "Revoir : les trois états du présent", "activities": ["revue-1"] },
+    { "title": "Les cinq verbes", "activities": ["grammar-1", "grammar-2", "grammar-3"] },
+    { "title": "Le verbe à finale défectueuse", "activities": ["grammar-4", "grammar-5"] },
+    { "title": "Entrer en contact", "activities": ["vocab-1"] },
+    { "title": "Messieurs, taxis et rangs", "activities": ["vocab-2"] },
+    {
+      "title": "Les exercices du livre",
+      "activities": ["practice-1", "practice-2", "practice-3", "practice-4", "practice-5", "practice-6"]
+    },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

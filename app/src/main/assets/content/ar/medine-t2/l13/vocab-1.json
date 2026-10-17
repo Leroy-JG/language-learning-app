@@ -1,0 +1,81 @@
+{
+  "id": "medine-t2.l13.vocab-1",
+  "type": "vocabulary",
+  "title": "Entrer en contact",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t2.l13.vocab-1#1", "type": "present", "item": "w:ittasala" },
+    {
+      "id": "medine-t2.l13.vocab-1#2",
+      "type": "tip",
+      "title": "Les quatre formes de ce verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme toujours, le professeur donne quatre formes. Tu connais le passé et le présent ; l'impératif et le nom d'action ne sont qu'un aperçu."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [["être lié, être joint à", "{ar|اِتَّصَلَ}", "{ar|يَتَّصِلُ}", "{ar|اِتَّصِلْ}", "{ar|اِتِّصَالًا}"]]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le professeur l'emploie dans son plan de l'{ar|إِعْرَابٌ أَصْلِيٌّ}, au jussif : {ar|لَمْ يَتَّصِلْ بِآخِرِهِ شَيْءٌ} (« rien ne s'est joint à sa fin »). Le {ar|ت} est doublé : le {ar|و} de la racine {ar|و}-{ar|ص}-{ar|ل} s'est fondu avec le {ar|ت} du verbe."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ittasala",
+      "distractors": ["w:wasala", "w:rakiba"],
+      "explain": "{ar|اِتَّصَلَ} : il a été lié, il a contacté. {ar|وَصَلَ} : il est arrivé ; {ar|رَكِبَ} : il est monté."
+    },
+    {
+      "id": "medine-t2.l13.vocab-1#4",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ {0} بِالْمُدِيرِ.",
+      "fr": "Zayd a contacté le directeur.",
+      "gaps": [ { "answers": ["اِتَّصَلَ"] } ],
+      "options": ["اِتَّصَلَ", "جَلَسَ", "سَكَنَ"],
+      "explain": "{ar|اِتَّصَلَ بِ} : contacter quelqu'un."
+    },
+    {
+      "id": "medine-t2.l13.vocab-1#5",
+      "type": "question",
+      "prompt": { "fr": "Avec quelle préposition construit-on {ar|اِتَّصَلَ} pour dire « contacter quelqu'un » ?" },
+      "choices": [ { "ar": "بِ" }, { "ar": "عَلَى" }, { "ar": "مِنْ" } ],
+      "answer": 0,
+      "explain": "{ar|اِتَّصَلَ بِهِ} : « il l'a contacté »."
+    },
+    { "id": "medine-t2.l13.vocab-1#6", "type": "build", "item": "w:ittasala", "extra": ["ض"] },
+    {
+      "id": "medine-t2.l13.vocab-1#7",
+      "type": "fill_gap",
+      "sentence": "لَمْ {0} زَيْدٌ بِالْمُدِيرِ.",
+      "fr": "Zayd n'a pas contacté le directeur.",
+      "gaps": [ { "answers": ["يَتَّصِلْ"] } ],
+      "options": ["يَتَّصِلْ", "يَتَّصِلَانِ", "يَتَّصِلُونَ"],
+      "explain": "Après {ar|لَمْ}, le présent est au jussif, avec un sukūn : {ar|لَمْ يَتَّصِلْ}. Le sujet est un seul homme."
+    },
+    {
+      "id": "medine-t2.l13.vocab-1#8",
+      "type": "order",
+      "fr": "Zayd a contacté le directeur.",
+      "answers": [["اِتَّصَلَ", "زَيْدٌ", "بِالْمُدِيرِ"], ["زَيْدٌ", "اِتَّصَلَ", "بِالْمُدِيرِ"]],
+      "punctuation": ".",
+      "explain": "Le sujet peut se placer avant ou après le verbe."
+    },
+    {
+      "id": "medine-t2.l13.vocab-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il a contacté le directeur.",
+      "answers": ["اِتَّصَلَ بِالْمُدِيرِ.", "هُوَ اِتَّصَلَ بِالْمُدِيرِ."],
+      "explain": "{ar|اِتَّصَلَ} + {ar|بِالْمُدِيرِ}."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": "medine-t2.l13.practice-3",
+  "type": "vocabulary",
+  "title": "Exercice 3 : corrige l'accord du verbe",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l13.practice-3#1",
+      "type": "tip",
+      "title": "Corriger l'accord du verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans l'exercice 3, chaque phrase du livre contient une faute d'accord sur le verbe, à corriger. Deux questions suffisent : **qui fait l'action ?** et **où est le sujet ?**"
+        },
+        {
+          "type": "table",
+          "header": ["Situation", "Le verbe"],
+          "rows": [
+            [
+              "Le sujet est un pronom, ou un nom placé **avant** le verbe",
+              "il s'accorde en genre **et en nombre** : {ar|الطُّلَّابُ يَدْخُلُونَ}"
+            ],
+            [
+              "Le sujet est un nom placé **après** le verbe",
+              "il reste au **singulier**, accordé en genre seulement : {ar|يَدْخُلُ الطُّلَّابُ}, {ar|تَجْلِسُ الطَّالِبَاتُ}"
+            ],
+            [
+              "On s'adresse à quelqu'un ({ar|يَا} + un nom)",
+              "il suit la personne à qui l'on parle : {ar|يَا مَرْيَمُ، أَتَعْرِفِينَ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le verbe placé devant un sujet nom reste au singulier, même si ce sujet est un pluriel : c'est la règle de l'arabe standard."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.practice-3#2",
+      "type": "fill_gap",
+      "sentence": "يَا مَرْيَمُ، {0} رَقْمَ هَاتِفِ الْمُدِيرَةِ؟",
+      "fr": "Maryam, connais-tu le numéro de téléphone de la directrice ?",
+      "gaps": [ { "answers": ["أَتَعْرِفِينَ"] } ],
+      "options": ["أَتَعْرِفِينَ", "أَتَعْرِفُ", "أَتَعْرِفُونَ"],
+      "instruction": "Choisis la forme qui corrige la phrase du livre.",
+      "explain": "Maryam est une femme : {ar|تَعْرِفِينَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "{0} الطُّلَّابُ الْفَصْلَ قَبْلَ الْمُدَرِّسِ.",
+      "fr": "Les étudiants entrent en classe avant l'enseignant.",
+      "gaps": [ { "answers": ["يَدْخُلُ"] } ],
+      "options": ["يَدْخُلُ", "يَدْخُلُونَ", "يَدْخُلْنَ"],
+      "instruction": "Choisis la forme qui corrige la phrase du livre.",
+      "explain": "Le sujet {ar|الطُّلَّابُ} vient après le verbe : le verbe reste au singulier, {ar|يَدْخُلُ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-3#4",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans {ar|يَدْخُلُ الطُّلَّابُ الْفَصْلَ}, le verbe est au singulier alors que le sujet est un pluriel : c'est correct."
+      },
+      "answer": true,
+      "explain": "Oui : placé avant son sujet nom, le verbe reste au singulier. On dirait {ar|الطُّلَّابُ يَدْخُلُونَ} avec le sujet avant."
+    },
+    {
+      "id": "medine-t2.l13.practice-3#5",
+      "type": "fill_gap",
+      "sentence": "الطَّبِيبَاتُ {0} مِنَ الْمُسْتَشْفَى فِي السَّاعَةِ الْوَاحِدَةِ.",
+      "fr": "Les femmes médecins sortent de l'hôpital à une heure.",
+      "gaps": [ { "answers": ["يَخْرُجْنَ"] } ],
+      "options": ["يَخْرُجْنَ", "يَخْرُجُونَ", "تَخْرُجُ"],
+      "instruction": "Choisis la forme qui corrige la phrase du livre.",
+      "explain": "« Les femmes médecins » (elles), placées avant le verbe : {ar|يَخْرُجْنَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-3#6",
+      "type": "fill_gap",
+      "sentence": "{0} الطَّالِبَاتُ فِي الصَّفِّ الْأَخِيرِ.",
+      "fr": "Les étudiantes sont assises au dernier rang.",
+      "gaps": [ { "answers": ["تَجْلِسُ"] } ],
+      "options": ["تَجْلِسُ", "يَجْلِسُ", "تَجْلِسْنَ"],
+      "instruction": "Choisis la forme qui corrige la phrase du livre.",
+      "explain": "Le sujet {ar|الطَّالِبَاتُ} (des femmes) vient après le verbe : singulier féminin, {ar|تَجْلِسُ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-3#7",
+      "type": "sort",
+      "categories": [ { "fr": "le sujet est après le verbe" }, { "fr": "le sujet est avant le verbe" } ],
+      "cards": [
+        { "ar": "يَدْخُلُ الطُّلَّابُ", "category": 0 },
+        { "ar": "الطُّلَّابُ يَدْخُلُونَ", "category": 1 },
+        { "ar": "تَجْلِسُ الطَّالِبَاتُ", "category": 0 },
+        { "ar": "الطَّالِبَاتُ يَجْلِسْنَ", "category": 1 },
+        { "ar": "يَذْهَبُ التَّلَامِيذُ", "category": 0 },
+        { "ar": "التَّلَامِيذُ يَذْهَبُونَ", "category": 1 }
+      ],
+      "instruction": "Le sujet est-il avant ou après le verbe ?",
+      "explain": "Sujet après le verbe : le verbe reste au singulier. Sujet avant le verbe : le verbe s'accorde en nombre."
+    },
+    {
+      "id": "medine-t2.l13.practice-3#8",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ {0} يَا إِخْوَانُ؟",
+      "fr": "Où allez-vous, mes frères ?",
+      "gaps": [ { "answers": ["تَذْهَبُونَ"] } ],
+      "options": ["تَذْهَبُونَ", "تَذْهَبْنَ", "تَذْهَبِينَ"],
+      "instruction": "Choisis la forme qui corrige la phrase du livre.",
+      "explain": "On parle à plusieurs hommes : {ar|تَذْهَبُونَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-3#9",
+      "type": "fill_gap",
+      "sentence": "أُخْتِي {0} فِي الْمَدْرَسَةِ.",
+      "fr": "Ma sœur étudie à l'école.",
+      "gaps": [ { "answers": ["تَدْرُسُ"] } ],
+      "options": ["تَدْرُسُ", "يَدْرُسُ", "تَدْرُسْنَ"],
+      "instruction": "Choisis la forme qui corrige la phrase du livre.",
+      "explain": "« Ma sœur » est féminin : {ar|تَدْرُسُ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Qu'écrivez-vous, mes filles ?",
+      "answers": ["مَاذَا تَكْتُبْنَ يَا بَنَاتِي؟", "يَا بَنَاتِي مَاذَا تَكْتُبْنَ؟", "مَاذَا يَا بَنَاتِي تَكْتُبْنَ؟"],
+      "explain": "On parle à plusieurs filles : {ar|تَكْتُبْنَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-3#11",
+      "type": "fill_gap",
+      "sentence": "مَاذَا {0} يَا عَبَّاسُ؟",
+      "fr": "Que manges-tu, ʿAbbās ?",
+      "gaps": [ { "answers": ["تَأْكُلُ"] } ],
+      "options": ["تَأْكُلُ", "تَأْكُلِينَ", "تَأْكُلْنَ"],
+      "instruction": "Choisis la forme qui corrige la phrase du livre.",
+      "explain": "ʿAbbās est un homme : {ar|تَأْكُلُ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-3#12",
+      "type": "order",
+      "fr": "Mon père reviendra de Riyad la semaine prochaine.",
+      "answers": [
+        ["سَيَرْجِعُ", "أَبِي", "مِنَ", "الرِّيَاضِ", "فِي", "الْأُسْبُوعِ", "الْقَادِمِ"],
+        ["أَبِي", "سَيَرْجِعُ", "مِنَ", "الرِّيَاضِ", "فِي", "الْأُسْبُوعِ", "الْقَادِمِ"]
+      ],
+      "punctuation": ".",
+      "explain": "« Mon père » est masculin : {ar|سَيَرْجِعُ} (et non {ar|سَتَرْجِعُ})."
+    },
+    {
+      "id": "medine-t2.l13.practice-3#13",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} الْقَهْوَةَ كُلَّ صَبَاحٍ.",
+      "fr": "Nous buvons le café chaque matin.",
+      "gaps": [ { "answers": ["نَشْرَبُ"] } ],
+      "options": ["نَشْرَبُ", "أَشْرَبُ", "يَشْرَبُونَ"],
+      "instruction": "Choisis la forme qui corrige la phrase du livre.",
+      "explain": "« Nous » : {ar|نَشْرَبُ}."
+    }
+  ]
+}

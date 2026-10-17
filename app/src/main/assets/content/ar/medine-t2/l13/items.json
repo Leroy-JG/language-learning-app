@@ -1,0 +1,106 @@
+[
+  {
+    "id": "w:afal-khamsa",
+    "kind": "word",
+    "ar": "الْأَفْعَالُ الْخَمْسَةُ",
+    "fr": "les cinq verbes (les cinq formes du présent qui gardent un {ar|ن} final)",
+    "translit": "al-afʿālu l-khamsatu",
+    "note": "Ce sont les cinq formes du présent dont le sujet est le yā' de « toi » (une femme), l'alif des deux ou le wāw du groupe : {ar|يَفْعَلَانِ}, {ar|تَفْعَلَانِ}, {ar|يَفْعَلُونَ}, {ar|تَفْعَلُونَ}, {ar|تَفْعَلِينَ}. Leur marque du nominatif est le {ar|ن} final.",
+    "example": { "ar": "هُمْ يَكْتُبُونَ.", "fr": "Ils écrivent." }
+  },
+  {
+    "id": "p:thubut-nun",
+    "kind": "phrase",
+    "ar": "ثُبُوتُ النُّونِ",
+    "fr": "le maintien du {ar|ن} (il reste à la fin du verbe)",
+    "translit": "thubūtu n-nūni",
+    "note": "C'est la marque du nominatif des cinq verbes : le {ar|ن} final reste en place. Le mot {ar|ثُبُوتٌ} veut dire « le fait de rester, d'être établi »."
+  },
+  {
+    "id": "p:hadhf-nun",
+    "kind": "phrase",
+    "ar": "حَذْفُ النُّونِ",
+    "fr": "la chute du {ar|ن} (il disparaît)",
+    "translit": "ḥadhfu n-nūni",
+    "note": "C'est la marque de l'accusatif et du jussif des cinq verbes : après {ar|لَنْ} ou {ar|لَمْ}, le {ar|ن} final tombe. Le mot {ar|حَذْفٌ} veut dire « la suppression »."
+  },
+  {
+    "id": "w:alama",
+    "kind": "word",
+    "ar": "عَلَامَةٌ",
+    "fr": "une marque, un signe",
+    "translit": "ʿalāmatun",
+    "plural": "عَلَامَاتٌ",
+    "gender": "f",
+    "note": "Le professeur dit {ar|عَلَامَةُ رَفْعِهِ} (« la marque de son nominatif »), {ar|عَلَامَةُ نَصْبِهِ}, {ar|عَلَامَةُ جَزْمِهِ} : le {ar|هِ} final est le pronom « son ».",
+    "example": { "ar": "عَلَامَةُ الرَّفْعِ الضَّمَّةُ.", "fr": "La marque du nominatif est la damma." }
+  },
+  {
+    "id": "w:muatall-akhir",
+    "kind": "word",
+    "ar": "الْفِعْلُ الْمُعْتَلُّ الْآخِرِ",
+    "fr": "le verbe à finale défectueuse (dont la dernière lettre de la racine est {ar|و}, {ar|ي} ou {ar|ى})",
+    "translit": "al-fiʿlu l-muʿtallu l-ākhiri",
+    "gender": "m",
+    "note": "Ce sont les verbes comme {ar|يَدْعُو}, {ar|يَقْضِي}, {ar|يَسْعَى}. Le mot {ar|الْمُعْتَلُّ} vient de {ar|عِلَّةٌ}, qui veut dire « une infirmité, un défaut » : on dit aussi « les lettres faibles ».",
+    "example": { "ar": "زَيْدٌ يَسْعَى.", "fr": "Zayd s'efforce." }
+  },
+  {
+    "id": "w:harf-illa",
+    "kind": "word",
+    "ar": "حَرْفُ الْعِلَّةِ",
+    "fr": "une lettre défectueuse ({ar|و}, {ar|ي} ou {ar|ى})",
+    "translit": "ḥarfu l-ʿillati",
+    "plural": "حُرُوفُ الْعِلَّةِ",
+    "gender": "m",
+    "note": "Elles sont trois : {ar|و}, {ar|ي} et {ar|ى} (le {ar|ى}, sans points, se prononce comme un « â » long). Le verbe dont la dernière lettre est l'une d'elles est un {ar|فِعْلٌ مُعْتَلُّ الْآخِرِ}.",
+    "example": { "ar": "لَمْ يَسْعَ زَيْدٌ.", "fr": "Zayd ne s'est pas efforcé." }
+  },
+  {
+    "id": "p:hadhf-harf-illa",
+    "kind": "phrase",
+    "ar": "حَذْفُ حَرْفِ الْعِلَّةِ",
+    "fr": "la chute de la lettre défectueuse (elle disparaît)",
+    "translit": "ḥadhfu ḥarfi l-ʿillati",
+    "note": "C'est la marque du jussif des verbes à finale défectueuse : la dernière lettre ({ar|و}, {ar|ي} ou {ar|ى}) tombe après {ar|لَمْ}."
+  },
+  {
+    "id": "w:ittasala",
+    "kind": "word",
+    "ar": "اِتَّصَلَ",
+    "fr": "il a été lié (être lié, être joint à quelque chose)",
+    "translit": "ittaṣala",
+    "note": "Au présent : {ar|يَتَّصِلُ}. Avec {ar|بِ}, il veut aussi dire « contacter, joindre (par téléphone, par exemple) » : {ar|اِتَّصَلَ بِهِ} (« il l'a contacté »). Sa racine est {ar|و}-{ar|ص}-{ar|ل}, comme {ar|وَصَلَ} (« arriver »).",
+    "example": { "ar": "اِتَّصَلَ زَيْدٌ بِالْمُدِيرِ.", "fr": "Zayd a contacté le directeur." }
+  },
+  {
+    "id": "w:sayyid",
+    "kind": "word",
+    "ar": "سَيِّدٌ",
+    "fr": "un monsieur, un maître",
+    "translit": "sayyidun",
+    "plural": "سَادَةٌ",
+    "gender": "m",
+    "note": "On s'adresse poliment à un homme avec {ar|يَا سَيِّدُ} (« Monsieur ! »). Le mot veut aussi dire « maître » (d'un esclave, dans l'ancien temps) et « chef respecté ». Le féminin est {ar|سَيِّدَةٌ} (« madame »), comme dans {ar|يَا سَيِّدَتِي}.",
+    "example": { "ar": "يَا سَيِّدُ، أَيْنَ الْمَسْجِدُ؟", "fr": "Monsieur, où est la mosquée ?" }
+  },
+  {
+    "id": "p:sayyarat-ujra",
+    "kind": "phrase",
+    "ar": "سَيَّارَةُ الْأُجْرَةِ",
+    "fr": "un taxi",
+    "translit": "sayyāratu l-ujrati",
+    "note": "Mot à mot : « la voiture du tarif ». {ar|أُجْرَةٌ} est le prix qu'on paie pour un service (une course, un loyer, un salaire). Tu connais déjà {ar|سَيَّارَةٌ} (« une voiture »).",
+    "example": { "ar": "أَرْكَبُ سَيَّارَةَ الْأُجْرَةِ.", "fr": "Je monte dans un taxi." }
+  },
+  {
+    "id": "w:akhir",
+    "kind": "word",
+    "ar": "أَخِيرٌ",
+    "fr": "dernier",
+    "translit": "akhīrun",
+    "plural": "أَخِيرُونَ",
+    "note": "Il suit le nom et s'accorde avec lui (article, cas) : {ar|الصَّفُّ الْأَخِيرُ} (« le dernier rang »). Au féminin : {ar|أَخِيرَةٌ}.",
+    "example": { "ar": "صَلَّى زَيْدٌ فِي الصَّفِّ الْأَخِيرِ.", "fr": "Zayd a prié au dernier rang." }
+  }
+]

@@ -148,6 +148,11 @@ Exemples tirés des leçons 1 à 6 :
   `compare` de « un même verbe, trois états » (`يَدْرُسُ` → `لَنْ يَدْرُسَ` / `لَمْ يَدْرُسْ`) dans `l12/grammar-2` ; `breakdown` de `تَكْتُبُونَ` / `تَكْتُبِينَ` / `تَكْتُبَانِ` (lettre du présent, racine, pronom, `ن` final) dans `l12/grammar-4` ;
   `question` à choix arabes pour faire lire l'analyse du professeur (`فِعْلٌ مُضَارِعٌ مَجْزُومٌ`) dans `l12/grammar-3` ; `fill_gap` du verbe avec le mot d'appel féminin / masculin comme seul indice (`l12/practice-2`, `practice-3`, `practice-5`).
 
+- (Tome 2, leçon 13) `sort` « un des cinq verbes / pas un des cinq » (les cartes se reconnaissent à leur fin, même voyelles masquées) dans `medine-t2/l13/grammar-1`, `sort` « le `ن` reste / le `ن` tombe » et `compare` du nominatif à `لَنْ` / `لَمْ` dans `l13/grammar-2` ;
+  `spot` de la chute du `ن` ou de la lettre défectueuse (`l13/grammar-2`, `grammar-5`) ; `question` à choix arabes pour faire lire l'analyse du professeur (`وَعَلَامَةُ رَفْعِهِ ثُبُوتُ النُّونِ`) dans `l13/grammar-3` ;
+  `breakdown` du sujet visible ou caché (`يَذْهَبُونَ`, `يَذْهَبْنَ`) et `sort` « le `ن` : marque du nominatif ou pronom » dans `l13/practice-4` ; `sort` « sujet avant / après le verbe » (accord du verbe) dans `l13/practice-3` ;
+  `fill_gap` dont les trois options sont le même verbe à trois personnes (le sujet ou le mot d'appel est le seul indice) dans `l13/practice-1` et `practice-2`, et pour les verbes défectueux au jussif (`يَمْشِ` / `يَمْشِي` / `يَمْشُونَ`, options qui diffèrent par une lettre et non par les harakat seuls) dans `l13/grammar-5`.
+
 ### Entraîner une voyelle finale (kasra, fatha…)
 
 Le validateur refuse deux choix qui ne diffèrent que par les harakat (`الْبَيْتِ` / `الْبَيْتُ`), et le

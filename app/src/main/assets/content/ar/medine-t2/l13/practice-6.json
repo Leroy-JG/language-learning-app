@@ -1,0 +1,109 @@
+{
+  "id": "medine-t2.l13.practice-6",
+  "type": "vocabulary",
+  "title": "Exercice 6 : les trois états du présent",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l13.practice-6#1",
+      "type": "tip",
+      "title": "Le modèle du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le deuxième exercice de cette série du livre part d'un verbe au passé et demande son présent aux trois états : nominatif, accusatif (après {ar|لَنْ}) et jussif (après {ar|لَمْ}). Voici les deux modèles du livre :"
+        },
+        {
+          "type": "table",
+          "header": ["Passé", "Nominatif", "Accusatif", "Jussif"],
+          "rows": [
+            ["{ar|زَيْدٌ كَتَبَ}", "{ar|زَيْدٌ يَكْتُبُ}", "{ar|لَنْ يَكْتُبَ}", "{ar|لَمْ يَكْتُبْ}"],
+            ["{ar|أَنْتِ كَتَبْتِ}", "{ar|أَنْتِ تَكْتُبِينَ}", "{ar|لَنْ تَكْتُبِي}", "{ar|لَمْ تَكْتُبِي}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le livre écrit seulement les trois verbes ({ar|يَكْتُبُ}, {ar|يَكْتُبَ}, {ar|يَكْتُبْ}) : {ar|لَنْ} et {ar|لَمْ} sont ajoutés ici pour que tu voies ce qui décide de l'état."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.practice-6#2",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif ({ar|رَفْعٌ})" }, { "fr": "accusatif ({ar|نَصْبٌ})" }, { "fr": "jussif ({ar|جَزْمٌ})" } ],
+      "cards": [
+        { "ar": "زَيْدٌ يَسْعَى", "category": 0 },
+        { "ar": "لَنْ يَسْعَى", "category": 1 },
+        { "ar": "لَمْ يَسْعَ", "category": 2 },
+        { "ar": "أَنْتُمْ تَذْهَبُونَ", "category": 0 },
+        { "ar": "لَنْ تَذْهَبُوا", "category": 1 },
+        { "ar": "لَمْ تَذْهَبُوا", "category": 2 },
+        { "ar": "أَنْتَ تَدْخُلُ", "category": 0 },
+        { "ar": "لَمْ تَدْخُلْ", "category": 2 }
+      ],
+      "instruction": "Quel est l'état du verbe ?",
+      "explain": "Sans particule : nominatif. Après {ar|لَنْ} : accusatif. Après {ar|لَمْ} : jussif."
+    },
+    {
+      "id": "medine-t2.l13.practice-6#3",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle finale prend {ar|تَدْخُلُ} après {ar|لَمْ} ({ar|أَنْتَ لَمْ تَدْخُلْ}) ?" },
+      "choices": [ { "fr": "un sukūn" }, { "fr": "une fatha" }, { "fr": "une damma" } ],
+      "answer": 0,
+      "explain": "Après {ar|لَمْ}, le présent d'un verbe ordinaire est au jussif : le sukūn."
+    },
+    {
+      "id": "medine-t2.l13.practice-6#4",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ لَمْ {0}.",
+      "fr": "Zayd ne s'est pas efforcé.",
+      "gaps": [ { "answers": ["يَسْعَ"] } ],
+      "options": ["يَسْعَ", "يَسْعَى", "يَسْعَوْنَ"],
+      "explain": "Après {ar|لَمْ}, le {ar|ى} de {ar|يَسْعَى} tombe : {ar|لَمْ يَسْعَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-6#5",
+      "type": "fill_gap",
+      "sentence": "أَنْتُمْ لَنْ {0} إِلَى الْمَسْجِدِ.",
+      "fr": "Vous n'irez pas à la mosquée.",
+      "gaps": [ { "answers": ["تَذْهَبُوا"] } ],
+      "options": ["تَذْهَبُوا", "تَذْهَبُونَ", "تَذْهَبْنَ"],
+      "explain": "Après {ar|لَنْ}, le {ar|ن} de {ar|تَذْهَبُونَ} tombe : {ar|لَنْ تَذْهَبُوا}."
+    },
+    {
+      "id": "medine-t2.l13.practice-6#6",
+      "type": "true_false",
+      "statement": {
+        "fr": "L'accusatif et le jussif de {ar|تَكْتُبِينَ} ont la même forme : {ar|لَنْ تَكْتُبِي} et {ar|لَمْ تَكْتُبِي}."
+      },
+      "answer": true,
+      "explain": "Oui : pour les cinq verbes, la marque de l'accusatif et du jussif est la chute du {ar|ن}."
+    },
+    {
+      "id": "medine-t2.l13.practice-6#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd ne s'est pas efforcé.",
+      "answers": ["لَمْ يَسْعَ زَيْدٌ.", "زَيْدٌ لَمْ يَسْعَ."],
+      "explain": "{ar|لَمْ} + {ar|يَسْعَى} sans son {ar|ى} : {ar|لَمْ يَسْعَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-6#8",
+      "type": "order",
+      "fr": "Tu n'es pas allé au marché.",
+      "answers": [["أَنْتَ", "لَمْ", "تَذْهَبْ", "إِلَى", "السُّوقِ"]],
+      "punctuation": ".",
+      "distractors": ["لَنْ"],
+      "explain": "{ar|لَمْ} + le présent au sukūn : {ar|لَمْ تَذْهَبْ}. {ar|لَنْ} se mettrait avec la fatha."
+    },
+    {
+      "id": "medine-t2.l13.practice-6#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Vous (plusieurs hommes) n'irez pas.",
+      "answers": ["لَنْ تَذْهَبُوا.", "أَنْتُمْ لَنْ تَذْهَبُوا."],
+      "explain": "{ar|لَنْ} + {ar|تَذْهَبُونَ} sans son {ar|ن} : {ar|لَنْ تَذْهَبُوا}."
+    }
+  ]
+}
