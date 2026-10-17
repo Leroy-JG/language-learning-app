@@ -15,10 +15,13 @@
         },
         {
           "type": "table",
-          "header": ["Exclu", "Pourquoi"],
+          "header": ["Exclu de l'impératif", "Pourquoi"],
           "rows": [
             ["la première personne ({ar|الْمُتَكَلِّمُ})", "on ne se donne pas d'ordre à soi-même"],
-            ["la troisième personne ({ar|الْغَائِبُ})", "on ne donne pas d'ordre à une personne absente"],
+            [
+              "la troisième personne ({ar|الْغَائِبُ})",
+              "l'impératif s'adresse à quelqu'un qui est là, pas à une personne absente"
+            ],
             ["un nom ({ar|اسْمٌ ظَاهِرٌ})", "le sujet est toujours le pronom « toi » ou « vous »"]
           ]
         },
@@ -26,6 +29,10 @@
           "type": "note",
           "tone": "warning",
           "text": "Un nom peut accompagner l'ordre, mais comme mot d'appel : {ar|يَا زَيْدُ، اُكْتُبْ} (« Zayd, écris ! »). Ce n'est pas le sujet du verbe."
+        },
+        {
+          "type": "note",
+          "text": "Pour ordonner quelque chose à une personne absente (« qu'il écrive ! »), l'arabe emploie une autre construction : {ar|لِ} + le présent au jussif, par exemple {ar|لِيَكْتُبْ}. Ce n'est qu'un aperçu : rien n'est exigé en exercice."
         }
       ]
     },
@@ -66,11 +73,11 @@
           "header": ["Ils sont…", "Exemple"],
           "rows": [
             ["tous invariables ({ar|مَبْنِيٌّ})", "{ar|ي}, {ar|ا}, {ar|و}, {ar|نَ} ne changent jamais"],
-            ["propres au verbe", "on ne les colle pas à un nom comme sujet"],
+            ["propres au verbe", "ils ne se collent qu'à des verbes"],
             ["toujours sujet du verbe auquel ils sont collés", "pour cela on les appelle « pronoms sujets »"],
             [
               "différents selon le temps du verbe",
-              "{ar|كَتَبُوا} (passé), {ar|يَكْتُبُونَ} (présent), {ar|اُكْتُبُوا} (impératif)"
+              "{ar|كَتَبْتَ} (passé : le pronom est {ar|تَ}), {ar|تَكْتُبُ} (présent) et {ar|اُكْتُبْ} (impératif) : pronoms cachés"
             ],
             ["parfois cachés ({ar|مُسْتَتِرٌ})", "{ar|اُكْتُبْ} : « toi » est sous-entendu"]
           ]
@@ -109,7 +116,7 @@
       "type": "true_false",
       "statement": { "fr": "À l'impératif, le sujet peut être « il » ou « elle »." },
       "answer": false,
-      "explain": "Non : « il » et « elle » sont des personnes absentes, on ne leur donne pas d'ordre. Seule la deuxième personne est possible."
+      "explain": "Non : « il » et « elle » sont des personnes absentes, et l'impératif ne s'adresse qu'à une personne présente. Seule la deuxième personne est possible."
     },
     {
       "id": "medine-t2.l14.grammar-4#8",

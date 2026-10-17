@@ -234,9 +234,9 @@
     "id": "w:alima",
     "kind": "word",
     "ar": "عَلِمَ",
-    "fr": "il a su, il a appris (savoir, apprendre)",
+    "fr": "il a su (savoir)",
     "translit": "ʿalima",
-    "note": "Même racine que {ar|عِلْمٌ} (« un savoir »)."
+    "note": "Même racine que {ar|عِلْمٌ} (« un savoir »). Avec {ar|بِ}, {ar|عَلِمَ بِ} veut dire « être au courant de, apprendre (une nouvelle) »."
   },
   {
     "id": "w:mata-2",
@@ -263,6 +263,6 @@
     "fr": "du savon",
     "translit": "ṣābūnun",
     "gender": "m",
-    "example": { "ar": "اِغْسِلْ وَجْهَكَ بِالصَّابُونِ.", "fr": "Lave-toi le visage avec du savon !" }
+    "example": { "ar": "اِغْسِلْ وَجْهَكَ بِالصَّابُونِ.", "fr": "Lave-toi le visage avec le savon !" }
   }
 ]

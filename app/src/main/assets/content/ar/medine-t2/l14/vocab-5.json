@@ -74,8 +74,8 @@
     {
       "id": "medine-t2.l14.vocab-5#14",
       "type": "order",
-      "fr": "Lave ton visage avec du savon !",
-      "answers": [["اِغْسِلْ", "وَجْهَكَ", "بِالصَّابُونِ"]],
+      "fr": "Lave ton visage avec le savon !",
+      "answers": [["اِغْسِلْ", "وَجْهَكَ", "بِالصَّابُونِ"], ["اِغْسِلْ", "بِالصَّابُونِ", "وَجْهَكَ"]],
       "punctuation": "!",
       "explain": "{ar|اِغْسِلْ} (kasra : {ar|يَغْسِلُ}), puis {ar|وَجْهَكَ}, puis {ar|بِالصَّابُونِ}."
     },
@@ -92,7 +92,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Lève la tête !",
-      "answers": ["اِرْفَعْ رَأْسَكَ."],
+      "answers": ["اِرْفَعْ رَأْسَكَ.", "اِرْفَعِ الرَّأْسَ."],
       "explain": "{ar|يَرْفَعُ} → {ar|اِرْفَعْ}."
     }
   ]

@@ -115,7 +115,7 @@
       "ask": "audio",
       "fr": "Ô Adam, habite le Paradis, toi et ton épouse !",
       "answers": ["يَا آدَمُ اُسْكُنْ أَنْتَ وَزَوْجُكَ الْجَنَّةَ."],
-      "explain": "Paroles adressées à Adam dans le Coran : {ar|اُسْكُنْ} (damma : {ar|يَسْكُنُ}), puis le pronom {ar|أَنْتَ} pour renforcer."
+      "explain": "Paroles adressées à Adam dans le Coran : {ar|اُسْكُنْ} (damma : {ar|يَسْكُنُ}), puis {ar|أَنْتَ}, un pronom explicite qui permet de coordonner {ar|وَزَوْجُكَ} au sujet caché de {ar|اُسْكُنْ}."
     }
   ]
 }

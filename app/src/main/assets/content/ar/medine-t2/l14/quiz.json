@@ -85,14 +85,14 @@
     {
       "id": "medine-t2.l14.quiz#9",
       "type": "question",
-      "prompt": { "fr": "À quelles personnes un ordre peut-il s'adresser ?" },
+      "prompt": { "fr": "À quelles personnes l'impératif peut-il s'adresser ?" },
       "choices": [
         { "fr": "Seulement à « toi » ou à « vous »" },
         { "fr": "À « je » et à « nous »" },
         { "fr": "À « il » et à « elle »" }
       ],
       "answer": 0,
-      "explain": "On ne donne pas d'ordre à soi-même ni à une personne absente : seule la deuxième personne est possible."
+      "explain": "L'impératif ne s'adresse ni à soi-même ni à une personne absente : seule la deuxième personne est possible."
     },
     {
       "id": "medine-t2.l14.quiz#10",

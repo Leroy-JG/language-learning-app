@@ -67,7 +67,7 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "{ar|أَكَلَ} et {ar|أَخَذَ} perdent leur hamza : {ar|كُلْ}, {ar|خُذْ}. Pour les autres, on ajoute la hamza de liaison."
+          "text": "{ar|أَكَلَ} et {ar|أَخَذَ} perdent leur hamza : {ar|كُلْ}, {ar|خُذْ}. Pour les autres verbes de ce tableau, on ajoute la hamza de liaison."
         }
       ]
     },

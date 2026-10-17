@@ -69,7 +69,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "J'écris sur une feuille.",
-      "answers": ["أَكْتُبُ عَلَى وَرَقَةٍ."],
+      "answers": ["أَكْتُبُ عَلَى وَرَقَةٍ.", "أَنَا أَكْتُبُ عَلَى وَرَقَةٍ."],
       "explain": "{ar|أَكْتُبُ} + {ar|عَلَى} + {ar|وَرَقَةٍ} (génitif après la préposition)."
     },
     {

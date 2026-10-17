@@ -37,7 +37,7 @@
           "ar": "اُنْظُرْ هُنَا يَا أُسْتَاذُ. هِيَ تَحْتَ مَكْتَبِ هِشَامٍ.",
           "fr": "Regarde ici, professeur. Il est sous le bureau de Hishām."
         },
-        { "speaker": "M", "ar": "اُقْتُلُوهَا يَا إِخْوَانُ.", "fr": "Tuez-le, mes frères !" },
+        { "speaker": "M", "ar": "اُقْتُلُوهَا يَا إِخْوَانُ.", "fr": "Tuez-le, frères !" },
         { "speaker": "E", "ar": "بِمَ نَقْتُلُهَا؟", "fr": "Avec quoi le tuons-nous ?" },
         {
           "speaker": "M",
@@ -58,12 +58,12 @@
         {
           "speaker": "A",
           "ar": "يَا أُسْتَاذُ، حَفِظْتُ هٰذِهِ السُّورَةَ. أَيَّ سُورَةٍ أَحْفَظُ بَعْدَهَا؟",
-          "fr": "Professeur, j'ai mémorisé cette sourate. Quelle sourate dois-je mémoriser après elle ?"
+          "fr": "Professeur, j'ai mémorisé cette sourate. Quelle sourate vais-je mémoriser après celle-ci ?"
         },
         {
           "speaker": "M",
           "ar": "اِحْفَظْ سُورَةَ التِّينِ. خُذْ دَفْتَرَكَ هٰذَا وَاكْتُبْ فِيهِ سُورَةَ الْعَلَقِ. يَا أَبَا بَكْرٍ، إِنَّكَ نَعْسَانُ.",
-          "fr": "Mémorise la sourate At-Tīn. Prends ce cahier, le tien, et écris-y la sourate Al-ʿAlaq. Abū Bakr, tu as sommeil !"
+          "fr": "Mémorise la sourate At-Tīn. Prends ton cahier que voici et écris-y la sourate Al-ʿAlaq. Abū Bakr, tu as sommeil !"
         },
         {
           "speaker": "M",
@@ -79,7 +79,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Ce texte contient quelques formes que tu n'as pas encore étudiées en détail. Il suffit de les repérer : rien n'est exigé en exercice."
+          "text": "Ce texte contient quelques formes que tu n'as pas encore étudiées en détail. Il suffit de les repérer : rien n'est exigé en exercice, sauf l'ordre suivi d'un pronom complément collé (les pronoms du chapitre 8, ici collés à l'impératif)."
         },
         {
           "type": "table",
@@ -110,7 +110,7 @@
         },
         {
           "type": "note",
-          "text": "{ar|أَبُو بَكْرٍ} est un nom d'homme. Le professeur rappelle comment il change : {ar|أَبُو} (nominatif), {ar|أَبَا} (accusatif, ou ici après {ar|يَا}), {ar|أَبِي} (génitif : {ar|لِأَبِي بَكْرٍ})."
+          "text": "{ar|أَبُو بَكْرٍ} est un nom d'homme. Dans une annexion, {ar|أَبٌ} s'allonge : {ar|أَبُو} (nominatif), {ar|أَبَا} (accusatif, ou ici après {ar|يَا}), {ar|أَبِي} (génitif : {ar|لِأَبِي بَكْرٍ}, le rappel du professeur)."
         }
       ]
     },
@@ -125,14 +125,9 @@
     },
     {
       "id": "medine-t2.l14.dialogue-1#4",
-      "type": "question",
-      "prompt": { "fr": "Que demande le professeur à Humāyūn ?" },
-      "choices": [
-        { "fr": "D'écrire son nom sur une feuille" },
-        { "fr": "De lire une sourate" },
-        { "fr": "De fermer la porte" }
-      ],
-      "answer": 0,
+      "type": "true_false",
+      "statement": { "fr": "Le professeur demande à Humāyūn d'écrire son nom sur une feuille." },
+      "answer": true,
       "context": { "dialogue": "medine-t2.l14.dialogue-1#1" },
       "explain": "{ar|اُكْتُبْهُ عَلَى هٰذِهِ الْوَرَقَةِ} : « écris-le sur cette feuille »."
     },
@@ -164,14 +159,9 @@
     },
     {
       "id": "medine-t2.l14.dialogue-1#8",
-      "type": "question",
-      "prompt": { "fr": "Pourquoi le professeur envoie-t-il Abū Bakr se laver le visage ?" },
-      "choices": [
-        { "fr": "Parce qu'il a sommeil" },
-        { "fr": "Parce qu'il a tué le scorpion" },
-        { "fr": "Parce qu'il est en retard" }
-      ],
-      "answer": 0,
+      "type": "true_false",
+      "statement": { "fr": "Le professeur envoie Abū Bakr se laver le visage parce qu'il a sommeil." },
+      "answer": true,
       "context": { "dialogue": "medine-t2.l14.dialogue-1#1" },
       "explain": "{ar|إِنَّكَ نَعْسَانُ} : « tu as sommeil »."
     },
@@ -192,7 +182,11 @@
       "id": "medine-t2.l14.dialogue-1#10",
       "type": "order",
       "fr": "Tue-le avec ta chaussure, Hishām !",
-      "answers": [["اُقْتُلْهَا", "بِحِذَائِكَ", "يَا", "هِشَامُ"]],
+      "answers": [
+        ["اُقْتُلْهَا", "بِحِذَائِكَ", "يَا", "هِشَامُ"],
+        ["يَا", "هِشَامُ", "اُقْتُلْهَا", "بِحِذَائِكَ"],
+        ["اُقْتُلْهَا", "يَا", "هِشَامُ", "بِحِذَائِكَ"]
+      ],
       "punctuation": "!",
       "explain": "Un ordre à un homme : {ar|اُقْتُلْ}, suivi du pronom {ar|هَا}."
     },

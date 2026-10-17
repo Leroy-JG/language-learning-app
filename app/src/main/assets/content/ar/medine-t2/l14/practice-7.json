@@ -45,7 +45,7 @@
       "id": "medine-t2.l14.practice-7#5",
       "type": "fill_gap",
       "sentence": "{0} وُجُوهَكُنَّ بِالصَّابُونِ.",
-      "fr": "Lavez-vous le visage avec du savon (plusieurs femmes) !",
+      "fr": "Lavez-vous le visage avec le savon (plusieurs femmes) !",
       "gaps": [ { "answers": ["اِغْسِلْنَ"] } ],
       "options": ["اِغْسِلْنَ", "اِغْسِلُوا", "اِغْسِلِي"],
       "explain": "Le {ar|كُنَّ} de {ar|وُجُوهَكُنَّ} montre qu'on parle à plusieurs femmes : {ar|اِغْسِلْنَ}."
@@ -54,7 +54,7 @@
       "id": "medine-t2.l14.practice-7#6",
       "type": "order",
       "fr": "Rase-toi la tête avec le rasoir !",
-      "answers": [["اِحْلِقْ", "رَأْسَكَ", "بِالْمُوسَى"]],
+      "answers": [["اِحْلِقْ", "رَأْسَكَ", "بِالْمُوسَى"], ["اِحْلِقْ", "بِالْمُوسَى", "رَأْسَكَ"]],
       "punctuation": "!",
       "explain": "Un homme : {ar|اِحْلِقْ}, et {ar|رَأْسَكَ} (« ta tête »)."
     },

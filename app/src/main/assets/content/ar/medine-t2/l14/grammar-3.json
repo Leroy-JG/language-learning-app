@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "La hamza de liaison de l'impératif prend en général une **kasra** : {ar|اِذْهَبْ}. Mais quand la **troisième lettre du présent** porte une **damma**, la hamza de liaison prend elle aussi une **damma**. On compte la lettre du présent : dans {ar|تَكْتُبُ}, {ar|تَ} est la première lettre, {ar|ك} la deuxième, {ar|تُ} la troisième."
+          "text": "Pour les verbes de trois lettres comme ceux-ci, la hamza de liaison de l'impératif prend en général une **kasra** : {ar|اِذْهَبْ}. Mais quand la **troisième lettre du présent** porte une **damma**, la hamza de liaison prend elle aussi une **damma**. On compte la lettre du présent : dans {ar|تَكْتُبُ}, {ar|تَ} est la première lettre, {ar|ك} la deuxième, {ar|تُ} la troisième."
         },
         {
           "type": "table",
@@ -140,7 +140,7 @@
         },
         {
           "type": "note",
-          "text": "C'est la même règle que pour {ar|مَنِ} ou {ar|ذَهَبَتِ} devant {ar|الْ} (les deux sukūn qui se rencontrent)."
+          "text": "C'est la même règle que pour {ar|مَنِ} ou {ar|ذَهَبَتِ} devant {ar|الْ} (les deux sukūn qui se rencontrent). Elle vaut aussi devant tout autre mot qui commence par une hamza de liaison, comme {ar|اُكْتُبِ اسْمَكَ}."
         }
       ]
     },

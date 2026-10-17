@@ -94,7 +94,7 @@
     {
       "id": "medine-t2.l14.practice-8#8",
       "type": "true_false",
-      "statement": { "fr": "{ar|لَمْ تَدْرُسَا} s'adresse à deux personnes." },
+      "statement": { "fr": "{ar|لَمْ تَدْرُسَا} désigne deux personnes." },
       "answer": true,
       "explain": "Oui : l'alif est le pronom des deux personnes. Cette forme peut être « vous deux » ou « elles deux »."
     },
