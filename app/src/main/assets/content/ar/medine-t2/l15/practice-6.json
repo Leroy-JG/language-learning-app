@@ -1,0 +1,141 @@
+{
+  "id": "medine-t2.l15.practice-6",
+  "type": "vocabulary",
+  "title": "{ar|مَا} : nier ou s'exclamer ?",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l15.practice-6#1",
+      "type": "tip",
+      "title": "Deux emplois de {ar|مَا}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne d'abord un dernier exemple de {ar|مَا} qui nie le présent de l'instant :"
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            ["{ar|هُوَ لَا يَقْرَأُ الصُّحُفَ}.", "Il ne lit pas les journaux."],
+            ["{ar|هُوَ مَا يَقْرَأُ الصَّحِيفَةَ الْآنَ}.", "Il ne lit pas le journal en ce moment."]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|صَحِيفَةٌ} veut dire « une feuille », et aussi « un journal » ; {ar|الصُّحُفُ} est son pluriel."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ne confonds pas {ar|مَا أَقْرَأُ} (un présent à la damma : la négation) et {ar|مَا أَجْمَلَ} (un mot de la forme {ar|أَفْعَلَ} à la fatha : l'exclamation)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Puis il revient à l'exclamation du chapitre 9 : {ar|مَا} + un mot de la forme {ar|أَفْعَلَ} + ce qui étonne, à l'accusatif."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "حَامِدٌ طَوِيلٌ", "fr": "Ḥāmid est grand." },
+              "to": { "ar": "مَا أَطْوَلَ حَامِدًا!", "fr": "Comme Ḥāmid est grand !" }
+            },
+            {
+              "from": { "ar": "هٰذِهِ السَّيَّارَةُ جَمِيلَةٌ", "fr": "Cette voiture est belle." },
+              "to": { "ar": "مَا أَجْمَلَ هٰذِهِ السَّيَّارَةَ!", "fr": "Comme cette voiture est belle !" }
+            },
+            {
+              "from": { "ar": "هُوَ طَوِيلٌ", "fr": "Il est grand." },
+              "to": { "ar": "مَا أَطْوَلَهُ!", "fr": "Comme il est grand !" }
+            },
+            {
+              "from": { "ar": "هِيَ صَغِيرَةٌ", "fr": "Elle est petite." },
+              "to": { "ar": "مَا أَصْغَرَهَا!", "fr": "Comme elle est petite !" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.practice-6#2",
+      "type": "sort",
+      "categories": [ { "fr": "il nie le présent" }, { "fr": "il exprime l'étonnement" } ],
+      "cards": [
+        { "ar": "هُوَ مَا يَقْرَأُ الصَّحِيفَةَ الْآنَ.", "category": 0 },
+        { "ar": "نَحْنُ مَا نَلْعَبُ الْآنَ.", "category": 0 },
+        { "ar": "أَنَا مَا أَشْرَبُ الْقَهْوَةَ الْآنَ.", "category": 0 },
+        { "ar": "مَا أَجْمَلَ هٰذِهِ السَّيَّارَةَ!", "category": 1 },
+        { "ar": "مَا أَطْوَلَ حَامِدًا!", "category": 1 },
+        { "ar": "مَا أَصْغَرَهَا!", "category": 1 }
+      ],
+      "instruction": "Quel {ar|مَا} ?",
+      "explain": "{ar|مَا} suivi d'un présent nie (et le verbe garde sa damma). {ar|مَا} suivi d'un mot de la forme {ar|أَفْعَلَ} exprime l'étonnement."
+    },
+    {
+      "id": "medine-t2.l15.practice-6#3",
+      "type": "fill_gap",
+      "sentence": "مَا {0} حَامِدًا!",
+      "fr": "Comme Ḥāmid est grand !",
+      "gaps": [ { "answers": ["أَطْوَلَ"] } ],
+      "options": ["أَطْوَلَ", "أَجْمَلَ", "أَصْغَرَ"],
+      "explain": "« Grand » : {ar|طَوِيلٌ}, d'où {ar|أَطْوَلَ}."
+    },
+    {
+      "id": "medine-t2.l15.practice-6#4",
+      "type": "order",
+      "fr": "Comme cette voiture est belle !",
+      "answers": [["مَا", "أَجْمَلَ", "هٰذِهِ", "السَّيَّارَةَ"]],
+      "punctuation": "!",
+      "explain": "{ar|مَا} + {ar|أَجْمَلَ} + le nom à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l15.practice-6#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "هُوَ طَوِيلٌ.",
+      "answers": ["مَا أَطْوَلَهُ!"],
+      "fr": "Il est grand. → Comme il est grand !",
+      "instruction": "Transforme en exclamation avec {ar|مَا}.",
+      "explain": "Le pronom {ar|هُ} remplace le nom : {ar|مَا أَطْوَلَهُ}."
+    },
+    {
+      "id": "medine-t2.l15.practice-6#6",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « Il ne lit pas le journal en ce moment » ?" },
+      "choices": [
+        { "ar": "هُوَ مَا يَقْرَأُ الصَّحِيفَةَ الْآنَ" },
+        { "ar": "هُوَ لَا يَقْرَأُ الصُّحُفَ" },
+        { "ar": "مَا أَجْمَلَ الصَّحِيفَةَ!" }
+      ],
+      "answer": 0,
+      "explain": "Avec {ar|مَا} et {ar|الْآنَ} : la négation porte sur l'instant. La deuxième phrase dit « il ne lit pas les journaux » ; la troisième est une exclamation."
+    },
+    {
+      "id": "medine-t2.l15.practice-6#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "هِيَ صَغِيرَةٌ.",
+      "answers": ["مَا أَصْغَرَهَا!"],
+      "fr": "Elle est petite. → Comme elle est petite !",
+      "instruction": "Transforme en exclamation avec {ar|مَا}.",
+      "explain": "{ar|صَغِيرٌ} → {ar|أَصْغَرَ}, puis le pronom {ar|هَا}."
+    },
+    {
+      "id": "medine-t2.l15.practice-6#8",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|مَا أَطْوَلَ حَامِدًا!}, le nom {ar|حَامِدًا} est à l'accusatif." },
+      "answer": true,
+      "explain": "Oui : ce qui provoque l'étonnement est à l'accusatif (fatha, ici le tanwin fatha avec alif)."
+    },
+    {
+      "id": "medine-t2.l15.practice-6#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il ne lit pas le journal en ce moment.",
+      "answers": ["هُوَ مَا يَقْرَأُ الصَّحِيفَةَ الْآنَ.", "مَا يَقْرَأُ الصَّحِيفَةَ الْآنَ."],
+      "explain": "{ar|مَا} + {ar|يَقْرَأُ} (damma) + {ar|الْآنَ}."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "medine-t2.l15.practice-1",
+  "type": "vocabulary",
+  "title": "Corrige : qu'a dit le texte ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l15.practice-1#1",
+      "type": "true_false",
+      "statement": { "ar": "أَبُو بَكْرٍ مَعَهُ مَجَلَّةٌ.", "fr": "Abū Bakr a une revue." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l15.dialogue-1#1" },
+      "explain": "Faux : c'est Fayṣal qui montre une revue au professeur."
+    },
+    {
+      "id": "medine-t2.l15.practice-1#2",
+      "type": "question",
+      "prompt": { "fr": "Qui montre une revue au professeur ?" },
+      "choices": [ { "fr": "Fayṣal" }, { "fr": "Abū Bakr" }, { "fr": "Bashīr" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l15.dialogue-1#1" },
+      "explain": "{ar|اُنْظُرْ إِلَى هٰذِهِ الْمَجَلَّةِ يَا أُسْتَاذُ} : c'est Fayṣal qui parle."
+    },
+    {
+      "id": "medine-t2.l15.practice-1#3",
+      "type": "true_false",
+      "statement": { "ar": "فَيْصَلٌ طَالِبٌ جَدِيدٌ.", "fr": "Fayṣal est un nouvel étudiant." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l15.dialogue-1#1" },
+      "explain": "Faux : le nouvel étudiant est Humāyūn ({ar|أَنَا طَالِبٌ جَدِيدٌ})."
+    },
+    {
+      "id": "medine-t2.l15.practice-1#4",
+      "type": "question",
+      "prompt": { "fr": "Qui est le nouvel étudiant ?" },
+      "choices": [ { "fr": "Humāyūn" }, { "fr": "Fayṣal" }, { "fr": "Ḥamza" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l15.dialogue-1#1" },
+      "explain": "{ar|يَا أُسْتَاذُ، أَنَا طَالِبٌ جَدِيدٌ} : c'est Humāyūn."
+    },
+    {
+      "id": "medine-t2.l15.practice-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Le professeur reprend Bashīr à cause du stylo rouge." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l15.dialogue-1#1" },
+      "explain": "Faux : le professeur parle à ʿAbd ar-Raḥīm : {ar|يَا عَبْدَ الرَّحِيمِ، لَا تَكْتُبِ الْأَجْوِبَةَ بِالْقَلَمِ الْأَحْمَرِ}."
+    },
+    {
+      "id": "medine-t2.l15.practice-1#6",
+      "type": "question",
+      "prompt": { "fr": "À qui le professeur dit-il de ne pas écrire les réponses avec le stylo rouge ?" },
+      "choices": [ { "fr": "À ʿAbd ar-Raḥīm" }, { "fr": "À Bashīr" }, { "fr": "À Fayṣal" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l15.dialogue-1#1" },
+      "explain": "{ar|يَا عَبْدَ الرَّحِيمِ، لَا تَكْتُبِ الْأَجْوِبَةَ بِالْقَلَمِ الْأَحْمَرِ}."
+    },
+    {
+      "id": "medine-t2.l15.practice-1#7",
+      "type": "true_false",
+      "statement": { "ar": "حَمْزَةُ غَائِبٌ الْيَوْمَ.", "fr": "Ḥamza est absent aujourd'hui." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l15.dialogue-1#1" },
+      "explain": "Faux : Ḥamza est là, il demande d'ouvrir la porte. C'est Hishām qui est absent."
+    },
+    {
+      "id": "medine-t2.l15.practice-1#8",
+      "type": "question",
+      "prompt": { "fr": "Qui est absent aujourd'hui ?" },
+      "choices": [ { "fr": "Hishām" }, { "fr": "Ḥamza" }, { "fr": "Ḥāmid" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l15.dialogue-1#1" },
+      "explain": "{ar|هٰذَا مَقْعَدُ هِشَامٍ وَهُوَ غَائِبٌ الْيَوْمَ}."
+    },
+    {
+      "id": "medine-t2.l15.practice-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Humāyūn est un nouvel étudiant.",
+      "answers": ["هُمَايُونُ طَالِبٌ جَدِيدٌ."],
+      "explain": "{ar|طَالِبٌ جَدِيدٌ} : un nouvel étudiant."
+    },
+    {
+      "id": "medine-t2.l15.practice-1#10",
+      "type": "order",
+      "fr": "Hishām est absent aujourd'hui.",
+      "answers": [
+        ["هِشَامٌ", "غَائِبٌ", "الْيَوْمَ"],
+        ["الْيَوْمَ", "هِشَامٌ", "غَائِبٌ"],
+        ["هِشَامٌ", "الْيَوْمَ", "غَائِبٌ"]
+      ],
+      "punctuation": ".",
+      "explain": "Le nom, puis son prédicat, puis {ar|الْيَوْمَ}."
+    }
+  ]
+}

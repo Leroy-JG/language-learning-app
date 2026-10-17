@@ -1,0 +1,99 @@
+{
+  "id": "medine-t2.l15.practice-3",
+  "type": "vocabulary",
+  "title": "Mettre {ar|لَا} devant le verbe",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t2.l15.practice-3#1",
+      "type": "typing",
+      "ask": "question",
+      "question": "تَدْخُلُ",
+      "answers": ["لَا تَدْخُلْ."],
+      "fr": "Tu entres → N'entre pas !",
+      "instruction": "Ajoute {ar|لَا} qui interdit devant le verbe et mets la bonne fin.",
+      "explain": "{ar|تَدْخُلُ} → {ar|لَا تَدْخُلْ} : la damma devient un sukūn."
+    },
+    {
+      "id": "medine-t2.l15.practice-3#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "تَسْمَعُ",
+      "answers": ["لَا تَسْمَعْ."],
+      "fr": "Tu entends → N'entends pas !",
+      "instruction": "Ajoute {ar|لَا} qui interdit devant le verbe et mets la bonne fin.",
+      "explain": "{ar|تَسْمَعُ} → {ar|لَا تَسْمَعْ}."
+    },
+    {
+      "id": "medine-t2.l15.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "يَا أَخِي، لَا {0} مِنَ السَّيَّارَةِ.",
+      "fr": "Mon frère, ne descends pas de la voiture !",
+      "gaps": [ { "answers": ["تَنْزِلْ"] } ],
+      "options": ["تَنْزِلْ", "تَنْزِلِي", "تَنْزِلُوا"],
+      "explain": "Un seul homme : {ar|تَنْزِلْ}."
+    },
+    {
+      "id": "medine-t2.l15.practice-3#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "تَقْتُلُ",
+      "answers": ["لَا تَقْتُلْ."],
+      "fr": "Tu tues → Ne tue pas !",
+      "instruction": "Ajoute {ar|لَا} qui interdit devant le verbe et mets la bonne fin.",
+      "explain": "{ar|تَقْتُلُ} → {ar|لَا تَقْتُلْ}."
+    },
+    {
+      "id": "medine-t2.l15.practice-3#5",
+      "type": "fill_gap",
+      "sentence": "يَا بِنْتِي، لَا {0} هٰذَا.",
+      "fr": "Ma fille, ne prends pas ça !",
+      "gaps": [ { "answers": ["تَأْخُذِي"] } ],
+      "options": ["تَأْخُذِي", "تَأْخُذْ", "تَأْخُذُوا"],
+      "explain": "Une fille : {ar|تَأْخُذِينَ} perd son {ar|ن} → {ar|تَأْخُذِي}."
+    },
+    {
+      "id": "medine-t2.l15.practice-3#6",
+      "type": "order",
+      "fr": "Ne coupe pas le pain !",
+      "answers": [["لَا", "تَقْطَعِ", "الْخُبْزَ"]],
+      "punctuation": "!",
+      "explain": "{ar|تَقْطَعْ} devient {ar|تَقْطَعِ} devant l'article."
+    },
+    {
+      "id": "medine-t2.l15.practice-3#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "تَرْكَبُ",
+      "answers": ["لَا تَرْكَبْ."],
+      "fr": "Tu montes → Ne monte pas !",
+      "instruction": "Ajoute {ar|لَا} qui interdit devant le verbe et mets la bonne fin.",
+      "explain": "{ar|تَرْكَبُ} → {ar|لَا تَرْكَبْ}."
+    },
+    {
+      "id": "medine-t2.l15.practice-3#8",
+      "type": "true_false",
+      "statement": { "fr": "Pour interdire {ar|تَرْكَبُ}, on dit {ar|اِرْكَبْ}." },
+      "answer": false,
+      "explain": "Non : {ar|اِرْكَبْ} est l'impératif (« monte ! »). Pour interdire, on garde la lettre du présent : {ar|لَا تَرْكَبْ}."
+    },
+    {
+      "id": "medine-t2.l15.practice-3#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "تَرْفَعُ",
+      "answers": ["لَا تَرْفَعْ."],
+      "fr": "Tu lèves → Ne lève pas !",
+      "instruction": "Ajoute {ar|لَا} qui interdit devant le verbe et mets la bonne fin.",
+      "explain": "{ar|تَرْفَعُ} → {ar|لَا تَرْفَعْ}."
+    },
+    {
+      "id": "medine-t2.l15.practice-3#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ne lève pas la voix !",
+      "answers": ["لَا تَرْفَعْ صَوْتَكَ."],
+      "explain": "{ar|لَا} + {ar|تَرْفَعْ} (sukūn) + {ar|صَوْتَكَ} (« ta voix »)."
+    }
+  ]
+}

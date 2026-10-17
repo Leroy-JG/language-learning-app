@@ -1,0 +1,193 @@
+{
+  "id": "medine-t2.l15.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l15.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kada",
+      "distractors": ["w:kadhaba", "w:baka"],
+      "explain": "{ar|كَادَ} : il a failli, il a été sur le point de. {ar|كَذَبَ} : il a menti ; {ar|بَكَى} : il a pleuré."
+    },
+    {
+      "id": "medine-t2.l15.quiz#2",
+      "type": "question",
+      "prompt": { "fr": "Que font les {ar|الْجَوَازِمُ} au verbe au présent ?" },
+      "choices": [
+        { "fr": "Ils le mettent au jussif et changent ou nuancent son sens" },
+        { "fr": "Ils le mettent au passé" },
+        { "fr": "Ils lui ajoutent un sujet" }
+      ],
+      "answer": 0,
+      "explain": "Deux effets : la marque du jussif ({ar|جَزْمٌ}) et un changement de sens."
+    },
+    {
+      "id": "medine-t2.l15.quiz#3",
+      "type": "sort",
+      "categories": [ { "fr": "un homme" }, { "fr": "une femme" }, { "fr": "plusieurs personnes" } ],
+      "cards": [
+        { "ar": "لَا تَكْتُبْ", "category": 0 },
+        { "ar": "لَا تَشْرَبْ", "category": 0 },
+        { "ar": "لَا تَكْتُبِي", "category": 1 },
+        { "ar": "لَا تَشْرَبِي", "category": 1 },
+        { "ar": "لَا تَكْتُبُوا", "category": 2 },
+        { "ar": "لَا تَكْتُبْنَ", "category": 2 }
+      ],
+      "instruction": "À qui parle-t-on ?",
+      "explain": "Sukūn : un homme. Le {ar|ن} tombé après {ar|ي} : une femme. {ar|◌ُوا} ou {ar|نَ} : plusieurs personnes."
+    },
+    {
+      "id": "medine-t2.l15.quiz#4",
+      "type": "fill_gap",
+      "sentence": "يَا فَاطِمَةُ، لَا {0} هُنَاكَ.",
+      "fr": "Fāṭima, ne t'assieds pas là-bas !",
+      "gaps": [ { "answers": ["تَجْلِسِي"] } ],
+      "options": ["تَجْلِسِي", "تَجْلِسْ", "تَجْلِسُوا"],
+      "explain": "Fāṭima est une femme : {ar|تَجْلِسِينَ} perd son {ar|ن} → {ar|تَجْلِسِي}."
+    },
+    {
+      "id": "medine-t2.l15.quiz#5",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|لَا تَأْكُلُ التُّفَّاحَ} (le verbe garde sa damma), le {ar|لَا} interdit." },
+      "answer": false,
+      "explain": "Non : avec la damma, c'est {ar|لَا النَّافِيَةُ} : « tu ne manges pas de pommes ». Pour interdire, le verbe prend le sukūn."
+    },
+    {
+      "id": "medine-t2.l15.quiz#6",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:maqad",
+      "distractors": ["w:lihya", "w:nazzara"],
+      "explain": "« Un siège » : {ar|مَقْعَدٌ}. {ar|لِحْيَةٌ} : une barbe ; {ar|نَظَّارَةٌ} : des lunettes."
+    },
+    {
+      "id": "medine-t2.l15.quiz#7",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|كَادَ زَيْدٌ يَنْجَحُ} ?" },
+      "choices": [ { "fr": "Zayd a failli réussir" }, { "fr": "Zayd a réussi" }, { "fr": "Zayd ne réussira pas" } ],
+      "answer": 0,
+      "explain": "{ar|كَادَ} + un présent : l'action a été sur le point d'avoir lieu."
+    },
+    {
+      "id": "medine-t2.l15.quiz#8",
+      "type": "spot",
+      "instruction": "Touche le prédicat de {ar|كَادَ}.",
+      "words": ["كَادَتِ", "الْمُدِيرَةُ", "تَبْكِي."],
+      "answers": [2],
+      "fr": "La directrice a failli pleurer.",
+      "explain": "{ar|تَبْكِي} est un verbe au présent : c'est {ar|خَبَرُ كَادَ}."
+    },
+    {
+      "id": "medine-t2.l15.quiz#9",
+      "type": "fill_gap",
+      "sentence": "{0} الْجَرَسُ يَرِنُّ.",
+      "fr": "La sonnerie est sur le point de retentir.",
+      "gaps": [ { "answers": ["يَكَادُ"] } ],
+      "options": ["يَكَادُ", "تَكَادُ", "كَادَتْ"],
+      "explain": "{ar|الْجَرَسُ} est masculin et la phrase est au présent : {ar|يَكَادُ}."
+    },
+    {
+      "id": "medine-t2.l15.quiz#10",
+      "type": "sort",
+      "categories": [ { "fr": "{ar|لَا النَّافِيَةُ} (elle nie)" }, { "fr": "{ar|لَا النَّاهِيَةُ} (elle interdit)" } ],
+      "cards": [
+        { "ar": "أَلَا تَجْلِسُ هُنَا؟", "category": 0 },
+        { "ar": "لِمَ لَا تَشْرَبُ الشَّايَ؟", "category": 0 },
+        { "ar": "هِيَ لَا تَأْكُلُ التُّفَّاحَ.", "category": 0 },
+        { "ar": "لَا تَجْلِسْ هُنَا!", "category": 1 },
+        { "ar": "لَا تَشْرَبِ الشَّايَ!", "category": 1 },
+        { "ar": "يَا أَحْمَدُ، لَا تَكْذِبْ!", "category": 1 }
+      ],
+      "instruction": "Quel {ar|لَا} ?",
+      "explain": "Les questions et le constat nient seulement. Les ordres au sukūn interdisent."
+    },
+    {
+      "id": "medine-t2.l15.quiz#11",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « je prends » ?" },
+      "choices": [ { "ar": "آخُذُ" }, { "ar": "يَأْخُذُ" }, { "ar": "تَأْخُذُ" } ],
+      "answer": 0,
+      "explain": "Pour « je » : {ar|آخُذُ} (la hamza de {ar|أَ} et celle de la racine se réunissent en {ar|آ})."
+    },
+    {
+      "id": "medine-t2.l15.quiz#12",
+      "type": "typing",
+      "ask": "question",
+      "question": "تَكْتُبُ",
+      "answers": ["لَا تَكْتُبْ."],
+      "fr": "Tu écris → N'écris pas !",
+      "instruction": "Ajoute {ar|لَا} qui interdit devant le verbe et mets la bonne fin.",
+      "explain": "{ar|تَكْتُبُ} → {ar|لَا تَكْتُبْ}."
+    },
+    {
+      "id": "medine-t2.l15.quiz#13",
+      "type": "order",
+      "fr": "Ne vas-tu pas à l'école ?",
+      "answers": [["أَلَا", "تَذْهَبُ", "إِلَى", "الْمَدْرَسَةِ"]],
+      "punctuation": "؟",
+      "explain": "{ar|أَلَا} + {ar|تَذْهَبُ} : le verbe garde sa damma."
+    },
+    {
+      "id": "medine-t2.l15.quiz#14",
+      "type": "question",
+      "prompt": { "fr": "Quelle marque porte le verbe au présent après {ar|مَا} qui nie ?" },
+      "choices": [ { "fr": "la damma" }, { "fr": "le sukūn" }, { "fr": "la fatha" } ],
+      "answer": 0,
+      "explain": "{ar|مَا النَّافِيَةُ} n'agit pas sur le verbe : il garde sa damma ({ar|مَا أَشْرَبُ})."
+    },
+    {
+      "id": "medine-t2.l15.quiz#15",
+      "type": "fill_gap",
+      "sentence": "{0} الطِّفْلُ يَبْكِي.",
+      "fr": "L'enfant est sur le point de pleurer.",
+      "gaps": [ { "answers": ["يَكَادُ"] } ],
+      "options": ["يَكَادُ", "تَكَادُ", "كَادَتْ"],
+      "explain": "{ar|الطِّفْلُ} est masculin et la phrase est au présent : {ar|يَكَادُ}."
+    },
+    {
+      "id": "medine-t2.l15.quiz#16",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|كَادَ}, le prédicat est un verbe au passé." },
+      "answer": false,
+      "explain": "Non : le prédicat de {ar|كَادَ} est un verbe au présent ({ar|كَادَ زَيْدٌ يَذْهَبُ}), comme dans toutes les phrases du cours."
+    },
+    {
+      "id": "medine-t2.l15.quiz#17",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ne mens pas, Aḥmad !",
+      "answers": ["لَا تَكْذِبْ يَا أَحْمَدُ.", "يَا أَحْمَدُ لَا تَكْذِبْ."],
+      "explain": "{ar|لَا} + {ar|تَكْذِبْ} (sukūn)."
+    },
+    {
+      "id": "medine-t2.l15.quiz#18",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd est sur le point de réussir.",
+      "answers": ["يَكَادُ زَيْدٌ يَنْجَحُ."],
+      "explain": "{ar|يَكَادُ} + le sujet + le présent {ar|يَنْجَحُ}."
+    },
+    {
+      "id": "medine-t2.l15.quiz#19",
+      "type": "order",
+      "fr": "Ne bois pas de café, Maryam !",
+      "answers": [
+        ["لَا", "تَشْرَبِي", "الْقَهْوَةَ", "يَا", "مَرْيَمُ"],
+        ["يَا", "مَرْيَمُ", "لَا", "تَشْرَبِي", "الْقَهْوَةَ"]
+      ],
+      "punctuation": "!",
+      "explain": "Une femme : {ar|تَشْرَبِينَ} perd son {ar|ن} → {ar|تَشْرَبِي}."
+    },
+    {
+      "id": "medine-t2.l15.quiz#20",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Garçon, n'écris pas ta leçon !",
+      "answers": ["يَا وَلَدُ لَا تَكْتُبْ دَرْسَكَ.", "لَا تَكْتُبْ دَرْسَكَ يَا وَلَدُ."],
+      "explain": "Un seul garçon : {ar|لَا تَكْتُبْ}."
+    }
+  ]
+}

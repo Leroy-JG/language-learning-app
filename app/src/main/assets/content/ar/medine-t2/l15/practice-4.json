@@ -1,0 +1,109 @@
+{
+  "id": "medine-t2.l15.practice-4",
+  "type": "vocabulary",
+  "title": "Interdire à chacun",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l15.practice-4#1",
+      "type": "fill_gap",
+      "sentence": "يَا زَيْنَبُ، لَا {0} النَّافِذَةَ.",
+      "fr": "Zaynab, n'ouvre pas la fenêtre !",
+      "gaps": [ { "answers": ["تَفْتَحِي"] } ],
+      "options": ["تَفْتَحِي", "تَفْتَحِ", "تَفْتَحُوا"],
+      "explain": "Zaynab est une femme : {ar|تَفْتَحِينَ} perd son {ar|ن} → {ar|تَفْتَحِي}."
+    },
+    {
+      "id": "medine-t2.l15.practice-4#2",
+      "type": "fill_gap",
+      "sentence": "يَا إِخْوَانُ، لَا {0} الشَّيْطَانَ.",
+      "fr": "Frères, n'adorez pas Satan !",
+      "gaps": [ { "answers": ["تَعْبُدُوا"] } ],
+      "options": ["تَعْبُدُوا", "تَعْبُدِ", "تَعْبُدِي"],
+      "explain": "Plusieurs hommes : {ar|تَعْبُدُونَ} perd son {ar|ن} → {ar|تَعْبُدُوا}."
+    },
+    {
+      "id": "medine-t2.l15.practice-4#3",
+      "type": "sort",
+      "categories": [ { "fr": "un homme" }, { "fr": "une femme" }, { "fr": "plusieurs personnes" } ],
+      "cards": [
+        { "ar": "لَا تَذْهَبْ", "category": 0 },
+        { "ar": "لَا تَشْرَبْ", "category": 0 },
+        { "ar": "لَا تَذْهَبِي", "category": 1 },
+        { "ar": "لَا تَأْكُلِي", "category": 1 },
+        { "ar": "لَا تَذْهَبُوا", "category": 2 },
+        { "ar": "لَا تَذْهَبْنَ", "category": 2 }
+      ],
+      "instruction": "À qui parle-t-on ?",
+      "explain": "Comme dans les quatre phrases du livre : sukūn pour un homme, {ar|ي} pour une femme, {ar|◌ُوا} ou {ar|نَ} pour plusieurs personnes."
+    },
+    {
+      "id": "medine-t2.l15.practice-4#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mes sœurs, ne balayez pas ma chambre avec le vieux balai !",
+      "answers": [
+        "يَا أَخَوَاتِي لَا تَكْنِسْنَ غُرْفَتِي بِالْمِكْنَسَةِ الْقَدِيمَةِ.",
+        "لَا تَكْنِسْنَ غُرْفَتِي بِالْمِكْنَسَةِ الْقَدِيمَةِ يَا أَخَوَاتِي."
+      ],
+      "explain": "Plusieurs femmes : {ar|تَكْنِسْنَ} garde son {ar|نَ}, le pronom."
+    },
+    {
+      "id": "medine-t2.l15.practice-4#5",
+      "type": "fill_gap",
+      "sentence": "يَا وَلَدُ، لَا {0} فِي الْفَصْلِ.",
+      "fr": "Garçon, ne joue pas en classe !",
+      "gaps": [ { "answers": ["تَلْعَبْ"] } ],
+      "options": ["تَلْعَبْ", "تَلْعَبِي", "تَلْعَبُوا"],
+      "explain": "Un seul garçon : {ar|تَلْعَبْ}."
+    },
+    {
+      "id": "medine-t2.l15.practice-4#6",
+      "type": "fill_gap",
+      "sentence": "يَا بِنْتِي، لَا {0} مَاءً بَارِدًا.",
+      "fr": "Ma fille, ne bois pas d'eau froide !",
+      "gaps": [ { "answers": ["تَشْرَبِي"] } ],
+      "options": ["تَشْرَبِي", "تَشْرَبْ", "تَشْرَبُوا"],
+      "explain": "Une fille : {ar|تَشْرَبِينَ} perd son {ar|ن} → {ar|تَشْرَبِي}."
+    },
+    {
+      "id": "medine-t2.l15.practice-4#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Mes enfants, ne sortez pas de la classe maintenant !",
+      "answers": [
+        "يَا أَبْنَائِي، لَا تَخْرُجُوا مِنَ الْفَصْلِ الْآنَ.",
+        "لَا تَخْرُجُوا مِنَ الْفَصْلِ الْآنَ يَا أَبْنَائِي."
+      ],
+      "explain": "Plusieurs personnes : {ar|تَخْرُجُونَ} perd son {ar|ن} → {ar|تَخْرُجُوا}."
+    },
+    {
+      "id": "medine-t2.l15.practice-4#8",
+      "type": "order",
+      "fr": "Ne descends pas du bus à cet arrêt, ma sœur !",
+      "answers": [
+        ["لَا", "تَنْزِلِي", "مِنَ", "الْحَافِلَةِ", "فِي", "هٰذِهِ", "الْمَحَطَّةِ", "يَا", "أُخْتِي"],
+        ["يَا", "أُخْتِي", "لَا", "تَنْزِلِي", "مِنَ", "الْحَافِلَةِ", "فِي", "هٰذِهِ", "الْمَحَطَّةِ"]
+      ],
+      "punctuation": "!",
+      "explain": "Une femme : {ar|تَنْزِلِينَ} perd son {ar|ن} → {ar|تَنْزِلِي}."
+    },
+    {
+      "id": "medine-t2.l15.practice-4#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ma fille, ne coupe pas la viande avec ce couteau !",
+      "answers": [
+        "يَا بِنْتِي لَا تَقْطَعِي اللَّحْمَ بِهٰذَا السِّكِّينِ.",
+        "يَا بِنْتِي لَا تَقْطَعِي اللَّحْمَ بِهٰذِهِ السِّكِّينِ.",
+        "يَا ابْنَتِي لَا تَقْطَعِي اللَّحْمَ بِهٰذَا السِّكِّينِ.",
+        "يَا ابْنَتِي لَا تَقْطَعِي اللَّحْمَ بِهٰذِهِ السِّكِّينِ.",
+        "لَا تَقْطَعِي اللَّحْمَ بِهٰذَا السِّكِّينِ يَا بِنْتِي.",
+        "لَا تَقْطَعِي اللَّحْمَ بِهٰذِهِ السِّكِّينِ يَا بِنْتِي.",
+        "لَا تَقْطَعِي اللَّحْمَ بِهٰذَا السِّكِّينِ يَا ابْنَتِي.",
+        "لَا تَقْطَعِي اللَّحْمَ بِهٰذِهِ السِّكِّينِ يَا ابْنَتِي."
+      ],
+      "explain": "Une fille : {ar|تَقْطَعِي}. {ar|السِّكِّينِ} est au génitif après {ar|بِ} ; ce nom peut être masculin ou féminin ({ar|هٰذَا} ou {ar|هٰذِهِ})."
+    }
+  ]
+}

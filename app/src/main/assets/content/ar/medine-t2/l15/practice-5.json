@@ -1,0 +1,124 @@
+{
+  "id": "medine-t2.l15.practice-5",
+  "type": "vocabulary",
+  "title": "Il a failli… : {ar|كَادَ} en phrases",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l15.practice-5#1",
+      "type": "tip",
+      "title": "Lire des phrases avec {ar|كَادَ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur te fait lire neuf phrases avec {ar|كَادَ}. Dans les cinq premières, {ar|كَادَ} est au passé, après {ar|وَ} ou {ar|فَ} ; dans les quatre dernières, c'est le présent {ar|يَكَادُ}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Tu y croises {ar|يَمُوتُ} (le présent de {ar|مَاتَ}, vu au chapitre 14) et {ar|يَرِنُّ} (le présent de {ar|رَنَّ}, un verbe doublé : on y reviendra). Les prénoms ({ar|زَكَرِيَّا}, {ar|عُثْمَانُ}, {ar|يُوسُفُ}, {ar|حَامِدٌ}, {ar|سُعَادُ}) sont des noms de personnes."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.practice-5#2",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|رَفَعَ يُوسُفُ يَدَهُ وَكَادَ يَضْرِبُنِي} ?" },
+      "choices": [
+        { "fr": "Yūsuf a levé la main et a failli me frapper" },
+        { "fr": "Yūsuf m'a frappé" },
+        { "fr": "Yūsuf a levé la main et m'a frappé" }
+      ],
+      "answer": 0,
+      "explain": "{ar|كَادَ يَضْرِبُنِي} : « il a failli me frapper » (il ne l'a pas fait)."
+    },
+    {
+      "id": "medine-t2.l15.practice-5#3",
+      "type": "spot",
+      "instruction": "Touche le prédicat de {ar|كَادَ}.",
+      "words": ["رَفَعَ", "يُوسُفُ", "يَدَهُ", "وَكَادَ", "يَضْرِبُنِي."],
+      "answers": [4],
+      "fr": "Yūsuf a levé la main et a failli me frapper.",
+      "explain": "Le prédicat de {ar|كَادَ} est un verbe au présent : {ar|يَضْرِبُنِي}."
+    },
+    {
+      "id": "medine-t2.l15.practice-5#4",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La voiture de Ḥāmid s'est renversée et il a failli mourir.",
+      "answers": ["اِنْقَلَبَتْ سَيَّارَةُ حَامِدٍ وَكَادَ يَمُوتُ."],
+      "explain": "{ar|وَكَادَ يَمُوتُ} : le sujet de {ar|كَادَ} est le pronom caché {ar|هُوَ} (Ḥāmid)."
+    },
+    {
+      "id": "medine-t2.l15.practice-5#5",
+      "type": "order",
+      "fr": "La directrice a frappé Suʿād et elle a failli pleurer.",
+      "answers": [["ضَرَبَتِ", "الْمُدِيرَةُ", "سُعَادَ", "فَكَادَتْ", "تَبْكِي"]],
+      "punctuation": ".",
+      "explain": "{ar|كَادَتْ} est au féminin, et son prédicat commence par {ar|تَ} : {ar|تَبْكِي}. Le sujet caché est une femme : ici, d'après le contexte, Suʿād."
+    },
+    {
+      "id": "medine-t2.l15.practice-5#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mon enfant a frappé mes lunettes avec le bâton et a failli les casser.",
+      "answers": [
+        "ضَرَبَ طِفْلِي نَظَّارَتِي بِالْعَصَا وَكَادَ يَكْسِرُهَا.",
+        "ضَرَبَ طِفْلِي نَظَّارَاتِي بِالْعَصَا وَكَادَ يَكْسِرُهَا.",
+        "ضَرَبَ طِفْلِي بِالْعَصَا نَظَّارَتِي وَكَادَ يَكْسِرُهَا.",
+        "ضَرَبَ طِفْلِي بِالْعَصَا نَظَّارَاتِي وَكَادَ يَكْسِرُهَا."
+      ],
+      "explain": "{ar|وَكَادَ يَكْسِرُهَا} : « et il a failli les casser » ({ar|هَا} est au singulier, car {ar|نَظَّارَةٌ} désigne une paire de lunettes)."
+    },
+    {
+      "id": "medine-t2.l15.practice-5#7",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|السَّاعَةُ الْآنَ الْوَاحِدَةُ: يَكَادُ الْمُدِيرُ يَخْرُجُ} ?" },
+      "choices": [
+        { "fr": "Il est une heure : le directeur est sur le point de sortir" },
+        { "fr": "Il est une heure : le directeur a failli sortir" },
+        { "fr": "Il est deux heures : le directeur est sorti" }
+      ],
+      "answer": 0,
+      "explain": "{ar|يَكَادُ} (présent) : « est sur le point de »."
+    },
+    {
+      "id": "medine-t2.l15.practice-5#8",
+      "type": "fill_gap",
+      "sentence": "{0} الْإِمَامُ يَرْكَعُ.",
+      "fr": "L'imam est sur le point de s'incliner.",
+      "gaps": [ { "answers": ["يَكَادُ"] } ],
+      "options": ["يَكَادُ", "تَكَادُ", "كَادَتْ"],
+      "explain": "L'imam est un homme, et la phrase est au présent : {ar|يَكَادُ}."
+    },
+    {
+      "id": "medine-t2.l15.practice-5#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La sonnerie est sur le point de retentir.",
+      "answers": ["يَكَادُ الْجَرَسُ يَرِنُّ."],
+      "explain": "{ar|يَكَادُ} + le sujet + {ar|يَرِنُّ}."
+    },
+    {
+      "id": "medine-t2.l15.practice-5#10",
+      "type": "order",
+      "fr": "Il est sur le point de pleurer.",
+      "answers": [["هُوَ", "يَكَادُ", "يَبْكِي"]],
+      "punctuation": ".",
+      "explain": "{ar|هُوَ} + {ar|يَكَادُ} + le présent {ar|يَبْكِي}."
+    },
+    {
+      "id": "medine-t2.l15.practice-5#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Pourquoi as-tu frappé ce garçon, ʿAlī ?",
+      "answers": [
+        "لِمَ ضَرَبْتَ هٰذَا الْوَلَدَ يَا عَلِيُّ؟",
+        "يَا عَلِيُّ لِمَ ضَرَبْتَ هٰذَا الْوَلَدَ؟",
+        "لِمَاذَا ضَرَبْتَ هٰذَا الْوَلَدَ يَا عَلِيُّ؟",
+        "يَا عَلِيُّ لِمَاذَا ضَرَبْتَ هٰذَا الْوَلَدَ؟"
+      ],
+      "explain": "{ar|لِمَ} (ou {ar|لِمَاذَا}) : « pourquoi ? ». {ar|ضَرَبْتَ} : « tu as frappé »."
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "medine-t2.l15.grammar-6",
+  "type": "grammar",
+  "title": "{ar|كَادَ} : sur le point de…",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l15.grammar-6#1",
+      "type": "tip",
+      "title": "Les {ar|نَوَاسِخُ} : trois groupes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais les {ar|النَّوَاسِخُ} : des mots qui entrent sur une phrase nominale et changent son sens et ses cas. Le professeur les range en deux familles, les particules et les verbes, et il ajoute aujourd'hui un nouveau groupe de verbes."
+        },
+        {
+          "type": "table",
+          "header": ["Famille", "Groupe", "Exemple"],
+          "rows": [
+            ["particules ({ar|حُرُوفٌ})", "{ar|إِنَّ وَأَخَوَاتُهَا}", "{ar|إِنَّ زَيْدًا طَالِبٌ}"],
+            ["verbes ({ar|أَفْعَالٌ})", "{ar|كَانَ وَأَخَوَاتُهَا}", "{ar|لَيْسَ زَيْدٌ طَالِبًا}"],
+            ["verbes ({ar|أَفْعَالٌ})", "{ar|كَادَ وَأَخَوَاتُهَا}", "{ar|كَادَ زَيْدٌ يَنْجَحُ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Tu as déjà vu, dans ce tome, {ar|إِنَّ} (chapitre 1), {ar|لَيْسَ} (chapitre 2) et {ar|كَانَ} (chapitre 7). Il reste {ar|كَادَ}."
+        }
+      ]
+    },
+    { "id": "medine-t2.l15.grammar-6#2", "type": "present", "item": "p:kada-wa-akhawatuha" },
+    {
+      "id": "medine-t2.l15.grammar-6#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "p:kada-wa-akhawatuha",
+      "distractors": ["p:kana-wa-akhawatuha", "p:kayfa-haluka"],
+      "explain": "{ar|كَادَ وَأَخَوَاتُهَا} : « kāda et ses sœurs ». {ar|كَانَ وَأَخَوَاتُهَا} est l'autre famille de verbes ; {ar|كَيْفَ حَالُكَ؟} est une formule de salutation."
+    },
+    {
+      "id": "medine-t2.l15.grammar-6#4",
+      "type": "tip",
+      "title": "{ar|كَادَ} : « il a failli »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|كَادَ} fait partie d'un groupe de verbes que le professeur appelle {ar|أَفْعَالُ الْمُقَارَبَةِ} (les verbes d'imminence). Comme {ar|كَانَ}, il entre sur une phrase nominale ; mais son prédicat est **un verbe au présent**."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase nominale", "Avec {ar|كَادَ}"],
+          "rows": [
+            ["{ar|زَيْدٌ يَذْهَبُ}", "{ar|كَادَ زَيْدٌ يَذْهَبُ}"],
+            ["Zayd part.", "Zayd a failli partir (il était sur le point de partir)."]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Il change le sens : la phrase dit qu'une action a été sur le point d'avoir lieu. Mais, contrairement à {ar|إِنَّ} et à {ar|كَانَ}, il ne change pas les terminaisons qu'on voit : {ar|زَيْدٌ} garde sa damma, {ar|يَذْهَبُ} aussi."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "En arabe classique, on place parfois {ar|أَنْ} devant le verbe du prédicat ({ar|كَادَ أَنْ يَفْعَلَ}), mais c'est plus rare. Dans ce cours, il n'y en a pas."
+        }
+      ]
+    },
+    { "id": "medine-t2.l15.grammar-6#5", "type": "present", "item": "w:afal-muqaraba" },
+    { "id": "medine-t2.l15.grammar-6#6", "type": "present", "item": "w:kada" },
+    {
+      "id": "medine-t2.l15.grammar-6#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kada",
+      "distractors": ["w:laysa", "w:inna"],
+      "explain": "{ar|كَادَ} : il a failli, il a été sur le point de. {ar|لَيْسَ} nie une phrase nominale ; {ar|إِنَّ} confirme."
+    },
+    {
+      "id": "medine-t2.l15.grammar-6#8",
+      "type": "sort",
+      "categories": [ { "fr": "une particule ({ar|حَرْفٌ})" }, { "fr": "un verbe ({ar|فِعْلٌ})" } ],
+      "cards": [
+        { "ar": "إِنَّ", "category": 0 },
+        { "ar": "لَعَلَّ", "category": 0 },
+        { "ar": "كَأَنَّ", "category": 0 },
+        { "ar": "لَيْسَ", "category": 1 },
+        { "ar": "كَانَ", "category": 1 },
+        { "ar": "كَادَ", "category": 1 }
+      ],
+      "instruction": "Particule ou verbe ?",
+      "explain": "{ar|إِنَّ} et ses sœurs sont des particules. {ar|لَيْسَ}, {ar|كَانَ} et {ar|كَادَ} sont des verbes."
+    },
+    {
+      "id": "medine-t2.l15.grammar-6#9",
+      "type": "tip",
+      "title": "Analyser la phrase",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Mot", "Rôle", "Cas"],
+          "rows": [
+            ["{ar|كَادَ}", "le verbe d'imminence", "—"],
+            ["{ar|زَيْدٌ}", "{ar|اِسْمُ كَادَ}", "nominatif (damma)"],
+            ["{ar|يَذْهَبُ}", "{ar|خَبَرُ كَادَ}", "un verbe au présent, à la damma"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Pour retenir : « {ar|كَادَ} + un nom + un verbe au présent ». Le sujet de {ar|كَادَ} reste au nominatif, comme avec {ar|كَانَ}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le prédicat de {ar|كَادَ} est en réalité « en position d'accusatif » ({ar|فِي مَحَلِّ نَصْبٍ}), mais cela ne se voit pas : un verbe au présent à la damma ne change pas d'apparence. Le professeur n'en parle pas ; retiens seulement qu'il n'y a rien à changer."
+        }
+      ]
+    },
+    { "id": "medine-t2.l15.grammar-6#10", "type": "present", "item": "w:ism-kada" },
+    { "id": "medine-t2.l15.grammar-6#11", "type": "present", "item": "w:khabar-kada" },
+    {
+      "id": "medine-t2.l15.grammar-6#12",
+      "type": "spot",
+      "instruction": "Touche le nom de {ar|كَادَ} (le sujet).",
+      "words": ["كَادَ", "زَيْدٌ", "يَنْجَحُ."],
+      "answers": [1],
+      "fr": "Zayd a failli réussir.",
+      "explain": "{ar|زَيْدٌ} est {ar|اِسْمُ كَادَ}."
+    },
+    {
+      "id": "medine-t2.l15.grammar-6#13",
+      "type": "spot",
+      "instruction": "Touche le prédicat de {ar|كَادَ} (un verbe au présent).",
+      "words": ["كَادَ", "زَيْدٌ", "يَنْجَحُ."],
+      "answers": [2],
+      "fr": "Zayd a failli réussir.",
+      "explain": "{ar|يَنْجَحُ} est {ar|خَبَرُ كَادَ} : un verbe au présent."
+    },
+    {
+      "id": "medine-t2.l15.grammar-6#14",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|كَادَ زَيْدٌ يَنْجَحُ} ?" },
+      "choices": [
+        { "fr": "Zayd a failli réussir (il n'a pas réussi)" },
+        { "fr": "Zayd a réussi" },
+        { "fr": "Zayd réussira" }
+      ],
+      "answer": 0,
+      "explain": "{ar|كَادَ} + un présent : l'action a été sur le point d'avoir lieu, sans l'être."
+    },
+    {
+      "id": "medine-t2.l15.grammar-6#15",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ يَذْهَبُ.",
+      "fr": "Zayd a failli partir.",
+      "gaps": [ { "answers": ["كَادَ"] } ],
+      "options": ["كَادَ", "لَمْ", "لَنْ"],
+      "explain": "{ar|كَادَ} entre sur la phrase nominale ; {ar|لَمْ} et {ar|لَنْ} se placent juste devant le verbe."
+    },
+    {
+      "id": "medine-t2.l15.grammar-6#16",
+      "type": "order",
+      "fr": "Zayd a failli réussir.",
+      "answers": [["كَادَ", "زَيْدٌ", "يَنْجَحُ"]],
+      "punctuation": ".",
+      "explain": "{ar|كَادَ}, puis son nom, puis son prédicat (le présent)."
+    }
+  ]
+}

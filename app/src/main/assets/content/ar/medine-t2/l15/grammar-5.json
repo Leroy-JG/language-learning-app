@@ -1,0 +1,114 @@
+{
+  "id": "medine-t2.l15.grammar-5",
+  "type": "grammar",
+  "title": "Nier le présent de l'instant : {ar|مَا}",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l15.grammar-5#1",
+      "type": "tip",
+      "title": "{ar|لَا} ou {ar|مَا} devant un présent ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au chapitre 11, tu as vu {ar|مَا} devant un verbe au passé. Le professeur montre qu'on peut aussi la mettre devant un présent : {ar|مَا} « libère » alors le présent pour le moment où l'on parle ({ar|الْحَالُ}). Il le dit ainsi : {ar|مَا تُخَلِّصُ الْمُضَارِعَ لِلْحَالِ}."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            ["{ar|أَنَا لَا أَشْرَبُ الْقَهْوَةَ}.", "Je ne bois pas de café. (sans préciser l'instant)"],
+            ["{ar|أَنَا مَا أَشْرَبُ الْقَهْوَةَ الْآنَ}.", "Je ne bois pas de café en ce moment."],
+            [
+              "{ar|نَحْنُ لَا نَلْعَبُ كُرَةَ الْقَدَمِ}.",
+              "Nous ne jouons pas au football. (sans préciser l'instant)"
+            ],
+            ["{ar|نَحْنُ مَا نَلْعَبُ كُرَةَ الْقَدَمِ الْآنَ}.", "Nous ne jouons pas au football en ce moment."]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Ce {ar|مَا} est {ar|مَا النَّافِيَةُ} : elle nie seulement, elle n'agit pas sur le verbe. Le présent garde donc sa damma : ce n'est pas un jussif, contrairement à ce qui se passe après {ar|لَا} qui interdit."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.grammar-5#2",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « Je ne bois pas de café en ce moment » ?" },
+      "choices": [
+        { "ar": "أَنَا مَا أَشْرَبُ الْقَهْوَةَ الْآنَ" },
+        { "ar": "أَنَا لَا أَشْرَبُ الْقَهْوَةَ" },
+        { "ar": "أَنَا شَرِبْتُ الْقَهْوَةَ" }
+      ],
+      "answer": 0,
+      "explain": "Avec {ar|مَا} et {ar|الْآنَ}, la négation porte sur le moment présent. {ar|أَنَا لَا أَشْرَبُ الْقَهْوَةَ} dit « je ne bois pas de café », sans préciser l'instant."
+    },
+    {
+      "id": "medine-t2.l15.grammar-5#3",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|مَا} qui nie, le verbe au présent est au jussif." },
+      "answer": false,
+      "explain": "Non : {ar|مَا} nie seulement, elle n'agit pas sur le verbe : il garde sa damma ({ar|مَا أَشْرَبُ})."
+    },
+    {
+      "id": "medine-t2.l15.grammar-5#4",
+      "type": "sort",
+      "categories": [ { "fr": "la damma reste ({ar|مَا} qui nie)" }, { "fr": "le sukūn ({ar|لَا} qui interdit)" } ],
+      "cards": [
+        { "ar": "هُوَ مَا يَقْرَأُ الصَّحِيفَةَ الْآنَ.", "category": 0 },
+        { "ar": "نَحْنُ مَا نَلْعَبُ كُرَةَ الْقَدَمِ الْآنَ.", "category": 0 },
+        { "ar": "أَنَا مَا أَشْرَبُ الْقَهْوَةَ الْآنَ.", "category": 0 },
+        { "ar": "لَا تَلْعَبْ كُرَةَ الْقَدَمِ الْآنَ!", "category": 1 },
+        { "ar": "لَا تَشْرَبِ الْقَهْوَةَ الْآنَ!", "category": 1 },
+        { "ar": "لَا تَقْرَأْ هٰذِهِ الصَّحِيفَةَ!", "category": 1 }
+      ],
+      "instruction": "Quelle marque sur le verbe ?",
+      "explain": "Après {ar|مَا}, le verbe garde la damma. Après {ar|لَا} qui interdit, il prend le sukūn (la kasra devant l'article)."
+    },
+    {
+      "id": "medine-t2.l15.grammar-5#5",
+      "type": "order",
+      "fr": "Nous ne jouons pas au football en ce moment.",
+      "answers": [
+        ["نَحْنُ", "مَا", "نَلْعَبُ", "كُرَةَ", "الْقَدَمِ", "الْآنَ"],
+        ["نَحْنُ", "مَا", "نَلْعَبُ", "الْآنَ", "كُرَةَ", "الْقَدَمِ"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|مَا} se place devant le verbe : {ar|مَا نَلْعَبُ}."
+    },
+    {
+      "id": "medine-t2.l15.grammar-5#6",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je ne bois pas de café en ce moment.",
+      "answers": ["أَنَا مَا أَشْرَبُ الْقَهْوَةَ الْآنَ.", "مَا أَشْرَبُ الْقَهْوَةَ الْآنَ."],
+      "explain": "{ar|مَا} + {ar|أَشْرَبُ} (damma) + {ar|الْآنَ}."
+    },
+    {
+      "id": "medine-t2.l15.grammar-5#7",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi le verbe de {ar|مَا أَشْرَبُ الْقَهْوَةَ الْآنَ} garde-t-il sa damma ?" },
+      "choices": [
+        { "fr": "Parce que {ar|مَا} qui nie n'agit pas sur le verbe : il garde sa damma" },
+        { "fr": "Parce que {ar|مَا} met toujours le verbe au jussif" },
+        { "fr": "Parce que {ar|الْآنَ} change la fin du verbe" }
+      ],
+      "answer": 0,
+      "explain": "Seuls les {ar|الْجَوَازِمُ} mettent le verbe au jussif. {ar|مَا النَّافِيَةُ} n'en fait pas partie."
+    },
+    {
+      "id": "medine-t2.l15.grammar-5#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous ne jouons pas au football en ce moment.",
+      "answers": [
+        "نَحْنُ مَا نَلْعَبُ كُرَةَ الْقَدَمِ الْآنَ.",
+        "مَا نَلْعَبُ كُرَةَ الْقَدَمِ الْآنَ.",
+        "نَحْنُ مَا نَلْعَبُ الْآنَ كُرَةَ الْقَدَمِ."
+      ],
+      "explain": "{ar|مَا} + {ar|نَلْعَبُ} (damma) + {ar|الْآنَ}."
+    }
+  ]
+}
