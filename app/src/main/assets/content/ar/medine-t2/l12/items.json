@@ -1,0 +1,153 @@
+[
+  {
+    "id": "w:jazm",
+    "kind": "word",
+    "ar": "الْجَزْمُ",
+    "fr": "le jussif (cas du sukūn, pour le verbe)",
+    "translit": "al-jazmu",
+    "gender": "m",
+    "note": "C'est le cas du verbe au présent qui prend la place du génitif : sa marque est le sukūn ({ar|◌ْ}). Un verbe à ce cas est {ar|مَجْزُومٌ}. Le verbe {ar|جَزَمَ} veut dire « couper » : la voyelle finale est coupée.",
+    "example": { "ar": "لَمْ أَضْرِبْ زَيْدًا.", "fr": "Je n'ai pas frappé Zayd." }
+  },
+  {
+    "id": "w:dahika",
+    "kind": "word",
+    "ar": "ضَحِكَ",
+    "fr": "il a ri (rire)",
+    "translit": "ḍaḥika",
+    "note": "Au présent : {ar|يَضْحَكُ}.",
+    "example": { "ar": "ضَحِكَ الْوَلَدُ.", "fr": "Le garçon a ri." }
+  },
+  {
+    "id": "w:shahida",
+    "kind": "word",
+    "ar": "شَهِدَ",
+    "fr": "il a témoigné (témoigner)",
+    "translit": "shahida",
+    "note": "Au présent : {ar|يَشْهَدُ}. On le trouve dans {ar|أَشْهَدُ أَنَّ} (« je témoigne que »).",
+    "example": { "ar": "أَشْهَدُ أَنَّ زَيْدًا طَالِبٌ.", "fr": "Je témoigne que Zayd est étudiant." }
+  },
+  {
+    "id": "w:shaa",
+    "kind": "word",
+    "ar": "شَاءَ",
+    "fr": "il a voulu (vouloir)",
+    "translit": "shāʾa",
+    "note": "Au présent : {ar|يَشَاءُ}. Tu le connais dans {ar|إِنْ شَاءَ اللَّهُ} (« si Allah le veut »).",
+    "example": { "ar": "سَنَذْهَبُ غَدًا إِنْ شَاءَ اللَّهُ.", "fr": "Nous irons demain, si Allah le veut." }
+  },
+  {
+    "id": "w:dawaa",
+    "kind": "word",
+    "ar": "دَوَاءٌ",
+    "fr": "un médicament",
+    "translit": "dawāʾun",
+    "plural": "أَدْوِيَةٌ",
+    "gender": "m",
+    "note": "La hamza finale se prononce après l'alif : {ar|دَوَاءٌ}. Il veut dire « médicament » ou « remède ».",
+    "example": { "ar": "أَخَذَ زَيْدٌ الدَّوَاءَ.", "fr": "Zayd a pris le médicament." }
+  },
+  {
+    "id": "w:saydaliyya",
+    "kind": "word",
+    "ar": "صَيْدَلِيَّةٌ",
+    "fr": "une pharmacie",
+    "translit": "ṣaydaliyyatun",
+    "plural": "صَيْدَلِيَّاتٌ",
+    "gender": "f",
+    "example": { "ar": "هٰذِهِ صَيْدَلِيَّةٌ.", "fr": "Voici une pharmacie." }
+  },
+  {
+    "id": "p:shafaha-allah",
+    "kind": "phrase",
+    "ar": "شَفَاهَا اللَّهُ",
+    "fr": "Qu'Allah la guérisse",
+    "translit": "shafāhā llāhu",
+    "note": "On le dit à propos d'une femme malade. Le verbe {ar|شَفَى} (« il a guéri ») est suivi du pronom {ar|هَا} (« elle »). Pour un homme : {ar|شَفَاهُ اللَّهُ}."
+  },
+  {
+    "id": "w:wajib",
+    "kind": "word",
+    "ar": "وَاجِبٌ",
+    "fr": "un devoir (travail à faire)",
+    "translit": "wājibun",
+    "plural": "وَاجِبَاتٌ",
+    "gender": "m",
+    "note": "Le même mot s'emploie comme adjectif : « obligatoire ».",
+    "example": { "ar": "كَتَبَ زَيْدٌ الْوَاجِبَاتِ.", "fr": "Zayd a écrit les devoirs." }
+  },
+  {
+    "id": "w:tilmidh",
+    "kind": "word",
+    "ar": "تِلْمِيذٌ",
+    "fr": "un élève",
+    "translit": "tilmīdhun",
+    "plural": "تَلَامِيذُ",
+    "gender": "m",
+    "note": "Le féminin est {ar|تِلْمِيذَةٌ} (pluriel {ar|تِلْمِيذَاتٌ}). {ar|تِلْمِيذٌ} est surtout l'élève de l'école ; {ar|طَالِبٌ} (tome 1) est l'étudiant.",
+    "example": { "ar": "زَيْدٌ تِلْمِيذٌ مُجْتَهِدٌ.", "fr": "Zayd est un élève appliqué." }
+  },
+  {
+    "id": "w:tilmidha",
+    "kind": "word",
+    "ar": "تِلْمِيذَةٌ",
+    "fr": "une élève",
+    "translit": "tilmīdhatun",
+    "plural": "تِلْمِيذَاتٌ",
+    "gender": "f",
+    "example": { "ar": "هٰذِهِ تِلْمِيذَةٌ مُجْتَهِدَةٌ.", "fr": "Voici une élève appliquée." }
+  },
+  {
+    "id": "w:waqt",
+    "kind": "word",
+    "ar": "وَقْتٌ",
+    "fr": "un temps, un moment",
+    "translit": "waqtun",
+    "plural": "أَوْقَاتٌ",
+    "gender": "m",
+    "note": "Il dit le moment précis ({ar|وَقْتُ الصَّلَاةِ}, « l'heure de la prière ») ou le temps dont on dispose.",
+    "example": { "ar": "هٰذَا وَقْتُ الصَّلَاةِ.", "fr": "C'est l'heure de la prière." }
+  },
+  {
+    "id": "w:mulk",
+    "kind": "word",
+    "ar": "الْمُلْكُ",
+    "fr": "la royauté, la souveraineté",
+    "translit": "al-mulku",
+    "gender": "m",
+    "note": "C'est aussi le nom de la sourate 67 du Coran, {ar|سُورَةُ الْمُلْكِ}.",
+    "example": { "ar": "الْمُلْكُ لِلَّهِ.", "fr": "La royauté appartient à Allah." }
+  },
+  {
+    "id": "w:raqm",
+    "kind": "word",
+    "ar": "رَقْمٌ",
+    "fr": "un numéro",
+    "translit": "raqmun",
+    "plural": "أَرْقَامٌ",
+    "gender": "m",
+    "note": "Il veut aussi dire « chiffre ».",
+    "example": { "ar": "مَا رَقْمُ هَاتِفِكَ؟", "fr": "Quel est ton numéro de téléphone ?" }
+  },
+  {
+    "id": "w:hatif",
+    "kind": "word",
+    "ar": "هَاتِفٌ",
+    "fr": "un téléphone",
+    "translit": "hātifun",
+    "plural": "هَوَاتِفُ",
+    "gender": "m",
+    "example": { "ar": "رَقْمُ هَاتِفِي جَدِيدٌ.", "fr": "Mon numéro de téléphone est nouveau." }
+  },
+  {
+    "id": "w:amal",
+    "kind": "word",
+    "ar": "عَمَلٌ",
+    "fr": "un travail",
+    "translit": "ʿamalun",
+    "plural": "أَعْمَالٌ",
+    "gender": "m",
+    "note": "Il vient du verbe {ar|عَمِلَ} (chapitre 10) et veut dire aussi « une action ».",
+    "example": { "ar": "عَمَلُ زَيْدٍ فِي التِّجَارَةِ.", "fr": "Le travail de Zayd est dans le commerce." }
+  }
+]

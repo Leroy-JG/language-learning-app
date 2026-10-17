@@ -1,0 +1,84 @@
+{
+  "id": "medine-t2.l12.vocab-1",
+  "type": "vocabulary",
+  "title": "Rire, témoigner, vouloir",
+  "icon": "speech",
+  "screens": [
+    { "id": "medine-t2.l12.vocab-1#1", "type": "present", "item": "w:dahika" },
+    { "id": "medine-t2.l12.vocab-1#2", "type": "present", "item": "w:shahida" },
+    { "id": "medine-t2.l12.vocab-1#3", "type": "present", "item": "w:shaa" },
+    {
+      "id": "medine-t2.l12.vocab-1#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:shahida",
+      "distractors": ["w:dahika", "w:shaa"],
+      "explain": "{ar|شَهِدَ} : il a témoigné. {ar|ضَحِكَ} : il a ri ; {ar|شَاءَ} : il a voulu."
+    },
+    {
+      "id": "medine-t2.l12.vocab-1#5",
+      "type": "tip",
+      "title": "Les quatre formes de ces verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme toujours, le professeur donne quatre formes pour chaque verbe. Tu connais le passé et le présent ; l'impératif et le nom d'action ne sont qu'un aperçu."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["rire", "{ar|ضَحِكَ}", "{ar|يَضْحَكُ}", "{ar|اِضْحَكْ}", "{ar|ضَحِكًا}"],
+            ["témoigner", "{ar|شَهِدَ}", "{ar|يَشْهَدُ}", "{ar|اِشْهَدْ}", "{ar|شَهَادَةً}"],
+            ["vouloir", "{ar|شَاءَ}", "{ar|يَشَاءُ}", "{ar|شَأْ}", "{ar|مَشِيئَةً}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Quand la lettre du milieu porte une kasra au passé ({ar|فَهِمَ}, {ar|شَرِبَ}, {ar|ضَحِكَ}, {ar|شَهِدَ}), le présent a le plus souvent une fatha ({ar|يَفْهَمُ}, {ar|يَشْرَبُ}, {ar|يَضْحَكُ}, {ar|يَشْهَدُ}). Ce n'est pas une règle sans exception : on retient la voyelle avec le verbe."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.vocab-1#6",
+      "type": "fill_gap",
+      "sentence": "الْوَلَدُ {0} فِي الْبَيْتِ.",
+      "fr": "Le garçon rit dans la maison.",
+      "gaps": [ { "answers": ["يَضْحَكُ"] } ],
+      "options": ["يَضْحَكُ", "يَشْهَدُ", "يَشَاءُ"],
+      "explain": "« Il rit » : {ar|يَضْحَكُ}, le présent de {ar|ضَحِكَ}."
+    },
+    {
+      "id": "medine-t2.l12.vocab-1#7",
+      "type": "fill_gap",
+      "sentence": "سَنَذْهَبُ غَدًا إِنْ {0} اللَّهُ.",
+      "fr": "Nous irons demain, si Allah le veut.",
+      "gaps": [ { "answers": ["شَاءَ"] } ],
+      "options": ["شَاءَ", "ضَحِكَ", "شَهِدَ"],
+      "explain": "{ar|إِنْ شَاءَ اللَّهُ} : « si Allah le veut »."
+    },
+    {
+      "id": "medine-t2.l12.vocab-1#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:dahika", "w:shahida", "w:shaa"]
+    },
+    { "id": "medine-t2.l12.vocab-1#9", "type": "build", "item": "w:shahida", "extra": ["ص"] },
+    {
+      "id": "medine-t2.l12.vocab-1#10",
+      "type": "order",
+      "fr": "Le garçon a ri dans la maison.",
+      "answers": [["ضَحِكَ", "الْوَلَدُ", "فِي", "الْبَيْتِ"], ["الْوَلَدُ", "ضَحِكَ", "فِي", "الْبَيْتِ"]],
+      "punctuation": ".",
+      "explain": "{ar|ضَحِكَ} : « il a ri » ; le sujet peut se placer avant ou après le verbe."
+    },
+    {
+      "id": "medine-t2.l12.vocab-1#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ils rient.",
+      "answers": ["يَضْحَكُونَ.", "هُمْ يَضْحَكُونَ."],
+      "explain": "« Ils » : {ar|يَضْحَكُونَ}."
+    }
+  ]
+}

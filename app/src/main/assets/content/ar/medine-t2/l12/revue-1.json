@@ -1,0 +1,103 @@
+{
+  "id": "medine-t2.l12.revue-1",
+  "type": "review",
+  "title": "Le présent en un coup d'œil",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t2.l12.revue-1#1",
+      "type": "tip",
+      "title": "Le présent : les douze personnes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au chapitre 11, tu as appris le présent avec ses douze formes. Voici {ar|كَتَبَ} (« il a écrit »), avec ce qui est collé à la fin du verbe :"
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Présent", "Fin du verbe"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|أَكْتُبُ}", "rien (la damma)"],
+            ["{ar|نَحْنُ}", "{ar|نَكْتُبُ}", "rien (la damma)"],
+            ["{ar|أَنْتَ}", "{ar|تَكْتُبُ}", "rien (la damma)"],
+            ["{ar|أَنْتِ}", "{ar|تَكْتُبِينَ}", "{ar|◌ِينَ}"],
+            ["{ar|أَنْتُمَا}", "{ar|تَكْتُبَانِ}", "{ar|◌َانِ}"],
+            ["{ar|أَنْتُمْ}", "{ar|تَكْتُبُونَ}", "{ar|◌ُونَ}"],
+            ["{ar|أَنْتُنَّ}", "{ar|تَكْتُبْنَ}", "{ar|◌ْنَ}"],
+            ["{ar|هُوَ}", "{ar|يَكْتُبُ}", "rien (la damma)"],
+            ["{ar|هِيَ}", "{ar|تَكْتُبُ}", "rien (la damma)"],
+            ["{ar|هُمَا} (deux hommes)", "{ar|يَكْتُبَانِ}", "{ar|◌َانِ}"],
+            ["{ar|هُمَا} (deux femmes)", "{ar|تَكْتُبَانِ}", "{ar|◌َانِ}"],
+            ["{ar|هُمْ}", "{ar|يَكْتُبُونَ}", "{ar|◌ُونَ}"],
+            ["{ar|هُنَّ}", "{ar|يَكْتُبْنَ}", "{ar|◌ْنَ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.revue-1#2",
+      "type": "sort",
+      "categories": [ { "fr": "une seule personne" }, { "fr": "deux personnes" }, { "fr": "plusieurs personnes" } ],
+      "cards": [
+        { "ar": "تَكْتُبِينَ", "category": 0 },
+        { "ar": "يَكْتُبُ", "category": 0 },
+        { "ar": "يَكْتُبَانِ", "category": 1 },
+        { "ar": "تَكْتُبَانِ", "category": 1 },
+        { "ar": "تَكْتُبْنَ", "category": 2 },
+        { "ar": "يَكْتُبُونَ", "category": 2 }
+      ],
+      "instruction": "Une personne, deux personnes ou plusieurs ?",
+      "explain": "{ar|تَكْتُبِينَ} (« tu », une femme) et {ar|يَكْتُبُ} (« il ») : une personne. {ar|يَكْتُبَانِ} et {ar|تَكْتُبَانِ} : deux personnes. {ar|تَكْتُبْنَ} (« vous », des femmes) et {ar|يَكْتُبُونَ} (« ils ») : plusieurs personnes."
+    },
+    {
+      "id": "medine-t2.l12.revue-1#3",
+      "type": "fill_gap",
+      "sentence": "أَنْتِ {0} الْعَرَبِيَّةَ.",
+      "fr": "Tu étudies l'arabe (à une femme).",
+      "gaps": [ { "answers": ["تَدْرُسِينَ"] } ],
+      "options": ["تَدْرُسِينَ", "تَدْرُسُونَ", "تَدْرُسَانِ"],
+      "explain": "« Tu » à une femme : {ar|تَدْرُسِينَ}, avec le {ar|ي} collé à la fin."
+    },
+    {
+      "id": "medine-t2.l12.revue-1#4",
+      "type": "fill_gap",
+      "sentence": "هُمْ {0} فِي الْجَامِعَةِ.",
+      "fr": "Ils étudient à l'université.",
+      "gaps": [ { "answers": ["يَدْرُسُونَ"] } ],
+      "options": ["يَدْرُسُونَ", "يَدْرُسْنَ", "يَدْرُسَانِ"],
+      "explain": "« Ils » : {ar|يَدْرُسُونَ}, avec le {ar|و} collé à la fin. {ar|يَدْرُسْنَ} est pour « elles »."
+    },
+    {
+      "id": "medine-t2.l12.revue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|يَكْتُبْنَ}, le pronom « elles » est le {ar|نَ} final." },
+      "answer": true,
+      "explain": "Oui : le {ar|نَ} des femmes est un vrai pronom, avec un sukūn sur la lettre qui précède."
+    },
+    {
+      "id": "medine-t2.l12.revue-1#6",
+      "type": "spot",
+      "instruction": "Touche le verbe dont le sujet est « eux deux » (deux hommes).",
+      "words": ["هُمَا", "يَدْرُسَانِ", "وَهُمْ", "يَدْرُسُونَ"],
+      "answers": [1],
+      "fr": "Eux deux étudient, et eux, ils étudient.",
+      "explain": "{ar|يَدْرُسَانِ} : la lettre {ar|يَ} au début et le {ar|ا} collé à la fin (« eux deux »)."
+    },
+    {
+      "id": "medine-t2.l12.revue-1#7",
+      "type": "order",
+      "fr": "Où allez-vous, vous (plusieurs hommes) ?",
+      "answers": [["أَيْنَ", "تَذْهَبُونَ", "أَنْتُمْ"], ["أَيْنَ", "أَنْتُمْ", "تَذْهَبُونَ"]],
+      "punctuation": "؟",
+      "explain": "« Vous, plusieurs hommes » : {ar|تَذْهَبُونَ}."
+    },
+    {
+      "id": "medine-t2.l12.revue-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles mangent.",
+      "answers": ["يَأْكُلْنَ.", "هُنَّ يَأْكُلْنَ."],
+      "explain": "« Elles » : {ar|يَ} au début, {ar|نَ} à la fin, sukūn avant : {ar|يَأْكُلْنَ}."
+    }
+  ]
+}

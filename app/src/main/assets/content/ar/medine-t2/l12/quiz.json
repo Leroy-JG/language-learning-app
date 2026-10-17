@@ -1,0 +1,154 @@
+{
+  "id": "medine-t2.l12.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre",
+  "screens": [
+    {
+      "id": "medine-t2.l12.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:dawaa",
+      "distractors": ["w:waqt", "w:tilmidh"],
+      "explain": "{ar|دَوَاءٌ} : un médicament. {ar|وَقْتٌ} : un temps ; {ar|تِلْمِيذٌ} : un élève."
+    },
+    {
+      "id": "medine-t2.l12.quiz#2",
+      "type": "question",
+      "prompt": { "fr": "Dans quels deux cas le présent est-il invariable ({ar|مَبْنِيٌّ}) ?" },
+      "choices": [
+        { "fr": "Avec le {ar|نَ} des femmes, ou avec un {ar|نَّ} d'insistance" },
+        { "fr": "Avec {ar|لَنْ} ou avec {ar|لَمْ}" },
+        { "fr": "Au passé ou à l'impératif" }
+      ],
+      "answer": 0,
+      "explain": "Le présent est variable, sauf avec le pronom {ar|نَ} des femmes ({ar|يَكْتُبْنَ}) et avec le {ar|نَّ} d'insistance ({ar|يَكْتُبَنَّ})."
+    },
+    {
+      "id": "medine-t2.l12.quiz#3",
+      "type": "sort",
+      "categories": [ { "fr": "variable ({ar|مُعْرَبٌ})" }, { "fr": "invariable ({ar|مَبْنِيٌّ})" } ],
+      "cards": [
+        { "ar": "يَكْتُبْنَ", "category": 1 },
+        { "ar": "يَكْتُبُ", "category": 0 },
+        { "ar": "تَجْلِسْنَ", "category": 1 },
+        { "ar": "تَجْلِسِينَ", "category": 0 },
+        { "ar": "كَتَبُوا", "category": 1 },
+        { "ar": "يَذْهَبُونَ", "category": 0 }
+      ],
+      "instruction": "Variable ou invariable ?",
+      "explain": "Invariables : {ar|يَكْتُبْنَ} et {ar|تَجْلِسْنَ} (le {ar|نَ} des femmes) et {ar|كَتَبُوا} (un passé). Variables : {ar|يَكْتُبُ}, {ar|تَجْلِسِينَ} et {ar|يَذْهَبُونَ}."
+    },
+    {
+      "id": "medine-t2.l12.quiz#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|لَمْ يَكْتُبْ}, le verbe est…" },
+      "choices": [ { "ar": "مَجْزُومٌ" }, { "ar": "مَنْصُوبٌ" }, { "ar": "مَرْفُوعٌ" } ],
+      "answer": 0,
+      "explain": "Après {ar|لَمْ}, le verbe prend le sukūn : il est au jussif ({ar|مَجْزُومٌ})."
+    },
+    {
+      "id": "medine-t2.l12.quiz#5",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|يَكْتُبُونَ}, la marque du nominatif est le {ar|ن} final." },
+      "answer": true,
+      "explain": "Oui : avec le wāw du groupe, c'est le {ar|ن} final qui marque le nominatif (marque secondaire)."
+    },
+    {
+      "id": "medine-t2.l12.quiz#6",
+      "type": "spot",
+      "instruction": "Touche le verbe qui se termine par {ar|و}, {ar|ي} ou {ar|ى}.",
+      "words": ["الطَّالِبُ", "يَسْعَى", "وَيَكْتُبُ", "الدَّرْسَ"],
+      "answers": [1],
+      "fr": "L'étudiant s'efforce et écrit la leçon.",
+      "explain": "{ar|يَسْعَى} se termine par {ar|ى}."
+    },
+    {
+      "id": "medine-t2.l12.quiz#7",
+      "type": "fill_gap",
+      "sentence": "أَظُنُّ {0} الدَّرْسَ سَهْلٌ.",
+      "fr": "Je pense que le cours est facile.",
+      "gaps": [ { "answers": ["أَنَّ"] } ],
+      "options": ["إِنَّ", "أَنَّ"],
+      "explain": "Après {ar|أَظُنُّ} : {ar|أَنَّ}."
+    },
+    {
+      "id": "medine-t2.l12.quiz#8",
+      "type": "fill_gap",
+      "sentence": "قَالَ الطَّالِبُ {0} الدَّرْسَ جَدِيدٌ.",
+      "fr": "L'étudiant a dit que le cours est nouveau.",
+      "gaps": [ { "answers": ["إِنَّ"] } ],
+      "options": ["إِنَّ", "أَنَّ"],
+      "explain": "Après {ar|قَالَ} : {ar|إِنَّ}."
+    },
+    {
+      "id": "medine-t2.l12.quiz#9",
+      "type": "order",
+      "fr": "Je n'ai pas écrit de lettre.",
+      "answers": [["لَمْ", "أَكْتُبْ", "رِسَالَةً"]],
+      "punctuation": ".",
+      "distractors": ["لَنْ"],
+      "explain": "{ar|لَمْ} + le présent au sukūn : la négation du passé."
+    },
+    {
+      "id": "medine-t2.l12.quiz#10",
+      "type": "fill_gap",
+      "sentence": "أَنْتُنَّ {0} فِي الْمَكْتَبَةِ.",
+      "fr": "Vous (plusieurs femmes), vous vous asseyez à la bibliothèque.",
+      "gaps": [ { "answers": ["تَجْلِسْنَ"] } ],
+      "options": ["تَجْلِسْنَ", "تَجْلِسُونَ", "تَجْلِسِينَ"],
+      "explain": "{ar|أَنْتُنَّ} : le pronom {ar|نَ} : {ar|تَجْلِسْنَ}."
+    },
+    {
+      "id": "medine-t2.l12.quiz#11",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:raqm",
+      "distractors": ["w:hatif", "w:amal"],
+      "explain": "« Un numéro » : {ar|رَقْمٌ}. {ar|هَاتِفٌ} : un téléphone ; {ar|عَمَلٌ} : un travail."
+    },
+    {
+      "id": "medine-t2.l12.quiz#12",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|تَكْتُبِينَ}, que représente le {ar|ن} final ?" },
+      "choices": [
+        { "fr": "La marque du nominatif : ce n'est pas un pronom" },
+        { "fr": "Le pronom « toi »" },
+        { "fr": "Le pronom « elles »" }
+      ],
+      "answer": 0,
+      "explain": "Le pronom est le {ar|ي}. Le {ar|ن} final marque le nominatif."
+    },
+    {
+      "id": "medine-t2.l12.quiz#13",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} الدَّرْسَ جَيِّدًا.",
+      "fr": "Nous comprenons bien la leçon.",
+      "gaps": [ { "answers": ["نَفْهَمُ"] } ],
+      "options": ["نَفْهَمُ", "أَفْهَمُ", "يَفْهَمُونَ"],
+      "explain": "« Nous » : {ar|نَفْهَمُ}."
+    },
+    {
+      "id": "medine-t2.l12.quiz#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles rient.",
+      "answers": ["يَضْحَكْنَ.", "هُنَّ يَضْحَكْنَ."],
+      "explain": "« Elles » : {ar|يَضْحَكْنَ}."
+    },
+    {
+      "id": "medine-t2.l12.quiz#15",
+      "type": "true_false",
+      "statement": { "fr": "Le {ar|لَا} de {ar|لَا تَدْرُسْ} (avec un sukūn) interdit : « n'étudie pas ! »." },
+      "answer": true,
+      "explain": "Oui. Avec une damma, {ar|لَا تَدْرُسُ} veut dire « tu n'étudies pas »."
+    },
+    {
+      "id": "medine-t2.l12.quiz#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd n'a pas écrit les devoirs.",
+      "answers": ["لَمْ يَكْتُبْ زَيْدٌ الْوَاجِبَاتِ."],
+      "explain": "{ar|لَمْ يَكْتُبْ} : le verbe au sukūn après {ar|لَمْ}."
+    }
+  ]
+}

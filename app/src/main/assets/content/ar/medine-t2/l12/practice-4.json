@@ -1,0 +1,95 @@
+{
+  "id": "medine-t2.l12.practice-4",
+  "type": "vocabulary",
+  "title": "Exercice 4 : « je » devient « nous »",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l12.practice-4#1",
+      "type": "tip",
+      "title": "Passer de « je » à « nous »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 4 met le sujet au pluriel : {ar|أَنَا} devient {ar|نَحْنُ}, et la lettre du présent {ar|أَ} devient {ar|نَ}. Le reste du verbe ne change pas."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَنَا أَفْهَمُ الدَّرْسَ جَيِّدًا.", "fr": "Je comprends bien la leçon." },
+              "to": { "ar": "نَحْنُ نَفْهَمُ الدَّرْسَ جَيِّدًا.", "fr": "Nous comprenons bien la leçon." }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.practice-4#2",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} أَمَامَ الْمُدَرِّسِ.",
+      "fr": "Nous nous asseyons devant l'enseignant.",
+      "gaps": [ { "answers": ["نَجْلِسُ"] } ],
+      "options": ["نَجْلِسُ", "أَجْلِسُ", "يَجْلِسُونَ"],
+      "explain": "« Nous » : la lettre {ar|نَ} : {ar|نَجْلِسُ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-4#3",
+      "type": "true_false",
+      "statement": { "fr": "Pour passer de « je » à « nous », le {ar|أَ} du début devient {ar|نَ}." },
+      "answer": true,
+      "explain": "Oui : {ar|أَجْلِسُ} devient {ar|نَجْلِسُ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-4#4",
+      "type": "order",
+      "fr": "Nous écrivons maintenant un télégramme.",
+      "answers": [
+        ["نَحْنُ", "الْآنَ", "نَكْتُبُ", "بَرْقِيَّةً"],
+        ["نَحْنُ", "نَكْتُبُ", "بَرْقِيَّةً", "الْآنَ"],
+        ["الْآنَ", "نَحْنُ", "نَكْتُبُ", "بَرْقِيَّةً"],
+        ["نَحْنُ", "نَكْتُبُ", "الْآنَ", "بَرْقِيَّةً"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|بَرْقِيَّةً} est le complément (accusatif, avec un tanwin)."
+    },
+    {
+      "id": "medine-t2.l12.practice-4#5",
+      "type": "question",
+      "prompt": { "fr": "Que devient {ar|أَشْكُرُكَ} (« je te remercie ») quand le sujet est « nous » ?" },
+      "choices": [ { "ar": "نَشْكُرُكَ" }, { "ar": "نَشْكُرُونَكَ" }, { "ar": "تَشْكُرُكَ" } ],
+      "answer": 0,
+      "explain": "Seule la lettre du présent change : {ar|نَشْكُرُكَ}. Le {ar|كَ} (« te ») reste."
+    },
+    {
+      "id": "medine-t2.l12.practice-4#6",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} يَا أُسْتَاذُ.",
+      "fr": "Nous te remercions, professeur.",
+      "gaps": [ { "answers": ["نَشْكُرُكَ"] } ],
+      "options": ["نَشْكُرُكَ", "أَشْكُرُكَ", "تَشْكُرُكَ"],
+      "explain": "« Nous » : {ar|نَشْكُرُكَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-4#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous n'allons pas au marché chaque jour.",
+      "answers": [
+        "لَا نَذْهَبُ إِلَى السُّوقِ كُلَّ يَوْمٍ.",
+        "نَحْنُ لَا نَذْهَبُ إِلَى السُّوقِ كُلَّ يَوْمٍ.",
+        "لَا نَذْهَبُ كُلَّ يَوْمٍ إِلَى السُّوقِ.",
+        "نَحْنُ لَا نَذْهَبُ كُلَّ يَوْمٍ إِلَى السُّوقِ."
+      ],
+      "explain": "{ar|لَا} + le présent à la damma : « nous n'allons pas »."
+    },
+    {
+      "id": "medine-t2.l12.practice-4#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous nous asseyons devant l'enseignant.",
+      "answers": ["نَجْلِسُ أَمَامَ الْمُدَرِّسِ.", "نَحْنُ نَجْلِسُ أَمَامَ الْمُدَرِّسِ."],
+      "explain": "{ar|أَمَامَ} + le nom au génitif : {ar|الْمُدَرِّسِ}."
+    }
+  ]
+}

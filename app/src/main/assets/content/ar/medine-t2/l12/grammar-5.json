@@ -1,0 +1,119 @@
+{
+  "id": "medine-t2.l12.grammar-5",
+  "type": "grammar",
+  "title": "Un verbe qui se termine par {ar|و}, {ar|ي} ou {ar|ى}",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l12.grammar-5#1",
+      "type": "tip",
+      "title": "Le deuxième cas : la dernière lettre du verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Deuxième cas où le présent n'a pas sa marque de base : le verbe se termine lui-même par {ar|و}, {ar|ي} ou {ar|ى}."
+        },
+        {
+          "type": "table",
+          "header": ["Présent", "Dernière lettre", "Passé"],
+          "rows": [
+            ["{ar|يَدْعُو}", "{ar|و}", "{ar|دَعَا}"],
+            ["{ar|يَقْضِي}", "{ar|ي}", "{ar|قَضَى}"],
+            ["{ar|يَسْعَى}", "{ar|ى}", "{ar|سَعَى}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Le {ar|و} de {ar|يَدْعُو} fait partie de la racine ({ar|د}-{ar|ع}-{ar|و}) : ce n'est pas le {ar|وَاوُ الْجَمَاعَةِ}, et il n'est pas suivi d'un {ar|ن}."
+        },
+        {
+          "type": "note",
+          "text": "{ar|دَعَا} : il a invoqué, il a appelé (tu le connais). {ar|قَضَى} : il a tranché, il a accompli, il a passé (du temps). {ar|سَعَى} : il s'est efforcé, il s'est hâté."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.grammar-5#2",
+      "type": "tip",
+      "title": "Une marque qu'on n'entend pas",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au nominatif, on ne prononce **aucune damma** à la fin de {ar|يَدْعُو}, {ar|يَقْضِي}, {ar|يَسْعَى} : la marque est « cachée » dans la dernière lettre. Ce que deviennent ces verbes après {ar|لَنْ} et {ar|لَمْ} sera expliqué plus tard."
+        },
+        { "type": "paragraph", "text": "Tu connais déjà d'autres verbes qui se terminent ainsi :" },
+        {
+          "type": "table",
+          "header": ["Passé", "Présent", "Sens"],
+          "rows": [
+            ["{ar|مَشَى}", "{ar|يَمْشِي}", "marcher"],
+            ["{ar|رَأَى}", "{ar|يَرَى}", "voir"],
+            ["{ar|لَقِيَ}", "{ar|يَلْقَى}", "rencontrer"],
+            ["{ar|اِشْتَرَى}", "{ar|يَشْتَرِي}", "acheter"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.grammar-5#3",
+      "type": "sort",
+      "categories": [ { "fr": "{ar|و}" }, { "fr": "{ar|ي}" }, { "fr": "{ar|ى}" } ],
+      "cards": [
+        { "ar": "يَدْعُو", "category": 0 },
+        { "ar": "يَمْشِي", "category": 1 },
+        { "ar": "يَشْتَرِي", "category": 1 },
+        { "ar": "يَسْعَى", "category": 2 },
+        { "ar": "يَرَى", "category": 2 },
+        { "ar": "يَلْقَى", "category": 2 }
+      ],
+      "instruction": "Par quelle lettre le présent se termine-t-il ?",
+      "explain": "{ar|يَدْعُو} : {ar|و}. {ar|يَمْشِي} et {ar|يَشْتَرِي} : {ar|ي}. {ar|يَسْعَى}, {ar|يَرَى} et {ar|يَلْقَى} : {ar|ى}, sans points."
+    },
+    {
+      "id": "medine-t2.l12.grammar-5#4",
+      "type": "spot",
+      "instruction": "Touche les verbes qui se terminent par {ar|و}, {ar|ي} ou {ar|ى}.",
+      "words": ["الْوَلَدُ", "يَمْشِي", "وَيَرَى", "الْبَيْتَ"],
+      "answers": [1, 2],
+      "fr": "Le garçon marche et voit la maison.",
+      "explain": "{ar|يَمْشِي} se termine par {ar|ي} et {ar|يَرَى} par {ar|ى}."
+    },
+    {
+      "id": "medine-t2.l12.grammar-5#5",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi n'entend-on aucune damma à la fin de {ar|يَسْعَى} ?" },
+      "choices": [
+        { "fr": "Parce que la dernière lettre est {ar|ى} : la marque du nominatif y est cachée" },
+        { "fr": "Parce que c'est un verbe au passé" },
+        { "fr": "Parce que son sujet est « elles »" }
+      ],
+      "answer": 0,
+      "explain": "Avec {ar|و}, {ar|ي} ou {ar|ى} à la fin, la damma ne se prononce pas : c'est le deuxième cas du professeur."
+    },
+    {
+      "id": "medine-t2.l12.grammar-5#6",
+      "type": "true_false",
+      "statement": { "fr": "{ar|يَكْتُبُ} se termine par {ar|و}, {ar|ي} ou {ar|ى}." },
+      "answer": false,
+      "explain": "Non : {ar|يَكْتُبُ} se termine par {ar|ب} avec sa damma. Il est variable de façon ordinaire."
+    },
+    {
+      "id": "medine-t2.l12.grammar-5#7",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ {0} إِلَى الْمَسْجِدِ.",
+      "fr": "Zayd marche vers la mosquée.",
+      "gaps": [ { "answers": ["يَمْشِي"] } ],
+      "options": ["يَمْشِي", "يَمْشُونَ", "يَمْشِينَ"],
+      "explain": "Zayd est un seul homme : {ar|يَمْشِي}, avec un {ar|ي} qui fait partie du verbe (c'est la dernière lettre de la racine)."
+    },
+    {
+      "id": "medine-t2.l12.grammar-5#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le garçon marche.",
+      "answers": ["يَمْشِي الْوَلَدُ.", "الْوَلَدُ يَمْشِي."],
+      "explain": "{ar|يَمْشِي} : le présent de {ar|مَشَى}."
+    }
+  ]
+}

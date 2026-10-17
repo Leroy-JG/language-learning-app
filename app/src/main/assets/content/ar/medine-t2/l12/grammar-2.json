@@ -1,0 +1,161 @@
+{
+  "id": "medine-t2.l12.grammar-2",
+  "type": "grammar",
+  "title": "Les trois états du présent",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l12.grammar-2#1",
+      "type": "tip",
+      "title": "Comme les noms : nominatif, accusatif… et jussif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un nom a trois cas : {ar|الرَّفْعُ}, {ar|النَّصْبُ} et {ar|الْجَرُّ}. Le verbe au présent en a deux en commun avec lui : {ar|الرَّفْعُ} et {ar|النَّصْبُ}. À la place du génitif ({ar|الْجَرُّ}), il a {ar|الْجَزْمُ}, le **jussif**."
+        },
+        {
+          "type": "table",
+          "header": ["État du verbe", "Marque de base", "Exemple"],
+          "rows": [
+            ["{ar|الرَّفْعُ} (nominatif)", "la damma ({ar|◌ُ})", "{ar|أَدْرُسُ}"],
+            ["{ar|النَّصْبُ} (accusatif)", "la fatha ({ar|◌َ})", "{ar|لَنْ أَدْرُسَ}"],
+            ["{ar|الْجَزْمُ} (jussif)", "le sukūn ({ar|◌ْ})", "{ar|لَمْ أَدْرُسْ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Les grammaires françaises de l'arabe appellent souvent le verbe à la damma « indicatif », à la fatha « subjonctif » et au sukūn « apocopé » (ou « jussif »)."
+        },
+        {
+          "type": "note",
+          "text": "Un verbe n'est jamais au génitif : le génitif est réservé aux noms. On appelle ces marques {ar|الْإِعْرَابُ الْأَصْلِيُّ} (la marque de base, vue à la Révision 2 du tome 1)."
+        }
+      ]
+    },
+    { "id": "medine-t2.l12.grammar-2#2", "type": "present", "item": "w:jazm" },
+    {
+      "id": "medine-t2.l12.grammar-2#3",
+      "type": "tip",
+      "title": "Un même verbe, trois états",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "C'est la particule placée devant le verbe qui décide de son état. Sans particule, il garde la damma."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "يَدْرُسُ", "fr": "il étudie" },
+              "to": { "ar": "لَنْ يَدْرُسَ", "fr": "il n'étudiera pas" },
+              "label": "{ar|نَصْبٌ} : la fatha, après {ar|لَنْ}"
+            },
+            {
+              "from": { "ar": "يَدْرُسُ", "fr": "il étudie" },
+              "to": { "ar": "لَمْ يَدْرُسْ", "fr": "il n'a pas étudié" },
+              "label": "{ar|جَزْمٌ} : le sukūn, après {ar|لَمْ}"
+            },
+            {
+              "from": { "ar": "تَدْرُسُ", "fr": "tu étudies" },
+              "to": { "ar": "لَا تَدْرُسْ", "fr": "n'étudie pas !" },
+              "label": "{ar|جَزْمٌ} : le sukūn, après le {ar|لَا} de l'interdiction"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|لَنْ} nie le futur ; {ar|لَمْ} nie le passé ; le {ar|لَا} suivi d'un sukūn interdit (on l'appelle {ar|لَا النَّاهِيَةُ}, « le lā qui interdit »). D'autres particules agissent de la même façon : elles viendront dans les prochains cours."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.grammar-2#4",
+      "type": "tip",
+      "title": "Une seule voyelle change tout",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au chapitre 11, tu as nié le présent avec {ar|لَا} suivi d'une damma. Avec un sukūn, le même {ar|لَا} change de sens :"
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Voyelle finale", "Sens"],
+          "rows": [
+            ["{ar|لَا تَدْرُسُ}", "damma : {ar|رَفْعٌ}", "tu n'étudies pas"],
+            ["{ar|لَا تَدْرُسْ}", "sukūn : {ar|جَزْمٌ}", "n'étudie pas !"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Les voyelles finales font la différence : lis-les bien, surtout quand le texte est vocalisé."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.grammar-2#5",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif ({ar|رَفْعٌ})" }, { "fr": "accusatif ({ar|نَصْبٌ})" }, { "fr": "jussif ({ar|جَزْمٌ})" } ],
+      "cards": [
+        { "ar": "أَذْهَبُ", "category": 0 },
+        { "ar": "لَنْ أَذْهَبَ", "category": 1 },
+        { "ar": "لَمْ أَذْهَبْ", "category": 2 },
+        { "ar": "تَشْرَبُ", "category": 0 },
+        { "ar": "لَنْ تَشْرَبَ", "category": 1 },
+        { "ar": "لَمْ تَشْرَبْ", "category": 2 }
+      ],
+      "instruction": "Quel est l'état du verbe ?",
+      "explain": "Sans particule : {ar|رَفْعٌ} (damma). Après {ar|لَنْ} : {ar|نَصْبٌ} (fatha). Après {ar|لَمْ} : {ar|جَزْمٌ} (sukūn)."
+    },
+    {
+      "id": "medine-t2.l12.grammar-2#6",
+      "type": "question",
+      "prompt": { "fr": "Quelle marque de base porte le verbe au présent après {ar|لَنْ} ?" },
+      "choices": [ { "fr": "une fatha ({ar|◌َ})" }, { "fr": "une damma ({ar|◌ُ})" }, { "fr": "un sukūn ({ar|◌ْ})" } ],
+      "answer": 0,
+      "explain": "Après {ar|لَنْ}, le verbe est à l'accusatif ({ar|مَنْصُوبٌ}) : {ar|لَنْ أَدْرُسَ}."
+    },
+    {
+      "id": "medine-t2.l12.grammar-2#7",
+      "type": "question",
+      "prompt": { "fr": "Quelle marque de base porte le verbe au présent après {ar|لَمْ} ?" },
+      "choices": [ { "fr": "un sukūn ({ar|◌ْ})" }, { "fr": "une fatha ({ar|◌َ})" }, { "fr": "une kasra ({ar|◌ِ})" } ],
+      "answer": 0,
+      "explain": "Après {ar|لَمْ}, le verbe est au jussif ({ar|مَجْزُومٌ}) : {ar|لَمْ أَدْرُسْ}. Il n'y a jamais de kasra de cas sur un verbe."
+    },
+    {
+      "id": "medine-t2.l12.grammar-2#8",
+      "type": "true_false",
+      "statement": { "fr": "Un verbe au présent peut être au génitif ({ar|مَجْرُورٌ})." },
+      "answer": false,
+      "explain": "Non : le génitif est réservé aux noms. Le verbe a, à la place, le jussif ({ar|الْجَزْمُ})."
+    },
+    {
+      "id": "medine-t2.l12.grammar-2#9",
+      "type": "spot",
+      "instruction": "Touche le verbe qui est au jussif ({ar|مَجْزُومٌ}).",
+      "words": ["لَمْ", "يَكْتُبْ", "زَيْدٌ", "الدَّرْسَ"],
+      "answers": [1],
+      "fr": "Zayd n'a pas écrit la leçon.",
+      "explain": "{ar|يَكْتُبْ} suit {ar|لَمْ} : il prend le sukūn."
+    },
+    {
+      "id": "medine-t2.l12.grammar-2#10",
+      "type": "order",
+      "fr": "Je ne frapperai pas Zayd.",
+      "answers": [["لَنْ", "أَضْرِبَ", "زَيْدًا"]],
+      "punctuation": ".",
+      "distractors": ["لَمْ"],
+      "explain": "{ar|لَنْ} + le présent à la fatha : {ar|لَنْ أَضْرِبَ}. {ar|لَمْ} se met avec le sukūn et nie le passé."
+    },
+    {
+      "id": "medine-t2.l12.grammar-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je n'ai pas frappé Zayd.",
+      "answers": ["لَمْ أَضْرِبْ زَيْدًا."],
+      "explain": "{ar|لَمْ} + le présent au sukūn : {ar|لَمْ أَضْرِبْ}. Zayd est le complément (accusatif)."
+    }
+  ]
+}

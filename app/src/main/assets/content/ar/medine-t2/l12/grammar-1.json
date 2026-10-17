@@ -1,0 +1,153 @@
+{
+  "id": "medine-t2.l12.grammar-1",
+  "type": "grammar",
+  "title": "Un verbe variable ou invariable ?",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l12.grammar-1#1",
+      "type": "tip",
+      "title": "Variable ou invariable : pour les verbes aussi",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au tome 1 (chapitre 11), tu as appris {ar|مُعْرَبٌ} (un nom **variable** : sa terminaison change selon son rôle) et {ar|مَبْنِيٌّ} (un nom **invariable** : sa terminaison ne change jamais). Le professeur emploie les mêmes mots pour les verbes."
+        },
+        {
+          "type": "table",
+          "header": ["Temps", "Variable ou invariable ?", "Exemple"],
+          "rows": [
+            ["{ar|الْمَاضِي}", "{ar|مَبْنِيٌّ} : toujours invariable", "{ar|كَتَبَ ، كَتَبَتْ ، كَتَبُوا}"],
+            ["{ar|الْأَمْرُ}", "{ar|مَبْنِيٌّ} : toujours invariable", "{ar|اُكْتُبْ}"],
+            ["{ar|الْمُضَارِعُ}", "{ar|مُعْرَبٌ} : variable, sauf dans deux cas", "{ar|يَكْتُبُ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pour le présent, « variable » veut dire que sa dernière voyelle change selon la particule qui le précède : tu le verras dans les prochaines astuces."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.grammar-1#2",
+      "type": "sort",
+      "categories": [ { "fr": "variable ({ar|مُعْرَبٌ})" }, { "fr": "invariable ({ar|مَبْنِيٌّ})" } ],
+      "cards": [
+        { "ar": "كَتَبَ", "category": 1 },
+        { "ar": "خَرَجَتْ", "category": 1 },
+        { "ar": "ذَهَبُوا", "category": 1 },
+        { "ar": "يَدْرُسُ", "category": 0 },
+        { "ar": "تَذْهَبُ", "category": 0 },
+        { "ar": "نَأْكُلُ", "category": 0 }
+      ],
+      "instruction": "Ce verbe est-il variable ou invariable ? Pense à son temps.",
+      "explain": "Le passé ({ar|كَتَبَ}, {ar|خَرَجَتْ}, {ar|ذَهَبُوا}) est toujours invariable. Le présent ({ar|يَدْرُسُ}, {ar|تَذْهَبُ}, {ar|نَأْكُلُ}) est variable, sauf dans les deux cas du professeur (que tu vas voir)."
+    },
+    {
+      "id": "medine-t2.l12.grammar-1#3",
+      "type": "tip",
+      "title": "Les deux cas où le présent est invariable",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le présent est variable, **sauf dans deux cas**. Dans ces deux cas, il devient lui aussi invariable ({ar|مَبْنِيٌّ}) : sa terminaison ne bouge plus."
+        },
+        {
+          "type": "table",
+          "header": ["Cas", "Exemple"],
+          "rows": [
+            [
+              "**1.** Son sujet est le pronom {ar|نَ} des femmes ({ar|نُونُ النِّسْوَةِ}) : « elles », « vous » (plusieurs femmes)",
+              "{ar|أَنْتُنَّ تَكْتُبْنَ ، هُنَّ يَكْتُبْنَ}"
+            ],
+            [
+              "**2.** Un {ar|نَّ} d'insistance ({ar|نُونُ التَّوْكِيدِ}), une particule, est collé à la fin du verbe",
+              "{ar|أَكْتُبَنَّ ، تَكْتُبَنَّ ، يَكْتُبَنَّ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|النِّسْوَةُ} veut dire « les femmes ». Le {ar|نَ} de {ar|يَكْتُبْنَ} est le pronom « elles » (chapitre 11). Le {ar|نَّ} d'insistance sera étudié plus tard (aperçu) : retiens seulement qu'il rend le verbe invariable."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.grammar-1#4",
+      "type": "tip",
+      "title": "Pourquoi invariable ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans ces deux cas, la dernière lettre du verbe ne change plus : un **sukūn** devant le {ar|نَ} des femmes ; une **fatha** devant le {ar|نَّ} d'insistance, quand il est collé à une forme du singulier comme celles-ci."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "يَكْتُبُ", "fr": "il écrit" },
+              "to": { "ar": "يَكْتُبْنَ", "fr": "elles écrivent" },
+              "label": "le pronom {ar|نَ} : sukūn sur la lettre qui précède"
+            },
+            {
+              "from": { "ar": "تَكْتُبُ", "fr": "tu écris" },
+              "to": { "ar": "تَكْتُبَنَّ", "fr": "forme d'insistance" },
+              "label": "le {ar|نَّ} d'insistance, collé à un singulier : fatha sur la lettre qui précède"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.grammar-1#5",
+      "type": "sort",
+      "categories": [ { "fr": "variable ({ar|مُعْرَبٌ})" }, { "fr": "invariable ({ar|مَبْنِيٌّ})" } ],
+      "cards": [
+        { "ar": "يَكْتُبْنَ", "category": 1 },
+        { "ar": "تَدْرُسْنَ", "category": 1 },
+        { "ar": "كَتَبْنَ", "category": 1 },
+        { "ar": "يَكْتُبُونَ", "category": 0 },
+        { "ar": "تَكْتُبِينَ", "category": 0 },
+        { "ar": "يَجْلِسُ", "category": 0 }
+      ],
+      "instruction": "Variable ou invariable ?",
+      "explain": "Invariables : {ar|يَكْتُبْنَ} et {ar|تَدْرُسْنَ} (le pronom {ar|نَ} des femmes) et {ar|كَتَبْنَ} (un passé). Variables : {ar|يَكْتُبُونَ}, {ar|تَكْتُبِينَ} et {ar|يَجْلِسُ}."
+    },
+    {
+      "id": "medine-t2.l12.grammar-1#6",
+      "type": "spot",
+      "instruction": "Touche le verbe invariable (celui du pronom {ar|نَ} des femmes).",
+      "words": ["هُنَّ", "يَجْلِسْنَ", "وَهُمْ", "يَجْلِسُونَ"],
+      "answers": [1],
+      "fr": "Elles s'assoient, et eux, ils s'assoient.",
+      "explain": "{ar|يَجْلِسْنَ} se termine par le pronom {ar|نَ} (« elles ») : il est invariable. {ar|يَجْلِسُونَ} est variable."
+    },
+    {
+      "id": "medine-t2.l12.grammar-1#7",
+      "type": "true_false",
+      "statement": { "fr": "Le verbe au passé est toujours invariable ({ar|مَبْنِيٌّ})." },
+      "answer": true,
+      "explain": "Oui : sa terminaison ne dépend pas de la place du verbe dans la phrase (elle dépend seulement de la personne : {ar|كَتَبَ}, {ar|كَتَبَتْ}, {ar|كَتَبُوا})."
+    },
+    {
+      "id": "medine-t2.l12.grammar-1#8",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|يَكْتُبْنَ} est-il invariable ?" },
+      "choices": [
+        { "fr": "Parce que le pronom {ar|نَ} des femmes est collé à la fin du verbe" },
+        { "fr": "Parce que c'est un verbe au passé" },
+        { "fr": "Parce qu'il commence par {ar|يَ}" }
+      ],
+      "answer": 0,
+      "explain": "Le {ar|نَ} des femmes est un pronom collé à la fin : le verbe garde alors son sukūn. {ar|يَ} au début ne rend pas un verbe invariable."
+    },
+    {
+      "id": "medine-t2.l12.grammar-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles écrivent.",
+      "answers": ["يَكْتُبْنَ.", "هُنَّ يَكْتُبْنَ."],
+      "explain": "« Elles » : {ar|يَكْتُبْنَ}."
+    }
+  ]
+}

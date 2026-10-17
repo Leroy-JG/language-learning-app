@@ -1,0 +1,149 @@
+{
+  "id": "medine-t2.l12.dialogue-1",
+  "type": "dialogue",
+  "title": "Le médicament d'Umm Aḥmad",
+  "icon": "doctor",
+  "screens": [
+    {
+      "id": "medine-t2.l12.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Le médicament d'Umm Aḥmad",
+      "intro": "Ḥāmid demande à Umm Aḥmad, la mère d'Aḥmad, ce qu'elle fait. Elle cherche son médicament, et ils parlent de son rendez-vous à l'hôpital.",
+      "speakers": { "H": { "name": "Ḥāmid", "voice": "m1" }, "U": { "name": "Umm Aḥmad", "voice": "f1" } },
+      "lines": [
+        { "speaker": "H", "ar": "مَاذَا تَفْعَلِينَ يَا أُمَّ أَحْمَدَ؟", "fr": "Que fais-tu, Umm Aḥmad ?" },
+        {
+          "speaker": "U",
+          "ar": "أَبْحَثُ عَنِ الدَّوَاءِ الَّذِي أَخَذْتُهُ مِنَ الْمُسْتَشْفَى أَمْسِ.",
+          "fr": "Je cherche le médicament que j'ai pris à l'hôpital hier."
+        },
+        {
+          "speaker": "H",
+          "ar": "هُوَ عَلَى الْمَكْتَبِ فِي غُرْفَتِي. كَيْفَ حَالُكِ الْيَوْمَ؟ لَعَلَّكِ الْيَوْمَ أَحْسَنُ.",
+          "fr": "Il est sur le bureau, dans ma chambre. Comment vas-tu aujourd'hui ? J'espère que tu vas mieux aujourd'hui."
+        },
+        {
+          "speaker": "U",
+          "ar": "نَعَمْ. أَنَا الْيَوْمَ أَحْسَنُ، وَالْحَمْدُ لِلَّهِ.",
+          "fr": "Oui. Aujourd'hui, je vais mieux, louange à Allah."
+        },
+        { "speaker": "H", "ar": "مَتَى تَذْهَبِينَ إِلَى الْمُسْتَشْفَى؟", "fr": "Quand vas-tu à l'hôpital ?" },
+        {
+          "speaker": "U",
+          "ar": "سَأَذْهَبُ بَعْدَ سَاعَةٍ إِنْ شَاءَ اللَّهُ.",
+          "fr": "J'irai dans une heure, si Allah le veut."
+        },
+        { "speaker": "H", "ar": "مَعَ مَنْ تَذْهَبِينَ؟", "fr": "Avec qui vas-tu ?" },
+        { "speaker": "U", "ar": "سَأَذْهَبُ مَعَ أَحْمَدَ.", "fr": "J'irai avec Aḥmad." },
+        {
+          "speaker": "H",
+          "ar": "أَتَعْرِفِينَ الطَّبِيبَةَ الَّتِي ذَهَبْتِ إِلَيْهَا أَمْسِ؟",
+          "fr": "Connais-tu la femme médecin chez qui tu es allée hier ?"
+        },
+        {
+          "speaker": "U",
+          "ar": "نَعَمْ. أَعْرِفُهَا. اِسْمُهَا الدُّكْتُورَةُ سُعَادُ.",
+          "fr": "Oui. Je la connais. Elle s'appelle la doctoresse Suʿād."
+        },
+        {
+          "speaker": "U",
+          "ar": "يَقُولُونَ إِنَّهَا أَحْسَنُ طَبِيبَةٍ فِي الْمُسْتَشْفَى.",
+          "fr": "On dit qu'elle est la meilleure femme médecin de l'hôpital."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.dialogue-1#2",
+      "type": "tip",
+      "title": "Des formes à repérer dans le texte",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ḥāmid parle à une femme : tu retrouves le {ar|ي} de « toi » et le {ar|ن} final du chapitre."
+        },
+        {
+          "type": "table",
+          "header": ["Forme", "Sens"],
+          "rows": [
+            ["{ar|تَفْعَلِينَ ، تَذْهَبِينَ ، أَتَعْرِفِينَ}", "tu fais, tu vas, connais-tu ? (à une femme)"],
+            ["{ar|ذَهَبْتِ}", "tu es allée ({ar|ت} avec une kasra : une femme)"],
+            ["{ar|لَعَلَّكِ}", "j'espère que tu… (le {ar|كِ} de « toi », une femme)"],
+            ["{ar|أَخَذْتُهُ}", "je l'ai pris ({ar|أَخَذَ} + {ar|تُ} + {ar|هُ})"],
+            ["{ar|سَأَذْهَبُ}", "j'irai (le futur)"],
+            ["{ar|بَعْدَ سَاعَةٍ}", "dans une heure (littéralement : après une heure)"],
+            ["{ar|يَقُولُونَ إِنَّ}", "on dit que (ici, {ar|إِنَّ} après {ar|قَالَ} et ses formes)"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|سَاعَةٌ} veut dire « une montre » (chapitre 4 du tome 1), mais aussi « une heure »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Comment va Umm Aḥmad aujourd'hui ?" },
+      "choices": [ { "fr": "Elle va mieux" }, { "fr": "Elle va plus mal" }, { "fr": "Elle est toujours très malade" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l12.dialogue-1#1" },
+      "explain": "{ar|أَنَا الْيَوْمَ أَحْسَنُ} : « aujourd'hui, je vais mieux »."
+    },
+    {
+      "id": "medine-t2.l12.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Où est le médicament ?" },
+      "choices": [ { "fr": "Sur le bureau, dans la chambre de Ḥāmid" }, { "fr": "À l'hôpital" }, { "fr": "À la pharmacie" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l12.dialogue-1#1" },
+      "explain": "{ar|هُوَ عَلَى الْمَكْتَبِ فِي غُرْفَتِي}."
+    },
+    {
+      "id": "medine-t2.l12.dialogue-1#5",
+      "type": "fill_gap",
+      "sentence": "مَتَى {0} إِلَى الْمُسْتَشْفَى؟",
+      "fr": "Quand vas-tu à l'hôpital ?",
+      "gaps": [ { "answers": ["تَذْهَبِينَ"] } ],
+      "options": ["تَذْهَبِينَ", "تَذْهَبُ", "تَذْهَبُونَ"],
+      "context": { "dialogue": "medine-t2.l12.dialogue-1#1" },
+      "explain": "Ḥāmid parle à Umm Aḥmad, une femme : {ar|تَذْهَبِينَ}."
+    },
+    {
+      "id": "medine-t2.l12.dialogue-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Umm Aḥmad ira à l'hôpital sans personne." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l12.dialogue-1#1" },
+      "explain": "Faux : {ar|سَأَذْهَبُ مَعَ أَحْمَدَ}, elle ira avec Aḥmad."
+    },
+    {
+      "id": "medine-t2.l12.dialogue-1#7",
+      "type": "question",
+      "prompt": { "fr": "Que dit-on de la doctoresse Suʿād ?" },
+      "choices": [
+        { "fr": "Que c'est la meilleure femme médecin de l'hôpital" },
+        { "fr": "Qu'elle est malade" },
+        { "fr": "Qu'elle habite à La Mecque" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l12.dialogue-1#1" },
+      "explain": "{ar|يَقُولُونَ إِنَّهَا أَحْسَنُ طَبِيبَةٍ فِي الْمُسْتَشْفَى}."
+    },
+    {
+      "id": "medine-t2.l12.dialogue-1#8",
+      "type": "order",
+      "fr": "Je cherche le médicament que j'ai pris hier.",
+      "answers": [["أَبْحَثُ", "عَنِ", "الدَّوَاءِ", "الَّذِي", "أَخَذْتُهُ", "أَمْسِ"]],
+      "punctuation": ".",
+      "explain": "{ar|الَّذِي أَخَذْتُهُ} : « que j'ai pris » ; le pronom {ar|هُ} reprend {ar|الدَّوَاءِ}."
+    },
+    {
+      "id": "medine-t2.l12.dialogue-1#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'irai avec Aḥmad.",
+      "answers": ["سَأَذْهَبُ مَعَ أَحْمَدَ."],
+      "explain": "{ar|سَ} + {ar|أَذْهَبُ} (« j'irai »), puis {ar|مَعَ أَحْمَدَ}."
+    }
+  ]
+}

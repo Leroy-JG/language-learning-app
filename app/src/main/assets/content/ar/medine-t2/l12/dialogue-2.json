@@ -1,0 +1,194 @@
+{
+  "id": "medine-t2.l12.dialogue-2",
+  "type": "dialogue",
+  "title": "Les devoirs, les sourates et les voisins",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l12.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Les devoirs, les sourates et les voisins",
+      "intro": "Ḥāmid interroge ses fils, puis ses filles : que font-ils ? Ensuite, il demande à Aḥmad quand les voisins reviendront de La Mecque.",
+      "speakers": {
+        "H": { "name": "Ḥāmid", "voice": "m1" },
+        "S": { "name": "Les fils", "voice": "m2" },
+        "A": { "name": "Aḥmad", "voice": "m2" },
+        "G": { "name": "Les filles", "voice": "f1" }
+      },
+      "lines": [
+        { "speaker": "H", "ar": "مَاذَا تَفْعَلُونَ يَا أَبْنَائِي؟", "fr": "Que faites-vous, mes fils ?" },
+        { "speaker": "S", "ar": "نَكْتُبُ الْوَاجِبَاتِ.", "fr": "Nous écrivons les devoirs." },
+        { "speaker": "H", "ar": "أَتَفْهَمُونَ الدُّرُوسَ جَيِّدًا؟", "fr": "Comprenez-vous bien les leçons ?" },
+        {
+          "speaker": "S",
+          "ar": "نَعَمْ. نَفْهَمُهَا جَيِّدًا وَالْحَمْدُ لِلَّهِ.",
+          "fr": "Oui. Nous les comprenons bien, louange à Allah."
+        },
+        {
+          "speaker": "H",
+          "ar": "أَيَّ سُورَةٍ تَحْفَظُونَ الْآنَ؟",
+          "fr": "Quelle sourate mémorisez-vous maintenant ?"
+        },
+        {
+          "speaker": "A",
+          "ar": "أَمَّا أَنَا فَأَحْفَظُ سُورَةَ الْمُلْكِ.",
+          "fr": "Quant à moi, je mémorise la sourate al-Mulk."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَأَمَّا هَؤُلَاءِ فَيَحْفَظُونَ سُورَةَ الْقَلَمِ.",
+          "fr": "Et quant à ceux-ci, ils mémorisent la sourate al-Qalam."
+        },
+        {
+          "speaker": "H",
+          "ar": "وَمَاذَا تَفْعَلْنَ أَنْتُنَّ يَا بَنَاتِي؟",
+          "fr": "Et vous, que faites-vous, mes filles ?"
+        },
+        { "speaker": "G", "ar": "نَحْنُ الْآنَ نَلْعَبُ.", "fr": "Nous, en ce moment, nous jouons." },
+        {
+          "speaker": "H",
+          "ar": "أَفِي وَقْتِ الْعَمَلِ تَلْعَبْنَ؟",
+          "fr": "Jouez-vous pendant le temps du travail ?"
+        },
+        {
+          "speaker": "H",
+          "ar": "مَتَى تَقْرَأْنَ الدُّرُوسَ وَمَتَى تَكْتُبْنَ الْوَاجِبَاتِ؟",
+          "fr": "Quand lisez-vous les leçons, et quand écrivez-vous les devoirs ?"
+        },
+        {
+          "speaker": "G",
+          "ar": "نَحْنُ قَرَأْنَا الدُّرُوسَ وَكَتَبْنَا الْوَاجِبَاتِ وَالْحَمْدُ لِلَّهِ.",
+          "fr": "Nous avons lu les leçons et écrit les devoirs, louange à Allah."
+        },
+        {
+          "speaker": "H",
+          "ar": "أَحْسَنْتُنَّ يَا بَنَاتِي. هٰكَذَا تَفْعَلُ التِّلْمِيذَاتُ الْمُجْتَهِدَاتُ.",
+          "fr": "Bravo, mes filles. C'est ainsi que font les élèves appliquées."
+        },
+        {
+          "speaker": "H",
+          "ar": "مَتَى تَذْهَبْنَ لِزِيَارَةِ خَالَتِكُنَّ؟ أَتَعْرِفْنَ أَنَّهَا مَرِيضَةٌ؟",
+          "fr": "Quand allez-vous rendre visite à votre tante ? Savez-vous qu'elle est malade ?"
+        },
+        {
+          "speaker": "G",
+          "ar": "نَعَمْ. نَعْرِفُ ذٰلِكَ. شَفَاهَا اللَّهُ. سَنَذْهَبُ لِزِيَارَتِهَا هٰذَا الْمَسَاءَ إِنْ شَاءَ اللَّهُ.",
+          "fr": "Oui. Nous le savons. Qu'Allah la guérisse. Nous irons lui rendre visite ce soir, si Allah le veut."
+        },
+        {
+          "speaker": "H",
+          "ar": "يَا أَحْمَدُ، أَتَعْرِفُ مَتَى يَرْجِعُ الْجِيرَانُ مِنْ مَكَّةَ؟",
+          "fr": "Aḥmad, sais-tu quand les voisins reviennent de La Mecque ?"
+        },
+        {
+          "speaker": "A",
+          "ar": "قَالَ لِي يُوسُفُ: إِنَّنَا سَنَرْجِعُ فِي الْأُسْبُوعِ الْقَادِمِ. أَظُنُّ أَنَّهُمْ سَيَرْجِعُونَ يَوْمَ السَّبْتِ إِنْ شَاءَ اللَّهُ.",
+          "fr": "Yūsuf m'a dit : « Nous reviendrons la semaine prochaine. » Je pense qu'ils reviendront samedi, si Allah le veut."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.dialogue-2#2",
+      "type": "tip",
+      "title": "Des formes à repérer dans le texte",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Forme", "Sens"],
+          "rows": [
+            [
+              "{ar|تَفْعَلُونَ ، تَحْفَظُونَ ، يَحْفَظُونَ}",
+              "vous faites, vous mémorisez, ils mémorisent (le {ar|و} du groupe)"
+            ],
+            [
+              "{ar|تَفْعَلْنَ ، تَلْعَبْنَ ، تَقْرَأْنَ ، أَتَعْرِفْنَ}",
+              "vous (plusieurs femmes) : le pronom {ar|نَ} et un sukūn"
+            ],
+            ["{ar|نَفْهَمُهَا}", "nous les comprenons ({ar|نَفْهَمُ} + {ar|هَا})"],
+            ["{ar|أَحْسَنْتُنَّ}", "vous avez bien fait, bravo (plusieurs femmes : {ar|أَحْسَنَ} + {ar|تُنَّ})"],
+            ["{ar|خَالَتِكُنَّ}", "votre tante (plusieurs femmes : {ar|خَالَةٌ} + {ar|كُنَّ})"],
+            [
+              "{ar|إِنَّنَا}",
+              "{ar|إِنَّ} + {ar|نَا} : « nous » (après {ar|قَالَ}, {ar|إِنَّ} introduit les paroles citées et ne se traduit pas)"
+            ],
+            ["{ar|سَنَرْجِعُ ، سَيَرْجِعُونَ}", "nous reviendrons, ils reviendront (le futur)"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans {ar|هٰكَذَا تَفْعَلُ التِّلْمِيذَاتُ}, le verbe précède son sujet : il reste au singulier ({ar|تَفْعَلُ}, au féminin) même si le sujet est pluriel (chapitre 11)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Que font les filles quand leur père les interroge ?" },
+      "choices": [ { "fr": "Elles jouent" }, { "fr": "Elles écrivent les devoirs" }, { "fr": "Elles lisent le Coran" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l12.dialogue-2#1" },
+      "explain": "{ar|نَحْنُ الْآنَ نَلْعَبُ}."
+    },
+    {
+      "id": "medine-t2.l12.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi les filles peuvent-elles jouer ?" },
+      "choices": [
+        { "fr": "Elles ont déjà lu les leçons et écrit les devoirs" },
+        { "fr": "Parce que c'est l'heure de la prière" },
+        { "fr": "Parce que leur tante est malade" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l12.dialogue-2#1" },
+      "explain": "{ar|نَحْنُ قَرَأْنَا الدُّرُوسَ وَكَتَبْنَا الْوَاجِبَاتِ}."
+    },
+    {
+      "id": "medine-t2.l12.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Les filles iront rendre visite à leur tante ce soir." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l12.dialogue-2#1" },
+      "explain": "Oui : {ar|سَنَذْهَبُ لِزِيَارَتِهَا هٰذَا الْمَسَاءَ إِنْ شَاءَ اللَّهُ}."
+    },
+    {
+      "id": "medine-t2.l12.dialogue-2#6",
+      "type": "fill_gap",
+      "sentence": "أَمَّا أَنَا {0} سُورَةَ الْمُلْكِ.",
+      "fr": "Quant à moi, je mémorise la sourate al-Mulk.",
+      "gaps": [ { "answers": ["فَأَحْفَظُ"] } ],
+      "options": ["فَأَحْفَظُ", "وَأَحْفَظُ"],
+      "context": { "dialogue": "medine-t2.l12.dialogue-2#1" },
+      "explain": "Après {ar|أَمَّا} et le mot annoncé, la suite commence par {ar|فَ}."
+    },
+    {
+      "id": "medine-t2.l12.dialogue-2#7",
+      "type": "fill_gap",
+      "sentence": "وَأَمَّا هَؤُلَاءِ {0} سُورَةَ الْقَلَمِ.",
+      "fr": "Et quant à ceux-ci, ils mémorisent la sourate al-Qalam.",
+      "gaps": [ { "answers": ["فَيَحْفَظُونَ"] } ],
+      "options": ["فَيَحْفَظُونَ", "فَيَحْفَظْنَ"],
+      "context": { "dialogue": "medine-t2.l12.dialogue-2#1" },
+      "explain": "Ce sont des garçons (« ils ») : {ar|يَحْفَظُونَ}, avec le {ar|و} du groupe. {ar|يَحْفَظْنَ} serait pour des filles."
+    },
+    {
+      "id": "medine-t2.l12.dialogue-2#8",
+      "type": "order",
+      "fr": "Nous irons lui rendre visite ce soir.",
+      "answers": [
+        ["سَنَذْهَبُ", "لِزِيَارَتِهَا", "هٰذَا", "الْمَسَاءَ"],
+        ["هٰذَا", "الْمَسَاءَ", "سَنَذْهَبُ", "لِزِيَارَتِهَا"],
+        ["سَنَذْهَبُ", "هٰذَا", "الْمَسَاءَ", "لِزِيَارَتِهَا"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|هٰذَا الْمَسَاءَ} (« ce soir ») est à l'accusatif ; il peut se placer au début ou à la fin."
+    },
+    {
+      "id": "medine-t2.l12.dialogue-2#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Nous avons lu les leçons et écrit les devoirs.",
+      "answers": ["قَرَأْنَا الدُّرُوسَ وَكَتَبْنَا الْوَاجِبَاتِ.", "نَحْنُ قَرَأْنَا الدُّرُوسَ وَكَتَبْنَا الْوَاجِبَاتِ."],
+      "explain": "Deux passés avec {ar|نَا} : {ar|قَرَأْنَا} et {ar|كَتَبْنَا}."
+    }
+  ]
+}
