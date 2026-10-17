@@ -48,7 +48,7 @@
     {
       "id": "medine-t2.l13.practice-6#3",
       "type": "question",
-      "prompt": { "fr": "Quelle voyelle finale prend {ar|تَدْخُلُ} après {ar|لَمْ} ({ar|أَنْتَ لَمْ تَدْخُلْ}) ?" },
+      "prompt": { "fr": "Quelle marque finale prend {ar|تَدْخُلُ} après {ar|لَمْ} ({ar|أَنْتَ لَمْ تَدْخُلْ}) ?" },
       "choices": [ { "fr": "un sukūn" }, { "fr": "une fatha" }, { "fr": "une damma" } ],
       "answer": 0,
       "explain": "Après {ar|لَمْ}, le présent d'un verbe ordinaire est au jussif : le sukūn."
@@ -92,7 +92,7 @@
       "id": "medine-t2.l13.practice-6#8",
       "type": "order",
       "fr": "Tu n'es pas allé au marché.",
-      "answers": [["أَنْتَ", "لَمْ", "تَذْهَبْ", "إِلَى", "السُّوقِ"]],
+      "answers": [["أَنْتَ", "لَمْ", "تَذْهَبْ", "إِلَى", "السُّوقِ"], ["لَمْ", "تَذْهَبْ", "أَنْتَ", "إِلَى", "السُّوقِ"]],
       "punctuation": ".",
       "distractors": ["لَنْ"],
       "explain": "{ar|لَمْ} + le présent au sukūn : {ar|لَمْ تَذْهَبْ}. {ar|لَنْ} se mettrait avec la fatha."

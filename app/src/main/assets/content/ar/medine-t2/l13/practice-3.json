@@ -18,12 +18,12 @@
           "header": ["Situation", "Le verbe"],
           "rows": [
             [
-              "Le sujet est un pronom, ou un nom placé **avant** le verbe",
+              "Le sujet est un pronom, ou un nom de personnes placé **avant** le verbe",
               "il s'accorde en genre **et en nombre** : {ar|الطُّلَّابُ يَدْخُلُونَ}"
             ],
             [
               "Le sujet est un nom placé **après** le verbe",
-              "il reste au **singulier**, accordé en genre seulement : {ar|يَدْخُلُ الطُّلَّابُ}, {ar|تَجْلِسُ الطَّالِبَاتُ}"
+              "il reste au **singulier** et s'accorde en genre (au féminin avec des femmes, forme normale) : {ar|يَدْخُلُ الطُّلَّابُ}, {ar|تَجْلِسُ الطَّالِبَاتُ}"
             ],
             [
               "On s'adresse à quelqu'un ({ar|يَا} + un nom)",
@@ -83,9 +83,9 @@
       "sentence": "{0} الطَّالِبَاتُ فِي الصَّفِّ الْأَخِيرِ.",
       "fr": "Les étudiantes sont assises au dernier rang.",
       "gaps": [ { "answers": ["تَجْلِسُ"] } ],
-      "options": ["تَجْلِسُ", "يَجْلِسُ", "تَجْلِسْنَ"],
+      "options": ["تَجْلِسُ", "يَجْلِسُونَ", "تَجْلِسْنَ"],
       "instruction": "Choisis la forme qui corrige la phrase du livre.",
-      "explain": "Le sujet {ar|الطَّالِبَاتُ} (des femmes) vient après le verbe : singulier féminin, {ar|تَجْلِسُ}."
+      "explain": "Le sujet {ar|الطَّالِبَاتُ} (des femmes) vient après le verbe : le verbe reste au singulier et se met au féminin, {ar|تَجْلِسُ}."
     },
     {
       "id": "medine-t2.l13.practice-3#7",
@@ -124,14 +124,6 @@
     },
     {
       "id": "medine-t2.l13.practice-3#10",
-      "type": "typing",
-      "ask": "fr",
-      "fr": "Qu'écrivez-vous, mes filles ?",
-      "answers": ["مَاذَا تَكْتُبْنَ يَا بَنَاتِي؟", "يَا بَنَاتِي مَاذَا تَكْتُبْنَ؟", "مَاذَا يَا بَنَاتِي تَكْتُبْنَ؟"],
-      "explain": "On parle à plusieurs filles : {ar|تَكْتُبْنَ}."
-    },
-    {
-      "id": "medine-t2.l13.practice-3#11",
       "type": "fill_gap",
       "sentence": "مَاذَا {0} يَا عَبَّاسُ؟",
       "fr": "Que manges-tu, ʿAbbās ?",
@@ -141,7 +133,7 @@
       "explain": "ʿAbbās est un homme : {ar|تَأْكُلُ}."
     },
     {
-      "id": "medine-t2.l13.practice-3#12",
+      "id": "medine-t2.l13.practice-3#11",
       "type": "order",
       "fr": "Mon père reviendra de Riyad la semaine prochaine.",
       "answers": [
@@ -152,7 +144,7 @@
       "explain": "« Mon père » est masculin : {ar|سَيَرْجِعُ} (et non {ar|سَتَرْجِعُ})."
     },
     {
-      "id": "medine-t2.l13.practice-3#13",
+      "id": "medine-t2.l13.practice-3#12",
       "type": "fill_gap",
       "sentence": "نَحْنُ {0} الْقَهْوَةَ كُلَّ صَبَاحٍ.",
       "fr": "Nous buvons le café chaque matin.",
@@ -160,6 +152,14 @@
       "options": ["نَشْرَبُ", "أَشْرَبُ", "يَشْرَبُونَ"],
       "instruction": "Choisis la forme qui corrige la phrase du livre.",
       "explain": "« Nous » : {ar|نَشْرَبُ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-3#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Qu'écrivez-vous, mes filles ?",
+      "answers": ["مَاذَا تَكْتُبْنَ يَا بَنَاتِي؟", "يَا بَنَاتِي مَاذَا تَكْتُبْنَ؟", "مَاذَا يَا بَنَاتِي تَكْتُبْنَ؟"],
+      "explain": "On parle à plusieurs filles : {ar|تَكْتُبْنَ}."
     }
   ]
 }

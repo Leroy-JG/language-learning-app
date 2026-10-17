@@ -69,14 +69,14 @@
     {
       "id": "medine-t2.l13.grammar-5#4",
       "type": "true_false",
-      "statement": { "fr": "À la fin de {ar|لَنْ يَقْضِيَ}, on voit une fatha sur le {ar|ي}." },
+      "statement": { "fr": "Dans {ar|لَنْ يَقْضِيَ}, on voit une fatha sur la dernière lettre, le {ar|ي}." },
       "answer": true,
       "explain": "Oui : après {ar|لَنْ}, la fatha se voit sur le {ar|ي} et sur le {ar|و}. Seul le {ar|ى} la cache."
     },
     {
       "id": "medine-t2.l13.grammar-5#5",
       "type": "true_false",
-      "statement": { "fr": "À la fin de {ar|لَنْ يَسْعَى}, on voit une fatha." },
+      "statement": { "fr": "Dans {ar|لَنْ يَسْعَى}, on voit une fatha sur la dernière lettre, le {ar|ى}." },
       "answer": false,
       "explain": "Non : le {ar|ى} ne porte aucune voyelle. La fatha est là, mais sous-entendue."
     },

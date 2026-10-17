@@ -112,7 +112,7 @@
       "id": "medine-t2.l13.practice-5#9",
       "type": "order",
       "fr": "Que mangent-ils ?",
-      "answers": [["مَاذَا", "يَأْكُلُونَ", "هُمْ"], ["مَاذَا", "هُمْ", "يَأْكُلُونَ"]],
+      "answers": [["مَاذَا", "يَأْكُلُونَ"]],
       "punctuation": "؟",
       "explain": "« Ils » : {ar|يَأْكُلُونَ}."
     },

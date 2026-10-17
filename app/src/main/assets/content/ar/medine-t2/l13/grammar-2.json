@@ -14,7 +14,12 @@
           "text": "Pour les cinq verbes, la marque du nominatif ({ar|الرَّفْعُ}) n'est pas la damma : c'est le {ar|ن} final. Le professeur dit {ar|ثُبُوتُ النُّونِ}, « le maintien du {ar|ن} » : il reste en place."
         },
         { "type": "example", "ar": "هُمْ يَكْتُبُونَ.", "fr": "Ils écrivent." },
-        { "type": "example", "ar": "أَنْتِ تَكْتُبِينَ.", "fr": "Tu écris (à une femme)." }
+        { "type": "example", "ar": "أَنْتِ تَكْتُبِينَ.", "fr": "Tu écris (à une femme)." },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les grammairiens appellent ce {ar|ن} {ar|نُونُ الرَّفْعِ}, « le nūn du nominatif ». Ne le confonds pas avec {ar|نُونُ النِّسْوَةِ}, le {ar|نَ} de {ar|يَكْتُبْنَ} (chapitre 12), qui est un pronom."
+        }
       ]
     },
     { "id": "medine-t2.l13.grammar-2#2", "type": "present", "item": "p:thubut-nun" },
@@ -59,7 +64,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Après le wāw du groupe, on écrit un alif qu'on ne prononce pas : {ar|لَنْ يَكْتُبُوا} se lit « lan yaktubū ». Cet alif ne s'écrit qu'après le wāw du groupe."
+          "text": "Après le wāw du groupe, on écrit un alif qu'on ne prononce pas : {ar|لَنْ يَكْتُبُوا} se lit « lan yaktubū ». Cet alif ne s'écrit qu'après le wāw du groupe : il le distingue d'un {ar|و} de racine ({ar|لَمْ يَدْعُوا}, « ils n'ont pas appelé », contre {ar|لَنْ يَدْعُوَ}, « il n'appellera pas »). Les grammairiens l'appellent {ar|أَلِفُ التَّفْرِيقِ}."
         }
       ]
     },

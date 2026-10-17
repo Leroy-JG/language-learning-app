@@ -20,7 +20,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Le {ar|ى} final (sans points) se prononce comme un « â » long. Ne le confonds pas avec le {ar|ي}, qui a deux points."
+          "text": "Le {ar|ى} final (sans points) se prononce comme un « â » long. C'est un {ar|ي} (ou un {ar|و}) de la racine, écrit sans points : le professeur compte trois lettres, {ar|و}, {ar|ي} et {ar|ى}."
         }
       ]
     },
@@ -96,7 +96,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le schéma du professeur résume tout le chapitre. Un présent a la marque de base ({ar|إِعْرَابٌ أَصْلِيٌّ}) tant que rien ne change sa fin ; sinon il a une marque secondaire ({ar|إِعْرَابٌ فَرْعِيٌّ})."
+          "text": "Le schéma du professeur résume tout le chapitre. Un présent variable ({ar|مُعْرَبٌ}) a la marque de base ({ar|إِعْرَابٌ أَصْلِيٌّ}, vue au chapitre 12) tant que rien ne change sa fin ; sinon il a une marque secondaire ({ar|إِعْرَابٌ فَرْعِيٌّ}). (Avec le {ar|نَ} des femmes, le présent est invariable : chapitre 12.)"
         },
         {
           "type": "table",

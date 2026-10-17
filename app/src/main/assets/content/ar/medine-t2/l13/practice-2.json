@@ -16,7 +16,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Quand le sujet est un nom placé **avant** le verbe, le verbe s'accorde en nombre ({ar|أَخَوَاتُ حَمْزَةَ يَدْرُسْنَ}). Placé **après** le verbe, il reste au singulier ({ar|يَكْتُبُ الْمُدَرِّسُ})."
+          "text": "Quand le sujet est un nom de personnes placé **avant** le verbe, le verbe s'accorde en nombre ({ar|أَخَوَاتُ حَمْزَةَ يَدْرُسْنَ}). Quand le nom sujet est placé **après** le verbe, le verbe reste au singulier et s'accorde seulement en genre ({ar|يَدْخُلُ الطُّلَّابُ})."
         }
       ]
     },
@@ -45,7 +45,7 @@
       "words": ["أَفِي", "مَهَاجِعِ", "الْجَامِعَةِ", "تَسْكُنُونَ", "يَا", "إِخْوَانُ؟"],
       "answers": [5],
       "fr": "Habitez-vous dans les dortoirs de l'université, mes frères ?",
-      "explain": "{ar|إِخْوَانُ} (« frères ») dit qu'on parle à plusieurs hommes : le verbe est {ar|تَسْكُنُونَ}."
+      "explain": "{ar|إِخْوَانُ} (« frères ») dit qu'on parle à plusieurs hommes."
     },
     {
       "id": "medine-t2.l13.practice-2#5",
@@ -139,7 +139,7 @@
       "ask": "fr",
       "fr": "Ma sœur connaît trois langues.",
       "answers": ["أُخْتِي تَعْرِفُ ثَلَاثَ لُغَاتٍ.", "تَعْرِفُ أُخْتِي ثَلَاثَ لُغَاتٍ."],
-      "explain": "{ar|تَعْرِفُ} : « elle connaît ». {ar|لُغَةٌ} est féminin : {ar|ثَلَاثُ لُغَاتٍ}, à l'accusatif {ar|ثَلَاثَ لُغَاتٍ}."
+      "explain": "{ar|تَعْرِفُ} : « elle connaît ». {ar|لُغَةٌ} est féminin : les nombres de 3 à 10 prennent le genre contraire du nom compté (tome 1), donc {ar|ثَلَاثُ لُغَاتٍ}, à l'accusatif {ar|ثَلَاثَ لُغَاتٍ} ; le nom compté est au pluriel, au génitif."
     }
   ]
 }

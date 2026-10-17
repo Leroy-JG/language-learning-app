@@ -70,6 +70,17 @@ Outils de la palette : `sort` (cinq verbes ou non, le `ن` reste / tombe, finale
 - **`آكُلُ`** : `أَ` + `أْكُلُ` devient `آكُلُ` (alif madda), cas de `أَكَلَ` (`practice-5`).
 - **`عِلَّةٌ`** : « défaut, infirmité » ; on dit aussi « lettres faibles ».
 
+## Corrections faites après la relecture
+
+Trois relecteurs indépendants (arabe et fidélité aux PDF, exercices, français et pédagogie) : aucune erreur certaine dans les formes arabes ni dans les corrigés. Remarques vérifiées et prises en compte :
+
+- **Verbe avant un sujet pluriel féminin sain** : `يَجْلِسُ الطَّالِبَاتُ` (masculin) n'est pas faux en grammaire classique (`جَاءَ الْمُؤْمِنَاتُ`) ; le distracteur de `practice-3` devient `يَجْلِسُونَ`, et le tableau dit « au féminin avec des femmes, forme normale » et « nom de personnes » pour l'accord complet avant le verbe.
+- **Réponses acceptées** : `سَيَّارَةُ أُجْرَةٍ` (indéfini) et `فِي سَيَّارَةِ…` (`رَكِبَ فِي` est attesté, Coran 29:65) pour « un taxi » ; deux ordres de plus pour « Pourquoi ne vas-tu pas… » ; `لَمْ تَذْهَبْ أَنْتَ إِلَى السُّوقِ` ; `مَاذَا يَأْكُلُونَ` sans `هُمْ` (pronom d'insistance peu naturel).
+- **Exactitude** : « marque de base » seulement pour un présent **variable** (`مُعْرَبٌ` ; le `نَ` des femmes rend le verbe invariable) ; le `ى` final est un `ي` (ou un `و`) de la racine écrit sans points ; la fatha « visible » est localisée sur la dernière lettre ; « marque finale » (le sukūn n'est pas une voyelle) ; `اِتَّصَلَ` traduit « il s'est joint » (actif).
+- **Ajouts d'oral certains** : `أَلِفُ التَّفْرِيقِ` (il distingue `لَمْ يَدْعُوا` de `لَنْ يَدْعُوَ`), `نُونُ الرَّفْعِ` (à ne pas confondre avec `نُونُ النِّسْوَةِ`), rappel des nombres de 3 à 10 (genre contraire) pour `ثَلَاثَ لُغَاتٍ`.
+- **Pédagogie** : `practice-3` finit sur une production ; l'explication du `spot` de `practice-2` ne donne plus la réponse de l'écran suivant.
+- **Non modifié** : `الْخُبْزَ` / `الْقَهْوَةَ` traduits « le pain », « le café » (avec l'article arabe, alors que les éléments disent « du pain », « du café »).
+
 ## Pas encore enseigné (donc sans exercice)
 
 `نُونُ التَّوْكِيدِ` (seulement cité au chapitre 12), les autres particules du nasb et du jazm (`أَنْ`, `كَيْ`, `لِ` de but, `لَمَّا`, `لِ` de l'ordre), l'impératif et `الْمَصْدَرُ` (tableau des quatre formes de `اِتَّصَلَ`, simple aperçu),
