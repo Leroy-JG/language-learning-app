@@ -55,7 +55,7 @@
       "fr": "Zayd aide Yāsir.",
       "answers": [["يُسَاعِدُ", "زَيْدٌ", "يَاسِرًا"], ["زَيْدٌ", "يُسَاعِدُ", "يَاسِرًا"]],
       "punctuation": ".",
-      "explain": "Le verbe peut venir avant ou après son sujet {ar|زَيْدٌ}. Le complément {ar|يَاسِرًا} est à l'accusatif."
+      "explain": "Le sujet du verbe vient après lui ({ar|يُسَاعِدُ زَيْدٌ يَاسِرًا}) ; si la phrase commence par {ar|زَيْدٌ}, c'est le sujet d'une phrase nominale et le sujet du verbe est le pronom caché « il ». Le complément {ar|يَاسِرًا} est à l'accusatif."
     },
     { "id": "medine-t2.r01.vocab-1#7", "type": "typing", "ask": "fr", "item": "w:saada" },
     {

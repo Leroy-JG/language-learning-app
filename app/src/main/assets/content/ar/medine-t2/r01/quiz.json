@@ -165,6 +165,51 @@
       "fr": "Elles n'ont pas écrit de lettre.",
       "answers": ["لَمْ يَكْتُبْنَ رِسَالَةً.", "هُنَّ لَمْ يَكْتُبْنَ رِسَالَةً."],
       "explain": "Le {ar|نَ} des femmes est un pronom : il ne tombe pas. {ar|رِسَالَةً} : le complément d'objet."
+    },
+    {
+      "id": "medine-t2.r01.quiz#17",
+      "type": "sort",
+      "categories": [
+        { "fr": "passé ({ar|الْمَاضِي})" },
+        { "fr": "présent ({ar|الْمُضَارِعُ})" },
+        { "fr": "impératif ({ar|الْأَمْرُ})" }
+      ],
+      "cards": [
+        { "ar": "دَرَسْتُنَّ", "category": 0 },
+        { "ar": "كَتَبَتْ", "category": 0 },
+        { "ar": "تَأْكُلِينَ", "category": 1 },
+        { "ar": "يَنْجَحُ", "category": 1 },
+        { "ar": "اُدْرُسْ", "category": 2 },
+        { "ar": "اُكْتُبْ", "category": 2 }
+      ],
+      "instruction": "Passé, présent ou impératif ?",
+      "explain": "{ar|دَرَسْتُنَّ} (le pronom {ar|تُنَّ}) et {ar|كَتَبَتْ} (le {ar|تْ} du féminin) sont au passé. {ar|تَأْكُلِينَ} et {ar|يَنْجَحُ} commencent par une lettre de {ar|أَنَيْتُ} : présent. {ar|اُدْرُسْ} et {ar|اُكْتُبْ} sont des ordres."
+    },
+    {
+      "id": "medine-t2.r01.quiz#18",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans {ar|أَكَلَ} et {ar|نَجَحَ}, les lettres {ar|أ} et {ar|ن} prouvent que ces verbes sont au présent."
+      },
+      "answer": false,
+      "explain": "Faux : ces verbes sont au passé (« il a mangé », « il a réussi »). Un présent commence toujours par une lettre de {ar|أَنَيْتُ}, mais un passé peut aussi commencer par l'une d'elles."
+    },
+    {
+      "id": "medine-t2.r01.quiz#19",
+      "type": "spot",
+      "instruction": "Touche le sujet du verbe.",
+      "words": ["دَخَلَ", "زَيْدٌ", "الْبَيْتَ."],
+      "answers": [1],
+      "fr": "Zayd est entré dans la maison.",
+      "explain": "{ar|زَيْدٌ} fait l'action, il est au nominatif : c'est le sujet. {ar|الْبَيْتَ} subit l'action, il est à l'accusatif : c'est le complément d'objet."
+    },
+    {
+      "id": "medine-t2.r01.quiz#20",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles ont mangé le pain.",
+      "answers": ["أَكَلْنَ الْخُبْزَ.", "هُنَّ أَكَلْنَ الْخُبْزَ."],
+      "explain": "{ar|أَكَلْنَ} : {ar|أَكَلَ} + le pronom sujet {ar|نَ} (« elles »). {ar|الْخُبْزَ} : le complément d'objet, à l'accusatif."
     }
   ]
 }

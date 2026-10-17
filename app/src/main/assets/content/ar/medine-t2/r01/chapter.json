@@ -3,9 +3,13 @@
   "number": 13,
   "title": { "ar": "مُرَاجَعَةٌ", "fr": "Revoir le verbe, les abrogeants, le complément et les nombres" },
   "label": "Révision 1",
-  "description": "Revoir l'{ar|إِعْرَابُ} du verbe (variable ou invariable, les trois états du présent, les cinq verbes, les verbes à finale défectueuse), {ar|إِنَّ}, {ar|كَانَ} et {ar|لَيْسَ}, les cinq raisons de l'accusatif, les pronoms collés et les nombres, avec les noms des quatre familles de nombres.",
+  "description": "Revoir le verbe (ses trois temps, son sujet et son complément, les pronoms sujets collés, la conjugaison) et son {ar|إِعْرَابُ} (variable ou invariable, les trois états du présent, les cinq verbes, les verbes à finale défectueuse), {ar|إِنَّ}, {ar|كَانَ} et {ar|لَيْسَ}, les cinq raisons de l'accusatif, les pronoms collés et les nombres, avec les noms des quatre familles de nombres.",
   "source": "Tome de Médine 2, semaine de révision 1",
   "sections": [
+    {
+      "title": "Le verbe, son sujet et son complément",
+      "activities": ["revue-14", "revue-15", "revue-16", "revue-17"]
+    },
     { "title": "Le verbe : ce qui change et ce qui ne change pas", "activities": ["revue-1", "revue-2"] },
     { "title": "Les cinq verbes et les verbes à finale défectueuse", "activities": ["revue-3", "revue-4"] },
     { "title": "Conjuguer aux trois états", "activities": ["revue-5"] },
