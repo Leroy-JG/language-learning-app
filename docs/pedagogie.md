@@ -158,6 +158,10 @@ Exemples tirés des leçons 1 à 6 :
   `question` à choix arabes pour faire lire l'analyse du professeur (`اِسْمُ إِنَّ مَنْصُوبٌ`, `خَبَرُ لَيْسَ مَنْصُوبٌ`, `مَفْعُولٌ بِهِ مَنْصُوبٌ`) ;
   `fill_gap` à réponses multiples (`لَيْسَ زَيْدٌ طَالِبًا` ou `بِطَالِبٍ`) ; `memory` des trois noms de familles de nombres (`r01/grammar-2`) ; tableaux de référence repris du professeur (douze pronoms collés avec `ضَرَبَ`, `يُحِبُّ`, `يُسَاعِدُ`, `إِنَّ`, `لَعَلَّ`).
 
+- (Tome 2, leçon 15) `sort` « à qui parle-t-on ? » (homme / femme / plusieurs personnes : `لَا تَدْخُلْ` / `لَا تَدْخُلِي` / `لَا تَدْخُلُوا`, cartes dont la catégorie se déduit de la fin du verbe) dans `medine-t2/l15/grammar-3` ;
+  `sort` « `لَا النَّافِيَةُ` / `لَا النَّاهِيَةُ` » où la voyelle finale est la seule vraie différence : les cartes sont choisies pour que la catégorie se déduise du reste de la phrase (`لِمَ` + `؟`, `أَلَا` + `؟`, pronom sujet `هُوَ`, ponctuation `!`, mot d'appel `يَا أَحْمَدُ`) et non de la voyelle, qui peut être masquée (`l15/grammar-4`, quiz) ;
+  `compare` « négation → interdiction » (`لَا تَأْكُلُ` → `لَا تَأْكُلِ`) dans une astuce, où les harakat ne sont jamais masqués ; `spot` du nom et du prédicat de `كَادَ` (`l15/grammar-6`) ; `build` de `لِحْيَةٌ` (le `ة`, pas le `ه`) dans `l15/vocab-1`.
+
 ### Entraîner une voyelle finale (kasra, fatha…)
 
 Le validateur refuse deux choix qui ne diffèrent que par les harakat (`الْبَيْتِ` / `الْبَيْتُ`), et le

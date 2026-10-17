@@ -267,4 +267,12 @@ textes tirés de « قَصَصُ النَّبِيِّينَ »).
 Le cours 14 (deux PDF, `14a` de 21 pages et `14b` de 25 pages) est publié après la « Révision 1 » : `docs/sources-t2-lecon-14.md`. Le support du professeur contient `فِعْلُ الْأَمْرِ` (1ʳᵉ et 2ᵉ parties : construction à partir du présent au jussif, voyelle de la hamza de liaison, sujet de l'impératif),
 `الضَّمَائِرُ الْمُتَّصِلَةُ الْمَرْفُوعَةُ` (dernière partie), le texte du livre (« Un scorpion dans la classe »), les exercices 1 à 8, le vocabulaire nouveau (douze noms, dix verbes) et un exercice de conjugaison.
 Le chapitre les réunit : `l14.revue-1` (rappel du jussif), `grammar-1` à `grammar-5`, `vocab-1` à `vocab-5`, `dialogue-1`, `practice-1` à `practice-8`, `quiz`. **L'impératif est maintenant enseigné et exigé** ; les chapitres suivants peuvent s'y appuyer (jamais l'impératif des verbes défectueux ni `لَامُ الْأَمْرِ`, qui restent « pas encore enseignés »).
-Le cours 15 du plan (`الْجَوَازِمُ`, 1ʳᵉ partie : `لَا` de l'interdiction ; `كَادَ وَأَخَوَاتُهَا`) est le prochain.
+Le cours 15 du plan (`الْجَوَازِمُ`, 1ʳᵉ partie : `لَا` de l'interdiction ; `كَادَ وَأَخَوَاتُهَا`) a été publié ensuite (voir ci-dessous).
+
+## 21. Avancement : le chapitre 15 (`medine-t2.l15`)
+
+Le cours 15 (un seul PDF de 28 pages) est publié : `docs/sources-t2-lecon-15.md`. Le support du professeur contient `إِعْرَابُ الْفِعْلِ الْمُضَارِعِ` (3ᵉ partie : `الْجَوَازِمُ`, 1ʳᵉ partie : `لَا النَّاهِيَةُ` et sa différence avec `لَا النَّافِيَةُ`), le texte du livre (« Non, pas maintenant ! » : les ordres du professeur en classe),
+les exercices 1 à 10, `كَادَ وَأَخَوَاتُهَا` (les `نَوَاسِخُ`, `أَفْعَالُ الْمُقَارَبَةِ`) et le vocabulaire nouveau (quatre noms, quatre verbes).
+Le chapitre les réunit : `l15.revue-1` (rappel du jussif), `grammar-1` à `grammar-8`, `vocab-1`, `vocab-2`, `dialogue-1`, `practice-1` à `practice-6`, `quiz`. **`لَا` de l'interdiction, `لَا` de négation, `مَا` devant un présent et `كَادَ` sont maintenant enseignés et exigés** ;
+les chapitres suivants peuvent s'y appuyer (jamais les `جَوَازِمُ` qui mettent deux verbes au jussif (`إِنْ`, `مَنْ`…), `لَمَّا`, `لَامُ الْأَمْرِ`, ni les autres sœurs de `كَادَ`, qui restent « pas encore enseignés »).
+La suite du plan (cours 16 et suivants : la deuxième partie des `الْجَوَازِمُ`, les verbes défectueux…) est à confirmer avec les PDF suivants.
