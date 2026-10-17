@@ -32,7 +32,7 @@
     "ar": "لَا النَّافِيَةُ",
     "fr": "le {ar|لَا} de négation (« le lā qui nie »)",
     "translit": "lā n-nāfiyatu",
-    "note": "Elle nie seulement : elle n'agit pas sur le verbe, qui garde sa marque de base (la damma). C'est le même rôle que {ar|مَا النَّافِيَةُ} (chapitre 4 de ce tome).",
+    "note": "Elle nie seulement : elle n'agit pas sur le verbe, qui garde sa marque de base (la damma). C'est le même rôle que {ar|مَا النَّافِيَةُ} (chapitre 4 de ce tome) ; mais {ar|مَا}, devant un présent, limite la négation à l'instant.",
     "example": { "ar": "لِمَ لَا تَأْكُلُ يَا أَخِي؟", "fr": "Pourquoi ne manges-tu pas, mon frère ?" }
   },
   {
@@ -59,7 +59,7 @@
     "ar": "كَادَ وَأَخَوَاتُهَا",
     "fr": "kāda et ses sœurs (verbes d'imminence qui agissent sur la phrase nominale)",
     "translit": "kāda wa-akhawātuhā",
-    "note": "Comme {ar|كَانَ وَأَخَوَاتُهَا}, ce sont des {ar|نَوَاسِخُ} verbaux. Mais le prédicat est toujours un verbe au présent.",
+    "note": "Comme {ar|كَانَ وَأَخَوَاتُهَا}, ce sont des {ar|نَوَاسِخُ} verbaux. Mais le prédicat est un verbe au présent.",
     "example": { "ar": "كَادَ زَيْدٌ يَذْهَبُ.", "fr": "Zayd a failli partir." }
   },
   {
@@ -68,7 +68,7 @@
     "ar": "كَادَ",
     "fr": "il a failli, il a été sur le point de (faire)",
     "translit": "kāda",
-    "note": "Il est toujours suivi d'un verbe au présent : {ar|كَادَ زَيْدٌ يَذْهَبُ} (« Zayd a failli partir »). Son présent est {ar|يَكَادُ} (« il est sur le point de »). Le tableau du professeur ne lui donne ni impératif ni nom d'action.",
+    "note": "Il est suivi d'un verbe au présent : {ar|كَادَ زَيْدٌ يَذْهَبُ} (« Zayd a failli partir »). Son présent est {ar|يَكَادُ} (« il est sur le point de »). Le tableau du professeur ne lui donne ni impératif ni nom d'action.",
     "example": { "ar": "يَكَادُ الْمُدِيرُ يَخْرُجُ.", "fr": "Le directeur est sur le point de sortir." }
   },
   {
@@ -88,7 +88,7 @@
     "fr": "le prédicat de {ar|كَادَ} (un verbe au présent)",
     "translit": "khabaru kāda",
     "gender": "m",
-    "note": "Dans {ar|كَادَ زَيْدٌ يَذْهَبُ}, {ar|يَذْهَبُ} est {ar|خَبَرُ كَادَ}. C'est toujours un verbe au présent ; on ne voit aucun changement de terminaison.",
+    "note": "Dans {ar|كَادَ زَيْدٌ يَذْهَبُ}, {ar|يَذْهَبُ} est {ar|خَبَرُ كَادَ}. C'est un verbe au présent ; on ne voit aucun changement de terminaison.",
     "example": { "ar": "كَادَ زَيْدٌ يَنْجَحُ.", "fr": "Zayd a failli réussir." }
   },
   {
@@ -142,7 +142,7 @@
     "plural": "نَظَّارَاتٌ",
     "gender": "f",
     "note": "Même racine que {ar|نَظَرَ} (« regarder ») : c'est ce qui sert à voir.",
-    "example": { "ar": "هٰذِهِ نَظَّارَةٌ جَدِيدَةٌ.", "fr": "Ce sont des lunettes neuves." }
+    "example": { "ar": "هٰذِهِ نَظَّارَةٌ جَدِيدَةٌ.", "fr": "C'est une paire de lunettes neuve." }
   },
   {
     "id": "w:innama",

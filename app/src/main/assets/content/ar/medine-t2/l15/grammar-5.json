@@ -17,9 +17,12 @@
           "type": "table",
           "header": ["Phrase", "Sens"],
           "rows": [
-            ["{ar|أَنَا لَا أَشْرَبُ الْقَهْوَةَ}.", "Je ne bois pas de café. (en général)"],
+            ["{ar|أَنَا لَا أَشْرَبُ الْقَهْوَةَ}.", "Je ne bois pas de café. (sans préciser l'instant)"],
             ["{ar|أَنَا مَا أَشْرَبُ الْقَهْوَةَ الْآنَ}.", "Je ne bois pas de café en ce moment."],
-            ["{ar|نَحْنُ لَا نَلْعَبُ كُرَةَ الْقَدَمِ}.", "Nous ne jouons pas au football. (en général)"],
+            [
+              "{ar|نَحْنُ لَا نَلْعَبُ كُرَةَ الْقَدَمِ}.",
+              "Nous ne jouons pas au football. (sans préciser l'instant)"
+            ],
             ["{ar|نَحْنُ مَا نَلْعَبُ كُرَةَ الْقَدَمِ الْآنَ}.", "Nous ne jouons pas au football en ce moment."]
           ]
         },
@@ -40,12 +43,12 @@
         { "ar": "أَنَا شَرِبْتُ الْقَهْوَةَ" }
       ],
       "answer": 0,
-      "explain": "Avec {ar|مَا} et {ar|الْآنَ}, la négation porte sur le moment présent. {ar|أَنَا لَا أَشْرَبُ الْقَهْوَةَ} dit « je ne bois pas de café » en général."
+      "explain": "Avec {ar|مَا} et {ar|الْآنَ}, la négation porte sur le moment présent. {ar|أَنَا لَا أَشْرَبُ الْقَهْوَةَ} dit « je ne bois pas de café », sans préciser l'instant."
     },
     {
       "id": "medine-t2.l15.grammar-5#3",
       "type": "true_false",
-      "statement": { "fr": "Après {ar|مَا}, le verbe au présent est au jussif." },
+      "statement": { "fr": "Après {ar|مَا} qui nie, le verbe au présent est au jussif." },
       "answer": false,
       "explain": "Non : {ar|مَا} nie seulement, elle n'agit pas sur le verbe : il garde sa damma ({ar|مَا أَشْرَبُ})."
     },
@@ -100,7 +103,11 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Nous ne jouons pas au football en ce moment.",
-      "answers": ["نَحْنُ مَا نَلْعَبُ كُرَةَ الْقَدَمِ الْآنَ.", "مَا نَلْعَبُ كُرَةَ الْقَدَمِ الْآنَ."],
+      "answers": [
+        "نَحْنُ مَا نَلْعَبُ كُرَةَ الْقَدَمِ الْآنَ.",
+        "مَا نَلْعَبُ كُرَةَ الْقَدَمِ الْآنَ.",
+        "نَحْنُ مَا نَلْعَبُ الْآنَ كُرَةَ الْقَدَمِ."
+      ],
       "explain": "{ar|مَا} + {ar|نَلْعَبُ} (damma) + {ar|الْآنَ}."
     }
   ]

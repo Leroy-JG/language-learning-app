@@ -49,7 +49,7 @@
       "ask": "audio",
       "fr": "Ne t'assieds pas sur la route.",
       "answers": ["لَا تَجْلِسْ فِي الطَّرِيقِ."],
-      "explain": "{ar|لَا} + {ar|تَجْلِسْ} (sukūn) ; {ar|فِي} n'est pas une hamza de liaison."
+      "explain": "{ar|لَا} + {ar|تَجْلِسْ} (sukūn) : {ar|فِي} ne commence ni par {ar|الْ} ni par une hamza de liaison, donc le sukūn reste un sukūn."
     },
     {
       "id": "medine-t2.l15.practice-2#4",

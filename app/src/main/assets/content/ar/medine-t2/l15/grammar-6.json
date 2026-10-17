@@ -45,7 +45,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "{ar|كَادَ} fait partie d'un groupe de verbes que le professeur appelle {ar|أَفْعَالُ الْمُقَارَبَةِ} (les verbes d'imminence). Comme {ar|كَانَ}, il entre sur une phrase nominale ; mais son prédicat est toujours **un verbe au présent**."
+          "text": "{ar|كَادَ} fait partie d'un groupe de verbes que le professeur appelle {ar|أَفْعَالُ الْمُقَارَبَةِ} (les verbes d'imminence). Comme {ar|كَانَ}, il entre sur une phrase nominale ; mais son prédicat est **un verbe au présent**."
         },
         {
           "type": "table",
@@ -58,7 +58,12 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Il change le sens : la phrase dit qu'une action a été sur le point d'avoir lieu. Mais, contrairement à {ar|إِنَّ} et à {ar|كَانَ}, il ne change pas les terminaisons : {ar|زَيْدٌ} garde sa damma, {ar|يَذْهَبُ} aussi."
+          "text": "Il change le sens : la phrase dit qu'une action a été sur le point d'avoir lieu. Mais, contrairement à {ar|إِنَّ} et à {ar|كَانَ}, il ne change pas les terminaisons qu'on voit : {ar|زَيْدٌ} garde sa damma, {ar|يَذْهَبُ} aussi."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "En arabe classique, on place parfois {ar|أَنْ} devant le verbe du prédicat ({ar|كَادَ أَنْ يَفْعَلَ}), mais c'est plus rare. Dans ce cours, il n'y en a pas."
         }
       ]
     },
@@ -105,6 +110,11 @@
           "type": "note",
           "tone": "memo",
           "text": "Pour retenir : « {ar|كَادَ} + un nom + un verbe au présent ». Le sujet de {ar|كَادَ} reste au nominatif, comme avec {ar|كَانَ}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le prédicat de {ar|كَادَ} est en réalité « en position d'accusatif » ({ar|فِي مَحَلِّ نَصْبٍ}), mais cela ne se voit pas : un verbe au présent à la damma ne change pas d'aspect. Le professeur n'en parle pas ; retiens seulement qu'il n'y a rien à changer."
         }
       ]
     },

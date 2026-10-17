@@ -55,7 +55,7 @@
       "fr": "La directrice a frappé Suʿād et elle a failli pleurer.",
       "answers": [["ضَرَبَتِ", "الْمُدِيرَةُ", "سُعَادَ", "فَكَادَتْ", "تَبْكِي"]],
       "punctuation": ".",
-      "explain": "{ar|كَادَتْ} est au féminin, et son prédicat commence par {ar|تَ} : {ar|تَبْكِي}."
+      "explain": "{ar|كَادَتْ} est au féminin, et son prédicat commence par {ar|تَ} : {ar|تَبْكِي}. Le sujet caché est une femme : ici, d'après le contexte, Suʿād."
     },
     {
       "id": "medine-t2.l15.practice-5#6",
@@ -64,9 +64,11 @@
       "fr": "Mon enfant a frappé mes lunettes avec le bâton et a failli les casser.",
       "answers": [
         "ضَرَبَ طِفْلِي نَظَّارَتِي بِالْعَصَا وَكَادَ يَكْسِرُهَا.",
-        "ضَرَبَ طِفْلِي بِالْعَصَا نَظَّارَتِي وَكَادَ يَكْسِرُهَا."
+        "ضَرَبَ طِفْلِي نَظَّارَاتِي بِالْعَصَا وَكَادَ يَكْسِرُهَا.",
+        "ضَرَبَ طِفْلِي بِالْعَصَا نَظَّارَتِي وَكَادَ يَكْسِرُهَا.",
+        "ضَرَبَ طِفْلِي بِالْعَصَا نَظَّارَاتِي وَكَادَ يَكْسِرُهَا."
       ],
-      "explain": "{ar|وَكَادَ يَكْسِرُهَا} : « et il a failli la casser » ({ar|هَا} = les lunettes)."
+      "explain": "{ar|وَكَادَ يَكْسِرُهَا} : « et il a failli les casser » ({ar|هَا} est au singulier, car {ar|نَظَّارَةٌ} désigne une paire de lunettes)."
     },
     {
       "id": "medine-t2.l15.practice-5#7",
@@ -110,8 +112,13 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Pourquoi as-tu frappé ce garçon, ʿAlī ?",
-      "answers": ["لِمَ ضَرَبْتَ هٰذَا الْوَلَدَ يَا عَلِيُّ؟", "يَا عَلِيُّ لِمَ ضَرَبْتَ هٰذَا الْوَلَدَ؟"],
-      "explain": "{ar|لِمَ} : « pourquoi ? ». {ar|ضَرَبْتَ} : « tu as frappé »."
+      "answers": [
+        "لِمَ ضَرَبْتَ هٰذَا الْوَلَدَ يَا عَلِيُّ؟",
+        "يَا عَلِيُّ لِمَ ضَرَبْتَ هٰذَا الْوَلَدَ؟",
+        "لِمَاذَا ضَرَبْتَ هٰذَا الْوَلَدَ يَا عَلِيُّ؟",
+        "يَا عَلِيُّ لِمَاذَا ضَرَبْتَ هٰذَا الْوَلَدَ؟"
+      ],
+      "explain": "{ar|لِمَ} (ou {ar|لِمَاذَا}) : « pourquoi ? ». {ar|ضَرَبْتَ} : « tu as frappé »."
     }
   ]
 }

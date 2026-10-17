@@ -84,7 +84,7 @@
       "id": "medine-t2.l15.practice-1#10",
       "type": "order",
       "fr": "Hishām est absent aujourd'hui.",
-      "answers": [["هِشَامٌ", "غَائِبٌ", "الْيَوْمَ"]],
+      "answers": [["هِشَامٌ", "غَائِبٌ", "الْيَوْمَ"], ["الْيَوْمَ", "هِشَامٌ", "غَائِبٌ"]],
       "punctuation": ".",
       "explain": "Le nom, puis son prédicat, puis {ar|الْيَوْمَ}."
     }

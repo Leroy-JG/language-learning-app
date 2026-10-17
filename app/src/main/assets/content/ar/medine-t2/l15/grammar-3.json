@@ -58,7 +58,12 @@
         { "type": "example", "ar": "يَا أَحْمَدُ لَا تَذْهَبْ.", "fr": "Aḥmad, ne pars pas !" },
         { "type": "example", "ar": "يَا مَرْيَمُ لَا تَذْهَبِي.", "fr": "Maryam, ne pars pas ! (à une femme)" },
         { "type": "example", "ar": "يَا إِخْوَانُ لَا تَذْهَبُوا.", "fr": "Frères, ne partez pas !" },
-        { "type": "example", "ar": "يَا أَخَوَاتُ لَا تَذْهَبْنَ.", "fr": "Sœurs, ne partez pas !" }
+        { "type": "example", "ar": "يَا أَخَوَاتُ لَا تَذْهَبْنَ.", "fr": "Sœurs, ne partez pas !" },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|إِخْوَانٌ} est un autre pluriel de {ar|أَخٌ} (à côté de {ar|إِخْوَةٌ}) : on l'emploie souvent pour des frères au sens large (amis, frères en religion)."
+        }
       ]
     },
     {

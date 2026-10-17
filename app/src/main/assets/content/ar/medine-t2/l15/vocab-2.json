@@ -65,7 +65,7 @@
       "options": ["تَبْكِي", "تَبْكِ", "تَبْكُوا"],
       "explain": "Une fille : {ar|تَبْكِينَ} perd son {ar|ن} → {ar|تَبْكِي}. {ar|تَبْكِ} s'adresse à un homme."
     },
-    { "id": "medine-t2.l15.vocab-2#9", "type": "build", "item": "w:baka", "extra": ["ي"] },
+    { "id": "medine-t2.l15.vocab-2#9", "type": "build", "item": "w:baka", "extra": ["ن"] },
     {
       "id": "medine-t2.l15.vocab-2#10",
       "type": "typing",
@@ -73,6 +73,7 @@
       "question": "مَا الْمُضَارِعُ مِنْ كَذَبَ؟",
       "answers": ["يَكْذِبُ."],
       "fr": "Quel est le présent de {ar|كَذَبَ} ?",
+      "instruction": "Donne la forme avec {ar|هُوَ} (« il »).",
       "explain": "{ar|كَذَبَ} → {ar|يَكْذِبُ} (kasra sur le {ar|ذ})."
     },
     {

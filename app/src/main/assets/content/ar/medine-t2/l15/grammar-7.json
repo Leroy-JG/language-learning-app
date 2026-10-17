@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "{ar|كَادَ} a un passé et un présent. Le prédicat est toujours un verbe au présent."
+          "text": "{ar|كَادَ} a un passé et un présent. Dans les deux cas, le prédicat est un verbe au présent."
         },
         {
           "type": "table",
@@ -39,7 +39,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le verbe du prédicat prend la lettre du présent qui convient à son sujet : {ar|يَ} pour un homme, {ar|تَ} pour une femme."
+          "text": "Le verbe du prédicat prend la lettre du présent qui convient à son sujet : {ar|يَ} pour un homme, {ar|تَ} pour une femme (au singulier)."
         },
         { "type": "example", "ar": "كَادَ زَيْدٌ يَذْهَبُ.", "fr": "Zayd a failli partir." },
         { "type": "example", "ar": "كَادَتِ الْمُدِيرَةُ تَذْهَبُ.", "fr": "La directrice a failli partir." },

@@ -50,7 +50,7 @@
         { "ar": "تَكْتُبُ", "category": 1 }
       ],
       "instruction": "À quelle personne ?",
-      "explain": "{ar|آكُلُ}, {ar|آخُذُ} et {ar|أَكْتُبُ} commencent par {ar|أَ} : c'est « je »."
+      "explain": "{ar|آكُلُ}, {ar|آخُذُ} et {ar|أَكْتُبُ} sont les formes de « je » ({ar|آ} est la fusion de {ar|أَ} et de la hamza de la racine)."
     },
     {
       "id": "medine-t2.l15.grammar-8#4",

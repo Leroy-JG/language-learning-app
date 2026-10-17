@@ -20,7 +20,7 @@
             ["Sens", "elle nie seulement l'action : « ne… pas »", "elle interdit : « ne… pas ! » (un ordre)"],
             [
               "Le verbe",
-              "il garde sa marque de base : la damma",
+              "il garde sa marque du nominatif : la damma (ou le {ar|ن} final des cinq verbes)",
               "il est au jussif : le sukūn (ou le {ar|ن} tombe)"
             ],
             [
@@ -53,7 +53,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Regarde la fin du verbe, et le sens de la phrase. Une phrase avec {ar|لَا النَّاهِيَةُ} est un ordre ; avec {ar|لَا النَّافِيَةُ}, c'est un constat, souvent une question."
+          "text": "Regarde la fin du verbe, et le sens de la phrase. Une phrase avec {ar|لَا النَّاهِيَةُ} est un ordre ; avec {ar|لَا النَّافِيَةُ}, c'est un constat ou une question. Sans voyelles, les deux phrases s'écrivent exactement pareil : seul le contexte, un ordre ou un constat, permet de choisir."
         },
         {
           "type": "compare",
@@ -133,7 +133,7 @@
       "type": "typing",
       "ask": "audio",
       "fr": "Pourquoi ne manges-tu pas, mon frère ?",
-      "answers": ["لِمَ لَا تَأْكُلُ يَا أَخِي؟"],
+      "answers": ["لِمَ لَا تَأْكُلُ يَا أَخِي؟", "يَا أَخِي لِمَ لَا تَأْكُلُ؟"],
       "explain": "{ar|لِمَ} + {ar|لَا} qui nie + {ar|تَأْكُلُ} (damma)."
     },
     {

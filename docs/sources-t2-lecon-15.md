@@ -68,3 +68,17 @@ Outils de la palette : `sort` (à qui parle-t-on ? ; `لَا النَّافِي�
 ## Pas encore enseigné (donc sans exercice)
 
 Les `جَوَازِمُ` qui mettent deux verbes au jussif (`إِنْ`, `مَنْ`, `مَا`…) ; `لَمَّا` et `لَامُ الْأَمْرِ` (seulement cités) ; les autres `أَخَوَاتُ كَادَ` (`أَوْشَكَ`, `عَسَى`…) ; l'impératif des verbes à finale défectueuse (`اِبْكِ`, en aperçu dans le tableau de `vocab-2`) ; les verbes doublés (`يَرِنُّ`).
+
+## Corrections faites après la relecture
+
+Trois relecteurs indépendants (arabe et fidélité au PDF, exercices, français et pédagogie) : aucune erreur certaine ; chaque remarque a été vérifiée avant d'être appliquée.
+
+- **« Toujours » pour `كَادَ`** : le PDF dit « constamment » (le prédicat est un présent), mais l'arabe classique place parfois `أَنْ` devant ce verbe (`كَادَ أَنْ يَفْعَلَ`). « Toujours » est retiré des notes ; une note l'indique (aperçu, rien n'est demandé). Une autre note précise que le prédicat est, en réalité, « en position d'accusatif » (`فِي مَحَلِّ نَصْبٍ`) sans que cela se voie.
+- **`لَا` « en général »** : `لَا` nie le présent de façon plus large ; ce n'est pas « en général » qui s'oppose à `مَا`. Les exemples disent « sans préciser l'instant », et la note de `لَا النَّافِيَةُ` précise que `مَا` devant un présent limite la négation à l'instant.
+- **`مَا` + présent** : l'énoncé vrai/faux dit « `مَا` qui nie » (il existe un `مَا` conditionnel qui met deux verbes au jussif).
+- **`كَنَسَ`** : le présent est `يَكْنِسُ` dans le tableau du chapitre 14 ; les dictionnaires semblent admettre aussi `يَكْنُسُ` (non vérifié). La phrase de l'exercice 5(3) est donc passée de `order` à `typing`, qui ne compare pas les harakat : l'élève n'est jamais refusé pour l'une ou l'autre voyelle.
+- **Réponses acceptées ajoutées** : `لِمَاذَا` (comme `لِمَ`), `الْيَوْمَ` en tête de phrase, `نَظَّارَاتِي`, `يَا ابْنَتِي`, `بِهٰذِهِ السِّكِّينِ` (le nom est masculin ou féminin, voir la note de `w:sikkin`), `نَحْنُ مَا نَلْعَبُ الْآنَ كُرَةَ الْقَدَمِ`, `يَا أَخِي لِمَ لَا تَأْكُلُ؟`.
+- **Précisions** : la voyelle finale du verbe n'est pas la seule marque du nominatif (le `ن` des cinq verbes) ; « un constat ou une question » ; sans voyelles, `لَا` qui nie et `لَا` qui interdit s'écrivent pareil ; `إِخْوَانٌ` est un autre pluriel de `أَخٌ` ; `يَ` / `تَ` valent au singulier ; `آكُلُ` est la forme de « je » (fusion de deux hamzas) ; « les casser » (lunettes) ; le sujet caché de `فَكَادَتْ تَبْكِي` est une femme, d'après le contexte Suʿād ; `فِي` ne commence ni par `الْ` ni par une hamza de liaison.
+- **Piège visuel** : le `build` de `بَكَى` propose `ن` (et non `ي`, trop proche du `ى` final) comme lettre en trop.
+- **Non repris** : la négation de `كَادَ` (`مَا كَادَ يَفْعَلُ`, « à peine ») : sens discuté, rien n'est écrit. L'emploi de `لَا النَّاهِيَةُ` avec la troisième personne (`لَا يَخْرُجْ زَيْدٌ`) : hors programme.
+

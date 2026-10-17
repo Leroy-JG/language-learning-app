@@ -152,7 +152,7 @@
       "type": "true_false",
       "statement": { "fr": "Après {ar|كَادَ}, le prédicat est un verbe au passé." },
       "answer": false,
-      "explain": "Non : le prédicat de {ar|كَادَ} est toujours un verbe au présent ({ar|كَادَ زَيْدٌ يَذْهَبُ})."
+      "explain": "Non : le prédicat de {ar|كَادَ} est un verbe au présent ({ar|كَادَ زَيْدٌ يَذْهَبُ}), comme dans toutes les phrases du cours."
     },
     {
       "id": "medine-t2.l15.quiz#17",
