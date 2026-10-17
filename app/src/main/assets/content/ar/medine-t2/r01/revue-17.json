@@ -1,0 +1,155 @@
+{
+  "id": "medine-t2.r01.revue-17",
+  "type": "review",
+  "title": "Conjuguer au passé et au présent",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-17#1",
+      "type": "tip",
+      "title": "L'exercice du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande de conjuguer cinq verbes au passé et au présent, avec **tous** les pronoms. Voici deux formes de chacun : « il » et « je »."
+        },
+        {
+          "type": "table",
+          "header": ["Verbe", "Passé : il / je", "Présent : il / je"],
+          "rows": [
+            ["{ar|دَرَسَ} (étudier)", "{ar|دَرَسَ} / {ar|دَرَسْتُ}", "{ar|يَدْرُسُ} / {ar|أَدْرُسُ}"],
+            ["{ar|دَخَلَ} (entrer)", "{ar|دَخَلَ} / {ar|دَخَلْتُ}", "{ar|يَدْخُلُ} / {ar|أَدْخُلُ}"],
+            ["{ar|أَكَلَ} (manger)", "{ar|أَكَلَ} / {ar|أَكَلْتُ}", "{ar|يَأْكُلُ} / {ar|آكُلُ}"],
+            ["{ar|نَجَحَ} (réussir)", "{ar|نَجَحَ} / {ar|نَجَحْتُ}", "{ar|يَنْجَحُ} / {ar|أَنْجَحُ}"],
+            ["{ar|فَرِحَ} (se réjouir)", "{ar|فَرِحَ} / {ar|فَرِحْتُ}", "{ar|يَفْرَحُ} / {ar|أَفْرَحُ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les pronoms collés sont les mêmes pour tous les verbes. Au présent, seule la voyelle de la deuxième lettre de la racine change : une damma pour {ar|يَدْخُلُ}, {ar|يَدْرُسُ} et {ar|يَأْكُلُ}, une fatha pour {ar|يَنْجَحُ} et {ar|يَفْرَحُ}."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Avec {ar|أَكَلَ}, « je » s'écrit {ar|آكُلُ} et non {ar|أَأْكُلُ} : deux hamzas de suite se fondent en un alif avec madda. Il en va de même pour les verbes dont la racine commence par une hamza, comme {ar|أَخَذَ} → {ar|آخُذُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-17#2",
+      "type": "tip",
+      "title": "Le modèle : {ar|دَخَلَ} à toutes les personnes",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pronom isolé", "Passé", "Présent"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|دَخَلْتُ}", "{ar|أَدْخُلُ}"],
+            ["{ar|نَحْنُ}", "{ar|دَخَلْنَا}", "{ar|نَدْخُلُ}"],
+            ["{ar|أَنْتَ}", "{ar|دَخَلْتَ}", "{ar|تَدْخُلُ}"],
+            ["{ar|أَنْتِ}", "{ar|دَخَلْتِ}", "{ar|تَدْخُلِينَ}"],
+            ["{ar|أَنْتُمَا}", "{ar|دَخَلْتُمَا}", "{ar|تَدْخُلَانِ}"],
+            ["{ar|أَنْتُمْ}", "{ar|دَخَلْتُمْ}", "{ar|تَدْخُلُونَ}"],
+            ["{ar|أَنْتُنَّ}", "{ar|دَخَلْتُنَّ}", "{ar|تَدْخُلْنَ}"],
+            ["{ar|هُوَ}", "{ar|دَخَلَ}", "{ar|يَدْخُلُ}"],
+            ["{ar|هِيَ}", "{ar|دَخَلَتْ}", "{ar|تَدْخُلُ}"],
+            ["{ar|هُمَا} (eux deux)", "{ar|دَخَلَا}", "{ar|يَدْخُلَانِ}"],
+            ["{ar|هُمَا} (elles deux)", "{ar|دَخَلَتَا}", "{ar|تَدْخُلَانِ}"],
+            ["{ar|هُمْ}", "{ar|دَخَلُوا}", "{ar|يَدْخُلُونَ}"],
+            ["{ar|هُنَّ}", "{ar|دَخَلْنَ}", "{ar|يَدْخُلْنَ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-17#3",
+      "type": "sort",
+      "categories": [ { "fr": "passé ({ar|الْمَاضِي})" }, { "fr": "présent ({ar|الْمُضَارِعُ})" } ],
+      "cards": [
+        { "ar": "دَخَلْتِ", "category": 0 },
+        { "ar": "تَدْخُلِينَ", "category": 1 },
+        { "ar": "فَرِحُوا", "category": 0 },
+        { "ar": "يَفْرَحُونَ", "category": 1 },
+        { "ar": "أَنْجَحُ", "category": 1 },
+        { "ar": "نَجَحْنَا", "category": 0 }
+      ],
+      "instruction": "Passé ou présent ?",
+      "explain": "{ar|دَخَلْتِ} et {ar|نَجَحْنَا} portent un pronom propre au passé ({ar|تِ}, {ar|نَا}) ; {ar|فَرِحُوا} ne commence par aucune lettre de {ar|أَنَيْتُ}. {ar|تَدْخُلِينَ}, {ar|يَفْرَحُونَ} et {ar|أَنْجَحُ} commencent par une lettre de {ar|أَنَيْتُ} : présent."
+    },
+    {
+      "id": "medine-t2.r01.revue-17#4",
+      "type": "sort",
+      "categories": [ { "fr": "je" }, { "fr": "nous" }, { "fr": "elle" } ],
+      "cards": [
+        { "ar": "أَدْرُسُ", "category": 0 },
+        { "ar": "فَرِحْتُ", "category": 0 },
+        { "ar": "دَرَسْنَا", "category": 1 },
+        { "ar": "نَفْرَحُ", "category": 1 },
+        { "ar": "دَرَسَتْ", "category": 2 },
+        { "ar": "نَجَحَتْ", "category": 2 }
+      ],
+      "instruction": "Qui fait l'action ?",
+      "explain": "{ar|أَدْرُسُ} ({ar|أ}) et {ar|فَرِحْتُ} ({ar|تُ}) : « je ». {ar|دَرَسْنَا} ({ar|نَا}) et {ar|نَفْرَحُ} ({ar|ن}) : « nous ». {ar|دَرَسَتْ} et {ar|نَجَحَتْ} : « elle » (le {ar|تْ} du féminin)."
+    },
+    {
+      "id": "medine-t2.r01.revue-17#5",
+      "type": "fill_gap",
+      "sentence": "هُمْ {0} الْمَدْرَسَةَ.",
+      "fr": "Ils sont entrés dans l'école.",
+      "gaps": [ { "answers": ["دَخَلُوا"] } ],
+      "options": ["دَخَلُوا", "دَخَلْنَ", "دَخَلَتْ"],
+      "explain": "« Eux » au passé : {ar|دَخَلُوا}. {ar|دَخَلْنَ} serait « elles » ; {ar|دَخَلَتْ} serait « elle »."
+    },
+    {
+      "id": "medine-t2.r01.revue-17#6",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} الْخُبْزَ وَأَنْتِ {1} اللَّحْمَ.",
+      "fr": "Moi, je mange le pain et toi (une femme), tu manges la viande.",
+      "gaps": [ { "answers": ["آكُلُ"] }, { "answers": ["تَأْكُلِينَ"] } ],
+      "options": ["آكُلُ", "أَكَلْتُ", "تَأْكُلِينَ", "تَأْكُلُونَ"],
+      "explain": "« Je mange » : {ar|آكُلُ} (et non {ar|أَأْكُلُ}). « Tu manges » à une femme : {ar|تَأْكُلِينَ}. {ar|أَكَلْتُ} est au passé ; {ar|تَأْكُلُونَ} s'adresse à plusieurs hommes."
+    },
+    {
+      "id": "medine-t2.r01.revue-17#7",
+      "type": "spot",
+      "instruction": "Touche le verbe dont le sujet est « je ».",
+      "words": ["أَنَا", "فَرِحْتُ", "وَهُوَ", "فَرِحَ."],
+      "answers": [1],
+      "fr": "Moi, je me suis réjoui, et lui s'est réjoui.",
+      "explain": "{ar|فَرِحْتُ} porte le pronom sujet {ar|تُ} : « je ». {ar|فَرِحَ} est « il »."
+    },
+    {
+      "id": "medine-t2.r01.revue-17#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elle a réussi.",
+      "answers": ["نَجَحَتْ.", "هِيَ نَجَحَتْ."],
+      "explain": "{ar|نَجَحَتْ} : {ar|نَجَحَ} + le {ar|تْ} du féminin."
+    },
+    {
+      "id": "medine-t2.r01.revue-17#9",
+      "type": "question",
+      "prompt": { "fr": "Comment se dit « je mange » ?" },
+      "choices": [ { "ar": "آكُلُ" }, { "ar": "أَأْكُلُ" }, { "ar": "نَأْكُلُ" } ],
+      "answer": 0,
+      "explain": "Avec {ar|أَكَلَ}, deux hamzas de suite se fondent en un alif avec madda : {ar|آكُلُ}. {ar|نَأْكُلُ} veut dire « nous mangeons »."
+    },
+    {
+      "id": "medine-t2.r01.revue-17#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous mangeons le pain.",
+      "answers": ["نَأْكُلُ الْخُبْزَ.", "نَحْنُ نَأْكُلُ الْخُبْزَ."],
+      "explain": "Le présent de « nous » commence par {ar|ن} : {ar|نَأْكُلُ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-17#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ils ont étudié la leçon.",
+      "answers": ["دَرَسُوا الدَّرْسَ.", "هُمْ دَرَسُوا الدَّرْسَ."],
+      "explain": "{ar|دَرَسُوا} : {ar|دَرَسَ} + le pronom sujet {ar|◌ُوا}. On écrit un alif muet après le {ar|و}."
+    }
+  ]
+}

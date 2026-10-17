@@ -1,0 +1,191 @@
+{
+  "id": "medine-t2.r01.revue-16",
+  "type": "review",
+  "title": "Les pronoms sujets collés",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-16#1",
+      "type": "tip",
+      "title": "Cinq traits du pronom sujet collé",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le pronom sujet collé ({ar|الضَّمِيرُ الْمُتَّصِلُ الْمَرْفُوعُ}) est collé à la fin du verbe : {ar|كَتَبْتُ}, {ar|كَتَبُوا}, {ar|يَكْتُبُونَ}. Le professeur lui donne cinq traits."
+        },
+        {
+          "type": "table",
+          "header": ["Trait", "Ce que cela veut dire"],
+          "rows": [
+            [
+              "il est invariable ({ar|مَبْنِيٌّ})",
+              "il ne prend aucune marque de cas : sa forme ne change pas selon la phrase"
+            ],
+            ["il est propre au verbe ({ar|فِعْلٌ})", "on ne le colle pas à un nom pour en faire un sujet"],
+            [
+              "il est toujours le sujet ({ar|فَاعِلٌ})",
+              "il fait l'action du verbe auquel il est collé ; on l'appelle donc aussi « pronom sujet »"
+            ],
+            [
+              "sa forme peut varier selon le temps du verbe",
+              "{ar|كَتَبْتِ} (passé) mais {ar|تَكْتُبِينَ} (présent) pour « toi », une femme"
+            ],
+            [
+              "il peut être caché ({ar|مُسْتَتِرٌ})",
+              "{ar|كَتَبَ} (il a écrit), {ar|يَكْتُبُ} (il écrit) : aucun pronom n'est écrit"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Il y a aussi des pronoms collés à l'accusatif et au génitif : ils sont revus plus bas, dans « Trois familles de pronoms collés »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-16#2",
+      "type": "tip",
+      "title": "Le passé de {ar|كَتَبَ} à toutes les personnes",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pronom isolé", "Verbe au passé", "Pronom sujet collé"],
+          "rows": [
+            ["{ar|أَنَا} (je)", "{ar|كَتَبْتُ}", "{ar|تُ}"],
+            ["{ar|نَحْنُ} (nous)", "{ar|كَتَبْنَا}", "{ar|نَا}"],
+            ["{ar|أَنْتَ} (toi, un homme)", "{ar|كَتَبْتَ}", "{ar|تَ}"],
+            ["{ar|أَنْتِ} (toi, une femme)", "{ar|كَتَبْتِ}", "{ar|تِ}"],
+            ["{ar|أَنْتُمَا} (vous deux)", "{ar|كَتَبْتُمَا}", "{ar|تُمَا}"],
+            ["{ar|أَنْتُمْ} (vous, des hommes)", "{ar|كَتَبْتُمْ}", "{ar|تُمْ}"],
+            ["{ar|أَنْتُنَّ} (vous, des femmes)", "{ar|كَتَبْتُنَّ}", "{ar|تُنَّ}"],
+            ["{ar|هُوَ} (il)", "{ar|كَتَبَ}", "caché ({ar|مُسْتَتِرٌ})"],
+            ["{ar|هِيَ} (elle)", "{ar|كَتَبَتْ}", "caché ; le {ar|تْ} marque le féminin"],
+            ["{ar|هُمَا} (eux deux)", "{ar|كَتَبَا}", "{ar|ا}"],
+            ["{ar|هُمَا} (elles deux)", "{ar|كَتَبَتَا}", "{ar|ا}"],
+            ["{ar|هُمْ} (eux)", "{ar|كَتَبُوا}", "{ar|◌ُوا}"],
+            ["{ar|هُنَّ} (elles)", "{ar|كَتَبْنَ}", "{ar|نَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Dans {ar|كَتَبَتْ}, le {ar|تْ} n'est pas un pronom : c'est la marque du féminin ({ar|تَاءُ التَّأْنِيثِ السَّاكِنَةُ}), et le sujet reste caché. Au duel ({ar|كَتَبَتَا}), ce {ar|ت} prend une fatha devant l'alif."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le pronom de « eux » est le {ar|و} ; au passé, l'alif écrit après lui ({ar|كَتَبُوا}) ne se prononce pas. Au présent ({ar|يَكْتُبُونَ}), il n'y a pas d'alif."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-16#3",
+      "type": "tip",
+      "title": "Le présent de {ar|كَتَبَ} à toutes les personnes",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pronom isolé", "Verbe au présent", "Pronom sujet collé"],
+          "rows": [
+            ["{ar|أَنَا} (je)", "{ar|أَكْتُبُ}", "caché"],
+            ["{ar|نَحْنُ} (nous)", "{ar|نَكْتُبُ}", "caché"],
+            ["{ar|أَنْتَ} (toi, un homme)", "{ar|تَكْتُبُ}", "caché"],
+            ["{ar|أَنْتِ} (toi, une femme)", "{ar|تَكْتُبِينَ}", "{ar|ي}"],
+            ["{ar|أَنْتُمَا} (vous deux)", "{ar|تَكْتُبَانِ}", "{ar|ا}"],
+            ["{ar|أَنْتُمْ} (vous, des hommes)", "{ar|تَكْتُبُونَ}", "{ar|و}"],
+            ["{ar|أَنْتُنَّ} (vous, des femmes)", "{ar|تَكْتُبْنَ}", "{ar|نَ}"],
+            ["{ar|هُوَ} (il)", "{ar|يَكْتُبُ}", "caché"],
+            ["{ar|هِيَ} (elle)", "{ar|تَكْتُبُ}", "caché"],
+            ["{ar|هُمَا} (eux deux)", "{ar|يَكْتُبَانِ}", "{ar|ا}"],
+            ["{ar|هُمَا} (elles deux)", "{ar|تَكْتُبَانِ}", "{ar|ا}"],
+            ["{ar|هُمْ} (eux)", "{ar|يَكْتُبُونَ}", "{ar|و}"],
+            ["{ar|هُنَّ} (elles)", "{ar|يَكْتُبْنَ}", "{ar|نَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|تَكْتُبُ} veut dire « toi (un homme) » ou « elle » ; {ar|تَكْتُبَانِ} veut dire « vous deux » ou « elles deux » : c'est le pronom isolé ou le sujet qui tranche."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-16#4",
+      "type": "sort",
+      "categories": [ { "fr": "moi ou nous" }, { "fr": "toi ou vous" }, { "fr": "lui, elle, eux, ou elles (même à deux)" } ],
+      "cards": [
+        { "ar": "كَتَبْتُ", "category": 0 },
+        { "ar": "نَزَلْنَا", "category": 0 },
+        { "ar": "جَلَسْتِ", "category": 1 },
+        { "ar": "دَرَسْتُمْ", "category": 1 },
+        { "ar": "دَخَلُوا", "category": 2 },
+        { "ar": "خَرَجَتَا", "category": 2 }
+      ],
+      "instruction": "Quelle personne désigne le pronom collé ?",
+      "explain": "{ar|تُ} et {ar|نَا} : « je » et « nous ». {ar|تِ} et {ar|تُمْ} : « toi » (une femme) et « vous ». {ar|◌ُوا} et le {ar|ا} de {ar|خَرَجَتَا} : « eux » et « elles deux »."
+    },
+    {
+      "id": "medine-t2.r01.revue-16#5",
+      "type": "sort",
+      "categories": [ { "fr": "apparent ({ar|بَارِزٌ})" }, { "fr": "caché ({ar|مُسْتَتِرٌ})" } ],
+      "cards": [
+        { "ar": "كَتَبَ", "category": 1 },
+        { "ar": "جَلَسَتْ", "category": 1 },
+        { "ar": "كَتَبْتُ", "category": 0 },
+        { "ar": "خَرَجَا", "category": 0 },
+        { "ar": "دَخَلُوا", "category": 0 },
+        { "ar": "فَتَحْنَ", "category": 0 }
+      ],
+      "instruction": "Le pronom sujet est-il apparent ou caché ?",
+      "explain": "Au passé, pour « il » et « elle », le pronom sujet est caché. Il est écrit dans {ar|كَتَبْتُ} ({ar|تُ}), {ar|خَرَجَا} ({ar|ا}), {ar|دَخَلُوا} ({ar|◌ُوا}) et {ar|فَتَحْنَ} ({ar|نَ})."
+    },
+    {
+      "id": "medine-t2.r01.revue-16#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:damir-muttasil-marfu",
+      "distractors": ["w:damir-muttasil-mansub", "w:damir-muttasil-majrur"],
+      "explain": "{ar|الضَّمِيرُ الْمُتَّصِلُ الْمَرْفُوعُ} : le pronom sujet collé au verbe. Les deux autres sont les pronoms collés de l'accusatif et du génitif."
+    },
+    {
+      "id": "medine-t2.r01.revue-16#7",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} الدَّرْسَ.",
+      "fr": "Nous avons écrit la leçon.",
+      "gaps": [ { "answers": ["كَتَبْنَا"] } ],
+      "options": ["كَتَبْنَا", "كَتَبْتُمْ", "كَتَبُوا"],
+      "explain": "« Nous » : le pronom collé {ar|نَا}. {ar|كَتَبْتُمْ} serait « vous » ; {ar|كَتَبُوا} serait « eux »."
+    },
+    {
+      "id": "medine-t2.r01.revue-16#8",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|كَتَبَتْ}, le {ar|تْ} est le pronom sujet." },
+      "answer": false,
+      "explain": "Faux : le {ar|تْ} marque le féminin ({ar|تَاءُ التَّأْنِيثِ السَّاكِنَةُ}). Le sujet « elle » reste caché."
+    },
+    {
+      "id": "medine-t2.r01.revue-16#9",
+      "type": "true_false",
+      "statement": { "fr": "Le pronom sujet collé s'écrit toujours : on le voit à la fin du verbe." },
+      "answer": false,
+      "explain": "Faux : il peut être caché ({ar|مُسْتَتِرٌ}) : {ar|كَتَبَ} (il a écrit), {ar|أَكْتُبُ} (j'écris)."
+    },
+    {
+      "id": "medine-t2.r01.revue-16#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous avons écrit la leçon.",
+      "answers": ["كَتَبْنَا الدَّرْسَ.", "نَحْنُ كَتَبْنَا الدَّرْسَ."],
+      "explain": "{ar|كَتَبْنَا} : {ar|كَتَبَ} + le pronom sujet {ar|نَا}. {ar|الدَّرْسَ} : le complément d'objet."
+    },
+    {
+      "id": "medine-t2.r01.revue-16#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Elles ont ouvert la porte.",
+      "answers": ["فَتَحْنَ الْبَابَ.", "هُنَّ فَتَحْنَ الْبَابَ."],
+      "explain": "{ar|فَتَحْنَ} : {ar|فَتَحَ} + le pronom sujet {ar|نَ} (« elles »)."
+    }
+  ]
+}

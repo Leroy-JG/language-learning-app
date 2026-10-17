@@ -7,8 +7,13 @@ Chapitre généré avec `tools/generateur_contenu.py` (script hors du dépôt : 
 
 ## Support
 
-Trois PDF de diapositives (« Livre de Médine, Tome 2 », **semaine de révision 1**, parties 2, 3 et 4 : titres `مُرَاجَعَةٌ ٢`, `٣`, `٤`, « الْأُسْبُوعُ الْأَوَّلُ »).
-La partie 1 de la semaine n'a pas été fournie. Chaque PDF commence par une page blanche et un logo, et finit par un logo et la page de droits.
+Quatre PDF de diapositives (« Livre de Médine, Tome 2 », **semaine de révision 1**, parties 1 à 4 : titres `مُرَاجَعَةٌ ١`, `٢`, `٣`, `٤`, « الْأُسْبُوعُ الْأَوَّلُ »).
+Les parties 2, 3 et 4 ont été intégrées d'abord ; la partie 1 (fournie ensuite) l'a été dans un second temps, en tête de chapitre (section « Le verbe, son sujet et son complément », `revue-14` à `revue-17`).
+Chaque PDF commence par une page blanche et un logo, et finit par un logo et la page de droits.
+
+- **Partie 1** (26 p., dont 18 de contenu) : `الْفِعْلُ` et ses trois temps (`الْمَاضِي`, `الْمُضَارِعُ`, `الْأَمْرُ`) avec leurs signes (pronoms sujets du passé et `تْ`, lettres `أَنَيْتُ` et particules `لَمْ` `لَنْ` `سَ` `سَوْفَ`, ordre et `نُونُ التَّوْكِيدِ`), `اللَّازِمُ` / `الْمُتَعَدِّي`,
+  `الْفَاعِلُ` et `الْمَفْعُولُ بِهِ` (nom apparent ou pronom collé, deux analyses), les cinq traits des pronoms collés du nominatif, l'arbre `مُتَّصِلَةٌ` / `مُنْفَصِلَةٌ` et `الرَّفْعُ` / `النَّصْبُ` / `الْجَرُّ`, les pronoms par personne (passé, présent), les tableaux de `كَتَبَ` (passé, présent) et
+  l'exercice 1 (conjuguer `دَرَسَ`, `دَخَلَ`, `أَكَلَ`, `نَجَحَ`, `فَرِحَ` au passé et au présent avec tous les pronoms). Là encore, tout avait déjà été enseigné (chapitres 2, 5, 8, 10 et 11 du tome 2, chapitre 8 du tome 1) : aucun mot ni point de grammaire nouveau.
 
 - **Partie 2** (38 p.) : `إِعْرَابُ الْفِعْلِ` : `الْكَلِمَةُ` (`مُعْرَبٌ` / `مَبْنِيٌّ`), définition de `الْإِعْرَابُ` et de `الْبِنَاءُ` avec quatre phrases (`زَيْدٌ` change, `هٰذَا` ne change pas), le plan du verbe (passé et impératif invariables, présent variable sauf avec
   `نُونُ النِّسْوَةِ` et `نُونُ التَّوْكِيدِ`), `إِعْرَابُ الْمُضَارِعِ` (`رَفْعٌ` / `نَصْبٌ` / `جَزْمٌ`, analyses du professeur avec `لَنْ` et `لَمْ`), `الْإِعْرَابُ الْفَرْعِيُّ` (deux cas), `الْأَفْعَالُ الْخَمْسَةُ`
@@ -27,6 +32,7 @@ de grammaire) ; seuls quelques éléments nouveaux passent par `present` ou par 
 
 | Partie | Activités |
 |---|---|
+| Le verbe, son sujet et son complément | `revue-14` (les trois temps et leurs signes), `revue-15` (`لَازِمٌ` / `مُتَعَدٍّ`, le sujet et le complément d'objet, deux analyses du professeur), `revue-16` (cinq traits du pronom sujet collé, tableaux de `كَتَبَ` au passé et au présent), `revue-17` (l'exercice 1 : `دَرَسَ`, `دَخَلَ`, `أَكَلَ`, `نَجَحَ`, `فَرِحَ`, tableau modèle de `دَخَلَ`) |
 | Le verbe : ce qui change et ce qui ne change pas | `revue-1` (`مُعْرَبٌ` / `مَبْنِيٌّ` pour les noms puis les verbes), `revue-2` (le plan du présent : marque de base, deux exceptions) |
 | Les cinq verbes et les verbes à finale défectueuse | `revue-3` (cinq verbes), `revue-4` (`يَدْعُو`, `يَمْشِي`, `يَسْعَى`, `يَرَى`) |
 | Conjuguer aux trois états | `revue-5` (le tableau de `كَتَبَ`, pronom apparent ou caché, le `ن` qui reste, tombe ou est un pronom) |
@@ -35,7 +41,7 @@ de grammaire) ; seuls quelques éléments nouveaux passent par `present` ou par 
 | Le complément et les pronoms collés | `revue-8` (trois familles de pronoms collés), `vocab-1` (`سَاعَدَ`), `revue-9` (un pronom complément pour `ضَرَبَ`, `يُحِبُّ`, `يُسَاعِدُ` ; les mêmes pronoms après `إِنَّ` et `لَعَلَّ`) |
 | Les quatre familles de nombres | `grammar-2` (les trois noms, **termes nouveaux**) |
 | Compter | `revue-10` (3 à 10, cent, mille), `revue-11` (11 à 19), `revue-12` (20 à 99), `revue-13` (tous ensemble : exercices 12 et 9 du livre) |
-| Bilan | `quiz` (16 écrans) |
+| Bilan | `quiz` (20 écrans : les écrans 17 à 20 ont été ajoutés avec la partie 1, ids existants inchangés) |
 
 Outils de la palette : `sort` dans presque chaque activité (variable / invariable, marque de base / secondaire, trois états, un des cinq verbes, le `ن`, pronom apparent / caché, sens des particules, raison de l'accusatif, rôle du pronom collé, famille de nombre,
 forme avec / sans `ة`, cas du dénombré), `spot` (le nom invariable, le verbe défectueux, la lettre tombée, le prédicat, le dénombré), `compare` (de la phrase nominale à `إِنَّ` / `لَعَلَّ` / `كَأَنَّ`, `لَيْسَ` avec et sans `بِ`, `مِائَةٌ` / `مِئَةٌ`),
@@ -98,3 +104,19 @@ Trois relecteurs indépendants (arabe et fidélité aux PDF, exercices, françai
 - **Réponses acceptées en plus** : `زَيْدٌ ضَرَبَ يَاسِرًا`, `الْمُدِيرُ كَانَ جَالِسًا`, `زَيْدٌ كَانَ طَالِبًا` ; `اِثْنَا عَشَرَ شَهْرًا فِي السَّنَةِ` ; `بِمِائَةِ رِيَالٍ` (avec ou sans `هٰذِهِ الْحَقِيبَةُ`) ; `ثَمَنُ هٰذَا التِّلْفَازِ أَلْفُ رِيَالٍ` ; `عِشْرُونَ دَرْسًا فِي هٰذَا الْكِتَابِ`.
   **Non ajoutés** : `زَيْدٌ لَيْسَ جَالِسًا` (ordre rare, il change l'analyse de `لَيْسَ`), `يُسَاعِدُ يَاسِرًا زَيْدٌ` ; les autres cas du nombre (`ثَلَاثَةٍ وَعِشْرِينَ`, `ثَلَاثَ سَيَّارَاتٍ`) sont déjà acceptés, la correction ignorant les harakat.
 - **Ajout d'oral certain** : les verbes de la forme `فَاعَلَ` font `يُفَاعِلُ` au présent (`شَارَكَ` → `يُشَارِكُ`, `حَاوَلَ` → `يُحَاوِلُ`), dans la note de `vocab-1`.
+
+## Partie 1 de la semaine : choix et corrections
+
+- **Placement** : en tête du chapitre (la partie 1 ouvre la semaine). `revue-1` à `revue-13` gardent leurs ids ; les nouvelles activités sont `revue-14` à `revue-17` (ids sans signification d'ordre), les écrans ajoutés au bilan portent les numéros 17 à 20.
+- **Pas de nouvelle carte** : `الْمَاضِي`, `الْمُضَارِعُ`, `الْأَمْرُ`, `اللَّازِمُ`, `الْمُتَعَدِّي`, `الْفَاعِلُ`, `الْمَفْعُولُ بِهِ`, `مُسْتَتِرٌ`, `بَارِزٌ`, les pronoms collés, `نُونُ التَّوْكِيدِ`, `نُونُ النِّسْوَةِ` et `تَاءُ التَّأْنِيثِ السَّاكِنَةُ` sont déjà enseignés.
+- **Écarts avec le PDF** : le PDF écrit `أُكْتُبْ` (hamza) et `تَكْتُبِينْ` (sukūn) : l'app écrit `اُكْتُبْ` et `تَكْتُبِينَ`. Il analyse « `و` : `ضَمِيرٌ مُتَّصِلٌ فَاعِلٌ` » : l'app garde `و` dans l'analyse, et précise que l'alif écrit après lui au passé ne se prononce pas.
+  Le titre « douze personnes » du PDF devient « toutes les personnes » (13 lignes : `هُمَا` a une forme masculine et une forme féminine). Les arbres par personne (`الْمُتَكَلِّمُ` / `الْمُخَاطَبُ` / `الْغَائِبُ`), l'arbre des pronoms collés de l'impératif et l'arbre `الرَّفْعُ` / `النَّصْبُ` / `الْجَرُّ` ne sont pas repris tels quels (déjà vus aux chapitres 2, 8, 10 et 11 ; les trois familles sont revues dans `revue-8`).
+- **Exercice 1 du PDF** : le livre ne donne pas de corrigé. `revue-17` donne les formes « il » et « je » des cinq verbes, le tableau complet de `دَخَلَ` (modèle), puis des exercices ciblés (cas à part de `آكُلُ`, `يَنْجَحُ` et `يَفْرَحُ` avec fatha, féminin avec `تْ`, pluriel avec `وا`).
+- **Relecture** (trois relecteurs indépendants : arabe, exercices, français et fidélité au PDF) : aucune erreur dans les formes arabes ni dans les corrigés. Corrections après vérification :
+  - `فَرِحُوا` n'est pas au passé « à cause de `وا` » (le même `وا` suit `لَمْ` et `لَنْ`) : l'explication de `revue-17` ne cite plus que `تِ` et `نَا`, propres au passé.
+  - « Au passé, pour « il » et « elle », le pronom sujet est caché » (au présent, « je », « nous » et « toi » le sont aussi).
+  - « Sa forme **peut** varier selon le temps » (le PDF dit « peut ») ; « invariable » est précisé (aucune marque de cas).
+  - Le duel féminin `كَتَبَتَا` : le `ت` a une fatha devant l'alif (le sukūn est celui de « elle »).
+  - Ajouts d'oral certains : un passé sans pronom visible se reconnaît au fait qu'on peut lui coller `تُ` ou `تْ` ; les particules `لَمْ`, `لَنْ`, `سَ`, `سَوْفَ` ne vont qu'avec le présent ; `تَكْتُبُ` = « toi (un homme) » ou « elle » ; `آخُذُ` (de `أَخَذَ`) suit la même règle que `آكُلُ` ; `أَكَلَ` et `كَتَبَ` « demandent un complément d'objet, même quand on ne le dit pas » ; la note de `revue-1` sur l'impératif renvoie au début du chapitre.
+  - **Non retenus** : accepter `أَكَلَ الْخُبْزَ يَاسِرٌ` (complément avant le sujet, correct mais rare, comme `يُسَاعِدُ يَاسِرًا زَيْدٌ` plus haut) ; reformuler la consigne en « d'ordinaire » ; alléger `revue-9` (redite voulue en révision).
+

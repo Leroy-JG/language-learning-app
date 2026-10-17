@@ -1,0 +1,163 @@
+{
+  "id": "medine-t2.r01.revue-15",
+  "type": "review",
+  "title": "Le sujet et le complément du verbe",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-15#1",
+      "type": "tip",
+      "title": "Un verbe, un ou deux compagnons",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Selon ce qu'il demande, un verbe est intransitif ({ar|اللَّازِمُ}) ou transitif ({ar|الْمُتَعَدِّي})."
+        },
+        {
+          "type": "table",
+          "header": ["Le verbe", "Il demande…", "Exemple"],
+          "rows": [
+            [
+              "{ar|الْفِعْلُ اللَّازِمُ}",
+              "un sujet seulement ({ar|يَطْلُبُ فَاعِلًا فَقَطْ})",
+              "{ar|جَلَسَ زَيْدٌ} : Zayd s'est assis"
+            ],
+            [
+              "{ar|الْفِعْلُ الْمُتَعَدِّي}",
+              "un sujet et un complément d'objet ({ar|يَطْلُبُ فَاعِلًا وَمَفْعُولًا بِهِ})",
+              "{ar|ضَرَبَ زَيْدٌ يَاسِرًا} : Zayd a frappé Yāsir"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-15#2",
+      "type": "tip",
+      "title": "Le sujet et le complément d'objet",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le sujet ({ar|الْفَاعِلُ}) est le nom qui fait l'action du verbe : {ar|هُوَ الِاسْمُ الَّذِي يَقَعُ بِهِ الْفِعْلُ أَوْ يَقُومُ بِهِ}. Il ne devance jamais son verbe. Le complément d'objet ({ar|الْمَفْعُولُ بِهِ}) est le nom qui subit l'action : {ar|هُوَ الِاسْمُ الَّذِي يَقَعُ عَلَيْهِ الْفِعْلُ}. Les deux peuvent être un nom apparent ou un pronom collé."
+        },
+        {
+          "type": "table",
+          "header": ["Pour comparer", "Le sujet", "Le complément d'objet"],
+          "rows": [
+            ["cas", "nominatif ({ar|مَرْفُوعٌ})", "accusatif ({ar|مَنْصُوبٌ})"],
+            ["nom apparent ({ar|اِسْمٌ ظَاهِرٌ})", "{ar|جَاءَ زَيْدٌ}", "{ar|ضَرَبَ زَيْدٌ يَاسِرًا}"],
+            ["pronom collé ({ar|ضَمِيرٌ مُتَّصِلٌ})", "{ar|كَتَبْتُ ، دَخَلُوا}", "{ar|ضَرَبَكَ زَيْدٌ}"]
+          ]
+        },
+        { "type": "paragraph", "text": "Le professeur analyse ainsi deux phrases :" },
+        {
+          "type": "table",
+          "header": ["Phrase", "Analyse"],
+          "rows": [
+            ["{ar|خَرَجَ زَيْدٌ مِنَ الْمَدْرَسَةِ}", "{ar|زَيْدٌ} : {ar|فَاعِلٌ مَرْفُوعٌ}"],
+            [
+              "{ar|الطُّلَّابُ دَخَلُوا الْبَيْتَ}",
+              "{ar|و} : {ar|ضَمِيرٌ مُتَّصِلٌ فَاعِلٌ} ; {ar|الْبَيْتَ} : {ar|مَفْعُولٌ بِهِ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|الطُّلَّابُ} ouvre une phrase nominale : c'est le sujet de cette phrase, et le verbe a son propre sujet, le {ar|و} collé. L'alif qu'on écrit après lui au passé ({ar|دَخَلُوا}) ne se prononce pas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-15#3",
+      "type": "sort",
+      "categories": [ { "fr": "intransitif ({ar|لَازِمٌ})" }, { "fr": "transitif ({ar|مُتَعَدٍّ})" } ],
+      "cards": [
+        { "ar": "جَلَسَ", "category": 0 },
+        { "ar": "نَامَ", "category": 0 },
+        { "ar": "خَرَجَ", "category": 0 },
+        { "ar": "ضَرَبَ", "category": 1 },
+        { "ar": "أَكَلَ", "category": 1 },
+        { "ar": "كَتَبَ", "category": 1 }
+      ],
+      "instruction": "Ce verbe est-il intransitif ou transitif ?",
+      "explain": "{ar|جَلَسَ} (s'asseoir), {ar|نَامَ} (dormir) et {ar|خَرَجَ} (sortir) n'ont besoin que d'un sujet. {ar|ضَرَبَ} (frapper), {ar|أَكَلَ} (manger) et {ar|كَتَبَ} (écrire) demandent un complément d'objet, même quand on ne le dit pas."
+    },
+    {
+      "id": "medine-t2.r01.revue-15#4",
+      "type": "spot",
+      "instruction": "Touche le sujet du verbe.",
+      "words": ["قَرَأَ", "الْوَلَدُ", "الْكِتَابَ."],
+      "answers": [1],
+      "fr": "Le garçon a lu le livre.",
+      "explain": "{ar|الْوَلَدُ} fait l'action, il est au nominatif : c'est le sujet. {ar|الْكِتَابَ} subit l'action : c'est le complément d'objet."
+    },
+    {
+      "id": "medine-t2.r01.revue-15#5",
+      "type": "spot",
+      "instruction": "Touche le complément d'objet.",
+      "words": ["فَتَحَ", "الْمُدِيرُ", "الْبَابَ."],
+      "answers": [2],
+      "fr": "Le directeur a ouvert la porte.",
+      "explain": "{ar|الْبَابَ} subit l'action et il est à l'accusatif : c'est le complément d'objet. {ar|الْمُدِيرُ} est le sujet."
+    },
+    {
+      "id": "medine-t2.r01.revue-15#6",
+      "type": "question",
+      "prompt": { "fr": "Comment le professeur analyse-t-il {ar|الْبَيْتَ} dans {ar|الطُّلَّابُ دَخَلُوا الْبَيْتَ} ?" },
+      "choices": [ { "ar": "مَفْعُولٌ بِهِ" }, { "ar": "فَاعِلٌ مَرْفُوعٌ" }, { "ar": "ضَمِيرٌ مُتَّصِلٌ فَاعِلٌ" } ],
+      "answer": 0,
+      "explain": "{ar|الْبَيْتَ} subit l'action d'entrer, il est à l'accusatif : {ar|مَفْعُولٌ بِهِ}. Le sujet du verbe est le {ar|◌ُوا} collé."
+    },
+    {
+      "id": "medine-t2.r01.revue-15#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|دَخَلُوا}, quel est le rôle du {ar|◌ُوا} collé ?" },
+      "choices": [
+        { "ar": "ضَمِيرٌ مُتَّصِلٌ فَاعِلٌ" },
+        { "ar": "مَفْعُولٌ بِهِ مَنْصُوبٌ" },
+        { "ar": "اِسْمٌ ظَاهِرٌ مَرْفُوعٌ" }
+      ],
+      "answer": 0,
+      "explain": "Le {ar|◌ُوا} est un pronom collé au verbe : il est le sujet (« ils »). Il n'est pas un nom apparent."
+    },
+    {
+      "id": "medine-t2.r01.revue-15#8",
+      "type": "true_false",
+      "statement": { "fr": "Le complément d'objet est au nominatif." },
+      "answer": false,
+      "explain": "Faux : le sujet est au nominatif ({ar|زَيْدٌ}), le complément d'objet est à l'accusatif ({ar|يَاسِرًا})."
+    },
+    {
+      "id": "medine-t2.r01.revue-15#9",
+      "type": "true_false",
+      "statement": { "fr": "Le sujet d'un verbe peut être un pronom collé." },
+      "answer": true,
+      "explain": "Oui : dans {ar|كَتَبْتُ}, le {ar|تُ} est le sujet ; dans {ar|دَخَلُوا}, c'est le {ar|◌ُوا}."
+    },
+    {
+      "id": "medine-t2.r01.revue-15#10",
+      "type": "order",
+      "fr": "Yāsir a mangé le pain.",
+      "answers": [["أَكَلَ", "يَاسِرٌ", "الْخُبْزَ"], ["يَاسِرٌ", "أَكَلَ", "الْخُبْزَ"]],
+      "punctuation": ".",
+      "explain": "Le sujet du verbe vient après lui : {ar|أَكَلَ يَاسِرٌ الْخُبْزَ}. Si la phrase commence par le nom ({ar|يَاسِرٌ أَكَلَ الْخُبْزَ}), ce nom est le sujet d'une phrase nominale et le sujet du verbe est le pronom caché « il ». Le complément d'objet {ar|الْخُبْزَ} est à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r01.revue-15#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le directeur a ouvert la porte.",
+      "answers": ["فَتَحَ الْمُدِيرُ الْبَابَ.", "الْمُدِيرُ فَتَحَ الْبَابَ."],
+      "explain": "{ar|فَتَحَ} est transitif : le sujet {ar|الْمُدِيرُ} est au nominatif, le complément {ar|الْبَابَ} à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r01.revue-15#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd est sorti de l'école.",
+      "answers": ["خَرَجَ زَيْدٌ مِنَ الْمَدْرَسَةِ.", "زَيْدٌ خَرَجَ مِنَ الْمَدْرَسَةِ."],
+      "explain": "{ar|خَرَجَ} est intransitif : il n'a qu'un sujet, {ar|زَيْدٌ}. La préposition {ar|مِنْ} met {ar|الْمَدْرَسَةِ} au génitif."
+    }
+  ]
+}

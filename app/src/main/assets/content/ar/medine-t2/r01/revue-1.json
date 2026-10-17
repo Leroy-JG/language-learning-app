@@ -67,7 +67,10 @@
             ]
           ]
         },
-        { "type": "note", "text": "L'impératif n'est qu'un rappel : tu l'étudieras plus tard." }
+        {
+          "type": "note",
+          "text": "L'impératif n'est qu'un rappel : tu en as vu les signes au début de ce chapitre, et son étude complète viendra plus tard."
+        }
       ]
     },
     {

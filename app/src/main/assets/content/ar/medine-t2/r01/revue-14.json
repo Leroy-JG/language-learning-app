@@ -1,0 +1,128 @@
+{
+  "id": "medine-t2.r01.revue-14",
+  "type": "review",
+  "title": "Les trois temps du verbe",
+  "icon": "watch",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-14#1",
+      "type": "tip",
+      "title": "Un verbe, trois temps",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le verbe ({ar|الْفِعْلُ}) a trois temps. Le professeur t'apprend à les reconnaître grâce à des **signes**."
+        },
+        {
+          "type": "table",
+          "header": ["Temps", "Sens", "Signes pour le reconnaître", "Exemple"],
+          "rows": [
+            [
+              "{ar|الْمَاضِي}",
+              "le passé",
+              "un pronom sujet collé propre au passé ({ar|تُ}, {ar|تَ}, {ar|نَا}…) ou le {ar|ت} du féminin avec un sukūn ({ar|تْ})",
+              "{ar|كَتَبْتُ ، كَتَبَتْ}"
+            ],
+            [
+              "{ar|الْمُضَارِعُ}",
+              "le présent ou le futur",
+              "il commence toujours par l'une des lettres {ar|أَنَيْتُ} ; il peut être précédé de {ar|لَمْ}, {ar|لَنْ}, {ar|سَ} ou {ar|سَوْفَ}, des particules qui ne vont qu'avec lui",
+              "{ar|أَكْتُبُ ، يَكْتُبُ}"
+            ],
+            [
+              "{ar|الْأَمْرُ}",
+              "l'impératif",
+              "il exprime un ordre ou une demande ; le {ar|نُونُ التَّوْكِيدِ} (le {ar|نَّ} d'insistance) peut s'y coller",
+              "{ar|اُكْتُبْ} → {ar|اُكْتُبَنَّ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Un présent commence toujours par l'une des lettres {ar|أَنَيْتُ}, mais l'inverse est faux : {ar|أَكَلَ} (il a mangé) et {ar|نَجَحَ} (il a réussi) commencent par {ar|أ} et {ar|ن} et sont au passé."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Un passé sans pronom visible, comme {ar|كَتَبَ} (il a écrit), se reconnaît au fait qu'on peut lui coller {ar|تُ} ou {ar|تْ} : {ar|كَتَبْتُ}, {ar|كَتَبَتْ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-14#2",
+      "type": "sort",
+      "categories": [
+        { "fr": "passé ({ar|الْمَاضِي})" },
+        { "fr": "présent ({ar|الْمُضَارِعُ})" },
+        { "fr": "impératif ({ar|الْأَمْرُ})" }
+      ],
+      "cards": [
+        { "ar": "كَتَبَتْ", "category": 0 },
+        { "ar": "ضَرَبْتُمْ", "category": 0 },
+        { "ar": "أَكْتُبُ", "category": 1 },
+        { "ar": "يَذْهَبُونَ", "category": 1 },
+        { "ar": "اُكْتُبْ", "category": 2 },
+        { "ar": "اُدْرُسْ", "category": 2 }
+      ],
+      "instruction": "Passé, présent ou impératif ?",
+      "explain": "{ar|كَتَبَتْ} (le {ar|تْ} du féminin) et {ar|ضَرَبْتُمْ} (le pronom {ar|تُمْ}) sont au passé. {ar|أَكْتُبُ} et {ar|يَذْهَبُونَ} commencent par une lettre de {ar|أَنَيْتُ} : présent. {ar|اُكْتُبْ} et {ar|اُدْرُسْ} sont des ordres : « écris ! », « étudie ! »."
+    },
+    {
+      "id": "medine-t2.r01.revue-14#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:amr",
+      "distractors": ["w:madi", "w:mudari"],
+      "explain": "{ar|الْأَمْرُ} : l'impératif. {ar|الْمَاضِي} : le passé ; {ar|الْمُضَارِعُ} : le présent (et le futur)."
+    },
+    {
+      "id": "medine-t2.r01.revue-14#4",
+      "type": "spot",
+      "instruction": "Touche le verbe au passé.",
+      "words": ["هِيَ", "كَتَبَتْ", "رِسَالَةً", "وَهُمْ", "يَكْتُبُونَ", "دَرْسًا."],
+      "answers": [1],
+      "fr": "Elle a écrit une lettre et eux écrivent une leçon.",
+      "explain": "{ar|كَتَبَتْ} finit par le {ar|تْ} du féminin : c'est le passé. {ar|يَكْتُبُونَ} commence par {ar|ي} : c'est le présent."
+    },
+    {
+      "id": "medine-t2.r01.revue-14#5",
+      "type": "question",
+      "prompt": { "fr": "Quel signe peut se coller à la fin d'un impératif pour insister ?" },
+      "choices": [ { "ar": "نُونُ التَّوْكِيدِ" }, { "ar": "نُونُ النِّسْوَةِ" }, { "ar": "تَاءُ التَّأْنِيثِ السَّاكِنَةُ" } ],
+      "answer": 0,
+      "explain": "{ar|اُكْتُبْ} → {ar|اُكْتُبَنَّ} : c'est le {ar|نُونُ التَّوْكِيدِ}, le {ar|نَّ} d'insistance. Le {ar|نُونُ النِّسْوَةِ} est le {ar|نَ} de « elles » ({ar|يَكْتُبْنَ}) ; le {ar|تَاءُ التَّأْنِيثِ السَّاكِنَةُ} se met à la fin d'un verbe au passé ({ar|كَتَبَتْ})."
+    },
+    {
+      "id": "medine-t2.r01.revue-14#6",
+      "type": "true_false",
+      "statement": { "fr": "Tout verbe qui commence par l'une des lettres {ar|أَنَيْتُ} est au présent." },
+      "answer": false,
+      "explain": "Faux : {ar|أَكَلَ} et {ar|نَجَحَ} commencent par {ar|أ} et {ar|ن} mais sont au passé. Un présent commence toujours par l'une de ces lettres, mais la réciproque est fausse."
+    },
+    {
+      "id": "medine-t2.r01.revue-14#7",
+      "type": "true_false",
+      "statement": { "fr": "{ar|يَكْتُبُ} peut vouloir dire « il écrit » ou « il écrira »." },
+      "answer": true,
+      "explain": "Oui : le présent ({ar|الْمُضَارِعُ}) sert aussi pour le futur. {ar|سَ} ou {ar|سَوْفَ} avant le verbe le place clairement dans l'avenir."
+    },
+    {
+      "id": "medine-t2.r01.revue-14#8",
+      "type": "fill_gap",
+      "sentence": "هِيَ {0} رِسَالَةً أَمْسِ.",
+      "fr": "Elle a écrit une lettre hier.",
+      "gaps": [ { "answers": ["كَتَبَتْ"] } ],
+      "options": ["كَتَبَتْ", "تَكْتُبُ", "اُكْتُبْ"],
+      "explain": "« Hier » demande le passé : {ar|كَتَبَتْ} (avec le {ar|تْ} du féminin). {ar|تَكْتُبُ} est au présent ; {ar|اُكْتُبْ} est un ordre."
+    },
+    {
+      "id": "medine-t2.r01.revue-14#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Elle a écrit une lettre.",
+      "answers": ["كَتَبَتْ رِسَالَةً.", "هِيَ كَتَبَتْ رِسَالَةً."],
+      "explain": "{ar|كَتَبَتْ} : le passé, avec le {ar|تْ} du féminin. {ar|رِسَالَةً} : le complément d'objet, à l'accusatif."
+    }
+  ]
+}
