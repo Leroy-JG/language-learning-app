@@ -1,0 +1,196 @@
+{
+  "id": "medine-t2.l12.grammar-4",
+  "type": "grammar",
+  "title": "Quand le verbe garde un {ar|ن} : trois pronoms",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t2.l12.grammar-4#1",
+      "type": "tip",
+      "title": "Trois pronoms qui changent la marque",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne **deux cas seulement** où le présent n'a pas sa marque de base (damma, fatha, sukūn). Premier cas : son sujet est l'un des trois pronoms que voici, collés à la fin du verbe."
+        },
+        {
+          "type": "table",
+          "header": ["Le pronom", "Qui est-ce ?", "Exemple"],
+          "rows": [
+            [
+              "{ar|يَاءُ الْمُخَاطَبَةِ} ({ar|ي}) : « le yā' de celle à qui l'on parle »",
+              "« toi » (une femme)",
+              "{ar|أَنْتِ تَكْتُبِينَ}"
+            ],
+            [
+              "{ar|أَلِفُ الِاثْنَيْنِ} ({ar|ا}) : « l'alif des deux »",
+              "deux personnes",
+              "{ar|أَنْتُمَا تَكْتُبَانِ ، هُمَا يَكْتُبَانِ}"
+            ],
+            [
+              "{ar|وَاوُ الْجَمَاعَةِ} ({ar|و}) : « le wāw du groupe »",
+              "plusieurs hommes",
+              "{ar|أَنْتُمْ تَكْتُبُونَ ، هُمْ يَكْتُبُونَ}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.grammar-4#2",
+      "type": "tip",
+      "title": "Où est le pronom ? Où est le {ar|ن} ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans ces formes, le pronom est la lettre {ar|و}, {ar|ا} ou {ar|ي} ; elle est suivie d'un {ar|ن} final."
+        },
+        {
+          "type": "breakdown",
+          "ar": "تَكْتُبُونَ",
+          "fr": "vous écrivez (plusieurs hommes)",
+          "parts": [
+            { "ar": "تَ", "fr": "la lettre du présent" },
+            { "ar": "كْتُبُ", "fr": "la racine {ar|ك}-{ar|ت}-{ar|ب}" },
+            { "ar": "و", "fr": "le pronom : le wāw du groupe" },
+            { "ar": "نَ", "fr": "le {ar|ن} final" }
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "تَكْتُبِينَ",
+          "fr": "tu écris (à une femme)",
+          "parts": [
+            { "ar": "تَ", "fr": "la lettre du présent" },
+            { "ar": "كْتُبِ", "fr": "la racine {ar|ك}-{ar|ت}-{ar|ب}" },
+            { "ar": "ي", "fr": "le pronom : le yā' de « toi »" },
+            { "ar": "نَ", "fr": "le {ar|ن} final" }
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "تَكْتُبَانِ",
+          "fr": "vous écrivez (deux personnes)",
+          "parts": [
+            { "ar": "تَ", "fr": "la lettre du présent" },
+            { "ar": "كْتُبَ", "fr": "la racine {ar|ك}-{ar|ت}-{ar|ب}" },
+            { "ar": "ا", "fr": "le pronom : l'alif des deux" },
+            { "ar": "نِ", "fr": "le {ar|ن} final" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.grammar-4#3",
+      "type": "tip",
+      "title": "Le {ar|ن} final : la marque du nominatif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Avec ces trois pronoms, la damma de la fin disparaît : c'est le {ar|ن} final qui marque le nominatif ({ar|الرَّفْعُ}). On parle de marque **secondaire** ({ar|الْإِعْرَابُ الْفَرْعِيُّ}) : c'est une lettre, et non une voyelle."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ce {ar|ن} n'est pas un pronom. Le pronom est le {ar|و}, le {ar|ا} ou le {ar|ي}. Ne le confonds pas avec le {ar|نَ} des femmes de {ar|يَكْتُبْنَ}, qui, lui, est le pronom « elles »."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aperçu : après {ar|لَنْ} et {ar|لَمْ}, ce {ar|ن} tombe (tu verras cela dans les prochains cours)."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "تَكْتُبُونَ", "fr": "vous écrivez" },
+              "to": { "ar": "لَنْ تَكْتُبُوا", "fr": "vous n'écrirez pas" },
+              "label": "le {ar|ن} tombe après {ar|لَنْ}"
+            },
+            {
+              "from": { "ar": "تَكْتُبِينَ", "fr": "tu écris (à une femme)" },
+              "to": { "ar": "لَنْ تَكْتُبِي", "fr": "tu n'écriras pas (à une femme)" },
+              "label": "le {ar|ن} tombe après {ar|لَنْ}"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "On appelle ces cinq formes ({ar|يَفْعَلَانِ}, {ar|تَفْعَلَانِ}, {ar|يَفْعَلُونَ}, {ar|تَفْعَلُونَ}, {ar|تَفْعَلِينَ}) {ar|الْأَفْعَالُ الْخَمْسَةُ} (« les cinq verbes »). Ce nom reviendra."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.grammar-4#4",
+      "type": "sort",
+      "categories": [ { "fr": "la damma" }, { "fr": "le {ar|ن} final" } ],
+      "cards": [
+        { "ar": "يَكْتُبُ", "category": 0 },
+        { "ar": "أَكْتُبُ", "category": 0 },
+        { "ar": "نَكْتُبُ", "category": 0 },
+        { "ar": "تَكْتُبِينَ", "category": 1 },
+        { "ar": "يَكْتُبَانِ", "category": 1 },
+        { "ar": "تَكْتُبُونَ", "category": 1 }
+      ],
+      "instruction": "Quelle est la marque du nominatif ?",
+      "explain": "Après {ar|يَكْتُبُ}, {ar|أَكْتُبُ} et {ar|نَكْتُبُ} : la damma. Avec le yā' de « toi », l'alif des deux ou le wāw du groupe : le {ar|ن} final."
+    },
+    {
+      "id": "medine-t2.l12.grammar-4#5",
+      "type": "spot",
+      "instruction": "Touche le verbe dont la marque du nominatif est le {ar|ن} final.",
+      "words": ["هُمْ", "يَكْتُبُونَ", "وَهُوَ", "يَكْتُبُ"],
+      "answers": [1],
+      "fr": "Ils écrivent, et lui, il écrit.",
+      "explain": "{ar|يَكْتُبُونَ} se termine par le {ar|و} du groupe et le {ar|ن}. {ar|يَكْتُبُ} garde la damma."
+    },
+    {
+      "id": "medine-t2.l12.grammar-4#6",
+      "type": "fill_gap",
+      "sentence": "أَنْتِ {0} إِلَى الْمُسْتَشْفَى.",
+      "fr": "Tu vas à l'hôpital (à une femme).",
+      "gaps": [ { "answers": ["تَذْهَبِينَ"] } ],
+      "options": ["تَذْهَبِينَ", "تَذْهَبُونَ", "تَذْهَبَانِ"],
+      "explain": "« Tu » à une femme : le yā' de « toi » et le {ar|ن} final : {ar|تَذْهَبِينَ}."
+    },
+    {
+      "id": "medine-t2.l12.grammar-4#7",
+      "type": "fill_gap",
+      "sentence": "هُمَا {0} فِي الْمَسْجِدِ.",
+      "fr": "Eux deux sont assis dans la mosquée.",
+      "gaps": [ { "answers": ["يَجْلِسَانِ"] } ],
+      "options": ["يَجْلِسَانِ", "يَجْلِسُونَ", "يَجْلِسْنَ"],
+      "explain": "« Eux deux » (deux hommes) : {ar|يَ} au début, l'alif des deux et le {ar|ن} final : {ar|يَجْلِسَانِ}."
+    },
+    {
+      "id": "medine-t2.l12.grammar-4#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|تَكْتُبِينَ}, quel est le pronom sujet ?" },
+      "choices": [ { "fr": "le {ar|ي}, pour une femme" }, { "fr": "le {ar|ن} final" }, { "fr": "le {ar|تَ} du début" } ],
+      "answer": 0,
+      "explain": "Le pronom est le {ar|ي}. Le {ar|تَ} est la lettre du présent ; le {ar|ن} final est la marque du nominatif."
+    },
+    {
+      "id": "medine-t2.l12.grammar-4#9",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|يَكْتُبُونَ}, le {ar|ن} final est le pronom « ils »." },
+      "answer": false,
+      "explain": "Non : le pronom « ils » est le {ar|و}. Le {ar|ن} final marque le nominatif."
+    },
+    {
+      "id": "medine-t2.l12.grammar-4#10",
+      "type": "order",
+      "fr": "Que manges-tu, toi (à une femme) ?",
+      "answers": [["مَاذَا", "تَأْكُلِينَ", "أَنْتِ"], ["مَاذَا", "أَنْتِ", "تَأْكُلِينَ"]],
+      "punctuation": "؟",
+      "explain": "« Tu » à une femme : {ar|تَأْكُلِينَ}."
+    },
+    {
+      "id": "medine-t2.l12.grammar-4#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ils jouent.",
+      "answers": ["يَلْعَبُونَ.", "هُمْ يَلْعَبُونَ."],
+      "explain": "« Ils » : {ar|يَ} au début, {ar|ونَ} à la fin : {ar|يَلْعَبُونَ}."
+    }
+  ]
+}

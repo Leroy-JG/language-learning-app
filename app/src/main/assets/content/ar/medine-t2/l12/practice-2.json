@@ -1,0 +1,120 @@
+{
+  "id": "medine-t2.l12.practice-2",
+  "type": "vocabulary",
+  "title": "Exercice 2 : au féminin singulier",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l12.practice-2#1",
+      "type": "tip",
+      "title": "Mettre « toi » au féminin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 2 demande de parler à une femme. Seuls le verbe et le mot d'appel changent : {ar|تَعْرِفُ} devient {ar|تَعْرِفِينَ}."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": {
+                "ar": "أَتَعْرِفُ اللُّغَةَ الْعَرَبِيَّةَ يَا أَخِي؟",
+                "fr": "Connais-tu la langue arabe, mon frère ?"
+              },
+              "to": {
+                "ar": "أَتَعْرِفِينَ اللُّغَةَ الْعَرَبِيَّةَ يَا أُخْتِي؟",
+                "fr": "Connais-tu la langue arabe, ma sœur ?"
+              }
+            },
+            {
+              "from": { "ar": "مَاذَا تَأْكُلُ يَا مُحَمَّدُ؟", "fr": "Que manges-tu, Muḥammad ?" },
+              "to": { "ar": "مَاذَا تَأْكُلِينَ يَا فَاطِمَةُ؟", "fr": "Que manges-tu, Fāṭima ?" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "À la fin du verbe, on ajoute {ar|◌ِينَ} : une kasra sur la dernière lettre de la racine, puis {ar|ي} et {ar|نَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.practice-2#2",
+      "type": "fill_gap",
+      "sentence": "مَاذَا {0} يَا فَاطِمَةُ؟",
+      "fr": "Que manges-tu, Fāṭima ?",
+      "gaps": [ { "answers": ["تَأْكُلِينَ"] } ],
+      "options": ["تَأْكُلِينَ", "تَأْكُلُ", "تَأْكُلْنَ"],
+      "explain": "Fāṭima est une femme : {ar|تَأْكُلِينَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ {0} فِي الْفَصْلِ يَا مَرْيَمُ؟",
+      "fr": "Où t'assois-tu en classe, Maryam ?",
+      "gaps": [ { "answers": ["تَجْلِسِينَ"] } ],
+      "options": ["تَجْلِسِينَ", "تَجْلِسُ", "تَجْلِسْنَ"],
+      "explain": "Maryam est une femme : {ar|تَجْلِسِينَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-2#4",
+      "type": "question",
+      "prompt": { "fr": "Que devient {ar|تَقُولُ} (« tu dis ») quand on parle à une seule femme ?" },
+      "choices": [ { "ar": "تَقُولِينَ" }, { "ar": "تَقُلْنَ" }, { "ar": "تَقُولُونَ" } ],
+      "answer": 0,
+      "explain": "{ar|تَقُولِينَ}. {ar|تَقُلْنَ} est pour plusieurs femmes et {ar|تَقُولُونَ} pour plusieurs hommes."
+    },
+    {
+      "id": "medine-t2.l12.practice-2#5",
+      "type": "fill_gap",
+      "sentence": "مَتَى {0} إِلَى الْمُسْتَشْفَى يَا أُمِّي؟",
+      "fr": "Quand vas-tu à l'hôpital, maman ?",
+      "gaps": [ { "answers": ["تَذْهَبِينَ"] } ],
+      "options": ["تَذْهَبِينَ", "تَذْهَبُ", "تَذْهَبُونَ"],
+      "explain": "« Maman » est une femme : {ar|تَذْهَبِينَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-2#6",
+      "type": "true_false",
+      "statement": { "fr": "Pour parler à une femme, {ar|أَتَفْهَمُ الدَّرْسَ} devient {ar|أَتَفْهَمِينَ الدَّرْسَ}." },
+      "answer": true,
+      "explain": "Oui : {ar|تَفْهَمُ} devient {ar|تَفْهَمِينَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-2#7",
+      "type": "fill_gap",
+      "sentence": "إِلَى مَنْ {0} هٰذِهِ الرِّسَالَةَ يَا أُخْتِي؟",
+      "fr": "À qui écris-tu cette lettre, ma sœur ?",
+      "gaps": [ { "answers": ["تَكْتُبِينَ"] } ],
+      "options": ["تَكْتُبِينَ", "تَكْتُبُونَ", "تَكْتُبُ"],
+      "explain": "« Ma sœur » : {ar|تَكْتُبِينَ}. {ar|الرِّسَالَةَ} est le complément (accusatif)."
+    },
+    {
+      "id": "medine-t2.l12.practice-2#8",
+      "type": "order",
+      "fr": "Quelle sourate mémorises-tu maintenant, ma sœur ?",
+      "answers": [
+        ["أَيَّ", "سُورَةٍ", "تَحْفَظِينَ", "الْآنَ", "يَا", "أُخْتِي"],
+        ["الْآنَ", "أَيَّ", "سُورَةٍ", "تَحْفَظِينَ", "يَا", "أُخْتِي"]
+      ],
+      "punctuation": "؟",
+      "explain": "{ar|أَيَّ سُورَةٍ} est le complément du verbe : {ar|أَيَّ} est à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l12.practice-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Comprends-tu bien la leçon, ma sœur ?",
+      "answers": ["أَتَفْهَمِينَ الدَّرْسَ جَيِّدًا يَا أُخْتِي؟", "أَتَفْهَمِينَ الدَّرْسَ جَيِّدًا؟"],
+      "explain": "{ar|أَتَفْهَمِينَ} : {ar|أَ} de la question + {ar|تَفْهَمِينَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Où vas-tu, ma sœur ?",
+      "answers": ["أَيْنَ تَذْهَبِينَ يَا أُخْتِي؟", "أَيْنَ تَذْهَبِينَ؟"],
+      "explain": "« Tu » à une femme : {ar|تَذْهَبِينَ}."
+    }
+  ]
+}

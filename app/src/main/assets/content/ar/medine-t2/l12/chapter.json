@@ -1,0 +1,30 @@
+{
+  "id": "medine-t2.l12",
+  "number": 12,
+  "title": { "ar": "الدَّرْسُ الثَّانِي عَشَرَ", "fr": "Les cas du verbe au présent ; les verbes invariables" },
+  "description": "Variable ou invariable, les trois états du présent (nominatif, accusatif, jussif), le {ar|ن} final des trois pronoms, les verbes en {ar|و}, {ar|ي}, {ar|ى}, {ar|إِنَّ} ou {ar|أَنَّ} ?, le vocabulaire (rire, témoigner, vouloir ; médicament, devoir, élève, téléphone), le texte du livre (le médicament, les devoirs) et ses exercices.",
+  "source": "Tome de Médine 2, leçon 12",
+  "sections": [
+    { "title": "Revoir : le présent", "activities": ["revue-1"] },
+    { "title": "Variable ou invariable ?", "activities": ["grammar-1"] },
+    { "title": "Les trois états du présent", "activities": ["grammar-2", "grammar-3"] },
+    { "title": "Quand la marque change", "activities": ["grammar-4", "grammar-5"] },
+    { "title": "{ar|إِنَّ} ou {ar|أَنَّ} ?", "activities": ["grammar-6"] },
+    { "title": "Rire, témoigner, vouloir", "activities": ["vocab-1"] },
+    { "title": "Les mots du texte", "activities": ["vocab-2", "vocab-3", "vocab-4"] },
+    {
+      "title": "Le texte du livre et ses exercices",
+      "activities": [
+        "dialogue-1",
+        "dialogue-2",
+        "practice-1",
+        "practice-2",
+        "practice-3",
+        "practice-4",
+        "practice-5",
+        "practice-6"
+      ]
+    },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

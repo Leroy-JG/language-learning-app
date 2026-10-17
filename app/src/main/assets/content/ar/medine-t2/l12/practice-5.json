@@ -1,0 +1,153 @@
+{
+  "id": "medine-t2.l12.practice-5",
+  "type": "vocabulary",
+  "title": "Exercice 5 : choisis la bonne forme",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l12.practice-5#1",
+      "type": "tip",
+      "title": "À qui parle-t-on ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans l'exercice 5, le livre donne deux formes du verbe. Pour choisir, regarde le mot d'appel (ou le pronom) : il dit si le sujet est un homme, une femme, plusieurs hommes ou plusieurs femmes."
+        },
+        {
+          "type": "table",
+          "header": ["Sujet", "Fin du verbe", "Exemple"],
+          "rows": [
+            ["un homme", "damma", "{ar|تَذْهَبُ}"],
+            ["une femme", "{ar|◌ِينَ}", "{ar|تَذْهَبِينَ}"],
+            ["plusieurs hommes", "{ar|◌ُونَ}", "{ar|تَذْهَبُونَ}"],
+            ["plusieurs femmes", "{ar|◌ْنَ}", "{ar|تَذْهَبْنَ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.practice-5#2",
+      "type": "fill_gap",
+      "sentence": "فِي أَيِّ سَنَةٍ {0} يَا فَتَاةُ؟",
+      "fr": "En quelle année étudies-tu, jeune fille ?",
+      "gaps": [ { "answers": ["تَدْرُسِينَ"] } ],
+      "options": ["تَدْرُسِينَ", "تَدْرُسُ"],
+      "explain": "{ar|فَتَاةٌ} est une jeune fille : {ar|تَدْرُسِينَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-5#3",
+      "type": "fill_gap",
+      "sentence": "{0} اسْمَ الطَّبِيبِ الَّذِي يَسْكُنُ أَمَامَ بَيْتِنَا يَا أَحْمَدُ؟",
+      "fr": "Connais-tu le nom du médecin qui habite en face de chez nous, Aḥmad ?",
+      "gaps": [ { "answers": ["أَتَعْرِفُ"] } ],
+      "options": ["أَتَعْرِفُ", "أَتَعْرِفِينَ"],
+      "explain": "Aḥmad est un homme : {ar|أَتَعْرِفُ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-5#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|تَقْرَأْنَ}, le {ar|نَ} final est…" },
+      "choices": [
+        { "fr": "le pronom : plusieurs femmes" },
+        { "fr": "la marque du nominatif, comme dans {ar|تَقْرَأُونَ}" },
+        { "fr": "la lettre du présent" }
+      ],
+      "answer": 0,
+      "explain": "Le {ar|نَ} de {ar|تَقْرَأْنَ} est le pronom « vous » (plusieurs femmes). Dans {ar|تَقْرَأُونَ}, le pronom est le {ar|و}."
+    },
+    {
+      "id": "medine-t2.l12.practice-5#5",
+      "type": "fill_gap",
+      "sentence": "لِمَاذَا {0} الْوَاجِبَاتِ بِالْقَلَمِ الْأَحْمَرِ يَا بَنَاتِي؟",
+      "fr": "Pourquoi écrivez-vous les devoirs au stylo rouge, mes filles ?",
+      "gaps": [ { "answers": ["تَكْتُبْنَ"] } ],
+      "options": ["تَكْتُبْنَ", "تَكْتُبُونَ"],
+      "explain": "{ar|بَنَاتِي} : mes filles : {ar|تَكْتُبْنَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-5#6",
+      "type": "fill_gap",
+      "sentence": "أَفِي وَقْتِ الْعَمَلِ {0} يَا أَبْنَائِي؟",
+      "fr": "Jouez-vous pendant le temps du travail, mes fils ?",
+      "gaps": [ { "answers": ["تَلْعَبُونَ"] } ],
+      "options": ["تَلْعَبُونَ", "تَلْعَبْنَ"],
+      "explain": "{ar|أَبْنَائِي} : mes fils : {ar|تَلْعَبُونَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-5#7",
+      "type": "true_false",
+      "statement": { "fr": "Avec {ar|يَا أَخَوَاتُ}, on emploie {ar|تَسْكُنُونَ}." },
+      "answer": false,
+      "explain": "Non : {ar|أَخَوَاتٌ} (des sœurs) demande le pronom {ar|نَ} : {ar|تَسْكُنَّ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-5#8",
+      "type": "fill_gap",
+      "sentence": "مَتَى {0} إِلَى السُّوقِ يَا أَبِي؟",
+      "fr": "Quand vas-tu au marché, papa ?",
+      "gaps": [ { "answers": ["تَذْهَبُ"] } ],
+      "options": ["تَذْهَبُ", "تَذْهَبِينَ"],
+      "explain": "{ar|أَبٌ} est un homme : {ar|تَذْهَبُ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-5#9",
+      "type": "fill_gap",
+      "sentence": "{0} رَقْمَ هَاتِفِ الصَّيْدَلِيَّةِ يَا أُمِّي؟",
+      "fr": "Connais-tu le numéro de téléphone de la pharmacie, maman ?",
+      "gaps": [ { "answers": ["أَتَعْرِفِينَ"] } ],
+      "options": ["أَتَعْرِفُ", "أَتَعْرِفِينَ"],
+      "explain": "{ar|أُمٌّ} est une femme : {ar|أَتَعْرِفِينَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-5#10",
+      "type": "question",
+      "prompt": { "fr": "Quelle forme va avec {ar|يَا أَبْنَائِي} (« mes fils ») ?" },
+      "choices": [ { "ar": "تَلْعَبُونَ" }, { "ar": "تَلْعَبْنَ" }, { "ar": "تَلْعَبُ" } ],
+      "answer": 0,
+      "explain": "Plusieurs garçons : {ar|تَلْعَبُونَ}. {ar|تَلْعَبْنَ} est pour plusieurs filles, {ar|تَلْعَبُ} pour une seule personne."
+    },
+    {
+      "id": "medine-t2.l12.practice-5#11",
+      "type": "fill_gap",
+      "sentence": "{0} هٰذِهِ الْمَجَلَّةَ يَا أَخَوَاتُ؟",
+      "fr": "Lisez-vous cette revue, mes sœurs ?",
+      "gaps": [ { "answers": ["أَتَقْرَأْنَ"] } ],
+      "options": ["أَتَقْرَأُونَ", "أَتَقْرَأْنَ"],
+      "explain": "{ar|أَخَوَاتٌ} : des sœurs : {ar|أَتَقْرَأْنَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-5#12",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ لَا {0} كُرَةَ الْقَدَمِ فِي الشَّوَارِعِ.",
+      "fr": "Nous ne jouons pas au football dans les rues.",
+      "gaps": [ { "answers": ["نَلْعَبُ"] } ],
+      "options": ["نَلْعَبُ", "أَلْعَبُ"],
+      "explain": "« Nous » : {ar|نَلْعَبُ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-5#13",
+      "type": "order",
+      "fr": "Quand vas-tu au marché, papa ?",
+      "answers": [["مَتَى", "تَذْهَبُ", "إِلَى", "السُّوقِ", "يَا", "أَبِي"]],
+      "punctuation": "؟",
+      "explain": "{ar|أَبِي} : « mon père », à l'appel."
+    },
+    {
+      "id": "medine-t2.l12.practice-5#14",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} بِالْجَامِعَةِ الْإِسْلَامِيَّةِ.",
+      "fr": "J'étudie à l'Université islamique.",
+      "gaps": [ { "answers": ["أَدْرُسُ"] } ],
+      "options": ["أَدْرُسُ", "نَدْرُسُ"],
+      "explain": "« Je » : {ar|أَدْرُسُ}. (Le livre demande où étudie un seul interlocuteur : il répond pour lui seul.)"
+    },
+    {
+      "id": "medine-t2.l12.practice-5#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Habites-tu dans les dortoirs de l'université, mon frère ?",
+      "answers": ["أَفِي مَهَاجِعِ الْجَامِعَةِ تَسْكُنُ يَا أَخِي؟", "أَتَسْكُنُ فِي مَهَاجِعِ الْجَامِعَةِ يَا أَخِي؟"],
+      "explain": "« Mon frère » : un homme, {ar|تَسْكُنُ}."
+    }
+  ]
+}

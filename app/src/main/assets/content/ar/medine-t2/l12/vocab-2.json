@@ -1,0 +1,66 @@
+{
+  "id": "medine-t2.l12.vocab-2",
+  "type": "vocabulary",
+  "title": "Médicament et pharmacie",
+  "icon": "doctor",
+  "screens": [
+    { "id": "medine-t2.l12.vocab-2#1", "type": "present", "item": "w:dawaa" },
+    { "id": "medine-t2.l12.vocab-2#2", "type": "present", "item": "w:saydaliyya" },
+    {
+      "id": "medine-t2.l12.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:dawaa",
+      "distractors": ["w:saydaliyya", "w:mustashfa"],
+      "explain": "{ar|دَوَاءٌ} : un médicament. {ar|صَيْدَلِيَّةٌ} : une pharmacie ; {ar|مُسْتَشْفًى} : un hôpital."
+    },
+    {
+      "id": "medine-t2.l12.vocab-2#4",
+      "type": "true_false",
+      "statement": { "fr": "{ar|صَيْدَلِيَّةٌ} (« une pharmacie ») est un mot masculin." },
+      "answer": false,
+      "explain": "Non : {ar|صَيْدَلِيَّةٌ} est féminin (terminaison {ar|ةٌ}). On dit {ar|هٰذِهِ صَيْدَلِيَّةٌ}."
+    },
+    {
+      "id": "medine-t2.l12.vocab-2#5",
+      "type": "fill_gap",
+      "sentence": "أَخَذَ زَيْدٌ {0} مِنَ الصَّيْدَلِيَّةِ.",
+      "fr": "Zayd a pris le médicament à la pharmacie.",
+      "gaps": [ { "answers": ["الدَّوَاءَ"] } ],
+      "options": ["الدَّوَاءَ", "الْقَلَمَ", "الْبَابَ"],
+      "explain": "« Le médicament » : {ar|الدَّوَاءَ}, complément de {ar|أَخَذَ} (accusatif)."
+    },
+    { "id": "medine-t2.l12.vocab-2#6", "type": "present", "item": "p:shafaha-allah" },
+    {
+      "id": "medine-t2.l12.vocab-2#7",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « Qu'Allah la guérisse » en parlant d'une femme malade ?" },
+      "choices": [ { "ar": "شَفَاهَا اللَّهُ" }, { "ar": "شَفَاهُ اللَّهُ" }, { "ar": "شَفَاكَ اللَّهُ" } ],
+      "answer": 0,
+      "explain": "{ar|هَا} veut dire « elle ». {ar|شَفَاهُ اللَّهُ} se dit d'un homme ; {ar|شَفَاكَ اللَّهُ} veut dire « qu'Allah te guérisse »."
+    },
+    {
+      "id": "medine-t2.l12.vocab-2#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:dawaa", "w:saydaliyya", "w:mustashfa", "w:tabib"]
+    },
+    { "id": "medine-t2.l12.vocab-2#9", "type": "build", "item": "w:saydaliyya", "extra": ["ط"] },
+    {
+      "id": "medine-t2.l12.vocab-2#10",
+      "type": "order",
+      "fr": "Je cherche le médicament.",
+      "answers": [["أَبْحَثُ", "عَنِ", "الدَّوَاءِ"]],
+      "punctuation": ".",
+      "explain": "{ar|أَبْحَثُ} : « je cherche » ; {ar|عَنِ} : « sur, à propos de » (ici avec {ar|بَحَثَ}, « chercher »)."
+    },
+    {
+      "id": "medine-t2.l12.vocab-2#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Où est la pharmacie ?",
+      "answers": ["أَيْنَ الصَّيْدَلِيَّةُ؟"],
+      "explain": "{ar|أَيْنَ} + le nom au nominatif."
+    }
+  ]
+}

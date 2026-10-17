@@ -1,0 +1,86 @@
+{
+  "id": "medine-t2.l12.vocab-3",
+  "type": "vocabulary",
+  "title": "À l'école : devoirs, élèves, temps",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t2.l12.vocab-3#1", "type": "present", "item": "w:wajib" },
+    { "id": "medine-t2.l12.vocab-3#2", "type": "present", "item": "w:tilmidh" },
+    { "id": "medine-t2.l12.vocab-3#3", "type": "present", "item": "w:tilmidha" },
+    {
+      "id": "medine-t2.l12.vocab-3#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:tilmidha",
+      "distractors": ["w:wajib", "w:tilmidh"],
+      "explain": "{ar|تِلْمِيذَةٌ} : une élève. {ar|تِلْمِيذٌ} : un élève ; {ar|وَاجِبٌ} : un devoir."
+    },
+    { "id": "medine-t2.l12.vocab-3#5", "type": "present", "item": "w:waqt" },
+    { "id": "medine-t2.l12.vocab-3#6", "type": "present", "item": "w:mulk" },
+    {
+      "id": "medine-t2.l12.vocab-3#7",
+      "type": "tip",
+      "title": "{ar|الْمُلْكُ} : une sourate",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|الْمُلْكُ} veut dire « la royauté ». C'est le nom de la sourate 67 du Coran, qui commence par {ar|تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ} (« Béni soit Celui qui a la royauté en Sa main »). La sourate suivante, la 68, s'appelle {ar|الْقَلَمُ} (« le calame », « le stylo »)."
+        },
+        { "type": "example", "ar": "سُورَةُ الْمُلْكِ", "fr": "la sourate al-Mulk" },
+        { "type": "example", "ar": "سُورَةُ الْقَلَمِ", "fr": "la sourate al-Qalam" },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "Les deux sourates sont citées dans le texte du livre de ce chapitre."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.vocab-3#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:wajib", "w:tilmidh", "w:waqt", "w:mulk"]
+    },
+    {
+      "id": "medine-t2.l12.vocab-3#9",
+      "type": "fill_gap",
+      "sentence": "هٰذَا {0} الصَّلَاةِ.",
+      "fr": "C'est l'heure de la prière.",
+      "gaps": [ { "answers": ["وَقْتُ"] } ],
+      "options": ["وَقْتُ", "تِلْمِيذُ"],
+      "explain": "« L'heure de la prière » : {ar|وَقْتُ الصَّلَاةِ}."
+    },
+    {
+      "id": "medine-t2.l12.vocab-3#10",
+      "type": "fill_gap",
+      "sentence": "كَتَبَ التِّلْمِيذُ {0}.",
+      "fr": "L'élève a écrit les devoirs.",
+      "gaps": [ { "answers": ["الْوَاجِبَاتِ"] } ],
+      "options": ["الْوَاجِبَاتِ", "التَّلَامِيذِ"],
+      "explain": "« Les devoirs » : {ar|الْوَاجِبَاتِ} ; le pluriel en -āt est à l'accusatif avec une kasra."
+    },
+    {
+      "id": "medine-t2.l12.vocab-3#11",
+      "type": "true_false",
+      "statement": { "fr": "{ar|تِلْمِيذَةٌ} est le féminin de {ar|تِلْمِيذٌ}." },
+      "answer": true,
+      "explain": "Oui. Pluriels : {ar|تَلَامِيذُ} (des élèves, ou un groupe mixte) et {ar|تِلْمِيذَاتٌ} (des filles)."
+    },
+    {
+      "id": "medine-t2.l12.vocab-3#12",
+      "type": "order",
+      "fr": "Zayd est un élève appliqué.",
+      "answers": [["زَيْدٌ", "تِلْمِيذٌ", "مُجْتَهِدٌ"]],
+      "punctuation": ".",
+      "explain": "{ar|مُجْتَهِدٌ} décrit {ar|تِلْمِيذٌ} : même cas, indéfini."
+    },
+    {
+      "id": "medine-t2.l12.vocab-3#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "C'est l'heure de la prière.",
+      "answers": ["هٰذَا وَقْتُ الصَّلَاةِ."],
+      "explain": "{ar|وَقْتُ} + {ar|الصَّلَاةِ} : une annexion."
+    }
+  ]
+}

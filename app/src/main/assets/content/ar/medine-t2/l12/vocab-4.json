@@ -1,0 +1,80 @@
+{
+  "id": "medine-t2.l12.vocab-4",
+  "type": "vocabulary",
+  "title": "Numéro, téléphone, travail",
+  "icon": "watch",
+  "screens": [
+    { "id": "medine-t2.l12.vocab-4#1", "type": "present", "item": "w:raqm" },
+    { "id": "medine-t2.l12.vocab-4#2", "type": "present", "item": "w:hatif" },
+    {
+      "id": "medine-t2.l12.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hatif",
+      "distractors": ["w:raqm", "w:wajib"],
+      "explain": "{ar|هَاتِفٌ} : un téléphone. {ar|رَقْمٌ} : un numéro ; {ar|وَاجِبٌ} : un devoir."
+    },
+    { "id": "medine-t2.l12.vocab-4#4", "type": "present", "item": "w:amal" },
+    {
+      "id": "medine-t2.l12.vocab-4#5",
+      "type": "tip",
+      "title": "Tu connais déjà {ar|جَارٌ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur reprend {ar|جَارٌ} (« un voisin », pluriel {ar|جِيرَانٌ}) avec une phrase où {ar|وَاجِبٌ} est un adjectif :"
+        },
+        {
+          "type": "example",
+          "ar": "الْإِحْسَانُ إِلَى الْجَارِ وَاجِبٌ.",
+          "fr": "Bien traiter le voisin est une obligation."
+        },
+        {
+          "type": "note",
+          "text": "{ar|الْإِحْسَانُ} est le nom d'action de {ar|أَحْسَنَ} (chapitre 9) : « bien faire, bien traiter ». {ar|وَاجِبٌ} veut dire ici « obligatoire »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.vocab-4#6",
+      "type": "fill_gap",
+      "sentence": "مَا {0} هَاتِفِكَ؟",
+      "fr": "Quel est ton numéro de téléphone ?",
+      "gaps": [ { "answers": ["رَقْمُ"] } ],
+      "options": ["رَقْمُ", "عَمَلُ"],
+      "explain": "« Le numéro de ton téléphone » : {ar|رَقْمُ هَاتِفِكَ}."
+    },
+    {
+      "id": "medine-t2.l12.vocab-4#7",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ فِي {0} التِّجَارَةِ.",
+      "fr": "Zayd travaille dans le commerce.",
+      "gaps": [ { "answers": ["عَمَلِ"] } ],
+      "options": ["عَمَلِ", "رَقْمِ"],
+      "explain": "{ar|فِي} met {ar|عَمَلِ} au génitif."
+    },
+    {
+      "id": "medine-t2.l12.vocab-4#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:raqm", "w:hatif", "w:amal", "w:jar"]
+    },
+    { "id": "medine-t2.l12.vocab-4#9", "type": "build", "item": "w:hatif", "extra": ["ط"] },
+    {
+      "id": "medine-t2.l12.vocab-4#10",
+      "type": "order",
+      "fr": "Quel est le numéro de téléphone de l'université ?",
+      "answers": [["مَا", "رَقْمُ", "هَاتِفِ", "الْجَامِعَةِ"]],
+      "punctuation": "؟",
+      "explain": "Une annexion à trois noms : {ar|رَقْمُ هَاتِفِ الْجَامِعَةِ}."
+    },
+    {
+      "id": "medine-t2.l12.vocab-4#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Quel est ton numéro de téléphone ? (à un homme)",
+      "answers": ["مَا رَقْمُ هَاتِفِكَ؟"],
+      "explain": "{ar|هَاتِفِكَ} : {ar|هَاتِفٌ} + le pronom {ar|كَ}."
+    }
+  ]
+}

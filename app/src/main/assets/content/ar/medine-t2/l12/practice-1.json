@@ -1,0 +1,100 @@
+{
+  "id": "medine-t2.l12.practice-1",
+  "type": "vocabulary",
+  "title": "Exercice 1 : corrige d'après le texte",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l12.practice-1#1",
+      "type": "fill_gap",
+      "sentence": "تَبْحَثُ أُمُّ أَحْمَدَ عَنِ {0}.",
+      "fr": "Umm Aḥmad cherche le médicament.",
+      "gaps": [ { "answers": ["الدَّوَاءِ"] } ],
+      "options": ["الدَّوَاءِ", "الْمِفْتَاحِ", "الْمَجَلَّةِ"],
+      "instruction": "Le livre dit : « Umm Aḥmad cherche la clé ». Corrige la phrase d'après le texte.",
+      "context": { "dialogue": "medine-t2.l12.dialogue-1#1" },
+      "explain": "{ar|أَبْحَثُ عَنِ الدَّوَاءِ} : elle cherche le médicament, pas la clé."
+    },
+    {
+      "id": "medine-t2.l12.practice-1#2",
+      "type": "fill_gap",
+      "sentence": "سَتَذْهَبُ أُمُّ أَحْمَدَ إِلَى الْمُسْتَشْفَى مَعَ {0}.",
+      "fr": "Umm Aḥmad ira à l'hôpital avec Aḥmad.",
+      "gaps": [ { "answers": ["أَحْمَدَ"] } ],
+      "options": ["أَحْمَدَ", "زَوْجِهَا", "أَبِيهَا"],
+      "instruction": "Le livre dit : « Umm Aḥmad ira à l'hôpital avec son mari ». Corrige la phrase d'après le texte.",
+      "context": { "dialogue": "medine-t2.l12.dialogue-1#1" },
+      "explain": "{ar|سَأَذْهَبُ مَعَ أَحْمَدَ} : elle ira avec Aḥmad."
+    },
+    {
+      "id": "medine-t2.l12.practice-1#3",
+      "type": "true_false",
+      "statement": {
+        "ar": "أُمُّ أَحْمَدَ لَا تَعْرِفُ الدُّكْتُورَةَ سُعَادَ.",
+        "fr": "Umm Aḥmad ne connaît pas la doctoresse Suʿād."
+      },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l12.dialogue-1#1" },
+      "explain": "Faux : {ar|أَعْرِفُهَا. اِسْمُهَا الدُّكْتُورَةُ سُعَادُ}. Elle la connaît."
+    },
+    {
+      "id": "medine-t2.l12.practice-1#4",
+      "type": "order",
+      "fr": "Aḥmad mémorise la sourate al-Mulk.",
+      "answers": [["أَحْمَدُ", "يَحْفَظُ", "سُورَةَ", "الْمُلْكِ"], ["يَحْفَظُ", "أَحْمَدُ", "سُورَةَ", "الْمُلْكِ"]],
+      "punctuation": ".",
+      "explain": "Le livre disait l'inverse : Aḥmad mémorise {ar|الْمُلْكِ}, et ses frères {ar|الْقَلَمِ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-1#5",
+      "type": "order",
+      "fr": "Ses frères mémorisent la sourate al-Qalam.",
+      "answers": [["إِخْوَتُهُ", "يَحْفَظُونَ", "سُورَةَ", "الْقَلَمِ"]],
+      "punctuation": ".",
+      "explain": "Après le sujet pluriel {ar|إِخْوَتُهُ}, le verbe s'accorde : {ar|يَحْفَظُونَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-1#6",
+      "type": "fill_gap",
+      "sentence": "جِيرَانُ حَامِدٍ ذَهَبُوا إِلَى {0}.",
+      "fr": "Les voisins de Ḥāmid sont allés à La Mecque.",
+      "gaps": [ { "answers": ["مَكَّةَ"] } ],
+      "options": ["مَكَّةَ", "الرِّيَاضِ", "لَنْدَنَ"],
+      "instruction": "Le livre dit : « Les voisins de Ḥāmid sont allés à Riyad ». Corrige la phrase d'après le texte.",
+      "context": { "dialogue": "medine-t2.l12.dialogue-2#1" },
+      "explain": "{ar|مَتَى يَرْجِعُ الْجِيرَانُ مِنْ مَكَّةَ؟} : les voisins sont à La Mecque."
+    },
+    {
+      "id": "medine-t2.l12.practice-1#7",
+      "type": "question",
+      "prompt": { "fr": "D'après Aḥmad, quand les voisins reviendront-ils ?" },
+      "choices": [ { "fr": "Samedi, si Allah le veut" }, { "fr": "Mardi" }, { "fr": "La semaine dernière" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l12.dialogue-2#1" },
+      "explain": "{ar|أَظُنُّ أَنَّهُمْ سَيَرْجِعُونَ يَوْمَ السَّبْتِ إِنْ شَاءَ اللَّهُ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-1#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيَّ سُورَةٍ يَحْفَظُ أَحْمَدُ؟",
+      "answers": [
+        "يَحْفَظُ سُورَةَ الْمُلْكِ.",
+        "سُورَةَ الْمُلْكِ.",
+        "يَحْفَظُ أَحْمَدُ سُورَةَ الْمُلْكِ.",
+        "أَحْمَدُ يَحْفَظُ سُورَةَ الْمُلْكِ."
+      ],
+      "fr": "Il mémorise la sourate al-Mulk.",
+      "context": { "dialogue": "medine-t2.l12.dialogue-2#1" }
+    },
+    {
+      "id": "medine-t2.l12.practice-1#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَاذَا تَفْعَلُ الْبَنَاتُ الْآنَ؟",
+      "answers": ["يَلْعَبْنَ.", "هُنَّ يَلْعَبْنَ.", "الْبَنَاتُ يَلْعَبْنَ.", "تَلْعَبُ الْبَنَاتُ.", "يَلْعَبْنَ الْآنَ."],
+      "fr": "Elles jouent.",
+      "context": { "dialogue": "medine-t2.l12.dialogue-2#1" }
+    }
+  ]
+}

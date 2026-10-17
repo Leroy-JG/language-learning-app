@@ -144,6 +144,10 @@ Exemples tirés des leçons 1 à 6 :
   `sort` « passé / présent » avec `نَزَلَ` / `يَنْزِلُ` pour montrer qu'une lettre du présent ne fait pas tout (`l11/grammar-2`) ;
   `fill_gap` à deux trous (le sujet pluriel et son verbe) dans `l11/practice-5` ; `typing` « question » qui demande de transformer une phrase (au présent, à la forme négative) dans `l11/practice-6` et `grammar-7`, en listant les deux ordres des mots.
 
+- (Tome 2, leçon 12) `sort` « variable / invariable » (`يَكْتُبْنَ` / `يَكْتُبُونَ`, cartes dont la catégorie se déduit du temps) dans `medine-t2/l12/grammar-1`, `sort` à trois catégories (nominatif / accusatif / jussif, la particule `لَنْ` / `لَمْ` livre la réponse même voyelles masquées) dans `l12/grammar-2` ;
+  `compare` de « un même verbe, trois états » (`يَدْرُسُ` → `لَنْ يَدْرُسَ` / `لَمْ يَدْرُسْ`) dans `l12/grammar-2` ; `breakdown` de `تَكْتُبُونَ` / `تَكْتُبِينَ` / `تَكْتُبَانِ` (lettre du présent, racine, pronom, `ن` final) dans `l12/grammar-4` ;
+  `question` à choix arabes pour faire lire l'analyse du professeur (`فِعْلٌ مُضَارِعٌ مَجْزُومٌ`) dans `l12/grammar-3` ; `fill_gap` du verbe avec le mot d'appel féminin / masculin comme seul indice (`l12/practice-2`, `practice-3`, `practice-5`).
+
 ### Entraîner une voyelle finale (kasra, fatha…)
 
 Le validateur refuse deux choix qui ne diffèrent que par les harakat (`الْبَيْتِ` / `الْبَيْتُ`), et le

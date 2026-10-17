@@ -1,0 +1,107 @@
+{
+  "id": "medine-t2.l12.grammar-3",
+  "type": "grammar",
+  "title": "Analyser un verbe au présent",
+  "icon": "telescope",
+  "screens": [
+    {
+      "id": "medine-t2.l12.grammar-3#1",
+      "type": "tip",
+      "title": "L'analyse du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur analyse chaque présent en trois mots : {ar|فِعْلٌ مُضَارِعٌ} (un verbe au présent) et son état : {ar|مَرْفُوعٌ}, {ar|مَنْصُوبٌ} ou {ar|مَجْزُومٌ}."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Analyse", "Pourquoi ?"],
+          "rows": [
+            [
+              "{ar|أَدْرُسُ الْعَرَبِيَّةَ}",
+              "{ar|أَدْرُسُ فِعْلٌ مُضَارِعٌ مَرْفُوعٌ}",
+              "aucune particule : la damma"
+            ],
+            ["{ar|لَنْ أَضْرِبَ زَيْدًا}", "{ar|أَضْرِبَ فِعْلٌ مُضَارِعٌ مَنْصُوبٌ}", "après {ar|لَنْ} : la fatha"],
+            [
+              "{ar|لَا تَدْرُسْ}",
+              "{ar|تَدْرُسْ فِعْلٌ مُضَارِعٌ مَجْزُومٌ}",
+              "après le {ar|لَا} de l'interdiction : le sukūn"
+            ],
+            ["{ar|لَمْ أَضْرِبْ زَيْدًا}", "{ar|أَضْرِبْ فِعْلٌ مُضَارِعٌ مَجْزُومٌ}", "après {ar|لَمْ} : le sukūn"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|مَرْفُوعٌ} : au nominatif. {ar|مَنْصُوبٌ} : à l'accusatif. {ar|مَجْزُومٌ} : au jussif. Les trois mots viennent de {ar|الرَّفْعُ}, {ar|النَّصْبُ} et {ar|الْجَزْمُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.grammar-3#2",
+      "type": "fill_gap",
+      "sentence": "لَنْ أَضْرِبَ زَيْدًا. أَضْرِبَ فِعْلٌ مُضَارِعٌ {0}.",
+      "fr": "Je ne frapperai pas Zayd. « {ar|أَضْرِبَ} » est un verbe au présent…",
+      "gaps": [ { "answers": ["مَنْصُوبٌ"] } ],
+      "options": ["مَرْفُوعٌ", "مَنْصُوبٌ", "مَجْزُومٌ"],
+      "explain": "Après {ar|لَنْ}, le verbe est à la fatha : {ar|مَنْصُوبٌ}."
+    },
+    {
+      "id": "medine-t2.l12.grammar-3#3",
+      "type": "fill_gap",
+      "sentence": "لَمْ أَضْرِبْ زَيْدًا. أَضْرِبْ فِعْلٌ مُضَارِعٌ {0}.",
+      "fr": "Je n'ai pas frappé Zayd. « {ar|أَضْرِبْ} » est un verbe au présent…",
+      "gaps": [ { "answers": ["مَجْزُومٌ"] } ],
+      "options": ["مَرْفُوعٌ", "مَنْصُوبٌ", "مَجْزُومٌ"],
+      "explain": "Après {ar|لَمْ}, le verbe est au sukūn : {ar|مَجْزُومٌ}."
+    },
+    {
+      "id": "medine-t2.l12.grammar-3#4",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أَدْرُسُ الْعَرَبِيَّةَ}, pourquoi le verbe est-il au nominatif ({ar|مَرْفُوعٌ}) ?" },
+      "choices": [
+        { "fr": "Aucune particule ne le précède : il garde la damma" },
+        { "fr": "Il est précédé de {ar|لَنْ}" },
+        { "fr": "Il est précédé de {ar|لَمْ}" }
+      ],
+      "answer": 0,
+      "explain": "Sans particule, le présent garde sa marque de base : la damma."
+    },
+    {
+      "id": "medine-t2.l12.grammar-3#5",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|لَا تَدْرُسُ} (« tu n'étudies pas »), le verbe est au jussif ({ar|مَجْزُومٌ})." },
+      "answer": false,
+      "explain": "Non : avec la damma, le verbe est au nominatif ({ar|مَرْفُوعٌ}). Seul {ar|لَا تَدْرُسْ} (avec un sukūn : « n'étudie pas ! ») est au jussif."
+    },
+    {
+      "id": "medine-t2.l12.grammar-3#6",
+      "type": "question",
+      "prompt": { "fr": "Comment le professeur analyse-t-il {ar|تَدْرُسْ} dans {ar|لَا تَدْرُسْ} (« n'étudie pas ! ») ?" },
+      "choices": [
+        { "ar": "فِعْلٌ مُضَارِعٌ مَجْزُومٌ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَنْصُوبٌ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَرْفُوعٌ" }
+      ],
+      "answer": 0,
+      "explain": "Le sukūn est la marque du jussif : {ar|مَجْزُومٌ}."
+    },
+    {
+      "id": "medine-t2.l12.grammar-3#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "N'étudie pas !",
+      "answers": ["لَا تَدْرُسْ."],
+      "explain": "Le {ar|لَا} de l'interdiction et un sukūn sur le verbe."
+    },
+    {
+      "id": "medine-t2.l12.grammar-3#8",
+      "type": "order",
+      "fr": "Zayd n'a pas frappé Ḥāmid.",
+      "answers": [["لَمْ", "يَضْرِبْ", "زَيْدٌ", "حَامِدًا"], ["زَيْدٌ", "لَمْ", "يَضْرِبْ", "حَامِدًا"]],
+      "punctuation": ".",
+      "distractors": ["لَنْ"],
+      "explain": "{ar|لَمْ يَضْرِبْ} : la négation du passé, le verbe au sukūn. {ar|حَامِدًا} est le complément (accusatif)."
+    }
+  ]
+}

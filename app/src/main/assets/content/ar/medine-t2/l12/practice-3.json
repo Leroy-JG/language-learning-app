@@ -1,0 +1,144 @@
+{
+  "id": "medine-t2.l12.practice-3",
+  "type": "vocabulary",
+  "title": "Exercice 3 : au féminin pluriel",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l12.practice-3#1",
+      "type": "tip",
+      "title": "Mettre « vous » au féminin pluriel",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 3 passe de plusieurs hommes à plusieurs femmes : {ar|ونَ} est remplacé par le pronom {ar|نَ}, avec un sukūn sur la lettre qui précède."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَيْنَ تَذْهَبُونَ يَا إِخْوَانُ؟", "fr": "Où allez-vous, frères ?" },
+              "to": { "ar": "أَيْنَ تَذْهَبْنَ يَا أَخَوَاتُ؟", "fr": "Où allez-vous, sœurs ?" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|إِخْوَانٌ} est un autre pluriel de {ar|أَخٌ} (« frère »), à côté de {ar|إِخْوَةٌ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l12.practice-3#2",
+      "type": "fill_gap",
+      "sentence": "{0} رَقْمَ هَاتِفِ الْجَامِعَةِ يَا أَخَوَاتُ؟",
+      "fr": "Connaissez-vous le numéro de téléphone de l'université, mes sœurs ?",
+      "gaps": [ { "answers": ["أَتَعْرِفْنَ"] } ],
+      "options": ["أَتَعْرِفْنَ", "أَتَعْرِفُونَ", "أَتَعْرِفِينَ"],
+      "explain": "« Mes sœurs » : le pronom {ar|نَ} : {ar|أَتَعْرِفْنَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "لِمَ {0} يَا بَنَاتُ؟",
+      "fr": "Pourquoi riez-vous, les filles ?",
+      "gaps": [ { "answers": ["تَضْحَكْنَ"] } ],
+      "options": ["تَضْحَكْنَ", "تَضْحَكُونَ", "تَضْحَكِينَ"],
+      "explain": "{ar|لِمَ} veut dire « pourquoi » ({ar|لِ} + {ar|مَا}). Les filles : {ar|تَضْحَكْنَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-3#4",
+      "type": "sort",
+      "categories": [ { "fr": "plusieurs hommes" }, { "fr": "plusieurs femmes" } ],
+      "cards": [
+        { "ar": "تَشْرَبُونَ", "category": 0 },
+        { "ar": "تَشْرَبْنَ", "category": 1 },
+        { "ar": "تَقْرَأُونَ", "category": 0 },
+        { "ar": "تَقْرَأْنَ", "category": 1 },
+        { "ar": "تَلْعَبُونَ", "category": 0 },
+        { "ar": "تَلْعَبْنَ", "category": 1 }
+      ],
+      "instruction": "Plusieurs hommes ou plusieurs femmes ?",
+      "explain": "Le {ar|و} du groupe : des hommes. Le {ar|نَ} avec un sukūn : des femmes."
+    },
+    {
+      "id": "medine-t2.l12.practice-3#5",
+      "type": "fill_gap",
+      "sentence": "{0} الْقُرْآنَ كُلَّ صَبَاحٍ يَا أَخَوَاتُ؟",
+      "fr": "Lisez-vous le Coran chaque matin, mes sœurs ?",
+      "gaps": [ { "answers": ["أَتَقْرَأْنَ"] } ],
+      "options": ["أَتَقْرَأْنَ", "أَتَقْرَأُونَ", "أَتَقْرَئِينَ"],
+      "explain": "« Mes sœurs » : {ar|أَتَقْرَأْنَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-3#6",
+      "type": "question",
+      "prompt": { "fr": "Mets au féminin pluriel : {ar|أَيْنَ تَسْكُنُونَ يَا رِجَالُ؟}" },
+      "choices": [
+        { "ar": "أَيْنَ تَسْكُنَّ يَا نِسَاءُ؟" },
+        { "ar": "أَيْنَ تَسْكُنُونَ يَا نِسَاءُ؟" },
+        { "ar": "أَيْنَ تَسْكُنِينَ يَا نِسَاءُ؟" }
+      ],
+      "answer": 0,
+      "explain": "{ar|تَسْكُنَّ} = {ar|تَسْكُنْ} + {ar|نَ} : le {ar|ن} de la racine {ar|س}-{ar|ك}-{ar|ن} et le pronom {ar|نَ} se fondent en un seul {ar|نّ} avec une shadda."
+    },
+    {
+      "id": "medine-t2.l12.practice-3#7",
+      "type": "fill_gap",
+      "sentence": "آلْقَهْوَةَ {0} أَمِ الشَّايَ يَا أَخَوَاتُ؟",
+      "fr": "Buvez-vous du café ou du thé, mes sœurs ?",
+      "gaps": [ { "answers": ["تَشْرَبْنَ"] } ],
+      "options": ["تَشْرَبْنَ", "تَشْرَبُونَ", "تَشْرَبِينَ"],
+      "explain": "« Mes sœurs » : {ar|تَشْرَبْنَ}. {ar|آلْقَهْوَةَ} : la question avec {ar|أَ} (qui se lit {ar|أَ} + {ar|الْ}) ; {ar|أَمِ} : la kasra vient de la rencontre avec l'article."
+    },
+    {
+      "id": "medine-t2.l12.practice-3#8",
+      "type": "true_false",
+      "statement": { "fr": "{ar|تَذْهَبُونَ} devient {ar|تَذْهَبْنَ} pour des femmes : le {ar|ونَ} est remplacé par {ar|نَ}." },
+      "answer": true,
+      "explain": "Oui, et la lettre qui précède prend un sukūn."
+    },
+    {
+      "id": "medine-t2.l12.practice-3#9",
+      "type": "fill_gap",
+      "sentence": "{0} الْأَخْبَارَ مِنَ الْإِذَاعَةِ كُلَّ يَوْمٍ؟",
+      "fr": "Écoutez-vous les nouvelles à la radio chaque jour, mes sœurs ?",
+      "gaps": [ { "answers": ["أَتَسْمَعْنَ"] } ],
+      "options": ["أَتَسْمَعْنَ", "أَتَسْمَعُونَ", "أَتَسْمَعِينَ"],
+      "explain": "« Mes sœurs » : {ar|أَتَسْمَعْنَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-3#10",
+      "type": "order",
+      "fr": "Pourquoi êtes-vous assises ici, mesdames ?",
+      "answers": [["لِمَ", "تَجْلِسْنَ", "هُنَا", "يَا", "نِسَاءُ"]],
+      "punctuation": "؟",
+      "explain": "{ar|نِسَاءٌ} : des femmes (pluriel de {ar|اِمْرَأَةٌ})."
+    },
+    {
+      "id": "medine-t2.l12.practice-3#11",
+      "type": "fill_gap",
+      "sentence": "مَعَ مَنْ {0} يَا بَنَاتِي؟",
+      "fr": "Avec qui jouez-vous, mes filles ?",
+      "gaps": [ { "answers": ["تَلْعَبْنَ"] } ],
+      "options": ["تَلْعَبْنَ", "تَلْعَبُونَ", "تَلْعَبِينَ"],
+      "explain": "« Mes filles » : {ar|تَلْعَبْنَ}."
+    },
+    {
+      "id": "medine-t2.l12.practice-3#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Que faites-vous, mes filles ?",
+      "answers": ["مَاذَا تَفْعَلْنَ يَا بَنَاتِي؟", "مَاذَا تَفْعَلْنَ؟"],
+      "explain": "{ar|تَفْعَلْنَ} : le présent de {ar|فَعَلَ} pour plusieurs femmes."
+    },
+    {
+      "id": "medine-t2.l12.practice-3#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Comprenez-vous bien les leçons, mes sœurs ?",
+      "answers": ["أَتَفْهَمْنَ الدُّرُوسَ جَيِّدًا يَا أَخَوَاتُ؟", "أَتَفْهَمْنَ الدُّرُوسَ جَيِّدًا؟"],
+      "explain": "{ar|أَتَفْهَمْنَ} : {ar|أَ} de la question + {ar|تَفْهَمْنَ}."
+    }
+  ]
+}
