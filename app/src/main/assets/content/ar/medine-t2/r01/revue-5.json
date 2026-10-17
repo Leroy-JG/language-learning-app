@@ -1,0 +1,121 @@
+{
+  "id": "medine-t2.r01.revue-5",
+  "type": "review",
+  "title": "Conjuguer aux trois états",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-5#1",
+      "type": "tip",
+      "title": "Le tableau de {ar|كَتَبَ} : sept formes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici le présent de {ar|كَتَبَ} aux trois états, pour les sept formes qui n'ont pas été détaillées dans « Les cinq verbes ». Les cinq premières ont la marque de base ; les deux dernières ne changent jamais."
+        },
+        {
+          "type": "table",
+          "header": ["Sujet", "Nominatif", "Après {ar|لَنْ}", "Après {ar|لَمْ}"],
+          "rows": [
+            ["{ar|أَنَا} (je)", "{ar|أَكْتُبُ}", "{ar|لَنْ أَكْتُبَ}", "{ar|لَمْ أَكْتُبْ}"],
+            ["{ar|نَحْنُ} (nous)", "{ar|نَكْتُبُ}", "{ar|لَنْ نَكْتُبَ}", "{ar|لَمْ نَكْتُبْ}"],
+            ["{ar|أَنْتَ} (toi, un homme)", "{ar|تَكْتُبُ}", "{ar|لَنْ تَكْتُبَ}", "{ar|لَمْ تَكْتُبْ}"],
+            ["{ar|هُوَ} (il)", "{ar|يَكْتُبُ}", "{ar|لَنْ يَكْتُبَ}", "{ar|لَمْ يَكْتُبْ}"],
+            ["{ar|هِيَ} (elle)", "{ar|تَكْتُبُ}", "{ar|لَنْ تَكْتُبَ}", "{ar|لَمْ تَكْتُبْ}"],
+            ["{ar|أَنْتُنَّ} (vous, des femmes)", "{ar|تَكْتُبْنَ}", "{ar|لَنْ تَكْتُبْنَ}", "{ar|لَمْ تَكْتُبْنَ}"],
+            ["{ar|هُنَّ} (elles)", "{ar|يَكْتُبْنَ}", "{ar|لَنْ يَكْتُبْنَ}", "{ar|لَمْ يَكْتُبْنَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les formes de {ar|أَنْتِ}, {ar|أَنْتُمَا}, {ar|هُمَا}, {ar|أَنْتُمْ} et {ar|هُمْ} sont celles des cinq verbes (voir « Les cinq verbes »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-5#2",
+      "type": "sort",
+      "categories": [ { "fr": "apparent ({ar|بَارِزٌ})" }, { "fr": "caché ({ar|مُسْتَتِرٌ})" } ],
+      "cards": [
+        { "ar": "أَفْتَحُ", "category": 1 },
+        { "ar": "تَسْمَعِينَ", "category": 0 },
+        { "ar": "يَجْلِسَانِ", "category": 0 },
+        { "ar": "نَذْهَبُ", "category": 1 },
+        { "ar": "يَدْرُسْنَ", "category": 0 },
+        { "ar": "تَشْرَبُ", "category": 1 }
+      ],
+      "instruction": "Le pronom sujet est-il apparent ou caché ?",
+      "explain": "Pour « je », « nous », « toi » (un homme), « il » et « elle », le pronom sujet est caché. Il est écrit pour « toi » (une femme) : {ar|ي} ; pour deux personnes : {ar|ا} ; pour plusieurs hommes : {ar|و} ; pour plusieurs femmes : {ar|نَ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-5#3",
+      "type": "sort",
+      "categories": [
+        { "fr": "le {ar|ن} reste (marque du nominatif)" },
+        { "fr": "le {ar|ن} tombe" },
+        { "fr": "le {ar|ن} est un pronom : il ne bouge jamais" }
+      ],
+      "cards": [
+        { "ar": "هُمْ يَكْتُبُونَ", "category": 0 },
+        { "ar": "لَنْ يَكْتُبُوا", "category": 1 },
+        { "ar": "هُنَّ يَكْتُبْنَ", "category": 2 },
+        { "ar": "أَنْتِ تَجْلِسِينَ", "category": 0 },
+        { "ar": "لَمْ تَجْلِسِي", "category": 1 },
+        { "ar": "لَمْ تَجْلِسْنَ", "category": 2 }
+      ],
+      "instruction": "Que devient le {ar|ن} ?",
+      "explain": "Sans particule, les cinq verbes gardent leur {ar|ن}. Après {ar|لَنْ} ou {ar|لَمْ}, il tombe. Le {ar|نَ} des femmes ({ar|يَكْتُبْنَ}, {ar|لَمْ تَجْلِسْنَ}) est un pronom : il reste."
+    },
+    {
+      "id": "medine-t2.r01.revue-5#4",
+      "type": "fill_gap",
+      "sentence": "أَنْتِ لَمْ {0} وَهُمْ لَنْ {1} هُنَا.",
+      "fr": "Toi, tu ne t'es pas assise, et eux ne s'assiéront pas ici.",
+      "gaps": [ { "answers": ["تَجْلِسِي"] }, { "answers": ["يَجْلِسُوا"] } ],
+      "options": ["تَجْلِسِي", "تَجْلِسِينَ", "يَجْلِسُوا", "يَجْلِسُونَ"],
+      "explain": "Après {ar|لَمْ} et {ar|لَنْ}, le {ar|ن} des cinq verbes tombe : {ar|تَجْلِسِي} (« toi », une femme), {ar|يَجْلِسُوا} (« eux »)."
+    },
+    {
+      "id": "medine-t2.r01.revue-5#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous n'écrirons pas.",
+      "answers": ["لَنْ نَكْتُبَ.", "نَحْنُ لَنْ نَكْتُبَ."],
+      "explain": "{ar|لَنْ} + le présent à la fatha : {ar|لَنْ نَكْتُبَ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-5#6",
+      "type": "fill_gap",
+      "sentence": "أَنْتُنَّ لَنْ {0} إِلَى السُّوقِ.",
+      "fr": "Vous (plusieurs femmes), vous n'irez pas au marché.",
+      "gaps": [ { "answers": ["تَذْهَبْنَ"] } ],
+      "options": ["تَذْهَبْنَ", "تَذْهَبُوا", "تَذْهَبِي"],
+      "explain": "Le {ar|نَ} des femmes est un pronom : il ne tombe pas, même après {ar|لَنْ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-5#7",
+      "type": "order",
+      "fr": "Nous n'avons pas écrit de lettre.",
+      "answers": [["نَحْنُ", "لَمْ", "نَكْتُبْ", "رِسَالَةً"]],
+      "punctuation": ".",
+      "distractors": ["لَنْ"],
+      "explain": "{ar|لَمْ} + le présent au sukūn : {ar|لَمْ نَكْتُبْ}. La lettre est le complément d'objet : {ar|رِسَالَةً} (accusatif)."
+    },
+    {
+      "id": "medine-t2.r01.revue-5#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles n'ont pas écrit.",
+      "answers": ["لَمْ يَكْتُبْنَ.", "هُنَّ لَمْ يَكْتُبْنَ."],
+      "explain": "Le {ar|نَ} est un pronom : {ar|يَكْتُبْنَ} ne change pas après {ar|لَمْ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-5#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il n'écrira pas de lettre.",
+      "answers": ["لَنْ يَكْتُبَ رِسَالَةً.", "هُوَ لَنْ يَكْتُبَ رِسَالَةً."],
+      "explain": "{ar|لَنْ يَكْتُبَ} : la fatha. {ar|رِسَالَةً} : le complément d'objet."
+    }
+  ]
+}

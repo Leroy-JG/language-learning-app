@@ -153,6 +153,11 @@ Exemples tirés des leçons 1 à 6 :
   `breakdown` du sujet visible ou caché (`يَذْهَبُونَ`, `يَذْهَبْنَ`) et `sort` « le `ن` : marque du nominatif ou pronom » dans `l13/practice-4` ; `sort` « sujet avant / après le verbe » (accord du verbe) dans `l13/practice-3` ;
   `fill_gap` dont les trois options sont le même verbe à trois personnes (le sujet ou le mot d'appel est le seul indice) dans `l13/practice-1` et `practice-2`, et pour les verbes défectueux au jussif (`يَمْشِ` / `يَمْشِي` / `يَمْشُونَ`, options qui diffèrent par une lettre et non par les harakat seuls) dans `l13/grammar-5`.
 
+- (Tome 2, révision 1) `sort` « variable / invariable » appliqué d'abord aux noms puis aux verbes (`دَخَلْتُ`, `تَشْرَبْنَ`, `أَفْتَحُ`…), « marque de base / secondaire » et « le `ن` reste / tombe / est un pronom » (`medine-t2/r01/revue-2`, `revue-5`) ;
+  `sort` à trois catégories « raison de l'accusatif » en deux découpages qui couvrent les cinq raisons (`r01/grammar-1`), et « sujet de `إِنَّ` / prédicat de `كَانَ` / complément d'objet » dans le bilan ;
+  `question` à choix arabes pour faire lire l'analyse du professeur (`اِسْمُ إِنَّ مَنْصُوبٌ`, `خَبَرُ لَيْسَ مَنْصُوبٌ`, `مَفْعُولٌ بِهِ مَنْصُوبٌ`) ;
+  `fill_gap` à réponses multiples (`لَيْسَ زَيْدٌ طَالِبًا` ou `بِطَالِبٍ`) ; `memory` des trois noms de familles de nombres (`r01/grammar-2`) ; tableaux de référence repris du professeur (douze pronoms collés avec `ضَرَبَ`, `يُحِبُّ`, `يُسَاعِدُ`, `إِنَّ`, `لَعَلَّ`).
+
 ### Entraîner une voyelle finale (kasra, fatha…)
 
 Le validateur refuse deux choix qui ne diffèrent que par les harakat (`الْبَيْتِ` / `الْبَيْتُ`), et le

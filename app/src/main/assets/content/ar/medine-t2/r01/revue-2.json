@@ -1,0 +1,130 @@
+{
+  "id": "medine-t2.r01.revue-2",
+  "type": "review",
+  "title": "Le présent : la règle et ses exceptions",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-2#1",
+      "type": "tip",
+      "title": "Le plan du présent variable",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au présent, un verbe variable a trois états, comme le nom a trois cas : le nominatif ({ar|الرَّفْعُ}), l'accusatif ({ar|النَّصْبُ}) et le jussif ({ar|الْجَزْمُ}). Leur **marque de base** ({ar|الْإِعْرَابُ الْأَصْلِيُّ}) est une voyelle ou un sukūn."
+        },
+        {
+          "type": "table",
+          "header": ["État", "Marque de base", "Exemple"],
+          "rows": [
+            ["{ar|الرَّفْعُ} (nominatif)", "la damma", "{ar|يَكْتُبُ}"],
+            ["{ar|النَّصْبُ} (accusatif)", "la fatha", "{ar|لَنْ يَكْتُبَ}"],
+            ["{ar|الْجَزْمُ} (jussif)", "le sukūn", "{ar|لَمْ يَكْتُبْ}"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le professeur dit que cette règle a **deux exceptions**. Ces verbes ont une **marque secondaire** ({ar|الْإِعْرَابُ الْفَرْعِيُّ})."
+        },
+        {
+          "type": "table",
+          "header": ["Exception", "Quand ?", "Exemples"],
+          "rows": [
+            [
+              "{ar|الْأَفْعَالُ الْخَمْسَةُ}",
+              "le sujet est le {ar|ي} de « toi » (une femme), l'{ar|ا} des deux ou le {ar|و} du groupe",
+              "{ar|تَكْتُبِينَ ، يَكْتُبَانِ ، يَكْتُبُونَ}"
+            ],
+            [
+              "{ar|الْفِعْلُ الْمُعْتَلُّ الْآخِرِ}",
+              "le verbe se termine par {ar|و}, {ar|ي} ou {ar|ى}",
+              "{ar|يَدْعُو ، يَمْشِي ، يَسْعَى}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le verbe qui se termine par le {ar|نَ} des femmes ({ar|يَكْتُبْنَ}) n'est pas dans ce plan : il est invariable."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-2#2",
+      "type": "sort",
+      "categories": [ { "fr": "marque de base" }, { "fr": "marque secondaire" } ],
+      "cards": [
+        { "ar": "يَكْتُبُ", "category": 0 },
+        { "ar": "تَكْتُبِينَ", "category": 1 },
+        { "ar": "يَسْعَى", "category": 1 },
+        { "ar": "لَمْ يَكْتُبْ", "category": 0 },
+        { "ar": "يَذْهَبَانِ", "category": 1 },
+        { "ar": "لَنْ نَذْهَبَ", "category": 0 }
+      ],
+      "instruction": "La marque du cas de ce verbe est-elle de base ou secondaire ?",
+      "explain": "Les trois marques de base sont la damma, la fatha et le sukūn ({ar|يَكْتُبُ}, {ar|لَنْ نَذْهَبَ}, {ar|لَمْ يَكْتُبْ}). {ar|تَكْتُبِينَ} et {ar|يَذْهَبَانِ} gardent un {ar|ن} (les cinq verbes) ; {ar|يَسْعَى} se termine par une lettre défectueuse."
+    },
+    {
+      "id": "medine-t2.r01.revue-2#3",
+      "type": "spot",
+      "instruction": "Touche le verbe à finale défectueuse.",
+      "words": ["زَيْدٌ", "يَسْعَى", "وَعَلِيٌّ", "يَجْلِسُ"],
+      "answers": [1],
+      "fr": "Zayd s'efforce et ʿAlī s'assoit.",
+      "explain": "{ar|يَسْعَى} se termine par {ar|ى} : c'est un verbe à finale défectueuse. {ar|يَجْلِسُ} garde la damma."
+    },
+    {
+      "id": "medine-t2.r01.revue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la marque du jussif d'un verbe comme {ar|يَسْعَى} ?" },
+      "choices": [
+        { "fr": "la chute de la lettre défectueuse : {ar|لَمْ يَسْعَ}" },
+        { "fr": "le sukūn sur la dernière lettre" },
+        { "fr": "la chute du {ar|ن}" }
+      ],
+      "answer": 0,
+      "explain": "Au jussif, la lettre défectueuse tombe ({ar|حَذْفُ حَرْفِ الْعِلَّةِ}). La chute du {ar|ن} est la marque des cinq verbes."
+    },
+    {
+      "id": "medine-t2.r01.revue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Pour les cinq verbes, la marque de l'accusatif est la fatha." },
+      "answer": false,
+      "explain": "Faux : c'est la chute du {ar|ن} ({ar|لَنْ يَكْتُبُوا}). La fatha est la marque de base, celle des autres verbes ({ar|لَنْ يَكْتُبَ})."
+    },
+    {
+      "id": "medine-t2.r01.revue-2#6",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif ({ar|رَفْعٌ})" }, { "fr": "accusatif ({ar|نَصْبٌ})" }, { "fr": "jussif ({ar|جَزْمٌ})" } ],
+      "cards": [
+        { "ar": "هُمْ يَدْرُسُونَ", "category": 0 },
+        { "ar": "لَنْ يَدْرُسُوا", "category": 1 },
+        { "ar": "لَمْ يَدْرُسُوا", "category": 2 },
+        { "ar": "زَيْدٌ يَمْشِي", "category": 0 },
+        { "ar": "لَنْ يَمْشِيَ", "category": 1 },
+        { "ar": "لَمْ يَمْشِ", "category": 2 }
+      ],
+      "instruction": "Quel est l'état du verbe ?",
+      "explain": "Sans particule : {ar|رَفْعٌ}. Après {ar|لَنْ} : {ar|نَصْبٌ}. Après {ar|لَمْ} : {ar|جَزْمٌ}. Les deux marques changent (chute du {ar|ن}, chute de la lettre défectueuse), mais la particule donne l'état."
+    },
+    {
+      "id": "medine-t2.r01.revue-2#7",
+      "type": "question",
+      "prompt": { "fr": "Comment le professeur analyse-t-il {ar|يَمْشِ} dans {ar|لَمْ يَمْشِ زَيْدٌ} ?" },
+      "choices": [
+        { "ar": "فِعْلٌ مُضَارِعٌ مَجْزُومٌ وَعَلَامَةُ جَزْمِهِ حَذْفُ حَرْفِ الْعِلَّةِ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَجْزُومٌ وَعَلَامَةُ جَزْمِهِ حَذْفُ النُّونِ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ الْفَتْحَةُ" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|لَمْ}, le verbe est au jussif ; sa marque est la chute de la lettre défectueuse (le {ar|ي}). La chute du {ar|ن} est celle des cinq verbes."
+    },
+    {
+      "id": "medine-t2.r01.revue-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd ne s'efforcera pas.",
+      "answers": ["لَنْ يَسْعَى زَيْدٌ.", "زَيْدٌ لَنْ يَسْعَى."],
+      "explain": "{ar|لَنْ} + {ar|يَسْعَى} : la fatha reste cachée sur le {ar|ى}."
+    }
+  ]
+}

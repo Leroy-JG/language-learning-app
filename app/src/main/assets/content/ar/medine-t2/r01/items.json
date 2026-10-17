@@ -1,0 +1,41 @@
+[
+  {
+    "id": "w:adad-mudaf",
+    "kind": "word",
+    "ar": "الْعَدَدُ الْمُضَافُ",
+    "fr": "le nombre annexé",
+    "translit": "al-ʿadadu l-muḍāfu",
+    "gender": "m",
+    "note": "C'est le nombre de 3 à 10, ou cent et mille. Il est le premier terme d'une annexion ({ar|مُضَافٌ}) : le dénombré est le second ({ar|مُضَافٌ إِلَيْهِ}). De 3 à 10, le dénombré est au pluriel ({ar|ثَلَاثَةُ كُتُبٍ}) ; avec cent et mille, il est au singulier ({ar|مِائَةُ كِتَابٍ}).",
+    "example": { "ar": "لِي ثَلَاثَةُ كُتُبٍ.", "fr": "J'ai trois livres." }
+  },
+  {
+    "id": "w:adad-murakkab",
+    "kind": "word",
+    "ar": "الْعَدَدُ الْمُرَكَّبُ",
+    "fr": "le nombre composé",
+    "translit": "al-ʿadadu l-murakkabu",
+    "gender": "m",
+    "note": "C'est le nombre de 11 à 19. Il se dit en deux morceaux : les unités, puis « dix » ({ar|ثَلَاثَةَ عَشَرَ}). Le mot {ar|مُرَكَّبٌ} veut dire « composé, assemblé ».",
+    "example": { "ar": "لِي ثَلَاثَةَ عَشَرَ كِتَابًا.", "fr": "J'ai treize livres." }
+  },
+  {
+    "id": "w:adad-matuf",
+    "kind": "word",
+    "ar": "الْعَدَدُ الْمَعْطُوفُ",
+    "fr": "le nombre coordonné",
+    "translit": "al-ʿadadu l-maʿṭūfu",
+    "gender": "m",
+    "note": "C'est le nombre de 20 à 99. Dans {ar|ثَلَاثَةٌ وَعِشْرُونَ}, la dizaine est reliée à l'unité par {ar|وَ} (« et ») : {ar|الْعَطْفُ} veut dire « la coordination ». Les dizaines rondes ({ar|عِشْرُونَ}, {ar|ثَلَاثُونَ}…) se disent seules, mais le professeur les range dans la même famille.",
+    "example": { "ar": "لِي ثَلَاثَةٌ وَعِشْرُونَ كِتَابًا.", "fr": "J'ai vingt-trois livres." }
+  },
+  {
+    "id": "w:saada",
+    "kind": "word",
+    "ar": "سَاعَدَ",
+    "fr": "il a aidé (aider)",
+    "translit": "sāʿada",
+    "note": "Il se construit avec un complément d'objet direct ({ar|سَاعَدَ زَيْدٌ يَاسِرًا}). Son présent est {ar|يُسَاعِدُ} (avec une damma sur la première lettre) : le professeur l'emploie dans un exercice sur les pronoms compléments.",
+    "example": { "ar": "سَاعَدَ زَيْدٌ يَاسِرًا.", "fr": "Zayd a aidé Yāsir." }
+  }
+]

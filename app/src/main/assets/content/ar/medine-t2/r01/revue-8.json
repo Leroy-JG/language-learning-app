@@ -1,0 +1,110 @@
+{
+  "id": "medine-t2.r01.revue-8",
+  "type": "review",
+  "title": "Trois familles de pronoms collés",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-8#1",
+      "type": "tip",
+      "title": "Sujet, complément, second terme",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un pronom collé a trois emplois possibles. Le professeur les range en trois familles, selon le rôle du pronom."
+        },
+        {
+          "type": "table",
+          "header": ["Famille", "Rôle du pronom", "Exemples"],
+          "rows": [
+            ["{ar|الضَّمِيرُ الْمُتَّصِلُ الْمَرْفُوعُ}", "sujet d'un verbe", "{ar|كَتَبْتُ ، كَتَبُوا ، كَتَبْنَ}"],
+            [
+              "{ar|الضَّمِيرُ الْمُتَّصِلُ الْمَنْصُوبُ}",
+              "complément d'un verbe ; sujet de {ar|إِنَّ}",
+              "{ar|ضَرَبَكَ زَيْدٌ ، إِنَّكَ}"
+            ],
+            [
+              "{ar|الضَّمِيرُ الْمُتَّصِلُ الْمَجْرُورُ}",
+              "après une préposition ; second terme d'une annexion",
+              "{ar|لَكَ ، عَلَيْكَ ، كِتَابُكَ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les pronoms de l'accusatif sont, à peu de choses près, les mêmes que ceux du génitif : {ar|كَ}, {ar|كِ}, {ar|كُمَا}, {ar|هُ}, {ar|هَا}… Les deux détails : « moi » est {ar|نِي} après un verbe et {ar|ي} après un nom ou une préposition ; et la voyelle de {ar|هُ}, {ar|هُمَا}, {ar|هُمْ}, {ar|هُنَّ} devient une kasra après une kasra ou un {ar|ي} ({ar|عَلَيْهِ}, {ar|بِهِمْ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-8#2",
+      "type": "sort",
+      "categories": [
+        { "fr": "sujet d'un verbe" },
+        { "fr": "complément d'un verbe" },
+        { "fr": "après un nom ou une préposition" }
+      ],
+      "cards": [
+        { "ar": "كَتَبْتُ الدَّرْسَ", "category": 0 },
+        { "ar": "خَرَجُوا", "category": 0 },
+        { "ar": "ضَرَبَنِي زَيْدٌ", "category": 1 },
+        { "ar": "فَتَحَهَا الْمُدِيرُ", "category": 1 },
+        { "ar": "كِتَابُكَ", "category": 2 },
+        { "ar": "عَلَيْهِ", "category": 2 }
+      ],
+      "instruction": "Quel est le rôle du pronom collé ?",
+      "explain": "Dans {ar|كَتَبْتُ} et {ar|خَرَجُوا}, le pronom ({ar|تُ}, {ar|◌ُوا}) est le sujet. Dans {ar|ضَرَبَنِي} et {ar|فَتَحَهَا}, c'est le complément. Dans {ar|كِتَابُكَ} et {ar|عَلَيْهِ}, il suit un nom ou une préposition."
+    },
+    {
+      "id": "medine-t2.r01.revue-8#3",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0}.",
+      "fr": "Je l'ai lu (le livre).",
+      "gaps": [ { "answers": ["قَرَأْتُهُ"] } ],
+      "options": ["قَرَأْتُهُ", "قَرَأْتُهَا", "قَرَأْتُكَ"],
+      "context": { "icon": "book" },
+      "explain": "{ar|كِتَابٌ} est masculin : on colle {ar|هُ}. Le {ar|تُ} est le sujet (« je »), le {ar|هُ} le complément (« le »)."
+    },
+    {
+      "id": "medine-t2.r01.revue-8#4",
+      "type": "question",
+      "prompt": { "fr": "Avec un verbe, « moi » se colle sous quelle forme ?" },
+      "choices": [ { "ar": "نِي" }, { "ar": "ي" }, { "ar": "نَا" } ],
+      "answer": 0,
+      "explain": "Après un verbe : {ar|ضَرَبَنِي}. Après un nom ou une préposition : {ar|كِتَابِي}, {ar|لِي}. {ar|نَا} veut dire « nous »."
+    },
+    {
+      "id": "medine-t2.r01.revue-8#5",
+      "type": "spot",
+      "instruction": "Touche le mot qui contient un pronom complément.",
+      "words": ["شَكَرْتُ", "الْمُدِيرَ", "وَهُوَ", "شَكَرَنِي."],
+      "answers": [3],
+      "fr": "J'ai remercié le directeur et lui, il m'a remercié.",
+      "explain": "{ar|شَكَرَنِي} se termine par {ar|نِي} : le pronom complément « me ». Dans {ar|شَكَرْتُ}, le pronom collé {ar|تُ} est le sujet."
+    },
+    {
+      "id": "medine-t2.r01.revue-8#6",
+      "type": "true_false",
+      "statement": { "fr": "Le pronom collé du nominatif peut se coller à un nom." },
+      "answer": false,
+      "explain": "Faux : il est réservé au verbe, dont il est le sujet. Collé à un nom ({ar|كِتَابُكَ}), un pronom est au génitif."
+    },
+    {
+      "id": "medine-t2.r01.revue-8#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je t'ai frappé (à un homme).",
+      "answers": ["ضَرَبْتُكَ.", "أَنَا ضَرَبْتُكَ."],
+      "explain": "{ar|ضَرَبْتُكَ} = {ar|ضَرَبَ} + {ar|تُ} (le sujet : « je ») + {ar|كَ} (le complément : « te »)."
+    },
+    {
+      "id": "medine-t2.r01.revue-8#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd l'a lu (le livre).",
+      "answers": ["قَرَأَهُ زَيْدٌ.", "زَيْدٌ قَرَأَهُ."],
+      "explain": "{ar|قَرَأَهُ} : le verbe + le complément {ar|هُ} (« le »)."
+    }
+  ]
+}

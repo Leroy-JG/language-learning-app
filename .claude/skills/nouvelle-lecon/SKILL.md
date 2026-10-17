@@ -132,6 +132,14 @@ Quand les PDF sont surtout des **rappels** avec quelques éléments nouveaux :
 - Pièges de la leçon 1 : pas de tatweel `ـ` dans un `{ar|…}` (écrire `{ar|كَ}`, `{ar|نِي}`, `{ar|◌ِي}`) ; pas de « … » dans un texte arabe ; `fill_gap` et `question` sans deux options qui ne diffèrent que par les harakat (`إِنَّكَ` / `إِنَّكِ`) ; les tests de `core` qui supposaient un seul niveau (`CourseProgressTest`) ont été corrigés : ne pas en réintroduire.
 - Un point de grammaire annoncé dans une diapositive (`كَانَ`, `لَيْسَ`, `أَظُنُّ`, nombres 11-99…) mais pas encore enseigné se cite en **aperçu** (tableau, note), sans carte ni exercice.
 
+## 2 sexies. Révision du tome 2 (`medine-t2/r01`, « Révision 1 », placée après la leçon 13)
+
+- Dossier `rNN` de `medine-t2`, `"label": "Révision N"`, `number` = celui de la dernière leçon ; ajouter `"rNN"` à `medine-t2/level.json`. Script : `import generateur_contenu as g`, puis `g.CH = "medine-t2.r01"` et `g.OUT = …` (régler le **module** : les fonctions importées avec `from … import …` lisent ces variables dans le module) ; lecture : `LURATA_NIVEAU=medine-t2 python3 tools/lire_chapitre.py r01 …`.
+- Les PDF d'une semaine de révision **reprennent les diapositives des leçons** (et les exercices du livre déjà donnés aux chapitres 1 et 3 : vérifier avec `grep` et `deja_enseigne.py`). Avant d'écrire, chercher dans le contenu chaque terme du PDF : ne créer un `present` ou un `grammar` que pour ce qui est vraiment nouveau (pour `r01` : trois noms de familles de nombres, un verbe, une synthèse de l'accusatif). Le reste est en `review`.
+- Pièges du validateur rencontrés : arabe hors `{ar|…}` refusé même dans un titre, une consigne, un libellé de `compare` ; mot non vocalisé refusé dans une explication (`{ar|وا}` → `{ar|◌ُوا}`) ; deux réponses de `typing` qui ne diffèrent que par les harakat (`ثَلَاثَةً` / `ثَلَاثَةٍ`) comptent comme doublon.
+- Règle de rythme à contrôler à la main (le validateur ne la vérifie pas) : jamais trois écrans du même type d'exercice d'affilée ; finir sur une production ou un jeu.
+- **Gradle dans un conteneur neuf** : `--offline` échoue (pas de cache). Mettre dans `miroir.init.gradle` (hors du dépôt), en plus de la ligne de `CLAUDE.md`, `settingsEvaluated { settings -> settings.pluginManagement { repositories { maven { url = uri("https://maven-central.storage-download.googleapis.com/maven2") }; gradlePluginPortal() } } }`, puis `./gradlew -p core test validateContent -q -I miroir.init.gradle`.
+
 ## 3. Vérifications automatiques
 
 ```

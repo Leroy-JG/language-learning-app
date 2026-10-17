@@ -1,0 +1,118 @@
+{
+  "id": "medine-t2.r01.revue-4",
+  "type": "review",
+  "title": "Les verbes à finale défectueuse",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-4#1",
+      "type": "tip",
+      "title": "Trois lettres, trois verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un verbe dont la dernière lettre est {ar|و}, {ar|ي} ou {ar|ى} est un verbe à finale défectueuse ({ar|الْفِعْلُ الْمُعْتَلُّ الْآخِرِ}). Il ne suit pas tout à fait la règle de base."
+        },
+        {
+          "type": "table",
+          "header": ["Verbe", "Nominatif", "Après {ar|لَنْ}", "Après {ar|لَمْ}"],
+          "rows": [
+            ["{ar|يَدْعُو} (finale {ar|و})", "{ar|زَيْدٌ يَدْعُو}", "{ar|لَنْ يَدْعُوَ}", "{ar|لَمْ يَدْعُ}"],
+            ["{ar|يَمْشِي} (finale {ar|ي})", "{ar|زَيْدٌ يَمْشِي}", "{ar|لَنْ يَمْشِيَ}", "{ar|لَمْ يَمْشِ}"],
+            ["{ar|يَسْعَى} (finale {ar|ى})", "{ar|زَيْدٌ يَسْعَى}", "{ar|لَنْ يَسْعَى}", "{ar|لَمْ يَسْعَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Au nominatif, la damma existe mais elle est cachée (sous-entendue). À l'accusatif, la fatha se voit sur le {ar|و} et sur le {ar|ي} ; elle reste cachée seulement sur le {ar|ى}. Au jussif, la lettre défectueuse tombe ({ar|حَذْفُ حَرْفِ الْعِلَّةِ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-4#2",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif ({ar|رَفْعٌ})" }, { "fr": "accusatif ({ar|نَصْبٌ})" }, { "fr": "jussif ({ar|جَزْمٌ})" } ],
+      "cards": [
+        { "ar": "زَيْدٌ يَدْعُو", "category": 0 },
+        { "ar": "لَنْ يَدْعُوَ", "category": 1 },
+        { "ar": "لَمْ يَدْعُ", "category": 2 },
+        { "ar": "زَيْدٌ يَمْشِي", "category": 0 },
+        { "ar": "لَنْ يَمْشِيَ", "category": 1 },
+        { "ar": "لَمْ يَمْشِ", "category": 2 }
+      ],
+      "instruction": "Quel est l'état du verbe ?",
+      "explain": "Sans particule : {ar|رَفْعٌ}. Après {ar|لَنْ} : {ar|نَصْبٌ} (la fatha se voit). Après {ar|لَمْ} : {ar|جَزْمٌ} (la lettre tombe)."
+    },
+    {
+      "id": "medine-t2.r01.revue-4#3",
+      "type": "spot",
+      "instruction": "Touche le verbe dont la lettre défectueuse est tombée.",
+      "words": ["لَمْ", "يَمْشِ", "زَيْدٌ", "إِلَى", "الْمَدْرَسَةِ."],
+      "answers": [1],
+      "fr": "Zayd n'a pas marché jusqu'à l'école.",
+      "explain": "{ar|يَمْشِ} suit {ar|لَمْ} : le {ar|ي} de {ar|يَمْشِي} est tombé."
+    },
+    {
+      "id": "medine-t2.r01.revue-4#4",
+      "type": "question",
+      "prompt": { "fr": "Après {ar|لَنْ}, quelle voyelle voit-on à la fin de {ar|يَمْشِي} ?" },
+      "choices": [
+        { "fr": "une fatha sur le {ar|ي} : {ar|لَنْ يَمْشِيَ}" },
+        { "fr": "aucune voyelle : {ar|لَنْ يَمْشِي}" },
+        { "fr": "un sukūn : {ar|لَنْ يَمْشِ}" }
+      ],
+      "answer": 0,
+      "explain": "La fatha se voit sur le {ar|ي} (et sur le {ar|و}) ; elle reste cachée seulement sur le {ar|ى}."
+    },
+    {
+      "id": "medine-t2.r01.revue-4#5",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|لَمْ يَدْعُ}, la damma est la marque du jussif." },
+      "answer": false,
+      "explain": "Faux : la marque du jussif est la chute du {ar|و}. La damma est seulement la voyelle qui précédait cette lettre."
+    },
+    {
+      "id": "medine-t2.r01.revue-4#6",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ لَنْ {0} إِلَى الْمَسْجِدِ.",
+      "fr": "Zayd ne marchera pas jusqu'à la mosquée.",
+      "gaps": [ { "answers": ["يَمْشِيَ"] } ],
+      "options": ["يَمْشِيَ", "يَمْشِ", "يَمْشُونَ"],
+      "explain": "Après {ar|لَنْ}, le {ar|ي} reste et prend la fatha : {ar|يَمْشِيَ}. {ar|يَمْشِ} serait un jussif (après {ar|لَمْ})."
+    },
+    {
+      "id": "medine-t2.r01.revue-4#7",
+      "type": "fill_gap",
+      "sentence": "لَمْ {0} زَيْدٌ الْمُدِيرَ.",
+      "fr": "Zayd n'a pas appelé le directeur.",
+      "gaps": [ { "answers": ["يَدْعُ"] } ],
+      "options": ["يَدْعُ", "يَدْعُو", "يَدْعُونَ"],
+      "explain": "Après {ar|لَمْ}, le {ar|و} de {ar|يَدْعُو} tombe : {ar|لَمْ يَدْعُ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-4#8",
+      "type": "order",
+      "fr": "Je n'ai pas vu Zayd.",
+      "answers": [["لَمْ", "أَرَ", "زَيْدًا"]],
+      "punctuation": ".",
+      "distractors": ["لَنْ"],
+      "explain": "{ar|رَأَى} finit par {ar|ى} : après {ar|لَمْ}, il tombe et la fatha reste : {ar|لَمْ أَرَ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-4#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd n'a pas marché.",
+      "answers": ["لَمْ يَمْشِ زَيْدٌ.", "زَيْدٌ لَمْ يَمْشِ."],
+      "explain": "{ar|لَمْ} + {ar|يَمْشِي} sans son {ar|ي} : {ar|لَمْ يَمْشِ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-4#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je ne verrai pas Zayd.",
+      "answers": ["لَنْ أَرَى زَيْدًا.", "أَنَا لَنْ أَرَى زَيْدًا."],
+      "explain": "{ar|لَنْ} + {ar|أَرَى} : la fatha reste cachée sur le {ar|ى}."
+    }
+  ]
+}

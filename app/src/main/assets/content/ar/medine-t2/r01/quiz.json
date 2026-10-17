@@ -1,0 +1,170 @@
+{
+  "id": "medine-t2.r01.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre",
+  "screens": [
+    {
+      "id": "medine-t2.r01.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:adad-murakkab",
+      "distractors": ["w:adad-mudaf", "w:adad-matuf"],
+      "explain": "{ar|الْعَدَدُ الْمُرَكَّبُ} : le nombre composé (de 11 à 19). {ar|الْمُضَافُ} : annexé ; {ar|الْمَعْطُوفُ} : coordonné."
+    },
+    {
+      "id": "medine-t2.r01.quiz#2",
+      "type": "question",
+      "prompt": { "fr": "Lequel de ces verbes est invariable ?" },
+      "choices": [ { "ar": "يَكْتُبْنَ" }, { "ar": "يَكْتُبُونَ" }, { "ar": "يَكْتُبُ" } ],
+      "answer": 0,
+      "explain": "{ar|يَكْتُبْنَ} se termine par le {ar|نَ} des femmes : il est invariable. {ar|يَكْتُبُونَ} et {ar|يَكْتُبُ} sont variables."
+    },
+    {
+      "id": "medine-t2.r01.quiz#3",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif ({ar|رَفْعٌ})" }, { "fr": "accusatif ({ar|نَصْبٌ})" }, { "fr": "jussif ({ar|جَزْمٌ})" } ],
+      "cards": [
+        { "ar": "هُمْ يَجْلِسُونَ", "category": 0 },
+        { "ar": "لَنْ يَجْلِسُوا", "category": 1 },
+        { "ar": "لَمْ يَجْلِسُوا", "category": 2 },
+        { "ar": "زَيْدٌ يَدْعُو", "category": 0 },
+        { "ar": "لَنْ يَدْعُوَ", "category": 1 },
+        { "ar": "لَمْ يَدْعُ", "category": 2 }
+      ],
+      "instruction": "Quel est l'état du verbe ?",
+      "explain": "Sans particule : {ar|رَفْعٌ}. Après {ar|لَنْ} : {ar|نَصْبٌ}. Après {ar|لَمْ} : {ar|جَزْمٌ}."
+    },
+    {
+      "id": "medine-t2.r01.quiz#4",
+      "type": "fill_gap",
+      "sentence": "أَنْتِ لَنْ {0} إِلَى السُّوقِ.",
+      "fr": "Toi (une femme), tu n'iras pas au marché.",
+      "gaps": [ { "answers": ["تَذْهَبِي"] } ],
+      "options": ["تَذْهَبِي", "تَذْهَبِينَ", "تَذْهَبْنَ"],
+      "explain": "Après {ar|لَنْ}, le {ar|ن} de {ar|تَذْهَبِينَ} tombe : {ar|لَنْ تَذْهَبِي}. {ar|تَذْهَبْنَ} serait pour plusieurs femmes."
+    },
+    {
+      "id": "medine-t2.r01.quiz#5",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la marque du jussif de {ar|لَمْ يَمْشِ} ?" },
+      "choices": [
+        { "fr": "la chute de la lettre défectueuse" },
+        { "fr": "la chute du {ar|ن}" },
+        { "fr": "le sukūn sur la dernière lettre" }
+      ],
+      "answer": 0,
+      "explain": "Le {ar|ي} de {ar|يَمْشِي} tombe ({ar|حَذْفُ حَرْفِ الْعِلَّةِ}). La chute du {ar|ن} est la marque des cinq verbes."
+    },
+    {
+      "id": "medine-t2.r01.quiz#6",
+      "type": "true_false",
+      "statement": { "fr": "Un verbe au passé est toujours invariable." },
+      "answer": true,
+      "explain": "Oui : {ar|كَتَبَ}, {ar|كَتَبَتْ}, {ar|كَتَبُوا}… ne changent jamais selon la phrase."
+    },
+    {
+      "id": "medine-t2.r01.quiz#7",
+      "type": "sort",
+      "categories": [
+        { "fr": "sujet de {ar|إِنَّ} ou de ses sœurs" },
+        { "fr": "prédicat de {ar|كَانَ} ou de {ar|لَيْسَ}" },
+        { "fr": "complément d'objet" }
+      ],
+      "cards": [
+        { "ar": "لَعَلَّ الْمُدِيرَ نَاجِحٌ", "category": 0 },
+        { "ar": "كَأَنَّ زَيْدًا عَالِمٌ", "category": 0 },
+        { "ar": "لَيْسَ الْمُدِيرُ جَالِسًا", "category": 1 },
+        { "ar": "كَانَ الطَّالِبُ نَاجِحًا", "category": 1 },
+        { "ar": "شَرِبَ الْوَلَدُ الْمَاءَ", "category": 2 },
+        { "ar": "كَسَرَ زَيْدٌ النَّافِذَةَ", "category": 2 }
+      ],
+      "instruction": "Dans chaque phrase, un mot est à l'accusatif : pour quelle raison ?",
+      "explain": "{ar|الْمُدِيرَ} et {ar|زَيْدًا} suivent {ar|لَعَلَّ} et {ar|كَأَنَّ} ; {ar|جَالِسًا} et {ar|نَاجِحًا} sont les prédicats de {ar|لَيْسَ} et {ar|كَانَ} ; {ar|الْمَاءَ} et {ar|النَّافِذَةَ} sont les compléments d'objet."
+    },
+    {
+      "id": "medine-t2.r01.quiz#8",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ جَالِسًا.",
+      "fr": "Zayd n'est pas assis.",
+      "gaps": [ { "answers": ["لَيْسَ"] } ],
+      "options": ["لَيْسَ", "كَانَ", "إِنَّ"],
+      "explain": "{ar|لَيْسَ} nie la phrase. {ar|كَانَ} dirait « Zayd était assis » ; {ar|إِنَّ} mettrait {ar|زَيْدًا} à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r01.quiz#9",
+      "type": "question",
+      "prompt": { "fr": "Quel pronom collé veut dire « elles » (complément) ?" },
+      "choices": [ { "ar": "هُنَّ" }, { "ar": "هُمْ" }, { "ar": "هَا" } ],
+      "answer": 0,
+      "explain": "{ar|هُنَّ} : « elles ». {ar|هُمْ} : « eux » ; {ar|هَا} : « elle » (une seule)."
+    },
+    {
+      "id": "medine-t2.r01.quiz#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd m'aide.",
+      "answers": ["يُسَاعِدُنِي زَيْدٌ.", "زَيْدٌ يُسَاعِدُنِي."],
+      "explain": "Le verbe {ar|يُسَاعِدُ} + {ar|نِي} (« me ») : {ar|يُسَاعِدُنِي}."
+    },
+    {
+      "id": "medine-t2.r01.quiz#11",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:saada",
+      "distractors": ["w:daraba", "w:fataha"],
+      "explain": "{ar|سَاعَدَ} : il a aidé. {ar|ضَرَبَ} : il a frappé ; {ar|فَتَحَ} : il a ouvert."
+    },
+    {
+      "id": "medine-t2.r01.quiz#12",
+      "type": "sort",
+      "categories": [
+        { "fr": "annexé ({ar|الْمُضَافُ})" },
+        { "fr": "composé ({ar|الْمُرَكَّبُ})" },
+        { "fr": "coordonné ({ar|الْمَعْطُوفُ})" }
+      ],
+      "cards": [
+        { "ar": "سَبْعُ بَنَاتٍ", "category": 0 },
+        { "ar": "مِائَةُ كِتَابٍ", "category": 0 },
+        { "ar": "خَمْسَ عَشْرَةَ طَالِبَةً", "category": 1 },
+        { "ar": "أَحَدَ عَشَرَ قَلَمًا", "category": 1 },
+        { "ar": "ثَمَانٍ وَأَرْبَعُونَ سَيَّارَةً", "category": 2 },
+        { "ar": "وَاحِدٌ وَخَمْسُونَ كِتَابًا", "category": 2 }
+      ],
+      "instruction": "De quelle famille est ce nombre ?",
+      "explain": "Annexé : de 3 à 10, et cent et mille. Composé : de 11 à 19. Coordonné : de 21 à 99, avec {ar|وَ}."
+    },
+    {
+      "id": "medine-t2.r01.quiz#13",
+      "type": "fill_gap",
+      "sentence": "لِي {0} أُخْتًا.",
+      "fr": "J'ai douze sœurs.",
+      "gaps": [ { "answers": ["اِثْنَتَا عَشْرَةَ"] } ],
+      "options": ["اِثْنَتَا عَشْرَةَ", "اِثْنَا عَشَرَ", "ثَلَاثَ عَشْرَةَ"],
+      "explain": "{ar|أُخْتٌ} est féminin et « deux » s'accorde : {ar|اِثْنَتَا عَشْرَةَ}. {ar|اِثْنَا عَشَرَ} irait avec un nom masculin."
+    },
+    {
+      "id": "medine-t2.r01.quiz#14",
+      "type": "order",
+      "fr": "J'ai mille livres.",
+      "answers": [["لِي", "أَلْفُ", "كِتَابٍ"]],
+      "punctuation": ".",
+      "explain": "{ar|أَلْفُ} + un dénombré au singulier, au génitif : {ar|كِتَابٍ}."
+    },
+    {
+      "id": "medine-t2.r01.quiz#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai vingt-quatre voitures.",
+      "answers": ["لِي أَرْبَعٌ وَعِشْرُونَ سَيَّارَةً.", "عِنْدِي أَرْبَعٌ وَعِشْرُونَ سَيَّارَةً."],
+      "explain": "{ar|سَيَّارَةٌ} est féminin : {ar|أَرْبَعٌ}, sans {ar|ة}. Le dénombré est au singulier, à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r01.quiz#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Elles n'ont pas écrit de lettre.",
+      "answers": ["لَمْ يَكْتُبْنَ رِسَالَةً.", "هُنَّ لَمْ يَكْتُبْنَ رِسَالَةً."],
+      "explain": "Le {ar|نَ} des femmes est un pronom : il ne tombe pas. {ar|رِسَالَةً} : le complément d'objet."
+    }
+  ]
+}

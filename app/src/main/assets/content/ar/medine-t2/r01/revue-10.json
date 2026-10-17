@@ -1,0 +1,126 @@
+{
+  "id": "medine-t2.r01.revue-10",
+  "type": "review",
+  "title": "De 3 à 10, cent et mille",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-10#1",
+      "type": "tip",
+      "title": "Deux familles annexées",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Famille", "Le nombre", "Le dénombré"],
+          "rows": [
+            [
+              "de 3 à 10",
+              "de genre **contraire** au dénombré : {ar|ثَلَاثَةُ كُتُبٍ} (livre est masculin), {ar|ثَلَاثُ سَيَّارَاتٍ} (voiture est féminin)",
+              "au **pluriel**, au génitif"
+            ],
+            [
+              "100 et 1000",
+              "même forme au masculin et au féminin : {ar|مِائَةُ كِتَابٍ}, {ar|مِائَةُ سَيَّارَةٍ}",
+              "au **singulier**, au génitif"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans les deux cas, le nombre est le premier terme d'une annexion ({ar|مُضَافٌ}) : il n'a ni article ni tanwin. Le dénombré est le second terme ({ar|مُضَافٌ إِلَيْهِ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-10#2",
+      "type": "fill_gap",
+      "sentence": "لِي {0} أَقْلَامٍ وَ{1} سَيَّارَاتٍ.",
+      "fr": "J'ai trois stylos et cinq voitures.",
+      "gaps": [ { "answers": ["ثَلَاثَةُ"] }, { "answers": ["خَمْسُ"] } ],
+      "options": ["ثَلَاثَةُ", "ثَلَاثُ", "خَمْسُ", "خَمْسَةُ"],
+      "explain": "{ar|قَلَمٌ} est masculin : {ar|ثَلَاثَةُ}, avec {ar|ة}. {ar|سَيَّارَةٌ} est féminin : {ar|خَمْسُ}, sans {ar|ة}. Le nombre est de genre contraire."
+    },
+    {
+      "id": "medine-t2.r01.revue-10#3",
+      "type": "sort",
+      "categories": [ { "fr": "forme avec {ar|ة} (nom masculin)" }, { "fr": "forme sans {ar|ة} (nom féminin)" } ],
+      "cards": [
+        { "ar": "سَبْعَةُ رِجَالٍ", "category": 0 },
+        { "ar": "سَبْعُ نِسَاءٍ", "category": 1 },
+        { "ar": "ثَلَاثُ بَنَاتٍ", "category": 1 },
+        { "ar": "خَمْسَةُ أَوْلَادٍ", "category": 0 },
+        { "ar": "أَرْبَعُ حَقَائِبَ", "category": 1 },
+        { "ar": "عَشَرَةُ كُتُبٍ", "category": 0 }
+      ],
+      "instruction": "Quelle forme du nombre ?",
+      "explain": "De 3 à 10, le nombre est de genre contraire : « sept hommes » ({ar|رَجُلٌ} est masculin) prend {ar|سَبْعَةُ} ; « sept femmes » prend {ar|سَبْعُ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-10#4",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « mille femmes » ?" },
+      "choices": [ { "ar": "أَلْفُ اِمْرَأَةٍ" }, { "ar": "أَلْفُ نِسَاءٍ" } ],
+      "answer": 0,
+      "explain": "Après {ar|أَلْفٌ}, le dénombré est au singulier : {ar|أَلْفُ اِمْرَأَةٍ}. De 3 à 10 seulement, il est au pluriel."
+    },
+    {
+      "id": "medine-t2.r01.revue-10#5",
+      "type": "tip",
+      "title": "Le {ar|ا} muet de {ar|مِائَةٌ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans {ar|مِائَةٌ}, le {ar|ا} qui précède le {ar|ئ} ne se prononce pas : on dit « miʾa(tun) »."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "مِائَةٌ", "fr": "cent (écriture avec alif)" },
+              "to": { "ar": "مِئَةٌ", "fr": "cent (écriture sans alif, comme on le prononce)" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-10#6",
+      "type": "order",
+      "fr": "J'ai mille voitures.",
+      "answers": [["لِي", "أَلْفُ", "سَيَّارَةٍ"]],
+      "punctuation": ".",
+      "explain": "{ar|أَلْفُ} + un dénombré au singulier, au génitif : {ar|سَيَّارَةٍ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-10#7",
+      "type": "fill_gap",
+      "sentence": "لِي {0} حَقَائِبَ.",
+      "fr": "J'ai quatre sacs.",
+      "gaps": [ { "answers": ["أَرْبَعُ"] } ],
+      "options": ["أَرْبَعُ", "أَرْبَعَةُ", "مِائَةُ"],
+      "explain": "{ar|حَقِيبَةٌ} est féminin : {ar|أَرْبَعُ}, sans {ar|ة}. {ar|مِائَةُ} demanderait un dénombré au singulier."
+    },
+    {
+      "id": "medine-t2.r01.revue-10#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "trois voitures",
+      "answers": ["ثَلَاثُ سَيَّارَاتٍ"],
+      "explain": "{ar|سَيَّارَةٌ} est féminin : {ar|ثَلَاثُ}, sans {ar|ة}, puis le pluriel au génitif."
+    },
+    {
+      "id": "medine-t2.r01.revue-10#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai cent voitures.",
+      "answers": [
+        "لِي مِائَةُ سَيَّارَةٍ.",
+        "عِنْدِي مِائَةُ سَيَّارَةٍ.",
+        "لِي مِئَةُ سَيَّارَةٍ.",
+        "عِنْدِي مِئَةُ سَيَّارَةٍ."
+      ],
+      "explain": "{ar|مِائَةُ} + un dénombré au singulier, au génitif : {ar|سَيَّارَةٍ}."
+    }
+  ]
+}

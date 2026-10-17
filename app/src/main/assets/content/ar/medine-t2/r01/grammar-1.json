@@ -1,0 +1,146 @@
+{
+  "id": "medine-t2.r01.grammar-1",
+  "type": "grammar",
+  "title": "Les cinq raisons de l'accusatif",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.r01.grammar-1#1",
+      "type": "tip",
+      "title": "Le plan du professeur : l'accusatif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au chapitre 1 de ce tome, tu as vu trois emplois de l'accusatif ({ar|النَّصْبُ}). Avec ce que tu as appris depuis, le professeur en range **cinq** dans son plan de l'{ar|الْإِعْرَابُ}."
+        },
+        {
+          "type": "table",
+          "header": ["Le mot à l'accusatif est…", "Exemple", "Le mot"],
+          "rows": [
+            ["un adverbe de lieu ou de temps ({ar|الظَّرْفُ})", "{ar|فَوْقَ الْمَكْتَبِ}", "{ar|فَوْقَ}"],
+            [
+              "le sujet de {ar|إِنَّ} et de ses sœurs ({ar|اِسْمُ إِنَّ})",
+              "{ar|إِنَّ زَيْدًا جَالِسٌ}",
+              "{ar|زَيْدًا}"
+            ],
+            [
+              "le prédicat de {ar|كَانَ} et de ses sœurs ({ar|خَبَرُ كَانَ})",
+              "{ar|لَيْسَ زَيْدٌ جَالِسًا}",
+              "{ar|جَالِسًا}"
+            ],
+            [
+              "le complément d'objet direct ({ar|الْمَفْعُولُ بِهِ})",
+              "{ar|ضَرَبَ زَيْدٌ يَاسِرًا}",
+              "{ar|يَاسِرًا}"
+            ],
+            ["la précision ({ar|التَّمْيِيزُ})", "{ar|كَمْ طَالِبًا فِي الْفَصْلِ؟}", "{ar|طَالِبًا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Ces cinq emplois ne sont pas les seuls : la tradition range une quinzaine de mots parmi les accusatifs ({ar|الْمَنْصُوبَاتُ}). Tu en découvriras d'autres plus tard."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Un adverbe comme {ar|فَوْقَ} garde la fatha tant qu'aucune préposition ne le précède : {ar|فَوْقَ الْمَكْتَبِ}, mais {ar|مِنْ فَوْقِ الْمَكْتَبِ} (au génitif)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.grammar-1#2",
+      "type": "sort",
+      "categories": [
+        { "fr": "sujet de {ar|إِنَّ} ou de ses sœurs" },
+        { "fr": "prédicat de {ar|كَانَ} ou de {ar|لَيْسَ}" },
+        { "fr": "complément d'objet" }
+      ],
+      "cards": [
+        { "ar": "إِنَّ الطَّالِبَ جَدِيدٌ", "category": 0 },
+        { "ar": "لَعَلَّ زَيْدًا نَاجِحٌ", "category": 0 },
+        { "ar": "كَانَ الْمُدِيرُ جَالِسًا", "category": 1 },
+        { "ar": "لَيْسَ زَيْدٌ جَالِسًا", "category": 1 },
+        { "ar": "فَتَحَ زَيْدٌ الْبَابَ", "category": 2 },
+        { "ar": "قَرَأَ الطَّالِبُ الْكِتَابَ", "category": 2 }
+      ],
+      "instruction": "Dans chaque phrase, un mot est à l'accusatif : pour quelle raison ?",
+      "explain": "{ar|الطَّالِبَ} et {ar|زَيْدًا} suivent {ar|إِنَّ} et {ar|لَعَلَّ} ; {ar|جَالِسًا} est le prédicat de {ar|كَانَ} et {ar|لَيْسَ} ; {ar|الْبَابَ} et {ar|الْكِتَابَ} sont les compléments d'objet."
+    },
+    {
+      "id": "medine-t2.r01.grammar-1#3",
+      "type": "sort",
+      "categories": [
+        { "fr": "adverbe de lieu ({ar|فَوْقَ}, {ar|تَحْتَ})" },
+        { "fr": "précision après {ar|كَمْ}" },
+        { "fr": "complément d'objet" }
+      ],
+      "cards": [
+        { "ar": "فَوْقَ الْمَكْتَبِ", "category": 0 },
+        { "ar": "تَحْتَ السَّرِيرِ", "category": 0 },
+        { "ar": "كَمْ كِتَابًا لَكَ؟", "category": 1 },
+        { "ar": "كَمْ قَلَمًا فِي الْحَقِيبَةِ؟", "category": 1 },
+        { "ar": "شَرِبَ الْوَلَدُ الْمَاءَ", "category": 2 },
+        { "ar": "كَسَرَ زَيْدٌ النَّافِذَةَ", "category": 2 }
+      ],
+      "instruction": "Dans chaque groupe, un mot est à l'accusatif : pour quelle raison ?",
+      "explain": "{ar|فَوْقَ} et {ar|تَحْتَ} sont des adverbes de lieu ; {ar|كِتَابًا} et {ar|قَلَمًا} précisent {ar|كَمْ} ; {ar|الْمَاءَ} et {ar|النَّافِذَةَ} sont les compléments d'objet."
+    },
+    {
+      "id": "medine-t2.r01.grammar-1#4",
+      "type": "spot",
+      "instruction": "Touche le mot qui est à l'accusatif.",
+      "words": ["كَانَ", "الطَّالِبُ", "جَالِسًا", "فِي", "الْفَصْلِ."],
+      "answers": [2],
+      "fr": "L'étudiant était assis dans la classe.",
+      "explain": "{ar|جَالِسًا} est le prédicat de {ar|كَانَ} : accusatif. {ar|الطَّالِبُ} est le sujet (nominatif) et {ar|الْفَصْلِ} suit la préposition {ar|فِي} (génitif)."
+    },
+    {
+      "id": "medine-t2.r01.grammar-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Le prédicat de {ar|كَانَ} reste au nominatif, comme celui de {ar|إِنَّ}." },
+      "answer": false,
+      "explain": "Faux : avec {ar|كَانَ} et {ar|لَيْسَ}, le prédicat passe à l'accusatif ({ar|جَالِسًا}) ; c'est le sujet qui reste au nominatif."
+    },
+    {
+      "id": "medine-t2.r01.grammar-1#6",
+      "type": "question",
+      "prompt": { "fr": "Comment le professeur analyse-t-il {ar|يَاسِرًا} dans {ar|ضَرَبَ زَيْدٌ يَاسِرًا} ?" },
+      "choices": [
+        { "ar": "مَفْعُولٌ بِهِ مَنْصُوبٌ" },
+        { "ar": "خَبَرُ كَانَ مَنْصُوبٌ" },
+        { "ar": "اِسْمُ إِنَّ مَنْصُوبٌ" }
+      ],
+      "answer": 0,
+      "explain": "{ar|يَاسِرًا} subit l'action du verbe : c'est le complément d'objet direct, à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r01.grammar-1#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|كَمْ قَلَمًا فِي الْحَقِيبَةِ؟}, pourquoi {ar|قَلَمًا} est-il à l'accusatif ?" },
+      "choices": [
+        { "fr": "C'est la précision ({ar|التَّمْيِيزُ}) après {ar|كَمْ}" },
+        { "fr": "C'est le complément d'objet du verbe" },
+        { "fr": "C'est le prédicat de {ar|كَانَ}" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|كَمْ}, le nom est au singulier et à l'accusatif : c'est la précision. Il n'y a ici ni verbe ni {ar|كَانَ}."
+    },
+    {
+      "id": "medine-t2.r01.grammar-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd a frappé Yāsir.",
+      "answers": ["ضَرَبَ زَيْدٌ يَاسِرًا."],
+      "explain": "Le complément d'objet {ar|يَاسِرًا} est à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r01.grammar-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Combien de stylos y a-t-il dans le sac ?",
+      "answers": ["كَمْ قَلَمًا فِي الْحَقِيبَةِ؟"],
+      "explain": "La précision après {ar|كَمْ} : le singulier, à l'accusatif."
+    }
+  ]
+}
