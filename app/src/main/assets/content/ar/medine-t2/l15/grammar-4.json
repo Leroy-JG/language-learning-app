@@ -1,0 +1,156 @@
+{
+  "id": "medine-t2.l15.grammar-4",
+  "type": "grammar",
+  "title": "Interdire ou nier ?",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l15.grammar-4#1",
+      "type": "tip",
+      "title": "Deux « {ar|لَا} » qui s'écrivent pareil",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur insiste : {ar|لَا النَّاهِيَةُ} et {ar|لَا النَّافِيَةُ} ne se confondent pas. Chacune s'emploie dans un contexte différent, et une seule agit sur le verbe."
+        },
+        {
+          "type": "table",
+          "header": ["À comparer", "{ar|لَا النَّافِيَةُ}", "{ar|لَا النَّاهِيَةُ}"],
+          "rows": [
+            ["Sens", "elle nie seulement l'action : « ne… pas »", "elle interdit : « ne… pas ! » (un ordre)"],
+            [
+              "Le verbe",
+              "il garde sa marque de base : la damma",
+              "il est au jussif : le sukūn (ou le {ar|ن} tombe)"
+            ],
+            [
+              "Exemple",
+              "{ar|لَا تَأْكُلُ التُّفَّاحَ} (tu ne manges pas de pommes)",
+              "{ar|لَا تَأْكُلِ التُّفَّاحَ} (ne mange pas de pommes !)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le professeur le résume ainsi : {ar|لَا النَّافِيَةُ} exprime seulement la négation de l'action ; {ar|لَا النَّاهِيَةُ} exprime l'interdiction, la demande de ne pas accomplir l'action, et agit sur le verbe en le mettant au jussif."
+        }
+      ]
+    },
+    { "id": "medine-t2.l15.grammar-4#2", "type": "present", "item": "w:la-nafiya" },
+    {
+      "id": "medine-t2.l15.grammar-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:la-nafiya",
+      "distractors": ["w:la-nahiya", "w:nahiya"],
+      "explain": "{ar|لَا النَّافِيَةُ} : le {ar|لَا} de négation. {ar|لَا النَّاهِيَةُ} est celui de l'interdiction ; {ar|نَاهِيَةٌ} veut dire « qui interdit »."
+    },
+    {
+      "id": "medine-t2.l15.grammar-4#4",
+      "type": "tip",
+      "title": "Comment les reconnaître ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Regarde la fin du verbe, et le sens de la phrase. Une phrase avec {ar|لَا النَّاهِيَةُ} est un ordre ; avec {ar|لَا النَّافِيَةُ}, c'est un constat, souvent une question."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "لَا تَأْكُلُ التُّفَّاحَ", "fr": "Tu ne manges pas de pommes." },
+              "to": { "ar": "لَا تَأْكُلِ التُّفَّاحَ", "fr": "Ne mange pas de pommes !" },
+              "label": "la damma devient un sukūn (kasra devant l'article)"
+            },
+            {
+              "from": { "ar": "لَا تَذْهَبُونَ إِلَى الْمَلْعَبِ", "fr": "Vous n'allez pas au terrain de jeu." },
+              "to": { "ar": "لَا تَذْهَبُوا إِلَى الْمَلْعَبِ", "fr": "N'allez pas au terrain de jeu !" },
+              "label": "le {ar|ن} tombe"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne aussi deux questions où {ar|لَا} est un {ar|لَا النَّافِيَةُ} : le verbe garde sa damma."
+        },
+        { "type": "example", "ar": "لِمَ لَا تَأْكُلُ يَا أَخِي؟", "fr": "Pourquoi ne manges-tu pas, mon frère ?" },
+        { "type": "example", "ar": "أَلَا تَذْهَبُ إِلَى الْمَلْعَبِ؟", "fr": "Ne vas-tu pas au terrain de jeu ?" },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|أَلَا} s'écrit {ar|أَ} (le mot qui pose une question) + {ar|لَا}. Et {ar|لِمَ} veut dire « pourquoi ? »."
+        }
+      ]
+    },
+    { "id": "medine-t2.l15.grammar-4#5", "type": "present", "item": "w:lima" },
+    {
+      "id": "medine-t2.l15.grammar-4#6",
+      "type": "sort",
+      "categories": [ { "fr": "{ar|لَا النَّافِيَةُ} (elle nie)" }, { "fr": "{ar|لَا النَّاهِيَةُ} (elle interdit)" } ],
+      "cards": [
+        { "ar": "لِمَ لَا تَأْكُلُ يَا أَخِي؟", "category": 0 },
+        { "ar": "أَلَا تَذْهَبُ إِلَى الْمَلْعَبِ؟", "category": 0 },
+        { "ar": "هُوَ لَا يَشْرَبُ الْقَهْوَةَ.", "category": 0 },
+        { "ar": "لَا تَذْهَبْ إِلَى الْمَلْعَبِ!", "category": 1 },
+        { "ar": "يَا أَحْمَدُ، لَا تَأْكُلْ هٰذَا!", "category": 1 },
+        { "ar": "لَا تَضْرِبْ زَمِيلَكَ!", "category": 1 }
+      ],
+      "instruction": "Quel {ar|لَا} ?",
+      "explain": "Les questions et le constat avec {ar|هُوَ} nient seulement : {ar|لَا النَّافِيَةُ}. Les ordres avec un verbe au sukūn interdisent : {ar|لَا النَّاهِيَةُ}."
+    },
+    {
+      "id": "medine-t2.l15.grammar-4#7",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans « Pourquoi ne manges-tu pas, mon frère ? » ({ar|لِمَ لَا تَأْكُلُ يَا أَخِي؟}), de quel {ar|لَا} s'agit-il ?"
+      },
+      "choices": [
+        { "fr": "{ar|لَا النَّافِيَةُ} : elle nie, le verbe garde sa damma" },
+        { "fr": "{ar|لَا النَّاهِيَةُ} : elle interdit, le verbe est au jussif" }
+      ],
+      "answer": 0,
+      "explain": "Ce n'est pas un ordre, c'est une question : {ar|لَا} nie seulement et n'agit pas sur {ar|تَأْكُلُ}."
+    },
+    {
+      "id": "medine-t2.l15.grammar-4#8",
+      "type": "true_false",
+      "statement": { "fr": "{ar|لَا النَّافِيَةُ} met le verbe au jussif." },
+      "answer": false,
+      "explain": "Non : elle n'agit pas sur le verbe, qui garde sa damma. Seule {ar|لَا النَّاهِيَةُ} le met au jussif."
+    },
+    {
+      "id": "medine-t2.l15.grammar-4#9",
+      "type": "spot",
+      "instruction": "Touche le verbe sur lequel {ar|لَا} n'agit pas (il garde sa damma).",
+      "words": ["لِمَ", "لَا", "تَأْكُلُ", "يَا", "أَخِي؟"],
+      "answers": [2],
+      "fr": "Pourquoi ne manges-tu pas, mon frère ?",
+      "explain": "{ar|لَا} nie seulement : {ar|تَأْكُلُ} garde sa damma."
+    },
+    {
+      "id": "medine-t2.l15.grammar-4#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Pourquoi ne manges-tu pas, mon frère ?",
+      "answers": ["لِمَ لَا تَأْكُلُ يَا أَخِي؟"],
+      "explain": "{ar|لِمَ} + {ar|لَا} qui nie + {ar|تَأْكُلُ} (damma)."
+    },
+    {
+      "id": "medine-t2.l15.grammar-4#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ne mange pas ça, mon frère !",
+      "answers": ["لَا تَأْكُلْ هٰذَا يَا أَخِي.", "يَا أَخِي لَا تَأْكُلْ هٰذَا."],
+      "explain": "C'est un ordre : {ar|لَا النَّاهِيَةُ} + {ar|تَأْكُلْ} au sukūn."
+    },
+    {
+      "id": "medine-t2.l15.grammar-4#12",
+      "type": "order",
+      "fr": "Ne vas-tu pas au terrain de jeu ?",
+      "answers": [["أَلَا", "تَذْهَبُ", "إِلَى", "الْمَلْعَبِ"]],
+      "punctuation": "؟",
+      "explain": "{ar|أَلَا} (question) + {ar|تَذْهَبُ} : le verbe garde sa damma."
+    }
+  ]
+}

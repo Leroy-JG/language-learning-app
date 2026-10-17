@@ -1,0 +1,112 @@
+{
+  "id": "medine-t2.l15.grammar-8",
+  "type": "grammar",
+  "title": "Deux hamzas qui se rencontrent",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l15.grammar-8#1",
+      "type": "tip",
+      "title": "« Je mange », « je prends »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour dire « je » au présent, on met la lettre {ar|أَ} devant la racine. Si la racine commence par une hamza qui porte un sukūn au présent ({ar|يَأْكُلُ}, {ar|يَأْخُذُ}), deux hamzas se suivent : on les écrit ensemble sous la forme d'un alif madda ({ar|آ}), qui se prononce comme une hamza suivie d'un « ā »."
+        },
+        {
+          "type": "table",
+          "header": ["Verbe", "{ar|هُوَ}", "{ar|أَنْتَ}", "{ar|أَنَا}"],
+          "rows": [
+            ["{ar|كَتَبَ}", "{ar|يَكْتُبُ}", "{ar|تَكْتُبُ}", "{ar|أَكْتُبُ}"],
+            ["{ar|أَكَلَ}", "{ar|يَأْكُلُ}", "{ar|تَأْكُلُ}", "{ar|آكُلُ}"],
+            ["{ar|أَخَذَ}", "{ar|يَأْخُذُ}", "{ar|تَأْخُذُ}", "{ar|آخُذُ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Ces deux hamzas (celle de {ar|أَنَا} et celle de la racine) se réunissent : {ar|آكُلُ}, {ar|آخُذُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.grammar-8#2",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « je mange » ?" },
+      "choices": [ { "ar": "آكُلُ" }, { "ar": "يَأْكُلُ" }, { "ar": "تَأْكُلُ" } ],
+      "answer": 0,
+      "explain": "Pour « je » : {ar|آكُلُ}. {ar|يَأْكُلُ} veut dire « il mange » et {ar|تَأْكُلُ} « tu manges »."
+    },
+    {
+      "id": "medine-t2.l15.grammar-8#3",
+      "type": "sort",
+      "categories": [ { "fr": "« je » ({ar|أَنَا})" }, { "fr": "« il » ou « tu »" } ],
+      "cards": [
+        { "ar": "آكُلُ", "category": 0 },
+        { "ar": "آخُذُ", "category": 0 },
+        { "ar": "أَكْتُبُ", "category": 0 },
+        { "ar": "يَأْكُلُ", "category": 1 },
+        { "ar": "تَأْخُذُ", "category": 1 },
+        { "ar": "تَكْتُبُ", "category": 1 }
+      ],
+      "instruction": "À quelle personne ?",
+      "explain": "{ar|آكُلُ}, {ar|آخُذُ} et {ar|أَكْتُبُ} commencent par {ar|أَ} : c'est « je »."
+    },
+    {
+      "id": "medine-t2.l15.grammar-8#4",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} الْخُبْزَ.",
+      "fr": "Je mange le pain.",
+      "gaps": [ { "answers": ["آكُلُ"] } ],
+      "options": ["آكُلُ", "تَأْكُلُ", "يَأْكُلُ"],
+      "explain": "Avec {ar|أَنَا} : {ar|آكُلُ}."
+    },
+    {
+      "id": "medine-t2.l15.grammar-8#5",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} هٰذَا الْكِتَابَ.",
+      "fr": "Je prends ce livre.",
+      "gaps": [ { "answers": ["آخُذُ"] } ],
+      "options": ["آخُذُ", "تَأْخُذُ", "يَأْخُذُ"],
+      "explain": "Avec {ar|أَنَا} : {ar|آخُذُ}."
+    },
+    {
+      "id": "medine-t2.l15.grammar-8#6",
+      "type": "spot",
+      "instruction": "Touche le verbe qui veut dire « je prends ».",
+      "words": ["أَنَا", "آخُذُ", "الدَّفْتَرَ", "وَأَنْتَ", "تَأْكُلُ", "الْخُبْزَ."],
+      "answers": [1],
+      "fr": "Je prends le cahier et toi tu manges le pain.",
+      "explain": "{ar|آخُذُ} : « je prends ». {ar|تَأْكُلُ} : « tu manges »."
+    },
+    {
+      "id": "medine-t2.l15.grammar-8#7",
+      "type": "tip",
+      "title": "Poser une question avec {ar|أَ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu sais qu'on pose une question en plaçant {ar|أَ} devant la phrase. Devant {ar|آخُذُ}, cela donne {ar|أَآخُذُ}."
+        },
+        { "type": "example", "ar": "أَآخُذُ هٰذِهِ الدَّفَاتِرَ؟", "fr": "Est-ce que je prends ces cahiers ?" },
+        { "type": "note", "tone": "info", "text": "C'est la phrase de Bashīr dans le texte du livre." }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.grammar-8#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je prends le cahier.",
+      "answers": ["آخُذُ الدَّفْتَرَ.", "أَنَا آخُذُ الدَّفْتَرَ."],
+      "explain": "{ar|آخُذُ} : « je prends »."
+    },
+    {
+      "id": "medine-t2.l15.grammar-8#9",
+      "type": "order",
+      "fr": "Est-ce que je prends ces cahiers ?",
+      "answers": [["أَآخُذُ", "هٰذِهِ", "الدَّفَاتِرَ"]],
+      "punctuation": "؟",
+      "explain": "{ar|أَ} + {ar|آخُذُ} s'écrit {ar|أَآخُذُ}."
+    }
+  ]
+}

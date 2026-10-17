@@ -1,0 +1,140 @@
+{
+  "id": "medine-t2.l15.grammar-2",
+  "type": "grammar",
+  "title": "Interdire avec {ar|لَا}",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l15.grammar-2#1",
+      "type": "tip",
+      "title": "Le {ar|لَا} qui interdit",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur présente d'abord un {ar|جَازِمٌ} qui agit sur un seul verbe : {ar|لَا النَّاهِيَةُ} (« le lā qui interdit »). C'est une particule qui agit sur le présent de deux manières :"
+        },
+        {
+          "type": "table",
+          "header": ["Effet", "Exemple"],
+          "rows": [
+            ["**1.** Elle met le verbe au jussif ({ar|مَجْزُومٌ})", "{ar|تَشْرَبُ} → {ar|لَا تَشْرَبْ}"],
+            ["**2.** Elle exprime l'interdiction d'accomplir l'action", "{ar|لَا تَشْرَبْ} : « ne bois pas ! »"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Ne la confonds pas avec {ar|لَا النَّافِيَةُ} (« le lā qui nie »), qui s'écrit pareil : chacune s'emploie dans un autre contexte, et seule {ar|لَا النَّاهِيَةُ} agit sur le verbe. On y revient plus loin dans ce chapitre."
+        }
+      ]
+    },
+    { "id": "medine-t2.l15.grammar-2#2", "type": "present", "item": "w:nahiya" },
+    { "id": "medine-t2.l15.grammar-2#3", "type": "present", "item": "w:la-nahiya" },
+    {
+      "id": "medine-t2.l15.grammar-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:la-nahiya",
+      "distractors": ["w:jazm", "w:laysa"],
+      "explain": "{ar|لَا النَّاهِيَةُ} : le {ar|لَا} de l'interdiction. {ar|الْجَزْمُ} est le jussif ; {ar|لَيْسَ} nie une phrase nominale."
+    },
+    {
+      "id": "medine-t2.l15.grammar-2#5",
+      "type": "tip",
+      "title": "Sans {ar|لَا}, avec {ar|لَا}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici le même verbe sans, puis avec {ar|لَا} qui interdit. La damma de la marque de base disparaît : le verbe prend le sukūn."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "تَشْرَبُ الْقَهْوَةَ", "fr": "Tu bois du café." },
+              "to": { "ar": "لَا تَشْرَبِ الْقَهْوَةَ", "fr": "Ne bois pas de café !" },
+              "label": "damma → sukūn, devenu kasra devant l'article"
+            },
+            {
+              "from": { "ar": "تَذْهَبُ إِلَى الْمَدْرَسَةِ", "fr": "Tu vas à l'école." },
+              "to": { "ar": "لَا تَذْهَبْ إِلَى الْمَدْرَسَةِ", "fr": "Ne va pas à l'école !" },
+              "label": "damma → sukūn"
+            },
+            {
+              "from": { "ar": "تَأْكُلُ فِي الشَّارِعِ", "fr": "Tu manges dans la rue." },
+              "to": { "ar": "لَا تَأْكُلْ فِي الشَّارِعِ", "fr": "Ne mange pas dans la rue !" },
+              "label": "damma → sukūn"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le professeur analyse ainsi : {ar|تَشْرَبُ} est {ar|فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الضَّمَّةُ} (un verbe au présent, au nominatif, dont la marque est la damma) ; après {ar|لَا}, {ar|تَشْرَبْ} est {ar|فِعْلٌ مُضَارِعٌ مَجْزُومٌ وَعَلَامَةُ جَزْمِهِ السُّكُونُ} (un verbe au présent, au jussif, dont la marque est le sukūn)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Devant l'article {ar|الْ}, le sukūn se prononce comme une kasra : {ar|لَا تَشْرَبِ الْقَهْوَةَ} (chapitre 14)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|الْقَهْوَةَ}, avec l'article, désigne le café en général : en français, on dit « du café »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.grammar-2#6",
+      "type": "question",
+      "prompt": { "fr": "Dans « Ne bois pas de café ! » ({ar|لَا تَشْرَبِ الْقَهْوَةَ}), quel est l'état du verbe ?" },
+      "choices": [
+        { "fr": "Au jussif ({ar|مَجْزُومٌ}), avec le sukūn" },
+        { "fr": "Au nominatif ({ar|مَرْفُوعٌ}), avec la damma" },
+        { "fr": "À l'accusatif ({ar|مَنْصُوبٌ}), avec la fatha" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|لَا} qui interdit, le présent est {ar|مَجْزُومٌ} : sa marque est le sukūn (devenu kasra devant l'article)."
+    },
+    {
+      "id": "medine-t2.l15.grammar-2#7",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|لَا} qui interdit, le verbe garde sa damma." },
+      "answer": false,
+      "explain": "Non : il prend le sukūn. La damma est la marque de base du verbe sans particule."
+    },
+    {
+      "id": "medine-t2.l15.grammar-2#8",
+      "type": "spot",
+      "instruction": "Touche le verbe qui est au jussif.",
+      "words": ["لَا", "تَشْرَبِ", "الْقَهْوَةَ!"],
+      "answers": [1],
+      "fr": "Ne bois pas de café !",
+      "explain": "{ar|تَشْرَبِ} (sukūn devenu kasra) suit {ar|لَا} qui interdit."
+    },
+    {
+      "id": "medine-t2.l15.grammar-2#9",
+      "type": "fill_gap",
+      "sentence": "يَا أَحْمَدُ، لَا {0} الْقَهْوَةَ.",
+      "fr": "Aḥmad, ne bois pas de café !",
+      "gaps": [ { "answers": ["تَشْرَبِ"] } ],
+      "options": ["تَشْرَبِ", "تَشْرَبِي", "تَشْرَبُوا"],
+      "explain": "Aḥmad est un homme : sukūn, devenu kasra devant l'article."
+    },
+    {
+      "id": "medine-t2.l15.grammar-2#10",
+      "type": "order",
+      "fr": "Ne bois pas de café !",
+      "answers": [["لَا", "تَشْرَبِ", "الْقَهْوَةَ"]],
+      "punctuation": "!",
+      "explain": "{ar|لَا} qui interdit + le verbe au jussif."
+    },
+    {
+      "id": "medine-t2.l15.grammar-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ne sors pas de la classe maintenant !",
+      "answers": ["لَا تَخْرُجْ مِنَ الْفَصْلِ الْآنَ."],
+      "explain": "{ar|لَا} + {ar|تَخْرُجْ} : c'est l'ordre du professeur dans le texte du livre."
+    }
+  ]
+}

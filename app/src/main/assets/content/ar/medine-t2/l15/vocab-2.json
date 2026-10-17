@@ -1,0 +1,95 @@
+{
+  "id": "medine-t2.l15.vocab-2",
+  "type": "vocabulary",
+  "title": "Mentir, se renverser, pleurer",
+  "icon": "hand",
+  "screens": [
+    { "id": "medine-t2.l15.vocab-2#1", "type": "present", "item": "w:kadhaba" },
+    { "id": "medine-t2.l15.vocab-2#2", "type": "present", "item": "w:inqalaba" },
+    {
+      "id": "medine-t2.l15.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kadhaba",
+      "distractors": ["w:inqalaba", "w:kada"],
+      "explain": "{ar|كَذَبَ} : il a menti. {ar|اِنْقَلَبَ} : il s'est renversé ; {ar|كَادَ} : il a failli."
+    },
+    { "id": "medine-t2.l15.vocab-2#4", "type": "present", "item": "w:baka" },
+    {
+      "id": "medine-t2.l15.vocab-2#5",
+      "type": "tip",
+      "title": "Les quatre formes de ces verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne, comme d'habitude, les quatre formes de chaque verbe ; le nom d'action n'est qu'un aperçu. Pour {ar|كَادَ}, il ne donne que le passé et le présent."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["être sur le point de", "{ar|كَادَ}", "{ar|يَكَادُ}", "—", "—"],
+            ["mentir", "{ar|كَذَبَ}", "{ar|يَكْذِبُ}", "{ar|اِكْذِبْ}", "{ar|كَذِبًا}"],
+            ["se renverser", "{ar|اِنْقَلَبَ}", "{ar|يَنْقَلِبُ}", "{ar|اِنْقَلِبْ}", "{ar|اِنْقِلَابًا}"],
+            ["pleurer", "{ar|بَكَى}", "{ar|يَبْكِي}", "{ar|اِبْكِ}", "{ar|بُكَاءً}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|بَكَى} est un verbe à finale défectueuse : son impératif {ar|اِبْكِ} n'est qu'un aperçu, rien n'est demandé dessus. Après {ar|لَا} qui interdit, tu as vu que sa dernière lettre tombe (chapitre 13) : {ar|لَا تَبْكِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.vocab-2#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:kadhaba", "w:inqalaba", "w:baka", "w:kada"]
+    },
+    {
+      "id": "medine-t2.l15.vocab-2#7",
+      "type": "fill_gap",
+      "sentence": "يَا عَلِيُّ، لَا {0}.",
+      "fr": "ʿAlī, ne mens pas !",
+      "gaps": [ { "answers": ["تَكْذِبْ"] } ],
+      "options": ["تَكْذِبْ", "تَكْذِبِي", "تَكْذِبُوا"],
+      "explain": "ʿAlī est un homme : {ar|تَكْذِبْ}, avec le sukūn du jussif."
+    },
+    {
+      "id": "medine-t2.l15.vocab-2#8",
+      "type": "fill_gap",
+      "sentence": "يَا بِنْتِي، لَا {0}.",
+      "fr": "Ma fille, ne pleure pas !",
+      "gaps": [ { "answers": ["تَبْكِي"] } ],
+      "options": ["تَبْكِي", "تَبْكِ", "تَبْكُوا"],
+      "explain": "Une fille : {ar|تَبْكِينَ} perd son {ar|ن} → {ar|تَبْكِي}. {ar|تَبْكِ} s'adresse à un homme."
+    },
+    { "id": "medine-t2.l15.vocab-2#9", "type": "build", "item": "w:baka", "extra": ["ي"] },
+    {
+      "id": "medine-t2.l15.vocab-2#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا الْمُضَارِعُ مِنْ كَذَبَ؟",
+      "answers": ["يَكْذِبُ."],
+      "fr": "Quel est le présent de {ar|كَذَبَ} ?",
+      "explain": "{ar|كَذَبَ} → {ar|يَكْذِبُ} (kasra sur le {ar|ذ})."
+    },
+    {
+      "id": "medine-t2.l15.vocab-2#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ne mens pas, ʿAlī !",
+      "answers": ["لَا تَكْذِبْ يَا عَلِيُّ.", "يَا عَلِيُّ لَا تَكْذِبْ."],
+      "explain": "{ar|لَا} + {ar|تَكْذِبْ} (sukūn)."
+    },
+    {
+      "id": "medine-t2.l15.vocab-2#12",
+      "type": "order",
+      "fr": "La voiture s'est renversée.",
+      "answers": [["اِنْقَلَبَتِ", "السَّيَّارَةُ"]],
+      "punctuation": ".",
+      "explain": "Le sujet est féminin : {ar|اِنْقَلَبَتِ} (avec une kasra devant l'article)."
+    }
+  ]
+}

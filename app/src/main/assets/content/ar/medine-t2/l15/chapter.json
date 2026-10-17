@@ -1,0 +1,21 @@
+{
+  "id": "medine-t2.l15",
+  "number": 15,
+  "title": { "ar": "الدَّرْسُ الْخَامِسَ عَشَرَ", "fr": "Interdire et « être sur le point de »" },
+  "description": "Les jawāzim ({ar|الْجَوَازِمُ}) et le {ar|لَا} de l'interdiction ({ar|لَا تَشْرَبْ}), la différence avec le {ar|لَا} de négation, {ar|مَا} devant un présent, {ar|كَادَ وَأَخَوَاتُهَا} ({ar|كَادَ زَيْدٌ يَذْهَبُ}), les deux hamzas ({ar|آكُلُ}), le vocabulaire ({ar|مَقْعَدٌ}, {ar|لِحْيَةٌ}, {ar|كَذَبَ}, {ar|بَكَى}…), le texte du livre et ses exercices.",
+  "source": "Tome de Médine 2, leçon 15",
+  "sections": [
+    { "title": "Revoir : le jussif", "activities": ["revue-1"] },
+    { "title": "Les jawāzim", "activities": ["grammar-1"] },
+    { "title": "{ar|لَا} de l'interdiction", "activities": ["grammar-2", "grammar-3", "grammar-4", "grammar-5"] },
+    { "title": "{ar|كَادَ} et ses sœurs", "activities": ["grammar-6", "grammar-7"] },
+    { "title": "Un détail d'écriture", "activities": ["grammar-8"] },
+    { "title": "En classe : les mots", "activities": ["vocab-1", "vocab-2"] },
+    { "title": "Le texte du livre", "activities": ["dialogue-1"] },
+    {
+      "title": "Les exercices du livre",
+      "activities": ["practice-1", "practice-2", "practice-3", "practice-4", "practice-5", "practice-6"]
+    },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

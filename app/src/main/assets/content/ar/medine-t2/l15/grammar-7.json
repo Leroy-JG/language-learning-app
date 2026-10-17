@@ -1,0 +1,129 @@
+{
+  "id": "medine-t2.l15.grammar-7",
+  "type": "grammar",
+  "title": "{ar|كَادَ} au passé, au présent, au féminin",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l15.grammar-7#1",
+      "type": "tip",
+      "title": "{ar|كَادَ} ou {ar|يَكَادُ} ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|كَادَ} a un passé et un présent. Le prédicat est toujours un verbe au présent."
+        },
+        {
+          "type": "table",
+          "header": ["Forme", "Exemple", "Sens"],
+          "rows": [
+            ["{ar|كَادَ} (passé)", "{ar|كَادَ الْمُدِيرُ يَخْرُجُ}", "le directeur a failli sortir"],
+            [
+              "{ar|يَكَادُ} (présent)",
+              "{ar|يَكَادُ الْمُدِيرُ يَخْرُجُ}",
+              "le directeur est sur le point de sortir"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Quand on dit qu'une action est sur le point d'arriver, on emploie {ar|يَكَادُ}. Pour raconter qu'elle a failli arriver, {ar|كَادَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.grammar-7#2",
+      "type": "tip",
+      "title": "Le prédicat s'accorde avec le sujet",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le verbe du prédicat prend la lettre du présent qui convient à son sujet : {ar|يَ} pour un homme, {ar|تَ} pour une femme."
+        },
+        { "type": "example", "ar": "كَادَ زَيْدٌ يَذْهَبُ.", "fr": "Zayd a failli partir." },
+        { "type": "example", "ar": "كَادَتِ الْمُدِيرَةُ تَذْهَبُ.", "fr": "La directrice a failli partir." },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|كَادَ} s'accorde en genre avec son sujet, comme {ar|كَانَ} (chapitre 7) : {ar|كَادَ} (masculin), {ar|كَادَتْ} (féminin ; {ar|كَادَتِ} devant l'article)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.grammar-7#3",
+      "type": "tip",
+      "title": "Quand le sujet n'est pas écrit",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Souvent, le sujet de {ar|كَادَ} n'est pas écrit : c'est un pronom caché, qui renvoie à celui dont on vient de parler."
+        },
+        {
+          "type": "example",
+          "ar": "فَتَحَ زَكَرِيَّا الْبَابَ وَكَادَ يَخْرُجُ.",
+          "fr": "Zakariyyā a ouvert la porte et a failli sortir."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans {ar|وَكَادَ يَخْرُجُ}, celui qui a failli sortir est Zakariyyā : c'est le pronom caché {ar|هُوَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.grammar-7#4",
+      "type": "question",
+      "prompt": { "fr": "Quelle phrase dit « Le directeur est sur le point de sortir » ?" },
+      "choices": [
+        { "ar": "يَكَادُ الْمُدِيرُ يَخْرُجُ" },
+        { "ar": "كَادَ الْمُدِيرُ يَخْرُجُ" },
+        { "ar": "يَكَادُ الْمُدِيرُ خَرَجَ" }
+      ],
+      "answer": 0,
+      "explain": "Le présent {ar|يَكَادُ} dit « est sur le point de », et le prédicat est un présent : {ar|يَخْرُجُ}."
+    },
+    {
+      "id": "medine-t2.l15.grammar-7#5",
+      "type": "fill_gap",
+      "sentence": "{0} الْمُدِيرُ يَخْرُجُ.",
+      "fr": "Le directeur est sur le point de sortir.",
+      "gaps": [ { "answers": ["يَكَادُ"] } ],
+      "options": ["يَكَادُ", "تَكَادُ", "كَادَتْ"],
+      "explain": "Le directeur est un homme : {ar|يَكَادُ}. {ar|تَكَادُ} et {ar|كَادَتْ} sont au féminin."
+    },
+    {
+      "id": "medine-t2.l15.grammar-7#6",
+      "type": "fill_gap",
+      "sentence": "كَادَتِ الْمُدِيرَةُ {0}.",
+      "fr": "La directrice a failli partir.",
+      "gaps": [ { "answers": ["تَذْهَبُ"] } ],
+      "options": ["تَذْهَبُ", "يَذْهَبُ", "تَذْهَبُونَ"],
+      "explain": "La directrice est une femme : le verbe du prédicat commence par {ar|تَ}."
+    },
+    {
+      "id": "medine-t2.l15.grammar-7#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|فَتَحَ زَكَرِيَّا الْبَابَ وَكَادَ يَخْرُجُ}, qui a failli sortir ?" },
+      "choices": [ { "fr": "Zakariyyā" }, { "fr": "La porte" }, { "fr": "Un autre homme" } ],
+      "answer": 0,
+      "explain": "Le sujet de {ar|كَادَ} n'est pas écrit : c'est le pronom caché {ar|هُوَ}, qui renvoie à Zakariyyā (le verbe {ar|يَخْرُجُ} commence par {ar|يَ})."
+    },
+    {
+      "id": "medine-t2.l15.grammar-7#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le directeur est sur le point de sortir.",
+      "answers": ["يَكَادُ الْمُدِيرُ يَخْرُجُ."],
+      "explain": "{ar|يَكَادُ} + le sujet + {ar|يَخْرُجُ}."
+    },
+    {
+      "id": "medine-t2.l15.grammar-7#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "La directrice a failli sortir.",
+      "answers": ["كَادَتِ الْمُدِيرَةُ تَخْرُجُ."],
+      "explain": "Féminin : {ar|كَادَتِ} (kasra devant l'article) et {ar|تَخْرُجُ}."
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "w:jawazim",
+    "kind": "word",
+    "ar": "الْجَوَازِمُ",
+    "fr": "les jawāzim (les mots qui mettent le verbe au jussif)",
+    "translit": "al-jawāzimu",
+    "note": "{ar|الْجَوَازِمُ} est le pluriel de {ar|جَازِمٌ} (« qui met au jussif »). Ce sont des particules ou des noms qui mettent le présent au jussif ({ar|الْجَزْمُ}) et qui changent ou nuancent son sens. Certains agissent sur un seul verbe, d'autres sur deux.",
+    "example": { "ar": "لَمْ تَكْتُبْ دَرْسَكَ.", "fr": "Tu n'as pas écrit ta leçon." }
+  },
+  {
+    "id": "w:nahiya",
+    "kind": "word",
+    "ar": "نَاهِيَةٌ",
+    "fr": "qui interdit (celle qui interdit)",
+    "translit": "nāhiyatun",
+    "note": "C'est le participe actif de {ar|نَهَى} (« interdire »), au féminin. On l'emploie pour qualifier {ar|لَا}.",
+    "example": { "ar": "لَا تَكْتُبْ.", "fr": "N'écris pas !" }
+  },
+  {
+    "id": "w:la-nahiya",
+    "kind": "word",
+    "ar": "لَا النَّاهِيَةُ",
+    "fr": "le {ar|لَا} de l'interdiction (« le lā qui interdit »)",
+    "translit": "lā n-nāhiyatu",
+    "note": "C'est une particule qui met le présent au jussif et qui exprime l'interdiction : {ar|لَا تَكْتُبْ} (« n'écris pas ! »). Elle agit sur un seul verbe.",
+    "example": { "ar": "لَا تَشْرَبِ الْقَهْوَةَ.", "fr": "Ne bois pas de café !" }
+  },
+  {
+    "id": "w:la-nafiya",
+    "kind": "word",
+    "ar": "لَا النَّافِيَةُ",
+    "fr": "le {ar|لَا} de négation (« le lā qui nie »)",
+    "translit": "lā n-nāfiyatu",
+    "note": "Elle nie seulement : elle n'agit pas sur le verbe, qui garde sa marque de base (la damma). C'est le même rôle que {ar|مَا النَّافِيَةُ} (chapitre 4 de ce tome).",
+    "example": { "ar": "لِمَ لَا تَأْكُلُ يَا أَخِي؟", "fr": "Pourquoi ne manges-tu pas, mon frère ?" }
+  },
+  {
+    "id": "w:lima",
+    "kind": "word",
+    "ar": "لِمَ",
+    "fr": "pourquoi ? (forme courte de {ar|لِمَاذَا})",
+    "translit": "lima",
+    "note": "{ar|لِمَ} s'écrit {ar|لِ} + {ar|مَا}, dont l'alif tombe après la préposition : c'est la même formation que {ar|بِمَ} (chapitre 14).",
+    "example": { "ar": "لِمَ ضَرَبْتَ هٰذَا الْوَلَدَ؟", "fr": "Pourquoi as-tu frappé ce garçon ?" }
+  },
+  {
+    "id": "w:afal-muqaraba",
+    "kind": "word",
+    "ar": "أَفْعَالُ الْمُقَارَبَةِ",
+    "fr": "les verbes d'imminence (qui disent qu'une action est sur le point d'avoir lieu)",
+    "translit": "afʿālu l-muqārabati",
+    "note": "{ar|كَادَ} est le plus connu d'entre eux. Le mot {ar|مُقَارَبَةٌ} veut dire « le fait de s'approcher ».",
+    "example": { "ar": "كَادَ زَيْدٌ يَنْجَحُ.", "fr": "Zayd a failli réussir." }
+  },
+  {
+    "id": "p:kada-wa-akhawatuha",
+    "kind": "phrase",
+    "ar": "كَادَ وَأَخَوَاتُهَا",
+    "fr": "kāda et ses sœurs (verbes d'imminence qui agissent sur la phrase nominale)",
+    "translit": "kāda wa-akhawātuhā",
+    "note": "Comme {ar|كَانَ وَأَخَوَاتُهَا}, ce sont des {ar|نَوَاسِخُ} verbaux. Mais le prédicat est toujours un verbe au présent.",
+    "example": { "ar": "كَادَ زَيْدٌ يَذْهَبُ.", "fr": "Zayd a failli partir." }
+  },
+  {
+    "id": "w:kada",
+    "kind": "word",
+    "ar": "كَادَ",
+    "fr": "il a failli, il a été sur le point de (faire)",
+    "translit": "kāda",
+    "note": "Il est toujours suivi d'un verbe au présent : {ar|كَادَ زَيْدٌ يَذْهَبُ} (« Zayd a failli partir »). Son présent est {ar|يَكَادُ} (« il est sur le point de »). Le tableau du professeur ne lui donne ni impératif ni nom d'action.",
+    "example": { "ar": "يَكَادُ الْمُدِيرُ يَخْرُجُ.", "fr": "Le directeur est sur le point de sortir." }
+  },
+  {
+    "id": "w:ism-kada",
+    "kind": "word",
+    "ar": "اِسْمُ كَادَ",
+    "fr": "le nom de {ar|كَادَ} (le sujet, qui reste au nominatif)",
+    "translit": "ismu kāda",
+    "gender": "m",
+    "note": "Dans {ar|كَادَ زَيْدٌ يَذْهَبُ}, {ar|زَيْدٌ} est {ar|اِسْمُ كَادَ}. Si le sujet n'est pas écrit, c'est un pronom caché.",
+    "example": { "ar": "كَادَ زَيْدٌ يَنْجَحُ.", "fr": "Zayd a failli réussir." }
+  },
+  {
+    "id": "w:khabar-kada",
+    "kind": "word",
+    "ar": "خَبَرُ كَادَ",
+    "fr": "le prédicat de {ar|كَادَ} (un verbe au présent)",
+    "translit": "khabaru kāda",
+    "gender": "m",
+    "note": "Dans {ar|كَادَ زَيْدٌ يَذْهَبُ}, {ar|يَذْهَبُ} est {ar|خَبَرُ كَادَ}. C'est toujours un verbe au présent ; on ne voit aucun changement de terminaison.",
+    "example": { "ar": "كَادَ زَيْدٌ يَنْجَحُ.", "fr": "Zayd a failli réussir." }
+  },
+  {
+    "id": "w:maqad",
+    "kind": "word",
+    "ar": "مَقْعَدٌ",
+    "fr": "un siège",
+    "translit": "maqʿadun",
+    "plural": "مَقَاعِدُ",
+    "gender": "m",
+    "note": "Même racine que {ar|قَعَدَ} (« s'asseoir ») : c'est l'endroit où l'on s'assied.",
+    "example": { "ar": "جَلَسَ زَيْدٌ عَلَى هٰذَا الْمَقْعَدِ.", "fr": "Zayd s'est assis sur ce siège." }
+  },
+  {
+    "id": "w:ghaib-2",
+    "kind": "word",
+    "ar": "غَائِبٌ",
+    "fr": "absent",
+    "translit": "ghāʾibun",
+    "plural": "غَائِبُونَ",
+    "note": "C'est le même mot que {ar|الْغَائِبُ} du chapitre 10 (« la troisième personne », littéralement « l'absent ») : le participe de {ar|غَابَ} (« être absent »).",
+    "example": { "ar": "زَيْدٌ غَائِبٌ الْيَوْمَ.", "fr": "Zayd est absent aujourd'hui." }
+  },
+  {
+    "id": "w:lihya",
+    "kind": "word",
+    "ar": "لِحْيَةٌ",
+    "fr": "une barbe",
+    "translit": "liḥyatun",
+    "plural": "لِحًى",
+    "gender": "f",
+    "example": { "ar": "لِحْيَةُ زَيْدٍ كَبِيرَةٌ.", "fr": "La barbe de Zayd est grande." }
+  },
+  {
+    "id": "w:sura-pic",
+    "kind": "word",
+    "ar": "صُورَةٌ",
+    "fr": "une image, une photo",
+    "translit": "ṣūratun",
+    "plural": "صُوَرٌ",
+    "gender": "f",
+    "note": "À ne pas confondre avec {ar|سُورَةٌ} (« une sourate »), qui s'écrit presque pareil.",
+    "example": { "ar": "هٰذِهِ صُورَةٌ جَمِيلَةٌ.", "fr": "C'est une belle image." }
+  },
+  {
+    "id": "w:nazzara",
+    "kind": "word",
+    "ar": "نَظَّارَةٌ",
+    "fr": "des lunettes (une paire de lunettes)",
+    "translit": "naẓẓāratun",
+    "plural": "نَظَّارَاتٌ",
+    "gender": "f",
+    "note": "Même racine que {ar|نَظَرَ} (« regarder ») : c'est ce qui sert à voir.",
+    "example": { "ar": "هٰذِهِ نَظَّارَةٌ جَدِيدَةٌ.", "fr": "Ce sont des lunettes neuves." }
+  },
+  {
+    "id": "w:innama",
+    "kind": "word",
+    "ar": "إِنَّمَا",
+    "fr": "seulement, ne… que",
+    "translit": "innamā",
+    "note": "Elle s'écrit comme {ar|إِنَّ} + {ar|مَا}, mais elle limite : « rien d'autre que ». Après elle, le nom reste au nominatif : {ar|إِنَّمَا زَيْدٌ طَالِبٌ} (« Zayd n'est qu'un étudiant »).",
+    "example": { "ar": "إِنَّمَا أَنْظُرُ إِلَى الصُّوَرِ.", "fr": "Je ne fais que regarder les images." }
+  },
+  {
+    "id": "w:kadhaba",
+    "kind": "word",
+    "ar": "كَذَبَ",
+    "fr": "il a menti (mentir)",
+    "translit": "kadhaba",
+    "example": { "ar": "لَا تَكْذِبْ.", "fr": "Ne mens pas !" }
+  },
+  {
+    "id": "w:inqalaba",
+    "kind": "word",
+    "ar": "اِنْقَلَبَ",
+    "fr": "il s'est renversé, il s'est retourné (se renverser)",
+    "translit": "inqalaba",
+    "note": "Il se dit d'une voiture qui se renverse, d'un objet qui se retourne.",
+    "example": { "ar": "اِنْقَلَبَتِ السَّيَّارَةُ.", "fr": "La voiture s'est renversée." }
+  },
+  {
+    "id": "w:baka",
+    "kind": "word",
+    "ar": "بَكَى",
+    "fr": "il a pleuré (pleurer)",
+    "translit": "bakā",
+    "note": "C'est un verbe à finale défectueuse (chapitre 13) : son présent est {ar|يَبْكِي}.",
+    "example": { "ar": "هُوَ يَبْكِي.", "fr": "Il pleure." }
+  }
+]

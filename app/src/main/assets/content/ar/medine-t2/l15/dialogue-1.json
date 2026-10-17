@@ -1,0 +1,179 @@
+{
+  "id": "medine-t2.l15.dialogue-1",
+  "type": "dialogue",
+  "title": "Non, pas maintenant !",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l15.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Non, pas maintenant !",
+      "intro": "En classe, les étudiants demandent la permission de faire toutes sortes de choses : Abū Bakr veut sortir, Humāyūn cherche une place, Bashīr veut prendre des cahiers, Fayṣal regarde une revue et Ḥamza veut ouvrir la porte. Le professeur répond presque toujours « non ». Repère le {ar|لَا} suivi d'un verbe au jussif.",
+      "speakers": {
+        "M": { "name": "Le professeur", "voice": "m1" },
+        "A": { "name": "Abū Bakr", "voice": "m2" },
+        "H": { "name": "Humāyūn", "voice": "m2" },
+        "B": { "name": "Bashīr", "voice": "m2" },
+        "F": { "name": "Fayṣal", "voice": "m2" },
+        "Z": { "name": "Ḥamza", "voice": "m2" }
+      },
+      "lines": [
+        { "speaker": "M", "ar": "أَيْنَ تَذْهَبُ يَا أَبَا بَكْرٍ؟", "fr": "Où vas-tu, Abū Bakr ?" },
+        { "speaker": "A", "ar": "أَذْهَبُ إِلَى الْمُدِيرِ.", "fr": "Je vais voir le directeur." },
+        {
+          "speaker": "M",
+          "ar": "لَا تَخْرُجْ مِنَ الْفَصْلِ الْآنَ. اِذْهَبْ إِلَيْهِ بَعْدَ الدَّرْسِ.",
+          "fr": "Ne sors pas de la classe maintenant. Va le voir après le cours."
+        },
+        {
+          "speaker": "H",
+          "ar": "يَا أُسْتَاذُ، أَنَا طَالِبٌ جَدِيدٌ. أَيْنَ أَجْلِسُ؟ أَأَجْلِسُ هُنَا أَمَامَكَ؟",
+          "fr": "Professeur, je suis un nouvel étudiant. Où est-ce que je m'assieds ? Est-ce que je m'assieds ici, devant toi ?"
+        },
+        {
+          "speaker": "M",
+          "ar": "لَا، لَا تَجْلِسْ هُنَا. هٰذَا مَقْعَدُ هِشَامٍ وَهُوَ غَائِبٌ الْيَوْمَ. اِجْلِسْ هُنَاكَ خَلْفَ حَامِدٍ.",
+          "fr": "Non, ne t'assieds pas ici. C'est la place de Hishām, et il est absent aujourd'hui. Assieds-toi là-bas, derrière Ḥāmid."
+        },
+        {
+          "speaker": "B",
+          "ar": "أَآخُذُ هٰذِهِ الدَّفَاتِرَ يَا أُسْتَاذُ؟",
+          "fr": "Est-ce que je prends ces cahiers, professeur ?"
+        },
+        {
+          "speaker": "M",
+          "ar": "لَا، لَا تَأْخُذْهَا. يَا عَبْدَ الرَّحِيمِ، لَا تَكْتُبِ الْأَجْوِبَةَ بِالْقَلَمِ الْأَحْمَرِ. الْمُدَرِّسُ هُوَ الَّذِي يَكْتُبُ بِالْقَلَمِ الْأَحْمَرِ.",
+          "fr": "Non, ne les prends pas. (Il regarde dans un cahier.) ʿAbd ar-Raḥīm, n'écris pas les réponses avec le stylo rouge. C'est l'enseignant qui écrit avec le stylo rouge."
+        },
+        {
+          "speaker": "F",
+          "ar": "اُنْظُرْ إِلَى هٰذِهِ الْمَجَلَّةِ يَا أُسْتَاذُ. مَا أَجْمَلَهَا!",
+          "fr": "Regarde cette revue, professeur. Comme elle est belle !"
+        },
+        {
+          "speaker": "M",
+          "ar": "لَا تَقْرَأِ الْمَجَلَّاتِ فِي الْفَصْلِ يَا فَيْصَلُ.",
+          "fr": "Ne lis pas de revues en classe, Fayṣal."
+        },
+        {
+          "speaker": "F",
+          "ar": "مَا أَقْرَأُ هٰذِهِ الْمَجَلَّةَ الْآنَ. إِنَّمَا أَنْظُرُ إِلَى الصُّوَرِ الَّتِي فِيهَا.",
+          "fr": "Je ne lis pas cette revue en ce moment. Je ne fais que regarder les images qui s'y trouvent."
+        },
+        {
+          "speaker": "Z",
+          "ar": "أَأَفْتَحُ الْبَابَ يَا أُسْتَاذُ؟ يَكَادُ الْجَرَسُ يَرِنُّ.",
+          "fr": "Est-ce que j'ouvre la porte, professeur ? La sonnerie est sur le point de retentir."
+        },
+        {
+          "speaker": "M",
+          "ar": "لَا، لَا تَفْتَحِ الْبَابَ الْآنَ.",
+          "fr": "Non, n'ouvre pas la porte maintenant."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Presque tout ce texte est déjà connu. Voici ce qu'il faut remarquer :" },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            [
+              "{ar|أَذْهَبُ}, {ar|اِذْهَبْ}",
+              "je vais ; va !",
+              "{ar|أَذْهَبُ} est un présent à la première personne ; {ar|اِذْهَبْ} est l'impératif : on ne les confond pas"
+            ],
+            [
+              "{ar|أَأَجْلِسُ}",
+              "est-ce que je m'assieds ?",
+              "{ar|أَ} (la question) + {ar|أَجْلِسُ} : deux hamzas de suite, chacune avec sa fatha"
+            ],
+            ["{ar|أَآخُذُ}", "est-ce que je prends ?", "{ar|أَ} + {ar|آخُذُ} (voir l'activité sur les deux hamzas)"],
+            ["{ar|مَا أَجْمَلَهَا!}", "comme elle est belle !", "l'exclamation (chapitre 9)"],
+            ["{ar|مَا أَقْرَأُ}", "je ne lis pas (en ce moment)", "{ar|مَا} qui nie un présent : il garde sa damma"],
+            [
+              "{ar|يَكَادُ الْجَرَسُ يَرِنُّ}",
+              "la sonnerie est sur le point de retentir",
+              "{ar|يَكَادُ} + un présent ; {ar|يَرِنُّ} est le présent de {ar|رَنَّ} (un verbe doublé : on y reviendra)"
+            ],
+            ["{ar|الَّذِي}, {ar|الَّتِي}", "qui (relatifs)", "chapitre 9"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Où Abū Bakr veut-il aller ?" },
+      "choices": [ { "fr": "Chez le directeur" }, { "fr": "À la mosquée" }, { "fr": "Au terrain de jeu" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l15.dialogue-1#1" },
+      "explain": "{ar|أَذْهَبُ إِلَى الْمُدِيرِ} : « je vais voir le directeur »."
+    },
+    {
+      "id": "medine-t2.l15.dialogue-1#4",
+      "type": "true_false",
+      "statement": { "fr": "Le professeur laisse Abū Bakr sortir tout de suite." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l15.dialogue-1#1" },
+      "explain": "Non : {ar|لَا تَخْرُجْ مِنَ الْفَصْلِ الْآنَ}. Il ira après le cours."
+    },
+    {
+      "id": "medine-t2.l15.dialogue-1#5",
+      "type": "question",
+      "prompt": { "fr": "Où le professeur envoie-t-il Humāyūn s'asseoir ?" },
+      "choices": [ { "fr": "Derrière Ḥāmid" }, { "fr": "Devant le professeur" }, { "fr": "À la place de Hishām" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l15.dialogue-1#1" },
+      "explain": "{ar|اِجْلِسْ هُنَاكَ خَلْفَ حَامِدٍ}."
+    },
+    {
+      "id": "medine-t2.l15.dialogue-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Hishām est absent aujourd'hui." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l15.dialogue-1#1" },
+      "explain": "{ar|هُوَ غَائِبٌ الْيَوْمَ}."
+    },
+    {
+      "id": "medine-t2.l15.dialogue-1#7",
+      "type": "question",
+      "prompt": { "fr": "Que fait Fayṣal avec la revue ?" },
+      "choices": [ { "fr": "Il regarde les images" }, { "fr": "Il lit les articles" }, { "fr": "Il écrit dedans" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l15.dialogue-1#1" },
+      "explain": "{ar|إِنَّمَا أَنْظُرُ إِلَى الصُّوَرِ} : « je ne fais que regarder les images »."
+    },
+    {
+      "id": "medine-t2.l15.dialogue-1#8",
+      "type": "true_false",
+      "statement": { "fr": "Le professeur laisse Ḥamza ouvrir la porte." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l15.dialogue-1#1" },
+      "explain": "{ar|لَا تَفْتَحِ الْبَابَ الْآنَ}."
+    },
+    {
+      "id": "medine-t2.l15.dialogue-1#9",
+      "type": "order",
+      "fr": "Ne lis pas de revues en classe, Fayṣal.",
+      "answers": [
+        ["لَا", "تَقْرَأِ", "الْمَجَلَّاتِ", "فِي", "الْفَصْلِ", "يَا", "فَيْصَلُ"],
+        ["يَا", "فَيْصَلُ", "لَا", "تَقْرَأِ", "الْمَجَلَّاتِ", "فِي", "الْفَصْلِ"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|لَا} + {ar|تَقْرَأْ} au jussif ; devant l'article, le sukūn devient une kasra."
+    },
+    {
+      "id": "medine-t2.l15.dialogue-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Non, n'ouvre pas la porte maintenant.",
+      "answers": ["لَا، لَا تَفْتَحِ الْبَابَ الْآنَ."],
+      "explain": "{ar|لَا تَفْتَحِ} : le sukūn de {ar|تَفْتَحْ} devient une kasra devant l'article."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "medine-t2.l15.vocab-1",
+  "type": "vocabulary",
+  "title": "En classe : les mots du texte",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t2.l15.vocab-1#1", "type": "present", "item": "w:maqad" },
+    { "id": "medine-t2.l15.vocab-1#2", "type": "present", "item": "w:ghaib-2" },
+    { "id": "medine-t2.l15.vocab-1#3", "type": "present", "item": "w:lihya" },
+    {
+      "id": "medine-t2.l15.vocab-1#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:maqad",
+      "distractors": ["w:ghaib-2", "w:lihya"],
+      "explain": "{ar|مَقْعَدٌ} : un siège. {ar|غَائِبٌ} : absent ; {ar|لِحْيَةٌ} : une barbe."
+    },
+    { "id": "medine-t2.l15.vocab-1#5", "type": "present", "item": "w:sura-pic" },
+    { "id": "medine-t2.l15.vocab-1#6", "type": "present", "item": "w:nazzara" },
+    { "id": "medine-t2.l15.vocab-1#7", "type": "present", "item": "w:innama" },
+    {
+      "id": "medine-t2.l15.vocab-1#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:maqad", "w:ghaib-2", "w:lihya", "w:sura-pic", "w:nazzara"]
+    },
+    {
+      "id": "medine-t2.l15.vocab-1#9",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:innama",
+      "distractors": ["w:lima", "w:nazzara"],
+      "explain": "« Seulement, ne… que » : {ar|إِنَّمَا}. {ar|لِمَ} veut dire « pourquoi ? »."
+    },
+    {
+      "id": "medine-t2.l15.vocab-1#10",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ {0} الْيَوْمَ.",
+      "fr": "Zayd est absent aujourd'hui.",
+      "gaps": [ { "answers": ["غَائِبٌ"] } ],
+      "options": ["غَائِبٌ", "مَرِيضٌ", "جَدِيدٌ"],
+      "explain": "« Absent » : {ar|غَائِبٌ}. ({ar|مَرِيضٌ} voudrait dire « malade » et {ar|جَدِيدٌ} « nouveau »)."
+    },
+    { "id": "medine-t2.l15.vocab-1#11", "type": "build", "item": "w:lihya", "extra": ["ه"] },
+    { "id": "medine-t2.l15.vocab-1#12", "type": "build", "item": "w:maqad", "extra": ["ك"] },
+    {
+      "id": "medine-t2.l15.vocab-1#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd est absent aujourd'hui.",
+      "answers": ["زَيْدٌ غَائِبٌ الْيَوْمَ."],
+      "explain": "{ar|غَائِبٌ} : absent. {ar|الْيَوْمَ} : aujourd'hui."
+    },
+    {
+      "id": "medine-t2.l15.vocab-1#14",
+      "type": "order",
+      "fr": "Zayd s'est assis sur ce siège.",
+      "answers": [["جَلَسَ", "زَيْدٌ", "عَلَى", "هٰذَا", "الْمَقْعَدِ"], ["زَيْدٌ", "جَلَسَ", "عَلَى", "هٰذَا", "الْمَقْعَدِ"]],
+      "punctuation": ".",
+      "explain": "Après {ar|عَلَى}, le nom est au génitif : {ar|الْمَقْعَدِ}."
+    }
+  ]
+}

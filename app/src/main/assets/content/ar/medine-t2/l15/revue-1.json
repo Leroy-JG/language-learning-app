@@ -1,0 +1,102 @@
+{
+  "id": "medine-t2.l15.revue-1",
+  "type": "review",
+  "title": "Le jussif : ce que tu sais déjà",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t2.l15.revue-1#1",
+      "type": "tip",
+      "title": "Ce que tu sais déjà du jussif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Aux chapitres 12 à 14, tu as vu que le présent peut être au jussif ({ar|الْجَزْمُ}). Deux mots que tu connais déjà l'y mettent : {ar|لَمْ}, qui nie le passé, et {ar|لَا}, quand elle interdit."
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Exemple", "Sens"],
+          "rows": [
+            ["{ar|لَمْ}", "{ar|لَمْ تَدْرُسْ}", "tu n'as pas étudié"],
+            ["{ar|لَا} (interdiction)", "{ar|لَا تَدْرُسْ}", "n'étudie pas !"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans les deux cas, le verbe prend le sukūn (ou perd son {ar|ن}) : c'est la marque du jussif. Aujourd'hui, on étudie de plus près les mots qui font cela."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.revue-1#2",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif ({ar|رَفْعٌ})" }, { "fr": "jussif ({ar|جَزْمٌ})" } ],
+      "cards": [
+        { "ar": "لَمْ تَكْتُبْ", "category": 1 },
+        { "ar": "لَمْ يَذْهَبْ", "category": 1 },
+        { "ar": "لَمْ أَفْتَحْ", "category": 1 },
+        { "ar": "تَشْرَبُ الشَّايَ", "category": 0 },
+        { "ar": "أَذْهَبُ إِلَى الْمَدْرَسَةِ", "category": 0 },
+        { "ar": "يَكْتُبُ زَيْدٌ", "category": 0 }
+      ],
+      "instruction": "Quel est l'état du verbe ?",
+      "explain": "Après {ar|لَمْ}, le présent est au jussif (sukūn). Sans particule, il garde la damma."
+    },
+    {
+      "id": "medine-t2.l15.revue-1#3",
+      "type": "fill_gap",
+      "sentence": "يَا أَحْمَدُ، لَا {0} هُنَا.",
+      "fr": "Aḥmad, ne t'assieds pas ici !",
+      "gaps": [ { "answers": ["تَجْلِسْ"] } ],
+      "options": ["تَجْلِسْ", "تَجْلِسِي", "تَجْلِسُوا"],
+      "explain": "Aḥmad est un homme : {ar|تَجْلِسْ}, avec le sukūn du jussif."
+    },
+    {
+      "id": "medine-t2.l15.revue-1#4",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|لَا} qui interdit, le verbe garde sa damma." },
+      "answer": false,
+      "explain": "Non : après {ar|لَا} qui interdit, le présent est au jussif ({ar|لَا تَكْتُبْ}), avec un sukūn."
+    },
+    {
+      "id": "medine-t2.l15.revue-1#5",
+      "type": "spot",
+      "instruction": "Touche le verbe qui est au jussif.",
+      "words": ["يَا", "زَيْدُ", "لَا", "تَضْرِبْ", "زَمِيلَكَ!"],
+      "answers": [3],
+      "fr": "Zayd, ne frappe pas ton camarade !",
+      "explain": "{ar|تَضْرِبْ} suit {ar|لَا} qui interdit : il prend le sukūn."
+    },
+    {
+      "id": "medine-t2.l15.revue-1#6",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « N'écris pas ta leçon ! » (à un homme) ?" },
+      "choices": [
+        { "ar": "لَا تَكْتُبْ دَرْسَكَ" },
+        { "ar": "لَا تَكْتُبِي دَرْسَكِ" },
+        { "ar": "لَا تَكْتُبُوا دَرْسَكُمْ" }
+      ],
+      "answer": 0,
+      "explain": "À un seul homme : {ar|لَا تَكْتُبْ} et {ar|دَرْسَكَ}. Les deux autres s'adressent à une femme et à plusieurs hommes."
+    },
+    {
+      "id": "medine-t2.l15.revue-1#7",
+      "type": "order",
+      "fr": "Ne va pas à l'école, Bilāl !",
+      "answers": [
+        ["لَا", "تَذْهَبْ", "إِلَى", "الْمَدْرَسَةِ", "يَا", "بِلَالُ"],
+        ["يَا", "بِلَالُ", "لَا", "تَذْهَبْ", "إِلَى", "الْمَدْرَسَةِ"]
+      ],
+      "punctuation": "!",
+      "explain": "{ar|لَا} + {ar|تَذْهَبْ} (sukūn). Le mot d'appel peut se placer au début ou à la fin."
+    },
+    {
+      "id": "medine-t2.l15.revue-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "N'ouvre pas la porte !",
+      "answers": ["لَا تَفْتَحِ الْبَابَ."],
+      "explain": "{ar|لَا} + {ar|تَفْتَحْ} : devant l'article, le sukūn devient une kasra (chapitre 14)."
+    }
+  ]
+}

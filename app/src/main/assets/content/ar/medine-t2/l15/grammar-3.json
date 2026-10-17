@@ -1,0 +1,143 @@
+{
+  "id": "medine-t2.l15.grammar-3",
+  "type": "grammar",
+  "title": "À qui parle-t-on ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l15.grammar-3#1",
+      "type": "tip",
+      "title": "Une fin différente pour chaque personne",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme après {ar|لَمْ} (chapitres 12 à 14), la fin du verbe après {ar|لَا} qui interdit dépend de la personne à qui l'on parle. Voici le tableau avec {ar|ذَهَبَ} :"
+        },
+        {
+          "type": "table",
+          "header": ["À qui je parle", "Le présent", "Après {ar|لَا} (interdiction)", "Ce qui change"],
+          "rows": [
+            ["{ar|أَنْتَ} (un homme)", "{ar|تَذْهَبُ}", "{ar|لَا تَذْهَبْ}", "un sukūn"],
+            ["{ar|أَنْتِ} (une femme)", "{ar|تَذْهَبِينَ}", "{ar|لَا تَذْهَبِي}", "le {ar|ن} tombe"],
+            ["{ar|أَنْتُمَا} (deux personnes)", "{ar|تَذْهَبَانِ}", "{ar|لَا تَذْهَبَا}", "le {ar|ن} tombe"],
+            [
+              "{ar|أَنْتُمْ} (plusieurs hommes)",
+              "{ar|تَذْهَبُونَ}",
+              "{ar|لَا تَذْهَبُوا}",
+              "le {ar|ن} tombe (et un alif muet s'écrit)"
+            ],
+            [
+              "{ar|أَنْتُنَّ} (plusieurs femmes)",
+              "{ar|تَذْهَبْنَ}",
+              "{ar|لَا تَذْهَبْنَ}",
+              "rien : le {ar|نَ} est le pronom"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "C'est la règle des cinq verbes (chapitre 13) : le {ar|ن} qui tombe est la marque du nominatif. Chez les femmes ({ar|تَذْهَبْنَ}), le {ar|نَ} est le pronom lui-même (chapitre 12) : il reste."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "{ar|لَا} garde la lettre du présent ({ar|تَ}), contrairement à l'impératif, qui la supprime (chapitre 14) : « va ! » se dit {ar|اِذْهَبْ}, mais « ne va pas ! » se dit {ar|لَا تَذْهَبْ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.grammar-3#2",
+      "type": "tip",
+      "title": "Quatre phrases du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le mot d'appel te dit à qui l'on parle : un homme, une femme, plusieurs hommes ou plusieurs femmes."
+        },
+        { "type": "example", "ar": "يَا أَحْمَدُ لَا تَذْهَبْ.", "fr": "Aḥmad, ne pars pas !" },
+        { "type": "example", "ar": "يَا مَرْيَمُ لَا تَذْهَبِي.", "fr": "Maryam, ne pars pas ! (à une femme)" },
+        { "type": "example", "ar": "يَا إِخْوَانُ لَا تَذْهَبُوا.", "fr": "Frères, ne partez pas !" },
+        { "type": "example", "ar": "يَا أَخَوَاتُ لَا تَذْهَبْنَ.", "fr": "Sœurs, ne partez pas !" }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.grammar-3#3",
+      "type": "sort",
+      "categories": [ { "fr": "un homme" }, { "fr": "une femme" }, { "fr": "plusieurs personnes" } ],
+      "cards": [
+        { "ar": "لَا تَدْخُلْ", "category": 0 },
+        { "ar": "لَا تَجْلِسْ", "category": 0 },
+        { "ar": "لَا تَدْخُلِي", "category": 1 },
+        { "ar": "لَا تَضْحَكِي", "category": 1 },
+        { "ar": "لَا تَدْخُلُوا", "category": 2 },
+        { "ar": "لَا تَجْلِسْنَ", "category": 2 }
+      ],
+      "instruction": "À qui parle-t-on ?",
+      "explain": "Un sukūn : un homme. Le {ar|ن} tombé après un {ar|ي} : une femme. Un {ar|◌ُوا} ou un {ar|نَ} pronom : plusieurs personnes."
+    },
+    {
+      "id": "medine-t2.l15.grammar-3#4",
+      "type": "fill_gap",
+      "sentence": "يَا مَرْيَمُ، لَا {0} إِلَى الْمَلْعَبِ.",
+      "fr": "Maryam, ne va pas au terrain de jeu !",
+      "gaps": [ { "answers": ["تَذْهَبِي"] } ],
+      "options": ["تَذْهَبْ", "تَذْهَبِي", "تَذْهَبُوا"],
+      "explain": "Maryam est une femme : {ar|تَذْهَبِينَ} perd son {ar|ن} → {ar|تَذْهَبِي}."
+    },
+    {
+      "id": "medine-t2.l15.grammar-3#5",
+      "type": "fill_gap",
+      "sentence": "يَا إِخْوَانُ، لَا {0} هُنَا.",
+      "fr": "Frères, ne vous asseyez pas ici !",
+      "gaps": [ { "answers": ["تَجْلِسُوا"] } ],
+      "options": ["تَجْلِسْ", "تَجْلِسِي", "تَجْلِسُوا"],
+      "explain": "Plusieurs hommes : {ar|تَجْلِسُونَ} perd son {ar|ن} → {ar|تَجْلِسُوا}."
+    },
+    {
+      "id": "medine-t2.l15.grammar-3#6",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans « Sœurs, ne partez pas ! » ({ar|لَا تَذْهَبْنَ}), le {ar|ن} final est tombé, comme pour les hommes ({ar|لَا تَذْهَبُوا})."
+      },
+      "answer": false,
+      "explain": "Non : chez les femmes, le {ar|نَ} est le pronom, pas la marque du nominatif. Il reste."
+    },
+    {
+      "id": "medine-t2.l15.grammar-3#7",
+      "type": "spot",
+      "instruction": "Touche le verbe qui s'adresse à une femme.",
+      "words": ["يَا", "سُعَادُ", "لَا", "تَأْكُلِي", "هٰذَا!"],
+      "answers": [3],
+      "fr": "Suʿād, ne mange pas ça !",
+      "explain": "{ar|تَأْكُلِي} : le {ar|ن} de {ar|تَأْكُلِينَ} est tombé."
+    },
+    {
+      "id": "medine-t2.l15.grammar-3#8",
+      "type": "order",
+      "fr": "Ne descendez pas de la voiture, frères !",
+      "answers": [
+        ["لَا", "تَنْزِلُوا", "مِنَ", "السَّيَّارَةِ", "يَا", "إِخْوَانُ"],
+        ["يَا", "إِخْوَانُ", "لَا", "تَنْزِلُوا", "مِنَ", "السَّيَّارَةِ"]
+      ],
+      "punctuation": "!",
+      "explain": "Plusieurs hommes : {ar|تَنْزِلُونَ} perd son {ar|ن} → {ar|تَنْزِلُوا}."
+    },
+    {
+      "id": "medine-t2.l15.grammar-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ne joue pas dans la rue, Maryam !",
+      "answers": ["لَا تَلْعَبِي فِي الشَّارِعِ يَا مَرْيَمُ.", "يَا مَرْيَمُ لَا تَلْعَبِي فِي الشَّارِعِ."],
+      "explain": "Maryam est une femme : {ar|تَلْعَبِينَ} perd son {ar|ن} → {ar|تَلْعَبِي}."
+    },
+    {
+      "id": "medine-t2.l15.grammar-3#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Sœurs, ne riez pas en classe !",
+      "answers": ["يَا أَخَوَاتُ لَا تَضْحَكْنَ فِي الْفَصْلِ.", "لَا تَضْحَكْنَ فِي الْفَصْلِ يَا أَخَوَاتُ."],
+      "explain": "Plusieurs femmes : {ar|تَضْحَكْنَ} garde son {ar|نَ}, le pronom."
+    }
+  ]
+}

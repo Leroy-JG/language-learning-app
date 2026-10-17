@@ -1,0 +1,150 @@
+{
+  "id": "medine-t2.l15.practice-2",
+  "type": "vocabulary",
+  "title": "Lire les interdictions",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l15.practice-2#1",
+      "type": "tip",
+      "title": "Lire les interdictions",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur te fait lire dix phrases d'interdiction. D'abord l'échauffement : un présent, puis la même forme après {ar|لَا} qui interdit."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "تَذْهَبُ", "fr": "tu vas" }, "to": { "ar": "لَا تَذْهَبْ", "fr": "ne va pas !" } },
+            {
+              "from": { "ar": "تَكْتُبُ", "fr": "tu écris" },
+              "to": { "ar": "لَا تَكْتُبْ", "fr": "n'écris pas !" }
+            },
+            { "from": { "ar": "تَشْرَبُ", "fr": "tu bois" }, "to": { "ar": "لَا تَشْرَبْ", "fr": "ne bois pas !" } }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans {ar|فَلَا تَخْرُجْ}, le {ar|فَ} veut dire « donc, alors » ; dans {ar|وَلَا تَذْهَبْ}, le {ar|وَ} veut dire « et ». Dans les deux cas, {ar|لَا} garde son rôle."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.practice-2#2",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|اِفْتَحِ النَّافِذَةَ وَلَا تَفْتَحِ الْبَابَ} ?" },
+      "choices": [
+        { "fr": "Ouvre la fenêtre et n'ouvre pas la porte" },
+        { "fr": "Ouvre la porte et n'ouvre pas la fenêtre" },
+        { "fr": "Ferme la fenêtre et ouvre la porte" }
+      ],
+      "answer": 0,
+      "explain": "{ar|اِفْتَحِ} (impératif) : « ouvre ». {ar|وَلَا تَفْتَحِ} : « et n'ouvre pas »."
+    },
+    {
+      "id": "medine-t2.l15.practice-2#3",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ne t'assieds pas sur la route.",
+      "answers": ["لَا تَجْلِسْ فِي الطَّرِيقِ."],
+      "explain": "{ar|لَا} + {ar|تَجْلِسْ} (sukūn) ; {ar|فِي} n'est pas une hamza de liaison."
+    },
+    {
+      "id": "medine-t2.l15.practice-2#4",
+      "type": "fill_gap",
+      "sentence": "لَا {0} فِي الْفَصْلِ.",
+      "fr": "Ne ris pas en classe !",
+      "gaps": [ { "answers": ["تَضْحَكْ"] } ],
+      "options": ["تَضْحَكْ", "تَضْحَكِي", "تَضْحَكُوا"],
+      "explain": "Un seul homme : {ar|تَضْحَكْ}, avec le sukūn du jussif."
+    },
+    {
+      "id": "medine-t2.l15.practice-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|لَا تَفْتَحِ الْبَابَ}, la kasra de {ar|تَفْتَحِ} est une marque de cas." },
+      "answer": false,
+      "explain": "Non : c'est le sukūn du jussif qui devient une kasra devant l'article (chapitre 14). Un verbe n'a jamais de kasra de cas."
+    },
+    {
+      "id": "medine-t2.l15.practice-2#6",
+      "type": "fill_gap",
+      "sentence": "لَا {0} زَمِيلَكَ.",
+      "fr": "Ne frappe pas ton camarade !",
+      "gaps": [ { "answers": ["تَضْرِبْ"] } ],
+      "options": ["تَضْرِبْ", "تَضْرِبِي", "تَضْرِبُوا"],
+      "explain": "Le possessif {ar|كَ} s'adresse à un homme : {ar|تَضْرِبْ}."
+    },
+    {
+      "id": "medine-t2.l15.practice-2#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ne me pose pas cette question !",
+      "answers": ["لَا تَسْأَلْنِي هٰذَا السُّؤَالَ."],
+      "explain": "{ar|لَا} + {ar|تَسْأَلْ} (sukūn) + {ar|نِي} (« moi »)."
+    },
+    {
+      "id": "medine-t2.l15.practice-2#8",
+      "type": "order",
+      "fr": "Ne rase pas ta barbe !",
+      "answers": [["لَا", "تَحْلِقْ", "لِحْيَتَكَ"]],
+      "punctuation": "!",
+      "explain": "{ar|لِحْيَتَكَ} : « ta barbe », complément du verbe (fatha)."
+    },
+    {
+      "id": "medine-t2.l15.practice-2#9",
+      "type": "spot",
+      "instruction": "Touche les deux verbes qui sont au jussif.",
+      "words": ["فَلَا", "تَخْرُجْ", "مِنَ", "الْبَيْتِ", "وَلَا", "تَذْهَبْ", "إِلَى", "الْمَدْرَسَةِ"],
+      "answers": [1, 5],
+      "fr": "Ne sors pas de la maison et ne va pas à l'école.",
+      "explain": "{ar|تَخْرُجْ} et {ar|تَذْهَبْ} suivent chacun un {ar|لَا} qui interdit."
+    },
+    {
+      "id": "medine-t2.l15.practice-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ne mange pas dans la rue.",
+      "answers": ["لَا تَأْكُلْ فِي الشَّارِعِ."],
+      "explain": "{ar|لَا} + {ar|تَأْكُلْ} (sukūn)."
+    },
+    {
+      "id": "medine-t2.l15.practice-2#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ne mens pas !",
+      "answers": ["لَا تَكْذِبْ."],
+      "explain": "{ar|لَا} + {ar|تَكْذِبْ} (sukūn)."
+    },
+    {
+      "id": "medine-t2.l15.practice-2#12",
+      "type": "tip",
+      "title": "Le verset du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre cite ce que dit Ibrāhīm (Abraham) à son père dans la sourate Maryam :"
+        },
+        { "type": "example", "ar": "يَا أَبَتِ لَا تَعْبُدِ الشَّيْطَانَ.", "fr": "Mon père, n'adore pas Satan !" },
+        {
+          "type": "table",
+          "header": ["Mot", "Sens"],
+          "rows": [
+            ["{ar|يَا أَبَتِ}", "ô mon père (une autre façon de dire {ar|يَا أَبِي})"],
+            ["{ar|لَا تَعْبُدِ}", "n'adore pas ({ar|تَعْبُدْ} + une kasra devant l'article)"],
+            ["{ar|الشَّيْطَانَ}", "Satan (complément du verbe, à la fatha)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l15.practice-2#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Mon père, n'adore pas Satan !",
+      "answers": ["يَا أَبَتِ لَا تَعْبُدِ الشَّيْطَانَ."],
+      "explain": "{ar|لَا تَعْبُدِ} : le sukūn de {ar|تَعْبُدْ} devient une kasra devant {ar|الشَّيْطَانَ}."
+    }
+  ]
+}
