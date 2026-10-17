@@ -1,0 +1,165 @@
+{
+  "id": "medine-t2.l13.grammar-4",
+  "type": "grammar",
+  "title": "Le verbe à finale défectueuse",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l13.grammar-4#1",
+      "type": "tip",
+      "title": "Un nom pour ces verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au chapitre 12, tu as vu des verbes dont le présent se termine par {ar|و}, {ar|ي} ou {ar|ى}. Le professeur les appelle {ar|الْفِعْلُ الْمُعْتَلُّ الْآخِرِ} : « le verbe à finale défectueuse »."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Définition :** c'est tout verbe dont la dernière lettre de la racine est une lettre défectueuse. Elles sont trois : {ar|و}, {ar|ي} et {ar|ى}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le {ar|ى} final (sans points) se prononce comme un « â » long. C'est un {ar|ي} (ou un {ar|و}) de la racine, écrit sans points : le professeur compte trois lettres, {ar|و}, {ar|ي} et {ar|ى}."
+        }
+      ]
+    },
+    { "id": "medine-t2.l13.grammar-4#2", "type": "present", "item": "w:muatall-akhir" },
+    { "id": "medine-t2.l13.grammar-4#3", "type": "present", "item": "w:harf-illa" },
+    {
+      "id": "medine-t2.l13.grammar-4#4",
+      "type": "sort",
+      "categories": [ { "fr": "finale défectueuse" }, { "fr": "pas de finale défectueuse" } ],
+      "cards": [
+        { "ar": "يَدْعُو", "category": 0 },
+        { "ar": "يَمْشِي", "category": 0 },
+        { "ar": "يَسْعَى", "category": 0 },
+        { "ar": "يَرَى", "category": 0 },
+        { "ar": "يَكْتُبُ", "category": 1 },
+        { "ar": "يَذْهَبُ", "category": 1 },
+        { "ar": "تَذْهَبِينَ", "category": 1 },
+        { "ar": "يَجْلِسُونَ", "category": 1 }
+      ],
+      "instruction": "Le verbe est-il à finale défectueuse ?",
+      "explain": "{ar|يَدْعُو}, {ar|يَمْشِي}, {ar|يَسْعَى} et {ar|يَرَى} se terminent par une lettre défectueuse. Dans {ar|تَذْهَبِينَ} et {ar|يَجْلِسُونَ}, le {ar|ي} et le {ar|و} sont des pronoms, suivis d'un {ar|ن} : ils ne font pas partie de la racine."
+    },
+    {
+      "id": "medine-t2.l13.grammar-4#5",
+      "type": "tip",
+      "title": "Les exemples du professeur",
+      "blocks": [
+        { "type": "paragraph", "text": "Voici ses neuf exemples, au présent : trois pour chaque lettre." },
+        {
+          "type": "table",
+          "header": ["Lettre finale", "Présent", "Sens"],
+          "rows": [
+            ["{ar|و}", "{ar|يَدْعُو}", "il appelle, il invite"],
+            ["{ar|و}", "{ar|يَسْطُو}", "il attaque (avec {ar|عَلَى})"],
+            ["{ar|و}", "{ar|يَنْمُو}", "il grandit, il croît"],
+            ["{ar|ي}", "{ar|يَقْضِي}", "il accomplit, il tranche, il passe (du temps)"],
+            ["{ar|ي}", "{ar|يَجْرِي}", "il court, il coule"],
+            ["{ar|ي}", "{ar|يَمْشِي}", "il marche"],
+            ["{ar|ى}", "{ar|يَسْعَى}", "il s'efforce, il se hâte"],
+            ["{ar|ى}", "{ar|يَرْقَى}", "il monte, il s'élève"],
+            ["{ar|ى}", "{ar|يَبْقَى}", "il reste"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Tu n'as pas à retenir les mots nouveaux : ce qui compte ici, ce sont les formes."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.grammar-4#6",
+      "type": "tip",
+      "title": "Deux particularités",
+      "blocks": [
+        { "type": "paragraph", "text": "Ces verbes ont deux particularités :" },
+        { "type": "paragraph", "text": "1. Ils contredisent **en partie** la règle de base (damma, fatha, sukūn)." },
+        {
+          "type": "paragraph",
+          "text": "2. Certaines voyelles de cas **n'apparaissent pas** à la fin du verbe : on dit qu'elles sont sous-entendues."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "L'activité suivante détaille chaque état : nominatif, accusatif, jussif."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.grammar-4#7",
+      "type": "tip",
+      "title": "Le plan du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le schéma du professeur résume tout le chapitre. Un présent variable ({ar|مُعْرَبٌ}) a la marque de base ({ar|إِعْرَابٌ أَصْلِيٌّ}, vue au chapitre 12) tant que rien ne change sa fin ; sinon il a une marque secondaire ({ar|إِعْرَابٌ فَرْعِيٌّ}). (Avec le {ar|نَ} des femmes, le présent est invariable : chapitre 12.)"
+        },
+        {
+          "type": "table",
+          "header": ["Marque", "Condition donnée par le professeur", "Exemples"],
+          "rows": [
+            [
+              "de base ({ar|أَصْلِيٌّ})",
+              "{ar|لَمْ يَتَّصِلْ بِآخِرِهِ شَيْءٌ وَلَيْسَ فِي آخِرِهِ حَرْفُ عِلَّةٍ} (rien ne s'est joint à sa fin et il n'y a pas de lettre défectueuse à sa fin)",
+              "{ar|يَكْتُبُ}, {ar|أَكْتُبُ}, {ar|تَكْتُبُ}"
+            ],
+            [
+              "secondaire ({ar|فَرْعِيٌّ}) : cas 1",
+              "{ar|إِذَا اتَّصَلَ بِهِ ضَمِيرٌ} {ar|ي}, {ar|ا}, {ar|و} (si l'un de ces pronoms s'y est joint) : ce sont les cinq verbes",
+              "{ar|تَكْتُبِينَ}, {ar|يَكْتُبَانِ}, {ar|تَكْتُبُونَ}"
+            ],
+            [
+              "secondaire ({ar|فَرْعِيٌّ}) : cas 2",
+              "{ar|آخِرُهُ حَرْفُ عِلَّةٍ} (sa fin est une lettre défectueuse) : le verbe à finale défectueuse",
+              "{ar|يَسْعَى}, {ar|يَقْضِي}, {ar|يَدْعُو}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le verbe de la première condition, {ar|يَتَّصِلُ}, fait partie du vocabulaire de ce chapitre."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.grammar-4#8",
+      "type": "spot",
+      "instruction": "Touche les verbes à finale défectueuse.",
+      "words": ["الطَّالِبُ", "يَسْعَى", "وَيَكْتُبُ", "وَيَمْشِي"],
+      "answers": [1, 3],
+      "fr": "L'étudiant s'efforce, écrit et marche.",
+      "explain": "{ar|يَسْعَى} se termine par {ar|ى} et {ar|يَمْشِي} par {ar|ي}. {ar|يَكْتُبُ} se termine par {ar|ب}."
+    },
+    {
+      "id": "medine-t2.l13.grammar-4#9",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|يَجْلِسُونَ}, le {ar|و} est-il une lettre défectueuse de la racine ?" },
+      "choices": [
+        { "fr": "Non : c'est le wāw du groupe, un pronom" },
+        { "fr": "Oui : c'est la dernière lettre de la racine" }
+      ],
+      "answer": 0,
+      "explain": "La racine de {ar|يَجْلِسُونَ} est {ar|ج}-{ar|ل}-{ar|س}. Le {ar|و} est le pronom sujet, et le {ar|ن} est la marque du nominatif."
+    },
+    {
+      "id": "medine-t2.l13.grammar-4#10",
+      "type": "true_false",
+      "statement": { "fr": "{ar|يَمْشِي}, le présent de {ar|مَشَى}, est un verbe à finale défectueuse." },
+      "answer": true,
+      "explain": "Oui : il se termine par la lettre défectueuse {ar|ي}."
+    },
+    {
+      "id": "medine-t2.l13.grammar-4#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd s'efforce.",
+      "answers": ["زَيْدٌ يَسْعَى.", "يَسْعَى زَيْدٌ."],
+      "explain": "{ar|يَسْعَى} : le présent de {ar|سَعَى}, un verbe à finale défectueuse ({ar|ى})."
+    }
+  ]
+}

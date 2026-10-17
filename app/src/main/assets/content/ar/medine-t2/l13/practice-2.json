@@ -1,0 +1,145 @@
+{
+  "id": "medine-t2.l13.practice-2",
+  "type": "vocabulary",
+  "title": "Exercice 2 : complète avec le verbe qui convient",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l13.practice-2#1",
+      "type": "tip",
+      "title": "Qui parle, à qui ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans l'exercice 2, le livre ne donne pas le verbe : il faut en trouver un qui convienne. Ici, le sens est donné en français ; ton travail est de choisir la **bonne personne** du présent. Les indices sont le sujet, le mot d'appel (après {ar|يَا}) et le pronom."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Quand le sujet est un nom de personnes placé **avant** le verbe, le verbe s'accorde en nombre ({ar|أَخَوَاتُ حَمْزَةَ يَدْرُسْنَ}). Quand le nom sujet est placé **après** le verbe, le verbe reste au singulier et s'accorde seulement en genre ({ar|يَدْخُلُ الطُّلَّابُ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.practice-2#2",
+      "type": "fill_gap",
+      "sentence": "{0} اللُّغَةَ الْعَرَبِيَّةَ يَا سَيِّدَتِي؟",
+      "fr": "Étudies-tu la langue arabe, madame ?",
+      "gaps": [ { "answers": ["أَتَدْرُسِينَ"] } ],
+      "options": ["أَتَدْرُسِينَ", "أَتَدْرُسُونَ", "أَتَدْرُسْنَ"],
+      "explain": "On parle à une femme (« madame ») : {ar|تَدْرُسِينَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} كُرَةَ الْقَدَمِ كُلَّ مَسَاءٍ.",
+      "fr": "Nous jouons au football chaque soir.",
+      "gaps": [ { "answers": ["نَلْعَبُ"] } ],
+      "options": ["نَلْعَبُ", "أَلْعَبُ", "يَلْعَبُونَ"],
+      "explain": "« Nous » : la lettre {ar|نَ} au début, {ar|نَلْعَبُ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-2#4",
+      "type": "spot",
+      "instruction": "Touche le nom qui dit à qui on parle.",
+      "words": ["أَفِي", "مَهَاجِعِ", "الْجَامِعَةِ", "تَسْكُنُونَ", "يَا", "إِخْوَانُ؟"],
+      "answers": [5],
+      "fr": "Habitez-vous dans les dortoirs de l'université, mes frères ?",
+      "explain": "{ar|إِخْوَانُ} (« frères ») dit qu'on parle à plusieurs hommes."
+    },
+    {
+      "id": "medine-t2.l13.practice-2#5",
+      "type": "fill_gap",
+      "sentence": "أَفِي مَهَاجِعِ الْجَامِعَةِ {0} يَا إِخْوَانُ؟",
+      "fr": "Habitez-vous dans les dortoirs de l'université, mes frères ?",
+      "gaps": [ { "answers": ["تَسْكُنُونَ"] } ],
+      "options": ["تَسْكُنُونَ", "تَسْكُنْنَ", "تَسْكُنَانِ"],
+      "explain": "On parle à plusieurs hommes : {ar|تَسْكُنُونَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-2#6",
+      "type": "fill_gap",
+      "sentence": "التُّجَّارُ {0} دَكَاكِينَهُمْ فِي السَّاعَةِ التَّاسِعَةِ.",
+      "fr": "Les commerçants ouvrent leurs boutiques à neuf heures.",
+      "gaps": [ { "answers": ["يَفْتَحُونَ"] } ],
+      "options": ["يَفْتَحُونَ", "يَفْتَحْنَ", "يَفْتَحَانِ"],
+      "explain": "« Les commerçants » (plusieurs hommes), placés avant le verbe : {ar|يَفْتَحُونَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-2#7",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans {ar|أَخَوَاتُ حَمْزَةَ يَدْرُسْنَ بِالْجَامِعَةِ}, le verbe est au pluriel féminin parce que le sujet est placé avant lui."
+      },
+      "answer": true,
+      "explain": "Oui : le sujet {ar|أَخَوَاتُ حَمْزَةَ} précède le verbe, qui s'accorde : {ar|يَدْرُسْنَ} (elles)."
+    },
+    {
+      "id": "medine-t2.l13.practice-2#8",
+      "type": "fill_gap",
+      "sentence": "{0} الْمُدَرِّسُ الدَّرْسَ عَلَى السَّبُّورَةِ.",
+      "fr": "L'enseignant écrit la leçon au tableau.",
+      "gaps": [ { "answers": ["يَكْتُبُ"] } ],
+      "options": ["يَكْتُبُ", "تَكْتُبُ", "يَكْتُبُونَ"],
+      "explain": "Le sujet {ar|الْمُدَرِّسُ} (un homme) vient après le verbe : {ar|يَكْتُبُ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-2#9",
+      "type": "fill_gap",
+      "sentence": "أَخَوَاتُ حَمْزَةَ {0} بِالْجَامِعَةِ.",
+      "fr": "Les sœurs de Ḥamza étudient à l'université.",
+      "gaps": [ { "answers": ["يَدْرُسْنَ"] } ],
+      "options": ["يَدْرُسْنَ", "يَدْرُسُونَ", "تَدْرُسُ"],
+      "explain": "« Les sœurs » (elles), placées avant le verbe : {ar|يَدْرُسْنَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-2#10",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|أَقْرَأُ} commence-t-il par {ar|أَ} dans {ar|أَنَا أَقْرَأُ الْقُرْآنَ} ?" },
+      "choices": [
+        { "fr": "Parce que le sujet est {ar|أَنَا} (« je »)" },
+        { "fr": "Parce que le sujet est {ar|نَحْنُ} (« nous »)" },
+        { "fr": "Parce que le verbe est au passé" }
+      ],
+      "answer": 0,
+      "explain": "La lettre du présent {ar|أَ} correspond à « je »."
+    },
+    {
+      "id": "medine-t2.l13.practice-2#11",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} الْقُرْآنَ كُلَّ صَبَاحٍ.",
+      "fr": "Je lis le Coran chaque matin.",
+      "gaps": [ { "answers": ["أَقْرَأُ"] } ],
+      "options": ["أَقْرَأُ", "نَقْرَأُ", "تَقْرَأُ"],
+      "explain": "« Je » : {ar|أَقْرَأُ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-2#12",
+      "type": "fill_gap",
+      "sentence": "فِي أَيِّ مَحَطَّةٍ {0} يَا أَخِي؟",
+      "fr": "À quelle station descends-tu, mon frère ?",
+      "gaps": [ { "answers": ["تَنْزِلُ"] } ],
+      "options": ["تَنْزِلُ", "تَنْزِلِينَ", "يَنْزِلُ"],
+      "explain": "On parle à un homme (« mon frère ») : {ar|تَنْزِلُ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-2#13",
+      "type": "order",
+      "fr": "De quelle radio écoutez-vous les nouvelles, les filles ?",
+      "answers": [
+        ["مِنْ", "أَيِّ", "إِذَاعَةٍ", "تَسْمَعْنَ", "الْأَخْبَارَ", "يَا", "فَتَيَاتُ"],
+        ["يَا", "فَتَيَاتُ", "مِنْ", "أَيِّ", "إِذَاعَةٍ", "تَسْمَعْنَ", "الْأَخْبَارَ"]
+      ],
+      "punctuation": "؟",
+      "explain": "On parle à plusieurs filles : {ar|تَسْمَعْنَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-2#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ma sœur connaît trois langues.",
+      "answers": ["أُخْتِي تَعْرِفُ ثَلَاثَ لُغَاتٍ.", "تَعْرِفُ أُخْتِي ثَلَاثَ لُغَاتٍ."],
+      "explain": "{ar|تَعْرِفُ} : « elle connaît ». {ar|لُغَةٌ} est féminin : les nombres de 3 à 10 prennent le genre contraire du nom compté (tome 1), donc {ar|ثَلَاثُ لُغَاتٍ}, à l'accusatif {ar|ثَلَاثَ لُغَاتٍ} ; le nom compté est au pluriel, au génitif."
+    }
+  ]
+}

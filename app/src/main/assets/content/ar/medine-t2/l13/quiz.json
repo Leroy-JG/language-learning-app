@@ -1,0 +1,161 @@
+{
+  "id": "medine-t2.l13.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre",
+  "screens": [
+    {
+      "id": "medine-t2.l13.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:sayyid",
+      "distractors": ["w:akhir", "w:saff"],
+      "explain": "{ar|سَيِّدٌ} : un monsieur, un maître. {ar|أَخِيرٌ} : dernier ; {ar|صَفٌّ} : un rang."
+    },
+    {
+      "id": "medine-t2.l13.quiz#2",
+      "type": "question",
+      "prompt": { "fr": "Après {ar|لَنْ}, que devient le {ar|ن} final de {ar|تَكْتُبُونَ} ?" },
+      "choices": [
+        { "fr": "Il tombe : {ar|لَنْ تَكْتُبُوا}" },
+        { "fr": "Il reste : {ar|لَنْ تَكْتُبُونَ}" },
+        { "fr": "Il devient une fatha" }
+      ],
+      "answer": 0,
+      "explain": "Pour les cinq verbes, l'accusatif et le jussif se reconnaissent à la chute du {ar|ن}."
+    },
+    {
+      "id": "medine-t2.l13.quiz#3",
+      "type": "sort",
+      "categories": [ { "fr": "un des cinq verbes" }, { "fr": "pas un des cinq verbes" } ],
+      "cards": [
+        { "ar": "تَدْرُسُونَ", "category": 0 },
+        { "ar": "تَدْرُسِينَ", "category": 0 },
+        { "ar": "تَدْرُسَانِ", "category": 0 },
+        { "ar": "يَدْرُسُ", "category": 1 },
+        { "ar": "تَدْرُسْنَ", "category": 1 },
+        { "ar": "أَدْرُسُ", "category": 1 }
+      ],
+      "instruction": "Est-ce l'un des cinq verbes ?",
+      "explain": "Les cinq verbes se terminent par {ar|◌ُونَ}, {ar|◌ِينَ} ou {ar|◌َانِ}. {ar|تَدْرُسْنَ} a le {ar|نَ} des femmes."
+    },
+    {
+      "id": "medine-t2.l13.quiz#4",
+      "type": "fill_gap",
+      "sentence": "هُمَا لَمْ {0} إِلَى الْمَدْرَسَةِ.",
+      "fr": "Eux deux ne sont pas allés à l'école.",
+      "gaps": [ { "answers": ["يَذْهَبَا"] } ],
+      "options": ["يَذْهَبَا", "يَذْهَبَانِ", "يَذْهَبُوا"],
+      "explain": "Après {ar|لَمْ}, le {ar|ن} de {ar|يَذْهَبَانِ} tombe : {ar|لَمْ يَذْهَبَا}."
+    },
+    {
+      "id": "medine-t2.l13.quiz#5",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|لَنْ}, {ar|يَكْتُبُونَ} devient {ar|لَنْ يَكْتُبُوا}." },
+      "answer": true,
+      "explain": "Oui : le {ar|ن} tombe, et on écrit un alif qu'on ne prononce pas après le wāw."
+    },
+    {
+      "id": "medine-t2.l13.quiz#6",
+      "type": "question",
+      "prompt": { "fr": "Comment le professeur analyse-t-il {ar|تَكْتُبِينَ} dans {ar|أَنْتِ تَكْتُبِينَ} ?" },
+      "choices": [
+        { "ar": "فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ ثُبُوتُ النُّونِ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الضَّمَّةُ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَجْزُومٌ وَعَلَامَةُ جَزْمِهِ حَذْفُ النُّونِ" }
+      ],
+      "answer": 0,
+      "explain": "Sans particule, le verbe est au nominatif ; la marque des cinq verbes est le maintien du {ar|ن}."
+    },
+    {
+      "id": "medine-t2.l13.quiz#7",
+      "type": "sort",
+      "categories": [ { "fr": "finale défectueuse" }, { "fr": "pas de finale défectueuse" } ],
+      "cards": [
+        { "ar": "يَقْضِي", "category": 0 },
+        { "ar": "يَبْقَى", "category": 0 },
+        { "ar": "يَنْمُو", "category": 0 },
+        { "ar": "يَشْرَبُ", "category": 1 },
+        { "ar": "تَسْكُنِينَ", "category": 1 },
+        { "ar": "يَأْكُلُونَ", "category": 1 }
+      ],
+      "instruction": "Le verbe est-il à finale défectueuse ?",
+      "explain": "{ar|يَقْضِي}, {ar|يَبْقَى} et {ar|يَنْمُو} se terminent par une lettre défectueuse. Dans {ar|تَسْكُنِينَ} et {ar|يَأْكُلُونَ}, le {ar|ي} et le {ar|و} sont des pronoms."
+    },
+    {
+      "id": "medine-t2.l13.quiz#8",
+      "type": "fill_gap",
+      "sentence": "لَمْ {0} الْوَلَدُ.",
+      "fr": "Le garçon n'a pas couru.",
+      "gaps": [ { "answers": ["يَجْرِ"] } ],
+      "options": ["يَجْرِ", "يَجْرِي", "يَجْرُونَ"],
+      "explain": "Après {ar|لَمْ}, le {ar|ي} de {ar|يَجْرِي} tombe : {ar|لَمْ يَجْرِ}."
+    },
+    {
+      "id": "medine-t2.l13.quiz#9",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle voit-on à la fin de {ar|لَنْ يَدْعُوَ} ?" },
+      "choices": [ { "fr": "une fatha sur le {ar|و}" }, { "fr": "une damma" }, { "fr": "aucune voyelle" } ],
+      "answer": 0,
+      "explain": "Après {ar|لَنْ}, la fatha se voit sur le {ar|و} et sur le {ar|ي} ; elle est cachée seulement sur le {ar|ى}."
+    },
+    {
+      "id": "medine-t2.l13.quiz#10",
+      "type": "spot",
+      "instruction": "Touche le verbe dont la lettre défectueuse est tombée.",
+      "words": ["لَمْ", "يَرَ", "زَيْدٌ", "الدَّرْسَ"],
+      "answers": [1],
+      "fr": "Zayd n'a pas vu la leçon.",
+      "explain": "{ar|يَرَ} suit {ar|لَمْ} : le {ar|ى} de {ar|يَرَى} est tombé."
+    },
+    {
+      "id": "medine-t2.l13.quiz#11",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:akhir",
+      "distractors": ["w:sayyid", "w:saff"],
+      "explain": "« Dernier » : {ar|أَخِيرٌ}. {ar|سَيِّدٌ} : un monsieur ; {ar|صَفٌّ} : un rang."
+    },
+    {
+      "id": "medine-t2.l13.quiz#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Tu n'écriras pas (à une femme).",
+      "answers": ["لَنْ تَكْتُبِي.", "أَنْتِ لَنْ تَكْتُبِي."],
+      "explain": "{ar|لَنْ} + {ar|تَكْتُبِينَ} sans son {ar|ن} : {ar|لَنْ تَكْتُبِي}."
+    },
+    {
+      "id": "medine-t2.l13.quiz#13",
+      "type": "fill_gap",
+      "sentence": "أَنْتُنَّ {0} إِلَى السُّوقِ.",
+      "fr": "Vous (plusieurs femmes), vous allez au marché.",
+      "gaps": [ { "answers": ["تَذْهَبْنَ"] } ],
+      "options": ["تَذْهَبْنَ", "تَذْهَبُونَ", "تَذْهَبِينَ"],
+      "explain": "« Vous » (plusieurs femmes) : le pronom {ar|نَ}, {ar|تَذْهَبْنَ}."
+    },
+    {
+      "id": "medine-t2.l13.quiz#14",
+      "type": "order",
+      "fr": "Zayd n'a pas contacté le directeur.",
+      "answers": [["لَمْ", "يَتَّصِلْ", "زَيْدٌ", "بِالْمُدِيرِ"], ["زَيْدٌ", "لَمْ", "يَتَّصِلْ", "بِالْمُدِيرِ"]],
+      "punctuation": ".",
+      "distractors": ["لَنْ"],
+      "explain": "{ar|لَمْ} + le présent au sukūn : {ar|لَمْ يَتَّصِلْ}."
+    },
+    {
+      "id": "medine-t2.l13.quiz#15",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "p:sayyarat-ujra",
+      "distractors": ["w:sayyara", "w:sayyid"],
+      "explain": "« Un taxi » : {ar|سَيَّارَةُ الْأُجْرَةِ}. {ar|سَيَّارَةٌ} : une voiture ; {ar|سَيِّدٌ} : un monsieur."
+    },
+    {
+      "id": "medine-t2.l13.quiz#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ils ne sont pas allés au marché.",
+      "answers": ["لَمْ يَذْهَبُوا إِلَى السُّوقِ."],
+      "explain": "{ar|لَمْ} + {ar|يَذْهَبُونَ} sans son {ar|ن} : {ar|لَمْ يَذْهَبُوا}."
+    }
+  ]
+}

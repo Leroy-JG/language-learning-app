@@ -1,0 +1,101 @@
+{
+  "id": "medine-t2.l13.revue-1",
+  "type": "review",
+  "title": "Le présent : les trois états",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t2.l13.revue-1#1",
+      "type": "tip",
+      "title": "Ce que tu sais déjà du présent",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au chapitre 12, tu as vu que le présent a trois états, comme le nom a trois cas. Voici un rappel avec {ar|كَتَبَ} :"
+        },
+        {
+          "type": "table",
+          "header": ["État du verbe", "Marque de base", "Exemple"],
+          "rows": [
+            ["{ar|الرَّفْعُ} (nominatif)", "la damma ({ar|◌ُ})", "{ar|أَنَا أَكْتُبُ}"],
+            ["{ar|النَّصْبُ} (accusatif)", "la fatha ({ar|◌َ})", "{ar|لَنْ أَكْتُبَ}"],
+            ["{ar|الْجَزْمُ} (jussif)", "le sukūn ({ar|◌ْ})", "{ar|لَمْ أَكْتُبْ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Mais deux cas changent la marque : le {ar|ن} final avec le yā' de « toi », l'alif des deux ou le wāw du groupe ; et les verbes qui se terminent par {ar|و}, {ar|ي} ou {ar|ى}. Ce chapitre explique ce qui leur arrive après {ar|لَنْ} et {ar|لَمْ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.revue-1#2",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif ({ar|رَفْعٌ})" }, { "fr": "accusatif ({ar|نَصْبٌ})" }, { "fr": "jussif ({ar|جَزْمٌ})" } ],
+      "cards": [
+        { "ar": "نَذْهَبُ", "category": 0 },
+        { "ar": "لَنْ نَذْهَبَ", "category": 1 },
+        { "ar": "لَمْ نَذْهَبْ", "category": 2 },
+        { "ar": "تَجْلِسُ", "category": 0 },
+        { "ar": "لَنْ تَجْلِسَ", "category": 1 },
+        { "ar": "لَمْ تَجْلِسْ", "category": 2 }
+      ],
+      "instruction": "Quel est l'état du verbe ?",
+      "explain": "Sans particule : {ar|رَفْعٌ} (damma). Après {ar|لَنْ} : {ar|نَصْبٌ} (fatha). Après {ar|لَمْ} : {ar|جَزْمٌ} (sukūn)."
+    },
+    {
+      "id": "medine-t2.l13.revue-1#3",
+      "type": "spot",
+      "instruction": "Touche les deux verbes dont la marque du nominatif est le {ar|ن} final.",
+      "words": ["هُمَا", "يَذْهَبَانِ", "وَأَنْتِ", "تَجْلِسِينَ", "وَأَنَا", "أَكْتُبُ"],
+      "answers": [1, 3],
+      "fr": "Eux deux vont, toi (une femme) tu t'assieds, et moi j'écris.",
+      "explain": "{ar|يَذْهَبَانِ} (l'alif des deux) et {ar|تَجْلِسِينَ} (le yā' de « toi ») gardent un {ar|ن} final. {ar|أَكْتُبُ} garde la damma."
+    },
+    {
+      "id": "medine-t2.l13.revue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi n'entend-on aucune damma à la fin de {ar|يَقْضِي} ?" },
+      "choices": [
+        { "fr": "Parce que le verbe se termine par {ar|ي} : la marque du nominatif y est cachée" },
+        { "fr": "Parce que le verbe est au passé" },
+        { "fr": "Parce que son sujet est « elles »" }
+      ],
+      "answer": 0,
+      "explain": "Avec {ar|و}, {ar|ي} ou {ar|ى} à la fin, la damma ne se prononce pas (chapitre 12)."
+    },
+    {
+      "id": "medine-t2.l13.revue-1#5",
+      "type": "fill_gap",
+      "sentence": "الطَّالِبَاتُ {0} فِي الْمَكْتَبَةِ.",
+      "fr": "Les étudiantes s'assoient à la bibliothèque.",
+      "gaps": [ { "answers": ["يَجْلِسْنَ"] } ],
+      "options": ["يَجْلِسْنَ", "يَجْلِسُونَ", "يَجْلِسَانِ"],
+      "explain": "Le sujet « les étudiantes » est un pluriel féminin placé avant le verbe : {ar|يَجْلِسْنَ}, avec le pronom {ar|نَ}."
+    },
+    {
+      "id": "medine-t2.l13.revue-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|تَذْهَبِينَ}, le pronom « toi » (une femme) est le {ar|ي}." },
+      "answer": true,
+      "explain": "Oui : le pronom est le {ar|ي}. Le {ar|ن} final marque le nominatif."
+    },
+    {
+      "id": "medine-t2.l13.revue-1#7",
+      "type": "order",
+      "fr": "Nous n'irons pas à l'université.",
+      "answers": [["لَنْ", "نَذْهَبَ", "إِلَى", "الْجَامِعَةِ"]],
+      "punctuation": ".",
+      "distractors": ["لَمْ"],
+      "explain": "{ar|لَنْ} + le présent à la fatha : {ar|لَنْ نَذْهَبَ}. {ar|لَمْ} se met avec le sukūn et nie le passé."
+    },
+    {
+      "id": "medine-t2.l13.revue-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je n'ai pas écrit.",
+      "answers": ["لَمْ أَكْتُبْ.", "أَنَا لَمْ أَكْتُبْ."],
+      "explain": "{ar|لَمْ} + le présent au sukūn : {ar|لَمْ أَكْتُبْ}."
+    }
+  ]
+}

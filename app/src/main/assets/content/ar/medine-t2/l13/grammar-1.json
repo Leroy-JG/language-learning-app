@@ -1,0 +1,123 @@
+{
+  "id": "medine-t2.l13.grammar-1",
+  "type": "grammar",
+  "title": "Les cinq verbes",
+  "icon": "hand",
+  "screens": [
+    {
+      "id": "medine-t2.l13.grammar-1#1",
+      "type": "tip",
+      "title": "Un nom pour cinq formes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au chapitre 12, tu as vu trois pronoms qui laissent un {ar|ن} à la fin du verbe : le yā' de « toi » (une femme), l'alif des deux et le wāw du groupe. Le professeur donne un nom aux cinq formes du présent qui en résultent : {ar|الْأَفْعَالُ الْخَمْسَةُ}, « les cinq verbes »."
+        },
+        {
+          "type": "table",
+          "header": ["Sujet", "Forme (avec {ar|كَتَبَ})", "Sens"],
+          "rows": [
+            ["{ar|هُمَا} (deux hommes)", "{ar|يَكْتُبَانِ}", "eux deux écrivent"],
+            [
+              "{ar|أَنْتُمَا}, ou {ar|هُمَا} (deux femmes)",
+              "{ar|تَكْتُبَانِ}",
+              "vous deux écrivez, elles deux écrivent"
+            ],
+            ["{ar|هُمْ}", "{ar|يَكْتُبُونَ}", "ils écrivent (plusieurs hommes, ou un groupe mixte)"],
+            ["{ar|أَنْتُمْ}", "{ar|تَكْتُبُونَ}", "vous écrivez (plusieurs hommes, ou un groupe mixte)"],
+            ["{ar|أَنْتِ}", "{ar|تَكْتُبِينَ}", "tu écris (à une femme)"]
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t2.l13.grammar-1#2", "type": "present", "item": "w:afal-khamsa" },
+    {
+      "id": "medine-t2.l13.grammar-1#3",
+      "type": "tip",
+      "title": "La règle du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ce sont **tous les verbes au présent dont le sujet est l'un de ces trois pronoms** : le {ar|ي} de « toi », l'{ar|ا} des deux ou le {ar|و} du groupe. Pour les reconnaître, regarde la fin du verbe : {ar|◌َانِ}, {ar|◌ُونَ} ou {ar|◌ِينَ}. Avec n'importe quel verbe : {ar|يَذْهَبَانِ}, {ar|تَجْلِسُونَ}, {ar|تَدْرُسِينَ}."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Attention : {ar|يَكْتُبْنَ} et {ar|تَكْتُبْنَ} (les femmes) n'en font pas partie : leur {ar|نَ} est un pronom, et ces formes sont invariables (chapitre 12). {ar|يَكْتُبُ}, {ar|تَكْتُبُ}, {ar|أَكْتُبُ} et {ar|نَكْتُبُ} n'en font pas partie non plus."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.grammar-1#4",
+      "type": "sort",
+      "categories": [ { "fr": "un des cinq verbes" }, { "fr": "pas un des cinq verbes" } ],
+      "cards": [
+        { "ar": "يَدْرُسَانِ", "category": 0 },
+        { "ar": "تَجْلِسِينَ", "category": 0 },
+        { "ar": "يَذْهَبُونَ", "category": 0 },
+        { "ar": "تَسْكُنُونَ", "category": 0 },
+        { "ar": "يَدْرُسْنَ", "category": 1 },
+        { "ar": "تَأْكُلُ", "category": 1 },
+        { "ar": "نَشْرَبُ", "category": 1 },
+        { "ar": "أَسْكُنُ", "category": 1 }
+      ],
+      "instruction": "Est-ce l'un des cinq verbes ?",
+      "explain": "Les cinq verbes se terminent par {ar|◌َانِ}, {ar|◌ِينَ} ou {ar|◌ُونَ}. {ar|يَدْرُسْنَ} a le {ar|نَ} des femmes ; {ar|تَأْكُلُ}, {ar|نَشْرَبُ} et {ar|أَسْكُنُ} gardent la damma."
+    },
+    {
+      "id": "medine-t2.l13.grammar-1#5",
+      "type": "spot",
+      "instruction": "Touche les deux verbes qui sont des « cinq verbes ».",
+      "words": ["هُمَا", "يَذْهَبَانِ", "وَهُنَّ", "يَجْلِسْنَ", "وَأَنْتُمْ", "تَكْتُبُونَ"],
+      "answers": [1, 5],
+      "fr": "Eux deux vont, elles s'assoient, et vous (plusieurs hommes) écrivez.",
+      "explain": "{ar|يَذْهَبَانِ} (l'alif des deux) et {ar|تَكْتُبُونَ} (le wāw du groupe) en font partie. {ar|يَجْلِسْنَ} a le {ar|نَ} des femmes."
+    },
+    {
+      "id": "medine-t2.l13.grammar-1#6",
+      "type": "fill_gap",
+      "sentence": "أَنْتُمَا {0} فِي الْجَامِعَةِ.",
+      "fr": "Vous deux, vous étudiez à l'université.",
+      "gaps": [ { "answers": ["تَدْرُسَانِ"] } ],
+      "options": ["تَدْرُسَانِ", "تَدْرُسُونَ", "تَدْرُسْنَ"],
+      "explain": "« Vous deux » : {ar|تَ} au début, l'alif des deux et le {ar|ن} final : {ar|تَدْرُسَانِ}."
+    },
+    {
+      "id": "medine-t2.l13.grammar-1#7",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi dit-on « les cinq verbes » ?" },
+      "choices": [
+        {
+          "fr": "Parce qu'il y a cinq formes différentes : {ar|يَفْعَلَانِ}, {ar|تَفْعَلَانِ}, {ar|يَفْعَلُونَ}, {ar|تَفْعَلُونَ}, {ar|تَفْعَلِينَ}"
+        },
+        { "fr": "Parce que le professeur a choisi cinq verbes" },
+        { "fr": "Parce qu'ils ont tous cinq lettres" }
+      ],
+      "answer": 0,
+      "explain": "Ce sont les cinq formes du présent dont le sujet est le {ar|ي}, l'{ar|ا} ou le {ar|و}. Elles valent pour n'importe quel verbe."
+    },
+    {
+      "id": "medine-t2.l13.grammar-1#8",
+      "type": "true_false",
+      "statement": { "fr": "{ar|تَذْهَبْنَ} est l'un des cinq verbes." },
+      "answer": false,
+      "explain": "Non : son {ar|نَ} est le pronom « vous » (plusieurs femmes), pas un {ar|ن} final qui suit un {ar|ي}, un {ar|ا} ou un {ar|و}."
+    },
+    {
+      "id": "medine-t2.l13.grammar-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Vous deux, vous écrivez.",
+      "answers": ["تَكْتُبَانِ.", "أَنْتُمَا تَكْتُبَانِ."],
+      "explain": "« Vous deux » : {ar|تَكْتُبَانِ}."
+    },
+    {
+      "id": "medine-t2.l13.grammar-1#10",
+      "type": "order",
+      "fr": "Les étudiants étudient à l'université.",
+      "answers": [["الطُّلَّابُ", "يَدْرُسُونَ", "فِي", "الْجَامِعَةِ"]],
+      "punctuation": ".",
+      "explain": "Le sujet « les étudiants » est placé avant le verbe : le verbe est au pluriel, {ar|يَدْرُسُونَ}."
+    }
+  ]
+}

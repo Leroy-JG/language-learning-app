@@ -1,0 +1,158 @@
+{
+  "id": "medine-t2.l13.practice-1",
+  "type": "vocabulary",
+  "title": "Exercice 1 : le verbe {ar|ذَهَبَ} au présent",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l13.practice-1#1",
+      "type": "tip",
+      "title": "Le tableau du livre : {ar|ذَهَبَ} au présent",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne le présent de {ar|ذَهَبَ} (« aller ») pour chaque personne, avec un exemple. Le professeur ne montre pas le duel ; tu connais déjà {ar|يَذْهَبَانِ} et {ar|تَذْهَبَانِ}."
+        },
+        {
+          "type": "table",
+          "header": ["Personne", "Un seul", "Plusieurs"],
+          "rows": [
+            ["il, ils", "{ar|حَامِدٌ يَذْهَبُ}", "{ar|حَامِدٌ وَعَلِيٌّ وَهَاشِمٌ يَذْهَبُونَ}"],
+            ["elle, elles", "{ar|آمِنَةُ تَذْهَبُ}", "{ar|آمِنَةُ وَمَرْيَمُ وَزَيْنَبُ يَذْهَبْنَ}"],
+            ["toi, vous (hommes)", "{ar|أَنْتَ تَذْهَبُ}", "{ar|أَنْتُمْ تَذْهَبُونَ}"],
+            ["toi, vous (femmes)", "{ar|أَنْتِ تَذْهَبِينَ}", "{ar|أَنْتُنَّ تَذْهَبْنَ}"],
+            ["moi, nous", "{ar|أَنَا أَذْهَبُ}", "{ar|نَحْنُ نَذْهَبُ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "L'exercice demande de mettre {ar|ذَهَبَ} au présent, à la personne qui convient au sujet de la phrase."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.practice-1#2",
+      "type": "fill_gap",
+      "sentence": "فِي أَيِّ سَاعَةٍ {0} إِلَى الْجَامِعَةِ يَا عَائِشَةُ؟",
+      "fr": "À quelle heure vas-tu à l'université, ʿĀʾisha ?",
+      "gaps": [ { "answers": ["تَذْهَبِينَ"] } ],
+      "options": ["تَذْهَبِينَ", "تَذْهَبُ", "تَذْهَبُونَ"],
+      "explain": "On parle à une femme (ʿĀʾisha) : {ar|تَذْهَبِينَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-1#3",
+      "type": "fill_gap",
+      "sentence": "الطُّلَّابُ {0} إِلَى الْمَلْعَبِ بَعْدَ الدَّرْسِ.",
+      "fr": "Les étudiants vont au terrain de jeu après le cours.",
+      "gaps": [ { "answers": ["يَذْهَبُونَ"] } ],
+      "options": ["يَذْهَبُونَ", "يَذْهَبْنَ", "يَذْهَبَانِ"],
+      "explain": "« Les étudiants » (plusieurs hommes), placés avant le verbe : {ar|يَذْهَبُونَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-1#4",
+      "type": "sort",
+      "categories": [ { "fr": "une seule personne" }, { "fr": "plusieurs personnes" } ],
+      "cards": [
+        { "ar": "آمِنَةُ تَذْهَبُ", "category": 0 },
+        { "ar": "أَنْتُمْ تَذْهَبُونَ", "category": 1 },
+        { "ar": "أَنَا أَذْهَبُ", "category": 0 },
+        { "ar": "نَحْنُ نَذْهَبُ", "category": 1 },
+        { "ar": "أَنْتُنَّ تَذْهَبْنَ", "category": 1 },
+        { "ar": "أَنْتِ تَذْهَبِينَ", "category": 0 }
+      ],
+      "instruction": "Une seule personne ou plusieurs ?",
+      "explain": "{ar|آمِنَةُ}, {ar|أَنَا} et {ar|أَنْتِ} : une seule personne. {ar|أَنْتُمْ}, {ar|نَحْنُ} et {ar|أَنْتُنَّ} : plusieurs."
+    },
+    {
+      "id": "medine-t2.l13.practice-1#5",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} إِلَى السُّوقِ يَوْمَ الْجُمُعَةِ فَقَطْ.",
+      "fr": "Je vais au marché le vendredi seulement.",
+      "gaps": [ { "answers": ["أَذْهَبُ"] } ],
+      "options": ["أَذْهَبُ", "نَذْهَبُ", "تَذْهَبُ"],
+      "explain": "« Je » : la lettre {ar|أَ} au début, {ar|أَذْهَبُ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-1#6",
+      "type": "fill_gap",
+      "sentence": "مَتَى {0} لِزِيَارَةِ الْمُدِيرِ يَا إِخْوَانُ؟",
+      "fr": "Quand allez-vous rendre visite au directeur, mes frères ?",
+      "gaps": [ { "answers": ["تَذْهَبُونَ"] } ],
+      "options": ["تَذْهَبُونَ", "تَذْهَبْنَ", "تَذْهَبِينَ"],
+      "explain": "On parle à plusieurs hommes (« mes frères ») : {ar|تَذْهَبُونَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-1#7",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans {ar|أُمِّي تَذْهَبُ إِلَى الْمُسْتَشْفَى}, le verbe commence par {ar|تَ} parce que « ma mère » est une personne féminine (« elle »)."
+      },
+      "answer": true,
+      "explain": "Oui : « elle » se dit {ar|تَذْهَبُ}, comme « toi » (à un homme). Le sujet {ar|أُمِّي} lève le doute."
+    },
+    {
+      "id": "medine-t2.l13.practice-1#8",
+      "type": "fill_gap",
+      "sentence": "أُمِّي {0} إِلَى الْمُسْتَشْفَى كُلَّ يَوْمٍ لِأَنَّهَا مَرِيضَةٌ.",
+      "fr": "Ma mère va à l'hôpital tous les jours parce qu'elle est malade.",
+      "gaps": [ { "answers": ["تَذْهَبُ"] } ],
+      "options": ["تَذْهَبُ", "يَذْهَبُ", "أَذْهَبُ"],
+      "explain": "« Ma mère » est féminin : {ar|تَذْهَبُ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-1#9",
+      "type": "fill_gap",
+      "sentence": "{0} إِلَى الْمَكْتَبَةِ كُلَّ مَسَاءٍ يَا بَنَاتِي؟",
+      "fr": "Allez-vous à la bibliothèque chaque soir, mes filles ?",
+      "gaps": [ { "answers": ["أَتَذْهَبْنَ"] } ],
+      "options": ["أَتَذْهَبْنَ", "أَتَذْهَبُونَ", "أَتَذْهَبِينَ"],
+      "explain": "On parle à plusieurs filles : {ar|تَذْهَبْنَ}. Le {ar|أَ} du début pose la question."
+    },
+    {
+      "id": "medine-t2.l13.practice-1#10",
+      "type": "order",
+      "fr": "Pourquoi ne vas-tu pas à l'aéroport avec nous, ʿAbbās ?",
+      "answers": [
+        ["لِمَاذَا", "لَا", "تَذْهَبُ", "إِلَى", "الْمَطَارِ", "مَعَنَا", "يَا", "عَبَّاسُ"],
+        ["لِمَاذَا", "لَا", "تَذْهَبُ", "يَا", "عَبَّاسُ", "إِلَى", "الْمَطَارِ", "مَعَنَا"],
+        ["يَا", "عَبَّاسُ", "لِمَاذَا", "لَا", "تَذْهَبُ", "إِلَى", "الْمَطَارِ", "مَعَنَا"],
+        ["لِمَاذَا", "لَا", "تَذْهَبُ", "مَعَنَا", "إِلَى", "الْمَطَارِ", "يَا", "عَبَّاسُ"],
+        ["لِمَاذَا", "يَا", "عَبَّاسُ", "لَا", "تَذْهَبُ", "إِلَى", "الْمَطَارِ", "مَعَنَا"],
+        ["لِمَاذَا", "لَا", "تَذْهَبُ", "يَا", "عَبَّاسُ", "مَعَنَا", "إِلَى", "الْمَطَارِ"]
+      ],
+      "punctuation": "؟",
+      "explain": "On parle à un homme : {ar|تَذْهَبُ}. {ar|لَا} + la damma nie le présent."
+    },
+    {
+      "id": "medine-t2.l13.practice-1#11",
+      "type": "fill_gap",
+      "sentence": "أَخَوَاتِي {0} إِلَى الْمَدْرَسَةِ بِالْحَافِلَةِ.",
+      "fr": "Mes sœurs vont à l'école en bus.",
+      "gaps": [ { "answers": ["يَذْهَبْنَ"] } ],
+      "options": ["يَذْهَبْنَ", "يَذْهَبُونَ", "تَذْهَبْنَ"],
+      "explain": "« Mes sœurs » (elles), placées avant le verbe : {ar|يَذْهَبْنَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-1#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous allons à l'université en taxi.",
+      "answers": [
+        "نَحْنُ نَذْهَبُ إِلَى الْجَامِعَةِ بِسَيَّارَةِ الْأُجْرَةِ.",
+        "نَذْهَبُ إِلَى الْجَامِعَةِ بِسَيَّارَةِ الْأُجْرَةِ.",
+        "نَذْهَبُ بِسَيَّارَةِ الْأُجْرَةِ إِلَى الْجَامِعَةِ.",
+        "نَحْنُ نَذْهَبُ بِسَيَّارَةِ الْأُجْرَةِ إِلَى الْجَامِعَةِ.",
+        "نَحْنُ نَذْهَبُ إِلَى الْجَامِعَةِ بِسَيَّارَةِ أُجْرَةٍ.",
+        "نَذْهَبُ إِلَى الْجَامِعَةِ بِسَيَّارَةِ أُجْرَةٍ.",
+        "نَذْهَبُ بِسَيَّارَةِ أُجْرَةٍ إِلَى الْجَامِعَةِ.",
+        "نَحْنُ نَذْهَبُ بِسَيَّارَةِ أُجْرَةٍ إِلَى الْجَامِعَةِ.",
+        "نَحْنُ نَذْهَبُ إِلَى الْجَامِعَةِ فِي سَيَّارَةِ الْأُجْرَةِ.",
+        "نَذْهَبُ إِلَى الْجَامِعَةِ فِي سَيَّارَةِ الْأُجْرَةِ.",
+        "نَحْنُ نَذْهَبُ إِلَى الْجَامِعَةِ فِي سَيَّارَةِ أُجْرَةٍ.",
+        "نَذْهَبُ إِلَى الْجَامِعَةِ فِي سَيَّارَةِ أُجْرَةٍ."
+      ],
+      "explain": "« Nous » : {ar|نَذْهَبُ}. {ar|بِسَيَّارَةِ الْأُجْرَةِ} : « en taxi »."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "medine-t2.l13.practice-5",
+  "type": "vocabulary",
+  "title": "Exercice 5 : conjugue avec tous les pronoms",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l13.practice-5#1",
+      "type": "tip",
+      "title": "Un verbe, tous les pronoms",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice demande de conjuguer {ar|كَتَبَ}, {ar|أَكَلَ} et {ar|جَلَسَ} au présent avec tous les pronoms sujets collés. Voici {ar|أَكَلَ} en entier :"
+        },
+        {
+          "type": "table",
+          "header": ["Sujet", "Présent de {ar|أَكَلَ}"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|آكُلُ}"],
+            ["{ar|نَحْنُ}", "{ar|نَأْكُلُ}"],
+            ["{ar|أَنْتَ}", "{ar|تَأْكُلُ}"],
+            ["{ar|أَنْتِ}", "{ar|تَأْكُلِينَ}"],
+            ["{ar|أَنْتُمَا}", "{ar|تَأْكُلَانِ}"],
+            ["{ar|أَنْتُمْ}", "{ar|تَأْكُلُونَ}"],
+            ["{ar|أَنْتُنَّ}", "{ar|تَأْكُلْنَ}"],
+            ["{ar|هُوَ}", "{ar|يَأْكُلُ}"],
+            ["{ar|هِيَ}", "{ar|تَأْكُلُ}"],
+            ["{ar|هُمَا} (deux hommes)", "{ar|يَأْكُلَانِ}"],
+            ["{ar|هُمَا} (deux femmes)", "{ar|تَأْكُلَانِ}"],
+            ["{ar|هُمْ}", "{ar|يَأْكُلُونَ}"],
+            ["{ar|هُنَّ}", "{ar|يَأْكُلْنَ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.practice-5#2",
+      "type": "tip",
+      "title": "Un cas à part : {ar|آكُلُ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Avec {ar|أَكَلَ}, la forme pour « je » s'écrit {ar|آكُلُ} et non {ar|أَأْكُلُ} : deux hamzas de suite se fondent en un alif madda ({ar|آ}). Toutes les autres personnes sont régulières : {ar|يَأْكُلُ}, {ar|تَأْكُلُ}, {ar|نَأْكُلُ}."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "{ar|كَتَبَ} et {ar|جَلَسَ} n'ont pas ce cas : « je » fait {ar|أَكْتُبُ} et {ar|أَجْلِسُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.practice-5#3",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} الْخُبْزَ.",
+      "fr": "Je mange le pain.",
+      "gaps": [ { "answers": ["آكُلُ"] } ],
+      "options": ["آكُلُ", "نَأْكُلُ", "يَأْكُلُ"],
+      "explain": "« Je » avec {ar|أَكَلَ} : {ar|آكُلُ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-5#4",
+      "type": "fill_gap",
+      "sentence": "أَنْتُمَا {0} فِي الْمَطْعَمِ.",
+      "fr": "Vous deux, vous mangez au restaurant.",
+      "gaps": [ { "answers": ["تَأْكُلَانِ"] } ],
+      "options": ["تَأْكُلَانِ", "تَأْكُلُونَ", "تَأْكُلْنَ"],
+      "explain": "« Vous deux » : {ar|تَ} au début, l'alif des deux et le {ar|ن} final : {ar|تَأْكُلَانِ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-5#5",
+      "type": "sort",
+      "categories": [ { "fr": "une seule personne" }, { "fr": "deux personnes" }, { "fr": "plusieurs personnes" } ],
+      "cards": [
+        { "ar": "تَأْكُلِينَ", "category": 0 },
+        { "ar": "آكُلُ", "category": 0 },
+        { "ar": "يَأْكُلَانِ", "category": 1 },
+        { "ar": "تَأْكُلَانِ", "category": 1 },
+        { "ar": "تَأْكُلُونَ", "category": 2 },
+        { "ar": "يَأْكُلْنَ", "category": 2 }
+      ],
+      "instruction": "Une personne, deux personnes ou plusieurs ?",
+      "explain": "{ar|تَأْكُلِينَ} (« tu », une femme) et {ar|آكُلُ} : une personne. {ar|يَأْكُلَانِ} et {ar|تَأْكُلَانِ} : deux. {ar|تَأْكُلُونَ} et {ar|يَأْكُلْنَ} : plusieurs."
+    },
+    {
+      "id": "medine-t2.l13.practice-5#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles s'assoient.",
+      "answers": ["يَجْلِسْنَ.", "هُنَّ يَجْلِسْنَ."],
+      "explain": "« Elles » : {ar|يَجْلِسْنَ}, avec le {ar|نَ} des femmes."
+    },
+    {
+      "id": "medine-t2.l13.practice-5#7",
+      "type": "fill_gap",
+      "sentence": "هُمَا {0} فِي الصَّفِّ الْأَخِيرِ.",
+      "fr": "Eux deux sont assis au dernier rang.",
+      "gaps": [ { "answers": ["يَجْلِسَانِ"] } ],
+      "options": ["يَجْلِسَانِ", "يَجْلِسُونَ", "يَجْلِسْنَ"],
+      "explain": "« Eux deux » (deux hommes) : {ar|يَجْلِسَانِ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-5#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Vous (plusieurs hommes) écrivez.",
+      "answers": ["تَكْتُبُونَ.", "أَنْتُمْ تَكْتُبُونَ."],
+      "explain": "« Vous » (plusieurs hommes) : {ar|تَكْتُبُونَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-5#9",
+      "type": "order",
+      "fr": "Que mangent-ils ?",
+      "answers": [["مَاذَا", "يَأْكُلُونَ"]],
+      "punctuation": "؟",
+      "explain": "« Ils » : {ar|يَأْكُلُونَ}."
+    },
+    {
+      "id": "medine-t2.l13.practice-5#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je mange.",
+      "answers": ["آكُلُ.", "أَنَا آكُلُ."],
+      "explain": "« Je » avec {ar|أَكَلَ} : {ar|آكُلُ}."
+    }
+  ]
+}

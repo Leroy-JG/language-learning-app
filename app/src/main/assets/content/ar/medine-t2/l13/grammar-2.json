@@ -1,0 +1,176 @@
+{
+  "id": "medine-t2.l13.grammar-2",
+  "type": "grammar",
+  "title": "Le {ar|ن} reste, le {ar|ن} tombe",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l13.grammar-2#1",
+      "type": "tip",
+      "title": "Au nominatif, le {ar|ن} reste",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour les cinq verbes, la marque du nominatif ({ar|الرَّفْعُ}) n'est pas la damma : c'est le {ar|ن} final. Le professeur dit {ar|ثُبُوتُ النُّونِ}, « le maintien du {ar|ن} » : il reste en place."
+        },
+        { "type": "example", "ar": "هُمْ يَكْتُبُونَ.", "fr": "Ils écrivent." },
+        { "type": "example", "ar": "أَنْتِ تَكْتُبِينَ.", "fr": "Tu écris (à une femme)." },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les grammairiens appellent ce {ar|ن} {ar|نُونُ الرَّفْعِ}, « le nūn du nominatif ». Ne le confonds pas avec {ar|نُونُ النِّسْوَةِ}, le {ar|نَ} de {ar|يَكْتُبْنَ} (chapitre 12), qui est un pronom."
+        }
+      ]
+    },
+    { "id": "medine-t2.l13.grammar-2#2", "type": "present", "item": "p:thubut-nun" },
+    {
+      "id": "medine-t2.l13.grammar-2#3",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la marque du nominatif des cinq verbes ?" },
+      "choices": [ { "fr": "Le {ar|ن} final qui reste" }, { "fr": "La damma" }, { "fr": "La chute du {ar|ن}" } ],
+      "answer": 0,
+      "explain": "Pour les cinq verbes, le nominatif se reconnaît au maintien du {ar|ن} : {ar|ثُبُوتُ النُّونِ}."
+    },
+    {
+      "id": "medine-t2.l13.grammar-2#4",
+      "type": "tip",
+      "title": "Après {ar|لَنْ} et {ar|لَمْ}, le {ar|ن} tombe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "À l'accusatif ({ar|النَّصْبُ}) et au jussif ({ar|الْجَزْمُ}), les cinq verbes ont la même marque : {ar|حَذْفُ النُّونِ}, « la chute du {ar|ن} ». Tu l'avais entrevu au chapitre 12 : c'est maintenant une règle."
+        },
+        {
+          "type": "table",
+          "header": ["Sujet", "Nominatif", "Après {ar|لَنْ}", "Après {ar|لَمْ}"],
+          "rows": [
+            ["{ar|هُمَا} (deux hommes)", "{ar|يَكْتُبَانِ}", "{ar|لَنْ يَكْتُبَا}", "{ar|لَمْ يَكْتُبَا}"],
+            [
+              "{ar|أَنْتُمَا}, {ar|هُمَا} (deux femmes)",
+              "{ar|تَكْتُبَانِ}",
+              "{ar|لَنْ تَكْتُبَا}",
+              "{ar|لَمْ تَكْتُبَا}"
+            ],
+            ["{ar|هُمْ}", "{ar|يَكْتُبُونَ}", "{ar|لَنْ يَكْتُبُوا}", "{ar|لَمْ يَكْتُبُوا}"],
+            ["{ar|أَنْتُمْ}", "{ar|تَكْتُبُونَ}", "{ar|لَنْ تَكْتُبُوا}", "{ar|لَمْ تَكْتُبُوا}"],
+            ["{ar|أَنْتِ}", "{ar|تَكْتُبِينَ}", "{ar|لَنْ تَكْتُبِي}", "{ar|لَمْ تَكْتُبِي}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Le pronom ({ar|ا}, {ar|و} ou {ar|ي}) reste : seul le {ar|ن} tombe."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Après le wāw du groupe, on écrit un alif qu'on ne prononce pas : {ar|لَنْ يَكْتُبُوا} se lit « lan yaktubū ». Cet alif ne s'écrit qu'après le wāw du groupe : il le distingue d'un {ar|و} de racine ({ar|لَمْ يَدْعُوا}, « ils n'ont pas appelé », contre {ar|لَنْ يَدْعُوَ}, « il n'appellera pas »). Les grammairiens l'appellent {ar|أَلِفُ التَّفْرِيقِ}."
+        }
+      ]
+    },
+    { "id": "medine-t2.l13.grammar-2#5", "type": "present", "item": "p:hadhf-nun" },
+    {
+      "id": "medine-t2.l13.grammar-2#6",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|لَمْ يَكْتُبُوا}, la marque du jussif est la chute du {ar|ن}." },
+      "answer": true,
+      "explain": "Oui : {ar|يَكْتُبُونَ} perd son {ar|ن} après {ar|لَمْ} : {ar|لَمْ يَكْتُبُوا}."
+    },
+    {
+      "id": "medine-t2.l13.grammar-2#7",
+      "type": "tip",
+      "title": "Un même verbe, trois états",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "يَذْهَبُونَ", "fr": "ils vont" },
+              "to": { "ar": "لَنْ يَذْهَبُوا", "fr": "ils n'iront pas" },
+              "label": "{ar|نَصْبٌ} : le {ar|ن} tombe après {ar|لَنْ}"
+            },
+            {
+              "from": { "ar": "يَذْهَبُونَ", "fr": "ils vont" },
+              "to": { "ar": "لَمْ يَذْهَبُوا", "fr": "ils ne sont pas allés" },
+              "label": "{ar|جَزْمٌ} : le {ar|ن} tombe après {ar|لَمْ}"
+            },
+            {
+              "from": { "ar": "تَجْلِسِينَ", "fr": "tu t'assieds (une femme)" },
+              "to": { "ar": "لَنْ تَجْلِسِي", "fr": "tu ne t'assiéras pas (une femme)" },
+              "label": "{ar|نَصْبٌ} : le {ar|ن} tombe"
+            },
+            {
+              "from": { "ar": "يَدْرُسَانِ", "fr": "eux deux étudient" },
+              "to": { "ar": "لَمْ يَدْرُسَا", "fr": "eux deux n'ont pas étudié" },
+              "label": "{ar|جَزْمٌ} : le {ar|ن} tombe"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Le {ar|نَ} de {ar|يَكْتُبْنَ} ne tombe jamais : c'est le pronom « elles ». On dit {ar|لَنْ يَكْتُبْنَ} et {ar|لَمْ يَكْتُبْنَ}, sans aucun changement."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l13.grammar-2#8",
+      "type": "sort",
+      "categories": [ { "fr": "le {ar|ن} reste" }, { "fr": "le {ar|ن} tombe" } ],
+      "cards": [
+        { "ar": "تَدْرُسِينَ", "category": 0 },
+        { "ar": "يَجْلِسُونَ", "category": 0 },
+        { "ar": "يَذْهَبَانِ", "category": 0 },
+        { "ar": "لَنْ تَدْرُسِي", "category": 1 },
+        { "ar": "لَمْ يَذْهَبُوا", "category": 1 },
+        { "ar": "لَمْ يَجْلِسَا", "category": 1 }
+      ],
+      "instruction": "Le {ar|ن} final reste-t-il ou tombe-t-il ?",
+      "explain": "Au nominatif, le {ar|ن} reste. Après {ar|لَنْ} ou {ar|لَمْ}, il tombe."
+    },
+    {
+      "id": "medine-t2.l13.grammar-2#9",
+      "type": "spot",
+      "instruction": "Touche le verbe dont le {ar|ن} est tombé.",
+      "words": ["لَمْ", "يَذْهَبَا", "وَهُمَا", "يَجْلِسَانِ"],
+      "answers": [1],
+      "fr": "Eux deux ne sont pas allés, et eux deux s'assoient.",
+      "explain": "{ar|يَذْهَبَا} suit {ar|لَمْ} : le {ar|ن} est tombé. {ar|يَجْلِسَانِ} garde son {ar|ن} : il est au nominatif."
+    },
+    {
+      "id": "medine-t2.l13.grammar-2#10",
+      "type": "fill_gap",
+      "sentence": "لَنْ {0} إِلَى الْمَدْرَسَةِ يَا إِخْوَانُ.",
+      "fr": "Vous n'irez pas à l'école, mes frères.",
+      "gaps": [ { "answers": ["تَذْهَبُوا"] } ],
+      "options": ["تَذْهَبُوا", "تَذْهَبُونَ", "تَذْهَبْنَ"],
+      "explain": "Après {ar|لَنْ}, le {ar|ن} de {ar|تَذْهَبُونَ} tombe : {ar|لَنْ تَذْهَبُوا}. {ar|تَذْهَبْنَ} (le pronom des femmes) ne change pas."
+    },
+    {
+      "id": "medine-t2.l13.grammar-2#11",
+      "type": "fill_gap",
+      "sentence": "أَنْتِ لَمْ {0} الْيَوْمَ.",
+      "fr": "Tu n'as pas étudié aujourd'hui (à une femme).",
+      "gaps": [ { "answers": ["تَدْرُسِي"] } ],
+      "options": ["تَدْرُسِي", "تَدْرُسِينَ", "تَدْرُسْنَ"],
+      "explain": "Après {ar|لَمْ}, le {ar|ن} de {ar|تَدْرُسِينَ} tombe : {ar|لَمْ تَدْرُسِي}."
+    },
+    {
+      "id": "medine-t2.l13.grammar-2#12",
+      "type": "order",
+      "fr": "Ils ne sont pas allés à l'école.",
+      "answers": [["لَمْ", "يَذْهَبُوا", "إِلَى", "الْمَدْرَسَةِ"]],
+      "punctuation": ".",
+      "distractors": ["لَنْ"],
+      "explain": "{ar|لَمْ} nie le passé : {ar|لَمْ يَذْهَبُوا}, sans {ar|ن}. {ar|لَنْ} nierait le futur."
+    },
+    {
+      "id": "medine-t2.l13.grammar-2#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Vous (plusieurs hommes) n'écrirez pas.",
+      "answers": ["لَنْ تَكْتُبُوا.", "أَنْتُمْ لَنْ تَكْتُبُوا."],
+      "explain": "{ar|لَنْ} + {ar|تَكْتُبُونَ} sans son {ar|ن} : {ar|لَنْ تَكْتُبُوا}."
+    }
+  ]
+}
