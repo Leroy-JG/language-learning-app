@@ -1,0 +1,131 @@
+{
+  "id": "medine-t2.l11.practice-7",
+  "type": "vocabulary",
+  "title": "Exercice 11 : le futur",
+  "icon": "watch",
+  "screens": [
+    {
+      "id": "medine-t2.l11.practice-7#1",
+      "type": "tip",
+      "title": "Les modèles du livre",
+      "blocks": [
+        { "type": "example", "ar": "سَيَرْجِعُ الْمُدِيرُ غَدًا.", "fr": "Le directeur reviendra demain." },
+        {
+          "type": "example",
+          "ar": "سَأَذْهَبُ إِلَى مَكَّةَ بَعْدَ أُسْبُوعٍ إِنْ شَاءَ اللَّهُ.",
+          "fr": "J'irai à La Mecque dans une semaine, si Allah le veut."
+        },
+        {
+          "type": "example",
+          "ar": "أَذْهَبُ إِلَى الْمَلْعَبِ كُلَّ مَسَاءٍ. سَأَذْهَبُ هٰذَا الْمَسَاءَ إِلَى الْمَكْتَبَةِ.",
+          "fr": "Je vais au terrain de jeu chaque soir. Ce soir, j'irai à la bibliothèque."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans l'exercice, on répond à chaque question avec le futur ({ar|سَ} + le présent), puisque la question parle de demain, d'une semaine ou de ce soir."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.practice-7#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَتَى يَرْجِعُ أَبُوكَ مِنْ بَغْدَادَ يَا عَلِيُّ؟",
+      "answers": [
+        "سَيَرْجِعُ بَعْدَ أُسْبُوعٍ.",
+        "سَوْفَ يَرْجِعُ بَعْدَ أُسْبُوعٍ.",
+        "يَرْجِعُ بَعْدَ أُسْبُوعٍ.",
+        "سَيَرْجِعُ أَبِي بَعْدَ أُسْبُوعٍ.",
+        "سَوْفَ يَرْجِعُ أَبِي بَعْدَ أُسْبُوعٍ."
+      ],
+      "fr": "Il reviendra dans une semaine.",
+      "instruction": "Réponds avec le futur : il reviendra dans une semaine.",
+      "explain": "C'est la réponse modèle du livre : {ar|سَيَرْجِعُ بَعْدَ أُسْبُوعٍ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-7#3",
+      "type": "question",
+      "prompt": { "ar": "أَيْنَ تَذْهَبُ هٰذَا الْمَسَاءَ؟" },
+      "choices": [
+        { "ar": "سَأَذْهَبُ إِلَى الْمَكْتَبَةِ." },
+        { "ar": "ذَهَبْتُ إِلَى الْمَكْتَبَةِ." },
+        { "ar": "لَا أَذْهَبُ إِلَى الْمَكْتَبَةِ." }
+      ],
+      "answer": 0,
+      "instruction": "Quelle réponse dit que tu iras à la bibliothèque ce soir ?",
+      "explain": "{ar|سَأَذْهَبُ} : « j'irai ». {ar|ذَهَبْتُ} est un passé ; {ar|لَا أَذْهَبُ} nie le présent."
+    },
+    {
+      "id": "medine-t2.l11.practice-7#4",
+      "type": "order",
+      "fr": "J'écrirai la lettre à ma mère demain.",
+      "answers": [
+        ["سَأَكْتُبُ", "الرِّسَالَةَ", "إِلَى", "أُمِّي", "غَدًا"],
+        ["غَدًا", "سَأَكْتُبُ", "الرِّسَالَةَ", "إِلَى", "أُمِّي"],
+        ["سَأَكْتُبُ", "غَدًا", "الرِّسَالَةَ", "إِلَى", "أُمِّي"],
+        ["سَأَكْتُبُ", "الرِّسَالَةَ", "غَدًا", "إِلَى", "أُمِّي"]
+      ],
+      "punctuation": ".",
+      "explain": "Réponse à {ar|مَتَى تَكْتُبُ الرِّسَالَةَ إِلَى أُمِّكَ يَا يُونُسُ؟} : « je » + futur : {ar|سَأَكْتُبُ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-7#5",
+      "type": "order",
+      "fr": "Je laverai la voiture demain.",
+      "answers": [
+        ["سَأَغْسِلُ", "السَّيَّارَةَ", "غَدًا"],
+        ["غَدًا", "سَأَغْسِلُ", "السَّيَّارَةَ"],
+        ["سَأَغْسِلُ", "غَدًا", "السَّيَّارَةَ"]
+      ],
+      "punctuation": ".",
+      "explain": "Réponse à {ar|مَتَى تَغْسِلُ السَّيَّارَةَ يَا وَلَدُ؟} : {ar|سَأَغْسِلُ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-7#6",
+      "type": "fill_gap",
+      "sentence": "{0} إِلَى الْحَلَّاقِ هٰذَا الْمَسَاءَ.",
+      "fr": "J'irai chez le coiffeur ce soir.",
+      "gaps": [ { "answers": ["سَأَذْهَبُ"] } ],
+      "options": ["سَأَذْهَبُ", "ذَهَبْتُ", "ذَهَبَ"],
+      "explain": "Réponse à {ar|مَتَى تَذْهَبُ إِلَى الْحَلَّاقِ يَا هِشَامُ؟} : {ar|سَأَذْهَبُ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-7#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "فِي أَيِّ مَحَطَّةٍ تَنْزِلُ يَا أَخِي؟",
+      "answers": [
+        "سَأَنْزِلُ فِي الْمَحَطَّةِ الْقَادِمَةِ.",
+        "سَوْفَ أَنْزِلُ فِي الْمَحَطَّةِ الْقَادِمَةِ.",
+        "أَنْزِلُ فِي الْمَحَطَّةِ الْقَادِمَةِ.",
+        "أَنَا سَأَنْزِلُ فِي الْمَحَطَّةِ الْقَادِمَةِ."
+      ],
+      "fr": "Je descendrai à la prochaine station.",
+      "instruction": "Réponds : je descendrai à la prochaine station.",
+      "explain": "C'est la phrase du texte : {ar|أَنَا سَأَنْزِلُ فِي الْمَحَطَّةِ الْقَادِمَةِ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-7#8",
+      "type": "true_false",
+      "statement": {
+        "ar": "سَأَذْهَبُ إِلَى مَكَّةَ بَعْدَ أُسْبُوعٍ إِنْ شَاءَ اللَّهُ.",
+        "fr": "J'irai à La Mecque dans une semaine, si Allah le veut."
+      },
+      "answer": true,
+      "explain": "Oui : {ar|سَ} + le présent, avec {ar|إِنْ شَاءَ اللَّهُ}, qu'on ajoute couramment quand on parle de l'avenir."
+    },
+    {
+      "id": "medine-t2.l11.practice-7#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le directeur reviendra demain.",
+      "answers": [
+        "سَيَرْجِعُ الْمُدِيرُ غَدًا.",
+        "سَوْفَ يَرْجِعُ الْمُدِيرُ غَدًا.",
+        "الْمُدِيرُ سَيَرْجِعُ غَدًا.",
+        "يَرْجِعُ الْمُدِيرُ غَدًا."
+      ]
+    }
+  ]
+}

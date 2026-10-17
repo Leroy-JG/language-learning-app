@@ -1,0 +1,129 @@
+{
+  "id": "medine-t2.l11.practice-2",
+  "type": "vocabulary",
+  "title": "Exercices 2 et 3 : corriger, comprendre",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l11.practice-2#1",
+      "type": "true_false",
+      "statement": {
+        "ar": "لَا يَعْرِفُ عَبْدُ اللَّهِ الْمُهَنْدِسَ سَلْمَانَ.",
+        "fr": "ʿAbd Allāh ne connaît pas l'ingénieur Salmān."
+      },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l11.dialogue-1#1" },
+      "explain": "Faux : il le connaît, c'est son professeur ({ar|طَبْعًا. هُوَ أُسْتَاذِي})."
+    },
+    {
+      "id": "medine-t2.l11.practice-2#2",
+      "type": "order",
+      "fr": "ʿAbd Allāh connaît l'ingénieur Salmān.",
+      "answers": [
+        ["يَعْرِفُ", "عَبْدُ", "اللَّهِ", "الْمُهَنْدِسَ", "سَلْمَانَ"],
+        ["عَبْدُ", "اللَّهِ", "يَعْرِفُ", "الْمُهَنْدِسَ", "سَلْمَانَ"]
+      ],
+      "punctuation": ".",
+      "explain": "La phrase corrigée : sans {ar|لَا}."
+    },
+    {
+      "id": "medine-t2.l11.practice-2#3",
+      "type": "true_false",
+      "statement": { "ar": "عَبْدُ اللَّهِ مُتَزَوِّجٌ.", "fr": "ʿAbd Allāh est marié." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l11.dialogue-2#1" },
+      "explain": "Faux : {ar|لَسْتُ بِمُتَزَوِّجٍ}, il n'est pas marié."
+    },
+    {
+      "id": "medine-t2.l11.practice-2#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "ʿAbd Allāh n'est pas marié.",
+      "answers": [
+        "عَبْدُ اللَّهِ لَيْسَ مُتَزَوِّجًا.",
+        "عَبْدُ اللَّهِ لَيْسَ بِمُتَزَوِّجٍ.",
+        "لَيْسَ عَبْدُ اللَّهِ مُتَزَوِّجًا.",
+        "لَيْسَ عَبْدُ اللَّهِ بِمُتَزَوِّجٍ."
+      ],
+      "explain": "À la 3e personne : {ar|لَيْسَ}. Le prédicat est à l'accusatif ({ar|مُتَزَوِّجًا}) ou au génitif après {ar|بِ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-2#5",
+      "type": "true_false",
+      "statement": { "ar": "يَدْرُسُ عَبْدُ اللَّهِ فِي السَّنَةِ الْأُولَى.", "fr": "ʿAbd Allāh étudie en première année." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l11.dialogue-1#1" },
+      "explain": "Faux : il étudie en deuxième année."
+    },
+    {
+      "id": "medine-t2.l11.practice-2#6",
+      "type": "question",
+      "prompt": { "fr": "En quelle année ʿAbd Allāh étudie-t-il ?" },
+      "choices": [
+        { "ar": "فِي السَّنَةِ الثَّانِيَةِ" },
+        { "ar": "فِي السَّنَةِ الْأُولَى" },
+        { "ar": "فِي السَّنَةِ الثَّالِثَةِ" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l11.dialogue-1#1" },
+      "explain": "{ar|أَدْرُسُ فِي السَّنَةِ الثَّانِيَةِ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-2#7",
+      "type": "true_false",
+      "statement": {
+        "ar": "سَيَنْزِلُ فَيْصَلٌ فِي الْمَحَطَّةِ الْقَادِمَةِ.",
+        "fr": "Fayṣal descendra à la prochaine station."
+      },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l11.dialogue-2#1" },
+      "explain": "Vrai : {ar|أَنَا سَأَنْزِلُ فِي الْمَحَطَّةِ الْقَادِمَةِ}, dit Fayṣal ; ʿAbd Allāh lui répond {ar|فِي أَمَانِ اللَّهِ}, et le conducteur s'adresse à lui pour la sortie."
+    },
+    {
+      "id": "medine-t2.l11.practice-2#8",
+      "type": "order",
+      "fr": "Fayṣal descendra du bus à la prochaine station.",
+      "answers": [
+        ["سَيَنْزِلُ", "فَيْصَلٌ", "مِنَ", "الْحَافِلَةِ", "فِي", "الْمَحَطَّةِ", "الْقَادِمَةِ"],
+        ["فَيْصَلٌ", "سَيَنْزِلُ", "مِنَ", "الْحَافِلَةِ", "فِي", "الْمَحَطَّةِ", "الْقَادِمَةِ"]
+      ],
+      "punctuation": ".",
+      "explain": "Le futur : {ar|سَ} + le présent de {ar|نَزَلَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-2#9",
+      "type": "order",
+      "fr": "Où étudies-tu, toi ?",
+      "answers": [["أَيْنَ", "تَدْرُسُ", "أَنْتَ"], ["أَيْنَ", "أَنْتَ", "تَدْرُسُ"]],
+      "punctuation": "؟",
+      "explain": "Exercice 3 du livre : des questions personnelles (sans lien avec le texte). {ar|تَدْرُسُ} : « tu étudies »."
+    },
+    {
+      "id": "medine-t2.l11.practice-2#10",
+      "type": "question",
+      "prompt": { "ar": "مِنْ أَيِّ إِذَاعَةٍ تَسْمَعُ الْأَخْبَارَ؟" },
+      "choices": [
+        { "fr": "Sur quelle station de radio écoutes-tu les nouvelles ?" },
+        { "fr": "Dans quelle école étudies-tu ?" },
+        { "fr": "À quelle heure vas-tu à l'école ?" }
+      ],
+      "answer": 0,
+      "explain": "{ar|إِذَاعَةٌ} : une station de radio ; {ar|الْأَخْبَارَ} : les nouvelles ; {ar|تَسْمَعُ} : tu écoutes (tu entends)."
+    },
+    {
+      "id": "medine-t2.l11.practice-2#11",
+      "type": "order",
+      "fr": "Connais-tu la maison de l'enseignant ?",
+      "answers": [["أَتَعْرِفُ", "بَيْتَ", "الْمُدَرِّسِ"]],
+      "punctuation": "؟",
+      "explain": "{ar|أَ} ouvre la question ; {ar|تَعْرِفُ} : « tu connais »."
+    },
+    {
+      "id": "medine-t2.l11.practice-2#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Où habites-tu ? (à un homme)",
+      "answers": ["أَيْنَ تَسْكُنُ؟", "أَيْنَ تَسْكُنُ أَنْتَ؟", "أَيْنَ أَنْتَ تَسْكُنُ؟"]
+    }
+  ]
+}

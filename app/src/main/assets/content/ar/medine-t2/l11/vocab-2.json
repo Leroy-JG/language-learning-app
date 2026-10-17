@@ -1,0 +1,89 @@
+{
+  "id": "medine-t2.l11.vocab-2",
+  "type": "vocabulary",
+  "title": "Lettre, carte, adresse",
+  "icon": "notebook",
+  "screens": [
+    { "id": "medine-t2.l11.vocab-2#1", "type": "present", "item": "w:risala" },
+    { "id": "medine-t2.l11.vocab-2#2", "type": "present", "item": "w:bitaqa" },
+    {
+      "id": "medine-t2.l11.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:bitaqa",
+      "distractors": ["w:risala", "w:daftar"],
+      "explain": "{ar|بِطَاقَةٌ} : une carte. {ar|رِسَالَةٌ} : une lettre ; {ar|دَفْتَرٌ} : un cahier."
+    },
+    {
+      "id": "medine-t2.l11.vocab-2#4",
+      "type": "tip",
+      "title": "Tu connais déjà {ar|عُنْوَانٌ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|عُنْوَانٌ} (« un titre, une adresse ») date du tome 1. Le professeur le reprend pour demander l'adresse de quelqu'un :"
+        },
+        { "type": "example", "ar": "مَا عُنْوَانُ بَيْتِكَ؟", "fr": "Quelle est l'adresse de ta maison ?" },
+        { "type": "note", "tone": "info", "text": "Le pluriel de {ar|عُنْوَانٌ} est {ar|عَنَاوِينُ}." }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.vocab-2#5",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:risala", "w:bitaqa", "w:unwan"]
+    },
+    {
+      "id": "medine-t2.l11.vocab-2#6",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ {0} صَدِيقِي.",
+      "fr": "Voici la lettre de mon ami.",
+      "gaps": [ { "answers": ["رِسَالَةُ"] } ],
+      "options": ["رِسَالَةُ", "بِطَاقَةُ"],
+      "explain": "« La lettre » : {ar|رِسَالَةٌ}. {ar|بِطَاقَةٌ} veut dire « une carte »."
+    },
+    {
+      "id": "medine-t2.l11.vocab-2#7",
+      "type": "true_false",
+      "statement": { "fr": "{ar|رِسَالَةٌ} (« une lettre ») est un mot masculin." },
+      "answer": false,
+      "explain": "Non : {ar|رِسَالَةٌ} est féminin (la terminaison {ar|ةٌ}). On dit {ar|هٰذِهِ رِسَالَةٌ}."
+    },
+    {
+      "id": "medine-t2.l11.vocab-2#8",
+      "type": "fill_gap",
+      "sentence": "مَا {0} بَيْتِكَ؟",
+      "fr": "Quelle est l'adresse de ta maison ?",
+      "gaps": [ { "answers": ["عُنْوَانُ"] } ],
+      "options": ["عُنْوَانُ", "رِسَالَةُ", "بِطَاقَةُ"],
+      "explain": "« L'adresse » : {ar|عُنْوَانٌ}."
+    },
+    {
+      "id": "medine-t2.l11.vocab-2#9",
+      "type": "order",
+      "fr": "Voici ma carte.",
+      "answers": [["هٰذِهِ", "بِطَاقَتِي"]],
+      "punctuation": ".",
+      "explain": "{ar|بِطَاقَةٌ} est féminin : {ar|هٰذِهِ}. Le {ar|ي} de la fin veut dire « mon »."
+    },
+    {
+      "id": "medine-t2.l11.vocab-2#10",
+      "type": "order",
+      "fr": "Zayd a lu la lettre de son ami.",
+      "answers": [["قَرَأَ", "زَيْدٌ", "رِسَالَةَ", "صَدِيقِهِ"], ["زَيْدٌ", "قَرَأَ", "رِسَالَةَ", "صَدِيقِهِ"]],
+      "punctuation": ".",
+      "explain": "{ar|رِسَالَةَ} est le complément de {ar|قَرَأَ} (accusatif) ; {ar|صَدِيقِهِ} est son complément d'annexion (génitif), avec le pronom {ar|هِ} (« son »)."
+    },
+    {
+      "id": "medine-t2.l11.vocab-2#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا عُنْوَانُكَ؟",
+      "answers": ["عُنْوَانِي فِي الرِّيَاضِ.", "عُنْوَانِي بِالرِّيَاضِ."],
+      "fr": "Mon adresse est à Riyad.",
+      "instruction": "Réponds : mon adresse est à Riyad.",
+      "explain": "« Mon adresse » : {ar|عُنْوَانِي}."
+    },
+    { "id": "medine-t2.l11.vocab-2#12", "type": "typing", "ask": "fr", "item": "w:bitaqa" }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "id": "medine-t2.l11.grammar-4",
+  "type": "grammar",
+  "title": "Les douze formes du présent",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t2.l11.grammar-4#1",
+      "type": "tip",
+      "title": "Au présent : je, nous, tu, il, elle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici le présent de {ar|كَتَبَ} aux personnes du singulier et à « nous » :"
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Présent", "Sens"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|أَكْتُبُ}", "j'écris"],
+            ["{ar|نَحْنُ}", "{ar|نَكْتُبُ}", "nous écrivons"],
+            ["{ar|أَنْتَ}", "{ar|تَكْتُبُ}", "tu écris (à un homme)"],
+            ["{ar|أَنْتِ}", "{ar|تَكْتُبِينَ}", "tu écris (à une femme)"],
+            ["{ar|هُوَ}", "{ar|يَكْتُبُ}", "il écrit"],
+            ["{ar|هِيَ}", "{ar|تَكْتُبُ}", "elle écrit"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Toutes ces formes se terminent par une damma, sauf « tu » (à une femme), qui se termine par {ar|ينَ} : {ar|تَكْتُبِينَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.grammar-4#2",
+      "type": "tip",
+      "title": "Au présent : le duel et le pluriel",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Pronom", "Présent", "Sens"],
+          "rows": [
+            ["{ar|أَنْتُمَا}", "{ar|تَكْتُبَانِ}", "vous écrivez (deux personnes)"],
+            ["{ar|أَنْتُمْ}", "{ar|تَكْتُبُونَ}", "vous écrivez (plusieurs hommes)"],
+            ["{ar|أَنْتُنَّ}", "{ar|تَكْتُبْنَ}", "vous écrivez (plusieurs femmes)"],
+            ["{ar|هُمَا} (deux hommes)", "{ar|يَكْتُبَانِ}", "eux deux écrivent"],
+            ["{ar|هُمَا} (deux femmes)", "{ar|تَكْتُبَانِ}", "elles deux écrivent"],
+            ["{ar|هُمْ}", "{ar|يَكْتُبُونَ}", "ils écrivent"],
+            ["{ar|هُنَّ}", "{ar|يَكْتُبْنَ}", "elles écrivent"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les formes en {ar|ان}, {ar|ون} et {ar|ين} ont en plus un {ar|ن} final (une kasra après {ar|ا}, une fatha après {ar|و} et {ar|ي}) : son rôle sera expliqué plus loin, avec la conjugaison. Le {ar|نَ} de {ar|تَكْتُبْنَ} et de {ar|يَكْتُبْنَ} est autre chose : c'est le pronom « elles » (comme au passé : {ar|كَتَبْنَ}), et le verbe prend un sukūn devant lui."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.grammar-4#3",
+      "type": "tip",
+      "title": "Le tableau du professeur : passé et présent",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur met les deux temps côte à côte avec {ar|كَتَبَ}. Tu y retrouves les douze personnes (treize lignes, car « eux deux » a un masculin et un féminin)."
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Passé", "Présent"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|كَتَبْتُ}", "{ar|أَكْتُبُ}"],
+            ["{ar|نَحْنُ}", "{ar|كَتَبْنَا}", "{ar|نَكْتُبُ}"],
+            ["{ar|أَنْتَ}", "{ar|كَتَبْتَ}", "{ar|تَكْتُبُ}"],
+            ["{ar|أَنْتِ}", "{ar|كَتَبْتِ}", "{ar|تَكْتُبِينَ}"],
+            ["{ar|أَنْتُمَا}", "{ar|كَتَبْتُمَا}", "{ar|تَكْتُبَانِ}"],
+            ["{ar|أَنْتُمْ}", "{ar|كَتَبْتُمْ}", "{ar|تَكْتُبُونَ}"],
+            ["{ar|أَنْتُنَّ}", "{ar|كَتَبْتُنَّ}", "{ar|تَكْتُبْنَ}"],
+            ["{ar|هُوَ}", "{ar|كَتَبَ}", "{ar|يَكْتُبُ}"],
+            ["{ar|هِيَ}", "{ar|كَتَبَتْ}", "{ar|تَكْتُبُ}"],
+            ["{ar|هُمَا} (deux hommes)", "{ar|كَتَبَا}", "{ar|يَكْتُبَانِ}"],
+            ["{ar|هُمَا} (deux femmes)", "{ar|كَتَبَتَا}", "{ar|تَكْتُبَانِ}"],
+            ["{ar|هُمْ}", "{ar|كَتَبُوا}", "{ar|يَكْتُبُونَ}"],
+            ["{ar|هُنَّ}", "{ar|كَتَبْنَ}", "{ar|يَكْتُبْنَ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.grammar-4#4",
+      "type": "fill_gap",
+      "sentence": "أَنْتُمْ {0} فِي الْجَامِعَةِ.",
+      "fr": "Vous (plusieurs hommes) étudiez à l'université.",
+      "gaps": [ { "answers": ["تَدْرُسُونَ"] } ],
+      "options": ["تَدْرُسُونَ", "تَدْرُسْنَ", "تَدْرُسَانِ", "تَدْرُسِينَ"],
+      "explain": "« Vous, plusieurs hommes » : la lettre {ar|تَ} au début et {ar|ونَ} à la fin."
+    },
+    {
+      "id": "medine-t2.l11.grammar-4#5",
+      "type": "fill_gap",
+      "sentence": "هُنَّ {0} فِي الْمَدْرَسَةِ.",
+      "fr": "Elles étudient à l'école.",
+      "gaps": [ { "answers": ["يَدْرُسْنَ"] } ],
+      "options": ["يَدْرُسْنَ", "يَدْرُسُونَ", "يَدْرُسَانِ"],
+      "explain": "« Elles » : la lettre {ar|يَ} au début et le pronom {ar|نَ} à la fin, avec un sukūn sur la lettre qui précède."
+    },
+    {
+      "id": "medine-t2.l11.grammar-4#6",
+      "type": "sort",
+      "categories": [
+        { "fr": "celui qui parle (je, nous)" },
+        { "fr": "celui à qui l'on parle (tu, vous)" },
+        { "fr": "celui dont on parle (il, elle, ils, elles)" }
+      ],
+      "cards": [
+        { "ar": "أَكْتُبُ", "category": 0 },
+        { "ar": "نَكْتُبُ", "category": 0 },
+        { "ar": "تَكْتُبُونَ", "category": 1 },
+        { "ar": "تَكْتُبِينَ", "category": 1 },
+        { "ar": "تَكْتُبْنَ", "category": 1 },
+        { "ar": "يَكْتُبُونَ", "category": 2 },
+        { "ar": "يَكْتُبْنَ", "category": 2 },
+        { "ar": "يَكْتُبَانِ", "category": 2 }
+      ],
+      "instruction": "Quelle personne ?",
+      "explain": "{ar|أَكْتُبُ} et {ar|نَكْتُبُ} : « je » et « nous ». {ar|تَكْتُبُونَ}, {ar|تَكْتُبِينَ}, {ar|تَكْتُبْنَ} : « vous » ou « tu ». {ar|يَكْتُبُونَ}, {ar|يَكْتُبْنَ}, {ar|يَكْتُبَانِ} : « ils », « elles », « eux deux »."
+    },
+    {
+      "id": "medine-t2.l11.grammar-4#7",
+      "type": "fill_gap",
+      "sentence": "أَنْتِ {0} فِي الْكُلِّيَّةِ.",
+      "fr": "Tu étudies à la faculté (à une femme).",
+      "gaps": [ { "answers": ["تَدْرُسِينَ"] } ],
+      "options": ["تَدْرُسِينَ", "تَدْرُسُ", "تَدْرُسُونَ"],
+      "explain": "« Tu », à une femme : la terminaison {ar|ينَ}."
+    },
+    {
+      "id": "medine-t2.l11.grammar-4#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|تَكْتُبْنَ}, qui écrit ?" },
+      "choices": [ { "fr": "vous (plusieurs femmes)" }, { "fr": "elles" }, { "fr": "tu (à une femme)" } ],
+      "answer": 0,
+      "explain": "{ar|تَكْتُبْنَ} a la lettre {ar|تَ} au début : c'est « vous » ({ar|أَنْتُنَّ}). Pour « elles », la forme est {ar|يَكْتُبْنَ}."
+    },
+    {
+      "id": "medine-t2.l11.grammar-4#9",
+      "type": "true_false",
+      "statement": { "fr": "Pour dire « elles écrivent », on peut dire {ar|هُنَّ يَكْتُبُونَ}." },
+      "answer": false,
+      "explain": "Non : {ar|يَكْتُبُونَ} est pour des hommes. Pour « elles », c'est {ar|هُنَّ يَكْتُبْنَ}."
+    },
+    {
+      "id": "medine-t2.l11.grammar-4#10",
+      "type": "order",
+      "fr": "Elles étudient à l'université.",
+      "answers": [["هُنَّ", "يَدْرُسْنَ", "فِي", "الْجَامِعَةِ"]],
+      "punctuation": ".",
+      "explain": "« Elles » : {ar|يَدْرُسْنَ}."
+    },
+    {
+      "id": "medine-t2.l11.grammar-4#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ils étudient à Riyad.",
+      "answers": [
+        "يَدْرُسُونَ فِي الرِّيَاضِ.",
+        "هُمْ يَدْرُسُونَ فِي الرِّيَاضِ.",
+        "يَدْرُسُونَ بِالرِّيَاضِ.",
+        "هُمْ يَدْرُسُونَ بِالرِّيَاضِ."
+      ]
+    },
+    {
+      "id": "medine-t2.l11.grammar-4#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Vous (plusieurs hommes) écrivez la leçon.",
+      "answers": ["تَكْتُبُونَ الدَّرْسَ.", "أَنْتُمْ تَكْتُبُونَ الدَّرْسَ."]
+    }
+  ]
+}

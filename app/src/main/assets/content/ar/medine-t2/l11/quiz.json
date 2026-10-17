@@ -1,0 +1,170 @@
+{
+  "id": "medine-t2.l11.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l11.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hallaq",
+      "distractors": ["w:risala", "w:bitaqa"],
+      "explain": "{ar|حَلَّاقٌ} : un coiffeur. {ar|رِسَالَةٌ} : une lettre ; {ar|بِطَاقَةٌ} : une carte."
+    },
+    {
+      "id": "medine-t2.l11.quiz#2",
+      "type": "question",
+      "prompt": { "fr": "Quel signe prouve que {ar|ذَهَبْتُمْ} est au passé ?" },
+      "choices": [
+        { "fr": "le pronom sujet {ar|تُمْ}, collé à la fin" },
+        { "fr": "la lettre {ar|يَ} ajoutée au début" },
+        { "fr": "la particule {ar|سَ} placée devant" }
+      ],
+      "answer": 0,
+      "explain": "Un pronom sujet en {ar|ت} collé à la fin est un signe du passé. {ar|يَ} au début et {ar|سَ} devant sont des signes du présent et du futur."
+    },
+    {
+      "id": "medine-t2.l11.quiz#3",
+      "type": "sort",
+      "categories": [ { "fr": "passé" }, { "fr": "présent" } ],
+      "cards": [
+        { "ar": "خَرَجَ", "category": 0 },
+        { "ar": "يَخْرُجُ", "category": 1 },
+        { "ar": "شَرِبَ", "category": 0 },
+        { "ar": "يَشْرَبُ", "category": 1 },
+        { "ar": "دَخَلَتْ", "category": 0 },
+        { "ar": "تَدْخُلُ", "category": 1 }
+      ],
+      "instruction": "Passé ou présent ?",
+      "explain": "Au passé : {ar|خَرَجَ}, {ar|شَرِبَ}, {ar|دَخَلَتْ} (avec le {ar|تْ} du féminin). Au présent, une lettre est ajoutée au début : {ar|يَخْرُجُ}, {ar|يَشْرَبُ}, {ar|تَدْخُلُ}."
+    },
+    {
+      "id": "medine-t2.l11.quiz#4",
+      "type": "fill_gap",
+      "sentence": "هُنَّ {0} فِي الْمَسْجِدِ.",
+      "fr": "Elles s'assoient dans la mosquée.",
+      "gaps": [ { "answers": ["يَجْلِسْنَ"] } ],
+      "options": ["يَجْلِسْنَ", "يَجْلِسُونَ", "تَجْلِسُ"],
+      "explain": "« Elles » : la lettre {ar|يَ} au début et le pronom {ar|نَ} à la fin."
+    },
+    {
+      "id": "medine-t2.l11.quiz#5",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أَدْرُسُ} (« j'étudie »), quel est le pronom sujet ?" },
+      "choices": [
+        { "fr": "« je », un pronom caché" },
+        { "fr": "la lettre {ar|أَ}, qui est le pronom" },
+        { "fr": "le {ar|ر}, qui est le pronom" }
+      ],
+      "answer": 0,
+      "explain": "La lettre {ar|أَ} est la lettre du présent. Le pronom « je » est caché."
+    },
+    {
+      "id": "medine-t2.l11.quiz#6",
+      "type": "spot",
+      "instruction": "Touche le verbe dont le pronom sujet est apparent.",
+      "words": ["أَنْتُنَّ", "تَكْتُبْنَ", "وَأَنَا", "أَكْتُبُ"],
+      "answers": [1],
+      "fr": "Vous (plusieurs femmes), vous écrivez, et moi, j'écris.",
+      "explain": "Dans {ar|تَكْتُبْنَ}, le pronom est le {ar|نَ}, qu'on voit. Dans {ar|أَكْتُبُ}, « je » est caché."
+    },
+    {
+      "id": "medine-t2.l11.quiz#7",
+      "type": "true_false",
+      "statement": { "fr": "On nie {ar|يَكْتُبُ} en plaçant {ar|لَا} devant : {ar|لَا يَكْتُبُ}." },
+      "answer": true,
+      "explain": "Oui : {ar|لَا} se place devant un verbe au présent."
+    },
+    {
+      "id": "medine-t2.l11.quiz#8",
+      "type": "question",
+      "prompt": { "fr": "Quelle phrase veut dire « Ils iront demain » ?" },
+      "choices": [ { "ar": "سَيَذْهَبُونَ غَدًا." }, { "ar": "ذَهَبُوا غَدًا." }, { "ar": "سَيَذْهَبْنَ غَدًا." } ],
+      "answer": 0,
+      "explain": "{ar|سَ} + le présent de {ar|ذَهَبَ} pour « ils » : {ar|سَيَذْهَبُونَ}. Un passé ne va pas avec {ar|غَدًا}, et {ar|يَذْهَبْنَ} est pour des femmes."
+    },
+    {
+      "id": "medine-t2.l11.quiz#9",
+      "type": "order",
+      "fr": "Elle ne boit pas de thé.",
+      "answers": [["هِيَ", "لَا", "تَشْرَبُ", "الشَّايَ"]],
+      "punctuation": ".",
+      "explain": "{ar|لَا} devant le présent {ar|تَشْرَبُ} : « elle ne boit pas »."
+    },
+    {
+      "id": "medine-t2.l11.quiz#10",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:aman",
+      "distractors": ["w:liqa", "w:masa"],
+      "explain": "{ar|أَمَانٌ} : la sécurité, la protection. {ar|لِقَاءٌ} : une rencontre ; {ar|مَسَاءٌ} : un soir."
+    },
+    {
+      "id": "medine-t2.l11.quiz#11",
+      "type": "fill_gap",
+      "sentence": "أَمَّا الْمُدِيرُ {0} فِي الْمَكْتَبِ.",
+      "fr": "Quant au directeur, il est au bureau.",
+      "gaps": [ { "answers": ["فَهُوَ"] } ],
+      "options": ["فَهُوَ", "وَهُوَ"],
+      "explain": "Après {ar|أَمَّا} et le mot annoncé, la suite commence par {ar|فَ}."
+    },
+    {
+      "id": "medine-t2.l11.quiz#12",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « la semaine prochaine » ?" },
+      "choices": [
+        { "ar": "الْأُسْبُوعُ الْقَادِمُ" },
+        { "ar": "الْأُسْبُوعُ الْقَادِمَةُ" },
+        { "ar": "الْأُسْبُوعُ الْقَدِيمُ" }
+      ],
+      "answer": 0,
+      "explain": "{ar|أُسْبُوعٌ} est masculin : {ar|الْقَادِمُ}. {ar|قَدِيمٌ} veut dire « ancien »."
+    },
+    {
+      "id": "medine-t2.l11.quiz#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous habitons à Riyad.",
+      "answers": [
+        "نَسْكُنُ فِي الرِّيَاضِ.",
+        "نَحْنُ نَسْكُنُ فِي الرِّيَاضِ.",
+        "نَسْكُنُ بِالرِّيَاضِ.",
+        "نَحْنُ نَسْكُنُ بِالرِّيَاضِ."
+      ]
+    },
+    {
+      "id": "medine-t2.l11.quiz#14",
+      "type": "question",
+      "prompt": { "fr": "Combien de sœurs ʿAbd Allāh a-t-il ?" },
+      "choices": [ { "fr": "trois" }, { "fr": "quatre" }, { "fr": "sept" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l11.dialogue-2#1" },
+      "explain": "{ar|لِي أَرْبَعَةُ إِخْوَةٍ وَثَلَاثُ أَخَوَاتٍ} : quatre frères et trois sœurs."
+    },
+    {
+      "id": "medine-t2.l11.quiz#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ils étudient à l'université.",
+      "answers": [
+        "يَدْرُسُونَ فِي الْجَامِعَةِ.",
+        "هُمْ يَدْرُسُونَ فِي الْجَامِعَةِ.",
+        "يَدْرُسُونَ بِالْجَامِعَةِ.",
+        "هُمْ يَدْرُسُونَ بِالْجَامِعَةِ."
+      ]
+    },
+    {
+      "id": "medine-t2.l11.quiz#16",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|تَكْتُبِينَ}, le pronom sujet est…" },
+      "choices": [
+        { "fr": "le {ar|ي}, pour une femme" },
+        { "fr": "le {ar|تَ} du début" },
+        { "fr": "le {ar|ن} final, pour une femme" }
+      ],
+      "answer": 0,
+      "explain": "{ar|تَكْتُبِينَ} : « tu écris » (à une femme). Le pronom est le {ar|ي} ; le {ar|تَ} du début est la lettre du présent."
+    }
+  ]
+}

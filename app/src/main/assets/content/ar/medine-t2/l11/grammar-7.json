@@ -1,0 +1,127 @@
+{
+  "id": "medine-t2.l11.grammar-7",
+  "type": "grammar",
+  "title": "Nier un verbe : {ar|مَا} et {ar|لَا}",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l11.grammar-7#1",
+      "type": "tip",
+      "title": "Nier un verbe au passé et au présent",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne deux façons de nier un verbe : on place en général {ar|مَا} devant un verbe au passé (la négation du chapitre 4 de ce tome), et {ar|لَا} devant un verbe au présent. Il appelle ces verbes des verbes niés ({ar|أَفْعَالٌ مَنْفِيَّةٌ})."
+        },
+        {
+          "type": "table",
+          "header": ["Verbe", "Verbe nié", "Sens"],
+          "rows": [
+            ["{ar|كَتَبَ أَحْمَدُ الدَّرْسَ}", "{ar|مَا كَتَبَ أَحْمَدُ الدَّرْسَ}", "Aḥmad n'a pas écrit la leçon"],
+            [
+              "{ar|يَكْتُبُ أَحْمَدُ الدَّرْسَ}",
+              "{ar|لَا يَكْتُبُ أَحْمَدُ الدَّرْسَ}",
+              "Aḥmad n'écrit pas la leçon"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le verbe ne change pas : seul le petit mot placé devant lui s'ajoute. C'est la règle de base : il existe d'autres emplois et d'autres négations ({ar|لَمْ}, {ar|لَنْ}) : tu les étudieras plus loin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.grammar-7#2",
+      "type": "sort",
+      "categories": [ { "fr": "négation d'un verbe au passé" }, { "fr": "négation d'un verbe au présent" } ],
+      "cards": [
+        { "ar": "مَا كَتَبَ أَحْمَدُ الدَّرْسَ.", "category": 0 },
+        { "ar": "لَا يَكْتُبُ أَحْمَدُ الدَّرْسَ.", "category": 1 },
+        { "ar": "مَا ذَهَبَ أَبِي إِلَى السُّوقِ.", "category": 0 },
+        { "ar": "لَا أَشْرَبُ الشَّايَ.", "category": 1 },
+        { "ar": "مَا لَعِبْنَا الْيَوْمَ.", "category": 0 },
+        { "ar": "لَا تَدْرُسُ أُخْتِي بِالْجَامِعَةِ.", "category": 1 }
+      ],
+      "instruction": "Quel verbe nié ?",
+      "explain": "Dans ces phrases, {ar|مَا} nie un verbe au passé ({ar|كَتَبَ}, {ar|ذَهَبَ}, {ar|لَعِبْنَا}) et {ar|لَا} nie un verbe au présent ({ar|يَكْتُبُ}, {ar|أَشْرَبُ}, {ar|تَدْرُسُ}). C'est la règle de base ; il existe d'autres emplois, vus plus tard."
+    },
+    {
+      "id": "medine-t2.l11.grammar-7#3",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « Je ne bois pas de thé » ?" },
+      "choices": [ { "ar": "لَا أَشْرَبُ الشَّايَ." }, { "ar": "مَا شَرِبْتُ الشَّايَ." }, { "ar": "أَشْرَبُ الشَّايَ." } ],
+      "answer": 0,
+      "explain": "Le verbe est au présent ({ar|أَشْرَبُ}) : on place {ar|لَا} devant. {ar|مَا شَرِبْتُ الشَّايَ} veut dire « je n'ai pas bu de thé »."
+    },
+    {
+      "id": "medine-t2.l11.grammar-7#4",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|لَا يَكْتُبُ أَحْمَدُ الدَّرْسَ}, le verbe nié est au passé." },
+      "answer": false,
+      "explain": "Non : {ar|يَكْتُبُ} est au présent (la lettre {ar|يَ} est ajoutée devant la racine). Il est nié par {ar|لَا}."
+    },
+    {
+      "id": "medine-t2.l11.grammar-7#5",
+      "type": "order",
+      "fr": "Je ne bois pas de thé.",
+      "answers": [["لَا", "أَشْرَبُ", "الشَّايَ"]],
+      "punctuation": ".",
+      "explain": "Le verbe {ar|أَشْرَبُ} est au présent : {ar|لَا} se place devant lui."
+    },
+    {
+      "id": "medine-t2.l11.grammar-7#6",
+      "type": "order",
+      "fr": "Nous n'avons pas joué au football aujourd'hui.",
+      "answers": [
+        ["مَا", "لَعِبْنَا", "كُرَةَ", "الْقَدَمِ", "الْيَوْمَ"],
+        ["مَا", "لَعِبْنَا", "الْيَوْمَ", "كُرَةَ", "الْقَدَمِ"]
+      ],
+      "punctuation": ".",
+      "explain": "Le verbe {ar|لَعِبْنَا} est au passé : {ar|مَا} se place devant lui."
+    },
+    {
+      "id": "medine-t2.l11.grammar-7#7",
+      "type": "order",
+      "fr": "Mon père ne va pas au marché tous les jours.",
+      "answers": [
+        ["أَبِي", "لَا", "يَذْهَبُ", "إِلَى", "السُّوقِ", "كُلَّ", "يَوْمٍ"],
+        ["لَا", "يَذْهَبُ", "أَبِي", "إِلَى", "السُّوقِ", "كُلَّ", "يَوْمٍ"],
+        ["أَبِي", "لَا", "يَذْهَبُ", "كُلَّ", "يَوْمٍ", "إِلَى", "السُّوقِ"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|لَا} se place juste devant le verbe {ar|يَذْهَبُ}."
+    },
+    {
+      "id": "medine-t2.l11.grammar-7#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "أُخْتِي تَدْرُسُ بِالْجَامِعَةِ.",
+      "answers": [
+        "أُخْتِي لَا تَدْرُسُ بِالْجَامِعَةِ.",
+        "لَا تَدْرُسُ أُخْتِي بِالْجَامِعَةِ.",
+        "أُخْتِي لَا تَدْرُسُ فِي الْجَامِعَةِ.",
+        "لَا تَدْرُسُ أُخْتِي فِي الْجَامِعَةِ."
+      ],
+      "fr": "Ma sœur n'étudie pas à l'université.",
+      "instruction": "Mets le verbe à la forme négative.",
+      "explain": "Le verbe {ar|تَدْرُسُ} est au présent : {ar|لَا} se place devant lui."
+    },
+    {
+      "id": "medine-t2.l11.grammar-7#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "لَعِبْنَا كُرَةَ الْقَدَمِ الْيَوْمَ.",
+      "answers": [
+        "مَا لَعِبْنَا كُرَةَ الْقَدَمِ الْيَوْمَ.",
+        "مَا لَعِبْنَا الْيَوْمَ كُرَةَ الْقَدَمِ.",
+        "لَمْ نَلْعَبْ كُرَةَ الْقَدَمِ الْيَوْمَ.",
+        "لَمْ نَلْعَبْ الْيَوْمَ كُرَةَ الْقَدَمِ."
+      ],
+      "fr": "Nous n'avons pas joué au football aujourd'hui.",
+      "instruction": "Mets le verbe à la forme négative.",
+      "explain": "Le verbe {ar|لَعِبْنَا} est au passé : {ar|مَا} se place devant lui."
+    }
+  ]
+}

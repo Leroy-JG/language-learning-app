@@ -1,0 +1,124 @@
+{
+  "id": "medine-t2.l11.practice-3",
+  "type": "vocabulary",
+  "title": "Exercices 4 et 8 : le verbe « aller »",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l11.practice-3#1",
+      "type": "tip",
+      "title": "Le modèle du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans l'exercice 4, le professeur montre d'abord comment le verbe suit le sujet, avec {ar|دَرَسَ} :"
+        },
+        {
+          "type": "example",
+          "ar": "عَبْدُ اللَّهِ يَدْرُسُ بِجَامِعَةِ الرِّيَاضِ.",
+          "fr": "ʿAbd Allāh étudie à l'université de Riyad."
+        },
+        {
+          "type": "example",
+          "ar": "وَإِخْوَتُهُ أَيْضًا يَدْرُسُونَ بِجَامِعَةِ الرِّيَاضِ.",
+          "fr": "Et ses frères aussi étudient à l'université de Riyad."
+        },
+        {
+          "type": "example",
+          "ar": "وَأَخَوَاتُهُ يَدْرُسْنَ فِي الْمَدْرَسَةِ الْمُتَوَسِّطَةِ.",
+          "fr": "Et ses sœurs étudient au collège."
+        },
+        {
+          "type": "example",
+          "ar": "زَيْنَبُ تَدْرُسُ فِي السَّنَةِ الْأُولَى.",
+          "fr": "Zaynab étudie en première année."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le sujet est placé avant le verbe : le verbe s'accorde avec lui comme avec un pronom. Un seul homme : {ar|يَدْرُسُ}. Plusieurs hommes : {ar|يَدْرُسُونَ}. Plusieurs femmes : {ar|يَدْرُسْنَ}. Une fille : {ar|تَدْرُسُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.practice-3#2",
+      "type": "fill_gap",
+      "sentence": "أَبِي {0} إِلَى السُّوقِ كُلَّ صَبَاحٍ.",
+      "fr": "Mon père va au marché chaque matin.",
+      "gaps": [ { "answers": ["يَذْهَبُ"] } ],
+      "options": ["يَذْهَبُ", "يَذْهَبُونَ", "أَذْهَبُ"],
+      "explain": "Un seul homme (« il ») : {ar|يَذْهَبُ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "الطُّلَّابُ {0} الْآنَ إِلَى الْمُدِيرِ.",
+      "fr": "Les étudiants vont maintenant chez le directeur.",
+      "gaps": [ { "answers": ["يَذْهَبُونَ"] } ],
+      "options": ["يَذْهَبُونَ", "يَذْهَبْنَ", "يَذْهَبُ"],
+      "explain": "Plusieurs hommes (« ils ») : {ar|يَذْهَبُونَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-3#4",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi dit-on {ar|أُخْتِي تَذْهَبُ} et non {ar|أُخْتِي يَذْهَبُ} ?" },
+      "choices": [
+        { "fr": "parce que le sujet est une fille : la lettre est {ar|تَ}" },
+        { "fr": "parce que le sujet est au pluriel" },
+        { "fr": "parce que le verbe est au passé" }
+      ],
+      "answer": 0,
+      "explain": "Pour « elle », le verbe commence par {ar|تَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-3#5",
+      "type": "fill_gap",
+      "sentence": "أُخْتِي {0} إِلَى الْمَدْرَسَةِ.",
+      "fr": "Ma sœur va à l'école.",
+      "gaps": [ { "answers": ["تَذْهَبُ"] } ],
+      "options": ["تَذْهَبُ", "يَذْهَبُ", "تَذْهَبْنَ"],
+      "explain": "Une seule femme (« elle ») : {ar|تَذْهَبُ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-3#6",
+      "type": "fill_gap",
+      "sentence": "آمِنَةُ وَفَاطِمَةُ وَعَائِشَةُ {0} الْآنَ إِلَى الْمَكْتَبَةِ.",
+      "fr": "Āmina, Fāṭima et ʿĀʾisha vont maintenant à la bibliothèque.",
+      "gaps": [ { "answers": ["يَذْهَبْنَ"] } ],
+      "options": ["يَذْهَبْنَ", "يَذْهَبُونَ", "تَذْهَبُ"],
+      "explain": "Plusieurs femmes (« elles ») : {ar|يَذْهَبْنَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-3#7",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|أَيْنَ تَذْهَبُ أَنْتَ يَا أَحْمَدُ؟}, le verbe {ar|تَذْهَبُ} veut dire « elle va »." },
+      "answer": false,
+      "explain": "Non : Aḥmad est un homme ; la phrase s'adresse à lui, c'est « tu vas ». Le même verbe {ar|تَذْهَبُ} peut aussi vouloir dire « elle va » (exercice 8)."
+    },
+    {
+      "id": "medine-t2.l11.practice-3#8",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ {0} أَنْتَ يَا أَحْمَدُ؟",
+      "fr": "Où vas-tu, Aḥmad ?",
+      "gaps": [ { "answers": ["تَذْهَبُ"] } ],
+      "options": ["تَذْهَبُ", "أَذْهَبُ", "يَذْهَبُ", "تَذْهَبِينَ"],
+      "explain": "« Tu », à un homme : {ar|تَذْهَبُ}. {ar|تَذْهَبِينَ} serait pour une femme."
+    },
+    {
+      "id": "medine-t2.l11.practice-3#9",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} الْآنَ إِلَى الْمَسْجِدِ.",
+      "fr": "Je vais maintenant à la mosquée.",
+      "gaps": [ { "answers": ["أَذْهَبُ"] } ],
+      "options": ["أَذْهَبُ", "نَذْهَبُ", "تَذْهَبُ"],
+      "explain": "« Je » : la lettre {ar|أَ}."
+    },
+    {
+      "id": "medine-t2.l11.practice-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ils vont au marché.",
+      "answers": ["يَذْهَبُونَ إِلَى السُّوقِ.", "هُمْ يَذْهَبُونَ إِلَى السُّوقِ."]
+    }
+  ]
+}

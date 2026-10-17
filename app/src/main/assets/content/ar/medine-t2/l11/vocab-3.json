@@ -1,0 +1,84 @@
+{
+  "id": "medine-t2.l11.vocab-3",
+  "type": "vocabulary",
+  "title": "Le coiffeur et le soir",
+  "icon": "moon",
+  "screens": [
+    { "id": "medine-t2.l11.vocab-3#1", "type": "present", "item": "w:hallaq" },
+    { "id": "medine-t2.l11.vocab-3#2", "type": "present", "item": "w:masa" },
+    {
+      "id": "medine-t2.l11.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:masa",
+      "distractors": ["w:hallaq", "w:sabah"],
+      "explain": "{ar|مَسَاءٌ} : un soir. {ar|حَلَّاقٌ} : un coiffeur ; {ar|صَبَاحٌ} : un matin."
+    },
+    {
+      "id": "medine-t2.l11.vocab-3#4",
+      "type": "tip",
+      "title": "Le soir : trois façons de le dire",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Arabe", "Sens", "Pourquoi cette terminaison ?"],
+          "rows": [
+            ["{ar|فِي الْمَسَاءِ}", "le soir", "après la préposition {ar|فِي} : le génitif"],
+            ["{ar|كُلَّ مَسَاءٍ}", "chaque soir", "complément de temps : l'accusatif"],
+            ["{ar|هٰذَا الْمَسَاءَ}", "ce soir", "complément de temps : l'accusatif"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Tu connais déjà le même mécanisme avec {ar|كُلَّ يَوْمٍ} (« chaque jour »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l11.vocab-3#5",
+      "type": "fill_gap",
+      "sentence": "ذَهَبَ زَيْدٌ إِلَى {0}.",
+      "fr": "Zayd est allé chez le coiffeur.",
+      "gaps": [ { "answers": ["الْحَلَّاقِ"] } ],
+      "options": ["الْحَلَّاقِ", "الْمَسَاءِ"],
+      "explain": "{ar|إِلَى} + le coiffeur : {ar|الْحَلَّاقِ}. On ne va pas « vers le soir »."
+    },
+    {
+      "id": "medine-t2.l11.vocab-3#6",
+      "type": "fill_gap",
+      "sentence": "جَاءَ زَيْدٌ فِي {0}.",
+      "fr": "Zayd est venu le soir.",
+      "gaps": [ { "answers": ["الْمَسَاءِ"] } ],
+      "options": ["الْمَسَاءِ", "الْحَلَّاقِ"],
+      "explain": "Pour dire « le soir », on dit {ar|فِي الْمَسَاءِ}."
+    },
+    { "id": "medine-t2.l11.vocab-3#7", "type": "build", "item": "w:hallaq", "extra": ["ك"] },
+    {
+      "id": "medine-t2.l11.vocab-3#8",
+      "type": "true_false",
+      "statement": { "fr": "{ar|مَسَاءٌ} est le contraire de {ar|صَبَاحٌ}." },
+      "answer": true,
+      "explain": "Oui : {ar|صَبَاحٌ} est le matin et {ar|مَسَاءٌ} le soir."
+    },
+    {
+      "id": "medine-t2.l11.vocab-3#9",
+      "type": "order",
+      "fr": "Je vais chez le coiffeur ce soir.",
+      "answers": [
+        ["أَذْهَبُ", "إِلَى", "الْحَلَّاقِ", "هٰذَا", "الْمَسَاءَ"],
+        ["هٰذَا", "الْمَسَاءَ", "أَذْهَبُ", "إِلَى", "الْحَلَّاقِ"],
+        ["أَذْهَبُ", "هٰذَا", "الْمَسَاءَ", "إِلَى", "الْحَلَّاقِ"]
+      ],
+      "punctuation": ".",
+      "explain": "« Je vais » : {ar|أَذْهَبُ}. {ar|هٰذَا الْمَسَاءَ} est un complément de temps : il peut venir à la fin ou au début."
+    },
+    {
+      "id": "medine-t2.l11.vocab-3#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd est venu le soir.",
+      "answers": ["جَاءَ زَيْدٌ فِي الْمَسَاءِ.", "زَيْدٌ جَاءَ فِي الْمَسَاءِ."]
+    }
+  ]
+}
