@@ -146,13 +146,13 @@
   {
     "id": "w:musa",
     "kind": "word",
-    "ar": "مُوسَى",
+    "ar": "مُوسًى",
     "fr": "un rasoir",
-    "translit": "mūsā",
+    "translit": "mūsan",
     "plural": "مَوَاسٍ",
     "gender": "f",
-    "note": "Les dictionnaires l'emploient aux deux genres ; ici, au féminin. Le professeur écrit le pluriel sans tanwin ({ar|مَوَاسِ}) : indéfini, c'est {ar|مَوَاسٍ}. Ne le confonds pas avec {ar|مُوسَى} (Moïse), qui s'écrit pareil.",
-    "example": { "ar": "اِشْتَرَى زَيْدٌ مُوسَى.", "fr": "Zayd a acheté un rasoir." }
+    "note": "Les dictionnaires l'emploient aux deux genres ; ici, au féminin. Le professeur écrit le pluriel sans tanwin ({ar|مَوَاسِ}) : indéfini, c'est {ar|مَوَاسٍ}. Ne le confonds pas avec {ar|مُوسَى} (Moïse), qui n'a pas de tanwin.",
+    "example": { "ar": "اِشْتَرَى زَيْدٌ مُوسًى.", "fr": "Zayd a acheté un rasoir." }
   },
   {
     "id": "w:hidhaa",

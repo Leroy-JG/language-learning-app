@@ -25,7 +25,7 @@
         },
         {
           "type": "note",
-          "text": "Un cas à retenir : {ar|تَعَالَ} (« viens ! ») ne se forme pas sur un présent. Ses formes sont {ar|تَعَالَ}, {ar|تَعَالَيْ} (une femme), {ar|تَعَالَيَا} (deux), {ar|تَعَالَوْا} (plusieurs hommes), {ar|تَعَالَيْنَ} (plusieurs femmes)."
+          "text": "Un cas à retenir : {ar|تَعَالَ} (« viens ! ») vient du verbe {ar|تَعَالَى} : une fois la lettre du présent supprimée, il reste {ar|تَعَالَ}, qui commence déjà par une consonne portant une voyelle, donc sans hamza de liaison (comme {ar|خُذْ}). Ses formes sont {ar|تَعَالَ}, {ar|تَعَالَيْ} (une femme), {ar|تَعَالَيَا} (deux), {ar|تَعَالَوْا} (plusieurs hommes), {ar|تَعَالَيْنَ} (plusieurs femmes)."
         }
       ]
     },
@@ -99,12 +99,12 @@
       "type": "question",
       "prompt": { "fr": "Pourquoi {ar|تَعَالَيْ} n'a-t-il pas de hamza de liaison ?" },
       "choices": [
-        { "fr": "Il ne se forme pas sur un présent : c'est une forme à retenir" },
+        { "fr": "Une fois la lettre du présent supprimée, il commence déjà par une consonne portant une voyelle" },
         { "fr": "Parce qu'il est au passé" },
         { "fr": "Parce qu'il s'adresse à un homme" }
       ],
       "answer": 0,
-      "explain": "{ar|تَعَالَ} se conjugue seul : {ar|تَعَالَيْ} pour une femme, {ar|تَعَالَوْا} pour plusieurs hommes."
+      "explain": "{ar|تَتَعَالَيْنَ} → {ar|تَعَالَيْ} : comme pour {ar|خُذْ}, rien ne force à ajouter une hamza. Pour plusieurs hommes : {ar|تَعَالَوْا}."
     },
     {
       "id": "medine-t2.l14.practice-6#10",

@@ -39,7 +39,7 @@
       "mode": "fr-ar",
       "item": "w:waraqa",
       "distractors": ["w:hidhaa", "w:musa"],
-      "explain": "« Une feuille » : {ar|وَرَقَةٌ}. {ar|حِذَاءٌ} : une chaussure ; {ar|مُوسَى} : un rasoir."
+      "explain": "« Une feuille » : {ar|وَرَقَةٌ}. {ar|حِذَاءٌ} : une chaussure ; {ar|مُوسًى} : un rasoir."
     },
     { "id": "medine-t2.l14.vocab-2#11", "type": "build", "item": "w:waraqa", "extra": ["ه", "ك"] },
     {
