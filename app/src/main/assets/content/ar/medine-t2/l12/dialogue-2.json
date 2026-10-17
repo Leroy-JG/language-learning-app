@@ -22,7 +22,7 @@
         {
           "speaker": "S",
           "ar": "نَعَمْ. نَفْهَمُهَا جَيِّدًا وَالْحَمْدُ لِلَّهِ.",
-          "fr": "Oui. Nous les comprenons bien, grâce à Allah."
+          "fr": "Oui. Nous les comprenons bien, louange à Allah."
         },
         {
           "speaker": "H",
@@ -58,7 +58,7 @@
         {
           "speaker": "G",
           "ar": "نَحْنُ قَرَأْنَا الدُّرُوسَ وَكَتَبْنَا الْوَاجِبَاتِ وَالْحَمْدُ لِلَّهِ.",
-          "fr": "Nous avons lu les leçons et écrit les devoirs, grâce à Allah."
+          "fr": "Nous avons lu les leçons et écrit les devoirs, louange à Allah."
         },
         {
           "speaker": "H",
@@ -107,13 +107,16 @@
             ["{ar|نَفْهَمُهَا}", "nous les comprenons ({ar|نَفْهَمُ} + {ar|هَا})"],
             ["{ar|أَحْسَنْتُنَّ}", "vous avez bien fait, bravo (plusieurs femmes : {ar|أَحْسَنَ} + {ar|تُنَّ})"],
             ["{ar|خَالَتِكُنَّ}", "votre tante (plusieurs femmes : {ar|خَالَةٌ} + {ar|كُنَّ})"],
-            ["{ar|إِنَّنَا}", "certes, nous ({ar|إِنَّ} + {ar|نَا})"],
+            [
+              "{ar|إِنَّنَا}",
+              "{ar|إِنَّ} + {ar|نَا} : « que nous » (après {ar|قَالَ}, {ar|إِنَّ} ne se traduit pas)"
+            ],
             ["{ar|سَنَرْجِعُ ، سَيَرْجِعُونَ}", "nous reviendrons, ils reviendront (le futur)"]
           ]
         },
         {
           "type": "note",
-          "text": "{ar|تَفْعَلُ التِّلْمِيذَاتُ} : le verbe placé avant un sujet pluriel reste au singulier (chapitre 11). Ici, il est même placé après {ar|هٰكَذَا}."
+          "text": "Dans {ar|هٰكَذَا تَفْعَلُ التِّلْمِيذَاتُ}, le verbe précède son sujet : il reste au singulier ({ar|تَفْعَلُ}, au féminin) même si le sujet est pluriel (chapitre 11)."
         }
       ]
     },
@@ -173,7 +176,8 @@
       "fr": "Nous irons lui rendre visite ce soir.",
       "answers": [
         ["سَنَذْهَبُ", "لِزِيَارَتِهَا", "هٰذَا", "الْمَسَاءَ"],
-        ["هٰذَا", "الْمَسَاءَ", "سَنَذْهَبُ", "لِزِيَارَتِهَا"]
+        ["هٰذَا", "الْمَسَاءَ", "سَنَذْهَبُ", "لِزِيَارَتِهَا"],
+        ["سَنَذْهَبُ", "هٰذَا", "الْمَسَاءَ", "لِزِيَارَتِهَا"]
       ],
       "punctuation": ".",
       "explain": "{ar|هٰذَا الْمَسَاءَ} (« ce soir ») est à l'accusatif ; il peut se placer au début ou à la fin."

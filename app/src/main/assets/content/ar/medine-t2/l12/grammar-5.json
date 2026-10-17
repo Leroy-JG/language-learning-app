@@ -24,6 +24,11 @@
         },
         {
           "type": "note",
+          "tone": "warning",
+          "text": "Le {ar|و} de {ar|يَدْعُو} fait partie de la racine ({ar|د}-{ar|ع}-{ar|و}) : ce n'est pas le {ar|وَاوُ الْجَمَاعَةِ}, et il n'est pas suivi d'un {ar|ن}."
+        },
+        {
+          "type": "note",
           "text": "{ar|دَعَا} : il a invoqué, il a appelé (tu le connais). {ar|قَضَى} : il a tranché, il a accompli, il a passé (du temps). {ar|سَعَى} : il s'est efforcé, il s'est hâté."
         }
       ]

@@ -47,11 +47,11 @@
     {
       "id": "medine-t2.l12.vocab-4#7",
       "type": "fill_gap",
-      "sentence": "زَيْدٌ فِي {0} التِّجَارَةِ.",
-      "fr": "Zayd travaille dans le commerce.",
-      "gaps": [ { "answers": ["عَمَلِ"] } ],
-      "options": ["عَمَلِ", "رَقْمِ"],
-      "explain": "{ar|فِي} met {ar|عَمَلِ} au génitif."
+      "sentence": "{0} زَيْدٍ فِي التِّجَارَةِ.",
+      "fr": "Le travail de Zayd est dans le commerce.",
+      "gaps": [ { "answers": ["عَمَلُ"] } ],
+      "options": ["عَمَلُ", "رَقْمُ"],
+      "explain": "« Le travail de Zayd » : une annexion, {ar|عَمَلُ زَيْدٍ} ; {ar|زَيْدٍ} est au génitif."
     },
     {
       "id": "medine-t2.l12.vocab-4#8",

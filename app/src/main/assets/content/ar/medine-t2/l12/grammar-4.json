@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le professeur donne **deux cas seulement** où le présent n'a pas sa marque de base (damma, fatha, sukūn). Premier cas : son sujet est l'un des trois pronoms que voici, collés à la fin du verbe."
+          "text": "Le professeur donne **deux cas seulement** où le présent n'a pas sa marque de base (damma, fatha, sukūn). Premier cas : son sujet est l'un des trois pronoms que voici, collés à la fin du verbe. Ne confonds pas avec les deux cas d'invariabilité du début du chapitre : ici, le verbe reste variable ({ar|مُعْرَبٌ}), seule sa marque change."
         },
         {
           "type": "table",
@@ -87,7 +87,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Avec ces trois pronoms, la damma de la fin disparaît : c'est le {ar|ن} final qui marque le nominatif ({ar|الرَّفْعُ}). On parle de marque **secondaire** ({ar|الْإِعْرَابُ الْفَرْعِيُّ}) : c'est une lettre, et non une voyelle."
+          "text": "Avec ces trois pronoms, la damma de la fin disparaît : c'est le {ar|ن} final qui marque le nominatif ({ar|الرَّفْعُ}). On parle de marque **secondaire** ({ar|الْإِعْرَابُ الْفَرْعِيُّ}) : ici, c'est une lettre et non une voyelle."
         },
         {
           "type": "note",

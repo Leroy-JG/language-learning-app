@@ -41,7 +41,7 @@
         { "ar": "نَأْكُلُ", "category": 0 }
       ],
       "instruction": "Ce verbe est-il variable ou invariable ? Pense à son temps.",
-      "explain": "Le passé ({ar|كَتَبَ}, {ar|خَرَجَتْ}, {ar|ذَهَبُوا}) est toujours invariable. Le présent ({ar|يَدْرُسُ}, {ar|تَذْهَبُ}, {ar|نَأْكُلُ}) est en général variable."
+      "explain": "Le passé ({ar|كَتَبَ}, {ar|خَرَجَتْ}, {ar|ذَهَبُوا}) est toujours invariable. Le présent ({ar|يَدْرُسُ}, {ar|تَذْهَبُ}, {ar|نَأْكُلُ}) est variable, sauf dans les deux cas du professeur (que tu vas voir)."
     },
     {
       "id": "medine-t2.l12.grammar-1#3",
@@ -79,7 +79,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Dans ces deux cas, la dernière lettre du verbe garde toujours la même voyelle : un **sukūn** devant le {ar|نَ} des femmes, une **fatha** devant le {ar|نَّ} d'insistance."
+          "text": "Dans ces deux cas, la dernière lettre du verbe ne change plus : un **sukūn** devant le {ar|نَ} des femmes ; une **fatha** devant le {ar|نَّ} d'insistance, quand il est collé à une forme du singulier comme celles-ci."
         },
         {
           "type": "compare",
@@ -92,7 +92,7 @@
             {
               "from": { "ar": "تَكْتُبُ", "fr": "tu écris" },
               "to": { "ar": "تَكْتُبَنَّ", "fr": "forme d'insistance" },
-              "label": "le {ar|نَّ} d'insistance : fatha sur la lettre qui précède"
+              "label": "le {ar|نَّ} d'insistance, collé à un singulier : fatha sur la lettre qui précède"
             }
           ]
         }

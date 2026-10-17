@@ -79,7 +79,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "C'est l'heure de la prière.",
-      "answers": ["هٰذَا وَقْتُ الصَّلَاةِ."],
+      "answers": ["هٰذَا وَقْتُ الصَّلَاةِ.", "ذٰلِكَ وَقْتُ الصَّلَاةِ."],
       "explain": "{ar|وَقْتُ} + {ar|الصَّلَاةِ} : une annexion."
     }
   ]

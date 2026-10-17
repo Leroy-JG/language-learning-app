@@ -40,14 +40,14 @@
       "categories": [ { "fr": "une seule personne" }, { "fr": "deux personnes" }, { "fr": "plusieurs personnes" } ],
       "cards": [
         { "ar": "تَكْتُبِينَ", "category": 0 },
+        { "ar": "يَكْتُبُ", "category": 0 },
         { "ar": "يَكْتُبَانِ", "category": 1 },
-        { "ar": "تَكْتُبْنَ", "category": 2 },
         { "ar": "تَكْتُبَانِ", "category": 1 },
-        { "ar": "يَكْتُبُونَ", "category": 2 },
-        { "ar": "نَكْتُبُ", "category": 2 }
+        { "ar": "تَكْتُبْنَ", "category": 2 },
+        { "ar": "يَكْتُبُونَ", "category": 2 }
       ],
       "instruction": "Une personne, deux personnes ou plusieurs ?",
-      "explain": "{ar|تَكْتُبِينَ} : « tu » (une femme). {ar|يَكْتُبَانِ} et {ar|تَكْتُبَانِ} : deux personnes. {ar|تَكْتُبْنَ}, {ar|يَكْتُبُونَ} et {ar|نَكْتُبُ} : plusieurs personnes (« vous », « ils », « nous »)."
+      "explain": "{ar|تَكْتُبِينَ} (« tu », une femme) et {ar|يَكْتُبُ} (« il ») : une personne. {ar|يَكْتُبَانِ} et {ar|تَكْتُبَانِ} : deux personnes. {ar|تَكْتُبْنَ} (« vous », des femmes) et {ar|يَكْتُبُونَ} (« ils ») : plusieurs personnes."
     },
     {
       "id": "medine-t2.l12.revue-1#3",

@@ -23,6 +23,10 @@
           ]
         },
         {
+          "type": "paragraph",
+          "text": "Attention : si la racine du verbe se termine déjà par {ar|ن} (comme {ar|سَكَنَ}), le {ar|ن} de la racine et le pronom {ar|نَ} se fondent : {ar|تَسْكُنَّ}, une seule lettre avec une shadda."
+        },
+        {
           "type": "note",
           "text": "{ar|إِخْوَانٌ} est un autre pluriel de {ar|أَخٌ} (« frère »), à côté de {ar|إِخْوَةٌ}."
         }
@@ -111,7 +115,11 @@
       "id": "medine-t2.l12.practice-3#10",
       "type": "order",
       "fr": "Pourquoi êtes-vous assises ici, mesdames ?",
-      "answers": [["لِمَ", "تَجْلِسْنَ", "هُنَا", "يَا", "نِسَاءُ"]],
+      "answers": [
+        ["لِمَ", "تَجْلِسْنَ", "هُنَا", "يَا", "نِسَاءُ"],
+        ["يَا", "نِسَاءُ", "لِمَ", "تَجْلِسْنَ", "هُنَا"],
+        ["لِمَ", "تَجْلِسْنَ", "يَا", "نِسَاءُ", "هُنَا"]
+      ],
       "punctuation": "؟",
       "explain": "{ar|نِسَاءٌ} : des femmes (pluriel de {ar|اِمْرَأَةٌ})."
     },

@@ -24,7 +24,12 @@
         },
         {
           "type": "note",
-          "text": "Un verbe n'est jamais au génitif : le génitif est réservé aux noms. On appelle ces marques {ar|الْإِعْرَابُ الْأَصْلِيُّ} (la marque de base, chapitre 11 de ce tome)."
+          "tone": "memo",
+          "text": "Les grammaires françaises de l'arabe appellent souvent le verbe à la damma « indicatif », à la fatha « subjonctif » et au sukūn « apocopé » (ou « jussif »)."
+        },
+        {
+          "type": "note",
+          "text": "Un verbe n'est jamais au génitif : le génitif est réservé aux noms. On appelle ces marques {ar|الْإِعْرَابُ الْأَصْلِيُّ} (la marque de base, vue à la Révision 2 du tome 1)."
         }
       ]
     },
@@ -106,7 +111,7 @@
     {
       "id": "medine-t2.l12.grammar-2#6",
       "type": "question",
-      "prompt": { "fr": "Quelle marque porte le verbe au présent après {ar|لَنْ} ?" },
+      "prompt": { "fr": "Quelle marque de base porte le verbe au présent après {ar|لَنْ} ?" },
       "choices": [ { "fr": "une fatha ({ar|◌َ})" }, { "fr": "une damma ({ar|◌ُ})" }, { "fr": "un sukūn ({ar|◌ْ})" } ],
       "answer": 0,
       "explain": "Après {ar|لَنْ}, le verbe est à l'accusatif ({ar|مَنْصُوبٌ}) : {ar|لَنْ أَدْرُسَ}."
@@ -114,7 +119,7 @@
     {
       "id": "medine-t2.l12.grammar-2#7",
       "type": "question",
-      "prompt": { "fr": "Quelle marque porte le verbe au présent après {ar|لَمْ} ?" },
+      "prompt": { "fr": "Quelle marque de base porte le verbe au présent après {ar|لَمْ} ?" },
       "choices": [ { "fr": "un sukūn ({ar|◌ْ})" }, { "fr": "une fatha ({ar|◌َ})" }, { "fr": "une kasra ({ar|◌ِ})" } ],
       "answer": 0,
       "explain": "Après {ar|لَمْ}, le verbe est au jussif ({ar|مَجْزُومٌ}) : {ar|لَمْ أَدْرُسْ}. Il n'y a jamais de kasra de cas sur un verbe."

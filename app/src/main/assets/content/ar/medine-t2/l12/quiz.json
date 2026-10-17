@@ -83,8 +83,8 @@
     {
       "id": "medine-t2.l12.quiz#9",
       "type": "order",
-      "fr": "Je n'ai pas écrit la leçon.",
-      "answers": [["لَمْ", "أَكْتُبْ", "الدَّرْسَ"]],
+      "fr": "Je n'ai pas écrit de lettre.",
+      "answers": [["لَمْ", "أَكْتُبْ", "رِسَالَةً"]],
       "punctuation": ".",
       "distractors": ["لَنْ"],
       "explain": "{ar|لَمْ} + le présent au sukūn : la négation du passé."
