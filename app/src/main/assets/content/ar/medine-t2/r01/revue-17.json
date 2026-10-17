@@ -32,14 +32,14 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "Avec {ar|أَكَلَ}, « je » s'écrit {ar|آكُلُ} et non {ar|أَأْكُلُ} : deux hamzas de suite se fondent en un alif avec madda."
+          "text": "Avec {ar|أَكَلَ}, « je » s'écrit {ar|آكُلُ} et non {ar|أَأْكُلُ} : deux hamzas de suite se fondent en un alif avec madda. Il en va de même pour les verbes dont la racine commence par une hamza, comme {ar|أَخَذَ} → {ar|آخُذُ}."
         }
       ]
     },
     {
       "id": "medine-t2.r01.revue-17#2",
       "type": "tip",
-      "title": "Le modèle : {ar|دَخَلَ} aux douze personnes",
+      "title": "Le modèle : {ar|دَخَلَ} à toutes les personnes",
       "blocks": [
         {
           "type": "table",
@@ -75,7 +75,7 @@
         { "ar": "نَجَحْنَا", "category": 0 }
       ],
       "instruction": "Passé ou présent ?",
-      "explain": "{ar|دَخَلْتِ}, {ar|فَرِحُوا} et {ar|نَجَحْنَا} portent un pronom du passé ({ar|تِ}, {ar|◌ُوا}, {ar|نَا}). {ar|تَدْخُلِينَ}, {ar|يَفْرَحُونَ} et {ar|أَنْجَحُ} commencent par une lettre de {ar|أَنَيْتُ} : présent."
+      "explain": "{ar|دَخَلْتِ} et {ar|نَجَحْنَا} portent un pronom propre au passé ({ar|تِ}, {ar|نَا}) ; {ar|فَرِحُوا} ne commence par aucune lettre de {ar|أَنَيْتُ}. {ar|تَدْخُلِينَ}, {ar|يَفْرَحُونَ} et {ar|أَنْجَحُ} commencent par une lettre de {ar|أَنَيْتُ} : présent."
     },
     {
       "id": "medine-t2.r01.revue-17#4",

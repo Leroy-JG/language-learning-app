@@ -17,14 +17,17 @@
           "type": "table",
           "header": ["Trait", "Ce que cela veut dire"],
           "rows": [
-            ["il est invariable ({ar|مَبْنِيٌّ})", "sa forme ne change pas selon la phrase"],
+            [
+              "il est invariable ({ar|مَبْنِيٌّ})",
+              "il ne prend aucune marque de cas : sa forme ne change pas selon la phrase"
+            ],
             ["il est propre au verbe ({ar|فِعْلٌ})", "on ne le colle pas à un nom pour en faire un sujet"],
             [
               "il est toujours le sujet ({ar|فَاعِلٌ})",
               "il fait l'action du verbe auquel il est collé ; on l'appelle donc aussi « pronom sujet »"
             ],
             [
-              "sa forme varie selon le temps du verbe",
+              "sa forme peut varier selon le temps du verbe",
               "{ar|كَتَبْتِ} (passé) mais {ar|تَكْتُبِينَ} (présent) pour « toi », une femme"
             ],
             [
@@ -43,7 +46,7 @@
     {
       "id": "medine-t2.r01.revue-16#2",
       "type": "tip",
-      "title": "Le passé de {ar|كَتَبَ} aux douze personnes",
+      "title": "Le passé de {ar|كَتَبَ} à toutes les personnes",
       "blocks": [
         {
           "type": "table",
@@ -67,14 +70,19 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "Dans {ar|كَتَبَتْ}, le {ar|تْ} n'est pas un pronom : c'est la marque du féminin ({ar|تَاءُ التَّأْنِيثِ السَّاكِنَةُ}), et le sujet reste caché."
+          "text": "Dans {ar|كَتَبَتْ}, le {ar|تْ} n'est pas un pronom : c'est la marque du féminin ({ar|تَاءُ التَّأْنِيثِ السَّاكِنَةُ}), et le sujet reste caché. Au duel ({ar|كَتَبَتَا}), ce {ar|ت} prend une fatha devant l'alif."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le pronom de « eux » est le {ar|و} ; au passé, l'alif écrit après lui ({ar|كَتَبُوا}) ne se prononce pas. Au présent ({ar|يَكْتُبُونَ}), il n'y a pas d'alif."
         }
       ]
     },
     {
       "id": "medine-t2.r01.revue-16#3",
       "type": "tip",
-      "title": "Le présent de {ar|كَتَبَ} aux douze personnes",
+      "title": "Le présent de {ar|كَتَبَ} à toutes les personnes",
       "blocks": [
         {
           "type": "table",
@@ -94,13 +102,18 @@
             ["{ar|هُمْ} (eux)", "{ar|يَكْتُبُونَ}", "{ar|و}"],
             ["{ar|هُنَّ} (elles)", "{ar|يَكْتُبْنَ}", "{ar|نَ}"]
           ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|تَكْتُبُ} veut dire « toi (un homme) » ou « elle » ; {ar|تَكْتُبَانِ} veut dire « vous deux » ou « elles deux » : c'est le pronom isolé ou le sujet qui tranche."
         }
       ]
     },
     {
       "id": "medine-t2.r01.revue-16#4",
       "type": "sort",
-      "categories": [ { "fr": "moi ou nous" }, { "fr": "toi ou vous" }, { "fr": "lui, elle, eux ou elles" } ],
+      "categories": [ { "fr": "moi ou nous" }, { "fr": "toi ou vous" }, { "fr": "lui, elle, eux, ou elles (même à deux)" } ],
       "cards": [
         { "ar": "كَتَبْتُ", "category": 0 },
         { "ar": "نَزَلْنَا", "category": 0 },
@@ -125,7 +138,7 @@
         { "ar": "فَتَحْنَ", "category": 0 }
       ],
       "instruction": "Le pronom sujet est-il apparent ou caché ?",
-      "explain": "Pour « il » et « elle », le pronom sujet est caché. Il est écrit dans {ar|كَتَبْتُ} ({ar|تُ}), {ar|خَرَجَا} ({ar|ا}), {ar|دَخَلُوا} ({ar|◌ُوا}) et {ar|فَتَحْنَ} ({ar|نَ})."
+      "explain": "Au passé, pour « il » et « elle », le pronom sujet est caché. Il est écrit dans {ar|كَتَبْتُ} ({ar|تُ}), {ar|خَرَجَا} ({ar|ا}), {ar|دَخَلُوا} ({ar|◌ُوا}) et {ar|فَتَحْنَ} ({ar|نَ})."
     },
     {
       "id": "medine-t2.r01.revue-16#6",

@@ -38,15 +38,15 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le sujet ({ar|الْفَاعِلُ}) est le nom qui fait l'action du verbe : {ar|هُوَ الِاسْمُ الَّذِي يَقَعُ بِهِ الْفِعْلُ أَوْ يَقُومُ بِهِ}. Il ne devance jamais son verbe. Le complément d'objet ({ar|الْمَفْعُولُ بِهِ}) est le nom qui subit l'action. Les deux peuvent être un nom apparent ou un pronom collé."
+          "text": "Le sujet ({ar|الْفَاعِلُ}) est le nom qui fait l'action du verbe : {ar|هُوَ الِاسْمُ الَّذِي يَقَعُ بِهِ الْفِعْلُ أَوْ يَقُومُ بِهِ}. Il ne devance jamais son verbe. Le complément d'objet ({ar|الْمَفْعُولُ بِهِ}) est le nom qui subit l'action : {ar|هُوَ الِاسْمُ الَّذِي يَقَعُ عَلَيْهِ الْفِعْلُ}. Les deux peuvent être un nom apparent ou un pronom collé."
         },
         {
           "type": "table",
           "header": ["Pour comparer", "Le sujet", "Le complément d'objet"],
           "rows": [
             ["cas", "nominatif ({ar|مَرْفُوعٌ})", "accusatif ({ar|مَنْصُوبٌ})"],
-            ["nom apparent", "{ar|جَاءَ زَيْدٌ}", "{ar|ضَرَبَ زَيْدٌ يَاسِرًا}"],
-            ["pronom collé", "{ar|كَتَبْتُ ، دَخَلُوا}", "{ar|ضَرَبَكَ زَيْدٌ}"]
+            ["nom apparent ({ar|اِسْمٌ ظَاهِرٌ})", "{ar|جَاءَ زَيْدٌ}", "{ar|ضَرَبَ زَيْدٌ يَاسِرًا}"],
+            ["pronom collé ({ar|ضَمِيرٌ مُتَّصِلٌ})", "{ar|كَتَبْتُ ، دَخَلُوا}", "{ar|ضَرَبَكَ زَيْدٌ}"]
           ]
         },
         { "type": "paragraph", "text": "Le professeur analyse ainsi deux phrases :" },
@@ -57,14 +57,14 @@
             ["{ar|خَرَجَ زَيْدٌ مِنَ الْمَدْرَسَةِ}", "{ar|زَيْدٌ} : {ar|فَاعِلٌ مَرْفُوعٌ}"],
             [
               "{ar|الطُّلَّابُ دَخَلُوا الْبَيْتَ}",
-              "{ar|◌ُوا} : {ar|ضَمِيرٌ مُتَّصِلٌ فَاعِلٌ} ; {ar|الْبَيْتَ} : {ar|مَفْعُولٌ بِهِ}"
+              "{ar|و} : {ar|ضَمِيرٌ مُتَّصِلٌ فَاعِلٌ} ; {ar|الْبَيْتَ} : {ar|مَفْعُولٌ بِهِ}"
             ]
           ]
         },
         {
           "type": "note",
           "tone": "info",
-          "text": "{ar|الطُّلَّابُ} ouvre une phrase nominale : c'est le sujet de cette phrase, et le verbe a son propre sujet, le {ar|◌ُوا} collé."
+          "text": "{ar|الطُّلَّابُ} ouvre une phrase nominale : c'est le sujet de cette phrase, et le verbe a son propre sujet, le {ar|و} collé. L'alif qu'on écrit après lui au passé ({ar|دَخَلُوا}) ne se prononce pas."
         }
       ]
     },
@@ -81,7 +81,7 @@
         { "ar": "كَتَبَ", "category": 1 }
       ],
       "instruction": "Ce verbe est-il intransitif ou transitif ?",
-      "explain": "{ar|جَلَسَ} (s'asseoir), {ar|نَامَ} (dormir) et {ar|خَرَجَ} (sortir) n'ont besoin que d'un sujet. {ar|ضَرَبَ} (frapper), {ar|أَكَلَ} (manger) et {ar|كَتَبَ} (écrire) demandent un complément d'objet."
+      "explain": "{ar|جَلَسَ} (s'asseoir), {ar|نَامَ} (dormir) et {ar|خَرَجَ} (sortir) n'ont besoin que d'un sujet. {ar|ضَرَبَ} (frapper), {ar|أَكَلَ} (manger) et {ar|كَتَبَ} (écrire) demandent un complément d'objet, même quand on ne le dit pas."
     },
     {
       "id": "medine-t2.r01.revue-15#4",

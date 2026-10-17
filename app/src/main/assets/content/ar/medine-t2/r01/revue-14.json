@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le verbe ({ar|الْفِعْلُ}) a trois temps. Le professeur apprend à les reconnaître à des **signes**."
+          "text": "Le verbe ({ar|الْفِعْلُ}) a trois temps. Le professeur t'apprend à les reconnaître grâce à des **signes**."
         },
         {
           "type": "table",
@@ -26,7 +26,7 @@
             [
               "{ar|الْمُضَارِعُ}",
               "le présent ou le futur",
-              "il commence toujours par l'une des lettres {ar|أَنَيْتُ} ; il peut être précédé de {ar|لَمْ}, {ar|لَنْ}, {ar|سَ} ou {ar|سَوْفَ}",
+              "il commence toujours par l'une des lettres {ar|أَنَيْتُ} ; il peut être précédé de {ar|لَمْ}, {ar|لَنْ}, {ar|سَ} ou {ar|سَوْفَ}, des particules qui ne vont qu'avec lui",
               "{ar|أَكْتُبُ ، يَكْتُبُ}"
             ],
             [
@@ -40,7 +40,12 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "Les lettres {ar|أَنَيْتُ} sont nécessaires au présent, mais elles ne suffisent pas : {ar|أَكَلَ} (il a mangé) et {ar|نَجَحَ} (il a réussi) commencent par {ar|أ} et {ar|ن} et sont au passé."
+          "text": "Un présent commence toujours par l'une des lettres {ar|أَنَيْتُ}, mais l'inverse est faux : {ar|أَكَلَ} (il a mangé) et {ar|نَجَحَ} (il a réussi) commencent par {ar|أ} et {ar|ن} et sont au passé."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Un passé sans pronom visible, comme {ar|كَتَبَ} (il a écrit), se reconnaît au fait qu'on peut lui coller {ar|تُ} ou {ar|تْ} : {ar|كَتَبْتُ}, {ar|كَتَبَتْ}."
         }
       ]
     },
