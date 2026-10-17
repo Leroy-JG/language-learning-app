@@ -109,7 +109,7 @@
             ["{ar|خَالَتِكُنَّ}", "votre tante (plusieurs femmes : {ar|خَالَةٌ} + {ar|كُنَّ})"],
             [
               "{ar|إِنَّنَا}",
-              "{ar|إِنَّ} + {ar|نَا} : « que nous » (après {ar|قَالَ}, {ar|إِنَّ} ne se traduit pas)"
+              "{ar|إِنَّ} + {ar|نَا} : « nous » (après {ar|قَالَ}, {ar|إِنَّ} introduit les paroles citées et ne se traduit pas)"
             ],
             ["{ar|سَنَرْجِعُ ، سَيَرْجِعُونَ}", "nous reviendrons, ils reviendront (le futur)"]
           ]
