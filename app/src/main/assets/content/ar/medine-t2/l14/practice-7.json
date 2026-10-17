@@ -1,0 +1,91 @@
+{
+  "id": "medine-t2.l14.practice-7",
+  "type": "vocabulary",
+  "title": "Exercice 8 : complète avec un impératif",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l14.practice-7#1",
+      "type": "tip",
+      "title": "Qui est-ce qu'on appelle ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'exercice 8 donne des phrases à compléter par un ordre qui convient. Regarde à qui l'on parle : {ar|يَا مَرْيَمُ} est une femme, {ar|يَا أَوْلَادُ} est un groupe de garçons, le {ar|كَ} de {ar|رَأْسَكَ} (« ta tête ») désigne un homme…"
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.practice-7#2",
+      "type": "fill_gap",
+      "sentence": "{0} الْقُرْآنَ يَا مَرْيَمُ.",
+      "fr": "Lis le Coran, Maryam !",
+      "gaps": [ { "answers": ["اِقْرَئِي"] } ],
+      "options": ["اِقْرَئِي", "اِقْرَأْ", "اِقْرَأَا"],
+      "explain": "Maryam est une femme : {ar|اِقْرَئِي}. La hamza s'écrit sur un {ar|ئ}, après la kasra."
+    },
+    {
+      "id": "medine-t2.l14.practice-7#3",
+      "type": "fill_gap",
+      "sentence": "يَا أَوْلَادُ {0} الْخُبْزَ {1} الْقَهْوَةَ.",
+      "fr": "Les garçons, mangez le pain et buvez le café !",
+      "gaps": [ { "answers": ["كُلُوا"] }, { "answers": ["وَاشْرَبُوا"] } ],
+      "options": ["كُلُوا", "وَاشْرَبُوا", "كُلْ", "وَاشْرَبْ"],
+      "explain": "Plusieurs garçons : {ar|كُلُوا} et {ar|وَاشْرَبُوا}."
+    },
+    {
+      "id": "medine-t2.l14.practice-7#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Sors de la classe, Bilāl !",
+      "answers": ["اُخْرُجْ مِنَ الْفَصْلِ يَا بِلَالُ.", "يَا بِلَالُ اُخْرُجْ مِنَ الْفَصْلِ."],
+      "explain": "Un homme : {ar|اُخْرُجْ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-7#5",
+      "type": "fill_gap",
+      "sentence": "{0} وُجُوهَكُنَّ بِالصَّابُونِ.",
+      "fr": "Lavez-vous le visage avec le savon (plusieurs femmes) !",
+      "gaps": [ { "answers": ["اِغْسِلْنَ"] } ],
+      "options": ["اِغْسِلْنَ", "اِغْسِلُوا", "اِغْسِلِي"],
+      "explain": "Le {ar|كُنَّ} de {ar|وُجُوهَكُنَّ} montre qu'on parle à plusieurs femmes : {ar|اِغْسِلْنَ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-7#6",
+      "type": "order",
+      "fr": "Rase-toi la tête avec le rasoir !",
+      "answers": [["اِحْلِقْ", "رَأْسَكَ", "بِالْمُوسَى"], ["اِحْلِقْ", "بِالْمُوسَى", "رَأْسَكَ"]],
+      "punctuation": "!",
+      "explain": "Un homme : {ar|اِحْلِقْ}, et {ar|رَأْسَكَ} (« ta tête »)."
+    },
+    {
+      "id": "medine-t2.l14.practice-7#7",
+      "type": "question",
+      "prompt": { "fr": "Dans la phrase « … {ar|رَأْسَكَ بِالْمُوسَى} », comment sais-tu que l'ordre s'adresse à un homme ?" },
+      "choices": [
+        { "fr": "Le {ar|كَ} de {ar|رَأْسَكَ} (« ta tête », masculin)" },
+        { "fr": "Le {ar|بِ} de {ar|بِالْمُوسَى}" },
+        { "fr": "L'article {ar|الْ} de {ar|الْمُوسَى}" }
+      ],
+      "answer": 0,
+      "explain": "Le pronom {ar|كَ} (fatha) est celui d'un homme ; pour une femme, ce serait {ar|رَأْسَكِ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-7#8",
+      "type": "fill_gap",
+      "sentence": "{0} هٰذِهِ الْعَقْرَبَ يَا أَبِي.",
+      "fr": "Tue ce scorpion, papa !",
+      "gaps": [ { "answers": ["اُقْتُلْ"] } ],
+      "options": ["اُقْتُلْ", "اُقْتُلِي", "اُقْتُلُوا"],
+      "explain": "Un seul homme : {ar|اُقْتُلْ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-7#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Tue ce scorpion, papa !",
+      "answers": ["اُقْتُلْ هٰذِهِ الْعَقْرَبَ يَا أَبِي.", "يَا أَبِي اُقْتُلْ هٰذِهِ الْعَقْرَبَ."],
+      "explain": "{ar|اُقْتُلْ} + {ar|هٰذِهِ الْعَقْرَبَ} (féminin) + {ar|يَا أَبِي}."
+    }
+  ]
+}

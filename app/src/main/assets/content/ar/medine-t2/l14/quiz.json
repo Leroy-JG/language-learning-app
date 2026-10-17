@@ -1,0 +1,156 @@
+{
+  "id": "medine-t2.l14.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l14.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:aqrab",
+      "distractors": ["w:shaytan", "w:sawt"],
+      "explain": "{ar|عَقْرَبٌ} : un scorpion. {ar|شَيْطَانٌ} : un diable ; {ar|صَوْتٌ} : une voix, un bruit."
+    },
+    {
+      "id": "medine-t2.l14.quiz#2",
+      "type": "question",
+      "prompt": { "fr": "Comment fabrique-t-on l'impératif à partir du présent ?" },
+      "choices": [
+        {
+          "fr": "On supprime la lettre du présent, on ajoute une hamza de liaison et on garde la terminaison du jussif"
+        },
+        { "fr": "On ajoute {ar|سَ} devant le présent" },
+        { "fr": "On ajoute un {ar|نَ} à la fin du présent" }
+      ],
+      "answer": 0,
+      "explain": "{ar|لَمْ تَكْتُبْ} → {ar|كْتُبْ} → {ar|اُكْتُبْ}."
+    },
+    {
+      "id": "medine-t2.l14.quiz#3",
+      "type": "sort",
+      "categories": [ { "fr": "un homme" }, { "fr": "une femme" }, { "fr": "plusieurs personnes" } ],
+      "cards": [
+        { "ar": "اِذْهَبْ", "category": 0 },
+        { "ar": "اُدْخُلْ", "category": 0 },
+        { "ar": "اِذْهَبِي", "category": 1 },
+        { "ar": "اُدْخُلِي", "category": 1 },
+        { "ar": "اِذْهَبُوا", "category": 2 },
+        { "ar": "اُدْخُلْنَ", "category": 2 }
+      ],
+      "instruction": "À qui parle-t-on ?",
+      "explain": "La fin du verbe le dit : un sukūn (un homme), {ar|ي} (une femme), {ar|◌ُوا} ou {ar|نَ} (plusieurs personnes)."
+    },
+    {
+      "id": "medine-t2.l14.quiz#4",
+      "type": "fill_gap",
+      "sentence": "{0} مِنَ السَّيَّارَةِ يَا أَخِي.",
+      "fr": "Descends de la voiture, mon frère !",
+      "gaps": [ { "answers": ["اِنْزِلْ"] } ],
+      "options": ["اِنْزِلْ", "يَنْزِلُ", "نَزَلَ"],
+      "explain": "Un ordre à un seul homme : {ar|اِنْزِلْ}."
+    },
+    {
+      "id": "medine-t2.l14.quiz#5",
+      "type": "true_false",
+      "statement": { "fr": "{ar|كُلْ} est l'impératif de {ar|أَكَلَ} : il n'a pas de hamza de liaison." },
+      "answer": true,
+      "explain": "Oui : {ar|أَكَلَ} et {ar|أَخَذَ} perdent leur hamza ({ar|كُلْ}, {ar|خُذْ})."
+    },
+    {
+      "id": "medine-t2.l14.quiz#6",
+      "type": "question",
+      "prompt": { "fr": "Quelle voyelle prend la hamza de liaison de l'impératif de {ar|يَدْخُلُ} ?" },
+      "choices": [ { "fr": "une damma" }, { "fr": "une kasra" }, { "fr": "une fatha" } ],
+      "answer": 0,
+      "explain": "La troisième lettre de {ar|يَدْخُلُ} porte une damma : {ar|اُدْخُلْ}."
+    },
+    {
+      "id": "medine-t2.l14.quiz#7",
+      "type": "spot",
+      "instruction": "Touche l'impératif.",
+      "words": ["قَالَ", "اللَّهُ", "لِمُوسَى", "اِضْرِبْ", "بِعَصَاكَ"],
+      "answers": [3],
+      "fr": "Allah a dit à Moïse : « Frappe avec ton bâton ! »",
+      "explain": "{ar|اِضْرِبْ} est l'impératif de {ar|ضَرَبَ} (kasra : {ar|يَضْرِبُ})."
+    },
+    {
+      "id": "medine-t2.l14.quiz#8",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:shaytan",
+      "distractors": ["w:aqrab", "w:hidhaa"],
+      "explain": "« Un diable » : {ar|شَيْطَانٌ}. {ar|عَقْرَبٌ} : un scorpion ; {ar|حِذَاءٌ} : une chaussure."
+    },
+    {
+      "id": "medine-t2.l14.quiz#9",
+      "type": "question",
+      "prompt": { "fr": "À quelles personnes l'impératif peut-il s'adresser ?" },
+      "choices": [
+        { "fr": "Seulement à « toi » ou à « vous »" },
+        { "fr": "À « je » et à « nous »" },
+        { "fr": "À « il » et à « elle »" }
+      ],
+      "answer": 0,
+      "explain": "L'impératif ne s'adresse ni à soi-même ni à une personne absente : seule la deuxième personne est possible."
+    },
+    {
+      "id": "medine-t2.l14.quiz#10",
+      "type": "fill_gap",
+      "sentence": "يَا آمِنَةُ، {0} النَّوَافِذَ.",
+      "fr": "Āmina, ouvre les fenêtres !",
+      "gaps": [ { "answers": ["اِفْتَحِي"] } ],
+      "options": ["اِفْتَحِي", "اِفْتَحْ", "اِفْتَحُوا"],
+      "explain": "Āmina est une femme : {ar|اِفْتَحِي}."
+    },
+    {
+      "id": "medine-t2.l14.quiz#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا الْأَمْرُ مِنْ يَجْلِسُ؟",
+      "answers": ["اِجْلِسْ."],
+      "fr": "Quel est l'impératif de {ar|يَجْلِسُ} ?",
+      "explain": "{ar|يَجْلِسُ} → {ar|اِجْلِسْ} (kasra)."
+    },
+    {
+      "id": "medine-t2.l14.quiz#12",
+      "type": "order",
+      "fr": "Lave ton visage, Humāyūn !",
+      "answers": [["اِغْسِلْ", "وَجْهَكَ", "يَا", "هُمَايُونُ"], ["يَا", "هُمَايُونُ", "اِغْسِلْ", "وَجْهَكَ"]],
+      "punctuation": "!",
+      "explain": "Un ordre à un homme : {ar|اِغْسِلْ}."
+    },
+    {
+      "id": "medine-t2.l14.quiz#13",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:hidhaa",
+      "distractors": ["w:waraqa", "w:musa"],
+      "explain": "{ar|حِذَاءٌ} : une chaussure. {ar|وَرَقَةٌ} : une feuille ; {ar|مُوسًى} : un rasoir."
+    },
+    {
+      "id": "medine-t2.l14.quiz#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Écris sur cette feuille !",
+      "answers": ["اُكْتُبْ عَلَى هٰذِهِ الْوَرَقَةِ."],
+      "explain": "{ar|اُكْتُبْ} (damma) + {ar|عَلَى هٰذِهِ الْوَرَقَةِ}."
+    },
+    {
+      "id": "medine-t2.l14.quiz#15",
+      "type": "order",
+      "fr": "Ouvrez la porte !",
+      "answers": [["اِفْتَحُوا", "الْبَابَ"]],
+      "punctuation": "!",
+      "explain": "Plusieurs hommes : {ar|اِفْتَحُوا}, avec le {ar|و} et un alif muet."
+    },
+    {
+      "id": "medine-t2.l14.quiz#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Assieds-toi ici et écris ta leçon !",
+      "answers": ["اِجْلِسْ هُنَا وَاكْتُبْ دَرْسَكَ."],
+      "explain": "{ar|اِجْلِسْ} (kasra), puis {ar|وَاكْتُبْ} : la hamza de liaison de {ar|اُكْتُبْ} tombe après {ar|وَ}."
+    }
+  ]
+}

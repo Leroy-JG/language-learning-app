@@ -1,0 +1,103 @@
+{
+  "id": "medine-t2.l14.vocab-3",
+  "type": "vocabulary",
+  "title": "Balayer, cuisiner, couper, raser",
+  "icon": "hand",
+  "screens": [
+    { "id": "medine-t2.l14.vocab-3#1", "type": "present", "item": "w:kanasa" },
+    { "id": "medine-t2.l14.vocab-3#2", "type": "present", "item": "w:tabakha" },
+    {
+      "id": "medine-t2.l14.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kanasa",
+      "distractors": ["w:tabakha", "w:sakata"],
+      "explain": "{ar|كَنَسَ} : il a balayé. {ar|طَبَخَ} : il a cuisiné ; {ar|سَكَتَ} : il s'est tu."
+    },
+    { "id": "medine-t2.l14.vocab-3#4", "type": "present", "item": "w:qataa" },
+    { "id": "medine-t2.l14.vocab-3#5", "type": "present", "item": "w:halaqa" },
+    {
+      "id": "medine-t2.l14.vocab-3#6",
+      "type": "tip",
+      "title": "Les quatre formes de ces verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu sais maintenant fabriquer l'impératif à partir du présent. Comme toujours, le professeur donne quatre formes ; le nom d'action n'est qu'un aperçu."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["balayer", "{ar|كَنَسَ}", "{ar|يَكْنِسُ}", "{ar|اِكْنِسْ}", "{ar|كَنْسًا}"],
+            ["cuisiner", "{ar|طَبَخَ}", "{ar|يَطْبُخُ}", "{ar|اُطْبُخْ}", "{ar|طَبْخًا}"],
+            ["couper", "{ar|قَطَعَ}", "{ar|يَقْطَعُ}", "{ar|اِقْطَعْ}", "{ar|قَطْعًا}"],
+            ["raser", "{ar|حَلَقَ}", "{ar|يَحْلِقُ}", "{ar|اِحْلِقْ}", "{ar|حَلْقًا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Regarde la hamza de liaison : {ar|يَطْبُخُ} a une damma sur sa troisième lettre, donc {ar|اُطْبُخْ} ; les trois autres portent une kasra ou une fatha sur leur troisième lettre, donc leur hamza de liaison prend une kasra."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.vocab-3#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:kanasa", "w:tabakha", "w:qataa", "w:halaqa"]
+    },
+    {
+      "id": "medine-t2.l14.vocab-3#8",
+      "type": "fill_gap",
+      "sentence": "{0} هٰذِهِ الْغُرْفَةَ يَا بِلَالُ.",
+      "fr": "Balaie cette pièce, Bilāl !",
+      "gaps": [ { "answers": ["اِكْنِسْ"] } ],
+      "options": ["اِكْنِسْ", "يَكْنِسُ", "كَنَسَ"],
+      "explain": "Un ordre à Bilāl : {ar|اِكْنِسْ}."
+    },
+    { "id": "medine-t2.l14.vocab-3#9", "type": "build", "item": "w:tabakha", "extra": ["ح", "ج"] },
+    {
+      "id": "medine-t2.l14.vocab-3#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا الْأَمْرُ مِنْ يَقْطَعُ؟",
+      "answers": ["اِقْطَعْ."],
+      "fr": "Quel est l'impératif de {ar|يَقْطَعُ} ?",
+      "explain": "{ar|يَقْطَعُ} → {ar|اِقْطَعْ} : la troisième lettre porte une fatha, donc la hamza de liaison a une kasra."
+    },
+    {
+      "id": "medine-t2.l14.vocab-3#11",
+      "type": "order",
+      "fr": "Zayd a coupé le pain.",
+      "answers": [["قَطَعَ", "زَيْدٌ", "الْخُبْزَ"], ["زَيْدٌ", "قَطَعَ", "الْخُبْزَ"]],
+      "punctuation": ".",
+      "explain": "Le verbe peut se placer avant ou après le sujet."
+    },
+    {
+      "id": "medine-t2.l14.vocab-3#12",
+      "type": "fill_gap",
+      "sentence": "{0} الْخُبْزَ يَا حَامِدُ.",
+      "fr": "Coupe le pain, Hāmid !",
+      "gaps": [ { "answers": ["اِقْطَعِ"] } ],
+      "options": ["اِقْطَعِ", "يَقْطَعُ", "قَطَعَ"],
+      "explain": "L'impératif {ar|اِقْطَعْ} prend une kasra devant l'article : {ar|اِقْطَعِ الْخُبْزَ}."
+    },
+    {
+      "id": "medine-t2.l14.vocab-3#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Cuisine, Āmina !",
+      "answers": ["اُطْبُخِي يَا آمِنَةُ.", "يَا آمِنَةُ اُطْبُخِي."],
+      "explain": "Āmina est une femme : {ar|اُطْبُخِي}."
+    },
+    {
+      "id": "medine-t2.l14.vocab-3#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Coupe le pain !",
+      "answers": ["اِقْطَعِ الْخُبْزَ."],
+      "explain": "Devant l'article, le sukūn devient une kasra."
+    }
+  ]
+}

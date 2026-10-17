@@ -1,0 +1,28 @@
+{
+  "id": "medine-t2.l14",
+  "number": 14,
+  "title": { "ar": "الدَّرْسُ الرَّابِعَ عَشَرَ", "fr": "L'impératif" },
+  "description": "L'impératif ({ar|فِعْلُ الْأَمْرِ}) : sa construction à partir du présent au jussif, ses cinq formes, la voyelle de la hamza de liaison, {ar|كُلْ} et {ar|خُذْ}, son sujet (toujours « toi » ou « vous »), le vocabulaire ({ar|عَقْرَبٌ}, {ar|حِذَاءٌ}, {ar|كَنَسَ}, {ar|نَظَرَ}…), le texte du livre et ses exercices.",
+  "source": "Tome de Médine 2, leçon 14",
+  "sections": [
+    { "title": "Revoir : le présent au jussif", "activities": ["revue-1"] },
+    { "title": "L'impératif", "activities": ["grammar-1", "grammar-2", "grammar-3", "grammar-4", "grammar-5"] },
+    { "title": "Un scorpion en classe : les mots", "activities": ["vocab-1", "vocab-2"] },
+    { "title": "Des ordres du quotidien", "activities": ["vocab-3", "vocab-4", "vocab-5"] },
+    { "title": "Le texte du livre", "activities": ["dialogue-1"] },
+    {
+      "title": "Les exercices du livre",
+      "activities": [
+        "practice-1",
+        "practice-2",
+        "practice-3",
+        "practice-4",
+        "practice-5",
+        "practice-6",
+        "practice-7",
+        "practice-8"
+      ]
+    },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

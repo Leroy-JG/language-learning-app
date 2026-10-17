@@ -1,0 +1,86 @@
+{
+  "id": "medine-t2.l14.revue-1",
+  "type": "review",
+  "title": "Le présent au jussif : le point de départ",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t2.l14.revue-1#1",
+      "type": "tip",
+      "title": "Ce qu'il faut garder en tête",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'impératif va se construire à partir du **présent au jussif**, que tu as vu aux chapitres 12 et 13 : après {ar|لَمْ}, le présent change de fin. Voici, avec {ar|كَتَبَ}, les cinq façons de parler à « toi » ou à « vous » :"
+        },
+        {
+          "type": "table",
+          "header": ["À qui je parle", "Le présent", "Après {ar|لَمْ} (jussif)", "Ce qui change"],
+          "rows": [
+            ["{ar|أَنْتَ} (un homme)", "{ar|تَكْتُبُ}", "{ar|لَمْ تَكْتُبْ}", "un sukūn"],
+            ["{ar|أَنْتِ} (une femme)", "{ar|تَكْتُبِينَ}", "{ar|لَمْ تَكْتُبِي}", "le {ar|ن} tombe"],
+            ["{ar|أَنْتُمَا} (deux personnes)", "{ar|تَكْتُبَانِ}", "{ar|لَمْ تَكْتُبَا}", "le {ar|ن} tombe"],
+            ["{ar|أَنْتُمْ} (plusieurs hommes)", "{ar|تَكْتُبُونَ}", "{ar|لَمْ تَكْتُبُوا}", "le {ar|ن} tombe"],
+            [
+              "{ar|أَنْتُنَّ} (plusieurs femmes)",
+              "{ar|تَكْتُبْنَ}",
+              "{ar|لَمْ تَكْتُبْنَ}",
+              "rien : le {ar|نَ} est un pronom"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Après {ar|لَا} qui interdit ({ar|لَا تَكْتُبْ}, « n'écris pas »), le présent est au jussif lui aussi."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.revue-1#2",
+      "type": "sort",
+      "categories": [ { "fr": "un sukūn à la fin" }, { "fr": "le {ar|ن} final est tombé" } ],
+      "cards": [
+        { "ar": "لَمْ تَدْرُسْ", "category": 0 },
+        { "ar": "لَمْ يَجْلِسْ", "category": 0 },
+        { "ar": "لَمْ أَفْتَحْ", "category": 0 },
+        { "ar": "لَمْ تَذْهَبِي", "category": 1 },
+        { "ar": "لَمْ يَكْتُبَا", "category": 1 },
+        { "ar": "لَمْ يَشْرَبُوا", "category": 1 }
+      ],
+      "instruction": "Que devient la fin du verbe après {ar|لَمْ} ?",
+      "explain": "{ar|لَمْ تَدْرُسْ}, {ar|لَمْ يَجْلِسْ} et {ar|لَمْ أَفْتَحْ} se terminent par un sukūn. Dans {ar|لَمْ تَذْهَبِي} (une femme), {ar|لَمْ يَكْتُبَا} (deux) et {ar|لَمْ يَشْرَبُوا} (plusieurs hommes), le {ar|ن} de {ar|تَذْهَبِينَ}, {ar|يَكْتُبَانِ} et {ar|يَشْرَبُونَ} est tombé."
+    },
+    {
+      "id": "medine-t2.l14.revue-1#3",
+      "type": "fill_gap",
+      "sentence": "أَنْتِ لَمْ {0} دَرْسَكِ.",
+      "fr": "Tu n'as pas écrit ta leçon (à une femme).",
+      "gaps": [ { "answers": ["تَكْتُبِي"] } ],
+      "options": ["تَكْتُبِي", "تَكْتُبُ", "تَكْتُبْنَ"],
+      "explain": "Pour une femme, le {ar|ن} de {ar|تَكْتُبِينَ} tombe après {ar|لَمْ} : {ar|لَمْ تَكْتُبِي}."
+    },
+    {
+      "id": "medine-t2.l14.revue-1#4",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|لَمْ}, le verbe {ar|تَكْتُبْنَ} (plusieurs femmes) perd son {ar|نَ}." },
+      "answer": false,
+      "explain": "Non : ici, le {ar|نَ} est le pronom « vous » (plusieurs femmes), pas une marque du nominatif. Il reste : {ar|لَمْ تَكْتُبْنَ}."
+    },
+    {
+      "id": "medine-t2.l14.revue-1#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Vous (plusieurs hommes) n'avez pas écrit.",
+      "answers": ["لَمْ تَكْتُبُوا.", "أَنْتُمْ لَمْ تَكْتُبُوا."],
+      "explain": "{ar|لَمْ} + {ar|تَكْتُبُونَ} sans son {ar|ن} : {ar|لَمْ تَكْتُبُوا}."
+    },
+    {
+      "id": "medine-t2.l14.revue-1#6",
+      "type": "order",
+      "fr": "Vous deux, vous n'êtes pas allés à l'école.",
+      "answers": [["لَمْ", "تَذْهَبَا", "إِلَى", "الْمَدْرَسَةِ"]],
+      "punctuation": ".",
+      "explain": "« Vous deux » : le présent {ar|تَذْهَبَانِ} perd son {ar|ن} après {ar|لَمْ}."
+    }
+  ]
+}

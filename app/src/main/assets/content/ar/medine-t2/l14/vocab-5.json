@@ -1,0 +1,99 @@
+{
+  "id": "medine-t2.l14.vocab-5",
+  "type": "vocabulary",
+  "title": "D'autres mots du livre",
+  "icon": "school",
+  "screens": [
+    { "id": "medine-t2.l14.vocab-5#1", "type": "present", "item": "w:sajada" },
+    { "id": "medine-t2.l14.vocab-5#2", "type": "present", "item": "w:rakaa-2" },
+    { "id": "medine-t2.l14.vocab-5#3", "type": "present", "item": "w:alima" },
+    {
+      "id": "medine-t2.l14.vocab-5#4",
+      "type": "tip",
+      "title": "Les quatre formes de ces verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour ces trois verbes, le professeur donne le passé et le présent (exercice 4). Tu sais fabriquer l'impératif ; il est ajouté ici, avec le nom d'action (un simple aperçu)."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["se prosterner", "{ar|سَجَدَ}", "{ar|يَسْجُدُ}", "{ar|اُسْجُدْ}", "{ar|سُجُودًا}"],
+            ["s'incliner", "{ar|رَكَعَ}", "{ar|يَرْكَعُ}", "{ar|اِرْكَعْ}", "{ar|رُكُوعًا}"],
+            ["savoir", "{ar|عَلِمَ}", "{ar|يَعْلَمُ}", "{ar|اِعْلَمْ}", "{ar|عِلْمًا}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.vocab-5#5",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:sajada",
+      "distractors": ["w:rakaa-2", "w:alima"],
+      "explain": "{ar|سَجَدَ} : il s'est prosterné. {ar|رَكَعَ} : il s'est incliné ; {ar|عَلِمَ} : il a su."
+    },
+    { "id": "medine-t2.l14.vocab-5#6", "type": "present", "item": "w:mata-2" },
+    { "id": "medine-t2.l14.vocab-5#7", "type": "present", "item": "w:ras" },
+    { "id": "medine-t2.l14.vocab-5#8", "type": "present", "item": "w:sabun" },
+    {
+      "id": "medine-t2.l14.vocab-5#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:sajada", "w:rakaa-2", "w:mata-2", "w:ras", "w:sabun"]
+    },
+    {
+      "id": "medine-t2.l14.vocab-5#10",
+      "type": "fill_gap",
+      "sentence": "{0} لِلَّهِ.",
+      "fr": "Prosterne-toi devant Allah !",
+      "gaps": [ { "answers": ["اُسْجُدْ"] } ],
+      "options": ["اُسْجُدْ", "يَسْجُدُ", "سَجَدَ"],
+      "explain": "Un ordre : {ar|اُسْجُدْ}."
+    },
+    { "id": "medine-t2.l14.vocab-5#11", "type": "build", "item": "w:sabun", "extra": ["س"] },
+    {
+      "id": "medine-t2.l14.vocab-5#12",
+      "type": "question",
+      "prompt": { "fr": "Quel verbe veut dire « il est mort » ?" },
+      "choices": [ { "ar": "مَاتَ" }, { "ar": "سَجَدَ" }, { "ar": "عَلِمَ" } ],
+      "answer": 0,
+      "explain": "{ar|مَاتَ} : il est mort. Son présent est {ar|يَمُوتُ}."
+    },
+    {
+      "id": "medine-t2.l14.vocab-5#13",
+      "type": "fill_gap",
+      "sentence": "اِرْفَعْ {0}.",
+      "fr": "Lève la tête !",
+      "gaps": [ { "answers": ["رَأْسَكَ"] } ],
+      "options": ["رَأْسَكَ", "صَوْتَكَ", "كِتَابَكَ"],
+      "explain": "{ar|رَأْسٌ} : une tête. {ar|صَوْتٌ} serait « ta voix », {ar|كِتَابٌ} « ton livre »."
+    },
+    {
+      "id": "medine-t2.l14.vocab-5#14",
+      "type": "order",
+      "fr": "Lave ton visage avec le savon !",
+      "answers": [["اِغْسِلْ", "وَجْهَكَ", "بِالصَّابُونِ"], ["اِغْسِلْ", "بِالصَّابُونِ", "وَجْهَكَ"]],
+      "punctuation": "!",
+      "explain": "{ar|اِغْسِلْ} (kasra : {ar|يَغْسِلُ}), puis {ar|وَجْهَكَ}, puis {ar|بِالصَّابُونِ}."
+    },
+    {
+      "id": "medine-t2.l14.vocab-5#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il est mort.",
+      "answers": ["مَاتَ.", "هُوَ مَاتَ."],
+      "explain": "{ar|مَاتَ}."
+    },
+    {
+      "id": "medine-t2.l14.vocab-5#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Lève la tête !",
+      "answers": ["اِرْفَعْ رَأْسَكَ.", "اِرْفَعِ الرَّأْسَ."],
+      "explain": "{ar|يَرْفَعُ} → {ar|اِرْفَعْ}."
+    }
+  ]
+}

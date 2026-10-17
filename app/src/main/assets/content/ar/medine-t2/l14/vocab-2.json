@@ -1,0 +1,84 @@
+{
+  "id": "medine-t2.l14.vocab-2",
+  "type": "vocabulary",
+  "title": "Le temps, la feuille et la chaussure",
+  "icon": "moon",
+  "screens": [
+    { "id": "medine-t2.l14.vocab-2#1", "type": "present", "item": "w:jaww" },
+    { "id": "medine-t2.l14.vocab-2#2", "type": "present", "item": "w:nasan" },
+    { "id": "medine-t2.l14.vocab-2#3", "type": "present", "item": "w:mudlim" },
+    {
+      "id": "medine-t2.l14.vocab-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:jaww",
+      "distractors": ["w:nasan", "w:mudlim"],
+      "explain": "{ar|جَوٌّ} : le temps qu'il fait, l'atmosphère. {ar|نَعْسَانُ} : qui a sommeil ; {ar|مُظْلِمٌ} : sombre."
+    },
+    { "id": "medine-t2.l14.vocab-2#5", "type": "present", "item": "w:waraqa" },
+    { "id": "medine-t2.l14.vocab-2#6", "type": "present", "item": "w:musa" },
+    { "id": "medine-t2.l14.vocab-2#7", "type": "present", "item": "w:hidhaa" },
+    {
+      "id": "medine-t2.l14.vocab-2#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:jaww", "w:nasan", "w:mudlim", "w:waraqa", "w:hidhaa"]
+    },
+    {
+      "id": "medine-t2.l14.vocab-2#9",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ {0} لِأَنَّهُ مَا نَامَ اللَّيْلَةَ.",
+      "fr": "Zayd a sommeil parce qu'il n'a pas dormi cette nuit.",
+      "gaps": [ { "answers": ["نَعْسَانُ"] } ],
+      "options": ["نَعْسَانُ", "مُظْلِمٌ", "غَرِيبٌ"],
+      "explain": "Celui qui n'a pas dormi est {ar|نَعْسَانُ} (somnolent)."
+    },
+    {
+      "id": "medine-t2.l14.vocab-2#10",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:waraqa",
+      "distractors": ["w:hidhaa", "w:musa"],
+      "explain": "« Une feuille » : {ar|وَرَقَةٌ}. {ar|حِذَاءٌ} : une chaussure ; {ar|مُوسًى} : un rasoir."
+    },
+    { "id": "medine-t2.l14.vocab-2#11", "type": "build", "item": "w:waraqa", "extra": ["ه", "ك"] },
+    {
+      "id": "medine-t2.l14.vocab-2#12",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « il fait chaud » (« le temps est chaud ») ?" },
+      "choices": [ { "ar": "الْجَوُّ حَارٌّ" }, { "ar": "الْجَوُّ بَارِدٌ" }, { "ar": "الْجَوُّ مُظْلِمٌ" } ],
+      "answer": 0,
+      "explain": "{ar|الْجَوُّ حَارٌّ} : « le temps est chaud ». {ar|بَارِدٌ} veut dire « froid »."
+    },
+    {
+      "id": "medine-t2.l14.vocab-2#13",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:jaww", "w:waraqa", "w:musa", "w:hidhaa"]
+    },
+    {
+      "id": "medine-t2.l14.vocab-2#14",
+      "type": "order",
+      "fr": "La chaussure de Zayd est neuve.",
+      "answers": [["حِذَاءُ", "زَيْدٍ", "جَدِيدٌ"]],
+      "punctuation": ".",
+      "explain": "{ar|حِذَاءُ زَيْدٍ} : une annexion (« la chaussure de Zayd »), puis l'adjectif attribut."
+    },
+    {
+      "id": "medine-t2.l14.vocab-2#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'écris sur une feuille.",
+      "answers": ["أَكْتُبُ عَلَى وَرَقَةٍ.", "أَنَا أَكْتُبُ عَلَى وَرَقَةٍ."],
+      "explain": "{ar|أَكْتُبُ} + {ar|عَلَى} + {ar|وَرَقَةٍ} (génitif après la préposition)."
+    },
+    {
+      "id": "medine-t2.l14.vocab-2#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La pièce est sombre.",
+      "answers": ["الْغُرْفَةُ مُظْلِمَةٌ."],
+      "explain": "{ar|غُرْفَةٌ} est féminin : l'adjectif devient {ar|مُظْلِمَةٌ}."
+    }
+  ]
+}

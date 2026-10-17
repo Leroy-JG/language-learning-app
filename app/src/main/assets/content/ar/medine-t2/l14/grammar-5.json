@@ -1,0 +1,97 @@
+{
+  "id": "medine-t2.l14.grammar-5",
+  "type": "grammar",
+  "title": "Du présent à l'impératif : le tableau",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l14.grammar-5#1",
+      "type": "tip",
+      "title": "Les douze personnes, et celles qui restent",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici le présent de {ar|كَتَبَ} à toutes les personnes. À l'impératif, seule la **deuxième personne** est gardée :"
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Présent", "Impératif"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|أَكْتُبُ}", "— (pas d'ordre)"],
+            ["{ar|نَحْنُ}", "{ar|نَكْتُبُ}", "— (pas d'ordre)"],
+            ["{ar|أَنْتَ}", "{ar|تَكْتُبُ}", "{ar|اُكْتُبْ}"],
+            ["{ar|أَنْتِ}", "{ar|تَكْتُبِينَ}", "{ar|اُكْتُبِي}"],
+            ["{ar|أَنْتُمَا}", "{ar|تَكْتُبَانِ}", "{ar|اُكْتُبَا}"],
+            ["{ar|أَنْتُمْ}", "{ar|تَكْتُبُونَ}", "{ar|اُكْتُبُوا}"],
+            ["{ar|أَنْتُنَّ}", "{ar|تَكْتُبْنَ}", "{ar|اُكْتُبْنَ}"],
+            ["{ar|هُوَ}", "{ar|يَكْتُبُ}", "— (pas d'ordre)"],
+            ["{ar|هِيَ}", "{ar|تَكْتُبُ}", "— (pas d'ordre)"],
+            ["{ar|هُمَا} (deux hommes)", "{ar|يَكْتُبَانِ}", "— (pas d'ordre)"],
+            ["{ar|هُمَا} (deux femmes)", "{ar|تَكْتُبَانِ}", "— (pas d'ordre)"],
+            ["{ar|هُمْ}", "{ar|يَكْتُبُونَ}", "— (pas d'ordre)"],
+            ["{ar|هُنَّ}", "{ar|يَكْتُبْنَ}", "— (pas d'ordre)"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les trois temps de {ar|كَتَبَ} pour « toi » (un homme) : {ar|كَتَبْتَ} (« tu as écrit »), {ar|تَكْتُبُ} (« tu écris »), {ar|اُكْتُبْ} (« écris ! »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.grammar-5#2",
+      "type": "question",
+      "prompt": { "fr": "Combien de formes l'impératif a-t-il ?" },
+      "choices": [ { "fr": "cinq" }, { "fr": "douze" }, { "fr": "trois" } ],
+      "answer": 0,
+      "explain": "Une pour un homme, une pour une femme, une pour deux personnes, une pour plusieurs hommes, une pour plusieurs femmes."
+    },
+    {
+      "id": "medine-t2.l14.grammar-5#3",
+      "type": "sort",
+      "categories": [ { "fr": "oui" }, { "fr": "non" } ],
+      "cards": [
+        { "ar": "أَكْتُبُ", "category": 1 },
+        { "ar": "نَكْتُبُ", "category": 1 },
+        { "ar": "يَكْتُبُونَ", "category": 1 },
+        { "ar": "تَكْتُبِينَ", "category": 0 },
+        { "ar": "تَكْتُبُونَ", "category": 0 },
+        { "ar": "تَكْتُبْنَ", "category": 0 }
+      ],
+      "instruction": "Peut-on en faire un impératif ?",
+      "explain": "{ar|أَكْتُبُ} (je), {ar|نَكْتُبُ} (nous) et {ar|يَكْتُبُونَ} (ils) ne s'adressent pas à « toi » ou « vous ». {ar|تَكْتُبِينَ}, {ar|تَكْتُبُونَ} et {ar|تَكْتُبْنَ} oui."
+    },
+    {
+      "id": "medine-t2.l14.grammar-5#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Écris, ma sœur !",
+      "answers": ["اُكْتُبِي يَا أُخْتِي.", "يَا أُخْتِي اُكْتُبِي."],
+      "explain": "Une femme : {ar|اُكْتُبِي}."
+    },
+    {
+      "id": "medine-t2.l14.grammar-5#5",
+      "type": "true_false",
+      "statement": { "fr": "{ar|اُكْتُبِي} s'adresse à une femme, {ar|اُكْتُبْنَ} à plusieurs femmes." },
+      "answer": true,
+      "explain": "Oui : {ar|اُكْتُبِي} se termine par le {ar|ي} de « toi » (une femme) ; {ar|اُكْتُبْنَ} par le {ar|نَ} des femmes."
+    },
+    {
+      "id": "medine-t2.l14.grammar-5#6",
+      "type": "fill_gap",
+      "sentence": "يَا أَخَوَاتُ، {0} الْقَهْوَةَ.",
+      "fr": "Sœurs, buvez le café !",
+      "gaps": [ { "answers": ["اِشْرَبْنَ"] } ],
+      "options": ["اِشْرَبْنَ", "تَشْرَبْنَ", "شَرِبْنَ"],
+      "explain": "Un ordre à plusieurs femmes : {ar|اِشْرَبْنَ}. {ar|تَشْرَبْنَ} est le présent, {ar|شَرِبْنَ} le passé."
+    },
+    {
+      "id": "medine-t2.l14.grammar-5#7",
+      "type": "order",
+      "fr": "Mangez et buvez !",
+      "answers": [["كُلُوا", "وَاشْرَبُوا"]],
+      "punctuation": "!",
+      "explain": "{ar|كُلُوا} est l'impératif de {ar|أَكَلَ} (plusieurs hommes) ; {ar|وَاشْرَبُوا} celui de {ar|شَرِبَ}, après {ar|وَ}."
+    }
+  ]
+}

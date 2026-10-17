@@ -1,0 +1,103 @@
+{
+  "id": "medine-t2.l14.vocab-4",
+  "type": "vocabulary",
+  "title": "Regarder, rassembler, interdire, adorer",
+  "icon": "telescope",
+  "screens": [
+    { "id": "medine-t2.l14.vocab-4#1", "type": "present", "item": "w:nazara" },
+    { "id": "medine-t2.l14.vocab-4#2", "type": "present", "item": "w:jamaa-2" },
+    { "id": "medine-t2.l14.vocab-4#3", "type": "present", "item": "w:manaa" },
+    {
+      "id": "medine-t2.l14.vocab-4#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:nazara",
+      "distractors": ["w:jamaa-2", "w:manaa"],
+      "explain": "{ar|نَظَرَ} : il a regardé. {ar|جَمَعَ} : il a rassemblé ; {ar|مَنَعَ} : il a interdit."
+    },
+    { "id": "medine-t2.l14.vocab-4#5", "type": "present", "item": "w:abada" },
+    { "id": "medine-t2.l14.vocab-4#6", "type": "present", "item": "w:adha" },
+    {
+      "id": "medine-t2.l14.vocab-4#7",
+      "type": "tip",
+      "title": "Les quatre formes de ces verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu sais maintenant fabriquer l'impératif à partir du présent. Comme toujours, le professeur donne quatre formes ; le nom d'action n'est qu'un aperçu."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["regarder", "{ar|نَظَرَ}", "{ar|يَنْظُرُ}", "{ar|اُنْظُرْ}", "{ar|نَظَرًا}"],
+            ["rassembler", "{ar|جَمَعَ}", "{ar|يَجْمَعُ}", "{ar|اِجْمَعْ}", "{ar|جَمْعًا}"],
+            ["interdire", "{ar|مَنَعَ}", "{ar|يَمْنَعُ}", "{ar|اِمْنَعْ}", "{ar|مَنْعًا}"],
+            ["adorer", "{ar|عَبَدَ}", "{ar|يَعْبُدُ}", "{ar|اُعْبُدْ}", "{ar|عِبَادَةً}"],
+            ["chercher refuge (auprès de)", "{ar|عَاذَ}", "{ar|يَعُوذُ}", "{ar|عُذْ}", "{ar|عِيَاذَةً}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|عُذْ} n'a pas de hamza de liaison : une fois la lettre du présent supprimée, il reste {ar|عُذْ}, qui commence déjà par une consonne portant une voyelle. Ce verbe à voyelle longue n'est qu'un aperçu."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.vocab-4#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:nazara", "w:jamaa-2", "w:manaa", "w:abada", "w:adha"]
+    },
+    {
+      "id": "medine-t2.l14.vocab-4#9",
+      "type": "fill_gap",
+      "sentence": "{0} إِلَى ذٰلِكَ الْجَبَلِ.",
+      "fr": "Regarde cette montagne-là !",
+      "gaps": [ { "answers": ["اُنْظُرْ"] } ],
+      "options": ["اُنْظُرْ", "يَنْظُرُ", "نَظَرَ"],
+      "explain": "Un ordre : {ar|اُنْظُرْ}. On dit {ar|نَظَرَ إِلَى} pour « regarder quelqu'un ou quelque chose »."
+    },
+    {
+      "id": "medine-t2.l14.vocab-4#10",
+      "type": "question",
+      "prompt": { "fr": "Quelle préposition suit {ar|نَظَرَ} pour dire « regarder quelque chose » ?" },
+      "choices": [ { "ar": "إِلَى" }, { "ar": "مِنْ" }, { "ar": "عَنْ" } ],
+      "answer": 0,
+      "explain": "{ar|نَظَرَ إِلَى الْجَبَلِ} : « il a regardé la montagne »."
+    },
+    { "id": "medine-t2.l14.vocab-4#11", "type": "build", "item": "w:abada", "extra": ["غ", "ض"] },
+    {
+      "id": "medine-t2.l14.vocab-4#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Regarde ici !",
+      "answers": ["اُنْظُرْ هُنَا."],
+      "explain": "{ar|يَنْظُرُ} → {ar|اُنْظُرْ} (damma sur la troisième lettre)."
+    },
+    {
+      "id": "medine-t2.l14.vocab-4#13",
+      "type": "order",
+      "fr": "Zayd a rassemblé les livres.",
+      "answers": [["جَمَعَ", "زَيْدٌ", "الْكُتُبَ"], ["زَيْدٌ", "جَمَعَ", "الْكُتُبَ"]],
+      "punctuation": ".",
+      "explain": "{ar|كُتُبٌ} est le pluriel de {ar|كِتَابٌ} ; ici à l'accusatif, avec l'article."
+    },
+    {
+      "id": "medine-t2.l14.vocab-4#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Rassemble les livres !",
+      "answers": ["اِجْمَعِ الْكُتُبَ."],
+      "explain": "Devant l'article, le sukūn de {ar|اِجْمَعْ} devient une kasra."
+    },
+    {
+      "id": "medine-t2.l14.vocab-4#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Adore Allah !",
+      "answers": ["اُعْبُدِ اللَّهَ."],
+      "explain": "{ar|يَعْبُدُ} → {ar|اُعْبُدْ} ; devant {ar|اللَّهَ}, une kasra évite les deux sukūn."
+    }
+  ]
+}

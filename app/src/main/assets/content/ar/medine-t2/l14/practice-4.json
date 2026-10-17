@@ -1,0 +1,142 @@
+{
+  "id": "medine-t2.l14.practice-4",
+  "type": "vocabulary",
+  "title": "Exercice 4 : forme l'impératif",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l14.practice-4#1",
+      "type": "tip",
+      "title": "Le tableau du livre (1)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne le passé et le présent de trente-deux verbes : il faut en former l'impératif. Voici les réponses. Regarde la voyelle de la hamza : elle suit la troisième lettre du présent."
+        },
+        {
+          "type": "table",
+          "header": ["Passé", "Présent", "Impératif"],
+          "rows": [
+            ["{ar|قَتَلَ}", "{ar|يَقْتُلُ}", "{ar|اُقْتُلْ}"],
+            ["{ar|سَمِعَ}", "{ar|يَسْمَعُ}", "{ar|اِسْمَعْ}"],
+            ["{ar|ذَهَبَ}", "{ar|يَذْهَبُ}", "{ar|اِذْهَبْ}"],
+            ["{ar|رَفَعَ}", "{ar|يَرْفَعُ}", "{ar|اِرْفَعْ}"],
+            ["{ar|جَلَسَ}", "{ar|يَجْلِسُ}", "{ar|اِجْلِسْ}"],
+            ["{ar|دَرَسَ}", "{ar|يَدْرُسُ}", "{ar|اُدْرُسْ}"],
+            ["{ar|فَهِمَ}", "{ar|يَفْهَمُ}", "{ar|اِفْهَمْ}"],
+            ["{ar|عَلِمَ}", "{ar|يَعْلَمُ}", "{ar|اِعْلَمْ}"],
+            ["{ar|حَفِظَ}", "{ar|يَحْفَظُ}", "{ar|اِحْفَظْ}"],
+            ["{ar|شَرِبَ}", "{ar|يَشْرَبُ}", "{ar|اِشْرَبْ}"],
+            ["{ar|سَجَدَ}", "{ar|يَسْجُدُ}", "{ar|اُسْجُدْ}"],
+            ["{ar|حَلَقَ}", "{ar|يَحْلِقُ}", "{ar|اِحْلِقْ}"],
+            ["{ar|رَكَعَ}", "{ar|يَرْكَعُ}", "{ar|اِرْكَعْ}"],
+            ["{ar|كَسَرَ}", "{ar|يَكْسِرُ}", "{ar|اِكْسِرْ}"],
+            ["{ar|شَكَرَ}", "{ar|يَشْكُرُ}", "{ar|اُشْكُرْ}"],
+            ["{ar|غَسَلَ}", "{ar|يَغْسِلُ}", "{ar|اِغْسِلْ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.practice-4#2",
+      "type": "tip",
+      "title": "Le tableau du livre (2)",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Passé", "Présent", "Impératif"],
+          "rows": [
+            ["{ar|طَبَخَ}", "{ar|يَطْبُخُ}", "{ar|اُطْبُخْ}"],
+            ["{ar|فَتَحَ}", "{ar|يَفْتَحُ}", "{ar|اِفْتَحْ}"],
+            ["{ar|قَطَعَ}", "{ar|يَقْطَعُ}", "{ar|اِقْطَعْ}"],
+            ["{ar|ضَرَبَ}", "{ar|يَضْرِبُ}", "{ar|اِضْرِبْ}"],
+            ["{ar|جَمَعَ}", "{ar|يَجْمَعُ}", "{ar|اِجْمَعْ}"],
+            ["{ar|كَتَبَ}", "{ar|يَكْتُبُ}", "{ar|اُكْتُبْ}"],
+            ["{ar|عَبَدَ}", "{ar|يَعْبُدُ}", "{ar|اُعْبُدْ}"],
+            ["{ar|سَأَلَ}", "{ar|يَسْأَلُ}", "{ar|اِسْأَلْ}"],
+            ["{ar|نَزَلَ}", "{ar|يَنْزِلُ}", "{ar|اِنْزِلْ}"],
+            ["{ar|مَنَعَ}", "{ar|يَمْنَعُ}", "{ar|اِمْنَعْ}"],
+            ["{ar|عَرَفَ}", "{ar|يَعْرِفُ}", "{ar|اِعْرِفْ}"],
+            ["{ar|ضَحِكَ}", "{ar|يَضْحَكُ}", "{ar|اِضْحَكْ}"],
+            ["{ar|أَكَلَ}", "{ar|يَأْكُلُ}", "{ar|كُلْ}"],
+            ["{ar|رَكِبَ}", "{ar|يَرْكَبُ}", "{ar|اِرْكَبْ}"],
+            ["{ar|فَعَلَ}", "{ar|يَفْعَلُ}", "{ar|اِفْعَلْ}"],
+            ["{ar|أَخَذَ}", "{ar|يَأْخُذُ}", "{ar|خُذْ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "{ar|أَكَلَ} et {ar|أَخَذَ} perdent leur hamza : {ar|كُلْ}, {ar|خُذْ}. Pour les autres verbes de ce tableau, on ajoute la hamza de liaison."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.practice-4#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا الْأَمْرُ مِنْ يَسْمَعُ؟",
+      "answers": ["اِسْمَعْ."],
+      "fr": "Quel est l'impératif de {ar|يَسْمَعُ} ?",
+      "explain": "La troisième lettre de {ar|يَسْمَعُ} porte une fatha : {ar|اِسْمَعْ}, avec une kasra."
+    },
+    {
+      "id": "medine-t2.l14.practice-4#4",
+      "type": "sort",
+      "categories": [ { "fr": "une damma" }, { "fr": "une kasra" } ],
+      "cards": [
+        { "ar": "يَقْتُلُ", "category": 0 },
+        { "ar": "يَسْجُدُ", "category": 0 },
+        { "ar": "يَشْكُرُ", "category": 0 },
+        { "ar": "يَسْمَعُ", "category": 1 },
+        { "ar": "يَضْرِبُ", "category": 1 },
+        { "ar": "يَنْزِلُ", "category": 1 }
+      ],
+      "instruction": "Quelle voyelle sur la hamza de liaison ?",
+      "explain": "{ar|يَقْتُلُ}, {ar|يَسْجُدُ} et {ar|يَشْكُرُ} ont une damma sur leur troisième lettre : {ar|اُقْتُلْ}, {ar|اُسْجُدْ}, {ar|اُشْكُرْ}. {ar|يَسْمَعُ} (fatha), {ar|يَضْرِبُ} et {ar|يَنْزِلُ} (kasra) donnent une hamza avec kasra."
+    },
+    {
+      "id": "medine-t2.l14.practice-4#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا الْأَمْرُ مِنْ يَدْرُسُ؟",
+      "answers": ["اُدْرُسْ."],
+      "fr": "Quel est l'impératif de {ar|يَدْرُسُ} ?",
+      "explain": "Damma sur la troisième lettre : {ar|اُدْرُسْ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-4#6",
+      "type": "true_false",
+      "statement": { "fr": "L'impératif de {ar|يَأْخُذُ} commence par une hamza de liaison." },
+      "answer": false,
+      "explain": "Non : la hamza disparaît, on dit {ar|خُذْ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-4#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا الْأَمْرُ مِنْ يَضْحَكُ؟",
+      "answers": ["اِضْحَكْ."],
+      "fr": "Quel est l'impératif de {ar|يَضْحَكُ} ?",
+      "explain": "Fatha sur la troisième lettre : {ar|اِضْحَكْ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-4#8",
+      "type": "fill_gap",
+      "sentence": "{0} بِعَصَاكَ الْحَجَرَ.",
+      "fr": "Frappe la pierre avec ton bâton !",
+      "gaps": [ { "answers": ["اِضْرِبْ"] } ],
+      "options": ["اِضْرِبْ", "يَضْرِبُ", "ضَرَبَ"],
+      "explain": "{ar|يَضْرِبُ} → {ar|اِضْرِبْ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-4#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا الْأَمْرُ مِنْ يَأْكُلُ؟",
+      "answers": ["كُلْ."],
+      "fr": "Quel est l'impératif de {ar|يَأْكُلُ} ?",
+      "explain": "{ar|يَأْكُلُ} → {ar|كُلْ}, sans hamza."
+    }
+  ]
+}

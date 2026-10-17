@@ -1,0 +1,170 @@
+{
+  "id": "medine-t2.l14.grammar-3",
+  "type": "grammar",
+  "title": "La hamza de liaison : kasra ou damma ?",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l14.grammar-3#1",
+      "type": "tip",
+      "title": "Quelle voyelle sur la hamza ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour les verbes de trois lettres comme ceux-ci, la hamza de liaison de l'impératif prend en général une **kasra** : {ar|اِذْهَبْ}. Mais quand la **troisième lettre du présent** porte une **damma**, la hamza de liaison prend elle aussi une **damma**. On compte la lettre du présent : dans {ar|تَكْتُبُ}, {ar|تَ} est la première lettre, {ar|ك} la deuxième, {ar|تُ} la troisième."
+        },
+        {
+          "type": "table",
+          "header": ["Présent", "Sa troisième lettre porte…", "Impératif"],
+          "rows": [
+            ["{ar|تَذْهَبُ}", "une fatha (sur {ar|هَ})", "{ar|اِذْهَبْ} : kasra"],
+            ["{ar|تَجْلِسُ}", "une kasra (sur {ar|لِ})", "{ar|اِجْلِسْ} : kasra"],
+            ["{ar|تَكْتُبُ}", "une damma (sur {ar|تُ})", "{ar|اُكْتُبْ} : damma"],
+            ["{ar|تَدْخُلُ}", "une damma (sur {ar|خُ})", "{ar|اُدْخُلْ} : damma"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "C'est la voyelle qu'on entend juste avant la dernière lettre de la racine : damma → damma ; fatha ou kasra → kasra."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.grammar-3#2",
+      "type": "tip",
+      "title": "Deux verbes sans hamza",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Deux verbes très courants font exception : ils perdent aussi leur {ar|أ} et n'ont pas de hamza de liaison."
+        },
+        {
+          "type": "table",
+          "header": ["Présent", "Impératif", "Sens"],
+          "rows": [["{ar|تَأْكُلُ}", "{ar|كُلْ}", "mange !"], ["{ar|تَأْخُذُ}", "{ar|خُذْ}", "prends !"]]
+        },
+        {
+          "type": "note",
+          "text": "La plupart des autres verbes qui contiennent une hamza se conduisent normalement : {ar|اِسْأَلْ} (de {ar|سَأَلَ}), {ar|اِقْرَأْ} (de {ar|قَرَأَ}). On trouve aussi {ar|سَلْ} (de {ar|سَأَلَ}) et {ar|مُرْ} (de {ar|أَمَرَ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.grammar-3#3",
+      "type": "question",
+      "prompt": { "fr": "Pour l'impératif de {ar|تَكْتُبُ}, quelle voyelle prend la hamza de liaison ?" },
+      "choices": [ { "fr": "une damma" }, { "fr": "une kasra" }, { "fr": "une fatha" } ],
+      "answer": 0,
+      "explain": "La troisième lettre de {ar|تَكْتُبُ} porte une damma : la hamza de liaison prend une damma, {ar|اُكْتُبْ}."
+    },
+    {
+      "id": "medine-t2.l14.grammar-3#4",
+      "type": "sort",
+      "categories": [ { "fr": "une damma" }, { "fr": "une kasra" } ],
+      "cards": [
+        { "ar": "اُكْتُبْ", "category": 0 },
+        { "ar": "اُدْخُلْ", "category": 0 },
+        { "ar": "اُخْرُجْ", "category": 0 },
+        { "ar": "اِجْلِسْ", "category": 1 },
+        { "ar": "اِذْهَبْ", "category": 1 },
+        { "ar": "اِفْتَحْ", "category": 1 }
+      ],
+      "instruction": "Quelle voyelle sur la hamza de liaison ?",
+      "explain": "{ar|كَتَبَ}, {ar|دَخَلَ} et {ar|خَرَجَ} ont une damma au présent ({ar|يَكْتُبُ}, {ar|يَدْخُلُ}, {ar|يَخْرُجُ}). {ar|جَلَسَ}, {ar|ذَهَبَ} et {ar|فَتَحَ} ont une kasra ou une fatha ({ar|يَجْلِسُ}, {ar|يَذْهَبُ}, {ar|يَفْتَحُ}) : la hamza de liaison prend une kasra."
+    },
+    {
+      "id": "medine-t2.l14.grammar-3#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Sors !",
+      "answers": ["اُخْرُجْ."],
+      "explain": "{ar|يَخْرُجُ} : damma sur la troisième lettre, donc {ar|اُخْرُجْ}."
+    },
+    {
+      "id": "medine-t2.l14.grammar-3#6",
+      "type": "tip",
+      "title": "Écrire et prononcer la hamza de liaison",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La hamza de liaison s'écrit avec un simple alif, sans le signe de la hamza ({ar|ء}) : {ar|اُكْتُبْ}, {ar|اِذْهَبْ}. Le professeur signale une exception : les verbes comme {ar|أَكْرَمَ} (« il a honoré »), dont le {ar|أَ} du début s'ajoute à la racine. Leur impératif {ar|أَكْرِمْ} garde une vraie hamza (une hamza de coupure), que l'on écrit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au milieu d'une phrase, après {ar|وَ} par exemple, la hamza de liaison ne se prononce pas : {ar|اُكْتُبْ} se dit « uktub », mais {ar|وَاكْتُبْ} se dit « wa-ktub » et {ar|كُلْ وَاشْرَبْ} se dit « kul wa-shrab »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.grammar-3#7",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|وَاكْتُبْ}, on prononce la hamza de liaison : « wa-uktub »." },
+      "answer": false,
+      "explain": "Non : au milieu de la phrase, elle ne se prononce pas. On dit « wa-ktub »."
+    },
+    {
+      "id": "medine-t2.l14.grammar-3#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mange !",
+      "answers": ["كُلْ."],
+      "explain": "{ar|تَأْكُلُ} → {ar|كُلْ} : la hamza disparaît."
+    },
+    {
+      "id": "medine-t2.l14.grammar-3#9",
+      "type": "fill_gap",
+      "sentence": "{0} هٰذَا يَا بِلَالُ.",
+      "fr": "Prends ceci, Bilāl !",
+      "gaps": [ { "answers": ["خُذْ"] } ],
+      "options": ["خُذْ", "تَأْخُذُ", "أَخَذَ"],
+      "explain": "{ar|تَأْخُذُ} → {ar|خُذْ}."
+    },
+    {
+      "id": "medine-t2.l14.grammar-3#10",
+      "type": "tip",
+      "title": "Devant l'article",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand l'impératif se termine par un sukūn et que le mot suivant commence par l'article {ar|الْ}, on évite deux sukūn de suite : le sukūn du verbe prend une **kasra**."
+        },
+        {
+          "type": "table",
+          "header": ["Devant un autre mot", "Devant l'article {ar|الْ}"],
+          "rows": [
+            ["{ar|اِقْرَأْ كِتَابَكَ}", "{ar|اِقْرَأِ الدَّرْسَ}"],
+            ["{ar|اِفْتَحْ بَابَكَ}", "{ar|اِفْتَحِ النَّافِذَةَ}"],
+            ["{ar|خُذْ هٰذَا}", "{ar|خُذِ الْكُوبَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "C'est la même règle que pour {ar|مَنِ} ou {ar|ذَهَبَتِ} devant {ar|الْ} (les deux sukūn qui se rencontrent). Elle vaut aussi devant tout autre mot qui commence par une hamza de liaison, comme {ar|اُكْتُبِ اسْمَكَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.grammar-3#11",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|اِفْتَحِ النَّافِذَةَ}, pourquoi la dernière lettre de {ar|اِفْتَحِ} porte-t-elle une kasra ?"
+      },
+      "choices": [
+        { "fr": "Pour éviter deux sukūn de suite devant {ar|الْ}" },
+        { "fr": "Parce que le verbe s'adresse à une femme" },
+        { "fr": "Parce que le verbe est au passé" }
+      ],
+      "answer": 0,
+      "explain": "Sans la kasra, le sukūn de {ar|اِفْتَحْ} rencontrerait le sukūn de {ar|الْ}."
+    },
+    {
+      "id": "medine-t2.l14.grammar-3#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ouvre la fenêtre !",
+      "answers": ["اِفْتَحِ النَّافِذَةَ."],
+      "explain": "Devant l'article, le sukūn devient une kasra : {ar|اِفْتَحِ النَّافِذَةَ}."
+    }
+  ]
+}

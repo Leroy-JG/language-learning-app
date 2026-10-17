@@ -1,0 +1,159 @@
+{
+  "id": "medine-t2.l14.grammar-2",
+  "type": "grammar",
+  "title": "À qui parle-t-on ? Les cinq formes",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l14.grammar-2#1",
+      "type": "tip",
+      "title": "Une forme pour chaque façon de parler",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "À l'impératif, on ne s'adresse qu'à « toi » ou à « vous » (tu verras pourquoi dans la suite). Il y a donc **cinq formes**, qui reprennent la terminaison du présent au jussif :"
+        },
+        {
+          "type": "table",
+          "header": ["À qui", "Présent au jussif", "Impératif", "La fin"],
+          "rows": [
+            ["{ar|أَنْتَ} (un homme)", "{ar|لَمْ تَكْتُبْ}", "{ar|اُكْتُبْ}", "un sukūn"],
+            ["{ar|أَنْتِ} (une femme)", "{ar|لَمْ تَكْتُبِي}", "{ar|اُكْتُبِي}", "le {ar|ي}"],
+            ["{ar|أَنْتُمَا} (deux personnes)", "{ar|لَمْ تَكْتُبَا}", "{ar|اُكْتُبَا}", "l'alif"],
+            [
+              "{ar|أَنْتُمْ} (plusieurs hommes)",
+              "{ar|لَمْ تَكْتُبُوا}",
+              "{ar|اُكْتُبُوا}",
+              "le {ar|و} et un alif muet"
+            ],
+            [
+              "{ar|أَنْتُنَّ} (plusieurs femmes)",
+              "{ar|لَمْ تَكْتُبْنَ}",
+              "{ar|اُكْتُبْنَ}",
+              "le {ar|نَ} des femmes"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.grammar-2#2",
+      "type": "tip",
+      "title": "Du présent à l'impératif, forme par forme",
+      "blocks": [
+        {
+          "type": "compare",
+          "title": "Les cinq formes",
+          "rows": [
+            {
+              "from": { "ar": "تَكْتُبُ", "fr": "tu écris (un homme)" },
+              "to": { "ar": "اُكْتُبْ", "fr": "écris !" },
+              "label": "sukūn"
+            },
+            {
+              "from": { "ar": "تَكْتُبِينَ", "fr": "tu écris (une femme)" },
+              "to": { "ar": "اُكْتُبِي", "fr": "écris ! (à une femme)" },
+              "label": "le {ar|ن} tombe"
+            },
+            {
+              "from": { "ar": "تَكْتُبَانِ", "fr": "vous deux écrivez" },
+              "to": { "ar": "اُكْتُبَا", "fr": "écrivez ! (à deux)" },
+              "label": "le {ar|ن} tombe"
+            },
+            {
+              "from": { "ar": "تَكْتُبُونَ", "fr": "vous écrivez (des hommes)" },
+              "to": { "ar": "اُكْتُبُوا", "fr": "écrivez ! (à plusieurs hommes)" },
+              "label": "le {ar|ن} tombe"
+            },
+            {
+              "from": { "ar": "تَكْتُبْنَ", "fr": "vous écrivez (des femmes)" },
+              "to": { "ar": "اُكْتُبْنَ", "fr": "écrivez ! (à plusieurs femmes)" },
+              "label": "rien ne change"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Comme au passé, on écrit un alif qu'on ne prononce pas après le wāw du groupe : {ar|اُكْتُبُوا}. Dans {ar|اُكْتُبْنَ}, le {ar|نَ} est le pronom des femmes : il reste, et le verbe a un sukūn devant lui."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.grammar-2#3",
+      "type": "sort",
+      "categories": [ { "fr": "une personne" }, { "fr": "deux personnes" }, { "fr": "plusieurs personnes" } ],
+      "cards": [
+        { "ar": "اُكْتُبْ", "category": 0 },
+        { "ar": "اِذْهَبِي", "category": 0 },
+        { "ar": "اُكْتُبَا", "category": 1 },
+        { "ar": "اِذْهَبَا", "category": 1 },
+        { "ar": "اُكْتُبُوا", "category": 2 },
+        { "ar": "اِذْهَبْنَ", "category": 2 }
+      ],
+      "instruction": "Combien de personnes ?",
+      "explain": "{ar|اُكْتُبْ} (un homme) et {ar|اِذْهَبِي} (une femme) : une personne. {ar|اُكْتُبَا} et {ar|اِذْهَبَا} : deux. {ar|اُكْتُبُوا} et {ar|اِذْهَبْنَ} : plusieurs."
+    },
+    {
+      "id": "medine-t2.l14.grammar-2#4",
+      "type": "spot",
+      "instruction": "Touche l'ordre donné à une femme.",
+      "words": ["يَا", "حَامِدُ", "اِذْهَبْ", "وَيَا", "آمِنَةُ", "اِذْهَبِي"],
+      "answers": [5],
+      "fr": "Hāmid, va ! Et Āmina, va !",
+      "explain": "Pour une femme, l'impératif se termine par {ar|ي} : {ar|اِذْهَبِي}. {ar|اِذْهَبْ} s'adresse à Hāmid."
+    },
+    {
+      "id": "medine-t2.l14.grammar-2#5",
+      "type": "fill_gap",
+      "sentence": "يَا آمِنَةُ، {0} إِلَى الْمَدْرَسَةِ.",
+      "fr": "Āmina, va à l'école !",
+      "gaps": [ { "answers": ["اِذْهَبِي"] } ],
+      "options": ["اِذْهَبِي", "اِذْهَبْ", "اِذْهَبُوا"],
+      "explain": "Āmina est une femme : {ar|اِذْهَبِي}."
+    },
+    {
+      "id": "medine-t2.l14.grammar-2#6",
+      "type": "fill_gap",
+      "sentence": "يَا أَوْلَادُ، {0} هُنَا.",
+      "fr": "Les garçons, asseyez-vous ici !",
+      "gaps": [ { "answers": ["اِجْلِسُوا"] } ],
+      "options": ["اِجْلِسُوا", "اِجْلِسْ", "اِجْلِسَا"],
+      "explain": "Plusieurs garçons : {ar|اِجْلِسُوا}, avec le {ar|و} du groupe."
+    },
+    {
+      "id": "medine-t2.l14.grammar-2#7",
+      "type": "true_false",
+      "statement": { "fr": "À l'impératif, la forme pour « deux personnes » se termine par un alif." },
+      "answer": true,
+      "explain": "Oui : {ar|اُكْتُبَا}, {ar|اِذْهَبَا}. L'alif est le pronom « vous deux »."
+    },
+    {
+      "id": "medine-t2.l14.grammar-2#8",
+      "type": "fill_gap",
+      "sentence": "يَا أَخَوَاتُ، {0} الْقَهْوَةَ.",
+      "fr": "Sœurs, buvez le café !",
+      "gaps": [ { "answers": ["اِشْرَبْنَ"] } ],
+      "options": ["اِشْرَبْنَ", "اِشْرَبِي", "اِشْرَبُوا"],
+      "explain": "Plusieurs femmes : {ar|اِشْرَبْنَ}, avec le {ar|نَ} des femmes."
+    },
+    {
+      "id": "medine-t2.l14.grammar-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Entrez, les garçons !",
+      "answers": ["اُدْخُلُوا يَا أَوْلَادُ.", "يَا أَوْلَادُ اُدْخُلُوا."],
+      "explain": "Plusieurs garçons : {ar|اُدْخُلُوا}."
+    },
+    {
+      "id": "medine-t2.l14.grammar-2#10",
+      "type": "order",
+      "fr": "Sœurs, allez à la mosquée !",
+      "answers": [
+        ["اِذْهَبْنَ", "إِلَى", "الْمَسْجِدِ", "يَا", "أَخَوَاتُ"],
+        ["يَا", "أَخَوَاتُ", "اِذْهَبْنَ", "إِلَى", "الْمَسْجِدِ"]
+      ],
+      "punctuation": "!",
+      "explain": "Plusieurs femmes : {ar|اِذْهَبْنَ}."
+    }
+  ]
+}

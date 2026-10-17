@@ -1,0 +1,268 @@
+[
+  {
+    "id": "w:fil-amr",
+    "kind": "word",
+    "ar": "فِعْلُ الْأَمْرِ",
+    "fr": "le verbe à l'impératif (l'impératif)",
+    "translit": "fiʿlu l-ʾamri",
+    "gender": "m",
+    "note": "Le professeur dit {ar|فِعْلُ الْأَمْرِ} (« le verbe de l'ordre ») ou simplement {ar|الْأَمْرُ}. Il sert à donner un ordre ou à faire une demande : « écris ! », « entre ! ».",
+    "example": { "ar": "اُكْتُبْ دَرْسَكَ.", "fr": "Écris ta leçon !" }
+  },
+  {
+    "id": "w:hamzat-wasl",
+    "kind": "word",
+    "ar": "هَمْزَةُ الْوَصْلِ",
+    "fr": "la hamza de liaison (un alif qu'on ne prononce qu'au début de la phrase)",
+    "translit": "hamzatu l-waṣli",
+    "gender": "f",
+    "note": "C'est l'alif de {ar|اِسْمٌ}, celui de l'article {ar|الْ} et celui de l'impératif. Au milieu d'une phrase, après un autre mot, on ne le prononce pas : {ar|وَاكْتُبْ} se lit « wa-ktub ». Le mot {ar|وَصْلٌ} veut dire « liaison ».",
+    "example": { "ar": "اِجْلِسْ هُنَا.", "fr": "Assieds-toi ici !" }
+  },
+  {
+    "id": "w:mudari-majzum",
+    "kind": "word",
+    "ar": "الْمُضَارِعُ الْمَجْزُومُ",
+    "fr": "le présent au jussif",
+    "translit": "al-muḍāriʿu l-majzūmu",
+    "gender": "m",
+    "note": "C'est le présent à l'état du jussif, par exemple après {ar|لَمْ} ou après {ar|لَا} qui interdit. L'impératif se forme à partir de lui.",
+    "example": { "ar": "لَمْ تَكْتُبْ دَرْسَكَ.", "fr": "Tu n'as pas écrit ta leçon." }
+  },
+  {
+    "id": "w:fail-fil-amr",
+    "kind": "word",
+    "ar": "فَاعِلُ فِعْلِ الْأَمْرِ",
+    "fr": "le sujet du verbe à l'impératif",
+    "translit": "fāʿilu fiʿli l-ʾamri",
+    "gender": "m",
+    "note": "Il n'y en a qu'une sorte : le pronom de la deuxième personne, « toi » ou « vous »."
+  },
+  {
+    "id": "w:shaytan",
+    "kind": "word",
+    "ar": "شَيْطَانٌ",
+    "fr": "un diable, un démon",
+    "translit": "shayṭānun",
+    "plural": "شَيَاطِينُ",
+    "gender": "m",
+    "note": "Avec l'article, {ar|الشَّيْطَانُ} désigne le Diable, Satan.",
+    "example": { "ar": "هٰذَا شَيْطَانٌ.", "fr": "C'est un diable." }
+  },
+  {
+    "id": "w:aqrab",
+    "kind": "word",
+    "ar": "عَقْرَبٌ",
+    "fr": "un scorpion",
+    "translit": "ʿaqrabun",
+    "plural": "عَقَارِبُ",
+    "gender": "f",
+    "note": "Ce nom s'emploie le plus souvent au féminin (dans le texte du livre : {ar|أَيْنَ هِيَ؟}, « où est-il ? »).",
+    "example": { "ar": "قَتَلْتُ الْعَقْرَبَ.", "fr": "J'ai tué le scorpion." }
+  },
+  {
+    "id": "w:sawt",
+    "kind": "word",
+    "ar": "صَوْتٌ",
+    "fr": "une voix, un bruit",
+    "translit": "ṣawtun",
+    "plural": "أَصْوَاتٌ",
+    "gender": "m",
+    "note": "Le même mot dit la voix d'une personne et le bruit d'une chose.",
+    "example": { "ar": "سَمِعْتُ صَوْتًا فِي الشَّارِعِ.", "fr": "J'ai entendu un bruit dans la rue." }
+  },
+  {
+    "id": "w:gharib",
+    "kind": "word",
+    "ar": "غَرِيبٌ",
+    "fr": "étranger (qui vient d'ailleurs), inconnu",
+    "translit": "gharībun",
+    "plural": "غُرَبَاءُ",
+    "note": "Cet adjectif peut aussi vouloir dire « étrange ».",
+    "example": { "ar": "هٰذَا رَجُلٌ غَرِيبٌ.", "fr": "C'est un homme étranger." }
+  },
+  {
+    "id": "w:midhyaa",
+    "kind": "word",
+    "ar": "مِذْيَاعٌ",
+    "fr": "une radio",
+    "translit": "midhyāʿun",
+    "gender": "m",
+    "note": "Ce mot vient du verbe {ar|أَذَاعَ} (« diffuser »).",
+    "example": { "ar": "هٰذَا مِذْيَاعٌ جَدِيدٌ.", "fr": "C'est une radio neuve." }
+  },
+  {
+    "id": "w:quwwa",
+    "kind": "word",
+    "ar": "قُوَّةٌ",
+    "fr": "une force",
+    "translit": "quwwatun",
+    "plural": "قُوَّاتٌ",
+    "gender": "f",
+    "note": "Le professeur donne le pluriel {ar|قُوَّاتٌ} (« forces », par exemple les forces armées) ; il existe aussi {ar|قُوًى}. Le professeur cite {ar|لَا قُوَّةَ إِلَّا بِاللَّهِ} (« il n'y a de force qu'en Allah ») : c'est la fin de la formule {ar|لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ}.",
+    "example": { "ar": "لِزَيْدٍ قُوَّةٌ كَبِيرَةٌ.", "fr": "Zayd a une grande force." }
+  },
+  {
+    "id": "w:jaww",
+    "kind": "word",
+    "ar": "جَوٌّ",
+    "fr": "un temps (le temps qu'il fait), une atmosphère",
+    "translit": "jawwun",
+    "plural": "أَجْوَاءٌ",
+    "gender": "m",
+    "note": "On dit {ar|الْجَوُّ حَارٌّ} (« le temps est chaud », c'est-à-dire « il fait chaud »). Le mot dit aussi l'air, l'espace au-dessus de nous.",
+    "example": { "ar": "الْجَوُّ حَارٌّ فِي الْمَدِينَةِ.", "fr": "Il fait chaud en ville." }
+  },
+  {
+    "id": "w:nasan",
+    "kind": "word",
+    "ar": "نَعْسَانُ",
+    "fr": "somnolent, qui a sommeil",
+    "translit": "naʿsānu",
+    "note": "Le féminin est {ar|نَعْسَى}, comme {ar|جَوْعَانُ} a pour féminin {ar|جَوْعَى}.",
+    "example": {
+      "ar": "زَيْدٌ نَعْسَانُ لِأَنَّهُ مَا نَامَ اللَّيْلَةَ.",
+      "fr": "Zayd a sommeil parce qu'il n'a pas dormi cette nuit."
+    }
+  },
+  {
+    "id": "w:mudlim",
+    "kind": "word",
+    "ar": "مُظْلِمٌ",
+    "fr": "sombre, obscur",
+    "translit": "muẓlimun",
+    "example": { "ar": "الْغُرْفَةُ مُظْلِمَةٌ.", "fr": "La pièce est sombre." }
+  },
+  {
+    "id": "w:waraqa",
+    "kind": "word",
+    "ar": "وَرَقَةٌ",
+    "fr": "une feuille (de papier ou d'arbre)",
+    "translit": "waraqatun",
+    "plural": "أَوْرَاقٌ",
+    "gender": "f",
+    "example": { "ar": "أَكْتُبُ عَلَى وَرَقَةٍ.", "fr": "J'écris sur une feuille." }
+  },
+  {
+    "id": "w:musa",
+    "kind": "word",
+    "ar": "مُوسًى",
+    "fr": "un rasoir",
+    "translit": "mūsan",
+    "plural": "مَوَاسٍ",
+    "gender": "f",
+    "note": "Les dictionnaires l'emploient aux deux genres ; ici, au féminin. Le professeur écrit le pluriel sans tanwin ({ar|مَوَاسِ}) : indéfini, c'est {ar|مَوَاسٍ}. Ne le confonds pas avec {ar|مُوسَى} (Moïse), qui n'a pas de tanwin.",
+    "example": { "ar": "اِشْتَرَى زَيْدٌ مُوسًى.", "fr": "Zayd a acheté un rasoir." }
+  },
+  {
+    "id": "w:hidhaa",
+    "kind": "word",
+    "ar": "حِذَاءٌ",
+    "fr": "une chaussure",
+    "translit": "ḥidhāʾun",
+    "plural": "أَحْذِيَةٌ",
+    "gender": "m",
+    "example": { "ar": "حِذَاءُ زَيْدٍ جَدِيدٌ.", "fr": "La chaussure de Zayd est neuve." }
+  },
+  { "id": "w:kanasa", "kind": "word", "ar": "كَنَسَ", "fr": "il a balayé (balayer)", "translit": "kanasa" },
+  { "id": "w:tabakha", "kind": "word", "ar": "طَبَخَ", "fr": "il a cuisiné (cuisiner)", "translit": "ṭabakha" },
+  { "id": "w:qataa", "kind": "word", "ar": "قَطَعَ", "fr": "il a coupé (couper, trancher)", "translit": "qaṭaʿa" },
+  {
+    "id": "w:halaqa",
+    "kind": "word",
+    "ar": "حَلَقَ",
+    "fr": "il a rasé (raser)",
+    "translit": "ḥalaqa",
+    "note": "On dit {ar|حَلَقَ رَأْسَهُ} (« il s'est rasé la tête », littéralement « il a rasé sa tête »)."
+  },
+  {
+    "id": "w:nazara",
+    "kind": "word",
+    "ar": "نَظَرَ",
+    "fr": "il a regardé (regarder)",
+    "translit": "naẓara",
+    "note": "On dit {ar|نَظَرَ إِلَى} pour « regarder quelqu'un ou quelque chose »."
+  },
+  {
+    "id": "w:jamaa-2",
+    "kind": "word",
+    "ar": "جَمَعَ",
+    "fr": "il a rassemblé (rassembler)",
+    "translit": "jamaʿa",
+    "note": "Ce verbe a la même racine que {ar|جَمْعٌ} (« un pluriel ») et {ar|جَمَاعَةٌ} (« un groupe »)."
+  },
+  {
+    "id": "w:manaa",
+    "kind": "word",
+    "ar": "مَنَعَ",
+    "fr": "il a interdit, il a empêché (interdire, empêcher)",
+    "translit": "manaʿa"
+  },
+  {
+    "id": "w:abada",
+    "kind": "word",
+    "ar": "عَبَدَ",
+    "fr": "il a adoré (adorer)",
+    "translit": "ʿabada",
+    "note": "Même racine que {ar|عَبْدٌ} (« un serviteur », « un esclave »)."
+  },
+  {
+    "id": "w:adha",
+    "kind": "word",
+    "ar": "عَاذَ",
+    "fr": "il a cherché refuge (chercher refuge auprès de, avec {ar|بِ})",
+    "translit": "ʿādha",
+    "note": "C'est le verbe de la formule {ar|أَعُوذُ بِاللَّهِ} (« je cherche refuge auprès d'Allah »). Il a une voyelle longue au milieu, comme {ar|قَالَ} : ses formes seront étudiées plus tard, ici le tableau n'est qu'un aperçu."
+  },
+  {
+    "id": "w:sajada",
+    "kind": "word",
+    "ar": "سَجَدَ",
+    "fr": "il s'est prosterné (se prosterner)",
+    "translit": "sajada",
+    "example": { "ar": "سَجَدَ الْوَلَدُ لِلَّهِ.", "fr": "Le garçon s'est prosterné devant Allah." }
+  },
+  {
+    "id": "w:rakaa-2",
+    "kind": "word",
+    "ar": "رَكَعَ",
+    "fr": "il s'est incliné (s'incliner dans la prière)",
+    "translit": "rakaʿa",
+    "note": "Même racine que {ar|رَكْعَةٌ} (« une rakʿa »)."
+  },
+  {
+    "id": "w:alima",
+    "kind": "word",
+    "ar": "عَلِمَ",
+    "fr": "il a su (savoir)",
+    "translit": "ʿalima",
+    "note": "Même racine que {ar|عِلْمٌ} (« un savoir »). Avec {ar|بِ}, {ar|عَلِمَ بِ} veut dire « être au courant de, apprendre (une nouvelle) »."
+  },
+  {
+    "id": "w:mata-2",
+    "kind": "word",
+    "ar": "مَاتَ",
+    "fr": "il est mort (mourir)",
+    "translit": "māta",
+    "note": "Il a une voyelle longue au milieu, comme {ar|نَامَ} : son présent est {ar|يَمُوتُ}."
+  },
+  {
+    "id": "w:ras",
+    "kind": "word",
+    "ar": "رَأْسٌ",
+    "fr": "une tête",
+    "translit": "raʾsun",
+    "plural": "رُؤُوسٌ",
+    "gender": "m",
+    "example": { "ar": "اِرْفَعْ رَأْسَكَ.", "fr": "Lève la tête !" }
+  },
+  {
+    "id": "w:sabun",
+    "kind": "word",
+    "ar": "صَابُونٌ",
+    "fr": "du savon",
+    "translit": "ṣābūnun",
+    "gender": "m",
+    "example": { "ar": "اِغْسِلْ وَجْهَكَ بِالصَّابُونِ.", "fr": "Lave-toi le visage avec le savon !" }
+  }
+]
