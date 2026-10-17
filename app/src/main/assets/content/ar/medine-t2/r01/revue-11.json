@@ -1,0 +1,118 @@
+{
+  "id": "medine-t2.r01.revue-11",
+  "type": "review",
+  "title": "De 11 à 19",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-11#1",
+      "type": "tip",
+      "title": "Un nombre en deux morceaux",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Morceau", "Règle", "Avec un livre / avec une sœur"],
+          "rows": [
+            [
+              "les unités ({ar|ثَلَاثَةَ}…)",
+              "de genre contraire au dénombré (sauf 11 et 12, qui s'accordent)",
+              "{ar|ثَلَاثَةَ عَشَرَ كِتَابًا} / {ar|ثَلَاثَ عَشْرَةَ أُخْتًا}"
+            ],
+            [
+              "« dix » ({ar|عَشَرَ} / {ar|عَشْرَةَ})",
+              "s'accorde avec le dénombré",
+              "{ar|عَشَرَ} (masculin) / {ar|عَشْرَةَ} (féminin)"
+            ],
+            [
+              "le dénombré",
+              "au singulier, indéfini, à l'accusatif ({ar|التَّمْيِيزُ})",
+              "{ar|كِتَابًا} / {ar|أُخْتًا}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les deux morceaux sont invariables ({ar|مَبْنِيٌّ عَلَى الْفَتْحِ}), sauf le premier de douze : {ar|اِثْنَا عَشَرَ} au nominatif, {ar|اِثْنَيْ عَشَرَ} à l'accusatif et au génitif."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-11#2",
+      "type": "sort",
+      "categories": [ { "fr": "avec un nom masculin" }, { "fr": "avec un nom féminin" } ],
+      "cards": [
+        { "ar": "خَمْسَةَ عَشَرَ طَالِبًا", "category": 0 },
+        { "ar": "خَمْسَ عَشْرَةَ طَالِبَةً", "category": 1 },
+        { "ar": "أَحَدَ عَشَرَ قَلَمًا", "category": 0 },
+        { "ar": "إِحْدَى عَشْرَةَ سَيَّارَةً", "category": 1 },
+        { "ar": "سَبْعَةَ عَشَرَ كِتَابًا", "category": 0 },
+        { "ar": "تِسْعَ عَشْرَةَ بِنْتًا", "category": 1 }
+      ],
+      "instruction": "Avec quel nom compté se dit ce nombre ?",
+      "explain": "De 13 à 19, une seule des deux parties porte le {ar|ة} : la première avec un nom masculin ({ar|خَمْسَةَ عَشَرَ}), la seconde avec un nom féminin ({ar|خَمْسَ عَشْرَةَ}). Pour 11, {ar|أَحَدَ} / {ar|إِحْدَى} s'accordent."
+    },
+    {
+      "id": "medine-t2.r01.revue-11#3",
+      "type": "fill_gap",
+      "sentence": "لِي {0} أُخْتًا.",
+      "fr": "J'ai treize sœurs.",
+      "gaps": [ { "answers": ["ثَلَاثَ عَشْرَةَ"] } ],
+      "options": ["ثَلَاثَ عَشْرَةَ", "ثَلَاثَةَ عَشَرَ", "ثَلَاثَ عَشَرَ"],
+      "explain": "{ar|أُخْتٌ} est féminin : {ar|ثَلَاثَ} (sans {ar|ة}) et {ar|عَشْرَةَ} (avec {ar|ة})."
+    },
+    {
+      "id": "medine-t2.r01.revue-11#4",
+      "type": "fill_gap",
+      "sentence": "فِي الْفَصْلِ {0} طَالِبًا وَ{1} طَالِبَةً.",
+      "fr": "Dans la classe, il y a quatorze étudiants et seize étudiantes.",
+      "gaps": [ { "answers": ["أَرْبَعَةَ عَشَرَ"] }, { "answers": ["سِتَّ عَشْرَةَ"] } ],
+      "options": ["أَرْبَعَةَ عَشَرَ", "أَرْبَعَ عَشْرَةَ", "سِتَّةَ عَشَرَ", "سِتَّ عَشْرَةَ"],
+      "explain": "{ar|طَالِبٌ} est masculin : {ar|أَرْبَعَةَ عَشَرَ}. {ar|طَالِبَةٌ} est féminin : {ar|سِتَّ عَشْرَةَ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-11#5",
+      "type": "spot",
+      "instruction": "Touche le dénombré.",
+      "words": ["لِي", "ثَلَاثَةَ", "عَشَرَ", "كِتَابًا."],
+      "answers": [3],
+      "fr": "J'ai treize livres.",
+      "explain": "Le dénombré est ce qu'on compte : {ar|كِتَابًا}, au singulier et à l'accusatif. Les deux autres mots forment le nombre."
+    },
+    {
+      "id": "medine-t2.r01.revue-11#6",
+      "type": "question",
+      "prompt": { "fr": "Quelle règle est vraie pour onze et douze ?" },
+      "choices": [
+        { "fr": "leur première partie s'accorde avec le dénombré" },
+        { "fr": "leur première partie est de genre contraire au dénombré" },
+        { "fr": "leur dénombré est au pluriel" }
+      ],
+      "answer": 0,
+      "explain": "Onze et douze font exception : {ar|أَحَدَ} / {ar|إِحْدَى} et {ar|اِثْنَا} / {ar|اِثْنَتَا} s'accordent. Pour les autres, la première partie contredit."
+    },
+    {
+      "id": "medine-t2.r01.revue-11#7",
+      "type": "true_false",
+      "statement": { "fr": "Après un nombre de 11 à 19, le dénombré est au pluriel." },
+      "answer": false,
+      "explain": "Faux : il est au singulier, indéfini et à l'accusatif : {ar|خَمْسَةَ عَشَرَ كِتَابًا}."
+    },
+    {
+      "id": "medine-t2.r01.revue-11#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai quinze livres.",
+      "answers": ["لِي خَمْسَةَ عَشَرَ كِتَابًا.", "عِنْدِي خَمْسَةَ عَشَرَ كِتَابًا."],
+      "explain": "{ar|كِتَابٌ} est masculin : {ar|خَمْسَةَ عَشَرَ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-11#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai onze sœurs.",
+      "answers": ["لِي إِحْدَى عَشْرَةَ أُخْتًا.", "عِنْدِي إِحْدَى عَشْرَةَ أُخْتًا."],
+      "explain": "{ar|أُخْتٌ} est féminin : {ar|إِحْدَى عَشْرَةَ}."
+    }
+  ]
+}

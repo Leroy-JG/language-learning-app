@@ -1,0 +1,165 @@
+{
+  "id": "medine-t2.r01.revue-6",
+  "type": "review",
+  "title": "{ar|إِنَّ} et ses sœurs",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-6#1",
+      "type": "tip",
+      "title": "Une particule, un sens, un effet",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les {ar|النَّوَاسِخُ} (les abrogeants) sont des verbes ou des particules qui agissent sur la phrase nominale de deux manières : ils changent son sens, et ils changent le cas de ses deux éléments (le sujet et le prédicat). {ar|إِنَّ وَأَخَوَاتُهَا} sont les particules ; {ar|كَانَ وَأَخَوَاتُهَا} sont les verbes (activité suivante)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque particule apporte un sens, et toutes font la même chose aux cas : le sujet passe à l'accusatif ({ar|اِسْمُ إِنَّ}), le prédicat reste au nominatif ({ar|خَبَرُ إِنَّ})."
+        },
+        {
+          "type": "table",
+          "header": ["Particule", "Sens", "Exemple"],
+          "rows": [
+            [
+              "{ar|إِنَّ} / {ar|أَنَّ}",
+              "confirmer ({ar|التَّوْكِيدُ})",
+              "{ar|إِنَّ زَيْدًا طَالِبٌ} : certes, Zayd est étudiant"
+            ],
+            [
+              "{ar|لَعَلَّ}",
+              "espérer ({ar|التَّرَجِّي})",
+              "{ar|لَعَلَّ زَيْدًا نَاجِحٌ} : j'espère que Zayd réussit"
+            ],
+            [
+              "{ar|لَكِنَّ}",
+              "rectifier ({ar|الِاسْتِدْرَاكُ})",
+              "{ar|زَيْدٌ فَقِيرٌ لَكِنَّ عِلْمَهُ كَثِيرٌ} : Zayd est pauvre, mais sa science est grande"
+            ],
+            [
+              "{ar|كَأَنَّ}",
+              "comparer ({ar|التَّشْبِيهُ})",
+              "{ar|كَأَنَّ زَيْدًا عَالِمٌ} : comme si Zayd était un savant"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|لَكِنَّ} vient toujours après une phrase qui dit autre chose : elle corrige ou nuance ce qui précède. {ar|إِنَّ} commence d'ordinaire la phrase ; {ar|أَنَّ} suit un autre mot."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "La tradition en compte six, avec {ar|لَيْتَ} (« si seulement… »), vue en aperçu au chapitre 1 de ce tome."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-6#2",
+      "type": "tip",
+      "title": "Ce que fait la particule",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "زَيْدٌ طَالِبٌ", "fr": "Zayd est étudiant" },
+              "to": { "ar": "إِنَّ زَيْدًا طَالِبٌ", "fr": "Certes, Zayd est étudiant" },
+              "label": "le sujet : damma → fatha ; le prédicat ne change pas"
+            },
+            {
+              "from": { "ar": "زَيْدٌ نَاجِحٌ", "fr": "Zayd réussit" },
+              "to": { "ar": "لَعَلَّ زَيْدًا نَاجِحٌ", "fr": "J'espère que Zayd réussit" },
+              "label": "même effet, un autre sens"
+            },
+            {
+              "from": { "ar": "زَيْدٌ عَالِمٌ", "fr": "Zayd est un savant" },
+              "to": { "ar": "كَأَنَّ زَيْدًا عَالِمٌ", "fr": "Comme si Zayd était un savant" },
+              "label": "même effet, un autre sens"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Formule classique pour retenir : {ar|تَنْصِبُ الِاسْمَ وَتَرْفَعُ الْخَبَرَ} (« elle met le sujet à l'accusatif et le prédicat au nominatif »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-6#3",
+      "type": "sort",
+      "categories": [ { "fr": "confirmer" }, { "fr": "espérer" }, { "fr": "comparer" } ],
+      "cards": [
+        { "ar": "إِنَّ الْمُدِيرَ جَدِيدٌ", "category": 0 },
+        { "ar": "إِنَّهُ طَالِبٌ", "category": 0 },
+        { "ar": "لَعَلَّكَ بِخَيْرٍ", "category": 1 },
+        { "ar": "لَعَلَّ الْمُدِيرَ نَاجِحٌ", "category": 1 },
+        { "ar": "كَأَنَّ الْمُدِيرَ عَالِمٌ", "category": 2 },
+        { "ar": "كَأَنَّهُ كَبِيرٌ", "category": 2 }
+      ],
+      "instruction": "Que veut dire la phrase ?",
+      "explain": "{ar|إِنَّ} confirme, {ar|لَعَلَّ} espère, {ar|كَأَنَّ} compare : « comme si le directeur était un savant », « comme s'il était grand »."
+    },
+    {
+      "id": "medine-t2.r01.revue-6#4",
+      "type": "spot",
+      "instruction": "Touche le sujet de {ar|لَعَلَّ} (le mot à l'accusatif).",
+      "words": ["لَعَلَّ", "الطَّالِبَ", "نَاجِحٌ"],
+      "answers": [1],
+      "fr": "J'espère que l'étudiant réussit.",
+      "explain": "{ar|الطَّالِبَ} est le sujet : il prend la fatha après {ar|لَعَلَّ}. {ar|نَاجِحٌ} est le prédicat : il reste au nominatif."
+    },
+    {
+      "id": "medine-t2.r01.revue-6#5",
+      "type": "question",
+      "prompt": { "fr": "Comment le professeur analyse-t-il {ar|زَيْدًا} dans {ar|إِنَّ زَيْدًا طَالِبٌ} ?" },
+      "choices": [ { "ar": "اِسْمُ إِنَّ مَنْصُوبٌ" }, { "ar": "خَبَرُ إِنَّ مَرْفُوعٌ" }, { "ar": "مُبْتَدَأٌ مَرْفُوعٌ" } ],
+      "answer": 0,
+      "explain": "{ar|زَيْدًا} est le nom de {ar|إِنَّ} : il est à l'accusatif. {ar|طَالِبٌ} est son prédicat, au nominatif."
+    },
+    {
+      "id": "medine-t2.r01.revue-6#6",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدًا نَاجِحٌ.",
+      "fr": "J'espère que Zayd réussit.",
+      "gaps": [ { "answers": ["لَعَلَّ"] } ],
+      "options": ["لَعَلَّ", "إِنَّ", "لَكِنَّ"],
+      "explain": "{ar|لَعَلَّ} exprime l'espoir. {ar|إِنَّ} confirmerait (« certes ») ; {ar|لَكِنَّ} demande une phrase avant elle."
+    },
+    {
+      "id": "medine-t2.r01.revue-6#7",
+      "type": "order",
+      "fr": "Certes, Zayd est étudiant.",
+      "answers": [["إِنَّ", "زَيْدًا", "طَالِبٌ"]],
+      "punctuation": ".",
+      "distractors": ["أَنَّ"],
+      "explain": "{ar|إِنَّ} commence la phrase ; {ar|أَنَّ} suit un autre mot. Le sujet {ar|زَيْدًا} est à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r01.revue-6#8",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ فَقِيرٌ {0} عِلْمَهُ كَثِيرٌ.",
+      "fr": "Zayd est pauvre, mais sa science est grande.",
+      "gaps": [ { "answers": ["لَكِنَّ"] } ],
+      "options": ["لَكِنَّ", "إِنَّ", "لَعَلَّ"],
+      "explain": "{ar|لَكِنَّ} corrige ce qui précède : pauvre, mais savant. Son sujet {ar|عِلْمَهُ} est à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r01.revue-6#9",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|إِنَّ}, c'est le prédicat qui est à l'accusatif." },
+      "answer": false,
+      "explain": "Faux : c'est le sujet ({ar|اِسْمُ إِنَّ}). Le prédicat reste au nominatif ({ar|خَبَرُ إِنَّ})."
+    },
+    {
+      "id": "medine-t2.r01.revue-6#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Comme si Zayd était un savant.",
+      "answers": ["كَأَنَّ زَيْدًا عَالِمٌ."],
+      "explain": "{ar|كَأَنَّ} compare ; son sujet {ar|زَيْدًا} est à l'accusatif."
+    }
+  ]
+}

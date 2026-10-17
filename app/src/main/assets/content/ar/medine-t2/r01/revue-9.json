@@ -1,0 +1,182 @@
+{
+  "id": "medine-t2.r01.revue-9",
+  "type": "review",
+  "title": "Ajouter un pronom complément",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-9#1",
+      "type": "tip",
+      "title": "L'exercice du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le complément d'objet ({ar|الْمَفْعُولُ بِهِ}) est le nom qui subit l'action du verbe : {ar|هُوَ الِاسْمُ الَّذِي يَقَعُ عَلَيْهِ الْفِعْلُ}. Ce peut être un nom apparent ({ar|ضَرَبَ زَيْدٌ يَاسِرًا}) ou un pronom collé ({ar|ضَرَبَكَ زَيْدٌ})."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande de mettre, à chaque verbe, un complément qui est un pronom collé, avec **tous** les pronoms de l'accusatif. Voici la réponse pour trois verbes."
+        },
+        {
+          "type": "table",
+          "header": ["Pronom collé", "{ar|ضَرَبَ زَيْدٌ}", "{ar|يُحِبُّ زَيْدٌ}", "{ar|يُسَاعِدُ زَيْدٌ}"],
+          "rows": [
+            ["{ar|نِي} (me)", "{ar|ضَرَبَنِي زَيْدٌ}", "{ar|يُحِبُّنِي زَيْدٌ}", "{ar|يُسَاعِدُنِي زَيْدٌ}"],
+            ["{ar|نَا} (nous)", "{ar|ضَرَبَنَا زَيْدٌ}", "{ar|يُحِبُّنَا زَيْدٌ}", "{ar|يُسَاعِدُنَا زَيْدٌ}"],
+            ["{ar|كَ} (te, à un homme)", "{ar|ضَرَبَكَ زَيْدٌ}", "{ar|يُحِبُّكَ زَيْدٌ}", "{ar|يُسَاعِدُكَ زَيْدٌ}"],
+            [
+              "{ar|كِ} (te, à une femme)",
+              "{ar|ضَرَبَكِ زَيْدٌ}",
+              "{ar|يُحِبُّكِ زَيْدٌ}",
+              "{ar|يُسَاعِدُكِ زَيْدٌ}"
+            ],
+            [
+              "{ar|كُمَا} (vous deux)",
+              "{ar|ضَرَبَكُمَا زَيْدٌ}",
+              "{ar|يُحِبُّكُمَا زَيْدٌ}",
+              "{ar|يُسَاعِدُكُمَا زَيْدٌ}"
+            ],
+            ["{ar|كُمْ} (vous)", "{ar|ضَرَبَكُمْ زَيْدٌ}", "{ar|يُحِبُّكُمْ زَيْدٌ}", "{ar|يُسَاعِدُكُمْ زَيْدٌ}"],
+            [
+              "{ar|كُنَّ} (vous, des femmes)",
+              "{ar|ضَرَبَكُنَّ زَيْدٌ}",
+              "{ar|يُحِبُّكُنَّ زَيْدٌ}",
+              "{ar|يُسَاعِدُكُنَّ زَيْدٌ}"
+            ],
+            ["{ar|هُ} (le)", "{ar|ضَرَبَهُ زَيْدٌ}", "{ar|يُحِبُّهُ زَيْدٌ}", "{ar|يُسَاعِدُهُ زَيْدٌ}"],
+            ["{ar|هَا} (la)", "{ar|ضَرَبَهَا زَيْدٌ}", "{ar|يُحِبُّهَا زَيْدٌ}", "{ar|يُسَاعِدُهَا زَيْدٌ}"],
+            [
+              "{ar|هُمَا} (eux deux)",
+              "{ar|ضَرَبَهُمَا زَيْدٌ}",
+              "{ar|يُحِبُّهُمَا زَيْدٌ}",
+              "{ar|يُسَاعِدُهُمَا زَيْدٌ}"
+            ],
+            ["{ar|هُمْ} (eux)", "{ar|ضَرَبَهُمْ زَيْدٌ}", "{ar|يُحِبُّهُمْ زَيْدٌ}", "{ar|يُسَاعِدُهُمْ زَيْدٌ}"],
+            [
+              "{ar|هُنَّ} (elles)",
+              "{ar|ضَرَبَهُنَّ زَيْدٌ}",
+              "{ar|يُحِبُّهُنَّ زَيْدٌ}",
+              "{ar|يُسَاعِدُهُنَّ زَيْدٌ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le sujet {ar|زَيْدٌ} reste au nominatif ; le pronom est le complément, à l'accusatif. Au présent comme au passé, « moi » est {ar|نِي} après le verbe."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-9#2",
+      "type": "tip",
+      "title": "Les mêmes pronoms après {ar|إِنَّ} et {ar|لَعَلَّ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Après {ar|إِنَّ} et {ar|لَعَلَّ}, ces pronoms sont leur nom, à l'accusatif. Le professeur les range dans le même tableau."
+        },
+        {
+          "type": "table",
+          "header": ["Pronom collé", "{ar|إِنَّ}", "{ar|لَعَلَّ}"],
+          "rows": [
+            ["{ar|ي}", "{ar|إِنَّنِي} ou {ar|إِنِّي}", "{ar|لَعَلِّي}"],
+            ["{ar|نَا}", "{ar|إِنَّا}", "{ar|لَعَلَّنَا}"],
+            ["{ar|كَ}", "{ar|إِنَّكَ}", "{ar|لَعَلَّكَ}"],
+            ["{ar|كِ}", "{ar|إِنَّكِ}", "{ar|لَعَلَّكِ}"],
+            ["{ar|كُمَا}", "{ar|إِنَّكُمَا}", "{ar|لَعَلَّكُمَا}"],
+            ["{ar|كُمْ}", "{ar|إِنَّكُمْ}", "{ar|لَعَلَّكُمْ}"],
+            ["{ar|كُنَّ}", "{ar|إِنَّكُنَّ}", "{ar|لَعَلَّكُنَّ}"],
+            ["{ar|هُ}", "{ar|إِنَّهُ}", "{ar|لَعَلَّهُ}"],
+            ["{ar|هَا}", "{ar|إِنَّهَا}", "{ar|لَعَلَّهَا}"],
+            ["{ar|هُمَا}", "{ar|إِنَّهُمَا}", "{ar|لَعَلَّهُمَا}"],
+            ["{ar|هُمْ}", "{ar|إِنَّهُمْ}", "{ar|لَعَلَّهُمْ}"],
+            ["{ar|هُنَّ}", "{ar|إِنَّهُنَّ}", "{ar|لَعَلَّهُنَّ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-9#3",
+      "type": "sort",
+      "categories": [ { "fr": "moi ou nous" }, { "fr": "toi ou vous" }, { "fr": "lui, elle ou eux" } ],
+      "cards": [
+        { "ar": "يُحِبُّنِي زَيْدٌ", "category": 0 },
+        { "ar": "ضَرَبَنَا زَيْدٌ", "category": 0 },
+        { "ar": "ضَرَبَكَ زَيْدٌ", "category": 1 },
+        { "ar": "يُسَاعِدُكُمْ زَيْدٌ", "category": 1 },
+        { "ar": "يُحِبُّهَا زَيْدٌ", "category": 2 },
+        { "ar": "ضَرَبَهُمْ زَيْدٌ", "category": 2 }
+      ],
+      "instruction": "Quelle personne désigne le pronom complément ?",
+      "explain": "{ar|نِي} et {ar|نَا} : « moi » et « nous ». {ar|كَ} et {ar|كُمْ} : « toi » et « vous ». {ar|هَا} et {ar|هُمْ} : « elle » et « eux »."
+    },
+    {
+      "id": "medine-t2.r01.revue-9#4",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ.",
+      "fr": "Zayd m'aime.",
+      "gaps": [ { "answers": ["يُحِبُّنِي"] } ],
+      "options": ["يُحِبُّنِي", "يُحِبُّنَا", "يُحِبُّكَ"],
+      "explain": "« Moi » après un verbe : {ar|نِي}. {ar|يُحِبُّنَا} voudrait dire « nous », {ar|يُحِبُّكَ} « toi »."
+    },
+    {
+      "id": "medine-t2.r01.revue-9#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd t'aide (à un homme).",
+      "answers": ["يُسَاعِدُكَ زَيْدٌ.", "زَيْدٌ يُسَاعِدُكَ."],
+      "explain": "{ar|كَ} : « te », à un homme."
+    },
+    {
+      "id": "medine-t2.r01.revue-9#6",
+      "type": "fill_gap",
+      "sentence": "{0} بِخَيْرٍ.",
+      "fr": "J'espère qu'ils vont bien.",
+      "gaps": [ { "answers": ["لَعَلَّهُمْ"] } ],
+      "options": ["لَعَلَّهُمْ", "لَعَلَّهُنَّ", "لَعَلَّكُمْ"],
+      "explain": "{ar|هُمْ} : « eux ». {ar|هُنَّ} parlerait de plusieurs femmes ; {ar|كُمْ} s'adresserait à « vous »."
+    },
+    {
+      "id": "medine-t2.r01.revue-9#7",
+      "type": "order",
+      "fr": "Zayd t'a frappée.",
+      "answers": [["ضَرَبَكِ", "زَيْدٌ"], ["زَيْدٌ", "ضَرَبَكِ"]],
+      "punctuation": ".",
+      "explain": "« Toi » à une femme : {ar|كِ}, avec une kasra. Le sujet {ar|زَيْدٌ} peut venir avant ou après le verbe."
+    },
+    {
+      "id": "medine-t2.r01.revue-9#8",
+      "type": "question",
+      "prompt": { "fr": "Quel pronom collé veut dire « vous deux » (complément) ?" },
+      "choices": [ { "ar": "كُمَا" }, { "ar": "هُمَا" }, { "ar": "نَا" } ],
+      "answer": 0,
+      "explain": "{ar|كُمَا} : « vous deux ». {ar|هُمَا} : « eux deux » (ou « elles deux »). {ar|نَا} : « nous »."
+    },
+    {
+      "id": "medine-t2.r01.revue-9#9",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ.",
+      "fr": "Zayd les aide (eux).",
+      "gaps": [ { "answers": ["يُسَاعِدُهُمْ"] } ],
+      "options": ["يُسَاعِدُهُمْ", "يُسَاعِدُهُنَّ", "يُسَاعِدُهُمَا"],
+      "explain": "{ar|هُمْ} : plusieurs hommes. {ar|هُنَّ} : plusieurs femmes ; {ar|هُمَا} : deux personnes."
+    },
+    {
+      "id": "medine-t2.r01.revue-9#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd nous a frappés.",
+      "answers": ["ضَرَبَنَا زَيْدٌ.", "زَيْدٌ ضَرَبَنَا."],
+      "explain": "{ar|نَا} : « nous », collé directement au verbe."
+    },
+    {
+      "id": "medine-t2.r01.revue-9#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd les aime (elles).",
+      "answers": ["يُحِبُّهُنَّ زَيْدٌ.", "زَيْدٌ يُحِبُّهُنَّ."],
+      "explain": "{ar|هُنَّ} : « elles »."
+    }
+  ]
+}

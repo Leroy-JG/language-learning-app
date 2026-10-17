@@ -1,0 +1,121 @@
+{
+  "id": "medine-t2.r01.revue-12",
+  "type": "review",
+  "title": "De 20 à 99",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-12#1",
+      "type": "tip",
+      "title": "L'unité, puis la dizaine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De 21 à 99, on dit d'abord l'unité, puis {ar|وَ}, puis la dizaine. Les dizaines ({ar|عِشْرُونَ}, {ar|ثَلَاثُونَ}…) se forment comme le pluriel masculin sain."
+        },
+        {
+          "type": "table",
+          "header": ["Morceau", "Règle", "Exemple"],
+          "rows": [
+            [
+              "la dizaine",
+              "ne change pas avec le genre ; sa fin varie avec le cas : {ar|◌ُونَ} au nominatif, {ar|◌ِينَ} à l'accusatif et au génitif",
+              "{ar|عِشْرُونَ} / {ar|عِشْرِينَ}"
+            ],
+            [
+              "l'unité",
+              "de genre contraire au dénombré (sauf 1 et 2, qui s'accordent) ; elle varie aussi avec le cas",
+              "{ar|ثَلَاثَةٌ وَعِشْرُونَ كِتَابًا} / {ar|ثَلَاثٌ وَعِشْرُونَ أُخْتًا}"
+            ],
+            ["le dénombré", "au singulier, indéfini, à l'accusatif", "{ar|كِتَابًا} / {ar|أُخْتًا}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-12#2",
+      "type": "tip",
+      "title": "Les trois cas du nombre",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Cas du nombre", "Exemple", "Sens"],
+          "rows": [
+            ["nominatif", "{ar|لِي ثَلَاثَةٌ وَعِشْرُونَ كِتَابًا}", "J'ai vingt-trois livres."],
+            ["accusatif", "{ar|اِشْتَرَيْتُ ثَلَاثَةً وَعِشْرِينَ كِتَابًا}", "J'ai acheté vingt-trois livres."],
+            ["génitif", "{ar|فِي ثَلَاثٍ وَعِشْرِينَ مَدْرَسَةً}", "Dans vingt-trois écoles."]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Le dénombré, lui, reste toujours au singulier et à l'accusatif, même après une préposition : c'est le nombre, et non le dénombré, que la préposition met au génitif."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-12#3",
+      "type": "sort",
+      "categories": [ { "fr": "avec un nom masculin" }, { "fr": "avec un nom féminin" } ],
+      "cards": [
+        { "ar": "خَمْسَةٌ وَأَرْبَعُونَ", "category": 0 },
+        { "ar": "خَمْسٌ وَأَرْبَعُونَ", "category": 1 },
+        { "ar": "وَاحِدٌ وَثَلَاثُونَ", "category": 0 },
+        { "ar": "وَاحِدَةٌ وَثَلَاثُونَ", "category": 1 },
+        { "ar": "سَبْعَةٌ وَخَمْسُونَ", "category": 0 },
+        { "ar": "سَبْعٌ وَخَمْسُونَ", "category": 1 }
+      ],
+      "instruction": "Avec quel nom compté se dit ce nombre ?",
+      "explain": "Pour 1 et 2, l'unité s'accorde ({ar|وَاحِدٌ} / {ar|وَاحِدَةٌ}). De 3 à 9, elle contredit : avec {ar|ة}, un nom masculin ; sans {ar|ة}, un nom féminin."
+    },
+    {
+      "id": "medine-t2.r01.revue-12#4",
+      "type": "fill_gap",
+      "sentence": "فِي الْمَكْتَبَةِ {0} كِتَابًا.",
+      "fr": "Il y a trente-quatre livres dans la bibliothèque.",
+      "gaps": [ { "answers": ["أَرْبَعَةٌ وَثَلَاثُونَ"] } ],
+      "options": ["أَرْبَعَةٌ وَثَلَاثُونَ", "أَرْبَعٌ وَثَلَاثُونَ", "خَمْسَةٌ وَثَلَاثُونَ"],
+      "explain": "{ar|كِتَابٌ} est masculin : {ar|أَرْبَعَةٌ}, avec {ar|ة}. Le nombre est au nominatif : {ar|◌ُونَ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-12#5",
+      "type": "question",
+      "prompt": { "fr": "Après {ar|فِي}, comment se termine la dizaine de {ar|ثَلَاثَةٌ وَعِشْرُونَ} ?" },
+      "choices": [ { "ar": "عِشْرِينَ" }, { "ar": "عِشْرُونَ" } ],
+      "answer": 0,
+      "explain": "Après une préposition, le nombre est au génitif : la dizaine se termine par {ar|◌ِينَ} : {ar|فِي ثَلَاثٍ وَعِشْرِينَ مَدْرَسَةً}."
+    },
+    {
+      "id": "medine-t2.r01.revue-12#6",
+      "type": "spot",
+      "instruction": "Touche le dénombré.",
+      "words": ["لِي", "خَمْسٌ", "وَثَلَاثُونَ", "حَقِيبَةً."],
+      "answers": [3],
+      "fr": "J'ai trente-cinq sacs.",
+      "explain": "Le dénombré est {ar|حَقِيبَةً} : singulier, accusatif. {ar|خَمْسٌ وَثَلَاثُونَ} forment le nombre."
+    },
+    {
+      "id": "medine-t2.r01.revue-12#7",
+      "type": "true_false",
+      "statement": { "fr": "Pour vingt et un et vingt-deux, l'unité s'accorde avec le dénombré." },
+      "answer": true,
+      "explain": "Oui : un et deux s'accordent toujours ({ar|وَاحِدٌ} / {ar|وَاحِدَةٌ}, {ar|اِثْنَانِ} / {ar|اِثْنَتَانِ}). De 3 à 9, l'unité contredit le dénombré."
+    },
+    {
+      "id": "medine-t2.r01.revue-12#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "vingt-cinq sœurs",
+      "answers": ["خَمْسٌ وَعِشْرُونَ أُخْتًا", "خَمْسًا وَعِشْرِينَ أُخْتًا", "خَمْسٍ وَعِشْرِينَ أُخْتًا"],
+      "explain": "{ar|أُخْتٌ} est féminin : {ar|خَمْسٌ}, sans {ar|ة}. La dizaine ne change pas de genre."
+    },
+    {
+      "id": "medine-t2.r01.revue-12#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai trente et un livres.",
+      "answers": ["لِي وَاحِدٌ وَثَلَاثُونَ كِتَابًا.", "عِنْدِي وَاحِدٌ وَثَلَاثُونَ كِتَابًا."],
+      "explain": "« Un » s'accorde avec le dénombré : {ar|كِتَابٌ} est masculin, donc {ar|وَاحِدٌ}."
+    }
+  ]
+}

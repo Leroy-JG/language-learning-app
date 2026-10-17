@@ -1,0 +1,162 @@
+{
+  "id": "medine-t2.r01.revue-7",
+  "type": "review",
+  "title": "{ar|كَانَ} et {ar|لَيْسَ}",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-7#1",
+      "type": "tip",
+      "title": "Même sujet, autre prédicat",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|كَانَ} et {ar|لَيْسَ} sont aussi des {ar|النَّوَاسِخُ}, mais ils font l'inverse de {ar|إِنَّ} : le sujet reste au nominatif ({ar|اِسْمُ كَانَ}, {ar|اِسْمُ لَيْسَ}) et le prédicat passe à l'accusatif ({ar|خَبَرُ كَانَ}, {ar|خَبَرُ لَيْسَ})."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens", "Le sujet", "Le prédicat"],
+          "rows": [
+            ["{ar|زَيْدٌ طَالِبٌ}", "Zayd est étudiant", "nominatif", "nominatif"],
+            ["{ar|كَانَ زَيْدٌ طَالِبًا}", "Zayd était étudiant", "nominatif", "accusatif"],
+            ["{ar|لَيْسَ زَيْدٌ طَالِبًا}", "Zayd n'est pas étudiant", "nominatif", "accusatif"]
+          ]
+        },
+        { "type": "note", "text": "{ar|كَانَ} met la phrase au passé ; {ar|لَيْسَ} la nie." }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-7#2",
+      "type": "tip",
+      "title": "Deux familles, deux effets",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Famille", "Le sujet est…", "Le prédicat est…", "Formule classique"],
+          "rows": [
+            [
+              "{ar|إِنَّ} et ses sœurs",
+              "à l'accusatif",
+              "au nominatif",
+              "{ar|تَنْصِبُ الِاسْمَ وَتَرْفَعُ الْخَبَرَ}"
+            ],
+            [
+              "{ar|كَانَ} et ses sœurs",
+              "au nominatif",
+              "à l'accusatif",
+              "{ar|تَرْفَعُ الِاسْمَ وَتَنْصِبُ الْخَبَرَ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Les deux familles font le contraire l'une de l'autre : ce que l'une met à l'accusatif, l'autre le laisse au nominatif."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-7#3",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif ({ar|كَانَ}, {ar|لَيْسَ})" }, { "fr": "accusatif ({ar|إِنَّ} et ses sœurs)" } ],
+      "cards": [
+        { "ar": "كَانَ زَيْدٌ طَالِبًا", "category": 0 },
+        { "ar": "لَيْسَ الْمُدِيرُ جَالِسًا", "category": 0 },
+        { "ar": "إِنَّ زَيْدًا طَالِبٌ", "category": 1 },
+        { "ar": "لَعَلَّ الطَّالِبَ نَاجِحٌ", "category": 1 },
+        { "ar": "كَانَ الْمُدِيرُ جَالِسًا", "category": 0 },
+        { "ar": "كَأَنَّ زَيْدًا عَالِمٌ", "category": 1 }
+      ],
+      "instruction": "Le sujet de la phrase est-il au nominatif ou à l'accusatif ?",
+      "explain": "Avec {ar|كَانَ} et {ar|لَيْسَ}, le sujet reste au nominatif et le prédicat passe à l'accusatif. Avec {ar|إِنَّ} et ses sœurs, c'est l'inverse."
+    },
+    {
+      "id": "medine-t2.r01.revue-7#4",
+      "type": "spot",
+      "instruction": "Touche le prédicat de {ar|لَيْسَ} (à l'accusatif).",
+      "words": ["لَيْسَ", "زَيْدٌ", "جَالِسًا"],
+      "answers": [2],
+      "fr": "Zayd n'est pas assis.",
+      "explain": "{ar|جَالِسًا} est le prédicat : il prend la fatha avec son tanwin. {ar|زَيْدٌ} est le sujet, au nominatif."
+    },
+    {
+      "id": "medine-t2.r01.revue-7#5",
+      "type": "tip",
+      "title": "{ar|لَيْسَ} et la particule {ar|بِ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le prédicat de {ar|لَيْسَ} est souvent précédé de {ar|بِ}. Il est alors au génitif ({ar|مَجْرُورٌ}), et le sens ne change pas."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "لَيْسَ زَيْدٌ جَالِسًا", "fr": "Zayd n'est pas assis" },
+              "to": { "ar": "لَيْسَ زَيْدٌ بِجَالِسٍ", "fr": "Zayd n'est pas assis (avec {ar|بِ})" },
+              "label": "le prédicat : accusatif → génitif après {ar|بِ}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-7#6",
+      "type": "question",
+      "prompt": { "fr": "Sans la particule {ar|بِ}, le prédicat de {ar|لَيْسَ} est…" },
+      "choices": [
+        { "fr": "à l'accusatif : {ar|جَالِسًا}" },
+        { "fr": "au nominatif : {ar|جَالِسٌ}" },
+        { "fr": "au génitif : {ar|جَالِسٍ}" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|لَيْسَ}, le prédicat est à l'accusatif : {ar|لَيْسَ زَيْدٌ جَالِسًا}. Avec {ar|بِ}, il est au génitif : {ar|بِجَالِسٍ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-7#7",
+      "type": "fill_gap",
+      "sentence": "لَيْسَ زَيْدٌ {0}.",
+      "fr": "Zayd n'est pas étudiant.",
+      "gaps": [ { "answers": ["طَالِبًا", "بِطَالِبٍ"] } ],
+      "options": ["طَالِبًا", "بِطَالِبٍ", "طَالِبٌ"],
+      "explain": "Les deux premiers sont justes : {ar|طَالِبًا} (accusatif) ou {ar|بِطَالِبٍ} (avec {ar|بِ}, au génitif). {ar|طَالِبٌ} resterait au nominatif : faux."
+    },
+    {
+      "id": "medine-t2.r01.revue-7#8",
+      "type": "order",
+      "fr": "Zayd était étudiant.",
+      "answers": [["كَانَ", "زَيْدٌ", "طَالِبًا"], ["زَيْدٌ", "كَانَ", "طَالِبًا"]],
+      "punctuation": ".",
+      "distractors": ["لَيْسَ"],
+      "explain": "{ar|كَانَ} : le passé ; {ar|لَيْسَ} nierait la phrase. Le prédicat {ar|طَالِبًا} est à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r01.revue-7#9",
+      "type": "question",
+      "prompt": { "fr": "Comment le professeur analyse-t-il {ar|زَيْدٌ} dans {ar|لَيْسَ زَيْدٌ طَالِبًا} ?" },
+      "choices": [
+        { "ar": "اِسْمُ لَيْسَ مَرْفُوعٌ" },
+        { "ar": "خَبَرُ لَيْسَ مَنْصُوبٌ" },
+        { "ar": "اِسْمُ لَيْسَ مَنْصُوبٌ" }
+      ],
+      "answer": 0,
+      "explain": "{ar|زَيْدٌ} est le nom de {ar|لَيْسَ} : il reste au nominatif. C'est {ar|طَالِبًا} qui est {ar|خَبَرُ لَيْسَ مَنْصُوبٌ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-7#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le directeur était assis.",
+      "answers": ["كَانَ الْمُدِيرُ جَالِسًا.", "الْمُدِيرُ كَانَ جَالِسًا."],
+      "explain": "{ar|كَانَ} + le sujet au nominatif + le prédicat à l'accusatif : {ar|جَالِسًا}."
+    },
+    {
+      "id": "medine-t2.r01.revue-7#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd n'est pas assis.",
+      "answers": ["لَيْسَ زَيْدٌ جَالِسًا.", "لَيْسَ زَيْدٌ بِجَالِسٍ."],
+      "explain": "Deux formes justes : {ar|جَالِسًا} (accusatif) ou {ar|بِجَالِسٍ} (avec {ar|بِ})."
+    }
+  ]
+}

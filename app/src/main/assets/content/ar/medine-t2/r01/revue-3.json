@@ -1,0 +1,117 @@
+{
+  "id": "medine-t2.r01.revue-3",
+  "type": "review",
+  "title": "Les cinq verbes",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-3#1",
+      "type": "tip",
+      "title": "Cinq formes, une marque : le {ar|ن}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les cinq verbes sont les cinq formes du présent dont le sujet est le {ar|ي} de « toi » (une femme), l'{ar|ا} des deux ou le {ar|و} du groupe. Leur marque du nominatif est le maintien du {ar|ن} final ({ar|ثُبُوتُ النُّونِ}) ; après {ar|لَنْ} ou {ar|لَمْ}, ce {ar|ن} tombe ({ar|حَذْفُ النُّونِ})."
+        },
+        {
+          "type": "table",
+          "header": ["Sujet", "Nominatif", "Après {ar|لَنْ}", "Après {ar|لَمْ}"],
+          "rows": [
+            ["{ar|أَنْتِ} (une femme)", "{ar|تَكْتُبِينَ}", "{ar|لَنْ تَكْتُبِي}", "{ar|لَمْ تَكْتُبِي}"],
+            ["{ar|أَنْتُمَا} (vous deux)", "{ar|تَكْتُبَانِ}", "{ar|لَنْ تَكْتُبَا}", "{ar|لَمْ تَكْتُبَا}"],
+            ["{ar|هُمَا} (eux deux)", "{ar|يَكْتُبَانِ}", "{ar|لَنْ يَكْتُبَا}", "{ar|لَمْ يَكْتُبَا}"],
+            ["{ar|أَنْتُمْ} (vous)", "{ar|تَكْتُبُونَ}", "{ar|لَنْ تَكْتُبُوا}", "{ar|لَمْ تَكْتُبُوا}"],
+            ["{ar|هُمْ} (eux)", "{ar|يَكْتُبُونَ}", "{ar|لَنْ يَكْتُبُوا}", "{ar|لَمْ يَكْتُبُوا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Pour deux femmes, « elles deux », on dit {ar|هُمَا تَكْتُبَانِ} : c'est la même forme que {ar|أَنْتُمَا تَكْتُبَانِ}."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "{ar|هُنَّ يَكْتُبْنَ} et {ar|أَنْتُنَّ تَكْتُبْنَ} ne sont pas dans ce tableau : leur {ar|نَ} est un pronom, qui ne tombe jamais."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-3#2",
+      "type": "sort",
+      "categories": [ { "fr": "un des cinq verbes" }, { "fr": "pas un des cinq verbes" } ],
+      "cards": [
+        { "ar": "يَجْلِسَانِ", "category": 0 },
+        { "ar": "تَسْمَعِينَ", "category": 0 },
+        { "ar": "يَفْتَحُونَ", "category": 0 },
+        { "ar": "يَجْلِسْنَ", "category": 1 },
+        { "ar": "تَفْتَحُ", "category": 1 },
+        { "ar": "أَسْمَعُ", "category": 1 }
+      ],
+      "instruction": "Est-ce l'un des cinq verbes ?",
+      "explain": "Les cinq verbes se terminent par {ar|◌َانِ}, {ar|◌ِينَ} ou {ar|◌ُونَ}. {ar|يَجْلِسْنَ} a le {ar|نَ} des femmes ; {ar|تَفْتَحُ} et {ar|أَسْمَعُ} ont un sujet caché, sans pronom apparent."
+    },
+    {
+      "id": "medine-t2.r01.revue-3#3",
+      "type": "fill_gap",
+      "sentence": "الْوَلَدَانِ لَمْ {0} الْبَابَ.",
+      "fr": "Les deux garçons n'ont pas ouvert la porte.",
+      "gaps": [ { "answers": ["يَفْتَحَا"] } ],
+      "options": ["يَفْتَحَا", "يَفْتَحَانِ", "يَفْتَحُوا"],
+      "explain": "Le sujet est un duel : {ar|يَفْتَحَانِ}. Après {ar|لَمْ}, le {ar|ن} tombe : {ar|لَمْ يَفْتَحَا}."
+    },
+    {
+      "id": "medine-t2.r01.revue-3#4",
+      "type": "spot",
+      "instruction": "Touche le verbe dont le {ar|ن} est tombé.",
+      "words": ["أَنْتُمْ", "لَنْ", "تَجْلِسُوا", "هُنَا."],
+      "answers": [2],
+      "fr": "Vous ne vous assiérez pas ici.",
+      "explain": "{ar|تَجْلِسُونَ} devient {ar|تَجْلِسُوا} après {ar|لَنْ} : le {ar|ن} tombe."
+    },
+    {
+      "id": "medine-t2.r01.revue-3#5",
+      "type": "question",
+      "prompt": { "fr": "Comment le professeur analyse-t-il {ar|تَكْتُبُوا} dans {ar|لَنْ تَكْتُبُوا} ?" },
+      "choices": [
+        { "ar": "فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ حَذْفُ النُّونِ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ الْفَتْحَةُ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَجْزُومٌ وَعَلَامَةُ جَزْمِهِ حَذْفُ النُّونِ" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|لَنْ}, le verbe est à l'accusatif ; la marque des cinq verbes est la chute du {ar|ن}. Le jussif ({ar|لَمْ}) a la même marque, mais ce n'est pas l'état ici."
+    },
+    {
+      "id": "medine-t2.r01.revue-3#6",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|لَمْ}, le {ar|نَ} de {ar|يَكْتُبْنَ} tombe comme celui de {ar|يَكْتُبُونَ}." },
+      "answer": false,
+      "explain": "Faux : le {ar|نَ} de {ar|يَكْتُبْنَ} est le pronom « elles ». On dit {ar|لَمْ يَكْتُبْنَ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-3#7",
+      "type": "order",
+      "fr": "Eux deux n'ont pas écrit la leçon.",
+      "answers": [["هُمَا", "لَمْ", "يَكْتُبَا", "الدَّرْسَ"]],
+      "punctuation": ".",
+      "distractors": ["لَنْ"],
+      "explain": "{ar|لَمْ} + {ar|يَكْتُبَانِ} sans son {ar|ن} : {ar|لَمْ يَكْتُبَا}. {ar|لَنْ} parlerait de l'avenir."
+    },
+    {
+      "id": "medine-t2.r01.revue-3#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Toi (une femme), tu ne t'assiéras pas.",
+      "answers": ["لَنْ تَجْلِسِي.", "أَنْتِ لَنْ تَجْلِسِي."],
+      "explain": "{ar|لَنْ} + {ar|تَجْلِسِينَ} sans son {ar|ن} : {ar|لَنْ تَجْلِسِي}."
+    },
+    {
+      "id": "medine-t2.r01.revue-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ils n'ont pas ouvert la porte.",
+      "answers": ["لَمْ يَفْتَحُوا الْبَابَ."],
+      "explain": "{ar|لَمْ} + {ar|يَفْتَحُونَ} sans son {ar|ن} : {ar|لَمْ يَفْتَحُوا}. On écrit un alif qu'on ne prononce pas après le wāw."
+    }
+  ]
+}

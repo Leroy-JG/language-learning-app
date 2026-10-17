@@ -1,0 +1,123 @@
+{
+  "id": "medine-t2.r01.grammar-2",
+  "type": "grammar",
+  "title": "Les quatre familles de nombres",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.r01.grammar-2#1",
+      "type": "tip",
+      "title": "Le plan des nombres",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur range les nombres en quatre familles. Elles portent trois noms, car cent et mille sont annexés comme les nombres de 3 à 10."
+        },
+        {
+          "type": "table",
+          "header": ["Nombres", "Nom de la famille", "Exemple", "À retenir"],
+          "rows": [
+            ["de 3 à 10", "{ar|الْعَدَدُ الْمُضَافُ}", "{ar|ثَلَاثَةُ كُتُبٍ}", "annexé à un pluriel"],
+            ["de 11 à 19", "{ar|الْعَدَدُ الْمُرَكَّبُ}", "{ar|ثَلَاثَةَ عَشَرَ كِتَابًا}", "en deux morceaux"],
+            [
+              "de 20 à 99",
+              "{ar|الْعَدَدُ الْمَعْطُوفُ}",
+              "{ar|ثَلَاثَةٌ وَعِشْرُونَ كِتَابًا}",
+              "de 21 à 99, l'unité et la dizaine sont reliées par {ar|وَ}"
+            ],
+            ["100 et 1000", "{ar|الْعَدَدُ الْمُضَافُ}", "{ar|مِائَةُ كِتَابٍ}", "annexé à un singulier"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le professeur précise : {ar|الْعَدَدُ الْمُضَافُ إِلَى جَمْعٍ} (de 3 à 10, annexé à un pluriel) et {ar|الْعَدَدُ الْمُضَافُ إِلَى مُفْرَدٍ} (cent et mille, annexé à un singulier)."
+        }
+      ]
+    },
+    { "id": "medine-t2.r01.grammar-2#2", "type": "present", "item": "w:adad-mudaf" },
+    { "id": "medine-t2.r01.grammar-2#3", "type": "present", "item": "w:adad-murakkab" },
+    {
+      "id": "medine-t2.r01.grammar-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:adad-mudaf",
+      "distractors": ["w:adad-murakkab", "w:adad-tartibi"],
+      "explain": "{ar|الْعَدَدُ الْمُضَافُ} : le nombre annexé. {ar|الْعَدَدُ الْمُرَكَّبُ} : le nombre composé ; {ar|الْعَدَدُ التَّرْتِيبِيُّ} : le nombre ordinal."
+    },
+    { "id": "medine-t2.r01.grammar-2#5", "type": "present", "item": "w:adad-matuf" },
+    {
+      "id": "medine-t2.r01.grammar-2#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:adad-matuf",
+      "distractors": ["w:adad-murakkab", "w:adad-mudaf"],
+      "explain": "{ar|الْعَدَدُ الْمَعْطُوفُ} : le nombre coordonné (de 20 à 99). {ar|الْعَدَدُ الْمُرَكَّبُ} : le nombre composé (de 11 à 19)."
+    },
+    {
+      "id": "medine-t2.r01.grammar-2#7",
+      "type": "sort",
+      "categories": [
+        { "fr": "annexé ({ar|الْمُضَافُ})" },
+        { "fr": "composé ({ar|الْمُرَكَّبُ})" },
+        { "fr": "coordonné ({ar|الْمَعْطُوفُ})" }
+      ],
+      "cards": [
+        { "ar": "ثَلَاثَةُ كُتُبٍ", "category": 0 },
+        { "ar": "مِائَةُ كِتَابٍ", "category": 0 },
+        { "ar": "سَبْعَةَ عَشَرَ كِتَابًا", "category": 1 },
+        { "ar": "أَحَدَ عَشَرَ قَلَمًا", "category": 1 },
+        { "ar": "خَمْسَةٌ وَثَلَاثُونَ كِتَابًا", "category": 2 },
+        { "ar": "وَاحِدٌ وَعِشْرُونَ قَلَمًا", "category": 2 }
+      ],
+      "instruction": "De quelle famille est ce nombre ?",
+      "explain": "De 3 à 10, et avec cent et mille, le nombre est annexé à son dénombré. De 11 à 19, il se compose de deux morceaux. De 21 à 99, l'unité et la dizaine sont coordonnées par {ar|وَ}."
+    },
+    {
+      "id": "medine-t2.r01.grammar-2#8",
+      "type": "question",
+      "prompt": { "fr": "Comment s'appelle le nombre dans {ar|ثَلَاثَةَ عَشَرَ كِتَابًا} ?" },
+      "choices": [ { "ar": "الْعَدَدُ الْمُرَكَّبُ" }, { "ar": "الْعَدَدُ الْمُضَافُ" }, { "ar": "الْعَدَدُ الْمَعْطُوفُ" } ],
+      "answer": 0,
+      "explain": "Treize se dit en deux morceaux, « trois » puis « dix » : c'est le nombre composé ({ar|الْمُرَكَّبُ})."
+    },
+    {
+      "id": "medine-t2.r01.grammar-2#9",
+      "type": "spot",
+      "instruction": "Touche les deux mots du nombre coordonné.",
+      "words": ["لِي", "خَمْسَةٌ", "وَأَرْبَعُونَ", "كِتَابًا."],
+      "answers": [1, 2],
+      "fr": "J'ai quarante-cinq livres.",
+      "explain": "{ar|خَمْسَةٌ وَأَرْبَعُونَ} : l'unité et la dizaine, reliées par {ar|وَ}. {ar|كِتَابًا} est le dénombré, pas une partie du nombre."
+    },
+    {
+      "id": "medine-t2.r01.grammar-2#10",
+      "type": "true_false",
+      "statement": { "fr": "Cent ({ar|مِائَةٌ}) fait partie des nombres coordonnés." },
+      "answer": false,
+      "explain": "Faux : {ar|مِائَةٌ} est annexé à son dénombré, comme de 3 à 10 : {ar|مِائَةُ كِتَابٍ}."
+    },
+    {
+      "id": "medine-t2.r01.grammar-2#11",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:adad-mudaf", "w:adad-murakkab", "w:adad-matuf"]
+    },
+    {
+      "id": "medine-t2.r01.grammar-2#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "treize livres",
+      "answers": ["ثَلَاثَةَ عَشَرَ كِتَابًا"],
+      "explain": "Un nombre composé : deux morceaux invariables, puis le dénombré au singulier, à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r01.grammar-2#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "vingt-trois livres",
+      "answers": ["ثَلَاثَةٌ وَعِشْرُونَ كِتَابًا", "ثَلَاثَةً وَعِشْرِينَ كِتَابًا"],
+      "explain": "Un nombre coordonné : l'unité, {ar|وَ}, la dizaine, puis le dénombré au singulier, à l'accusatif. Les deux parties se déclinent selon le rôle du nombre."
+    }
+  ]
+}

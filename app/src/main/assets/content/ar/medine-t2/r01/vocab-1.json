@@ -1,0 +1,70 @@
+{
+  "id": "medine-t2.r01.vocab-1",
+  "type": "vocabulary",
+  "title": "Aider",
+  "icon": "hand",
+  "screens": [
+    { "id": "medine-t2.r01.vocab-1#1", "type": "present", "item": "w:saada" },
+    {
+      "id": "medine-t2.r01.vocab-1#2",
+      "type": "tip",
+      "title": "Les quatre formes de ce verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur emploie ce verbe dans son exercice sur les pronoms compléments. Voici ses quatre formes, comme dans les tableaux de verbes : tu connais déjà ces deux formes pour les autres verbes ; l'impératif et le nom d'action ne sont qu'un aperçu."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [["aider", "{ar|سَاعَدَ}", "{ar|يُسَاعِدُ}", "{ar|سَاعِدْ}", "{ar|مُسَاعَدَةً}"]]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Comme {ar|ضَرَبَ}, il demande un complément d'objet direct : {ar|سَاعَدَ زَيْدٌ يَاسِرًا} (Zayd a aidé Yāsir). Le {ar|ي} du présent a une damma : {ar|يُسَاعِدُ}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Ce verbe a la forme {ar|فَاعَلَ} (un {ar|ا} après la première lettre). Les verbes de cette forme font tous {ar|يُفَاعِلُ} au présent : {ar|شَارَكَ} (participer) → {ar|يُشَارِكُ}, {ar|حَاوَلَ} (essayer) → {ar|يُحَاوِلُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:saada",
+      "distractors": ["w:daraba", "w:fataha"],
+      "explain": "{ar|سَاعَدَ} : il a aidé. {ar|ضَرَبَ} : il a frappé ; {ar|فَتَحَ} : il a ouvert."
+    },
+    {
+      "id": "medine-t2.r01.vocab-1#4",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ يَاسِرًا.",
+      "fr": "Zayd a aidé Yāsir.",
+      "gaps": [ { "answers": ["سَاعَدَ"] } ],
+      "options": ["سَاعَدَ", "ضَرَبَ", "شَكَرَ"],
+      "explain": "« Aider » : {ar|سَاعَدَ}. {ar|ضَرَبَ} (frapper) et {ar|شَكَرَ} (remercier) ne conviennent pas au sens de la phrase."
+    },
+    { "id": "medine-t2.r01.vocab-1#5", "type": "build", "item": "w:saada", "extra": ["ص"] },
+    {
+      "id": "medine-t2.r01.vocab-1#6",
+      "type": "order",
+      "fr": "Zayd aide Yāsir.",
+      "answers": [["يُسَاعِدُ", "زَيْدٌ", "يَاسِرًا"], ["زَيْدٌ", "يُسَاعِدُ", "يَاسِرًا"]],
+      "punctuation": ".",
+      "explain": "Le verbe peut venir avant ou après son sujet {ar|زَيْدٌ}. Le complément {ar|يَاسِرًا} est à l'accusatif."
+    },
+    { "id": "medine-t2.r01.vocab-1#7", "type": "typing", "ask": "fr", "item": "w:saada" },
+    {
+      "id": "medine-t2.r01.vocab-1#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd a aidé Yāsir.",
+      "answers": ["سَاعَدَ زَيْدٌ يَاسِرًا.", "زَيْدٌ سَاعَدَ يَاسِرًا."],
+      "explain": "{ar|سَاعَدَ} : le passé ; {ar|يَاسِرًا} : le complément d'objet."
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "medine-t2.r01.revue-13",
+  "type": "review",
+  "title": "Tous les nombres ensemble",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-13#1",
+      "type": "tip",
+      "title": "Le résumé du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les nombres de **3 à 9** contredisent toujours le dénombré en genre, quelle que soit leur famille. Les nombres **1 et 2** s'accordent toujours avec lui. Voici ce que devient le dénombré dans chaque famille."
+        },
+        {
+          "type": "table",
+          "header": ["Famille", "Avec « deux »", "Avec « trois »", "Le dénombré"],
+          "rows": [
+            ["de 1 à 10", "{ar|كِتَابَانِ اِثْنَانِ}", "{ar|ثَلَاثَةُ كُتُبٍ}", "pluriel, génitif (de 3 à 10)"],
+            ["de 11 à 19", "{ar|اِثْنَا عَشَرَ كِتَابًا}", "{ar|ثَلَاثَةَ عَشَرَ كِتَابًا}", "singulier, accusatif"],
+            [
+              "de 20 à 99",
+              "{ar|اِثْنَانِ وَعِشْرُونَ كِتَابًا}",
+              "{ar|ثَلَاثَةٌ وَعِشْرُونَ كِتَابًا}",
+              "singulier, accusatif"
+            ],
+            ["100 et 1000", "—", "{ar|مِائَةُ كِتَابٍ}", "singulier, génitif"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-13#2",
+      "type": "sort",
+      "categories": [
+        { "fr": "au pluriel, au génitif" },
+        { "fr": "au singulier, à l'accusatif" },
+        { "fr": "au singulier, au génitif" }
+      ],
+      "cards": [
+        { "ar": "ثَلَاثَةُ كُتُبٍ", "category": 0 },
+        { "ar": "خَمْسُ سَيَّارَاتٍ", "category": 0 },
+        { "ar": "أَحَدَ عَشَرَ كِتَابًا", "category": 1 },
+        { "ar": "خَمْسَةٌ وَعِشْرُونَ قَلَمًا", "category": 1 },
+        { "ar": "مِائَةُ كِتَابٍ", "category": 2 },
+        { "ar": "أَلْفُ قَلَمٍ", "category": 2 }
+      ],
+      "instruction": "Le dénombré est…",
+      "explain": "De 3 à 10 : un pluriel au génitif. De 11 à 99 : un singulier à l'accusatif. Cent et mille : un singulier au génitif."
+    },
+    {
+      "id": "medine-t2.r01.revue-13#3",
+      "type": "fill_gap",
+      "sentence": "عِنْدِي {0} كِتَابًا.",
+      "fr": "J'ai quinze livres.",
+      "gaps": [ { "answers": ["خَمْسَةَ عَشَرَ"] } ],
+      "options": ["خَمْسَةَ عَشَرَ", "خَمْسَ عَشْرَةَ", "خَمْسَةٌ وَعِشْرُونَ"],
+      "explain": "{ar|كِتَابٌ} est masculin, et quinze est un nombre de 11 à 19 : {ar|خَمْسَةَ عَشَرَ}. {ar|خَمْسَةٌ وَعِشْرُونَ} voudrait dire vingt-cinq."
+    },
+    {
+      "id": "medine-t2.r01.revue-13#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ce téléviseur coûte 1 000 riyals.",
+      "answers": ["هٰذَا التِّلْفَازُ بِأَلْفِ رِيَالٍ.", "ثَمَنُ هٰذَا التِّلْفَازِ أَلْفُ رِيَالٍ."],
+      "explain": "{ar|بِ} + {ar|أَلْفِ} (au génitif, premier terme d'une annexion) + {ar|رِيَالٍ} (au singulier, au génitif)."
+    },
+    {
+      "id": "medine-t2.r01.revue-13#5",
+      "type": "fill_gap",
+      "sentence": "فِي هٰذِهِ الْمَدِينَةِ {0} مَسْجِدًا.",
+      "fr": "Dans cette ville, il y a quatorze mosquées.",
+      "gaps": [ { "answers": ["أَرْبَعَةَ عَشَرَ"] } ],
+      "options": ["أَرْبَعَةَ عَشَرَ", "أَرْبَعَ عَشْرَةَ", "أَرْبَعَةٌ وَعِشْرُونَ"],
+      "explain": "{ar|مَسْجِدٌ} est masculin : {ar|أَرْبَعَةَ عَشَرَ}. {ar|مَدِينَةٌ} est féminin, mais ce n'est pas le nom compté."
+    },
+    {
+      "id": "medine-t2.r01.revue-13#6",
+      "type": "order",
+      "fr": "Il y a douze mois dans l'année.",
+      "answers": [["فِي", "السَّنَةِ", "اِثْنَا", "عَشَرَ", "شَهْرًا"], ["اِثْنَا", "عَشَرَ", "شَهْرًا", "فِي", "السَّنَةِ"]],
+      "punctuation": ".",
+      "explain": "Le nombre est le sujet, placé après {ar|فِي السَّنَةِ} : nominatif, {ar|اِثْنَا}. {ar|شَهْرٌ} est masculin : {ar|عَشَرَ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-13#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "بِكَمْ هٰذِهِ الْحَقِيبَةُ؟",
+      "answers": [
+        "هِيَ بِمِائَةِ رِيَالٍ.",
+        "هِيَ بِمِئَةِ رِيَالٍ.",
+        "بِمِائَةِ رِيَالٍ.",
+        "بِمِئَةِ رِيَالٍ.",
+        "هٰذِهِ الْحَقِيبَةُ بِمِائَةِ رِيَالٍ.",
+        "هٰذِهِ الْحَقِيبَةُ بِمِئَةِ رِيَالٍ."
+      ],
+      "fr": "Combien coûte ce sac ? Il coûte 100 riyals.",
+      "instruction": "Réponds : le sac coûte 100 riyals.",
+      "explain": "{ar|بِ} + {ar|مِائَةِ} + {ar|رِيَالٍ} : le nombre est au génitif après {ar|بِ}, le dénombré reste au singulier."
+    },
+    {
+      "id": "medine-t2.r01.revue-13#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|فِي ثَلَاثٍ وَعِشْرِينَ مَدْرَسَةً}, pourquoi {ar|مَدْرَسَةً} est-il à l'accusatif ?" },
+      "choices": [
+        { "fr": "C'est la précision ({ar|التَّمْيِيزُ}) du nombre" },
+        { "fr": "Parce qu'il suit la préposition {ar|فِي}" },
+        { "fr": "Parce que c'est un pluriel" }
+      ],
+      "answer": 0,
+      "explain": "Après un nombre de 11 à 99, le dénombré est un singulier à l'accusatif. La préposition {ar|فِي} agit sur le nombre ({ar|ثَلَاثٍ وَعِشْرِينَ}), pas sur la précision."
+    },
+    {
+      "id": "medine-t2.r01.revue-13#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le prix de ce livre est de 17 riyals.",
+      "answers": ["ثَمَنُ هٰذَا الْكِتَابِ سَبْعَةَ عَشَرَ رِيَالًا."],
+      "explain": "{ar|رِيَالٌ} est masculin : {ar|سَبْعَةَ عَشَرَ}. Le dénombré est au singulier, à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r01.revue-13#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il y a vingt leçons dans ce livre.",
+      "answers": ["فِي هٰذَا الْكِتَابِ عِشْرُونَ دَرْسًا.", "عِشْرُونَ دَرْسًا فِي هٰذَا الْكِتَابِ."],
+      "explain": "La dizaine {ar|عِشْرُونَ} est le sujet, au nominatif ; le dénombré {ar|دَرْسًا} est au singulier, à l'accusatif."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "medine-t2.r01",
+  "number": 13,
+  "title": { "ar": "مُرَاجَعَةٌ", "fr": "Revoir le verbe, les abrogeants, le complément et les nombres" },
+  "label": "Révision 1",
+  "description": "Revoir l'{ar|إِعْرَابُ} du verbe (variable ou invariable, les trois états du présent, les cinq verbes, les verbes à finale défectueuse), {ar|إِنَّ}, {ar|كَانَ} et {ar|لَيْسَ}, les cinq raisons de l'accusatif, les pronoms collés et les nombres, avec les noms des quatre familles de nombres.",
+  "source": "Tome de Médine 2, semaine de révision 1",
+  "sections": [
+    { "title": "Le verbe : ce qui change et ce qui ne change pas", "activities": ["revue-1", "revue-2"] },
+    { "title": "Les cinq verbes et les verbes à finale défectueuse", "activities": ["revue-3", "revue-4"] },
+    { "title": "Conjuguer aux trois états", "activities": ["revue-5"] },
+    { "title": "Les abrogeants", "activities": ["revue-6", "revue-7"] },
+    { "title": "Les cinq raisons de l'accusatif", "activities": ["grammar-1"] },
+    { "title": "Le complément et les pronoms collés", "activities": ["revue-8", "vocab-1", "revue-9"] },
+    { "title": "Les quatre familles de nombres", "activities": ["grammar-2"] },
+    { "title": "Compter", "activities": ["revue-10", "revue-11", "revue-12", "revue-13"] },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

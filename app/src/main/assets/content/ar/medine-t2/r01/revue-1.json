@@ -1,0 +1,129 @@
+{
+  "id": "medine-t2.r01.revue-1",
+  "type": "review",
+  "title": "Variable ou invariable ?",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.r01.revue-1#1",
+      "type": "tip",
+      "title": "Un mot qui change, un mot qui ne change pas",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un mot est **variable** ({ar|مُعْرَبٌ}) quand sa dernière voyelle change selon son rôle dans la phrase, et **invariable** ({ar|مَبْنِيٌّ}) quand elle ne change jamais. Ce changement de la voyelle finale s'appelle {ar|الْإِعْرَابُ} : il sert à montrer le rôle du mot."
+        },
+        {
+          "type": "table",
+          "header": ["Rôle du mot", "Un mot variable", "Un mot invariable"],
+          "rows": [
+            ["sujet d'une phrase nominale", "{ar|زَيْدٌ طَالِبٌ}", "{ar|هٰذَا طَالِبٌ}"],
+            ["sujet d'un verbe", "{ar|جَاءَ زَيْدٌ}", "{ar|جَاءَ هٰذَا}"],
+            ["complément d'objet", "{ar|ضَرَبَ يَاسِرٌ زَيْدًا}", "{ar|ضَرَبَ يَاسِرٌ هٰذَا}"],
+            ["après une préposition", "{ar|سَلَّمَ يَاسِرٌ عَلَى زَيْدٍ}", "{ar|سَلَّمَ يَاسِرٌ عَلَى هٰذَا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|زَيْدٌ} prend la damma, la fatha ou la kasra selon son rôle ; {ar|هٰذَا} ne change jamais. Pourtant {ar|هٰذَا} a bien un rôle dans chaque phrase : seule sa terminaison ne le montre pas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-1#2",
+      "type": "sort",
+      "categories": [ { "fr": "nom variable ({ar|مُعْرَبٌ})" }, { "fr": "nom invariable ({ar|مَبْنِيٌّ})" } ],
+      "cards": [
+        { "ar": "كِتَابٌ", "category": 0 },
+        { "ar": "هٰذَا", "category": 1 },
+        { "ar": "طَالِبٌ", "category": 0 },
+        { "ar": "أَنَا", "category": 1 },
+        { "ar": "أَيْنَ", "category": 1 },
+        { "ar": "مَدْرَسَةٌ", "category": 0 }
+      ],
+      "instruction": "Variable ou invariable ?",
+      "explain": "Les pronoms ({ar|أَنَا}), les démonstratifs ({ar|هٰذَا}) et les interrogatifs ({ar|أَيْنَ}) sont invariables. {ar|كِتَابٌ}, {ar|طَالِبٌ} et {ar|مَدْرَسَةٌ} sont des noms variables."
+    },
+    {
+      "id": "medine-t2.r01.revue-1#3",
+      "type": "tip",
+      "title": "Et le verbe ?",
+      "blocks": [
+        { "type": "paragraph", "text": "Le professeur applique les mêmes mots aux verbes." },
+        {
+          "type": "table",
+          "header": ["Le verbe", "Variable ou invariable ?", "Exemple"],
+          "rows": [
+            [
+              "le passé ({ar|الْمَاضِي})",
+              "toujours invariable ({ar|مَبْنِيٌّ})",
+              "{ar|كَتَبَ ، كَتَبَتْ ، كَتَبُوا}"
+            ],
+            ["l'impératif ({ar|الْأَمْرُ})", "toujours invariable ({ar|مَبْنِيٌّ})", "{ar|اُكْتُبْ}"],
+            [
+              "le présent ({ar|الْمُضَارِعُ})",
+              "variable ({ar|مُعْرَبٌ}), sauf s'il se termine par le {ar|نَ} des femmes ou par le {ar|نَّ} d'insistance",
+              "{ar|يَكْتُبُ}"
+            ]
+          ]
+        },
+        { "type": "note", "text": "L'impératif n'est qu'un rappel : tu l'étudieras plus tard." }
+      ]
+    },
+    {
+      "id": "medine-t2.r01.revue-1#4",
+      "type": "sort",
+      "categories": [ { "fr": "variable ({ar|مُعْرَبٌ})" }, { "fr": "invariable ({ar|مَبْنِيٌّ})" } ],
+      "cards": [
+        { "ar": "دَخَلْتُ", "category": 1 },
+        { "ar": "أَفْتَحُ", "category": 0 },
+        { "ar": "تَشْرَبْنَ", "category": 1 },
+        { "ar": "يَجْلِسُونَ", "category": 0 },
+        { "ar": "سَكَنَتْ", "category": 1 },
+        { "ar": "نَكْتُبُ", "category": 0 }
+      ],
+      "instruction": "Ce verbe est-il variable ou invariable ?",
+      "explain": "Un verbe au passé ({ar|دَخَلْتُ}, {ar|سَكَنَتْ}) est invariable, comme {ar|تَشْرَبْنَ} avec le {ar|نَ} des femmes. Les présents {ar|أَفْتَحُ}, {ar|يَجْلِسُونَ} et {ar|نَكْتُبُ} sont variables."
+    },
+    {
+      "id": "medine-t2.r01.revue-1#5",
+      "type": "spot",
+      "instruction": "Touche le nom invariable.",
+      "words": ["هٰذَا", "الطَّالِبُ", "يَقْرَأُ", "الدَّرْسَ."],
+      "answers": [0],
+      "fr": "Cet étudiant lit la leçon.",
+      "explain": "{ar|هٰذَا} est un démonstratif : il est invariable. {ar|الطَّالِبُ} et {ar|الدَّرْسَ} sont des noms variables ; {ar|يَقْرَأُ} est un verbe."
+    },
+    {
+      "id": "medine-t2.r01.revue-1#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mabni",
+      "distractors": ["w:muarab", "w:irab"],
+      "explain": "{ar|الْمَبْنِيُّ} : le nom invariable. {ar|الْمُعْرَبُ} : le nom variable ; {ar|الْإِعْرَابُ} : la variation de la terminaison."
+    },
+    {
+      "id": "medine-t2.r01.revue-1#7",
+      "type": "true_false",
+      "statement": { "fr": "Un nom invariable n'a pas de rôle dans la phrase." },
+      "answer": false,
+      "explain": "Faux : il a un rôle (sujet, complément…), seule sa terminaison ne le montre pas. {ar|هٰذَا} est sujet dans {ar|هٰذَا طَالِبٌ}."
+    },
+    {
+      "id": "medine-t2.r01.revue-1#8",
+      "type": "question",
+      "prompt": { "fr": "Quel temps du verbe est variable, en général ?" },
+      "choices": [ { "fr": "le présent" }, { "fr": "le passé" }, { "fr": "l'impératif" } ],
+      "answer": 0,
+      "explain": "Le passé et l'impératif sont toujours invariables. Le présent varie ({ar|يَكْتُبُ} → {ar|لَنْ يَكْتُبَ} → {ar|لَمْ يَكْتُبْ}), sauf dans deux cas : le {ar|نَ} des femmes et le {ar|نَّ} d'insistance."
+    },
+    {
+      "id": "medine-t2.r01.revue-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles ouvrent la porte.",
+      "answers": ["هُنَّ يَفْتَحْنَ الْبَابَ.", "يَفْتَحْنَ الْبَابَ."],
+      "explain": "« Elles » : {ar|يَفْتَحْنَ}, avec le {ar|نَ} des femmes. La porte est le complément, à l'accusatif : {ar|الْبَابَ}."
+    }
+  ]
+}
