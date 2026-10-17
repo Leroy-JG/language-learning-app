@@ -1,0 +1,77 @@
+{
+  "id": "medine-t2.l14.vocab-1",
+  "type": "vocabulary",
+  "title": "Le scorpion et le diable",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t2.l14.vocab-1#1", "type": "present", "item": "w:shaytan" },
+    { "id": "medine-t2.l14.vocab-1#2", "type": "present", "item": "w:aqrab" },
+    { "id": "medine-t2.l14.vocab-1#3", "type": "present", "item": "w:sawt" },
+    {
+      "id": "medine-t2.l14.vocab-1#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:aqrab",
+      "distractors": ["w:shaytan", "w:sawt"],
+      "explain": "{ar|عَقْرَبٌ} : un scorpion. {ar|شَيْطَانٌ} : un diable ; {ar|صَوْتٌ} : une voix, un bruit."
+    },
+    { "id": "medine-t2.l14.vocab-1#5", "type": "present", "item": "w:gharib" },
+    { "id": "medine-t2.l14.vocab-1#6", "type": "present", "item": "w:midhyaa" },
+    { "id": "medine-t2.l14.vocab-1#7", "type": "present", "item": "w:quwwa" },
+    {
+      "id": "medine-t2.l14.vocab-1#8",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:midhyaa",
+      "distractors": ["w:sawt", "w:quwwa"],
+      "explain": "« Une radio » : {ar|مِذْيَاعٌ}. {ar|صَوْتٌ} : une voix ; {ar|قُوَّةٌ} : une force."
+    },
+    {
+      "id": "medine-t2.l14.vocab-1#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:shaytan", "w:aqrab", "w:sawt", "w:gharib", "w:midhyaa"]
+    },
+    {
+      "id": "medine-t2.l14.vocab-1#10",
+      "type": "fill_gap",
+      "sentence": "هُنَا {0}.",
+      "fr": "Il y a ici un scorpion.",
+      "gaps": [ { "answers": ["عَقْرَبٌ"] } ],
+      "options": ["عَقْرَبٌ", "شَيْطَانٌ", "مِذْيَاعٌ"],
+      "explain": "{ar|هُنَا عَقْرَبٌ} : « ici, un scorpion »."
+    },
+    { "id": "medine-t2.l14.vocab-1#11", "type": "build", "item": "w:aqrab", "extra": ["غ", "ك"] },
+    {
+      "id": "medine-t2.l14.vocab-1#12",
+      "type": "question",
+      "prompt": { "fr": "Quel mot veut dire à la fois « une voix » et « un bruit » ?" },
+      "choices": [ { "ar": "صَوْتٌ" }, { "ar": "مِذْيَاعٌ" }, { "ar": "قُوَّةٌ" } ],
+      "answer": 0,
+      "explain": "{ar|صَوْتٌ} se dit de la voix d'une personne comme du bruit d'une chose."
+    },
+    {
+      "id": "medine-t2.l14.vocab-1#13",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:shaytan", "w:aqrab", "w:sawt", "w:gharib", "w:quwwa"]
+    },
+    { "id": "medine-t2.l14.vocab-1#14", "type": "typing", "ask": "fr", "item": "w:sawt" },
+    {
+      "id": "medine-t2.l14.vocab-1#15",
+      "type": "order",
+      "fr": "J'ai tué le scorpion.",
+      "answers": [["قَتَلْتُ", "الْعَقْرَبَ"]],
+      "punctuation": ".",
+      "explain": "{ar|قَتَلْتُ} (« j'ai tué ») + {ar|الْعَقْرَبَ} (complément d'objet, à l'accusatif)."
+    },
+    {
+      "id": "medine-t2.l14.vocab-1#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai entendu un bruit dans la rue.",
+      "answers": ["سَمِعْتُ صَوْتًا فِي الشَّارِعِ."],
+      "explain": "{ar|سَمِعْتُ} + {ar|صَوْتًا} (accusatif) + {ar|فِي الشَّارِعِ}."
+    }
+  ]
+}

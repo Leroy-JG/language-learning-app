@@ -1,0 +1,152 @@
+{
+  "id": "medine-t2.l14.grammar-4",
+  "type": "grammar",
+  "title": "À qui donne-t-on un ordre ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l14.grammar-4#1",
+      "type": "tip",
+      "title": "Le sujet de l'impératif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le verbe à l'impératif ne peut avoir pour sujet que le pronom de la **deuxième personne**, « toi » ou « vous » ({ar|الْمُخَاطَبُ}). Cela exclut :"
+        },
+        {
+          "type": "table",
+          "header": ["Exclu", "Pourquoi"],
+          "rows": [
+            ["la première personne ({ar|الْمُتَكَلِّمُ})", "on ne se donne pas d'ordre à soi-même"],
+            ["la troisième personne ({ar|الْغَائِبُ})", "on ne donne pas d'ordre à une personne absente"],
+            ["un nom ({ar|اسْمٌ ظَاهِرٌ})", "le sujet est toujours le pronom « toi » ou « vous »"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Un nom peut accompagner l'ordre, mais comme mot d'appel : {ar|يَا زَيْدُ، اُكْتُبْ} (« Zayd, écris ! »). Ce n'est pas le sujet du verbe."
+        }
+      ]
+    },
+    { "id": "medine-t2.l14.grammar-4#2", "type": "present", "item": "w:fail-fil-amr" },
+    {
+      "id": "medine-t2.l14.grammar-4#3",
+      "type": "tip",
+      "title": "Un pronom qu'on voit ou qu'on ne voit pas",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le sujet de l'impératif est un pronom collé au verbe. Il est **caché** ({ar|مُسْتَتِرٌ}) pour « toi » (un homme), et **apparent** ({ar|بَارِزٌ}) dans les quatre autres formes :"
+        },
+        {
+          "type": "table",
+          "header": ["À qui", "Le pronom sujet", "Exemple"],
+          "rows": [
+            ["{ar|أَنْتَ} (un homme)", "caché", "{ar|اُكْتُبْ}"],
+            ["{ar|أَنْتِ} (une femme)", "apparent : {ar|ي}", "{ar|اُكْتُبِي}"],
+            ["{ar|أَنْتُمَا} (deux personnes)", "apparent : {ar|ا}", "{ar|اُكْتُبَا}"],
+            ["{ar|أَنْتُمْ} (plusieurs hommes)", "apparent : {ar|و}", "{ar|اُكْتُبُوا}"],
+            ["{ar|أَنْتُنَّ} (plusieurs femmes)", "apparent : {ar|نَ}", "{ar|اُكْتُبْنَ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.grammar-4#4",
+      "type": "tip",
+      "title": "Les pronoms sujets collés : ce qu'il faut retenir",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur résume les caractéristiques de ces pronoms (les pronoms sujets collés, {ar|الضَّمِيرُ الْمُتَّصِلُ الْمَرْفُوعُ}) :"
+        },
+        {
+          "type": "table",
+          "header": ["Ils sont…", "Exemple"],
+          "rows": [
+            ["tous invariables ({ar|مَبْنِيٌّ})", "{ar|ي}, {ar|ا}, {ar|و}, {ar|نَ} ne changent jamais"],
+            ["propres au verbe", "on ne les colle pas à un nom comme sujet"],
+            ["toujours sujet du verbe auquel ils sont collés", "pour cela on les appelle « pronoms sujets »"],
+            [
+              "différents selon le temps du verbe",
+              "{ar|كَتَبُوا} (passé), {ar|يَكْتُبُونَ} (présent), {ar|اُكْتُبُوا} (impératif)"
+            ],
+            ["parfois cachés ({ar|مُسْتَتِرٌ})", "{ar|اُكْتُبْ} : « toi » est sous-entendu"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.grammar-4#5",
+      "type": "sort",
+      "categories": [ { "fr": "pronom caché" }, { "fr": "pronom apparent" } ],
+      "cards": [
+        { "ar": "اُكْتُبْ", "category": 0 },
+        { "ar": "اُدْخُلْ", "category": 0 },
+        { "ar": "اِجْلِسْ", "category": 0 },
+        { "ar": "اُكْتُبِي", "category": 1 },
+        { "ar": "اِذْهَبُوا", "category": 1 },
+        { "ar": "اِشْرَبْنَ", "category": 1 }
+      ],
+      "instruction": "Le pronom sujet est-il caché ou apparent ?",
+      "explain": "Dans {ar|اُكْتُبْ}, {ar|اُدْخُلْ} et {ar|اِجْلِسْ}, « toi » est caché. Dans {ar|اُكْتُبِي} ({ar|ي}), {ar|اِذْهَبُوا} ({ar|و}) et {ar|اِشْرَبْنَ} ({ar|نَ}), le pronom est écrit."
+    },
+    {
+      "id": "medine-t2.l14.grammar-4#6",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi n'y a-t-il pas d'impératif pour « moi » ?" },
+      "choices": [
+        { "fr": "Parce qu'on ne se donne pas d'ordre à soi-même" },
+        { "fr": "Parce que l'impératif n'existe qu'au pluriel" },
+        { "fr": "Parce que l'impératif n'a pas de pronom" }
+      ],
+      "answer": 0,
+      "explain": "L'impératif s'adresse à quelqu'un qui est présent : « toi » ou « vous »."
+    },
+    {
+      "id": "medine-t2.l14.grammar-4#7",
+      "type": "true_false",
+      "statement": { "fr": "À l'impératif, le sujet peut être « il » ou « elle »." },
+      "answer": false,
+      "explain": "Non : « il » et « elle » sont des personnes absentes, on ne leur donne pas d'ordre. Seule la deuxième personne est possible."
+    },
+    {
+      "id": "medine-t2.l14.grammar-4#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|اُكْتُبِي}, quel est le pronom sujet ?" },
+      "choices": [
+        { "fr": "le {ar|ي} final (« toi », une femme)" },
+        { "fr": "le {ar|اُ} du début" },
+        { "fr": "le {ar|ب} du milieu" }
+      ],
+      "answer": 0,
+      "explain": "Le {ar|ي} est le pronom sujet : « toi », une femme. Le {ar|اُ} est la hamza de liaison."
+    },
+    {
+      "id": "medine-t2.l14.grammar-4#9",
+      "type": "fill_gap",
+      "sentence": "يَا إِخْوَانُ، {0} الدَّرْسَ.",
+      "fr": "Frères, étudiez la leçon !",
+      "gaps": [ { "answers": ["اُدْرُسُوا"] } ],
+      "options": ["اُدْرُسُوا", "اُدْرُسْ", "اُدْرُسِي"],
+      "explain": "« Frères » : plusieurs hommes, donc {ar|اُدْرُسُوا}."
+    },
+    {
+      "id": "medine-t2.l14.grammar-4#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Entre, Hāmid !",
+      "answers": ["اُدْخُلْ يَا حَامِدُ.", "يَا حَامِدُ اُدْخُلْ."],
+      "explain": "Un seul homme : {ar|اُدْخُلْ}."
+    },
+    {
+      "id": "medine-t2.l14.grammar-4#11",
+      "type": "order",
+      "fr": "Āmina, ouvre les fenêtres !",
+      "answers": [["اِفْتَحِي", "النَّوَافِذَ", "يَا", "آمِنَةُ"], ["يَا", "آمِنَةُ", "اِفْتَحِي", "النَّوَافِذَ"]],
+      "punctuation": "!",
+      "explain": "Āmina est une femme : {ar|اِفْتَحِي}."
+    }
+  ]
+}

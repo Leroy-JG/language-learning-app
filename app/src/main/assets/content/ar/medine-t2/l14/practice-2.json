@@ -1,0 +1,147 @@
+{
+  "id": "medine-t2.l14.practice-2",
+  "type": "vocabulary",
+  "title": "Exercice 2 : le sukūn devant l'article",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l14.practice-2#1",
+      "type": "tip",
+      "title": "Quatre phrases à corriger",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne quatre phrases du professeur : à toi de savoir quand la fin de l'impératif change. Rappel : le sukūn devient une **kasra** seulement devant l'article {ar|الْ}."
+        },
+        {
+          "type": "table",
+          "header": ["La phrase du livre", "La fin du verbe", "Pourquoi"],
+          "rows": [
+            [
+              "{ar|قَالَ الْمُدَرِّسُ لِعَلِيٍّ: اُقْتُلِ الْعَقْرَبَ.}",
+              "une kasra",
+              "{ar|الْعَقْرَبَ} commence par l'article"
+            ],
+            [
+              "{ar|قَالَ الْمُدَرِّسُ لِهِشَامٍ: اِفْتَحِ النَّوَافِذَ.}",
+              "une kasra",
+              "{ar|النَّوَافِذَ} commence par l'article"
+            ],
+            [
+              "{ar|قَالَ الْمُدَرِّسُ لِهُمَايُونَ: اِذْهَبْ إِلَى الْحَمَّامِ وَاغْسِلْ يَدَيْكَ.}",
+              "un sukūn",
+              "{ar|إِلَى} et {ar|يَدَيْكَ} ne commencent pas par l'article"
+            ],
+            [
+              "{ar|قَالَ الْمُدَرِّسُ لِعَلِيٍّ: اِحْفَظْ سُورَةَ النَّبَإِ.}",
+              "un sukūn",
+              "{ar|سُورَةَ} ne commence pas par l'article"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.practice-2#2",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|اُقْتُلِ الْعَقْرَبَ}, pourquoi la dernière lettre de {ar|اُقْتُلِ} porte-t-elle une kasra ?"
+      },
+      "choices": [
+        { "fr": "Pour éviter deux sukūn de suite devant {ar|الْ}" },
+        { "fr": "Parce que le verbe s'adresse à une femme" },
+        { "fr": "Parce que le verbe est au passé" }
+      ],
+      "answer": 0,
+      "explain": "Sans la kasra, le sukūn de {ar|اُقْتُلْ} rencontrerait celui de {ar|الْ}. Pour une femme, ce serait {ar|اُقْتُلِي}."
+    },
+    {
+      "id": "medine-t2.l14.practice-2#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|اِذْهَبْ إِلَى الْحَمَّامِ}, pourquoi le {ar|بْ} garde-t-il son sukūn ?" },
+      "choices": [
+        { "fr": "Le mot suivant, {ar|إِلَى}, ne commence pas par l'article" },
+        { "fr": "Parce que le verbe est au féminin" },
+        { "fr": "Parce que {ar|اِذْهَبْ} est un nom" }
+      ],
+      "answer": 0,
+      "explain": "Il n'y a pas de rencontre de deux sukūn : {ar|إِلَى} commence par une vraie hamza, pas par l'article."
+    },
+    {
+      "id": "medine-t2.l14.practice-2#4",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le professeur a dit à ʿAlī : tue le scorpion !",
+      "answers": ["قَالَ الْمُدَرِّسُ لِعَلِيٍّ: اُقْتُلِ الْعَقْرَبَ."],
+      "explain": "{ar|اُقْتُلْ} → {ar|اُقْتُلِ} devant l'article."
+    },
+    {
+      "id": "medine-t2.l14.practice-2#5",
+      "type": "tip",
+      "title": "Une kasra, une fatha : le nom après {ar|لِ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur parle à Humāyūn : {ar|قَالَ الْمُدَرِّسُ لِهُمَايُونَ}. {ar|هُمَايُونُ} est un nom étranger sans tanwin ({ar|الْمَمْنُوعُ مِنَ الصَّرْفِ}, comme {ar|بَاكِسْتَانُ}) : après {ar|لِ}, il prend la **fatha**, pas la kasra."
+        },
+        {
+          "type": "table",
+          "header": ["Un nom avec tanwin", "Un nom sans tanwin"],
+          "rows": [["{ar|قَالَ الْمُدَرِّسُ لِعَلِيٍّ}", "{ar|قَالَ الْمُدَرِّسُ لِهُمَايُونَ}"]]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le professeur ajoute un rappel avec {ar|أَبُو بَكْرٍ} : le nom {ar|أَبٌ} s'allonge et change de forme selon le cas."
+        },
+        {
+          "type": "table",
+          "header": ["Le cas", "Exemple"],
+          "rows": [
+            ["nominatif : {ar|أَبُو}", "{ar|هٰذَا أَبُو بَكْرٍ.}"],
+            ["accusatif : {ar|أَبَا}", "{ar|إِنَّ أَبَا بَكْرٍ نَعْسَانُ.}"],
+            ["génitif : {ar|أَبِي}", "{ar|هٰذَا كِتَابُ أَبِي بَكْرٍ.}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.practice-2#6",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|قَالَ الْمُدَرِّسُ لِهُمَايُونَ}, pourquoi {ar|هُمَايُونَ} se termine-t-il par une fatha ?"
+      },
+      "choices": [
+        { "fr": "C'est un nom sans tanwin, qui prend la fatha au génitif" },
+        { "fr": "Parce que le verbe est à l'impératif" },
+        { "fr": "Parce que c'est un nom féminin" }
+      ],
+      "answer": 0,
+      "explain": "Un nom sans tanwin (ici un nom étranger) prend la fatha au génitif quand il est seul, sans article ni annexion."
+    },
+    {
+      "id": "medine-t2.l14.practice-2#7",
+      "type": "fill_gap",
+      "sentence": "هٰذَا كِتَابُ {0}.",
+      "fr": "Ceci est le livre d'Abū Bakr.",
+      "gaps": [ { "answers": ["أَبِي بَكْرٍ"] } ],
+      "options": ["أَبِي بَكْرٍ", "أَبُو بَكْرٍ", "أَبَا بَكْرٍ"],
+      "explain": "Dans une annexion, le deuxième terme est au génitif : {ar|أَبِي}."
+    },
+    {
+      "id": "medine-t2.l14.practice-2#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le professeur a dit à Hishām : ouvre les fenêtres !",
+      "answers": ["قَالَ الْمُدَرِّسُ لِهِشَامٍ: اِفْتَحِ النَّوَافِذَ."],
+      "explain": "{ar|اِفْتَحْ} → {ar|اِفْتَحِ} devant l'article."
+    },
+    {
+      "id": "medine-t2.l14.practice-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le professeur a dit à ʿAlī : mémorise la sourate An-Naba'.",
+      "answers": ["قَالَ الْمُدَرِّسُ لِعَلِيٍّ: اِحْفَظْ سُورَةَ النَّبَإِ."],
+      "explain": "{ar|سُورَةَ} ne commence pas par l'article : {ar|اِحْفَظْ} garde son sukūn."
+    }
+  ]
+}

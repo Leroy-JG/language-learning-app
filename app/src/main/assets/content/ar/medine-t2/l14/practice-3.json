@@ -1,0 +1,113 @@
+{
+  "id": "medine-t2.l14.practice-3",
+  "type": "vocabulary",
+  "title": "Exercice 3 : lis les ordres",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t2.l14.practice-3#1",
+      "type": "tip",
+      "title": "De {ar|أَنْتَ تَكْتُبُ} à {ar|اُكْتُبْ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre fait lire la chaîne complète pour plusieurs verbes : le présent avec {ar|أَنْتَ}, le jussif, le verbe sans la lettre du présent, puis l'impératif."
+        },
+        {
+          "type": "table",
+          "header": ["Présent", "Jussif", "Sans la lettre du présent", "Impératif"],
+          "rows": [
+            ["{ar|تَكْتُبُ}", "{ar|تَكْتُبْ}", "{ar|كْتُبْ}", "{ar|اُكْتُبْ} : damma"],
+            ["{ar|تَدْخُلُ}", "{ar|تَدْخُلْ}", "{ar|دْخُلْ}", "{ar|اُدْخُلْ} : damma"],
+            ["{ar|تَجْلِسُ}", "{ar|تَجْلِسْ}", "{ar|جْلِسْ}", "{ar|اِجْلِسْ} : kasra"],
+            ["{ar|تَغْسِلُ}", "{ar|تَغْسِلْ}", "{ar|غْسِلْ}", "{ar|اِغْسِلْ} : kasra"],
+            ["{ar|تَذْهَبُ}", "{ar|تَذْهَبْ}", "{ar|ذْهَبْ}", "{ar|اِذْهَبْ} : kasra"],
+            ["{ar|تَفْتَحُ}", "{ar|تَفْتَحْ}", "{ar|فْتَحْ}", "{ar|اِفْتَحْ} : kasra"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.practice-3#2",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Sors de la classe, Bachīr !",
+      "answers": ["اُخْرُجْ مِنَ الْفَصْلِ يَا بَشِيرُ."],
+      "explain": "{ar|يَخْرُجُ} → {ar|اُخْرُجْ} (damma)."
+    },
+    {
+      "id": "medine-t2.l14.practice-3#3",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Écris ta leçon, ʿAlī !",
+      "answers": ["اُكْتُبْ دَرْسَكَ يَا عَلِيُّ.", "يَا عَلِيُّ اُكْتُبْ دَرْسَكَ."],
+      "explain": "{ar|يَكْتُبُ} → {ar|اُكْتُبْ} (damma)."
+    },
+    {
+      "id": "medine-t2.l14.practice-3#4",
+      "type": "spot",
+      "instruction": "Touche l'impératif.",
+      "words": ["قَالَ", "الْمُدَرِّسُ", "اُسْكُتْ", "يَا", "وَلَدُ"],
+      "answers": [2],
+      "fr": "Le professeur a dit : « Tais-toi, garçon ! »",
+      "explain": "{ar|اُسْكُتْ} est l'impératif de {ar|سَكَتَ} ({ar|يَسْكُتُ} : damma)."
+    },
+    {
+      "id": "medine-t2.l14.practice-3#5",
+      "type": "fill_gap",
+      "sentence": "{0} هٰذِهِ الْحَيَّةَ يَا عَمِّي.",
+      "fr": "Tue ce serpent, mon oncle !",
+      "gaps": [ { "answers": ["اُقْتُلْ"] } ],
+      "options": ["اُقْتُلْ", "يَقْتُلُ", "قَتَلَ"],
+      "explain": "Un ordre à son oncle : {ar|اُقْتُلْ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-3#6",
+      "type": "sort",
+      "categories": [ { "fr": "une damma" }, { "fr": "une kasra" } ],
+      "cards": [
+        { "ar": "اُشْكُرْ رَبَّكَ", "category": 0 },
+        { "ar": "اُسْجُدْ لِلَّهِ", "category": 0 },
+        { "ar": "اُدْخُلْ يَا حَامِدُ", "category": 0 },
+        { "ar": "اِرْجِعْ بَعْدَ سَاعَةٍ", "category": 1 },
+        { "ar": "اِنْزِلْ مِنَ السَّيَّارَةِ", "category": 1 },
+        { "ar": "اِضْرِبْ بِعَصَاكَ الْحَجَرَ", "category": 1 }
+      ],
+      "instruction": "Quelle voyelle sur la hamza de liaison ?",
+      "explain": "{ar|يَشْكُرُ}, {ar|يَسْجُدُ} et {ar|يَدْخُلُ} ont une damma au présent : la hamza de liaison prend une damma. {ar|يَرْجِعُ}, {ar|يَنْزِلُ} et {ar|يَضْرِبُ} ont une kasra : la hamza de liaison prend une kasra."
+    },
+    {
+      "id": "medine-t2.l14.practice-3#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Descends de la voiture, mon frère !",
+      "answers": ["اِنْزِلْ مِنَ السَّيَّارَةِ يَا أَخِي."],
+      "explain": "{ar|يَنْزِلُ} → {ar|اِنْزِلْ} (kasra)."
+    },
+    {
+      "id": "medine-t2.l14.practice-3#8",
+      "type": "order",
+      "fr": "Monte sur ton vélo !",
+      "answers": [["اِرْكَبْ", "دَرَّاجَتَكَ"]],
+      "punctuation": "!",
+      "explain": "{ar|يَرْكَبُ} → {ar|اِرْكَبْ} (kasra) ; {ar|دَرَّاجَتَكَ} est le complément d'objet."
+    },
+    {
+      "id": "medine-t2.l14.practice-3#9",
+      "type": "fill_gap",
+      "sentence": "{0} مَاءً بَارِدًا.",
+      "fr": "Bois de l'eau froide !",
+      "gaps": [ { "answers": ["اِشْرَبْ"] } ],
+      "options": ["اِشْرَبْ", "يَشْرَبُ", "شَرِبَ"],
+      "explain": "{ar|يَشْرَبُ} → {ar|اِشْرَبْ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-3#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Allah a dit à Moïse : « Frappe la pierre avec ton bâton ! »",
+      "answers": ["قَالَ اللَّهُ تَعَالَى لِمُوسَى: اِضْرِبْ بِعَصَاكَ الْحَجَرَ."],
+      "explain": "{ar|يَضْرِبُ} → {ar|اِضْرِبْ} (kasra). Ici {ar|مُوسَى} est le prophète Moïse."
+    }
+  ]
+}

@@ -261,3 +261,10 @@ les PDF a déjà été enseigné aux chapitres 1 à 13, donc le chapitre n'a que
 `الْمُرَكَّبُ`, `الْمَعْطُوفُ`), un verbe nouveau (`vocab-1` : `سَاعَدَ`, employé par l'exercice du professeur) et un bilan de 20 écrans. Il couvre : les trois temps du verbe, le sujet et le complément, les pronoms sujets collés et la conjugaison au passé et au présent (partie 1), `مُعْرَبٌ` / `مَبْنِيٌّ`, les trois états du présent, les cinq verbes, les verbes à finale défectueuse, le tableau de `كَتَبَ`, `إِنَّ` et ses sœurs,
 `كَانَ` et `لَيْسَ`, le complément d'objet et les pronoms collés (tableau avec `إِنَّ`, `لَعَلَّ`, `ضَرَبَ`), et les nombres (3 à 10, 11 à 19, 20 à 99, cent et mille). Les « Révisions 2 et 3 » du plan (§3, dernière ligne) ne sont pas encore faites (semaine 2 : `الظُّرُوفُ`, `التَّمْيِيزُ`,
 textes tirés de « قَصَصُ النَّبِيِّينَ »).
+
+## 20. Avancement : le chapitre 14 (`medine-t2.l14`)
+
+Le cours 14 (deux PDF, `14a` de 21 pages et `14b` de 25 pages) est publié après la « Révision 1 » : `docs/sources-t2-lecon-14.md`. Le support du professeur contient `فِعْلُ الْأَمْرِ` (1ʳᵉ et 2ᵉ parties : construction à partir du présent au jussif, voyelle de la hamza de liaison, sujet de l'impératif),
+`الضَّمَائِرُ الْمُتَّصِلَةُ الْمَرْفُوعَةُ` (dernière partie), le texte du livre (« Un scorpion dans la classe »), les exercices 1 à 8, le vocabulaire nouveau (douze noms, dix verbes) et un exercice de conjugaison.
+Le chapitre les réunit : `l14.revue-1` (rappel du jussif), `grammar-1` à `grammar-5`, `vocab-1` à `vocab-5`, `dialogue-1`, `practice-1` à `practice-8`, `quiz`. **L'impératif est maintenant enseigné et exigé** ; les chapitres suivants peuvent s'y appuyer (jamais l'impératif des verbes défectueux ni `لَامُ الْأَمْرِ`, qui restent « pas encore enseignés »).
+Le cours 15 du plan (`الْجَوَازِمُ`, 1ʳᵉ partie : `لَا` de l'interdiction ; `كَادَ وَأَخَوَاتُهَا`) est le prochain.

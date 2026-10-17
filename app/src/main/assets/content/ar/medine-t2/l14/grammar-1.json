@@ -1,0 +1,167 @@
+{
+  "id": "medine-t2.l14.grammar-1",
+  "type": "grammar",
+  "title": "L'impératif : un ordre",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l14.grammar-1#1",
+      "type": "tip",
+      "title": "Donner un ordre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour dire « écris ! », « entre ! », « assieds-toi ! », l'arabe a un temps à part : l'impératif, {ar|فِعْلُ الْأَمْرِ} (ou simplement {ar|الْأَمْرُ}, que tu as vu au chapitre 2)."
+        },
+        { "type": "example", "ar": "اُكْتُبْ دَرْسَكَ.", "fr": "Écris ta leçon !" },
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne deux règles. Il est **toujours invariable** ({ar|مَبْنِيٌّ}, comme tu l'as vu pour les noms au chapitre 11 du tome 1) : il n'a pas d'états comme le présent (ni nominatif, ni accusatif, ni jussif à choisir) ; sa fin dépend seulement de la personne à qui on parle. Et il **se construit à partir du présent**, en plusieurs étapes."
+        }
+      ]
+    },
+    { "id": "medine-t2.l14.grammar-1#2", "type": "present", "item": "w:fil-amr" },
+    {
+      "id": "medine-t2.l14.grammar-1#3",
+      "type": "tip",
+      "title": "Les trois étapes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour fabriquer l'impératif, on part du présent au jussif. Exemple avec {ar|كَتَبَ} :"
+        },
+        {
+          "type": "table",
+          "header": ["Étape", "Ce qu'on fait", "Avec {ar|كَتَبَ}"],
+          "rows": [
+            ["départ", "on prend le présent au jussif", "{ar|لَمْ تَكْتُبْ}"],
+            ["1", "on **supprime** la lettre du présent ({ar|تَ})", "{ar|كْتُبْ}"],
+            ["2", "on **ajoute** une hamza de liaison devant le verbe", "{ar|اُكْتُبْ}"],
+            ["3", "on **laisse la même terminaison** que le présent au jussif", "un sukūn à la fin"]
+          ]
+        },
+        {
+          "type": "compare",
+          "title": "Du jussif à l'impératif",
+          "rows": [
+            {
+              "from": { "ar": "لَمْ تَكْتُبْ", "fr": "tu n'as pas écrit" },
+              "to": { "ar": "كْتُبْ", "fr": "on enlève la lettre du présent {ar|تَ}" },
+              "label": "étape 1"
+            },
+            {
+              "from": { "ar": "كْتُبْ", "fr": "(on ne peut pas commencer un mot par deux consonnes)" },
+              "to": { "ar": "اُكْتُبْ", "fr": "on ajoute la hamza de liaison : « écris ! »" },
+              "label": "étape 2"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "L'impératif part toujours de la **deuxième personne** ({ar|الْمُخَاطَبُ}) : la lettre qu'on supprime est donc toujours {ar|تَ}."
+        }
+      ]
+    },
+    { "id": "medine-t2.l14.grammar-1#4", "type": "present", "item": "w:hamzat-wasl" },
+    { "id": "medine-t2.l14.grammar-1#5", "type": "present", "item": "w:mudari-majzum" },
+    {
+      "id": "medine-t2.l14.grammar-1#6",
+      "type": "tip",
+      "title": "Voir les morceaux",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans {ar|اُكْتُبْ} comme dans {ar|اِذْهَبْ}, il y a la hamza de liaison, puis le verbe sans la lettre du présent :"
+        },
+        {
+          "type": "breakdown",
+          "ar": "اُكْتُبْ",
+          "fr": "écris !",
+          "parts": [
+            { "ar": "اُ", "fr": "la hamza de liaison" },
+            { "ar": "كْتُبْ", "fr": "le verbe, sans la lettre du présent" }
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "اِذْهَبْ",
+          "fr": "va !",
+          "parts": [
+            { "ar": "اِ", "fr": "la hamza de liaison" },
+            { "ar": "ذْهَبْ", "fr": "le verbe, sans la lettre du présent" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.grammar-1#7",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la première étape pour passer de {ar|لَمْ تَدْرُسْ} à l'impératif ?" },
+      "choices": [
+        { "fr": "On supprime la lettre du présent {ar|تَ}" },
+        { "fr": "On ajoute un {ar|ن} à la fin" },
+        { "fr": "On change le sukūn en damma" }
+      ],
+      "answer": 0,
+      "explain": "On supprime d'abord la lettre du présent ({ar|تَ}) ; ensuite on ajoute la hamza de liaison : {ar|لَمْ تَدْرُسْ} → {ar|دْرُسْ} → {ar|اُدْرُسْ}."
+    },
+    {
+      "id": "medine-t2.l14.grammar-1#8",
+      "type": "sort",
+      "categories": [ { "fr": "le présent au jussif" }, { "fr": "l'impératif" } ],
+      "cards": [
+        { "ar": "لَمْ تَجْلِسْ", "category": 0 },
+        { "ar": "اِجْلِسْ", "category": 1 },
+        { "ar": "لَمْ تَدْخُلْ", "category": 0 },
+        { "ar": "اُدْخُلْ", "category": 1 },
+        { "ar": "لَمْ تَفْتَحْ", "category": 0 },
+        { "ar": "اِفْتَحْ", "category": 1 }
+      ],
+      "instruction": "Présent au jussif ou impératif ?",
+      "explain": "Le jussif est précédé de {ar|لَمْ} et garde la lettre du présent {ar|تَ}. L'impératif n'a plus cette lettre : il commence par la hamza de liaison."
+    },
+    {
+      "id": "medine-t2.l14.grammar-1#9",
+      "type": "fill_gap",
+      "sentence": "{0} دَرْسَكَ يَا عَلِيُّ.",
+      "fr": "Écris ta leçon, ʿAlī !",
+      "gaps": [ { "answers": ["اُكْتُبْ"] } ],
+      "options": ["اُكْتُبْ", "تَكْتُبُ", "كَتَبَ"],
+      "explain": "Un ordre : l'impératif {ar|اُكْتُبْ}."
+    },
+    {
+      "id": "medine-t2.l14.grammar-1#10",
+      "type": "spot",
+      "instruction": "Touche le verbe à l'impératif.",
+      "words": ["يَا", "عَلِيُّ", "اُكْتُبْ", "دَرْسَكَ", "وَلَا", "تَلْعَبْ"],
+      "answers": [2],
+      "fr": "ʿAlī, écris ta leçon et ne joue pas !",
+      "explain": "{ar|اُكْتُبْ} est l'impératif. {ar|تَلْعَبْ} suit {ar|لَا} qui interdit : c'est le présent au jussif, qui garde la lettre du présent {ar|تَ}."
+    },
+    {
+      "id": "medine-t2.l14.grammar-1#11",
+      "type": "fill_gap",
+      "sentence": "{0} هُنَا يَا بِلَالُ.",
+      "fr": "Assieds-toi ici, Bilāl !",
+      "gaps": [ { "answers": ["اِجْلِسْ"] } ],
+      "options": ["اِجْلِسْ", "يَجْلِسُ", "جَلَسَ"],
+      "explain": "Un ordre à Bilāl : {ar|اِجْلِسْ}."
+    },
+    {
+      "id": "medine-t2.l14.grammar-1#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Va à la mosquée !",
+      "answers": ["اِذْهَبْ إِلَى الْمَسْجِدِ."],
+      "explain": "{ar|تَذْهَبُ} → {ar|اِذْهَبْ}."
+    },
+    {
+      "id": "medine-t2.l14.grammar-1#13",
+      "type": "order",
+      "fr": "Ouvre ton livre, Ibrāhīm !",
+      "answers": [["اِفْتَحْ", "كِتَابَكَ", "يَا", "إِبْرَاهِيمُ"], ["يَا", "إِبْرَاهِيمُ", "اِفْتَحْ", "كِتَابَكَ"]],
+      "punctuation": "!",
+      "explain": "Le mot d'appel peut se placer avant ou après l'ordre."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "medine-t2.l14.practice-1",
+  "type": "vocabulary",
+  "title": "Exercice 1 : réponds aux questions",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l14.practice-1#1",
+      "type": "tip",
+      "title": "Les cinq questions du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre pose cinq questions sur le texte « Un scorpion dans la classe ». Réponds-y en arabe, par une phrase ou par quelques mots. Tu peux réécouter le texte avant de répondre."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.practice-1#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا اسْمُ الطَّالِبِ الْجَدِيدِ؟",
+      "answers": ["اِسْمُهُ هُمَايُونُ.", "هُمَايُونُ.", "اِسْمُ الطَّالِبِ الْجَدِيدِ هُمَايُونُ."],
+      "fr": "Quel est le nom du nouvel étudiant ?",
+      "context": { "dialogue": "medine-t2.l14.dialogue-1#1" },
+      "explain": "Il dit : {ar|اِسْمِي هُمَايُونُ}. À la troisième personne : {ar|اِسْمُهُ هُمَايُونُ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-1#3",
+      "type": "question",
+      "prompt": { "ar": "أَيْنَ كَانَتِ الْعَقْرَبُ؟" },
+      "choices": [
+        { "ar": "تَحْتَ مَكْتَبِ هِشَامٍ." },
+        { "ar": "عَلَى مَكْتَبِ الْمُدَرِّسِ." },
+        { "ar": "فِي الْحَمَّامِ." }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l14.dialogue-1#1" },
+      "explain": "{ar|هِيَ تَحْتَ مَكْتَبِ هِشَامٍ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-1#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَنِ الَّذِي قَتَلَهَا؟",
+      "answers": ["هِشَامٌ.", "قَتَلَهَا هِشَامٌ.", "هِشَامٌ قَتَلَهَا."],
+      "fr": "Qui l'a tué ?",
+      "context": { "dialogue": "medine-t2.l14.dialogue-1#1" },
+      "explain": "Le professeur dit à Hishām de la tuer, et c'est lui qui répond : {ar|مَاتَتْ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-1#5",
+      "type": "question",
+      "prompt": { "ar": "بِمَ قَتَلَهَا؟" },
+      "choices": [ { "ar": "بِحِذَائِهِ." }, { "ar": "بِالْمُوسَى." }, { "ar": "بِكِتَابٍ." } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l14.dialogue-1#1" },
+      "explain": "{ar|اُقْتُلْهَا بِحِذَائِكَ يَا هِشَامُ} : avec sa chaussure."
+    },
+    {
+      "id": "medine-t2.l14.practice-1#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيَّ سُورَةٍ حَفِظَ عَلِيٌّ؟",
+      "answers": ["حَفِظَ سُورَةَ الْعَلَقِ.", "سُورَةَ الْعَلَقِ.", "حَفِظَ عَلِيٌّ سُورَةَ الْعَلَقِ."],
+      "fr": "Quelle sourate ʿAlī a-t-il mémorisée ?",
+      "context": { "dialogue": "medine-t2.l14.dialogue-1#1" },
+      "explain": "ʿAlī récite {ar|اِقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ}, le début de la sourate Al-ʿAlaq. {ar|أَيَّ سُورَةٍ} est le complément d'objet de {ar|حَفِظَ} : accusatif."
+    },
+    {
+      "id": "medine-t2.l14.practice-1#7",
+      "type": "order",
+      "fr": "Quel est le nom du nouvel étudiant ?",
+      "answers": [["مَا", "اسْمُ", "الطَّالِبِ", "الْجَدِيدِ"]],
+      "punctuation": "؟",
+      "explain": "{ar|مَا} + {ar|اسْمُ} (annexion) + {ar|الطَّالِبِ الْجَدِيدِ}."
+    }
+  ]
+}

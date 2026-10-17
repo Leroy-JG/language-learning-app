@@ -1,0 +1,110 @@
+{
+  "id": "medine-t2.l14.practice-8",
+  "type": "vocabulary",
+  "title": "Conjugue : étudier, réussir, frapper",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t2.l14.practice-8#1",
+      "type": "tip",
+      "title": "Un verbe, toutes les personnes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande de conjuguer {ar|دَرَسَ}, {ar|نَجَحَ} et {ar|ضَرَبَ} au présent jussif, puis à l'impératif, avec tous les pronoms, comme {ar|كَتَبَ}. Voici {ar|دَرَسَ} en entier :"
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Présent au jussif", "Impératif"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|لَمْ أَدْرُسْ}", "—"],
+            ["{ar|نَحْنُ}", "{ar|لَمْ نَدْرُسْ}", "—"],
+            ["{ar|أَنْتَ}", "{ar|لَمْ تَدْرُسْ}", "{ar|اُدْرُسْ}"],
+            ["{ar|أَنْتِ}", "{ar|لَمْ تَدْرُسِي}", "{ar|اُدْرُسِي}"],
+            ["{ar|أَنْتُمَا}", "{ar|لَمْ تَدْرُسَا}", "{ar|اُدْرُسَا}"],
+            ["{ar|أَنْتُمْ}", "{ar|لَمْ تَدْرُسُوا}", "{ar|اُدْرُسُوا}"],
+            ["{ar|أَنْتُنَّ}", "{ar|لَمْ تَدْرُسْنَ}", "{ar|اُدْرُسْنَ}"],
+            ["{ar|هُوَ}", "{ar|لَمْ يَدْرُسْ}", "—"],
+            ["{ar|هِيَ}", "{ar|لَمْ تَدْرُسْ}", "—"],
+            ["{ar|هُمَا} (deux hommes)", "{ar|لَمْ يَدْرُسَا}", "—"],
+            ["{ar|هُمَا} (deux femmes)", "{ar|لَمْ تَدْرُسَا}", "—"],
+            ["{ar|هُمْ}", "{ar|لَمْ يَدْرُسُوا}", "—"],
+            ["{ar|هُنَّ}", "{ar|لَمْ يَدْرُسْنَ}", "—"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.practice-8#2",
+      "type": "fill_gap",
+      "sentence": "أَنْتُمَا لَمْ {0}.",
+      "fr": "Vous deux, vous n'avez pas réussi.",
+      "gaps": [ { "answers": ["تَنْجَحَا"] } ],
+      "options": ["تَنْجَحَا", "تَنْجَحُوا", "تَنْجَحْنَ"],
+      "explain": "« Vous deux » : le {ar|ن} de {ar|تَنْجَحَانِ} tombe après {ar|لَمْ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-8#3",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Réussis, ma sœur !",
+      "answers": ["اِنْجَحِي يَا أُخْتِي.", "يَا أُخْتِي اِنْجَحِي."],
+      "explain": "{ar|يَنْجَحُ} → {ar|اِنْجَحْ} ; pour une femme, {ar|اِنْجَحِي}."
+    },
+    {
+      "id": "medine-t2.l14.practice-8#4",
+      "type": "sort",
+      "categories": [ { "fr": "une personne" }, { "fr": "deux personnes" }, { "fr": "plusieurs personnes" } ],
+      "cards": [
+        { "ar": "لَمْ تَدْرُسِي", "category": 0 },
+        { "ar": "لَمْ يَدْرُسْ", "category": 0 },
+        { "ar": "لَمْ تَدْرُسَا", "category": 1 },
+        { "ar": "لَمْ يَدْرُسَا", "category": 1 },
+        { "ar": "لَمْ تَدْرُسُوا", "category": 2 },
+        { "ar": "لَمْ يَدْرُسْنَ", "category": 2 }
+      ],
+      "instruction": "Combien de personnes ?",
+      "explain": "{ar|لَمْ تَدْرُسِي} (une femme) et {ar|لَمْ يَدْرُسْ} : une personne. {ar|لَمْ تَدْرُسَا} et {ar|لَمْ يَدْرُسَا} : deux. {ar|لَمْ تَدْرُسُوا} et {ar|لَمْ يَدْرُسْنَ} : plusieurs."
+    },
+    {
+      "id": "medine-t2.l14.practice-8#5",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la forme de l'impératif de {ar|ضَرَبَ} pour une femme ?" },
+      "choices": [ { "ar": "اِضْرِبِي" }, { "ar": "اِضْرِبَا" }, { "ar": "اِضْرِبُوا" } ],
+      "answer": 0,
+      "explain": "Une femme : {ar|اِضْرِبِي}. {ar|اِضْرِبَا} est pour deux personnes, {ar|اِضْرِبُوا} pour plusieurs hommes."
+    },
+    {
+      "id": "medine-t2.l14.practice-8#6",
+      "type": "fill_gap",
+      "sentence": "هُنَّ لَمْ {0}.",
+      "fr": "Elles n'ont pas frappé.",
+      "gaps": [ { "answers": ["يَضْرِبْنَ"] } ],
+      "options": ["يَضْرِبْنَ", "يَضْرِبُوا", "يَضْرِبَا"],
+      "explain": "« Elles » : le {ar|نَ} des femmes reste : {ar|لَمْ يَضْرِبْنَ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-8#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Frappe, Zayd !",
+      "answers": ["اِضْرِبْ يَا زَيْدُ.", "يَا زَيْدُ اِضْرِبْ."],
+      "explain": "{ar|يَضْرِبُ} → {ar|اِضْرِبْ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-8#8",
+      "type": "true_false",
+      "statement": { "fr": "{ar|لَمْ تَدْرُسَا} s'adresse à deux personnes." },
+      "answer": true,
+      "explain": "Oui : l'alif est le pronom des deux personnes. Cette forme peut être « vous deux » ou « elles deux »."
+    },
+    {
+      "id": "medine-t2.l14.practice-8#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Étudiez, les garçons !",
+      "answers": ["اُدْرُسُوا يَا أَوْلَادُ.", "يَا أَوْلَادُ اُدْرُسُوا."],
+      "explain": "Plusieurs hommes : {ar|اُدْرُسُوا}."
+    }
+  ]
+}

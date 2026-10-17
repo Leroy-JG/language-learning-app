@@ -1,0 +1,118 @@
+{
+  "id": "medine-t2.l14.practice-6",
+  "type": "vocabulary",
+  "title": "Exercice 7 : à qui parle-t-on ?",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l14.practice-6#1",
+      "type": "tip",
+      "title": "Un ordre pour chaque personne",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre fait lire des ordres adressés à un homme, à plusieurs hommes, à une femme et à plusieurs femmes :"
+        },
+        {
+          "type": "table",
+          "header": ["À qui", "Exemple du livre"],
+          "rows": [
+            ["un homme", "{ar|يَا حَامِدُ اِذْهَبْ}"],
+            ["plusieurs hommes", "{ar|يَا إِخْوَانُ اِذْهَبُوا}"],
+            ["une femme", "{ar|يَا آمِنَةُ اِذْهَبِي}"],
+            ["plusieurs femmes", "{ar|يَا أَخَوَاتُ اِذْهَبْنَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Un cas à retenir : {ar|تَعَالَ} (« viens ! ») ne se forme pas sur un présent. Ses formes sont {ar|تَعَالَ}, {ar|تَعَالَيْ} (une femme), {ar|تَعَالَيَا} (deux), {ar|تَعَالَوْا} (plusieurs hommes), {ar|تَعَالَيْنَ} (plusieurs femmes)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.practice-6#2",
+      "type": "fill_gap",
+      "sentence": "يَا طُلَّابُ، {0} الْفَصْلَ {1} الدَّرْسَ.",
+      "fr": "Étudiants, entrez en classe et écrivez la leçon !",
+      "gaps": [ { "answers": ["اُدْخُلُوا"] }, { "answers": ["وَاكْتُبُوا"] } ],
+      "options": ["اُدْخُلُوا", "وَاكْتُبُوا", "اُدْخُلْ", "وَاكْتُبْ"],
+      "explain": "Plusieurs hommes : {ar|اُدْخُلُوا} et {ar|وَاكْتُبُوا}."
+    },
+    {
+      "id": "medine-t2.l14.practice-6#3",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Sors, ma fille, et joue avec ta sœur !",
+      "answers": ["اُخْرُجِي يَا بِنْتُ وَالْعَبِي مَعَ أُخْتِكِ."],
+      "explain": "Une fille : {ar|اُخْرُجِي} et {ar|اِلْعَبِي} (après {ar|وَ} : {ar|وَالْعَبِي}). {ar|أُخْتِكِ} : « ta sœur » (à une fille)."
+    },
+    {
+      "id": "medine-t2.l14.practice-6#4",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Mangez et buvez !",
+      "answers": ["كُلُوا وَاشْرَبُوا."],
+      "explain": "Plusieurs hommes : {ar|كُلُوا} (de {ar|أَكَلَ}) et {ar|وَاشْرَبُوا}."
+    },
+    {
+      "id": "medine-t2.l14.practice-6#5",
+      "type": "fill_gap",
+      "sentence": "{0} يَا آمِنَةُ وَافْتَحِي النَّوَافِذَ.",
+      "fr": "Viens, Āmina, et ouvre les fenêtres !",
+      "gaps": [ { "answers": ["تَعَالَيْ"] } ],
+      "options": ["تَعَالَيْ", "تَعَالَ", "تَعَالَوْا"],
+      "explain": "Āmina est une femme : {ar|تَعَالَيْ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-6#6",
+      "type": "order",
+      "fr": "Adorez Allah et prosternez-vous devant lui !",
+      "answers": [["اُعْبُدُوا", "اللَّهَ", "وَاسْجُدُوا", "لَهُ"]],
+      "punctuation": "!",
+      "explain": "Plusieurs hommes : {ar|اُعْبُدُوا} et {ar|وَاسْجُدُوا}."
+    },
+    {
+      "id": "medine-t2.l14.practice-6#7",
+      "type": "sort",
+      "categories": [ { "fr": "un homme" }, { "fr": "une femme" }, { "fr": "plusieurs personnes" } ],
+      "cards": [
+        { "ar": "اُسْكُتْ يَا وَلَدُ", "category": 0 },
+        { "ar": "اُنْظُرْ هُنَا", "category": 0 },
+        { "ar": "اُخْرُجِي يَا بِنْتُ", "category": 1 },
+        { "ar": "خُذِي كِتَابَكِ", "category": 1 },
+        { "ar": "اِلْعَبُوا بَعْدَ الدَّرْسِ", "category": 2 },
+        { "ar": "اُدْخُلُوا الْفَصْلَ", "category": 2 }
+      ],
+      "instruction": "À qui parle-t-on ?",
+      "explain": "La fin du verbe le dit : un sukūn (un homme), {ar|ي} (une femme), {ar|◌ُوا} (plusieurs hommes)."
+    },
+    {
+      "id": "medine-t2.l14.practice-6#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Jouez après le cours !",
+      "answers": ["اِلْعَبُوا بَعْدَ الدَّرْسِ."],
+      "explain": "{ar|يَلْعَبُونَ} → {ar|اِلْعَبُوا} (kasra, car {ar|لَعِبَ} a une fatha au présent)."
+    },
+    {
+      "id": "medine-t2.l14.practice-6#9",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|تَعَالَيْ} n'a-t-il pas de hamza de liaison ?" },
+      "choices": [
+        { "fr": "Il ne se forme pas sur un présent : c'est une forme à retenir" },
+        { "fr": "Parce qu'il est au passé" },
+        { "fr": "Parce qu'il s'adresse à un homme" }
+      ],
+      "answer": 0,
+      "explain": "{ar|تَعَالَ} se conjugue seul : {ar|تَعَالَيْ} pour une femme, {ar|تَعَالَوْا} pour plusieurs hommes."
+    },
+    {
+      "id": "medine-t2.l14.practice-6#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Prends ton livre, Suʿād !",
+      "answers": ["خُذِي كِتَابَكِ يَا سُعَادُ.", "يَا سُعَادُ خُذِي كِتَابَكِ."],
+      "explain": "Suʿād est une femme : {ar|خُذِي}, et {ar|كِتَابَكِ} : « ton livre » (féminin)."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "medine-t2.l14.practice-5",
+  "type": "vocabulary",
+  "title": "Exercices 5 et 6 : lis et prononce",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l14.practice-5#1",
+      "type": "tip",
+      "title": "Lire les ordres",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ces exercices font lire des ordres en respectant la hamza de liaison et le sukūn devant l'article. Voici le modèle du livre :"
+        },
+        {
+          "type": "table",
+          "header": ["Écrit", "À retenir"],
+          "rows": [
+            ["{ar|اُكْتُبِ الدَّرْسَ.}", "une kasra devant l'article"],
+            ["{ar|اِقْرَأِ الْقُرْآنَ.}", "une kasra devant l'article"],
+            ["{ar|اِشْرَبِ الْقَهْوَةَ.}", "une kasra devant l'article"],
+            ["{ar|كُلْ وَاشْرَبْ.}", "après {ar|وَ}, la hamza de liaison ne se prononce pas"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.practice-5#2",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Mange et bois !",
+      "answers": ["كُلْ وَاشْرَبْ."],
+      "explain": "Après {ar|وَ}, on prononce « wa-shrab »."
+    },
+    {
+      "id": "medine-t2.l14.practice-5#3",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Lis la leçon et comprends-la !",
+      "answers": ["اِقْرَأِ الدَّرْسَ وَافْهَمْهُ."],
+      "explain": "{ar|اِقْرَأِ} (kasra devant l'article), puis {ar|وَافْهَمْهُ} : {ar|اِفْهَمْ} + le pronom {ar|هُ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-5#4",
+      "type": "order",
+      "fr": "Lis et écris !",
+      "answers": [["اِقْرَأْ", "وَاكْتُبْ"]],
+      "punctuation": "!",
+      "explain": "{ar|اِقْرَأْ} puis {ar|وَاكْتُبْ} : la hamza de liaison de {ar|اُكْتُبْ} tombe après {ar|وَ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-5#5",
+      "type": "question",
+      "prompt": { "fr": "Comment lit-on {ar|وَافْهَمْهُ} ?" },
+      "choices": [
+        { "fr": "« wa-fhamhu » : la hamza de liaison ne se prononce pas" },
+        { "fr": "« wa-ifhamhu » : on prononce la hamza" },
+        { "fr": "« wa-ufhamhu » : on prononce une damma" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|وَ}, un mot qui commence par une hamza de liaison se prononce sans elle."
+    },
+    {
+      "id": "medine-t2.l14.practice-5#6",
+      "type": "spot",
+      "instruction": "Touche les deux impératifs qui prennent une kasra devant l'article.",
+      "words": ["اِفْتَحِ", "الْمِذْيَاعَ", "وَاسْمَعِ", "الْأَخْبَارَ"],
+      "answers": [0, 2],
+      "fr": "Ouvre la radio et écoute les nouvelles.",
+      "explain": "{ar|اِفْتَحِ} et {ar|وَاسْمَعِ} sont suivis de l'article : leur sukūn devient une kasra."
+    },
+    {
+      "id": "medine-t2.l14.practice-5#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Prends ce sac et ouvre-le !",
+      "answers": ["خُذْ هٰذِهِ الْحَقِيبَةَ وَافْتَحْهَا."],
+      "explain": "{ar|خُذْ} (sans hamza), puis {ar|وَافْتَحْهَا} : {ar|اِفْتَحْ} + {ar|هَا} (le sac est féminin)."
+    },
+    {
+      "id": "medine-t2.l14.practice-5#8",
+      "type": "fill_gap",
+      "sentence": "اِذْهَبْ إِلَى الْمُدِيرِ {0}.",
+      "fr": "Va chez le directeur et interroge-le !",
+      "gaps": [ { "answers": ["وَاسْأَلْهُ"] } ],
+      "options": ["وَاسْأَلْهُ", "وَيَسْأَلُهُ", "وَسَأَلَهُ"],
+      "explain": "Un ordre : {ar|وَاسْأَلْهُ}, c'est {ar|اِسْأَلْ} + {ar|هُ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-5#9",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|يَا يَحْيَى خُذِ الْكِتَابَ بِقُوَّةٍ}, pourquoi {ar|خُذِ} se termine-t-il par une kasra ?"
+      },
+      "choices": [
+        { "fr": "Pour éviter deux sukūn de suite devant {ar|الْ}" },
+        { "fr": "Parce que Yaḥyā est une femme" },
+        { "fr": "Parce que le verbe est au passé" }
+      ],
+      "answer": 0,
+      "explain": "{ar|خُذْ} + {ar|الْكِتَابَ} : le sukūn devient une kasra, comme pour {ar|اِقْرَأِ الدَّرْسَ}."
+    },
+    {
+      "id": "medine-t2.l14.practice-5#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ô Yaḥyā, prends le Livre avec force !",
+      "answers": ["يَا يَحْيَى خُذِ الْكِتَابَ بِقُوَّةٍ."],
+      "explain": "Paroles adressées à Yaḥyā dans le Coran. {ar|بِقُوَّةٍ} : {ar|بِ} + {ar|قُوَّةٍ} (génitif)."
+    },
+    {
+      "id": "medine-t2.l14.practice-5#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ô Adam, habite le Paradis, toi et ton épouse !",
+      "answers": ["يَا آدَمُ اُسْكُنْ أَنْتَ وَزَوْجُكَ الْجَنَّةَ."],
+      "explain": "Paroles adressées à Adam dans le Coran : {ar|اُسْكُنْ} (damma : {ar|يَسْكُنُ}), puis le pronom {ar|أَنْتَ} pour renforcer."
+    }
+  ]
+}

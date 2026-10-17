@@ -1,0 +1,208 @@
+{
+  "id": "medine-t2.l14.dialogue-1",
+  "type": "dialogue",
+  "title": "Un scorpion dans la classe",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l14.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Un scorpion dans la classe",
+      "intro": "Un nouvel étudiant, Humāyūn, arrive en classe. Pendant le cours, les étudiants découvrent un scorpion. Le texte est plein d'ordres : repère l'impératif.",
+      "speakers": {
+        "M": { "name": "Le professeur", "voice": "m1" },
+        "N": { "name": "Humāyūn", "voice": "m2" },
+        "E": { "name": "Les étudiants", "voice": "m2" },
+        "H": { "name": "Hishām", "voice": "m2" },
+        "A": { "name": "ʿAlī", "voice": "m2" }
+      },
+      "lines": [
+        { "speaker": "M", "ar": "مَنْ بِالْبَابِ؟", "fr": "Qui est à la porte ?" },
+        { "speaker": "N", "ar": "أَنَا طَالِبٌ جَدِيدٌ.", "fr": "Je suis un nouvel étudiant." },
+        { "speaker": "M", "ar": "اُدْخُلْ. مَا اسْمُكَ؟", "fr": "Entre. Comment t'appelles-tu ?" },
+        { "speaker": "N", "ar": "اِسْمِي هُمَايُونُ.", "fr": "Je m'appelle Humāyūn." },
+        {
+          "speaker": "M",
+          "ar": "هُمَايُونُ؟ كَيْفَ تَكْتُبُ هٰذَا الِاسْمَ؟ اُكْتُبْهُ عَلَى هٰذِهِ الْوَرَقَةِ.",
+          "fr": "Humāyūn ? Comment écris-tu ce nom ? Écris-le sur cette feuille."
+        },
+        { "speaker": "E", "ar": "يَا أُسْتَاذُ، هُنَا عَقْرَبٌ.", "fr": "Professeur, il y a ici un scorpion." },
+        {
+          "speaker": "M",
+          "ar": "أَعَقْرَبٌ فِي الْفَصْلِ؟ أَيْنَ هِيَ؟",
+          "fr": "Un scorpion dans la classe ? Où est-il ?"
+        },
+        {
+          "speaker": "E",
+          "ar": "اُنْظُرْ هُنَا يَا أُسْتَاذُ. هِيَ تَحْتَ مَكْتَبِ هِشَامٍ.",
+          "fr": "Regarde ici, professeur. Il est sous le bureau de Hishām."
+        },
+        { "speaker": "M", "ar": "اُقْتُلُوهَا يَا إِخْوَانُ.", "fr": "Tuez-le, mes frères !" },
+        { "speaker": "E", "ar": "بِمَ نَقْتُلُهَا؟", "fr": "Avec quoi le tuons-nous ?" },
+        {
+          "speaker": "M",
+          "ar": "اُقْتُلْهَا بِحِذَائِكَ يَا هِشَامُ. أَمَاتَتْ؟",
+          "fr": "Tue-le avec ta chaussure, Hishām. Est-il mort ?"
+        },
+        { "speaker": "H", "ar": "نَعَمْ. مَاتَتْ.", "fr": "Oui. Il est mort." },
+        {
+          "speaker": "M",
+          "ar": "اِجْلِسُوا يَا أَبْنَائِي. اِقْرَأِ الدَّرْسَ يَا عَلِيُّ.",
+          "fr": "Asseyez-vous, mes enfants. Lis la leçon, ʿAlī."
+        },
+        {
+          "speaker": "A",
+          "ar": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ. بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيمِ. «اِقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ. خَلَقَ الْإِنْسَانَ مِنْ عَلَقٍ».",
+          "fr": "Je cherche refuge auprès d'Allah contre Satan le maudit. Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux. « Lis, au nom de ton Seigneur qui a créé, qui a créé l'être humain d'une adhérence. »"
+        },
+        {
+          "speaker": "A",
+          "ar": "يَا أُسْتَاذُ، حَفِظْتُ هٰذِهِ السُّورَةَ. أَيَّ سُورَةٍ أَحْفَظُ بَعْدَهَا؟",
+          "fr": "Professeur, j'ai mémorisé cette sourate. Quelle sourate dois-je mémoriser après elle ?"
+        },
+        {
+          "speaker": "M",
+          "ar": "اِحْفَظْ سُورَةَ التِّينِ. خُذْ دَفْتَرَكَ هٰذَا وَاكْتُبْ فِيهِ سُورَةَ الْعَلَقِ. يَا أَبَا بَكْرٍ، إِنَّكَ نَعْسَانُ.",
+          "fr": "Mémorise la sourate At-Tīn. Prends ce cahier, le tien, et écris-y la sourate Al-ʿAlaq. Abū Bakr, tu as sommeil !"
+        },
+        {
+          "speaker": "M",
+          "ar": "اِذْهَبْ إِلَى الْحَمَّامِ وَاغْسِلْ وَجْهَكَ. اِفْتَحِ النَّوَافِذَ يَا عَبْدَ اللَّهِ، فَإِنَّ الْغُرْفَةَ مُظْلِمَةٌ وَالْجَوُّ حَارٌّ.",
+          "fr": "Va à la salle de bains et lave-toi le visage. Ouvre les fenêtres, ʿAbd Allāh, car la pièce est sombre et il fait chaud."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ce texte contient quelques formes que tu n'as pas encore étudiées en détail. Il suffit de les repérer : rien n'est exigé en exercice."
+        },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            [
+              "{ar|اُكْتُبْهُ}, {ar|اُقْتُلْهَا}",
+              "écris-le, tue-le",
+              "l'impératif suivi d'un pronom complément collé ({ar|هُ}, {ar|هَا}) ; devant un pronom collé, on n'écrit pas l'alif après le wāw : {ar|اُقْتُلُوهَا}"
+            ],
+            ["{ar|بِمَ}", "avec quoi ?", "{ar|بِ} + {ar|مَا} : l'alif de {ar|مَا} tombe après une préposition"],
+            [
+              "{ar|يَا أَبَا بَكْرٍ}, {ar|يَا عَبْدَ اللَّهِ}",
+              "ô Abū Bakr, ô ʿAbd Allāh",
+              "un nom en annexion que l'on appelle avec {ar|يَا} prend la fatha"
+            ],
+            [
+              "{ar|أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ}",
+              "je cherche refuge auprès d'Allah contre Satan le maudit",
+              "formule qu'on dit avant de lire le Coran ; {ar|أَعُوذُ} est le présent de {ar|عَاذَ}"
+            ],
+            [
+              "{ar|سُورَةُ التِّينِ}, {ar|سُورَةُ الْعَلَقِ}",
+              "la sourate du Figuier (95), la sourate de l'Adhérence (96)",
+              "{ar|اِقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ} en est le premier verset ; la traduction est approchée"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|أَبُو بَكْرٍ} est un nom d'homme. Le professeur rappelle comment il change : {ar|أَبُو} (nominatif), {ar|أَبَا} (accusatif, ou ici après {ar|يَا}), {ar|أَبِي} (génitif : {ar|لِأَبِي بَكْرٍ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l14.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Comment s'appelle le nouvel étudiant ?" },
+      "choices": [ { "fr": "Humāyūn" }, { "fr": "Hishām" }, { "fr": "ʿAlī" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l14.dialogue-1#1" },
+      "explain": "Il répond : {ar|اِسْمِي هُمَايُونُ}."
+    },
+    {
+      "id": "medine-t2.l14.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Que demande le professeur à Humāyūn ?" },
+      "choices": [
+        { "fr": "D'écrire son nom sur une feuille" },
+        { "fr": "De lire une sourate" },
+        { "fr": "De fermer la porte" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l14.dialogue-1#1" },
+      "explain": "{ar|اُكْتُبْهُ عَلَى هٰذِهِ الْوَرَقَةِ} : « écris-le sur cette feuille »."
+    },
+    {
+      "id": "medine-t2.l14.dialogue-1#5",
+      "type": "question",
+      "prompt": { "fr": "Où est le scorpion ?" },
+      "choices": [ { "fr": "Sous le bureau de Hishām" }, { "fr": "Dans le cahier de ʿAlī" }, { "fr": "Derrière la porte" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l14.dialogue-1#1" },
+      "explain": "{ar|هِيَ تَحْتَ مَكْتَبِ هِشَامٍ}."
+    },
+    {
+      "id": "medine-t2.l14.dialogue-1#6",
+      "type": "true_false",
+      "statement": { "ar": "اُقْتُلْهَا بِحِذَائِكَ يَا هِشَامُ.", "fr": "Tue-le avec ta chaussure, Hishām !" },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l14.dialogue-1#1" },
+      "explain": "Oui : c'est l'ordre du professeur, à un seul étudiant."
+    },
+    {
+      "id": "medine-t2.l14.dialogue-1#7",
+      "type": "question",
+      "prompt": { "fr": "Quelle sourate le professeur demande-t-il à ʿAlī de mémoriser ensuite ?" },
+      "choices": [ { "fr": "La sourate At-Tīn" }, { "fr": "La sourate Al-ʿAlaq" }, { "fr": "La sourate An-Naba'" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l14.dialogue-1#1" },
+      "explain": "{ar|اِحْفَظْ سُورَةَ التِّينِ}."
+    },
+    {
+      "id": "medine-t2.l14.dialogue-1#8",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi le professeur envoie-t-il Abū Bakr se laver le visage ?" },
+      "choices": [
+        { "fr": "Parce qu'il a sommeil" },
+        { "fr": "Parce qu'il a tué le scorpion" },
+        { "fr": "Parce qu'il est en retard" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l14.dialogue-1#1" },
+      "explain": "{ar|إِنَّكَ نَعْسَانُ} : « tu as sommeil »."
+    },
+    {
+      "id": "medine-t2.l14.dialogue-1#9",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi le professeur fait-il ouvrir les fenêtres ?" },
+      "choices": [
+        { "fr": "La pièce est sombre et il fait chaud" },
+        { "fr": "Il y a un bruit dans la rue" },
+        { "fr": "Le scorpion est dehors" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l14.dialogue-1#1" },
+      "explain": "{ar|الْغُرْفَةَ مُظْلِمَةٌ وَالْجَوُّ حَارٌّ}."
+    },
+    {
+      "id": "medine-t2.l14.dialogue-1#10",
+      "type": "order",
+      "fr": "Tue-le avec ta chaussure, Hishām !",
+      "answers": [["اُقْتُلْهَا", "بِحِذَائِكَ", "يَا", "هِشَامُ"]],
+      "punctuation": "!",
+      "explain": "Un ordre à un homme : {ar|اُقْتُلْ}, suivi du pronom {ar|هَا}."
+    },
+    {
+      "id": "medine-t2.l14.dialogue-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ouvre les fenêtres, ʿAbd Allāh !",
+      "answers": ["اِفْتَحِ النَّوَافِذَ يَا عَبْدَ اللَّهِ."],
+      "explain": "{ar|يَا عَبْدَ اللَّهِ} : un nom en annexion appelé avec {ar|يَا} prend la fatha."
+    }
+  ]
+}
