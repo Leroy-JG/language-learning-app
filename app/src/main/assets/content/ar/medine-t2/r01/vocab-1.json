@@ -12,7 +12,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le professeur emploie ce verbe dans son exercice sur les pronoms compléments. Voici ses quatre formes, comme dans les tableaux de verbes : tu connais le passé et le présent ; l'impératif et le nom d'action ne sont qu'un aperçu."
+          "text": "Le professeur emploie ce verbe dans son exercice sur les pronoms compléments. Voici ses quatre formes, comme dans les tableaux de verbes : tu connais déjà ces deux formes pour les autres verbes ; l'impératif et le nom d'action ne sont qu'un aperçu."
         },
         {
           "type": "table",
@@ -23,6 +23,11 @@
           "type": "note",
           "tone": "info",
           "text": "Comme {ar|ضَرَبَ}, il demande un complément d'objet direct : {ar|سَاعَدَ زَيْدٌ يَاسِرًا} (Zayd a aidé Yāsir). Le {ar|ي} du présent a une damma : {ar|يُسَاعِدُ}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Ce verbe a la forme {ar|فَاعَلَ} (un {ar|ا} après la première lettre). Les verbes de cette forme font tous {ar|يُفَاعِلُ} au présent : {ar|شَارَكَ} (participer) → {ar|يُشَارِكُ}, {ar|حَاوَلَ} (essayer) → {ar|يُحَاوِلُ}."
         }
       ]
     },

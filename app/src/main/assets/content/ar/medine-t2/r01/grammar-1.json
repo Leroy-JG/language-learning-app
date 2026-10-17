@@ -39,7 +39,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Ces cinq emplois ne sont pas les seuls : la tradition range une quinzaine de mots parmi les accusatifs ({ar|الْمَنْصُوبَاتُ}). Tu en découvriras d'autres plus tard."
+          "text": "Ces cinq emplois ne sont pas les seuls : la tradition range quinze catégories de mots parmi les accusatifs ({ar|الْمَنْصُوبَاتُ}). Tu en découvriras d'autres plus tard."
         },
         {
           "type": "note",
@@ -124,14 +124,14 @@
         { "fr": "C'est le prédicat de {ar|كَانَ}" }
       ],
       "answer": 0,
-      "explain": "Après {ar|كَمْ}, le nom est au singulier et à l'accusatif : c'est la précision. Il n'y a ici ni verbe ni {ar|كَانَ}."
+      "explain": "Après le {ar|كَمْ} de question, le nom est au singulier et à l'accusatif : c'est la précision. Il n'y a ici ni verbe ni {ar|كَانَ}."
     },
     {
       "id": "medine-t2.r01.grammar-1#8",
       "type": "typing",
       "ask": "fr",
       "fr": "Zayd a frappé Yāsir.",
-      "answers": ["ضَرَبَ زَيْدٌ يَاسِرًا."],
+      "answers": ["ضَرَبَ زَيْدٌ يَاسِرًا.", "زَيْدٌ ضَرَبَ يَاسِرًا."],
       "explain": "Le complément d'objet {ar|يَاسِرًا} est à l'accusatif."
     },
     {
@@ -140,7 +140,7 @@
       "ask": "fr",
       "fr": "Combien de stylos y a-t-il dans le sac ?",
       "answers": ["كَمْ قَلَمًا فِي الْحَقِيبَةِ؟"],
-      "explain": "La précision après {ar|كَمْ} : le singulier, à l'accusatif."
+      "explain": "La précision après le {ar|كَمْ} de question : le singulier, à l'accusatif."
     }
   ]
 }

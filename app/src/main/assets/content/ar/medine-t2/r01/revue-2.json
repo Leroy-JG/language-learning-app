@@ -31,12 +31,12 @@
           "header": ["Exception", "Quand ?", "Exemples"],
           "rows": [
             [
-              "{ar|الْأَفْعَالُ الْخَمْسَةُ}",
+              "{ar|الْأَفْعَالُ الْخَمْسَةُ} (les cinq verbes)",
               "le sujet est le {ar|ي} de « toi » (une femme), l'{ar|ا} des deux ou le {ar|و} du groupe",
               "{ar|تَكْتُبِينَ ، يَكْتُبَانِ ، يَكْتُبُونَ}"
             ],
             [
-              "{ar|الْفِعْلُ الْمُعْتَلُّ الْآخِرِ}",
+              "{ar|الْفِعْلُ الْمُعْتَلُّ الْآخِرِ} (le verbe à finale défectueuse)",
               "le verbe se termine par {ar|و}, {ar|ي} ou {ar|ى}",
               "{ar|يَدْعُو ، يَمْشِي ، يَسْعَى}"
             ]
@@ -55,13 +55,13 @@
       "cards": [
         { "ar": "يَكْتُبُ", "category": 0 },
         { "ar": "تَكْتُبِينَ", "category": 1 },
-        { "ar": "يَسْعَى", "category": 1 },
+        { "ar": "لَمْ يَسْعَ", "category": 1 },
         { "ar": "لَمْ يَكْتُبْ", "category": 0 },
         { "ar": "يَذْهَبَانِ", "category": 1 },
         { "ar": "لَنْ نَذْهَبَ", "category": 0 }
       ],
       "instruction": "La marque du cas de ce verbe est-elle de base ou secondaire ?",
-      "explain": "Les trois marques de base sont la damma, la fatha et le sukūn ({ar|يَكْتُبُ}, {ar|لَنْ نَذْهَبَ}, {ar|لَمْ يَكْتُبْ}). {ar|تَكْتُبِينَ} et {ar|يَذْهَبَانِ} gardent un {ar|ن} (les cinq verbes) ; {ar|يَسْعَى} se termine par une lettre défectueuse."
+      "explain": "Les trois marques de base sont la damma, la fatha et le sukūn ({ar|يَكْتُبُ}, {ar|لَنْ نَذْهَبَ}, {ar|لَمْ يَكْتُبْ}). {ar|تَكْتُبِينَ} et {ar|يَذْهَبَانِ} gardent un {ar|ن} (les cinq verbes) ; dans {ar|لَمْ يَسْعَ}, la marque du jussif est la chute de la lettre défectueuse."
     },
     {
       "id": "medine-t2.r01.revue-2#3",

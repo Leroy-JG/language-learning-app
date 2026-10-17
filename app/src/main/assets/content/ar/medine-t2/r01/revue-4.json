@@ -96,7 +96,7 @@
       "answers": [["لَمْ", "أَرَ", "زَيْدًا"]],
       "punctuation": ".",
       "distractors": ["لَنْ"],
-      "explain": "{ar|رَأَى} finit par {ar|ى} : après {ar|لَمْ}, il tombe et la fatha reste : {ar|لَمْ أَرَ}."
+      "explain": "Le présent {ar|أَرَى} (de {ar|رَأَى}) finit par {ar|ى} : après {ar|لَمْ}, le {ar|ى} tombe et la fatha du {ar|ر} reste : {ar|لَمْ أَرَ}."
     },
     {
       "id": "medine-t2.r01.revue-4#9",

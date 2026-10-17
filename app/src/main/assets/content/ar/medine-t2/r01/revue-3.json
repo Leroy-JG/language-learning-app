@@ -49,7 +49,7 @@
         { "ar": "أَسْمَعُ", "category": 1 }
       ],
       "instruction": "Est-ce l'un des cinq verbes ?",
-      "explain": "Les cinq verbes se terminent par {ar|◌َانِ}, {ar|◌ِينَ} ou {ar|◌ُونَ}. {ar|يَجْلِسْنَ} a le {ar|نَ} des femmes ; {ar|تَفْتَحُ} et {ar|أَسْمَعُ} n'ont aucun pronom collé."
+      "explain": "Les cinq verbes se terminent par {ar|◌َانِ}, {ar|◌ِينَ} ou {ar|◌ُونَ}. {ar|يَجْلِسْنَ} a le {ar|نَ} des femmes ; {ar|تَفْتَحُ} et {ar|أَسْمَعُ} ont un sujet caché, sans pronom apparent."
     },
     {
       "id": "medine-t2.r01.revue-3#3",

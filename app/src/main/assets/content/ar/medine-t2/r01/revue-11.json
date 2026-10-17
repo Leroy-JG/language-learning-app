@@ -65,7 +65,7 @@
       "id": "medine-t2.r01.revue-11#4",
       "type": "fill_gap",
       "sentence": "فِي الْفَصْلِ {0} طَالِبًا وَ{1} طَالِبَةً.",
-      "fr": "Dans la classe, il y a quatorze garçons et seize filles.",
+      "fr": "Dans la classe, il y a quatorze étudiants et seize étudiantes.",
       "gaps": [ { "answers": ["أَرْبَعَةَ عَشَرَ"] }, { "answers": ["سِتَّ عَشْرَةَ"] } ],
       "options": ["أَرْبَعَةَ عَشَرَ", "أَرْبَعَ عَشْرَةَ", "سِتَّةَ عَشَرَ", "سِتَّ عَشْرَةَ"],
       "explain": "{ar|طَالِبٌ} est masculin : {ar|أَرْبَعَةَ عَشَرَ}. {ar|طَالِبَةٌ} est féminin : {ar|سِتَّ عَشْرَةَ}."

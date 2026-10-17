@@ -62,8 +62,8 @@
       "id": "medine-t2.r01.revue-13#4",
       "type": "typing",
       "ask": "fr",
-      "fr": "Ce téléviseur coûte 1000 riyals.",
-      "answers": ["هٰذَا التِّلْفَازُ بِأَلْفِ رِيَالٍ."],
+      "fr": "Ce téléviseur coûte 1 000 riyals.",
+      "answers": ["هٰذَا التِّلْفَازُ بِأَلْفِ رِيَالٍ.", "ثَمَنُ هٰذَا التِّلْفَازِ أَلْفُ رِيَالٍ."],
       "explain": "{ar|بِ} + {ar|أَلْفِ} (au génitif, premier terme d'une annexion) + {ar|رِيَالٍ} (au singulier, au génitif)."
     },
     {
@@ -79,7 +79,7 @@
       "id": "medine-t2.r01.revue-13#6",
       "type": "order",
       "fr": "Il y a douze mois dans l'année.",
-      "answers": [["فِي", "السَّنَةِ", "اِثْنَا", "عَشَرَ", "شَهْرًا"]],
+      "answers": [["فِي", "السَّنَةِ", "اِثْنَا", "عَشَرَ", "شَهْرًا"], ["اِثْنَا", "عَشَرَ", "شَهْرًا", "فِي", "السَّنَةِ"]],
       "punctuation": ".",
       "explain": "Le nombre est le sujet, placé après {ar|فِي السَّنَةِ} : nominatif, {ar|اِثْنَا}. {ar|شَهْرٌ} est masculin : {ar|عَشَرَ}."
     },
@@ -88,7 +88,14 @@
       "type": "typing",
       "ask": "question",
       "question": "بِكَمْ هٰذِهِ الْحَقِيبَةُ؟",
-      "answers": ["هِيَ بِمِائَةِ رِيَالٍ.", "هِيَ بِمِئَةِ رِيَالٍ."],
+      "answers": [
+        "هِيَ بِمِائَةِ رِيَالٍ.",
+        "هِيَ بِمِئَةِ رِيَالٍ.",
+        "بِمِائَةِ رِيَالٍ.",
+        "بِمِئَةِ رِيَالٍ.",
+        "هٰذِهِ الْحَقِيبَةُ بِمِائَةِ رِيَالٍ.",
+        "هٰذِهِ الْحَقِيبَةُ بِمِئَةِ رِيَالٍ."
+      ],
       "fr": "Combien coûte ce sac ? Il coûte 100 riyals.",
       "instruction": "Réponds : le sac coûte 100 riyals.",
       "explain": "{ar|بِ} + {ar|مِائَةِ} + {ar|رِيَالٍ} : le nombre est au génitif après {ar|بِ}, le dénombré reste au singulier."
@@ -118,7 +125,7 @@
       "type": "typing",
       "ask": "audio",
       "fr": "Il y a vingt leçons dans ce livre.",
-      "answers": ["فِي هٰذَا الْكِتَابِ عِشْرُونَ دَرْسًا."],
+      "answers": ["فِي هٰذَا الْكِتَابِ عِشْرُونَ دَرْسًا.", "عِشْرُونَ دَرْسًا فِي هٰذَا الْكِتَابِ."],
       "explain": "La dizaine {ar|عِشْرُونَ} est le sujet, au nominatif ; le dénombré {ar|دَرْسًا} est au singulier, à l'accusatif."
     }
   ]

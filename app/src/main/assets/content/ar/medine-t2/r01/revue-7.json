@@ -125,7 +125,7 @@
       "id": "medine-t2.r01.revue-7#8",
       "type": "order",
       "fr": "Zayd était étudiant.",
-      "answers": [["كَانَ", "زَيْدٌ", "طَالِبًا"]],
+      "answers": [["كَانَ", "زَيْدٌ", "طَالِبًا"], ["زَيْدٌ", "كَانَ", "طَالِبًا"]],
       "punctuation": ".",
       "distractors": ["لَيْسَ"],
       "explain": "{ar|كَانَ} : le passé ; {ar|لَيْسَ} nierait la phrase. Le prédicat {ar|طَالِبًا} est à l'accusatif."
@@ -147,7 +147,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Le directeur était assis.",
-      "answers": ["كَانَ الْمُدِيرُ جَالِسًا."],
+      "answers": ["كَانَ الْمُدِيرُ جَالِسًا.", "الْمُدِيرُ كَانَ جَالِسًا."],
       "explain": "{ar|كَانَ} + le sujet au nominatif + le prédicat à l'accusatif : {ar|جَالِسًا}."
     },
     {

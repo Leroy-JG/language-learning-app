@@ -63,7 +63,7 @@ forme avec / sans `ة`, cas du dénombré), `spot` (le nom invariable, le verbe 
   « cent » et « mille ».
 - **`الْعَدَدُ الْمُضَافُ`** : le PDF donne le même nom à deux familles (3 à 10, annexé à un pluriel ; 100 et 1000, annexé à un singulier). L'app montre les quatre familles et dit que les trois noms servent à quatre familles.
 - **`الْعَدَدُ الْمَعْطُوفُ`** : le PDF range dans cette famille toute la tranche de 20 à 99, y compris les dizaines rondes (`عِشْرُونَ`…), qui n'ont pas de `وَ` ; la note de l'élément le dit.
-- **Les cinq raisons de l'accusatif** : le plan de la partie 3 est le schéma de `الْإِعْرَابُ` avec cinq feuilles sous `النَّصْبُ` (le schéma ne dit pas que la liste est complète). L'app écrit « cinq emplois, pas les seuls » (la tradition en compte une
+- **Les cinq raisons de l'accusatif** : le plan de la partie 3 est le schéma de `الْإِعْرَابُ` avec cinq feuilles sous `النَّصْبُ` (le schéma ne dit pas que la liste est complète). L'app écrit « cinq emplois, pas les seuls » (la tradition en compte quinze catégories,
   quinzaine, voir plus bas) et reprend les exemples du professeur (`فَوْقَ`, `إِنَّ زَيْدًا جَالِسٌ`, `لَيْسَ زَيْدٌ جَالِسًا`, `ضَرَبَ زَيْدٌ يَاسِرًا`, `كَمْ طَالِبًا فِي الْفَصْلِ`) ; le PDF écrit `قَائِمٌ` et `قَائِمًا` : l'app prend `جَالِسٌ`
   (déjà enseigné). L'adverbe de lieu garde la fatha « tant qu'aucune préposition ne le précède » (`مِنْ فَوْقِ`).
 - **Résumé du PDF sur les verbes à finale défectueuse** (« au nominatif et à l'accusatif, les signes sont ceux de la règle de base, mais sous-entendus ») : l'app suit la précision de l'autre diapositive et du chapitre 13 (la fatha se voit sur `و` et `ي`,
@@ -77,8 +77,24 @@ forme avec / sans `ة`, cas du dénombré), `spot` (le nom invariable, le verbe 
 ## Explications ajoutées (données à l'oral, absentes du PDF)
 
 - **Formule classique** pour retenir les deux familles : `تَنْصِبُ الِاسْمَ وَتَرْفَعُ الْخَبَرَ` (`إِنَّ` et ses sœurs) et `تَرْفَعُ الِاسْمَ وَتَنْصِبُ الْخَبَرَ` (`كَانَ` et ses sœurs), ainsi qu'il est dit dans les manuels de base (`الْآجُرُّومِيَّةُ`).
-- **La liste des accusatifs** : la tradition range une quinzaine de mots parmi `الْمَنْصُوبَاتُ` (`الْآجُرُّومِيَّةُ` en compte quinze) ; les cinq du professeur n'en sont qu'une partie.
+- **La liste des accusatifs** : la tradition range quinze catégories de mots parmi `الْمَنْصُوبَاتُ` (`الْآجُرُّومِيَّةُ` en compte quinze) ; les cinq du professeur n'en sont qu'une partie.
 - **Adverbe et préposition** : `فَوْقَ الْمَكْتَبِ` (accusatif) mais `مِنْ فَوْقِ الْمَكْتَبِ` (génitif).
 - **La voyelle de `هُ`, `هُمَا`, `هُمْ`, `هُنَّ`** devient une kasra après une kasra ou un `ي` (`عَلَيْهِ`, `بِهِمْ`) : règle déjà vue au tome 1 (`هُ` → `هِ`), généralisée aux autres pronoms.
 - **`الْعَطْفُ`** : « la coordination » (le mot que `الْعَدَدُ الْمَعْطُوفُ` emploie) ; **`مُرَكَّبٌ`** : « composé, assemblé ».
 - **Pronoms collés** : rappel des trois emplois (sujet du verbe, complément du verbe ou sujet de `إِنَّ`, après une préposition ou un nom) et que « moi » est `نِي` après un verbe, `ي` après un nom ou une préposition.
+
+## Corrections faites après la relecture
+
+Trois relecteurs indépendants (arabe et fidélité aux PDF, exercices, français et pédagogie) : aucune erreur dans les formes arabes ni dans les corrigés. Remarques vérifiées et prises en compte :
+
+- **« Moi » après une préposition** : `نِي` après un verbe, `ي` après un nom ou une préposition, **sauf** après `مِنْ` et `عَنْ` (`مِنِّي`, `عَنِّي`) ; la voyelle de `هُ`… devient une kasra après une kasra ou un `ي` **sans voyelle** (`عَلَيْهِ`, `فِيهِ`).
+- **`طَالِبٌ` / `طَالِبَةٌ`** : « étudiant / étudiante » (et non « garçon / fille ») dans `revue-11`.
+- **`رَأَى`** : après `لَمْ`, c'est le présent `أَرَى` qui perd son `ى` (explication de `revue-4`).
+- **`لَعَلَّ`** : « j'espère que Zayd réussit » (indicatif) à la place de « espérons que Zayd réussisse ».
+- **« Une quinzaine de mots »** devient « quinze catégories de mots » (`الْمَنْصُوبَاتُ` : quinze, dont les quatre suiveurs).
+- **Carte `يَسْعَى` de `revue-2`** remplacée par `لَمْ يَسْعَ` : au nominatif, la damma existe (cachée) ; seule la chute de la lettre au jussif est une marque secondaire sans ambiguïté.
+- **`كَمْ`** : les explications disent « le `كَمْ` de question » (le `كَمْ` exclamatif est suivi du génitif).
+- **Glose et renvois** : `النَّوَاسِخُ` (« les abrogeants ») glosé dans `revue-6` ; « au chapitre 1 de ce tome » ; les deux exceptions de `revue-2` traduites ; « sujet caché, sans pronom apparent » (et non « aucun pronom collé ») dans `revue-3` ; « 21 à 99 » pour la liaison par `وَ`.
+- **Réponses acceptées en plus** : `زَيْدٌ ضَرَبَ يَاسِرًا`, `الْمُدِيرُ كَانَ جَالِسًا`, `زَيْدٌ كَانَ طَالِبًا` ; `اِثْنَا عَشَرَ شَهْرًا فِي السَّنَةِ` ; `بِمِائَةِ رِيَالٍ` (avec ou sans `هٰذِهِ الْحَقِيبَةُ`) ; `ثَمَنُ هٰذَا التِّلْفَازِ أَلْفُ رِيَالٍ` ; `عِشْرُونَ دَرْسًا فِي هٰذَا الْكِتَابِ`.
+  **Non ajoutés** : `زَيْدٌ لَيْسَ جَالِسًا` (ordre rare, il change l'analyse de `لَيْسَ`), `يُسَاعِدُ يَاسِرًا زَيْدٌ` ; les autres cas du nombre (`ثَلَاثَةٍ وَعِشْرِينَ`, `ثَلَاثَ سَيَّارَاتٍ`) sont déjà acceptés, la correction ignorant les harakat.
+- **Ajout d'oral certain** : les verbes de la forme `فَاعَلَ` font `يُفَاعِلُ` au présent (`شَارَكَ` → `يُشَارِكُ`, `حَاوَلَ` → `يُحَاوِلُ`), dans la note de `vocab-1`.

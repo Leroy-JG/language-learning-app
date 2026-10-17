@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Les {ar|النَّوَاسِخُ} sont des verbes ou des particules qui agissent sur la phrase nominale de deux manières : ils changent son sens, et ils changent le cas de ses deux éléments (le sujet et le prédicat). {ar|إِنَّ وَأَخَوَاتُهَا} sont les particules ; {ar|كَانَ وَأَخَوَاتُهَا} sont les verbes (activité suivante)."
+          "text": "Les {ar|النَّوَاسِخُ} (les abrogeants) sont des verbes ou des particules qui agissent sur la phrase nominale de deux manières : ils changent son sens, et ils changent le cas de ses deux éléments (le sujet et le prédicat). {ar|إِنَّ وَأَخَوَاتُهَا} sont les particules ; {ar|كَانَ وَأَخَوَاتُهَا} sont les verbes (activité suivante)."
         },
         {
           "type": "paragraph",
@@ -29,7 +29,7 @@
             [
               "{ar|لَعَلَّ}",
               "espérer ({ar|التَّرَجِّي})",
-              "{ar|لَعَلَّ زَيْدًا نَاجِحٌ} : espérons que Zayd réussisse"
+              "{ar|لَعَلَّ زَيْدًا نَاجِحٌ} : j'espère que Zayd réussit"
             ],
             [
               "{ar|لَكِنَّ}",
@@ -51,7 +51,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "La tradition en compte six, avec {ar|لَيْتَ} (« si seulement… »), vue en aperçu au chapitre 1."
+          "text": "La tradition en compte six, avec {ar|لَيْتَ} (« si seulement… »), vue en aperçu au chapitre 1 de ce tome."
         }
       ]
     },
@@ -70,7 +70,7 @@
             },
             {
               "from": { "ar": "زَيْدٌ نَاجِحٌ", "fr": "Zayd réussit" },
-              "to": { "ar": "لَعَلَّ زَيْدًا نَاجِحٌ", "fr": "Espérons que Zayd réussisse" },
+              "to": { "ar": "لَعَلَّ زَيْدًا نَاجِحٌ", "fr": "J'espère que Zayd réussit" },
               "label": "même effet, un autre sens"
             },
             {

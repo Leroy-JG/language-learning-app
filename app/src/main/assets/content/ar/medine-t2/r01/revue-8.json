@@ -33,7 +33,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Les pronoms de l'accusatif sont, à peu de choses près, les mêmes que ceux du génitif : {ar|كَ}, {ar|كِ}, {ar|كُمَا}, {ar|هُ}, {ar|هَا}… Les deux détails : « moi » est {ar|نِي} après un verbe et {ar|ي} après un nom ou une préposition ; et la voyelle de {ar|هُ}, {ar|هُمَا}, {ar|هُمْ}, {ar|هُنَّ} devient une kasra après une kasra ou un {ar|ي} ({ar|عَلَيْهِ}, {ar|بِهِمْ})."
+          "text": "Les pronoms de l'accusatif sont, à peu de choses près, les mêmes que ceux du génitif : {ar|كَ}, {ar|كِ}, {ar|كُمَا}, {ar|هُ}, {ar|هَا}… Les deux détails : « moi » est {ar|نِي} après un verbe et {ar|ي} après un nom ou une préposition (sauf après {ar|مِنْ} et {ar|عَنْ} : {ar|مِنِّي}, {ar|عَنِّي}) ; et la voyelle de {ar|هُ}, {ar|هُمَا}, {ar|هُمْ}, {ar|هُنَّ} devient une kasra après une kasra ou un {ar|ي} sans voyelle ({ar|عَلَيْهِ}, {ar|فِيهِ}, {ar|بِهِمْ})."
         }
       ]
     },
