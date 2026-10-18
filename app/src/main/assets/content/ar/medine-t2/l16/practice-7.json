@@ -1,0 +1,114 @@
+{
+  "id": "medine-t2.l16.practice-7",
+  "type": "vocabulary",
+  "title": "Le Coran, son exemplaire et {ar|غَيْرُ}",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l16.practice-7#1",
+      "type": "tip",
+      "title": "Dis-le comme le professeur",
+      "blocks": [
+        { "type": "paragraph", "text": "Le professeur donne ces deux séries de phrases :" },
+        {
+          "type": "table",
+          "header": ["On dit {ar|الْقُرْآنُ}", "On dit {ar|الْمُصْحَفُ}"],
+          "rows": [
+            ["{ar|الْقُرْآنُ كِتَابُ اللَّهِ.}", "{ar|عِنْدِي ثَلَاثَةُ مَصَاحِفَ.}"],
+            ["{ar|قَرَأْتُ الْقُرْآنَ.}", "{ar|وَضَعْتُ الْمُصْحَفَ عَلَى الْمَكْتَبِ.}"],
+            ["{ar|أَحْفَظُ الْقُرْآنَ.}", "{ar|أَقْرَأُ مِنَ الْمُصْحَفِ.}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.practice-7#2",
+      "type": "sort",
+      "categories": [ { "fr": "{ar|الْقُرْآنُ}" }, { "fr": "{ar|الْمُصْحَفُ}" } ],
+      "cards": [
+        { "fr": "la parole d'Allah, qu'on récite", "category": 0 },
+        { "fr": "le livre posé sur le bureau", "category": 1 },
+        { "fr": "on en a trois chez soi", "category": 1 },
+        { "fr": "on le mémorise", "category": 0 },
+        { "fr": "on le tient dans les mains", "category": 1 },
+        { "fr": "on l'a lu", "category": 0 }
+      ],
+      "instruction": "Que veut dire chaque phrase du professeur ?",
+      "explain": "Le professeur dit {ar|الْقُرْآنُ} pour la parole qu'on lit, qu'on récite et qu'on mémorise, et {ar|الْمُصْحَفُ} pour le livre qu'on tient, qu'on pose et qu'on compte."
+    },
+    {
+      "id": "medine-t2.l16.practice-7#3",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai lu le Coran.",
+      "answers": ["قَرَأْتُ الْقُرْآنَ."],
+      "explain": "{ar|قَرَأْتُ} : j'ai lu ; {ar|الْقُرْآنَ} : complément d'objet, à la fatha."
+    },
+    {
+      "id": "medine-t2.l16.practice-7#4",
+      "type": "order",
+      "fr": "Je lis dans l'exemplaire du Coran.",
+      "answers": [["أَقْرَأُ", "مِنَ", "الْمُصْحَفِ"]],
+      "punctuation": ".",
+      "explain": "{ar|مِنَ الْمُصْحَفِ} : « dans l'exemplaire du Coran »."
+    },
+    {
+      "id": "medine-t2.l16.practice-7#5",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai trois exemplaires du Coran.",
+      "answers": ["عِنْدِي ثَلَاثَةُ مَصَاحِفَ."],
+      "explain": "{ar|ثَلَاثَةُ مَصَاحِفَ} : trois + pluriel au génitif ; {ar|مَصَاحِفَ} n'a pas de tanwin, il prend la fatha."
+    },
+    {
+      "id": "medine-t2.l16.practice-7#6",
+      "type": "tip",
+      "title": "{ar|غَيْرُ} dans les phrases du livre",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Sans {ar|غَيْرُ}", "Avec {ar|غَيْرُ}"],
+          "rows": [
+            ["{ar|هٰذَا الْوَرَقُ مُسَطَّرٌ.}", "{ar|هٰذَا الْوَرَقُ غَيْرُ مُسَطَّرٍ.}"],
+            ["{ar|هٰذَا الْخَبَرُ صَحِيحٌ.}", "{ar|هٰذَا الْخَبَرُ غَيْرُ صَحِيحٍ.}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|غَيْرُ} est le premier terme d'une annexion : il n'a pas de tanwin, et le mot qui le suit est au génitif ({ar|مُسَطَّرٍ}, {ar|صَحِيحٍ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.practice-7#7",
+      "type": "order",
+      "fr": "Ce papier n'est pas réglé (avec {ar|غَيْرُ}).",
+      "answers": [["هٰذَا", "الْوَرَقُ", "غَيْرُ", "مُسَطَّرٍ"]],
+      "punctuation": ".",
+      "explain": "{ar|غَيْرُ مُسَطَّرٍ} : « pas réglé »."
+    },
+    {
+      "id": "medine-t2.l16.practice-7#8",
+      "type": "true_false",
+      "statement": { "fr": "{ar|هٰذَا الْخَبَرُ غَيْرُ صَحِيحٍ} veut dire « cette information est exacte »." },
+      "answer": false,
+      "explain": "Non : {ar|غَيْرُ} nie. La phrase veut dire « cette information n'est pas exacte »."
+    },
+    {
+      "id": "medine-t2.l16.practice-7#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Cette information n'est pas exacte (avec {ar|غَيْرُ}).",
+      "answers": ["هٰذَا الْخَبَرُ غَيْرُ صَحِيحٍ."],
+      "explain": "{ar|غَيْرُ صَحِيحٍ} : « inexact »."
+    },
+    {
+      "id": "medine-t2.l16.practice-7#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ce papier est réglé.",
+      "answers": ["هٰذَا الْوَرَقُ مُسَطَّرٌ."],
+      "explain": "Sans {ar|غَيْرُ} : {ar|مُسَطَّرٌ} garde le tanwin de la damma."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "medine-t2.l16.grammar-4",
+  "type": "grammar",
+  "title": "Un autre, une autre",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l16.grammar-4#1",
+      "type": "tip",
+      "title": "{ar|آخَرُ} et {ar|أُخْرَى}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur présente deux mots qui s'emploient comme **adjectifs** pour dire « un autre » et « une autre » : {ar|آخَرُ} (masculin) et {ar|أُخْرَى} (féminin). Ils se placent après le nom, et tous les deux sont privés de tanwin."
+        },
+        {
+          "type": "table",
+          "header": ["Emploi", "Nom masculin", "Nom féminin"],
+          "rows": [
+            ["un autre, une autre", "{ar|كِتَابٌ آخَرُ}", "{ar|مَجَلَّةٌ أُخْرَى}"],
+            ["l'autre", "{ar|الْكِتَابُ الْآخَرُ}", "{ar|الْمَجَلَّةُ الْأُخْرَى}"]
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t2.l16.grammar-4#2", "type": "present", "item": "w:akhar" },
+    {
+      "id": "medine-t2.l16.grammar-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:akhar",
+      "distractors": ["w:jadid", "w:kabir"],
+      "explain": "{ar|آخَرُ} : un autre. {ar|جَدِيدٌ} veut dire « nouveau » et {ar|كَبِيرٌ} « grand »."
+    },
+    {
+      "id": "medine-t2.l16.grammar-4#4",
+      "type": "tip",
+      "title": "Une famille de mots",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|آخَرُ} est de la même famille que {ar|أَخِيرٌ} (« dernier », chapitre 13) et {ar|مُتَأَخِّرًا} (« en retard »)."
+        },
+        {
+          "type": "note",
+          "text": "Le féminin {ar|أُخْرَى} se termine par le {ar|ى} du féminin (chapitre 6 du tome 1). Tu l'as déjà vu au chapitre 10 : {ar|مَرَّةً أُخْرَى} (« une autre fois »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.grammar-4#5",
+      "type": "fill_gap",
+      "sentence": "اِشْتَرَيْتُ كِتَابًا {0}.",
+      "fr": "J'ai acheté un autre livre.",
+      "gaps": [ { "answers": ["آخَرَ"] } ],
+      "options": ["آخَرَ", "أُخْرَى"],
+      "explain": "{ar|كِتَابٌ} est masculin : {ar|آخَرَ} (fatha, car c'est un complément d'objet sans tanwin)."
+    },
+    {
+      "id": "medine-t2.l16.grammar-4#6",
+      "type": "fill_gap",
+      "sentence": "رَأَيْتُ سَيَّارَةً {0}.",
+      "fr": "J'ai vu une autre voiture.",
+      "gaps": [ { "answers": ["أُخْرَى"] } ],
+      "options": ["آخَرَ", "أُخْرَى"],
+      "explain": "{ar|سَيَّارَةٌ} est féminin : {ar|أُخْرَى}."
+    },
+    {
+      "id": "medine-t2.l16.grammar-4#7",
+      "type": "sort",
+      "categories": [ { "fr": "un nom masculin" }, { "fr": "un nom féminin" } ],
+      "cards": [
+        { "ar": "قَلَمٌ آخَرُ", "category": 0 },
+        { "ar": "حَقِيبَةٌ أُخْرَى", "category": 1 },
+        { "ar": "بَابٌ آخَرُ", "category": 0 },
+        { "ar": "مَجَلَّةٌ أُخْرَى", "category": 1 },
+        { "ar": "طَالِبٌ آخَرُ", "category": 0 },
+        { "ar": "طَالِبَةٌ أُخْرَى", "category": 1 }
+      ],
+      "instruction": "Le nom est-il masculin ou féminin ?",
+      "explain": "{ar|آخَرُ} accompagne un nom masculin ; {ar|أُخْرَى} un nom féminin."
+    },
+    {
+      "id": "medine-t2.l16.grammar-4#8",
+      "type": "true_false",
+      "statement": { "fr": "{ar|آخَرُ} et {ar|أُخْرَى} prennent le tanwin." },
+      "answer": false,
+      "explain": "Non : les deux sont privés de tanwin ({ar|مَمْنُوعٌ مِنَ الصَّرْفِ})."
+    },
+    {
+      "id": "medine-t2.l16.grammar-4#9",
+      "type": "order",
+      "fr": "Où est l'autre livre ?",
+      "answers": [["أَيْنَ", "الْكِتَابُ", "الْآخَرُ"]],
+      "punctuation": "؟",
+      "explain": "Avec l'article : {ar|الْكِتَابُ الْآخَرُ}."
+    },
+    {
+      "id": "medine-t2.l16.grammar-4#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai une autre voiture.",
+      "answers": ["عِنْدِي سَيَّارَةٌ أُخْرَى."],
+      "explain": "{ar|سَيَّارَةٌ} est féminin : {ar|أُخْرَى}."
+    }
+  ]
+}

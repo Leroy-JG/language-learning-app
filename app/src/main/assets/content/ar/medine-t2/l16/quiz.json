@@ -1,0 +1,209 @@
+{
+  "id": "medine-t2.l16.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l16.quiz#1",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:akhdar-f",
+      "distractors": ["w:akhdar", "w:azraq-f"],
+      "explain": "« Vert (au féminin) » : {ar|خَضْرَاءُ}. {ar|أَخْضَرُ} est le masculin ; {ar|زَرْقَاءُ} veut dire « bleu » au féminin."
+    },
+    {
+      "id": "medine-t2.l16.quiz#2",
+      "type": "sort",
+      "categories": [ { "fr": "un nom masculin" }, { "fr": "un nom féminin" } ],
+      "cards": [
+        { "ar": "مِنْدِيلٌ أَبْيَضُ", "category": 0 },
+        { "ar": "وَرَقَةٌ بَيْضَاءُ", "category": 1 },
+        { "ar": "الْقَلَمُ الْأَسْوَدُ", "category": 0 },
+        { "ar": "الْحَقِيبَةُ الزَّرْقَاءُ", "category": 1 },
+        { "ar": "رَجُلٌ أَسْمَرُ", "category": 0 },
+        { "ar": "اِمْرَأَةٌ سَمْرَاءُ", "category": 1 }
+      ],
+      "instruction": "Le nom décrit par chaque couleur est-il masculin ou féminin ?",
+      "explain": "{ar|أَفْعَلُ} va avec un nom masculin, {ar|فَعْلَاءُ} avec un nom féminin."
+    },
+    {
+      "id": "medine-t2.l16.quiz#3",
+      "type": "fill_gap",
+      "sentence": "رَأَيْتُ شَجَرَةً {0}.",
+      "fr": "J'ai vu un arbre vert.",
+      "gaps": [ { "answers": ["خَضْرَاءَ"] } ],
+      "options": ["خَضْرَاءَ", "أَخْضَرَ", "حَمْرَاءَ"],
+      "explain": "{ar|شَجَرَةٌ} est féminin : {ar|خَضْرَاءَ}, à la fatha (complément d'objet, sans tanwin)."
+    },
+    {
+      "id": "medine-t2.l16.quiz#4",
+      "type": "question",
+      "prompt": {
+        "fr": "Après une préposition, par quelle voyelle se termine une couleur féminine indéfinie, comme {ar|حَمْرَاءَ} dans {ar|فِي حَقِيبَةٍ حَمْرَاءَ} ?"
+      },
+      "choices": [ { "fr": "Une fatha, sans tanwin" }, { "fr": "Une kasra avec tanwin" }, { "fr": "Une damma" } ],
+      "answer": 0,
+      "explain": "Elle est privée de tanwin : la fatha remplace la kasra."
+    },
+    {
+      "id": "medine-t2.l16.quiz#5",
+      "type": "true_false",
+      "statement": { "fr": "Avec l'article, la couleur féminine garde sa forme : {ar|الْحَمْرَاءُ}." },
+      "answer": true,
+      "explain": "Oui : seule la fin change selon le cas. La forme {ar|فَعْلَاءُ} reste."
+    },
+    {
+      "id": "medine-t2.l16.quiz#6",
+      "type": "fill_gap",
+      "sentence": "مَاذَا {0} يَا سُعَادُ؟",
+      "fr": "Que veux-tu, Suʿād ?",
+      "gaps": [ { "answers": ["تُرِيدِينَ"] } ],
+      "options": ["تُرِيدِينَ", "تُرِيدُ", "تُرِدْنَ"],
+      "explain": "Suʿād est une fille : {ar|تُرِيدِينَ}."
+    },
+    {
+      "id": "medine-t2.l16.quiz#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les filles veulent un autre sac.",
+      "answers": ["الْبَنَاتُ يُرِدْنَ حَقِيبَةً أُخْرَى.", "تُرِيدُ الْبَنَاتُ حَقِيبَةً أُخْرَى."],
+      "explain": "{ar|يُرِدْنَ} : « elles veulent » ; {ar|حَقِيبَةً أُخْرَى} : « un autre sac »."
+    },
+    {
+      "id": "medine-t2.l16.quiz#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أُرِيدُ دَفْتَرًا آخَرَ}, pourquoi {ar|آخَرَ} ?" },
+      "choices": [
+        { "fr": "Il décrit un nom masculin à l'accusatif" },
+        { "fr": "Il décrit un nom féminin" },
+        { "fr": "Il est au duel" }
+      ],
+      "answer": 0,
+      "explain": "{ar|دَفْتَرٌ} est masculin et complément d'objet : {ar|آخَرَ}, avec la fatha."
+    },
+    {
+      "id": "medine-t2.l16.quiz#9",
+      "type": "sort",
+      "categories": [
+        { "fr": "{ar|مَا} qui nie" },
+        { "fr": "{ar|مَا} qui interroge" },
+        { "fr": "{ar|مَا} qui veut dire « ce que »" }
+      ],
+      "cards": [
+        { "ar": "مَا كَتَبَ الْوَلَدُ الدَّرْسَ.", "category": 0 },
+        { "ar": "مَا عِنْدِي سَيَّارَةٌ.", "category": 0 },
+        { "ar": "مَا هٰذِهِ؟", "category": 1 },
+        { "ar": "مَاذَا تَقْرَأُ؟", "category": 1 },
+        { "ar": "قَرَأْتُ مَا كَتَبَ زَيْدٌ.", "category": 2 },
+        { "ar": "أَفْهَمُ مَا يَقُولُ الْمُدَرِّسُ.", "category": 2 }
+      ],
+      "instruction": "Quel {ar|مَا} ?",
+      "explain": "Une question : {ar|مَا} interroge. « Ce que » : {ar|مَا} relatif. Sinon, il nie."
+    },
+    {
+      "id": "medine-t2.l16.quiz#10",
+      "type": "question",
+      "prompt": { "fr": "Pour quoi le professeur emploie-t-il {ar|مَا} relatif ?" },
+      "choices": [
+        { "fr": "Pour ce qui n'est pas doué de raison" },
+        { "fr": "Pour les personnes" },
+        { "fr": "Seulement pour les noms féminins" }
+      ],
+      "answer": 0,
+      "explain": "Comme {ar|الَّذِي}, mais pour {ar|غَيْرُ عَاقِلٍ} : les choses et les animaux."
+    },
+    {
+      "id": "medine-t2.l16.quiz#11",
+      "type": "order",
+      "fr": "Il a lu ce que j'ai écrit.",
+      "answers": [["قَرَأَ", "مَا", "كَتَبْتُ"]],
+      "punctuation": ".",
+      "explain": "{ar|مَا كَتَبْتُ} : « ce que j'ai écrit »."
+    },
+    {
+      "id": "medine-t2.l16.quiz#12",
+      "type": "spot",
+      "instruction": "Touche le mot qui nie.",
+      "words": ["هٰذَا", "الْبَابُ", "غَيْرُ", "كَبِيرٍ"],
+      "answers": [2],
+      "fr": "Cette porte n'est pas grande.",
+      "explain": "{ar|غَيْرُ} nie le sens de {ar|كَبِيرٍ}."
+    },
+    {
+      "id": "medine-t2.l16.quiz#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ce cahier n'est pas neuf (avec {ar|غَيْرُ}).",
+      "answers": ["هٰذَا الدَّفْتَرُ غَيْرُ جَدِيدٍ."],
+      "explain": "{ar|غَيْرُ جَدِيدٍ} : « pas neuf » ; le mot qui suit {ar|غَيْرُ} est au génitif."
+    },
+    {
+      "id": "medine-t2.l16.quiz#14",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|غَيْرُ مُسَطَّرٍ}, pourquoi {ar|مُسَطَّرٍ} a-t-il la kasra et le tanwin ?" },
+      "choices": [
+        { "fr": "C'est le second terme d'une annexion : il est au génitif" },
+        { "fr": "C'est un nom féminin" },
+        { "fr": "Il suit une préposition" }
+      ],
+      "answer": 0,
+      "explain": "{ar|غَيْرُ} est le premier terme, {ar|مُسَطَّرٍ} le second, au génitif."
+    },
+    {
+      "id": "medine-t2.l16.quiz#15",
+      "type": "sort",
+      "categories": [ { "fr": "{ar|عَمْرٌو} (ʿAmr)" }, { "fr": "{ar|عُمَرُ} (ʿUmar)" } ],
+      "cards": [
+        { "ar": "ضَرَبَ عَمْرٌو", "category": 0 },
+        { "ar": "رَأَيْتُ عَمْرًا", "category": 0 },
+        { "ar": "ضَرَبَ عُمَرُ", "category": 1 },
+        { "ar": "رَأَيْتُ عُمَرَ", "category": 1 }
+      ],
+      "instruction": "Qui est-ce ?",
+      "explain": "ʿAmr s'écrit avec un {ar|و} (nominatif, génitif) ou un alif (accusatif) ; ʿUmar n'en a pas."
+    },
+    {
+      "id": "medine-t2.l16.quiz#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "C'est le livre de ʿUmar.",
+      "answers": ["هٰذَا كِتَابُ عُمَرَ."],
+      "explain": "{ar|عُمَرَ} : un nom sans tanwin, à la fatha au génitif."
+    },
+    {
+      "id": "medine-t2.l16.quiz#17",
+      "type": "question",
+      "prompt": { "fr": "Laquelle de ces phrases veut dire « Je ne veux rien » ?" },
+      "choices": [ { "ar": "مَا أُرِيدُ شَيْئًا." }, { "ar": "أُرِيدُ شَيْئًا." }, { "ar": "مَاذَا أُرِيدُ؟" } ],
+      "answer": 0,
+      "explain": "{ar|مَا} nie le verbe ; {ar|شَيْئًا} renforce : « rien »."
+    },
+    {
+      "id": "medine-t2.l16.quiz#18",
+      "type": "true_false",
+      "statement": {
+        "fr": "Pour le livre qu'on pose sur le bureau, le professeur dit {ar|الْمُصْحَفُ}, et non {ar|الْقُرْآنُ}."
+      },
+      "answer": true,
+      "explain": "{ar|الْقُرْآنُ} est la parole d'Allah qu'on lit ; {ar|الْمُصْحَفُ} est le livre."
+    },
+    {
+      "id": "medine-t2.l16.quiz#19",
+      "type": "fill_gap",
+      "sentence": "غَابَ زَيْدٌ وَطَالِبٌ {0}.",
+      "fr": "Zayd et un autre étudiant ont été absents.",
+      "gaps": [ { "answers": ["آخَرُ"] } ],
+      "options": ["آخَرُ", "أُخْرَى"],
+      "explain": "{ar|طَالِبٌ} est masculin et au nominatif : {ar|آخَرُ}."
+    },
+    {
+      "id": "medine-t2.l16.quiz#20",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je veux un stylo rouge et un sac noir.",
+      "answers": ["أُرِيدُ قَلَمًا أَحْمَرَ وَحَقِيبَةً سَوْدَاءَ."],
+      "explain": "{ar|قَلَمًا أَحْمَرَ} (masculin) et {ar|حَقِيبَةً سَوْدَاءَ} (féminin) : la fatha, sans tanwin sur la couleur."
+    }
+  ]
+}

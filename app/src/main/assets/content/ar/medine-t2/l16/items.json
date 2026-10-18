@@ -1,0 +1,253 @@
+[
+  {
+    "id": "w:ahmar-f",
+    "kind": "word",
+    "ar": "حَمْرَاءُ",
+    "fr": "rouge (au féminin)",
+    "translit": "ḥamrāʾu",
+    "note": "Le féminin de {ar|أَحْمَرُ}, pour un nom féminin. Comme le masculin, elle n'a pas de tanwin.",
+    "example": { "ar": "هٰذِهِ حَقِيبَةٌ حَمْرَاءُ.", "fr": "C'est un sac rouge." }
+  },
+  {
+    "id": "w:akhdar-f",
+    "kind": "word",
+    "ar": "خَضْرَاءُ",
+    "fr": "vert (au féminin)",
+    "translit": "khaḍrāʾu",
+    "note": "Le féminin de {ar|أَخْضَرُ}, pour un nom féminin.",
+    "example": { "ar": "هٰذِهِ شَجَرَةٌ خَضْرَاءُ.", "fr": "C'est un arbre vert." }
+  },
+  {
+    "id": "w:abyad-f",
+    "kind": "word",
+    "ar": "بَيْضَاءُ",
+    "fr": "blanc (au féminin)",
+    "translit": "bayḍāʾu",
+    "note": "Le féminin de {ar|أَبْيَضُ}, pour un nom féminin.",
+    "example": { "ar": "هٰذِهِ وَرَقَةٌ بَيْضَاءُ.", "fr": "C'est une feuille blanche." }
+  },
+  {
+    "id": "w:azraq-f",
+    "kind": "word",
+    "ar": "زَرْقَاءُ",
+    "fr": "bleu (au féminin)",
+    "translit": "zarqāʾu",
+    "note": "Le féminin de {ar|أَزْرَقُ}, pour un nom féminin.",
+    "example": { "ar": "هٰذِهِ سَيَّارَةٌ زَرْقَاءُ.", "fr": "C'est une voiture bleue." }
+  },
+  {
+    "id": "w:aswad-f",
+    "kind": "word",
+    "ar": "سَوْدَاءُ",
+    "fr": "noir (au féminin)",
+    "translit": "sawdāʾu",
+    "note": "Le féminin de {ar|أَسْوَدُ}, pour un nom féminin.",
+    "example": { "ar": "هٰذِهِ بَقَرَةٌ سَوْدَاءُ.", "fr": "C'est une vache noire." }
+  },
+  {
+    "id": "w:asfar-f",
+    "kind": "word",
+    "ar": "صَفْرَاءُ",
+    "fr": "jaune (au féminin)",
+    "translit": "ṣafrāʾu",
+    "note": "Le féminin de {ar|أَصْفَرُ}, pour un nom féminin.",
+    "example": { "ar": "هٰذِهِ زَهْرَةٌ صَفْرَاءُ.", "fr": "C'est une fleur jaune." }
+  },
+  {
+    "id": "w:asmar",
+    "kind": "word",
+    "ar": "أَسْمَرُ",
+    "fr": "brun (de teint)",
+    "translit": "asmaru",
+    "note": "Il se dit d'une personne au teint brun, mat. Comme les autres couleurs, il n'a pas de tanwin. Au féminin : {ar|سَمْرَاءُ}.",
+    "example": { "ar": "هُوَ رَجُلٌ أَسْمَرُ.", "fr": "C'est un homme au teint brun." }
+  },
+  {
+    "id": "w:asmar-f",
+    "kind": "word",
+    "ar": "سَمْرَاءُ",
+    "fr": "brun (de teint, au féminin)",
+    "translit": "samrāʾu",
+    "note": "Le féminin de {ar|أَسْمَرُ}, pour une femme au teint brun.",
+    "example": { "ar": "هِيَ اِمْرَأَةٌ سَمْرَاءُ.", "fr": "C'est une femme au teint brun." }
+  },
+  {
+    "id": "w:shaar",
+    "kind": "word",
+    "ar": "شَعْرٌ",
+    "fr": "des cheveux (du poil)",
+    "translit": "shaʿrun",
+    "gender": "m",
+    "note": "C'est un nom collectif : un seul cheveu se dit {ar|شَعْرَةٌ}.",
+    "example": { "ar": "شَعْرُ الْوَلَدِ أَسْوَدُ.", "fr": "Les cheveux du garçon sont noirs." }
+  },
+  {
+    "id": "w:akhar",
+    "kind": "word",
+    "ar": "آخَرُ",
+    "fr": "un autre (masculin)",
+    "translit": "ākharu",
+    "plural": "آخَرُونَ",
+    "note": "Il se place après le nom, comme un adjectif, et n'a pas de tanwin. Son féminin est {ar|أُخْرَى} (chapitre 10).",
+    "example": { "ar": "اِشْتَرَيْتُ كِتَابًا آخَرَ.", "fr": "J'ai acheté un autre livre." }
+  },
+  {
+    "id": "w:ghayr",
+    "kind": "word",
+    "ar": "غَيْرُ",
+    "fr": "non, pas (il nie le mot qui suit)",
+    "translit": "ghayru",
+    "note": "Un nom qui est toujours le premier terme d'une annexion ({ar|مُضَافٌ}) : il nie le sens du mot qui le suit. {ar|زَيْدٌ غَيْرُ مُجْتَهِدٍ} : « Zayd n'est pas studieux ».",
+    "example": { "ar": "هٰذَا الْخَبَرُ غَيْرُ صَحِيحٍ.", "fr": "Cette information n'est pas exacte." }
+  },
+  {
+    "id": "w:ma-nafiya",
+    "kind": "word",
+    "ar": "مَا النَّافِيَةُ",
+    "fr": "le {ar|مَا} de négation (« le mā qui nie »)",
+    "translit": "mā n-nāfiyatu",
+    "note": "C'est une particule ({ar|حَرْفٌ}) : elle nie la phrase.",
+    "example": { "ar": "مَا فَهِمْتُ الدَّرْسَ.", "fr": "Je n'ai pas compris le cours." }
+  },
+  {
+    "id": "w:ma-istifhamiyya",
+    "kind": "word",
+    "ar": "مَا الِاسْتِفْهَامِيَّةُ",
+    "fr": "le {ar|مَا} interrogatif (« le mā qui interroge »)",
+    "translit": "mā l-istifhāmiyyatu",
+    "note": "C'est un nom ({ar|اِسْمٌ}) : il pose une question. {ar|مَاذَا} le contient aussi.",
+    "example": { "ar": "مَا هٰذَا؟", "fr": "Qu'est-ce que c'est ?" }
+  },
+  {
+    "id": "w:ma-mawsula",
+    "kind": "word",
+    "ar": "مَا الْمَوْصُولَةُ",
+    "fr": "le {ar|مَا} relatif (« ce que, ce qui »)",
+    "translit": "mā l-mawṣūlatu",
+    "note": "C'est un nom ({ar|اِسْمٌ}) qui a le sens de {ar|الَّذِي}, pour les choses.",
+    "example": { "ar": "آكُلُ مَا تَأْكُلُ.", "fr": "Je mange ce que tu manges." }
+  },
+  {
+    "id": "w:halwa",
+    "kind": "word",
+    "ar": "حَلْوَى",
+    "fr": "des sucreries (une confiserie)",
+    "translit": "ḥalwā",
+    "plural": "حَلَاوَى",
+    "gender": "f",
+    "note": "Le mot se termine par le {ar|ى} du féminin (chapitre 6 du tome 1) ; c'est pourquoi on le range parmi les noms féminins.",
+    "example": { "ar": "أُرِيدُ حَلْوَى.", "fr": "Je veux des sucreries." }
+  },
+  {
+    "id": "w:milaff",
+    "kind": "word",
+    "ar": "مِلَفٌّ",
+    "fr": "un dossier",
+    "translit": "milaffun",
+    "plural": "مِلَفَّاتٌ",
+    "gender": "m",
+    "example": { "ar": "هٰذَا مِلَفٌّ أَصْفَرُ.", "fr": "C'est un dossier jaune." }
+  },
+  {
+    "id": "w:mushaf",
+    "kind": "word",
+    "ar": "مُصْحَفٌ",
+    "fr": "un exemplaire du Coran",
+    "translit": "muṣḥafun",
+    "plural": "مَصَاحِفُ",
+    "gender": "m",
+    "note": "Le Coran ({ar|الْقُرْآنُ}) est la parole d'Allah ; le {ar|مُصْحَفٌ} est le livre qui le contient.",
+    "example": { "ar": "وَضَعْتُ الْمُصْحَفَ عَلَى الْمَكْتَبِ.", "fr": "J'ai posé l'exemplaire du Coran sur le bureau." }
+  },
+  {
+    "id": "w:namudhaj",
+    "kind": "word",
+    "ar": "نَمُوذَجٌ",
+    "fr": "un modèle (un échantillon)",
+    "translit": "namūdhajun",
+    "plural": "نَمَاذِجُ",
+    "gender": "m",
+    "example": { "ar": "هٰذَا نَمُوذَجٌ جَمِيلٌ.", "fr": "C'est un joli modèle." }
+  },
+  {
+    "id": "w:qumash",
+    "kind": "word",
+    "ar": "قُمَاشٌ",
+    "fr": "du tissu",
+    "translit": "qumāshun",
+    "plural": "أَقْمِشَةٌ",
+    "gender": "m",
+    "example": { "ar": "هٰذَا الْقُمَاشُ أَبْيَضُ.", "fr": "Ce tissu est blanc." }
+  },
+  {
+    "id": "w:musattar",
+    "kind": "word",
+    "ar": "مُسَطَّرٌ",
+    "fr": "réglé (à lignes)",
+    "translit": "musaṭṭarun",
+    "note": "Il se dit d'un papier ou d'un cahier : {ar|وَرَقٌ مُسَطَّرٌ}. Même racine que {ar|مِسْطَرَةٌ}, la règle qui trace les lignes.",
+    "example": { "ar": "هٰذَا الْوَرَقُ مُسَطَّرٌ.", "fr": "Ce papier est réglé." }
+  },
+  {
+    "id": "w:sanam",
+    "kind": "word",
+    "ar": "صَنَمٌ",
+    "fr": "une idole",
+    "translit": "ṣanamun",
+    "plural": "أَصْنَامٌ",
+    "gender": "m",
+    "example": { "ar": "هُبَلُ اِسْمُ صَنَمٍ.", "fr": "Hubal est le nom d'une idole." }
+  },
+  {
+    "id": "w:zuhal",
+    "kind": "word",
+    "ar": "زُحَلُ",
+    "fr": "Saturne",
+    "translit": "zuḥalu",
+    "note": "Un nom propre de la forme {ar|فُعَلُ} : il n'a pas de tanwin.",
+    "example": { "ar": "زُحَلُ اِسْمُ كَوْكَبٍ.", "fr": "Saturne est le nom d'une planète." }
+  },
+  {
+    "id": "w:aal",
+    "kind": "word",
+    "ar": "آلٌ",
+    "fr": "la famille de (les partisans de)",
+    "translit": "ālun",
+    "note": "Il est suivi d'un nom, au génitif : {ar|آلُ عِمْرَانَ} (« la famille de ʿImrān »).",
+    "example": { "ar": "هٰذِهِ سُورَةُ آلِ عِمْرَانَ.", "fr": "C'est la sourate « La famille de ʿImrān »." }
+  },
+  {
+    "id": "w:daiyiq",
+    "kind": "word",
+    "ar": "ضَيِّقٌ",
+    "fr": "étroit",
+    "translit": "ḍayyiqun",
+    "note": "Au féminin : {ar|ضَيِّقَةٌ}.",
+    "example": { "ar": "هٰذَا الْبَابُ ضَيِّقٌ.", "fr": "Cette porte est étroite." }
+  },
+  {
+    "id": "w:inkilizi",
+    "kind": "word",
+    "ar": "إِنْكِلِيزِيٌّ",
+    "fr": "anglais (d'Angleterre)",
+    "translit": "inkilīziyyun",
+    "example": { "ar": "هٰذَا مُعْجَمٌ إِنْكِلِيزِيٌّ.", "fr": "C'est un dictionnaire anglais." }
+  },
+  {
+    "id": "w:nasiya",
+    "kind": "word",
+    "ar": "نَسِيَ",
+    "fr": "il a oublié (oublier)",
+    "translit": "nasiya",
+    "example": { "ar": "نَسِيَ زَيْدٌ الْكِتَابَ.", "fr": "Zayd a oublié le livre." }
+  },
+  {
+    "id": "w:ghaba",
+    "kind": "word",
+    "ar": "غَابَ",
+    "fr": "il a été absent (être absent)",
+    "translit": "ghāba",
+    "note": "Même famille que {ar|غَائِبٌ} (« absent », chapitre 15) : au présent, {ar|يَغِيبُ}.",
+    "example": { "ar": "غَابَ زَيْدٌ الْيَوْمَ.", "fr": "Zayd a été absent aujourd'hui." }
+  }
+]

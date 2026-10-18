@@ -1,0 +1,156 @@
+{
+  "id": "medine-t2.l16.practice-1",
+  "type": "vocabulary",
+  "title": "Répondre sur le texte",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l16.practice-1#1",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَتَى يَذْهَبُ الْأَبُ إِلَى السُّوقِ؟",
+      "answers": [
+        "بَعْدَ الصَّلَاةِ.",
+        "يَذْهَبُ بَعْدَ الصَّلَاةِ.",
+        "يَذْهَبُ الْأَبُ بَعْدَ الصَّلَاةِ.",
+        "يَذْهَبُ إِلَى السُّوقِ بَعْدَ الصَّلَاةِ.",
+        "يَذْهَبُ الْأَبُ إِلَى السُّوقِ بَعْدَ الصَّلَاةِ."
+      ],
+      "fr": "Quand le père va-t-il au marché ? Après la prière.",
+      "context": { "dialogue": "medine-t2.l16.dialogue-1#1" },
+      "explain": "{ar|سَأَذْهَبُ إِلَى السُّوقِ بَعْدَ الصَّلَاةِ} : après la prière."
+    },
+    {
+      "id": "medine-t2.l16.practice-1#2",
+      "type": "question",
+      "prompt": { "fr": "Que veut al-Ḥusayn ?" },
+      "choices": [ { "fr": "Des sucreries" }, { "fr": "Un stylo" }, { "fr": "Un cahier" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l16.dialogue-1#1" },
+      "explain": "{ar|هُوَ يُرِيدُ حَلَاوَى}."
+    },
+    {
+      "id": "medine-t2.l16.practice-1#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَاذَا تُرِيدُ سُعَادُ؟",
+      "answers": [
+        "تُرِيدُ مِسْطَرَةً كَبِيرَةً.",
+        "تُرِيدُ سُعَادُ مِسْطَرَةً كَبِيرَةً.",
+        "مِسْطَرَةً كَبِيرَةً.",
+        "تُرِيدُ مِسْطَرَةً أُخْرَى كَبِيرَةً.",
+        "تُرِيدُ سُعَادُ مِسْطَرَةً أُخْرَى كَبِيرَةً.",
+        "تُرِيدُ مِسْطَرَةً أُخْرَى.",
+        "تُرِيدُ أُخْرَى كَبِيرَةً.",
+        "أُخْرَى كَبِيرَةً.",
+        "تُرِيدُ سُعَادُ أُخْرَى كَبِيرَةً."
+      ],
+      "fr": "Que veut Suʿād ? Une grande règle (elle en a déjà une petite).",
+      "context": { "dialogue": "medine-t2.l16.dialogue-2#1" },
+      "explain": "{ar|عِنْدِي مِسْطَرَةٌ صَغِيرَةٌ. أُرِيدُ أُخْرَى كَبِيرَةً}."
+    },
+    {
+      "id": "medine-t2.l16.practice-1#4",
+      "type": "question",
+      "prompt": { "fr": "Qui veut une règle ?" },
+      "choices": [ { "fr": "Suʿād" }, { "fr": "Laylā" }, { "fr": "Salmā" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l16.dialogue-2#1" },
+      "explain": "{ar|عِنْدِي مِسْطَرَةٌ صَغِيرَةٌ. أُرِيدُ أُخْرَى كَبِيرَةً} : c'est Suʿād."
+    },
+    {
+      "id": "medine-t2.l16.practice-1#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَاذَا تُرِيدُ الْأُمُّ؟",
+      "answers": [
+        "تُرِيدُ ثَلَاثَةَ أَمْتَارٍ مِنَ الْقُمَاشِ.",
+        "تُرِيدُ ثَلَاثَةَ أَمْتَارٍ مِنْ هٰذَا الْقُمَاشِ.",
+        "ثَلَاثَةَ أَمْتَارٍ مِنَ الْقُمَاشِ.",
+        "تُرِيدُ الْأُمُّ ثَلَاثَةَ أَمْتَارٍ مِنَ الْقُمَاشِ.",
+        "تُرِيدُ الْأُمُّ ثَلَاثَةَ أَمْتَارٍ مِنْ هٰذَا الْقُمَاشِ."
+      ],
+      "fr": "Que veut la mère ? Trois mètres de tissu.",
+      "context": { "dialogue": "medine-t2.l16.dialogue-2#1" },
+      "explain": "{ar|تُرِيدُ ثَلَاثَةَ أَمْتَارٍ مِنْ هٰذَا الْقُمَاشِ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-1#6",
+      "type": "true_false",
+      "statement": { "fr": "{ar|يُرِيدُ عُمَرُ قَلَمًا أَزْرَقَ.} : cette phrase est juste." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l16.dialogue-1#1" },
+      "explain": "Non : ʿUmar a déjà un stylo bleu ({ar|عِنْدِي قَلَمٌ أَزْرَقُ}) ; il veut un stylo rouge."
+    },
+    {
+      "id": "medine-t2.l16.practice-1#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَاذَا يُرِيدُ عُمَرُ؟",
+      "answers": ["يُرِيدُ قَلَمًا أَحْمَرَ.", "يُرِيدُ عُمَرُ قَلَمًا أَحْمَرَ.", "قَلَمًا أَحْمَرَ."],
+      "fr": "Que veut ʿUmar ? Un stylo rouge.",
+      "context": { "dialogue": "medine-t2.l16.dialogue-1#1" },
+      "explain": "{ar|قَلَمًا أَحْمَرَ} : le nom au tanwin, la couleur à la fatha."
+    },
+    {
+      "id": "medine-t2.l16.practice-1#8",
+      "type": "true_false",
+      "statement": { "fr": "{ar|يُرِيدُ هِشَامٌ أَشْيَاءَ كَثِيرَةً.} : cette phrase est juste." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l16.dialogue-1#1" },
+      "explain": "Non : au début, les fils disent ensemble {ar|نُرِيدُ أَشْيَاءَ كَثِيرَةً}, mais quand le père interroge Hishām, il répond {ar|أَنَا مَا أُرِيدُ شَيْئًا الْآنَ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-1#9",
+      "type": "question",
+      "prompt": { "fr": "Que veut Hishām maintenant ?" },
+      "choices": [ { "fr": "Rien" }, { "fr": "Beaucoup de choses" }, { "fr": "Des sucreries" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l16.dialogue-1#1" },
+      "explain": "{ar|أَنَا مَا أُرِيدُ شَيْئًا الْآنَ} : « moi, je ne veux rien maintenant »."
+    },
+    {
+      "id": "medine-t2.l16.practice-1#10",
+      "type": "true_false",
+      "statement": { "fr": "{ar|حَفْصَةُ عِنْدَهَا حَقِيبَةٌ سَوْدَاءُ.} : cette phrase est juste." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l16.dialogue-2#1" },
+      "explain": "Non : elle a un sac rouge ({ar|عِنْدِي حَقِيبَةٌ حَمْرَاءُ}) et en veut un autre, noir."
+    },
+    {
+      "id": "medine-t2.l16.practice-1#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا لَوْنُ حَقِيبَةِ حَفْصَةَ؟",
+      "answers": [
+        "حَقِيبَةُ حَفْصَةَ حَمْرَاءُ.",
+        "هِيَ حَمْرَاءُ.",
+        "حَمْرَاءُ.",
+        "لَوْنُهَا أَحْمَرُ.",
+        "لَوْنُ حَقِيبَةِ حَفْصَةَ أَحْمَرُ.",
+        "حَقِيبَتُهَا حَمْرَاءُ."
+      ],
+      "fr": "De quelle couleur est le sac que Ḥafṣa a déjà ? Rouge.",
+      "context": { "dialogue": "medine-t2.l16.dialogue-2#1" },
+      "explain": "{ar|حَقِيبَةٌ} est féminin : {ar|حَمْرَاءُ}. Mais {ar|لَوْنٌ} est masculin : {ar|لَوْنُهَا أَحْمَرُ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-1#12",
+      "type": "true_false",
+      "statement": { "fr": "{ar|الْحُسَيْنُ فِي الْمَطْبَخِ.} : cette phrase est juste." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l16.dialogue-1#1" },
+      "explain": "Non : {ar|هُوَ فِي الْحَمَّامِ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-1#13",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ الْحُسَيْنُ؟",
+      "answers": ["هُوَ فِي الْحَمَّامِ.", "الْحُسَيْنُ فِي الْحَمَّامِ.", "فِي الْحَمَّامِ."],
+      "fr": "Où est al-Ḥusayn ? Dans la salle de bains.",
+      "context": { "dialogue": "medine-t2.l16.dialogue-1#1" },
+      "explain": "{ar|هُوَ فِي الْحَمَّامِ}."
+    }
+  ]
+}

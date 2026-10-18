@@ -1,0 +1,111 @@
+{
+  "id": "medine-t2.l16.grammar-5",
+  "type": "grammar",
+  "title": "Les trois {ar|مَا}",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l16.grammar-5#1",
+      "type": "tip",
+      "title": "Le mot {ar|مَا} a plusieurs visages",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur distingue trois emplois de {ar|مَا} : tantôt c'est une **particule** ({ar|حَرْفٌ}), tantôt c'est un **nom** ({ar|اِسْمٌ}). (Il y en a d'autres, comme le {ar|مَا} de l'exclamation du chapitre 9.)"
+        },
+        {
+          "type": "table",
+          "header": ["Sorte de {ar|مَا}", "Nature", "Exemple"],
+          "rows": [
+            ["{ar|مَا النَّافِيَةُ}", "une particule : elle nie", "{ar|مَا خَرَجَ زَيْدٌ} (Zayd n'est pas sorti)"],
+            ["{ar|مَا الِاسْتِفْهَامِيَّةُ}", "un nom : elle interroge", "{ar|مَا هٰذَا؟} (qu'est-ce que c'est ?)"],
+            [
+              "{ar|مَا الْمَوْصُولَةُ}",
+              "un nom : elle veut dire « ce que »",
+              "{ar|أَكَلْتُ مَا أُحِبُّهُ} (j'ai mangé ce que j'aime)"
+            ]
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t2.l16.grammar-5#2", "type": "present", "item": "w:ma-nafiya" },
+    { "id": "medine-t2.l16.grammar-5#3", "type": "present", "item": "w:ma-istifhamiyya" },
+    { "id": "medine-t2.l16.grammar-5#4", "type": "present", "item": "w:ma-mawsula" },
+    {
+      "id": "medine-t2.l16.grammar-5#5",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ma-istifhamiyya",
+      "distractors": ["w:ma-nafiya", "w:ma-mawsula"],
+      "explain": "{ar|مَا الِاسْتِفْهَامِيَّةُ} : le {ar|مَا} qui interroge. {ar|النَّافِيَةُ} nie ; {ar|الْمَوْصُولَةُ} veut dire « ce que »."
+    },
+    {
+      "id": "medine-t2.l16.grammar-5#6",
+      "type": "tip",
+      "title": "Comment les reconnaître ?",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Dans la phrase…", "c'est…"],
+          "rows": [
+            ["on pose une question", "{ar|مَا الِاسْتِفْهَامِيَّةُ} : {ar|مَا اِسْمُكَ؟}"],
+            ["on peut dire « ce que » ou « ce qui »", "{ar|مَا الْمَوْصُولَةُ} : {ar|آكُلُ مَا تَأْكُلُ}"],
+            ["on dit « ne… pas »", "{ar|مَا النَّافِيَةُ} : {ar|مَا فَهِمْتُ الدَّرْسَ}"]
+          ]
+        },
+        { "type": "note", "text": "Dans {ar|مَاذَا}, on reconnaît le {ar|مَا} interrogatif." }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.grammar-5#7",
+      "type": "sort",
+      "categories": [
+        { "fr": "{ar|مَا} qui nie" },
+        { "fr": "{ar|مَا} qui interroge" },
+        { "fr": "{ar|مَا} qui veut dire « ce que »" }
+      ],
+      "cards": [
+        { "ar": "مَا ذَهَبَ زَيْدٌ.", "category": 0 },
+        { "ar": "مَا عِنْدِي قَلَمٌ.", "category": 0 },
+        { "ar": "مَا اِسْمُ الْمُدِيرِ؟", "category": 1 },
+        { "ar": "مَاذَا تَشْرَبُ؟", "category": 1 },
+        { "ar": "أَشْرَبُ مَا تَشْرَبُ.", "category": 2 },
+        { "ar": "اِشْتَرَيْتُ مَا أَرَدْتُ.", "category": 2 }
+      ],
+      "instruction": "Quel {ar|مَا} ?",
+      "explain": "Une question : {ar|مَا} interroge. « Ce que » : {ar|مَا} relatif. Sinon, il nie."
+    },
+    {
+      "id": "medine-t2.l16.grammar-5#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أَفْهَمُ مَا تَقُولُ}, que veut dire {ar|مَا} ?" },
+      "choices": [ { "fr": "« ce que »" }, { "fr": "« qu'est-ce que ? »" }, { "fr": "« ne… pas »" } ],
+      "answer": 0,
+      "explain": "« Je comprends ce que tu dis. » {ar|مَا} est le {ar|مَا} relatif. ({ar|تَقُولُ} : « tu dis », présent de {ar|قَالَ}.)"
+    },
+    {
+      "id": "medine-t2.l16.grammar-5#9",
+      "type": "true_false",
+      "statement": { "fr": "Le {ar|مَا} qui nie est un nom." },
+      "answer": false,
+      "explain": "Non : c'est une particule ({ar|حَرْفٌ}). Les deux autres sont des noms ({ar|اِسْمٌ})."
+    },
+    {
+      "id": "medine-t2.l16.grammar-5#10",
+      "type": "spot",
+      "instruction": "Touche le {ar|مَا} qui veut dire « ce que ».",
+      "words": ["لِمَ", "تَقُولُونَ", "مَا", "لَا", "تَفْعَلُونَ؟"],
+      "answers": [2],
+      "fr": "Pourquoi dites-vous ce que vous ne faites pas ?",
+      "explain": "{ar|مَا} relatif : « ce que ». ({ar|لِمَ} est la forme courte de {ar|لِمَاذَا}.)"
+    },
+    {
+      "id": "medine-t2.l16.grammar-5#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je mange ce que tu manges (tu : un homme).",
+      "answers": ["آكُلُ مَا تَأْكُلُ.", "أَنَا آكُلُ مَا تَأْكُلُ.", "آكُلُ مَا تَأْكُلُهُ.", "أَنَا آكُلُ مَا تَأْكُلُهُ."],
+      "explain": "{ar|آكُلُ} : « je mange » ; {ar|مَا تَأْكُلُ} : « ce que tu manges »."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "medine-t2.l16.grammar-6",
+  "type": "grammar",
+  "title": "« Ce que » : {ar|مَا} relatif",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l16.grammar-6#1",
+      "type": "tip",
+      "title": "Comme {ar|الَّذِي}, mais pour les choses",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|مَا الْمَوْصُولَةُ} est un nom qui a le même sens que {ar|الَّذِي} et les mêmes règles (chapitre 9). Le professeur la réserve à ce qui n'est pas doué de raison ({ar|غَيْرُ عَاقِلٍ}) : les choses, les animaux. Elle reste identique au masculin, au féminin, au singulier et au pluriel. (L'arabe classique connaît quelques emplois différents : ici, on s'en tient à la règle du professeur.)"
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "قَرَأْتُ الَّذِي قَرَأْتَهُ", "fr": "J'ai lu ce que tu as lu." },
+              "to": { "ar": "قَرَأْتُ مَا قَرَأْتَهُ", "fr": "J'ai lu ce que tu as lu." },
+              "label": "même sens ; {ar|مَا} ne change jamais"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "On peut le remplacer par {ar|الشَّيْءُ الَّذِي} (« la chose que ») : {ar|آكُلُ مَا تَأْكُلُ} veut dire {ar|آكُلُ الشَّيْءَ الَّذِي تَأْكُلُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.grammar-6#2",
+      "type": "tip",
+      "title": "Le pronom qui reprend",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La phrase qui suit {ar|مَا} reprend souvent la chose par un pronom : {ar|قَرَأْتُ مَا قَرَأْتَهُ} (le {ar|هُ}). On peut l'omettre quand il est complément d'objet : {ar|قَرَأْتُ مَا قَرَأْتَ}."
+        },
+        {
+          "type": "table",
+          "header": ["Exemple", "Sens"],
+          "rows": [
+            ["{ar|أَشْرَبُ مَا تَشْرَبُ}", "je bois ce que tu bois"],
+            ["{ar|سَأَشْتَرِي مَا تُرِيدُ}", "j'achèterai ce que tu veux"],
+            ["{ar|أَفْهَمُ مَا تَقُولُ}", "je comprends ce que tu dis"]
+          ]
+        },
+        { "type": "note", "text": "{ar|تَقُولُ} est le présent de {ar|قَالَ} : « tu dis »." }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.grammar-6#3",
+      "type": "question",
+      "prompt": { "fr": "Par quoi peut-on remplacer {ar|مَا} dans {ar|آكُلُ مَا تَأْكُلُ} ?" },
+      "choices": [ { "fr": "« la chose que »" }, { "fr": "« la personne que »" }, { "fr": "« la raison pour laquelle »" } ],
+      "answer": 0,
+      "explain": "{ar|مَا} = {ar|الشَّيْءُ الَّذِي} : « la chose que »."
+    },
+    {
+      "id": "medine-t2.l16.grammar-6#4",
+      "type": "order",
+      "fr": "Je comprends ce que tu dis (tu : un homme).",
+      "answers": [["أَفْهَمُ", "مَا", "تَقُولُ"]],
+      "punctuation": ".",
+      "explain": "{ar|أَفْهَمُ} (je comprends) + {ar|مَا تَقُولُ} (ce que tu dis)."
+    },
+    {
+      "id": "medine-t2.l16.grammar-6#5",
+      "type": "spot",
+      "instruction": "Touche le mot qui contient le pronom reprenant {ar|مَا}.",
+      "words": ["قَرَأْتُ", "مَا", "قَرَأْتَهُ"],
+      "answers": [2],
+      "fr": "J'ai lu ce que tu as lu.",
+      "explain": "Le {ar|هُ} de {ar|قَرَأْتَهُ} désigne ce qui a été lu : c'est lui qui reprend {ar|مَا}."
+    },
+    {
+      "id": "medine-t2.l16.grammar-6#6",
+      "type": "true_false",
+      "statement": {
+        "fr": "Au féminin et au pluriel, {ar|مَا} change de forme, comme {ar|الَّذِي} ({ar|الَّتِي}, {ar|الَّذِينَ})."
+      },
+      "answer": false,
+      "explain": "Non : {ar|مَا} ne change jamais de forme."
+    },
+    {
+      "id": "medine-t2.l16.grammar-6#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai lu ce que tu as lu (tu : un homme).",
+      "answers": ["قَرَأْتُ مَا قَرَأْتَهُ.", "قَرَأْتُ مَا قَرَأْتَ."],
+      "explain": "Le pronom {ar|هُ} peut être omis."
+    }
+  ]
+}

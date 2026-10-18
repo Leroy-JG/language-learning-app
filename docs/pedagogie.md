@@ -162,6 +162,11 @@ Exemples tirés des leçons 1 à 6 :
   `sort` « `لَا النَّافِيَةُ` / `لَا النَّاهِيَةُ` » où la voyelle finale est la seule vraie différence : les cartes sont choisies pour que la catégorie se déduise du reste de la phrase (`لِمَ` + `؟`, `أَلَا` + `؟`, pronom sujet `هُوَ`, ponctuation `!`, mot d'appel `يَا أَحْمَدُ`) et non de la voyelle, qui peut être masquée (`l15/grammar-4`, quiz) ;
   `compare` « négation → interdiction » (`لَا تَأْكُلُ` → `لَا تَأْكُلِ`) dans une astuce, où les harakat ne sont jamais masqués ; `spot` du nom et du prédicat de `كَادَ` (`l15/grammar-6`) ; `build` de `لِحْيَةٌ` (le `ة`, pas le `ه`) dans `l15/vocab-1`.
 
+- (Tome 2, leçon 16) `sort` « nom masculin / féminin » où la forme de la couleur (`أَفْعَلُ` / `فَعْلَاءُ`) suffit à répondre (`medine-t2/l16/grammar-1`, `grammar-4` pour `آخَرُ` / `أُخْرَى`) ; `sort` « à qui parle-t-on ? » avec le mot d'appel comme seul indice (`يَا فَاطِمَةُ، مَاذَا تُرِيدِينَ؟`, `l16/grammar-3`) ;
+  `sort` à trois catégories des trois `مَا` (négatif, interrogatif, relatif : la catégorie se déduit de la question, de « ce que » ou de la négation, `l16/grammar-5`, `practice-6`) ; `sort` « `عَمْرٌو` / `عُمَرُ` » (cartes qui diffèrent par leurs lettres, jamais deux cartes identiques sans harakat, `l16/grammar-8`) ;
+  `compare` « masculin → féminin » des six couleurs (`l16/grammar-1`) et « un même verbe, deux personnes » (`تُرِيدُونَ` → `تُرِدْنَ`, `grammar-3`) ; `memory` des couleurs au féminin sans image (une même pastille ne peut pas désigner à la fois le masculin et le féminin, `l16/vocab-1`) ;
+  `fill_gap` à deux trous (le genre de deux noms qui se suivent : `هٰذَا الْقَلَمُ أَخْضَرُ وَهٰذِهِ الْحَقِيبَةُ خَضْرَاءُ`) et question « qu'est-ce qui est jaune ? » (`ذُو الْغِلَافِ الْأَصْفَرِ` : la kasra montre que la couleur décrit la couverture, `l16/practice-3`).
+
 ### Entraîner une voyelle finale (kasra, fatha…)
 
 Le validateur refuse deux choix qui ne diffèrent que par les harakat (`الْبَيْتِ` / `الْبَيْتُ`), et le

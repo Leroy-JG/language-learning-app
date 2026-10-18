@@ -1,0 +1,86 @@
+{
+  "id": "medine-t2.l16.practice-4",
+  "type": "vocabulary",
+  "title": "Choisir la bonne couleur",
+  "icon": "circle_yellow",
+  "screens": [
+    {
+      "id": "medine-t2.l16.practice-4#1",
+      "type": "fill_gap",
+      "sentence": "حَقِيبَتِي {0}.",
+      "fr": "Mon sac est noir.",
+      "gaps": [ { "answers": ["سَوْدَاءُ"] } ],
+      "options": ["سَوْدَاءُ", "أَسْوَدُ", "بَيْضَاءُ"],
+      "explain": "{ar|حَقِيبَتِي} est féminin : {ar|سَوْدَاءُ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-4#2",
+      "type": "fill_gap",
+      "sentence": "هَاتِ قَلَمًا وَوَرَقَةً {0}.",
+      "fr": "Donne un stylo et une feuille blanche.",
+      "gaps": [ { "answers": ["بَيْضَاءَ"] } ],
+      "options": ["بَيْضَاءَ", "أَبْيَضَ", "سَوْدَاءَ"],
+      "explain": "La couleur décrit {ar|وَرَقَةً}, un nom féminin, à l'accusatif : {ar|بَيْضَاءَ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-4#3",
+      "type": "order",
+      "fr": "Nous écrivons avec le stylo bleu.",
+      "answers": [["نَكْتُبُ", "بِالْقَلَمِ", "الْأَزْرَقِ"]],
+      "punctuation": ".",
+      "explain": "Après {ar|بِ}, le nom a la kasra ; la couleur a l'article et la kasra aussi."
+    },
+    {
+      "id": "medine-t2.l16.practice-4#4",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ نَكْتُبُ بِالْقَلَمِ {0} وَالْمُدَرِّسُ يَكْتُبُ بِالْقَلَمِ {1}.",
+      "fr": "Nous écrivons avec le stylo bleu et le professeur écrit avec le stylo rouge.",
+      "gaps": [ { "answers": ["الْأَزْرَقِ"] }, { "answers": ["الْأَحْمَرِ"] } ],
+      "options": ["الْأَزْرَقِ", "الْأَحْمَرِ", "الزَّرْقَاءِ", "الْحَمْرَاءِ"],
+      "explain": "{ar|الْقَلَمِ} est masculin et défini : la couleur est masculine, avec l'article et la kasra."
+    },
+    {
+      "id": "medine-t2.l16.practice-4#5",
+      "type": "fill_gap",
+      "sentence": "سَيَّارَتِي {0} وَسَيَّارَةُ زَمِيلِي {1}.",
+      "fr": "Ma voiture est blanche et la voiture de mon camarade est verte.",
+      "gaps": [ { "answers": ["بَيْضَاءُ"] }, { "answers": ["خَضْرَاءُ"] } ],
+      "options": ["بَيْضَاءُ", "خَضْرَاءُ", "أَبْيَضُ", "أَخْضَرُ"],
+      "explain": "{ar|سَيَّارَةٌ} est féminin : les deux couleurs prennent la forme {ar|فَعْلَاءُ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-4#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "N'écris pas avec le stylo rouge (à un homme).",
+      "answers": ["لَا تَكْتُبْ بِالْقَلَمِ الْأَحْمَرِ."],
+      "explain": "{ar|لَا تَكْتُبْ} : l'interdiction ({ar|لَا} + jussif) ; {ar|بِالْقَلَمِ الْأَحْمَرِ} : « avec le stylo rouge »."
+    },
+    {
+      "id": "medine-t2.l16.practice-4#7",
+      "type": "fill_gap",
+      "sentence": "لِمَنْ ذٰلِكَ الْبَيْتُ ذُو الْبَابِ {0}؟",
+      "fr": "À qui est cette maison à la porte rouge ?",
+      "gaps": [ { "answers": ["الْأَحْمَرِ"] } ],
+      "options": ["الْأَحْمَرِ", "الْحَمْرَاءِ", "الْأَخْضَرِ"],
+      "explain": "Le rouge décrit la porte ({ar|الْبَابِ}, masculin, au génitif) : {ar|الْأَحْمَرِ}, avec la kasra."
+    },
+    {
+      "id": "medine-t2.l16.practice-4#8",
+      "type": "fill_gap",
+      "sentence": "مَا أَجْمَلَ هٰذِهِ الْبَقَرَةَ {0}!",
+      "fr": "Comme cette vache noire est belle !",
+      "gaps": [ { "answers": ["السَّوْدَاءَ"] } ],
+      "options": ["السَّوْدَاءَ", "الْأَسْوَدَ", "الْبَيْضَاءَ"],
+      "explain": "{ar|الْبَقَرَةَ} est féminin, défini et à la fatha : {ar|السَّوْدَاءَ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-4#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "À qui est cette voiture blanche ?",
+      "answers": ["لِمَنْ هٰذِهِ السَّيَّارَةُ الْبَيْضَاءُ؟"],
+      "explain": "{ar|هٰذِهِ السَّيَّارَةُ الْبَيْضَاءُ} : le démonstratif féminin, puis le nom et la couleur avec l'article."
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "id": "medine-t2.l16.practice-6",
+  "type": "vocabulary",
+  "title": "Le mot {ar|مَا} : « ce que »",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l16.practice-6#1",
+      "type": "tip",
+      "title": "Les exemples du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne ces phrases où {ar|مَا} veut dire « ce que ». Il explique le premier : {ar|مَا تَأْكُلُ} veut dire {ar|الشَّيْءَ الَّذِي تَأْكُلُ} (« la chose que tu manges »)."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            [
+              "{ar|مَاذَا تَأْكُلُ يَا عَلِيُّ؟ آكُلُ مَا تَأْكُلُ.}",
+              "Que manges-tu, ʿAlī ? Je mange ce que tu manges."
+            ],
+            [
+              "{ar|مَاذَا تَشْرَبُ يَا أَبَا بَكْرٍ؟ أَشْرَبُ مَا تَشْرَبُ.}",
+              "Que bois-tu, Abū Bakr ? Je bois ce que tu bois."
+            ],
+            ["{ar|أَفْهَمُ مَا تَقُولُ.}", "Je comprends ce que tu dis."],
+            ["{ar|سَأَشْتَرِي مَا تُرِيدُ.}", "J'achèterai ce que tu veux."],
+            [
+              "{ar|اُكْتُبْ مَا سَمِعْتَ الْيَوْمَ فِي الْفَصْلِ.}",
+              "Écris ce que tu as entendu aujourd'hui en classe."
+            ],
+            ["{ar|نَسِيتُ مَا قَالَ لِي الْمُدَرِّسُ أَمْسِ.}", "J'ai oublié ce que le professeur m'a dit hier."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.practice-6#2",
+      "type": "order",
+      "fr": "Je bois ce que tu bois (tu : un homme).",
+      "answers": [["أَشْرَبُ", "مَا", "تَشْرَبُ"]],
+      "punctuation": ".",
+      "explain": "{ar|مَا تَشْرَبُ} : « ce que tu bois »."
+    },
+    {
+      "id": "medine-t2.l16.practice-6#3",
+      "type": "question",
+      "prompt": { "fr": "Que doit-on faire avec {ar|اُكْتُبْ مَا سَمِعْتَ الْيَوْمَ فِي الْفَصْلِ} ?" },
+      "choices": [
+        { "fr": "Écrire ce qu'on a entendu en classe aujourd'hui" },
+        { "fr": "Écrire une lettre à la classe" },
+        { "fr": "Lire ce qu'on a écrit hier" }
+      ],
+      "answer": 0,
+      "explain": "{ar|اُكْتُبْ} : écris ! {ar|مَا سَمِعْتَ} : ce que tu as entendu."
+    },
+    {
+      "id": "medine-t2.l16.practice-6#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai oublié ce que le professeur m'a dit hier.",
+      "answers": ["نَسِيتُ مَا قَالَ لِي الْمُدَرِّسُ أَمْسِ.", "نَسِيتُ مَا قَالَهُ لِي الْمُدَرِّسُ أَمْسِ."],
+      "explain": "{ar|نَسِيتُ} : j'ai oublié ; {ar|مَا قَالَ لِي الْمُدَرِّسُ} : ce que le professeur m'a dit."
+    },
+    {
+      "id": "medine-t2.l16.practice-6#5",
+      "type": "tip",
+      "title": "Dans le Coran",
+      "blocks": [
+        { "type": "paragraph", "text": "Le livre cite trois passages du Coran où {ar|مَا} veut dire « ce que » :" },
+        {
+          "type": "example",
+          "ar": "لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ؟",
+          "fr": "Pourquoi dites-vous ce que vous ne faites pas ? (sourate Aṣ-Ṣaff)"
+        },
+        {
+          "type": "example",
+          "ar": "لَا أَعْبُدُ مَا تَعْبُدُونَ.",
+          "fr": "Je n'adore pas ce que vous adorez. (sourate Al-Kāfirūn, après « Dis : ô vous les mécréants ! »)"
+        },
+        {
+          "type": "example",
+          "ar": "سَنَكْتُبُ مَا قَالُوا.",
+          "fr": "Nous écrirons ce qu'ils ont dit. (sourate Āl ʿImrān)"
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.practice-6#6",
+      "type": "order",
+      "fr": "Pourquoi dites-vous ce que vous ne faites pas ?",
+      "answers": [["لِمَ", "تَقُولُونَ", "مَا", "لَا", "تَفْعَلُونَ"]],
+      "punctuation": "؟",
+      "explain": "{ar|مَا لَا تَفْعَلُونَ} : « ce que vous ne faites pas » ; ici {ar|لَا} nie le verbe {ar|تَفْعَلُونَ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-6#7",
+      "type": "sort",
+      "categories": [
+        { "fr": "{ar|مَا} qui nie" },
+        { "fr": "{ar|مَا} qui interroge" },
+        { "fr": "{ar|مَا} qui veut dire « ce que »" }
+      ],
+      "cards": [
+        { "ar": "مَا عِنْدِي كِتَابٌ.", "category": 0 },
+        { "ar": "مَا فَهِمْتُ الدَّرْسَ.", "category": 0 },
+        { "ar": "مَا هٰذَا؟", "category": 1 },
+        { "ar": "مَا اِسْمُكَ؟", "category": 1 },
+        { "ar": "آكُلُ مَا تَأْكُلُ.", "category": 2 },
+        { "ar": "سَأَشْتَرِي مَا تُرِيدُ.", "category": 2 }
+      ],
+      "instruction": "Quel {ar|مَا} ?",
+      "explain": "Une question : {ar|مَا} interroge. « Ce que » : {ar|مَا} relatif. Sinon, il nie."
+    },
+    {
+      "id": "medine-t2.l16.practice-6#8",
+      "type": "sort",
+      "categories": [
+        { "fr": "{ar|مَا} qui nie" },
+        { "fr": "{ar|مَا} qui interroge" },
+        { "fr": "{ar|مَا} qui veut dire « ce que »" }
+      ],
+      "cards": [
+        { "ar": "مَا أَدْرِي.", "category": 0 },
+        { "ar": "مَا أُرِيدُ شَيْئًا.", "category": 0 },
+        { "ar": "مَاذَا تَكْتُبُ؟", "category": 1 },
+        { "ar": "سَنَكْتُبُ مَا قَالُوا.", "category": 2 }
+      ],
+      "instruction": "Quel {ar|مَا} ?",
+      "explain": "{ar|مَاذَا تَكْتُبُ؟} est une question. Dans {ar|سَنَكْتُبُ مَا قَالُوا}, {ar|مَا} veut dire « ce que »."
+    },
+    {
+      "id": "medine-t2.l16.practice-6#9",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|مَا فَهِمْتُ الدَّرْسَ}, {ar|مَا} veut dire « ce que »." },
+      "answer": false,
+      "explain": "Non : il nie le verbe : « je n'ai pas compris le cours »."
+    },
+    {
+      "id": "medine-t2.l16.practice-6#10",
+      "type": "tip",
+      "title": "{ar|مَا} et {ar|شَيْئًا}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand {ar|مَا} nie un verbe et qu'on ajoute {ar|شَيْئًا}, on obtient « ne… rien » :"
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            ["{ar|مَا أُرِيدُ شَيْئًا.}", "Je ne veux rien."],
+            ["{ar|مَا أَكَلْتُ شَيْئًا.}", "Je n'ai rien mangé."],
+            ["{ar|مَا رَأَيْتُ شَيْئًا.}", "Je n'ai rien vu."],
+            ["{ar|مَا فَهِمْتُ شَيْئًا.}", "Je n'ai rien compris."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.practice-6#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je n'ai rien mangé (avec {ar|مَا}).",
+      "answers": ["مَا أَكَلْتُ شَيْئًا."],
+      "explain": "{ar|مَا أَكَلْتُ} : je n'ai pas mangé ; {ar|شَيْئًا} : quoi que ce soit."
+    },
+    {
+      "id": "medine-t2.l16.practice-6#12",
+      "type": "order",
+      "fr": "Je n'ai rien vu (avec {ar|مَا}).",
+      "answers": [["مَا", "رَأَيْتُ", "شَيْئًا"]],
+      "punctuation": ".",
+      "explain": "{ar|مَا رَأَيْتُ شَيْئًا}."
+    },
+    {
+      "id": "medine-t2.l16.practice-6#13",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|مَا أُرِيدُ شَيْئًا} ?" },
+      "choices": [ { "fr": "Je ne veux rien" }, { "fr": "Je veux quelque chose" }, { "fr": "Que veux-tu ?" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l16.dialogue-1#1" },
+      "explain": "{ar|مَا} nie : « je ne veux rien », comme Hishām dans le texte."
+    },
+    {
+      "id": "medine-t2.l16.practice-6#14",
+      "type": "fill_gap",
+      "sentence": "{0} فَهِمْتُ شَيْئًا.",
+      "fr": "Je n'ai rien compris.",
+      "gaps": [ { "answers": ["مَا"] } ],
+      "options": ["مَا", "أَيْنَ", "مَنْ"],
+      "explain": "Pour nier le verbe : {ar|مَا فَهِمْتُ شَيْئًا}."
+    }
+  ]
+}
