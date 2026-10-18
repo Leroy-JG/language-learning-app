@@ -19,7 +19,7 @@
             {
               "from": { "ar": "أَحْمَرُ", "fr": "rouge (masculin)" },
               "to": { "ar": "حَمْرَاءُ", "fr": "rouge (féminin)" },
-              "label": "le {ar|أَ} du début tombe ; la fin devient {ar|اءُ}"
+              "label": "le {ar|أَ} tombe ; la dernière lettre prend la fatha, puis vient {ar|اءُ}"
             },
             {
               "from": { "ar": "أَخْضَرُ", "fr": "vert (masculin)" },
@@ -45,7 +45,7 @@
         },
         {
           "type": "note",
-          "text": "La fin {ar|اءُ} est un des signes du féminin que tu as vus au chapitre 6. On n'ajoute donc pas de {ar|ة} à une couleur."
+          "text": "La fin {ar|اءُ} est un des signes du féminin que tu as vus au chapitre 6 du tome 1. On n'ajoute donc pas de {ar|ة} à une couleur."
         }
       ]
     },

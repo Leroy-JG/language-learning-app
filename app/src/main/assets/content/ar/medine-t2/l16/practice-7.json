@@ -1,7 +1,7 @@
 {
   "id": "medine-t2.l16.practice-7",
   "type": "vocabulary",
-  "title": "Le Coran, le mushaf et {ar|غَيْرُ}",
+  "title": "Le Coran, son exemplaire et {ar|غَيْرُ}",
   "icon": "star",
   "screens": [
     {
@@ -9,7 +9,7 @@
       "type": "tip",
       "title": "Dis-le comme le professeur",
       "blocks": [
-        { "type": "paragraph", "text": "Le professeur donne les deux séries de phrases suivantes :" },
+        { "type": "paragraph", "text": "Le professeur donne ces deux séries de phrases :" },
         {
           "type": "table",
           "header": ["On dit {ar|الْقُرْآنُ}", "On dit {ar|الْمُصْحَفُ}"],
@@ -47,10 +47,10 @@
     {
       "id": "medine-t2.l16.practice-7#4",
       "type": "order",
-      "fr": "Je lis dans le mushaf.",
+      "fr": "Je lis dans l'exemplaire du Coran.",
       "answers": [["أَقْرَأُ", "مِنَ", "الْمُصْحَفِ"]],
       "punctuation": ".",
-      "explain": "{ar|مِنَ الْمُصْحَفِ} : « dans le mushaf »."
+      "explain": "{ar|مِنَ الْمُصْحَفِ} : « dans l'exemplaire du Coran »."
     },
     {
       "id": "medine-t2.l16.practice-7#5",

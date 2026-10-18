@@ -67,7 +67,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Les filles veulent un autre sac.",
-      "answers": ["الْبَنَاتُ يُرِدْنَ حَقِيبَةً أُخْرَى."],
+      "answers": ["الْبَنَاتُ يُرِدْنَ حَقِيبَةً أُخْرَى.", "تُرِيدُ الْبَنَاتُ حَقِيبَةً أُخْرَى."],
       "explain": "{ar|يُرِدْنَ} : « elles veulent » ; {ar|حَقِيبَةً أُخْرَى} : « un autre sac »."
     },
     {

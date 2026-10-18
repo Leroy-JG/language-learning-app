@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "{ar|مَا الْمَوْصُولَةُ} est un nom qui a le même sens que {ar|الَّذِي} et les mêmes règles (chapitre 9). Le professeur la réserve à ce qui n'est pas doué de raison ({ar|غَيْرُ الْعَاقِلِ}) : les choses, les animaux. Elle reste identique au masculin, au féminin, au singulier et au pluriel. (L'arabe classique connaît quelques emplois différents : ici, on s'en tient à la règle du professeur.)"
+          "text": "{ar|مَا الْمَوْصُولَةُ} est un nom qui a le même sens que {ar|الَّذِي} et les mêmes règles (chapitre 9). Le professeur la réserve à ce qui n'est pas doué de raison ({ar|غَيْرُ عَاقِلٍ}) : les choses, les animaux. Elle reste identique au masculin, au féminin, au singulier et au pluriel. (L'arabe classique connaît quelques emplois différents : ici, on s'en tient à la règle du professeur.)"
         },
         {
           "type": "compare",
@@ -37,7 +37,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "La phrase qui suit {ar|مَا} contient souvent un pronom qui renvoie à la chose : {ar|قَرَأْتُ مَا قَرَأْتَهُ} (le {ar|هُ} de {ar|قَرَأْتَهُ}). Quand ce pronom serait le complément d'objet du verbe, on peut l'omettre : {ar|قَرَأْتُ مَا قَرَأْتَ}."
+          "text": "La phrase qui suit {ar|مَا} reprend souvent la chose par un pronom : {ar|قَرَأْتُ مَا قَرَأْتَهُ} (le {ar|هُ}). On peut l'omettre quand il est complément d'objet : {ar|قَرَأْتُ مَا قَرَأْتَ}."
         },
         {
           "type": "table",

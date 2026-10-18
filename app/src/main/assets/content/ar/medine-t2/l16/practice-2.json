@@ -27,7 +27,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Veux-tu cette revue, Laylā ?",
-      "answers": ["أَتُرِيدِينَ هٰذِهِ الْمَجَلَّةَ يَا لَيْلَى؟"],
+      "answers": ["أَتُرِيدِينَ هٰذِهِ الْمَجَلَّةَ يَا لَيْلَى؟", "يَا لَيْلَى، أَتُرِيدِينَ هٰذِهِ الْمَجَلَّةَ؟"],
       "explain": "Laylā est une fille : {ar|تُرِيدِينَ}. {ar|أَ} pose la question."
     },
     {
@@ -60,7 +60,7 @@
       "id": "medine-t2.l16.practice-2#7",
       "type": "typing",
       "ask": "fr",
-      "fr": "Nous voulons un petit mushaf.",
+      "fr": "Nous voulons un petit exemplaire du Coran.",
       "answers": ["نَحْنُ نُرِيدُ مُصْحَفًا صَغِيرًا.", "نُرِيدُ مُصْحَفًا صَغِيرًا."],
       "explain": "{ar|نُرِيدُ} : « nous voulons » ; {ar|مُصْحَفًا صَغِيرًا} : complément d'objet, avec le tanwin."
     },

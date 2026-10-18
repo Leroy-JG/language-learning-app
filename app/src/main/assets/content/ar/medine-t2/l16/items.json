@@ -75,7 +75,7 @@
     "id": "w:shaar",
     "kind": "word",
     "ar": "شَعْرٌ",
-    "fr": "les cheveux (le poil)",
+    "fr": "des cheveux (du poil)",
     "translit": "shaʿrun",
     "gender": "m",
     "note": "C'est un nom collectif : un seul cheveu se dit {ar|شَعْرَةٌ}.",
@@ -135,7 +135,7 @@
     "translit": "ḥalwā",
     "plural": "حَلَاوَى",
     "gender": "f",
-    "note": "Le mot se termine par le {ar|ى} du féminin (chapitre 6) ; c'est pourquoi on le range parmi les noms féminins.",
+    "note": "Le mot se termine par le {ar|ى} du féminin (chapitre 6 du tome 1) ; c'est pourquoi on le range parmi les noms féminins.",
     "example": { "ar": "أُرِيدُ حَلْوَى.", "fr": "Je veux des sucreries." }
   },
   {

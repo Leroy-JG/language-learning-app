@@ -79,7 +79,12 @@
             [
               "{ar|ذَا حَرْفٍ كَبِيرٍ}",
               "à gros caractères",
-              "{ar|حَرْفٌ} veut dire déjà « particule » ; ici il veut dire « une lettre, un caractère »"
+              "{ar|حَرْفٌ} veut dire « particule » (chapitre 1 du tome 1), et ici « une lettre, un caractère »"
+            ],
+            [
+              "{ar|أُرِيدُ أُخْرَى كَبِيرَةً}, {ar|وَآخَرَ فَرَنْسِيًّا}",
+              "j'en veux une autre, grande ; et un autre, français",
+              "{ar|أُخْرَى} et {ar|آخَرَ} restent seuls quand on sous-entend le nom ({ar|مِسْطَرَةً}, {ar|مُعْجَمًا}) ; {ar|آخَرَ} est à l'accusatif, comme {ar|مُعْجَمًا}"
             ],
             [
               "{ar|اِسْأَلِيهَا}",

@@ -80,4 +80,15 @@ Outils de la palette : `sort` (nom masculin / féminin d'après la couleur ; à 
 
 ## Corrections faites après la relecture
 
-(à remplir après les relectures)
+Trois relecteurs indépendants (arabe et fidélité au PDF, exercices, français et pédagogie) ; chaque remarque a été vérifiée avant d'être appliquée.
+
+- **Alif de liaison** : `اِشْتَرَيْتُ`, `اِسْمُكَ`, `اِسْمُ` écrits avec la kasra sous l'alif, comme dans les autres chapitres.
+- **Accord du verbe devant un sujet pluriel** : la réponse `يُرِدْنَ الْبَنَاتُ …` (verbe pluriel avant son sujet) est retirée du bilan ; `تُرِيدُ الْبَنَاتُ …` est acceptée.
+- **Énoncés précisés** : « tu » devient « (à un homme) » quand la forme arabe dépend du genre ; « (avec `غَيْرُ`) » et « (avec `مَا`) » quand l'énoncé serait aussi juste avec `لَيْسَ` ou `لَمْ` ; « le sac que Ḥafṣa a déjà » (elle en veut un autre, noir).
+- **Réponses acceptées ajoutées** : `أُرِيدُ حَلَاوَى`, `نَحْنُ نُرِيدُ …`, `زَيْدٌ نَسِيَ الْكِتَابَ`, `أُخْتِي غَسَلَتِ …`, `نَسِيتُ مَا قَالَهُ …`, `تُرِيدُ أُخْرَى كَبِيرَةً`, `حَقِيبَتُهَا حَمْرَاءُ`, `آكُلُ مَا تَأْكُلُهُ`.
+- **Vrai/faux sur Hishām** : au début du texte, les fils disent ensemble `نُرِيدُ أَشْيَاءَ كَثِيرَةً` ; l'énoncé du livre (exercice 2) est gardé avec une explication qui le précise, mais dans le texte lui-même l'énoncé devient « Hishām veut un cahier » (faux : c'est ʿAmr).
+- **Tri des trois `مَا`** : la carte `لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ؟` (qui contient aussi un `مَا` interrogatif, `لِمَ` = `لِ` + `مَا`) est remplacée par `سَنَكْتُبُ مَا قَالُوا.`
+- **« Exemplaire du Coran »** remplace « mushaf » en français (pluriel et translittération douteux) ; le sort `الْقُرْآنُ` / `الْمُصْحَفُ` n'utilise plus de cartes avec un verbe de lecture (on peut lire dans les deux) ; les phrases sont présentées comme celles du professeur.
+- **Rythme** : `practice-2` (plus de trois `typing` d'affilée), `practice-5` (plus de `true_false` final ; deux `fill_gap` en `typing` / `order`).
+- **Précisions** : `شَعْرٌ` → « des cheveux (du poil) » (indéfini) ; `حَلْوَى` n'a aucun tanwin (comme `أُخْرَى`) ; « chapitre 6 du tome 1 » ; le masculin `أَحْمَرُ` est privé de tanwin parce que c'est un adjectif de forme `أَفْعَلُ` ; `غَيْرُ عَاقِلٍ` (écriture du PDF) ; la liste de noms en `فُعَلُ` est présentée comme celle des grammairiens (« ces noms propres ») ; `حَرْفٌ` = « lettre, caractère » et l'adjectif seul (`أُرِيدُ أُخْرَى كَبِيرَةً`) expliqués dans `dialogue-2` ; restriction du `مَا` relatif aux choses attribuée au professeur, avec la réserve que l'arabe classique a quelques emplois différents.
+- **À confirmer avec le professeur** : le genre de `حَلْوَى` (noté féminin d'après sa terminaison) ; le genre de `آلٌ` (non noté).

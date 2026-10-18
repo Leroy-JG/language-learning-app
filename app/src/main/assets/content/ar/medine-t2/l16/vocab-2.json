@@ -18,29 +18,32 @@
     {
       "id": "medine-t2.l16.vocab-2#5",
       "type": "tip",
-      "title": "Le Coran et le mushaf",
+      "title": "Le Coran et l'exemplaire du Coran",
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le professeur distingue deux mots. {ar|الْقُرْآنُ} est la parole d'Allah : on le lit, on le mémorise. {ar|الْمُصْحَفُ} est le livre qui contient le Coran : on le pose sur le bureau, on en a plusieurs."
+          "text": "Le professeur donne deux séries de phrases. Avec {ar|الْقُرْآنُ} (la parole d'Allah), on lit et on mémorise. Avec {ar|الْمُصْحَفُ} (le livre qui contient le Coran), on pose, on compte, on lit dedans."
         },
         {
           "type": "table",
           "header": ["On parle…", "On dit", "Exemples"],
           "rows": [
             [
-              "de la parole d'Allah, qu'on lit et qu'on mémorise",
+              "de la parole d'Allah, qu'on lit, qu'on mémorise",
               "{ar|الْقُرْآنُ}",
               "{ar|قَرَأْتُ الْقُرْآنَ} (j'ai lu le Coran), {ar|أَحْفَظُ الْقُرْآنَ} (je mémorise le Coran)"
             ],
             [
-              "du livre qu'on tient et qu'on pose",
+              "du livre qu'on tient, qu'on pose, qu'on compte",
               "{ar|الْمُصْحَفُ}",
-              "{ar|وَضَعْتُ الْمُصْحَفَ عَلَى الْمَكْتَبِ} (j'ai posé le mushaf sur le bureau), {ar|عِنْدِي ثَلَاثَةُ مَصَاحِفَ} (j'ai trois mushafs)"
+              "{ar|وَضَعْتُ الْمُصْحَفَ عَلَى الْمَكْتَبِ} (j'ai posé l'exemplaire du Coran sur le bureau), {ar|عِنْدِي ثَلَاثَةُ مَصَاحِفَ} (j'ai trois exemplaires du Coran)"
             ]
           ]
         },
-        { "type": "note", "text": "On dit aussi {ar|أَقْرَأُ مِنَ الْمُصْحَفِ} : « je lis dans le mushaf »." }
+        {
+          "type": "note",
+          "text": "On dit aussi {ar|أَقْرَأُ مِنَ الْمُصْحَفِ} : « je lis dans l'exemplaire du Coran »."
+        }
       ]
     },
     { "id": "medine-t2.l16.vocab-2#6", "type": "present", "item": "w:qumash" },
@@ -84,7 +87,7 @@
       "ask": "fr",
       "fr": "Je veux des sucreries.",
       "answers": ["أُرِيدُ حَلْوَى.", "أُرِيدُ حَلَاوَى."],
-      "explain": "{ar|حَلْوَى} se termine par un {ar|ى} : il n'y a pas de tanwin visible."
+      "explain": "{ar|حَلْوَى} se termine par le {ar|ى} du féminin : il n'a pas de tanwin, comme {ar|أُخْرَى}."
     }
   ]
 }
