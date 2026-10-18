@@ -58,7 +58,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Zayd a oublié le livre.",
-      "answers": ["نَسِيَ زَيْدٌ الْكِتَابَ."],
+      "answers": ["نَسِيَ زَيْدٌ الْكِتَابَ.", "زَيْدٌ نَسِيَ الْكِتَابَ."],
       "explain": "{ar|نَسِيَ} : il a oublié ; {ar|الْكِتَابَ} : complément d'objet, à la fatha."
     },
     { "id": "medine-t2.l16.vocab-4#8", "type": "build", "item": "w:ghaba", "extra": ["ن"] }

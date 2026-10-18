@@ -70,6 +70,13 @@
     },
     {
       "id": "medine-t2.l16.practice-5#3",
+      "type": "true_false",
+      "statement": { "fr": "{ar|آخَرُ} et {ar|أُخْرَى} s'écrivent avec le tanwin quand le nom est indéfini." },
+      "answer": false,
+      "explain": "Non : ils n'ont jamais de tanwin."
+    },
+    {
+      "id": "medine-t2.l16.practice-5#4",
       "type": "fill_gap",
       "sentence": "دَرَسْتُ اللُّغَةَ الْفَرَنْسِيَّةَ وَلُغَةً {0}.",
       "fr": "J'ai étudié la langue française et une autre langue.",
@@ -78,7 +85,7 @@
       "explain": "{ar|لُغَةٌ} est féminin : {ar|أُخْرَى}."
     },
     {
-      "id": "medine-t2.l16.practice-5#4",
+      "id": "medine-t2.l16.practice-5#5",
       "type": "fill_gap",
       "sentence": "كَتَبْتُ رِسَالَةً إِلَى أَبِي وَرِسَالَةً {0} إِلَى أُمِّي.",
       "fr": "J'ai écrit une lettre à mon père et une autre lettre à ma mère.",
@@ -87,7 +94,7 @@
       "explain": "{ar|رِسَالَةٌ} est féminin : {ar|أُخْرَى}."
     },
     {
-      "id": "medine-t2.l16.practice-5#5",
+      "id": "medine-t2.l16.practice-5#6",
       "type": "typing",
       "ask": "fr",
       "fr": "J'ai entendu cette nouvelle à la radio de Londres et à une autre radio.",
@@ -95,7 +102,7 @@
       "explain": "{ar|إِذَاعَةٌ} est féminin : {ar|أُخْرَى}, sans tanwin."
     },
     {
-      "id": "medine-t2.l16.practice-5#6",
+      "id": "medine-t2.l16.practice-5#7",
       "type": "fill_gap",
       "sentence": "سَأَلَ الْمُدَرِّسُ خَالِدًا وَطَالِبًا {0}.",
       "fr": "Le professeur a interrogé Khālid et un autre étudiant.",
@@ -104,7 +111,7 @@
       "explain": "{ar|طَالِبٌ} est masculin : {ar|آخَرَ}, à la fatha comme {ar|طَالِبًا}."
     },
     {
-      "id": "medine-t2.l16.practice-5#7",
+      "id": "medine-t2.l16.practice-5#8",
       "type": "fill_gap",
       "sentence": "خَرَجَتِ الْآنَ سَيَّارَةُ الْمُدِيرِ وَسَيَّارَةٌ {0}.",
       "fr": "La voiture du directeur vient de sortir, et une autre voiture aussi.",
@@ -113,7 +120,7 @@
       "explain": "{ar|سَيَّارَةٌ} est féminin : {ar|أُخْرَى}."
     },
     {
-      "id": "medine-t2.l16.practice-5#8",
+      "id": "medine-t2.l16.practice-5#9",
       "type": "order",
       "fr": "J'ai vu Khadīja et une autre étudiante chez la directrice.",
       "answers": [["رَأَيْتُ", "خَدِيجَةَ", "وَطَالِبَةً", "أُخْرَى", "عِنْدَ", "الْمُدِيرَةِ"]],
@@ -121,16 +128,15 @@
       "explain": "{ar|خَدِيجَةَ} : un prénom féminin sans tanwin, à la fatha."
     },
     {
-      "id": "medine-t2.l16.practice-5#9",
-      "type": "fill_gap",
-      "sentence": "اِشْتَرَيْتُ هٰذَا الْكِتَابَ وَكِتَابًا {0}.",
+      "id": "medine-t2.l16.practice-5#10",
+      "type": "typing",
+      "ask": "fr",
       "fr": "J'ai acheté ce livre et un autre livre.",
-      "gaps": [ { "answers": ["آخَرَ"] } ],
-      "options": ["آخَرَ", "أُخْرَى"],
+      "answers": ["اِشْتَرَيْتُ هٰذَا الْكِتَابَ وَكِتَابًا آخَرَ."],
       "explain": "{ar|كِتَابٌ} est masculin : {ar|آخَرَ}."
     },
     {
-      "id": "medine-t2.l16.practice-5#10",
+      "id": "medine-t2.l16.practice-5#11",
       "type": "fill_gap",
       "sentence": "ضَرَبَ أُولَئِكَ الرِّجَالُ بِلَالًا وَطَالِبًا {0}.",
       "fr": "Ces hommes ont frappé Bilāl et un autre étudiant.",
@@ -139,28 +145,23 @@
       "explain": "{ar|طَالِبٌ} est masculin : {ar|آخَرَ}."
     },
     {
-      "id": "medine-t2.l16.practice-5#11",
+      "id": "medine-t2.l16.practice-5#12",
       "type": "typing",
       "ask": "fr",
       "fr": "Ma sœur a lavé la chemise verte et une autre chemise.",
-      "answers": ["غَسَلَتْ أُخْتِي الْقَمِيصَ الْأَخْضَرَ وَقَمِيصًا آخَرَ."],
+      "answers": [
+        "غَسَلَتْ أُخْتِي الْقَمِيصَ الْأَخْضَرَ وَقَمِيصًا آخَرَ.",
+        "أُخْتِي غَسَلَتِ الْقَمِيصَ الْأَخْضَرَ وَقَمِيصًا آخَرَ."
+      ],
       "explain": "{ar|قَمِيصٌ} est masculin : {ar|آخَرَ}."
     },
     {
-      "id": "medine-t2.l16.practice-5#12",
-      "type": "fill_gap",
-      "sentence": "خَرَجَ مِنَ الْمَسْجِدِ الْآنَ الْإِمَامُ وَرَجُلٌ {0}.",
-      "fr": "L'imam est sorti de la mosquée à l'instant, ainsi qu'un autre homme.",
-      "gaps": [ { "answers": ["آخَرُ"] } ],
-      "options": ["آخَرُ", "أُخْرَى"],
-      "explain": "{ar|رَجُلٌ} est masculin et au nominatif : {ar|آخَرُ}, avec la damma."
-    },
-    {
       "id": "medine-t2.l16.practice-5#13",
-      "type": "true_false",
-      "statement": { "fr": "{ar|آخَرُ} et {ar|أُخْرَى} s'écrivent avec le tanwin quand le nom est indéfini." },
-      "answer": false,
-      "explain": "Non : ils n'ont jamais de tanwin."
+      "type": "order",
+      "fr": "L'imam est sorti de la mosquée à l'instant, ainsi qu'un autre homme.",
+      "answers": [["خَرَجَ", "مِنَ", "الْمَسْجِدِ", "الْآنَ", "الْإِمَامُ", "وَرَجُلٌ", "آخَرُ"]],
+      "punctuation": ".",
+      "explain": "{ar|رَجُلٌ} est masculin et au nominatif : {ar|آخَرُ}, avec la damma."
     }
   ]
 }

@@ -21,7 +21,7 @@
         { "speaker": "P", "ar": "مَاذَا تُرِدْنَ يَا بَنَاتُ؟", "fr": "Que voulez-vous, les filles ?" },
         {
           "speaker": "E",
-          "ar": "يَا أَبَتِ، أَنْتَ اشْتَرَيْتَ لِي مِلَفًّا قَبْلَ أُسْبُوعٍ. أُرِيدُ الْآنَ مِلَفًّا آخَرَ.",
+          "ar": "يَا أَبَتِ، أَنْتَ اِشْتَرَيْتَ لِي مِلَفًّا قَبْلَ أُسْبُوعٍ. أُرِيدُ الْآنَ مِلَفًّا آخَرَ.",
           "fr": "Papa, tu m'as acheté un dossier il y a une semaine. Je veux maintenant un autre dossier."
         },
         { "speaker": "P", "ar": "مَاذَا تُرِيدِينَ أَنْتِ يَا حَفْصَةُ؟", "fr": "Et toi, que veux-tu, Ḥafṣa ?" },
@@ -76,6 +76,11 @@
           "header": ["Dans le texte", "Sens", "À retenir"],
           "rows": [
             ["{ar|يَا أَبَتِ}", "papa (« ô mon père »)", "une variante de {ar|يَا أَبِي}, déjà vue au chapitre 15"],
+            [
+              "{ar|ذَا حَرْفٍ كَبِيرٍ}",
+              "à gros caractères",
+              "{ar|حَرْفٌ} veut dire déjà « particule » ; ici il veut dire « une lettre, un caractère »"
+            ],
             [
               "{ar|اِسْأَلِيهَا}",
               "demande-lui",

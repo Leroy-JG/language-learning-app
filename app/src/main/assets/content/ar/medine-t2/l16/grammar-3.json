@@ -119,7 +119,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Nous voulons beaucoup de choses.",
-      "answers": ["نُرِيدُ أَشْيَاءَ كَثِيرَةً."],
+      "answers": ["نُرِيدُ أَشْيَاءَ كَثِيرَةً.", "نَحْنُ نُرِيدُ أَشْيَاءَ كَثِيرَةً."],
       "explain": "{ar|نُرِيدُ} : « nous voulons ». {ar|أَشْيَاءَ} n'a pas de tanwin et se met à la fatha (complément d'objet)."
     }
   ]

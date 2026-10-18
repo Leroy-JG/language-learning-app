@@ -48,7 +48,7 @@
           "type": "table",
           "header": ["Dans la phrase…", "c'est…"],
           "rows": [
-            ["on pose une question", "{ar|مَا الِاسْتِفْهَامِيَّةُ} : {ar|مَا اسْمُكَ؟}"],
+            ["on pose une question", "{ar|مَا الِاسْتِفْهَامِيَّةُ} : {ar|مَا اِسْمُكَ؟}"],
             ["on peut dire « ce que » ou « ce qui »", "{ar|مَا الْمَوْصُولَةُ} : {ar|آكُلُ مَا تَأْكُلُ}"],
             ["on dit « ne… pas »", "{ar|مَا النَّافِيَةُ} : {ar|مَا فَهِمْتُ الدَّرْسَ}"]
           ]
@@ -67,7 +67,7 @@
       "cards": [
         { "ar": "مَا ذَهَبَ زَيْدٌ.", "category": 0 },
         { "ar": "مَا عِنْدِي قَلَمٌ.", "category": 0 },
-        { "ar": "مَا اسْمُ الْمُدِيرِ؟", "category": 1 },
+        { "ar": "مَا اِسْمُ الْمُدِيرِ؟", "category": 1 },
         { "ar": "مَاذَا تَشْرَبُ؟", "category": 1 },
         { "ar": "أَشْرَبُ مَا تَشْرَبُ.", "category": 2 },
         { "ar": "اِشْتَرَيْتُ مَا أَرَدْتُ.", "category": 2 }
@@ -103,8 +103,8 @@
       "id": "medine-t2.l16.grammar-5#11",
       "type": "typing",
       "ask": "fr",
-      "fr": "Je mange ce que tu manges.",
-      "answers": ["آكُلُ مَا تَأْكُلُ."],
+      "fr": "Je mange ce que tu manges (tu : un homme).",
+      "answers": ["آكُلُ مَا تَأْكُلُ.", "أَنَا آكُلُ مَا تَأْكُلُ.", "آكُلُ مَا تَأْكُلُهُ.", "أَنَا آكُلُ مَا تَأْكُلُهُ."],
       "explain": "{ar|آكُلُ} : « je mange » ; {ar|مَا تَأْكُلُ} : « ce que tu manges »."
     }
   ]

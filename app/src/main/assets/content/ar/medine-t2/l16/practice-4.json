@@ -52,7 +52,7 @@
       "id": "medine-t2.l16.practice-4#6",
       "type": "typing",
       "ask": "fr",
-      "fr": "N'écris pas avec le stylo rouge.",
+      "fr": "N'écris pas avec le stylo rouge (à un homme).",
       "answers": ["لَا تَكْتُبْ بِالْقَلَمِ الْأَحْمَرِ."],
       "explain": "{ar|لَا تَكْتُبْ} : l'interdiction ({ar|لَا} + jussif) ; {ar|بِالْقَلَمِ الْأَحْمَرِ} : « avec le stylo rouge »."
     },

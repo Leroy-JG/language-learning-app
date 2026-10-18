@@ -40,7 +40,9 @@
         "مِسْطَرَةً كَبِيرَةً.",
         "تُرِيدُ مِسْطَرَةً أُخْرَى كَبِيرَةً.",
         "تُرِيدُ سُعَادُ مِسْطَرَةً أُخْرَى كَبِيرَةً.",
-        "تُرِيدُ مِسْطَرَةً أُخْرَى."
+        "تُرِيدُ مِسْطَرَةً أُخْرَى.",
+        "تُرِيدُ أُخْرَى كَبِيرَةً.",
+        "أُخْرَى كَبِيرَةً."
       ],
       "fr": "Que veut Suʿād ? Une grande règle (elle en a déjà une petite).",
       "context": { "dialogue": "medine-t2.l16.dialogue-2#1" },
@@ -95,7 +97,7 @@
       "statement": { "fr": "{ar|يُرِيدُ هِشَامٌ أَشْيَاءَ كَثِيرَةً.} : cette phrase est juste." },
       "answer": false,
       "context": { "dialogue": "medine-t2.l16.dialogue-1#1" },
-      "explain": "Non : Hishām dit {ar|أَنَا مَا أُرِيدُ شَيْئًا الْآنَ}."
+      "explain": "Non : au début, les fils disent ensemble {ar|نُرِيدُ أَشْيَاءَ كَثِيرَةً}, mais quand le père interroge Hishām, il répond {ar|أَنَا مَا أُرِيدُ شَيْئًا الْآنَ}."
     },
     {
       "id": "medine-t2.l16.practice-1#9",
@@ -124,9 +126,10 @@
         "هِيَ حَمْرَاءُ.",
         "حَمْرَاءُ.",
         "لَوْنُهَا أَحْمَرُ.",
-        "لَوْنُ حَقِيبَةِ حَفْصَةَ أَحْمَرُ."
+        "لَوْنُ حَقِيبَةِ حَفْصَةَ أَحْمَرُ.",
+        "حَقِيبَتُهَا حَمْرَاءُ."
       ],
-      "fr": "De quelle couleur est le sac de Ḥafṣa ? Rouge.",
+      "fr": "De quelle couleur est le sac que Ḥafṣa a déjà ? Rouge.",
       "context": { "dialogue": "medine-t2.l16.dialogue-2#1" },
       "explain": "{ar|حَقِيبَةٌ} est féminin : {ar|حَمْرَاءُ}. Mais {ar|لَوْنٌ} est masculin : {ar|لَوْنُهَا أَحْمَرُ}."
     },

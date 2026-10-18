@@ -30,7 +30,7 @@
         { "fr": "le livre posé sur le bureau", "category": 1 },
         { "fr": "on en a trois chez soi", "category": 1 },
         { "fr": "on le mémorise", "category": 0 },
-        { "fr": "on y lit", "category": 1 },
+        { "fr": "on le tient dans les mains", "category": 1 },
         { "fr": "on l'a lu", "category": 0 }
       ],
       "instruction": "Que veut dire chaque phrase du professeur ?",
@@ -82,7 +82,7 @@
     {
       "id": "medine-t2.l16.practice-7#7",
       "type": "order",
-      "fr": "Ce papier n'est pas réglé.",
+      "fr": "Ce papier n'est pas réglé (avec {ar|غَيْرُ}).",
       "answers": [["هٰذَا", "الْوَرَقُ", "غَيْرُ", "مُسَطَّرٍ"]],
       "punctuation": ".",
       "explain": "{ar|غَيْرُ مُسَطَّرٍ} : « pas réglé »."
@@ -98,7 +98,7 @@
       "id": "medine-t2.l16.practice-7#9",
       "type": "typing",
       "ask": "fr",
-      "fr": "Cette information n'est pas exacte.",
+      "fr": "Cette information n'est pas exacte (avec {ar|غَيْرُ}).",
       "answers": ["هٰذَا الْخَبَرُ غَيْرُ صَحِيحٍ."],
       "explain": "{ar|غَيْرُ صَحِيحٍ} : « inexact »."
     },

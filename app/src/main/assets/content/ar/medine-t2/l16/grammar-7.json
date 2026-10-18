@@ -81,7 +81,7 @@
     {
       "id": "medine-t2.l16.grammar-7#7",
       "type": "order",
-      "fr": "Ce livre n'est pas neuf.",
+      "fr": "Ce livre n'est pas neuf (avec {ar|غَيْرُ}).",
       "answers": [["هٰذَا", "الْكِتَابُ", "غَيْرُ", "جَدِيدٍ"]],
       "punctuation": ".",
       "explain": "{ar|جَدِيدٍ} : génitif, après {ar|غَيْرُ}."
@@ -97,7 +97,7 @@
       "id": "medine-t2.l16.grammar-7#9",
       "type": "typing",
       "ask": "fr",
-      "fr": "Zayd n'est pas studieux.",
+      "fr": "Zayd n'est pas studieux (avec {ar|غَيْرُ}).",
       "answers": ["زَيْدٌ غَيْرُ مُجْتَهِدٍ."],
       "explain": "{ar|غَيْرُ مُجْتَهِدٍ} : « non studieux »."
     },
@@ -105,7 +105,7 @@
       "id": "medine-t2.l16.grammar-7#10",
       "type": "typing",
       "ask": "fr",
-      "fr": "Cette information n'est pas exacte.",
+      "fr": "Cette information n'est pas exacte (avec {ar|غَيْرُ}).",
       "answers": ["هٰذَا الْخَبَرُ غَيْرُ صَحِيحٍ."],
       "explain": "{ar|الْخَبَرُ} : « l'information » ; {ar|صَحِيحٍ} au génitif."
     }

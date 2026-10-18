@@ -39,7 +39,7 @@
         { "speaker": "A", "ar": "أُرِيدُ دَفْتَرًا.", "fr": "Je veux un cahier." },
         {
           "speaker": "P",
-          "ar": "أَمَا اشْتَرَيْتُ لَكَ دَفْتَرًا فِي الْأُسْبُوعِ الْمَاضِي؟",
+          "ar": "أَمَا اِشْتَرَيْتُ لَكَ دَفْتَرًا فِي الْأُسْبُوعِ الْمَاضِي؟",
           "fr": "Ne t'ai-je pas acheté un cahier la semaine dernière ?"
         },
         {
@@ -129,10 +129,10 @@
     {
       "id": "medine-t2.l16.dialogue-1#6",
       "type": "true_false",
-      "statement": { "fr": "Hishām veut beaucoup de choses." },
+      "statement": { "fr": "Hishām veut un cahier." },
       "answer": false,
       "context": { "dialogue": "medine-t2.l16.dialogue-1#1" },
-      "explain": "Non : {ar|أَنَا مَا أُرِيدُ شَيْئًا الْآنَ}."
+      "explain": "Non : c'est ʿAmr qui veut un cahier. Hishām dit {ar|أَنَا مَا أُرِيدُ شَيْئًا الْآنَ}."
     },
     {
       "id": "medine-t2.l16.dialogue-1#7",

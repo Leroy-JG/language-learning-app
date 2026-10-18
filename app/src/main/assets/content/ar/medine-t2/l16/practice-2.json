@@ -75,20 +75,20 @@
     },
     {
       "id": "medine-t2.l16.practice-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le directeur veut la liste des noms des étudiants.",
+      "answers": ["يُرِيدُ الْمُدِيرُ قَائِمَةَ أَسْمَاءِ الطُّلَّابِ.", "الْمُدِيرُ يُرِيدُ قَائِمَةَ أَسْمَاءِ الطُّلَّابِ."],
+      "explain": "{ar|يُرِيدُ} : « il veut » ; {ar|قَائِمَةَ أَسْمَاءِ الطُّلَّابِ} : complément d'objet suivi de deux génitifs."
+    },
+    {
+      "id": "medine-t2.l16.practice-2#10",
       "type": "fill_gap",
       "sentence": "الْمُدَرِّسَاتُ {0} هٰذِهِ الْمَجَلَّاتِ.",
       "fr": "Les enseignantes veulent ces revues.",
       "gaps": [ { "answers": ["يُرِدْنَ"] } ],
       "options": ["يُرِدْنَ", "يُرِيدُونَ", "يُرِيدُ"],
       "explain": "{ar|الْمُدَرِّسَاتُ} : plusieurs femmes : {ar|يُرِدْنَ}."
-    },
-    {
-      "id": "medine-t2.l16.practice-2#10",
-      "type": "typing",
-      "ask": "fr",
-      "fr": "Le directeur veut la liste des noms des étudiants.",
-      "answers": ["يُرِيدُ الْمُدِيرُ قَائِمَةَ أَسْمَاءِ الطُّلَّابِ.", "الْمُدِيرُ يُرِيدُ قَائِمَةَ أَسْمَاءِ الطُّلَّابِ."],
-      "explain": "{ar|يُرِيدُ} : « il veut » ; {ar|قَائِمَةَ أَسْمَاءِ الطُّلَّابِ} : complément d'objet suivi de deux génitifs."
     },
     {
       "id": "medine-t2.l16.practice-2#11",

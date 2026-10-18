@@ -39,7 +39,7 @@
     {
       "id": "medine-t2.l16.practice-6#2",
       "type": "order",
-      "fr": "Je bois ce que tu bois.",
+      "fr": "Je bois ce que tu bois (tu : un homme).",
       "answers": [["أَشْرَبُ", "مَا", "تَشْرَبُ"]],
       "punctuation": ".",
       "explain": "{ar|مَا تَشْرَبُ} : « ce que tu bois »."
@@ -61,7 +61,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "J'ai oublié ce que le professeur m'a dit hier.",
-      "answers": ["نَسِيتُ مَا قَالَ لِي الْمُدَرِّسُ أَمْسِ."],
+      "answers": ["نَسِيتُ مَا قَالَ لِي الْمُدَرِّسُ أَمْسِ.", "نَسِيتُ مَا قَالَهُ لِي الْمُدَرِّسُ أَمْسِ."],
       "explain": "{ar|نَسِيتُ} : j'ai oublié ; {ar|مَا قَالَ لِي الْمُدَرِّسُ} : ce que le professeur m'a dit."
     },
     {
@@ -107,7 +107,7 @@
         { "ar": "مَا عِنْدِي كِتَابٌ.", "category": 0 },
         { "ar": "مَا فَهِمْتُ الدَّرْسَ.", "category": 0 },
         { "ar": "مَا هٰذَا؟", "category": 1 },
-        { "ar": "مَا اسْمُكَ؟", "category": 1 },
+        { "ar": "مَا اِسْمُكَ؟", "category": 1 },
         { "ar": "آكُلُ مَا تَأْكُلُ.", "category": 2 },
         { "ar": "سَأَشْتَرِي مَا تُرِيدُ.", "category": 2 }
       ],
@@ -126,10 +126,10 @@
         { "ar": "مَا أَدْرِي.", "category": 0 },
         { "ar": "مَا أُرِيدُ شَيْئًا.", "category": 0 },
         { "ar": "مَاذَا تَكْتُبُ؟", "category": 1 },
-        { "ar": "لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ؟", "category": 2 }
+        { "ar": "سَنَكْتُبُ مَا قَالُوا.", "category": 2 }
       ],
       "instruction": "Quel {ar|مَا} ?",
-      "explain": "{ar|مَاذَا تَكْتُبُ؟} est une question. Dans {ar|لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ؟}, c'est le deuxième {ar|مَا} qui veut dire « ce que »."
+      "explain": "{ar|مَاذَا تَكْتُبُ؟} est une question. Dans {ar|سَنَكْتُبُ مَا قَالُوا}, {ar|مَا} veut dire « ce que »."
     },
     {
       "id": "medine-t2.l16.practice-6#9",
@@ -163,14 +163,14 @@
       "id": "medine-t2.l16.practice-6#11",
       "type": "typing",
       "ask": "fr",
-      "fr": "Je n'ai rien mangé.",
+      "fr": "Je n'ai rien mangé (avec {ar|مَا}).",
       "answers": ["مَا أَكَلْتُ شَيْئًا."],
       "explain": "{ar|مَا أَكَلْتُ} : je n'ai pas mangé ; {ar|شَيْئًا} : quoi que ce soit."
     },
     {
       "id": "medine-t2.l16.practice-6#12",
       "type": "order",
-      "fr": "Je n'ai rien vu.",
+      "fr": "Je n'ai rien vu (avec {ar|مَا}).",
       "answers": [["مَا", "رَأَيْتُ", "شَيْئًا"]],
       "punctuation": ".",
       "explain": "{ar|مَا رَأَيْتُ شَيْئًا}."

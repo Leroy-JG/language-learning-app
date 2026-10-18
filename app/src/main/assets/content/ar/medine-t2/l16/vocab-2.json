@@ -83,7 +83,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Je veux des sucreries.",
-      "answers": ["أُرِيدُ حَلْوَى."],
+      "answers": ["أُرِيدُ حَلْوَى.", "أُرِيدُ حَلَاوَى."],
       "explain": "{ar|حَلْوَى} se termine par un {ar|ى} : il n'y a pas de tanwin visible."
     }
   ]
