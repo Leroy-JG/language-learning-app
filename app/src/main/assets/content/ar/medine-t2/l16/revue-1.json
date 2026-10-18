@@ -1,0 +1,79 @@
+{
+  "id": "medine-t2.l16.revue-1",
+  "type": "review",
+  "title": "Revoir : les couleurs",
+  "icon": "circle_red",
+  "screens": [
+    {
+      "id": "medine-t2.l16.revue-1#1",
+      "type": "tip",
+      "title": "Les couleurs que tu connais",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais déjà six couleurs (chapitre 22 du tome 1). Une couleur se place **après** le nom. Elle a l'article quand le nom l'a. Au singulier masculin, elle n'a pas de tanwin."
+        },
+        { "type": "gallery", "items": ["w:ahmar", "w:akhdar", "w:azraq", "w:aswad", "w:asfar", "w:abyad"] },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "قَلَمٌ أَحْمَرُ", "fr": "un stylo rouge" },
+              "to": { "ar": "الْقَلَمُ الْأَحْمَرُ", "fr": "le stylo rouge" },
+              "label": "l'article sur les deux mots"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.revue-1#2",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:ahmar", "w:akhdar", "w:azraq", "w:aswad", "w:asfar"]
+    },
+    {
+      "id": "medine-t2.l16.revue-1#3",
+      "type": "fill_gap",
+      "sentence": "هٰذَا قَلَمٌ {0}.",
+      "fr": "C'est un stylo bleu.",
+      "gaps": [ { "answers": ["أَزْرَقُ"] } ],
+      "options": ["أَزْرَقُ", "أَحْمَرُ", "أَخْضَرُ"],
+      "explain": "Le bleu se dit {ar|أَزْرَقُ}. {ar|أَحْمَرُ} veut dire « rouge » et {ar|أَخْضَرُ} « vert »."
+    },
+    {
+      "id": "medine-t2.l16.revue-1#4",
+      "type": "true_false",
+      "statement": { "fr": "Au singulier masculin, une couleur prend le tanwin." },
+      "answer": false,
+      "explain": "Non : {ar|أَحْمَرُ}, {ar|أَخْضَرُ}… se terminent par une damma simple. Ce sont des noms privés de tanwin."
+    },
+    {
+      "id": "medine-t2.l16.revue-1#5",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|فِي الْبَيْتِ الْأَبْيَضِ}, pourquoi {ar|الْأَبْيَضِ} se termine-t-il par une kasra ?" },
+      "choices": [
+        { "fr": "Il a l'article, comme le nom {ar|الْبَيْتِ}" },
+        { "fr": "Parce que c'est une couleur féminine" },
+        { "fr": "Parce qu'il prend toujours le tanwin" }
+      ],
+      "answer": 0,
+      "explain": "Un nom privé de tanwin retrouve la kasra quand il a l'article, comme tous les autres mots."
+    },
+    {
+      "id": "medine-t2.l16.revue-1#6",
+      "type": "order",
+      "fr": "Dans une maison blanche.",
+      "answers": [["فِي", "بَيْتٍ", "أَبْيَضَ"]],
+      "explain": "Le nom a la kasra et le tanwin ; la couleur, privée de tanwin, prend la fatha après une préposition."
+    },
+    {
+      "id": "medine-t2.l16.revue-1#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Un stylo noir et un livre jaune.",
+      "answers": ["قَلَمٌ أَسْوَدُ وَكِتَابٌ أَصْفَرُ."],
+      "explain": "{ar|قَلَمٌ أَسْوَدُ} et {ar|كِتَابٌ أَصْفَرُ} : la couleur suit le nom."
+    }
+  ]
+}

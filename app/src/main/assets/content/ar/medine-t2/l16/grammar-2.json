@@ -1,0 +1,104 @@
+{
+  "id": "medine-t2.l16.grammar-2",
+  "type": "grammar",
+  "title": "La couleur après une préposition ou avec l'article",
+  "icon": "circle_yellow",
+  "screens": [
+    {
+      "id": "medine-t2.l16.grammar-2#1",
+      "type": "tip",
+      "title": "Toujours sans tanwin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au féminin comme au masculin, la couleur n'a pas de tanwin : un mot qui porte le signe du féminin {ar|اءُ} en est privé (chapitre 6). Le professeur dit que les deux formes sont {ar|مَمْنُوعٌ مِنَ الصَّرْفِ}."
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle se comporte donc comme au chapitre 22 du tome 1 : la fatha à la place de la kasra quand elle est indéfinie, la kasra normale avec l'article."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "سَيَّارَةٌ حَمْرَاءُ", "fr": "une voiture rouge" },
+              "to": { "ar": "فِي سَيَّارَةٍ حَمْرَاءَ", "fr": "dans une voiture rouge" },
+              "label": "le nom prend la kasra et le tanwin, la couleur la fatha"
+            },
+            {
+              "from": { "ar": "السَّيَّارَةُ الْحَمْرَاءُ", "fr": "la voiture rouge" },
+              "to": { "ar": "فِي السَّيَّارَةِ الْحَمْرَاءِ", "fr": "dans la voiture rouge" },
+              "label": "avec l'article, la kasra partout"
+            },
+            {
+              "from": { "ar": "قَلَمٌ أَزْرَقُ", "fr": "un stylo bleu" },
+              "to": { "ar": "بِقَلَمٍ أَزْرَقَ", "fr": "avec un stylo bleu" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.grammar-2#2",
+      "type": "question",
+      "prompt": { "fr": "Par quelle voyelle se termine {ar|حَمْرَاءَ} dans {ar|فِي سَيَّارَةٍ حَمْرَاءَ} ?" },
+      "choices": [ { "fr": "Une fatha, sans tanwin" }, { "fr": "Une kasra" }, { "fr": "Un tanwin" } ],
+      "answer": 0,
+      "explain": "Un nom sans tanwin, indéfini, prend la fatha au lieu de la kasra après une préposition."
+    },
+    {
+      "id": "medine-t2.l16.grammar-2#3",
+      "type": "order",
+      "fr": "Dans une voiture rouge.",
+      "answers": [["فِي", "سَيَّارَةٍ", "حَمْرَاءَ"]],
+      "explain": "{ar|سَيَّارَةٍ} : kasra et tanwin ; {ar|حَمْرَاءَ} : fatha."
+    },
+    {
+      "id": "medine-t2.l16.grammar-2#4",
+      "type": "true_false",
+      "statement": { "fr": "Avec l'article, la couleur féminine redevient normale : {ar|فِي السَّيَّارَةِ الْحَمْرَاءِ}." },
+      "answer": true,
+      "explain": "Oui : avec l'article, le mot prend la kasra comme les autres."
+    },
+    {
+      "id": "medine-t2.l16.grammar-2#5",
+      "type": "tip",
+      "title": "Complément d'objet : la fatha aussi",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un complément d'objet est à l'accusatif. La couleur indéfinie y prend, elle aussi, la fatha :"
+        },
+        { "type": "example", "ar": "رَأَيْتُ سَيَّارَةً حَمْرَاءَ.", "fr": "J'ai vu une voiture rouge." },
+        {
+          "type": "note",
+          "text": "Après une préposition ou pour un complément d'objet, la fin de la couleur est la même : {ar|حَمْرَاءَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.grammar-2#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Dans la voiture rouge.",
+      "answers": ["فِي السَّيَّارَةِ الْحَمْرَاءِ."],
+      "explain": "Avec l'article : {ar|فِي السَّيَّارَةِ الْحَمْرَاءِ}, la kasra partout."
+    },
+    {
+      "id": "medine-t2.l16.grammar-2#7",
+      "type": "order",
+      "fr": "J'ai vu une vache noire.",
+      "answers": [["رَأَيْتُ", "بَقَرَةً", "سَوْدَاءَ"]],
+      "punctuation": ".",
+      "explain": "Complément d'objet : {ar|بَقَرَةً} (tanwin à la fatha) et {ar|سَوْدَاءَ} (fatha)."
+    },
+    {
+      "id": "medine-t2.l16.grammar-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Avec un stylo bleu.",
+      "answers": ["بِقَلَمٍ أَزْرَقَ."],
+      "explain": "{ar|بِقَلَمٍ} : kasra et tanwin ; {ar|أَزْرَقَ} : fatha."
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "medine-t2.l16.grammar-8",
+  "type": "grammar",
+  "title": "Les prénoms {ar|عَمْرٌو} et {ar|عُمَرُ}",
+  "icon": "man",
+  "screens": [
+    {
+      "id": "medine-t2.l16.grammar-8#1",
+      "type": "tip",
+      "title": "Des prénoms sans tanwin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur te fait comparer deux séries de prénoms. Ceux de la première ont le tanwin ; ceux de la seconde, de la forme {ar|فُعَلُ}, n'en ont pas."
+        },
+        {
+          "type": "table",
+          "header": ["Avec tanwin", "Sans tanwin (forme {ar|فُعَلُ})"],
+          "rows": [
+            ["{ar|خَالِدٌ}", "{ar|عُمَرُ}"],
+            ["{ar|حَامِدٌ}", "{ar|زُفَرُ}"],
+            ["{ar|عَلِيٌّ}", "{ar|هُبَلُ}"],
+            ["{ar|هِشَامٌ}", "{ar|زُحَلُ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|هُبَلُ} est le nom d'une idole ({ar|صَنَمٌ}), {ar|زُحَلُ} celui d'une planète ({ar|كَوْكَبٌ}) : ils suivent la même règle que les prénoms."
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "Les grammairiens expliquent qu'un nom propre de cette forme a deux raisons d'être privé de tanwin : c'est un nom propre, et sa forme {ar|فُعَلُ} est dite « détournée » ({ar|عَدْلٌ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.grammar-8#2",
+      "type": "tip",
+      "title": "{ar|عَمْرٌو} : un {ar|و} qu'on n'entend pas",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sans voyelles, {ar|عُمَرُ} et {ar|عَمْرٌو} s'écrivent presque pareil : {ar|عمر}. Pour les distinguer, on ajoute à {ar|عَمْرٌو} un {ar|و} qu'on ne prononce **pas** : on dit « ʿamrun ». Contrairement à {ar|عُمَرُ}, il a le tanwin."
+        },
+        {
+          "type": "table",
+          "header": ["Cas", "{ar|عَمْرٌو}", "{ar|عُمَرُ}"],
+          "rows": [
+            ["nominatif", "{ar|عَمْرٌو}", "{ar|عُمَرُ}"],
+            ["accusatif", "{ar|عَمْرًا}", "{ar|عُمَرَ}"],
+            ["génitif", "{ar|عَمْرٍو}", "{ar|عُمَرَ}"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le {ar|و} ne s'écrit qu'au nominatif et au génitif. À l'accusatif, l'alif du tanwin ({ar|عَمْرًا}) suffit à le distinguer de {ar|عُمَرَ}."
+        },
+        { "type": "example", "ar": "ضَرَبَ عَمْرٌو عُمَرَ.", "fr": "ʿAmr a frappé ʿUmar." }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.grammar-8#3",
+      "type": "sort",
+      "categories": [ { "fr": "{ar|عَمْرٌو} (ʿAmr)" }, { "fr": "{ar|عُمَرُ} (ʿUmar)" } ],
+      "cards": [
+        { "ar": "عَمْرٌو", "category": 0 },
+        { "ar": "عَمْرًا", "category": 0 },
+        { "ar": "كِتَابُ عَمْرٍو", "category": 0 },
+        { "ar": "عُمَرُ", "category": 1 },
+        { "ar": "كِتَابُ عُمَرَ", "category": 1 }
+      ],
+      "instruction": "Qui est-ce ?",
+      "explain": "{ar|عَمْرٌو}, {ar|عَمْرًا} et {ar|عَمْرٍو} sont trois formes de ʿAmr (avec un {ar|و} ou un alif). {ar|عُمَرُ} et {ar|عُمَرَ} sont celles de ʿUmar."
+    },
+    {
+      "id": "medine-t2.l16.grammar-8#4",
+      "type": "fill_gap",
+      "sentence": "ضَرَبَ {0} عُمَرَ.",
+      "fr": "ʿAmr a frappé ʿUmar.",
+      "gaps": [ { "answers": ["عَمْرٌو"] } ],
+      "options": ["عَمْرٌو", "عُمَرُ", "عَمْرًا"],
+      "explain": "Le sujet est ʿAmr, au nominatif : {ar|عَمْرٌو}."
+    },
+    {
+      "id": "medine-t2.l16.grammar-8#5",
+      "type": "fill_gap",
+      "sentence": "ضَرَبَ عُمَرُ {0}.",
+      "fr": "ʿUmar a frappé ʿAmr.",
+      "gaps": [ { "answers": ["عَمْرًا"] } ],
+      "options": ["عَمْرًا", "عَمْرٌو", "عُمَرَ"],
+      "explain": "ʿAmr est le complément d'objet, à l'accusatif : {ar|عَمْرًا}, sans {ar|و}."
+    },
+    {
+      "id": "medine-t2.l16.grammar-8#6",
+      "type": "question",
+      "prompt": { "fr": "Comment se prononce {ar|عَمْرٌو} ?" },
+      "choices": [
+        { "fr": "« ʿamrun » : le {ar|و} ne se prononce pas" },
+        { "fr": "« ʿamrūn » : le {ar|و} se prononce" },
+        { "fr": "« ʿumaru »" }
+      ],
+      "answer": 0,
+      "explain": "Le {ar|و} n'est là que pour distinguer {ar|عَمْرٌو} de {ar|عُمَرُ} : il reste muet."
+    },
+    {
+      "id": "medine-t2.l16.grammar-8#7",
+      "type": "true_false",
+      "statement": { "fr": "À l'accusatif, ʿAmr s'écrit encore avec un {ar|و}." },
+      "answer": false,
+      "explain": "Non : à l'accusatif, on écrit {ar|عَمْرًا}, sans {ar|و}."
+    },
+    {
+      "id": "medine-t2.l16.grammar-8#8",
+      "type": "order",
+      "fr": "J'ai joué avec ʿAmr.",
+      "answers": [["لَعِبْتُ", "مَعَ", "عَمْرٍو"]],
+      "punctuation": ".",
+      "explain": "Après {ar|مَعَ}, le nom est au génitif : {ar|عَمْرٍو}."
+    },
+    {
+      "id": "medine-t2.l16.grammar-8#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "ʿUmar a frappé ʿAmr.",
+      "answers": ["ضَرَبَ عُمَرُ عَمْرًا."],
+      "explain": "{ar|عُمَرُ} (sujet, sans tanwin) et {ar|عَمْرًا} (complément d'objet, sans {ar|و})."
+    },
+    {
+      "id": "medine-t2.l16.grammar-8#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "C'est le livre de ʿAmr.",
+      "answers": ["هٰذَا كِتَابُ عَمْرٍو."],
+      "explain": "{ar|كِتَابُ عَمْرٍو} : annexion ; {ar|عَمْرٍو} est au génitif, avec le {ar|و} muet."
+    }
+  ]
+}

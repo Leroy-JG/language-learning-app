@@ -1,0 +1,52 @@
+{
+  "id": "medine-t2.l16.vocab-3",
+  "type": "vocabulary",
+  "title": "Une idole, une planète, la famille de…",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t2.l16.vocab-3#1", "type": "present", "item": "w:sanam" },
+    { "id": "medine-t2.l16.vocab-3#2", "type": "present", "item": "w:zuhal" },
+    { "id": "medine-t2.l16.vocab-3#3", "type": "present", "item": "w:aal" },
+    {
+      "id": "medine-t2.l16.vocab-3#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:sanam",
+      "distractors": ["w:zuhal", "w:aal"],
+      "explain": "{ar|صَنَمٌ} : une idole. {ar|زُحَلُ} est Saturne ; {ar|آلٌ} veut dire « la famille de »."
+    },
+    { "id": "medine-t2.l16.vocab-3#5", "type": "present", "item": "w:daiyiq" },
+    { "id": "medine-t2.l16.vocab-3#6", "type": "present", "item": "w:inkilizi" },
+    {
+      "id": "medine-t2.l16.vocab-3#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:sanam", "w:zuhal", "w:aal", "w:daiyiq", "w:inkilizi"]
+    },
+    {
+      "id": "medine-t2.l16.vocab-3#8",
+      "type": "fill_gap",
+      "sentence": "هٰذَا الْبَابُ {0}.",
+      "fr": "Cette porte est étroite.",
+      "gaps": [ { "answers": ["ضَيِّقٌ"] } ],
+      "options": ["ضَيِّقٌ", "كَبِيرٌ", "جَدِيدٌ"],
+      "explain": "« Étroit » : {ar|ضَيِّقٌ}."
+    },
+    { "id": "medine-t2.l16.vocab-3#9", "type": "build", "item": "w:daiyiq", "extra": ["ص"] },
+    {
+      "id": "medine-t2.l16.vocab-3#10",
+      "type": "order",
+      "fr": "C'est la sourate « La famille de ʿImrān ».",
+      "answers": [["هٰذِهِ", "سُورَةُ", "آلِ", "عِمْرَانَ"]],
+      "explain": "{ar|سُورَةُ آلِ عِمْرَانَ} : annexion de deux noms ; {ar|آلِ} est au génitif."
+    },
+    {
+      "id": "medine-t2.l16.vocab-3#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Saturne est le nom d'une planète.",
+      "answers": ["زُحَلُ اِسْمُ كَوْكَبٍ."],
+      "explain": "{ar|اِسْمُ كَوْكَبٍ} : « le nom d'une planète »."
+    }
+  ]
+}

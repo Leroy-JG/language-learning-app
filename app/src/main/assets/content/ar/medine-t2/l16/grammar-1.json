@@ -1,0 +1,146 @@
+{
+  "id": "medine-t2.l16.grammar-1",
+  "type": "grammar",
+  "title": "Le féminin des couleurs",
+  "icon": "circle_green",
+  "screens": [
+    {
+      "id": "medine-t2.l16.grammar-1#1",
+      "type": "tip",
+      "title": "Deux formes pour une couleur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Une couleur change de forme selon le genre du nom qu'elle décrit. Pour les couleurs de base, le masculin a la forme {ar|أَفْعَلُ} et le féminin la forme {ar|فَعْلَاءُ}."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَحْمَرُ", "fr": "rouge (masculin)" },
+              "to": { "ar": "حَمْرَاءُ", "fr": "rouge (féminin)" },
+              "label": "le {ar|أَ} du début tombe ; la fin devient {ar|اءُ}"
+            },
+            {
+              "from": { "ar": "أَخْضَرُ", "fr": "vert (masculin)" },
+              "to": { "ar": "خَضْرَاءُ", "fr": "vert (féminin)" }
+            },
+            {
+              "from": { "ar": "أَبْيَضُ", "fr": "blanc (masculin)" },
+              "to": { "ar": "بَيْضَاءُ", "fr": "blanc (féminin)" }
+            },
+            {
+              "from": { "ar": "أَزْرَقُ", "fr": "bleu (masculin)" },
+              "to": { "ar": "زَرْقَاءُ", "fr": "bleu (féminin)" }
+            },
+            {
+              "from": { "ar": "أَسْوَدُ", "fr": "noir (masculin)" },
+              "to": { "ar": "سَوْدَاءُ", "fr": "noir (féminin)" }
+            },
+            {
+              "from": { "ar": "أَصْفَرُ", "fr": "jaune (masculin)" },
+              "to": { "ar": "صَفْرَاءُ", "fr": "jaune (féminin)" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "La fin {ar|اءُ} est un des signes du féminin que tu as vus au chapitre 6. On n'ajoute donc pas de {ar|ة} à une couleur."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.grammar-1#2",
+      "type": "question",
+      "prompt": { "fr": "Quelle forme a une couleur de base au féminin ?" },
+      "choices": [ { "ar": "فَعْلَاءُ" }, { "ar": "أَفْعَلُ" }, { "ar": "فَعْلَانُ" } ],
+      "answer": 0,
+      "explain": "Le féminin est {ar|فَعْلَاءُ} ({ar|حَمْرَاءُ}). {ar|أَفْعَلُ} est le masculin ({ar|أَحْمَرُ})."
+    },
+    {
+      "id": "medine-t2.l16.grammar-1#3",
+      "type": "tip",
+      "title": "La couleur s'accorde avec le nom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La couleur suit le nom. Elle prend le même genre que lui, et l'article quand le nom l'a."
+        },
+        {
+          "type": "table",
+          "header": ["Le nom", "Nom masculin", "Nom féminin"],
+          "rows": [
+            ["sans article", "{ar|قَلَمٌ أَحْمَرُ}", "{ar|حَقِيبَةٌ حَمْرَاءُ}"],
+            ["avec l'article", "{ar|الْقَلَمُ الْأَحْمَرُ}", "{ar|الْحَقِيبَةُ الْحَمْرَاءُ}"]
+          ]
+        },
+        { "type": "example", "ar": "هٰذِهِ الشَّجَرَةُ خَضْرَاءُ.", "fr": "Cet arbre est vert." }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.grammar-1#4",
+      "type": "sort",
+      "categories": [ { "fr": "un nom masculin" }, { "fr": "un nom féminin" } ],
+      "cards": [
+        { "ar": "بَيْتٌ أَبْيَضُ", "category": 0 },
+        { "ar": "قَلَمٌ أَزْرَقُ", "category": 0 },
+        { "ar": "سَيَّارَةٌ سَوْدَاءُ", "category": 1 },
+        { "ar": "زَهْرَةٌ صَفْرَاءُ", "category": 1 },
+        { "ar": "الْقَمِيصُ الْأَخْضَرُ", "category": 0 },
+        { "ar": "الْبَقَرَةُ السَّوْدَاءُ", "category": 1 }
+      ],
+      "instruction": "Le nom décrit par chaque couleur est-il masculin ou féminin ?",
+      "explain": "On le voit à la couleur : la forme {ar|أَفْعَلُ} va avec un nom masculin, la forme {ar|فَعْلَاءُ} avec un nom féminin."
+    },
+    {
+      "id": "medine-t2.l16.grammar-1#5",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ سَيَّارَةٌ {0}.",
+      "fr": "C'est une voiture bleue.",
+      "gaps": [ { "answers": ["زَرْقَاءُ"] } ],
+      "options": ["زَرْقَاءُ", "أَزْرَقُ", "حَمْرَاءُ"],
+      "explain": "{ar|سَيَّارَةٌ} est féminin : la couleur prend la forme {ar|زَرْقَاءُ}. {ar|أَزْرَقُ} irait avec un nom masculin."
+    },
+    {
+      "id": "medine-t2.l16.grammar-1#6",
+      "type": "fill_gap",
+      "sentence": "هٰذَا الْقَلَمُ {0} وَهٰذِهِ الْحَقِيبَةُ {1}.",
+      "fr": "Ce stylo est vert et ce sac est vert.",
+      "gaps": [ { "answers": ["أَخْضَرُ"] }, { "answers": ["خَضْرَاءُ"] } ],
+      "options": ["أَخْضَرُ", "خَضْرَاءُ", "أَحْمَرُ", "حَمْرَاءُ"],
+      "explain": "{ar|الْقَلَمُ} est masculin : {ar|أَخْضَرُ}. {ar|الْحَقِيبَةُ} est féminin : {ar|خَضْرَاءُ}."
+    },
+    {
+      "id": "medine-t2.l16.grammar-1#7",
+      "type": "spot",
+      "instruction": "Touche les couleurs qui sont au féminin.",
+      "words": ["هٰذِهِ", "سَيَّارَةٌ", "حَمْرَاءُ", "وَتِلْكَ", "شَجَرَةٌ", "خَضْرَاءُ"],
+      "answers": [2, 5],
+      "fr": "Ceci est une voiture rouge et cela est un arbre vert.",
+      "explain": "{ar|حَمْرَاءُ} et {ar|خَضْرَاءُ} ont la forme {ar|فَعْلَاءُ}."
+    },
+    {
+      "id": "medine-t2.l16.grammar-1#8",
+      "type": "true_false",
+      "statement": { "fr": "On forme le féminin d'une couleur en ajoutant {ar|ة} au masculin." },
+      "answer": false,
+      "explain": "Non : la couleur change de forme ({ar|أَحْمَرُ} → {ar|حَمْرَاءُ})."
+    },
+    {
+      "id": "medine-t2.l16.grammar-1#9",
+      "type": "order",
+      "fr": "C'est une feuille blanche.",
+      "answers": [["هٰذِهِ", "وَرَقَةٌ", "بَيْضَاءُ"]],
+      "punctuation": ".",
+      "explain": "{ar|وَرَقَةٌ} est féminin : {ar|بَيْضَاءُ}."
+    },
+    {
+      "id": "medine-t2.l16.grammar-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ma voiture est noire.",
+      "answers": ["سَيَّارَتِي سَوْدَاءُ."],
+      "explain": "{ar|سَيَّارَتِي} est féminin : la couleur est {ar|سَوْدَاءُ}."
+    }
+  ]
+}

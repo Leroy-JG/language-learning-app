@@ -1,0 +1,66 @@
+{
+  "id": "medine-t2.l16.vocab-4",
+  "type": "vocabulary",
+  "title": "Être absent, oublier",
+  "icon": "hand",
+  "screens": [
+    { "id": "medine-t2.l16.vocab-4#1", "type": "present", "item": "w:ghaba" },
+    { "id": "medine-t2.l16.vocab-4#2", "type": "present", "item": "w:nasiya" },
+    {
+      "id": "medine-t2.l16.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ghaba",
+      "distractors": ["w:nasiya", "w:kharaja"],
+      "explain": "{ar|غَابَ} : il a été absent. {ar|نَسِيَ} veut dire « il a oublié » ; {ar|خَرَجَ} « il est sorti »."
+    },
+    {
+      "id": "medine-t2.l16.vocab-4#4",
+      "type": "tip",
+      "title": "Les quatre formes de ces verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne, comme d'habitude, les quatre formes de chaque verbe. Le nom d'action n'est qu'un aperçu."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["vouloir", "{ar|أَرَادَ}", "{ar|يُرِيدُ}", "{ar|أَرِدْ}", "{ar|إِرَادَةٌ}"],
+            ["acheter", "{ar|اِشْتَرَى}", "{ar|يَشْتَرِي}", "{ar|اِشْتَرِ}", "{ar|اِشْتِرَاءٌ}"],
+            ["être absent", "{ar|غَابَ}", "{ar|يَغِيبُ}", "{ar|غِبْ}", "{ar|غِيَابٌ}, {ar|غَيْبٌ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|اِشْتَرَى} est un verbe à finale défectueuse : sa dernière lettre tombe au jussif et à l'impératif ({ar|اِشْتَرِ}) : chapitres 13 et 14. Rien n'est demandé sur ces formes."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.vocab-4#5",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ الْيَوْمَ.",
+      "fr": "Zayd a été absent aujourd'hui.",
+      "gaps": [ { "answers": ["غَابَ"] } ],
+      "options": ["غَابَ", "نَسِيَ", "ذَهَبَ"],
+      "explain": "« Il a été absent » : {ar|غَابَ}."
+    },
+    {
+      "id": "medine-t2.l16.vocab-4#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:ghaba", "w:nasiya", "w:kharaja", "w:ishtara"]
+    },
+    {
+      "id": "medine-t2.l16.vocab-4#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd a oublié le livre.",
+      "answers": ["نَسِيَ زَيْدٌ الْكِتَابَ."],
+      "explain": "{ar|نَسِيَ} : il a oublié ; {ar|الْكِتَابَ} : complément d'objet, à la fatha."
+    },
+    { "id": "medine-t2.l16.vocab-4#8", "type": "build", "item": "w:ghaba", "extra": ["ن"] }
+  ]
+}

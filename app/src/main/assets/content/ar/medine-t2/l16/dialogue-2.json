@@ -1,0 +1,165 @@
+{
+  "id": "medine-t2.l16.dialogue-2",
+  "type": "dialogue",
+  "title": "Les filles et le tissu",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l16.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Les filles et le tissu",
+      "intro": "Le père interroge maintenant ses filles. Écoute les couleurs au féminin et {ar|أُخْرَى}.",
+      "speakers": {
+        "P": { "name": "Le père", "voice": "m1" },
+        "E": { "name": "ʿĀʾisha", "voice": "f1" },
+        "S": { "name": "Ḥafṣa", "voice": "f1" },
+        "D": { "name": "Suʿād", "voice": "f1" },
+        "L": { "name": "Laylā", "voice": "f1" },
+        "M": { "name": "Salmā", "voice": "f1" }
+      },
+      "lines": [
+        { "speaker": "P", "ar": "مَاذَا تُرِدْنَ يَا بَنَاتُ؟", "fr": "Que voulez-vous, les filles ?" },
+        {
+          "speaker": "E",
+          "ar": "يَا أَبَتِ، أَنْتَ اشْتَرَيْتَ لِي مِلَفًّا قَبْلَ أُسْبُوعٍ. أُرِيدُ الْآنَ مِلَفًّا آخَرَ.",
+          "fr": "Papa, tu m'as acheté un dossier il y a une semaine. Je veux maintenant un autre dossier."
+        },
+        { "speaker": "P", "ar": "مَاذَا تُرِيدِينَ أَنْتِ يَا حَفْصَةُ؟", "fr": "Et toi, que veux-tu, Ḥafṣa ?" },
+        { "speaker": "S", "ar": "أُرِيدُ حَقِيبَةً.", "fr": "Je veux un sac." },
+        { "speaker": "P", "ar": "أَمَا عِنْدَكِ حَقِيبَةٌ؟", "fr": "N'as-tu pas de sac ?" },
+        {
+          "speaker": "S",
+          "ar": "بَلَى. عِنْدِي حَقِيبَةٌ حَمْرَاءُ. أُرِيدُ حَقِيبَةً أُخْرَى سَوْدَاءَ.",
+          "fr": "Si. J'ai un sac rouge. Je veux un autre sac, noir."
+        },
+        { "speaker": "P", "ar": "مَاذَا تُرِيدِينَ يَا سُعَادُ؟", "fr": "Que veux-tu, Suʿād ?" },
+        {
+          "speaker": "D",
+          "ar": "عِنْدِي مِسْطَرَةٌ صَغِيرَةٌ. أُرِيدُ أُخْرَى كَبِيرَةً.",
+          "fr": "J'ai une petite règle. J'en veux une autre, grande."
+        },
+        { "speaker": "P", "ar": "وَمَاذَا تُرِيدِينَ أَنْتِ يَا لَيْلَى؟", "fr": "Et toi, que veux-tu, Laylā ?" },
+        {
+          "speaker": "L",
+          "ar": "أُرِيدُ مُصْحَفًا ذَا حَرْفٍ كَبِيرٍ.",
+          "fr": "Je veux un exemplaire du Coran à gros caractères."
+        },
+        { "speaker": "P", "ar": "أَمَا تُرِيدِينَ شَيْئًا يَا سَلْمَى؟", "fr": "Tu ne veux rien, Salmā ?" },
+        {
+          "speaker": "M",
+          "ar": "بَلَى. أُرِيدُ مُعْجَمًا إِنْكِلِيزِيًّا وَآخَرَ فَرَنْسِيًّا.",
+          "fr": "Si. Je veux un dictionnaire anglais et un autre, français."
+        },
+        { "speaker": "P", "ar": "أَمَا تُرِيدُ أُمُّكِ شَيْئًا؟", "fr": "Ta mère ne veut-elle rien ?" },
+        { "speaker": "M", "ar": "مَا أَدْرِي. أَأَسْأَلُهَا؟", "fr": "Je ne sais pas. Est-ce que je lui demande ?" },
+        { "speaker": "P", "ar": "نَعَمْ، اِسْأَلِيهَا.", "fr": "Oui, demande-lui." },
+        {
+          "speaker": "M",
+          "ar": "تَقُولُ إِنَّهَا تُرِيدُ ثَلَاثَةَ أَمْتَارٍ مِنْ هٰذَا الْقُمَاشِ. خُذْ هٰذَا النَّمُوذَجَ يَا أَبَتِ.",
+          "fr": "(Elle sort, puis revient peu après.) Elle dit qu'elle veut trois mètres de ce tissu. Prends cet échantillon, papa."
+        },
+        {
+          "speaker": "P",
+          "ar": "سَأَشْتَرِي لَكُمْ مَا تُرِيدُونَ إِنْ شَاءَ اللَّهُ.",
+          "fr": "J'achèterai pour vous ce que vous voulez, si Allah le veut."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Presque tout ce texte est connu. Voici ce qu'il faut remarquer :" },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            ["{ar|يَا أَبَتِ}", "papa (« ô mon père »)", "une variante de {ar|يَا أَبِي}, déjà vue au chapitre 15"],
+            [
+              "{ar|اِسْأَلِيهَا}",
+              "demande-lui",
+              "l'impératif féminin {ar|اِسْأَلِي} + le pronom {ar|هَا} : Salmā est une fille"
+            ],
+            [
+              "{ar|أَأَسْأَلُهَا}",
+              "est-ce que je lui demande ?",
+              "{ar|أَ} (la question) + {ar|أَسْأَلُهَا} : deux hamzas de suite, chacune avec sa fatha"
+            ],
+            ["{ar|خُذْ}", "prends !", "l'impératif de {ar|أَخَذَ} : la hamza tombe"],
+            ["{ar|إِنَّهَا تُرِيدُ}", "elle veut", "{ar|إِنَّ} + le pronom {ar|هَا}"],
+            ["{ar|إِنْ شَاءَ اللَّهُ}", "si Allah le veut", "une formule qu'on dit en parlant de l'avenir"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Qu'est-ce que ʿĀʾisha veut ?" },
+      "choices": [ { "fr": "Un autre dossier" }, { "fr": "Un sac" }, { "fr": "Un cahier" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l16.dialogue-2#1" },
+      "explain": "{ar|أُرِيدُ الْآنَ مِلَفًّا آخَرَ}."
+    },
+    {
+      "id": "medine-t2.l16.dialogue-2#4",
+      "type": "true_false",
+      "statement": { "fr": "Ḥafṣa n'a pas de sac." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l16.dialogue-2#1" },
+      "explain": "Si : {ar|عِنْدِي حَقِيبَةٌ حَمْرَاءُ}."
+    },
+    {
+      "id": "medine-t2.l16.dialogue-2#5",
+      "type": "question",
+      "prompt": { "fr": "De quelle couleur est le deuxième sac que veut Ḥafṣa ?" },
+      "choices": [ { "fr": "Noir" }, { "fr": "Rouge" }, { "fr": "Blanc" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l16.dialogue-2#1" },
+      "explain": "{ar|حَقِيبَةً أُخْرَى سَوْدَاءَ} : un autre sac, noir."
+    },
+    {
+      "id": "medine-t2.l16.dialogue-2#6",
+      "type": "question",
+      "prompt": { "fr": "Qu'est-ce que Laylā veut ?" },
+      "choices": [ { "fr": "Un exemplaire du Coran à gros caractères" }, { "fr": "Un dictionnaire" }, { "fr": "Une règle" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l16.dialogue-2#1" },
+      "explain": "{ar|مُصْحَفًا ذَا حَرْفٍ كَبِيرٍ}."
+    },
+    {
+      "id": "medine-t2.l16.dialogue-2#7",
+      "type": "true_false",
+      "statement": { "fr": "Salmā veut un dictionnaire anglais et un autre, français." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l16.dialogue-2#1" },
+      "explain": "{ar|مُعْجَمًا إِنْكِلِيزِيًّا وَآخَرَ فَرَنْسِيًّا}."
+    },
+    {
+      "id": "medine-t2.l16.dialogue-2#8",
+      "type": "question",
+      "prompt": { "fr": "Que veut la mère de Salmā ?" },
+      "choices": [ { "fr": "Trois mètres de tissu" }, { "fr": "Des sucreries" }, { "fr": "Un sac noir" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l16.dialogue-2#1" },
+      "explain": "{ar|ثَلَاثَةَ أَمْتَارٍ مِنْ هٰذَا الْقُمَاشِ}."
+    },
+    {
+      "id": "medine-t2.l16.dialogue-2#9",
+      "type": "order",
+      "fr": "J'achèterai pour vous ce que vous voulez.",
+      "answers": [["سَأَشْتَرِي", "لَكُمْ", "مَا", "تُرِيدُونَ"]],
+      "punctuation": ".",
+      "explain": "{ar|مَا تُرِيدُونَ} : « ce que vous voulez »."
+    },
+    {
+      "id": "medine-t2.l16.dialogue-2#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je veux un dictionnaire anglais.",
+      "answers": ["أُرِيدُ مُعْجَمًا إِنْكِلِيزِيًّا."],
+      "explain": "{ar|مُعْجَمًا إِنْكِلِيزِيًّا} : nom et adjectif à l'accusatif, avec le tanwin."
+    }
+  ]
+}

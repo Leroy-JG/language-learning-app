@@ -1,0 +1,163 @@
+{
+  "id": "medine-t2.l16.dialogue-1",
+  "type": "dialogue",
+  "title": "Que voulez-vous du marché ?",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l16.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Que voulez-vous du marché ?",
+      "intro": "Avant d'aller à la mosquée puis au marché, un père demande à ses enfants ce qu'ils veulent. Écoute le verbe {ar|يُرِيدُ}, les couleurs et {ar|آخَرُ}.",
+      "speakers": {
+        "P": { "name": "Le père", "voice": "m1" },
+        "F": { "name": "Les fils", "voice": "m2" },
+        "U": { "name": "ʿUmar", "voice": "m2" },
+        "A": { "name": "ʿAmr", "voice": "m2" },
+        "H": { "name": "Hishām", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "P",
+          "ar": "أَتُرِيدُونَ شَيْئًا مِنَ السُّوقِ يَا أَبْنَائِي؟ أَنَا الْآنَ أَذْهَبُ إِلَى الْمَسْجِدِ وَسَأَذْهَبُ إِلَى السُّوقِ بَعْدَ الصَّلَاةِ.",
+          "fr": "Voulez-vous quelque chose du marché, mes fils ? Moi, je vais maintenant à la mosquée et j'irai au marché après la prière."
+        },
+        {
+          "speaker": "F",
+          "ar": "نَعَمْ. نُرِيدُ أَشْيَاءَ كَثِيرَةً.",
+          "fr": "Oui. Nous voulons beaucoup de choses."
+        },
+        { "speaker": "P", "ar": "مَاذَا تُرِيدُ يَا عُمَرُ؟", "fr": "Que veux-tu, ʿUmar ?" },
+        { "speaker": "U", "ar": "أُرِيدُ قَلَمًا.", "fr": "Je veux un stylo." },
+        { "speaker": "P", "ar": "أَمَا عِنْدَكَ قَلَمٌ؟", "fr": "N'as-tu pas de stylo ?" },
+        {
+          "speaker": "U",
+          "ar": "بَلَى. عِنْدِي قَلَمٌ أَزْرَقُ. أُرِيدُ قَلَمًا أَحْمَرَ.",
+          "fr": "Si. J'ai un stylo bleu. Je veux un stylo rouge."
+        },
+        { "speaker": "P", "ar": "مَاذَا تُرِيدُ أَنْتَ يَا عَمْرُو؟", "fr": "Et toi, que veux-tu, ʿAmr ?" },
+        { "speaker": "A", "ar": "أُرِيدُ دَفْتَرًا.", "fr": "Je veux un cahier." },
+        {
+          "speaker": "P",
+          "ar": "أَمَا اشْتَرَيْتُ لَكَ دَفْتَرًا فِي الْأُسْبُوعِ الْمَاضِي؟",
+          "fr": "Ne t'ai-je pas acheté un cahier la semaine dernière ?"
+        },
+        {
+          "speaker": "A",
+          "ar": "بَلَى. وَلَكِنَّ ذٰلِكَ الدَّفْتَرَ وَرَقُهُ غَيْرُ مُسَطَّرٍ. أُرِيدُ دَفْتَرًا ذَا وَرَقٍ مُسَطَّرٍ.",
+          "fr": "Si. Mais ce cahier, son papier n'est pas réglé. Je veux un cahier dont le papier est réglé."
+        },
+        { "speaker": "P", "ar": "مَاذَا تُرِيدُ أَنْتَ يَا هِشَامُ؟", "fr": "Et toi, que veux-tu, Hishām ?" },
+        { "speaker": "H", "ar": "أَنَا مَا أُرِيدُ شَيْئًا الْآنَ.", "fr": "Moi, je ne veux rien maintenant." },
+        { "speaker": "P", "ar": "أَيْنَ أَخُوكَ الْحُسَيْنُ؟", "fr": "Où est ton frère al-Ḥusayn ?" },
+        { "speaker": "H", "ar": "هُوَ فِي الْحَمَّامِ.", "fr": "Il est dans la salle de bains." },
+        { "speaker": "P", "ar": "مَاذَا يُرِيدُ هُوَ؟", "fr": "Que veut-il, lui ?" },
+        { "speaker": "H", "ar": "هُوَ يُرِيدُ حَلَاوَى.", "fr": "Lui, il veut des sucreries." }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Presque tout ce texte est connu. Voici ce qu'il faut remarquer :" },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            [
+              "{ar|أَبْنَائِي}",
+              "mes fils",
+              "le pluriel de {ar|اِبْنٌ} + le pronom {ar|ي} : {ar|يَا أَبْنَائِي} (« ô mes fils »)"
+            ],
+            ["{ar|أَتُرِيدُونَ}", "voulez-vous ?", "{ar|أَ} (la question) + {ar|تُرِيدُونَ}"],
+            ["{ar|يَا عَمْرُو}", "ô ʿAmr", "à l'appel, il garde la damma et le {ar|و} muet, mais perd le tanwin"],
+            [
+              "{ar|أَخُوكَ}",
+              "ton frère",
+              "un des cinq noms (chapitre 1 de ce tome) : le {ar|و} marque le nominatif"
+            ],
+            [
+              "{ar|وَلَكِنَّ}",
+              "mais",
+              "{ar|لَكِنَّ} avec une shadda met le nom qui suit à l'accusatif : {ar|ذٰلِكَ الدَّفْتَرَ}"
+            ],
+            [
+              "{ar|ذَا وَرَقٍ}",
+              "qui a du papier, au papier…",
+              "{ar|ذُو} devient {ar|ذَا} à l'accusatif : il qualifie {ar|دَفْتَرًا}"
+            ],
+            [
+              "{ar|مَا أُرِيدُ}",
+              "je ne veux pas",
+              "{ar|مَا} nie ({ar|مَا النَّافِيَةُ}) : {ar|أَنَا مَا أُرِيدُ شَيْئًا}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Quand le père va-t-il au marché ?" },
+      "choices": [ { "fr": "Après la prière" }, { "fr": "Avant la prière" }, { "fr": "Demain matin" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l16.dialogue-1#1" },
+      "explain": "{ar|سَأَذْهَبُ إِلَى السُّوقِ بَعْدَ الصَّلَاةِ}."
+    },
+    {
+      "id": "medine-t2.l16.dialogue-1#4",
+      "type": "true_false",
+      "statement": { "fr": "ʿUmar a déjà un stylo rouge." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l16.dialogue-1#1" },
+      "explain": "Non : {ar|عِنْدِي قَلَمٌ أَزْرَقُ}. Il veut un stylo rouge."
+    },
+    {
+      "id": "medine-t2.l16.dialogue-1#5",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi ʿAmr veut-il un autre cahier ?" },
+      "choices": [
+        { "fr": "Le papier de son cahier n'est pas réglé" },
+        { "fr": "Son cahier est rouge" },
+        { "fr": "Il n'a pas de cahier" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l16.dialogue-1#1" },
+      "explain": "{ar|وَرَقُهُ غَيْرُ مُسَطَّرٍ} : son papier n'est pas réglé."
+    },
+    {
+      "id": "medine-t2.l16.dialogue-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Hishām veut beaucoup de choses." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l16.dialogue-1#1" },
+      "explain": "Non : {ar|أَنَا مَا أُرِيدُ شَيْئًا الْآنَ}."
+    },
+    {
+      "id": "medine-t2.l16.dialogue-1#7",
+      "type": "question",
+      "prompt": { "fr": "Où est al-Ḥusayn ?" },
+      "choices": [ { "fr": "Dans la salle de bains" }, { "fr": "À la mosquée" }, { "fr": "Au marché" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l16.dialogue-1#1" },
+      "explain": "{ar|هُوَ فِي الْحَمَّامِ}."
+    },
+    {
+      "id": "medine-t2.l16.dialogue-1#8",
+      "type": "order",
+      "fr": "Je veux un stylo rouge.",
+      "answers": [["أُرِيدُ", "قَلَمًا", "أَحْمَرَ"]],
+      "punctuation": ".",
+      "explain": "{ar|قَلَمًا أَحْمَرَ} : le nom au tanwin, la couleur à la fatha, sans tanwin."
+    },
+    {
+      "id": "medine-t2.l16.dialogue-1#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je veux un cahier dont le papier est réglé.",
+      "answers": ["أُرِيدُ دَفْتَرًا ذَا وَرَقٍ مُسَطَّرٍ."],
+      "explain": "{ar|ذَا وَرَقٍ مُسَطَّرٍ} : « qui a du papier réglé »."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "medine-t2.l16.practice-2",
+  "type": "vocabulary",
+  "title": "Que veux-tu ? Que voulez-vous ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l16.practice-2#1",
+      "type": "fill_gap",
+      "sentence": "مَاذَا {0} يَا إِخْوَانُ؟",
+      "fr": "Que voulez-vous, mes frères ?",
+      "gaps": [ { "answers": ["تُرِيدُونَ"] } ],
+      "options": ["تُرِيدُونَ", "تُرِيدُ", "تُرِدْنَ"],
+      "explain": "{ar|يَا إِخْوَانُ} : plusieurs hommes : {ar|تُرِيدُونَ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-2#2",
+      "type": "fill_gap",
+      "sentence": "أُخْتِي {0} هٰذَا الْقَلَمَ.",
+      "fr": "Ma sœur veut ce stylo.",
+      "gaps": [ { "answers": ["تُرِيدُ"] } ],
+      "options": ["تُرِيدُ", "أُرِيدُ", "تُرِدْنَ"],
+      "explain": "{ar|أُخْتِي} : « elle » : {ar|تُرِيدُ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-2#3",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Veux-tu cette revue, Laylā ?",
+      "answers": ["أَتُرِيدِينَ هٰذِهِ الْمَجَلَّةَ يَا لَيْلَى؟"],
+      "explain": "Laylā est une fille : {ar|تُرِيدِينَ}. {ar|أَ} pose la question."
+    },
+    {
+      "id": "medine-t2.l16.practice-2#4",
+      "type": "fill_gap",
+      "sentence": "أَصَحِيفَةً {0} أَمْ مَجَلَّةً يَا أَخِي؟",
+      "fr": "Veux-tu un journal ou une revue, mon frère ?",
+      "gaps": [ { "answers": ["تُرِيدُ"] } ],
+      "options": ["تُرِيدُ", "تُرِيدِينَ", "تُرِيدُونَ"],
+      "explain": "{ar|يَا أَخِي} : un seul homme : {ar|تُرِيدُ}. ({ar|صَحِيفَةٌ} désigne une page, et aussi un journal.)"
+    },
+    {
+      "id": "medine-t2.l16.practice-2#5",
+      "type": "order",
+      "fr": "Moi, je veux beaucoup de choses du marché.",
+      "answers": [["أَنَا", "أُرِيدُ", "أَشْيَاءَ", "كَثِيرَةً", "مِنَ", "السُّوقِ"]],
+      "punctuation": ".",
+      "explain": "{ar|أَنَا أُرِيدُ} : « moi, je veux »."
+    },
+    {
+      "id": "medine-t2.l16.practice-2#6",
+      "type": "fill_gap",
+      "sentence": "مَاذَا {0} يَا أَخَوَاتِي؟",
+      "fr": "Que voulez-vous, mes sœurs ?",
+      "gaps": [ { "answers": ["تُرِدْنَ"] } ],
+      "options": ["تُرِدْنَ", "تُرِيدِينَ", "تُرِيدُونَ"],
+      "explain": "{ar|أَخَوَاتِي} : plusieurs femmes : {ar|تُرِدْنَ}, sans le {ar|ي} long."
+    },
+    {
+      "id": "medine-t2.l16.practice-2#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous voulons un petit mushaf.",
+      "answers": ["نَحْنُ نُرِيدُ مُصْحَفًا صَغِيرًا.", "نُرِيدُ مُصْحَفًا صَغِيرًا."],
+      "explain": "{ar|نُرِيدُ} : « nous voulons » ; {ar|مُصْحَفًا صَغِيرًا} : complément d'objet, avec le tanwin."
+    },
+    {
+      "id": "medine-t2.l16.practice-2#8",
+      "type": "fill_gap",
+      "sentence": "الطُّلَّابُ {0} دَفَاتِرَهُمْ.",
+      "fr": "Les étudiants veulent leurs cahiers.",
+      "gaps": [ { "answers": ["يُرِيدُونَ"] } ],
+      "options": ["يُرِيدُونَ", "يُرِدْنَ", "يُرِيدُ"],
+      "explain": "{ar|الطُّلَّابُ} : plusieurs hommes : {ar|يُرِيدُونَ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-2#9",
+      "type": "fill_gap",
+      "sentence": "الْمُدَرِّسَاتُ {0} هٰذِهِ الْمَجَلَّاتِ.",
+      "fr": "Les enseignantes veulent ces revues.",
+      "gaps": [ { "answers": ["يُرِدْنَ"] } ],
+      "options": ["يُرِدْنَ", "يُرِيدُونَ", "يُرِيدُ"],
+      "explain": "{ar|الْمُدَرِّسَاتُ} : plusieurs femmes : {ar|يُرِدْنَ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le directeur veut la liste des noms des étudiants.",
+      "answers": ["يُرِيدُ الْمُدِيرُ قَائِمَةَ أَسْمَاءِ الطُّلَّابِ.", "الْمُدِيرُ يُرِيدُ قَائِمَةَ أَسْمَاءِ الطُّلَّابِ."],
+      "explain": "{ar|يُرِيدُ} : « il veut » ; {ar|قَائِمَةَ أَسْمَاءِ الطُّلَّابِ} : complément d'objet suivi de deux génitifs."
+    },
+    {
+      "id": "medine-t2.l16.practice-2#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَاذَا تُرِيدُ؟",
+      "answers": ["أُرِيدُ قَلَمًا.", "قَلَمًا."],
+      "fr": "Que veux-tu ? Je veux un stylo.",
+      "context": { "icon": "pen" },
+      "explain": "{ar|أُرِيدُ قَلَمًا}."
+    },
+    {
+      "id": "medine-t2.l16.practice-2#12",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَاذَا يُرِيدُ زَمِيلُكَ؟",
+      "answers": ["يُرِيدُ كِتَابًا.", "يُرِيدُ زَمِيلِي كِتَابًا.", "زَمِيلِي يُرِيدُ كِتَابًا.", "كِتَابًا."],
+      "fr": "Que veut ton camarade ? Il veut un livre.",
+      "context": { "icon": "book" },
+      "explain": "{ar|يُرِيدُ زَمِيلِي كِتَابًا} : « mon camarade veut un livre »."
+    }
+  ]
+}

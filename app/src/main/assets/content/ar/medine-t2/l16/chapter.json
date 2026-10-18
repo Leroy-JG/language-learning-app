@@ -1,0 +1,90 @@
+{
+  "id": "medine-t2.l16",
+  "number": 16,
+  "title": {
+    "ar": "الدَّرْسُ السَّادِسَ عَشَرَ",
+    "fr": "Les couleurs au féminin, « un autre » et « ce que »"
+  },
+  "description": "Les couleurs au féminin ({ar|حَمْرَاءُ}), {ar|آخَرُ} et {ar|أُخْرَى} (« un autre, une autre »), le {ar|مَا} relatif (« ce que »), {ar|غَيْرُ}, le verbe {ar|يُرِيدُ}, les noms {ar|عَمْرٌو} et {ar|عُمَرُ}, le vocabulaire, le texte du livre et ses exercices.",
+  "source": "Tome de Médine 2, leçon 16",
+  "sections": [
+    {
+      "title": "Revoir : les couleurs",
+      "activities": [
+        "revue-1"
+      ]
+    },
+    {
+      "title": "Les couleurs au féminin",
+      "activities": [
+        "vocab-1",
+        "grammar-1",
+        "grammar-2"
+      ]
+    },
+    {
+      "title": "Vouloir",
+      "activities": [
+        "grammar-3"
+      ]
+    },
+    {
+      "title": "Un autre, une autre",
+      "activities": [
+        "grammar-4"
+      ]
+    },
+    {
+      "title": "Le mot {ar|مَا}",
+      "activities": [
+        "grammar-5",
+        "grammar-6"
+      ]
+    },
+    {
+      "title": "{ar|غَيْرُ}",
+      "activities": [
+        "grammar-7"
+      ]
+    },
+    {
+      "title": "Des mots nouveaux",
+      "activities": [
+        "vocab-2",
+        "vocab-3",
+        "vocab-4"
+      ]
+    },
+    {
+      "title": "Les noms {ar|عَمْرٌو} et {ar|عُمَرُ}",
+      "activities": [
+        "grammar-8"
+      ]
+    },
+    {
+      "title": "Le texte du livre",
+      "activities": [
+        "dialogue-1",
+        "dialogue-2"
+      ]
+    },
+    {
+      "title": "Les exercices du livre",
+      "activities": [
+        "practice-1",
+        "practice-2",
+        "practice-3",
+        "practice-4",
+        "practice-5",
+        "practice-6",
+        "practice-7"
+      ]
+    },
+    {
+      "title": "Bilan du chapitre",
+      "activities": [
+        "quiz"
+      ]
+    }
+  ]
+}

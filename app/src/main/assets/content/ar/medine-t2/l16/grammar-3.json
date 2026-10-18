@@ -1,0 +1,126 @@
+{
+  "id": "medine-t2.l16.grammar-3",
+  "type": "grammar",
+  "title": "Vouloir : {ar|يُرِيدُ}",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l16.grammar-3#1",
+      "type": "tip",
+      "title": "Le présent du verbe « vouloir »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|أَرَادَ} (« il a voulu », chapitre 18 du tome 1). Au présent, il devient {ar|يُرِيدُ}. C'est le verbe du texte de la leçon : « Que veux-tu ? »"
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Présent", "Sens"],
+          "rows": [
+            ["{ar|أَنَا}", "{ar|أُرِيدُ}", "je veux"],
+            ["{ar|نَحْنُ}", "{ar|نُرِيدُ}", "nous voulons"],
+            ["{ar|أَنْتَ}", "{ar|تُرِيدُ}", "tu veux (à un homme)"],
+            ["{ar|أَنْتِ}", "{ar|تُرِيدِينَ}", "tu veux (à une femme)"],
+            ["{ar|أَنْتُمَا}", "{ar|تُرِيدَانِ}", "vous voulez (à deux personnes)"],
+            ["{ar|أَنْتُمْ}", "{ar|تُرِيدُونَ}", "vous voulez (plusieurs hommes)"],
+            ["{ar|أَنْتُنَّ}", "{ar|تُرِدْنَ}", "vous voulez (plusieurs femmes)"],
+            ["{ar|هُوَ}", "{ar|يُرِيدُ}", "il veut"],
+            ["{ar|هِيَ}", "{ar|تُرِيدُ}", "elle veut"],
+            [
+              "{ar|هُمَا}",
+              "{ar|يُرِيدَانِ} (deux hommes), {ar|تُرِيدَانِ} (deux femmes)",
+              "eux deux, elles deux veulent"
+            ],
+            ["{ar|هُمْ}", "{ar|يُرِيدُونَ}", "ils veulent"],
+            ["{ar|هُنَّ}", "{ar|يُرِدْنَ}", "elles veulent"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.grammar-3#2",
+      "type": "tip",
+      "title": "Une lettre qui disparaît",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Aux deux formes féminines du pluriel, le {ar|ي} long du milieu du verbe disparaît : {ar|تُرِدْنَ} et {ar|يُرِدْنَ}. On ne garde pas une lettre longue juste devant un sukūn."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "تُرِيدُونَ", "fr": "vous voulez (plusieurs hommes)" },
+              "to": { "ar": "تُرِدْنَ", "fr": "vous voulez (plusieurs femmes)" },
+              "label": "le {ar|ي} long disparaît"
+            },
+            {
+              "from": { "ar": "يُرِيدُونَ", "fr": "ils veulent" },
+              "to": { "ar": "يُرِدْنَ", "fr": "elles veulent" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le même phénomène existe pour {ar|قَالَ} : {ar|يَقُولُ} (il dit) → {ar|يَقُلْنَ} (elles disent). Ce n'est qu'un aperçu."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.grammar-3#3",
+      "type": "sort",
+      "categories": [ { "fr": "à un homme" }, { "fr": "à une femme" }, { "fr": "à plusieurs hommes" } ],
+      "cards": [
+        { "ar": "يَا أَحْمَدُ، مَاذَا تُرِيدُ؟", "category": 0 },
+        { "ar": "يَا فَاطِمَةُ، مَاذَا تُرِيدِينَ؟", "category": 1 },
+        { "ar": "يَا إِخْوَانُ، مَاذَا تُرِيدُونَ؟", "category": 2 },
+        { "ar": "يَا لَيْلَى، أَتُرِيدِينَ شَيْئًا؟", "category": 1 },
+        { "ar": "يَا عَلِيُّ، أَتُرِيدُ شَيْئًا؟", "category": 0 },
+        { "ar": "يَا أَوْلَادُ، أَتُرِيدُونَ شَيْئًا؟", "category": 2 }
+      ],
+      "instruction": "À qui parle-t-on ?",
+      "explain": "La fin du verbe suit la personne : {ar|تُرِيدُ} (un homme), {ar|تُرِيدِينَ} (une femme), {ar|تُرِيدُونَ} (plusieurs hommes)."
+    },
+    {
+      "id": "medine-t2.l16.grammar-3#4",
+      "type": "fill_gap",
+      "sentence": "مَاذَا {0} يَا بَنَاتُ؟",
+      "fr": "Que voulez-vous, les filles ?",
+      "gaps": [ { "answers": ["تُرِدْنَ"] } ],
+      "options": ["تُرِدْنَ", "تُرِيدِينَ", "تُرِيدُونَ"],
+      "explain": "{ar|يَا بَنَاتُ} : plusieurs filles. Le {ar|ي} long disparaît : {ar|تُرِدْنَ}."
+    },
+    {
+      "id": "medine-t2.l16.grammar-3#5",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} حَقِيبَةً.",
+      "fr": "Je veux un sac.",
+      "gaps": [ { "answers": ["أُرِيدُ"] } ],
+      "options": ["أُرِيدُ", "نُرِيدُ", "تُرِيدُ"],
+      "explain": "{ar|أَنَا} : « je », donc la lettre {ar|أ} : {ar|أُرِيدُ}."
+    },
+    {
+      "id": "medine-t2.l16.grammar-3#6",
+      "type": "true_false",
+      "statement": { "fr": "{ar|تُرِدْنَ} s'adresse à plusieurs femmes." },
+      "answer": true,
+      "explain": "Oui : c'est la forme de {ar|أَنْتُنَّ}, avec le {ar|نَ} des femmes."
+    },
+    {
+      "id": "medine-t2.l16.grammar-3#7",
+      "type": "order",
+      "fr": "Que veux-tu, mon frère ?",
+      "answers": [["مَاذَا", "تُرِيدُ", "يَا", "أَخِي"], ["يَا", "أَخِي", "مَاذَا", "تُرِيدُ"]],
+      "punctuation": "؟",
+      "explain": "Un frère : un homme, donc {ar|تُرِيدُ}."
+    },
+    {
+      "id": "medine-t2.l16.grammar-3#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous voulons beaucoup de choses.",
+      "answers": ["نُرِيدُ أَشْيَاءَ كَثِيرَةً."],
+      "explain": "{ar|نُرِيدُ} : « nous voulons ». {ar|أَشْيَاءَ} n'a pas de tanwin et se met à la fatha (complément d'objet)."
+    }
+  ]
+}

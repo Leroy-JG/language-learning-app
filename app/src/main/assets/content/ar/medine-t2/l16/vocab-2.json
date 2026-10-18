@@ -1,0 +1,90 @@
+{
+  "id": "medine-t2.l16.vocab-2",
+  "type": "vocabulary",
+  "title": "Dossier, Coran, tissu, sucreries",
+  "icon": "books",
+  "screens": [
+    { "id": "medine-t2.l16.vocab-2#1", "type": "present", "item": "w:milaff" },
+    { "id": "medine-t2.l16.vocab-2#2", "type": "present", "item": "w:mushaf" },
+    { "id": "medine-t2.l16.vocab-2#3", "type": "present", "item": "w:namudhaj" },
+    {
+      "id": "medine-t2.l16.vocab-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mushaf",
+      "distractors": ["w:milaff", "w:namudhaj"],
+      "explain": "{ar|مُصْحَفٌ} : un exemplaire du Coran. {ar|مِلَفٌّ} : un dossier ; {ar|نَمُوذَجٌ} : un modèle."
+    },
+    {
+      "id": "medine-t2.l16.vocab-2#5",
+      "type": "tip",
+      "title": "Le Coran et le mushaf",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur distingue deux mots. {ar|الْقُرْآنُ} est la parole d'Allah : on le lit, on le mémorise. {ar|الْمُصْحَفُ} est le livre qui contient le Coran : on le pose sur le bureau, on en a plusieurs."
+        },
+        {
+          "type": "table",
+          "header": ["On parle…", "On dit", "Exemples"],
+          "rows": [
+            [
+              "de la parole d'Allah, qu'on lit et qu'on mémorise",
+              "{ar|الْقُرْآنُ}",
+              "{ar|قَرَأْتُ الْقُرْآنَ} (j'ai lu le Coran), {ar|أَحْفَظُ الْقُرْآنَ} (je mémorise le Coran)"
+            ],
+            [
+              "du livre qu'on tient et qu'on pose",
+              "{ar|الْمُصْحَفُ}",
+              "{ar|وَضَعْتُ الْمُصْحَفَ عَلَى الْمَكْتَبِ} (j'ai posé le mushaf sur le bureau), {ar|عِنْدِي ثَلَاثَةُ مَصَاحِفَ} (j'ai trois mushafs)"
+            ]
+          ]
+        },
+        { "type": "note", "text": "On dit aussi {ar|أَقْرَأُ مِنَ الْمُصْحَفِ} : « je lis dans le mushaf »." }
+      ]
+    },
+    { "id": "medine-t2.l16.vocab-2#6", "type": "present", "item": "w:qumash" },
+    { "id": "medine-t2.l16.vocab-2#7", "type": "present", "item": "w:halwa" },
+    { "id": "medine-t2.l16.vocab-2#8", "type": "present", "item": "w:musattar" },
+    {
+      "id": "medine-t2.l16.vocab-2#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:milaff", "w:mushaf", "w:namudhaj", "w:qumash", "w:halwa"]
+    },
+    {
+      "id": "medine-t2.l16.vocab-2#10",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:musattar",
+      "distractors": ["w:jadid", "w:kabir"],
+      "explain": "« Réglé » : {ar|مُسَطَّرٌ}. {ar|جَدِيدٌ} veut dire « nouveau » et {ar|كَبِيرٌ} « grand »."
+    },
+    {
+      "id": "medine-t2.l16.vocab-2#11",
+      "type": "fill_gap",
+      "sentence": "هٰذَا الْوَرَقُ {0}.",
+      "fr": "Ce papier est réglé.",
+      "gaps": [ { "answers": ["مُسَطَّرٌ"] } ],
+      "options": ["مُسَطَّرٌ", "جَدِيدٌ", "نَظِيفٌ"],
+      "explain": "« Réglé, à lignes » : {ar|مُسَطَّرٌ}."
+    },
+    { "id": "medine-t2.l16.vocab-2#12", "type": "build", "item": "w:mushaf", "extra": ["خ"] },
+    {
+      "id": "medine-t2.l16.vocab-2#13",
+      "type": "order",
+      "fr": "J'ai posé le dossier sur le bureau.",
+      "answers": [["وَضَعْتُ", "الْمِلَفَّ", "عَلَى", "الْمَكْتَبِ"]],
+      "punctuation": ".",
+      "explain": "{ar|وَضَعْتُ} : j'ai posé. {ar|الْمِلَفَّ} : complément d'objet, à la fatha."
+    },
+    {
+      "id": "medine-t2.l16.vocab-2#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je veux des sucreries.",
+      "answers": ["أُرِيدُ حَلْوَى."],
+      "explain": "{ar|حَلْوَى} se termine par un {ar|ى} : il n'y a pas de tanwin visible."
+    }
+  ]
+}

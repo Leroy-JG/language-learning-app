@@ -1,0 +1,166 @@
+{
+  "id": "medine-t2.l16.practice-5",
+  "type": "vocabulary",
+  "title": "Un autre, une autre",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l16.practice-5#1",
+      "type": "tip",
+      "title": "Le livre fait lire ces phrases",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Observe {ar|آخَرُ} avec un nom masculin, puis {ar|أُخْرَى} avec un nom féminin."
+        },
+        {
+          "type": "table",
+          "header": ["Avec {ar|آخَرُ}", "Sens"],
+          "rows": [
+            [
+              "{ar|خَرَجَ مِنَ الْفَصْلِ حَمْزَةُ وَطَالِبٌ آخَرُ.}",
+              "Ḥamza et un autre étudiant sont sortis de la classe."
+            ],
+            ["{ar|هٰذَا بَيْتُنَا وَلَنَا بَيْتٌ آخَرُ.}", "Ceci est notre maison, et nous avons une autre maison."],
+            [
+              "{ar|غَابَ الْيَوْمَ بَشِيرٌ وَطَالِبٌ آخَرُ.}",
+              "Bashīr et un autre étudiant ont été absents aujourd'hui."
+            ],
+            [
+              "{ar|رَأَيْتُ فِي الْمَطَارِ مُدَرِّسَنَا وَمُدَرِّسًا آخَرَ.}",
+              "J'ai vu à l'aéroport notre professeur et un autre professeur."
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "header": ["Avec {ar|أُخْرَى}", "Sens"],
+          "rows": [
+            [
+              "{ar|سَأَحْفَظُ الْيَوْمَ سُورَةَ الرَّحْمٰنِ وَسُورَةً أُخْرَى.}",
+              "Aujourd'hui je mémoriserai la sourate Ar-Raḥmān et une autre sourate."
+            ],
+            [
+              "{ar|عِنْدِي سَاعَةٌ جَمِيلَةٌ وَسَيَشْتَرِي لِي عَمِّي سَاعَةً أُخْرَى.}",
+              "J'ai une belle montre et mon oncle m'achètera une autre montre."
+            ],
+            [
+              "{ar|غَابَتْ أَمْسِ حَفْصَةُ وَطَالِبَةٌ أُخْرَى.}",
+              "Ḥafṣa et une autre étudiante ont été absentes hier."
+            ],
+            [
+              "{ar|رَأَيْتُ فِي الْمَكْتَبَةِ لَيْلَى وَطَالِبَةً أُخْرَى.}",
+              "J'ai vu à la bibliothèque Laylā et une autre étudiante."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.practice-5#2",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|غَابَتْ أَمْسِ حَفْصَةُ وَطَالِبَةٌ أُخْرَى}, pourquoi {ar|أُخْرَى} ?" },
+      "choices": [
+        { "fr": "Parce qu'il décrit une étudiante, un nom féminin" },
+        { "fr": "Parce qu'il est au pluriel" },
+        { "fr": "Parce qu'il a l'article" }
+      ],
+      "answer": 0,
+      "explain": "{ar|طَالِبَةٌ} est féminin : {ar|أُخْرَى}."
+    },
+    {
+      "id": "medine-t2.l16.practice-5#3",
+      "type": "fill_gap",
+      "sentence": "دَرَسْتُ اللُّغَةَ الْفَرَنْسِيَّةَ وَلُغَةً {0}.",
+      "fr": "J'ai étudié la langue française et une autre langue.",
+      "gaps": [ { "answers": ["أُخْرَى"] } ],
+      "options": ["أُخْرَى", "آخَرَ"],
+      "explain": "{ar|لُغَةٌ} est féminin : {ar|أُخْرَى}."
+    },
+    {
+      "id": "medine-t2.l16.practice-5#4",
+      "type": "fill_gap",
+      "sentence": "كَتَبْتُ رِسَالَةً إِلَى أَبِي وَرِسَالَةً {0} إِلَى أُمِّي.",
+      "fr": "J'ai écrit une lettre à mon père et une autre lettre à ma mère.",
+      "gaps": [ { "answers": ["أُخْرَى"] } ],
+      "options": ["أُخْرَى", "آخَرَ"],
+      "explain": "{ar|رِسَالَةٌ} est féminin : {ar|أُخْرَى}."
+    },
+    {
+      "id": "medine-t2.l16.practice-5#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai entendu cette nouvelle à la radio de Londres et à une autre radio.",
+      "answers": ["سَمِعْتُ هٰذَا الْخَبَرَ مِنْ إِذَاعَةِ لَنْدَنَ وَمِنْ إِذَاعَةٍ أُخْرَى."],
+      "explain": "{ar|إِذَاعَةٌ} est féminin : {ar|أُخْرَى}, sans tanwin."
+    },
+    {
+      "id": "medine-t2.l16.practice-5#6",
+      "type": "fill_gap",
+      "sentence": "سَأَلَ الْمُدَرِّسُ خَالِدًا وَطَالِبًا {0}.",
+      "fr": "Le professeur a interrogé Khālid et un autre étudiant.",
+      "gaps": [ { "answers": ["آخَرَ"] } ],
+      "options": ["آخَرَ", "أُخْرَى"],
+      "explain": "{ar|طَالِبٌ} est masculin : {ar|آخَرَ}, à la fatha comme {ar|طَالِبًا}."
+    },
+    {
+      "id": "medine-t2.l16.practice-5#7",
+      "type": "fill_gap",
+      "sentence": "خَرَجَتِ الْآنَ سَيَّارَةُ الْمُدِيرِ وَسَيَّارَةٌ {0}.",
+      "fr": "La voiture du directeur vient de sortir, et une autre voiture aussi.",
+      "gaps": [ { "answers": ["أُخْرَى"] } ],
+      "options": ["أُخْرَى", "آخَرُ"],
+      "explain": "{ar|سَيَّارَةٌ} est féminin : {ar|أُخْرَى}."
+    },
+    {
+      "id": "medine-t2.l16.practice-5#8",
+      "type": "order",
+      "fr": "J'ai vu Khadīja et une autre étudiante chez la directrice.",
+      "answers": [["رَأَيْتُ", "خَدِيجَةَ", "وَطَالِبَةً", "أُخْرَى", "عِنْدَ", "الْمُدِيرَةِ"]],
+      "punctuation": ".",
+      "explain": "{ar|خَدِيجَةَ} : un prénom féminin sans tanwin, à la fatha."
+    },
+    {
+      "id": "medine-t2.l16.practice-5#9",
+      "type": "fill_gap",
+      "sentence": "اِشْتَرَيْتُ هٰذَا الْكِتَابَ وَكِتَابًا {0}.",
+      "fr": "J'ai acheté ce livre et un autre livre.",
+      "gaps": [ { "answers": ["آخَرَ"] } ],
+      "options": ["آخَرَ", "أُخْرَى"],
+      "explain": "{ar|كِتَابٌ} est masculin : {ar|آخَرَ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-5#10",
+      "type": "fill_gap",
+      "sentence": "ضَرَبَ أُولَئِكَ الرِّجَالُ بِلَالًا وَطَالِبًا {0}.",
+      "fr": "Ces hommes ont frappé Bilāl et un autre étudiant.",
+      "gaps": [ { "answers": ["آخَرَ"] } ],
+      "options": ["آخَرَ", "أُخْرَى"],
+      "explain": "{ar|طَالِبٌ} est masculin : {ar|آخَرَ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-5#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ma sœur a lavé la chemise verte et une autre chemise.",
+      "answers": ["غَسَلَتْ أُخْتِي الْقَمِيصَ الْأَخْضَرَ وَقَمِيصًا آخَرَ."],
+      "explain": "{ar|قَمِيصٌ} est masculin : {ar|آخَرَ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-5#12",
+      "type": "fill_gap",
+      "sentence": "خَرَجَ مِنَ الْمَسْجِدِ الْآنَ الْإِمَامُ وَرَجُلٌ {0}.",
+      "fr": "L'imam est sorti de la mosquée à l'instant, ainsi qu'un autre homme.",
+      "gaps": [ { "answers": ["آخَرُ"] } ],
+      "options": ["آخَرُ", "أُخْرَى"],
+      "explain": "{ar|رَجُلٌ} est masculin et au nominatif : {ar|آخَرُ}, avec la damma."
+    },
+    {
+      "id": "medine-t2.l16.practice-5#13",
+      "type": "true_false",
+      "statement": { "fr": "{ar|آخَرُ} et {ar|أُخْرَى} s'écrivent avec le tanwin quand le nom est indéfini." },
+      "answer": false,
+      "explain": "Non : ils n'ont jamais de tanwin."
+    }
+  ]
+}

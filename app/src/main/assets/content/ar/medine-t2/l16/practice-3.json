@@ -1,0 +1,145 @@
+{
+  "id": "medine-t2.l16.practice-3",
+  "type": "vocabulary",
+  "title": "Les couleurs au féminin : à toi de jouer",
+  "icon": "circle_red",
+  "screens": [
+    {
+      "id": "medine-t2.l16.practice-3#1",
+      "type": "tip",
+      "title": "Le modèle du livre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne trois exemples : le nom masculin avec sa couleur, puis un nom féminin avec la couleur au féminin. À toi de faire la suite."
+        },
+        {
+          "type": "table",
+          "header": ["Masculin", "Féminin"],
+          "rows": [
+            ["{ar|قَلَمٌ أَحْمَرُ}", "{ar|حَقِيبَةٌ حَمْرَاءُ}"],
+            ["{ar|شَعْرٌ أَسْوَدُ}", "{ar|لِحْيَةٌ سَوْدَاءُ}"],
+            ["{ar|مِنْدِيلٌ أَبْيَضُ}", "{ar|وَرَقَةٌ بَيْضَاءُ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.practice-3#2",
+      "type": "fill_gap",
+      "sentence": "مِلَفٌّ أَصْفَرُ وَسَيَّارَةٌ {0}.",
+      "fr": "Un dossier jaune et une voiture jaune.",
+      "gaps": [ { "answers": ["صَفْرَاءُ"] } ],
+      "options": ["صَفْرَاءُ", "أَصْفَرُ", "بَيْضَاءُ"],
+      "explain": "{ar|سَيَّارَةٌ} est féminin : la couleur prend la forme {ar|صَفْرَاءُ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-3#3",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Une chemise verte et un arbre vert.",
+      "answers": ["قَمِيصٌ أَخْضَرُ وَشَجَرَةٌ خَضْرَاءُ."],
+      "explain": "{ar|قَمِيصٌ} est masculin : {ar|أَخْضَرُ}. {ar|شَجَرَةٌ} est féminin : {ar|خَضْرَاءُ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-3#4",
+      "type": "fill_gap",
+      "sentence": "رَجُلٌ أَسْمَرُ وَاِمْرَأَةٌ {0}.",
+      "fr": "Un homme au teint brun et une femme au teint brun.",
+      "gaps": [ { "answers": ["سَمْرَاءُ"] } ],
+      "options": ["سَمْرَاءُ", "أَسْمَرُ", "سَوْدَاءُ"],
+      "explain": "Une femme : {ar|سَمْرَاءُ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-3#5",
+      "type": "order",
+      "fr": "Mes cheveux sont noirs et ma barbe est blanche.",
+      "answers": [["شَعْرُ", "رَأْسِي", "أَسْوَدُ", "وَلِحْيَتِي", "بَيْضَاءُ"]],
+      "punctuation": ".",
+      "explain": "{ar|شَعْرُ رَأْسِي} : « les cheveux de ma tête » (masculin : {ar|أَسْوَدُ}) ; {ar|لِحْيَتِي} est féminin : {ar|بَيْضَاءُ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-3#6",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أُرِيدُ قَلَمًا أَزْرَقَ وَحَقِيبَةً حَمْرَاءَ}, de quelle couleur est le sac ?" },
+      "choices": [ { "fr": "Rouge" }, { "fr": "Bleu" }, { "fr": "Noir" } ],
+      "answer": 0,
+      "explain": "{ar|حَقِيبَةً حَمْرَاءَ} : un sac rouge."
+    },
+    {
+      "id": "medine-t2.l16.practice-3#7",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|هُوَ أَسْمَرُ وَزَوْجَتُهُ أَيْضًا سَمْرَاءُ}, pourquoi {ar|سَمْرَاءُ} a-t-il cette forme ?"
+      },
+      "choices": [
+        { "fr": "Parce qu'il décrit une femme" },
+        { "fr": "Parce qu'il décrit un homme" },
+        { "fr": "Parce qu'il a l'article" }
+      ],
+      "answer": 0,
+      "explain": "{ar|سَمْرَاءُ} décrit {ar|زَوْجَتُهُ} (« son épouse »), un nom féminin."
+    },
+    {
+      "id": "medine-t2.l16.practice-3#8",
+      "type": "fill_gap",
+      "sentence": "سَيَّارَةُ الْمُدِيرِ {0} وَسَيَّارَةُ الْمُدَرِّسِ {1}.",
+      "fr": "La voiture du directeur est verte et la voiture du professeur est blanche.",
+      "gaps": [ { "answers": ["خَضْرَاءُ"] }, { "answers": ["بَيْضَاءُ"] } ],
+      "options": ["خَضْرَاءُ", "بَيْضَاءُ", "أَخْضَرُ", "أَبْيَضُ"],
+      "explain": "Les deux couleurs décrivent {ar|سَيَّارَةُ}, un nom féminin."
+    },
+    {
+      "id": "medine-t2.l16.practice-3#9",
+      "type": "spot",
+      "instruction": "Touche la couleur.",
+      "words": ["هٰذِهِ", "الْبَقَرَةُ", "السَّوْدَاءُ", "جَمِيلَةٌ."],
+      "answers": [2],
+      "fr": "Cette vache noire est belle.",
+      "explain": "{ar|السَّوْدَاءُ} décrit {ar|الْبَقَرَةُ} : elle a l'article et la forme féminine."
+    },
+    {
+      "id": "medine-t2.l16.practice-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Comme cette fleur rouge est belle !",
+      "answers": ["مَا أَجْمَلَ هٰذِهِ الزَّهْرَةَ الْحَمْرَاءَ!"],
+      "explain": "{ar|مَا أَجْمَلَ} + le nom à la fatha : {ar|الزَّهْرَةَ الْحَمْرَاءَ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-3#11",
+      "type": "order",
+      "fr": "Donne une feuille blanche.",
+      "answers": [["هَاتِ", "وَرَقَةً", "بَيْضَاءَ"]],
+      "punctuation": ".",
+      "explain": "{ar|هَاتِ} : donne ! {ar|وَرَقَةً بَيْضَاءَ} : complément d'objet, avec la fatha sans tanwin."
+    },
+    {
+      "id": "medine-t2.l16.practice-3#12",
+      "type": "fill_gap",
+      "sentence": "لِمَنْ هٰذِهِ السَّيَّارَةُ {0}؟",
+      "fr": "À qui est cette voiture jaune ?",
+      "gaps": [ { "answers": ["الصَّفْرَاءُ"] } ],
+      "options": ["الصَّفْرَاءُ", "الْأَصْفَرُ", "الْبَيْضَاءُ"],
+      "explain": "{ar|السَّيَّارَةُ} est féminin et défini : {ar|الصَّفْرَاءُ}."
+    },
+    {
+      "id": "medine-t2.l16.practice-3#13",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|أَهٰذَا الدَّفْتَرُ ذُو الْغِلَافِ الْأَصْفَرِ لَكِ يَا حَفْصَةُ؟}, qu'est-ce qui est jaune ?"
+      },
+      "choices": [ { "fr": "La couverture" }, { "fr": "Le cahier" }, { "fr": "Le papier" } ],
+      "answer": 0,
+      "explain": "{ar|الْأَصْفَرِ} a la kasra du génitif, comme {ar|الْغِلَافِ} : il décrit la couverture, pas le cahier ({ar|الدَّفْتَرُ} est au nominatif)."
+    },
+    {
+      "id": "medine-t2.l16.practice-3#14",
+      "type": "order",
+      "fr": "Comme cet arbre vert devant l'université est beau !",
+      "answers": [["مَا", "أَجْمَلَ", "تِلْكَ", "الشَّجَرَةَ", "الْخَضْرَاءَ", "الَّتِي", "أَمَامَ", "الْجَامِعَةِ"]],
+      "punctuation": "!",
+      "explain": "{ar|الشَّجَرَةَ الْخَضْرَاءَ} (à la fatha) ; {ar|الَّتِي أَمَامَ الْجَامِعَةِ} : « qui est devant l'université »."
+    }
+  ]
+}

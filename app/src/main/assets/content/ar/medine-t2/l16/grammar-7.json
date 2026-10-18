@@ -1,0 +1,113 @@
+{
+  "id": "medine-t2.l16.grammar-7",
+  "type": "grammar",
+  "title": "{ar|غَيْرُ} : « non, pas »",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l16.grammar-7#1",
+      "type": "tip",
+      "title": "Un nom qui nie",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|غَيْرُ} est un nom qui s'emploie **toujours annexé** à un autre nom : il est le premier terme d'une annexion ({ar|مُضَافٌ}). Il a plusieurs emplois. L'un d'eux est de **nier le sens** du mot qui le suit ({ar|الْمُضَافُ إِلَيْهِ}), un peu comme « non- » ou « in- » en français."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "زَيْدٌ مُجْتَهِدٌ", "fr": "Zayd est studieux." },
+              "to": { "ar": "زَيْدٌ غَيْرُ مُجْتَهِدٍ", "fr": "Zayd n'est pas studieux." },
+              "label": "{ar|غَيْرُ} nie ; le mot qui suit est au génitif"
+            }
+          ]
+        }
+      ]
+    },
+    { "id": "medine-t2.l16.grammar-7#2", "type": "present", "item": "w:ghayr" },
+    {
+      "id": "medine-t2.l16.grammar-7#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ghayr",
+      "distractors": ["w:kabir", "w:jadid"],
+      "explain": "{ar|غَيْرُ} : « non, pas », il nie le mot qui suit. {ar|كَبِيرٌ} veut dire « grand » et {ar|جَدِيدٌ} « nouveau »."
+    },
+    {
+      "id": "medine-t2.l16.grammar-7#4",
+      "type": "tip",
+      "title": "Les fins des mots",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le second terme d'une annexion est au **génitif** : {ar|مُجْتَهِدٍ} a la kasra et le tanwin. {ar|غَيْرُ} reçoit la fin que demande la phrase : ici il est le prédicat, donc la damma. Il n'a pas de tanwin, puisqu'un autre mot le suit."
+        },
+        {
+          "type": "table",
+          "header": ["Sans {ar|غَيْرُ}", "Avec {ar|غَيْرُ}"],
+          "rows": [
+            ["{ar|هٰذَا الْخَبَرُ صَحِيحٌ}", "{ar|هٰذَا الْخَبَرُ غَيْرُ صَحِيحٍ}"],
+            ["{ar|هٰذَا الْمَسْجِدُ كَبِيرٌ}", "{ar|هٰذَا الْمَسْجِدُ غَيْرُ كَبِيرٍ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|غَيْرُ} a d'autres emplois, comme « autre que » : ici, on ne voit que celui qui nie."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l16.grammar-7#5",
+      "type": "question",
+      "prompt": { "fr": "À quel cas se met le mot qui suit {ar|غَيْرُ} ?" },
+      "choices": [
+        { "fr": "Au génitif (kasra) : c'est le second terme d'une annexion" },
+        { "fr": "Au nominatif (damma)" },
+        { "fr": "À l'accusatif (fatha)" }
+      ],
+      "answer": 0,
+      "explain": "{ar|غَيْرُ} est le premier terme d'une annexion : le mot qui le suit est au génitif, comme {ar|مُجْتَهِدٍ}."
+    },
+    {
+      "id": "medine-t2.l16.grammar-7#6",
+      "type": "spot",
+      "instruction": "Touche le mot qui nie.",
+      "words": ["هٰذَا", "الْخَبَرُ", "غَيْرُ", "صَحِيحٍ"],
+      "answers": [2],
+      "fr": "Cette information n'est pas exacte.",
+      "explain": "{ar|غَيْرُ} nie le sens de {ar|صَحِيحٍ}."
+    },
+    {
+      "id": "medine-t2.l16.grammar-7#7",
+      "type": "order",
+      "fr": "Ce livre n'est pas neuf.",
+      "answers": [["هٰذَا", "الْكِتَابُ", "غَيْرُ", "جَدِيدٍ"]],
+      "punctuation": ".",
+      "explain": "{ar|جَدِيدٍ} : génitif, après {ar|غَيْرُ}."
+    },
+    {
+      "id": "medine-t2.l16.grammar-7#8",
+      "type": "true_false",
+      "statement": { "fr": "Le mot qui suit {ar|غَيْرُ} reste au nominatif, avec la damma." },
+      "answer": false,
+      "explain": "Non : c'est le second terme d'une annexion, donc au génitif (kasra)."
+    },
+    {
+      "id": "medine-t2.l16.grammar-7#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd n'est pas studieux.",
+      "answers": ["زَيْدٌ غَيْرُ مُجْتَهِدٍ."],
+      "explain": "{ar|غَيْرُ مُجْتَهِدٍ} : « non studieux »."
+    },
+    {
+      "id": "medine-t2.l16.grammar-7#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Cette information n'est pas exacte.",
+      "answers": ["هٰذَا الْخَبَرُ غَيْرُ صَحِيحٍ."],
+      "explain": "{ar|الْخَبَرُ} : « l'information » ; {ar|صَحِيحٍ} au génitif."
+    }
+  ]
+}
