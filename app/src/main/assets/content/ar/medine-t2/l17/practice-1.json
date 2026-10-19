@@ -1,0 +1,134 @@
+{
+  "id": "medine-t2.l17.practice-1",
+  "type": "vocabulary",
+  "title": "Exercices 1 et 2 : le texte du livre",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l17.practice-1#1",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi ʿAmmār et Yāsir sont-ils sortis de la classe ?" },
+      "choices": [
+        { "fr": "ʿAmmār pour boire de l'eau, Yāsir pour se laver le visage" },
+        { "fr": "ʿAmmār pour se laver le visage, Yāsir pour boire de l'eau" },
+        { "fr": "Tous les deux pour voir le directeur" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l17.dialogue-1#1" },
+      "explain": "{ar|خَرَجْتُ لِأَشْرَبَ الْمَاءَ} (ʿAmmār) et {ar|هُوَ خَرَجَ لِيَغْسِلَ وَجْهَهُ} (Yāsir)."
+    },
+    {
+      "id": "medine-t2.l17.practice-1#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَاذَا خَرَجَ عَمَّارٌ مِنَ الْفَصْلِ؟",
+      "answers": [
+        "خَرَجَ عَمَّارٌ لِيَشْرَبَ الْمَاءَ.",
+        "خَرَجَ لِيَشْرَبَ الْمَاءَ.",
+        "لِيَشْرَبَ الْمَاءَ.",
+        "عَمَّارٌ خَرَجَ لِيَشْرَبَ الْمَاءَ."
+      ],
+      "fr": "ʿAmmār est sorti de la classe pour boire de l'eau.",
+      "instruction": "Réponds en arabe : pour boire de l'eau.",
+      "explain": "{ar|لِيَشْرَبَ} : « pour qu'il boive ». On parle de lui : la lettre du présent est {ar|يَ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-1#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ يُرِيدُ هَاشِمٌ أَنْ يَذْهَبَ فِي عُطْلَةِ الصَّيْفِ؟",
+      "answers": [
+        "يُرِيدُ هَاشِمٌ أَنْ يَذْهَبَ إِلَى مِصْرَ.",
+        "يُرِيدُ أَنْ يَذْهَبَ إِلَى مِصْرَ.",
+        "هَاشِمٌ يُرِيدُ أَنْ يَذْهَبَ إِلَى مِصْرَ.",
+        "إِلَى مِصْرَ."
+      ],
+      "fr": "Hāshim veut aller en Égypte.",
+      "instruction": "Réponds en arabe : il veut aller en Égypte.",
+      "explain": "{ar|يُرِيدُ هَاشِمٌ أَنْ يَذْهَبَ} : « Hāshim veut aller ». Le verbe après {ar|أَنْ} est à la fatha."
+    },
+    {
+      "id": "medine-t2.l17.practice-1#4",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi Yūsuf veut-il aller à Londres ?" },
+      "choices": [
+        { "fr": "Pour étudier l'anglais" },
+        { "fr": "Pour rendre visite à son frère" },
+        { "fr": "Pour se faire soigner" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l17.dialogue-2#1" },
+      "explain": "{ar|أُرِيدُ أَنْ أَذْهَبَ إِلَى لَنْدَنَ لِأَدْرُسَ اللُّغَةَ الْإِنْكِلِيزِيَّةَ هُنَاكَ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-1#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَاذَا يُرِيدُ يُوسُفُ أَنْ يَذْهَبَ إِلَى لَنْدَنَ؟",
+      "answers": [
+        "يُرِيدُ يُوسُفُ أَنْ يَذْهَبَ إِلَى لَنْدَنَ لِيَدْرُسَ اللُّغَةَ الْإِنْكِلِيزِيَّةَ.",
+        "يُرِيدُ أَنْ يَذْهَبَ إِلَى لَنْدَنَ لِيَدْرُسَ اللُّغَةَ الْإِنْكِلِيزِيَّةَ.",
+        "لِيَدْرُسَ اللُّغَةَ الْإِنْكِلِيزِيَّةَ.",
+        "لِيَدْرُسَ الْإِنْكِلِيزِيَّةَ."
+      ],
+      "fr": "Yūsuf veut aller à Londres pour étudier l'anglais.",
+      "instruction": "Réponds en arabe : pour étudier l'anglais.",
+      "explain": "{ar|لِيَدْرُسَ} : le {ar|لِ} de but et le verbe à la fatha."
+    },
+    {
+      "id": "medine-t2.l17.practice-1#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "فِي أَيِّ كُلِّيَّةٍ يُرِيدُ مَرْوَانُ أَنْ يَدْرُسَ؟",
+      "answers": [
+        "يُرِيدُ مَرْوَانُ أَنْ يَدْرُسَ فِي كُلِّيَّةِ الشَّرِيعَةِ.",
+        "يُرِيدُ أَنْ يَدْرُسَ فِي كُلِّيَّةِ الشَّرِيعَةِ.",
+        "فِي كُلِّيَّةِ الشَّرِيعَةِ."
+      ],
+      "fr": "Marwān veut étudier à la faculté de la charia.",
+      "instruction": "Réponds en arabe : à la faculté de la charia.",
+      "explain": "{ar|كُلِّيَّةِ الشَّرِيعَةِ} : les deux noms annexés ont la kasra après {ar|فِي}."
+    },
+    {
+      "id": "medine-t2.l17.practice-1#7",
+      "type": "fill_gap",
+      "sentence": "يُرِيدُ عَمَّارٌ أَنْ {0} أَمَامَ الْمُدَرِّسِ لِأَنَّ {1} بَعِيدٌ عَنْهُ.",
+      "fr": "ʿAmmār veut s'asseoir devant le professeur parce que son siège est loin de lui.",
+      "gaps": [ { "answers": ["يَجْلِسَ"] }, { "answers": ["مَقْعَدَهُ"] } ],
+      "options": ["يَجْلِسَ", "مَقْعَدَهُ", "تَجْلِسَ", "كِتَابَهُ"],
+      "explain": "Après {ar|أَنْ} : {ar|يَجْلِسَ}. Après {ar|لِأَنَّ} : un nom à l'accusatif, ici {ar|مَقْعَدَهُ} (« son siège »)."
+    },
+    {
+      "id": "medine-t2.l17.practice-1#8",
+      "type": "fill_gap",
+      "sentence": "وَلَا {0} مَا {1} الْمُدَرِّسُ عَلَى السَّبُّورَةِ.",
+      "fr": "et il ne voit pas ce que le professeur écrit au tableau.",
+      "gaps": [ { "answers": ["يَرَى"] }, { "answers": ["يَكْتُبُ"] } ],
+      "options": ["يَرَى", "يَكْتُبُ", "يَقْرَأُ", "يَسْمَعُ"],
+      "explain": "« Il ne voit pas » : {ar|وَلَا يَرَى}. « Ce que le professeur écrit » : {ar|مَا يَكْتُبُ الْمُدَرِّسُ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-1#9",
+      "type": "order",
+      "fr": "ʿAmmār veut s'asseoir devant le professeur.",
+      "answers": [
+        ["يُرِيدُ", "عَمَّارٌ", "أَنْ", "يَجْلِسَ", "أَمَامَ", "الْمُدَرِّسِ"],
+        ["عَمَّارٌ", "يُرِيدُ", "أَنْ", "يَجْلِسَ", "أَمَامَ", "الْمُدَرِّسِ"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|أَنْ} est suivie du verbe à la fatha ; {ar|الْمُدَرِّسِ} a la kasra après {ar|أَمَامَ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je ne vois pas ce que tu écris au tableau.",
+      "answers": [
+        "لَا أَرَى مَا تَكْتُبُ عَلَى السَّبُّورَةِ.",
+        "لَا أَرَى مَا تَكْتُبُهُ عَلَى السَّبُّورَةِ.",
+        "أَنَا لَا أَرَى مَا تَكْتُبُ عَلَى السَّبُّورَةِ."
+      ],
+      "explain": "{ar|لَا أَرَى} : « je ne vois pas » ; {ar|مَا تَكْتُبُ} : « ce que tu écris »."
+    }
+  ]
+}

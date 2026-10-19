@@ -1,0 +1,115 @@
+{
+  "id": "medine-t2.l17.grammar-5",
+  "type": "grammar",
+  "title": "Trois {ar|لِ} qui se ressemblent",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l17.grammar-5#1",
+      "type": "tip",
+      "title": "{ar|لِ} devant un nom, devant un verbe, dans {ar|لِأَنَّ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le petit mot {ar|لِ} apparaît dans trois emplois. Pour les distinguer, regarde ce qui le suit :"
+        },
+        {
+          "type": "table",
+          "header": ["Emploi", "Ce qui suit", "Exemple"],
+          "rows": [
+            [
+              "préposition (« à », « pour »)",
+              "un nom au génitif (kasra)",
+              "{ar|الْكِتَابُ لِزَيْدٍ} (« le livre est à Zayd »)"
+            ],
+            [
+              "{ar|لِ} de but",
+              "un verbe au présent, à l'accusatif (fatha)",
+              "{ar|جَلَسْتُ لِأَقْرَأَ} (« je me suis assis pour lire »)"
+            ],
+            [
+              "{ar|لِأَنَّ} (« parce que »)",
+              "un nom à l'accusatif ou un pronom collé",
+              "{ar|غَابَ لِأَنَّهُ مَرِيضٌ} (« il a été absent parce qu'il est malade »)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "{ar|لِأَنَّ} s'écrit {ar|لِ} + {ar|أَنَّ} (avec une shadda) : tu l'as vu au chapitre 4. Ne le confonds pas avec {ar|لِ} + {ar|أَنْ}."
+        },
+        {
+          "type": "note",
+          "text": "Devant un pronom collé, {ar|لِ} prend la fatha : {ar|لَهُ}, {ar|لَكَ}, {ar|لَنَا}, {ar|لَهَا}… sauf devant {ar|ي} ({ar|لِي}). Devant un nom, il garde la kasra : {ar|لِزَيْدٍ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.grammar-5#2",
+      "type": "sort",
+      "categories": [
+        { "fr": "devant un nom" },
+        { "fr": "de but (devant un verbe)" },
+        { "fr": "dans {ar|لِأَنَّ} (« parce que »)" }
+      ],
+      "cards": [
+        { "ar": "الْكِتَابُ لِزَيْدٍ", "category": 0 },
+        { "ar": "هٰذَا لِلْمُدِيرِ", "category": 0 },
+        { "ar": "جَلَسْتُ لِأَقْرَأَ", "category": 1 },
+        { "ar": "ذَهَبَ زَيْدٌ لِيَزُورَ أَخَاهُ", "category": 1 },
+        { "ar": "غَابَ الْمُدَرِّسُ لِأَنَّهُ مَرِيضٌ", "category": 2 },
+        { "ar": "أَدْرُسُ الْعَرَبِيَّةَ لِأَنَّهَا لُغَةٌ جَمِيلَةٌ", "category": 2 }
+      ],
+      "instruction": "Quel emploi de {ar|لِ} ?",
+      "explain": "Après {ar|لِ} : un nom (préposition) ; un verbe à la fatha (but) ; ou {ar|لِأَنَّ} + un nom ou un pronom collé (« parce que »)."
+    },
+    {
+      "id": "medine-t2.l17.grammar-5#3",
+      "type": "spot",
+      "instruction": "Touche le mot où le {ar|لِ} de but est collé à un verbe.",
+      "words": ["جَلَسَ", "زَيْدٌ", "فِي", "الْمَكْتَبَةِ", "لِيَقْرَأَ", "كِتَابًا."],
+      "answers": [4],
+      "fr": "Zayd s'est assis à la bibliothèque pour lire un livre.",
+      "explain": "{ar|لِيَقْرَأَ} = {ar|لِ} + {ar|يَقْرَأَ} : un verbe à la fatha."
+    },
+    {
+      "id": "medine-t2.l17.grammar-5#4",
+      "type": "fill_gap",
+      "sentence": "لِمَ ذَهَبْتَ إِلَى الْمَكْتَبَةِ؟ ذَهَبْتُ {0} كِتَابًا.",
+      "fr": "Pourquoi es-tu allé à la bibliothèque ? J'y suis allé pour lire un livre.",
+      "gaps": [ { "answers": ["لِأَقْرَأَ"] } ],
+      "options": ["لِأَقْرَأَ", "لِيَقْرَأَ", "لِتَقْرَأَ"],
+      "explain": "Celui qui parle dit « je » : la lettre du présent est {ar|أَ}."
+    },
+    {
+      "id": "medine-t2.l17.grammar-5#5",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|غَابَ لِأَنَّهُ مَرِيضٌ}, le {ar|لِ} met un verbe à l'accusatif." },
+      "answer": false,
+      "explain": "Non : {ar|لِأَنَّهُ} veut dire « parce qu'il ». Il n'y a pas de verbe au présent après le {ar|لِ}."
+    },
+    {
+      "id": "medine-t2.l17.grammar-5#6",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd est sorti pour se laver le visage.",
+      "answers": ["خَرَجَ زَيْدٌ لِيَغْسِلَ وَجْهَهُ."],
+      "explain": "{ar|لِيَغْسِلَ} : le {ar|لِ} de but + le verbe à la fatha. {ar|وَجْهَهُ} : complément d'objet, avec le pronom « son »."
+    },
+    {
+      "id": "medine-t2.l17.grammar-5#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَ تَدْرُسُ الْعَرَبِيَّةَ؟",
+      "answers": [
+        "أَدْرُسُ الْعَرَبِيَّةَ لِأَفْهَمَ الْقُرْآنَ.",
+        "لِأَفْهَمَ الْقُرْآنَ.",
+        "أَنَا أَدْرُسُ الْعَرَبِيَّةَ لِأَفْهَمَ الْقُرْآنَ."
+      ],
+      "fr": "J'étudie l'arabe pour comprendre le Coran.",
+      "instruction": "Réponds en arabe : pour comprendre le Coran.",
+      "explain": "{ar|لِأَفْهَمَ} : « pour que je comprenne ». Le sujet est « je » : la lettre du présent est {ar|أَ}."
+    }
+  ]
+}

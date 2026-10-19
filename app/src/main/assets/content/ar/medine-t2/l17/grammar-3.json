@@ -1,0 +1,178 @@
+{
+  "id": "medine-t2.l17.grammar-3",
+  "type": "grammar",
+  "title": "Après {ar|أَنْ} : les marques de l'accusatif",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l17.grammar-3#1",
+      "type": "tip",
+      "title": "Les mêmes marques qu'après {ar|لَنْ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Après {ar|أَنْ}, le verbe est à l'accusatif. Les marques sont celles que tu connais depuis le chapitre 13 :"
+        },
+        {
+          "type": "table",
+          "header": ["Le verbe", "Au nominatif", "Après {ar|أَنْ}", "Marque de l'accusatif"],
+          "rows": [
+            ["ordinaire", "{ar|يَكْتُبُ}", "{ar|أَنْ يَكْتُبَ}", "la fatha"],
+            ["un des cinq verbes (« ils »)", "{ar|يَكْتُبُونَ}", "{ar|أَنْ يَكْتُبُوا}", "la chute du {ar|ن}"],
+            [
+              "un des cinq verbes (« toi », une femme)",
+              "{ar|تَكْتُبِينَ}",
+              "{ar|أَنْ تَكْتُبِي}",
+              "la chute du {ar|ن}"
+            ],
+            [
+              "avec le {ar|نَ} des femmes",
+              "{ar|يَكْتُبْنَ}",
+              "{ar|أَنْ يَكْتُبْنَ}",
+              "aucune : le verbe est invariable"
+            ],
+            [
+              "lettre défectueuse {ar|و} ou {ar|ي}",
+              "{ar|يَدْعُو}, {ar|يَقْضِي}",
+              "{ar|أَنْ يَدْعُوَ}, {ar|أَنْ يَقْضِيَ}",
+              "la fatha, visible"
+            ],
+            ["lettre défectueuse {ar|ى}", "{ar|يَسْعَى}", "{ar|أَنْ يَسْعَى}", "la fatha, sous-entendue"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Le {ar|نَ} de {ar|يَكْتُبْنَ} ne tombe jamais : c'est le pronom « elles » (chapitre 12)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.grammar-3#2",
+      "type": "tip",
+      "title": "L'analyse du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur analyse le verbe qui suit {ar|أَنْ} comme tu l'as appris au chapitre 13 :"
+        },
+        { "type": "example", "ar": "أُرِيدُ أَنْ آكُلَ.", "fr": "Je veux manger." },
+        { "type": "example", "ar": "أَنْتِ تُرِيدِينَ أَنْ تَأْكُلِي.", "fr": "Tu veux manger (à une femme)." },
+        {
+          "type": "table",
+          "header": ["Verbe", "Analyse"],
+          "rows": [
+            ["{ar|آكُلَ}", "{ar|فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ الْفَتْحَةُ}"],
+            [
+              "{ar|تَأْكُلِي}",
+              "{ar|فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ حَذْفُ النُّونِ لِأَنَّهُ مِنَ الْأَفْعَالِ الْخَمْسَةِ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|لِأَنَّهُ مِنَ الْأَفْعَالِ الْخَمْسَةِ} : « parce qu'il fait partie des cinq verbes ». Le verbe {ar|تَأْكُلِينَ} perd son {ar|ن} et devient {ar|تَأْكُلِي}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.grammar-3#3",
+      "type": "question",
+      "prompt": { "fr": "Comment le professeur analyse-t-il {ar|تَأْكُلِي} dans {ar|أَنْتِ تُرِيدِينَ أَنْ تَأْكُلِي} ?" },
+      "choices": [
+        { "ar": "فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ حَذْفُ النُّونِ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ ثُبُوتُ النُّونِ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَجْزُومٌ وَعَلَامَةُ جَزْمِهِ حَذْفُ النُّونِ" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|أَنْ}, le verbe est à l'accusatif ({ar|مَنْصُوبٌ}) et sa marque est la chute du {ar|ن}."
+    },
+    {
+      "id": "medine-t2.l17.grammar-3#4",
+      "type": "sort",
+      "categories": [ { "fr": "la fatha" }, { "fr": "le {ar|ن} tombe" }, { "fr": "le verbe ne change pas" } ],
+      "cards": [
+        { "ar": "أَنْ يَجْلِسَ", "category": 0 },
+        { "ar": "أَنْ تَذْهَبَ", "category": 0 },
+        { "ar": "أَنْ يَكْتُبُوا", "category": 1 },
+        { "ar": "أَنْ تَشْرَبِي", "category": 1 },
+        { "ar": "أَنْ يَكْتُبْنَ", "category": 2 },
+        { "ar": "أَنْ تَدْرُسْنَ", "category": 2 }
+      ],
+      "instruction": "Que devient la fin du verbe après {ar|أَنْ} ?",
+      "explain": "Un verbe ordinaire prend la fatha ; pour les cinq verbes, le {ar|ن} tombe ; le {ar|نَ} des femmes ne change jamais."
+    },
+    {
+      "id": "medine-t2.l17.grammar-3#5",
+      "type": "fill_gap",
+      "sentence": "أَنْتُمْ تُرِيدُونَ أَنْ {0} إِلَى الْمَسْجِدِ.",
+      "fr": "Vous voulez aller à la mosquée.",
+      "gaps": [ { "answers": ["تَذْهَبُوا"] } ],
+      "options": ["تَذْهَبُوا", "تَذْهَبُونَ", "تَذْهَبْنَ"],
+      "explain": "Après {ar|أَنْ}, le {ar|ن} de {ar|تَذْهَبُونَ} tombe : {ar|أَنْ تَذْهَبُوا}. {ar|تَذْهَبْنَ} est le pronom des femmes."
+    },
+    {
+      "id": "medine-t2.l17.grammar-3#6",
+      "type": "fill_gap",
+      "sentence": "أَنْتِ تُرِيدِينَ أَنْ {0} الْقَهْوَةَ.",
+      "fr": "Tu veux boire du café (à une femme).",
+      "gaps": [ { "answers": ["تَشْرَبِي"] } ],
+      "options": ["تَشْرَبِي", "تَشْرَبِينَ", "تَشْرَبْنَ"],
+      "explain": "Le {ar|ن} de {ar|تَشْرَبِينَ} tombe après {ar|أَنْ} : {ar|أَنْ تَشْرَبِي}."
+    },
+    {
+      "id": "medine-t2.l17.grammar-3#7",
+      "type": "tip",
+      "title": "{ar|أَنْ} ou {ar|أَنَّ} ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ne confonds pas {ar|أَنْ} (avec un sukūn) et {ar|أَنَّ} (avec une shadda, chapitre 1). Quand les voyelles sont masquées, regarde ce qui suit."
+        },
+        {
+          "type": "table",
+          "header": ["Particule", "Ce qui la suit", "Exemple"],
+          "rows": [
+            [
+              "{ar|أَنْ}",
+              "un verbe au présent (en général), à l'accusatif",
+              "{ar|أُرِيدُ أَنْ أَدْرُسَ} (« je veux étudier »)"
+            ],
+            [
+              "{ar|أَنَّ}",
+              "un nom à l'accusatif, ou un pronom collé ({ar|أَنَّهُ})",
+              "{ar|عَرَفْتُ أَنَّ زَيْدًا مَرِيضٌ} (« j'ai su que Zayd est malade »)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.grammar-3#8",
+      "type": "sort",
+      "categories": [ { "fr": "suivie d'un verbe" }, { "fr": "suivie d'un nom ou d'un pronom collé" } ],
+      "cards": [
+        { "ar": "أُرِيدُ أَنْ أَقْرَأَ", "category": 0 },
+        { "ar": "عَرَفْتُ أَنَّ زَيْدًا فِي الْبَيْتِ", "category": 1 },
+        { "ar": "نَسِيتُ أَنْ أَكْتُبَ", "category": 0 },
+        { "ar": "عَرَفْتُ أَنَّهُ مَرِيضٌ", "category": 1 },
+        { "ar": "أُحِبُّ أَنْ أَدْرُسَ", "category": 0 },
+        { "ar": "عَرَفْتُ أَنَّ الْمُدَرِّسَ غَائِبٌ", "category": 1 }
+      ],
+      "instruction": "Quelle particule est employée ?",
+      "explain": "{ar|أَنْ} est suivie d'un verbe au présent ; {ar|أَنَّ} d'un nom ({ar|زَيْدًا}, {ar|الْمُدَرِّسَ}) ou d'un pronom collé ({ar|أَنَّهُ})."
+    },
+    {
+      "id": "medine-t2.l17.grammar-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je veux étudier à l'université.",
+      "answers": [
+        "أُرِيدُ أَنْ أَدْرُسَ فِي الْجَامِعَةِ.",
+        "أُرِيدُ أَنْ أَدْرُسَ بِالْجَامِعَةِ.",
+        "أَنَا أُرِيدُ أَنْ أَدْرُسَ فِي الْجَامِعَةِ."
+      ],
+      "explain": "{ar|أُرِيدُ} + {ar|أَنْ} + {ar|أَدْرُسَ} (fatha)."
+    }
+  ]
+}

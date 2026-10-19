@@ -1,0 +1,63 @@
+{
+  "id": "medine-t2.l17.vocab-3",
+  "type": "vocabulary",
+  "title": "Dans le courrier et dans la rue",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t2.l17.vocab-3#1", "type": "present", "item": "w:zarf-2" },
+    { "id": "medine-t2.l17.vocab-3#2", "type": "present", "item": "w:ilan" },
+    { "id": "medine-t2.l17.vocab-3#3", "type": "present", "item": "w:dawda" },
+    {
+      "id": "medine-t2.l17.vocab-3#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:dawda",
+      "distractors": ["w:zarf-2", "w:ilan"],
+      "explain": "{ar|ضَوْضَاءُ} : du vacarme. {ar|ظَرْفٌ} est une enveloppe ; {ar|إِعْلَانٌ} est une annonce."
+    },
+    { "id": "medine-t2.l17.vocab-3#5", "type": "present", "item": "w:sabab" },
+    { "id": "medine-t2.l17.vocab-3#6", "type": "present", "item": "w:dhubab" },
+    { "id": "medine-t2.l17.vocab-3#7", "type": "present", "item": "w:asha" },
+    {
+      "id": "medine-t2.l17.vocab-3#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:zarf-2", "w:ilan", "w:dawda", "w:sabab", "w:dhubab"]
+    },
+    {
+      "id": "medine-t2.l17.vocab-3#9",
+      "type": "fill_gap",
+      "sentence": "قَرَأْتُ {0} عَنْ دَرْسٍ جَدِيدٍ.",
+      "fr": "J'ai lu une annonce sur un nouveau cours.",
+      "gaps": [ { "answers": ["إِعْلَانًا"] } ],
+      "options": ["إِعْلَانًا", "ظَرْفًا", "ذُبَابًا"],
+      "explain": "On lit une annonce ({ar|إِعْلَانٌ}), pas une enveloppe ni des mouches. Le complément d'objet prend le tanwin de fatha."
+    },
+    {
+      "id": "medine-t2.l17.vocab-3#10",
+      "type": "fill_gap",
+      "sentence": "مَا {0} هٰذِهِ الضَّوْضَاءِ؟",
+      "fr": "Quelle est la cause de ce vacarme ?",
+      "gaps": [ { "answers": ["سَبَبُ"] } ],
+      "options": ["سَبَبُ", "ظَرْفُ", "عَشَاءُ"],
+      "explain": "« Quelle est la cause de… ? » se dit {ar|مَا سَبَبُ} + un nom annexé : {ar|هٰذِهِ الضَّوْضَاءِ}."
+    },
+    { "id": "medine-t2.l17.vocab-3#11", "type": "build", "item": "w:zarf-2", "extra": ["ط"] },
+    {
+      "id": "medine-t2.l17.vocab-3#12",
+      "type": "order",
+      "fr": "J'ai pris le repas du soir à la maison.",
+      "answers": [["أَكَلْتُ", "الْعَشَاءَ", "فِي", "الْبَيْتِ"]],
+      "punctuation": ".",
+      "explain": "{ar|الْعَشَاءَ} est le complément d'objet de {ar|أَكَلْتُ} : fatha."
+    },
+    {
+      "id": "medine-t2.l17.vocab-3#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a du vacarme dans la rue.",
+      "answers": ["فِي الشَّارِعِ ضَوْضَاءُ.", "هُنَاكَ ضَوْضَاءُ فِي الشَّارِعِ."],
+      "explain": "{ar|ضَوْضَاءُ} : le professeur l'écrit sans tanwin, avec la finale {ar|اءُ}."
+    }
+  ]
+}

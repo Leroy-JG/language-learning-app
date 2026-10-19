@@ -1,0 +1,135 @@
+{
+  "id": "medine-t2.l17.grammar-2",
+  "type": "grammar",
+  "title": "{ar|أَنْ} devant le présent",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l17.grammar-2#1",
+      "type": "tip",
+      "title": "Une particule, deux effets",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La première particule du professeur est {ar|أَنْ} (avec un sukūn), qu'il appelle {ar|أَنْ النَّاصِبَةُ}. Elle se place devant un verbe au présent et agit de deux manières :"
+        },
+        {
+          "type": "paragraph",
+          "text": "**1.** elle met le verbe à l'accusatif ; **2.** elle lui donne le sens du nom d'action ({ar|الْمَصْدَرُ})."
+        },
+        { "type": "example", "ar": "أُرِيدُ أَنْ أَذْهَبَ.", "fr": "Je veux partir." },
+        {
+          "type": "note",
+          "text": "Le professeur écrit l'équivalence : {ar|أُرِيدُ أَنْ أَذْهَبَ} = {ar|أُرِيدُ الذَّهَابَ}. Il ajoute que {ar|أَنْ} peut, dans certains cas, ne pas être écrite : on le verra plus tard, rien n'est demandé."
+        }
+      ]
+    },
+    { "id": "medine-t2.l17.grammar-2#2", "type": "present", "item": "w:an-nasiba" },
+    {
+      "id": "medine-t2.l17.grammar-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:an-nasiba",
+      "distractors": ["w:nawasib", "w:jawazim"],
+      "explain": "{ar|أَنْ النَّاصِبَةُ} : le {ar|أَنْ} qui met le verbe à l'accusatif. {ar|النَّوَاصِبُ} est toute la famille ; {ar|الْجَوَازِمُ} mettent au jussif."
+    },
+    { "id": "medine-t2.l17.grammar-2#4", "type": "present", "item": "w:masdar" },
+    {
+      "id": "medine-t2.l17.grammar-2#5",
+      "type": "tip",
+      "title": "Le même sens, deux écritures",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|أَنْ} + un verbe au présent a le même sens que le nom d'action : on peut dire « vouloir partir » de deux façons."
+        },
+        {
+          "type": "compare",
+          "title": "Avec {ar|أَنْ} ou avec le nom d'action",
+          "rows": [
+            {
+              "from": { "ar": "أُرِيدُ أَنْ أَذْهَبَ", "fr": "Je veux partir" },
+              "to": { "ar": "أُرِيدُ الذَّهَابَ", "fr": "Je veux (le fait de) partir" }
+            },
+            {
+              "from": { "ar": "أُرِيدُ أَنْ أَخْرُجَ", "fr": "Je veux sortir" },
+              "to": { "ar": "أُرِيدُ الْخُرُوجَ", "fr": "Je veux (le fait de) sortir" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "En français, on traduit en général par l'infinitif : « je veux partir ». Quand le sujet change, on dit « que » : {ar|أُرِيدُ أَنْ تَذْهَبَ} (« je veux que tu partes »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.grammar-2#6",
+      "type": "tip",
+      "title": "Après quels mots trouve-t-on {ar|أَنْ} ?",
+      "blocks": [
+        { "type": "paragraph", "text": "Tu connais déjà plusieurs mots qu'on complète par {ar|أَنْ} + un verbe :" },
+        {
+          "type": "table",
+          "header": ["Mot", "Exemple", "Sens"],
+          "rows": [
+            ["{ar|أَرَادَ}", "{ar|أُرِيدُ أَنْ آكُلَ}", "Je veux manger."],
+            ["{ar|نَسِيَ}", "{ar|نَسِيتُ أَنْ أَقْرَأَ}", "J'ai oublié de lire."],
+            ["{ar|أَحَبَّ}", "{ar|أُحِبُّ أَنْ أَدْرُسَ}", "J'aime étudier."],
+            ["{ar|قَبْلَ}", "{ar|قَبْلَ أَنْ أَذْهَبَ}", "avant de partir (avant que je parte)"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Devant un nom, on n'a pas besoin de {ar|أَنْ} : {ar|أُرِيدُ كِتَابًا} (« je veux un livre »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.grammar-2#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أُرِيدُ أَنْ أَذْهَبَ}, que fait {ar|أَنْ} ?" },
+      "choices": [
+        { "fr": "Elle met le verbe à l'accusatif et lui donne le sens du nom d'action" },
+        { "fr": "Elle nie le verbe" },
+        { "fr": "Elle met le verbe au jussif" }
+      ],
+      "answer": 0,
+      "explain": "{ar|أَنْ} fait deux choses : la fatha ({ar|أَذْهَبَ}) et le sens « partir » (le nom d'action). Elle ne nie pas : c'est le rôle de {ar|لَنْ}."
+    },
+    {
+      "id": "medine-t2.l17.grammar-2#8",
+      "type": "spot",
+      "instruction": "Touche la particule qui met le verbe à l'accusatif.",
+      "words": ["أُرِيدُ", "أَنْ", "أَذْهَبَ", "إِلَى", "مِصْرَ."],
+      "answers": [1],
+      "fr": "Je veux aller en Égypte.",
+      "explain": "{ar|أَنْ} est un {ar|نَاصِبٌ} : elle donne la fatha à {ar|أَذْهَبَ}."
+    },
+    {
+      "id": "medine-t2.l17.grammar-2#9",
+      "type": "fill_gap",
+      "sentence": "أَنَا أُرِيدُ أَنْ {0} الْقُرْآنَ.",
+      "fr": "Je veux mémoriser le Coran.",
+      "gaps": [ { "answers": ["أَحْفَظَ"] } ],
+      "options": ["أَحْفَظَ", "نَحْفَظَ", "يَحْفَظَ"],
+      "explain": "Le sujet est {ar|أَنَا} : la lettre du présent est {ar|أَ} et le verbe prend la fatha après {ar|أَنْ}."
+    },
+    {
+      "id": "medine-t2.l17.grammar-2#10",
+      "type": "order",
+      "fr": "Je veux aller à la mosquée.",
+      "answers": [["أُرِيدُ", "أَنْ", "أَذْهَبَ", "إِلَى", "الْمَسْجِدِ"]],
+      "punctuation": ".",
+      "explain": "{ar|أُرِيدُ} + {ar|أَنْ} + le verbe à la fatha."
+    },
+    {
+      "id": "medine-t2.l17.grammar-2#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Veux-tu aller à la mosquée (à un homme) ?",
+      "answers": ["أَتُرِيدُ أَنْ تَذْهَبَ إِلَى الْمَسْجِدِ؟", "تُرِيدُ أَنْ تَذْهَبَ إِلَى الْمَسْجِدِ؟"],
+      "explain": "{ar|أَ} (la question) + {ar|تُرِيدُ} + {ar|أَنْ} + {ar|تَذْهَبَ} (fatha)."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "medine-t2.l17.vocab-6",
+  "type": "vocabulary",
+  "title": "Commencer, espérer, permettre, rester",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t2.l17.vocab-6#1", "type": "present", "item": "w:bada-a" },
+    { "id": "medine-t2.l17.vocab-6#2", "type": "present", "item": "w:raja" },
+    { "id": "medine-t2.l17.vocab-6#3", "type": "present", "item": "w:samaha" },
+    {
+      "id": "medine-t2.l17.vocab-6#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:raja",
+      "distractors": ["w:samaha", "w:bada-a"],
+      "explain": "{ar|رَجَا} : il a espéré. {ar|سَمَحَ} : il a permis ; {ar|بَدَأَ} : il a commencé."
+    },
+    { "id": "medine-t2.l17.vocab-6#5", "type": "present", "item": "w:baqiya" },
+    { "id": "medine-t2.l17.vocab-6#6", "type": "present", "item": "w:basaqa" },
+    {
+      "id": "medine-t2.l17.vocab-6#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:basaqa",
+      "distractors": ["w:baqiya", "w:samaha"],
+      "explain": "{ar|بَصَقَ} : il a craché. {ar|بَقِيَ} : il est resté ; {ar|سَمَحَ} : il a permis."
+    },
+    { "id": "medine-t2.l17.vocab-6#8", "type": "present", "item": "w:zara" },
+    {
+      "id": "medine-t2.l17.vocab-6#9",
+      "type": "tip",
+      "title": "Les quatre formes de ces verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne les quatre formes de chaque verbe ; le nom d'action n'est qu'un aperçu. {ar|زَارَ} a été ajouté : le texte et les exercices l'emploient."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["commencer", "{ar|بَدَأَ}", "{ar|يَبْدَأُ}", "{ar|اِبْدَأْ}", "{ar|بَدْءًا}"],
+            ["espérer", "{ar|رَجَا}", "{ar|يَرْجُو}", "{ar|اُرْجُ}", "{ar|رَجَاءً}"],
+            ["permettre", "{ar|سَمَحَ}", "{ar|يَسْمَحُ}", "{ar|اِسْمَحْ}", "{ar|سَمْحًا}"],
+            ["rester", "{ar|بَقِيَ}", "{ar|يَبْقَى}", "{ar|اِبْقَ}", "{ar|بَقَاءً}"],
+            ["cracher", "{ar|بَصَقَ}", "{ar|يَبْصُقُ}", "{ar|اُبْصُقْ}", "{ar|بَصْقًا}"],
+            ["visiter", "{ar|زَارَ}", "{ar|يَزُورُ}", "{ar|زُرْ}", "{ar|زِيَارَةً}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|رَجَا} et {ar|بَقِيَ} sont à finale défectueuse : au jussif et à l'impératif, leur dernière lettre tombe ({ar|اُرْجُ}, {ar|اِبْقَ}), comme aux chapitres 13 et 14. Rien n'est demandé sur ces formes."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.vocab-6#10",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:bada-a", "w:raja", "w:samaha", "w:baqiya", "w:basaqa"]
+    },
+    {
+      "id": "medine-t2.l17.vocab-6#11",
+      "type": "fill_gap",
+      "sentence": "{0} الدَّرْسُ بَعْدَ الصَّلَاةِ.",
+      "fr": "La leçon a commencé après la prière.",
+      "gaps": [ { "answers": ["بَدَأَ"] } ],
+      "options": ["بَدَأَ", "بَقِيَ", "بَصَقَ"],
+      "explain": "« Commencer » : {ar|بَدَأَ}. {ar|بَقِيَ} veut dire « rester »."
+    },
+    {
+      "id": "medine-t2.l17.vocab-6#12",
+      "type": "fill_gap",
+      "sentence": "{0} الْمُدَرِّسُ لِزَيْدٍ بِالْخُرُوجِ.",
+      "fr": "Le professeur a permis à Zayd de sortir.",
+      "gaps": [ { "answers": ["سَمَحَ"] } ],
+      "options": ["سَمَحَ", "بَقِيَ", "بَدَأَ"],
+      "explain": "« Permettre quelque chose à quelqu'un » : {ar|سَمَحَ لَهُ بِ} + un nom."
+    },
+    { "id": "medine-t2.l17.vocab-6#13", "type": "build", "item": "w:basaqa", "extra": ["س"] },
+    {
+      "id": "medine-t2.l17.vocab-6#14",
+      "type": "order",
+      "fr": "Zayd est resté à la maison.",
+      "answers": [["بَقِيَ", "زَيْدٌ", "فِي", "الْبَيْتِ"], ["زَيْدٌ", "بَقِيَ", "فِي", "الْبَيْتِ"]],
+      "punctuation": ".",
+      "explain": "{ar|بَقِيَ} : « il est resté ». Le verbe se met d'habitude avant son sujet ({ar|بَقِيَ زَيْدٌ}), mais l'ordre {ar|زَيْدٌ بَقِيَ} est possible aussi."
+    },
+    {
+      "id": "medine-t2.l17.vocab-6#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai rendu visite à mon frère.",
+      "answers": ["زُرْتُ أَخِي.", "أَنَا زُرْتُ أَخِي."],
+      "explain": "{ar|زَارَ} devient {ar|زُرْتُ} avec « je » (la voyelle longue se raccourcit)."
+    },
+    {
+      "id": "medine-t2.l17.vocab-6#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je te prie de t'asseoir (à un homme).",
+      "answers": ["أَرْجُو أَنْ تَجْلِسَ.", "أَنَا أَرْجُو أَنْ تَجْلِسَ."],
+      "explain": "{ar|أَرْجُو أَنْ} + le verbe à l'accusatif : {ar|تَجْلِسَ}."
+    }
+  ]
+}

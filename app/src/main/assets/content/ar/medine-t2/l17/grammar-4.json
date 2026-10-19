@@ -1,0 +1,115 @@
+{
+  "id": "medine-t2.l17.grammar-4",
+  "type": "grammar",
+  "title": "Le {ar|لِ} de but",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l17.grammar-4#1",
+      "type": "tip",
+      "title": "Dire pourquoi : {ar|لِ} devant un verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|لِ} devant un nom : c'est une préposition ({ar|لِزَيْدٍ}, {ar|لِلْمُدِيرِ}). Devant un verbe au présent, le même {ar|لِ} dit le but : le professeur l'appelle {ar|لَامُ التَّعْلِيلِ}."
+        },
+        {
+          "type": "paragraph",
+          "text": "Comme {ar|أَنْ}, il agit de deux manières : **1.** il met le verbe à l'accusatif ; **2.** il exprime la causalité, le but."
+        },
+        { "type": "example", "ar": "لِمَ ذَهَبْتَ إِلَى مِصْرَ؟", "fr": "Pourquoi es-tu allé en Égypte ?" },
+        {
+          "type": "example",
+          "ar": "ذَهَبْتُ إِلَى مِصْرَ لِأَدْرُسَ الْعَرَبِيَّةَ.",
+          "fr": "Je suis allé en Égypte pour étudier l'arabe."
+        },
+        {
+          "type": "note",
+          "text": "Cette particule peut répondre à la question {ar|لِمَ؟} (« pourquoi ? »). On la traduit par « pour », « afin de » ou « dans le but de »."
+        }
+      ]
+    },
+    { "id": "medine-t2.l17.grammar-4#2", "type": "present", "item": "w:lam-taalil" },
+    {
+      "id": "medine-t2.l17.grammar-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:lam-taalil",
+      "distractors": ["w:an-nasiba", "w:nawasib"],
+      "explain": "{ar|لَامُ التَّعْلِيلِ} : le {ar|لِ} de but, devant un verbe au présent. {ar|أَنْ النَّاصِبَةُ} est le {ar|أَنْ} de l'accusatif ; {ar|النَّوَاصِبُ} est toute la famille."
+    },
+    { "id": "medine-t2.l17.grammar-4#4", "type": "present", "item": "w:taallama" },
+    {
+      "id": "medine-t2.l17.grammar-4#5",
+      "type": "tip",
+      "title": "Un verbe à la fatha",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Après {ar|لِ}, le verbe est à l'accusatif, comme après {ar|أَنْ} : la fatha, ou la chute du {ar|ن} pour les cinq verbes. Voici les deux exemples du professeur :"
+        },
+        {
+          "type": "example",
+          "ar": "دَخَلْتُ الْمَطْعَمَ لِآكُلَ.",
+          "fr": "Je suis entré au restaurant pour manger."
+        },
+        { "type": "note", "text": "{ar|آكُلَ} : {ar|فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ الْفَتْحَةُ}." },
+        {
+          "type": "example",
+          "ar": "أَنْتِ رَجَعْتِ إِلَى الْبَيْتِ لِتَأْكُلِي.",
+          "fr": "Tu es rentrée à la maison pour manger (à une femme)."
+        },
+        {
+          "type": "note",
+          "text": "{ar|تَأْكُلِي} : {ar|فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ حَذْفُ النُّونِ لِأَنَّهُ مِنَ الْأَفْعَالِ الْخَمْسَةِ}."
+        },
+        {
+          "type": "breakdown",
+          "ar": "لِآكُلَ",
+          "fr": "pour que je mange",
+          "parts": [ { "ar": "لِ", "fr": "pour" }, { "ar": "آكُلَ", "fr": "je mange (à l'accusatif)" } ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "{ar|آكُلَ} s'écrit avec un alif madda : {ar|أَ} + {ar|أْ} (chapitre 15)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.grammar-4#6",
+      "type": "question",
+      "prompt": {
+        "fr": "À quelle question répond la fin de la phrase {ar|ذَهَبْتُ إِلَى مِصْرَ لِأَتَعَلَّمَ الْعَرَبِيَّةَ}, c'est-à-dire {ar|لِأَتَعَلَّمَ الْعَرَبِيَّةَ} ?"
+      },
+      "choices": [ { "fr": "Pourquoi ? ({ar|لِمَ؟})" }, { "fr": "Où ? ({ar|أَيْنَ؟})" }, { "fr": "Qui ? ({ar|مَنْ؟})" } ],
+      "answer": 0,
+      "explain": "Le {ar|لِ} de but donne la raison : il répond à {ar|لِمَ؟} (« pourquoi ? »)."
+    },
+    {
+      "id": "medine-t2.l17.grammar-4#7",
+      "type": "fill_gap",
+      "sentence": "ذَهَبْتُ إِلَى الْمَطْعَمِ {0} الْمَاءَ.",
+      "fr": "Je suis allé au restaurant pour boire de l'eau.",
+      "gaps": [ { "answers": ["لِأَشْرَبَ"] } ],
+      "options": ["لِأَشْرَبَ", "لِنَشْرَبَ", "لِتَشْرَبَ"],
+      "explain": "Le sujet est « je » ({ar|ذَهَبْتُ}) : la lettre du présent est {ar|أَ}. Après {ar|لِ}, la fatha."
+    },
+    {
+      "id": "medine-t2.l17.grammar-4#8",
+      "type": "order",
+      "fr": "Je suis allé à la bibliothèque pour lire.",
+      "answers": [["ذَهَبْتُ", "إِلَى", "الْمَكْتَبَةِ", "لِأَقْرَأَ"]],
+      "punctuation": ".",
+      "explain": "{ar|لِأَقْرَأَ} : le {ar|لِ} est collé au verbe, qui prend la fatha."
+    },
+    {
+      "id": "medine-t2.l17.grammar-4#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis allé au marché pour acheter un cahier.",
+      "answers": ["ذَهَبْتُ إِلَى السُّوقِ لِأَشْتَرِيَ دَفْتَرًا.", "أَنَا ذَهَبْتُ إِلَى السُّوقِ لِأَشْتَرِيَ دَفْتَرًا."],
+      "explain": "{ar|لِأَشْتَرِيَ} : le verbe {ar|يَشْتَرِي} garde son {ar|ي} et prend la fatha (visible sur le {ar|ي}), comme {ar|لَنْ يَقْضِيَ}."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "medine-t2.l17.practice-8",
+  "type": "vocabulary",
+  "title": "Exercices 11 à 14 : {ar|مُنْذُ}, voir, permettre, les saisons",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l17.practice-8#1",
+      "type": "tip",
+      "title": "Exercice 11 : cinq phrases avec {ar|مُنْذُ}",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            [
+              "(1) {ar|مَا رَأَيْتُ مُحَمَّدًا مُنْذُ يَوْمِ الْجُمُعَةِ.}",
+              "Je n'ai pas vu Muḥammad depuis vendredi."
+            ],
+            ["(2) {ar|هُوَ غَائِبٌ مُنْذُ أُسْبُوعٍ.}", "Il est absent depuis une semaine."],
+            ["(3) {ar|نَسْكُنُ فِي هٰذَا الْبَيْتِ مُنْذُ سَنَةٍ.}", "Nous habitons cette maison depuis un an."],
+            [
+              "(4) {ar|هُوَ مَرِيضٌ مُنْذُ رُجُوعِهِ مِنْ بَلَدِهِ.}",
+              "Il est malade depuis son retour de son pays."
+            ],
+            ["(5) {ar|أَعْرِفُ هٰذَا الشَّيْخَ مُنْذُ خَمْسِ سَنَوَاتٍ.}", "Je connais ce cheikh depuis cinq ans."]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|رُجُوعٌ} est le nom d'action de {ar|رَجَعَ} : après {ar|مُنْذُ}, il est au génitif, avec le pronom collé {ar|هِ} (« son retour »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.practice-8#2",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|مُنْذُ رُجُوعِهِ مِنْ بَلَدِهِ} ?" },
+      "choices": [
+        { "fr": "depuis son retour de son pays" },
+        { "fr": "depuis son départ pour son pays" },
+        { "fr": "jusqu'à son retour" }
+      ],
+      "answer": 0,
+      "explain": "{ar|رُجُوعٌ} : le retour ; {ar|مِنْ بَلَدِهِ} : de son pays."
+    },
+    {
+      "id": "medine-t2.l17.practice-8#3",
+      "type": "fill_gap",
+      "sentence": "أَعْرِفُ هٰذَا الشَّيْخَ {0} خَمْسِ سَنَوَاتٍ.",
+      "fr": "Je connais ce cheikh depuis cinq ans.",
+      "gaps": [ { "answers": ["مُنْذُ"] } ],
+      "options": ["مُنْذُ", "بَعْدَ", "قَبْلَ"],
+      "explain": "« Depuis » : {ar|مُنْذُ}, suivi du nom annexé au génitif : {ar|خَمْسِ سَنَوَاتٍ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-8#4",
+      "type": "spot",
+      "instruction": "Touche le nom au génitif qui suit directement {ar|مُنْذُ}.",
+      "words": ["مَا", "رَأَيْتُ", "مُحَمَّدًا", "مُنْذُ", "يَوْمِ", "الْجُمُعَةِ."],
+      "answers": [4],
+      "fr": "Je n'ai pas vu Muḥammad depuis vendredi.",
+      "explain": "{ar|يَوْمِ} suit {ar|مُنْذُ} : kasra. {ar|الْجُمُعَةِ} est annexé à {ar|يَوْمِ} et a la kasra lui aussi."
+    },
+    {
+      "id": "medine-t2.l17.practice-8#5",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Nous habitons cette maison depuis un an.",
+      "answers": ["نَسْكُنُ فِي هٰذَا الْبَيْتِ مُنْذُ سَنَةٍ."],
+      "explain": "{ar|مُنْذُ سَنَةٍ} : « depuis un an ». {ar|سَنَةٍ} prend le tanwin de kasra."
+    },
+    {
+      "id": "medine-t2.l17.practice-8#6",
+      "type": "tip",
+      "title": "Exercice 13 : je te prie de me permettre de…",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quatre phrases du livre, avec {ar|أَرْجُو أَنْ تَسْمَحَ}. Le verbe {ar|تَسْمَحَ} est à la fatha après {ar|أَنْ} ; ce qu'on permet est un nom d'action précédé de {ar|بِ}."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            [
+              "(1) {ar|أَرْجُو أَنْ تَسْمَحَ لِي بِالْجُلُوسِ هُنَا.}",
+              "Je te prie de me permettre de m'asseoir ici."
+            ],
+            ["(2) {ar|أَرْجُو أَنْ تَسْمَحَ لَهُ بِالْخُرُوجِ.}", "Je te prie de lui permettre de sortir."],
+            ["(3) {ar|أَرْجُو أَنْ تَسْمَحَ لَنَا بِالدُّخُولِ.}", "Je te prie de nous permettre d'entrer."],
+            [
+              "(4) {ar|أَرْجُو أَنْ تَسْمَحَ لِحَامِدٍ بِزِيَارَتِكَ.}",
+              "Je te prie de permettre à Ḥāmid de te rendre visite."
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|لِحَامِدٍ} : {ar|لِ} + un nom propre, à la kasra avec le tanwin. {ar|بِزِيَارَتِكَ} : {ar|بِ} + {ar|زِيَارَةٌ} + le pronom {ar|كَ} (« ta visite »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.practice-8#7",
+      "type": "fill_gap",
+      "sentence": "أَرْجُو أَنْ تَسْمَحَ {0} بِالْجُلُوسِ هُنَا.",
+      "fr": "Je te prie de me permettre de m'asseoir ici.",
+      "gaps": [ { "answers": ["لِي"] } ],
+      "options": ["لِي", "لَهُ", "لَنَا"],
+      "explain": "« Me permettre » : {ar|تَسْمَحَ لِي}. {ar|لَهُ} serait « lui » ; {ar|لَنَا} « nous »."
+    },
+    {
+      "id": "medine-t2.l17.practice-8#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je te prie de nous permettre d'entrer.",
+      "answers": ["أَرْجُو أَنْ تَسْمَحَ لَنَا بِالدُّخُولِ."],
+      "explain": "{ar|لَنَا} : « à nous » ; {ar|بِالدُّخُولِ} : « d'entrer »."
+    },
+    {
+      "id": "medine-t2.l17.practice-8#9",
+      "type": "order",
+      "fr": "Je te prie de lui permettre de sortir.",
+      "answers": [["أَرْجُو", "أَنْ", "تَسْمَحَ", "لَهُ", "بِالْخُرُوجِ"]],
+      "punctuation": ".",
+      "explain": "{ar|سَمَحَ لَهُ بِالْخُرُوجِ} : « il lui a permis de sortir »."
+    },
+    {
+      "id": "medine-t2.l17.practice-8#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je te prie de permettre à Ḥāmid de te rendre visite.",
+      "answers": ["أَرْجُو أَنْ تَسْمَحَ لِحَامِدٍ بِزِيَارَتِكَ."],
+      "explain": "{ar|لِحَامِدٍ} : le nom propre prend la kasra et le tanwin après {ar|لِ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-8#11",
+      "type": "order",
+      "fr": "L'hiver, le printemps, l'été, l'automne.",
+      "answers": [["الشِّتَاءُ", "الرَّبِيعُ", "الصَّيْفُ", "الْخَرِيفُ"]],
+      "explain": "Les quatre saisons, dans l'ordre : {ar|الشِّتَاءُ}, {ar|الرَّبِيعُ}, {ar|الصَّيْفُ}, {ar|الْخَرِيفُ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-8#12",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَاذَا تَرَى عَلَى السَّبُّورَةِ؟",
+      "answers": [
+        "أَرَى سَاعَةً وَقَلَمًا.",
+        "أَرَى قَلَمًا وَسَاعَةً.",
+        "أَنَا أَرَى سَاعَةً وَقَلَمًا.",
+        "أَنَا أَرَى قَلَمًا وَسَاعَةً."
+      ],
+      "fr": "Je vois une montre et un stylo.",
+      "instruction": "Sur le tableau, le professeur a dessiné une montre et un stylo. Réponds en arabe : « je vois… ».",
+      "explain": "{ar|أَرَى} (« je vois ») + les deux objets à l'accusatif."
+    }
+  ]
+}

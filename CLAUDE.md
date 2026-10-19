@@ -2,7 +2,7 @@
 
 App Android personnelle pour apprendre l'arabe (interface en français), inspirée de Busuu et de
 Duolingo, **100 % hors ligne**. Cursus : Tomes de Médine (tome 1 : leçons 1 à 23, « Révision 1 » et « Révision 2 » publiées,
-le tome 1 est terminé ; tome 2 commencé : leçons 1 à 16 et « Révision 1 » publiées, niveau `medine-t2`, voir `docs/sources-t2-lecon-1.md` à `docs/sources-t2-lecon-16.md` et `docs/sources-t2-revision-1.md`), à partir
+le tome 1 est terminé ; tome 2 commencé : leçons 1 à 17 et « Révision 1 » publiées, niveau `medine-t2`, voir `docs/sources-t2-lecon-1.md` à `docs/sources-t2-lecon-17.md` et `docs/sources-t2-revision-1.md`), à partir
 des supports PDF du professeur de l'utilisateur. Le but est aussi de **donner
 envie** d'apprendre l'arabe : la qualité du design, de l'UX et des animations compte.
 
@@ -41,7 +41,7 @@ Pour tout ajout ou modification de contenu (`app/src/main/assets/content/`) :
 **Ajouter une leçon : suivre la procédure `.claude/skills/nouvelle-lecon/SKILL.md`** (étape par
 étape, avec la liste de contrôle). **Concevoir une leçon : `docs/pedagogie.md`** (cadre fixe pour la
 cohérence de l'app, palette d'outils à choisir librement pour chaque notion, et méthode pour créer
-un nouveau type d'écran si aucun ne convient). Historique des choix de contenu : `docs/sources.md` (tome 1), `docs/sources-t2-lecon-1.md`, `docs/sources-t2-lecon-2.md`, `docs/sources-t2-lecon-3.md`, `docs/sources-t2-lecon-4.md`, `docs/sources-t2-lecon-5.md`, `docs/sources-t2-lecon-6.md`, `docs/sources-t2-lecon-7.md`, `docs/sources-t2-lecon-8.md`, `docs/sources-t2-lecon-9.md`, `docs/sources-t2-lecon-10.md`, `docs/sources-t2-lecon-11.md`, `docs/sources-t2-lecon-12.md`, `docs/sources-t2-lecon-13.md`, `docs/sources-t2-lecon-14.md`, `docs/sources-t2-lecon-15.md`, `docs/sources-t2-lecon-16.md` (tome 2, leçons 1 à 16) et `docs/sources-t2-revision-1.md` (tome 2, « Révision 1 »). **Tome 2** : vue d'ensemble et plan des 31 cours dans `docs/tome2-vue-densemble.md` (à lire avant de créer un chapitre du tome 2). Les défis notés, repris des quiz du professeur (types `test` et `exam`, écran `multi`) : `docs/content-format.md` §9.15 et `docs/sources-quiz.md`.
+un nouveau type d'écran si aucun ne convient). Historique des choix de contenu : `docs/sources.md` (tome 1), `docs/sources-t2-lecon-1.md`, `docs/sources-t2-lecon-2.md`, `docs/sources-t2-lecon-3.md`, `docs/sources-t2-lecon-4.md`, `docs/sources-t2-lecon-5.md`, `docs/sources-t2-lecon-6.md`, `docs/sources-t2-lecon-7.md`, `docs/sources-t2-lecon-8.md`, `docs/sources-t2-lecon-9.md`, `docs/sources-t2-lecon-10.md`, `docs/sources-t2-lecon-11.md`, `docs/sources-t2-lecon-12.md`, `docs/sources-t2-lecon-13.md`, `docs/sources-t2-lecon-14.md`, `docs/sources-t2-lecon-15.md`, `docs/sources-t2-lecon-16.md`, `docs/sources-t2-lecon-17.md` (tome 2, leçons 1 à 17) et `docs/sources-t2-revision-1.md` (tome 2, « Révision 1 »). **Tome 2** : vue d'ensemble et plan des 31 cours dans `docs/tome2-vue-densemble.md` (à lire avant de créer un chapitre du tome 2). Les défis notés, repris des quiz du professeur (types `test` et `exam`, écran `multi`) : `docs/content-format.md` §9.15 et `docs/sources-quiz.md`.
 
 ## Autres règles
 

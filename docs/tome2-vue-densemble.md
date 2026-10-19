@@ -88,7 +88,7 @@ ordinaux (cours 10). Le sujet revient en révision (révision 4).
 | 11 | Le verbe (3ᵉ partie) : signes du passé, du présent (lettres `أَنَيْتُ`), de l'impératif ; pronoms sujets collés **du présent** (5ᵉ partie) ; futur `سَ` / `سَوْفَ` | seul le support des pronoms porte le numéro 11 ; la 3ᵉ partie du verbe le précède sans numéro |
 | 12 à 15 (≈) | `إِعْرَابُ الْفِعْلِ` : variable / invariable, `نُونُ النِّسْوَةِ` et `نُونُ التَّوْكِيدِ` ; cas de base et cas secondaires ; `الْأَفْعَالُ الْخَمْسَةُ` ; verbe à finale défectueuse (avec exercices) ; **l'impératif** (2 parties) ; derniers pronoms ; `الْجَوَازِمُ` (1ʳᵉ partie) : `لَا` de l'interdiction ; `كَادَ وَأَخَوَاتُهَا` | **six supports pour quatre numéros** : répartition inconnue |
 | 16 | Les couleurs ; `آخَرُ` / `أُخْرَى` ; `مَا` relatif ; `غَيْرُ` | **confirmé** par le PDF du cours 16 (voir §22) |
-| 17 | `النَّوَاصِبُ` (1ʳᵉ partie) : `أَنْ`, `لِ` de but (`لَامُ التَّعْلِيلِ`) ; `مُنْذُ` ; saisons | |
+| 17 | `النَّوَاصِبُ` (1ʳᵉ partie) : `أَنْ`, `لِ` de but (`لَامُ التَّعْلِيلِ`) ; `مُنْذُ` ; saisons | **confirmé** par le PDF du cours 17 (voir §23) ; le PDF ajoute `يُمْكِنُ`, le présent de `رَأَى`, `أَرْجُو أَنْ تَسْمَحَ` |
 | 18 | `كَافُ التَّشْبِيهِ` ; `أَنْ` + `لَا` → `أَلَّا` | cours court |
 | 19 | `النَّوَاصِبُ` (2ᵉ partie) : `لَنْ` | |
 | 20 | **Révision** : `إِعْرَابُ الِاسْمِ` (cas de base, secondaires), duel, pluriels sains, noms sans tanwin | pas de partie nouvelle |
@@ -282,4 +282,10 @@ Le cours 16 (un seul PDF de 24 pages) est publié : `docs/sources-t2-lecon-16.md
 les exercices 1 à 11 et 13 à 17, `آخَرُ` / `أُخْرَى`, `مَا الْمَوْصُولَةُ` (et le schéma des trois `مَا`), `غَيْرُ` et le vocabulaire nouveau (douze noms, un verbe).
 Le chapitre les réunit : `l16.revue-1` (rappel des couleurs), `vocab-1` à `vocab-4`, `grammar-1` à `grammar-8`, `dialogue-1`, `dialogue-2`, `practice-1` à `practice-7`, `quiz`. **Le féminin des couleurs, `آخَرُ` / `أُخْرَى`, les trois `مَا`, `غَيْرُ` et le présent de `أَرَادَ` (`يُرِيدُ`, `تُرِدْنَ`) sont maintenant enseignés et exigés** ;
 les chapitres suivants peuvent s'y appuyer (jamais `يَا أَيُّهَا`, ni le pluriel `أُخَرُ` / `أُخْرَيَاتٌ`, ni les autres emplois de `غَيْرُ` (« autre que »), qui restent « pas encore enseignés »).
-La suite du plan (cours 17 : `النَّوَاصِبُ`, `لِ` de but, `مُنْذُ`, les saisons…) est à confirmer avec les PDF suivants.
+
+## 23. Avancement : le chapitre 17 (`medine-t2.l17`)
+
+Le cours 17 (un seul PDF de 31 pages) est publié : `docs/sources-t2-lecon-17.md`. Le support du professeur contient `إِعْرَابُ الْفِعْلِ الْمُضَارِعِ` (4ᵉ partie : `النَّوَاصِبُ`, `أَنْ النَّاصِبَةُ`, `لَامُ التَّعْلِيلِ`), le texte du livre (ʿAmmār qui sort de la classe, les vacances d'été), les exercices 1 à 14 (dont `يُمْكِنُ`, `مُنْذُ`, le présent de `رَأَى`, `أَرْجُو أَنْ تَسْمَحَ`), `مُنْذُ` et le vocabulaire nouveau (treize noms, `عُطْلَةٌ`, les saisons, six verbes).
+Le chapitre les réunit : `l17.revue-1` (rappel du présent à l'accusatif), `grammar-1` à `grammar-8`, `vocab-1` à `vocab-6`, `dialogue-1`, `dialogue-2`, `practice-1` à `practice-8`, `quiz`. **`أَنْ` + le présent, le `لِ` de but, `أَنْ` / `أَنَّ`, `يُمْكِنُ` + le pronom collé, `مُنْذُ` et le présent de `رَأَى` sont maintenant enseignés et exigés** ;
+les chapitres suivants peuvent s'y appuyer (jamais `أَنْ` inapparente, `كَيْ`, `حَتَّى`, `لَامُ الْأَمْرِ`, ni `مُذْ`, qui restent « pas encore enseignés »).
+La suite du plan (cours 18 : `كَافُ التَّشْبِيهِ`, `أَنْ` + `لَا` → `أَلَّا` ; cours 19 : `لَنْ`…) est à confirmer avec les PDF suivants.

@@ -1,0 +1,112 @@
+{
+  "id": "medine-t2.l17.grammar-8",
+  "type": "grammar",
+  "title": "Voir : le présent de {ar|رَأَى}",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l17.grammar-8#1",
+      "type": "tip",
+      "title": "Le présent de {ar|رَأَى}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|رَأَى} (« il a vu », chapitre 3). Voici son présent avec quatre pronoms :"
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Présent", "Sens"],
+          "rows": [
+            ["{ar|هُوَ}", "{ar|يَرَى}", "il voit"],
+            ["{ar|أَنْتَ}", "{ar|تَرَى}", "tu vois (à un homme)"],
+            ["{ar|أَنَا}", "{ar|أَرَى}", "je vois"],
+            ["{ar|نَحْنُ}", "{ar|نَرَى}", "nous voyons"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Au présent, la hamza de la racine ({ar|رَأَى}) disparaît : on dit {ar|يَرَى}, et non {ar|يَرْأَى}. C'est pourquoi le verbe paraît si court."
+        },
+        {
+          "type": "note",
+          "text": "Seule la lettre du présent change ({ar|يَ}, {ar|تَ}, {ar|أَ}, {ar|نَ}) : la fin du verbe reste un {ar|ى}, précédé d'une fatha. Au jussif, ce {ar|ى} tombe : {ar|لَمْ يَرَ} (chapitre 13)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.grammar-8#2",
+      "type": "tip",
+      "title": "Du passé au présent",
+      "blocks": [
+        {
+          "type": "compare",
+          "title": "Le même verbe, deux temps",
+          "rows": [
+            { "from": { "ar": "رَأَيْتُ", "fr": "j'ai vu" }, "to": { "ar": "أَرَى", "fr": "je vois" } },
+            { "from": { "ar": "رَأَيْنَا", "fr": "nous avons vu" }, "to": { "ar": "نَرَى", "fr": "nous voyons" } }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Au passé, le {ar|ى} devient {ar|ي} devant le pronom ({ar|رَأَيْتُ}). Au présent, il reste un {ar|ى}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.grammar-8#3",
+      "type": "sort",
+      "categories": [ { "fr": "moi (je vois)" }, { "fr": "nous (nous voyons)" }, { "fr": "lui (il voit)" } ],
+      "cards": [
+        { "ar": "أَرَى كِتَابًا", "category": 0 },
+        { "ar": "أَرَى سَيَّارَةً", "category": 0 },
+        { "ar": "نَرَى كِتَابًا", "category": 1 },
+        { "ar": "نَرَى سَيَّارَةً", "category": 1 },
+        { "ar": "يَرَى كِتَابًا", "category": 2 },
+        { "ar": "يَرَى سَيَّارَةً", "category": 2 }
+      ],
+      "instruction": "Qui voit ?",
+      "explain": "La première lettre du verbe dit qui voit : {ar|أَ} (je), {ar|نَ} (nous), {ar|يَ} (il)."
+    },
+    {
+      "id": "medine-t2.l17.grammar-8#4",
+      "type": "fill_gap",
+      "sentence": "هُوَ {0} الْقَمَرَ.",
+      "fr": "Il voit la lune.",
+      "gaps": [ { "answers": ["يَرَى"] } ],
+      "options": ["يَرَى", "تَرَى", "أَرَى"],
+      "explain": "{ar|هُوَ} : « il », donc la lettre du présent est {ar|يَ}."
+    },
+    {
+      "id": "medine-t2.l17.grammar-8#5",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} الْمَسْجِدَ.",
+      "fr": "Nous voyons la mosquée.",
+      "gaps": [ { "answers": ["نَرَى"] } ],
+      "options": ["نَرَى", "أَرَى", "يَرَى"],
+      "explain": "{ar|نَحْنُ} : « nous », donc la lettre du présent est {ar|نَ}."
+    },
+    {
+      "id": "medine-t2.l17.grammar-8#6",
+      "type": "order",
+      "fr": "Je vois un stylo et un livre.",
+      "answers": [["أَرَى", "قَلَمًا", "وَكِتَابًا"]],
+      "punctuation": ".",
+      "explain": "{ar|أَرَى} + les deux compléments d'objet à l'accusatif (tanwin de fatha)."
+    },
+    {
+      "id": "medine-t2.l17.grammar-8#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَاذَا تَرَى عَلَى الْمَكْتَبِ؟",
+      "answers": [
+        "أَرَى قَلَمًا وَكِتَابًا.",
+        "أَرَى كِتَابًا وَقَلَمًا.",
+        "أَنَا أَرَى قَلَمًا وَكِتَابًا.",
+        "أَنَا أَرَى كِتَابًا وَقَلَمًا."
+      ],
+      "fr": "Je vois un stylo et un livre.",
+      "instruction": "Sur le bureau, il y a un stylo et un livre. Réponds en arabe : « je vois… ».",
+      "explain": "{ar|أَرَى} (« je vois ») + les deux objets à l'accusatif : {ar|قَلَمًا}, {ar|كِتَابًا}."
+    }
+  ]
+}

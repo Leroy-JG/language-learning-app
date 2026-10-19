@@ -1,0 +1,97 @@
+{
+  "id": "medine-t2.l17.grammar-6",
+  "type": "grammar",
+  "title": "Je peux, tu ne peux pas, puis-je… ?",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l17.grammar-6#1",
+      "type": "tip",
+      "title": "Dire non, poser la question",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|يُمْكِنُ} se nie avec {ar|لَا} et se met en question avec {ar|أَ}, comme les autres verbes."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            ["{ar|يُمْكِنُكَ أَنْ تَخْرُجَ الْآنَ.}", "Tu peux sortir maintenant."],
+            ["{ar|لَا يُمْكِنُكَ أَنْ تَخْرُجَ الْآنَ.}", "Tu ne peux pas sortir maintenant."],
+            ["{ar|أَيُمْكِنُنِي أَنْ أَخْرُجَ؟}", "Puis-je sortir ?"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans {ar|أَيُمْكِنُنِي}, le {ar|أَ} qui pose la question est collé au verbe (chapitre 1 du tome 1)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.grammar-6#2",
+      "type": "tip",
+      "title": "Avec le nom d'action",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au lieu de {ar|أَنْ} + un verbe, on peut mettre le nom d'action. Il est alors au nominatif : c'est « la chose qui est possible » :"
+        },
+        {
+          "type": "compare",
+          "title": "Avec {ar|أَنْ} ou avec le nom d'action",
+          "rows": [
+            {
+              "from": { "ar": "يُمْكِنُكَ أَنْ تَخْرُجَ", "fr": "Tu peux sortir" },
+              "to": { "ar": "يُمْكِنُكَ الْخُرُوجُ", "fr": "Tu peux sortir (nom d'action)" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le verbe {ar|يُمْكِنُ} peut aussi se dire sans pronom collé : {ar|هٰذَا يُمْكِنُ وَهٰذَا لَا يُمْكِنُ} (« cela est possible, et cela ne l'est pas »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.grammar-6#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|لَا يُمْكِنُنِي أَنْ أَذْهَبَ}, qui ne peut pas aller ?" },
+      "choices": [ { "fr": "Celui qui parle" }, { "fr": "Celui à qui l'on parle" }, { "fr": "Une autre personne" } ],
+      "answer": 0,
+      "explain": "{ar|يُمْكِنُنِي} : le pronom collé {ar|نِي} veut dire « moi ». C'est celui qui parle qui ne peut pas."
+    },
+    {
+      "id": "medine-t2.l17.grammar-6#4",
+      "type": "true_false",
+      "statement": { "fr": "Pour dire « nous pouvons », on met le verbe {ar|يُمْكِنُ} au pluriel." },
+      "answer": false,
+      "explain": "Non : dans cette construction, {ar|يُمْكِنُ} ne change pas. On ajoute le pronom collé : {ar|يُمْكِنُنَا أَنْ نَذْهَبَ}."
+    },
+    {
+      "id": "medine-t2.l17.grammar-6#5",
+      "type": "fill_gap",
+      "sentence": "{0} أَنْ أَشْرَبَ الْمَاءَ؟",
+      "fr": "Puis-je boire de l'eau ?",
+      "gaps": [ { "answers": ["أَيُمْكِنُنِي"] } ],
+      "options": ["أَيُمْكِنُنِي", "أَيُمْكِنُكَ", "أَيُمْكِنُهُ"],
+      "explain": "Le verbe après {ar|أَنْ} est {ar|أَشْرَبَ} (« je boive ») : c'est moi qui demande, donc {ar|أَيُمْكِنُنِي}."
+    },
+    {
+      "id": "medine-t2.l17.grammar-6#6",
+      "type": "order",
+      "fr": "Tu ne peux pas sortir maintenant (à un homme).",
+      "answers": [["لَا", "يُمْكِنُكَ", "أَنْ", "تَخْرُجَ", "الْآنَ"]],
+      "punctuation": ".",
+      "explain": "{ar|لَا} + {ar|يُمْكِنُكَ} + {ar|أَنْ} + {ar|تَخْرُجَ} (fatha)."
+    },
+    {
+      "id": "medine-t2.l17.grammar-6#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Puis-je sortir de la classe ?",
+      "answers": ["أَيُمْكِنُنِي أَنْ أَخْرُجَ مِنَ الْفَصْلِ؟"],
+      "explain": "{ar|أَيُمْكِنُنِي} (« puis-je ») + {ar|أَنْ} + {ar|أَخْرُجَ}."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "medine-t2.l17.vocab-4",
+  "type": "vocabulary",
+  "title": "Dans le texte du livre",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t2.l17.vocab-4#1", "type": "present", "item": "w:sharia" },
+    { "id": "medine-t2.l17.vocab-4#2", "type": "present", "item": "w:azhar" },
+    {
+      "id": "medine-t2.l17.vocab-4#3",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:sharia", "w:azhar", "p:wilayat-muttahida"]
+    },
+    { "id": "medine-t2.l17.vocab-4#4", "type": "present", "item": "w:ilaj" },
+    { "id": "medine-t2.l17.vocab-4#5", "type": "present", "item": "w:ahl" },
+    {
+      "id": "medine-t2.l17.vocab-4#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ilaj",
+      "distractors": ["w:ahl", "w:sharia"],
+      "explain": "{ar|عِلَاجٌ} : un traitement. {ar|أَهْلٌ} : les proches ; {ar|الشَّرِيعَةُ} : la charia."
+    },
+    { "id": "medine-t2.l17.vocab-4#7", "type": "present", "item": "w:hudu" },
+    { "id": "medine-t2.l17.vocab-4#8", "type": "present", "item": "p:shafaka-allah" },
+    {
+      "id": "medine-t2.l17.vocab-4#9",
+      "type": "fill_gap",
+      "sentence": "أَنَا مَرِيضٌ. {0}.",
+      "fr": "Je suis malade. Qu'Allah te guérisse.",
+      "gaps": [ { "answers": ["شَفَاكَ اللَّهُ"] } ],
+      "options": ["شَفَاكَ اللَّهُ", "السَّلَامُ عَلَيْكُمْ", "نَعَمْ"],
+      "explain": "On souhaite la guérison à un malade : {ar|شَفَاكَ اللَّهُ}."
+    },
+    {
+      "id": "medine-t2.l17.vocab-4#10",
+      "type": "order",
+      "fr": "Il étudie à la faculté de la charia.",
+      "answers": [["هُوَ", "يَدْرُسُ", "فِي", "كُلِّيَّةِ", "الشَّرِيعَةِ"]],
+      "punctuation": ".",
+      "explain": "{ar|كُلِّيَّةِ الشَّرِيعَةِ} : deux noms annexés, tous deux à la kasra après {ar|فِي}."
+    },
+    {
+      "id": "medine-t2.l17.vocab-4#11",
+      "type": "fill_gap",
+      "sentence": "أَخِي يَدْرُسُ فِي جَامِعَةِ {0}.",
+      "fr": "Mon frère étudie à l'université d'al-Azhar.",
+      "gaps": [ { "answers": ["الْأَزْهَرِ"] } ],
+      "options": ["الْأَزْهَرِ", "الْمَدِينَةِ", "الشَّرِيعَةِ"],
+      "explain": "{ar|جَامِعَةُ الْأَزْهَرِ} : l'université d'al-Azhar ; le nom annexé prend la kasra."
+    },
+    {
+      "id": "medine-t2.l17.vocab-4#12",
+      "type": "fill_gap",
+      "sentence": "فِي الشَّارِعِ {0}.",
+      "fr": "Dans la rue, il y a du calme.",
+      "gaps": [ { "answers": ["هُدُوءٌ"] } ],
+      "options": ["هُدُوءٌ", "عِلَاجٌ", "ظَرْفٌ"],
+      "explain": "Du calme : {ar|هُدُوءٌ}."
+    },
+    {
+      "id": "medine-t2.l17.vocab-4#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd est aux États-Unis.",
+      "answers": ["زَيْدٌ فِي الْوِلَايَاتِ الْمُتَّحِدَةِ.", "فِي الْوِلَايَاتِ الْمُتَّحِدَةِ زَيْدٌ."],
+      "explain": "{ar|الْوِلَايَاتِ الْمُتَّحِدَةِ} : le nom et l'adjectif ont la kasra après {ar|فِي}."
+    }
+  ]
+}

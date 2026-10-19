@@ -1,0 +1,140 @@
+{
+  "id": "medine-t2.l17.practice-3",
+  "type": "vocabulary",
+  "title": "Exercice 6 : neuf phrases avec {ar|أَنْ}",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l17.practice-3#1",
+      "type": "tip",
+      "title": "Exercice 6 : lire neuf phrases",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande de lire ces phrases. Chacune contient {ar|أَنْ} et un verbe à l'accusatif."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            ["(1) {ar|أُرِيدُ أَنْ أَذْهَبَ إِلَى الْمُسْتَوْصَفِ.}", "Je veux aller au dispensaire."],
+            ["(2) {ar|نَسِيتُ أَنْ أَقُولَ لَكَ شَيْئًا.}", "J'ai oublié de te dire quelque chose."],
+            ["(3) {ar|أُرِيدُ أَنْ أَحْفَظَ الْقُرْآنَ الْكَرِيمَ.}", "Je veux mémoriser le noble Coran."],
+            ["(4) {ar|نَسِيتُ أَنْ أَكْتُبَ الدَّرْسَ.}", "J'ai oublié d'écrire la leçon."],
+            [
+              "(5) {ar|أُرِيدُ أَنْ أَدْرُسَ اللُّغَةَ الْعَرَبِيَّةَ لِأَنَّهَا لُغَةُ الْقُرْآنِ الْكَرِيمِ.}",
+              "Je veux étudier l'arabe parce que c'est la langue du noble Coran."
+            ],
+            [
+              "(6) {ar|نُرِيدُ أَنْ نَسْأَلَكَ سُؤَالًا يَا أُسْتَاذُ.}",
+              "Nous voulons te poser une question, professeur."
+            ],
+            ["(7) {ar|أَتُرِيدُ أَنْ تَقُولَ لِي شَيْئًا؟}", "Veux-tu me dire quelque chose ?"],
+            [
+              "(8) {ar|يُرِيدُ أَخِي أَنْ يَدْرُسَ بِالْجَامِعَةِ الْإِسْلَامِيَّةِ.}",
+              "Mon frère veut étudier à l'université islamique."
+            ],
+            [
+              "(9) {ar|نَسِيتُ أَنْ أَكْتُبَ الْعُنْوَانَ عَلَى الظَّرْفِ.}",
+              "J'ai oublié d'écrire l'adresse sur l'enveloppe."
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans {ar|أَنْ أَقُولَ} et {ar|أَنْ تَقُولَ}, le verbe {ar|قَالَ} (présent {ar|يَقُولُ}) prend la fatha comme les autres : la lettre du milieu ne change pas. Dans {ar|لِأَنَّهَا}, c'est {ar|لِأَنَّ} + le pronom {ar|هَا} : « parce que c'est »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.practice-3#2",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|نَسِيتُ أَنْ أَكْتُبَ الدَّرْسَ} ?" },
+      "choices": [
+        { "fr": "J'ai oublié d'écrire la leçon" },
+        { "fr": "Je veux écrire la leçon" },
+        { "fr": "J'écrirai la leçon" }
+      ],
+      "answer": 0,
+      "explain": "{ar|نَسِيتُ} : « j'ai oublié » ; {ar|أَنْ أَكْتُبَ} : « d'écrire »."
+    },
+    {
+      "id": "medine-t2.l17.practice-3#3",
+      "type": "spot",
+      "instruction": "Touche le verbe qui est à l'accusatif.",
+      "words": ["نَسِيتُ", "أَنْ", "أَقُولَ", "لَكَ", "شَيْئًا."],
+      "answers": [2],
+      "fr": "J'ai oublié de te dire quelque chose.",
+      "explain": "{ar|أَقُولَ} suit {ar|أَنْ} : il prend la fatha. {ar|نَسِيتُ} est au passé."
+    },
+    {
+      "id": "medine-t2.l17.practice-3#4",
+      "type": "fill_gap",
+      "sentence": "نُرِيدُ أَنْ {0} سُؤَالًا يَا أُسْتَاذُ.",
+      "fr": "Nous voulons te poser une question, professeur.",
+      "gaps": [ { "answers": ["نَسْأَلَكَ"] } ],
+      "options": ["نَسْأَلَكَ", "أَسْأَلَكَ", "يَسْأَلَكَ"],
+      "explain": "Le sujet est « nous » ({ar|نُرِيدُ}) : la lettre du présent est {ar|نَ}. Le pronom {ar|كَ} (« te ») est collé au verbe."
+    },
+    {
+      "id": "medine-t2.l17.practice-3#5",
+      "type": "fill_gap",
+      "sentence": "يُرِيدُ أَخِي أَنْ {0} بِالْجَامِعَةِ الْإِسْلَامِيَّةِ.",
+      "fr": "Mon frère veut étudier à l'université islamique.",
+      "gaps": [ { "answers": ["يَدْرُسَ"] } ],
+      "options": ["يَدْرُسَ", "أَدْرُسَ", "نَدْرُسَ"],
+      "explain": "C'est mon frère qui veut étudier : le verbe est à la 3ᵉ personne, {ar|يَدْرُسَ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-3#6",
+      "type": "order",
+      "fr": "Veux-tu me dire quelque chose ?",
+      "answers": [["أَتُرِيدُ", "أَنْ", "تَقُولَ", "لِي", "شَيْئًا"]],
+      "punctuation": "؟",
+      "explain": "{ar|أَ} (la question) + {ar|تُرِيدُ} + {ar|أَنْ} + {ar|تَقُولَ} (fatha)."
+    },
+    {
+      "id": "medine-t2.l17.practice-3#7",
+      "type": "question",
+      "prompt": { "fr": "Dans la phrase 5, pourquoi veut-on étudier l'arabe ?" },
+      "choices": [
+        { "fr": "Parce que c'est la langue du Coran" },
+        { "fr": "Parce que c'est la langue de la poste" },
+        { "fr": "Parce que c'est la langue de l'école" }
+      ],
+      "answer": 0,
+      "explain": "{ar|لِأَنَّهَا لُغَةُ الْقُرْآنِ الْكَرِيمِ} : « parce qu'elle est la langue du noble Coran »."
+    },
+    {
+      "id": "medine-t2.l17.practice-3#8",
+      "type": "sort",
+      "categories": [ { "fr": "je veux (faire)" }, { "fr": "j'ai oublié (de faire)" } ],
+      "cards": [
+        { "ar": "أُرِيدُ أَنْ أَذْهَبَ إِلَى الْمُسْتَوْصَفِ", "category": 0 },
+        { "ar": "نَسِيتُ أَنْ أَقُولَ لَكَ شَيْئًا", "category": 1 },
+        { "ar": "أُرِيدُ أَنْ أَحْفَظَ الْقُرْآنَ", "category": 0 },
+        { "ar": "نَسِيتُ أَنْ أَكْتُبَ الدَّرْسَ", "category": 1 },
+        { "ar": "نَسِيتُ أَنْ أَكْتُبَ الْعُنْوَانَ", "category": 1 },
+        { "ar": "أُرِيدُ أَنْ أَدْرُسَ اللُّغَةَ الْعَرَبِيَّةَ", "category": 0 }
+      ],
+      "instruction": "Que dit la phrase ?",
+      "explain": "{ar|أُرِيدُ أَنْ} + un verbe : « je veux (faire) ». {ar|نَسِيتُ أَنْ} + un verbe : « j'ai oublié de (faire) »."
+    },
+    {
+      "id": "medine-t2.l17.practice-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je veux mémoriser le noble Coran.",
+      "answers": ["أُرِيدُ أَنْ أَحْفَظَ الْقُرْآنَ الْكَرِيمَ.", "أَنَا أُرِيدُ أَنْ أَحْفَظَ الْقُرْآنَ الْكَرِيمَ."],
+      "explain": "{ar|أَحْفَظَ} : la fatha après {ar|أَنْ}. {ar|الْقُرْآنَ الْكَرِيمَ} : complément d'objet, tous deux à la fatha."
+    },
+    {
+      "id": "medine-t2.l17.practice-3#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai oublié d'écrire l'adresse sur l'enveloppe.",
+      "answers": ["نَسِيتُ أَنْ أَكْتُبَ الْعُنْوَانَ عَلَى الظَّرْفِ."],
+      "explain": "{ar|نَسِيتُ} + {ar|أَنْ} + {ar|أَكْتُبَ} (fatha) ; {ar|عَلَى الظَّرْفِ} : sur l'enveloppe."
+    }
+  ]
+}

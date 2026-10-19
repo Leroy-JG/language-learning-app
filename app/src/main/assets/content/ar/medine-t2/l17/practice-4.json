@@ -1,0 +1,104 @@
+{
+  "id": "medine-t2.l17.practice-4",
+  "type": "vocabulary",
+  "title": "Exercice 7 : réponds avec {ar|أَنْ}",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l17.practice-4#1",
+      "type": "tip",
+      "title": "Exercice 7 : reprendre {ar|أَنْ} dans la réponse",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande de répondre aux questions « en employant {ar|أَنْ} ». On reprend le verbe de la question, en changeant la personne : « tu » devient « je »."
+        },
+        {
+          "type": "example",
+          "ar": "مَاذَا تُرِيدُ أَنْ تَشْرَبَ يَا أَخِي؟",
+          "fr": "Que veux-tu boire, mon frère ?"
+        },
+        { "type": "example", "ar": "أُرِيدُ أَنْ أَشْرَبَ شَايًا.", "fr": "Je veux boire du thé." },
+        {
+          "type": "note",
+          "text": "{ar|تَشْرَبَ} devient {ar|أَشْرَبَ} : la lettre du présent suit celui qui parle."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.practice-4#2",
+      "type": "fill_gap",
+      "sentence": "مَاذَا تُرِيدُ أَنْ تَشْرَبَ يَا أَخِي؟ أُرِيدُ أَنْ {0} شَايًا.",
+      "fr": "Que veux-tu boire, mon frère ? Je veux boire du thé.",
+      "gaps": [ { "answers": ["أَشْرَبَ"] } ],
+      "options": ["أَشْرَبَ", "تَشْرَبَ", "نَشْرَبَ"],
+      "explain": "Celui qui répond parle de lui : « je veux boire » : {ar|أُرِيدُ أَنْ أَشْرَبَ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-4#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَعَ مَنْ تُرِيدُ أَنْ تَلْعَبَ؟",
+      "answers": ["أُرِيدُ أَنْ أَلْعَبَ مَعَ أَخِي.", "أَنَا أُرِيدُ أَنْ أَلْعَبَ مَعَ أَخِي."],
+      "fr": "Je veux jouer avec mon frère.",
+      "instruction": "Réponds en arabe : tu veux jouer avec ton frère.",
+      "explain": "{ar|أُرِيدُ أَنْ أَلْعَبَ} : « je veux jouer » ; {ar|مَعَ أَخِي} : « avec mon frère »."
+    },
+    {
+      "id": "medine-t2.l17.practice-4#4",
+      "type": "order",
+      "fr": "Je veux aller chez le médecin parce que je suis malade.",
+      "answers": [
+        ["أُرِيدُ", "أَنْ", "أَذْهَبَ", "إِلَى", "الطَّبِيبِ", "لِأَنَّنِي", "مَرِيضٌ"],
+        ["لِأَنَّنِي", "مَرِيضٌ", "أُرِيدُ", "أَنْ", "أَذْهَبَ", "إِلَى", "الطَّبِيبِ"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|أُرِيدُ أَنْ أَذْهَبَ} : « je veux aller » ; {ar|لِأَنَّنِي مَرِيضٌ} : « parce que je suis malade »."
+    },
+    {
+      "id": "medine-t2.l17.practice-4#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِنْ أَيِّ إِذَاعَةٍ تُرِيدُ أَنْ تَسْمَعَ الْأَخْبَارَ؟",
+      "answers": [
+        "أُرِيدُ أَنْ أَسْمَعَ الْأَخْبَارَ مِنْ إِذَاعَةِ مَكَّةَ.",
+        "أَنَا أُرِيدُ أَنْ أَسْمَعَ الْأَخْبَارَ مِنْ إِذَاعَةِ مَكَّةَ."
+      ],
+      "fr": "Je veux écouter les informations sur la radio de La Mecque.",
+      "instruction": "Réponds en arabe : tu veux écouter les informations sur la radio de La Mecque.",
+      "explain": "{ar|أَسْمَعَ} : la fatha après {ar|أَنْ} ; {ar|إِذَاعَةِ مَكَّةَ} : deux noms annexés, après {ar|مِنْ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-4#6",
+      "type": "fill_gap",
+      "sentence": "مَاذَا تُرِيدُ أَنْ تَأْكُلَ فِي الْعَشَاءِ؟ أُرِيدُ أَنْ {0} لَحْمًا.",
+      "fr": "Que veux-tu manger au dîner ? Je veux manger de la viande.",
+      "gaps": [ { "answers": ["آكُلَ"] } ],
+      "options": ["آكُلَ", "نَأْكُلَ", "تَأْكُلَ"],
+      "explain": "« Je veux manger » : {ar|أَ} + {ar|أْكُلَ} donnent {ar|آكُلَ} (alif madda)."
+    },
+    {
+      "id": "medine-t2.l17.practice-4#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَاذَا نَسِيتَ؟",
+      "answers": ["نَسِيتُ أَنْ أَكْتُبَ الْعُنْوَانَ."],
+      "fr": "J'ai oublié d'écrire l'adresse.",
+      "instruction": "Réponds en arabe : tu as oublié d'écrire l'adresse.",
+      "explain": "{ar|نَسِيتُ أَنْ أَكْتُبَ} : « j'ai oublié d'écrire »."
+    },
+    {
+      "id": "medine-t2.l17.practice-4#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَ تُرِيدُ أَنْ تَدْرُسَ اللُّغَةَ الْعَرَبِيَّةَ؟",
+      "answers": [
+        "أُرِيدُ أَنْ أَدْرُسَ اللُّغَةَ الْعَرَبِيَّةَ لِأَنَّهَا لُغَةُ الْقُرْآنِ.",
+        "أُرِيدُ أَنْ أَدْرُسَ اللُّغَةَ الْعَرَبِيَّةَ لِأَنَّهَا لُغَةُ الْقُرْآنِ الْكَرِيمِ."
+      ],
+      "fr": "Je veux étudier l'arabe parce que c'est la langue du Coran.",
+      "instruction": "Réponds en arabe : parce que c'est la langue du Coran.",
+      "explain": "{ar|لِأَنَّهَا لُغَةُ الْقُرْآنِ} : « parce qu'elle est la langue du Coran »."
+    }
+  ]
+}

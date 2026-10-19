@@ -1,0 +1,75 @@
+{
+  "id": "medine-t2.l17.vocab-5",
+  "type": "vocabulary",
+  "title": "Un noble hadith",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t2.l17.vocab-5#1", "type": "present", "item": "w:hadith" },
+    { "id": "medine-t2.l17.vocab-5#2", "type": "present", "item": "w:nabawi" },
+    { "id": "medine-t2.l17.vocab-5#3", "type": "present", "item": "w:sharif" },
+    {
+      "id": "medine-t2.l17.vocab-5#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:nabawi",
+      "distractors": ["w:sharif", "w:hadith"],
+      "explain": "{ar|نَبَوِيٌّ} : prophétique. {ar|شَرِيفٌ} : noble ; {ar|حَدِيثٌ} : un hadith."
+    },
+    {
+      "id": "medine-t2.l17.vocab-5#5",
+      "type": "tip",
+      "title": "Le nom et ses deux adjectifs",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les deux adjectifs suivent le nom. Quand le nom a l'article, les adjectifs l'ont aussi :"
+        },
+        {
+          "type": "compare",
+          "title": "Avec l'article, sur les trois mots",
+          "rows": [
+            {
+              "from": { "ar": "حَدِيثٌ نَبَوِيٌّ", "fr": "un hadith prophétique" },
+              "to": { "ar": "الْحَدِيثُ النَّبَوِيُّ الشَّرِيفُ", "fr": "le noble hadith prophétique" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les trois mots sont au même cas : l'adjectif prend le cas du nom qu'il décrit. Le professeur écrit {ar|الْحَدِيثَ النَّبَوِيَّ الشَّرِيفَ} quand le groupe est complément d'objet (accusatif)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.vocab-5#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:hadith", "w:nabawi", "w:sharif"]
+    },
+    {
+      "id": "medine-t2.l17.vocab-5#7",
+      "type": "fill_gap",
+      "sentence": "قَرَأْتُ حَدِيثًا {0}.",
+      "fr": "J'ai lu un hadith prophétique.",
+      "gaps": [ { "answers": ["نَبَوِيًّا"] } ],
+      "options": ["نَبَوِيًّا", "شَرِيفًا", "جَدِيدًا"],
+      "explain": "« Prophétique » : {ar|نَبَوِيٌّ}, ici à l'accusatif comme {ar|حَدِيثًا}."
+    },
+    {
+      "id": "medine-t2.l17.vocab-5#8",
+      "type": "order",
+      "fr": "Zayd est un homme honorable.",
+      "answers": [["زَيْدٌ", "رَجُلٌ", "شَرِيفٌ"]],
+      "punctuation": ".",
+      "explain": "{ar|رَجُلٌ شَرِيفٌ} : l'adjectif suit le nom."
+    },
+    {
+      "id": "medine-t2.l17.vocab-5#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "C'est un hadith prophétique.",
+      "answers": ["هٰذَا حَدِيثٌ نَبَوِيٌّ.", "ذٰلِكَ حَدِيثٌ نَبَوِيٌّ."],
+      "explain": "{ar|حَدِيثٌ نَبَوِيٌّ} : le nom et l'adjectif, tous deux indéfinis. {ar|هٰذَا} et {ar|ذٰلِكَ} se traduisent tous deux « c'est »."
+    }
+  ]
+}

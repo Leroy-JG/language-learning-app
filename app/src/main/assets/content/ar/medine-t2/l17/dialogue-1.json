@@ -1,0 +1,169 @@
+{
+  "id": "medine-t2.l17.dialogue-1",
+  "type": "dialogue",
+  "title": "Pourquoi sortir de la classe ?",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l17.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Pourquoi sortir de la classe ?",
+      "intro": "En classe, le professeur demande à ʿAmmār pourquoi il est sorti, puis il interroge ses élèves sur leurs vacances. Écoute {ar|أَنْ} et le {ar|لِ} de but.",
+      "speakers": {
+        "T": { "name": "Le professeur", "voice": "m1" },
+        "A": { "name": "ʿAmmār", "voice": "m2" },
+        "S": { "name": "Des élèves", "voice": "m2" },
+        "H": { "name": "Hāshim", "voice": "m2" },
+        "Y": { "name": "Yūsuf", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "T",
+          "ar": "لِمَ خَرَجْتَ مِنَ الْفَصْلِ يَا عَمَّارُ؟",
+          "fr": "Pourquoi es-tu sorti de la classe, ʿAmmār ?"
+        },
+        { "speaker": "A", "ar": "خَرَجْتُ لِأَشْرَبَ الْمَاءَ.", "fr": "Je suis sorti pour boire de l'eau." },
+        { "speaker": "T", "ar": "وَلِمَ خَرَجَ يَاسِرٌ مَعَكَ؟", "fr": "Et pourquoi Yāsir est-il sorti avec toi ?" },
+        {
+          "speaker": "A",
+          "ar": "هُوَ خَرَجَ لِيَغْسِلَ وَجْهَهُ.",
+          "fr": "Lui, il est sorti pour se laver le visage."
+        },
+        {
+          "speaker": "A",
+          "ar": "يَا أُسْتَاذُ، أَنَا أُرِيدُ أَنْ أَجْلِسَ هُنَا أَمَامَكَ. مَقْعَدِي بَعِيدٌ عَنْكَ، وَمِنْ هُنَاكَ لَا أَرَى مَا تَكْتُبُ عَلَى السَّبُّورَةِ.",
+          "fr": "Professeur, je veux m'asseoir ici, devant toi. Mon siège est loin de toi, et de là-bas je ne vois pas ce que tu écris au tableau."
+        },
+        {
+          "speaker": "T",
+          "ar": "يُمْكِنُكَ أَنْ تَجْلِسَ هُنَا الْآنَ. هٰذَا مَقْعَدُ حَمْزَةَ، وَهُوَ غَائِبٌ مُنْذُ أُسْبُوعٍ.",
+          "fr": "Tu peux t'asseoir ici maintenant. C'est le siège de Ḥamza, et il est absent depuis une semaine."
+        },
+        {
+          "speaker": "T",
+          "ar": "اِسْمَعُوا يَا أَبْنَائِي. تَبْدَأُ عُطْلَةُ الصَّيْفِ بَعْدَ شَهْرٍ. أَيْنَ تَذْهَبُونَ فِي هٰذِهِ الْعُطْلَةِ؟",
+          "fr": "Écoutez, mes fils. Les vacances d'été commencent dans un mois. Où allez-vous pendant ces vacances ?"
+        },
+        {
+          "speaker": "S",
+          "ar": "نُرِيدُ أَنْ نَذْهَبَ إِلَى بِلَادِنَا.",
+          "fr": "Nous voulons aller dans nos pays."
+        },
+        {
+          "speaker": "T",
+          "ar": "أَيْنَ تُرِيدُ أَنْ تَذْهَبَ أَنْتَ يَا هَاشِمُ؟",
+          "fr": "Et toi, Hāshim, où veux-tu aller ?"
+        },
+        { "speaker": "H", "ar": "أُرِيدُ أَنْ أَذْهَبَ إِلَى مِصْرَ.", "fr": "Je veux aller en Égypte." },
+        { "speaker": "T", "ar": "أَتُرِيدُ أَنْ تَذْهَبَ إِلَى مِصْرَ؟", "fr": "Tu veux aller en Égypte ?" },
+        {
+          "speaker": "H",
+          "ar": "أُرِيدُ أَنْ أَذْهَبَ إِلَى مِصْرَ لِأَزُورَ أَخِي الَّذِي يَدْرُسُ فِي جَامِعَةِ الْأَزْهَرِ.",
+          "fr": "Je veux aller en Égypte pour rendre visite à mon frère, qui étudie à l'université d'al-Azhar."
+        },
+        {
+          "speaker": "T",
+          "ar": "وَأَيْنَ تُرِيدُ أَنْ تَذْهَبَ أَنْتَ يَا يُوسُفُ؟",
+          "fr": "Et toi, Yūsuf, où veux-tu aller ?"
+        },
+        { "speaker": "Y", "ar": "أُرِيدُ أَنْ أَذْهَبَ إِلَى لَنْدَنَ.", "fr": "Je veux aller à Londres." }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Presque tout ce texte est connu. Voici ce qu'il faut remarquer :" },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            ["{ar|لِمَ خَرَجْتَ}", "pourquoi es-tu sorti ?", "{ar|لِمَ} = {ar|لِ} + {ar|مَا} (chapitre 15)"],
+            ["{ar|لِأَشْرَبَ}", "pour que je boive, pour boire", "{ar|لِ} de but + le verbe à la fatha"],
+            ["{ar|أَنْ أَجْلِسَ}", "(que) je m'asseye", "{ar|أَنْ} + le verbe à la fatha"],
+            ["{ar|لَا أَرَى}", "je ne vois pas", "le présent de {ar|رَأَى}"],
+            [
+              "{ar|مَا تَكْتُبُ}",
+              "ce que tu écris",
+              "{ar|مَا} relatif (chapitre 16) ; le pronom de rappel est omis"
+            ],
+            ["{ar|يُمْكِنُكَ}", "tu peux", "{ar|يُمْكِنُ} + le pronom collé {ar|كَ}"],
+            ["{ar|مُنْذُ أُسْبُوعٍ}", "depuis une semaine", "{ar|مُنْذُ} + le nom au génitif"],
+            ["{ar|اِسْمَعُوا}", "écoutez !", "l'impératif au pluriel (chapitre 14)"],
+            ["{ar|بِلَادِنَا}", "nos pays", "{ar|بِلَادٌ} (pluriel de {ar|بَلَدٌ}) + {ar|نَا}"],
+            ["{ar|أَتُرِيدُ}", "veux-tu… ?", "{ar|أَ} (la question) + {ar|تُرِيدُ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi ʿAmmār est-il sorti de la classe ?" },
+      "choices": [ { "fr": "Pour boire de l'eau" }, { "fr": "Pour se laver le visage" }, { "fr": "Pour voir le directeur" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l17.dialogue-1#1" },
+      "explain": "{ar|خَرَجْتُ لِأَشْرَبَ الْمَاءَ} : « je suis sorti pour boire de l'eau »."
+    },
+    {
+      "id": "medine-t2.l17.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi Yāsir est-il sorti de la classe ?" },
+      "choices": [ { "fr": "Pour se laver le visage" }, { "fr": "Pour boire de l'eau" }, { "fr": "Pour acheter un cahier" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l17.dialogue-1#1" },
+      "explain": "{ar|هُوَ خَرَجَ لِيَغْسِلَ وَجْهَهُ} : « il est sorti pour se laver le visage »."
+    },
+    {
+      "id": "medine-t2.l17.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "ʿAmmār veut s'asseoir derrière le professeur." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l17.dialogue-1#1" },
+      "explain": "Non : {ar|أُرِيدُ أَنْ أَجْلِسَ هُنَا أَمَامَكَ} : il veut s'asseoir devant le professeur, parce que son siège est loin."
+    },
+    {
+      "id": "medine-t2.l17.dialogue-1#6",
+      "type": "question",
+      "prompt": { "fr": "Depuis quand Ḥamza est-il absent ?" },
+      "choices": [ { "fr": "Depuis une semaine" }, { "fr": "Depuis un mois" }, { "fr": "Depuis un an" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l17.dialogue-1#1" },
+      "explain": "{ar|وَهُوَ غَائِبٌ مُنْذُ أُسْبُوعٍ} : il est absent depuis une semaine."
+    },
+    {
+      "id": "medine-t2.l17.dialogue-1#7",
+      "type": "question",
+      "prompt": { "fr": "Quand commencent les vacances d'été ?" },
+      "choices": [ { "fr": "Dans un mois" }, { "fr": "Demain" }, { "fr": "Dans un an" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l17.dialogue-1#1" },
+      "explain": "{ar|تَبْدَأُ عُطْلَةُ الصَّيْفِ بَعْدَ شَهْرٍ} : les vacances d'été commencent dans un mois."
+    },
+    {
+      "id": "medine-t2.l17.dialogue-1#8",
+      "type": "true_false",
+      "statement": { "fr": "Hāshim veut aller en Égypte pour rendre visite à son frère." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l17.dialogue-1#1" },
+      "explain": "Oui : {ar|لِأَزُورَ أَخِي الَّذِي يَدْرُسُ فِي جَامِعَةِ الْأَزْهَرِ}."
+    },
+    {
+      "id": "medine-t2.l17.dialogue-1#9",
+      "type": "order",
+      "fr": "Je veux m'asseoir ici, devant toi.",
+      "answers": [["أُرِيدُ", "أَنْ", "أَجْلِسَ", "هُنَا", "أَمَامَكَ"], ["أُرِيدُ", "أَنْ", "أَجْلِسَ", "أَمَامَكَ", "هُنَا"]],
+      "punctuation": ".",
+      "explain": "{ar|أُرِيدُ أَنْ أَجْلِسَ} : le verbe est à la fatha après {ar|أَنْ}. {ar|أَمَامَكَ} : « devant toi »."
+    },
+    {
+      "id": "medine-t2.l17.dialogue-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je suis sorti pour boire de l'eau.",
+      "answers": ["خَرَجْتُ لِأَشْرَبَ الْمَاءَ."],
+      "explain": "{ar|لِأَشْرَبَ} : le {ar|لِ} de but et le verbe à la fatha."
+    }
+  ]
+}
