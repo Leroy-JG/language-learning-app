@@ -43,7 +43,10 @@
       "id": "medine-t2.l17.practice-6#3",
       "type": "order",
       "fr": "Je suis allé dans mon village vendredi pour rendre visite à ma famille.",
-      "answers": [["ذَهَبْتُ", "إِلَى", "قَرْيَتِي", "يَوْمَ", "الْجُمُعَةِ", "لِأَزُورَ", "أَهْلِي"]],
+      "answers": [
+        ["ذَهَبْتُ", "إِلَى", "قَرْيَتِي", "يَوْمَ", "الْجُمُعَةِ", "لِأَزُورَ", "أَهْلِي"],
+        ["ذَهَبْتُ", "يَوْمَ", "الْجُمُعَةِ", "إِلَى", "قَرْيَتِي", "لِأَزُورَ", "أَهْلِي"]
+      ],
       "punctuation": ".",
       "explain": "{ar|لِأَزُورَ} : {ar|أَزُورُ} devient {ar|أَزُورَ} après {ar|لِ}. {ar|يَوْمَ الْجُمُعَةِ} : complément de temps à la fatha."
     },
@@ -80,7 +83,7 @@
       "id": "medine-t2.l17.practice-6#7",
       "type": "order",
       "fr": "Le professeur s'est levé pour écrire.",
-      "answers": [["قَامَ", "الْمُدَرِّسُ", "لِيَكْتُبَ"]],
+      "answers": [["قَامَ", "الْمُدَرِّسُ", "لِيَكْتُبَ"], ["الْمُدَرِّسُ", "قَامَ", "لِيَكْتُبَ"]],
       "punctuation": ".",
       "explain": "{ar|يَكْتُبُ} → {ar|لِيَكْتُبَ}."
     },

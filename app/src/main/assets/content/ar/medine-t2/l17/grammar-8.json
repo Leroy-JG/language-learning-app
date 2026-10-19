@@ -94,7 +94,12 @@
       "type": "typing",
       "ask": "question",
       "question": "مَاذَا تَرَى عَلَى الْمَكْتَبِ؟",
-      "answers": ["أَرَى قَلَمًا وَكِتَابًا.", "أَرَى كِتَابًا وَقَلَمًا."],
+      "answers": [
+        "أَرَى قَلَمًا وَكِتَابًا.",
+        "أَرَى كِتَابًا وَقَلَمًا.",
+        "أَنَا أَرَى قَلَمًا وَكِتَابًا.",
+        "أَنَا أَرَى كِتَابًا وَقَلَمًا."
+      ],
       "fr": "Je vois un stylo et un livre.",
       "instruction": "Sur le bureau, il y a un stylo et un livre. Réponds en arabe : « je vois… ».",
       "explain": "{ar|أَرَى} (« je vois ») + les deux objets à l'accusatif : {ar|قَلَمًا}, {ar|كِتَابًا}."

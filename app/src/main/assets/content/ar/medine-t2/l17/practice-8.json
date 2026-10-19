@@ -137,7 +137,12 @@
       "type": "typing",
       "ask": "question",
       "question": "مَاذَا تَرَى عَلَى السَّبُّورَةِ؟",
-      "answers": ["أَرَى سَاعَةً وَقَلَمًا.", "أَرَى قَلَمًا وَسَاعَةً."],
+      "answers": [
+        "أَرَى سَاعَةً وَقَلَمًا.",
+        "أَرَى قَلَمًا وَسَاعَةً.",
+        "أَنَا أَرَى سَاعَةً وَقَلَمًا.",
+        "أَنَا أَرَى قَلَمًا وَسَاعَةً."
+      ],
       "fr": "Je vois une montre et un stylo.",
       "instruction": "Sur le tableau, le professeur a dessiné une montre et un stylo. Réponds en arabe : « je vois… ».",
       "explain": "{ar|أَرَى} (« je vois ») + les deux objets à l'accusatif."

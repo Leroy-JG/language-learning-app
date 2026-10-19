@@ -56,7 +56,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Il y a du vacarme dans la rue.",
-      "answers": ["فِي الشَّارِعِ ضَوْضَاءُ."],
+      "answers": ["فِي الشَّارِعِ ضَوْضَاءُ.", "هُنَاكَ ضَوْضَاءُ فِي الشَّارِعِ."],
       "explain": "{ar|ضَوْضَاءُ} n'a pas de tanwin : il se termine par {ar|اءُ}."
     }
   ]

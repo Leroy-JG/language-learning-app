@@ -79,7 +79,7 @@
       "type": "typing",
       "ask": "question",
       "question": "مَاذَا نَسِيتَ؟",
-      "answers": ["نَسِيتُ أَنْ أَكْتُبَ الْعُنْوَانَ.", "نَسِيتُ أَنْ أَكْتُبَ الدَّرْسَ."],
+      "answers": ["نَسِيتُ أَنْ أَكْتُبَ الْعُنْوَانَ."],
       "fr": "J'ai oublié d'écrire l'adresse.",
       "instruction": "Réponds en arabe : tu as oublié d'écrire l'adresse.",
       "explain": "{ar|نَسِيتُ أَنْ أَكْتُبَ} : « j'ai oublié d'écrire »."

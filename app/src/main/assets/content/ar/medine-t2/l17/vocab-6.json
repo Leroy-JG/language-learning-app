@@ -82,7 +82,7 @@
       "id": "medine-t2.l17.vocab-6#14",
       "type": "order",
       "fr": "Zayd est resté à la maison.",
-      "answers": [["بَقِيَ", "زَيْدٌ", "فِي", "الْبَيْتِ"]],
+      "answers": [["بَقِيَ", "زَيْدٌ", "فِي", "الْبَيْتِ"], ["زَيْدٌ", "بَقِيَ", "فِي", "الْبَيْتِ"]],
       "punctuation": ".",
       "explain": "{ar|بَقِيَ} : « il est resté », avant son sujet {ar|زَيْدٌ}."
     },

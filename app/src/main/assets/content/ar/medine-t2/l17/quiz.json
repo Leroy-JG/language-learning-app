@@ -207,7 +207,11 @@
       "type": "typing",
       "ask": "question",
       "question": "لِمَ ذَهَبْتَ إِلَى السُّوقِ؟",
-      "answers": ["ذَهَبْتُ إِلَى السُّوقِ لِأَشْتَرِيَ دَفْتَرًا.", "لِأَشْتَرِيَ دَفْتَرًا."],
+      "answers": [
+        "ذَهَبْتُ إِلَى السُّوقِ لِأَشْتَرِيَ دَفْتَرًا.",
+        "أَنَا ذَهَبْتُ إِلَى السُّوقِ لِأَشْتَرِيَ دَفْتَرًا.",
+        "لِأَشْتَرِيَ دَفْتَرًا."
+      ],
       "fr": "Je suis allé au marché pour acheter un cahier.",
       "instruction": "Réponds en arabe : pour acheter un cahier.",
       "explain": "{ar|لِأَشْتَرِيَ} : le {ar|لِ} de but et le verbe à la fatha (visible sur le {ar|ي})."

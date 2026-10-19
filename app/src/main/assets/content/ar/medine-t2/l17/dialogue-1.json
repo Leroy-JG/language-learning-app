@@ -153,7 +153,7 @@
       "id": "medine-t2.l17.dialogue-1#9",
       "type": "order",
       "fr": "Je veux m'asseoir ici, devant toi.",
-      "answers": [["أُرِيدُ", "أَنْ", "أَجْلِسَ", "هُنَا", "أَمَامَكَ"]],
+      "answers": [["أُرِيدُ", "أَنْ", "أَجْلِسَ", "هُنَا", "أَمَامَكَ"], ["أُرِيدُ", "أَنْ", "أَجْلِسَ", "أَمَامَكَ", "هُنَا"]],
       "punctuation": ".",
       "explain": "{ar|أُرِيدُ أَنْ أَجْلِسَ} : le verbe est à la fatha après {ar|أَنْ}. {ar|أَمَامَكَ} : « devant toi »."
     },

@@ -108,7 +108,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Je suis allé au marché pour acheter un cahier.",
-      "answers": ["ذَهَبْتُ إِلَى السُّوقِ لِأَشْتَرِيَ دَفْتَرًا."],
+      "answers": ["ذَهَبْتُ إِلَى السُّوقِ لِأَشْتَرِيَ دَفْتَرًا.", "أَنَا ذَهَبْتُ إِلَى السُّوقِ لِأَشْتَرِيَ دَفْتَرًا."],
       "explain": "{ar|لِأَشْتَرِيَ} : le verbe {ar|يَشْتَرِي} garde son {ar|ي} et prend la fatha (visible sur le {ar|ي}), comme {ar|لَنْ يَقْضِيَ}."
     }
   ]

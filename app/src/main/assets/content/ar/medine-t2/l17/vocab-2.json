@@ -75,7 +75,10 @@
       "id": "medine-t2.l17.vocab-2#14",
       "type": "order",
       "fr": "L'année prochaine, je vais en Égypte.",
-      "answers": [["فِي", "الْعَامِ", "الْمُقْبِلِ", "أَذْهَبُ", "إِلَى", "مِصْرَ"]],
+      "answers": [
+        ["فِي", "الْعَامِ", "الْمُقْبِلِ", "أَذْهَبُ", "إِلَى", "مِصْرَ"],
+        ["أَذْهَبُ", "إِلَى", "مِصْرَ", "فِي", "الْعَامِ", "الْمُقْبِلِ"]
+      ],
       "punctuation": ".",
       "explain": "{ar|الْعَامِ الْمُقْبِلِ} : le nom et l'adjectif ont l'article, et tous deux la kasra après {ar|فِي}."
     },
