@@ -1,0 +1,100 @@
+{
+  "id": "medine-t2.l17.grammar-7",
+  "type": "grammar",
+  "title": "{ar|مُنْذُ} : depuis",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l17.grammar-7#1",
+      "type": "tip",
+      "title": "{ar|مُنْذُ}, un adverbe de temps",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|مُنْذُ} est un adverbe de temps ({ar|ظَرْفُ زَمَانٍ}), invariable ({ar|مَبْنِيٌّ}). On l'emploie en général de deux façons : devant un nom (qui est annexé : il est alors au génitif), ou devant un verbe. Il se traduit « depuis »."
+        },
+        {
+          "type": "example",
+          "ar": "مَا رَأَيْتُ زَيْدًا مُنْذُ أُسْبُوعٍ.",
+          "fr": "Je n'ai pas vu Zayd depuis une semaine."
+        },
+        {
+          "type": "example",
+          "ar": "مَا رَأَيْتُ زَيْدًا مُنْذُ ذَهَبَ إِلَى مِصْرَ.",
+          "fr": "Je n'ai pas vu Zayd depuis qu'il est parti pour l'Égypte."
+        }
+      ]
+    },
+    { "id": "medine-t2.l17.grammar-7#2", "type": "present", "item": "w:mundhu" },
+    {
+      "id": "medine-t2.l17.grammar-7#3",
+      "type": "tip",
+      "title": "Après {ar|مُنْذُ} : le génitif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|مُنْذُ} ne change jamais. C'est le nom qui le suit qui prend la kasra (ou le tanwin de kasra), comme dans une annexion :"
+        },
+        {
+          "type": "compare",
+          "title": "Du nom à {ar|مُنْذُ} + le nom",
+          "rows": [
+            {
+              "from": { "ar": "أُسْبُوعٌ", "fr": "une semaine" },
+              "to": { "ar": "مُنْذُ أُسْبُوعٍ", "fr": "depuis une semaine" }
+            },
+            { "from": { "ar": "سَنَةٌ", "fr": "une année" }, "to": { "ar": "مُنْذُ سَنَةٍ", "fr": "depuis un an" } },
+            { "from": { "ar": "شَهْرٌ", "fr": "un mois" }, "to": { "ar": "مُنْذُ شَهْرٍ", "fr": "depuis un mois" } }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Comme en français, on emploie le présent pour un état qui dure : {ar|هُوَ غَائِبٌ مُنْذُ أُسْبُوعٍ} (« il est absent depuis une semaine »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.grammar-7#4",
+      "type": "question",
+      "prompt": { "fr": "Quel est le cas du nom qui suit {ar|مُنْذُ} ?" },
+      "choices": [ { "fr": "le génitif (kasra)" }, { "fr": "le nominatif (damma)" }, { "fr": "l'accusatif (fatha)" } ],
+      "answer": 0,
+      "explain": "Le nom qui suit {ar|مُنْذُ} est annexé : il est au génitif. Exemple : {ar|مُنْذُ أُسْبُوعٍ}."
+    },
+    {
+      "id": "medine-t2.l17.grammar-7#5",
+      "type": "fill_gap",
+      "sentence": "هُوَ مَرِيضٌ {0} أُسْبُوعٍ.",
+      "fr": "Il est malade depuis une semaine.",
+      "gaps": [ { "answers": ["مُنْذُ"] } ],
+      "options": ["مُنْذُ", "بَعْدَ", "قَبْلَ"],
+      "explain": "« Depuis » se dit {ar|مُنْذُ}. {ar|بَعْدَ} veut dire « après » et {ar|قَبْلَ} « avant »."
+    },
+    {
+      "id": "medine-t2.l17.grammar-7#6",
+      "type": "spot",
+      "instruction": "Touche le mot qui est au génitif à cause de {ar|مُنْذُ}.",
+      "words": ["أَسْكُنُ", "فِي", "هٰذِهِ", "الْمَدِينَةِ", "مُنْذُ", "شَهْرٍ."],
+      "answers": [5],
+      "fr": "J'habite cette ville depuis un mois.",
+      "explain": "{ar|شَهْرٍ} a la kasra parce qu'il suit {ar|مُنْذُ}. {ar|الْمَدِينَةِ} a aussi la kasra, mais à cause de {ar|فِي}."
+    },
+    {
+      "id": "medine-t2.l17.grammar-7#7",
+      "type": "order",
+      "fr": "Il est absent depuis un mois.",
+      "answers": [["هُوَ", "غَائِبٌ", "مُنْذُ", "شَهْرٍ"]],
+      "punctuation": ".",
+      "explain": "{ar|مُنْذُ} + le nom annexé, au génitif."
+    },
+    {
+      "id": "medine-t2.l17.grammar-7#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je n'ai pas vu Ḥamza depuis un mois.",
+      "answers": ["مَا رَأَيْتُ حَمْزَةَ مُنْذُ شَهْرٍ.", "لَمْ أَرَ حَمْزَةَ مُنْذُ شَهْرٍ."],
+      "explain": "{ar|مَا رَأَيْتُ} (ou {ar|لَمْ أَرَ}) + {ar|حَمْزَةَ} (complément d'objet, à la fatha : un nom privé de tanwin) + {ar|مُنْذُ شَهْرٍ}."
+    }
+  ]
+}

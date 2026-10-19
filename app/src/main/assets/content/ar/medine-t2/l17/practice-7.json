@@ -1,0 +1,107 @@
+{
+  "id": "medine-t2.l17.practice-7",
+  "type": "vocabulary",
+  "title": "Exercice 10 : {ar|يُمْكِنُ}",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l17.practice-7#1",
+      "type": "tip",
+      "title": "Exercice 10 : cinq phrases avec {ar|يُمْكِنُ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande de réfléchir à ces cinq phrases. Entre parenthèses, il donne parfois la forme sans pronom collé : elle se dit aussi."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            [
+              "{ar|لَا يُمْكِنُكَ أَنْ تَجْلِسَ هُنَا. هٰذَا مَقْعَدُ عُثْمَانَ.}",
+              "Tu ne peux pas t'asseoir ici. C'est le siège de ʿUthmān."
+            ],
+            [
+              "{ar|يُمْكِنُكَ أَنْ تَخْرُجَ مِنَ الْفَصْلِ الْآنَ.} ou {ar|يُمْكِنُكَ الْخُرُوجُ مِنَ الْفَصْلِ الْآنَ.}",
+              "Tu peux sortir de la classe maintenant."
+            ],
+            [
+              "{ar|أَيُمْكِنُنِي أَنْ آخُذَ هٰذِهِ الْمَجَلَّةَ إِلَى الْبَيْتِ؟}",
+              "Puis-je emporter cette revue à la maison ?"
+            ],
+            [
+              "{ar|أَبِي مَرِيضٌ جِدًّا. لَا يُمْكِنُهُ أَنْ يَذْهَبَ إِلَى الْمَصْنَعِ.}",
+              "Mon père est très malade. Il ne peut pas aller à l'usine."
+            ],
+            ["{ar|هٰذَا يُمْكِنُ وَهٰذَا لَا يُمْكِنُ.}", "Cela est possible, et cela ne l'est pas."]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Sans pronom collé, {ar|لَا يُمْكِنُ أَنْ تَجْلِسَ هُنَا} veut dire « il n'est pas possible que tu t'assoies ici »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.practice-7#2",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi ne peut-on pas s'asseoir ici (phrase 1) ?" },
+      "choices": [
+        { "fr": "Parce que c'est le siège de ʿUthmān" },
+        { "fr": "Parce que la classe est fermée" },
+        { "fr": "Parce que le professeur est absent" }
+      ],
+      "answer": 0,
+      "explain": "{ar|هٰذَا مَقْعَدُ عُثْمَانَ} : c'est le siège de ʿUthmān."
+    },
+    {
+      "id": "medine-t2.l17.practice-7#3",
+      "type": "fill_gap",
+      "sentence": "{0} أَنْ تَجْلِسَ هُنَا. هٰذَا مَقْعَدُ عُثْمَانَ.",
+      "fr": "Tu ne peux pas t'asseoir ici. C'est le siège de ʿUthmān.",
+      "gaps": [ { "answers": ["لَا يُمْكِنُكَ"] } ],
+      "options": ["لَا يُمْكِنُكَ", "يُمْكِنُكَ", "لَا يُمْكِنُنِي"],
+      "explain": "« Tu ne peux pas » : {ar|لَا يُمْكِنُكَ}. {ar|لَا يُمْكِنُنِي} voudrait dire « je ne peux pas »."
+    },
+    {
+      "id": "medine-t2.l17.practice-7#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Tu peux sortir de la classe maintenant.",
+      "answers": ["يُمْكِنُكَ أَنْ تَخْرُجَ مِنَ الْفَصْلِ الْآنَ.", "يُمْكِنُكَ الْخُرُوجُ مِنَ الْفَصْلِ الْآنَ."],
+      "explain": "Deux façons : {ar|أَنْ تَخْرُجَ} (avec le verbe) ou {ar|الْخُرُوجُ} (avec le nom d'action, au nominatif)."
+    },
+    {
+      "id": "medine-t2.l17.practice-7#5",
+      "type": "fill_gap",
+      "sentence": "{0} أَنْ آخُذَ هٰذِهِ الْمَجَلَّةَ إِلَى الْبَيْتِ؟",
+      "fr": "Puis-je emporter cette revue à la maison ?",
+      "gaps": [ { "answers": ["أَيُمْكِنُنِي"] } ],
+      "options": ["أَيُمْكِنُنِي", "أَيُمْكِنُكَ", "أَيُمْكِنُهُ"],
+      "explain": "Celui qui parle demande : « puis-je ». Le verbe {ar|آخُذَ} est à la 1ʳᵉ personne."
+    },
+    {
+      "id": "medine-t2.l17.practice-7#6",
+      "type": "true_false",
+      "statement": { "fr": "Dans la phrase 4, le père peut aller à l'usine." },
+      "answer": false,
+      "explain": "Non : {ar|لَا يُمْكِنُهُ أَنْ يَذْهَبَ إِلَى الْمَصْنَعِ} : il ne peut pas, car il est très malade."
+    },
+    {
+      "id": "medine-t2.l17.practice-7#7",
+      "type": "order",
+      "fr": "Cela est possible, et cela ne l'est pas.",
+      "answers": [["هٰذَا", "يُمْكِنُ", "وَهٰذَا", "لَا", "يُمْكِنُ"]],
+      "punctuation": ".",
+      "explain": "{ar|يُمْكِنُ} sans pronom collé : « il est possible »."
+    },
+    {
+      "id": "medine-t2.l17.practice-7#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Mon père est très malade. Il ne peut pas aller à l'usine.",
+      "answers": ["أَبِي مَرِيضٌ جِدًّا. لَا يُمْكِنُهُ أَنْ يَذْهَبَ إِلَى الْمَصْنَعِ."],
+      "explain": "{ar|لَا يُمْكِنُهُ} : « il ne peut pas » ; {ar|أَنْ يَذْهَبَ} : le verbe à la fatha."
+    }
+  ]
+}

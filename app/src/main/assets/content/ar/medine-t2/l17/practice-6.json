@@ -1,0 +1,127 @@
+{
+  "id": "medine-t2.l17.practice-6",
+  "type": "vocabulary",
+  "title": "Exercice 9 : réponds avec le {ar|لِ} de but",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l17.practice-6#1",
+      "type": "tip",
+      "title": "Exercice 9 : une réponse avec {ar|لِ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Chaque question commence par {ar|لِمَ} (« pourquoi ? »). Entre parenthèses, le livre donne le verbe de la réponse **au présent** : il faut le mettre à l'accusatif après {ar|لِ}, en changeant la personne si la question l'exige."
+        },
+        {
+          "type": "example",
+          "ar": "لِمَ دَخَلْتُمُ الْمَطْعَمَ؟",
+          "fr": "Pourquoi êtes-vous entrés au restaurant ?"
+        },
+        {
+          "type": "example",
+          "ar": "دَخَلْنَا الْمَطْعَمَ لِنَشْرَبَ.",
+          "fr": "Nous sommes entrés au restaurant pour boire."
+        },
+        {
+          "type": "note",
+          "text": "Question : {ar|دَخَلْتُمْ} (vous). Réponse : {ar|دَخَلْنَا} (nous), puis {ar|لِنَشْرَبَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.practice-6#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَ دَخَلْتُمُ الْمَطْعَمَ؟",
+      "answers": ["دَخَلْنَا الْمَطْعَمَ لِنَشْرَبَ.", "لِنَشْرَبَ."],
+      "fr": "Nous sommes entrés au restaurant pour boire.",
+      "instruction": "Réponds en arabe, avec le verbe {ar|نَشْرَبُ} (« nous buvons »).",
+      "explain": "{ar|نَشْرَبُ} → {ar|لِنَشْرَبَ} : fatha après {ar|لِ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-6#3",
+      "type": "order",
+      "fr": "Je suis allé dans mon village vendredi pour rendre visite à ma famille.",
+      "answers": [["ذَهَبْتُ", "إِلَى", "قَرْيَتِي", "يَوْمَ", "الْجُمُعَةِ", "لِأَزُورَ", "أَهْلِي"]],
+      "punctuation": ".",
+      "explain": "{ar|لِأَزُورَ} : {ar|أَزُورُ} devient {ar|أَزُورَ} après {ar|لِ}. {ar|يَوْمَ الْجُمُعَةِ} : complément de temps à la fatha."
+    },
+    {
+      "id": "medine-t2.l17.practice-6#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَ خَرَجْتَ مِنَ الْمَدْرَسَةِ؟",
+      "answers": ["خَرَجْتُ مِنَ الْمَدْرَسَةِ لِأَشْتَرِيَ.", "لِأَشْتَرِيَ."],
+      "fr": "Je suis sorti de l'école pour acheter.",
+      "instruction": "Réponds en arabe, avec le verbe {ar|أَشْتَرِي} (« j'achète »).",
+      "explain": "{ar|أَشْتَرِي} → {ar|لِأَشْتَرِيَ} : la fatha se voit sur le {ar|ي}."
+    },
+    {
+      "id": "medine-t2.l17.practice-6#5",
+      "type": "fill_gap",
+      "sentence": "لِمَ ذَهَبْتُنَّ إِلَى الْمَكْتَبَةِ يَا أَخَوَاتُ؟ ذَهَبْنَا {0}.",
+      "fr": "Pourquoi êtes-vous allées à la bibliothèque, mes sœurs ? Nous y sommes allées pour lire.",
+      "gaps": [ { "answers": ["لِنَقْرَأَ"] } ],
+      "options": ["لِنَقْرَأَ", "لِأَقْرَأَ", "لِتَقْرَأْنَ"],
+      "explain": "Les sœurs répondent « nous » : {ar|لِنَقْرَأَ}. {ar|لِتَقْرَأْنَ} serait « pour que vous lisiez »."
+    },
+    {
+      "id": "medine-t2.l17.practice-6#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَ جَاءَ أَخُوكَ إِلَى الْمَدِينَةِ الْمُنَوَّرَةِ؟",
+      "answers": ["جَاءَ أَخِي إِلَى الْمَدِينَةِ الْمُنَوَّرَةِ لِيَدْرُسَ.", "لِيَدْرُسَ."],
+      "fr": "Mon frère est venu à Médine pour étudier.",
+      "instruction": "Réponds en arabe, avec le verbe {ar|يَدْرُسُ} (« il étudie »).",
+      "explain": "{ar|أَخُوكَ} (« ton frère ») devient {ar|أَخِي} (« mon frère ») dans la réponse ; {ar|يَدْرُسُ} → {ar|لِيَدْرُسَ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-6#7",
+      "type": "order",
+      "fr": "Le professeur s'est levé pour écrire.",
+      "answers": [["قَامَ", "الْمُدَرِّسُ", "لِيَكْتُبَ"]],
+      "punctuation": ".",
+      "explain": "{ar|يَكْتُبُ} → {ar|لِيَكْتُبَ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-6#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَ خَرَجَ زَمِيلُكَ مِنَ الْفَصْلِ؟",
+      "answers": ["خَرَجَ زَمِيلِي مِنَ الْفَصْلِ لِيَغْسِلَ.", "لِيَغْسِلَ."],
+      "fr": "Mon camarade est sorti de la classe pour se laver.",
+      "instruction": "Réponds en arabe, avec le verbe {ar|يَغْسِلُ} (« il lave »).",
+      "explain": "{ar|يَغْسِلُ} → {ar|لِيَغْسِلَ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-6#9",
+      "type": "fill_gap",
+      "sentence": "لِمَ خَلَقَنَا اللَّهُ تَعَالَى؟ خَلَقَنَا {0}.",
+      "fr": "Pourquoi Allah nous a-t-il créés ? Il nous a créés pour que nous l'adorions.",
+      "gaps": [ { "answers": ["لِنَعْبُدَهُ"] } ],
+      "options": ["لِنَعْبُدَهُ", "لِيَعْبُدَهُ", "لِتَعْبُدَهُ"],
+      "explain": "« Pour que nous l'adorions » : {ar|لِنَعْبُدَهُ} ({ar|نَ} = nous ; {ar|هُ} = lui)."
+    },
+    {
+      "id": "medine-t2.l17.practice-6#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَ تَذْهَبُ إِلَى مَكْتَبِ الْبَرِيدِ الْآنَ؟",
+      "answers": ["أَذْهَبُ إِلَى مَكْتَبِ الْبَرِيدِ الْآنَ لِآخُذَ.", "لِآخُذَ."],
+      "fr": "Je vais au bureau de poste maintenant pour prendre (quelque chose).",
+      "instruction": "Réponds en arabe, avec le verbe {ar|آخُذُ} (« je prends »).",
+      "explain": "{ar|آخُذُ} → {ar|لِآخُذَ} : l'alif madda se garde, la fatha remplace la damma."
+    },
+    {
+      "id": "medine-t2.l17.practice-6#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَ تَدْرُسُونَ اللُّغَةَ الْعَرَبِيَّةَ يَا إِخْوَانُ؟",
+      "answers": ["نَدْرُسُ اللُّغَةَ الْعَرَبِيَّةَ لِنَفْهَمَ.", "لِنَفْهَمَ."],
+      "fr": "Nous étudions l'arabe pour comprendre.",
+      "instruction": "Réponds en arabe, avec le verbe {ar|نَفْهَمُ} (« nous comprenons »).",
+      "explain": "{ar|نَفْهَمُ} → {ar|لِنَفْهَمَ}."
+    }
+  ]
+}

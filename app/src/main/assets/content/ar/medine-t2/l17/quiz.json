@@ -1,0 +1,216 @@
+{
+  "id": "medine-t2.l17.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l17.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mundhu",
+      "distractors": ["w:qabla", "w:bada"],
+      "explain": "{ar|مُنْذُ} : depuis. {ar|قَبْلَ} : avant ; {ar|بَعْدَ} : après."
+    },
+    {
+      "id": "medine-t2.l17.quiz#2",
+      "type": "sort",
+      "categories": [ { "ar": "أَنْ" }, { "ar": "لِ" }, { "ar": "لَنْ" } ],
+      "cards": [
+        { "ar": "أُرِيدُ أَنْ أَذْهَبَ", "category": 0 },
+        { "ar": "نَسِيتُ أَنْ أَكْتُبَ", "category": 0 },
+        { "ar": "خَرَجْتُ لِأَشْرَبَ", "category": 1 },
+        { "ar": "قَامَ الْمُدَرِّسُ لِيَكْتُبَ", "category": 1 },
+        { "ar": "لَنْ أَذْهَبَ", "category": 2 },
+        { "ar": "لَنْ يَكْتُبَ زَيْدٌ", "category": 2 }
+      ],
+      "instruction": "Quelle particule met le verbe à l'accusatif ?",
+      "explain": "Trois particules, le même effet : la fatha. {ar|أَنْ} donne le sens du nom d'action ; {ar|لِ} dit le but ; {ar|لَنْ} nie le futur."
+    },
+    {
+      "id": "medine-t2.l17.quiz#3",
+      "type": "fill_gap",
+      "sentence": "أُرِيدُ أَنْ {0} إِلَى مِصْرَ.",
+      "fr": "Je veux aller en Égypte.",
+      "gaps": [ { "answers": ["أَذْهَبَ"] } ],
+      "options": ["أَذْهَبَ", "نَذْهَبَ", "يَذْهَبَ"],
+      "explain": "« Je veux » : {ar|أُرِيدُ} ; le verbe après {ar|أَنْ} est à la 1ʳᵉ personne : {ar|أَذْهَبَ}."
+    },
+    {
+      "id": "medine-t2.l17.quiz#4",
+      "type": "question",
+      "prompt": { "fr": "Que fait le {ar|لِ} dans {ar|خَرَجْتُ لِأَشْرَبَ} ?" },
+      "choices": [
+        { "fr": "Il dit le but et met le verbe à l'accusatif" },
+        { "fr": "Il nie le verbe" },
+        { "fr": "Il met le verbe au jussif" }
+      ],
+      "answer": 0,
+      "explain": "C'est le {ar|لَامُ التَّعْلِيلِ} : « je suis sorti pour boire »."
+    },
+    {
+      "id": "medine-t2.l17.quiz#5",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|أَنْ}, {ar|تَكْتُبُونَ} garde son {ar|ن} : {ar|أَنْ تَكْتُبُونَ}." },
+      "answer": false,
+      "explain": "Non : après {ar|أَنْ}, le {ar|ن} des cinq verbes tombe : {ar|أَنْ تَكْتُبُوا}."
+    },
+    {
+      "id": "medine-t2.l17.quiz#6",
+      "type": "fill_gap",
+      "sentence": "أَنْتُمْ تُرِيدُونَ أَنْ {0} الدَّرْسَ.",
+      "fr": "Vous voulez écrire la leçon.",
+      "gaps": [ { "answers": ["تَكْتُبُوا"] } ],
+      "options": ["تَكْتُبُوا", "تَكْتُبُونَ", "تَكْتُبْنَ"],
+      "explain": "Le {ar|ن} de {ar|تَكْتُبُونَ} tombe après {ar|أَنْ}. {ar|تَكْتُبْنَ} est le pronom des femmes."
+    },
+    {
+      "id": "medine-t2.l17.quiz#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je veux étudier l'arabe pour comprendre le Coran.",
+      "answers": [
+        "أُرِيدُ أَنْ أَدْرُسَ اللُّغَةَ الْعَرَبِيَّةَ لِأَفْهَمَ الْقُرْآنَ.",
+        "أَنَا أُرِيدُ أَنْ أَدْرُسَ اللُّغَةَ الْعَرَبِيَّةَ لِأَفْهَمَ الْقُرْآنَ."
+      ],
+      "explain": "{ar|أَنْ أَدْرُسَ} : « étudier » ; {ar|لِأَفْهَمَ} : « pour comprendre » ; deux verbes à la fatha."
+    },
+    {
+      "id": "medine-t2.l17.quiz#8",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|هُوَ غَائِبٌ مُنْذُ أُسْبُوعٍ} ?" },
+      "choices": [
+        { "fr": "Il est absent depuis une semaine" },
+        { "fr": "Il sera absent dans une semaine" },
+        { "fr": "Il était absent avant une semaine" }
+      ],
+      "answer": 0,
+      "explain": "{ar|مُنْذُ أُسْبُوعٍ} : « depuis une semaine » ; le nom a la kasra."
+    },
+    {
+      "id": "medine-t2.l17.quiz#9",
+      "type": "sort",
+      "categories": [ { "fr": "de moi" }, { "fr": "de toi (un homme)" }, { "fr": "de lui" } ],
+      "cards": [
+        { "ar": "يُمْكِنُنِي أَنْ أَدْرُسَ", "category": 0 },
+        { "ar": "يُمْكِنُكَ أَنْ تَدْرُسَ", "category": 1 },
+        { "ar": "يُمْكِنُهُ أَنْ يَدْرُسَ", "category": 2 },
+        { "ar": "لَا يُمْكِنُنِي أَنْ أَذْهَبَ", "category": 0 },
+        { "ar": "لَا يُمْكِنُكَ أَنْ تَذْهَبَ", "category": 1 },
+        { "ar": "لَا يُمْكِنُهُ أَنْ يَذْهَبَ", "category": 2 }
+      ],
+      "instruction": "De qui parle-t-on ?",
+      "explain": "Le pronom collé ({ar|نِي}, {ar|كَ}, {ar|هُ}) dit qui peut ; le verbe après {ar|أَنْ} suit la même personne."
+    },
+    {
+      "id": "medine-t2.l17.quiz#10",
+      "type": "order",
+      "fr": "Je ne peux pas aller à l'école aujourd'hui.",
+      "answers": [["لَا", "يُمْكِنُنِي", "أَنْ", "أَذْهَبَ", "إِلَى", "الْمَدْرَسَةِ", "الْيَوْمَ"]],
+      "punctuation": ".",
+      "explain": "{ar|لَا يُمْكِنُنِي أَنْ أَذْهَبَ} : « il ne m'est pas possible d'aller »."
+    },
+    {
+      "id": "medine-t2.l17.quiz#11",
+      "type": "spot",
+      "instruction": "Touche le verbe que le {ar|لِ} de but met à l'accusatif.",
+      "words": ["جَلَسْتُ", "هُنَا", "لِأَقْرَأَ", "الْمَجَلَّةَ."],
+      "answers": [2],
+      "fr": "Je me suis assis ici pour lire la revue.",
+      "explain": "{ar|لِأَقْرَأَ} : le {ar|لِ} de but collé au verbe, qui prend la fatha."
+    },
+    {
+      "id": "medine-t2.l17.quiz#12",
+      "type": "question",
+      "prompt": { "fr": "Comment le professeur analyse-t-il {ar|يَشْرَبَ} dans {ar|خَرَجَ زَيْدٌ لِيَشْرَبَ} ?" },
+      "choices": [
+        { "ar": "فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ الْفَتْحَةُ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الضَّمَّةُ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَجْزُومٌ وَعَلَامَةُ جَزْمِهِ السُّكُونُ" }
+      ],
+      "answer": 0,
+      "explain": "Après le {ar|لِ} de but, le verbe est à l'accusatif ({ar|مَنْصُوبٌ}) : la marque est la fatha."
+    },
+    {
+      "id": "medine-t2.l17.quiz#13",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:nawasib",
+      "distractors": ["w:jawazim", "w:masdar"],
+      "explain": "{ar|النَّوَاصِبُ} : les particules qui mettent le verbe à l'accusatif. {ar|الْجَوَازِمُ} le mettent au jussif ; {ar|الْمَصْدَرُ} est le nom d'action."
+    },
+    {
+      "id": "medine-t2.l17.quiz#14",
+      "type": "fill_gap",
+      "sentence": "فِي {0} تَخْرُجُ الزُّهُورُ.",
+      "fr": "Au printemps, les fleurs éclosent.",
+      "gaps": [ { "answers": ["الرَّبِيعِ"] } ],
+      "options": ["الرَّبِيعِ", "الشِّتَاءِ", "الصَّيْفِ"],
+      "explain": "« Au printemps » : {ar|فِي الرَّبِيعِ} (kasra après {ar|فِي})."
+    },
+    {
+      "id": "medine-t2.l17.quiz#15",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il est absent depuis une semaine.",
+      "answers": ["هُوَ غَائِبٌ مُنْذُ أُسْبُوعٍ."],
+      "explain": "{ar|مُنْذُ} + le nom au génitif : {ar|أُسْبُوعٍ}."
+    },
+    {
+      "id": "medine-t2.l17.quiz#16",
+      "type": "question",
+      "prompt": { "fr": "Que dit {ar|أَرْجُو أَنْ تَسْمَحَ لِي بِالْخُرُوجِ} ?" },
+      "choices": [
+        { "fr": "Je te prie de me permettre de sortir" },
+        { "fr": "Je veux sortir sans ta permission" },
+        { "fr": "J'espère que tu sortiras" }
+      ],
+      "answer": 0,
+      "explain": "{ar|سَمَحَ لِي بِ} + un nom : « il m'a permis de… » ; {ar|أَرْجُو أَنْ} : formule de demande polie."
+    },
+    {
+      "id": "medine-t2.l17.quiz#17",
+      "type": "true_false",
+      "statement": { "fr": "Pour dire « elles peuvent », on met {ar|يُمْكِنُ} au féminin pluriel." },
+      "answer": false,
+      "explain": "Non : {ar|يُمْكِنُ} ne change jamais ; on ajoute le pronom collé : {ar|يُمْكِنُهُنَّ أَنْ يَذْهَبْنَ}."
+    },
+    {
+      "id": "medine-t2.l17.quiz#18",
+      "type": "sort",
+      "categories": [
+        { "fr": "devant un nom" },
+        { "fr": "de but (devant un verbe)" },
+        { "fr": "dans {ar|لِأَنَّ} (« parce que »)" }
+      ],
+      "cards": [
+        { "ar": "هٰذَا الْقَلَمُ لِزَيْدٍ", "category": 0 },
+        { "ar": "ذَهَبْتُ لِأَزُورَ أَخِي", "category": 1 },
+        { "ar": "غَابَ زَيْدٌ لِأَنَّهُ مَرِيضٌ", "category": 2 },
+        { "ar": "الْكِتَابُ لِلْمُدِيرِ", "category": 0 },
+        { "ar": "خَرَجَ لِيَغْسِلَ وَجْهَهُ", "category": 1 },
+        { "ar": "غَابَتْ سُعَادُ لِأَنَّهَا مَرِيضَةٌ", "category": 2 }
+      ],
+      "instruction": "Quel emploi de {ar|لِ} ?",
+      "explain": "Après {ar|لِ} : un nom (préposition) ; un verbe à la fatha (but) ; ou {ar|لِأَنَّ} + un nom ou un pronom collé (« parce que »)."
+    },
+    {
+      "id": "medine-t2.l17.quiz#19",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je te prie de me permettre de sortir.",
+      "answers": ["أَرْجُو أَنْ تَسْمَحَ لِي بِالْخُرُوجِ."],
+      "explain": "{ar|تَسْمَحَ} : la fatha après {ar|أَنْ} ; {ar|لِي بِالْخُرُوجِ} : « de sortir »."
+    },
+    {
+      "id": "medine-t2.l17.quiz#20",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَ ذَهَبْتَ إِلَى السُّوقِ؟",
+      "answers": ["ذَهَبْتُ إِلَى السُّوقِ لِأَشْتَرِيَ دَفْتَرًا.", "لِأَشْتَرِيَ دَفْتَرًا."],
+      "fr": "Je suis allé au marché pour acheter un cahier.",
+      "instruction": "Réponds en arabe : pour acheter un cahier.",
+      "explain": "{ar|لِأَشْتَرِيَ} : le {ar|لِ} de but et le verbe à la fatha (visible sur le {ar|ي})."
+    }
+  ]
+}

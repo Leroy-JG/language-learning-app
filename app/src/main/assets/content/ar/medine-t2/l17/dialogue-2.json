@@ -1,0 +1,203 @@
+{
+  "id": "medine-t2.l17.dialogue-2",
+  "type": "dialogue",
+  "title": "Que veux-tu étudier ?",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l17.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Que veux-tu étudier ?",
+      "intro": "Le professeur continue : Yūsuf, Marwān et Bilāl disent ce qu'ils veulent faire. Écoute {ar|يُمْكِنُنِي} et {ar|أَرْجُو}.",
+      "speakers": {
+        "T": { "name": "Le professeur", "voice": "m1" },
+        "Y": { "name": "Yūsuf", "voice": "m2" },
+        "M": { "name": "Marwān", "voice": "m2" },
+        "B": { "name": "Bilāl", "voice": "m2" },
+        "A": { "name": "ʿAmr", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "T",
+          "ar": "أَلَا تُرِيدُ أَنْ تَذْهَبَ إِلَى بَلَدِكَ؟",
+          "fr": "Tu ne veux pas aller dans ton pays ?"
+        },
+        {
+          "speaker": "Y",
+          "ar": "نَعَمْ. لَا أُرِيدُ أَنْ أَذْهَبَ إِلَى بَلَدِي هٰذِهِ السَّنَةَ. أُرِيدُ أَنْ أَذْهَبَ إِلَى لَنْدَنَ لِأَدْرُسَ اللُّغَةَ الْإِنْكِلِيزِيَّةَ هُنَاكَ.",
+          "fr": "Non, je ne veux pas aller dans mon pays cette année. Je veux aller à Londres pour étudier l'anglais là-bas."
+        },
+        {
+          "speaker": "T",
+          "ar": "أَلَا يُمْكِنُكَ أَنْ تَدْرُسَ اللُّغَةَ الْإِنْكِلِيزِيَّةَ فِي بَلَدِكَ؟",
+          "fr": "Ne peux-tu pas étudier l'anglais dans ton pays ?"
+        },
+        {
+          "speaker": "Y",
+          "ar": "نَعَمْ. لَا يُمْكِنُنِي ذٰلِكَ لِأَنَّ أَهْلَ بَلَدِي يَدْرُسُونَ اللُّغَةَ الْفَرَنْسِيَّةَ وَلَا يَدْرُسُونَ اللُّغَةَ الْإِنْكِلِيزِيَّةَ.",
+          "fr": "Non, cela m'est impossible, parce que les gens de mon pays étudient le français et n'étudient pas l'anglais."
+        },
+        {
+          "speaker": "T",
+          "ar": "فِي أَيِّ كُلِّيَّةٍ تُرِيدُ أَنْ تَدْرُسَ فِي الْعَامِ الْمُقْبِلِ يَا مَرْوَانُ؟",
+          "fr": "Dans quelle faculté veux-tu étudier l'année prochaine, Marwān ?"
+        },
+        {
+          "speaker": "M",
+          "ar": "أُرِيدُ أَنْ أَدْرُسَ فِي كُلِّيَّةِ الشَّرِيعَةِ.",
+          "fr": "Je veux étudier à la faculté de la charia."
+        },
+        {
+          "speaker": "T",
+          "ar": "فِي أَيِّ كُلِّيَّةٍ تُرِيدُ أَنْ تَدْرُسَ أَنْتَ يَا بِلَالُ؟",
+          "fr": "Et toi, Bilāl, dans quelle faculté veux-tu étudier ?"
+        },
+        {
+          "speaker": "B",
+          "ar": "لَا يُمْكِنُنِي أَنْ أَدْرُسَ بِالْجَامِعَةِ فِي الْعَامِ الْمُقْبِلِ، ذٰلِكَ لِأَنَّنِي مَرِيضٌ وَأُرِيدُ أَنْ أَذْهَبَ إِلَى الْوِلَايَاتِ الْمُتَّحِدَةِ لِلْعِلَاجِ.",
+          "fr": "Je ne peux pas étudier à l'université l'année prochaine : c'est parce que je suis malade et que je veux aller aux États-Unis pour me faire soigner."
+        },
+        { "speaker": "T", "ar": "شَفَاكَ اللَّهُ.", "fr": "Qu'Allah te guérisse." },
+        {
+          "speaker": "A",
+          "ar": "يَا أُسْتَاذُ، يَكَادُ الْجَرَسُ يَرِنُّ. أَرْجُو أَنْ تَسْمَحَ لَنَا بِالْخُرُوجِ الْآنَ قَبْلَ أَنْ يَخْرُجَ الطُّلَّابُ الْآخَرُونَ.",
+          "fr": "Professeur, la sonnerie est sur le point de retentir. Je te prie de nous permettre de sortir maintenant, avant que les autres étudiants sortent."
+        },
+        {
+          "speaker": "T",
+          "ar": "بَقِيَ ثَلَاثُ دَقَائِقَ. يُمْكِنُكُمُ الْخُرُوجُ الْآنَ. اُخْرُجُوا بِهُدُوءٍ.",
+          "fr": "Il reste trois minutes. Vous pouvez sortir maintenant. Sortez calmement."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Là encore, presque tout est connu. À remarquer :" },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            ["{ar|أَلَا تُرِيدُ}", "ne veux-tu pas… ?", "{ar|أَلَا} = {ar|أَ} + {ar|لَا} (chapitre 15)"],
+            [
+              "{ar|نَعَمْ. لَا أُرِيدُ}",
+              "non, je ne veux pas",
+              "{ar|نَعَمْ} confirme la question négative : on la traduit « non » (chapitre 6 de ce tome)"
+            ],
+            ["{ar|لَا يُمْكِنُنِي ذٰلِكَ}", "cela m'est impossible", "{ar|يُمْكِنُ} + le pronom collé {ar|نِي}"],
+            ["{ar|لِأَنَّ أَهْلَ بَلَدِي}", "parce que les gens de mon pays", "{ar|لِأَنَّ} + un nom à l'accusatif"],
+            [
+              "{ar|لِلْعِلَاجِ}",
+              "pour le traitement",
+              "{ar|لِ} + {ar|الْ} s'écrit {ar|لِلْ} ; ici, {ar|لِ} est suivi d'un nom, pas d'un verbe"
+            ],
+            [
+              "{ar|يَكَادُ الْجَرَسُ يَرِنُّ}",
+              "la sonnerie est sur le point de retentir",
+              "{ar|كَادَ} et son prédicat (chapitre 15)"
+            ],
+            [
+              "{ar|أَنْ تَسْمَحَ لَنَا بِالْخُرُوجِ}",
+              "que tu nous permettes de sortir",
+              "{ar|سَمَحَ لَهُ بِ} + le nom d'action"
+            ],
+            ["{ar|قَبْلَ أَنْ يَخْرُجَ}", "avant que sortent", "{ar|قَبْلَ} + {ar|أَنْ} + le verbe à la fatha"],
+            [
+              "{ar|يُمْكِنُكُمُ}",
+              "vous pouvez",
+              "le {ar|م} prend la damma devant {ar|الْ}, comme dans {ar|عَلَيْكُمُ السَّلَامُ}"
+            ],
+            ["{ar|اُخْرُجُوا}", "sortez !", "l'impératif au pluriel"],
+            ["{ar|بِهُدُوءٍ}", "calmement", "{ar|بِ} + {ar|هُدُوءٌ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Que veut faire Yūsuf pendant les vacances ?" },
+      "choices": [
+        { "fr": "Aller à Londres pour étudier l'anglais" },
+        { "fr": "Aller dans son pays" },
+        { "fr": "Étudier la charia" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l17.dialogue-2#1" },
+      "explain": "{ar|أُرِيدُ أَنْ أَذْهَبَ إِلَى لَنْدَنَ لِأَدْرُسَ اللُّغَةَ الْإِنْكِلِيزِيَّةَ}."
+    },
+    {
+      "id": "medine-t2.l17.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi Yūsuf ne peut-il pas étudier l'anglais dans son pays ?" },
+      "choices": [
+        { "fr": "Les gens de son pays étudient le français, pas l'anglais" },
+        { "fr": "Il est malade" },
+        { "fr": "Il n'aime pas l'anglais" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l17.dialogue-2#1" },
+      "explain": "{ar|لِأَنَّ أَهْلَ بَلَدِي يَدْرُسُونَ اللُّغَةَ الْفَرَنْسِيَّةَ وَلَا يَدْرُسُونَ اللُّغَةَ الْإِنْكِلِيزِيَّةَ}."
+    },
+    {
+      "id": "medine-t2.l17.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Marwān veut étudier à la faculté de la charia." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l17.dialogue-2#1" },
+      "explain": "Oui : {ar|أُرِيدُ أَنْ أَدْرُسَ فِي كُلِّيَّةِ الشَّرِيعَةِ}."
+    },
+    {
+      "id": "medine-t2.l17.dialogue-2#6",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi Bilāl ne peut-il pas étudier à l'université l'année prochaine ?" },
+      "choices": [
+        { "fr": "Il est malade et veut aller se faire soigner aux États-Unis" },
+        { "fr": "Il veut étudier à Londres" },
+        { "fr": "Il habite trop loin" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l17.dialogue-2#1" },
+      "explain": "{ar|لِأَنَّنِي مَرِيضٌ وَأُرِيدُ أَنْ أَذْهَبَ إِلَى الْوِلَايَاتِ الْمُتَّحِدَةِ لِلْعِلَاجِ}."
+    },
+    {
+      "id": "medine-t2.l17.dialogue-2#7",
+      "type": "question",
+      "prompt": { "fr": "Que demande ʿAmr au professeur ?" },
+      "choices": [
+        { "fr": "De pouvoir sortir avant les autres" },
+        { "fr": "De s'asseoir devant" },
+        { "fr": "D'écrire au tableau" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l17.dialogue-2#1" },
+      "explain": "{ar|أَرْجُو أَنْ تَسْمَحَ لَنَا بِالْخُرُوجِ الْآنَ قَبْلَ أَنْ يَخْرُجَ الطُّلَّابُ الْآخَرُونَ}."
+    },
+    {
+      "id": "medine-t2.l17.dialogue-2#8",
+      "type": "true_false",
+      "statement": { "fr": "Il reste dix minutes avant la fin du cours." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l17.dialogue-2#1" },
+      "explain": "Non : {ar|بَقِيَ ثَلَاثُ دَقَائِقَ} : il reste trois minutes."
+    },
+    {
+      "id": "medine-t2.l17.dialogue-2#9",
+      "type": "order",
+      "fr": "Je ne peux pas étudier à l'université l'année prochaine.",
+      "answers": [["لَا", "يُمْكِنُنِي", "أَنْ", "أَدْرُسَ", "بِالْجَامِعَةِ", "فِي", "الْعَامِ", "الْمُقْبِلِ"]],
+      "punctuation": ".",
+      "explain": "{ar|لَا يُمْكِنُنِي أَنْ أَدْرُسَ} : « il ne m'est pas possible d'étudier »."
+    },
+    {
+      "id": "medine-t2.l17.dialogue-2#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Sortez calmement !",
+      "answers": ["اُخْرُجُوا بِهُدُوءٍ."],
+      "explain": "{ar|اُخْرُجُوا} : l'impératif du pluriel (le {ar|ا} final est le {ar|ا} muet du groupe). {ar|بِهُدُوءٍ} : « calmement »."
+    }
+  ]
+}

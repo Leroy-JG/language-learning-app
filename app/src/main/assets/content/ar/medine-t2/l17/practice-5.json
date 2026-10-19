@@ -1,0 +1,148 @@
+{
+  "id": "medine-t2.l17.practice-5",
+  "type": "vocabulary",
+  "title": "Exercice 8 : neuf phrases avec le {ar|لِ} de but",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l17.practice-5#1",
+      "type": "tip",
+      "title": "Exercice 8 : lire neuf phrases",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande de lire ces neuf exemples du {ar|لَامُ التَّعْلِيلِ}. Dans chaque phrase, le verbe après {ar|لِ} est à l'accusatif."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            [
+              "{ar|نَدْرُسُ اللُّغَةَ الْعَرَبِيَّةَ لِنَفْهَمَ الْقُرْآنَ الْكَرِيمَ وَالْحَدِيثَ النَّبَوِيَّ الشَّرِيفَ.}",
+              "Nous étudions l'arabe pour comprendre le noble Coran et le noble hadith prophétique."
+            ],
+            [
+              "{ar|قَامَ الْمُدَرِّسُ لِيَكْتُبَ عَلَى السَّبُّورَةِ.}",
+              "Le professeur s'est levé pour écrire au tableau."
+            ],
+            ["{ar|خَرَجْتُ مِنَ الْفَصْلِ لِأَشْرَبَ الْمَاءَ.}", "Je suis sorti de la classe pour boire de l'eau."],
+            [
+              "{ar|ذَهَبَ أَبِي إِلَى جُدَّةَ لِيَشْتَرِيَ سَيَّارَةً.}",
+              "Mon père est allé à Djeddah pour acheter une voiture."
+            ],
+            [
+              "{ar|خَلَقَنَا اللَّهُ تَعَالَى لِنَعْبُدَهُ.}",
+              "Allah, exalté soit-il, nous a créés pour que nous l'adorions."
+            ],
+            [
+              "{ar|دَخَلْتُ الْحَمَّامَ لِأَغْسِلَ وَجْهِي.}",
+              "Je suis entré dans la salle de bains pour me laver le visage."
+            ],
+            [
+              "{ar|ذَهَبْتُ إِلَى مَكْتَبِ الْبَرِيدِ لِآخُذَ الْبَرْقِيَّةَ الَّتِي جَاءَتْنِي مِنْ أَبِي.}",
+              "Je suis allé au bureau de poste pour prendre le télégramme que j'ai reçu de mon père."
+            ],
+            [
+              "{ar|فَتَحْتُ النَّافِذَةَ لِيَدْخُلَ الْهَوَاءُ فَدَخَلَ الذُّبَابُ.}",
+              "J'ai ouvert la fenêtre pour que l'air entre, et les mouches sont entrées."
+            ],
+            [
+              "{ar|يَا حَمْزَةُ، أَذْهَبُ الْآنَ إِلَى السُّوقِ لِأَشْتَرِيَ دَفَاتِرَ وَأَقْلَامًا لِي وَلَكَ وَلِسُعَادَ.}",
+              "Ḥamza, je vais maintenant au marché pour acheter des cahiers et des stylos pour moi, pour toi et pour Suʿād."
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans {ar|لِيَشْتَرِيَ}, la fatha se voit sur le {ar|ي} (verbe à finale défectueuse). Dans {ar|لِنَفْهَمَ}, {ar|لِنَعْبُدَهُ} et {ar|لِيَدْخُلَ}, c'est la fatha ordinaire."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.practice-5#2",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi le professeur s'est-il levé (phrase 2) ?" },
+      "choices": [
+        { "fr": "Pour écrire au tableau" },
+        { "fr": "Pour sortir de la classe" },
+        { "fr": "Pour ouvrir la fenêtre" }
+      ],
+      "answer": 0,
+      "explain": "{ar|قَامَ الْمُدَرِّسُ لِيَكْتُبَ عَلَى السَّبُّورَةِ} : « pour écrire au tableau »."
+    },
+    {
+      "id": "medine-t2.l17.practice-5#3",
+      "type": "spot",
+      "instruction": "Touche le verbe qui est à l'accusatif à cause du {ar|لِ} de but.",
+      "words": ["ذَهَبَ", "أَبِي", "إِلَى", "جُدَّةَ", "لِيَشْتَرِيَ", "سَيَّارَةً."],
+      "answers": [4],
+      "fr": "Mon père est allé à Djeddah pour acheter une voiture.",
+      "explain": "{ar|لِيَشْتَرِيَ} : le {ar|لِ} de but, puis le verbe à la fatha, visible sur le {ar|ي}."
+    },
+    {
+      "id": "medine-t2.l17.practice-5#4",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi Allah nous a-t-il créés (phrase 5) ?" },
+      "choices": [
+        { "fr": "Pour que nous l'adorions" },
+        { "fr": "Pour que nous voyagions" },
+        { "fr": "Pour que nous étudiions" }
+      ],
+      "answer": 0,
+      "explain": "{ar|خَلَقَنَا اللَّهُ تَعَالَى لِنَعْبُدَهُ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-5#5",
+      "type": "fill_gap",
+      "sentence": "فَتَحْتُ النَّافِذَةَ {0} الْهَوَاءُ فَدَخَلَ الذُّبَابُ.",
+      "fr": "J'ai ouvert la fenêtre pour que l'air entre, et les mouches sont entrées.",
+      "gaps": [ { "answers": ["لِيَدْخُلَ"] } ],
+      "options": ["لِيَدْخُلَ", "لِأَدْخُلَ", "لِتَدْخُلَ"],
+      "explain": "Le sujet de {ar|يَدْخُلَ} est {ar|الْهَوَاءُ} (masculin) : on garde {ar|يَ}. {ar|لِتَدْخُلَ} serait féminin."
+    },
+    {
+      "id": "medine-t2.l17.practice-5#6",
+      "type": "order",
+      "fr": "Je suis allé au bureau de poste pour prendre le télégramme que j'ai reçu de mon père.",
+      "answers": [
+        [
+          "ذَهَبْتُ",
+          "إِلَى",
+          "مَكْتَبِ",
+          "الْبَرِيدِ",
+          "لِآخُذَ",
+          "الْبَرْقِيَّةَ",
+          "الَّتِي",
+          "جَاءَتْنِي",
+          "مِنْ",
+          "أَبِي"
+        ]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|الْبَرْقِيَّةَ} est féminin : {ar|الَّتِي} et {ar|جَاءَتْنِي} s'accordent avec elle."
+    },
+    {
+      "id": "medine-t2.l17.practice-5#7",
+      "type": "true_false",
+      "statement": { "fr": "Dans la phrase 6, la personne est entrée dans la salle de bains pour boire de l'eau." },
+      "answer": false,
+      "explain": "Non : {ar|دَخَلْتُ الْحَمَّامَ لِأَغْسِلَ وَجْهِي} : pour se laver le visage."
+    },
+    {
+      "id": "medine-t2.l17.practice-5#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ḥamza, je vais maintenant au marché pour acheter des cahiers et des stylos pour moi, pour toi et pour Suʿād.",
+      "answers": ["يَا حَمْزَةُ، أَذْهَبُ الْآنَ إِلَى السُّوقِ لِأَشْتَرِيَ دَفَاتِرَ وَأَقْلَامًا لِي وَلَكَ وَلِسُعَادَ."],
+      "explain": "{ar|دَفَاتِرَ} (un nom privé de tanwin) et {ar|أَقْلَامًا} sont les compléments d'objet de {ar|أَشْتَرِيَ} : fatha."
+    },
+    {
+      "id": "medine-t2.l17.practice-5#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Nous étudions l'arabe pour comprendre le noble Coran et le noble hadith prophétique.",
+      "answers": ["نَدْرُسُ اللُّغَةَ الْعَرَبِيَّةَ لِنَفْهَمَ الْقُرْآنَ الْكَرِيمَ وَالْحَدِيثَ النَّبَوِيَّ الشَّرِيفَ."],
+      "explain": "{ar|الْحَدِيثَ النَّبَوِيَّ الشَّرِيفَ} : le nom et ses deux adjectifs, tous à la fatha (compléments d'objet de {ar|نَفْهَمَ})."
+    }
+  ]
+}

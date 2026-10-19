@@ -167,6 +167,11 @@ Exemples tirés des leçons 1 à 6 :
   `compare` « masculin → féminin » des six couleurs (`l16/grammar-1`) et « un même verbe, deux personnes » (`تُرِيدُونَ` → `تُرِدْنَ`, `grammar-3`) ; `memory` des couleurs au féminin sans image (une même pastille ne peut pas désigner à la fois le masculin et le féminin, `l16/vocab-1`) ;
   `fill_gap` à deux trous (le genre de deux noms qui se suivent : `هٰذَا الْقَلَمُ أَخْضَرُ وَهٰذِهِ الْحَقِيبَةُ خَضْرَاءُ`) et question « qu'est-ce qui est jaune ? » (`ذُو الْغِلَافِ الْأَصْفَرِ` : la kasra montre que la couleur décrit la couverture, `l16/practice-3`).
 
+- (Tome 2, leçon 17) `sort` « quelle particule met le verbe à l'accusatif ? » (`أَنْ` / `لِ` / `لَنْ`, les cartes se reconnaissent à la particule, même voyelles masquées) et « la marque du verbe après `أَنْ` » (fatha / chute du `ن` / le verbe ne change pas : cartes `أَنْ يَجْلِسَ`, `أَنْ يَكْتُبُوا`, `أَنْ يَكْتُبْنَ`, `medine-t2/l17/grammar-3`) ;
+  `sort` « `أَنْ` + verbe / `أَنَّ` + nom » (catégories en français, cartes où la suite du mot dit la réponse) et « trois emplois de `لِ` » (devant un nom / de but / dans `لِأَنَّ`) ; `sort` « qui peut ? » (le pronom collé de `يُمْكِنُنِي` / `يُمْكِنُكَ` / `يُمْكِنُهُ`, `vocab-1`) ;
+  `compare` « `أَنْ` + verbe → nom d'action » (`أُرِيدُ أَنْ أَذْهَبَ` → `أُرِيدُ الذَّهَابَ`, `grammar-2`) et « du nom à `مُنْذُ` + nom » (`أُسْبُوعٌ` → `مُنْذُ أُسْبُوعٍ`, `grammar-7`) ; `breakdown` de `لِآكُلَ` (`لِ` + `آكُلَ`) ;
+  `question` à choix arabes pour faire lire l'analyse du professeur (`فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ حَذْفُ النُّونِ`) ; `typing` « question » avec la réponse donnée en français dans la consigne (`لِمَ…؟` → `لِأَفْهَمَ الْقُرْآنَ`) ; `build` de `عُطْلَةٌ` (le `ة`, pas le `ه`), `ظَرْفٌ` (le `ظ`, pas le `ط`) et `بَصَقَ` (le `ص`, pas le `س`) ; `memory` des saisons et des vacances (sans image).
+
 ### Entraîner une voyelle finale (kasra, fatha…)
 
 Le validateur refuse deux choix qui ne diffèrent que par les harakat (`الْبَيْتِ` / `الْبَيْتُ`), et le

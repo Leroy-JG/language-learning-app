@@ -1,0 +1,119 @@
+{
+  "id": "medine-t2.l17.practice-2",
+  "type": "vocabulary",
+  "title": "Exercices 3, 4 et 5 : réponds avec {ar|أَنْ} et {ar|لِ}",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l17.practice-2#1",
+      "type": "tip",
+      "title": "Exercice 5 : les raisons de sortir",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande à chaque élève : {ar|لِمَاذَا خَرَجْتَ مِنَ الْفَصْلِ؟} L'élève répond {ar|خَرَجْتُ لِ} + un verbe, en choisissant une raison dans la liste. Chaque verbe de la liste est au nominatif ; **après {ar|لِ}, il doit être à l'accusatif**."
+        },
+        {
+          "type": "table",
+          "header": ["Raison (présent)", "Après {ar|لِ}", "Sens"],
+          "rows": [
+            ["{ar|أَشْرَبُ الْمَاءَ}", "{ar|لِأَشْرَبَ الْمَاءَ}", "pour boire de l'eau"],
+            ["{ar|أَدْخُلُ الْمِرْحَاضَ}", "{ar|لِأَدْخُلَ الْمِرْحَاضَ}", "pour entrer aux toilettes"],
+            ["{ar|أَغْسِلُ وَجْهِي}", "{ar|لِأَغْسِلَ وَجْهِي}", "pour me laver le visage"],
+            ["{ar|أَذْهَبُ إِلَى الْمُدِيرِ}", "{ar|لِأَذْهَبَ إِلَى الْمُدِيرِ}", "pour aller voir le directeur"],
+            [
+              "{ar|آخُذُ دَفْتَرِي مِنْ زَمِيلِي}",
+              "{ar|لِآخُذَ دَفْتَرِي مِنْ زَمِيلِي}",
+              "pour prendre mon cahier à mon camarade"
+            ],
+            ["{ar|أَقْرَأُ الْإِعْلَانَ}", "{ar|لِأَقْرَأَ الْإِعْلَانَ}", "pour lire l'annonce"],
+            [
+              "{ar|أَعْرِفُ سَبَبَ الضَّوْضَاءِ}",
+              "{ar|لِأَعْرِفَ سَبَبَ الضَّوْضَاءِ}",
+              "pour connaître la cause du vacarme"
+            ],
+            ["{ar|أَجْلِسُ فِي الشَّمْسِ}", "{ar|لِأَجْلِسَ فِي الشَّمْسِ}", "pour m'asseoir au soleil"],
+            ["{ar|أَبْصُقُ}", "{ar|لِأَبْصُقَ}", "pour cracher"],
+            ["{ar|أَبْحَثُ عَنْ مِفْتَاحِي}", "{ar|لِأَبْحَثَ عَنْ مِفْتَاحِي}", "pour chercher ma clé"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Le professeur rappelle aux élèves qu'il est obligatoire de mettre le verbe à l'accusatif après {ar|لَامُ التَّعْلِيلِ}. Dans {ar|لِآخُذَ}, la lettre du présent {ar|أَ} et le {ar|أْ} de la racine donnent l'alif madda (chapitre 15)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.practice-2#2",
+      "type": "question",
+      "prompt": { "fr": "Après le {ar|لِ} de but, quelle marque prend le verbe {ar|أَشْرَبُ} ?" },
+      "choices": [ { "fr": "une fatha ({ar|◌َ})" }, { "fr": "une damma ({ar|◌ُ})" }, { "fr": "un sukūn ({ar|◌ْ})" } ],
+      "answer": 0,
+      "explain": "Le {ar|لِ} de but met le verbe à l'accusatif : la fatha. {ar|لِأَشْرَبَ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-2#3",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je suis sorti de la classe pour lire l'annonce.",
+      "answers": ["خَرَجْتُ مِنَ الْفَصْلِ لِأَقْرَأَ الْإِعْلَانَ."],
+      "explain": "{ar|لِأَقْرَأَ} : {ar|أَقْرَأُ} devient {ar|أَقْرَأَ} après {ar|لِ}. {ar|الْإِعْلَانَ} : complément d'objet, à la fatha."
+    },
+    {
+      "id": "medine-t2.l17.practice-2#4",
+      "type": "fill_gap",
+      "sentence": "لِمَاذَا خَرَجْتَ مِنَ الْفَصْلِ؟ خَرَجْتُ {0} دَفْتَرِي مِنْ زَمِيلِي.",
+      "fr": "Pourquoi es-tu sorti de la classe ? Je suis sorti pour prendre mon cahier à mon camarade.",
+      "gaps": [ { "answers": ["لِآخُذَ"] } ],
+      "options": ["لِآخُذَ", "لِنَأْخُذَ", "لِتَأْخُذَ"],
+      "explain": "Celui qui répond dit « je » : la lettre du présent est {ar|أَ} ; avec le {ar|أْ} de {ar|أَخَذَ}, elle donne l'alif madda : {ar|لِآخُذَ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-2#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ تُرِيدُ أَنْ تَذْهَبَ فِي عُطْلَةِ الصَّيْفِ؟",
+      "answers": [
+        "أُرِيدُ أَنْ أَذْهَبَ إِلَى لَنْدَنَ.",
+        "أَنَا أُرِيدُ أَنْ أَذْهَبَ إِلَى لَنْدَنَ.",
+        "أُرِيدُ أَنْ أَذْهَبَ إِلَى لَنْدَنَ فِي عُطْلَةِ الصَّيْفِ."
+      ],
+      "fr": "Je veux aller à Londres.",
+      "instruction": "Réponds en arabe : tu veux aller à Londres.",
+      "explain": "Dans la réponse, « tu » devient « je » : {ar|تُرِيدُ أَنْ تَذْهَبَ} → {ar|أُرِيدُ أَنْ أَذْهَبَ}."
+    },
+    {
+      "id": "medine-t2.l17.practice-2#6",
+      "type": "order",
+      "fr": "Je suis sorti de la classe pour aller voir le directeur.",
+      "answers": [["خَرَجْتُ", "مِنَ", "الْفَصْلِ", "لِأَذْهَبَ", "إِلَى", "الْمُدِيرِ"]],
+      "punctuation": ".",
+      "explain": "{ar|لِأَذْهَبَ} : le {ar|لِ} collé au verbe à la fatha."
+    },
+    {
+      "id": "medine-t2.l17.practice-2#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "فِي أَيِّ كُلِّيَّةٍ تُرِيدُ أَنْ تَدْرُسَ؟",
+      "answers": [
+        "أُرِيدُ أَنْ أَدْرُسَ فِي كُلِّيَّةِ الشَّرِيعَةِ.",
+        "أَنَا أُرِيدُ أَنْ أَدْرُسَ فِي كُلِّيَّةِ الشَّرِيعَةِ.",
+        "فِي كُلِّيَّةِ الشَّرِيعَةِ."
+      ],
+      "fr": "Je veux étudier à la faculté de la charia.",
+      "instruction": "Réponds en arabe : tu veux étudier à la faculté de la charia.",
+      "explain": "{ar|أُرِيدُ أَنْ أَدْرُسَ} : « je veux étudier »."
+    },
+    {
+      "id": "medine-t2.l17.practice-2#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَاذَا خَرَجْتَ مِنَ الْفَصْلِ؟",
+      "answers": ["خَرَجْتُ لِأَبْحَثَ عَنْ مِفْتَاحِي.", "لِأَبْحَثَ عَنْ مِفْتَاحِي."],
+      "fr": "Je suis sorti pour chercher ma clé.",
+      "instruction": "Réponds en arabe : pour chercher ta clé.",
+      "explain": "{ar|لِأَبْحَثَ عَنْ مِفْتَاحِي} : le verbe à la fatha, puis {ar|عَنْ} et le nom avec le pronom « ma »."
+    }
+  ]
+}

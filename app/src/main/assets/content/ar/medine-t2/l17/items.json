@@ -1,0 +1,344 @@
+[
+  {
+    "id": "w:nawasib",
+    "kind": "word",
+    "ar": "النَّوَاصِبُ",
+    "fr": "les nawāṣib (les particules qui mettent le verbe à l'accusatif)",
+    "translit": "an-nawāṣibu",
+    "note": "{ar|النَّوَاصِبُ} est le pluriel de {ar|نَاصِبٌ} (« qui met à l'accusatif »). Ce sont des particules qui mettent le présent à l'accusatif ({ar|النَّصْبُ}) et qui changent ou nuancent son sens. Tu en connais déjà une : {ar|لَنْ} (chapitre 12).",
+    "example": { "ar": "لَنْ أَذْهَبَ.", "fr": "Je n'irai pas." }
+  },
+  {
+    "id": "w:masdar",
+    "kind": "word",
+    "ar": "الْمَصْدَرُ",
+    "fr": "le nom d'action (le maṣdar)",
+    "translit": "al-maṣdaru",
+    "gender": "m",
+    "note": "C'est le nom qui dit l'action elle-même : {ar|الذَّهَابُ} (« le fait d'aller, le départ ») pour {ar|ذَهَبَ}. Dans les tableaux de verbes du professeur, c'est la dernière colonne.",
+    "example": { "ar": "أُرِيدُ الذَّهَابَ.", "fr": "Je veux partir." }
+  },
+  {
+    "id": "w:an-nasiba",
+    "kind": "word",
+    "ar": "أَنْ النَّاصِبَةُ",
+    "fr": "le {ar|أَنْ} qui met le verbe à l'accusatif",
+    "translit": "an an-nāṣibatu",
+    "note": "C'est la particule {ar|أَنْ} (avec un sukūn) devant un verbe au présent. Elle le met à l'accusatif et lui donne le sens du nom d'action. Ne la confonds pas avec {ar|أَنَّ} (avec une shadda), qui se met devant un nom.",
+    "example": { "ar": "أُرِيدُ أَنْ أَذْهَبَ.", "fr": "Je veux partir." }
+  },
+  {
+    "id": "w:lam-taalil",
+    "kind": "word",
+    "ar": "لَامُ التَّعْلِيلِ",
+    "fr": "le {ar|لِ} de but (le lām qui dit pourquoi on fait une chose)",
+    "translit": "lāmu t-taʿlīli",
+    "note": "C'est la particule {ar|لِ} devant un verbe au présent : elle le met à l'accusatif et dit le but ou la raison. Elle répond à la question {ar|لِمَ؟} (« pourquoi ? ») et se traduit « pour », « afin de », « dans le but de ».",
+    "example": { "ar": "خَرَجْتُ لِأَشْرَبَ.", "fr": "Je suis sorti pour boire." }
+  },
+  {
+    "id": "w:taallama",
+    "kind": "word",
+    "ar": "تَعَلَّمَ",
+    "fr": "il a appris (apprendre)",
+    "translit": "taʿallama",
+    "note": "Son présent est {ar|يَتَعَلَّمُ} : {ar|أَتَعَلَّمُ} (« j'apprends »). Après {ar|لِ} ou {ar|أَنْ}, il prend la fatha : {ar|لِأَتَعَلَّمَ}.",
+    "example": { "ar": "تَعَلَّمَ زَيْدٌ الْعَرَبِيَّةَ.", "fr": "Zayd a appris l'arabe." }
+  },
+  {
+    "id": "w:amkana",
+    "kind": "word",
+    "ar": "أَمْكَنَ",
+    "fr": "il a été possible (être possible)",
+    "translit": "amkana",
+    "note": "En général, il reste à la troisième personne du masculin singulier : c'est le pronom collé qui dit pour qui c'est possible. {ar|أَمْكَنَهُ أَنْ يَذْهَبَ} : « il lui a été possible de partir ». Il se construit aussi avec {ar|لِ} : {ar|أَمْكَنَ لَهُ}. Au présent : {ar|يُمْكِنُ}.",
+    "example": { "ar": "أَمْكَنَنِي أَنْ أَذْهَبَ.", "fr": "Il m'a été possible de partir." }
+  },
+  {
+    "id": "p:yumkinuka-an",
+    "kind": "phrase",
+    "ar": "يُمْكِنُكَ أَنْ",
+    "fr": "Tu peux… (il t'est possible de…, à un homme)",
+    "translit": "yumkinuka an",
+    "note": "On la complète par un verbe : {ar|يُمْكِنُكَ أَنْ تَجْلِسَ}. Le verbe {ar|يُمْكِنُ} ne change pas : c'est le pronom collé qui dit qui peut ({ar|يُمْكِنُنِي}, {ar|يُمْكِنُهُ}…).",
+    "example": { "ar": "يُمْكِنُكَ أَنْ تَجْلِسَ هُنَا.", "fr": "Tu peux t'asseoir ici." }
+  },
+  {
+    "id": "w:mundhu",
+    "kind": "word",
+    "ar": "مُنْذُ",
+    "fr": "depuis",
+    "translit": "mundhu",
+    "note": "C'est un adverbe de temps ({ar|ظَرْفُ زَمَانٍ}), invariable ({ar|مَبْنِيٌّ}). On l'emploie en général devant un nom, qui est alors au génitif (annexion), ou devant un verbe au passé.",
+    "example": { "ar": "هُوَ غَائِبٌ مُنْذُ أُسْبُوعٍ.", "fr": "Il est absent depuis une semaine." }
+  },
+  {
+    "id": "w:sayf-summer",
+    "kind": "word",
+    "ar": "الصَّيْفُ",
+    "fr": "l'été",
+    "translit": "aṣ-ṣayfu",
+    "gender": "m",
+    "note": "Les quatre saisons sont des noms masculins.",
+    "example": { "ar": "فِي الصَّيْفِ نَذْهَبُ إِلَى الْبَحْرِ.", "fr": "En été, nous allons à la mer." }
+  },
+  {
+    "id": "w:shita",
+    "kind": "word",
+    "ar": "الشِّتَاءُ",
+    "fr": "l'hiver",
+    "translit": "ash-shitāʾu",
+    "gender": "m",
+    "example": { "ar": "فِي الشِّتَاءِ الْمَاءُ بَارِدٌ.", "fr": "En hiver, l'eau est froide." }
+  },
+  {
+    "id": "w:rabi-spring",
+    "kind": "word",
+    "ar": "الرَّبِيعُ",
+    "fr": "le printemps",
+    "translit": "ar-rabīʿu",
+    "gender": "m",
+    "example": { "ar": "فِي الرَّبِيعِ تَخْرُجُ الزُّهُورُ.", "fr": "Au printemps, les fleurs éclosent." }
+  },
+  {
+    "id": "w:kharif",
+    "kind": "word",
+    "ar": "الْخَرِيفُ",
+    "fr": "l'automne",
+    "translit": "al-kharīfu",
+    "gender": "m",
+    "example": { "ar": "الْخَرِيفُ بَعْدَ الصَّيْفِ.", "fr": "L'automne vient après l'été." }
+  },
+  {
+    "id": "w:utla",
+    "kind": "word",
+    "ar": "عُطْلَةٌ",
+    "fr": "des vacances, un congé",
+    "translit": "ʿuṭlatun",
+    "gender": "f",
+    "note": "Le mot est au singulier en arabe : {ar|عُطْلَةُ الصَّيْفِ} (« les vacances d'été »). Son pluriel se forme avec la finale {ar|◌َاتٌ} ; le professeur ne donne pas les voyelles.",
+    "example": { "ar": "نَذْهَبُ إِلَى مِصْرَ فِي الْعُطْلَةِ.", "fr": "Nous allons en Égypte pendant les vacances." }
+  },
+  {
+    "id": "w:am-year",
+    "kind": "word",
+    "ar": "عَامٌ",
+    "fr": "un an",
+    "translit": "ʿāmun",
+    "plural": "أَعْوَامٌ",
+    "gender": "m",
+    "note": "{ar|عَامٌ} et {ar|سَنَةٌ} (chapitre 18 du tome 1) se traduisent tous deux par « une année ».",
+    "example": { "ar": "فِي هٰذَا الْعَامِ أَدْرُسُ فِي الْجَامِعَةِ.", "fr": "Cette année, j'étudie à l'université." }
+  },
+  {
+    "id": "w:muqbil",
+    "kind": "word",
+    "ar": "مُقْبِلٌ",
+    "fr": "prochain, suivant",
+    "translit": "muqbilun",
+    "note": "C'est le participe actif de {ar|أَقْبَلَ} (« venir vers, s'approcher ») : l'année « qui vient ».",
+    "example": { "ar": "فِي الْعَامِ الْمُقْبِلِ أَذْهَبُ إِلَى مِصْرَ.", "fr": "L'année prochaine, je vais en Égypte." }
+  },
+  {
+    "id": "w:zarf-2",
+    "kind": "word",
+    "ar": "ظَرْفٌ",
+    "fr": "une enveloppe, un contenant",
+    "translit": "ẓarfun",
+    "plural": "ظُرُوفٌ",
+    "gender": "m",
+    "note": "C'est le même mot que {ar|الظَّرْفُ} (« l'adverbe de lieu ou de temps », chapitre 8 du tome 1) : l'adverbe est vu comme le « contenant » du lieu et du temps.",
+    "example": { "ar": "فِي الظَّرْفِ رِسَالَةٌ.", "fr": "Dans l'enveloppe, il y a une lettre." }
+  },
+  {
+    "id": "w:ilan",
+    "kind": "word",
+    "ar": "إِعْلَانٌ",
+    "fr": "une annonce",
+    "translit": "iʿlānun",
+    "plural": "إِعْلَانَاتٌ",
+    "gender": "m",
+    "example": { "ar": "قَرَأْتُ إِعْلَانًا عَنْ دَرْسٍ جَدِيدٍ.", "fr": "J'ai lu une annonce sur un nouveau cours." }
+  },
+  {
+    "id": "w:sabab",
+    "kind": "word",
+    "ar": "سَبَبٌ",
+    "fr": "une cause, une raison",
+    "translit": "sababun",
+    "plural": "أَسْبَابٌ",
+    "gender": "m",
+    "example": { "ar": "مَا سَبَبُ الضَّوْضَاءِ؟", "fr": "Quelle est la cause du vacarme ?" }
+  },
+  {
+    "id": "w:dawda",
+    "kind": "word",
+    "ar": "ضَوْضَاءُ",
+    "fr": "du vacarme, du tapage",
+    "translit": "ḍawḍāʾu",
+    "gender": "f",
+    "note": "Il n'a jamais de tanwin (finale {ar|اءُ}, comme {ar|حَمْرَاءُ} au chapitre 16), et le professeur l'accorde au féminin : {ar|مَا هٰذِهِ الضَّوْضَاءُ؟}",
+    "example": { "ar": "مَا هٰذِهِ الضَّوْضَاءُ؟", "fr": "Qu'est-ce que c'est que ce vacarme ?" }
+  },
+  {
+    "id": "w:dhubab",
+    "kind": "word",
+    "ar": "ذُبَابٌ",
+    "fr": "une mouche, des mouches",
+    "translit": "dhubābun",
+    "gender": "m",
+    "note": "C'est un nom collectif : il désigne les mouches en général. Une seule mouche se dit {ar|ذُبَابَةٌ}.",
+    "example": { "ar": "قَتَلْتُ ذُبَابًا.", "fr": "J'ai tué des mouches." }
+  },
+  {
+    "id": "w:asha",
+    "kind": "word",
+    "ar": "عَشَاءٌ",
+    "fr": "un dîner (le repas du soir)",
+    "translit": "ʿashāʾun",
+    "gender": "m",
+    "example": { "ar": "أَكَلْتُ الْعَشَاءَ.", "fr": "J'ai pris le repas du soir." }
+  },
+  {
+    "id": "w:ilaj",
+    "kind": "word",
+    "ar": "عِلَاجٌ",
+    "fr": "un traitement (médical)",
+    "translit": "ʿilājun",
+    "gender": "m",
+    "example": { "ar": "أَخَذَ زَيْدٌ عِلَاجًا لِمَرَضِهِ.", "fr": "Zayd a pris un traitement pour sa maladie." }
+  },
+  {
+    "id": "w:hudu",
+    "kind": "word",
+    "ar": "هُدُوءٌ",
+    "fr": "du calme (du silence)",
+    "translit": "hudūʾun",
+    "gender": "m",
+    "note": "Avec la préposition {ar|بِ}, {ar|بِهُدُوءٍ} veut dire « calmement ».",
+    "example": { "ar": "فِي الشَّارِعِ هُدُوءٌ.", "fr": "Dans la rue, il y a du calme." }
+  },
+  {
+    "id": "w:ahl",
+    "kind": "word",
+    "ar": "أَهْلٌ",
+    "fr": "les proches, la famille",
+    "translit": "ahlun",
+    "plural": "أَهْلُونَ",
+    "gender": "m",
+    "note": "Annexé à un nom, il veut dire « les gens de » : {ar|أَهْلُ مَكَّةَ} (« les gens de La Mecque »), {ar|أَهْلُ بَلَدِي} (« les gens de mon pays »).",
+    "example": { "ar": "أَهْلُ زَيْدٍ فِي الْبَيْتِ.", "fr": "La famille de Zayd est à la maison." }
+  },
+  {
+    "id": "w:hadith",
+    "kind": "word",
+    "ar": "حَدِيثٌ",
+    "fr": "un hadith (un propos rapporté du Prophète ﷺ)",
+    "translit": "ḥadīthun",
+    "plural": "أَحَادِيثُ",
+    "gender": "m",
+    "note": "Le sens premier est « un propos, un récit ». Au sens religieux, c'est ce qui est rapporté de ce que le Prophète ﷺ a dit ou fait.",
+    "example": { "ar": "قَرَأْتُ حَدِيثًا.", "fr": "J'ai lu un hadith." }
+  },
+  {
+    "id": "w:nabawi",
+    "kind": "word",
+    "ar": "نَبَوِيٌّ",
+    "fr": "prophétique (du Prophète)",
+    "translit": "nabawiyyun",
+    "note": "Il vient de {ar|النَّبِيُّ} (« le Prophète »), avec la finale {ar|◌ِيٌّ} des adjectifs de relation (comme {ar|فَرَنْسِيٌّ}, « français »). Le féminin est {ar|نَبَوِيَّةٌ} : {ar|سُنَّةٌ نَبَوِيَّةٌ}.",
+    "example": { "ar": "هٰذَا حَدِيثٌ نَبَوِيٌّ.", "fr": "C'est un hadith prophétique." }
+  },
+  {
+    "id": "w:sharif",
+    "kind": "word",
+    "ar": "شَرِيفٌ",
+    "fr": "noble, honorable",
+    "translit": "sharīfun",
+    "plural": "شُرَفَاءُ",
+    "note": "On le dit d'une personne (un homme noble) et de ce qui est vénéré : {ar|الْحَدِيثُ النَّبَوِيُّ الشَّرِيفُ}, « le noble hadith ».",
+    "example": { "ar": "زَيْدٌ رَجُلٌ شَرِيفٌ.", "fr": "Zayd est un homme honorable." }
+  },
+  {
+    "id": "w:sharia",
+    "kind": "word",
+    "ar": "الشَّرِيعَةُ",
+    "fr": "la charia (la loi de l'islam)",
+    "translit": "ash-sharīʿatu",
+    "gender": "f",
+    "note": "{ar|كُلِّيَّةُ الشَّرِيعَةِ} : la faculté de la charia, où l'on étudie la loi islamique.",
+    "example": { "ar": "هُوَ يَدْرُسُ فِي كُلِّيَّةِ الشَّرِيعَةِ.", "fr": "Il étudie à la faculté de la charia." }
+  },
+  {
+    "id": "w:azhar",
+    "kind": "word",
+    "ar": "الْأَزْهَرُ",
+    "fr": "al-Azhar (la célèbre université du Caire)",
+    "translit": "al-azharu",
+    "note": "C'est le nom de la mosquée et de l'université d'al-Azhar, au Caire, en Égypte : {ar|جَامِعَةُ الْأَزْهَرِ}.",
+    "example": { "ar": "أَخِي يَدْرُسُ فِي جَامِعَةِ الْأَزْهَرِ.", "fr": "Mon frère étudie à l'université d'al-Azhar." }
+  },
+  {
+    "id": "p:shafaka-allah",
+    "kind": "phrase",
+    "ar": "شَفَاكَ اللَّهُ",
+    "fr": "qu'Allah te guérisse (à un homme)",
+    "translit": "shafāka llāhu",
+    "note": "C'est le souhait que l'on adresse à un malade. À une femme : {ar|شَفَاكِ اللَّهُ}.",
+    "example": { "ar": "أَنَا مَرِيضٌ. شَفَاكَ اللَّهُ.", "fr": "Je suis malade. Qu'Allah te guérisse." }
+  },
+  {
+    "id": "w:bada-a",
+    "kind": "word",
+    "ar": "بَدَأَ",
+    "fr": "il a commencé (commencer)",
+    "translit": "badaʾa",
+    "note": "Au présent : {ar|يَبْدَأُ}.",
+    "example": { "ar": "بَدَأَ الدَّرْسُ.", "fr": "La leçon a commencé." }
+  },
+  {
+    "id": "w:raja",
+    "kind": "word",
+    "ar": "رَجَا",
+    "fr": "il a espéré (espérer)",
+    "translit": "rajā",
+    "note": "C'est un verbe à finale défectueuse (chapitre 13) : son présent est {ar|يَرْجُو} et le « je » est {ar|أَرْجُو}. La formule {ar|أَرْجُو أَنْ تَسْمَحَ لِي} est une demande polie : « je te prie de me permettre… ».",
+    "example": { "ar": "أَرْجُو أَنْ تَجْلِسَ.", "fr": "Je te prie de t'asseoir." }
+  },
+  {
+    "id": "w:samaha",
+    "kind": "word",
+    "ar": "سَمَحَ",
+    "fr": "il a permis, il a autorisé (autoriser)",
+    "translit": "samaḥa",
+    "note": "On dit {ar|سَمَحَ لَهُ بِ} suivi d'un nom : « il lui a permis de… ». Par exemple {ar|سَمَحَ لَهُ بِالْخُرُوجِ} (« il lui a permis de sortir »).",
+    "example": { "ar": "سَمَحَ الْمُدَرِّسُ لِزَيْدٍ بِالْخُرُوجِ.", "fr": "Le professeur a permis à Zayd de sortir." }
+  },
+  {
+    "id": "w:baqiya",
+    "kind": "word",
+    "ar": "بَقِيَ",
+    "fr": "il est resté (rester)",
+    "translit": "baqiya",
+    "note": "C'est un verbe à finale défectueuse : son présent est {ar|يَبْقَى}.",
+    "example": { "ar": "بَقِيَ زَيْدٌ فِي الْبَيْتِ.", "fr": "Zayd est resté à la maison." }
+  },
+  {
+    "id": "w:basaqa",
+    "kind": "word",
+    "ar": "بَصَقَ",
+    "fr": "il a craché (cracher)",
+    "translit": "baṣaqa",
+    "note": "Au présent : {ar|يَبْصُقُ}.",
+    "example": { "ar": "لَا تَبْصُقْ فِي الشَّارِعِ.", "fr": "Ne crache pas dans la rue." }
+  },
+  {
+    "id": "w:zara",
+    "kind": "word",
+    "ar": "زَارَ",
+    "fr": "il a visité (visiter)",
+    "translit": "zāra",
+    "note": "Son présent est {ar|يَزُورُ} : {ar|أَزُورُ} (« je visite »). On visite une personne ou un lieu. Même racine que {ar|زِيَارَةٌ} (« une visite », chapitre 14 du tome 1).",
+    "example": { "ar": "زُرْتُ أَخِي.", "fr": "J'ai rendu visite à mon frère." }
+  }
+]

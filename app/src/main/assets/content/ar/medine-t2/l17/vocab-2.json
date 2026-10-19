@@ -1,0 +1,92 @@
+{
+  "id": "medine-t2.l17.vocab-2",
+  "type": "vocabulary",
+  "title": "Les saisons et les vacances",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t2.l17.vocab-2#1", "type": "present", "item": "w:sayf-summer" },
+    { "id": "medine-t2.l17.vocab-2#2", "type": "present", "item": "w:shita" },
+    {
+      "id": "medine-t2.l17.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:sayf-summer",
+      "distractors": ["w:shita", "w:shahr"],
+      "explain": "{ar|الصَّيْفُ} : l'été. {ar|الشِّتَاءُ} est l'hiver ; {ar|شَهْرٌ} est un mois."
+    },
+    { "id": "medine-t2.l17.vocab-2#4", "type": "present", "item": "w:rabi-spring" },
+    { "id": "medine-t2.l17.vocab-2#5", "type": "present", "item": "w:kharif" },
+    {
+      "id": "medine-t2.l17.vocab-2#6",
+      "type": "tip",
+      "title": "Les quatre saisons de l'année",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne les noms des quatre saisons ({ar|فُصُولُ السَّنَةِ}) dans cet ordre :"
+        },
+        {
+          "type": "table",
+          "header": ["Saison", "Sens"],
+          "rows": [
+            ["{ar|الشِّتَاءُ}", "l'hiver"],
+            ["{ar|الرَّبِيعُ}", "le printemps"],
+            ["{ar|الصَّيْفُ}", "l'été"],
+            ["{ar|الْخَرِيفُ}", "l'automne"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|فَصْلٌ} (chapitre 4 du tome 1, « une salle de classe ») veut aussi dire « une saison » ; son pluriel est {ar|فُصُولٌ}. Les quatre saisons sont des noms masculins."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.vocab-2#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:sayf-summer", "w:shita", "w:rabi-spring", "w:kharif"]
+    },
+    { "id": "medine-t2.l17.vocab-2#8", "type": "present", "item": "w:utla" },
+    { "id": "medine-t2.l17.vocab-2#9", "type": "present", "item": "w:am-year" },
+    { "id": "medine-t2.l17.vocab-2#10", "type": "present", "item": "w:muqbil" },
+    {
+      "id": "medine-t2.l17.vocab-2#11",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:utla", "w:am-year", "w:muqbil", "w:shita"]
+    },
+    {
+      "id": "medine-t2.l17.vocab-2#12",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:sayf-summer", "w:shita", "w:rabi-spring", "w:kharif", "w:utla", "w:am-year"]
+    },
+    {
+      "id": "medine-t2.l17.vocab-2#13",
+      "type": "fill_gap",
+      "sentence": "فِي {0} نَذْهَبُ إِلَى الْبَحْرِ.",
+      "fr": "En été, nous allons à la mer.",
+      "gaps": [ { "answers": ["الصَّيْفِ"] } ],
+      "options": ["الصَّيْفِ", "الشِّتَاءِ", "الْخَرِيفِ"],
+      "explain": "« En été » se dit {ar|فِي الصَّيْفِ} : le nom a la kasra après la préposition {ar|فِي}."
+    },
+    {
+      "id": "medine-t2.l17.vocab-2#14",
+      "type": "order",
+      "fr": "L'année prochaine, je vais en Égypte.",
+      "answers": [["فِي", "الْعَامِ", "الْمُقْبِلِ", "أَذْهَبُ", "إِلَى", "مِصْرَ"]],
+      "punctuation": ".",
+      "explain": "{ar|الْعَامِ الْمُقْبِلِ} : le nom et l'adjectif ont l'article, et tous deux la kasra après {ar|فِي}."
+    },
+    { "id": "medine-t2.l17.vocab-2#15", "type": "build", "item": "w:utla", "extra": ["ه"] },
+    {
+      "id": "medine-t2.l17.vocab-2#16",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "L'année prochaine, nous irons en Égypte.",
+      "answers": ["فِي الْعَامِ الْمُقْبِلِ سَنَذْهَبُ إِلَى مِصْرَ.", "سَنَذْهَبُ إِلَى مِصْرَ فِي الْعَامِ الْمُقْبِلِ."],
+      "explain": "{ar|سَنَذْهَبُ} : le futur de {ar|نَذْهَبُ} avec {ar|سَ} (chapitre 11)."
+    }
+  ]
+}

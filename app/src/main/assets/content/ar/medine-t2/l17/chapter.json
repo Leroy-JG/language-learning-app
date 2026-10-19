@@ -1,0 +1,32 @@
+{
+  "id": "medine-t2.l17",
+  "number": 17,
+  "title": { "ar": "الدَّرْسُ السَّابِعَ عَشَرَ", "fr": "Les nawāṣib (1ʳᵉ partie), « pouvoir » et « depuis »" },
+  "description": "Les particules qui mettent le présent à l'accusatif ({ar|النَّوَاصِبُ}) : {ar|أَنْ} ({ar|أُرِيدُ أَنْ أَذْهَبَ}) et le {ar|لِ} de but ({ar|لَامُ التَّعْلِيلِ}, {ar|خَرَجْتُ لِأَشْرَبَ}), le verbe {ar|يُمْكِنُ}, {ar|مُنْذُ}, le présent de {ar|رَأَى}, les saisons, le vocabulaire, le texte du livre et ses exercices.",
+  "source": "Tome de Médine 2, leçon 17",
+  "sections": [
+    { "title": "Revoir : le présent à l'accusatif", "activities": ["revue-1"] },
+    { "title": "Les nawāṣib", "activities": ["grammar-1"] },
+    { "title": "{ar|أَنْ} devant le présent", "activities": ["grammar-2", "grammar-3"] },
+    { "title": "Le {ar|لِ} de but", "activities": ["grammar-4", "grammar-5"] },
+    { "title": "Pouvoir", "activities": ["vocab-1", "grammar-6"] },
+    { "title": "Depuis : {ar|مُنْذُ}", "activities": ["grammar-7"] },
+    { "title": "Voir", "activities": ["grammar-8"] },
+    { "title": "Des mots nouveaux", "activities": ["vocab-2", "vocab-3", "vocab-4", "vocab-5", "vocab-6"] },
+    { "title": "Le texte du livre", "activities": ["dialogue-1", "dialogue-2"] },
+    {
+      "title": "Les exercices du livre",
+      "activities": [
+        "practice-1",
+        "practice-2",
+        "practice-3",
+        "practice-4",
+        "practice-5",
+        "practice-6",
+        "practice-7",
+        "practice-8"
+      ]
+    },
+    { "title": "Bilan", "activities": ["quiz"] }
+  ]
+}

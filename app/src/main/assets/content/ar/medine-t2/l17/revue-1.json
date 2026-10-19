@@ -1,0 +1,110 @@
+{
+  "id": "medine-t2.l17.revue-1",
+  "type": "review",
+  "title": "Revoir : le présent à l'accusatif",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l17.revue-1#1",
+      "type": "tip",
+      "title": "Les trois états du présent",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais les trois états du verbe au présent : le nominatif ({ar|الرَّفْعُ}), l'accusatif ({ar|النَّصْبُ}) et le jussif ({ar|الْجَزْمُ}). C'est la particule placée devant le verbe qui décide."
+        },
+        {
+          "type": "table",
+          "header": ["État", "Marque de base", "Exemple"],
+          "rows": [
+            ["nominatif ({ar|الرَّفْعُ})", "la damma", "{ar|يَكْتُبُ}"],
+            ["accusatif ({ar|النَّصْبُ})", "la fatha", "{ar|لَنْ يَكْتُبَ}"],
+            ["jussif ({ar|الْجَزْمُ})", "le sukūn", "{ar|لَمْ يَكْتُبْ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Aujourd'hui, on découvre deux nouvelles particules qui mettent le verbe à l'accusatif, comme {ar|لَنْ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.revue-1#2",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif ({ar|رَفْعٌ})" }, { "fr": "accusatif ({ar|نَصْبٌ})" }, { "fr": "jussif ({ar|جَزْمٌ})" } ],
+      "cards": [
+        { "ar": "يَجْلِسُ", "category": 0 },
+        { "ar": "لَنْ يَجْلِسَ", "category": 1 },
+        { "ar": "لَمْ يَجْلِسْ", "category": 2 },
+        { "ar": "تَدْرُسُ", "category": 0 },
+        { "ar": "لَنْ تَدْرُسَ", "category": 1 },
+        { "ar": "لَا تَدْرُسْ", "category": 2 }
+      ],
+      "instruction": "Quel est l'état du verbe ?",
+      "explain": "Sans particule : nominatif (damma). Après {ar|لَنْ} : accusatif (fatha). Après {ar|لَمْ} ou le {ar|لَا} de l'interdiction : jussif (sukūn)."
+    },
+    {
+      "id": "medine-t2.l17.revue-1#3",
+      "type": "fill_gap",
+      "sentence": "لَنْ {0} إِلَى الْمَسْجِدِ.",
+      "fr": "Il n'ira pas à la mosquée.",
+      "gaps": [ { "answers": ["يَذْهَبَ"] } ],
+      "options": ["يَذْهَبَ", "يَذْهَبُونَ", "تَذْهَبْنَ"],
+      "explain": "Après {ar|لَنْ}, le verbe est à l'accusatif : la fatha ({ar|يَذْهَبَ}). {ar|يَذْهَبُونَ} (« ils vont ») garde son {ar|ن} : il n'est pas à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l17.revue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Que devient le {ar|ن} final de {ar|تَكْتُبُونَ} après {ar|لَنْ} ?" },
+      "choices": [
+        { "fr": "Il tombe : {ar|لَنْ تَكْتُبُوا}" },
+        { "fr": "Il reste : {ar|لَنْ تَكْتُبُونَ}" },
+        { "fr": "Il devient une fatha" }
+      ],
+      "answer": 0,
+      "explain": "Pour les cinq verbes, la marque de l'accusatif est la chute du {ar|ن} ({ar|حَذْفُ النُّونِ}), chapitre 13."
+    },
+    {
+      "id": "medine-t2.l17.revue-1#5",
+      "type": "fill_gap",
+      "sentence": "لَنْ {0} إِلَى الْمَدْرَسَةِ يَا إِخْوَانُ.",
+      "fr": "Vous n'irez pas à l'école, mes frères.",
+      "gaps": [ { "answers": ["تَذْهَبُوا"] } ],
+      "options": ["تَذْهَبُوا", "تَذْهَبُونَ", "تَذْهَبْنَ"],
+      "explain": "Le {ar|ن} de {ar|تَذْهَبُونَ} tombe après {ar|لَنْ}. {ar|تَذْهَبْنَ} (le pronom des femmes) ne change jamais."
+    },
+    {
+      "id": "medine-t2.l17.revue-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|لَنْ يَقْضِيَ}, on voit une fatha sur la dernière lettre, le {ar|ي}." },
+      "answer": true,
+      "explain": "Oui : après {ar|لَنْ}, la fatha se voit sur le {ar|ي} et sur le {ar|و} ; seul le {ar|ى} la cache (chapitre 13)."
+    },
+    {
+      "id": "medine-t2.l17.revue-1#7",
+      "type": "spot",
+      "instruction": "Touche le verbe qui est à l'accusatif ({ar|مَنْصُوبٌ}).",
+      "words": ["لَنْ", "يَدْرُسَ", "زَيْدٌ", "وَلَمْ", "يَذْهَبْ"],
+      "answers": [1],
+      "fr": "Zayd n'étudiera pas et n'est pas allé.",
+      "explain": "{ar|يَدْرُسَ} suit {ar|لَنْ} : fatha, accusatif. {ar|يَذْهَبْ} suit {ar|لَمْ} : sukūn, jussif."
+    },
+    {
+      "id": "medine-t2.l17.revue-1#8",
+      "type": "order",
+      "fr": "Je n'écrirai pas la leçon.",
+      "answers": [["لَنْ", "أَكْتُبَ", "الدَّرْسَ"]],
+      "punctuation": ".",
+      "distractors": ["لَمْ"],
+      "explain": "{ar|لَنْ} + le présent à la fatha : {ar|لَنْ أَكْتُبَ}. {ar|لَمْ} se met avec le sukūn et nie le passé."
+    },
+    {
+      "id": "medine-t2.l17.revue-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Tu n'iras pas à l'école (à un homme).",
+      "answers": ["لَنْ تَذْهَبَ إِلَى الْمَدْرَسَةِ.", "أَنْتَ لَنْ تَذْهَبَ إِلَى الْمَدْرَسَةِ."],
+      "explain": "{ar|لَنْ} + {ar|تَذْهَبَ} (la fatha de l'accusatif)."
+    }
+  ]
+}

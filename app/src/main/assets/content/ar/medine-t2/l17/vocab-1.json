@@ -1,0 +1,111 @@
+{
+  "id": "medine-t2.l17.vocab-1",
+  "type": "vocabulary",
+  "title": "Pouvoir : {ar|يُمْكِنُكَ أَنْ}",
+  "icon": "question",
+  "screens": [
+    { "id": "medine-t2.l17.vocab-1#1", "type": "present", "item": "w:amkana" },
+    {
+      "id": "medine-t2.l17.vocab-1#2",
+      "type": "tip",
+      "title": "Les quatre formes de ce verbe",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne, comme d'habitude, les quatre formes du verbe. Le nom d'action n'est qu'un aperçu."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [["être possible", "{ar|أَمْكَنَ}", "{ar|يُمْكِنُ}", "{ar|أَمْكِنْ}", "{ar|إِمْكَانًا}"]]
+        },
+        { "type": "paragraph", "text": "Ses exemples :" },
+        { "type": "example", "ar": "أَمْكَنَهُ أَنْ يَذْهَبَ.", "fr": "Il lui a été possible de partir." },
+        { "type": "example", "ar": "أَمْكَنَ لَهُ.", "fr": "Cela lui a été possible." },
+        {
+          "type": "note",
+          "text": "Le verbe ne change pas : c'est le pronom collé ({ar|هُ} dans {ar|أَمْكَنَهُ}) ou {ar|لَهُ} qui dit pour qui c'est possible."
+        }
+      ]
+    },
+    { "id": "medine-t2.l17.vocab-1#3", "type": "present", "item": "p:yumkinuka-an" },
+    {
+      "id": "medine-t2.l17.vocab-1#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "p:yumkinuka-an",
+      "distractors": ["p:turid-an", "p:man-hadhihi"],
+      "explain": "{ar|يُمْكِنُكَ أَنْ} : « tu peux… ». {ar|تُرِيدُ أَنْ} veut dire « tu veux… »."
+    },
+    {
+      "id": "medine-t2.l17.vocab-1#5",
+      "type": "tip",
+      "title": "Qui peut ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le verbe {ar|يُمْكِنُ} reste le même pour toutes les personnes. C'est le pronom collé qui dit qui peut :"
+        },
+        {
+          "type": "table",
+          "header": ["Qui peut ?", "Forme", "Sens"],
+          "rows": [
+            ["moi", "{ar|يُمْكِنُنِي}", "je peux"],
+            ["toi (un homme)", "{ar|يُمْكِنُكَ}", "tu peux"],
+            ["toi (une femme)", "{ar|يُمْكِنُكِ}", "tu peux"],
+            ["lui", "{ar|يُمْكِنُهُ}", "il peut"],
+            ["elle", "{ar|يُمْكِنُهَا}", "elle peut"],
+            ["nous", "{ar|يُمْكِنُنَا}", "nous pouvons"],
+            ["vous (des hommes)", "{ar|يُمْكِنُكُمْ}", "vous pouvez"],
+            ["eux", "{ar|يُمْكِنُهُمْ}", "ils peuvent"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Littéralement, {ar|يُمْكِنُنِي أَنْ أَذْهَبَ} veut dire « il m'est possible de partir ». Dans {ar|يُمْكِنُنِي}, il y a un {ar|ن} de protection ({ar|نُونُ الْوِقَايَةِ}) entre le verbe et le pronom {ar|◌ِي}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.vocab-1#6",
+      "type": "sort",
+      "categories": [ { "fr": "moi (je peux)" }, { "fr": "toi (tu peux)" }, { "fr": "lui (il peut)" } ],
+      "cards": [
+        { "ar": "يُمْكِنُنِي أَنْ أَجْلِسَ", "category": 0 },
+        { "ar": "يُمْكِنُكَ أَنْ تَجْلِسَ", "category": 1 },
+        { "ar": "يُمْكِنُهُ أَنْ يَجْلِسَ", "category": 2 },
+        { "ar": "يُمْكِنُنِي أَنْ أَخْرُجَ", "category": 0 },
+        { "ar": "يُمْكِنُكَ أَنْ تَخْرُجَ", "category": 1 },
+        { "ar": "يُمْكِنُهُ أَنْ يَخْرُجَ", "category": 2 }
+      ],
+      "instruction": "Qui peut ?",
+      "explain": "Le pronom collé ({ar|نِي}, {ar|كَ}, {ar|هُ}) dit qui peut ; le verbe après {ar|أَنْ} a la même personne."
+    },
+    {
+      "id": "medine-t2.l17.vocab-1#7",
+      "type": "fill_gap",
+      "sentence": "يُمْكِنُكَ أَنْ {0} هُنَا.",
+      "fr": "Tu peux t'asseoir ici.",
+      "gaps": [ { "answers": ["تَجْلِسَ"] } ],
+      "options": ["تَجْلِسَ", "أَجْلِسَ", "يَجْلِسَ"],
+      "explain": "{ar|يُمْكِنُكَ} : c'est « toi » qui peux, donc le verbe est à la 2ᵉ personne : {ar|تَجْلِسَ}."
+    },
+    {
+      "id": "medine-t2.l17.vocab-1#8",
+      "type": "order",
+      "fr": "Je peux sortir maintenant.",
+      "answers": [["يُمْكِنُنِي", "أَنْ", "أَخْرُجَ", "الْآنَ"]],
+      "punctuation": ".",
+      "explain": "{ar|يُمْكِنُنِي} (« je peux ») + {ar|أَنْ} + {ar|أَخْرُجَ} (fatha)."
+    },
+    {
+      "id": "medine-t2.l17.vocab-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il peut aller à la mosquée.",
+      "answers": ["يُمْكِنُهُ أَنْ يَذْهَبَ إِلَى الْمَسْجِدِ."],
+      "explain": "{ar|يُمْكِنُهُ} : « il peut » ; le verbe après {ar|أَنْ} est à la 3ᵉ personne : {ar|يَذْهَبَ}."
+    }
+  ]
+}

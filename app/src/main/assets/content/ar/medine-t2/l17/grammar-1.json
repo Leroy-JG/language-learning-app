@@ -1,0 +1,122 @@
+{
+  "id": "medine-t2.l17.grammar-1",
+  "type": "grammar",
+  "title": "Les nawāṣib : mettre le verbe à l'accusatif",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l17.grammar-1#1",
+      "type": "tip",
+      "title": "Les mots qui mettent à l'accusatif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au chapitre 15, tu as vu les {ar|الْجَوَازِمُ}, qui mettent le verbe au jussif. Pour l'accusatif, il y a une autre famille : les {ar|النَّوَاصِبُ}."
+        },
+        { "type": "paragraph", "text": "Ce sont des particules qui agissent sur le présent de deux manières :" },
+        {
+          "type": "paragraph",
+          "text": "**1.** elles le rendent {ar|مَنْصُوبٌ} (à l'accusatif) ; **2.** elles changent ou nuancent son sens."
+        },
+        {
+          "type": "table",
+          "header": ["Particule", "Effet sur la fin du verbe", "Effet sur le sens"],
+          "rows": [
+            ["{ar|لَنْ}", "la fatha : {ar|لَنْ يَكْتُبَ}", "nie le futur : « il n'écrira pas »"],
+            ["{ar|أَنْ}", "la fatha : {ar|أَنْ يَكْتُبَ}", "donne au verbe le sens du nom d'action : « écrire »"],
+            ["{ar|لِ} de but", "la fatha : {ar|لِيَكْتُبَ}", "dit le but : « pour qu'il écrive »"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Tu connais déjà {ar|لَنْ}. Aujourd'hui, le professeur présente les deux autres : {ar|أَنْ} et le {ar|لِ} de but, qu'il appelle {ar|لَامُ التَّعْلِيلِ}."
+        }
+      ]
+    },
+    { "id": "medine-t2.l17.grammar-1#2", "type": "present", "item": "w:nawasib" },
+    {
+      "id": "medine-t2.l17.grammar-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:nawasib",
+      "distractors": ["w:jawazim", "w:afal-khamsa"],
+      "explain": "{ar|النَّوَاصِبُ} : les particules qui mettent le verbe à l'accusatif. {ar|الْجَوَازِمُ} le mettent au jussif ; {ar|الْأَفْعَالُ الْخَمْسَةُ} sont cinq formes du présent."
+    },
+    {
+      "id": "medine-t2.l17.grammar-1#4",
+      "type": "tip",
+      "title": "Un mot, un pluriel",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|النَّوَاصِبُ} est le pluriel de {ar|نَاصِبٌ}, « celui qui met à l'accusatif ». C'est la même formation que {ar|جَازِمٌ} → {ar|جَوَازِمُ}."
+        },
+        {
+          "type": "compare",
+          "title": "Du singulier au pluriel",
+          "rows": [
+            {
+              "from": { "ar": "جَازِمٌ", "fr": "qui met au jussif" },
+              "to": { "ar": "جَوَازِمُ", "fr": "des mots qui mettent au jussif" }
+            },
+            {
+              "from": { "ar": "نَاصِبٌ", "fr": "qui met à l'accusatif" },
+              "to": { "ar": "نَوَاصِبُ", "fr": "des particules qui mettent à l'accusatif" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Un verbe mis à l'accusatif est dit {ar|مَنْصُوبٌ}, comme un nom à l'accusatif (un complément d'objet, par exemple)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l17.grammar-1#5",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la marque de base du verbe à l'accusatif ?" },
+      "choices": [ { "fr": "la fatha ({ar|◌َ})" }, { "fr": "la damma ({ar|◌ُ})" }, { "fr": "le sukūn ({ar|◌ْ})" } ],
+      "answer": 0,
+      "explain": "À l'accusatif, la marque de base est la fatha : {ar|لَنْ يَكْتُبَ}. La damma est celle du nominatif ; le sukūn, celle du jussif."
+    },
+    {
+      "id": "medine-t2.l17.grammar-1#6",
+      "type": "true_false",
+      "statement": { "fr": "Toutes les particules qui agissent sur le verbe le mettent au jussif." },
+      "answer": false,
+      "explain": "Non : les {ar|الْجَوَازِمُ} le mettent au jussif, mais les {ar|النَّوَاصِبُ} le mettent à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l17.grammar-1#7",
+      "type": "sort",
+      "categories": [ { "fr": "accusatif (fatha)" }, { "fr": "jussif (sukūn)" } ],
+      "cards": [
+        { "ar": "لَنْ أَشْرَبَ", "category": 0 },
+        { "ar": "أَنْ أَشْرَبَ", "category": 0 },
+        { "ar": "لَمْ أَشْرَبْ", "category": 1 },
+        { "ar": "لَنْ يَذْهَبَ", "category": 0 },
+        { "ar": "لَمْ يَذْهَبْ", "category": 1 },
+        { "ar": "لَا تَذْهَبْ", "category": 1 }
+      ],
+      "instruction": "Quelle est la marque de la fin du verbe ?",
+      "explain": "Après {ar|لَنْ} et {ar|أَنْ} : la fatha (accusatif). Après {ar|لَمْ} et le {ar|لَا} de l'interdiction : le sukūn (jussif)."
+    },
+    {
+      "id": "medine-t2.l17.grammar-1#8",
+      "type": "spot",
+      "instruction": "Touche la particule qui met le verbe à l'accusatif.",
+      "words": ["أَنْتَ", "لَنْ", "تَذْهَبَ", "إِلَى", "الْمَسْجِدِ."],
+      "answers": [1],
+      "fr": "Tu n'iras pas à la mosquée.",
+      "explain": "{ar|لَنْ} est un {ar|نَاصِبٌ} : il donne la fatha à {ar|تَذْهَبَ}."
+    },
+    {
+      "id": "medine-t2.l17.grammar-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je n'irai pas à Londres.",
+      "answers": ["لَنْ أَذْهَبَ إِلَى لَنْدَنَ.", "أَنَا لَنْ أَذْهَبَ إِلَى لَنْدَنَ."],
+      "explain": "{ar|لَنْ} + {ar|أَذْهَبَ} (fatha)."
+    }
+  ]
+}
