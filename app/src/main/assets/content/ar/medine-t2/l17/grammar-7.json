@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "{ar|مُنْذُ} est un adverbe de temps ({ar|ظَرْفُ زَمَانٍ}), invariable ({ar|مَبْنِيٌّ}). On l'emploie en général de deux façons : devant un nom (qui est annexé : il est alors au génitif), ou devant un verbe. Il se traduit « depuis »."
+          "text": "{ar|مُنْذُ} est un adverbe de temps ({ar|ظَرْفُ زَمَانٍ}), invariable ({ar|مَبْنِيٌّ}). On l'emploie en général de deux façons : devant un nom (qui est annexé : il est alors au génitif), ou devant un verbe, le plus souvent au passé. Il se traduit « depuis »."
         },
         {
           "type": "example",
@@ -94,7 +94,7 @@
       "ask": "fr",
       "fr": "Je n'ai pas vu Ḥamza depuis un mois.",
       "answers": ["مَا رَأَيْتُ حَمْزَةَ مُنْذُ شَهْرٍ.", "لَمْ أَرَ حَمْزَةَ مُنْذُ شَهْرٍ."],
-      "explain": "{ar|مَا رَأَيْتُ} (ou {ar|لَمْ أَرَ}) + {ar|حَمْزَةَ} (complément d'objet, à la fatha : un nom privé de tanwin) + {ar|مُنْذُ شَهْرٍ}."
+      "explain": "{ar|مَا رَأَيْتُ} (ou {ar|لَمْ أَرَ}, forme qu'on verra plus loin) + {ar|حَمْزَةَ} (complément d'objet, à la fatha : un nom privé de tanwin) + {ar|مُنْذُ شَهْرٍ}."
     }
   ]
 }

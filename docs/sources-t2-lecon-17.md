@@ -77,4 +77,12 @@ Outils de la palette : `sort` (état du verbe ; accusatif ou jussif ; marque apr
 
 ## Corrections faites après la relecture
 
-(à compléter)
+Trois relecteurs indépendants (arabe et fidélité au PDF, exercices, français et pédagogie) : aucune erreur de harakat, de cas, de genre ni de traduction dans le texte du livre et les exercices. Chaque remarque a été vérifiée avant d'être appliquée.
+
+- **Réponses acceptées ajoutées** (écrans `order`, mêmes étiquettes, autre ordre tout aussi correct) : complément de temps en fin de phrase (`vocab-2`, `practice-6`), sujet avant le verbe (`vocab-6`, `practice-6`), `هُنَا` / `أَمَامَكَ` inversés (`dialogue-1`), trois ordres pour `dialogue-2` et deux pour `practice-4` ; variantes avec le pronom `أَنَا` (`grammar-4`, `grammar-8`, `practice-8`, bilan) et `هُنَاكَ ضَوْضَاءُ فِي الشَّارِعِ` (`vocab-3`). La variante `…الدَّرْسَ` est retirée de `practice-4` (la question demande l'adresse).
+- **Explications adoucies** : `ضَوْضَاءُ` « le professeur l'écrit sans tanwin » (le mot s'emploie aussi avec tanwin) ; `يُمْكِنُ` « dans cette construction, ne change pas » ; `أَنْ` « un verbe au présent (en général) » (elle peut précéder un verbe au passé dans un autre emploi, non enseigné) ; `مُنْذُ` devant un verbe « le plus souvent au passé » ; `أَرْجُو أَنْ` : « littéralement, j'espère que… ; en pratique, je te prie de… ».
+- **Traductions** : `تَخْرُجُ الزُّهُورُ` → « les fleurs apparaissent » (et non « éclosent ») ; `ذُبَابٌ` → « des mouches » (note : nom collectif, une mouche = `ذُبَابَةٌ`).
+- **Précisions** : l'ordre des saisons est celui de l'exercice 14 du livre ; le nom d'action de `زَارَ` écrit `زِيَارَةً` comme les autres colonnes ; phrases numérotées dans les tableaux des exercices (renvois « phrase 5 »…) ; `لَمْ أَرَ` annoncé « plus loin » ; `لِتَدْخُلَ` = « pour qu'elle entre / pour que tu entres ».
+- **Explications d'oral ajoutées** : la hamza de `رَأَى` disparaît au présent (`يَرَى`, pas `يَرْأَى`) ; `لِ` prend la fatha devant un pronom collé (`لَهُ`, `لَكَ`…) sauf devant `ي` (`لِي`).
+- **Non repris** : l'explication de l'accusatif après `لِ` par un `أَنْ` sous-entendu (le professeur dit seulement que `لِ` met à l'accusatif) ; `مُذْ`, forme courte de `مُنْذُ` (hors du support).
+- **À confirmer avec le professeur** : le pluriel de `ذُبَابٌ` (illisible dans le PDF) et celui de `عُطْلَةٌ` (seulement « ات »).

@@ -44,7 +44,7 @@
             ["permettre", "{ar|سَمَحَ}", "{ar|يَسْمَحُ}", "{ar|اِسْمَحْ}", "{ar|سَمْحًا}"],
             ["rester", "{ar|بَقِيَ}", "{ar|يَبْقَى}", "{ar|اِبْقَ}", "{ar|بَقَاءً}"],
             ["cracher", "{ar|بَصَقَ}", "{ar|يَبْصُقُ}", "{ar|اُبْصُقْ}", "{ar|بَصْقًا}"],
-            ["visiter", "{ar|زَارَ}", "{ar|يَزُورُ}", "{ar|زُرْ}", "{ar|زِيَارَةٌ}"]
+            ["visiter", "{ar|زَارَ}", "{ar|يَزُورُ}", "{ar|زُرْ}", "{ar|زِيَارَةً}"]
           ]
         },
         {
@@ -84,7 +84,7 @@
       "fr": "Zayd est resté à la maison.",
       "answers": [["بَقِيَ", "زَيْدٌ", "فِي", "الْبَيْتِ"], ["زَيْدٌ", "بَقِيَ", "فِي", "الْبَيْتِ"]],
       "punctuation": ".",
-      "explain": "{ar|بَقِيَ} : « il est resté », avant son sujet {ar|زَيْدٌ}."
+      "explain": "{ar|بَقِيَ} : « il est resté ». Le verbe se met d'habitude avant son sujet ({ar|بَقِيَ زَيْدٌ}), mais l'ordre {ar|زَيْدٌ بَقِيَ} est possible aussi."
     },
     {
       "id": "medine-t2.l17.vocab-6#15",

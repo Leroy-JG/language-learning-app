@@ -17,25 +17,25 @@
           "type": "table",
           "header": ["Phrase", "Sens"],
           "rows": [
-            ["{ar|أُرِيدُ أَنْ أَذْهَبَ إِلَى الْمُسْتَوْصَفِ.}", "Je veux aller au dispensaire."],
-            ["{ar|نَسِيتُ أَنْ أَقُولَ لَكَ شَيْئًا.}", "J'ai oublié de te dire quelque chose."],
-            ["{ar|أُرِيدُ أَنْ أَحْفَظَ الْقُرْآنَ الْكَرِيمَ.}", "Je veux mémoriser le noble Coran."],
-            ["{ar|نَسِيتُ أَنْ أَكْتُبَ الدَّرْسَ.}", "J'ai oublié d'écrire la leçon."],
+            ["(1) {ar|أُرِيدُ أَنْ أَذْهَبَ إِلَى الْمُسْتَوْصَفِ.}", "Je veux aller au dispensaire."],
+            ["(2) {ar|نَسِيتُ أَنْ أَقُولَ لَكَ شَيْئًا.}", "J'ai oublié de te dire quelque chose."],
+            ["(3) {ar|أُرِيدُ أَنْ أَحْفَظَ الْقُرْآنَ الْكَرِيمَ.}", "Je veux mémoriser le noble Coran."],
+            ["(4) {ar|نَسِيتُ أَنْ أَكْتُبَ الدَّرْسَ.}", "J'ai oublié d'écrire la leçon."],
             [
-              "{ar|أُرِيدُ أَنْ أَدْرُسَ اللُّغَةَ الْعَرَبِيَّةَ لِأَنَّهَا لُغَةُ الْقُرْآنِ الْكَرِيمِ.}",
+              "(5) {ar|أُرِيدُ أَنْ أَدْرُسَ اللُّغَةَ الْعَرَبِيَّةَ لِأَنَّهَا لُغَةُ الْقُرْآنِ الْكَرِيمِ.}",
               "Je veux étudier l'arabe parce que c'est la langue du noble Coran."
             ],
             [
-              "{ar|نُرِيدُ أَنْ نَسْأَلَكَ سُؤَالًا يَا أُسْتَاذُ.}",
+              "(6) {ar|نُرِيدُ أَنْ نَسْأَلَكَ سُؤَالًا يَا أُسْتَاذُ.}",
               "Nous voulons te poser une question, professeur."
             ],
-            ["{ar|أَتُرِيدُ أَنْ تَقُولَ لِي شَيْئًا؟}", "Veux-tu me dire quelque chose ?"],
+            ["(7) {ar|أَتُرِيدُ أَنْ تَقُولَ لِي شَيْئًا؟}", "Veux-tu me dire quelque chose ?"],
             [
-              "{ar|يُرِيدُ أَخِي أَنْ يَدْرُسَ بِالْجَامِعَةِ الْإِسْلَامِيَّةِ.}",
+              "(8) {ar|يُرِيدُ أَخِي أَنْ يَدْرُسَ بِالْجَامِعَةِ الْإِسْلَامِيَّةِ.}",
               "Mon frère veut étudier à l'université islamique."
             ],
             [
-              "{ar|نَسِيتُ أَنْ أَكْتُبَ الْعُنْوَانَ عَلَى الظَّرْفِ.}",
+              "(9) {ar|نَسِيتُ أَنْ أَكْتُبَ الْعُنْوَانَ عَلَى الظَّرْفِ.}",
               "J'ai oublié d'écrire l'adresse sur l'enveloppe."
             ]
           ]

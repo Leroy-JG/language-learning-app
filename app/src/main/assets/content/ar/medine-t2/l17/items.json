@@ -69,7 +69,7 @@
     "ar": "مُنْذُ",
     "fr": "depuis",
     "translit": "mundhu",
-    "note": "C'est un adverbe de temps ({ar|ظَرْفُ زَمَانٍ}), invariable ({ar|مَبْنِيٌّ}). On l'emploie en général devant un nom, qui est alors au génitif (annexion), ou devant un verbe au passé.",
+    "note": "C'est un adverbe de temps ({ar|ظَرْفُ زَمَانٍ}), invariable ({ar|مَبْنِيٌّ}). On l'emploie en général devant un nom, qui est alors au génitif (annexion), ou devant un verbe, le plus souvent au passé.",
     "example": { "ar": "هُوَ غَائِبٌ مُنْذُ أُسْبُوعٍ.", "fr": "Il est absent depuis une semaine." }
   },
   {
@@ -98,7 +98,7 @@
     "fr": "le printemps",
     "translit": "ar-rabīʿu",
     "gender": "m",
-    "example": { "ar": "فِي الرَّبِيعِ تَخْرُجُ الزُّهُورُ.", "fr": "Au printemps, les fleurs éclosent." }
+    "example": { "ar": "فِي الرَّبِيعِ تَخْرُجُ الزُّهُورُ.", "fr": "Au printemps, les fleurs apparaissent." }
   },
   {
     "id": "w:kharif",
@@ -177,14 +177,14 @@
     "fr": "du vacarme, du tapage",
     "translit": "ḍawḍāʾu",
     "gender": "f",
-    "note": "Il n'a jamais de tanwin (finale {ar|اءُ}, comme {ar|حَمْرَاءُ} au chapitre 16), et le professeur l'accorde au féminin : {ar|مَا هٰذِهِ الضَّوْضَاءُ؟}",
+    "note": "Le professeur l'écrit sans tanwin (finale {ar|اءُ}, comme {ar|حَمْرَاءُ} au chapitre 16) et l'accorde au féminin : {ar|مَا هٰذِهِ الضَّوْضَاءُ؟}",
     "example": { "ar": "مَا هٰذِهِ الضَّوْضَاءُ؟", "fr": "Qu'est-ce que c'est que ce vacarme ?" }
   },
   {
     "id": "w:dhubab",
     "kind": "word",
     "ar": "ذُبَابٌ",
-    "fr": "une mouche, des mouches",
+    "fr": "des mouches",
     "translit": "dhubābun",
     "gender": "m",
     "note": "C'est un nom collectif : il désigne les mouches en général. Une seule mouche se dit {ar|ذُبَابَةٌ}.",
@@ -302,7 +302,7 @@
     "ar": "رَجَا",
     "fr": "il a espéré (espérer)",
     "translit": "rajā",
-    "note": "C'est un verbe à finale défectueuse (chapitre 13) : son présent est {ar|يَرْجُو} et le « je » est {ar|أَرْجُو}. La formule {ar|أَرْجُو أَنْ تَسْمَحَ لِي} est une demande polie : « je te prie de me permettre… ».",
+    "note": "C'est un verbe à finale défectueuse (chapitre 13) : son présent est {ar|يَرْجُو} et le « je » est {ar|أَرْجُو}. Littéralement, {ar|أَرْجُو أَنْ تَسْمَحَ لِي} veut dire « j'espère que tu me permettras… » ; en pratique, c'est une demande polie : « je te prie de me permettre… ».",
     "example": { "ar": "أَرْجُو أَنْ تَجْلِسَ.", "fr": "Je te prie de t'asseoir." }
   },
   {

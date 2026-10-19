@@ -13,11 +13,17 @@
           "type": "table",
           "header": ["Phrase", "Sens"],
           "rows": [
-            ["{ar|مَا رَأَيْتُ مُحَمَّدًا مُنْذُ يَوْمِ الْجُمُعَةِ.}", "Je n'ai pas vu Muḥammad depuis vendredi."],
-            ["{ar|هُوَ غَائِبٌ مُنْذُ أُسْبُوعٍ.}", "Il est absent depuis une semaine."],
-            ["{ar|نَسْكُنُ فِي هٰذَا الْبَيْتِ مُنْذُ سَنَةٍ.}", "Nous habitons cette maison depuis un an."],
-            ["{ar|هُوَ مَرِيضٌ مُنْذُ رُجُوعِهِ مِنْ بَلَدِهِ.}", "Il est malade depuis son retour de son pays."],
-            ["{ar|أَعْرِفُ هٰذَا الشَّيْخَ مُنْذُ خَمْسِ سَنَوَاتٍ.}", "Je connais ce cheikh depuis cinq ans."]
+            [
+              "(1) {ar|مَا رَأَيْتُ مُحَمَّدًا مُنْذُ يَوْمِ الْجُمُعَةِ.}",
+              "Je n'ai pas vu Muḥammad depuis vendredi."
+            ],
+            ["(2) {ar|هُوَ غَائِبٌ مُنْذُ أُسْبُوعٍ.}", "Il est absent depuis une semaine."],
+            ["(3) {ar|نَسْكُنُ فِي هٰذَا الْبَيْتِ مُنْذُ سَنَةٍ.}", "Nous habitons cette maison depuis un an."],
+            [
+              "(4) {ar|هُوَ مَرِيضٌ مُنْذُ رُجُوعِهِ مِنْ بَلَدِهِ.}",
+              "Il est malade depuis son retour de son pays."
+            ],
+            ["(5) {ar|أَعْرِفُ هٰذَا الشَّيْخَ مُنْذُ خَمْسِ سَنَوَاتٍ.}", "Je connais ce cheikh depuis cinq ans."]
           ]
         },
         {
@@ -77,11 +83,14 @@
           "type": "table",
           "header": ["Phrase", "Sens"],
           "rows": [
-            ["{ar|أَرْجُو أَنْ تَسْمَحَ لِي بِالْجُلُوسِ هُنَا.}", "Je te prie de me permettre de m'asseoir ici."],
-            ["{ar|أَرْجُو أَنْ تَسْمَحَ لَهُ بِالْخُرُوجِ.}", "Je te prie de lui permettre de sortir."],
-            ["{ar|أَرْجُو أَنْ تَسْمَحَ لَنَا بِالدُّخُولِ.}", "Je te prie de nous permettre d'entrer."],
             [
-              "{ar|أَرْجُو أَنْ تَسْمَحَ لِحَامِدٍ بِزِيَارَتِكَ.}",
+              "(1) {ar|أَرْجُو أَنْ تَسْمَحَ لِي بِالْجُلُوسِ هُنَا.}",
+              "Je te prie de me permettre de m'asseoir ici."
+            ],
+            ["(2) {ar|أَرْجُو أَنْ تَسْمَحَ لَهُ بِالْخُرُوجِ.}", "Je te prie de lui permettre de sortir."],
+            ["(3) {ar|أَرْجُو أَنْ تَسْمَحَ لَنَا بِالدُّخُولِ.}", "Je te prie de nous permettre d'entrer."],
+            [
+              "(4) {ar|أَرْجُو أَنْ تَسْمَحَ لِحَامِدٍ بِزِيَارَتِكَ.}",
               "Je te prie de permettre à Ḥāmid de te rendre visite."
             ]
           ]

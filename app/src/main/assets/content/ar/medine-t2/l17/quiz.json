@@ -143,7 +143,7 @@
       "id": "medine-t2.l17.quiz#14",
       "type": "fill_gap",
       "sentence": "فِي {0} تَخْرُجُ الزُّهُورُ.",
-      "fr": "Au printemps, les fleurs éclosent.",
+      "fr": "Au printemps, les fleurs apparaissent.",
       "gaps": [ { "answers": ["الرَّبِيعِ"] } ],
       "options": ["الرَّبِيعِ", "الشِّتَاءِ", "الصَّيْفِ"],
       "explain": "« Au printemps » : {ar|فِي الرَّبِيعِ} (kasra après {ar|فِي})."
@@ -166,14 +166,14 @@
         { "fr": "J'espère que tu sortiras" }
       ],
       "answer": 0,
-      "explain": "{ar|سَمَحَ لِي بِ} + un nom : « il m'a permis de… » ; {ar|أَرْجُو أَنْ} : formule de demande polie."
+      "explain": "{ar|سَمَحَ لِي بِ} + un nom : « il m'a permis de… » ; {ar|أَرْجُو أَنْ} : littéralement « j'espère que tu… », en pratique une demande polie."
     },
     {
       "id": "medine-t2.l17.quiz#17",
       "type": "true_false",
       "statement": { "fr": "Pour dire « elles peuvent », on met {ar|يُمْكِنُ} au féminin pluriel." },
       "answer": false,
-      "explain": "Non : {ar|يُمْكِنُ} ne change jamais ; on ajoute le pronom collé : {ar|يُمْكِنُهُنَّ أَنْ يَذْهَبْنَ}."
+      "explain": "Non : dans cette construction, {ar|يُمْكِنُ} ne change pas ; on ajoute le pronom collé : {ar|يُمْكِنُهُنَّ أَنْ يَذْهَبْنَ}."
     },
     {
       "id": "medine-t2.l17.quiz#18",

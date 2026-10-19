@@ -38,6 +38,10 @@
           "type": "note",
           "tone": "warning",
           "text": "{ar|لِأَنَّ} s'écrit {ar|لِ} + {ar|أَنَّ} (avec une shadda) : tu l'as vu au chapitre 4. Ne le confonds pas avec {ar|لِ} + {ar|أَنْ}."
+        },
+        {
+          "type": "note",
+          "text": "Devant un pronom collé, {ar|لِ} prend la fatha : {ar|لَهُ}, {ar|لَكَ}, {ar|لَنَا}, {ar|لَهَا}… sauf devant {ar|ي} ({ar|لِي}). Devant un nom, il garde la kasra : {ar|لِزَيْدٍ}."
         }
       ]
     },

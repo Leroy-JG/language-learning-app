@@ -133,7 +133,11 @@
           "type": "table",
           "header": ["Particule", "Ce qui la suit", "Exemple"],
           "rows": [
-            ["{ar|أَنْ}", "un verbe au présent, à l'accusatif", "{ar|أُرِيدُ أَنْ أَدْرُسَ} (« je veux étudier »)"],
+            [
+              "{ar|أَنْ}",
+              "un verbe au présent (en général), à l'accusatif",
+              "{ar|أُرِيدُ أَنْ أَدْرُسَ} (« je veux étudier »)"
+            ],
             [
               "{ar|أَنَّ}",
               "un nom à l'accusatif, ou un pronom collé ({ar|أَنَّهُ})",

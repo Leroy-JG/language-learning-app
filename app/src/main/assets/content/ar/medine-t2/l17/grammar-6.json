@@ -66,7 +66,7 @@
       "type": "true_false",
       "statement": { "fr": "Pour dire « nous pouvons », on met le verbe {ar|يُمْكِنُ} au pluriel." },
       "answer": false,
-      "explain": "Non : {ar|يُمْكِنُ} ne change pas. On ajoute le pronom collé : {ar|يُمْكِنُنَا أَنْ نَذْهَبَ}."
+      "explain": "Non : dans cette construction, {ar|يُمْكِنُ} ne change pas. On ajoute le pronom collé : {ar|يُمْكِنُنَا أَنْ نَذْهَبَ}."
     },
     {
       "id": "medine-t2.l17.grammar-6#5",

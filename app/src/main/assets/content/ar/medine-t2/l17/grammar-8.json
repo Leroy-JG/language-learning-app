@@ -25,6 +25,10 @@
         },
         {
           "type": "note",
+          "text": "Au présent, la hamza de la racine ({ar|رَأَى}) disparaît : on dit {ar|يَرَى}, et non {ar|يَرْأَى}. C'est pourquoi le verbe paraît si court."
+        },
+        {
+          "type": "note",
           "text": "Seule la lettre du présent change ({ar|يَ}, {ar|تَ}, {ar|أَ}, {ar|نَ}) : la fin du verbe reste un {ar|ى}, précédé d'une fatha. Au jussif, ce {ar|ى} tombe : {ar|لَمْ يَرَ} (chapitre 13)."
         }
       ]
