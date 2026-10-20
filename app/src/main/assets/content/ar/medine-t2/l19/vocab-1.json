@@ -40,8 +40,8 @@
     {
       "id": "medine-t2.l19.vocab-1#9",
       "type": "fill_gap",
-      "sentence": "الْهُنُودُ قَوْمٌ يَسْكُنُونَ {0}.",
-      "fr": "Les Indiens sont un peuple qui habite l'Inde.",
+      "sentence": "الْهُنُودُ يَسْكُنُونَ {0}.",
+      "fr": "Les Indiens habitent l'Inde.",
       "gaps": [ { "answers": ["الْهِنْدَ"] } ],
       "options": ["الْهِنْدَ", "الْيَابَانَ", "فَرَنْسَا"],
       "explain": "Les Indiens ({ar|هُنُودٌ}) habitent {ar|الْهِنْدَ}, l'Inde."

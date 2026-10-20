@@ -85,7 +85,7 @@
       "id": "medine-t2.l19.practice-3#6",
       "type": "order",
       "fr": "Je ne suis pas allé au marché hier.",
-      "answers": [["مَا", "ذَهَبْتُ", "إِلَى", "السُّوقِ", "أَمْسِ"]],
+      "answers": [["مَا", "ذَهَبْتُ", "إِلَى", "السُّوقِ", "أَمْسِ"], ["مَا", "ذَهَبْتُ", "أَمْسِ", "إِلَى", "السُّوقِ"]],
       "punctuation": ".",
       "explain": "{ar|مَا} + le verbe au passé : {ar|مَا ذَهَبْتُ}."
     },
@@ -95,8 +95,8 @@
       "sentence": "{0} أَذْهَبَ إِلَى السُّوقِ غَدًا.",
       "fr": "Je n'irai pas au marché demain.",
       "gaps": [ { "answers": ["لَنْ"] } ],
-      "options": ["مَا", "لَا", "لَنْ"],
-      "explain": "Le verbe {ar|أَذْهَبَ} a une fatha : il est à l'accusatif, après {ar|لَنْ}."
+      "options": ["مَا", "لَمْ", "لَنْ"],
+      "explain": "Le verbe {ar|أَذْهَبَ} a une fatha : il est à l'accusatif, après {ar|لَنْ}. {ar|لَمْ} nierait le passé ; {ar|مَا} devant un présent limite la négation à l'instant."
     },
     {
       "id": "medine-t2.l19.practice-3#8",

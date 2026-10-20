@@ -79,7 +79,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Pour « eux », le {ar|ى} de {ar|يَبْقَى} devient {ar|و} : {ar|يَبْقَوْنَ}, et après {ar|أَنْ} : {ar|يَبْقَوْا}."
+          "text": "Pour « eux », le {ar|ى} de {ar|يَبْقَى} tombe, la fatha reste et le {ar|و} du pluriel s'ajoute : {ar|يَبْقَوْنَ}, et après {ar|أَنْ} : {ar|يَبْقَوْا}."
         }
       ]
     },
@@ -155,7 +155,8 @@
       "fr": "Je n'irai pas en Inde pendant les vacances d'été.",
       "answers": [
         "إِنِّي لَنْ أَذْهَبَ إِلَى الْهِنْدِ فِي عُطْلَةِ الصَّيْفِ.",
-        "لَنْ أَذْهَبَ إِلَى الْهِنْدِ فِي عُطْلَةِ الصَّيْفِ."
+        "لَنْ أَذْهَبَ إِلَى الْهِنْدِ فِي عُطْلَةِ الصَّيْفِ.",
+        "أَنَا لَنْ أَذْهَبَ إِلَى الْهِنْدِ فِي عُطْلَةِ الصَّيْفِ."
       ],
       "explain": "{ar|لَنْ أَذْهَبَ} : « je n'irai pas ». Le {ar|إِنِّي} du texte est facultatif."
     }

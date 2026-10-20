@@ -50,8 +50,8 @@
       "sentence": "{0} أَذْهَبَ إِلَى الْمَسْجِدِ.",
       "fr": "Je n'irai pas à la mosquée.",
       "gaps": [ { "answers": ["لَنْ"] } ],
-      "options": ["لَنْ", "لَمْ", "لَا"],
-      "explain": "« Je n'irai pas » : {ar|لَنْ} + le présent à la fatha. {ar|لَمْ} demande un sukūn, {ar|لَا} une damma."
+      "options": ["لَنْ", "لَمْ", "مَا"],
+      "explain": "« Je n'irai pas » : {ar|لَنْ} + le présent à la fatha. {ar|لَمْ} demande un sukūn et nierait le passé ; {ar|مَا} devant un présent limite la négation à l'instant."
     },
     {
       "id": "medine-t2.l19.revue-1#4",

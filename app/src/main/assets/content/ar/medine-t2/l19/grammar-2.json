@@ -91,7 +91,7 @@
       "id": "medine-t2.l19.grammar-2#6",
       "type": "order",
       "fr": "Nous ne boirons pas de thé demain.",
-      "answers": [["لَنْ", "نَشْرَبَ", "الشَّايَ", "غَدًا"]],
+      "answers": [["لَنْ", "نَشْرَبَ", "الشَّايَ", "غَدًا"], ["لَنْ", "نَشْرَبَ", "غَدًا", "الشَّايَ"]],
       "punctuation": ".",
       "explain": "{ar|لَنْ نَشْرَبَ} : le futur négatif, sans {ar|سَ}."
     },
@@ -108,7 +108,7 @@
       "type": "typing",
       "ask": "question",
       "question": "سَتَذْهَبِينَ إِلَى السُّوقِ غَدًا.",
-      "answers": ["لَنْ تَذْهَبِي إِلَى السُّوقِ غَدًا."],
+      "answers": ["لَنْ تَذْهَبِي إِلَى السُّوقِ غَدًا.", "أَنْتِ لَنْ تَذْهَبِي إِلَى السُّوقِ غَدًا."],
       "fr": "Tu n'iras pas au marché demain (à une femme).",
       "instruction": "Mets le verbe au futur négatif.",
       "explain": "{ar|سَ} disparaît, {ar|لَنْ} le remplace, et le {ar|ن} de {ar|تَذْهَبِينَ} tombe : {ar|تَذْهَبِي}."

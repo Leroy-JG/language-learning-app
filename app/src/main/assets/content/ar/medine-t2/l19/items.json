@@ -25,7 +25,7 @@
     "translit": "hindiyyun",
     "plural": "هُنُودٌ",
     "icon": "india",
-    "note": "Comme nom, c'est « un Indien » ; le pluriel {ar|هُنُودٌ} veut dire « les Indiens ». Le féminin est {ar|هِنْدِيَّةٌ}. {ar|قَوْمٌ} veut dire « un peuple ».",
+    "note": "Comme nom, c'est « un Indien » ; le pluriel {ar|هُنُودٌ} veut dire « des Indiens » (avec l'article, {ar|الْهُنُودُ} : « les Indiens »). Le féminin est {ar|هِنْدِيَّةٌ}. {ar|قَوْمٌ} veut dire « un peuple ».",
     "example": { "ar": "الْهُنُودُ قَوْمٌ يَسْكُنُونَ الْهِنْدَ.", "fr": "Les Indiens sont un peuple qui habite l'Inde." }
   },
   {
@@ -107,8 +107,8 @@
     "fr": "de l'alcool (une boisson enivrante)",
     "translit": "khamrun",
     "plural": "خُمُورٌ",
-    "gender": "m",
-    "note": "Le mot a d'abord désigné le vin ; il s'emploie pour toute boisson enivrante. Il peut être masculin ou féminin (les dictionnaires l'admettent). Ici, on l'emploie au masculin.",
+    "gender": "f",
+    "note": "Le mot a d'abord désigné le vin ; il s'emploie pour toute boisson enivrante. Il peut être féminin ou masculin (les dictionnaires l'admettent). Ici, on l'emploie au féminin.",
     "example": { "ar": "لَنْ أَشْرَبَ الْخَمْرَ.", "fr": "Je ne boirai pas d'alcool." }
   },
   {
@@ -169,7 +169,7 @@
     "fr": "il a accompli la ʿumra (accomplir la ʿumra)",
     "translit": "iʿtamara",
     "icon": "kaaba",
-    "note": "La ʿumra est le « petit pèlerinage » à La Mecque : à la différence du ḥajj, on peut l'accomplir à n'importe quel moment de l'année.",
+    "note": "La ʿumra est le « petit pèlerinage » à La Mecque : à la différence du ḥajj, qui a ses dates, on peut en principe l'accomplir toute l'année.",
     "example": { "ar": "اِعْتَمَرَ زَيْدٌ فِي مَكَّةَ.", "fr": "Zayd a accompli la ʿumra à La Mecque." }
   },
   {

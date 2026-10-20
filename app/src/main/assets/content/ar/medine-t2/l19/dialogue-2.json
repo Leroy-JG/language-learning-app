@@ -159,7 +159,7 @@
       "type": "typing",
       "ask": "question",
       "question": "أَتَعْرِفُ جَعْفَرًا؟",
-      "answers": ["نَعَمْ، أَعْرِفُهُ.", "أَعْرِفُهُ."],
+      "answers": ["نَعَمْ، أَعْرِفُهُ.", "أَعْرِفُهُ.", "نَعَمْ، أَنَا أَعْرِفُهُ.", "أَنَا أَعْرِفُهُ."],
       "fr": "Oui, je le connais.",
       "instruction": "Réponds en arabe : oui, tu le connais.",
       "context": { "dialogue": "medine-t2.l19.dialogue-2#1" },

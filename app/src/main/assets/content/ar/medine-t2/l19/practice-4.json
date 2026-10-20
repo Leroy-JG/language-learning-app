@@ -75,7 +75,7 @@
       "id": "medine-t2.l19.practice-4#6",
       "type": "order",
       "fr": "Je ne raserai jamais ma barbe.",
-      "answers": [["لَنْ", "أَحْلِقَ", "لِحْيَتِي", "أَبَدًا"]],
+      "answers": [["لَنْ", "أَحْلِقَ", "لِحْيَتِي", "أَبَدًا"], ["لَنْ", "أَحْلِقَ", "أَبَدًا", "لِحْيَتِي"]],
       "punctuation": ".",
       "explain": "{ar|لَنْ أَحْلِقَ} : la fatha ; {ar|لِحْيَتِي} : « ma barbe » ; {ar|أَبَدًا} : « jamais »."
     },

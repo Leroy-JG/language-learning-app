@@ -62,7 +62,7 @@
         { "ar": "اِصْبِرْ", "category": 2 }
       ],
       "instruction": "C'est quelle forme du verbe ?",
-      "explain": "Le passé finit par une fatha ({ar|تَرَكَ}, {ar|اِعْتَمَرَ}). Le présent commence par {ar|يَ}. L'impératif finit par un sukūn ({ar|اِصْبِرْ}, {ar|اُتْرُكْ})."
+      "explain": "Le passé finit par une fatha ({ar|تَرَكَ}, {ar|اِعْتَمَرَ}). Le présent commence par {ar|يَ}. Ici, l'impératif finit par un sukūn ({ar|اِصْبِرْ}, {ar|اُتْرُكْ})."
     },
     {
       "id": "medine-t2.l19.vocab-4#10",
