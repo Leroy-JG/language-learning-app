@@ -1,0 +1,121 @@
+{
+  "id": "medine-t2.l19.practice-2",
+  "type": "grammar",
+  "title": "Exercice 3 : répondre « non » avec lan",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l19.practice-2#1",
+      "type": "question",
+      "prompt": {
+        "fr": "Tu réponds « non » à la question {ar|أَتَذْهَبُ إِلَى بَلَدِكَ فِي عُطْلَةِ الصَّيْفِ؟} Voici ce que tu veux dire : « Je n'irai pas dans mon pays pendant les vacances d'été. » Quelle réponse est juste ?"
+      },
+      "choices": [
+        { "ar": "لَنْ أَذْهَبَ إِلَى بَلَدِي فِي عُطْلَةِ الصَّيْفِ." },
+        { "ar": "لَنْ تَذْهَبَ إِلَى بَلَدِي فِي عُطْلَةِ الصَّيْفِ." },
+        { "ar": "لَنْ أَذْهَبَ إِلَى بَلَدِكَ فِي عُطْلَةِ الصَّيْفِ." }
+      ],
+      "answer": 0,
+      "explain": "Celui qui répond parle de lui : « je » ({ar|أَذْهَبَ}) et « mon pays » ({ar|بَلَدِي})."
+    },
+    {
+      "id": "medine-t2.l19.practice-2#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَتَذْهَبُ إِلَى بَلَدِكَ فِي عُطْلَةِ الصَّيْفِ؟",
+      "answers": [
+        "لَنْ أَذْهَبَ إِلَى بَلَدِي فِي عُطْلَةِ الصَّيْفِ.",
+        "لَا، لَنْ أَذْهَبَ إِلَى بَلَدِي فِي عُطْلَةِ الصَّيْفِ.",
+        "لَا، لَنْ أَذْهَبَ إِلَى بَلَدِي.",
+        "لَا، لَنْ أَذْهَبَ.",
+        "أَنَا لَنْ أَذْهَبَ إِلَى بَلَدِي فِي عُطْلَةِ الصَّيْفِ.",
+        "لَنْ أَذْهَبَ إِلَى بَلَدِي.",
+        "لَنْ أَذْهَبَ."
+      ],
+      "fr": "Je n'irai pas dans mon pays pendant les vacances d'été.",
+      "instruction": "Réponds par la négative, avec {ar|لَنْ}.",
+      "explain": "{ar|لَنْ} + {ar|أَذْهَبَ} (fatha) ; « ton pays » devient « mon pays » : {ar|بَلَدِي}."
+    },
+    {
+      "id": "medine-t2.l19.practice-2#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَتَذْهَبُونَ إِلَى الْمَلْعَبِ هٰذَا الْمَسَاءَ يَا إِخْوَانُ؟",
+      "answers": [
+        "لَنْ نَذْهَبَ إِلَى الْمَلْعَبِ هٰذَا الْمَسَاءَ.",
+        "لَا، لَنْ نَذْهَبَ إِلَى الْمَلْعَبِ هٰذَا الْمَسَاءَ.",
+        "لَا، لَنْ نَذْهَبَ إِلَى الْمَلْعَبِ.",
+        "لَا، لَنْ نَذْهَبَ.",
+        "نَحْنُ لَنْ نَذْهَبَ إِلَى الْمَلْعَبِ هٰذَا الْمَسَاءَ.",
+        "لَنْ نَذْهَبَ إِلَى الْمَلْعَبِ.",
+        "لَنْ نَذْهَبَ."
+      ],
+      "fr": "Nous n'irons pas au terrain de jeu ce soir.",
+      "instruction": "Réponds par la négative, avec {ar|لَنْ}.",
+      "explain": "On te parle à plusieurs ({ar|تَذْهَبُونَ}) ; tu réponds au nom du groupe : « nous », {ar|نَذْهَبَ}."
+    },
+    {
+      "id": "medine-t2.l19.practice-2#4",
+      "type": "fill_gap",
+      "sentence": "أَيَذْهَبُ زُمَلَاؤُكَ إِلَى الْمُتْحَفِ غَدًا يَا عَلِيُّ؟ لَنْ {0} إِلَى الْمُتْحَفِ غَدًا.",
+      "fr": "Tes camarades iront-ils au musée demain, ʿAlī ? Ils n'iront pas au musée demain.",
+      "gaps": [ { "answers": ["يَذْهَبُوا"] } ],
+      "options": ["يَذْهَبُوا", "يَذْهَبَ", "يَذْهَبْنَ"],
+      "explain": "Il s'agit de plusieurs camarades (des hommes) : « ils », {ar|يَذْهَبُوا} (le {ar|ن} tombe après {ar|لَنْ})."
+    },
+    {
+      "id": "medine-t2.l19.practice-2#5",
+      "type": "order",
+      "fr": "Le directeur ne reviendra pas de Djeddah demain.",
+      "answers": [
+        ["لَنْ", "يَرْجِعَ", "الْمُدِيرُ", "مِنْ", "جُدَّةَ", "غَدًا"],
+        ["الْمُدِيرُ", "لَنْ", "يَرْجِعَ", "مِنْ", "جُدَّةَ", "غَدًا"],
+        ["لَنْ", "يَرْجِعَ", "الْمُدِيرُ", "غَدًا", "مِنْ", "جُدَّةَ"],
+        ["الْمُدِيرُ", "لَنْ", "يَرْجِعَ", "غَدًا", "مِنْ", "جُدَّةَ"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|لَنْ يَرْجِعَ} : la fatha ; {ar|جُدَّةَ} n'a pas de tanwin."
+    },
+    {
+      "id": "medine-t2.l19.practice-2#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَتَلْعَبُونَ كُرَةَ الْقَدَمِ هٰذَا الْمَسَاءَ يَا إِخْوَانُ؟",
+      "answers": [
+        "لَنْ نَلْعَبَ كُرَةَ الْقَدَمِ هٰذَا الْمَسَاءَ.",
+        "لَا، لَنْ نَلْعَبَ كُرَةَ الْقَدَمِ هٰذَا الْمَسَاءَ.",
+        "لَا، لَنْ نَلْعَبَ كُرَةَ الْقَدَمِ.",
+        "لَا، لَنْ نَلْعَبَ.",
+        "نَحْنُ لَنْ نَلْعَبَ كُرَةَ الْقَدَمِ هٰذَا الْمَسَاءَ.",
+        "لَنْ نَلْعَبَ كُرَةَ الْقَدَمِ.",
+        "لَنْ نَلْعَبَ."
+      ],
+      "fr": "Nous ne jouerons pas au football ce soir.",
+      "instruction": "Réponds par la négative, avec {ar|لَنْ}.",
+      "explain": "{ar|لَنْ نَلْعَبَ} : « nous ne jouerons pas » ; {ar|كُرَةَ الْقَدَمِ} est le complément d'objet."
+    },
+    {
+      "id": "medine-t2.l19.practice-2#7",
+      "type": "sort",
+      "categories": [ { "fr": "« je »" }, { "fr": "« nous »" }, { "fr": "« il »" } ],
+      "cards": [
+        { "ar": "لَنْ أَذْهَبَ", "category": 0 },
+        { "ar": "لَنْ أَلْعَبَ", "category": 0 },
+        { "ar": "لَنْ نَذْهَبَ", "category": 1 },
+        { "ar": "لَنْ نَلْعَبَ", "category": 1 },
+        { "ar": "لَنْ يَذْهَبَ", "category": 2 },
+        { "ar": "لَنْ يَلْعَبَ", "category": 2 }
+      ],
+      "instruction": "Quel est le sujet ?",
+      "explain": "La lettre du présent le dit : {ar|أَ} pour « je », {ar|نَ} pour « nous », {ar|يَ} pour « il »."
+    },
+    {
+      "id": "medine-t2.l19.practice-2#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Zayd n'ira pas à l'école demain.",
+      "answers": ["لَنْ يَذْهَبَ زَيْدٌ إِلَى الْمَدْرَسَةِ غَدًا.", "زَيْدٌ لَنْ يَذْهَبَ إِلَى الْمَدْرَسَةِ غَدًا."],
+      "explain": "{ar|لَنْ يَذْهَبَ} : la fatha ; {ar|زَيْدٌ} est le sujet."
+    }
+  ]
+}

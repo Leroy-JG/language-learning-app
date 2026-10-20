@@ -1,0 +1,65 @@
+{
+  "id": "medine-t2.l19.vocab-3",
+  "type": "vocabulary",
+  "title": "Présent, fatigué, jamais",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t2.l19.vocab-3#1", "type": "present", "item": "w:mawjud" },
+    { "id": "medine-t2.l19.vocab-3#2", "type": "present", "item": "w:mutab" },
+    {
+      "id": "medine-t2.l19.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mutab",
+      "distractors": ["w:marid", "w:asif"]
+    },
+    { "id": "medine-t2.l19.vocab-3#4", "type": "present", "item": "w:abadan" },
+    { "id": "medine-t2.l19.vocab-3#5", "type": "present", "item": "w:bad-2" },
+    { "id": "medine-t2.l19.vocab-3#6", "type": "present", "item": "w:mustaqbal" },
+    {
+      "id": "medine-t2.l19.vocab-3#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:mawjud", "w:abadan", "w:bad-2", "w:mustaqbal"]
+    },
+    {
+      "id": "medine-t2.l19.vocab-3#8",
+      "type": "fill_gap",
+      "sentence": "الْكِتَابُ {0} فِي الْمَكْتَبَةِ.",
+      "fr": "Le livre se trouve à la bibliothèque.",
+      "gaps": [ { "answers": ["مَوْجُودٌ"] } ],
+      "options": ["مَوْجُودٌ", "مُتْعَبٌ", "آسِفٌ"],
+      "explain": "{ar|مَوْجُودٌ} : « présent, qui se trouve quelque part »."
+    },
+    {
+      "id": "medine-t2.l19.vocab-3#9",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} جِدًّا.",
+      "fr": "Je suis très fatigué.",
+      "gaps": [ { "answers": ["مُتْعَبٌ"] } ],
+      "options": ["مُتْعَبٌ", "مَوْجُودٌ", "هِنْدِيٌّ"],
+      "explain": "{ar|مُتْعَبٌ} : « fatigué »."
+    },
+    {
+      "id": "medine-t2.l19.vocab-3#10",
+      "type": "order",
+      "fr": "Avant le début du cours, je m'assois en classe.",
+      "answers": [
+        ["قَبْلَ", "بَدْءِ", "الدَّرْسِ", "أَجْلِسُ", "فِي", "الْفَصْلِ"],
+        ["أَجْلِسُ", "فِي", "الْفَصْلِ", "قَبْلَ", "بَدْءِ", "الدَّرْسِ"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|بَدْءِ الدَّرْسِ} : annexion, {ar|الدَّرْسِ} est au génitif."
+    },
+    {
+      "id": "medine-t2.l19.vocab-3#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je ne frappe jamais Zayd.",
+      "answers": ["لَا أَضْرِبُ زَيْدًا أَبَدًا.", "أَنَا لَا أَضْرِبُ زَيْدًا أَبَدًا."],
+      "explain": "{ar|لَا} + {ar|أَضْرِبُ} + {ar|أَبَدًا} : « jamais »."
+    },
+    { "id": "medine-t2.l19.vocab-3#12", "type": "build", "item": "w:mutab", "extra": ["ط"] },
+    { "id": "medine-t2.l19.vocab-3#13", "type": "typing", "ask": "fr", "item": "w:mustaqbal" }
+  ]
+}

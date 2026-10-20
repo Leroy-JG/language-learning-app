@@ -1,0 +1,261 @@
+[
+  {
+    "id": "w:lan-nasiba",
+    "kind": "word",
+    "ar": "لَنْ النَّاصِبَةُ",
+    "fr": "le {ar|لَنْ} qui met le verbe à l'accusatif et nie le futur",
+    "translit": "lan an-nāṣibatu",
+    "note": "C'est la particule {ar|لَنْ} devant un verbe au présent. Elle le met à l'accusatif ({ar|النَّصْبُ}) et lui donne le sens de la négation au futur. Tu la connais depuis le chapitre 12 ; ici, le professeur lui donne son nom, comme à {ar|أَنْ النَّاصِبَةُ} (chapitre 17).",
+    "example": { "ar": "لَنْ أَكْتُبَ.", "fr": "Je n'écrirai pas." }
+  },
+  {
+    "id": "w:indama",
+    "kind": "word",
+    "ar": "عِنْدَمَا",
+    "fr": "quand, lorsque",
+    "translit": "ʿindamā",
+    "note": "Le mot est formé de {ar|عِنْدَ} (« chez, auprès de ») et de {ar|مَا}. Il se place devant une phrase, avec un verbe au passé ou au présent. Après {ar|عِنْدَمَا}, le présent garde sa damma : ce n'est pas un {ar|نَاصِبٌ} ({ar|عِنْدَمَا تَذْهَبُ}, « quand tu iras »).",
+    "example": { "ar": "عِنْدَمَا دَخَلْتُ الْمَسْجِدَ صَلَّيْتُ.", "fr": "Quand je suis entré dans la mosquée, j'ai prié." }
+  },
+  {
+    "id": "w:hindi",
+    "kind": "word",
+    "ar": "هِنْدِيٌّ",
+    "fr": "indien",
+    "translit": "hindiyyun",
+    "plural": "هُنُودٌ",
+    "icon": "india",
+    "note": "Comme nom, c'est « un Indien » ; le pluriel {ar|هُنُودٌ} veut dire « des Indiens » (avec l'article, {ar|الْهُنُودُ} : « les Indiens »). Le féminin est {ar|هِنْدِيَّةٌ}. {ar|قَوْمٌ} veut dire « un peuple ».",
+    "example": { "ar": "الْهُنُودُ قَوْمٌ يَسْكُنُونَ الْهِنْدَ.", "fr": "Les Indiens sont un peuple qui habite l'Inde." }
+  },
+  {
+    "id": "w:sifara",
+    "kind": "word",
+    "ar": "سِفَارَةٌ",
+    "fr": "une ambassade",
+    "translit": "sifāratun",
+    "plural": "سِفَارَاتٌ",
+    "gender": "f",
+    "note": "Le {ar|ة} devient {ar|ت} devant un pronom collé : {ar|سِفَارَتُهُ} (« son ambassade »). Dans une annexion, il reste {ar|ة} : {ar|سِفَارَةُ الْهِنْدِ} (« l'ambassade d'Inde »).",
+    "example": { "ar": "السِّفَارَةُ الْفَرَنْسِيَّةُ فِي الرِّيَاضِ.", "fr": "L'ambassade de France est à Riyad." }
+  },
+  {
+    "id": "w:asif",
+    "kind": "word",
+    "ar": "آسِفٌ",
+    "fr": "désolé",
+    "translit": "ʾāsifun",
+    "plural": "آسِفُونَ",
+    "note": "On dit {ar|أَنَا آسِفٌ} pour s'excuser (« je suis désolé »). Le professeur donne deux pluriels : {ar|آسِفُونَ} (pour des hommes ou un groupe mixte) et {ar|آسِفَاتٌ} (pour des femmes). Le {ar|آ} est un {ar|أَ} suivi d'un alif long.",
+    "example": { "ar": "زَيْدٌ آسِفٌ.", "fr": "Zayd est désolé." }
+  },
+  {
+    "id": "w:dunya",
+    "kind": "word",
+    "ar": "الدُّنْيَا",
+    "fr": "la vie d'ici-bas (la vie présente)",
+    "translit": "ad-dunyā",
+    "gender": "f",
+    "note": "C'est « la plus proche » : le mot est de la même famille que {ar|أَدْنَى} (« plus proche »). Il s'oppose à {ar|الْآخِرَةُ}. Il ne prend aucune voyelle de cas visible (finale {ar|ى}).",
+    "example": { "ar": "الدُّنْيَا قَصِيرَةٌ.", "fr": "La vie d'ici-bas est courte." }
+  },
+  {
+    "id": "w:akhira",
+    "kind": "word",
+    "ar": "الْآخِرَةُ",
+    "fr": "la vie future (l'au-delà)",
+    "translit": "al-ākhiratu",
+    "gender": "f",
+    "note": "C'est « la dernière » : le féminin de {ar|آخِرٌ} (« dernier »). Elle s'oppose à {ar|الدُّنْيَا}.",
+    "example": { "ar": "الْآخِرَةُ قَرِيبَةٌ.", "fr": "L'au-delà est proche." }
+  },
+  {
+    "id": "w:nabi-2",
+    "kind": "word",
+    "ar": "نَبِيٌّ",
+    "fr": "un prophète",
+    "translit": "nabiyyun",
+    "plural": "أَنْبِيَاءُ",
+    "gender": "m",
+    "note": "Tu connais {ar|النَّبِيُّ} (« le Prophète », Muḥammad ﷺ). Sans article, {ar|نَبِيٌّ} est « un prophète » parmi d'autres. Le pluriel {ar|أَنْبِيَاءُ} n'a pas de tanwin.",
+    "example": { "ar": "الْأَنْبِيَاءُ خَيْرُ النَّاسِ.", "fr": "Les prophètes sont les meilleurs des gens." }
+  },
+  {
+    "id": "w:khayr-2",
+    "kind": "word",
+    "ar": "خَيْرٌ",
+    "fr": "meilleur, mieux",
+    "translit": "khayrun",
+    "plural": "خِيَارٌ",
+    "note": "Tu as déjà vu {ar|خَيْرٌ} au sens de « du bien » (Révision 1 du tome 1). Ici, c'est le comparatif et le superlatif de « bon » : on le suit de {ar|مِنْ} pour comparer ({ar|خَيْرٌ مِنَ الدُّنْيَا}), ou d'un nom au génitif pour dire « le meilleur de » ({ar|خَيْرُ النَّاسِ}). Il n'a pas la forme {ar|أَفْعَلُ} du chapitre 3.",
+    "example": { "ar": "الْآخِرَةُ خَيْرٌ مِنَ الدُّنْيَا.", "fr": "L'au-delà est meilleur que la vie d'ici-bas." }
+  },
+  {
+    "id": "w:harir",
+    "kind": "word",
+    "ar": "حَرِيرٌ",
+    "fr": "de la soie",
+    "translit": "ḥarīrun",
+    "gender": "m",
+    "note": "Dans le droit musulman, les hommes n'ont en principe pas le droit de porter de la soie ; elle est permise aux femmes. {ar|حَرَامٌ} : « interdit » (chapitre 23 du tome 1).",
+    "example": { "ar": "الْحَرِيرُ حَرَامٌ عَلَى الرِّجَالِ.", "fr": "La soie est interdite aux hommes." }
+  },
+  {
+    "id": "w:khamr",
+    "kind": "word",
+    "ar": "خَمْرٌ",
+    "fr": "de l'alcool (une boisson enivrante)",
+    "translit": "khamrun",
+    "plural": "خُمُورٌ",
+    "gender": "f",
+    "note": "Le mot a d'abord désigné le vin ; il s'emploie pour toute boisson enivrante. Il peut être féminin ou masculin (les dictionnaires l'admettent). Ici, on l'emploie au féminin.",
+    "example": { "ar": "لَنْ أَشْرَبَ الْخَمْرَ.", "fr": "Je ne boirai pas d'alcool." }
+  },
+  {
+    "id": "w:mawjud",
+    "kind": "word",
+    "ar": "مَوْجُودٌ",
+    "fr": "présent (qui se trouve quelque part)",
+    "translit": "mawjūdun",
+    "plural": "مَوْجُودُونَ",
+    "note": "C'est le participe passif de {ar|وَجَدَ} (« trouver ») : « qui est trouvé », donc « qui se trouve, présent ». Le pluriel {ar|مَوْجُودُونَ} est pour des hommes (ou un groupe mixte).",
+    "example": { "ar": "الْكِتَابُ مَوْجُودٌ فِي الْمَكْتَبَةِ.", "fr": "Le livre se trouve à la bibliothèque." }
+  },
+  {
+    "id": "w:mutab",
+    "kind": "word",
+    "ar": "مُتْعَبٌ",
+    "fr": "fatigué",
+    "translit": "mutʿabun",
+    "note": "Le féminin est {ar|مُتْعَبَةٌ}. {ar|جِدًّا} (« très ») se place après.",
+    "example": { "ar": "أَنَا مُتْعَبٌ جِدًّا.", "fr": "Je suis très fatigué." }
+  },
+  {
+    "id": "w:abadan",
+    "kind": "word",
+    "ar": "أَبَدًا",
+    "fr": "jamais",
+    "translit": "abadan",
+    "note": "Avec une négation du présent ou du futur ({ar|لَا}, {ar|لَنْ}), il veut dire « jamais » : {ar|لَنْ أَشْرَبَ الْخَمْرَ أَبَدًا}. Dans une phrase sans négation, il veut dire « toujours, à jamais ». Il se termine par un tanwin fatha.",
+    "example": { "ar": "لَا أَضْرِبُ زَيْدًا أَبَدًا.", "fr": "Je ne frappe jamais Zayd." }
+  },
+  {
+    "id": "w:bad-2",
+    "kind": "word",
+    "ar": "بَدْءٌ",
+    "fr": "un début, un commencement",
+    "translit": "badʾun",
+    "gender": "m",
+    "note": "C'est le nom d'action de {ar|بَدَأَ} (« commencer », chapitre 17) : {ar|بَدْءُ الدَّرْسِ} (« le début du cours »).",
+    "example": {
+      "ar": "قَبْلَ بَدْءِ الدَّرْسِ أَجْلِسُ فِي الْفَصْلِ.",
+      "fr": "Avant le début du cours, je m'assois en classe."
+    }
+  },
+  {
+    "id": "w:mustaqbal",
+    "kind": "word",
+    "ar": "مُسْتَقْبَلٌ",
+    "fr": "un avenir, le futur",
+    "translit": "mustaqbalun",
+    "gender": "m",
+    "note": "{ar|فِي الْمُسْتَقْبَلِ} : « à l'avenir ».",
+    "example": { "ar": "سَأَذْهَبُ إِلَى الْهِنْدِ فِي الْمُسْتَقْبَلِ.", "fr": "J'irai en Inde à l'avenir." }
+  },
+  {
+    "id": "w:itamara",
+    "kind": "word",
+    "ar": "اِعْتَمَرَ",
+    "fr": "il a accompli la ʿumra (accomplir la ʿumra)",
+    "translit": "iʿtamara",
+    "icon": "kaaba",
+    "note": "La ʿumra est le « petit pèlerinage » à La Mecque : à la différence du ḥajj, qui a ses dates, on peut en principe l'accomplir toute l'année.",
+    "example": { "ar": "اِعْتَمَرَ زَيْدٌ فِي مَكَّةَ.", "fr": "Zayd a accompli la ʿumra à La Mecque." }
+  },
+  {
+    "id": "w:jaza",
+    "kind": "word",
+    "ar": "جَزَى",
+    "fr": "il a récompensé (récompenser)",
+    "translit": "jazā",
+    "note": "Il se termine par un {ar|ى} : au présent, {ar|يَجْزِي} ; à l'impératif, le {ar|ي} tombe : {ar|اِجْزِ} (comme {ar|لَمْ يَمْشِ} au chapitre 13).",
+    "example": { "ar": "جَزَى اللَّهُ زَيْدًا خَيْرًا.", "fr": "Qu'Allah récompense Zayd en bien." }
+  },
+  {
+    "id": "p:jazaka-allah-khayran",
+    "kind": "phrase",
+    "ar": "جَزَاكَ اللَّهُ خَيْرًا",
+    "fr": "qu'Allah te récompense en bien (merci)",
+    "translit": "jazāka llāhu khayran",
+    "note": "C'est une formule de remerciement. À une femme : {ar|جَزَاكِ اللَّهُ خَيْرًا} ; à plusieurs personnes : {ar|جَزَاكُمُ اللَّهُ خَيْرًا}. Le verbe est au passé, mais il exprime un souhait (comme {ar|شَفَاكَ اللَّهُ}) : {ar|جَزَى} + {ar|كَ} (« toi ») + {ar|اللَّهُ} (le sujet) + {ar|خَيْرًا} (« un bien »).",
+    "example": { "ar": "أَشْكُرُكَ، جَزَاكَ اللَّهُ خَيْرًا.", "fr": "Je te remercie, qu'Allah te récompense en bien." }
+  },
+  {
+    "id": "w:sabara",
+    "kind": "word",
+    "ar": "صَبَرَ",
+    "fr": "il a patienté (patienter)",
+    "translit": "ṣabara",
+    "note": "On dit {ar|صَبَرَ عَلَى} + un nom : « supporter avec patience » ({ar|لَنْ نَصْبِرَ عَلَى طَعَامٍ وَاحِدٍ}).",
+    "example": { "ar": "صَبَرَ زَيْدٌ.", "fr": "Zayd a patienté." }
+  },
+  {
+    "id": "w:taraka",
+    "kind": "word",
+    "ar": "تَرَكَ",
+    "fr": "il a laissé, il a délaissé (laisser)",
+    "translit": "taraka",
+    "note": "Il prend directement son complément d'objet, à l'accusatif : {ar|تَرَكَ الْكِتَابَ} (« il a laissé le livre »).",
+    "example": { "ar": "تَرَكَ زَيْدٌ الْكِتَابَ فِي الْبَيْتِ.", "fr": "Zayd a laissé le livre à la maison." }
+  },
+  {
+    "id": "w:ramadan",
+    "kind": "word",
+    "ar": "رَمَضَانُ",
+    "fr": "Ramadan (le neuvième mois)",
+    "translit": "ramaḍānu",
+    "note": "Il n'a pas de tanwin et prend la fatha au génitif : {ar|قَبْلَ رَمَضَانَ} (« avant Ramadan »). On dit aussi {ar|شَهْرُ رَمَضَانَ} (« le mois de Ramadan »).",
+    "example": { "ar": "سَيَرْجِعُ أَبِي قَبْلَ رَمَضَانَ.", "fr": "Mon père reviendra avant Ramadan." }
+  },
+  {
+    "id": "w:yahud",
+    "kind": "word",
+    "ar": "الْيَهُودُ",
+    "fr": "les Juifs",
+    "translit": "al-yahūdu",
+    "note": "C'est le mot que le professeur écrit dans l'exercice 5. Au singulier, {ar|يَهُودِيٌّ} veut dire « un Juif ». Dans le verset de la sourate al-Baqara (verset 61), les paroles sont adressées aux fils d'Israël ({ar|بَنُو إِسْرَائِيلَ})."
+  },
+  {
+    "id": "w:musa-nabi",
+    "kind": "word",
+    "ar": "مُوسَى",
+    "fr": "Moïse",
+    "translit": "mūsā",
+    "note": "Moïse, le prophète. C'est un nom étranger : il n'a pas de tanwin. Ne le confonds pas avec {ar|مُوسًى} (« un rasoir », chapitre 14), qui prend le tanwin.",
+    "example": { "ar": "مُوسَى نَبِيٌّ.", "fr": "Moïse est un prophète." }
+  },
+  {
+    "id": "w:bukhari",
+    "kind": "word",
+    "ar": "الْبُخَارِيُّ",
+    "fr": "al-Bukhārī (auteur d'un recueil de hadiths)",
+    "translit": "al-bukhāriyyu",
+    "note": "Al-Bukhārī est l'auteur du {ar|صَحِيحُ الْبُخَارِيِّ}, un des recueils de hadiths les plus connus ({ar|حَدِيثٌ}, chapitre 17)."
+  },
+  {
+    "id": "p:rawahu-bukhari",
+    "kind": "phrase",
+    "ar": "رَوَاهُ الْبُخَارِيُّ",
+    "fr": "rapporté par al-Bukhārī",
+    "translit": "rawāhu l-bukhāriyyu",
+    "note": "C'est la formule qui suit un hadith pour dire où on le trouve. {ar|رَوَاهُ} : « il l'a rapporté » ({ar|رَوَى} + {ar|هُ})."
+  },
+  {
+    "id": "p:alayhi-salam",
+    "kind": "phrase",
+    "ar": "عَلَيْهِ السَّلَامُ",
+    "fr": "que la paix soit sur lui",
+    "translit": "ʿalayhi s-salāmu",
+    "note": "On la dit après le nom d'un prophète, par exemple {ar|مُوسَى}. Pour Muḥammad ﷺ, on dit {ar|صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ} (chapitre 5)."
+  }
+]

@@ -1,0 +1,114 @@
+{
+  "id": "medine-t2.l19.grammar-3",
+  "type": "grammar",
+  "title": "Les trois nawāṣib",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l19.grammar-3#1",
+      "type": "tip",
+      "title": "Le tableau du professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur résume les {ar|النَّوَاصِبُ} vus jusqu'ici : trois particules qui mettent le présent à l'accusatif. Chacune a son exemple."
+        },
+        {
+          "type": "table",
+          "header": ["Particule", "Exemple du professeur", "Sens"],
+          "rows": [
+            [
+              "{ar|لَنْ}",
+              "{ar|لَنْ أَخْرُجَ الْيَوْمَ مِنَ الْبَيْتِ}",
+              "Je ne sortirai pas de la maison aujourd'hui."
+            ],
+            ["{ar|أَنْ}", "{ar|أُرِيدُ أَنْ آكُلَ}", "Je veux manger."],
+            [
+              "{ar|لَامُ التَّعْلِيلِ}",
+              "{ar|ذَهَبْتُ إِلَى الْمَطْعَمِ لِآكُلَ}",
+              "Je suis allé au restaurant pour manger."
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Il existe d'autres {ar|نَوَاصِبُ} (par exemple {ar|كَيْ}), qui ne font pas partie de ce cours. Les trois d'aujourd'hui mettent le verbe à l'accusatif, mais elles n'ont pas le même sens : {ar|لَنْ} nie le futur, {ar|أَنْ} donne au verbe le sens du nom d'action, le {ar|لِ} dit le but."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l19.grammar-3#2",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|ذَهَبْتُ إِلَى الْمَطْعَمِ لِآكُلَ}, quelle particule dit le but ?" },
+      "choices": [ { "ar": "لِ" }, { "ar": "لَنْ" }, { "ar": "أَنْ" } ],
+      "answer": 0,
+      "explain": "Le {ar|لِ} collé à {ar|آكُلَ} dit le but : « pour manger »."
+    },
+    {
+      "id": "medine-t2.l19.grammar-3#3",
+      "type": "spot",
+      "instruction": "Touche la particule qui nie le futur.",
+      "words": ["هُوَ", "لَنْ", "يَأْكُلَ", "فِي", "الْمَطْعَمِ."],
+      "answers": [1],
+      "fr": "Il ne mangera pas au restaurant.",
+      "explain": "{ar|لَنْ} nie le futur : « il ne mangera pas »."
+    },
+    {
+      "id": "medine-t2.l19.grammar-3#4",
+      "type": "sort",
+      "categories": [
+        { "fr": "elle nie le futur" },
+        { "fr": "elle dit le but" },
+        { "fr": "elle dépend d'un verbe comme « vouloir »" }
+      ],
+      "cards": [
+        { "ar": "لَنْ أَخْرُجَ الْيَوْمَ", "category": 0 },
+        { "ar": "خَرَجْتُ لِأَشْتَرِيَ خُبْزًا", "category": 1 },
+        { "ar": "أُرِيدُ أَنْ أَخْرُجَ", "category": 2 },
+        { "ar": "لَنْ نَذْهَبَ إِلَى السُّوقِ", "category": 0 },
+        { "ar": "ذَهَبْنَا لِنَشْتَرِيَ الْخُبْزَ", "category": 1 },
+        { "ar": "أَرْجُو أَنْ تَجْلِسَ هُنَا", "category": 2 }
+      ],
+      "instruction": "Que dit la phrase ?",
+      "explain": "Avec {ar|لَنْ}, on nie un futur. Avec le {ar|لِ} collé au verbe, on dit « pour… ». Avec {ar|أَنْ} après « je veux » ou « je te prie », on dit ce qu'on veut ou ce qu'on demande."
+    },
+    {
+      "id": "medine-t2.l19.grammar-3#5",
+      "type": "fill_gap",
+      "sentence": "ذَهَبْتُ إِلَى الْمَطْعَمِ {0} آكُلَ.",
+      "fr": "Je suis allé au restaurant pour manger.",
+      "gaps": [ { "answers": ["لِ"] } ],
+      "options": ["لِ", "لَنْ", "أَنْ"],
+      "explain": "« Pour manger » : le {ar|لِ} de but ({ar|لِآكُلَ}, en un seul mot). {ar|لَنْ} nierait le futur ; {ar|أَنْ} ne dit pas le but."
+    },
+    {
+      "id": "medine-t2.l19.grammar-3#6",
+      "type": "true_false",
+      "statement": {
+        "fr": "Après le {ar|لِ} de but, après {ar|أَنْ} et après {ar|لَنْ}, le verbe au présent est à l'accusatif."
+      },
+      "answer": true,
+      "explain": "Oui : ce sont les trois {ar|النَّوَاصِبُ} vus jusqu'ici."
+    },
+    {
+      "id": "medine-t2.l19.grammar-3#7",
+      "type": "order",
+      "fr": "Je ne sortirai pas de la maison aujourd'hui.",
+      "answers": [
+        ["لَنْ", "أَخْرُجَ", "الْيَوْمَ", "مِنَ", "الْبَيْتِ"],
+        ["لَنْ", "أَخْرُجَ", "مِنَ", "الْبَيْتِ", "الْيَوْمَ"]
+      ],
+      "punctuation": ".",
+      "explain": "C'est la phrase du professeur : {ar|لَنْ أَخْرُجَ الْيَوْمَ مِنَ الْبَيْتِ}."
+    },
+    {
+      "id": "medine-t2.l19.grammar-3#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je suis allé au restaurant pour manger.",
+      "answers": ["ذَهَبْتُ إِلَى الْمَطْعَمِ لِآكُلَ."],
+      "explain": "{ar|لِآكُلَ} : le {ar|لِ} de but + {ar|آكُلَ} à la fatha."
+    }
+  ]
+}

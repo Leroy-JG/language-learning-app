@@ -1,0 +1,164 @@
+{
+  "id": "medine-t2.l19.dialogue-1",
+  "type": "dialogue",
+  "title": "Un livre d'Inde",
+  "icon": "india",
+  "screens": [
+    {
+      "id": "medine-t2.l19.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Un livre d'Inde",
+      "intro": "ʿAmr demande un service à Ayyūb. Écoute {ar|لَنْ} suivi d'un verbe à l'accusatif.",
+      "speakers": { "E": { "name": "ʿAmr", "voice": "m1" }, "A": { "name": "Ayyūb", "voice": "m2" } },
+      "lines": [
+        {
+          "speaker": "E",
+          "ar": "أَرْجُو أَنْ تَشْتَرِيَ لِي هٰذَا الْكِتَابَ مِنَ الْهِنْدِ عِنْدَمَا تَذْهَبُ إِلَى هُنَاكَ فِي عُطْلَةِ الصَّيْفِ. إِنَّهُ بِاللُّغَةِ الْأُرْدِيَّةِ، وَمَا وَجَدْتُهُ فِي الْمَكْتَبَاتِ هُنَا.",
+          "fr": "Je te prie de m'acheter ce livre en Inde, quand tu iras là-bas pendant les vacances d'été. Il est en ourdou, et je ne l'ai pas trouvé dans les librairies d'ici."
+        },
+        {
+          "speaker": "A",
+          "ar": "أَنَا آسِفٌ. إِنِّي لَنْ أَذْهَبَ إِلَى الْهِنْدِ فِي عُطْلَةِ الصَّيْفِ. أُرِيدُ أَنْ أَذْهَبَ إِلَى بَغْدَادَ لِأَزُورَ خَالِي الَّذِي يَعْمَلُ فِي سِفَارَةِ الْهِنْدِ هُنَاكَ.",
+          "fr": "Je suis désolé. Je n'irai pas en Inde pendant les vacances d'été. Je veux aller à Bagdad pour rendre visite à mon oncle maternel, qui travaille à l'ambassade d'Inde là-bas."
+        },
+        {
+          "speaker": "E",
+          "ar": "وَإِخْوَتُكَ، أَلَا يَذْهَبُونَ إِلَى الْهِنْدِ؟",
+          "fr": "Et tes frères, n'iront-ils pas en Inde ?"
+        },
+        {
+          "speaker": "A",
+          "ar": "نَعَمْ. هُمْ أَيْضًا لَنْ يَذْهَبُوا هٰذَا الْعَامَ. يُرِيدُونَ أَنْ يَبْقَوْا بِالْمَدِينَةِ الْمُنَوَّرَةِ لِيَحْفَظُوا الْقُرْآنَ الْكَرِيمَ.",
+          "fr": "En effet. Eux non plus n'iront pas cette année. Ils veulent rester à Médine pour mémoriser le noble Coran."
+        },
+        { "speaker": "E", "ar": "وَأَخَوَاتُكَ؟", "fr": "Et tes sœurs ?" },
+        {
+          "speaker": "A",
+          "ar": "هُنَّ أَيْضًا لَنْ يَذْهَبْنَ إِلَى الْهِنْدِ فِي هٰذِهِ الْعُطْلَةِ. يُرِدْنَ أَنْ يَذْهَبْنَ إِلَى مَكَّةَ أَوَّلًا لِيَعْتَمِرْنَ وَيَبْقَيْنَ هُنَاكَ شَهْرًا عِنْدَ خَالَتِنَا. ثُمَّ سَيَذْهَبْنَ إِلَى الرِّيَاضِ لِزِيَارَةِ عَمِّنَا الَّذِي يَعْمَلُ فِي أَحَدِ الْمَصَارِفِ هُنَاكَ.",
+          "fr": "Elles non plus n'iront pas en Inde pendant ces vacances. Elles veulent d'abord aller à La Mecque pour accomplir la ʿumra et y rester un mois chez notre tante maternelle. Puis elles iront à Riyad rendre visite à notre oncle paternel, qui travaille dans l'une des banques de là-bas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l19.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Presque tout ce texte est connu. Voici ce qu'il faut remarquer :" },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            ["{ar|عِنْدَمَا تَذْهَبُ}", "quand tu iras", "après {ar|عِنْدَمَا}, le présent garde sa damma"],
+            ["{ar|وَمَا وَجَدْتُهُ}", "et je ne l'ai pas trouvé", "{ar|مَا} devant un verbe au passé le nie"],
+            ["{ar|إِنِّي لَنْ أَذْهَبَ}", "je n'irai pas", "{ar|إِنَّ} + {ar|ي}, puis {ar|لَنْ} + la fatha"],
+            [
+              "{ar|أَلَا يَذْهَبُونَ؟}",
+              "n'iront-ils pas ?",
+              "{ar|أَ} (la question) + {ar|لَا} ; le verbe garde son {ar|ن} : ce n'est pas {ar|أَلَّا}"
+            ],
+            [
+              "{ar|نَعَمْ}",
+              "en effet",
+              "après une question négative, {ar|نَعَمْ} confirme la négation : « oui, ils n'iront pas ». Pour la contredire (« si, ils iront »), on dirait {ar|بَلَى} (chapitre 4)"
+            ],
+            [
+              "{ar|لِيَحْفَظُوا}",
+              "pour mémoriser",
+              "le {ar|لِ} de but + le verbe à l'accusatif (le {ar|ن} de {ar|يَحْفَظُونَ} tombe)"
+            ],
+            [
+              "{ar|لِيَعْتَمِرْنَ وَيَبْقَيْنَ}",
+              "pour accomplir la ʿumra et rester",
+              "pour « elles », le {ar|ن} ne tombe jamais ; {ar|يَبْقَى} devient {ar|يَبْقَيْنَ}"
+            ],
+            ["{ar|أَحَدِ الْمَصَارِفِ}", "l'une des banques", "{ar|أَحَدُ} + un pluriel défini : « l'un de »"],
+            ["{ar|أَوَّلًا}", "d'abord", "de {ar|أَوَّلُ} (« premier »), avec un tanwin fatha"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Pour « eux », le {ar|ى} de {ar|يَبْقَى} tombe, la fatha reste et le {ar|و} du pluriel s'ajoute : {ar|يَبْقَوْنَ}, et après {ar|أَنْ} : {ar|يَبْقَوْا}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l19.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Que demande ʿAmr à Ayyūb ?" },
+      "choices": [
+        { "fr": "De lui acheter un livre en ourdou en Inde" },
+        { "fr": "De l'accompagner en Inde" },
+        { "fr": "De lui prêter un livre" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l19.dialogue-1#1" },
+      "explain": "{ar|أَرْجُو أَنْ تَشْتَرِيَ لِي هٰذَا الْكِتَابَ مِنَ الْهِنْدِ} : « je te prie de m'acheter ce livre en Inde »."
+    },
+    {
+      "id": "medine-t2.l19.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi Ayyūb n'ira-t-il pas en Inde ?" },
+      "choices": [
+        { "fr": "Il veut rendre visite à son oncle maternel à Bagdad" },
+        { "fr": "Il est malade" },
+        { "fr": "Il est trop fatigué" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l19.dialogue-1#1" },
+      "explain": "{ar|أُرِيدُ أَنْ أَذْهَبَ إِلَى بَغْدَادَ لِأَزُورَ خَالِي} : « je veux aller à Bagdad pour rendre visite à mon oncle maternel »."
+    },
+    {
+      "id": "medine-t2.l19.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Les frères d'Ayyūb iront en Inde cette année." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l19.dialogue-1#1" },
+      "explain": "Non : {ar|هُمْ أَيْضًا لَنْ يَذْهَبُوا هٰذَا الْعَامَ}. Ils veulent rester à Médine pour mémoriser le Coran."
+    },
+    {
+      "id": "medine-t2.l19.dialogue-1#6",
+      "type": "question",
+      "prompt": { "fr": "Que feront les sœurs d'Ayyūb à La Mecque ?" },
+      "choices": [
+        { "fr": "Elles accompliront la ʿumra et resteront un mois chez leur tante maternelle" },
+        { "fr": "Elles mémoriseront le Coran" },
+        { "fr": "Elles rendront visite à leur oncle maternel" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l19.dialogue-1#1" },
+      "explain": "{ar|لِيَعْتَمِرْنَ وَيَبْقَيْنَ هُنَاكَ شَهْرًا عِنْدَ خَالَتِنَا} : « pour accomplir la ʿumra et y rester un mois chez notre tante maternelle »."
+    },
+    {
+      "id": "medine-t2.l19.dialogue-1#7",
+      "type": "fill_gap",
+      "sentence": "هُمْ أَيْضًا لَنْ {0} هٰذَا الْعَامَ.",
+      "fr": "Eux non plus n'iront pas cette année.",
+      "gaps": [ { "answers": ["يَذْهَبُوا"] } ],
+      "options": ["يَذْهَبُوا", "يَذْهَبْنَ", "يَذْهَبَ"],
+      "context": { "dialogue": "medine-t2.l19.dialogue-1#1" },
+      "explain": "« Eux » : le verbe est au pluriel masculin, et le {ar|ن} de {ar|يَذْهَبُونَ} tombe après {ar|لَنْ} : {ar|يَذْهَبُوا}."
+    },
+    {
+      "id": "medine-t2.l19.dialogue-1#8",
+      "type": "order",
+      "fr": "Je veux aller à Bagdad pour rendre visite à mon oncle maternel.",
+      "answers": [["أُرِيدُ", "أَنْ", "أَذْهَبَ", "إِلَى", "بَغْدَادَ", "لِأَزُورَ", "خَالِي"]],
+      "punctuation": ".",
+      "explain": "{ar|أُرِيدُ أَنْ أَذْهَبَ} : la fatha ; {ar|لِأَزُورَ} : le {ar|لِ} de but + le verbe à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l19.dialogue-1#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je n'irai pas en Inde pendant les vacances d'été.",
+      "answers": [
+        "إِنِّي لَنْ أَذْهَبَ إِلَى الْهِنْدِ فِي عُطْلَةِ الصَّيْفِ.",
+        "لَنْ أَذْهَبَ إِلَى الْهِنْدِ فِي عُطْلَةِ الصَّيْفِ.",
+        "أَنَا لَنْ أَذْهَبَ إِلَى الْهِنْدِ فِي عُطْلَةِ الصَّيْفِ."
+      ],
+      "explain": "{ar|لَنْ أَذْهَبَ} : « je n'irai pas ». Le {ar|إِنِّي} du texte est facultatif."
+    }
+  ]
+}

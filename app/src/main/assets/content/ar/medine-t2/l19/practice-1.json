@@ -1,0 +1,142 @@
+{
+  "id": "medine-t2.l19.practice-1",
+  "type": "grammar",
+  "title": "Exercices 1 et 2 : le texte du livre",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t2.l19.practice-1#1",
+      "type": "question",
+      "prompt": {
+        "fr": "Le manuel propose cette phrase fausse : {ar|يُرِيدُ عَمْرٌو أَنْ يَشْتَرِيَ كِتَابًا فَرَنْسِيًّا مِنَ الْهِنْدِ.} Laquelle est juste ?"
+      },
+      "choices": [
+        { "ar": "يُرِيدُ عَمْرٌو أَنْ يَشْتَرِيَ كِتَابًا بِاللُّغَةِ الْأُرْدِيَّةِ مِنَ الْهِنْدِ." },
+        { "ar": "يُرِيدُ عَمْرٌو أَنْ يَشْتَرِيَ كِتَابًا إِنْكِلِيزِيًّا مِنَ الْهِنْدِ." },
+        { "ar": "يُرِيدُ عَمْرٌو أَنْ يَشْتَرِيَ كِتَابًا فَرَنْسِيًّا مِنْ بَاكِسْتَانَ." }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l19.dialogue-1#1" },
+      "explain": "Dans le texte, ʿAmr dit du livre : {ar|إِنَّهُ بِاللُّغَةِ الْأُرْدِيَّةِ} (« il est en ourdou »)."
+    },
+    {
+      "id": "medine-t2.l19.practice-1#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ يُرِيدُ أَيُّوبُ أَنْ يَذْهَبَ فِي عُطْلَةِ الصَّيْفِ؟",
+      "answers": [
+        "يُرِيدُ أَيُّوبُ أَنْ يَذْهَبَ إِلَى بَغْدَادَ.",
+        "يُرِيدُ أَنْ يَذْهَبَ إِلَى بَغْدَادَ.",
+        "هُوَ يُرِيدُ أَنْ يَذْهَبَ إِلَى بَغْدَادَ.",
+        "أَيُّوبُ يُرِيدُ أَنْ يَذْهَبَ إِلَى بَغْدَادَ.",
+        "إِلَى بَغْدَادَ."
+      ],
+      "fr": "Ayyūb veut aller à Bagdad.",
+      "instruction": "Réponds en arabe : à Bagdad.",
+      "context": { "dialogue": "medine-t2.l19.dialogue-1#1" },
+      "explain": "{ar|أُرِيدُ أَنْ أَذْهَبَ إِلَى بَغْدَادَ} : Ayyūb veut aller à Bagdad. {ar|بَغْدَادَ} n'a pas de tanwin."
+    },
+    {
+      "id": "medine-t2.l19.practice-1#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ يَعْمَلُ خَالُهُ؟",
+      "answers": [
+        "يَعْمَلُ خَالُهُ فِي سِفَارَةِ الْهِنْدِ.",
+        "خَالُهُ يَعْمَلُ فِي سِفَارَةِ الْهِنْدِ.",
+        "يَعْمَلُ فِي سِفَارَةِ الْهِنْدِ.",
+        "هُوَ يَعْمَلُ فِي سِفَارَةِ الْهِنْدِ.",
+        "فِي سِفَارَةِ الْهِنْدِ.",
+        "يَعْمَلُ خَالُهُ فِي سِفَارَةِ الْهِنْدِ فِي بَغْدَادَ.",
+        "يَعْمَلُ خَالُهُ فِي سِفَارَةِ الْهِنْدِ هُنَاكَ.",
+        "فِي سِفَارَةِ الْهِنْدِ فِي بَغْدَادَ."
+      ],
+      "fr": "Son oncle maternel travaille à l'ambassade d'Inde.",
+      "instruction": "Réponds en arabe : à l'ambassade d'Inde.",
+      "context": { "dialogue": "medine-t2.l19.dialogue-1#1" },
+      "explain": "{ar|خَالِي الَّذِي يَعْمَلُ فِي سِفَارَةِ الْهِنْدِ} : « mon oncle maternel, qui travaille à l'ambassade d'Inde »."
+    },
+    {
+      "id": "medine-t2.l19.practice-1#4",
+      "type": "fill_gap",
+      "sentence": "جَعْفَرٌ مِنْ {0}.",
+      "fr": "Jaʿfar est du Pakistan.",
+      "gaps": [ { "answers": ["بَاكِسْتَانَ"] } ],
+      "options": ["بَاكِسْتَانَ", "الْهِنْدِ", "بَغْدَادَ"],
+      "context": { "dialogue": "medine-t2.l19.dialogue-2#1" },
+      "explain": "Le manuel dit {ar|جَعْفَرٌ مِنَ الْهِنْدِ} : c'est faux. ʿAmr dit {ar|لٰكِنَّهُ مِنْ بَاكِسْتَانَ}."
+    },
+    {
+      "id": "medine-t2.l19.practice-1#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَاذَا يُرِيدُ إِخْوَتُهُ أَنْ يَبْقَوْا بِالْمَدِينَةِ الْمُنَوَّرَةِ؟",
+      "answers": [
+        "لِيَحْفَظُوا الْقُرْآنَ الْكَرِيمَ.",
+        "لِيَحْفَظُوا الْقُرْآنَ.",
+        "يُرِيدُونَ أَنْ يَبْقَوْا بِالْمَدِينَةِ الْمُنَوَّرَةِ لِيَحْفَظُوا الْقُرْآنَ الْكَرِيمَ.",
+        "يُرِيدُونَ أَنْ يَبْقَوْا بِالْمَدِينَةِ الْمُنَوَّرَةِ لِيَحْفَظُوا الْقُرْآنَ."
+      ],
+      "fr": "Pour mémoriser le noble Coran.",
+      "instruction": "Réponds en arabe : pour mémoriser le Coran.",
+      "context": { "dialogue": "medine-t2.l19.dialogue-1#1" },
+      "explain": "{ar|لِيَحْفَظُوا} : le {ar|لِ} de but ; le {ar|ن} de {ar|يَحْفَظُونَ} tombe."
+    },
+    {
+      "id": "medine-t2.l19.practice-1#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَاذَا تُرِيدُ أَخَوَاتُهُ أَنْ يَذْهَبْنَ إِلَى مَكَّةَ؟",
+      "answers": [
+        "لِيَعْتَمِرْنَ.",
+        "لِيَعْتَمِرْنَ وَيَبْقَيْنَ هُنَاكَ شَهْرًا عِنْدَ خَالَتِنَا.",
+        "لِيَعْتَمِرْنَ وَيَبْقَيْنَ هُنَاكَ شَهْرًا.",
+        "لِيَعْتَمِرْنَ وَيَبْقَيْنَ هُنَاكَ شَهْرًا عِنْدَ خَالَتِهِنَّ."
+      ],
+      "fr": "Pour accomplir la ʿumra.",
+      "instruction": "Réponds en arabe : pour accomplir la ʿumra.",
+      "context": { "dialogue": "medine-t2.l19.dialogue-1#1" },
+      "explain": "{ar|لِيَعْتَمِرْنَ} : le {ar|لِ} de but ; le {ar|ن} du pronom des femmes ne tombe jamais."
+    },
+    {
+      "id": "medine-t2.l19.practice-1#7",
+      "type": "question",
+      "prompt": {
+        "fr": "Le manuel propose cette phrase fausse : {ar|لَنْ يَرْجِعَ خَالِدٌ لِأَنَّهُ يُرِيدُ أَنْ يَدْرُسَ الطِّبَّ.} (« … parce qu'il veut étudier la médecine »). Pourquoi Khālid ne reviendra-t-il pas ?"
+      },
+      "choices": [
+        { "ar": "لِأَنَّهُ مَرِيضٌ وَسَيَبْقَى فِي الْهِنْدِ لِلْعِلَاجِ." },
+        { "ar": "لِأَنَّهُ مُتْعَبٌ جِدًّا." },
+        { "ar": "لِأَنَّهُ آسِفٌ." }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l19.dialogue-2#1" },
+      "explain": "Dans le texte : {ar|لِأَنَّهُ مَرِيضٌ وَسَيَبْقَى فِي الْهِنْدِ لِلْعِلَاجِ}."
+    },
+    {
+      "id": "medine-t2.l19.practice-1#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِزِيَارَةِ مَنْ يَذْهَبْنَ إِلَى الرِّيَاضِ؟",
+      "answers": [
+        "لِزِيَارَةِ عَمِّهِنَّ.",
+        "يَذْهَبْنَ إِلَى الرِّيَاضِ لِزِيَارَةِ عَمِّهِنَّ.",
+        "لِزِيَارَةِ عَمِّ أَيُّوبَ.",
+        "لِزِيَارَةِ عَمِّهِنَّ الَّذِي يَعْمَلُ فِي أَحَدِ الْمَصَارِفِ.",
+        "يَذْهَبْنَ إِلَى الرِّيَاضِ لِزِيَارَةِ عَمِّ أَيُّوبَ."
+      ],
+      "fr": "Pour rendre visite à leur oncle paternel.",
+      "instruction": "Réponds en arabe : pour rendre visite à leur oncle paternel.",
+      "context": { "dialogue": "medine-t2.l19.dialogue-1#1" },
+      "explain": "{ar|لِزِيَارَةِ عَمِّنَا} dans la bouche d'Ayyūb : « notre oncle paternel ». Pour parler d'elles, on dit {ar|عَمِّهِنَّ} (« leur oncle paternel »)."
+    },
+    {
+      "id": "medine-t2.l19.practice-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ayyūb n'ira pas en Inde.",
+      "answers": ["أَيُّوبُ لَنْ يَذْهَبَ إِلَى الْهِنْدِ.", "لَنْ يَذْهَبَ أَيُّوبُ إِلَى الْهِنْدِ."],
+      "explain": "{ar|لَنْ يَذْهَبَ} : « il n'ira pas ». {ar|أَيُّوبُ} est le sujet, au nominatif."
+    }
+  ]
+}
