@@ -1,0 +1,153 @@
+{
+  "id": "medine-t2.l19.grammar-1",
+  "type": "grammar",
+  "title": "Le {ar|لَنْ} qui nie le futur",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l19.grammar-1#1",
+      "type": "tip",
+      "title": "{ar|لَنْ} : la particule qui nie le futur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur appelle cette particule {ar|لَنْ النَّاصِبَةُ} : le **lan qui met à l'accusatif**. C'est une particule qui agit sur le présent de deux manières :"
+        },
+        {
+          "type": "paragraph",
+          "text": "**1.** elle le rend {ar|مَنْصُوبٌ} (à l'accusatif) ; **2.** elle exprime la négation du verbe au **futur**."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَكْتُبُ", "fr": "j'écris" },
+              "to": { "ar": "لَنْ أَكْتُبَ", "fr": "je n'écrirai pas" },
+              "label": "la fatha après {ar|لَنْ}"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Tu connais déjà {ar|لَنْ} depuis le chapitre 12. Aujourd'hui, le professeur lui donne son nom, comme à {ar|أَنْ النَّاصِبَةُ} au chapitre 17, et analyse les verbes qui la suivent."
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Les grammairiens la décrivent en trois mots : {ar|حَرْفُ نَفْيٍ وَنَصْبٍ وَاسْتِقْبَالٍ}, une particule de négation, d'accusatif et de futur ({ar|اسْتِقْبَالٌ} : « le futur », de la même famille que {ar|مُسْتَقْبَلٌ}, vu plus loin dans ce chapitre)."
+        }
+      ]
+    },
+    { "id": "medine-t2.l19.grammar-1#2", "type": "present", "item": "w:lan-nasiba" },
+    {
+      "id": "medine-t2.l19.grammar-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:lan-nasiba",
+      "distractors": ["w:an-nasiba", "w:lam-taalil"],
+      "explain": "{ar|لَنْ النَّاصِبَةُ} : le {ar|لَنْ} qui nie le futur. {ar|أَنْ النَّاصِبَةُ} est le {ar|أَنْ} de l'accusatif ; {ar|لَامُ التَّعْلِيلِ} est le {ar|لِ} de but."
+    },
+    {
+      "id": "medine-t2.l19.grammar-1#4",
+      "type": "tip",
+      "title": "Analyser le verbe, comme le professeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand le professeur analyse un verbe après {ar|لَنْ}, il dit trois choses : c'est un présent, il est à l'accusatif, et voici la marque."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Analyse du professeur", "Sens"],
+          "rows": [
+            [
+              "{ar|لَنْ يَكْتُبَ زَيْدٌ}",
+              "{ar|يَكْتُبَ فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ الْفَتْحَةُ}",
+              "Zayd n'écrira pas"
+            ],
+            [
+              "{ar|أَنْتُمْ لَنْ تَكْتُبُوا}",
+              "{ar|تَكْتُبُوا فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ حَذْفُ النُّونِ لِأَنَّهُ مِنَ الْأَفْعَالِ الْخَمْسَةِ}",
+              "vous n'écrirez pas (à des hommes)"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans {ar|لَنْ يَكْتُبَ زَيْدٌ}, le sujet {ar|زَيْدٌ} vient après le verbe. Dans {ar|أَنْتُمْ لَنْ تَكْتُبُوا}, le pronom vient avant : la particule se place en général juste devant le verbe."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l19.grammar-1#5",
+      "type": "question",
+      "prompt": { "fr": "Comment le professeur analyse-t-il {ar|يَكْتُبَ} dans {ar|لَنْ يَكْتُبَ زَيْدٌ} ?" },
+      "choices": [
+        { "ar": "يَكْتُبَ فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ الْفَتْحَةُ" },
+        { "ar": "يَكْتُبَ فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الضَّمَّةُ" },
+        { "ar": "يَكْتُبَ فِعْلٌ مُضَارِعٌ مَجْزُومٌ وَعَلَامَةُ جَزْمِهِ السُّكُونُ" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|لَنْ}, le verbe est {ar|مَنْصُوبٌ} (à l'accusatif) et sa marque est {ar|الْفَتْحَةُ}. {ar|مَرْفُوعٌ} (nominatif, la damma) et {ar|مَجْزُومٌ} (jussif, le sukūn) sont les deux autres états."
+    },
+    {
+      "id": "medine-t2.l19.grammar-1#6",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la marque de l'accusatif de {ar|تَكْتُبُوا} dans {ar|أَنْتُمْ لَنْ تَكْتُبُوا} ?" },
+      "choices": [ { "fr": "La chute du {ar|ن}" }, { "fr": "La fatha" }, { "fr": "Le sukūn" } ],
+      "answer": 0,
+      "explain": "{ar|تَكْتُبُونَ} est l'un des cinq verbes ({ar|الْأَفْعَالُ الْخَمْسَةُ}) : à l'accusatif, il perd son {ar|ن} ({ar|حَذْفُ النُّونِ}), il n'a pas de fatha."
+    },
+    {
+      "id": "medine-t2.l19.grammar-1#7",
+      "type": "sort",
+      "categories": [ { "fr": "la fatha" }, { "fr": "le {ar|ن} tombe" }, { "fr": "rien ne change" } ],
+      "cards": [
+        { "ar": "لَنْ أَدْرُسَ", "category": 0 },
+        { "ar": "لَنْ تَسْمَعَ", "category": 0 },
+        { "ar": "لَنْ يَفْتَحُوا", "category": 1 },
+        { "ar": "لَنْ تَسْمَعِي", "category": 1 },
+        { "ar": "لَنْ يَدْرُسْنَ", "category": 2 },
+        { "ar": "لَنْ تَفْتَحْنَ", "category": 2 }
+      ],
+      "instruction": "Que devient la fin du verbe après {ar|لَنْ} ?",
+      "explain": "Un seul sujet (sauf « toi, une femme ») : la fatha. Les cinq verbes ({ar|يَفْتَحُونَ}, {ar|تَسْمَعِينَ}) perdent leur {ar|ن}. Pour les femmes ({ar|يَدْرُسْنَ}), le {ar|ن} est un pronom : rien ne change."
+    },
+    {
+      "id": "medine-t2.l19.grammar-1#8",
+      "type": "spot",
+      "instruction": "Touche le verbe qui est à l'accusatif.",
+      "words": ["الطُّلَّابُ", "لَنْ", "يَدْخُلُوا", "الْفَصْلَ."],
+      "answers": [2],
+      "fr": "Les étudiants n'entreront pas dans la classe.",
+      "explain": "{ar|يَدْخُلُوا} suit {ar|لَنْ} : le {ar|ن} de {ar|يَدْخُلُونَ} est tombé."
+    },
+    {
+      "id": "medine-t2.l19.grammar-1#9",
+      "type": "fill_gap",
+      "sentence": "لَنْ {0} زَيْدٌ إِلَى الْمَدْرَسَةِ.",
+      "fr": "Zayd n'ira pas à l'école.",
+      "gaps": [ { "answers": ["يَذْهَبَ"] } ],
+      "options": ["يَذْهَبَ", "يَذْهَبُوا", "يَذْهَبْنَ"],
+      "explain": "Le sujet est un seul homme, {ar|زَيْدٌ} : le verbe est à la fatha, {ar|يَذْهَبَ}. {ar|يَذْهَبُوا} serait « ils », {ar|يَذْهَبْنَ} « elles »."
+    },
+    {
+      "id": "medine-t2.l19.grammar-1#10",
+      "type": "order",
+      "fr": "Zayd n'écrira pas la leçon.",
+      "answers": [["لَنْ", "يَكْتُبَ", "زَيْدٌ", "الدَّرْسَ"], ["زَيْدٌ", "لَنْ", "يَكْتُبَ", "الدَّرْسَ"]],
+      "punctuation": ".",
+      "explain": "{ar|لَنْ} reste devant le verbe, que le sujet vienne avant ou après."
+    },
+    {
+      "id": "medine-t2.l19.grammar-1#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Vous n'écrirez pas la leçon (à des hommes).",
+      "answers": ["لَنْ تَكْتُبُوا الدَّرْسَ.", "أَنْتُمْ لَنْ تَكْتُبُوا الدَّرْسَ."],
+      "explain": "{ar|لَنْ} + {ar|تَكْتُبُوا} (sans {ar|ن}) : « vous n'écrirez pas »."
+    }
+  ]
+}

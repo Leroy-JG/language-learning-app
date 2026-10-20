@@ -1,0 +1,130 @@
+{
+  "id": "medine-t2.l19.practice-3",
+  "type": "grammar",
+  "title": "Exercice 4 : les négations",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l19.practice-3#1",
+      "type": "tip",
+      "title": "Observe les outils de négation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre met côte à côte trois phrases affirmatives et leur négation. Le temps du verbe décide du petit mot à employer."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Phrase niée", "Temps"],
+          "rows": [
+            [
+              "{ar|ذَهَبْتُ إِلَى السُّوقِ أَمْسِ}",
+              "{ar|مَا ذَهَبْتُ إِلَى السُّوقِ أَمْسِ}",
+              "le passé : « je ne suis pas allé au marché hier »"
+            ],
+            [
+              "{ar|أَذْهَبُ إِلَى السُّوقِ كُلَّ يَوْمٍ}",
+              "{ar|لَا أَذْهَبُ إِلَى السُّوقِ كُلَّ يَوْمٍ}",
+              "le présent : « je ne vais pas au marché chaque jour »"
+            ],
+            [
+              "{ar|سَأَذْهَبُ إِلَى السُّوقِ غَدًا}",
+              "{ar|لَنْ أَذْهَبَ إِلَى السُّوقِ غَدًا}",
+              "le futur : « je n'irai pas au marché demain »"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|مَا} et {ar|لَا} ne changent pas la fin du verbe : la damma reste. Seul {ar|لَنْ} la change en fatha, et remplace {ar|سَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l19.practice-3#2",
+      "type": "sort",
+      "categories": [ { "fr": "le passé (hier)" }, { "fr": "le présent (chaque jour)" }, { "fr": "le futur (demain)" } ],
+      "cards": [
+        { "ar": "مَا شَرِبْتُ الشَّايَ أَمْسِ", "category": 0 },
+        { "ar": "مَا لَعِبْنَا أَمْسِ", "category": 0 },
+        { "ar": "لَا أَشْرَبُ الشَّايَ كُلَّ يَوْمٍ", "category": 1 },
+        { "ar": "لَا يَذْهَبُ زَيْدٌ إِلَى السُّوقِ كُلَّ يَوْمٍ", "category": 1 },
+        { "ar": "لَنْ أَشْرَبَ الشَّايَ غَدًا", "category": 2 },
+        { "ar": "لَنْ نَذْهَبَ إِلَى السُّوقِ غَدًا", "category": 2 }
+      ],
+      "instruction": "Quel temps le verbe nié a-t-il ?",
+      "explain": "{ar|مَا} devant un passé, {ar|لَا} devant un présent habituel, {ar|لَنْ} pour le futur."
+    },
+    {
+      "id": "medine-t2.l19.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "{0} ذَهَبْتُ إِلَى السُّوقِ أَمْسِ.",
+      "fr": "Je ne suis pas allé au marché hier.",
+      "gaps": [ { "answers": ["مَا"] } ],
+      "options": ["مَا", "لَا", "لَنْ"],
+      "explain": "{ar|ذَهَبْتُ} est au passé : on le nie avec {ar|مَا} (ou avec {ar|لَمْ} + le jussif, chapitre 12)."
+    },
+    {
+      "id": "medine-t2.l19.practice-3#4",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|لَا أَذْهَبُ إِلَى السُّوقِ كُلَّ يَوْمٍ}, le verbe {ar|أَذْهَبُ} garde sa damma." },
+      "answer": true,
+      "explain": "Oui : {ar|لَا} ne change pas la fin du verbe. C'est {ar|لَنْ} qui la met à la fatha."
+    },
+    {
+      "id": "medine-t2.l19.practice-3#5",
+      "type": "fill_gap",
+      "sentence": "{0} أَذْهَبُ إِلَى السُّوقِ كُلَّ يَوْمٍ.",
+      "fr": "Je ne vais pas au marché chaque jour.",
+      "gaps": [ { "answers": ["لَا"] } ],
+      "options": ["لَا", "لَنْ", "لَمْ"],
+      "explain": "Le verbe {ar|أَذْهَبُ} est au présent, avec une damma, et il s'agit d'une habitude (« chaque jour ») : on le nie avec {ar|لَا}. {ar|لَنْ} demanderait une fatha, {ar|لَمْ} un sukūn."
+    },
+    {
+      "id": "medine-t2.l19.practice-3#6",
+      "type": "order",
+      "fr": "Je ne suis pas allé au marché hier.",
+      "answers": [["مَا", "ذَهَبْتُ", "إِلَى", "السُّوقِ", "أَمْسِ"]],
+      "punctuation": ".",
+      "explain": "{ar|مَا} + le verbe au passé : {ar|مَا ذَهَبْتُ}."
+    },
+    {
+      "id": "medine-t2.l19.practice-3#7",
+      "type": "fill_gap",
+      "sentence": "{0} أَذْهَبَ إِلَى السُّوقِ غَدًا.",
+      "fr": "Je n'irai pas au marché demain.",
+      "gaps": [ { "answers": ["لَنْ"] } ],
+      "options": ["مَا", "لَا", "لَنْ"],
+      "explain": "Le verbe {ar|أَذْهَبَ} a une fatha : il est à l'accusatif, après {ar|لَنْ}."
+    },
+    {
+      "id": "medine-t2.l19.practice-3#8",
+      "type": "order",
+      "fr": "Nous n'irons pas au marché demain.",
+      "answers": [["لَنْ", "نَذْهَبَ", "إِلَى", "السُّوقِ", "غَدًا"]],
+      "punctuation": ".",
+      "explain": "{ar|لَنْ نَذْهَبَ} : le futur négatif de {ar|نَذْهَبُ}."
+    },
+    {
+      "id": "medine-t2.l19.practice-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je ne vais pas au marché chaque jour.",
+      "answers": [
+        "لَا أَذْهَبُ إِلَى السُّوقِ كُلَّ يَوْمٍ.",
+        "أَنَا لَا أَذْهَبُ إِلَى السُّوقِ كُلَّ يَوْمٍ.",
+        "لَا أَذْهَبُ كُلَّ يَوْمٍ إِلَى السُّوقِ."
+      ],
+      "explain": "{ar|لَا} + {ar|أَذْهَبُ} (damma) : la négation du présent habituel."
+    },
+    {
+      "id": "medine-t2.l19.practice-3#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je n'irai pas au marché demain.",
+      "answers": ["لَنْ أَذْهَبَ إِلَى السُّوقِ غَدًا.", "أَنَا لَنْ أَذْهَبَ إِلَى السُّوقِ غَدًا."],
+      "explain": "{ar|لَنْ أَذْهَبَ} : le futur négatif."
+    }
+  ]
+}

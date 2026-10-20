@@ -1,0 +1,97 @@
+{
+  "id": "medine-t2.l19.revue-1",
+  "type": "review",
+  "title": "Revoir : les particules de l'accusatif",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l19.revue-1#1",
+      "type": "tip",
+      "title": "Trois particules, une fatha",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais déjà trois particules qui mettent le verbe au présent à l'**accusatif** ({ar|النَّصْبُ}) : {ar|لَنْ} (chapitre 12), {ar|أَنْ} et le {ar|لِ} de but (chapitre 17). Chacune change le sens du verbe."
+        },
+        {
+          "type": "table",
+          "header": ["Particule", "Exemple", "Sens"],
+          "rows": [
+            ["{ar|لَنْ}", "{ar|لَنْ أَذْهَبَ}", "nie le futur : « je n'irai pas »"],
+            ["{ar|أَنْ}", "{ar|أُرِيدُ أَنْ أَذْهَبَ}", "« je veux aller »"],
+            ["{ar|لِ} de but", "{ar|ذَهَبْتُ لِأَشْتَرِيَ}", "dit le but : « je suis allé pour acheter »"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Après ces trois particules, la marque de base du verbe est la fatha : {ar|لَنْ أَذْهَبَ}, {ar|أَنْ أَذْهَبَ}, {ar|لِأَذْهَبَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l19.revue-1#2",
+      "type": "sort",
+      "categories": [ { "ar": "لَنْ" }, { "ar": "أَنْ" }, { "ar": "لِ" } ],
+      "cards": [
+        { "fr": "Il n'ira pas à la mosquée.", "category": 0 },
+        { "fr": "Elle veut sortir.", "category": 1 },
+        { "fr": "Je suis venu pour étudier.", "category": 2 },
+        { "fr": "Nous ne boirons pas de thé.", "category": 0 },
+        { "fr": "Je te prie de t'asseoir.", "category": 1 },
+        { "fr": "Il est sorti pour acheter du pain.", "category": 2 }
+      ],
+      "instruction": "Quelle particule irait avec chaque phrase française ?",
+      "explain": "{ar|لَنْ} nie le futur. {ar|أَنْ} suit un verbe comme « vouloir » ou « prier » (« je veux aller »). Le {ar|لِ} dit le but (« pour »)."
+    },
+    {
+      "id": "medine-t2.l19.revue-1#3",
+      "type": "fill_gap",
+      "sentence": "{0} أَذْهَبَ إِلَى الْمَسْجِدِ.",
+      "fr": "Je n'irai pas à la mosquée.",
+      "gaps": [ { "answers": ["لَنْ"] } ],
+      "options": ["لَنْ", "لَمْ", "لَا"],
+      "explain": "« Je n'irai pas » : {ar|لَنْ} + le présent à la fatha. {ar|لَمْ} demande un sukūn, {ar|لَا} une damma."
+    },
+    {
+      "id": "medine-t2.l19.revue-1#4",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|لَنْ}, le verbe au présent garde sa damma." },
+      "answer": false,
+      "explain": "Non : après {ar|لَنْ}, le verbe est à l'accusatif. Sa marque de base est la fatha : {ar|لَنْ يَكْتُبَ}."
+    },
+    {
+      "id": "medine-t2.l19.revue-1#5",
+      "type": "spot",
+      "instruction": "Touche le verbe qui est à l'accusatif.",
+      "words": ["هُمْ", "لَنْ", "يَجْلِسُوا", "هُنَا."],
+      "answers": [2],
+      "fr": "Ils ne s'assiéront pas ici.",
+      "explain": "{ar|يَجْلِسُوا} suit {ar|لَنْ} : le {ar|ن} de {ar|يَجْلِسُونَ} est tombé."
+    },
+    {
+      "id": "medine-t2.l19.revue-1#6",
+      "type": "order",
+      "fr": "Tu n'écriras pas la leçon (à un homme).",
+      "answers": [["لَنْ", "تَكْتُبَ", "الدَّرْسَ"]],
+      "punctuation": ".",
+      "explain": "{ar|لَنْ تَكْتُبَ} : la fatha ; {ar|الدَّرْسَ} est le complément d'objet (accusatif)."
+    },
+    {
+      "id": "medine-t2.l19.revue-1#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles n'iront pas à la mosquée.",
+      "answers": ["لَنْ يَذْهَبْنَ إِلَى الْمَسْجِدِ.", "هُنَّ لَنْ يَذْهَبْنَ إِلَى الْمَسْجِدِ."],
+      "explain": "{ar|يَذْهَبْنَ} : le pronom des femmes ne change pas après {ar|لَنْ}."
+    },
+    {
+      "id": "medine-t2.l19.revue-1#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ils n'écriront pas la leçon.",
+      "answers": ["لَنْ يَكْتُبُوا الدَّرْسَ.", "هُمْ لَنْ يَكْتُبُوا الدَّرْسَ."],
+      "explain": "{ar|يَكْتُبُونَ} perd son {ar|ن} après {ar|لَنْ} : {ar|يَكْتُبُوا}."
+    }
+  ]
+}

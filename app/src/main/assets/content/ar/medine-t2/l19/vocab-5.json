@@ -1,0 +1,44 @@
+{
+  "id": "medine-t2.l19.vocab-5",
+  "type": "vocabulary",
+  "title": "Un verset et un hadith",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t2.l19.vocab-5#1", "type": "present", "item": "w:ramadan" },
+    { "id": "medine-t2.l19.vocab-5#2", "type": "present", "item": "w:yahud" },
+    { "id": "medine-t2.l19.vocab-5#3", "type": "present", "item": "w:musa-nabi" },
+    {
+      "id": "medine-t2.l19.vocab-5#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:musa-nabi",
+      "distractors": ["w:ayyub", "w:baghdad"]
+    },
+    { "id": "medine-t2.l19.vocab-5#5", "type": "present", "item": "w:bukhari" },
+    { "id": "medine-t2.l19.vocab-5#6", "type": "present", "item": "p:rawahu-bukhari" },
+    { "id": "medine-t2.l19.vocab-5#7", "type": "present", "item": "p:alayhi-salam" },
+    {
+      "id": "medine-t2.l19.vocab-5#8",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:ramadan", "w:yahud", "w:musa-nabi", "w:bukhari"]
+    },
+    {
+      "id": "medine-t2.l19.vocab-5#9",
+      "type": "order",
+      "fr": "Mon père reviendra avant Ramadan.",
+      "answers": [["سَيَرْجِعُ", "أَبِي", "قَبْلَ", "رَمَضَانَ"], ["أَبِي", "سَيَرْجِعُ", "قَبْلَ", "رَمَضَانَ"]],
+      "punctuation": ".",
+      "explain": "{ar|رَمَضَانَ} est au génitif après {ar|قَبْلَ} : fatha, car il n'a pas de tanwin."
+    },
+    { "id": "medine-t2.l19.vocab-5#10", "type": "typing", "ask": "fr", "item": "w:musa-nabi" },
+    {
+      "id": "medine-t2.l19.vocab-5#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Rapporté par al-Bukhārī.",
+      "answers": ["رَوَاهُ الْبُخَارِيُّ."],
+      "explain": "{ar|رَوَاهُ الْبُخَارِيُّ} : la formule qui suit un hadith."
+    }
+  ]
+}

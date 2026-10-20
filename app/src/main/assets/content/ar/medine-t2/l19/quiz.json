@@ -1,0 +1,183 @@
+{
+  "id": "medine-t2.l19.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l19.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:lan-nasiba",
+      "distractors": ["w:an-nasiba", "w:lam-taalil"],
+      "explain": "{ar|لَنْ النَّاصِبَةُ} : le {ar|لَنْ} qui nie le futur. {ar|أَنْ النَّاصِبَةُ} : le {ar|أَنْ} de l'accusatif ; {ar|لَامُ التَّعْلِيلِ} : le {ar|لِ} de but."
+    },
+    {
+      "id": "medine-t2.l19.quiz#2",
+      "type": "question",
+      "prompt": { "fr": "Que fait {ar|لَنْ} au verbe au présent ?" },
+      "choices": [
+        { "fr": "Elle le met à l'accusatif et nie le futur" },
+        { "fr": "Elle le met au jussif et nie le passé" },
+        { "fr": "Elle le laisse à la damma et dit le but" }
+      ],
+      "answer": 0,
+      "explain": "{ar|لَنْ} rend le verbe {ar|مَنْصُوبٌ} et exprime la négation au futur."
+    },
+    {
+      "id": "medine-t2.l19.quiz#3",
+      "type": "sort",
+      "categories": [ { "fr": "la fatha" }, { "fr": "le {ar|ن} tombe" }, { "fr": "rien ne change" } ],
+      "cards": [
+        { "ar": "لَنْ أَسْمَعَ", "category": 0 },
+        { "ar": "لَنْ تَجْلِسَ", "category": 0 },
+        { "ar": "لَنْ يَنْزِلُوا", "category": 1 },
+        { "ar": "لَنْ تَسْمَعِي", "category": 1 },
+        { "ar": "لَنْ يَجْلِسْنَ", "category": 2 },
+        { "ar": "لَنْ تَنْزِلْنَ", "category": 2 }
+      ],
+      "instruction": "Que devient la fin du verbe après {ar|لَنْ} ?",
+      "explain": "Un seul sujet : la fatha. Les cinq verbes perdent leur {ar|ن}. Pour les femmes, le {ar|ن} reste."
+    },
+    {
+      "id": "medine-t2.l19.quiz#4",
+      "type": "fill_gap",
+      "sentence": "{0} أَذْهَبَ إِلَى الْهِنْدِ أَبَدًا.",
+      "fr": "Je n'irai jamais en Inde.",
+      "gaps": [ { "answers": ["لَنْ"] } ],
+      "options": ["لَنْ", "مَا", "لَمْ"],
+      "explain": "« Je n'irai jamais » : {ar|لَنْ} + {ar|أَذْهَبَ} (fatha) + {ar|أَبَدًا}."
+    },
+    {
+      "id": "medine-t2.l19.quiz#5",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|لَنْ}, on met {ar|سَ} devant le verbe pour marquer le futur." },
+      "answer": false,
+      "explain": "Non : {ar|لَنْ} contient déjà le futur."
+    },
+    {
+      "id": "medine-t2.l19.quiz#6",
+      "type": "spot",
+      "instruction": "Touche la particule qui nie le futur.",
+      "words": ["الْبَنَاتُ", "لَنْ", "يَذْهَبْنَ", "إِلَى", "الْهِنْدِ."],
+      "answers": [1],
+      "fr": "Les filles n'iront pas en Inde.",
+      "explain": "{ar|لَنْ} nie le futur : « elles n'iront pas »."
+    },
+    {
+      "id": "medine-t2.l19.quiz#7",
+      "type": "order",
+      "fr": "Je ne boirai jamais d'alcool.",
+      "answers": [["لَنْ", "أَشْرَبَ", "الْخَمْرَ", "أَبَدًا"]],
+      "punctuation": ".",
+      "explain": "{ar|لَنْ أَشْرَبَ} : la fatha ; {ar|أَبَدًا} : « jamais »."
+    },
+    {
+      "id": "medine-t2.l19.quiz#8",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:indama",
+      "distractors": ["w:alan", "w:ghadan"],
+      "explain": "{ar|عِنْدَمَا} : « quand ». {ar|الْآنَ} : « maintenant » ; {ar|غَدًا} : « demain »."
+    },
+    {
+      "id": "medine-t2.l19.quiz#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:hindi", "w:sifara", "w:asif", "w:mawjud"]
+    },
+    {
+      "id": "medine-t2.l19.quiz#10",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:harir",
+      "distractors": ["w:khamr", "w:malbas"],
+      "explain": "{ar|حَرِيرٌ} : de la soie. {ar|خَمْرٌ} : de l'alcool ; {ar|مَلْبَسٌ} : un vêtement."
+    },
+    {
+      "id": "medine-t2.l19.quiz#11",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|لَا أَضْرِبُ زَيْدًا أَبَدًا} ?" },
+      "choices": [
+        { "fr": "Je ne frappe jamais Zayd" },
+        { "fr": "Je ne frapperai pas Zayd demain" },
+        { "fr": "Je n'ai pas frappé Zayd hier" }
+      ],
+      "answer": 0,
+      "explain": "{ar|لَا} + le présent {ar|أَضْرِبُ} + {ar|أَبَدًا} : « jamais »."
+    },
+    { "id": "medine-t2.l19.quiz#12", "type": "build", "item": "w:itamara", "extra": ["غ"] },
+    {
+      "id": "medine-t2.l19.quiz#13",
+      "type": "question",
+      "prompt": { "fr": "Quel est le présent de {ar|تَرَكَ} (« il a laissé ») ?" },
+      "choices": [ { "ar": "يَتْرُكُ" }, { "ar": "يَصْبِرُ" }, { "ar": "يَلْبَسُ" } ],
+      "answer": 0,
+      "explain": "{ar|يَتْرُكُ} : le présent de {ar|تَرَكَ}. {ar|يَصْبِرُ} est celui de {ar|صَبَرَ}, {ar|يَلْبَسُ} celui de {ar|لَبِسَ}."
+    },
+    {
+      "id": "medine-t2.l19.quiz#14",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|أَلَا يَذْهَبُونَ إِلَى الْهِنْدِ؟}, le verbe {ar|يَذْهَبُونَ} garde son {ar|ن}." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l19.dialogue-1#1" },
+      "explain": "Oui : {ar|أَلَا} ({ar|أَ} + {ar|لَا}) pose une question et ne met pas le verbe à l'accusatif ; ce n'est pas {ar|أَلَّا}."
+    },
+    {
+      "id": "medine-t2.l19.quiz#15",
+      "type": "question",
+      "prompt": { "fr": "Quand dit-on {ar|جَزَاكَ اللَّهُ خَيْرًا} ?" },
+      "choices": [ { "fr": "Pour remercier" }, { "fr": "Pour s'excuser" }, { "fr": "Pour dire au revoir" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l19.dialogue-2#1" },
+      "explain": "C'est une formule de remerciement : « qu'Allah te récompense en bien »."
+    },
+    {
+      "id": "medine-t2.l19.quiz#16",
+      "type": "fill_gap",
+      "sentence": "الْآخِرَةُ {0} مِنَ الدُّنْيَا.",
+      "fr": "L'au-delà est meilleur que la vie d'ici-bas.",
+      "gaps": [ { "answers": ["خَيْرٌ"] } ],
+      "options": ["خَيْرٌ", "مُتْعَبٌ", "آسِفٌ"],
+      "explain": "{ar|خَيْرٌ مِنْ} : « meilleur que »."
+    },
+    {
+      "id": "medine-t2.l19.quiz#17",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles n'iront pas en Inde cette année.",
+      "answers": ["لَنْ يَذْهَبْنَ إِلَى الْهِنْدِ هٰذَا الْعَامَ.", "هُنَّ لَنْ يَذْهَبْنَ إِلَى الْهِنْدِ هٰذَا الْعَامَ."],
+      "explain": "{ar|يَذْهَبْنَ} : le pronom des femmes reste après {ar|لَنْ}."
+    },
+    {
+      "id": "medine-t2.l19.quiz#18",
+      "type": "order",
+      "fr": "Je suis très fatigué, donc je ne sortirai pas.",
+      "answers": [["أَنَا", "مُتْعَبٌ", "جِدًّا", "فَلَنْ", "أَخْرُجَ"]],
+      "punctuation": ".",
+      "explain": "{ar|فَلَنْ أَخْرُجَ} : « donc je ne sortirai pas »."
+    },
+    {
+      "id": "medine-t2.l19.quiz#19",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Nous ne délaisserons jamais la prière.",
+      "answers": ["لَنْ نَتْرُكَ الصَّلَاةَ أَبَدًا."],
+      "explain": "{ar|لَنْ نَتْرُكَ} : la fatha ; {ar|الصَّلَاةَ} est le complément d'objet."
+    },
+    {
+      "id": "medine-t2.l19.quiz#20",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَتَشْرَبُ الْقَهْوَةَ غَدًا؟",
+      "answers": [
+        "لَنْ أَشْرَبَ الْقَهْوَةَ غَدًا.",
+        "لَا، لَنْ أَشْرَبَ الْقَهْوَةَ غَدًا.",
+        "أَنَا لَنْ أَشْرَبَ الْقَهْوَةَ غَدًا."
+      ],
+      "fr": "Je ne boirai pas de café demain.",
+      "instruction": "Réponds par la négative, avec {ar|لَنْ}.",
+      "explain": "{ar|لَنْ أَشْرَبَ} : « je ne boirai pas » ; {ar|الْقَهْوَةَ} est le complément d'objet."
+    }
+  ]
+}

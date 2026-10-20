@@ -1,0 +1,96 @@
+{
+  "id": "medine-t2.l19.practice-5",
+  "type": "grammar",
+  "title": "Exercice 5 : lire les phrases (6 à 9)",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l19.practice-5#1",
+      "type": "tip",
+      "title": "Lis les quatre dernières phrases",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Phrase du livre", "Sens"],
+          "rows": [
+            [
+              "{ar|لَنْ يَرْجِعَ أَبِي مِنْ مَكَّةَ قَبْلَ رَمَضَانَ.}",
+              "Mon père ne reviendra pas de La Mecque avant Ramadan."
+            ],
+            ["{ar|لَنْ نَشْرَبَ الْخَمْرَ أَبَدًا.}", "Nous ne boirons jamais d'alcool."],
+            [
+              "{ar|قَالَ الْيَهُودُ لِمُوسَى عَلَيْهِ السَّلَامُ: يَا مُوسَى، لَنْ نَصْبِرَ عَلَى طَعَامٍ وَاحِدٍ، كَمَا جَاءَ فِي سُورَةِ الْبَقَرَةِ.}",
+              "Les Juifs ont dit à Moïse, que la paix soit sur lui : « Ô Moïse, nous ne supporterons pas une seule sorte de nourriture », comme cela est venu dans la sourate al-Baqara."
+            ],
+            [
+              "{ar|قَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: مَنْ لَبِسَ الْحَرِيرَ فِي الدُّنْيَا فَلَنْ يَلْبَسَهُ فِي الْآخِرَةِ. رَوَاهُ الْبُخَارِيُّ.}",
+              "Le Prophète ﷺ a dit : « Celui qui porte de la soie dans la vie d'ici-bas n'en portera pas dans l'au-delà. » Rapporté par al-Bukhārī."
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "Les phrases 8 et 9 sont des citations : un verset du Coran et un hadith. Dans le verset, {ar|طَعَامٍ وَاحِدٍ} veut dire mot à mot « une seule nourriture ». Dans le hadith, {ar|مَنْ} veut dire « celui qui » ({ar|مَنْ لَبِسَ}) et le {ar|فَ} de {ar|فَلَنْ} annonce ce qui en découle."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l19.practice-5#2",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|لَنْ يَرْجِعَ أَبِي مِنْ مَكَّةَ قَبْلَ رَمَضَانَ}, quand le père reviendra-t-il ?" },
+      "choices": [ { "fr": "Pas avant Ramadan" }, { "fr": "Avant Ramadan" }, { "fr": "Demain" } ],
+      "answer": 0,
+      "explain": "{ar|لَنْ يَرْجِعَ} : « il ne reviendra pas » ; {ar|قَبْلَ رَمَضَانَ} : « avant Ramadan »."
+    },
+    {
+      "id": "medine-t2.l19.practice-5#3",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|رَوَاهُ الْبُخَارِيُّ} à la fin d'un hadith ?" },
+      "choices": [ { "fr": "Rapporté par al-Bukhārī" }, { "fr": "Écrit par le Prophète" }, { "fr": "Appris par cœur" } ],
+      "answer": 0,
+      "explain": "{ar|رَوَاهُ} : « il l'a rapporté » ({ar|رَوَى} + {ar|هُ})."
+    },
+    {
+      "id": "medine-t2.l19.practice-5#4",
+      "type": "fill_gap",
+      "sentence": "مَنْ لَبِسَ الْحَرِيرَ فِي الدُّنْيَا فَلَنْ يَلْبَسَهُ فِي {0}.",
+      "fr": "Celui qui porte de la soie dans la vie d'ici-bas n'en portera pas dans l'au-delà.",
+      "gaps": [ { "answers": ["الْآخِرَةِ"] } ],
+      "options": ["الْآخِرَةِ", "الدُّنْيَا", "السُّوقِ"],
+      "explain": "« Dans l'au-delà » : {ar|فِي الْآخِرَةِ}. {ar|الدُّنْيَا} est déjà dans la première partie de la phrase."
+    },
+    {
+      "id": "medine-t2.l19.practice-5#5",
+      "type": "spot",
+      "instruction": "Touche le verbe qui est à l'accusatif.",
+      "words": ["يَا", "مُوسَى", "لَنْ", "نَصْبِرَ", "عَلَى", "طَعَامٍ", "وَاحِدٍ"],
+      "answers": [3],
+      "fr": "Nous ne supporterons pas une seule sorte de nourriture.",
+      "explain": "{ar|نَصْبِرَ} suit {ar|لَنْ} : la fatha. {ar|صَبَرَ عَلَى} : « supporter avec patience »."
+    },
+    {
+      "id": "medine-t2.l19.practice-5#6",
+      "type": "order",
+      "fr": "Ô Moïse, nous ne supporterons pas une seule sorte de nourriture.",
+      "answers": [["يَا", "مُوسَى", "لَنْ", "نَصْبِرَ", "عَلَى", "طَعَامٍ", "وَاحِدٍ"]],
+      "explain": "{ar|يَا مُوسَى} : l'appel ; {ar|لَنْ نَصْبِرَ} : « nous ne supporterons pas »."
+    },
+    {
+      "id": "medine-t2.l19.practice-5#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Nous ne boirons jamais d'alcool.",
+      "answers": ["لَنْ نَشْرَبَ الْخَمْرَ أَبَدًا."],
+      "explain": "{ar|لَنْ نَشْرَبَ} : la fatha ; {ar|الْخَمْرَ} est le complément d'objet."
+    },
+    {
+      "id": "medine-t2.l19.practice-5#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mon père ne reviendra pas de La Mecque avant Ramadan.",
+      "answers": ["لَنْ يَرْجِعَ أَبِي مِنْ مَكَّةَ قَبْلَ رَمَضَانَ.", "أَبِي لَنْ يَرْجِعَ مِنْ مَكَّةَ قَبْلَ رَمَضَانَ."],
+      "explain": "{ar|لَنْ يَرْجِعَ أَبِي} : le verbe est à la fatha ; {ar|رَمَضَانَ} n'a pas de tanwin."
+    }
+  ]
+}

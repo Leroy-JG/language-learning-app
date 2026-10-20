@@ -1,0 +1,73 @@
+{
+  "id": "medine-t2.l19.vocab-2",
+  "type": "vocabulary",
+  "title": "Ici-bas et l'au-delà",
+  "icon": "kaaba",
+  "screens": [
+    { "id": "medine-t2.l19.vocab-2#1", "type": "present", "item": "w:dunya" },
+    { "id": "medine-t2.l19.vocab-2#2", "type": "present", "item": "w:akhira" },
+    {
+      "id": "medine-t2.l19.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:dunya",
+      "distractors": ["w:akhira", "w:suq"]
+    },
+    { "id": "medine-t2.l19.vocab-2#4", "type": "present", "item": "w:nabi-2" },
+    { "id": "medine-t2.l19.vocab-2#5", "type": "present", "item": "w:khayr-2" },
+    {
+      "id": "medine-t2.l19.vocab-2#6",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|الْآخِرَةُ خَيْرٌ مِنَ الدُّنْيَا}, que veut dire {ar|خَيْرٌ} ?" },
+      "choices": [ { "fr": "meilleur" }, { "fr": "du bien (une bonne chose)" }, { "fr": "proche" } ],
+      "answer": 0,
+      "explain": "{ar|خَيْرٌ مِنْ} : « meilleur que ». Le même mot veut aussi dire « du bien » ({ar|أَنَا بِخَيْرٍ}, « je vais bien »), mais il n'est pas suivi de {ar|مِنْ} dans ce sens."
+    },
+    { "id": "medine-t2.l19.vocab-2#7", "type": "present", "item": "w:harir" },
+    { "id": "medine-t2.l19.vocab-2#8", "type": "present", "item": "w:khamr" },
+    {
+      "id": "medine-t2.l19.vocab-2#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:nabi-2", "w:harir", "w:khamr", "w:akhira"]
+    },
+    {
+      "id": "medine-t2.l19.vocab-2#10",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « L'au-delà est meilleur que la vie d'ici-bas » ?" },
+      "choices": [
+        { "ar": "الْآخِرَةُ خَيْرٌ مِنَ الدُّنْيَا" },
+        { "ar": "الدُّنْيَا خَيْرٌ مِنَ الْآخِرَةِ" },
+        { "ar": "الْآخِرَةُ قَرِيبَةٌ مِنَ الدُّنْيَا" }
+      ],
+      "answer": 0,
+      "explain": "{ar|الْآخِرَةُ خَيْرٌ مِنَ الدُّنْيَا} : on compare avec {ar|خَيْرٌ مِنْ}. Dans la deuxième phrase, les deux termes sont échangés."
+    },
+    {
+      "id": "medine-t2.l19.vocab-2#11",
+      "type": "fill_gap",
+      "sentence": "الْأَنْبِيَاءُ {0} النَّاسِ.",
+      "fr": "Les prophètes sont les meilleurs des gens.",
+      "gaps": [ { "answers": ["خَيْرُ"] } ],
+      "options": ["خَيْرُ", "كِتَابُ", "بَيْتُ"],
+      "explain": "{ar|خَيْرُ النَّاسِ} : « le meilleur des gens » (annexion)."
+    },
+    {
+      "id": "medine-t2.l19.vocab-2#12",
+      "type": "order",
+      "fr": "La soie est interdite aux hommes.",
+      "answers": [["الْحَرِيرُ", "حَرَامٌ", "عَلَى", "الرِّجَالِ"]],
+      "punctuation": ".",
+      "explain": "{ar|حَرَامٌ عَلَى} : « interdit à »."
+    },
+    { "id": "medine-t2.l19.vocab-2#13", "type": "typing", "ask": "fr", "item": "w:khayr-2" },
+    {
+      "id": "medine-t2.l19.vocab-2#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je ne bois pas d'alcool.",
+      "answers": ["لَا أَشْرَبُ الْخَمْرَ.", "أَنَا لَا أَشْرَبُ الْخَمْرَ."],
+      "explain": "{ar|لَا} + le présent {ar|أَشْرَبُ} (damma) ; {ar|الْخَمْرَ} est le complément d'objet."
+    }
+  ]
+}

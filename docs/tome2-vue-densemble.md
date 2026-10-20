@@ -294,4 +294,10 @@ Le cours 18 du plan (`كَافُ التَّشْبِيهِ`, `أَنْ` + `لَا
 
 Le cours 18 (un seul PDF de 20 pages, un cours court) est publié : `docs/sources-t2-lecon-18.md`. Le support du professeur contient `كَافُ التَّشْبِيهِ` (le `كَ` de comparaison : une préposition, deux effets, pas de pronom collé), le texte du livre (Ḥāmid, sa femme Āmina, leurs fils et leurs filles, la visite à Salmā), les exercices 1 à 9, `أَنْ` + `لَا` = `أَلَّا` (`الْإِدْغَامُ`) et le vocabulaire nouveau (sept noms, deux verbes).
 Le chapitre les réunit : `l18.revue-1` (rappel de `أَنْ` et de l'accusatif), `grammar-1` à `grammar-4`, `vocab-1` à `vocab-3`, `dialogue-1`, `dialogue-2`, `practice-1` à `practice-7`, `quiz`. **Le `كَ` de comparaison et `أَلَّا` sont maintenant enseignés et exigés** ; les chapitres suivants peuvent s'y appuyer (jamais `مِثْلٌ` (cité en note), `لِئَلَّا`, ni `أَنْ لَا` écrit en deux mots, qui restent « pas encore enseignés »).
-La suite du plan (cours 19 : `لَنْ`…) est à confirmer avec les PDF suivants.
+Le cours 19 du plan (`لَنْ`) a été publié ensuite (voir ci-dessous).
+
+## 25. Avancement : le chapitre 19 (`medine-t2.l19`)
+
+Le cours 19 (un seul PDF de 19 pages) est publié : `docs/sources-t2-lecon-19.md`. Le support du professeur contient `النَّوَاصِبُ` (2ᵉ partie : `لَنْ النَّاصِبَةُ`, ses deux effets et deux analyses, le schéma des trois `نَوَاصِبُ`), le texte du livre (ʿAmr et Ayyūb : un livre en ourdou à rapporter d'Inde), les exercices 1 à 6 et le vocabulaire nouveau (treize mots, cinq verbes à quatre formes).
+Le chapitre les réunit : `l19.revue-1` (rappel des particules de l'accusatif), `grammar-1` à `grammar-3`, `vocab-1` à `vocab-5`, `dialogue-1`, `dialogue-2`, `practice-1` à `practice-6`, `quiz`. `لَنْ` était déjà enseignée aux chapitres 12 et 13 : le chapitre lui donne son nom (`لَنْ النَّاصِبَةُ`), reprend l'analyse du professeur et la compare à `سَ`, `مَا` et `لَا`. **`أَبَدًا`, `عِنْدَمَا`, `خَيْرٌ` « meilleur » et les cinq verbes `اِعْتَمَرَ`, `جَزَى`, `صَبَرَ`, `تَرَكَ` (avec `لَبِسَ`) sont maintenant enseignés** ;
+les chapitres suivants peuvent s'y appuyer (jamais `لِئَلَّا`, `كَيْ`, `حَتَّى`, `إِذَنْ`, qui restent « pas encore enseignés »). Le cours 20 du plan est une révision (`إِعْرَابُ الِاسْمِ`, duel, pluriels sains) : à confirmer avec les PDF suivants.

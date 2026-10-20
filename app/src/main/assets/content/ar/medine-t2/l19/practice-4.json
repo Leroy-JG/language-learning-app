@@ -1,0 +1,102 @@
+{
+  "id": "medine-t2.l19.practice-4",
+  "type": "grammar",
+  "title": "Exercice 5 : lire les phrases (1 à 5)",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l19.practice-4#1",
+      "type": "tip",
+      "title": "Lis les cinq premières phrases",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Phrase du livre", "Sens"],
+          "rows": [
+            [
+              "{ar|لَنْ أَذْهَبَ إِلَى قَرْيَتِي فِي عُطْلَةِ الصَّيْفِ هٰذَا الْعَامَ.}",
+              "Je n'irai pas dans mon village pendant les vacances d'été cette année."
+            ],
+            [
+              "{ar|إِنِّي مُتْعَبٌ جِدًّا. فَلَنْ أَخْرُجَ مِنَ الْبَيْتِ الْيَوْمَ.}",
+              "Je suis très fatigué. Donc je ne sortirai pas de la maison aujourd'hui."
+            ],
+            ["{ar|لَنْ أَتْرُكَ الصَّلَاةَ أَبَدًا.}", "Je ne délaisserai jamais la prière."],
+            [
+              "{ar|قَالَ الْمُدَرِّسُ: لَنْ أَسْمَحَ لَكُمْ بِالدُّخُولِ بَعْدَ بَدْءِ الدَّرْسِ فِي الْمُسْتَقْبَلِ.}",
+              "Le professeur a dit : « Je ne vous autoriserai pas à entrer après le début du cours à l'avenir. »"
+            ],
+            ["{ar|لَنْ أَحْلِقَ لِحْيَتِي أَبَدًا.}", "Je ne raserai jamais ma barbe."]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans la deuxième phrase, le {ar|فَ} de {ar|فَلَنْ} veut dire « donc » : il annonce la conséquence de « je suis très fatigué ». Dans la phrase 4, {ar|سَمَحَ لَ} + une personne + {ar|بِ} + un nom : « autoriser quelqu'un à quelque chose »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l19.practice-4#2",
+      "type": "question",
+      "prompt": {
+        "fr": "Pourquoi cette personne ne sortira-t-elle pas de la maison aujourd'hui ? {ar|إِنِّي مُتْعَبٌ جِدًّا. فَلَنْ أَخْرُجَ مِنَ الْبَيْتِ الْيَوْمَ.}"
+      },
+      "choices": [ { "fr": "Elle est très fatiguée" }, { "fr": "Elle est malade" }, { "fr": "Elle est désolée" } ],
+      "answer": 0,
+      "explain": "{ar|إِنِّي مُتْعَبٌ جِدًّا} : « je suis très fatigué », donc {ar|فَلَنْ أَخْرُجَ} : « je ne sortirai pas »."
+    },
+    {
+      "id": "medine-t2.l19.practice-4#3",
+      "type": "fill_gap",
+      "sentence": "لَنْ {0} إِلَى قَرْيَتِي فِي عُطْلَةِ الصَّيْفِ هٰذَا الْعَامَ.",
+      "fr": "Je n'irai pas dans mon village pendant les vacances d'été cette année.",
+      "gaps": [ { "answers": ["أَذْهَبَ"] } ],
+      "options": ["أَذْهَبَ", "نَذْهَبَ", "تَذْهَبِي"],
+      "explain": "« Je » : {ar|أَذْهَبَ}, à la fatha après {ar|لَنْ}. {ar|قَرْيَتِي} : « mon village »."
+    },
+    {
+      "id": "medine-t2.l19.practice-4#4",
+      "type": "true_false",
+      "statement": { "fr": "Le professeur dit qu'il autorisera les élèves à entrer après le début du cours." },
+      "answer": false,
+      "explain": "Non : {ar|لَنْ أَسْمَحَ لَكُمْ بِالدُّخُولِ بَعْدَ بَدْءِ الدَّرْسِ} : « je ne vous autoriserai pas à entrer après le début du cours »."
+    },
+    {
+      "id": "medine-t2.l19.practice-4#5",
+      "type": "spot",
+      "instruction": "Touche le verbe qui est à l'accusatif.",
+      "words": ["قَالَ", "الْمُدَرِّسُ:", "لَنْ", "أَسْمَحَ", "لَكُمْ", "بِالدُّخُولِ"],
+      "answers": [3],
+      "fr": "Le professeur a dit : je ne vous autoriserai pas à entrer.",
+      "explain": "{ar|أَسْمَحَ} suit {ar|لَنْ} : fatha. {ar|قَالَ} est un verbe au passé."
+    },
+    {
+      "id": "medine-t2.l19.practice-4#6",
+      "type": "order",
+      "fr": "Je ne raserai jamais ma barbe.",
+      "answers": [["لَنْ", "أَحْلِقَ", "لِحْيَتِي", "أَبَدًا"]],
+      "punctuation": ".",
+      "explain": "{ar|لَنْ أَحْلِقَ} : la fatha ; {ar|لِحْيَتِي} : « ma barbe » ; {ar|أَبَدًا} : « jamais »."
+    },
+    {
+      "id": "medine-t2.l19.practice-4#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis très fatigué. Donc je ne sortirai pas de la maison aujourd'hui.",
+      "answers": [
+        "إِنِّي مُتْعَبٌ جِدًّا. فَلَنْ أَخْرُجَ مِنَ الْبَيْتِ الْيَوْمَ.",
+        "أَنَا مُتْعَبٌ جِدًّا. فَلَنْ أَخْرُجَ مِنَ الْبَيْتِ الْيَوْمَ."
+      ],
+      "explain": "{ar|فَ} + {ar|لَنْ أَخْرُجَ} : « donc je ne sortirai pas »."
+    },
+    {
+      "id": "medine-t2.l19.practice-4#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je ne délaisserai jamais la prière.",
+      "answers": ["لَنْ أَتْرُكَ الصَّلَاةَ أَبَدًا."],
+      "explain": "{ar|لَنْ أَتْرُكَ} : la fatha ; {ar|الصَّلَاةَ} est le complément d'objet."
+    }
+  ]
+}

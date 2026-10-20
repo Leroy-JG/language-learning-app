@@ -1,0 +1,106 @@
+{
+  "id": "medine-t2.l19.vocab-4",
+  "type": "vocabulary",
+  "title": "Des verbes : ʿumra, patience, merci",
+  "icon": "kaaba",
+  "screens": [
+    { "id": "medine-t2.l19.vocab-4#1", "type": "present", "item": "w:itamara" },
+    { "id": "medine-t2.l19.vocab-4#2", "type": "present", "item": "w:jaza" },
+    { "id": "medine-t2.l19.vocab-4#3", "type": "present", "item": "p:jazaka-allah-khayran" },
+    {
+      "id": "medine-t2.l19.vocab-4#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:itamara",
+      "distractors": ["w:zara", "w:samaha"]
+    },
+    { "id": "medine-t2.l19.vocab-4#5", "type": "present", "item": "w:sabara" },
+    { "id": "medine-t2.l19.vocab-4#6", "type": "present", "item": "w:taraka" },
+    {
+      "id": "medine-t2.l19.vocab-4#7",
+      "type": "tip",
+      "title": "Les quatre formes de ces verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne les quatre formes de chaque verbe. Le nom d'action ({ar|الْمَصْدَرُ}) est la dernière colonne. Tu connais déjà {ar|لَبِسَ} (« il a mis un vêtement ») : le tableau en donne les autres formes."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["accomplir la ʿumra", "{ar|اِعْتَمَرَ}", "{ar|يَعْتَمِرُ}", "{ar|اِعْتَمِرْ}", "{ar|اِعْتِمَارًا}"],
+            ["récompenser", "{ar|جَزَى}", "{ar|يَجْزِي}", "{ar|اِجْزِ}", "{ar|جَزَاءً}"],
+            ["patienter", "{ar|صَبَرَ}", "{ar|يَصْبِرُ}", "{ar|اِصْبِرْ}", "{ar|صَبْرًا}"],
+            ["se vêtir de, mettre", "{ar|لَبِسَ}", "{ar|يَلْبَسُ}", "{ar|اِلْبَسْ}", "{ar|لُبْسًا}"],
+            ["laisser, délaisser", "{ar|تَرَكَ}", "{ar|يَتْرُكُ}", "{ar|اُتْرُكْ}", "{ar|تَرْكًا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Impératif de {ar|جَزَى} : le {ar|ي} de {ar|يَجْزِي} tombe ({ar|اِجْزِ}), comme pour les verbes à finale défectueuse du chapitre 13. Et l'alif de {ar|اُتْرُكْ} porte une damma, parce que la voyelle du présent est une damma ({ar|يَتْرُكُ}, chapitre 14)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l19.vocab-4#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:itamara", "w:jaza", "w:sabara", "w:taraka"]
+    },
+    {
+      "id": "medine-t2.l19.vocab-4#9",
+      "type": "sort",
+      "categories": [ { "fr": "le passé" }, { "fr": "le présent" }, { "fr": "l'impératif" } ],
+      "cards": [
+        { "ar": "اِعْتَمَرَ", "category": 0 },
+        { "ar": "يَصْبِرُ", "category": 1 },
+        { "ar": "اُتْرُكْ", "category": 2 },
+        { "ar": "تَرَكَ", "category": 0 },
+        { "ar": "يَعْتَمِرُ", "category": 1 },
+        { "ar": "اِصْبِرْ", "category": 2 }
+      ],
+      "instruction": "C'est quelle forme du verbe ?",
+      "explain": "Le passé finit par une fatha ({ar|تَرَكَ}, {ar|اِعْتَمَرَ}). Le présent commence par {ar|يَ}. L'impératif finit par un sukūn ({ar|اِصْبِرْ}, {ar|اُتْرُكْ})."
+    },
+    {
+      "id": "medine-t2.l19.vocab-4#10",
+      "type": "fill_gap",
+      "sentence": "زَيْدٌ {0} فِي مَكَّةَ.",
+      "fr": "Zayd a accompli la ʿumra à La Mecque.",
+      "gaps": [ { "answers": ["اِعْتَمَرَ"] } ],
+      "options": ["اِعْتَمَرَ", "صَبَرَ", "جَزَى"],
+      "explain": "{ar|اِعْتَمَرَ} : « il a accompli la ʿumra » ; La Mecque est le lieu de la ʿumra."
+    },
+    {
+      "id": "medine-t2.l19.vocab-4#11",
+      "type": "fill_gap",
+      "sentence": "{0} هٰذَا الْكِتَابَ هُنَا يَا زَيْدُ.",
+      "fr": "Laisse ce livre ici, Zayd.",
+      "gaps": [ { "answers": ["اُتْرُكْ"] } ],
+      "options": ["اُتْرُكْ", "اِصْبِرْ", "اِجْزِ"],
+      "explain": "« Laisse ! » : l'impératif de {ar|تَرَكَ}, {ar|اُتْرُكْ}, suivi de son complément d'objet {ar|الْكِتَابَ}."
+    },
+    {
+      "id": "medine-t2.l19.vocab-4#12",
+      "type": "order",
+      "fr": "Zayd a laissé le livre à la maison.",
+      "answers": [
+        ["تَرَكَ", "زَيْدٌ", "الْكِتَابَ", "فِي", "الْبَيْتِ"],
+        ["زَيْدٌ", "تَرَكَ", "الْكِتَابَ", "فِي", "الْبَيْتِ"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|تَرَكَ الْكِتَابَ} : le verbe prend directement son complément d'objet."
+    },
+    { "id": "medine-t2.l19.vocab-4#13", "type": "typing", "ask": "fr", "item": "w:itamara" },
+    {
+      "id": "medine-t2.l19.vocab-4#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je patiente.",
+      "answers": ["أَصْبِرُ.", "أَنَا أَصْبِرُ."],
+      "explain": "{ar|أَصْبِرُ} : le présent de {ar|صَبَرَ} à la première personne."
+    }
+  ]
+}

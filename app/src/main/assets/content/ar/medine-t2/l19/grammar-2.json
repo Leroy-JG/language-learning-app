@@ -1,0 +1,117 @@
+{
+  "id": "medine-t2.l19.grammar-2",
+  "type": "grammar",
+  "title": "Du futur au futur négatif",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l19.grammar-2#1",
+      "type": "tip",
+      "title": "{ar|لَنْ} remplace {ar|سَ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour dire « je n'irai pas », on ne met pas {ar|سَ} devant le verbe : {ar|لَنْ} contient déjà l'idée du futur. On met {ar|لَنْ} à la place de {ar|سَ}, et le verbe passe à l'accusatif."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "سَأَذْهَبُ", "fr": "j'irai" },
+              "to": { "ar": "لَنْ أَذْهَبَ", "fr": "je n'irai pas" },
+              "label": "le {ar|سَ} disparaît, la damma devient une fatha"
+            },
+            {
+              "from": { "ar": "سَيَكْتُبُونَ", "fr": "ils écriront" },
+              "to": { "ar": "لَنْ يَكْتُبُوا", "fr": "ils n'écriront pas" },
+              "label": "le {ar|ن} tombe"
+            },
+            {
+              "from": { "ar": "سَتَدْخُلِينَ", "fr": "tu entreras (à une femme)" },
+              "to": { "ar": "لَنْ تَدْخُلِي", "fr": "tu n'entreras pas" },
+              "label": "le {ar|ن} tombe"
+            },
+            {
+              "from": { "ar": "سَنَشْرَبُ", "fr": "nous boirons" },
+              "to": { "ar": "لَنْ نَشْرَبَ", "fr": "nous ne boirons pas" },
+              "label": "la fatha"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "On n'écrit jamais {ar|سَ} et {ar|لَنْ} ensemble devant un même verbe."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l19.grammar-2#2",
+      "type": "sort",
+      "categories": [ { "fr": "au futur affirmatif" }, { "fr": "au futur négatif" } ],
+      "cards": [
+        { "ar": "سَأَدْرُسُ غَدًا", "category": 0 },
+        { "ar": "لَنْ أَدْرُسَ غَدًا", "category": 1 },
+        { "ar": "سَيَذْهَبُونَ", "category": 0 },
+        { "ar": "لَنْ يَذْهَبُوا", "category": 1 },
+        { "ar": "سَتَشْرَبِينَ", "category": 0 },
+        { "ar": "لَنْ تَشْرَبِي", "category": 1 }
+      ],
+      "instruction": "Ce verbe est-il affirmatif ou négatif ?",
+      "explain": "Avec {ar|سَ}, le futur est affirmatif et le verbe garde sa damma (ou son {ar|ن}). Avec {ar|لَنْ}, il est négatif et le verbe est à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l19.grammar-2#3",
+      "type": "spot",
+      "instruction": "Touche la particule qui remplace {ar|سَ} pour nier le futur.",
+      "words": ["هُمْ", "لَنْ", "يَشْرَبُوا", "الشَّايَ", "غَدًا."],
+      "answers": [1],
+      "fr": "Ils ne boiront pas de thé demain.",
+      "explain": "{ar|لَنْ} remplace {ar|سَ} : {ar|سَيَشْرَبُونَ} (« ils boiront ») devient {ar|لَنْ يَشْرَبُوا} (« ils ne boiront pas »)."
+    },
+    {
+      "id": "medine-t2.l19.grammar-2#4",
+      "type": "fill_gap",
+      "sentence": "{0} نَذْهَبَ إِلَى الْمَلْعَبِ.",
+      "fr": "Nous n'irons pas au terrain de jeu.",
+      "gaps": [ { "answers": ["لَنْ"] } ],
+      "options": ["لَنْ", "سَ", "لَمْ"],
+      "explain": "« Nous n'irons pas » : {ar|لَنْ} + {ar|نَذْهَبَ} (fatha). {ar|سَ} serait « nous irons »."
+    },
+    {
+      "id": "medine-t2.l19.grammar-2#5",
+      "type": "true_false",
+      "statement": {
+        "fr": "Pour dire « je n'irai pas », on écrit {ar|سَ} devant le verbe après {ar|لَنْ} pour marquer le futur."
+      },
+      "answer": false,
+      "explain": "Non : {ar|لَنْ} contient déjà le futur. On dit simplement {ar|لَنْ أَذْهَبَ}."
+    },
+    {
+      "id": "medine-t2.l19.grammar-2#6",
+      "type": "order",
+      "fr": "Nous ne boirons pas de thé demain.",
+      "answers": [["لَنْ", "نَشْرَبَ", "الشَّايَ", "غَدًا"]],
+      "punctuation": ".",
+      "explain": "{ar|لَنْ نَشْرَبَ} : le futur négatif, sans {ar|سَ}."
+    },
+    {
+      "id": "medine-t2.l19.grammar-2#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ils n'iront pas à la mosquée demain.",
+      "answers": ["لَنْ يَذْهَبُوا إِلَى الْمَسْجِدِ غَدًا.", "هُمْ لَنْ يَذْهَبُوا إِلَى الْمَسْجِدِ غَدًا."],
+      "explain": "{ar|يَذْهَبُونَ} perd son {ar|ن} après {ar|لَنْ} : {ar|يَذْهَبُوا}."
+    },
+    {
+      "id": "medine-t2.l19.grammar-2#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "سَتَذْهَبِينَ إِلَى السُّوقِ غَدًا.",
+      "answers": ["لَنْ تَذْهَبِي إِلَى السُّوقِ غَدًا."],
+      "fr": "Tu n'iras pas au marché demain (à une femme).",
+      "instruction": "Mets le verbe au futur négatif.",
+      "explain": "{ar|سَ} disparaît, {ar|لَنْ} le remplace, et le {ar|ن} de {ar|تَذْهَبِينَ} tombe : {ar|تَذْهَبِي}."
+    }
+  ]
+}

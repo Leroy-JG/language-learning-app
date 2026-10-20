@@ -1,0 +1,68 @@
+{
+  "id": "medine-t2.l19.vocab-1",
+  "type": "vocabulary",
+  "title": "Une ambassade en Inde",
+  "icon": "india",
+  "screens": [
+    { "id": "medine-t2.l19.vocab-1#1", "type": "present", "item": "w:indama" },
+    { "id": "medine-t2.l19.vocab-1#2", "type": "present", "item": "w:hindi" },
+    {
+      "id": "medine-t2.l19.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:indama",
+      "distractors": ["w:alan", "w:ghadan"]
+    },
+    { "id": "medine-t2.l19.vocab-1#4", "type": "present", "item": "w:sifara" },
+    { "id": "medine-t2.l19.vocab-1#5", "type": "present", "item": "w:asif" },
+    {
+      "id": "medine-t2.l19.vocab-1#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:asif",
+      "distractors": ["w:marid", "w:jiddan"]
+    },
+    {
+      "id": "medine-t2.l19.vocab-1#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:hindi", "w:sifara", "w:asif", "w:indama"]
+    },
+    {
+      "id": "medine-t2.l19.vocab-1#8",
+      "type": "fill_gap",
+      "sentence": "{0} دَخَلْتُ الْمَسْجِدَ صَلَّيْتُ.",
+      "fr": "Quand je suis entré dans la mosquée, j'ai prié.",
+      "gaps": [ { "answers": ["عِنْدَمَا"] } ],
+      "options": ["عِنْدَمَا", "لِمَاذَا", "مَعَ"],
+      "explain": "« Quand » : {ar|عِنْدَمَا}, suivi d'un verbe. {ar|لِمَاذَا} veut dire « pourquoi »."
+    },
+    {
+      "id": "medine-t2.l19.vocab-1#9",
+      "type": "fill_gap",
+      "sentence": "الْهُنُودُ قَوْمٌ يَسْكُنُونَ {0}.",
+      "fr": "Les Indiens sont un peuple qui habite l'Inde.",
+      "gaps": [ { "answers": ["الْهِنْدَ"] } ],
+      "options": ["الْهِنْدَ", "الْيَابَانَ", "فَرَنْسَا"],
+      "explain": "Les Indiens ({ar|هُنُودٌ}) habitent {ar|الْهِنْدَ}, l'Inde."
+    },
+    {
+      "id": "medine-t2.l19.vocab-1#10",
+      "type": "order",
+      "fr": "L'ambassade d'Inde est à Bagdad.",
+      "answers": [["سِفَارَةُ", "الْهِنْدِ", "فِي", "بَغْدَادَ"]],
+      "punctuation": ".",
+      "explain": "{ar|سِفَارَةُ الْهِنْدِ} : annexion, le second nom est au génitif. {ar|بَغْدَادَ} n'a pas de tanwin."
+    },
+    { "id": "medine-t2.l19.vocab-1#11", "type": "build", "item": "w:sifara", "extra": ["ه"] },
+    { "id": "medine-t2.l19.vocab-1#12", "type": "typing", "ask": "fr", "item": "w:indama" },
+    {
+      "id": "medine-t2.l19.vocab-1#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je suis désolé.",
+      "answers": ["أَنَا آسِفٌ.", "آسِفٌ."],
+      "explain": "{ar|آسِفٌ} : « désolé » ; on peut le dire avec ou sans {ar|أَنَا}."
+    }
+  ]
+}

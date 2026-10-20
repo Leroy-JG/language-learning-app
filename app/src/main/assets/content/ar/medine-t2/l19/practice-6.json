@@ -1,0 +1,130 @@
+{
+  "id": "medine-t2.l19.practice-6",
+  "type": "grammar",
+  "title": "Exercice 6 : lan devant huit verbes",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l19.practice-6#1",
+      "type": "sort",
+      "categories": [ { "fr": "la fatha" }, { "fr": "le {ar|ن} tombe" }, { "fr": "rien ne change" } ],
+      "cards": [
+        { "ar": "يَخْرُجُ", "category": 0 },
+        { "ar": "أَدْخُلُ", "category": 0 },
+        { "ar": "تَجْلِسُ", "category": 0 },
+        { "ar": "تَكْتُبِينَ", "category": 1 },
+        { "ar": "يَشْرَبُونَ", "category": 1 },
+        { "ar": "تَأْكُلِينَ", "category": 1 },
+        { "ar": "يَغْسِلْنَ", "category": 2 },
+        { "ar": "تَفْتَحْنَ", "category": 2 }
+      ],
+      "instruction": "Que devient la fin du verbe quand on met {ar|لَنْ} devant lui ?",
+      "explain": "Un seul sujet : la fatha. Les cinq verbes ({ar|تَكْتُبِينَ}, {ar|يَشْرَبُونَ}, {ar|تَأْكُلِينَ}) perdent leur {ar|ن}. Pour les femmes ({ar|يَغْسِلْنَ}, {ar|تَفْتَحْنَ}), le {ar|ن} est un pronom : rien ne change."
+    },
+    {
+      "id": "medine-t2.l19.practice-6#2",
+      "type": "fill_gap",
+      "sentence": "لَنْ {0} مِنَ الْبَيْتِ.",
+      "fr": "Il ne sortira pas de la maison.",
+      "gaps": [ { "answers": ["يَخْرُجَ"] } ],
+      "options": ["يَخْرُجَ", "يَخْرُجُوا", "يَخْرُجْنَ"],
+      "explain": "{ar|يَخْرُجُ} devient {ar|يَخْرُجَ} après {ar|لَنْ} : la damma est remplacée par la fatha."
+    },
+    {
+      "id": "medine-t2.l19.practice-6#3",
+      "type": "fill_gap",
+      "sentence": "لَنْ {0} الدَّرْسَ.",
+      "fr": "Tu n'écriras pas la leçon (à une femme).",
+      "gaps": [ { "answers": ["تَكْتُبِي"] } ],
+      "options": ["تَكْتُبِي", "تَكْتُبَ", "تَكْتُبُوا"],
+      "explain": "{ar|تَكْتُبِينَ} perd son {ar|ن} après {ar|لَنْ} : {ar|تَكْتُبِي}."
+    },
+    {
+      "id": "medine-t2.l19.practice-6#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "يَشْرَبُونَ",
+      "answers": ["لَنْ يَشْرَبُوا."],
+      "fr": "Ils ne boiront pas.",
+      "instruction": "Mets ce verbe après {ar|لَنْ}, avec la bonne fin.",
+      "explain": "{ar|يَشْرَبُونَ} perd son {ar|ن} : {ar|لَنْ يَشْرَبُوا}."
+    },
+    {
+      "id": "medine-t2.l19.practice-6#5",
+      "type": "fill_gap",
+      "sentence": "لَنْ {0} الْقَمِيصَ.",
+      "fr": "Elles ne laveront pas la chemise.",
+      "gaps": [ { "answers": ["يَغْسِلْنَ"] } ],
+      "options": ["يَغْسِلْنَ", "يَغْسِلُوا", "يَغْسِلَ"],
+      "explain": "Pour les femmes, le {ar|ن} est un pronom : il reste. {ar|لَنْ يَغْسِلْنَ}."
+    },
+    {
+      "id": "medine-t2.l19.practice-6#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَدْخُلُ",
+      "answers": ["لَنْ أَدْخُلَ."],
+      "fr": "Je n'entrerai pas.",
+      "instruction": "Mets ce verbe après {ar|لَنْ}, avec la bonne fin.",
+      "explain": "{ar|أَدْخُلُ} devient {ar|أَدْخُلَ} : la fatha."
+    },
+    {
+      "id": "medine-t2.l19.practice-6#7",
+      "type": "spot",
+      "instruction": "Touche le verbe dont le {ar|ن} est tombé.",
+      "words": ["الْأَوْلَادُ", "لَنْ", "يَشْرَبُوا", "وَالْبَنَاتُ", "لَنْ", "يَشْرَبْنَ"],
+      "answers": [2],
+      "fr": "Les garçons ne boiront pas et les filles ne boiront pas.",
+      "explain": "{ar|يَشْرَبُوا} est le pluriel masculin : le {ar|ن} de {ar|يَشْرَبُونَ} est tombé. {ar|يَشْرَبْنَ} garde son {ar|ن} (le pronom des femmes)."
+    },
+    {
+      "id": "medine-t2.l19.practice-6#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "تَفْتَحْنَ",
+      "answers": ["لَنْ تَفْتَحْنَ."],
+      "fr": "Vous n'ouvrirez pas (à des femmes).",
+      "instruction": "Mets ce verbe après {ar|لَنْ}, avec la bonne fin.",
+      "explain": "Le {ar|ن} de {ar|تَفْتَحْنَ} est le pronom des femmes : il reste, avec son sukūn."
+    },
+    {
+      "id": "medine-t2.l19.practice-6#9",
+      "type": "fill_gap",
+      "sentence": "لَنْ {0} الْخُبْزَ.",
+      "fr": "Tu ne mangeras pas le pain (à une femme).",
+      "gaps": [ { "answers": ["تَأْكُلِي"] } ],
+      "options": ["تَأْكُلِي", "تَأْكُلَ", "تَأْكُلُوا"],
+      "explain": "{ar|تَأْكُلِينَ} perd son {ar|ن} : {ar|لَنْ تَأْكُلِي}."
+    },
+    {
+      "id": "medine-t2.l19.practice-6#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "تَجْلِسُ",
+      "answers": ["لَنْ تَجْلِسَ."],
+      "fr": "Tu ne t'assiéras pas.",
+      "instruction": "Mets ce verbe après {ar|لَنْ}, avec la bonne fin.",
+      "explain": "{ar|تَجْلِسُ} devient {ar|تَجْلِسَ} : la fatha."
+    },
+    {
+      "id": "medine-t2.l19.practice-6#11",
+      "type": "order",
+      "fr": "Nous ne boirons pas de thé et nous ne mangerons pas de pain.",
+      "answers": [["لَنْ", "نَشْرَبَ", "الشَّايَ", "وَلَنْ", "نَأْكُلَ", "الْخُبْزَ"]],
+      "punctuation": ".",
+      "explain": "On répète {ar|لَنْ} devant chaque verbe : {ar|وَلَنْ نَأْكُلَ}."
+    },
+    {
+      "id": "medine-t2.l19.practice-6#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les filles ne sortiront pas de la maison aujourd'hui.",
+      "answers": [
+        "لَنْ يَخْرُجْنَ مِنَ الْبَيْتِ الْيَوْمَ.",
+        "الْبَنَاتُ لَنْ يَخْرُجْنَ مِنَ الْبَيْتِ الْيَوْمَ.",
+        "لَنْ تَخْرُجَ الْبَنَاتُ مِنَ الْبَيْتِ الْيَوْمَ."
+      ],
+      "explain": "Pour « elles », le {ar|ن} reste : {ar|يَخْرُجْنَ}. Si le sujet {ar|الْبَنَاتُ} vient après le verbe, celui-ci reste au singulier : {ar|لَنْ تَخْرُجَ الْبَنَاتُ}."
+    }
+  ]
+}

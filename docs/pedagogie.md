@@ -172,6 +172,11 @@ Exemples tirés des leçons 1 à 6 :
   `compare` « `أَنْ` + verbe → nom d'action » (`أُرِيدُ أَنْ أَذْهَبَ` → `أُرِيدُ الذَّهَابَ`, `grammar-2`) et « du nom à `مُنْذُ` + nom » (`أُسْبُوعٌ` → `مُنْذُ أُسْبُوعٍ`, `grammar-7`) ; `breakdown` de `لِآكُلَ` (`لِ` + `آكُلَ`) ;
   `question` à choix arabes pour faire lire l'analyse du professeur (`فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ حَذْفُ النُّونِ`) ; `typing` « question » avec la réponse donnée en français dans la consigne (`لِمَ…؟` → `لِأَفْهَمَ الْقُرْآنَ`) ; `build` de `عُطْلَةٌ` (le `ة`, pas le `ه`), `ظَرْفٌ` (le `ظ`, pas le `ط`) et `بَصَقَ` (le `ص`, pas le `س`) ; `memory` des saisons et des vacances (sans image).
 
+- (Tome 2, leçon 19) `sort` « quelle particule irait avec cette phrase française ? » (cartes en français, catégories `لَنْ` / `أَنْ` / `لِ`), « que devient la fin du verbe après `لَنْ` ? » (fatha / le `ن` tombe / rien ne change : cartes dont la catégorie se déduit de la lettre du pronom, même voyelles masquées), « futur affirmatif / négatif » (`سَ` ou `لَنْ` livre la réponse), « passé / présent / futur » (les trois négations `مَا`, `لَا`, `لَنْ`), « je / nous / il » et « passé / présent / impératif » ;
+  `compare` « du futur au futur négatif » (`سَأَذْهَبُ` → `لَنْ أَذْهَبَ`, où le `سَ` disparaît) dans `medine-t2/l19/grammar-2` ; `question` à choix arabes pour faire lire l'analyse du professeur (`يَكْتُبَ فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ الْفَتْحَةُ`) dans `l19/grammar-1` ;
+  `typing` « question » dont l'énoncé est un simple verbe (`يَشْرَبُونَ` → `لَنْ يَشْرَبُوا`, `l19/practice-6`) et réponse « non » à une question (`l19/practice-2`, en listant la réponse courte et celle qui commence par `لَا،`) ; `build` de `سِفَارَةٌ` (le `ة`, pas le `ه`), de `مُتْعَبٌ` et de `اِعْتَمَرَ` ; `memory` de quatre noms propres (`رَمَضَانُ`, `الْيَهُودُ`, `مُوسَى`, `الْبُخَارِيُّ`, sans image, `l19/vocab-5`) ;
+  un tableau de verbes à quatre formes qui réutilise un verbe déjà enseigné (`لَبِسَ`, `l19/vocab-4`) sans le redéfinir, suivi d'un `sort` « passé / présent / impératif ».
+
 ### Entraîner une voyelle finale (kasra, fatha…)
 
 Le validateur refuse deux choix qui ne diffèrent que par les harakat (`الْبَيْتِ` / `الْبَيْتُ`), et le

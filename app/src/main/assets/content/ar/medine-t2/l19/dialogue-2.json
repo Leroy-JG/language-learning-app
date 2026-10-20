@@ -1,0 +1,169 @@
+{
+  "id": "medine-t2.l19.dialogue-2",
+  "type": "dialogue",
+  "title": "Khālid et Jaʿfar",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l19.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Khālid et Jaʿfar",
+      "intro": "ʿAmr cherche quelqu'un qui pourrait lui rapporter son livre. Écoute les {ar|لَنْ} et les {ar|لِ} de but.",
+      "speakers": { "E": { "name": "ʿAmr", "voice": "m1" }, "A": { "name": "Ayyūb", "voice": "m2" } },
+      "lines": [
+        {
+          "speaker": "E",
+          "ar": "أَتَعْرِفُ أَحَدًا مِنَ الطُّلَّابِ الْهُنُودِ يَذْهَبُ إِلَى الْهِنْدِ فِي هٰذِهِ الْعُطْلَةِ؟ سَمِعْتُ أَنَّ طَالِبًا هِنْدِيًّا اسْمُهُ خَالِدٌ سَيَذْهَبُ إِلَى الْهِنْدِ قَرِيبًا.",
+          "fr": "Connais-tu un étudiant indien qui va en Inde pendant ces vacances ? J'ai entendu dire qu'un étudiant indien du nom de Khālid ira bientôt en Inde."
+        },
+        {
+          "speaker": "A",
+          "ar": "نَعَمْ. أَنَا أَعْرِفُهُ. هُوَ سَيَذْهَبُ فِي الْأُسْبُوعِ الْمُقْبِلِ، وَلٰكِنَّهُ لَنْ يَرْجِعَ.",
+          "fr": "Oui. Je le connais. Il partira la semaine prochaine, mais il ne reviendra pas."
+        },
+        { "speaker": "E", "ar": "لِمَهْ؟", "fr": "Pourquoi ?" },
+        {
+          "speaker": "A",
+          "ar": "لِأَنَّهُ مَرِيضٌ وَسَيَبْقَى فِي الْهِنْدِ لِلْعِلَاجِ. أَتَعْرِفُ جَعْفَرًا؟",
+          "fr": "Parce qu'il est malade et qu'il restera en Inde pour se faire soigner. Connais-tu Jaʿfar ?"
+        },
+        {
+          "speaker": "E",
+          "ar": "نَعَمْ. أَعْرِفُهُ، لٰكِنَّهُ مِنْ بَاكِسْتَانَ.",
+          "fr": "Oui. Je le connais, mais il est du Pakistan."
+        },
+        {
+          "speaker": "A",
+          "ar": "يُمْكِنُهُ أَنْ يَشْتَرِيَ هٰذَا الْكِتَابَ مِنْ بَاكِسْتَانَ، فَإِنَّ الْكُتُبَ الْأُرْدِيَّةَ مَوْجُودَةٌ فِي الْهِنْدِ وَبَاكِسْتَانَ.",
+          "fr": "Il peut acheter ce livre au Pakistan, car les livres en ourdou se trouvent en Inde et au Pakistan."
+        },
+        {
+          "speaker": "E",
+          "ar": "أَشْكُرُكَ يَا أَيُّوبُ، جَزَاكَ اللَّهُ خَيْرًا. سَأَذْهَبُ إِلَيْهِ الْآنَ. السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.",
+          "fr": "Je te remercie, Ayyūb, qu'Allah te récompense en bien. J'irai le voir maintenant. Que la paix, la miséricorde d'Allah et ses bénédictions soient sur vous."
+        },
+        {
+          "speaker": "A",
+          "ar": "وَعَلَيْكُمُ السَّلَامُ. فِي أَمَانِ اللَّهِ.",
+          "fr": "Et sur vous la paix. Qu'Allah te garde."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l19.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Voici ce qu'il faut remarquer dans cette seconde partie :" },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            [
+              "{ar|أَتَعْرِفُ أَحَدًا}",
+              "connais-tu quelqu'un ?",
+              "{ar|أَ} (la question) + {ar|تَعْرِفُ} ; dans une question, {ar|أَحَدٌ} veut dire « quelqu'un »"
+            ],
+            [
+              "{ar|سَمِعْتُ أَنَّ طَالِبًا}",
+              "j'ai entendu qu'un étudiant",
+              "{ar|أَنَّ} (avec une shadda) se met devant un nom, qui passe à l'accusatif"
+            ],
+            [
+              "{ar|لِمَهْ؟}",
+              "pourquoi ?",
+              "c'est {ar|لِمَ} (chapitre 15) avec un {ar|ه} de pause ({ar|هَاءُ السَّكْتِ}), qu'on ne prononce que si l'on s'arrête sur le mot"
+            ],
+            ["{ar|لِلْعِلَاجِ}", "pour le traitement", "{ar|لِ} + un nom au génitif (et non un verbe)"],
+            [
+              "{ar|يُمْكِنُهُ أَنْ يَشْتَرِيَ}",
+              "il peut acheter",
+              "{ar|يُمْكِنُ} + {ar|هُ} + {ar|أَنْ} ; le {ar|ي} de {ar|يَشْتَرِي} garde une fatha à l'accusatif"
+            ],
+            ["{ar|فَإِنَّ}", "car, en effet", "{ar|فَ} + {ar|إِنَّ} : le {ar|فَ} introduit une explication"],
+            [
+              "{ar|الْكُتُبَ الْأُرْدِيَّةَ مَوْجُودَةٌ}",
+              "les livres en ourdou se trouvent",
+              "l'adjectif d'un pluriel de choses est au féminin singulier"
+            ],
+            ["{ar|قَرِيبًا}", "bientôt", "{ar|قَرِيبٌ} (« proche ») avec un tanwin fatha"],
+            ["{ar|أَشْكُرُكَ}", "je te remercie", "{ar|أَشْكُرُ} + {ar|كَ}"],
+            ["{ar|وَعَلَيْكُمُ السَّلَامُ}", "et sur vous la paix", "la réponse à {ar|السَّلَامُ عَلَيْكُمْ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l19.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Que sait Ayyūb de Khālid ?" },
+      "choices": [
+        { "fr": "Il partira en Inde la semaine prochaine, mais il ne reviendra pas" },
+        { "fr": "Il est un étudiant pakistanais" },
+        { "fr": "Il restera à Médine" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l19.dialogue-2#1" },
+      "explain": "{ar|هُوَ سَيَذْهَبُ فِي الْأُسْبُوعِ الْمُقْبِلِ، وَلٰكِنَّهُ لَنْ يَرْجِعَ}."
+    },
+    {
+      "id": "medine-t2.l19.dialogue-2#4",
+      "type": "true_false",
+      "statement": { "fr": "Khālid ne reviendra pas, parce qu'il restera en Inde pour se soigner." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l19.dialogue-2#1" },
+      "explain": "{ar|لِأَنَّهُ مَرِيضٌ وَسَيَبْقَى فِي الْهِنْدِ لِلْعِلَاجِ} : « parce qu'il est malade et qu'il restera en Inde pour se faire soigner »."
+    },
+    {
+      "id": "medine-t2.l19.dialogue-2#5",
+      "type": "question",
+      "prompt": { "fr": "D'où vient Jaʿfar ?" },
+      "choices": [ { "fr": "Du Pakistan" }, { "fr": "De l'Inde" }, { "fr": "De Bagdad" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l19.dialogue-2#1" },
+      "explain": "{ar|لٰكِنَّهُ مِنْ بَاكِسْتَانَ} : « mais il est du Pakistan »."
+    },
+    {
+      "id": "medine-t2.l19.dialogue-2#6",
+      "type": "fill_gap",
+      "sentence": "سَمِعْتُ {0} طَالِبًا هِنْدِيًّا اسْمُهُ خَالِدٌ سَيَذْهَبُ إِلَى الْهِنْدِ.",
+      "fr": "J'ai entendu dire qu'un étudiant indien, nommé Khālid, ira en Inde.",
+      "gaps": [ { "answers": ["أَنَّ"] } ],
+      "options": ["أَنَّ", "لَنْ", "عِنْدَمَا"],
+      "context": { "dialogue": "medine-t2.l19.dialogue-2#1" },
+      "explain": "« J'ai entendu que » : {ar|أَنَّ} + un nom à l'accusatif ({ar|طَالِبًا}). {ar|لَنْ} se met devant un verbe, {ar|عِنْدَمَا} veut dire « quand »."
+    },
+    {
+      "id": "medine-t2.l19.dialogue-2#7",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi Jaʿfar peut-il acheter ce livre au Pakistan ?" },
+      "choices": [
+        { "fr": "Parce que les livres en ourdou se trouvent aussi au Pakistan" },
+        { "fr": "Parce qu'il habite à Médine" },
+        { "fr": "Parce que le livre est en arabe" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l19.dialogue-2#1" },
+      "explain": "{ar|فَإِنَّ الْكُتُبَ الْأُرْدِيَّةَ مَوْجُودَةٌ فِي الْهِنْدِ وَبَاكِسْتَانَ}."
+    },
+    {
+      "id": "medine-t2.l19.dialogue-2#8",
+      "type": "order",
+      "fr": "Il peut acheter ce livre au Pakistan.",
+      "answers": [["يُمْكِنُهُ", "أَنْ", "يَشْتَرِيَ", "هٰذَا", "الْكِتَابَ", "مِنْ", "بَاكِسْتَانَ"]],
+      "punctuation": ".",
+      "explain": "{ar|يُمْكِنُهُ أَنْ يَشْتَرِيَ} : après {ar|أَنْ}, le verbe est à la fatha (le {ar|ي} garde sa fatha)."
+    },
+    {
+      "id": "medine-t2.l19.dialogue-2#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَتَعْرِفُ جَعْفَرًا؟",
+      "answers": ["نَعَمْ، أَعْرِفُهُ.", "أَعْرِفُهُ."],
+      "fr": "Oui, je le connais.",
+      "instruction": "Réponds en arabe : oui, tu le connais.",
+      "context": { "dialogue": "medine-t2.l19.dialogue-2#1" },
+      "explain": "{ar|أَعْرِفُهُ} : le présent de {ar|عَرَفَ} + {ar|هُ} (« le »)."
+    }
+  ]
+}
