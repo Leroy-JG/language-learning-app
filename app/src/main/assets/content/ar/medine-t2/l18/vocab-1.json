@@ -1,0 +1,53 @@
+{
+  "id": "medine-t2.l18.vocab-1",
+  "type": "vocabulary",
+  "title": "Habitude, musée, visite et boîte",
+  "icon": "mosque",
+  "screens": [
+    { "id": "medine-t2.l18.vocab-1#1", "type": "present", "item": "w:adat" },
+    { "id": "medine-t2.l18.vocab-1#2", "type": "present", "item": "w:mathaf" },
+    {
+      "id": "medine-t2.l18.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:adat",
+      "distractors": ["w:mathaf", "w:utla"],
+      "explain": "{ar|عَادَةٌ} : une habitude. {ar|مُتْحَفٌ} : un musée ; {ar|عُطْلَةٌ} : des vacances."
+    },
+    { "id": "medine-t2.l18.vocab-1#4", "type": "present", "item": "w:iyada" },
+    { "id": "medine-t2.l18.vocab-1#5", "type": "present", "item": "w:ulba" },
+    {
+      "id": "medine-t2.l18.vocab-1#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:adat", "w:mathaf", "w:iyada", "w:ulba"]
+    },
+    {
+      "id": "medine-t2.l18.vocab-1#7",
+      "type": "fill_gap",
+      "sentence": "فِي {0} طَعَامٌ.",
+      "fr": "Dans la boîte, il y a de la nourriture.",
+      "gaps": [ { "answers": ["الْعُلْبَةِ"] } ],
+      "options": ["الْعُلْبَةِ", "الْمُتْحَفِ", "الْعَادَةِ"],
+      "explain": "« La boîte » : {ar|الْعُلْبَةِ}, à la kasra après {ar|فِي}."
+    },
+    { "id": "medine-t2.l18.vocab-1#8", "type": "build", "item": "w:iyada", "extra": ["و"] },
+    {
+      "id": "medine-t2.l18.vocab-1#9",
+      "type": "order",
+      "fr": "Zayd étudie comme à son habitude.",
+      "answers": [["زَيْدٌ", "يَدْرُسُ", "كَعَادَتِهِ"], ["زَيْدٌ", "كَعَادَتِهِ", "يَدْرُسُ"]],
+      "punctuation": ".",
+      "explain": "{ar|كَعَادَتِهِ} : « comme à son habitude » ; le {ar|كَ} est collé au nom, qui est au génitif."
+    },
+    { "id": "medine-t2.l18.vocab-1#10", "type": "typing", "ask": "fr", "item": "w:mathaf" },
+    {
+      "id": "medine-t2.l18.vocab-1#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd a visité le musée.",
+      "answers": ["زَارَ زَيْدٌ الْمُتْحَفَ."],
+      "explain": "{ar|زَارَ} + le complément d'objet {ar|الْمُتْحَفَ}, à la fatha."
+    }
+  ]
+}

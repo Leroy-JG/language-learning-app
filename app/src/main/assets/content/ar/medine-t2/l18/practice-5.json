@@ -1,0 +1,153 @@
+{
+  "id": "medine-t2.l18.practice-5",
+  "type": "grammar",
+  "title": "Exercice 5 : {ar|يَذْهَبُ} avec le bon sujet",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l18.practice-5#1",
+      "type": "tip",
+      "title": "L'exercice 5 : choisir la bonne forme",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne dix phrases avec un trou. Il faut y mettre le verbe {ar|يَذْهَبُ}, à la forme qui va avec le **sujet** de la phrase, et **à l'accusatif**, puisqu'il suit {ar|أَنْ}."
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Cherche le sujet : un nom, un mot d'appel ({ar|يَا أَخَوَاتُ}), ou le verbe {ar|يُرِيدُ} qui précède le trou."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.practice-5#2",
+      "type": "fill_gap",
+      "sentence": "يُرِيدُ الطُّلَّابُ أَنْ {0} إِلَى الْمَتْحَفِ غَدًا.",
+      "fr": "Les étudiants veulent aller au musée demain.",
+      "gaps": [ { "answers": ["يَذْهَبُوا"] } ],
+      "options": ["يَذْهَبُوا", "يَذْهَبَ", "يَذْهَبْنَ"],
+      "explain": "Le sujet est {ar|الطُّلَّابُ} (plusieurs hommes) : {ar|يَذْهَبُوا}."
+    },
+    {
+      "id": "medine-t2.l18.practice-5#3",
+      "type": "fill_gap",
+      "sentence": "يَا أُسَامَةُ، أَتُرِيدُ أَنْ {0} إِلَى مَكْتَبِ الْبَرِيدِ لِتَأْخُذَ الْبَرْقِيَّةَ؟",
+      "fr": "Usāma, veux-tu aller au bureau de poste pour prendre le télégramme ?",
+      "gaps": [ { "answers": ["تَذْهَبَ"] } ],
+      "options": ["تَذْهَبَ", "تَذْهَبِي", "تَذْهَبُوا"],
+      "explain": "On parle à un seul homme ({ar|يَا أُسَامَةُ}) : {ar|تَذْهَبَ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-5#4",
+      "type": "order",
+      "fr": "Nous voulons aller au Pakistan la semaine prochaine.",
+      "answers": [["نَحْنُ", "نُرِيدُ", "أَنْ", "نَذْهَبَ", "إِلَى", "بَاكِسْتَانَ", "فِي", "الْأُسْبُوعِ", "الْمُقْبِلِ"]],
+      "punctuation": ".",
+      "explain": "{ar|نُرِيدُ أَنْ نَذْهَبَ} : « nous voulons aller » ; {ar|فِي الْأُسْبُوعِ الْمُقْبِلِ} : « la semaine prochaine »."
+    },
+    {
+      "id": "medine-t2.l18.practice-5#5",
+      "type": "fill_gap",
+      "sentence": "أَنَا أُرِيدُ أَنْ {0} إِلَى بَلَدِي فِي عُطْلَةِ الصَّيْفِ.",
+      "fr": "Je veux aller dans mon pays pendant les vacances d'été.",
+      "gaps": [ { "answers": ["أَذْهَبَ"] } ],
+      "options": ["أَذْهَبَ", "نَذْهَبَ", "يَذْهَبَ"],
+      "explain": "Le sujet est {ar|أَنَا} : la lettre du présent est {ar|أَ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-5#6",
+      "type": "fill_gap",
+      "sentence": "يُرِيدُ عَمِّي أَنْ {0} إِلَى جُدَّةَ لِيَشْتَرِيَ سَيَّارَةً.",
+      "fr": "Mon oncle veut aller à Djeddah pour acheter une voiture.",
+      "gaps": [ { "answers": ["يَذْهَبَ"] } ],
+      "options": ["يَذْهَبَ", "يَذْهَبُوا", "تَذْهَبِي"],
+      "explain": "Le sujet est {ar|عَمِّي} (un seul homme) : {ar|يَذْهَبَ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-5#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Mon oncle veut aller à Djeddah pour acheter une voiture.",
+      "answers": ["يُرِيدُ عَمِّي أَنْ يَذْهَبَ إِلَى جُدَّةَ لِيَشْتَرِيَ سَيَّارَةً."],
+      "explain": "{ar|يَذْهَبَ} et {ar|لِيَشْتَرِيَ} : deux verbes à la fatha ; elle se voit sur le {ar|ي} de {ar|يَشْتَرِيَ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-5#8",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ تُرِدْنَ أَنْ {0} بَعْدَ الدَّرْسِ يَا أَخَوَاتُ؟",
+      "fr": "Où voulez-vous aller après le cours, mes sœurs ?",
+      "gaps": [ { "answers": ["تَذْهَبْنَ"] } ],
+      "options": ["تَذْهَبْنَ", "تَذْهَبُوا", "تَذْهَبِي"],
+      "explain": "On parle à plusieurs femmes ({ar|تُرِدْنَ}, {ar|يَا أَخَوَاتُ}) : {ar|تَذْهَبْنَ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-5#9",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi met-on {ar|تَذْهَبْنَ} et non {ar|تَذْهَبُوا} dans la phrase précédente ?" },
+      "choices": [
+        { "fr": "Parce que {ar|تُرِدْنَ} et {ar|يَا أَخَوَاتُ} montrent qu'on parle à des femmes" },
+        { "fr": "Parce que {ar|أَنْ} impose toujours le {ar|ن}" },
+        { "fr": "Parce que {ar|بَعْدَ الدَّرْسِ} veut le féminin" }
+      ],
+      "answer": 0,
+      "explain": "Le sujet commande la forme du verbe : plusieurs femmes → {ar|تَذْهَبْنَ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-5#10",
+      "type": "fill_gap",
+      "sentence": "أَخَوَاتِي يُرِدْنَ أَنْ {0} إِلَى الْمَكْتَبَةِ هٰذَا الْمَسَاءَ.",
+      "fr": "Mes sœurs veulent aller à la bibliothèque ce soir.",
+      "gaps": [ { "answers": ["يَذْهَبْنَ"] } ],
+      "options": ["يَذْهَبْنَ", "يَذْهَبُوا", "تَذْهَبَ"],
+      "explain": "{ar|أَخَوَاتِي} (plusieurs femmes) : {ar|يَذْهَبْنَ}, qui ne change pas."
+    },
+    {
+      "id": "medine-t2.l18.practice-5#11",
+      "type": "fill_gap",
+      "sentence": "أُمِّي تُرِيدُ أَنْ {0} إِلَى الصَّيْدَلِيَّةِ لِتَشْتَرِيَ دَوَاءً.",
+      "fr": "Ma mère veut aller à la pharmacie pour acheter un médicament.",
+      "gaps": [ { "answers": ["تَذْهَبَ"] } ],
+      "options": ["تَذْهَبَ", "تَذْهَبِي", "يَذْهَبْنَ"],
+      "explain": "{ar|أُمِّي} est une seule femme, à la 3ᵉ personne (« elle ») : {ar|تَذْهَبَ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-5#12",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans la phrase de la pharmacie, le verbe {ar|تَذْهَبَ} est à la forme de « elle » (une seule femme absente)."
+      },
+      "answer": true,
+      "explain": "Oui : {ar|أُمِّي تُرِيدُ أَنْ تَذْهَبَ} : « elle veut aller ». {ar|تَذْهَبِي} serait pour « toi, une femme »."
+    },
+    {
+      "id": "medine-t2.l18.practice-5#13",
+      "type": "fill_gap",
+      "sentence": "مَتَى تُرِيدِينَ أَنْ {0} إِلَى الْمُسْتَشْفَى لِعِيَادَةِ الْخَالَةِ يَا أُمَّ كُلْثُومٍ؟",
+      "fr": "Quand veux-tu aller à l'hôpital rendre visite à ma tante, Umm Kulthūm ?",
+      "gaps": [ { "answers": ["تَذْهَبِي"] } ],
+      "options": ["تَذْهَبِي", "تَذْهَبَ", "تَذْهَبْنَ"],
+      "explain": "On parle à une femme ({ar|تُرِيدِينَ}, {ar|يَا أُمَّ كُلْثُومٍ}) : le {ar|ن} de {ar|تَذْهَبِينَ} tombe."
+    },
+    {
+      "id": "medine-t2.l18.practice-5#14",
+      "type": "fill_gap",
+      "sentence": "يَا إِخْوَانُ، أَتُرِيدُونَ أَنْ {0} إِلَى حَدِيقَةِ الْحَيَوَانَاتِ الْيَوْمَ؟",
+      "fr": "Frères, voulez-vous aller aujourd'hui au zoo ?",
+      "gaps": [ { "answers": ["تَذْهَبُوا"] } ],
+      "options": ["تَذْهَبُوا", "تَذْهَبْنَ", "تَذْهَبِي"],
+      "explain": "On parle à plusieurs hommes ({ar|يَا إِخْوَانُ}) : {ar|تَذْهَبُوا}."
+    },
+    {
+      "id": "medine-t2.l18.practice-5#15",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Frères, voulez-vous aller aujourd'hui au zoo ?",
+      "answers": [
+        "يَا إِخْوَانُ، أَتُرِيدُونَ أَنْ تَذْهَبُوا إِلَى حَدِيقَةِ الْحَيَوَانَاتِ الْيَوْمَ؟",
+        "يَا إِخْوَانُ، أَتُرِيدُونَ أَنْ تَذْهَبُوا الْيَوْمَ إِلَى حَدِيقَةِ الْحَيَوَانَاتِ؟"
+      ],
+      "explain": "{ar|أَتُرِيدُونَ} : {ar|أَ} pose la question ; {ar|تَذْهَبُوا} : le {ar|ن} est tombé."
+    }
+  ]
+}

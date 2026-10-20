@@ -1,0 +1,155 @@
+{
+  "id": "medine-t2.l18.practice-2",
+  "type": "grammar",
+  "title": "Exercice 3 : que veulent ces étudiants ?",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l18.practice-2#1",
+      "type": "tip",
+      "title": "L'exercice 3 : du nominatif à l'accusatif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur demande à chaque étudiant : {ar|مَاذَا يُرِيدُ هٰؤُلَاءِ الطُّلَّابُ؟} (« Que veulent ces étudiants ? »). L'étudiant répond {ar|هٰؤُلَاءِ يُرِيدُونَ أَنْ} + un verbe pris dans une liste. Chaque verbe de la liste est au nominatif ({ar|يَذْهَبُونَ}) ; **après {ar|أَنْ}, il passe à l'accusatif** : le {ar|ن} tombe."
+        },
+        {
+          "type": "table",
+          "header": ["Dans la liste", "Après {ar|أَنْ}", "Sens"],
+          "rows": [
+            [
+              "{ar|يَذْهَبُونَ إِلَى الْمَلْعَبِ}",
+              "{ar|أَنْ يَذْهَبُوا إِلَى الْمَلْعَبِ}",
+              "aller au terrain de jeu"
+            ],
+            [
+              "{ar|يَجْلِسُونَ فِي الصَّفِّ الْأَوَّلِ}",
+              "{ar|أَنْ يَجْلِسُوا فِي الصَّفِّ الْأَوَّلِ}",
+              "s'asseoir au premier rang"
+            ],
+            ["{ar|يَفْتَحُونَ النَّوَافِذَ}", "{ar|أَنْ يَفْتَحُوا النَّوَافِذَ}", "ouvrir les fenêtres"],
+            [
+              "{ar|يَأْخُذُونَ هٰذِهِ الْمَجَلَّةَ إِلَى بُيُوتِهِمْ}",
+              "{ar|أَنْ يَأْخُذُوا هٰذِهِ الْمَجَلَّةَ إِلَى بُيُوتِهِمْ}",
+              "emporter cette revue chez eux"
+            ],
+            ["{ar|يَغْسِلُونَ وُجُوهَهُمْ}", "{ar|أَنْ يَغْسِلُوا وُجُوهَهُمْ}", "se laver le visage"],
+            ["{ar|يَضْرِبُونَنِي}", "{ar|أَنْ يَضْرِبُونِي}", "me frapper"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Dans {ar|يَضْرِبُونَنِي}, il y a deux {ar|ن} : celui du nominatif et celui de {ar|نِي} (« me »). Après {ar|أَنْ}, seul le premier tombe : {ar|أَنْ يَضْرِبُونِي}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.practice-2#2",
+      "type": "tip",
+      "title": "L'exercice 3 : la suite de la liste",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Dans la liste", "Après {ar|أَنْ}", "Sens"],
+          "rows": [
+            ["{ar|يَقْرَأُونَ الْقُرْآنَ}", "{ar|أَنْ يَقْرَأُوا الْقُرْآنَ}", "lire le Coran"],
+            ["{ar|يَدْخُلُونَ الْمَكْتَبَةَ}", "{ar|أَنْ يَدْخُلُوا الْمَكْتَبَةَ}", "entrer dans la bibliothèque"],
+            ["{ar|يَقُولُونَ لَكَ شَيْئًا}", "{ar|أَنْ يَقُولُوا لَكَ شَيْئًا}", "te dire quelque chose"],
+            ["{ar|يَسْأَلُونَكَ سُؤَالًا}", "{ar|أَنْ يَسْأَلُوكَ سُؤَالًا}", "te poser une question"],
+            ["{ar|يَأْكُلُونَ}", "{ar|أَنْ يَأْكُلُوا}", "manger"],
+            ["{ar|يَشْرَبُونَ الْقَهْوَةَ}", "{ar|أَنْ يَشْرَبُوا الْقَهْوَةَ}", "boire du café"],
+            ["{ar|يَزُورُونَ الْمُدِيرَ}", "{ar|أَنْ يَزُورُوا الْمُدِيرَ}", "rendre visite au directeur"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le livre contient deux autres phrases de la liste ({ar|يَسْكُنُونَ فِي مَهَاجِعِ الْجَامِعَةِ} et {ar|يَرْجِعُونَ إِلَى الْمَهَاجِعِ بَعْدَ الْحِصَّةِ الثَّانِيَةِ}) : elles emploient {ar|مَهَاجِعُ} (« des dortoirs »), un mot que nous n'étudions pas ici."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "هٰؤُلَاءِ يُرِيدُونَ أَنْ {0} النَّوَافِذَ.",
+      "fr": "Ceux-ci veulent ouvrir les fenêtres.",
+      "gaps": [ { "answers": ["يَفْتَحُوا"] } ],
+      "options": ["يَفْتَحُوا", "يَفْتَحُونَ", "يَفْتَحَ"],
+      "explain": "{ar|يَفْتَحُونَ} perd son {ar|ن} après {ar|أَنْ} : {ar|يَفْتَحُوا}."
+    },
+    {
+      "id": "medine-t2.l18.practice-2#4",
+      "type": "fill_gap",
+      "sentence": "هٰؤُلَاءِ يُرِيدُونَ أَنْ {0} الْمُدِيرَ.",
+      "fr": "Ceux-ci veulent rendre visite au directeur.",
+      "gaps": [ { "answers": ["يَزُورُوا"] } ],
+      "options": ["يَزُورُوا", "يَزُورُونَ", "يَزُورَ"],
+      "explain": "{ar|يَزُورُونَ} perd son {ar|ن} après {ar|أَنْ} : {ar|يَزُورُوا}."
+    },
+    {
+      "id": "medine-t2.l18.practice-2#5",
+      "type": "spot",
+      "instruction": "Touche le verbe qui est à l'accusatif.",
+      "words": ["هٰؤُلَاءِ", "يُرِيدُونَ", "أَنْ", "يَأْكُلُوا", "مَعَنَا."],
+      "answers": [3],
+      "fr": "Ceux-ci veulent manger avec nous.",
+      "explain": "{ar|يُرِيدُونَ} garde son {ar|ن} (nominatif). {ar|يَأْكُلُوا}, après {ar|أَنْ}, l'a perdu (accusatif)."
+    },
+    {
+      "id": "medine-t2.l18.practice-2#6",
+      "type": "fill_gap",
+      "sentence": "هٰؤُلَاءِ يُرِيدُونَ أَنْ {0}.",
+      "fr": "Ceux-ci veulent me frapper.",
+      "gaps": [ { "answers": ["يَضْرِبُونِي"] } ],
+      "options": ["يَضْرِبُونِي", "يَضْرِبُونَنِي", "يَضْرِبُوا"],
+      "explain": "Le {ar|ن} du nominatif tombe, celui de {ar|نِي} reste : {ar|يَضْرِبُونِي}. {ar|يَضْرِبُونَنِي} garde les deux : c'est le présent sans {ar|أَنْ}. {ar|يَضْرِبُوا} n'a pas le pronom « me »."
+    },
+    {
+      "id": "medine-t2.l18.practice-2#7",
+      "type": "sort",
+      "categories": [ { "fr": "le {ar|ن} reste (nominatif)" }, { "fr": "le {ar|ن} tombe (après {ar|أَنْ})" } ],
+      "cards": [
+        { "ar": "يَأْكُلُونَ", "category": 0 },
+        { "ar": "يَشْرَبُونَ", "category": 0 },
+        { "ar": "يَقْرَأُونَ", "category": 0 },
+        { "ar": "أَنْ يَأْكُلُوا", "category": 1 },
+        { "ar": "أَنْ يَشْرَبُوا", "category": 1 },
+        { "ar": "أَنْ يَقْرَأُوا", "category": 1 }
+      ],
+      "instruction": "Le {ar|ن} final : reste-t-il ou tombe-t-il ?",
+      "explain": "Sans {ar|أَنْ}, le verbe garde son {ar|ن} ; après {ar|أَنْ}, il le perd."
+    },
+    {
+      "id": "medine-t2.l18.practice-2#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَاذَا يُرِيدُ هٰؤُلَاءِ الطُّلَّابُ؟",
+      "answers": ["هٰؤُلَاءِ يُرِيدُونَ أَنْ يَقْرَأُوا الْقُرْآنَ.", "يُرِيدُونَ أَنْ يَقْرَأُوا الْقُرْآنَ."],
+      "fr": "Ils veulent lire le Coran.",
+      "instruction": "Réponds en arabe : ils veulent lire le Coran.",
+      "explain": "{ar|يَقْرَأُونَ} perd son {ar|ن} après {ar|أَنْ} : {ar|أَنْ يَقْرَأُوا}."
+    },
+    {
+      "id": "medine-t2.l18.practice-2#9",
+      "type": "order",
+      "fr": "Ceux-ci veulent boire du café.",
+      "answers": [["هٰؤُلَاءِ", "يُرِيدُونَ", "أَنْ", "يَشْرَبُوا", "الْقَهْوَةَ"]],
+      "punctuation": ".",
+      "explain": "{ar|يَشْرَبُوا} : le {ar|ن} de {ar|يَشْرَبُونَ} est tombé."
+    },
+    {
+      "id": "medine-t2.l18.practice-2#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَاذَا يُرِيدُ هٰؤُلَاءِ الطُّلَّابُ؟",
+      "answers": [
+        "هٰؤُلَاءِ يُرِيدُونَ أَنْ يَجْلِسُوا فِي الصَّفِّ الْأَوَّلِ.",
+        "يُرِيدُونَ أَنْ يَجْلِسُوا فِي الصَّفِّ الْأَوَّلِ."
+      ],
+      "fr": "Ils veulent s'asseoir au premier rang.",
+      "instruction": "Réponds en arabe : ils veulent s'asseoir au premier rang.",
+      "explain": "{ar|يَجْلِسُونَ} → {ar|أَنْ يَجْلِسُوا} ; {ar|فِي الصَّفِّ الْأَوَّلِ} : « au premier rang »."
+    }
+  ]
+}

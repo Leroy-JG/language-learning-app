@@ -1,0 +1,143 @@
+{
+  "id": "medine-t2.l18.grammar-3",
+  "type": "grammar",
+  "title": "{ar|أَنْ} + {ar|لَا} = {ar|أَلَّا}",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l18.grammar-3#1",
+      "type": "tip",
+      "title": "Quand {ar|أَنْ} rencontre {ar|لَا}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais {ar|أَنْ} suivi d'un verbe : {ar|أَرْجُو أَنْ تَدْخُلَ} (« je te prie d'entrer »). Pour dire « de **ne pas** entrer », on ajoute {ar|لَا}, le {ar|لَا} qui nie ({ar|لَا النَّافِيَةُ})."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand {ar|أَنْ} est suivi de {ar|لَا}, le {ar|ن} de {ar|أَنْ} et le {ar|ل} de {ar|لَا} se **contractent** : ils ne forment plus qu'une seule lettre, doublée (marquée par la shadda). Cette contraction s'appelle {ar|الْإِدْغَامُ}."
+        },
+        {
+          "type": "compare",
+          "title": "La contraction",
+          "rows": [
+            {
+              "from": { "ar": "أَنْ لَا", "fr": "que… ne… pas (deux mots)" },
+              "to": { "ar": "أَلَّا", "fr": "de ne pas (un seul mot)" }
+            }
+          ]
+        },
+        { "type": "example", "ar": "أَرْجُو أَلَّا تَدْخُلَ.", "fr": "Je te prie de ne pas entrer." },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le {ar|ن} ne s'écrit plus : la shadda de {ar|لَّا} garde sa trace."
+        }
+      ]
+    },
+    { "id": "medine-t2.l18.grammar-3#2", "type": "present", "item": "w:idgham" },
+    { "id": "medine-t2.l18.grammar-3#3", "type": "present", "item": "w:alla" },
+    {
+      "id": "medine-t2.l18.grammar-3#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:alla",
+      "distractors": ["w:an-nasiba", "w:lam-taalil"],
+      "explain": "{ar|أَلَّا} : « de ne pas », le {ar|أَنْ} suivi de {ar|لَا}. {ar|أَنْ النَّاصِبَةُ} est le {ar|أَنْ} de l'accusatif ; {ar|لَامُ التَّعْلِيلِ} est le {ar|لِ} de but."
+    },
+    {
+      "id": "medine-t2.l18.grammar-3#5",
+      "type": "tip",
+      "title": "Le verbe après {ar|أَلَّا}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|أَلَّا} contient {ar|أَنْ} : le verbe qui suit est donc à l'**accusatif**, avec les mêmes marques qu'après {ar|أَنْ}."
+        },
+        {
+          "type": "table",
+          "header": ["Avec {ar|أَنْ}", "Avec {ar|أَلَّا}", "Sens"],
+          "rows": [
+            ["{ar|أَرْجُو أَنْ تَدْخُلَ}", "{ar|أَرْجُو أَلَّا تَدْخُلَ}", "je te prie d'entrer / de ne pas entrer"],
+            [
+              "{ar|أَرْجُو أَنْ تَجْلِسَ هُنَا}",
+              "{ar|أَرْجُو أَلَّا تَجْلِسَ هُنَا}",
+              "je te prie de t'asseoir / de ne pas t'asseoir ici"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "La fatha pour un seul sujet : {ar|أَلَّا تَدْخُلَ}. La chute du {ar|ن} pour les « cinq verbes » : {ar|أَلَّا تَدْخُلُوا}. Rien ne change pour les femmes : {ar|أَلَّا تَدْخُلْنَ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.grammar-3#6",
+      "type": "tip",
+      "title": "Ne pas confondre {ar|أَلَّا} et {ar|أَلَا}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au chapitre 15, tu as vu {ar|أَلَا} : {ar|أَ} (qui pose une question) + {ar|لَا}. Les deux se ressemblent, mais ils ne veulent pas dire la même chose."
+        },
+        {
+          "type": "table",
+          "header": ["Point", "{ar|أَلَّا}", "{ar|أَلَا}"],
+          "rows": [
+            ["Formé de", "{ar|أَنْ} + {ar|لَا}", "{ar|أَ} + {ar|لَا}"],
+            ["Sens", "de ne pas…", "ne… pas… ? (une question)"],
+            ["Le verbe qui suit", "à la fatha : {ar|أَلَّا تَذْهَبَ}", "à la damma : {ar|أَلَا تَذْهَبُ؟}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "La shadda est la seule différence visible. Sans voyelles, les deux s'écrivent de la même façon : le sens de la phrase et la voyelle du verbe disent de laquelle il s'agit."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.grammar-3#7",
+      "type": "sort",
+      "categories": [ { "fr": "de faire quelque chose" }, { "fr": "de ne pas le faire" } ],
+      "cards": [
+        { "ar": "أَرْجُو أَنْ تَجْلِسَ هُنَا", "category": 0 },
+        { "ar": "أَرْجُو أَنْ تَأْكُلَ مَعَنَا", "category": 0 },
+        { "ar": "أَرْجُو أَنْ تَذْهَبَ الْيَوْمَ", "category": 0 },
+        { "ar": "أَرْجُو أَلَّا تَخْرُجَ الْآنَ", "category": 1 },
+        { "ar": "أَرْجُو أَلَّا تَسْمَعَ هٰذَا", "category": 1 },
+        { "ar": "أَرْجُو أَلَّا تَدْخُلَ الْفَصْلَ", "category": 1 }
+      ],
+      "instruction": "{ar|أَنْ} ou {ar|أَلَّا} : que demande-t-on ?",
+      "explain": "{ar|أَنْ} demande de faire ; {ar|أَلَّا} (= {ar|أَنْ} + {ar|لَا}) demande de ne pas faire."
+    },
+    {
+      "id": "medine-t2.l18.grammar-3#8",
+      "type": "fill_gap",
+      "sentence": "أَرْجُو {0} تَنْسَى الْمِفْتَاحَ.",
+      "fr": "Je te prie de ne pas oublier la clé (à un homme).",
+      "gaps": [ { "answers": ["أَلَّا"] } ],
+      "options": ["أَلَّا", "أَنْ", "لَنْ"],
+      "explain": "« De ne pas » : {ar|أَلَّا} (= {ar|أَنْ} + {ar|لَا}). {ar|أَنْ} sans négation voudrait dire « d'oublier » ; {ar|لَنْ} ne s'emploie pas après {ar|أَرْجُو}."
+    },
+    {
+      "id": "medine-t2.l18.grammar-3#9",
+      "type": "order",
+      "fr": "Je te prie de ne pas entrer.",
+      "answers": [["أَرْجُو", "أَلَّا", "تَدْخُلَ"]],
+      "punctuation": ".",
+      "distractors": ["أَنْ"],
+      "explain": "{ar|أَرْجُو أَلَّا تَدْخُلَ} : {ar|أَلَّا} remplace {ar|أَنْ لَا} ; le verbe est à la fatha."
+    },
+    {
+      "id": "medine-t2.l18.grammar-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je te prie de ne pas t'asseoir ici (à un homme).",
+      "answers": ["أَرْجُو أَلَّا تَجْلِسَ هُنَا.", "أَنَا أَرْجُو أَلَّا تَجْلِسَ هُنَا."],
+      "explain": "{ar|أَنْ} + {ar|لَا} s'écrivent en un seul mot : {ar|أَلَّا}, avec la shadda."
+    }
+  ]
+}

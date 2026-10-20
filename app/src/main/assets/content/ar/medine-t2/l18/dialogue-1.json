@@ -1,0 +1,166 @@
+{
+  "id": "medine-t2.l18.dialogue-1",
+  "type": "dialogue",
+  "title": "Où veux-tu aller ?",
+  "icon": "mosque",
+  "screens": [
+    {
+      "id": "medine-t2.l18.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Où veux-tu aller ?",
+      "intro": "Ḥāmid parle à sa femme Āmina, puis à ses fils. Écoute {ar|أَنْ} suivi d'un verbe à l'accusatif.",
+      "speakers": {
+        "H": { "name": "Ḥāmid", "voice": "m1" },
+        "A": { "name": "Āmina", "voice": "f1" },
+        "S": { "name": "Les fils", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "H",
+          "ar": "أَيْنَ تُرِيدِينَ أَنْ تَذْهَبِي بَعْدَ صَلَاةِ الْعَصْرِ؟",
+          "fr": "Où veux-tu aller après la prière de l'après-midi ?"
+        },
+        {
+          "speaker": "A",
+          "ar": "أُرِيدُ أَنْ أَزُورَ جَارَتَنَا الَّتِي زَارَتْنِي أَمْسِ.",
+          "fr": "Je veux rendre visite à notre voisine, qui m'a rendu visite hier."
+        },
+        {
+          "speaker": "H",
+          "ar": "أَيُمْكِنُكِ أَنْ تَرْجِعِي قَبْلَ صَلَاةِ الْمَغْرِبِ؟",
+          "fr": "Peux-tu rentrer avant la prière du maghrib ?"
+        },
+        { "speaker": "A", "ar": "يُمْكِنُ إِنْ شَاءَ اللَّهُ.", "fr": "C'est possible, si Dieu le veut." },
+        {
+          "speaker": "H",
+          "ar": "أَرْجُو أَنْ تَغْسِلِي قَمِيصِيَ الْأَبْيَضَ بَعْدَ رُجُوعِكِ مِنْ عِنْدِ الْجَارَةِ.",
+          "fr": "Je te prie de laver ma chemise blanche après ton retour de chez la voisine."
+        },
+        {
+          "speaker": "A",
+          "ar": "سَأَغْسِلُهُ وَأَكْوِيهِ إِنْ شَاءَ اللَّهُ.",
+          "fr": "Je la laverai et je la repasserai, si Dieu le veut."
+        },
+        {
+          "speaker": "H",
+          "ar": "أَيْنَ تُرِيدُونَ أَنْ تَذْهَبُوا الْآنَ يَا أَبْنَائِي؟",
+          "fr": "Où voulez-vous aller maintenant, mes fils ?"
+        },
+        {
+          "speaker": "S",
+          "ar": "نَذْهَبُ الْآنَ إِلَى الْمَسْجِدِ. وَبَعْدَ الصَّلَاةِ نُرِيدُ أَنْ نَذْهَبَ إِلَى السُّوقِ لِنَشْتَرِيَ أَقْلَامًا وَدَفَاتِرَ وَمَسَاطِرَ.",
+          "fr": "Nous allons maintenant à la mosquée. Et après la prière, nous voulons aller au marché pour acheter des stylos, des cahiers et des règles."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Presque tout ce texte est connu. Voici ce qu'il faut remarquer :" },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            [
+              "{ar|تُرِيدِينَ أَنْ تَذْهَبِي}",
+              "veux-tu aller (à une femme)",
+              "le {ar|ن} de {ar|تَذْهَبِينَ} tombe après {ar|أَنْ}"
+            ],
+            ["{ar|زَارَتْنِي}", "elle m'a rendu visite", "{ar|زَارَ} au féminin du passé + {ar|نِي} (« moi »)"],
+            ["{ar|أَيُمْكِنُكِ}", "peux-tu… ? (à une femme)", "{ar|أَ} (la question) + {ar|يُمْكِنُ} + {ar|كِ}"],
+            [
+              "{ar|قَمِيصِيَ}",
+              "ma chemise",
+              "{ar|قَمِيصٌ} + {ar|ي} (« mon ») ; le {ar|ي} peut porter une fatha, comme ici, ou un sukūn"
+            ],
+            ["{ar|رُجُوعِكِ}", "ton retour (à une femme)", "{ar|رُجُوعٌ} + {ar|كِ}"],
+            ["{ar|سَأَغْسِلُهُ}", "je le laverai", "{ar|سَ} (futur) + {ar|أَغْسِلُ} + {ar|هُ} (« le »)"],
+            [
+              "{ar|أَكْوِيهِ}",
+              "je le repasse",
+              "{ar|أَكْوِي} (présent de {ar|كَوَى}) + {ar|هِ} : kasra après le {ar|ي}"
+            ],
+            ["{ar|أَبْنَائِي}", "mes fils", "{ar|أَبْنَاءٌ} (pluriel de {ar|اِبْنٌ}) + {ar|ي}"],
+            [
+              "{ar|أَقْلَامًا وَدَفَاتِرَ وَمَسَاطِرَ}",
+              "des stylos, des cahiers et des règles",
+              "pluriels de {ar|قَلَمٌ}, {ar|دَفْتَرٌ} et {ar|مِسْطَرَةٌ} ; {ar|دَفَاتِرَ} et {ar|مَسَاطِرَ} n'ont pas de tanwin"
+            ],
+            [
+              "{ar|لِنَشْتَرِيَ}",
+              "pour acheter",
+              "le {ar|لِ} de but + le verbe à l'accusatif (fatha sur le {ar|ي})"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Que veut faire Āmina après la prière de l'après-midi ?" },
+      "choices": [ { "fr": "Rendre visite à la voisine" }, { "fr": "Aller au marché" }, { "fr": "Aller à la mosquée" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l18.dialogue-1#1" },
+      "explain": "{ar|أُرِيدُ أَنْ أَزُورَ جَارَتَنَا} : « je veux rendre visite à notre voisine »."
+    },
+    {
+      "id": "medine-t2.l18.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Qu'est-ce que Ḥāmid demande à Āmina de laver ?" },
+      "choices": [ { "fr": "Sa chemise blanche" }, { "fr": "Son mouchoir bleu" }, { "fr": "Ses livres" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l18.dialogue-1#1" },
+      "explain": "{ar|أَرْجُو أَنْ تَغْسِلِي قَمِيصِيَ الْأَبْيَضَ} : « je te prie de laver ma chemise blanche »."
+    },
+    {
+      "id": "medine-t2.l18.dialogue-1#5",
+      "type": "true_false",
+      "statement": { "fr": "Āmina dit qu'elle ne peut pas rentrer avant la prière du maghrib." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l18.dialogue-1#1" },
+      "explain": "Non : à {ar|أَيُمْكِنُكِ أَنْ تَرْجِعِي قَبْلَ صَلَاةِ الْمَغْرِبِ؟}, elle répond {ar|يُمْكِنُ إِنْ شَاءَ اللَّهُ} : « c'est possible, si Dieu le veut »."
+    },
+    {
+      "id": "medine-t2.l18.dialogue-1#6",
+      "type": "question",
+      "prompt": { "fr": "Que veulent faire les fils après la prière ?" },
+      "choices": [
+        { "fr": "Aller au marché pour acheter des stylos, des cahiers et des règles" },
+        { "fr": "Rendre visite à un malade" },
+        { "fr": "Aller au musée" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l18.dialogue-1#1" },
+      "explain": "{ar|نُرِيدُ أَنْ نَذْهَبَ إِلَى السُّوقِ لِنَشْتَرِيَ أَقْلَامًا وَدَفَاتِرَ وَمَسَاطِرَ}."
+    },
+    {
+      "id": "medine-t2.l18.dialogue-1#7",
+      "type": "order",
+      "fr": "Je veux rendre visite à notre voisine.",
+      "answers": [["أُرِيدُ", "أَنْ", "أَزُورَ", "جَارَتَنَا"]],
+      "punctuation": ".",
+      "explain": "{ar|أُرِيدُ أَنْ أَزُورَ} : le verbe est à la fatha ; {ar|جَارَتَنَا} : « notre voisine »."
+    },
+    {
+      "id": "medine-t2.l18.dialogue-1#8",
+      "type": "fill_gap",
+      "sentence": "أَيْنَ تُرِيدِينَ أَنْ {0} بَعْدَ الصَّلَاةِ؟",
+      "fr": "Où veux-tu aller après la prière (à une femme) ?",
+      "gaps": [ { "answers": ["تَذْهَبِي"] } ],
+      "options": ["تَذْهَبِي", "تَذْهَبِينَ", "تَذْهَبَ"],
+      "context": { "dialogue": "medine-t2.l18.dialogue-1#1" },
+      "explain": "On parle à une femme : le {ar|ن} de {ar|تَذْهَبِينَ} tombe après {ar|أَنْ}, il reste {ar|تَذْهَبِي}."
+    },
+    {
+      "id": "medine-t2.l18.dialogue-1#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je le laverai et je le repasserai, si Dieu le veut.",
+      "answers": ["سَأَغْسِلُهُ وَأَكْوِيهِ إِنْ شَاءَ اللَّهُ."],
+      "explain": "{ar|سَ} + {ar|أَغْسِلُ} + {ar|هُ} ; {ar|أَكْوِيهِ} : le présent de {ar|كَوَى} + {ar|هِ}."
+    }
+  ]
+}

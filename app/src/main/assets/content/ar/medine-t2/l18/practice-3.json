@@ -1,0 +1,127 @@
+{
+  "id": "medine-t2.l18.practice-3",
+  "type": "grammar",
+  "title": "Exercice 4 : « il veut aller » à toutes les personnes",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l18.practice-3#1",
+      "type": "tip",
+      "title": "L'exercice 4 (1ʳᵉ partie) : la fatha",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre conjugue {ar|ذَهَبَ} au présent, puis avec {ar|يُرِيدُ أَنْ}. Dans le premier groupe, le verbe prend la **fatha** après {ar|أَنْ}."
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Présent", "Avec {ar|أَنْ}"],
+          "rows": [
+            ["{ar|هُوَ}", "{ar|يَذْهَبُ}", "{ar|هُوَ يُرِيدُ أَنْ يَذْهَبَ}"],
+            ["{ar|هِيَ}", "{ar|تَذْهَبُ}", "{ar|هِيَ تُرِيدُ أَنْ تَذْهَبَ}"],
+            ["{ar|أَنْتَ}", "{ar|تَذْهَبُ}", "{ar|أَنْتَ تُرِيدُ أَنْ تَذْهَبَ}"],
+            ["{ar|أَنَا}", "{ar|أَذْهَبُ}", "{ar|أَنَا أُرِيدُ أَنْ أَذْهَبَ}"],
+            ["{ar|نَحْنُ}", "{ar|نَذْهَبُ}", "{ar|نَحْنُ نُرِيدُ أَنْ نَذْهَبَ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.practice-3#2",
+      "type": "tip",
+      "title": "L'exercice 4 (2ᵉ et 3ᵉ parties) : le {ar|ن} tombe, ou rien ne change",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans le deuxième groupe, le {ar|ن} final tombe. Dans le troisième, le pronom des femmes ({ar|نَ}) est invariable : le verbe ne change pas."
+        },
+        {
+          "type": "table",
+          "header": ["Pronom", "Présent", "Avec {ar|أَنْ}"],
+          "rows": [
+            ["{ar|هُمْ}", "{ar|يَذْهَبُونَ}", "{ar|هُمْ يُرِيدُونَ أَنْ يَذْهَبُوا}"],
+            ["{ar|أَنْتُمْ}", "{ar|تَذْهَبُونَ}", "{ar|أَنْتُمْ تُرِيدُونَ أَنْ تَذْهَبُوا}"],
+            ["{ar|أَنْتِ}", "{ar|تَذْهَبِينَ}", "{ar|أَنْتِ تُرِيدِينَ أَنْ تَذْهَبِي}"],
+            ["{ar|هُنَّ}", "{ar|يَذْهَبْنَ}", "{ar|هُنَّ يُرِدْنَ أَنْ يَذْهَبْنَ}"],
+            ["{ar|أَنْتُنَّ}", "{ar|تَذْهَبْنَ}", "{ar|أَنْتُنَّ تُرِدْنَ أَنْ تَذْهَبْنَ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.practice-3#3",
+      "type": "sort",
+      "categories": [ { "fr": "la fatha" }, { "fr": "le {ar|ن} tombe" }, { "fr": "rien ne change" } ],
+      "cards": [
+        { "ar": "أَنَا أُرِيدُ أَنْ أَذْهَبَ", "category": 0 },
+        { "ar": "هِيَ تُرِيدُ أَنْ تَذْهَبَ", "category": 0 },
+        { "ar": "هُمْ يُرِيدُونَ أَنْ يَذْهَبُوا", "category": 1 },
+        { "ar": "أَنْتِ تُرِيدِينَ أَنْ تَذْهَبِي", "category": 1 },
+        { "ar": "هُنَّ يُرِدْنَ أَنْ يَذْهَبْنَ", "category": 2 },
+        { "ar": "أَنْتُنَّ تُرِدْنَ أَنْ تَذْهَبْنَ", "category": 2 }
+      ],
+      "instruction": "Quelle est la marque du verbe après {ar|أَنْ} ?",
+      "explain": "Un seul sujet : la fatha. {ar|هُمْ}, {ar|أَنْتُمْ}, {ar|أَنْتِ} : le {ar|ن} tombe. {ar|هُنَّ}, {ar|أَنْتُنَّ} : rien ne change."
+    },
+    {
+      "id": "medine-t2.l18.practice-3#4",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ نُرِيدُ أَنْ {0}.",
+      "fr": "Nous voulons aller.",
+      "gaps": [ { "answers": ["نَذْهَبَ"] } ],
+      "options": ["نَذْهَبَ", "أَذْهَبَ", "يَذْهَبُوا"],
+      "explain": "« Nous » : la lettre du présent est {ar|نَ}, et le verbe prend la fatha."
+    },
+    {
+      "id": "medine-t2.l18.practice-3#5",
+      "type": "fill_gap",
+      "sentence": "أَنْتِ تُرِيدِينَ أَنْ {0}.",
+      "fr": "Tu veux aller (à une femme).",
+      "gaps": [ { "answers": ["تَذْهَبِي"] } ],
+      "options": ["تَذْهَبِي", "تَذْهَبَ", "تَذْهَبْنَ"],
+      "explain": "À une femme : le {ar|ن} de {ar|تَذْهَبِينَ} tombe, il reste {ar|تَذْهَبِي}."
+    },
+    {
+      "id": "medine-t2.l18.practice-3#6",
+      "type": "true_false",
+      "statement": {
+        "fr": "Pour « elles veulent aller », on écrit {ar|هُنَّ يُرِدْنَ أَنْ يَذْهَبْنَ} : le verbe {ar|يَذْهَبْنَ} ne change pas."
+      },
+      "answer": true,
+      "explain": "Oui : le {ar|ن} de {ar|يَذْهَبْنَ} est le pronom des femmes, il reste après {ar|أَنْ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-3#7",
+      "type": "fill_gap",
+      "sentence": "هُمْ {0} أَنْ {1}.",
+      "fr": "Ils veulent aller.",
+      "gaps": [ { "answers": ["يُرِيدُونَ"] }, { "answers": ["يَذْهَبُوا"] } ],
+      "options": ["يُرِيدُونَ", "يُرِيدُ", "يَذْهَبُوا", "يَذْهَبُونَ"],
+      "explain": "{ar|يُرِيدُونَ} (« ils veulent ») garde son {ar|ن} ; {ar|يَذْهَبُوا}, après {ar|أَنْ}, l'a perdu."
+    },
+    {
+      "id": "medine-t2.l18.practice-3#8",
+      "type": "order",
+      "fr": "Vous voulez aller au marché (à des femmes).",
+      "answers": [["أَنْتُنَّ", "تُرِدْنَ", "أَنْ", "تَذْهَبْنَ", "إِلَى", "السُّوقِ"]],
+      "punctuation": ".",
+      "explain": "{ar|تُرِدْنَ} et {ar|تَذْهَبْنَ} : le pronom des femmes ne change pas."
+    },
+    {
+      "id": "medine-t2.l18.practice-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Tu veux aller à l'école (à une femme).",
+      "answers": ["أَنْتِ تُرِيدِينَ أَنْ تَذْهَبِي إِلَى الْمَدْرَسَةِ.", "تُرِيدِينَ أَنْ تَذْهَبِي إِلَى الْمَدْرَسَةِ."],
+      "explain": "{ar|تُرِيدِينَ} garde son {ar|ن} ; {ar|تَذْهَبِي} l'a perdu."
+    },
+    {
+      "id": "medine-t2.l18.practice-3#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ils veulent aller à la mosquée.",
+      "answers": ["هُمْ يُرِيدُونَ أَنْ يَذْهَبُوا إِلَى الْمَسْجِدِ.", "يُرِيدُونَ أَنْ يَذْهَبُوا إِلَى الْمَسْجِدِ."],
+      "explain": "{ar|يُرِيدُونَ} garde son {ar|ن} ; {ar|يَذْهَبُوا} l'a perdu."
+    }
+  ]
+}

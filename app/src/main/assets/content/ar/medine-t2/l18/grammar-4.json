@@ -1,0 +1,107 @@
+{
+  "id": "medine-t2.l18.grammar-4",
+  "type": "grammar",
+  "title": "{ar|أَلَّا} avec toutes les personnes",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l18.grammar-4#1",
+      "type": "tip",
+      "title": "{ar|أَلَّا} et les quatre façons de parler",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le verbe après {ar|أَلَّا} change comme après {ar|أَنْ}, selon la personne à qui l'on parle. Voici {ar|ذَهَبَ} :"
+        },
+        {
+          "type": "table",
+          "header": ["À qui parle-t-on ?", "Avec {ar|أَنْ}", "Avec {ar|أَلَّا}"],
+          "rows": [
+            ["un homme", "{ar|أَرْجُو أَنْ تَذْهَبَ}", "{ar|أَرْجُو أَلَّا تَذْهَبَ}"],
+            ["une femme", "{ar|أَرْجُو أَنْ تَذْهَبِي}", "{ar|أَرْجُو أَلَّا تَذْهَبِي}"],
+            ["plusieurs hommes", "{ar|أَرْجُو أَنْ تَذْهَبُوا}", "{ar|أَرْجُو أَلَّا تَذْهَبُوا}"],
+            ["plusieurs femmes", "{ar|أَرْجُو أَنْ تَذْهَبْنَ}", "{ar|أَرْجُو أَلَّا تَذْهَبْنَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le verbe ne change pas : seule la négation s'ajoute, dans {ar|أَلَّا}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.grammar-4#2",
+      "type": "sort",
+      "categories": [ { "fr": "une femme" }, { "fr": "plusieurs hommes" }, { "fr": "plusieurs femmes" } ],
+      "cards": [
+        { "ar": "أَرْجُو أَلَّا تَذْهَبِي", "category": 0 },
+        { "ar": "أَرْجُو أَلَّا تَأْكُلِي", "category": 0 },
+        { "ar": "أَرْجُو أَلَّا تَذْهَبُوا", "category": 1 },
+        { "ar": "أَرْجُو أَلَّا تَجْلِسُوا", "category": 1 },
+        { "ar": "أَرْجُو أَلَّا تَذْهَبْنَ", "category": 2 },
+        { "ar": "أَرْجُو أَلَّا تَجْلِسْنَ", "category": 2 }
+      ],
+      "instruction": "À qui parle-t-on ?",
+      "explain": "La fin du verbe le dit : {ar|◌ِي} pour une femme, {ar|◌ُوا} pour plusieurs hommes, {ar|◌ْنَ} pour plusieurs femmes."
+    },
+    {
+      "id": "medine-t2.l18.grammar-4#3",
+      "type": "fill_gap",
+      "sentence": "أَرْجُو أَلَّا {0} يَا إِخْوَانُ.",
+      "fr": "Je vous prie de ne pas sortir, mes frères.",
+      "gaps": [ { "answers": ["تَخْرُجُوا"] } ],
+      "options": ["تَخْرُجُوا", "تَخْرُجُونَ", "تَخْرُجْنَ"],
+      "explain": "On parle à plusieurs hommes ({ar|يَا إِخْوَانُ}) : {ar|تَخْرُجُونَ} perd son {ar|ن} après {ar|أَلَّا}. {ar|تَخْرُجْنَ} est pour des femmes."
+    },
+    {
+      "id": "medine-t2.l18.grammar-4#4",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|أَلَّا}, on garde le {ar|ن} : {ar|أَرْجُو أَلَّا تَذْهَبُونَ}." },
+      "answer": false,
+      "explain": "Non : après {ar|أَلَّا} comme après {ar|أَنْ}, le {ar|ن} des cinq verbes tombe : {ar|أَلَّا تَذْهَبُوا}."
+    },
+    {
+      "id": "medine-t2.l18.grammar-4#5",
+      "type": "fill_gap",
+      "sentence": "أَرْجُو أَلَّا {0} هُنَا يَا بَنَاتُ.",
+      "fr": "Je vous prie de ne pas vous asseoir ici, mes filles.",
+      "gaps": [ { "answers": ["تَجْلِسْنَ"] } ],
+      "options": ["تَجْلِسْنَ", "تَجْلِسِي", "تَجْلِسُوا"],
+      "explain": "On parle à plusieurs femmes ({ar|يَا بَنَاتُ}) : {ar|تَجْلِسْنَ}, qui ne change jamais."
+    },
+    {
+      "id": "medine-t2.l18.grammar-4#6",
+      "type": "order",
+      "fr": "Je te prie de ne pas écrire la leçon (à une femme).",
+      "answers": [["أَرْجُو", "أَلَّا", "تَكْتُبِي", "الدَّرْسَ"]],
+      "punctuation": ".",
+      "explain": "{ar|تَكْتُبِي} : à une femme, le {ar|ن} de {ar|تَكْتُبِينَ} tombe."
+    },
+    {
+      "id": "medine-t2.l18.grammar-4#7",
+      "type": "spot",
+      "instruction": "Touche le verbe qui est à l'accusatif.",
+      "words": ["أَنَا", "أَرْجُو", "أَلَّا", "تَدْخُلُوا", "هُنَا."],
+      "answers": [3],
+      "fr": "Je vous prie de ne pas entrer ici.",
+      "explain": "{ar|تَدْخُلُوا} : le {ar|ن} de {ar|تَدْخُلُونَ} est tombé après {ar|أَلَّا}."
+    },
+    {
+      "id": "medine-t2.l18.grammar-4#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je vous prie de ne pas entrer ici (à des hommes).",
+      "answers": ["أَرْجُو أَلَّا تَدْخُلُوا هُنَا.", "أَنَا أَرْجُو أَلَّا تَدْخُلُوا هُنَا."],
+      "explain": "{ar|أَلَّا تَدْخُلُوا} : à plusieurs hommes, le {ar|ن} tombe."
+    },
+    {
+      "id": "medine-t2.l18.grammar-4#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je vous prie de ne pas prendre ces choses (à des femmes).",
+      "answers": ["أَرْجُو أَلَّا تَأْخُذْنَ هٰذِهِ الْأَشْيَاءَ.", "أَنَا أَرْجُو أَلَّا تَأْخُذْنَ هٰذِهِ الْأَشْيَاءَ."],
+      "explain": "{ar|تَأْخُذْنَ} : à plusieurs femmes, le verbe ne change pas."
+    }
+  ]
+}

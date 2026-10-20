@@ -1,0 +1,195 @@
+{
+  "id": "medine-t2.l18.dialogue-2",
+  "type": "dialogue",
+  "title": "À l'hôpital, avec les filles",
+  "icon": "doctor",
+  "screens": [
+    {
+      "id": "medine-t2.l18.dialogue-2#1",
+      "type": "dialogue",
+      "title": "À l'hôpital, avec les filles",
+      "intro": "Ḥāmid interroge ses fils, puis part à l'hôpital avec ses filles. Écoute {ar|أَنْ}, {ar|أَلَّا} et {ar|كَ}.",
+      "speakers": {
+        "H": { "name": "Ḥāmid", "voice": "m1" },
+        "S": { "name": "Les fils", "voice": "m2" },
+        "B": { "name": "Les filles", "voice": "f1" },
+        "I": { "name": "Une des filles", "voice": "f1" }
+      },
+      "lines": [
+        {
+          "speaker": "H",
+          "ar": "أَيْنَ زُمَلَاؤُكُمْ؟ مَا جَاءُوا الْيَوْمَ لِزِيَارَتِكُمْ كَعَادَتِهِمْ كُلَّ أُسْبُوعٍ.",
+          "fr": "Où sont vos camarades ? Ils ne sont pas venus aujourd'hui vous rendre visite, comme à leur habitude, chaque semaine."
+        },
+        {
+          "speaker": "S",
+          "ar": "أَرَادُوا أَنْ يَأْتُوا الْيَوْمَ إِلَى الْمَتْحَفِ.",
+          "fr": "Ils ont voulu venir aujourd'hui au musée."
+        },
+        {
+          "speaker": "H",
+          "ar": "يَا بَنَاتِي، أَنَا الْآنَ أَذْهَبُ إِلَى الْمُسْتَشْفَى لِعِيَادَةِ سَلْمَى. أَتُرِدْنَ أَنْ تَذْهَبْنَ مَعِي؟",
+          "fr": "Mes filles, je vais maintenant à l'hôpital rendre visite à Salmā. Voulez-vous venir avec moi ?"
+        },
+        { "speaker": "B", "ar": "نَعَمْ.", "fr": "Oui." },
+        { "speaker": "H", "ar": "مَاذَا تُرِدْنَ أَنْ تَأْخُذْنَ لَهَا؟", "fr": "Que voulez-vous lui apporter ?" },
+        {
+          "speaker": "B",
+          "ar": "نُرِيدُ أَنْ نَأْخُذَ مَعَنَا عُلْبَةَ الْحَلْوَى هٰذِهِ، إِنَّ سَلْمَى تُحِبُّ هٰذِهِ الْحَلْوَى كَثِيرًا.",
+          "fr": "Nous voulons emporter cette boîte de sucreries, car Salmā aime beaucoup ces sucreries."
+        },
+        {
+          "speaker": "H",
+          "ar": "أَتُرِدْنَ أَنْ تَأْخُذْنَ شَيْئًا آخَرَ؟",
+          "fr": "Voulez-vous prendre autre chose ?"
+        },
+        {
+          "speaker": "B",
+          "ar": "نُرِيدُ أَنْ نَأْخُذَ هٰذِهِ الْمَجَلَّةَ وَهٰذَا الْكِتَابَ وَهٰذِهِ الْمَلَابِسَ.",
+          "fr": "Nous voulons prendre cette revue, ce livre et ces vêtements."
+        },
+        {
+          "speaker": "H",
+          "ar": "أَرْجُو أَلَّا تَأْخُذْنَ هٰذِهِ الْأَشْيَاءَ كُلَّهَا، فَإِنَّ الْمُسْتَشْفَى لَا يَسْمَحُ بِدُخُولِ أَشْيَاءَ كَثِيرَةٍ.",
+          "fr": "Je vous prie de ne pas prendre toutes ces choses, car l'hôpital n'autorise pas l'entrée de beaucoup de choses."
+        },
+        {
+          "speaker": "H",
+          "ar": "أَيْنَ خَدِيجَةُ وَعَائِشَةُ وَأُمُّ كُلْثُومٍ؟ أَيُرِدْنَ أَنْ يَذْهَبْنَ مَعَنَا؟",
+          "fr": "Où sont Khadīja, ʿĀʾisha et Umm Kulthūm ? Veulent-elles venir avec nous ?"
+        },
+        {
+          "speaker": "I",
+          "ar": "لَا أَدْرِي أَيْنَ هُنَّ. أَظُنُّ أَنَّهُنَّ مَا رَجَعْنَ مِنَ الْمَدْرَسَةِ.",
+          "fr": "Je ne sais pas où elles sont. Je crois qu'elles ne sont pas revenues de l'école."
+        },
+        { "speaker": "H", "ar": "هَيَّا بِنَا يَا بَنَاتُ.", "fr": "Allons-y, mes filles !" }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Voici ce qu'il faut remarquer dans ce texte :" },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            ["{ar|زُمَلَاؤُكُمْ}", "vos camarades", "{ar|زُمَلَاءُ} (pluriel de {ar|زَمِيلٌ}) + {ar|كُمْ}"],
+            ["{ar|مَا جَاءُوا}", "ils ne sont pas venus", "{ar|مَا} + le passé : il nie une action passée"],
+            [
+              "{ar|لِزِيَارَتِكُمْ}",
+              "pour vous rendre visite",
+              "{ar|لِ} + {ar|زِيَارَةٌ} (nom d'action de {ar|زَارَ}) + {ar|كُمْ} ; le {ar|ة} devient {ar|ت}"
+            ],
+            [
+              "{ar|كَعَادَتِهِمْ}",
+              "comme à leur habitude",
+              "le {ar|كَ} de comparaison + {ar|عَادَتِ} + {ar|هِمْ} (« leur »)"
+            ],
+            ["{ar|كُلَّ أُسْبُوعٍ}", "chaque semaine", "{ar|كُلَّ} devant un nom au singulier : « chaque »"],
+            [
+              "{ar|أَرَادُوا أَنْ يَأْتُوا}",
+              "ils ont voulu venir",
+              "{ar|يَأْتُونَ} perd son {ar|ن} après {ar|أَنْ}"
+            ],
+            [
+              "{ar|لِعِيَادَةِ سَلْمَى}",
+              "pour rendre visite à Salmā",
+              "{ar|لِ} + {ar|عِيَادَةٌ} + un nom au génitif"
+            ],
+            ["{ar|أَتُرِدْنَ}", "voulez-vous ? (à des femmes)", "{ar|أَ} (la question) + {ar|تُرِدْنَ}"],
+            [
+              "{ar|إِنَّ سَلْمَى تُحِبُّ}",
+              "car Salmā aime",
+              "{ar|إِنَّ} donne ici la raison : « car » ; elle est suivie du nom de la personne"
+            ],
+            ["{ar|بِدُخُولِ}", "l'entrée de", "{ar|سَمَحَ بِ} + {ar|دُخُولٌ} (nom d'action de {ar|دَخَلَ})"],
+            ["{ar|أَظُنُّ أَنَّهُنَّ}", "je crois qu'elles", "{ar|أَنَّ} + {ar|هُنَّ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Où les camarades des fils ont-ils voulu venir aujourd'hui ?" },
+      "choices": [ { "fr": "Au musée" }, { "fr": "À l'hôpital" }, { "fr": "À la mosquée" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l18.dialogue-2#1" },
+      "explain": "{ar|أَرَادُوا أَنْ يَأْتُوا الْيَوْمَ إِلَى الْمَتْحَفِ} : « ils ont voulu venir aujourd'hui au musée »."
+    },
+    {
+      "id": "medine-t2.l18.dialogue-2#4",
+      "type": "true_false",
+      "statement": { "fr": "Ḥāmid va à l'hôpital pour rendre visite à Salmā." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.l18.dialogue-2#1" },
+      "explain": "Oui : {ar|لِعِيَادَةِ سَلْمَى} : « pour rendre visite à Salmā »."
+    },
+    {
+      "id": "medine-t2.l18.dialogue-2#5",
+      "type": "question",
+      "prompt": { "fr": "Que veulent emporter les filles pour commencer ?" },
+      "choices": [ { "fr": "Une boîte de sucreries" }, { "fr": "Un cahier" }, { "fr": "Un médicament" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l18.dialogue-2#1" },
+      "explain": "{ar|نَأْخُذَ مَعَنَا عُلْبَةَ الْحَلْوَى} : « emporter avec nous la boîte de sucreries »."
+    },
+    {
+      "id": "medine-t2.l18.dialogue-2#6",
+      "type": "true_false",
+      "statement": { "fr": "Ḥāmid laisse les filles emporter toutes ces choses." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l18.dialogue-2#1" },
+      "explain": "Non : {ar|أَرْجُو أَلَّا تَأْخُذْنَ هٰذِهِ الْأَشْيَاءَ كُلَّهَا} : « je vous prie de ne pas prendre toutes ces choses »."
+    },
+    {
+      "id": "medine-t2.l18.dialogue-2#7",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi Ḥāmid demande-t-il de ne pas tout prendre ?" },
+      "choices": [
+        { "fr": "Parce que l'hôpital n'autorise pas l'entrée de beaucoup de choses" },
+        { "fr": "Parce que Salmā n'aime pas les sucreries" },
+        { "fr": "Parce que les filles sont en retard" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l18.dialogue-2#1" },
+      "explain": "{ar|فَإِنَّ الْمُسْتَشْفَى لَا يَسْمَحُ بِدُخُولِ أَشْيَاءَ كَثِيرَةٍ}."
+    },
+    {
+      "id": "medine-t2.l18.dialogue-2#8",
+      "type": "true_false",
+      "statement": { "fr": "Une des filles sait où sont Khadīja, ʿĀʾisha et Umm Kulthūm." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l18.dialogue-2#1" },
+      "explain": "Non : {ar|لَا أَدْرِي أَيْنَ هُنَّ} : « je ne sais pas où elles sont »."
+    },
+    {
+      "id": "medine-t2.l18.dialogue-2#9",
+      "type": "fill_gap",
+      "sentence": "نُرِيدُ أَنْ {0} مَعَنَا عُلْبَةَ الْحَلْوَى.",
+      "fr": "Nous voulons emporter avec nous la boîte de sucreries.",
+      "gaps": [ { "answers": ["نَأْخُذَ"] } ],
+      "options": ["نَأْخُذَ", "تَأْخُذْنَ", "يَأْخُذُوا"],
+      "explain": "« Nous » : la lettre du présent est {ar|نَ}, et après {ar|أَنْ} le verbe prend la fatha : {ar|نَأْخُذَ}."
+    },
+    {
+      "id": "medine-t2.l18.dialogue-2#10",
+      "type": "order",
+      "fr": "Je vous prie de ne pas prendre toutes ces choses (à des femmes).",
+      "answers": [["أَرْجُو", "أَلَّا", "تَأْخُذْنَ", "هٰذِهِ", "الْأَشْيَاءَ", "كُلَّهَا"]],
+      "punctuation": ".",
+      "explain": "{ar|أَلَّا تَأْخُذْنَ} : à plusieurs femmes, le verbe ne change pas. {ar|كُلَّهَا} : « toutes »."
+    },
+    {
+      "id": "medine-t2.l18.dialogue-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Allons-y, mes filles !",
+      "answers": ["هَيَّا بِنَا يَا بَنَاتُ."],
+      "explain": "{ar|يَا بَنَاتُ} : le mot d'appel est à la damma, sans tanwin."
+    }
+  ]
+}

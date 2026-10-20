@@ -1,0 +1,146 @@
+{
+  "id": "medine-t2.l18.practice-4",
+  "type": "grammar",
+  "title": "Exercice 7 : les marques de l'accusatif",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l18.practice-4#1",
+      "type": "tip",
+      "title": "L'exercice 7 : lire les marques",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour chaque forme, le professeur nomme la marque du nominatif ({ar|عَلَامَةُ الرَّفْعِ}) et celle de l'accusatif ({ar|عَلَامَةُ النَّصْبِ}). Il y a trois familles :"
+        },
+        {
+          "type": "table",
+          "header": ["Formes", "{ar|عَلَامَةُ الرَّفْعِ}", "{ar|عَلَامَةُ النَّصْبِ}"],
+          "rows": [
+            [
+              "{ar|يَذْهَبُ}, {ar|تَذْهَبُ}, {ar|أَذْهَبُ}, {ar|نَذْهَبُ}",
+              "{ar|الضَّمَّةُ} (la damma)",
+              "{ar|الْفَتْحَةُ} (la fatha)"
+            ],
+            [
+              "{ar|يَذْهَبُونَ}, {ar|تَذْهَبُونَ}, {ar|تَذْهَبِينَ}",
+              "{ar|ثُبُوتُ النُّونِ} (le {ar|ن} reste)",
+              "{ar|حَذْفُ النُّونِ} (le {ar|ن} tombe)"
+            ],
+            ["{ar|يَذْهَبْنَ}, {ar|تَذْهَبْنَ}", "{ar|مَبْنِيٌّ} (invariable)", "{ar|مَبْنِيٌّ} (invariable)"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Pour {ar|مَبْنِيٌّ}, voir le chapitre 12 : le {ar|ن} des femmes est un pronom, le verbe ne change donc pas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.practice-4#2",
+      "type": "tip",
+      "title": "L'exercice 7 : les dix formes du livre",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Sujet", "Nominatif", "Accusatif", "Marque de l'accusatif"],
+          "rows": [
+            ["{ar|هُوَ}", "{ar|يَذْهَبُ}", "{ar|يَذْهَبَ}", "{ar|الْفَتْحَةُ}"],
+            ["{ar|هُمْ}", "{ar|يَذْهَبُونَ}", "{ar|يَذْهَبُوا}", "{ar|حَذْفُ النُّونِ}"],
+            ["{ar|هِيَ}", "{ar|تَذْهَبُ}", "{ar|تَذْهَبَ}", "{ar|الْفَتْحَةُ}"],
+            ["{ar|هُنَّ}", "{ar|يَذْهَبْنَ}", "{ar|يَذْهَبْنَ}", "{ar|مَبْنِيٌّ}"],
+            ["{ar|أَنْتَ}", "{ar|تَذْهَبُ}", "{ar|تَذْهَبَ}", "{ar|الْفَتْحَةُ}"],
+            ["{ar|أَنْتُمْ}", "{ar|تَذْهَبُونَ}", "{ar|تَذْهَبُوا}", "{ar|حَذْفُ النُّونِ}"],
+            ["{ar|أَنْتِ}", "{ar|تَذْهَبِينَ}", "{ar|تَذْهَبِي}", "{ar|حَذْفُ النُّونِ}"],
+            ["{ar|أَنْتُنَّ}", "{ar|تَذْهَبْنَ}", "{ar|تَذْهَبْنَ}", "{ar|مَبْنِيٌّ}"],
+            ["{ar|أَنَا}", "{ar|أَذْهَبُ}", "{ar|أَذْهَبَ}", "{ar|الْفَتْحَةُ}"],
+            ["{ar|نَحْنُ}", "{ar|نَذْهَبُ}", "{ar|نَذْهَبَ}", "{ar|الْفَتْحَةُ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans le livre, la quatrième ligne écrit {ar|تَذْهَبْنَ} ; ici, elle est donnée à {ar|هُنَّ} ({ar|يَذْهَبْنَ}), comme à l'exercice 4."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.practice-4#3",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la marque de l'accusatif dans {ar|أَنْ يَذْهَبُوا} ?" },
+      "choices": [ { "ar": "الْفَتْحَةُ" }, { "ar": "حَذْفُ النُّونِ" }, { "ar": "مَبْنِيٌّ" } ],
+      "answer": 1,
+      "explain": "Le {ar|ن} de {ar|يَذْهَبُونَ} tombe : {ar|حَذْفُ النُّونِ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-4#4",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la marque du nominatif de {ar|تَذْهَبُونَ} ?" },
+      "choices": [ { "ar": "ثُبُوتُ النُّونِ" }, { "ar": "الضَّمَّةُ" }, { "ar": "مَبْنِيٌّ" } ],
+      "answer": 0,
+      "explain": "{ar|تَذْهَبُونَ} garde son {ar|ن} : {ar|ثُبُوتُ النُّونِ}. La damma est la marque des formes comme {ar|يَذْهَبُ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-4#5",
+      "type": "sort",
+      "categories": [ { "ar": "الْفَتْحَةُ" }, { "ar": "حَذْفُ النُّونِ" }, { "ar": "مَبْنِيٌّ" } ],
+      "cards": [
+        { "ar": "أَنْ أَذْهَبَ", "category": 0 },
+        { "ar": "أَنْ نَذْهَبَ", "category": 0 },
+        { "ar": "أَنْ تَذْهَبُوا", "category": 1 },
+        { "ar": "أَنْ تَذْهَبِي", "category": 1 },
+        { "ar": "أَنْ يَذْهَبْنَ", "category": 2 },
+        { "ar": "أَنْ تَذْهَبْنَ", "category": 2 }
+      ],
+      "instruction": "Quelle est la marque de l'accusatif ?",
+      "explain": "Fatha pour {ar|أَذْهَبَ} et {ar|نَذْهَبَ} ; chute du {ar|ن} pour {ar|تَذْهَبُوا} et {ar|تَذْهَبِي} ; invariable pour les formes des femmes."
+    },
+    {
+      "id": "medine-t2.l18.practice-4#6",
+      "type": "true_false",
+      "statement": {
+        "fr": "Le verbe {ar|تَذْهَبْنَ} a la même forme au nominatif et à l'accusatif : il est invariable ({ar|مَبْنِيٌّ})."
+      },
+      "answer": true,
+      "explain": "Oui : le {ar|ن} de {ar|تَذْهَبْنَ} est un pronom (les femmes), il ne change jamais."
+    },
+    {
+      "id": "medine-t2.l18.practice-4#7",
+      "type": "fill_gap",
+      "sentence": "هُنَّ يُرِدْنَ أَنْ {0}.",
+      "fr": "Elles veulent aller.",
+      "gaps": [ { "answers": ["يَذْهَبْنَ"] } ],
+      "options": ["يَذْهَبْنَ", "يَذْهَبُوا", "يَذْهَبَ"],
+      "explain": "Après {ar|أَنْ}, le verbe des femmes ne change pas : {ar|يَذْهَبْنَ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-4#8",
+      "type": "question",
+      "prompt": { "fr": "Comment le professeur analyse-t-il {ar|يَذْهَبُوا} dans {ar|أَنْ يَذْهَبُوا} ?" },
+      "choices": [
+        { "ar": "فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ حَذْفُ النُّونِ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ ثُبُوتُ النُّونِ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ الْفَتْحَةُ" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|أَنْ}, le verbe est {ar|مَنْصُوبٌ} (à l'accusatif), et sa marque est {ar|حَذْفُ النُّونِ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-4#9",
+      "type": "order",
+      "fr": "Vous voulez aller (à des hommes).",
+      "answers": [["أَنْتُمْ", "تُرِيدُونَ", "أَنْ", "تَذْهَبُوا"]],
+      "punctuation": ".",
+      "explain": "{ar|تُرِيدُونَ} garde son {ar|ن} ; {ar|تَذْهَبُوا} l'a perdu."
+    },
+    {
+      "id": "medine-t2.l18.practice-4#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je veux aller.",
+      "answers": ["أُرِيدُ أَنْ أَذْهَبَ.", "أَنَا أُرِيدُ أَنْ أَذْهَبَ."],
+      "explain": "{ar|أُرِيدُ أَنْ أَذْهَبَ} : le verbe prend la fatha."
+    }
+  ]
+}

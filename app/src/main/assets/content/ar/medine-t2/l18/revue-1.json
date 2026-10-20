@@ -1,0 +1,97 @@
+{
+  "id": "medine-t2.l18.revue-1",
+  "type": "review",
+  "title": "Revoir : {ar|أَنْ} et le présent à l'accusatif",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l18.revue-1#1",
+      "type": "tip",
+      "title": "Ce que tu sais déjà",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au chapitre 17, tu as appris que {ar|أَنْ} met le verbe au présent à l'**accusatif** ({ar|النَّصْبُ}). Chaque forme du verbe a sa propre marque."
+        },
+        {
+          "type": "table",
+          "header": ["Au nominatif", "Après {ar|أَنْ}", "Ce qui change"],
+          "rows": [
+            ["{ar|يَذْهَبُ} (il va)", "{ar|أَنْ يَذْهَبَ}", "la damma devient une fatha"],
+            ["{ar|يَذْهَبُونَ} (ils vont)", "{ar|أَنْ يَذْهَبُوا}", "le {ar|ن} tombe"],
+            ["{ar|تَذْهَبِينَ} (tu vas, à une femme)", "{ar|أَنْ تَذْهَبِي}", "le {ar|ن} tombe"],
+            ["{ar|يَذْهَبْنَ} (elles vont)", "{ar|أَنْ يَذْهَبْنَ}", "rien ne change"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les formes qui perdent leur {ar|ن} sont les « cinq verbes » ({ar|الْأَفْعَالُ الْخَمْسَةُ}, chapitre 13)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.revue-1#2",
+      "type": "sort",
+      "categories": [ { "fr": "la fatha" }, { "fr": "le {ar|ن} tombe" }, { "fr": "rien ne change" } ],
+      "cards": [
+        { "ar": "أَنْ يَذْهَبَ", "category": 0 },
+        { "ar": "أَنْ أَجْلِسَ", "category": 0 },
+        { "ar": "أَنْ يَذْهَبُوا", "category": 1 },
+        { "ar": "أَنْ تَذْهَبِي", "category": 1 },
+        { "ar": "أَنْ يَذْهَبْنَ", "category": 2 },
+        { "ar": "أَنْ تَجْلِسْنَ", "category": 2 }
+      ],
+      "instruction": "Quelle est la marque de l'accusatif après {ar|أَنْ} ?",
+      "explain": "Pour un seul sujet (sauf « toi, une femme »), la fatha. Pour {ar|يَذْهَبُونَ} et {ar|تَذْهَبِينَ}, le {ar|ن} tombe. Pour les femmes ({ar|يَذْهَبْنَ}), le {ar|ن} fait partie du pronom : rien ne change."
+    },
+    {
+      "id": "medine-t2.l18.revue-1#3",
+      "type": "fill_gap",
+      "sentence": "هِيَ تُرِيدُ أَنْ {0} إِلَى الْمَسْجِدِ.",
+      "fr": "Elle veut aller à la mosquée.",
+      "gaps": [ { "answers": ["تَذْهَبَ"] } ],
+      "options": ["تَذْهَبَ", "تَذْهَبِي", "تَذْهَبُوا"],
+      "explain": "« Elle » : la lettre du présent est {ar|تَ}, et après {ar|أَنْ} le verbe prend la fatha."
+    },
+    {
+      "id": "medine-t2.l18.revue-1#4",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|أَنْ}, {ar|يَذْهَبْنَ} (« elles vont ») devient {ar|يَذْهَبُوا}." },
+      "answer": false,
+      "explain": "Non : le {ar|ن} de {ar|يَذْهَبْنَ} est le pronom des femmes, il ne tombe jamais : {ar|أَنْ يَذْهَبْنَ}. {ar|يَذْهَبُوا} veut dire « ils »."
+    },
+    {
+      "id": "medine-t2.l18.revue-1#5",
+      "type": "order",
+      "fr": "Nous voulons aller au marché.",
+      "answers": [["نُرِيدُ", "أَنْ", "نَذْهَبَ", "إِلَى", "السُّوقِ"]],
+      "punctuation": ".",
+      "explain": "{ar|نُرِيدُ أَنْ نَذْهَبَ} : « nous voulons aller » ; le verbe est à la fatha."
+    },
+    {
+      "id": "medine-t2.l18.revue-1#6",
+      "type": "spot",
+      "instruction": "Touche le verbe qui est à l'accusatif.",
+      "words": ["أَرَادَ", "الطُّلَّابُ", "أَنْ", "يَجْلِسُوا", "هُنَا."],
+      "answers": [3],
+      "fr": "Les étudiants ont voulu s'asseoir ici.",
+      "explain": "{ar|يَجْلِسُوا} suit {ar|أَنْ} : le {ar|ن} de {ar|يَجْلِسُونَ} est tombé."
+    },
+    {
+      "id": "medine-t2.l18.revue-1#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles veulent aller à la mosquée.",
+      "answers": ["هُنَّ يُرِدْنَ أَنْ يَذْهَبْنَ إِلَى الْمَسْجِدِ.", "يُرِدْنَ أَنْ يَذْهَبْنَ إِلَى الْمَسْجِدِ."],
+      "explain": "{ar|يُرِدْنَ} et {ar|يَذْهَبْنَ} : le pronom des femmes ne change pas."
+    },
+    {
+      "id": "medine-t2.l18.revue-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Vous voulez écrire la leçon (à des hommes).",
+      "answers": ["أَنْتُمْ تُرِيدُونَ أَنْ تَكْتُبُوا الدَّرْسَ.", "تُرِيدُونَ أَنْ تَكْتُبُوا الدَّرْسَ."],
+      "explain": "{ar|تَكْتُبُونَ} perd son {ar|ن} après {ar|أَنْ} : {ar|تَكْتُبُوا}."
+    }
+  ]
+}
