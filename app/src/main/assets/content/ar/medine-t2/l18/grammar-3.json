@@ -120,7 +120,7 @@
       "fr": "Je te prie de ne pas oublier la clé (à un homme).",
       "gaps": [ { "answers": ["أَلَّا"] } ],
       "options": ["أَلَّا", "أَنْ", "لَنْ"],
-      "explain": "« De ne pas » : {ar|أَلَّا} (= {ar|أَنْ} + {ar|لَا}). {ar|أَنْ} sans négation voudrait dire « d'oublier » ; {ar|لَنْ} ne s'emploie pas après {ar|أَرْجُو}."
+      "explain": "« De ne pas » : {ar|أَلَّا} (= {ar|أَنْ} + {ar|لَا}). {ar|أَنْ} sans négation voudrait dire « d'oublier » ; {ar|لَنْ} nie le futur (« tu n'oublieras pas ») : ce n'est pas la demande « de ne pas oublier »."
     },
     {
       "id": "medine-t2.l18.grammar-3#9",

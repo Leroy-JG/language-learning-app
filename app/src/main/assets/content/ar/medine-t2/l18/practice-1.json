@@ -6,36 +6,6 @@
   "screens": [
     {
       "id": "medine-t2.l18.practice-1#1",
-      "type": "typing",
-      "ask": "question",
-      "question": "مَاذَا يُرِيدُ الْأَبْنَاءُ أَنْ يَشْتَرُوا مِنَ السُّوقِ؟",
-      "answers": [
-        "يُرِيدُ الْأَبْنَاءُ أَنْ يَشْتَرُوا أَقْلَامًا وَدَفَاتِرَ وَمَسَاطِرَ.",
-        "يُرِيدُونَ أَنْ يَشْتَرُوا أَقْلَامًا وَدَفَاتِرَ وَمَسَاطِرَ.",
-        "أَقْلَامًا وَدَفَاتِرَ وَمَسَاطِرَ."
-      ],
-      "fr": "Ils veulent acheter des stylos, des cahiers et des règles.",
-      "instruction": "Réponds en arabe : des stylos, des cahiers et des règles.",
-      "context": { "dialogue": "medine-t2.l18.dialogue-1#1" },
-      "explain": "{ar|يَشْتَرُوا} : le {ar|ن} de {ar|يَشْتَرُونَ} tombe après {ar|أَنْ}. Les trois noms sont les compléments d'objet : {ar|أَقْلَامًا وَدَفَاتِرَ وَمَسَاطِرَ}."
-    },
-    {
-      "id": "medine-t2.l18.practice-1#2",
-      "type": "typing",
-      "ask": "question",
-      "question": "مَاذَا تُرِيدُ الْبَنَاتُ أَنْ يَأْخُذْنَ لِسَلْمَى؟",
-      "answers": [
-        "تُرِيدُ الْبَنَاتُ أَنْ يَأْخُذْنَ لِسَلْمَى عُلْبَةَ الْحَلْوَى.",
-        "يُرِدْنَ أَنْ يَأْخُذْنَ عُلْبَةَ الْحَلْوَى.",
-        "عُلْبَةَ الْحَلْوَى."
-      ],
-      "fr": "Les filles veulent prendre pour Salmā la boîte de sucreries.",
-      "instruction": "Réponds en arabe : la boîte de sucreries.",
-      "context": { "dialogue": "medine-t2.l18.dialogue-2#1" },
-      "explain": "{ar|يَأْخُذْنَ} : le pronom des femmes ne change pas après {ar|أَنْ}."
-    },
-    {
-      "id": "medine-t2.l18.practice-1#3",
       "type": "question",
       "prompt": { "fr": "Le livre propose cette phrase fausse : {ar|آمِنَةُ بِنْتُ حَامِدٍ.} Laquelle est juste ?" },
       "choices": [
@@ -44,7 +14,40 @@
         { "ar": "آمِنَةُ أُمُّ حَامِدٍ." }
       ],
       "answer": 0,
-      "explain": "Ḥāmid parle à Āmina en disant {ar|لِزَوْجَتِهِ} : « à sa femme ». Āmina est donc {ar|زَوْجَةُ حَامِدٍ}."
+      "explain": "Dans le texte, Ḥāmid parle à sa femme : Āmina est donc {ar|زَوْجَةُ حَامِدٍ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-1#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَاذَا يُرِيدُ الْأَبْنَاءُ أَنْ يَشْتَرُوا مِنَ السُّوقِ؟",
+      "answers": [
+        "يُرِيدُ الْأَبْنَاءُ أَنْ يَشْتَرُوا أَقْلَامًا وَدَفَاتِرَ وَمَسَاطِرَ.",
+        "يُرِيدُونَ أَنْ يَشْتَرُوا أَقْلَامًا وَدَفَاتِرَ وَمَسَاطِرَ.",
+        "هُمْ يُرِيدُونَ أَنْ يَشْتَرُوا أَقْلَامًا وَدَفَاتِرَ وَمَسَاطِرَ.",
+        "أَقْلَامًا وَدَفَاتِرَ وَمَسَاطِرَ."
+      ],
+      "fr": "Ils veulent acheter des stylos, des cahiers et des règles.",
+      "instruction": "Réponds en arabe : des stylos, des cahiers et des règles.",
+      "context": { "dialogue": "medine-t2.l18.dialogue-1#1" },
+      "explain": "{ar|يَشْتَرُوا} : le {ar|ن} de {ar|يَشْتَرُونَ} tombe après {ar|أَنْ}. Les trois noms sont les compléments d'objet : {ar|أَقْلَامًا وَدَفَاتِرَ وَمَسَاطِرَ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-1#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَاذَا تُرِيدُ الْبَنَاتُ أَنْ يَأْخُذْنَ لِسَلْمَى؟",
+      "answers": [
+        "تُرِيدُ الْبَنَاتُ أَنْ يَأْخُذْنَ لِسَلْمَى عُلْبَةَ الْحَلْوَى.",
+        "يُرِدْنَ أَنْ يَأْخُذْنَ عُلْبَةَ الْحَلْوَى.",
+        "هُنَّ يُرِدْنَ أَنْ يَأْخُذْنَ عُلْبَةَ الْحَلْوَى.",
+        "تُرِيدُ الْبَنَاتُ أَنْ يَأْخُذْنَ عُلْبَةَ الْحَلْوَى.",
+        "عُلْبَةَ الْحَلْوَى."
+      ],
+      "fr": "Les filles veulent prendre pour Salmā la boîte de sucreries.",
+      "instruction": "Réponds en arabe : la boîte de sucreries.",
+      "context": { "dialogue": "medine-t2.l18.dialogue-2#1" },
+      "explain": "{ar|يَأْخُذْنَ} : le pronom des femmes ne change pas après {ar|أَنْ}."
     },
     {
       "id": "medine-t2.l18.practice-1#4",
@@ -83,10 +86,10 @@
       "prompt": {
         "fr": "Phrase fausse du livre : {ar|أَرَادَ زُمَلَاءُ الْأَبْنَاءِ أَنْ يَذْهَبُوا إِلَى حَدِيقَةِ الْحَيَوَانَاتِ.} Où voulaient-ils venir ?"
       },
-      "choices": [ { "ar": "إِلَى الْمَتْحَفِ" }, { "ar": "إِلَى الْمَلْعَبِ" }, { "ar": "إِلَى الْمَسْجِدِ" } ],
+      "choices": [ { "ar": "إِلَى الْمُتْحَفِ" }, { "ar": "إِلَى الْمَلْعَبِ" }, { "ar": "إِلَى الْمَسْجِدِ" } ],
       "answer": 0,
       "context": { "dialogue": "medine-t2.l18.dialogue-2#1" },
-      "explain": "Dans le texte : {ar|أَرَادُوا أَنْ يَأْتُوا الْيَوْمَ إِلَى الْمَتْحَفِ}."
+      "explain": "Dans le texte : {ar|أَرَادُوا أَنْ يَأْتُوا الْيَوْمَ إِلَى الْمُتْحَفِ}."
     },
     {
       "id": "medine-t2.l18.practice-1#8",

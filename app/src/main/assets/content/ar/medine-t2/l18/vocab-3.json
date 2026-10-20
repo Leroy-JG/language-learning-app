@@ -94,8 +94,13 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Zayd a rendu visite au malade hier.",
-      "answers": ["عَادَ زَيْدٌ الْمَرِيضَ أَمْسِ."],
-      "explain": "{ar|عَادَ} + le complément d'objet {ar|الْمَرِيضَ} : « il a rendu visite au malade »."
+      "answers": [
+        "عَادَ زَيْدٌ الْمَرِيضَ أَمْسِ.",
+        "زَيْدٌ عَادَ الْمَرِيضَ أَمْسِ.",
+        "زَارَ زَيْدٌ الْمَرِيضَ أَمْسِ.",
+        "زَيْدٌ زَارَ الْمَرِيضَ أَمْسِ."
+      ],
+      "explain": "{ar|عَادَ} + le complément d'objet {ar|الْمَرِيضَ} : « il a rendu visite au malade » ({ar|زَارَ} convient aussi)."
     },
     { "id": "medine-t2.l18.vocab-3#14", "type": "typing", "ask": "fr", "item": "w:wahhada" }
   ]

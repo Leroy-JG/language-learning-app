@@ -75,7 +75,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Après {ar|كَ}, le nom prend la marque du génitif : la kasra (ou la double kasra du tanwin). Le {ar|كَ} garde, lui, toujours sa fatha."
+          "text": "Après {ar|كَ}, le nom prend la marque du génitif : le plus souvent la kasra (ou la double kasra du tanwin). Les noms de forme longue comme {ar|مَسَاجِدُ}, quand ils n'ont ni article ni complément de nom, n'ont pas de tanwin et prennent une fatha : {ar|كَمَسَاجِدَ}. Le {ar|كَ} garde, lui, toujours sa fatha."
         },
         {
           "type": "compare",
@@ -119,7 +119,7 @@
       "fr": "Cette maison est comme la mosquée.",
       "gaps": [ { "answers": ["كَالْمَسْجِدِ"] } ],
       "options": ["كَالْمَسْجِدِ", "لِلْمَسْجِدِ", "فِي الْمَسْجِدِ"],
-      "explain": "« Comme la mosquée » : {ar|كَالْمَسْجِدِ}. {ar|لِلْمَسْجِدِ} voudrait dire « à la mosquée » (qui lui appartient) ; {ar|فِي الْمَسْجِدِ}, « dans la mosquée »."
+      "explain": "« Comme la mosquée » : {ar|كَالْمَسْجِدِ}. {ar|لِلْمَسْجِدِ} voudrait dire « appartenant à la mosquée » ; {ar|فِي الْمَسْجِدِ}, « dans la mosquée »."
     },
     {
       "id": "medine-t2.l18.grammar-1#8",

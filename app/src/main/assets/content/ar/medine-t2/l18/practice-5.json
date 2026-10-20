@@ -23,7 +23,7 @@
     {
       "id": "medine-t2.l18.practice-5#2",
       "type": "fill_gap",
-      "sentence": "يُرِيدُ الطُّلَّابُ أَنْ {0} إِلَى الْمَتْحَفِ غَدًا.",
+      "sentence": "يُرِيدُ الطُّلَّابُ أَنْ {0} إِلَى الْمُتْحَفِ غَدًا.",
       "fr": "Les étudiants veulent aller au musée demain.",
       "gaps": [ { "answers": ["يَذْهَبُوا"] } ],
       "options": ["يَذْهَبُوا", "يَذْهَبَ", "يَذْهَبْنَ"],
@@ -42,7 +42,11 @@
       "id": "medine-t2.l18.practice-5#4",
       "type": "order",
       "fr": "Nous voulons aller au Pakistan la semaine prochaine.",
-      "answers": [["نَحْنُ", "نُرِيدُ", "أَنْ", "نَذْهَبَ", "إِلَى", "بَاكِسْتَانَ", "فِي", "الْأُسْبُوعِ", "الْمُقْبِلِ"]],
+      "answers": [
+        ["نَحْنُ", "نُرِيدُ", "أَنْ", "نَذْهَبَ", "إِلَى", "بَاكِسْتَانَ", "فِي", "الْأُسْبُوعِ", "الْمُقْبِلِ"],
+        ["فِي", "الْأُسْبُوعِ", "الْمُقْبِلِ", "نَحْنُ", "نُرِيدُ", "أَنْ", "نَذْهَبَ", "إِلَى", "بَاكِسْتَانَ"],
+        ["نَحْنُ", "نُرِيدُ", "أَنْ", "نَذْهَبَ", "فِي", "الْأُسْبُوعِ", "الْمُقْبِلِ", "إِلَى", "بَاكِسْتَانَ"]
+      ],
       "punctuation": ".",
       "explain": "{ar|نُرِيدُ أَنْ نَذْهَبَ} : « nous voulons aller » ; {ar|فِي الْأُسْبُوعِ الْمُقْبِلِ} : « la semaine prochaine »."
     },
@@ -69,7 +73,10 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Mon oncle veut aller à Djeddah pour acheter une voiture.",
-      "answers": ["يُرِيدُ عَمِّي أَنْ يَذْهَبَ إِلَى جُدَّةَ لِيَشْتَرِيَ سَيَّارَةً."],
+      "answers": [
+        "يُرِيدُ عَمِّي أَنْ يَذْهَبَ إِلَى جُدَّةَ لِيَشْتَرِيَ سَيَّارَةً.",
+        "عَمِّي يُرِيدُ أَنْ يَذْهَبَ إِلَى جُدَّةَ لِيَشْتَرِيَ سَيَّارَةً."
+      ],
       "explain": "{ar|يَذْهَبَ} et {ar|لِيَشْتَرِيَ} : deux verbes à la fatha ; elle se voit sur le {ar|ي} de {ar|يَشْتَرِيَ}."
     },
     {
@@ -124,7 +131,7 @@
       "id": "medine-t2.l18.practice-5#13",
       "type": "fill_gap",
       "sentence": "مَتَى تُرِيدِينَ أَنْ {0} إِلَى الْمُسْتَشْفَى لِعِيَادَةِ الْخَالَةِ يَا أُمَّ كُلْثُومٍ؟",
-      "fr": "Quand veux-tu aller à l'hôpital rendre visite à ma tante, Umm Kulthūm ?",
+      "fr": "Umm Kulthūm, quand veux-tu aller à l'hôpital rendre visite à la tante maternelle ?",
       "gaps": [ { "answers": ["تَذْهَبِي"] } ],
       "options": ["تَذْهَبِي", "تَذْهَبَ", "تَذْهَبْنَ"],
       "explain": "On parle à une femme ({ar|تُرِيدِينَ}, {ar|يَا أُمَّ كُلْثُومٍ}) : le {ar|ن} de {ar|تَذْهَبِينَ} tombe."

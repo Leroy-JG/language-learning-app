@@ -59,13 +59,18 @@
             ["{ar|يَسْأَلُونَكَ سُؤَالًا}", "{ar|أَنْ يَسْأَلُوكَ سُؤَالًا}", "te poser une question"],
             ["{ar|يَأْكُلُونَ}", "{ar|أَنْ يَأْكُلُوا}", "manger"],
             ["{ar|يَشْرَبُونَ الْقَهْوَةَ}", "{ar|أَنْ يَشْرَبُوا الْقَهْوَةَ}", "boire du café"],
-            ["{ar|يَزُورُونَ الْمُدِيرَ}", "{ar|أَنْ يَزُورُوا الْمُدِيرَ}", "rendre visite au directeur"]
+            ["{ar|يَزُورُونَ الْمُدِيرَ}", "{ar|أَنْ يَزُورُوا الْمُدِيرَ}", "rendre visite au directeur"],
+            [
+              "{ar|يَسْكُنُونَ فِي مَهَاجِعِ الْجَامِعَةِ}",
+              "{ar|أَنْ يَسْكُنُوا فِي مَهَاجِعِ الْجَامِعَةِ}",
+              "habiter dans les dortoirs de l'université"
+            ],
+            [
+              "{ar|يَرْجِعُونَ إِلَى الْمَهَاجِعِ بَعْدَ الْحِصَّةِ الثَّانِيَةِ}",
+              "{ar|أَنْ يَرْجِعُوا إِلَى الْمَهَاجِعِ بَعْدَ الْحِصَّةِ الثَّانِيَةِ}",
+              "retourner aux dortoirs après la deuxième séance"
+            ]
           ]
-        },
-        {
-          "type": "note",
-          "tone": "info",
-          "text": "Le livre contient deux autres phrases de la liste ({ar|يَسْكُنُونَ فِي مَهَاجِعِ الْجَامِعَةِ} et {ar|يَرْجِعُونَ إِلَى الْمَهَاجِعِ بَعْدَ الْحِصَّةِ الثَّانِيَةِ}) : elles emploient {ar|مَهَاجِعُ} (« des dortoirs »), un mot que nous n'étudions pas ici."
         }
       ]
     },
@@ -73,7 +78,7 @@
       "id": "medine-t2.l18.practice-2#3",
       "type": "fill_gap",
       "sentence": "هٰؤُلَاءِ يُرِيدُونَ أَنْ {0} النَّوَافِذَ.",
-      "fr": "Ceux-ci veulent ouvrir les fenêtres.",
+      "fr": "Ces étudiants veulent ouvrir les fenêtres.",
       "gaps": [ { "answers": ["يَفْتَحُوا"] } ],
       "options": ["يَفْتَحُوا", "يَفْتَحُونَ", "يَفْتَحَ"],
       "explain": "{ar|يَفْتَحُونَ} perd son {ar|ن} après {ar|أَنْ} : {ar|يَفْتَحُوا}."
@@ -82,7 +87,7 @@
       "id": "medine-t2.l18.practice-2#4",
       "type": "fill_gap",
       "sentence": "هٰؤُلَاءِ يُرِيدُونَ أَنْ {0} الْمُدِيرَ.",
-      "fr": "Ceux-ci veulent rendre visite au directeur.",
+      "fr": "Ces étudiants veulent rendre visite au directeur.",
       "gaps": [ { "answers": ["يَزُورُوا"] } ],
       "options": ["يَزُورُوا", "يَزُورُونَ", "يَزُورَ"],
       "explain": "{ar|يَزُورُونَ} perd son {ar|ن} après {ar|أَنْ} : {ar|يَزُورُوا}."
@@ -93,14 +98,14 @@
       "instruction": "Touche le verbe qui est à l'accusatif.",
       "words": ["هٰؤُلَاءِ", "يُرِيدُونَ", "أَنْ", "يَأْكُلُوا", "مَعَنَا."],
       "answers": [3],
-      "fr": "Ceux-ci veulent manger avec nous.",
+      "fr": "Ces étudiants veulent manger avec nous.",
       "explain": "{ar|يُرِيدُونَ} garde son {ar|ن} (nominatif). {ar|يَأْكُلُوا}, après {ar|أَنْ}, l'a perdu (accusatif)."
     },
     {
       "id": "medine-t2.l18.practice-2#6",
       "type": "fill_gap",
       "sentence": "هٰؤُلَاءِ يُرِيدُونَ أَنْ {0}.",
-      "fr": "Ceux-ci veulent me frapper.",
+      "fr": "Ces étudiants veulent me frapper.",
       "gaps": [ { "answers": ["يَضْرِبُونِي"] } ],
       "options": ["يَضْرِبُونِي", "يَضْرِبُونَنِي", "يَضْرِبُوا"],
       "explain": "Le {ar|ن} du nominatif tombe, celui de {ar|نِي} reste : {ar|يَضْرِبُونِي}. {ar|يَضْرِبُونَنِي} garde les deux : c'est le présent sans {ar|أَنْ}. {ar|يَضْرِبُوا} n'a pas le pronom « me »."
@@ -125,7 +130,12 @@
       "type": "typing",
       "ask": "question",
       "question": "مَاذَا يُرِيدُ هٰؤُلَاءِ الطُّلَّابُ؟",
-      "answers": ["هٰؤُلَاءِ يُرِيدُونَ أَنْ يَقْرَأُوا الْقُرْآنَ.", "يُرِيدُونَ أَنْ يَقْرَأُوا الْقُرْآنَ."],
+      "answers": [
+        "هٰؤُلَاءِ يُرِيدُونَ أَنْ يَقْرَأُوا الْقُرْآنَ.",
+        "يُرِيدُونَ أَنْ يَقْرَأُوا الْقُرْآنَ.",
+        "هٰؤُلَاءِ يُرِيدُونَ أَنْ يَقْرَؤُوا الْقُرْآنَ.",
+        "يُرِيدُونَ أَنْ يَقْرَؤُوا الْقُرْآنَ."
+      ],
       "fr": "Ils veulent lire le Coran.",
       "instruction": "Réponds en arabe : ils veulent lire le Coran.",
       "explain": "{ar|يَقْرَأُونَ} perd son {ar|ن} après {ar|أَنْ} : {ar|أَنْ يَقْرَأُوا}."
@@ -133,7 +143,7 @@
     {
       "id": "medine-t2.l18.practice-2#9",
       "type": "order",
-      "fr": "Ceux-ci veulent boire du café.",
+      "fr": "Ces étudiants veulent boire du café.",
       "answers": [["هٰؤُلَاءِ", "يُرِيدُونَ", "أَنْ", "يَشْرَبُوا", "الْقَهْوَةَ"]],
       "punctuation": ".",
       "explain": "{ar|يَشْرَبُوا} : le {ar|ن} de {ar|يَشْرَبُونَ} est tombé."

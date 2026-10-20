@@ -46,7 +46,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Zayd a visité le musée.",
-      "answers": ["زَارَ زَيْدٌ الْمُتْحَفَ."],
+      "answers": ["زَارَ زَيْدٌ الْمُتْحَفَ.", "زَيْدٌ زَارَ الْمُتْحَفَ."],
       "explain": "{ar|زَارَ} + le complément d'objet {ar|الْمُتْحَفَ}, à la fatha."
     }
   ]

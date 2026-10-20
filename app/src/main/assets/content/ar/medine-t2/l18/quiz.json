@@ -16,7 +16,11 @@
       "id": "medine-t2.l18.quiz#2",
       "type": "question",
       "prompt": { "fr": "Quelle marque prend le nom qui suit le {ar|كَ} de comparaison ?" },
-      "choices": [ { "fr": "Le génitif (la kasra)" }, { "fr": "L'accusatif (la fatha)" }, { "fr": "Le nominatif (la damma)" } ],
+      "choices": [
+        { "fr": "Le génitif (le plus souvent la kasra)" },
+        { "fr": "L'accusatif (la fatha)" },
+        { "fr": "Le nominatif (la damma)" }
+      ],
       "answer": 0,
       "explain": "{ar|كَ} est une préposition : le nom qui la suit est {ar|مَجْرُورٌ} (au génitif)."
     },
@@ -42,7 +46,7 @@
         { "ar": "كَيْفَ", "category": 1 }
       ],
       "instruction": "Dans chaque mot, la première lettre {ar|ك} compare-t-elle ?",
-      "explain": "Si on enlève le {ar|ك}, il reste un nom dans {ar|كَالْمَاءِ}, {ar|كَعَالِمٍ} et {ar|كَأَخِي}. Dans {ar|كِتَابٌ}, {ar|كَثِيرٌ} et {ar|كَيْفَ}, le {ar|ك} est une lettre du mot."
+      "explain": "Dans {ar|كَالْمَاءِ}, {ar|كَعَالِمٍ} et {ar|كَأَخِي}, ce qui suit est un nom au génitif. Dans {ar|كِتَابٌ}, {ar|كَثِيرٌ} et {ar|كَيْفَ}, le {ar|ك} est une lettre du mot."
     },
     {
       "id": "medine-t2.l18.quiz#5",
@@ -51,7 +55,7 @@
         "fr": "On peut coller le pronom {ar|هُ} directement à {ar|كَ}, comme on colle {ar|هُ} à {ar|مِنْ} pour faire {ar|مِنْهُ}."
       },
       "answer": false,
-      "explain": "Non : le {ar|كَ} de comparaison ne s'emploie pas avec un pronom collé, à la différence des autres prépositions."
+      "explain": "Non : le {ar|كَ} de comparaison ne s'emploie pas (en arabe standard) avec un pronom collé, à la différence de {ar|مِنْ}, {ar|فِي}, {ar|بِ}, {ar|لِ}."
     },
     {
       "id": "medine-t2.l18.quiz#6",
@@ -168,9 +172,16 @@
       "type": "typing",
       "ask": "question",
       "question": "لِمَ ذَهَبْتَ إِلَى الْمُسْتَشْفَى؟",
-      "answers": ["ذَهَبْتُ إِلَى الْمُسْتَشْفَى لِعِيَادَةِ أَخِي.", "لِعِيَادَةِ أَخِي."],
+      "answers": [
+        "ذَهَبْتُ إِلَى الْمُسْتَشْفَى لِعِيَادَةِ أَخِي.",
+        "ذَهَبْتُ إِلَى الْمُسْتَشْفَى لِزِيَارَةِ أَخِي.",
+        "ذَهَبْتُ إِلَى الْمُسْتَشْفَى لِأَزُورَ أَخِي.",
+        "لِعِيَادَةِ أَخِي.",
+        "لِزِيَارَةِ أَخِي.",
+        "لِأَزُورَ أَخِي."
+      ],
       "fr": "Je suis allé à l'hôpital pour rendre visite à mon frère.",
-      "instruction": "Réponds en arabe : pour rendre visite à ton frère.",
+      "instruction": "Réponds en arabe (« mon frère ») : pour rendre visite à ton frère.",
       "explain": "{ar|لِعِيَادَةِ أَخِي} : {ar|لِ} + {ar|عِيَادَةِ} + {ar|أَخِي}, deux noms de suite au génitif."
     }
   ]

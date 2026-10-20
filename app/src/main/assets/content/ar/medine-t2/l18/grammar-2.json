@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Les prépositions peuvent recevoir un pronom collé : {ar|مِنْ} + {ar|هُ} donne {ar|مِنْهُ}. Mais le professeur le précise : **le {ar|كَ} de comparaison ne s'emploie pas avec les pronoms collés** qui se mettent au génitif ({ar|الضَّمَائِرُ الْمُتَّصِلَةُ الْمَجْرُورَةُ}), à la différence des autres prépositions."
+          "text": "Les prépositions peuvent recevoir un pronom collé : {ar|مِنْ} + {ar|هُ} donne {ar|مِنْهُ}. Mais le professeur le précise : **le {ar|كَ} de comparaison ne s'emploie pas (en arabe standard) avec les pronoms collés** qui se mettent au génitif ({ar|الضَّمَائِرُ الْمُتَّصِلَةُ الْمَجْرُورَةُ}), à la différence de {ar|مِنْ}, {ar|فِي}, {ar|بِ}, {ar|لِ}."
         },
         {
           "type": "table",
@@ -58,22 +58,22 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Attention : beaucoup de mots commencent par la lettre {ar|ك} **sans** que ce soit le {ar|كَ} de comparaison : {ar|كِتَابٌ}, {ar|كَثِيرٌ}, {ar|كَيْفَ}, {ar|كَانَ}. Pour les distinguer, enlève la première lettre :"
+          "text": "Attention : beaucoup de mots commencent par la lettre {ar|ك} **sans** que ce soit le {ar|كَ} de comparaison : {ar|كِتَابٌ}, {ar|كَثِيرٌ}, {ar|كَيْفَ}, {ar|كَانَ}. Pour les distinguer, regarde ce qui suit la première lettre : après le {ar|كَ} de comparaison, il y a un nom **au génitif** (le plus souvent avec la kasra) qui existe seul."
         },
         {
           "type": "table",
-          "header": ["Mot", "Sans le {ar|ك}", "Le {ar|ك} compare ?"],
+          "header": ["Mot", "Ce qui suit le {ar|ك}", "Le {ar|ك} compare ?"],
           "rows": [
-            ["{ar|كَالْمَاءِ}", "{ar|الْمَاءِ} : un nom qui existe", "oui"],
-            ["{ar|كَعَالِمٍ}", "{ar|عَالِمٍ} : un nom qui existe", "oui"],
-            ["{ar|كِتَابٌ}", "il ne reste pas un mot", "non"],
-            ["{ar|كَيْفَ}", "il ne reste pas un mot", "non"]
+            ["{ar|كَالْمَاءِ}", "{ar|الْمَاءِ} : un nom au génitif", "oui"],
+            ["{ar|كَعَالِمٍ}", "{ar|عَالِمٍ} : un nom au génitif", "oui"],
+            ["{ar|كِتَابٌ}", "pas un nom au génitif qui ait un sens", "non"],
+            ["{ar|كَيْفَ}", "pas un nom au génitif qui ait un sens", "non"]
           ]
         },
         {
           "type": "note",
           "tone": "warning",
-          "text": "La fatha ne suffit pas à reconnaître le {ar|كَ} de comparaison : {ar|كَثِيرٌ} et {ar|كَانَ} ont aussi une fatha. C'est le mot qui reste, et le sens, qui décident."
+          "text": "La fatha ne suffit pas à reconnaître le {ar|كَ} de comparaison : {ar|كَثِيرٌ} et {ar|كَانَ} ont aussi une fatha. Ce sont le nom au génitif qui suit et le sens de la phrase qui décident."
         }
       ]
     },
@@ -92,7 +92,7 @@
         { "ar": "كَانَ", "category": 1 }
       ],
       "instruction": "Dans chaque mot, la première lettre {ar|ك} compare-t-elle ?",
-      "explain": "Si on enlève le {ar|ك}, il reste un nom qui existe dans {ar|كَالْمَاءِ}, {ar|كَعَالِمٍ}, {ar|كَأَخِي}, {ar|كَالْمَسْجِدِ}. Dans {ar|كِتَابٌ}, {ar|كَثِيرٌ}, {ar|كَيْفَ} et {ar|كَانَ}, le {ar|ك} est une lettre du mot."
+      "explain": "Dans {ar|كَالْمَاءِ}, {ar|كَعَالِمٍ}, {ar|كَأَخِي} et {ar|كَالْمَسْجِدِ}, ce qui suit est un nom au génitif. Dans {ar|كِتَابٌ}, {ar|كَثِيرٌ}, {ar|كَيْفَ} et {ar|كَانَ}, le {ar|ك} est une lettre du mot."
     },
     {
       "id": "medine-t2.l18.grammar-2#6",
@@ -149,7 +149,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Elle est comme ma sœur.",
-      "answers": ["هِيَ كَأُخْتِي."],
+      "answers": ["هِيَ كَأُخْتِي.", "هِيَ مِثْلُ أُخْتِي."],
       "explain": "{ar|كَأُخْتِي} : le {ar|كَ} collé à {ar|أُخْتِي} (« ma sœur »)."
     }
   ]

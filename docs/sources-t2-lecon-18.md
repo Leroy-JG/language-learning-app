@@ -44,12 +44,12 @@ Outils de la palette : `compare` (`عَالِمٌ` → `كَعَالِمٍ` ; `�
   - Le texte est coupé en deux activités (`dialogue-1` : Ḥāmid et Āmina, puis les fils ; `dialogue-2` : les fils, l'hôpital, les filles).
 - **Exercice 1** : deux questions, reprises en `typing` (`question`) avec la réponse en français donnée en consigne.
 - **Exercice 2** : les six phrases fausses du livre sont corrigées en `question` (choix arabes) et `fill_gap` (le mot fautif est le trou). Phrase 3 : `مِنْدِيلِيَ الْأَزْرَقَ` (PDF `منديلي الأزرق`) est la phrase fausse ; le texte dit `قَمِيصِيَ الْأَبْيَضَ`.
-- **Exercice 3** : treize des quinze phrases de la liste sont reprises ; les deux phrases avec `مَهَاجِعُ` (« dortoirs », `يَسْكُنُونَ فِي مَهَاجِعِ الْجَامِعَةِ`, `يَرْجِعُونَ إِلَى الْمَهَاجِعِ بَعْدَ الْحِصَّةِ الثَّانِيَةِ`) ne le sont pas (mot non enseigné, absent du vocabulaire du PDF) ; une note le dit. `يَضْرِبُونَنِي` → `أَنْ يَضْرِبُونِي` : le `ن` du nominatif tombe, celui de `نِي` reste. Orthographe de `يَقْرَأُونَ` : comme au reste de l'app (`تَقْرَأُونَ`).
+- **Exercice 3** : les quinze phrases de la liste sont reprises, dans deux astuces (`مَهْجَعٌ` « un dortoir » et `سَكَنَ` sont déjà enseignés, chapitres 3 et révision 1). `يَضْرِبُونَنِي` → `أَنْ يَضْرِبُونِي` : le `ن` du nominatif tombe, celui de `نِي` reste. Orthographe de `يَقْرَأُونَ` : comme au reste de l'app (`تَقْرَأُونَ`).
 - **Exercice 4** : trois groupes du livre (a : fatha, b : chute du `ن`, c : invariable), en deux astuces puis `sort`, `fill_gap`, `order`, `typing`.
 - **Exercice 5** : dix phrases, en `fill_gap` (le verbe `يَذْهَبُ` à la bonne forme), `order` et `typing`. Phrase 3 : le PDF écrit `في عُطله الصيفي` (image peu lisible) ; l'app lit `فِي عُطْلَةِ الصَّيْفِ`.
 - **Exercice 6** : sept phrases sur huit. Le livre laisse le choix du verbe ; l'app en impose un d'après la traduction (phrase 1 : `لِيَعْرِفُوا` ; le professeur donne `أَعْرِفُ سَبَبَ الضَّوْضَاءِ` comme raison de sortir au chapitre 17). **Phrase 7** (`قَبْلَ أَنْ …`) : le texte du PDF est incomplet (points de suspension perdus) : non reprise.
 - **Exercice 7** : le tableau des dix formes (nominatif, marque, accusatif, marque) est repris, avec la colonne « sujet » ajoutée. **Ligne 4 corrigée** : le PDF écrit `تَذْهَبْنَ` (comme la ligne 8), l'app écrit `يَذْهَبْنَ` (`هُنَّ`), comme à l'exercice 4. Les termes `ثُبُوتُ النُّونِ`, `حَذْفُ النُّونِ`, `مَبْنِيٌّ` sont ceux du livre.
-- **Exercice 8** : la deuxième phrase `أَرْجُو أَلَّا تَجْلِسَ هُنَا` ; les quatre phrases du PDF sont dans `grammar-3` et `practice-7`.
+- **Exercice 8** : `أَلَّا = أَنْ لَا` et les deux paires de phrases du PDF (`أَرْجُو أَنْ تَدْخُلَ` / `أَرْجُو أَلَّا تَدْخُلَ`, `أَرْجُو أَنْ تَجْلِسَ هُنَا` / `أَرْجُو أَلَّا تَجْلِسَ هُنَا`) sont dans `grammar-3` et `practice-7`.
 - **Exercice 9** : les deux phrases (`هٰذِهِ الْمَدْرَسَةُ كَالْمَسْجِدِ`, `هٰذِهِ الْقَهْوَةُ كَالْمَاءِ`) sont reprises avec l'analyse du professeur.
 - **Vocabulaire** : pluriels du PDF repris (`عَادَاتٌ` : le PDF donne « ات » sans voyelles, la forme est régulière). `مَلْبَسٌ` : le PDF donne le pluriel `مَلَابِسُ` ; `عِيَادَةٌ` : « visite du malade » (le PDF), avec une note sur le sens moderne de « cabinet médical ». Le PDF ne donne pas de pluriel pour `عِيَادَةٌ` ni `تَوْحِيدٌ`.
 - **Ordre du cours** : la phrase `زَيْدٌ يَدْرُسُ كَعَادَتِهِ` du professeur est citée dans `grammar-1` avant la présentation de `عَادَةٌ` (`vocab-1`) : c'est l'exemple du PDF, traduit. Les exercices des parties de grammaire n'emploient que des mots déjà enseignés.
@@ -67,4 +67,15 @@ Outils de la palette : `compare` (`عَالِمٌ` → `كَعَالِمٍ` ; `�
 
 ## Pas encore enseigné (donc sans exercice)
 
-`مِثْلٌ` (cité en note), `مَهَاجِعُ`, `أَنْ لَا` écrit en deux mots (le professeur écrit `أَلَّا`), `لِئَلَّا`, `إِنْ` conditionnel, `إِنَّ` de justification en détail (cité dans une astuce du texte), `مُذْ`.
+`مِثْلٌ` (cité en note ; ses phrases sont acceptées comme réponses justes), `أَنْ لَا` écrit en deux mots (le professeur écrit `أَلَّا`), `لِئَلَّا`, `إِنْ` conditionnel, `إِنَّ` de justification en détail (cité dans une astuce du texte), `مُذْ`.
+
+## Corrections faites après la relecture
+
+Trois relecteurs indépendants (arabe et fidélité au PDF, exercices, français et pédagogie) : aucune erreur de harakat, de cas ni de genre dans le texte du livre. Chaque remarque a été vérifiée avant d'être appliquée.
+
+- **Erreur corrigée** : `الْمَتْحَفِ` (fatha, faute de frappe) → `الْمُتْحَفِ` (damma, comme dans le tableau du PDF) à quatre endroits (`dialogue-2`, `practice-1`, `practice-5`).
+- **Réponses justes ajoutées** (`typing`, `order`) : `زَارَ` pour « rendre visite au malade » ; `لِزِيَارَةِ أَخِي` et `لِأَزُورَ أَخِي` au bilan ; ordre nominal (`زَيْدٌ زَارَ…`, `عَمِّي يُرِيدُ…`, `هُمْ يُرِيدُونَ…`, `هُنَّ يُرِدْنَ…`) ; complément de temps avant le sujet (`فِي الْأُسْبُوعِ الْمُقْبِلِ نَحْنُ نُرِيدُ…`) ; `يَقْرَؤُوا` (orthographe académique : le correcteur ne confond pas `ؤ` et `أ`) en plus de `يَقْرَأُوا` ; `مِثْلُ` dans les phrases de comparaison.
+- **Explications adoucies** : le nom après `كَ` prend « le plus souvent » la kasra (les noms sans tanwin prennent une fatha) ; le test « enlève la première lettre » est remplacé par « ce qui suit est un nom au génitif qui a un sens » (`كَمَالٌ` / `مَالٌ` aurait été un contre-exemple) ; « pas de pronom collé » devient « en arabe standard », « à la différence de `مِنْ`, `فِي`, `بِ`, `لِ` » (d'autres particules n'en reçoivent pas non plus) ; `كُلَّ` « chaque » seulement devant un nom indéfini ; `لَنْ` nie le futur ; `لِلْمَسْجِدِ` = « appartenant à la mosquée ».
+- **Traductions** : « la tante maternelle » (et non « ma tante ») ; « comme ils le font d'habitude chaque semaine » ; « Ces étudiants veulent… » (au lieu de « Ceux-ci ») ; « l'unicité de Dieu » ; « Je la laverai et je la repasserai » (la chemise).
+- **Rythme** : `practice-1` ne s'ouvre plus sur deux `typing` d'affilée.
+- **À confirmer avec le professeur** : `إِنَّ` (« car ») dans `إِنَّ سَلْمَى تُحِبُّ هٰذِهِ الْحَلْوَى` (le PDF n'a pas de voyelles) ; `فِي عُطْلَةِ الصَّيْفِ` (exercice 5, phrase 3, image peu lisible) ; `أَنْ لَا` écrit en deux mots (accepté ou non ?).

@@ -158,7 +158,7 @@
       "id": "medine-t2.l18.dialogue-1#9",
       "type": "typing",
       "ask": "audio",
-      "fr": "Je le laverai et je le repasserai, si Dieu le veut.",
+      "fr": "Je la laverai et je la repasserai, si Dieu le veut.",
       "answers": ["سَأَغْسِلُهُ وَأَكْوِيهِ إِنْ شَاءَ اللَّهُ."],
       "explain": "{ar|سَ} + {ar|أَغْسِلُ} + {ar|هُ} ; {ar|أَكْوِيهِ} : le présent de {ar|كَوَى} + {ar|هِ}."
     }
