@@ -20,7 +20,7 @@
             ["{ar|لَنْ نَشْرَبَ الْخَمْرَ أَبَدًا.}", "Nous ne boirons jamais d'alcool."],
             [
               "{ar|قَالَ الْيَهُودُ لِمُوسَى عَلَيْهِ السَّلَامُ: يَا مُوسَى، لَنْ نَصْبِرَ عَلَى طَعَامٍ وَاحِدٍ، كَمَا جَاءَ فِي سُورَةِ الْبَقَرَةِ.}",
-              "Les Juifs ont dit à Moïse, que la paix soit sur lui : « Ô Moïse, nous ne supporterons pas une seule sorte de nourriture », comme cela est venu dans la sourate al-Baqara."
+              "Les Juifs ont dit à Moïse, que la paix soit sur lui : « Ô Moïse, nous ne supporterons pas une seule sorte de nourriture », comme cela figure dans la sourate al-Baqara."
             ],
             [
               "{ar|قَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: مَنْ لَبِسَ الْحَرِيرَ فِي الدُّنْيَا فَلَنْ يَلْبَسَهُ فِي الْآخِرَةِ. رَوَاهُ الْبُخَارِيُّ.}",
@@ -31,7 +31,7 @@
         {
           "type": "note",
           "tone": "culture",
-          "text": "Les phrases 8 et 9 sont des citations : un verset du Coran et un hadith. Dans le verset, {ar|طَعَامٍ وَاحِدٍ} veut dire mot à mot « une seule nourriture ». Dans le hadith, {ar|مَنْ} veut dire « celui qui » ({ar|مَنْ لَبِسَ}) et le {ar|فَ} de {ar|فَلَنْ} annonce ce qui en découle."
+          "text": "La phrase 8 cite un verset (la partie {ar|يَا مُوسَى لَنْ نَصْبِرَ عَلَى طَعَامٍ وَاحِدٍ}, sourate al-Baqara, verset 61) ; la phrase 9 est un hadith. Dans le verset, {ar|طَعَامٍ وَاحِدٍ} veut dire mot à mot « une seule nourriture ». Dans le hadith, {ar|مَنْ} veut dire « celui qui » ({ar|مَنْ لَبِسَ}) et le {ar|فَ} de {ar|فَلَنْ} annonce ce qui en découle."
         }
       ]
     },

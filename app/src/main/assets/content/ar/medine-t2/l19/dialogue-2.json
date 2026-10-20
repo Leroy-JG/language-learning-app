@@ -14,7 +14,7 @@
         {
           "speaker": "E",
           "ar": "أَتَعْرِفُ أَحَدًا مِنَ الطُّلَّابِ الْهُنُودِ يَذْهَبُ إِلَى الْهِنْدِ فِي هٰذِهِ الْعُطْلَةِ؟ سَمِعْتُ أَنَّ طَالِبًا هِنْدِيًّا اسْمُهُ خَالِدٌ سَيَذْهَبُ إِلَى الْهِنْدِ قَرِيبًا.",
-          "fr": "Connais-tu un étudiant indien qui va en Inde pendant ces vacances ? J'ai entendu dire qu'un étudiant indien du nom de Khālid ira bientôt en Inde."
+          "fr": "Connais-tu quelqu'un, parmi les étudiants indiens, qui va en Inde pendant ces vacances ? J'ai entendu dire qu'un étudiant indien du nom de Khālid ira bientôt en Inde."
         },
         {
           "speaker": "A",
@@ -84,7 +84,7 @@
             [
               "{ar|الْكُتُبَ الْأُرْدِيَّةَ مَوْجُودَةٌ}",
               "les livres en ourdou se trouvent",
-              "l'adjectif d'un pluriel de choses est au féminin singulier"
+              "en général, l'adjectif d'un pluriel de choses est au féminin singulier"
             ],
             ["{ar|قَرِيبًا}", "bientôt", "{ar|قَرِيبٌ} (« proche ») avec un tanwin fatha"],
             ["{ar|أَشْكُرُكَ}", "je te remercie", "{ar|أَشْكُرُ} + {ar|كَ}"],

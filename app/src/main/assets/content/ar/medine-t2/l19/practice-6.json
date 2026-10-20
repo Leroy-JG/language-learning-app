@@ -112,7 +112,7 @@
       "fr": "Nous ne boirons pas de thé et nous ne mangerons pas de pain.",
       "answers": [["لَنْ", "نَشْرَبَ", "الشَّايَ", "وَلَنْ", "نَأْكُلَ", "الْخُبْزَ"]],
       "punctuation": ".",
-      "explain": "On répète {ar|لَنْ} devant chaque verbe : {ar|وَلَنْ نَأْكُلَ}."
+      "explain": "Ici, {ar|لَنْ} est répété devant le second verbe : {ar|وَلَنْ نَأْكُلَ} (comme dans le livre)."
     },
     {
       "id": "medine-t2.l19.practice-6#12",

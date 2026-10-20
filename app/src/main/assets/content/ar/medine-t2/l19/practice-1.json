@@ -8,7 +8,7 @@
       "id": "medine-t2.l19.practice-1#1",
       "type": "question",
       "prompt": {
-        "fr": "Le livre propose cette phrase fausse : {ar|يُرِيدُ عَمْرٌو أَنْ يَشْتَرِيَ كِتَابًا فَرَنْسِيًّا مِنَ الْهِنْدِ.} Laquelle est juste ?"
+        "fr": "Le manuel propose cette phrase fausse : {ar|يُرِيدُ عَمْرٌو أَنْ يَشْتَرِيَ كِتَابًا فَرَنْسِيًّا مِنَ الْهِنْدِ.} Laquelle est juste ?"
       },
       "choices": [
         { "ar": "يُرِيدُ عَمْرٌو أَنْ يَشْتَرِيَ كِتَابًا بِاللُّغَةِ الْأُرْدِيَّةِ مِنَ الْهِنْدِ." },
@@ -64,7 +64,7 @@
       "gaps": [ { "answers": ["بَاكِسْتَانَ"] } ],
       "options": ["بَاكِسْتَانَ", "الْهِنْدِ", "بَغْدَادَ"],
       "context": { "dialogue": "medine-t2.l19.dialogue-2#1" },
-      "explain": "Le livre dit {ar|جَعْفَرٌ مِنَ الْهِنْدِ} : c'est faux. ʿAmr dit {ar|لٰكِنَّهُ مِنْ بَاكِسْتَانَ}."
+      "explain": "Le manuel dit {ar|جَعْفَرٌ مِنَ الْهِنْدِ} : c'est faux. ʿAmr dit {ar|لٰكِنَّهُ مِنْ بَاكِسْتَانَ}."
     },
     {
       "id": "medine-t2.l19.practice-1#5",
@@ -102,7 +102,7 @@
       "id": "medine-t2.l19.practice-1#7",
       "type": "question",
       "prompt": {
-        "fr": "Le livre propose cette phrase fausse : {ar|لَنْ يَرْجِعَ خَالِدٌ لِأَنَّهُ يُرِيدُ أَنْ يَدْرُسَ الطِّبَّ.} (« … parce qu'il veut étudier la médecine »). Pourquoi Khālid ne reviendra-t-il pas ?"
+        "fr": "Le manuel propose cette phrase fausse : {ar|لَنْ يَرْجِعَ خَالِدٌ لِأَنَّهُ يُرِيدُ أَنْ يَدْرُسَ الطِّبَّ.} (« … parce qu'il veut étudier la médecine »). Pourquoi Khālid ne reviendra-t-il pas ?"
       },
       "choices": [
         { "ar": "لِأَنَّهُ مَرِيضٌ وَسَيَبْقَى فِي الْهِنْدِ لِلْعِلَاجِ." },

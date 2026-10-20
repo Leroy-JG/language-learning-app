@@ -48,6 +48,7 @@ Outils de la palette : `compare` (`أَكْتُبُ` → `لَنْ أَكْتُ�
 - **Exercice 4** : les trois paires du livre (`مَا ذَهَبْتُ`, `لَا أَذْهَبُ`, `لَنْ أَذْهَبَ`). Seul `لَا` est accepté pour l'habitude (« chaque jour ») : `مَا` devant un présent limite la négation à l'instant (chapitre 15).
 - **Exercice 5** : neuf phrases, lues en deux activités. Les phrases 8 (Coran, sourate al-Baqara) et 9 (hadith rapporté par al-Bukhārī) sont reprises **telles que les écrit le professeur**, sans vérification de la version exacte du hadith (le PDF écrit `فَلَنْ يَلْبَسَهُ`). `ﷺ` n'est pas utilisable dans un texte arabe (forme de présentation interdite par le validateur) : l'app écrit `صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ`.
 - **Exercice 6** : les huit verbes, mis après `لَنْ` en `fill_gap` et `typing`. Le livre écrit `ا دْخُلُ` (espace en trop) : lu `أَدْخُلُ`.
+- **`سِفَارَةٌ`** : le PDF donne l'exemple `السِّفَارَةُ الْفَرَنْسِيَّةُ فِي جُدَّةَ` (« l'ambassade de France est à Djeddah ») ; c'est inexact aujourd'hui (l'ambassade est à Riyad, Djeddah n'a qu'un consulat). L'app écrit `فِي الرِّيَاضِ`.
 - **Vocabulaire** : pluriels du PDF repris. Le PDF donne `(ون) (ات)` pour `آسِفٌ` et `(ون)` pour `مَوْجُودٌ` : l'app donne le pluriel complet. `أُتْرُكْ` (PDF) → `اُتْرُكْ` (alif de liaison, comme `اُسْجُدْ` au reste de l'app).
 - **Ordre du cours** : les exercices des parties de grammaire (`revue-1`, `grammar-1` à `3`) n'emploient que des mots déjà enseignés.
 
@@ -58,7 +59,7 @@ Outils de la palette : `compare` (`أَكْتُبُ` → `لَنْ أَكْتُ�
 - **`عِنْدَمَا`** : formé de `عِنْدَ` + `مَا` ; le présent qui suit garde sa damma (ce n'est pas un `نَاصِبٌ`).
 - **`خَيْرٌ`** : comparatif et superlatif de « bon » sans la forme `أَفْعَلُ` ; ne pas le confondre avec `خَيْرٌ` « du bien » (`w:khayr`).
 - **`الدُّنْيَا`** (« la plus proche ») et **`الْآخِرَةُ`** (« la dernière ») : leur sens littéral.
-- **`خَمْرٌ`** : d'abord le vin ; masculin ou féminin (comme `سِكِّينٌ` au chapitre 8 du tome 1, genre `m` choisi).
+- **`خَمْرٌ`** : d'abord le vin ; féminin ou masculin selon les dictionnaires (comme `سِكِّينٌ` au chapitre 8 du tome 1) : genre `f` choisi, noté dans l'élément. **À confirmer.**
 - **`أَبَدًا`** : « jamais » avec une négation du présent ou du futur, « toujours » sans négation.
 - **La ʿumra** : le petit pèlerinage, qu'on peut faire à tout moment de l'année (à la différence du ḥajj).
 - **`حَرِيرٌ`** : les hommes n'ont en principe pas le droit d'en porter, les femmes oui.
@@ -73,3 +74,14 @@ Outils de la palette : `compare` (`أَكْتُبُ` → `لَنْ أَكْتُ�
 ## Points à confirmer avec le professeur
 
 `لِمَهْ` (le `ه` de pause est-il voulu ?) ; `الْمُتْحَفِ` (damma) ; `الْمَكْتَبَاتِ` ; la version du hadith (`فَلَنْ يَلْبَسَهُ`) ; la traduction de `طَعَامٍ وَاحِدٍ` (« une seule sorte de nourriture »).
+
+## Corrections faites après la relecture
+
+Trois relecteurs indépendants (arabe et fidélité au PDF, exercices, français et pédagogie) : aucune erreur de harakat ni de cas dans le texte du livre ; chaque remarque a été vérifiée avant d'être appliquée.
+
+- **Parcours** : `قَوْمٌ` (non enseigné) retiré de l'exercice `vocab-1` (resté dans l'exemple du PDF, glosé dans la note de `هِنْدِيٌّ`).
+- **Distracteur `لَا`** : avec les harakat masquées, `لَا أَذْهَبُ` pourrait nier un futur ; `لَا` est retiré des options de `revue-1` #3 et de `practice-3` #7 (remplacé par `مَا` / `لَمْ`). À l'inverse, pour l'habitude (« chaque jour »), seul `لَا` est accepté (`مَا` devant un présent limite la négation à l'instant, chapitre 15).
+- **Réponses justes ajoutées** : formes courtes avec `لَا،` (exercice 3), `أَنَا أَعْرِفُهُ`, `أَنْتِ لَنْ تَذْهَبِي`, `خَمْرًا` (indéfini), ordres alternatifs de `order` (adverbe de temps ou de lieu, `أَبَدًا`). `عَمِّهِمْ` retiré (les sœurs : `عَمِّهِنَّ`).
+- **Explications corrigées** : « on répète `لَنْ` devant chaque verbe » (faux : après `وَ`, le verbe coordonné reste à l'accusatif ; ici le livre répète `لَنْ`) ; « les phrases 8 et 9 sont des citations » (seule la partie `يَا مُوسَى … وَاحِدٍ` est le verset) ; les règles du `sort` passé / présent / impératif (`جَزَى`, `أَصْبِرُ`, `اِجْزِ` font exception) ; `خَيْرٌ` (suivi de `مِنْ` : « meilleur que ») ; « en général » pour l'adjectif d'un pluriel de choses ; `يَبْقَى` → `يَبْقَوْنَ` (le `ى` tombe, la fatha reste) ; la `ʿumra` « en principe toute l'année » ; `هُنُودٌ` indéfini.
+- **Explications ajoutées** : le duel et les verbes à finale défectueuse après `لَنْ` (note de `grammar-1`) ; `جَزَاكِ` / `جَزَاكُمُ` ; l'existence d'autres `نَوَاصِبُ` (par exemple `كَيْ`).
+- **Formulation** : « le manuel propose… » (et non « le livre », ambigu avec le livre acheté du texte) ; « comme cela figure dans la sourate ».

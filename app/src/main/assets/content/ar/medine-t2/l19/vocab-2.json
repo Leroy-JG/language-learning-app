@@ -21,7 +21,7 @@
       "prompt": { "fr": "Dans {ar|الْآخِرَةُ خَيْرٌ مِنَ الدُّنْيَا}, que veut dire {ar|خَيْرٌ} ?" },
       "choices": [ { "fr": "meilleur" }, { "fr": "du bien (une bonne chose)" }, { "fr": "proche" } ],
       "answer": 0,
-      "explain": "{ar|خَيْرٌ مِنْ} : « meilleur que ». Le même mot veut aussi dire « du bien » ({ar|أَنَا بِخَيْرٍ}, « je vais bien »), mais il n'est pas suivi de {ar|مِنْ} dans ce sens."
+      "explain": "{ar|خَيْرٌ مِنْ} : « meilleur que ». Le même mot veut aussi dire « du bien » ({ar|أَنَا بِخَيْرٍ}, « je vais bien »). Suivi de {ar|مِنْ} pour comparer, il veut dire « meilleur que » ; sinon, c'est « du bien »."
     },
     { "id": "medine-t2.l19.vocab-2#7", "type": "present", "item": "w:harir" },
     { "id": "medine-t2.l19.vocab-2#8", "type": "present", "item": "w:khamr" },

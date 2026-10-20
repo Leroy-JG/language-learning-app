@@ -37,7 +37,7 @@
     "plural": "سِفَارَاتٌ",
     "gender": "f",
     "note": "Le {ar|ة} devient {ar|ت} devant un pronom collé : {ar|سِفَارَتُهُ} (« son ambassade »). Dans une annexion, il reste {ar|ة} : {ar|سِفَارَةُ الْهِنْدِ} (« l'ambassade d'Inde »).",
-    "example": { "ar": "السِّفَارَةُ الْفَرَنْسِيَّةُ فِي جُدَّةَ.", "fr": "L'ambassade de France est à Djeddah." }
+    "example": { "ar": "السِّفَارَةُ الْفَرَنْسِيَّةُ فِي الرِّيَاضِ.", "fr": "L'ambassade de France est à Riyad." }
   },
   {
     "id": "w:asif",
@@ -187,7 +187,7 @@
     "ar": "جَزَاكَ اللَّهُ خَيْرًا",
     "fr": "qu'Allah te récompense en bien (merci)",
     "translit": "jazāka llāhu khayran",
-    "note": "C'est une formule de remerciement. Le verbe est au passé, mais il exprime un souhait (comme {ar|شَفَاكَ اللَّهُ}) : {ar|جَزَى} + {ar|كَ} (« toi ») + {ar|اللَّهُ} (le sujet) + {ar|خَيْرًا} (« un bien »).",
+    "note": "C'est une formule de remerciement. À une femme : {ar|جَزَاكِ اللَّهُ خَيْرًا} ; à plusieurs personnes : {ar|جَزَاكُمُ اللَّهُ خَيْرًا}. Le verbe est au passé, mais il exprime un souhait (comme {ar|شَفَاكَ اللَّهُ}) : {ar|جَزَى} + {ar|كَ} (« toi ») + {ar|اللَّهُ} (le sujet) + {ar|خَيْرًا} (« un bien »).",
     "example": { "ar": "أَشْكُرُكَ، جَزَاكَ اللَّهُ خَيْرًا.", "fr": "Je te remercie, qu'Allah te récompense en bien." }
   },
   {

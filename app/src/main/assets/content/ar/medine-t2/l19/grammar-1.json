@@ -76,6 +76,11 @@
         {
           "type": "note",
           "tone": "info",
+          "text": "Le duel fait partie des cinq verbes : {ar|يَكْتُبَانِ} devient {ar|لَنْ يَكْتُبَا} et {ar|تَكْتُبَانِ} devient {ar|لَنْ تَكْتُبَا} (le {ar|ن} tombe, l'alif reste). Les verbes à finale défectueuse suivent la règle du chapitre 13 : {ar|لَنْ يَمْشِيَ}, {ar|لَنْ يَدْعُوَ} (la fatha se voit), {ar|لَنْ يَخْشَى} (elle ne se voit pas)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
           "text": "Dans {ar|لَنْ يَكْتُبَ زَيْدٌ}, le sujet {ar|زَيْدٌ} vient après le verbe. Dans {ar|أَنْتُمْ لَنْ تَكْتُبُوا}, le pronom vient avant : la particule se place en général juste devant le verbe."
         }
       ]
