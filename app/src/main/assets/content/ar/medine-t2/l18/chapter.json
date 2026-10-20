@@ -1,0 +1,19 @@
+{
+  "id": "medine-t2.l18",
+  "number": 18,
+  "title": { "ar": "الدَّرْسُ الثَّامِنَ عَشَرَ", "fr": "Comparer avec « comme » et dire « de ne pas »" },
+  "description": "Le {ar|كَ} de comparaison ({ar|كَافُ التَّشْبِيهِ}, {ar|زَيْدٌ كَعَالِمٍ}), {ar|أَنْ} + {ar|لَا} = {ar|أَلَّا}, le vocabulaire, le texte du livre (Ḥāmid, Āmina et leurs enfants) et ses exercices.",
+  "source": "Tome de Médine 2, leçon 18",
+  "sections": [
+    { "title": "Revoir : le présent à l'accusatif", "activities": ["revue-1"] },
+    { "title": "Comparer : le {ar|كَ} de comparaison", "activities": ["grammar-1", "grammar-2"] },
+    { "title": "{ar|أَنْ} + {ar|لَا} = {ar|أَلَّا}", "activities": ["grammar-3", "grammar-4"] },
+    { "title": "Des mots nouveaux", "activities": ["vocab-1", "vocab-2", "vocab-3"] },
+    { "title": "Le texte du livre", "activities": ["dialogue-1", "dialogue-2"] },
+    {
+      "title": "Les exercices du livre",
+      "activities": ["practice-1", "practice-2", "practice-3", "practice-4", "practice-5", "practice-6", "practice-7"]
+    },
+    { "title": "Bilan", "activities": ["quiz"] }
+  ]
+}

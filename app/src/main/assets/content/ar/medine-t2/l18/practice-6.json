@@ -1,0 +1,116 @@
+{
+  "id": "medine-t2.l18.practice-6",
+  "type": "grammar",
+  "title": "Exercice 6 : compléter avec un verbe au présent",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l18.practice-6#1",
+      "type": "tip",
+      "title": "L'exercice 6 : un verbe à l'accusatif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne des phrases à compléter avec un verbe au présent. Ce verbe suit {ar|أَنْ} ou le {ar|لِ} de but : il est donc **à l'accusatif**. Le livre laisse le choix du verbe ; ici, la traduction l'impose."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le livre contient une septième phrase ({ar|يَا أَيُّهَا الْإِخْوَانُ، لَا تَخْرُجُوا مِنَ الْفَصْلِ قَبْلَ أَنْ}, suivie de points de suspension) dont le texte est incomplet dans le support : elle n'est pas reprise."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.practice-6#2",
+      "type": "fill_gap",
+      "sentence": "خَرَجَ الطُّلَّابُ مِنَ الْفُصُولِ {0} سَبَبَ الضَّوْضَاءِ.",
+      "fr": "Les étudiants sont sortis des classes pour connaître la cause du bruit.",
+      "gaps": [ { "answers": ["لِيَعْرِفُوا"] } ],
+      "options": ["لِيَعْرِفُوا", "لِتَعْرِفَ", "لِأَعْرِفَ"],
+      "explain": "Le sujet est {ar|الطُّلَّابُ} : {ar|لِيَعْرِفُوا} (le {ar|ن} de {ar|يَعْرِفُونَ} tombe après {ar|لِ}). {ar|سَبَبَ} est le complément d'objet."
+    },
+    {
+      "id": "medine-t2.l18.practice-6#3",
+      "type": "fill_gap",
+      "sentence": "مِنْ أَيِّ إِذَاعَةٍ تُرِيدُونَ أَنْ {0} الْأَخْبَارَ يَا إِخْوَانُ؟",
+      "fr": "De quelle radio voulez-vous écouter les informations, frères ?",
+      "gaps": [ { "answers": ["تَسْمَعُوا"] } ],
+      "options": ["تَسْمَعُوا", "تَسْمَعَ", "تَسْمَعْنَ"],
+      "explain": "On parle à plusieurs hommes ({ar|تُرِيدُونَ}) : {ar|تَسْمَعُوا}."
+    },
+    {
+      "id": "medine-t2.l18.practice-6#4",
+      "type": "order",
+      "fr": "Les nouvelles étudiantes sont sorties pour aller voir la directrice.",
+      "answers": [["خَرَجَتِ", "الطَّالِبَاتُ", "الْجُدُدُ", "لِيَذْهَبْنَ", "إِلَى", "الْمُدِيرَةِ"]],
+      "punctuation": ".",
+      "explain": "{ar|لِيَذْهَبْنَ} : le {ar|لِ} de but et le verbe des femmes, qui ne change pas."
+    },
+    {
+      "id": "medine-t2.l18.practice-6#5",
+      "type": "fill_gap",
+      "sentence": "يَا زَيْنَبُ، أَيُمْكِنُكِ أَنْ {0} هٰذَا الْعُنْوَانَ بِاللُّغَةِ الْفَرَنْسِيَّةِ؟",
+      "fr": "Zaynab, peux-tu écrire cette adresse en français ?",
+      "gaps": [ { "answers": ["تَكْتُبِي"] } ],
+      "options": ["تَكْتُبِي", "تَكْتُبَ", "تَكْتُبْنَ"],
+      "explain": "{ar|أَيُمْكِنُكِ} : on parle à une femme ({ar|كِ}) : le {ar|ن} de {ar|تَكْتُبِينَ} tombe."
+    },
+    {
+      "id": "medine-t2.l18.practice-6#6",
+      "type": "fill_gap",
+      "sentence": "جَاءَ هٰؤُلَاءِ الطُّلَّابُ إِلَى الْجَامِعَةِ الْإِسْلَامِيَّةِ مِنْ بِلَادٍ مُخْتَلِفَةٍ {0} اللُّغَةَ الْعَرَبِيَّةَ وَالْقُرْآنَ وَالْحَدِيثَ وَالْفِقْهَ وَالتَّوْحِيدَ.",
+      "fr": "Ces étudiants sont venus à l'université islamique de différents pays pour apprendre la langue arabe, le Coran, le hadith, le fiqh et le tawḥīd.",
+      "gaps": [ { "answers": ["لِيَتَعَلَّمُوا"] } ],
+      "options": ["لِيَتَعَلَّمُوا", "لِتَتَعَلَّمَ", "لِيَتَعَلَّمْنَ"],
+      "explain": "Le sujet est {ar|هٰؤُلَاءِ الطُّلَّابُ} : {ar|لِيَتَعَلَّمُوا}."
+    },
+    {
+      "id": "medine-t2.l18.practice-6#7",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans la phrase de l'université, {ar|لِيَتَعَلَّمُوا} est à l'accusatif : le {ar|ن} de {ar|يَتَعَلَّمُونَ} est tombé après le {ar|لِ} de but."
+      },
+      "answer": true,
+      "explain": "Oui : le {ar|لِ} de but met le verbe à l'accusatif, comme {ar|أَنْ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-6#8",
+      "type": "fill_gap",
+      "sentence": "أَتُرِدْنَ أَنْ {0} الْقَهْوَةَ يَا بَنَاتُ؟",
+      "fr": "Voulez-vous boire du café, mes filles ?",
+      "gaps": [ { "answers": ["تَشْرَبْنَ"] } ],
+      "options": ["تَشْرَبْنَ", "تَشْرَبُوا", "تَشْرَبِي"],
+      "explain": "On parle à plusieurs femmes ({ar|تُرِدْنَ}, {ar|يَا بَنَاتُ}) : {ar|تَشْرَبْنَ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-6#9",
+      "type": "fill_gap",
+      "sentence": "أَنْتِ خَرَجْتِ مِنَ الْفَصْلِ {0} الْمَاءَ. أَلَيْسَ كَذٰلِكَ؟",
+      "fr": "Tu es sortie de la classe pour boire de l'eau, n'est-ce pas ?",
+      "gaps": [ { "answers": ["لِتَشْرَبِي"] } ],
+      "options": ["لِتَشْرَبِي", "لِتَشْرَبَ", "لِأَشْرَبَ"],
+      "explain": "{ar|أَنْتِ} : une femme ; le {ar|ن} de {ar|تَشْرَبِينَ} tombe après le {ar|لِ} de but : {ar|لِتَشْرَبِي}."
+    },
+    {
+      "id": "medine-t2.l18.practice-6#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Tu es sortie de la classe pour boire de l'eau, n'est-ce pas ?",
+      "answers": [
+        "أَنْتِ خَرَجْتِ مِنَ الْفَصْلِ لِتَشْرَبِي الْمَاءَ. أَلَيْسَ كَذٰلِكَ؟",
+        "خَرَجْتِ مِنَ الْفَصْلِ لِتَشْرَبِي الْمَاءَ. أَلَيْسَ كَذٰلِكَ؟"
+      ],
+      "explain": "{ar|لِتَشْرَبِي} : à une femme, le {ar|ن} tombe. {ar|أَلَيْسَ كَذٰلِكَ؟} : « n'est-ce pas ? »."
+    },
+    {
+      "id": "medine-t2.l18.practice-6#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَ خَرَجَ الطُّلَّابُ مِنَ الْفُصُولِ؟",
+      "answers": ["خَرَجُوا لِيَعْرِفُوا سَبَبَ الضَّوْضَاءِ.", "لِيَعْرِفُوا سَبَبَ الضَّوْضَاءِ."],
+      "fr": "Ils sont sortis pour connaître la cause du bruit.",
+      "instruction": "Réponds en arabe : pour connaître la cause du bruit.",
+      "explain": "{ar|لِيَعْرِفُوا} : le {ar|لِ} de but et le verbe à l'accusatif."
+    }
+  ]
+}

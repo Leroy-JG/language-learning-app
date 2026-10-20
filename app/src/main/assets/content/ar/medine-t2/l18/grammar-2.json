@@ -1,0 +1,156 @@
+{
+  "id": "medine-t2.l18.grammar-2",
+  "type": "grammar",
+  "title": "Ce que {ar|كَ} ne fait pas",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l18.grammar-2#1",
+      "type": "tip",
+      "title": "Pas de pronom collé à {ar|كَ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les prépositions peuvent recevoir un pronom collé : {ar|مِنْ} + {ar|هُ} donne {ar|مِنْهُ}. Mais le professeur le précise : **le {ar|كَ} de comparaison ne s'emploie pas (en arabe standard) avec les pronoms collés** qui se mettent au génitif ({ar|الضَّمَائِرُ الْمُتَّصِلَةُ الْمَجْرُورَةُ}), à la différence de {ar|مِنْ}, {ar|فِي}, {ar|بِ}, {ar|لِ}."
+        },
+        {
+          "type": "table",
+          "header": ["Préposition", "avec « lui »", "Possible ?"],
+          "rows": [
+            ["{ar|مِنْ}", "{ar|مِنْهُ}", "oui"],
+            ["{ar|لِ}", "{ar|لَهُ}", "oui"],
+            ["{ar|فِي}", "{ar|فِيهِ}", "oui"],
+            ["{ar|بِ}", "{ar|بِهِ}", "oui"],
+            ["{ar|كَ}", "pas de forme avec {ar|هُ}", "non"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Le pronom peut quand même se coller au **nom** qui suit {ar|كَ} : dans {ar|كَعَادَتِهِ}, le {ar|هِ} (« son ») est collé à {ar|عَادَةٌ}, pas à {ar|كَ}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Pour dire « comme lui », « comme moi », l'arabe emploie un autre mot : {ar|مِثْلٌ} (« semblable à »), auquel on colle le pronom : {ar|هُوَ مِثْلِي} (« il est comme moi »), {ar|أَنَا مِثْلُهُ} (« je suis comme lui »). Rien n'est demandé sur ce mot aujourd'hui."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.grammar-2#2",
+      "type": "question",
+      "prompt": { "fr": "Laquelle de ces prépositions ne s'emploie pas avec un pronom collé ?" },
+      "choices": [ { "ar": "فِي" }, { "ar": "كَ" }, { "ar": "مِنْ" }, { "ar": "لِ" } ],
+      "answer": 1,
+      "explain": "{ar|فِي}, {ar|مِنْ} et {ar|لِ} reçoivent un pronom collé ({ar|فِيهِ}, {ar|مِنْهُ}, {ar|لَهُ}). Le {ar|كَ} de comparaison, non."
+    },
+    {
+      "id": "medine-t2.l18.grammar-2#3",
+      "type": "true_false",
+      "statement": { "fr": "Pour dire « comme lui », on colle le pronom {ar|هُ} directement à {ar|كَ}." },
+      "answer": false,
+      "explain": "Non : le {ar|كَ} de comparaison ne s'emploie pas avec un pronom collé. On emploie {ar|مِثْلُهُ}."
+    },
+    {
+      "id": "medine-t2.l18.grammar-2#4",
+      "type": "tip",
+      "title": "Le {ar|ك} du mot et le {ar|كَ} de comparaison",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Attention : beaucoup de mots commencent par la lettre {ar|ك} **sans** que ce soit le {ar|كَ} de comparaison : {ar|كِتَابٌ}, {ar|كَثِيرٌ}, {ar|كَيْفَ}, {ar|كَانَ}. Pour les distinguer, regarde ce qui suit la première lettre : après le {ar|كَ} de comparaison, il y a un nom **au génitif** (le plus souvent avec la kasra) qui existe seul."
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "Ce qui suit le {ar|ك}", "Le {ar|ك} compare ?"],
+          "rows": [
+            ["{ar|كَالْمَاءِ}", "{ar|الْمَاءِ} : un nom au génitif", "oui"],
+            ["{ar|كَعَالِمٍ}", "{ar|عَالِمٍ} : un nom au génitif", "oui"],
+            ["{ar|كِتَابٌ}", "pas un nom au génitif qui ait un sens", "non"],
+            ["{ar|كَيْفَ}", "pas un nom au génitif qui ait un sens", "non"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "La fatha ne suffit pas à reconnaître le {ar|كَ} de comparaison : {ar|كَثِيرٌ} et {ar|كَانَ} ont aussi une fatha. Ce sont le nom au génitif qui suit et le sens de la phrase qui décident."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.grammar-2#5",
+      "type": "sort",
+      "categories": [ { "fr": "le {ar|كَ} de comparaison" }, { "fr": "le {ar|ك} fait partie du mot" } ],
+      "cards": [
+        { "ar": "كَالْمَاءِ", "category": 0 },
+        { "ar": "كَعَالِمٍ", "category": 0 },
+        { "ar": "كَأَخِي", "category": 0 },
+        { "ar": "كَالْمَسْجِدِ", "category": 0 },
+        { "ar": "كِتَابٌ", "category": 1 },
+        { "ar": "كَثِيرٌ", "category": 1 },
+        { "ar": "كَيْفَ", "category": 1 },
+        { "ar": "كَانَ", "category": 1 }
+      ],
+      "instruction": "Dans chaque mot, la première lettre {ar|ك} compare-t-elle ?",
+      "explain": "Dans {ar|كَالْمَاءِ}, {ar|كَعَالِمٍ}, {ar|كَأَخِي} et {ar|كَالْمَسْجِدِ}, ce qui suit est un nom au génitif. Dans {ar|كِتَابٌ}, {ar|كَثِيرٌ}, {ar|كَيْفَ} et {ar|كَانَ}, le {ar|ك} est une lettre du mot."
+    },
+    {
+      "id": "medine-t2.l18.grammar-2#6",
+      "type": "tip",
+      "title": "Le {ar|كَ} se cache dans d'autres mots",
+      "blocks": [
+        { "type": "paragraph", "text": "Tu connais déjà deux mots où se cache le {ar|كَ} de comparaison :" },
+        {
+          "type": "breakdown",
+          "ar": "كَأَنَّ",
+          "fr": "comme si",
+          "parts": [ { "ar": "كَ", "fr": "comme" }, { "ar": "أَنَّ", "fr": "que" } ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "كَذٰلِكَ",
+          "fr": "ainsi, comme cela",
+          "parts": [ { "ar": "كَ", "fr": "comme" }, { "ar": "ذٰلِكَ", "fr": "cela" } ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le {ar|كَ} final de {ar|ذٰلِكَ} n'est pas le même : c'est la lettre qui s'adresse à « toi »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.grammar-2#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kadhalika",
+      "distractors": ["w:kaanna", "w:mundhu"],
+      "explain": "{ar|كَذٰلِكَ} : ainsi, de même (le {ar|كَ} de comparaison + {ar|ذٰلِكَ}). {ar|كَأَنَّ} : comme si ; {ar|مُنْذُ} : depuis."
+    },
+    {
+      "id": "medine-t2.l18.grammar-2#8",
+      "type": "spot",
+      "instruction": "Touche le mot qui contient le {ar|كَ} de comparaison.",
+      "words": ["كَثِيرٌ", "مِنَ", "الطُّلَّابِ", "يَدْرُسُونَ", "كَالْمُدَرِّسِ."],
+      "answers": [4],
+      "fr": "Beaucoup d'étudiants étudient comme le professeur.",
+      "explain": "{ar|كَثِيرٌ} commence aussi par {ar|ك}, mais c'est une lettre du mot. Le {ar|كَ} de comparaison est dans {ar|كَالْمُدَرِّسِ}."
+    },
+    {
+      "id": "medine-t2.l18.grammar-2#9",
+      "type": "order",
+      "fr": "Il étudie comme le professeur.",
+      "answers": [["هُوَ", "يَدْرُسُ", "كَالْمُدَرِّسِ"]],
+      "punctuation": ".",
+      "explain": "{ar|كَالْمُدَرِّسِ} : le {ar|كَ} se colle à {ar|الْمُدَرِّسِ}, au génitif."
+    },
+    {
+      "id": "medine-t2.l18.grammar-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elle est comme ma sœur.",
+      "answers": ["هِيَ كَأُخْتِي.", "هِيَ مِثْلُ أُخْتِي."],
+      "explain": "{ar|كَأُخْتِي} : le {ar|كَ} collé à {ar|أُخْتِي} (« ma sœur »)."
+    }
+  ]
+}

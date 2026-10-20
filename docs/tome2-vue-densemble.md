@@ -288,4 +288,10 @@ les chapitres suivants peuvent s'y appuyer (jamais `يَا أَيُّهَا`, ni
 Le cours 17 (un seul PDF de 31 pages) est publié : `docs/sources-t2-lecon-17.md`. Le support du professeur contient `إِعْرَابُ الْفِعْلِ الْمُضَارِعِ` (4ᵉ partie : `النَّوَاصِبُ`, `أَنْ النَّاصِبَةُ`, `لَامُ التَّعْلِيلِ`), le texte du livre (ʿAmmār qui sort de la classe, les vacances d'été), les exercices 1 à 14 (dont `يُمْكِنُ`, `مُنْذُ`, le présent de `رَأَى`, `أَرْجُو أَنْ تَسْمَحَ`), `مُنْذُ` et le vocabulaire nouveau (treize noms, `عُطْلَةٌ`, les saisons, six verbes).
 Le chapitre les réunit : `l17.revue-1` (rappel du présent à l'accusatif), `grammar-1` à `grammar-8`, `vocab-1` à `vocab-6`, `dialogue-1`, `dialogue-2`, `practice-1` à `practice-8`, `quiz`. **`أَنْ` + le présent, le `لِ` de but, `أَنْ` / `أَنَّ`, `يُمْكِنُ` + le pronom collé, `مُنْذُ` et le présent de `رَأَى` sont maintenant enseignés et exigés** ;
 les chapitres suivants peuvent s'y appuyer (jamais `أَنْ` inapparente, `كَيْ`, `حَتَّى`, `لَامُ الْأَمْرِ`, ni `مُذْ`, qui restent « pas encore enseignés »).
-La suite du plan (cours 18 : `كَافُ التَّشْبِيهِ`, `أَنْ` + `لَا` → `أَلَّا` ; cours 19 : `لَنْ`…) est à confirmer avec les PDF suivants.
+Le cours 18 du plan (`كَافُ التَّشْبِيهِ`, `أَنْ` + `لَا` → `أَلَّا`) a été publié ensuite (voir ci-dessous).
+
+## 24. Avancement : le chapitre 18 (`medine-t2.l18`)
+
+Le cours 18 (un seul PDF de 20 pages, un cours court) est publié : `docs/sources-t2-lecon-18.md`. Le support du professeur contient `كَافُ التَّشْبِيهِ` (le `كَ` de comparaison : une préposition, deux effets, pas de pronom collé), le texte du livre (Ḥāmid, sa femme Āmina, leurs fils et leurs filles, la visite à Salmā), les exercices 1 à 9, `أَنْ` + `لَا` = `أَلَّا` (`الْإِدْغَامُ`) et le vocabulaire nouveau (sept noms, deux verbes).
+Le chapitre les réunit : `l18.revue-1` (rappel de `أَنْ` et de l'accusatif), `grammar-1` à `grammar-4`, `vocab-1` à `vocab-3`, `dialogue-1`, `dialogue-2`, `practice-1` à `practice-7`, `quiz`. **Le `كَ` de comparaison et `أَلَّا` sont maintenant enseignés et exigés** ; les chapitres suivants peuvent s'y appuyer (jamais `مِثْلٌ` (cité en note), `لِئَلَّا`, ni `أَنْ لَا` écrit en deux mots, qui restent « pas encore enseignés »).
+La suite du plan (cours 19 : `لَنْ`…) est à confirmer avec les PDF suivants.

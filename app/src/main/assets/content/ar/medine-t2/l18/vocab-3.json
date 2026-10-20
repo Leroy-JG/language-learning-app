@@ -1,0 +1,107 @@
+{
+  "id": "medine-t2.l18.vocab-3",
+  "type": "vocabulary",
+  "title": "Visiter, unifier, venir, revenir, entrer",
+  "icon": "teacher",
+  "screens": [
+    { "id": "medine-t2.l18.vocab-3#1", "type": "present", "item": "p:aada-marid" },
+    { "id": "medine-t2.l18.vocab-3#2", "type": "present", "item": "w:wahhada" },
+    {
+      "id": "medine-t2.l18.vocab-3#3",
+      "type": "tip",
+      "title": "Les quatre formes de ces verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne les quatre formes de chaque verbe. Le nom d'action ({ar|الْمَصْدَرُ}) est la dernière colonne."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["rendre visite à un malade", "{ar|عَادَ}", "{ar|يَعُودُ}", "{ar|عُدْ}", "{ar|عِيَادَةً}"],
+            ["unifier", "{ar|وَحَّدَ}", "{ar|يُوَحِّدُ}", "{ar|وَحِّدْ}", "{ar|تَوْحِيدًا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le même verbe {ar|عَادَ} veut aussi dire « revenir » : {ar|يَعُودُ} et {ar|عُدْ} sont les mêmes ; seul le nom d'action change ({ar|عِيَادَةٌ} pour la visite)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|عِيَادَةٌ} s'écrit avec un {ar|ي}, et non un {ar|و} : le {ar|و} de {ar|يَعُودُ} devient {ar|ي} après la kasra."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.vocab-3#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:wahhada",
+      "distractors": ["w:zara", "w:samaha"],
+      "explain": "{ar|وَحَّدَ} : il a unifié. {ar|زَارَ} : il a visité ; {ar|سَمَحَ} : il a permis."
+    },
+    { "id": "medine-t2.l18.vocab-3#5", "type": "present", "item": "w:ata" },
+    { "id": "medine-t2.l18.vocab-3#6", "type": "present", "item": "w:ruju" },
+    {
+      "id": "medine-t2.l18.vocab-3#7",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ata",
+      "distractors": ["w:zara", "w:ruju"],
+      "explain": "{ar|أَتَى} : il est venu. {ar|زَارَ} : il a visité ; {ar|رُجُوعٌ} : un retour."
+    },
+    { "id": "medine-t2.l18.vocab-3#8", "type": "present", "item": "w:dukhul" },
+    {
+      "id": "medine-t2.l18.vocab-3#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:wahhada", "w:ata", "w:ruju", "w:dukhul"]
+    },
+    {
+      "id": "medine-t2.l18.vocab-3#10",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ إِلَى الْمَدْرَسَةِ أَمْسِ.",
+      "fr": "Zayd est venu à l'école hier.",
+      "gaps": [ { "answers": ["أَتَى"] } ],
+      "options": ["أَتَى", "وَحَّدَ", "زَارَ"],
+      "explain": "« Il est venu » : {ar|أَتَى}, suivi de {ar|إِلَى}. {ar|زَارَ} prend directement son complément (« il a visité »)."
+    },
+    {
+      "id": "medine-t2.l18.vocab-3#11",
+      "type": "fill_gap",
+      "sentence": "بَعْدَ {0} مِنَ الْمَدْرَسَةِ أَذْهَبُ إِلَى الْمَسْجِدِ.",
+      "fr": "Après mon retour de l'école, je vais à la mosquée.",
+      "gaps": [ { "answers": ["رُجُوعِي"] } ],
+      "options": ["رُجُوعِي", "دُخُولِي", "عِيَادَتِي"],
+      "explain": "« Mon retour » : {ar|رُجُوعِي}, le nom d'action de {ar|رَجَعَ} + {ar|ي} (« mon »)."
+    },
+    {
+      "id": "medine-t2.l18.vocab-3#12",
+      "type": "order",
+      "fr": "Le professeur n'autorise pas l'entrée en classe.",
+      "answers": [
+        ["لَا", "يَسْمَحُ", "الْمُدَرِّسُ", "بِدُخُولِ", "الْفَصْلِ"],
+        ["الْمُدَرِّسُ", "لَا", "يَسْمَحُ", "بِدُخُولِ", "الْفَصْلِ"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|سَمَحَ بِ} + un nom : « autoriser quelque chose ». {ar|دُخُولِ} et {ar|الْفَصْلِ} sont au génitif."
+    },
+    {
+      "id": "medine-t2.l18.vocab-3#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd a rendu visite au malade hier.",
+      "answers": [
+        "عَادَ زَيْدٌ الْمَرِيضَ أَمْسِ.",
+        "زَيْدٌ عَادَ الْمَرِيضَ أَمْسِ.",
+        "زَارَ زَيْدٌ الْمَرِيضَ أَمْسِ.",
+        "زَيْدٌ زَارَ الْمَرِيضَ أَمْسِ."
+      ],
+      "explain": "{ar|عَادَ} + le complément d'objet {ar|الْمَرِيضَ} : « il a rendu visite au malade » ({ar|زَارَ} convient aussi)."
+    },
+    { "id": "medine-t2.l18.vocab-3#14", "type": "typing", "ask": "fr", "item": "w:wahhada" }
+  ]
+}

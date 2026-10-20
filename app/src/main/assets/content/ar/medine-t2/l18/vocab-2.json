@@ -1,0 +1,61 @@
+{
+  "id": "medine-t2.l18.vocab-2",
+  "type": "vocabulary",
+  "title": "Vêtements, animaux et unicité",
+  "icon": "shirt",
+  "screens": [
+    { "id": "medine-t2.l18.vocab-2#1", "type": "present", "item": "w:malbas" },
+    { "id": "medine-t2.l18.vocab-2#2", "type": "present", "item": "w:hayawan" },
+    {
+      "id": "medine-t2.l18.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:malbas",
+      "distractors": ["w:hayawan", "w:ulba"],
+      "explain": "{ar|مَلْبَسٌ} : un vêtement. {ar|حَيَوَانٌ} : un animal ; {ar|عُلْبَةٌ} : une boîte."
+    },
+    { "id": "medine-t2.l18.vocab-2#4", "type": "present", "item": "w:tawhid" },
+    { "id": "medine-t2.l18.vocab-2#5", "type": "present", "item": "p:salat-maghrib" },
+    {
+      "id": "medine-t2.l18.vocab-2#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:malbas", "w:hayawan", "w:tawhid", "w:mathaf"]
+    },
+    {
+      "id": "medine-t2.l18.vocab-2#7",
+      "type": "fill_gap",
+      "sentence": "اِشْتَرَى زَيْدٌ {0} جَدِيدَةً.",
+      "fr": "Zayd a acheté de nouveaux vêtements.",
+      "gaps": [ { "answers": ["مَلَابِسَ"] } ],
+      "options": ["مَلَابِسَ", "عُلَبًا", "حَيَوَانَاتٍ"],
+      "explain": "« Des vêtements » : {ar|مَلَابِسَ}, pluriel de {ar|مَلْبَسٌ}, sans tanwin et à la fatha (complément d'objet)."
+    },
+    {
+      "id": "medine-t2.l18.vocab-2#8",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:malbas", "w:hayawan", "w:mathaf", "w:ulba"]
+    },
+    { "id": "medine-t2.l18.vocab-2#9", "type": "build", "item": "w:mathaf", "extra": ["ط"] },
+    {
+      "id": "medine-t2.l18.vocab-2#10",
+      "type": "true_false",
+      "statement": {
+        "ar": "صَلَاةُ الْمَغْرِبِ بَعْدَ صَلَاةِ الْعَصْرِ.",
+        "fr": "La prière du maghrib vient après la prière de l'après-midi."
+      },
+      "answer": true,
+      "explain": "Oui : {ar|الْعَصْرُ} est la troisième prière du jour, {ar|الْمَغْرِبُ} la quatrième."
+    },
+    {
+      "id": "medine-t2.l18.vocab-2#11",
+      "type": "order",
+      "fr": "Je rentre avant la prière du maghrib.",
+      "answers": [["أَرْجِعُ", "قَبْلَ", "صَلَاةِ", "الْمَغْرِبِ"]],
+      "punctuation": ".",
+      "explain": "{ar|قَبْلَ} est suivi de deux noms au génitif : {ar|صَلَاةِ الْمَغْرِبِ}."
+    },
+    { "id": "medine-t2.l18.vocab-2#12", "type": "typing", "ask": "fr", "item": "w:hayawan" }
+  ]
+}

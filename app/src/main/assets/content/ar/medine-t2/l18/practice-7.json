@@ -1,0 +1,142 @@
+{
+  "id": "medine-t2.l18.practice-7",
+  "type": "grammar",
+  "title": "Exercices 8 et 9 : {ar|أَلَّا} et {ar|كَ}",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l18.practice-7#1",
+      "type": "tip",
+      "title": "L'exercice 8 : {ar|أَنْ} + {ar|لَا}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre rappelle que {ar|أَلَّا} vaut {ar|أَنْ} + {ar|لَا}, et donne deux paires de phrases :"
+        },
+        {
+          "type": "table",
+          "header": ["Avec {ar|أَنْ}", "Avec {ar|أَلَّا}"],
+          "rows": [
+            ["{ar|أَرْجُو أَنْ تَدْخُلَ}", "{ar|أَرْجُو أَلَّا تَدْخُلَ}"],
+            ["{ar|أَرْجُو أَنْ تَجْلِسَ هُنَا}", "{ar|أَرْجُو أَلَّا تَجْلِسَ هُنَا}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.practice-7#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَرْجُو أَنْ تَدْخُلَ.",
+      "answers": ["أَرْجُو أَلَّا تَدْخُلَ."],
+      "fr": "Je te prie de ne pas entrer.",
+      "instruction": "Écris cette phrase avec {ar|أَلَّا} : « je te prie de ne pas entrer ».",
+      "explain": "{ar|أَنْ} + {ar|لَا} = {ar|أَلَّا} : {ar|أَرْجُو أَلَّا تَدْخُلَ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-7#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَرْجُو أَنْ تَجْلِسَ هُنَا.",
+      "answers": ["أَرْجُو أَلَّا تَجْلِسَ هُنَا."],
+      "fr": "Je te prie de ne pas t'asseoir ici.",
+      "instruction": "Écris cette phrase avec {ar|أَلَّا} : « je te prie de ne pas t'asseoir ici ».",
+      "explain": "{ar|أَلَّا تَجْلِسَ} : le verbe garde la fatha."
+    },
+    {
+      "id": "medine-t2.l18.practice-7#4",
+      "type": "order",
+      "fr": "Je te prie de ne pas t'asseoir ici.",
+      "answers": [["أَرْجُو", "أَلَّا", "تَجْلِسَ", "هُنَا"]],
+      "punctuation": ".",
+      "explain": "{ar|أَلَّا} : un seul mot, avec la shadda."
+    },
+    {
+      "id": "medine-t2.l18.practice-7#5",
+      "type": "spot",
+      "instruction": "Touche le mot qui est la contraction de {ar|أَنْ} et {ar|لَا}.",
+      "words": ["أَرْجُو", "أَلَّا", "تَأْخُذْنَ", "هٰذِهِ", "الْأَشْيَاءَ."],
+      "answers": [1],
+      "fr": "Je vous prie de ne pas prendre ces choses.",
+      "explain": "{ar|أَلَّا} = {ar|أَنْ} + {ar|لَا}."
+    },
+    {
+      "id": "medine-t2.l18.practice-7#6",
+      "type": "tip",
+      "title": "L'exercice 9 : le {ar|كَ} est une préposition",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre dit : {ar|كَ} est une particule parmi les prépositions ({ar|حَرْفٌ مِنْ حُرُوفِ الْجَرِّ}), et donne deux phrases :"
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            ["{ar|هٰذِهِ الْمَدْرَسَةُ كَالْمَسْجِدِ}", "Cette école est comme la mosquée."],
+            ["{ar|هٰذِهِ الْقَهْوَةُ كَالْمَاءِ}", "Ce café est comme l'eau."]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans les deux phrases, le nom après {ar|كَ} est au génitif, avec la kasra : {ar|الْمَسْجِدِ}, {ar|الْمَاءِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.practice-7#7",
+      "type": "question",
+      "prompt": { "fr": "Comment le professeur analyse-t-il {ar|الْمَاءِ} dans {ar|هٰذِهِ الْقَهْوَةُ كَالْمَاءِ} ?" },
+      "choices": [
+        { "ar": "اِسْمٌ مَجْرُورٌ وَعَلَامَةُ جَرِّهِ الْكَسْرَةُ" },
+        { "ar": "اِسْمٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الضَّمَّةُ" },
+        { "ar": "اِسْمٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ الْفَتْحَةُ" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|كَ}, le nom est {ar|مَجْرُورٌ} (au génitif), et sa marque est {ar|الْكَسْرَةُ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-7#8",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ الْمَدْرَسَةُ {0}.",
+      "fr": "Cette école est comme la mosquée.",
+      "gaps": [ { "answers": ["كَالْمَسْجِدِ"] } ],
+      "options": ["كَالْمَسْجِدِ", "لِلْمَسْجِدِ", "مِنَ الْمَسْجِدِ"],
+      "explain": "« Comme la mosquée » : {ar|كَالْمَسْجِدِ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-7#9",
+      "type": "spot",
+      "instruction": "Touche le nom qui est au génitif à cause de {ar|كَ}.",
+      "words": ["هٰذِهِ", "الْقَهْوَةُ", "كَالْمَاءِ."],
+      "answers": [2],
+      "fr": "Ce café est comme l'eau.",
+      "explain": "{ar|كَالْمَاءِ} : le nom {ar|الْمَاءِ} est au génitif après {ar|كَ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-7#10",
+      "type": "order",
+      "fr": "Ce café est comme l'eau.",
+      "answers": [["هٰذِهِ", "الْقَهْوَةُ", "كَالْمَاءِ"]],
+      "punctuation": ".",
+      "explain": "{ar|كَالْمَاءِ} : le {ar|كَ} est collé à {ar|الْمَاءِ}."
+    },
+    {
+      "id": "medine-t2.l18.practice-7#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Cette école est comme la mosquée.",
+      "answers": ["هٰذِهِ الْمَدْرَسَةُ كَالْمَسْجِدِ.", "هٰذِهِ الْمَدْرَسَةُ مِثْلُ الْمَسْجِدِ."],
+      "explain": "{ar|كَالْمَسْجِدِ} : {ar|كَ} + {ar|الْمَسْجِدِ} au génitif."
+    },
+    {
+      "id": "medine-t2.l18.practice-7#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ce café est comme l'eau.",
+      "answers": ["هٰذِهِ الْقَهْوَةُ كَالْمَاءِ.", "هٰذِهِ الْقَهْوَةُ مِثْلُ الْمَاءِ."],
+      "explain": "{ar|كَالْمَاءِ} : {ar|كَ} + {ar|الْمَاءِ} au génitif."
+    }
+  ]
+}

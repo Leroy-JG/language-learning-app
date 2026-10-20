@@ -1,0 +1,170 @@
+[
+  {
+    "id": "w:kaf-tashbih",
+    "kind": "word",
+    "ar": "كَافُ التَّشْبِيهِ",
+    "fr": "le {ar|كَ} de comparaison (la lettre {ar|كَ} qui veut dire « comme »)",
+    "translit": "kāfu t-tashbīhi",
+    "note": "C'est la lettre {ar|كَ} collée devant un nom pour le comparer à un autre. Le professeur la range parmi les prépositions ({ar|حُرُوفُ الْجَرِّ}) : elle met le nom au génitif. Elle se traduit par « comme ». {ar|التَّشْبِيهُ} est « la comparaison » (tome 2, chapitre 4).",
+    "example": { "ar": "زَيْدٌ كَعَالِمٍ.", "fr": "Zayd est comme un savant." }
+  },
+  {
+    "id": "w:idgham",
+    "kind": "word",
+    "ar": "الْإِدْغَامُ",
+    "fr": "la contraction de deux lettres en une seule lettre doublée (l'idghām)",
+    "translit": "al-idghāmu",
+    "gender": "m",
+    "note": "Quand deux lettres se suivent et se fondent, elles n'en forment plus qu'une, marquée de la shadda. Dans {ar|أَنْ} + {ar|لَا} = {ar|أَلَّا}, le {ar|ن} de {ar|أَنْ} et le {ar|ل} de {ar|لَا} se contractent.",
+    "example": { "ar": "أَرْجُو أَلَّا تَدْخُلَ.", "fr": "Je te prie de ne pas entrer." }
+  },
+  {
+    "id": "w:alla",
+    "kind": "word",
+    "ar": "أَلَّا",
+    "fr": "de ne pas (le {ar|أَنْ} suivi de {ar|لَا})",
+    "translit": "allā",
+    "note": "C'est {ar|أَنْ} + {ar|لَا} en un seul mot, avec une shadda sur le {ar|ل}. Le verbe qui suit est à l'accusatif, comme après {ar|أَنْ}. Ne la confonds pas avec {ar|أَلَا} (chapitre 15), formé de {ar|أَ} (la question) et de {ar|لَا} : {ar|أَلَا تَدْخُلُ؟} (« n'entres-tu pas ? »).",
+    "example": { "ar": "أَرْجُو أَلَّا تَجْلِسَ هُنَا.", "fr": "Je te prie de ne pas t'asseoir ici." }
+  },
+  {
+    "id": "w:adat",
+    "kind": "word",
+    "ar": "عَادَةٌ",
+    "fr": "une habitude",
+    "translit": "ʿādatun",
+    "plural": "عَادَاتٌ",
+    "gender": "f",
+    "note": "Le {ar|ة} devient {ar|ت} devant un pronom collé : {ar|عَادَتُهُ} (« son habitude »), {ar|كَعَادَتِهِ} (« comme à son habitude »).",
+    "example": { "ar": "زَيْدٌ فِي الْمَسْجِدِ كَعَادَتِهِ.", "fr": "Zayd est à la mosquée, comme à son habitude." }
+  },
+  {
+    "id": "w:mathaf",
+    "kind": "word",
+    "ar": "مُتْحَفٌ",
+    "fr": "un musée",
+    "translit": "mutḥafun",
+    "plural": "مَتَاحِفُ",
+    "gender": "m",
+    "note": "Le pluriel {ar|مَتَاحِفُ} n'a pas de tanwin (comme {ar|مَسَاجِدُ}).",
+    "example": { "ar": "زَارَ زَيْدٌ الْمُتْحَفَ.", "fr": "Zayd a visité le musée." }
+  },
+  {
+    "id": "w:iyada",
+    "kind": "word",
+    "ar": "عِيَادَةٌ",
+    "fr": "une visite (rendue à un malade)",
+    "translit": "ʿiyādatun",
+    "gender": "f",
+    "note": "On dit {ar|عِيَادَةُ الْمَرِيضِ} (« la visite au malade »). Le mot s'écrit avec un {ar|ي}. En arabe moderne, il désigne aussi le cabinet d'un médecin. {ar|سُنَّةٌ} : ici, un acte recommandé, conforme à l'exemple du Prophète ﷺ.",
+    "example": { "ar": "عِيَادَةُ الْمَرِيضِ سُنَّةٌ.", "fr": "Rendre visite à un malade est une sunna (un acte recommandé)." }
+  },
+  {
+    "id": "w:ulba",
+    "kind": "word",
+    "ar": "عُلْبَةٌ",
+    "fr": "une boîte",
+    "translit": "ʿulbatun",
+    "plural": "عُلَبٌ",
+    "gender": "f",
+    "note": "{ar|عُلْبَةُ الْحَلْوَى} : « la boîte de sucreries ».",
+    "example": { "ar": "فِي الْعُلْبَةِ طَعَامٌ.", "fr": "Il y a de la nourriture dans la boîte." }
+  },
+  {
+    "id": "w:malbas",
+    "kind": "word",
+    "ar": "مَلْبَسٌ",
+    "fr": "un vêtement",
+    "translit": "malbasun",
+    "plural": "مَلَابِسُ",
+    "gender": "m",
+    "note": "Le pluriel {ar|مَلَابِسُ} n'a pas de tanwin (comme {ar|مَسَاجِدُ}). Dans l'exemple du professeur, c'est le pluriel qui est employé.",
+    "example": { "ar": "اِشْتَرَى زَيْدٌ مَلَابِسَ جَدِيدَةً.", "fr": "Zayd a acheté de nouveaux vêtements." }
+  },
+  {
+    "id": "w:hayawan",
+    "kind": "word",
+    "ar": "حَيَوَانٌ",
+    "fr": "un animal",
+    "translit": "ḥayawānun",
+    "plural": "حَيَوَانَاتٌ",
+    "gender": "m",
+    "note": "{ar|حَدِيقَةُ الْحَيَوَانِ} (littéralement « le jardin de l'animal ») est le zoo ; on dit aussi {ar|حَدِيقَةُ الْحَيَوَانَاتِ}.",
+    "example": { "ar": "حَدِيقَةُ الْحَيَوَانِ.", "fr": "Le zoo." }
+  },
+  {
+    "id": "w:tawhid",
+    "kind": "word",
+    "ar": "تَوْحِيدٌ",
+    "fr": "l'unicité (de Dieu), le tawḥīd",
+    "translit": "tawḥīdun",
+    "gender": "m",
+    "note": "C'est le nom d'action de {ar|وَحَّدَ} (« unifier ») ; en religion, la croyance en l'unicité de Dieu. {ar|ضِدٌّ} : « le contraire » ; {ar|الشِّرْكُ} : le fait d'associer d'autres dieux à Dieu.",
+    "example": {
+      "ar": "التَّوْحِيدُ ضِدُّ الشِّرْكِ.",
+      "fr": "Le tawḥīd (l'unicité de Dieu) est le contraire du shirk (associer d'autres dieux à Dieu)."
+    }
+  },
+  {
+    "id": "p:salat-maghrib",
+    "kind": "phrase",
+    "ar": "صَلَاةُ الْمَغْرِبِ",
+    "fr": "la prière du coucher du soleil (le maghrib)",
+    "translit": "ṣalātu l-maghribi",
+    "note": "{ar|الْمَغْرِبُ} veut dire « le coucher du soleil » (et aussi « l'Occident »). C'est la quatrième des cinq prières du jour, juste après {ar|صَلَاةُ الْعَصْرِ}.",
+    "example": { "ar": "أَرْجِعُ قَبْلَ صَلَاةِ الْمَغْرِبِ.", "fr": "Je rentre avant la prière du maghrib." }
+  },
+  {
+    "id": "p:aada-marid",
+    "kind": "phrase",
+    "ar": "عَادَ الْمَرِيضَ",
+    "fr": "il a rendu visite au malade",
+    "translit": "ʿāda l-marīḍa",
+    "note": "Le même verbe {ar|عَادَ} veut aussi dire « revenir » (chapitre 9) ; avec un complément d'objet, il veut dire « rendre visite à un malade ». Au présent : {ar|يَعُودُ}.",
+    "example": { "ar": "عَادَ زَيْدٌ الْمَرِيضَ أَمْسِ.", "fr": "Zayd a rendu visite au malade hier." }
+  },
+  {
+    "id": "w:wahhada",
+    "kind": "word",
+    "ar": "وَحَّدَ",
+    "fr": "il a unifié (unifier)",
+    "translit": "waḥḥada",
+    "note": "Au présent, la lettre du présent prend une damma : {ar|يُوَحِّدُ}. Employé pour Dieu, il veut dire « proclamer son unicité ».",
+    "example": { "ar": "الْمُسْلِمُ يُوَحِّدُ اللَّهَ.", "fr": "Le musulman proclame l'unicité de Dieu." }
+  },
+  {
+    "id": "w:ata",
+    "kind": "word",
+    "ar": "أَتَى",
+    "fr": "il est venu (venir)",
+    "translit": "ʾatā",
+    "note": "Tu connais déjà {ar|جَاءَ}, qui veut dire « venir » aussi. Au présent : {ar|يَأْتِي} ; au pluriel masculin, {ar|يَأْتُونَ} (comme {ar|يَمْشُونَ}, chapitre 13), et après {ar|أَنْ} : {ar|أَنْ يَأْتُوا}.",
+    "example": { "ar": "أَتَى زَيْدٌ إِلَى الْمَدْرَسَةِ.", "fr": "Zayd est venu à l'école." }
+  },
+  {
+    "id": "w:ruju",
+    "kind": "word",
+    "ar": "رُجُوعٌ",
+    "fr": "un retour (le fait de revenir)",
+    "translit": "rujūʿun",
+    "gender": "m",
+    "note": "C'est le nom d'action de {ar|رَجَعَ}.",
+    "example": {
+      "ar": "بَعْدَ رُجُوعِي مِنَ الْمَدْرَسَةِ أَذْهَبُ إِلَى الْمَسْجِدِ.",
+      "fr": "Après mon retour de l'école, je vais à la mosquée."
+    }
+  },
+  {
+    "id": "w:dukhul",
+    "kind": "word",
+    "ar": "دُخُولٌ",
+    "fr": "une entrée (le fait d'entrer)",
+    "translit": "dukhūlun",
+    "gender": "m",
+    "note": "C'est le nom d'action de {ar|دَخَلَ}. Avec {ar|سَمَحَ} : {ar|سَمَحَ بِدُخُولِ} (« il a autorisé l'entrée de »).",
+    "example": {
+      "ar": "لَا يَسْمَحُ الْمُدَرِّسُ بِدُخُولِ الْفَصْلِ.",
+      "fr": "Le professeur n'autorise pas l'entrée en classe."
+    }
+  }
+]

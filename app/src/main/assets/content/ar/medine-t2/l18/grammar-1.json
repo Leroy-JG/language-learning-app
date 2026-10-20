@@ -1,0 +1,153 @@
+{
+  "id": "medine-t2.l18.grammar-1",
+  "type": "grammar",
+  "title": "Comparer avec {ar|كَ}",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l18.grammar-1#1",
+      "type": "tip",
+      "title": "Une petite lettre qui compare",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "En arabe, une lettre peut se coller devant un nom pour le **comparer** à un autre : c'est la lettre {ar|كَ}. Le professeur l'appelle {ar|كَافُ التَّشْبِيهِ}, « le {ar|كَ} de la comparaison » ({ar|التَّشْبِيهُ} : « la comparaison », tome 2, chapitre 4)."
+        },
+        { "type": "paragraph", "text": "Elle se traduit par « **comme** »." },
+        { "type": "example", "ar": "زَيْدٌ كَعَالِمٍ.", "fr": "Zayd est comme un savant." },
+        { "type": "example", "ar": "زَيْدٌ يَدْرُسُ كَعَادَتِهِ.", "fr": "Zayd étudie comme à son habitude." },
+        {
+          "type": "note",
+          "text": "Le {ar|كَ} s'écrit collé au nom qui le suit, comme {ar|وَ} ou {ar|بِ} : {ar|كَعَالِمٍ} est un seul bloc à l'écriture."
+        }
+      ]
+    },
+    { "id": "medine-t2.l18.grammar-1#2", "type": "present", "item": "w:kaf-tashbih" },
+    {
+      "id": "medine-t2.l18.grammar-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kaf-tashbih",
+      "distractors": ["w:tashbih", "w:lam-taalil"],
+      "explain": "{ar|كَافُ التَّشْبِيهِ} : le {ar|كَ} de comparaison. {ar|التَّشْبِيهُ} est « la comparaison » ; {ar|لَامُ التَّعْلِيلِ} est le {ar|لِ} de but."
+    },
+    {
+      "id": "medine-t2.l18.grammar-1#4",
+      "type": "tip",
+      "title": "Deux effets",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le {ar|كَ} fait partie des prépositions ({ar|حُرُوفُ الْجَرِّ}), comme {ar|بِ}, {ar|لِ}, {ar|مِنْ} ou {ar|فِي}. Comme elles, il agit sur le nom de **deux** manières :"
+        },
+        {
+          "type": "paragraph",
+          "text": "**1.** il met le nom au **génitif** ({ar|مَجْرُورٌ}) ; **2.** il exprime la **comparaison** entre deux noms."
+        },
+        { "type": "example", "ar": "زَيْدٌ كَعَالِمٍ.", "fr": "Zayd est comme un savant." },
+        {
+          "type": "note",
+          "text": "{ar|عَالِمٍ} : {ar|اِسْمٌ مَجْرُورٌ وَعَلَامَةُ جَرِّهِ الْكَسْرَةُ} (un nom au génitif, dont la marque est la kasra)."
+        },
+        { "type": "example", "ar": "زَيْدٌ يَدْرُسُ كَعَادَتِهِ.", "fr": "Zayd étudie comme à son habitude." },
+        {
+          "type": "note",
+          "text": "{ar|عَادَتِهِ} : {ar|اِسْمٌ مَجْرُورٌ وَعَلَامَةُ جَرِّهِ الْكَسْرَةُ}. C'est l'analyse que donne le professeur dans les deux cas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.grammar-1#5",
+      "type": "question",
+      "prompt": { "fr": "Que fait la lettre {ar|كَ} dans {ar|زَيْدٌ كَعَالِمٍ} ?" },
+      "choices": [
+        { "fr": "Elle compare Zayd à un savant et met {ar|عَالِمٍ} au génitif" },
+        { "fr": "Elle nie la phrase : Zayd n'est pas un savant" },
+        { "fr": "Elle dit le but : Zayd fait quelque chose pour devenir savant" }
+      ],
+      "answer": 0,
+      "explain": "{ar|كَ} compare ({ar|زَيْدٌ كَعَالِمٍ} : « Zayd est comme un savant ») et met le nom suivant au génitif."
+    },
+    {
+      "id": "medine-t2.l18.grammar-1#6",
+      "type": "tip",
+      "title": "Le nom change de voyelle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Après {ar|كَ}, le nom prend la marque du génitif : le plus souvent la kasra (ou la double kasra du tanwin). Les noms de forme longue comme {ar|مَسَاجِدُ}, quand ils n'ont ni article ni complément de nom, n'ont pas de tanwin et prennent une fatha : {ar|كَمَسَاجِدَ}. Le {ar|كَ} garde, lui, toujours sa fatha."
+        },
+        {
+          "type": "compare",
+          "title": "Après {ar|كَ}, le génitif",
+          "rows": [
+            { "from": { "ar": "عَالِمٌ", "fr": "un savant" }, "to": { "ar": "كَعَالِمٍ", "fr": "comme un savant" } },
+            {
+              "from": { "ar": "الْمَسْجِدُ", "fr": "la mosquée" },
+              "to": { "ar": "كَالْمَسْجِدِ", "fr": "comme la mosquée" }
+            },
+            { "from": { "ar": "الْمَاءُ", "fr": "l'eau" }, "to": { "ar": "كَالْمَاءِ", "fr": "comme l'eau" } }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Devant l'article, le {ar|كَ} se colle : {ar|كَالْمَسْجِدِ}. L'alif de l'article reste écrit, mais on ne le prononce pas : on lit « kal-masjidi »."
+        },
+        {
+          "type": "breakdown",
+          "ar": "كَعَالِمٍ",
+          "fr": "comme un savant",
+          "parts": [ { "ar": "كَ", "fr": "comme" }, { "ar": "عَالِمٍ", "fr": "un savant" } ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "كَعَادَتِهِ",
+          "fr": "comme à son habitude",
+          "parts": [ { "ar": "كَ", "fr": "comme" }, { "ar": "عَادَتِ", "fr": "habitude" }, { "ar": "هِ", "fr": "son" } ]
+        },
+        {
+          "type": "note",
+          "text": "Dans {ar|كَعَادَتِهِ}, le {ar|ة} de {ar|عَادَةٌ} devient {ar|ت} devant le pronom collé {ar|هِ} (« son »)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l18.grammar-1#7",
+      "type": "fill_gap",
+      "sentence": "هٰذَا الْبَيْتُ {0}.",
+      "fr": "Cette maison est comme la mosquée.",
+      "gaps": [ { "answers": ["كَالْمَسْجِدِ"] } ],
+      "options": ["كَالْمَسْجِدِ", "لِلْمَسْجِدِ", "فِي الْمَسْجِدِ"],
+      "explain": "« Comme la mosquée » : {ar|كَالْمَسْجِدِ}. {ar|لِلْمَسْجِدِ} voudrait dire « appartenant à la mosquée » ; {ar|فِي الْمَسْجِدِ}, « dans la mosquée »."
+    },
+    {
+      "id": "medine-t2.l18.grammar-1#8",
+      "type": "order",
+      "fr": "Elle étudie à l'école comme ma sœur.",
+      "answers": [
+        ["هِيَ", "تَدْرُسُ", "فِي", "الْمَدْرَسَةِ", "كَأُخْتِي"],
+        ["هِيَ", "تَدْرُسُ", "كَأُخْتِي", "فِي", "الْمَدْرَسَةِ"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|كَأُخْتِي} : le {ar|كَ} est collé au nom {ar|أُخْتِي} (« ma sœur »), qui est au génitif."
+    },
+    {
+      "id": "medine-t2.l18.grammar-1#9",
+      "type": "spot",
+      "instruction": "Touche le mot qui contient le {ar|كَ} de comparaison.",
+      "words": ["أَخِي", "يَدْرُسُ", "كَالْمُدَرِّسِ."],
+      "answers": [2],
+      "fr": "Mon frère étudie comme le professeur.",
+      "explain": "{ar|كَالْمُدَرِّسِ} : « comme le professeur », avec le nom au génitif."
+    },
+    {
+      "id": "medine-t2.l18.grammar-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd est comme mon frère.",
+      "answers": ["زَيْدٌ كَأَخِي."],
+      "explain": "{ar|كَأَخِي} : le {ar|كَ} collé à {ar|أَخٌ} + {ar|ي} (« mon »), au génitif."
+    }
+  ]
+}

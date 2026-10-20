@@ -1,0 +1,188 @@
+{
+  "id": "medine-t2.l18.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l18.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kaf-tashbih",
+      "distractors": ["w:lam-taalil", "w:an-nasiba"],
+      "explain": "{ar|كَافُ التَّشْبِيهِ} : le {ar|كَ} de comparaison. {ar|لَامُ التَّعْلِيلِ} : le {ar|لِ} de but ; {ar|أَنْ النَّاصِبَةُ} : le {ar|أَنْ} de l'accusatif."
+    },
+    {
+      "id": "medine-t2.l18.quiz#2",
+      "type": "question",
+      "prompt": { "fr": "Quelle marque prend le nom qui suit le {ar|كَ} de comparaison ?" },
+      "choices": [
+        { "fr": "Le génitif (le plus souvent la kasra)" },
+        { "fr": "L'accusatif (la fatha)" },
+        { "fr": "Le nominatif (la damma)" }
+      ],
+      "answer": 0,
+      "explain": "{ar|كَ} est une préposition : le nom qui la suit est {ar|مَجْرُورٌ} (au génitif)."
+    },
+    {
+      "id": "medine-t2.l18.quiz#3",
+      "type": "fill_gap",
+      "sentence": "هُوَ يَدْرُسُ {0}.",
+      "fr": "Il étudie comme le professeur.",
+      "gaps": [ { "answers": ["كَالْمُدَرِّسِ"] } ],
+      "options": ["كَالْمُدَرِّسِ", "لِلْمُدَرِّسِ", "مِنَ الْمُدَرِّسِ"],
+      "explain": "« Comme le professeur » : {ar|كَالْمُدَرِّسِ}."
+    },
+    {
+      "id": "medine-t2.l18.quiz#4",
+      "type": "sort",
+      "categories": [ { "fr": "le {ar|كَ} de comparaison" }, { "fr": "le {ar|ك} fait partie du mot" } ],
+      "cards": [
+        { "ar": "كَالْمَاءِ", "category": 0 },
+        { "ar": "كَعَالِمٍ", "category": 0 },
+        { "ar": "كَأَخِي", "category": 0 },
+        { "ar": "كِتَابٌ", "category": 1 },
+        { "ar": "كَثِيرٌ", "category": 1 },
+        { "ar": "كَيْفَ", "category": 1 }
+      ],
+      "instruction": "Dans chaque mot, la première lettre {ar|ك} compare-t-elle ?",
+      "explain": "Dans {ar|كَالْمَاءِ}, {ar|كَعَالِمٍ} et {ar|كَأَخِي}, ce qui suit est un nom au génitif. Dans {ar|كِتَابٌ}, {ar|كَثِيرٌ} et {ar|كَيْفَ}, le {ar|ك} est une lettre du mot."
+    },
+    {
+      "id": "medine-t2.l18.quiz#5",
+      "type": "true_false",
+      "statement": {
+        "fr": "On peut coller le pronom {ar|هُ} directement à {ar|كَ}, comme on colle {ar|هُ} à {ar|مِنْ} pour faire {ar|مِنْهُ}."
+      },
+      "answer": false,
+      "explain": "Non : le {ar|كَ} de comparaison ne s'emploie pas (en arabe standard) avec un pronom collé, à la différence de {ar|مِنْ}, {ar|فِي}, {ar|بِ}, {ar|لِ}."
+    },
+    {
+      "id": "medine-t2.l18.quiz#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:alla",
+      "distractors": ["w:an-nasiba", "w:idgham"],
+      "explain": "{ar|أَلَّا} : « de ne pas » ({ar|أَنْ} + {ar|لَا}). {ar|الْإِدْغَامُ} est le nom de la contraction."
+    },
+    {
+      "id": "medine-t2.l18.quiz#7",
+      "type": "question",
+      "prompt": { "fr": "Que devient {ar|أَنْ} suivi de {ar|لَا} ?" },
+      "choices": [ { "ar": "أَلَّا" }, { "ar": "لِأَنَّ" }, { "ar": "لَنْ" } ],
+      "answer": 0,
+      "explain": "Le {ar|ن} de {ar|أَنْ} et le {ar|ل} de {ar|لَا} se contractent : {ar|أَلَّا}."
+    },
+    {
+      "id": "medine-t2.l18.quiz#8",
+      "type": "fill_gap",
+      "sentence": "أَرْجُو {0} تَخْرُجَ مِنَ الْفَصْلِ.",
+      "fr": "Je te prie de ne pas sortir de la classe.",
+      "gaps": [ { "answers": ["أَلَّا"] } ],
+      "options": ["أَلَّا", "أَنْ", "لَنْ"],
+      "explain": "« De ne pas » : {ar|أَلَّا}. {ar|أَنْ} seul voudrait dire « de sortir »."
+    },
+    {
+      "id": "medine-t2.l18.quiz#9",
+      "type": "order",
+      "fr": "Je vous prie de ne pas entrer (à des hommes).",
+      "answers": [["أَرْجُو", "أَلَّا", "تَدْخُلُوا"]],
+      "punctuation": ".",
+      "explain": "Après {ar|أَلَّا}, le {ar|ن} de {ar|تَدْخُلُونَ} tombe."
+    },
+    {
+      "id": "medine-t2.l18.quiz#10",
+      "type": "spot",
+      "instruction": "Touche le verbe qui est à l'accusatif.",
+      "words": ["أَيْنَ", "تُرِيدُونَ", "أَنْ", "تَذْهَبُوا", "الْآنَ؟"],
+      "answers": [3],
+      "fr": "Où voulez-vous aller maintenant ?",
+      "explain": "{ar|تُرِيدُونَ} garde son {ar|ن}. {ar|تَذْهَبُوا}, après {ar|أَنْ}, l'a perdu."
+    },
+    {
+      "id": "medine-t2.l18.quiz#11",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:adat",
+      "distractors": ["w:mathaf", "w:ulba"],
+      "explain": "{ar|عَادَةٌ} : une habitude. {ar|مُتْحَفٌ} : un musée ; {ar|عُلْبَةٌ} : une boîte."
+    },
+    {
+      "id": "medine-t2.l18.quiz#12",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:malbas", "w:hayawan", "w:iyada", "w:tawhid"]
+    },
+    {
+      "id": "medine-t2.l18.quiz#13",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|عِيَادَةُ الْمَرِيضِ} ?" },
+      "choices": [ { "fr": "La visite au malade" }, { "fr": "Le médicament du malade" }, { "fr": "Le repas du malade" } ],
+      "answer": 0,
+      "explain": "{ar|عِيَادَةٌ} : une visite rendue à un malade."
+    },
+    {
+      "id": "medine-t2.l18.quiz#14",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|أَرْجُو أَلَّا تَأْخُذْنَ هٰذِهِ الْأَشْيَاءَ كُلَّهَا} ?" },
+      "choices": [
+        { "fr": "Je vous prie de ne pas prendre toutes ces choses" },
+        { "fr": "Je vous prie de prendre toutes ces choses" },
+        { "fr": "Je ne veux pas que vous alliez à l'hôpital" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l18.dialogue-2#1" },
+      "explain": "{ar|أَلَّا تَأْخُذْنَ} : « de ne pas prendre » (à plusieurs femmes). {ar|كُلَّهَا} : « toutes »."
+    },
+    {
+      "id": "medine-t2.l18.quiz#15",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|أَرَادُوا أَنْ يَأْتُوا}, le {ar|ن} de {ar|يَأْتُونَ} tombe après {ar|أَنْ}." },
+      "answer": true,
+      "explain": "Oui : le {ar|ن} des cinq verbes tombe après {ar|أَنْ} : {ar|يَأْتُوا}."
+    },
+    {
+      "id": "medine-t2.l18.quiz#16",
+      "type": "fill_gap",
+      "sentence": "هُنَّ يُرِدْنَ أَنْ {0} إِلَى الْمَسْجِدِ.",
+      "fr": "Elles veulent aller à la mosquée.",
+      "gaps": [ { "answers": ["يَذْهَبْنَ"] } ],
+      "options": ["يَذْهَبْنَ", "يَذْهَبُوا", "يَذْهَبَ"],
+      "explain": "Le pronom des femmes ne change pas après {ar|أَنْ} : {ar|يَذْهَبْنَ}."
+    },
+    { "id": "medine-t2.l18.quiz#17", "type": "build", "item": "w:ulba", "extra": ["ه"] },
+    {
+      "id": "medine-t2.l18.quiz#18",
+      "type": "order",
+      "fr": "Cette école est comme la mosquée.",
+      "answers": [["هٰذِهِ", "الْمَدْرَسَةُ", "كَالْمَسْجِدِ"]],
+      "punctuation": ".",
+      "explain": "{ar|كَالْمَسْجِدِ} : le {ar|كَ} collé à {ar|الْمَسْجِدِ}, au génitif."
+    },
+    {
+      "id": "medine-t2.l18.quiz#19",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je te prie de ne pas t'asseoir ici.",
+      "answers": ["أَرْجُو أَلَّا تَجْلِسَ هُنَا.", "أَنَا أَرْجُو أَلَّا تَجْلِسَ هُنَا."],
+      "explain": "{ar|أَلَّا تَجْلِسَ} : {ar|أَنْ} + {ar|لَا} en un mot, puis le verbe à la fatha."
+    },
+    {
+      "id": "medine-t2.l18.quiz#20",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَ ذَهَبْتَ إِلَى الْمُسْتَشْفَى؟",
+      "answers": [
+        "ذَهَبْتُ إِلَى الْمُسْتَشْفَى لِعِيَادَةِ أَخِي.",
+        "ذَهَبْتُ إِلَى الْمُسْتَشْفَى لِزِيَارَةِ أَخِي.",
+        "ذَهَبْتُ إِلَى الْمُسْتَشْفَى لِأَزُورَ أَخِي.",
+        "لِعِيَادَةِ أَخِي.",
+        "لِزِيَارَةِ أَخِي.",
+        "لِأَزُورَ أَخِي."
+      ],
+      "fr": "Je suis allé à l'hôpital pour rendre visite à mon frère.",
+      "instruction": "Réponds en arabe (« mon frère ») : pour rendre visite à ton frère.",
+      "explain": "{ar|لِعِيَادَةِ أَخِي} : {ar|لِ} + {ar|عِيَادَةِ} + {ar|أَخِي}, deux noms de suite au génitif."
+    }
+  ]
+}
