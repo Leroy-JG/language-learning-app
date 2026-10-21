@@ -47,6 +47,7 @@ Outils de la palette : `sort` (marque de base / secondaire ; les trois cas ; `ا
 - **Exercice 7** (une phrase avec chacun de quatre mots) : exercice libre dans le livre ; l'app donne des phrases modèles, puis des `fill_gap` et des `typing`.
 - **Exercices 8 et 9** : leurs onze phrases sont des exemples « à étudier » dans le livre ; elles sont reprises en astuces dans `grammar-1` (avec leurs traductions), puis exercées. L'exercice 9-3 emploie `مُتَوَسِّطَةٌ` et `ثَانَوِيَّةٌ` (« collège » et « lycée ») sans article, comme adjectifs de `مَدْرَسَتَانِ` : ce sont les mots des chapitres 12 et 9 du tome 1.
 - **Exercice 10** : le PDF écrit `حدًّا` à la phrase 1 (`مُفِيدٌ جِدًّا`, faute de lecture du PDF ; le `أ` final isolé est un artefact). `غَسَلْتُ الْقَمِيصَ ذَا الْجَيْبَيْنِ` : `ذَا` est l'accusatif de `ذُو` (le PDF l'écrit sans harakat). Les phrases du livre sont lues telles quelles ; le dialogue « qui parle à qui » de la phrase 2 (la question à la mère, puis la réponse) est repris comme dans le livre.
+- **Exercice 4** : la question 4-7 est écrite `فِي الْمِطَارِ` (kasra) dans le PDF ; l'app écrit `الْمَطَارِ` (mot du chapitre 14 du tome 1). La question 4-2 (`كَمْ سُورَةً حَفِظْتِ يَا مَرْيَمُ؟`, à une femme) est reprise en `fill_gap` (`حَفِظْتُ {0}`). L'exercice 10-6 écrit `ذَاكَ الرَّجُلَ` : l'app garde `ذَاكَ` (mot du chapitre 21 du tome 1) et accepte aussi `ذٰلِكَ`.
 - **Ordre du cours** : les exercices des parties de rappel (`revue-1`, `revue-2`) n'emploient que des mots déjà enseignés. L'impératif `أَكْرِمِ` du tableau du professeur est cité dans l'astuce de `revue-1` (aperçu, glosé) et enseigné dans `vocab-3`.
 
 ## Explications ajoutées (données à l'oral, absentes du PDF)
@@ -66,3 +67,13 @@ Outils de la palette : `sort` (marque de base / secondaire ; les trois cas ; `ا
 ## Points à confirmer avec le professeur
 
 `مُشْطٌ` / `مِشْطٌ` (laquelle préfère-t-il ?) ; `بِكَمْ جَامِعَةً دَرَسْتَ؟` (le sens de `بِ`) ; le texte du livre est-il coupé après `اِشْتَرَيْتُهُ بِرِيَالَيْنِ.` ? ; `جُنَيْهٌ` ; le genre de `مِرْآةٌ` (féminin, comme dans tous les dictionnaires).
+
+## Corrections faites après la relecture
+
+Trois relecteurs indépendants (arabe et fidélité au PDF, exercices, français et pédagogie) : aucune erreur de harakat ni de cas dans l'arabe ; chaque remarque a été vérifiée avant d'être appliquée.
+
+- **Rythme** : trois `fill_gap` d'affilée dans `vocab-3`, `vocab-4` et `practice-9` ont été séparés (un `order`, un `build`, un `spot`).
+- **Réponses justes ajoutées** : ordres des mots de `vocab-2` (le voleur) et de `practice-2`, `practice-3` (sujet avant ou après le verbe) ; `جَاءَ طَالِبَانِ جَدِيدَانِ الْيَوْمَ` ; `يَكْفِينِي جُنَيْهَانِ الْآنَ` ; `فِي جَامِعَتَيْنِ` ; `لِقَمِيصِي خَمْسَةُ أَزْرَارٍ` ; `مَاتَ فِي الْحَادِثِ رَجُلَانِ` ; `اِشْتَرَيْنَاهُنَّ` (le pluriel de choses peut être repris par `هُنَّ`, `هَا` restant l'usage ordinaire).
+- **Explications corrigées** : « pour un nombre, le nom est à l'accusatif » (faux après 3 à 10 : remplacé par la règle de `كَمْ`) ; la voyelle qui donne la kasra à l'alif de `اِذْبَحْ` est celle de la lettre du milieu au présent, non la dernière ; `كَفَى` « prend souvent un pronom » (et non « se construit avec ») ; « nom sans tanwin » précisé en « nom qui ne prend jamais le tanwin » ; `بِ` « a le sens de dans » (nuancé) ; le duel « dit déjà deux ».
+- **Explications ajoutées** : les « cinq noms » (`ذُو`, `أَبٌ`) ont aussi des marques secondaires (note de `revue-1`) ; avec deux êtres de genres différents, on dit `أَحَدُهُمَا` (le masculin l'emporte).
+- **Traductions** : `مِنْ أَيْنَ لَكَ هٰذَا` → « d'où tiens-tu cela ? » ; `أَعَرَفْتَ مَعْنَاهُمَا` → « as-tu compris leur sens ? » ; le bilan demande « l'une des deux ». Un exemple d'`practice-3` et un écran du bilan ont changé pour éviter de répéter trois fois « deux oreillers ».

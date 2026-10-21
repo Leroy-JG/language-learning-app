@@ -66,7 +66,7 @@
       "type": "typing",
       "ask": "question",
       "question": "يَكْفِينِي الْآنَ جُنَيْهٌ.",
-      "answers": ["يَكْفِينِي الْآنَ جُنَيْهَانِ.", "الْآنَ يَكْفِينِي جُنَيْهَانِ."],
+      "answers": ["يَكْفِينِي الْآنَ جُنَيْهَانِ.", "الْآنَ يَكْفِينِي جُنَيْهَانِ.", "يَكْفِينِي جُنَيْهَانِ الْآنَ."],
       "fr": "Deux livres égyptiennes me suffisent maintenant.",
       "instruction": "Mets {ar|جُنَيْهٌ} au duel et récris la phrase.",
       "explain": "{ar|جُنَيْهٌ} est le sujet de {ar|يَكْفِي} : le nominatif, l'alif, {ar|جُنَيْهَانِ}."

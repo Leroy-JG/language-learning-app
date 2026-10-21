@@ -157,6 +157,11 @@
         {
           "type": "note",
           "tone": "info",
+          "text": "Si les deux êtres sont de genres différents (un garçon et une fille), on dit {ar|أَحَدُهُمَا} : le masculin l'emporte."
+        },
+        {
+          "type": "note",
+          "tone": "info",
           "text": "{ar|أَحَدُهُمَا} est ici le sujet : il est au nominatif ({ar|أَحَدُ}, avec la damma). {ar|الْآخَرُ}, après {ar|وَ}, est lui aussi au nominatif."
         },
         {
@@ -177,7 +182,7 @@
       "sentence": "عِنْدِي سَيَّارَتَانِ، إِحْدَاهُمَا حَمْرَاءُ {0} بَيْضَاءُ.",
       "fr": "J'ai deux voitures : l'une est rouge et l'autre blanche.",
       "gaps": [ { "answers": ["وَالْأُخْرَى"] } ],
-      "options": ["وَالْأُخْرَى", "وَالْآخَرُ", "وَإِحْدَاهُمَا"],
+      "options": ["وَالْأُخْرَى", "وَالْآخَرُ", "وَأَحَدُهُمَا"],
       "explain": "Deux noms féminins : {ar|إِحْدَاهُمَا}, puis {ar|الْأُخْرَى}. {ar|الْآخَرُ} serait le masculin."
     },
     {

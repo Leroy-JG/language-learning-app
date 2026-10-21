@@ -38,8 +38,9 @@
       "options": ["مُفِيدٌ", "مَنَارَةٌ", "خُرُوجٌ"],
       "explain": "« Utile » : {ar|مُفِيدٌ}, un adjectif masculin comme {ar|الْكِتَابُ}."
     },
+    { "id": "medine-t2.l20.vocab-4#8", "type": "build", "item": "w:manara", "extra": ["ه"] },
     {
-      "id": "medine-t2.l20.vocab-4#8",
+      "id": "medine-t2.l20.vocab-4#9",
       "type": "fill_gap",
       "sentence": "بَابُ {0} هُنَاكَ.",
       "fr": "La porte de sortie est là-bas.",
@@ -47,7 +48,6 @@
       "options": ["الْخُرُوجِ", "الدُّخُولِ", "الْمَنَارَةِ"],
       "explain": "{ar|بَابُ الْخُرُوجِ} : « la porte de sortie ». {ar|الدُّخُولِ} voudrait dire « l'entrée »."
     },
-    { "id": "medine-t2.l20.vocab-4#9", "type": "build", "item": "w:manara", "extra": ["ه"] },
     { "id": "medine-t2.l20.vocab-4#10", "type": "typing", "ask": "fr", "item": "w:mufid" },
     {
       "id": "medine-t2.l20.vocab-4#11",

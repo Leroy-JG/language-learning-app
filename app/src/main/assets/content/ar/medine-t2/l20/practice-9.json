@@ -39,7 +39,7 @@
               "il décrit {ar|الْمَسْجِدُ}, au nominatif"
             ],
             [
-              "{ar|أَنَا لَا أُحِبُّ ذٰلِكَ الرَّجُلَ فَإِنَّهُ ذُو وَجْهَيْنِ.}",
+              "{ar|أَنَا لَا أُحِبُّ ذَاكَ الرَّجُلَ فَإِنَّهُ ذُو وَجْهَيْنِ.}",
               "{ar|ذُو}",
               "il est le prédicat de {ar|إِنَّ} : le nominatif"
             ]
@@ -92,21 +92,21 @@
     },
     {
       "id": "medine-t2.l20.practice-9#5",
-      "type": "fill_gap",
-      "sentence": "الْمُدِيرُ فِي تِلْكَ الْغُرْفَةِ {0} النَّافِذَتَيْنِ الْمَفْتُوحَتَيْنِ.",
-      "fr": "Le directeur est dans cette pièce aux deux fenêtres ouvertes.",
-      "gaps": [ { "answers": ["ذَاتِ"] } ],
-      "options": ["ذَاتِ", "ذِي", "ذُو"],
-      "explain": "{ar|الْغُرْفَةِ} est féminin et au génitif (après {ar|فِي}) : {ar|ذَاتِ}, avec la kasra."
-    },
-    {
-      "id": "medine-t2.l20.practice-9#6",
       "type": "spot",
       "instruction": "Touche le nom au duel.",
       "words": ["ذٰلِكَ", "الْمَسْجِدُ", "ذُو", "الْمَنَارَتَيْنِ", "جَمِيلٌ", "جِدًّا."],
       "answers": [3],
       "fr": "Cette mosquée à deux minarets est très belle.",
       "explain": "{ar|الْمَنَارَتَيْنِ} est un duel, au génitif : il suit {ar|ذُو}."
+    },
+    {
+      "id": "medine-t2.l20.practice-9#6",
+      "type": "fill_gap",
+      "sentence": "الْمُدِيرُ فِي تِلْكَ الْغُرْفَةِ {0} النَّافِذَتَيْنِ الْمَفْتُوحَتَيْنِ.",
+      "fr": "Le directeur est dans cette pièce aux deux fenêtres ouvertes.",
+      "gaps": [ { "answers": ["ذَاتِ"] } ],
+      "options": ["ذَاتِ", "ذِي", "ذُو"],
+      "explain": "{ar|الْغُرْفَةِ} est féminin et au génitif (après {ar|فِي}) : {ar|ذَاتِ}, avec la kasra."
     },
     {
       "id": "medine-t2.l20.practice-9#7",
@@ -149,6 +149,8 @@
       "ask": "audio",
       "fr": "Je n'aime pas cet homme, car il a deux visages.",
       "answers": [
+        "أَنَا لَا أُحِبُّ ذَاكَ الرَّجُلَ فَإِنَّهُ ذُو وَجْهَيْنِ.",
+        "لَا أُحِبُّ ذَاكَ الرَّجُلَ فَإِنَّهُ ذُو وَجْهَيْنِ.",
         "أَنَا لَا أُحِبُّ ذٰلِكَ الرَّجُلَ فَإِنَّهُ ذُو وَجْهَيْنِ.",
         "لَا أُحِبُّ ذٰلِكَ الرَّجُلَ فَإِنَّهُ ذُو وَجْهَيْنِ."
       ],

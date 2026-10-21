@@ -37,7 +37,7 @@
         {
           "type": "note",
           "tone": "info",
-          "text": "Impératif de {ar|كَفَى} : le {ar|ي} de {ar|يَكْفِي} tombe ({ar|اِكْفِ}), comme pour {ar|اِجْزِ} au chapitre 19. Et l'alif de {ar|اِذْبَحْ} et de {ar|اِشْرَحْ} porte une kasra, parce que la voyelle du présent est une fatha."
+          "text": "Impératif de {ar|كَفَى} : le {ar|ي} de {ar|يَكْفِي} tombe ({ar|اِكْفِ}), comme pour {ar|اِجْزِ} au chapitre 19. Et l'alif de {ar|اِذْبَحْ} et de {ar|اِشْرَحْ} porte une kasra, parce que la voyelle de la lettre du milieu, au présent, est une fatha (le {ar|ب} de {ar|يَذْبَحُ}) ; si c'était une damma ({ar|يَكْتُبُ}), l'alif aurait la damma ({ar|اُكْتُبْ})."
         },
         {
           "type": "note",
@@ -87,20 +87,20 @@
     },
     {
       "id": "medine-t2.l20.vocab-3#11",
+      "type": "order",
+      "fr": "Mon père a égorgé une poule.",
+      "answers": [["ذَبَحَ", "أَبِي", "دَجَاجَةً"], ["أَبِي", "ذَبَحَ", "دَجَاجَةً"]],
+      "punctuation": ".",
+      "explain": "Le verbe peut précéder ou suivre son sujet {ar|أَبِي}."
+    },
+    {
+      "id": "medine-t2.l20.vocab-3#12",
       "type": "fill_gap",
       "sentence": "{0} رِيَالٌ.",
       "fr": "Un riyal me suffit.",
       "gaps": [ { "answers": ["يَكْفِينِي"] } ],
       "options": ["يَكْفِينِي", "يَشْرَحُ", "يَذْبَحُ"],
       "explain": "{ar|يَكْفِينِي} : « il me suffit » ({ar|يَكْفِي} + {ar|نِي}). Le sujet {ar|رِيَالٌ} vient après le verbe."
-    },
-    {
-      "id": "medine-t2.l20.vocab-3#12",
-      "type": "order",
-      "fr": "Mon père a égorgé une poule.",
-      "answers": [["ذَبَحَ", "أَبِي", "دَجَاجَةً"], ["أَبِي", "ذَبَحَ", "دَجَاجَةً"]],
-      "punctuation": ".",
-      "explain": "Le verbe peut précéder ou suivre son sujet {ar|أَبِي}."
     },
     { "id": "medine-t2.l20.vocab-3#13", "type": "typing", "ask": "fr", "item": "w:sharaha" },
     {

@@ -35,7 +35,7 @@
         {
           "speaker": "P",
           "ar": "مِنْ أَيْنَ لَكَ هٰذَا الْقَلَمُ الْجَمِيلُ ذُو اللَّوْنَيْنِ يَا بَشِيرُ؟",
-          "fr": "D'où as-tu ce joli stylo à deux couleurs, Bashīr ?"
+          "fr": "D'où te vient ce joli stylo à deux couleurs, Bashīr ?"
         },
         { "speaker": "B", "ar": "اِشْتَرَيْتُهُ.", "fr": "Je l'ai acheté." },
         { "speaker": "P", "ar": "بِكَمْ اِشْتَرَيْتَهُ؟", "fr": "Pour combien l'as-tu acheté ?" },
@@ -68,7 +68,7 @@
               "deux petits dossiers",
               "le duel et son adjectif, tous deux au nominatif"
             ],
-            ["{ar|مِنْ أَيْنَ لَكَ هٰذَا؟}", "où as-tu eu cela ?", "{ar|لَكَ} : {ar|لِ} + {ar|كَ} (« à toi »)"],
+            ["{ar|مِنْ أَيْنَ لَكَ هٰذَا؟}", "d'où tiens-tu cela ?", "{ar|لَكَ} : {ar|لِ} + {ar|كَ} (« à toi »)"],
             ["{ar|ذُو اللَّوْنَيْنِ}", "à deux couleurs", "{ar|ذُو} + un nom au génitif : ici le duel, avec le yā"],
             [
               "{ar|بِكَمْ اِشْتَرَيْتَهُ؟}",

@@ -110,7 +110,7 @@
     "ar": "كَفَى",
     "fr": "il a suffi (suffire)",
     "translit": "kafā",
-    "note": "Il se termine par un {ar|ى} : au présent, {ar|يَكْفِي} ; à l'impératif, le {ar|ي} tombe : {ar|اِكْفِ}. Il se construit avec un pronom : {ar|يَكْفِينِي} (« il me suffit »).",
+    "note": "Il se termine par un {ar|ى} : au présent, {ar|يَكْفِي} ; à l'impératif, le {ar|ي} tombe : {ar|اِكْفِ}. Il prend souvent un pronom complément : {ar|يَكْفِينِي} (« il me suffit »).",
     "example": { "ar": "يَكْفِينِي رِيَالٌ.", "fr": "Un riyal me suffit." }
   },
   {
@@ -155,7 +155,7 @@
     "ar": "أَحَدُهُمَا",
     "fr": "l'un des deux (masculin)",
     "translit": "aḥaduhumā",
-    "note": "{ar|أَحَدُ} (« l'un de ») + {ar|هُمَا} (« eux deux »). On le dit quand on vient de nommer deux êtres ou deux choses de genre masculin. Le second est {ar|الْآخَرُ}.",
+    "note": "{ar|أَحَدُ} (« l'un de ») + {ar|هُمَا} (« eux deux »). On le dit quand on vient de nommer deux êtres ou deux choses de genre masculin (ou de genres mêlés). Le second est {ar|الْآخَرُ}.",
     "example": {
       "ar": "لِي أَخَوَانِ، أَحَدُهُمَا طَبِيبٌ وَالْآخَرُ مُهَنْدِسٌ.",
       "fr": "J'ai deux frères : l'un est médecin et l'autre ingénieur."

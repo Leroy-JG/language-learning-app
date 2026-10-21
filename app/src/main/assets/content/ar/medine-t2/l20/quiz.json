@@ -90,7 +90,7 @@
     {
       "id": "medine-t2.l20.quiz#11",
       "type": "question",
-      "prompt": { "fr": "Pour deux sœurs, comment dit-on « l'une d'elles » ?" },
+      "prompt": { "fr": "Pour deux sœurs, comment dit-on « l'une des deux » ?" },
       "choices": [ { "ar": "إِحْدَاهُمَا" }, { "ar": "أَحَدُهُمَا" }, { "ar": "الْآخَرُ" } ],
       "answer": 0,
       "explain": "Deux noms féminins : {ar|إِحْدَاهُمَا}. {ar|أَحَدُهُمَا} est pour deux noms masculins."
@@ -152,9 +152,9 @@
       "id": "medine-t2.l20.quiz#19",
       "type": "typing",
       "ask": "audio",
-      "fr": "Il y a deux oreillers sur mon lit.",
-      "answers": ["عَلَى سَرِيرِي مِخَدَّتَانِ."],
-      "explain": "Le sujet, placé après {ar|عَلَى سَرِيرِي} : l'alif."
+      "fr": "Il y a deux minarets dans la mosquée.",
+      "answers": ["فِي الْمَسْجِدِ مَنَارَتَانِ."],
+      "explain": "Le sujet, placé après {ar|فِي الْمَسْجِدِ} : l'alif."
     },
     {
       "id": "medine-t2.l20.quiz#20",

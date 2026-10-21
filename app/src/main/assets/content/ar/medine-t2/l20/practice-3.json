@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Pour les dix questions du livre, réponds « deux ». Après {ar|كَمْ}, le nom est au singulier et à l'accusatif ({ar|كَمْ لُغَةً}) ; dans ta réponse, il est au duel. Le plus souvent, ce sera le complément d'objet : le yā ({ar|لُغَتَيْنِ}). Mais si le nom est le sujet de la phrase, c'est l'alif : fais attention aux deux oreillers de la fin."
+          "text": "Pour les dix questions du livre, réponds « deux ». Après {ar|كَمْ}, le nom est au singulier et à l'accusatif ({ar|كَمْ لُغَةً}) ; dans ta réponse, il est au duel. Le plus souvent, ce sera le complément d'objet : le yā ({ar|لُغَتَيْنِ}). Mais si le nom est le sujet de la phrase, c'est l'alif : fais attention aux deux dernières phrases."
         }
       ]
     },
@@ -67,7 +67,7 @@
       "id": "medine-t2.l20.practice-3#7",
       "type": "order",
       "fr": "L'enseignant m'a posé deux questions.",
-      "answers": [["سَأَلَنِي", "الْمُدَرِّسُ", "سُؤَالَيْنِ"]],
+      "answers": [["سَأَلَنِي", "الْمُدَرِّسُ", "سُؤَالَيْنِ"], ["الْمُدَرِّسُ", "سَأَلَنِي", "سُؤَالَيْنِ"]],
       "punctuation": ".",
       "explain": "{ar|سَأَلَنِي} : « il m'a demandé » ; le sujet {ar|الْمُدَرِّسُ} est au nominatif, les deux questions au yā."
     },
@@ -103,11 +103,11 @@
     {
       "id": "medine-t2.l20.practice-3#11",
       "type": "fill_gap",
-      "sentence": "عَلَى سَرِيرِي {0}.",
-      "fr": "Il y a deux oreillers sur mon lit.",
-      "gaps": [ { "answers": ["مِخَدَّتَانِ"] } ],
-      "options": ["مِخَدَّتَانِ", "مِخَدَّتَيْنِ", "مِخَدَّةً"],
-      "explain": "Ici, les oreillers sont le sujet, placé après {ar|عَلَى سَرِيرِي} : le nominatif, l'alif."
+      "sentence": "فِي غُرْفَتِي {0}.",
+      "fr": "Il y a deux fenêtres dans ma chambre.",
+      "gaps": [ { "answers": ["نَافِذَتَانِ"] } ],
+      "options": ["نَافِذَتَانِ", "نَافِذَتَيْنِ", "نَافِذَةً"],
+      "explain": "Ici, les fenêtres sont le sujet, placé après {ar|فِي غُرْفَتِي} : le nominatif, l'alif."
     },
     {
       "id": "medine-t2.l20.practice-3#12",

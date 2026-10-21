@@ -46,7 +46,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Ma chemise a cinq boutons.",
-      "answers": ["فِي قَمِيصِي خَمْسَةُ أَزْرَارٍ."],
+      "answers": ["فِي قَمِيصِي خَمْسَةُ أَزْرَارٍ.", "لِقَمِيصِي خَمْسَةُ أَزْرَارٍ.", "عَلَى قَمِيصِي خَمْسَةُ أَزْرَارٍ."],
       "explain": "De 3 à 10, le dénombré est au pluriel et au génitif : {ar|خَمْسَةُ أَزْرَارٍ}."
     }
   ]

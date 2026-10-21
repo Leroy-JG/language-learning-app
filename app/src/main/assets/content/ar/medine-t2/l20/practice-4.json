@@ -44,10 +44,15 @@
       "type": "typing",
       "ask": "question",
       "question": "بِكَمْ دُولَارًا اِشْتَرَيْتُمْ هٰذِهِ الْأَزْرَارَ يَا إِخْوَانُ؟",
-      "answers": ["اِشْتَرَيْنَاهَا بِدُولَارَيْنِ.", "اِشْتَرَيْنَا هٰذِهِ الْأَزْرَارَ بِدُولَارَيْنِ.", "بِدُولَارَيْنِ."],
+      "answers": [
+        "اِشْتَرَيْنَاهَا بِدُولَارَيْنِ.",
+        "اِشْتَرَيْنَاهُنَّ بِدُولَارَيْنِ.",
+        "اِشْتَرَيْنَا هٰذِهِ الْأَزْرَارَ بِدُولَارَيْنِ.",
+        "بِدُولَارَيْنِ."
+      ],
       "fr": "Nous les avons achetés pour deux dollars.",
       "instruction": "Réponds avec le duel : « nous les avons achetés pour deux dollars ».",
-      "explain": "Les frères parlent d'eux-mêmes : {ar|اِشْتَرَيْنَا} (« nous avons acheté »). {ar|هَا} reprend un pluriel de choses (le féminin singulier)."
+      "explain": "Les frères parlent d'eux-mêmes : {ar|اِشْتَرَيْنَا} (« nous avons acheté »). D'ordinaire, {ar|هَا} reprend un pluriel de choses (le féminin singulier)."
     },
     {
       "id": "medine-t2.l20.practice-4#5",

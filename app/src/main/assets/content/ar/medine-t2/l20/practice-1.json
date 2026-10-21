@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le livre pose trois questions sur le texte. Réponds par une phrase en arabe. Pour un nombre, le nom est à l'accusatif : après {ar|كَمْ}, un singulier ({ar|كَمْ سُورَةً}) ; dans la réponse, un duel ({ar|سُورَتَيْنِ})."
+          "text": "Le livre pose trois questions sur le texte. Réponds par une phrase en arabe. Après {ar|كَمْ}, le nom est au singulier et à l'accusatif ({ar|كَمْ سُورَةً}). Dans la réponse, {ar|سُورَتَيْنِ} est un duel à l'accusatif, parce que c'est le complément d'objet du verbe."
         }
       ]
     },

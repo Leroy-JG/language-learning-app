@@ -35,7 +35,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Voici, avec les exemples du professeur, les quatre sortes de noms que tu connais :"
+          "text": "Voici, avec les exemples du professeur, les quatre sortes de noms qui ont des marques secondaires dans ce cours :"
         },
         {
           "type": "table",
@@ -48,7 +48,7 @@
             ["duel", "accusatif", "{ar|ي}", "{ar|ضَرَبَ زَيْدٌ الطَّالِبَيْنِ}"],
             ["duel", "génitif", "{ar|ي}", "{ar|السَّلَامُ عَلَى الطَّالِبَيْنِ}"],
             ["pluriel féminin régulier", "accusatif", "la kasra", "{ar|أَكْرِمِ الطَّالِبَاتِ}"],
-            ["nom sans tanwin", "génitif", "la fatha", "{ar|السَّلَامُ عَلَى فَاطِمَةَ}"]
+            ["nom qui ne prend jamais le tanwin", "génitif", "la fatha", "{ar|السَّلَامُ عَلَى فَاطِمَةَ}"]
           ]
         },
         {
@@ -59,7 +59,12 @@
         {
           "type": "note",
           "tone": "warning",
-          "text": "La fatha du génitif ne vaut que pour un nom sans tanwin, sans article et qui n'est pas premier terme d'une annexion (tome 1, chapitre 23). Avec l'article, il retrouve la kasra."
+          "text": "La fatha du génitif ne vaut que pour un nom qui ne prend jamais le tanwin ({ar|فَاطِمَةُ}, {ar|أَحْمَدُ}, {ar|مَسَاجِدُ}), quand il est sans article et n'est pas premier terme d'une annexion (tome 1, chapitre 23). Avec l'article, il retrouve la kasra."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les « cinq noms » ({ar|الْأَسْمَاءُ الْخَمْسَةُ}), comme {ar|أَبٌ} et {ar|ذُو} (tome 2, chapitre 1), ont eux aussi des marques secondaires : {ar|و}, {ar|ا}, {ar|ي}. Tu les revois à la fin de ce chapitre avec {ar|ذُو}."
         },
         {
           "type": "note",
@@ -83,7 +88,7 @@
         { "ar": "فِي الْفَصْلِ طَالِبٌ.", "category": 0 }
       ],
       "instruction": "Marque de base ou marque secondaire ?",
-      "explain": "Le nom qui varie a-t-il une voyelle ordinaire (damma, fatha, kasra) ou une marque secondaire (une lettre, la kasra du féminin régulier à l'accusatif, la fatha d'un nom sans tanwin au génitif) ?"
+      "explain": "Le nom qui varie a-t-il une voyelle ordinaire (damma, fatha, kasra) ou une marque secondaire (une lettre, la kasra du féminin régulier à l'accusatif, la fatha d'un nom qui ne prend jamais le tanwin, au génitif) ?"
     },
     {
       "id": "medine-t2.l20.revue-1#4",
@@ -130,7 +135,7 @@
       "id": "medine-t2.l20.revue-1#8",
       "type": "true_false",
       "statement": {
-        "fr": "Au génitif, un nom sans tanwin comme {ar|فَاطِمَةُ}, sans article et hors annexion, se termine par la fatha."
+        "fr": "Au génitif, un nom qui ne prend jamais le tanwin, comme {ar|فَاطِمَةُ}, sans article et hors annexion, se termine par la fatha."
       },
       "answer": true,
       "explain": "Oui : {ar|السَّلَامُ عَلَى فَاطِمَةَ}. Sa marque est la fatha, au lieu de la kasra : c'est une marque secondaire."

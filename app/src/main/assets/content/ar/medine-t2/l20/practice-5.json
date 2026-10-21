@@ -63,17 +63,17 @@
       "type": "typing",
       "ask": "question",
       "question": "بِكَمْ جَامِعَةً دَرَسْتَ؟",
-      "answers": ["دَرَسْتُ بِجَامِعَتَيْنِ.", "دَرَسْتُ فِي جَامِعَتَيْنِ.", "بِجَامِعَتَيْنِ."],
+      "answers": ["دَرَسْتُ بِجَامِعَتَيْنِ.", "دَرَسْتُ فِي جَامِعَتَيْنِ.", "بِجَامِعَتَيْنِ.", "فِي جَامِعَتَيْنِ."],
       "fr": "J'ai étudié dans deux universités.",
       "instruction": "Réponds avec le duel : « j'ai étudié dans deux universités ».",
-      "explain": "Ici, {ar|بِ} veut dire « dans » (comme {ar|فِي}) : le génitif, le yā."
+      "explain": "Ici, {ar|بِ} a le sens de « dans » (comme {ar|فِي}) : le génitif, le yā."
     },
     {
       "id": "medine-t2.l20.practice-5#7",
       "type": "true_false",
       "statement": { "fr": "Dans {ar|بِكَمْ جَامِعَةً دَرَسْتَ؟}, la préposition {ar|بِ} veut dire « pour (le prix de) »." },
       "answer": false,
-      "explain": "Ici, la question porte sur le nombre d'universités : {ar|بِ} veut dire « dans », comme {ar|فِي}. Avec un prix, {ar|بِ} veut dire « pour »."
+      "explain": "Ici, la question porte sur le nombre d'universités : {ar|بِ} a le sens de « dans », comme {ar|فِي}. Avec un prix, {ar|بِ} veut dire « pour »."
     },
     {
       "id": "medine-t2.l20.practice-5#8",

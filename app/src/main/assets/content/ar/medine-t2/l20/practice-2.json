@@ -13,8 +13,8 @@
           "type": "paragraph",
           "text": "Le livre pose six questions {ar|كَمْ}. Réponds chaque fois **deux**, avec le duel. Son cas dépend de son rôle : l'alif s'il est le sujet (même placé après le verbe), le yā s'il est le complément d'objet ou s'il suit une préposition."
         },
-        { "type": "example", "ar": "كَمْ أَخًا لَكَ؟", "fr": "Combien de frères as-tu ?" },
-        { "type": "example", "ar": "لِي أَخَوَانِ.", "fr": "J'ai deux frères." }
+        { "type": "example", "ar": "كَمْ بَابًا لِلْحَافِلَةِ؟", "fr": "Combien de portes le bus a-t-il ?" },
+        { "type": "example", "ar": "لِلْحَافِلَةِ بَابَانِ.", "fr": "Le bus a deux portes." }
       ]
     },
     {
@@ -41,7 +41,12 @@
       "type": "typing",
       "ask": "question",
       "question": "كَمْ طَالِبًا جَدِيدًا جَاءَ الْيَوْمَ؟",
-      "answers": ["جَاءَ الْيَوْمَ طَالِبَانِ جَدِيدَانِ.", "جَاءَ طَالِبَانِ جَدِيدَانِ.", "طَالِبَانِ جَدِيدَانِ."],
+      "answers": [
+        "جَاءَ الْيَوْمَ طَالِبَانِ جَدِيدَانِ.",
+        "جَاءَ طَالِبَانِ جَدِيدَانِ.",
+        "جَاءَ طَالِبَانِ جَدِيدَانِ الْيَوْمَ.",
+        "طَالِبَانِ جَدِيدَانِ."
+      ],
       "fr": "Deux nouveaux étudiants sont venus aujourd'hui.",
       "instruction": "Réponds avec le duel : « deux nouveaux étudiants sont venus aujourd'hui ».",
       "explain": "Le sujet est au nominatif : {ar|طَالِبَانِ}, et l'adjectif suit : {ar|جَدِيدَانِ}. Le verbe reste au singulier."
@@ -73,7 +78,7 @@
       "id": "medine-t2.l20.practice-2#7",
       "type": "order",
       "fr": "Deux étudiants sont sortis de la salle de classe.",
-      "answers": [["خَرَجَ", "طَالِبَانِ", "مِنَ", "الْفَصْلِ"]],
+      "answers": [["خَرَجَ", "طَالِبَانِ", "مِنَ", "الْفَصْلِ"], ["خَرَجَ", "مِنَ", "الْفَصْلِ", "طَالِبَانِ"]],
       "punctuation": ".",
       "explain": "Le sujet {ar|طَالِبَانِ} est au nominatif : l'alif. {ar|الْفَصْلِ} suit {ar|مِنَ} : le génitif."
     },
@@ -82,7 +87,7 @@
       "type": "typing",
       "ask": "question",
       "question": "كَمْ رَجُلًا مَاتَ فِي الْحَادِثِ؟",
-      "answers": ["مَاتَ رَجُلَانِ.", "مَاتَ رَجُلَانِ فِي الْحَادِثِ.", "رَجُلَانِ."],
+      "answers": ["مَاتَ رَجُلَانِ.", "مَاتَ رَجُلَانِ فِي الْحَادِثِ.", "مَاتَ فِي الْحَادِثِ رَجُلَانِ.", "رَجُلَانِ."],
       "fr": "Deux hommes sont morts dans l'accident.",
       "instruction": "Réponds avec le duel : « deux hommes sont morts dans l'accident ».",
       "explain": "Le sujet de {ar|مَاتَ} est au nominatif : {ar|رَجُلَانِ}. Le verbe reste au singulier."
