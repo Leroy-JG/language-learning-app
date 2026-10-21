@@ -1,0 +1,118 @@
+{
+  "id": "medine-t2.l20.revue-2",
+  "type": "review",
+  "title": "Revoir le duel : l'alif ou le yā",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l20.revue-2#1",
+      "type": "tip",
+      "title": "Les trois cas du duel",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur résume : le duel ({ar|الْمُثَنَّى}) montre son cas par une **lettre**."
+        },
+        {
+          "type": "table",
+          "header": ["Cas", "La marque", "Exemple"],
+          "rows": [
+            ["nominatif ({ar|الرَّفْعُ})", "l'alif ({ar|ا})", "{ar|الْمُدَرِّسَانِ}"],
+            ["accusatif ({ar|النَّصْبُ})", "le yā ({ar|ي})", "{ar|الْمُدَرِّسَيْنِ}"],
+            ["génitif ({ar|الْجَرُّ})", "le yā ({ar|ي})", "{ar|الْمُدَرِّسَيْنِ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Pour retenir : l'alif au nominatif, le yā à l'accusatif et au génitif. Le {ar|ن} qui suit garde toujours sa kasra : ce n'est pas lui qui porte le cas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.revue-2#2",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif ({ar|◌َانِ})" }, { "fr": "accusatif ou génitif ({ar|◌َيْنِ})" } ],
+      "cards": [
+        { "ar": "طَالِبَانِ", "category": 0 },
+        { "ar": "مُسْلِمَتَيْنِ", "category": 1 },
+        { "ar": "كِتَابَانِ", "category": 0 },
+        { "ar": "قَلَمَيْنِ", "category": 1 },
+        { "ar": "نَافِذَتَانِ", "category": 0 },
+        { "ar": "بَابَيْنِ", "category": 1 }
+      ],
+      "instruction": "Nominatif ou accusatif / génitif ?",
+      "explain": "La lettre avant le {ar|ن} donne le cas : l'alif pour le nominatif, le yā pour les deux autres."
+    },
+    {
+      "id": "medine-t2.l20.revue-2#3",
+      "type": "fill_gap",
+      "sentence": "جَاءَ {0} الْيَوْمَ.",
+      "fr": "Les deux enseignants sont venus aujourd'hui.",
+      "gaps": [ { "answers": ["الْمُدَرِّسَانِ"] } ],
+      "options": ["الْمُدَرِّسَانِ", "الْمُدَرِّسَيْنِ", "الْمُدَرِّسُونَ"],
+      "explain": "Le sujet du verbe est au nominatif : le duel prend l'alif. Le verbe reste au singulier devant son sujet."
+    },
+    {
+      "id": "medine-t2.l20.revue-2#4",
+      "type": "fill_gap",
+      "sentence": "رَأَيْتُ {0} فِي الْمَسْجِدِ.",
+      "fr": "J'ai vu les deux étudiants à la mosquée.",
+      "gaps": [ { "answers": ["الطَّالِبَيْنِ"] } ],
+      "options": ["الطَّالِبَيْنِ", "الطَّالِبَانِ", "الطَّالِبِ"],
+      "explain": "Ce qu'on voit est le complément d'objet, à l'accusatif : le duel prend le yā."
+    },
+    {
+      "id": "medine-t2.l20.revue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Au génitif, le duel se termine par {ar|انِ}." },
+      "answer": false,
+      "explain": "Faux : au génitif, comme à l'accusatif, il se termine par {ar|يْنِ} ({ar|الطَّالِبَيْنِ}). L'alif ({ar|انِ}) est réservé au nominatif."
+    },
+    {
+      "id": "medine-t2.l20.revue-2#6",
+      "type": "spot",
+      "instruction": "Touche le nom au duel et au génitif.",
+      "words": ["ذَهَبْتُ", "إِلَى", "الْمُدَرِّسَيْنِ."],
+      "answers": [2],
+      "fr": "Je suis allé chez les deux enseignants.",
+      "explain": "{ar|إِلَى} est une préposition : le nom qui la suit est au génitif. Le duel prend le yā."
+    },
+    {
+      "id": "medine-t2.l20.revue-2#7",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|ذَهَبْتُ إِلَى الْمُدَرِّسَيْنِ}, pourquoi le duel se termine-t-il par {ar|يْنِ} ?" },
+      "choices": [
+        { "fr": "Il suit une préposition : c'est le génitif" },
+        { "fr": "Il est le sujet : c'est le nominatif" },
+        { "fr": "Il est au pluriel" }
+      ],
+      "answer": 0,
+      "explain": "Après une préposition, le nom est au génitif. Au duel, le génitif se reconnaît au yā."
+    },
+    {
+      "id": "medine-t2.l20.revue-2#8",
+      "type": "order",
+      "fr": "Les deux étudiants sont dans la salle de classe.",
+      "answers": [["الطَّالِبَانِ", "فِي", "الْفَصْلِ"]],
+      "punctuation": ".",
+      "explain": "{ar|الطَّالِبَانِ} est le sujet : l'alif."
+    },
+    {
+      "id": "medine-t2.l20.revue-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai vu les deux étudiants à la mosquée.",
+      "answers": ["رَأَيْتُ الطَّالِبَيْنِ فِي الْمَسْجِدِ.", "رَأَيْتُ فِي الْمَسْجِدِ الطَّالِبَيْنِ."],
+      "explain": "Complément d'objet : le yā."
+    },
+    {
+      "id": "medine-t2.l20.revue-2#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les deux enseignants sont venus aujourd'hui.",
+      "answers": ["جَاءَ الْمُدَرِّسَانِ الْيَوْمَ.", "جَاءَ الْيَوْمَ الْمُدَرِّسَانِ."],
+      "explain": "Le sujet est au nominatif : l'alif."
+    }
+  ]
+}

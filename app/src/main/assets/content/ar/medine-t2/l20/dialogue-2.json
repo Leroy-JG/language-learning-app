@@ -1,0 +1,155 @@
+{
+  "id": "medine-t2.l20.dialogue-2",
+  "type": "dialogue",
+  "title": "Au marché : cahiers, dossiers et un stylo",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l20.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Au marché : cahiers, dossiers et un stylo",
+      "intro": "Le père va au marché et demande ce que veulent ses fils. Écoute les duels au nominatif, à l'accusatif et au génitif.",
+      "speakers": {
+        "P": { "name": "Le père", "voice": "m1" },
+        "B": { "name": "Bashīr", "voice": "m2" },
+        "U": { "name": "ʿUmar", "voice": "m2" },
+        "M": { "name": "Muʿāwiya", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "P",
+          "ar": "أَنَا الْآنَ أَذْهَبُ إِلَى السُّوقِ، أَتُرِيدُونَ شَيْئًا؟",
+          "fr": "Moi, je vais maintenant au marché. Voulez-vous quelque chose ?"
+        },
+        { "speaker": "U", "ar": "أُرِيدُ دَفْتَرًا.", "fr": "Je veux un cahier." },
+        {
+          "speaker": "M",
+          "ar": "عِنْدِي دَفْتَرَانِ وَأُرِيدُ دَفْتَرَيْنِ آخَرَيْنِ.",
+          "fr": "J'ai deux cahiers et je veux deux autres cahiers."
+        },
+        {
+          "speaker": "B",
+          "ar": "عِنْدِي مِلَفَّانِ صَغِيرَانِ وَأُرِيدُ مِلَفَّيْنِ كَبِيرَيْنِ.",
+          "fr": "J'ai deux petits dossiers et je veux deux grands dossiers."
+        },
+        {
+          "speaker": "P",
+          "ar": "مِنْ أَيْنَ لَكَ هٰذَا الْقَلَمُ الْجَمِيلُ ذُو اللَّوْنَيْنِ يَا بَشِيرُ؟",
+          "fr": "D'où as-tu ce joli stylo à deux couleurs, Bashīr ?"
+        },
+        { "speaker": "B", "ar": "اِشْتَرَيْتُهُ.", "fr": "Je l'ai acheté." },
+        { "speaker": "P", "ar": "بِكَمْ اِشْتَرَيْتَهُ؟", "fr": "Pour combien l'as-tu acheté ?" },
+        { "speaker": "B", "ar": "اِشْتَرَيْتُهُ بِرِيَالَيْنِ.", "fr": "Je l'ai acheté pour deux riyals." }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Voici ce qu'il faut remarquer dans cette seconde partie :" },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            [
+              "{ar|أَتُرِيدُونَ شَيْئًا؟}",
+              "voulez-vous quelque chose ?",
+              "{ar|أَ} (la question) + {ar|تُرِيدُونَ} (vous, plusieurs) ; {ar|شَيْئًا} : complément d'objet, tanwin à la fatha"
+            ],
+            ["{ar|دَفْتَرَانِ}", "deux cahiers", "le sujet de {ar|عِنْدِي} vient après : le nominatif, l'alif"],
+            [
+              "{ar|دَفْتَرَيْنِ آخَرَيْنِ}",
+              "deux autres cahiers",
+              "le complément d'objet de {ar|أُرِيدُ} : le yā ; {ar|آخَرَيْنِ} est le duel de {ar|آخَرُ}, au même cas"
+            ],
+            [
+              "{ar|مِلَفَّانِ صَغِيرَانِ}",
+              "deux petits dossiers",
+              "le duel et son adjectif, tous deux au nominatif"
+            ],
+            ["{ar|مِنْ أَيْنَ لَكَ هٰذَا؟}", "où as-tu eu cela ?", "{ar|لَكَ} : {ar|لِ} + {ar|كَ} (« à toi »)"],
+            ["{ar|ذُو اللَّوْنَيْنِ}", "à deux couleurs", "{ar|ذُو} + un nom au génitif : ici le duel, avec le yā"],
+            [
+              "{ar|بِكَمْ اِشْتَرَيْتَهُ؟}",
+              "pour combien l'as-tu acheté ?",
+              "{ar|بِ} + {ar|كَمْ} ; {ar|هُ} : « le » (le stylo)"
+            ],
+            ["{ar|بِرِيَالَيْنِ}", "pour deux riyals", "un duel au génitif après {ar|بِ} : le yā"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Que veut ʿUmar ?" },
+      "choices": [ { "fr": "Un cahier" }, { "fr": "Deux cahiers" }, { "fr": "Un dossier" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l20.dialogue-2#1" },
+      "explain": "{ar|أُرِيدُ دَفْتَرًا} : « je veux un cahier »."
+    },
+    {
+      "id": "medine-t2.l20.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Combien de cahiers Muʿāwiya a-t-il déjà ?" },
+      "choices": [ { "fr": "Deux" }, { "fr": "Un" }, { "fr": "Aucun" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l20.dialogue-2#1" },
+      "explain": "{ar|عِنْدِي دَفْتَرَانِ} : « j'ai deux cahiers »."
+    },
+    {
+      "id": "medine-t2.l20.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Bashīr veut deux petits dossiers." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l20.dialogue-2#1" },
+      "explain": "Il en a déjà deux petits ({ar|مِلَفَّانِ صَغِيرَانِ}) et il en veut deux grands ({ar|مِلَفَّيْنِ كَبِيرَيْنِ})."
+    },
+    {
+      "id": "medine-t2.l20.dialogue-2#6",
+      "type": "question",
+      "prompt": { "fr": "Combien Bashīr a-t-il payé son stylo ?" },
+      "choices": [ { "fr": "Deux riyals" }, { "fr": "Un riyal" }, { "fr": "Cinq riyals" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l20.dialogue-2#1" },
+      "explain": "{ar|اِشْتَرَيْتُهُ بِرِيَالَيْنِ} : « je l'ai acheté pour deux riyals »."
+    },
+    {
+      "id": "medine-t2.l20.dialogue-2#7",
+      "type": "fill_gap",
+      "sentence": "عِنْدِي {0} وَأُرِيدُ دَفْتَرَيْنِ آخَرَيْنِ.",
+      "fr": "J'ai deux cahiers et je veux deux autres cahiers.",
+      "gaps": [ { "answers": ["دَفْتَرَانِ"] } ],
+      "options": ["دَفْتَرَانِ", "دَفْتَرَيْنِ", "دَفْتَرٌ"],
+      "context": { "dialogue": "medine-t2.l20.dialogue-2#1" },
+      "explain": "Le sujet de {ar|عِنْدِي} est au nominatif : {ar|دَفْتَرَانِ}. Pour le second, complément d'objet, le yā : {ar|دَفْتَرَيْنِ}."
+    },
+    {
+      "id": "medine-t2.l20.dialogue-2#8",
+      "type": "fill_gap",
+      "sentence": "أُرِيدُ {0} كَبِيرَيْنِ.",
+      "fr": "Je veux deux grands dossiers.",
+      "gaps": [ { "answers": ["مِلَفَّيْنِ"] } ],
+      "options": ["مِلَفَّيْنِ", "مِلَفَّانِ", "مِلَفًّا"],
+      "context": { "dialogue": "medine-t2.l20.dialogue-2#1" },
+      "explain": "Ce qu'on veut est le complément d'objet : le duel à l'accusatif prend le yā, comme l'adjectif {ar|كَبِيرَيْنِ}."
+    },
+    {
+      "id": "medine-t2.l20.dialogue-2#9",
+      "type": "order",
+      "fr": "J'ai acheté le stylo pour deux riyals.",
+      "answers": [["اِشْتَرَيْتُ", "الْقَلَمَ", "بِرِيَالَيْنِ"]],
+      "punctuation": ".",
+      "explain": "Après {ar|بِ}, le génitif : le duel prend le yā."
+    },
+    {
+      "id": "medine-t2.l20.dialogue-2#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je l'ai acheté pour deux riyals.",
+      "answers": ["اِشْتَرَيْتُهُ بِرِيَالَيْنِ."],
+      "explain": "{ar|اِشْتَرَيْتُ} + {ar|هُ} (« je l'ai acheté »), puis {ar|بِرِيَالَيْنِ} au génitif."
+    }
+  ]
+}

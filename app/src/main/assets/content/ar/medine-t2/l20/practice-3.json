@@ -1,0 +1,123 @@
+{
+  "id": "medine-t2.l20.practice-3",
+  "type": "grammar",
+  "title": "Exercice 4 : dix questions, dix duels",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l20.practice-3#1",
+      "type": "tip",
+      "title": "Exercice 4 : combien ? deux !",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour les dix questions du livre, réponds « deux ». Après {ar|كَمْ}, le nom est au singulier et à l'accusatif ({ar|كَمْ لُغَةً}) ; dans ta réponse, il est au duel. Le plus souvent, ce sera le complément d'objet : le yā ({ar|لُغَتَيْنِ}). Mais si le nom est le sujet de la phrase, c'est l'alif : fais attention aux deux oreillers de la fin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.practice-3#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ لُغَةً تَعْرِفُ؟",
+      "answers": ["أَعْرِفُ لُغَتَيْنِ.", "أَنَا أَعْرِفُ لُغَتَيْنِ.", "لُغَتَيْنِ."],
+      "fr": "Je connais deux langues.",
+      "instruction": "Réponds avec le duel : « je connais deux langues ».",
+      "explain": "Complément d'objet : le yā, {ar|لُغَتَيْنِ}."
+    },
+    {
+      "id": "medine-t2.l20.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "حَفِظْتُ {0}.",
+      "fr": "J'ai mémorisé deux sourates.",
+      "gaps": [ { "answers": ["سُورَتَيْنِ"] } ],
+      "options": ["سُورَتَيْنِ", "سُورَتَانِ", "سُورَةً"],
+      "explain": "Ce qu'on a mémorisé est le complément d'objet : le yā. Le {ar|ة} devient {ar|ت} devant {ar|يْنِ}."
+    },
+    {
+      "id": "medine-t2.l20.practice-3#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ رِسَالَةً كَتَبْتَ يَا أَحْمَدُ؟",
+      "answers": ["كَتَبْتُ رِسَالَتَيْنِ.", "رِسَالَتَيْنِ."],
+      "fr": "J'ai écrit deux lettres.",
+      "instruction": "Réponds avec le duel : « j'ai écrit deux lettres ».",
+      "explain": "Complément d'objet : {ar|رِسَالَتَيْنِ} (le yā)."
+    },
+    {
+      "id": "medine-t2.l20.practice-3#5",
+      "type": "fill_gap",
+      "sentence": "قَتَلْتُ {0}.",
+      "fr": "J'ai tué deux serpents.",
+      "gaps": [ { "answers": ["حَيَّتَيْنِ"] } ],
+      "options": ["حَيَّتَيْنِ", "حَيَّتَانِ", "حَيَّاتٍ"],
+      "explain": "Le complément d'objet est au duel : {ar|حَيَّتَيْنِ}. {ar|حَيَّاتٍ} est un pluriel (trois ou plus)."
+    },
+    {
+      "id": "medine-t2.l20.practice-3#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ دَفْتَرًا اِشْتَرَيْتَ يَا أَخِي؟",
+      "answers": ["اِشْتَرَيْتُ دَفْتَرَيْنِ.", "دَفْتَرَيْنِ."],
+      "fr": "J'ai acheté deux cahiers.",
+      "instruction": "Réponds avec le duel : « j'ai acheté deux cahiers ».",
+      "explain": "Complément d'objet : {ar|دَفْتَرَيْنِ}."
+    },
+    {
+      "id": "medine-t2.l20.practice-3#7",
+      "type": "order",
+      "fr": "L'enseignant m'a posé deux questions.",
+      "answers": [["سَأَلَنِي", "الْمُدَرِّسُ", "سُؤَالَيْنِ"]],
+      "punctuation": ".",
+      "explain": "{ar|سَأَلَنِي} : « il m'a demandé » ; le sujet {ar|الْمُدَرِّسُ} est au nominatif, les deux questions au yā."
+    },
+    {
+      "id": "medine-t2.l20.practice-3#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ طَائِرَةً رَأَيْتَ فِي الْمَطَارِ؟",
+      "answers": ["رَأَيْتُ طَائِرَتَيْنِ.", "رَأَيْتُ طَائِرَتَيْنِ فِي الْمَطَارِ.", "طَائِرَتَيْنِ."],
+      "fr": "J'ai vu deux avions.",
+      "instruction": "Réponds avec le duel : « j'ai vu deux avions ».",
+      "explain": "Complément d'objet : {ar|طَائِرَتَيْنِ}."
+    },
+    {
+      "id": "medine-t2.l20.practice-3#9",
+      "type": "fill_gap",
+      "sentence": "غَسَلَتْ أُخْتِي {0}.",
+      "fr": "Ma sœur a lavé deux mouchoirs.",
+      "gaps": [ { "answers": ["مِنْدِيلَيْنِ"] } ],
+      "options": ["مِنْدِيلَيْنِ", "مِنْدِيلَانِ", "مَنَادِيلُ"],
+      "explain": "Ce qu'elle a lavé est le complément d'objet : le yā."
+    },
+    {
+      "id": "medine-t2.l20.practice-3#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ مُشْطًا تُرِيدُ؟",
+      "answers": ["أُرِيدُ مُشْطَيْنِ.", "مُشْطَيْنِ."],
+      "fr": "Je veux deux peignes.",
+      "instruction": "Réponds avec le duel : « je veux deux peignes ».",
+      "explain": "Complément d'objet : {ar|مُشْطَيْنِ} (on peut dire aussi {ar|مِشْطَيْنِ})."
+    },
+    {
+      "id": "medine-t2.l20.practice-3#11",
+      "type": "fill_gap",
+      "sentence": "عَلَى سَرِيرِي {0}.",
+      "fr": "Il y a deux oreillers sur mon lit.",
+      "gaps": [ { "answers": ["مِخَدَّتَانِ"] } ],
+      "options": ["مِخَدَّتَانِ", "مِخَدَّتَيْنِ", "مِخَدَّةً"],
+      "explain": "Ici, les oreillers sont le sujet, placé après {ar|عَلَى سَرِيرِي} : le nominatif, l'alif."
+    },
+    {
+      "id": "medine-t2.l20.practice-3#12",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ مِخَدَّةً عَلَى سَرِيرِكَ؟",
+      "answers": ["عَلَى سَرِيرِي مِخَدَّتَانِ.", "مِخَدَّتَانِ."],
+      "fr": "Il y a deux oreillers sur mon lit.",
+      "instruction": "Réponds avec le duel : « il y a deux oreillers sur mon lit ».",
+      "explain": "Ici, c'est le sujet, placé après {ar|عَلَى سَرِيرِي} : le nominatif, l'alif, {ar|مِخَدَّتَانِ}."
+    }
+  ]
+}

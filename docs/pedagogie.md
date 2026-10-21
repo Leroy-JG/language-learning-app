@@ -177,6 +177,9 @@ Exemples tirés des leçons 1 à 6 :
   `typing` « question » dont l'énoncé est un simple verbe (`يَشْرَبُونَ` → `لَنْ يَشْرَبُوا`, `l19/practice-6`) et réponse « non » à une question (`l19/practice-2`, en listant la réponse courte et celle qui commence par `لَا،`) ; `build` de `سِفَارَةٌ` (le `ة`, pas le `ه`), de `مُتْعَبٌ` et de `اِعْتَمَرَ` ; `memory` de quatre noms propres (`رَمَضَانُ`, `الْيَهُودُ`, `مُوسَى`, `الْبُخَارِيُّ`, sans image, `l19/vocab-5`) ;
   un tableau de verbes à quatre formes qui réutilise un verbe déjà enseigné (`لَبِسَ`, `l19/vocab-4`) sans le redéfinir, suivi d'un `sort` « passé / présent / impératif ».
 
+- (Tome 2, leçon 20) `fill_gap` dont les trois options sont le même nom à trois cas du duel (`الْمُدَرِّسَانِ` / `الْمُدَرِّسَيْنِ` / `الْمُدَرِّسُونَ`, `بِرِيَالَيْنِ` / `بِرِيَالَانِ` / `بِرِيَالٍ` : elles diffèrent par une lettre, jamais par les seuls harakat) ; `sort` « nominatif / accusatif ou génitif » (la lettre avant le `ن` suffit : `طَالِبَانِ` / `قَلَمَيْنِ`) et à trois catégories (`الْمَرْفُوعُ` / `الْمَنْصُوبُ` / `الْمَجْرُورُ`, phrases dont un seul nom varie et dont la fonction se lit sur le verbe ou la préposition) ;
+  `sort` « de base / secondaire » appliqué aux phrases du professeur ; `sort` « `أَحَدُهُمَا` ou `إِحْدَاهُمَا` ? » (le genre du duel se lit au `ة` → `ت`) et « `ذُو` ou `ذَاتُ` ? » ; `breakdown` de `أَحَدُهُمَا` (`أَحَدُ` + `هُمَا`) ; `typing` « question » dont le yā ou l'alif du duel est le seul enjeu (l'instruction nomme le mot à mettre au duel) ; `memory` de quatre objets sans image (`مُشْطٌ`, `مِخَدَّةٌ`, `زِرٌّ`, `مِرْآةٌ`) ; `build` de `مِخَدَّةٌ`, `مَنَارَةٌ` (le `ة`, pas le `ه`) et de `حَادِثٌ` (qu'on ne confond pas avec `حَدِيثٌ`).
+
 ### Entraîner une voyelle finale (kasra, fatha…)
 
 Le validateur refuse deux choix qui ne diffèrent que par les harakat (`الْبَيْتِ` / `الْبَيْتُ`), et le

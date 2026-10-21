@@ -1,0 +1,53 @@
+{
+  "id": "medine-t2.l20.vocab-1",
+  "type": "vocabulary",
+  "title": "Peigne, oreiller, bouton et miroir",
+  "icon": "bed",
+  "screens": [
+    { "id": "medine-t2.l20.vocab-1#1", "type": "present", "item": "w:musht" },
+    { "id": "medine-t2.l20.vocab-1#2", "type": "present", "item": "w:mikhadda" },
+    {
+      "id": "medine-t2.l20.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:musht",
+      "distractors": ["w:mindil", "w:miftah"]
+    },
+    { "id": "medine-t2.l20.vocab-1#4", "type": "present", "item": "w:zirr" },
+    { "id": "medine-t2.l20.vocab-1#5", "type": "present", "item": "w:mira" },
+    {
+      "id": "medine-t2.l20.vocab-1#6",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:musht", "w:mikhadda", "w:zirr", "w:mira"]
+    },
+    {
+      "id": "medine-t2.l20.vocab-1#7",
+      "type": "fill_gap",
+      "sentence": "عَلَى السَّرِيرِ {0}.",
+      "fr": "Il y a un oreiller sur le lit.",
+      "gaps": [ { "answers": ["مِخَدَّةٌ"] } ],
+      "options": ["مِخَدَّةٌ", "مُشْطٌ", "زِرٌّ"],
+      "explain": "« Un oreiller » : {ar|مِخَدَّةٌ}, qui est féminin."
+    },
+    {
+      "id": "medine-t2.l20.vocab-1#8",
+      "type": "fill_gap",
+      "sentence": "نَظَرَ زَيْدٌ إِلَى {0}.",
+      "fr": "Zayd a regardé le miroir.",
+      "gaps": [ { "answers": ["الْمِرْآةِ"] } ],
+      "options": ["الْمِرْآةِ", "الْمُشْطِ", "الْمِخَدَّةِ"],
+      "explain": "Après {ar|إِلَى}, le génitif : {ar|الْمِرْآةِ}."
+    },
+    { "id": "medine-t2.l20.vocab-1#9", "type": "build", "item": "w:mikhadda", "extra": ["ه"] },
+    { "id": "medine-t2.l20.vocab-1#10", "type": "typing", "ask": "fr", "item": "w:zirr" },
+    {
+      "id": "medine-t2.l20.vocab-1#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ma chemise a cinq boutons.",
+      "answers": ["فِي قَمِيصِي خَمْسَةُ أَزْرَارٍ."],
+      "explain": "De 3 à 10, le dénombré est au pluriel et au génitif : {ar|خَمْسَةُ أَزْرَارٍ}."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "medine-t2.l20",
+  "number": 20,
+  "title": { "ar": "الدَّرْسُ الْعِشْرُونَ", "fr": "Revoir le duel et les marques du cas" },
+  "description": "Revoir l'{ar|إِعْرَابُ} du nom (marques de base et marques secondaires) et le duel ({ar|الْمُثَنَّى}) à ses trois cas, la construction {ar|أَحَدُهُمَا وَالْآخَرُ} (« l'un des deux, l'autre »), le vocabulaire, le texte du livre (un père et ses fils) et ses exercices : le duel après {ar|كَمْ}, et {ar|ذُو} et {ar|ذَاتُ} devant un duel.",
+  "source": "Tome de Médine 2, leçon 20",
+  "sections": [
+    { "title": "Revoir : les marques du cas et le duel", "activities": ["revue-1", "revue-2"] },
+    { "title": "Des mots nouveaux", "activities": ["vocab-1", "vocab-2", "vocab-3", "vocab-4"] },
+    { "title": "L'un des deux, l'autre", "activities": ["grammar-1"] },
+    { "title": "Le texte du livre", "activities": ["dialogue-1", "dialogue-2"] },
+    {
+      "title": "Les exercices du livre",
+      "activities": [
+        "practice-1",
+        "practice-2",
+        "practice-3",
+        "practice-4",
+        "practice-5",
+        "practice-6",
+        "practice-7",
+        "practice-8",
+        "practice-9"
+      ]
+    },
+    { "title": "Bilan", "activities": ["quiz"] }
+  ]
+}

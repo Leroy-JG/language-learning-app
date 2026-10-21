@@ -1,0 +1,89 @@
+{
+  "id": "medine-t2.l20.practice-5",
+  "type": "grammar",
+  "title": "Exercice 5 : combien ? (6 à 10)",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l20.practice-5#1",
+      "type": "typing",
+      "ask": "question",
+      "question": "مِنْ كَمْ بَابًا خَرَجَ الطُّلَّابُ مِنَ الْكُلِّيَّةِ؟",
+      "answers": ["خَرَجُوا مِنْ بَابَيْنِ.", "خَرَجَ الطُّلَّابُ مِنْ بَابَيْنِ.", "مِنْ بَابَيْنِ."],
+      "fr": "Ils sont sortis par deux portes.",
+      "instruction": "Réponds avec le duel : « ils sont sortis par deux portes ».",
+      "explain": "Après {ar|مِنْ}, le génitif : {ar|بَابَيْنِ}."
+    },
+    {
+      "id": "medine-t2.l20.practice-5#2",
+      "type": "fill_gap",
+      "sentence": "خَرَجَ الطُّلَّابُ مِنْ {0}.",
+      "fr": "Les étudiants sont sortis par deux portes.",
+      "gaps": [ { "answers": ["بَابَيْنِ"] } ],
+      "options": ["بَابَيْنِ", "بَابَانِ", "بَابٍ"],
+      "explain": "Après {ar|مِنْ}, le génitif : le duel prend le yā."
+    },
+    {
+      "id": "medine-t2.l20.practice-5#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "إِلَى كَمْ صَيْدَلِيَّةً ذَهَبْتَ يَا حَامِدُ؟",
+      "answers": ["ذَهَبْتُ إِلَى صَيْدَلِيَّتَيْنِ.", "إِلَى صَيْدَلِيَّتَيْنِ.", "صَيْدَلِيَّتَيْنِ."],
+      "fr": "Je suis allé à deux pharmacies.",
+      "instruction": "Réponds avec le duel : « je suis allé à deux pharmacies ».",
+      "explain": "Après {ar|إِلَى}, le génitif : {ar|صَيْدَلِيَّتَيْنِ}."
+    },
+    {
+      "id": "medine-t2.l20.practice-5#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "فِي كَمْ صَحِيفَةً قَرَأْتَ هٰذَا الْخَبَرَ؟",
+      "answers": ["قَرَأْتُهُ فِي صَحِيفَتَيْنِ.", "قَرَأْتُ هٰذَا الْخَبَرَ فِي صَحِيفَتَيْنِ.", "فِي صَحِيفَتَيْنِ."],
+      "fr": "Je l'ai lue dans deux journaux.",
+      "instruction": "Réponds avec le duel : « je l'ai lue dans deux journaux ».",
+      "explain": "Après {ar|فِي}, le génitif : {ar|صَحِيفَتَيْنِ}. {ar|هُ} reprend {ar|الْخَبَرَ} (masculin)."
+    },
+    {
+      "id": "medine-t2.l20.practice-5#5",
+      "type": "sort",
+      "categories": [ { "fr": "après une préposition" }, { "fr": "complément d'objet" } ],
+      "cards": [
+        { "ar": "فِي صَحِيفَتَيْنِ", "category": 0 },
+        { "ar": "اِشْتَرَيْتُ دَفْتَرَيْنِ", "category": 1 },
+        { "ar": "مِنْ بَابَيْنِ", "category": 0 },
+        { "ar": "كَتَبْتُ رِسَالَتَيْنِ", "category": 1 },
+        { "ar": "إِلَى صَيْدَلِيَّتَيْنِ", "category": 0 },
+        { "ar": "رَأَيْتُ طَائِرَتَيْنِ", "category": 1 }
+      ],
+      "instruction": "Pourquoi le yā ?",
+      "explain": "Après une préposition (le génitif) comme pour le complément d'objet (l'accusatif), le duel prend le yā : seul le rôle du nom change."
+    },
+    {
+      "id": "medine-t2.l20.practice-5#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "بِكَمْ جَامِعَةً دَرَسْتَ؟",
+      "answers": ["دَرَسْتُ بِجَامِعَتَيْنِ.", "دَرَسْتُ فِي جَامِعَتَيْنِ.", "بِجَامِعَتَيْنِ."],
+      "fr": "J'ai étudié dans deux universités.",
+      "instruction": "Réponds avec le duel : « j'ai étudié dans deux universités ».",
+      "explain": "Ici, {ar|بِ} veut dire « dans » (comme {ar|فِي}) : le génitif, le yā."
+    },
+    {
+      "id": "medine-t2.l20.practice-5#7",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|بِكَمْ جَامِعَةً دَرَسْتَ؟}, la préposition {ar|بِ} veut dire « pour (le prix de) »." },
+      "answer": false,
+      "explain": "Ici, la question porte sur le nombre d'universités : {ar|بِ} veut dire « dans », comme {ar|فِي}. Avec un prix, {ar|بِ} veut dire « pour »."
+    },
+    {
+      "id": "medine-t2.l20.practice-5#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ جَامِعَةً فِي بَلَدِكُمْ؟",
+      "answers": ["فِي بَلَدِنَا جَامِعَتَانِ.", "جَامِعَتَانِ."],
+      "fr": "Dans notre pays, il y a deux universités.",
+      "instruction": "Réponds avec le duel : « dans notre pays, il y a deux universités ».",
+      "explain": "Les universités sont le sujet, placé après {ar|فِي بَلَدِنَا} : le nominatif, {ar|جَامِعَتَانِ} (l'alif)."
+    }
+  ]
+}

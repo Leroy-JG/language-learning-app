@@ -1,0 +1,107 @@
+{
+  "id": "medine-t2.l20.practice-8",
+  "type": "grammar",
+  "title": "Exercice 7 : une phrase pour chaque mot",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l20.practice-8#1",
+      "type": "tip",
+      "title": "Exercice 7 : faire une phrase",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre demande de faire une phrase avec chacun de ces quatre mots. Voici une phrase modèle pour chacun ; le cas du duel dépend de son rôle."
+        },
+        {
+          "type": "table",
+          "header": ["Le mot", "Son rôle", "Une phrase modèle"],
+          "rows": [
+            ["{ar|كِتَابَانِ}", "le sujet (nominatif)", "{ar|عَلَى الْمَكْتَبِ كِتَابَانِ.}"],
+            ["{ar|كِتَابَيْنِ}", "le complément d'objet (accusatif)", "{ar|اِشْتَرَيْتُ كِتَابَيْنِ.}"],
+            ["{ar|طَالِبَيْنِ}", "le complément d'objet (accusatif)", "{ar|رَأَيْتُ طَالِبَيْنِ فِي الْمَسْجِدِ.}"],
+            ["{ar|طَالِبَانِ}", "le sujet (nominatif)", "{ar|جَاءَ طَالِبَانِ.}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Ce sont des phrases modèles : tu peux en faire d'autres. Le yā se trouve aussi après une préposition : {ar|ذَهَبْتُ إِلَى طَالِبَيْنِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.practice-8#2",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif ({ar|◌َانِ})" }, { "fr": "accusatif ou génitif ({ar|◌َيْنِ})" } ],
+      "cards": [
+        { "ar": "كِتَابَانِ", "category": 0 },
+        { "ar": "طَالِبَيْنِ", "category": 1 },
+        { "ar": "طَالِبَانِ", "category": 0 },
+        { "ar": "كِتَابَيْنِ", "category": 1 }
+      ],
+      "instruction": "Nominatif ou accusatif / génitif ?",
+      "explain": "La lettre avant le {ar|ن} : l'alif pour le nominatif, le yā pour l'accusatif et le génitif."
+    },
+    {
+      "id": "medine-t2.l20.practice-8#3",
+      "type": "fill_gap",
+      "sentence": "عَلَى الْمَكْتَبِ {0}.",
+      "fr": "Il y a deux livres sur le bureau.",
+      "gaps": [ { "answers": ["كِتَابَانِ"] } ],
+      "options": ["كِتَابَانِ", "كِتَابَيْنِ", "كِتَابٌ"],
+      "explain": "Les livres sont le sujet, placé après {ar|عَلَى الْمَكْتَبِ} : le nominatif, l'alif."
+    },
+    {
+      "id": "medine-t2.l20.practice-8#4",
+      "type": "fill_gap",
+      "sentence": "اِشْتَرَيْتُ {0}.",
+      "fr": "J'ai acheté deux livres.",
+      "gaps": [ { "answers": ["كِتَابَيْنِ"] } ],
+      "options": ["كِتَابَيْنِ", "كِتَابَانِ", "كِتَابٌ"],
+      "explain": "Ce qu'on a acheté est le complément d'objet : le yā."
+    },
+    {
+      "id": "medine-t2.l20.practice-8#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a deux livres sur le bureau.",
+      "answers": ["عَلَى الْمَكْتَبِ كِتَابَانِ."],
+      "explain": "Le sujet est un nom indéfini : il vient après {ar|عَلَى الْمَكْتَبِ}, au nominatif (l'alif)."
+    },
+    {
+      "id": "medine-t2.l20.practice-8#6",
+      "type": "fill_gap",
+      "sentence": "جَاءَ {0}.",
+      "fr": "Deux étudiants sont venus.",
+      "gaps": [ { "answers": ["طَالِبَانِ"] } ],
+      "options": ["طَالِبَانِ", "طَالِبَيْنِ", "طَالِبٌ"],
+      "explain": "Le sujet du verbe est au nominatif : l'alif."
+    },
+    {
+      "id": "medine-t2.l20.practice-8#7",
+      "type": "fill_gap",
+      "sentence": "رَأَيْتُ {0} فِي الْمَسْجِدِ.",
+      "fr": "J'ai vu deux étudiants à la mosquée.",
+      "gaps": [ { "answers": ["طَالِبَيْنِ"] } ],
+      "options": ["طَالِبَيْنِ", "طَالِبَانِ", "طَالِبًا"],
+      "explain": "Ce qu'on a vu est le complément d'objet : le yā."
+    },
+    {
+      "id": "medine-t2.l20.practice-8#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Deux étudiants sont venus.",
+      "answers": ["جَاءَ طَالِبَانِ."],
+      "explain": "Le sujet, au nominatif : l'alif. Le verbe reste au singulier."
+    },
+    {
+      "id": "medine-t2.l20.practice-8#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai acheté deux livres.",
+      "answers": ["اِشْتَرَيْتُ كِتَابَيْنِ."],
+      "explain": "Complément d'objet : le yā."
+    }
+  ]
+}

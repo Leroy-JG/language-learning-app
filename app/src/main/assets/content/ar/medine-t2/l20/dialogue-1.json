@@ -1,0 +1,163 @@
+{
+  "id": "medine-t2.l20.dialogue-1",
+  "type": "dialogue",
+  "title": "Les sourates et deux mots nouveaux",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l20.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Les sourates et deux mots nouveaux",
+      "intro": "Un père interroge ses fils. Écoute les duels : {ar|سُورَتَيْنِ}, {ar|مُدَرِّسَانِ}, {ar|كَلِمَتَيْنِ}.",
+      "speakers": {
+        "P": { "name": "Le père", "voice": "m1" },
+        "B": { "name": "Bashīr", "voice": "m2" },
+        "U": { "name": "ʿUmar", "voice": "m2" },
+        "M": { "name": "Muʿāwiya", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "P",
+          "ar": "كَمْ سُورَةً حَفِظْتَ يَا بَشِيرُ؟",
+          "fr": "Combien de sourates as-tu mémorisées, Bashīr ?"
+        },
+        { "speaker": "B", "ar": "حَفِظْتُ سُورَةً وَاحِدَةً.", "fr": "J'ai mémorisé une seule sourate." },
+        {
+          "speaker": "P",
+          "ar": "وَكَمْ سُورَةً حَفِظْتَ يَا عُمَرُ؟",
+          "fr": "Et toi, combien de sourates as-tu mémorisées, ʿUmar ?"
+        },
+        { "speaker": "U", "ar": "أَنَا حَفِظْتُ سُورَتَيْنِ.", "fr": "Moi, j'ai mémorisé deux sourates." },
+        {
+          "speaker": "M",
+          "ar": "يَا أَبَتِ، جَاءَ الْيَوْمَ مُدَرِّسَانِ جَدِيدَانِ، أَحَدُهُمَا لِلْفِقْهِ وَالْآخَرُ لِلْحَدِيثِ.",
+          "fr": "Père, deux nouveaux enseignants sont venus aujourd'hui : l'un pour le fiqh et l'autre pour le hadith."
+        },
+        {
+          "speaker": "B",
+          "ar": "يَا أَبَتِ، قَرَأْتُ الْيَوْمَ كَلِمَتَيْنِ جَدِيدَتَيْنِ فِي هٰذَا الْكِتَابِ.",
+          "fr": "Père, j'ai lu aujourd'hui deux mots nouveaux dans ce livre."
+        },
+        { "speaker": "P", "ar": "مَا هُمَا؟", "fr": "Quels sont-ils ?" },
+        {
+          "speaker": "B",
+          "ar": "هُمَا الْمِشْطُ وَالْمِخَدَّةُ.",
+          "fr": "Ce sont « le peigne » et « l'oreiller »."
+        },
+        { "speaker": "P", "ar": "أَعَرَفْتَ مَعْنَاهُمَا؟", "fr": "Connais-tu leur sens ?" },
+        {
+          "speaker": "B",
+          "ar": "نَعَمْ، سَأَلْتُ الْمُدَرِّسَ، فَشَرَحَ لِي مَعْنَاهُمَا.",
+          "fr": "Oui, j'ai demandé à l'enseignant, et il m'a expliqué leur sens."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Presque tout ce texte est connu. Voici ce qu'il faut remarquer :" },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            [
+              "{ar|كَمْ سُورَةً حَفِظْتَ؟}",
+              "combien de sourates as-tu mémorisées ?",
+              "{ar|كَمْ} + un nom au singulier, à l'accusatif (tome 1, chapitre 18)"
+            ],
+            ["{ar|سُورَتَيْنِ}", "deux sourates", "un duel à l'accusatif : le yā (c'est ce qu'on a mémorisé)"],
+            [
+              "{ar|جَاءَ الْيَوْمَ مُدَرِّسَانِ}",
+              "deux enseignants sont venus aujourd'hui",
+              "le verbe reste au singulier devant son sujet, au duel et au nominatif : l'alif"
+            ],
+            ["{ar|أَحَدُهُمَا} … {ar|وَالْآخَرُ}", "l'un… et l'autre", "voir l'activité « L'un des deux, l'autre »"],
+            ["{ar|كَلِمَتَيْنِ جَدِيدَتَيْنِ}", "deux mots nouveaux", "l'adjectif suit le duel, avec le même cas"],
+            ["{ar|مَا هُمَا؟}", "quels sont-ils ?", "{ar|مَا} + {ar|هُمَا} (« eux deux »)"],
+            [
+              "{ar|الْمِشْطُ}",
+              "le peigne",
+              "le livre écrit {ar|مِشْطٌ} (kasra) ; le vocabulaire a {ar|مُشْطٌ} : les deux sont justes"
+            ],
+            [
+              "{ar|مَعْنَاهُمَا}",
+              "leur sens (à eux deux)",
+              "{ar|مَعْنًى} + {ar|هُمَا} : le {ar|ى} devient {ar|ا} (comme {ar|إِحْدَاهُمَا})"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Combien de sourates ʿUmar a-t-il mémorisées ?" },
+      "choices": [ { "fr": "Deux" }, { "fr": "Une" }, { "fr": "Trois" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l20.dialogue-1#1" },
+      "explain": "{ar|أَنَا حَفِظْتُ سُورَتَيْنِ} : « moi, j'ai mémorisé deux sourates »."
+    },
+    {
+      "id": "medine-t2.l20.dialogue-1#4",
+      "type": "true_false",
+      "statement": { "fr": "Bashīr a mémorisé deux sourates." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l20.dialogue-1#1" },
+      "explain": "Il en a mémorisé une seule : {ar|حَفِظْتُ سُورَةً وَاحِدَةً}. C'est ʿUmar qui en a mémorisé deux."
+    },
+    {
+      "id": "medine-t2.l20.dialogue-1#5",
+      "type": "question",
+      "prompt": { "fr": "Quels sont les deux mots nouveaux lus par Bashīr ?" },
+      "choices": [
+        { "fr": "Le peigne et l'oreiller" },
+        { "fr": "Le miroir et le bouton" },
+        { "fr": "Le cahier et le dossier" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l20.dialogue-1#1" },
+      "explain": "{ar|هُمَا الْمِشْطُ وَالْمِخَدَّةُ} : « ce sont le peigne et l'oreiller »."
+    },
+    {
+      "id": "medine-t2.l20.dialogue-1#6",
+      "type": "question",
+      "prompt": { "fr": "Que fait chacun des deux nouveaux enseignants ?" },
+      "choices": [
+        { "fr": "L'un enseigne le fiqh, l'autre le hadith" },
+        { "fr": "L'un enseigne le fiqh, l'autre l'exégèse" },
+        { "fr": "Tous les deux enseignent le hadith" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l20.dialogue-1#1" },
+      "explain": "{ar|أَحَدُهُمَا لِلْفِقْهِ وَالْآخَرُ لِلْحَدِيثِ} : « l'un est pour le fiqh et l'autre pour le hadith »."
+    },
+    {
+      "id": "medine-t2.l20.dialogue-1#7",
+      "type": "fill_gap",
+      "sentence": "جَاءَ الْيَوْمَ {0} جَدِيدَانِ.",
+      "fr": "Deux nouveaux enseignants sont venus aujourd'hui.",
+      "gaps": [ { "answers": ["مُدَرِّسَانِ"] } ],
+      "options": ["مُدَرِّسَانِ", "مُدَرِّسَيْنِ", "مُدَرِّسٌ"],
+      "context": { "dialogue": "medine-t2.l20.dialogue-1#1" },
+      "explain": "Le sujet est au nominatif : le duel prend l'alif, comme l'adjectif {ar|جَدِيدَانِ}."
+    },
+    {
+      "id": "medine-t2.l20.dialogue-1#8",
+      "type": "order",
+      "fr": "Moi, j'ai mémorisé deux sourates.",
+      "answers": [["أَنَا", "حَفِظْتُ", "سُورَتَيْنِ"]],
+      "punctuation": ".",
+      "explain": "{ar|سُورَتَيْنِ} : le duel à l'accusatif, ce qu'on a mémorisé."
+    },
+    {
+      "id": "medine-t2.l20.dialogue-1#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Père, j'ai lu aujourd'hui deux mots nouveaux dans ce livre.",
+      "answers": ["يَا أَبَتِ، قَرَأْتُ الْيَوْمَ كَلِمَتَيْنِ جَدِيدَتَيْنِ فِي هٰذَا الْكِتَابِ."],
+      "explain": "{ar|كَلِمَتَيْنِ جَدِيدَتَيْنِ} : un duel féminin à l'accusatif, et son adjectif."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "medine-t2.l20.vocab-3",
+  "type": "vocabulary",
+  "title": "Égorger, expliquer, suffire, honorer",
+  "icon": "teacher",
+  "screens": [
+    { "id": "medine-t2.l20.vocab-3#1", "type": "present", "item": "w:dhabaha" },
+    { "id": "medine-t2.l20.vocab-3#2", "type": "present", "item": "w:sharaha" },
+    {
+      "id": "medine-t2.l20.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:dhabaha",
+      "distractors": ["w:dakhala", "w:kharaja"]
+    },
+    { "id": "medine-t2.l20.vocab-3#4", "type": "present", "item": "w:kafa" },
+    { "id": "medine-t2.l20.vocab-3#5", "type": "present", "item": "w:akrama" },
+    {
+      "id": "medine-t2.l20.vocab-3#6",
+      "type": "tip",
+      "title": "Les formes de ces verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne les quatre formes de chaque verbe. Le nom d'action ({ar|الْمَصْدَرُ}) est la dernière colonne. Il ne donne pas celles de {ar|أَكْرَمَ} : on les a ajoutées."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["égorger", "{ar|ذَبَحَ}", "{ar|يَذْبَحُ}", "{ar|اِذْبَحْ}", "{ar|ذَبْحًا}"],
+            ["expliquer", "{ar|شَرَحَ}", "{ar|يَشْرَحُ}", "{ar|اِشْرَحْ}", "{ar|شَرْحًا}"],
+            ["suffire", "{ar|كَفَى}", "{ar|يَكْفِي}", "{ar|اِكْفِ}", "{ar|كِفَايَةً}"],
+            ["honorer", "{ar|أَكْرَمَ}", "{ar|يُكْرِمُ}", "{ar|أَكْرِمْ}", "{ar|إِكْرَامًا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Impératif de {ar|كَفَى} : le {ar|ي} de {ar|يَكْفِي} tombe ({ar|اِكْفِ}), comme pour {ar|اِجْزِ} au chapitre 19. Et l'alif de {ar|اِذْبَحْ} et de {ar|اِشْرَحْ} porte une kasra, parce que la voyelle du présent est une fatha."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le {ar|أَ} de {ar|أَكْرِمْ} est une hamza qu'on prononce toujours, même au début d'une phrase : le verbe a quatre lettres au passé ({ar|أَكْرَمَ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.vocab-3#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:dhabaha", "w:sharaha", "w:kafa", "w:akrama"]
+    },
+    {
+      "id": "medine-t2.l20.vocab-3#8",
+      "type": "sort",
+      "categories": [ { "fr": "le passé" }, { "fr": "le présent" }, { "fr": "l'impératif" } ],
+      "cards": [
+        { "ar": "ذَبَحَ", "category": 0 },
+        { "ar": "يَشْرَحُ", "category": 1 },
+        { "ar": "اِكْفِ", "category": 2 },
+        { "ar": "شَرَحَ", "category": 0 },
+        { "ar": "يَذْبَحُ", "category": 1 },
+        { "ar": "اِذْبَحْ", "category": 2 }
+      ],
+      "instruction": "C'est quelle forme du verbe ?",
+      "explain": "Ici, le passé (3ᵉ personne) finit par une fatha, le présent (3ᵉ personne) commence par {ar|يَ} et l'impératif commence par un alif."
+    },
+    {
+      "id": "medine-t2.l20.vocab-3#9",
+      "type": "fill_gap",
+      "sentence": "أَبِي {0} دَجَاجَةً.",
+      "fr": "Mon père a égorgé une poule.",
+      "gaps": [ { "answers": ["ذَبَحَ"] } ],
+      "options": ["ذَبَحَ", "شَرَحَ", "كَفَى"],
+      "explain": "« Il a égorgé » : {ar|ذَبَحَ}, avec son complément d'objet {ar|دَجَاجَةً}."
+    },
+    {
+      "id": "medine-t2.l20.vocab-3#10",
+      "type": "fill_gap",
+      "sentence": "{0} لِي الْمُدَرِّسُ الدَّرْسَ.",
+      "fr": "L'enseignant m'a expliqué la leçon.",
+      "gaps": [ { "answers": ["شَرَحَ"] } ],
+      "options": ["شَرَحَ", "ذَبَحَ", "أَكْرَمَ"],
+      "explain": "« Il a expliqué » : {ar|شَرَحَ}. On explique à quelqu'un avec {ar|لِ} : {ar|شَرَحَ لِي}."
+    },
+    {
+      "id": "medine-t2.l20.vocab-3#11",
+      "type": "fill_gap",
+      "sentence": "{0} رِيَالٌ.",
+      "fr": "Un riyal me suffit.",
+      "gaps": [ { "answers": ["يَكْفِينِي"] } ],
+      "options": ["يَكْفِينِي", "يَشْرَحُ", "يَذْبَحُ"],
+      "explain": "{ar|يَكْفِينِي} : « il me suffit » ({ar|يَكْفِي} + {ar|نِي}). Le sujet {ar|رِيَالٌ} vient après le verbe."
+    },
+    {
+      "id": "medine-t2.l20.vocab-3#12",
+      "type": "order",
+      "fr": "Mon père a égorgé une poule.",
+      "answers": [["ذَبَحَ", "أَبِي", "دَجَاجَةً"], ["أَبِي", "ذَبَحَ", "دَجَاجَةً"]],
+      "punctuation": ".",
+      "explain": "Le verbe peut précéder ou suivre son sujet {ar|أَبِي}."
+    },
+    { "id": "medine-t2.l20.vocab-3#13", "type": "typing", "ask": "fr", "item": "w:sharaha" },
+    {
+      "id": "medine-t2.l20.vocab-3#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Un riyal me suffit.",
+      "answers": ["يَكْفِينِي رِيَالٌ."],
+      "explain": "{ar|يَكْفِي} + {ar|نِي} : « il me suffit »."
+    }
+  ]
+}

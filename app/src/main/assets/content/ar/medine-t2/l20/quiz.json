@@ -1,0 +1,170 @@
+{
+  "id": "medine-t2.l20.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l20.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:mira",
+      "distractors": ["w:zirr", "w:mikhadda"]
+    },
+    {
+      "id": "medine-t2.l20.quiz#2",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la marque du duel au génitif ?" },
+      "choices": [ { "fr": "Le yā" }, { "fr": "L'alif" }, { "fr": "La kasra" } ],
+      "answer": 0,
+      "explain": "Au génitif comme à l'accusatif, le duel prend le yā ({ar|يْنِ}). L'alif est réservé au nominatif."
+    },
+    {
+      "id": "medine-t2.l20.quiz#3",
+      "type": "sort",
+      "categories": [ { "fr": "de base" }, { "fr": "secondaire" } ],
+      "cards": [
+        { "ar": "جَاءَ الْمُدَرِّسُ.", "category": 0 },
+        { "ar": "جَاءَ الْمُدَرِّسَانِ.", "category": 1 },
+        { "ar": "أُحِبُّ الْمُسْلِمِينَ.", "category": 1 },
+        { "ar": "رَأَيْتُ الْمُدَرِّسَ.", "category": 0 },
+        { "ar": "السَّلَامُ عَلَى فَاطِمَةَ.", "category": 1 },
+        { "ar": "فِي الْفَصْلِ طَالِبٌ.", "category": 0 }
+      ],
+      "instruction": "Marque de base ou marque secondaire ?",
+      "explain": "Une voyelle ordinaire (damma, fatha, kasra) est une marque de base ; une lettre ({ar|ا}, {ar|ي}, {ar|و}) ou la fatha d'un nom sans tanwin au génitif est une marque secondaire."
+    },
+    {
+      "id": "medine-t2.l20.quiz#4",
+      "type": "fill_gap",
+      "sentence": "جَاءَتْ {0} جَدِيدَتَانِ.",
+      "fr": "Deux nouvelles enseignantes sont venues.",
+      "gaps": [ { "answers": ["مُدَرِّسَتَانِ"] } ],
+      "options": ["مُدَرِّسَتَانِ", "مُدَرِّسَتَيْنِ", "مُدَرِّسَةٌ"],
+      "explain": "Le sujet est au nominatif : le duel prend l'alif, comme l'adjectif {ar|جَدِيدَتَانِ}."
+    },
+    {
+      "id": "medine-t2.l20.quiz#5",
+      "type": "true_false",
+      "statement": { "fr": "Quand le sujet est un duel placé après le verbe, le verbe se met aussi au duel." },
+      "answer": false,
+      "explain": "Faux : il reste au singulier ({ar|جَاءَ طَالِبَانِ}). Il s'accorde seulement en genre ({ar|جَاءَتْ مُدَرِّسَتَانِ})."
+    },
+    {
+      "id": "medine-t2.l20.quiz#6",
+      "type": "spot",
+      "instruction": "Touche les deux mots au duel.",
+      "words": ["فِي", "الْفَصْلِ", "طَالِبَانِ", "جَدِيدَانِ."],
+      "answers": [2, 3],
+      "fr": "Dans la salle de classe, il y a deux nouveaux étudiants.",
+      "explain": "{ar|طَالِبَانِ} est le sujet, au duel et au nominatif ; l'adjectif {ar|جَدِيدَانِ} le suit."
+    },
+    {
+      "id": "medine-t2.l20.quiz#7",
+      "type": "order",
+      "fr": "J'ai acheté deux chemises : l'une est pour moi et l'autre pour mon petit frère.",
+      "answers": [["اِشْتَرَيْتُ", "قَمِيصَيْنِ،", "أَحَدُهُمَا", "لِي", "وَالْآخَرُ", "لِأَخِي", "الصَّغِيرِ"]],
+      "punctuation": ".",
+      "explain": "{ar|قَمِيصٌ} est masculin : {ar|أَحَدُهُمَا} et {ar|الْآخَرُ}."
+    },
+    {
+      "id": "medine-t2.l20.quiz#8",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:tafsir",
+      "distractors": ["w:hadith", "w:kitab"]
+    },
+    {
+      "id": "medine-t2.l20.quiz#9",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:zirr", "w:junayh", "w:hadith-accident", "w:manara"]
+    },
+    {
+      "id": "medine-t2.l20.quiz#10",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:sharaha",
+      "distractors": ["w:dhabaha", "w:kafa"]
+    },
+    {
+      "id": "medine-t2.l20.quiz#11",
+      "type": "question",
+      "prompt": { "fr": "Pour deux sœurs, comment dit-on « l'une d'elles » ?" },
+      "choices": [ { "ar": "إِحْدَاهُمَا" }, { "ar": "أَحَدُهُمَا" }, { "ar": "الْآخَرُ" } ],
+      "answer": 0,
+      "explain": "Deux noms féminins : {ar|إِحْدَاهُمَا}. {ar|أَحَدُهُمَا} est pour deux noms masculins."
+    },
+    { "id": "medine-t2.l20.quiz#12", "type": "build", "item": "w:hadith-accident", "extra": ["ت"] },
+    {
+      "id": "medine-t2.l20.quiz#13",
+      "type": "question",
+      "prompt": { "fr": "Pour dire « une voiture à deux portes », quel mot place-t-on devant {ar|الْبَابَيْنِ} ?" },
+      "choices": [ { "ar": "ذَاتُ" }, { "ar": "ذُو" }, { "ar": "ذَا" } ],
+      "answer": 0,
+      "explain": "{ar|سَيَّارَةٌ} est féminine et ici au nominatif : {ar|السَّيَّارَةُ ذَاتُ الْبَابَيْنِ}."
+    },
+    {
+      "id": "medine-t2.l20.quiz#14",
+      "type": "true_false",
+      "statement": { "fr": "{ar|حَادِثٌ} (un accident) et {ar|حَدِيثٌ} (un hadith) sont le même mot." },
+      "answer": false,
+      "explain": "Ce sont deux mots différents : {ar|حَادِثٌ} (pluriel {ar|حَوَادِثُ}) et {ar|حَدِيثٌ} (pluriel {ar|أَحَادِيثُ})."
+    },
+    {
+      "id": "medine-t2.l20.quiz#15",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi {ar|بِكَمْ رِيَالًا؟} et {ar|بِكَمْ رِيَالٍ؟} sont-ils tous les deux justes ?" },
+      "choices": [
+        { "fr": "Après une préposition suivie de {ar|كَمْ}, le nom peut être à l'accusatif ou au génitif" },
+        { "fr": "Parce que le tanwin ne compte pas" },
+        { "fr": "Parce que les deux sont au pluriel" }
+      ],
+      "answer": 0,
+      "explain": "Le livre écrit l'accusatif ({ar|رِيَالًا}) ; le génitif ({ar|رِيَالٍ}) est aussi correct."
+    },
+    {
+      "id": "medine-t2.l20.quiz#16",
+      "type": "fill_gap",
+      "sentence": "لِي أُخْتَانِ، {0} طَالِبَةٌ وَالْأُخْرَى مُدَرِّسَةٌ.",
+      "fr": "J'ai deux sœurs : l'une est étudiante et l'autre enseignante.",
+      "gaps": [ { "answers": ["إِحْدَاهُمَا"] } ],
+      "options": ["إِحْدَاهُمَا", "أَحَدُهُمَا", "الْآخَرُ"],
+      "explain": "{ar|أُخْتَانِ} est féminin : {ar|إِحْدَاهُمَا} et {ar|الْأُخْرَى}."
+    },
+    {
+      "id": "medine-t2.l20.quiz#17",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai acheté deux dossiers.",
+      "answers": ["اِشْتَرَيْتُ مِلَفَّيْنِ."],
+      "explain": "Complément d'objet : le duel prend le yā."
+    },
+    {
+      "id": "medine-t2.l20.quiz#18",
+      "type": "order",
+      "fr": "Mon père a égorgé deux poules.",
+      "answers": [["ذَبَحَ", "أَبِي", "دَجَاجَتَيْنِ"], ["أَبِي", "ذَبَحَ", "دَجَاجَتَيْنِ"]],
+      "punctuation": ".",
+      "explain": "Complément d'objet : {ar|دَجَاجَتَيْنِ} (le yā)."
+    },
+    {
+      "id": "medine-t2.l20.quiz#19",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il y a deux oreillers sur mon lit.",
+      "answers": ["عَلَى سَرِيرِي مِخَدَّتَانِ."],
+      "explain": "Le sujet, placé après {ar|عَلَى سَرِيرِي} : l'alif."
+    },
+    {
+      "id": "medine-t2.l20.quiz#20",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ قَلَمًا عِنْدَكَ؟",
+      "answers": ["عِنْدِي قَلَمَانِ.", "لِي قَلَمَانِ.", "قَلَمَانِ."],
+      "fr": "J'ai deux stylos.",
+      "instruction": "Réponds avec le duel : « j'ai deux stylos ».",
+      "explain": "{ar|قَلَمَانِ} est le sujet, placé après {ar|عِنْدِي} : l'alif."
+    }
+  ]
+}
