@@ -1,0 +1,145 @@
+{
+  "id": "medine-t2.r02.practice-3",
+  "type": "grammar",
+  "title": "Exercices 4 et 5 : les dizaines et les trois cas",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t2.r02.practice-3#1",
+      "type": "tip",
+      "title": "Exercice 4 : les dizaines",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne les dizaines de 20 à 90 devant {ar|طَالِبًا} (des étudiants) ou {ar|طَالِبَةً} (des étudiantes). Le professeur les appelle {ar|عُقُودٌ} (« dizaines »)."
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "Les dizaines"],
+          "rows": [
+            ["20", "{ar|عِشْرُونَ طَالِبًا} / {ar|طَالِبَةً}"],
+            ["30", "{ar|ثَلَاثُونَ طَالِبًا} / {ar|طَالِبَةً}"],
+            ["40", "{ar|أَرْبَعُونَ طَالِبًا} / {ar|طَالِبَةً}"],
+            ["50", "{ar|خَمْسُونَ طَالِبًا} / {ar|طَالِبَةً}"],
+            ["60", "{ar|سِتُّونَ طَالِبًا} / {ar|طَالِبَةً}"],
+            ["70", "{ar|سَبْعُونَ طَالِبًا} / {ar|طَالِبَةً}"],
+            ["80", "{ar|ثَمَانُونَ طَالِبًا} / {ar|طَالِبَةً}"],
+            ["90", "{ar|تِسْعُونَ طَالِبًا} / {ar|طَالِبَةً}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les dizaines ne changent pas avec le genre : {ar|عِشْرُونَ طَالِبًا} comme {ar|عِشْرُونَ طَالِبَةً}. Elles se terminent comme le pluriel masculin régulier : {ar|◌ُونَ} au nominatif, {ar|◌ِينَ} à l'accusatif et au génitif. Le nom compté est au singulier et à l'accusatif."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.practice-3#2",
+      "type": "sort",
+      "categories": [ { "fr": "le nominatif" }, { "fr": "l'accusatif" }, { "fr": "le génitif" } ],
+      "cards": [
+        { "ar": "جَاءَ عِشْرُونَ طَالِبًا.", "category": 0 },
+        { "ar": "رَأَيْتُ عِشْرِينَ طَالِبًا.", "category": 1 },
+        { "ar": "ذَهَبْتُ إِلَى ثَلَاثِينَ طَالِبًا.", "category": 2 },
+        { "ar": "قَرَأْتُ سِتِّينَ صَفْحَةً.", "category": 1 },
+        { "ar": "فِي الْكِتَابِ تِسْعُونَ صَفْحَةً.", "category": 0 },
+        { "ar": "اِشْتَرَيْتُهُ بِسَبْعِينَ رِيَالًا.", "category": 2 }
+      ],
+      "instruction": "Dans quel cas est le nombre ?",
+      "explain": "Le sujet est au nominatif ({ar|ونَ}). Le complément d'objet est à l'accusatif et ce qui suit une préposition au génitif : les deux prennent le {ar|ي}."
+    },
+    {
+      "id": "medine-t2.r02.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "جَاءَ {0} طَالِبًا.",
+      "fr": "Quarante étudiants sont venus.",
+      "gaps": [ { "answers": ["أَرْبَعُونَ"] } ],
+      "options": ["أَرْبَعُونَ", "أَرْبَعِينَ", "أَرْبَعَةُ"],
+      "explain": "Le sujet de {ar|جَاءَ} est au nominatif : {ar|أَرْبَعُونَ}. {ar|أَرْبَعِينَ} serait l'accusatif ou le génitif."
+    },
+    {
+      "id": "medine-t2.r02.practice-3#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Soixante étudiantes (au nominatif).",
+      "answers": ["سِتُّونَ طَالِبَةً."],
+      "explain": "{ar|سِتُّونَ} ne change pas avec le genre ; {ar|طَالِبَةً} reste au singulier et à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r02.practice-3#5",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Quatre-vingt-dix étudiants (au nominatif).",
+      "answers": ["تِسْعُونَ طَالِبًا."],
+      "explain": "{ar|تِسْعُونَ} + un nom au singulier et à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r02.practice-3#6",
+      "type": "tip",
+      "title": "Exercice 5 : le même mot, trois cas",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre met côte à côte un nom au singulier, puis au pluriel masculin régulier, puis un nombre, aux trois cas : le sujet ({ar|الْمَرْفُوعُ}), le complément d'objet ({ar|الْمَنْصُوبُ}) et ce qui suit une préposition ({ar|الْمَجْرُورُ})."
+        },
+        {
+          "type": "table",
+          "header": ["Le nom", "{ar|الْمَرْفُوعُ}", "{ar|الْمَنْصُوبُ}", "{ar|الْمَجْرُورُ}"],
+          "rows": [
+            ["le singulier", "{ar|دَخَلَ الْمُدَرِّسُ}", "{ar|سَأَلْتُ الْمُدَرِّسَ}", "{ar|قُلْتُ لِلْمُدَرِّسِ}"],
+            [
+              "le pluriel masculin régulier",
+              "{ar|دَخَلَ الْمُدَرِّسُونَ}",
+              "{ar|سَأَلْتُ الْمُدَرِّسِينَ}",
+              "{ar|قُلْتُ لِلْمُدَرِّسِينَ}"
+            ],
+            [
+              "un nombre",
+              "{ar|دَخَلَ عِشْرُونَ طَالِبًا}",
+              "{ar|سَأَلْتُ عِشْرِينَ طَالِبًا}",
+              "{ar|قُلْتُ لِعِشْرِينَ طَالِبًا}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Au singulier, le cas se lit sur la voyelle (damma, fatha, kasra). Au pluriel régulier et avec les dizaines, il se lit sur la lettre : le {ar|و}, puis le {ar|ي} deux fois."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.practice-3#7",
+      "type": "fill_gap",
+      "sentence": "قُلْتُ {0}.",
+      "fr": "J'ai dit aux enseignants.",
+      "gaps": [ { "answers": ["لِلْمُدَرِّسِينَ"] } ],
+      "options": ["لِلْمُدَرِّسِينَ", "لِلْمُدَرِّسُونَ", "لِلْمُدَرِّسِ"],
+      "explain": "Après {ar|لِ}, le génitif : le pluriel prend le {ar|ي}. {ar|لِلْمُدَرِّسِ} serait un seul enseignant."
+    },
+    {
+      "id": "medine-t2.r02.practice-3#8",
+      "type": "fill_gap",
+      "sentence": "سَأَلْتُ {0} طَالِبًا.",
+      "fr": "J'ai interrogé vingt étudiants.",
+      "gaps": [ { "answers": ["عِشْرِينَ"] } ],
+      "options": ["عِشْرِينَ", "عِشْرُونَ", "عَشَرَةَ"],
+      "explain": "Complément d'objet : l'accusatif, donc {ar|عِشْرِينَ}. {ar|عِشْرُونَ} est le nominatif."
+    },
+    {
+      "id": "medine-t2.r02.practice-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Vingt étudiants sont entrés.",
+      "answers": ["دَخَلَ عِشْرُونَ طَالِبًا."],
+      "explain": "Le sujet de {ar|دَخَلَ} est au nominatif : {ar|عِشْرُونَ}. Le verbe, avant son sujet, reste au singulier."
+    },
+    {
+      "id": "medine-t2.r02.practice-3#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai dit aux enseignants.",
+      "answers": ["قُلْتُ لِلْمُدَرِّسِينَ."],
+      "explain": "Après {ar|لِ}, le génitif : {ar|الْمُدَرِّسِينَ}."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "medine-t2.r02.vocab-3",
+  "type": "vocabulary",
+  "title": "Échouer et réussir",
+  "icon": "student",
+  "screens": [
+    { "id": "medine-t2.r02.vocab-3#1", "type": "present", "item": "w:rasaba" },
+    {
+      "id": "medine-t2.r02.vocab-3#2",
+      "type": "tip",
+      "title": "Les formes de ces deux verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne les quatre formes de {ar|رَسَبَ} et de {ar|نَجَحَ} (que tu connais déjà). Le nom d'action ({ar|الْمَصْدَرُ}) est la dernière colonne."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["échouer", "{ar|رَسَبَ}", "{ar|يَرْسُبُ}", "{ar|اُرْسُبْ}", "{ar|رُسُوبًا}"],
+            ["réussir", "{ar|نَجَحَ}", "{ar|يَنْجَحُ}", "{ar|اِنْجَحْ}", "{ar|نَجَاحًا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "La voyelle de l'alif de l'impératif dépend de la voyelle de la lettre du milieu au présent : une damma si elle porte une damma ({ar|يَرْسُبُ} → {ar|اُرْسُبْ}), une kasra dans les autres cas (ici une fatha : {ar|يَنْجَحُ} → {ar|اِنْجَحْ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:rasaba",
+      "distractors": ["w:najaha", "w:dakhala"],
+      "explain": "{ar|رَسَبَ} : il a échoué. {ar|نَجَحَ} (il a réussi) a le sens contraire ; {ar|دَخَلَ} : il est entré."
+    },
+    {
+      "id": "medine-t2.r02.vocab-3#4",
+      "type": "sort",
+      "categories": [ { "fr": "le passé" }, { "fr": "le présent" }, { "fr": "l'impératif" } ],
+      "cards": [
+        { "ar": "رَسَبَ", "category": 0 },
+        { "ar": "يَنْجَحُ", "category": 1 },
+        { "ar": "اِنْجَحْ", "category": 2 },
+        { "ar": "نَجَحَ", "category": 0 },
+        { "ar": "يَرْسُبُ", "category": 1 },
+        { "ar": "اُرْسُبْ", "category": 2 }
+      ],
+      "instruction": "Passé, présent ou impératif ?",
+      "explain": "Le passé (3ᵉ personne) finit par une fatha, le présent commence par {ar|يَ}, l'impératif commence par un alif."
+    },
+    {
+      "id": "medine-t2.r02.vocab-3#5",
+      "type": "fill_gap",
+      "sentence": "{0} زَيْدٌ فِي الِامْتِحَانِ.",
+      "fr": "Zayd a échoué à l'examen.",
+      "gaps": [ { "answers": ["رَسَبَ"] } ],
+      "options": ["رَسَبَ", "نَجَحَ", "دَخَلَ"],
+      "explain": "« Il a échoué » : {ar|رَسَبَ}."
+    },
+    {
+      "id": "medine-t2.r02.vocab-3#6",
+      "type": "fill_gap",
+      "sentence": "{0} الطَّالِبُ الْمُجْتَهِدُ.",
+      "fr": "L'étudiant appliqué a réussi.",
+      "gaps": [ { "answers": ["نَجَحَ"] } ],
+      "options": ["نَجَحَ", "رَسَبَ", "ذَهَبَ"],
+      "explain": "« Il a réussi » : {ar|نَجَحَ}."
+    },
+    {
+      "id": "medine-t2.r02.vocab-3#7",
+      "type": "order",
+      "fr": "Zayd a échoué et Yāsir a réussi.",
+      "answers": [["رَسَبَ", "زَيْدٌ", "وَنَجَحَ", "يَاسِرٌ"]],
+      "punctuation": ".",
+      "explain": "Chaque verbe précède son sujet : {ar|رَسَبَ زَيْدٌ} puis {ar|نَجَحَ يَاسِرٌ}. Le {ar|وَ} se colle au second verbe."
+    },
+    { "id": "medine-t2.r02.vocab-3#8", "type": "typing", "ask": "fr", "item": "w:rasaba" },
+    {
+      "id": "medine-t2.r02.vocab-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il n'a pas échoué.",
+      "answers": ["لَمْ يَرْسُبْ.", "مَا رَسَبَ."],
+      "explain": "{ar|لَمْ} + {ar|يَرْسُبُ} : le sukūn, {ar|لَمْ يَرْسُبْ}."
+    }
+  ]
+}

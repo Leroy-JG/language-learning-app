@@ -1,0 +1,124 @@
+{
+  "id": "medine-t2.r02.practice-5",
+  "type": "grammar",
+  "title": "Exercices 7 et 8 : annexion et préposition",
+  "icon": "school",
+  "screens": [
+    {
+      "id": "medine-t2.r02.practice-5#1",
+      "type": "tip",
+      "title": "Exercice 7 : le pluriel dans une annexion",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne un nom suivi d'un singulier et demande le même groupe avec un pluriel masculin régulier. Dans une annexion, le second nom est toujours au génitif : le pluriel prend donc le {ar|ي}."
+        },
+        {
+          "type": "compare",
+          "title": "Exemple du livre",
+          "rows": [
+            {
+              "from": { "ar": "أَبْنَاءُ الْمُدَرِّسِ", "fr": "les fils de l'enseignant" },
+              "to": { "ar": "أَبْنَاءُ الْمُدَرِّسِينَ", "fr": "les fils des enseignants" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.practice-5#2",
+      "type": "fill_gap",
+      "sentence": "أَمِيرُ {0}.",
+      "fr": "Le commandeur des croyants.",
+      "gaps": [ { "answers": ["الْمُؤْمِنِينَ"] } ],
+      "options": ["الْمُؤْمِنِينَ", "الْمُؤْمِنُونَ", "الْمُؤْمِنِ"],
+      "explain": "Le second terme d'une annexion est au génitif : le {ar|ي}. {ar|الْمُؤْمِنِ} serait un seul croyant."
+    },
+    {
+      "id": "medine-t2.r02.practice-5#3",
+      "type": "fill_gap",
+      "sentence": "دَكَاكِينُ {0}.",
+      "fr": "Les boutiques des épiciers.",
+      "gaps": [ { "answers": ["الْبَقَّالِينَ"] } ],
+      "options": ["الْبَقَّالِينَ", "الْبَقَّالُونَ", "الْبَقَّالِ"],
+      "explain": "Le second terme d'une annexion est au génitif : {ar|الْبَقَّالِينَ}."
+    },
+    {
+      "id": "medine-t2.r02.practice-5#4",
+      "type": "sort",
+      "categories": [ { "fr": "annexion" }, { "fr": "préposition + nom" } ],
+      "cards": [
+        { "ar": "إِمَامُ الْمُسْلِمِينَ", "category": 0 },
+        { "ar": "قُلْتُ لِلْمُدَرِّسِينَ", "category": 1 },
+        { "ar": "بُيُوتُ الْمُهَنْدِسِينَ", "category": 0 },
+        { "ar": "أَبْحَثُ عَنِ الْمُدَرِّسِينَ", "category": 1 },
+        { "ar": "دِينُ الْكَافِرِينَ", "category": 0 },
+        { "ar": "ذَهَبْتُ إِلَى الْمُؤْمِنِينَ", "category": 1 }
+      ],
+      "instruction": "Annexion ou préposition ?",
+      "explain": "Dans une annexion, deux noms se suivent (le premier sans article) ; sinon, une préposition précède le nom. Les deux mettent le nom au génitif."
+    },
+    {
+      "id": "medine-t2.r02.practice-5#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les voitures des enseignants.",
+      "answers": ["سَيَّارَاتُ الْمُدَرِّسِينَ."],
+      "explain": "Annexion : le second terme est au génitif, le {ar|ي}."
+    },
+    {
+      "id": "medine-t2.r02.practice-5#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "La religion des incroyants.",
+      "answers": ["دِينُ الْكَافِرِينَ."],
+      "explain": "{ar|دِينُ} + {ar|الْكَافِرِينَ} au génitif."
+    },
+    {
+      "id": "medine-t2.r02.practice-5#7",
+      "type": "tip",
+      "title": "Exercice 8 : compléter avec le pluriel ou le nombre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne des phrases à compléter avec le mot entre parenthèses, mis au cas qu'exige la phrase."
+        },
+        { "type": "example", "ar": "قُلْتُ لِلْمُدَرِّسِينَ.", "fr": "J'ai dit aux enseignants." }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.practice-5#8",
+      "type": "fill_gap",
+      "sentence": "أَبْحَثُ عَنِ {0}.",
+      "fr": "Je cherche les enseignants.",
+      "gaps": [ { "answers": ["الْمُدَرِّسِينَ"] } ],
+      "options": ["الْمُدَرِّسِينَ", "الْمُدَرِّسُونَ", "الْمُدَرِّسِ"],
+      "explain": "Après {ar|عَنْ}, le génitif : {ar|الْمُدَرِّسِينَ}."
+    },
+    {
+      "id": "medine-t2.r02.practice-5#9",
+      "type": "fill_gap",
+      "sentence": "اِشْتَرَيْتُ هٰذَا الْكِتَابَ {0} رِيَالًا.",
+      "fr": "J'ai acheté ce livre pour cinquante riyals.",
+      "gaps": [ { "answers": ["بِخَمْسِينَ"] } ],
+      "options": ["بِخَمْسِينَ", "بِخَمْسُونَ", "بِخَمْسٍ"],
+      "explain": "Après {ar|بِ}, le génitif : {ar|بِخَمْسِينَ}. Le nom compté, {ar|رِيَالًا}, est au singulier et à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r02.practice-5#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai acheté ce livre pour cinquante riyals.",
+      "answers": ["اِشْتَرَيْتُ هٰذَا الْكِتَابَ بِخَمْسِينَ رِيَالًا."],
+      "explain": "{ar|بِخَمْسِينَ} : le génitif après {ar|بِ} ; {ar|رِيَالًا} : singulier, accusatif."
+    },
+    {
+      "id": "medine-t2.r02.practice-5#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je cherche les croyants.",
+      "answers": ["أَبْحَثُ عَنِ الْمُؤْمِنِينَ."],
+      "explain": "Après {ar|عَنْ}, le génitif : {ar|الْمُؤْمِنِينَ}."
+    }
+  ]
+}

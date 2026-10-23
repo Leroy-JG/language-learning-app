@@ -1,0 +1,152 @@
+{
+  "id": "medine-t2.r02.practice-7",
+  "type": "grammar",
+  "title": "Exercices 10 et 11 : de 21 à 99",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t2.r02.practice-7#1",
+      "type": "tip",
+      "title": "Exercice 10 : de 21 à 30 devant {ar|طَالِبَةً}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne les nombres de 21 à 30 devant {ar|طَالِبَةً}, un nom féminin : les unités de 3 à 9 « contredisent » le nom : sans {ar|ة} devant un nom féminin, avec {ar|ة} devant un masculin. {ar|إِحْدَى} et {ar|اِثْنَتَانِ} sont les formes féminines de « un » et « deux ». On dit d'abord l'unité, puis {ar|وَ}, puis la dizaine : {ar|ثَلَاثٌ وَعِشْرُونَ} (« trois et vingt »)."
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "Devant {ar|طَالِبَةً}"],
+          "rows": [
+            ["21", "{ar|إِحْدَى وَعِشْرُونَ طَالِبَةً}"],
+            ["22", "{ar|اِثْنَتَانِ وَعِشْرُونَ طَالِبَةً}"],
+            ["23", "{ar|ثَلَاثٌ وَعِشْرُونَ طَالِبَةً}"],
+            ["24", "{ar|أَرْبَعٌ وَعِشْرُونَ طَالِبَةً}"],
+            ["25", "{ar|خَمْسٌ وَعِشْرُونَ طَالِبَةً}"],
+            ["26", "{ar|سِتٌّ وَعِشْرُونَ طَالِبَةً}"],
+            ["27", "{ar|سَبْعٌ وَعِشْرُونَ طَالِبَةً}"],
+            ["28", "{ar|ثَمَانٍ وَعِشْرُونَ طَالِبَةً}"],
+            ["29", "{ar|تِسْعٌ وَعِشْرُونَ طَالِبَةً}"],
+            ["30", "{ar|ثَلَاثُونَ طَالِبَةً}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.practice-7#2",
+      "type": "fill_gap",
+      "sentence": "{0} وَعِشْرُونَ طَالِبَةً.",
+      "fr": "Vingt-trois étudiantes.",
+      "gaps": [ { "answers": ["ثَلَاثٌ"] } ],
+      "options": ["ثَلَاثٌ", "ثَلَاثَةٌ", "ثَلَاثُونَ"],
+      "explain": "{ar|طَالِبَةٌ} est féminin : {ar|ثَلَاثٌ}, sans {ar|ة}."
+    },
+    {
+      "id": "medine-t2.r02.practice-7#3",
+      "type": "fill_gap",
+      "sentence": "{0} وَعِشْرُونَ طَالِبًا.",
+      "fr": "Vingt-quatre étudiants.",
+      "gaps": [ { "answers": ["أَرْبَعَةٌ"] } ],
+      "options": ["أَرْبَعَةٌ", "أَرْبَعٌ", "أَرْبَعُونَ"],
+      "explain": "{ar|طَالِبٌ} est masculin : {ar|أَرْبَعَةٌ}, avec le {ar|ة}."
+    },
+    {
+      "id": "medine-t2.r02.practice-7#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Vingt-neuf étudiantes.",
+      "answers": ["تِسْعٌ وَعِشْرُونَ طَالِبَةً."],
+      "explain": "Nom féminin : {ar|تِسْعٌ}, sans {ar|ة}."
+    },
+    {
+      "id": "medine-t2.r02.practice-7#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Vingt-deux étudiantes.",
+      "answers": ["اِثْنَتَانِ وَعِشْرُونَ طَالِبَةً."],
+      "explain": "Le féminin de « deux » : {ar|اِثْنَتَانِ}."
+    },
+    {
+      "id": "medine-t2.r02.practice-7#6",
+      "type": "tip",
+      "title": "Exercice 11 : six phrases avec des nombres",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne six phrases à lire, avec les nombres en chiffres, puis à écrire en lettres."
+        },
+        {
+          "type": "example",
+          "ar": "فِي هٰذَا الْفَصْلِ إِحْدَى وَثَلَاثُونَ طَالِبَةً.",
+          "fr": "Dans cette classe, il y a 31 étudiantes."
+        },
+        {
+          "type": "example",
+          "ar": "فِي الْيَوْمِ أَرْبَعٌ وَعِشْرُونَ سَاعَةً.",
+          "fr": "Dans le jour, il y a 24 heures."
+        },
+        {
+          "type": "example",
+          "ar": "عِنْدِي ثَلَاثٌ وَثَلَاثُونَ رُوبِيَّةً وَخَمْسَةٌ وَأَرْبَعُونَ رِيَالًا.",
+          "fr": "J'ai 33 roupies et 45 riyals."
+        },
+        {
+          "type": "example",
+          "ar": "رَأَيْتُهُ قَبْلَ اِثْنَتَيْنِ وَعِشْرِينَ سَنَةً.",
+          "fr": "Je l'ai vu il y a 22 ans."
+        },
+        { "type": "example", "ar": "حَفِظْتُ سِتًّا وَسِتِّينَ سُورَةً.", "fr": "J'ai mémorisé 66 sourates." },
+        {
+          "type": "example",
+          "ar": "فِي سُورَةِ الرَّحْمٰنِ ثَمَانٍ وَسَبْعُونَ آيَةً.",
+          "fr": "Dans la sourate ar-Raḥmān, il y a 78 versets."
+        },
+        {
+          "type": "note",
+          "text": "{ar|رُوبِيَّةٌ}, {ar|سَنَةٌ}, {ar|سُورَةٌ} et {ar|آيَةٌ} sont féminins : leurs unités de 3 à 9 sont sans {ar|ة} ({ar|ثَلَاثٌ}, {ar|سِتًّا}, {ar|ثَمَانٍ}) et « deux » est à la forme féminine ({ar|اِثْنَتَيْنِ}). {ar|رِيَالٌ} est masculin : {ar|خَمْسَةٌ}. Le cas du nombre dépend de sa fonction : sujet ({ar|ثَلَاثٌ}), après {ar|قَبْلَ} ({ar|اِثْنَتَيْنِ}, le génitif), complément d'objet ({ar|سِتًّا})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.practice-7#7",
+      "type": "fill_gap",
+      "sentence": "عِنْدِي {0} رُوبِيَّةً.",
+      "fr": "J'ai 33 roupies.",
+      "gaps": [ { "answers": ["ثَلَاثٌ وَثَلَاثُونَ"] } ],
+      "options": ["ثَلَاثٌ وَثَلَاثُونَ", "ثَلَاثَةٌ وَثَلَاثُونَ", "ثَلَاثُونَ وَثَلَاثٌ"],
+      "explain": "{ar|رُوبِيَّةٌ} est féminin : {ar|ثَلَاثٌ}. L'unité vient d'abord, puis {ar|وَ}, puis la dizaine. Le nombre est le sujet, placé après {ar|عِنْدِي} : le nominatif."
+    },
+    {
+      "id": "medine-t2.r02.practice-7#8",
+      "type": "fill_gap",
+      "sentence": "عِنْدِي {0} رِيَالًا.",
+      "fr": "J'ai 45 riyals.",
+      "gaps": [ { "answers": ["خَمْسَةٌ وَأَرْبَعُونَ"] } ],
+      "options": ["خَمْسَةٌ وَأَرْبَعُونَ", "خَمْسٌ وَأَرْبَعُونَ", "أَرْبَعُونَ وَخَمْسَةٌ"],
+      "explain": "{ar|رِيَالٌ} est masculin : {ar|خَمْسَةٌ}, avec le {ar|ة}."
+    },
+    {
+      "id": "medine-t2.r02.practice-7#9",
+      "type": "order",
+      "fr": "Je l'ai vu il y a vingt-deux ans.",
+      "answers": [["رَأَيْتُهُ", "قَبْلَ", "اِثْنَتَيْنِ", "وَعِشْرِينَ", "سَنَةً"]],
+      "punctuation": ".",
+      "explain": "{ar|قَبْلَ} est suivi du génitif : {ar|اِثْنَتَيْنِ وَعِشْرِينَ}. {ar|سَنَةٌ} est féminin : {ar|اِثْنَتَيْنِ}, la forme féminine."
+    },
+    {
+      "id": "medine-t2.r02.practice-7#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai mémorisé soixante-six sourates.",
+      "answers": ["حَفِظْتُ سِتًّا وَسِتِّينَ سُورَةً."],
+      "explain": "{ar|سُورَةٌ} est féminin : {ar|سِتًّا}. Complément d'objet : l'accusatif."
+    },
+    {
+      "id": "medine-t2.r02.practice-7#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Dans la sourate ar-Raḥmān, il y a soixante-dix-huit versets.",
+      "answers": ["فِي سُورَةِ الرَّحْمٰنِ ثَمَانٍ وَسَبْعُونَ آيَةً."],
+      "explain": "{ar|آيَةٌ} est féminin : {ar|ثَمَانٍ}. Le nombre est le sujet, placé après {ar|فِي سُورَةِ الرَّحْمٰنِ} : le nominatif."
+    }
+  ]
+}
