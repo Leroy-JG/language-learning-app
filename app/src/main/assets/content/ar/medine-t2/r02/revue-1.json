@@ -55,7 +55,7 @@
         },
         {
           "type": "note",
-          "text": "Les formes de {ar|الطُّلَّابُ}, {ar|أَنْتُمْ} et {ar|أَنْتِ} sont celles des cinq verbes : le {ar|ن} final tombe après {ar|لَنْ} et {ar|لَمْ}. Celles de {ar|الطَّالِبَاتُ} et de {ar|أَنْتُنَّ} gardent leur {ar|نَ} : c'est le pronom « elles », qui ne tombe jamais."
+          "text": "Les formes de {ar|الطُّلَّابُ}, {ar|أَنْتُمْ} et {ar|أَنْتِ} sont celles des cinq verbes : le {ar|ن} final tombe après {ar|لَنْ} et {ar|لَمْ}. Celles de {ar|الطَّالِبَاتُ} et de {ar|أَنْتُنَّ} gardent leur {ar|نَ} : c'est le pronom féminin pluriel (« elles », « vous »), qui ne tombe jamais."
         }
       ]
     },
@@ -123,7 +123,12 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Hāmid n'est pas allé à la mosquée.",
-      "answers": ["لَمْ يَذْهَبْ حَامِدٌ إِلَى الْمَسْجِدِ.", "حَامِدٌ لَمْ يَذْهَبْ إِلَى الْمَسْجِدِ."],
+      "answers": [
+        "لَمْ يَذْهَبْ حَامِدٌ إِلَى الْمَسْجِدِ.",
+        "حَامِدٌ لَمْ يَذْهَبْ إِلَى الْمَسْجِدِ.",
+        "مَا ذَهَبَ حَامِدٌ إِلَى الْمَسْجِدِ.",
+        "حَامِدٌ مَا ذَهَبَ إِلَى الْمَسْجِدِ."
+      ],
       "explain": "{ar|لَمْ} + le présent au sukūn : {ar|لَمْ يَذْهَبْ}."
     },
     {

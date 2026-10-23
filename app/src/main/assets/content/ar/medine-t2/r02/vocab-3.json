@@ -24,7 +24,7 @@
         },
         {
           "type": "note",
-          "text": "La voyelle de l'alif de l'impératif dépend de la voyelle de la lettre du milieu au présent : une damma pour {ar|يَرْسُبُ} ({ar|اُرْسُبْ}), une kasra pour {ar|يَنْجَحُ} ({ar|اِنْجَحْ})."
+          "text": "La voyelle de l'alif de l'impératif dépend de la voyelle de la lettre du milieu au présent : une damma si elle porte une damma ({ar|يَرْسُبُ} → {ar|اُرْسُبْ}), une kasra dans les autres cas (ici une fatha : {ar|يَنْجَحُ} → {ar|اِنْجَحْ})."
         }
       ]
     },
@@ -34,7 +34,7 @@
       "mode": "ar-fr",
       "item": "w:rasaba",
       "distractors": ["w:najaha", "w:dakhala"],
-      "explain": "{ar|رَسَبَ} : il a échoué. {ar|نَجَحَ} (il a réussi) dit le contraire ; {ar|دَخَلَ} : il est entré."
+      "explain": "{ar|رَسَبَ} : il a échoué. {ar|نَجَحَ} (il a réussi) a le sens contraire ; {ar|دَخَلَ} : il est entré."
     },
     {
       "id": "medine-t2.r02.vocab-3#4",
@@ -83,7 +83,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Il n'a pas échoué.",
-      "answers": ["لَمْ يَرْسُبْ."],
+      "answers": ["لَمْ يَرْسُبْ.", "مَا رَسَبَ."],
       "explain": "{ar|لَمْ} + {ar|يَرْسُبُ} : le sukūn, {ar|لَمْ يَرْسُبْ}."
     }
   ]

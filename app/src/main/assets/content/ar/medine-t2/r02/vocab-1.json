@@ -48,7 +48,7 @@
       "ask": "fr",
       "fr": "Il y a une réunion dans la salle.",
       "answers": ["فِي الْقَاعَةِ اجْتِمَاعٌ."],
-      "explain": "Le complément de lieu vient en premier : {ar|فِي الْقَاعَةِ}, puis le sujet {ar|اجْتِمَاعٌ}."
+      "explain": "Le complément de lieu vient en premier : {ar|فِي الْقَاعَةِ}, puis le sujet {ar|اجْتِمَاعٌ}. Un sujet indéfini ne se place pas en tête de phrase."
     }
   ]
 }

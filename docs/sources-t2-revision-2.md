@@ -72,3 +72,12 @@ Outils de la palette : `sort` dans presque chaque activité (états du verbe, ma
 - **Voyelle de l'alif de l'impératif** selon la voyelle de la lettre du milieu au présent : `يَرْسُبُ` → `اُرْسُبْ`, `يَنْجَحُ` → `اِنْجَحْ`.
 - **Du pays à l'habitant** : `بَاكِسْتَانُ` → `بَاكِسْتَانِيٌّ`, comme `الْهِنْدُ` → `هِنْدِيٌّ` ; pluriel régulier `بَاكِسْتَانِيُّونَ` (et `هُنُودٌ`, pluriel brisé, pour les Indiens).
 - **`ثَانِيَةٌ`** : féminin de `ثَانٍ` (« deuxième »).
+
+## Corrections faites après la relecture
+
+Trois relecteurs indépendants (arabe et fidélité au PDF, exercices, français et pédagogie) : aucune erreur dans les formes arabes ni dans les réponses désignées. Remarques vérifiées et prises en compte :
+
+- **Règle des unités de 3 à 9** : l'astuce de `practice-7` disait « au féminin, sans ة » ; c'est la règle de la contradiction (sans `ة` devant un nom féminin, avec `ة` devant un masculin), seuls `إِحْدَى` et `اِثْنَتَانِ` sont de vrais féminins. Corrigé (astuce et note), avec l'ordre « unité, `وَ`, dizaine ».
+- **Noms sans tanwin au génitif** : « sans article » devient « sans article et hors annexion » (`أُمَرَاءِ الْمَدِينَةِ`), comme au tome 1, chapitre 23.
+- **Français** : « sac » est masculin (« je l'ai acheté ») ; « un pareil » ; « pour soixante riyals » ; « avez-vous lues » ; `قُلْتُ لِـ` = « j'ai dit à » (pas « parlé à ») ; « se traduit *souvent* par ni… ni… » ; `هَا` = « la » (qui reprend `حَقِيبَةٌ`) ; le `ن` de `تَذْهَبْنَ` = « elles », « vous » (féminin) ; le nūn d'insistance rend le verbe invariable *au contact direct* ; `ثَوَانٍ` à l'accusatif : `ثَوَانِيَ` ; l'impératif de `نَجَحَ` : kasra « dans les autres cas » (ici une fatha) ; la note du mois lunaire (sans écran correspondant) est retirée ; `هُنُودٌ` est « un des pluriels » de `هِنْدِيٌّ`.
+- **Réponses acceptées** : `مَا` + passé accepté aux côtés de `لَمْ` (`revue-1`, `revue-2`, `vocab-3`) et de `لَا … وَلَا` (`grammar-1`, `practice-8`, `quiz`) ; ordres des mots alternatifs (`practice-1`, `practice-4`) ; `هُوَ لِلشَّيْخِ…` ; `قَرَأْنَا` retiré d'une réponse à la 3ᵉ personne ; « Des croyants (pluriel masculin régulier, au nominatif) » précise l'attendu.

@@ -93,7 +93,7 @@
       "mode": "ar-fr",
       "item": "w:rasaba",
       "distractors": ["w:najaha", "w:dakhala"],
-      "explain": "{ar|رَسَبَ} : il a échoué. {ar|نَجَحَ} (il a réussi) dit le contraire."
+      "explain": "{ar|رَسَبَ} : il a échoué. {ar|نَجَحَ} (il a réussi) a le sens contraire."
     },
     {
       "id": "medine-t2.r02.quiz#10",
@@ -108,7 +108,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Il n'a ni écrit ni lu.",
-      "answers": ["لَا كَتَبَ وَلَا قَرَأَ."],
+      "answers": ["لَا كَتَبَ وَلَا قَرَأَ.", "مَا كَتَبَ وَلَا قَرَأَ."],
       "explain": "{ar|لَا} devant un verbe au passé est répétée : {ar|لَا كَتَبَ وَلَا قَرَأَ}."
     },
     {

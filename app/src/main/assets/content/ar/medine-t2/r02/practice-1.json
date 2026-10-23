@@ -57,6 +57,8 @@
         "وَجَدَ الْمُدَرِّسُ خَمْسَةً وَعِشْرِينَ طَالِبًا.",
         "وَجَدَ خَمْسَةً وَعِشْرِينَ طَالِبًا.",
         "وَجَدَ الْمُدَرِّسُ فِي الْفَصْلِ خَمْسَةً وَعِشْرِينَ طَالِبًا.",
+        "وَجَدَ الْمُدَرِّسُ خَمْسَةً وَعِشْرِينَ طَالِبًا فِي الْفَصْلِ.",
+        "وَجَدَ خَمْسَةً وَعِشْرِينَ طَالِبًا فِي الْفَصْلِ.",
         "خَمْسَةً وَعِشْرِينَ طَالِبًا."
       ],
       "fr": "L'enseignant a trouvé vingt-cinq étudiants dans la classe.",
@@ -82,6 +84,7 @@
       "answers": [
         "هُوَ لِفَضِيلَةِ الشَّيْخِ أَبِي الْحَسَنِ النَّدْوِيِّ.",
         "لِفَضِيلَةِ الشَّيْخِ أَبِي الْحَسَنِ النَّدْوِيِّ.",
+        "هُوَ لِلشَّيْخِ أَبِي الْحَسَنِ النَّدْوِيِّ.",
         "الْكِتَابُ لِفَضِيلَةِ الشَّيْخِ أَبِي الْحَسَنِ النَّدْوِيِّ."
       ],
       "fr": "Il est de Son Éminence le cheikh Abū l-Ḥasan an-Nadwī.",
@@ -102,7 +105,12 @@
       "type": "typing",
       "ask": "question",
       "question": "كَمْ صَفْحَةً فِيهِ؟",
-      "answers": ["فِيهِ تِسْعُونَ صَفْحَةً.", "الْكِتَابُ فِيهِ تِسْعُونَ صَفْحَةً.", "تِسْعُونَ صَفْحَةً."],
+      "answers": [
+        "فِيهِ تِسْعُونَ صَفْحَةً.",
+        "الْكِتَابُ فِيهِ تِسْعُونَ صَفْحَةً.",
+        "فِي الْكِتَابِ تِسْعُونَ صَفْحَةً.",
+        "تِسْعُونَ صَفْحَةً."
+      ],
       "fr": "Il a quatre-vingt-dix pages.",
       "instruction": "Réponds d'après le texte : il a quatre-vingt-dix pages.",
       "context": { "dialogue": "medine-t2.r02.dialogue-2#1" },
@@ -124,7 +132,6 @@
       "answers": [
         "قَرَأَ الطُّلَّابُ ثَلَاثًا وَخَمْسِينَ صَفْحَةً.",
         "قَرَأُوا ثَلَاثًا وَخَمْسِينَ صَفْحَةً.",
-        "قَرَأْنَا ثَلَاثًا وَخَمْسِينَ صَفْحَةً.",
         "ثَلَاثًا وَخَمْسِينَ صَفْحَةً."
       ],
       "fr": "Les étudiants ont lu cinquante-trois pages.",
@@ -143,8 +150,8 @@
         "اِشْتَرَى الْحَقِيبَةَ بِثَمَانِينَ رِيَالًا.",
         "بِثَمَانِينَ رِيَالًا."
       ],
-      "fr": "Il l'a achetée pour quatre-vingts riyals.",
-      "instruction": "Réponds d'après le texte : il l'a achetée pour quatre-vingts riyals.",
+      "fr": "Il l'a acheté pour quatre-vingts riyals.",
+      "instruction": "Réponds d'après le texte : il l'a acheté pour quatre-vingts riyals.",
       "context": { "dialogue": "medine-t2.r02.dialogue-2#1" },
       "explain": "Dans le texte : {ar|اِشْتَرَيْتُهَا بِثَمَانِينَ رِيَالًا}. À la 3ᵉ personne : {ar|اِشْتَرَاهَا بِثَمَانِينَ رِيَالًا}. Après {ar|بِ}, le génitif ; {ar|رِيَالًا} : singulier, accusatif."
     }

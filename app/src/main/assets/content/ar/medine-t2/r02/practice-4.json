@@ -43,7 +43,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Allah aime les musulmans.",
-      "answers": ["يُحِبُّ اللَّهُ الْمُسْلِمِينَ."],
+      "answers": ["يُحِبُّ اللَّهُ الْمُسْلِمِينَ.", "اللَّهُ يُحِبُّ الْمُسْلِمِينَ."],
       "explain": "{ar|اللَّهُ} est le sujet ; {ar|الْمُسْلِمِينَ} est le complément d'objet : l'accusatif, le {ar|ي}."
     },
     {

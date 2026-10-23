@@ -61,7 +61,7 @@
       "id": "medine-t2.r02.practice-3#4",
       "type": "typing",
       "ask": "fr",
-      "fr": "Soixante étudiantes.",
+      "fr": "Soixante étudiantes (au nominatif).",
       "answers": ["سِتُّونَ طَالِبَةً."],
       "explain": "{ar|سِتُّونَ} ne change pas avec le genre ; {ar|طَالِبَةً} reste au singulier et à l'accusatif."
     },
@@ -69,7 +69,7 @@
       "id": "medine-t2.r02.practice-3#5",
       "type": "typing",
       "ask": "audio",
-      "fr": "Quatre-vingt-dix étudiants.",
+      "fr": "Quatre-vingt-dix étudiants (au nominatif).",
       "answers": ["تِسْعُونَ طَالِبًا."],
       "explain": "{ar|تِسْعُونَ} + un nom au singulier et à l'accusatif."
     },
@@ -111,7 +111,7 @@
       "id": "medine-t2.r02.practice-3#7",
       "type": "fill_gap",
       "sentence": "قُلْتُ {0}.",
-      "fr": "J'ai parlé aux enseignants.",
+      "fr": "J'ai dit aux enseignants.",
       "gaps": [ { "answers": ["لِلْمُدَرِّسِينَ"] } ],
       "options": ["لِلْمُدَرِّسِينَ", "لِلْمُدَرِّسُونَ", "لِلْمُدَرِّسِ"],
       "explain": "Après {ar|لِ}, le génitif : le pluriel prend le {ar|ي}. {ar|لِلْمُدَرِّسِ} serait un seul enseignant."
@@ -137,7 +137,7 @@
       "id": "medine-t2.r02.practice-3#10",
       "type": "typing",
       "ask": "audio",
-      "fr": "J'ai parlé aux enseignants.",
+      "fr": "J'ai dit aux enseignants.",
       "answers": ["قُلْتُ لِلْمُدَرِّسِينَ."],
       "explain": "Après {ar|لِ}, le génitif : {ar|الْمُدَرِّسِينَ}."
     }

@@ -71,7 +71,7 @@
     "plural": "فَضَائِلُ",
     "gender": "f",
     "note": "On dit aussi {ar|فَضِيلَةُ الشَّيْخِ} : « Son Éminence le cheikh », un titre de respect (c'est ainsi que le texte du livre présente l'auteur). Le pluriel {ar|فَضَائِلُ} n'a pas de tanwin.",
-    "example": { "ar": "فِي زَيْدٍ فَضَائِلُ.", "fr": "Zayd a des qualités (il y a des vertus en Zayd)." }
+    "example": { "ar": "فِي زَيْدٍ فَضَائِلُ.", "fr": "Zayd a des vertus (il y a des vertus en Zayd)." }
   },
   {
     "id": "w:jaiza",
@@ -90,7 +90,7 @@
     "ar": "رَسَبَ",
     "fr": "il a échoué (échouer à un examen)",
     "translit": "rasaba",
-    "note": "Il dit le contraire de {ar|نَجَحَ} (« réussir »). Présent {ar|يَرْسُبُ}.",
+    "note": "Il a le sens contraire de {ar|نَجَحَ} (« réussir »). Présent {ar|يَرْسُبُ}.",
     "example": { "ar": "رَسَبَ زَيْدٌ وَنَجَحَ يَاسِرٌ.", "fr": "Zayd a échoué et Yāsir a réussi." }
   },
   {
@@ -101,7 +101,7 @@
     "translit": "thāniyatun",
     "plural": "ثَوَانٍ",
     "gender": "f",
-    "note": "C'est le féminin de {ar|ثَانٍ} (« deuxième », tome 2, chapitre 10) : la « deuxième » division de la minute. Son pluriel {ar|ثَوَانٍ} se termine par un tanwin à la kasra, sans {ar|ي}.",
+    "note": "C'est le féminin de {ar|ثَانٍ} (« deuxième », tome 2, chapitre 10) : la « deuxième » division de la minute. Son pluriel {ar|ثَوَانٍ} se termine par un tanwin à la kasra, sans {ar|ي} (au nominatif et au génitif ; à l'accusatif : {ar|ثَوَانِيَ}).",
     "example": { "ar": "اِنْتَظِرْ ثَانِيَةً.", "fr": "Attends une seconde." }
   },
   {

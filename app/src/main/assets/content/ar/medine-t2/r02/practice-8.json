@@ -75,7 +75,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Il ne m'a pas vu et je ne l'ai pas vu.",
-      "answers": ["لَا رَآنِي وَلَا رَأَيْتُهُ."],
+      "answers": ["لَا رَآنِي وَلَا رَأَيْتُهُ.", "مَا رَآنِي وَلَا رَأَيْتُهُ."],
       "explain": "{ar|رَآنِي} : il m'a vu ; {ar|رَأَيْتُهُ} : je l'ai vu."
     },
     {

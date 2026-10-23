@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Le livre donne les nombres de 21 à 30 devant {ar|طَالِبَةً}, un nom féminin : les unités de 3 à 9 sont alors au féminin, sans {ar|ة}. {ar|إِحْدَى} et {ar|اِثْنَتَانِ} sont les formes féminines de « un » et « deux »."
+          "text": "Le livre donne les nombres de 21 à 30 devant {ar|طَالِبَةً}, un nom féminin : les unités de 3 à 9 « contredisent » le nom : sans {ar|ة} devant un nom féminin, avec {ar|ة} devant un masculin. {ar|إِحْدَى} et {ar|اِثْنَتَانِ} sont les formes féminines de « un » et « deux ». On dit d'abord l'unité, puis {ar|وَ}, puis la dizaine : {ar|ثَلَاثٌ وَعِشْرُونَ} (« trois et vingt »)."
         },
         {
           "type": "table",
@@ -102,7 +102,7 @@
         },
         {
           "type": "note",
-          "text": "{ar|رُوبِيَّةٌ}, {ar|سَنَةٌ}, {ar|سُورَةٌ} et {ar|آيَةٌ} sont féminins : leurs unités sont au féminin ({ar|ثَلَاثٌ}, {ar|اِثْنَتَيْنِ}, {ar|سِتًّا}, {ar|ثَمَانٍ}). {ar|رِيَالٌ} est masculin : {ar|خَمْسَةٌ}. Le cas du nombre dépend de sa fonction : sujet ({ar|ثَلَاثٌ}), après {ar|قَبْلَ} ({ar|اِثْنَتَيْنِ}, le génitif), complément d'objet ({ar|سِتًّا})."
+          "text": "{ar|رُوبِيَّةٌ}, {ar|سَنَةٌ}, {ar|سُورَةٌ} et {ar|آيَةٌ} sont féminins : leurs unités de 3 à 9 sont sans {ar|ة} ({ar|ثَلَاثٌ}, {ar|سِتًّا}, {ar|ثَمَانٍ}) et « deux » est à la forme féminine ({ar|اِثْنَتَيْنِ}). {ar|رِيَالٌ} est masculin : {ar|خَمْسَةٌ}. Le cas du nombre dépend de sa fonction : sujet ({ar|ثَلَاثٌ}), après {ar|قَبْلَ} ({ar|اِثْنَتَيْنِ}, le génitif), complément d'objet ({ar|سِتًّا})."
         }
       ]
     },

@@ -30,11 +30,11 @@
           "ar": "هُوَ لِفَضِيلَةِ الشَّيْخِ أَبِي الْحَسَنِ النَّدْوِيِّ.",
           "fr": "Il est de Son Éminence le cheikh Abū l-Ḥasan an-Nadwī."
         },
-        { "speaker": "T", "ar": "كَمْ صَفْحَةً قَرَأْتُمْ فِيهِ؟", "fr": "Combien de pages en avez-vous lu ?" },
+        { "speaker": "T", "ar": "كَمْ صَفْحَةً قَرَأْتُمْ فِيهِ؟", "fr": "Combien de pages avez-vous lues ?" },
         {
           "speaker": "J",
           "ar": "قَرَأْنَا ثَلَاثًا وَخَمْسِينَ صَفْحَةً.",
-          "fr": "Nous en avons lu cinquante-trois pages."
+          "fr": "Nous avons lu cinquante-trois pages."
         },
         {
           "speaker": "A",
@@ -49,17 +49,17 @@
         {
           "speaker": "T",
           "ar": "اِشْتَرَيْتُهَا بِثَمَانِينَ رِيَالًا.",
-          "fr": "Je l'ai achetée pour quatre-vingts riyals."
+          "fr": "Je l'ai acheté pour quatre-vingts riyals."
         },
         {
           "speaker": "S",
           "ar": "أَنَا اِشْتَرَيْتُ مِثْلَهَا بِسَبْعِينَ رِيَالًا.",
-          "fr": "Moi, j'en ai acheté une pareille pour soixante-dix riyals."
+          "fr": "Moi, j'en ai acheté un pareil pour soixante-dix riyals."
         },
         {
           "speaker": "M",
           "ar": "أَنَا اِشْتَرَيْتُ حَقِيبَةً أَصْغَرَ مِنْهَا بِسِتِّينَ رِيَالًا.",
-          "fr": "Moi, j'ai acheté un sac plus petit pour soixante riyals."
+          "fr": "Moi, j'ai acheté un sac plus petit que le sien pour soixante riyals."
         }
       ]
     },
@@ -107,7 +107,7 @@
             [
               "{ar|بِكَمِ اِشْتَرَيْتَهَا؟}",
               "combien l'as-tu acheté ?",
-              "le sukūn de {ar|كَمْ} devient une kasra devant l'alif de liaison ; {ar|هَا} : « il », le sac, un nom féminin"
+              "le sukūn de {ar|كَمْ} devient une kasra devant l'alif de liaison ; {ar|هَا} : « la », qui reprend {ar|حَقِيبَةٌ} (féminin en arabe, même si « sac » est masculin en français)"
             ],
             [
               "{ar|بِثَمَانِينَ رِيَالًا}",
@@ -116,8 +116,8 @@
             ],
             [
               "{ar|مِثْلَهَا}",
-              "une pareille",
-              "{ar|مِثْلَ} (« pareil à ») + {ar|هَا} (« elle » : le sac) ; l'accusatif, car c'est le complément d'objet de {ar|اِشْتَرَيْتُ}"
+              "un pareil",
+              "{ar|مِثْلَ} (« pareil à ») + {ar|هَا} (« elle » : le sac, {ar|حَقِيبَةٌ}) ; l'accusatif, car c'est le complément d'objet de {ar|اِشْتَرَيْتُ}"
             ],
             [
               "{ar|أَصْغَرَ مِنْهَا}",
@@ -161,7 +161,7 @@
     {
       "id": "medine-t2.r02.dialogue-2#6",
       "type": "true_false",
-      "statement": { "fr": "L'enseignant a acheté son sac soixante riyals." },
+      "statement": { "fr": "L'enseignant a acheté son sac pour soixante riyals." },
       "answer": false,
       "context": { "dialogue": "medine-t2.r02.dialogue-2#1" },
       "explain": "Faux : il l'a payé quatre-vingts riyals ({ar|بِثَمَانِينَ رِيَالًا}). Soixante, c'est le sac de ʿAmr."
@@ -197,9 +197,9 @@
       "id": "medine-t2.r02.dialogue-2#10",
       "type": "typing",
       "ask": "fr",
-      "fr": "Je l'ai achetée pour quatre-vingts riyals.",
+      "fr": "Je l'ai acheté pour quatre-vingts riyals.",
       "answers": ["اِشْتَرَيْتُهَا بِثَمَانِينَ رِيَالًا."],
-      "explain": "{ar|هَا} est le sac (un nom féminin) ; {ar|ثَمَانِينَ} est au génitif après {ar|بِ}."
+      "explain": "{ar|هَا} reprend {ar|حَقِيبَةٌ} (un nom féminin en arabe, même si « sac » est masculin en français) ; {ar|ثَمَانِينَ} est au génitif après {ar|بِ}."
     },
     {
       "id": "medine-t2.r02.dialogue-2#11",

@@ -98,7 +98,7 @@
       "id": "medine-t2.r02.practice-2#7",
       "type": "typing",
       "ask": "fr",
-      "fr": "Des croyants.",
+      "fr": "Des croyants (pluriel masculin régulier, au nominatif).",
       "answers": ["مُؤْمِنُونَ"],
       "explain": "Le pluriel de {ar|مُؤْمِنٌ} : {ar|مُؤْمِنُونَ}."
     },
@@ -112,7 +112,7 @@
       "id": "medine-t2.r02.practice-2#9",
       "type": "typing",
       "ask": "fr",
-      "fr": "Des incroyants.",
+      "fr": "Des incroyants (pluriel masculin régulier, au nominatif).",
       "answers": ["كَافِرُونَ"],
       "explain": "Le pluriel de {ar|كَافِرٌ} : {ar|كَافِرُونَ}."
     },

@@ -39,7 +39,7 @@
         },
         {
           "type": "note",
-          "text": "Le verbe qui se termine par le {ar|نَ} des femmes ({ar|يَذْهَبْنَ}, {ar|نُونُ النِّسْوَةِ}) ne change pas : il est invariable ({ar|مَبْنِيٌّ}). Le nūn d'insistance ({ar|نُونُ التَّوْكِيدِ}, comme dans {ar|يَكْتُبَنَّ}) rend aussi le verbe invariable : ici, retiens seulement qu'alors il ne change plus."
+          "text": "Le verbe qui se termine par le {ar|نَ} des femmes ({ar|يَذْهَبْنَ}, {ar|نُونُ النِّسْوَةِ}) ne change pas : il est invariable ({ar|مَبْنِيٌّ}). Le nūn d'insistance ({ar|نُونُ التَّوْكِيدِ}, comme dans {ar|يَكْتُبَنَّ}) rend aussi le verbe invariable quand il s'y attache directement : ici, retiens seulement qu'alors il ne change plus."
         }
       ]
     },
@@ -100,7 +100,12 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Les étudiants ne sont pas allés à la mosquée.",
-      "answers": ["الطُّلَّابُ لَمْ يَذْهَبُوا إِلَى الْمَسْجِدِ.", "لَمْ يَذْهَبِ الطُّلَّابُ إِلَى الْمَسْجِدِ."],
+      "answers": [
+        "الطُّلَّابُ لَمْ يَذْهَبُوا إِلَى الْمَسْجِدِ.",
+        "لَمْ يَذْهَبِ الطُّلَّابُ إِلَى الْمَسْجِدِ.",
+        "الطُّلَّابُ مَا ذَهَبُوا إِلَى الْمَسْجِدِ.",
+        "مَا ذَهَبَ الطُّلَّابُ إِلَى الْمَسْجِدِ."
+      ],
       "explain": "Si le sujet précède le verbe, le verbe s'accorde : {ar|يَذْهَبُوا} ; s'il le suit, le verbe reste au singulier : {ar|لَمْ يَذْهَبِ الطُّلَّابُ}."
     },
     {
