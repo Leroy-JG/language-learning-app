@@ -1,0 +1,96 @@
+{
+  "id": "medine-t2.r02.vocab-2",
+  "type": "vocabulary",
+  "title": "Palais, émir, vertu et récompense",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t2.r02.vocab-2#1", "type": "present", "item": "w:qasr" },
+    { "id": "medine-t2.r02.vocab-2#2", "type": "present", "item": "w:amir" },
+    {
+      "id": "medine-t2.r02.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:amir",
+      "distractors": ["w:qasr", "w:imam"],
+      "explain": "{ar|أَمِيرٌ} : un émir. {ar|قَصْرٌ} : un palais ; {ar|إِمَامٌ} : un imam."
+    },
+    { "id": "medine-t2.r02.vocab-2#4", "type": "present", "item": "w:fadila" },
+    { "id": "medine-t2.r02.vocab-2#5", "type": "present", "item": "w:jaiza" },
+    {
+      "id": "medine-t2.r02.vocab-2#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:qasr", "w:amir", "w:fadila", "w:jaiza"]
+    },
+    {
+      "id": "medine-t2.r02.vocab-2#7",
+      "type": "tip",
+      "title": "Quatre pluriels",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les quatre mots ont un pluriel brisé. Trois d'entre eux ne prennent jamais le tanwin."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "أَمِيرٌ", "fr": "un émir" }, "to": { "ar": "أُمَرَاءُ", "fr": "des émirs" } },
+            {
+              "from": { "ar": "جَائِزَةٌ", "fr": "une récompense" },
+              "to": { "ar": "جَوَائِزُ", "fr": "des récompenses" }
+            },
+            { "from": { "ar": "فَضِيلَةٌ", "fr": "une vertu" }, "to": { "ar": "فَضَائِلُ", "fr": "des vertus" } },
+            { "from": { "ar": "قَصْرٌ", "fr": "un palais" }, "to": { "ar": "قُصُورٌ", "fr": "des palais" } }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|أُمَرَاءُ}, {ar|جَوَائِزُ} et {ar|فَضَائِلُ} sont des noms sans tanwin : au génitif, sans article, ils prennent la fatha, comme {ar|مَسَاجِدُ} (tome 1, chapitre 23). {ar|قُصُورٌ} garde son tanwin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.vocab-2#8",
+      "type": "sort",
+      "categories": [ { "fr": "singulier" }, { "fr": "pluriel" } ],
+      "cards": [
+        { "ar": "أَمِيرٌ", "category": 0 },
+        { "ar": "جَوَائِزُ", "category": 1 },
+        { "ar": "قَصْرٌ", "category": 0 },
+        { "ar": "أُمَرَاءُ", "category": 1 },
+        { "ar": "جَائِزَةٌ", "category": 0 },
+        { "ar": "قُصُورٌ", "category": 1 }
+      ],
+      "instruction": "Singulier ou pluriel ?",
+      "explain": "Un pluriel brisé change la forme du mot : {ar|أَمِيرٌ} → {ar|أُمَرَاءُ}, {ar|جَائِزَةٌ} → {ar|جَوَائِزُ}, {ar|قَصْرٌ} → {ar|قُصُورٌ}."
+    },
+    {
+      "id": "medine-t2.r02.vocab-2#9",
+      "type": "fill_gap",
+      "sentence": "أَخَذَ زَيْدٌ {0}.",
+      "fr": "Zayd a reçu une récompense.",
+      "gaps": [ { "answers": ["جَائِزَةً"] } ],
+      "options": ["جَائِزَةً", "فَضِيلَةً", "قَصْرًا"],
+      "explain": "« Une récompense » : {ar|جَائِزَةً}, complément d'objet de {ar|أَخَذَ}, à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r02.vocab-2#10",
+      "type": "fill_gap",
+      "sentence": "{0} الْمَدِينَةِ فِي الْقَصْرِ.",
+      "fr": "L'émir de la ville est dans le palais.",
+      "gaps": [ { "answers": ["أَمِيرُ"] } ],
+      "options": ["أَمِيرُ", "قَصْرُ", "جَائِزَةُ"],
+      "explain": "« L'émir de la ville » : {ar|أَمِيرُ الْمَدِينَةِ}, le sujet, au nominatif."
+    },
+    { "id": "medine-t2.r02.vocab-2#11", "type": "typing", "ask": "fr", "item": "w:fadila" },
+    { "id": "medine-t2.r02.vocab-2#12", "type": "build", "item": "w:jaiza", "extra": ["ي"] },
+    {
+      "id": "medine-t2.r02.vocab-2#13",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "L'émir de la ville est dans le palais.",
+      "answers": ["أَمِيرُ الْمَدِينَةِ فِي الْقَصْرِ."],
+      "explain": "{ar|أَمِيرُ الْمَدِينَةِ} est le sujet ; {ar|فِي الْقَصْرِ} dit où il est."
+    }
+  ]
+}

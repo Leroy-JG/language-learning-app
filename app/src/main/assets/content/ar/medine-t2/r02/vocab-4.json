@@ -1,0 +1,89 @@
+{
+  "id": "medine-t2.r02.vocab-4",
+  "type": "vocabulary",
+  "title": "Seconde, orange et Pakistanais",
+  "icon": "puzzle",
+  "screens": [
+    { "id": "medine-t2.r02.vocab-4#1", "type": "present", "item": "w:thaniya" },
+    { "id": "medine-t2.r02.vocab-4#2", "type": "present", "item": "w:burtuqa" },
+    {
+      "id": "medine-t2.r02.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:thaniya",
+      "distractors": ["w:daqiqa", "w:saa"],
+      "explain": "{ar|ثَانِيَةٌ} : une seconde. {ar|دَقِيقَةٌ} : une minute ; {ar|سَاعَةٌ} : une montre, une heure."
+    },
+    { "id": "medine-t2.r02.vocab-4#4", "type": "present", "item": "w:bakistani" },
+    {
+      "id": "medine-t2.r02.vocab-4#5",
+      "type": "tip",
+      "title": "Du pays à l'habitant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|بَاكِسْتَانِيٌّ} se forme comme {ar|هِنْدِيٌّ} : on ajoute le {ar|يّ} de l'origine au nom du pays."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            { "from": { "ar": "الْهِنْدُ", "fr": "l'Inde" }, "to": { "ar": "هِنْدِيٌّ", "fr": "indien" } },
+            {
+              "from": { "ar": "بَاكِسْتَانُ", "fr": "le Pakistan" },
+              "to": { "ar": "بَاكِسْتَانِيٌّ", "fr": "pakistanais" }
+            },
+            {
+              "from": { "ar": "بَاكِسْتَانِيٌّ", "fr": "un Pakistanais" },
+              "to": { "ar": "بَاكِسْتَانِيُّونَ", "fr": "des Pakistanais" }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le pluriel de {ar|بَاكِسْتَانِيٌّ} est un pluriel masculin régulier, comme {ar|مُسْلِمُونَ} : {ar|بَاكِسْتَانِيُّونَ} au nominatif, {ar|بَاكِسْتَانِيِّينَ} à l'accusatif et au génitif. Celui de {ar|هِنْدِيٌّ} est {ar|هُنُودٌ}, un pluriel brisé."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.vocab-4#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:thaniya", "w:burtuqa", "w:bakistani", "w:daqiqa"]
+    },
+    {
+      "id": "medine-t2.r02.vocab-4#7",
+      "type": "fill_gap",
+      "sentence": "هٰذَا الطَّالِبُ {0}.",
+      "fr": "Cet étudiant est pakistanais.",
+      "gaps": [ { "answers": ["بَاكِسْتَانِيٌّ"] } ],
+      "options": ["بَاكِسْتَانِيٌّ", "هِنْدِيٌّ", "مُجْتَهِدٌ"],
+      "explain": "« Pakistanais » : {ar|بَاكِسْتَانِيٌّ}."
+    },
+    {
+      "id": "medine-t2.r02.vocab-4#8",
+      "type": "fill_gap",
+      "sentence": "هَاتِ عِشْرِينَ {0}.",
+      "fr": "Donne-moi vingt oranges.",
+      "gaps": [ { "answers": ["بُرْتُقَالَةً"] } ],
+      "options": ["بُرْتُقَالَةً", "ثَانِيَةً", "قِصَّةً"],
+      "explain": "Après {ar|عِشْرِينَ}, le nom est au singulier et à l'accusatif : {ar|بُرْتُقَالَةً}."
+    },
+    {
+      "id": "medine-t2.r02.vocab-4#9",
+      "type": "order",
+      "fr": "Attends une seconde.",
+      "answers": [["اِنْتَظِرْ", "ثَانِيَةً"]],
+      "punctuation": ".",
+      "explain": "Le verbe à l'impératif, puis la durée à l'accusatif : {ar|ثَانِيَةً}."
+    },
+    { "id": "medine-t2.r02.vocab-4#10", "type": "typing", "ask": "fr", "item": "w:burtuqa" },
+    {
+      "id": "medine-t2.r02.vocab-4#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Cet étudiant est pakistanais.",
+      "answers": ["هٰذَا الطَّالِبُ بَاكِسْتَانِيٌّ."],
+      "explain": "{ar|بَاكِسْتَانِيٌّ} décrit {ar|الطَّالِبُ} : même cas, le nominatif."
+    }
+  ]
+}

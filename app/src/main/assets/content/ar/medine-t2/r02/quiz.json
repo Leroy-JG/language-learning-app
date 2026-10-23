@@ -1,0 +1,189 @@
+{
+  "id": "medine-t2.r02.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.r02.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:fadila",
+      "distractors": ["w:jaiza", "w:usra"],
+      "explain": "{ar|فَضِيلَةٌ} : une vertu, un mérite. {ar|جَائِزَةٌ} : une récompense ; {ar|أُسْرَةٌ} : une famille."
+    },
+    {
+      "id": "medine-t2.r02.quiz#2",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la marque du génitif au pluriel masculin régulier ?" },
+      "choices": [ { "fr": "Le yā" }, { "fr": "Le wāw" }, { "fr": "La kasra" } ],
+      "answer": 0,
+      "explain": "Au génitif et à l'accusatif, le pluriel masculin régulier prend le {ar|ي}. Le {ar|و} est réservé au nominatif."
+    },
+    {
+      "id": "medine-t2.r02.quiz#3",
+      "type": "sort",
+      "categories": [ { "fr": "le nominatif" }, { "fr": "l'accusatif" }, { "fr": "le jussif" } ],
+      "cards": [
+        { "ar": "هُمْ يَدْرُسُونَ.", "category": 0 },
+        { "ar": "لَنْ يَجْلِسَ.", "category": 1 },
+        { "ar": "لَمْ تَكْتُبِي.", "category": 2 },
+        { "ar": "أَنْتَ تَفْتَحُ.", "category": 0 },
+        { "ar": "لَنْ تَشْرَبُوا.", "category": 1 },
+        { "ar": "لَمْ أَذْهَبْ.", "category": 2 }
+      ],
+      "instruction": "Quel est l'état du verbe ?",
+      "explain": "Sans particule : le nominatif. Après {ar|لَنْ} : l'accusatif. Après {ar|لَمْ} : le jussif."
+    },
+    {
+      "id": "medine-t2.r02.quiz#4",
+      "type": "fill_gap",
+      "sentence": "أَنْتِ لَمْ {0} إِلَى الْمَدْرَسَةِ.",
+      "fr": "Toi, tu n'es pas allée à l'école.",
+      "gaps": [ { "answers": ["تَذْهَبِي"] } ],
+      "options": ["تَذْهَبِي", "تَذْهَبِينَ", "تَذْهَبْنَ"],
+      "explain": "{ar|أَنْتِ} : une femme, un des cinq verbes. Après {ar|لَمْ}, le {ar|ن} de {ar|تَذْهَبِينَ} tombe."
+    },
+    {
+      "id": "medine-t2.r02.quiz#5",
+      "type": "question",
+      "prompt": { "fr": "Comment le professeur analyse-t-il {ar|يَذْهَبَا} dans {ar|لَنْ يَذْهَبَا} ?" },
+      "choices": [
+        { "ar": "فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ حَذْفُ النُّونِ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَنْصُوبٌ وَعَلَامَةُ نَصْبِهِ الْفَتْحَةُ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ ثُبُوتُ النُّونِ" }
+      ],
+      "answer": 0,
+      "explain": "Après {ar|لَنْ}, le verbe est à l'accusatif ; pour les cinq verbes, la marque est la chute du {ar|ن} ({ar|يَذْهَبَانِ} → {ar|يَذْهَبَا})."
+    },
+    {
+      "id": "medine-t2.r02.quiz#6",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|لَمْ}, le {ar|نَ} de {ar|يَذْهَبْنَ} tombe comme celui de {ar|يَذْهَبُونَ}." },
+      "answer": false,
+      "explain": "Faux : le {ar|نَ} de {ar|يَذْهَبْنَ} est le pronom « elles » ; il ne tombe jamais : {ar|لَمْ يَذْهَبْنَ}."
+    },
+    {
+      "id": "medine-t2.r02.quiz#7",
+      "type": "sort",
+      "categories": [ { "fr": "de base" }, { "fr": "secondaire" } ],
+      "cards": [
+        { "ar": "جَاءَ الْمُدَرِّسُ.", "category": 0 },
+        { "ar": "جَاءَ الْمُدَرِّسُونَ.", "category": 1 },
+        { "ar": "لَنْ يَكْتُبَ.", "category": 0 },
+        { "ar": "لَنْ يَكْتُبُوا.", "category": 1 },
+        { "ar": "لَمْ يَكْتُبْ.", "category": 0 },
+        { "ar": "لَمْ يَمْشِ.", "category": 1 }
+      ],
+      "instruction": "Marque de base ou marque secondaire ?",
+      "explain": "La damma, la fatha, la kasra et le sukūn sont les marques de base. Une lettre qui change ou qui tombe (le {ar|و} du pluriel, le {ar|ن}, la lettre défectueuse) est une marque secondaire."
+    },
+    {
+      "id": "medine-t2.r02.quiz#8",
+      "type": "fill_gap",
+      "sentence": "رَأَيْتُ {0} طَالِبًا.",
+      "fr": "J'ai vu trente étudiants.",
+      "gaps": [ { "answers": ["ثَلَاثِينَ"] } ],
+      "options": ["ثَلَاثِينَ", "ثَلَاثُونَ", "ثَلَاثَةً"],
+      "explain": "Complément d'objet : l'accusatif. {ar|ثَلَاثُونَ} est le nominatif ; {ar|ثَلَاثَةً} ne convient pas avec un nom compté de 20 à 99."
+    },
+    {
+      "id": "medine-t2.r02.quiz#9",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:rasaba",
+      "distractors": ["w:najaha", "w:dakhala"],
+      "explain": "{ar|رَسَبَ} : il a échoué. {ar|نَجَحَ} (il a réussi) dit le contraire."
+    },
+    {
+      "id": "medine-t2.r02.quiz#10",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « vingt-trois étudiantes » ?" },
+      "choices": [ { "ar": "ثَلَاثٌ وَعِشْرُونَ طَالِبَةً" }, { "ar": "ثَلَاثَةٌ وَعِشْرُونَ طَالِبَةً" } ],
+      "answer": 0,
+      "explain": "{ar|طَالِبَةٌ} est féminin : {ar|ثَلَاثٌ}, sans {ar|ة}."
+    },
+    {
+      "id": "medine-t2.r02.quiz#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il n'a ni écrit ni lu.",
+      "answers": ["لَا كَتَبَ وَلَا قَرَأَ."],
+      "explain": "{ar|لَا} devant un verbe au passé est répétée : {ar|لَا كَتَبَ وَلَا قَرَأَ}."
+    },
+    {
+      "id": "medine-t2.r02.quiz#12",
+      "type": "spot",
+      "instruction": "Touche le verbe dont le {ar|ن} est tombé.",
+      "words": ["الطُّلَّابُ", "لَنْ", "يَذْهَبُوا", "إِلَى", "الْمَسْجِدِ."],
+      "answers": [2],
+      "fr": "Les étudiants n'iront pas à la mosquée.",
+      "explain": "{ar|يَذْهَبُونَ} devient {ar|يَذْهَبُوا} après {ar|لَنْ} : le {ar|ن} tombe."
+    },
+    {
+      "id": "medine-t2.r02.quiz#13",
+      "type": "sort",
+      "categories": [ { "fr": "le nominatif" }, { "fr": "l'accusatif" }, { "fr": "le génitif" } ],
+      "cards": [
+        { "ar": "جَاءَ ثَلَاثُونَ طَالِبًا.", "category": 0 },
+        { "ar": "رَأَيْتُ ثَلَاثِينَ طَالِبًا.", "category": 1 },
+        { "ar": "ذَهَبْتُ إِلَى ثَلَاثِينَ طَالِبًا.", "category": 2 },
+        { "ar": "فِي الْفَصْلِ خَمْسُونَ طَالِبًا.", "category": 0 },
+        { "ar": "سَأَلْتُ خَمْسِينَ طَالِبًا.", "category": 1 },
+        { "ar": "قُلْتُ لِخَمْسِينَ طَالِبًا.", "category": 2 }
+      ],
+      "instruction": "Dans quel cas est le nombre ?",
+      "explain": "Le sujet est au nominatif ({ar|ونَ}). Le complément d'objet est à l'accusatif et ce qui suit une préposition au génitif : les deux prennent le {ar|ي}."
+    },
+    {
+      "id": "medine-t2.r02.quiz#14",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:qasr", "w:amir", "w:qaa", "w:ijtimaa"]
+    },
+    {
+      "id": "medine-t2.r02.quiz#15",
+      "type": "order",
+      "fr": "Dans l'heure, il y a soixante minutes.",
+      "answers": [["فِي", "السَّاعَةِ", "سِتُّونَ", "دَقِيقَةً"]],
+      "punctuation": ".",
+      "explain": "Le nombre est le sujet, placé après le complément de lieu : le nominatif ; le nom compté est au singulier et à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r02.quiz#16",
+      "type": "question",
+      "prompt": { "fr": "À quoi sert {ar|لَا} … {ar|وَلَا} devant un verbe au passé ?" },
+      "choices": [
+        { "fr": "À dire « ni… ni… » en rapportant un fait" },
+        { "fr": "À donner un ordre" },
+        { "fr": "À parler de l'avenir" }
+      ],
+      "answer": 0,
+      "explain": "Quand on rapporte un fait, {ar|لَا} est répétée : {ar|لَا أَكَلْتُ وَلَا شَرِبْتُ}."
+    },
+    {
+      "id": "medine-t2.r02.quiz#17",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je n'ai ni mémorisé ni écrit.",
+      "answers": ["لَا حَفِظْتُ وَلَا كَتَبْتُ."],
+      "explain": "{ar|لَا} devant chacun des deux verbes."
+    },
+    {
+      "id": "medine-t2.r02.quiz#18",
+      "type": "true_false",
+      "statement": { "fr": "{ar|جَوَائِزُ} est le pluriel de {ar|جَائِزَةٌ} et prend le tanwin." },
+      "answer": false,
+      "explain": "Faux : {ar|جَوَائِزُ} est un nom sans tanwin (il ne prend jamais le tanwin)."
+    },
+    { "id": "medine-t2.r02.quiz#19", "type": "build", "item": "w:burtuqa", "extra": ["ط"] },
+    {
+      "id": "medine-t2.r02.quiz#20",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Quatre-vingts étudiants ont réussi.",
+      "answers": ["نَجَحَ ثَمَانُونَ طَالِبًا."],
+      "explain": "Le sujet de {ar|نَجَحَ} est au nominatif : {ar|ثَمَانُونَ} ; le nom compté est au singulier et à l'accusatif."
+    }
+  ]
+}

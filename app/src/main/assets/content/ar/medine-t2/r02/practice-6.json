@@ -1,0 +1,115 @@
+{
+  "id": "medine-t2.r02.practice-6",
+  "type": "grammar",
+  "title": "Exercice 9 : écrire les nombres en lettres",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t2.r02.practice-6#1",
+      "type": "tip",
+      "title": "Exercice 9 : les nombres en lettres",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne dix phrases avec des chiffres : tu les lis, puis tu écris les nombres en lettres. Pense au cas du nombre (sa fonction dans la phrase), au genre du nom compté et au singulier du nom après un nombre de 20 à 99."
+        },
+        {
+          "type": "note",
+          "text": "Le mois du livre est le mois lunaire, de 29 ou 30 jours. Dans le livre, la deuxième phrase contient {ar|يَا الْقَاعَةِ} : c'est une faute de frappe pour {ar|فِي الْقَاعَةِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.practice-6#2",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai 50 riyals.",
+      "answers": ["عِنْدِي خَمْسُونَ رِيَالًا."],
+      "explain": "Le nombre est le sujet, placé après {ar|عِنْدِي} : le nominatif, {ar|خَمْسُونَ}."
+    },
+    {
+      "id": "medine-t2.r02.practice-6#3",
+      "type": "fill_gap",
+      "sentence": "رَأَيْتُ {0} طَالِبًا فِي الْقَاعَةِ.",
+      "fr": "J'ai vu 50 étudiants dans la salle.",
+      "gaps": [ { "answers": ["خَمْسِينَ"] } ],
+      "options": ["خَمْسِينَ", "خَمْسُونَ", "خَمْسَةً"],
+      "explain": "Complément d'objet : l'accusatif, {ar|خَمْسِينَ}."
+    },
+    {
+      "id": "medine-t2.r02.practice-6#4",
+      "type": "order",
+      "fr": "J'ai acheté ce dictionnaire pour 50 dollars.",
+      "answers": [["اِشْتَرَيْتُ", "هٰذَا", "الْمُعْجَمَ", "بِخَمْسِينَ", "دُولَارًا"]],
+      "punctuation": ".",
+      "explain": "{ar|بِخَمْسِينَ} : le génitif après {ar|بِ} ; {ar|دُولَارًا} : singulier, accusatif."
+    },
+    {
+      "id": "medine-t2.r02.practice-6#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai lu 60 pages.",
+      "answers": ["قَرَأْتُ سِتِّينَ صَفْحَةً."],
+      "explain": "Complément d'objet : l'accusatif, {ar|سِتِّينَ} ; le nom compté au singulier."
+    },
+    {
+      "id": "medine-t2.r02.practice-6#6",
+      "type": "fill_gap",
+      "sentence": "فِي هٰذِهِ الْمَجَلَّةِ {0} صَفْحَةً.",
+      "fr": "Dans cette revue, il y a 40 pages.",
+      "gaps": [ { "answers": ["أَرْبَعُونَ"] } ],
+      "options": ["أَرْبَعُونَ", "أَرْبَعِينَ", "أَرْبَعٌ"],
+      "explain": "Le nombre est le sujet, placé après {ar|فِي هٰذِهِ الْمَجَلَّةِ} : le nominatif, {ar|أَرْبَعُونَ}."
+    },
+    {
+      "id": "medine-t2.r02.practice-6#7",
+      "type": "fill_gap",
+      "sentence": "فِي الْيَوْمِ {0} سَاعَةً وَفِي السَّاعَةِ {1} دَقِيقَةً.",
+      "fr": "Dans le jour, il y a 24 heures, et dans l'heure, 60 minutes.",
+      "gaps": [ { "answers": ["أَرْبَعٌ وَعِشْرُونَ"] }, { "answers": ["سِتُّونَ"] } ],
+      "options": ["أَرْبَعٌ وَعِشْرُونَ", "أَرْبَعَةٌ وَعِشْرُونَ", "سِتُّونَ", "سِتِّينَ"],
+      "explain": "{ar|سَاعَةٌ} est féminin : {ar|أَرْبَعٌ} (sans {ar|ة}). Les deux nombres sont des sujets : le nominatif."
+    },
+    {
+      "id": "medine-t2.r02.practice-6#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Dans la minute, il y a 60 secondes.",
+      "answers": ["وَفِي الدَّقِيقَةِ سِتُّونَ ثَانِيَةً.", "فِي الدَّقِيقَةِ سِتُّونَ ثَانِيَةً."],
+      "explain": "{ar|سِتُّونَ} est le sujet : le nominatif ; {ar|ثَانِيَةً} : le nom compté, au singulier et à l'accusatif."
+    },
+    {
+      "id": "medine-t2.r02.practice-6#9",
+      "type": "spot",
+      "instruction": "Touche le nombre.",
+      "words": ["فِي", "هٰذِهِ", "الْقَرْيَةِ", "سَبْعُونَ", "أُسْرَةً."],
+      "answers": [3],
+      "fr": "Dans ce village, il y a 70 familles.",
+      "explain": "{ar|سَبْعُونَ} est le nombre (70) ; {ar|أُسْرَةً} est le nom compté, au singulier."
+    },
+    {
+      "id": "medine-t2.r02.practice-6#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Donne-moi 20 oranges.",
+      "answers": ["هَاتِ عِشْرِينَ بُرْتُقَالَةً."],
+      "explain": "Après {ar|هَاتِ}, le complément d'objet : l'accusatif, {ar|عِشْرِينَ} ; {ar|بُرْتُقَالَةً} au singulier."
+    },
+    {
+      "id": "medine-t2.r02.practice-6#11",
+      "type": "order",
+      "fr": "90 étudiants ont réussi et 20 ont échoué.",
+      "answers": [["نَجَحَ", "تِسْعُونَ", "طَالِبًا", "وَرَسَبَ", "عِشْرُونَ", "طَالِبًا"]],
+      "punctuation": ".",
+      "explain": "Chaque verbe précède son sujet : {ar|نَجَحَ تِسْعُونَ} puis {ar|رَسَبَ عِشْرُونَ}, au nominatif, avec le nom compté au singulier."
+    },
+    {
+      "id": "medine-t2.r02.practice-6#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai 30 ans.",
+      "answers": ["سِنِّي ثَلَاثُونَ سَنَةً."],
+      "explain": "{ar|سِنِّي} : mon âge ; {ar|ثَلَاثُونَ} est le prédicat, au nominatif."
+    }
+  ]
+}

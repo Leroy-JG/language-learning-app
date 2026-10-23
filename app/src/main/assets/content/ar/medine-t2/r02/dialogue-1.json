@@ -1,0 +1,178 @@
+{
+  "id": "medine-t2.r02.dialogue-1",
+  "type": "dialogue",
+  "title": "Les nouveaux enseignants",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.r02.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Les nouveaux enseignants",
+      "intro": "Jaʿfar et ʿAdnān cherchent les enseignants. Puis l'un des nouveaux enseignants entre dans la classe et parle aux étudiants. Écoute les pluriels en {ar|◌ُونَ} et {ar|◌ِينَ}.",
+      "speakers": {
+        "J": { "name": "Jaʿfar", "voice": "m2" },
+        "A": { "name": "ʿAdnān", "voice": "m1" },
+        "T": { "name": "Le nouvel enseignant", "voice": "m1" },
+        "S": { "name": "Les étudiants", "voice": "m2" },
+        "U": { "name": "ʿUmar", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "J",
+          "ar": "أَيْنَ الْمُدَرِّسُونَ؟ لَا دَخَلُوا الْفُصُولَ وَلَا هُمْ فِي غُرْفَةِ الْمُدَرِّسِينَ.",
+          "fr": "Où sont les enseignants ? Ils ne sont pas entrés dans les classes, et ils ne sont pas non plus dans la salle des enseignants."
+        },
+        {
+          "speaker": "A",
+          "ar": "أَظُنُّ أَنَّهُمْ فِي اجْتِمَاعٍ. أَرَأَيْتَ الْمُدَرِّسِينَ الْجُدُدَ؟",
+          "fr": "Je pense qu'ils sont en réunion. As-tu vu les nouveaux enseignants ?"
+        },
+        { "speaker": "J", "ar": "أَجَاءَ مُدَرِّسُونَ جُدُدٌ؟", "fr": "Des nouveaux enseignants sont-ils venus ?" },
+        {
+          "speaker": "A",
+          "ar": "نَعَمْ، جَاءَ خَمْسَةُ مُدَرِّسِينَ جُدُدٍ. رَأَيْتُ أَحَدَهُمْ فِي الْمَكْتَبَةِ قَبْلَ قَلِيلٍ. اِسْمُهُ الْحُسَيْنُ بْنُ الْحَسَنِ.",
+          "fr": "Oui, cinq nouveaux enseignants sont venus. J'ai vu l'un d'eux à la bibliothèque tout à l'heure. Il s'appelle al-Ḥusayn ibn al-Ḥasan."
+        },
+        {
+          "speaker": "T",
+          "ar": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.",
+          "fr": "Que la paix, la miséricorde d'Allah et ses bénédictions soient sur vous."
+        },
+        {
+          "speaker": "S",
+          "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ. أَهْلًا وَسَهْلًا وَمَرْحَبًا يَا أُسْتَاذُ.",
+          "fr": "Et sur vous la paix, la miséricorde d'Allah et ses bénédictions. Bienvenue, professeur !"
+        },
+        {
+          "speaker": "T",
+          "ar": "أَشْكُرُكُمْ يَا إِخْوَانُ. كَمْ طَالِبًا فِي فَصْلِكُمْ هٰذَا؟",
+          "fr": "Je vous remercie, mes frères. Combien d'étudiants y a-t-il dans votre classe ?"
+        },
+        { "speaker": "U", "ar": "فِيهِ ثَلَاثُونَ طَالِبًا.", "fr": "Il y en a trente." },
+        {
+          "speaker": "T",
+          "ar": "وَلَكِنَّنِي أَرَى خَمْسَةً وَعِشْرِينَ طَالِبًا فَقَطْ. فَأَيْنَ الْآخَرُونَ؟",
+          "fr": "Mais je ne vois que vingt-cinq étudiants. Où sont les autres ?"
+        },
+        { "speaker": "U", "ar": "هُمْ غَائِبُونَ الْيَوْمَ.", "fr": "Ils sont absents aujourd'hui." }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.dialogue-1#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Presque tout ce texte est connu. Voici ce qu'il faut remarquer :" },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            [
+              "{ar|لَا دَخَلُوا الْفُصُولَ وَلَا هُمْ فِي غُرْفَةِ الْمُدَرِّسِينَ}",
+              "ils ne sont pas entrés dans les classes et ils ne sont pas non plus dans la salle des enseignants",
+              "{ar|لَا} est répétée devant un verbe au passé (voir « Une négation qui se répète »)"
+            ],
+            [
+              "{ar|أَظُنُّ أَنَّهُمْ فِي اجْتِمَاعٍ}",
+              "je pense qu'ils sont en réunion",
+              "{ar|اجْتِمَاعٍ} est au génitif, après {ar|فِي}"
+            ],
+            [
+              "{ar|الْمُدَرِّسِينَ الْجُدُدَ}",
+              "les nouveaux enseignants",
+              "un pluriel masculin régulier à l'accusatif (complément de {ar|أَرَأَيْتَ}) ; l'adjectif {ar|جُدُدٌ}, pluriel de {ar|جَدِيدٌ}, le suit au même cas"
+            ],
+            [
+              "{ar|خَمْسَةُ مُدَرِّسِينَ جُدُدٍ}",
+              "cinq nouveaux enseignants",
+              "de 3 à 10, le nombre est suivi d'un pluriel au génitif ; l'adjectif est au génitif aussi"
+            ],
+            ["{ar|أَحَدَهُمْ}", "l'un d'eux", "{ar|أَحَدَ} (accusatif, complément de {ar|رَأَيْتُ}) + {ar|هُمْ}"],
+            [
+              "{ar|الْحُسَيْنُ بْنُ الْحَسَنِ}",
+              "al-Ḥusayn, fils d'al-Ḥasan",
+              "entre deux noms de personnes, {ar|اِبْنٌ} perd son alif : {ar|بْنُ}"
+            ],
+            [
+              "{ar|خَمْسَةً وَعِشْرِينَ طَالِبًا}",
+              "vingt-cinq étudiants",
+              "de 20 à 99, le nom est au singulier, à l'accusatif ; ici le nombre est aussi à l'accusatif : c'est le complément de {ar|أَرَى}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.dialogue-1#3",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi Jaʿfar s'inquiète-t-il au début ?" },
+      "choices": [
+        { "fr": "Les enseignants ne sont ni dans les classes ni dans leur salle" },
+        { "fr": "Les étudiants sont en retard" },
+        { "fr": "Le cours est annulé" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.r02.dialogue-1#1" },
+      "explain": "{ar|لَا دَخَلُوا الْفُصُولَ وَلَا هُمْ فِي غُرْفَةِ الْمُدَرِّسِينَ} : « ils ne sont pas entrés dans les classes, et ils ne sont pas non plus dans la salle des enseignants »."
+    },
+    {
+      "id": "medine-t2.r02.dialogue-1#4",
+      "type": "true_false",
+      "statement": { "fr": "Cinq nouveaux enseignants sont arrivés." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.r02.dialogue-1#1" },
+      "explain": "{ar|جَاءَ خَمْسَةُ مُدَرِّسِينَ جُدُدٍ} : « cinq nouveaux enseignants sont venus »."
+    },
+    {
+      "id": "medine-t2.r02.dialogue-1#5",
+      "type": "question",
+      "prompt": { "fr": "Combien d'étudiants le nouvel enseignant voit-il dans la classe ?" },
+      "choices": [ { "fr": "Vingt-cinq" }, { "fr": "Trente" }, { "fr": "Trente-cinq" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.r02.dialogue-1#1" },
+      "explain": "{ar|أَرَى خَمْسَةً وَعِشْرِينَ طَالِبًا فَقَطْ} : « je ne vois que vingt-cinq étudiants »."
+    },
+    {
+      "id": "medine-t2.r02.dialogue-1#6",
+      "type": "true_false",
+      "statement": { "fr": "D'après ʿUmar, il y a trente étudiants dans la classe." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.r02.dialogue-1#1" },
+      "explain": "{ar|فِيهِ ثَلَاثُونَ طَالِبًا} : « il y en a trente »."
+    },
+    {
+      "id": "medine-t2.r02.dialogue-1#7",
+      "type": "fill_gap",
+      "sentence": "جَاءَ خَمْسَةُ {0} جُدُدٍ.",
+      "fr": "Cinq nouveaux enseignants sont venus.",
+      "gaps": [ { "answers": ["مُدَرِّسِينَ"] } ],
+      "options": ["مُدَرِّسِينَ", "مُدَرِّسُونَ", "مُدَرِّسَانِ"],
+      "context": { "dialogue": "medine-t2.r02.dialogue-1#1" },
+      "explain": "Après {ar|خَمْسَةُ}, un pluriel au génitif : le {ar|ي} ({ar|مُدَرِّسِينَ}). {ar|مُدَرِّسُونَ} est le nominatif ; {ar|مُدَرِّسَانِ} est un duel."
+    },
+    {
+      "id": "medine-t2.r02.dialogue-1#8",
+      "type": "order",
+      "fr": "Combien d'étudiants y a-t-il dans votre classe ?",
+      "answers": [["كَمْ", "طَالِبًا", "فِي", "فَصْلِكُمْ", "هٰذَا"]],
+      "punctuation": "؟",
+      "explain": "{ar|كَمْ} + un nom au singulier, à l'accusatif : {ar|كَمْ طَالِبًا}. Le démonstratif {ar|هٰذَا} suit {ar|فَصْلِكُمْ}."
+    },
+    {
+      "id": "medine-t2.r02.dialogue-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je pense qu'ils sont en réunion.",
+      "answers": ["أَظُنُّ أَنَّهُمْ فِي اجْتِمَاعٍ."],
+      "explain": "{ar|أَظُنُّ أَنَّ} + le pronom {ar|هُمْ} collé : {ar|أَنَّهُمْ}."
+    },
+    {
+      "id": "medine-t2.r02.dialogue-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il y a trente étudiants dans la classe.",
+      "answers": ["فِيهِ ثَلَاثُونَ طَالِبًا.", "فِي الْفَصْلِ ثَلَاثُونَ طَالِبًا."],
+      "explain": "{ar|ثَلَاثُونَ} est le sujet, placé après {ar|فِيهِ} : le nominatif ; {ar|طَالِبًا} est au singulier et à l'accusatif."
+    }
+  ]
+}

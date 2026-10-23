@@ -1,0 +1,127 @@
+[
+  {
+    "id": "w:qissa",
+    "kind": "word",
+    "ar": "قِصَّةٌ",
+    "fr": "une histoire, un récit",
+    "translit": "qiṣṣatun",
+    "plural": "قِصَصٌ",
+    "gender": "f",
+    "note": "Le titre du livre du texte, {ar|قِصَصُ النَّبِيِّينَ}, veut dire « les histoires des prophètes ».",
+    "example": { "ar": "قَرَأْتُ قِصَّةَ النَّبِيِّ نُوحٍ.", "fr": "J'ai lu l'histoire du prophète Nūḥ." }
+  },
+  {
+    "id": "w:usra",
+    "kind": "word",
+    "ar": "أُسْرَةٌ",
+    "fr": "une famille",
+    "translit": "usratun",
+    "plural": "أُسَرٌ",
+    "gender": "f",
+    "example": { "ar": "هٰذِهِ أُسْرَةُ زَيْدٍ.", "fr": "Voici la famille de Zayd." }
+  },
+  {
+    "id": "w:ijtimaa",
+    "kind": "word",
+    "ar": "اِجْتِمَاعٌ",
+    "fr": "une réunion",
+    "translit": "ijtimāʿun",
+    "gender": "m",
+    "note": "Le professeur ne donne pas de pluriel.",
+    "example": { "ar": "عِنْدِي اجْتِمَاعٌ الْيَوْمَ.", "fr": "J'ai une réunion aujourd'hui." }
+  },
+  {
+    "id": "w:qaa",
+    "kind": "word",
+    "ar": "قَاعَةٌ",
+    "fr": "une salle (grande salle)",
+    "translit": "qāʿatun",
+    "plural": "قَاعَاتٌ",
+    "gender": "f",
+    "note": "Une grande salle, pour une réunion, une conférence ou un cours. Pour la salle de classe, on dit {ar|فَصْلٌ}.",
+    "example": { "ar": "فِي الْقَاعَةِ اجْتِمَاعٌ كَبِيرٌ.", "fr": "Il y a une grande réunion dans la salle." }
+  },
+  {
+    "id": "w:qasr",
+    "kind": "word",
+    "ar": "قَصْرٌ",
+    "fr": "un palais",
+    "translit": "qaṣrun",
+    "plural": "قُصُورٌ",
+    "gender": "m",
+    "example": { "ar": "الْقَصْرُ كَبِيرٌ.", "fr": "Le palais est grand." }
+  },
+  {
+    "id": "w:amir",
+    "kind": "word",
+    "ar": "أَمِيرٌ",
+    "fr": "un émir, un prince",
+    "translit": "amīrun",
+    "plural": "أُمَرَاءُ",
+    "gender": "m",
+    "note": "Le pluriel {ar|أُمَرَاءُ} n'a pas de tanwin. {ar|أَمِيرُ الْمُؤْمِنِينَ} (« le commandeur des croyants ») est le titre des califes.",
+    "example": { "ar": "أَمِيرُ الْمَدِينَةِ فِي الْقَصْرِ.", "fr": "L'émir de la ville est dans le palais." }
+  },
+  {
+    "id": "w:fadila",
+    "kind": "word",
+    "ar": "فَضِيلَةٌ",
+    "fr": "une vertu, un mérite",
+    "translit": "faḍīlatun",
+    "plural": "فَضَائِلُ",
+    "gender": "f",
+    "note": "On dit aussi {ar|فَضِيلَةُ الشَّيْخِ} : « Son Éminence le cheikh », un titre de respect (c'est ainsi que le texte du livre présente l'auteur). Le pluriel {ar|فَضَائِلُ} n'a pas de tanwin.",
+    "example": { "ar": "فِي زَيْدٍ فَضَائِلُ.", "fr": "Zayd a des qualités (il y a des vertus en Zayd)." }
+  },
+  {
+    "id": "w:jaiza",
+    "kind": "word",
+    "ar": "جَائِزَةٌ",
+    "fr": "une récompense, un prix",
+    "translit": "jāʾizatun",
+    "plural": "جَوَائِزُ",
+    "gender": "f",
+    "note": "Le pluriel {ar|جَوَائِزُ} n'a pas de tanwin.",
+    "example": { "ar": "أَخَذَ زَيْدٌ جَائِزَةً.", "fr": "Zayd a reçu une récompense." }
+  },
+  {
+    "id": "w:rasaba",
+    "kind": "word",
+    "ar": "رَسَبَ",
+    "fr": "il a échoué (échouer à un examen)",
+    "translit": "rasaba",
+    "note": "Il dit le contraire de {ar|نَجَحَ} (« réussir »). Présent {ar|يَرْسُبُ}.",
+    "example": { "ar": "رَسَبَ زَيْدٌ وَنَجَحَ يَاسِرٌ.", "fr": "Zayd a échoué et Yāsir a réussi." }
+  },
+  {
+    "id": "w:thaniya",
+    "kind": "word",
+    "ar": "ثَانِيَةٌ",
+    "fr": "une seconde (unité de temps)",
+    "translit": "thāniyatun",
+    "plural": "ثَوَانٍ",
+    "gender": "f",
+    "note": "C'est le féminin de {ar|ثَانٍ} (« deuxième », tome 2, chapitre 10) : la « deuxième » division de la minute. Son pluriel {ar|ثَوَانٍ} se termine par un tanwin à la kasra, sans {ar|ي}.",
+    "example": { "ar": "اِنْتَظِرْ ثَانِيَةً.", "fr": "Attends une seconde." }
+  },
+  {
+    "id": "w:burtuqa",
+    "kind": "word",
+    "ar": "بُرْتُقَالَةٌ",
+    "fr": "une orange",
+    "translit": "burtuqālatun",
+    "gender": "f",
+    "note": "L'orange en particulier, un seul fruit. Le nom collectif {ar|بُرْتُقَالٌ} désigne « des oranges » (tome 2, chapitre 7).",
+    "example": { "ar": "أَكَلْتُ بُرْتُقَالَةً.", "fr": "J'ai mangé une orange." }
+  },
+  {
+    "id": "w:bakistani",
+    "kind": "word",
+    "ar": "بَاكِسْتَانِيٌّ",
+    "fr": "pakistanais",
+    "translit": "bākistāniyyun",
+    "plural": "بَاكِسْتَانِيُّونَ",
+    "note": "Comme {ar|هِنْدِيٌّ} (« indien »), il vient du nom du pays ({ar|بَاكِسْتَانُ}) avec le {ar|يّ} de l'origine. Comme nom : « un Pakistanais ». Le pluriel est un pluriel masculin régulier : {ar|بَاكِسْتَانِيُّونَ}.",
+    "example": { "ar": "هٰذَا الطَّالِبُ بَاكِسْتَانِيٌّ.", "fr": "Cet étudiant est pakistanais." }
+  }
+]

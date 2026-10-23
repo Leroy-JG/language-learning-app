@@ -1,0 +1,54 @@
+{
+  "id": "medine-t2.r02.vocab-1",
+  "type": "vocabulary",
+  "title": "Histoire, famille, réunion et salle",
+  "icon": "books",
+  "screens": [
+    { "id": "medine-t2.r02.vocab-1#1", "type": "present", "item": "w:qissa" },
+    { "id": "medine-t2.r02.vocab-1#2", "type": "present", "item": "w:usra" },
+    {
+      "id": "medine-t2.r02.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:qissa",
+      "distractors": ["w:usra", "w:safha"],
+      "explain": "{ar|قِصَّةٌ} : une histoire. {ar|أُسْرَةٌ} : une famille ; {ar|صَفْحَةٌ} : une page."
+    },
+    { "id": "medine-t2.r02.vocab-1#4", "type": "present", "item": "w:ijtimaa" },
+    { "id": "medine-t2.r02.vocab-1#5", "type": "present", "item": "w:qaa" },
+    {
+      "id": "medine-t2.r02.vocab-1#6",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:qissa", "w:usra", "w:ijtimaa", "w:qaa"]
+    },
+    {
+      "id": "medine-t2.r02.vocab-1#7",
+      "type": "fill_gap",
+      "sentence": "هٰذِهِ {0} زَيْدٍ.",
+      "fr": "Voici la famille de Zayd.",
+      "gaps": [ { "answers": ["أُسْرَةُ"] } ],
+      "options": ["أُسْرَةُ", "قِصَّةُ", "قَاعَةُ"],
+      "explain": "« La famille de Zayd » : {ar|أُسْرَةُ زَيْدٍ}, une annexion."
+    },
+    {
+      "id": "medine-t2.r02.vocab-1#8",
+      "type": "fill_gap",
+      "sentence": "فِي {0} اجْتِمَاعٌ كَبِيرٌ.",
+      "fr": "Il y a une grande réunion dans la salle.",
+      "gaps": [ { "answers": ["الْقَاعَةِ"] } ],
+      "options": ["الْقَاعَةِ", "الْقِصَّةِ", "الْأُسْرَةِ"],
+      "explain": "« Dans la salle » : {ar|فِي الْقَاعَةِ}. Après {ar|فِي}, le génitif."
+    },
+    { "id": "medine-t2.r02.vocab-1#9", "type": "build", "item": "w:qaa", "extra": ["ه"] },
+    { "id": "medine-t2.r02.vocab-1#10", "type": "typing", "ask": "fr", "item": "w:usra" },
+    {
+      "id": "medine-t2.r02.vocab-1#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a une réunion dans la salle.",
+      "answers": ["فِي الْقَاعَةِ اجْتِمَاعٌ."],
+      "explain": "Le complément de lieu vient en premier : {ar|فِي الْقَاعَةِ}, puis le sujet {ar|اجْتِمَاعٌ}."
+    }
+  ]
+}

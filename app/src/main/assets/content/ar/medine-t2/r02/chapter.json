@@ -1,0 +1,29 @@
+{
+  "id": "medine-t2.r02",
+  "number": 23,
+  "title": { "ar": "مُرَاجَعَةٌ", "fr": "Revoir le présent, les cas du nom et les nombres" },
+  "label": "Révision 2",
+  "description": "Revoir les trois états du présent (nominatif, accusatif, jussif) et leurs marques, les cas du nom et le pluriel masculin régulier, apprendre dix mots nouveaux, lire le texte du livre (les nouveaux enseignants, le livre et le sac) et faire ses exercices : les dizaines, les nombres de 21 à 99 selon le genre, et {ar|لَا} devant un verbe au passé.",
+  "source": "Tome de Médine 2, leçons 22 et 23",
+  "sections": [
+    { "title": "Le présent : les trois états", "activities": ["revue-1", "revue-2"] },
+    { "title": "Les cas du nom", "activities": ["revue-3"] },
+    { "title": "Des mots nouveaux", "activities": ["vocab-1", "vocab-2", "vocab-3", "vocab-4"] },
+    { "title": "Une négation qui se répète", "activities": ["grammar-1"] },
+    { "title": "Le texte du livre", "activities": ["dialogue-1", "dialogue-2"] },
+    {
+      "title": "Les exercices du livre",
+      "activities": [
+        "practice-1",
+        "practice-2",
+        "practice-3",
+        "practice-4",
+        "practice-5",
+        "practice-6",
+        "practice-7",
+        "practice-8"
+      ]
+    },
+    { "title": "Bilan du chapitre", "activities": ["quiz"] }
+  ]
+}

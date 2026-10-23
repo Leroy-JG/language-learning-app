@@ -1,0 +1,90 @@
+{
+  "id": "medine-t2.r02.practice-8",
+  "type": "grammar",
+  "title": "Exercice 12 : une négation devant le passé",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.r02.practice-8#1",
+      "type": "tip",
+      "title": "Exercice 12 : quatre phrases avec {ar|لَا}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne quatre phrases où {ar|لَا} précède un verbe au passé, puis la règle."
+        },
+        { "type": "example", "ar": "لَا أَكَلْتُ وَلَا شَرِبْتُ.", "fr": "Je n'ai ni mangé ni bu." },
+        {
+          "type": "example",
+          "ar": "ذٰلِكَ الطَّالِبُ لَا حَفِظَ الدَّرْسَ وَلَا كَتَبَ الْوَاجِبَ.",
+          "fr": "Cet étudiant n'a ni mémorisé la leçon ni écrit le devoir."
+        },
+        {
+          "type": "example",
+          "ar": "لَا ضَرَبَنِي وَلَا ضَرَبْتُهُ.",
+          "fr": "Il ne m'a pas frappé et je ne l'ai pas frappé."
+        },
+        { "type": "example", "ar": "لَا رَآنِي وَلَا رَأَيْتُهُ.", "fr": "Il ne m'a pas vu et je ne l'ai pas vu." },
+        {
+          "type": "example",
+          "ar": "إِذَا دَخَلَتْ لَا عَلَى الْفِعْلِ الْمَاضِي وَجَبَ تَكْرَارُهَا عِنْدَ الْإِخْبَارِ.",
+          "fr": "Quand la négation entre devant un verbe au passé, il faut la répéter si l'on rapporte un fait."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.practice-8#2",
+      "type": "fill_gap",
+      "sentence": "ذٰلِكَ الطَّالِبُ {0} حَفِظَ الدَّرْسَ وَلَا كَتَبَ الْوَاجِبَ.",
+      "fr": "Cet étudiant n'a ni mémorisé la leçon ni écrit le devoir.",
+      "gaps": [ { "answers": ["لَا"] } ],
+      "options": ["لَا", "لَنْ", "لَمْ"],
+      "explain": "Devant un verbe au passé, on emploie {ar|لَا}, répétée : {ar|لَا حَفِظَ} … {ar|وَلَا كَتَبَ}. {ar|لَنْ} et {ar|لَمْ} se placent devant un présent."
+    },
+    {
+      "id": "medine-t2.r02.practice-8#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|لَا ضَرَبَنِي وَلَا ضَرَبْتُهُ}, qui n'a pas frappé qui ?" },
+      "choices": [
+        { "fr": "Lui ne m'a pas frappé, et moi je ne l'ai pas frappé" },
+        { "fr": "Moi je ne l'ai pas frappé, mais lui m'a frappé" },
+        { "fr": "Ni lui ni moi n'avons frappé quelqu'un d'autre" }
+      ],
+      "answer": 0,
+      "explain": "{ar|ضَرَبَنِي} : « il m'a frappé » ({ar|نِي} : moi). {ar|ضَرَبْتُهُ} : « je l'ai frappé » ({ar|هُ} : lui)."
+    },
+    {
+      "id": "medine-t2.r02.practice-8#4",
+      "type": "fill_gap",
+      "sentence": "لَا {0} وَلَا ضَرَبْتُهُ.",
+      "fr": "Il ne m'a pas frappé et je ne l'ai pas frappé.",
+      "gaps": [ { "answers": ["ضَرَبَنِي"] } ],
+      "options": ["ضَرَبَنِي", "يَضْرِبُنِي", "سَيَضْرِبُنِي"],
+      "explain": "Le verbe est au passé après {ar|لَا} : {ar|ضَرَبَنِي}. Le présent ({ar|يَضْرِبُنِي}) et le futur ({ar|سَيَضْرِبُنِي}) ne conviennent pas."
+    },
+    {
+      "id": "medine-t2.r02.practice-8#5",
+      "type": "order",
+      "fr": "Cet étudiant n'a ni mémorisé la leçon ni écrit le devoir.",
+      "answers": [["ذٰلِكَ", "الطَّالِبُ", "لَا", "حَفِظَ", "الدَّرْسَ", "وَلَا", "كَتَبَ", "الْوَاجِبَ"]],
+      "punctuation": ".",
+      "explain": "{ar|لَا} avant chaque verbe : {ar|لَا حَفِظَ الدَّرْسَ} puis {ar|وَلَا كَتَبَ الْوَاجِبَ}."
+    },
+    {
+      "id": "medine-t2.r02.practice-8#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il ne m'a pas vu et je ne l'ai pas vu.",
+      "answers": ["لَا رَآنِي وَلَا رَأَيْتُهُ."],
+      "explain": "{ar|رَآنِي} : il m'a vu ; {ar|رَأَيْتُهُ} : je l'ai vu."
+    },
+    {
+      "id": "medine-t2.r02.practice-8#7",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je n'ai ni mangé ni bu.",
+      "answers": ["لَا أَكَلْتُ وَلَا شَرِبْتُ."],
+      "explain": "{ar|لَا} devant chacun des deux verbes."
+    }
+  ]
+}

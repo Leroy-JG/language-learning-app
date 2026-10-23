@@ -1,0 +1,89 @@
+{
+  "id": "medine-t2.r02.practice-4",
+  "type": "grammar",
+  "title": "Exercice 6 : mettre le mot au bon cas",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.r02.practice-4#1",
+      "type": "tip",
+      "title": "Exercice 6 : compléter la phrase",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne une phrase à trou et, entre parenthèses, le mot qui va dans le trou, au nominatif. À toi de lui donner le cas qu'exige la phrase : qui est le sujet ? qu'est-ce que le complément d'objet ? qu'est-ce qui suit une préposition ?"
+        },
+        { "type": "example", "ar": "سَأَلْتُ الْمُدَرِّسِينَ.", "fr": "J'ai interrogé les enseignants." },
+        {
+          "type": "note",
+          "text": "Dans cet exemple du livre, le mot donné est {ar|الْمُدَرِّسُونَ} ; il est mis à l'accusatif, parce que c'est ce que j'ai interrogé."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.practice-4#2",
+      "type": "fill_gap",
+      "sentence": "يُحِبُّ الْمُدَرِّسُ الطُّلَّابَ {0}.",
+      "fr": "L'enseignant aime les étudiants appliqués.",
+      "gaps": [ { "answers": ["الْمُجْتَهِدِينَ"] } ],
+      "options": ["الْمُجْتَهِدِينَ", "الْمُجْتَهِدُونَ", "الْمُجْتَهِدَانِ"],
+      "explain": "{ar|الطُّلَّابَ} est le complément d'objet, à l'accusatif : l'adjectif qui le décrit prend le même cas, le {ar|ي}."
+    },
+    {
+      "id": "medine-t2.r02.practice-4#3",
+      "type": "fill_gap",
+      "sentence": "رَأَيْتُ {0} طَالِبًا.",
+      "fr": "J'ai vu trente étudiants.",
+      "gaps": [ { "answers": ["ثَلَاثِينَ"] } ],
+      "options": ["ثَلَاثِينَ", "ثَلَاثُونَ", "ثَلَاثَةً"],
+      "explain": "Ce que j'ai vu est le complément d'objet : l'accusatif, {ar|ثَلَاثِينَ}. {ar|ثَلَاثُونَ} est le nominatif."
+    },
+    {
+      "id": "medine-t2.r02.practice-4#4",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Allah aime les musulmans.",
+      "answers": ["يُحِبُّ اللَّهُ الْمُسْلِمِينَ."],
+      "explain": "{ar|اللَّهُ} est le sujet ; {ar|الْمُسْلِمِينَ} est le complément d'objet : l'accusatif, le {ar|ي}."
+    },
+    {
+      "id": "medine-t2.r02.practice-4#5",
+      "type": "question",
+      "prompt": {
+        "fr": "Pourquoi écrit-on {ar|الْمُسْلِمِينَ} (et non {ar|الْمُسْلِمُونَ}) dans {ar|يُحِبُّ اللَّهُ الْمُسْلِمِينَ} ?"
+      },
+      "choices": [
+        { "fr": "C'est le complément d'objet : l'accusatif" },
+        { "fr": "C'est le sujet : le nominatif" },
+        { "fr": "Il suit une préposition : le génitif" }
+      ],
+      "answer": 0,
+      "explain": "Ce qu'Allah aime est le complément d'objet : l'accusatif. Le pluriel régulier le marque par le {ar|ي}."
+    },
+    {
+      "id": "medine-t2.r02.practice-4#6",
+      "type": "fill_gap",
+      "sentence": "قَرَأْتُ {0} صَفْحَةً.",
+      "fr": "J'ai lu cinquante pages.",
+      "gaps": [ { "answers": ["خَمْسِينَ"] } ],
+      "options": ["خَمْسِينَ", "خَمْسُونَ", "خَمْسَةً"],
+      "explain": "Complément d'objet de {ar|قَرَأْتُ} : l'accusatif, {ar|خَمْسِينَ}. Le nom compté, {ar|صَفْحَةً}, est au singulier."
+    },
+    {
+      "id": "medine-t2.r02.practice-4#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai interrogé les ingénieurs.",
+      "answers": ["سَأَلْتُ الْمُهَنْدِسِينَ."],
+      "explain": "Complément d'objet : l'accusatif, le {ar|ي}."
+    },
+    {
+      "id": "medine-t2.r02.practice-4#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai lu cinquante pages.",
+      "answers": ["قَرَأْتُ خَمْسِينَ صَفْحَةً."],
+      "explain": "{ar|خَمْسِينَ} : l'accusatif ; {ar|صَفْحَةً} : le nom compté, au singulier et à l'accusatif."
+    }
+  ]
+}

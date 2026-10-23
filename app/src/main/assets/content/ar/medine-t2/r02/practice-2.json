@@ -1,0 +1,143 @@
+{
+  "id": "medine-t2.r02.practice-2",
+  "type": "grammar",
+  "title": "Exercices 2 et 3 : le pluriel masculin régulier",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.r02.practice-2#1",
+      "type": "tip",
+      "title": "Exercice 2 : lire le pluriel masculin régulier",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne six phrases à lire : dans chacune, un pluriel masculin régulier, ici toujours au nominatif (le {ar|و})."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase", "Sens"],
+          "rows": [
+            ["{ar|الْمُدَرِّسُونَ فِي الْفُصُولِ.}", "Les enseignants sont dans les classes."],
+            ["{ar|أَيْنَ الْمُهَنْدِسُونَ؟}", "Où sont les ingénieurs ?"],
+            ["{ar|هَؤُلَاءِ طُلَّابٌ مُجْتَهِدُونَ.}", "Ce sont des étudiants appliqués."],
+            [
+              "{ar|أَيْنَ أَحْمَدُ وَعَبَّاسٌ وَيَاسِرٌ؟ هُمْ غَائِبُونَ مُنْذُ أُسْبُوعَيْنِ.}",
+              "Où sont Aḥmad, ʿAbbās et Yāsir ? Ils sont absents depuis deux semaines."
+            ],
+            ["{ar|يَعْبُدُ الْمُسْلِمُونَ اللَّهَ.}", "Les musulmans adorent Allah."],
+            [
+              "{ar|هَؤُلَاءِ الطُّلَّابُ هُنُودٌ، وَأُولَئِكَ بَاكِسْتَانِيُّونَ.}",
+              "Ces étudiants sont indiens, et ceux-là pakistanais."
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans {ar|هَؤُلَاءِ طُلَّابٌ مُجْتَهِدُونَ}, le nom {ar|طُلَّابٌ} est un pluriel brisé, mais l'adjectif {ar|مُجْتَهِدُونَ} qui le décrit est un pluriel masculin régulier : c'est possible pour les adjectifs qui décrivent des hommes."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.practice-2#2",
+      "type": "question",
+      "prompt": { "fr": "Quelle phrase du livre veut dire « Les musulmans adorent Allah » ?" },
+      "choices": [
+        { "ar": "يَعْبُدُ الْمُسْلِمُونَ اللَّهَ" },
+        { "ar": "أَيْنَ الْمُهَنْدِسُونَ" },
+        { "ar": "هُمْ غَائِبُونَ مُنْذُ أُسْبُوعَيْنِ" }
+      ],
+      "answer": 0,
+      "explain": "{ar|يَعْبُدُ} : il adore ; {ar|الْمُسْلِمُونَ} : les musulmans ; {ar|اللَّهَ} : Allah."
+    },
+    {
+      "id": "medine-t2.r02.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "هُمْ غَائِبُونَ مُنْذُ {0}.",
+      "fr": "Ils sont absents depuis deux semaines.",
+      "gaps": [ { "answers": ["أُسْبُوعَيْنِ"] } ],
+      "options": ["أُسْبُوعَيْنِ", "أُسْبُوعَانِ", "أُسْبُوعٌ"],
+      "explain": "Après {ar|مُنْذُ}, le génitif : le duel prend le yā ({ar|أُسْبُوعَيْنِ})."
+    },
+    {
+      "id": "medine-t2.r02.practice-2#4",
+      "type": "spot",
+      "instruction": "Touche le pluriel masculin régulier.",
+      "words": ["هَؤُلَاءِ", "الطُّلَّابُ", "هُنُودٌ،", "وَأُولَئِكَ", "بَاكِسْتَانِيُّونَ."],
+      "answers": [4],
+      "fr": "Ces étudiants sont indiens, et ceux-là pakistanais.",
+      "explain": "{ar|بَاكِسْتَانِيُّونَ} est un pluriel masculin régulier (le {ar|ونَ}). {ar|الطُّلَّابُ} et {ar|هُنُودٌ} sont des pluriels brisés."
+    },
+    {
+      "id": "medine-t2.r02.practice-2#5",
+      "type": "tip",
+      "title": "Exercice 3 : former le pluriel",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre demande le pluriel masculin régulier de huit noms. Pour le former, on enlève le tanwin et on ajoute {ar|◌ُونَ} au nominatif."
+        },
+        {
+          "type": "compare",
+          "title": "Exemple",
+          "rows": [
+            {
+              "from": { "ar": "مُدَرِّسٌ", "fr": "un enseignant" },
+              "to": { "ar": "مُدَرِّسُونَ", "fr": "des enseignants" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.practice-2#6",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:mudarris", "w:muhandis", "w:muslim", "w:kafir"]
+    },
+    {
+      "id": "medine-t2.r02.practice-2#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Des croyants.",
+      "answers": ["مُؤْمِنُونَ"],
+      "explain": "Le pluriel de {ar|مُؤْمِنٌ} : {ar|مُؤْمِنُونَ}."
+    },
+    {
+      "id": "medine-t2.r02.practice-2#8",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:ghaib-2", "w:mujtahid", "w:muamin", "w:salih"]
+    },
+    {
+      "id": "medine-t2.r02.practice-2#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Des incroyants.",
+      "answers": ["كَافِرُونَ"],
+      "explain": "Le pluriel de {ar|كَافِرٌ} : {ar|كَافِرُونَ}."
+    },
+    {
+      "id": "medine-t2.r02.practice-2#10",
+      "type": "sort",
+      "categories": [ { "fr": "pluriel régulier" }, { "fr": "pluriel brisé" } ],
+      "cards": [
+        { "ar": "طُلَّابٌ", "category": 1 },
+        { "ar": "مُدَرِّسُونَ", "category": 0 },
+        { "ar": "هُنُودٌ", "category": 1 },
+        { "ar": "بَاكِسْتَانِيُّونَ", "category": 0 },
+        { "ar": "أُمَرَاءُ", "category": 1 },
+        { "ar": "مُسْلِمُونَ", "category": 0 }
+      ],
+      "instruction": "Pluriel régulier ou pluriel brisé ?",
+      "explain": "Le pluriel régulier ajoute {ar|ونَ} ou {ar|ينَ} au singulier. Le pluriel brisé change la forme du mot : {ar|طَالِبٌ} → {ar|طُلَّابٌ}."
+    },
+    {
+      "id": "medine-t2.r02.practice-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les enseignants sont dans les classes.",
+      "answers": ["الْمُدَرِّسُونَ فِي الْفُصُولِ."],
+      "explain": "Le sujet est au nominatif : {ar|الْمُدَرِّسُونَ} (le {ar|و}). {ar|الْفُصُولِ} suit {ar|فِي} : le génitif."
+    }
+  ]
+}

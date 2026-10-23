@@ -1,0 +1,213 @@
+{
+  "id": "medine-t2.r02.dialogue-2",
+  "type": "dialogue",
+  "title": "Le livre, les pages et le sac",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.r02.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Le livre, les pages et le sac",
+      "intro": "Le nouvel enseignant interroge les étudiants sur le livre qu'ils lisent. Puis on parle de son sac.",
+      "speakers": {
+        "T": { "name": "Le nouvel enseignant", "voice": "m1" },
+        "A": { "name": "ʿAdnān", "voice": "m1" },
+        "J": { "name": "Jaʿfar", "voice": "m2" },
+        "H": { "name": "Hārūn", "voice": "m2" },
+        "S": { "name": "Hāshim", "voice": "m1" },
+        "M": { "name": "ʿAmr", "voice": "m2" }
+      },
+      "lines": [
+        { "speaker": "T", "ar": "أَيَّ كِتَابٍ تَقْرَأُونَ؟", "fr": "Quel livre lisez-vous ?" },
+        {
+          "speaker": "A",
+          "ar": "نَقْرَأُ هٰذَا الْكِتَابَ. اِسْمُهُ قِصَصُ النَّبِيِّينَ.",
+          "fr": "Nous lisons ce livre. Il s'appelle « Les histoires des prophètes »."
+        },
+        { "speaker": "T", "ar": "لِمَنْ هُوَ؟", "fr": "De qui est-il ?" },
+        {
+          "speaker": "A",
+          "ar": "هُوَ لِفَضِيلَةِ الشَّيْخِ أَبِي الْحَسَنِ النَّدْوِيِّ.",
+          "fr": "Il est de Son Éminence le cheikh Abū l-Ḥasan an-Nadwī."
+        },
+        { "speaker": "T", "ar": "كَمْ صَفْحَةً قَرَأْتُمْ فِيهِ؟", "fr": "Combien de pages en avez-vous lu ?" },
+        {
+          "speaker": "J",
+          "ar": "قَرَأْنَا ثَلَاثًا وَخَمْسِينَ صَفْحَةً.",
+          "fr": "Nous en avons lu cinquante-trois pages."
+        },
+        {
+          "speaker": "A",
+          "ar": "الْكِتَابُ فِيهِ تِسْعُونَ صَفْحَةً. قَرَأْنَا مِنْهَا ثَلَاثًا وَخَمْسِينَ صَفْحَةً فَبَقِيَ سَبْعٌ وَثَلَاثُونَ صَفْحَةً.",
+          "fr": "Le livre a quatre-vingt-dix pages. Nous en avons lu cinquante-trois, donc il en reste trente-sept."
+        },
+        {
+          "speaker": "H",
+          "ar": "مَا أَجْمَلَ حَقِيبَتَكَ يَا أُسْتَاذُ! بِكَمِ اِشْتَرَيْتَهَا؟",
+          "fr": "Que ton sac est beau, professeur ! Combien l'as-tu acheté ?"
+        },
+        {
+          "speaker": "T",
+          "ar": "اِشْتَرَيْتُهَا بِثَمَانِينَ رِيَالًا.",
+          "fr": "Je l'ai achetée pour quatre-vingts riyals."
+        },
+        {
+          "speaker": "S",
+          "ar": "أَنَا اِشْتَرَيْتُ مِثْلَهَا بِسَبْعِينَ رِيَالًا.",
+          "fr": "Moi, j'en ai acheté une pareille pour soixante-dix riyals."
+        },
+        {
+          "speaker": "M",
+          "ar": "أَنَا اِشْتَرَيْتُ حَقِيبَةً أَصْغَرَ مِنْهَا بِسِتِّينَ رِيَالًا.",
+          "fr": "Moi, j'ai acheté un sac plus petit pour soixante riyals."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.dialogue-2#2",
+      "type": "tip",
+      "title": "Des petites formes à repérer",
+      "blocks": [
+        { "type": "paragraph", "text": "Encore des formes connues, que le texte met en situation :" },
+        {
+          "type": "table",
+          "header": ["Dans le texte", "Sens", "À retenir"],
+          "rows": [
+            [
+              "{ar|أَيَّ كِتَابٍ تَقْرَأُونَ؟}",
+              "quel livre lisez-vous ?",
+              "{ar|أَيَّ} est à l'accusatif (complément d'objet de {ar|تَقْرَأُونَ}), le nom qui le suit au génitif ; {ar|تَقْرَأُونَ} est un des cinq verbes"
+            ],
+            [
+              "{ar|قِصَصُ النَّبِيِّينَ}",
+              "les histoires des prophètes",
+              "{ar|النَّبِيِّينَ} est un pluriel masculin régulier, au génitif ; {ar|نَبِيٌّ} a aussi le pluriel {ar|أَنْبِيَاءُ}"
+            ],
+            ["{ar|لِمَنْ هُوَ؟}", "de qui est-il ?", "{ar|لِ} + {ar|مَنْ} : « à qui ? »"],
+            [
+              "{ar|لِفَضِيلَةِ الشَّيْخِ}",
+              "de Son Éminence le cheikh",
+              "{ar|لِ} suivi d'une annexion : {ar|فَضِيلَةِ} et {ar|الشَّيْخِ} sont au génitif"
+            ],
+            [
+              "{ar|ثَلَاثًا وَخَمْسِينَ صَفْحَةً}",
+              "cinquante-trois pages",
+              "{ar|صَفْحَةٌ} est féminin : {ar|ثَلَاثٌ}, sans {ar|ة} ; le tout est le complément d'objet : l'accusatif"
+            ],
+            [
+              "{ar|فَبَقِيَ سَبْعٌ وَثَلَاثُونَ صَفْحَةً}",
+              "il en reste trente-sept pages",
+              "le nombre est le sujet de {ar|بَقِيَ} : le nominatif"
+            ],
+            [
+              "{ar|مَا أَجْمَلَ حَقِيبَتَكَ!}",
+              "que ton sac est beau !",
+              "l'exclamation {ar|مَا أَفْعَلَ} (tome 2, chapitre 9)"
+            ],
+            [
+              "{ar|بِكَمِ اِشْتَرَيْتَهَا؟}",
+              "combien l'as-tu acheté ?",
+              "le sukūn de {ar|كَمْ} devient une kasra devant l'alif de liaison ; {ar|هَا} : « il », le sac, un nom féminin"
+            ],
+            [
+              "{ar|بِثَمَانِينَ رِيَالًا}",
+              "pour quatre-vingts riyals",
+              "de 20 à 99, le nom est au singulier, à l'accusatif ; {ar|ثَمَانِينَ} est au génitif, après {ar|بِ}"
+            ],
+            [
+              "{ar|مِثْلَهَا}",
+              "une pareille",
+              "{ar|مِثْلَ} (« pareil à ») + {ar|هَا} (« elle » : le sac) ; l'accusatif, car c'est le complément d'objet de {ar|اِشْتَرَيْتُ}"
+            ],
+            [
+              "{ar|أَصْغَرَ مِنْهَا}",
+              "plus petit qu'elle",
+              "{ar|أَصْغَرُ} ne prend pas de tanwin ; il suit {ar|حَقِيبَةً} à l'accusatif : la fatha"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Quel livre les étudiants lisent-ils ?" },
+      "choices": [
+        { "fr": "Les histoires des prophètes" },
+        { "fr": "Les vertus du Prophète" },
+        { "fr": "Un recueil de hadiths" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.r02.dialogue-2#1" },
+      "explain": "{ar|اِسْمُهُ قِصَصُ النَّبِيِّينَ} : « il s'appelle “Les histoires des prophètes” »."
+    },
+    {
+      "id": "medine-t2.r02.dialogue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Combien de pages reste-t-il à lire ?" },
+      "choices": [ { "fr": "Trente-sept" }, { "fr": "Cinquante-trois" }, { "fr": "Quatre-vingt-dix" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.r02.dialogue-2#1" },
+      "explain": "90 − 53 = 37 : {ar|فَبَقِيَ سَبْعٌ وَثَلَاثُونَ صَفْحَةً}."
+    },
+    {
+      "id": "medine-t2.r02.dialogue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Le livre a quatre-vingt-dix pages." },
+      "answer": true,
+      "context": { "dialogue": "medine-t2.r02.dialogue-2#1" },
+      "explain": "{ar|الْكِتَابُ فِيهِ تِسْعُونَ صَفْحَةً} : « le livre a quatre-vingt-dix pages »."
+    },
+    {
+      "id": "medine-t2.r02.dialogue-2#6",
+      "type": "true_false",
+      "statement": { "fr": "L'enseignant a acheté son sac soixante riyals." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.r02.dialogue-2#1" },
+      "explain": "Faux : il l'a payé quatre-vingts riyals ({ar|بِثَمَانِينَ رِيَالًا}). Soixante, c'est le sac de ʿAmr."
+    },
+    {
+      "id": "medine-t2.r02.dialogue-2#7",
+      "type": "question",
+      "prompt": { "fr": "Qui a payé son sac le moins cher ?" },
+      "choices": [ { "fr": "ʿAmr" }, { "fr": "Hāshim" }, { "fr": "L'enseignant" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.r02.dialogue-2#1" },
+      "explain": "ʿAmr : soixante riyals ; Hāshim : soixante-dix ; l'enseignant : quatre-vingts."
+    },
+    {
+      "id": "medine-t2.r02.dialogue-2#8",
+      "type": "fill_gap",
+      "sentence": "قَرَأْنَا ثَلَاثًا وَخَمْسِينَ {0}.",
+      "fr": "Nous avons lu cinquante-trois pages.",
+      "gaps": [ { "answers": ["صَفْحَةً"] } ],
+      "options": ["صَفْحَةً", "كِتَابًا", "سُورَةً"],
+      "context": { "dialogue": "medine-t2.r02.dialogue-2#1" },
+      "explain": "« Pages » : {ar|صَفْحَةً}, au singulier et à l'accusatif, après un nombre de 20 à 99."
+    },
+    {
+      "id": "medine-t2.r02.dialogue-2#9",
+      "type": "order",
+      "fr": "Moi, j'ai acheté un sac plus petit que le sien pour soixante riyals.",
+      "answers": [["أَنَا", "اِشْتَرَيْتُ", "حَقِيبَةً", "أَصْغَرَ", "مِنْهَا", "بِسِتِّينَ", "رِيَالًا"]],
+      "punctuation": ".",
+      "explain": "{ar|أَصْغَرَ} suit {ar|حَقِيبَةً} ; {ar|مِنْهَا} : « qu'elle »."
+    },
+    {
+      "id": "medine-t2.r02.dialogue-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Je l'ai achetée pour quatre-vingts riyals.",
+      "answers": ["اِشْتَرَيْتُهَا بِثَمَانِينَ رِيَالًا."],
+      "explain": "{ar|هَا} est le sac (un nom féminin) ; {ar|ثَمَانِينَ} est au génitif après {ar|بِ}."
+    },
+    {
+      "id": "medine-t2.r02.dialogue-2#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Que ton sac est beau, professeur !",
+      "answers": ["مَا أَجْمَلَ حَقِيبَتَكَ يَا أُسْتَاذُ!"],
+      "explain": "{ar|مَا أَجْمَلَ} + le nom à l'accusatif : l'exclamation « que… est beau ! »."
+    }
+  ]
+}

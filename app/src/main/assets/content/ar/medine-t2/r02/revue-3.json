@@ -1,0 +1,121 @@
+{
+  "id": "medine-t2.r02.revue-3",
+  "type": "review",
+  "title": "Les cas du nom et le pluriel masculin régulier",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t2.r02.revue-3#1",
+      "type": "tip",
+      "title": "Les marques de base du nom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Un nom ordinaire montre son cas par une voyelle : c'est sa **marque de base**. Au singulier indéfini, avec le tanwin :"
+        },
+        {
+          "type": "table",
+          "header": ["Cas", "Marque de base", "Exemple"],
+          "rows": [
+            ["nominatif ({ar|الرَّفْعُ})", "la damma", "{ar|كِتَابٌ}"],
+            ["accusatif ({ar|النَّصْبُ})", "la fatha", "{ar|كِتَابًا}"],
+            ["génitif ({ar|الْجَرُّ})", "la kasra", "{ar|كِتَابٍ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.revue-3#2",
+      "type": "tip",
+      "title": "Le pluriel masculin régulier",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Certains noms ont des **marques secondaires**, des lettres. Le pluriel masculin régulier ({ar|جَمْعُ الْمُذَكَّرِ السَّالِمُ}) prend le {ar|و} au nominatif et le {ar|ي} à l'accusatif et au génitif."
+        },
+        {
+          "type": "table",
+          "header": ["Cas", "Marque", "Exemple"],
+          "rows": [
+            ["nominatif", "{ar|و}", "{ar|الْمُسْلِمُونَ فِي الْمَسْجِدِ}"],
+            ["accusatif", "{ar|ي}", "{ar|أُحِبُّ الْمُسْلِمِينَ}"],
+            ["génitif", "{ar|ي}", "{ar|السَّلَامُ عَلَى الْمُسْلِمِينَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le {ar|ن} qui suit le {ar|و} ou le {ar|ي} porte toujours une fatha ({ar|◌ُونَ}, {ar|◌ِينَ}). Au duel, c'est une kasra ({ar|◌َانِ}, {ar|◌َيْنِ}) : c'est ce qui distingue les deux."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "En général, ce pluriel désigne des personnes de sexe masculin ({ar|مُدَرِّسُونَ}, {ar|مُسْلِمُونَ}) et les adjectifs qui les décrivent ({ar|مُجْتَهِدُونَ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.revue-3#3",
+      "type": "sort",
+      "categories": [ { "fr": "le nominatif" }, { "fr": "l'accusatif" }, { "fr": "le génitif" } ],
+      "cards": [
+        { "ar": "ذَهَبَ الْمُدَرِّسُونَ.", "category": 0 },
+        { "ar": "أُحِبُّ الْمُدَرِّسِينَ.", "category": 1 },
+        { "ar": "السَّلَامُ عَلَى الْمُدَرِّسِينَ.", "category": 2 },
+        { "ar": "الْمُهَنْدِسُونَ فِي الْفَصْلِ.", "category": 0 },
+        { "ar": "رَأَيْتُ الْمُهَنْدِسِينَ.", "category": 1 },
+        { "ar": "ذَهَبْتُ إِلَى الْمُهَنْدِسِينَ.", "category": 2 }
+      ],
+      "instruction": "Dans quel cas est le nom au pluriel ?",
+      "explain": "Le sujet est au nominatif ({ar|و}). Le complément d'objet est à l'accusatif et ce qui suit une préposition au génitif : les deux prennent le {ar|ي}."
+    },
+    {
+      "id": "medine-t2.r02.revue-3#4",
+      "type": "fill_gap",
+      "sentence": "ذَهَبْتُ إِلَى {0}.",
+      "fr": "Je suis allé chez les ingénieurs.",
+      "gaps": [ { "answers": ["الْمُهَنْدِسِينَ"] } ],
+      "options": ["الْمُهَنْدِسِينَ", "الْمُهَنْدِسُونَ", "الْمُهَنْدِسَانِ"],
+      "explain": "Après {ar|إِلَى}, le génitif : le {ar|ي}. {ar|الْمُهَنْدِسُونَ} est le nominatif ; {ar|الْمُهَنْدِسَانِ} est un duel (deux ingénieurs)."
+    },
+    {
+      "id": "medine-t2.r02.revue-3#5",
+      "type": "spot",
+      "instruction": "Touche le nom au pluriel masculin régulier.",
+      "words": ["رَأَيْتُ", "الْمُؤْمِنِينَ", "فِي", "الْمَسْجِدِ."],
+      "answers": [1],
+      "fr": "J'ai vu les croyants à la mosquée.",
+      "explain": "{ar|الْمُؤْمِنِينَ} est le pluriel de {ar|مُؤْمِنٌ}, à l'accusatif : complément d'objet de {ar|رَأَيْتُ}."
+    },
+    {
+      "id": "medine-t2.r02.revue-3#6",
+      "type": "true_false",
+      "statement": { "fr": "Au pluriel masculin régulier, l'accusatif et le génitif ont la même marque." },
+      "answer": true,
+      "explain": "Oui : le {ar|ي}, comme pour le duel. Seul le nominatif a une marque à lui : le {ar|و}."
+    },
+    {
+      "id": "medine-t2.r02.revue-3#7",
+      "type": "order",
+      "fr": "Je cherche les enseignants.",
+      "answers": [["أَبْحَثُ", "عَنِ", "الْمُدَرِّسِينَ"]],
+      "punctuation": ".",
+      "explain": "{ar|عَنْ} est une préposition : le nom qui la suit est au génitif, donc {ar|الْمُدَرِّسِينَ} (le {ar|ي}). La kasra de {ar|عَنِ} évite la rencontre de deux sukūn."
+    },
+    {
+      "id": "medine-t2.r02.revue-3#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les croyants sont à la mosquée.",
+      "answers": ["الْمُؤْمِنُونَ فِي الْمَسْجِدِ."],
+      "explain": "Le sujet d'une phrase nominale est au nominatif : {ar|الْمُؤْمِنُونَ} (le {ar|و})."
+    },
+    {
+      "id": "medine-t2.r02.revue-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Que la paix soit sur les croyants.",
+      "answers": ["السَّلَامُ عَلَى الْمُؤْمِنِينَ."],
+      "explain": "Après {ar|عَلَى}, le génitif : {ar|الْمُؤْمِنِينَ} (le {ar|ي})."
+    }
+  ]
+}

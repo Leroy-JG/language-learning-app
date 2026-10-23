@@ -1,0 +1,152 @@
+{
+  "id": "medine-t2.r02.practice-1",
+  "type": "grammar",
+  "title": "Exercice 1 : les questions sur le texte",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t2.r02.practice-1#1",
+      "type": "tip",
+      "title": "Exercice 1 : répondre d'après le texte",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre pose six questions sur le texte. Réponds chaque fois par une phrase en arabe. Après {ar|كَمْ}, le nom est au singulier et à l'accusatif ({ar|كَمْ طَالِبًا}). Dans la réponse, le nombre prend le cas que lui donne sa fonction : le sujet au nominatif, le complément d'objet à l'accusatif."
+        },
+        {
+          "type": "example",
+          "ar": "كَمْ مُدَرِّسًا جَدِيدًا جَاءَ؟",
+          "fr": "Combien de nouveaux enseignants sont venus ?"
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.practice-1#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ مُدَرِّسًا جَدِيدًا جَاءَ؟",
+      "answers": [
+        "جَاءَ خَمْسَةُ مُدَرِّسِينَ جُدُدٍ.",
+        "جَاءَ خَمْسَةُ مُدَرِّسِينَ.",
+        "خَمْسَةُ مُدَرِّسِينَ جُدُدٍ.",
+        "خَمْسَةُ مُدَرِّسِينَ."
+      ],
+      "fr": "Cinq nouveaux enseignants sont venus.",
+      "instruction": "Réponds d'après le texte : cinq nouveaux enseignants sont venus.",
+      "context": { "dialogue": "medine-t2.r02.dialogue-1#1" },
+      "explain": "Dans le texte : {ar|جَاءَ خَمْسَةُ مُدَرِّسِينَ جُدُدٍ}. {ar|خَمْسَةُ} est le sujet de {ar|جَاءَ} : le nominatif ; {ar|مُدَرِّسِينَ} suit un nombre de 3 à 10 : le génitif."
+    },
+    {
+      "id": "medine-t2.r02.practice-1#3",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|خَمْسَةُ مُدَرِّسِينَ}, pourquoi {ar|مُدَرِّسِينَ} se termine-t-il par {ar|ينَ} ?" },
+      "choices": [
+        { "fr": "Il suit le nombre {ar|خَمْسَةُ} : le génitif" },
+        { "fr": "C'est le sujet du verbe : le nominatif" },
+        { "fr": "C'est le complément d'objet : l'accusatif" }
+      ],
+      "answer": 0,
+      "explain": "Après un nombre de 3 à 10, le nom compté est un pluriel au génitif. Le pluriel masculin régulier prend le {ar|ي} au génitif."
+    },
+    {
+      "id": "medine-t2.r02.practice-1#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ طَالِبًا وَجَدَ الْمُدَرِّسُ فِي الْفَصْلِ؟",
+      "answers": [
+        "وَجَدَ الْمُدَرِّسُ خَمْسَةً وَعِشْرِينَ طَالِبًا.",
+        "وَجَدَ خَمْسَةً وَعِشْرِينَ طَالِبًا.",
+        "وَجَدَ الْمُدَرِّسُ فِي الْفَصْلِ خَمْسَةً وَعِشْرِينَ طَالِبًا.",
+        "خَمْسَةً وَعِشْرِينَ طَالِبًا."
+      ],
+      "fr": "L'enseignant a trouvé vingt-cinq étudiants dans la classe.",
+      "instruction": "Réponds d'après le texte : l'enseignant a trouvé vingt-cinq étudiants.",
+      "context": { "dialogue": "medine-t2.r02.dialogue-1#1" },
+      "explain": "Dans le texte : {ar|أَرَى خَمْسَةً وَعِشْرِينَ طَالِبًا فَقَطْ}. Ce que l'enseignant trouve est le complément d'objet : l'accusatif ; {ar|خَمْسَةً} (« cinq », devant un nom masculin) et {ar|عِشْرِينَ}, puis {ar|طَالِبًا} au singulier."
+    },
+    {
+      "id": "medine-t2.r02.practice-1#5",
+      "type": "fill_gap",
+      "sentence": "وَجَدَ الْمُدَرِّسُ {0} طَالِبًا.",
+      "fr": "L'enseignant a trouvé vingt-cinq étudiants.",
+      "gaps": [ { "answers": ["خَمْسَةً وَعِشْرِينَ"] } ],
+      "options": ["خَمْسَةً وَعِشْرِينَ", "خَمْسَةٌ وَعِشْرُونَ", "خَمْسَ وَعِشْرِينَ"],
+      "context": { "dialogue": "medine-t2.r02.dialogue-1#1" },
+      "explain": "Complément d'objet : l'accusatif des deux parties ({ar|خَمْسَةً} et {ar|عِشْرِينَ}). {ar|طَالِبٌ} est masculin : {ar|خَمْسَةً}, avec le {ar|ة}."
+    },
+    {
+      "id": "medine-t2.r02.practice-1#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَنِ الْكِتَابُ قِصَصُ النَّبِيِّينَ؟",
+      "answers": [
+        "هُوَ لِفَضِيلَةِ الشَّيْخِ أَبِي الْحَسَنِ النَّدْوِيِّ.",
+        "لِفَضِيلَةِ الشَّيْخِ أَبِي الْحَسَنِ النَّدْوِيِّ.",
+        "الْكِتَابُ لِفَضِيلَةِ الشَّيْخِ أَبِي الْحَسَنِ النَّدْوِيِّ."
+      ],
+      "fr": "Il est de Son Éminence le cheikh Abū l-Ḥasan an-Nadwī.",
+      "instruction": "Réponds d'après le texte : il est du cheikh Abū l-Ḥasan an-Nadwī.",
+      "context": { "dialogue": "medine-t2.r02.dialogue-2#1" },
+      "explain": "Dans le texte : {ar|هُوَ لِفَضِيلَةِ الشَّيْخِ أَبِي الْحَسَنِ النَّدْوِيِّ}. Après {ar|لِ}, le génitif ; {ar|أَبِي} est le génitif de {ar|أَبُو}."
+    },
+    {
+      "id": "medine-t2.r02.practice-1#7",
+      "type": "true_false",
+      "statement": { "fr": "D'après le texte, le livre « Les histoires des prophètes » est de Hārūn." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.r02.dialogue-2#1" },
+      "explain": "Faux : il est du cheikh Abū l-Ḥasan an-Nadwī. Hārūn est celui qui admire le sac de l'enseignant."
+    },
+    {
+      "id": "medine-t2.r02.practice-1#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ صَفْحَةً فِيهِ؟",
+      "answers": ["فِيهِ تِسْعُونَ صَفْحَةً.", "الْكِتَابُ فِيهِ تِسْعُونَ صَفْحَةً.", "تِسْعُونَ صَفْحَةً."],
+      "fr": "Il a quatre-vingt-dix pages.",
+      "instruction": "Réponds d'après le texte : il a quatre-vingt-dix pages.",
+      "context": { "dialogue": "medine-t2.r02.dialogue-2#1" },
+      "explain": "Dans le texte : {ar|الْكِتَابُ فِيهِ تِسْعُونَ صَفْحَةً}. {ar|تِسْعُونَ} est le sujet, placé après {ar|فِيهِ} : le nominatif."
+    },
+    {
+      "id": "medine-t2.r02.practice-1#9",
+      "type": "order",
+      "fr": "Les étudiants ont lu cinquante-trois pages.",
+      "answers": [["قَرَأَ", "الطُّلَّابُ", "ثَلَاثًا", "وَخَمْسِينَ", "صَفْحَةً"]],
+      "punctuation": ".",
+      "explain": "{ar|صَفْحَةٌ} est féminin : {ar|ثَلَاثًا}, sans {ar|ة}. Le verbe, placé avant son sujet {ar|الطُّلَّابُ}, reste au singulier."
+    },
+    {
+      "id": "medine-t2.r02.practice-1#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ صَفْحَةً قَرَأَ الطُّلَّابُ؟",
+      "answers": [
+        "قَرَأَ الطُّلَّابُ ثَلَاثًا وَخَمْسِينَ صَفْحَةً.",
+        "قَرَأُوا ثَلَاثًا وَخَمْسِينَ صَفْحَةً.",
+        "قَرَأْنَا ثَلَاثًا وَخَمْسِينَ صَفْحَةً.",
+        "ثَلَاثًا وَخَمْسِينَ صَفْحَةً."
+      ],
+      "fr": "Les étudiants ont lu cinquante-trois pages.",
+      "instruction": "Réponds d'après le texte : ils ont lu cinquante-trois pages.",
+      "context": { "dialogue": "medine-t2.r02.dialogue-2#1" },
+      "explain": "Dans le texte : {ar|قَرَأْنَا ثَلَاثًا وَخَمْسِينَ صَفْحَةً}. À la 3ᵉ personne : {ar|قَرَأَ الطُّلَّابُ} ou {ar|قَرَأُوا}."
+    },
+    {
+      "id": "medine-t2.r02.practice-1#11",
+      "type": "typing",
+      "ask": "question",
+      "question": "بِكَمِ اشْتَرَى الْمُدَرِّسُ الْحَقِيبَةَ؟",
+      "answers": [
+        "اِشْتَرَاهَا بِثَمَانِينَ رِيَالًا.",
+        "اِشْتَرَى الْمُدَرِّسُ الْحَقِيبَةَ بِثَمَانِينَ رِيَالًا.",
+        "اِشْتَرَى الْحَقِيبَةَ بِثَمَانِينَ رِيَالًا.",
+        "بِثَمَانِينَ رِيَالًا."
+      ],
+      "fr": "Il l'a achetée pour quatre-vingts riyals.",
+      "instruction": "Réponds d'après le texte : il l'a achetée pour quatre-vingts riyals.",
+      "context": { "dialogue": "medine-t2.r02.dialogue-2#1" },
+      "explain": "Dans le texte : {ar|اِشْتَرَيْتُهَا بِثَمَانِينَ رِيَالًا}. À la 3ᵉ personne : {ar|اِشْتَرَاهَا بِثَمَانِينَ رِيَالًا}. Après {ar|بِ}, le génitif ; {ar|رِيَالًا} : singulier, accusatif."
+    }
+  ]
+}

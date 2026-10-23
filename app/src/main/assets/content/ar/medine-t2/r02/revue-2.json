@@ -1,0 +1,115 @@
+{
+  "id": "medine-t2.r02.revue-2",
+  "type": "review",
+  "title": "Quelle marque pour quel verbe ?",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.r02.revue-2#1",
+      "type": "tip",
+      "title": "Le plan complet du présent",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur résume tout le présent sur un seul schéma. Un verbe variable a trois états ; leur marque dépend de la sorte de verbe."
+        },
+        {
+          "type": "table",
+          "header": ["État", "Verbe ordinaire", "Les cinq verbes", "Finale défectueuse"],
+          "rows": [
+            [
+              "nominatif ({ar|الرَّفْعُ})",
+              "la damma : {ar|يَذْهَبُ}",
+              "le maintien du {ar|ن} : {ar|يَذْهَبُونَ}",
+              "la damma, cachée : {ar|يَمْشِي}"
+            ],
+            [
+              "accusatif ({ar|النَّصْبُ})",
+              "la fatha : {ar|لَنْ يَذْهَبَ}",
+              "la chute du {ar|ن} : {ar|لَنْ يَذْهَبُوا}",
+              "la fatha : {ar|لَنْ يَمْشِيَ} (cachée sur le {ar|ى} : {ar|لَنْ يَسْعَى})"
+            ],
+            [
+              "jussif ({ar|الْجَزْمُ})",
+              "le sukūn : {ar|لَمْ يَذْهَبْ}",
+              "la chute du {ar|ن} : {ar|لَمْ يَذْهَبُوا}",
+              "la chute de la lettre défectueuse : {ar|لَمْ يَمْشِ}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Le verbe qui se termine par le {ar|نَ} des femmes ({ar|يَذْهَبْنَ}, {ar|نُونُ النِّسْوَةِ}) ne change pas : il est invariable ({ar|مَبْنِيٌّ}). Le nūn d'insistance ({ar|نُونُ التَّوْكِيدِ}, comme dans {ar|يَكْتُبَنَّ}) rend aussi le verbe invariable : ici, retiens seulement qu'alors il ne change plus."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.revue-2#2",
+      "type": "sort",
+      "categories": [ { "ar": "ثُبُوتُ النُّونِ" }, { "ar": "حَذْفُ النُّونِ" }, { "ar": "حَذْفُ حَرْفِ الْعِلَّةِ" } ],
+      "cards": [
+        { "ar": "هُمْ يَدْرُسُونَ", "category": 0 },
+        { "ar": "لَنْ تَجْلِسِي", "category": 1 },
+        { "ar": "لَمْ يَسْعَ", "category": 2 },
+        { "ar": "أَنْتِ تَكْتُبِينَ", "category": 0 },
+        { "ar": "لَمْ يَكْتُبَا", "category": 1 },
+        { "ar": "لَمْ يَمْشِ", "category": 2 }
+      ],
+      "instruction": "Quelle est la marque de ce verbe ?",
+      "explain": "{ar|ثُبُوتُ النُّونِ} : le {ar|ن} reste (nominatif des cinq verbes). {ar|حَذْفُ النُّونِ} : il tombe (accusatif et jussif des cinq verbes). {ar|حَذْفُ حَرْفِ الْعِلَّةِ} : la lettre défectueuse tombe (jussif)."
+    },
+    {
+      "id": "medine-t2.r02.revue-2#3",
+      "type": "spot",
+      "instruction": "Touche le verbe invariable.",
+      "words": ["هُنَّ", "يَذْهَبْنَ", "وَهُمْ", "يَذْهَبُونَ"],
+      "answers": [1],
+      "fr": "Elles vont, et eux vont.",
+      "explain": "{ar|يَذْهَبْنَ} se termine par le {ar|نَ} des femmes : il ne change jamais. {ar|يَذْهَبُونَ} est variable : son {ar|ن} tombe après {ar|لَنْ} ou {ar|لَمْ}."
+    },
+    {
+      "id": "medine-t2.r02.revue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Comment le professeur analyse-t-il {ar|يَذْهَبُونَ} dans {ar|الطُّلَّابُ يَذْهَبُونَ} ?" },
+      "choices": [
+        { "ar": "فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ ثُبُوتُ النُّونِ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الضَّمَّةُ" },
+        { "ar": "فِعْلٌ مُضَارِعٌ مَجْزُومٌ وَعَلَامَةُ جَزْمِهِ حَذْفُ النُّونِ" }
+      ],
+      "answer": 0,
+      "explain": "Sans particule, le verbe est au nominatif ({ar|مَرْفُوعٌ}). Pour les cinq verbes, la marque du nominatif est le maintien du {ar|ن}, pas la damma."
+    },
+    {
+      "id": "medine-t2.r02.revue-2#5",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|لَنْ يَمْشِيَ}, la fatha se voit sur le {ar|ي}." },
+      "answer": true,
+      "explain": "Oui : pour un verbe en {ar|ي} ou en {ar|و}, la fatha de l'accusatif se voit. Elle reste cachée seulement sur le {ar|ى} ({ar|لَنْ يَسْعَى})."
+    },
+    {
+      "id": "medine-t2.r02.revue-2#6",
+      "type": "fill_gap",
+      "sentence": "أَنْتُمْ لَمْ {0} الدَّرْسَ.",
+      "fr": "Vous n'avez pas écrit la leçon.",
+      "gaps": [ { "answers": ["تَكْتُبُوا"] } ],
+      "options": ["تَكْتُبُوا", "تَكْتُبْنَ", "تَكْتُبِي"],
+      "explain": "{ar|أَنْتُمْ} : un des cinq verbes. Après {ar|لَمْ}, le {ar|ن} de {ar|تَكْتُبُونَ} tombe. {ar|تَكْتُبْنَ} est pour des femmes ; {ar|تَكْتُبِي} pour une seule."
+    },
+    {
+      "id": "medine-t2.r02.revue-2#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Les étudiants ne sont pas allés à la mosquée.",
+      "answers": ["الطُّلَّابُ لَمْ يَذْهَبُوا إِلَى الْمَسْجِدِ.", "لَمْ يَذْهَبِ الطُّلَّابُ إِلَى الْمَسْجِدِ."],
+      "explain": "Si le sujet précède le verbe, le verbe s'accorde : {ar|يَذْهَبُوا} ; s'il le suit, le verbe reste au singulier : {ar|لَمْ يَذْهَبِ الطُّلَّابُ}."
+    },
+    {
+      "id": "medine-t2.r02.revue-2#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Ils n'iront pas.",
+      "answers": ["لَنْ يَذْهَبُوا."],
+      "explain": "{ar|لَنْ} + {ar|يَذْهَبُونَ} sans son {ar|ن} : {ar|لَنْ يَذْهَبُوا}."
+    }
+  ]
+}

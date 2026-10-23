@@ -1,0 +1,138 @@
+{
+  "id": "medine-t2.r02.revue-1",
+  "type": "review",
+  "title": "Un verbe, trois états : aller",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t2.r02.revue-1#1",
+      "type": "tip",
+      "title": "Un même verbe, trois états",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre reprend le présent de {ar|ذَهَبَ} (« aller ») à chaque personne, aux trois états : le nominatif (le verbe seul), l'accusatif (après {ar|لَنْ}) et le jussif (après {ar|لَمْ}). Voici d'abord le verbe avec un nom pour sujet."
+        },
+        {
+          "type": "table",
+          "header": ["Le sujet", "Nominatif", "Après {ar|لَنْ}", "Après {ar|لَمْ}"],
+          "rows": [
+            ["{ar|حَامِدٌ}", "{ar|حَامِدٌ يَذْهَبُ}", "{ar|لَنْ يَذْهَبَ}", "{ar|لَمْ يَذْهَبْ}"],
+            ["{ar|الطُّلَّابُ}", "{ar|الطُّلَّابُ يَذْهَبُونَ}", "{ar|لَنْ يَذْهَبُوا}", "{ar|لَمْ يَذْهَبُوا}"],
+            ["{ar|آمِنَةُ}", "{ar|آمِنَةُ تَذْهَبُ}", "{ar|لَنْ تَذْهَبَ}", "{ar|لَمْ تَذْهَبْ}"],
+            ["{ar|الطَّالِبَاتُ}", "{ar|الطَّالِبَاتُ يَذْهَبْنَ}", "{ar|لَنْ يَذْهَبْنَ}", "{ar|لَمْ يَذْهَبْنَ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.revue-1#2",
+      "type": "tip",
+      "title": "Toi, vous, moi, nous",
+      "blocks": [
+        { "type": "paragraph", "text": "Puis le même verbe avec un pronom pour sujet." },
+        {
+          "type": "table",
+          "header": ["Le pronom", "Nominatif", "Après {ar|لَنْ}", "Après {ar|لَمْ}"],
+          "rows": [
+            ["{ar|أَنْتَ} (un homme)", "{ar|أَنْتَ تَذْهَبُ}", "{ar|لَنْ تَذْهَبَ}", "{ar|لَمْ تَذْهَبْ}"],
+            [
+              "{ar|أَنْتُمْ} (des hommes)",
+              "{ar|أَنْتُمْ تَذْهَبُونَ}",
+              "{ar|لَنْ تَذْهَبُوا}",
+              "{ar|لَمْ تَذْهَبُوا}"
+            ],
+            ["{ar|أَنْتِ} (une femme)", "{ar|أَنْتِ تَذْهَبِينَ}", "{ar|لَنْ تَذْهَبِي}", "{ar|لَمْ تَذْهَبِي}"],
+            [
+              "{ar|أَنْتُنَّ} (des femmes)",
+              "{ar|أَنْتُنَّ تَذْهَبْنَ}",
+              "{ar|لَنْ تَذْهَبْنَ}",
+              "{ar|لَمْ تَذْهَبْنَ}"
+            ],
+            ["{ar|أَنَا} (je)", "{ar|أَنَا أَذْهَبُ}", "{ar|لَنْ أَذْهَبَ}", "{ar|لَمْ أَذْهَبْ}"],
+            ["{ar|نَحْنُ} (nous)", "{ar|نَحْنُ نَذْهَبُ}", "{ar|لَنْ نَذْهَبَ}", "{ar|لَمْ نَذْهَبْ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les formes de {ar|الطُّلَّابُ}, {ar|أَنْتُمْ} et {ar|أَنْتِ} sont celles des cinq verbes : le {ar|ن} final tombe après {ar|لَنْ} et {ar|لَمْ}. Celles de {ar|الطَّالِبَاتُ} et de {ar|أَنْتُنَّ} gardent leur {ar|نَ} : c'est le pronom « elles », qui ne tombe jamais."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.r02.revue-1#3",
+      "type": "sort",
+      "categories": [ { "fr": "le nominatif" }, { "fr": "l'accusatif" }, { "fr": "le jussif" } ],
+      "cards": [
+        { "ar": "الطُّلَّابُ يَذْهَبُونَ.", "category": 0 },
+        { "ar": "لَنْ تَذْهَبِي.", "category": 1 },
+        { "ar": "لَمْ نَذْهَبْ.", "category": 2 },
+        { "ar": "آمِنَةُ تَذْهَبُ.", "category": 0 },
+        { "ar": "لَنْ أَذْهَبَ.", "category": 1 },
+        { "ar": "لَمْ يَذْهَبُوا.", "category": 2 }
+      ],
+      "instruction": "Quel est l'état du verbe ?",
+      "explain": "Sans particule, le verbe est au nominatif. Après {ar|لَنْ}, il est à l'accusatif ; après {ar|لَمْ}, au jussif."
+    },
+    {
+      "id": "medine-t2.r02.revue-1#4",
+      "type": "fill_gap",
+      "sentence": "الطُّلَّابُ لَنْ {0} إِلَى الْمَسْجِدِ.",
+      "fr": "Les étudiants n'iront pas à la mosquée.",
+      "gaps": [ { "answers": ["يَذْهَبُوا"] } ],
+      "options": ["يَذْهَبُوا", "يَذْهَبُونَ", "يَذْهَبْنَ"],
+      "explain": "Le sujet {ar|الطُّلَّابُ} est un pluriel d'hommes : {ar|يَذْهَبُونَ}. Après {ar|لَنْ}, le {ar|ن} tombe : {ar|يَذْهَبُوا}. {ar|يَذْهَبْنَ} serait pour des femmes."
+    },
+    {
+      "id": "medine-t2.r02.revue-1#5",
+      "type": "spot",
+      "instruction": "Touche le verbe dont le {ar|نَ} ne tombe jamais.",
+      "words": ["الطَّالِبَاتُ", "لَمْ", "يَذْهَبْنَ", "إِلَى", "الْمَكْتَبَةِ."],
+      "answers": [2],
+      "fr": "Les étudiantes ne sont pas allées à la bibliothèque.",
+      "explain": "Dans {ar|يَذْهَبْنَ}, le {ar|نَ} est le pronom « elles » : il reste après {ar|لَمْ}, comme après {ar|لَنْ}."
+    },
+    {
+      "id": "medine-t2.r02.revue-1#6",
+      "type": "question",
+      "prompt": { "fr": "Que devient {ar|تَذْهَبِينَ} (« toi », une femme) après {ar|لَنْ} ?" },
+      "choices": [ { "ar": "لَنْ تَذْهَبِي" }, { "ar": "لَنْ تَذْهَبِينَ" }, { "ar": "لَنْ تَذْهَبْنَ" } ],
+      "answer": 0,
+      "explain": "Un des cinq verbes : le {ar|ن} tombe après {ar|لَنْ}, le {ar|ي} reste. {ar|لَنْ تَذْهَبْنَ} serait pour plusieurs femmes."
+    },
+    {
+      "id": "medine-t2.r02.revue-1#7",
+      "type": "fill_gap",
+      "sentence": "أَنْتُمْ لَمْ {0} وَأَنْتُنَّ لَمْ {1}.",
+      "fr": "Vous (des hommes) n'êtes pas allés, et vous (des femmes) n'êtes pas allées.",
+      "gaps": [ { "answers": ["تَذْهَبُوا"] }, { "answers": ["تَذْهَبْنَ"] } ],
+      "options": ["تَذْهَبُوا", "تَذْهَبُونَ", "تَذْهَبْنَ", "تَذْهَبِي"],
+      "explain": "{ar|أَنْتُمْ} : le {ar|ن} de {ar|تَذْهَبُونَ} tombe après {ar|لَمْ}. {ar|أَنْتُنَّ} : le {ar|نَ} est un pronom, il reste."
+    },
+    {
+      "id": "medine-t2.r02.revue-1#8",
+      "type": "order",
+      "fr": "Moi, je n'irai pas à l'école.",
+      "answers": [["أَنَا", "لَنْ", "أَذْهَبَ", "إِلَى", "الْمَدْرَسَةِ"]],
+      "punctuation": ".",
+      "distractors": ["لَمْ"],
+      "explain": "{ar|لَنْ} parle de l'avenir et met le verbe à l'accusatif : {ar|أَذْهَبَ}. {ar|لَمْ} parlerait du passé."
+    },
+    {
+      "id": "medine-t2.r02.revue-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Hāmid n'est pas allé à la mosquée.",
+      "answers": ["لَمْ يَذْهَبْ حَامِدٌ إِلَى الْمَسْجِدِ.", "حَامِدٌ لَمْ يَذْهَبْ إِلَى الْمَسْجِدِ."],
+      "explain": "{ar|لَمْ} + le présent au sukūn : {ar|لَمْ يَذْهَبْ}."
+    },
+    {
+      "id": "medine-t2.r02.revue-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Āmina n'ira pas.",
+      "answers": ["آمِنَةُ لَنْ تَذْهَبَ.", "لَنْ تَذْهَبَ آمِنَةُ."],
+      "explain": "{ar|لَنْ} + {ar|تَذْهَبُ} : la fatha, {ar|لَنْ تَذْهَبَ}."
+    }
+  ]
+}
