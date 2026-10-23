@@ -1,0 +1,219 @@
+{
+  "id": "medine-t2.l20.grammar-1",
+  "type": "grammar",
+  "title": "L'un des deux, l'autre",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l20.grammar-1#1",
+      "type": "tip",
+      "title": "Parler de chacun des deux",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Quand on vient de nommer **deux** êtres ou deux choses (un duel), on peut parler de chacun avec « l'un… et l'autre… »."
+        },
+        {
+          "type": "table",
+          "header": ["On dit", "masculin", "féminin"],
+          "rows": [
+            ["l'un des deux", "{ar|أَحَدُهُمَا}", "{ar|إِحْدَاهُمَا}"],
+            ["l'autre", "{ar|الْآخَرُ}", "{ar|الْأُخْرَى}"]
+          ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "أَحَدُهُمَا",
+          "fr": "l'un des deux",
+          "parts": [ { "ar": "أَحَدُ", "fr": "l'un de" }, { "ar": "هُمَا", "fr": "eux deux" } ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le professeur le résume : au masculin {ar|أَحَدٌ}, au féminin {ar|إِحْدَى}. Tu connais déjà cette paire : {ar|أَحَدَ عَشَرَ} et {ar|إِحْدَى عَشْرَةَ} (« onze », tome 2, chapitre 3)."
+        }
+      ]
+    },
+    { "id": "medine-t2.l20.grammar-1#2", "type": "present", "item": "w:ahaduhuma" },
+    { "id": "medine-t2.l20.grammar-1#3", "type": "present", "item": "w:ihdahuma" },
+    {
+      "id": "medine-t2.l20.grammar-1#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:ihdahuma",
+      "distractors": ["w:ahaduhuma", "w:huma"]
+    },
+    {
+      "id": "medine-t2.l20.grammar-1#5",
+      "type": "tip",
+      "title": "Des exemples du livre : le masculin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans chaque phrase, on nomme deux choses de genre masculin, puis {ar|أَحَدُهُمَا} et {ar|الْآخَرُ} disent ce qu'est chacune."
+        },
+        {
+          "type": "example",
+          "ar": "لِي أَخَوَانِ، أَحَدُهُمَا طَبِيبٌ وَالْآخَرُ مُهَنْدِسٌ.",
+          "fr": "J'ai deux frères : l'un est médecin et l'autre ingénieur."
+        },
+        {
+          "type": "example",
+          "ar": "لِهٰذِهِ الْحَافِلَةِ بَابَانِ، أَحَدُهُمَا لِلدُّخُولِ وَالْآخَرُ لِلْخُرُوجِ.",
+          "fr": "Ce bus a deux portes : l'une pour l'entrée et l'autre pour la sortie."
+        },
+        {
+          "type": "example",
+          "ar": "عِنْدِي قَلَمَانِ، أَحَدُهُمَا أَزْرَقُ وَالْآخَرُ أَحْمَرُ.",
+          "fr": "J'ai deux stylos : l'un est bleu et l'autre rouge."
+        },
+        {
+          "type": "example",
+          "ar": "عِنْدِي مُعْجَمَانِ، أَحَدُهُمَا إِنْكِلِيزِيٌّ وَالْآخَرُ فَرَنْسِيٌّ.",
+          "fr": "J'ai deux dictionnaires : l'un est anglais et l'autre français."
+        },
+        {
+          "type": "example",
+          "ar": "لَنَا بَيْتَانِ، أَحَدُهُمَا فِي الْمَدِينَةِ وَالْآخَرُ فِي الْقَرْيَةِ.",
+          "fr": "Nous avons deux maisons : l'une est en ville et l'autre au village."
+        },
+        {
+          "type": "example",
+          "ar": "اِشْتَرَيْتُ قَمِيصَيْنِ، أَحَدُهُمَا لِي وَالْآخَرُ لِأَخِي الصَّغِيرِ.",
+          "fr": "J'ai acheté deux chemises : l'une est pour moi et l'autre pour mon petit frère."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Le français dit « l'une » pour deux portes ou deux maisons (des noms féminins). L'arabe regarde le genre du nom arabe : {ar|بَابٌ}, {ar|بَيْتٌ} et {ar|قَمِيصٌ} sont masculins."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.grammar-1#6",
+      "type": "sort",
+      "categories": [ { "ar": "أَحَدُهُمَا" }, { "ar": "إِحْدَاهُمَا" } ],
+      "cards": [
+        { "ar": "قَلَمَانِ", "category": 0 },
+        { "ar": "سَيَّارَتَانِ", "category": 1 },
+        { "ar": "كِتَابَانِ", "category": 0 },
+        { "ar": "مَدْرَسَتَانِ", "category": 1 },
+        { "ar": "أَخَوَانِ", "category": 0 },
+        { "ar": "أُخْتَانِ", "category": 1 }
+      ],
+      "instruction": "Avec quel mot parle-t-on de chacun des deux ?",
+      "explain": "Deux noms masculins : {ar|أَحَدُهُمَا}. Deux noms féminins : {ar|إِحْدَاهُمَا}."
+    },
+    {
+      "id": "medine-t2.l20.grammar-1#7",
+      "type": "tip",
+      "title": "Des exemples du livre : le féminin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Avec deux noms féminins, on dit {ar|إِحْدَاهُمَا} et {ar|الْأُخْرَى}. Le professeur résume : le masculin est {ar|أَحَدٌ}, le féminin est {ar|إِحْدَى}."
+        },
+        {
+          "type": "example",
+          "ar": "لِي أُخْتَانِ، إِحْدَاهُمَا مُدَرِّسَةٌ وَالْأُخْرَى مُمَرِّضَةٌ.",
+          "fr": "J'ai deux sœurs : l'une est enseignante et l'autre infirmière."
+        },
+        {
+          "type": "example",
+          "ar": "عِنْدِي سَيَّارَتَانِ، إِحْدَاهُمَا حَمْرَاءُ وَالْأُخْرَى بَيْضَاءُ.",
+          "fr": "J'ai deux voitures : l'une est rouge et l'autre blanche."
+        },
+        {
+          "type": "example",
+          "ar": "فِي قَرْيَتِنَا مَدْرَسَتَانِ، إِحْدَاهُمَا مُتَوَسِّطَةٌ وَالْأُخْرَى ثَانَوِيَّةٌ.",
+          "fr": "Dans notre village, il y a deux écoles : l'une est un collège et l'autre un lycée."
+        },
+        {
+          "type": "example",
+          "ar": "كَتَبْتُ الْيَوْمَ رِسَالَتَيْنِ، إِحْدَاهُمَا لِأَبِي وَالْأُخْرَى لِصَدِيقِي.",
+          "fr": "J'ai écrit deux lettres aujourd'hui : l'une à mon père et l'autre à mon ami."
+        },
+        {
+          "type": "example",
+          "ar": "جَاءَتْ مُدَرِّسَتَانِ جَدِيدَتَانِ، إِحْدَاهُمَا لِلسِّيرَةِ وَالْأُخْرَى لِلتَّفْسِيرِ.",
+          "fr": "Deux nouvelles enseignantes sont venues : l'une pour la biographie et l'autre pour l'exégèse."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.grammar-1#8",
+      "type": "fill_gap",
+      "sentence": "لِي أَخَوَانِ، {0} طَبِيبٌ وَالْآخَرُ مُهَنْدِسٌ.",
+      "fr": "J'ai deux frères : l'un est médecin et l'autre ingénieur.",
+      "gaps": [ { "answers": ["أَحَدُهُمَا"] } ],
+      "options": ["أَحَدُهُمَا", "إِحْدَاهُمَا", "الْأُخْرَى"],
+      "explain": "{ar|أَخَوَانِ} est masculin : {ar|أَحَدُهُمَا}, puis {ar|الْآخَرُ}."
+    },
+    {
+      "id": "medine-t2.l20.grammar-1#9",
+      "type": "tip",
+      "title": "À retenir",
+      "blocks": [
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Si les deux êtres sont de genres différents (un garçon et une fille), on dit {ar|أَحَدُهُمَا} : le masculin l'emporte."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|أَحَدُهُمَا} est ici le sujet : il est au nominatif ({ar|أَحَدُ}, avec la damma). {ar|الْآخَرُ}, après {ar|وَ}, est lui aussi au nominatif."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Pour parler de l'un d'entre eux, ou d'entre elles, quand ils sont plus de deux, on change le pronom : {ar|أَحَدُهُمْ} (« l'un d'eux »), {ar|إِحْدَاهُنَّ} (« l'une d'elles »)."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|أَحَدُ} change de cas comme un nom ordinaire : {ar|أَحَدَهُمَا} à l'accusatif, {ar|أَحَدِهِمَا} au génitif. {ar|إِحْدَاهُمَا}, lui, garde son alif dans tous les cas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.grammar-1#10",
+      "type": "fill_gap",
+      "sentence": "عِنْدِي سَيَّارَتَانِ، إِحْدَاهُمَا حَمْرَاءُ {0} بَيْضَاءُ.",
+      "fr": "J'ai deux voitures : l'une est rouge et l'autre blanche.",
+      "gaps": [ { "answers": ["وَالْأُخْرَى"] } ],
+      "options": ["وَالْأُخْرَى", "وَالْآخَرُ", "وَأَحَدُهُمَا"],
+      "explain": "Deux noms féminins : {ar|إِحْدَاهُمَا}, puis {ar|الْأُخْرَى}. {ar|الْآخَرُ} serait le masculin."
+    },
+    {
+      "id": "medine-t2.l20.grammar-1#11",
+      "type": "order",
+      "fr": "J'ai deux stylos : l'un est bleu et l'autre rouge.",
+      "answers": [["عِنْدِي", "قَلَمَانِ،", "أَحَدُهُمَا", "أَزْرَقُ", "وَالْآخَرُ", "أَحْمَرُ"]],
+      "punctuation": ".",
+      "explain": "Les deux stylos sont nommés d'abord, puis {ar|أَحَدُهُمَا} et {ar|الْآخَرُ} disent leur couleur."
+    },
+    {
+      "id": "medine-t2.l20.grammar-1#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai deux sœurs : l'une est enseignante et l'autre infirmière.",
+      "answers": [
+        "لِي أُخْتَانِ، إِحْدَاهُمَا مُدَرِّسَةٌ وَالْأُخْرَى مُمَرِّضَةٌ.",
+        "عِنْدِي أُخْتَانِ، إِحْدَاهُمَا مُدَرِّسَةٌ وَالْأُخْرَى مُمَرِّضَةٌ."
+      ],
+      "explain": "{ar|أُخْتَانِ} est féminin : {ar|إِحْدَاهُمَا} et {ar|الْأُخْرَى}."
+    },
+    {
+      "id": "medine-t2.l20.grammar-1#13",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai deux stylos : l'un est bleu et l'autre rouge.",
+      "answers": [
+        "عِنْدِي قَلَمَانِ، أَحَدُهُمَا أَزْرَقُ وَالْآخَرُ أَحْمَرُ.",
+        "لِي قَلَمَانِ، أَحَدُهُمَا أَزْرَقُ وَالْآخَرُ أَحْمَرُ."
+      ],
+      "explain": "{ar|قَلَمَانِ} est masculin : {ar|أَحَدُهُمَا} et {ar|الْآخَرُ}."
+    }
+  ]
+}

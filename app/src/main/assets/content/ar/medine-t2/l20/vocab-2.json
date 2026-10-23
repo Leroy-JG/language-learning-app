@@ -1,0 +1,74 @@
+{
+  "id": "medine-t2.l20.vocab-2",
+  "type": "vocabulary",
+  "title": "Un voleur, des livres égyptiennes, un accident",
+  "icon": "shop",
+  "screens": [
+    { "id": "medine-t2.l20.vocab-2#1", "type": "present", "item": "w:lis" },
+    { "id": "medine-t2.l20.vocab-2#2", "type": "present", "item": "w:junayh" },
+    {
+      "id": "medine-t2.l20.vocab-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:lis",
+      "distractors": ["w:tabib", "w:mudir"]
+    },
+    { "id": "medine-t2.l20.vocab-2#4", "type": "present", "item": "w:hadith-accident" },
+    { "id": "medine-t2.l20.vocab-2#5", "type": "present", "item": "w:tafsir" },
+    {
+      "id": "medine-t2.l20.vocab-2#6",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:tafsir",
+      "distractors": ["w:hadith", "w:kitab"]
+    },
+    {
+      "id": "medine-t2.l20.vocab-2#7",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:lis", "w:junayh", "w:hadith-accident", "w:tafsir"]
+    },
+    {
+      "id": "medine-t2.l20.vocab-2#8",
+      "type": "fill_gap",
+      "sentence": "مَاتَ رَجُلٌ فِي {0}.",
+      "fr": "Un homme est mort dans l'accident.",
+      "gaps": [ { "answers": ["الْحَادِثِ"] } ],
+      "options": ["الْحَادِثِ", "التَّفْسِيرِ", "الْجُنَيْهِ"],
+      "explain": "Après {ar|فِي}, le génitif : {ar|الْحَادِثِ}."
+    },
+    {
+      "id": "medine-t2.l20.vocab-2#9",
+      "type": "fill_gap",
+      "sentence": "فِي جَيْبِي {0}.",
+      "fr": "J'ai des livres égyptiennes dans ma poche.",
+      "gaps": [ { "answers": ["جُنَيْهَاتٌ"] } ],
+      "options": ["جُنَيْهَاتٌ", "لُصُوصٌ", "تَفَاسِيرُ"],
+      "explain": "Des pièces dans une poche : {ar|جُنَيْهَاتٌ}, le pluriel de {ar|جُنَيْهٌ}."
+    },
+    {
+      "id": "medine-t2.l20.vocab-2#10",
+      "type": "order",
+      "fr": "Un voleur est entré dans la boutique hier.",
+      "answers": [
+        ["دَخَلَ", "لِصٌّ", "الدُّكَّانَ", "الْبَارِحَةَ"],
+        ["دَخَلَ", "الدُّكَّانَ", "الْبَارِحَةَ", "لِصٌّ"],
+        ["دَخَلَ", "الدُّكَّانَ", "لِصٌّ", "الْبَارِحَةَ"],
+        ["دَخَلَ", "لِصٌّ", "الْبَارِحَةَ", "الدُّكَّانَ"],
+        ["الْبَارِحَةَ", "دَخَلَ", "لِصٌّ", "الدُّكَّانَ"],
+        ["دَخَلَ", "الْبَارِحَةَ", "لِصٌّ", "الدُّكَّانَ"],
+        ["دَخَلَ", "الْبَارِحَةَ", "الدُّكَّانَ", "لِصٌّ"]
+      ],
+      "punctuation": ".",
+      "explain": "Le verbe vient en premier, puis le sujet {ar|لِصٌّ} (au nominatif) et le complément {ar|الدُّكَّانَ} (à l'accusatif)."
+    },
+    { "id": "medine-t2.l20.vocab-2#11", "type": "typing", "ask": "fr", "item": "w:lis" },
+    {
+      "id": "medine-t2.l20.vocab-2#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le voleur est dans la boutique.",
+      "answers": ["اللِّصُّ فِي الدُّكَّانِ."]
+    }
+  ]
+}

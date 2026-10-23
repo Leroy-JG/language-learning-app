@@ -1,0 +1,103 @@
+{
+  "id": "medine-t2.l20.practice-4",
+  "type": "grammar",
+  "title": "Exercice 5 : combien ? (1 à 5)",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l20.practice-4#1",
+      "type": "tip",
+      "title": "Exercice 5 : {ar|بِكَمْ}, {ar|مِنْ كَمْ}…",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans cet exercice, {ar|كَمْ} suit souvent une préposition : {ar|بِكَمْ}, {ar|مِنْ كَمْ}, {ar|إِلَى كَمْ}, {ar|فِي كَمْ}. Tu réponds avec la même préposition et un duel au génitif : le yā."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le professeur précise que les deux questions {ar|بِكَمْ رِيَالًا؟} (accusatif) et {ar|بِكَمْ رِيَالٍ؟} (génitif) sont justes : {ar|كِلَاهُمَا صَحِيحٌ} (« les deux sont justes »). Les exercices du livre emploient l'accusatif."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.practice-4#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "بِكَمْ رِيَالًا اِشْتَرَيْتِ هٰذِهِ الْمَجَلَّةَ يَا آمِنَةُ؟",
+      "answers": ["اِشْتَرَيْتُهَا بِرِيَالَيْنِ.", "اِشْتَرَيْتُ هٰذِهِ الْمَجَلَّةَ بِرِيَالَيْنِ.", "بِرِيَالَيْنِ."],
+      "fr": "Je l'ai achetée pour deux riyals.",
+      "instruction": "Réponds avec le duel : « je l'ai achetée pour deux riyals ».",
+      "explain": "Après {ar|بِ}, le génitif : le duel prend le yā. {ar|هَا} reprend la revue (féminin)."
+    },
+    {
+      "id": "medine-t2.l20.practice-4#3",
+      "type": "fill_gap",
+      "sentence": "اِشْتَرَيْتُ الْمَجَلَّةَ {0}.",
+      "fr": "J'ai acheté la revue pour deux riyals.",
+      "gaps": [ { "answers": ["بِرِيَالَيْنِ"] } ],
+      "options": ["بِرِيَالَيْنِ", "بِرِيَالَانِ", "بِرِيَالٍ"],
+      "explain": "Après {ar|بِ}, le génitif : le yā."
+    },
+    {
+      "id": "medine-t2.l20.practice-4#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "بِكَمْ دُولَارًا اِشْتَرَيْتُمْ هٰذِهِ الْأَزْرَارَ يَا إِخْوَانُ؟",
+      "answers": [
+        "اِشْتَرَيْنَاهَا بِدُولَارَيْنِ.",
+        "اِشْتَرَيْنَاهُنَّ بِدُولَارَيْنِ.",
+        "اِشْتَرَيْنَا هٰذِهِ الْأَزْرَارَ بِدُولَارَيْنِ.",
+        "بِدُولَارَيْنِ."
+      ],
+      "fr": "Nous les avons achetés pour deux dollars.",
+      "instruction": "Réponds avec le duel : « nous les avons achetés pour deux dollars ».",
+      "explain": "Les frères parlent d'eux-mêmes : {ar|اِشْتَرَيْنَا} (« nous avons acheté »). D'ordinaire, {ar|هَا} reprend un pluriel de choses (le féminin singulier)."
+    },
+    {
+      "id": "medine-t2.l20.practice-4#5",
+      "type": "true_false",
+      "statement": { "fr": "Les deux questions {ar|بِكَمْ رِيَالًا؟} et {ar|بِكَمْ رِيَالٍ؟} sont justes." },
+      "answer": true,
+      "explain": "Oui : après une préposition suivie de {ar|كَمْ}, le nom peut être à l'accusatif ou au génitif. Le livre écrit l'accusatif ; le génitif est aussi correct."
+    },
+    {
+      "id": "medine-t2.l20.practice-4#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "بِكَمْ رُوبِيَّةً اِشْتَرَيْتُنَّ هٰذَا الْمُشْطَ يَا أَخَوَاتِي؟",
+      "answers": ["اِشْتَرَيْنَاهُ بِرُوبِيَّتَيْنِ.", "اِشْتَرَيْنَا هٰذَا الْمُشْطَ بِرُوبِيَّتَيْنِ.", "بِرُوبِيَّتَيْنِ."],
+      "fr": "Nous l'avons acheté pour deux roupies.",
+      "instruction": "Réponds avec le duel : « nous l'avons acheté pour deux roupies ».",
+      "explain": "Après {ar|بِ}, le génitif : {ar|رُوبِيَّتَيْنِ}. {ar|هُ} reprend le peigne (masculin)."
+    },
+    {
+      "id": "medine-t2.l20.practice-4#7",
+      "type": "order",
+      "fr": "Nous avons acheté ce peigne pour deux roupies.",
+      "answers": [["اِشْتَرَيْنَا", "هٰذَا", "الْمُشْطَ", "بِرُوبِيَّتَيْنِ"]],
+      "punctuation": ".",
+      "explain": "{ar|الْمُشْطَ} est le complément d'objet (la fatha) ; {ar|بِرُوبِيَّتَيْنِ} suit {ar|بِ} (le yā)."
+    },
+    {
+      "id": "medine-t2.l20.practice-4#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "بِكَمْ جُنَيْهًا اِشْتَرَيْتِ هٰذِهِ الْمِرْآةَ يَا أُمِّي؟",
+      "answers": ["اِشْتَرَيْتُهَا بِجُنَيْهَيْنِ.", "اِشْتَرَيْتُ هٰذِهِ الْمِرْآةَ بِجُنَيْهَيْنِ.", "بِجُنَيْهَيْنِ."],
+      "fr": "Je l'ai achetée pour deux livres égyptiennes.",
+      "instruction": "Réponds avec le duel : « je l'ai achetée pour deux livres égyptiennes ».",
+      "explain": "Après {ar|بِ}, le génitif : {ar|جُنَيْهَيْنِ}. {ar|هَا} reprend le miroir (féminin)."
+    },
+    {
+      "id": "medine-t2.l20.practice-4#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "بِكَمْ لُغَةً كَتَبْتَ الْعُنْوَانَ عَلَى الظَّرْفِ يَا عَلِيُّ؟",
+      "answers": ["كَتَبْتُهُ بِلُغَتَيْنِ.", "كَتَبْتُ الْعُنْوَانَ بِلُغَتَيْنِ.", "بِلُغَتَيْنِ."],
+      "fr": "Je l'ai écrite en deux langues.",
+      "instruction": "Réponds avec le duel : « je l'ai écrite en deux langues ».",
+      "explain": "{ar|بِ} veut dire ici « en » (avec) : le génitif, le yā. {ar|هُ} reprend {ar|الْعُنْوَانَ} (masculin)."
+    }
+  ]
+}

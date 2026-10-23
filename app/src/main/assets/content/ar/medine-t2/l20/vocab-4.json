@@ -1,0 +1,60 @@
+{
+  "id": "medine-t2.l20.vocab-4",
+  "type": "vocabulary",
+  "title": "Un minaret, utile, une sortie",
+  "icon": "mosque",
+  "screens": [
+    { "id": "medine-t2.l20.vocab-4#1", "type": "present", "item": "w:manara" },
+    { "id": "medine-t2.l20.vocab-4#2", "type": "present", "item": "w:mufid" },
+    {
+      "id": "medine-t2.l20.vocab-4#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:manara",
+      "distractors": ["w:masjid", "w:bab"]
+    },
+    { "id": "medine-t2.l20.vocab-4#4", "type": "present", "item": "w:khuruj" },
+    {
+      "id": "medine-t2.l20.vocab-4#5",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:manara", "w:mufid", "w:khuruj"]
+    },
+    {
+      "id": "medine-t2.l20.vocab-4#6",
+      "type": "fill_gap",
+      "sentence": "لِلْمَسْجِدِ {0}.",
+      "fr": "La mosquée a un minaret.",
+      "gaps": [ { "answers": ["مَنَارَةٌ"] } ],
+      "options": ["مَنَارَةٌ", "خُرُوجٌ", "مُفِيدٌ"],
+      "explain": "« Un minaret » : {ar|مَنَارَةٌ}. {ar|لِلْمَسْجِدِ مَنَارَةٌ} : « la mosquée a un minaret »."
+    },
+    {
+      "id": "medine-t2.l20.vocab-4#7",
+      "type": "fill_gap",
+      "sentence": "هٰذَا الْكِتَابُ {0}.",
+      "fr": "Ce livre est utile.",
+      "gaps": [ { "answers": ["مُفِيدٌ"] } ],
+      "options": ["مُفِيدٌ", "مَنَارَةٌ", "خُرُوجٌ"],
+      "explain": "« Utile » : {ar|مُفِيدٌ}, un adjectif masculin comme {ar|الْكِتَابُ}."
+    },
+    { "id": "medine-t2.l20.vocab-4#8", "type": "build", "item": "w:manara", "extra": ["ه"] },
+    {
+      "id": "medine-t2.l20.vocab-4#9",
+      "type": "fill_gap",
+      "sentence": "بَابُ {0} هُنَاكَ.",
+      "fr": "La porte de sortie est là-bas.",
+      "gaps": [ { "answers": ["الْخُرُوجِ"] } ],
+      "options": ["الْخُرُوجِ", "الدُّخُولِ", "الْمَنَارَةِ"],
+      "explain": "{ar|بَابُ الْخُرُوجِ} : « la porte de sortie ». {ar|الدُّخُولِ} voudrait dire « l'entrée »."
+    },
+    { "id": "medine-t2.l20.vocab-4#10", "type": "typing", "ask": "fr", "item": "w:mufid" },
+    {
+      "id": "medine-t2.l20.vocab-4#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "La porte de sortie est là-bas.",
+      "answers": ["بَابُ الْخُرُوجِ هُنَاكَ."]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "medine-t2.l20.practice-1",
+  "type": "grammar",
+  "title": "Exercices 1 et 2 : le texte du livre",
+  "icon": "teacher",
+  "screens": [
+    {
+      "id": "medine-t2.l20.practice-1#1",
+      "type": "tip",
+      "title": "Exercice 1 : répondre d'après le texte",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre pose trois questions sur le texte. Réponds par une phrase en arabe. Après {ar|كَمْ}, le nom est au singulier et à l'accusatif ({ar|كَمْ سُورَةً}). Dans la réponse, {ar|سُورَتَيْنِ} est un duel à l'accusatif, parce que c'est le complément d'objet du verbe."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.practice-1#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ سُورَةً حَفِظَ بَشِيرٌ؟",
+      "answers": ["حَفِظَ بَشِيرٌ سُورَةً وَاحِدَةً.", "حَفِظَ سُورَةً وَاحِدَةً.", "سُورَةً وَاحِدَةً."],
+      "fr": "Bashīr a mémorisé une seule sourate.",
+      "instruction": "Réponds d'après le texte : Bashīr a mémorisé une seule sourate.",
+      "context": { "dialogue": "medine-t2.l20.dialogue-1#1" },
+      "explain": "Dans le texte : {ar|حَفِظْتُ سُورَةً وَاحِدَةً}. À la 3ᵉ personne : {ar|حَفِظَ بَشِيرٌ سُورَةً وَاحِدَةً}."
+    },
+    {
+      "id": "medine-t2.l20.practice-1#3",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans la réponse {ar|حَفِظَ عُمَرُ سُورَتَيْنِ}, pourquoi {ar|سُورَتَيْنِ} se termine-t-il par {ar|يْنِ} ?"
+      },
+      "choices": [
+        { "fr": "C'est le complément d'objet : l'accusatif" },
+        { "fr": "C'est le sujet : le nominatif" },
+        { "fr": "Il suit une préposition : le génitif" }
+      ],
+      "answer": 0,
+      "explain": "Ce que ʿUmar a mémorisé est le complément d'objet du verbe : l'accusatif. Au duel, il prend le yā."
+    },
+    {
+      "id": "medine-t2.l20.practice-1#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ سُورَةً حَفِظَ عُمَرُ؟",
+      "answers": ["حَفِظَ عُمَرُ سُورَتَيْنِ.", "حَفِظَ سُورَتَيْنِ.", "سُورَتَيْنِ."],
+      "fr": "ʿUmar a mémorisé deux sourates.",
+      "instruction": "Réponds d'après le texte : ʿUmar a mémorisé deux sourates.",
+      "context": { "dialogue": "medine-t2.l20.dialogue-1#1" },
+      "explain": "Dans le texte : {ar|أَنَا حَفِظْتُ سُورَتَيْنِ}. Le duel, complément d'objet, prend le yā."
+    },
+    {
+      "id": "medine-t2.l20.practice-1#5",
+      "type": "fill_gap",
+      "sentence": "اِشْتَرَى بَشِيرٌ الْقَلَمَ {0}.",
+      "fr": "Bashīr a acheté le stylo pour deux riyals.",
+      "gaps": [ { "answers": ["بِرِيَالَيْنِ"] } ],
+      "options": ["بِرِيَالَيْنِ", "بِرِيَالَانِ", "بِرِيَالٍ"],
+      "context": { "dialogue": "medine-t2.l20.dialogue-2#1" },
+      "explain": "Après {ar|بِ}, le génitif : le duel prend le yā. {ar|بِرِيَالٍ} voudrait dire « pour un riyal »."
+    },
+    {
+      "id": "medine-t2.l20.practice-1#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "بِكَمْ اِشْتَرَى بَشِيرٌ الْقَلَمَ؟",
+      "answers": [
+        "اِشْتَرَاهُ بِرِيَالَيْنِ.",
+        "اِشْتَرَى بَشِيرٌ الْقَلَمَ بِرِيَالَيْنِ.",
+        "اِشْتَرَى الْقَلَمَ بِرِيَالَيْنِ.",
+        "بِرِيَالَيْنِ."
+      ],
+      "fr": "Il l'a acheté pour deux riyals.",
+      "instruction": "Réponds d'après le texte : il l'a acheté pour deux riyals.",
+      "context": { "dialogue": "medine-t2.l20.dialogue-2#1" },
+      "explain": "Dans le texte : {ar|اِشْتَرَيْتُهُ بِرِيَالَيْنِ}. À la 3ᵉ personne : {ar|اِشْتَرَاهُ بِرِيَالَيْنِ}."
+    },
+    {
+      "id": "medine-t2.l20.practice-1#7",
+      "type": "tip",
+      "title": "Exercice 2 : le même nom aux trois cas",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre met côte à côte un nom au singulier, puis au duel, dans les trois cas : le sujet (le {ar|الْمَرْفُوعُ}), le complément d'objet (le {ar|الْمَنْصُوبُ}) et ce qui suit une préposition (le {ar|الْمَجْرُورُ})."
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "{ar|الْمَرْفُوعُ}", "{ar|الْمَنْصُوبُ}", "{ar|الْمَجْرُورُ}"],
+          "rows": [
+            [
+              "singulier",
+              "{ar|جَاءَ الْمُدَرِّسُ.}",
+              "{ar|رَأَيْتُ الْمُدَرِّسَ.}",
+              "{ar|ذَهَبْتُ إِلَى الْمُدَرِّسِ.}"
+            ],
+            [
+              "duel",
+              "{ar|جَاءَ الْمُدَرِّسَانِ.}",
+              "{ar|رَأَيْتُ الْمُدَرِّسَيْنِ.}",
+              "{ar|ذَهَبْتُ إِلَى الْمُدَرِّسَيْنِ.}"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Au singulier, le cas se lit sur la voyelle (damma, fatha, kasra). Au duel, il se lit sur la lettre : l'alif, puis le yā deux fois."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.practice-1#8",
+      "type": "sort",
+      "categories": [ { "ar": "الْمَرْفُوعُ" }, { "ar": "الْمَنْصُوبُ" }, { "ar": "الْمَجْرُورُ" } ],
+      "cards": [
+        { "ar": "جَاءَ الْمُدَرِّسُ.", "category": 0 },
+        { "ar": "رَأَيْتُ الْمُدَرِّسَ.", "category": 1 },
+        { "ar": "ذَهَبْتُ إِلَى الْمُدَرِّسِ.", "category": 2 },
+        { "ar": "جَاءَ الْمُدَرِّسَانِ.", "category": 0 },
+        { "ar": "رَأَيْتُ الْمُدَرِّسَيْنِ.", "category": 1 },
+        { "ar": "ذَهَبْتُ إِلَى الْمُدَرِّسَيْنِ.", "category": 2 }
+      ],
+      "instruction": "Dans quel cas est le nom ?",
+      "explain": "Le sujet du verbe est {ar|مَرْفُوعٌ} (nominatif), ce qu'on voit est {ar|مَنْصُوبٌ} (accusatif), ce qui suit {ar|إِلَى} est {ar|مَجْرُورٌ} (génitif)."
+    },
+    {
+      "id": "medine-t2.l20.practice-1#9",
+      "type": "fill_gap",
+      "sentence": "ذَهَبْتُ إِلَى {0}.",
+      "fr": "Je suis allé chez les deux enseignants.",
+      "gaps": [ { "answers": ["الْمُدَرِّسَيْنِ"] } ],
+      "options": ["الْمُدَرِّسَيْنِ", "الْمُدَرِّسَانِ", "الْمُدَرِّسِ"],
+      "explain": "Après {ar|إِلَى}, le génitif ({ar|مَجْرُورٌ}) : le duel prend le yā."
+    },
+    {
+      "id": "medine-t2.l20.practice-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai vu les deux enseignants.",
+      "answers": ["رَأَيْتُ الْمُدَرِّسَيْنِ."],
+      "explain": "Complément d'objet ({ar|مَنْصُوبٌ}) : le duel prend le yā."
+    }
+  ]
+}

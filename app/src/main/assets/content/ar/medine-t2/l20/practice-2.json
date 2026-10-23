@@ -1,0 +1,96 @@
+{
+  "id": "medine-t2.l20.practice-2",
+  "type": "grammar",
+  "title": "Exercice 3 : répondre avec le duel",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l20.practice-2#1",
+      "type": "tip",
+      "title": "Exercice 3 : « deux »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre pose six questions {ar|كَمْ}. Réponds chaque fois **deux**, avec le duel. Son cas dépend de son rôle : l'alif s'il est le sujet (même placé après le verbe), le yā s'il est le complément d'objet ou s'il suit une préposition."
+        },
+        { "type": "example", "ar": "كَمْ بَابًا لِلْحَافِلَةِ؟", "fr": "Combien de portes le bus a-t-il ?" },
+        { "type": "example", "ar": "لِلْحَافِلَةِ بَابَانِ.", "fr": "Le bus a deux portes." }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.practice-2#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ أَخًا لَكَ؟",
+      "answers": ["لِي أَخَوَانِ.", "عِنْدِي أَخَوَانِ.", "أَخَوَانِ."],
+      "fr": "J'ai deux frères.",
+      "instruction": "Réponds avec le duel : « j'ai deux frères ».",
+      "explain": "Le duel de {ar|أَخٌ} est {ar|أَخَوَانِ}. C'est le sujet, placé après {ar|لِي} : le nominatif, l'alif."
+    },
+    {
+      "id": "medine-t2.l20.practice-2#3",
+      "type": "fill_gap",
+      "sentence": "عِنْدِي {0}.",
+      "fr": "J'ai deux livres.",
+      "gaps": [ { "answers": ["كِتَابَانِ"] } ],
+      "options": ["كِتَابَانِ", "كِتَابَيْنِ", "كُتُبٌ"],
+      "explain": "{ar|كِتَابَانِ} est le sujet, placé après {ar|عِنْدِي} : le nominatif, l'alif."
+    },
+    {
+      "id": "medine-t2.l20.practice-2#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ طَالِبًا جَدِيدًا جَاءَ الْيَوْمَ؟",
+      "answers": [
+        "جَاءَ الْيَوْمَ طَالِبَانِ جَدِيدَانِ.",
+        "جَاءَ طَالِبَانِ جَدِيدَانِ.",
+        "جَاءَ طَالِبَانِ جَدِيدَانِ الْيَوْمَ.",
+        "طَالِبَانِ جَدِيدَانِ."
+      ],
+      "fr": "Deux nouveaux étudiants sont venus aujourd'hui.",
+      "instruction": "Réponds avec le duel : « deux nouveaux étudiants sont venus aujourd'hui ».",
+      "explain": "Le sujet est au nominatif : {ar|طَالِبَانِ}, et l'adjectif suit : {ar|جَدِيدَانِ}. Le verbe reste au singulier."
+    },
+    {
+      "id": "medine-t2.l20.practice-2#5",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|جَاءَ طَالِبَانِ جَدِيدَانِ}, pourquoi {ar|جَدِيدَانِ} se termine-t-il aussi par {ar|انِ} ?"
+      },
+      "choices": [
+        { "fr": "L'adjectif suit le nom : duel et nominatif aussi" },
+        { "fr": "C'est le complément d'objet" },
+        { "fr": "Il suit une préposition" }
+      ],
+      "answer": 0,
+      "explain": "Un adjectif s'accorde avec son nom : il est au duel et au même cas que {ar|طَالِبَانِ}, donc au nominatif."
+    },
+    {
+      "id": "medine-t2.l20.practice-2#6",
+      "type": "fill_gap",
+      "sentence": "بَقِيَ {0}.",
+      "fr": "Il reste deux leçons.",
+      "gaps": [ { "answers": ["دَرْسَانِ"] } ],
+      "options": ["دَرْسَانِ", "دَرْسَيْنِ", "دُرُوسٌ"],
+      "explain": "{ar|دَرْسَانِ} est le sujet de {ar|بَقِيَ} : le nominatif, l'alif. Le verbe reste au singulier."
+    },
+    {
+      "id": "medine-t2.l20.practice-2#7",
+      "type": "order",
+      "fr": "Deux étudiants sont sortis de la salle de classe.",
+      "answers": [["خَرَجَ", "طَالِبَانِ", "مِنَ", "الْفَصْلِ"], ["خَرَجَ", "مِنَ", "الْفَصْلِ", "طَالِبَانِ"]],
+      "punctuation": ".",
+      "explain": "Le sujet {ar|طَالِبَانِ} est au nominatif : l'alif. {ar|الْفَصْلِ} suit {ar|مِنَ} : le génitif."
+    },
+    {
+      "id": "medine-t2.l20.practice-2#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَمْ رَجُلًا مَاتَ فِي الْحَادِثِ؟",
+      "answers": ["مَاتَ رَجُلَانِ.", "مَاتَ رَجُلَانِ فِي الْحَادِثِ.", "مَاتَ فِي الْحَادِثِ رَجُلَانِ.", "رَجُلَانِ."],
+      "fr": "Deux hommes sont morts dans l'accident.",
+      "instruction": "Réponds avec le duel : « deux hommes sont morts dans l'accident ».",
+      "explain": "Le sujet de {ar|مَاتَ} est au nominatif : {ar|رَجُلَانِ}. Le verbe reste au singulier."
+    }
+  ]
+}

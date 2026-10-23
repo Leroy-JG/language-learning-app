@@ -1,0 +1,176 @@
+[
+  {
+    "id": "w:musht",
+    "kind": "word",
+    "ar": "مُشْطٌ",
+    "fr": "un peigne",
+    "translit": "mushṭun",
+    "plural": "أَمْشَاطٌ",
+    "gender": "m",
+    "note": "On dit aussi {ar|مِشْطٌ} (avec une kasra) : le texte du livre écrit {ar|الْمِشْطُ}. Les deux formes existent.",
+    "example": { "ar": "أُرِيدُ مُشْطًا.", "fr": "Je veux un peigne." }
+  },
+  {
+    "id": "w:mikhadda",
+    "kind": "word",
+    "ar": "مِخَدَّةٌ",
+    "fr": "un oreiller",
+    "translit": "mikhaddatun",
+    "plural": "مِخَدَّاتٌ",
+    "gender": "f",
+    "note": "Le professeur l'explique par {ar|وِسَادَةٌ}, un autre mot pour « oreiller, coussin ».",
+    "example": { "ar": "عَلَى السَّرِيرِ مِخَدَّةٌ.", "fr": "Il y a un oreiller sur le lit." }
+  },
+  {
+    "id": "w:zirr",
+    "kind": "word",
+    "ar": "زِرٌّ",
+    "fr": "un bouton",
+    "translit": "zirrun",
+    "plural": "أَزْرَارٌ",
+    "gender": "m",
+    "note": "Le bouton d'un vêtement. Le professeur donne l'exemple {ar|فَكَّ زَيْدٌ أَزْرَارَ قَمِيصِهِ} (« Zayd a défait les boutons de sa chemise »).",
+    "example": { "ar": "فِي قَمِيصِي خَمْسَةُ أَزْرَارٍ.", "fr": "Ma chemise a cinq boutons." }
+  },
+  {
+    "id": "w:mira",
+    "kind": "word",
+    "ar": "مِرْآةٌ",
+    "fr": "un miroir",
+    "translit": "mirʾātun",
+    "plural": "مَرَايَا",
+    "gender": "f",
+    "note": "Le {ar|آ} est un alif avec une madda : c'est un {ar|ء} suivi d'un {ar|ا} long, d'où la prononciation « mirʾāt ».",
+    "example": { "ar": "نَظَرَ زَيْدٌ إِلَى الْمِرْآةِ.", "fr": "Zayd a regardé le miroir." }
+  },
+  {
+    "id": "w:junayh",
+    "kind": "word",
+    "ar": "جُنَيْهٌ",
+    "fr": "une livre égyptienne (monnaie)",
+    "translit": "junayhun",
+    "plural": "جُنَيْهَاتٌ",
+    "gender": "m",
+    "note": "La monnaie de l'Égypte, comme {ar|رِيَالٌ} pour l'Arabie saoudite.",
+    "example": { "ar": "فِي جَيْبِي جُنَيْهَاتٌ.", "fr": "J'ai des livres égyptiennes dans ma poche." }
+  },
+  {
+    "id": "w:lis",
+    "kind": "word",
+    "ar": "لِصٌّ",
+    "fr": "un voleur",
+    "translit": "liṣṣun",
+    "plural": "لُصُوصٌ",
+    "gender": "m",
+    "example": { "ar": "اللِّصُّ فِي الدُّكَّانِ.", "fr": "Le voleur est dans la boutique." }
+  },
+  {
+    "id": "w:tafsir",
+    "kind": "word",
+    "ar": "تَفْسِيرٌ",
+    "fr": "une exégèse",
+    "translit": "tafsīrun",
+    "plural": "تَفَاسِيرُ",
+    "gender": "m",
+    "note": "Le mot veut dire « explication » ; il désigne surtout l'explication du Coran.",
+    "example": { "ar": "قَرَأْتُ تَفْسِيرًا.", "fr": "J'ai lu une exégèse." }
+  },
+  {
+    "id": "w:hadith-accident",
+    "kind": "word",
+    "ar": "حَادِثٌ",
+    "fr": "un accident",
+    "translit": "ḥādithun",
+    "plural": "حَوَادِثُ",
+    "gender": "m",
+    "note": "Ne le confonds pas avec {ar|حَدِيثٌ} (« un hadith »). Le professeur l'emploie dans {ar|أَعُوذُ بِاللَّهِ مِنَ الْحَوَادِثِ} (« je cherche refuge auprès d'Allah contre les accidents »).",
+    "example": { "ar": "مَاتَ رَجُلٌ فِي الْحَادِثِ.", "fr": "Un homme est mort dans l'accident." }
+  },
+  {
+    "id": "w:dhabaha",
+    "kind": "word",
+    "ar": "ذَبَحَ",
+    "fr": "il a égorgé (égorger)",
+    "translit": "dhabaḥa",
+    "note": "On l'emploie pour égorger un animal. Présent {ar|يَذْبَحُ}, impératif {ar|اِذْبَحْ}.",
+    "example": { "ar": "ذَبَحَ أَبِي دَجَاجَةً.", "fr": "Mon père a égorgé une poule." }
+  },
+  {
+    "id": "w:sharaha",
+    "kind": "word",
+    "ar": "شَرَحَ",
+    "fr": "il a expliqué (expliquer)",
+    "translit": "sharaḥa",
+    "note": "On explique quelque chose à quelqu'un avec {ar|لِ} : {ar|شَرَحَ لِي} (« il m'a expliqué »).",
+    "example": { "ar": "شَرَحَ الْمُدَرِّسُ الدَّرْسَ.", "fr": "L'enseignant a expliqué la leçon." }
+  },
+  {
+    "id": "w:kafa",
+    "kind": "word",
+    "ar": "كَفَى",
+    "fr": "il a suffi (suffire)",
+    "translit": "kafā",
+    "note": "Il se termine par un {ar|ى} : au présent, {ar|يَكْفِي} ; à l'impératif, le {ar|ي} tombe : {ar|اِكْفِ}. Il prend souvent un pronom complément : {ar|يَكْفِينِي} (« il me suffit »).",
+    "example": { "ar": "يَكْفِينِي رِيَالٌ.", "fr": "Un riyal me suffit." }
+  },
+  {
+    "id": "w:akrama",
+    "kind": "word",
+    "ar": "أَكْرَمَ",
+    "fr": "il a honoré, il a traité avec égards (honorer)",
+    "translit": "akrama",
+    "note": "Le professeur le donne à l'impératif dans {ar|أَكْرِمِ الطَّالِبَاتِ}. Présent {ar|يُكْرِمُ}, impératif {ar|أَكْرِمْ}. Devant l'article, le sukūn final devient une kasra : deux sukūn ne se suivent pas.",
+    "example": { "ar": "أَكْرِمِ الطَّالِبَاتِ.", "fr": "Traite les étudiantes avec égards." }
+  },
+  {
+    "id": "w:manara",
+    "kind": "word",
+    "ar": "مَنَارَةٌ",
+    "fr": "un minaret",
+    "translit": "manāratun",
+    "gender": "f",
+    "example": { "ar": "لِلْمَسْجِدِ مَنَارَةٌ.", "fr": "La mosquée a un minaret." }
+  },
+  {
+    "id": "w:mufid",
+    "kind": "word",
+    "ar": "مُفِيدٌ",
+    "fr": "utile",
+    "translit": "mufīdun",
+    "example": { "ar": "هٰذَا الْكِتَابُ مُفِيدٌ.", "fr": "Ce livre est utile." }
+  },
+  {
+    "id": "w:khuruj",
+    "kind": "word",
+    "ar": "خُرُوجٌ",
+    "fr": "une sortie (le fait de sortir)",
+    "translit": "khurūjun",
+    "gender": "m",
+    "note": "Le nom d'action de {ar|خَرَجَ}. Il s'oppose à {ar|دُخُولٌ} (« une entrée »).",
+    "example": { "ar": "بَابُ الْخُرُوجِ هُنَاكَ.", "fr": "La porte de sortie est là-bas." }
+  },
+  {
+    "id": "w:ahaduhuma",
+    "kind": "word",
+    "ar": "أَحَدُهُمَا",
+    "fr": "l'un des deux (masculin)",
+    "translit": "aḥaduhumā",
+    "note": "{ar|أَحَدُ} (« l'un de ») + {ar|هُمَا} (« eux deux »). On le dit quand on vient de nommer deux êtres ou deux choses de genre masculin (ou de genres mêlés). Le second est {ar|الْآخَرُ}.",
+    "example": {
+      "ar": "لِي أَخَوَانِ، أَحَدُهُمَا طَبِيبٌ وَالْآخَرُ مُهَنْدِسٌ.",
+      "fr": "J'ai deux frères : l'un est médecin et l'autre ingénieur."
+    }
+  },
+  {
+    "id": "w:ihdahuma",
+    "kind": "word",
+    "ar": "إِحْدَاهُمَا",
+    "fr": "l'une des deux (féminin)",
+    "translit": "iḥdāhumā",
+    "note": "Le féminin de {ar|أَحَدُهُمَا} : {ar|إِحْدَى} (« l'une de ») + {ar|هُمَا}. Le second est {ar|الْأُخْرَى}.",
+    "example": {
+      "ar": "لِي أُخْتَانِ، إِحْدَاهُمَا مُدَرِّسَةٌ وَالْأُخْرَى مُمَرِّضَةٌ.",
+      "fr": "J'ai deux sœurs : l'une est enseignante et l'autre infirmière."
+    }
+  }
+]

@@ -1,0 +1,160 @@
+{
+  "id": "medine-t2.l20.revue-1",
+  "type": "review",
+  "title": "Revoir : marque de base ou marque secondaire",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l20.revue-1#1",
+      "type": "tip",
+      "title": "Les marques de base",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur reprend l'{ar|إِعْرَابُ} du nom : la façon dont la fin du nom montre son cas. Pour un nom ordinaire, c'est une **marque de base** ({ar|الْإِعْرَابُ الْأَصْلِيُّ}) : une voyelle."
+        },
+        {
+          "type": "table",
+          "header": ["Cas", "Marque de base", "Exemple"],
+          "rows": [
+            ["nominatif ({ar|الرَّفْعُ})", "la damma (avec tanwin : {ar|◌ٌ})", "{ar|كِتَابٌ}"],
+            ["accusatif ({ar|النَّصْبُ})", "la fatha (avec tanwin : {ar|◌ً})", "{ar|كِتَابًا}"],
+            ["génitif ({ar|الْجَرُّ})", "la kasra (avec tanwin : {ar|◌ٍ})", "{ar|كِتَابٍ}"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains noms montrent leur cas autrement : leur **marque secondaire** ({ar|الْإِعْرَابُ الْفَرْعِيُّ}) est une lettre ou une autre voyelle."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.revue-1#2",
+      "type": "tip",
+      "title": "Les noms à marque secondaire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici, avec les exemples du professeur, les quatre sortes de noms qui ont des marques secondaires dans ce cours :"
+        },
+        {
+          "type": "table",
+          "header": ["Le nom", "Le cas", "La marque", "Exemple"],
+          "rows": [
+            ["pluriel masculin régulier", "nominatif", "{ar|و}", "{ar|الْمُسْلِمُونَ فِي الْمَسْجِدِ}"],
+            ["pluriel masculin régulier", "accusatif", "{ar|ي}", "{ar|أُحِبُّ الْمُسْلِمِينَ}"],
+            ["pluriel masculin régulier", "génitif", "{ar|ي}", "{ar|السَّلَامُ عَلَى الْمُسْلِمِينَ}"],
+            ["duel", "nominatif", "{ar|ا}", "{ar|الطَّالِبَانِ فِي الْفَصْلِ}"],
+            ["duel", "accusatif", "{ar|ي}", "{ar|ضَرَبَ زَيْدٌ الطَّالِبَيْنِ}"],
+            ["duel", "génitif", "{ar|ي}", "{ar|السَّلَامُ عَلَى الطَّالِبَيْنِ}"],
+            ["pluriel féminin régulier", "accusatif", "la kasra", "{ar|أَكْرِمِ الطَّالِبَاتِ}"],
+            ["nom qui ne prend jamais le tanwin", "génitif", "la fatha", "{ar|السَّلَامُ عَلَى فَاطِمَةَ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le pluriel féminin régulier a la damma au nominatif ({ar|الطَّالِبَاتُ}), puis la kasra à l'accusatif et au génitif ({ar|الطَّالِبَاتِ})."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "La fatha du génitif ne vaut que pour un nom qui ne prend jamais le tanwin ({ar|فَاطِمَةُ}, {ar|أَحْمَدُ}, {ar|مَسَاجِدُ}), quand il est sans article et n'est pas premier terme d'une annexion (tome 1, chapitre 23). Avec l'article, il retrouve la kasra."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Les « cinq noms » ({ar|الْأَسْمَاءُ الْخَمْسَةُ}), comme {ar|أَبٌ} et {ar|ذُو} (tome 2, chapitre 1), ont eux aussi des marques secondaires : {ar|و}, {ar|ا}, {ar|ي}. Tu les revois à la fin de ce chapitre avec {ar|ذُو}."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le verbe {ar|أَكْرِمِ} (« traite avec égards ») est dans le vocabulaire de ce chapitre. Ici, retiens seulement la kasra à la fin de {ar|الطَّالِبَاتِ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.revue-1#3",
+      "type": "sort",
+      "categories": [ { "fr": "de base" }, { "fr": "secondaire" } ],
+      "cards": [
+        { "ar": "جَاءَ الطَّالِبُ.", "category": 0 },
+        { "ar": "جَاءَ الطَّالِبَانِ.", "category": 1 },
+        { "ar": "أُحِبُّ الْمُسْلِمِينَ.", "category": 1 },
+        { "ar": "أُحِبُّ الْمُسْلِمَ.", "category": 0 },
+        { "ar": "السَّلَامُ عَلَى الْمُسْلِمِ.", "category": 0 },
+        { "ar": "السَّلَامُ عَلَى فَاطِمَةَ.", "category": 1 },
+        { "ar": "أُحِبُّ الطَّالِبَاتِ.", "category": 1 },
+        { "ar": "فِي الْفَصْلِ طَالِبٌ.", "category": 0 }
+      ],
+      "instruction": "Marque de base ou marque secondaire ?",
+      "explain": "Le nom qui varie a-t-il une voyelle ordinaire (damma, fatha, kasra) ou une marque secondaire (une lettre, la kasra du féminin régulier à l'accusatif, la fatha d'un nom qui ne prend jamais le tanwin, au génitif) ?"
+    },
+    {
+      "id": "medine-t2.l20.revue-1#4",
+      "type": "spot",
+      "instruction": "Touche le nom dont la marque est secondaire.",
+      "words": ["ضَرَبَ", "زَيْدٌ", "الطَّالِبَيْنِ."],
+      "answers": [2],
+      "fr": "Zayd a frappé les deux étudiants.",
+      "explain": "{ar|الطَّالِبَيْنِ} est un duel à l'accusatif : sa marque est le {ar|ي}. {ar|زَيْدٌ} est au nominatif, avec la damma, une marque de base."
+    },
+    {
+      "id": "medine-t2.l20.revue-1#5",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|أُحِبُّ الطَّالِبَاتِ}, quelle est la marque de l'accusatif de {ar|الطَّالِبَاتِ} ?" },
+      "choices": [ { "fr": "La fatha" }, { "fr": "La kasra" }, { "fr": "Le yā" } ],
+      "answer": 1,
+      "explain": "Le pluriel féminin régulier prend la kasra à l'accusatif (et au génitif), au lieu de la fatha."
+    },
+    {
+      "id": "medine-t2.l20.revue-1#6",
+      "type": "sort",
+      "categories": [ { "fr": "le nominatif" }, { "fr": "l'accusatif" }, { "fr": "le génitif" } ],
+      "cards": [
+        { "ar": "ذَهَبَ الْمُسْلِمُونَ.", "category": 0 },
+        { "ar": "أُحِبُّ الْمُسْلِمِينَ.", "category": 1 },
+        { "ar": "السَّلَامُ عَلَى الْمُسْلِمِينَ.", "category": 2 },
+        { "ar": "ذَهَبَ الطَّالِبَانِ.", "category": 0 },
+        { "ar": "أُحِبُّ الطَّالِبَيْنِ.", "category": 1 },
+        { "ar": "ذَهَبْتُ إِلَى الطَّالِبَيْنِ.", "category": 2 }
+      ],
+      "instruction": "Quel est le cas du nom qui varie ?",
+      "explain": "Le sujet est au nominatif, ce qu'on aime (le complément d'objet) à l'accusatif, ce qui suit une préposition au génitif."
+    },
+    {
+      "id": "medine-t2.l20.revue-1#7",
+      "type": "fill_gap",
+      "sentence": "السَّلَامُ عَلَى {0}.",
+      "fr": "Que la paix soit sur les musulmans.",
+      "gaps": [ { "answers": ["الْمُسْلِمِينَ"] } ],
+      "options": ["الْمُسْلِمِينَ", "الْمُسْلِمُونَ", "الْمُسْلِمَانِ"],
+      "explain": "Après {ar|عَلَى}, le génitif : le pluriel masculin régulier prend le {ar|ي} ({ar|الْمُسْلِمِينَ}). {ar|الْمُسْلِمُونَ} (avec le {ar|و}) est le nominatif."
+    },
+    {
+      "id": "medine-t2.l20.revue-1#8",
+      "type": "true_false",
+      "statement": {
+        "fr": "Au génitif, un nom qui ne prend jamais le tanwin, comme {ar|فَاطِمَةُ}, sans article et hors annexion, se termine par la fatha."
+      },
+      "answer": true,
+      "explain": "Oui : {ar|السَّلَامُ عَلَى فَاطِمَةَ}. Sa marque est la fatha, au lieu de la kasra : c'est une marque secondaire."
+    },
+    {
+      "id": "medine-t2.l20.revue-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Que la paix soit sur Fāṭima.",
+      "answers": ["السَّلَامُ عَلَى فَاطِمَةَ."],
+      "explain": "Après {ar|عَلَى}, le génitif : {ar|فَاطِمَةُ} prend la fatha."
+    },
+    {
+      "id": "medine-t2.l20.revue-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les musulmans sont à la mosquée.",
+      "answers": ["الْمُسْلِمُونَ فِي الْمَسْجِدِ."],
+      "explain": "Le sujet, au nominatif : {ar|الْمُسْلِمُونَ} (le {ar|و})."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "medine-t2.l20.practice-6",
+  "type": "grammar",
+  "title": "Exercice 6 : mettre au duel (1 à 7)",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l20.practice-6#1",
+      "type": "tip",
+      "title": "Exercice 6 : un mot souligné, au duel",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre souligne un mot dans chaque phrase : mets-le au duel. Regarde son rôle pour choisir la lettre : le **sujet** prend l'alif ({ar|انِ}) ; le **complément d'objet** et le nom **après une préposition** prennent le yā ({ar|يْنِ}). Le verbe reste au singulier."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le duel dit déjà « deux » : on n'ajoute aucun mot pour « deux ». {ar|ثَلَّاجَتَانِ} veut dire « deux réfrigérateurs »."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.practice-6#2",
+      "type": "fill_gap",
+      "sentence": "فِي بَيْتِنَا {0}.",
+      "fr": "Chez nous, il y a deux réfrigérateurs.",
+      "gaps": [ { "answers": ["ثَلَّاجَتَانِ"] } ],
+      "options": ["ثَلَّاجَتَانِ", "ثَلَّاجَتَيْنِ", "ثَلَّاجَةٌ"],
+      "explain": "Le sujet, placé après {ar|فِي بَيْتِنَا}, est au nominatif : l'alif."
+    },
+    {
+      "id": "medine-t2.l20.practice-6#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "دَخَلَ الدُّكَّانَ الْبَارِحَةَ لِصٌّ.",
+      "answers": ["دَخَلَ الدُّكَّانَ الْبَارِحَةَ لِصَّانِ.", "دَخَلَ لِصَّانِ الدُّكَّانَ الْبَارِحَةَ."],
+      "fr": "Deux voleurs sont entrés dans la boutique hier.",
+      "instruction": "Mets {ar|لِصٌّ} au duel et récris la phrase.",
+      "explain": "{ar|لِصٌّ} est le sujet : l'alif, {ar|لِصَّانِ}. Le verbe reste au singulier."
+    },
+    {
+      "id": "medine-t2.l20.practice-6#4",
+      "type": "fill_gap",
+      "sentence": "رَأَيْتُ فِي مَكْتَبِ الْبَرِيدِ {0} لَكَ.",
+      "fr": "J'ai vu au bureau de poste deux télégrammes pour toi.",
+      "gaps": [ { "answers": ["بَرْقِيَّتَيْنِ"] } ],
+      "options": ["بَرْقِيَّتَيْنِ", "بَرْقِيَّتَانِ", "بَرْقِيَّةً"],
+      "explain": "Ce qu'on a vu est le complément d'objet : le yā."
+    },
+    {
+      "id": "medine-t2.l20.practice-6#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "سَأَشْتَرِي مِتْرًا مِنْ هٰذَا الْقُمَاشِ.",
+      "answers": ["سَأَشْتَرِي مِتْرَيْنِ مِنْ هٰذَا الْقُمَاشِ."],
+      "fr": "J'achèterai deux mètres de ce tissu.",
+      "instruction": "Mets {ar|مِتْرًا} au duel et récris la phrase.",
+      "explain": "Complément d'objet : {ar|مِتْرَيْنِ} (le yā)."
+    },
+    {
+      "id": "medine-t2.l20.practice-6#6",
+      "type": "fill_gap",
+      "sentence": "ذَبَحَ أَبِي {0}.",
+      "fr": "Mon père a égorgé deux poules.",
+      "gaps": [ { "answers": ["دَجَاجَتَيْنِ"] } ],
+      "options": ["دَجَاجَتَيْنِ", "دَجَاجَتَانِ", "دَجَاجَةً"],
+      "explain": "Complément d'objet : le yā. Le {ar|ة} devient {ar|ت}."
+    },
+    {
+      "id": "medine-t2.l20.practice-6#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَشْرَبُ كُوبًا مِنَ اللَّبَنِ كُلَّ يَوْمٍ.",
+      "answers": ["أَشْرَبُ كُوبَيْنِ مِنَ اللَّبَنِ كُلَّ يَوْمٍ."],
+      "fr": "Je bois deux verres de lait chaque jour.",
+      "instruction": "Mets {ar|كُوبًا} au duel et récris la phrase.",
+      "explain": "Complément d'objet : {ar|كُوبَيْنِ} (le yā)."
+    },
+    {
+      "id": "medine-t2.l20.practice-6#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "عِنْدِي رِيَالٌ.",
+      "answers": ["عِنْدِي رِيَالَانِ."],
+      "fr": "J'ai deux riyals.",
+      "instruction": "Mets {ar|رِيَالٌ} au duel et récris la phrase.",
+      "explain": "Ici, {ar|رِيَالٌ} est le sujet, placé après {ar|عِنْدِي} : le nominatif, l'alif, {ar|رِيَالَانِ}."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "medine-t2.l20.practice-9",
+  "type": "grammar",
+  "title": "Exercice 10 : {ar|ذُو} et {ar|ذَاتُ} devant un duel",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l20.practice-9#1",
+      "type": "tip",
+      "title": "Exercice 10 : {ar|ذُو} et {ar|ذَاتُ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|ذُو} (masculin) et {ar|ذَاتُ} (féminin) veulent dire « qui a ». Ils sont suivis d'un nom au génitif : ici, un duel en {ar|يْنِ}. Eux-mêmes prennent le cas du nom qu'ils décrivent."
+        },
+        {
+          "type": "table",
+          "header": ["Phrase du livre", "Le mot", "Pourquoi"],
+          "rows": [
+            [
+              "{ar|هٰذَا الْقَلَمُ ذُو اللَّوْنَيْنِ مُفِيدٌ جِدًّا.}",
+              "{ar|ذُو}",
+              "il décrit {ar|الْقَلَمُ}, au nominatif"
+            ],
+            ["{ar|غَسَلْتُ الْقَمِيصَ ذَا الْجَيْبَيْنِ.}", "{ar|ذَا}", "il décrit {ar|الْقَمِيصَ}, à l'accusatif"],
+            [
+              "{ar|الْمُدِيرُ فِي تِلْكَ الْغُرْفَةِ ذَاتِ النَّافِذَتَيْنِ الْمَفْتُوحَتَيْنِ.}",
+              "{ar|ذَاتِ}",
+              "elle décrit {ar|الْغُرْفَةِ}, au génitif (féminin)"
+            ],
+            [
+              "{ar|لِمَنْ هٰذِهِ السَّيَّارَةُ ذَاتُ الْبَابَيْنِ؟}",
+              "{ar|ذَاتُ}",
+              "elle décrit {ar|السَّيَّارَةُ}, au nominatif (féminin)"
+            ],
+            [
+              "{ar|ذٰلِكَ الْمَسْجِدُ ذُو الْمَنَارَتَيْنِ جَمِيلٌ جِدًّا.}",
+              "{ar|ذُو}",
+              "il décrit {ar|الْمَسْجِدُ}, au nominatif"
+            ],
+            [
+              "{ar|أَنَا لَا أُحِبُّ ذَاكَ الرَّجُلَ فَإِنَّهُ ذُو وَجْهَيْنِ.}",
+              "{ar|ذُو}",
+              "il est le prédicat de {ar|إِنَّ} : le nominatif"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "{ar|ذَا} est la forme de l'accusatif de {ar|ذُو} et {ar|ذِي} celle du génitif (comme {ar|أَبَا} et {ar|أَبِي}). {ar|ذَاتُ} se décline comme un nom ordinaire : {ar|ذَاتُ}, {ar|ذَاتَ}, {ar|ذَاتِ}."
+        },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "{ar|ذُو وَجْهَيْنِ} veut dire « qui a deux visages » ; au sens figuré, quelqu'un de double, d'hypocrite."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l20.practice-9#2",
+      "type": "sort",
+      "categories": [ { "ar": "ذُو" }, { "ar": "ذَاتُ" } ],
+      "cards": [
+        { "ar": "الْقَلَمُ", "category": 0 },
+        { "ar": "السَّيَّارَةُ", "category": 1 },
+        { "ar": "الْمَسْجِدُ", "category": 0 },
+        { "ar": "الْغُرْفَةُ", "category": 1 },
+        { "ar": "الْقَمِيصُ", "category": 0 },
+        { "ar": "النَّافِذَةُ", "category": 1 }
+      ],
+      "instruction": "Avec quel mot décrit-on ce nom ?",
+      "explain": "Un nom masculin : {ar|ذُو}. Un nom féminin : {ar|ذَاتُ}."
+    },
+    {
+      "id": "medine-t2.l20.practice-9#3",
+      "type": "fill_gap",
+      "sentence": "هٰذَا الْقَلَمُ {0} اللَّوْنَيْنِ مُفِيدٌ جِدًّا.",
+      "fr": "Ce stylo à deux couleurs est très utile.",
+      "gaps": [ { "answers": ["ذُو"] } ],
+      "options": ["ذُو", "ذَاتُ", "ذَا"],
+      "explain": "{ar|الْقَلَمُ} est masculin et au nominatif : {ar|ذُو}. {ar|ذَا} serait l'accusatif."
+    },
+    {
+      "id": "medine-t2.l20.practice-9#4",
+      "type": "fill_gap",
+      "sentence": "غَسَلْتُ الْقَمِيصَ {0} الْجَيْبَيْنِ.",
+      "fr": "J'ai lavé la chemise à deux poches.",
+      "gaps": [ { "answers": ["ذَا"] } ],
+      "options": ["ذَا", "ذُو", "ذِي"],
+      "explain": "{ar|الْقَمِيصَ} est le complément d'objet, à l'accusatif : {ar|ذَا}."
+    },
+    {
+      "id": "medine-t2.l20.practice-9#5",
+      "type": "spot",
+      "instruction": "Touche le nom au duel.",
+      "words": ["ذٰلِكَ", "الْمَسْجِدُ", "ذُو", "الْمَنَارَتَيْنِ", "جَمِيلٌ", "جِدًّا."],
+      "answers": [3],
+      "fr": "Cette mosquée à deux minarets est très belle.",
+      "explain": "{ar|الْمَنَارَتَيْنِ} est un duel, au génitif : il suit {ar|ذُو}."
+    },
+    {
+      "id": "medine-t2.l20.practice-9#6",
+      "type": "fill_gap",
+      "sentence": "الْمُدِيرُ فِي تِلْكَ الْغُرْفَةِ {0} النَّافِذَتَيْنِ الْمَفْتُوحَتَيْنِ.",
+      "fr": "Le directeur est dans cette pièce aux deux fenêtres ouvertes.",
+      "gaps": [ { "answers": ["ذَاتِ"] } ],
+      "options": ["ذَاتِ", "ذِي", "ذُو"],
+      "explain": "{ar|الْغُرْفَةِ} est féminin et au génitif (après {ar|فِي}) : {ar|ذَاتِ}, avec la kasra."
+    },
+    {
+      "id": "medine-t2.l20.practice-9#7",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|ذُو} ou {ar|ذَاتُ}, le nom est au génitif (ici, un duel en {ar|يْنِ})." },
+      "answer": true,
+      "explain": "Oui : {ar|ذُو} et {ar|ذَاتُ} sont premiers termes d'une annexion, et le second terme est au génitif."
+    },
+    {
+      "id": "medine-t2.l20.practice-9#8",
+      "type": "order",
+      "fr": "À qui est cette voiture à deux portes ?",
+      "answers": [["لِمَنْ", "هٰذِهِ", "السَّيَّارَةُ", "ذَاتُ", "الْبَابَيْنِ"]],
+      "punctuation": "؟",
+      "explain": "{ar|ذَاتُ} décrit {ar|السَّيَّارَةُ} (nominatif, féminin) ; {ar|الْبَابَيْنِ} est au génitif."
+    },
+    {
+      "id": "medine-t2.l20.practice-9#9",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|ذُو وَجْهَيْنِ} au sens figuré ?" },
+      "choices": [
+        { "fr": "Quelqu'un de double, d'hypocrite" },
+        { "fr": "Quelqu'un de très beau" },
+        { "fr": "Quelqu'un de courageux" }
+      ],
+      "answer": 0,
+      "explain": "Littéralement « qui a deux visages » : au sens figuré, quelqu'un qui n'est pas franc."
+    },
+    {
+      "id": "medine-t2.l20.practice-9#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai une maison à deux portes.",
+      "answers": ["لِي بَيْتٌ ذُو بَابَيْنِ.", "عِنْدِي بَيْتٌ ذُو بَابَيْنِ."],
+      "explain": "{ar|بَيْتٌ} est masculin, au nominatif : {ar|ذُو}. Le duel est au génitif."
+    },
+    {
+      "id": "medine-t2.l20.practice-9#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Je n'aime pas cet homme, car il a deux visages.",
+      "answers": [
+        "أَنَا لَا أُحِبُّ ذَاكَ الرَّجُلَ فَإِنَّهُ ذُو وَجْهَيْنِ.",
+        "لَا أُحِبُّ ذَاكَ الرَّجُلَ فَإِنَّهُ ذُو وَجْهَيْنِ.",
+        "أَنَا لَا أُحِبُّ ذٰلِكَ الرَّجُلَ فَإِنَّهُ ذُو وَجْهَيْنِ.",
+        "لَا أُحِبُّ ذٰلِكَ الرَّجُلَ فَإِنَّهُ ذُو وَجْهَيْنِ."
+      ],
+      "explain": "{ar|ذُو} est le prédicat de {ar|إِنَّ} : le nominatif."
+    }
+  ]
+}

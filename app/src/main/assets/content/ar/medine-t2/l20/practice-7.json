@@ -1,0 +1,92 @@
+{
+  "id": "medine-t2.l20.practice-7",
+  "type": "grammar",
+  "title": "Exercice 6 : mettre au duel (8 à 14)",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l20.practice-7#1",
+      "type": "fill_gap",
+      "sentence": "أُرِيدُ {0}.",
+      "fr": "Je veux deux riyals.",
+      "gaps": [ { "answers": ["رِيَالَيْنِ"] } ],
+      "options": ["رِيَالَيْنِ", "رِيَالَانِ", "رِيَالًا"],
+      "explain": "Ce qu'on veut est le complément d'objet : le yā."
+    },
+    {
+      "id": "medine-t2.l20.practice-7#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "اِشْتَرَيْتُ هٰذَا الزِّرَّ بِرِيَالٍ.",
+      "answers": ["اِشْتَرَيْتُ هٰذَا الزِّرَّ بِرِيَالَيْنِ."],
+      "fr": "J'ai acheté ce bouton pour deux riyals.",
+      "instruction": "Mets {ar|رِيَالٍ} au duel et récris la phrase.",
+      "explain": "Après {ar|بِ}, le génitif : {ar|رِيَالَيْنِ} (le yā). Seul le mot souligné change : {ar|هٰذَا الزِّرَّ} reste au singulier."
+    },
+    {
+      "id": "medine-t2.l20.practice-7#3",
+      "type": "fill_gap",
+      "sentence": "أَعْرِفُ {0}.",
+      "fr": "Je connais deux langues.",
+      "gaps": [ { "answers": ["لُغَتَيْنِ"] } ],
+      "options": ["لُغَتَيْنِ", "لُغَتَانِ", "لُغَةً"],
+      "explain": "Complément d'objet : le yā."
+    },
+    {
+      "id": "medine-t2.l20.practice-7#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "فِي بَلَدِنَا لُغَةٌ وَاحِدَةٌ.",
+      "answers": ["فِي بَلَدِنَا لُغَتَانِ."],
+      "fr": "Dans notre pays, il y a deux langues.",
+      "instruction": "Mets {ar|لُغَةٌ} au duel ; le mot {ar|وَاحِدَةٌ} disparaît.",
+      "explain": "Le sujet, placé après {ar|فِي بَلَدِنَا}, est au nominatif : {ar|لُغَتَانِ}. Le duel dit déjà « deux » : on ne garde pas {ar|وَاحِدَةٌ}."
+    },
+    {
+      "id": "medine-t2.l20.practice-7#5",
+      "type": "fill_gap",
+      "sentence": "هٰذَا الْقَلَمُ {0}.",
+      "fr": "Ce stylo coûte deux dollars.",
+      "gaps": [ { "answers": ["بِدُولَارَيْنِ"] } ],
+      "options": ["بِدُولَارَيْنِ", "بِدُولَارَانِ", "بِدُولَارٍ"],
+      "explain": "Après {ar|بِ}, le génitif : le yā."
+    },
+    {
+      "id": "medine-t2.l20.practice-7#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَتَبْتُ رِسَالَةً إِلَى أَبِي.",
+      "answers": ["كَتَبْتُ رِسَالَتَيْنِ إِلَى أَبِي."],
+      "fr": "J'ai écrit deux lettres à mon père.",
+      "instruction": "Mets {ar|رِسَالَةً} au duel et récris la phrase.",
+      "explain": "Complément d'objet : {ar|رِسَالَتَيْنِ} (le yā)."
+    },
+    {
+      "id": "medine-t2.l20.practice-7#7",
+      "type": "typing",
+      "ask": "question",
+      "question": "يَكْفِينِي الْآنَ جُنَيْهٌ.",
+      "answers": ["يَكْفِينِي الْآنَ جُنَيْهَانِ.", "الْآنَ يَكْفِينِي جُنَيْهَانِ.", "يَكْفِينِي جُنَيْهَانِ الْآنَ."],
+      "fr": "Deux livres égyptiennes me suffisent maintenant.",
+      "instruction": "Mets {ar|جُنَيْهٌ} au duel et récris la phrase.",
+      "explain": "{ar|جُنَيْهٌ} est le sujet de {ar|يَكْفِي} : le nominatif, l'alif, {ar|جُنَيْهَانِ}."
+    },
+    {
+      "id": "medine-t2.l20.practice-7#8",
+      "type": "sort",
+      "categories": [ { "fr": "nominatif ({ar|◌َانِ})" }, { "fr": "accusatif ou génitif ({ar|◌َيْنِ})" } ],
+      "cards": [
+        { "ar": "عِنْدِي رِيَالَانِ.", "category": 0 },
+        { "ar": "أُرِيدُ رِيَالَيْنِ.", "category": 1 },
+        { "ar": "فِي بَلَدِنَا لُغَتَانِ.", "category": 0 },
+        { "ar": "كَتَبْتُ رِسَالَتَيْنِ إِلَى أَبِي.", "category": 1 },
+        { "ar": "هٰذَا الْقَلَمُ بِدُولَارَيْنِ.", "category": 1 },
+        { "ar": "يَكْفِينِي الْآنَ جُنَيْهَانِ.", "category": 0 },
+        { "ar": "اِشْتَرَيْتُ هٰذَا الزِّرَّ بِرِيَالَيْنِ.", "category": 1 },
+        { "ar": "أَعْرِفُ لُغَتَيْنِ.", "category": 1 }
+      ],
+      "instruction": "Quelle fin pour le duel ?",
+      "explain": "Le sujet (celui qui fait ou ce qui est là) prend l'alif ; le complément d'objet et le nom après une préposition prennent le yā."
+    }
+  ]
+}
