@@ -69,7 +69,7 @@
     {
       "id": "medine-t2.l24.quiz#8",
       "type": "spot",
-      "instruction": "Touche le dénombré.",
+      "instruction": "Touche le nom compté (ce qui est compté : les hommes).",
       "words": ["فِي", "الْمَدِينَةِ", "ثَلَاثَةُ", "آلَافِ", "رَجُلٍ."],
       "answers": [4],
       "fr": "Il y a 3 000 hommes dans la ville.",

@@ -40,13 +40,13 @@
       "options": ["عَشَرَةُ آلَافِ", "ثَلَاثَةُ آلَافِ", "مِائَةُ أَلْفِ", "أَلْفَا"],
       "explain": "« Dix mille » : {ar|عَشَرَةُ آلَافٍ}, annexé au dénombré {ar|طَالِبٍ}."
     },
-    { "id": "medine-t2.l24.vocab-3#10", "type": "build", "item": "w:n-2000", "extra": ["ي"] },
+    { "id": "medine-t2.l24.vocab-3#10", "type": "build", "item": "w:n-2000", "extra": ["ب"] },
     {
       "id": "medine-t2.l24.vocab-3#11",
       "type": "typing",
       "ask": "fr",
       "fr": "vingt mille",
-      "answers": ["عِشْرُونَ أَلْفًا"],
+      "answers": ["عِشْرُونَ أَلْفًا", "عِشْرِينَ أَلْفًا"],
       "explain": "{ar|عِشْرُونَ} + {ar|أَلْفًا} (« mille » au singulier, à l'accusatif)."
     },
     {

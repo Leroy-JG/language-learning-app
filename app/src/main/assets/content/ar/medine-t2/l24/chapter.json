@@ -2,7 +2,7 @@
   "id": "medine-t2.l24",
   "number": 24,
   "title": { "ar": "الدَّرْسُ الرَّابِعُ وَالْعِشْرُونَ", "fr": "Les nombres : centaines, milliers et lecture complète" },
-  "description": "Revoir les nombres de 1 à 99, comprendre pourquoi un et deux ne s'annexent jamais, compter de 100 à 300 000 ({ar|مِائَةٌ وَثَلَاثَةٌ}, {ar|ثَلَاثُمِائَةٍ}, {ar|ثَلَاثَةُ آلَافٍ}, {ar|عِشْرُونَ أَلْفًا}), lire un grand nombre dans les deux sens et appliquer la règle du dernier nombre cité avant le dénombré.",
+  "description": "Revoir les nombres de 1 à 99, comprendre pourquoi un et deux ne s'annexent jamais, compter de 100 à 300 000 ({ar|مِائَةٌ وَثَلَاثَةٌ}, {ar|ثَلَاثُمِائَةٍ}, {ar|ثَلَاثَةُ آلَافٍ}, {ar|عِشْرُونَ أَلْفًا}), lire un grand nombre dans les deux sens et appliquer la règle du dernier nombre cité avant le dénombré.",
   "source": "Tome de Médine 2, leçon 24",
   "sections": [
     { "title": "Revoir : de un à quatre-vingt-dix-neuf", "activities": ["revue-1", "revue-2"] },

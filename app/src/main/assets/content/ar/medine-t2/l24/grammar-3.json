@@ -66,6 +66,11 @@
         {
           "type": "note",
           "text": "Pourquoi {ar|ثَلَاثُ} sans {ar|ة} ? De trois à dix, le nombre est de genre contraire au nom qu'il compte. Ici, le nom compté est {ar|مِائَةٌ}, un nom **féminin** : on prend donc la forme sans {ar|ة} ({ar|ثَلَاثُ}, {ar|أَرْبَعُ}, {ar|خَمْسُ}), quel que soit le genre de l'étudiant."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Exception à connaître : de trois à dix, le dénombré est d'ordinaire au pluriel, mais {ar|مِائَةٍ} reste au **singulier** : {ar|ثَلَاثُمِائَةٍ}."
         }
       ]
     },
@@ -100,11 +105,11 @@
     {
       "id": "medine-t2.l24.grammar-3#6",
       "type": "spot",
-      "instruction": "Touche le dénombré.",
+      "instruction": "Touche le nom compté (ce qui est compté : les livres).",
       "words": ["فِي", "الْمَكْتَبَةِ", "سِتُّمِائَةِ", "كِتَابٍ."],
       "answers": [3],
       "fr": "Il y a six cents livres dans la bibliothèque.",
-      "explain": "{ar|كِتَابٍ} est le dénombré : au singulier et au génitif."
+      "explain": "{ar|كِتَابٍ} est le nom compté : au singulier et au génitif."
     },
     {
       "id": "medine-t2.l24.grammar-3#7",

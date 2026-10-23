@@ -40,7 +40,11 @@
         },
         {
           "type": "note",
-          "text": "Le dénombré ne dépend jamais du début du nombre ({ar|ثَلَاثُمِائَةِ أَلْفٍ}) : seul compte ce qui est dit juste avant lui."
+          "text": "Le dénombré ne dépend pas du début du nombre ({ar|ثَلَاثُمِائَةِ أَلْفٍ}) : seul compte ce qui est dit juste avant lui."
+        },
+        {
+          "type": "note",
+          "text": "Si le dernier nombre cité est une centaine ({ar|ثَلَاثُمِائَةِ}) ou un nombre de mille ({ar|ثَلَاثَةُ آلَافِ}), on applique la règle de cent et de mille : le dénombré est au singulier et au génitif, même si le nombre de mille commence par « trois »."
         }
       ]
     },
@@ -93,7 +97,7 @@
         { "ar": "ثَلَاثَةُ آلَافٍ وَمِائَةُ طَالِبَةٍ", "category": 2 }
       ],
       "instruction": "Quel est le dénombré ?",
-      "explain": "Le dernier nombre cité décide : de 3 à 10, un pluriel au génitif ; de 11 à 99, un singulier à l'accusatif ; cent ou mille, un singulier au génitif."
+      "explain": "Le dernier nombre cité décide : de 3 à 10, un pluriel au génitif ; de 11 à 99, un singulier à l'accusatif ; cent, une centaine ou mille, un singulier au génitif."
     },
     {
       "id": "medine-t2.l24.grammar-6#6",
@@ -133,7 +137,11 @@
         "فِي الْجَامِعَةِ ثَلَاثَةُ آلَافٍ وَثَلَاثُمِائَةٍ وَخَمْسَةٌ وَأَرْبَعُونَ طَالِبًا.",
         "فِي الْجَامِعَةِ ثَلَاثَةُ آلَافٍ وَثَلَاثُمِئَةٍ وَخَمْسَةٌ وَأَرْبَعُونَ طَالِبًا.",
         "فِي الْجَامِعَةِ خَمْسَةٌ وَأَرْبَعُونَ وَثَلَاثُمِائَةٍ وَثَلَاثَةُ آلَافِ طَالِبٍ.",
-        "فِي الْجَامِعَةِ خَمْسَةٌ وَأَرْبَعُونَ وَثَلَاثُمِئَةٍ وَثَلَاثَةُ آلَافِ طَالِبٍ."
+        "فِي الْجَامِعَةِ خَمْسَةٌ وَأَرْبَعُونَ وَثَلَاثُمِئَةٍ وَثَلَاثَةُ آلَافِ طَالِبٍ.",
+        "ثَلَاثَةُ آلَافٍ وَثَلَاثُمِائَةٍ وَخَمْسَةٌ وَأَرْبَعُونَ طَالِبًا فِي الْجَامِعَةِ.",
+        "ثَلَاثَةُ آلَافٍ وَثَلَاثُمِئَةٍ وَخَمْسَةٌ وَأَرْبَعُونَ طَالِبًا فِي الْجَامِعَةِ.",
+        "خَمْسَةٌ وَأَرْبَعُونَ وَثَلَاثُمِائَةٍ وَثَلَاثَةُ آلَافِ طَالِبٍ فِي الْجَامِعَةِ.",
+        "خَمْسَةٌ وَأَرْبَعُونَ وَثَلَاثُمِئَةٍ وَثَلَاثَةُ آلَافِ طَالِبٍ فِي الْجَامِعَةِ."
       ],
       "explain": "Du plus grand au plus petit, le dernier nombre est {ar|خَمْسَةٌ وَأَرْبَعُونَ} : {ar|طَالِبًا}. Dans l'autre sens, le dernier est {ar|ثَلَاثَةُ آلَافِ} : {ar|طَالِبٍ}."
     },
@@ -142,7 +150,12 @@
       "type": "typing",
       "ask": "audio",
       "fr": "Il y a 2 100 livres dans la bibliothèque.",
-      "answers": ["فِي الْمَكْتَبَةِ أَلْفَانِ وَمِائَةُ كِتَابٍ.", "فِي الْمَكْتَبَةِ أَلْفَانِ وَمِئَةُ كِتَابٍ."],
+      "answers": [
+        "فِي الْمَكْتَبَةِ أَلْفَانِ وَمِائَةُ كِتَابٍ.",
+        "فِي الْمَكْتَبَةِ أَلْفَانِ وَمِئَةُ كِتَابٍ.",
+        "أَلْفَانِ وَمِائَةُ كِتَابٍ فِي الْمَكْتَبَةِ.",
+        "أَلْفَانِ وَمِئَةُ كِتَابٍ فِي الْمَكْتَبَةِ."
+      ],
       "explain": "Le dernier nombre cité est {ar|مِائَةُ} : le dénombré {ar|كِتَابٍ} est au singulier et au génitif."
     }
   ]

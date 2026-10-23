@@ -1,7 +1,7 @@
 {
   "id": "medine-t2.l24.grammar-4",
   "type": "grammar",
-  "title": "Les milliers : de 1 000 à 300 000",
+  "title": "Les milliers : de 1 000 à 300 000",
   "icon": "star",
   "screens": [
     {
@@ -86,7 +86,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Pour les dizaines de milliers (20 000, 30 000…), le professeur donne {ar|عِشْرُونَ أَلْفًا}, puis, devant un dénombré, {ar|عِشْرُونَ أَلْفَ طَالِبٍ}. {ar|أَلْفَ} est le dénombré de {ar|عِشْرُونَ} : un singulier à l'accusatif, comme de 11 à 99. Le nom compté ({ar|طَالِبٍ}) lui est annexé : il est au génitif."
+          "text": "Pour les dizaines de milliers (20 000, 30 000…), le professeur donne {ar|عِشْرُونَ أَلْفًا}, puis, devant un dénombré, {ar|عِشْرُونَ أَلْفَ طَالِبٍ}. {ar|أَلْفَ} est le dénombré de {ar|عِشْرُونَ} (comme {ar|طَالِبًا} dans {ar|عِشْرُونَ طَالِبًا}) : un singulier à l'accusatif, comme de 11 à 99. Le nom compté ({ar|طَالِبٍ}) lui est annexé : il est au génitif."
         },
         {
           "type": "breakdown",

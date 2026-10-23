@@ -15,7 +15,7 @@
       ],
       "answer": 0,
       "context": { "icon": "car" },
-      "explain": "5 000 : {ar|خَمْسَةُ آلَافِ}, puis le dénombré au singulier et au génitif. {ar|خَمْسَةٌ وَعِشْرُونَ} : 25 ; {ar|خَمْسُمِائَةِ} : 500."
+      "explain": "5 000 : {ar|خَمْسَةُ آلَافِ}, puis le dénombré au singulier et au génitif. {ar|خَمْسَةٌ وَعِشْرُونَ} : 25 ; {ar|خَمْسُمِائَةِ} : 500."
     },
     {
       "id": "medine-t2.l24.practice-2#2",
@@ -29,11 +29,11 @@
     {
       "id": "medine-t2.l24.practice-2#3",
       "type": "spot",
-      "instruction": "Touche le dénombré.",
+      "instruction": "Touche le nom compté (la monnaie).",
       "words": ["ثَمَنُ", "هٰذَا", "الْبَيْتِ", "مِائَتَا", "أَلْفِ", "دُولَارٍ."],
       "answers": [5],
       "fr": "Le prix de cette maison est de 200 000 dollars.",
-      "explain": "{ar|دُولَارٍ} est le dénombré : au singulier et au génitif, après {ar|مِائَتَا أَلْفِ}."
+      "explain": "{ar|دُولَارٍ} est le nom compté : au singulier et au génitif, après {ar|مِائَتَا أَلْفِ}."
     },
     {
       "id": "medine-t2.l24.practice-2#4",
@@ -59,7 +59,7 @@
       "fr": "Le prix de cette maison est de deux cent mille dollars.",
       "gaps": [ { "answers": ["مِائَتَا أَلْفِ"] } ],
       "options": ["مِائَتَا أَلْفِ", "مِائَةُ أَلْفِ", "ثَلَاثُمِائَةِ أَلْفِ"],
-      "explain": "200 000 : {ar|مِائَتَا أَلْفِ}. {ar|مِائَةُ أَلْفِ} : 100 000 ; {ar|ثَلَاثُمِائَةِ أَلْفِ} : 300 000."
+      "explain": "200 000 : {ar|مِائَتَا أَلْفِ}. {ar|مِائَةُ أَلْفِ} : 100 000 ; {ar|ثَلَاثُمِائَةِ أَلْفِ} : 300 000."
     },
     {
       "id": "medine-t2.l24.practice-2#7",

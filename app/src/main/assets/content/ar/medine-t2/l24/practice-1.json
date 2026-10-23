@@ -73,7 +73,7 @@
       "type": "typing",
       "ask": "fr",
       "fr": "vingt mille livres",
-      "answers": ["عِشْرُونَ أَلْفَ كِتَابٍ"],
+      "answers": ["عِشْرُونَ أَلْفَ كِتَابٍ", "عِشْرِينَ أَلْفَ كِتَابٍ"],
       "explain": "{ar|عِشْرُونَ} + {ar|أَلْفَ} (singulier, accusatif) + le dénombré au génitif."
     },
     {
