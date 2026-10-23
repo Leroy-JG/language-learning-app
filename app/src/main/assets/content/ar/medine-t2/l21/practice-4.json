@@ -80,13 +80,7 @@
       "type": "typing",
       "ask": "question",
       "question": "أَغَسَلْتِ قُمْصَانِي يَا أُمِّي؟",
-      "answers": [
-        "لَمَّا أَغْسِلْهَا.",
-        "لَمَّا أَغْسِلْ قُمْصَانَكَ.",
-        "لَمَّا أَغْسِلْ قُمْصَانَكِ.",
-        "لَا، لَمَّا أَغْسِلْهَا.",
-        "لَمَّا."
-      ],
+      "answers": ["لَمَّا أَغْسِلْهَا.", "لَمَّا أَغْسِلْ قُمْصَانَكَ.", "لَا، لَمَّا أَغْسِلْهَا.", "لَمَّا."],
       "fr": "Pas encore, je ne les ai pas encore lavées.",
       "instruction": "Réponds comme la mère : « pas encore, je ne les ai pas encore lavées ».",
       "explain": "{ar|قُمْصَانِي} est un pluriel de choses : on le reprend par {ar|هَا} ({ar|أَغْسِلْهَا}). La mère dit « je » ({ar|أَغْسِلْ})."
