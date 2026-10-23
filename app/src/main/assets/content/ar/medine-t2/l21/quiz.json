@@ -1,0 +1,190 @@
+{
+  "id": "medine-t2.l21.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l21.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:lamma",
+      "distractors": ["w:aydan", "w:kama"],
+      "explain": "{ar|لَمَّا} : « pas encore ». {ar|كَمَا} veut dire « comme », {ar|أَيْضًا} « aussi »."
+    },
+    {
+      "id": "medine-t2.l21.quiz#2",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:rais",
+      "distractors": ["w:wazir", "w:mudir"]
+    },
+    {
+      "id": "medine-t2.l21.quiz#3",
+      "type": "question",
+      "prompt": { "fr": "Après {ar|لَمْ}, quelle est la marque du verbe au présent ?" },
+      "choices": [ { "fr": "Le sukūn" }, { "fr": "La fatha" }, { "fr": "La damma" } ],
+      "answer": 0,
+      "explain": "{ar|لَمْ} met le verbe au jussif ({ar|مَجْزُومٌ}) : le sukūn. La fatha est pour {ar|لَنْ}, la damma pour le verbe sans particule."
+    },
+    {
+      "id": "medine-t2.l21.quiz#4",
+      "type": "sort",
+      "categories": [
+        { "fr": "il ne l'a pas fait (passé)" },
+        { "fr": "il ne le fait pas (présent)" },
+        { "fr": "il ne le fera pas (futur)" }
+      ],
+      "cards": [
+        { "ar": "لَمْ يَكْتُبْ", "category": 0 },
+        { "ar": "لَا يَكْتُبُ", "category": 1 },
+        { "ar": "لَنْ يَكْتُبَ", "category": 2 },
+        { "ar": "لَمْ تَذْهَبْ", "category": 0 },
+        { "ar": "لَا تَذْهَبُ", "category": 1 },
+        { "ar": "لَنْ تَذْهَبَ", "category": 2 }
+      ],
+      "instruction": "Quelle négation ? Passé, présent ou futur ?",
+      "explain": "{ar|لَمْ} (sukūn) : le passé. {ar|لَا} (damma) : le présent. {ar|لَنْ} (fatha) : le futur."
+    },
+    {
+      "id": "medine-t2.l21.quiz#5",
+      "type": "fill_gap",
+      "sentence": "هُمْ لَمْ {0} الْفَصْلَ.",
+      "fr": "Ils ne sont pas entrés en classe.",
+      "gaps": [ { "answers": ["يَدْخُلُوا"] } ],
+      "options": ["يَدْخُلُوا", "يَدْخُلُونَ", "يَدْخُلْ"],
+      "explain": "Après {ar|لَمْ}, le nūn de {ar|يَدْخُلُونَ} tombe : {ar|يَدْخُلُوا}."
+    },
+    {
+      "id": "medine-t2.l21.quiz#6",
+      "type": "true_false",
+      "statement": { "fr": "{ar|لَمَّا يَرْجِعْ زَيْدٌ} veut dire « Zayd n'est pas revenu hier »." },
+      "answer": false,
+      "explain": "Non : {ar|لَمَّا} veut dire « pas encore ». Pour un passé terminé, on dit {ar|لَمْ يَرْجِعْ}."
+    },
+    {
+      "id": "medine-t2.l21.quiz#7",
+      "type": "question",
+      "prompt": { "fr": "Quelle particule veut dire « pas encore » ?" },
+      "choices": [ { "ar": "لَمَّا" }, { "ar": "لَمْ" }, { "ar": "لَنْ" } ],
+      "answer": 0,
+      "explain": "{ar|لَمَّا} nie le passé jusqu'à maintenant et laisse attendre l'action."
+    },
+    {
+      "id": "medine-t2.l21.quiz#8",
+      "type": "order",
+      "fr": "Je n'ai pas encore écrit les devoirs.",
+      "answers": [["لَمَّا", "أَكْتُبِ", "الْوَاجِبَاتِ"]],
+      "punctuation": ".",
+      "distractors": ["لَنْ"],
+      "explain": "{ar|لَمَّا} + {ar|أَكْتُبْ}, avec la kasra devant l'article de {ar|الْوَاجِبَاتِ}."
+    },
+    {
+      "id": "medine-t2.l21.quiz#9",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi écrit-on {ar|أَرَدْتُ} et non {ar|أَرَادْتُ} ?" },
+      "choices": [
+        { "fr": "L'alif tombe : deux lettres sākina ne se suivent pas" },
+        { "fr": "Parce que le verbe est au présent" },
+        { "fr": "Parce que {ar|تُ} transforme l'alif en wāw" }
+      ],
+      "answer": 0,
+      "explain": "Le pronom {ar|تُ} rend le {ar|د} sākin : l'alif, sākin lui aussi, disparaît."
+    },
+    {
+      "id": "medine-t2.l21.quiz#10",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ {0} الْحَدِيقَةَ أَمْسِ.",
+      "fr": "Nous avons visité le jardin hier.",
+      "gaps": [ { "answers": ["زُرْنَا"] } ],
+      "options": ["زُرْنَا", "زَارَ", "زُرْتُ"],
+      "explain": "« Nous » : {ar|زَارَ} + {ar|نَا} → {ar|زُرْنَا}."
+    },
+    {
+      "id": "medine-t2.l21.quiz#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai dit.",
+      "answers": ["قُلْتُ.", "أَنَا قُلْتُ."],
+      "explain": "{ar|قَالَ} + {ar|تُ} : l'alif tombe, {ar|قُ} prend une damma."
+    },
+    {
+      "id": "medine-t2.l21.quiz#12",
+      "type": "sort",
+      "categories": [ { "fr": "phrase nominale" }, { "fr": "phrase verbale" } ],
+      "cards": [
+        { "ar": "الْبَابُ مُغْلَقٌ.", "category": 0 },
+        { "ar": "فَتَحَ الْبَقَّالُ الدُّكَّانَ.", "category": 1 },
+        { "ar": "الدُّخُولُ مَمْنُوعٌ.", "category": 0 },
+        { "ar": "خَرَجَ الطُّلَّابُ.", "category": 1 },
+        { "ar": "هَاشِمٌ ذَكِيٌّ.", "category": 0 },
+        { "ar": "سَمِعَ هَارُونُ الْأَذَانَ.", "category": 1 }
+      ],
+      "instruction": "Phrase nominale ou phrase verbale ?",
+      "explain": "Le premier mot décide : un nom pour la phrase nominale, un verbe pour la phrase verbale."
+    },
+    {
+      "id": "medine-t2.l21.quiz#13",
+      "type": "true_false",
+      "statement": { "fr": "Le {ar|فَاعِلٌ}, le nom qui vient après le verbe, est au nominatif." },
+      "answer": true,
+      "explain": "Oui : {ar|دَخَلَ الْمُدَرِّسُ} ; {ar|الْمُدَرِّسُ} est {ar|مَرْفُوعٌ}."
+    },
+    {
+      "id": "medine-t2.l21.quiz#14",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:farq", "w:qism", "w:kama", "w:mahlan"]
+    },
+    {
+      "id": "medine-t2.l21.quiz#15",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:istaraha",
+      "distractors": ["w:ata", "w:zara"]
+    },
+    {
+      "id": "medine-t2.l21.quiz#16",
+      "type": "question",
+      "prompt": { "fr": "Que devient {ar|يَكْتُبُونَ} après {ar|لَمْ} ?" },
+      "choices": [ { "ar": "يَكْتُبُوا" }, { "ar": "يَكْتُبُونَ" }, { "ar": "يَكْتُبْنَ" } ],
+      "answer": 0,
+      "explain": "Le nūn des cinq verbes tombe après {ar|لَمْ} : {ar|لَمْ يَكْتُبُوا}. {ar|يَكْتُبْنَ} est le féminin pluriel."
+    },
+    {
+      "id": "medine-t2.l21.quiz#17",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Ils ne sont pas encore revenus.",
+      "answers": ["لَمَّا يَرْجِعُوا.", "هُمْ لَمَّا يَرْجِعُوا."],
+      "explain": "{ar|يَرْجِعُونَ} perd son nūn après {ar|لَمَّا} : {ar|لَمَّا يَرْجِعُوا}."
+    },
+    {
+      "id": "medine-t2.l21.quiz#18",
+      "type": "spot",
+      "instruction": "Touche le mot qui nie le passé.",
+      "words": ["لَمْ", "تَشْرَبِ", "الْقَهْوَةَ."],
+      "answers": [0],
+      "fr": "Tu n'as pas bu de café.",
+      "explain": "{ar|لَمْ} est le {ar|جَازِمٌ} : il met {ar|تَشْرَبْ} au sukūn (kasra devant l'article)."
+    },
+    {
+      "id": "medine-t2.l21.quiz#19",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Pourquoi n'as-tu pas écrit, mon petit ?",
+      "answers": ["لِمَ لَمْ تَكْتُبْ يَا بُنَيَّ؟"],
+      "explain": "{ar|لِمَ لَمْ تَكْتُبْ} : « pourquoi n'as-tu pas écrit ? »."
+    },
+    {
+      "id": "medine-t2.l21.quiz#20",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَرَجَعَ الْمُدِيرُ مِنْ لَنْدَنَ؟",
+      "answers": ["لَمَّا.", "لَمَّا يَرْجِعِ الْمُدِيرُ.", "لَا، لَمَّا يَرْجِعِ الْمُدِيرُ."],
+      "fr": "Pas encore.",
+      "instruction": "Réponds en un mot : « pas encore ».",
+      "explain": "On répond « pas encore » par le seul mot {ar|لَمَّا}."
+    }
+  ]
+}

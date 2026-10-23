@@ -1,0 +1,140 @@
+{
+  "id": "medine-t2.l21.dialogue-3",
+  "type": "dialogue",
+  "title": "Les trois sortes de mots",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l21.dialogue-3#1",
+      "type": "dialogue",
+      "title": "Les trois sortes de mots",
+      "intro": "ʿAlī a oublié les sortes de mots. ʿAmr donne des exemples, puis le professeur annonce une pause. Écoute {ar|لَمَّا} et {ar|مَهْلًا}.",
+      "speakers": {
+        "A": { "name": "ʿAlī", "voice": "m2" },
+        "P": { "name": "Le professeur", "voice": "m1" },
+        "H": { "name": "Hāshim", "voice": "m2" },
+        "M": { "name": "ʿAmr", "voice": "m2" },
+        "N": { "name": "Le récit", "voice": "m1" },
+        "E": { "name": "Les étudiants", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "A",
+          "ar": "يَا أُسْتَاذُ، قُلْتَ قَبْلَ يَوْمَيْنِ إِنَّ الْكَلِمَةَ ثَلَاثَةُ أَقْسَامٍ. مَا هِيَ؟ أَنَا نَسِيتُهَا.",
+          "fr": "Professeur, tu as dit il y a deux jours que le mot a trois sortes. Lesquelles ? Je les ai oubliées."
+        },
+        { "speaker": "P", "ar": "مَنْ يَعْرِفُ هٰذَا؟", "fr": "Qui le sait ?" },
+        {
+          "speaker": "H",
+          "ar": "أَنَا. أَقْسَامُ الْكَلِمَةِ: الِاسْمُ وَالْفِعْلُ وَالْحَرْفُ.",
+          "fr": "Moi. Les sortes de mots : le nom, le verbe et la particule."
+        },
+        {
+          "speaker": "P",
+          "ar": "هَاتِ مِثَالًا لِكُلِّ وَاحِدٍ مِنْهَا يَا عَمْرُو.",
+          "fr": "Donne un exemple de chacun, ʿAmr."
+        },
+        {
+          "speaker": "M",
+          "ar": "الِاسْمُ نَحْوُ: كِتَابٌ، وَقَلَمٌ، وَطَالِبٌ، وَرَجُلٌ، وَمُدَرِّسٌ. وَالْفِعْلُ نَحْوُ: خَرَجَ، وَسَجَدَ، وَيَجْلِسُ، وَيَغْسِلُ، وَاكْتُبْ، وَاقْرَأْ. وَالْحَرْفُ نَحْوُ: فِي، وَإِلَى، وَمِنْ، وَنَعَمْ، وَلَا، وَلَنْ، وَلَمْ.",
+          "fr": "Le nom, par exemple : livre, stylo, étudiant, homme, enseignant. Le verbe, par exemple : il est sorti, il s'est prosterné, il s'assied, il lave, écris, lis. La particule, par exemple : dans, vers, de, oui, non, lan (négation du futur), lam (négation du passé)."
+        },
+        {
+          "speaker": "P",
+          "ar": "أَحْسَنْتَ يَا عَمْرُو. اِسْتَرِيحُوا قَلِيلًا. نَبْدَأُ الدَّرْسَ الْجَدِيدَ فِي الْحِصَّةِ الْقَادِمَةِ.",
+          "fr": "Bravo, ʿAmr. Reposez-vous un peu. Nous commencerons la nouvelle leçon à la prochaine séance."
+        },
+        {
+          "speaker": "H",
+          "ar": "أَرَجَعَ الْمُدِيرُ مِنْ مَكَّةَ يَا أُسْتَاذُ؟",
+          "fr": "Le directeur est-il revenu de La Mecque, professeur ?"
+        },
+        {
+          "speaker": "P",
+          "ar": "لَمَّا. سَيَرْجِعُ بَعْدَ يَوْمَيْنِ إِنْ شَاءَ اللَّهُ.",
+          "fr": "Pas encore. Il reviendra dans deux jours, si Allah le veut."
+        },
+        { "speaker": "N", "ar": "بَعْدَ خَمْسِ دَقَائِقَ", "fr": "Cinq minutes plus tard." },
+        { "speaker": "P", "ar": "أَنَبْدَأُ الدَّرْسَ الْجَدِيدَ؟", "fr": "Commençons-nous la nouvelle leçon ?" },
+        {
+          "speaker": "E",
+          "ar": "مَهْلًا يَا أُسْتَاذُ. لَمَّا نَكْتُبْ مَا كَتَبْتَ عَلَى السَّبُّورَةِ.",
+          "fr": "Doucement, professeur. Nous n'avons pas encore écrit ce que tu as écrit au tableau."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.dialogue-3#2",
+      "type": "question",
+      "prompt": { "fr": "Quelles sont les trois sortes de mots ?" },
+      "choices": [
+        { "fr": "Le nom, le verbe et la particule" },
+        { "fr": "Le nom, l'adjectif et le verbe" },
+        { "fr": "Le verbe, la phrase et la particule" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l21.dialogue-3#1" },
+      "explain": "{ar|أَقْسَامُ الْكَلِمَةِ} : {ar|الِاسْمُ وَالْفِعْلُ وَالْحَرْفُ}."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-3#3",
+      "type": "sort",
+      "categories": [ { "fr": "un nom" }, { "fr": "un verbe" }, { "fr": "une particule" } ],
+      "cards": [
+        { "ar": "كِتَابٌ", "category": 0 },
+        { "ar": "خَرَجَ", "category": 1 },
+        { "ar": "إِلَى", "category": 2 },
+        { "ar": "رَجُلٌ", "category": 0 },
+        { "ar": "يَجْلِسُ", "category": 1 },
+        { "ar": "لَنْ", "category": 2 },
+        { "ar": "سَجَدَ", "category": 1 },
+        { "ar": "فِي", "category": 2 }
+      ],
+      "instruction": "Nom, verbe ou particule ?",
+      "explain": "Ce sont les exemples de ʿAmr : {ar|كِتَابٌ} et {ar|رَجُلٌ} sont des noms ; {ar|خَرَجَ}, {ar|يَجْلِسُ} et {ar|سَجَدَ} des verbes ; {ar|إِلَى}, {ar|لَنْ} et {ar|فِي} des particules."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-3#4",
+      "type": "true_false",
+      "statement": { "fr": "Le directeur est déjà revenu de La Mecque." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l21.dialogue-3#1" },
+      "explain": "Non : le professeur répond {ar|لَمَّا} (« pas encore ») ; il reviendra dans deux jours."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-3#5",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|مَهْلًا يَا أُسْتَاذُ} ?" },
+      "choices": [ { "fr": "Doucement, professeur" }, { "fr": "Merci, professeur" }, { "fr": "Bravo, professeur" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l21.dialogue-3#1" },
+      "explain": "{ar|مَهْلًا} : « doucement, pas si vite »."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-3#6",
+      "type": "fill_gap",
+      "sentence": "{0} نَكْتُبْ مَا كَتَبْتَ عَلَى السَّبُّورَةِ.",
+      "fr": "Nous n'avons pas encore écrit ce que tu as écrit au tableau.",
+      "gaps": [ { "answers": ["لَمَّا"] } ],
+      "options": ["لَمَّا", "لَنْ", "مَا"],
+      "context": { "dialogue": "medine-t2.l21.dialogue-3#1" },
+      "explain": "« Pas encore » avec un présent au sukūn : {ar|لَمَّا نَكْتُبْ}."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-3#7",
+      "type": "order",
+      "fr": "Nous commencerons la nouvelle leçon à la prochaine séance.",
+      "answers": [["نَبْدَأُ", "الدَّرْسَ", "الْجَدِيدَ", "فِي", "الْحِصَّةِ", "الْقَادِمَةِ"]],
+      "punctuation": ".",
+      "explain": "{ar|الدَّرْسَ} est le complément d'objet : la fatha ; {ar|الْجَدِيدَ} s'accorde avec lui."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-3#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Pas encore. Il reviendra dans deux jours, si Allah le veut.",
+      "answers": ["لَمَّا. سَيَرْجِعُ بَعْدَ يَوْمَيْنِ إِنْ شَاءَ اللَّهُ."],
+      "explain": "{ar|لَمَّا} : « pas encore » ; {ar|سَيَرْجِعُ} : {ar|سَ} + le présent, pour le futur."
+    }
+  ]
+}

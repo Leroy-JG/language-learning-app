@@ -1,0 +1,110 @@
+{
+  "id": "medine-t2.l21.practice-5",
+  "type": "grammar",
+  "title": "Exercice 6 : {ar|لَمْ} devant {ar|يَذْهَبُ}",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l21.practice-5#1",
+      "type": "tip",
+      "title": "Exercice 6 : neuf formes de {ar|ذَهَبَ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne neuf formes du présent de {ar|ذَهَبَ} : ajoute {ar|لَمْ} devant chacune et change la fin si besoin. Tu as vu les trois groupes dans la partie « Revoir »."
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "La damma devient un sukūn ; le nūn des cinq verbes tombe ; le féminin pluriel ne change pas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.practice-5#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَذْهَبُ",
+      "answers": ["لَمْ أَذْهَبْ.", "أَنَا لَمْ أَذْهَبْ."],
+      "fr": "Je ne suis pas allé.",
+      "instruction": "Mets {ar|أَذْهَبُ} après {ar|لَمْ} : « je ne suis pas allé ».",
+      "explain": "La damma devient un sukūn : {ar|لَمْ أَذْهَبْ}."
+    },
+    {
+      "id": "medine-t2.l21.practice-5#3",
+      "type": "fill_gap",
+      "sentence": "هُنَّ لَمْ {0}.",
+      "fr": "Elles ne sont pas allées.",
+      "gaps": [ { "answers": ["يَذْهَبْنَ"] } ],
+      "options": ["يَذْهَبْنَ", "يَذْهَبُوا", "يَذْهَبْ"],
+      "explain": "Le verbe du féminin pluriel est déjà au sukūn : il ne change pas."
+    },
+    {
+      "id": "medine-t2.l21.practice-5#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "يَذْهَبُونَ",
+      "answers": ["لَمْ يَذْهَبُوا.", "هُمْ لَمْ يَذْهَبُوا."],
+      "fr": "Ils ne sont pas allés.",
+      "instruction": "Mets {ar|يَذْهَبُونَ} après {ar|لَمْ} : « ils ne sont pas allés ».",
+      "explain": "Le nūn tombe : {ar|لَمْ يَذْهَبُوا}."
+    },
+    {
+      "id": "medine-t2.l21.practice-5#5",
+      "type": "fill_gap",
+      "sentence": "أَنْتُنَّ لَمْ {0}.",
+      "fr": "Vous, les femmes, vous n'êtes pas allées.",
+      "gaps": [ { "answers": ["تَذْهَبْنَ"] } ],
+      "options": ["تَذْهَبْنَ", "تَذْهَبِي", "تَذْهَبُوا"],
+      "explain": "Le féminin pluriel ne change pas : {ar|لَمْ تَذْهَبْنَ}."
+    },
+    {
+      "id": "medine-t2.l21.practice-5#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "تَذْهَبِينَ",
+      "answers": ["لَمْ تَذْهَبِي.", "أَنْتِ لَمْ تَذْهَبِي."],
+      "fr": "Tu n'es pas allée.",
+      "instruction": "Mets {ar|تَذْهَبِينَ} après {ar|لَمْ} : « tu n'es pas allée » (à une femme).",
+      "explain": "Le nūn tombe, le {ar|ي} reste : {ar|لَمْ تَذْهَبِي}."
+    },
+    {
+      "id": "medine-t2.l21.practice-5#7",
+      "type": "fill_gap",
+      "sentence": "هُوَ لَمْ {0}.",
+      "fr": "Il n'est pas allé.",
+      "gaps": [ { "answers": ["يَذْهَبْ"] } ],
+      "options": ["يَذْهَبْ", "يَذْهَبُوا", "يَذْهَبْنَ"],
+      "explain": "La damma de {ar|يَذْهَبُ} devient un sukūn : {ar|لَمْ يَذْهَبْ}."
+    },
+    {
+      "id": "medine-t2.l21.practice-5#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "تَذْهَبُونَ",
+      "answers": ["لَمْ تَذْهَبُوا.", "أَنْتُمْ لَمْ تَذْهَبُوا."],
+      "fr": "Vous n'êtes pas allés.",
+      "instruction": "Mets {ar|تَذْهَبُونَ} après {ar|لَمْ} : « vous n'êtes pas allés ».",
+      "explain": "Le nūn tombe : {ar|لَمْ تَذْهَبُوا}."
+    },
+    {
+      "id": "medine-t2.l21.practice-5#9",
+      "type": "fill_gap",
+      "sentence": "أَنْتَ لَمْ {0}.",
+      "fr": "Tu n'es pas allé.",
+      "gaps": [ { "answers": ["تَذْهَبْ"] } ],
+      "options": ["تَذْهَبْ", "تَذْهَبِي", "تَذْهَبُوا"],
+      "explain": "La damma devient un sukūn : {ar|لَمْ تَذْهَبْ}."
+    },
+    {
+      "id": "medine-t2.l21.practice-5#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "نَذْهَبُ",
+      "answers": ["لَمْ نَذْهَبْ.", "نَحْنُ لَمْ نَذْهَبْ."],
+      "fr": "Nous ne sommes pas allés.",
+      "instruction": "Mets {ar|نَذْهَبُ} après {ar|لَمْ} : « nous ne sommes pas allés ».",
+      "explain": "La damma devient un sukūn : {ar|لَمْ نَذْهَبْ}."
+    }
+  ]
+}

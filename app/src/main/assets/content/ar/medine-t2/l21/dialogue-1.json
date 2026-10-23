@@ -1,0 +1,142 @@
+{
+  "id": "medine-t2.l21.dialogue-1",
+  "type": "dialogue",
+  "title": "Hārūn n'est pas venu",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l21.dialogue-1#1",
+      "type": "dialogue",
+      "title": "Hārūn n'est pas venu",
+      "intro": "Le professeur ne voit pas Hārūn. Écoute les négations avec {ar|لَمْ} : « il n'est pas venu », « je n'ai pas écrit ».",
+      "speakers": {
+        "E": { "name": "Les étudiants", "voice": "m2" },
+        "P": { "name": "Le professeur", "voice": "m1" },
+        "Q": { "name": "Un étudiant", "voice": "m2" },
+        "A": { "name": "ʿAlī", "voice": "m2" },
+        "B": { "name": "ʿAbbās", "voice": "m2" },
+        "H": { "name": "al-Ḥasan", "voice": "m2" }
+      },
+      "lines": [
+        { "speaker": "E", "ar": "كَيْفَ حَالُكَ يَا أُسْتَاذَنَا؟", "fr": "Comment vas-tu, notre professeur ?" },
+        {
+          "speaker": "P",
+          "ar": "بِخَيْرٍ. أَحْمَدُ اللَّهَ وَأَشْكُرُهُ. أَنَا مَا أَرَى هَارُونَ. أَلَمْ يَحْضُرْ؟",
+          "fr": "Bien. Je loue Allah et je Le remercie. Je ne vois pas Hārūn. N'est-il pas venu ?"
+        },
+        {
+          "speaker": "E",
+          "ar": "نَعَمْ، إِنَّهُ لَمْ يَحْضُرِ الْيَوْمَ.",
+          "fr": "Oui, il n'est pas venu aujourd'hui."
+        },
+        { "speaker": "P", "ar": "وَأَيْنَ أَصْدِقَاؤُهُ الثَّلَاثَةُ؟", "fr": "Et où sont ses trois amis ?" },
+        { "speaker": "E", "ar": "هُمْ أَيْضًا لَمْ يَحْضُرُوا.", "fr": "Eux aussi ne sont pas venus." },
+        { "speaker": "P", "ar": "أَتَعْرِفُونَ أَيْنَ ذَهَبُوا؟", "fr": "Savez-vous où ils sont allés ?" },
+        {
+          "speaker": "Q",
+          "ar": "أَظُنُّ أَنَّهُمْ ذَهَبُوا إِلَى الْمَطَارِ لِاسْتِقْبَالِ رَئِيسِهِمُ الَّذِي يَأْتِي الْيَوْمَ إِلَى الْمَدِينَةِ الْمُنَوَّرَةِ لِزِيَارَةِ مَسْجِدِ الرَّسُولِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ.",
+          "fr": "Je pense qu'ils sont allés à l'aéroport accueillir leur président, qui vient aujourd'hui à Médine visiter la mosquée du Messager (paix et bénédiction d'Allah sur lui)."
+        },
+        {
+          "speaker": "P",
+          "ar": "كَتَبْتُمُ الْوَاجِبَاتِ يَا أَبْنَائِي؟",
+          "fr": "Avez-vous écrit les devoirs, mes fils ?"
+        },
+        { "speaker": "E", "ar": "نَعَمْ. كَتَبْنَا.", "fr": "Oui. Nous avons écrit." },
+        { "speaker": "A", "ar": "أَنَا لَمْ أَكْتُبْ.", "fr": "Moi, je n'ai pas écrit." },
+        { "speaker": "P", "ar": "لِمَ لَمْ تَكْتُبْ يَا بُنَيَّ؟", "fr": "Pourquoi n'as-tu pas écrit, mon petit ?" },
+        {
+          "speaker": "A",
+          "ar": "لِأَنَّنِي لَمْ أَفْهَمِ الدَّرْسَ.",
+          "fr": "Parce que je n'ai pas compris la leçon."
+        },
+        {
+          "speaker": "P",
+          "ar": "مَا الَّذِي لَمْ تَفْهَمْهُ فِي الدَّرْسِ؟",
+          "fr": "Qu'est-ce que tu n'as pas compris dans la leçon ?"
+        },
+        {
+          "speaker": "A",
+          "ar": "لَمْ أَفْهَمِ الْفَرْقَ بَيْنَ الْجُمْلَةِ الِاسْمِيَّةِ وَالْجُمْلَةِ الْفِعْلِيَّةِ.",
+          "fr": "Je n'ai pas compris la différence entre la phrase nominale et la phrase verbale."
+        },
+        {
+          "speaker": "B",
+          "ar": "كَثِيرٌ مِنَ الطُّلَّابِ لَمْ يَفْهَمُوا هٰذَا.",
+          "fr": "Beaucoup d'étudiants n'ont pas compris cela."
+        },
+        {
+          "speaker": "H",
+          "ar": "سَأَلْتُ أَخَوَاتِي اللَّائِي يَدْرُسْنَ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ عَنْ هٰذَا وَلَمْ يَعْرِفْنَ.",
+          "fr": "J'ai interrogé à ce sujet mes sœurs, qui étudient au lycée, et elles ne savaient pas."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.dialogue-1#2",
+      "type": "question",
+      "prompt": { "fr": "Où les étudiants pensent-ils que Hārūn et ses amis sont allés ?" },
+      "choices": [ { "fr": "À l'aéroport" }, { "fr": "À la mosquée" }, { "fr": "Au marché" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l21.dialogue-1#1" },
+      "explain": "Un étudiant pense qu'ils sont allés à l'aéroport accueillir leur président."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-1#3",
+      "type": "true_false",
+      "statement": { "fr": "ʿAlī a écrit les devoirs." },
+      "answer": false,
+      "context": { "dialogue": "medine-t2.l21.dialogue-1#1" },
+      "explain": "Non : {ar|أَنَا لَمْ أَكْتُبْ}, dit-il."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-1#4",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi ʿAlī n'a-t-il pas écrit les devoirs ?" },
+      "choices": [
+        { "fr": "Parce qu'il n'a pas compris la leçon" },
+        { "fr": "Parce qu'il était malade" },
+        { "fr": "Parce qu'il n'avait pas de stylo" }
+      ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l21.dialogue-1#1" },
+      "explain": "{ar|لِأَنَّنِي لَمْ أَفْهَمِ الدَّرْسَ} : « parce que je n'ai pas compris la leçon »."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-1#5",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} أَكْتُبْ.",
+      "fr": "Moi, je n'ai pas écrit.",
+      "gaps": [ { "answers": ["لَمْ"] } ],
+      "options": ["لَمْ", "لَنْ", "لَا"],
+      "context": { "dialogue": "medine-t2.l21.dialogue-1#1" },
+      "explain": "Le verbe est au sukūn et la phrase est au passé : {ar|لَمْ}."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-1#6",
+      "type": "order",
+      "fr": "Parce que je n'ai pas compris la leçon.",
+      "answers": [["لِأَنَّنِي", "لَمْ", "أَفْهَمِ", "الدَّرْسَ"]],
+      "punctuation": ".",
+      "distractors": ["لَنْ"],
+      "explain": "{ar|لَمْ أَفْهَمِ} : le sukūn de {ar|أَفْهَمْ} devient une kasra devant l'article de {ar|الدَّرْسَ}."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-1#7",
+      "type": "spot",
+      "instruction": "Touche le verbe au jussif.",
+      "words": ["نَعَمْ،", "إِنَّهُ", "لَمْ", "يَحْضُرِ", "الْيَوْمَ."],
+      "answers": [3],
+      "fr": "Oui, il n'est pas venu aujourd'hui.",
+      "explain": "{ar|يَحْضُرِ} suit {ar|لَمْ} : il est au jussif (sukūn, devenu kasra devant l'article)."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-1#8",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Eux aussi ne sont pas venus.",
+      "answers": ["هُمْ أَيْضًا لَمْ يَحْضُرُوا."],
+      "explain": "{ar|يَحْضُرُونَ} perd son nūn après {ar|لَمْ} : {ar|يَحْضُرُوا}."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "medine-t2.l21.practice-1",
+  "type": "grammar",
+  "title": "Exercice 1 : questions sur le texte",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l21.practice-1#1",
+      "type": "tip",
+      "title": "Exercice 1 : répondre d'après le texte",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre pose quatre questions sur le texte. Réponds en arabe, d'après ce que tu as lu ou entendu."
+        },
+        {
+          "type": "table",
+          "header": ["Question", "Sens"],
+          "rows": [
+            ["{ar|أَيْنَ ذَهَبَ هَارُونُ وَأَصْدِقَاؤُهُ؟}", "Où sont allés Hārūn et ses amis ?"],
+            ["{ar|لِمَ لَمْ يَكْتُبْ عَلِيٌّ الْوَاجِبَاتِ؟}", "Pourquoi ʿAlī n'a-t-il pas écrit les devoirs ?"],
+            ["{ar|مَا الَّذِي لَمْ يَفْهَمْهُ عَلِيٌّ؟}", "Qu'est-ce que ʿAlī n'a pas compris ?"],
+            [
+              "{ar|أَشَرَحَ الْمُدَرِّسُ الدَّرْسَ مَرَّةً أُخْرَى؟}",
+              "Le professeur a-t-il expliqué la leçon une autre fois ?"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.practice-1#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَيْنَ ذَهَبَ هَارُونُ وَأَصْدِقَاؤُهُ؟",
+      "answers": ["ذَهَبُوا إِلَى الْمَطَارِ.", "ذَهَبَ هَارُونُ وَأَصْدِقَاؤُهُ إِلَى الْمَطَارِ.", "إِلَى الْمَطَارِ."],
+      "fr": "Ils sont allés à l'aéroport.",
+      "instruction": "Réponds d'après le texte : « ils sont allés à l'aéroport ».",
+      "explain": "Un étudiant pense qu'ils sont allés à l'aéroport accueillir leur président."
+    },
+    {
+      "id": "medine-t2.l21.practice-1#3",
+      "type": "question",
+      "prompt": { "fr": "Quelle est la bonne réponse à {ar|لِمَ لَمْ يَكْتُبْ عَلِيٌّ الْوَاجِبَاتِ؟} ?" },
+      "choices": [
+        { "ar": "لِأَنَّهُ لَمْ يَفْهَمِ الدَّرْسَ." },
+        { "ar": "لِأَنَّهُ لَنْ يَفْهَمَ الدَّرْسَ." },
+        { "ar": "لِأَنَّهُ لَمْ يَحْضُرِ الْيَوْمَ." }
+      ],
+      "answer": 0,
+      "explain": "ʿAlī dit : {ar|لِأَنَّنِي لَمْ أَفْهَمِ الدَّرْسَ}. Il était là, puisqu'il répond au professeur."
+    },
+    {
+      "id": "medine-t2.l21.practice-1#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "لِمَ لَمْ يَكْتُبْ عَلِيٌّ الْوَاجِبَاتِ؟",
+      "answers": ["لِأَنَّهُ لَمْ يَفْهَمِ الدَّرْسَ.", "لَمْ يَفْهَمِ الدَّرْسَ."],
+      "fr": "Parce qu'il n'a pas compris la leçon.",
+      "instruction": "Réponds d'après le texte : « parce qu'il n'a pas compris la leçon ».",
+      "explain": "{ar|لِأَنَّ} + le pronom : {ar|لِأَنَّهُ} (« parce que lui »), puis {ar|لَمْ يَفْهَمِ الدَّرْسَ}."
+    },
+    {
+      "id": "medine-t2.l21.practice-1#5",
+      "type": "true_false",
+      "statement": { "fr": "ʿAlī n'a pas compris la différence entre la phrase nominale et la phrase verbale." },
+      "answer": true,
+      "explain": "Oui : {ar|لَمْ أَفْهَمِ الْفَرْقَ بَيْنَ الْجُمْلَةِ الِاسْمِيَّةِ وَالْجُمْلَةِ الْفِعْلِيَّةِ}."
+    },
+    {
+      "id": "medine-t2.l21.practice-1#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا الَّذِي لَمْ يَفْهَمْهُ عَلِيٌّ؟",
+      "answers": [
+        "لَمْ يَفْهَمِ الْفَرْقَ بَيْنَ الْجُمْلَةِ الِاسْمِيَّةِ وَالْجُمْلَةِ الْفِعْلِيَّةِ.",
+        "الْفَرْقَ بَيْنَ الْجُمْلَةِ الِاسْمِيَّةِ وَالْجُمْلَةِ الْفِعْلِيَّةِ."
+      ],
+      "fr": "Il n'a pas compris la différence entre la phrase nominale et la phrase verbale.",
+      "instruction": "Réponds d'après le texte : « il n'a pas compris la différence entre la phrase nominale et la phrase verbale ».",
+      "explain": "{ar|الْفَرْقَ} est le complément d'objet : la fatha."
+    },
+    {
+      "id": "medine-t2.l21.practice-1#7",
+      "type": "order",
+      "fr": "Oui, l'enseignant a expliqué la leçon une autre fois.",
+      "answers": [
+        ["نَعَمْ،", "شَرَحَ", "الْمُدَرِّسُ", "الدَّرْسَ", "مَرَّةً", "أُخْرَى"],
+        ["نَعَمْ،", "الْمُدَرِّسُ", "شَرَحَ", "الدَّرْسَ", "مَرَّةً", "أُخْرَى"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|الدَّرْسَ} est le complément d'objet : la fatha. {ar|مَرَّةً أُخْرَى} : « une autre fois »."
+    },
+    {
+      "id": "medine-t2.l21.practice-1#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَشَرَحَ الْمُدَرِّسُ الدَّرْسَ مَرَّةً أُخْرَى؟",
+      "answers": [
+        "نَعَمْ، شَرَحَ الْمُدَرِّسُ الدَّرْسَ مَرَّةً أُخْرَى.",
+        "نَعَمْ، شَرَحَهُ.",
+        "نَعَمْ.",
+        "شَرَحَ الْمُدَرِّسُ الدَّرْسَ مَرَّةً أُخْرَى."
+      ],
+      "fr": "Oui, l'enseignant a expliqué la leçon une autre fois.",
+      "instruction": "Réponds par « oui » : le professeur a expliqué la leçon.",
+      "explain": "Le professeur dit : {ar|سَأَشْرَحُ لَكُمْ هٰذَا الدَّرْسَ مَرَّةً أُخْرَى} ; ensuite les étudiants disent qu'ils ont compris."
+    }
+  ]
+}

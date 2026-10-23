@@ -1,0 +1,90 @@
+{
+  "id": "medine-t2.l21.practice-7",
+  "type": "grammar",
+  "title": "Exercice 7 : compléter avec un verbe (7 à 11)",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l21.practice-7#1",
+      "type": "tip",
+      "title": "Exercice 7 : la suite",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voici les phrases 7 à 11. Deux d'entre elles ont {ar|لَمَّا} (« pas encore ») ; fais attention au sujet : un verbe placé **avant** son sujet reste au singulier."
+        },
+        {
+          "type": "example",
+          "ar": "لَمَّا يَخْرُجِ الْمُدَرِّسُونَ.",
+          "fr": "Les enseignants ne sont pas encore sortis."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Le verbe qui précède un sujet pluriel reste au singulier ({ar|يَخْرُجِ}) : il s'accorde seulement en genre."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.practice-7#2",
+      "type": "fill_gap",
+      "sentence": "لِمَ لَمْ {0} الْفَوَاكِهَ يَا إِخْوَانُ؟",
+      "fr": "Pourquoi n'avez-vous pas mangé les fruits, mes frères ?",
+      "gaps": [ { "answers": ["تَأْكُلُوا"] } ],
+      "options": ["تَأْكُلُوا", "تَأْكُلْ", "تَأْكُلُونَ"],
+      "explain": "« Vous » (des hommes) : {ar|تَأْكُلُونَ} perd son nūn. {ar|الْفَوَاكِهَ} est le complément d'objet : la fatha, comme tout nom sans tanwin."
+    },
+    {
+      "id": "medine-t2.l21.practice-7#3",
+      "type": "fill_gap",
+      "sentence": "يَا سَلْمَى، أَلَمْ {0} مَعْنَى هٰذِهِ الْكَلِمَةِ؟",
+      "fr": "Salmā, ne connais-tu pas le sens de ce mot ?",
+      "gaps": [ { "answers": ["تَعْرِفِي"] } ],
+      "options": ["تَعْرِفِي", "تَعْرِفِينَ", "تَعْرِفْنَ"],
+      "explain": "Salmā est une femme : {ar|تَعْرِفِينَ} perd son nūn, il reste le {ar|ي}."
+    },
+    {
+      "id": "medine-t2.l21.practice-7#4",
+      "type": "spot",
+      "instruction": "Touche le verbe qui a perdu son nūn.",
+      "words": ["لِمَ", "لَمْ", "تَأْكُلُوا", "الْفَوَاكِهَ", "يَا", "إِخْوَانُ؟"],
+      "answers": [2],
+      "fr": "Pourquoi n'avez-vous pas mangé les fruits, mes frères ?",
+      "explain": "{ar|تَأْكُلُونَ} perd son nūn après {ar|لَمْ} : {ar|لَمْ تَأْكُلُوا}."
+    },
+    {
+      "id": "medine-t2.l21.practice-7#5",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Pourquoi n'avez-vous pas ouvert les fenêtres, les filles ?",
+      "answers": ["لِمَ لَمْ تَفْتَحْنَ النَّوَافِذَ يَا بَنَاتُ؟"],
+      "explain": "On parle à des filles : le féminin pluriel, {ar|تَفْتَحْنَ}, déjà au sukūn. {ar|بَنَاتُ} est appelé avec {ar|يَا} : la damma."
+    },
+    {
+      "id": "medine-t2.l21.practice-7#6",
+      "type": "fill_gap",
+      "sentence": "رَنَّ الْجَرَسُ الْآنَ، وَلَمَّا {0} الْمُدَرِّسُونَ مِنَ الْفُصُولِ.",
+      "fr": "La sonnerie vient de retentir et les enseignants ne sont pas encore sortis des classes.",
+      "gaps": [ { "answers": ["يَخْرُجِ"] } ],
+      "options": ["يَخْرُجِ", "يَخْرُجُوا", "تَخْرُجْنَ"],
+      "explain": "{ar|لَمَّا} + le présent au sukūn, devenu kasra devant l'article. Le verbe reste au singulier avant son sujet {ar|الْمُدَرِّسُونَ}."
+    },
+    {
+      "id": "medine-t2.l21.practice-7#7",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|وَلَمَّا يَخْرُجِ الْمُدَرِّسُونَ}, {ar|لَمَّا} veut dire « pas encore »." },
+      "answer": true,
+      "explain": "Oui : ils ne sont pas encore sortis."
+    },
+    {
+      "id": "medine-t2.l21.practice-7#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "رَجَعَ الْوَزِيرُ مِنْ لَنْدَنَ.",
+      "answers": ["لَمْ يَرْجِعِ الْوَزِيرُ مِنْ لَنْدَنَ."],
+      "fr": "Le ministre n'est pas revenu de Londres.",
+      "instruction": "Mets cette phrase au négatif avec {ar|لَمْ} : « le ministre n'est pas revenu de Londres ».",
+      "explain": "{ar|رَجَعَ} devient {ar|لَمْ يَرْجِعْ}, avec la kasra devant l'article de {ar|الْوَزِيرُ}."
+    }
+  ]
+}

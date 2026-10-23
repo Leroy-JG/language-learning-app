@@ -1,0 +1,79 @@
+{
+  "id": "medine-t2.l21.vocab-2",
+  "type": "vocabulary",
+  "title": "Celles qui, comme, doucement",
+  "icon": "book",
+  "screens": [
+    { "id": "medine-t2.l21.vocab-2#1", "type": "present", "item": "w:allai" },
+    {
+      "id": "medine-t2.l21.vocab-2#2",
+      "type": "tip",
+      "title": "{ar|اللَّائِي} et {ar|اللَّاتِي}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tu connais déjà {ar|اللَّاتِي} (chapitre 9). {ar|اللَّائِي} a exactement le même sens : « celles qui », pour plusieurs femmes. Ni l'un ni l'autre ne change."
+        },
+        {
+          "type": "example",
+          "ar": "سَأَلْتُ أَخَوَاتِي اللَّائِي يَدْرُسْنَ فِي الثَّانَوِيَّةِ.",
+          "fr": "J'ai interrogé mes sœurs, qui étudient au lycée."
+        },
+        {
+          "type": "note",
+          "text": "Le verbe qui suit s'accorde avec « plusieurs femmes » : {ar|يَدْرُسْنَ}, avec {ar|نَ}."
+        }
+      ]
+    },
+    { "id": "medine-t2.l21.vocab-2#3", "type": "present", "item": "w:kama" },
+    {
+      "id": "medine-t2.l21.vocab-2#4",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:kama",
+      "distractors": ["w:aydan", "w:ayna"],
+      "explain": "{ar|كَمَا} : « comme ». {ar|أَيْضًا} veut dire « aussi », {ar|أَيْنَ} « où ? »."
+    },
+    { "id": "medine-t2.l21.vocab-2#5", "type": "present", "item": "w:mahlan" },
+    {
+      "id": "medine-t2.l21.vocab-2#6",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:allai", "w:kama", "w:mahlan", "w:lamma"]
+    },
+    {
+      "id": "medine-t2.l21.vocab-2#7",
+      "type": "fill_gap",
+      "sentence": "هُنَّ الطَّالِبَاتُ {0} يَكْتُبْنَ الْوَاجِبَاتِ.",
+      "fr": "Ce sont les étudiantes qui écrivent les devoirs.",
+      "gaps": [ { "answers": ["اللَّائِي", "اللَّاتِي"] } ],
+      "options": ["اللَّائِي", "اللَّاتِي", "الَّذِينَ"],
+      "explain": "Pour plusieurs femmes : {ar|اللَّائِي} ou {ar|اللَّاتِي}, les deux sont justes. {ar|الَّذِينَ} est réservé à plusieurs hommes."
+    },
+    {
+      "id": "medine-t2.l21.vocab-2#8",
+      "type": "fill_gap",
+      "sentence": "اُكْتُبْ {0} كَتَبَ الْمُدَرِّسُ.",
+      "fr": "Écris comme l'enseignant a écrit.",
+      "gaps": [ { "answers": ["كَمَا"] } ],
+      "options": ["كَمَا", "مَهْلًا", "لَمَّا"],
+      "explain": "« Comme » : {ar|كَمَا}. {ar|مَهْلًا} est « doucement ! »."
+    },
+    {
+      "id": "medine-t2.l21.vocab-2#9",
+      "type": "order",
+      "fr": "Doucement, professeur !",
+      "answers": [["مَهْلًا", "يَا", "أُسْتَاذُ"]],
+      "punctuation": "!",
+      "distractors": ["كَمَا"],
+      "explain": "{ar|مَهْلًا} se dit seul, puis on appelle le professeur : {ar|يَا أُسْتَاذُ}."
+    },
+    { "id": "medine-t2.l21.vocab-2#10", "type": "typing", "ask": "fr", "item": "w:mahlan" },
+    {
+      "id": "medine-t2.l21.vocab-2#11",
+      "type": "memory",
+      "mode": "ar-fr",
+      "items": ["w:allai", "w:kama", "w:mahlan", "w:lamma"]
+    }
+  ]
+}
