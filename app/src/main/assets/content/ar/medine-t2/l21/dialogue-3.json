@@ -124,7 +124,10 @@
       "id": "medine-t2.l21.dialogue-3#7",
       "type": "order",
       "fr": "Nous commencerons la nouvelle leçon à la prochaine séance.",
-      "answers": [["نَبْدَأُ", "الدَّرْسَ", "الْجَدِيدَ", "فِي", "الْحِصَّةِ", "الْقَادِمَةِ"]],
+      "answers": [
+        ["نَبْدَأُ", "الدَّرْسَ", "الْجَدِيدَ", "فِي", "الْحِصَّةِ", "الْقَادِمَةِ"],
+        ["فِي", "الْحِصَّةِ", "الْقَادِمَةِ", "نَبْدَأُ", "الدَّرْسَ", "الْجَدِيدَ"]
+      ],
       "punctuation": ".",
       "explain": "{ar|الدَّرْسَ} est le complément d'objet : la fatha ; {ar|الْجَدِيدَ} s'accorde avec lui."
     },

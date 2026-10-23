@@ -11,7 +11,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Au chapitre 7, tu as vu qu'en arabe deux sukūn ne se suivent pas (par exemple devant l'article). Le professeur rappelle que cette règle vaut pour les noms **et** pour les verbes."
+          "text": "Au chapitre 7, tu as vu qu'en arabe, en général, deux sukūn ne se suivent pas (par exemple devant l'article ; l'exception est une lettre doublée, comme dans {ar|دَابَّةٌ}). Le professeur rappelle que cette règle vaut pour les noms **et** pour les verbes."
         },
         {
           "type": "paragraph",
@@ -56,6 +56,11 @@
           "type": "note",
           "tone": "warning",
           "text": "Cette règle ne joue qu'avec un pronom qui rend la dernière lettre sākina. Avec {ar|وا} par exemple ({ar|قَالُوا}), rien ne tombe."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Ne confonds pas avec l'article (chapitre 7) : là, une voyelle longue reste écrite et se prononce brève ({ar|فِي الْبَيْتِ}). Ici, la voyelle longue disparaît aussi à l'écrit."
         }
       ]
     },

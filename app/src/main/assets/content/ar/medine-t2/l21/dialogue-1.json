@@ -27,7 +27,7 @@
         {
           "speaker": "E",
           "ar": "نَعَمْ، إِنَّهُ لَمْ يَحْضُرِ الْيَوْمَ.",
-          "fr": "Oui, il n'est pas venu aujourd'hui."
+          "fr": "En effet, il n'est pas venu aujourd'hui."
         },
         { "speaker": "P", "ar": "وَأَيْنَ أَصْدِقَاؤُهُ الثَّلَاثَةُ؟", "fr": "Et où sont ses trois amis ?" },
         { "speaker": "E", "ar": "هُمْ أَيْضًا لَمْ يَحْضُرُوا.", "fr": "Eux aussi ne sont pas venus." },
@@ -75,7 +75,7 @@
     {
       "id": "medine-t2.l21.dialogue-1#2",
       "type": "question",
-      "prompt": { "fr": "Où les étudiants pensent-ils que Hārūn et ses amis sont allés ?" },
+      "prompt": { "fr": "Où un étudiant pense-t-il que Hārūn et ses amis sont allés ?" },
       "choices": [ { "fr": "À l'aéroport" }, { "fr": "À la mosquée" }, { "fr": "Au marché" } ],
       "answer": 0,
       "context": { "dialogue": "medine-t2.l21.dialogue-1#1" },
@@ -127,7 +127,7 @@
       "instruction": "Touche le verbe au jussif.",
       "words": ["نَعَمْ،", "إِنَّهُ", "لَمْ", "يَحْضُرِ", "الْيَوْمَ."],
       "answers": [3],
-      "fr": "Oui, il n'est pas venu aujourd'hui.",
+      "fr": "En effet, il n'est pas venu aujourd'hui.",
       "explain": "{ar|يَحْضُرِ} suit {ar|لَمْ} : il est au jussif (sukūn, devenu kasra devant l'article)."
     },
     {

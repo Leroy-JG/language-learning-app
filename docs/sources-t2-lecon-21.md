@@ -76,3 +76,14 @@ La négation totale de `لَمْ` (« dans certains cas, passé, présent et fut
 ## Points à confirmer avec le professeur
 
 `مُتْحَفٌ` / `مِتْحَفٌ` (laquelle préfère-t-il ?) ; `قُمْصَانِي` (le PDF n'a pas de harakat) ; la dernière proposition de ʿAmr (`وَالِاسْمُ كَمَا فِي سَآكُلُ`) ; la négation totale de `لَمْ` (sur quels exemples ?) ; l'exercice 9, phrase 2 (`الْمُدَرِّسُ خَرَجَ`).
+
+## Corrections faites après la relecture
+
+Trois relecteurs indépendants (arabe et fidélité au PDF, exercices, français et pédagogie) : aucune erreur de harakat ni de cas dans l'arabe ; chaque remarque a été vérifiée avant d'être appliquée.
+
+- **Tri « passé / présent / futur »** : `لَا` + présent peut aussi nier le futur (`لَا أَذْهَبُ غَدًا`) ; les cartes `لَا` ont été retirées de `grammar-1` et du bilan, qui ne gardent que `لَمْ` (passé) et `لَنْ` (futur).
+- **Explication fausse** : « la fatha, comme tout nom sans tanwin » (`الْفَوَاكِهَ`) : retirée (`الْوَاجِبَاتِ` n'a pas de tanwin et prend la kasra).
+- **Réponses justes ajoutées** : autres ordres des mots (`مَهْلًا يَا أُسْتَاذُ`, `لَا، الْمُدَرِّسُ لَمَّا يَدْخُلِ الْفَصْلَ`, `فِي الْحِصَّةِ الْقَادِمَةِ نَبْدَأُ…`, `أَمْسِ` en tête ou au milieu, `الْوَزِيرُ لَمْ يَرْجِعْ…`), `تَعَالَ يَا زَيْدُ` (chapitre 14) et `يَا زَيْدُ، اِئْتِ`, `مَا` + passé quand le français ne précise pas `لَمْ` (`grammar-1`, `revue-1`, `practice-2`), et « (à un homme) » dans « tu n'as pas bu de café ». Les consignes de l'exercice 3 disent « avec `لَمْ` ».
+- **Français** : « Oui, il n'est pas venu » (réponse à `أَلَمْ يَحْضُرْ؟`) devient « En effet, il n'est pas venu » (en français, « oui » à une question négative dirait l'inverse) ; un écran de `grammar-1` explique `أَلَمْ` (`أَ` + `لَمْ`), `نَعَمْ` qui confirme la négation et `بَلَى` qui la contredit ; « Où un étudiant pense-t-il… » (un seul étudiant parle) ; `الَّذِينَ` est « le pluriel masculin (des hommes, ou un groupe mixte) » ; le nom désigne « un être, une chose ou une idée » ; `mubtadaʾ` avec le ʾ du tome 1.
+- **Explications d'oral ajoutées** : le `هُ` de `يَفْهَمْهُ` reprend `الَّذِي` (pas d'équivalent en français) ; « en général, deux sukūn ne se suivent pas » (exception : la lettre doublée, `دَابَّةٌ`) ; la chute de la voyelle longue devant un pronom n'est pas celle de l'article (`فِي الْبَيْتِ`, voyelle écrite mais brève) ; le `ي` de `يَأْتِي` est une lettre faible finale (tombe au jussif et à l'impératif).
+- **Bilan** : « marque d'un verbe au singulier comme `يَكْتُبُ` » (les verbes en `ونَ` / `ينَ` perdent leur nūn) ; `vocab-2` : `أَيْضًا` remplace `لَمَّا` comme distracteur de `كَمَا` (`اُكْتُبْ لَمَّا كَتَبَ…` serait juste avec « quand »).

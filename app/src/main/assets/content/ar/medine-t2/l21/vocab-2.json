@@ -48,7 +48,7 @@
       "fr": "Ce sont les étudiantes qui écrivent les devoirs.",
       "gaps": [ { "answers": ["اللَّائِي", "اللَّاتِي"] } ],
       "options": ["اللَّائِي", "اللَّاتِي", "الَّذِينَ"],
-      "explain": "Pour plusieurs femmes : {ar|اللَّائِي} ou {ar|اللَّاتِي}, les deux sont justes. {ar|الَّذِينَ} est réservé à plusieurs hommes."
+      "explain": "Pour plusieurs femmes : {ar|اللَّائِي} ou {ar|اللَّاتِي}, les deux sont justes. {ar|الَّذِينَ} est le pluriel masculin (des hommes, ou un groupe mixte)."
     },
     {
       "id": "medine-t2.l21.vocab-2#8",
@@ -56,14 +56,14 @@
       "sentence": "اُكْتُبْ {0} كَتَبَ الْمُدَرِّسُ.",
       "fr": "Écris comme l'enseignant a écrit.",
       "gaps": [ { "answers": ["كَمَا"] } ],
-      "options": ["كَمَا", "مَهْلًا", "لَمَّا"],
-      "explain": "« Comme » : {ar|كَمَا}. {ar|مَهْلًا} est « doucement ! »."
+      "options": ["كَمَا", "مَهْلًا", "أَيْضًا"],
+      "explain": "« Comme » : {ar|كَمَا}. {ar|مَهْلًا} est « doucement ! », {ar|أَيْضًا} « aussi »."
     },
     {
       "id": "medine-t2.l21.vocab-2#9",
       "type": "order",
       "fr": "Doucement, professeur !",
-      "answers": [["مَهْلًا", "يَا", "أُسْتَاذُ"]],
+      "answers": [["مَهْلًا", "يَا", "أُسْتَاذُ"], ["يَا", "أُسْتَاذُ", "مَهْلًا"]],
       "punctuation": "!",
       "distractors": ["كَمَا"],
       "explain": "{ar|مَهْلًا} se dit seul, puis on appelle le professeur : {ar|يَا أُسْتَاذُ}."

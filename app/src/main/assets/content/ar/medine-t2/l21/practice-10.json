@@ -62,7 +62,11 @@
       "id": "medine-t2.l21.practice-10#6",
       "type": "order",
       "fr": "Nous avons visité le musée hier.",
-      "answers": [["زُرْنَا", "الْمُتْحَفَ", "أَمْسِ"]],
+      "answers": [
+        ["زُرْنَا", "الْمُتْحَفَ", "أَمْسِ"],
+        ["أَمْسِ", "زُرْنَا", "الْمُتْحَفَ"],
+        ["زُرْنَا", "أَمْسِ", "الْمُتْحَفَ"]
+      ],
       "punctuation": ".",
       "explain": "{ar|زَارَ} + {ar|نَا} → {ar|زُرْنَا}. {ar|الْمُتْحَفَ} est le complément d'objet : la fatha."
     },

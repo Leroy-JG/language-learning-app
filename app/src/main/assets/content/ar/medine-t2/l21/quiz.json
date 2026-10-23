@@ -30,21 +30,17 @@
     {
       "id": "medine-t2.l21.quiz#4",
       "type": "sort",
-      "categories": [
-        { "fr": "il ne l'a pas fait (passé)" },
-        { "fr": "il ne le fait pas (présent)" },
-        { "fr": "il ne le fera pas (futur)" }
-      ],
+      "categories": [ { "fr": "on ne l'a pas fait (passé)" }, { "fr": "on ne le fera pas (futur)" } ],
       "cards": [
         { "ar": "لَمْ يَكْتُبْ", "category": 0 },
-        { "ar": "لَا يَكْتُبُ", "category": 1 },
-        { "ar": "لَنْ يَكْتُبَ", "category": 2 },
+        { "ar": "لَنْ يَكْتُبَ", "category": 1 },
         { "ar": "لَمْ تَذْهَبْ", "category": 0 },
-        { "ar": "لَا تَذْهَبُ", "category": 1 },
-        { "ar": "لَنْ تَذْهَبَ", "category": 2 }
+        { "ar": "لَنْ تَذْهَبَ", "category": 1 },
+        { "ar": "لَمْ نَشْرَبْ", "category": 0 },
+        { "ar": "لَنْ نَشْرَبَ", "category": 1 }
       ],
-      "instruction": "Quelle négation ? Passé, présent ou futur ?",
-      "explain": "{ar|لَمْ} (sukūn) : le passé. {ar|لَا} (damma) : le présent. {ar|لَنْ} (fatha) : le futur."
+      "instruction": "Quelle négation ? Passé ou futur ?",
+      "explain": "{ar|لَمْ} (sukūn) : le passé. {ar|لَنْ} (fatha) : le futur."
     },
     {
       "id": "medine-t2.l21.quiz#5",

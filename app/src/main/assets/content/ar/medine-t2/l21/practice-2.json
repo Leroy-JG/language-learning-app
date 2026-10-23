@@ -56,7 +56,11 @@
       "id": "medine-t2.l21.practice-2#4",
       "type": "order",
       "fr": "Nous n'avons pas joué au basket-ball hier.",
-      "answers": [["مَا", "لَعِبْنَا", "كُرَةَ", "السَّلَّةِ", "أَمْسِ"]],
+      "answers": [
+        ["مَا", "لَعِبْنَا", "كُرَةَ", "السَّلَّةِ", "أَمْسِ"],
+        ["أَمْسِ", "مَا", "لَعِبْنَا", "كُرَةَ", "السَّلَّةِ"],
+        ["مَا", "لَعِبْنَا", "أَمْسِ", "كُرَةَ", "السَّلَّةِ"]
+      ],
       "punctuation": ".",
       "distractors": ["لَمْ"],
       "instruction": "Dis-le avec {ar|مَا} et le passé.",
@@ -138,7 +142,10 @@
       "type": "typing",
       "ask": "fr",
       "fr": "J'ai lavé les mouchoirs et je n'ai pas lavé les chemises.",
-      "answers": ["غَسَلْتُ الْمَنَادِيلَ وَلَمْ أَغْسِلِ الْقُمْصَانَ."],
+      "answers": [
+        "غَسَلْتُ الْمَنَادِيلَ وَلَمْ أَغْسِلِ الْقُمْصَانَ.",
+        "غَسَلْتُ الْمَنَادِيلَ وَمَا غَسَلْتُ الْقُمْصَانَ."
+      ],
       "explain": "{ar|غَسَلْتُ} (passé) et {ar|لَمْ أَغْسِلِ} (négation du passé, présent au sukūn)."
     }
   ]

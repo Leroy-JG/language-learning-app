@@ -19,7 +19,7 @@
           "rows": [
             [
               "le nom ({ar|الِاسْمُ})",
-              "il désigne un être ou une chose : {ar|كِتَابٌ}, {ar|طَالِبٌ} ; les pronoms comme {ar|أَنَا} sont aussi des noms"
+              "il désigne un être, une chose ou une idée : {ar|كِتَابٌ}, {ar|طَالِبٌ} ; les pronoms comme {ar|أَنَا} sont aussi des noms"
             ],
             ["le verbe ({ar|الْفِعْلُ})", "il dit une action, avec son temps : {ar|خَرَجَ}, {ar|يَبْحَثُ}"],
             [
@@ -104,7 +104,7 @@
       "fr": "Les étudiantes qui viennent de sortir de la classe sont des Philippines.",
       "gaps": [ { "answers": ["اللَّاتِي", "اللَّائِي"] } ],
       "options": ["اللَّاتِي", "اللَّائِي", "الَّذِينَ"],
-      "explain": "Pour plusieurs femmes : {ar|اللَّاتِي} ou {ar|اللَّائِي}. {ar|الَّذِينَ} est réservé à plusieurs hommes."
+      "explain": "Pour plusieurs femmes : {ar|اللَّاتِي} ou {ar|اللَّائِي}. {ar|الَّذِينَ} est le pluriel masculin (des hommes, ou un groupe mixte)."
     },
     {
       "id": "medine-t2.l21.practice-9#9",

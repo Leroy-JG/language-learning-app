@@ -44,7 +44,10 @@
       "id": "medine-t2.l21.practice-4#4",
       "type": "order",
       "fr": "Non, l'enseignant n'est pas encore entré en classe.",
-      "answers": [["لَا،", "لَمَّا", "يَدْخُلِ", "الْمُدَرِّسُ", "الْفَصْلَ"]],
+      "answers": [
+        ["لَا،", "لَمَّا", "يَدْخُلِ", "الْمُدَرِّسُ", "الْفَصْلَ"],
+        ["لَا،", "الْمُدَرِّسُ", "لَمَّا", "يَدْخُلِ", "الْفَصْلَ"]
+      ],
       "punctuation": ".",
       "instruction": "Réponds à : {ar|أَدَخَلَ الْمُدَرِّسُ الْفَصْلَ؟}",
       "explain": "{ar|يَدْخُلْ} devient {ar|يَدْخُلِ} devant l'article de {ar|الْمُدَرِّسُ}."

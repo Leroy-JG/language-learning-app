@@ -125,7 +125,12 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Elles n'ont pas écrit les devoirs.",
-      "answers": ["لَمْ يَكْتُبْنَ الْوَاجِبَاتِ.", "هُنَّ لَمْ يَكْتُبْنَ الْوَاجِبَاتِ."],
+      "answers": [
+        "لَمْ يَكْتُبْنَ الْوَاجِبَاتِ.",
+        "هُنَّ لَمْ يَكْتُبْنَ الْوَاجِبَاتِ.",
+        "مَا كَتَبْنَ الْوَاجِبَاتِ.",
+        "هُنَّ مَا كَتَبْنَ الْوَاجِبَاتِ."
+      ],
       "explain": "Le féminin pluriel est déjà au sukūn : {ar|لَمْ يَكْتُبْنَ}. {ar|الْوَاجِبَاتِ} est le complément d'objet : la kasra du pluriel féminin régulier."
     },
     {

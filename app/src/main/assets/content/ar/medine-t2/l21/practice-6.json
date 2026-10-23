@@ -40,7 +40,7 @@
       "question": "أَخَرَجَ الطُّلَّابُ مِنَ الْفَصْلِ يَا حَامِدُ؟",
       "answers": ["لَا، لَمْ يَخْرُجُوا.", "لَمْ يَخْرُجُوا."],
       "fr": "Non, ils ne sont pas sortis.",
-      "instruction": "Réponds « non » : « ils ne sont pas sortis ».",
+      "instruction": "Réponds « non » avec {ar|لَمْ} : « ils ne sont pas sortis ».",
       "explain": "Pour plusieurs hommes : {ar|يَخْرُجُونَ} perd son nūn : {ar|لَمْ يَخْرُجُوا}."
     },
     {
@@ -75,7 +75,8 @@
       "question": "كَنَسَتْ أُخْتِي غُرْفَتَهَا.",
       "answers": [
         "كَنَسَتْ أُخْتِي غُرْفَتَهَا وَلَمْ أَكْنُسْ غُرْفَتِي.",
-        "كَنَسَتْ أُخْتِي غُرْفَتَهَا وَلَمْ تَكْنُسْ غُرْفَتِي."
+        "كَنَسَتْ أُخْتِي غُرْفَتَهَا وَلَمْ تَكْنُسْ غُرْفَتِي.",
+        "كَنَسَتْ أُخْتِي غُرْفَتَهَا وَأَنَا لَمْ أَكْنُسْ غُرْفَتِي."
       ],
       "fr": "Ma sœur a balayé sa chambre et je n'ai pas balayé la mienne.",
       "instruction": "Ajoute : « et je n'ai pas balayé ma chambre » (ou : « et elle n'a pas balayé la mienne »).",

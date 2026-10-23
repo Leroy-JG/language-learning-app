@@ -28,7 +28,7 @@
         },
         {
           "type": "note",
-          "text": "Impératif de {ar|أَتَى} : le {ar|ي} de {ar|يَأْتِي} tombe aussi. On écrit {ar|اِئْتِ} avec {ar|ئ}, parce que la hamza suit une kasra ; l'alif porte une kasra, comme la voyelle du milieu de {ar|يَأْتِي}."
+          "text": "Impératif de {ar|أَتَى} : le {ar|ي} de {ar|يَأْتِي} tombe aussi (c'est la lettre faible finale, qui tombe au jussif et à l'impératif). On écrit {ar|اِئْتِ} avec {ar|ئ}, parce que la hamza suit une kasra ; l'alif porte une kasra, comme la voyelle du milieu de {ar|يَأْتِي}."
         }
       ]
     },
@@ -85,8 +85,8 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Viens, Zayd !",
-      "answers": ["اِئْتِ يَا زَيْدُ."],
-      "explain": "L'impératif de {ar|أَتَى} : {ar|اِئْتِ}. {ar|زَيْدُ} est appelé avec {ar|يَا} : la damma."
+      "answers": ["اِئْتِ يَا زَيْدُ.", "يَا زَيْدُ، اِئْتِ.", "تَعَالَ يَا زَيْدُ.", "يَا زَيْدُ، تَعَالَ."],
+      "explain": "L'impératif de {ar|أَتَى} : {ar|اِئْتِ}. Tu connais aussi {ar|تَعَالَ} (« viens ! », chapitre 14), qui est aussi juste. {ar|زَيْدُ} est appelé avec {ar|يَا} : la damma."
     }
   ]
 }

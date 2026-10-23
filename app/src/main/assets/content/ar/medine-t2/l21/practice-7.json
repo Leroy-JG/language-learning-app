@@ -32,7 +32,7 @@
       "fr": "Pourquoi n'avez-vous pas mangé les fruits, mes frères ?",
       "gaps": [ { "answers": ["تَأْكُلُوا"] } ],
       "options": ["تَأْكُلُوا", "تَأْكُلْ", "تَأْكُلُونَ"],
-      "explain": "« Vous » (des hommes) : {ar|تَأْكُلُونَ} perd son nūn. {ar|الْفَوَاكِهَ} est le complément d'objet : la fatha, comme tout nom sans tanwin."
+      "explain": "« Vous » (des hommes) : {ar|تَأْكُلُونَ} perd son nūn. {ar|الْفَوَاكِهَ} est le complément d'objet : l'accusatif, la fatha."
     },
     {
       "id": "medine-t2.l21.practice-7#3",
@@ -81,7 +81,7 @@
       "type": "typing",
       "ask": "question",
       "question": "رَجَعَ الْوَزِيرُ مِنْ لَنْدَنَ.",
-      "answers": ["لَمْ يَرْجِعِ الْوَزِيرُ مِنْ لَنْدَنَ."],
+      "answers": ["لَمْ يَرْجِعِ الْوَزِيرُ مِنْ لَنْدَنَ.", "الْوَزِيرُ لَمْ يَرْجِعْ مِنْ لَنْدَنَ."],
       "fr": "Le ministre n'est pas revenu de Londres.",
       "instruction": "Mets cette phrase au négatif avec {ar|لَمْ} : « le ministre n'est pas revenu de Londres ».",
       "explain": "{ar|رَجَعَ} devient {ar|لَمْ يَرْجِعْ}, avec la kasra devant l'article de {ar|الْوَزِيرُ}."

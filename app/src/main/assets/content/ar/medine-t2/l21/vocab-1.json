@@ -79,7 +79,11 @@
       "type": "typing",
       "ask": "fr",
       "fr": "Le président est à l'aéroport maintenant.",
-      "answers": ["الرَّئِيسُ فِي الْمَطَارِ الْآنَ."],
+      "answers": [
+        "الرَّئِيسُ فِي الْمَطَارِ الْآنَ.",
+        "الرَّئِيسُ الْآنَ فِي الْمَطَارِ.",
+        "الْآنَ الرَّئِيسُ فِي الْمَطَارِ."
+      ],
       "explain": "{ar|الرَّئِيسُ} s'écrit avec {ar|ئ} ; son pluriel, {ar|رُؤَسَاءُ}, avec {ar|ؤ}."
     }
   ]

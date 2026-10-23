@@ -25,6 +25,10 @@
               "Le professeur a-t-il expliqué la leçon une autre fois ?"
             ]
           ]
+        },
+        {
+          "type": "note",
+          "text": "Dans {ar|مَا الَّذِي لَمْ يَفْهَمْهُ عَلِيٌّ؟}, le {ar|هُ} de {ar|يَفْهَمْهُ} reprend {ar|الَّذِي} ; en français, on dit seulement « ce qu'il n'a pas compris »."
         }
       ]
     },
@@ -33,7 +37,12 @@
       "type": "typing",
       "ask": "question",
       "question": "أَيْنَ ذَهَبَ هَارُونُ وَأَصْدِقَاؤُهُ؟",
-      "answers": ["ذَهَبُوا إِلَى الْمَطَارِ.", "ذَهَبَ هَارُونُ وَأَصْدِقَاؤُهُ إِلَى الْمَطَارِ.", "إِلَى الْمَطَارِ."],
+      "answers": [
+        "ذَهَبُوا إِلَى الْمَطَارِ.",
+        "ذَهَبَ هَارُونُ وَأَصْدِقَاؤُهُ إِلَى الْمَطَارِ.",
+        "إِلَى الْمَطَارِ.",
+        "هُمْ ذَهَبُوا إِلَى الْمَطَارِ."
+      ],
       "fr": "Ils sont allés à l'aéroport.",
       "instruction": "Réponds d'après le texte : « ils sont allés à l'aéroport ».",
       "explain": "Un étudiant pense qu'ils sont allés à l'aéroport accueillir leur président."

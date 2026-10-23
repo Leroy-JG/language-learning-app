@@ -37,7 +37,7 @@
         "لَمْ أَدْرُسْ."
       ],
       "fr": "Non, je n'ai pas étudié l'arabe dans mon pays.",
-      "instruction": "Réponds « non » : « je n'ai pas étudié l'arabe dans mon pays ».",
+      "instruction": "Réponds « non » avec {ar|لَمْ} : « je n'ai pas étudié l'arabe dans mon pays ».",
       "explain": "« Ton pays » ({ar|بَلَدِكَ}) devient « mon pays » ({ar|بَلَدِي}) dans la réponse."
     },
     {
@@ -70,7 +70,7 @@
         "لَمْ أَدْخُلْ."
       ],
       "fr": "Non, je ne suis pas entrée dans la nouvelle bibliothèque.",
-      "instruction": "Réponds comme Salmā : « non, je ne suis pas entrée dans la nouvelle bibliothèque ».",
+      "instruction": "Réponds comme Salmā, avec {ar|لَمْ} : « non, je ne suis pas entrée dans la nouvelle bibliothèque ».",
       "explain": "{ar|أَدْخُلْ} devient {ar|أَدْخُلِ} devant l'article de {ar|الْمَكْتَبَةَ}."
     },
     {
@@ -108,7 +108,7 @@
         "لَمْ أَفْتَحْ."
       ],
       "fr": "Non, je n'ai pas ouvert la fenêtre de la pièce du directeur.",
-      "instruction": "Réponds « non » : « je n'ai pas ouvert la fenêtre de la pièce du directeur ».",
+      "instruction": "Réponds « non » avec {ar|لَمْ} : « je n'ai pas ouvert la fenêtre de la pièce du directeur ».",
       "explain": "{ar|نَافِذَةَ} est le complément d'objet (fatha) ; {ar|غُرْفَةِ} et {ar|الْمُدِيرِ} sont des seconds termes d'annexion (kasra)."
     }
   ]
