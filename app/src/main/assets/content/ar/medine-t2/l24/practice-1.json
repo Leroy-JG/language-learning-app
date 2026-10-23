@@ -1,0 +1,93 @@
+{
+  "id": "medine-t2.l24.practice-1",
+  "type": "vocabulary",
+  "title": "Combien d'étudiants ?",
+  "icon": "student",
+  "screens": [
+    {
+      "id": "medine-t2.l24.practice-1#1",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « sept cents étudiantes » ?" },
+      "choices": [ { "ar": "سَبْعُمِائَةِ طَالِبَةٍ" }, { "ar": "سَبْعَةُ آلَافِ طَالِبَةٍ" }, { "ar": "سَبْعُ طَالِبَاتٍ" } ],
+      "answer": 0,
+      "explain": "{ar|سَبْعُمِائَةِ} : sept cents. {ar|سَبْعَةُ آلَافِ} : sept mille ; {ar|سَبْعُ طَالِبَاتٍ} : sept étudiantes."
+    },
+    {
+      "id": "medine-t2.l24.practice-1#2",
+      "type": "fill_gap",
+      "sentence": "فِي الْجَامِعَةِ {0} طَالِبٍ وَ{1} طَالِبَةٍ.",
+      "fr": "Il y a cinq cents étudiants et trois cents étudiantes à l'université.",
+      "gaps": [ { "answers": ["خَمْسُمِائَةِ"] }, { "answers": ["ثَلَاثُمِائَةِ"] } ],
+      "options": ["خَمْسُمِائَةِ", "ثَلَاثُمِائَةِ", "أَرْبَعُمِائَةِ"],
+      "explain": "Les centaines ont la même forme avec un nom masculin ou féminin, puis le dénombré est au singulier et au génitif."
+    },
+    {
+      "id": "medine-t2.l24.practice-1#3",
+      "type": "sort",
+      "categories": [ { "fr": "des centaines" }, { "fr": "des milliers" } ],
+      "cards": [
+        { "ar": "خَمْسُمِائَةِ كِتَابٍ", "category": 0 },
+        { "ar": "خَمْسَةُ آلَافِ كِتَابٍ", "category": 1 },
+        { "ar": "ثَمَانِمِائَةِ طَالِبَةٍ", "category": 0 },
+        { "ar": "ثَمَانِيَةُ آلَافِ طَالِبَةٍ", "category": 1 },
+        { "ar": "أَرْبَعُمِائَةِ قَلَمٍ", "category": 0 },
+        { "ar": "أَرْبَعَةُ آلَافِ قَلَمٍ", "category": 1 }
+      ],
+      "instruction": "Des centaines ou des milliers ?",
+      "explain": "Les centaines s'écrivent en un seul mot, avec {ar|مِائَةِ}. Les milliers utilisent {ar|آلَافِ}."
+    },
+    {
+      "id": "medine-t2.l24.practice-1#4",
+      "type": "fill_gap",
+      "sentence": "فِي الْمَدِينَةِ {0} آلَافِ رَجُلٍ.",
+      "fr": "Il y a six mille hommes dans la ville.",
+      "gaps": [ { "answers": ["سِتَّةُ"] } ],
+      "options": ["سِتَّةُ", "سِتُّ", "سَبْعَةُ"],
+      "explain": "{ar|أَلْفٌ} est masculin : {ar|سِتَّةُ}, avec {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l24.practice-1#5",
+      "type": "order",
+      "fr": "Il y a deux mille étudiantes à l'université.",
+      "answers": [["فِي", "الْجَامِعَةِ", "أَلْفَا", "طَالِبَةٍ"], ["أَلْفَا", "طَالِبَةٍ", "فِي", "الْجَامِعَةِ"]],
+      "punctuation": ".",
+      "explain": "{ar|أَلْفَانِ} perd son {ar|ن} devant le dénombré : {ar|أَلْفَا طَالِبَةٍ}."
+    },
+    {
+      "id": "medine-t2.l24.practice-1#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "deux cents hommes",
+      "answers": ["مِائَتَا رَجُلٍ", "مِئَتَا رَجُلٍ", "مِائَتَيْ رَجُلٍ", "مِئَتَيْ رَجُلٍ"],
+      "explain": "{ar|مِائَتَا} + un dénombré au singulier et au génitif."
+    },
+    {
+      "id": "medine-t2.l24.practice-1#7",
+      "type": "true_false",
+      "statement": { "fr": "Pour « cinq mille étudiantes », on dit {ar|خَمْسَةُ آلَافِ طَالِبَةٍ}." },
+      "answer": true,
+      "explain": "Oui : {ar|أَلْفٌ} est masculin, donc {ar|خَمْسَةُ} garde son {ar|ة} devant un nom féminin."
+    },
+    {
+      "id": "medine-t2.l24.practice-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "vingt mille livres",
+      "answers": ["عِشْرُونَ أَلْفَ كِتَابٍ"],
+      "explain": "{ar|عِشْرُونَ} + {ar|أَلْفَ} (singulier, accusatif) + le dénombré au génitif."
+    },
+    {
+      "id": "medine-t2.l24.practice-1#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il y a trois cent mille hommes dans la ville.",
+      "answers": [
+        "فِي الْمَدِينَةِ ثَلَاثُمِائَةِ أَلْفِ رَجُلٍ.",
+        "ثَلَاثُمِائَةِ أَلْفِ رَجُلٍ فِي الْمَدِينَةِ.",
+        "فِي الْمَدِينَةِ ثَلَاثُمِئَةِ أَلْفِ رَجُلٍ.",
+        "ثَلَاثُمِئَةِ أَلْفِ رَجُلٍ فِي الْمَدِينَةِ."
+      ],
+      "explain": "{ar|ثَلَاثُمِائَةِ أَلْفِ} + un dénombré au singulier et au génitif."
+    }
+  ]
+}

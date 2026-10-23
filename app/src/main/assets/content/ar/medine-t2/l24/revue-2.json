@@ -1,0 +1,108 @@
+{
+  "id": "medine-t2.l24.revue-2",
+  "type": "review",
+  "title": "De 11 à 99",
+  "icon": "books",
+  "screens": [
+    {
+      "id": "medine-t2.l24.revue-2#1",
+      "type": "tip",
+      "title": "Les nombres composés et coordonnés",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Nombre", "Le nombre", "Le dénombré"],
+          "rows": [
+            [
+              "de 11 à 19",
+              "deux morceaux : le premier est de genre contraire au dénombré (sauf 11 et 12), « dix » s'accorde avec lui",
+              "au singulier, à l'accusatif"
+            ],
+            [
+              "de 21 à 99",
+              "l'unité, {ar|وَ}, puis la dizaine : l'unité est de genre contraire (sauf un et deux), la dizaine ne change pas de genre",
+              "au singulier, à l'accusatif"
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Exemples : {ar|ثَلَاثَةَ عَشَرَ كِتَابًا}, {ar|ثَلَاثَ عَشْرَةَ سَيَّارَةً}, {ar|ثَلَاثَةٌ وَعِشْرُونَ كِتَابًا}, {ar|ثَلَاثٌ وَعِشْرُونَ سَيَّارَةً}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l24.revue-2#2",
+      "type": "fill_gap",
+      "sentence": "فِي الْمَدْرَسَةِ {0} مُدَرِّسًا.",
+      "fr": "Il y a quatorze enseignants dans l'école.",
+      "gaps": [ { "answers": ["أَرْبَعَةَ عَشَرَ"] } ],
+      "options": ["أَرْبَعَةَ عَشَرَ", "أَرْبَعَ عَشْرَةَ", "أَرْبَعَةٌ وَعِشْرُونَ"],
+      "explain": "{ar|مُدَرِّسٌ} est masculin : {ar|أَرْبَعَةَ عَشَرَ}. {ar|أَرْبَعَةٌ وَعِشْرُونَ} voudrait dire vingt-quatre."
+    },
+    {
+      "id": "medine-t2.l24.revue-2#3",
+      "type": "spot",
+      "instruction": "Touche le dénombré.",
+      "words": ["فِي", "الْكِتَابِ", "ثَمَانُونَ", "صَفْحَةً."],
+      "answers": [3],
+      "fr": "Il y a quatre-vingts pages dans le livre.",
+      "explain": "{ar|صَفْحَةً} est le dénombré, au singulier et à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l24.revue-2#4",
+      "type": "question",
+      "prompt": { "fr": "Après un nombre de 11 à 99, le dénombré est…" },
+      "choices": [
+        { "fr": "un singulier à l'accusatif" },
+        { "fr": "un pluriel au génitif" },
+        { "fr": "un singulier au génitif" }
+      ],
+      "answer": 0,
+      "explain": "De 11 à 99 : un singulier à l'accusatif. Pluriel au génitif : de 3 à 10. Singulier au génitif : cent et mille."
+    },
+    {
+      "id": "medine-t2.l24.revue-2#5",
+      "type": "fill_gap",
+      "sentence": "فِي الْمَسْجِدِ {0} رَجُلًا وَ{1} اِمْرَأَةً.",
+      "fr": "Dans la mosquée, il y a vingt-trois hommes et vingt-trois femmes.",
+      "gaps": [ { "answers": ["ثَلَاثَةٌ وَعِشْرُونَ"] }, { "answers": ["ثَلَاثٌ وَعِشْرُونَ"] } ],
+      "options": ["ثَلَاثَةٌ وَعِشْرُونَ", "ثَلَاثٌ وَعِشْرُونَ", "ثَلَاثَةٌ وَثَلَاثُونَ"],
+      "explain": "{ar|رَجُلٌ} est masculin : {ar|ثَلَاثَةٌ}. {ar|اِمْرَأَةٌ} est féminin : {ar|ثَلَاثٌ}. La dizaine ne change pas."
+    },
+    {
+      "id": "medine-t2.l24.revue-2#6",
+      "type": "order",
+      "fr": "Il y a quinze étudiants dans la classe.",
+      "answers": [
+        ["فِي", "الْفَصْلِ", "خَمْسَةَ", "عَشَرَ", "طَالِبًا"],
+        ["خَمْسَةَ", "عَشَرَ", "طَالِبًا", "فِي", "الْفَصْلِ"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|طَالِبٌ} est masculin : {ar|خَمْسَةَ عَشَرَ}, puis un singulier à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l24.revue-2#7",
+      "type": "true_false",
+      "statement": { "fr": "Pour treize, la première partie est de genre contraire au dénombré et « dix » s'accorde avec lui." },
+      "answer": true,
+      "explain": "Oui : {ar|ثَلَاثَةَ عَشَرَ كِتَابًا} (livre est masculin), {ar|ثَلَاثَ عَشْرَةَ سَيَّارَةً} (voiture est féminin)."
+    },
+    {
+      "id": "medine-t2.l24.revue-2#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "quarante-huit stylos",
+      "answers": ["ثَمَانِيَةٌ وَأَرْبَعُونَ قَلَمًا", "ثَمَانِيَةً وَأَرْبَعِينَ قَلَمًا"],
+      "explain": "{ar|قَلَمٌ} est masculin : {ar|ثَمَانِيَةٌ}, puis la dizaine, puis un singulier à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l24.revue-2#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai vingt-cinq voitures.",
+      "answers": ["لِي خَمْسٌ وَعِشْرُونَ سَيَّارَةً.", "عِنْدِي خَمْسٌ وَعِشْرُونَ سَيَّارَةً."],
+      "explain": "{ar|سَيَّارَةٌ} est féminin : {ar|خَمْسٌ}, sans {ar|ة}."
+    }
+  ]
+}

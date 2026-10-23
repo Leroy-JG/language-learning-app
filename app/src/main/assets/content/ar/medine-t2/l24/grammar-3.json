@@ -1,0 +1,142 @@
+{
+  "id": "medine-t2.l24.grammar-3",
+  "type": "grammar",
+  "title": "Les centaines : les règles",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l24.grammar-3#1",
+      "type": "tip",
+      "title": "Un seul mot, annexé au dénombré",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les centaines de 300 à 900 se forment avec le nombre des unités et {ar|مِائَةٍ}, **en un seul mot**. Comme cent et mille, elles sont **annexées** : le dénombré est au **singulier** et au **génitif**."
+        },
+        {
+          "type": "breakdown",
+          "ar": "ثَلَاثُمِائَةِ طَالِبٍ",
+          "fr": "trois cents étudiants",
+          "parts": [
+            { "ar": "ثَلَاثُ", "fr": "trois" },
+            { "ar": "مِائَةِ", "fr": "cent" },
+            { "ar": "طَالِبٍ", "fr": "étudiant (singulier, génitif)" }
+          ]
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "Avec un dénombré"],
+          "rows": [
+            ["200", "{ar|مِائَتَا طَالِبٍ}"],
+            ["300", "{ar|ثَلَاثُمِائَةِ طَالِبٍ}"],
+            ["500", "{ar|خَمْسُمِائَةِ طَالِبٍ}"],
+            ["900", "{ar|تِسْعُمِائَةِ طَالِبٍ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pour deux cents, le {ar|ن} du duel tombe devant le dénombré, comme dans toute annexion : {ar|مِائَتَا طَالِبٍ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l24.grammar-3#2",
+      "type": "tip",
+      "title": "La même forme avec un nom masculin ou féminin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le dénombré est toujours au singulier et au génitif, qu'il soit masculin ou féminin. Le nombre ne change pas."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "ثَلَاثُمِائَةِ طَالِبٍ", "fr": "trois cents étudiants" },
+              "to": { "ar": "ثَلَاثُمِائَةِ طَالِبَةٍ", "fr": "trois cents étudiantes" },
+              "label": "la même forme"
+            },
+            {
+              "from": { "ar": "سِتُّمِائَةِ رَجُلٍ", "fr": "six cents hommes" },
+              "to": { "ar": "سِتُّمِائَةِ اِمْرَأَةٍ", "fr": "six cents femmes" },
+              "label": "la même forme"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pourquoi {ar|ثَلَاثُ} sans {ar|ة} ? De trois à dix, le nombre est de genre contraire au nom qu'il compte. Ici, le nom compté est {ar|مِائَةٌ}, un nom **féminin** : on prend donc la forme sans {ar|ة} ({ar|ثَلَاثُ}, {ar|أَرْبَعُ}, {ar|خَمْسُ}), quel que soit le genre de l'étudiant."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l24.grammar-3#3",
+      "type": "fill_gap",
+      "sentence": "فِي الْجَامِعَةِ {0} طَالِبَةٍ.",
+      "fr": "Il y a cinq cents étudiantes à l'université.",
+      "gaps": [ { "answers": ["خَمْسُمِائَةِ"] } ],
+      "options": ["خَمْسُمِائَةِ", "أَرْبَعُمِائَةِ", "سِتُّمِائَةِ"],
+      "explain": "« Cinq cents » : {ar|خَمْسُمِائَةِ}, avec un dénombré au singulier et au génitif : {ar|طَالِبَةٍ}."
+    },
+    {
+      "id": "medine-t2.l24.grammar-3#4",
+      "type": "true_false",
+      "statement": { "fr": "Avec un nom féminin, un nombre de 300 à 900 prend une autre forme qu'avec un nom masculin." },
+      "answer": false,
+      "explain": "Faux : {ar|ثَلَاثُمِائَةِ طَالِبٍ} et {ar|ثَلَاثُمِائَةِ طَالِبَةٍ} ont la même forme."
+    },
+    {
+      "id": "medine-t2.l24.grammar-3#5",
+      "type": "question",
+      "prompt": { "fr": "Après {ar|ثَلَاثُمِائَةِ}, le dénombré est…" },
+      "choices": [
+        { "fr": "au singulier, au génitif" },
+        { "fr": "au pluriel, au génitif" },
+        { "fr": "au singulier, à l'accusatif" }
+      ],
+      "answer": 0,
+      "explain": "Les centaines sont annexées à un dénombré au singulier et au génitif : {ar|ثَلَاثُمِائَةِ كِتَابٍ}."
+    },
+    {
+      "id": "medine-t2.l24.grammar-3#6",
+      "type": "spot",
+      "instruction": "Touche le dénombré.",
+      "words": ["فِي", "الْمَكْتَبَةِ", "سِتُّمِائَةِ", "كِتَابٍ."],
+      "answers": [3],
+      "fr": "Il y a six cents livres dans la bibliothèque.",
+      "explain": "{ar|كِتَابٍ} est le dénombré : au singulier et au génitif."
+    },
+    {
+      "id": "medine-t2.l24.grammar-3#7",
+      "type": "order",
+      "fr": "Il y a quatre cents étudiants dans l'école.",
+      "answers": [
+        ["فِي", "الْمَدْرَسَةِ", "أَرْبَعُمِائَةِ", "طَالِبٍ"],
+        ["أَرْبَعُمِائَةِ", "طَالِبٍ", "فِي", "الْمَدْرَسَةِ"]
+      ],
+      "punctuation": ".",
+      "explain": "Le nombre est le sujet : au nominatif, il suit {ar|فِي الْمَدْرَسَةِ} ou se place en tête."
+    },
+    {
+      "id": "medine-t2.l24.grammar-3#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "deux cents étudiantes",
+      "answers": ["مِائَتَا طَالِبَةٍ", "مِئَتَا طَالِبَةٍ", "مِائَتَيْ طَالِبَةٍ", "مِئَتَيْ طَالِبَةٍ"],
+      "explain": "Le duel {ar|مِائَتَانِ} perd son {ar|ن} devant le dénombré : {ar|مِائَتَا طَالِبَةٍ}."
+    },
+    {
+      "id": "medine-t2.l24.grammar-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai neuf cents livres.",
+      "answers": [
+        "لِي تِسْعُمِائَةِ كِتَابٍ.",
+        "عِنْدِي تِسْعُمِائَةِ كِتَابٍ.",
+        "لِي تِسْعُمِئَةِ كِتَابٍ.",
+        "عِنْدِي تِسْعُمِئَةِ كِتَابٍ."
+      ],
+      "explain": "{ar|تِسْعُمِائَةِ} + un dénombré au singulier et au génitif."
+    }
+  ]
+}

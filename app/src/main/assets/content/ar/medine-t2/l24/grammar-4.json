@@ -1,0 +1,177 @@
+{
+  "id": "medine-t2.l24.grammar-4",
+  "type": "grammar",
+  "title": "Les milliers : de 1 000 à 300 000",
+  "icon": "star",
+  "screens": [
+    {
+      "id": "medine-t2.l24.grammar-4#1",
+      "type": "tip",
+      "title": "De mille à dix mille",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De 3 000 à 10 000, on emploie le nombre de 3 à 10, suivi de {ar|آلَافٍ} (le pluriel de {ar|أَلْفٌ}). Le tout est **annexé** au dénombré, qui est au **singulier** et au **génitif**."
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "Arabe", "Avec un dénombré"],
+          "rows": [
+            ["1 000", "{ar|أَلْفٌ}", "{ar|أَلْفُ طَالِبٍ}"],
+            ["2 000", "{ar|أَلْفَانِ}", "{ar|أَلْفَا طَالِبٍ}"],
+            ["3 000", "{ar|ثَلَاثَةُ آلَافٍ}", "{ar|ثَلَاثَةُ آلَافِ طَالِبٍ}"],
+            ["4 000", "{ar|أَرْبَعَةُ آلَافٍ}", "{ar|أَرْبَعَةُ آلَافِ طَالِبٍ}"],
+            ["5 000", "{ar|خَمْسَةُ آلَافٍ}", "{ar|خَمْسَةُ آلَافِ طَالِبٍ}"],
+            ["6 000", "{ar|سِتَّةُ آلَافٍ}", "{ar|سِتَّةُ آلَافِ طَالِبٍ}"],
+            ["7 000", "{ar|سَبْعَةُ آلَافٍ}", "{ar|سَبْعَةُ آلَافِ طَالِبٍ}"],
+            ["8 000", "{ar|ثَمَانِيَةُ آلَافٍ}", "{ar|ثَمَانِيَةُ آلَافِ طَالِبٍ}"],
+            ["9 000", "{ar|تِسْعَةُ آلَافٍ}", "{ar|تِسْعَةُ آلَافِ طَالِبٍ}"],
+            ["10 000", "{ar|عَشَرَةُ آلَافٍ}", "{ar|عَشَرَةُ آلَافِ طَالِبٍ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Deux annexions à la suite : {ar|ثَلَاثَةُ} est annexé à {ar|آلَافِ}, et {ar|آلَافِ} est annexé à {ar|طَالِبٍ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l24.grammar-4#2",
+      "type": "tip",
+      "title": "Toujours avec {ar|ة}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "{ar|أَلْفٌ} est un nom **masculin**. De trois à dix mille, le nombre est de genre contraire : il prend donc le {ar|ة}. Cela ne dépend pas du genre du dénombré."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "ثَلَاثَةُ آلَافِ طَالِبٍ", "fr": "trois mille étudiants" },
+              "to": { "ar": "ثَلَاثَةُ آلَافِ طَالِبَةٍ", "fr": "trois mille étudiantes" },
+              "label": "la même forme"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Pour retenir : cent est féminin ({ar|ثَلَاثُمِائَةٍ} commence par {ar|ثَلَاثُ}, sans {ar|ة}) ; mille est masculin ({ar|ثَلَاثَةُ آلَافٍ} commence par {ar|ثَلَاثَةُ}, avec {ar|ة})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l24.grammar-4#3",
+      "type": "fill_gap",
+      "sentence": "فِي الْمَدِينَةِ {0} آلَافِ طَالِبٍ.",
+      "fr": "Il y a quatre mille étudiants dans la ville.",
+      "gaps": [ { "answers": ["أَرْبَعَةُ"] } ],
+      "options": ["أَرْبَعَةُ", "أَرْبَعُ", "خَمْسَةُ"],
+      "explain": "{ar|أَلْفٌ} est masculin : {ar|أَرْبَعَةُ}, avec {ar|ة}. Le dénombré {ar|طَالِبٍ} est au singulier et au génitif."
+    },
+    {
+      "id": "medine-t2.l24.grammar-4#4",
+      "type": "fill_gap",
+      "sentence": "فِي الْجَامِعَةِ {0} آلَافِ طَالِبَةٍ.",
+      "fr": "Il y a cinq mille étudiantes à l'université.",
+      "gaps": [ { "answers": ["خَمْسَةُ"] } ],
+      "options": ["خَمْسَةُ", "خَمْسُ"],
+      "explain": "{ar|أَلْفٌ} est masculin : {ar|خَمْسَةُ}, avec {ar|ة}, même devant un nom féminin."
+    },
+    {
+      "id": "medine-t2.l24.grammar-4#5",
+      "type": "tip",
+      "title": "Vingt mille, cent mille, trois cent mille",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour les dizaines de milliers (20 000, 30 000…), le professeur donne {ar|عِشْرُونَ أَلْفًا}, puis, devant un dénombré, {ar|عِشْرُونَ أَلْفَ طَالِبٍ}. {ar|أَلْفَ} est le dénombré de {ar|عِشْرُونَ} : un singulier à l'accusatif, comme de 11 à 99. Le nom compté ({ar|طَالِبٍ}) lui est annexé : il est au génitif."
+        },
+        {
+          "type": "breakdown",
+          "ar": "عِشْرُونَ أَلْفَ طَالِبٍ",
+          "fr": "vingt mille étudiants",
+          "parts": [
+            { "ar": "عِشْرُونَ", "fr": "vingt" },
+            { "ar": "أَلْفَ", "fr": "mille (singulier, accusatif)" },
+            { "ar": "طَالِبٍ", "fr": "étudiant (singulier, génitif)" }
+          ]
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "Arabe", "Avec un dénombré"],
+          "rows": [
+            ["20 000", "{ar|عِشْرُونَ أَلْفًا}", "{ar|عِشْرُونَ أَلْفَ طَالِبٍ}"],
+            ["30 000", "{ar|ثَلَاثُونَ أَلْفًا}", "{ar|ثَلَاثُونَ أَلْفَ طَالِبٍ}"],
+            ["100 000", "{ar|مِائَةُ أَلْفٍ}", "{ar|مِائَةُ أَلْفِ طَالِبٍ}"],
+            ["200 000", "{ar|مِائَتَا أَلْفٍ}", "{ar|مِائَتَا أَلْفِ طَالِبٍ}"],
+            ["300 000", "{ar|ثَلَاثُمِائَةِ أَلْفٍ}", "{ar|ثَلَاثُمِائَةِ أَلْفِ طَالِبٍ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Cent mille se dit en quelque sorte « cent de mille » : {ar|مِائَةُ} est annexé à {ar|أَلْفٍ}, puis {ar|أَلْفِ} à son tour au dénombré."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l24.grammar-4#6",
+      "type": "spot",
+      "instruction": "Touche les deux mots qui forment le nombre.",
+      "words": ["فِي", "الْجَامِعَةِ", "عِشْرُونَ", "أَلْفَ", "طَالِبٍ."],
+      "answers": [2, 3],
+      "fr": "Il y a vingt mille étudiants à l'université.",
+      "explain": "{ar|عِشْرُونَ أَلْفَ} : le nombre. {ar|طَالِبٍ} est le nom compté."
+    },
+    {
+      "id": "medine-t2.l24.grammar-4#7",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « vingt mille étudiants » ?" },
+      "choices": [ { "ar": "عِشْرُونَ أَلْفَ طَالِبٍ" }, { "ar": "عِشْرُونَ آلَافِ طَالِبٍ" }, { "ar": "عِشْرُونَ طَالِبًا" } ],
+      "answer": 0,
+      "explain": "{ar|عِشْرُونَ} est suivi de {ar|أَلْفَ} au singulier et à l'accusatif. {ar|عِشْرُونَ طَالِبًا} veut dire « vingt étudiants »."
+    },
+    {
+      "id": "medine-t2.l24.grammar-4#8",
+      "type": "true_false",
+      "statement": {
+        "fr": "Pour « trois mille étudiantes », on dit {ar|ثَلَاثَةُ آلَافِ طَالِبَةٍ}, avec {ar|ة}, comme pour des étudiants."
+      },
+      "answer": true,
+      "explain": "Oui : {ar|أَلْفٌ} est masculin, donc {ar|ثَلَاثَةُ} garde son {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l24.grammar-4#9",
+      "type": "order",
+      "fr": "Il y a dix mille étudiants dans la ville.",
+      "answers": [
+        ["فِي", "الْمَدِينَةِ", "عَشَرَةُ", "آلَافِ", "طَالِبٍ"],
+        ["عَشَرَةُ", "آلَافِ", "طَالِبٍ", "فِي", "الْمَدِينَةِ"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|عَشَرَةُ آلَافِ} + un dénombré au singulier et au génitif."
+    },
+    {
+      "id": "medine-t2.l24.grammar-4#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "trois mille étudiantes",
+      "answers": ["ثَلَاثَةُ آلَافِ طَالِبَةٍ"],
+      "explain": "{ar|ثَلَاثَةُ آلَافِ} + {ar|طَالِبَةٍ} (singulier, génitif). {ar|ثَلَاثَةُ} garde son {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l24.grammar-4#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il y a cent mille hommes dans la ville.",
+      "answers": [
+        "فِي الْمَدِينَةِ مِائَةُ أَلْفِ رَجُلٍ.",
+        "مِائَةُ أَلْفِ رَجُلٍ فِي الْمَدِينَةِ.",
+        "فِي الْمَدِينَةِ مِئَةُ أَلْفِ رَجُلٍ.",
+        "مِئَةُ أَلْفِ رَجُلٍ فِي الْمَدِينَةِ."
+      ],
+      "explain": "{ar|مِائَةُ أَلْفِ} + un dénombré au singulier et au génitif."
+    }
+  ]
+}

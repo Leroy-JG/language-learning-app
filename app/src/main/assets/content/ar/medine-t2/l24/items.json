@@ -1,0 +1,118 @@
+[
+  {
+    "id": "w:n-200",
+    "kind": "word",
+    "ar": "مِائَتَانِ",
+    "fr": "deux cents",
+    "translit": "miʾatāni",
+    "note": "C'est le duel de {ar|مِائَةٌ}. Devant un nom, le {ar|ن} tombe : {ar|مِائَتَا كِتَابٍ}. À l'accusatif et au génitif, le duel devient {ar|مِائَتَيْنِ}.",
+    "example": { "ar": "لِي مِائَتَا كِتَابٍ.", "fr": "J'ai deux cents livres." }
+  },
+  {
+    "id": "w:n-300",
+    "kind": "word",
+    "ar": "ثَلَاثُمِائَةٍ",
+    "fr": "trois cents",
+    "translit": "thalāthumiʾatin",
+    "note": "Deux mots écrits d'un seul tenant : {ar|ثَلَاثُ} (« trois ») et {ar|مِائَةٍ} (« cent »). Comme {ar|مِائَةٌ}, il s'écrit aussi sans {ar|ا} : {ar|ثَلَاثُمِئَةٍ}.",
+    "example": { "ar": "لِي ثَلَاثُمِائَةِ كِتَابٍ.", "fr": "J'ai trois cents livres." }
+  },
+  {
+    "id": "w:n-400",
+    "kind": "word",
+    "ar": "أَرْبَعُمِائَةٍ",
+    "fr": "quatre cents",
+    "translit": "arbaʿumiʾatin",
+    "note": "{ar|أَرْبَعُ} et {ar|مِائَةٍ}, d'un seul tenant. Tous les nombres de trois cents à neuf cents se forment de la même façon.",
+    "example": { "ar": "فِي الْمَدْرَسَةِ أَرْبَعُمِائَةِ طَالِبٍ.", "fr": "Il y a quatre cents étudiants dans l'école." }
+  },
+  {
+    "id": "w:n-500",
+    "kind": "word",
+    "ar": "خَمْسُمِائَةٍ",
+    "fr": "cinq cents",
+    "translit": "khamsumiʾatin",
+    "example": { "ar": "عِنْدِي خَمْسُمِائَةِ رِيَالٍ.", "fr": "J'ai cinq cents riyals." }
+  },
+  {
+    "id": "w:n-600",
+    "kind": "word",
+    "ar": "سِتُّمِائَةٍ",
+    "fr": "six cents",
+    "translit": "sittumiʾatin",
+    "note": "Le {ar|ت} de {ar|سِتٌّ} garde sa shadda.",
+    "example": { "ar": "فِي الْمَسْجِدِ سِتُّمِائَةِ رَجُلٍ.", "fr": "Il y a six cents hommes dans la mosquée." }
+  },
+  {
+    "id": "w:n-700",
+    "kind": "word",
+    "ar": "سَبْعُمِائَةٍ",
+    "fr": "sept cents",
+    "translit": "sabʿumiʾatin",
+    "example": { "ar": "فِي الْجَامِعَةِ سَبْعُمِائَةِ طَالِبَةٍ.", "fr": "Il y a sept cents étudiantes à l'université." }
+  },
+  {
+    "id": "w:n-800",
+    "kind": "word",
+    "ar": "ثَمَانِمِائَةٍ",
+    "fr": "huit cents",
+    "translit": "thamānimiʾatin",
+    "note": "On écrit {ar|ثَمَانِ}, sans {ar|ي}, devant {ar|مِائَةٍ}.",
+    "example": { "ar": "فِي الْمَدِينَةِ ثَمَانِمِائَةِ مَسْجِدٍ.", "fr": "Il y a huit cents mosquées dans la ville." }
+  },
+  {
+    "id": "w:n-900",
+    "kind": "word",
+    "ar": "تِسْعُمِائَةٍ",
+    "fr": "neuf cents",
+    "translit": "tisʿumiʾatin",
+    "example": { "ar": "فِي الْمَكْتَبَةِ تِسْعُمِائَةِ كِتَابٍ.", "fr": "Il y a neuf cents livres dans la bibliothèque." }
+  },
+  {
+    "id": "w:n-2000",
+    "kind": "word",
+    "ar": "أَلْفَانِ",
+    "fr": "deux mille",
+    "translit": "alfāni",
+    "note": "C'est le duel de {ar|أَلْفٌ}. Devant un nom, le {ar|ن} tombe : {ar|أَلْفَا كِتَابٍ}. À l'accusatif et au génitif, le duel devient {ar|أَلْفَيْنِ}.",
+    "example": { "ar": "لِي أَلْفَا كِتَابٍ.", "fr": "J'ai deux mille livres." }
+  },
+  {
+    "id": "w:n-3000",
+    "kind": "word",
+    "ar": "ثَلَاثَةُ آلَافٍ",
+    "fr": "trois mille",
+    "translit": "thalāthatu ālāfin",
+    "note": "{ar|آلَافٌ} est le pluriel de {ar|أَلْفٌ}. De trois mille à dix mille, on dit le nombre de 3 à 10, puis {ar|آلَافٍ} : {ar|أَرْبَعَةُ آلَافٍ} (4 000), {ar|خَمْسَةُ آلَافٍ} (5 000).",
+    "example": { "ar": "فِي الْمَدِينَةِ ثَلَاثَةُ آلَافِ طَالِبٍ.", "fr": "Il y a trois mille étudiants dans la ville." }
+  },
+  {
+    "id": "w:n-10000",
+    "kind": "word",
+    "ar": "عَشَرَةُ آلَافٍ",
+    "fr": "dix mille",
+    "translit": "ʿasharatu ālāfin",
+    "example": {
+      "ar": "ثَمَنُ هٰذِهِ السَّيَّارَةِ عَشَرَةُ آلَافِ دُولَارٍ.",
+      "fr": "Le prix de cette voiture est de dix mille dollars."
+    }
+  },
+  {
+    "id": "w:n-20000",
+    "kind": "word",
+    "ar": "عِشْرُونَ أَلْفًا",
+    "fr": "vingt mille",
+    "translit": "ʿishrūna alfan",
+    "note": "{ar|عِشْرُونَ} est suivi de {ar|أَلْفًا} : « mille » au singulier et à l'accusatif, comme tout dénombré de 11 à 99. Même modèle pour {ar|ثَلَاثُونَ أَلْفًا} (30 000).",
+    "example": { "ar": "فِي الْجَامِعَةِ عِشْرُونَ أَلْفَ طَالِبٍ.", "fr": "Il y a vingt mille étudiants à l'université." }
+  },
+  {
+    "id": "w:n-100000",
+    "kind": "word",
+    "ar": "مِائَةُ أَلْفٍ",
+    "fr": "cent mille",
+    "translit": "miʾatu alfin",
+    "note": "{ar|مِائَةُ} est annexé à {ar|أَلْفٍ} : on dit en quelque sorte « cent de mille ».",
+    "example": { "ar": "فِي الْمَدِينَةِ مِائَةُ أَلْفِ رَجُلٍ.", "fr": "Il y a cent mille hommes dans la ville." }
+  }
+]

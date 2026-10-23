@@ -1,0 +1,132 @@
+{
+  "id": "medine-t2.l24.grammar-1",
+  "type": "grammar",
+  "title": "Un et deux ne s'annexent jamais",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l24.grammar-1#1",
+      "type": "tip",
+      "title": "Un et deux : jamais annexés",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De trois à dix, le nombre s'annexe au dénombré : {ar|ثَلَاثَةُ كُتُبٍ}. Pour **un** et **deux**, le professeur dit que c'est **toujours impossible**, pour deux raisons :"
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "Pourquoi pas d'annexion ?"],
+          "rows": [
+            ["un", "Le singulier dit déjà l'unité à lui seul : {ar|كِتَابٌ} veut déjà dire « un livre »."],
+            ["deux", "Le duel suffit : {ar|كِتَابَانِ} veut déjà dire « deux livres »."]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les mots {ar|وَاحِدٌ} et {ar|اِثْنَانِ} ne servent donc qu'à **insister** : le professeur parle de {ar|التَّوْكِيدُ} (« le renforcement »). Ils se placent après le nom et s'accordent avec lui."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "كِتَابٌ", "fr": "un livre" },
+              "to": { "ar": "كِتَابٌ وَاحِدٌ", "fr": "un seul livre" },
+              "label": "on insiste sur l'unité"
+            },
+            {
+              "from": { "ar": "كِتَابَانِ", "fr": "deux livres" },
+              "to": { "ar": "كِتَابَانِ اِثْنَانِ", "fr": "exactement deux livres" },
+              "label": "on insiste sur le nombre"
+            },
+            {
+              "from": { "ar": "سَيَّارَتَانِ", "fr": "deux voitures" },
+              "to": { "ar": "سَيَّارَتَانِ اِثْنَتَانِ", "fr": "exactement deux voitures" },
+              "label": "le nombre s'accorde : {ar|اِثْنَتَانِ}"
+            }
+          ]
+        },
+        { "type": "example", "ar": "لِي كِتَابٌ وَاحِدٌ.", "fr": "J'ai un seul livre." },
+        { "type": "example", "ar": "لِي كِتَابَانِ اِثْنَانِ.", "fr": "J'ai exactement deux livres." },
+        { "type": "note", "text": "Le plus souvent, on dit simplement {ar|كِتَابَانِ} : le duel suffit." }
+      ]
+    },
+    {
+      "id": "medine-t2.l24.grammar-1#2",
+      "type": "true_false",
+      "statement": {
+        "fr": "Pour dire « deux livres », l'arabe met le nom au duel ({ar|كِتَابَانِ}) : il n'annexe pas le nombre « deux » au nom."
+      },
+      "answer": true,
+      "explain": "Oui : le duel dit déjà « deux ». Le nombre {ar|اِثْنَانِ} ne peut qu'insister, après le nom."
+    },
+    {
+      "id": "medine-t2.l24.grammar-1#3",
+      "type": "question",
+      "prompt": { "fr": "Pourquoi n'annexe-t-on pas « deux » au dénombré ?" },
+      "choices": [
+        { "fr": "Parce que le duel dit déjà « deux »" },
+        { "fr": "Parce que « deux » est toujours féminin" },
+        { "fr": "Parce que le dénombré serait au pluriel" }
+      ],
+      "answer": 0,
+      "explain": "Le singulier dit déjà « un » et le duel dit déjà « deux » : on n'annexe jamais ces deux nombres."
+    },
+    {
+      "id": "medine-t2.l24.grammar-1#4",
+      "type": "fill_gap",
+      "sentence": "لِي كِتَابٌ {0}.",
+      "fr": "J'ai un seul livre.",
+      "gaps": [ { "answers": ["وَاحِدٌ"] } ],
+      "options": ["وَاحِدٌ", "وَاحِدَةٌ"],
+      "explain": "{ar|كِتَابٌ} est masculin : {ar|وَاحِدٌ}. Un et deux s'accordent avec le nom."
+    },
+    {
+      "id": "medine-t2.l24.grammar-1#5",
+      "type": "fill_gap",
+      "sentence": "لِي سَيَّارَتَانِ {0}.",
+      "fr": "J'ai exactement deux voitures.",
+      "gaps": [ { "answers": ["اِثْنَتَانِ"] } ],
+      "options": ["اِثْنَتَانِ", "اِثْنَانِ"],
+      "explain": "{ar|سَيَّارَةٌ} est féminin : {ar|اِثْنَتَانِ}."
+    },
+    {
+      "id": "medine-t2.l24.grammar-1#6",
+      "type": "sort",
+      "categories": [ { "fr": "annexé au dénombré, avant lui" }, { "fr": "après le nom, pour insister" } ],
+      "cards": [
+        { "ar": "ثَلَاثَةُ كُتُبٍ", "category": 0 },
+        { "ar": "كِتَابٌ وَاحِدٌ", "category": 1 },
+        { "ar": "خَمْسُ سَيَّارَاتٍ", "category": 0 },
+        { "ar": "سَيَّارَتَانِ اِثْنَتَانِ", "category": 1 },
+        { "ar": "أَرْبَعَةُ أَقْلَامٍ", "category": 0 },
+        { "ar": "قَلَمٌ وَاحِدٌ", "category": 1 }
+      ],
+      "instruction": "Le nombre s'annexe-t-il au dénombré ?",
+      "explain": "De trois à dix, le nombre est annexé au dénombré. Un et deux suivent le nom et ne servent qu'à insister."
+    },
+    {
+      "id": "medine-t2.l24.grammar-1#7",
+      "type": "order",
+      "fr": "J'ai exactement deux livres.",
+      "answers": [["لِي", "كِتَابَانِ", "اِثْنَانِ"]],
+      "punctuation": ".",
+      "explain": "Le duel {ar|كِتَابَانِ}, puis {ar|اِثْنَانِ} pour insister."
+    },
+    {
+      "id": "medine-t2.l24.grammar-1#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "un seul stylo",
+      "answers": ["قَلَمٌ وَاحِدٌ"],
+      "explain": "{ar|قَلَمٌ} est masculin : {ar|وَاحِدٌ}, placé après le nom."
+    },
+    {
+      "id": "medine-t2.l24.grammar-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "exactement deux voitures",
+      "answers": ["سَيَّارَتَانِ اِثْنَتَانِ", "سَيَّارَتَيْنِ اِثْنَتَيْنِ"],
+      "explain": "Le duel de {ar|سَيَّارَةٌ}, puis {ar|اِثْنَتَانِ} (féminin) pour insister."
+    }
+  ]
+}

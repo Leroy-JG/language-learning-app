@@ -1,0 +1,60 @@
+{
+  "id": "medine-t2.l24.vocab-1",
+  "type": "vocabulary",
+  "title": "Les centaines : de 200 à 500",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t2.l24.vocab-1#1", "type": "present", "item": "w:n-200" },
+    { "id": "medine-t2.l24.vocab-1#2", "type": "present", "item": "w:n-300" },
+    {
+      "id": "medine-t2.l24.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:n-300",
+      "distractors": ["w:n-200", "w:mi-a", "w:alf"],
+      "explain": "{ar|ثَلَاثُمِائَةٍ} : trois cents. {ar|مِائَتَانِ} : deux cents ; {ar|مِائَةٌ} : cent ; {ar|أَلْفٌ} : mille."
+    },
+    { "id": "medine-t2.l24.vocab-1#4", "type": "present", "item": "w:n-400" },
+    { "id": "medine-t2.l24.vocab-1#5", "type": "present", "item": "w:n-500" },
+    {
+      "id": "medine-t2.l24.vocab-1#6",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:n-400",
+      "distractors": ["w:n-300", "w:n-500", "w:n-200"],
+      "explain": "Quatre cents : {ar|أَرْبَعُمِائَةٍ}. {ar|ثَلَاثُمِائَةٍ} : trois cents ; {ar|خَمْسُمِائَةٍ} : cinq cents ; {ar|مِائَتَانِ} : deux cents."
+    },
+    {
+      "id": "medine-t2.l24.vocab-1#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:n-200", "w:n-300", "w:n-400", "w:n-500"]
+    },
+    {
+      "id": "medine-t2.l24.vocab-1#8",
+      "type": "fill_gap",
+      "sentence": "لِي {0} كِتَابٍ.",
+      "fr": "J'ai trois cents livres.",
+      "gaps": [ { "answers": ["ثَلَاثُمِائَةِ"] } ],
+      "options": ["ثَلَاثُمِائَةِ", "أَرْبَعُمِائَةِ", "خَمْسُمِائَةِ", "مِائَتَا"],
+      "explain": "« Trois cents » : {ar|ثَلَاثُمِائَةِ}. Devant le dénombré {ar|كِتَابٍ}, le nombre perd son tanwin."
+    },
+    { "id": "medine-t2.l24.vocab-1#9", "type": "build", "item": "w:n-300", "extra": ["ي"] },
+    {
+      "id": "medine-t2.l24.vocab-1#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "quatre cents",
+      "answers": ["أَرْبَعُمِائَةٍ", "أَرْبَعُمِئَةٍ"],
+      "explain": "{ar|أَرْبَعُ} + {ar|مِائَةٍ}, en un seul mot."
+    },
+    {
+      "id": "medine-t2.l24.vocab-1#11",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "cinq cents",
+      "answers": ["خَمْسُمِائَةٍ", "خَمْسُمِئَةٍ"],
+      "explain": "{ar|خَمْسُ} + {ar|مِائَةٍ}, en un seul mot."
+    }
+  ]
+}

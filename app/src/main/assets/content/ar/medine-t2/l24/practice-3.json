@@ -1,0 +1,103 @@
+{
+  "id": "medine-t2.l24.practice-3",
+  "type": "vocabulary",
+  "title": "Lire des nombres écrits en chiffres",
+  "icon": "notebook",
+  "screens": [
+    {
+      "id": "medine-t2.l24.practice-3#1",
+      "type": "question",
+      "prompt": { "fr": "Comment lit-on 1 200 ?" },
+      "choices": [ { "ar": "أَلْفٌ وَمِائَتَانِ" }, { "ar": "أَلْفَانِ وَمِائَةٌ" }, { "ar": "أَلْفٌ وَمِائَةٌ" } ],
+      "answer": 0,
+      "explain": "1 200 = 1 000 + 200 : {ar|أَلْفٌ وَمِائَتَانِ}. {ar|أَلْفَانِ وَمِائَةٌ} : 2 100 ; {ar|أَلْفٌ وَمِائَةٌ} : 1 100."
+    },
+    {
+      "id": "medine-t2.l24.practice-3#2",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « 6 543 riyals » (du plus grand au plus petit) ?" },
+      "choices": [
+        { "ar": "سِتَّةُ آلَافٍ وَخَمْسُمِائَةٍ وَثَلَاثَةٌ وَأَرْبَعُونَ رِيَالًا" },
+        { "ar": "سِتَّةُ آلَافٍ وَثَلَاثُمِائَةٍ وَخَمْسَةٌ وَأَرْبَعُونَ رِيَالًا" },
+        { "ar": "خَمْسَةُ آلَافٍ وَسِتُّمِائَةٍ وَثَلَاثَةٌ وَأَرْبَعُونَ رِيَالًا" }
+      ],
+      "answer": 0,
+      "explain": "6 543 = 6 000 + 500 + 43. Les deux autres phrases disent 6 345 et 5 643."
+    },
+    {
+      "id": "medine-t2.l24.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "{0} وَأَرْبَعُمِائَةٍ وَثَلَاثَةٌ.",
+      "fr": "5 403",
+      "gaps": [ { "answers": ["خَمْسَةُ آلَافٍ"] } ],
+      "options": ["خَمْسَةُ آلَافٍ", "خَمْسُمِائَةٍ", "خَمْسُونَ"],
+      "explain": "5 403 = 5 000 + 400 + 3 : {ar|خَمْسَةُ آلَافٍ وَأَرْبَعُمِائَةٍ وَثَلَاثَةٌ}."
+    },
+    {
+      "id": "medine-t2.l24.practice-3#4",
+      "type": "order",
+      "fr": "Il y a 3 300 étudiants à l'université.",
+      "answers": [
+        ["فِي", "الْجَامِعَةِ", "ثَلَاثَةُ", "آلَافٍ", "وَثَلَاثُمِائَةِ", "طَالِبٍ"],
+        ["ثَلَاثَةُ", "آلَافٍ", "وَثَلَاثُمِائَةِ", "طَالِبٍ", "فِي", "الْجَامِعَةِ"]
+      ],
+      "punctuation": ".",
+      "explain": "Le dernier nombre cité est {ar|ثَلَاثُمِائَةِ} : le dénombré est au singulier et au génitif."
+    },
+    {
+      "id": "medine-t2.l24.practice-3#5",
+      "type": "spot",
+      "instruction": "Touche tous les mots du nombre, sans le dénombré.",
+      "words": ["فِي", "الْمَكْتَبَةِ", "أَلْفٌ", "وَخَمْسُمِائَةٍ", "وَسَبْعَةٌ", "وَسِتُّونَ", "كِتَابًا."],
+      "answers": [2, 3, 4, 5],
+      "fr": "Il y a 1 567 livres dans la bibliothèque.",
+      "explain": "1 567 = {ar|أَلْفٌ} + {ar|خَمْسُمِائَةٍ} + {ar|سَبْعَةٌ وَسِتُّونَ}. {ar|كِتَابًا} est le dénombré."
+    },
+    {
+      "id": "medine-t2.l24.practice-3#6",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a 1 567 livres dans la bibliothèque.",
+      "answers": [
+        "فِي الْمَكْتَبَةِ أَلْفٌ وَخَمْسُمِائَةٍ وَسَبْعَةٌ وَسِتُّونَ كِتَابًا.",
+        "فِي الْمَكْتَبَةِ أَلْفٌ وَخَمْسُمِئَةٍ وَسَبْعَةٌ وَسِتُّونَ كِتَابًا.",
+        "فِي الْمَكْتَبَةِ سَبْعَةٌ وَسِتُّونَ وَخَمْسُمِائَةٍ وَأَلْفُ كِتَابٍ.",
+        "فِي الْمَكْتَبَةِ سَبْعَةٌ وَسِتُّونَ وَخَمْسُمِئَةٍ وَأَلْفُ كِتَابٍ."
+      ],
+      "explain": "Du plus grand au plus petit, le dernier nombre est {ar|سَبْعَةٌ وَسِتُّونَ} : {ar|كِتَابًا}. Dans l'autre sens, le dernier est {ar|أَلْفُ} : {ar|كِتَابٍ}."
+    },
+    {
+      "id": "medine-t2.l24.practice-3#7",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans « 6 543 riyals » lu du plus grand au plus petit, le dernier nombre cité est « quarante-trois » : le dénombré {ar|رِيَالًا} est au singulier, à l'accusatif."
+      },
+      "answer": true,
+      "explain": "Oui : le dernier nombre cité est {ar|ثَلَاثَةٌ وَأَرْبَعُونَ} (de 20 à 99)."
+    },
+    {
+      "id": "medine-t2.l24.practice-3#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a 2 111 étudiantes à l'université.",
+      "answers": [
+        "فِي الْجَامِعَةِ أَلْفَانِ وَمِائَةٌ وَإِحْدَى عَشْرَةَ طَالِبَةً.",
+        "فِي الْجَامِعَةِ أَلْفَانِ وَمِئَةٌ وَإِحْدَى عَشْرَةَ طَالِبَةً."
+      ],
+      "explain": "Le dernier nombre cité est « onze » : {ar|إِحْدَى عَشْرَةَ} (féminin), avec un dénombré au singulier et à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l24.practice-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "6 543 roupies.",
+      "answers": [
+        "ثَلَاثٌ وَأَرْبَعُونَ وَخَمْسُمِائَةٍ وَسِتَّةُ آلَافِ رُوبِيَّةٍ.",
+        "ثَلَاثٌ وَأَرْبَعُونَ وَخَمْسُمِئَةٍ وَسِتَّةُ آلَافِ رُوبِيَّةٍ.",
+        "سِتَّةُ آلَافٍ وَخَمْسُمِائَةٍ وَثَلَاثٌ وَأَرْبَعُونَ رُوبِيَّةً.",
+        "سِتَّةُ آلَافٍ وَخَمْسُمِئَةٍ وَثَلَاثٌ وَأَرْبَعُونَ رُوبِيَّةً."
+      ],
+      "explain": "{ar|رُوبِيَّةٌ} est féminin : {ar|ثَلَاثٌ}. {ar|سِتَّةُ آلَافٍ} garde son {ar|ة} (mille est masculin)."
+    }
+  ]
+}

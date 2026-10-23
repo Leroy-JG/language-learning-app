@@ -1,0 +1,158 @@
+{
+  "id": "medine-t2.l24.quiz",
+  "type": "quiz",
+  "title": "Bilan du chapitre",
+  "screens": [
+    {
+      "id": "medine-t2.l24.quiz#1",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:n-700",
+      "distractors": ["w:n-600", "w:n-500", "w:n-200"],
+      "explain": "{ar|سَبْعُمِائَةٍ} : sept cents. {ar|سِتُّمِائَةٍ} : six cents ; {ar|خَمْسُمِائَةٍ} : cinq cents ; {ar|مِائَتَانِ} : deux cents."
+    },
+    {
+      "id": "medine-t2.l24.quiz#2",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « quatre étudiantes » ?" },
+      "choices": [ { "ar": "أَرْبَعُ طَالِبَاتٍ" }, { "ar": "أَرْبَعَةُ طَالِبَاتٍ" }, { "ar": "أَرْبَعُ طَالِبَةٍ" } ],
+      "answer": 0,
+      "explain": "{ar|طَالِبَةٌ} est féminin : {ar|أَرْبَعُ}, sans {ar|ة}, puis un pluriel au génitif."
+    },
+    {
+      "id": "medine-t2.l24.quiz#3",
+      "type": "fill_gap",
+      "sentence": "فِي الْمَدْرَسَةِ {0} طَالِبَةٍ.",
+      "fr": "Il y a trois cents étudiantes dans l'école.",
+      "gaps": [ { "answers": ["ثَلَاثُمِائَةِ"] } ],
+      "options": ["ثَلَاثُمِائَةِ", "ثَلَاثَةُ آلَافِ", "مِائَتَا"],
+      "explain": "« Trois cents » : {ar|ثَلَاثُمِائَةِ}, avec un dénombré au singulier et au génitif."
+    },
+    {
+      "id": "medine-t2.l24.quiz#4",
+      "type": "true_false",
+      "statement": {
+        "fr": "Que le dénombré soit masculin ou féminin, {ar|ثَلَاثُمِائَةِ} commence par {ar|ثَلَاثُ} (sans {ar|ة}) et {ar|ثَلَاثَةُ آلَافِ} par {ar|ثَلَاثَةُ} (avec {ar|ة})."
+      },
+      "answer": true,
+      "explain": "Oui : {ar|مِائَةٌ} est féminin (donc {ar|ثَلَاثُ}) et {ar|أَلْفٌ} est masculin (donc {ar|ثَلَاثَةُ}), quel que soit le genre du dénombré."
+    },
+    {
+      "id": "medine-t2.l24.quiz#5",
+      "type": "order",
+      "fr": "J'ai deux cents livres.",
+      "answers": [["لِي", "مِائَتَا", "كِتَابٍ"]],
+      "punctuation": ".",
+      "explain": "{ar|مِائَتَانِ} perd son {ar|ن} devant le dénombré : {ar|مِائَتَا كِتَابٍ}."
+    },
+    {
+      "id": "medine-t2.l24.quiz#6",
+      "type": "question",
+      "prompt": { "fr": "Comment dit-on « 1 100 étudiants » ?" },
+      "choices": [
+        { "ar": "أَلْفٌ وَمِائَةُ طَالِبٍ" },
+        { "ar": "أَلْفٌ وَمِائَةُ طَالِبًا" },
+        { "ar": "أَلْفٌ وَمِائَةُ طُلَّابٍ" }
+      ],
+      "answer": 0,
+      "explain": "Le dernier nombre cité est {ar|مِائَةُ} : le dénombré est au singulier et au génitif."
+    },
+    {
+      "id": "medine-t2.l24.quiz#7",
+      "type": "fill_gap",
+      "sentence": "فِي الْجَامِعَةِ أَلْفٌ وَخَمْسَةَ عَشَرَ {0}.",
+      "fr": "Il y a 1 015 étudiants à l'université.",
+      "gaps": [ { "answers": ["طَالِبًا"] } ],
+      "options": ["طَالِبًا", "طَالِبٍ", "طُلَّابٍ"],
+      "explain": "Le dernier nombre cité est {ar|خَمْسَةَ عَشَرَ} : le dénombré est au singulier et à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l24.quiz#8",
+      "type": "spot",
+      "instruction": "Touche le dénombré.",
+      "words": ["فِي", "الْمَدِينَةِ", "ثَلَاثَةُ", "آلَافِ", "رَجُلٍ."],
+      "answers": [4],
+      "fr": "Il y a 3 000 hommes dans la ville.",
+      "explain": "{ar|رَجُلٍ} est le nom compté, au singulier et au génitif."
+    },
+    {
+      "id": "medine-t2.l24.quiz#9",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:n-100000",
+      "distractors": ["w:n-10000", "w:n-20000", "w:n-2000"],
+      "explain": "Cent mille : {ar|مِائَةُ أَلْفٍ}. {ar|عَشَرَةُ آلَافٍ} : dix mille ; {ar|عِشْرُونَ أَلْفًا} : vingt mille ; {ar|أَلْفَانِ} : deux mille."
+    },
+    {
+      "id": "medine-t2.l24.quiz#10",
+      "type": "sort",
+      "categories": [ { "fr": "des centaines" }, { "fr": "des milliers" } ],
+      "cards": [
+        { "ar": "سَبْعُمِائَةِ رَجُلٍ", "category": 0 },
+        { "ar": "سَبْعَةُ آلَافِ رَجُلٍ", "category": 1 },
+        { "ar": "تِسْعُمِائَةِ سَيَّارَةٍ", "category": 0 },
+        { "ar": "تِسْعَةُ آلَافِ سَيَّارَةٍ", "category": 1 },
+        { "ar": "سِتُّمِائَةِ كِتَابٍ", "category": 0 },
+        { "ar": "سِتَّةُ آلَافِ كِتَابٍ", "category": 1 }
+      ],
+      "instruction": "Des centaines ou des milliers ?",
+      "explain": "Les centaines s'écrivent en un seul mot, avec {ar|مِائَةِ}. Les milliers utilisent {ar|آلَافِ}."
+    },
+    {
+      "id": "medine-t2.l24.quiz#11",
+      "type": "fill_gap",
+      "sentence": "فِي الْجَامِعَةِ {0} آلَافِ طَالِبَةٍ.",
+      "fr": "Il y a six mille étudiantes à l'université.",
+      "gaps": [ { "answers": ["سِتَّةُ"] } ],
+      "options": ["سِتَّةُ", "سِتُّ"],
+      "explain": "{ar|أَلْفٌ} est masculin : {ar|سِتَّةُ}, avec {ar|ة}, même devant un nom féminin."
+    },
+    {
+      "id": "medine-t2.l24.quiz#12",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "quatre cents étudiantes",
+      "answers": ["أَرْبَعُمِائَةِ طَالِبَةٍ", "أَرْبَعُمِئَةِ طَالِبَةٍ"],
+      "explain": "{ar|أَرْبَعُمِائَةِ} + un dénombré au singulier et au génitif."
+    },
+    {
+      "id": "medine-t2.l24.quiz#13",
+      "type": "order",
+      "fr": "Il y a vingt mille hommes dans la ville.",
+      "answers": [
+        ["فِي", "الْمَدِينَةِ", "عِشْرُونَ", "أَلْفَ", "رَجُلٍ"],
+        ["عِشْرُونَ", "أَلْفَ", "رَجُلٍ", "فِي", "الْمَدِينَةِ"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|عِشْرُونَ أَلْفَ} + un dénombré au singulier et au génitif."
+    },
+    {
+      "id": "medine-t2.l24.quiz#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "deux mille livres",
+      "answers": ["أَلْفَا كِتَابٍ", "أَلْفَيْ كِتَابٍ"],
+      "explain": "{ar|أَلْفَانِ} perd son {ar|ن} devant le dénombré : {ar|أَلْفَا كِتَابٍ}."
+    },
+    {
+      "id": "medine-t2.l24.quiz#15",
+      "type": "true_false",
+      "statement": { "fr": "Pour insister sur « deux livres », on dit {ar|كِتَابَانِ اِثْنَانِ} : le nombre suit le nom." },
+      "answer": true,
+      "explain": "Oui : un et deux ne s'annexent jamais ; ils suivent le nom pour insister."
+    },
+    {
+      "id": "medine-t2.l24.quiz#16",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Il y a cent trois étudiantes à l'université.",
+      "answers": [
+        "فِي الْجَامِعَةِ مِائَةٌ وَثَلَاثُ طَالِبَاتٍ.",
+        "مِائَةٌ وَثَلَاثُ طَالِبَاتٍ فِي الْجَامِعَةِ.",
+        "فِي الْجَامِعَةِ مِئَةٌ وَثَلَاثُ طَالِبَاتٍ.",
+        "مِئَةٌ وَثَلَاثُ طَالِبَاتٍ فِي الْجَامِعَةِ."
+      ],
+      "explain": "Le dernier nombre cité est {ar|ثَلَاثُ} (de 3 à 10) : le dénombré est au pluriel et au génitif."
+    }
+  ]
+}

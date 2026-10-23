@@ -1,0 +1,61 @@
+{
+  "id": "medine-t2.l24.vocab-3",
+  "type": "vocabulary",
+  "title": "Les milliers : de deux mille à cent mille",
+  "icon": "star",
+  "screens": [
+    { "id": "medine-t2.l24.vocab-3#1", "type": "present", "item": "w:n-2000" },
+    { "id": "medine-t2.l24.vocab-3#2", "type": "present", "item": "w:n-3000" },
+    {
+      "id": "medine-t2.l24.vocab-3#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:n-3000",
+      "distractors": ["w:n-2000", "w:alf", "w:n-300"],
+      "explain": "{ar|ثَلَاثَةُ آلَافٍ} : trois mille. {ar|أَلْفَانِ} : deux mille ; {ar|أَلْفٌ} : mille ; {ar|ثَلَاثُمِائَةٍ} : trois cents."
+    },
+    { "id": "medine-t2.l24.vocab-3#4", "type": "present", "item": "w:n-10000" },
+    { "id": "medine-t2.l24.vocab-3#5", "type": "present", "item": "w:n-20000" },
+    { "id": "medine-t2.l24.vocab-3#6", "type": "present", "item": "w:n-100000" },
+    {
+      "id": "medine-t2.l24.vocab-3#7",
+      "type": "mcq",
+      "mode": "fr-ar",
+      "item": "w:n-20000",
+      "distractors": ["w:n-10000", "w:n-100000", "w:n-2000"],
+      "explain": "Vingt mille : {ar|عِشْرُونَ أَلْفًا}. {ar|عَشَرَةُ آلَافٍ} : dix mille ; {ar|مِائَةُ أَلْفٍ} : cent mille ; {ar|أَلْفَانِ} : deux mille."
+    },
+    {
+      "id": "medine-t2.l24.vocab-3#8",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:n-2000", "w:n-3000", "w:n-10000", "w:n-20000", "w:n-100000"]
+    },
+    {
+      "id": "medine-t2.l24.vocab-3#9",
+      "type": "fill_gap",
+      "sentence": "فِي الْجَامِعَةِ {0} طَالِبٍ.",
+      "fr": "Il y a dix mille étudiants à l'université.",
+      "gaps": [ { "answers": ["عَشَرَةُ آلَافِ"] } ],
+      "options": ["عَشَرَةُ آلَافِ", "ثَلَاثَةُ آلَافِ", "مِائَةُ أَلْفِ", "أَلْفَا"],
+      "explain": "« Dix mille » : {ar|عَشَرَةُ آلَافٍ}, annexé au dénombré {ar|طَالِبٍ}."
+    },
+    { "id": "medine-t2.l24.vocab-3#10", "type": "build", "item": "w:n-2000", "extra": ["ي"] },
+    {
+      "id": "medine-t2.l24.vocab-3#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "vingt mille",
+      "answers": ["عِشْرُونَ أَلْفًا"],
+      "explain": "{ar|عِشْرُونَ} + {ar|أَلْفًا} (« mille » au singulier, à l'accusatif)."
+    },
+    {
+      "id": "medine-t2.l24.vocab-3#12",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "trois mille",
+      "answers": ["ثَلَاثَةُ آلَافٍ"],
+      "explain": "{ar|ثَلَاثَةُ} + {ar|آلَافٍ} (le pluriel de {ar|أَلْفٌ})."
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "medine-t2.l24.grammar-5",
+  "type": "grammar",
+  "title": "Lire un grand nombre dans les deux sens",
+  "icon": "pointing",
+  "screens": [
+    {
+      "id": "medine-t2.l24.grammar-5#1",
+      "type": "tip",
+      "title": "Du plus grand au plus petit",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De 1 000 à 9 999, le professeur donne **deux façons** de lire un nombre. La première commence par le plus grand : les milliers, les centaines, les dizaines, puis les unités. Les parties sont reliées par {ar|وَ}."
+        },
+        {
+          "type": "example",
+          "ar": "ثَلَاثَةُ آلَافٍ وَثَلَاثُمِائَةٍ وَخَمْسَةٌ وَأَرْبَعُونَ طَالِبًا.",
+          "fr": "3 345 étudiants."
+        },
+        {
+          "type": "breakdown",
+          "ar": "ثَلَاثَةُ آلَافٍ وَثَلَاثُمِائَةٍ وَخَمْسَةٌ وَأَرْبَعُونَ طَالِبًا",
+          "fr": "3 345 étudiants",
+          "parts": [
+            { "ar": "ثَلَاثَةُ آلَافٍ", "fr": "3 000" },
+            { "ar": "وَثَلَاثُمِائَةٍ", "fr": "300" },
+            { "ar": "وَخَمْسَةٌ وَأَرْبَعُونَ", "fr": "45" },
+            { "ar": "طَالِبًا", "fr": "étudiants" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l24.grammar-5#2",
+      "type": "tip",
+      "title": "Du plus petit au plus grand",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La seconde façon commence par les unités et finit par les milliers. C'est le même nombre."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": {
+                "ar": "ثَلَاثَةُ آلَافٍ وَثَلَاثُمِائَةٍ وَخَمْسَةٌ وَأَرْبَعُونَ طَالِبًا",
+                "fr": "3 345 étudiants, du plus grand au plus petit"
+              },
+              "to": {
+                "ar": "خَمْسَةٌ وَأَرْبَعُونَ وَثَلَاثُمِائَةٍ وَثَلَاثَةُ آلَافِ طَالِبٍ",
+                "fr": "3 345 étudiants, du plus petit au plus grand"
+              }
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Regarde le dénombré : {ar|طَالِبًا} (accusatif) dans la première phrase, {ar|طَالِبٍ} (génitif) dans la seconde. Il dépend du **dernier nombre cité**, comme tu le verras dans l'activité suivante."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l24.grammar-5#3",
+      "type": "question",
+      "prompt": { "fr": "Dans quel ordre est lu {ar|خَمْسَةٌ وَأَرْبَعُونَ وَثَلَاثُمِائَةٍ وَثَلَاثَةُ آلَافِ طَالِبٍ} ?" },
+      "choices": [ { "fr": "Du plus petit au plus grand" }, { "fr": "Du plus grand au plus petit" } ],
+      "answer": 0,
+      "shuffle": false,
+      "explain": "On commence par les unités ({ar|خَمْسَةٌ وَأَرْبَعُونَ}) et on finit par les milliers ({ar|ثَلَاثَةُ آلَافِ})."
+    },
+    {
+      "id": "medine-t2.l24.grammar-5#4",
+      "type": "sort",
+      "categories": [ { "fr": "du plus grand au plus petit" }, { "fr": "du plus petit au plus grand" } ],
+      "cards": [
+        { "ar": "ثَلَاثَةُ آلَافٍ وَخَمْسُمِائَةٍ", "category": 0 },
+        { "ar": "خَمْسُمِائَةٍ وَثَلَاثَةُ آلَافٍ", "category": 1 },
+        { "ar": "أَرْبَعَةُ آلَافٍ وَسِتُّمِائَةٍ", "category": 0 },
+        { "ar": "سِتُّمِائَةٍ وَأَرْبَعَةُ آلَافٍ", "category": 1 },
+        { "ar": "سَبْعَةُ آلَافٍ وَمِائَتَانِ", "category": 0 },
+        { "ar": "مِائَتَانِ وَسَبْعَةُ آلَافٍ", "category": 1 }
+      ],
+      "instruction": "Dans quel ordre est lu ce nombre ?",
+      "explain": "Du plus grand au plus petit : les milliers d'abord. Du plus petit au plus grand : les milliers en dernier."
+    },
+    {
+      "id": "medine-t2.l24.grammar-5#5",
+      "type": "tip",
+      "title": "Un prix : 6 543",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne le même nombre pour des riyals et des roupies. Il lit ici du plus petit au plus grand."
+        },
+        {
+          "type": "example",
+          "ar": "ثَلَاثَةٌ وَأَرْبَعُونَ وَخَمْسُمِائَةٍ وَسِتَّةُ آلَافِ رِيَالٍ.",
+          "fr": "6 543 riyals."
+        },
+        {
+          "type": "example",
+          "ar": "ثَلَاثٌ وَأَرْبَعُونَ وَخَمْسُمِائَةٍ وَسِتَّةُ آلَافِ رُوبِيَّةٍ.",
+          "fr": "6 543 roupies."
+        },
+        {
+          "type": "note",
+          "text": "{ar|رِيَالٌ} est masculin : {ar|ثَلَاثَةٌ}. {ar|رُوبِيَّةٌ} est féminin : {ar|ثَلَاثٌ}. Mais {ar|سِتَّةُ آلَافٍ} garde son {ar|ة} dans les deux cas : mille est masculin."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l24.grammar-5#6",
+      "type": "fill_gap",
+      "sentence": "أَلْفَانِ وَ{0}.",
+      "fr": "2 300",
+      "gaps": [ { "answers": ["ثَلَاثُمِائَةٍ"] } ],
+      "options": ["ثَلَاثُمِائَةٍ", "ثَلَاثَةُ آلَافٍ", "ثَلَاثُونَ"],
+      "explain": "2 300 = 2 000 + 300 : {ar|أَلْفَانِ وَثَلَاثُمِائَةٍ}."
+    },
+    {
+      "id": "medine-t2.l24.grammar-5#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "1 500",
+      "answers": ["أَلْفٌ وَخَمْسُمِائَةٍ", "أَلْفٌ وَخَمْسُمِئَةٍ", "أَلْفًا وَخَمْسَمِائَةٍ", "أَلْفًا وَخَمْسَمِئَةٍ"],
+      "explain": "Du plus grand au plus petit : {ar|أَلْفٌ} (1 000), puis {ar|وَخَمْسُمِائَةٍ} (500)."
+    },
+    {
+      "id": "medine-t2.l24.grammar-5#8",
+      "type": "fill_gap",
+      "sentence": "{0} وَخَمْسُمِائَةٍ.",
+      "fr": "3 500",
+      "gaps": [ { "answers": ["ثَلَاثَةُ آلَافٍ"] } ],
+      "options": ["ثَلَاثَةُ آلَافٍ", "ثَلَاثُمِائَةٍ", "ثَلَاثُونَ"],
+      "explain": "3 500 = 3 000 + 500 : {ar|ثَلَاثَةُ آلَافٍ وَخَمْسُمِائَةٍ}."
+    },
+    {
+      "id": "medine-t2.l24.grammar-5#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "2 700",
+      "answers": [
+        "أَلْفَانِ وَسَبْعُمِائَةٍ",
+        "أَلْفَانِ وَسَبْعُمِئَةٍ",
+        "أَلْفَيْنِ وَسَبْعَمِائَةٍ",
+        "أَلْفَيْنِ وَسَبْعَمِئَةٍ"
+      ],
+      "explain": "{ar|أَلْفَانِ} (2 000) + {ar|وَسَبْعُمِائَةٍ} (700)."
+    },
+    {
+      "id": "medine-t2.l24.grammar-5#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "4 600",
+      "answers": ["أَرْبَعَةُ آلَافٍ وَسِتُّمِائَةٍ", "أَرْبَعَةُ آلَافٍ وَسِتُّمِئَةٍ"],
+      "explain": "{ar|أَرْبَعَةُ آلَافٍ} (4 000) + {ar|وَسِتُّمِائَةٍ} (600)."
+    }
+  ]
+}

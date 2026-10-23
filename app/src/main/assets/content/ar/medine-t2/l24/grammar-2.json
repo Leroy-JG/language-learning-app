@@ -1,0 +1,169 @@
+{
+  "id": "medine-t2.l24.grammar-2",
+  "type": "grammar",
+  "title": "Cent et les unités : de 101 à 199",
+  "icon": "puzzle",
+  "screens": [
+    {
+      "id": "medine-t2.l24.grammar-2#1",
+      "type": "tip",
+      "title": "101 et 102 : on répète le nom",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Après {ar|مِائَةٌ}, on ajoute la suite du nombre avec {ar|وَ}. Pour **101** et **102**, on répète le nom : « cent étudiants et un étudiant »."
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "Avec « étudiant »", "Avec « étudiante »"],
+          "rows": [
+            ["101", "{ar|مِائَةُ طَالِبٍ وَطَالِبٌ}", "{ar|مِائَةُ طَالِبَةٍ وَطَالِبَةٌ}"],
+            ["102", "{ar|مِائَةُ طَالِبٍ وَطَالِبَانِ}", "{ar|مِائَةُ طَالِبَةٍ وَطَالِبَتَانِ}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Mot à mot : « cent étudiants et un étudiant » (101), « cent étudiants et deux étudiants » (102). {ar|مِائَةُ} reste annexé à son dénombré, comme dans {ar|مِائَةُ طَالِبٍ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l24.grammar-2#2",
+      "type": "fill_gap",
+      "sentence": "فِي الْجَامِعَةِ مِائَةُ طَالِبٍ وَ{0}.",
+      "fr": "Il y a cent un étudiants à l'université.",
+      "gaps": [ { "answers": ["طَالِبٌ"] } ],
+      "options": ["طَالِبٌ", "طَالِبَانِ", "طُلَّابٌ"],
+      "explain": "101 : on répète le nom, au singulier : « cent étudiants et un étudiant »."
+    },
+    {
+      "id": "medine-t2.l24.grammar-2#3",
+      "type": "tip",
+      "title": "De 103 à 110 : cent, puis trois à dix",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De 103 à 110, on dit {ar|مِائَةٌ}, puis {ar|وَ}, puis le nombre de 3 à 10 **annexé** à un dénombré au **pluriel**. {ar|مِائَةٌ} prend un tanwin : il n'est plus annexé directement au dénombré."
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "مِائَةُ طَالِبٍ", "fr": "cent étudiants" },
+              "to": { "ar": "مِائَةٌ وَثَلَاثَةُ طُلَّابٍ", "fr": "cent trois étudiants" },
+              "label": "le dénombré passe au pluriel"
+            },
+            {
+              "from": { "ar": "مِائَةُ طَالِبَةٍ", "fr": "cent étudiantes" },
+              "to": { "ar": "مِائَةٌ وَثَلَاثُ طَالِبَاتٍ", "fr": "cent trois étudiantes" },
+              "label": "« trois » est de genre contraire au dénombré"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "Avec « étudiant »", "Avec « étudiante »"],
+          "rows": [
+            ["105", "{ar|مِائَةٌ وَخَمْسَةُ طُلَّابٍ}", "{ar|مِائَةٌ وَخَمْسُ طَالِبَاتٍ}"],
+            ["108", "{ar|مِائَةٌ وَثَمَانِيَةُ طُلَّابٍ}", "{ar|مِائَةٌ وَثَمَانِي طَالِبَاتٍ}"],
+            ["110", "{ar|مِائَةٌ وَعَشَرَةُ طُلَّابٍ}", "{ar|مِائَةٌ وَعَشْرُ طَالِبَاتٍ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l24.grammar-2#4",
+      "type": "fill_gap",
+      "sentence": "فِي الْفَصْلِ مِائَةٌ وَ{0} طُلَّابٍ.",
+      "fr": "Il y a cent quatre étudiants dans la classe.",
+      "gaps": [ { "answers": ["أَرْبَعَةُ"] } ],
+      "options": ["أَرْبَعَةُ", "أَرْبَعُ"],
+      "explain": "{ar|طَالِبٌ} est masculin : {ar|أَرْبَعَةُ}, avec {ar|ة}, et un dénombré au pluriel."
+    },
+    {
+      "id": "medine-t2.l24.grammar-2#5",
+      "type": "fill_gap",
+      "sentence": "فِي الْجَامِعَةِ مِائَةٌ وَ{0} طَالِبَاتٍ.",
+      "fr": "Il y a cent six étudiantes à l'université.",
+      "gaps": [ { "answers": ["سِتُّ"] } ],
+      "options": ["سِتُّ", "سِتَّةُ"],
+      "explain": "{ar|طَالِبَةٌ} est féminin : {ar|سِتُّ}, sans {ar|ة}."
+    },
+    {
+      "id": "medine-t2.l24.grammar-2#6",
+      "type": "tip",
+      "title": "De 111 à 199 : le dernier nombre décide",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "À partir de 111, après {ar|مِائَةٌ وَ}, on dit un nombre de 11 à 99. C'est ce **dernier nombre** qui décide du dénombré : au **singulier** et à l'**accusatif**, comme après tout nombre de 11 à 99."
+        },
+        {
+          "type": "table",
+          "header": ["Nombre", "Avec « étudiant »", "Avec « étudiante »"],
+          "rows": [
+            ["111", "{ar|مِائَةٌ وَأَحَدَ عَشَرَ طَالِبًا}", "{ar|مِائَةٌ وَإِحْدَى عَشْرَةَ طَالِبَةً}"],
+            ["125", "{ar|مِائَةٌ وَخَمْسَةٌ وَعِشْرُونَ طَالِبًا}", "{ar|مِائَةٌ وَخَمْسٌ وَعِشْرُونَ طَالِبَةً}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Les règles du nombre de 11 à 99 ne changent pas : l'unité est de genre contraire au dénombré (sauf un et deux), la dizaine ne change pas de genre."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l24.grammar-2#7",
+      "type": "question",
+      "prompt": {
+        "fr": "Dans {ar|مِائَةٌ وَخَمْسَةٌ وَعِشْرُونَ طَالِبًا}, pourquoi {ar|طَالِبًا} est-il au singulier et à l'accusatif ?"
+      },
+      "choices": [
+        { "fr": "C'est la règle du dernier nombre, vingt-cinq (de 11 à 99)" },
+        { "fr": "C'est la règle de cent : le dénombré est toujours à l'accusatif" },
+        { "fr": "Parce que le nom est masculin" }
+      ],
+      "answer": 0,
+      "explain": "Le dernier nombre cité est {ar|خَمْسَةٌ وَعِشْرُونَ} : il décide du dénombré, au singulier et à l'accusatif."
+    },
+    {
+      "id": "medine-t2.l24.grammar-2#8",
+      "type": "spot",
+      "instruction": "Touche les trois mots qui forment le nombre.",
+      "words": ["فِي", "الْجَامِعَةِ", "مِائَةٌ", "وَخَمْسَةٌ", "وَعِشْرُونَ", "طَالِبًا."],
+      "answers": [2, 3, 4],
+      "fr": "Il y a cent vingt-cinq étudiants à l'université.",
+      "explain": "{ar|مِائَةٌ وَخَمْسَةٌ وَعِشْرُونَ} : le nombre. {ar|طَالِبًا} est le dénombré."
+    },
+    {
+      "id": "medine-t2.l24.grammar-2#9",
+      "type": "order",
+      "fr": "Il y a cent trois étudiantes à l'université.",
+      "answers": [
+        ["فِي", "الْجَامِعَةِ", "مِائَةٌ", "وَثَلَاثُ", "طَالِبَاتٍ"],
+        ["مِائَةٌ", "وَثَلَاثُ", "طَالِبَاتٍ", "فِي", "الْجَامِعَةِ"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|طَالِبَةٌ} est féminin : {ar|ثَلَاثُ}, sans {ar|ة}, puis un pluriel au génitif."
+    },
+    {
+      "id": "medine-t2.l24.grammar-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a cent un étudiants à l'université.",
+      "answers": ["فِي الْجَامِعَةِ مِائَةُ طَالِبٍ وَطَالِبٌ.", "مِائَةُ طَالِبٍ وَطَالِبٌ فِي الْجَامِعَةِ."],
+      "explain": "101 : {ar|مِائَةُ طَالِبٍ} + {ar|وَ} + le nom répété, au singulier."
+    },
+    {
+      "id": "medine-t2.l24.grammar-2#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Il y a cent onze étudiantes à l'université.",
+      "answers": [
+        "فِي الْجَامِعَةِ مِائَةٌ وَإِحْدَى عَشْرَةَ طَالِبَةً.",
+        "مِائَةٌ وَإِحْدَى عَشْرَةَ طَالِبَةً فِي الْجَامِعَةِ."
+      ],
+      "explain": "Le dernier nombre est « onze » : {ar|إِحْدَى عَشْرَةَ} (féminin), avec un dénombré au singulier, à l'accusatif."
+    }
+  ]
+}
