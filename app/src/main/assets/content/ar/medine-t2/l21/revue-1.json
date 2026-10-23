@@ -1,0 +1,145 @@
+{
+  "id": "medine-t2.l21.revue-1",
+  "type": "review",
+  "title": "Revoir : le jussif et ses fins",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l21.revue-1#1",
+      "type": "tip",
+      "title": "Ce que font les jawāzim",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les {ar|الْجَوَازِمُ} mettent le verbe au présent au jussif ({ar|مَجْزُومٌ}) et changent ou nuancent son sens. Tu en connais deux : {ar|لَمْ}, qui nie le passé, et le {ar|لَا} de l'interdiction."
+        },
+        {
+          "type": "table",
+          "header": ["Mot", "La fin du verbe", "Le sens"],
+          "rows": [
+            ["{ar|لَمْ}", "le sukūn : {ar|لَمْ يَكْتُبْ}", "nie le passé : « il n'a pas écrit »"],
+            ["{ar|لَا} qui interdit", "le sukūn : {ar|لَا تَكْتُبْ}", "interdit : « n'écris pas ! »"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Dans ce chapitre, tu vas voir un troisième {ar|جَازِمٌ}, et le professeur reprend {ar|لَمْ} en détail."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.revue-1#2",
+      "type": "tip",
+      "title": "Le jussif à toutes les personnes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Après {ar|لَمْ}, la fin du verbe change selon la personne. Le professeur range les formes de {ar|يَذْهَبُ} en trois groupes."
+        },
+        {
+          "type": "table",
+          "header": ["Le verbe", "Après {ar|لَمْ}", "Ce qui change"],
+          "rows": [
+            ["{ar|هُوَ يَذْهَبُ}", "{ar|هُوَ لَمْ يَذْهَبْ}", "la damma devient un sukūn"],
+            ["{ar|هِيَ تَذْهَبُ}", "{ar|هِيَ لَمْ تَذْهَبْ}", "la damma devient un sukūn"],
+            ["{ar|أَنْتَ تَذْهَبُ}", "{ar|أَنْتَ لَمْ تَذْهَبْ}", "la damma devient un sukūn"],
+            ["{ar|أَنَا أَذْهَبُ}", "{ar|أَنَا لَمْ أَذْهَبْ}", "la damma devient un sukūn"],
+            ["{ar|نَحْنُ نَذْهَبُ}", "{ar|نَحْنُ لَمْ نَذْهَبْ}", "la damma devient un sukūn"],
+            ["{ar|هُمْ يَذْهَبُونَ}", "{ar|هُمْ لَمْ يَذْهَبُوا}", "le nūn tombe"],
+            ["{ar|أَنْتُمْ تَذْهَبُونَ}", "{ar|أَنْتُمْ لَمْ تَذْهَبُوا}", "le nūn tombe"],
+            ["{ar|أَنْتِ تَذْهَبِينَ}", "{ar|أَنْتِ لَمْ تَذْهَبِي}", "le nūn tombe"],
+            ["{ar|هُنَّ يَذْهَبْنَ}", "{ar|هُنَّ لَمْ يَذْهَبْنَ}", "rien ne change"],
+            ["{ar|أَنْتُنَّ تَذْهَبْنَ}", "{ar|أَنْتُنَّ لَمْ تَذْهَبْنَ}", "rien ne change"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pour le deuxième groupe, le professeur dit : {ar|عَلَامَةُ الرَّفْعِ ثُبُوتُ النُّونِ وَعَلَامَةُ الْجَزْمِ حَذْفُهَا} (« la marque du nominatif est la présence du nūn, celle du jussif sa chute »). Le duel suit la même règle : {ar|يَذْهَبَانِ} → {ar|لَمْ يَذْهَبَا}."
+        },
+        {
+          "type": "note",
+          "text": "Pour le troisième groupe, le verbe est déjà au sukūn avant {ar|لَمْ} : on dit qu'il est invariable ({ar|الْفِعْلُ مَبْنِيٌّ عَلَى السُّكُونِ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.revue-1#3",
+      "type": "sort",
+      "categories": [ { "fr": "la damma devient un sukūn" }, { "fr": "le nūn tombe" }, { "fr": "rien ne change" } ],
+      "cards": [
+        { "ar": "نَذْهَبُ", "category": 0 },
+        { "ar": "يَذْهَبُونَ", "category": 1 },
+        { "ar": "تَذْهَبْنَ", "category": 2 },
+        { "ar": "أَذْهَبُ", "category": 0 },
+        { "ar": "تَذْهَبِينَ", "category": 1 },
+        { "ar": "يَذْهَبْنَ", "category": 2 }
+      ],
+      "instruction": "Que devient la fin du verbe après {ar|لَمْ} ?",
+      "explain": "Le verbe qui finit par une damma prend le sukūn ; celui qui finit par {ar|نَ} après une voyelle longue ({ar|ونَ}, {ar|ينَ}) perd son nūn ; celui du féminin pluriel ({ar|يَذْهَبْنَ}) est déjà au sukūn."
+    },
+    {
+      "id": "medine-t2.l21.revue-1#4",
+      "type": "spot",
+      "instruction": "Touche le verbe dont le nūn est tombé.",
+      "words": ["لَمْ", "يَذْهَبُوا", "إِلَى", "الْمَطَارِ."],
+      "answers": [1],
+      "fr": "Ils ne sont pas allés à l'aéroport.",
+      "explain": "{ar|يَذْهَبُونَ} perd son nūn après {ar|لَمْ} : {ar|لَمْ يَذْهَبُوا}."
+    },
+    {
+      "id": "medine-t2.l21.revue-1#5",
+      "type": "fill_gap",
+      "sentence": "هُمْ لَمْ {0} الدَّرْسَ.",
+      "fr": "Ils n'ont pas compris la leçon.",
+      "gaps": [ { "answers": ["يَفْهَمُوا"] } ],
+      "options": ["يَفْهَمُوا", "يَفْهَمُونَ", "يَفْهَمْ"],
+      "explain": "Après {ar|لَمْ}, le nūn de {ar|يَفْهَمُونَ} tombe : {ar|يَفْهَمُوا}. {ar|يَفْهَمْ} est au singulier."
+    },
+    {
+      "id": "medine-t2.l21.revue-1#6",
+      "type": "order",
+      "fr": "Ils ne sont pas allés à l'aéroport.",
+      "answers": [["لَمْ", "يَذْهَبُوا", "إِلَى", "الْمَطَارِ"]],
+      "punctuation": ".",
+      "distractors": ["يَذْهَبُونَ"],
+      "explain": "{ar|لَمْ} + {ar|يَذْهَبُوا} : le nūn de {ar|يَذْهَبُونَ} est tombé."
+    },
+    {
+      "id": "medine-t2.l21.revue-1#7",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|لَمْ}, {ar|يَذْهَبْنَ} (« elles vont ») change de forme." },
+      "answer": false,
+      "explain": "Non : le verbe du féminin pluriel est déjà au sukūn, il ne change pas : {ar|لَمْ يَذْهَبْنَ}."
+    },
+    {
+      "id": "medine-t2.l21.revue-1#8",
+      "type": "fill_gap",
+      "sentence": "أَنْتِ لَمْ {0} إِلَى الْمَدْرَسَةِ يَا سَلْمَى.",
+      "fr": "Tu n'es pas allée à l'école, Salmā.",
+      "gaps": [ { "answers": ["تَذْهَبِي"] } ],
+      "options": ["تَذْهَبِي", "تَذْهَبِينَ", "تَذْهَبْ"],
+      "explain": "Salmā est une femme : {ar|تَذْهَبِينَ} perd son nūn, il reste le {ar|ي}."
+    },
+    {
+      "id": "medine-t2.l21.revue-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Elles n'ont pas écrit les devoirs.",
+      "answers": [
+        "لَمْ يَكْتُبْنَ الْوَاجِبَاتِ.",
+        "هُنَّ لَمْ يَكْتُبْنَ الْوَاجِبَاتِ.",
+        "مَا كَتَبْنَ الْوَاجِبَاتِ.",
+        "هُنَّ مَا كَتَبْنَ الْوَاجِبَاتِ."
+      ],
+      "explain": "Le féminin pluriel est déjà au sukūn : {ar|لَمْ يَكْتُبْنَ}. {ar|الْوَاجِبَاتِ} est le complément d'objet : la kasra du pluriel féminin régulier."
+    },
+    {
+      "id": "medine-t2.l21.revue-1#10",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Nous ne sommes pas allés au marché.",
+      "answers": ["لَمْ نَذْهَبْ إِلَى السُّوقِ.", "نَحْنُ لَمْ نَذْهَبْ إِلَى السُّوقِ."],
+      "explain": "{ar|نَذْهَبُ} → {ar|لَمْ نَذْهَبْ} : la damma devient un sukūn."
+    }
+  ]
+}

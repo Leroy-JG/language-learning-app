@@ -1,0 +1,101 @@
+{
+  "id": "medine-t2.l21.practice-10",
+  "type": "grammar",
+  "title": "Exercice 12 : {ar|قَالَ}, {ar|قَامَ}, {ar|زَارَ}",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l21.practice-10#1",
+      "type": "tip",
+      "title": "Exercice 12 : trois verbes, quatre personnes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne deux lignes et demande la troisième. L'alif tombe devant le pronom. Pour ces trois verbes, la première lettre prend alors une damma (ce n'est pas le cas de tous les verbes : tu le verras plus loin)."
+        },
+        {
+          "type": "table",
+          "header": ["Il", "Tu (à un homme)", "Je", "Nous"],
+          "rows": [
+            ["{ar|قَالَ}", "{ar|قُلْتَ}", "{ar|قُلْتُ}", "{ar|قُلْنَا}"],
+            ["{ar|قَامَ}", "{ar|قُمْتَ}", "{ar|قُمْتُ}", "{ar|قُمْنَا}"],
+            ["{ar|زَارَ}", "?", "?", "?"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.practice-10#2",
+      "type": "fill_gap",
+      "sentence": "حَامِدٌ زَارَ، وَأَنَا {0}.",
+      "fr": "Ḥāmid a visité, et moi, j'ai visité.",
+      "gaps": [ { "answers": ["زُرْتُ"] } ],
+      "options": ["زُرْتُ", "زَارَ", "زُرْنَا"],
+      "explain": "« Moi » : {ar|زَارَ} + {ar|تُ} → {ar|زُرْتُ}."
+    },
+    {
+      "id": "medine-t2.l21.practice-10#3",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Tu as visité (à un homme).",
+      "answers": ["زُرْتَ.", "أَنْتَ زُرْتَ."],
+      "explain": "{ar|زَارَ} + {ar|تَ} : l'alif tombe, {ar|زُ} prend une damma."
+    },
+    {
+      "id": "medine-t2.l21.practice-10#4",
+      "type": "spot",
+      "instruction": "Touche le verbe dont l'alif est tombé.",
+      "words": ["حَامِدٌ", "قَامَ", "وَأَنَا", "قُمْتُ."],
+      "answers": [3],
+      "fr": "Ḥāmid s'est levé et moi, je me suis levé.",
+      "explain": "{ar|قُمْتُ} (de {ar|قَامَ} + {ar|تُ}) a perdu son alif ; {ar|قَامَ} le garde."
+    },
+    {
+      "id": "medine-t2.l21.practice-10#5",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai visité.",
+      "answers": ["زُرْتُ.", "أَنَا زُرْتُ."],
+      "explain": "{ar|زَارَ} + {ar|تُ} → {ar|زُرْتُ}."
+    },
+    {
+      "id": "medine-t2.l21.practice-10#6",
+      "type": "order",
+      "fr": "Nous avons visité le musée hier.",
+      "answers": [
+        ["زُرْنَا", "الْمُتْحَفَ", "أَمْسِ"],
+        ["أَمْسِ", "زُرْنَا", "الْمُتْحَفَ"],
+        ["زُرْنَا", "أَمْسِ", "الْمُتْحَفَ"]
+      ],
+      "punctuation": ".",
+      "explain": "{ar|زَارَ} + {ar|نَا} → {ar|زُرْنَا}. {ar|الْمُتْحَفَ} est le complément d'objet : la fatha."
+    },
+    {
+      "id": "medine-t2.l21.practice-10#7",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Nous avons visité.",
+      "answers": ["زُرْنَا.", "نَحْنُ زُرْنَا."],
+      "explain": "{ar|زَارَ} + {ar|نَا} → {ar|زُرْنَا}."
+    },
+    {
+      "id": "medine-t2.l21.practice-10#8",
+      "type": "fill_gap",
+      "sentence": "هُوَ قَامَ، وَنَحْنُ {0}.",
+      "fr": "Il s'est levé, et nous, nous nous sommes levés.",
+      "gaps": [ { "answers": ["قُمْنَا"] } ],
+      "options": ["قُمْنَا", "قَامَ", "قُمْتُ"],
+      "explain": "« Nous » : {ar|قَامَ} + {ar|نَا} → {ar|قُمْنَا}."
+    },
+    {
+      "id": "medine-t2.l21.practice-10#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "حَامِدٌ زَارَ الْمُتْحَفَ.",
+      "answers": ["أَنَا زُرْتُ الْمُتْحَفَ.", "زُرْتُ الْمُتْحَفَ."],
+      "fr": "Moi, j'ai visité le musée.",
+      "instruction": "Dis la phrase avec {ar|أَنَا} : « moi, j'ai visité le musée ».",
+      "explain": "{ar|زَارَ} devient {ar|زُرْتُ} avec « je »."
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "medine-t2.l21.grammar-1",
+  "type": "grammar",
+  "title": "{ar|لَمْ} : nier le passé",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l21.grammar-1#1",
+      "type": "tip",
+      "title": "{ar|لَمْ} : un présent qui nie le passé",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur reprend {ar|لَمْ}. C'est une particule qui agit sur le verbe au présent de deux manières :"
+        },
+        {
+          "type": "table",
+          "header": ["Effet", "Exemple"],
+          "rows": [
+            ["**1.** Elle met le verbe au jussif ({ar|مَجْزُومٌ})", "{ar|تَشْرَبُ} → {ar|لَمْ تَشْرَبْ}"],
+            ["**2.** Elle nie le verbe au passé", "{ar|لَمْ تَشْرَبْ} : « tu n'as pas bu »"]
+          ]
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "تَشْرَبُ الْقَهْوَةَ", "fr": "Tu bois du café." },
+              "to": { "ar": "لَمْ تَشْرَبِ الْقَهْوَةَ", "fr": "Tu n'as pas bu de café." },
+              "label": "damma → sukūn, devenu kasra devant l'article"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le professeur analyse ainsi : {ar|تَشْرَبُ} est {ar|فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الضَّمَّةُ} ; après {ar|لَمْ}, {ar|تَشْرَبْ} est {ar|فِعْلٌ مُضَارِعٌ مَجْزُومٌ وَعَلَامَةُ جَزْمِهِ السُّكُونُ}."
+        },
+        { "type": "note", "text": "Le verbe a la forme du présent, mais son sens est celui du **passé**." },
+        {
+          "type": "note",
+          "text": "Le professeur ajoute que, dans certains cas, {ar|لَمْ} exprime une négation totale : l'action n'a lieu ni au passé, ni au présent, ni au futur. Ce n'est qu'un aperçu : rien n'est demandé là-dessus."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.grammar-1#2",
+      "type": "tip",
+      "title": "{ar|لَمْ يَذْهَبْ} = {ar|مَا ذَهَبَ}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur écrit : {ar|يَذْهَبُ} - {ar|لَمْ يَذْهَبْ} = {ar|مَا ذَهَبَ}. Dire que quelqu'un n'est pas allé, c'est donc dire {ar|لَمْ} + le présent au sukūn, ou {ar|مَا} + le passé."
+        },
+        {
+          "type": "table",
+          "header": ["Avec {ar|لَمْ}", "Avec {ar|مَا}", "Le sens"],
+          "rows": [
+            ["{ar|لَمْ يَذْهَبْ}", "{ar|مَا ذَهَبَ}", "il n'est pas allé"],
+            ["{ar|لَمْ أَذْهَبْ}", "{ar|مَا ذَهَبْتُ}", "je ne suis pas allé"],
+            ["{ar|لَمْ نَفْهَمْ}", "{ar|مَا فَهِمْنَا}", "nous n'avons pas compris"]
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "memo",
+          "text": "Après {ar|لَمْ}, le verbe reste au présent : on ne met jamais un verbe au passé après {ar|لَمْ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.grammar-1#3",
+      "type": "tip",
+      "title": "{ar|أَلَمْ} : une question négative",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans le texte du livre, tu entends {ar|أَلَمْ يَحْضُرْ؟} (« n'est-il pas venu ? »). C'est {ar|أَ}, la hamza de question, devant {ar|لَمْ} : une question négative."
+        },
+        {
+          "type": "example",
+          "ar": "أَلَمْ تَسْمَعِ الْأَذَانَ؟",
+          "fr": "N'as-tu pas entendu l'appel à la prière ?"
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "En arabe, pour répondre à une question négative, {ar|نَعَمْ} confirme la négation (« c'est exact, il n'est pas venu »), et {ar|بَلَى} la contredit (« si, il est venu ») : chapitre 6. En français, « oui » dirait l'inverse : méfie-toi."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.grammar-1#4",
+      "type": "true_false",
+      "statement": { "fr": "Après {ar|لَمْ}, le verbe est au passé." },
+      "answer": false,
+      "explain": "Non : il a la forme du présent (au sukūn), mais le sens est celui du passé. {ar|لَمْ يَكْتُبْ} veut dire « il n'a pas écrit »."
+    },
+    {
+      "id": "medine-t2.l21.grammar-1#5",
+      "type": "question",
+      "prompt": { "fr": "Que veut dire {ar|لَمْ يَكْتُبْ زَيْدٌ الدَّرْسَ} ?" },
+      "choices": [
+        { "fr": "Zayd n'a pas écrit la leçon" },
+        { "fr": "Zayd n'écrira pas la leçon" },
+        { "fr": "Zayd, écris la leçon !" }
+      ],
+      "answer": 0,
+      "explain": "{ar|لَمْ} + le présent au sukūn : la négation du passé. Le futur négatif se dit avec {ar|لَنْ}, l'ordre avec l'impératif."
+    },
+    {
+      "id": "medine-t2.l21.grammar-1#6",
+      "type": "sort",
+      "categories": [ { "fr": "on ne l'a pas fait (passé)" }, { "fr": "on ne le fera pas (futur)" } ],
+      "cards": [
+        { "ar": "لَمْ أَذْهَبْ", "category": 0 },
+        { "ar": "لَنْ أَذْهَبَ", "category": 1 },
+        { "ar": "لَمْ تَشْرَبْ", "category": 0 },
+        { "ar": "لَنْ تَشْرَبَ", "category": 1 },
+        { "ar": "لَمْ يَكْتُبْ", "category": 0 },
+        { "ar": "لَنْ يَكْتُبَ", "category": 1 }
+      ],
+      "instruction": "Quelle négation ? Passé ou futur ?",
+      "explain": "{ar|لَمْ} (sukūn) nie le passé, {ar|لَنْ} (fatha) nie le futur. Le {ar|لَا} suivi d'une damma nie le présent ou l'habitude, et peut aussi nier le futur : on ne l'a pas mis ici."
+    },
+    {
+      "id": "medine-t2.l21.grammar-1#7",
+      "type": "fill_gap",
+      "sentence": "{0} أَذْهَبْ إِلَى السُّوقِ الْيَوْمَ.",
+      "fr": "Je ne suis pas allé au marché aujourd'hui.",
+      "gaps": [ { "answers": ["لَمْ"] } ],
+      "options": ["لَمْ", "لَنْ", "لَا"],
+      "explain": "Le verbe est au sukūn et la phrase est au passé : {ar|لَمْ}. {ar|لَنْ} demande la fatha ({ar|لَنْ أَذْهَبَ}) et nie le futur."
+    },
+    {
+      "id": "medine-t2.l21.grammar-1#8",
+      "type": "order",
+      "fr": "Zayd n'a pas bu de café.",
+      "answers": [["لَمْ", "يَشْرَبْ", "زَيْدٌ", "قَهْوَةً"], ["زَيْدٌ", "لَمْ", "يَشْرَبْ", "قَهْوَةً"]],
+      "punctuation": ".",
+      "distractors": ["لَنْ"],
+      "explain": "{ar|لَمْ يَشْرَبْ} : la négation du passé, le verbe au sukūn. Le verbe peut précéder ou suivre son sujet."
+    },
+    {
+      "id": "medine-t2.l21.grammar-1#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Tu n'as pas bu de café (à un homme).",
+      "answers": [
+        "لَمْ تَشْرَبِ الْقَهْوَةَ.",
+        "لَمْ تَشْرَبْ قَهْوَةً.",
+        "أَنْتَ لَمْ تَشْرَبِ الْقَهْوَةَ.",
+        "أَنْتَ لَمْ تَشْرَبْ قَهْوَةً.",
+        "مَا شَرِبْتَ الْقَهْوَةَ.",
+        "مَا شَرِبْتَ قَهْوَةً.",
+        "أَنْتَ مَا شَرِبْتَ الْقَهْوَةَ.",
+        "أَنْتَ مَا شَرِبْتَ قَهْوَةً."
+      ],
+      "explain": "{ar|لَمْ} + {ar|تَشْرَبْ}. Devant l'article, le sukūn se prononce comme une kasra : {ar|لَمْ تَشْرَبِ الْقَهْوَةَ}."
+    },
+    {
+      "id": "medine-t2.l21.grammar-1#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "يَذْهَبُ زَيْدٌ إِلَى الْمَدْرَسَةِ.",
+      "answers": ["لَمْ يَذْهَبْ زَيْدٌ إِلَى الْمَدْرَسَةِ.", "زَيْدٌ لَمْ يَذْهَبْ إِلَى الْمَدْرَسَةِ."],
+      "fr": "Zayd n'est pas allé à l'école.",
+      "instruction": "Nie ce verbe avec {ar|لَمْ} : « Zayd n'est pas allé à l'école ».",
+      "explain": "{ar|يَذْهَبُ} devient {ar|يَذْهَبْ} (sukūn) derrière {ar|لَمْ}."
+    }
+  ]
+}

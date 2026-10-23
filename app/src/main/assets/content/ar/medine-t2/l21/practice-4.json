@@ -1,0 +1,107 @@
+{
+  "id": "medine-t2.l21.practice-4",
+  "type": "grammar",
+  "title": "Exercice 4 : répondre « pas encore »",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l21.practice-4#1",
+      "type": "tip",
+      "title": "Exercice 4 : sept réponses avec {ar|لَمَّا}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne un modèle : {ar|لَمَّا أَكْتُبْ} a le même sens que {ar|مَا كَتَبْتُ إِلَى الْآنَ}. Puis il pose sept questions : réponds « pas encore » avec {ar|لَمَّا}."
+        },
+        { "type": "example", "ar": "لَمَّا أَكْتُبْ.", "fr": "Je n'ai pas encore écrit." },
+        { "type": "example", "ar": "مَا كَتَبْتُ إِلَى الْآنَ.", "fr": "Je n'ai pas écrit jusqu'à maintenant." },
+        {
+          "type": "note",
+          "text": "{ar|الطَّائِفُ} (question 7) est une ville d'Arabie saoudite, près de La Mecque."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.practice-4#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَفَهِمْتِ الدَّرْسَ يَا زَيْنَبُ؟",
+      "answers": ["لَا، لَمَّا أَفْهَمِ الدَّرْسَ.", "لَمَّا أَفْهَمِ الدَّرْسَ.", "لَمَّا أَفْهَمْ.", "لَمَّا."],
+      "fr": "Non, je n'ai pas encore compris la leçon.",
+      "instruction": "Réponds comme Zaynab : « non, je n'ai pas encore compris la leçon ».",
+      "explain": "{ar|لَمَّا} + le présent au sukūn, qui devient une kasra devant l'article : {ar|لَمَّا أَفْهَمِ الدَّرْسَ}."
+    },
+    {
+      "id": "medine-t2.l21.practice-4#3",
+      "type": "fill_gap",
+      "sentence": "أَرَجَعَ أَبُوكَ مِنْ دِمَشْقَ يَا عُمَرُ؟ لَا، {0} يَرْجِعْ أَبِي مِنْ دِمَشْقَ.",
+      "fr": "Ton père est-il revenu de Damas, ʿUmar ? — Non, mon père n'est pas encore revenu de Damas.",
+      "gaps": [ { "answers": ["لَمَّا"] } ],
+      "options": ["لَمَّا", "لَنْ", "مَا"],
+      "explain": "« Pas encore » : {ar|لَمَّا} + le présent au sukūn. {ar|لَنْ} voudrait la fatha ; {ar|مَا} voudrait la damma."
+    },
+    {
+      "id": "medine-t2.l21.practice-4#4",
+      "type": "order",
+      "fr": "Non, l'enseignant n'est pas encore entré en classe.",
+      "answers": [
+        ["لَا،", "لَمَّا", "يَدْخُلِ", "الْمُدَرِّسُ", "الْفَصْلَ"],
+        ["لَا،", "الْمُدَرِّسُ", "لَمَّا", "يَدْخُلِ", "الْفَصْلَ"]
+      ],
+      "punctuation": ".",
+      "instruction": "Réponds à : {ar|أَدَخَلَ الْمُدَرِّسُ الْفَصْلَ؟}",
+      "explain": "{ar|يَدْخُلْ} devient {ar|يَدْخُلِ} devant l'article de {ar|الْمُدَرِّسُ}."
+    },
+    {
+      "id": "medine-t2.l21.practice-4#5",
+      "type": "true_false",
+      "statement": { "fr": "On peut répondre seulement {ar|لَمَّا} à {ar|أَرَجَعَ أَبُوكَ؟}" },
+      "answer": true,
+      "explain": "Oui : le professeur dit qu'on peut supprimer le verbe nié après {ar|لَمَّا}."
+    },
+    {
+      "id": "medine-t2.l21.practice-4#6",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَكَتَبْتُمُ الْوَاجِبَاتِ يَا إِخْوَانُ؟",
+      "answers": ["لَمَّا.", "لَمَّا نَكْتُبْ.", "لَمَّا نَكْتُبْهَا.", "لَمَّا نَكْتُبِ الْوَاجِبَاتِ."],
+      "fr": "Pas encore.",
+      "instruction": "Réponds en un mot : « pas encore ».",
+      "explain": "Le professeur demande {ar|لَمَّا} et non le mot du dialecte pour « pas encore »."
+    },
+    {
+      "id": "medine-t2.l21.practice-4#7",
+      "type": "fill_gap",
+      "sentence": "أَقَرَأْنَا الدَّرْسَ الرَّابِعَ؟ لَا، {0} نَقْرَأِ الدَّرْسَ الرَّابِعَ.",
+      "fr": "Avons-nous lu la quatrième leçon ? — Non, nous n'avons pas encore lu la quatrième leçon.",
+      "gaps": [ { "answers": ["لَمَّا"] } ],
+      "options": ["لَمَّا", "لَنْ", "مَا"],
+      "explain": "{ar|لَمَّا} + {ar|نَقْرَأْ}, avec la kasra devant l'article. {ar|الرَّابِعَ} s'accorde avec {ar|الدَّرْسَ}."
+    },
+    {
+      "id": "medine-t2.l21.practice-4#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَغَسَلْتِ قُمْصَانِي يَا أُمِّي؟",
+      "answers": ["لَمَّا أَغْسِلْهَا.", "لَمَّا أَغْسِلْ قُمْصَانَكَ.", "لَا، لَمَّا أَغْسِلْهَا.", "لَمَّا."],
+      "fr": "Pas encore, je ne les ai pas encore lavées.",
+      "instruction": "Réponds comme la mère : « pas encore, je ne les ai pas encore lavées ».",
+      "explain": "{ar|قُمْصَانِي} est un pluriel de choses : on le reprend par {ar|هَا} ({ar|أَغْسِلْهَا}). La mère dit « je » ({ar|أَغْسِلْ})."
+    },
+    {
+      "id": "medine-t2.l21.practice-4#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَذَهَبَ زَمِيلُكَ إِلَى الطَّائِفِ يَا عَلِيُّ؟",
+      "answers": [
+        "لَمَّا يَذْهَبْ زَمِيلِي إِلَى الطَّائِفِ.",
+        "لَا، لَمَّا يَذْهَبْ زَمِيلِي إِلَى الطَّائِفِ.",
+        "لَمَّا يَذْهَبْ.",
+        "لَمَّا."
+      ],
+      "fr": "Pas encore, mon camarade n'est pas encore allé à Ṭāʾif.",
+      "instruction": "Réponds comme ʿAlī : « pas encore, mon camarade n'est pas encore allé à Ṭāʾif ».",
+      "explain": "« Ton camarade » ({ar|زَمِيلُكَ}) devient « mon camarade » ({ar|زَمِيلِي}) dans la réponse."
+    }
+  ]
+}

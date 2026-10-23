@@ -1,0 +1,152 @@
+{
+  "id": "medine-t2.l21.practice-2",
+  "type": "grammar",
+  "title": "Exercice 2 : {ar|لَمْ} et {ar|مَا}",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l21.practice-2#1",
+      "type": "tip",
+      "title": "Exercice 2 : dis-le autrement",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre rappelle : {ar|يَذْهَبُ} - {ar|لَمْ يَذْهَبْ} = {ar|مَا ذَهَبَ}. Il donne ensuite dix phrases avec {ar|لَمْ}. Voici les cinq premières."
+        },
+        {
+          "type": "table",
+          "header": ["Avec {ar|لَمْ}", "Le sens"],
+          "rows": [
+            ["{ar|لَمْ أَذْهَبْ إِلَى السُّوقِ الْيَوْمَ.}", "Je ne suis pas allé au marché aujourd'hui."],
+            ["{ar|لَمْ نَلْعَبْ كُرَةَ السَّلَّةِ أَمْسِ.}", "Nous n'avons pas joué au basket-ball hier."],
+            ["{ar|لَمْ نَفْهَمْ هٰذَا الدَّرْسَ جَيِّدًا.}", "Nous n'avons pas bien compris cette leçon."],
+            [
+              "{ar|أَرَدْتُ أَنْ أَزُورَكَ الْبَارِحَةَ وَلَكِنَّ أَبِي لَمْ يَسْمَحْ لِي بِالْخُرُوجِ لَيْلًا.}",
+              "J'ai voulu te rendre visite hier, mais mon père ne m'a pas permis de sortir la nuit."
+            ],
+            ["{ar|لَمْ آكُلْ شَيْئًا مُنْذُ يَوْمَيْنِ.}", "Je n'ai rien mangé depuis deux jours."]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "{ar|كُرَةُ السَّلَّةِ} : le basket-ball (mot à mot « le ballon du panier »). {ar|لَيْلًا} : « la nuit, de nuit ». {ar|آكُلُ} (« je mange ») est la forme écrite de {ar|أَأْكُلُ}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.practice-2#2",
+      "type": "fill_gap",
+      "sentence": "مَا {0} إِلَى السُّوقِ الْيَوْمَ.",
+      "fr": "Je ne suis pas allé au marché aujourd'hui.",
+      "gaps": [ { "answers": ["ذَهَبْتُ"] } ],
+      "options": ["ذَهَبْتُ", "أَذْهَبْ", "ذَهَبَ"],
+      "explain": "{ar|لَمْ أَذْهَبْ} et {ar|مَا ذَهَبْتُ} disent la même chose : après {ar|مَا}, on met le passé, ici avec « je » ({ar|تُ})."
+    },
+    {
+      "id": "medine-t2.l21.practice-2#3",
+      "type": "typing",
+      "ask": "question",
+      "question": "لَمْ نَفْهَمْ هٰذَا الدَّرْسَ جَيِّدًا.",
+      "answers": ["مَا فَهِمْنَا هٰذَا الدَّرْسَ جَيِّدًا."],
+      "fr": "Nous n'avons pas bien compris cette leçon.",
+      "instruction": "Dis la même chose avec {ar|مَا} : « nous n'avons pas bien compris cette leçon ».",
+      "explain": "{ar|لَمْ نَفْهَمْ} → {ar|مَا فَهِمْنَا} : le passé avec {ar|نَا}."
+    },
+    {
+      "id": "medine-t2.l21.practice-2#4",
+      "type": "order",
+      "fr": "Nous n'avons pas joué au basket-ball hier.",
+      "answers": [
+        ["مَا", "لَعِبْنَا", "كُرَةَ", "السَّلَّةِ", "أَمْسِ"],
+        ["أَمْسِ", "مَا", "لَعِبْنَا", "كُرَةَ", "السَّلَّةِ"],
+        ["مَا", "لَعِبْنَا", "أَمْسِ", "كُرَةَ", "السَّلَّةِ"]
+      ],
+      "punctuation": ".",
+      "distractors": ["لَمْ"],
+      "instruction": "Dis-le avec {ar|مَا} et le passé.",
+      "explain": "{ar|مَا لَعِبْنَا} = {ar|لَمْ نَلْعَبْ}. {ar|كُرَةَ} est le complément d'objet (fatha), {ar|السَّلَّةِ} le second terme de l'annexion (kasra)."
+    },
+    {
+      "id": "medine-t2.l21.practice-2#5",
+      "type": "tip",
+      "title": "Exercice 2 : les cinq autres phrases",
+      "blocks": [
+        {
+          "type": "table",
+          "header": ["Phrase du livre", "Le sens"],
+          "rows": [
+            [
+              "{ar|أَلَمْ تَسْمَعِ الْأَذَانَ يَا هَارُونُ؟ بَلَى، سَمِعْتُ.}",
+              "N'as-tu pas entendu l'appel à la prière, Hārūn ? Si, j'ai entendu."
+            ],
+            [
+              "{ar|لَمْ نَدْرُسِ اللُّغَةَ الْعَرَبِيَّةَ فِي بَلَدِنَا.}",
+              "Nous n'avons pas étudié l'arabe dans notre pays."
+            ],
+            [
+              "{ar|لَمْ يَفْتَحِ الْبَقَّالُ دُكَّانَهُ الْيَوْمَ.}",
+              "L'épicier n'a pas ouvert sa boutique aujourd'hui."
+            ],
+            [
+              "{ar|لَمْ أَشْرَبِ الْقَهْوَةَ بَعْدَ صَلَاةِ الْفَجْرِ الْيَوْمَ.}",
+              "Je n'ai pas bu de café après la prière de l'aube aujourd'hui."
+            ],
+            [
+              "{ar|غَسَلْتُ الْمَنَادِيلَ وَلَمْ أَغْسِلِ الْقُمْصَانَ.}",
+              "J'ai lavé les mouchoirs et je n'ai pas lavé les chemises."
+            ]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Pour dire « si » à une question négative ({ar|أَلَمْ تَسْمَعْ؟}), on répond {ar|بَلَى} (chapitre 6)."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.practice-2#6",
+      "type": "question",
+      "prompt": { "fr": "Que répond-on pour dire « si, j'ai entendu » à {ar|أَلَمْ تَسْمَعِ الْأَذَانَ؟} ?" },
+      "choices": [ { "ar": "بَلَى، سَمِعْتُ." }, { "ar": "نَعَمْ، سَمِعْتُ." }, { "ar": "لَا، سَمِعْتُ." } ],
+      "answer": 0,
+      "explain": "La question est négative : {ar|بَلَى} contredit la négation (« si »)."
+    },
+    {
+      "id": "medine-t2.l21.practice-2#7",
+      "type": "fill_gap",
+      "sentence": "مَا {0} الْبَقَّالُ دُكَّانَهُ الْيَوْمَ.",
+      "fr": "L'épicier n'a pas ouvert sa boutique aujourd'hui.",
+      "gaps": [ { "answers": ["فَتَحَ"] } ],
+      "options": ["فَتَحَ", "يَفْتَحْ", "فَتَحُوا"],
+      "explain": "{ar|لَمْ يَفْتَحِ} = {ar|مَا فَتَحَ} : après {ar|مَا}, le passé, ici à la 3ᵉ personne du singulier."
+    },
+    {
+      "id": "medine-t2.l21.practice-2#8",
+      "type": "true_false",
+      "statement": { "fr": "{ar|لَمْ أَشْرَبِ الْقَهْوَةَ} et {ar|مَا شَرِبْتُ الْقَهْوَةَ} ont le même sens." },
+      "answer": true,
+      "explain": "Oui : « je n'ai pas bu de café »."
+    },
+    {
+      "id": "medine-t2.l21.practice-2#9",
+      "type": "typing",
+      "ask": "question",
+      "question": "مَا دَرَسْنَا اللُّغَةَ الْعَرَبِيَّةَ فِي بَلَدِنَا.",
+      "answers": ["لَمْ نَدْرُسِ اللُّغَةَ الْعَرَبِيَّةَ فِي بَلَدِنَا."],
+      "fr": "Nous n'avons pas étudié l'arabe dans notre pays.",
+      "instruction": "Dis la même chose avec {ar|لَمْ} : « nous n'avons pas étudié l'arabe dans notre pays ».",
+      "explain": "{ar|مَا دَرَسْنَا} → {ar|لَمْ نَدْرُسْ}, avec une kasra devant l'article : {ar|لَمْ نَدْرُسِ اللُّغَةَ}."
+    },
+    {
+      "id": "medine-t2.l21.practice-2#10",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai lavé les mouchoirs et je n'ai pas lavé les chemises.",
+      "answers": [
+        "غَسَلْتُ الْمَنَادِيلَ وَلَمْ أَغْسِلِ الْقُمْصَانَ.",
+        "غَسَلْتُ الْمَنَادِيلَ وَمَا غَسَلْتُ الْقُمْصَانَ."
+      ],
+      "explain": "{ar|غَسَلْتُ} (passé) et {ar|لَمْ أَغْسِلِ} (négation du passé, présent au sukūn)."
+    }
+  ]
+}

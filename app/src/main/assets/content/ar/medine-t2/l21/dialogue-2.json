@@ -1,0 +1,146 @@
+{
+  "id": "medine-t2.l21.dialogue-2",
+  "type": "dialogue",
+  "title": "Phrase nominale et phrase verbale",
+  "icon": "speech",
+  "screens": [
+    {
+      "id": "medine-t2.l21.dialogue-2#1",
+      "type": "dialogue",
+      "title": "Phrase nominale et phrase verbale",
+      "intro": "Le professeur explique la différence entre les deux sortes de phrases. Écoute comment il les définit.",
+      "speakers": {
+        "P": { "name": "Le professeur", "voice": "m1" },
+        "E": { "name": "Les étudiants", "voice": "m2" },
+        "B": { "name": "ʿAbbās", "voice": "m2" }
+      },
+      "lines": [
+        {
+          "speaker": "P",
+          "ar": "سَأَشْرَحُ لَكُمْ هٰذَا الدَّرْسَ مَرَّةً أُخْرَى الْآنَ. اِسْمَعُوا.",
+          "fr": "Je vais vous expliquer cette leçon encore une fois, maintenant. Écoutez."
+        },
+        {
+          "speaker": "P",
+          "ar": "الْجُمْلَةُ الِاسْمِيَّةُ هِيَ الْجُمْلَةُ الَّتِي أَوَّلُهَا اسْمٌ، نَحْوُ: السَّيَّارَةُ جَمِيلَةٌ. حَامِدٌ مَرِيضٌ. آمِنَةُ مُجْتَهِدَةٌ.",
+          "fr": "La phrase nominale est celle dont le premier mot est un nom, par exemple : « La voiture est belle. Ḥāmid est malade. Āmina est studieuse. »"
+        },
+        {
+          "speaker": "P",
+          "ar": "فَكُلُّ جُمْلَةٍ مِنْ هٰذِهِ أَوَّلُهَا اسْمٌ، وَهُوَ الْمُبْتَدَأُ. وَالْجُزْءُ الثَّانِي هُوَ الْخَبَرُ. الْمُبْتَدَأُ وَالْخَبَرُ مَرْفُوعَانِ. أَفَهِمْتُمْ؟",
+          "fr": "Chacune de ces phrases commence par un nom : c'est le mubtadaʾ. La deuxième partie est le khabar. Le mubtadaʾ et le khabar sont au nominatif. Avez-vous compris ?"
+        },
+        { "speaker": "E", "ar": "نَعَمْ، فَهِمْنَاهُ جَيِّدًا.", "fr": "Oui, nous l'avons bien compris." },
+        {
+          "speaker": "B",
+          "ar": "أَنَا لَمَّا أَفْهَمْ. قُلْتَ: إِنَّ الْمُبْتَدَأَ وَالْخَبَرَ مَرْفُوعَانِ. فَمَا مَعْنَى الْمَرْفُوعِ؟",
+          "fr": "Moi, je n'ai pas encore compris. Tu as dit : le mubtadaʾ et le khabar sont au nominatif. Que veut dire « marfūʿ » ?"
+        },
+        {
+          "speaker": "P",
+          "ar": "الْمَرْفُوعُ هُوَ الِاسْمُ الَّذِي فِي آخِرِهِ ضَمَّةٌ، نَحْوُ: الْمُدَرِّسُ. الْكِتَابُ. الْبَابُ.",
+          "fr": "Le marfūʿ est le nom qui a une damma à la fin, par exemple : le professeur, le livre, la porte."
+        },
+        { "speaker": "B", "ar": "الْآنَ فَهِمْتُ.", "fr": "Maintenant, j'ai compris." },
+        {
+          "speaker": "P",
+          "ar": "أَمَّا الْجُمْلَةُ الْفِعْلِيَّةُ فَهِيَ الْجُمْلَةُ الَّتِي أَوَّلُهَا فِعْلٌ، نَحْوُ: دَخَلَ الْمُدَرِّسُ. قَالَ الْمُدِيرُ. يَكْتُبُ الطَّالِبُ.",
+          "fr": "Quant à la phrase verbale, c'est celle dont le premier mot est un verbe, par exemple : « L'enseignant est entré. Le directeur a dit. L'étudiant écrit. »"
+        },
+        {
+          "speaker": "P",
+          "ar": "فَفِي كُلِّ جُمْلَةٍ مِنْ هٰذِهِ كَلِمَتَانِ. الْكَلِمَةُ الْأُولَى فِعْلٌ وَالْكَلِمَةُ الثَّانِيَةُ اسْمٌ. وَهٰذَا الِاسْمُ الَّذِي يَأْتِي بَعْدَ الْفِعْلِ اسْمُهُ الْفَاعِلُ. الْفَاعِلُ مَرْفُوعٌ. أَفَهِمْتُمْ؟",
+          "fr": "Dans chacune de ces phrases, il y a deux mots. Le premier est un verbe et le deuxième un nom. Ce nom qui vient après le verbe s'appelle le fāʿil. Le fāʿil est au nominatif. Avez-vous compris ?"
+        },
+        {
+          "speaker": "E",
+          "ar": "نَعَمْ، فَهِمْنَا وَالْحَمْدُ لِلَّهِ.",
+          "fr": "Oui, nous avons compris, louange à Allah."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.dialogue-2#2",
+      "type": "question",
+      "prompt": { "fr": "Par quoi commence une phrase nominale ?" },
+      "choices": [ { "fr": "Par un nom" }, { "fr": "Par un verbe" }, { "fr": "Par une particule" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l21.dialogue-2#1" },
+      "explain": "{ar|الْجُمْلَةُ الِاسْمِيَّةُ} : celle dont le premier mot est un nom."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-2#3",
+      "type": "question",
+      "prompt": { "fr": "Par quoi commence une phrase verbale ?" },
+      "choices": [ { "fr": "Par un verbe" }, { "fr": "Par un nom" }, { "fr": "Par un pronom" } ],
+      "answer": 0,
+      "context": { "dialogue": "medine-t2.l21.dialogue-2#1" },
+      "explain": "{ar|الْجُمْلَةُ الْفِعْلِيَّةُ} : celle dont le premier mot est un verbe."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-2#4",
+      "type": "sort",
+      "categories": [ { "fr": "phrase nominale" }, { "fr": "phrase verbale" } ],
+      "cards": [
+        { "ar": "السَّيَّارَةُ جَمِيلَةٌ.", "category": 0 },
+        { "ar": "دَخَلَ الْمُدَرِّسُ.", "category": 1 },
+        { "ar": "حَامِدٌ مَرِيضٌ.", "category": 0 },
+        { "ar": "قَالَ الْمُدِيرُ.", "category": 1 },
+        { "ar": "آمِنَةُ مُجْتَهِدَةٌ.", "category": 0 },
+        { "ar": "يَكْتُبُ الطَّالِبُ.", "category": 1 }
+      ],
+      "instruction": "Phrase nominale ou phrase verbale ?",
+      "explain": "On regarde le premier mot : un nom pour la phrase nominale, un verbe pour la phrase verbale."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-2#5",
+      "type": "tip",
+      "title": "Une règle simplifiée",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur dit : « le marfūʿ est le nom qui a une damma à la fin ». C'est la marque de base, celle qu'on apprend d'abord."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Tu sais déjà que certains noms au nominatif ont une autre marque : l'alif du duel ({ar|مُدَرِّسَانِ}) et le wāw du pluriel masculin sain ({ar|مُدَرِّسُونَ})."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.dialogue-2#6",
+      "type": "spot",
+      "instruction": "Touche le {ar|فَاعِلٌ} : le nom qui fait l'action.",
+      "words": ["دَخَلَ", "الْمُدَرِّسُ."],
+      "answers": [1],
+      "fr": "L'enseignant est entré.",
+      "explain": "Le {ar|فَاعِلٌ} est le nom qui vient après le verbe : {ar|الْمُدَرِّسُ}. Il est au nominatif."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-2#7",
+      "type": "fill_gap",
+      "sentence": "الْجُمْلَةُ {0} هِيَ الَّتِي أَوَّلُهَا اسْمٌ.",
+      "fr": "La phrase nominale est celle dont le premier mot est un nom.",
+      "gaps": [ { "answers": ["الِاسْمِيَّةُ"] } ],
+      "options": ["الِاسْمِيَّةُ", "الْفِعْلِيَّةُ", "الْمُفِيدَةُ"],
+      "explain": "{ar|الِاسْمِيَّةُ} vient de {ar|اسْمٌ}. {ar|الْفِعْلِيَّةُ} vient de {ar|فِعْلٌ}."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-2#8",
+      "type": "question",
+      "prompt": { "fr": "Dans {ar|حَامِدٌ مَرِيضٌ}, quel est le cas des deux mots ?" },
+      "choices": [ { "fr": "Le nominatif" }, { "fr": "L'accusatif" }, { "fr": "Le génitif" } ],
+      "answer": 0,
+      "explain": "Le {ar|مُبْتَدَأٌ} ({ar|حَامِدٌ}) et le {ar|خَبَرٌ} ({ar|مَرِيضٌ}) sont au nominatif : la damma."
+    },
+    {
+      "id": "medine-t2.l21.dialogue-2#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Le fāʿil est au nominatif.",
+      "answers": ["الْفَاعِلُ مَرْفُوعٌ."],
+      "explain": "{ar|الْفَاعِلُ} est le nom qui suit le verbe ; il est {ar|مَرْفُوعٌ}."
+    }
+  ]
+}

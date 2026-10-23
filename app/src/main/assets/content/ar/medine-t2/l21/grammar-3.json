@@ -1,0 +1,146 @@
+{
+  "id": "medine-t2.l21.grammar-3",
+  "type": "grammar",
+  "title": "Deux sukūn dans un verbe",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l21.grammar-3#1",
+      "type": "tip",
+      "title": "Deux lettres sākina ne se rencontrent pas",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au chapitre 7, tu as vu qu'en arabe, en général, deux sukūn ne se suivent pas (par exemple devant l'article ; l'exception est une lettre doublée, comme dans {ar|دَابَّةٌ}). Le professeur rappelle que cette règle vaut pour les noms **et** pour les verbes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand on ajoute au verbe un pronom comme {ar|تُ}, {ar|تَ}, {ar|تُمْ} ou {ar|نَا}, sa dernière lettre devient sākina (comme dans {ar|كَتَبْتُ}, {ar|ذَهَبْنَا}). Si une voyelle longue ({ar|ا}) la précède, deux lettres sākina se rencontreraient : la voyelle longue **disparaît**."
+        },
+        {
+          "type": "table",
+          "header": ["Verbe + pronom", "Ce qu'on obtiendrait", "Ce qu'on écrit"],
+          "rows": [
+            ["{ar|أَرَادَ} + {ar|تُ}", "{ar|أَرَادْتُ}", "{ar|أَرَدْتُ}"],
+            ["{ar|قَالَ} + {ar|تُمْ}", "{ar|قَالْتُمْ}", "{ar|قُلْتُمْ}"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.grammar-3#2",
+      "type": "tip",
+      "title": "Du verbe à la forme avec pronom",
+      "blocks": [
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "أَرَادَ", "fr": "il a voulu" },
+              "to": { "ar": "أَرَدْتُ", "fr": "j'ai voulu" },
+              "label": "l'alif tombe"
+            },
+            {
+              "from": { "ar": "قَالَ", "fr": "il a dit" },
+              "to": { "ar": "قُلْتُمْ", "fr": "vous avez dit" },
+              "label": "l'alif tombe, le qāf prend une damma"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Dans {ar|قُلْتُمْ}, la lettre {ar|ق} change de voyelle (fatha → damma). Ce changement dépend du verbe : tu comprendras pourquoi avec les verbes « creux », plus loin dans le cours."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Cette règle ne joue qu'avec un pronom qui rend la dernière lettre sākina. Avec {ar|وا} par exemple ({ar|قَالُوا}), rien ne tombe."
+        },
+        {
+          "type": "note",
+          "tone": "info",
+          "text": "Ne confonds pas avec l'article (chapitre 7) : là, une voyelle longue reste écrite et se prononce brève ({ar|فِي الْبَيْتِ}). Ici, la voyelle longue disparaît aussi à l'écrit."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.grammar-3#3",
+      "type": "sort",
+      "categories": [ { "fr": "le verbe seul (il)" }, { "fr": "le verbe avec un pronom (je, tu, nous)" } ],
+      "cards": [
+        { "ar": "قَالَ", "category": 0 },
+        { "ar": "قُلْتُ", "category": 1 },
+        { "ar": "قَامَ", "category": 0 },
+        { "ar": "قُمْنَا", "category": 1 },
+        { "ar": "زَارَ", "category": 0 },
+        { "ar": "زُرْتَ", "category": 1 }
+      ],
+      "instruction": "Le verbe est-il seul, ou suivi d'un pronom ?",
+      "explain": "Sans pronom, l'alif reste ({ar|قَالَ}, {ar|قَامَ}, {ar|زَارَ}). Avec {ar|تُ}, {ar|تَ} ou {ar|نَا}, il tombe."
+    },
+    {
+      "id": "medine-t2.l21.grammar-3#4",
+      "type": "tip",
+      "title": "Où est passé l'alif ?",
+      "blocks": [
+        {
+          "type": "breakdown",
+          "ar": "أَرَدْتُ",
+          "fr": "j'ai voulu",
+          "parts": [ { "ar": "أَرَدْ", "fr": "le verbe, sans l'alif" }, { "ar": "تُ", "fr": "je" } ]
+        },
+        {
+          "type": "breakdown",
+          "ar": "قُلْنَا",
+          "fr": "nous avons dit",
+          "parts": [ { "ar": "قُلْ", "fr": "le verbe, sans l'alif" }, { "ar": "نَا", "fr": "nous" } ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.grammar-3#5",
+      "type": "question",
+      "prompt": { "fr": "Que devient l'alif de {ar|قَالَ} dans {ar|قُلْتُمْ} ?" },
+      "choices": [
+        { "fr": "Il tombe, car deux lettres sākina ne se suivent pas" },
+        { "fr": "Il devient un wāw" },
+        { "fr": "Il reste, mais sans voyelle" }
+      ],
+      "answer": 0,
+      "explain": "La dernière lettre est devenue sākina à cause de {ar|تُمْ} : l'alif, sākin lui aussi, disparaît."
+    },
+    {
+      "id": "medine-t2.l21.grammar-3#6",
+      "type": "fill_gap",
+      "sentence": "أَنَا {0} الْحَدِيقَةَ أَمْسِ.",
+      "fr": "J'ai visité le jardin hier.",
+      "gaps": [ { "answers": ["زُرْتُ"] } ],
+      "options": ["زُرْتُ", "زَارَ", "زُرْنَا"],
+      "explain": "« J'ai visité » : {ar|زَارَ} + {ar|تُ} → {ar|زُرْتُ}. {ar|زُرْنَا} serait « nous »."
+    },
+    {
+      "id": "medine-t2.l21.grammar-3#7",
+      "type": "true_false",
+      "statement": { "fr": "On écrit {ar|أَرَادْتُ} pour « j'ai voulu »." },
+      "answer": false,
+      "explain": "Non : l'alif tombe devant le sukūn de {ar|دْتُ} : on écrit {ar|أَرَدْتُ}."
+    },
+    {
+      "id": "medine-t2.l21.grammar-3#8",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "J'ai voulu.",
+      "answers": ["أَرَدْتُ.", "أَنَا أَرَدْتُ."],
+      "explain": "{ar|أَرَادَ} + {ar|تُ} : l'alif tombe."
+    },
+    {
+      "id": "medine-t2.l21.grammar-3#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "J'ai voulu te rendre visite hier.",
+      "answers": ["أَرَدْتُ أَنْ أَزُورَكَ الْبَارِحَةَ."],
+      "explain": "{ar|أَرَدْتُ} (l'alif est tombé) + {ar|أَنْ أَزُورَكَ} : {ar|أَزُورَ} à la fatha après {ar|أَنْ}, avec le pronom {ar|كَ}."
+    }
+  ]
+}

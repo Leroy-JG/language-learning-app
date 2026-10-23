@@ -1,0 +1,115 @@
+{
+  "id": "medine-t2.l21.practice-3",
+  "type": "grammar",
+  "title": "Exercice 3 : répondre « non » avec {ar|لَمْ}",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l21.practice-3#1",
+      "type": "tip",
+      "title": "Exercice 3 : six réponses négatives",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre pose six questions au passé. Réponds « non » avec {ar|لَمْ}. Quand la question dit « tu », la réponse dit « je » ; quand elle dit « vous », la réponse dit « nous »."
+        },
+        {
+          "type": "example",
+          "ar": "أَدَرَسْتَ اللُّغَةَ الْعَرَبِيَّةَ فِي بَلَدِكَ؟",
+          "fr": "As-tu étudié l'arabe dans ton pays ?"
+        },
+        {
+          "type": "example",
+          "ar": "لَا، لَمْ أَدْرُسِ اللُّغَةَ الْعَرَبِيَّةَ فِي بَلَدِي.",
+          "fr": "Non, je n'ai pas étudié l'arabe dans mon pays."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.practice-3#2",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَدَرَسْتَ اللُّغَةَ الْعَرَبِيَّةَ فِي بَلَدِكَ؟",
+      "answers": [
+        "لَا، لَمْ أَدْرُسِ اللُّغَةَ الْعَرَبِيَّةَ فِي بَلَدِي.",
+        "لَمْ أَدْرُسِ اللُّغَةَ الْعَرَبِيَّةَ فِي بَلَدِي.",
+        "لَا، لَمْ أَدْرُسْ.",
+        "لَمْ أَدْرُسْ."
+      ],
+      "fr": "Non, je n'ai pas étudié l'arabe dans mon pays.",
+      "instruction": "Réponds « non » avec {ar|لَمْ} : « je n'ai pas étudié l'arabe dans mon pays ».",
+      "explain": "« Ton pays » ({ar|بَلَدِكَ}) devient « mon pays » ({ar|بَلَدِي}) dans la réponse."
+    },
+    {
+      "id": "medine-t2.l21.practice-3#3",
+      "type": "fill_gap",
+      "sentence": "أَكَسَرْتَ نَظَّارَةَ الْحَسَنِ يَا هَارُونُ؟ لَا، لَمْ {0} نَظَّارَةَ الْحَسَنِ.",
+      "fr": "As-tu cassé les lunettes d'al-Ḥasan, Hārūn ? — Non, je n'ai pas cassé les lunettes d'al-Ḥasan.",
+      "gaps": [ { "answers": ["أَكْسِرْ"] } ],
+      "options": ["أَكْسِرْ", "نَكْسِرْ", "يَكْسِرْ"],
+      "explain": "Hārūn répond pour lui-même : « je » ({ar|أَكْسِرْ}). {ar|نَظَّارَةٌ} désigne une paire de lunettes."
+    },
+    {
+      "id": "medine-t2.l21.practice-3#4",
+      "type": "order",
+      "fr": "Non, nous ne sommes pas allés au musée.",
+      "answers": [["لَا،", "لَمْ", "نَذْهَبْ", "إِلَى", "الْمُتْحَفِ"]],
+      "punctuation": ".",
+      "instruction": "Réponds à : {ar|أَذَهَبْتُمْ إِلَى الْمُتْحَفِ يَا إِخْوَانُ؟}",
+      "explain": "La question dit « vous » ({ar|ذَهَبْتُمْ}) ; la réponse dit « nous » : {ar|لَمْ نَذْهَبْ}."
+    },
+    {
+      "id": "medine-t2.l21.practice-3#5",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَدَخَلْتِ الْمَكْتَبَةَ الْجَدِيدَةَ يَا سَلْمَى؟",
+      "answers": [
+        "لَا، لَمْ أَدْخُلِ الْمَكْتَبَةَ الْجَدِيدَةَ.",
+        "لَمْ أَدْخُلِ الْمَكْتَبَةَ الْجَدِيدَةَ.",
+        "لَا، لَمْ أَدْخُلْ.",
+        "لَمْ أَدْخُلْ."
+      ],
+      "fr": "Non, je ne suis pas entrée dans la nouvelle bibliothèque.",
+      "instruction": "Réponds comme Salmā, avec {ar|لَمْ} : « non, je ne suis pas entrée dans la nouvelle bibliothèque ».",
+      "explain": "{ar|أَدْخُلْ} devient {ar|أَدْخُلِ} devant l'article de {ar|الْمَكْتَبَةَ}."
+    },
+    {
+      "id": "medine-t2.l21.practice-3#6",
+      "type": "true_false",
+      "statement": {
+        "fr": "Dans la réponse à {ar|أَذَهَبْتُمْ إِلَى الْمُتْحَفِ؟}, on dit {ar|لَمْ نَذْهَبْ}, avec {ar|نَ}, parce que « vous » devient « nous »."
+      },
+      "answer": true,
+      "explain": "Oui : celui qui répond parle de son groupe : « nous »."
+    },
+    {
+      "id": "medine-t2.l21.practice-3#7",
+      "type": "question",
+      "prompt": {
+        "fr": "Quelle est la bonne réponse à {ar|أَسَأَلَكَ الْمُدِيرُ عَنِّي؟} (« le directeur t'a-t-il interrogé sur moi ? ») ?"
+      },
+      "choices": [
+        { "ar": "لَا، لَمْ يَسْأَلْنِي الْمُدِيرُ عَنْكَ." },
+        { "ar": "لَا، لَمْ يَسْأَلْنِي الْمُدِيرُ عَنِّي." },
+        { "ar": "لَا، لَنْ يَسْأَلَنِي الْمُدِيرُ عَنْكَ." }
+      ],
+      "answer": 0,
+      "explain": "Celui qui répond dit « toi » ({ar|عَنْكَ}) quand la question disait « moi » ({ar|عَنِّي}). {ar|لَمْ يَسْأَلْنِي} : {ar|لَمْ} + le présent au sukūn + le pronom {ar|نِي}. {ar|لَنْ} serait le futur."
+    },
+    {
+      "id": "medine-t2.l21.practice-3#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَفَتَحْتَ نَافِذَةَ غُرْفَةِ الْمُدِيرِ يَا وَلَدُ؟",
+      "answers": [
+        "لَا، لَمْ أَفْتَحْ نَافِذَةَ غُرْفَةِ الْمُدِيرِ.",
+        "لَمْ أَفْتَحْ نَافِذَةَ غُرْفَةِ الْمُدِيرِ.",
+        "لَا، لَمْ أَفْتَحْ.",
+        "لَمْ أَفْتَحْ."
+      ],
+      "fr": "Non, je n'ai pas ouvert la fenêtre de la pièce du directeur.",
+      "instruction": "Réponds « non » avec {ar|لَمْ} : « je n'ai pas ouvert la fenêtre de la pièce du directeur ».",
+      "explain": "{ar|نَافِذَةَ} est le complément d'objet (fatha) ; {ar|غُرْفَةِ} et {ar|الْمُدِيرِ} sont des seconds termes d'annexion (kasra)."
+    }
+  ]
+}

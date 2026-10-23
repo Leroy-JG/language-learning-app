@@ -1,0 +1,121 @@
+{
+  "id": "medine-t2.l21.practice-9",
+  "type": "grammar",
+  "title": "Exercices 10 et 11 : nom, verbe, particule ; {ar|اللَّائِي}",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l21.practice-9#1",
+      "type": "tip",
+      "title": "Exercice 10 : le nom, le verbe, la particule",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne neuf phrases où il faut trouver les noms, les verbes et les particules. Tu connais les trois sortes de mots (dialogue du texte). Voici trois repères :"
+        },
+        {
+          "type": "table",
+          "header": ["Sorte de mot", "Ce qu'il faut savoir"],
+          "rows": [
+            [
+              "le nom ({ar|الِاسْمُ})",
+              "il désigne un être, une chose ou une idée : {ar|كِتَابٌ}, {ar|طَالِبٌ} ; les pronoms comme {ar|أَنَا} sont aussi des noms"
+            ],
+            ["le verbe ({ar|الْفِعْلُ})", "il dit une action, avec son temps : {ar|خَرَجَ}, {ar|يَبْحَثُ}"],
+            [
+              "la particule ({ar|الْحَرْفُ})",
+              "elle n'a pas de sens seule : {ar|إِلَى}, {ar|فِي}, {ar|لَنْ}, {ar|لَمْ}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.practice-9#2",
+      "type": "sort",
+      "categories": [ { "fr": "un nom" }, { "fr": "un verbe" }, { "fr": "une particule" } ],
+      "cards": [
+        { "ar": "الْمُدَرِّسُ", "category": 0 },
+        { "ar": "خَرَجَ", "category": 1 },
+        { "ar": "إِلَى", "category": 2 },
+        { "ar": "الْمِفْتَاحِ", "category": 0 },
+        { "ar": "يَبْحَثُ", "category": 1 },
+        { "ar": "فَهِمْتُ", "category": 1 },
+        { "ar": "لَنْ", "category": 2 },
+        { "ar": "طَالِبٌ", "category": 0 }
+      ],
+      "instruction": "Nom, verbe ou particule ?",
+      "explain": "Ce sont des mots de l'exercice : {ar|الْمُدَرِّسُ}, {ar|الْمِفْتَاحِ} et {ar|طَالِبٌ} sont des noms ; {ar|خَرَجَ}, {ar|يَبْحَثُ} et {ar|فَهِمْتُ} des verbes ; {ar|إِلَى} et {ar|لَنْ} des particules."
+    },
+    {
+      "id": "medine-t2.l21.practice-9#3",
+      "type": "spot",
+      "instruction": "Touche le verbe.",
+      "words": ["لَا", "تَكْتُبْ", "بِالْقَلَمِ", "الْأَحْمَرِ."],
+      "answers": [1],
+      "fr": "N'écris pas avec le stylo rouge.",
+      "explain": "{ar|تَكْتُبْ} est le verbe (au jussif, après {ar|لَا} qui interdit)."
+    },
+    {
+      "id": "medine-t2.l21.practice-9#4",
+      "type": "spot",
+      "instruction": "Touche les deux particules.",
+      "words": ["مَا", "عِنْدِي", "قَلَمٌ", "وَلَا", "كِتَابٌ."],
+      "answers": [0, 3],
+      "fr": "Je n'ai ni stylo ni livre.",
+      "explain": "{ar|مَا} (négation) et {ar|وَلَا} ({ar|وَ} + {ar|لَا}) sont des particules. {ar|عِنْدِي}, {ar|قَلَمٌ} et {ar|كِتَابٌ} sont des noms."
+    },
+    {
+      "id": "medine-t2.l21.practice-9#5",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|أَنَا طَالِبٌ}, il n'y a aucun verbe." },
+      "answer": true,
+      "explain": "Oui : {ar|أَنَا} et {ar|طَالِبٌ} sont deux noms ; c'est une phrase nominale."
+    },
+    {
+      "id": "medine-t2.l21.practice-9#6",
+      "type": "spot",
+      "instruction": "Touche le verbe qui est au jussif.",
+      "words": ["لَمْ", "أَغْسِلِ", "الْمَنَادِيلَ", "بِالصَّابُونِ."],
+      "answers": [1],
+      "fr": "Je n'ai pas lavé les mouchoirs avec du savon.",
+      "explain": "{ar|أَغْسِلِ} suit {ar|لَمْ} : sukūn, devenu kasra devant l'article."
+    },
+    {
+      "id": "medine-t2.l21.practice-9#7",
+      "type": "tip",
+      "title": "Exercice 11 : {ar|اللَّائِي} et {ar|اللَّاتِي}",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre donne : {ar|الطَّالِبَاتُ اللَّاتِي} ({ar|اللَّائِي}) {ar|خَرَجْنَ مِنَ الْفَصْلِ الْآنَ مِنَ الْفِلِبِّينِ}. Les deux formes se valent."
+        },
+        {
+          "type": "example",
+          "ar": "الطَّالِبَاتُ اللَّاتِي خَرَجْنَ مِنَ الْفَصْلِ الْآنَ مِنَ الْفِلِبِّينِ.",
+          "fr": "Les étudiantes qui viennent de sortir de la classe sont des Philippines."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.practice-9#8",
+      "type": "fill_gap",
+      "sentence": "الطَّالِبَاتُ {0} خَرَجْنَ مِنَ الْفَصْلِ الْآنَ مِنَ الْفِلِبِّينِ.",
+      "fr": "Les étudiantes qui viennent de sortir de la classe sont des Philippines.",
+      "gaps": [ { "answers": ["اللَّاتِي", "اللَّائِي"] } ],
+      "options": ["اللَّاتِي", "اللَّائِي", "الَّذِينَ"],
+      "explain": "Pour plusieurs femmes : {ar|اللَّاتِي} ou {ar|اللَّائِي}. {ar|الَّذِينَ} est le pluriel masculin (des hommes, ou un groupe mixte)."
+    },
+    {
+      "id": "medine-t2.l21.practice-9#9",
+      "type": "typing",
+      "ask": "audio",
+      "fr": "Les étudiantes qui viennent de sortir de la classe sont des Philippines.",
+      "answers": [
+        "الطَّالِبَاتُ اللَّاتِي خَرَجْنَ مِنَ الْفَصْلِ الْآنَ مِنَ الْفِلِبِّينِ.",
+        "الطَّالِبَاتُ اللَّائِي خَرَجْنَ مِنَ الْفَصْلِ الْآنَ مِنَ الْفِلِبِّينِ."
+      ],
+      "explain": "{ar|خَرَجْنَ} : le féminin pluriel, comme {ar|اللَّاتِي}."
+    }
+  ]
+}

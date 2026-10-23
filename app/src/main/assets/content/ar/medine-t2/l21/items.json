@@ -1,0 +1,108 @@
+[
+  {
+    "id": "w:lamma",
+    "kind": "word",
+    "ar": "لَمَّا",
+    "fr": "pas encore (particule)",
+    "translit": "lammā",
+    "note": "Elle se met devant un présent au sukūn (le jussif) : {ar|لَمَّا يَرْجِعْ} (« il n'est pas encore revenu »). On peut aussi répondre seulement {ar|لَمَّا} : « pas encore ».",
+    "example": { "ar": "لَمَّا يَرْجِعْ زَيْدٌ مِنَ الْمَدْرَسَةِ.", "fr": "Zayd n'est pas encore revenu de l'école." }
+  },
+  {
+    "id": "w:rais",
+    "kind": "word",
+    "ar": "رَئِيسٌ",
+    "fr": "un président, un chef",
+    "translit": "raʾīsun",
+    "plural": "رُؤَسَاءُ",
+    "gender": "m",
+    "note": "On l'emploie pour le chef d'un pays, d'un groupe ou d'une entreprise. Son pluriel s'écrit avec un {ar|ؤ} : {ar|رُؤَسَاءُ}.",
+    "example": { "ar": "الرَّئِيسُ فِي الْمَطَارِ الْآنَ.", "fr": "Le président est à l'aéroport maintenant." }
+  },
+  {
+    "id": "w:farq",
+    "kind": "word",
+    "ar": "فَرْقٌ",
+    "fr": "une différence",
+    "translit": "farqun",
+    "plural": "فُرُوقٌ",
+    "gender": "m",
+    "note": "Il se construit avec {ar|بَيْنَ} : « la différence entre … et … ».",
+    "example": {
+      "ar": "مَا الْفَرْقُ بَيْنَ الْكِتَابِ وَالْقَلَمِ؟",
+      "fr": "Quelle est la différence entre le livre et le stylo ?"
+    }
+  },
+  {
+    "id": "w:allai",
+    "kind": "word",
+    "ar": "اللَّائِي",
+    "fr": "celles qui (autre forme de {ar|اللَّاتِي})",
+    "translit": "allāʾī",
+    "note": "Même sens et même emploi que {ar|اللَّاتِي} (chapitre 9) : elles servent pour plusieurs femmes, et ne changent jamais.",
+    "example": {
+      "ar": "سَأَلْتُ أَخَوَاتِي اللَّائِي يَدْرُسْنَ فِي الثَّانَوِيَّةِ.",
+      "fr": "J'ai interrogé mes sœurs, qui étudient au lycée."
+    }
+  },
+  {
+    "id": "w:nahw-2",
+    "kind": "word",
+    "ar": "نَحْوٌ",
+    "fr": "une direction ; « par exemple »",
+    "translit": "naḥwun",
+    "plural": "أَنْحَاءٌ",
+    "gender": "m",
+    "note": "C'est le même mot que {ar|النَّحْوُ} (« la grammaire », tome 1) : son sens de base est « direction, manière ». Devant un exemple, le professeur dit {ar|نَحْوُ} : « par exemple ».",
+    "example": { "ar": "الِاسْمُ نَحْوُ: كِتَابٌ.", "fr": "Le nom, par exemple : « livre »." }
+  },
+  {
+    "id": "w:mithal",
+    "kind": "word",
+    "ar": "مِثَالٌ",
+    "fr": "un exemple",
+    "translit": "mithālun",
+    "plural": "أَمْثِلَةٌ",
+    "gender": "m",
+    "note": "Le professeur demande souvent un {ar|مِثَالٌ}. Pour introduire un exemple, on dit {ar|نَحْوُ} (« par exemple »).",
+    "example": { "ar": "هَاتِ مِثَالًا يَا زَيْدُ.", "fr": "Donne un exemple, Zayd." }
+  },
+  {
+    "id": "w:qism",
+    "kind": "word",
+    "ar": "قِسْمٌ",
+    "fr": "une section, une partie",
+    "translit": "qismun",
+    "plural": "أَقْسَامٌ",
+    "gender": "m",
+    "note": "Le professeur l'emploie pour les « sortes » de mots : {ar|أَقْسَامُ الْكَلِمَةِ} (le nom, le verbe et la particule).",
+    "example": { "ar": "لِلْمَدْرَسَةِ قِسْمَانِ.", "fr": "L'école a deux sections." }
+  },
+  {
+    "id": "w:kama",
+    "kind": "word",
+    "ar": "كَمَا",
+    "fr": "comme, de même que",
+    "translit": "kamā",
+    "note": "C'est {ar|كَ} (« comme », chapitre 18) + {ar|مَا}.",
+    "example": { "ar": "اُكْتُبْ كَمَا كَتَبَ الْمُدَرِّسُ.", "fr": "Écris comme l'enseignant a écrit." }
+  },
+  {
+    "id": "w:mahlan",
+    "kind": "word",
+    "ar": "مَهْلًا",
+    "fr": "doucement !",
+    "translit": "mahlan",
+    "note": "On le dit seul, pour demander à quelqu'un de ne pas aller trop vite : « pas si vite ! ».",
+    "example": { "ar": "مَهْلًا يَا أَحْمَدُ.", "fr": "Doucement, Aḥmad." }
+  },
+  {
+    "id": "w:istaraha",
+    "kind": "word",
+    "ar": "اِسْتَرَاحَ",
+    "fr": "il s'est reposé (se reposer)",
+    "translit": "istarāḥa",
+    "note": "Présent : {ar|يَسْتَرِيحُ} ; impératif : {ar|اِسْتَرِحْ}, et au pluriel {ar|اِسْتَرِيحُوا}. Son nom d'action, {ar|اِسْتِرَاحَةٌ}, est une pause, un temps de repos. {ar|قَلِيلًا} veut dire « un peu » (c'est {ar|قَلِيلٌ} à l'accusatif).",
+    "example": { "ar": "اِسْتَرَاحَ الْمُدَرِّسُ قَلِيلًا.", "fr": "L'enseignant s'est reposé un peu." }
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "id": "medine-t2.l21.practice-6",
+  "type": "grammar",
+  "title": "Exercice 7 : compléter avec un verbe (1 à 6)",
+  "icon": "pen",
+  "screens": [
+    {
+      "id": "medine-t2.l21.practice-6#1",
+      "type": "tip",
+      "title": "Exercice 7 : un verbe au jussif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le livre demande de compléter chaque phrase par un verbe qui convient. Choisis la bonne forme : elle dépend de la personne, et du nombre quand il y a un sujet."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.practice-6#2",
+      "type": "fill_gap",
+      "sentence": "أَلَمْ {0} اللُّغَةَ الْعَرَبِيَّةَ فِي بَلَدِكَ يَا أَخِي؟",
+      "fr": "N'as-tu pas étudié l'arabe dans ton pays, mon frère ?",
+      "gaps": [ { "answers": ["تَدْرُسِ"] } ],
+      "options": ["تَدْرُسِ", "تَدْرُسُوا", "يَدْرُسْنَ"],
+      "explain": "On parle à un seul homme : {ar|تَدْرُسْ}, avec la kasra devant l'article."
+    },
+    {
+      "id": "medine-t2.l21.practice-6#3",
+      "type": "fill_gap",
+      "sentence": "مَنْ كَسَرَ هٰذِهِ الْمِرْآةَ يَا عَلِيُّ؟ لَا أَدْرِي. أَنَا لَمْ {0}.",
+      "fr": "Qui a cassé ce miroir, ʿAlī ? — Je ne sais pas. Moi, je ne l'ai pas cassé.",
+      "gaps": [ { "answers": ["أَكْسِرْهَا"] } ],
+      "options": ["أَكْسِرْهَا", "تَكْسِرْهَا", "نَكْسِرْهَا"],
+      "explain": "« Moi » : {ar|أَكْسِرْ}. {ar|مِرْآةٌ} est féminin : on la reprend par {ar|هَا}."
+    },
+    {
+      "id": "medine-t2.l21.practice-6#4",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَخَرَجَ الطُّلَّابُ مِنَ الْفَصْلِ يَا حَامِدُ؟",
+      "answers": ["لَا، لَمْ يَخْرُجُوا.", "لَمْ يَخْرُجُوا."],
+      "fr": "Non, ils ne sont pas sortis.",
+      "instruction": "Réponds « non » avec {ar|لَمْ} : « ils ne sont pas sortis ».",
+      "explain": "Pour plusieurs hommes : {ar|يَخْرُجُونَ} perd son nūn : {ar|لَمْ يَخْرُجُوا}."
+    },
+    {
+      "id": "medine-t2.l21.practice-6#5",
+      "type": "fill_gap",
+      "sentence": "قَالَتِ الْمُدَرِّسَةُ لِلْمُدِيرَةِ: إِنَّ هٰؤُلَاءِ الطَّالِبَاتِ لَمْ {0} الْوَاجِبَاتِ.",
+      "fr": "L'enseignante a dit à la directrice : ces étudiantes n'ont pas écrit les devoirs.",
+      "gaps": [ { "answers": ["يَكْتُبْنَ"] } ],
+      "options": ["يَكْتُبْنَ", "يَكْتُبُوا", "تَكْتُبْنَ"],
+      "explain": "« Elles » (des étudiantes) : le féminin pluriel, {ar|يَكْتُبْنَ}, déjà au sukūn."
+    },
+    {
+      "id": "medine-t2.l21.practice-6#6",
+      "type": "true_false",
+      "statement": { "fr": "Dans {ar|لَمْ يَكْتُبْنَ}, le verbe est au féminin pluriel." },
+      "answer": true,
+      "explain": "Oui : {ar|نَ} est le pronom de « elles »."
+    },
+    {
+      "id": "medine-t2.l21.practice-6#7",
+      "type": "fill_gap",
+      "sentence": "نَحْنُ لَمْ {0} إِلَى حَدِيقَةِ الْحَيَوَانَاتِ أَمْسِ.",
+      "fr": "Nous ne sommes pas allés au zoo hier.",
+      "gaps": [ { "answers": ["نَذْهَبْ"] } ],
+      "options": ["نَذْهَبْ", "أَذْهَبْ", "يَذْهَبُوا"],
+      "explain": "« Nous » : {ar|نَذْهَبْ}."
+    },
+    {
+      "id": "medine-t2.l21.practice-6#8",
+      "type": "typing",
+      "ask": "question",
+      "question": "كَنَسَتْ أُخْتِي غُرْفَتَهَا.",
+      "answers": [
+        "كَنَسَتْ أُخْتِي غُرْفَتَهَا وَلَمْ أَكْنُسْ غُرْفَتِي.",
+        "كَنَسَتْ أُخْتِي غُرْفَتَهَا وَلَمْ تَكْنُسْ غُرْفَتِي.",
+        "كَنَسَتْ أُخْتِي غُرْفَتَهَا وَأَنَا لَمْ أَكْنُسْ غُرْفَتِي."
+      ],
+      "fr": "Ma sœur a balayé sa chambre et je n'ai pas balayé la mienne.",
+      "instruction": "Ajoute : « et je n'ai pas balayé ma chambre » (ou : « et elle n'a pas balayé la mienne »).",
+      "explain": "On peut aussi dire {ar|وَلَمْ تَكْنُسْ غُرْفَتِي} (« et elle n'a pas balayé la mienne »). Ici : {ar|لَمْ أَكْنُسْ}, avec {ar|غُرْفَتِي} (complément d'objet)."
+    }
+  ]
+}

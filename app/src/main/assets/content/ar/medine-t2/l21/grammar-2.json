@@ -1,0 +1,164 @@
+{
+  "id": "medine-t2.l21.grammar-2",
+  "type": "grammar",
+  "title": "{ar|لَمَّا} : pas encore",
+  "icon": "question",
+  "screens": [
+    {
+      "id": "medine-t2.l21.grammar-2#1",
+      "type": "tip",
+      "title": "{ar|لَمَّا}, la particule de « pas encore »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur présente une autre particule qui met le verbe au présent au jussif : {ar|لَمَّا}. Comme {ar|لَمْ}, elle agit de deux manières :"
+        },
+        {
+          "type": "table",
+          "header": ["Effet", "Exemple"],
+          "rows": [
+            ["**1.** Elle met le verbe au jussif ({ar|مَجْزُومٌ})", "{ar|يَرْجِعُ} → {ar|لَمَّا يَرْجِعْ}"],
+            ["**2.** Elle nie le verbe au passé, **jusqu'au moment présent**", "« il n'est pas encore revenu »"]
+          ]
+        },
+        {
+          "type": "compare",
+          "rows": [
+            {
+              "from": { "ar": "يَرْجِعُ زَيْدٌ مِنَ الْمَدْرَسَةِ", "fr": "Zayd revient de l'école." },
+              "to": {
+                "ar": "لَمَّا يَرْجِعْ زَيْدٌ مِنَ الْمَدْرَسَةِ",
+                "fr": "Zayd n'est pas encore revenu de l'école."
+              },
+              "label": "damma → sukūn, avec le sens « pas encore »"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Analyse du professeur : {ar|يَرْجِعُ} est {ar|فِعْلٌ مُضَارِعٌ مَرْفُوعٌ وَعَلَامَةُ رَفْعِهِ الضَّمَّةُ} ; après {ar|لَمَّا}, {ar|يَرْجِعْ} est {ar|فِعْلٌ مُضَارِعٌ مَجْزُومٌ وَعَلَامَةُ جَزْمِهِ السُّكُونُ}."
+        }
+      ]
+    },
+    { "id": "medine-t2.l21.grammar-2#2", "type": "present", "item": "w:lamma" },
+    {
+      "id": "medine-t2.l21.grammar-2#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:lamma",
+      "distractors": ["w:aydan", "w:ayna"],
+      "explain": "{ar|لَمَّا} : « pas encore ». {ar|أَيْضًا} veut dire « aussi », {ar|أَيْنَ} « où ? »."
+    },
+    {
+      "id": "medine-t2.l21.grammar-2#4",
+      "type": "tip",
+      "title": "{ar|لَمْ} ou {ar|لَمَّا} ?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les deux nient le passé et mettent le verbe au sukūn. Voici ce qui les distingue, d'après le professeur :"
+        },
+        {
+          "type": "table",
+          "header": ["Ce qui change", "{ar|لَمْ}", "{ar|لَمَّا}"],
+          "rows": [
+            ["La fin du verbe", "le sukūn", "le sukūn"],
+            ["Le sens", "nie le passé : « il n'est pas revenu »", "nie le passé : « il n'est pas encore revenu »"],
+            ["La négation va jusqu'à maintenant", "pas obligatoirement", "obligatoirement"],
+            ["L'action", "rien n'est suggéré", "elle est attendue : elle risque de se produire"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Avec {ar|لَمْ يَرْجِعْ}, on dit seulement qu'il n'est pas revenu : il est peut-être revenu depuis. Avec {ar|لَمَّا يَرْجِعْ}, il n'est toujours pas revenu à cet instant, et on l'attend."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.grammar-2#5",
+      "type": "tip",
+      "title": "Répondre avec un seul mot",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur ajoute qu'on peut supprimer le verbe nié après {ar|لَمَّا}. On répond alors par ce seul mot :"
+        },
+        { "type": "example", "ar": "أَرَجَعَ أَبُوكَ؟", "fr": "Ton père est-il revenu ?" },
+        { "type": "example", "ar": "لَمَّا.", "fr": "Pas encore." },
+        { "type": "example", "ar": "أَكَتَبْتُمُ الْوَاجِبَاتِ؟", "fr": "Avez-vous écrit les devoirs ?" },
+        { "type": "example", "ar": "لَمَّا.", "fr": "Pas encore." },
+        {
+          "type": "note",
+          "tone": "culture",
+          "text": "Dans certains dialectes, on entend plutôt un autre mot pour dire « pas encore » (par exemple « lissa »). Le professeur demande à ses étudiants de dire {ar|لَمَّا} en arabe standard."
+        },
+        {
+          "type": "note",
+          "tone": "warning",
+          "text": "Attention : {ar|لَمَّا} suivi d'un verbe **au passé** a un autre sens (« quand »). Ici, il est suivi d'un présent au sukūn."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.grammar-2#6",
+      "type": "true_false",
+      "statement": { "fr": "{ar|لَمَّا يَرْجِعْ زَيْدٌ} veut dire que Zayd n'est toujours pas revenu à cet instant." },
+      "answer": true,
+      "explain": "Oui : avec {ar|لَمَّا}, la négation se prolonge jusqu'au moment où l'on parle."
+    },
+    {
+      "id": "medine-t2.l21.grammar-2#7",
+      "type": "sort",
+      "categories": [ { "ar": "لَمْ" }, { "ar": "لَمَّا" } ],
+      "cards": [
+        { "fr": "Il n'est pas allé au marché hier.", "category": 0 },
+        { "fr": "Il n'est pas encore arrivé.", "category": 1 },
+        { "fr": "Elle n'a pas mangé hier soir.", "category": 0 },
+        { "fr": "Nous n'avons pas encore mangé.", "category": 1 },
+        { "fr": "Ils n'ont pas voyagé l'été dernier.", "category": 0 },
+        { "fr": "Je n'ai pas encore écrit.", "category": 1 }
+      ],
+      "instruction": "Quelle particule choisir ?",
+      "explain": "Avec « hier » ou « l'été dernier », l'action appartient à un passé terminé : {ar|لَمْ}. « Pas encore » dure jusqu'à maintenant : {ar|لَمَّا}."
+    },
+    {
+      "id": "medine-t2.l21.grammar-2#8",
+      "type": "fill_gap",
+      "sentence": "أَرَجَعَ الْمُدِيرُ مِنْ مَكَّةَ؟ {0}.",
+      "fr": "Le directeur est-il revenu de La Mecque ? — Pas encore.",
+      "gaps": [ { "answers": ["لَمَّا"] } ],
+      "options": ["لَمَّا", "نَعَمْ", "بَلَى"],
+      "explain": "On répond « pas encore » par le seul mot {ar|لَمَّا}."
+    },
+    {
+      "id": "medine-t2.l21.grammar-2#9",
+      "type": "order",
+      "fr": "Zayd n'est pas encore revenu de l'école.",
+      "answers": [
+        ["لَمَّا", "يَرْجِعْ", "زَيْدٌ", "مِنَ", "الْمَدْرَسَةِ"],
+        ["زَيْدٌ", "لَمَّا", "يَرْجِعْ", "مِنَ", "الْمَدْرَسَةِ"]
+      ],
+      "punctuation": ".",
+      "distractors": ["لَنْ"],
+      "explain": "{ar|لَمَّا} + le présent au sukūn. Le sujet peut suivre le verbe ou précéder {ar|لَمَّا}."
+    },
+    {
+      "id": "medine-t2.l21.grammar-2#10",
+      "type": "typing",
+      "ask": "question",
+      "question": "أَكَتَبْتُمُ الْوَاجِبَاتِ؟",
+      "answers": ["لَمَّا.", "لَمَّا نَكْتُبْ.", "لَمَّا نَكْتُبْهَا.", "لَمَّا نَكْتُبِ الْوَاجِبَاتِ."],
+      "fr": "Pas encore.",
+      "instruction": "Réponds en un mot : « pas encore ».",
+      "explain": "Le verbe nié peut être supprimé après {ar|لَمَّا} : on répond simplement {ar|لَمَّا}."
+    },
+    {
+      "id": "medine-t2.l21.grammar-2#11",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Zayd n'est pas encore revenu.",
+      "answers": ["لَمَّا يَرْجِعْ زَيْدٌ.", "زَيْدٌ لَمَّا يَرْجِعْ."],
+      "explain": "{ar|لَمَّا} + {ar|يَرْجِعْ} : « il n'est pas encore revenu »."
+    }
+  ]
+}

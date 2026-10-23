@@ -1,0 +1,92 @@
+{
+  "id": "medine-t2.l21.vocab-3",
+  "type": "vocabulary",
+  "title": "Se reposer, venir",
+  "icon": "book",
+  "screens": [
+    { "id": "medine-t2.l21.vocab-3#1", "type": "present", "item": "w:istaraha" },
+    {
+      "id": "medine-t2.l21.vocab-3#2",
+      "type": "tip",
+      "title": "Les formes de ces verbes",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le professeur donne les quatre formes de deux verbes. Le nom d'action ({ar|الْمَصْدَرُ}) est la dernière colonne. Tu connais déjà {ar|أَتَى} (chapitre 18) : le tableau en donne les autres formes."
+        },
+        {
+          "type": "table",
+          "header": ["Sens", "Passé", "Présent", "Impératif", "Nom d'action"],
+          "rows": [
+            ["se reposer", "{ar|اِسْتَرَاحَ}", "{ar|يَسْتَرِيحُ}", "{ar|اِسْتَرِحْ}", "{ar|اِسْتِرَاحَةً}"],
+            ["venir", "{ar|أَتَى}", "{ar|يَأْتِي}", "{ar|اِئْتِ}", "{ar|إِتْيَانًا}"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Impératif de {ar|اِسْتَرَاحَ} : le {ar|ي} de {ar|يَسْتَرِيحُ} tombe, car deux lettres sākina ne se suivent pas ({ar|اِسْتَرِحْ}). Au pluriel, il revient : {ar|اِسْتَرِيحُوا}."
+        },
+        {
+          "type": "note",
+          "text": "Impératif de {ar|أَتَى} : le {ar|ي} de {ar|يَأْتِي} tombe aussi (c'est la lettre faible finale, qui tombe au jussif et à l'impératif). On écrit {ar|اِئْتِ} avec {ar|ئ}, parce que la hamza suit une kasra ; l'alif porte une kasra, comme la voyelle du milieu de {ar|يَأْتِي}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.vocab-3#3",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:istaraha", "w:ata", "w:zara"]
+    },
+    {
+      "id": "medine-t2.l21.vocab-3#4",
+      "type": "sort",
+      "categories": [ { "fr": "le passé" }, { "fr": "le présent" }, { "fr": "l'impératif" } ],
+      "cards": [
+        { "ar": "اِسْتَرَاحَ", "category": 0 },
+        { "ar": "يَأْتِي", "category": 1 },
+        { "ar": "اِسْتَرِحْ", "category": 2 },
+        { "ar": "أَتَى", "category": 0 },
+        { "ar": "يَسْتَرِيحُ", "category": 1 },
+        { "ar": "اِئْتِ", "category": 2 }
+      ],
+      "instruction": "C'est quelle forme du verbe ?",
+      "explain": "Le passé est à la 3ᵉ personne ({ar|اِسْتَرَاحَ}, {ar|أَتَى}) ; le présent commence par {ar|يَ} ; l'impératif commence par un alif de liaison ({ar|اِسْتَرِحْ}, {ar|اِئْتِ}) et finit par un sukūn ou une kasra."
+    },
+    {
+      "id": "medine-t2.l21.vocab-3#5",
+      "type": "fill_gap",
+      "sentence": "{0} الطُّلَّابُ قَلِيلًا.",
+      "fr": "Les étudiants se sont reposés un peu.",
+      "gaps": [ { "answers": ["اِسْتَرَاحَ"] } ],
+      "options": ["اِسْتَرَاحَ", "اِسْتَرِحْ", "يَسْتَرِيحُ"],
+      "explain": "« Ils se sont reposés » : le passé, {ar|اِسْتَرَاحَ}. Le verbe reste au singulier devant son sujet {ar|الطُّلَّابُ}."
+    },
+    {
+      "id": "medine-t2.l21.vocab-3#6",
+      "type": "fill_gap",
+      "sentence": "يَا أَحْمَدُ، {0} قَلِيلًا.",
+      "fr": "Aḥmad, repose-toi un peu.",
+      "gaps": [ { "answers": ["اِسْتَرِحْ"] } ],
+      "options": ["اِسْتَرِحْ", "اِسْتَرَاحَ", "يَسْتَرِيحُ"],
+      "explain": "On s'adresse à Aḥmad : l'impératif, {ar|اِسْتَرِحْ}."
+    },
+    {
+      "id": "medine-t2.l21.vocab-3#7",
+      "type": "order",
+      "fr": "Zayd est venu à l'école.",
+      "answers": [["أَتَى", "زَيْدٌ", "إِلَى", "الْمَدْرَسَةِ"], ["زَيْدٌ", "أَتَى", "إِلَى", "الْمَدْرَسَةِ"]],
+      "punctuation": ".",
+      "explain": "{ar|أَتَى} suit ou précède son sujet {ar|زَيْدٌ}."
+    },
+    { "id": "medine-t2.l21.vocab-3#8", "type": "typing", "ask": "fr", "item": "w:istaraha" },
+    {
+      "id": "medine-t2.l21.vocab-3#9",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Viens, Zayd !",
+      "answers": ["اِئْتِ يَا زَيْدُ.", "يَا زَيْدُ، اِئْتِ.", "تَعَالَ يَا زَيْدُ.", "يَا زَيْدُ، تَعَالَ."],
+      "explain": "L'impératif de {ar|أَتَى} : {ar|اِئْتِ}. Tu connais aussi {ar|تَعَالَ} (« viens ! », chapitre 14), qui est aussi juste. {ar|زَيْدُ} est appelé avec {ar|يَا} : la damma."
+    }
+  ]
+}

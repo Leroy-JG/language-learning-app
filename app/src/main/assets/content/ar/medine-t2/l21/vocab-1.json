@@ -1,0 +1,90 @@
+{
+  "id": "medine-t2.l21.vocab-1",
+  "type": "vocabulary",
+  "title": "Président, différence, section",
+  "icon": "book",
+  "screens": [
+    { "id": "medine-t2.l21.vocab-1#1", "type": "present", "item": "w:rais" },
+    { "id": "medine-t2.l21.vocab-1#2", "type": "present", "item": "w:farq" },
+    {
+      "id": "medine-t2.l21.vocab-1#3",
+      "type": "mcq",
+      "mode": "ar-fr",
+      "item": "w:rais",
+      "distractors": ["w:wazir", "w:mudir"],
+      "explain": "{ar|رَئِيسٌ} : un président, un chef. {ar|وَزِيرٌ} est un ministre, {ar|مُدِيرٌ} un directeur."
+    },
+    { "id": "medine-t2.l21.vocab-1#4", "type": "present", "item": "w:qism" },
+    { "id": "medine-t2.l21.vocab-1#5", "type": "present", "item": "w:nahw-2" },
+    { "id": "medine-t2.l21.vocab-1#6", "type": "present", "item": "w:mithal" },
+    {
+      "id": "medine-t2.l21.vocab-1#7",
+      "type": "match",
+      "mode": "ar-fr",
+      "items": ["w:farq", "w:qism", "w:nahw-2", "w:mithal"]
+    },
+    {
+      "id": "medine-t2.l21.vocab-1#8",
+      "type": "tip",
+      "title": "{ar|نَحْوُ} : « par exemple »",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans le texte du livre, le professeur et ses étudiants disent {ar|نَحْوُ} pour introduire un exemple :"
+        },
+        {
+          "type": "example",
+          "ar": "الْحَرْفُ نَحْوُ: فِي، وَإِلَى.",
+          "fr": "La particule, par exemple : « dans » et « vers »."
+        },
+        {
+          "type": "example",
+          "ar": "الْفِعْلُ نَحْوُ: خَرَجَ، وَجَلَسَ.",
+          "fr": "Le verbe, par exemple : « il est sorti » et « il s'est assis »."
+        },
+        {
+          "type": "note",
+          "text": "{ar|نَحْوٌ} veut dire d'abord « direction » ; son pluriel est {ar|أَنْحَاءٌ}. Ne le confonds pas avec {ar|مِثَالٌ}, « un exemple » (le nom) : on dit {ar|هَاتِ مِثَالًا}."
+        }
+      ]
+    },
+    {
+      "id": "medine-t2.l21.vocab-1#9",
+      "type": "match",
+      "mode": "sing-plur",
+      "items": ["w:rais", "w:farq", "w:qism", "w:nahw-2", "w:mithal"]
+    },
+    {
+      "id": "medine-t2.l21.vocab-1#10",
+      "type": "fill_gap",
+      "sentence": "مَا {0} بَيْنَ الْجُمْلَةِ الِاسْمِيَّةِ وَالْجُمْلَةِ الْفِعْلِيَّةِ؟",
+      "fr": "Quelle est la différence entre la phrase nominale et la phrase verbale ?",
+      "gaps": [ { "answers": ["الْفَرْقُ"] } ],
+      "options": ["الْفَرْقُ", "الْقِسْمُ", "الرَّئِيسُ"],
+      "explain": "« La différence entre … et … » se dit avec {ar|الْفَرْقُ} suivi de {ar|بَيْنَ}."
+    },
+    {
+      "id": "medine-t2.l21.vocab-1#11",
+      "type": "order",
+      "fr": "L'école a deux sections.",
+      "answers": [["لِلْمَدْرَسَةِ", "قِسْمَانِ"]],
+      "punctuation": ".",
+      "distractors": ["قِسْمَيْنِ"],
+      "explain": "{ar|قِسْمَانِ} est au duel et au nominatif (le sujet, placé après {ar|لِلْمَدْرَسَةِ}) : l'alif."
+    },
+    { "id": "medine-t2.l21.vocab-1#12", "type": "build", "item": "w:rais", "extra": ["ؤ"] },
+    { "id": "medine-t2.l21.vocab-1#13", "type": "typing", "ask": "fr", "item": "w:farq" },
+    {
+      "id": "medine-t2.l21.vocab-1#14",
+      "type": "typing",
+      "ask": "fr",
+      "fr": "Le président est à l'aéroport maintenant.",
+      "answers": [
+        "الرَّئِيسُ فِي الْمَطَارِ الْآنَ.",
+        "الرَّئِيسُ الْآنَ فِي الْمَطَارِ.",
+        "الْآنَ الرَّئِيسُ فِي الْمَطَارِ."
+      ],
+      "explain": "{ar|الرَّئِيسُ} s'écrit avec {ar|ئ} ; son pluriel, {ar|رُؤَسَاءُ}, avec {ar|ؤ}."
+    }
+  ]
+}
