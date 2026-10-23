@@ -51,7 +51,7 @@
         { "ar": "اِئْتِ", "category": 2 }
       ],
       "instruction": "C'est quelle forme du verbe ?",
-      "explain": "Le passé (3ᵉ personne) finit par une fatha ; le présent commence par {ar|يَ} ; l'impératif commence par un alif de liaison ({ar|اِ}) et finit par un sukūn ou une kasra."
+      "explain": "Le passé est à la 3ᵉ personne ({ar|اِسْتَرَاحَ}, {ar|أَتَى}) ; le présent commence par {ar|يَ} ; l'impératif commence par un alif de liaison ({ar|اِسْتَرِحْ}, {ar|اِئْتِ}) et finit par un sukūn ou une kasra."
     },
     {
       "id": "medine-t2.l21.vocab-3#5",

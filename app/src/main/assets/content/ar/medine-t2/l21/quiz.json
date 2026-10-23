@@ -22,10 +22,10 @@
     {
       "id": "medine-t2.l21.quiz#3",
       "type": "question",
-      "prompt": { "fr": "Après {ar|لَمْ}, quelle est la marque du verbe au présent ?" },
+      "prompt": { "fr": "Après {ar|لَمْ}, quelle est la marque d'un verbe au présent au singulier, comme {ar|يَكْتُبُ} ?" },
       "choices": [ { "fr": "Le sukūn" }, { "fr": "La fatha" }, { "fr": "La damma" } ],
       "answer": 0,
-      "explain": "{ar|لَمْ} met le verbe au jussif ({ar|مَجْزُومٌ}) : le sukūn. La fatha est pour {ar|لَنْ}, la damma pour le verbe sans particule."
+      "explain": "{ar|لَمْ} met le verbe au jussif ({ar|مَجْزُومٌ}) : {ar|لَمْ يَكْتُبْ}. La fatha est pour {ar|لَنْ}, la damma pour le verbe sans particule. Les verbes qui finissent par {ar|ونَ} ou {ar|ينَ} perdent leur nūn à la place."
     },
     {
       "id": "medine-t2.l21.quiz#4",

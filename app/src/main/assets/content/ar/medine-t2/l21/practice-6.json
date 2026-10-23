@@ -78,7 +78,7 @@
         "كَنَسَتْ أُخْتِي غُرْفَتَهَا وَلَمْ تَكْنُسْ غُرْفَتِي."
       ],
       "fr": "Ma sœur a balayé sa chambre et je n'ai pas balayé la mienne.",
-      "instruction": "Ajoute : « et je n'ai pas balayé ma chambre ».",
+      "instruction": "Ajoute : « et je n'ai pas balayé ma chambre » (ou : « et elle n'a pas balayé la mienne »).",
       "explain": "On peut aussi dire {ar|وَلَمْ تَكْنُسْ غُرْفَتِي} (« et elle n'a pas balayé la mienne »). Ici : {ar|لَمْ أَكْنُسْ}, avec {ar|غُرْفَتِي} (complément d'objet)."
     }
   ]
